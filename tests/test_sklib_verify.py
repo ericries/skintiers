@@ -128,6 +128,30 @@ def test_verify_uncited_statistic_is_warning():
     assert any("uncited statistic in paragraph" in w for w in warnings)
 
 
+def test_verify_uncited_statistic_outside_evidence_section_not_flagged():
+    # An uncited stat under ## Uses (not an evidence-bearing section) is EXEMPT.
+    body = (
+        "## The Rubric\nA.[^1]\n\n## The Evidence\nB.[^1]\n\n"
+        "## Uses\nComparable to metronidazole 0.75% for rosacea.\n\n"
+        "## Manufacturer Claims\nc\n\n## Sources\n[^1]: X. https://nature.com/a\n"
+    )
+    errors, warnings = sklib.verify_profile(DRAFT_META, body)
+    assert errors == [] and warnings == []
+
+
+def test_verify_uncited_statistic_in_evidence_sections_flagged():
+    # Each evidence-bearing heading (Rubric / Evidence / What We Actually Know) still warns.
+    for heading in ("## The Rubric", "## The Evidence", "## What We Actually Know"):
+        body = (
+            "## The Rubric\nA.[^1]\n\n## The Evidence\nB.[^1]\n\n"
+            f"{heading}\nAn uncited 42% reduction was seen.\n\n"
+            "## Manufacturer Claims\nc\n\n## Sources\n[^1]: X. https://nature.com/a\n"
+        )
+        errors, warnings = sklib.verify_profile(DRAFT_META, body)
+        assert errors == [], heading
+        assert any("uncited statistic in paragraph" in w for w in warnings), heading
+
+
 def test_verify_statistic_in_sources_not_flagged():
     body = (
         "## The Rubric\nA.[^1]\n\n## The Evidence\nB.[^1]\n\n"

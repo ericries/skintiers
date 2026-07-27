@@ -124,6 +124,8 @@ def classify_domain(url):
 _REQUIRED_SECTIONS = ("The Rubric", "The Evidence", "Sources")
 _QUARANTINE_SECTIONS = ("Manufacturer Claims", "Common Marketing Claims")
 _STAT_RE = re.compile(r"\d+(\.\d+)?\s*%|\bn\s*=\s*\d+|95%\s*C[rI]|\bP\s*[<=]\s*\.?\d")
+# Uncited-statistic check fires only under evidence-bearing section headings.
+_EVIDENCE_SECTION_KEYWORDS = ("rubric", "evidence", "what we actually know")
 
 
 def _has_section(content, name):
@@ -162,13 +164,21 @@ def verify_profile(metadata, content):
     if not any(_has_section(content, q) for q in _QUARANTINE_SECTIONS):
         warnings.append("no quarantined marketing-claims section")
 
-    # Uncited statistics (D1/D2) — paragraphs outside ## Sources.
+    # Uncited statistics (D1/D2) — only in evidence-bearing sections, outside ## Sources.
     body = content
     m = _SOURCES_HEADING_RE.search(body)
     if m:
         body = body[: m.start()]
+    current_section = ""
     for para in re.split(r"\n\s*\n", body):
         if not para.strip():
+            continue
+        # Track the nearest preceding ## / ### heading (may appear in this block).
+        for line in para.splitlines():
+            if line.startswith("## ") or line.startswith("### "):
+                current_section = line
+        section_lc = current_section.lower()
+        if not any(k in section_lc for k in _EVIDENCE_SECTION_KEYWORDS):
             continue
         if _STAT_RE.search(para) and not _REF_RE.search(para):
             snippet = " ".join(para.split())[:60]
@@ -243,6 +253,21 @@ def queue_add(data_dir, name, type, priority=5, discovered_from=None, source=Non
     })
     save_queue(data_dir, items)
     return True
+
+
+def review_verdict(data_dir, slug):
+    """Return the review verdict for slug from review-log.yaml, or None if absent.
+
+    review-log.yaml maps slug -> {last_reviewed, score, verdict, note}.
+    """
+    path = pathlib.Path(data_dir) / "review-log.yaml"
+    if not path.exists():
+        return None
+    data = _yaml.safe_load(path.read_text()) or {}
+    entry = data.get(slug)
+    if not isinstance(entry, dict):
+        return None
+    return entry.get("verdict")
 
 
 def queue_resolve(data_dir, name):

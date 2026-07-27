@@ -76,7 +76,18 @@ def _set_and_build(slug, status, mark_analyzed=False):
 
 
 def cmd_publish(args):
-    return _set_and_build(args.slug, "published", mark_analyzed=True)
+    verdict = sklib.review_verdict(sklib.DATA_DIR, args.slug)
+    if verdict != "publish" and not getattr(args, "force", False):
+        print(
+            f"refusing to publish {args.slug}: no passing critic review "
+            f"(verdict=publish) in review-log.yaml — run a review first, or use --force",
+            file=sys.stderr,
+        )
+        return 1
+    rc = _set_and_build(args.slug, "published", mark_analyzed=True)
+    if verdict != "publish" and getattr(args, "force", False):
+        print(f"WARN: force-published {args.slug} without a passing review")
+    return rc
 
 
 def cmd_draft(args):
@@ -116,10 +127,13 @@ def main(argv=None):
     p_verify.add_argument("slug")
     p_verify.set_defaults(func=cmd_verify)
     sub.add_parser("build").set_defaults(func=cmd_build)
-    for name, fn in (("publish", cmd_publish), ("draft", cmd_draft)):
-        pp = sub.add_parser(name)
-        pp.add_argument("slug")
-        pp.set_defaults(func=fn)
+    p_pub = sub.add_parser("publish")
+    p_pub.add_argument("slug")
+    p_pub.add_argument("--force", action="store_true")
+    p_pub.set_defaults(func=cmd_publish)
+    p_draft = sub.add_parser("draft")
+    p_draft.add_argument("slug")
+    p_draft.set_defaults(func=cmd_draft)
     p_qa = sub.add_parser("queue-add")
     p_qa.add_argument("name")
     p_qa.add_argument("--type", required=True, choices=("product", "ingredient"))
