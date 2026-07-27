@@ -1,10 +1,10 @@
 ---
+analyzed: '2026-07-27'
 name: Sunscreen (UV filters)
 slug: sunscreen-uv-filters
+status: published
 type: ingredient
-status: draft
-updated: 2026-07-26
-analyzed: 2026-07-26
+updated: '2026-07-27'
 ---
 
 "Sunscreen" is a **category**, not an ingredient — a delivery vehicle for one or more UV filters (mineral filters such as zinc oxide and titanium dioxide, and organic filters such as avobenzone, octocrylene, and octinoxate). Each of those filters has its own absorption profile, stability, and safety questions, and each will get its own profile here later. This page grades the only question the category-level randomized evidence can actually answer: **does regular sunscreen use work?** The honest answer is that it is one of the very few skincare practices with randomized-trial support against hard clinical endpoints — photoaging and skin cancer — but that support traces largely to a *single* long-running Australian field trial, and an independent systematic review is markedly more cautious.[^1][^2][^3][^4]

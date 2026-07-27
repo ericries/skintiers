@@ -1,10 +1,10 @@
 ---
+analyzed: '2026-07-27'
 name: Benzoyl peroxide
 slug: benzoyl-peroxide
+status: published
 type: ingredient
-status: draft
-updated: 2026-07-27
-analyzed: 2026-07-27
+updated: '2026-07-27'
 ---
 
 Benzoyl peroxide (BPO) is a topical oxidizing agent that releases reactive oxygen radicals, killing *Cutibacterium acnes* (formerly *Propionibacterium acnes*) on contact.[^3][^4] It is sold both over-the-counter and by prescription, and it is one of the oldest and most universally recommended first-line acne treatments. It has a genuinely distinctive property — no bacterial resistance to it has been documented, and it suppresses the emergence of antibiotic resistance when co-formulated with a topical antibiotic.[^4][^5] But the story worth telling is a skeptical one: for a drug this trusted, the *quality* of the efficacy evidence is weaker than its reputation implies, and its clinical effect is modest, not dramatic. This profile grades it by use — and BPO essentially has just one use with controlled evidence behind it.

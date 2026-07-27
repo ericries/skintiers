@@ -1,10 +1,10 @@
 ---
+analyzed: '2026-07-27'
 name: Petrolatum
 slug: petrolatum
+status: published
 type: ingredient
-status: draft
-updated: 2026-07-27
-analyzed: 2026-07-27
+updated: '2026-07-27'
 ---
 
 Petrolatum (petroleum jelly; USP white petrolatum) is a purified semisolid mixture of hydrocarbons and the reference occlusive against which every other moisturizing agent is measured. Its core function — slowing water loss across the skin barrier — is one of the better-established facts in dermatology, but "well-established occlusive" and "does everything a moisturizer ad claims" are different statements, so this profile grades each use separately. Two claims run through the marketing on both sides: boosters call it a miracle barrier-repair agent, detractors call it a pore-clogging, "suffocating," petroleum-derived toxin. The controlled evidence supports neither caricature.

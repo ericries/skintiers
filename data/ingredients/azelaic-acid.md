@@ -1,10 +1,10 @@
 ---
+analyzed: '2026-07-27'
 name: Azelaic acid
 slug: azelaic-acid
+status: published
 type: ingredient
-status: draft
-updated: 2026-07-26
-analyzed: 2026-07-26
+updated: '2026-07-27'
 ---
 
 Azelaic acid is a saturated dicarboxylic acid used topically at 15% (gel/foam) and 20% (cream), FDA-approved since 1995 for rosacea (15% gel) and inflammatory acne (20% cream).[^4][^8] Its evidence base is unusually good for a dermatologic topical, but the grade depends entirely on **what you are using it for** — so this profile grades each use separately.
