@@ -30,3 +30,32 @@ moisturizing:
   verdict: publish
   note: critic revise -> 3 items fixed (superlative scoped to eczema, 99% attributed
     to StatPearls, ceramide claim cited to Spada); lint/verify/style clean
+dimethicone:
+  last_reviewed: '2026-07-27'
+  score: 9
+  verdict: publish
+  note: 'ingredient draft; critic verdict publish. StatPearls + Kang 2022 quotes re-fetched
+    and verbatim; occlusion graded category-level (no dimethicone-specific trial); silicone
+    attribution tightened. lint/verify/style clean.'
+cholesterol:
+  last_reviewed: '2026-07-27'
+  score: 9
+  verdict: publish
+  note: 'ingredient draft; critic verdict publish. Man 1996 + Elias 2012 quotes re-fetched
+    and verbatim; effect held at mechanism/formulation level (barrier lipid, needs correct
+    1:1:1 ratio), no product-efficacy claim. lint/verify/style clean.'
+phytosphingosine:
+  last_reviewed: '2026-07-27'
+  score: 8
+  verdict: publish
+  note: 'ingredient draft; critic flagged 2 paraphrases-in-quotes, both fixed ("a lipid
+    occurring naturally in the stratum corneum" verbatim; dropped non-verbatim "significant"
+    from ultrastructural damage). Pavicic 2007 + Fischer 2013; acne signal graded preliminary
+    (single study). lint/verify/style clean.'
+tocopherol:
+  last_reviewed: '2026-07-27'
+  score: 9
+  verdict: publish
+  note: 'ingredient draft; critic verdict publish. Keen & Hassan 2016 + Podhaisky 2002
+    quotes re-fetched and verbatim; antioxidant mechanism vs sparse/negative clinical
+    evidence (scars/burns disappointing, no skin-cancer effect). lint/verify/style clean.'

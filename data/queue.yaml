@@ -658,3 +658,9 @@
   status: pending
   discovered_from: user request 2026-07-27
   source: https://www.youtube.com/@DrIdriss
+- name: Free fatty acids
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: cholesterol
+  source: null
