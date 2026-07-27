@@ -101,3 +101,47 @@ def set_status(path, status, mark_analyzed=False):
         post["analyzed"] = _today()
     with open(path, "wb") as f:
         frontmatter.dump(post, f)
+
+
+import yaml as _yaml
+
+
+def _queue_path(data_dir):
+    return pathlib.Path(data_dir) / "queue.yaml"
+
+
+def load_queue(data_dir):
+    path = _queue_path(data_dir)
+    if not path.exists():
+        return []
+    return _yaml.safe_load(path.read_text()) or []
+
+
+def save_queue(data_dir, items):
+    _queue_path(data_dir).parent.mkdir(parents=True, exist_ok=True)
+    _queue_path(data_dir).write_text(_yaml.safe_dump(items, sort_keys=False))
+
+
+def queue_add(data_dir, name, type, priority=5, discovered_from=None, source=None):
+    items = load_queue(data_dir)
+    for it in items:
+        if it.get("name") == name and it.get("type") == type:
+            return False
+    items.append({
+        "name": name, "type": type, "priority": int(priority),
+        "status": "pending", "discovered_from": discovered_from, "source": source,
+    })
+    save_queue(data_dir, items)
+    return True
+
+
+def queue_resolve(data_dir, name):
+    items = load_queue(data_dir)
+    changed = False
+    for it in items:
+        if it.get("name") == name and it.get("status") != "done":
+            it["status"] = "done"
+            changed = True
+    if changed:
+        save_queue(data_dir, items)
+    return changed

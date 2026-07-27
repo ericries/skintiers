@@ -63,6 +63,28 @@ def cmd_draft(args):
     return _set_and_build(args.slug, "draft")
 
 
+def cmd_queue_add(args):
+    added = sklib.queue_add(sklib.DATA_DIR, args.name, args.type, args.priority,
+                            args.discovered_from, args.source)
+    print(f"{'added' if added else 'already queued'}: {args.name}")
+    return 0
+
+
+def cmd_queue(args):
+    items = [i for i in sklib.load_queue(sklib.DATA_DIR) if i.get("status") == "pending"]
+    if args.type:
+        items = [i for i in items if i.get("type") == args.type]
+    for i in sorted(items, key=lambda x: -x.get("priority", 0)):
+        print(f"[{i.get('priority')}] {i.get('type')}: {i.get('name')}")
+    return 0
+
+
+def cmd_queue_resolve(args):
+    ok = sklib.queue_resolve(sklib.DATA_DIR, args.name)
+    print(f"{'resolved' if ok else 'not found'}: {args.name}")
+    return 0
+
+
 def main(argv=None):
     parser = argparse.ArgumentParser(prog="sk")
     sub = parser.add_subparsers(dest="cmd", required=True)
@@ -75,6 +97,19 @@ def main(argv=None):
         pp = sub.add_parser(name)
         pp.add_argument("slug")
         pp.set_defaults(func=fn)
+    p_qa = sub.add_parser("queue-add")
+    p_qa.add_argument("name")
+    p_qa.add_argument("--type", required=True, choices=("product", "ingredient"))
+    p_qa.add_argument("--priority", type=int, default=5)
+    p_qa.add_argument("--from", dest="discovered_from", default=None)
+    p_qa.add_argument("--source", default=None)
+    p_qa.set_defaults(func=cmd_queue_add)
+    p_q = sub.add_parser("queue")
+    p_q.add_argument("--type", default=None)
+    p_q.set_defaults(func=cmd_queue)
+    p_qr = sub.add_parser("queue-resolve")
+    p_qr.add_argument("name")
+    p_qr.set_defaults(func=cmd_queue_resolve)
     args = parser.parse_args(argv)
     return args.func(args)
 
