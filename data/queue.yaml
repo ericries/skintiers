@@ -121,7 +121,7 @@
 - name: CeraVe Moisturizing Cream
   type: product
   priority: 10
-  status: pending
+  status: done
   discovered_from: null
   source: null
 - name: EltaMD UV Clear SPF 46
@@ -495,4 +495,52 @@
   priority: 5
   status: pending
   discovered_from: null
+  source: null
+- name: Glycerin
+  type: ingredient
+  priority: 6
+  status: pending
+  discovered_from: cerave-moisturizing-cream
+  source: null
+- name: Cholesterol
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: cerave-moisturizing-cream
+  source: null
+- name: Free fatty acids (skin barrier lipids)
+  type: ingredient
+  priority: 4
+  status: pending
+  discovered_from: cerave-moisturizing-cream
+  source: null
+- name: Phytosphingosine
+  type: ingredient
+  priority: 3
+  status: pending
+  discovered_from: cerave-moisturizing-cream
+  source: null
+- name: van Zuuren 2017 Cochrane emollients/moisturizers for eczema review
+  type: study
+  priority: 6
+  status: pending
+  discovered_from: cerave-moisturizing-cream
+  source: null
+- name: Spada 2021 ceramide-dominant cream eczema RCT
+  type: study
+  priority: 6
+  status: pending
+  discovered_from: cerave-moisturizing-cream
+  source: null
+- name: Leshem 2020 OTC moisturizers skin-barrier RCT
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: cerave-moisturizing-cream
+  source: null
+- name: Eric L. Simpson
+  type: person
+  priority: 4
+  status: pending
+  discovered_from: cerave-moisturizing-cream
   source: null
