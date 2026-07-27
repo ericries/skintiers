@@ -1,0 +1,4 @@
+# Review-cron findings that need NEW research/sourcing to resolve.
+# The drafting/research cron drains this list FIRST, before drafting new content.
+# Each item: {slug, dimension, issue, suggested_fix, priority, added, status: pending|done}
+[]
