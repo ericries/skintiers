@@ -7,19 +7,20 @@ type: goal
 updated: '2026-07-27'
 ---
 
-Moisturizing is one of the best-evidenced interventions in all of dermatology: keeping barrier-impaired skin hydrated and occluded reduces eczema flares, spares topical steroids, and is achieved by two simple mechanisms — slowing water loss and binding water at the surface.
+Moisturizing is one of the best-evidenced interventions in dermatology for eczema and barrier-impaired skin. A Cochrane review found that keeping such skin hydrated and occluded reduces eczema flares and spares topical corticosteroids [^1]. Two mechanisms do the work: slowing water loss at the surface and binding water there.
 
 ## The Evidence
 
-An abridged Cochrane systematic review of emollients and moisturizers for eczema found the intervention works and it is not a close call: "Fewer flares were seen (risk ratio 0·40, 95% CI 0·23-0·70)" with moisturizer use versus none, and patients "used less topical corticosteroids over 6-8 weeks (mean difference -9·30 g, 95% CI -15·3 to -3·27)."[^1]
+An abridged Cochrane systematic review of emollients and moisturizers for eczema reported that moisturizer use reduced flares versus none: "Fewer flares were seen (risk ratio 0·40, 95% CI 0·23-0·70)," and patients "used less topical corticosteroids over 6-8 weeks (mean difference -9·30 g, 95% CI -15·3 to -3·27)."[^1]
 
-The mechanism is uncontroversial. Occlusives physically slow water loss: per StatPearls, "Petrolatum is a classic example of an occlusive moisturizer and the most effective, reducing water loss through the epidermis by nearly 99%."[^2] Humectants do the complementary job — "Humectants are compounds that attract and bind water" at the skin surface.[^2]
+On mechanism, StatPearls characterizes petrolatum as "a classic example of an occlusive moisturizer and the most effective, reducing water loss through the epidermis by nearly 99%."[^2] That "nearly 99%" figure is a textbook characterization in StatPearls, not a standalone measured statistic. StatPearls defines humectants as "compounds that attract and bind water."[^2]
 
 ## What Makes a Good Moisturizer
 
-The demonstrable work is done by two components: an **occlusive** to slow transepidermal water loss (the strongest is [[petrolatum]]) and a **humectant** to bind water (glycerin, [[hyaluronic-acid]]). Barrier lipids such as [[ceramides]] are an optional third layer that mirror the skin's own intercellular lipids; they improve barrier metrics but are the most oversold and least symptom-proven part of a formula. A cheap fragrance-free cream combining an occlusive and a humectant captures nearly all of the proven benefit.
+The demonstrable work is done by two components: an occlusive to slow transepidermal water loss (the strongest per StatPearls is [[petrolatum]]) and a humectant to bind water (glycerin, [[hyaluronic-acid]]). Barrier lipids such as [[ceramides]] mirror the skin's own intercellular lipids. In Spada 2021, a randomized trial of a ceramide cream against a vehicle, the ceramide cream improved barrier metrics but showed no difference in eczema severity between the ceramide cream and the vehicle (EASI, P=.7804) [^3].
 
 ## Sources
 
 [^1]: van Zuuren EJ, Fedorowicz Z, Arents BWM. Emollients and moisturizers for eczema: abridged Cochrane systematic review including GRADE assessments. British Journal of Dermatology, 2017;177(5):1256-1271. https://pubmed.ncbi.nlm.nih.gov/28432721/ (accessed 2026-07-27)
 [^2]: Nguyen JK, Weedon J, et al. Moisturizers. StatPearls [Internet], NCBI Bookshelf. https://www.ncbi.nlm.nih.gov/books/NBK545171/ (accessed 2026-07-27)
+[^3]: Spada F, Barnes TM, Greive KA. A daily regimen of a ceramide-dominant moisturizing cream and cleanser restores the skin permeability barrier in adults with moderate eczema: A randomized trial. Dermatologic Therapy, 2021;34(4):e14970. https://pmc.ncbi.nlm.nih.gov/articles/PMC8459234/ (accessed 2026-07-27)
