@@ -19,10 +19,33 @@ def cmd_status(args):
     return 0
 
 
+def cmd_lint(args):
+    import frontmatter
+    path = sklib.find_profile(sklib.DATA_DIR, args.slug)
+    if path is None:
+        print(f"not found: {args.slug}", file=sys.stderr)
+        return 1
+    post = frontmatter.load(path)
+    errors, warnings = sklib.check_profile(post.metadata, post.content)
+    for e in errors:
+        print(f"ERROR: {e}")
+    for w in warnings:
+        print(f"WARN: {w}")
+    if errors:
+        return 1
+    if warnings:
+        return 2
+    print(f"{args.slug}: clean")
+    return 0
+
+
 def main(argv=None):
     parser = argparse.ArgumentParser(prog="sk")
     sub = parser.add_subparsers(dest="cmd", required=True)
     sub.add_parser("status").set_defaults(func=cmd_status)
+    p_lint = sub.add_parser("lint")
+    p_lint.add_argument("slug")
+    p_lint.set_defaults(func=cmd_lint)
     args = parser.parse_args(argv)
     return args.func(args)
 

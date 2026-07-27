@@ -30,3 +30,38 @@ def find_profile(data_dir, slug):
         if md.stem == slug:
             return md
     return None
+
+
+import re
+
+REQUIRED_FIELDS = ("name", "slug", "type", "status", "updated")
+VALID_STATUS = ("stub", "draft", "published")
+
+_REF_RE = re.compile(r"\[\^([^\]]+)\](?!:)")
+_DEF_RE = re.compile(r"^\[\^([^\]]+)\]:", re.MULTILINE)
+
+
+def check_profile(metadata, content):
+    errors, warnings = [], []
+    for field in REQUIRED_FIELDS:
+        if not metadata.get(field):
+            errors.append(f"missing frontmatter field: {field}")
+    if metadata.get("type") and metadata["type"] not in ENTITY_TYPES:
+        errors.append(f"invalid type: {metadata['type']} (must be one of {ENTITY_TYPES})")
+    if metadata.get("status") and metadata["status"] not in VALID_STATUS:
+        errors.append(f"invalid status: {metadata['status']}")
+
+    refs = set(_REF_RE.findall(content))
+    defs = _DEF_RE.findall(content)
+    seen = set()
+    for d in defs:
+        if d in seen:
+            errors.append(f"duplicate footnote definition: [^{d}]")
+        seen.add(d)
+    for r in sorted(refs):
+        if r not in seen:
+            errors.append(f"footnote [^{r}] referenced but never defined")
+    for d in sorted(seen):
+        if d not in refs:
+            warnings.append(f"footnote [^{d}] defined but never referenced")
+    return errors, warnings
