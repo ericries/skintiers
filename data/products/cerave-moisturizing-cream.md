@@ -5,16 +5,30 @@ slug: cerave-moisturizing-cream
 status: published
 type: product
 updated: '2026-07-27'
+grades:
+  - use: As a moisturizer
+    note: category-level benefit
+    effect: notable
+    evidence: solid
+  - use: Added ceramides
+    note: vs a plain emollient
+    effect: minimal
+    evidence: mixed
+recommended_in:
+  - title: NewBeauty, 10 derm-recommended CeraVe products
+    url: https://www.newbeauty.com/view/cerave-dermatologist-recommended
+    source: newbeauty.com
+  - title: HuffPost, best CeraVe products (dermatologist picks)
+    url: https://www.huffpost.com/entry/best-cerave-products-dermatologist-recommendations-ud_l_693ac62ee4b0455a070e590a
+    source: huffpost.com
+  - title: Yahoo, best drugstore moisturizer of 2026
+    url: https://shopping.yahoo.com/beauty/skincare/article/best-drugstore-moisturizer-201112720.html
+    source: yahoo.com
 ---
 
 CeraVe Moisturizing Cream is a fragrance-free cream whose ingredient list includes petrolatum, glycerin, three ceramides (ceramide NP, AP, EOP), and hyaluronic acid (as sodium hyaluronate).[^3]
 
-## The Rubric
-
-Graded against other moisturizers on two axes, effect size and evidence quality:
-
-- **As a moisturizer: notable effect, solid evidence, at the category level** (see [[moisturizing]]). This is the cited class benefit of moisturizing, shared with plainer or cheaper options such as plain petrolatum, glycerin, Vaseline, [[la-roche-posay-toleriane]], and Cetaphil.
-- **Added ceramides: minimal additional effect shown, mixed evidence.** A ceramide-cream-vs-vehicle RCT improved a barrier metric but found no difference in eczema severity between the ceramide cream and the vehicle [^2].
+> Moisturizing has strong evidence for barrier-impaired skin (see [[moisturizing]]). The two studies of this specific cream did not show it works better than a plain or cheaper emollient.[^1][^2]
 
 ## The Evidence
 
@@ -22,15 +36,19 @@ Whether moisturizing works, and how, is covered on [[moisturizing]]. The product
 
 Leshem 2020 was a within-patient, observer-blind, controlled RCT of four OTC moisturizers (Cetaphil, Aveeno, CeraVe Moisturizing Cream, and Vaseline) in atopic dermatitis. For barrier function, "mean TEWL improved in the treated forearm and worsened in the untreated one, but the difference was not significant," and "the study was underpowered as recruitment fell short."[^1]
 
+> **Bottom line.** In the one study of this exact cream, its own effect on the skin barrier was too small to be statistically significant, and the study was too small to draw a firm conclusion.
+
 Spada 2021 was a randomized, double-blind, placebo-controlled trial (n=100, 28 days) of a ceramide-dominant cream against a vehicle, industry-funded by the cream's maker (Ego Pharmaceuticals). The ceramide cream improved transepidermal water loss versus the vehicle (mixed-model P=.0342). The change in eczema severity was "not significantly different between groups" (EASI, P=.7804).[^2]
+
+> **Bottom line.** A ceramide cream improved a barrier measurement, but it did not reduce eczema any more than a plain vehicle did. This was a trial funded by the cream's own maker.
 
 ## What's In It
 
 Two ingredients carry cited evidence at the category level: [[petrolatum]], which StatPearls describes as the most effective occlusive, and glycerin, a humectant (see [[moisturizing]]). [[ceramides]] (ceramide NP, AP, EOP) and [[hyaluronic-acid]] (as sodium hyaluronate) are present in the formula; no study of this product isolates their effect on symptoms. The ingredient list contains no [[niacinamide]].[^3]
 
-## Vs Alternatives
+## See Also
 
-No head-to-head trial compares CeraVe Moisturizing Cream with a plain petrolatum emollient or with [[la-roche-posay-toleriane]]. All are fragrance-free moisturizers built on an occlusive-plus-humectant base, and on the available evidence they are broadly similar.
+Similar fragrance-free barrier moisturizers: [[la-roche-posay-toleriane]], [[cetaphil-moisturizing-cream]], [[petrolatum]].
 
 ## Common Marketing Claims
 
