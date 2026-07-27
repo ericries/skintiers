@@ -1,7 +1,7 @@
 - name: Sunscreen (UV filters)
   type: ingredient
   priority: 10
-  status: pending
+  status: done
   discovered_from: null
   source: null
 - name: Tretinoin
