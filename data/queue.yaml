@@ -25,7 +25,7 @@
 - name: Benzoyl peroxide
   type: ingredient
   priority: 8
-  status: pending
+  status: done
   discovered_from: null
   source: null
 - name: Salicylic acid
