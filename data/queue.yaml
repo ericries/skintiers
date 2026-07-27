@@ -13,7 +13,7 @@
 - name: Azelaic acid
   type: ingredient
   priority: 9
-  status: pending
+  status: done
   discovered_from: null
   source: null
 - name: Adapalene
