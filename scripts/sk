@@ -59,6 +59,22 @@ def cmd_verify(args):
     return 0
 
 
+def cmd_style(args):
+    import frontmatter
+    path = sklib.find_profile(sklib.DATA_DIR, args.slug)
+    if path is None:
+        print(f"not found: {args.slug}", file=sys.stderr)
+        return 1
+    post = frontmatter.load(path)
+    warnings = sklib.check_style(post.content)
+    for w in warnings:
+        print(f"WARN: {w}")
+    if warnings:
+        return 2
+    print(f"{args.slug}: clean style")
+    return 0
+
+
 def cmd_build(args):
     import subprocess
     root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -126,6 +142,9 @@ def main(argv=None):
     p_verify = sub.add_parser("verify")
     p_verify.add_argument("slug")
     p_verify.set_defaults(func=cmd_verify)
+    p_style = sub.add_parser("style")
+    p_style.add_argument("slug")
+    p_style.set_defaults(func=cmd_style)
     sub.add_parser("build").set_defaults(func=cmd_build)
     p_pub = sub.add_parser("publish")
     p_pub.add_argument("slug")

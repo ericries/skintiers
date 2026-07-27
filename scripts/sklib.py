@@ -217,6 +217,82 @@ def verify_profile(metadata, content):
     return errors, warnings
 
 
+# --- Anti-AI-ese style linter (advisory) ---------------------------------
+# Enforces docs/anti-ai-ese.md. All checks are warnings only. Keep this list
+# extendable: add phrases here and they are picked up automatically.
+AI_ESE_TERMS = (
+    "delve", "tapestry", "testament to", "underscore", "underscores",
+    "underscoring", "boasts", "meticulous", "meticulously", "pivotal",
+    "showcase", "showcases", "showcasing", "plays a crucial role",
+    "plays a vital role", "plays a key role", "plays a pivotal role",
+    "plays a significant role", "stands as", "serves as a testament",
+    "it is worth noting", "it's worth noting", "it is important to note",
+    "in the realm of", "ever-evolving", "game-changer", "game changer",
+    "seamless", "leverage", "harness", "unlock", "elevate", "myriad",
+    "plethora", "cutting-edge", "state-of-the-art", "rich tapestry",
+    "vibrant", "renowned", "nestled", "in the heart of",
+    "at the end of the day", "in conclusion", "when it comes to",
+    "not just", "it's not just", "not only ... but",
+)
+
+_CURLY_QUOTES = ("‘", "’", "“", "”")  # ‘ ’ “ ”
+_EM_DASH = "—"  # —
+_EN_DASH = "–"  # –
+
+
+def _term_pattern(term):
+    """Word-boundary-ish regex for an AI-ese term.
+
+    Multi-word terms allow flexible whitespace; the special "not only ... but"
+    entry matches "not only <anything> but". Hyphenated terms are matched
+    literally. Boundaries use \\b where the term edges are word chars.
+    """
+    if term == "not only ... but":
+        return re.compile(r"\bnot only\b.*?\bbut\b", re.IGNORECASE | re.DOTALL)
+    parts = [re.escape(w) for w in term.split()]
+    core = r"\s+".join(parts)
+    left = r"\b" if term[:1].isalnum() else ""
+    right = r"\b" if term[-1:].isalnum() else ""
+    return re.compile(left + core + right, re.IGNORECASE)
+
+
+_AI_ESE_PATTERNS = [(t, _term_pattern(t)) for t in AI_ESE_TERMS]
+
+
+def _style_body(content):
+    """The text to lint: everything before the ## Sources heading."""
+    m = _SOURCES_HEADING_RE.search(content)
+    return content[: m.start()] if m else content
+
+
+def check_style(content):
+    """Advisory anti-AI-ese warnings for a markdown body.
+
+    Excludes the ## Sources section (citation text/URLs are not flagged).
+    Returns a list of WARNING strings, one per distinct hit (repeated hits of
+    the same term are de-duped into a single line).
+    """
+    body = _style_body(content)
+    warnings = []
+
+    if _EM_DASH in body:
+        warnings.append(
+            "em dash (—) is AI-ese; use a period/comma/colon/parentheses"
+        )
+    if _EN_DASH in body:
+        warnings.append(
+            "en dash (–) is AI-ese; use a period/comma/colon/parentheses"
+        )
+    if any(q in body for q in _CURLY_QUOTES):
+        warnings.append("curly quote; use ASCII")
+
+    for term, pat in _AI_ESE_PATTERNS:
+        if pat.search(body):
+            warnings.append(f"AI-ese phrase: '{term}'")
+
+    return warnings
+
+
 import markdown as _markdown
 
 _XREF_RE = re.compile(r"\[\[([^\]|]+)(?:\|([^\]]+))?\]\]")
