@@ -1,8 +1,13 @@
-# Per-profile review history. The review cron reviews the STALEST published profile each tick
-# (a profile missing from this log is treated as never-reviewed = highest priority).
-# slug: {last_reviewed: YYYY-MM-DD, score: 0-10, verdict: publish|revise|flag, note}
 tretinoin-0-025-cream:
   last_reviewed: 2026-07-27
   score: 10
   verdict: publish
-  note: critic punch-list applied (misquote fixed, source independence qualified, strength-scope caveats)
+  note: critic punch-list applied (misquote fixed, source independence qualified,
+    strength-scope caveats)
+cerave-moisturizing-cream:
+  last_reviewed: '2026-07-27'
+  score: 10
+  verdict: publish
+  note: 'critic verdict=revise -> all 6 punch-list items applied (INCI cited [^6];
+    Spada industry-funding + placebo-as-plain-emollient clarified; ceramide-premium
+    grade softened re: argument-from-silence; corticosteroid CI added)'
