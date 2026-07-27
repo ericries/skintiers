@@ -1,0 +1,6 @@
+python-frontmatter
+markdown
+jinja2
+pyyaml
+scipy
+numpy

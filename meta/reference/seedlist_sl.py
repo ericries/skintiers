@@ -1,0 +1,3380 @@
+#!/usr/bin/env python3
+"""
+sl — Seedlist CLI toolkit
+
+Usage:
+  sl status              Show pipeline overview (profiles by status, queue depth)
+  sl queue [TYPE]        Show pending queue items (optionally filter: individual/firm/startup)
+  sl publish SLUG        Set profile to published, rebuild, commit, push
+  sl flag SLUG NOTES     Set profile to flagged with review notes
+  sl draft SLUG          Set profile back to draft (unpublish)
+  sl build               Rebuild site from published profiles
+  sl ship [MSG]          git add + commit + push (with optional message)
+  sl claim SLUG          Set queue item to in_progress
+  sl complete SLUG       Set queue item to completed
+  sl check               Verify repo state: uncommitted changes, unpushed commits, build status
+  sl recent              Show investor profiles sorted by most recent verified investment
+  sl lint SLUG [--no-fetch]  Automated citation and structure checker
+  sl lint-drafts [--no-fetch]  Lint all draft profiles
+  sl publish-clean         Publish all drafts that pass lint with 0 errors
+  sl prune [--execute]   Remove low-value queue items (dry-run by default)
+  sl gen-firms [--dry-run]   Auto-generate firm profiles from investor data
+  sl gen-startups [--threshold N] [--dry-run]  Auto-generate startup profiles from portfolio cross-refs
+  sl fix-citations SLUG    Auto-fix duplicate URLs, orphan defs, renumber footnotes
+  sl auto-fix SLUG         Fix citations + missing firm field + other mechanical fixes
+  sl queue-add NAME [--type T] [--firm F] [--priority P] [--from SLUG]  Add to queue (dedup-safe)
+  sl post-batch            ONE COMMAND: process queue files → auto-fix all drafts → lint → publish → rebuild → commit → push
+  sl batch-publish SLUG... Lint+fix+publish multiple profiles in one commit
+  sl enrich INPUT.csv [OUTPUT.csv]  Enrich a CSV with Seedlist investor/firm data
+  sl review-sources     Review and process source URL submissions from GitHub Issues
+  sl review-candidates  Review and process CSV candidate submissions from GitHub Issues
+  sl xref-backfill-startup SLUG|--all  Backfill startup frontmatter from investor portfolio tables
+  sl xref-reconcile-firm SLUG|--all    Bidirectional firm/investor consistency check
+  sl xref-compute-lvi SLUG|--all       Compute last_verified_investment from portfolio tables
+  sl xref-all [--dry-run]              Run all xref operations across the entire repo
+  sl xref-report SLUG                  Analysis report for an investor (co-investors, focus validation)
+  sl pending-rounds [--cleanup]         Show unprocessed funding round candidates from RSS scraper (--cleanup: drop entries already shipped as startup profiles)
+"""
+
+import sys
+import os
+import subprocess
+import yaml
+import re
+import csv
+import difflib
+from pathlib import Path
+
+import frontmatter
+
+ROOT = Path(__file__).resolve().parent.parent
+DATA = ROOT / "data"
+QUEUE_PATH = DATA / "queue.yaml"
+
+
+def run(cmd, check=True, capture=True):
+    """Run a shell command from the repo root."""
+    r = subprocess.run(cmd, shell=True, cwd=ROOT, capture_output=capture, text=True)
+    if check and r.returncode != 0:
+        print(f"Error: {r.stderr.strip()}" if r.stderr else f"Command failed: {cmd}")
+        sys.exit(1)
+    return r
+
+
+def _git_push_with_retry():
+    """Push to remote, auto-retrying with pull --rebase on rejection."""
+    r = run("git push", check=False)
+    if r.returncode != 0 and "fetch first" in (r.stderr or ""):
+        print("Push rejected — pulling with rebase and retrying...")
+        run("git pull --rebase")
+        run("git push")
+    elif r.returncode != 0:
+        print(f"Error: {r.stderr.strip()}" if r.stderr else "Push failed")
+        sys.exit(1)
+
+
+def load_queue():
+    with open(QUEUE_PATH) as f:
+        return yaml.safe_load(f)
+
+
+def save_queue(data):
+    with open(QUEUE_PATH, "w") as f:
+        yaml.dump(data, f, default_flow_style=False, allow_unicode=True, sort_keys=False)
+
+
+def find_profile(slug):
+    """Find a profile file by slug across all data directories."""
+    for subdir in ["investors", "firms", "startups"]:
+        path = DATA / subdir / f"{slug}.md"
+        if path.exists():
+            return path
+    return None
+
+
+def get_frontmatter_status(path):
+    """Read the status field from a profile's frontmatter."""
+    with open(path) as f:
+        content = f.read()
+    m = re.search(r'^status:\s*(\S+)', content, re.MULTILINE)
+    return m.group(1) if m else "unknown"
+
+
+def set_profile_status(path, new_status, review_notes=None):
+    """Change the status field in a profile's frontmatter."""
+    with open(path) as f:
+        content = f.read()
+
+    # Update status
+    content = re.sub(r'^status:\s*\S+', f'status: {new_status}', content, count=1, flags=re.MULTILINE)
+
+    # Handle review_notes
+    if review_notes:
+        # Remove existing review_notes if present
+        content = re.sub(r'^review_notes:.*?(?=^[a-z_]+:|\n---)', '', content, flags=re.MULTILINE | re.DOTALL)
+        # Add new review_notes before the closing ---
+        content = content.replace('\n---\n', f'\nreview_notes: |\n  {review_notes}\n---\n', 1)
+    elif new_status == "published":
+        # Remove review_notes when publishing
+        content = re.sub(r'^review_notes:.*?(?=^[a-z_]+:|\n---)', '', content, flags=re.MULTILINE | re.DOTALL)
+
+    with open(path, "w") as f:
+        f.write(content)
+
+
+# ── Commands ──────────────────────────────────────────────────
+
+def cmd_status():
+    """Show pipeline overview."""
+    profiles = {"investors": {}, "firms": {}, "startups": {}}
+    for subdir in profiles:
+        for f in (DATA / subdir).glob("*.md"):
+            status = get_frontmatter_status(f)
+            profiles[subdir].setdefault(status, []).append(f.stem)
+
+    print("=== Profile Status ===")
+    for subdir in profiles:
+        total = sum(len(v) for v in profiles[subdir].values())
+        parts = []
+        for s in ["published", "draft", "flagged"]:
+            count = len(profiles[subdir].get(s, []))
+            if count:
+                parts.append(f"{count} {s}")
+        print(f"  {subdir}: {total} total ({', '.join(parts)})")
+
+    # Queue stats
+    data = load_queue()
+    items = data.get("queue", [])
+    pending = [x for x in items if x.get("status") == "pending"]
+
+    print("\n=== Queue ===")
+    for t in ["individual", "firm", "startup"]:
+        by_type = [x for x in pending if x.get("type") == t]
+        high = sum(1 for x in by_type if x.get("priority") == "high")
+        normal = sum(1 for x in by_type if x.get("priority") == "normal")
+        low = sum(1 for x in by_type if x.get("priority") == "low")
+        print(f"  {t}: {len(by_type)} pending ({high} high, {normal} normal, {low} low)")
+
+    # Git state
+    r = run("git status --porcelain", capture=True, check=False)
+    changes = len(r.stdout.strip().split("\n")) if r.stdout.strip() else 0
+    r2 = run("git log @{u}..HEAD --oneline 2>/dev/null", capture=True, check=False)
+    unpushed = len(r2.stdout.strip().split("\n")) if r2.stdout.strip() else 0
+    print(f"\n=== Git ===")
+    print(f"  Uncommitted changes: {changes}")
+    print(f"  Unpushed commits: {unpushed}")
+
+
+def cmd_queue(type_filter=None):
+    """Show pending queue items."""
+    data = load_queue()
+    pending = [x for x in data.get("queue", []) if x.get("status") == "pending"]
+    if type_filter:
+        pending = [x for x in pending if x.get("type") == type_filter]
+
+    # Sort by priority
+    order = {"high": 0, "normal": 1, "low": 2}
+    pending.sort(key=lambda x: order.get(x.get("priority", "normal"), 1))
+
+    for item in pending:
+        pri = item.get("priority", "normal")
+        name = item.get("name", "?")
+        t = item.get("type", "?")
+        firm = item.get("firm", "")
+        marker = {"high": "!!!", "normal": " . ", "low": "   "}.get(pri, " . ")
+        extra = f" ({firm})" if firm else ""
+        print(f"  {marker} [{t}] {name}{extra}")
+
+    print(f"\n  Total: {len(pending)} pending")
+
+
+def cmd_publish(slug):
+    """Publish a profile: set status, rebuild, commit, push."""
+    path = find_profile(slug)
+    if not path:
+        print(f"Profile not found: {slug}")
+        sys.exit(1)
+
+    current = get_frontmatter_status(path)
+    if current == "published":
+        print(f"Already published: {slug}")
+        return
+
+    set_profile_status(path, "published")
+    print(f"Set {slug} -> published")
+
+    run(f"{sys.executable} build.py")
+    print("Site rebuilt")
+
+    run(f"git add -A")
+    run(f'git commit -m "Publish: {slug}"')
+    _git_push_with_retry()
+    print(f"Pushed to live site")
+
+
+def cmd_flag(slug, notes):
+    """Flag a profile with review notes."""
+    path = find_profile(slug)
+    if not path:
+        print(f"Profile not found: {slug}")
+        sys.exit(1)
+
+    set_profile_status(path, "flagged", review_notes=notes)
+    print(f"Flagged {slug}")
+
+    run(f"git add {path}")
+    run(f'git commit -m "Flag: {slug} — {notes[:60]}"')
+    _git_push_with_retry()
+
+
+def cmd_draft(slug):
+    """Set a profile back to draft."""
+    path = find_profile(slug)
+    if not path:
+        print(f"Profile not found: {slug}")
+        sys.exit(1)
+
+    set_profile_status(path, "draft")
+    print(f"Set {slug} -> draft")
+
+    run(f"git add {path}")
+    run(f'git commit -m "Unpublish: {slug} -> draft"')
+    _git_push_with_retry()
+
+
+def cmd_build():
+    """Rebuild the static site."""
+    r = run(f"{sys.executable} build.py", capture=True)
+    print(r.stdout)
+    if r.stderr:
+        print(r.stderr)
+
+
+def cmd_ship(msg=None):
+    """Stage all changes, commit, push."""
+    r = run("git status --porcelain", capture=True)
+    if not r.stdout.strip():
+        print("Nothing to ship — working tree clean")
+        return
+
+    if not msg:
+        # Auto-generate message from changed files
+        files = [line[3:] for line in r.stdout.strip().split("\n") if line.strip()]
+        msg = f"Update {len(files)} files"
+
+    run("git add -A")
+    run(f'git commit -m "{msg}"')
+    _git_push_with_retry()
+    print(f"Shipped: {msg}")
+
+
+def cmd_claim(slug):
+    """Set a queue item to in_progress."""
+    data = load_queue()
+    found = False
+    for item in data.get("queue", []):
+        item_slug = item.get("name", "").lower().replace(" ", "-")
+        if slug in (item_slug, item.get("name", "").lower()):
+            item["status"] = "in_progress"
+            found = True
+            print(f"Claimed: {item['name']}")
+            break
+
+    if not found:
+        print(f"Queue item not found: {slug}")
+        sys.exit(1)
+
+    save_queue(data)
+
+
+def cmd_complete(slug):
+    """Set a queue item to completed."""
+    data = load_queue()
+    found = False
+    for item in data.get("queue", []):
+        item_slug = item.get("name", "").lower().replace(" ", "-")
+        if slug in (item_slug, item.get("name", "").lower()):
+            item["status"] = "completed"
+            found = True
+            print(f"Completed: {item['name']}")
+            break
+
+    if not found:
+        print(f"Queue item not found: {slug}")
+        sys.exit(1)
+
+    save_queue(data)
+
+
+def cmd_check():
+    """Verify repo health."""
+    issues = []
+
+    # Uncommitted changes
+    r = run("git status --porcelain", capture=True, check=False)
+    if r.stdout.strip():
+        issues.append(f"Uncommitted changes:\n{r.stdout.strip()}")
+
+    # Unpushed commits
+    r = run("git log @{u}..HEAD --oneline 2>/dev/null", capture=True, check=False)
+    if r.stdout.strip():
+        issues.append(f"Unpushed commits:\n{r.stdout.strip()}")
+
+    # Published profiles that aren't in the build
+    r = run(f"{sys.executable} build.py 2>&1", capture=True, check=False)
+    print(f"Build: {r.stdout.strip()}")
+
+    if issues:
+        print("\nIssues found:")
+        for i in issues:
+            print(f"  {i}")
+    else:
+        print("\nAll clean — repo is up to date")
+
+
+def cmd_recent():
+    """Show investor profiles sorted by most recent verified investment."""
+    investors_dir = DATA / "investors"
+    if not investors_dir.exists():
+        print("No investors directory found")
+        return
+
+    entries = []
+    missing = []
+    for md_file in sorted(investors_dir.glob("*.md")):
+        post = frontmatter.load(md_file)
+        status = post.metadata.get("status", "unknown")
+        name = post.metadata.get("name", md_file.stem)
+        slug = md_file.stem
+        lvi = post.metadata.get("last_verified_investment")
+        if lvi and lvi.get("date"):
+            entries.append({
+                "slug": slug,
+                "name": name,
+                "status": status,
+                "date": str(lvi["date"]),
+                "company": lvi.get("company", ""),
+                "round": lvi.get("round", ""),
+            })
+        else:
+            missing.append({"slug": slug, "name": name, "status": status})
+
+    # Sort by date descending (strip ~ for approximate dates)
+    entries.sort(key=lambda e: e["date"].lstrip("~"), reverse=True)
+
+    print("=== Investors by Most Recent Verified Investment ===\n")
+    for e in entries:
+        round_str = f" ({e['round']})" if e["round"] else ""
+        status_badge = f" [{e['status']}]" if e["status"] != "published" else ""
+        print(f"  {e['date']}  {e['name']}{status_badge} — {e['company']}{round_str}")
+
+    if missing:
+        print(f"\n=== Missing last_verified_investment ({len(missing)}) ===\n")
+        for m in missing:
+            status_badge = f" [{m['status']}]" if m["status"] != "published" else ""
+            print(f"  ⚠  {m['name']}{status_badge}")
+
+    print(f"\n  Total: {len(entries)} with dates, {len(missing)} missing")
+
+
+def cmd_lint(slug, no_fetch=False):
+    """Automated citation and structure checker for a profile."""
+    path = find_profile(slug)
+    if not path:
+        print(f"Profile not found: {slug}")
+        sys.exit(1)
+
+    post = frontmatter.load(path)
+    meta = post.metadata
+    body = post.content
+    profile_type = meta.get("type", "unknown")
+
+    # Determine subdir from path
+    subdir = path.parent.name  # investors, firms, or startups
+
+    errors = []
+    warnings = []
+
+    # ── Required frontmatter fields ──
+    common_fields = ["name", "slug", "type", "status", "last_researched"]
+    for field in common_fields:
+        if field not in meta:
+            errors.append(f"Missing frontmatter field: {field}")
+
+    type_fields = {
+        "individual": ["firm", "role"],
+        "firm": ["team"],
+        "startup": ["sector"],
+    }
+    for field in type_fields.get(profile_type, []):
+        if field not in meta:
+            errors.append(f"Missing frontmatter field for {profile_type}: {field}")
+
+    # ── Frontmatter slug validation (startups: investors/firms slugs must exist) ──
+    if profile_type == "startup":
+        data_dir = DATA
+        for field_name, profile_dir in [("investors", "investors"), ("firms", "firms")]:
+            for entry in meta.get(field_name) or []:
+                if not isinstance(entry, dict):
+                    continue
+                entry_slug = entry.get("slug", "")
+                if entry_slug and not (data_dir / profile_dir / f"{entry_slug}.md").exists():
+                    warnings.append(f"Frontmatter {field_name} slug has no profile (will not link on rounds page): {entry_slug}")
+                # Sanity-check the `year` field. This is the fix for the
+                # "undated round at top of feed" bug (8090 Labs): the company
+                # name "8090" was written into a firm entry as `year: 8090`,
+                # which passed silently and then sorted to the top of the
+                # rounds feed with no readable date. Plausible range is
+                # 2000..(current_year + 1). Anything outside is an error.
+                if "year" in entry:
+                    y = entry.get("year")
+                    try:
+                        y_int = int(y)
+                    except (TypeError, ValueError):
+                        errors.append(f"Frontmatter {field_name} entry has non-integer year: {entry_slug or '?'} year={y!r}")
+                    else:
+                        import datetime as _dt
+                        max_year = _dt.datetime.now().year + 1
+                        if not (2000 <= y_int <= max_year):
+                            errors.append(f"Frontmatter {field_name} entry has implausible year: {entry_slug or '?'} year={y_int} (expected 2000..{max_year})")
+
+    # ── Required sections ──
+    required_sections = {
+        "individual": ["Background", "Stated Thesis", "Inferred Thesis", "Portfolio",
+                        "In Their Own Words", "What Founders Say", "Sources"],
+        "firm": ["About", "Stated Thesis", "Inferred Thesis", "Portfolio",
+                 "In Their Own Words", "What Founders Say", "Sources"],
+        "startup": ["About", "Funding History", "What Investors Say",
+                     "What Founders Say", "Sources"],
+    }
+    headings = re.findall(r'^## (.+)$', body, re.MULTILINE)
+    for section in required_sections.get(profile_type, []):
+        if section not in headings:
+            errors.append(f"Missing required section: ## {section}")
+
+    # ── Footnote sequential numbering ──
+    all_footnote_nums = sorted(set(int(n) for n in re.findall(r'\[\^(\d+)\]', body)))
+    if all_footnote_nums:
+        expected = list(range(1, max(all_footnote_nums) + 1))
+        missing_nums = set(expected) - set(all_footnote_nums)
+        if missing_nums:
+            errors.append(f"Footnote numbering gap — missing: {sorted(missing_nums)}")
+
+    # ── Footnote body↔source matching ──
+    # Refs are [^N] NOT followed by ':'  ;  Defs are [^N]:
+    ref_nums = set(int(n) for n in re.findall(r'\[\^(\d+)\](?!:)', body))
+    def_nums = set(int(n) for n in re.findall(r'^\[\^(\d+)\]:', body, re.MULTILINE))
+
+    refs_without_def = ref_nums - def_nums
+    defs_without_ref = def_nums - ref_nums
+    if refs_without_def:
+        errors.append(f"Body references without Sources definition: {sorted(refs_without_def)}")
+    if defs_without_ref:
+        warnings.append(f"Orphan source definitions (not referenced in body): {sorted(defs_without_ref)}")
+
+    # ── No duplicate source URLs ──
+    source_urls = re.findall(r'^\[\^\d+\]:.*?(https?://\S+)', body, re.MULTILINE)
+    seen_urls = {}
+    for url in source_urls:
+        url_clean = url.rstrip('.')
+        if url_clean in seen_urls:
+            errors.append(f"Duplicate source URL: {url_clean}")
+        seen_urls[url_clean] = True
+
+    # ── Portfolio years ──
+    # Find the Portfolio or Funding History table and check each row has a year
+    portfolio_section = ""
+    in_portfolio = False
+    for line in body.split("\n"):
+        if re.match(r'^## (Portfolio|Funding History)', line):
+            in_portfolio = True
+            continue
+        if in_portfolio and line.startswith("## "):
+            break
+        if in_portfolio:
+            portfolio_section += line + "\n"
+
+    # Check table rows (skip headers and separators)
+    table_rows = [l for l in portfolio_section.split("\n")
+                  if l.startswith("|") and not re.match(r'^\|[-\s|]+\|$', l)]
+    # Skip header rows (contain "Company" or "Year" or "Stage" as column names)
+    data_rows = [r for r in table_rows
+                 if not re.match(r'^\|\s*(Company|Date|Year|Round|Fund|Name|Firm)\s*\|', r, re.IGNORECASE)]
+    for row in data_rows:
+        if not re.search(r'~?\d{4}', row):
+            errors.append(f"Portfolio row missing year: {row.strip()[:80]}")
+
+    # ── last_verified_investment consistency ──
+    lvi = meta.get("last_verified_investment")
+    if lvi and data_rows:
+        # Find max year in portfolio table
+        all_years = [int(y) for y in re.findall(r'~?(\d{4})', portfolio_section)]
+        if all_years:
+            max_year = max(all_years)
+            lvi_date = str(lvi.get("date", ""))
+            lvi_year_match = re.search(r'(\d{4})', lvi_date)
+            if lvi_year_match:
+                lvi_year = int(lvi_year_match.group(1))
+                if lvi_year < max_year:
+                    warnings.append(
+                        f"last_verified_investment year ({lvi_year}) older than "
+                        f"most recent portfolio year ({max_year})")
+
+    # ── Inferred thesis % sum ──
+    inferred_section = ""
+    in_inferred = False
+    for line in body.split("\n"):
+        if line.startswith("## Inferred Thesis"):
+            in_inferred = True
+            continue
+        if in_inferred and line.startswith("## "):
+            break
+        if in_inferred:
+            inferred_section += line + "\n"
+
+    # Look for percentage breakdowns in bullet lists (lines starting with -)
+    # Collect consecutive bullet-list runs with percentages
+    lines = inferred_section.split("\n")
+    bullet_run = []
+    bullet_runs = []
+    for line in lines:
+        stripped = line.strip()
+        if stripped.startswith("-") and re.search(r'\d+(?:\.\d+)?%', stripped):
+            bullet_run.append(stripped)
+        else:
+            if len(bullet_run) >= 3:
+                bullet_runs.append(bullet_run[:])
+            bullet_run = []
+    if len(bullet_run) >= 3:
+        bullet_runs.append(bullet_run[:])
+
+    for run_lines in bullet_runs:
+        # Only check lists that look like categorical breakdowns:
+        # each bullet names a category and ends with "N of M (X%)" or "X%"
+        # Heuristic: most bullets have exactly one % and it's in a "N of M (X%)" pattern
+        breakdown_pattern = 0
+        for bl in run_lines:
+            if re.search(r'\d+\s+of\s+\d+.*\d+%', bl) or re.search(r':\s*\d+.*\(\d+%\)', bl):
+                breakdown_pattern += 1
+        if breakdown_pattern < len(run_lines) * 0.5:
+            continue  # Not a categorical breakdown, skip
+
+        pcts = []
+        for bl in run_lines:
+            matches = re.findall(r'(\d+(?:\.\d+)?)%', bl)
+            if matches:
+                pcts.append(float(matches[-1]))
+        if len(pcts) >= 3:
+            total = sum(pcts)
+            if total < 90 or total > 110:
+                label = run_lines[0][:50].lstrip("- ")
+                warnings.append(
+                    f"Bullet-list breakdown starting '{label}' sums to {total:.0f}% "
+                    f"(expected ~100%): {pcts}")
+
+    # ── URL liveness ──
+    if not no_fetch and source_urls:
+        from urllib.request import Request, urlopen
+        from urllib.error import URLError, HTTPError
+        from concurrent.futures import ThreadPoolExecutor
+
+        expected_403_domains = ["linkedin.com", "crunchbase.com", "pitchbook.com"]
+
+        def check_url(url):
+            url = url.rstrip('.')
+            try:
+                req = Request(url, method="HEAD",
+                              headers={"User-Agent": "Mozilla/5.0 Seedlist-Lint/1.0"})
+                resp = urlopen(req, timeout=5)
+                return url, resp.status, None
+            except HTTPError as e:
+                return url, e.code, str(e)
+            except (URLError, OSError) as e:
+                return url, 0, str(e)
+
+        print(f"Checking {len(source_urls)} URLs...")
+        with ThreadPoolExecutor(max_workers=10) as pool:
+            results = list(pool.map(check_url, [u.rstrip('.') for u in source_urls]))
+
+        for url, status, err in results:
+            if status == 0:
+                warnings.append(f"URL unreachable: {url} ({err})")
+            elif status == 403:
+                is_expected = any(d in url for d in expected_403_domains)
+                if is_expected:
+                    warnings.append(f"URL returned 403 (expected for this domain): {url}")
+                else:
+                    warnings.append(f"URL returned 403: {url}")
+            elif status >= 400:
+                warnings.append(f"URL returned {status}: {url}")
+
+    # ── Output ──
+    if errors:
+        print(f"\nERRORS ({len(errors)}):")
+        for e in errors:
+            print(f"  ✗ {e}")
+    if warnings:
+        print(f"\nWARNINGS ({len(warnings)}):")
+        for w in warnings:
+            print(f"  ⚠ {w}")
+    if not errors and not warnings:
+        print(f"✓ {slug}: clean (0 errors, 0 warnings)")
+
+    if errors:
+        sys.exit(1)
+    elif warnings:
+        sys.exit(2)
+    else:
+        sys.exit(0)
+
+
+def cmd_queue_add(name, type_="individual", firm=None, priority="normal",
+                   discovered_from=None, source=None):
+    """Add an item to queue.yaml if not already present (by name)."""
+    data = load_queue()
+    items = data.get("queue", [])
+
+    # Check for duplicates by normalized name
+    norm = name.strip().lower()
+    for item in items:
+        if item.get("name", "").strip().lower() == norm:
+            print(f"Already in queue: {name} (status: {item.get('status')})")
+            return
+
+    # Check if profile already exists
+    slug = re.sub(r'[^a-z0-9]+', '-', name.lower()).strip('-')
+    if find_profile(slug):
+        print(f"Profile already exists: {slug}")
+        return
+
+    entry = {
+        "name": name,
+        "type": type_,
+        "priority": priority,
+        "status": "pending",
+        "added": "2026-03-17",
+    }
+    if firm:
+        entry["firm"] = firm
+    if discovered_from:
+        entry["discovered_from"] = discovered_from
+    if source:
+        entry["source"] = source
+
+    items.append(entry)
+    data["queue"] = items
+    save_queue(data)
+    print(f"Added to queue: {name} ({type_}, {priority})")
+
+
+def cmd_auto_fix(slug):
+    """Auto-fix all mechanically fixable issues in a profile:
+    1. Fix citations (duplicate URLs, orphans, renumbering)
+    2. Add missing 'firm: independent' for individual investors without a firm
+    3. Fill missing portfolio years with ~founding_year
+    """
+    path = find_profile(slug)
+    if not path:
+        print(f"Profile not found: {slug}")
+        sys.exit(1)
+
+    fixes = []
+
+    # Step 1: Run citation fixes
+    cmd_fix_citations(slug)
+
+    # Reload after citation fixes
+    with open(path) as f:
+        content = f.read()
+
+    post = frontmatter.load(path)
+    meta = post.metadata
+
+    # Step 2: Add missing firm field for individuals
+    if meta.get("type") == "individual" and "firm" not in meta:
+        content = re.sub(
+            r'^(type:\s*individual\s*\n)',
+            r'\1firm: independent\n',
+            content, count=1, flags=re.MULTILINE
+        )
+        fixes.append("added firm: independent")
+
+    # Step 3: Fix missing portfolio years
+    # Replace — / -- / - in year-position cells with ~YYYY estimates where possible
+    # Also skip header rows and separator rows
+    lines = content.split('\n')
+    in_portfolio = False
+    modified_lines = []
+    year_fixes = 0
+    header_pattern = re.compile(r'^\|\s*(Company|Date|Year|Round|Fund|Name|Firm)\s*\|', re.IGNORECASE)
+    for line in lines:
+        if line.startswith('## Portfolio'):
+            in_portfolio = True
+        elif in_portfolio and line.startswith('## '):
+            in_portfolio = False
+
+        if (in_portfolio and line.startswith('|')
+                and not re.match(r'^\|[-\s|]+\|$', line)
+                and not header_pattern.match(line)):
+            cells = line.split('|')
+            has_year = any(re.search(r'\d{4}', c) for c in cells)
+            if not has_year:
+                # Replace first '—', '--', or '-' cell with ~UNKNOWN as a flag
+                for i, cell in enumerate(cells):
+                    stripped = cell.strip()
+                    if stripped in ('--', '—', '-', ''):
+                        cells[i] = cell.replace(stripped, '~unknown')
+                        year_fixes += 1
+                        break
+                line = '|'.join(cells)
+        modified_lines.append(line)
+    content = '\n'.join(modified_lines)
+    if year_fixes:
+        fixes.append(f"flagged {year_fixes} row(s) with ~unknown year")
+
+    # Step 4: Add missing required sections
+    required_sections = {
+        "individual": ["Background", "Stated Thesis", "Inferred Thesis", "Portfolio",
+                        "In Their Own Words", "What Founders Say", "Sources"],
+        "firm": ["About", "Stated Thesis", "Inferred Thesis", "Portfolio",
+                 "In Their Own Words", "What Founders Say", "Sources"],
+        "startup": ["About", "Funding History", "What Investors Say",
+                     "What Founders Say", "Sources"],
+    }
+    profile_type = meta.get("type", "")
+    required = required_sections.get(profile_type, [])
+    existing_sections = re.findall(r'^## (.+)$', content, re.MULTILINE)
+    missing = [s for s in required if s not in existing_sections]
+    if missing:
+        # Insert missing sections before ## Sources (or at end if no Sources)
+        for section_name in missing:
+            if section_name == "Sources":
+                continue  # Don't auto-add Sources — it needs content
+            placeholder = f"\n\n## {section_name}\n\nNo verified information available at this time.\n"
+            if "## Sources" in content:
+                content = content.replace("## Sources", f"{placeholder.rstrip()}\n\n## Sources", 1)
+            else:
+                content = content.rstrip() + placeholder
+        fixes.append(f"added missing sections: {', '.join(s for s in missing if s != 'Sources')}")
+
+    if fixes:
+        with open(path, "w") as f:
+            f.write(content)
+        print(f"Auto-fixed {slug}: {', '.join(fixes)}")
+    else:
+        print(f"No additional fixes for {slug}")
+
+
+def cmd_fix_citations(slug):
+    """Auto-fix common citation errors in a profile:
+    - Merge duplicate source URLs (keep first footnote, remap body refs)
+    - Remove orphan source definitions (defined but never referenced)
+    - Remove duplicate [^N]: definition lines (keep first)
+    - Renumber footnotes sequentially using temp placeholders
+    """
+    path = find_profile(slug)
+    if not path:
+        print(f"Profile not found: {slug}")
+        sys.exit(1)
+
+    with open(path) as f:
+        content = f.read()
+
+    # Split frontmatter and body
+    parts = content.split("---", 2)
+    if len(parts) < 3:
+        print(f"Cannot parse frontmatter in {slug}")
+        sys.exit(1)
+    front = parts[1]
+    body = parts[2]
+
+    # Step 1: Find all source definitions and their URLs
+    def_pattern = re.compile(r'^\[\^(\d+)\]:\s*(.*)', re.MULTILINE)
+    defs = {}  # num -> full line text
+    def_urls = {}  # num -> cleaned URL
+    for m in def_pattern.finditer(body):
+        num = int(m.group(1))
+        line_text = m.group(2)
+        url_match = re.search(r'(https?://\S+)', line_text)
+        url = url_match.group(1).rstrip('.') if url_match else None
+        if num not in defs:  # keep first definition, skip duplicate [^N]: lines
+            defs[num] = m.group(0)
+            def_urls[num] = url
+
+    # Step 2: Find all body references (not definitions)
+    ref_nums = set(int(n) for n in re.findall(r'\[\^(\d+)\](?!:)', body))
+
+    # Step 3: Build URL -> first footnote number mapping (for dedup)
+    url_to_first = {}
+    remap = {}  # old_num -> new_num (for duplicates)
+    for num in sorted(defs.keys()):
+        url = def_urls[num]
+        if url and url in url_to_first:
+            remap[num] = url_to_first[url]
+        elif url:
+            url_to_first[url] = num
+
+    # Step 4: Apply duplicate URL remapping in body refs
+    for old_num, new_num in remap.items():
+        body = re.sub(rf'\[\^{old_num}\](?!:)', f'[^{new_num}]', body)
+
+    # Remove duplicate source defs
+    for old_num in remap:
+        body = re.sub(rf'^\[\^{old_num}\]:.*\n?', '', body, flags=re.MULTILINE)
+
+    # Step 5: Remove orphan source defs (defined but not referenced after remapping)
+    ref_nums_after = set(int(n) for n in re.findall(r'\[\^(\d+)\](?!:)', body))
+    def_nums_after = set(int(n) for n in re.findall(r'^\[\^(\d+)\]:', body, re.MULTILINE))
+    orphans = def_nums_after - ref_nums_after
+    for orphan in orphans:
+        body = re.sub(rf'^\[\^{orphan}\]:.*\n?', '', body, flags=re.MULTILINE)
+
+    # Step 6: Renumber sequentially using temp placeholders
+    remaining_nums = sorted(set(int(n) for n in re.findall(r'\[\^(\d+)\]', body)))
+    if remaining_nums and remaining_nums != list(range(1, len(remaining_nums) + 1)):
+        # First pass: replace all with temp placeholders
+        for i, old_num in enumerate(remaining_nums):
+            placeholder = f'[^__TEMP_{i+1}__]'
+            body = body.replace(f'[^{old_num}]', placeholder)
+
+        # Second pass: replace placeholders with sequential numbers
+        for i in range(len(remaining_nums)):
+            body = body.replace(f'[^__TEMP_{i+1}__]', f'[^{i+1}]')
+
+    # Clean up any double blank lines left by removals
+    body = re.sub(r'\n{3,}', '\n\n', body)
+
+    # Write back
+    result = f"---{front}---{body}"
+    with open(path, "w") as f:
+        f.write(result)
+
+    # Report
+    fixes = []
+    if remap:
+        fixes.append(f"merged {len(remap)} duplicate URL(s)")
+    if orphans:
+        fixes.append(f"removed {len(orphans)} orphan def(s)")
+    if remaining_nums and remaining_nums != list(range(1, len(remaining_nums) + 1)):
+        fixes.append("renumbered footnotes sequentially")
+    if fixes:
+        print(f"Fixed {slug}: {', '.join(fixes)}")
+    else:
+        print(f"No fixes needed for {slug}")
+
+
+def cmd_write_pending(adds=None, completions=None):
+    """Write .pending-queue-adds.yaml and/or .pending-completions.yaml.
+
+    Args:
+        adds: JSON string of queue-add entries [{name, type, firm, priority, discovered_from}, ...]
+        completions: JSON string of slug strings ["slug-a", "slug-b", ...]
+
+    Appends to existing files if they exist.
+    """
+    import json as _json
+
+    if adds:
+        adds_path = DATA / ".pending-queue-adds.yaml"
+        new_adds = _json.loads(adds)
+        existing = []
+        if adds_path.exists():
+            with open(adds_path) as f:
+                existing = yaml.safe_load(f) or []
+        existing.extend(new_adds)
+        with open(adds_path, "w") as f:
+            yaml.dump(existing, f, default_flow_style=False)
+        print(f"Wrote {len(new_adds)} queue-adds ({len(existing)} total)")
+
+    if completions:
+        completions_path = DATA / ".pending-completions.yaml"
+        new_completions = _json.loads(completions)
+        existing = []
+        if completions_path.exists():
+            with open(completions_path) as f:
+                existing = yaml.safe_load(f) or []
+        existing.extend(new_completions)
+        with open(completions_path, "w") as f:
+            yaml.dump(existing, f, default_flow_style=False)
+        print(f"Wrote {len(new_completions)} completions ({len(existing)} total)")
+
+
+def _process_pending_files():
+    """Process pending action files written by the orchestrator.
+
+    Reads:
+      data/.pending-queue-adds.yaml — list of {name, type, firm, priority, discovered_from}
+      data/.pending-completions.yaml — list of slugs to mark completed
+
+    Each file is deleted after processing.
+    """
+    adds_path = DATA / ".pending-queue-adds.yaml"
+    completions_path = DATA / ".pending-completions.yaml"
+
+    # Process queue additions
+    if adds_path.exists():
+        with open(adds_path) as f:
+            adds = yaml.safe_load(f) or []
+        if adds:
+            data = load_queue()
+            items = data.get("queue", [])
+            existing = {item.get("name", "").strip().lower() for item in items}
+
+            # Also check existing profiles
+            existing_profiles = set()
+            for subdir in ["investors", "firms", "startups"]:
+                for md_file in (DATA / subdir).glob("*.md"):
+                    existing_profiles.add(md_file.stem)
+
+            added = 0
+            for entry in adds:
+                name = entry.get("name", "").strip()
+                if not name:
+                    continue
+                if name.lower() in existing:
+                    continue
+                slug = re.sub(r'[^a-z0-9]+', '-', name.lower()).strip('-')
+                if slug in existing_profiles:
+                    continue
+
+                item = {
+                    "name": name,
+                    "type": entry.get("type", "individual"),
+                    "priority": entry.get("priority", "normal"),
+                    "status": "pending",
+                    "added": "2026-03-17",
+                }
+                if entry.get("firm"):
+                    item["firm"] = entry["firm"]
+                if entry.get("discovered_from"):
+                    item["discovered_from"] = entry["discovered_from"]
+                if entry.get("source"):
+                    item["source"] = entry["source"]
+
+                items.append(item)
+                existing.add(name.lower())
+                added += 1
+
+            data["queue"] = items
+            save_queue(data)
+            print(f"Queue: added {added} new items ({len(adds) - added} skipped as duplicates)")
+        adds_path.unlink()
+
+    # Process completions
+    if completions_path.exists():
+        with open(completions_path) as f:
+            completions = yaml.safe_load(f) or []
+        if completions:
+            data = load_queue()
+            items = data.get("queue", [])
+            completed = 0
+            for slug in completions:
+                slug = str(slug).strip()
+                for item in items:
+                    item_slug = re.sub(r'[^a-z0-9]+', '-', item.get("name", "").lower()).strip('-')
+                    if item_slug == slug and item.get("status") != "completed":
+                        item["status"] = "completed"
+                        completed += 1
+                        break
+            save_queue(data)
+            print(f"Queue: marked {completed} items completed")
+        completions_path.unlink()
+
+
+def _ensure_pending_sources_queued():
+    """Check all profiles for pending_sources with status: queued.
+
+    If a profile has queued pending sources and is not already in the research queue,
+    add it so agents will pick it up and incorporate the user-submitted URLs.
+    This ensures no user-submitted source URL is ever lost or forgotten.
+    """
+    queue_data = load_queue()
+    queue_items = queue_data.get("queue", [])
+    existing_queue_slugs = set()
+    for item in queue_items:
+        s = re.sub(r'[^a-z0-9]+', '-', item.get("name", "").lower()).strip('-')
+        existing_queue_slugs.add(s)
+        # Also check if already completed or in_progress — skip those
+    pending_in_queue = {
+        re.sub(r'[^a-z0-9]+', '-', item.get("name", "").lower()).strip('-')
+        for item in queue_items
+        if item.get("status") in ("pending", "in_progress")
+    }
+
+    type_map = {"investors": "individual", "firms": "firm", "startups": "startup"}
+    added = 0
+
+    for subdir in ["investors", "firms", "startups"]:
+        for md_file in sorted((DATA / subdir).glob("*.md")):
+            try:
+                post = frontmatter.load(str(md_file))
+            except Exception:
+                continue
+            pending = post.metadata.get("pending_sources") or []
+            has_queued = any(
+                isinstance(s, dict) and s.get("status") == "queued"
+                for s in pending
+            )
+            if not has_queued:
+                continue
+
+            slug = md_file.stem
+            if slug in pending_in_queue:
+                continue  # Already queued for research
+
+            # Add to queue so agents will process the pending sources
+            name = post.metadata.get("name", slug.replace("-", " ").title())
+            queue_items.append({
+                "name": name,
+                "type": type_map.get(subdir, "individual"),
+                "source": "has user-submitted pending_sources to incorporate",
+                "priority": "high",
+                "status": "pending",
+                "added": "2026-03-30",
+            })
+            added += 1
+
+    if added:
+        queue_data["queue"] = queue_items
+        save_queue(queue_data)
+        print(f"Pending sources: queued {added} profiles for re-research")
+
+
+def cmd_post_batch():
+    """Complete post-agent workflow in one shot:
+    1. Process pending queue additions from data/.pending-queue-adds.yaml
+    2. Process pending completions from data/.pending-completions.yaml
+    3. Find all draft profiles
+    4. Auto-fix each (citations, missing firm field, etc.)
+    5. Lint each — publish those that pass, report those that fail
+    6. Rebuild site once
+    7. Single git add + commit + push
+
+    This is the ONE command the orchestrator runs after agents finish writing profiles.
+    The invocation is always: python3 scripts/sl post-batch
+    """
+    # Step 1-2: Process pending action files
+    _process_pending_files()
+
+    # Step 2.5: Check for profiles with queued pending_sources and ensure they're in queue
+    _ensure_pending_sources_queued()
+
+    # Step 3: Find all drafts
+    drafts = []
+    for subdir in ["investors", "firms", "startups"]:
+        for md_file in sorted((DATA / subdir).glob("*.md")):
+            if get_frontmatter_status(md_file) == "draft":
+                drafts.append(md_file.stem)
+
+    if not drafts:
+        print("No draft profiles to process.")
+        return
+
+    print(f"Processing {len(drafts)} drafts...")
+
+    # Auto-fix each (silently — just report what changed)
+    for slug in drafts:
+        try:
+            cmd_auto_fix(slug)
+        except SystemExit:
+            pass  # auto-fix may exit on missing profiles; skip
+
+    # Cross-reference reconciliation (backfill startups, reconcile firms, compute LVI)
+    print("Running cross-reference backfill...")
+    cmd_xref_backfill_startup("--all")
+    cmd_xref_reconcile_firm("--all")
+    cmd_xref_compute_lvi("--all")
+
+    # Now lint and publish
+    passed = []
+    failed = []
+
+    for slug in drafts:
+        path = find_profile(slug)
+        if not path:
+            continue
+
+        post = frontmatter.load(path)
+        meta = post.metadata
+        body = post.content
+
+        lint_errors = []
+
+        # Quick lint checks
+        common_fields = ["name", "slug", "type", "status", "last_researched"]
+        for field in common_fields:
+            if field not in meta:
+                lint_errors.append(f"Missing frontmatter: {field}")
+
+        # Check footnote numbering
+        all_nums = sorted(set(int(n) for n in re.findall(r'\[\^(\d+)\]', body)))
+        if all_nums:
+            expected = list(range(1, max(all_nums) + 1))
+            missing = set(expected) - set(all_nums)
+            if missing:
+                lint_errors.append(f"Footnote gaps: {sorted(missing)}")
+
+        ref_nums = set(int(n) for n in re.findall(r'\[\^(\d+)\](?!:)', body))
+        def_nums = set(int(n) for n in re.findall(r'^\[\^(\d+)\]:', body, re.MULTILINE))
+        if ref_nums - def_nums:
+            lint_errors.append(f"Refs without defs: {sorted(ref_nums - def_nums)}")
+
+        # Check duplicate URLs
+        source_urls = re.findall(r'^\[\^\d+\]:.*?(https?://\S+)', body, re.MULTILINE)
+        seen = {}
+        for url in source_urls:
+            u = url.rstrip('.')
+            if u in seen:
+                lint_errors.append(f"Duplicate URL: {u}")
+            seen[u] = True
+
+        if lint_errors:
+            failed.append((slug, "; ".join(lint_errors)))
+        else:
+            set_profile_status(path, "published")
+            passed.append(slug)
+
+    if not passed and not failed:
+        print("Nothing to do.")
+        return
+
+    if passed:
+        # Rebuild site once
+        run(f"{sys.executable} build.py")
+
+        # Stage ONLY passing profiles + site build + queue — NOT failing drafts
+        for slug in passed:
+            p = find_profile(slug)
+            if p:
+                run(f"git add {p}")
+        run("git add data/queue.yaml")
+        run("git add _site/", check=False)  # may be gitignored
+        # Stage xref-modified files (startups/firms/investors updated by cross-ref)
+        for subdir in ["startups", "firms", "investors"]:
+            run(f"git add data/{subdir}/", check=False)
+        # Also stage any other non-draft changes (scripts, etc.)
+        r = run("git diff --name-only", check=False)
+        for f in (r.stdout or "").strip().split("\n"):
+            f = f.strip()
+            if f and not any(f.endswith(f"/{s}.md") for s, _ in failed):
+                run(f"git add {f}", check=False)
+
+        slug_list = ", ".join(passed[:5])
+        if len(passed) > 5:
+            slug_list += f" +{len(passed) - 5} more"
+        run(f'git commit -m "Post-batch: publish {len(passed)} profiles ({slug_list})"')
+        _git_push_with_retry()
+
+    # One-line summary
+    fail_detail = ""
+    if failed:
+        fail_names = ", ".join(s for s, _ in failed[:3])
+        if len(failed) > 3:
+            fail_names += f" +{len(failed) - 3}"
+        fail_detail = f", {len(failed)} failed ({fail_names})"
+    print(f"Post-batch: {len(passed)} published{fail_detail}")
+
+    if failed:
+        for slug, reason in failed:
+            print(f"  FAIL {slug}: {reason}")
+
+    # Exit 0 if anything published; exit 1 only if ALL drafts failed
+    if not passed and failed:
+        sys.exit(1)
+
+
+def cmd_batch_publish(*slugs):
+    """Lint, auto-fix, and publish multiple profiles in a single commit."""
+    if not slugs:
+        print("Usage: sl batch-publish SLUG1 SLUG2 ...")
+        sys.exit(1)
+
+    passed = []
+    failed = []
+
+    for slug in slugs:
+        path = find_profile(slug)
+        if not path:
+            failed.append((slug, "profile not found"))
+            continue
+
+        # Run fix-citations first
+        cmd_fix_citations(slug)
+
+        # Lint (capture output, don't exit on error)
+        post = frontmatter.load(path)
+        meta = post.metadata
+        body = post.content
+        profile_type = meta.get("type", "unknown")
+
+        lint_errors = []
+
+        # Quick lint checks (subset of cmd_lint)
+        common_fields = ["name", "slug", "type", "status", "last_researched"]
+        for field in common_fields:
+            if field not in meta:
+                lint_errors.append(f"Missing frontmatter: {field}")
+
+        # Check footnote numbering
+        all_nums = sorted(set(int(n) for n in re.findall(r'\[\^(\d+)\]', body)))
+        if all_nums:
+            expected = list(range(1, max(all_nums) + 1))
+            missing = set(expected) - set(all_nums)
+            if missing:
+                lint_errors.append(f"Footnote gaps: {sorted(missing)}")
+
+        ref_nums = set(int(n) for n in re.findall(r'\[\^(\d+)\](?!:)', body))
+        def_nums = set(int(n) for n in re.findall(r'^\[\^(\d+)\]:', body, re.MULTILINE))
+        if ref_nums - def_nums:
+            lint_errors.append(f"Refs without defs: {sorted(ref_nums - def_nums)}")
+
+        # Check duplicate URLs
+        source_urls = re.findall(r'^\[\^\d+\]:.*?(https?://\S+)', body, re.MULTILINE)
+        seen = {}
+        for url in source_urls:
+            u = url.rstrip('.')
+            if u in seen:
+                lint_errors.append(f"Duplicate URL: {u}")
+            seen[u] = True
+
+        if lint_errors:
+            failed.append((slug, "; ".join(lint_errors)))
+            print(f"  ✗ {slug}: {len(lint_errors)} error(s) — skipping")
+            for e in lint_errors:
+                print(f"    {e}")
+        else:
+            set_profile_status(path, "published")
+            passed.append(slug)
+            print(f"  ✓ {slug}: published")
+
+    if not passed:
+        print(f"\nNo profiles passed lint. {len(failed)} failed.")
+        sys.exit(1)
+
+    # Rebuild site once
+    run(f"{sys.executable} build.py")
+    print("Site rebuilt")
+
+    # Single commit
+    run("git add -A")
+    slug_list = ", ".join(passed)
+    run(f'git commit -m "Publish batch: {slug_list}"')
+    _git_push_with_retry()
+
+    print(f"\nPublished {len(passed)}/{len(passed) + len(failed)} profiles.")
+    if failed:
+        print(f"Failed ({len(failed)}):")
+        for slug, reason in failed:
+            print(f"  {slug}: {reason}")
+
+
+def cmd_prune(execute=False):
+    """Remove low-value queue items: priority=low AND discovery_depth >= 3."""
+    data = load_queue()
+    items = data.get("queue", [])
+
+    to_remove = []
+    to_keep = []
+    counts = {"individual": 0, "firm": 0, "startup": 0}
+
+    for item in items:
+        if (item.get("status") == "pending"
+                and item.get("priority") == "low"
+                and item.get("discovery_depth", 0) >= 3):
+            to_remove.append(item)
+            t = item.get("type", "unknown")
+            counts[t] = counts.get(t, 0) + 1
+        else:
+            to_keep.append(item)
+
+    if not to_remove:
+        print("Nothing to prune — no low-priority items at depth >= 3")
+        return
+
+    if execute:
+        data["queue"] = to_keep
+        save_queue(data)
+        print(f"Pruned {len(to_remove)} items "
+              f"({counts.get('individual', 0)} individuals, "
+              f"{counts.get('startup', 0)} startups, "
+              f"{counts.get('firm', 0)} firms)")
+    else:
+        print(f"DRY RUN — would prune {len(to_remove)} items:")
+        for item in to_remove:
+            print(f"  [{item.get('type', '?')}] {item.get('name', '?')} "
+                  f"(depth={item.get('discovery_depth', '?')}, "
+                  f"from={item.get('discovered_from', '?')})")
+        print(f"\nSummary: {counts.get('individual', 0)} individuals, "
+              f"{counts.get('startup', 0)} startups, "
+              f"{counts.get('firm', 0)} firms")
+        print("Run with --execute to apply.")
+
+
+def cmd_gen_firms(dry_run=False):
+    """Auto-generate firm profiles from investor data."""
+    investors_dir = DATA / "investors"
+    firms_dir = DATA / "firms"
+
+    if not investors_dir.exists():
+        print("No investors directory found")
+        return
+
+    # Build dict: firm_slug -> list of {name, slug, role, stage_focus, sector_focus}
+    firm_data = {}
+    for md_file in investors_dir.glob("*.md"):
+        post = frontmatter.load(md_file)
+        meta = post.metadata
+        firm_slug = meta.get("firm")
+        if not firm_slug:
+            continue
+        if firm_slug not in firm_data:
+            firm_data[firm_slug] = {"team": [], "stage_focus": set(), "sector_focus": set()}
+        firm_data[firm_slug]["team"].append({
+            "slug": meta.get("slug", md_file.stem),
+            "role": meta.get("role", "Unknown"),
+        })
+        for s in (meta.get("stage_focus") or []):
+            firm_data[firm_slug]["stage_focus"].add(s)
+        for s in (meta.get("sector_focus") or []):
+            firm_data[firm_slug]["sector_focus"].add(s)
+
+    # Resolve firm names from queue.yaml
+    queue_data = load_queue()
+    queue_names = {}
+    for item in queue_data.get("queue", []):
+        if item.get("type") == "firm":
+            slug = item.get("name", "").lower().replace(" ", "-")
+            queue_names[slug] = item.get("name", "")
+
+    # Find firms without existing profiles
+    generated = []
+    for firm_slug, info in sorted(firm_data.items()):
+        firm_path = firms_dir / f"{firm_slug}.md"
+        if firm_path.exists():
+            continue
+
+        # Resolve name
+        name = queue_names.get(firm_slug, "")
+        if not name:
+            # Title-case the slug
+            name = firm_slug.replace("-", " ").title()
+
+        if dry_run:
+            team_str = ", ".join(f"{t['slug']} ({t['role']})" for t in info["team"])
+            print(f"  Would generate: {firm_slug} — {name} (team: {team_str})")
+            generated.append(firm_slug)
+            continue
+
+        # Generate minimal profile
+        team_yaml = "\n".join(
+            f"  - slug: {t['slug']}\n    role: \"{t['role']}\""
+            for t in info["team"]
+        )
+        stage_list = sorted(info["stage_focus"]) if info["stage_focus"] else ["seed"]
+        sector_list = sorted(info["sector_focus"]) if info["sector_focus"] else []
+
+        content = f"""---
+name: "{name}"
+slug: {firm_slug}
+type: firm
+stage_focus: [{', '.join(stage_list)}]
+sector_focus: [{', '.join(sector_list)}]
+team:
+{team_yaml}
+status: draft
+last_researched: 2026-03-15
+---
+
+## About
+
+No verified information available at this time.
+
+## Stated Thesis
+
+No verified information available at this time.
+
+## Inferred Thesis
+
+No verified information available at this time.
+
+## Portfolio
+
+No verified information available at this time.
+
+## In Their Own Words
+
+No verified information available at this time.
+
+## What Founders Say
+
+No verified information available at this time.
+
+## Sources
+
+No sources yet.
+"""
+        firm_path.write_text(content)
+        generated.append(firm_slug)
+        print(f"  Generated: {firm_slug} — {name}")
+
+    if not generated:
+        print("No new firm profiles to generate — all firms with investor profiles already exist.")
+    else:
+        action = "Would generate" if dry_run else "Generated"
+        print(f"\n{action} {len(generated)} firm profiles")
+
+
+def cmd_gen_startups(threshold=2, dry_run=False):
+    """Auto-generate startup profiles from cross-referenced portfolio data."""
+    investors_dir = DATA / "investors"
+    startups_dir = DATA / "startups"
+
+    if not investors_dir.exists():
+        print("No investors directory found")
+        return
+
+    # Scan all investor portfolios
+    # company_data: normalized_name -> {name, entries: [{investor_slug, firm_slug, year, stage}]}
+    company_data = {}
+
+    for md_file in investors_dir.glob("*.md"):
+        post = frontmatter.load(md_file)
+        meta = post.metadata
+        investor_slug = meta.get("slug", md_file.stem)
+        firm_slug = meta.get("firm", "")
+        body = post.content
+
+        # Find portfolio section
+        in_portfolio = False
+        for line in body.split("\n"):
+            if line.startswith("## Portfolio"):
+                in_portfolio = True
+                continue
+            if in_portfolio and line.startswith("## "):
+                break
+            if in_portfolio and line.startswith("|") and not re.match(r'^\|[-\s|]+\|$', line):
+                cells = [c.strip() for c in line.split("|")[1:-1]]
+                if not cells or cells[0].lower() == "company":
+                    continue  # header row
+                company_name = cells[0].strip()
+                # Extract year
+                year_match = re.search(r'~?(\d{4})', line)
+                year = int(year_match.group(1)) if year_match else None
+                # Extract stage (second or third column typically)
+                stage = cells[2].strip() if len(cells) > 2 else ""
+                if not stage and len(cells) > 1:
+                    stage = cells[1].strip()
+
+                # Normalize company name for dedup
+                norm = _normalize_company(company_name)
+                if norm not in company_data:
+                    company_data[norm] = {"name": company_name, "entries": []}
+                company_data[norm]["entries"].append({
+                    "investor_slug": investor_slug,
+                    "firm_slug": firm_slug,
+                    "year": year,
+                    "stage": stage,
+                })
+
+    # Filter to companies appearing in threshold+ investor portfolios
+    cross_ref = {k: v for k, v in company_data.items()
+                 if len(set(e["investor_slug"] for e in v["entries"])) >= threshold}
+
+    # Filter out companies that already have profiles
+    generated = []
+    for norm, data in sorted(cross_ref.items()):
+        slug = norm  # already normalized
+        startup_path = startups_dir / f"{slug}.md"
+        if startup_path.exists():
+            continue
+
+        investors = data["entries"]
+        name = data["name"]
+
+        if dry_run:
+            inv_list = ", ".join(sorted(set(e["investor_slug"] for e in investors)))
+            print(f"  Would generate: {slug} — {name} (investors: {inv_list})")
+            generated.append(slug)
+            continue
+
+        # Build frontmatter
+        investor_entries = []
+        firm_entries = []
+        years = []
+        seen_investors = set()
+        seen_firms = set()
+
+        for entry in sorted(investors, key=lambda e: e.get("year") or 9999):
+            if entry["investor_slug"] not in seen_investors:
+                inv_entry = {"slug": entry["investor_slug"]}
+                if entry.get("stage"):
+                    inv_entry["round"] = entry["stage"].lower().replace(" ", "-")
+                if entry.get("year"):
+                    inv_entry["year"] = entry["year"]
+                investor_entries.append(inv_entry)
+                seen_investors.add(entry["investor_slug"])
+
+            if entry.get("firm_slug") and entry["firm_slug"] not in seen_firms:
+                firm_entry = {"slug": entry["firm_slug"]}
+                if entry.get("stage"):
+                    firm_entry["round"] = entry["stage"].lower().replace(" ", "-")
+                if entry.get("year"):
+                    firm_entry["year"] = entry["year"]
+                firm_entries.append(firm_entry)
+                seen_firms.add(entry["firm_slug"])
+
+            if entry.get("year"):
+                years.append(entry["year"])
+
+        # Build funding history table from entries
+        funding_rows = []
+        for entry in sorted(investors, key=lambda e: e.get("year") or 9999):
+            yr = entry.get("year", "Unknown")
+            stage = entry.get("stage", "Unknown")
+            inv = entry.get("investor_slug", "Unknown")
+            funding_rows.append(f"| {yr} | {stage} | Unknown | {inv} | — |")
+
+        # Deduplicate funding rows
+        seen_rows = set()
+        unique_funding = []
+        for row in funding_rows:
+            if row not in seen_rows:
+                unique_funding.append(row)
+                seen_rows.add(row)
+
+        investors_yaml = "\n".join(
+            "  - slug: {slug}{round}{year}".format(
+                slug=e["slug"],
+                round=f"\n    round: {e['round']}" if "round" in e else "",
+                year=f"\n    year: {e['year']}" if "year" in e else "",
+            )
+            for e in investor_entries
+        )
+        firms_yaml = "\n".join(
+            "  - slug: {slug}{round}{year}".format(
+                slug=e["slug"],
+                round=f"\n    round: {e['round']}" if "round" in e else "",
+                year=f"\n    year: {e['year']}" if "year" in e else "",
+            )
+            for e in firm_entries
+        ) if firm_entries else "  []"
+
+        content = f"""---
+name: "{name}"
+slug: {slug}
+type: startup
+sector: []
+investors:
+{investors_yaml}
+firms:
+{firms_yaml}
+status: draft
+last_researched: 2026-03-15
+---
+
+## About
+
+No verified information available at this time.
+
+## Funding History
+
+| Year | Round | Amount | Lead | Co-investors |
+|------|-------|--------|------|--------------|
+{chr(10).join(unique_funding)}
+
+## What Investors Say
+
+No verified information available at this time.
+
+## What Founders Say
+
+No verified information available at this time.
+
+## Sources
+
+No sources yet.
+"""
+        startups_dir.mkdir(parents=True, exist_ok=True)
+        startup_path.write_text(content)
+        generated.append(slug)
+        print(f"  Generated: {slug} — {name}")
+
+    if not generated:
+        print(f"No new startup profiles to generate at threshold={threshold}.")
+    else:
+        action = "Would generate" if dry_run else "Generated"
+        print(f"\n{action} {len(generated)} startup profiles")
+
+
+def cmd_lint_drafts(no_fetch=False):
+    """Lint all draft profiles across all directories."""
+    results = {"clean": [], "warnings": [], "errors": []}
+    for subdir in ["investors", "firms", "startups"]:
+        for md_file in sorted((DATA / subdir).glob("*.md")):
+            status = get_frontmatter_status(md_file)
+            if status != "draft":
+                continue
+            slug = md_file.stem
+            # Capture lint output
+            import io
+            from contextlib import redirect_stdout
+            buf = io.StringIO()
+            try:
+                old_argv = sys.argv
+                sys.argv = ["sl", "lint", slug] + (["--no-fetch"] if no_fetch else [])
+                with redirect_stdout(buf):
+                    cmd_lint(slug, no_fetch=no_fetch)
+            except SystemExit as e:
+                code = e.code if e.code is not None else 0
+                output = buf.getvalue().strip()
+                if code == 0:
+                    results["clean"].append(slug)
+                    print(f"  ✓ {slug}")
+                elif code == 1:
+                    results["errors"].append(slug)
+                    print(f"  ✗ {slug}")
+                    for line in output.split("\n"):
+                        if line.strip():
+                            print(f"    {line.strip()}")
+                else:
+                    results["warnings"].append(slug)
+                    print(f"  ⚠ {slug}")
+                    for line in output.split("\n"):
+                        if line.strip():
+                            print(f"    {line.strip()}")
+            finally:
+                sys.argv = old_argv
+
+    total = sum(len(v) for v in results.values())
+    print(f"\nLinted {total} drafts: "
+          f"{len(results['clean'])} clean, "
+          f"{len(results['warnings'])} warnings, "
+          f"{len(results['errors'])} errors")
+
+
+def cmd_publish_clean():
+    """Publish all draft profiles that pass lint (0 errors)."""
+    published = []
+    for subdir in ["investors", "firms", "startups"]:
+        for md_file in sorted((DATA / subdir).glob("*.md")):
+            status = get_frontmatter_status(md_file)
+            if status != "draft":
+                continue
+            slug = md_file.stem
+            # Run lint silently
+            import io
+            from contextlib import redirect_stdout
+            buf = io.StringIO()
+            try:
+                with redirect_stdout(buf):
+                    cmd_lint(slug, no_fetch=True)
+            except SystemExit as e:
+                code = e.code if e.code is not None else 0
+                if code <= 1:
+                    # 0 = clean, skip errors (1)
+                    if code == 0:
+                        set_profile_status(md_file, "published")
+                        published.append(slug)
+                        print(f"  Published: {slug}")
+                    else:
+                        print(f"  Skipped (lint errors): {slug}")
+                else:
+                    # warnings only — publish
+                    set_profile_status(md_file, "published")
+                    published.append(slug)
+                    print(f"  Published (with warnings): {slug}")
+
+    if not published:
+        print("No draft profiles ready to publish.")
+        return
+
+    # Rebuild and push
+    run(f"{sys.executable} build.py")
+    print(f"\nSite rebuilt with {len(published)} new profiles")
+    run("git add -A")
+    slugs_str = ", ".join(published[:5])
+    if len(published) > 5:
+        slugs_str += f" +{len(published) - 5} more"
+    run(f'git commit -m "Publish {len(published)} profiles: {slugs_str}"')
+    _git_push_with_retry()
+    print("Pushed to live site")
+
+
+def _normalize_company(name):
+    """Normalize company name to a slug."""
+    name = name.strip()
+    # Remove citation markers like [^1]
+    name = re.sub(r'\[\^\d+\]', '', name).strip()
+    # Remove common suffixes
+    for suffix in [", Inc.", ", Inc", " Inc.", " Inc", ", Corp.", " Corp.", " Corp",
+                   ", LLC", " LLC", ", Ltd.", " Ltd.", " Ltd", ", Co.", " Co.",
+                   ", LP", " LP", ", L.P.", " L.P."]:
+        if name.endswith(suffix):
+            name = name[:-len(suffix)]
+    # Special case: "Facebook / Meta" -> "facebook"
+    if "/" in name:
+        name = name.split("/")[0].strip()
+    return re.sub(r'[^a-z0-9]+', '-', name.lower()).strip('-')
+
+
+def _normalize_company_variants(name):
+    """Return a set of normalized slug variants for a company name.
+    Handles parenthetical aliases like 'Block (Square)' -> {'block', 'square'}.
+    """
+    name = name.strip()
+    name = re.sub(r'\[\^\d+\]', '', name).strip()
+    variants = set()
+    # Handle parenthetical aliases: "Block (Square)" -> both "block" and "square"
+    paren_match = re.match(r'^(.+?)\s*\((.+?)\)\s*$', name)
+    if paren_match:
+        variants.add(_normalize_company(paren_match.group(1)))
+        variants.add(_normalize_company(paren_match.group(2)))
+    variants.add(_normalize_company(name))
+    return variants
+
+
+# ── Cross-Reference (xref) ───────────────────────────────────
+
+
+def _scan_investor_portfolios():
+    """Scan all investor profiles and extract portfolio entries.
+    Returns dict: normalized_company_name -> list of {investor_slug, firm_slug, year, stage, raw_name}
+    """
+    investors_dir = DATA / "investors"
+    if not investors_dir.exists():
+        return {}
+
+    portfolio_index = {}  # norm_name -> [entries]
+
+    for md_file in investors_dir.glob("*.md"):
+        post = frontmatter.load(md_file)
+        meta = post.metadata
+        investor_slug = meta.get("slug", md_file.stem)
+        firm_slug = meta.get("firm", "")
+        body = post.content
+
+        in_portfolio = False
+        for line in body.split("\n"):
+            if line.startswith("## Portfolio"):
+                in_portfolio = True
+                continue
+            if in_portfolio and line.startswith("## "):
+                break
+            if in_portfolio and line.startswith("|") and not re.match(r'^\|[-\s|]+\|$', line):
+                cells = [c.strip() for c in line.split("|")[1:-1]]
+                if not cells or cells[0].lower() == "company":
+                    continue
+                company_name = re.sub(r'\[\^\d+\]', '', cells[0]).strip()
+                if not company_name or company_name.lower() == "company":
+                    continue
+
+                year_match = re.search(r'~?(\d{4})', line)
+                year = int(year_match.group(1)) if year_match else None
+                stage = ""
+                if len(cells) > 2:
+                    stage = re.sub(r'\[\^\d+\]', '', cells[2]).strip()
+                if not stage and len(cells) > 1:
+                    stage = re.sub(r'\[\^\d+\]', '', cells[1]).strip()
+
+                for norm in _normalize_company_variants(company_name):
+                    if norm not in portfolio_index:
+                        portfolio_index[norm] = []
+                    portfolio_index[norm].append({
+                        "investor_slug": investor_slug,
+                        "firm_slug": firm_slug,
+                        "year": year,
+                        "stage": stage,
+                        "raw_name": company_name,
+                    })
+
+    return portfolio_index
+
+
+def cmd_xref_backfill_startup(slug_or_all, dry_run=False):
+    """Backfill startup frontmatter with investors/firms found in investor portfolio tables."""
+    startups_dir = DATA / "startups"
+    if not startups_dir.exists():
+        print("No startups directory found")
+        return
+
+    # Determine which startups to process
+    if slug_or_all == "--all":
+        targets = sorted(startups_dir.glob("*.md"))
+    else:
+        target = startups_dir / f"{slug_or_all}.md"
+        if not target.exists():
+            print(f"Startup profile not found: {slug_or_all}")
+            return
+        targets = [target]
+
+    # Build portfolio index from all investor profiles
+    portfolio_index = _scan_investor_portfolios()
+
+    updated_count = 0
+    added_refs = 0
+
+    for startup_path in targets:
+        post = frontmatter.load(startup_path)
+        meta = post.metadata
+        startup_name = meta.get("name", startup_path.stem)
+        startup_slug = meta.get("slug", startup_path.stem)
+
+        # Build set of normalized names for this startup
+        match_names = _normalize_company_variants(startup_name)
+        match_names.add(_normalize_company(startup_slug))
+
+        # Find matching entries in portfolio index
+        matches = []
+        for norm in match_names:
+            if norm in portfolio_index:
+                matches.extend(portfolio_index[norm])
+
+        if not matches:
+            continue
+
+        # Get existing investors and firms from frontmatter
+        existing_investors = set()
+        for inv in (meta.get("investors") or []):
+            if isinstance(inv, dict):
+                existing_investors.add(inv.get("slug", ""))
+            elif isinstance(inv, str):
+                existing_investors.add(inv)
+
+        existing_firms = set()
+        for firm in (meta.get("firms") or []):
+            if isinstance(firm, dict):
+                existing_firms.add(firm.get("slug", ""))
+            elif isinstance(firm, str):
+                existing_firms.add(firm)
+
+        # Find new entries to add
+        new_investors = []
+        new_firms = []
+        seen_new_investors = set()
+        seen_new_firms = set()
+
+        for entry in matches:
+            inv_slug = entry["investor_slug"]
+            if inv_slug not in existing_investors and inv_slug not in seen_new_investors:
+                inv_entry = {"slug": inv_slug}
+                if entry.get("stage"):
+                    inv_entry["round"] = entry["stage"]
+                if entry.get("year"):
+                    inv_entry["year"] = entry["year"]
+                new_investors.append(inv_entry)
+                seen_new_investors.add(inv_slug)
+
+            firm_slug = entry.get("firm_slug")
+            if firm_slug and firm_slug not in existing_firms and firm_slug not in seen_new_firms:
+                firm_entry = {"slug": firm_slug}
+                if entry.get("stage"):
+                    firm_entry["round"] = entry["stage"]
+                if entry.get("year"):
+                    firm_entry["year"] = entry["year"]
+                new_firms.append(firm_entry)
+                seen_new_firms.add(firm_slug)
+
+        if not new_investors and not new_firms:
+            continue
+
+        if dry_run:
+            inv_names = ", ".join(e["slug"] for e in new_investors)
+            firm_names = ", ".join(e["slug"] for e in new_firms)
+            parts = []
+            if new_investors:
+                parts.append(f"+{len(new_investors)} investors ({inv_names})")
+            if new_firms:
+                parts.append(f"+{len(new_firms)} firms ({firm_names})")
+            print(f"  {startup_slug}: {', '.join(parts)}")
+        else:
+            # Add new entries to frontmatter
+            if new_investors:
+                if not meta.get("investors"):
+                    meta["investors"] = []
+                meta["investors"].extend(new_investors)
+            if new_firms:
+                if not meta.get("firms"):
+                    meta["firms"] = []
+                meta["firms"].extend(new_firms)
+
+            # Write back — frontmatter only, preserve body
+            post.metadata = meta
+            startup_path.write_text(frontmatter.dumps(post))
+
+        updated_count += 1
+        added_refs += len(new_investors) + len(new_firms)
+
+    action = "Would update" if dry_run else "Updated"
+    print(f"xref-backfill-startup: {action} {updated_count} startups, added {added_refs} references")
+
+
+def cmd_xref_reconcile_firm(slug_or_all, dry_run=False):
+    """Bidirectional consistency between firm team: arrays and investor firm: fields."""
+    firms_dir = DATA / "firms"
+    investors_dir = DATA / "investors"
+    if not firms_dir.exists() or not investors_dir.exists():
+        print("No firms or investors directory found")
+        return
+
+    if slug_or_all == "--all":
+        targets = sorted(firms_dir.glob("*.md"))
+    else:
+        target = firms_dir / f"{slug_or_all}.md"
+        if not target.exists():
+            print(f"Firm profile not found: {slug_or_all}")
+            return
+        targets = [target]
+
+    fixes = 0
+
+    for firm_path in targets:
+        firm_post = frontmatter.load(firm_path)
+        firm_meta = firm_post.metadata
+        firm_slug = firm_meta.get("slug", firm_path.stem)
+        team = firm_meta.get("team") or []
+        team_slugs = set()
+        for member in team:
+            if isinstance(member, dict):
+                team_slugs.add(member.get("slug", ""))
+
+        firm_modified = False
+
+        # Direction 1: For each team member, check investor profile has correct firm: field
+        for member in team:
+            if not isinstance(member, dict):
+                continue
+            inv_slug = member.get("slug", "")
+            if not inv_slug:
+                continue
+            inv_path = investors_dir / f"{inv_slug}.md"
+            if not inv_path.exists():
+                continue
+
+            inv_post = frontmatter.load(inv_path)
+            inv_meta = inv_post.metadata
+            inv_firm = inv_meta.get("firm", "")
+
+            if inv_firm != firm_slug:
+                if dry_run:
+                    print(f"  {inv_slug}: firm field '{inv_firm}' -> '{firm_slug}'")
+                else:
+                    inv_meta["firm"] = firm_slug
+                    inv_post.metadata = inv_meta
+                    inv_path.write_text(frontmatter.dumps(inv_post))
+                fixes += 1
+
+        # Direction 2: Find investors with firm: field matching this firm, not in team
+        for inv_file in investors_dir.glob("*.md"):
+            inv_post = frontmatter.load(inv_file)
+            inv_meta = inv_post.metadata
+            inv_slug = inv_meta.get("slug", inv_file.stem)
+            inv_firm = inv_meta.get("firm", "")
+
+            if inv_firm == firm_slug and inv_slug not in team_slugs:
+                inv_name = inv_meta.get("name", inv_slug)
+                inv_role = inv_meta.get("role", "Unknown")
+                if dry_run:
+                    print(f"  {firm_slug}: missing team member {inv_slug} ({inv_name}, {inv_role})")
+                else:
+                    new_member = {"slug": inv_slug, "role": inv_role, "name": inv_name}
+                    if not firm_meta.get("team"):
+                        firm_meta["team"] = []
+                    firm_meta["team"].append(new_member)
+                    team_slugs.add(inv_slug)
+                    firm_modified = True
+                fixes += 1
+
+        # Write firm if modified (only in non-dry-run)
+        if not dry_run and firm_modified:
+            firm_post.metadata = firm_meta
+            firm_path.write_text(frontmatter.dumps(firm_post))
+
+    action = "Would fix" if dry_run else "Fixed"
+    print(f"xref-reconcile-firm: {action} {fixes} mismatches")
+
+
+def cmd_xref_compute_lvi(slug_or_all, dry_run=False):
+    """Compute last_verified_investment from portfolio table data."""
+    investors_dir = DATA / "investors"
+    if not investors_dir.exists():
+        print("No investors directory found")
+        return
+
+    if slug_or_all == "--all":
+        targets = sorted(investors_dir.glob("*.md"))
+    else:
+        target = investors_dir / f"{slug_or_all}.md"
+        if not target.exists():
+            print(f"Investor profile not found: {slug_or_all}")
+            return
+        targets = [target]
+
+    updated = 0
+
+    for inv_path in targets:
+        post = frontmatter.load(inv_path)
+        meta = post.metadata
+        body = post.content
+
+        # Parse portfolio table
+        best_year = None
+        best_company = None
+        best_round = None
+
+        in_portfolio = False
+        for line in body.split("\n"):
+            if line.startswith("## Portfolio"):
+                in_portfolio = True
+                continue
+            if in_portfolio and line.startswith("## "):
+                break
+            if in_portfolio and line.startswith("|") and not re.match(r'^\|[-\s|]+\|$', line):
+                cells = [c.strip() for c in line.split("|")[1:-1]]
+                if not cells or cells[0].lower() == "company":
+                    continue
+                company = re.sub(r'\[\^\d+\]', '', cells[0]).strip()
+
+                # Find year in the row
+                year_match = re.search(r'(?<!~)(\d{4})', line)
+                if not year_match:
+                    # Try approximate year
+                    year_match = re.search(r'~(\d{4})', line)
+                if year_match:
+                    year = int(year_match.group(1))
+                    if best_year is None or year > best_year:
+                        best_year = year
+                        best_company = company
+                        # Extract stage/round
+                        stage = ""
+                        if len(cells) > 2:
+                            stage = re.sub(r'\[\^\d+\]', '', cells[2]).strip()
+                        if not stage and len(cells) > 1:
+                            stage = re.sub(r'\[\^\d+\]', '', cells[1]).strip()
+                        best_round = stage
+
+        if best_year is None or best_company is None:
+            continue
+
+        # Compare with existing LVI
+        existing_lvi = meta.get("last_verified_investment")
+        if existing_lvi and isinstance(existing_lvi, dict):
+            existing_date = str(existing_lvi.get("date", ""))
+            # Extract year from existing date
+            existing_year_match = re.search(r'(\d{4})', existing_date)
+            existing_year = int(existing_year_match.group(1)) if existing_year_match else 0
+            if existing_year >= best_year:
+                continue  # existing is same or newer
+
+        new_lvi = {"date": f"~{best_year}", "company": best_company}
+        if best_round:
+            new_lvi["round"] = best_round
+
+        if dry_run:
+            slug = meta.get("slug", inv_path.stem)
+            old_desc = ""
+            if existing_lvi and isinstance(existing_lvi, dict):
+                old_desc = f" (was: {existing_lvi.get('company', '?')} {existing_lvi.get('date', '?')})"
+            print(f"  {slug}: {best_company} ~{best_year}{old_desc}")
+        else:
+            meta["last_verified_investment"] = new_lvi
+            post.metadata = meta
+            inv_path.write_text(frontmatter.dumps(post))
+
+        updated += 1
+
+    action = "Would update" if dry_run else "Updated"
+    print(f"xref-compute-lvi: {action} {updated} investor profiles")
+
+
+def cmd_xref_link_investors(slug_or_all="--all", dry_run=False):
+    """Parse startup Funding History tables, match investor/firm names to profiles, populate frontmatter, queue unknowns."""
+    startups_dir = DATA / "startups"
+    investors_dir = DATA / "investors"
+    firms_dir = DATA / "firms"
+
+    # Build lookup: name -> slug for investors and firms
+    inv_name_to_slug = {}
+    for p in investors_dir.glob("*.md"):
+        post = frontmatter.load(p)
+        name = post.metadata.get("name", "")
+        slug = post.metadata.get("slug", p.stem)
+        if name:
+            inv_name_to_slug[name.lower()] = slug
+
+    firm_name_to_slug = {}
+    for p in firms_dir.glob("*.md"):
+        post = frontmatter.load(p)
+        name = post.metadata.get("name", "")
+        slug = post.metadata.get("slug", p.stem)
+        if name:
+            firm_name_to_slug[name.lower()] = slug
+
+    # Determine targets
+    if slug_or_all == "--all":
+        targets = sorted(startups_dir.glob("*.md"))
+    else:
+        target = startups_dir / f"{slug_or_all}.md"
+        if not target.exists():
+            print(f"Startup not found: {slug_or_all}")
+            return
+        targets = [target]
+
+    # Load queue to check for existing entries
+    queue_path = DATA / "queue.yaml"
+    queue_data = yaml.safe_load(queue_path.read_text()) if queue_path.exists() else {}
+    queue_names = set()
+    for item in (queue_data.get("queue") or []):
+        queue_names.add(item.get("name", "").lower())
+
+    updated_startups = 0
+    added_fm_refs = 0
+    queued_new = []
+    unknown_firm_counts = {}  # name_lower -> {"name": original, "startups": [slug, ...]}
+
+    for sp in targets:
+        post = frontmatter.load(sp)
+        meta = post.metadata
+        content = post.content
+        startup_slug = meta.get("slug", sp.stem)
+
+        # Parse Funding History table for investor/firm names
+        names_found = set()
+        in_funding = False
+        header_seen = False
+        for line in content.split("\n"):
+            if line.strip().startswith("## Funding History"):
+                in_funding = True
+                continue
+            if in_funding and line.strip().startswith("## "):
+                break
+            if not in_funding:
+                continue
+            if line.strip().startswith("|") and "---" in line:
+                header_seen = True
+                continue
+            if not header_seen or not line.strip().startswith("|"):
+                continue
+            # Parse table row — columns: Date | Round | Amount | Lead | Co-investors
+            cols = [c.strip() for c in line.split("|")]
+            # cols[0] is empty (before first |), cols[-1] is empty (after last |)
+            cols = [c for c in cols if c]
+            if len(cols) < 4:
+                continue
+            # Lead is typically col[3], co-investors col[4]
+            lead_col = cols[3] if len(cols) > 3 else ""
+            coinv_col = cols[4] if len(cols) > 4 else ""
+            # Extract names (split by commas, strip footnotes)
+            for raw in (lead_col + ", " + coinv_col).split(","):
+                name = re.sub(r'\[\^\d+\]', '', raw).strip()
+                # Skip empty, dates, amounts, generic terms
+                if not name or name == "--" or name.startswith("$") or name.lower() in ("existing investors", "undisclosed", "n/a", "others"):
+                    continue
+                if len(name) > 2:
+                    names_found.add(name)
+
+            # Also check for round/year info
+            date_col = cols[0] if cols else ""
+            round_col = cols[1] if len(cols) > 1 else ""
+            year = None
+            if re.match(r'\d{4}', date_col):
+                year = int(date_col[:4])
+
+        if not names_found:
+            continue
+
+        # Get existing frontmatter slugs
+        existing_inv_slugs = set()
+        for inv in (meta.get("investors") or []):
+            if isinstance(inv, dict):
+                existing_inv_slugs.add(inv.get("slug", ""))
+            elif isinstance(inv, str):
+                existing_inv_slugs.add(inv)
+
+        existing_firm_slugs = set()
+        for f in (meta.get("firms") or []):
+            if isinstance(f, dict):
+                existing_firm_slugs.add(f.get("slug", ""))
+            elif isinstance(f, str):
+                existing_firm_slugs.add(f)
+
+        new_inv_entries = []
+        new_firm_entries = []
+        changed = False
+
+        for name in sorted(names_found):
+            nl = name.lower()
+            # Check if it's a known investor
+            if nl in inv_name_to_slug:
+                slug = inv_name_to_slug[nl]
+                if slug not in existing_inv_slugs:
+                    new_inv_entries.append({"slug": slug})
+                    existing_inv_slugs.add(slug)
+                    added_fm_refs += 1
+                    changed = True
+                continue
+            # Check if it's a known firm
+            if nl in firm_name_to_slug:
+                slug = firm_name_to_slug[nl]
+                if slug not in existing_firm_slugs:
+                    new_firm_entries.append({"slug": slug})
+                    existing_firm_slugs.add(slug)
+                    added_fm_refs += 1
+                    changed = True
+                continue
+            # Unknown — track firm names for batch queuing (only firms with 2+ appearances)
+            if nl not in queue_names:
+                firm_keywords = ("ventures", "capital", "partners", "fund", "group", "investment", "advisors", "management", "holdings")
+                is_firm = any(nl.endswith(k) or f" {k} " in f" {nl} " for k in firm_keywords)
+                if is_firm:
+                    if nl not in unknown_firm_counts:
+                        unknown_firm_counts[nl] = {"name": name, "startups": []}
+                    unknown_firm_counts[nl]["startups"].append(startup_slug)
+
+        if changed and not dry_run:
+            # Merge new entries into frontmatter
+            inv_list = meta.get("investors") or []
+            if isinstance(inv_list, list) and inv_list == []:
+                inv_list = []
+            inv_list.extend(new_inv_entries)
+            meta["investors"] = inv_list
+
+            firm_list = meta.get("firms") or []
+            if isinstance(firm_list, list) and firm_list == []:
+                firm_list = []
+            firm_list.extend(new_firm_entries)
+            meta["firms"] = firm_list
+
+            post.metadata = meta
+            sp.write_text(frontmatter.dumps(post) + "\n")
+            updated_startups += 1
+
+    # Only queue firms that appear in 2+ startup funding tables
+    for nl, info in unknown_firm_counts.items():
+        if len(info["startups"]) >= 2:
+            queued_new.append({
+                "name": info["name"],
+                "type": "firm",
+                "priority": "high" if len(info["startups"]) >= 5 else "normal",
+                "source": f"investor in {len(info['startups'])} startup funding rounds",
+                "discovered_from": info["startups"][0],
+            })
+            queue_names.add(nl)
+
+    # Write queued items to pending file
+    if queued_new and not dry_run:
+        pending_path = DATA / ".pending-queue-adds.yaml"
+        existing_pending = []
+        if pending_path.exists():
+            existing_pending = yaml.safe_load(pending_path.read_text()) or []
+        existing_pending.extend(queued_new)
+        pending_path.write_text(yaml.dump(existing_pending, default_flow_style=False, allow_unicode=True))
+
+    action = "Would update" if dry_run else "Updated"
+    print(f"xref-link-investors: {action} {updated_startups} startups, added {added_fm_refs} frontmatter refs, queued {len(queued_new)} new entities")
+
+
+def cmd_xref_queue_portfolio(dry_run=False):
+    """Queue startup profiles for portfolio companies mentioned in investor profiles that don't exist yet."""
+    investors_dir = DATA / "investors"
+    startups_dir = DATA / "startups"
+
+    # Build set of existing startup names (normalized)
+    existing_startups = set()
+    for p in startups_dir.glob("*.md"):
+        post = frontmatter.load(p)
+        name = post.metadata.get("name", "")
+        if name:
+            existing_startups.add(name.lower())
+        existing_startups.add(p.stem.lower())
+
+    # Load queue names
+    queue_path = DATA / "queue.yaml"
+    queue_data = yaml.safe_load(queue_path.read_text()) if queue_path.exists() else {}
+    queue_names = set()
+    for item in (queue_data.get("queue") or []):
+        queue_names.add(item.get("name", "").lower())
+
+    # Scan investor portfolio tables for company names
+    company_mentions = {}  # name_lower -> {"name": original, "investors": [slug, ...]}
+
+    for inv_path in investors_dir.glob("*.md"):
+        post = frontmatter.load(inv_path)
+        if post.metadata.get("status") != "published":
+            continue
+        inv_slug = post.metadata.get("slug", inv_path.stem)
+        content = post.content
+
+        in_portfolio = False
+        header_seen = False
+        for line in content.split("\n"):
+            if line.strip().startswith("## Portfolio"):
+                in_portfolio = True
+                continue
+            if in_portfolio and line.strip().startswith("## "):
+                break
+            if not in_portfolio:
+                continue
+            if line.strip().startswith("|") and "---" in line:
+                header_seen = True
+                continue
+            if not header_seen or not line.strip().startswith("|"):
+                continue
+            cols = [c.strip() for c in line.split("|")]
+            cols = [c for c in cols if c]
+            if not cols:
+                continue
+            # First column is company name
+            company = re.sub(r'\[\^\d+\]', '', cols[0]).strip()
+            company = re.sub(r'\(.*?\)', '', company).strip()  # Remove parenthetical notes
+            if not company or company == "--" or len(company) < 3:
+                continue
+            cl = company.lower()
+            if cl in existing_startups or cl in queue_names:
+                continue
+            if cl not in company_mentions:
+                company_mentions[cl] = {"name": company, "investors": []}
+            company_mentions[cl]["investors"].append(inv_slug)
+
+    # Queue companies by investor overlap: 5+ = high priority, 3-4 = normal
+    queued = []
+    for cl, info in sorted(company_mentions.items(), key=lambda x: len(x[1]["investors"]), reverse=True):
+        n = len(info["investors"])
+        if n >= 3:
+            queued.append({
+                "name": info["name"],
+                "type": "startup",
+                "priority": "high" if n >= 5 else "normal",
+                "source": f"portfolio company of {n} investors: {', '.join(info['investors'][:3])}",
+                "discovered_from": info["investors"][0],
+            })
+            queue_names.add(cl)
+
+    if queued and not dry_run:
+        pending_path = DATA / ".pending-queue-adds.yaml"
+        existing_pending = []
+        if pending_path.exists():
+            existing_pending = yaml.safe_load(pending_path.read_text()) or []
+        existing_pending.extend(queued)
+        pending_path.write_text(yaml.dump(existing_pending, default_flow_style=False, allow_unicode=True))
+
+    action = "Would queue" if dry_run else "Queued"
+    print(f"xref-queue-portfolio: {action} {len(queued)} startup profiles from investor portfolios")
+
+
+def cmd_xref_all(dry_run=False):
+    """Run all cross-reference operations across the entire repo."""
+    print("Running cross-reference reconciliation...")
+    cmd_xref_backfill_startup("--all", dry_run=dry_run)
+    cmd_xref_reconcile_firm("--all", dry_run=dry_run)
+    cmd_xref_compute_lvi("--all", dry_run=dry_run)
+    cmd_xref_link_investors("--all", dry_run=dry_run)
+    cmd_xref_queue_portfolio(dry_run=dry_run)
+
+
+def cmd_xref_report(slug):
+    """Analysis report for an investor: focus validation, co-investor patterns."""
+    inv_path = DATA / "investors" / f"{slug}.md"
+    if not inv_path.exists():
+        print(f"Investor profile not found: {slug}")
+        return
+
+    post = frontmatter.load(inv_path)
+    meta = post.metadata
+    body = post.content
+    name = meta.get("name", slug)
+
+    print(f"=== Cross-Reference Report: {name} ({slug}) ===\n")
+
+    # 1. Parse portfolio
+    portfolio = []
+    in_portfolio = False
+    for line in body.split("\n"):
+        if line.startswith("## Portfolio"):
+            in_portfolio = True
+            continue
+        if in_portfolio and line.startswith("## "):
+            break
+        if in_portfolio and line.startswith("|") and not re.match(r'^\|[-\s|]+\|$', line):
+            cells = [c.strip() for c in line.split("|")[1:-1]]
+            if not cells or cells[0].lower() == "company":
+                continue
+            company = re.sub(r'\[\^\d+\]', '', cells[0]).strip()
+            year_match = re.search(r'~?(\d{4})', line)
+            year = int(year_match.group(1)) if year_match else None
+            stage = ""
+            if len(cells) > 2:
+                stage = re.sub(r'\[\^\d+\]', '', cells[2]).strip()
+            portfolio.append({"company": company, "year": year, "stage": stage,
+                              "norm": _normalize_company(company)})
+
+    print(f"Portfolio size: {len(portfolio)} entries\n")
+
+    # 2. Stage focus validation
+    fm_stages = set(meta.get("stage_focus") or [])
+    portfolio_stages = {}
+    for entry in portfolio:
+        s = (entry.get("stage") or "unknown").lower().strip()
+        # Normalize stage names
+        if "seed" in s:
+            s = "seed"
+        elif "series a" in s or "a" == s:
+            s = "series-a"
+        elif "series b" in s or "b" == s:
+            s = "series-b"
+        elif "series c" in s:
+            s = "series-c"
+        elif "growth" in s:
+            s = "growth"
+        elif "pre-seed" in s or "pre seed" in s:
+            s = "pre-seed"
+        portfolio_stages[s] = portfolio_stages.get(s, 0) + 1
+
+    print("Stage Distribution (from portfolio):")
+    for stage, count in sorted(portfolio_stages.items(), key=lambda x: -x[1]):
+        in_fm = "✓" if stage in fm_stages else "✗"
+        print(f"  {in_fm} {stage}: {count} ({count * 100 // max(len(portfolio), 1)}%)")
+
+    fm_only = fm_stages - set(portfolio_stages.keys())
+    if fm_only:
+        print(f"  In frontmatter but not portfolio: {', '.join(fm_only)}")
+    print()
+
+    # 3. Co-investor frequency (from shared startup profiles)
+    startups_dir = DATA / "startups"
+    co_investors = {}  # slug -> count
+
+    if startups_dir.exists():
+        for entry in portfolio:
+            norm = entry["norm"]
+            # Check if startup profile exists
+            startup_path = startups_dir / f"{norm}.md"
+            if not startup_path.exists():
+                continue
+            sp = frontmatter.load(startup_path)
+            sp_investors = sp.metadata.get("investors") or []
+            for inv in sp_investors:
+                if isinstance(inv, dict):
+                    co_slug = inv.get("slug", "")
+                else:
+                    co_slug = str(inv)
+                if co_slug and co_slug != slug:
+                    co_investors[co_slug] = co_investors.get(co_slug, 0) + 1
+
+    if co_investors:
+        print("Co-investor Frequency (from shared startup profiles):")
+        for co_slug, count in sorted(co_investors.items(), key=lambda x: -x[1])[:15]:
+            # Check if profile exists
+            exists = "✓" if (DATA / "investors" / f"{co_slug}.md").exists() else "✗"
+            print(f"  {exists} {co_slug}: {count} shared companies")
+
+        # Suggest queue adds for high-frequency co-investors without profiles
+        missing = [(s, c) for s, c in co_investors.items()
+                   if c >= 2 and not (DATA / "investors" / f"{s}.md").exists()]
+        if missing:
+            print(f"\nSuggested queue adds ({len(missing)} co-investors with 2+ shared companies, no profile):")
+            for s, c in sorted(missing, key=lambda x: -x[1])[:10]:
+                print(f"  QUEUE_ADD: {s} (shared: {c})")
+    else:
+        print("Co-investor analysis: No shared startup profiles found")
+
+    print()
+
+
+# ── Enrich ───────────────────────────────────────────────────
+
+def _normalize_name(name):
+    """Normalize a name for matching: lowercase, strip whitespace, remove titles."""
+    if not name:
+        return ""
+    name = name.strip().lower()
+    # Remove common titles/suffixes
+    for prefix in ["dr. ", "dr ", "mr. ", "mr ", "ms. ", "ms ", "mrs. ", "mrs "]:
+        if name.startswith(prefix):
+            name = name[len(prefix):]
+    for suffix in [" jr.", " jr", " sr.", " sr", " iii", " ii", " iv", " phd", " md"]:
+        if name.endswith(suffix):
+            name = name[:-len(suffix)]
+    return name.strip()
+
+
+def _load_enrichment_data():
+    """Load all investor/firm profiles and queue items for matching."""
+    investors = {}
+    firms = {}
+    queued = []
+
+    # Load investor profiles
+    inv_dir = DATA / "investors"
+    if inv_dir.exists():
+        for md_file in inv_dir.glob("*.md"):
+            post = frontmatter.load(md_file)
+            meta = dict(post.metadata)
+            norm = _normalize_name(meta.get("name", ""))
+            if norm:
+                # Extract inferred thesis summary from body
+                thesis_summary = ""
+                in_inferred = False
+                for line in post.content.split("\n"):
+                    if line.startswith("## Inferred Thesis"):
+                        in_inferred = True
+                        continue
+                    if in_inferred and line.startswith("## "):
+                        break
+                    if in_inferred and line.strip():
+                        thesis_summary += line.strip() + " "
+                meta["thesis_summary"] = thesis_summary[:200].strip()
+                investors[norm] = meta
+
+    # Load firm profiles
+    firm_dir = DATA / "firms"
+    if firm_dir.exists():
+        for md_file in firm_dir.glob("*.md"):
+            post = frontmatter.load(md_file)
+            meta = dict(post.metadata)
+            norm = _normalize_name(meta.get("name", ""))
+            if norm:
+                firms[norm] = meta
+
+    # Load queue items
+    if QUEUE_PATH.exists():
+        q = load_queue()
+        for item in q.get("queue", []):
+            if item.get("status") in ("pending", "in_progress"):
+                queued.append(item)
+
+    return investors, firms, queued
+
+
+def _match_value(value, investors, firms, queued):
+    """Try to match a single value against investor/firm/queue data.
+
+    Returns (match_type, confidence, profile_or_none, match_name).
+    """
+    if not value or not value.strip():
+        return ("none", 0.0, None, "")
+
+    norm = _normalize_name(value)
+    if not norm:
+        return ("none", 0.0, None, "")
+
+    # Exact investor match
+    if norm in investors:
+        return ("exact", 1.0, investors[norm], investors[norm].get("name", value))
+
+    # Exact firm match
+    if norm in firms:
+        return ("firm_only", 1.0, firms[norm], firms[norm].get("name", value))
+
+    # Fuzzy investor match
+    best_score = 0.0
+    best_key = None
+    best_type = "none"
+    best_pool = None
+
+    for pool_name, pool in [("investor", investors), ("firm", firms)]:
+        for key in pool:
+            score = difflib.SequenceMatcher(None, norm, key).ratio()
+            if score > best_score:
+                best_score = score
+                best_key = key
+                best_type = pool_name
+                best_pool = pool
+
+    if best_score >= 0.75 and best_pool:
+        match_type = "fuzzy" if best_type == "investor" else "firm_only"
+        return (match_type, round(best_score, 2), best_pool[best_key], best_pool[best_key].get("name", value))
+
+    # Check queue
+    for item in queued:
+        qnorm = _normalize_name(item.get("name", ""))
+        if not qnorm:
+            continue
+        score = difflib.SequenceMatcher(None, norm, qnorm).ratio()
+        if score >= 0.80:
+            return ("queued", round(score, 2), None, item.get("name", value))
+
+    return ("none", 0.0, None, "")
+
+
+def _detect_name_column(rows, investors, firms):
+    """Auto-detect which column contains investor/firm names."""
+    if not rows:
+        return None, None
+
+    headers = list(rows[0].keys())
+    # Score each column by match rate against known names
+    col_scores = {}
+    sample = rows[:min(20, len(rows))]
+
+    for col in headers:
+        matches = 0
+        for row in sample:
+            val = _normalize_name(row.get(col, ""))
+            if not val:
+                continue
+            if val in investors or val in firms:
+                matches += 1
+            else:
+                # Quick fuzzy check
+                for pool in (investors, firms):
+                    for key in pool:
+                        if difflib.SequenceMatcher(None, val, key).ratio() >= 0.80:
+                            matches += 1
+                            break
+                    else:
+                        continue
+                    break
+        col_scores[col] = matches
+
+    if not col_scores:
+        return headers[0] if headers else None, None
+
+    # Best column is the one with highest match rate
+    sorted_cols = sorted(col_scores.items(), key=lambda x: x[1], reverse=True)
+    name_col = sorted_cols[0][0] if sorted_cols[0][1] > 0 else None
+
+    # If name_col found, check for a second column that matches firms
+    firm_col = None
+    if name_col and len(sorted_cols) > 1 and sorted_cols[1][1] > 0:
+        # Only count as firm column if it matches firms specifically
+        candidate = sorted_cols[1][0]
+        firm_matches = 0
+        for row in sample:
+            val = _normalize_name(row.get(candidate, ""))
+            if val and val in firms:
+                firm_matches += 1
+        if firm_matches > 0:
+            firm_col = candidate
+
+    # Fallback: use heuristic column name matching
+    if name_col is None:
+        name_keywords = ["investor", "name", "contact", "person", "who"]
+        for col in headers:
+            if any(kw in col.lower() for kw in name_keywords):
+                name_col = col
+                break
+        if name_col is None and headers:
+            name_col = headers[0]
+
+    if firm_col is None:
+        firm_keywords = ["firm", "fund", "company", "organization", "org", "vc"]
+        for col in headers:
+            if col == name_col:
+                continue
+            if any(kw in col.lower() for kw in firm_keywords):
+                firm_col = col
+                break
+
+    return name_col, firm_col
+
+
+def _enrich_row(row, name_col, firm_col, investors, firms, queued):
+    """Enrich a single row with Seedlist data. Returns dict of new columns."""
+    name_val = row.get(name_col, "")
+    match_type, confidence, profile, match_name = _match_value(name_val, investors, firms, queued)
+
+    # If no match on name, try firm column
+    if match_type == "none" and firm_col:
+        firm_val = row.get(firm_col, "")
+        mt, conf, prof, mn = _match_value(firm_val, investors, firms, queued)
+        if mt != "none":
+            match_type = "firm_only"
+            confidence = conf
+            profile = prof
+            match_name = mn
+
+    enrichment = {
+        "seedlist_match": match_type,
+        "seedlist_confidence": confidence,
+        "seedlist_url": "",
+        "seedlist_status": "",
+        "investor_stage_focus": "",
+        "investor_sector_focus": "",
+        "investor_check_size": "",
+        "investor_location": "",
+        "firm_name": "",
+        "last_active": "",
+        "inferred_thesis_summary": "",
+    }
+
+    if profile:
+        slug = profile.get("slug", "")
+        ptype = profile.get("type", "")
+        if ptype == "individual":
+            enrichment["seedlist_url"] = f"https://seedlist.com/investors/{slug}.html"
+        elif ptype == "firm":
+            enrichment["seedlist_url"] = f"https://seedlist.com/firms/{slug}.html"
+
+        enrichment["seedlist_status"] = profile.get("status", "")
+        enrichment["investor_stage_focus"] = ", ".join(profile.get("stage_focus", []))
+        enrichment["investor_sector_focus"] = ", ".join(profile.get("sector_focus", []))
+        enrichment["investor_check_size"] = profile.get("check_size", "")
+        enrichment["investor_location"] = profile.get("location", "")
+
+        if ptype == "individual":
+            enrichment["firm_name"] = profile.get("firm", "")
+        else:
+            enrichment["firm_name"] = profile.get("name", "")
+
+        lvi = profile.get("last_verified_investment")
+        if isinstance(lvi, dict):
+            enrichment["last_active"] = str(lvi.get("date", ""))
+        enrichment["inferred_thesis_summary"] = profile.get("thesis_summary", "")
+
+    elif match_type == "queued":
+        enrichment["seedlist_status"] = "queued"
+
+    return enrichment
+
+
+def _find_similar_investors(enriched_rows, investors):
+    """Find investors similar to the matched set but not on the user's list."""
+    # Build target profile from matched investors
+    stage_counts = {}
+    sector_counts = {}
+    matched_slugs = set()
+    matched_count = 0
+
+    for row in enriched_rows:
+        if row.get("seedlist_match") in ("none", "queued"):
+            continue
+        matched_count += 1
+        url = row.get("seedlist_url", "")
+        if url:
+            slug = url.rstrip("/").split("/")[-1].replace(".html", "")
+            matched_slugs.add(slug)
+        for s in row.get("investor_stage_focus", "").split(", "):
+            s = s.strip()
+            if s:
+                stage_counts[s] = stage_counts.get(s, 0) + 1
+        for s in row.get("investor_sector_focus", "").split(", "):
+            s = s.strip()
+            if s:
+                sector_counts[s] = sector_counts.get(s, 0) + 1
+
+    if matched_count < 2:
+        return []
+
+    # Normalize to weights
+    stage_weights = {k: v / matched_count for k, v in stage_counts.items()}
+    sector_weights = {k: v / matched_count for k, v in sector_counts.items()}
+
+    stage_total = sum(stage_weights.values()) or 1
+    sector_total = sum(sector_weights.values()) or 1
+
+    scored = []
+    for norm_name, profile in investors.items():
+        slug = profile.get("slug", "")
+        if slug in matched_slugs:
+            continue
+
+        # Stage score
+        stage_score = sum(stage_weights.get(s, 0) for s in profile.get("stage_focus", []))
+        stage_score /= stage_total
+
+        # Sector score
+        sector_score = sum(sector_weights.get(s, 0) for s in profile.get("sector_focus", []))
+        sector_score /= sector_total
+
+        combined = 0.35 * stage_score + 0.65 * sector_score
+        if combined >= 0.4:
+            scored.append((combined, profile))
+
+    scored.sort(key=lambda x: x[0], reverse=True)
+
+    # Dynamic cutoff: take until score drops below 60% of top
+    if not scored:
+        return []
+    top_score = scored[0][0]
+    cutoff = top_score * 0.6
+    results = []
+    for score, profile in scored[:20]:
+        if score < cutoff:
+            break
+        results.append((round(score, 2), profile))
+
+    return results
+
+
+def cmd_enrich(input_path, output_path=None):
+    """Enrich a CSV with Seedlist investor/firm data."""
+    input_path = Path(input_path)
+    if not input_path.exists():
+        print(f"Error: {input_path} not found")
+        sys.exit(1)
+
+    if output_path is None:
+        output_path = input_path.with_name(input_path.stem + "_enriched.csv")
+    else:
+        output_path = Path(output_path)
+
+    print(f"Loading Seedlist data...")
+    investors, firms, queued = _load_enrichment_data()
+    print(f"  {len(investors)} investors, {len(firms)} firms, {len(queued)} queued items")
+
+    # Read input CSV
+    with open(input_path, newline="", encoding="utf-8-sig") as f:
+        reader = csv.DictReader(f)
+        rows = list(reader)
+        original_fields = reader.fieldnames or []
+
+    if not rows:
+        print("Error: CSV is empty")
+        sys.exit(1)
+
+    print(f"  {len(rows)} rows in input CSV")
+
+    # Detect name/firm columns
+    name_col, firm_col = _detect_name_column(rows, investors, firms)
+    print(f"  Name column: {name_col}")
+    if firm_col:
+        print(f"  Firm column: {firm_col}")
+
+    if name_col is None:
+        print("Error: Could not detect a name column")
+        sys.exit(1)
+
+    # Enrich each row
+    enrichment_fields = [
+        "seedlist_match", "seedlist_confidence", "seedlist_url", "seedlist_status",
+        "investor_stage_focus", "investor_sector_focus", "investor_check_size",
+        "investor_location", "firm_name", "last_active", "inferred_thesis_summary",
+    ]
+
+    enriched_rows = []
+    stats = {"exact": 0, "fuzzy": 0, "firm_only": 0, "queued": 0, "none": 0}
+
+    for row in rows:
+        enrichment = _enrich_row(row, name_col, firm_col, investors, firms, queued)
+        stats[enrichment["seedlist_match"]] += 1
+        combined = dict(row)
+        combined.update(enrichment)
+        enriched_rows.append(combined)
+
+    # Find similar investors
+    similar = _find_similar_investors(enriched_rows, investors)
+    rec_rows = []
+    for score, profile in similar:
+        rec = {col: "" for col in original_fields}
+        rec[name_col] = profile.get("name", "")
+        rec.update({
+            "seedlist_match": "recommended",
+            "seedlist_confidence": score,
+            "seedlist_url": f"https://seedlist.com/investors/{profile.get('slug', '')}.html",
+            "seedlist_status": profile.get("status", ""),
+            "investor_stage_focus": ", ".join(profile.get("stage_focus", [])),
+            "investor_sector_focus": ", ".join(profile.get("sector_focus", [])),
+            "investor_check_size": profile.get("check_size", ""),
+            "investor_location": profile.get("location", ""),
+            "firm_name": profile.get("firm", ""),
+            "last_active": str((profile.get("last_verified_investment") or {}).get("date", "")),
+            "inferred_thesis_summary": profile.get("thesis_summary", ""),
+        })
+        rec_rows.append(rec)
+
+    # Write output CSV
+    out_fields = list(original_fields) + enrichment_fields
+    all_rows = enriched_rows + rec_rows
+    with open(output_path, "w", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(f, fieldnames=out_fields, extrasaction="ignore")
+        writer.writeheader()
+        writer.writerows(all_rows)
+
+    total = len(rows)
+    matched = stats["exact"] + stats["fuzzy"] + stats["firm_only"]
+    print(f"\nResults:")
+    print(f"  Exact matches:  {stats['exact']}")
+    print(f"  Fuzzy matches:  {stats['fuzzy']}")
+    print(f"  Firm-only:      {stats['firm_only']}")
+    print(f"  Queued:         {stats['queued']}")
+    print(f"  No match:       {stats['none']}")
+    print(f"  Match rate:     {matched}/{total} ({100*matched//total if total else 0}%)")
+    if rec_rows:
+        print(f"  Recommended:    {len(rec_rows)} similar investors added")
+    print(f"\nOutput: {output_path}")
+
+
+def cmd_review_sources():
+    """Review source-submission GitHub Issues and add approved URLs to profiles."""
+    import json
+
+    # List open issues with source-submission label
+    r = run('gh issue list --label source-submission --state open --json number,title,body --limit 50',
+            check=False)
+    if r.returncode != 0:
+        print("Error: Could not fetch GitHub issues. Is `gh` authenticated?")
+        print(r.stderr.strip() if r.stderr else "")
+        sys.exit(1)
+
+    issues = json.loads(r.stdout) if r.stdout.strip() else []
+    if not issues:
+        print("No pending source submissions.")
+        return
+
+    print(f"Found {len(issues)} source submission(s):\n")
+
+    for issue in issues:
+        body = issue.get("body", "")
+        # Parse structured body
+        slug_match = re.search(r'^slug:\s*(.+)$', body, re.MULTILINE)
+        type_match = re.search(r'^type:\s*(.+)$', body, re.MULTILINE)
+        url_match = re.search(r'^url:\s*(.+)$', body, re.MULTILINE)
+
+        if not slug_match or not url_match:
+            print(f"  #{issue['number']} — Could not parse issue body, skipping")
+            continue
+
+        slug = slug_match.group(1).strip()
+        profile_type = type_match.group(1).strip() if type_match else "unknown"
+        url = url_match.group(1).strip()
+
+        # Validate URL
+        if len(url) > 2048 or not (url.startswith("http://") or url.startswith("https://")):
+            print(f"  #{issue['number']} — Invalid URL: {url[:80]}...")
+            choice = input("  Reject and close? [Y/n]: ").strip().lower()
+            if choice != "n":
+                run(f'gh issue close {issue["number"]} --comment "Rejected: invalid URL"')
+                print(f"  Closed #{issue['number']}")
+            continue
+
+        # Find profile
+        profile_path = find_profile(slug)
+        if not profile_path:
+            print(f"  #{issue['number']} — Profile not found: {slug}")
+            choice = input("  Reject and close? [Y/n]: ").strip().lower()
+            if choice != "n":
+                run(f'gh issue close {issue["number"]} --comment "Rejected: profile not found"')
+                print(f"  Closed #{issue['number']}")
+            continue
+
+        print(f"  #{issue['number']}: {slug} ({profile_type})")
+        print(f"    URL: {url}")
+        choice = input("  [A]pprove / [R]eject / [S]kip: ").strip().lower()
+
+        if choice == "a":
+            # Add URL to profile frontmatter as pending_sources
+            post = frontmatter.load(str(profile_path))
+            if "pending_sources" not in post.metadata:
+                post.metadata["pending_sources"] = []
+            # Check for duplicate
+            existing_urls = [s.get("url", "") for s in post.metadata["pending_sources"]]
+            if url in existing_urls:
+                print(f"    URL already in pending_sources, skipping addition")
+            else:
+                post.metadata["pending_sources"].append({
+                    "url": url,
+                    "added": "2026-03-16"
+                })
+                with open(profile_path, "w") as f:
+                    f.write(frontmatter.dumps(post))
+                print(f"    Added to {profile_path}")
+            run(f'gh issue close {issue["number"]} --comment "Approved: added to pending sources"')
+            print(f"    Closed #{issue['number']}")
+
+        elif choice == "r":
+            run(f'gh issue close {issue["number"]} --comment "Rejected by reviewer"')
+            print(f"    Closed #{issue['number']}")
+
+        else:
+            print(f"    Skipped #{issue['number']}")
+
+    print("\nDone. Run `sl ship` to commit and push any changes.")
+
+
+def cmd_review_candidates():
+    """Review csv-unmatched GitHub Issues and add approved candidates to queue."""
+    import json
+
+    r = run('gh issue list --label csv-unmatched --state open --json number,title,body --limit 50',
+            check=False)
+    if r.returncode != 0:
+        print("Error: Could not fetch GitHub issues. Is `gh` authenticated?")
+        print(r.stderr.strip() if r.stderr else "")
+        sys.exit(1)
+
+    issues = json.loads(r.stdout) if r.stdout.strip() else []
+    if not issues:
+        print("No pending candidate submissions.")
+        return
+
+    # Load existing queue and profiles for dedup
+    queue_data = load_queue()
+    queue_names = set()
+    for item in queue_data.get("queue", []):
+        queue_names.add(item.get("name", "").lower().strip())
+
+    existing_slugs = set()
+    for subdir in ["investors", "firms", "startups"]:
+        d = DATA / subdir
+        if d.exists():
+            for f in d.glob("*.md"):
+                existing_slugs.add(f.stem)
+
+    print(f"Found {len(issues)} candidate submission(s):\n")
+
+    added_count = 0
+    for issue in issues:
+        body = issue.get("body", "")
+
+        # Parse candidates from structured body
+        candidates = []
+        in_candidates = False
+        for line in body.split("\n"):
+            line = line.strip()
+            if line == "candidates:":
+                in_candidates = True
+                continue
+            if in_candidates:
+                name_match = re.match(r'-\s*name:\s*"?(.+?)"?\s*$', line)
+                if name_match:
+                    candidates.append({"name": name_match.group(1).strip(), "firm": ""})
+                    continue
+                firm_match = re.match(r'firm:\s*"?(.+?)"?\s*$', line)
+                if firm_match and candidates:
+                    candidates[-1]["firm"] = firm_match.group(1).strip()
+                    continue
+                if line and not line.startswith("-") and not line.startswith("firm:"):
+                    in_candidates = False
+
+        if not candidates:
+            print(f"  #{issue['number']} — Could not parse candidates, skipping")
+            continue
+
+        print(f"  #{issue['number']}: {len(candidates)} candidate(s)")
+
+        approved = []
+        for c in candidates:
+            name = c["name"]
+            firm = c.get("firm", "")
+
+            # Sanitize name
+            clean_name = re.sub(r"[^\w\s\-\.']", "", name)[:100].strip()
+            if not clean_name:
+                continue
+
+            # Check for duplicates
+            slug_candidate = re.sub(r'[^a-z0-9]+', '-', clean_name.lower()).strip('-')
+            if clean_name.lower() in queue_names:
+                print(f"    {clean_name} — already in queue, skipping")
+                continue
+            if slug_candidate in existing_slugs:
+                print(f"    {clean_name} — profile already exists, skipping")
+                continue
+
+            display = f"{clean_name}"
+            if firm:
+                display += f" ({firm})"
+            choice = input(f"    {display} — [A]pprove / [R]eject / [S]kip: ").strip().lower()
+
+            if choice == "a":
+                approved.append({"name": clean_name, "firm": firm})
+
+        if approved:
+            for c in approved:
+                entry = {
+                    "name": c["name"],
+                    "type": "individual",
+                    "source": "user-submitted via CSV upload",
+                    "priority": "low",
+                    "status": "pending",
+                    "added": "2026-03-16"
+                }
+                if c["firm"]:
+                    entry["firm"] = re.sub(r"[^\w\s\-\.']", "", c["firm"])[:100].strip()
+                queue_data.setdefault("queue", []).append(entry)
+                added_count += 1
+                print(f"    Added: {c['name']}")
+
+            save_queue(queue_data)
+
+        run(f'gh issue close {issue["number"]} --comment "Reviewed: {len(approved)} of {len(candidates)} candidates approved"')
+        print(f"  Closed #{issue['number']}")
+
+    print(f"\nDone. Added {added_count} candidates to queue.")
+    if added_count > 0:
+        print("Run `sl ship` to commit and push changes.")
+
+
+_PENDING_TITLE_PREFIX = re.compile(
+    r"^(uk startup|us startup|the |a |an )", re.IGNORECASE
+)
+_PENDING_SPLITTERS = (
+    " raised ", " raises ", " secures ", " closes ", " announces ", ":", "—", "–",
+)
+
+
+def _pending_extract_slug(title):
+    """Best-effort company slug extractor for a pending-rounds title.
+
+    Mirrors the way agents create startup file slugs, so a pending entry
+    for "Stoa raised $2.4M" collides with data/startups/stoa.md.
+    """
+    if not title:
+        return ""
+    t = title.lower()
+    for sep in _PENDING_SPLITTERS:
+        if sep in t:
+            t = t.split(sep, 1)[0]
+            break
+    t = _PENDING_TITLE_PREFIX.sub("", t.strip())
+    # Keep only word chars, dashes, apostrophes, spaces
+    t = re.sub(r"[^a-z0-9\- ']", "", t)
+    return "-".join(t.split())[:80]
+
+
+def cmd_pending_rounds(cleanup=False):
+    """Show unprocessed funding round candidates from RSS scraper.
+
+    With --cleanup, drop pending entries whose extracted company slug
+    already has a data/startups/*.md profile. This is the garbage-collector
+    that prevents the pending-file from ballooning as agents ship rounds
+    via broad web-search sweeps (which don't remove the corresponding
+    RSS candidate).
+    """
+    pending_path = DATA / "pending-rounds.yaml"
+    if not pending_path.exists():
+        print("No pending-rounds.yaml found. Run scripts/scrape_rounds.py first.")
+        return
+
+    with open(pending_path) as f:
+        data = yaml.safe_load(f) or {}
+
+    rounds = data.get("pending_rounds", [])
+
+    if cleanup:
+        startups_dir = DATA / "startups"
+        existing = set()
+        if startups_dir.exists():
+            for f in startups_dir.iterdir():
+                if f.suffix == ".md":
+                    existing.add(f.stem)
+
+        kept = []
+        dropped = []
+        for r in rounds:
+            if r.get("status") != "pending":
+                kept.append(r)
+                continue
+            slug = _pending_extract_slug(r.get("title", "") or r.get("parsed_company", ""))
+            matched = None
+            if slug and slug in existing:
+                matched = slug
+            elif slug:
+                for e in existing:
+                    if len(e) >= 5 and len(slug) >= 5 and (
+                        e == slug or slug.startswith(e + "-") or e.startswith(slug + "-")
+                    ):
+                        matched = e
+                        break
+            if matched:
+                dropped.append((r.get("title", "?"), matched))
+            else:
+                kept.append(r)
+
+        data["pending_rounds"] = kept
+        with open(pending_path, "w") as f:
+            yaml.dump(data, f, sort_keys=False, allow_unicode=True)
+        print(f"Cleaned up {len(dropped)} already-shipped pending entries")
+        for title, matched in dropped[:20]:
+            print(f"  - dropped: {title[:60]}  (matched startup: {matched})")
+        if len(dropped) > 20:
+            print(f"  ...and {len(dropped) - 20} more")
+        remaining = [r for r in kept if r.get("status") == "pending"]
+        print(f"{len(remaining)} pending rounds remain (of {len(kept)} total entries)")
+        return
+
+    pending = [r for r in rounds if r.get("status") == "pending"]
+
+    if not pending:
+        print("No pending rounds to review.")
+        print(f"Total entries in file: {len(rounds)}")
+        return
+
+    print(f"{'Date':<12} {'Company':<30} {'Amount':<10} {'Round':<15} {'Source'}")
+    print("-" * 90)
+    for r in pending:
+        date = r.get("date_found", "?")
+        company = r.get("parsed_company") or "(unparsed)"
+        amount = r.get("parsed_amount") or "?"
+        round_type = r.get("parsed_round") or "?"
+        url = r.get("url", "")
+        print(f"{date:<12} {company:<30} {amount:<10} {round_type:<15} {url}")
+
+    print()
+    print(f"{len(pending)} pending rounds to review (of {len(rounds)} total)")
+
+
+# ── Main ──────────────────────────────────────────────────────
+
+def main():
+    if len(sys.argv) < 2:
+        print(__doc__)
+        sys.exit(0)
+
+    cmd = sys.argv[1]
+
+    if cmd == "status":
+        cmd_status()
+    elif cmd == "queue":
+        cmd_queue(sys.argv[2] if len(sys.argv) > 2 else None)
+    elif cmd == "publish":
+        if len(sys.argv) < 3:
+            print("Usage: sl publish SLUG")
+            sys.exit(1)
+        cmd_publish(sys.argv[2])
+    elif cmd == "flag":
+        if len(sys.argv) < 4:
+            print("Usage: sl flag SLUG NOTES")
+            sys.exit(1)
+        cmd_flag(sys.argv[2], " ".join(sys.argv[3:]))
+    elif cmd == "draft":
+        if len(sys.argv) < 3:
+            print("Usage: sl draft SLUG")
+            sys.exit(1)
+        cmd_draft(sys.argv[2])
+    elif cmd == "build":
+        cmd_build()
+    elif cmd == "ship":
+        cmd_ship(" ".join(sys.argv[2:]) if len(sys.argv) > 2 else None)
+    elif cmd == "claim":
+        if len(sys.argv) < 3:
+            print("Usage: sl claim SLUG")
+            sys.exit(1)
+        cmd_claim(sys.argv[2])
+    elif cmd == "complete":
+        if len(sys.argv) < 3:
+            print("Usage: sl complete SLUG")
+            sys.exit(1)
+        cmd_complete(sys.argv[2])
+    elif cmd == "check":
+        cmd_check()
+    elif cmd == "recent":
+        cmd_recent()
+    elif cmd == "lint":
+        if len(sys.argv) < 3:
+            print("Usage: sl lint SLUG [--no-fetch]")
+            sys.exit(1)
+        no_fetch = "--no-fetch" in sys.argv
+        cmd_lint(sys.argv[2], no_fetch=no_fetch)
+    elif cmd == "lint-drafts":
+        no_fetch = "--no-fetch" in sys.argv
+        cmd_lint_drafts(no_fetch=no_fetch)
+    elif cmd == "publish-clean":
+        cmd_publish_clean()
+    elif cmd == "prune":
+        execute = "--execute" in sys.argv
+        cmd_prune(execute=execute)
+    elif cmd == "gen-firms":
+        dry_run = "--dry-run" in sys.argv
+        cmd_gen_firms(dry_run=dry_run)
+    elif cmd == "gen-startups":
+        dry_run = "--dry-run" in sys.argv
+        threshold = 2
+        for i, arg in enumerate(sys.argv):
+            if arg == "--threshold" and i + 1 < len(sys.argv):
+                threshold = int(sys.argv[i + 1])
+        cmd_gen_startups(threshold=threshold, dry_run=dry_run)
+    elif cmd == "fix-citations":
+        if len(sys.argv) < 3:
+            print("Usage: sl fix-citations SLUG")
+            sys.exit(1)
+        cmd_fix_citations(sys.argv[2])
+    elif cmd == "auto-fix":
+        if len(sys.argv) < 3:
+            print("Usage: sl auto-fix SLUG")
+            sys.exit(1)
+        cmd_auto_fix(sys.argv[2])
+    elif cmd == "queue-add":
+        if len(sys.argv) < 3:
+            print("Usage: sl queue-add NAME [--type TYPE] [--firm FIRM] [--priority PRIORITY] [--from SLUG] [--source DESC]")
+            sys.exit(1)
+        name = sys.argv[2]
+        kwargs = {}
+        i = 3
+        while i < len(sys.argv):
+            if sys.argv[i] == "--type" and i + 1 < len(sys.argv):
+                kwargs["type_"] = sys.argv[i + 1]; i += 2
+            elif sys.argv[i] == "--firm" and i + 1 < len(sys.argv):
+                kwargs["firm"] = sys.argv[i + 1]; i += 2
+            elif sys.argv[i] == "--priority" and i + 1 < len(sys.argv):
+                kwargs["priority"] = sys.argv[i + 1]; i += 2
+            elif sys.argv[i] == "--from" and i + 1 < len(sys.argv):
+                kwargs["discovered_from"] = sys.argv[i + 1]; i += 2
+            elif sys.argv[i] == "--source" and i + 1 < len(sys.argv):
+                kwargs["source"] = sys.argv[i + 1]; i += 2
+            else:
+                i += 1
+        cmd_queue_add(name, **kwargs)
+    elif cmd == "write-pending":
+        adds = None
+        completions = None
+        i = 2
+        while i < len(sys.argv):
+            if sys.argv[i] == "--adds" and i + 1 < len(sys.argv):
+                adds = sys.argv[i + 1]; i += 2
+            elif sys.argv[i] == "--completions" and i + 1 < len(sys.argv):
+                completions = sys.argv[i + 1]; i += 2
+            else:
+                i += 1
+        cmd_write_pending(adds=adds, completions=completions)
+    elif cmd == "post-batch":
+        cmd_post_batch()
+    elif cmd == "batch-publish":
+        if len(sys.argv) < 3:
+            print("Usage: sl batch-publish SLUG1 SLUG2 ...")
+            sys.exit(1)
+        cmd_batch_publish(*sys.argv[2:])
+    elif cmd == "enrich":
+        if len(sys.argv) < 3:
+            print("Usage: sl enrich INPUT.csv [OUTPUT.csv]")
+            sys.exit(1)
+        output = sys.argv[3] if len(sys.argv) > 3 else None
+        cmd_enrich(sys.argv[2], output)
+    elif cmd == "review-sources":
+        cmd_review_sources()
+    elif cmd == "review-candidates":
+        cmd_review_candidates()
+    elif cmd == "xref-backfill-startup":
+        if len(sys.argv) < 3:
+            print("Usage: sl xref-backfill-startup SLUG|--all [--dry-run]")
+            sys.exit(1)
+        dry_run = "--dry-run" in sys.argv
+        cmd_xref_backfill_startup(sys.argv[2], dry_run=dry_run)
+    elif cmd == "xref-reconcile-firm":
+        if len(sys.argv) < 3:
+            print("Usage: sl xref-reconcile-firm SLUG|--all [--dry-run]")
+            sys.exit(1)
+        dry_run = "--dry-run" in sys.argv
+        cmd_xref_reconcile_firm(sys.argv[2], dry_run=dry_run)
+    elif cmd == "xref-compute-lvi":
+        if len(sys.argv) < 3:
+            print("Usage: sl xref-compute-lvi SLUG|--all [--dry-run]")
+            sys.exit(1)
+        dry_run = "--dry-run" in sys.argv
+        cmd_xref_compute_lvi(sys.argv[2], dry_run=dry_run)
+    elif cmd == "xref-link-investors":
+        dry_run = "--dry-run" in sys.argv
+        slug = sys.argv[2] if len(sys.argv) > 2 and not sys.argv[2].startswith("--") else "--all"
+        cmd_xref_link_investors(slug, dry_run=dry_run)
+    elif cmd == "xref-queue-portfolio":
+        dry_run = "--dry-run" in sys.argv
+        cmd_xref_queue_portfolio(dry_run=dry_run)
+    elif cmd == "xref-all":
+        dry_run = "--dry-run" in sys.argv
+        cmd_xref_all(dry_run=dry_run)
+    elif cmd == "xref-report":
+        if len(sys.argv) < 3:
+            print("Usage: sl xref-report SLUG")
+            sys.exit(1)
+        cmd_xref_report(sys.argv[2])
+    elif cmd == "pending-rounds":
+        cleanup = "--cleanup" in sys.argv[2:]
+        cmd_pending_rounds(cleanup=cleanup)
+    else:
+        print(f"Unknown command: {cmd}")
+        print(__doc__)
+        sys.exit(1)
+
+
+if __name__ == "__main__":
+    main()
