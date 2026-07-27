@@ -1,12 +1,42 @@
 import sklib
 
-GOOD_META = {"name": "X", "slug": "x", "type": "product", "status": "draft", "updated": "2026-07-26"}
+GRADES = [{"use": "As a moisturizer", "effect": "notable", "evidence": "solid"}]
+GOOD_META = {"name": "X", "slug": "x", "type": "product", "status": "draft",
+             "updated": "2026-07-26", "grades": GRADES}
 
 
 def test_clean_profile_passes():
     content = "Claim.[^1]\n\n## Sources\n[^1]: Title. https://example.com (2026-07-26)\n"
     errors, warnings = sklib.check_profile(GOOD_META, content)
     assert errors == [] and warnings == []
+
+
+def test_product_with_grades_and_no_rubric_is_clean():
+    # grades in frontmatter, no "## The Rubric" body heading -> clean.
+    content = "Intro.[^1]\n\n## The Evidence\nText.[^1]\n\n## Sources\n[^1]: T. https://example.com\n"
+    errors, warnings = sklib.check_profile(GOOD_META, content)
+    assert errors == [] and warnings == []
+
+
+def test_product_with_rubric_heading_and_no_grades_is_clean():
+    meta = {k: v for k, v in GOOD_META.items() if k != "grades"}
+    content = "Intro.[^1]\n\n## The Rubric\nGrades here.\n\n## Sources\n[^1]: T. https://example.com\n"
+    errors, warnings = sklib.check_profile(meta, content)
+    assert errors == [] and warnings == []
+
+
+def test_product_without_grades_or_rubric_is_error():
+    meta = {k: v for k, v in GOOD_META.items() if k != "grades"}
+    content = "Intro.[^1]\n\n## Sources\n[^1]: T. https://example.com\n"
+    errors, _ = sklib.check_profile(meta, content)
+    assert any("grades" in e.lower() or "rubric" in e.lower() for e in errors)
+
+
+def test_non_stub_missing_sources_is_error():
+    content = "Claim.[^1]\n\n## The Rubric\nGrades.\n"
+    meta = {k: v for k, v in GOOD_META.items() if k != "grades"}
+    errors, _ = sklib.check_profile(meta, content)
+    assert any("sources" in e.lower() for e in errors)
 
 
 def test_stub_with_no_footnotes_is_clean():

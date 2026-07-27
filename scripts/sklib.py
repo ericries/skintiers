@@ -86,6 +86,22 @@ def check_profile(metadata, content):
     for d in sorted(seen):
         if d not in refs:
             warnings.append(f"footnote [^{d}] defined but never referenced")
+
+    # Structural requirements. Stubs are placeholder pages and stay exempt.
+    if metadata.get("status") != "stub":
+        if not _has_section(content, "Sources"):
+            errors.append("missing required section: Sources")
+        # Products carry grades in frontmatter now; the old "## The Rubric"
+        # body heading is still accepted for back-compat. A product must have
+        # one or the other.
+        if metadata.get("type") == "product":
+            grades = metadata.get("grades")
+            has_grades = isinstance(grades, list) and len(grades) > 0
+            if not has_grades and not _has_section(content, "The Rubric"):
+                errors.append(
+                    "product requires a non-empty 'grades:' frontmatter list "
+                    "or a '## The Rubric' section"
+                )
     return errors, warnings
 
 
