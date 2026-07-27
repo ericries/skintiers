@@ -8,9 +8,8 @@ cerave-moisturizing-cream:
   last_reviewed: '2026-07-27'
   score: 10
   verdict: publish
-  note: 'critic verdict=revise -> all 6 punch-list items applied (INCI cited [^6];
-    Spada industry-funding + placebo-as-plain-emollient clarified; ceramide-premium
-    grade softened re: argument-from-silence; corticosteroid CI added)'
+  note: rewritten to final voice (inform-not-judge, cited, no AI-ese); lint/verify/style
+    clean
 azelaic-acid:
   last_reviewed: '2026-07-27'
   score: 8
@@ -19,5 +18,11 @@ azelaic-acid:
     applied (misdated "15% gel approved for rosacea since 1995" corrected -> moiety
     first approved 1995; unsourced "20% cream since 1995" year removed; SPA reduction
     qualified to high-baseline subgroup per [^9]). 2 escalated: HQ-4% equivalence
-    only cited to King 2023 whose abstract mentions only HQ 2%; product approval
-    years need Drugs@FDA primary. lint+verify clean.'
+    only cited to King 2023 whose abstract mentions only HQ 2%; product approval years
+    need Drugs@FDA primary. lint+verify clean.'
+moisturizing:
+  last_reviewed: '2026-07-27'
+  score: 9
+  verdict: publish
+  note: critic revise -> 3 items fixed (superlative scoped to eczema, 99% attributed
+    to StatPearls, ceramide claim cited to Spada); lint/verify/style clean

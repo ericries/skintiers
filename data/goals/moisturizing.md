@@ -2,7 +2,7 @@
 analyzed: '2026-07-27'
 name: Moisturizing
 slug: moisturizing
-status: draft
+status: published
 type: goal
 updated: '2026-07-27'
 ---
