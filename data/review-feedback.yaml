@@ -1,4 +1,39 @@
 # Review-cron findings that need NEW research/sourcing to resolve.
 # The drafting/research cron drains this list FIRST, before drafting new content.
 # Each item: {slug, dimension, issue, suggested_fix, priority, added, status: pending|done}
-[]
+- slug: azelaic-acid
+  dimension: D2
+  issue: >-
+    The melasma-vs-hydroquinone-4% equivalence claim ("against the stronger
+    hydroquinone 4%, trials show roughly equivalence, not superiority" /
+    "closer to a tie vs hydroquinone 4%" / "roughly ties the stronger 4%
+    strength") is cited to King 2023 [^1], but that review's abstract mentions
+    only hydroquinone 2% — no hydroquinone 4% comparison is verifiable from the
+    reachable abstract. Could not confirm against a reachable source.
+  suggested_fix: >-
+    Obtain the King 2023 full text and confirm it reports an azelaic-acid-vs-
+    hydroquinone-4% comparison, OR add an independent primary RCT comparing
+    azelaic acid 20% with hydroquinone 4% for melasma. If neither supports it,
+    soften to "not directly established vs the stronger 4% strength."
+  priority: 7
+  added: 2026-07-27
+  status: pending
+- slug: azelaic-acid
+  dimension: D7
+  issue: >-
+    FDA approval dates need a proper primary. The FINACEA label's "Initial U.S.
+    Approval: 1995" [^4] is the azelaic-acid MOIETY field, not the 15% gel's
+    rosacea-approval year (FINACEA gel 15%, NDA 021470, was approved years
+    later, ~2002). The AZELEX 20% cream label [^8] (NDA 020428) does not state
+    1995 at all. The erroneous "15% gel ... since 1995" wording was removed and
+    the 1995 date relocated to a moiety-level statement, but the specific
+    product approval years remain unsourced.
+  suggested_fix: >-
+    Add a Drugs@FDA approval-history citation (NDA 020428 for AZELEX 20% cream =
+    original 1995 acne approval; NDA 021470 for FINACEA 15% gel = rosacea
+    approval year, confirm exact date) so each product's approval year is backed
+    by a primary. Drugs@FDA overview pages are not WebFetch-reachable (404);
+    fetch via an authenticated/alternate route.
+  priority: 5
+  added: 2026-07-27
+  status: pending
