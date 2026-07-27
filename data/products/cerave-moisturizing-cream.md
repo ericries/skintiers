@@ -5,6 +5,7 @@ slug: cerave-moisturizing-cream
 status: published
 type: product
 updated: '2026-07-27'
+comparator: other moisturizers
 grades:
   - use: As a moisturizer
     note: category-level benefit

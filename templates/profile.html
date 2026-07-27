@@ -30,7 +30,7 @@
 
   {% if grades_view %}
   <div class="dossier">
-    <div class="head">Grade &middot; <a href="method.html">effect size &times; evidence quality</a>, vs others in its category</div>
+    <div class="head">Grade &middot; <a href="method.html">effect size &times; evidence quality</a>, vs {{ comparator }}</div>
     {% for g in grades_view %}
     <div class="grade-row">
       <div class="grade-use">{{ g.use }}{% if g.note %}<small>{{ g.note }}</small>{% endif %}</div>
@@ -48,7 +48,7 @@
 
   <div class="freshness"><span><b>Updated</b> {{ profile.updated | default('—') }}</span><span><b>Last full analysis</b> {{ profile.analyzed | default('—') }}</span></div>
 
-  {% if body_rest %}<section class="prose">{{ body_rest | safe }}</section>{% endif %}
+  {% if body_main %}<section class="prose">{{ body_main | safe }}</section>{% endif %}
 
   {% if recommended_in %}
   <section class="prose">
@@ -60,5 +60,7 @@
   {% endif %}
 
   {% if tagged_groups %}<section class="tagged prose"><h2>Also on SkinTiers — tagged {{ profile.name }}</h2>{% for g in tagged_groups %}<h3>{{ g.type_label }}</h3><ul>{% for it in g.items %}<li><a href="{{ it.slug }}.html">{{ it.name }}</a></li>{% endfor %}</ul>{% endfor %}</section>{% endif %}
+
+  {% if sources_html %}<section class="prose sources">{{ sources_html | safe }}</section>{% endif %}
 </article>
 {% endblock %}

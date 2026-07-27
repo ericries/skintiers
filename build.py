@@ -32,6 +32,7 @@ EVIDENCE_MAP = {
 }
 
 _LEADING_P_RE = re.compile(r"\s*<p>(.*?)</p>(.*)", re.DOTALL)
+_SOURCES_RE = re.compile(r"<h2[^>]*>Sources</h2>", re.IGNORECASE)
 
 
 def split_standfirst(body_html):
@@ -45,6 +46,19 @@ def split_standfirst(body_html):
     if not m:
         return "", body_html
     return m.group(1).strip(), m.group(2).lstrip()
+
+
+def split_sources(body_rest):
+    """Split off the trailing Sources block (its <h2> plus python-markdown's
+    footnote list) so it can render last, after recommended_in and tagged.
+
+    Returns (body_main, sources_html). If there is no Sources heading,
+    sources_html is "" and body_main is the whole input.
+    """
+    m = _SOURCES_RE.search(body_rest)
+    if not m:
+        return body_rest, ""
+    return body_rest[:m.start()].rstrip(), body_rest[m.start():].strip()
 
 
 def grades_view_for(metadata):
@@ -123,11 +137,14 @@ def build():
         linked = sklib.linkify_xrefs(p.content, slugs, names)
         body = sklib.render_markdown(linked)
         standfirst, body_rest = split_standfirst(body)
+        body_main, sources_html = split_sources(body_rest)
         image_src, monogram = image_and_monogram(p.metadata)
         html = env.get_template("profile.html").render(
             profile=p.metadata,
             standfirst=standfirst,
-            body_rest=body_rest,
+            body_main=body_main,
+            sources_html=sources_html,
+            comparator=p.get("comparator") or "others in its category",
             grades_view=grades_view_for(p.metadata),
             recommended_in=p.get("recommended_in") or [],
             image_src=image_src,

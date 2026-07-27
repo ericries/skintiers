@@ -24,7 +24,8 @@ sources** — or is explicitly softened / marked `unresolvable` when it isn't. E
 for *composition* only. No aggregator, ratings site, retailer, or marketing page is cited *as*
 evidence (they may be named as a pointer to follow, never as the source).
 
-**Red flags:** an uncited sentence in The Rubric / The Evidence / What We Actually Know; a grade
+**Red flags:** an uncited sentence in The Evidence / What We Actually Know; a grade in the
+dossier not traceable to the cited evidence; a grade
 that rests on one source; a Sources entry pointing at EWG, INCIDecoder scores, Wikipedia,
 Reddit, Healthline/WebMD, a brand site, or a retailer; "3 sources" that are really one study
 reported three times (same cohort) presented as independent.
@@ -48,17 +49,17 @@ verbatim quote match and statistic match against the **re-fetched** source (crit
 
 ## D3 — Grading quality (load-bearing)
 
-**10/10:** Effect-size and evidence-quality tiers are **justified in one line each**, assessed
-**per use** where the evidence differs by indication, framed **relative** with **named
-comparators** ("notable — comparable to or better than metronidazole 0.75%"), and never claim
-false precision (no invented 0–100 score). Each grade traces to the evidence cited below it.
+**10/10:** Effect-size and evidence-quality tiers live in the `grades:` frontmatter and render as
+the dossier. They are assessed **per use** where the evidence differs by indication, framed
+**relative** with **named comparators** (recorded in each grade's `note` and in The Evidence),
+and never claim false precision (no invented 0-100 score). Each grade traces to the evidence
+cited in `## The Evidence`.
 
-**Red flags:** a grade with no justification; one blended grade where uses genuinely differ; an
-absolute grade with no comparator; a grade the cited evidence doesn't support (over- or
-under-grading).
+**Red flags:** a grade no cited evidence supports; one blended grade where uses genuinely differ;
+a grade with no comparator anywhere; over- or under-grading versus what the evidence shows.
 
-*Judgment:* almost entirely the critic's call; `sk verify` only checks the Rubric section exists
-and carries citations.
+*Judgment:* almost entirely the critic's call; the linter only checks that `grades:` is present
+and that `## The Evidence` carries citations.
 
 ## D4 — Skeptical honesty (load-bearing)
 
