@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %}{{ profile.name }} — SkinTiers{% endblock %}
+{% block content %}
+<article>
+  <h1>{{ profile.name }}</h1>
+  <p class="meta">
+    <span class="badge badge-{{ profile.status }}">{{ profile.status }}</span>
+    <span class="type">{{ profile.type }}</span>
+  </p>
+  <p class="freshness">
+    Updated <strong>{{ profile.updated | default('—') }}</strong>
+    · Last full analysis <strong>{{ profile.analyzed | default('—') }}</strong>
+  </p>
+  {{ body|safe }}
+</article>
+{% endblock %}

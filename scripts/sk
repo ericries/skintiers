@@ -39,6 +39,12 @@ def cmd_lint(args):
     return 0
 
 
+def cmd_build(args):
+    import subprocess
+    root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    return subprocess.call([sys.executable, os.path.join(root, "build.py")])
+
+
 def main(argv=None):
     parser = argparse.ArgumentParser(prog="sk")
     sub = parser.add_subparsers(dest="cmd", required=True)
@@ -46,6 +52,7 @@ def main(argv=None):
     p_lint = sub.add_parser("lint")
     p_lint.add_argument("slug")
     p_lint.set_defaults(func=cmd_lint)
+    sub.add_parser("build").set_defaults(func=cmd_build)
     args = parser.parse_args(argv)
     return args.func(args)
 

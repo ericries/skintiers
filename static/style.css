@@ -1,0 +1,12 @@
+body { font: 16px/1.6 system-ui, sans-serif; max-width: 42rem; margin: 2rem auto; padding: 0 1rem; }
+header, footer { color: #555; font-size: .9rem; }
+footer { margin-top: 3rem; border-top: 1px solid #ddd; padding-top: 1rem; }
+.type { color: #888; text-transform: uppercase; letter-spacing: .05em; font-size: .8rem; }
+.meta { display: flex; gap: .6rem; align-items: center; }
+.freshness { color: #666; font-size: .85rem; margin-top: -.4rem; }
+.badge { display: inline-block; padding: .1rem .5rem; border-radius: .8rem; font-size: .75rem;
+  text-transform: uppercase; letter-spacing: .04em; font-weight: 600; color: #fff; }
+.badge-stub { background: #9ca3af; }
+.badge-draft { background: #d97706; }
+.badge-published { background: #16a34a; }
+.badge-flagged { background: #dc2626; }
