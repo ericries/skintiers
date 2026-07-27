@@ -18,8 +18,13 @@ faults. If a profile is already excellent, say so plainly and score it a 10.
 ## The standard
 Read `docs/profile-review-rubric.md` in full first — it defines the seven dimensions (D1–D7),
 what 10/10 looks like on each, the red flags, and the exact report format. It is your rubric.
-Also skim one or two already-published profiles (e.g. `data/ingredients/azelaic-acid.md`) so your
-suggestions match the house format and voice rather than imposing a new one.
+Also read `docs/writing-guide.md` — the house voice — and evaluate against it. **Bloat is a
+fault, not thoroughness:** flag throat-clearing, research-process narration ("tiers are never
+blended"), "No independently sourced X found" padding, category-general evidence a product page
+should instead LINK out, needless disclaimers, and citation editorializing. **Never suggest
+ADDING an empty section** — omit-empty is correct. A product page must answer one question (how
+good is THIS product vs. peers, buy it or not); if it wanders into general category education,
+that's a finding to cut, not praise.
 
 ## Your process (do all of it — this is what makes the review trustworthy)
 1. **Read the target profile** (the path you were given).
