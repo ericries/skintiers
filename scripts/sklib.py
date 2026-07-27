@@ -84,3 +84,20 @@ def linkify_xrefs(text, published_slugs, slug_to_name):
             return f"[{label}]({slug}.html)"
         return label
     return _XREF_RE.sub(repl, text)
+
+
+import datetime as _datetime
+
+
+def _today():
+    return _datetime.date.today().isoformat()
+
+
+def set_status(path, status, mark_analyzed=False):
+    post = frontmatter.load(path)
+    post["status"] = status
+    post["updated"] = _today()
+    if mark_analyzed:
+        post["analyzed"] = _today()
+    with open(path, "wb") as f:
+        frontmatter.dump(post, f)

@@ -45,6 +45,24 @@ def cmd_build(args):
     return subprocess.call([sys.executable, os.path.join(root, "build.py")])
 
 
+def _set_and_build(slug, status, mark_analyzed=False):
+    path = sklib.find_profile(sklib.DATA_DIR, slug)
+    if path is None:
+        print(f"not found: {slug}", file=sys.stderr)
+        return 1
+    sklib.set_status(path, status, mark_analyzed=mark_analyzed)
+    print(f"{slug}: {status}")
+    return cmd_build(None)
+
+
+def cmd_publish(args):
+    return _set_and_build(args.slug, "published", mark_analyzed=True)
+
+
+def cmd_draft(args):
+    return _set_and_build(args.slug, "draft")
+
+
 def main(argv=None):
     parser = argparse.ArgumentParser(prog="sk")
     sub = parser.add_subparsers(dest="cmd", required=True)
@@ -53,6 +71,10 @@ def main(argv=None):
     p_lint.add_argument("slug")
     p_lint.set_defaults(func=cmd_lint)
     sub.add_parser("build").set_defaults(func=cmd_build)
+    for name, fn in (("publish", cmd_publish), ("draft", cmd_draft)):
+        pp = sub.add_parser(name)
+        pp.add_argument("slug")
+        pp.set_defaults(func=fn)
     args = parser.parse_args(argv)
     return args.func(args)
 
