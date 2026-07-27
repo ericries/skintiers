@@ -67,6 +67,116 @@ def check_profile(metadata, content):
     return errors, warnings
 
 
+_SOURCES_HEADING_RE = re.compile(r"^##\s+sources\s*$", re.IGNORECASE | re.MULTILINE)
+_URL_RE = re.compile(r"https?://\S+")
+
+
+def _sources_block(content):
+    """Return the text of the ## Sources section (footnote defs), or ""."""
+    m = _SOURCES_HEADING_RE.search(content)
+    if not m:
+        return ""
+    rest = content[m.end():]
+    nxt = re.search(r"^##\s+", rest, re.MULTILINE)
+    return rest[: nxt.start()] if nxt else rest
+
+
+def _source_defs(content):
+    """Return the raw text of each footnote definition line in ## Sources."""
+    return [ln for ln in _sources_block(content).splitlines() if _DEF_RE.match(ln)]
+
+
+def extract_source_urls(content):
+    """Every URL found in ## Sources footnote definition lines."""
+    urls = []
+    for line in _source_defs(content):
+        m = _URL_RE.search(line)
+        if m:
+            urls.append(m.group(0))
+    return urls
+
+
+_PRIMARY_DOMAINS = (
+    "pubmed.ncbi.nlm.nih.gov", "pmc.ncbi.nlm.nih.gov", "ncbi.nlm.nih.gov",
+    "cochrane.org", "cochranelibrary.com", "clinicaltrials.gov", ".fda.gov",
+    "dailymed.nlm.nih.gov", "jamanetwork.com", "thelancet.com", "nature.com",
+    "nejm.org", "bmj.com", "sciencedirect.com", "onlinelibrary.wiley.com",
+    "karger.com", "dpcj.org", "jaad.org", "ema.europa.eu", "bfr.bund.de",
+    "who.int", "medicaljournals.se",
+)
+_AGGREGATOR_DOMAINS = (
+    "ewg.org", "incidecoder.com", "wikipedia.org", "reddit.com", "healthline.com",
+    "webmd.com", "byrdie.com", "realself.com", "medium.com", "blogspot.",
+    "amazon.", "sephora.", "ulta.",
+)
+
+
+def classify_domain(url):
+    """Classify a URL as 'primary', 'aggregator', or 'unknown' (case-insensitive)."""
+    u = url.lower()
+    if any(d in u for d in _AGGREGATOR_DOMAINS):
+        return "aggregator"
+    if any(d in u for d in _PRIMARY_DOMAINS):
+        return "primary"
+    return "unknown"
+
+
+_REQUIRED_SECTIONS = ("The Rubric", "The Evidence", "Sources")
+_QUARANTINE_SECTIONS = ("Manufacturer Claims", "Common Marketing Claims")
+_STAT_RE = re.compile(r"\d+(\.\d+)?\s*%|\bn\s*=\s*\d+|95%\s*C[rI]|\bP\s*[<=]\s*\.?\d")
+
+
+def _has_section(content, name):
+    name = name.lower()
+    for line in content.splitlines():
+        if line.startswith("## ") and name in line.lower():
+            return True
+    return False
+
+
+def verify_profile(metadata, content):
+    """Deterministic, offline source-quality / structure / uncited-stat checks."""
+    errors, warnings = [], []
+
+    # Source quality (D1) — runs for stubs and non-stubs alike.
+    for line in _source_defs(content):
+        n = _DEF_RE.match(line).group(1)
+        m = _URL_RE.search(line)
+        if not m:
+            errors.append(f"source [^{n}] has no URL")
+            continue
+        url = m.group(0)
+        kind = classify_domain(url)
+        if kind == "aggregator":
+            errors.append(f"aggregator/marketing source cited as evidence: {url}")
+        elif kind == "unknown":
+            warnings.append(f"source domain not on primary allowlist (verify manually): {url}")
+
+    if metadata.get("status") == "stub":
+        return errors, warnings
+
+    # Required sections (D5).
+    for name in _REQUIRED_SECTIONS:
+        if not _has_section(content, name):
+            errors.append(f"missing required section: {name}")
+    if not any(_has_section(content, q) for q in _QUARANTINE_SECTIONS):
+        warnings.append("no quarantined marketing-claims section")
+
+    # Uncited statistics (D1/D2) — paragraphs outside ## Sources.
+    body = content
+    m = _SOURCES_HEADING_RE.search(body)
+    if m:
+        body = body[: m.start()]
+    for para in re.split(r"\n\s*\n", body):
+        if not para.strip():
+            continue
+        if _STAT_RE.search(para) and not _REF_RE.search(para):
+            snippet = " ".join(para.split())[:60]
+            warnings.append(f"uncited statistic in paragraph: '{snippet}...'")
+
+    return errors, warnings
+
+
 import markdown as _markdown
 
 _XREF_RE = re.compile(r"\[\[([^\]|]+)(?:\|([^\]]+))?\]\]")
