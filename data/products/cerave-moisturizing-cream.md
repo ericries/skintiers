@@ -78,6 +78,13 @@ The manufacturer's published ingredient declaration for CeraVe Moisturizing Crea
 - **vs a plain petrolatum / glycerin emollient (e.g., plain petrolatum jelly, or a basic glycerin cream).** This is the honest crux — is the ceramide premium worth it? On the demonstrable evidence, a plain emollient captures most of the proven benefit: petrolatum alone is the single most effective occlusive ("nearly 99%" TEWL reduction),[^3] glycerol creams are among the few explicitly shown to beat their controls,[^1] and the best ceramide-vs-placebo RCT could not show the ceramide formula beating a plain emollient on clinical symptom scores.[^2] CeraVe is more elegant to use and better formulated than raw petrolatum jelly, and that cosmetic acceptability has real adherence value — but "better formulated" is not the same as "clinically proven superior," and here it is not.
 - **vs La Roche-Posay Toleriane (Double Repair).** No independently sourced head-to-head RCT of CeraVe versus La Roche-Posay Toleriane was found. Both are fragrance-free barrier moisturizers built on the same broad logic (occlusive/humectant base plus ceramides and glycerin), and there is no controlled basis for ranking one above the other on efficacy. Treat the choice as a matter of price, texture, and tolerance, not proven effect.
 
+## Where to Buy
+
+- [CeraVe Moisturizing Cream — official CeraVe product page (cerave.com)](https://www.cerave.com/skincare/moisturizers/moisturizing-cream)
+- [CeraVe Moisturizing Cream, 19 oz — Amazon US listing](https://www.amazon.com/CeraVe-Moisturizing-Cream-Daily-Moisturizer/dp/B00TTD9BRC)
+
+*These links are provided for convenience only, may change or break over time, and are not endorsements.*
+
 ## Sources
 
 [^1]: van Zuuren EJ, Fedorowicz Z, Arents BWM. Emollients and moisturizers for eczema: abridged Cochrane systematic review including GRADE assessments. British Journal of Dermatology, 2017;177(5):1256-1271. https://pubmed.ncbi.nlm.nih.gov/28432721/ (accessed 2026-07-27)
