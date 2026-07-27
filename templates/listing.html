@@ -1,10 +1,12 @@
 {% extends "base.html" %}
 {% block title %}{{ heading }} — SkinTiers{% endblock %}
 {% block content %}
-<h1>{{ heading }}</h1>
-<ul>
+<div class="page-head">
+  <h1>{{ heading }}</h1>
+</div>
+<ul class="listing">
 {% for item in items %}
-  <li><a href="{{ item.slug }}.html">{{ item.name }}</a></li>
+  <li><a href="{{ item.slug }}.html">{{ item.name }}</a><span class="st">{{ item.status }}</span></li>
 {% endfor %}
 </ul>
 {% endblock %}

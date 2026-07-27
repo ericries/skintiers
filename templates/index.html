@@ -1,8 +1,11 @@
 {% extends "base.html" %}
+{% block title %}SkinTiers — what the evidence actually says{% endblock %}
 {% block content %}
-<h1>SkinTiers</h1>
-<p>A skeptical, evidence-first directory of skincare.</p>
-<ul>
+<div class="page-head">
+  <h1>SkinTiers</h1>
+  <p class="lede">A skeptical, evidence-first directory of skincare. Every product graded on two axes, effect size and evidence quality, relative to its category and against named comparators.</p>
+</div>
+<ul class="nav-cats">
   {% for c in nav_categories %}<li><a href="{{ c.filename }}.html">{{ c.label }} ({{ c.count }})</a></li>{% endfor %}
 </ul>
 {% endblock %}

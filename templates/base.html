@@ -4,11 +4,51 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% block title %}SkinTiers{% endblock %}</title>
+  <script>
+    (function(){try{var t=localStorage.getItem('theme');if(t==='light'||t==='dark'){document.documentElement.setAttribute('data-theme',t);}}catch(e){}})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Source+Serif+4:wght@400;600&display=swap">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header><a href="index.html"><strong>SkinTiers</strong></a> &mdash; what the evidence actually says</header>
-  <main>{% block content %}{% endblock %}</main>
-  <footer>Educational, not medical advice. See a dermatologist for medical concerns.</footer>
+  <header class="site">
+    <div class="wrap">
+      <a class="brand" href="index.html">Skin<span class="tri">Tiers</span><small>what the evidence actually says</small></a>
+      <nav class="top">
+        <a href="products.html">Products</a>
+        <a href="ingredients.html">Ingredients</a>
+        <a href="goals.html">Goals</a>
+        <a href="method.html">Method</a>
+        <button type="button" class="theme-toggle" id="theme-toggle" aria-label="Toggle light or dark theme">Theme</button>
+      </nav>
+    </div>
+  </header>
+
+  <div class="wrap">
+    {% block content %}{% endblock %}
+  </div>
+
+  <footer class="site">
+    <div class="wrap">
+      <p class="disclaimer">Educational, not medical advice. See a dermatologist for medical concerns.</p>
+      <div class="fnav"><a href="method.html">Method</a><a href="index.html">Sources</a></div>
+    </div>
+  </footer>
+
+  <script>
+    (function(){
+      var btn=document.getElementById('theme-toggle');
+      if(!btn)return;
+      btn.addEventListener('click',function(){
+        var cur=document.documentElement.getAttribute('data-theme');
+        if(!cur){cur=(window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches)?'dark':'light';}
+        var next=(cur==='dark')?'light':'dark';
+        document.documentElement.setAttribute('data-theme',next);
+        try{localStorage.setItem('theme',next);}catch(e){}
+      });
+    })();
+  </script>
 </body>
 </html>

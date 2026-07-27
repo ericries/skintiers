@@ -57,18 +57,24 @@ def test_index_nav_hides_categories_with_no_published_content(tmp_path):
                        capture_output=True, text=True)
     assert r.returncode == 0, r.stderr
     index_html = (out / "index.html").read_text()
-    # (a) categories with >=1 published profile appear in the index nav.
-    assert 'href="products.html"' in index_html
-    assert 'href="ingredients.html"' in index_html
-    # (b) all-draft/stub and empty categories are omitted from the index nav...
-    assert 'href="conditions.html"' not in index_html
-    assert 'href="goals.html"' not in index_html
+    # The global site header links every listing page; the empty-category hiding
+    # is about the INDEX's category nav specifically, so assert within that block.
+    import re
+    m = re.search(r'<ul class="nav-cats">(.*?)</ul>', index_html, re.DOTALL)
+    assert m, "index category nav not found"
+    cat_nav = m.group(1)
+    # (a) categories with >=1 published profile appear in the index category nav.
+    assert 'href="products.html"' in cat_nav
+    assert 'href="ingredients.html"' in cat_nav
+    # (b) all-draft/stub and empty categories are omitted from the index category nav...
+    assert 'href="conditions.html"' not in cat_nav
+    assert 'href="goals.html"' not in cat_nav
     # ...yet their listing page files are still produced.
     assert (out / "conditions.html").exists()
     assert (out / "goals.html").exists()
     # Visible categories show their TOTAL count (published + draft + stub).
-    assert "Products (1)" in index_html
-    assert "Ingredients (1)" in index_html
+    assert "Products (1)" in cat_nav
+    assert "Ingredients (1)" in cat_nav
 
 
 def test_build_renders_tagged_index_on_condition_page(tmp_path):

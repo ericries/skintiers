@@ -1,0 +1,82 @@
+{% extends "base.html" %}
+{% block title %}Method — SkinTiers{% endblock %}
+{% block content %}
+<article>
+  <div class="kicker"><span class="type-tag">Method</span></div>
+  <div class="masthead">
+    <div>
+      <h1>How SkinTiers grades</h1>
+      <p class="standfirst">SkinTiers grades every product on two axes, effect size and evidence quality, relative to other products in its category. Grades are relative and always name their comparators.</p>
+    </div>
+  </div>
+
+  <section class="prose">
+    <p>A grade is not a star rating. It answers two separate questions. How much measurable difference does the product make, and how much can we trust that the difference is real. A product can score a strong effect on weak evidence, or a small effect that has been proven well. Those are different situations, and the two axes keep them apart.</p>
+    <p>Every grade is relative to a named comparator, usually a plainer or cheaper product in the same category. We say what the product is being measured against, so "notable" always means notable versus something specific, not notable in the abstract.</p>
+  </section>
+
+  <section class="prose">
+    <h2 id="effect">Effect size</h2>
+    <p>Effect size is how much measurable difference the product makes versus a plainer or cheaper comparator. It is shown as filled segments out of four.</p>
+    <div class="method-tier">
+      <span class="tname">None</span>
+      <div class="segs">{% for i in range(4) %}<i class="seg"></i>{% endfor %}</div>
+      <div class="tdesc">No measurable difference over the comparator.</div>
+    </div>
+    <div class="method-tier">
+      <span class="tname">Minimal</span>
+      <div class="segs">{% for i in range(4) %}<i class="seg{% if i < 1 %} on{% endif %}"></i>{% endfor %}</div>
+      <div class="tdesc">A small difference, often at the edge of what a study can detect.</div>
+    </div>
+    <div class="method-tier">
+      <span class="tname">Modest</span>
+      <div class="segs">{% for i in range(4) %}<i class="seg{% if i < 2 %} on{% endif %}"></i>{% endfor %}</div>
+      <div class="tdesc">A real but limited difference that most people may not notice day to day.</div>
+    </div>
+    <div class="method-tier">
+      <span class="tname">Notable</span>
+      <div class="segs">{% for i in range(4) %}<i class="seg{% if i < 3 %} on{% endif %}"></i>{% endfor %}</div>
+      <div class="tdesc">A clear difference that a typical user would notice.</div>
+    </div>
+    <div class="method-tier">
+      <span class="tname">Strong</span>
+      <div class="segs">{% for i in range(4) %}<i class="seg on"></i>{% endfor %}</div>
+      <div class="tdesc">A large difference over the comparator.</div>
+    </div>
+  </section>
+
+  <section class="prose">
+    <h2 id="evidence">Evidence quality</h2>
+    <p>Evidence quality is how much we can trust that the effect is real. It runs from a single anecdote to repeated, well-controlled trials.</p>
+    <div class="method-tier">
+      <span class="tname">Anecdotal</span>
+      <span class="chip ev-anec">Anecdotal</span>
+      <div class="tdesc">Personal reports or single cases, with no controlled test.</div>
+    </div>
+    <div class="method-tier">
+      <span class="tname">Preliminary</span>
+      <span class="chip ev-prelim">Preliminary</span>
+      <div class="tdesc">Early or small studies that point in a direction but are not conclusive.</div>
+    </div>
+    <div class="method-tier">
+      <span class="tname">Mixed</span>
+      <span class="chip ev-mixed">Mixed</span>
+      <div class="tdesc">Studies disagree, or a trial shows one benefit but not another.</div>
+    </div>
+    <div class="method-tier">
+      <span class="tname">Solid</span>
+      <span class="chip ev-solid">Solid</span>
+      <div class="tdesc">Consistent controlled evidence, though not the strongest possible.</div>
+    </div>
+    <div class="method-tier">
+      <span class="tname">Gold-standard</span>
+      <span class="chip ev-gold">Gold-standard</span>
+      <div class="tdesc">Large, well-run, independent randomized trials, ideally more than one.</div>
+    </div>
+  </section>
+
+  <section class="prose">
+    <p>The two axes are read together. A strong effect backed only by anecdotes is graded differently from a modest effect proven in good trials. When a product shows a large difference but the evidence is weak, the effect bar can be high while the evidence chip stays low, and that gap is the point of the grade.</p>
+  </section>
+</article>
+{% endblock %}

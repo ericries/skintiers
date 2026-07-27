@@ -2,16 +2,63 @@
 {% block title %}{{ profile.name }} — SkinTiers{% endblock %}
 {% block content %}
 <article>
-  <h1>{{ profile.name }}</h1>
-  <p class="meta">
-    <span class="badge badge-{{ profile.status }}">{{ profile.status }}</span>
-    <span class="type">{{ profile.type }}</span>
-  </p>
-  <p class="freshness">
-    Updated <strong>{{ profile.updated | default('—') }}</strong>
-    · Last full analysis <strong>{{ profile.analyzed | default('—') }}</strong>
-  </p>
-  {{ body|safe }}
-  {% if tagged_groups %}<section class="tagged"><h2>Also on SkinTiers — tagged {{ profile.name }}</h2>{% for g in tagged_groups %}<h3>{{ g.type_label }}</h3><ul>{% for it in g.items %}<li><a href="{{ it.slug }}.html">{{ it.name }}</a></li>{% endfor %}</ul>{% endfor %}</section>{% endif %}
+  <div class="kicker">
+    <a class="type-tag" href="{{ type_href }}">{{ profile.type | capitalize }}</a>
+    <span class="status status-{{ profile.status }}">{{ profile.status }}</span>
+  </div>
+
+  <div class="masthead">
+    <div>
+      <h1>{{ profile.name }}</h1>
+      {% if standfirst %}<p class="standfirst">{{ standfirst | safe }}</p>{% endif %}
+    </div>
+    {% if image_src %}
+    <figure class="photo">
+      <img src="{{ image_src }}" alt="{{ profile.name }}">
+      <div class="cap">Product photo</div>
+    </figure>
+    {% else %}
+    <figure class="photo">
+      <svg viewBox="0 0 120 120" role="img" aria-label="{{ profile.name }} monogram">
+        <rect x="6" y="6" width="108" height="108" rx="10" fill="var(--accent-soft)" stroke="var(--rule-strong)" stroke-width="1.5"/>
+        <text class="mono-badge" x="60" y="62" text-anchor="middle" dominant-baseline="central" font-size="44">{{ monogram }}</text>
+      </svg>
+      <div class="cap">SkinTiers</div>
+    </figure>
+    {% endif %}
+  </div>
+
+  {% if grades_view %}
+  <div class="dossier">
+    <div class="head">Grade &middot; <a href="method.html">effect size &times; evidence quality</a>, vs others in its category</div>
+    {% for g in grades_view %}
+    <div class="grade-row">
+      <div class="grade-use">{{ g.use }}{% if g.note %}<small>{{ g.note }}</small>{% endif %}</div>
+      <a class="axis" href="method.html#effect" title="What does Effect: {{ g.effect_word }} mean?">
+        <span class="label">Effect: {{ g.effect_word }}</span>
+        <div class="segs">{% for i in range(4) %}<i class="seg{% if i < g.effect_segs %} on{% endif %}"></i>{% endfor %}</div>
+      </a>
+      <a class="axis" href="method.html#evidence" title="What does Evidence: {{ g.evidence_label }} mean?">
+        <span class="label">Evidence</span><span class="chip {{ g.evidence_class }}">{{ g.evidence_label }}</span>
+      </a>
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  <div class="freshness"><span><b>Updated</b> {{ profile.updated | default('—') }}</span><span><b>Last full analysis</b> {{ profile.analyzed | default('—') }}</span></div>
+
+  {% if body_rest %}<section class="prose">{{ body_rest | safe }}</section>{% endif %}
+
+  {% if recommended_in %}
+  <section class="prose">
+    <h2>Recommended In</h2>
+    <div class="featured">
+      {% for r in recommended_in %}<a href="{{ r.url }}"><b>{{ r.title }}</b> <span>{{ r.source }} &rarr;</span></a>{% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
+  {% if tagged_groups %}<section class="tagged prose"><h2>Also on SkinTiers — tagged {{ profile.name }}</h2>{% for g in tagged_groups %}<h3>{{ g.type_label }}</h3><ul>{% for it in g.items %}<li><a href="{{ it.slug }}.html">{{ it.name }}</a></li>{% endfor %}</ul>{% endfor %}</section>{% endif %}
 </article>
 {% endblock %}
