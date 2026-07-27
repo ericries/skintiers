@@ -60,6 +60,12 @@ Base, texture, and preservative system: water, caprylic/capric triglyceride (emo
 
 Not in the formula: no [[niacinamide]] (which some other CeraVe products contain), no added fragrance or essential oils, and no drying alcohol (the cetearyl and cetyl alcohols are emollient fatty alcohols, not the drying kind).[^3]
 
+## Tolerability
+
+CeraVe Moisturizing Cream holds the National Eczema Association Seal of Acceptance.[^4] The NEA describes the Seal as a voluntary program: the manufacturer applies and submits ingredient details and clinical safety-test reports for sensitivity, irritation, and toxicity, and an accepted product must be fragrance-free and free of the ingredients on the NEA "Ecz-clusion List." The NEA states the Seal reflects suitability for eczema and sensitive skin, and that "a product that works for one may not work for another."[^5]
+
+CeraVe labels the product non-comedogenic and allergy-tested.[^3] These are manufacturer label claims, not independently tested outcomes.
+
 ## See Also
 
 Similar fragrance-free barrier moisturizers: [[la-roche-posay-toleriane]], [[cetaphil-moisturizing-cream]], [[petrolatum]].
@@ -74,11 +80,17 @@ Label claims not established by the product-specific evidence above:
 
 ## Where to Buy
 
-- [CeraVe Moisturizing Cream, official product page (cerave.com)](https://www.cerave.com/skincare/moisturizers/moisturizing-cream)
-- [CeraVe Moisturizing Cream, 19 oz, Amazon US listing](https://www.amazon.com/CeraVe-Moisturizing-Cream-Daily-Moisturizer/dp/B00TTD9BRC)
+- [Official product page, 12 oz jar (cerave.com)](https://www.cerave.com/skincare/moisturizers/moisturizing-cream)
+- [1.89 oz travel jar (Target)](https://www.target.com/p/cerave-moisturizing-face-38-body-cream-for-normal-to-dry-skin-8211-1-89-fl-oz/-/A-86467779)
+- [8 oz jar (Target)](https://www.target.com/p/cerave-moisturizing-cream-for-normal-to-dry-skin-8-fl-oz/-/A-76198440)
+- [16 oz jar (Ulta)](https://www.ulta.com/p/moisturizing-cream-body-face-moisturizer-xlsImpprod3530069?sku=2234849)
+- [16 oz with pump (Amazon)](https://www.amazon.com/CeraVe-Moisturizing-Cream-16oz-Pump/dp/B013GDK3SQ)
+- [19 oz jar (Amazon)](https://www.amazon.com/CeraVe-Moisturizing-Cream-Daily-Moisturizer/dp/B00TTD9BRC)
 
 ## Sources
 
 [^1]: Leshem YA, Wong A, McClanahan D, Simpson EL. The Effects of Common Over-the-Counter Moisturizers on Skin Barrier Function: A Randomized, Observer-Blind, Within-Patient, Controlled Study. Dermatitis, 2020;31(5):309-315. https://pubmed.ncbi.nlm.nih.gov/32947459/ (accessed 2026-07-27)
 [^2]: Spada F, Barnes TM, Greive KA. A daily regimen of a ceramide-dominant moisturizing cream and cleanser restores the skin permeability barrier in adults with moderate eczema: A randomized trial. Dermatologic Therapy, 2021;34(4):e14970. https://pmc.ncbi.nlm.nih.gov/articles/PMC8459234/ (accessed 2026-07-27)
-[^3]: CeraVe Moisturizing Cream ingredient list. https://www.cerave.com/skincare/moisturizers/moisturizing-cream (accessed 2026-07-27)
+[^3]: CeraVe Moisturizing Cream product page and ingredient list. https://www.cerave.com/skincare/moisturizers/moisturizing-cream (accessed 2026-07-27)
+[^4]: National Eczema Association. CeraVe Moisturizing Cream, Seal of Acceptance product listing. https://nationaleczema.org/eczema-products/cerave-moisturizing-cream/ (accessed 2026-07-27)
+[^5]: National Eczema Association. About the NEA Seal of Acceptance. https://nationaleczema.org/product-directory/about-nea-seal-of-acceptance/ (accessed 2026-07-27)
