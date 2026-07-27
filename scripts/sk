@@ -136,7 +136,7 @@ def main(argv=None):
     p_draft.set_defaults(func=cmd_draft)
     p_qa = sub.add_parser("queue-add")
     p_qa.add_argument("name")
-    p_qa.add_argument("--type", required=True, choices=("product", "ingredient"))
+    p_qa.add_argument("--type", required=True, choices=("product", "ingredient", "condition", "goal", "brand", "person", "study"))
     p_qa.add_argument("--priority", type=int, default=5)
     p_qa.add_argument("--from", dest="discovered_from", default=None)
     p_qa.add_argument("--source", default=None)
