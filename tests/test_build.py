@@ -21,6 +21,7 @@ def test_build_renders_all_statuses_with_badge_and_xref(tmp_path):
     _write(data / "products", "serum", "published", "product",
            "Contains [[niacinamide]] and [[unobtainium]].\n")
     _write(data / "products", "secret", "draft", "product")
+    _write(data / "conditions", "acne", "published", "condition")
     env = {**os.environ, "SK_DATA": str(data), "SK_OUTPUT": str(out)}
     r = subprocess.run([sys.executable, str(ROOT / "build.py")], env=env,
                        capture_output=True, text=True)
@@ -29,6 +30,10 @@ def test_build_renders_all_statuses_with_badge_and_xref(tmp_path):
     assert (out / "niacinamide.html").exists()
     assert (out / "secret.html").exists()              # draft renders as a link target
     assert (out / "index.html").exists()
+    assert (out / "conditions.html").exists()           # new condition listing generated
+    assert (out / "goals.html").exists()                # new goal listing generated
+    assert (out / "acne.html").exists()                 # condition profile page renders
+    assert "Acne" in (out / "acne.html").read_text()
     assert "draft" in (out / "secret.html").read_text().lower()   # status badge shown
     serum_html = (out / "serum.html").read_text()
     assert 'href="niacinamide.html"' in serum_html   # resolvable xref linked

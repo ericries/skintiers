@@ -228,7 +228,8 @@ A visual/social layer that turns profiles and routines into shareable artifacts 
 | Phase | Build | Data shape |
 |---|---|---|
 | **1 — Flat content + live site** | `products/` + `ingredients/` markdown profiles; simple `build.py`; minimal `sk` (status/lint/build/publish); Pages deploy | flat markdown, ~no schema |
-| **2 — Breadth + discovery** | add `studies/ conditions/ goals/ brands/ people/`; per-queue research + crons; studies/papers freshness feed | flat markdown |
+| **2 — Breadth + discovery** | add `conditions/` + `goals/` (weave in the existing ingredients), then `studies/brands/people`; studies/papers scraper as a **no-LLM GitHub Action** (Actions reserved for simple, no-LLM jobs to spare free-plan credits); the LLM research/review loop stays on session crons | flat markdown |
+| **UI — authoritative polish** | restrained, credible editorial design — typography, hierarchy, legible sources/badges/rubric; official and trustworthy, *not* fancy chrome. Starts once Phase 2 gives content to design around | templates + CSS |
 | **3 — Structured layer** | layer frontmatter/derived indices onto existing files: grades-as-data, INCI fields, xref graph, comparators | schema on top |
 | **4 — Interactivity & sharing** | effect×evidence visual, sorting/comparison, routine builder + coverage, product badges + composite routine-signature image | consumes structured layer |
 

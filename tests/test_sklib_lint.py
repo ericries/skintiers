@@ -32,6 +32,13 @@ def test_bad_type_is_error():
     assert any("type" in e for e in errors)
 
 
+def test_condition_type_passes_frontmatter_check():
+    meta = {**GOOD_META, "type": "condition"}
+    content = "Body.[^1]\n\n## Sources\n[^1]: Title. https://example.com (2026-07-26)\n"
+    errors, warnings = sklib.check_profile(meta, content)
+    assert errors == [] and warnings == []
+
+
 def test_footnote_reference_without_definition_is_error():
     errors, _ = sklib.check_profile(GOOD_META, "Claim.[^1]\n")
     assert any("[^1]" in e for e in errors)

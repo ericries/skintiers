@@ -8,7 +8,12 @@ sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "scr
 import sklib  # noqa: E402
 from jinja2 import Environment, FileSystemLoader  # noqa: E402
 
-LISTINGS = (("product", "products", "Products"), ("ingredient", "ingredients", "Ingredients"))
+LISTINGS = (
+    ("product", "products", "Products"),
+    ("ingredient", "ingredients", "Ingredients"),
+    ("condition", "conditions", "Conditions"),
+    ("goal", "goals", "Goals"),
+)
 
 
 def build():
@@ -39,6 +44,8 @@ def build():
     index = env.get_template("index.html").render(
         product_count=counts.get("product", 0),
         ingredient_count=counts.get("ingredient", 0),
+        condition_count=counts.get("condition", 0),
+        goal_count=counts.get("goal", 0),
     )
     (out / "index.html").write_text(index)
 

@@ -10,7 +10,7 @@ OUTPUT_DIR = pathlib.Path(os.environ.get("SK_OUTPUT", ROOT / "_site"))
 TEMPLATES_DIR = pathlib.Path(os.environ.get("SK_TEMPLATES", ROOT / "templates"))
 STATIC_DIR = pathlib.Path(os.environ.get("SK_STATIC", ROOT / "static"))
 
-ENTITY_TYPES = ("product", "ingredient")
+ENTITY_TYPES = ("product", "ingredient", "condition", "goal")
 
 
 def load_profiles(data_dir):
@@ -157,12 +157,20 @@ def verify_profile(metadata, content):
     if metadata.get("status") == "stub":
         return errors, warnings
 
-    # Required sections (D5).
-    for name in _REQUIRED_SECTIONS:
-        if not _has_section(content, name):
-            errors.append(f"missing required section: {name}")
-    if not any(_has_section(content, q) for q in _QUARANTINE_SECTIONS):
-        warnings.append("no quarantined marketing-claims section")
+    # Required sections (D5). Product/ingredient carry the full rubric structure;
+    # condition/goal profiles are kept lenient (finalized in content) — Sources is
+    # the only hard requirement, with a warning when Evidence is absent.
+    if metadata.get("type") in ("condition", "goal"):
+        if not _has_section(content, "Sources"):
+            errors.append("missing required section: Sources")
+        if not _has_section(content, "The Evidence"):
+            warnings.append("missing recommended section: The Evidence")
+    else:
+        for name in _REQUIRED_SECTIONS:
+            if not _has_section(content, name):
+                errors.append(f"missing required section: {name}")
+        if not any(_has_section(content, q) for q in _QUARANTINE_SECTIONS):
+            warnings.append("no quarantined marketing-claims section")
 
     # Uncited statistics (D1/D2) — only in evidence-bearing sections, outside ## Sources.
     body = content

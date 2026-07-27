@@ -175,6 +175,33 @@ def test_verify_stub_still_flags_aggregator_source():
     assert any("aggregator/marketing source cited as evidence" in e for e in errors)
 
 
+# --- verify_profile: condition / goal (lenient structure) ---
+
+CONDITION_META = {"name": "Acne", "slug": "acne", "type": "condition", "status": "draft", "updated": "2026-07-27"}
+
+
+def test_verify_condition_missing_sources_is_error():
+    body = "## The Evidence\nSome evidence.[^1]\n"
+    errors, _ = sklib.verify_profile(CONDITION_META, body)
+    assert any("missing required section: Sources" in e for e in errors)
+
+
+def test_verify_condition_with_sources_but_no_evidence_is_warning():
+    body = "Overview.[^1]\n\n## Sources\n[^1]: X. https://nature.com/a\n"
+    errors, warnings = sklib.verify_profile(CONDITION_META, body)
+    assert errors == []
+    assert any("The Evidence" in w for w in warnings)
+
+
+def test_verify_condition_clean_profile_no_errors_no_warnings():
+    body = (
+        "## The Evidence\nEvidence line.[^1]\n\n"
+        "## Sources\n[^1]: X. https://nature.com/a\n"
+    )
+    errors, warnings = sklib.verify_profile(CONDITION_META, body)
+    assert errors == [] and warnings == []
+
+
 def test_verify_errors_ordered_before_warnings():
     body = (
         "## The Rubric\nA.[^1]\n\n"
