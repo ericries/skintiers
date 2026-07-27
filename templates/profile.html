@@ -12,5 +12,6 @@
     · Last full analysis <strong>{{ profile.analyzed | default('—') }}</strong>
   </p>
   {{ body|safe }}
+  {% if tagged_groups %}<section class="tagged"><h2>Also on SkinTiers — tagged {{ profile.name }}</h2>{% for g in tagged_groups %}<h3>{{ g.type_label }}</h3><ul>{% for it in g.items %}<li><a href="{{ it.slug }}.html">{{ it.name }}</a></li>{% endfor %}</ul>{% endfor %}</section>{% endif %}
 </article>
 {% endblock %}

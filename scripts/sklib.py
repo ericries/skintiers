@@ -25,6 +25,28 @@ def filter_published(posts):
     return [p for p in posts if p.get("status") == "published"]
 
 
+def _type_rank(typ):
+    try:
+        return ENTITY_TYPES.index(typ)
+    except ValueError:
+        return len(ENTITY_TYPES)
+
+
+def build_tag_index(posts):
+    """Map each tag slug -> [posts declaring it], ordered by (type, name).
+
+    A profile declares tags via a `tags:` frontmatter list. Profiles with no
+    `tags` contribute nothing. Type order follows ENTITY_TYPES.
+    """
+    index = {}
+    for post in posts:
+        for tag in post.get("tags") or []:
+            index.setdefault(tag, []).append(post)
+    for tag, tagged in index.items():
+        tagged.sort(key=lambda p: (_type_rank(p.get("type")), p.get("name") or ""))
+    return index
+
+
 def find_profile(data_dir, slug):
     for md in pathlib.Path(data_dir).glob("*/*.md"):
         if md.stem == slug:

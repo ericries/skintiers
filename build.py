@@ -3,6 +3,7 @@
 import os
 import shutil
 import sys
+import types
 
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "scripts"))
 import sklib  # noqa: E402
@@ -14,6 +15,32 @@ LISTINGS = (
     ("condition", "conditions", "Conditions"),
     ("goal", "goals", "Goals"),
 )
+
+# Stable order + plural labels for the auto "tagged pages" groups.
+TAG_GROUP_ORDER = (
+    ("product", "Products"),
+    ("ingredient", "Ingredients"),
+    ("condition", "Conditions"),
+    ("goal", "Goals"),
+)
+
+
+def tagged_groups_for(profile, tag_index):
+    """Group pages tagged with `profile.slug` by entity type (stable order).
+
+    Only condition/goal profiles get groups; everything else gets []."""
+    if profile.get("type") not in ("condition", "goal"):
+        return []
+    tagged = tag_index.get(profile["slug"], [])
+    groups = []
+    for typ, label in TAG_GROUP_ORDER:
+        items = [{"slug": p["slug"], "name": p["name"]}
+                 for p in tagged if p.get("type") == typ]
+        if items:
+            # SimpleNamespace so the template's `g.items` resolves to this list
+            # rather than dict.items (Jinja prefers attribute over key lookup).
+            groups.append(types.SimpleNamespace(type_label=label, items=items))
+    return groups
 
 
 def build():
@@ -27,11 +54,14 @@ def build():
     profiles = sklib.load_profiles(sklib.DATA_DIR)
     slugs = {p["slug"] for p in profiles}
     names = {p["slug"]: p["name"] for p in profiles}
+    tag_index = sklib.build_tag_index(profiles)
 
     for p in profiles:
         linked = sklib.linkify_xrefs(p.content, slugs, names)
         body = sklib.render_markdown(linked)
-        html = env.get_template("profile.html").render(profile=p.metadata, body=body)
+        html = env.get_template("profile.html").render(
+            profile=p.metadata, body=body,
+            tagged_groups=tagged_groups_for(p, tag_index))
         (out / f"{p['slug']}.html").write_text(html)
 
     counts = {}

@@ -5,6 +5,7 @@ slug: tretinoin
 status: published
 type: ingredient
 updated: '2026-07-27'
+tags: [acne, photoaging]
 ---
 
 Tretinoin is all-trans retinoic acid, the direct, receptor-active form of vitamin A and a prescription-only topical drug. Unlike over-the-counter [[retinol]] — a precursor the skin must enzymatically convert to reach this same molecule — tretinoin binds retinoic acid receptors directly, which is why it is the trial-validated benchmark against which milder retinoids are measured.[^4] It has two well-studied uses with genuinely different evidence, so this profile grades each separately: photoaging and acne. Its reputation runs ahead of its data in one specific way — it *improves* skin, it does not *reverse* aging — and even the FDA label says so.[^4]
