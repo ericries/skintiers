@@ -100,3 +100,399 @@
   status: pending
   discovered_from: null
   source: null
+- name: La Roche-Posay Anthelios Melt-in Milk SPF 60
+  type: product
+  priority: 10
+  status: pending
+  discovered_from: null
+  source: null
+- name: SkinCeuticals C E Ferulic
+  type: product
+  priority: 10
+  status: pending
+  discovered_from: null
+  source: null
+- name: Differin Adapalene 0.1% Gel
+  type: product
+  priority: 10
+  status: pending
+  discovered_from: null
+  source: null
+- name: CeraVe Moisturizing Cream
+  type: product
+  priority: 10
+  status: pending
+  discovered_from: null
+  source: null
+- name: EltaMD UV Clear SPF 46
+  type: product
+  priority: 9
+  status: pending
+  discovered_from: null
+  source: null
+- name: Beauty of Joseon Relief Sun Rice + Probiotics SPF50+
+  type: product
+  priority: 9
+  status: pending
+  discovered_from: null
+  source: null
+- name: La Roche-Posay Toleriane Double Repair Face Moisturizer
+  type: product
+  priority: 9
+  status: pending
+  discovered_from: null
+  source: null
+- name: CeraVe Hydrating Facial Cleanser
+  type: product
+  priority: 9
+  status: pending
+  discovered_from: null
+  source: null
+- name: La Roche-Posay Toleriane Hydrating Gentle Cleanser
+  type: product
+  priority: 9
+  status: pending
+  discovered_from: null
+  source: null
+- name: Paula's Choice Skin Perfecting 2% BHA Liquid Exfoliant
+  type: product
+  priority: 9
+  status: pending
+  discovered_from: null
+  source: null
+- name: Vanicream Sunscreen SPF 50
+  type: product
+  priority: 8
+  status: pending
+  discovered_from: null
+  source: null
+- name: CeraVe Hydrating Mineral Sunscreen SPF 50
+  type: product
+  priority: 8
+  status: pending
+  discovered_from: null
+  source: null
+- name: Round Lab Birch Juice Moisturizing Sun SPF50+
+  type: product
+  priority: 8
+  status: pending
+  discovered_from: null
+  source: null
+- name: "Av\xE8ne Mineral Ultra-Light SPF 50+"
+  type: product
+  priority: 8
+  status: pending
+  discovered_from: null
+  source: null
+- name: Timeless 20% Vitamin C + E Ferulic Serum
+  type: product
+  priority: 8
+  status: pending
+  discovered_from: null
+  source: null
+- name: CeraVe Resurfacing Retinol Serum
+  type: product
+  priority: 8
+  status: pending
+  discovered_from: null
+  source: null
+- name: Paula's Choice Clinical 1% Retinol Treatment
+  type: product
+  priority: 8
+  status: pending
+  discovered_from: null
+  source: null
+- name: Cetaphil Gentle Skin Cleanser
+  type: product
+  priority: 8
+  status: pending
+  discovered_from: null
+  source: null
+- name: The Ordinary Niacinamide 10% + Zinc 1%
+  type: product
+  priority: 8
+  status: pending
+  discovered_from: null
+  source: null
+- name: The Ordinary Azelaic Acid Suspension 10%
+  type: product
+  priority: 8
+  status: pending
+  discovered_from: null
+  source: null
+- name: Paula's Choice 10% Azelaic Acid Booster
+  type: product
+  priority: 8
+  status: pending
+  discovered_from: null
+  source: null
+- name: PanOxyl Acne Foaming Wash Benzoyl Peroxide 10%
+  type: product
+  priority: 8
+  status: pending
+  discovered_from: null
+  source: null
+- name: SKIN1004 Madagascar Centella Air-Fit Suncream
+  type: product
+  priority: 7
+  status: pending
+  discovered_from: null
+  source: null
+- name: Neutrogena Ultra Sheer Dry-Touch SPF 55
+  type: product
+  priority: 7
+  status: pending
+  discovered_from: null
+  source: null
+- name: Paula's Choice C15 Super Booster
+  type: product
+  priority: 7
+  status: pending
+  discovered_from: null
+  source: null
+- name: Vanicream Moisturizing Cream
+  type: product
+  priority: 7
+  status: pending
+  discovered_from: null
+  source: null
+- name: Anua Niacinamide 10% + TXA 4% Serum
+  type: product
+  priority: 7
+  status: pending
+  discovered_from: null
+  source: null
+- name: COSRX Advanced Snail 96 Mucin Power Essence
+  type: product
+  priority: 7
+  status: pending
+  discovered_from: null
+  source: null
+- name: SKIN1004 Madagascar Centella Ampoule
+  type: product
+  priority: 7
+  status: pending
+  discovered_from: null
+  source: null
+- name: La Roche-Posay Retinol B3 Serum
+  type: product
+  priority: 6
+  status: pending
+  discovered_from: null
+  source: null
+- name: Round Lab 1025 Dokdo Cream
+  type: product
+  priority: 6
+  status: pending
+  discovered_from: null
+  source: null
+- name: The Ordinary Glycolic Acid 7% Toning Solution
+  type: product
+  priority: 6
+  status: pending
+  discovered_from: null
+  source: null
+- name: Naturium Niacinamide Serum 12% + Zinc 2%
+  type: product
+  priority: 6
+  status: pending
+  discovered_from: null
+  source: null
+- name: Beauty of Joseon Glow Deep Serum Rice + Alpha Arbutin
+  type: product
+  priority: 6
+  status: pending
+  discovered_from: null
+  source: null
+- name: Anua Heartleaf 77% Clear Pad
+  type: product
+  priority: 6
+  status: pending
+  discovered_from: null
+  source: null
+- name: COSRX AHA/BHA Clarifying Treatment Toner
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null
+- name: Beauty of Joseon Ginseng Essence Water
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null
+- name: CeraVe
+  type: brand
+  priority: 10
+  status: pending
+  discovered_from: null
+  source: null
+- name: La Roche-Posay
+  type: brand
+  priority: 10
+  status: pending
+  discovered_from: null
+  source: null
+- name: Paula's Choice
+  type: brand
+  priority: 9
+  status: pending
+  discovered_from: null
+  source: null
+- name: The Ordinary
+  type: brand
+  priority: 9
+  status: pending
+  discovered_from: null
+  source: null
+- name: SkinCeuticals
+  type: brand
+  priority: 9
+  status: pending
+  discovered_from: null
+  source: null
+- name: Beauty of Joseon
+  type: brand
+  priority: 9
+  status: pending
+  discovered_from: null
+  source: null
+- name: COSRX
+  type: brand
+  priority: 8
+  status: pending
+  discovered_from: null
+  source: null
+- name: EltaMD
+  type: brand
+  priority: 8
+  status: pending
+  discovered_from: null
+  source: null
+- name: Differin
+  type: brand
+  priority: 8
+  status: pending
+  discovered_from: null
+  source: null
+- name: Round Lab
+  type: brand
+  priority: 8
+  status: pending
+  discovered_from: null
+  source: null
+- name: Anua
+  type: brand
+  priority: 7
+  status: pending
+  discovered_from: null
+  source: null
+- name: SKIN1004
+  type: brand
+  priority: 7
+  status: pending
+  discovered_from: null
+  source: null
+- name: Vanicream
+  type: brand
+  priority: 7
+  status: pending
+  discovered_from: null
+  source: null
+- name: Cetaphil
+  type: brand
+  priority: 7
+  status: pending
+  discovered_from: null
+  source: null
+- name: Neutrogena
+  type: brand
+  priority: 7
+  status: pending
+  discovered_from: null
+  source: null
+- name: "Av\xE8ne"
+  type: brand
+  priority: 6
+  status: pending
+  discovered_from: null
+  source: null
+- name: Naturium
+  type: brand
+  priority: 6
+  status: pending
+  discovered_from: null
+  source: null
+- name: PanOxyl
+  type: brand
+  priority: 6
+  status: pending
+  discovered_from: null
+  source: null
+- name: Timeless Skin Care
+  type: brand
+  priority: 6
+  status: pending
+  discovered_from: null
+  source: null
+- name: Isntree
+  type: brand
+  priority: 6
+  status: pending
+  discovered_from: null
+  source: null
+- name: Ranella Hirsch
+  type: person
+  priority: 6
+  status: pending
+  discovered_from: null
+  source: null
+- name: Heather D. Rogers
+  type: person
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null
+- name: Sam Bunting
+  type: person
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null
+- name: Zinc oxide
+  type: ingredient
+  priority: 8
+  status: pending
+  discovered_from: null
+  source: null
+- name: Avobenzone
+  type: ingredient
+  priority: 7
+  status: pending
+  discovered_from: null
+  source: null
+- name: Tranexamic acid
+  type: ingredient
+  priority: 7
+  status: pending
+  discovered_from: null
+  source: null
+- name: Snail secretion filtrate
+  type: ingredient
+  priority: 6
+  status: pending
+  discovered_from: null
+  source: null
+- name: Houttuynia cordata
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null
+- name: Propolis
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null
