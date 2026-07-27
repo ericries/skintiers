@@ -204,7 +204,13 @@ def verify_profile(metadata, content):
         if not _has_section(content, "The Evidence"):
             warnings.append("missing recommended section: The Evidence")
     else:
-        for name in _REQUIRED_SECTIONS:
+        required = _REQUIRED_SECTIONS
+        # Products now carry the rubric in `grades:` frontmatter; when present,
+        # the "## The Rubric" body section is no longer required (matches
+        # check_profile). Ingredients still require it.
+        if metadata.get("type") == "product" and metadata.get("grades"):
+            required = tuple(s for s in _REQUIRED_SECTIONS if s != "The Rubric")
+        for name in required:
             if not _has_section(content, name):
                 errors.append(f"missing required section: {name}")
         if not any(_has_section(content, q) for q in _QUARANTINE_SECTIONS):
