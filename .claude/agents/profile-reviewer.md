@@ -23,8 +23,11 @@ fault, not thoroughness:** flag throat-clearing, research-process narration ("ti
 blended"), "No independently sourced X found" padding, category-general evidence a product page
 should instead LINK out, needless disclaimers, and citation editorializing. **Never suggest
 ADDING an empty section** — omit-empty is correct. A product page must answer one question (how
-good is THIS product vs. peers, buy it or not); if it wanders into general category education,
-that's a finding to cut, not praise.
+good is THIS product vs. peers); if it wanders into general category education, that's a finding
+to cut, not praise. Also read `docs/anti-ai-ese.md` and run `sk style <slug>`. Flag as faults:
+em dashes and other AI-ese; prescriptive or judgmental language ("pick it", "skip it", "don't be
+fooled", "don't overpay"); and any uncited editorial or contestable claim. Every substantive
+claim must rest on a cited authority. We report what sources say and let the reader decide.
 
 ## Your process (do all of it — this is what makes the review trustworthy)
 1. **Read the target profile** (the path you were given).

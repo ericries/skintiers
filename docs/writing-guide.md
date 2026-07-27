@@ -1,58 +1,58 @@
-# SkinTiers Writing Guide — house voice (READ before authoring/reviewing any profile)
+# SkinTiers Writing Guide (house voice). Read before authoring or reviewing any profile.
+
+Read this together with `docs/anti-ai-ese.md` (style mechanics and the words to avoid). Run
+`sk lint`, `sk verify`, and `sk style` on every page before publishing.
 
 ## Prime directive
-**Every page has a PURPOSE; a section or claim earns its place only if it serves that purpose.**
-Rigor ≠ exhaustiveness. Honesty ≠ announcing every absence. Concision is a virtue. Length is
-earned by substance, never filled by structure. A page that makes the reader's decision faster
-and more honest beats a "complete" one.
+Every page has a purpose. A section or claim earns its place only if it serves that purpose.
+Rigor is not exhaustiveness. Honesty is not announcing every absence. Concision is a virtue.
 
-## Product page — purpose: "Should I buy THIS product, vs. the alternatives?"
-Answer that one question. Tight and decision-first. Include a section ONLY if it has substance:
-- One line: what it is + the verdict.
-- **The comparative grade vs. category peers** — pick it if X, skip it if Y.
-- **The core question:** "[Category] does [benefit], proven by [studies] — see [[category-page]].
-  Is THIS product proven to deliver that, or not? [product-specific evidence, or its absence].
-  If it's not proven better than a cheaper/plain alternative, say so plainly — **don't be fooled.**"
-- **What's in it:** brief; the actives doing the work vs. the oversold ones; each `[[linked]]`.
-- **Vs. specific alternatives:** real substance if you have it; otherwise just link the other
-  product as "broadly similar (see [[other-product]])" — never an empty comparison.
-- **`## Where to Buy`:** verified SKU-level links only. No disclaimer text.
-- **`## Sources`.**
+## Three rules that govern the voice
+1. **Inform, do not instruct.** State what the evidence shows. Do not tell the reader what to
+   do. No "pick it", "skip it", "don't be fooled", "don't overpay", "you should". Present the
+   comparison and the reader decides.
+2. **No uncited editorial or contestable claim.** Every substantive statement is backed by a
+   named authority or a citation. Words like "oversold", "not worth it", or "the best" are
+   opinions. Instead report the cited fact and let the reader draw the conclusion. This also
+   limits our liability.
+3. **No AI-ese.** Plain human prose. No em dashes, no LLM stock phrases, no rule-of-three, no
+   negative parallelism. See `docs/anti-ai-ese.md`.
 
-DON'T on a product page: re-explain whether the category works or the general mechanism (link
-out); narrate the research process ("tiers are never blended", "tiered and labeled"); write "No
-independently sourced X found"; add hedge-disclaimers ("links may change", "not endorsements",
-"cited for composition only"); pad any tier. DO keep the substantive skeptical verdict — "not
-proven better than baseline" IS the product page's point, not padding.
+## Product page. Purpose: how does THIS product compare to others in its category?
+Answer that, with cited facts, and let the reader decide. Include a section only if it has
+substance. Keep the required headings the linter checks (`## The Rubric`, `## The Evidence`,
+`## Sources`).
+- One line: what it is.
+- `## The Rubric`: the two-axis grade (effect size, evidence quality) versus category peers,
+  each grade traced to the cited evidence below. Name comparators. No "pick it / skip it".
+- `## The Evidence`: the general category question belongs on a linked concept page, not here.
+  State the category benefit and link out (for example `[[moisturizing]]`). Then give the
+  product-specific evidence, cited: does a study of THIS product (or its formula) show it does
+  more than a plainer or cheaper option, or not? Report what the study found.
+- `## What's In It`: brief. Which ingredients have cited evidence and which do not. Link them.
+- `## Vs Alternatives`: cite a real comparison if one exists. If none exists, say the products
+  are broadly similar and link the other product. Do not invent a comparison.
+- `## Where to Buy`: verified SKU-level links only. No disclaimer text.
+- `## Sources`: only what this page cites.
 
-## General category / mechanism evidence lives elsewhere, and product pages LINK to it
-"Does moisturizing work / how" → the **Moisturizing** page. Retinoid mechanism → the
-**Tretinoin/retinoids** ingredient page. Sunscreen's clinical-endpoint evidence → the
-**Sunscreen** page. A product page borrows that with a link and asks only the product question.
+Do not on a product page: re-explain whether the category works (link out), narrate the
+research process, write "no X found", pad a tier, add disclaimers, or editorialize a citation.
 
-## Omit-empty rule (ALL page types)
-Never announce an absence. If a section, tier, or comparison has no real evidence or quote,
-**delete it** — do not write "none found / no data / not established" as a standalone. Speak only
-where you have something worth saying. (Still never invent — the choice is silence, not fabrication.)
+## General category or mechanism evidence lives on its own page, linked
+"Does moisturizing work and how" goes on the Moisturizing page. Retinoid mechanism goes on the
+retinoid ingredient page. Product pages borrow it with a link and stay on the product question.
 
-## Comparisons
-Substance if you have it; otherwise a bare link to the other product/ingredient as "broadly
-similar." Do not manufacture a comparison you can't source.
+## Omit-empty (all page types)
+Never announce an absence. If a section, tier, or comparison has nothing cited to say, delete
+it. Never invent. The choice is silence, not fabrication.
 
-## Citations
-Cite the source; do not editorialize the footnote ("cited for composition only", etc.). Format:
-`Author. Title. Journal, year. URL (accessed YYYY-MM-DD)`. Nothing more.
-
-## Related resources (link generously, never copy)
-Where a better external resource exists, link to it and add our unique value (the tier grade +
-honest verdict): INCIDecoder (full INCI), LabMuffin/Cochrane (deep science), DermNet (conditions),
-YesStyle/Stylevana (K-beauty buying), relevant subreddits (community). Never scrape/copy text.
+## Related resources (link out, never copy)
+Where a better external source exists, link it and add our value (the cited grade). INCIDecoder
+for full INCI, LabMuffin or Cochrane for deeper science, DermNet for conditions, YesStyle or
+Stylevana for K-beauty buying, relevant subreddits for community. Never copy their text.
 
 ## Voice
-Plain, direct, confident, non-hype, non-defensive. Lead with the honest bottom line. A
-trustworthy briefing, not a journal abstract and not a marketing page.
+Plain, neutral, cited, concrete. Lead with the cited bottom line. A trustworthy briefing, not a
+marketing page and not a journal abstract.
 
----
-*Why this exists: our first profiles optimized for sourcing-completeness and transparency, so
-agents filled every section and thoroughness read as throat-clearing. See
-`_lessons/2026-07-27-editorial-voice.md`. The fix is purpose-first authoring.*
+*History: see `_lessons/2026-07-27-editorial-voice.md`.*
