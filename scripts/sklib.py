@@ -65,3 +65,22 @@ def check_profile(metadata, content):
         if d not in refs:
             warnings.append(f"footnote [^{d}] defined but never referenced")
     return errors, warnings
+
+
+import markdown as _markdown
+
+_XREF_RE = re.compile(r"\[\[([^\]|]+)(?:\|([^\]]+))?\]\]")
+
+
+def render_markdown(text):
+    return _markdown.markdown(text, extensions=["tables", "footnotes", "smarty"])
+
+
+def linkify_xrefs(text, published_slugs, slug_to_name):
+    def repl(m):
+        slug = m.group(1).strip()
+        label = (m.group(2) or slug_to_name.get(slug, slug)).strip()
+        if slug in published_slugs:
+            return f"[{label}]({slug}.html)"
+        return label
+    return _XREF_RE.sub(repl, text)
