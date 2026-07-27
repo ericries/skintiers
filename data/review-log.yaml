@@ -6,10 +6,14 @@ tretinoin-0-025-cream:
     strength-scope caveats)
 cerave-moisturizing-cream:
   last_reviewed: '2026-07-27'
-  score: 10
+  score: 9
   verdict: publish
-  note: rewritten to final voice (inform-not-judge, cited, no AI-ese); lint/verify/style
-    clean
+  note: 'restructured to grades-dossier + bottom-line blockquotes + Recommended In.
+    Critic revise -> 3 accuracy fixes applied (overstated "two studies of this cream"
+    corrected: only Leshem tested CeraVe, Spada is a different Ego ceramide cream;
+    paraphrased EASI quote unquoted; uncited StatPearls "most effective occlusive"
+    superlative removed). All 3 recommended_in URLs re-fetched and confirmed to
+    recommend the product. Re-review verdict publish; lint/verify/style clean.'
 azelaic-acid:
   last_reviewed: '2026-07-27'
   score: 8
