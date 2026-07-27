@@ -64,19 +64,20 @@ def build():
             tagged_groups=tagged_groups_for(p, tag_index))
         (out / f"{p['slug']}.html").write_text(html)
 
-    counts = {}
-    for typ, filename, heading in LISTINGS:
-        items = [p.metadata for p in profiles if p.get("type") == typ]
-        counts[typ] = len(items)
-        html = env.get_template("listing.html").render(heading=heading, items=items)
+    # Listing pages are always built for every category; only the index nav is
+    # filtered to categories with at least one PUBLISHED profile.
+    nav_categories = []
+    for typ, filename, label in LISTINGS:
+        of_type = [p for p in profiles if p.get("type") == typ]
+        items = [p.metadata for p in of_type]
+        published_count = sum(1 for p in of_type if p.get("status") == "published")
+        html = env.get_template("listing.html").render(heading=label, items=items)
         (out / f"{filename}.html").write_text(html)
+        if published_count >= 1:
+            nav_categories.append(
+                {"label": label, "filename": filename, "count": len(of_type)})
 
-    index = env.get_template("index.html").render(
-        product_count=counts.get("product", 0),
-        ingredient_count=counts.get("ingredient", 0),
-        condition_count=counts.get("condition", 0),
-        goal_count=counts.get("goal", 0),
-    )
+    index = env.get_template("index.html").render(nav_categories=nav_categories)
     (out / "index.html").write_text(index)
 
     if sklib.STATIC_DIR.exists():

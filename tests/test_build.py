@@ -41,6 +41,36 @@ def test_build_renders_all_statuses_with_badge_and_xref(tmp_path):
     assert "unobtainium.html" not in serum_html        # broken xref is plain text
 
 
+def test_index_nav_hides_categories_with_no_published_content(tmp_path):
+    data = tmp_path / "data"
+    out = tmp_path / "_site"
+    # Products: has a published profile -> should appear in nav.
+    _write(data / "products", "serum", "published", "product")
+    # Ingredients: has a published profile -> should appear in nav.
+    _write(data / "ingredients", "niacinamide", "published", "ingredient")
+    # Conditions: only draft/stub -> hidden from nav, but listing still built.
+    _write(data / "conditions", "acne", "draft", "condition")
+    _write(data / "conditions", "rosacea", "stub", "condition")
+    # Goals: no profiles at all -> hidden from nav, but listing still built.
+    env = {**os.environ, "SK_DATA": str(data), "SK_OUTPUT": str(out)}
+    r = subprocess.run([sys.executable, str(ROOT / "build.py")], env=env,
+                       capture_output=True, text=True)
+    assert r.returncode == 0, r.stderr
+    index_html = (out / "index.html").read_text()
+    # (a) categories with >=1 published profile appear in the index nav.
+    assert 'href="products.html"' in index_html
+    assert 'href="ingredients.html"' in index_html
+    # (b) all-draft/stub and empty categories are omitted from the index nav...
+    assert 'href="conditions.html"' not in index_html
+    assert 'href="goals.html"' not in index_html
+    # ...yet their listing page files are still produced.
+    assert (out / "conditions.html").exists()
+    assert (out / "goals.html").exists()
+    # Visible categories show their TOTAL count (published + draft + stub).
+    assert "Products (1)" in index_html
+    assert "Ingredients (1)" in index_html
+
+
 def test_build_renders_tagged_index_on_condition_page(tmp_path):
     data = tmp_path / "data"
     out = tmp_path / "_site"
