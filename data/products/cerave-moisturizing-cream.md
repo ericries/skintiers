@@ -45,7 +45,20 @@ Spada 2021 was a randomized, double-blind, placebo-controlled trial (n=100, 28 d
 
 ## What's In It
 
-Two ingredients carry cited category-level evidence, as an occlusive and a humectant: [[petrolatum]] and glycerin (see [[moisturizing]]). [[ceramides]] (ceramide NP, AP, EOP) and [[hyaluronic-acid]] (as sodium hyaluronate) are present in the formula; no study of this product isolates their effect on symptoms. The ingredient list contains no [[niacinamide]].[^3]
+The full ingredient list (INCI) as declared by the manufacturer [^3]. The ingredients with a functional role are linked to their own pages; the rest are the base, texture, and preservative system.
+
+Barrier and hydration ingredients:
+
+- [[petrolatum]] and [[dimethicone]], occlusives that slow water loss
+- [[glycerin]] and sodium hyaluronate ([[hyaluronic-acid]]), humectants
+- three [[ceramides]] (ceramide NP, AP, EOP), plus [[cholesterol]] and [[phytosphingosine]], the formula's barrier lipids
+- [[tocopherol]] (vitamin E), an antioxidant
+
+The presence of an ingredient is not evidence that this product outperforms a plainer one. Petrolatum and glycerin carry cited category-level evidence (see [[moisturizing]]); no study of this specific product isolates any single ingredient's effect on symptoms.
+
+Base, texture, and preservative system: water, caprylic/capric triglyceride (emollient), cetearyl alcohol and cetyl alcohol (emulsifiers), ceteareth-20, behentrimonium methosulfate and sodium lauroyl lactylate (emulsifiers), carbomer and xanthan gum (thickeners), phenoxyethanol and ethylhexylglycerin (preservatives), disodium EDTA (chelator), and potassium phosphate and dipotassium phosphate (pH buffers).
+
+Not in the formula: no [[niacinamide]] (which some other CeraVe products contain), no added fragrance or essential oils, and no drying alcohol (the cetearyl and cetyl alcohols are emollient fatty alcohols, not the drying kind).[^3]
 
 ## See Also
 
