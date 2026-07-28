@@ -62,6 +62,23 @@ use `[[slug]]`. If no profile exists yet, create a `status: stub` profile so the
 Do not on a product page: re-explain whether the category works (link out), narrate the
 research process, write "no X found", pad a tier, add disclaimers, or editorialize a citation.
 
+## Sunscreens: grade in a global context, and explain SPF
+Sunscreen is a special case. Evaluate every sunscreen against the GLOBAL field, not just its home
+market. The US FDA has not approved several modern UV filters (for example bemotrizinol / Tinosorb
+S, bisoctrizole / Tinosorb M, and the Mexoryl filters) that are standard in the EU, Korea, and
+Australia, so many US sunscreens rely on older filters (avobenzone, homosalate, octocrylene,
+octisalate) whose UVA protection and photostability are weaker. A US "Broad Spectrum SPF 60" is not
+equivalent to a Korean or European broad-spectrum product built on modern filters.
+- **Explain the mechanism, cited.** SPF measures protection against UVB (sunburn). UVA (photoaging,
+  and a cancer contributor) is a separate axis that the older US filters cover less well. State
+  which filters the product uses and what part of the spectrum each covers, per the label.
+- **The rating must reflect real spectral coverage, not the SPF number or the "Broad Spectrum"
+  checkbox.** A high SPF built on an older, photounstable UVA filter set does not earn a top effect
+  grade for overall photoprotection; name the modern-filter comparators (Tinosorb, Mexoryl) it
+  falls short of. Grade UVB and UVA honestly rather than collapsing them into one "sunscreen" grade.
+- The general SPF/UVA mechanism and the global filter landscape live on [[sunscreen-uv-filters]];
+  the product page links out and applies it to the specific filter set.
+
 ## General category or mechanism evidence lives on its own page, linked
 "Does moisturizing work and how" goes on the Moisturizing page. Retinoid mechanism goes on the
 retinoid ingredient page. Product pages borrow it with a link and stay on the product question.
