@@ -19,7 +19,7 @@
 - name: Adapalene
   type: ingredient
   priority: 8
-  status: pending
+  status: done
   discovered_from: null
   source: null
 - name: Benzoyl peroxide

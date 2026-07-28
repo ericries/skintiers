@@ -242,3 +242,16 @@ petrolatum:
     the steroid CI (95% CI -15.3 to -3.27) and the ACD P=.12; softened ''safer on
     allergy'' to the authors'' ''minimal risk for induction of allergy'' wording.
     lint/verify/style clean.'
+adapalene:
+  last_reviewed: '2026-07-28'
+  score: 9
+  verdict: publish
+  note: 'Adapalene ingredient page (upgraded from stub); 3rd-gen synthetic receptor-acting
+    retinoid. Epiduo/Differin FDA-label mechanism quotes verbatim; Cochrane Yang 2020
+    (BPO equivalence RR 0.99, 95% CI 0.90-1.10, 5 RCTs/1472, low-certainty) and Cunliffe
+    1998 (tretinoin-equivalent efficacy, better tolerated) verified; class NMA cited
+    for placement only. Critic revise->fixed: removed unsupported ''first OTC retinoid''
+    attribution (StatPearls does not say ''first''), collapsed a photoaging evidence-gap
+    hedge repeated ~6x down to one grade note, de-quoted a Greek-symbol Cosio phrase.
+    Acne modest-to-notable/solid (equivalence, not superiority), photoaging off-label/anecdotal.
+    lint/verify/style clean.'
