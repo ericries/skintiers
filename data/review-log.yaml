@@ -513,3 +513,22 @@ probiotics:
     Parodi SIBO/rifaximin kept explicitly as an ANTIBIOTIC result, not probiotic.
     Prose ## The Rubric. Critic 10/10, re-fetched all 12 sources verbatim, one safe
     fix (pooled->included). Ingredient autopublishes.'
+cerave-hydrating-facial-cleanser:
+  last_reviewed: '2026-07-28'
+  score: 9
+  verdict: publish
+  note: 'Reworked from the held old-standard draft to the current standard and shipped
+    (ship-live policy). Results-first, health-led Summary (a gentle, fragrance-free,
+    non-foaming, low-surfactant cleanser that cleans without stripping the barrier).
+    Category-vs-product (rule 3): the category question (does a gentle/ceramide rinse-off
+    beat any mild cleanser) answered at category level and linked out to [[moisturizing]]/[[ceramides]]
+    with the honest note that no trial isolates this rinse-off; product credited fairly
+    as a well-rounded, fragrance-free, INEXPENSIVE ($15.99), dermatologist-recommended
+    gentle cleanser (NEA seal). Editorial credibility attributed to a NAMED derm quote
+    (Dr. Valerie Callender, quoted in NewBeauty); the anonymous HuffPost quote was
+    correctly DROPPED by the critic (matches the moisturizing-cream precedent). Correctly
+    states NO niacinamide (that''s the Foaming variant). Grades health-first (non-stripping
+    cleansing modest/mixed; barrier-deposit minimal/mixed per Spada 2021; cosmetic
+    feel labeled cosmetic). category: Cleansers (new index bucket). Photos: 4-image
+    side rail (CeraVe/Target/Amazon/Walmart). Critic publish clean, 2 safe fixes.
+    lint/style/verify clean.'

@@ -43,7 +43,7 @@
 - name: CeraVe Hydrating Facial Cleanser
   type: product
   priority: 9
-  status: pending
+  status: done
   discovered_from: null
   source: null
 - name: La Roche-Posay Toleriane Hydrating Gentle Cleanser
