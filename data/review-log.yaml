@@ -255,3 +255,17 @@ adapalene:
     hedge repeated ~6x down to one grade note, de-quoted a Greek-symbol Cosio phrase.
     Acne modest-to-notable/solid (equivalence, not superiority), photoaging off-label/anecdotal.
     lint/verify/style clean.'
+eltamd-uv-clear-spf-46:
+  last_reviewed: '2026-07-28'
+  score: 8
+  verdict: publish
+  note: 'EltaMD UV Clear SPF 46 (zinc oxide 9% + octinoxate 7.5%). Sunscreen global-context
+    grade: UVB strong/solid (SPF 46); UVA modest/solid (octinoxate is UVB-only per
+    Latha 2013, so UVA rests on the 9% zinc oxide per Smijs & Pavel 2011; below modern-filter
+    Tinosorb/Mexoryl products). FDA Drug Facts + 2 peer-reviewed primaries verbatim.
+    Critic revise(near-flag)->fixed: deleted a fabricated ''transparent zinc oxide
+    finish'' quote (genuinely absent from the page), requoted the acne/rosacea marketing
+    accurately, de-quoted the paywalled Akintilo stat (deferred to [[sunscreen-uv-filters]]),
+    removed a mis-cited critical-wavelength parenthetical, created zinc-oxide + octinoxate
+    stubs. niacinamide/derm-badge quarantined. Self-hosted image. lint/verify/style
+    clean.'

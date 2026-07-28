@@ -196,3 +196,9 @@
   status: pending
   discovered_from: skinceuticals-c-e-ferulic
   source: null
+- name: Octinoxate
+  type: ingredient
+  priority: 6
+  status: pending
+  discovered_from: eltamd-uv-clear-spf-46
+  source: null
