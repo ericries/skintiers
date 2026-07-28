@@ -10,6 +10,7 @@ grades, side-rail photos, no imperatives):
 - skinceuticals-c-e-ferulic · cerave-moisturizing-cream · the-ordinary-multi-peptide-ha-serum
 - beauty-of-joseon-relief-sun-rice-probiotics-spf50 · differin-adapalene-0-1-gel
 - prequel-lucent-c-vitamin-c-serum · eltamd-uv-clear-spf-46 · la-roche-posay-toleriane
+- cosrx-6-peptide-skin-booster-serum (reworked + fixed category-vs-product conflation)
 
 **Ingredient hubs:** vitamin-c · probiotics (topical + ingested)
 

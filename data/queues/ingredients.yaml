@@ -328,3 +328,9 @@
   status: pending
   discovered_from: probiotics
   source: null
+- name: Copper peptides (GHK-Cu / copper tripeptide-1)
+  type: ingredient
+  priority: 6
+  status: pending
+  discovered_from: cosrx-6-peptide-skin-booster-serum
+  source: null

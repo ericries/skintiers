@@ -215,13 +215,23 @@ the-ordinary-multi-peptide-ha-serum:
     verify the Argireline maker affiliation, so dropped the unverifiable funding claim).
     Critic verified all quotes/stats verbatim otherwise; lint/style clean.'
 cosrx-6-peptide-skin-booster-serum:
-  last_reviewed: '2026-07-27'
+  last_reviewed: '2026-07-28'
   score: 9
   verdict: publish
-  note: 'COSRX 6 Peptide; anti-aging minimal/preliminary (3 independent reviews Zdrada-Nowak
-    2025/Gorouhi 2009/Griffiths 2023), hydrator modest/solid. Critic revise->fixed:
-    softened Griffiths ''cosmeceutical'' attribution to source wording. Glamour-Approved
-    badge quarantined; self-hosted image. lint/style clean.'
+  note: 'Reworked to the new standard AND to fix a category-vs-product conflation
+    (the old page evaluated only the weak peptide category and never credited the
+    product, no price/value, buried copper peptide). Now states BOTH verdicts: category
+    = topical peptide anti-aging evidence weak/preliminary (linked [[peptides]]);
+    product = a broad, fragrance-free, INEXPENSIVE peptide serum (6 peptides + niacinamide
+    + humectant base; ~$25/150 mL, one of the cheapest ways to try a big peptide blend
+    incl. copper peptide). GHK-Cu given fair top-billing (Pickart & Margolina 2018
+    verbatim) but honestly hedged (mostly cell/animal/gene-expression work; leading
+    reviews by GHK''s discoverer) - not oversold. Editorial credibility attributed
+    to quoted Allure (value/glow praise) + Chemist Confessions (category skepticism).
+    Grades honest (fine lines minimal/preliminary, hydration modest/solid); product-value
+    verdict in Summary prose, no invented GHK-Cu grade. Critic publish clean; orchestrator
+    independently re-verified the Allure quotes via curl (critic was blocked). Enqueued
+    a copper-peptides/GHK-Cu ingredient page. Photos: 4-image side rail from 3 sites.'
 the-ordinary-multi-peptide-copper-peptides-serum:
   last_reviewed: '2026-07-27'
   score: 8
