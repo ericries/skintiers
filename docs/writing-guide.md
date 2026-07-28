@@ -64,6 +64,14 @@ substance. The linter requires `grades:` frontmatter and a `## Sources` heading.
   own pages) and the base/texture/preservative system (plain). Optionally a composition-fact line
   of conspicuous absences (see Omit-empty). Do NOT narrate which ingredients lack evidence or that
   no study isolates them; the grade and The Evidence carry the efficacy question.
+- `## Cheaper Alternatives` (dupes; required WHEN the product is expensive for its category):
+  list the lower-cost "dupes" that established third-party "dupe of X" articles or lists identify as
+  similar-formula alternatives. **Do NOT guess or infer dupes yourself from ingredient lists** —
+  cite the existing dupe article/list as the source (that citation IS the claim's evidence), report
+  what it says the dupe matches (e.g. "the same 15% C + 1% E + 0.5% ferulic acid combination at
+  about $25"), and link each named dupe to its SkinTiers page (create a `status: stub` target if it
+  has none, and queue it). If no credible source names a dupe, omit the section rather than invent
+  one. For inexpensive products this section is usually unnecessary.
 - `## See Also`: one line of bare `[[links]]` to broadly similar products. Do NOT announce that
   no comparison exists. If a real cited head-to-head comparison exists, report it instead.
 - `## Where to Buy`: verified SKU-level links only. No disclaimer text.

@@ -436,3 +436,15 @@
   status: pending
   discovered_from: cerave
   source: null
+- name: Trader Joe's Nourish Vitamins C + E + Hyaluronic Acid Facial Serum
+  type: product
+  priority: 6
+  status: pending
+  discovered_from: skinceuticals-c-e-ferulic
+  source: null
+- name: Maelove The Glow Maker
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: skinceuticals-c-e-ferulic
+  source: null
