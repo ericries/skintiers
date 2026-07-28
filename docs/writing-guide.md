@@ -187,6 +187,19 @@ for", never "you have X". Do not instruct the reader. Keep it accessible first; 
 and treatment come after. Pair it with the standing note that only a clinician can diagnose. This
 section is required on every condition page (retrofit existing ones).
 
+## Study pages: a stub on encounter, then a very detailed lay summary
+When research on any page relies on a study worth its own page, create a `status: stub` study landing
+page immediately (one neutral sentence naming the paper) so the `[[link]]` resolves, and queue it for
+a full write-up. It is fine to GROUP closely related studies onto ONE page (e.g. a drug's pivotal
+trials together, or a systematic review with its key underlying RCTs) rather than one page per paper.
+The full study page is a VERY DETAILED, plain-language summary written for a LAY audience: what the
+study set out to answer and why it matters, who was in it (how many, who), what they actually did,
+what they found (report the real numbers and explain what each means in everyday terms, with
+denominators/CIs/p-values), how strong the evidence is (design, certainty, limitations), who funded
+it and any conflicts, and what it does and does NOT show. Accessible first, with the exact statistics
+available for an expert reviewer. Neutral voice; every number traceable to the paper; no site
+self-reference, no process language.
+
 ## Sunscreens: grade in a global context, and explain SPF
 Sunscreen is a special case. Evaluate every sunscreen against the GLOBAL field, not just its home
 market. Several modern UV filters standard in the EU, Korea, and Australia (bisoctrizole / Tinosorb

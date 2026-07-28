@@ -44,9 +44,17 @@ skin-barrier-repair · van-zuuren-2017 study · cerave (brand) · samantha-ellis
     beauty-of-joseon-light-on, cos-de-baha-az20, cosrx-6-peptide, la-roche-posay-anthelios,
     the-ordinary-copper-peptides, tretinoin-0-025-cream (+ the held cerave-hydrating-facial-cleanser).
 
+11. **Visual design pass (next phase):** evaluate every page type for the "wall of text" feeling. Use
+    visual devices and typography/hierarchy (sub-headings, pull-quotes, the tier cards/summary, spacing,
+    tables, and where useful simple diagrams or icons) to break pages up and make them easier and more
+    fun to read, without sacrificing the evidence-first substance.
+
 ## Standing rules locked in this session
 Never name the site on a content page. No defensive meta-commentary ("not our verdict", "a matching
 INCI is not proof…", "What follows is…"). No process/roadmap language ("queued", "a later phase").
 Results-first, jargon in The Evidence. Attribute editorial opinions to quoted credible sources.
 Separate health vs cosmetic (lead with health). Never instruct the reader; attribute usage guidance.
 Condition pages open with a layperson "How to know you have this". Photos = a side rail, no labels.
+Separate the category verdict from the product verdict, and state both. On encountering a new study,
+create a stub study landing page (grouping similar studies is fine), then write a very detailed
+lay-audience summary. Conditions and Studies are top-level categories with their own queues.
