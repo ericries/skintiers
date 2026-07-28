@@ -46,8 +46,10 @@ Promote a new type only after the user signs off on its exemplar: add it to that
    WebFetch and verify every URL; 3 independent PRIMARY sources or mark the claim unresolvable;
    verbatim quotes only; quarantine marketing. Follow the writing guide for a <TYPE> page and match
    the structure of an existing published exemplar of this type. For PRODUCTS: include verified
-   product image(s) in `images:` (prefer the manufacturer's own hosted image; confirm the URL
-   returns an image before using it) and SKU-level `## Where to Buy` links. Encounter-enqueue any
+   product image(s) in `images:` (prefer the manufacturer's own hosted image; if the source blocks
+   hotlinking, which many retailer CDNs do and a curl HEAD 200 does NOT rule out, download it into
+   `static/images/` and reference it by filename; confirm the built page actually renders the
+   image) and SKU-level `## Where to Buy` links. Encounter-enqueue any
    novel entity with `sk queue-add "<name>" --type <t> --priority <1-10> --from <slug>`. Run
    `sk lint <slug>`, `sk verify <slug>`, `sk style <slug>` and fix until lint+style are clean and
    verify is clean (a single benign manufacturer/aggregator-URL warning, correctly attributed, is
