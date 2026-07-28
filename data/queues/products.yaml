@@ -37,7 +37,7 @@
 - name: La Roche-Posay Toleriane Double Repair Face Moisturizer
   type: product
   priority: 9
-  status: pending
+  status: done
   discovered_from: null
   source: null
 - name: CeraVe Hydrating Facial Cleanser

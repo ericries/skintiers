@@ -268,3 +268,9 @@
   status: pending
   discovered_from: null
   source: null
+- name: squalane
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: la-roche-posay-toleriane
+  source: null

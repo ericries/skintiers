@@ -387,3 +387,21 @@ anti-aging:
     NMA, red-light ''29/30%''. Scope: non-topical interventions (HRT, topical estrogen,
     procedures, supplements, red-light device, smoking) covered as bracketed context
     with ZERO xrefs, per user decision (full coverage a LATER phase).'
+la-roche-posay-toleriane:
+  last_reviewed: '2026-07-28'
+  score: 9
+  verdict: publish
+  note: 'La Roche-Posay Toleriane Double Repair moisturizer (upgraded stub->full).
+    Grades honest: category-level moisturization notable/solid (grounded in [[moisturizing]]
+    + van Zuuren 2017 Cochrane); ceramide+niacinamide barrier-repair superiority minimal/mixed
+    vs a plainer emollient / [[cerave-moisturizing-cream]] (no formula-specific trial).
+    Critic first flagged 2 blockers, both resolved + orchestrator-re-verified: (1)
+    INCI conflict, critic''s source (Ulta) showed no squalane, but the manufacturer''s
+    own live page AND Target both confirm squalane + corn starch in the current US
+    formula (3 concurring reads; Ulta was a stale/reformulated variant and a blocklisted
+    aggregator), so the original composition was correct, now sourced to fetched primaries;
+    (2) Spada 2021 quote made verbatim to the abstract (''this decrease was not significant
+    between groups at day 28 (P = .7804)'') and confirmed by direct fetch. Marketing
+    quotes made verbatim to the manufacturer and quarantined; van Zuuren quote completed
+    with ellipsis. Self-hosted manufacturer image renders (confirmed). Enqueued squalane
+    (ingredient). verify WARN only on the manufacturer domain (expected).'
