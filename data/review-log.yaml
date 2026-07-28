@@ -195,15 +195,25 @@ retinoids:
     verbatim-verified this session; adapalene OTC status anchored to a live DailyMed
     Drug Facts label. lint/verify/style clean.'
 the-ordinary-multi-peptide-ha-serum:
-  last_reviewed: '2026-07-27'
-  score: 8
+  last_reviewed: '2026-07-28'
+  score: 9
   verdict: publish
-  note: 'The Ordinary Buffet; peptide anti-aging graded minimal/preliminary (Nukaly
-    2026 19-RCT meta-analysis: small effect, oral-driven), hydrator modest/solid;
-    Argireline 30% contextualized (10% single-peptide emulsion). Critic revise->fixed:
-    removed unsupported ''peptide''s developers'' COI claim (cited study lists academic
-    affiliation only), ''Five''->''five''. Self-hosted image, verified manufacturer
-    buy link. lint/style clean.'
+  note: 'Reworked to the new product standard (rollout batch 1). Results-first Summary
+    leading with hydration (modest/solid) as the best-supported benefit; the peptide
+    anti-aging row is honestly graded minimal/preliminary and labeled COSMETIC (appearance),
+    not driving a headline. Editorial opinion attributed to quoted cosmetic chemists
+    (Chemist Confessions: ''a really solid secondary character...'', ''not every peptide
+    earns its place...'', ''expectations grounded''), framed as their category opinion
+    not ours. Usage guidance is the manufacturer''s own directions, quoted (''a few
+    drops to the face in the morning and evening''), no imperatives in our voice.
+    Product-specific evidence only (Nukaly 2026 meta-analysis MD 0.27/p=0.04 overall,
+    oral subgroup MD 1.5/p=0.01; Blanes-Mira 2002 Argireline), general peptide case
+    linked out to [[peptides]] stub without a fabricated verdict. Photos: 4-image
+    side rail from 3 sources (The Ordinary/Ulta/Target), self-hosted. Critic flagged
+    an uncited ''industry-funded'' claim with a false ''in The Evidence'' pointer;
+    fixed by replacing it with Nukaly''s cited oral-vs-topical finding (couldn''t
+    verify the Argireline maker affiliation, so dropped the unverifiable funding claim).
+    Critic verified all quotes/stats verbatim otherwise; lint/style clean.'
 cosrx-6-peptide-skin-booster-serum:
   last_reviewed: '2026-07-27'
   score: 9
