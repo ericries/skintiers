@@ -24,6 +24,7 @@ LISTINGS = (
 PRODUCT_CATEGORY_ORDER = (
     "Sunscreens",
     "Moisturizers",
+    "Cleansers",
     "Retinoids",
     "Vitamin C serums",
     "Azelaic acid",
