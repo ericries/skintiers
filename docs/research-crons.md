@@ -40,7 +40,9 @@ Promote a new type only after the user signs off on its exemplar: add it to that
    N >= 1, STOP and do nothing — a draft of this type is already awaiting the user's exemplar
    sign-off. Do not draft another until the type is promoted.
 
-3. Dispatch ONE subagent (isolation: worktree) to research + draft that entity SOURCES-FIRST:
+3. Dispatch ONE subagent (NO worktree isolation: these crons run one entity at a time, and the
+   drafter must write into the working tree so the publish/push steps can see the file; worktree
+   isolation would strand the draft on a separate branch) to research + draft that entity SOURCES-FIRST:
    WebFetch and verify every URL; 3 independent PRIMARY sources or mark the claim unresolvable;
    verbatim quotes only; quarantine marketing. Follow the writing guide for a <TYPE> page and match
    the structure of an existing published exemplar of this type. For PRODUCTS: include verified
