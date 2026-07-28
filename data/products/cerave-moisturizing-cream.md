@@ -56,8 +56,6 @@ Barrier and hydration ingredients:
 - three [[ceramides]] (ceramide NP, AP, EOP), plus [[cholesterol]] and [[phytosphingosine]], the formula's barrier lipids
 - [[tocopherol]] (vitamin E), an antioxidant
 
-The presence of an ingredient is not evidence that this product outperforms a plainer one. Petrolatum and glycerin carry cited category-level evidence (see [[moisturizing]]); no study of this specific product isolates any single ingredient's effect on symptoms.
-
 Base, texture, and preservative system: water, caprylic/capric triglyceride (emollient), cetearyl alcohol and cetyl alcohol (emulsifiers), ceteareth-20, behentrimonium methosulfate and sodium lauroyl lactylate (emulsifiers), carbomer and xanthan gum (thickeners), phenoxyethanol and ethylhexylglycerin (preservatives), disodium EDTA (chelator), and potassium phosphate and dipotassium phosphate (pH buffers).
 
 Not in the formula: no [[niacinamide]] (which some other CeraVe products contain), no added fragrance or essential oils, and no drying alcohol (the cetearyl and cetyl alcohols are emollient fatty alcohols, not the drying kind).[^3]

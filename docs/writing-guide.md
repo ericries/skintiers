@@ -36,7 +36,10 @@ substance. The linter requires `grades:` frontmatter and a `## Sources` heading.
   more than a plainer or cheaper option, or not? Report what the study found. **After each cited
   study, add one blockquote bottom line**: a plain-English restatement that is 100% faithful to
   the finding (no new claim, no spin). It renders in italics.
-- `## What's In It`: brief. Which ingredients have cited evidence and which do not. Link them.
+- `## What's In It`: the ingredient list, split into the notable/functional ones (linked to their
+  own pages) and the base/texture/preservative system (plain). Optionally a composition-fact line
+  of conspicuous absences (see Omit-empty). Do NOT narrate which ingredients lack evidence or that
+  no study isolates them; the grade and The Evidence carry the efficacy question.
 - `## See Also`: one line of bare `[[links]]` to broadly similar products. Do NOT announce that
   no comparison exists. If a real cited head-to-head comparison exists, report it instead.
 - `## Where to Buy`: verified SKU-level links only. No disclaimer text.
@@ -64,8 +67,18 @@ research process, write "no X found", pad a tier, add disclaimers, or editoriali
 retinoid ingredient page. Product pages borrow it with a link and stay on the product question.
 
 ## Omit-empty (all page types)
-Never announce an absence. If a section, tier, or comparison has nothing cited to say, delete
-it. Never invent. The choice is silence, not fabrication.
+Never announce an absence of EVIDENCE. State only what the evidence DOES show and let the reader
+infer the rest. Delete hedges such as "no study of this product isolates X", "the presence of an
+ingredient is not proof it works", "evidence is limited", "no head-to-head trial exists". If a
+section, tier, or comparison has nothing cited to say, delete the whole section. Never invent. The
+choice is silence, not fabrication.
+
+One narrow exception: a concrete COMPOSITION fact that corrects a likely misconception or matters
+to the reader is content, not a hedge. "The formula contains no niacinamide (some other CeraVe
+products do), no added fragrance, and no drying alcohol" is a verifiable fact about what is IN the
+product, and is allowed. "No study isolates each ingredient's effect" is an evidence gap, and is
+not. Test: is it a fact about the product's makeup (allowed) or about what research has not done
+(delete it)?
 
 ## Related resources (link out, never copy)
 Where a better external source exists, link it and add our value (the cited grade). INCIDecoder
