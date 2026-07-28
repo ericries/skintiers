@@ -72,7 +72,7 @@
     Must pass sk lint + sk verify + sk style.'
   priority: 8
   added: '2026-07-27'
-  status: pending
+  status: done
 - slug: benzoyl-peroxide
   dimension: voice
   issue: Published in the old bloated/AI-ese/judgmental voice (em dashes, throat-clearing,
@@ -173,5 +173,19 @@
     published. Non-topical interventions are bracketed context only (full coverage
     = later phase per user).'
   priority: 7
+  added: '2026-07-28'
+  status: pending
+- slug: tretinoin
+  dimension: D1/acne comparators
+  issue: An uncited comparative-efficacy claim ("comparable to [[azelaic-acid]] for
+    comedonal acne") was removed from the Acne effect-size grade note during review;
+    it carried no footnote and no head-to-head source. The adapalene comparator [^6]
+    and the class NMA [^5] remain and carry the modest/first-line grade. The [[azelaic-acid]]
+    xref still appears in the Uses section as a "gentler comedonal alternative" (also
+    uncited, tolerability framing, left in place as lower-stakes).
+  suggested_fix: If a tretinoin-vs-azelaic-acid comparison is wanted back, add an independent
+    primary RCT (or a systematic review) that directly compares tretinoin with azelaic
+    acid 20% for comedonal acne and cite it; otherwise leave the comparison out.
+  priority: 3
   added: '2026-07-28'
   status: pending
