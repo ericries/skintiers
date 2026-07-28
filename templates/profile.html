@@ -12,10 +12,13 @@
       <h1>{{ profile.name }}</h1>
       {% if standfirst %}<p class="standfirst">{{ standfirst | safe }}</p>{% endif %}
     </div>
-    {% if image_src %}
+    {% if images %}
     <figure class="photo">
-      <img src="{{ image_src }}" alt="{{ profile.name }}">
+      <img src="{{ images[0] }}" alt="{{ profile.name }}" loading="lazy">
       <div class="cap">Product photo</div>
+      {% if images|length > 1 %}
+      <div class="thumbs">{% for im in images[1:] %}<img src="{{ im }}" alt="{{ profile.name }}" loading="lazy">{% endfor %}</div>
+      {% endif %}
     </figure>
     {% else %}
     <figure class="photo">

@@ -63,8 +63,10 @@ h1{font-family:var(--serif);font-weight:600;font-size:40px;line-height:1.08;lett
 .standfirst{font-size:20px;line-height:1.5;color:var(--muted);margin:0;max-width:56ch}
 .photo{border:1px solid var(--rule-strong);border-radius:6px;background:linear-gradient(160deg,var(--card),color-mix(in srgb,var(--accent-soft) 60%,var(--card)));padding:14px;text-align:center}
 .photo svg{width:100%;height:auto;display:block}
-.photo img{width:100%;height:auto;display:block;border-radius:4px}
+.photo img{width:100%;height:auto;display:block;border-radius:4px;background:#fff}
 .photo .cap{font-family:var(--mono);font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--faint);margin-top:9px}
+.photo .thumbs{display:flex;gap:6px;margin-top:8px}
+.photo .thumbs img{width:100%;height:auto;border:1px solid var(--rule)}
 .photo .mono-badge{font-family:var(--serif);font-weight:600;fill:var(--accent)}
 
 /* the plain-english overall + per-quote bottom lines share this voice */

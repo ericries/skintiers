@@ -44,8 +44,13 @@ substance. The linter requires `grades:` frontmatter and a `## Sources` heading.
 - `recommended_in:` frontmatter (optional): external best-of lists that recommend this product,
   each `title` + `url` + `source`. Every URL must be verified to load AND to actually recommend
   the product. Omit the field entirely if none verify. Never fabricate a list or a URL.
-- `image:` frontmatter (optional): a verified product-photo URL or a file in `static/images/`.
-  Omit to fall back to the generated monogram badge.
+- **Product image(s): required.** Every product page shows the actual product. Use `images:`
+  (a YAML list) for one or more, or `image:` for a single one. Each entry is a verified
+  manufacturer or retailer product-photo URL (prefer the manufacturer's own hosted image), or a
+  file committed under `static/images/`. Confirm the URL loads and shows THIS product/SKU before
+  using it. These are the product's own promotional images, shown to identify the product; do not
+  restyle or crop out marks. If no image can be verified, the page falls back to the generated
+  monogram badge, but that is a gap to fill, not the goal.
 
 Everything a reader could follow is a link: ingredient, brand, study, person, and product names
 use `[[slug]]`. If no profile exists yet, create a `status: stub` profile so the link resolves

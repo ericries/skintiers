@@ -79,19 +79,26 @@ def grades_view_for(metadata):
     return view
 
 
-def image_and_monogram(metadata):
-    """Return (image_src_or_None, monogram) for a profile.
+def _resolve_image(val):
+    """A URL is used as-is; a bare filename resolves to images/<file>."""
+    return val if re.match(r"^https?://", val) else f"images/{val}"
 
-    A bare filename resolves to images/<file>; a URL is used as-is. When no
-    image is set, image_src is None and the template draws a monogram badge.
+
+def images_and_monogram(metadata):
+    """Return (images, monogram) for a profile.
+
+    `images:` (a list) is preferred; `image:` (single) is accepted for
+    back-compat. Returns a list of resolved srcs (empty when none set, in which
+    case the template draws a monogram badge).
     """
-    image = metadata.get("image")
-    image_src = None
-    if image:
-        image_src = image if re.match(r"^https?://", image) else f"images/{image}"
+    raw = metadata.get("images")
+    if not raw:
+        one = metadata.get("image")
+        raw = [one] if one else []
+    images = [_resolve_image(v) for v in raw if v]
     words = (metadata.get("name") or "").split()
     monogram = "".join(w[0] for w in words[:2] if w).upper()
-    return image_src, monogram
+    return images, monogram
 
 # Stable order + plural labels for the auto "tagged pages" groups.
 TAG_GROUP_ORDER = (
@@ -138,7 +145,7 @@ def build():
         body = sklib.render_markdown(linked)
         standfirst, body_rest = split_standfirst(body)
         body_main, sources_html = split_sources(body_rest)
-        image_src, monogram = image_and_monogram(p.metadata)
+        images, monogram = images_and_monogram(p.metadata)
         html = env.get_template("profile.html").render(
             profile=p.metadata,
             standfirst=standfirst,
@@ -147,7 +154,7 @@ def build():
             comparator=p.get("comparator") or "others in its category",
             grades_view=grades_view_for(p.metadata),
             recommended_in=p.get("recommended_in") or [],
-            image_src=image_src,
+            images=images,
             monogram=monogram,
             type_href=TYPE_HREF.get(p.get("type"), "index.html"),
             tagged_groups=tagged_groups_for(p, tag_index))

@@ -6,6 +6,8 @@ status: published
 type: product
 updated: '2026-07-27'
 comparator: other moisturizers
+images:
+  - https://www.cerave.com/-/media/project/loreal/brand-sites/cerave/americas/us/skincare/moisturizers/moisturizing-cream/moisturizing-cream-12oz-front.jpg
 grades:
   - use: As a moisturizer
     note: category-level benefit
