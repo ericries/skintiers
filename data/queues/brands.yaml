@@ -130,3 +130,9 @@
   status: pending
   discovered_from: null
   source: null
+- name: Galderma
+  type: brand
+  priority: 7
+  status: pending
+  discovered_from: differin-adapalene-0-1-gel
+  source: null

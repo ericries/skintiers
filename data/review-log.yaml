@@ -219,3 +219,15 @@ prequel-lucent-c-vitamin-c-serum:
     grade modest/preliminary. Critic revise->fixed: dropped unverified Lin p<0.01/n=6,
     softened uncited price ratio, de-quoted an unconfirmed marketing line. Self-hosted
     image.'
+differin-adapalene-0-1-gel:
+  last_reviewed: '2026-07-28'
+  score: 9
+  verdict: publish
+  note: 'Differin adapalene 0.1% OTC gel; first topical retinoid Rx-to-OTC switch
+    (FDA 2016, NDA 020380 S-10). Four FDA primaries verbatim-verified (Drug Facts
+    label, Summary Review, approval letter, Drugs@FDA); adapalene class efficacy linked
+    out to [[adapalene]]/[[retinoids]] not re-argued. Critic revise->fixed: a misquote
+    (em-dash appositive rendered as a comma, which inflated the study count) corrected
+    to quote ''three consumer studies'' + enumerate in our voice; dropped an uncited
+    ''(such as Epiduo)'' aside. Acne notable/solid, photoaging modest/mixed (off-label,
+    not overclaimed vs tretinoin). Self-hosted image. lint/style clean.'
