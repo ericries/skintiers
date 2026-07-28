@@ -262,3 +262,9 @@
   status: pending
   discovered_from: null
   source: null
+- name: Glycolic acid and alpha-hydroxy acids (AHAs)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null

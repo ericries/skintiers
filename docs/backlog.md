@@ -31,3 +31,16 @@ structured layer. Needs grades and ingredient data as queryable JSON (partially 
 ## Studies scraper as a no-LLM GitHub Action
 Parse chosen feeds (PubMed/Cochrane) into `data/pending-*.yaml` candidates. Keep it off the LLM
 budget (deterministic parsing only), per the free-Actions-plan constraint.
+
+## Anti-aging: full coverage of non-topical interventions (LATER PHASE)
+
+The anti-aging + perimenopause goal page (drafted 2026-07-28) brackets these as context but does NOT
+link to object pages, per user decision "full coverage, but in a later phase; for now don't link":
+- Systemic hormone replacement therapy (HRT)
+- Topical/prescription estrogen (estriol/estradiol creams)
+- In-office procedures (laser resurfacing, microneedling, biostimulator/HA injectables, PDRN/polynucleotides)
+- Behavior (smoking cessation, sun-avoidance habits)
+- Ingestible supplements as their own type (oral collagen, oral HA) and devices (red-light/LED)
+
+Later phase = decide entity types (treatment? procedure? device? supplement?) with the user, then
+give each its own profile and wire the anti-aging goal page to link them.

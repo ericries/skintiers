@@ -163,3 +163,15 @@
   priority: 6
   added: '2026-07-28'
   status: pending
+- slug: anti-aging
+  dimension: sign-off
+  issue: exemplar drafted for goal (slug anti-aging), a flagship skeptical tiered
+    anti-aging + perimenopause page, needs sign-off before publishing. Goal is a gated
+    type. Critic cleared after fixes (all 21 primaries re-verified). Built from a
+    user-supplied tier list, independently source-verified.
+  suggested_fix: 'User reviews the rendered anti-aging page; on approval set status:
+    published. Non-topical interventions are bracketed context only (full coverage
+    = later phase per user).'
+  priority: 7
+  added: '2026-07-28'
+  status: pending

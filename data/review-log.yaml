@@ -366,3 +366,24 @@ vitamin-c:
     no equivalence claimed. Drafter caught + corrected a bad PMID in the brief (Stamford
     = 23174055). Enqueued 6 derivative ingredient pages for future research. Ingredient
     = autopublish; published.'
+anti-aging:
+  last_reviewed: '2026-07-28'
+  score: 9
+  verdict: publish-after-fixes
+  note: 'Skeptical tiered anti-aging + perimenopause GOAL page (gated; kept DRAFT
+    for sign-off), inspired by a user-supplied tier list but independently source-verified.
+    Built from 5 parallel verification agents (one per tier cluster); every load-bearing
+    stat traced to a primary. Critic re-fetched all 21 sources: 20/21 quotes/stats
+    verbatim + correctly directioned on first pass; flagged 3 citation-plumbing errors
+    (wrong Akintilo PMID 32845596->32845592; exosome quote mis-sourced to a peptides
+    PMID -> re-sourced to Gupta 2025 PMID 39618056, re-fetched and verified verbatim;
+    Nukaly 0.27 mislabeled as topical-only -> corrected to overall pooled, oral subgroup
+    MD 1.5) plus 2 minor (Hughes quote missing ''sunscreen''; avobenzone ''only''->''was
+    long the only'' post-2026 bemotrizinol). All fixed + re-verified. Skeptic wins
+    banked from verification: dropped the tier list''s unverifiable ''oral collagen:
+    independent trials show no benefit'' (contradicted by Danessa 2025 positive SMDs
+    -> reframed as small/low-certainty), ''30%/5yr'' & ''7-15%'' HRT figures, retinol
+    ''~4%'', peptide ''10-30%'' (that figure is Argireline, not Matrixyl), glycolic
+    NMA, red-light ''29/30%''. Scope: non-topical interventions (HRT, topical estrogen,
+    procedures, supplements, red-light device, smoking) covered as bracketed context
+    with ZERO xrefs, per user decision (full coverage a LATER phase).'
