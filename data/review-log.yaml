@@ -486,3 +486,20 @@ la-roche-posay-toleriane:
     quotes made verbatim to the manufacturer and quarantined; van Zuuren quote completed
     with ellipsis. Self-hosted manufacturer image renders (confirmed). Enqueued squalane
     (ingredient). verify WARN only on the manufacturer domain (expected).'
+probiotics:
+  last_reviewed: '2026-07-28'
+  score: 10
+  verdict: publish
+  note: 'New ingredient hub: probiotics for skin (topical + ingested). Spined on the
+    skeptical labeling distinction (WHO/ISAPP definitions verbatim: probiotic=live,
+    prebiotic=substrate, postbiotic=inanimate; most ''probiotic'' topical skincare
+    is actually postbiotics/lysates/ferment-filtrates, not live cultures - stated
+    as a definitional fact, BoJ Relief Sun as the example). Evidence honestly weighted:
+    oral probiotics for infant eczema PREVENTION best-evidenced (Cuello-Garcia RRs,
+    low/very-low certainty noted); Cochrane treatment conclusion kept honestly NEGATIVE
+    (''probably make little or no difference'', ''not evidence-based''); acne meta-analyses
+    (Lin 2025, Tjiu 2025) with SMDs/CIs + certainty; topical evidence thin (Gueniche
+    lysate RCT; the FB-401 live-Roseomonas RCT ''failed to prove superior to placebo'');
+    Parodi SIBO/rifaximin kept explicitly as an ANTIBIOTIC result, not probiotic.
+    Prose ## The Rubric. Critic 10/10, re-fetched all 12 sources verbatim, one safe
+    fix (pooled->included). Ingredient autopublishes.'
