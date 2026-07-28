@@ -329,18 +329,20 @@ adapalene:
     lint/verify/style clean.'
 eltamd-uv-clear-spf-46:
   last_reviewed: '2026-07-28'
-  score: 8
+  score: 10
   verdict: publish
-  note: 'EltaMD UV Clear SPF 46 (zinc oxide 9% + octinoxate 7.5%). Sunscreen global-context
-    grade: UVB strong/solid (SPF 46); UVA modest/solid (octinoxate is UVB-only per
-    Latha 2013, so UVA rests on the 9% zinc oxide per Smijs & Pavel 2011; below modern-filter
-    Tinosorb/Mexoryl products). FDA Drug Facts + 2 peer-reviewed primaries verbatim.
-    Critic revise(near-flag)->fixed: deleted a fabricated ''transparent zinc oxide
-    finish'' quote (genuinely absent from the page), requoted the acne/rosacea marketing
-    accurately, de-quoted the paywalled Akintilo stat (deferred to [[sunscreen-uv-filters]]),
-    removed a mis-cited critical-wavelength parenthetical, created zinc-oxide + octinoxate
-    stubs. niacinamide/derm-badge quarantined. Self-hosted image. lint/verify/style
-    clean.'
+  note: 'Reworked to the new product standard (rollout batch 2). Results-first, health-led
+    Summary; global-context grades UVB strong/solid + UVA MODEST/solid (coverage from
+    9% zinc only; octinoxate is UVB-only; US Broad-Spectrum is pass/fail below EU/Korean
+    systems) - deliberately NOT inflated, the honest contrast with the Korean BoJ
+    sunscreen (UVA strong). Editorial opinion attributed to quoted Allure (Dr. Christopher
+    O''Connell ''My favorite sunscreen is EltaMD Clear'') balanced with a Wirecutter
+    negative panel finding (''fell short of our expectations'', ''greasy compared
+    with our picks'', ''a blue sheen''). Usage attributed to EltaMD directions + Allure
+    routine (no imperatives in our voice). Pre-existing filter citations (Smijs &
+    Pavel, Latha, Akintilo) unaltered + re-verified verbatim. Photos: 3-source side
+    rail (EltaMD/Amazon/Dermstore). Cheaper Alternatives correctly omitted (only affiliate-spam
+    dupe lists found). Critic 10/10, no fixes.'
 glass-skin:
   last_reviewed: '2026-07-28'
   score: 9
