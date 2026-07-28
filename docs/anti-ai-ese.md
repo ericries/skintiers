@@ -46,6 +46,21 @@ as filler, "at the end of the day", "in conclusion", "overall,".
   report the cited fact ("the RCT found no difference in symptom scores between the ceramide
   cream and vehicle [cite]") and let the reader conclude. This also limits our liability.
 - **Attribute, quote, cite.** Prefer "the [source] reports X [^n]" over asserting X in our voice.
+- **Never name the site.** The site does not refer to itself by name on any content page. No "SkinTiers
+  has reviewed", "not a SkinTiers verdict/finding", "the SkinTiers page/profile for X". Speak in the
+  site's own voice; point to other pages as "see [[x]]" or "[[x]] covers...", never "the SkinTiers
+  profile for x".
+- **Never reference our own work process or roadmap on a content page.** No "queued", "a later phase",
+  "not yet on the site", "a dedicated X profile is queued", "coming soon", "bracketed context here".
+  The reader does not care how the site is built. If a page does not exist yet, simply do not link it
+  (or link the slug so the stub resolves) and say nothing about it being planned. State the subject,
+  not our production schedule.
+- **No defensive meta-commentary.** Do not narrate what a section is or is not ("What follows is...",
+  "This page grades...", "the following is ranked by..."), and do not add disclaimers that a sourced
+  claim "is not a finding", "is not our verdict", or "is not proof of X". Attribution already does
+  that work: when a claim is attributed to a named source, the reader knows whose view it is. State
+  the sourced facts and stop. (A dupe/comparison section does not need a lawyerly caveat that a
+  matching ingredient list is not proof of equal performance; the per-item attribution carries it.)
 - **Plain and neutral.** Short sentences. Concrete nouns and verbs. No hype, no defensiveness,
   no throat-clearing.
 

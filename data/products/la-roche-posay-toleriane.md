@@ -26,7 +26,7 @@ La Roche-Posay Toleriane Double Repair Face Moisturizer is a fragrance-free face
 
 ## The Evidence
 
-Whether moisturizing works, and how, is covered on [[moisturizing]]. What follows is the category evidence for moisturizers and for ceramide creams, which is what a ceramide-and-niacinamide moisturizer like this one draws on.
+The general evidence for moisturizers and ceramide creams, which a ceramide-and-niacinamide cream like this draws on, is on [[moisturizing]].
 
 van Zuuren 2017 was a Cochrane systematic review of 77 randomized controlled trials (6603 participants) of emollients and moisturizers for eczema. Moisturizer use versus none reduced flares (risk ratio 0.40, 95% CI 0.23 to 0.70; 2 studies, 87 participants) and lowered eczema severity. The authors concluded that "Most moisturisers showed some beneficial effects, producing better results when used with active treatment …" On comparisons between one product and another, they reported: "We did not find reliable evidence that one moisturiser is better than another."[^2]
 

@@ -23,7 +23,7 @@ Ellis is a co-author of a 2020 review in the Journal of the American Academy of 
 
 Ellis is the founder of Prequel, a skincare company. The statements in this section are Prequel's own. They are reproduced with attribution as the company's positioning, and are not endorsements or findings independently established here.
 
-Prequel's About page carries a first-person statement attributed to Ellis: "I'm Dr. Sam Ellis, a board-certified medical and cosmetic dermatologist and the founder of Prequel."[^2] SkinTiers assesses the evidence for any individual Prequel product on that product's own page; for example, [[prequel-lucent-c-vitamin-c-serum|Prequel Lucent-C Brightening Vitamin C Serum]].
+Prequel's About page carries a first-person statement attributed to Ellis: "I'm Dr. Sam Ellis, a board-certified medical and cosmetic dermatologist and the founder of Prequel."[^2] The evidence for any individual Prequel product is assessed on that product's own page, for example [[prequel-lucent-c-vitamin-c-serum|Prequel Lucent-C Brightening Vitamin C Serum]].
 
 ## Sources
 

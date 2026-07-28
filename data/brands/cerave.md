@@ -24,14 +24,14 @@ The statements in this section are the brand's own positioning and technology cl
 CeraVe states that "all of our products are developed alongside dermatologists and feature three skin-identical ceramides, plus MVE technology, to help protect against moisture loss, hydrate the skin, and restore the skin's natural protective barrier."[^5]
 
 - "Developed with dermatologists." The brand presents this as part of how its products are made.[^5] The seller's 2017 filing used the same phrase, describing CeraVe as "developed with dermatologists."[^1] It is a statement about the brand's development process, not a measured clinical outcome.
-- Ceramide focus. The brand markets its products as containing three ceramides.[^5] Whether a ceramide-containing moisturizer performs better than a plainer emollient is a product-level question. For the one CeraVe product SkinTiers has reviewed, the cited evidence is on [[cerave-moisturizing-cream]]; the general ingredient background is on [[ceramides]].
+- Ceramide focus. The brand markets its products as containing three ceramides.[^5] Whether a ceramide-containing moisturizer performs better than a plainer emollient is a product-level question. The cited evidence for its ceramide moisturizer is on [[cerave-moisturizing-cream]]; the general ingredient background is on [[ceramides]].
 - "MVE technology." The brand's term for a multivesicular-emulsion delivery system it says releases ingredients over time.[^5] This is a claim about the product vehicle; the [[cerave-moisturizing-cream]] page notes that no independent trial reports its clinical effect.
 
 ## Portfolio
 
-Valeant's 2017 filing described the CeraVe range as "a range of advanced skincare products, including cleansers, moisturizers, sunscreens, healing ointments and a dedicated baby line."[^1] The brand's own site adds facial serums, including a retinol line, and acne treatments to the current range.[^5] This page does not catalog individual SKUs; the CeraVe products SkinTiers has profiled are listed below.
+Valeant's 2017 filing described the CeraVe range as "a range of advanced skincare products, including cleansers, moisturizers, sunscreens, healing ointments and a dedicated baby line."[^1] The brand's own site adds facial serums, including a retinol line, and acne treatments to the current range.[^5] This page does not catalog individual SKUs; the CeraVe products profiled here are listed below.
 
-## What SkinTiers has reviewed
+## Products reviewed here
 
 - [[cerave-moisturizing-cream]] (published): the brand's fragrance-free ceramide moisturizer.
 

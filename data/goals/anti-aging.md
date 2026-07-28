@@ -38,7 +38,7 @@ The two interventions with large, well-evidenced effects that apply to nearly ev
 Skin aging accelerates around menopause because estrogen falls, and much of the visible change tracks estrogen status rather than chronological age. Skin collagen declines "between 1-2% per year after the menopause,"[^brincat87] and the loss correlates with years since menopause, not birthday.[^brincat87] Systemic hormone therapy can push back on that component: a placebo-controlled trial found conjugated estrogens significantly increased skin thickness (p<0.01),[^maheux] and a separate study reported that "12 months of HRT increased elasticity by 5.2%."[^sumino]
 
 - **Effect: Large for the hormonal component, but conditional.** The estrogen-related loss is real and partly reversible; the effect sizes for that specific component rival Tier 1.
-- **The catch:** these are small or uncontrolled studies (the elasticity trial had 12 participants and no placebo arm), measured off the face, and hormone therapy is a systemic prescription medication with its own whole-body risk-benefit profile. It is weighed with a clinician for menopause symptoms generally, in which better skin is a bonus rather than a reason to start. SkinTiers does not sell or rank it; it is included here as context, and will get fuller coverage in a later phase.
+- **The catch:** these are small or uncontrolled studies (the elasticity trial had 12 participants and no placebo arm), measured off the face, and hormone therapy is a systemic prescription medication with its own whole-body risk-benefit profile. It is weighed with a clinician for menopause symptoms generally, in which better skin is a bonus rather than a reason to start. It is included here as context, not as a product to buy.
 
 ## Tier 3: Promising but Unsettled: Topical Estrogen
 
@@ -47,7 +47,7 @@ Skin aging accelerates around menopause because estrogen falls, and much of the 
 In 59 perimenopausal women, six months of prescription topical estrogen (estradiol 0.01% or estriol 0.3%) produced skin in which "wrinkle depth and pore sizes had decreased by 61 to 100% in both groups," alongside a significant increase in type III collagen.[^schmidt]
 
 - **Effect: Moderate, uncertain.** A real local collagen signal, but the trial had no placebo arm and the effect on elastin specifically was not established.
-- **The catch:** prescription strength is what carries the evidence; over-the-counter "estrogen-like" or phytoestrogen creams are a different, underpowered category and should not be read into this result. Best weighed by a menopause-literate clinician against individual history. Like Tier 2, this is bracketed context here, not a product on the site. Full coverage is a later phase.
+- **The catch:** prescription strength is what carries the evidence; over-the-counter "estrogen-like" or phytoestrogen creams are a different, underpowered category and should not be read into this result. Best weighed by a menopause-literate clinician against individual history. Like Tier 2, it is weighed with a clinician for individual history, not bought off a shelf.
 
 ## Tier 4: Reliable Adjuncts
 
@@ -55,7 +55,7 @@ In 59 perimenopausal women, six months of prescription topical estrogen (estradi
 
 **Alpha-hydroxy acids (glycolic, lactic).** Beyond surface exfoliation, AHAs stimulate the deeper skin over months: in a pilot histologic study, "treatment with AHAs caused an approximate 25% increase in skin thickness."[^ditre]
 
-- **Effect: Small to moderate.** A structural signal plus a clear texture benefit, often better tolerated than a retinoid. Note the 25% figure is from a small pilot pooling glycolic, lactic, and citric acid, not a large glycolic-specific trial. (A dedicated AHA profile is queued.)
+- **Effect: Small to moderate.** A structural signal plus a clear texture benefit, often better tolerated than a retinoid. Note the 25% figure is from a small pilot pooling glycolic, lactic, and citric acid, not a large glycolic-specific trial.
 - **The catch:** AHAs increase sun sensitivity, so daily sunscreen is essential, and they are usually not stacked aggressively with a retinoid at first.
 
 **Topical vitamin C (morning antioxidant).** Its most distinctive, best-supported role is antioxidant photoprotection that complements sunscreen rather than replacing a retinoid. In the best-studied formula, ~15% L-ascorbic acid with vitamin E, adding ferulic acid "doubled photoprotection... from 4-fold to approximately 8-fold" against simulated sun in pig skin.[^lin]
@@ -77,7 +77,7 @@ In 59 perimenopausal women, six months of prescription topical estrogen (estradi
 
 **Red light / LED (photobiomodulation), a device not a topical.** In a controlled trial, 113 of 136 volunteers received red and near-infrared light over about 15 weeks, and treated skin showed a significant increase in ultrasound-measured intradermal collagen density.[^wunsch]
 
-- **Effect: Small to moderate, well-tolerated.** Requires consistent sessions for weeks; at-home masks are typically lower-dose than in-office panels, so results often lag the marketing. As a device it is bracketed context here (no profile yet; a later phase).
+- **Effect: Small to moderate, well-tolerated.** Requires consistent sessions for weeks; at-home masks are typically lower-dose than in-office panels, so results often lag the marketing. It is a device rather than a topical, so it sits outside the main topical comparison.
 
 ## Tier 5: The Support Crew
 
@@ -111,7 +111,7 @@ In 59 perimenopausal women, six months of prescription topical estrogen (estradi
 
 ## Above this whole list: in-office procedures
 
-For elasticity specifically, professional treatments (laser resurfacing, microneedling, and biostimulator or hyaluronic-acid injectables) are generally more potent than any topical, with newer polynucleotide (PDRN) injectables an emerging entrant. They are left off the ranking because they are a different commitment (higher cost, a provider, sometimes downtime), and their comparative magnitudes are not established on this page. If topicals are not enough, this is the next step to discuss with a dermatologist. Full coverage of this category is a later phase.
+For elasticity specifically, professional treatments (laser resurfacing, microneedling, and biostimulator or hyaluronic-acid injectables) are generally more potent than any topical, with newer polynucleotide (PDRN) injectables an emerging entrant. They are left off the ranking because they are a different commitment (higher cost, a provider, sometimes downtime), and their comparative magnitudes are not established on this page. If topicals are not enough, this is the next step to discuss with a dermatologist.
 
 ## Not a product, but high-impact: the free foundations
 
@@ -133,7 +133,7 @@ This is an educational summary, not medical advice. The hormonal options especia
 
 [^hughes]: Hughes MCB, Williams GM, Baker P, Green AC. Sunscreen and prevention of skin aging: a randomized trial. Annals of Internal Medicine, 2013;158(11):781-790. https://pubmed.ncbi.nlm.nih.gov/23732711/ (accessed 2026-07-28)
 [^latha]: Latha MS, Martis J, Shobha V, et al. Sunscreening agents: a review. Journal of Clinical and Aesthetic Dermatology, 2013;6(1):16-26. https://pmc.ncbi.nlm.nih.gov/articles/PMC3543289/ (accessed 2026-07-28) [Review; cited for the UV/MMP photoaging mechanism, stated by the authors as postulated.]
-[^akintilo]: Akintilo L, Gendler EC. The State of Sunscreens in the US: Caveat Emptor. Journal of Drugs in Dermatology, 2020;19(8):799-801. (Quoted via the SkinTiers [[sunscreen-uv-filters]] page; full text access-restricted, passage verified 2026-07-27.) https://pubmed.ncbi.nlm.nih.gov/32845592/ (accessed 2026-07-28)
+[^akintilo]: Akintilo L, Gendler EC. The State of Sunscreens in the US: Caveat Emptor. Journal of Drugs in Dermatology, 2020;19(8):799-801. (Quoted via the [[sunscreen-uv-filters]] page; full text access-restricted, passage verified 2026-07-27.) https://pubmed.ncbi.nlm.nih.gov/32845592/ (accessed 2026-07-28)
 [^olsen]: Olsen EA, Katz HI, Levine N, et al. Tretinoin emollient cream: a new therapy for photodamaged skin. Journal of the American Academy of Dermatology, 1992;26(2 Pt 1):215-224. https://pubmed.ncbi.nlm.nih.gov/1552056/ (accessed 2026-07-28)
 [^griffiths]: Griffiths CEM, Russman AN, Majmudar G, Singer RS, Hamilton TA, Voorhees JJ. Restoration of collagen formation in photodamaged human skin by tretinoin (retinoic acid). New England Journal of Medicine, 1993;329(8):530-535. https://pubmed.ncbi.nlm.nih.gov/8336752/ (accessed 2026-07-28)
 [^brincat87]: Brincat M, Kabalan S, Studd JW, Moniz CF, de Trafford J, Montgomery J. A study of the decrease of skin collagen content, skin thickness, and bone mass in the postmenopausal woman. Obstetrics & Gynecology, 1987;70(6):840-845. https://pubmed.ncbi.nlm.nih.gov/3120067/ (accessed 2026-07-28)
