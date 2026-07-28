@@ -127,3 +127,16 @@
   priority: 6
   added: '2026-07-28'
   status: pending
+- slug: sunscreen-uv-filters
+  dimension: sourcing
+  issue: 'The global-context stats (Akintilo 2020 JDD: ''US sunscreens allow 3x more
+    UVA penetration'', ''49% pass FDA but not EU UVA test'') and the avobenzone-instability
+    quotes rest on a paywalled JDD source with no PubMed abstract; a reader cannot
+    verify them from the cited URL (footnote now annotates this). The SPF erythemal-block
+    percentages (93/97/98/99%) were removed for lack of a reachable citation.'
+  suggested_fix: Find a reader-reachable open-access primary for the US-vs-EU UVA-protection
+    gap (or cite the EU UVA-PF/SPF-ratio requirement directly) and/or restore the
+    SPF-percentage figures with an open citation.
+  priority: 4
+  added: '2026-07-28'
+  status: pending

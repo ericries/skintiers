@@ -308,3 +308,17 @@ beauty-of-joseon-relief-sun-rice-probiotics-spf50:
     old filters quarantined + verified. Critic revise->fixed: de-quoted the paywalled
     Akintilo passages (paraphrased + deferred to [[sunscreen-uv-filters]], mirroring
     the EltaMD fix). Self-hosted image. lint/verify/style clean.'
+sunscreen-uv-filters:
+  last_reviewed: '2026-07-28'
+  score: 8
+  verdict: publish
+  note: 'review tick: all accessible quotes/stats verbatim-verified (Hughes 2013,
+    Green 2011/1999, Cochrane 2016, 21 CFR 201.327, Federal Register OTC000039); Nambour-cohort
+    non-independence honestly disclosed. Safe fixes: removed reader-instruction (''Do
+    not read it as one''), second-person, and self-referential structure narration;
+    DELETED an unverifiable Cochrane editorial quote (kept the verified RRs + ''low
+    quality'' + ''unable to demonstrate''); removed uncited SPF erythemal-block percentages
+    (kept the qualitative diminishing-returns point); fixed a ''below''->''above''
+    xref. Akintilo [^6] pp.2-3 global-context quotes annotated as full-text access-restricted
+    (verified when written). lint/verify/style clean. Escalated: reader-reachable
+    citation for the Akintilo stats + the SPF percentages.'
