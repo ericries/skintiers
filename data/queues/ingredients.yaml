@@ -226,3 +226,39 @@
   status: pending
   discovered_from: beauty-of-joseon-relief-sun-rice-probiotics-spf50
   source: null
+- name: Magnesium ascorbyl phosphate (MAP)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null
+- name: Sodium ascorbyl phosphate (SAP)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null
+- name: 3-O-ethyl ascorbic acid
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null
+- name: Ascorbyl glucoside
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null
+- name: Tetrahexyldecyl ascorbate (THD ascorbate)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null
+- name: Ascorbyl palmitate
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null
