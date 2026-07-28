@@ -87,25 +87,26 @@ skinceuticals-c-e-ferulic:
   last_reviewed: '2026-07-28'
   score: 9
   verdict: publish
-  note: 'Reworked to the new product-page standard and used as the flagship exemplar:
-    (1) ## Summary first, every claim anchored to its later verification (#the-evidence,
-    #common-marketing-claims, #where-to-buy) or [[concept]] page; (2) ## The Evidence
-    carries product-specific studies only (Pinnell 2001 formulation, Lin 2005 C+E+ferulic
-    pig skin, Murray 2008 same formula human), general vitamin C efficacy linked out
-    affirmatively to [[vitamin-c]]; (3) health-vs-cosmetic split: health-oriented
-    photoprotection endpoints (UV erythema, sunburn cells, thymine-dimer DNA damage,
-    p53) foregrounded and graded, cosmetic anti-aging/brightening graded minimal and
-    quarantined; (4) ## Photos gallery with 3 self-hosted images from 3 sources (SkinCeuticals/Dermstore/Amazon),
-    honestly re-sourced after finding the old file was byte-identical to Dermstore''s;
-    (5) ## Cheaper Alternatives (dupes) SOURCED to third-party dupe articles (Melissa
-    Jane Lee, Chemist Confessions, SheKnows) naming Timeless/Trader Joe''s/Maelove,
-    framed as the publications'' formula-similarity claim not our finding. Critic
-    flagged 3 broken xrefs + an unverifiable Lin (p<0.01,n=6): fixed (created ferulic-acid
-    stub + Timeless/TJ/Maelove stub link targets; dropped the unverifiable stat, kept
-    the verbatim swine-model finding; fixed See Also). Dupe quotes spot-verified verbatim
-    (SheKnows, Melissa Jane Lee). Price $185/30ml attributed to the manufacturer SKU
-    as listed 2026-07-28. lint/style clean; verify WARNs only on manufacturer + dupe-publication
-    domains.'
+  note: 'Reworked to the results-first + attribute-editorial-opinions standard (fixes
+    the owner''s objection that a proven, best-studied vitamin C product read as ''preliminary'').
+    Now: (1) leads with an accessible, plain-language Summary (what it does, how to
+    use, pairs with sunscreen, credibility) with jargon pushed to The Evidence; (2)
+    main vitamin C benefit graded notable/SOLID (grounded in the well-evidenced active
+    per [[vitamin-c]]), not preliminary; only the cosmetic anti-aging row stays minimal/preliminary
+    and is labeled cosmetic; (3) editorial opinions attributed to quoted credible
+    sources rather than a house verdict: Forbes/Dr. Dendy Engelman (''a tried-and-true
+    favorite in the industry''), NYT Wirecutter (''category-defining classic''), Chemist
+    Confessions (''the original patented formula''); price criticism quoted too (Wirecutter
+    ''by far the priciest vitamin C serum we recommend''); presented explicitly as
+    the sources'' opinions, not ours. Photos now render as a side rail (no labels).
+    Critic flagged the Wirecutter quotes as unverifiable (nytimes blocked to it);
+    orchestrator re-fetched nytimes directly and confirmed ''category-defining classic''
+    + ''by far the priciest...'' verbatim, DELETED a fabricated ''less than $30''
+    fragment, replaced it with the verified Timeless budget pick (''an affordable
+    option with proven ingredients''), removed an over-attributed how-to-use line,
+    and fixed ''graded on''->''evidence mapped on'' (ascorbic-acid page is a stub).
+    Byrdie correctly declined (aggregator blocklist). lint/style clean; verify WARNs
+    only on editorial/manufacturer domains.'
 trifarotene:
   last_reviewed: '2026-07-27'
   score: 9
