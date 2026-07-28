@@ -137,3 +137,13 @@ retinyl-esters:
   note: critic revise->fixed (cut 4 omit-empty 'is limited' hedges); anchored on the
     negative ester RCT (Mukherjee 2006, retinyl propionate); effect minimal/evidence
     low; propionate 'higher bioactivity' quarantined as in-vitro.
+retinoids:
+  last_reviewed: '2026-07-27'
+  score: 9
+  verdict: publish
+  note: 'retinoid family hub: conversion pathway (Saurat CRABP-2 rank order + Zasada,
+    both verbatim-verified on sibling pages this session), forms grouped Rx/OTC by
+    generation (Cosio), evidence-strength rubric consistent with each form''s published
+    grade, bakuchiol flagged as a non-retinoid alternative. All quotes reuse citations
+    verbatim-verified this session; adapalene OTC status anchored to a live DailyMed
+    Drug Facts label. lint/verify/style clean.'
