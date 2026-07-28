@@ -231,3 +231,14 @@ differin-adapalene-0-1-gel:
     to quote ''three consumer studies'' + enumerate in our voice; dropped an uncited
     ''(such as Epiduo)'' aside. Acne notable/solid, photoaging modest/mixed (off-label,
     not overclaimed vs tretinoin). Self-hosted image. lint/style clean.'
+petrolatum:
+  last_reviewed: '2026-07-28'
+  score: 8
+  verdict: publish
+  note: 'review tick: pre-guide voice cleanup. All 5 sources re-fetched, quotes verbatim.
+    Safe fixes: removed first-person research narration + all 10 em dashes + evidence-gap
+    hedges; deleted uncited ''20-30%'' occlusive comparator and unverified per-group
+    denominators (kept verbatim ''nearly 99%'' + the 2.0%/0.9% percentages); added
+    the steroid CI (95% CI -15.3 to -3.27) and the ACD P=.12; softened ''safer on
+    allergy'' to the authors'' ''minimal risk for induction of allergy'' wording.
+    lint/verify/style clean.'
