@@ -356,15 +356,22 @@ beauty-of-joseon-relief-sun-rice-probiotics-spf50:
   last_reviewed: '2026-07-28'
   score: 9
   verdict: publish
-  note: 'Korean sunscreen, all MODERN filters (Uvinul A Plus/DHHB, Ethylhexyl Triazone,
-    Tinosorb M/bisoctrizole, Iscotrizinol; none in US monograph). Global-context grade
-    (model, D3=10): UVB strong/solid (SPF50+); UVA STRONG/solid, graded ABOVE the
-    US comparators (LRP avobenzone, EltaMD 9% zinc) via the graded PA++++ PPD rating
-    + modern UVA filters. SPF50+/PA++++ framed as Korean label claims (not FDA-tested),
-    import-only; the brand''s separate US ''Daily Relief SPF 40'' reformulation on
-    old filters quarantined + verified. Critic revise->fixed: de-quoted the paywalled
-    Akintilo passages (paraphrased + deferred to [[sunscreen-uv-filters]], mirroring
-    the EltaMD fix). Self-hosted image. lint/verify/style clean.'
+  note: 'Reworked to the new product standard (rollout batch 1). Results-first, health-led
+    Summary (broad-spectrum UV protection reduces photoaging + skin-cancer risk).
+    Editorial credibility attributed to quoted sources, notably an INDEPENDENT Consumer
+    Reports lab test of this exact SKU (verified exact: ''all three Korean formulas
+    provided better protection than their U.S. counterparts''; tested avg SPF 36 vs
+    50+ label, UVA 5/5, UVB 5/5; the brand''s US Day Dew formula tested SPF 19), balanced
+    with Allure praise (''a prime example of what Korean sunscreens can do'') and
+    CR''s blind-panel white-cast/greasy criticism. Usage guidance attributed to Allure
+    (no imperatives in our voice; no unsourced reapplication claim). Global-context
+    grades honest: UVB strong/solid, UVA strong/solid on real spectral coverage (modern
+    filters + PA++++ + CR 5/5), with the tested-SPF-36-vs-50+ and ''Korean label,
+    not FDA-tested'' caveats stated. Product-specific evidence only; general filter
+    case linked out to [[sunscreen-uv-filters]]. Photos: 3-source side rail (YesStyle/Stylevana/Amazon),
+    self-hosted. Critic verified all CR figures + Allure quotes verbatim and fixed
+    one sensory overstatement (corrected to CR''s verbatim ''absorbed fairly well,
+    but a slight greasy feeling remained''). lint/style clean.'
 sunscreen-uv-filters:
   last_reviewed: '2026-07-28'
   score: 8
