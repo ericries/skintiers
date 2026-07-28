@@ -104,3 +104,14 @@
   priority: 4
   added: '2026-07-27'
   status: pending
+- slug: glass-skin
+  dimension: sign-off
+  issue: 'Goal exemplar drafted and critic-cleared (9/10), pushed as DRAFT for the
+    user to view the rendered page. Goal is a gated page type: needs the user''s sign-off
+    before it is published and before the goal list scales.'
+  suggested_fix: 'User reviews the rendered glass-skin goal page; on approval, set
+    status: published (sk publish glass-skin) and add ''goal'' to AUTOPUBLISH_TYPES
+    if the goal page-type standard is approved.'
+  priority: 7
+  added: '2026-07-28'
+  status: pending

@@ -16,3 +16,28 @@
   status: pending
   discovered_from: cerave-moisturizing-cream
   source: null
+- name: Goff & Stein 2025 Pediatric Dermatology cosmeceuticals ethics/talking-points
+    review
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: glass-skin
+  source: null
+- name: Roessle & Kerscher 2025 skin glow objectification 300-women study
+  type: study
+  priority: 4
+  status: pending
+  discovered_from: glass-skin
+  source: null
+- name: Ikeda 2021 facial radiance and attractiveness study
+  type: study
+  priority: 4
+  status: pending
+  discovered_from: glass-skin
+  source: null
+- name: Ezerskaia 2017 optical measurement of skin gloss
+  type: study
+  priority: 4
+  status: pending
+  discovered_from: glass-skin
+  source: null

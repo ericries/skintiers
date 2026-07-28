@@ -269,3 +269,15 @@ eltamd-uv-clear-spf-46:
     removed a mis-cited critical-wavelength parenthetical, created zinc-oxide + octinoxate
     stubs. niacinamide/derm-badge quarantined. Self-hosted image. lint/verify/style
     clean.'
+glass-skin:
+  last_reviewed: '2026-07-28'
+  score: 9
+  verdict: publish
+  note: GOAL exemplar (gated type, kept DRAFT pending user sign-off). Frames 'glass
+    skin' honestly as a K-beauty aesthetic with no clinical definition / no trials
+    of its own; decomposes it into evidence-based components that link out (moisturizing,
+    niacinamide, vitamin C, azelaic, retinoids, salicylic, sunscreen); optical (subsurface-diffuse
+    radiance vs specular gloss) framing sourced to 4 peer-reviewed primaries (Goff&Stein
+    2025, Roessle&Kerscher 2025, Ezerskaia 2017, Ikeda 2021), all quotes verbatim.
+    Critic revise->fixed one attribution (the 'ability to reflect light' definition
+    credited to Humphrey et al. per the citing source). lint/verify/style clean.

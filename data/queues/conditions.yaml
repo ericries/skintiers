@@ -1,0 +1,6 @@
+- name: Hyperpigmentation
+  type: condition
+  priority: 6
+  status: pending
+  discovered_from: glass-skin
+  source: null
