@@ -57,6 +57,20 @@ cited to the concept/ingredient page. The grade must reflect the strength of the
 product's MAIN benefit (the proven active plus a credible formulation), not be dragged down to a
 weak label just because the brand's own marketing studies are small; put those caveats in the
 Evidence and in critics' quotes, not in a headline that misreads a proven product as unproven.
+
+**3. Separate the CATEGORY verdict from the PRODUCT verdict, and state both.** A product page answers
+two different questions, and must not let one stand in for the other: (a) does this category or
+approach work (the ingredient-class evidence, graded skeptically and linked to the concept page), and
+(b) is this a good example of that category (formulation quality, breadth, tolerability, price and
+value, ease of access, and whether it is a best-in-class or notably cheap way in). A weak-category
+verdict must NOT make a genuinely good product read as bad. If the category evidence is weak but the
+product is well-formulated, inexpensive, or best-in-class, say BOTH plainly and up front: "the
+evidence that [category] does much is [weak/mixed], but if you want [category], this is [a good / the
+best / an unusually cheap] way to get it." Credit the product for what it is, value, formulation,
+breadth, access, sourced, even while staying skeptical about the category. Grade the category
+honestly; carry the product-quality/value judgment in the Summary (attributed where it is an
+opinion). Do not lead with the better-evidenced ingredient's weakest cousin to make the whole product
+look worse than it is.
 - **First paragraph: what it is.** One neutral sentence. The build lifts it out as the
   standfirst at the top of the page (the "what is this" summary), so it must stand alone.
 - **`## Summary` (required, comes first, after the standfirst): orient the reader before any
