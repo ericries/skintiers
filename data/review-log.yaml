@@ -295,3 +295,16 @@ cerave:
     dropped one uncited ''mass-market'' descriptor. Enabling tooling: GATED_TYPES
     lint/verify support + .sec.gov allowlist (114 tests pass). Benign brand/L''Oreal-URL
     verify warnings are quarantined/corroborating use.'
+beauty-of-joseon-relief-sun-rice-probiotics-spf50:
+  last_reviewed: '2026-07-28'
+  score: 9
+  verdict: publish
+  note: 'Korean sunscreen, all MODERN filters (Uvinul A Plus/DHHB, Ethylhexyl Triazone,
+    Tinosorb M/bisoctrizole, Iscotrizinol; none in US monograph). Global-context grade
+    (model, D3=10): UVB strong/solid (SPF50+); UVA STRONG/solid, graded ABOVE the
+    US comparators (LRP avobenzone, EltaMD 9% zinc) via the graded PA++++ PPD rating
+    + modern UVA filters. SPF50+/PA++++ framed as Korean label claims (not FDA-tested),
+    import-only; the brand''s separate US ''Daily Relief SPF 40'' reformulation on
+    old filters quarantined + verified. Critic revise->fixed: de-quoted the paywalled
+    Akintilo passages (paraphrased + deferred to [[sunscreen-uv-filters]], mirroring
+    the EltaMD fix). Self-hosted image. lint/verify/style clean.'

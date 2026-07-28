@@ -202,3 +202,27 @@
   status: pending
   discovered_from: eltamd-uv-clear-spf-46
   source: null
+- name: Diethylamino Hydroxybenzoyl Hexyl Benzoate (Uvinul A Plus)
+  type: ingredient
+  priority: 6
+  status: pending
+  discovered_from: beauty-of-joseon-relief-sun-rice-probiotics-spf50
+  source: null
+- name: Ethylhexyl Triazone (Uvinul T 150)
+  type: ingredient
+  priority: 6
+  status: pending
+  discovered_from: beauty-of-joseon-relief-sun-rice-probiotics-spf50
+  source: null
+- name: Bisoctrizole (Tinosorb M / Methylene Bis-Benzotriazolyl Tetramethylbutylphenol)
+  type: ingredient
+  priority: 6
+  status: pending
+  discovered_from: beauty-of-joseon-relief-sun-rice-probiotics-spf50
+  source: null
+- name: Diethylhexyl Butamido Triazone (Iscotrizinol)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: beauty-of-joseon-relief-sun-rice-probiotics-spf50
+  source: null
