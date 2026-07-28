@@ -161,6 +161,18 @@ Also` list is the exception: it stays bare `[[links]]`, no summaries.)
 Do not on a product page: re-explain whether the category works (link out), narrate the
 research process, write "no X found", pad a tier, add disclaimers, or editorialize a citation.
 
+## Condition pages: open with "How to know you have this"
+Condition pages (acne, rosacea, eczema, and every subtype/deep-dive) MUST open, immediately after
+the standfirst, with a plain-language **"How to know you have this"** section written for a
+layperson. Describe, in everyday words: the recognizable signs and symptoms; where on the face or
+body it typically appears; how it tends to feel (itch, sting, burn, flush); how long it lasts and
+how it comes and goes; and how it is told apart from common look-alikes (e.g. rosacea's redness and
+bumps vs acne's blackheads/whiteheads). Ground every feature in the clinical diagnostic criteria and
+cite them, but frame it as recognition, not self-diagnosis: "these are the features clinicians look
+for", never "you have X". Do not instruct the reader. Keep it accessible first; mechanism, evidence,
+and treatment come after. Pair it with the standing note that only a clinician can diagnose. This
+section is required on every condition page (retrofit existing ones).
+
 ## Sunscreens: grade in a global context, and explain SPF
 Sunscreen is a special case. Evaluate every sunscreen against the GLOBAL field, not just its home
 market. Several modern UV filters standard in the EU, Korea, and Australia (bisoctrizole / Tinosorb
