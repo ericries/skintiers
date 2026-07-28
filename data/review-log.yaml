@@ -187,3 +187,35 @@ cos-de-baha-az20-azelaic-acid-20-serum:
     15% gel). Critic revise->fixed: name Serum->Cream; softened uncited rosacea comparative
     (cite FINACEA); created 2 See Also comparator stubs. Self-hosted image. lint/style
     clean.'
+anua-azelaic-acid-serum:
+  last_reviewed: '2026-07-27'
+  score: 8
+  verdict: publish
+  note: 'Anua Azelaic Acid 10 serum; 10% azelaic (half trial strength), both uses
+    minimal/preliminary; caught marketed ''Blue Tansy Oil'' absent from INCI. Critic
+    FLAG->fixed: removed a non-verbatim ''3 Types of HA'' quote and a melasma-vs-HQ
+    stat mis-cited to FDA labels (deferred to azelaic-acid). Self-hosted image.'
+beauty-of-joseon-light-on-serum-centella-vita-c:
+  last_reviewed: '2026-07-27'
+  score: 9
+  verdict: publish
+  note: 'BoJ Light On Serum: Centella + Vita C; vitamin C is 3-O-ethyl ascorbic acid
+    DERIVATIVE at undisclosed %, graded modest/anecdotal (not equated with L-AA);
+    Pinnell benchmark verbatim. Critic publish. Self-hosted image.'
+anua-nano-retinol-0-3-niacin-renewing-serum:
+  last_reviewed: '2026-07-27'
+  score: 9
+  verdict: publish
+  note: Anua Nano Retinol 0.3% + Niacinamide (user's 'retinol + salicylic acid' does
+    not exist; 'BHA' on INCI = butylated hydroxyanisole antioxidant, not a BHA acid).
+    Photoaging + niacinamide both modest/mixed; Kafi/Bissett/Zasada/Saurat/Huang all
+    verbatim. Critic publish. Self-hosted image.
+prequel-lucent-c-vitamin-c-serum:
+  last_reviewed: '2026-07-27'
+  score: 8
+  verdict: publish
+  note: 'Prequel Lucent-C; 15% pure L-ascorbic acid at pH 3.2 but NO vitamin E ->
+    C+E+ferulic photoprotection evidence graded down (minimal/anecdotal), L-AA/pH
+    grade modest/preliminary. Critic revise->fixed: dropped unverified Lin p<0.01/n=6,
+    softened uncited price ratio, de-quoted an unconfirmed marketing line. Self-hosted
+    image.'
