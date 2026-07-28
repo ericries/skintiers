@@ -268,14 +268,24 @@ anua-nano-retinol-0-3-niacin-renewing-serum:
     Photoaging + niacinamide both modest/mixed; Kafi/Bissett/Zasada/Saurat/Huang all
     verbatim. Critic publish. Self-hosted image.
 prequel-lucent-c-vitamin-c-serum:
-  last_reviewed: '2026-07-27'
-  score: 8
+  last_reviewed: '2026-07-28'
+  score: 9
   verdict: publish
-  note: 'Prequel Lucent-C; 15% pure L-ascorbic acid at pH 3.2 but NO vitamin E ->
-    C+E+ferulic photoprotection evidence graded down (minimal/anecdotal), L-AA/pH
-    grade modest/preliminary. Critic revise->fixed: dropped unverified Lin p<0.01/n=6,
-    softened uncited price ratio, de-quoted an unconfirmed marketing line. Self-hosted
-    image.'
+  note: 'Reworked to the new product standard (rollout batch 2). Verified form: 15%
+    L-ascorbic acid (pure, not a derivative) at pH 3.2, 30ml, $23 (vs C E Ferulic
+    $185), but NO vitamin E. Results-first health-led Summary; brightening labeled
+    cosmetic. Grades honest/not-mislabeled: main antioxidant vitamin C row modest/SOLID
+    (proven active in Pinnell''s pH range), NOT preliminary; the C+E+ferulic row correctly
+    minimal/preliminary because the product lacks vitamin E; brand 90%/83% consumer-perception
+    figures quarantined. Editorial opinions attributed to quoted Wirecutter (incl.
+    a CRITICAL product-specific line: ''a musty-meets-chem-lab aroma that was deeply
+    unpleasant'' - Wirecutter tested 30+ serums and did not pick it) + ''gold standard
+    for absorption''/morning-routine; founder link to [[samantha-ellis]]. No imperatives
+    (mfr directions reported). Critic verdict publish but could not reach nytimes;
+    ORCHESTRATOR independently re-fetched nytimes via curl and confirmed all 4 Wirecutter
+    strings verbatim. Pinnell 2001 + Lin 2005 re-verified verbatim; Murray 2008 unchanged
+    (verified in prior passes). Photos: side rail, 3 images from 2 sources (mfr +
+    Amazon). lint/style/verify clean.'
 differin-adapalene-0-1-gel:
   last_reviewed: '2026-07-28'
   score: 9
