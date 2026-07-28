@@ -23,6 +23,19 @@ Answer that, with cited facts, and let the reader decide. Include a section only
 substance. The linter requires `grades:` frontmatter and a `## Sources` heading.
 - **First paragraph: what it is.** One neutral sentence. The build lifts it out as the
   standfirst at the top of the page (the "what is this" summary), so it must stand alone.
+- **`## Summary` (required, comes first, after the standfirst): orient the reader before any
+  evidence.** A short section, in plain language, that says: what the product is and who it is
+  designed for; what (if anything) makes it distinct from a plainer or cheaper product in its
+  category; how it has actually been studied; what it is good at and what it is not; and roughly
+  where it sits on price. **Every load-bearing claim in the Summary must be verified later on the
+  page and carry a link to that verification** — either a `[[link]]` to the concept/ingredient
+  page that carries the general evidence, or an in-page link to the section below where the
+  product-specific study is cited (link the exact phrase, e.g. `[studied only in small,
+  inventor-run trials](#the-evidence)`). The Summary asserts nothing it does not later
+  substantiate. Keep it honest and skeptical: if the distinctive claim is marketing, say the
+  evidence for it is thin and link to where that is shown. Price is stated approximately and
+  relatively (e.g. "premium-priced, about $X for 30 ml as listed"), sourced to the manufacturer
+  SKU in `## Where to Buy` with its access date; do not assert a price as a permanent fact.
 - **`grades:` frontmatter drives the dossier** (there is no `## The Rubric` prose section any
   more). Each row is one use: `use`, an optional short `note` comparator, `effect`
   (none/minimal/modest/notable/strong) and `evidence`
@@ -30,12 +43,23 @@ substance. The linter requires `grades:` frontmatter and a `## Sources` heading.
   evidence in `## The Evidence`. Grades are relative and name comparators. No "pick it / skip it".
 - **Overall bottom line:** right after the first paragraph, one blockquote (`>`) giving the
   plain-English overall picture, cited. Blockquotes render as an italic callout.
-- `## The Evidence`: the general category question belongs on a linked concept page, not here.
-  State the category benefit and link out (for example `[[moisturizing]]`). Then give the
-  product-specific evidence, cited: does a study of THIS product (or its formula) show it does
-  more than a plainer or cheaper option, or not? Report what the study found. **After each cited
-  study, add one blockquote bottom line**: a plain-English restatement that is 100% faithful to
-  the finding (no new claim, no spin). It renders in italics.
+- `## The Evidence`: **product-specific or very closely adjacent studies ONLY.** Do NOT rehash the
+  general evidence for the active ingredient here. The question "does this ingredient work" lives on
+  the ingredient/concept page; summarize what that page establishes in one AFFIRMATIVE sentence,
+  then LINK OUT. Say what we DO know, not what we don't (for example "Topical vitamin C is a
+  well-studied antioxidant with evidence for brightening and helping sunscreen work harder; see
+  [[ascorbic-acid-vitamin-c]]"), never "it is unclear whether vitamin C works, see [[...]]". The
+  one-line summary must match the linked page's actual graded verdict (do not overclaim). What
+  belongs here is:
+  a study of THIS product, or of its exact formula/combination, or one narrow step adjacent (e.g. a
+  trial of the same fixed-combination formula, or a head-to-head against a named peer). If a study
+  only tests the isolated ingredient at a generic concentration, it belongs on the ingredient page,
+  not here, and you cite it there by link. Report what the product-specific study found, cited: does
+  it show this product does more than a plainer or cheaper option, or not? **After each cited study,
+  add one blockquote bottom line**: a plain-English restatement 100% faithful to the finding (no new
+  claim, no spin). It renders in italics. If there is NO product-specific study, say so factually in
+  one sentence and grade on the category evidence via the comparator note (a composition/evidence
+  fact, not a hedge), then link out.
 - `## What's In It`: the ingredient list, split into the notable/functional ones (linked to their
   own pages) and the base/texture/preservative system (plain). Optionally a composition-fact line
   of conspicuous absences (see Omit-empty). Do NOT narrate which ingredients lack evidence or that
@@ -54,17 +78,40 @@ substance. The linter requires `grades:` frontmatter and a `## Sources` heading.
 - `recommended_in:` frontmatter (optional): external best-of lists that recommend this product,
   each `title` + `url` + `source`. Every URL must be verified to load AND to actually recommend
   the product. Omit the field entirely if none verify. Never fabricate a list or a URL.
-- **Product image(s): required.** Every product page shows the actual product. Use `images:`
-  (a YAML list) for one or more, or `image:` for a single one. Each entry is a verified
-  manufacturer or retailer product-photo URL (prefer the manufacturer's own hosted image), or a
-  file committed under `static/images/`. Confirm the URL loads and shows THIS product/SKU before
-  using it. These are the product's own promotional images, shown to identify the product; do not
-  restyle or crop out marks. If no image can be verified, the page falls back to the generated
-  monogram badge, but that is a gap to fill, not the goal.
+- **Product photos: several, from various sites, required.** The page renders a `## Photos` gallery
+  section (built automatically from `images:`), NOT a single thumbnail. Aim for a handful of real
+  photos of THIS exact SKU gathered from different sites: the manufacturer plus two or more
+  retailers (e.g. Target, Ulta, Dermstore, Amazon) so the reader sees packaging, texture, and label
+  from several angles/sources. Each `images:` entry SHOULD be a mapping that records where the photo
+  came from:
+  ```yaml
+  images:
+    - file: skinceuticals-c-e-ferulic.jpg      # self-hosted under static/images/
+      source: SkinCeuticals                     # the site it came from (shown as the caption)
+      source_url: https://www.skinceuticals.com/...   # link to that site
+    - file: skinceuticals-c-e-ferulic-target.jpg
+      source: Target
+      source_url: https://www.target.com/...
+  ```
+  A bare string entry (filename or URL) is still accepted for back-compat but carries no source
+  caption. **Self-host: download each image into `static/images/` and reference it by filename.**
+  Retailer/manufacturer CDNs frequently block hotlinking, and a curl/HEAD 200 does NOT prove a
+  browser will render it, so do not rely on a remote URL as the `src`. Confirm the built page
+  actually shows every image (not a broken box). Use the product's own promotional/retail photos to
+  identify the SKU; do not restyle or crop out marks. If nothing can be verified, the page shows no
+  gallery, which is a gap to fill, not the goal.
 
 Everything a reader could follow is a link: ingredient, brand, study, person, and product names
 use `[[slug]]`. If no profile exists yet, create a `status: stub` profile so the link resolves
 (a stub is one neutral sentence, no fabricated facts) rather than leaving plain text.
+
+**Inline "learn more" links carry an affirmative one-line summary.** When prose points the reader to
+another page ("covered on [[X]]", "see [[X]]", "learn more on [[X]]"), first say, positively and
+factually, what they will find there, then link: "Vitamin C is a well-studied antioxidant good for
+brightening and boosting sun protection; learn more on [[ascorbic-acid-vitamin-c]]." Never a bare
+pointer ("vitamin C is covered on [[X]]") and never a negative framing ("we don't know if vitamin C
+helps, see [[X]]"). The summary must be faithful to that page's actual graded verdict. (The `## See
+Also` list is the exception: it stays bare `[[links]]`, no summaries.)
 
 Do not on a product page: re-explain whether the category works (link out), narrate the
 research process, write "no X found", pad a tier, add disclaimers, or editorialize a citation.

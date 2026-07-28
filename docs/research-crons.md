@@ -45,11 +45,16 @@ Promote a new type only after the user signs off on its exemplar: add it to that
    isolation would strand the draft on a separate branch) to research + draft that entity SOURCES-FIRST:
    WebFetch and verify every URL; 3 independent PRIMARY sources or mark the claim unresolvable;
    verbatim quotes only; quarantine marketing. Follow the writing guide for a <TYPE> page and match
-   the structure of an existing published exemplar of this type. For PRODUCTS: include verified
-   product image(s) in `images:` (prefer the manufacturer's own hosted image; if the source blocks
-   hotlinking, which many retailer CDNs do and a curl HEAD 200 does NOT rule out, download it into
-   `static/images/` and reference it by filename; confirm the built page actually renders the
-   image) and SKU-level `## Where to Buy` links. Set the required `category:` frontmatter to the
+   the structure of an existing published exemplar of this type. For PRODUCTS specifically: (a) open
+   with a `## Summary` that orients the reader (what it is, who it is for, what makes it distinct,
+   how it has been studied, what it is good/not good at, rough price) where EVERY claim links to its
+   later verification ([[ingredient]] page or an in-page section anchor); (b) in `## The Evidence`
+   include ONLY product-specific or very-closely-adjacent studies, and link general ingredient
+   evidence out to the ingredient page rather than rehashing it; (c) provide SEVERAL product photos
+   from various sites (manufacturer + 2+ retailers), each `images:` entry a mapping with `file:` +
+   `source:` + `source_url:`, self-hosted under `static/images/` (retailer/manufacturer CDNs block
+   hotlinking and a curl HEAD 200 does NOT rule it out; confirm the built page renders every image),
+   plus SKU-level `## Where to Buy` links. Set the required `category:` frontmatter to the
    product's high-level Products-index bucket (one of the existing labels in `PRODUCT_CATEGORY_ORDER`
    in build.py; format buckets Sunscreens/Moisturizers win over active-based ones); if none fit, do
    not invent one silently, flag it for review. Encounter-enqueue any

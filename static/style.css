@@ -58,16 +58,19 @@ article{padding:44px 0 8px}
 .status-draft{color:#9a7a2e;border-color:color-mix(in srgb,#9a7a2e 44%,transparent);background:color-mix(in srgb,#9a7a2e 10%,transparent)}
 .status-stub{color:var(--faint);border-color:var(--rule-strong);background:transparent}
 
-.masthead{display:grid;grid-template-columns:1fr 150px;gap:26px;align-items:start}
+.masthead{margin-top:2px}
 h1{font-family:var(--serif);font-weight:600;font-size:40px;line-height:1.08;letter-spacing:-.018em;margin:.1em 0 .3em;text-wrap:balance}
 .standfirst{font-size:20px;line-height:1.5;color:var(--muted);margin:0;max-width:56ch}
-.photo{border:1px solid var(--rule-strong);border-radius:6px;background:linear-gradient(160deg,var(--card),color-mix(in srgb,var(--accent-soft) 60%,var(--card)));padding:14px;text-align:center}
-.photo svg{width:100%;height:auto;display:block}
-.photo img{width:100%;height:auto;display:block;border-radius:4px;background:#fff}
-.photo .cap{font-family:var(--mono);font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--faint);margin-top:9px}
-.photo .thumbs{display:flex;gap:6px;margin-top:8px}
-.photo .thumbs img{width:100%;height:auto;border:1px solid var(--rule)}
-.photo .mono-badge{font-family:var(--serif);font-weight:600;fill:var(--accent)}
+/* Product photo gallery: a full section of images, each captioned with the
+   site it came from. Grid auto-fills so 1 photo or 8 both read well. */
+.gallery{margin:26px 0 4px}
+.gallery-h{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--faint);margin:0 0 12px;padding:0;border:none}
+.gallery-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:14px}
+.gallery-grid figure{margin:0;border:1px solid var(--rule-strong);border-radius:6px;background:var(--card);padding:10px;display:flex;flex-direction:column;gap:8px}
+.gallery-grid img{width:100%;height:170px;object-fit:contain;background:#fff;border-radius:4px;display:block}
+.gallery-grid figcaption{font-family:var(--mono);font-size:9.5px;letter-spacing:.07em;text-transform:uppercase;color:var(--faint);text-align:center;line-height:1.3}
+.gallery-grid figcaption a{color:var(--muted);border:none}
+.gallery-grid figcaption a:hover{color:var(--accent)}
 
 /* the plain-english overall + per-quote bottom lines share this voice */
 .tldr,section.prose blockquote{font-family:var(--serif);font-style:italic;font-size:18px;line-height:1.5;color:var(--ink);
@@ -170,8 +173,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;
 @media (max-width:560px){
   body{font-size:18px}
   h1{font-size:31px}
-  .masthead{grid-template-columns:1fr}
-  .photo{max-width:180px}
+  .gallery-grid{grid-template-columns:repeat(auto-fill,minmax(120px,1fr))}
   .grade-row{grid-template-columns:1fr;gap:12px}
   .axis{flex-direction:row;align-items:center;gap:10px}
   .method-tier{grid-template-columns:1fr;gap:6px}

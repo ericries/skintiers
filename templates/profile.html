@@ -8,28 +8,23 @@
   </div>
 
   <div class="masthead">
-    <div>
-      <h1>{{ profile.name }}</h1>
-      {% if standfirst %}<p class="standfirst">{{ standfirst | safe }}</p>{% endif %}
-    </div>
-    {% if images %}
-    <figure class="photo">
-      <img src="{{ images[0] }}" alt="{{ profile.name }}" loading="lazy">
-      <div class="cap">Product photo</div>
-      {% if images|length > 1 %}
-      <div class="thumbs">{% for im in images[1:] %}<img src="{{ im }}" alt="{{ profile.name }}" loading="lazy">{% endfor %}</div>
-      {% endif %}
-    </figure>
-    {% else %}
-    <figure class="photo">
-      <svg viewBox="0 0 120 120" role="img" aria-label="{{ profile.name }} monogram">
-        <rect x="6" y="6" width="108" height="108" rx="10" fill="var(--accent-soft)" stroke="var(--rule-strong)" stroke-width="1.5"/>
-        <text class="mono-badge" x="60" y="62" text-anchor="middle" dominant-baseline="central" font-size="44">{{ monogram }}</text>
-      </svg>
-      <div class="cap">SkinTiers</div>
-    </figure>
-    {% endif %}
+    <h1>{{ profile.name }}</h1>
+    {% if standfirst %}<p class="standfirst">{{ standfirst | safe }}</p>{% endif %}
   </div>
+
+  {% if images %}
+  <section class="gallery" aria-label="Product photos">
+    <h2 class="gallery-h">Photos</h2>
+    <div class="gallery-grid">
+      {% for im in images %}
+      <figure>
+        <img src="{{ im.src }}" alt="{{ im.alt }}" loading="lazy">
+        {% if im.source %}<figcaption>{% if im.source_url %}<a href="{{ im.source_url }}" rel="nofollow noopener">{{ im.source }}</a>{% else %}{{ im.source }}{% endif %}</figcaption>{% endif %}
+      </figure>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
 
   {% if grades_view %}
   <div class="dossier">

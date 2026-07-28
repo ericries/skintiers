@@ -120,6 +120,39 @@ def test_products_listing_groups_by_category_in_order(tmp_path):
     assert 'class="listing-group"' not in (out / "ingredients.html").read_text()
 
 
+def test_product_photo_gallery_with_source_captions(tmp_path):
+    data = tmp_path / "data"
+    out = tmp_path / "_site"
+    pdir = data / "products"
+    pdir.mkdir(parents=True)
+    # images: entries may be bare strings or mappings with a source + source_url.
+    (pdir / "serum.md").write_text(
+        "---\nname: Test Serum\nslug: serum\ntype: product\nstatus: published\n"
+        "updated: 2026-07-26\nanalyzed: 2026-07-26\n"
+        "images:\n"
+        "- file: serum-front.jpg\n"
+        "  source: Manufacturer\n"
+        "  source_url: https://example.com/serum\n"
+        "- https://cdn.example.net/serum-side.jpg\n"
+        "---\n\nBody.\n")
+    env = {**os.environ, "SK_DATA": str(data), "SK_OUTPUT": str(out)}
+    r = subprocess.run([sys.executable, str(ROOT / "build.py")], env=env,
+                       capture_output=True, text=True)
+    assert r.returncode == 0, r.stderr
+    html = (out / "serum.html").read_text()
+    # A gallery section, not the old single "Product photo" caption box.
+    assert 'class="gallery"' in html
+    assert 'class="gallery-h">Photos' in html
+    assert '<div class="cap">Product photo</div>' not in html  # old pattern gone
+    # Local filename resolves under images/; a full URL is used as-is.
+    assert 'src="images/serum-front.jpg"' in html
+    assert 'src="https://cdn.example.net/serum-side.jpg"' in html
+    # The sourced image is captioned with a link to its site; the bare one isn't.
+    assert '<figcaption>' in html
+    assert 'href="https://example.com/serum"' in html
+    assert '>Manufacturer</a>' in html
+
+
 def test_build_renders_tagged_index_on_condition_page(tmp_path):
     data = tmp_path / "data"
     out = tmp_path / "_site"

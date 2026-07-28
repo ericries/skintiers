@@ -118,15 +118,36 @@ def images_and_monogram(metadata):
     """Return (images, monogram) for a profile.
 
     `images:` (a list) is preferred; `image:` (single) is accepted for
-    back-compat. Returns a list of resolved srcs (empty when none set, in which
-    case the template draws a monogram badge).
+    back-compat. Each entry is normalized to a dict with `src` (resolved),
+    `source` (the site/retailer the photo is from, or None), `source_url`
+    (link to that site, or None), and `alt`. Entries may be:
+      - a bare string (filename or URL): source unknown.
+      - a mapping with `file:` or `url:` (or `src:`), plus optional `source:`,
+        `source_url:`, `alt:`.
+    The gallery section renders one figure per image, captioned with its source
+    so a page can carry several product photos from different sites. Returns an
+    empty list when none are set (the page then shows no gallery).
     """
     raw = metadata.get("images")
     if not raw:
         one = metadata.get("image")
         raw = [one] if one else []
-    images = [_resolve_image(v) for v in raw if v]
-    words = (metadata.get("name") or "").split()
+    name = metadata.get("name")
+    images = []
+    for v in raw:
+        if not v:
+            continue
+        if isinstance(v, dict):
+            f = v.get("file") or v.get("url") or v.get("src")
+            if not f:
+                continue
+            images.append({"src": _resolve_image(f), "source": v.get("source"),
+                           "source_url": v.get("source_url"),
+                           "alt": v.get("alt") or name})
+        else:
+            images.append({"src": _resolve_image(v), "source": None,
+                           "source_url": None, "alt": name})
+    words = (name or "").split()
     monogram = "".join(w[0] for w in words[:2] if w).upper()
     return images, monogram
 

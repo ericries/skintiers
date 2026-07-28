@@ -344,7 +344,9 @@ _XREF_RE = re.compile(r"\[\[([^\]|]+)(?:\|([^\]]+))?\]\]")
 
 
 def render_markdown(text):
-    return _markdown.markdown(text, extensions=["tables", "footnotes", "smarty"])
+    # `toc` gives every heading a slug `id` (e.g. "## The Evidence" -> id
+    # "the-evidence") so in-page summary links like [phrase](#the-evidence) resolve.
+    return _markdown.markdown(text, extensions=["tables", "footnotes", "smarty", "toc"])
 
 
 def linkify_xrefs(text, published_slugs, slug_to_name):
