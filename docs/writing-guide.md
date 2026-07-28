@@ -138,6 +138,23 @@ European broad-spectrum product built on modern filters.
 "Does moisturizing work and how" goes on the Moisturizing page. Retinoid mechanism goes on the
 retinoid ingredient page. Product pages borrow it with a link and stay on the product question.
 
+## Health effects vs cosmetic effects (emphasize health)
+The site's main purpose is to surface HEALTH effects, so every page must keep the two kinds of
+effect distinct and lead with health where one is established.
+- **Health effects** are measurable effects on skin biology or medical outcomes: barrier repair and
+  transepidermal water loss, protection of DNA from UV (thymine dimers) and reduced skin-cancer
+  risk, collagen synthesis, wound healing, and treatment of medical conditions (acne, eczema,
+  rosacea, disordered pigmentation). This is what we foreground.
+- **Cosmetic effects** are appearance only: radiance and glow, brightening, smoothing, evening tone,
+  softening the look of fine lines, texture, finish. These are legitimate and worth reporting, but
+  they are secondary to health.
+Rules: label a claim or study endpoint as cosmetic when it is cosmetic, and never let a cosmetic
+surrogate stand in for a health effect ("reduces the appearance of wrinkles" is cosmetic;
+"increases collagen I synthesis" or "reduces UV-induced thymine dimers" is a health effect). In the
+`## Summary` and in each `grades:` note, lead with the health effect when one is established and mark
+cosmetic-only benefits as cosmetic. Where a grade row is for a cosmetic use, make that explicit in
+its `use`/`note`. Do not upgrade a grade on the strength of cosmetic endpoints alone.
+
 ## Omit-empty (all page types)
 Never announce an absence of EVIDENCE. State only what the evidence DOES show and let the reader
 infer the rest. Delete hedges such as "no study of this product isolates X", "the presence of an
