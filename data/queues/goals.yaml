@@ -1,0 +1,12 @@
+- name: Glass skin
+  type: goal
+  priority: 8
+  status: pending
+  discovered_from: null
+  source: null
+- name: Barrier health
+  type: goal
+  priority: 8
+  status: pending
+  discovered_from: null
+  source: null

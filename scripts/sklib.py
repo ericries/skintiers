@@ -353,25 +353,54 @@ def set_status(path, status, mark_analyzed=False):
 
 import yaml as _yaml
 
+# Per-type queue storage. Each entity type gets its own prioritized list file
+# under data/queues/<plural>.yaml so a research cron can work one list at a time.
+TYPE_TO_LIST = {
+    "product": "products",
+    "ingredient": "ingredients",
+    "condition": "conditions",
+    "goal": "goals",
+    "brand": "brands",
+    "person": "people",
+    "study": "studies",
+}
+LIST_TO_TYPE = {v: k for k, v in TYPE_TO_LIST.items()}
+QUEUE_TYPES = tuple(TYPE_TO_LIST)
 
-def _queue_path(data_dir):
-    return pathlib.Path(data_dir) / "queue.yaml"
+# Types whose profiles a research cron may auto-publish (rather than draft).
+AUTOPUBLISH_TYPES = {"product", "ingredient"}
 
 
-def load_queue(data_dir):
-    path = _queue_path(data_dir)
+def type_autopublishes(type):
+    return type in AUTOPUBLISH_TYPES
+
+
+def queue_path(data_dir, type):
+    """Path to the per-type queue file, data/queues/<plural>.yaml."""
+    plural = TYPE_TO_LIST[type]
+    return pathlib.Path(data_dir) / "queues" / f"{plural}.yaml"
+
+
+def load_queue(data_dir, type):
+    path = queue_path(data_dir, type)
     if not path.exists():
         return []
     return _yaml.safe_load(path.read_text()) or []
 
 
-def save_queue(data_dir, items):
-    _queue_path(data_dir).parent.mkdir(parents=True, exist_ok=True)
-    _queue_path(data_dir).write_text(_yaml.safe_dump(items, sort_keys=False))
+def save_queue(data_dir, type, items):
+    path = queue_path(data_dir, type)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(_yaml.safe_dump(items, sort_keys=False))
+
+
+def load_all_queues(data_dir):
+    """Return {type: [items]} for all queue types (empty list if file missing)."""
+    return {t: load_queue(data_dir, t) for t in QUEUE_TYPES}
 
 
 def queue_add(data_dir, name, type, priority=5, discovered_from=None, source=None):
-    items = load_queue(data_dir)
+    items = load_queue(data_dir, type)
     for it in items:
         if it.get("name") == name and it.get("type") == type:
             return False
@@ -379,8 +408,50 @@ def queue_add(data_dir, name, type, priority=5, discovered_from=None, source=Non
         "name": name, "type": type, "priority": int(priority),
         "status": "pending", "discovered_from": discovered_from, "source": source,
     })
-    save_queue(data_dir, items)
+    save_queue(data_dir, type, items)
     return True
+
+
+def queue_next(data_dir, type):
+    """Highest-priority PENDING item for a type, FIFO on ties, or None."""
+    pending = [it for it in load_queue(data_dir, type) if it.get("status") == "pending"]
+    if not pending:
+        return None
+    # Stable sort on descending priority keeps original (FIFO) order for ties.
+    return sorted(pending, key=lambda it: -it.get("priority", 0))[0]
+
+
+def migrate_queue(data_dir):
+    """Split a legacy flat data/queue.yaml into per-type queue files.
+
+    Merges into any existing per-type files, deduping by (name, type) and
+    preserving all fields and statuses (including 'done'). Renames the legacy
+    file to queue.yaml.migrated. Idempotent: a no-op returning 0 when the
+    legacy file is absent. Returns the number of legacy items migrated.
+    """
+    legacy = pathlib.Path(data_dir) / "queue.yaml"
+    if not legacy.exists():
+        return 0
+    legacy_items = _yaml.safe_load(legacy.read_text()) or []
+    buckets = load_all_queues(data_dir)
+    seen = {t: {(it.get("name"), it.get("type")) for it in items}
+            for t, items in buckets.items()}
+    migrated = 0
+    for it in legacy_items:
+        typ = it.get("type")
+        if typ not in TYPE_TO_LIST:
+            continue
+        key = (it.get("name"), typ)
+        if key in seen[typ]:
+            continue
+        seen[typ].add(key)
+        buckets[typ].append(it)
+        migrated += 1
+    for typ, items in buckets.items():
+        if items:
+            save_queue(data_dir, typ, items)
+    legacy.rename(legacy.with_suffix(".yaml.migrated"))
+    return migrated
 
 
 def review_verdict(data_dir, slug):
@@ -398,13 +469,32 @@ def review_verdict(data_dir, slug):
     return entry.get("verdict")
 
 
-def queue_resolve(data_dir, name):
-    items = load_queue(data_dir)
+def queue_resolve(data_dir, name, type=None):
+    """Mark items named `name` as done. If `type` is given, act only on that
+    type's file; otherwise search all queue files. Returns True if anything
+    changed."""
+    types = [type] if type is not None else list(QUEUE_TYPES)
     changed = False
-    for it in items:
-        if it.get("name") == name and it.get("status") != "done":
-            it["status"] = "done"
+    for typ in types:
+        items = load_queue(data_dir, typ)
+        touched = False
+        for it in items:
+            if it.get("name") == name and it.get("status") != "done":
+                it["status"] = "done"
+                touched = True
+        if touched:
+            save_queue(data_dir, typ, items)
             changed = True
-    if changed:
-        save_queue(data_dir, items)
     return changed
+
+
+def profile_counts(data_dir, type):
+    """Return {status: count} for profiles of `type` (statuses stub/draft/published)."""
+    counts = {s: 0 for s in VALID_STATUS}
+    for post in load_profiles(data_dir):
+        if post.get("type") != type:
+            continue
+        status = post.get("status")
+        if status in counts:
+            counts[status] += 1
+    return counts

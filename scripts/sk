@@ -110,25 +110,80 @@ def cmd_draft(args):
     return _set_and_build(args.slug, "draft")
 
 
+def _pending_sorted(type):
+    items = [i for i in sklib.load_queue(sklib.DATA_DIR, type)
+             if i.get("status") == "pending"]
+    return sorted(items, key=lambda x: -x.get("priority", 0))
+
+
 def cmd_queue_add(args):
+    sklib.migrate_queue(sklib.DATA_DIR)
     added = sklib.queue_add(sklib.DATA_DIR, args.name, args.type, args.priority,
                             args.discovered_from, args.source)
     print(f"{'added' if added else 'already queued'}: {args.name}")
     return 0
 
 
+def _print_item(i):
+    frm = i.get("discovered_from")
+    suffix = f" (from {frm})" if frm else ""
+    print(f"[{i.get('priority')}] {i.get('name')}{suffix}")
+
+
 def cmd_queue(args):
-    items = [i for i in sklib.load_queue(sklib.DATA_DIR) if i.get("status") == "pending"]
+    sklib.migrate_queue(sklib.DATA_DIR)
     if args.type:
-        items = [i for i in items if i.get("type") == args.type]
-    for i in sorted(items, key=lambda x: -x.get("priority", 0)):
-        print(f"[{i.get('priority')}] {i.get('type')}: {i.get('name')}")
+        for i in _pending_sorted(args.type):
+            _print_item(i)
+        return 0
+    total = 0
+    for typ in sklib.QUEUE_TYPES:
+        pending = _pending_sorted(typ)
+        total += len(pending)
+        print(f"== {typ} ==")
+        if pending:
+            for i in pending:
+                _print_item(i)
+        else:
+            print("(empty)")
+    print(f"total pending: {total}")
     return 0
 
 
 def cmd_queue_resolve(args):
-    ok = sklib.queue_resolve(sklib.DATA_DIR, args.name)
+    sklib.migrate_queue(sklib.DATA_DIR)
+    ok = sklib.queue_resolve(sklib.DATA_DIR, args.name, args.type)
     print(f"{'resolved' if ok else 'not found'}: {args.name}")
+    return 0
+
+
+def cmd_queue_next(args):
+    sklib.migrate_queue(sklib.DATA_DIR)
+    item = sklib.queue_next(sklib.DATA_DIR, args.type)
+    if item is None:
+        print(f"empty: {sklib.TYPE_TO_LIST[args.type]}")
+        return 0
+    if getattr(args, "json", False):
+        import json
+        print(json.dumps(item))
+        return 0
+    _print_item(item)
+    return 0
+
+
+def cmd_gate_check(args):
+    counts = sklib.profile_counts(sklib.DATA_DIR, args.type)
+    print(f"type: {args.type}")
+    print(f"autopublish: {'true' if sklib.type_autopublishes(args.type) else 'false'}")
+    print(f"published: {counts.get('published', 0)}")
+    print(f"draft: {counts.get('draft', 0)}")
+    print(f"stub: {counts.get('stub', 0)}")
+    return 0
+
+
+def cmd_queue_migrate(args):
+    n = sklib.migrate_queue(sklib.DATA_DIR)
+    print(f"migrated {n} items" if n else "nothing to migrate")
     return 0
 
 
@@ -153,19 +208,29 @@ def main(argv=None):
     p_draft = sub.add_parser("draft")
     p_draft.add_argument("slug")
     p_draft.set_defaults(func=cmd_draft)
+    _TYPES = ("product", "ingredient", "condition", "goal", "brand", "person", "study")
     p_qa = sub.add_parser("queue-add")
     p_qa.add_argument("name")
-    p_qa.add_argument("--type", required=True, choices=("product", "ingredient", "condition", "goal", "brand", "person", "study"))
+    p_qa.add_argument("--type", required=True, choices=_TYPES)
     p_qa.add_argument("--priority", type=int, default=5)
     p_qa.add_argument("--from", dest="discovered_from", default=None)
     p_qa.add_argument("--source", default=None)
     p_qa.set_defaults(func=cmd_queue_add)
     p_q = sub.add_parser("queue")
-    p_q.add_argument("--type", default=None)
+    p_q.add_argument("--type", default=None, choices=_TYPES)
     p_q.set_defaults(func=cmd_queue)
     p_qr = sub.add_parser("queue-resolve")
     p_qr.add_argument("name")
+    p_qr.add_argument("--type", default=None, choices=_TYPES)
     p_qr.set_defaults(func=cmd_queue_resolve)
+    p_qn = sub.add_parser("queue-next")
+    p_qn.add_argument("--type", required=True, choices=_TYPES)
+    p_qn.add_argument("--json", action="store_true")
+    p_qn.set_defaults(func=cmd_queue_next)
+    p_gc = sub.add_parser("gate-check")
+    p_gc.add_argument("--type", required=True, choices=_TYPES)
+    p_gc.set_defaults(func=cmd_gate_check)
+    sub.add_parser("queue-migrate").set_defaults(func=cmd_queue_migrate)
     args = parser.parse_args(argv)
     return args.func(args)
 

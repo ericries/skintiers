@@ -1,0 +1,36 @@
+- name: Ranella Hirsch
+  type: person
+  priority: 6
+  status: pending
+  discovered_from: null
+  source: null
+- name: Heather D. Rogers
+  type: person
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null
+- name: Sam Bunting
+  type: person
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null
+- name: Eric L. Simpson
+  type: person
+  priority: 4
+  status: pending
+  discovered_from: cerave-moisturizing-cream
+  source: null
+- name: Dr. Ellis
+  type: person
+  priority: 7
+  status: pending
+  discovered_from: null
+  source: null
+- name: Shereene Idriss
+  type: person
+  priority: 7
+  status: pending
+  discovered_from: user request 2026-07-27
+  source: https://www.youtube.com/@DrIdriss

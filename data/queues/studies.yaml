@@ -1,0 +1,18 @@
+- name: van Zuuren 2017 Cochrane emollients/moisturizers for eczema review
+  type: study
+  priority: 6
+  status: pending
+  discovered_from: cerave-moisturizing-cream
+  source: null
+- name: Spada 2021 ceramide-dominant cream eczema RCT
+  type: study
+  priority: 6
+  status: pending
+  discovered_from: cerave-moisturizing-cream
+  source: null
+- name: Leshem 2020 OTC moisturizers skin-barrier RCT
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: cerave-moisturizing-cream
+  source: null
