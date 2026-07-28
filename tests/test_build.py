@@ -77,6 +77,49 @@ def test_index_nav_hides_categories_with_no_published_content(tmp_path):
     assert "Ingredients (1)" in cat_nav
 
 
+def test_products_listing_groups_by_category_in_order(tmp_path):
+    data = tmp_path / "data"
+    out = tmp_path / "_site"
+    pdir = data / "products"
+    pdir.mkdir(parents=True)
+
+    def _prod(slug, category=None):
+        cat = f"category: {category}\n" if category else ""
+        (pdir / f"{slug}.md").write_text(
+            f"---\nname: {slug.title()}\nslug: {slug}\ntype: product\n"
+            f"status: published\nupdated: 2026-07-26\nanalyzed: 2026-07-26\n"
+            f"{cat}---\n\nBody.\n")
+
+    # Deliberately out of display order in the file glob; Moisturizers should
+    # still render AFTER Sunscreens, and the uncategorized one under "Other".
+    _prod("a-cream", "Moisturizers")
+    _prod("b-spf", "Sunscreens")
+    _prod("c-mystery")  # no category -> "Other"
+    # Ingredient listing must stay flat (no category grouping).
+    _write(data / "ingredients", "niacinamide", "published", "ingredient")
+
+    env = {**os.environ, "SK_DATA": str(data), "SK_OUTPUT": str(out)}
+    r = subprocess.run([sys.executable, str(ROOT / "build.py")], env=env,
+                       capture_output=True, text=True)
+    assert r.returncode == 0, r.stderr
+
+    products_html = (out / "products.html").read_text()
+    # All three category headings present.
+    assert 'class="listing-group">Sunscreens<' in products_html
+    assert 'class="listing-group">Moisturizers<' in products_html
+    assert 'class="listing-group">Other<' in products_html
+    # Order: Sunscreens (a defined bucket) before Moisturizers, both before Other.
+    assert (products_html.index("Sunscreens")
+            < products_html.index("Moisturizers")
+            < products_html.index("Other"))
+    # Each product sits under its heading.
+    assert products_html.index("Sunscreens") < products_html.index("B-Spf")
+    assert products_html.index("Moisturizers") < products_html.index("A-Cream")
+    assert products_html.index("Other") < products_html.index("C-Mystery")
+    # The flat ingredient listing has no group headings.
+    assert 'class="listing-group"' not in (out / "ingredients.html").read_text()
+
+
 def test_build_renders_tagged_index_on_condition_page(tmp_path):
     data = tmp_path / "data"
     out = tmp_path / "_site"

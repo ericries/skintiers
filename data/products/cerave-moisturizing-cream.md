@@ -1,5 +1,6 @@
 ---
 analyzed: '2026-07-27'
+category: Moisturizers
 name: CeraVe Moisturizing Cream
 slug: cerave-moisturizing-cream
 status: published

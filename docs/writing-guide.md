@@ -44,6 +44,13 @@ substance. The linter requires `grades:` frontmatter and a `## Sources` heading.
   no comparison exists. If a real cited head-to-head comparison exists, report it instead.
 - `## Where to Buy`: verified SKU-level links only. No disclaimer text.
 - `## Sources`: only what this page cites. Renders as the numbered reference list.
+- **`category:` frontmatter (required):** the high-level bucket the Products index groups this
+  product under. Use one of the existing category labels (Sunscreens, Moisturizers, Retinoids,
+  Vitamin C serums, Azelaic acid, Peptide serums) when the product fits; the two format buckets
+  (Sunscreens, Moisturizers) take precedence over active-based ones. A product with no `category`,
+  or one whose label is not in `PRODUCT_CATEGORY_ORDER` in `build.py`, falls into an "Other" bucket
+  at the bottom of the index. If a genuinely new high-level category is needed, do not invent it
+  silently: add the label to `PRODUCT_CATEGORY_ORDER` (with a matching test) and flag it for review.
 - `recommended_in:` frontmatter (optional): external best-of lists that recommend this product,
   each `title` + `url` + `source`. Every URL must be verified to load AND to actually recommend
   the product. Omit the field entirely if none verify. Never fabricate a list or a URL.

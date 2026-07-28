@@ -49,7 +49,10 @@ Promote a new type only after the user signs off on its exemplar: add it to that
    product image(s) in `images:` (prefer the manufacturer's own hosted image; if the source blocks
    hotlinking, which many retailer CDNs do and a curl HEAD 200 does NOT rule out, download it into
    `static/images/` and reference it by filename; confirm the built page actually renders the
-   image) and SKU-level `## Where to Buy` links. Encounter-enqueue any
+   image) and SKU-level `## Where to Buy` links. Set the required `category:` frontmatter to the
+   product's high-level Products-index bucket (one of the existing labels in `PRODUCT_CATEGORY_ORDER`
+   in build.py; format buckets Sunscreens/Moisturizers win over active-based ones); if none fit, do
+   not invent one silently, flag it for review. Encounter-enqueue any
    novel entity with `sk queue-add "<name>" --type <t> --priority <1-10> --from <slug>`. Run
    `sk lint <slug>`, `sk verify <slug>`, `sk style <slug>` and fix until lint+style are clean and
    verify is clean (a single benign manufacturer/aggregator-URL warning, correctly attributed, is

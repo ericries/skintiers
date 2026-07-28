@@ -4,9 +4,20 @@
 <div class="page-head">
   <h1>{{ heading }}</h1>
 </div>
+{% if groups %}
+{% for group in groups %}
+  <h2 class="listing-group">{{ group.label }}</h2>
+  <ul class="listing">
+  {% for item in group.items %}
+    <li><a href="{{ item.slug }}.html">{{ item.name }}</a><span class="st">{{ item.status }}</span></li>
+  {% endfor %}
+  </ul>
+{% endfor %}
+{% else %}
 <ul class="listing">
 {% for item in items %}
   <li><a href="{{ item.slug }}.html">{{ item.name }}</a><span class="st">{{ item.status }}</span></li>
 {% endfor %}
 </ul>
+{% endif %}
 {% endblock %}

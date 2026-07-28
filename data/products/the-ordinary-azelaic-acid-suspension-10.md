@@ -5,6 +5,7 @@ type: product
 status: stub
 updated: '2026-07-27'
 analyzed: '2026-07-27'
+category: Azelaic acid
 ---
 
 The Ordinary Azelaic Acid Suspension 10% is a leave-on cream with a labeled 10% azelaic acid. This profile is a stub.

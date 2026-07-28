@@ -17,6 +17,36 @@ LISTINGS = (
     ("goal", "goals", "Goals"),
 )
 
+# High-level buckets for the Products index. Two are by product format
+# (Sunscreens, Moisturizers); the rest are by primary active and mirror the
+# ingredient hubs. Order is stable; anything without a known category falls
+# into "Other" at the end so nothing is dropped from the listing.
+PRODUCT_CATEGORY_ORDER = (
+    "Sunscreens",
+    "Moisturizers",
+    "Retinoids",
+    "Vitamin C serums",
+    "Azelaic acid",
+    "Peptide serums",
+)
+
+
+def grouped_by_category(metadatas, order):
+    """Group product metadata dicts into [{label, items}] by their `category`
+    field, following `order`; unknown/missing categories collect under
+    "Other". Empty groups are omitted. Within a group, original (alphabetical
+    by slug) order is preserved."""
+    buckets = {label: [] for label in order}
+    other = []
+    for m in metadatas:
+        label = m.get("category")
+        (buckets[label] if label in buckets else other).append(m)
+    groups = [types.SimpleNamespace(label=label, items=buckets[label])
+              for label in order if buckets[label]]
+    if other:
+        groups.append(types.SimpleNamespace(label="Other", items=other))
+    return groups
+
 # type -> listing page filename (for the profile kicker link).
 TYPE_HREF = {typ: f"{filename}.html" for typ, filename, _ in LISTINGS}
 
@@ -167,7 +197,12 @@ def build():
         of_type = [p for p in profiles if p.get("type") == typ]
         items = [p.metadata for p in of_type]
         published_count = sum(1 for p in of_type if p.get("status") == "published")
-        html = env.get_template("listing.html").render(heading=label, items=items)
+        # The Products index is grouped into high-level categories; the other
+        # listings stay flat.
+        groups = grouped_by_category(items, PRODUCT_CATEGORY_ORDER) \
+            if typ == "product" else None
+        html = env.get_template("listing.html").render(
+            heading=label, items=items, groups=groups)
         (out / f"{filename}.html").write_text(html)
         if published_count >= 1:
             nav_categories.append(

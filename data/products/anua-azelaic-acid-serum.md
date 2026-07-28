@@ -1,5 +1,6 @@
 ---
 analyzed: '2026-07-27'
+category: Azelaic acid
 comparator: other azelaic acid products
 grades:
 - effect: minimal

@@ -1,5 +1,6 @@
 ---
 analyzed: '2026-07-27'
+category: Sunscreens
 comparator: broad-spectrum sunscreens, including modern-filter products sold in the EU, Korea, and Australia
 grades:
 - effect: strong

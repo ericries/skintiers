@@ -1,5 +1,6 @@
 ---
 analyzed: '2026-07-27'
+category: Retinoids
 comparator: other OTC retinol serums
 grades:
 - effect: modest

@@ -1,5 +1,6 @@
 ---
 analyzed: '2026-07-28'
+category: Sunscreens
 comparator: broad-spectrum sunscreens, including older US-filter products
 grades:
 - effect: strong

@@ -140,7 +140,10 @@ sup a{font-family:var(--mono);font-size:.66em;border:none;padding:0 1px}
 .page-head{padding:44px 0 4px}
 .page-head h1{font-size:34px}
 .lede{color:var(--muted);font-size:19px;margin:0 0 8px;max-width:60ch}
+h2.listing-group{font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin:40px 0 0;padding-bottom:6px;border-bottom:1px solid var(--rule-strong)}
+h2.listing-group:first-of-type{margin-top:28px}
 ul.listing{list-style:none;padding:0;margin:24px 0 0}
+h2.listing-group + ul.listing{margin-top:6px}
 ul.listing li{padding:14px 0;border-top:1px solid var(--rule);display:flex;justify-content:space-between;gap:14px;align-items:baseline}
 ul.listing li:first-child{border-top:none}
 ul.listing a{border:none;font-size:20px}

@@ -1,5 +1,6 @@
 ---
 analyzed: '2026-07-27'
+category: Vitamin C serums
 comparator: other vitamin C and centella serums
 grades:
 - effect: modest

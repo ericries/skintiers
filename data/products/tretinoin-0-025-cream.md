@@ -1,5 +1,6 @@
 ---
 analyzed: '2026-07-27'
+category: Retinoids
 name: Tretinoin 0.025% cream
 slug: tretinoin-0-025-cream
 status: published
