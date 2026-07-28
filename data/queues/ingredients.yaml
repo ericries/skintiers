@@ -166,3 +166,21 @@
   status: pending
   discovered_from: cholesterol
   source: null
+- name: Homosalate
+  type: ingredient
+  priority: 6
+  status: pending
+  discovered_from: la-roche-posay-anthelios-melt-in-milk-spf-60
+  source: null
+- name: Octisalate
+  type: ingredient
+  priority: 6
+  status: pending
+  discovered_from: la-roche-posay-anthelios-melt-in-milk-spf-60
+  source: null
+- name: Octocrylene
+  type: ingredient
+  priority: 6
+  status: pending
+  discovered_from: la-roche-posay-anthelios-melt-in-milk-spf-60
+  source: null

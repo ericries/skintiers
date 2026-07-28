@@ -69,3 +69,14 @@ benzoyl-peroxide:
     hedges + ''everything else'' absence-tier + reader-instruction ''Discount X''
     cut, unconfirmed ''independent'' and uncited sensitive-skin irritation claim removed).
     lint/verify/style clean. Escalated: 3rd primary for the no-resistance claim.'
+la-roche-posay-anthelios-melt-in-milk-spf-60:
+  last_reviewed: '2026-07-27'
+  score: 9
+  verdict: publish
+  note: 'first autonomous product-cron draft. Actives (avobenzone 3%, homosalate 10%,
+    octisalate 5%, octocrylene 7%, Broad Spectrum SPF 60, water resistant 80 min)
+    and inactives verbatim vs DailyMed Drug Facts label; Forbes quote verbatim. Critic
+    revise -> 4 fixes: removed texture grade (category error), deleted uncited FDA-monograph
+    sentence, dropped unverified non-SKU manufacturer buy link, moved Forbes endorsement
+    out of The Evidence. Self-hosted product image (Ulta/Target CDNs block hotlinking).
+    lint/verify/style clean.'

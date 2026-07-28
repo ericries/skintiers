@@ -1,7 +1,7 @@
 - name: La Roche-Posay Anthelios Melt-in Milk SPF 60
   type: product
   priority: 10
-  status: pending
+  status: done
   discovered_from: null
   source: null
 - name: SkinCeuticals C E Ferulic
@@ -297,4 +297,106 @@
   priority: 6
   status: pending
   discovered_from: null
+  source: null
+- name: Anua Azelaic Acid Serum
+  type: product
+  priority: 10
+  status: pending
+  discovered_from: user-list-2026-07-27
+  source: null
+- name: AZ20 azelaic acid serum
+  type: product
+  priority: 10
+  status: pending
+  discovered_from: user-list-2026-07-27
+  source: null
+- name: Beauty of Joseon Vitamin C + Cica serum
+  type: product
+  priority: 10
+  status: pending
+  discovered_from: user-list-2026-07-27
+  source: null
+- name: Prequel Vitamin C serum
+  type: product
+  priority: 10
+  status: pending
+  discovered_from: user-list-2026-07-27
+  source: null
+- name: Anua Retinol + Salicylic Acid serum
+  type: product
+  priority: 10
+  status: pending
+  discovered_from: user-list-2026-07-27
+  source: null
+- name: COSRX 6 Peptide Skin Booster Serum
+  type: product
+  priority: 10
+  status: pending
+  discovered_from: user-list-2026-07-27
+  source: null
+- name: The Ordinary Copper Peptides serum
+  type: product
+  priority: 10
+  status: pending
+  discovered_from: user-list-2026-07-27
+  source: null
+- name: The Ordinary Multi-Peptide serum
+  type: product
+  priority: 10
+  status: pending
+  discovered_from: user-list-2026-07-27
+  source: null
+- name: Neutrogena Ultra Sheer Dry-Touch SPF 70
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: la-roche-posay-anthelios-melt-in-milk-spf-60
+  source: null
+- name: CeraVe Hydrating Mineral Sunscreen SPF 30 Face
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: la-roche-posay-anthelios-melt-in-milk-spf-60
+  source: null
+- name: SkinMedica Retinol Complex 1.0
+  type: product
+  priority: 9
+  status: pending
+  discovered_from: wirecutter-best-retinols
+  source: null
+- name: Medik8 Crystal Retinal 3
+  type: product
+  priority: 9
+  status: pending
+  discovered_from: wirecutter-best-retinols
+  source: null
+- name: Youth To The People Retinal + Niacinamide Youth Serum
+  type: product
+  priority: 9
+  status: pending
+  discovered_from: wirecutter-best-retinols
+  source: null
+- name: LilyAna Naturals Retinol Cream
+  type: product
+  priority: 9
+  status: pending
+  discovered_from: wirecutter-best-retinols
+  source: null
+- name: La Roche-Posay Effaclar Adapalene Gel 0.1%
+  type: product
+  priority: 9
+  status: pending
+  discovered_from: wirecutter-best-retinols
+  source: null
+- name: Trader Joe's Retinol Night Serum
+  type: product
+  priority: 9
+  status: pending
+  discovered_from: wirecutter-best-retinols
+  source: null
+- name: L'Oreal Paris Revitalift 0.3% Pure Retinol Serum
+  type: product
+  priority: 9
+  status: pending
+  discovered_from: wirecutter-best-retinols
   source: null
