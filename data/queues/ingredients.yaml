@@ -184,3 +184,15 @@
   status: pending
   discovered_from: la-roche-posay-anthelios-melt-in-milk-spf-60
   source: null
+- name: Ferulic acid
+  type: ingredient
+  priority: 6
+  status: pending
+  discovered_from: skinceuticals-c-e-ferulic
+  source: null
+- name: Carnosine
+  type: ingredient
+  priority: 3
+  status: pending
+  discovered_from: skinceuticals-c-e-ferulic
+  source: null

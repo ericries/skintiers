@@ -7,7 +7,7 @@
 - name: SkinCeuticals C E Ferulic
   type: product
   priority: 10
-  status: pending
+  status: done
   discovered_from: null
   source: null
 - name: Differin Adapalene 0.1% Gel
@@ -304,7 +304,7 @@
   status: pending
   discovered_from: user-list-2026-07-27
   source: null
-- name: AZ20 azelaic acid serum
+- name: Cos De BAHA AZ20 Azelaic Acid 20% Serum
   type: product
   priority: 10
   status: pending

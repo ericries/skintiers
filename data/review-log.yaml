@@ -80,3 +80,14 @@ la-roche-posay-anthelios-melt-in-milk-spf-60:
     sentence, dropped unverified non-SKU manufacturer buy link, moved Forbes endorsement
     out of The Evidence. Self-hosted product image (Ulta/Target CDNs block hotlinking).
     lint/verify/style clean.'
+skinceuticals-c-e-ferulic:
+  last_reviewed: '2026-07-27'
+  score: 9
+  verdict: publish
+  note: 'product-cron draft; composition (15% L-ascorbic/1% tocopherol/0.5% ferulic)
+    verbatim vs manufacturer + Lin/Murray; industry funding + surrogate endpoints
+    flagged. Critic revise -> fixed: Pinnell 2001 ''15%'' misattribution corrected
+    to the source''s 20%-optimal finding (and noted product uses 15%); ''negative
+    for thymine dimers'' softened to ''efficiently reduced''; de-quoted paywalled
+    manufacturer/NBC strings. lint/style clean; verify one benign manufacturer-URL
+    warning.'
