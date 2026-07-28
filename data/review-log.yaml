@@ -12,8 +12,8 @@ cerave-moisturizing-cream:
     Critic revise -> 3 accuracy fixes applied (overstated "two studies of this cream"
     corrected: only Leshem tested CeraVe, Spada is a different Ego ceramide cream;
     paraphrased EASI quote unquoted; uncited StatPearls "most effective occlusive"
-    superlative removed). All 3 recommended_in URLs re-fetched and confirmed to
-    recommend the product. Re-review verdict publish; lint/verify/style clean.'
+    superlative removed). All 3 recommended_in URLs re-fetched and confirmed to recommend
+    the product. Re-review verdict publish; lint/verify/style clean.'
 azelaic-acid:
   last_reviewed: '2026-07-27'
   score: 8
@@ -34,28 +34,38 @@ dimethicone:
   last_reviewed: '2026-07-27'
   score: 9
   verdict: publish
-  note: 'ingredient draft; critic verdict publish. StatPearls + Kang 2022 quotes re-fetched
-    and verbatim; occlusion graded category-level (no dimethicone-specific trial); silicone
-    attribution tightened. lint/verify/style clean.'
+  note: ingredient draft; critic verdict publish. StatPearls + Kang 2022 quotes re-fetched
+    and verbatim; occlusion graded category-level (no dimethicone-specific trial);
+    silicone attribution tightened. lint/verify/style clean.
 cholesterol:
   last_reviewed: '2026-07-27'
   score: 9
   verdict: publish
-  note: 'ingredient draft; critic verdict publish. Man 1996 + Elias 2012 quotes re-fetched
-    and verbatim; effect held at mechanism/formulation level (barrier lipid, needs correct
-    1:1:1 ratio), no product-efficacy claim. lint/verify/style clean.'
+  note: ingredient draft; critic verdict publish. Man 1996 + Elias 2012 quotes re-fetched
+    and verbatim; effect held at mechanism/formulation level (barrier lipid, needs
+    correct 1:1:1 ratio), no product-efficacy claim. lint/verify/style clean.
 phytosphingosine:
   last_reviewed: '2026-07-27'
   score: 8
   verdict: publish
-  note: 'ingredient draft; critic flagged 2 paraphrases-in-quotes, both fixed ("a lipid
+  note: ingredient draft; critic flagged 2 paraphrases-in-quotes, both fixed ("a lipid
     occurring naturally in the stratum corneum" verbatim; dropped non-verbatim "significant"
-    from ultrastructural damage). Pavicic 2007 + Fischer 2013; acne signal graded preliminary
-    (single study). lint/verify/style clean.'
+    from ultrastructural damage). Pavicic 2007 + Fischer 2013; acne signal graded
+    preliminary (single study). lint/verify/style clean.
 tocopherol:
   last_reviewed: '2026-07-27'
   score: 9
   verdict: publish
-  note: 'ingredient draft; critic verdict publish. Keen & Hassan 2016 + Podhaisky 2002
+  note: ingredient draft; critic verdict publish. Keen & Hassan 2016 + Podhaisky 2002
     quotes re-fetched and verbatim; antioxidant mechanism vs sparse/negative clinical
-    evidence (scars/burns disappointing, no skin-cancer effect). lint/verify/style clean.'
+    evidence (scars/burns disappointing, no skin-cancer effect). lint/verify/style
+    clean.
+benzoyl-peroxide:
+  last_reviewed: '2026-07-27'
+  score: 8
+  verdict: publish
+  note: 'review tick: numbers all verbatim-verified; safe fixes applied (2 misquotes
+    -> verbatim, 2 unconfirmed quotes trimmed, all em/en dashes removed, evidence-gap
+    hedges + ''everything else'' absence-tier + reader-instruction ''Discount X''
+    cut, unconfirmed ''independent'' and uncited sensitive-skin irritation claim removed).
+    lint/verify/style clean. Escalated: 3rd primary for the no-resistance claim.'
