@@ -64,11 +64,12 @@ research process, write "no X found", pad a tier, add disclaimers, or editoriali
 
 ## Sunscreens: grade in a global context, and explain SPF
 Sunscreen is a special case. Evaluate every sunscreen against the GLOBAL field, not just its home
-market. The US FDA has not approved several modern UV filters (for example bemotrizinol / Tinosorb
-S, bisoctrizole / Tinosorb M, and the Mexoryl filters) that are standard in the EU, Korea, and
-Australia, so many US sunscreens rely on older filters (avobenzone, homosalate, octocrylene,
-octisalate) whose UVA protection and photostability are weaker. A US "Broad Spectrum SPF 60" is not
-equivalent to a Korean or European broad-spectrum product built on modern filters.
+market. Several modern UV filters standard in the EU, Korea, and Australia (bisoctrizole / Tinosorb
+M, and the Mexoryl filters) are still outside the US OTC monograph, and bemotrizinol / Tinosorb S
+was only added to it in 2026, so most sunscreens on US shelves still rely on older filters
+(avobenzone, homosalate, octocrylene, octisalate) whose UVA protection and photostability are
+weaker. A US "Broad Spectrum SPF 60" built on those older filters is not equivalent to a Korean or
+European broad-spectrum product built on modern filters.
 - **Explain the mechanism, cited.** SPF measures protection against UVB (sunburn). UVA (photoaging,
   and a cancer contributor) is a separate axis that the older US filters cover less well. State
   which filters the product uses and what part of the spectrum each covers, per the label.

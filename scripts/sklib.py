@@ -141,6 +141,9 @@ _PRIMARY_DOMAINS = (
     "nejm.org", "bmj.com", "sciencedirect.com", "onlinelibrary.wiley.com",
     "karger.com", "dpcj.org", "jaad.org", "ema.europa.eu", "bfr.bund.de",
     "who.int", "medicaljournals.se",
+    # Official US government publishers of federal law/regulation (primary,
+    # same class as .fda.gov): the eCFR/CFR and the Federal Register.
+    "govinfo.gov", "ecfr.gov", "federalregister.gov",
 )
 _AGGREGATOR_DOMAINS = (
     "ewg.org", "incidecoder.com", "wikipedia.org", "reddit.com", "healthline.com",

@@ -1,11 +1,15 @@
 ---
 analyzed: '2026-07-27'
-comparator: other broad-spectrum sunscreens
+comparator: broad-spectrum sunscreens, including modern-filter products sold in the EU, Korea, and Australia
 grades:
 - effect: strong
-  evidence: gold-standard
-  note: category-level benefit
-  use: As a broad-spectrum sunscreen
+  evidence: solid
+  note: SPF 60, a high UVB rating among broad-spectrum sunscreens
+  use: UVB (sunburn) protection
+- effect: modest
+  evidence: solid
+  note: rests on avobenzone, the older US UVA filter; below modern-filter (Tinosorb, Mexoryl) sunscreens sold in the EU, Korea, and Australia
+  use: UVA (photoaging) protection
 images:
 - la-roche-posay-anthelios-melt-in-milk-spf-60.png
 name: La Roche-Posay Anthelios Melt-in Milk Sunscreen SPF 60
@@ -21,7 +25,7 @@ updated: '2026-07-27'
 
 La Roche-Posay Anthelios Melt-in Milk is a fragrance-free chemical sunscreen lotion for face and body, rated Broad Spectrum SPF 60 and water resistant for 80 minutes, with the UV filters avobenzone 3%, homosalate 10%, octisalate 5%, and octocrylene 7%.[^1]
 
-> Regular use of a broad-spectrum sunscreen has randomized-trial support for slowing photoaging and reducing some skin cancers (see [[sunscreen-uv-filters]]). This product carries an FDA Broad Spectrum SPF 60, water-resistant-80-minute rating, a high SPF among broad-spectrum sunscreens.[^1]
+> This product pairs a high UVB rating (FDA Broad Spectrum SPF 60, water resistant 80 minutes) with UVA protection that rests on avobenzone, the older US UVA filter.[^1] Its sunburn (UVB) protection is strong; its photoaging (UVA) protection is more limited than modern-filter sunscreens built on Tinosorb or Mexoryl that are standard in the EU, Korea, and Australia.[^2] Regular use of a broad-spectrum sunscreen has randomized-trial support for slowing photoaging and reducing some skin cancers; how SPF, UVA, and the filter set fit together is covered on [[sunscreen-uv-filters]].
 
 ## The Evidence
 
@@ -29,7 +33,9 @@ Whether regular sunscreen use works, and how, is covered on [[sunscreen-uv-filte
 
 The Drug Facts panel lists the product as "Broad Spectrum SPF 60" and "water resistant (80 minutes)," with the active filters avobenzone 3% (a UVA filter) and homosalate 10%, octisalate 5%, and octocrylene 7% (UVB filters).[^1]
 
-> **Bottom line.** In the standardized testing behind its label, the product rates Broad Spectrum SPF 60 and water resistant for 80 minutes.[^1] How much additional UVB a higher SPF blocks, and how real-world under-application lowers the SPF actually delivered, are covered on [[sunscreen-uv-filters]].
+The SPF 60 rating certifies UVB (sunburn) strength; it does not certify how strong the UVA (photoaging) protection is. This formula's UVA protection rests on the avobenzone 3%, which a Journal of Drugs in Dermatology review describes as "the sole chemical approved by the FDA to afford UVA protection" and as "highly unstable," which is why formulas like this one add octocrylene to help retard its degradation.[^2] The modern UVA filters standard in the EU, Korea, and Australia (bemotrizinol and bisoctrizole, sold as Tinosorb S and Tinosorb M, and the Mexoryl filters) "offer better protection from UVA and free radicals than avobenzone," and US sunscreens as a group "allow three times as much UVA penetration as do European sunscreens."[^2] The strong SPF 60 here is a UVB number; on the UVA axis this is the older US filter tier. See [[sunscreen-uv-filters]] for the mechanism and the global filter landscape.
+
+> **Bottom line.** In FDA-standardized testing the product rates Broad Spectrum SPF 60 and water resistant for 80 minutes, a strong UVB (sunburn) rating.[^1] Its UVA (photoaging) protection rests on avobenzone and is more limited than modern-filter sunscreens (Tinosorb, Mexoryl) sold outside the US.[^2] How much additional UVB a higher SPF blocks, how under-application lowers the delivered SPF, and how the filter set shapes UVA coverage are covered on [[sunscreen-uv-filters]].
 
 ## What's In It
 
@@ -71,3 +77,4 @@ Similar broad-spectrum sunscreens: [[neutrogena-ultra-sheer-dry-touch-spf-70]], 
 ## Sources
 
 [^1]: La Roche-Posay Anthelios SPF 60 Melt-In Milk (avobenzone, homosalate, octisalate, octocrylene) Drug Facts label, L'Oreal USA Products Inc. DailyMed (US National Library of Medicine), label effective 2024-01-01. Active ingredients, SPF, Broad Spectrum, water resistance, and inactive-ingredient list quoted from this panel. https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=533e6623-108e-4d05-8527-c5af643f0800 (accessed 2026-07-27)
+[^2]: Akintilo L, Gendler EC. The State of Sunscreens in the US: Caveat Emptor. Journal of Drugs in Dermatology, 2020;19(8):799-801. Quotations ("the sole chemical approved by the FDA to afford UVA protection"; "highly unstable"; "offer better protection from UVA and free radicals than avobenzone"; "allow three times as much UVA penetration as do European sunscreens") verified against the full text. See [[sunscreen-uv-filters]] for the broader filter landscape. https://pubmed.ncbi.nlm.nih.gov/32845592/ (accessed 2026-07-27)

@@ -79,7 +79,10 @@ la-roche-posay-anthelios-melt-in-milk-spf-60:
     revise -> 4 fixes: removed texture grade (category error), deleted uncited FDA-monograph
     sentence, dropped unverified non-SKU manufacturer buy link, moved Forbes endorsement
     out of The Evidence. Self-hosted product image (Ulta/Target CDNs block hotlinking).
-    lint/verify/style clean.'
+    lint/verify/style clean. | Re-graded in global context (user policy): split into
+    UVB (strong/solid) and UVA (modest/solid) rows; UVA rests on avobenzone, below
+    modern-filter (Tinosorb/Mexoryl) products. Sourced to JDD 2020 (avobenzone ''highly
+    unstable''; US sunscreens allow ~3x more UVA penetration).'
 skinceuticals-c-e-ferulic:
   last_reviewed: '2026-07-27'
   score: 9
