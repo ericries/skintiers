@@ -280,14 +280,19 @@ differin-adapalene-0-1-gel:
   last_reviewed: '2026-07-28'
   score: 9
   verdict: publish
-  note: 'Differin adapalene 0.1% OTC gel; first topical retinoid Rx-to-OTC switch
-    (FDA 2016, NDA 020380 S-10). Four FDA primaries verbatim-verified (Drug Facts
-    label, Summary Review, approval letter, Drugs@FDA); adapalene class efficacy linked
-    out to [[adapalene]]/[[retinoids]] not re-argued. Critic revise->fixed: a misquote
-    (em-dash appositive rendered as a comma, which inflated the study count) corrected
-    to quote ''three consumer studies'' + enumerate in our voice; dropped an uncited
-    ''(such as Epiduo)'' aside. Acne notable/solid, photoaging modest/mixed (off-label,
-    not overclaimed vs tretinoin). Self-hosted image. lint/style clean.'
+  note: 'Reworked to the new product standard (rollout batch 2). Results-first, health-led
+    Summary (a real FDA OTC acne retinoid, not a cosmetic ''retinol''; acne is a medical
+    condition). Editorial credibility attributed to quoted board-certified dermatologists
+    (Allure/Zeichner, NBC Select/Gohara + Jaber), not a house verdict. Usage guidance
+    attributed to the FDA OTC Drug Facts label + Allure (no imperatives in our voice;
+    the one imperative sits inside an attributed derm quote, permitted). Grades health-first:
+    acne (FDA-approved use) notable/solid on the regulatory + class evidence; off-label
+    photoaging modest/mixed, class-level, linked out to [[adapalene]]/[[retinoids]].
+    Product-specific evidence = the FDA prescription-to-OTC switch record; general
+    retinoid case linked out affirmatively. Photos: side rail, 3 images (2 distinct
+    source domains + Target; minor, not fabricating a third). Critic re-fetched every
+    source: all editorial quotes verbatim + attributions real, all FDA quotes unchanged;
+    verdict publish, no fixes needed. lint/style/verify clean.'
 petrolatum:
   last_reviewed: '2026-07-28'
   score: 8
