@@ -10,37 +10,44 @@ tretinoin:
   verdict: publish
   note: 'Ingredient page (prose-evidence convention, no grades: frontmatter; may be
     cited by product pages). All 7 sources re-fetched and every quote/stat verified
-    verbatim and correctly directioned: Weiss 1988 (30 completers, 14/15 face),
-    Griffiths 1995 (n=99, 48wk, 30% vs 28% epidermal thickening; correct PMID 7544967,
-    the cited jamanetwork URL resolves fine), Huang 2025 meta-analysis (8 RCTs/1,361;
-    fine MD 0.412 95% CI 0.233-0.590 P<0.001, coarse MD 0.245 95% CI 0.119-0.370
-    P<0.001), Mavranezouli 2022 NMA (179 RCTs, ~35k obs, 49 classes, retinoid mono
-    18.27% [10.28-26.14] rank 22, +BPO 26.16% [16.75-35.36]), Cunliffe 2002 (n=409,
-    10wk, adapalene equivalent efficacy/better tolerated), RENOVA + ALTRENO labels
-    (RAR mechanism + all-caps DOES-NOT-REVERSE + comedolytic quotes) all exact.
-    Fixes applied (lint+verify+style all clean after each): (1) D2 misquote - the
-    quotation "produced similar statistically significant overall improvement in
-    photoaging" inserted the word "similar" (not in source); requoted verbatim
-    "produced statistically significant overall improvement in photoaging of the
-    face compared with vehicle" and extended the irritation quote to verbatim; (2)
-    removed an uncited comparative-efficacy claim (tretinoin "comparable to azelaic-acid
-    for comedonal acne"); (3) softened an unverifiable "meta-analysis explicitly
-    notes heterogeneity" caveat to the verifiable "modest 8-trial random-effects
+    verbatim and correctly directioned: Weiss 1988 (30 completers, 14/15 face), Griffiths
+    1995 (n=99, 48wk, 30% vs 28% epidermal thickening; correct PMID 7544967, the cited
+    jamanetwork URL resolves fine), Huang 2025 meta-analysis (8 RCTs/1,361; fine MD
+    0.412 95% CI 0.233-0.590 P<0.001, coarse MD 0.245 95% CI 0.119-0.370 P<0.001),
+    Mavranezouli 2022 NMA (179 RCTs, ~35k obs, 49 classes, retinoid mono 18.27% [10.28-26.14]
+    rank 22, +BPO 26.16% [16.75-35.36]), Cunliffe 2002 (n=409, 10wk, adapalene equivalent
+    efficacy/better tolerated), RENOVA + ALTRENO labels (RAR mechanism + all-caps
+    DOES-NOT-REVERSE + comedolytic quotes) all exact. Fixes applied (lint+verify+style
+    all clean after each): (1) D2 misquote - the quotation "produced similar statistically
+    significant overall improvement in photoaging" inserted the word "similar" (not
+    in source); requoted verbatim "produced statistically significant overall improvement
+    in photoaging of the face compared with vehicle" and extended the irritation quote
+    to verbatim; (2) removed an uncited comparative-efficacy claim (tretinoin "comparable
+    to azelaic-acid for comedonal acne"); (3) softened an unverifiable "meta-analysis
+    explicitly notes heterogeneity" caveat to the verifiable "modest 8-trial random-effects
     meta-analysis"; (4) AI-ese pass: all em dashes and en dashes removed, negative
-    parallelism and italic emphasis-hammering rephrased. sk style now clean.
-    Escalated: add a cited tretinoin-vs-azelaic head-to-head if that comparator is
-    wanted back (priority 3). Held at 9 not 10 only because the coarse/fine anti-aging
-    framing rests on subjective ordinal scales (honestly disclosed).'
+    parallelism and italic emphasis-hammering rephrased. sk style now clean. Escalated:
+    add a cited tretinoin-vs-azelaic head-to-head if that comparator is wanted back
+    (priority 3). Held at 9 not 10 only because the coarse/fine anti-aging framing
+    rests on subjective ordinal scales (honestly disclosed).'
 cerave-moisturizing-cream:
-  last_reviewed: '2026-07-27'
+  last_reviewed: '2026-07-28'
   score: 9
   verdict: publish
-  note: 'restructured to grades-dossier + bottom-line blockquotes + Recommended In.
-    Critic revise -> 3 accuracy fixes applied (overstated "two studies of this cream"
-    corrected: only Leshem tested CeraVe, Spada is a different Ego ceramide cream;
-    paraphrased EASI quote unquoted; uncited StatPearls "most effective occlusive"
-    superlative removed). All 3 recommended_in URLs re-fetched and confirmed to recommend
-    the product. Re-review verdict publish; lint/verify/style clean.'
+  note: 'Reworked to the new product standard (batch 1 of the sitewide rollout). Results-first
+    accessible Summary leading with the HEALTH role (barrier support, slowing transepidermal
+    water loss), cosmetic feel labeled secondary. Editorial credibility now attributed
+    to QUOTED named dermatologists (NewBeauty: Blyumin-Karasik ''sworn by''/''to protect
+    and reinforce the skin barrier'', Levine ''a cream over a lotion for treating
+    dry skin'', DeRosa ''a nice budget-friendly hydrating moisturizer'') + the NEA
+    Seal framed as a suitability program, not our verdict. No imperatives (usage guidance
+    only via the attributed cream-vs-lotion quote). Grades health-first: barrier support
+    notable/solid (category evidence + underpowered Leshem 2020), ceramide-specific
+    row minimal/mixed (Spada 2021 TEWL P=.0342 but EASI not sig vs vehicle P=.7804).
+    Product-specific evidence only; general case linked out affirmatively to [[moisturizing]]/[[ceramides]]/[[van-zuuren-2017...]].
+    Photos: 3-source side rail (CeraVe/Target/Ulta), self-hosted. Critic re-fetched
+    all sources, verified every quote verbatim, fixed one wrong pronoun (he->she for
+    Levine). lint/style clean; verify WARNs only on manufacturer/org/editorial domains.'
 azelaic-acid:
   last_reviewed: '2026-07-27'
   score: 8
