@@ -4,3 +4,9 @@
   status: pending
   discovered_from: glass-skin
   source: null
+- name: Atopic dermatitis (eczema)
+  type: condition
+  priority: 6
+  status: pending
+  discovered_from: van-zuuren-2017-emollients-moisturisers-eczema
+  source: null

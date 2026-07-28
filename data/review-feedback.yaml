@@ -152,3 +152,14 @@
   priority: 6
   added: '2026-07-28'
   status: pending
+- slug: van-zuuren-2017-emollients-moisturisers-eczema
+  dimension: sign-off
+  issue: 'exemplar drafted for study (slug van-zuuren-2017-emollients-moisturisers-eczema),
+    needs sign-off before this list scales. First study page: neutral single-paper
+    summary of the van Zuuren 2017 Cochrane emollients-for-eczema review. Critic 10/10
+    publish (every quote/stat re-verified verbatim and correctly directioned).'
+  suggested_fix: 'User reviews the rendered page; on approval set status: published
+    and add ''study'' to AUTOPUBLISH_TYPES if the study page-type standard is approved.'
+  priority: 6
+  added: '2026-07-28'
+  status: pending

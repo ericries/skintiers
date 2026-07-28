@@ -337,3 +337,17 @@ samantha-ellis:
     (surname only). Enabling tooling: added CMS/NPPES to primary-source allowlist
     (114 tests pass). Remaining verify warning is the quarantined prequelskin.com
     brand source (acceptable).'
+van-zuuren-2017-emollients-moisturisers-eczema:
+  last_reviewed: '2026-07-28'
+  score: 10
+  verdict: publish
+  note: 'First STUDY page (gated type, kept DRAFT pending user sign-off). Neutral
+    single-paper summary of the van Zuuren 2017 Cochrane review (CD012119.pub2) of
+    emollients/moisturisers for eczema: 77 RCTs, 6603 participants. Critic re-fetched
+    all three cited renderings (PMC full text, PubMed, Cochrane plain-language summary)
+    and confirmed every quote verbatim and every statistic (all SMD/MD/RR/HR with
+    CIs + denominators, GRADE ratings, 46/77 pharma-funded, 36/34/7 risk-of-bias split)
+    exact and correctly directioned; no overstatement. Applied one verified completeness
+    polish (added oat fewer-flares RR 0.31 finding for symmetry). Note: a study page''s
+    Sources are the one paper in its official renderings, not 3 independent studies
+    — correct for this page type, not a D1 miss.'
