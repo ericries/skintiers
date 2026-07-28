@@ -35,6 +35,12 @@ as filler, "at the end of the day", "in conclusion", "overall,".
 ## SkinTiers substance rules (why we care, beyond style)
 - **Inform, do not instruct.** State what the evidence shows. Do not tell the reader what to do.
   No "pick it", "skip it", "don't be fooled", "don't overpay", "you should". The reader decides.
+  This includes USAGE and routine directions: never write "apply in the morning", "use twice a
+  week", "start slow", "pair with sunscreen" in our own voice. If usage guidance belongs on the
+  page, source it: quote an authority (named dermatologist, the manufacturer's directions, a
+  reputable outlet) with a link, or frame it as an attributed norm and link an example ("it is
+  typically recommended to use it in the morning under sunscreen [link]"). How a product is
+  commonly used is a cited fact, not our instruction.
 - **No uncited editorial or contestable claim.** Every substantive statement is backed by a
   named authority or citation. "Oversold" / "not worth it" / "the best" are opinions; instead
   report the cited fact ("the RCT found no difference in symptom scores between the ceramide

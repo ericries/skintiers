@@ -32,6 +32,15 @@ study limitations) down into `## The Evidence`, where an expert reviewer can che
 open with jargon. Be clear and affirmative about what IS settled ("vitamin C is a well-evidenced
 antioxidant, and this is a well-studied formulation of it") before getting into nuance.
 
+**1a. Never instruct the reader; attribute usage guidance.** Do not tell the reader what to do.
+Avoid imperatives such as "apply this in the morning", "use it twice a week", "start slow",
+"pair it with sunscreen", "wait 20 minutes". Usage guidance is only allowed when it is SOURCED:
+either (a) quote an authority (a named dermatologist, the manufacturer's own directions, a reputable
+outlet) stating it, with a link, or (b) frame it as an attributed norm and link an example, e.g.
+"vitamin C serums are typically recommended for morning use under sunscreen ([dermatologists in
+Wirecutter describe that routine](url))". Report how a product is commonly used as a cited fact,
+never as a command in our own voice. The same applies to routines and frequency.
+
 **2. Attribute editorial opinions to credible sources; do not manufacture them.** When the page
 needs a judgment that is not a plain fact (is it good, is it worth the price, is it the best or the
 original version, is it worth the hype), do NOT invent our own verdict or let a house-generated
