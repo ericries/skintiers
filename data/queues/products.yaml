@@ -331,7 +331,7 @@
 - name: COSRX 6 Peptide Skin Booster Serum
   type: product
   priority: 10
-  status: pending
+  status: done
   discovered_from: user-list-2026-07-27
   source: null
 - name: The Ordinary Copper Peptides serum
@@ -343,7 +343,7 @@
 - name: The Ordinary Multi-Peptide serum
   type: product
   priority: 10
-  status: pending
+  status: done
   discovered_from: user-list-2026-07-27
   source: null
 - name: Neutrogena Ultra Sheer Dry-Touch SPF 70

@@ -147,3 +147,21 @@ retinoids:
     grade, bakuchiol flagged as a non-retinoid alternative. All quotes reuse citations
     verbatim-verified this session; adapalene OTC status anchored to a live DailyMed
     Drug Facts label. lint/verify/style clean.'
+the-ordinary-multi-peptide-ha-serum:
+  last_reviewed: '2026-07-27'
+  score: 8
+  verdict: publish
+  note: 'The Ordinary Buffet; peptide anti-aging graded minimal/preliminary (Nukaly
+    2026 19-RCT meta-analysis: small effect, oral-driven), hydrator modest/solid;
+    Argireline 30% contextualized (10% single-peptide emulsion). Critic revise->fixed:
+    removed unsupported ''peptide''s developers'' COI claim (cited study lists academic
+    affiliation only), ''Five''->''five''. Self-hosted image, verified manufacturer
+    buy link. lint/style clean.'
+cosrx-6-peptide-skin-booster-serum:
+  last_reviewed: '2026-07-27'
+  score: 9
+  verdict: publish
+  note: 'COSRX 6 Peptide; anti-aging minimal/preliminary (3 independent reviews Zdrada-Nowak
+    2025/Gorouhi 2009/Griffiths 2023), hydrator modest/solid. Critic revise->fixed:
+    softened Griffiths ''cosmeceutical'' attribution to source wording. Glamour-Approved
+    badge quarantined; self-hosted image. lint/style clean.'
