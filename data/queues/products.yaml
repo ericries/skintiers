@@ -337,7 +337,7 @@
 - name: The Ordinary Copper Peptides serum
   type: product
   priority: 10
-  status: pending
+  status: done
   discovered_from: user-list-2026-07-27
   source: null
 - name: The Ordinary Multi-Peptide serum
