@@ -115,3 +115,15 @@
   priority: 7
   added: '2026-07-28'
   status: pending
+- slug: cerave
+  dimension: sign-off
+  issue: 'First brand page, drafted and critic-cleared (10/10), pushed as DRAFT. Brand
+    is a gated page type: needs user sign-off before publishing and before the brand
+    list scales. Also introduces gated-type tooling (brand/person/study lint/verify
+    + SEC allowlist).'
+  suggested_fix: 'User reviews the rendered cerave brand page; on approval set status:
+    published and add ''brand'' to AUTOPUBLISH_TYPES if the brand page-type standard
+    is approved.'
+  priority: 6
+  added: '2026-07-28'
+  status: pending

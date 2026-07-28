@@ -418,3 +418,21 @@
   status: pending
   discovered_from: adapalene
   source: null
+- name: CeraVe Healing Ointment
+  type: product
+  priority: 7
+  status: pending
+  discovered_from: cerave
+  source: null
+- name: CeraVe Foaming Facial Cleanser
+  type: product
+  priority: 7
+  status: pending
+  discovered_from: cerave
+  source: null
+- name: CeraVe PM Facial Moisturizing Lotion
+  type: product
+  priority: 6
+  status: pending
+  discovered_from: cerave
+  source: null

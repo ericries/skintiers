@@ -11,6 +11,12 @@ TEMPLATES_DIR = pathlib.Path(os.environ.get("SK_TEMPLATES", ROOT / "templates"))
 STATIC_DIR = pathlib.Path(os.environ.get("SK_STATIC", ROOT / "static"))
 
 ENTITY_TYPES = ("product", "ingredient", "condition", "goal")
+# Gated profile types: they have their own research queues/crons but are drafted
+# and human-signed-off rather than auto-published. Valid in frontmatter; they are
+# cited roll-ups (a brand portfolio, a person's biography, a study writeup), not
+# graded like products/ingredients, so they carry no Rubric/Evidence structure.
+GATED_TYPES = ("brand", "person", "study")
+PROFILE_TYPES = ENTITY_TYPES + GATED_TYPES
 
 
 def load_profiles(data_dir):
@@ -68,8 +74,8 @@ def check_profile(metadata, content):
     for field in REQUIRED_FIELDS:
         if not metadata.get(field):
             errors.append(f"missing frontmatter field: {field}")
-    if metadata.get("type") and metadata["type"] not in ENTITY_TYPES:
-        errors.append(f"invalid type: {metadata['type']} (must be one of {ENTITY_TYPES})")
+    if metadata.get("type") and metadata["type"] not in PROFILE_TYPES:
+        errors.append(f"invalid type: {metadata['type']} (must be one of {PROFILE_TYPES})")
     if metadata.get("status") and metadata["status"] not in VALID_STATUS:
         errors.append(f"invalid status: {metadata['status']}")
 
@@ -144,6 +150,10 @@ _PRIMARY_DOMAINS = (
     # Official US government publishers of federal law/regulation (primary,
     # same class as .fda.gov): the eCFR/CFR and the Federal Register.
     "govinfo.gov", "ecfr.gov", "federalregister.gov",
+    # US Securities and Exchange Commission (EDGAR filings, full-text search):
+    # a federal regulator/registry, the primary record for corporate facts
+    # (ownership, M&A, filings) that brand/company pages rely on.
+    ".sec.gov",
 )
 _AGGREGATOR_DOMAINS = (
     "ewg.org", "incidecoder.com", "wikipedia.org", "reddit.com", "healthline.com",
@@ -206,6 +216,12 @@ def verify_profile(metadata, content):
             errors.append("missing required section: Sources")
         if not _has_section(content, "The Evidence"):
             warnings.append("missing recommended section: The Evidence")
+    elif metadata.get("type") in GATED_TYPES:
+        # Brand/person/study pages are cited roll-ups, not graded dossiers: the
+        # only hard structural requirement is Sources. No Rubric/Evidence, and no
+        # quarantine warning (a brand page handles positioning claims in prose).
+        if not _has_section(content, "Sources"):
+            errors.append("missing required section: Sources")
     else:
         required = _REQUIRED_SECTIONS
         # Products now carry the rubric in `grades:` frontmatter; when present,

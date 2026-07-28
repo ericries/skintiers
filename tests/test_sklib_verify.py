@@ -202,6 +202,42 @@ def test_verify_condition_clean_profile_no_errors_no_warnings():
     assert errors == [] and warnings == []
 
 
+# --- verify_profile: brand (gated portfolio roll-up, Sources-only structure) ---
+
+BRAND_META = {"name": "CeraVe", "slug": "cerave", "type": "brand",
+              "status": "draft", "updated": "2026-07-28"}
+
+
+def test_verify_brand_requires_only_sources():
+    # A brand page is a cited portfolio roll-up: no Rubric/Evidence, and no
+    # quarantine warning (marketing claims are handled in prose, not required).
+    body = (
+        "CeraVe is a US ceramide-focused skincare brand.[^1]\n\n"
+        "## Sources\n[^1]: Valeant 8-K. "
+        "https://www.sec.gov/Archives/edgar/data/885590/x.htm\n"
+    )
+    errors, warnings = sklib.verify_profile(BRAND_META, body)
+    assert errors == []
+    assert not any("required section" in w for w in warnings)
+    assert not any("quarantined marketing-claims" in w for w in warnings)
+
+
+def test_verify_brand_missing_sources_is_error():
+    body = "CeraVe is a brand.[^1]\n"
+    errors, _ = sklib.verify_profile(BRAND_META, body)
+    assert any("missing required section: Sources" in e for e in errors)
+
+
+def test_verify_sec_gov_is_primary_not_warned():
+    body = (
+        "Claim.[^1]\n\n## Sources\n[^1]: X. "
+        "https://www.sec.gov/Archives/edgar/data/885590/x.htm\n"
+    )
+    errors, warnings = sklib.verify_profile(BRAND_META, body)
+    assert errors == []
+    assert not any("not on primary allowlist" in w for w in warnings)
+
+
 def test_verify_errors_ordered_before_warnings():
     body = (
         "## The Rubric\nA.[^1]\n\n"

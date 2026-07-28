@@ -281,3 +281,17 @@ glass-skin:
     2025, Roessle&Kerscher 2025, Ezerskaia 2017, Ikeda 2021), all quotes verbatim.
     Critic revise->fixed one attribution (the 'ability to reflect light' definition
     credited to Humphrey et al. per the citing source). lint/verify/style clean.
+cerave:
+  last_reviewed: '2026-07-28'
+  score: 10
+  verdict: publish
+  note: 'First BRAND page (gated type, kept DRAFT pending user sign-off). Neutral
+    cited roll-up: L''Oreal acquisition (announced Jan 2017 / completed March 2017;
+    $1.3B cash for CeraVe+AcneFree+AMBI TOGETHER) triple-cited to Valeant SEC 8-K
+    + 10-K + L''Oreal annual report, all verbatim (source typo preserved); Valeant->Bausch
+    Health via SEC EDGAR entity record. Positioning/tech (''developed with dermatologists'',
+    ceramides, MVE) quarantined as brand claims, efficacy deferred to product page;
+    founding year omitted (unverified). No quality judgment on the brand. Critic 10/10;
+    dropped one uncited ''mass-market'' descriptor. Enabling tooling: GATED_TYPES
+    lint/verify support + .sec.gov allowlist (114 tests pass). Benign brand/L''Oreal-URL
+    verify warnings are quarantined/corroborating use.'

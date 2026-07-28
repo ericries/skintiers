@@ -69,6 +69,14 @@ def test_condition_type_passes_frontmatter_check():
     assert errors == [] and warnings == []
 
 
+def test_brand_type_passes_frontmatter_check():
+    meta = {"name": "CeraVe", "slug": "cerave", "type": "brand",
+            "status": "draft", "updated": "2026-07-28"}
+    content = "CeraVe is a brand.[^1]\n\n## Sources\n[^1]: T. https://example.com\n"
+    errors, warnings = sklib.check_profile(meta, content)
+    assert errors == [] and warnings == []
+
+
 def test_footnote_reference_without_definition_is_error():
     errors, _ = sklib.check_profile(GOOD_META, "Claim.[^1]\n")
     assert any("[^1]" in e for e in errors)
