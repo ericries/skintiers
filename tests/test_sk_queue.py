@@ -94,9 +94,10 @@ def test_gate_check_autopublish_and_counts(tmp_path):
     assert "stub: 1" in out.stdout
 
 
-def test_gate_check_non_autopublish_type(tmp_path):
+def test_gate_check_type(tmp_path):
+    # Every type now autopublishes once the critic clears.
     out = _sk(tmp_path, "gate-check", "--type", "goal")
-    assert "autopublish: false" in out.stdout
+    assert "autopublish: true" in out.stdout
 
 
 def test_queue_migrate_via_cli(tmp_path):

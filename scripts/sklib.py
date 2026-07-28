@@ -393,7 +393,11 @@ LIST_TO_TYPE = {v: k for k, v in TYPE_TO_LIST.items()}
 QUEUE_TYPES = tuple(TYPE_TO_LIST)
 
 # Types whose profiles a research cron may auto-publish (rather than draft).
-AUTOPUBLISH_TYPES = {"product", "ingredient"}
+# All types now ship live once the critic gate clears; there is no draft-for-
+# sign-off hold. (GATED_TYPES still classifies brand/person/study as cited
+# roll-up pages for lint/verify, but no longer gates publishing.)
+AUTOPUBLISH_TYPES = {"product", "ingredient", "goal", "condition",
+                     "brand", "person", "study"}
 
 
 def type_autopublishes(type):

@@ -57,7 +57,7 @@ Humectants and soothing agents:
 
 Base, texture, and preservative system: water, lactococcus ferment lysate, hydroxypropyl cyclodextrin, butylene glycol and pentylene glycol, acacia senegal gum, xanthan gum and carbomer (thickeners), polysorbate 20 and dimethyl isosorbide (solubilizers), citric acid and sodium hydroxide (pH adjusters), sodium chloride, and the preservatives sodium benzoate, caprylyl glycol, ethylhexylglycerin, phenoxyethanol, and chlorphenesin.[^1]
 
-The formula contains no vitamin C, no niacinamide, and no exfoliating acids or retinoids. The Ordinary recommends "avoiding the use of" this serum "with other direct acids, retinoids, or strong antioxidants like vitamin C."[^1] This is the manufacturer's usage guidance, not a finding from a published trial.
+The formula contains no vitamin C, no niacinamide, and no exfoliating acids or retinoids. The Ordinary recommends "avoiding the use of" this serum "with other direct acids, retinoids, or strong antioxidants like vitamin C."[^1]
 
 ## Common Marketing Claims
 

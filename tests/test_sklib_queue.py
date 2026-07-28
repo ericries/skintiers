@@ -99,11 +99,14 @@ def test_queue_resolve_without_type_searches_all(tmp_path):
 
 
 def test_type_autopublishes():
+    # All types now ship live once the critic gate clears (no draft-for-sign-off hold).
     assert sklib.type_autopublishes("product") is True
     assert sklib.type_autopublishes("ingredient") is True
-    assert sklib.type_autopublishes("brand") is False
-    assert sklib.type_autopublishes("goal") is False
-    assert sklib.AUTOPUBLISH_TYPES == {"product", "ingredient"}
+    assert sklib.type_autopublishes("brand") is True
+    assert sklib.type_autopublishes("goal") is True
+    assert sklib.type_autopublishes("condition") is True
+    assert sklib.AUTOPUBLISH_TYPES == {"product", "ingredient", "goal",
+                                       "condition", "brand", "person", "study"}
 
 
 def _write_legacy(data_dir, items):
