@@ -140,3 +140,15 @@
   priority: 4
   added: '2026-07-28'
   status: pending
+- slug: samantha-ellis
+  dimension: sign-off
+  issue: 'First person page, drafted and critic-cleared (10/10, strict BLP standard),
+    pushed as DRAFT. Person is a gated page type: needs user sign-off before publishing
+    and before the person list scales. (Identity confirmed: ''Dr. Ellis'' = Dr. Samantha
+    Rose Ellis, Prequel founder.)'
+  suggested_fix: 'User reviews the rendered samantha-ellis page; on approval set status:
+    published and add ''person'' to AUTOPUBLISH_TYPES if the person page-type standard
+    is approved.'
+  priority: 6
+  added: '2026-07-28'
+  status: pending

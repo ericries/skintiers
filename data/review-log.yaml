@@ -322,3 +322,18 @@ sunscreen-uv-filters:
     xref. Akintilo [^6] pp.2-3 global-context quotes annotated as full-text access-restricted
     (verified when written). lint/verify/style clean. Escalated: reader-reachable
     citation for the Akintilo stats + the SPF percentages.'
+samantha-ellis:
+  last_reviewed: '2026-07-28'
+  score: 10
+  verdict: publish
+  note: 'First PERSON page (gated type, kept DRAFT pending user sign-off). Dr. Samantha
+    Rose Ellis, board-certified dermatologist + founder of Prequel. BLP discipline
+    (critic 10/10): every biographical fact cited to authoritative primaries (NPPES/NPI
+    government registry for name/M.D./Dermatology/CA license A144841; PubMed for UC
+    Davis Dermatology + PotozkinMD affiliations + 2 first-author reviews, JAAD 2020
+    + Microorganisms 2019); board certification kept ONLY as her quoted self-description
+    (not asserted in our voice); founder role quarantined as Prequel''s attributed
+    positioning; no inferred residency/med-school/birthplace/personal life; pronoun-free
+    (surname only). Enabling tooling: added CMS/NPPES to primary-source allowlist
+    (114 tests pass). Remaining verify warning is the quarantined prequelskin.com
+    brand source (acceptable).'

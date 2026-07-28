@@ -154,6 +154,10 @@ _PRIMARY_DOMAINS = (
     # a federal regulator/registry, the primary record for corporate facts
     # (ownership, M&A, filings) that brand/company pages rely on.
     ".sec.gov",
+    # US National Plan and Provider Enumeration System (CMS/HHS): the
+    # authoritative federal registry for clinician identity, license, and
+    # specialty, the primary record person pages rely on for credentials.
+    "npiregistry.cms.hhs.gov", ".cms.hhs.gov",
 )
 _AGGREGATOR_DOMAINS = (
     "ewg.org", "incidecoder.com", "wikipedia.org", "reddit.com", "healthline.com",
