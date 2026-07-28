@@ -21,6 +21,33 @@ Rigor is not exhaustiveness. Honesty is not announcing every absence. Concision 
 ## Product page. Purpose: how does THIS product compare to others in its category?
 Answer that, with cited facts, and let the reader decide. Include a section only if it has
 substance. The linter requires `grades:` frontmatter and a `## Sources` heading.
+
+**Two rules that shape the whole page:**
+
+**1. Results-first, jargon-later, for a lay audience.** The archetype reader knows a little from a
+hardcore skincare forum but is intimidated by the science. Lead with what the product DOES, how to
+use it, what it pairs with, and how credible it is overall, in plain accessible language modeled on
+the anti-aging goal page. Push the scientific detail (mechanisms, surrogate markers, p-values,
+study limitations) down into `## The Evidence`, where an expert reviewer can check our work. Never
+open with jargon. Be clear and affirmative about what IS settled ("vitamin C is a well-evidenced
+antioxidant, and this is a well-studied formulation of it") before getting into nuance.
+
+**2. Attribute editorial opinions to credible sources; do not manufacture them.** When the page
+needs a judgment that is not a plain fact (is it good, is it worth the price, is it the best or the
+original version, is it worth the hype), do NOT invent our own verdict or let a house-generated
+grade stand in for it. Find credible sources and quote them VERBATIM, and present the balance: if a
+lot of dermatologists swear by a formula, quote one; if it is widely called the original or
+best-studied of its kind, quote that; if critics say it is not worth the price, quote that too.
+Admissible sources for these editorial/social claims are reputable named voices and publications
+(board-certified dermatologists, cosmetic chemists, established review outlets) — this is a
+lower bar than the primary-source rule for medical-efficacy facts, because "many derms rate it
+highly" is a social fact, not a biological claim, but it must still be a real, quoted, attributed
+source, never our own opinion or an anonymous consensus. Keep the factual evidence base
+(is the active proven; is this a faithful formulation of it) stated clearly in our own voice and
+cited to the concept/ingredient page. The grade must reflect the strength of the case for the
+product's MAIN benefit (the proven active plus a credible formulation), not be dragged down to a
+weak label just because the brand's own marketing studies are small; put those caveats in the
+Evidence and in critics' quotes, not in a headline that misreads a proven product as unproven.
 - **First paragraph: what it is.** One neutral sentence. The build lifts it out as the
   standfirst at the top of the page (the "what is this" summary), so it must stand alone.
 - **`## Summary` (required, comes first, after the standfirst): orient the reader before any
@@ -86,12 +113,13 @@ substance. The linter requires `grades:` frontmatter and a `## Sources` heading.
 - `recommended_in:` frontmatter (optional): external best-of lists that recommend this product,
   each `title` + `url` + `source`. Every URL must be verified to load AND to actually recommend
   the product. Omit the field entirely if none verify. Never fabricate a list or a URL.
-- **Product photos: several, from various sites, required.** The page renders a `## Photos` gallery
-  section (built automatically from `images:`), NOT a single thumbnail. Aim for a handful of real
-  photos of THIS exact SKU gathered from different sites: the manufacturer plus two or more
-  retailers (e.g. Target, Ulta, Dermstore, Amazon) so the reader sees packaging, texture, and label
-  from several angles/sources. Each `images:` entry SHOULD be a mapping that records where the photo
-  came from:
+- **Product photos: several, from various sites, required.** They render as a concise photo RAIL
+  floated into the side whitespace (no captions, no labels on the photos). Gather a handful of real
+  photos of THIS exact SKU from different sites: the manufacturer plus two or more retailers (e.g.
+  Target, Ulta, Dermstore, Amazon) so the reader sees packaging, texture, and label from several
+  sources. The `source`/`source_url` are still recorded in the frontmatter (for provenance) but are
+  NOT shown on the page. Each `images:` entry SHOULD be a mapping that records where the photo came
+  from:
   ```yaml
   images:
     - file: skinceuticals-c-e-ferulic.jpg      # self-hosted under static/images/

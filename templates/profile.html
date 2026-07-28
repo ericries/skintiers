@@ -7,24 +7,16 @@
     <span class="status status-{{ profile.status }}">{{ profile.status }}</span>
   </div>
 
+  {% if images %}
+  <aside class="photo-rail" aria-label="Product photos">
+    {% for im in images %}<img src="{{ im.src }}" alt="{{ im.alt }}" loading="lazy">{% endfor %}
+  </aside>
+  {% endif %}
+
   <div class="masthead">
     <h1>{{ profile.name }}</h1>
     {% if standfirst %}<p class="standfirst">{{ standfirst | safe }}</p>{% endif %}
   </div>
-
-  {% if images %}
-  <section class="gallery" aria-label="Product photos">
-    <h2 class="gallery-h">Photos</h2>
-    <div class="gallery-grid">
-      {% for im in images %}
-      <figure>
-        <img src="{{ im.src }}" alt="{{ im.alt }}" loading="lazy">
-        {% if im.source %}<figcaption>{% if im.source_url %}<a href="{{ im.source_url }}" rel="nofollow noopener">{{ im.source }}</a>{% else %}{{ im.source }}{% endif %}</figcaption>{% endif %}
-      </figure>
-      {% endfor %}
-    </div>
-  </section>
-  {% endif %}
 
   {% if grades_view %}
   <div class="dossier">
