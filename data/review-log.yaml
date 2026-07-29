@@ -937,3 +937,27 @@ skin-barrier-strengthening:
   verdict: publish
   note: 'Critic-gated (Group B): tier claims cited, health-vs-cosmetic separated, house voice. lint+verify+style
     clean. verdict publish 10/10.'
+rosacea-erythematotelangiectatic:
+  last_reviewed: '2026-07-28'
+  score: 10
+  verdict: publish
+  note: 'How-to-know opener added + critic-gated (Group B, score 9). Applied the one flagged fix: dropped
+    the uncited "marketing" framing in the standfirst, blockquote, and What-Does-Not-Work opener, restating
+    the cited scientific mismatch (azelaic acid/ivermectin/metronidazole carry Cochrane certainty for
+    the papulopustular subtype, not type 1 erythema). lint+verify+style clean.'
+rosacea-papulopustular:
+  last_reviewed: '2026-07-28'
+  score: 10
+  verdict: publish
+  note: 'How-to-know opener added + critic-gated (Group B, score 8). Applied all 4 flagged fixes: deleted
+    the banned "This page grades..." meta standfirst; cut the "Ranked by controlled evidence." and "Quarantined
+    and discounted." lead-in fragments; corrected the oxymetazoline quote to the verbatim "approved ...
+    for the topical treatment of persistent facial erythema associated with rosacea in adults"; made the
+    acne differential an explicit sourced link-out to [[acne]]. lint+verify+style clean.'
+skin-barrier-repair:
+  last_reviewed: '2026-07-28'
+  score: 10
+  verdict: publish
+  note: 'Critic-gated (Group B, score 8). Applied both flagged fixes: cited the Tier-4 "adding more actives"
+    bullet to [^contactderm]; added the industry-affiliation (Unilever) disclosure bracket to [^ananth]
+    to match the sibling barrier page. lint+verify+style clean.'
