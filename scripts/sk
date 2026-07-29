@@ -27,6 +27,7 @@ def cmd_lint(args):
         return 1
     post = frontmatter.load(path)
     errors, warnings = sklib.check_profile(post.metadata, post.content)
+    warnings = warnings + sklib.check_required_sections(post.metadata, post.content)
     for e in errors:
         print(f"ERROR: {e}")
     for w in warnings:

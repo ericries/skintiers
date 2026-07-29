@@ -153,6 +153,29 @@ def check_profile(metadata, content):
     return errors, warnings
 
 
+# Per-type required body sections (the summary-first + how-to-know standards).
+# Kept SEPARATE from check_profile so it does not perturb the core lint contract;
+# cmd_lint appends these warnings. Advisory (WARNING): pre-standard pages predate
+# these requirements, so it must not break the build. Stubs are exempt.
+REQUIRED_SECTIONS = {
+    "product": ("Summary", "'## Summary' (summary-first standard)"),
+    "condition": ("How to know you have this", "'How to know you have this' (condition-page opener)"),
+}
+
+
+def check_required_sections(metadata, content):
+    """Warn if a page of a given type lacks its required body section."""
+    if metadata.get("status") == "stub":
+        return []
+    req = REQUIRED_SECTIONS.get(metadata.get("type"))
+    if not req:
+        return []
+    heading, label = req
+    if _has_section(content, heading):
+        return []
+    return [f"missing required section: {label}"]
+
+
 _SOURCES_HEADING_RE = re.compile(r"^##\s+sources\s*$", re.IGNORECASE | re.MULTILINE)
 _URL_RE = re.compile(r"https?://\S+")
 

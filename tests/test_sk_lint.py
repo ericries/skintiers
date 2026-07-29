@@ -27,7 +27,8 @@ def _write(tmp_path, slug, body, status="draft", grades=True):
 
 
 def test_lint_clean_exits_0(tmp_path):
-    _write(tmp_path, "ok", "Claim.[^1]\n\n## Sources\n[^1]: T. https://e.com (2026-07-26)\n")
+    _write(tmp_path, "ok",
+           "## Summary\n\nClaim.[^1]\n\n## Sources\n[^1]: T. https://e.com (2026-07-26)\n")
     assert _run(tmp_path, "ok").returncode == 0
 
 
