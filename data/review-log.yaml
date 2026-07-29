@@ -963,13 +963,18 @@ skin-barrier-repair:
     to match the sibling barrier page. lint+verify+style clean.'
 acne:
   last_reviewed: '2026-07-29'
-  score: 6
-  verdict: revise
-  note: 'HELD as draft (not published) — critic found real correctness issues, and the automated fix pass
-    could not run (account monthly spend limit). Group B added a verified "How to know you have this"
-    opener (kept). Outstanding punch-list before publish: (1) BPO 2.5% vs 5% "mainly buys irritation"
-    is contradicted by its own source Kawashima 2017 (56.4% vs 58.8% AE, "no obvious difference"); (2)
-    pore-strips bullet uncited; (3) retinoid+BPO "rank 15 of 49" wrong denominator — source mild-to-moderate
-    Table 1 ranks 41 classes; (4) standfirst "low-to-moderate certainty" vs source Mavranezouli 2022 "moderate
-    to very low"; (5) [^8] AAD 2024 guideline 403s, paraphrase unverified — retry via Apify or re-anchor;
-    (6) rephrase imperative "Discount ..." phrasings as evidence statements.'
+  score: 9
+  verdict: publish
+  note: 'Held page finished. Sonnet applied the 6-item punch-list (BPO "mainly buys irritation" replaced
+    with Kawashima 2017 actual AE data 56.4% vs 58.8% "no obvious difference"; pore-strips bullet cited;
+    standfirst "low-to-moderate"->"moderate to very low" per Mavranezouli; imperative "Discount..." phrasings
+    rephrased). Opus critic then flagged a residual: the ranks (rank 15 etc.) read against the whole-review
+    49 classes when they come from the mild-to-moderate efficacy network of 41. Orchestrator independently
+    verified both contested facts against primary sources via Apify and fixed: Mavranezouli PMC9804728
+    states verbatim "The NMAs of efficacy included 90 RCTs, 41 treatment classes and 17 260 observations
+    for mild-to-moderate" (vs "179 RCTs...across 49 treatment classes" whole-review) -> intro + Evidence
+    now state the 41-class scope so "rank 15" reads as 15/41. AAD [^8] jaad.org 403s even via Apify, so
+    the diagnosis-characterization opener now also cites the fetchable, verbatim-confirmed StatPearls
+    [^9] ("comedones (blackheads), and inflammatory papules, pustules, and nodules" "primarily on the
+    face"). Ye 2024 week labels aligned (16-week trial, 12-week endpoint). lint+verify+style+voice clean.
+    Model split: Sonnet draft + Opus critic + orchestrator source-verification.'

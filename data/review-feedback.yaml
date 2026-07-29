@@ -240,11 +240,15 @@
   status: pending
 - slug: acne
   dimension: D2/correctness
-  status: pending
+  status: resolved
   issue: Critic-scored 6/10 with correctness issues; automated fix pass blocked by monthly spend limit.
     See review-log note for the 6-item punch-list (Kawashima BPO claim contradicted by source; uncited
     pore-strips; wrong rank denominator 41 not 49; standfirst certainty mismatch; AAD 2024 [^8] 403 unverified;
     imperative "Discount" phrasings). Held as draft until fixed.
+  resolution: Finished via Sonnet-draft + Opus-critic + orchestrator source-verification (model split).
+    All 6 punch-list items fixed; the critic-flagged rank-scope issue resolved by stating the 41-class
+    mild-to-moderate network (verified verbatim in Mavranezouli PMC9804728); AAD [^8] corroborated with
+    fetchable StatPearls [^9]. Published (review-log verdict publish, score 9).
 - slug: BATCH
   dimension: D-style
   status: resolved

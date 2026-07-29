@@ -2,6 +2,10 @@
 # Newest entries at the TOP. Append with: sk log "message" [--slug SLUG] [--date YYYY-MM-DD]
 # Rendered to _site/whats-new.html (footer link).
 
+- date: '2026-07-29'
+  title: 'Published the acne overview: what actually works, ranked by controlled evidence, health vs cosmetic
+    separated.'
+  slug: acne
 - date: '2026-07-28'
   title: Published the two rosacea subtype pages and a barrier-repair guide.
   slug: rosacea-papulopustular
