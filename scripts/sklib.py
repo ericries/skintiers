@@ -352,8 +352,53 @@ def _style_body(content):
     return content[: m.start()] if m else content
 
 
+# --- House-voice violations (docs/writing-guide.md, docs/anti-ai-ese.md) ---
+# Deterministic guardrail for the voice rules a critic used to catch by hand:
+# site self-reference, defensive meta-commentary, and process/roadmap language.
+# Advisory (WARNING), surfaced through check_style so `sk style` catches them.
+# Patterns are deliberately specific to avoid false positives (e.g. the
+# substantive phrase "not a finding of harm" must NOT match).
+_VOICE_PATTERNS = [
+    (re.compile(r"SkinTiers"),
+     "site self-reference by name (never name the site on a content page)"),
+    (re.compile(r"This page grades", re.I),
+     "defensive meta-commentary ('This page grades ...')"),
+    (re.compile(r"What follows is", re.I),
+     "defensive meta-commentary ('What follows is ...')"),
+    (re.compile(r"not (?:our|a) verdict", re.I),
+     "defensive meta-commentary ('not a/our verdict')"),
+    (re.compile(r"not a finding(?! of harm)", re.I),
+     "defensive meta-commentary ('not a finding')"),
+    (re.compile(r"matching INCI is not proof", re.I),
+     "defensive meta-commentary ('a matching INCI is not proof')"),
+    (re.compile(r"\bqueued\b", re.I),
+     "process/roadmap language ('queued')"),
+    (re.compile(r"a later phase", re.I),
+     "process/roadmap language ('a later phase')"),
+    (re.compile(r"not yet on the site", re.I),
+     "process/roadmap language ('not yet on the site')"),
+    (re.compile(r"coming soon", re.I),
+     "process/roadmap language ('coming soon')"),
+]
+
+
+def check_voice(content):
+    """Advisory house-voice warnings for a markdown body (excludes ## Sources).
+
+    Returns one WARNING string per distinct violated pattern. Catches the class
+    of voice violations (self-reference, defensive meta, process language) that
+    previously depended on a critic or a manual grep.
+    """
+    body = _style_body(content)
+    warnings = []
+    for pat, msg in _VOICE_PATTERNS:
+        if pat.search(body):
+            warnings.append(msg)
+    return warnings
+
+
 def check_style(content):
-    """Advisory anti-AI-ese warnings for a markdown body.
+    """Advisory anti-AI-ese + house-voice warnings for a markdown body.
 
     Excludes the ## Sources section (citation text/URLs are not flagged).
     Returns a list of WARNING strings, one per distinct hit (repeated hits of
@@ -377,6 +422,7 @@ def check_style(content):
         if pat.search(body):
             warnings.append(f"AI-ese phrase: '{term}'")
 
+    warnings.extend(check_voice(content))
     return warnings
 
 
