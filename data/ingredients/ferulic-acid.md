@@ -1,10 +1,75 @@
 ---
+analyzed: '2026-07-28'
 name: Ferulic acid
 slug: ferulic-acid
+status: published
 type: ingredient
-status: stub
-updated: 2026-07-28
-analyzed: null
+updated: '2026-07-28'
 ---
 
-Ferulic acid is a plant-derived antioxidant used in topical skincare, most often to stabilize combinations of vitamin C (L-ascorbic acid) and vitamin E; its product-level role is graded where those combinations are assessed, on [[vitamin-c]] and [[skinceuticals-c-e-ferulic]]. Stub, queued for research.
+Ferulic acid is a plant-derived phenolic (hydroxycinnamic) acid used topically as an antioxidant, most prominently to stabilize and increase the measured photoprotection of combined vitamin C and vitamin E serums.[^graf][^lin]
+
+Ferulic acid's role in skincare is almost entirely a supporting one. Its best-documented use is as the third antioxidant in the fixed 15% L-ascorbic acid, 1% alpha-tocopherol, 0.5% ferulic acid combination, where it both improved the chemical stability of the two vitamins and, in the studies that defined the formula, doubled their measured protection against solar-simulated light.[^lin][^murray] Its own intrinsic antioxidant chemistry is well characterized, and one independent human study found it reduced UVB-induced redness on its own; the broader brightening and anti-aging claims attached to it rest on laboratory and cell work rather than controlled human topical trials. The vitamin C active it partners is profiled on [[ascorbic-acid-vitamin-c]], and the vitamin C family on [[vitamin-c]]; the fixed combination as a product is [[skinceuticals-c-e-ferulic]].
+
+> Ferulic acid is a genuine antioxidant whose flagship skincare role, stabilizing and boosting a vitamin C plus vitamin E serum, is real but rests heavily on studies run by the formula's inventors. As a standalone active it has mechanistic support and one small independent human study for UVB-redness protection; its brightening and anti-aging positioning is not backed by controlled human topical trials.[^graf][^lin][^murray][^saija]
+
+## The Rubric
+
+Grades below are relative and name comparators. They describe ferulic acid's function and the evidence for its topical effects, not proof that any finished product works. Ferulic acid is an antioxidant that works alongside sunscreen, not a UV filter that blocks or absorbs a defined band of the spectrum the way [[sunscreen-uv-filters|the regulated UV filters]] do; Murray and colleagues note its "mechanism of action is different from sunscreens."[^murray]
+
+**Stabilizer and photoprotection booster in a vitamin C plus vitamin E serum (health-oriented)**
+- **Effect size: notable within the combination.** In weanling pig skin, adding 0.5% ferulic acid to 15% L-ascorbic acid and 1% alpha-tocopherol "doubled photoprotection to solar-simulated irradiation of skin from 4-fold to approximately 8-fold" by erythema and sunburn-cell measures, and the mix "efficiently reduced thymine dimer formation."[^lin] In human skin the same formula "provided significant and meaningful photoprotection for skin by all methods of evaluation."[^murray] "Notable as a formula partner: it measurably improved a vitamin C plus vitamin E serum, a role vitamin E alone did not fill, though the size of that gain comes from one research group."
+- **Evidence quality: preliminary to mixed.** The two studies that establish the doubling are from the same Duke group led by Sheldon Pinnell, run on a patented formula with disclosed commercial ties to the manufacturer, and the human study's stated limitation was that "the number of patients evaluated was relatively small."[^lin][^murray] Ferulic acid's underlying antioxidant and photoprotective action is independently supported by Graf and by Saija and colleagues, but the specific "doubles the C plus E effect" claim rests on the single originating group.[^graf][^saija]
+
+**Standalone topical antioxidant and UVB-redness protection (health-oriented)**
+- **Effect size: modest.** Applied on its own to healthy human volunteers, ferulic acid "proved to afford a significant protection to the skin against UVB-induced erythema."[^saija] "Modest: an independent human study found a real reduction in UV redness, smaller and less replicated than the evidence behind the vitamin C it usually accompanies."
+- **Evidence quality: preliminary.** One small independent in vivo human study on UVB erythema, supported by well-characterized antioxidant chemistry: Graf describes ferulic acid forming "a resonance stabilized phenoxy radical which accounts for its potent antioxidant potential," with the unusual feature that "UV absorption by ferulic acid catalyzes stable phenoxy radical formation."[^graf][^saija]
+
+**Brightening, anti-aging, and wound healing (cosmetic and beyond)**
+- **Effect size: none demonstrated in controlled human topical trials.** A narrative review lists ferulic acid as a photoaging delayer and "brightening component" and reports that it "inhibits melanogenesis, enhances angiogenesis, and accelerates wound healing," but these are drawn from laboratory and cell studies rather than controlled human topical trials.[^zdunska] "Unresolved for standalone use: the appearance and repair claims are mechanistic, not shown in controlled human trials of the ingredient by itself."
+- **Evidence quality: anecdotal for topical human outcomes.** The mechanistic and cell-level work is real, but it does not establish a measured brightening or anti-aging outcome in living human skin.[^zdunska]
+
+## What We Actually Know
+
+Ferulic acid is a ubiquitous plant antioxidant, and its chemistry is well described: Graf identifies it as "a ubiquitous plant constituent that arises from the metabolism of phenylalanine and tyrosine" whose phenolic structure "readily forms a resonance stabilized phenoxy radical which accounts for its potent antioxidant potential."[^graf] In skincare its strongest evidence is as a formula partner. Added to a solution of 15% L-ascorbic acid and 1% alpha-tocopherol, it improved the chemical stability of the two vitamins and, in pig skin, doubled their photoprotection from about 4-fold to 8-fold; a follow-up on human skin found the same three-antioxidant formula protective on every marker measured.[^lin][^murray] Both studies come from the group that developed and patented the formula, so the size of that benefit is not independently replicated.[^lin][^murray] On its own, ferulic acid has one independent human study showing it reduced UVB-induced redness, consistent with its antioxidant chemistry.[^saija] The brightening and anti-aging uses commonly attached to it are supported by laboratory and cell work, not by controlled human topical trials.[^zdunska]
+
+## How It Works
+
+Ferulic acid is a hydroxycinnamic acid found in the cell walls of plants, seeds, and grains. Graf describes it arising "from the metabolism of phenylalanine and tyrosine" and occurring "primarily in seeds and leaves," and attributes its antioxidant action to its phenolic nucleus and conjugated side chain, which let it form "a resonance stabilized phenoxy radical" that terminates free-radical chain reactions.[^graf] A feature that matters for skincare is that light activates rather than destroys it: Graf reports that "UV absorption by ferulic acid catalyzes stable phenoxy radical formation and thereby potentiates its ability to terminate free radical chain reactions," and that "similar photoprotection is afforded to skin by ferulic acid dissolved in cosmetic lotions."[^graf] In the vitamin C plus vitamin E combination its role is twofold: Lin and colleagues found it "improved chemical stability of the vitamins (C+E)" and raised their photoprotection.[^lin] For it to act at the skin surface it has to penetrate; Saija and colleagues showed ferulic acid permeates excised human stratum corneum, aided by its lipophilicity, though they found "their skin absorption is not influenced by the pH of the formulation."[^saija] This antioxidant, radical-scavenging role is a different mechanism from a sunscreen filter, which absorbs or reflects UV photons; ferulic acid instead neutralizes the reactive species that UV generates once it reaches skin, which is why Murray and colleagues describe it as complementary to, not a replacement for, sunscreen.[^murray]
+
+## The Evidence
+
+Primary evidence, by role:
+
+**In the vitamin C plus vitamin E combination.** Lin and colleagues tested 0.5% ferulic acid added to a topical solution of 15% L-ascorbic acid and 1% alpha-tocopherol on weanling Yorkshire pig skin. Ferulic acid "improved chemical stability of the vitamins (C+E) and doubled photoprotection to solar-simulated irradiation of skin from 4-fold to approximately 8-fold as measured by both erythema and sunburn cell formation," and the formulation "efficiently reduced thymine dimer formation."[^lin] Murray and colleagues applied the same 15% L-ascorbic acid, 1% alpha-tocopherol, and 0.5% ferulic acid formula (labeled CEFer) to human skin for 4 days before solar-simulated UV exposure and reported that it "provided significant and meaningful photoprotection for skin by all methods of evaluation" (erythema, sunburn cells, thymine dimers, p53, and cytokines), and was "particularly effective for reducing thymine dimer mutations known to be associated with skin cancer."[^murray] Both papers are from Sheldon Pinnell's Duke group, on a patented formulation with disclosed commercial ties, and Murray's listed limitation was that "the number of patients evaluated was relatively small."[^lin][^murray] These endpoints are health-oriented: UV-induced redness reflects inflammation and sunburn, sunburn cells are UV-damaged keratinocytes, and thymine dimers are a form of UV DNA damage the authors tied to skin-cancer risk.[^lin][^murray]
+
+**On its own.** Saija and colleagues, an independent group, tested caffeic and ferulic acids in vitro on excised human skin and in vivo on healthy human volunteers. Ferulic acid permeated the stratum corneum in the Franz-cell experiments, and in the volunteer study ferulic acid "proved to afford a significant protection to the skin against UVB-induced erythema," measured by reflectance spectrophotometry.[^saija] The authors concluded caffeic and ferulic acids "may be successfully employed as topical protective agents against UV radiation-induced skin damage," while noting their "skin absorption is not influenced by the pH of the formulation."[^saija] This is one small independent in vivo study, and it measured short-term UV redness, not photoaging or skin cancer.[^saija]
+
+**Antioxidant chemistry.** Graf's analysis characterizes the mechanism that underlies both roles: ferulic acid forms "a resonance stabilized phenoxy radical which accounts for its potent antioxidant potential," and its UV-driven radical formation lets it "terminate free radical chain reactions" and preserve "physiological integrity of cells exposed to both air and impinging UV radiation."[^graf]
+
+**Broader cosmetic claims.** A 2018 narrative review by Zdunska and colleagues catalogs ferulic acid as a photoprotective agent, a "delayer of skin photoaging processes," and a "brightening component," and states it "inhibits melanogenesis, enhances angiogenesis, and accelerates wound healing," while cautioning that "its use is limited by its tendency to be rapidly oxidized."[^zdunska] These are compiled from laboratory and cell studies; the review is not itself a controlled human topical trial, and no such trial isolating ferulic acid for brightening or anti-aging outcomes is cited here.[^zdunska]
+
+## Uses
+
+Well-supported as a formula partner: as the stabilizing third antioxidant in a vitamin C plus vitamin E serum, where it improved the vitamins' stability and, in the originating studies, boosted their measured UV photoprotection.[^lin][^murray] The vitamin C active it partners, L-ascorbic acid, is a well-studied antioxidant good for photoprotection support and evening tone; that evidence sits on [[ascorbic-acid-vitamin-c]] and the fixed product on [[skinceuticals-c-e-ferulic]] and its lower-cost counterpart [[timeless-20-vitamin-c-e-ferulic-serum]]. Supported, thinly, on its own: reducing short-term UVB-induced redness, from one independent human study.[^saija] Not established in controlled human topical trials: standalone brightening, anti-aging, or wound-healing outcomes.[^zdunska] Ferulic acid is prone to oxidation, which is the practical formulation limit noted across the antioxidant literature.[^graf][^zdunska]
+
+## Common Marketing Claims
+
+This section is quarantined and discounted; treat everything here as unproven or overstated unless it appears in The Evidence above.
+
+- **"A powerful antioxidant that fights aging on its own."** Ferulic acid's antioxidant chemistry is real,[^graf] but its documented topical human evidence is for reducing UVB redness in one small study and for boosting a vitamin C plus vitamin E serum in inventor-run studies.[^lin][^murray][^saija] A standalone anti-aging outcome in human skin is not shown in a controlled trial cited here.
+- **"Brightens and evens skin tone."** Brightening and melanogenesis inhibition appear in a narrative review drawing on laboratory and cell work, not controlled human topical trials.[^zdunska] The pigment and tone evidence for the serums ferulic acid appears in belongs to their vitamin C content, covered on [[vitamin-c]] and [[ascorbic-acid-vitamin-c]].
+- **"Doubles your vitamin C serum's protection."** The roughly 8-fold figure and the doubling come from pig skin (Lin) and a small human study (Murray), both run by the formula's inventors on a patented combination, and neither measured photoaging or skin cancer directly.[^lin][^murray]
+- **"An antioxidant sunscreen."** Ferulic acid is not a UV filter. Murray and colleagues state its "mechanism of action is different from sunscreens" and frame it as supplementing, not replacing, sun protection.[^murray] The regulated filters that absorb or reflect defined UV bands are covered on [[sunscreen-uv-filters]].
+
+## See Also
+
+[[ascorbic-acid-vitamin-c]], [[vitamin-c]], [[tocopherol]], [[skinceuticals-c-e-ferulic]], [[timeless-20-vitamin-c-e-ferulic-serum]], [[sunscreen-uv-filters]]
+
+## Sources
+
+[^graf]: Graf E. Antioxidant potential of ferulic acid. Free Radical Biology and Medicine, 1992;13(4):435-448. https://pubmed.ncbi.nlm.nih.gov/1398220/ (accessed 2026-07-28)
+[^lin]: Lin FH, Lin JY, Gupta RD, Tournas JA, Burch JA, Selim MA, Monteiro-Riviere NA, Grichnik JM, Zielinski J, Pinnell SR. Ferulic acid stabilizes a solution of vitamins C and E and doubles its photoprotection of skin. Journal of Investigative Dermatology, 2005;125(4):826-832. https://pubmed.ncbi.nlm.nih.gov/16185284/ (accessed 2026-07-28)
+[^murray]: Murray JC, Burch JA, Streilein RD, Iannacchione MA, Hall RP, Pinnell SR. A topical antioxidant solution containing vitamins C and E stabilized by ferulic acid provides protection for human skin against damage caused by ultraviolet irradiation. Journal of the American Academy of Dermatology, 2008;59(3):418-425. https://pubmed.ncbi.nlm.nih.gov/18603326/ (accessed 2026-07-28)
+[^saija]: Saija A, Tomaino A, Trombetta D, De Pasquale A, Uccella N, Barbuzzi T, Paolino D, Bonina F. In vitro and in vivo evaluation of caffeic and ferulic acids as topical photoprotective agents. International Journal of Pharmaceutics, 2000;199(1):39-47. https://pubmed.ncbi.nlm.nih.gov/10794925/ (accessed 2026-07-28)
+[^zdunska]: Zdunska K, Dana A, Kolodziejczak A, Rotsztejn H. Antioxidant Properties of Ferulic Acid and Its Possible Application. Skin Pharmacology and Physiology, 2018;31(6):332-336. https://pubmed.ncbi.nlm.nih.gov/30235459/ (accessed 2026-07-28) [Narrative review; cited for the brightening, melanogenesis, wound-healing, and rapid-oxidation statements, not a controlled human topical trial.]

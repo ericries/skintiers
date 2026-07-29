@@ -31,7 +31,7 @@
 - name: Salicylic acid
   type: ingredient
   priority: 8
-  status: pending
+  status: done
   discovered_from: null
   source: null
 - name: Petrolatum
@@ -43,37 +43,37 @@
 - name: Colloidal oatmeal
   type: ingredient
   priority: 7
-  status: pending
+  status: done
   discovered_from: null
   source: null
 - name: Ceramides
   type: ingredient
   priority: 7
-  status: pending
+  status: done
   discovered_from: null
   source: null
 - name: Niacinamide
   type: ingredient
   priority: 7
-  status: pending
+  status: done
   discovered_from: null
   source: null
 - name: Ascorbic acid (vitamin C)
   type: ingredient
   priority: 6
-  status: pending
+  status: done
   discovered_from: null
   source: null
 - name: Hydroquinone
   type: ingredient
   priority: 6
-  status: pending
+  status: done
   discovered_from: null
   source: null
 - name: Retinol
   type: ingredient
   priority: 4
-  status: pending
+  status: done
   discovered_from: null
   source: null
 - name: Peptides
@@ -85,25 +85,25 @@
 - name: Bakuchiol
   type: ingredient
   priority: 4
-  status: pending
+  status: done
   discovered_from: null
   source: null
 - name: Centella asiatica
   type: ingredient
   priority: 3
-  status: pending
+  status: done
   discovered_from: null
   source: null
 - name: Hyaluronic acid
   type: ingredient
   priority: 3
-  status: pending
+  status: done
   discovered_from: null
   source: null
 - name: Zinc oxide
   type: ingredient
   priority: 8
-  status: pending
+  status: done
   discovered_from: null
   source: null
 - name: Avobenzone
@@ -115,13 +115,13 @@
 - name: Tranexamic acid
   type: ingredient
   priority: 7
-  status: pending
+  status: done
   discovered_from: null
   source: null
 - name: Snail secretion filtrate
   type: ingredient
   priority: 6
-  status: pending
+  status: done
   discovered_from: null
   source: null
 - name: Houttuynia cordata
@@ -139,7 +139,7 @@
 - name: Glycerin
   type: ingredient
   priority: 6
-  status: pending
+  status: done
   discovered_from: cerave-moisturizing-cream
   source: null
 - name: Cholesterol
@@ -187,7 +187,7 @@
 - name: Ferulic acid
   type: ingredient
   priority: 6
-  status: pending
+  status: done
   discovered_from: skinceuticals-c-e-ferulic
   source: null
 - name: Carnosine
@@ -331,6 +331,6 @@
 - name: Copper peptides (GHK-Cu / copper tripeptide-1)
   type: ingredient
   priority: 6
-  status: pending
+  status: done
   discovered_from: cosrx-6-peptide-skin-booster-serum
   source: null
