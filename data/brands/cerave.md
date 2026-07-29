@@ -2,7 +2,7 @@
 analyzed: '2026-07-28'
 name: CeraVe
 slug: cerave
-status: draft
+status: published
 type: brand
 updated: '2026-07-28'
 ---

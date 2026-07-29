@@ -2,7 +2,7 @@
 analyzed: '2026-07-28'
 name: Glass skin
 slug: glass-skin
-status: draft
+status: published
 type: goal
 updated: '2026-07-28'
 ---

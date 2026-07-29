@@ -2,7 +2,7 @@
 analyzed: '2026-07-28'
 name: Samantha Ellis
 slug: samantha-ellis
-status: draft
+status: published
 type: person
 updated: '2026-07-28'
 ---
