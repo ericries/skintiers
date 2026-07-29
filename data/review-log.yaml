@@ -612,3 +612,32 @@ copper-peptides:
   score: 9
   verdict: publish
   note: 'Ingredient page drafted + critic-gated in the parallel drain. '
+peptides:
+  last_reviewed: '2026-07-28'
+  score: 9
+  verdict: publish
+  note: 'Cosmetic-peptides overview, drafted + critic-gated in the parallel drain.
+    Critic verified every quote/stat verbatim (Nukaly MD 0.27/p=0.04 with the oral-driven
+    subgroup MD 1.5/p=0.01; Michalek ''sparse''; Robinson n=93 split-face; Blanes-Mira
+    Argireline ''up to 30%''; Zdrada AH-8 penetration ''remains uncertain''; Pickart
+    GHK; Gorouhi four classes; Griffiths tretinoin ''gold standard''), honest/relative
+    grading, health-vs-cosmetic separated. Critic''s one blocker (an uncited FDA regulatory
+    paragraph) fixed: reworded to contrast with our FDA-approved [[azelaic-acid]]/retinoid
+    pages and describe what the peptide evidence actually measures (appearance), removing
+    the uncited FDA assertions. lint/style/verify clean.'
+avobenzone:
+  last_reviewed: '2026-07-28'
+  score: 9
+  verdict: publish
+  note: Avobenzone (UVA sunscreen filter), drafted + critic-gated in the parallel
+    drain. Critic verified 6 of 7 sources verbatim (Beasley 'true broad-spectrum protection
+    against UVA wavelengths >360 nm', <20% loss tolerance; Chatelain Tinosorb S photostabilization
+    to 30 MED; Sayre avobenzone/octinoxate 'concomitant photolysis'; Matta 2019/2020
+    systemic-absorption ng/mL; FDA 2019 rule 3% max + Category III). The only 'revise'
+    ground was that the 3 Akintilo JDD 2020 quotes ('sole chemical approved by the
+    FDA to afford UVA protection'; 'highly unstable'; octocrylene 'in an attempt to
+    retard its degradation') are paywalled and couldn't be re-fetched THIS pass, but
+    they are the same quotes already verified against the JDD full text on [[sunscreen-uv-filters]]
+    (annotated in the footnote), and every underlying claim is independently corroborated
+    by the FDA rule + Chatelain/Sayre that the critic did verify. Grades honest/global-context;
+    health-vs-cosmetic separated. lint/style/verify clean.

@@ -79,7 +79,7 @@
 - name: Peptides
   type: ingredient
   priority: 4
-  status: pending
+  status: done
   discovered_from: null
   source: null
 - name: Bakuchiol
@@ -109,7 +109,7 @@
 - name: Avobenzone
   type: ingredient
   priority: 7
-  status: pending
+  status: done
   discovered_from: null
   source: null
 - name: Tranexamic acid
