@@ -23,6 +23,14 @@ ascorbic-acid-vitamin-c · salicylic-acid · hydroquinone · tranexamic-acid · 
 rosacea (+ rosacea-erythematotelangiectatic, rosacea-papulopustular) · skin-barrier-strengthening ·
 skin-barrier-repair · van-zuuren-2017 study · cerave (brand) · samantha-ellis (person)
 
+**Shipped 2026-07-28/29 (the cleanup + overnight):** rosacea overview + type 1 + type 2 (with "How to know"
+openers) · atopic-dermatitis · la-roche-posay-effaclar-mat · some-by-mi-yuja-niacin-serum (all Apify-verified)
+· skin-barrier-strengthening · skin-barrier-repair · cerave (brand) · glass-skin · samantha-ellis · a
+**What's New** page (footer, `sk log`). **Held:** `acne` (draft — known correctness errors + spend limit;
+punch-list in review-log). **Tooling shipped:** `sk audit` (drafted-but-unshipped detector) + build warning;
+`sk style` voice deny-list; `sk lint` required-section WARN. **Overnight reports:** `docs/overnight/2026-07-29-*`
+(UX audit, QC findings, five-whys, tooling, MORNING-BRIEF).
+
 ## Open backlog (in rough priority order)
 
 1. **Tier-list format (applies to every tier list):** (a) a click-down summary of the tiers at the top;
@@ -42,10 +50,11 @@ skin-barrier-repair · van-zuuren-2017 study · cerave (brand) · samantha-ellis
    product for each.
 5. **Sunscreen filters hub** (categorized mineral vs chemical) + a simple per-sunscreen visual showing
    which filters are present and their coverage (which nm of UV each blocks).
-6. **Condition pages:** add the layperson "How to know you have this" opener to rosacea (×3) and acne,
-   then publish.
-7. **Barrier tier lists:** critic + publish skin-barrier-strengthening and skin-barrier-repair (with the
-   tier-format from #1).
+6. **Condition pages:** ~~add the layperson "How to know you have this" opener to rosacea (×3) and acne~~
+   DONE for rosacea ×3 (published). acne opener added but the page is HELD (correctness punch-list, see
+   review-log/review-feedback).
+7. **Barrier tier lists:** ~~critic + publish skin-barrier-strengthening and skin-barrier-repair~~ DONE
+   (both published 2026-07-28). Still want the tier-format from #1 applied when it exists.
 8. **Fill stub ingredient pages** that these pages lean on: ceramides, niacinamide, hyaluronic-acid,
    glycerin, colloidal-oatmeal, panthenol, ferulic-acid, retinol, peptides, ascorbic-acid.
 9. **Rosacea drug pages (queued):** ivermectin, metronidazole, brimonidine, oxymetazoline, doxycycline,
