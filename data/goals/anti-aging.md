@@ -1,15 +1,15 @@
 ---
-analyzed: '2026-07-28'
-name: Anti-aging (and perimenopausal skin)
+analyzed: '2026-07-29'
+name: Anti-aging
 slug: anti-aging
-status: draft
+status: published
 type: goal
-updated: '2026-07-28'
+updated: '2026-07-29'
 ---
 
-"Anti-aging" is a marketing umbrella, not a single outcome. Skin aging is several distinct changes at once: collagen and elastin breaking down (wrinkles, loss of firmness and elasticity), pigment and tone shifting, and, around menopause, a faster hormonally-driven loss on top of the sun-driven one. This page ranks the interventions by how much they change those endpoints in actual studies, not by how heavily they are sold. It is organized in tiers from highest to lowest demonstrated impact, and it links each topical to its own profile. Three things make the ranking read correctly.
+"Anti-aging" is a marketing umbrella, not a single outcome. Skin aging is several distinct changes at once: collagen and elastin breaking down (wrinkles, loss of firmness and elasticity) and pigment and tone shifting, driven largely by cumulative sun exposure. This page is health-first: it ranks interventions by how much they protect and rebuild skin structure in actual studies, not by how heavily they are sold or how much they smooth appearance in the short term. It is organized in tiers from highest to lowest demonstrated impact, and it links each topical to its own profile. Around menopause a faster, hormonally-driven loss stacks on top of this sun-driven aging; that component has its own large lever and is covered on [[anti-aging-perimenopause]].
 
-> Two cheap, long-established interventions carry the strongest evidence and sit at the top: daily broad-spectrum sunscreen (prevention) and prescription tretinoin (reversal). Most of what is marketed harder ranks lower. The largest single lever on the *menopausal* part of aging is hormonal, but that is a medical decision made with a clinician for whole-body reasons, never a skincare purchase. And the most heavily promoted category, ingestible supplements, has the weakest and lowest-quality evidence of anything here.
+> Two cheap, long-established interventions carry the strongest evidence and sit at the top: daily broad-spectrum sunscreen (prevention) and prescription tretinoin (reversal). Most of what is marketed harder ranks lower, and the most heavily promoted category, ingestible supplements, has the weakest and lowest-quality evidence of anything here. For the part of skin aging tied specifically to menopause, the biggest lever is hormonal and is covered on [[anti-aging-perimenopause]].
 
 **Impact means effect on skin aging in studies, not popularity or price.** Some of the most-marketed products rank low; several inexpensive, decades-old ones rank at the top.
 
@@ -31,25 +31,7 @@ The two interventions with large, well-evidenced effects that apply to nearly ev
 - **Effect: Large (reversal).** The trial-validated benchmark for repairing photoaged skin; the wider retinoid family is mapped on [[retinoids]], and this specific molecule on [[tretinoin]] (see the product [[tretinoin-0-025-cream]]).
 - **The catch:** prescription-only, and it causes dryness and peeling at first, so it is typically started a couple of nights a week and built up, and paired with sunscreen.
 
-## Tier 2: The Perimenopausal Lever
-
-*A whole-body medical decision, not a product, but potentially the biggest single lever on the menopause-driven part of aging.*
-
-Skin aging accelerates around menopause because estrogen falls, and much of the visible change tracks estrogen status rather than chronological age. Skin collagen declines "between 1-2% per year after the menopause,"[^brincat87] and the loss correlates with years since menopause, not birthday.[^brincat87] Systemic hormone therapy can push back on that component: a placebo-controlled trial found conjugated estrogens significantly increased skin thickness (p<0.01),[^maheux] and a separate study reported that "12 months of HRT increased elasticity by 5.2%."[^sumino]
-
-- **Effect: Large for the hormonal component, but conditional.** The estrogen-related loss is real and partly reversible; the effect sizes for that specific component rival Tier 1.
-- **The catch:** these are small or uncontrolled studies (the elasticity trial had 12 participants and no placebo arm), measured off the face, and hormone therapy is a systemic prescription medication with its own whole-body risk-benefit profile. It is weighed with a clinician for menopause symptoms generally, in which better skin is a bonus rather than a reason to start. It is included here as context, not as a product to buy.
-
-## Tier 3: Promising but Unsettled: Topical Estrogen
-
-*Prescription-strength estrogen applied to skin can raise local collagen, but the facial-aging evidence is mixed and it is a clinician's call.*
-
-In 59 perimenopausal women, six months of prescription topical estrogen (estradiol 0.01% or estriol 0.3%) produced skin in which "wrinkle depth and pore sizes had decreased by 61 to 100% in both groups," alongside a significant increase in type III collagen.[^schmidt]
-
-- **Effect: Moderate, uncertain.** A real local collagen signal, but the trial had no placebo arm and the effect on elastin specifically was not established.
-- **The catch:** prescription strength is what carries the evidence; over-the-counter "estrogen-like" or phytoestrogen creams are a different, underpowered category and should not be read into this result. Best weighed by a menopause-literate clinician against individual history. Like Tier 2, it is weighed with a clinician for individual history, not bought off a shelf.
-
-## Tier 4: Reliable Adjuncts
+## Tier 2: Reliable Adjuncts
 
 *Modest but real. None transforms skin alone; each adds a measurable, generally well-tolerated increment once Tier 1 is in place.*
 
@@ -79,7 +61,7 @@ In 59 perimenopausal women, six months of prescription topical estrogen (estradi
 
 - **Effect: Small to moderate, well-tolerated.** Requires consistent sessions for weeks; at-home masks are typically lower-dose than in-office panels, so results often lag the marketing. It is a device rather than a topical, so it sits outside the main topical comparison.
 
-## Tier 5: The Support Crew
+## Tier 3: The Support Crew
 
 *These improve skin quality and comfort more than deep structure, which matters more as skin dries and thins with age, and makes the stronger actives above more tolerable.*
 
@@ -95,7 +77,7 @@ In 59 perimenopausal women, six months of prescription topical estrogen (estradi
 
 - **Effect: None demonstrated for aging; solid for redness and tone.** Worth it for anyone who also has rosacea or pigmentation, where the anti-aging angle is not the reason to use it. See [[azelaic-acid]].
 
-## Tier 6: Overhyped
+## Tier 4: Overhyped
 
 *Heavily marketed, weakest evidence. Low risk and low cost, but little demonstrated payoff, and no substitute for anything above.*
 
@@ -115,19 +97,19 @@ For elasticity specifically, professional treatments (laser resurfacing, microne
 
 ## Not a product, but high-impact: the free foundations
 
-Behavior rivals the Tier 4 topicals. Not smoking is the clearest case: in a study of 79 identical-twin pairs, the smoking twin was graded significantly more aged across the mid and lower face, and the authors concluded "a 5-year difference in smoking history can cause noticeable differences in facial aging."[^okada] Sun-avoidance habits beyond sunscreen (shade and hats) extend the same UV logic as Tier 1.
+Behavior rivals the Tier 2 topicals. Not smoking is the clearest case: in a study of 79 identical-twin pairs, the smoking twin was graded significantly more aged across the mid and lower face, and the authors concluded "a 5-year difference in smoking history can cause noticeable differences in facial aging."[^okada] Sun-avoidance habits beyond sunscreen (shade and hats) extend the same UV logic as Tier 1.
 
 ## A minimal evidence-led routine
 
-Reduced to what the tiers above support, a routine is short. In the morning: a gentle cleanser, optional vitamin C, moisturizer, and sunscreen. At night: a gentle cleanser, a retinoid (often started twice a week and built up), and a ceramide moisturizer; an AHA or bakuchiol can stand in for the retinoid on some nights rather than stacking both. The structural benefits take time: roughly three months before judging, six to twelve for collagen-level change. If hormone therapy is already being considered for menopause symptoms, that clinician conversation is the highest-value addition.
+Reduced to what the tiers above support, a routine is short. In the morning: a gentle cleanser, optional vitamin C, moisturizer, and sunscreen. At night: a gentle cleanser, a retinoid (often started twice a week and built up), and a ceramide moisturizer; an AHA or bakuchiol can stand in for the retinoid on some nights rather than stacking both. The structural benefits take time: roughly three months before judging, six to twelve for collagen-level change. For skin aging tied to menopause, the highest-value additions are covered on [[anti-aging-perimenopause]].
 
 ## What this page is not
 
-This is an educational summary, not medical advice. The hormonal options especially depend on individual health history and are decided with a qualified clinician. The tiers are directional, not precise: they compress studies with different methods and populations onto one scale, so they are a map, not a measurement. And skin is individual: tolerance to retinoids and acids, the right sunscreen, and whether hormones are appropriate all vary person to person.
+This is an educational summary, not medical advice. The tiers are directional, not precise: they compress studies with different methods and populations onto one scale, so they are a map, not a measurement. And skin is individual: tolerance to retinoids and acids, and the right sunscreen, vary person to person. The hormonal levers specific to menopause, which depend on individual health history and a clinician, are on [[anti-aging-perimenopause]].
 
 ## See Also
 
-[[retinoids]], [[tretinoin]], [[retinaldehyde]], [[retinol]], [[adapalene]], [[bakuchiol]], [[vitamin-c]], [[ascorbic-acid-vitamin-c]], [[niacinamide]], [[azelaic-acid]], [[peptides]], [[ceramides]], [[hyaluronic-acid]], [[sunscreen-uv-filters]], [[moisturizing]], [[glass-skin]]
+[[anti-aging-perimenopause]], [[retinoids]], [[tretinoin]], [[retinaldehyde]], [[retinol]], [[adapalene]], [[bakuchiol]], [[vitamin-c]], [[ascorbic-acid-vitamin-c]], [[niacinamide]], [[azelaic-acid]], [[peptides]], [[ceramides]], [[hyaluronic-acid]], [[sunscreen-uv-filters]], [[moisturizing]], [[glass-skin]]
 
 ## Sources
 
@@ -136,10 +118,6 @@ This is an educational summary, not medical advice. The hormonal options especia
 [^akintilo]: Akintilo L, Gendler EC. The State of Sunscreens in the US: Caveat Emptor. Journal of Drugs in Dermatology, 2020;19(8):799-801. (Quoted via the [[sunscreen-uv-filters]] page; full text access-restricted, passage verified 2026-07-27.) https://pubmed.ncbi.nlm.nih.gov/32845592/ (accessed 2026-07-28)
 [^olsen]: Olsen EA, Katz HI, Levine N, et al. Tretinoin emollient cream: a new therapy for photodamaged skin. Journal of the American Academy of Dermatology, 1992;26(2 Pt 1):215-224. https://pubmed.ncbi.nlm.nih.gov/1552056/ (accessed 2026-07-28)
 [^griffiths]: Griffiths CEM, Russman AN, Majmudar G, Singer RS, Hamilton TA, Voorhees JJ. Restoration of collagen formation in photodamaged human skin by tretinoin (retinoic acid). New England Journal of Medicine, 1993;329(8):530-535. https://pubmed.ncbi.nlm.nih.gov/8336752/ (accessed 2026-07-28)
-[^brincat87]: Brincat M, Kabalan S, Studd JW, Moniz CF, de Trafford J, Montgomery J. A study of the decrease of skin collagen content, skin thickness, and bone mass in the postmenopausal woman. Obstetrics & Gynecology, 1987;70(6):840-845. https://pubmed.ncbi.nlm.nih.gov/3120067/ (accessed 2026-07-28)
-[^maheux]: Maheux R, Naud F, Rioux M, et al. A randomized, double-blind, placebo-controlled study on the effect of conjugated estrogens on skin thickness. American Journal of Obstetrics and Gynecology, 1994;170(2):642-649. https://pubmed.ncbi.nlm.nih.gov/8116726/ (accessed 2026-07-28)
-[^sumino]: Sumino H, Ichikawa S, Abe M, Endo Y, Ishikawa O, Kurabayashi M. Effects of aging, menopause, and hormone replacement therapy on forearm skin elasticity in women. Journal of the American Geriatrics Society, 2004;52(6):945-949. https://pubmed.ncbi.nlm.nih.gov/15161459/ (accessed 2026-07-28)
-[^schmidt]: Schmidt JB, Binder M, Demschik G, Bieglmayer C, Reiner A. Treatment of skin aging with topical estrogens. International Journal of Dermatology, 1996;35(9):669-674. https://pubmed.ncbi.nlm.nih.gov/8876303/ (accessed 2026-07-28)
 [^ditre]: Ditre CM, Griffin TD, Murphy GF, et al. Effects of alpha-hydroxy acids on photoaged skin: a pilot clinical, histologic, and ultrastructural study. Journal of the American Academy of Dermatology, 1996;34(2 Pt 1):187-195. https://pubmed.ncbi.nlm.nih.gov/8642081/ (accessed 2026-07-28)
 [^lin]: Lin FH, Lin JY, Gupta RD, et al. Ferulic acid stabilizes a solution of vitamins C and E and doubles its photoprotection of skin. Journal of Investigative Dermatology, 2005;125(4):826-832. https://pubmed.ncbi.nlm.nih.gov/16185284/ (accessed 2026-07-28)
 [^creidi]: Creidi P, Vienne MP, Ochonisky S, et al. Profilometric evaluation of photodamage after topical retinaldehyde and retinoic acid treatment. Journal of the American Academy of Dermatology, 1998;39(6):960-965. https://pubmed.ncbi.nlm.nih.gov/9843009/ (accessed 2026-07-28)

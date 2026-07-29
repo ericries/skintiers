@@ -3,6 +3,10 @@
 # Rendered to _site/whats-new.html (footer link).
 
 - date: '2026-07-29'
+  title: Published the anti-aging hub (health-first, tiered) and split out an anti-aging during perimenopause
+    page.
+  slug: anti-aging
+- date: '2026-07-29'
   title: 'Published the acne overview: what actually works, ranked by controlled evidence, health vs cosmetic
     separated.'
   slug: acne

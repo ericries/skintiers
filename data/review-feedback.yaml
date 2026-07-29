@@ -156,7 +156,9 @@
     interventions are bracketed context only (full coverage = later phase per user).'
   priority: 7
   added: '2026-07-28'
-  status: pending
+  status: resolved
+  resolution: Split into health-first hub + anti-aging-perimenopause child (user-approved) and published
+    both; critic-cleared content preserved, footnote integrity verified.
 - slug: tretinoin
   dimension: D1/acne comparators
   issue: An uncited comparative-efficacy claim ("comparable to [[azelaic-acid]] for comedonal acne") was
