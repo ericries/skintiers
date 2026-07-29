@@ -10,6 +10,13 @@ leaks** (nothing drafted-but-uncommitted, nothing critic-cleared but still `draf
 `docs/postmortems/2026-07-28-stuck-drafts.md` for why this rule exists. When a batch ships
 anything a reader would notice, add a line to the What's New log with `sk log "…" [--slug SLUG]`.
 
+**Manufacturer/retailer marketing stats need an independently fetchable corroborator.** A load-bearing
+figure or quote that rests solely on a single manufacturer or retailer page (especially an anti-bot one
+that a re-fetch can't confirm) must be either confirmed on a second, independently fetchable source or
+softened/removed — never shipped resting on one unverifiable page. Apply the pattern used for LRP Effaclar
+Mat (US page blocked → figures confirmed on Amazon) and Some By Mi (iHerb price hidden → priced from
+Stylevana). When in doubt, leave it out.
+
 ## Prime directive
 Every page has a purpose. A section or claim earns its place only if it serves that purpose.
 Rigor is not exhaustiveness. Honesty is not announcing every absence. Concision is a virtue.
