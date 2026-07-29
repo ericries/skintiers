@@ -203,3 +203,29 @@
   priority: 6
   added: '2026-07-28'
   status: pending
+- slug: some-by-mi-yuja-niacin-serum
+  dimension: verification
+  issue: Drafted + critic-gated in the oily-skin batch; HELD as draft. Sebum/niacinamide
+    science verified against [[niacinamide-sebum-studies]]; the blocker is that the
+    primary product source (iHerb) 403'd on re-fetch (web budget spent), so the manufacturer
+    composition/price stats resting on it (83% yuja, 10% niacinamide, citron peel
+    oil 293.1 ppm, 4.6/5 across 2,454 reviews, $23) are unverified.
+  suggested_fix: Re-fetch iHerb/YesStyle/Stylevana with fresh budget, verify the 10%
+    niacinamide + price + ratings verbatim (or soften to what verifies), then publish.
+  priority: 6
+  added: '2026-07-28'
+  status: pending
+- slug: la-roche-posay-effaclar-mat
+  dimension: verification
+  issue: 'Drafted + critic-gated in the oily-skin batch; HELD as draft. Blocker: the
+    LRP US product page couldn''t be re-fetched (anti-bot); its load-bearing figures
+    (96% immediately mattified / less oily / 94% texture refined), the $39.99/40ml
+    price, the ''targets excess oil and shine'' description, and a Dr. Jenny Liu quote
+    all rest solely on it, and the LRP Middle East page carries different figures
+    (94% instantly mattified). Not fabrication, but unverified.'
+  suggested_fix: Re-fetch the LRP US page (fresh budget) and verify the consumer-perception
+    figures (quarantine as marketing), price, and the Dr. Jenny Liu quote source verbatim;
+    then publish.
+  priority: 6
+  added: '2026-07-28'
+  status: pending

@@ -933,3 +933,54 @@ bisoctrizole:
     filter standard abroad, outside the US monograph, bemotrizinol added 2026 not
     bisoctrizole) is independently corroborated by the verified FDA rules + Herzog/Hojerova.
     lint/style/verify clean.
+oily-skin:
+  last_reviewed: '2026-07-28'
+  score: 9
+  verdict: publish
+  note: 'Oily-skin condition page (user request; anchor for the sebum theme). Opens
+    with the layperson ''How to know you have this'' (midday shine/T-zone, makeup
+    sliding, blotting test), cited. Cleanly separates HEALTH (durable sebum-production
+    reduction: isotretinoin ~88-90% drop with partial recovery; anti-androgens/COC
+    per Katz; retinoids honestly hedged ''yet to exclusively illustrate... sebosuppressive'';
+    niacinamide; azelaic/salicylic) from COSMETIC surface/matte options, stating only
+    isotretinoin durably lowers production; includes green-tea EGCG (Detudom) and
+    K-beauty angle. Critic re-fetched all 10 sources verbatim/exact; applied 2 voice
+    fixes (removed a self-reference + a quarantine-imperative). lint/style/verify
+    clean.'
+niacinamide-sebum-studies:
+  last_reviewed: '2026-07-28'
+  score: 9
+  verdict: publish
+  note: 'Detailed lay summary of the topical-niacinamide-and-sebum RCT evidence (grouped:
+    the 100-Japanese 2% niacinamide SER study + the 30-Caucasian split-face SER/CSL
+    study). Explains SER vs CSL in plain terms, honestly states the abstract doesn''t
+    give reduction magnitudes (and doesn''t invent them), separates cosmetic shine
+    from acne, flags small/short samples. Critic verified all 7 quotes verbatim; lint/style/verify
+    clean.'
+isotretinoin-sebum-suppression:
+  last_reviewed: '2026-07-28'
+  score: 9
+  verdict: publish
+  note: 'Detailed lay summary of isotretinoin''s sebum suppression (Goldstein: 88.4%
+    sebum decrease, partial recovery by 32wk; Strauss: durability to 30-80wk; King/Cunliffe
+    dose-response; Accutane label). Foregrounds the acne (health) mechanism, labels
+    reduced oiliness a secondary consequence, and frames it as the strongest known
+    oil lever but a systemic drug with a serious risk/monitoring profile decided with
+    a clinician. Critic verified all quotes/stats verbatim; clean.'
+cosrx-oil-free-ultra-moisturizing-lotion-birch-sap:
+  last_reviewed: '2026-07-28'
+  score: 9
+  verdict: publish
+  note: Korean oil-free/birch-sap moisturizer for oily/combination skin. Category-vs-product
+    done; health-vs-cosmetic honest (oil-free hydration does NOT reduce sebum production,
+    it avoids adding to the greasy feel). Critic verdict publish. lint/style/verify
+    clean.
+innisfree-no-sebum-mineral-powder:
+  last_reviewed: '2026-07-28'
+  score: 9
+  verdict: publish
+  note: 'Korean sebum-absorbing loose setting powder. Category-vs-product + health-vs-cosmetic
+    done well: effect NONE for sebum production, cosmetic-only surface mattifying
+    (silica/starch). Critic''s only blocker was a broken [[silica]] xref; resolved
+    by creating the silica stub. Price corrected by critic ($19/10g jumbo). All sources
+    verbatim; lint/style/verify clean.'
