@@ -247,7 +247,7 @@
     imperative "Discount" phrasings). Held as draft until fixed.
 - slug: BATCH
   dimension: D-style
-  status: pending
+  status: resolved
   issue: 'QC-sweep: en/em-dash AI-ese in published pages. sk style WARNs on en-dash; tretinoin-0-025-cream
     confirmed failing (also "pivotal"). Pages with connector (non-numeric) dashes needing a careful de-dash
     (connectors->punctuation; ranges->"to"; quotes left verbatim), each re-checked against sk style: adapalene,
@@ -255,6 +255,10 @@
     hydroquinone, retinoids, salicylic-acid, sunscreen-uv-filters, tazarotene, the-ordinary-azelaic-acid-suspension-10,
     tranexamic-acid, tretinoin, tretinoin-0-025-cream, trifarotene, zinc-oxide. Pages with only numeric-range
     en-dashes (CI values): .'
+  resolution: 'De-dashed the 2 pages that actually had body dashes (azelaic-acid, tretinoin-0-025-cream):
+    ranges->"to", captions->colon, connectors->punctuation, quotes verbatim. Sitewide dash-clean confirmed
+    (sk style). The "16 pages" count was inflated by ## Sources citation dashes, which sk style excludes
+    and which stay verbatim.'
 - slug: BATCH
   dimension: D-structure
   status: pending
