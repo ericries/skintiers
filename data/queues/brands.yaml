@@ -7,19 +7,19 @@
 - name: La Roche-Posay
   type: brand
   priority: 10
-  status: pending
+  status: done
   discovered_from: null
   source: null
 - name: Paula's Choice
   type: brand
   priority: 9
-  status: pending
+  status: done
   discovered_from: null
   source: null
 - name: The Ordinary
   type: brand
   priority: 9
-  status: pending
+  status: done
   discovered_from: null
   source: null
 - name: SkinCeuticals
@@ -31,7 +31,7 @@
 - name: Beauty of Joseon
   type: brand
   priority: 9
-  status: pending
+  status: done
   discovered_from: null
   source: null
 - name: COSRX

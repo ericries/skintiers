@@ -103,13 +103,13 @@
 - name: Cetaphil Gentle Skin Cleanser
   type: product
   priority: 8
-  status: pending
+  status: done
   discovered_from: null
   source: null
 - name: The Ordinary Niacinamide 10% + Zinc 1%
   type: product
   priority: 8
-  status: pending
+  status: done
   discovered_from: null
   source: null
 - name: The Ordinary Azelaic Acid Suspension 10%
@@ -427,7 +427,7 @@
 - name: CeraVe Foaming Facial Cleanser
   type: product
   priority: 7
-  status: pending
+  status: done
   discovered_from: cerave
   source: null
 - name: CeraVe PM Facial Moisturizing Lotion

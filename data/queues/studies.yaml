@@ -44,24 +44,24 @@
 - name: van Zuuren 2019 rosacea phenotype systematic review (BJD)
   type: study
   priority: 6
-  status: pending
+  status: done
   discovered_from: rosacea
   source: null
 - name: van Zuuren 2015 Cochrane interventions for rosacea (CD003262)
   type: study
   priority: 6
-  status: pending
+  status: done
   discovered_from: rosacea
   source: null
 - name: Yamasaki 2007 cathelicidin and kallikrein-5 in rosacea (Nature Medicine)
   type: study
   priority: 5
-  status: pending
+  status: done
   discovered_from: rosacea
   source: null
 - name: Makrgeorgou 2018 Cochrane probiotics for treating eczema
   type: study
   priority: 5
-  status: pending
+  status: done
   discovered_from: probiotics
   source: null

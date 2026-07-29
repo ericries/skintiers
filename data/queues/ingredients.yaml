@@ -133,7 +133,7 @@
 - name: Propolis
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: null
 - name: Glycerin
@@ -169,13 +169,13 @@
 - name: Homosalate
   type: ingredient
   priority: 6
-  status: pending
+  status: done
   discovered_from: la-roche-posay-anthelios-melt-in-milk-spf-60
   source: null
 - name: Octisalate
   type: ingredient
   priority: 6
-  status: pending
+  status: done
   discovered_from: la-roche-posay-anthelios-melt-in-milk-spf-60
   source: null
 - name: Octocrylene
@@ -199,7 +199,7 @@
 - name: Octinoxate
   type: ingredient
   priority: 6
-  status: pending
+  status: done
   discovered_from: eltamd-uv-clear-spf-46
   source: null
 - name: Diethylamino Hydroxybenzoyl Hexyl Benzoate (Uvinul A Plus)
@@ -211,7 +211,7 @@
 - name: Ethylhexyl Triazone (Uvinul T 150)
   type: ingredient
   priority: 6
-  status: pending
+  status: done
   discovered_from: beauty-of-joseon-relief-sun-rice-probiotics-spf50
   source: null
 - name: Bisoctrizole (Tinosorb M / Methylene Bis-Benzotriazolyl Tetramethylbutylphenol)
@@ -265,7 +265,7 @@
 - name: Glycolic acid and alpha-hydroxy acids (AHAs)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: null
 - name: squalane

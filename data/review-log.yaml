@@ -641,3 +641,255 @@ avobenzone:
     (annotated in the footnote), and every underlying claim is independently corroborated
     by the FDA rule + Chatelain/Sayre that the critic did verify. Grades honest/global-context;
     health-vs-cosmetic separated. lint/style/verify clean.
+homosalate:
+  last_reviewed: '2026-07-28'
+  score: 9
+  verdict: publish
+  note: 'Cross-queue parallel drain (draft+critic). Ran sk lint (clean), sk style
+    (clean), sk verify (only a manual-check WARN on the eur-lex.europa.eu domain,
+    a legitimate EU regulation primary, not an aggregator). Re-fetched and confirmed
+    VERBATIM every quote and EXACT/correctly-directioned every statistic in five of
+    the six sources: Holt PCCP 2020 (all three photophysics quotes exact, incl. "ESIPT...
+    UVB (290-320 nm)... dissipated non-radiatively" and "mostly favourable photophysical
+    characteristics"); Chaudhuri Photochem Photobiol 2006 82(3):823-8 (avobenzone/DESM/UV-B
+    quote exact, homosalate confirmed as a UVB filter); Matta JAMA 2020 323(3):256-267
+    (homosalate plasma maxima 23.1/17.9/13.9 ng/mL with CVs 68.0%/61.7%/70.2% all
+    exact; 0.5 ng/mL threshold and "surpassed on day 1" quote exa'
+octisalate:
+  last_reviewed: '2026-07-28'
+  score: 9
+  verdict: publish
+  note: 'Cross-queue parallel drain (draft+critic). Ran sk lint, sk style, and sk
+    verify on octisalate: all three clean. Re-fetched every cited source and confirmed
+    each quote verbatim and each statistic exact and correctly directioned: Matta
+    2020 JAMA plasma concentrations (5.1 ng/mL CV 81.6% aerosol, 5.8 ng/mL CV 77.4%
+    nonaerosol, 4.6 ng/mL CV 97.6% pump, all above the 0.5 ng/mL threshold), 48 participants
+    and the "0 hours day 1, 4x on days 2-4" schedule, and the "do not indicate that
+    individuals should refrain from the use of sunscreen" conclusion; Hiller 2019
+    (334 µg EHS and 124 µg 5OH-EHS 24h excretion, 213 µg/g creatinine metabolite peak
+    correctly attributed to 5OH-EHS not EHS''s 525, ~87 h terminal half-life, 3.8
+    g EHS, 20 volunteers, 9 h); FDA 2019 Category III GRASE sentence verbatim'
+octinoxate:
+  last_reviewed: '2026-07-28'
+  score: 9
+  verdict: publish
+  note: 'Cross-queue parallel drain (draft+critic). Ran sk lint (clean), sk style
+    (clean), sk verify (clean except an expected non-blocking WARN that the EUR-Lex
+    regulator domain is not on the primary allowlist). Re-fetched all nine cited sources
+    and confirmed every quote verbatim and every statistic exact and correctly directioned:
+    Tarras-Wahlberg ("the absorbance of 2-ethylhexyl 4-methoxycinnamate was reduced
+    significantly"; 100 J/cm2 UVA, 20 MED UVB); Chatelain/Gabard (all three quotes
+    verbatim); Sayre ("concomitant photolysis of avobenzone and octinoxate," film
+    of avobenzone+oxybenzone+octinoxate, persistent free radicals by ESR); Matta 2020
+    JAMA (7.9 ng/mL CV 86.5% nonaerosol, 5.2 ng/mL CV 68.2% pump; threshold "surpassed
+    on day 1"; "do not indicate that individuals should refrain"; 48 '
+ethylhexyl-triazone:
+  last_reviewed: '2026-07-28'
+  score: 9
+  verdict: publish
+  note: 'Cross-queue parallel drain (draft+critic). sk lint = clean, sk style = clean
+    style, sk verify = only the expected advisory that eur-lex is off the primary
+    allowlist (a regulator, valid primary). I re-fetched all 11 sources and confirmed
+    every quote verbatim and every statistic exact and correctly directioned: Baker
+    2017 (all five quotes incl. "ultrafast internal conversion" and "enabling multiple
+    absorption and recovery cycles, as one would anticipate from a highly efficient
+    filter"); Tsuchiya 2015 ("intersystem crossing to the T1 state", "did not exhibit
+    significantly antioxidative properties by quenching singlet oxygen"); Couteau
+    2007 efficacy scores (octyltriazone 7.80, homosalate 4.33, octisalate 3.12, bisoctrizole
+    3.68, 4-MBC 4.22, octocrylene 10.41, octinoxate 10.42, iscotrizi'
+glycolic-acid:
+  last_reviewed: '2026-07-28'
+  score: 9
+  verdict: publish
+  note: 'Cross-queue parallel drain (draft+critic). Ran sk lint/style/verify (all
+    clean before and after edits) and re-fetched all six cited sources (Kaidbey 2003,
+    Ditre 1996, Stiller 1996, Hurley 2002, Cochrane 2020, Kornhauser 2010). Every
+    quotation is verbatim and every statistic is exact and correctly directioned:
+    RR 1.06 (95% CI 0.88–1.26; 40 participants, low quality), face improvement 76%/71%/40%
+    P<.05, melasma add-on null P=.75 with P<.001 vs baseline, and the Kaidbey UV-sensitivity
+    direction (increased SBC / lowered MED, CPDs elevated but not significant, reversed
+    within a week; n=29/16/13). Cochrane "PGA" genuinely is Participants'' global
+    self-assessment, so that wording is correct. I found and fixed one real fidelity
+    defect: the sentence "several studies suggest that AHAs can incr'
+propolis:
+  last_reviewed: '2026-07-28'
+  score: 9
+  verdict: publish
+  note: 'Cross-queue parallel drain (draft+critic). sk lint/style/verify all return
+    clean. I re-fetched all 7 cited sources and confirmed every quote verbatim and
+    every statistic exact and correctly directioned: Jautová (199 vs 198, median 3
+    vs 4 days p<0.0001, "No allergic reactions, local irritations or other adverse
+    events occurred"), Arenberger (189 vs 190, median 4 vs 5 days P<0.0001, "superior
+    in the treatment of episodes of herpes labialis over 5% aciclovir cream"), Henshaw
+    (n=24 vs 84, 41% vs 16% wk1 P<0.001, 63% vs 44% wk3 P<0.05, MMP-9 and bacterial
+    both P<0.001, "a well-tolerated therapy for wound healing", "now appears to be
+    warranted" — verified via Europe PMC REST API after PubMed reCAPTCHA blocked direct
+    fetch), Mazzarello (60 patients, 20% propolis+3% tea tree oil+10% Aloe ve'
+cerave-foaming-facial-cleanser:
+  last_reviewed: '2026-07-28'
+  score: 9
+  verdict: publish
+  note: 'Cross-queue parallel drain (draft+critic). Re-fetched all three cited sources
+    and verified every quote and statistic. Spada 2021 [^2]: n=100, 28 days, randomized/double-blind
+    design, TEWL P=.0342 and EASI P=.7804 (between-group, not significant), Ego Pharmaceuticals
+    as manufacturer/funder — all exact and correctly directioned. Julia Tzu quote
+    in NewBeauty [^4/now ^3] is verbatim and attributed to a named dermatologist.
+    Price $15.99 verified and attributed to the manufacturer [^1]; the CeraVe INCI,
+    fragrance-free/sulfate-free composition, and quarantined marketing claims all
+    match the source. Structure checks pass: results-first Summary, BOTH category
+    and product verdicts stated, health-first grades with cosmetic flagged, no imperatives
+    in our voice, affirmative link-outs, Sources la'
+cetaphil-gentle-skin-cleanser:
+  last_reviewed: '2026-07-28'
+  score: 9
+  verdict: publish
+  note: 'Cross-queue parallel drain (draft+critic). Ran lint (clean), style (clean),
+    verify (only the four expected non-primary-domain warnings for Cetaphil/Wirecutter/Allure/Target,
+    all correctly used as editorial/pointer/price sources, not as medical primaries).
+    Re-fetched every cited source. Both PubMed primaries verified verbatim and exact,
+    statistics correctly directioned: Draelos 2006 (30 rosacea patients, 2 weeks,
+    "No significant increase in TEWL... did not damage the skin barrier," the no-adverse-events
+    quote, "significant reduction (P<.05) in investigator-assessed rosacea severity,"
+    "nonalkaline nonirritating cleanser") and Baranda 2002 (29 products, 30 sensitive-skin
+    subjects, 5 days, "A significant correlation between pH and the IrIn of cleansers
+    was found (P < 0.006)," syndets at'
+the-ordinary-niacinamide-10-zinc-1:
+  last_reviewed: '2026-07-28'
+  score: 9
+  verdict: publish
+  note: 'Cross-queue parallel drain (draft+critic). Ran sk lint (clean), sk style
+    (clean), and sk verify (only advisory "domain not on primary allowlist" WARNs,
+    expected for a product page whose sources are the manufacturer page and a cosmetic-chemist
+    blog; no aggregators). Re-fetched all four cited sources and confirmed every quote
+    verbatim: the Chemist Confessions quotes ("niacinamide is actually clinically
+    tested at 2% to 5%", "all the sebum-reducing, brightening, barrier-supporting
+    benefits of niacinamide", "higher doses will always increase the risk of skin
+    irritation even for the most seemingly vanilla ingredient", "niacinamide really
+    hit superstardom level with the Ordinary''s 10% Niacinamide serum", "you only
+    need 2%", "you only need 4%"), the manufacturer directions "Apply a few drop'
+la-roche-posay:
+  last_reviewed: '2026-07-28'
+  score: 9
+  verdict: publish
+  note: 'Cross-queue parallel drain (draft+critic). Ran lint (clean), style (clean),
+    and verify (clean apart from two advisory allowlist WARNs on the loreal-finance.com
+    PDFs, which are legitimate primary corporate filings for ownership/corporate facts).
+    Downloaded and text-extracted both cited PDFs and confirmed every quote VERBATIM
+    and every statistic EXACT: "1989 • La Roche-Posay" and 2018 "Thermes de la Roche-Posay"
+    in the acquisitions list; "Acquisition of the thermal centre La Societe des Thermes
+    de La Roche-Posay"; division goal "to provide sustainable and life-changing dermatological
+    solutions"; brand list (La Roche-Posay, CeraVe, Vichy, SkinCeuticals, Skinbetter
+    Science); Melasyl''s "18 years of research in the Group''s laboratories", "Validated
+    by more than 121 scientific studies", "h'
+the-ordinary:
+  last_reviewed: '2026-07-28'
+  score: 9
+  verdict: publish
+  note: 'Cross-queue parallel drain (draft+critic). Ran lint (clean), style (clean),
+    and verify (clean apart from a pre-existing advisory WARN that theordinary.com
+    is not on the primary allowlist; I fetched it and confirmed it is cited only for
+    the brand''s own attributed positioning claims, which the writing guide permits).
+    I re-fetched all four sources and confirmed every quote verbatim and every statistic
+    exact and correctly directioned: SEC 8-K Feb 2021 ("founded in 2013 by the late
+    Brandon Truaxe," "Founder, Pasquale Cusano and Co-Founder, Nicola Kilner," "The
+    Abnormal Beauty Company," "initial investment in June 2017," "from approximately
+    29% to approximately 76%," "$1.0 billion," "$2.2 billion" enterprise value, "$460
+    million" net sales for the 12 months ended Jan 31 2021, "six brands"'
+paulas-choice:
+  last_reviewed: '2026-07-28'
+  score: 9
+  verdict: publish
+  note: 'Cross-queue parallel drain (draft+critic). Ran sk lint (clean), sk style
+    (clean), sk verify (exit 2, only two advisory "verify manually" domain WARNs for
+    ta.com and paulaschoice.com — no new failures). Re-fetched all three sources and
+    confirmed every quote verbatim and every statistic exact and correctly directioned:
+    TA Associates press release ("signing of a definitive agreement to sell Paula''s
+    Choice", "expected to close in the third quarter of 2021", terms "were not disclosed",
+    "Founded more than 25 years ago by one of the original beauty influencers", "one
+    of the largest digitally native beauty brands in the world", "a methodically curated
+    product offering", "global direct-to consumer", the Begoun/Poseley/Petrou quotes
+    all match); Unilever 2021 Form 20-F on SEC EDGAR (2 Aug 2021'
+beauty-of-joseon:
+  last_reviewed: '2026-07-28'
+  score: 9
+  verdict: publish
+  note: 'Cross-queue parallel drain (draft+critic). Ran lint (clean), style (clean),
+    and verify (only the expected non-primary-allowlist WARNs for beautyofjoseon.com,
+    dart.fss.or.kr, and consumerreports.org — all appropriate for a brand page and
+    manually verified). Re-fetched every cited source. Consumer Reports [^4]: the
+    quote "all three Korean formulas provided better protection than their U.S. counterparts"
+    is verbatim; the stats are exact and correctly directioned (Korean Relief Sun
+    avg tested SPF 36 vs US Day Dew Sunscreen SPF 50 avg 19), and CR''s top-of-scale
+    UVA/UVB ratings (5/5) and the US-counterpart product name are confirmed. Brand
+    site [^1]/[^2]: tagline "Inspired By Hanbang. Connected by Community.", description
+    "Authentic Hanbang Korean Skincare Products", the seven-botanical s'
+van-zuuren-rosacea-cochrane:
+  last_reviewed: '2026-07-28'
+  score: 9
+  verdict: publish
+  note: 'Cross-queue parallel drain (draft+critic). sk lint, sk style, and sk verify
+    all return clean. I re-fetched all four cited sources (PMC6481562 and PubMed 25919144
+    for the 2015 Cochrane review; PMC6850438 and PubMed 30585305 for the 2019 BJD
+    update) and confirmed every quotation verbatim and every statistic exact and correctly
+    directioned: the 2015 objective ("To assess the efficacy and safety of treatments
+    for rosacea"), 106 trials/13,631 participants, mean age 48.6, 67 comparisons,
+    the papulopustular quote, metronidazole RR 1.98 (1.29-3.02, 3 trials), azelaic
+    acid RR 1.46 (1.30-1.63, 4 trials), ivermectin RR 1.78 (1.50-2.11) and 1.92 (1.59-2.32),
+    doxycycline RR 1.59 (1.02-2.47) and 2.37 (1.12-4.99), 40mg-vs-100mg AE RR 0.25
+    (0.11-0.54), isotretinoin RR 1.23 (1.05-1.43) and 1.18 (1.0'
+yamasaki-2007-cathelicidin-rosacea:
+  last_reviewed: '2026-07-28'
+  score: 9
+  verdict: publish
+  note: Cross-queue parallel drain (draft+critic). Ran sk lint (clean), sk style (clean),
+    and sk verify (only an advisory WARN that Europe PMC in [^3] is not on the primary-source
+    allowlist; I cleared it manually — the grant numbers it sources, NIAMS R01-AR45676
+    and NIAID R01-AI052453, are independently confirmed on the PubMed record). Re-fetched
+    the Nature Medicine 2007 abstract (PMID 17676051) and confirmed all six quoted
+    phrases verbatim ("affects 3% of the US population over 30 years of age"; "individuals
+    with rosacea express abnormally high levels of cathelicidin in their facial skin";
+    "the proteolytically processed forms of cathelicidin peptides found in rosacea
+    are different"; "an increase in stratum corneum tryptic enzyme (SCTE) in the epidermis";
+    "verified in mice with a targeted d
+makrgeorgou-2018-probiotics-eczema:
+  last_reviewed: '2026-07-28'
+  score: 9
+  verdict: publish
+  note: 'Cross-queue parallel drain (draft+critic). sk lint, sk style, and sk verify
+    all return clean. I re-fetched all three cited sources (PMC6517242 full text,
+    PubMed 30480774, and the Cochrane plain-language summary) and confirmed every
+    statistic is exact and correctly directioned: 39 trials / 2599 participants, searches
+    to January 2017, age first year to 55 with only 6 adult studies; patient-rated
+    symptoms MD -0.44 (95% CI -1.22 to 0.33, 0-20 scale, moderate-quality, correctly
+    described as crossing zero); quality of life SMD 0.03 (95% CI -0.36 to 0.42, low);
+    total SCORAD MD -3.91 (95% CI -5.86 to -1.96, 0-103 scale, low, correctly noted
+    as statistically significant but below the 8.7-point MCID); adverse events RR
+    1.54 (95% CI 0.90 to 2.63, low, correctly noted as crossing 1.0); funding '
+hyperpigmentation:
+  last_reviewed: '2026-07-28'
+  score: 9
+  verdict: publish
+  note: 'Cross-queue parallel drain (draft+critic). Ran lint, style, verify: all three
+    clean before and after my edits. Re-fetched all 7 cited sources and confirmed
+    every quote verbatim and every statistic exact and correctly directioned: Handel
+    2014 (all 10 items incl. "irregular brown macules symmetrically distributed on
+    sun-exposed areas," "affects mainly women," "chronic acquired hypermelanosis of
+    the skin," "directly induces the increase of melanogenic activity," 40%+ family
+    history, 57,343 diagnoses / 8.4% / third largest / 5.9-9.1%, 1,500 adults / 23.6%
+    men / 29.9% women, "improves in the winter and worsens in the summer," Fitzpatrick
+    III-V, Wood''s lamp 340-400nm); Davis & Callender 2010 (all 5 PIH quotes verbatim);
+    Liu 2021 (59 RCTs, 14 therapies, HQ 13th/14, 18.2% AE rate, TCC "the '
+shereene-idriss:
+  last_reviewed: '2026-07-28'
+  score: 9
+  verdict: publish
+  note: Cross-queue parallel drain (draft+critic). Ran lint (clean), style (clean),
+    and verify (only the expected non-primary-domain notes for the practice/brand
+    pages, which are used correctly as attributed official-bio sources on a person
+    page). Re-fetched all six sources. NPI record 1295969624 confirms M.D., primary
+    Dermatology taxonomy, NY license 269568, sole proprietor, 2009-05-13 enumeration,
+    and the "IDRISS DERMATOLOGY" business name at 80 W 40th St. All idrissderm.com
+    quotes (AAD fellowship, ASDS and Dermatologic Society of Greater New York, "followed
+    by a four-year residency at Tufts Medical Center in Boston," the 2018 PillowtalkDerm
+    line, "to over 3 million followers across social platforms," 2022 Sephora launch)
+    and the home-page "Every single treatment at our practice is perfor

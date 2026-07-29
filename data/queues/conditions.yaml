@@ -1,7 +1,7 @@
 - name: Hyperpigmentation
   type: condition
   priority: 6
-  status: pending
+  status: done
   discovered_from: glass-skin
   source: null
 - name: Atopic dermatitis (eczema)
