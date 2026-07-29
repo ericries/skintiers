@@ -49,7 +49,7 @@
 - name: La Roche-Posay Toleriane Hydrating Gentle Cleanser
   type: product
   priority: 9
-  status: pending
+  status: done
   discovered_from: null
   source: null
 - name: Paula's Choice Skin Perfecting 2% BHA Liquid Exfoliant

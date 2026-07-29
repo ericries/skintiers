@@ -984,3 +984,21 @@ innisfree-no-sebum-mineral-powder:
     (silica/starch). Critic''s only blocker was a broken [[silica]] xref; resolved
     by creating the silica stub. Price corrected by critic ($19/10g jumbo). All sources
     verbatim; lint/style/verify clean.'
+la-roche-posay-toleriane-hydrating-gentle-cleanser:
+  last_reviewed: '2026-07-28'
+  score: 9
+  verdict: publish
+  note: 'LRP Toleriane Hydrating Gentle Cleanser (Cleansers). Results-first, health-led
+    (low-foam, sulfate-free, single amphoteric surfactant that cleans without stripping
+    the barrier; ceramide NP + niacinamide + panthenol + prebiotic thermal water).
+    Category-vs-product: category = gentle low-pH/syndet cleansing is better tolerated
+    on sensitive skin (Baranda 2002, pH-vs-irritation P<0.006), linked out to [[moisturizing]]/[[ceramides]];
+    product = a well-rounded fragrance-free gentle cleanser vs named peers [[cerave-hydrating-facial-cleanser]]/[[cetaphil-gentle-skin-cleanser]].
+    Editorial credibility quoted from NYT Wirecutter (''Best for dry skin''; ''without
+    robbing skin of precious moisture''; balanced with the ''more dutiful than beautiful''/''weak
+    suds'' criticism); anonymous brand blurb (Dr. Anna Karp) correctly declined. Grades
+    health-first (cleansing modest/mixed; barrier-deposit minimal/mixed with the rinse-off
+    caveat; cosmetic feel labeled). Price $19.99/400ml attributed as listed. 4-photo
+    side rail (LRP/Amazon/Target). Critic publish; orchestrator re-verified all Wirecutter
+    quotes verbatim via curl (incl. ''a mere 19 ingredients'' matching the INCI).
+    lint/style/verify clean.'
