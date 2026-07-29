@@ -900,3 +900,40 @@ some-by-mi-yuja-niacin-serum:
     iHerb hides its price under MAP restrictions, so the price is re-attributed to Stylevana and the unverifiable
     $23 iHerb upper bound removed. Niacinamide science rests on [[niacinamide]] (already verified). lint+style
     clean; verify WARNs are retailer domains off the primary allowlist (expected for product identity/price).'
+atopic-dermatitis:
+  last_reviewed: '2026-07-28'
+  score: 10
+  verdict: publish
+  note: 'Held blocker cleared. Full-text verification (Group C workflow, independently spot-checked):
+    Eichenfield 2014 JAAD full text confirms verbatim "The diagnosis of atopic dermatitis is made clinically"
+    and the findings list "erythema, edema, xerosis, erosions/excoriations, oozing and crusting, and lichenification"
+    + "vary by patient age and chronicity"; a mis-inserted comma in "chronic, pruritic inflammatory" corrected.
+    van Zuuren 2017 Cochrane oat subgroup figures confirmed exact: SMD -0.23 (CI -0.66 to 0.21), RR 0.31
+    (CI 0.12-0.7), Peto OR 7.26 (CI 1.76-29.92). Residual defensive meta trimmed from the disclaimer line.
+    lint+style clean.'
+la-roche-posay-effaclar-mat:
+  last_reviewed: '2026-07-28'
+  score: 9
+  verdict: publish
+  note: 'Held blocker cleared. LRP US page 403s even via Apify residential proxy, so the load-bearing
+    four-week consumer figures were INDEPENDENTLY confirmed on the fetchable Amazon listing (B00B4RJP72,
+    HTTP 200, orchestrator-verified verbatim): "96% felt skin was immediately mattified and less oily,
+    94% felt skin texture was refined"; price $39.97/40ml (softened on-page to "about $40"). The un-confirmable
+    Dr. Jenny Liu quote was REMOVED (appeared only on the 500ing US page). Description re-anchored to
+    the fetchable LRP Middle East page; INCI + Sebulyse claim confirmed there. lint+style clean; verify
+    WARNs are brand/retailer domains (expected).'
+rosacea:
+  last_reviewed: '2026-07-28'
+  score: 10
+  verdict: publish
+  note: 'How-to-know opener added (Group B): reframed clinical "What Rosacea Is" into a layperson-first
+    "How to know you have this" opener (centrofacial erythema + phyma as the ROSCO independently-diagnostic
+    features, flushing, telangiectasia, papules/pustules, burning/stinging, ocular signs; distinguished
+    from acne by lack of comedones). Sources verified: ROSCO [^tan2017], Cochrane [^cochrane2015], NRS
+    [^wilkin2002], + StatPearls for the acne distinction. lint+verify+style clean.'
+skin-barrier-strengthening:
+  last_reviewed: '2026-07-28'
+  score: 10
+  verdict: publish
+  note: 'Critic-gated (Group B): tier claims cited, health-vs-cosmetic separated, house voice. lint+verify+style
+    clean. verdict publish 10/10.'

@@ -180,7 +180,9 @@
   suggested_fix: Verify the two full-text sources (fresh web budget), trim disclaimer meta, then publish.
   priority: 6
   added: '2026-07-28'
-  status: pending
+  status: resolved
+  resolution: Full-text verified (Eichenfield 2014 + van Zuuren 2017 Cochrane) via Group C workflow; disclaimer
+    meta trimmed. Published.
 - slug: some-by-mi-yuja-niacin-serum
   dimension: verification
   issue: Drafted + critic-gated in the oily-skin batch; HELD as draft. Sebum/niacinamide science verified
@@ -206,7 +208,10 @@
     as marketing), price, and the Dr. Jenny Liu quote source verbatim; then publish.
   priority: 6
   added: '2026-07-28'
-  status: pending
+  status: resolved
+  resolution: LRP US page un-fetchable even via Apify residential proxy; the four-week figures + price
+    independently confirmed on Amazon (verbatim), Jenny Liu quote removed as unconfirmable, description
+    re-anchored to LRP ME page. Published.
 - slug: anua-azelaic-acid-serum
   dimension: D5/structure
   issue: Pre-current-standard page. No results-first '## Summary' section (only a standfirst + one blockquote),
