@@ -55,7 +55,7 @@
 - name: Paula's Choice Skin Perfecting 2% BHA Liquid Exfoliant
   type: product
   priority: 9
-  status: pending
+  status: done
   discovered_from: null
   source: null
 - name: Vanicream Sunscreen SPF 50
@@ -115,7 +115,7 @@
 - name: The Ordinary Azelaic Acid Suspension 10%
   type: product
   priority: 8
-  status: pending
+  status: done
   discovered_from: null
   source: null
 - name: Paula's Choice 10% Azelaic Acid Booster

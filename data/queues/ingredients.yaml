@@ -181,7 +181,7 @@
 - name: Octocrylene
   type: ingredient
   priority: 6
-  status: pending
+  status: done
   discovered_from: la-roche-posay-anthelios-melt-in-milk-spf-60
   source: null
 - name: Ferulic acid
@@ -217,7 +217,7 @@
 - name: Bisoctrizole (Tinosorb M / Methylene Bis-Benzotriazolyl Tetramethylbutylphenol)
   type: ingredient
   priority: 6
-  status: pending
+  status: done
   discovered_from: beauty-of-joseon-relief-sun-rice-probiotics-spf50
   source: null
 - name: Diethylhexyl Butamido Triazone (Iscotrizinol)

@@ -183,9 +183,23 @@
     and the class NMA [^5] remain and carry the modest/first-line grade. The [[azelaic-acid]]
     xref still appears in the Uses section as a "gentler comedonal alternative" (also
     uncited, tolerability framing, left in place as lower-stakes).
-  suggested_fix: If a tretinoin-vs-azelaic-acid comparison is wanted back, add an independent
-    primary RCT (or a systematic review) that directly compares tretinoin with azelaic
-    acid 20% for comedonal acne and cite it; otherwise leave the comparison out.
+  suggested_fix: If a tretinoin-vs-azelaic-acid comparison is wanted back, add an
+    independent primary RCT (or a systematic review) that directly compares tretinoin
+    with azelaic acid 20% for comedonal acne and cite it; otherwise leave the comparison
+    out.
   priority: 3
+  added: '2026-07-28'
+  status: pending
+- slug: atopic-dermatitis
+  dimension: sourcing
+  issue: 'Drafted + critic-gated in the cross-queue drain; HELD as draft. Two load-bearing
+    claims need full-text (not abstract) verbatim/exact verification before publish:
+    Eichenfield 2014 AAD diagnosis quotes (''diagnosis is made clinically'' + the
+    findings list), and the Cochrane oat-subgroup figures (SMD -0.23 CI -0.66 to 0.21,
+    RR 0.31 CI 0.12-0.7, Peto OR 7.26 CI 1.76-29.92). Also trim residual meta in the
+    medical-disclaimer line.'
+  suggested_fix: Verify the two full-text sources (fresh web budget), trim disclaimer
+    meta, then publish.
+  priority: 6
   added: '2026-07-28'
   status: pending

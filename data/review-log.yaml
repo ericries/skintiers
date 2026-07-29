@@ -893,3 +893,43 @@ shereene-idriss:
     by a four-year residency at Tufts Medical Center in Boston," the 2018 PillowtalkDerm
     line, "to over 3 million followers across social platforms," 2022 Sephora launch)
     and the home-page "Every single treatment at our practice is perfor
+octocrylene:
+  last_reviewed: '2026-07-28'
+  score: 9
+  verdict: publish
+  note: 'Sunscreen filter (drain revise, resolved). Critic verified 6/7 sources verbatim;
+    the one blocker was an octocrylene-endocrine claim mis-attributed to the FDA rule
+    (found there on oxybenzone, not octocrylene). Fixed: dropped the FDA endocrine
+    attribution and the unverifiable ''None of these 10'' verbatim quote; the endocrine
+    concern now attaches only to benzophenone via the verified Downs 2021 (whose ''endocrine
+    disruptor'' characterization is noted as disputed). lint/style/verify clean.'
+the-ordinary-azelaic-acid-suspension-10:
+  last_reviewed: '2026-07-28'
+  score: 9
+  verdict: publish
+  note: The Ordinary Azelaic 10% (drain revise, resolved). Category-vs-product done
+    well (10% cosmetic below the 15-20% studied strengths, inferred not shown; but
+    the cheapest way to try azelaic, ~$12/30ml). All load-bearing quotes verified
+    (Rachel Ho review, price, AZELEX/FINACEA indications). The one unverifiable item
+    was an Allure Ava Shamban verbatim quote (paywalled); dropped it, keeping the
+    attributed 'budget pick' listing. lint/style/verify clean.
+paulas-choice-skin-perfecting-2-bha:
+  last_reviewed: '2026-07-28'
+  score: 9
+  verdict: publish
+  note: Paula's Choice 2% BHA (drain revise, resolved). Category-vs-product done (salicylic
+    acid a genuine but second-tier acne active per AAD, below BPO/retinoids; product
+    is a faithful minimal 2% at pH 3.5, most-awarded, mid-priced $37). The unverifiable
+    Marie Claire verbatim quote was de-quoted to the attributed award fact; the Allure
+    Readers'-Choice win kept as an attributed award. lint/style/verify clean.
+bisoctrizole:
+  last_reviewed: '2026-07-28'
+  score: 9
+  verdict: publish
+  note: Bisoctrizole / Tinosorb M (drain revise, resolved). Critic verified all journal/FDA/EU
+    sources verbatim; the only blocker was 4 Akintilo JDD quotes it couldn't re-fetch
+    (paywalled) - these are the SAME quotes already verified against full text on
+    [[sunscreen-uv-filters]] (footnote so annotated) and the substance (modern UVA
+    filter standard abroad, outside the US monograph, bemotrizinol added 2026 not
+    bisoctrizole) is independently corroborated by the verified FDA rules + Herzog/Hojerova.
+    lint/style/verify clean.
