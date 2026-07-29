@@ -187,6 +187,28 @@ def cmd_queue_migrate(args):
     return 0
 
 
+def cmd_log(args):
+    """Prepend a What's New entry to data/changelog.yaml (newest first)."""
+    import datetime
+    import yaml
+
+    path = sklib.ROOT / "data" / "changelog.yaml"
+    entries = yaml.safe_load(path.read_text()) if path.exists() else []
+    entries = entries or []
+    entry = {"date": args.date or datetime.date.today().isoformat(),
+             "title": args.message}
+    if args.slug:
+        entry["slug"] = args.slug
+    entries.insert(0, entry)
+    header = ("# What's New — a running, date-sorted log of what changed on the site.\n"
+              "# Newest entries at the TOP. Append with: sk log \"message\" "
+              "[--slug SLUG] [--date YYYY-MM-DD]\n"
+              "# Rendered to _site/whats-new.html (footer link).\n\n")
+    path.write_text(header + yaml.safe_dump(entries, sort_keys=False, allow_unicode=True, width=100))
+    print(f"logged: {entry['date']} — {args.message}")
+    return 0
+
+
 def cmd_audit(args):
     """Report drafted-but-unshipped work. Exit 1 if any hard leak (untracked
     file, or critic-cleared page still sitting as a draft)."""
@@ -270,6 +292,11 @@ def main(argv=None):
     p_gc.set_defaults(func=cmd_gate_check)
     sub.add_parser("queue-migrate").set_defaults(func=cmd_queue_migrate)
     sub.add_parser("audit").set_defaults(func=cmd_audit)
+    p_log = sub.add_parser("log")
+    p_log.add_argument("message")
+    p_log.add_argument("--slug", default=None)
+    p_log.add_argument("--date", default=None, help="YYYY-MM-DD; defaults to today")
+    p_log.set_defaults(func=cmd_log)
     args = parser.parse_args(argv)
     return args.func(args)
 

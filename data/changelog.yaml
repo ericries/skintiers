@@ -1,0 +1,37 @@
+# What's New — a running, date-sorted log of what changed on the site.
+# Newest entries at the TOP. Append with: sk log "message" [--slug SLUG] [--date YYYY-MM-DD]
+# Rendered to _site/whats-new.html (footer link). One entry per change worth surfacing to a reader.
+
+- date: 2026-07-28
+  title: Published the Some By Mi Yuja Niacin serum review, with its manufacturer figures re-verified.
+  slug: some-by-mi-yuja-niacin-serum
+
+- date: 2026-07-28
+  title: Added a What's New log, and a check that flags any finished page not yet shipped.
+
+- date: 2026-07-28
+  title: Published a CeraVe brand page and a Glass Skin goal page.
+  slug: glass-skin
+
+- date: 2026-07-28
+  title: Added the Oily Skin condition page with the sebum-control evidence, health and cosmetic options.
+  slug: oily-skin
+
+- date: 2026-07-28
+  title: Filled in more than 30 ingredient pages, from ceramides and niacinamide to retinol, salicylic acid, and the sunscreen filters.
+  slug: niacinamide
+
+- date: 2026-07-28
+  title: Added Conditions and Studies as their own sections.
+  slug: acne
+
+- date: 2026-07-28
+  title: Added ingredient hubs for Vitamin C forms and for Probiotics for skin.
+  slug: vitamin-c
+
+- date: 2026-07-28
+  title: Reworked the core product pages to lead with results, quote named dermatologists and cosmetic chemists, separate health from cosmetic effects, and show product photos from several retailers.
+  slug: skinceuticals-c-e-ferulic
+
+- date: 2026-07-28
+  title: Launched the directory.

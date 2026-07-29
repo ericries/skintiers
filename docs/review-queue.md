@@ -27,6 +27,12 @@ skin-barrier-repair · van-zuuren-2017 study · cerave (brand) · samantha-ellis
 
 1. **Tier-list format (applies to every tier list):** (a) a click-down summary of the tiers at the top;
    (b) stronger visual separation between items within a tier. Build as a shared convention + CSS.
+   **(c) [requested 2026-07-28] Replace bare "See Also" lists of similar items with a consistent
+   tier-list.** Wherever a page links a set of comparable things, show them ranked in a tier list, not
+   an unordered list — e.g. a retinoids potency tier list at the bottom of every retinoid page, products
+   ranked within a category on product pages where applicable. Needs a reusable tier-list component driven
+   by data (so the same ranking renders identically across every page that references the set), plus a
+   source of truth for each ranking (potency, evidence, etc.).
 2. **anti-aging → hub + child:** make `anti-aging` a general, health-first anti-aging hub (boosting skin
    health / reversing damage, not just cosmetic look); move the perimenopause material to a child page
    `anti-aging-perimenopause`; leave room to add more anti-aging sub-goals to the hub.

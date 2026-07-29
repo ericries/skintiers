@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block title %}What's New — SkinTiers{% endblock %}
+{% block content %}
+<article>
+  <div class="kicker"><span class="type-tag">What's New</span></div>
+  <div class="masthead">
+    <div>
+      <h1>What's new</h1>
+      <p class="standfirst">A running log of what has changed on the site, newest first.</p>
+    </div>
+  </div>
+
+  <section class="prose changelog">
+    {% for group in groups %}
+    <div class="changelog-day">
+      <h2 class="changelog-date" id="d-{{ group.date }}">{{ group.date_label }}</h2>
+      <ul class="changelog-list">
+        {% for e in group.entries %}
+        <li>{% if e.href %}<a href="{{ e.href }}">{{ e.title }}</a>{% else %}{{ e.title }}{% endif %}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endfor %}
+  </section>
+</article>
+{% endblock %}

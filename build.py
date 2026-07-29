@@ -180,6 +180,43 @@ def tagged_groups_for(profile, tag_index):
     return groups
 
 
+MONTHS = ("January", "February", "March", "April", "May", "June", "July",
+          "August", "September", "October", "November", "December")
+
+
+def _date_label(iso):
+    """'2026-07-28' -> 'July 28, 2026'; pass through anything unparseable."""
+    m = re.match(r"^(\d{4})-(\d{2})-(\d{2})$", str(iso))
+    if not m:
+        return str(iso)
+    y, mo, d = int(m.group(1)), int(m.group(2)), int(m.group(3))
+    return f"{MONTHS[mo - 1]} {d}, {y}" if 1 <= mo <= 12 else str(iso)
+
+
+def changelog_groups_for(path, published):
+    """Read data/changelog.yaml (a flat, newest-first list of {date, title, slug?})
+    and group consecutive entries by date for rendering. A slug that names a
+    published profile becomes a link; anything else renders as plain text."""
+    import yaml
+    if not path.exists():
+        return []
+    entries = yaml.safe_load(path.read_text()) or []
+    groups, cur = [], None
+    for e in entries:
+        if not isinstance(e, dict) or not e.get("title"):
+            continue
+        date = str(e.get("date", ""))
+        slug = e.get("slug")
+        href = f"{slug}.html" if slug and slug in published else None
+        item = {"title": e["title"], "href": href}
+        if cur is None or cur["date"] != date:
+            cur = {"date": date, "date_label": _date_label(date), "entries": [item]}
+            groups.append(cur)
+        else:
+            cur["entries"].append(item)
+    return groups
+
+
 def build():
     env = Environment(loader=FileSystemLoader(str(sklib.TEMPLATES_DIR)), autoescape=True)
     out = sklib.OUTPUT_DIR
@@ -237,6 +274,12 @@ def build():
     # Standalone Method page (not a data profile).
     method = env.get_template("method.html").render()
     (out / "method.html").write_text(method)
+
+    # What's New: a date-sorted changelog from data/changelog.yaml, grouped by day.
+    changelog_groups = changelog_groups_for(sklib.ROOT / "data" / "changelog.yaml",
+                                             published=set(slugs))
+    whats_new = env.get_template("whats_new.html").render(groups=changelog_groups)
+    (out / "whats-new.html").write_text(whats_new)
 
     if sklib.STATIC_DIR.exists():
         for f in sklib.STATIC_DIR.iterdir():

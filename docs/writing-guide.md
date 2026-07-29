@@ -7,7 +7,8 @@ Read this together with `docs/anti-ai-ese.md` (style mechanics and the words to 
 there is no draft-for-sign-off hold. Publishing (flip `status: published`, commit, push) is
 part of the batch, not a follow-up. A batch is not done until `sk audit` reports **0 hard
 leaks** (nothing drafted-but-uncommitted, nothing critic-cleared but still `draft`). See
-`docs/postmortems/2026-07-28-stuck-drafts.md` for why this rule exists.
+`docs/postmortems/2026-07-28-stuck-drafts.md` for why this rule exists. When a batch ships
+anything a reader would notice, add a line to the What's New log with `sk log "…" [--slug SLUG]`.
 
 ## Prime directive
 Every page has a purpose. A section or claim earns its place only if it serves that purpose.

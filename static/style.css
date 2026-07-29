@@ -166,6 +166,15 @@ footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;
 .fnav a{border:none;color:var(--muted)}
 .fnav a:hover{color:var(--accent)}
 
+.changelog-day{margin:0 0 30px}
+.changelog-date{font-family:var(--mono);font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);border-bottom:1px solid var(--rule);padding-bottom:6px;margin:0 0 12px}
+.changelog-list{list-style:none;margin:0;padding:0}
+.changelog-list li{position:relative;padding:7px 0 7px 20px;line-height:1.55;border-bottom:1px solid var(--rule)}
+.changelog-list li:last-child{border-bottom:none}
+.changelog-list li::before{content:"";position:absolute;left:2px;top:15px;width:6px;height:6px;border-radius:50%;background:var(--accent);opacity:.55}
+.changelog-list a{border:none}
+.changelog-list a:hover{color:var(--accent)}
+
 @media (max-width:560px){
   body{font-size:18px}
   h1{font-size:31px}
