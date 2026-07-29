@@ -245,3 +245,30 @@
     See review-log note for the 6-item punch-list (Kawashima BPO claim contradicted by source; uncited
     pore-strips; wrong rank denominator 41 not 49; standfirst certainty mismatch; AAD 2024 [^8] 403 unverified;
     imperative "Discount" phrasings). Held as draft until fixed.
+- slug: BATCH
+  dimension: D-style
+  status: pending
+  issue: 'QC-sweep: en/em-dash AI-ese in published pages. sk style WARNs on en-dash; tretinoin-0-025-cream
+    confirmed failing (also "pivotal"). Pages with connector (non-numeric) dashes needing a careful de-dash
+    (connectors->punctuation; ranges->"to"; quotes left verbatim), each re-checked against sk style: adapalene,
+    ascorbic-acid-vitamin-c, azelaic-acid, colloidal-oatmeal, cos-de-baha-az20-azelaic-acid-20-serum,
+    hydroquinone, retinoids, salicylic-acid, sunscreen-uv-filters, tazarotene, the-ordinary-azelaic-acid-suspension-10,
+    tranexamic-acid, tretinoin, tretinoin-0-025-cream, trifarotene, zinc-oxide. Pages with only numeric-range
+    en-dashes (CI values): .'
+- slug: BATCH
+  dimension: D-structure
+  status: pending
+  issue: 'QC-sweep: missing ## Summary (summary-first standard). Product pages lacking a ## Summary: anua-azelaic-acid-serum,
+    anua-nano-retinol-0-3-niacin-renewing-serum, beauty-of-joseon-light-on-serum-centella-vita-c, cos-de-baha-az20-azelaic-acid-20-serum,
+    la-roche-posay-anthelios-melt-in-milk-spf-60, la-roche-posay-toleriane, the-ordinary-multi-peptide-copper-peptides-serum,
+    tretinoin-0-025-cream. Each needs a written source-linked summary. See review-queue #10 (batch-3 rollout).'
+- slug: BATCH
+  dimension: D-xref
+  status: pending
+  issue: 'QC-sweep: xrefs to uncreated pages (render as plain text now). Create stub or unlink, per target:
+    [[cerave-hydrating-mineral-sunscreen-spf-30-face]] <- la-roche-posay-anthelios-melt-in-milk-spf-60;
+    [[diethylamino-hydroxybenzoyl-hexyl-benzoate]] <- beauty-of-joseon-relief-sun-rice-probiotics-spf50;
+    [[diethylhexyl-butamido-triazone]] <- beauty-of-joseon-relief-sun-rice-probiotics-spf50; [[isotretinoin]]
+    <- isotretinoin-sebum-suppression; [[neutrogena-ultra-sheer-dry-touch-spf-70]] <- la-roche-posay-anthelios-melt-in-milk-spf-60;
+    [[perlite]] <- la-roche-posay-effaclar-mat; [[prequel]] <- samantha-ellis; [[sebaceous-glands]] <-
+    isotretinoin-sebum-suppression; [[sebum]] <- isotretinoin-sebum-suppression'
