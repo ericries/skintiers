@@ -3,6 +3,12 @@
 Read this together with `docs/anti-ai-ese.md` (style mechanics and the words to avoid). Run
 `sk lint`, `sk verify`, and `sk style` on every page before publishing.
 
+**Definition of done (every batch):** pages ship *live* the moment the critic clears them —
+there is no draft-for-sign-off hold. Publishing (flip `status: published`, commit, push) is
+part of the batch, not a follow-up. A batch is not done until `sk audit` reports **0 hard
+leaks** (nothing drafted-but-uncommitted, nothing critic-cleared but still `draft`). See
+`docs/postmortems/2026-07-28-stuck-drafts.md` for why this rule exists.
+
 ## Prime directive
 Every page has a purpose. A section or claim earns its place only if it serves that purpose.
 Rigor is not exhaustiveness. Honesty is not announcing every absence. Concision is a virtue.

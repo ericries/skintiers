@@ -246,6 +246,21 @@ def build():
         if images.is_dir():
             shutil.copytree(images, out / "images", dirs_exist_ok=True)
     print(f"built {len(profiles)} profiles -> {out}")
+    # Ship-live backstop: a committed page the critic cleared ('publish') but that
+    # is still status:draft never reaches the site. Warn loudly (in CI logs too) so
+    # it can't silently rot. See `sk audit` for the full local check.
+    try:
+        import yaml
+        log_path = sklib.ROOT / "data" / "review-log.yaml"
+        review_log = yaml.safe_load(log_path.read_text()) if log_path.exists() else {}
+        by_slug = {p.get("slug"): p.get("status") for p in profiles}
+        stuck = [s for s, e in (review_log or {}).items()
+                 if (e or {}).get("verdict") == "publish" and by_slug.get(s) == "draft"]
+        if stuck:
+            print(f"WARNING: {len(stuck)} page(s) cleared to publish but still draft "
+                  f"(run `sk audit`): {', '.join(sorted(stuck))}")
+    except Exception:
+        pass
     return 0
 
 

@@ -31,6 +31,48 @@ def filter_published(posts):
     return [p for p in posts if p.get("status") == "published"]
 
 
+def audit_stuck(data_dir, tracked_files, review_log):
+    """Surface work that got drafted but never reached the live site.
+
+    The failure mode this catches: a page is drafted and critic-cleared inside a
+    workflow, but the publish tail (flip status -> published, commit, push) is a
+    separate manual step that a context-switch can drop. The page then sits
+    invisibly in the working tree. Three categories, each a distinct leak:
+
+      untracked        - a data/*/*.md file git is not tracking: drafted, never
+                         committed. Would vanish on a clean checkout.
+      stuck_publish    - status==draft but the review-log verdict is 'publish'.
+                         Under ship-live this is a bug: the critic said ship it,
+                         nothing shipped it.
+      unreviewed_draft - status==draft with no publish verdict yet: legitimately
+                         in flight, listed so it is never simply forgotten.
+
+    `tracked_files` is a set of absolute paths git tracks under data/; `review_log`
+    is the parsed data/review-log.yaml (slug -> {verdict, ...}). Both are passed in
+    so this stays a pure function the tests can drive without git or disk state.
+    """
+    data_dir = pathlib.Path(data_dir)
+    review_log = review_log or {}
+    untracked, stuck_publish, unreviewed_draft = [], [], []
+    for md in sorted(data_dir.glob("*/*.md")):
+        post = frontmatter.load(md)
+        slug = post.get("slug") or md.stem
+        status = post.get("status")
+        verdict = (review_log.get(slug) or {}).get("verdict")
+        if str(md.resolve()) not in tracked_files:
+            untracked.append((slug, status))
+        if status == "draft" and verdict == "publish":
+            stuck_publish.append((slug, verdict))
+        elif status == "draft":
+            # any draft not yet cleared to publish (no verdict, or revise/sign-off)
+            unreviewed_draft.append((slug, verdict or "unreviewed"))
+    return {
+        "untracked": untracked,
+        "stuck_publish": stuck_publish,
+        "unreviewed_draft": unreviewed_draft,
+    }
+
+
 def _type_rank(typ):
     try:
         return ENTITY_TYPES.index(typ)

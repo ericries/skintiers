@@ -187,6 +187,44 @@ def cmd_queue_migrate(args):
     return 0
 
 
+def cmd_audit(args):
+    """Report drafted-but-unshipped work. Exit 1 if any hard leak (untracked
+    file, or critic-cleared page still sitting as a draft)."""
+    import subprocess
+    import yaml
+
+    root = sklib.ROOT
+    try:
+        out = subprocess.run(
+            ["git", "-C", str(root), "ls-files", "data"],
+            capture_output=True, text=True, check=True,
+        ).stdout
+        tracked = {str((root / line).resolve()) for line in out.split()}
+    except Exception:
+        tracked = set()
+    log_path = root / "data" / "review-log.yaml"
+    review_log = yaml.safe_load(log_path.read_text()) if log_path.exists() else {}
+
+    report = sklib.audit_stuck(sklib.DATA_DIR, tracked, review_log)
+    labels = {
+        "untracked": "UNTRACKED (drafted, never committed — would vanish on clean checkout)",
+        "stuck_publish": "STUCK (critic verdict 'publish' but still status:draft — ship-live leak)",
+        "unreviewed_draft": "drafts in flight (no publish verdict yet)",
+    }
+    for key in ("untracked", "stuck_publish", "unreviewed_draft"):
+        items = report[key]
+        if items:
+            print(f"\n{labels[key]} ({len(items)}):")
+            for slug, extra in items:
+                print(f"  - {slug}" + (f"  [{extra}]" if extra else ""))
+    hard = len(report["untracked"]) + len(report["stuck_publish"])
+    if not any(report.values()):
+        print("clean: no drafted-but-unshipped work")
+    else:
+        print(f"\n{hard} hard leak(s), {len(report['unreviewed_draft'])} draft(s) in flight")
+    return 1 if hard else 0
+
+
 def main(argv=None):
     parser = argparse.ArgumentParser(prog="sk")
     sub = parser.add_subparsers(dest="cmd", required=True)
@@ -231,6 +269,7 @@ def main(argv=None):
     p_gc.add_argument("--type", required=True, choices=_TYPES)
     p_gc.set_defaults(func=cmd_gate_check)
     sub.add_parser("queue-migrate").set_defaults(func=cmd_queue_migrate)
+    sub.add_parser("audit").set_defaults(func=cmd_audit)
     args = parser.parse_args(argv)
     return args.func(args)
 
