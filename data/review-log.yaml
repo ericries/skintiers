@@ -961,3 +961,15 @@ skin-barrier-repair:
   note: 'Critic-gated (Group B, score 8). Applied both flagged fixes: cited the Tier-4 "adding more actives"
     bullet to [^contactderm]; added the industry-affiliation (Unilever) disclosure bracket to [^ananth]
     to match the sibling barrier page. lint+verify+style clean.'
+acne:
+  last_reviewed: '2026-07-29'
+  score: 6
+  verdict: revise
+  note: 'HELD as draft (not published) — critic found real correctness issues, and the automated fix pass
+    could not run (account monthly spend limit). Group B added a verified "How to know you have this"
+    opener (kept). Outstanding punch-list before publish: (1) BPO 2.5% vs 5% "mainly buys irritation"
+    is contradicted by its own source Kawashima 2017 (56.4% vs 58.8% AE, "no obvious difference"); (2)
+    pore-strips bullet uncited; (3) retinoid+BPO "rank 15 of 49" wrong denominator — source mild-to-moderate
+    Table 1 ranks 41 classes; (4) standfirst "low-to-moderate certainty" vs source Mavranezouli 2022 "moderate
+    to very low"; (5) [^8] AAD 2024 guideline 403s, paraphrase unverified — retry via Apify or re-anchor;
+    (6) rephrase imperative "Discount ..." phrasings as evidence statements.'

@@ -238,3 +238,10 @@
   priority: 4
   added: '2026-07-28'
   status: pending
+- slug: acne
+  dimension: D2/correctness
+  status: pending
+  issue: Critic-scored 6/10 with correctness issues; automated fix pass blocked by monthly spend limit.
+    See review-log note for the 6-item punch-list (Kawashima BPO claim contradicted by source; uncited
+    pore-strips; wrong rank denominator 41 not 49; standfirst certainty mismatch; AAD 2024 [^8] 403 unverified;
+    imperative "Discount" phrasings). Held as draft until fixed.
