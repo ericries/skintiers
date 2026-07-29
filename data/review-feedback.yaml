@@ -1,260 +1,235 @@
 - slug: azelaic-acid
   dimension: D2
-  issue: The melasma-vs-hydroquinone-4% equivalence claim ("against the stronger hydroquinone
-    4%, trials show roughly equivalence, not superiority" / "closer to a tie vs hydroquinone
-    4%" / "roughly ties the stronger 4% strength") is cited to King 2023 [^1], but
-    that review's abstract mentions only hydroquinone 2% — no hydroquinone 4% comparison
-    is verifiable from the reachable abstract. Could not confirm against a reachable
-    source.
-  suggested_fix: Obtain the King 2023 full text and confirm it reports an azelaic-acid-vs-
-    hydroquinone-4% comparison, OR add an independent primary RCT comparing azelaic
-    acid 20% with hydroquinone 4% for melasma. If neither supports it, soften to "not
-    directly established vs the stronger 4% strength."
+  issue: The melasma-vs-hydroquinone-4% equivalence claim ("against the stronger hydroquinone 4%, trials
+    show roughly equivalence, not superiority" / "closer to a tie vs hydroquinone 4%" / "roughly ties
+    the stronger 4% strength") is cited to King 2023 [^1], but that review's abstract mentions only hydroquinone
+    2% — no hydroquinone 4% comparison is verifiable from the reachable abstract. Could not confirm against
+    a reachable source.
+  suggested_fix: Obtain the King 2023 full text and confirm it reports an azelaic-acid-vs- hydroquinone-4%
+    comparison, OR add an independent primary RCT comparing azelaic acid 20% with hydroquinone 4% for
+    melasma. If neither supports it, soften to "not directly established vs the stronger 4% strength."
   priority: 7
   added: 2026-07-27
   status: pending
 - slug: azelaic-acid
   dimension: D7
-  issue: 'FDA approval dates need a proper primary. The FINACEA label''s "Initial
-    U.S. Approval: 1995" [^4] is the azelaic-acid MOIETY field, not the 15% gel''s
-    rosacea-approval year (FINACEA gel 15%, NDA 021470, was approved years later,
-    ~2002). The AZELEX 20% cream label [^8] (NDA 020428) does not state 1995 at all.
-    The erroneous "15% gel ... since 1995" wording was removed and the 1995 date relocated
+  issue: 'FDA approval dates need a proper primary. The FINACEA label''s "Initial U.S. Approval: 1995"
+    [^4] is the azelaic-acid MOIETY field, not the 15% gel''s rosacea-approval year (FINACEA gel 15%,
+    NDA 021470, was approved years later, ~2002). The AZELEX 20% cream label [^8] (NDA 020428) does not
+    state 1995 at all. The erroneous "15% gel ... since 1995" wording was removed and the 1995 date relocated
     to a moiety-level statement, but the specific product approval years remain unsourced.'
-  suggested_fix: Add a Drugs@FDA approval-history citation (NDA 020428 for AZELEX
-    20% cream = original 1995 acne approval; NDA 021470 for FINACEA 15% gel = rosacea
-    approval year, confirm exact date) so each product's approval year is backed by
-    a primary. Drugs@FDA overview pages are not WebFetch-reachable (404); fetch via
-    an authenticated/alternate route.
+  suggested_fix: Add a Drugs@FDA approval-history citation (NDA 020428 for AZELEX 20% cream = original
+    1995 acne approval; NDA 021470 for FINACEA 15% gel = rosacea approval year, confirm exact date) so
+    each product's approval year is backed by a primary. Drugs@FDA overview pages are not WebFetch-reachable
+    (404); fetch via an authenticated/alternate route.
   priority: 5
   added: 2026-07-27
   status: pending
 - slug: tretinoin-0-025-cream
   dimension: voice
-  issue: Published in the old bloated/AI-ese/judgmental voice (em dashes, throat-clearing,
-    'pick it/don't be fooled', category-general content, uncited editorial).
-  suggested_fix: 'Rewrite to the house voice per docs/writing-guide.md + docs/anti-ai-ese.md:
-    inform-not-judge, every claim cited, no em dashes/AI-ese, omit-empty, general/category
-    evidence linked out. Keep every fact/quote/stat VERBATIM (WebFetch to confirm).
-    Must pass sk lint + sk verify + sk style.'
+  issue: Published in the old bloated/AI-ese/judgmental voice (em dashes, throat-clearing, 'pick it/don't
+    be fooled', category-general content, uncited editorial).
+  suggested_fix: 'Rewrite to the house voice per docs/writing-guide.md + docs/anti-ai-ese.md: inform-not-judge,
+    every claim cited, no em dashes/AI-ese, omit-empty, general/category evidence linked out. Keep every
+    fact/quote/stat VERBATIM (WebFetch to confirm). Must pass sk lint + sk verify + sk style.'
   priority: 8
   added: '2026-07-27'
   status: pending
 - slug: azelaic-acid
   dimension: voice
-  issue: Published in the old bloated/AI-ese/judgmental voice (em dashes, throat-clearing,
-    'pick it/don't be fooled', category-general content, uncited editorial).
-  suggested_fix: 'Rewrite to the house voice per docs/writing-guide.md + docs/anti-ai-ese.md:
-    inform-not-judge, every claim cited, no em dashes/AI-ese, omit-empty, general/category
-    evidence linked out. Keep every fact/quote/stat VERBATIM (WebFetch to confirm).
-    Must pass sk lint + sk verify + sk style.'
+  issue: Published in the old bloated/AI-ese/judgmental voice (em dashes, throat-clearing, 'pick it/don't
+    be fooled', category-general content, uncited editorial).
+  suggested_fix: 'Rewrite to the house voice per docs/writing-guide.md + docs/anti-ai-ese.md: inform-not-judge,
+    every claim cited, no em dashes/AI-ese, omit-empty, general/category evidence linked out. Keep every
+    fact/quote/stat VERBATIM (WebFetch to confirm). Must pass sk lint + sk verify + sk style.'
   priority: 8
   added: '2026-07-27'
   status: pending
 - slug: sunscreen-uv-filters
   dimension: voice
-  issue: Published in the old bloated/AI-ese/judgmental voice (em dashes, throat-clearing,
-    'pick it/don't be fooled', category-general content, uncited editorial).
-  suggested_fix: 'Rewrite to the house voice per docs/writing-guide.md + docs/anti-ai-ese.md:
-    inform-not-judge, every claim cited, no em dashes/AI-ese, omit-empty, general/category
-    evidence linked out. Keep every fact/quote/stat VERBATIM (WebFetch to confirm).
-    Must pass sk lint + sk verify + sk style.'
+  issue: Published in the old bloated/AI-ese/judgmental voice (em dashes, throat-clearing, 'pick it/don't
+    be fooled', category-general content, uncited editorial).
+  suggested_fix: 'Rewrite to the house voice per docs/writing-guide.md + docs/anti-ai-ese.md: inform-not-judge,
+    every claim cited, no em dashes/AI-ese, omit-empty, general/category evidence linked out. Keep every
+    fact/quote/stat VERBATIM (WebFetch to confirm). Must pass sk lint + sk verify + sk style.'
   priority: 8
   added: '2026-07-27'
   status: pending
 - slug: tretinoin
   dimension: voice
-  issue: Published in the old bloated/AI-ese/judgmental voice (em dashes, throat-clearing,
-    'pick it/don't be fooled', category-general content, uncited editorial).
-  suggested_fix: 'Rewrite to the house voice per docs/writing-guide.md + docs/anti-ai-ese.md:
-    inform-not-judge, every claim cited, no em dashes/AI-ese, omit-empty, general/category
-    evidence linked out. Keep every fact/quote/stat VERBATIM (WebFetch to confirm).
-    Must pass sk lint + sk verify + sk style.'
+  issue: Published in the old bloated/AI-ese/judgmental voice (em dashes, throat-clearing, 'pick it/don't
+    be fooled', category-general content, uncited editorial).
+  suggested_fix: 'Rewrite to the house voice per docs/writing-guide.md + docs/anti-ai-ese.md: inform-not-judge,
+    every claim cited, no em dashes/AI-ese, omit-empty, general/category evidence linked out. Keep every
+    fact/quote/stat VERBATIM (WebFetch to confirm). Must pass sk lint + sk verify + sk style.'
   priority: 8
   added: '2026-07-27'
   status: done
 - slug: benzoyl-peroxide
   dimension: voice
-  issue: Published in the old bloated/AI-ese/judgmental voice (em dashes, throat-clearing,
-    'pick it/don't be fooled', category-general content, uncited editorial).
-  suggested_fix: 'Rewrite to the house voice per docs/writing-guide.md + docs/anti-ai-ese.md:
-    inform-not-judge, every claim cited, no em dashes/AI-ese, omit-empty, general/category
-    evidence linked out. Keep every fact/quote/stat VERBATIM (WebFetch to confirm).
-    Must pass sk lint + sk verify + sk style.'
+  issue: Published in the old bloated/AI-ese/judgmental voice (em dashes, throat-clearing, 'pick it/don't
+    be fooled', category-general content, uncited editorial).
+  suggested_fix: 'Rewrite to the house voice per docs/writing-guide.md + docs/anti-ai-ese.md: inform-not-judge,
+    every claim cited, no em dashes/AI-ese, omit-empty, general/category evidence linked out. Keep every
+    fact/quote/stat VERBATIM (WebFetch to confirm). Must pass sk lint + sk verify + sk style.'
   priority: 8
   added: '2026-07-27'
   status: done
 - slug: petrolatum
   dimension: voice
-  issue: Published in the old bloated/AI-ese/judgmental voice (em dashes, throat-clearing,
-    'pick it/don't be fooled', category-general content, uncited editorial).
-  suggested_fix: 'Rewrite to the house voice per docs/writing-guide.md + docs/anti-ai-ese.md:
-    inform-not-judge, every claim cited, no em dashes/AI-ese, omit-empty, general/category
-    evidence linked out. Keep every fact/quote/stat VERBATIM (WebFetch to confirm).
-    Must pass sk lint + sk verify + sk style.'
+  issue: Published in the old bloated/AI-ese/judgmental voice (em dashes, throat-clearing, 'pick it/don't
+    be fooled', category-general content, uncited editorial).
+  suggested_fix: 'Rewrite to the house voice per docs/writing-guide.md + docs/anti-ai-ese.md: inform-not-judge,
+    every claim cited, no em dashes/AI-ese, omit-empty, general/category evidence linked out. Keep every
+    fact/quote/stat VERBATIM (WebFetch to confirm). Must pass sk lint + sk verify + sk style.'
   priority: 8
   added: '2026-07-27'
   status: pending
 - slug: benzoyl-peroxide
   dimension: sourcing
-  issue: '''no resistance to BPO has been documented'' is load-bearing and currently
-    rests on two in vitro papers ([^4][^5]).'
-  suggested_fix: Add a third independent primary (a resistance-surveillance study
-    or systematic review) to corroborate, or soften the claim.
+  issue: '''no resistance to BPO has been documented'' is load-bearing and currently rests on two in vitro
+    papers ([^4][^5]).'
+  suggested_fix: Add a third independent primary (a resistance-surveillance study or systematic review)
+    to corroborate, or soften the claim.
   priority: 4
   added: '2026-07-27'
   status: pending
 - slug: glass-skin
   dimension: sign-off
-  issue: 'Goal exemplar drafted and critic-cleared (9/10), pushed as DRAFT for the
-    user to view the rendered page. Goal is a gated page type: needs the user''s sign-off
-    before it is published and before the goal list scales.'
-  suggested_fix: 'User reviews the rendered glass-skin goal page; on approval, set
-    status: published (sk publish glass-skin) and add ''goal'' to AUTOPUBLISH_TYPES
-    if the goal page-type standard is approved.'
+  issue: 'Goal exemplar drafted and critic-cleared (9/10), pushed as DRAFT for the user to view the rendered
+    page. Goal is a gated page type: needs the user''s sign-off before it is published and before the
+    goal list scales.'
+  suggested_fix: 'User reviews the rendered glass-skin goal page; on approval, set status: published (sk
+    publish glass-skin) and add ''goal'' to AUTOPUBLISH_TYPES if the goal page-type standard is approved.'
   priority: 7
   added: '2026-07-28'
   status: pending
 - slug: cerave
   dimension: sign-off
-  issue: 'First brand page, drafted and critic-cleared (10/10), pushed as DRAFT. Brand
-    is a gated page type: needs user sign-off before publishing and before the brand
-    list scales. Also introduces gated-type tooling (brand/person/study lint/verify
-    + SEC allowlist).'
-  suggested_fix: 'User reviews the rendered cerave brand page; on approval set status:
-    published and add ''brand'' to AUTOPUBLISH_TYPES if the brand page-type standard
-    is approved.'
+  issue: 'First brand page, drafted and critic-cleared (10/10), pushed as DRAFT. Brand is a gated page
+    type: needs user sign-off before publishing and before the brand list scales. Also introduces gated-type
+    tooling (brand/person/study lint/verify + SEC allowlist).'
+  suggested_fix: 'User reviews the rendered cerave brand page; on approval set status: published and add
+    ''brand'' to AUTOPUBLISH_TYPES if the brand page-type standard is approved.'
   priority: 6
   added: '2026-07-28'
   status: pending
 - slug: sunscreen-uv-filters
   dimension: sourcing
-  issue: 'The global-context stats (Akintilo 2020 JDD: ''US sunscreens allow 3x more
-    UVA penetration'', ''49% pass FDA but not EU UVA test'') and the avobenzone-instability
-    quotes rest on a paywalled JDD source with no PubMed abstract; a reader cannot
-    verify them from the cited URL (footnote now annotates this). The SPF erythemal-block
-    percentages (93/97/98/99%) were removed for lack of a reachable citation.'
-  suggested_fix: Find a reader-reachable open-access primary for the US-vs-EU UVA-protection
-    gap (or cite the EU UVA-PF/SPF-ratio requirement directly) and/or restore the
-    SPF-percentage figures with an open citation.
+  issue: 'The global-context stats (Akintilo 2020 JDD: ''US sunscreens allow 3x more UVA penetration'',
+    ''49% pass FDA but not EU UVA test'') and the avobenzone-instability quotes rest on a paywalled JDD
+    source with no PubMed abstract; a reader cannot verify them from the cited URL (footnote now annotates
+    this). The SPF erythemal-block percentages (93/97/98/99%) were removed for lack of a reachable citation.'
+  suggested_fix: Find a reader-reachable open-access primary for the US-vs-EU UVA-protection gap (or cite
+    the EU UVA-PF/SPF-ratio requirement directly) and/or restore the SPF-percentage figures with an open
+    citation.
   priority: 4
   added: '2026-07-28'
   status: pending
 - slug: samantha-ellis
   dimension: sign-off
-  issue: 'First person page, drafted and critic-cleared (10/10, strict BLP standard),
-    pushed as DRAFT. Person is a gated page type: needs user sign-off before publishing
-    and before the person list scales. (Identity confirmed: ''Dr. Ellis'' = Dr. Samantha
-    Rose Ellis, Prequel founder.)'
-  suggested_fix: 'User reviews the rendered samantha-ellis page; on approval set status:
-    published and add ''person'' to AUTOPUBLISH_TYPES if the person page-type standard
-    is approved.'
+  issue: 'First person page, drafted and critic-cleared (10/10, strict BLP standard), pushed as DRAFT.
+    Person is a gated page type: needs user sign-off before publishing and before the person list scales.
+    (Identity confirmed: ''Dr. Ellis'' = Dr. Samantha Rose Ellis, Prequel founder.)'
+  suggested_fix: 'User reviews the rendered samantha-ellis page; on approval set status: published and
+    add ''person'' to AUTOPUBLISH_TYPES if the person page-type standard is approved.'
   priority: 6
   added: '2026-07-28'
   status: pending
 - slug: van-zuuren-2017-emollients-moisturisers-eczema
   dimension: sign-off
-  issue: 'exemplar drafted for study (slug van-zuuren-2017-emollients-moisturisers-eczema),
-    needs sign-off before this list scales. First study page: neutral single-paper
-    summary of the van Zuuren 2017 Cochrane emollients-for-eczema review. Critic 10/10
-    publish (every quote/stat re-verified verbatim and correctly directioned).'
-  suggested_fix: 'User reviews the rendered page; on approval set status: published
-    and add ''study'' to AUTOPUBLISH_TYPES if the study page-type standard is approved.'
+  issue: 'exemplar drafted for study (slug van-zuuren-2017-emollients-moisturisers-eczema), needs sign-off
+    before this list scales. First study page: neutral single-paper summary of the van Zuuren 2017 Cochrane
+    emollients-for-eczema review. Critic 10/10 publish (every quote/stat re-verified verbatim and correctly
+    directioned).'
+  suggested_fix: 'User reviews the rendered page; on approval set status: published and add ''study''
+    to AUTOPUBLISH_TYPES if the study page-type standard is approved.'
   priority: 6
   added: '2026-07-28'
   status: pending
 - slug: anti-aging
   dimension: sign-off
-  issue: exemplar drafted for goal (slug anti-aging), a flagship skeptical tiered
-    anti-aging + perimenopause page, needs sign-off before publishing. Goal is a gated
-    type. Critic cleared after fixes (all 21 primaries re-verified). Built from a
-    user-supplied tier list, independently source-verified.
-  suggested_fix: 'User reviews the rendered anti-aging page; on approval set status:
-    published. Non-topical interventions are bracketed context only (full coverage
-    = later phase per user).'
+  issue: exemplar drafted for goal (slug anti-aging), a flagship skeptical tiered anti-aging + perimenopause
+    page, needs sign-off before publishing. Goal is a gated type. Critic cleared after fixes (all 21 primaries
+    re-verified). Built from a user-supplied tier list, independently source-verified.
+  suggested_fix: 'User reviews the rendered anti-aging page; on approval set status: published. Non-topical
+    interventions are bracketed context only (full coverage = later phase per user).'
   priority: 7
   added: '2026-07-28'
   status: pending
 - slug: tretinoin
   dimension: D1/acne comparators
-  issue: An uncited comparative-efficacy claim ("comparable to [[azelaic-acid]] for
-    comedonal acne") was removed from the Acne effect-size grade note during review;
-    it carried no footnote and no head-to-head source. The adapalene comparator [^6]
-    and the class NMA [^5] remain and carry the modest/first-line grade. The [[azelaic-acid]]
-    xref still appears in the Uses section as a "gentler comedonal alternative" (also
-    uncited, tolerability framing, left in place as lower-stakes).
-  suggested_fix: If a tretinoin-vs-azelaic-acid comparison is wanted back, add an
-    independent primary RCT (or a systematic review) that directly compares tretinoin
-    with azelaic acid 20% for comedonal acne and cite it; otherwise leave the comparison
-    out.
+  issue: An uncited comparative-efficacy claim ("comparable to [[azelaic-acid]] for comedonal acne") was
+    removed from the Acne effect-size grade note during review; it carried no footnote and no head-to-head
+    source. The adapalene comparator [^6] and the class NMA [^5] remain and carry the modest/first-line
+    grade. The [[azelaic-acid]] xref still appears in the Uses section as a "gentler comedonal alternative"
+    (also uncited, tolerability framing, left in place as lower-stakes).
+  suggested_fix: If a tretinoin-vs-azelaic-acid comparison is wanted back, add an independent primary
+    RCT (or a systematic review) that directly compares tretinoin with azelaic acid 20% for comedonal
+    acne and cite it; otherwise leave the comparison out.
   priority: 3
   added: '2026-07-28'
   status: pending
 - slug: atopic-dermatitis
   dimension: sourcing
-  issue: 'Drafted + critic-gated in the cross-queue drain; HELD as draft. Two load-bearing
-    claims need full-text (not abstract) verbatim/exact verification before publish:
-    Eichenfield 2014 AAD diagnosis quotes (''diagnosis is made clinically'' + the
-    findings list), and the Cochrane oat-subgroup figures (SMD -0.23 CI -0.66 to 0.21,
-    RR 0.31 CI 0.12-0.7, Peto OR 7.26 CI 1.76-29.92). Also trim residual meta in the
-    medical-disclaimer line.'
-  suggested_fix: Verify the two full-text sources (fresh web budget), trim disclaimer
-    meta, then publish.
+  issue: 'Drafted + critic-gated in the cross-queue drain; HELD as draft. Two load-bearing claims need
+    full-text (not abstract) verbatim/exact verification before publish: Eichenfield 2014 AAD diagnosis
+    quotes (''diagnosis is made clinically'' + the findings list), and the Cochrane oat-subgroup figures
+    (SMD -0.23 CI -0.66 to 0.21, RR 0.31 CI 0.12-0.7, Peto OR 7.26 CI 1.76-29.92). Also trim residual
+    meta in the medical-disclaimer line.'
+  suggested_fix: Verify the two full-text sources (fresh web budget), trim disclaimer meta, then publish.
   priority: 6
   added: '2026-07-28'
   status: pending
 - slug: some-by-mi-yuja-niacin-serum
   dimension: verification
-  issue: Drafted + critic-gated in the oily-skin batch; HELD as draft. Sebum/niacinamide
-    science verified against [[niacinamide-sebum-studies]]; the blocker is that the
-    primary product source (iHerb) 403'd on re-fetch (web budget spent), so the manufacturer
-    composition/price stats resting on it (83% yuja, 10% niacinamide, citron peel
-    oil 293.1 ppm, 4.6/5 across 2,454 reviews, $23) are unverified.
-  suggested_fix: Re-fetch iHerb/YesStyle/Stylevana with fresh budget, verify the 10%
-    niacinamide + price + ratings verbatim (or soften to what verifies), then publish.
+  issue: Drafted + critic-gated in the oily-skin batch; HELD as draft. Sebum/niacinamide science verified
+    against [[niacinamide-sebum-studies]]; the blocker is that the primary product source (iHerb) 403'd
+    on re-fetch (web budget spent), so the manufacturer composition/price stats resting on it (83% yuja,
+    10% niacinamide, citron peel oil 293.1 ppm, 4.6/5 across 2,454 reviews, $23) are unverified.
+  suggested_fix: Re-fetch iHerb/YesStyle/Stylevana with fresh budget, verify the 10% niacinamide + price
+    + ratings verbatim (or soften to what verifies), then publish.
   priority: 6
   added: '2026-07-28'
-  status: pending
+  status: resolved
+  resolution: 'Apify (rag-web-browser) re-fetched iHerb (composition: 83% yuja, 10% niacinamide, citron
+    peel oil 293.1 ppm, 4.6/5 across 2,454 reviews all verbatim) and Stylevana (price $19.70). iHerb hides
+    price under MAP; price re-attributed to Stylevana. Published.'
 - slug: la-roche-posay-effaclar-mat
   dimension: verification
-  issue: 'Drafted + critic-gated in the oily-skin batch; HELD as draft. Blocker: the
-    LRP US product page couldn''t be re-fetched (anti-bot); its load-bearing figures
-    (96% immediately mattified / less oily / 94% texture refined), the $39.99/40ml
-    price, the ''targets excess oil and shine'' description, and a Dr. Jenny Liu quote
-    all rest solely on it, and the LRP Middle East page carries different figures
+  issue: 'Drafted + critic-gated in the oily-skin batch; HELD as draft. Blocker: the LRP US product page
+    couldn''t be re-fetched (anti-bot); its load-bearing figures (96% immediately mattified / less oily
+    / 94% texture refined), the $39.99/40ml price, the ''targets excess oil and shine'' description, and
+    a Dr. Jenny Liu quote all rest solely on it, and the LRP Middle East page carries different figures
     (94% instantly mattified). Not fabrication, but unverified.'
-  suggested_fix: Re-fetch the LRP US page (fresh budget) and verify the consumer-perception
-    figures (quarantine as marketing), price, and the Dr. Jenny Liu quote source verbatim;
-    then publish.
+  suggested_fix: Re-fetch the LRP US page (fresh budget) and verify the consumer-perception figures (quarantine
+    as marketing), price, and the Dr. Jenny Liu quote source verbatim; then publish.
   priority: 6
   added: '2026-07-28'
   status: pending
 - slug: anua-azelaic-acid-serum
   dimension: D5/structure
-  issue: Pre-current-standard page. No results-first '## Summary' section (only a
-    standfirst + one blockquote), and no explicit category-vs-product framing. Per
-    the writing guide, azelaic acid's category evidence is strong (FDA-approved for
-    acne and rosacea), so the page should say that plainly up front, then separately
-    note this is a lower-strength (labeled 10%) but standard-OTC, inexpensive,
-    fragrance-free K-beauty formulation; the current draft leads almost entirely
-    with the under-strength framing and does not credit the product's positives.
-    No approximate price is stated anywhere (Where to Buy lists SKUs but no price).
-  suggested_fix: Rework to the current standard - add a '## Summary' (what it is /
-    who for / how studied / good-at vs not / approximate price sourced to a SKU),
-    and add explicit category-verdict-vs-product-verdict framing per writing-guide
-    rule 3. Keep the honest 10%-vs-Rx-strength caveat but balance it. Separate task,
-    not an inline fix.
+  issue: Pre-current-standard page. No results-first '## Summary' section (only a standfirst + one blockquote),
+    and no explicit category-vs-product framing. Per the writing guide, azelaic acid's category evidence
+    is strong (FDA-approved for acne and rosacea), so the page should say that plainly up front, then
+    separately note this is a lower-strength (labeled 10%) but standard-OTC, inexpensive, fragrance-free
+    K-beauty formulation; the current draft leads almost entirely with the under-strength framing and
+    does not credit the product's positives. No approximate price is stated anywhere (Where to Buy lists
+    SKUs but no price).
+  suggested_fix: Rework to the current standard - add a '## Summary' (what it is / who for / how studied
+    / good-at vs not / approximate price sourced to a SKU), and add explicit category-verdict-vs-product-verdict
+    framing per writing-guide rule 3. Keep the honest 10%-vs-Rx-strength caveat but balance it. Separate
+    task, not an inline fix.
   priority: 5
   added: '2026-07-28'
   status: pending
 - slug: anua-azelaic-acid-serum
   dimension: D5/photos
-  issue: Only one product image (bare-string 'anua-azelaic-acid-serum.jpg'). Writing
-    guide wants several photos of this exact SKU from various sites (manufacturer +
-    2+ retailers) with source/source_url provenance mappings.
-  suggested_fix: Gather and self-host a handful of real photos of this SKU (Anua US,
-    Ulta, Olive Young US) as images mappings with source/source_url, and confirm the
-    built page renders each.
+  issue: Only one product image (bare-string 'anua-azelaic-acid-serum.jpg'). Writing guide wants several
+    photos of this exact SKU from various sites (manufacturer + 2+ retailers) with source/source_url provenance
+    mappings.
+  suggested_fix: Gather and self-host a handful of real photos of this SKU (Anua US, Ulta, Olive Young
+    US) as images mappings with source/source_url, and confirm the built page renders each.
   priority: 4
   added: '2026-07-28'
   status: pending

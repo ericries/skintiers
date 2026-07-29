@@ -2,545 +2,475 @@ tretinoin-0-025-cream:
   last_reviewed: 2026-07-27
   score: 10
   verdict: publish
-  note: critic punch-list applied (misquote fixed, source independence qualified,
-    strength-scope caveats)
+  note: critic punch-list applied (misquote fixed, source independence qualified, strength-scope caveats)
 tretinoin:
   last_reviewed: '2026-07-28'
   score: 9
   verdict: publish
-  note: 'Ingredient page (prose-evidence convention, no grades: frontmatter; may be
-    cited by product pages). All 7 sources re-fetched and every quote/stat verified
-    verbatim and correctly directioned: Weiss 1988 (30 completers, 14/15 face), Griffiths
-    1995 (n=99, 48wk, 30% vs 28% epidermal thickening; correct PMID 7544967, the cited
-    jamanetwork URL resolves fine), Huang 2025 meta-analysis (8 RCTs/1,361; fine MD
-    0.412 95% CI 0.233-0.590 P<0.001, coarse MD 0.245 95% CI 0.119-0.370 P<0.001),
-    Mavranezouli 2022 NMA (179 RCTs, ~35k obs, 49 classes, retinoid mono 18.27% [10.28-26.14]
-    rank 22, +BPO 26.16% [16.75-35.36]), Cunliffe 2002 (n=409, 10wk, adapalene equivalent
-    efficacy/better tolerated), RENOVA + ALTRENO labels (RAR mechanism + all-caps
-    DOES-NOT-REVERSE + comedolytic quotes) all exact. Fixes applied (lint+verify+style
-    all clean after each): (1) D2 misquote - the quotation "produced similar statistically
-    significant overall improvement in photoaging" inserted the word "similar" (not
-    in source); requoted verbatim "produced statistically significant overall improvement
-    in photoaging of the face compared with vehicle" and extended the irritation quote
-    to verbatim; (2) removed an uncited comparative-efficacy claim (tretinoin "comparable
-    to azelaic-acid for comedonal acne"); (3) softened an unverifiable "meta-analysis
-    explicitly notes heterogeneity" caveat to the verifiable "modest 8-trial random-effects
-    meta-analysis"; (4) AI-ese pass: all em dashes and en dashes removed, negative
-    parallelism and italic emphasis-hammering rephrased. sk style now clean. Escalated:
-    add a cited tretinoin-vs-azelaic head-to-head if that comparator is wanted back
-    (priority 3). Held at 9 not 10 only because the coarse/fine anti-aging framing
-    rests on subjective ordinal scales (honestly disclosed).'
+  note: 'Ingredient page (prose-evidence convention, no grades: frontmatter; may be cited by product pages).
+    All 7 sources re-fetched and every quote/stat verified verbatim and correctly directioned: Weiss 1988
+    (30 completers, 14/15 face), Griffiths 1995 (n=99, 48wk, 30% vs 28% epidermal thickening; correct
+    PMID 7544967, the cited jamanetwork URL resolves fine), Huang 2025 meta-analysis (8 RCTs/1,361; fine
+    MD 0.412 95% CI 0.233-0.590 P<0.001, coarse MD 0.245 95% CI 0.119-0.370 P<0.001), Mavranezouli 2022
+    NMA (179 RCTs, ~35k obs, 49 classes, retinoid mono 18.27% [10.28-26.14] rank 22, +BPO 26.16% [16.75-35.36]),
+    Cunliffe 2002 (n=409, 10wk, adapalene equivalent efficacy/better tolerated), RENOVA + ALTRENO labels
+    (RAR mechanism + all-caps DOES-NOT-REVERSE + comedolytic quotes) all exact. Fixes applied (lint+verify+style
+    all clean after each): (1) D2 misquote - the quotation "produced similar statistically significant
+    overall improvement in photoaging" inserted the word "similar" (not in source); requoted verbatim
+    "produced statistically significant overall improvement in photoaging of the face compared with vehicle"
+    and extended the irritation quote to verbatim; (2) removed an uncited comparative-efficacy claim (tretinoin
+    "comparable to azelaic-acid for comedonal acne"); (3) softened an unverifiable "meta-analysis explicitly
+    notes heterogeneity" caveat to the verifiable "modest 8-trial random-effects meta-analysis"; (4) AI-ese
+    pass: all em dashes and en dashes removed, negative parallelism and italic emphasis-hammering rephrased.
+    sk style now clean. Escalated: add a cited tretinoin-vs-azelaic head-to-head if that comparator is
+    wanted back (priority 3). Held at 9 not 10 only because the coarse/fine anti-aging framing rests on
+    subjective ordinal scales (honestly disclosed).'
 cerave-moisturizing-cream:
   last_reviewed: '2026-07-28'
   score: 9
   verdict: publish
-  note: 'Reworked to the new product standard (batch 1 of the sitewide rollout). Results-first
-    accessible Summary leading with the HEALTH role (barrier support, slowing transepidermal
-    water loss), cosmetic feel labeled secondary. Editorial credibility now attributed
-    to QUOTED named dermatologists (NewBeauty: Blyumin-Karasik ''sworn by''/''to protect
-    and reinforce the skin barrier'', Levine ''a cream over a lotion for treating
-    dry skin'', DeRosa ''a nice budget-friendly hydrating moisturizer'') + the NEA
-    Seal framed as a suitability program, not our verdict. No imperatives (usage guidance
-    only via the attributed cream-vs-lotion quote). Grades health-first: barrier support
-    notable/solid (category evidence + underpowered Leshem 2020), ceramide-specific
-    row minimal/mixed (Spada 2021 TEWL P=.0342 but EASI not sig vs vehicle P=.7804).
-    Product-specific evidence only; general case linked out affirmatively to [[moisturizing]]/[[ceramides]]/[[van-zuuren-2017...]].
-    Photos: 3-source side rail (CeraVe/Target/Ulta), self-hosted. Critic re-fetched
-    all sources, verified every quote verbatim, fixed one wrong pronoun (he->she for
-    Levine). lint/style clean; verify WARNs only on manufacturer/org/editorial domains.'
+  note: 'Reworked to the new product standard (batch 1 of the sitewide rollout). Results-first accessible
+    Summary leading with the HEALTH role (barrier support, slowing transepidermal water loss), cosmetic
+    feel labeled secondary. Editorial credibility now attributed to QUOTED named dermatologists (NewBeauty:
+    Blyumin-Karasik ''sworn by''/''to protect and reinforce the skin barrier'', Levine ''a cream over
+    a lotion for treating dry skin'', DeRosa ''a nice budget-friendly hydrating moisturizer'') + the NEA
+    Seal framed as a suitability program, not our verdict. No imperatives (usage guidance only via the
+    attributed cream-vs-lotion quote). Grades health-first: barrier support notable/solid (category evidence
+    + underpowered Leshem 2020), ceramide-specific row minimal/mixed (Spada 2021 TEWL P=.0342 but EASI
+    not sig vs vehicle P=.7804). Product-specific evidence only; general case linked out affirmatively
+    to [[moisturizing]]/[[ceramides]]/[[van-zuuren-2017...]]. Photos: 3-source side rail (CeraVe/Target/Ulta),
+    self-hosted. Critic re-fetched all sources, verified every quote verbatim, fixed one wrong pronoun
+    (he->she for Levine). lint/style clean; verify WARNs only on manufacturer/org/editorial domains.'
 azelaic-acid:
   last_reviewed: '2026-07-27'
   score: 8
   verdict: revise
-  note: 'All 9 sources re-fetched; every body quote/stat verbatim-verified. 4 fixes
-    applied (misdated "15% gel approved for rosacea since 1995" corrected -> moiety
-    first approved 1995; unsourced "20% cream since 1995" year removed; SPA reduction
-    qualified to high-baseline subgroup per [^9]). 2 escalated: HQ-4% equivalence
-    only cited to King 2023 whose abstract mentions only HQ 2%; product approval years
+  note: 'All 9 sources re-fetched; every body quote/stat verbatim-verified. 4 fixes applied (misdated
+    "15% gel approved for rosacea since 1995" corrected -> moiety first approved 1995; unsourced "20%
+    cream since 1995" year removed; SPA reduction qualified to high-baseline subgroup per [^9]). 2 escalated:
+    HQ-4% equivalence only cited to King 2023 whose abstract mentions only HQ 2%; product approval years
     need Drugs@FDA primary. lint+verify clean.'
 moisturizing:
   last_reviewed: '2026-07-27'
   score: 9
   verdict: publish
-  note: critic revise -> 3 items fixed (superlative scoped to eczema, 99% attributed
-    to StatPearls, ceramide claim cited to Spada); lint/verify/style clean
+  note: critic revise -> 3 items fixed (superlative scoped to eczema, 99% attributed to StatPearls, ceramide
+    claim cited to Spada); lint/verify/style clean
 dimethicone:
   last_reviewed: '2026-07-27'
   score: 9
   verdict: publish
-  note: ingredient draft; critic verdict publish. StatPearls + Kang 2022 quotes re-fetched
-    and verbatim; occlusion graded category-level (no dimethicone-specific trial);
-    silicone attribution tightened. lint/verify/style clean.
+  note: ingredient draft; critic verdict publish. StatPearls + Kang 2022 quotes re-fetched and verbatim;
+    occlusion graded category-level (no dimethicone-specific trial); silicone attribution tightened. lint/verify/style
+    clean.
 cholesterol:
   last_reviewed: '2026-07-27'
   score: 9
   verdict: publish
-  note: ingredient draft; critic verdict publish. Man 1996 + Elias 2012 quotes re-fetched
-    and verbatim; effect held at mechanism/formulation level (barrier lipid, needs
-    correct 1:1:1 ratio), no product-efficacy claim. lint/verify/style clean.
+  note: ingredient draft; critic verdict publish. Man 1996 + Elias 2012 quotes re-fetched and verbatim;
+    effect held at mechanism/formulation level (barrier lipid, needs correct 1:1:1 ratio), no product-efficacy
+    claim. lint/verify/style clean.
 phytosphingosine:
   last_reviewed: '2026-07-27'
   score: 8
   verdict: publish
-  note: ingredient draft; critic flagged 2 paraphrases-in-quotes, both fixed ("a lipid
-    occurring naturally in the stratum corneum" verbatim; dropped non-verbatim "significant"
-    from ultrastructural damage). Pavicic 2007 + Fischer 2013; acne signal graded
-    preliminary (single study). lint/verify/style clean.
+  note: ingredient draft; critic flagged 2 paraphrases-in-quotes, both fixed ("a lipid occurring naturally
+    in the stratum corneum" verbatim; dropped non-verbatim "significant" from ultrastructural damage).
+    Pavicic 2007 + Fischer 2013; acne signal graded preliminary (single study). lint/verify/style clean.
 tocopherol:
   last_reviewed: '2026-07-27'
   score: 9
   verdict: publish
-  note: ingredient draft; critic verdict publish. Keen & Hassan 2016 + Podhaisky 2002
-    quotes re-fetched and verbatim; antioxidant mechanism vs sparse/negative clinical
-    evidence (scars/burns disappointing, no skin-cancer effect). lint/verify/style
-    clean.
+  note: ingredient draft; critic verdict publish. Keen & Hassan 2016 + Podhaisky 2002 quotes re-fetched
+    and verbatim; antioxidant mechanism vs sparse/negative clinical evidence (scars/burns disappointing,
+    no skin-cancer effect). lint/verify/style clean.
 benzoyl-peroxide:
   last_reviewed: '2026-07-27'
   score: 8
   verdict: publish
-  note: 'review tick: numbers all verbatim-verified; safe fixes applied (2 misquotes
-    -> verbatim, 2 unconfirmed quotes trimmed, all em/en dashes removed, evidence-gap
-    hedges + ''everything else'' absence-tier + reader-instruction ''Discount X''
-    cut, unconfirmed ''independent'' and uncited sensitive-skin irritation claim removed).
-    lint/verify/style clean. Escalated: 3rd primary for the no-resistance claim.'
+  note: 'review tick: numbers all verbatim-verified; safe fixes applied (2 misquotes -> verbatim, 2 unconfirmed
+    quotes trimmed, all em/en dashes removed, evidence-gap hedges + ''everything else'' absence-tier +
+    reader-instruction ''Discount X'' cut, unconfirmed ''independent'' and uncited sensitive-skin irritation
+    claim removed). lint/verify/style clean. Escalated: 3rd primary for the no-resistance claim.'
 la-roche-posay-anthelios-melt-in-milk-spf-60:
   last_reviewed: '2026-07-27'
   score: 9
   verdict: publish
-  note: 'first autonomous product-cron draft. Actives (avobenzone 3%, homosalate 10%,
-    octisalate 5%, octocrylene 7%, Broad Spectrum SPF 60, water resistant 80 min)
-    and inactives verbatim vs DailyMed Drug Facts label; Forbes quote verbatim. Critic
-    revise -> 4 fixes: removed texture grade (category error), deleted uncited FDA-monograph
-    sentence, dropped unverified non-SKU manufacturer buy link, moved Forbes endorsement
-    out of The Evidence. Self-hosted product image (Ulta/Target CDNs block hotlinking).
-    lint/verify/style clean. | Re-graded in global context (user policy): split into
-    UVB (strong/solid) and UVA (modest/solid) rows; UVA rests on avobenzone, below
-    modern-filter (Tinosorb/Mexoryl) products. Sourced to JDD 2020 (avobenzone ''highly
-    unstable''; US sunscreens allow ~3x more UVA penetration).'
+  note: 'first autonomous product-cron draft. Actives (avobenzone 3%, homosalate 10%, octisalate 5%, octocrylene
+    7%, Broad Spectrum SPF 60, water resistant 80 min) and inactives verbatim vs DailyMed Drug Facts label;
+    Forbes quote verbatim. Critic revise -> 4 fixes: removed texture grade (category error), deleted uncited
+    FDA-monograph sentence, dropped unverified non-SKU manufacturer buy link, moved Forbes endorsement
+    out of The Evidence. Self-hosted product image (Ulta/Target CDNs block hotlinking). lint/verify/style
+    clean. | Re-graded in global context (user policy): split into UVB (strong/solid) and UVA (modest/solid)
+    rows; UVA rests on avobenzone, below modern-filter (Tinosorb/Mexoryl) products. Sourced to JDD 2020
+    (avobenzone ''highly unstable''; US sunscreens allow ~3x more UVA penetration).'
 skinceuticals-c-e-ferulic:
   last_reviewed: '2026-07-28'
   score: 9
   verdict: publish
-  note: 'Reworked to the results-first + attribute-editorial-opinions standard (fixes
-    the owner''s objection that a proven, best-studied vitamin C product read as ''preliminary'').
-    Now: (1) leads with an accessible, plain-language Summary (what it does, how to
-    use, pairs with sunscreen, credibility) with jargon pushed to The Evidence; (2)
-    main vitamin C benefit graded notable/SOLID (grounded in the well-evidenced active
-    per [[vitamin-c]]), not preliminary; only the cosmetic anti-aging row stays minimal/preliminary
-    and is labeled cosmetic; (3) editorial opinions attributed to quoted credible
-    sources rather than a house verdict: Forbes/Dr. Dendy Engelman (''a tried-and-true
-    favorite in the industry''), NYT Wirecutter (''category-defining classic''), Chemist
-    Confessions (''the original patented formula''); price criticism quoted too (Wirecutter
-    ''by far the priciest vitamin C serum we recommend''); presented explicitly as
-    the sources'' opinions, not ours. Photos now render as a side rail (no labels).
-    Critic flagged the Wirecutter quotes as unverifiable (nytimes blocked to it);
-    orchestrator re-fetched nytimes directly and confirmed ''category-defining classic''
-    + ''by far the priciest...'' verbatim, DELETED a fabricated ''less than $30''
-    fragment, replaced it with the verified Timeless budget pick (''an affordable
-    option with proven ingredients''), removed an over-attributed how-to-use line,
-    and fixed ''graded on''->''evidence mapped on'' (ascorbic-acid page is a stub).
-    Byrdie correctly declined (aggregator blocklist). lint/style clean; verify WARNs
-    only on editorial/manufacturer domains.'
+  note: 'Reworked to the results-first + attribute-editorial-opinions standard (fixes the owner''s objection
+    that a proven, best-studied vitamin C product read as ''preliminary''). Now: (1) leads with an accessible,
+    plain-language Summary (what it does, how to use, pairs with sunscreen, credibility) with jargon pushed
+    to The Evidence; (2) main vitamin C benefit graded notable/SOLID (grounded in the well-evidenced active
+    per [[vitamin-c]]), not preliminary; only the cosmetic anti-aging row stays minimal/preliminary and
+    is labeled cosmetic; (3) editorial opinions attributed to quoted credible sources rather than a house
+    verdict: Forbes/Dr. Dendy Engelman (''a tried-and-true favorite in the industry''), NYT Wirecutter
+    (''category-defining classic''), Chemist Confessions (''the original patented formula''); price criticism
+    quoted too (Wirecutter ''by far the priciest vitamin C serum we recommend''); presented explicitly
+    as the sources'' opinions, not ours. Photos now render as a side rail (no labels). Critic flagged
+    the Wirecutter quotes as unverifiable (nytimes blocked to it); orchestrator re-fetched nytimes directly
+    and confirmed ''category-defining classic'' + ''by far the priciest...'' verbatim, DELETED a fabricated
+    ''less than $30'' fragment, replaced it with the verified Timeless budget pick (''an affordable option
+    with proven ingredients''), removed an over-attributed how-to-use line, and fixed ''graded on''->''evidence
+    mapped on'' (ascorbic-acid page is a stub). Byrdie correctly declined (aggregator blocklist). lint/style
+    clean; verify WARNs only on editorial/manufacturer domains.'
 trifarotene:
   last_reviewed: '2026-07-27'
   score: 9
   verdict: publish
-  note: critic publish; PERFECT 1&2 IGA numbers cross-checked vs AKLIEF FDA label;
-    4th-gen RAR-gamma selective; 2014 ichthyosis correctly = orphan designation not
-    approval; acne modest/solid, no head-to-head overclaim.
+  note: critic publish; PERFECT 1&2 IGA numbers cross-checked vs AKLIEF FDA label; 4th-gen RAR-gamma selective;
+    2014 ichthyosis correctly = orphan designation not approval; acne modest/solid, no head-to-head overclaim.
 retinaldehyde:
   last_reviewed: '2026-07-27'
   score: 9
   verdict: publish
-  note: critic revise->fixed (Deda 2026 quote corrected to verbatim); 5 independent
-    primaries; photoaging modest/solid-for-OTC, tolerability notable/solid; '10x vs
-    retinol' quarantined as marketing.
+  note: critic revise->fixed (Deda 2026 quote corrected to verbatim); 5 independent primaries; photoaging
+    modest/solid-for-OTC, tolerability notable/solid; '10x vs retinol' quarantined as marketing.
 tazarotene:
   last_reviewed: '2026-07-27'
   score: 9
   verdict: publish
-  note: 'critic flag->fixed: Tazorac Gel efficacy figures were wrong, corrected vs
-    FDA label read in-browser (acne 38% vs 18%; psoriasis 28%/38% vs 12%); Arazlo
-    + Lowe RCT verbatim; ''independent'' meta-analysis softened.'
+  note: 'critic flag->fixed: Tazorac Gel efficacy figures were wrong, corrected vs FDA label read in-browser
+    (acne 38% vs 18%; psoriasis 28%/38% vs 12%); Arazlo + Lowe RCT verbatim; ''independent'' meta-analysis
+    softened.'
 hydroxypinacolone-retinoate:
   last_reviewed: '2026-07-27'
   score: 8
   verdict: publish
-  note: critic revise->fixed (dropped unverifiable JAAD conference-abstract [^4];
-    15.38% denominator = 6/39 completers); evidence in-vitro/industry/combination-only,
-    graded unresolvable-in-isolation/preliminary; direct-binding + 'power of retinol
-    without irritation' quarantined.
+  note: critic revise->fixed (dropped unverifiable JAAD conference-abstract [^4]; 15.38% denominator =
+    6/39 completers); evidence in-vitro/industry/combination-only, graded unresolvable-in-isolation/preliminary;
+    direct-binding + 'power of retinol without irritation' quarantined.
 retinyl-retinoate:
   last_reviewed: '2026-07-27'
   score: 8
   verdict: publish
-  note: critic revise->fixed (de-quoted 4 paywalled BJD quotes to paraphrase; tolerability
-    notable->modest); all trials share authors/trace to Enprani patent holder, no
-    independent replication, graded preliminary.
+  note: critic revise->fixed (de-quoted 4 paywalled BJD quotes to paraphrase; tolerability notable->modest);
+    all trials share authors/trace to Enprani patent holder, no independent replication, graded preliminary.
 retinyl-esters:
   last_reviewed: '2026-07-27'
   score: 9
   verdict: publish
-  note: critic revise->fixed (cut 4 omit-empty 'is limited' hedges); anchored on the
-    negative ester RCT (Mukherjee 2006, retinyl propionate); effect minimal/evidence
-    low; propionate 'higher bioactivity' quarantined as in-vitro.
+  note: critic revise->fixed (cut 4 omit-empty 'is limited' hedges); anchored on the negative ester RCT
+    (Mukherjee 2006, retinyl propionate); effect minimal/evidence low; propionate 'higher bioactivity'
+    quarantined as in-vitro.
 retinoids:
   last_reviewed: '2026-07-27'
   score: 9
   verdict: publish
-  note: 'retinoid family hub: conversion pathway (Saurat CRABP-2 rank order + Zasada,
-    both verbatim-verified on sibling pages this session), forms grouped Rx/OTC by
-    generation (Cosio), evidence-strength rubric consistent with each form''s published
-    grade, bakuchiol flagged as a non-retinoid alternative. All quotes reuse citations
-    verbatim-verified this session; adapalene OTC status anchored to a live DailyMed
+  note: 'retinoid family hub: conversion pathway (Saurat CRABP-2 rank order + Zasada, both verbatim-verified
+    on sibling pages this session), forms grouped Rx/OTC by generation (Cosio), evidence-strength rubric
+    consistent with each form''s published grade, bakuchiol flagged as a non-retinoid alternative. All
+    quotes reuse citations verbatim-verified this session; adapalene OTC status anchored to a live DailyMed
     Drug Facts label. lint/verify/style clean.'
 the-ordinary-multi-peptide-ha-serum:
   last_reviewed: '2026-07-28'
   score: 9
   verdict: publish
-  note: 'Reworked to the new product standard (rollout batch 1). Results-first Summary
-    leading with hydration (modest/solid) as the best-supported benefit; the peptide
-    anti-aging row is honestly graded minimal/preliminary and labeled COSMETIC (appearance),
-    not driving a headline. Editorial opinion attributed to quoted cosmetic chemists
-    (Chemist Confessions: ''a really solid secondary character...'', ''not every peptide
-    earns its place...'', ''expectations grounded''), framed as their category opinion
-    not ours. Usage guidance is the manufacturer''s own directions, quoted (''a few
-    drops to the face in the morning and evening''), no imperatives in our voice.
-    Product-specific evidence only (Nukaly 2026 meta-analysis MD 0.27/p=0.04 overall,
-    oral subgroup MD 1.5/p=0.01; Blanes-Mira 2002 Argireline), general peptide case
-    linked out to [[peptides]] stub without a fabricated verdict. Photos: 4-image
-    side rail from 3 sources (The Ordinary/Ulta/Target), self-hosted. Critic flagged
-    an uncited ''industry-funded'' claim with a false ''in The Evidence'' pointer;
-    fixed by replacing it with Nukaly''s cited oral-vs-topical finding (couldn''t
-    verify the Argireline maker affiliation, so dropped the unverifiable funding claim).
+  note: 'Reworked to the new product standard (rollout batch 1). Results-first Summary leading with hydration
+    (modest/solid) as the best-supported benefit; the peptide anti-aging row is honestly graded minimal/preliminary
+    and labeled COSMETIC (appearance), not driving a headline. Editorial opinion attributed to quoted
+    cosmetic chemists (Chemist Confessions: ''a really solid secondary character...'', ''not every peptide
+    earns its place...'', ''expectations grounded''), framed as their category opinion not ours. Usage
+    guidance is the manufacturer''s own directions, quoted (''a few drops to the face in the morning and
+    evening''), no imperatives in our voice. Product-specific evidence only (Nukaly 2026 meta-analysis
+    MD 0.27/p=0.04 overall, oral subgroup MD 1.5/p=0.01; Blanes-Mira 2002 Argireline), general peptide
+    case linked out to [[peptides]] stub without a fabricated verdict. Photos: 4-image side rail from
+    3 sources (The Ordinary/Ulta/Target), self-hosted. Critic flagged an uncited ''industry-funded'' claim
+    with a false ''in The Evidence'' pointer; fixed by replacing it with Nukaly''s cited oral-vs-topical
+    finding (couldn''t verify the Argireline maker affiliation, so dropped the unverifiable funding claim).
     Critic verified all quotes/stats verbatim otherwise; lint/style clean.'
 cosrx-6-peptide-skin-booster-serum:
   last_reviewed: '2026-07-28'
   score: 9
   verdict: publish
-  note: 'Reworked to the new standard AND to fix a category-vs-product conflation
-    (the old page evaluated only the weak peptide category and never credited the
-    product, no price/value, buried copper peptide). Now states BOTH verdicts: category
-    = topical peptide anti-aging evidence weak/preliminary (linked [[peptides]]);
-    product = a broad, fragrance-free, INEXPENSIVE peptide serum (6 peptides + niacinamide
-    + humectant base; ~$25/150 mL, one of the cheapest ways to try a big peptide blend
-    incl. copper peptide). GHK-Cu given fair top-billing (Pickart & Margolina 2018
-    verbatim) but honestly hedged (mostly cell/animal/gene-expression work; leading
-    reviews by GHK''s discoverer) - not oversold. Editorial credibility attributed
-    to quoted Allure (value/glow praise) + Chemist Confessions (category skepticism).
-    Grades honest (fine lines minimal/preliminary, hydration modest/solid); product-value
-    verdict in Summary prose, no invented GHK-Cu grade. Critic publish clean; orchestrator
-    independently re-verified the Allure quotes via curl (critic was blocked). Enqueued
-    a copper-peptides/GHK-Cu ingredient page. Photos: 4-image side rail from 3 sites.'
+  note: 'Reworked to the new standard AND to fix a category-vs-product conflation (the old page evaluated
+    only the weak peptide category and never credited the product, no price/value, buried copper peptide).
+    Now states BOTH verdicts: category = topical peptide anti-aging evidence weak/preliminary (linked
+    [[peptides]]); product = a broad, fragrance-free, INEXPENSIVE peptide serum (6 peptides + niacinamide
+    + humectant base; ~$25/150 mL, one of the cheapest ways to try a big peptide blend incl. copper peptide).
+    GHK-Cu given fair top-billing (Pickart & Margolina 2018 verbatim) but honestly hedged (mostly cell/animal/gene-expression
+    work; leading reviews by GHK''s discoverer) - not oversold. Editorial credibility attributed to quoted
+    Allure (value/glow praise) + Chemist Confessions (category skepticism). Grades honest (fine lines
+    minimal/preliminary, hydration modest/solid); product-value verdict in Summary prose, no invented
+    GHK-Cu grade. Critic publish clean; orchestrator independently re-verified the Allure quotes via curl
+    (critic was blocked). Enqueued a copper-peptides/GHK-Cu ingredient page. Photos: 4-image side rail
+    from 3 sites.'
 the-ordinary-multi-peptide-copper-peptides-serum:
   last_reviewed: '2026-07-27'
   score: 8
   verdict: publish
-  note: 'The Ordinary Buffet + Copper Peptides 1% (GHK-Cu); both grades minimal/preliminary.
-    Critic FLAG (a fabricated Mortazavi 2024 ''remains unproven'' quote that inverted
-    the source) -> fixed: removed the fabrication and the over-negative penetration
-    gloss, keeping only verbatim-confirmed content (Mortazavi ''surprising absence
-    of clinical studies''; Miller 2006 null RCT, n=13, no objective benefit, only
-    P=.04 patient satisfaction); ''split-face''->''blinded'' (unverified); de-quoted
-    unconfirmed marketing strings. Pickart COI quarantined; self-hosted image. lint/style
-    clean.'
+  note: 'The Ordinary Buffet + Copper Peptides 1% (GHK-Cu); both grades minimal/preliminary. Critic FLAG
+    (a fabricated Mortazavi 2024 ''remains unproven'' quote that inverted the source) -> fixed: removed
+    the fabrication and the over-negative penetration gloss, keeping only verbatim-confirmed content (Mortazavi
+    ''surprising absence of clinical studies''; Miller 2006 null RCT, n=13, no objective benefit, only
+    P=.04 patient satisfaction); ''split-face''->''blinded'' (unverified); de-quoted unconfirmed marketing
+    strings. Pickart COI quarantined; self-hosted image. lint/style clean.'
 cos-de-baha-az20-azelaic-acid-20-serum:
   last_reviewed: '2026-07-27'
   score: 9
   verdict: publish
-  note: 'Cos De BAHA AZ20 azelaic 20% CREAM (K-beauty); 20% = AZELEX Rx strength,
-    framed as label claim not assayed. Acne modest/solid, melasma modest/mixed (Verallo-Rowell
-    73% vs 19% HQ verbatim), rosacea modest/preliminary (extrapolative, evidence is
-    15% gel). Critic revise->fixed: name Serum->Cream; softened uncited rosacea comparative
-    (cite FINACEA); created 2 See Also comparator stubs. Self-hosted image. lint/style
-    clean.'
+  note: 'Cos De BAHA AZ20 azelaic 20% CREAM (K-beauty); 20% = AZELEX Rx strength, framed as label claim
+    not assayed. Acne modest/solid, melasma modest/mixed (Verallo-Rowell 73% vs 19% HQ verbatim), rosacea
+    modest/preliminary (extrapolative, evidence is 15% gel). Critic revise->fixed: name Serum->Cream;
+    softened uncited rosacea comparative (cite FINACEA); created 2 See Also comparator stubs. Self-hosted
+    image. lint/style clean.'
 anua-azelaic-acid-serum:
   last_reviewed: '2026-07-28'
   score: 8
   verdict: revise
-  note: 'Re-review. All 4 sources re-fetched and verified: every quote verbatim
-    (Formulated with 10% Azelaic Acid; naturally derived green tint / instantly
-    soothe irritated skin and redness; Gentle Calming Complex including Cica and
-    Blue Tansy Oil; Non-comedogenic, Low-Irritation), INCI matches exactly (azelaic
-    2nd, niacinamide 19th), blue-tansy-absent-from-INCI claim confirmed, AZELEX 20%
-    cream/acne and FINACEA 15% gel/rosacea + 1995 active-moiety approval confirmed
-    on DailyMed. Load-bearing dims (D1-D4) clean. Fix applied: replaced two em-dash
-    connectors in footnotes [^3]/[^4] with periods (lint+verify+style stayed clean).
-    Structural/standard gaps (not reworked here, escalated): no results-first
-    ##Summary, no explicit category-vs-product framing (azelaic category is strong;
-    page leads with under-strength 10% caveat without balancing positives), no
-    approximate price, single bare-string photo. Escalated 2 items to
-    review-feedback.yaml (structure rework pri5, photos pri4).'
+  note: 'Re-review. All 4 sources re-fetched and verified: every quote verbatim (Formulated with 10% Azelaic
+    Acid; naturally derived green tint / instantly soothe irritated skin and redness; Gentle Calming Complex
+    including Cica and Blue Tansy Oil; Non-comedogenic, Low-Irritation), INCI matches exactly (azelaic
+    2nd, niacinamide 19th), blue-tansy-absent-from-INCI claim confirmed, AZELEX 20% cream/acne and FINACEA
+    15% gel/rosacea + 1995 active-moiety approval confirmed on DailyMed. Load-bearing dims (D1-D4) clean.
+    Fix applied: replaced two em-dash connectors in footnotes [^3]/[^4] with periods (lint+verify+style
+    stayed clean). Structural/standard gaps (not reworked here, escalated): no results-first ##Summary,
+    no explicit category-vs-product framing (azelaic category is strong; page leads with under-strength
+    10% caveat without balancing positives), no approximate price, single bare-string photo. Escalated
+    2 items to review-feedback.yaml (structure rework pri5, photos pri4).'
 beauty-of-joseon-light-on-serum-centella-vita-c:
   last_reviewed: '2026-07-27'
   score: 9
   verdict: publish
-  note: 'BoJ Light On Serum: Centella + Vita C; vitamin C is 3-O-ethyl ascorbic acid
-    DERIVATIVE at undisclosed %, graded modest/anecdotal (not equated with L-AA);
-    Pinnell benchmark verbatim. Critic publish. Self-hosted image.'
+  note: 'BoJ Light On Serum: Centella + Vita C; vitamin C is 3-O-ethyl ascorbic acid DERIVATIVE at undisclosed
+    %, graded modest/anecdotal (not equated with L-AA); Pinnell benchmark verbatim. Critic publish. Self-hosted
+    image.'
 anua-nano-retinol-0-3-niacin-renewing-serum:
   last_reviewed: '2026-07-27'
   score: 9
   verdict: publish
-  note: Anua Nano Retinol 0.3% + Niacinamide (user's 'retinol + salicylic acid' does
-    not exist; 'BHA' on INCI = butylated hydroxyanisole antioxidant, not a BHA acid).
-    Photoaging + niacinamide both modest/mixed; Kafi/Bissett/Zasada/Saurat/Huang all
-    verbatim. Critic publish. Self-hosted image.
+  note: Anua Nano Retinol 0.3% + Niacinamide (user's 'retinol + salicylic acid' does not exist; 'BHA'
+    on INCI = butylated hydroxyanisole antioxidant, not a BHA acid). Photoaging + niacinamide both modest/mixed;
+    Kafi/Bissett/Zasada/Saurat/Huang all verbatim. Critic publish. Self-hosted image.
 prequel-lucent-c-vitamin-c-serum:
   last_reviewed: '2026-07-28'
   score: 9
   verdict: publish
-  note: 'Reworked to the new product standard (rollout batch 2). Verified form: 15%
-    L-ascorbic acid (pure, not a derivative) at pH 3.2, 30ml, $23 (vs C E Ferulic
-    $185), but NO vitamin E. Results-first health-led Summary; brightening labeled
-    cosmetic. Grades honest/not-mislabeled: main antioxidant vitamin C row modest/SOLID
-    (proven active in Pinnell''s pH range), NOT preliminary; the C+E+ferulic row correctly
-    minimal/preliminary because the product lacks vitamin E; brand 90%/83% consumer-perception
-    figures quarantined. Editorial opinions attributed to quoted Wirecutter (incl.
-    a CRITICAL product-specific line: ''a musty-meets-chem-lab aroma that was deeply
-    unpleasant'' - Wirecutter tested 30+ serums and did not pick it) + ''gold standard
-    for absorption''/morning-routine; founder link to [[samantha-ellis]]. No imperatives
-    (mfr directions reported). Critic verdict publish but could not reach nytimes;
-    ORCHESTRATOR independently re-fetched nytimes via curl and confirmed all 4 Wirecutter
-    strings verbatim. Pinnell 2001 + Lin 2005 re-verified verbatim; Murray 2008 unchanged
-    (verified in prior passes). Photos: side rail, 3 images from 2 sources (mfr +
-    Amazon). lint/style/verify clean.'
+  note: 'Reworked to the new product standard (rollout batch 2). Verified form: 15% L-ascorbic acid (pure,
+    not a derivative) at pH 3.2, 30ml, $23 (vs C E Ferulic $185), but NO vitamin E. Results-first health-led
+    Summary; brightening labeled cosmetic. Grades honest/not-mislabeled: main antioxidant vitamin C row
+    modest/SOLID (proven active in Pinnell''s pH range), NOT preliminary; the C+E+ferulic row correctly
+    minimal/preliminary because the product lacks vitamin E; brand 90%/83% consumer-perception figures
+    quarantined. Editorial opinions attributed to quoted Wirecutter (incl. a CRITICAL product-specific
+    line: ''a musty-meets-chem-lab aroma that was deeply unpleasant'' - Wirecutter tested 30+ serums and
+    did not pick it) + ''gold standard for absorption''/morning-routine; founder link to [[samantha-ellis]].
+    No imperatives (mfr directions reported). Critic verdict publish but could not reach nytimes; ORCHESTRATOR
+    independently re-fetched nytimes via curl and confirmed all 4 Wirecutter strings verbatim. Pinnell
+    2001 + Lin 2005 re-verified verbatim; Murray 2008 unchanged (verified in prior passes). Photos: side
+    rail, 3 images from 2 sources (mfr + Amazon). lint/style/verify clean.'
 differin-adapalene-0-1-gel:
   last_reviewed: '2026-07-28'
   score: 9
   verdict: publish
-  note: 'Reworked to the new product standard (rollout batch 2). Results-first, health-led
-    Summary (a real FDA OTC acne retinoid, not a cosmetic ''retinol''; acne is a medical
-    condition). Editorial credibility attributed to quoted board-certified dermatologists
-    (Allure/Zeichner, NBC Select/Gohara + Jaber), not a house verdict. Usage guidance
-    attributed to the FDA OTC Drug Facts label + Allure (no imperatives in our voice;
-    the one imperative sits inside an attributed derm quote, permitted). Grades health-first:
-    acne (FDA-approved use) notable/solid on the regulatory + class evidence; off-label
-    photoaging modest/mixed, class-level, linked out to [[adapalene]]/[[retinoids]].
-    Product-specific evidence = the FDA prescription-to-OTC switch record; general
-    retinoid case linked out affirmatively. Photos: side rail, 3 images (2 distinct
-    source domains + Target; minor, not fabricating a third). Critic re-fetched every
-    source: all editorial quotes verbatim + attributions real, all FDA quotes unchanged;
-    verdict publish, no fixes needed. lint/style/verify clean.'
+  note: 'Reworked to the new product standard (rollout batch 2). Results-first, health-led Summary (a
+    real FDA OTC acne retinoid, not a cosmetic ''retinol''; acne is a medical condition). Editorial credibility
+    attributed to quoted board-certified dermatologists (Allure/Zeichner, NBC Select/Gohara + Jaber),
+    not a house verdict. Usage guidance attributed to the FDA OTC Drug Facts label + Allure (no imperatives
+    in our voice; the one imperative sits inside an attributed derm quote, permitted). Grades health-first:
+    acne (FDA-approved use) notable/solid on the regulatory + class evidence; off-label photoaging modest/mixed,
+    class-level, linked out to [[adapalene]]/[[retinoids]]. Product-specific evidence = the FDA prescription-to-OTC
+    switch record; general retinoid case linked out affirmatively. Photos: side rail, 3 images (2 distinct
+    source domains + Target; minor, not fabricating a third). Critic re-fetched every source: all editorial
+    quotes verbatim + attributions real, all FDA quotes unchanged; verdict publish, no fixes needed. lint/style/verify
+    clean.'
 petrolatum:
   last_reviewed: '2026-07-28'
   score: 8
   verdict: publish
-  note: 'review tick: pre-guide voice cleanup. All 5 sources re-fetched, quotes verbatim.
-    Safe fixes: removed first-person research narration + all 10 em dashes + evidence-gap
-    hedges; deleted uncited ''20-30%'' occlusive comparator and unverified per-group
-    denominators (kept verbatim ''nearly 99%'' + the 2.0%/0.9% percentages); added
-    the steroid CI (95% CI -15.3 to -3.27) and the ACD P=.12; softened ''safer on
-    allergy'' to the authors'' ''minimal risk for induction of allergy'' wording.
-    lint/verify/style clean.'
+  note: 'review tick: pre-guide voice cleanup. All 5 sources re-fetched, quotes verbatim. Safe fixes:
+    removed first-person research narration + all 10 em dashes + evidence-gap hedges; deleted uncited
+    ''20-30%'' occlusive comparator and unverified per-group denominators (kept verbatim ''nearly 99%''
+    + the 2.0%/0.9% percentages); added the steroid CI (95% CI -15.3 to -3.27) and the ACD P=.12; softened
+    ''safer on allergy'' to the authors'' ''minimal risk for induction of allergy'' wording. lint/verify/style
+    clean.'
 adapalene:
   last_reviewed: '2026-07-28'
   score: 9
   verdict: publish
-  note: 'Adapalene ingredient page (upgraded from stub); 3rd-gen synthetic receptor-acting
-    retinoid. Epiduo/Differin FDA-label mechanism quotes verbatim; Cochrane Yang 2020
-    (BPO equivalence RR 0.99, 95% CI 0.90-1.10, 5 RCTs/1472, low-certainty) and Cunliffe
-    1998 (tretinoin-equivalent efficacy, better tolerated) verified; class NMA cited
-    for placement only. Critic revise->fixed: removed unsupported ''first OTC retinoid''
-    attribution (StatPearls does not say ''first''), collapsed a photoaging evidence-gap
-    hedge repeated ~6x down to one grade note, de-quoted a Greek-symbol Cosio phrase.
-    Acne modest-to-notable/solid (equivalence, not superiority), photoaging off-label/anecdotal.
-    lint/verify/style clean.'
+  note: 'Adapalene ingredient page (upgraded from stub); 3rd-gen synthetic receptor-acting retinoid. Epiduo/Differin
+    FDA-label mechanism quotes verbatim; Cochrane Yang 2020 (BPO equivalence RR 0.99, 95% CI 0.90-1.10,
+    5 RCTs/1472, low-certainty) and Cunliffe 1998 (tretinoin-equivalent efficacy, better tolerated) verified;
+    class NMA cited for placement only. Critic revise->fixed: removed unsupported ''first OTC retinoid''
+    attribution (StatPearls does not say ''first''), collapsed a photoaging evidence-gap hedge repeated
+    ~6x down to one grade note, de-quoted a Greek-symbol Cosio phrase. Acne modest-to-notable/solid (equivalence,
+    not superiority), photoaging off-label/anecdotal. lint/verify/style clean.'
 eltamd-uv-clear-spf-46:
   last_reviewed: '2026-07-28'
   score: 10
   verdict: publish
-  note: 'Reworked to the new product standard (rollout batch 2). Results-first, health-led
-    Summary; global-context grades UVB strong/solid + UVA MODEST/solid (coverage from
-    9% zinc only; octinoxate is UVB-only; US Broad-Spectrum is pass/fail below EU/Korean
-    systems) - deliberately NOT inflated, the honest contrast with the Korean BoJ
-    sunscreen (UVA strong). Editorial opinion attributed to quoted Allure (Dr. Christopher
-    O''Connell ''My favorite sunscreen is EltaMD Clear'') balanced with a Wirecutter
-    negative panel finding (''fell short of our expectations'', ''greasy compared
-    with our picks'', ''a blue sheen''). Usage attributed to EltaMD directions + Allure
-    routine (no imperatives in our voice). Pre-existing filter citations (Smijs &
-    Pavel, Latha, Akintilo) unaltered + re-verified verbatim. Photos: 3-source side
-    rail (EltaMD/Amazon/Dermstore). Cheaper Alternatives correctly omitted (only affiliate-spam
-    dupe lists found). Critic 10/10, no fixes.'
+  note: 'Reworked to the new product standard (rollout batch 2). Results-first, health-led Summary; global-context
+    grades UVB strong/solid + UVA MODEST/solid (coverage from 9% zinc only; octinoxate is UVB-only; US
+    Broad-Spectrum is pass/fail below EU/Korean systems) - deliberately NOT inflated, the honest contrast
+    with the Korean BoJ sunscreen (UVA strong). Editorial opinion attributed to quoted Allure (Dr. Christopher
+    O''Connell ''My favorite sunscreen is EltaMD Clear'') balanced with a Wirecutter negative panel finding
+    (''fell short of our expectations'', ''greasy compared with our picks'', ''a blue sheen''). Usage
+    attributed to EltaMD directions + Allure routine (no imperatives in our voice). Pre-existing filter
+    citations (Smijs & Pavel, Latha, Akintilo) unaltered + re-verified verbatim. Photos: 3-source side
+    rail (EltaMD/Amazon/Dermstore). Cheaper Alternatives correctly omitted (only affiliate-spam dupe lists
+    found). Critic 10/10, no fixes.'
 glass-skin:
   last_reviewed: '2026-07-28'
   score: 9
   verdict: publish
-  note: GOAL exemplar (gated type, kept DRAFT pending user sign-off). Frames 'glass
-    skin' honestly as a K-beauty aesthetic with no clinical definition / no trials
-    of its own; decomposes it into evidence-based components that link out (moisturizing,
-    niacinamide, vitamin C, azelaic, retinoids, salicylic, sunscreen); optical (subsurface-diffuse
-    radiance vs specular gloss) framing sourced to 4 peer-reviewed primaries (Goff&Stein
-    2025, Roessle&Kerscher 2025, Ezerskaia 2017, Ikeda 2021), all quotes verbatim.
-    Critic revise->fixed one attribution (the 'ability to reflect light' definition
-    credited to Humphrey et al. per the citing source). lint/verify/style clean.
+  note: GOAL exemplar (gated type, kept DRAFT pending user sign-off). Frames 'glass skin' honestly as
+    a K-beauty aesthetic with no clinical definition / no trials of its own; decomposes it into evidence-based
+    components that link out (moisturizing, niacinamide, vitamin C, azelaic, retinoids, salicylic, sunscreen);
+    optical (subsurface-diffuse radiance vs specular gloss) framing sourced to 4 peer-reviewed primaries
+    (Goff&Stein 2025, Roessle&Kerscher 2025, Ezerskaia 2017, Ikeda 2021), all quotes verbatim. Critic
+    revise->fixed one attribution (the 'ability to reflect light' definition credited to Humphrey et al.
+    per the citing source). lint/verify/style clean.
 cerave:
   last_reviewed: '2026-07-28'
   score: 10
   verdict: publish
-  note: 'First BRAND page (gated type, kept DRAFT pending user sign-off). Neutral
-    cited roll-up: L''Oreal acquisition (announced Jan 2017 / completed March 2017;
-    $1.3B cash for CeraVe+AcneFree+AMBI TOGETHER) triple-cited to Valeant SEC 8-K
-    + 10-K + L''Oreal annual report, all verbatim (source typo preserved); Valeant->Bausch
-    Health via SEC EDGAR entity record. Positioning/tech (''developed with dermatologists'',
-    ceramides, MVE) quarantined as brand claims, efficacy deferred to product page;
-    founding year omitted (unverified). No quality judgment on the brand. Critic 10/10;
-    dropped one uncited ''mass-market'' descriptor. Enabling tooling: GATED_TYPES
-    lint/verify support + .sec.gov allowlist (114 tests pass). Benign brand/L''Oreal-URL
-    verify warnings are quarantined/corroborating use.'
+  note: 'First BRAND page (gated type, kept DRAFT pending user sign-off). Neutral cited roll-up: L''Oreal
+    acquisition (announced Jan 2017 / completed March 2017; $1.3B cash for CeraVe+AcneFree+AMBI TOGETHER)
+    triple-cited to Valeant SEC 8-K + 10-K + L''Oreal annual report, all verbatim (source typo preserved);
+    Valeant->Bausch Health via SEC EDGAR entity record. Positioning/tech (''developed with dermatologists'',
+    ceramides, MVE) quarantined as brand claims, efficacy deferred to product page; founding year omitted
+    (unverified). No quality judgment on the brand. Critic 10/10; dropped one uncited ''mass-market''
+    descriptor. Enabling tooling: GATED_TYPES lint/verify support + .sec.gov allowlist (114 tests pass).
+    Benign brand/L''Oreal-URL verify warnings are quarantined/corroborating use.'
 beauty-of-joseon-relief-sun-rice-probiotics-spf50:
   last_reviewed: '2026-07-28'
   score: 9
   verdict: publish
-  note: 'Reworked to the new product standard (rollout batch 1). Results-first, health-led
-    Summary (broad-spectrum UV protection reduces photoaging + skin-cancer risk).
-    Editorial credibility attributed to quoted sources, notably an INDEPENDENT Consumer
-    Reports lab test of this exact SKU (verified exact: ''all three Korean formulas
-    provided better protection than their U.S. counterparts''; tested avg SPF 36 vs
-    50+ label, UVA 5/5, UVB 5/5; the brand''s US Day Dew formula tested SPF 19), balanced
-    with Allure praise (''a prime example of what Korean sunscreens can do'') and
-    CR''s blind-panel white-cast/greasy criticism. Usage guidance attributed to Allure
-    (no imperatives in our voice; no unsourced reapplication claim). Global-context
-    grades honest: UVB strong/solid, UVA strong/solid on real spectral coverage (modern
-    filters + PA++++ + CR 5/5), with the tested-SPF-36-vs-50+ and ''Korean label,
-    not FDA-tested'' caveats stated. Product-specific evidence only; general filter
-    case linked out to [[sunscreen-uv-filters]]. Photos: 3-source side rail (YesStyle/Stylevana/Amazon),
-    self-hosted. Critic verified all CR figures + Allure quotes verbatim and fixed
-    one sensory overstatement (corrected to CR''s verbatim ''absorbed fairly well,
-    but a slight greasy feeling remained''). lint/style clean.'
+  note: 'Reworked to the new product standard (rollout batch 1). Results-first, health-led Summary (broad-spectrum
+    UV protection reduces photoaging + skin-cancer risk). Editorial credibility attributed to quoted sources,
+    notably an INDEPENDENT Consumer Reports lab test of this exact SKU (verified exact: ''all three Korean
+    formulas provided better protection than their U.S. counterparts''; tested avg SPF 36 vs 50+ label,
+    UVA 5/5, UVB 5/5; the brand''s US Day Dew formula tested SPF 19), balanced with Allure praise (''a
+    prime example of what Korean sunscreens can do'') and CR''s blind-panel white-cast/greasy criticism.
+    Usage guidance attributed to Allure (no imperatives in our voice; no unsourced reapplication claim).
+    Global-context grades honest: UVB strong/solid, UVA strong/solid on real spectral coverage (modern
+    filters + PA++++ + CR 5/5), with the tested-SPF-36-vs-50+ and ''Korean label, not FDA-tested'' caveats
+    stated. Product-specific evidence only; general filter case linked out to [[sunscreen-uv-filters]].
+    Photos: 3-source side rail (YesStyle/Stylevana/Amazon), self-hosted. Critic verified all CR figures
+    + Allure quotes verbatim and fixed one sensory overstatement (corrected to CR''s verbatim ''absorbed
+    fairly well, but a slight greasy feeling remained''). lint/style clean.'
 sunscreen-uv-filters:
   last_reviewed: '2026-07-28'
   score: 8
   verdict: publish
-  note: 'review tick: all accessible quotes/stats verbatim-verified (Hughes 2013,
-    Green 2011/1999, Cochrane 2016, 21 CFR 201.327, Federal Register OTC000039); Nambour-cohort
-    non-independence honestly disclosed. Safe fixes: removed reader-instruction (''Do
-    not read it as one''), second-person, and self-referential structure narration;
-    DELETED an unverifiable Cochrane editorial quote (kept the verified RRs + ''low
-    quality'' + ''unable to demonstrate''); removed uncited SPF erythemal-block percentages
-    (kept the qualitative diminishing-returns point); fixed a ''below''->''above''
-    xref. Akintilo [^6] pp.2-3 global-context quotes annotated as full-text access-restricted
-    (verified when written). lint/verify/style clean. Escalated: reader-reachable
-    citation for the Akintilo stats + the SPF percentages.'
+  note: 'review tick: all accessible quotes/stats verbatim-verified (Hughes 2013, Green 2011/1999, Cochrane
+    2016, 21 CFR 201.327, Federal Register OTC000039); Nambour-cohort non-independence honestly disclosed.
+    Safe fixes: removed reader-instruction (''Do not read it as one''), second-person, and self-referential
+    structure narration; DELETED an unverifiable Cochrane editorial quote (kept the verified RRs + ''low
+    quality'' + ''unable to demonstrate''); removed uncited SPF erythemal-block percentages (kept the
+    qualitative diminishing-returns point); fixed a ''below''->''above'' xref. Akintilo [^6] pp.2-3 global-context
+    quotes annotated as full-text access-restricted (verified when written). lint/verify/style clean.
+    Escalated: reader-reachable citation for the Akintilo stats + the SPF percentages.'
 samantha-ellis:
   last_reviewed: '2026-07-28'
   score: 10
   verdict: publish
-  note: 'First PERSON page (gated type, kept DRAFT pending user sign-off). Dr. Samantha
-    Rose Ellis, board-certified dermatologist + founder of Prequel. BLP discipline
-    (critic 10/10): every biographical fact cited to authoritative primaries (NPPES/NPI
-    government registry for name/M.D./Dermatology/CA license A144841; PubMed for UC
-    Davis Dermatology + PotozkinMD affiliations + 2 first-author reviews, JAAD 2020
-    + Microorganisms 2019); board certification kept ONLY as her quoted self-description
-    (not asserted in our voice); founder role quarantined as Prequel''s attributed
-    positioning; no inferred residency/med-school/birthplace/personal life; pronoun-free
-    (surname only). Enabling tooling: added CMS/NPPES to primary-source allowlist
-    (114 tests pass). Remaining verify warning is the quarantined prequelskin.com
-    brand source (acceptable).'
+  note: 'First PERSON page (gated type, kept DRAFT pending user sign-off). Dr. Samantha Rose Ellis, board-certified
+    dermatologist + founder of Prequel. BLP discipline (critic 10/10): every biographical fact cited to
+    authoritative primaries (NPPES/NPI government registry for name/M.D./Dermatology/CA license A144841;
+    PubMed for UC Davis Dermatology + PotozkinMD affiliations + 2 first-author reviews, JAAD 2020 + Microorganisms
+    2019); board certification kept ONLY as her quoted self-description (not asserted in our voice); founder
+    role quarantined as Prequel''s attributed positioning; no inferred residency/med-school/birthplace/personal
+    life; pronoun-free (surname only). Enabling tooling: added CMS/NPPES to primary-source allowlist (114
+    tests pass). Remaining verify warning is the quarantined prequelskin.com brand source (acceptable).'
 van-zuuren-2017-emollients-moisturisers-eczema:
   last_reviewed: '2026-07-28'
   score: 10
   verdict: publish
-  note: 'First STUDY page (gated type, kept DRAFT pending user sign-off). Neutral
-    single-paper summary of the van Zuuren 2017 Cochrane review (CD012119.pub2) of
-    emollients/moisturisers for eczema: 77 RCTs, 6603 participants. Critic re-fetched
-    all three cited renderings (PMC full text, PubMed, Cochrane plain-language summary)
-    and confirmed every quote verbatim and every statistic (all SMD/MD/RR/HR with
-    CIs + denominators, GRADE ratings, 46/77 pharma-funded, 36/34/7 risk-of-bias split)
-    exact and correctly directioned; no overstatement. Applied one verified completeness
-    polish (added oat fewer-flares RR 0.31 finding for symmetry). Note: a study page''s
-    Sources are the one paper in its official renderings, not 3 independent studies
-    — correct for this page type, not a D1 miss.'
+  note: 'First STUDY page (gated type, kept DRAFT pending user sign-off). Neutral single-paper summary
+    of the van Zuuren 2017 Cochrane review (CD012119.pub2) of emollients/moisturisers for eczema: 77 RCTs,
+    6603 participants. Critic re-fetched all three cited renderings (PMC full text, PubMed, Cochrane plain-language
+    summary) and confirmed every quote verbatim and every statistic (all SMD/MD/RR/HR with CIs + denominators,
+    GRADE ratings, 46/77 pharma-funded, 36/34/7 risk-of-bias split) exact and correctly directioned; no
+    overstatement. Applied one verified completeness polish (added oat fewer-flares RR 0.31 finding for
+    symmetry). Note: a study page''s Sources are the one paper in its official renderings, not 3 independent
+    studies — correct for this page type, not a D1 miss.'
 vitamin-c:
   last_reviewed: '2026-07-28'
   score: 10
   verdict: publish
-  note: 'Vitamin C forms/derivatives hub (sibling to the retinoids hub). Maps L-ascorbic
-    acid (reference, benchmark) vs the stabilized derivatives (MAP, SAP, ascorbyl
-    glucoside, 3-O-ethyl ascorbic acid, ascorbyl palmitate, THD ascorbate) by conversion
-    pathway, form, and evidence strength. Critic 10/10 publish: re-fetched all 4 sources;
-    18 quotes verified verbatim, Kameyama denominators (19/34, 3/25) exact, both narrative
-    reviews (Pullar 2017, Stamford 2012) labeled as reviews and cited only for framing/mechanism,
-    the two trials (Pinnell 2001, Kameyama 1996) the only empirical cites. Honest
-    through-line held: derivatives framed as thinner/preliminary/conversion-dependent,
-    no equivalence claimed. Drafter caught + corrected a bad PMID in the brief (Stamford
-    = 23174055). Enqueued 6 derivative ingredient pages for future research. Ingredient
-    = autopublish; published.'
+  note: 'Vitamin C forms/derivatives hub (sibling to the retinoids hub). Maps L-ascorbic acid (reference,
+    benchmark) vs the stabilized derivatives (MAP, SAP, ascorbyl glucoside, 3-O-ethyl ascorbic acid, ascorbyl
+    palmitate, THD ascorbate) by conversion pathway, form, and evidence strength. Critic 10/10 publish:
+    re-fetched all 4 sources; 18 quotes verified verbatim, Kameyama denominators (19/34, 3/25) exact,
+    both narrative reviews (Pullar 2017, Stamford 2012) labeled as reviews and cited only for framing/mechanism,
+    the two trials (Pinnell 2001, Kameyama 1996) the only empirical cites. Honest through-line held: derivatives
+    framed as thinner/preliminary/conversion-dependent, no equivalence claimed. Drafter caught + corrected
+    a bad PMID in the brief (Stamford = 23174055). Enqueued 6 derivative ingredient pages for future research.
+    Ingredient = autopublish; published.'
 anti-aging:
   last_reviewed: '2026-07-28'
   score: 9
   verdict: publish-after-fixes
-  note: 'Skeptical tiered anti-aging + perimenopause GOAL page (gated; kept DRAFT
-    for sign-off), inspired by a user-supplied tier list but independently source-verified.
-    Built from 5 parallel verification agents (one per tier cluster); every load-bearing
-    stat traced to a primary. Critic re-fetched all 21 sources: 20/21 quotes/stats
-    verbatim + correctly directioned on first pass; flagged 3 citation-plumbing errors
-    (wrong Akintilo PMID 32845596->32845592; exosome quote mis-sourced to a peptides
-    PMID -> re-sourced to Gupta 2025 PMID 39618056, re-fetched and verified verbatim;
-    Nukaly 0.27 mislabeled as topical-only -> corrected to overall pooled, oral subgroup
-    MD 1.5) plus 2 minor (Hughes quote missing ''sunscreen''; avobenzone ''only''->''was
-    long the only'' post-2026 bemotrizinol). All fixed + re-verified. Skeptic wins
-    banked from verification: dropped the tier list''s unverifiable ''oral collagen:
-    independent trials show no benefit'' (contradicted by Danessa 2025 positive SMDs
-    -> reframed as small/low-certainty), ''30%/5yr'' & ''7-15%'' HRT figures, retinol
-    ''~4%'', peptide ''10-30%'' (that figure is Argireline, not Matrixyl), glycolic
-    NMA, red-light ''29/30%''. Scope: non-topical interventions (HRT, topical estrogen,
-    procedures, supplements, red-light device, smoking) covered as bracketed context
-    with ZERO xrefs, per user decision (full coverage a LATER phase).'
+  note: 'Skeptical tiered anti-aging + perimenopause GOAL page (gated; kept DRAFT for sign-off), inspired
+    by a user-supplied tier list but independently source-verified. Built from 5 parallel verification
+    agents (one per tier cluster); every load-bearing stat traced to a primary. Critic re-fetched all
+    21 sources: 20/21 quotes/stats verbatim + correctly directioned on first pass; flagged 3 citation-plumbing
+    errors (wrong Akintilo PMID 32845596->32845592; exosome quote mis-sourced to a peptides PMID -> re-sourced
+    to Gupta 2025 PMID 39618056, re-fetched and verified verbatim; Nukaly 0.27 mislabeled as topical-only
+    -> corrected to overall pooled, oral subgroup MD 1.5) plus 2 minor (Hughes quote missing ''sunscreen'';
+    avobenzone ''only''->''was long the only'' post-2026 bemotrizinol). All fixed + re-verified. Skeptic
+    wins banked from verification: dropped the tier list''s unverifiable ''oral collagen: independent
+    trials show no benefit'' (contradicted by Danessa 2025 positive SMDs -> reframed as small/low-certainty),
+    ''30%/5yr'' & ''7-15%'' HRT figures, retinol ''~4%'', peptide ''10-30%'' (that figure is Argireline,
+    not Matrixyl), glycolic NMA, red-light ''29/30%''. Scope: non-topical interventions (HRT, topical
+    estrogen, procedures, supplements, red-light device, smoking) covered as bracketed context with ZERO
+    xrefs, per user decision (full coverage a LATER phase).'
 la-roche-posay-toleriane:
   last_reviewed: '2026-07-28'
   score: 9
   verdict: publish
-  note: 'La Roche-Posay Toleriane Double Repair moisturizer (upgraded stub->full).
-    Grades honest: category-level moisturization notable/solid (grounded in [[moisturizing]]
-    + van Zuuren 2017 Cochrane); ceramide+niacinamide barrier-repair superiority minimal/mixed
-    vs a plainer emollient / [[cerave-moisturizing-cream]] (no formula-specific trial).
-    Critic first flagged 2 blockers, both resolved + orchestrator-re-verified: (1)
-    INCI conflict, critic''s source (Ulta) showed no squalane, but the manufacturer''s
-    own live page AND Target both confirm squalane + corn starch in the current US
-    formula (3 concurring reads; Ulta was a stale/reformulated variant and a blocklisted
-    aggregator), so the original composition was correct, now sourced to fetched primaries;
-    (2) Spada 2021 quote made verbatim to the abstract (''this decrease was not significant
-    between groups at day 28 (P = .7804)'') and confirmed by direct fetch. Marketing
-    quotes made verbatim to the manufacturer and quarantined; van Zuuren quote completed
-    with ellipsis. Self-hosted manufacturer image renders (confirmed). Enqueued squalane
-    (ingredient). verify WARN only on the manufacturer domain (expected).'
+  note: 'La Roche-Posay Toleriane Double Repair moisturizer (upgraded stub->full). Grades honest: category-level
+    moisturization notable/solid (grounded in [[moisturizing]] + van Zuuren 2017 Cochrane); ceramide+niacinamide
+    barrier-repair superiority minimal/mixed vs a plainer emollient / [[cerave-moisturizing-cream]] (no
+    formula-specific trial). Critic first flagged 2 blockers, both resolved + orchestrator-re-verified:
+    (1) INCI conflict, critic''s source (Ulta) showed no squalane, but the manufacturer''s own live page
+    AND Target both confirm squalane + corn starch in the current US formula (3 concurring reads; Ulta
+    was a stale/reformulated variant and a blocklisted aggregator), so the original composition was correct,
+    now sourced to fetched primaries; (2) Spada 2021 quote made verbatim to the abstract (''this decrease
+    was not significant between groups at day 28 (P = .7804)'') and confirmed by direct fetch. Marketing
+    quotes made verbatim to the manufacturer and quarantined; van Zuuren quote completed with ellipsis.
+    Self-hosted manufacturer image renders (confirmed). Enqueued squalane (ingredient). verify WARN only
+    on the manufacturer domain (expected).'
 probiotics:
   last_reviewed: '2026-07-28'
   score: 10
   verdict: publish
-  note: 'New ingredient hub: probiotics for skin (topical + ingested). Spined on the
-    skeptical labeling distinction (WHO/ISAPP definitions verbatim: probiotic=live,
-    prebiotic=substrate, postbiotic=inanimate; most ''probiotic'' topical skincare
-    is actually postbiotics/lysates/ferment-filtrates, not live cultures - stated
-    as a definitional fact, BoJ Relief Sun as the example). Evidence honestly weighted:
-    oral probiotics for infant eczema PREVENTION best-evidenced (Cuello-Garcia RRs,
-    low/very-low certainty noted); Cochrane treatment conclusion kept honestly NEGATIVE
-    (''probably make little or no difference'', ''not evidence-based''); acne meta-analyses
-    (Lin 2025, Tjiu 2025) with SMDs/CIs + certainty; topical evidence thin (Gueniche
-    lysate RCT; the FB-401 live-Roseomonas RCT ''failed to prove superior to placebo'');
-    Parodi SIBO/rifaximin kept explicitly as an ANTIBIOTIC result, not probiotic.
-    Prose ## The Rubric. Critic 10/10, re-fetched all 12 sources verbatim, one safe
-    fix (pooled->included). Ingredient autopublishes.'
+  note: 'New ingredient hub: probiotics for skin (topical + ingested). Spined on the skeptical labeling
+    distinction (WHO/ISAPP definitions verbatim: probiotic=live, prebiotic=substrate, postbiotic=inanimate;
+    most ''probiotic'' topical skincare is actually postbiotics/lysates/ferment-filtrates, not live cultures
+    - stated as a definitional fact, BoJ Relief Sun as the example). Evidence honestly weighted: oral
+    probiotics for infant eczema PREVENTION best-evidenced (Cuello-Garcia RRs, low/very-low certainty
+    noted); Cochrane treatment conclusion kept honestly NEGATIVE (''probably make little or no difference'',
+    ''not evidence-based''); acne meta-analyses (Lin 2025, Tjiu 2025) with SMDs/CIs + certainty; topical
+    evidence thin (Gueniche lysate RCT; the FB-401 live-Roseomonas RCT ''failed to prove superior to placebo'');
+    Parodi SIBO/rifaximin kept explicitly as an ANTIBIOTIC result, not probiotic. Prose ## The Rubric.
+    Critic 10/10, re-fetched all 12 sources verbatim, one safe fix (pooled->included). Ingredient autopublishes.'
 cerave-hydrating-facial-cleanser:
   last_reviewed: '2026-07-28'
   score: 9
   verdict: publish
-  note: 'Reworked from the held old-standard draft to the current standard and shipped
-    (ship-live policy). Results-first, health-led Summary (a gentle, fragrance-free,
-    non-foaming, low-surfactant cleanser that cleans without stripping the barrier).
-    Category-vs-product (rule 3): the category question (does a gentle/ceramide rinse-off
-    beat any mild cleanser) answered at category level and linked out to [[moisturizing]]/[[ceramides]]
-    with the honest note that no trial isolates this rinse-off; product credited fairly
-    as a well-rounded, fragrance-free, INEXPENSIVE ($15.99), dermatologist-recommended
-    gentle cleanser (NEA seal). Editorial credibility attributed to a NAMED derm quote
-    (Dr. Valerie Callender, quoted in NewBeauty); the anonymous HuffPost quote was
-    correctly DROPPED by the critic (matches the moisturizing-cream precedent). Correctly
-    states NO niacinamide (that''s the Foaming variant). Grades health-first (non-stripping
-    cleansing modest/mixed; barrier-deposit minimal/mixed per Spada 2021; cosmetic
-    feel labeled cosmetic). category: Cleansers (new index bucket). Photos: 4-image
-    side rail (CeraVe/Target/Amazon/Walmart). Critic publish clean, 2 safe fixes.
-    lint/style/verify clean.'
+  note: 'Reworked from the held old-standard draft to the current standard and shipped (ship-live policy).
+    Results-first, health-led Summary (a gentle, fragrance-free, non-foaming, low-surfactant cleanser
+    that cleans without stripping the barrier). Category-vs-product (rule 3): the category question (does
+    a gentle/ceramide rinse-off beat any mild cleanser) answered at category level and linked out to [[moisturizing]]/[[ceramides]]
+    with the honest note that no trial isolates this rinse-off; product credited fairly as a well-rounded,
+    fragrance-free, INEXPENSIVE ($15.99), dermatologist-recommended gentle cleanser (NEA seal). Editorial
+    credibility attributed to a NAMED derm quote (Dr. Valerie Callender, quoted in NewBeauty); the anonymous
+    HuffPost quote was correctly DROPPED by the critic (matches the moisturizing-cream precedent). Correctly
+    states NO niacinamide (that''s the Foaming variant). Grades health-first (non-stripping cleansing
+    modest/mixed; barrier-deposit minimal/mixed per Spada 2021; cosmetic feel labeled cosmetic). category:
+    Cleansers (new index bucket). Photos: 4-image side rail (CeraVe/Target/Amazon/Walmart). Critic publish
+    clean, 2 safe fixes. lint/style/verify clean.'
 ceramides:
   last_reviewed: '2026-07-28'
   score: 9
@@ -625,389 +555,348 @@ peptides:
   last_reviewed: '2026-07-28'
   score: 9
   verdict: publish
-  note: 'Cosmetic-peptides overview, drafted + critic-gated in the parallel drain.
-    Critic verified every quote/stat verbatim (Nukaly MD 0.27/p=0.04 with the oral-driven
-    subgroup MD 1.5/p=0.01; Michalek ''sparse''; Robinson n=93 split-face; Blanes-Mira
-    Argireline ''up to 30%''; Zdrada AH-8 penetration ''remains uncertain''; Pickart
-    GHK; Gorouhi four classes; Griffiths tretinoin ''gold standard''), honest/relative
-    grading, health-vs-cosmetic separated. Critic''s one blocker (an uncited FDA regulatory
-    paragraph) fixed: reworded to contrast with our FDA-approved [[azelaic-acid]]/retinoid
-    pages and describe what the peptide evidence actually measures (appearance), removing
-    the uncited FDA assertions. lint/style/verify clean.'
+  note: 'Cosmetic-peptides overview, drafted + critic-gated in the parallel drain. Critic verified every
+    quote/stat verbatim (Nukaly MD 0.27/p=0.04 with the oral-driven subgroup MD 1.5/p=0.01; Michalek ''sparse'';
+    Robinson n=93 split-face; Blanes-Mira Argireline ''up to 30%''; Zdrada AH-8 penetration ''remains
+    uncertain''; Pickart GHK; Gorouhi four classes; Griffiths tretinoin ''gold standard''), honest/relative
+    grading, health-vs-cosmetic separated. Critic''s one blocker (an uncited FDA regulatory paragraph)
+    fixed: reworded to contrast with our FDA-approved [[azelaic-acid]]/retinoid pages and describe what
+    the peptide evidence actually measures (appearance), removing the uncited FDA assertions. lint/style/verify
+    clean.'
 avobenzone:
   last_reviewed: '2026-07-28'
   score: 9
   verdict: publish
-  note: Avobenzone (UVA sunscreen filter), drafted + critic-gated in the parallel
-    drain. Critic verified 6 of 7 sources verbatim (Beasley 'true broad-spectrum protection
-    against UVA wavelengths >360 nm', <20% loss tolerance; Chatelain Tinosorb S photostabilization
-    to 30 MED; Sayre avobenzone/octinoxate 'concomitant photolysis'; Matta 2019/2020
-    systemic-absorption ng/mL; FDA 2019 rule 3% max + Category III). The only 'revise'
-    ground was that the 3 Akintilo JDD 2020 quotes ('sole chemical approved by the
-    FDA to afford UVA protection'; 'highly unstable'; octocrylene 'in an attempt to
-    retard its degradation') are paywalled and couldn't be re-fetched THIS pass, but
-    they are the same quotes already verified against the JDD full text on [[sunscreen-uv-filters]]
-    (annotated in the footnote), and every underlying claim is independently corroborated
-    by the FDA rule + Chatelain/Sayre that the critic did verify. Grades honest/global-context;
-    health-vs-cosmetic separated. lint/style/verify clean.
+  note: Avobenzone (UVA sunscreen filter), drafted + critic-gated in the parallel drain. Critic verified
+    6 of 7 sources verbatim (Beasley 'true broad-spectrum protection against UVA wavelengths >360 nm',
+    <20% loss tolerance; Chatelain Tinosorb S photostabilization to 30 MED; Sayre avobenzone/octinoxate
+    'concomitant photolysis'; Matta 2019/2020 systemic-absorption ng/mL; FDA 2019 rule 3% max + Category
+    III). The only 'revise' ground was that the 3 Akintilo JDD 2020 quotes ('sole chemical approved by
+    the FDA to afford UVA protection'; 'highly unstable'; octocrylene 'in an attempt to retard its degradation')
+    are paywalled and couldn't be re-fetched THIS pass, but they are the same quotes already verified
+    against the JDD full text on [[sunscreen-uv-filters]] (annotated in the footnote), and every underlying
+    claim is independently corroborated by the FDA rule + Chatelain/Sayre that the critic did verify.
+    Grades honest/global-context; health-vs-cosmetic separated. lint/style/verify clean.
 homosalate:
   last_reviewed: '2026-07-28'
   score: 9
   verdict: publish
-  note: 'Cross-queue parallel drain (draft+critic). Ran sk lint (clean), sk style
-    (clean), sk verify (only a manual-check WARN on the eur-lex.europa.eu domain,
-    a legitimate EU regulation primary, not an aggregator). Re-fetched and confirmed
-    VERBATIM every quote and EXACT/correctly-directioned every statistic in five of
-    the six sources: Holt PCCP 2020 (all three photophysics quotes exact, incl. "ESIPT...
-    UVB (290-320 nm)... dissipated non-radiatively" and "mostly favourable photophysical
-    characteristics"); Chaudhuri Photochem Photobiol 2006 82(3):823-8 (avobenzone/DESM/UV-B
-    quote exact, homosalate confirmed as a UVB filter); Matta JAMA 2020 323(3):256-267
-    (homosalate plasma maxima 23.1/17.9/13.9 ng/mL with CVs 68.0%/61.7%/70.2% all
-    exact; 0.5 ng/mL threshold and "surpassed on day 1" quote exa'
+  note: 'Cross-queue parallel drain (draft+critic). Ran sk lint (clean), sk style (clean), sk verify (only
+    a manual-check WARN on the eur-lex.europa.eu domain, a legitimate EU regulation primary, not an aggregator).
+    Re-fetched and confirmed VERBATIM every quote and EXACT/correctly-directioned every statistic in five
+    of the six sources: Holt PCCP 2020 (all three photophysics quotes exact, incl. "ESIPT... UVB (290-320
+    nm)... dissipated non-radiatively" and "mostly favourable photophysical characteristics"); Chaudhuri
+    Photochem Photobiol 2006 82(3):823-8 (avobenzone/DESM/UV-B quote exact, homosalate confirmed as a
+    UVB filter); Matta JAMA 2020 323(3):256-267 (homosalate plasma maxima 23.1/17.9/13.9 ng/mL with CVs
+    68.0%/61.7%/70.2% all exact; 0.5 ng/mL threshold and "surpassed on day 1" quote exa'
 octisalate:
   last_reviewed: '2026-07-28'
   score: 9
   verdict: publish
-  note: 'Cross-queue parallel drain (draft+critic). Ran sk lint, sk style, and sk
-    verify on octisalate: all three clean. Re-fetched every cited source and confirmed
-    each quote verbatim and each statistic exact and correctly directioned: Matta
-    2020 JAMA plasma concentrations (5.1 ng/mL CV 81.6% aerosol, 5.8 ng/mL CV 77.4%
-    nonaerosol, 4.6 ng/mL CV 97.6% pump, all above the 0.5 ng/mL threshold), 48 participants
-    and the "0 hours day 1, 4x on days 2-4" schedule, and the "do not indicate that
-    individuals should refrain from the use of sunscreen" conclusion; Hiller 2019
-    (334 µg EHS and 124 µg 5OH-EHS 24h excretion, 213 µg/g creatinine metabolite peak
-    correctly attributed to 5OH-EHS not EHS''s 525, ~87 h terminal half-life, 3.8
-    g EHS, 20 volunteers, 9 h); FDA 2019 Category III GRASE sentence verbatim'
+  note: 'Cross-queue parallel drain (draft+critic). Ran sk lint, sk style, and sk verify on octisalate:
+    all three clean. Re-fetched every cited source and confirmed each quote verbatim and each statistic
+    exact and correctly directioned: Matta 2020 JAMA plasma concentrations (5.1 ng/mL CV 81.6% aerosol,
+    5.8 ng/mL CV 77.4% nonaerosol, 4.6 ng/mL CV 97.6% pump, all above the 0.5 ng/mL threshold), 48 participants
+    and the "0 hours day 1, 4x on days 2-4" schedule, and the "do not indicate that individuals should
+    refrain from the use of sunscreen" conclusion; Hiller 2019 (334 µg EHS and 124 µg 5OH-EHS 24h excretion,
+    213 µg/g creatinine metabolite peak correctly attributed to 5OH-EHS not EHS''s 525, ~87 h terminal
+    half-life, 3.8 g EHS, 20 volunteers, 9 h); FDA 2019 Category III GRASE sentence verbatim'
 octinoxate:
   last_reviewed: '2026-07-28'
   score: 9
   verdict: publish
-  note: 'Cross-queue parallel drain (draft+critic). Ran sk lint (clean), sk style
-    (clean), sk verify (clean except an expected non-blocking WARN that the EUR-Lex
-    regulator domain is not on the primary allowlist). Re-fetched all nine cited sources
-    and confirmed every quote verbatim and every statistic exact and correctly directioned:
-    Tarras-Wahlberg ("the absorbance of 2-ethylhexyl 4-methoxycinnamate was reduced
-    significantly"; 100 J/cm2 UVA, 20 MED UVB); Chatelain/Gabard (all three quotes
-    verbatim); Sayre ("concomitant photolysis of avobenzone and octinoxate," film
-    of avobenzone+oxybenzone+octinoxate, persistent free radicals by ESR); Matta 2020
-    JAMA (7.9 ng/mL CV 86.5% nonaerosol, 5.2 ng/mL CV 68.2% pump; threshold "surpassed
-    on day 1"; "do not indicate that individuals should refrain"; 48 '
+  note: 'Cross-queue parallel drain (draft+critic). Ran sk lint (clean), sk style (clean), sk verify (clean
+    except an expected non-blocking WARN that the EUR-Lex regulator domain is not on the primary allowlist).
+    Re-fetched all nine cited sources and confirmed every quote verbatim and every statistic exact and
+    correctly directioned: Tarras-Wahlberg ("the absorbance of 2-ethylhexyl 4-methoxycinnamate was reduced
+    significantly"; 100 J/cm2 UVA, 20 MED UVB); Chatelain/Gabard (all three quotes verbatim); Sayre ("concomitant
+    photolysis of avobenzone and octinoxate," film of avobenzone+oxybenzone+octinoxate, persistent free
+    radicals by ESR); Matta 2020 JAMA (7.9 ng/mL CV 86.5% nonaerosol, 5.2 ng/mL CV 68.2% pump; threshold
+    "surpassed on day 1"; "do not indicate that individuals should refrain"; 48 '
 ethylhexyl-triazone:
   last_reviewed: '2026-07-28'
   score: 9
   verdict: publish
-  note: 'Cross-queue parallel drain (draft+critic). sk lint = clean, sk style = clean
-    style, sk verify = only the expected advisory that eur-lex is off the primary
-    allowlist (a regulator, valid primary). I re-fetched all 11 sources and confirmed
-    every quote verbatim and every statistic exact and correctly directioned: Baker
-    2017 (all five quotes incl. "ultrafast internal conversion" and "enabling multiple
-    absorption and recovery cycles, as one would anticipate from a highly efficient
-    filter"); Tsuchiya 2015 ("intersystem crossing to the T1 state", "did not exhibit
-    significantly antioxidative properties by quenching singlet oxygen"); Couteau
-    2007 efficacy scores (octyltriazone 7.80, homosalate 4.33, octisalate 3.12, bisoctrizole
-    3.68, 4-MBC 4.22, octocrylene 10.41, octinoxate 10.42, iscotrizi'
+  note: 'Cross-queue parallel drain (draft+critic). sk lint = clean, sk style = clean style, sk verify
+    = only the expected advisory that eur-lex is off the primary allowlist (a regulator, valid primary).
+    I re-fetched all 11 sources and confirmed every quote verbatim and every statistic exact and correctly
+    directioned: Baker 2017 (all five quotes incl. "ultrafast internal conversion" and "enabling multiple
+    absorption and recovery cycles, as one would anticipate from a highly efficient filter"); Tsuchiya
+    2015 ("intersystem crossing to the T1 state", "did not exhibit significantly antioxidative properties
+    by quenching singlet oxygen"); Couteau 2007 efficacy scores (octyltriazone 7.80, homosalate 4.33,
+    octisalate 3.12, bisoctrizole 3.68, 4-MBC 4.22, octocrylene 10.41, octinoxate 10.42, iscotrizi'
 glycolic-acid:
   last_reviewed: '2026-07-28'
   score: 9
   verdict: publish
-  note: 'Cross-queue parallel drain (draft+critic). Ran sk lint/style/verify (all
-    clean before and after edits) and re-fetched all six cited sources (Kaidbey 2003,
-    Ditre 1996, Stiller 1996, Hurley 2002, Cochrane 2020, Kornhauser 2010). Every
-    quotation is verbatim and every statistic is exact and correctly directioned:
-    RR 1.06 (95% CI 0.88–1.26; 40 participants, low quality), face improvement 76%/71%/40%
-    P<.05, melasma add-on null P=.75 with P<.001 vs baseline, and the Kaidbey UV-sensitivity
-    direction (increased SBC / lowered MED, CPDs elevated but not significant, reversed
-    within a week; n=29/16/13). Cochrane "PGA" genuinely is Participants'' global
-    self-assessment, so that wording is correct. I found and fixed one real fidelity
-    defect: the sentence "several studies suggest that AHAs can incr'
+  note: 'Cross-queue parallel drain (draft+critic). Ran sk lint/style/verify (all clean before and after
+    edits) and re-fetched all six cited sources (Kaidbey 2003, Ditre 1996, Stiller 1996, Hurley 2002,
+    Cochrane 2020, Kornhauser 2010). Every quotation is verbatim and every statistic is exact and correctly
+    directioned: RR 1.06 (95% CI 0.88–1.26; 40 participants, low quality), face improvement 76%/71%/40%
+    P<.05, melasma add-on null P=.75 with P<.001 vs baseline, and the Kaidbey UV-sensitivity direction
+    (increased SBC / lowered MED, CPDs elevated but not significant, reversed within a week; n=29/16/13).
+    Cochrane "PGA" genuinely is Participants'' global self-assessment, so that wording is correct. I found
+    and fixed one real fidelity defect: the sentence "several studies suggest that AHAs can incr'
 propolis:
   last_reviewed: '2026-07-28'
   score: 9
   verdict: publish
-  note: 'Cross-queue parallel drain (draft+critic). sk lint/style/verify all return
-    clean. I re-fetched all 7 cited sources and confirmed every quote verbatim and
-    every statistic exact and correctly directioned: Jautová (199 vs 198, median 3
-    vs 4 days p<0.0001, "No allergic reactions, local irritations or other adverse
-    events occurred"), Arenberger (189 vs 190, median 4 vs 5 days P<0.0001, "superior
-    in the treatment of episodes of herpes labialis over 5% aciclovir cream"), Henshaw
-    (n=24 vs 84, 41% vs 16% wk1 P<0.001, 63% vs 44% wk3 P<0.05, MMP-9 and bacterial
-    both P<0.001, "a well-tolerated therapy for wound healing", "now appears to be
-    warranted" — verified via Europe PMC REST API after PubMed reCAPTCHA blocked direct
+  note: 'Cross-queue parallel drain (draft+critic). sk lint/style/verify all return clean. I re-fetched
+    all 7 cited sources and confirmed every quote verbatim and every statistic exact and correctly directioned:
+    Jautová (199 vs 198, median 3 vs 4 days p<0.0001, "No allergic reactions, local irritations or other
+    adverse events occurred"), Arenberger (189 vs 190, median 4 vs 5 days P<0.0001, "superior in the treatment
+    of episodes of herpes labialis over 5% aciclovir cream"), Henshaw (n=24 vs 84, 41% vs 16% wk1 P<0.001,
+    63% vs 44% wk3 P<0.05, MMP-9 and bacterial both P<0.001, "a well-tolerated therapy for wound healing",
+    "now appears to be warranted" — verified via Europe PMC REST API after PubMed reCAPTCHA blocked direct
     fetch), Mazzarello (60 patients, 20% propolis+3% tea tree oil+10% Aloe ve'
 cerave-foaming-facial-cleanser:
   last_reviewed: '2026-07-28'
   score: 9
   verdict: publish
-  note: 'Cross-queue parallel drain (draft+critic). Re-fetched all three cited sources
-    and verified every quote and statistic. Spada 2021 [^2]: n=100, 28 days, randomized/double-blind
-    design, TEWL P=.0342 and EASI P=.7804 (between-group, not significant), Ego Pharmaceuticals
-    as manufacturer/funder — all exact and correctly directioned. Julia Tzu quote
-    in NewBeauty [^4/now ^3] is verbatim and attributed to a named dermatologist.
-    Price $15.99 verified and attributed to the manufacturer [^1]; the CeraVe INCI,
-    fragrance-free/sulfate-free composition, and quarantined marketing claims all
-    match the source. Structure checks pass: results-first Summary, BOTH category
-    and product verdicts stated, health-first grades with cosmetic flagged, no imperatives
-    in our voice, affirmative link-outs, Sources la'
+  note: 'Cross-queue parallel drain (draft+critic). Re-fetched all three cited sources and verified every
+    quote and statistic. Spada 2021 [^2]: n=100, 28 days, randomized/double-blind design, TEWL P=.0342
+    and EASI P=.7804 (between-group, not significant), Ego Pharmaceuticals as manufacturer/funder — all
+    exact and correctly directioned. Julia Tzu quote in NewBeauty [^4/now ^3] is verbatim and attributed
+    to a named dermatologist. Price $15.99 verified and attributed to the manufacturer [^1]; the CeraVe
+    INCI, fragrance-free/sulfate-free composition, and quarantined marketing claims all match the source.
+    Structure checks pass: results-first Summary, BOTH category and product verdicts stated, health-first
+    grades with cosmetic flagged, no imperatives in our voice, affirmative link-outs, Sources la'
 cetaphil-gentle-skin-cleanser:
   last_reviewed: '2026-07-28'
   score: 9
   verdict: publish
-  note: 'Cross-queue parallel drain (draft+critic). Ran lint (clean), style (clean),
-    verify (only the four expected non-primary-domain warnings for Cetaphil/Wirecutter/Allure/Target,
-    all correctly used as editorial/pointer/price sources, not as medical primaries).
-    Re-fetched every cited source. Both PubMed primaries verified verbatim and exact,
-    statistics correctly directioned: Draelos 2006 (30 rosacea patients, 2 weeks,
-    "No significant increase in TEWL... did not damage the skin barrier," the no-adverse-events
-    quote, "significant reduction (P<.05) in investigator-assessed rosacea severity,"
-    "nonalkaline nonirritating cleanser") and Baranda 2002 (29 products, 30 sensitive-skin
-    subjects, 5 days, "A significant correlation between pH and the IrIn of cleansers
-    was found (P < 0.006)," syndets at'
+  note: 'Cross-queue parallel drain (draft+critic). Ran lint (clean), style (clean), verify (only the
+    four expected non-primary-domain warnings for Cetaphil/Wirecutter/Allure/Target, all correctly used
+    as editorial/pointer/price sources, not as medical primaries). Re-fetched every cited source. Both
+    PubMed primaries verified verbatim and exact, statistics correctly directioned: Draelos 2006 (30 rosacea
+    patients, 2 weeks, "No significant increase in TEWL... did not damage the skin barrier," the no-adverse-events
+    quote, "significant reduction (P<.05) in investigator-assessed rosacea severity," "nonalkaline nonirritating
+    cleanser") and Baranda 2002 (29 products, 30 sensitive-skin subjects, 5 days, "A significant correlation
+    between pH and the IrIn of cleansers was found (P < 0.006)," syndets at'
 the-ordinary-niacinamide-10-zinc-1:
   last_reviewed: '2026-07-28'
   score: 9
   verdict: publish
-  note: 'Cross-queue parallel drain (draft+critic). Ran sk lint (clean), sk style
-    (clean), and sk verify (only advisory "domain not on primary allowlist" WARNs,
-    expected for a product page whose sources are the manufacturer page and a cosmetic-chemist
-    blog; no aggregators). Re-fetched all four cited sources and confirmed every quote
-    verbatim: the Chemist Confessions quotes ("niacinamide is actually clinically
-    tested at 2% to 5%", "all the sebum-reducing, brightening, barrier-supporting
-    benefits of niacinamide", "higher doses will always increase the risk of skin
-    irritation even for the most seemingly vanilla ingredient", "niacinamide really
-    hit superstardom level with the Ordinary''s 10% Niacinamide serum", "you only
-    need 2%", "you only need 4%"), the manufacturer directions "Apply a few drop'
+  note: 'Cross-queue parallel drain (draft+critic). Ran sk lint (clean), sk style (clean), and sk verify
+    (only advisory "domain not on primary allowlist" WARNs, expected for a product page whose sources
+    are the manufacturer page and a cosmetic-chemist blog; no aggregators). Re-fetched all four cited
+    sources and confirmed every quote verbatim: the Chemist Confessions quotes ("niacinamide is actually
+    clinically tested at 2% to 5%", "all the sebum-reducing, brightening, barrier-supporting benefits
+    of niacinamide", "higher doses will always increase the risk of skin irritation even for the most
+    seemingly vanilla ingredient", "niacinamide really hit superstardom level with the Ordinary''s 10%
+    Niacinamide serum", "you only need 2%", "you only need 4%"), the manufacturer directions "Apply a
+    few drop'
 la-roche-posay:
   last_reviewed: '2026-07-28'
   score: 9
   verdict: publish
-  note: 'Cross-queue parallel drain (draft+critic). Ran lint (clean), style (clean),
-    and verify (clean apart from two advisory allowlist WARNs on the loreal-finance.com
-    PDFs, which are legitimate primary corporate filings for ownership/corporate facts).
-    Downloaded and text-extracted both cited PDFs and confirmed every quote VERBATIM
-    and every statistic EXACT: "1989 • La Roche-Posay" and 2018 "Thermes de la Roche-Posay"
-    in the acquisitions list; "Acquisition of the thermal centre La Societe des Thermes
-    de La Roche-Posay"; division goal "to provide sustainable and life-changing dermatological
-    solutions"; brand list (La Roche-Posay, CeraVe, Vichy, SkinCeuticals, Skinbetter
-    Science); Melasyl''s "18 years of research in the Group''s laboratories", "Validated
-    by more than 121 scientific studies", "h'
+  note: 'Cross-queue parallel drain (draft+critic). Ran lint (clean), style (clean), and verify (clean
+    apart from two advisory allowlist WARNs on the loreal-finance.com PDFs, which are legitimate primary
+    corporate filings for ownership/corporate facts). Downloaded and text-extracted both cited PDFs and
+    confirmed every quote VERBATIM and every statistic EXACT: "1989 • La Roche-Posay" and 2018 "Thermes
+    de la Roche-Posay" in the acquisitions list; "Acquisition of the thermal centre La Societe des Thermes
+    de La Roche-Posay"; division goal "to provide sustainable and life-changing dermatological solutions";
+    brand list (La Roche-Posay, CeraVe, Vichy, SkinCeuticals, Skinbetter Science); Melasyl''s "18 years
+    of research in the Group''s laboratories", "Validated by more than 121 scientific studies", "h'
 the-ordinary:
   last_reviewed: '2026-07-28'
   score: 9
   verdict: publish
-  note: 'Cross-queue parallel drain (draft+critic). Ran lint (clean), style (clean),
-    and verify (clean apart from a pre-existing advisory WARN that theordinary.com
-    is not on the primary allowlist; I fetched it and confirmed it is cited only for
-    the brand''s own attributed positioning claims, which the writing guide permits).
-    I re-fetched all four sources and confirmed every quote verbatim and every statistic
-    exact and correctly directioned: SEC 8-K Feb 2021 ("founded in 2013 by the late
-    Brandon Truaxe," "Founder, Pasquale Cusano and Co-Founder, Nicola Kilner," "The
-    Abnormal Beauty Company," "initial investment in June 2017," "from approximately
-    29% to approximately 76%," "$1.0 billion," "$2.2 billion" enterprise value, "$460
-    million" net sales for the 12 months ended Jan 31 2021, "six brands"'
+  note: 'Cross-queue parallel drain (draft+critic). Ran lint (clean), style (clean), and verify (clean
+    apart from a pre-existing advisory WARN that theordinary.com is not on the primary allowlist; I fetched
+    it and confirmed it is cited only for the brand''s own attributed positioning claims, which the writing
+    guide permits). I re-fetched all four sources and confirmed every quote verbatim and every statistic
+    exact and correctly directioned: SEC 8-K Feb 2021 ("founded in 2013 by the late Brandon Truaxe," "Founder,
+    Pasquale Cusano and Co-Founder, Nicola Kilner," "The Abnormal Beauty Company," "initial investment
+    in June 2017," "from approximately 29% to approximately 76%," "$1.0 billion," "$2.2 billion" enterprise
+    value, "$460 million" net sales for the 12 months ended Jan 31 2021, "six brands"'
 paulas-choice:
   last_reviewed: '2026-07-28'
   score: 9
   verdict: publish
-  note: 'Cross-queue parallel drain (draft+critic). Ran sk lint (clean), sk style
-    (clean), sk verify (exit 2, only two advisory "verify manually" domain WARNs for
-    ta.com and paulaschoice.com — no new failures). Re-fetched all three sources and
-    confirmed every quote verbatim and every statistic exact and correctly directioned:
-    TA Associates press release ("signing of a definitive agreement to sell Paula''s
-    Choice", "expected to close in the third quarter of 2021", terms "were not disclosed",
-    "Founded more than 25 years ago by one of the original beauty influencers", "one
-    of the largest digitally native beauty brands in the world", "a methodically curated
-    product offering", "global direct-to consumer", the Begoun/Poseley/Petrou quotes
-    all match); Unilever 2021 Form 20-F on SEC EDGAR (2 Aug 2021'
+  note: 'Cross-queue parallel drain (draft+critic). Ran sk lint (clean), sk style (clean), sk verify (exit
+    2, only two advisory "verify manually" domain WARNs for ta.com and paulaschoice.com — no new failures).
+    Re-fetched all three sources and confirmed every quote verbatim and every statistic exact and correctly
+    directioned: TA Associates press release ("signing of a definitive agreement to sell Paula''s Choice",
+    "expected to close in the third quarter of 2021", terms "were not disclosed", "Founded more than 25
+    years ago by one of the original beauty influencers", "one of the largest digitally native beauty
+    brands in the world", "a methodically curated product offering", "global direct-to consumer", the
+    Begoun/Poseley/Petrou quotes all match); Unilever 2021 Form 20-F on SEC EDGAR (2 Aug 2021'
 beauty-of-joseon:
   last_reviewed: '2026-07-28'
   score: 9
   verdict: publish
-  note: 'Cross-queue parallel drain (draft+critic). Ran lint (clean), style (clean),
-    and verify (only the expected non-primary-allowlist WARNs for beautyofjoseon.com,
-    dart.fss.or.kr, and consumerreports.org — all appropriate for a brand page and
-    manually verified). Re-fetched every cited source. Consumer Reports [^4]: the
-    quote "all three Korean formulas provided better protection than their U.S. counterparts"
-    is verbatim; the stats are exact and correctly directioned (Korean Relief Sun
-    avg tested SPF 36 vs US Day Dew Sunscreen SPF 50 avg 19), and CR''s top-of-scale
-    UVA/UVB ratings (5/5) and the US-counterpart product name are confirmed. Brand
-    site [^1]/[^2]: tagline "Inspired By Hanbang. Connected by Community.", description
-    "Authentic Hanbang Korean Skincare Products", the seven-botanical s'
+  note: 'Cross-queue parallel drain (draft+critic). Ran lint (clean), style (clean), and verify (only
+    the expected non-primary-allowlist WARNs for beautyofjoseon.com, dart.fss.or.kr, and consumerreports.org
+    — all appropriate for a brand page and manually verified). Re-fetched every cited source. Consumer
+    Reports [^4]: the quote "all three Korean formulas provided better protection than their U.S. counterparts"
+    is verbatim; the stats are exact and correctly directioned (Korean Relief Sun avg tested SPF 36 vs
+    US Day Dew Sunscreen SPF 50 avg 19), and CR''s top-of-scale UVA/UVB ratings (5/5) and the US-counterpart
+    product name are confirmed. Brand site [^1]/[^2]: tagline "Inspired By Hanbang. Connected by Community.",
+    description "Authentic Hanbang Korean Skincare Products", the seven-botanical s'
 van-zuuren-rosacea-cochrane:
   last_reviewed: '2026-07-28'
   score: 9
   verdict: publish
-  note: 'Cross-queue parallel drain (draft+critic). sk lint, sk style, and sk verify
-    all return clean. I re-fetched all four cited sources (PMC6481562 and PubMed 25919144
-    for the 2015 Cochrane review; PMC6850438 and PubMed 30585305 for the 2019 BJD
-    update) and confirmed every quotation verbatim and every statistic exact and correctly
-    directioned: the 2015 objective ("To assess the efficacy and safety of treatments
-    for rosacea"), 106 trials/13,631 participants, mean age 48.6, 67 comparisons,
-    the papulopustular quote, metronidazole RR 1.98 (1.29-3.02, 3 trials), azelaic
-    acid RR 1.46 (1.30-1.63, 4 trials), ivermectin RR 1.78 (1.50-2.11) and 1.92 (1.59-2.32),
-    doxycycline RR 1.59 (1.02-2.47) and 2.37 (1.12-4.99), 40mg-vs-100mg AE RR 0.25
-    (0.11-0.54), isotretinoin RR 1.23 (1.05-1.43) and 1.18 (1.0'
+  note: 'Cross-queue parallel drain (draft+critic). sk lint, sk style, and sk verify all return clean.
+    I re-fetched all four cited sources (PMC6481562 and PubMed 25919144 for the 2015 Cochrane review;
+    PMC6850438 and PubMed 30585305 for the 2019 BJD update) and confirmed every quotation verbatim and
+    every statistic exact and correctly directioned: the 2015 objective ("To assess the efficacy and safety
+    of treatments for rosacea"), 106 trials/13,631 participants, mean age 48.6, 67 comparisons, the papulopustular
+    quote, metronidazole RR 1.98 (1.29-3.02, 3 trials), azelaic acid RR 1.46 (1.30-1.63, 4 trials), ivermectin
+    RR 1.78 (1.50-2.11) and 1.92 (1.59-2.32), doxycycline RR 1.59 (1.02-2.47) and 2.37 (1.12-4.99), 40mg-vs-100mg
+    AE RR 0.25 (0.11-0.54), isotretinoin RR 1.23 (1.05-1.43) and 1.18 (1.0'
 yamasaki-2007-cathelicidin-rosacea:
   last_reviewed: '2026-07-28'
   score: 9
   verdict: publish
-  note: Cross-queue parallel drain (draft+critic). Ran sk lint (clean), sk style (clean),
-    and sk verify (only an advisory WARN that Europe PMC in [^3] is not on the primary-source
-    allowlist; I cleared it manually — the grant numbers it sources, NIAMS R01-AR45676
-    and NIAID R01-AI052453, are independently confirmed on the PubMed record). Re-fetched
-    the Nature Medicine 2007 abstract (PMID 17676051) and confirmed all six quoted
-    phrases verbatim ("affects 3% of the US population over 30 years of age"; "individuals
-    with rosacea express abnormally high levels of cathelicidin in their facial skin";
-    "the proteolytically processed forms of cathelicidin peptides found in rosacea
-    are different"; "an increase in stratum corneum tryptic enzyme (SCTE) in the epidermis";
-    "verified in mice with a targeted d
+  note: Cross-queue parallel drain (draft+critic). Ran sk lint (clean), sk style (clean), and sk verify
+    (only an advisory WARN that Europe PMC in [^3] is not on the primary-source allowlist; I cleared it
+    manually — the grant numbers it sources, NIAMS R01-AR45676 and NIAID R01-AI052453, are independently
+    confirmed on the PubMed record). Re-fetched the Nature Medicine 2007 abstract (PMID 17676051) and
+    confirmed all six quoted phrases verbatim ("affects 3% of the US population over 30 years of age";
+    "individuals with rosacea express abnormally high levels of cathelicidin in their facial skin"; "the
+    proteolytically processed forms of cathelicidin peptides found in rosacea are different"; "an increase
+    in stratum corneum tryptic enzyme (SCTE) in the epidermis"; "verified in mice with a targeted d
 makrgeorgou-2018-probiotics-eczema:
   last_reviewed: '2026-07-28'
   score: 9
   verdict: publish
-  note: 'Cross-queue parallel drain (draft+critic). sk lint, sk style, and sk verify
-    all return clean. I re-fetched all three cited sources (PMC6517242 full text,
-    PubMed 30480774, and the Cochrane plain-language summary) and confirmed every
-    statistic is exact and correctly directioned: 39 trials / 2599 participants, searches
-    to January 2017, age first year to 55 with only 6 adult studies; patient-rated
-    symptoms MD -0.44 (95% CI -1.22 to 0.33, 0-20 scale, moderate-quality, correctly
-    described as crossing zero); quality of life SMD 0.03 (95% CI -0.36 to 0.42, low);
-    total SCORAD MD -3.91 (95% CI -5.86 to -1.96, 0-103 scale, low, correctly noted
-    as statistically significant but below the 8.7-point MCID); adverse events RR
-    1.54 (95% CI 0.90 to 2.63, low, correctly noted as crossing 1.0); funding '
+  note: 'Cross-queue parallel drain (draft+critic). sk lint, sk style, and sk verify all return clean.
+    I re-fetched all three cited sources (PMC6517242 full text, PubMed 30480774, and the Cochrane plain-language
+    summary) and confirmed every statistic is exact and correctly directioned: 39 trials / 2599 participants,
+    searches to January 2017, age first year to 55 with only 6 adult studies; patient-rated symptoms MD
+    -0.44 (95% CI -1.22 to 0.33, 0-20 scale, moderate-quality, correctly described as crossing zero);
+    quality of life SMD 0.03 (95% CI -0.36 to 0.42, low); total SCORAD MD -3.91 (95% CI -5.86 to -1.96,
+    0-103 scale, low, correctly noted as statistically significant but below the 8.7-point MCID); adverse
+    events RR 1.54 (95% CI 0.90 to 2.63, low, correctly noted as crossing 1.0); funding '
 hyperpigmentation:
   last_reviewed: '2026-07-28'
   score: 9
   verdict: publish
-  note: 'Cross-queue parallel drain (draft+critic). Ran lint, style, verify: all three
-    clean before and after my edits. Re-fetched all 7 cited sources and confirmed
-    every quote verbatim and every statistic exact and correctly directioned: Handel
-    2014 (all 10 items incl. "irregular brown macules symmetrically distributed on
-    sun-exposed areas," "affects mainly women," "chronic acquired hypermelanosis of
-    the skin," "directly induces the increase of melanogenic activity," 40%+ family
-    history, 57,343 diagnoses / 8.4% / third largest / 5.9-9.1%, 1,500 adults / 23.6%
-    men / 29.9% women, "improves in the winter and worsens in the summer," Fitzpatrick
-    III-V, Wood''s lamp 340-400nm); Davis & Callender 2010 (all 5 PIH quotes verbatim);
-    Liu 2021 (59 RCTs, 14 therapies, HQ 13th/14, 18.2% AE rate, TCC "the '
+  note: 'Cross-queue parallel drain (draft+critic). Ran lint, style, verify: all three clean before and
+    after my edits. Re-fetched all 7 cited sources and confirmed every quote verbatim and every statistic
+    exact and correctly directioned: Handel 2014 (all 10 items incl. "irregular brown macules symmetrically
+    distributed on sun-exposed areas," "affects mainly women," "chronic acquired hypermelanosis of the
+    skin," "directly induces the increase of melanogenic activity," 40%+ family history, 57,343 diagnoses
+    / 8.4% / third largest / 5.9-9.1%, 1,500 adults / 23.6% men / 29.9% women, "improves in the winter
+    and worsens in the summer," Fitzpatrick III-V, Wood''s lamp 340-400nm); Davis & Callender 2010 (all
+    5 PIH quotes verbatim); Liu 2021 (59 RCTs, 14 therapies, HQ 13th/14, 18.2% AE rate, TCC "the '
 shereene-idriss:
   last_reviewed: '2026-07-28'
   score: 9
   verdict: publish
-  note: Cross-queue parallel drain (draft+critic). Ran lint (clean), style (clean),
-    and verify (only the expected non-primary-domain notes for the practice/brand
-    pages, which are used correctly as attributed official-bio sources on a person
-    page). Re-fetched all six sources. NPI record 1295969624 confirms M.D., primary
-    Dermatology taxonomy, NY license 269568, sole proprietor, 2009-05-13 enumeration,
-    and the "IDRISS DERMATOLOGY" business name at 80 W 40th St. All idrissderm.com
-    quotes (AAD fellowship, ASDS and Dermatologic Society of Greater New York, "followed
-    by a four-year residency at Tufts Medical Center in Boston," the 2018 PillowtalkDerm
-    line, "to over 3 million followers across social platforms," 2022 Sephora launch)
-    and the home-page "Every single treatment at our practice is perfor
+  note: Cross-queue parallel drain (draft+critic). Ran lint (clean), style (clean), and verify (only the
+    expected non-primary-domain notes for the practice/brand pages, which are used correctly as attributed
+    official-bio sources on a person page). Re-fetched all six sources. NPI record 1295969624 confirms
+    M.D., primary Dermatology taxonomy, NY license 269568, sole proprietor, 2009-05-13 enumeration, and
+    the "IDRISS DERMATOLOGY" business name at 80 W 40th St. All idrissderm.com quotes (AAD fellowship,
+    ASDS and Dermatologic Society of Greater New York, "followed by a four-year residency at Tufts Medical
+    Center in Boston," the 2018 PillowtalkDerm line, "to over 3 million followers across social platforms,"
+    2022 Sephora launch) and the home-page "Every single treatment at our practice is perfor
 octocrylene:
   last_reviewed: '2026-07-28'
   score: 9
   verdict: publish
-  note: 'Sunscreen filter (drain revise, resolved). Critic verified 6/7 sources verbatim;
-    the one blocker was an octocrylene-endocrine claim mis-attributed to the FDA rule
-    (found there on oxybenzone, not octocrylene). Fixed: dropped the FDA endocrine
-    attribution and the unverifiable ''None of these 10'' verbatim quote; the endocrine
-    concern now attaches only to benzophenone via the verified Downs 2021 (whose ''endocrine
-    disruptor'' characterization is noted as disputed). lint/style/verify clean.'
+  note: 'Sunscreen filter (drain revise, resolved). Critic verified 6/7 sources verbatim; the one blocker
+    was an octocrylene-endocrine claim mis-attributed to the FDA rule (found there on oxybenzone, not
+    octocrylene). Fixed: dropped the FDA endocrine attribution and the unverifiable ''None of these 10''
+    verbatim quote; the endocrine concern now attaches only to benzophenone via the verified Downs 2021
+    (whose ''endocrine disruptor'' characterization is noted as disputed). lint/style/verify clean.'
 the-ordinary-azelaic-acid-suspension-10:
   last_reviewed: '2026-07-28'
   score: 9
   verdict: publish
-  note: The Ordinary Azelaic 10% (drain revise, resolved). Category-vs-product done
-    well (10% cosmetic below the 15-20% studied strengths, inferred not shown; but
-    the cheapest way to try azelaic, ~$12/30ml). All load-bearing quotes verified
-    (Rachel Ho review, price, AZELEX/FINACEA indications). The one unverifiable item
-    was an Allure Ava Shamban verbatim quote (paywalled); dropped it, keeping the
-    attributed 'budget pick' listing. lint/style/verify clean.
+  note: The Ordinary Azelaic 10% (drain revise, resolved). Category-vs-product done well (10% cosmetic
+    below the 15-20% studied strengths, inferred not shown; but the cheapest way to try azelaic, ~$12/30ml).
+    All load-bearing quotes verified (Rachel Ho review, price, AZELEX/FINACEA indications). The one unverifiable
+    item was an Allure Ava Shamban verbatim quote (paywalled); dropped it, keeping the attributed 'budget
+    pick' listing. lint/style/verify clean.
 paulas-choice-skin-perfecting-2-bha:
   last_reviewed: '2026-07-28'
   score: 9
   verdict: publish
-  note: Paula's Choice 2% BHA (drain revise, resolved). Category-vs-product done (salicylic
-    acid a genuine but second-tier acne active per AAD, below BPO/retinoids; product
-    is a faithful minimal 2% at pH 3.5, most-awarded, mid-priced $37). The unverifiable
-    Marie Claire verbatim quote was de-quoted to the attributed award fact; the Allure
-    Readers'-Choice win kept as an attributed award. lint/style/verify clean.
+  note: Paula's Choice 2% BHA (drain revise, resolved). Category-vs-product done (salicylic acid a genuine
+    but second-tier acne active per AAD, below BPO/retinoids; product is a faithful minimal 2% at pH 3.5,
+    most-awarded, mid-priced $37). The unverifiable Marie Claire verbatim quote was de-quoted to the attributed
+    award fact; the Allure Readers'-Choice win kept as an attributed award. lint/style/verify clean.
 bisoctrizole:
   last_reviewed: '2026-07-28'
   score: 9
   verdict: publish
-  note: Bisoctrizole / Tinosorb M (drain revise, resolved). Critic verified all journal/FDA/EU
-    sources verbatim; the only blocker was 4 Akintilo JDD quotes it couldn't re-fetch
-    (paywalled) - these are the SAME quotes already verified against full text on
-    [[sunscreen-uv-filters]] (footnote so annotated) and the substance (modern UVA
-    filter standard abroad, outside the US monograph, bemotrizinol added 2026 not
-    bisoctrizole) is independently corroborated by the verified FDA rules + Herzog/Hojerova.
+  note: Bisoctrizole / Tinosorb M (drain revise, resolved). Critic verified all journal/FDA/EU sources
+    verbatim; the only blocker was 4 Akintilo JDD quotes it couldn't re-fetch (paywalled) - these are
+    the SAME quotes already verified against full text on [[sunscreen-uv-filters]] (footnote so annotated)
+    and the substance (modern UVA filter standard abroad, outside the US monograph, bemotrizinol added
+    2026 not bisoctrizole) is independently corroborated by the verified FDA rules + Herzog/Hojerova.
     lint/style/verify clean.
 oily-skin:
   last_reviewed: '2026-07-28'
   score: 9
   verdict: publish
-  note: 'Oily-skin condition page (user request; anchor for the sebum theme). Opens
-    with the layperson ''How to know you have this'' (midday shine/T-zone, makeup
-    sliding, blotting test), cited. Cleanly separates HEALTH (durable sebum-production
-    reduction: isotretinoin ~88-90% drop with partial recovery; anti-androgens/COC
-    per Katz; retinoids honestly hedged ''yet to exclusively illustrate... sebosuppressive'';
-    niacinamide; azelaic/salicylic) from COSMETIC surface/matte options, stating only
-    isotretinoin durably lowers production; includes green-tea EGCG (Detudom) and
-    K-beauty angle. Critic re-fetched all 10 sources verbatim/exact; applied 2 voice
-    fixes (removed a self-reference + a quarantine-imperative). lint/style/verify
-    clean.'
+  note: 'Oily-skin condition page (user request; anchor for the sebum theme). Opens with the layperson
+    ''How to know you have this'' (midday shine/T-zone, makeup sliding, blotting test), cited. Cleanly
+    separates HEALTH (durable sebum-production reduction: isotretinoin ~88-90% drop with partial recovery;
+    anti-androgens/COC per Katz; retinoids honestly hedged ''yet to exclusively illustrate... sebosuppressive'';
+    niacinamide; azelaic/salicylic) from COSMETIC surface/matte options, stating only isotretinoin durably
+    lowers production; includes green-tea EGCG (Detudom) and K-beauty angle. Critic re-fetched all 10
+    sources verbatim/exact; applied 2 voice fixes (removed a self-reference + a quarantine-imperative).
+    lint/style/verify clean.'
 niacinamide-sebum-studies:
   last_reviewed: '2026-07-28'
   score: 9
   verdict: publish
-  note: 'Detailed lay summary of the topical-niacinamide-and-sebum RCT evidence (grouped:
-    the 100-Japanese 2% niacinamide SER study + the 30-Caucasian split-face SER/CSL
-    study). Explains SER vs CSL in plain terms, honestly states the abstract doesn''t
-    give reduction magnitudes (and doesn''t invent them), separates cosmetic shine
-    from acne, flags small/short samples. Critic verified all 7 quotes verbatim; lint/style/verify
-    clean.'
+  note: 'Detailed lay summary of the topical-niacinamide-and-sebum RCT evidence (grouped: the 100-Japanese
+    2% niacinamide SER study + the 30-Caucasian split-face SER/CSL study). Explains SER vs CSL in plain
+    terms, honestly states the abstract doesn''t give reduction magnitudes (and doesn''t invent them),
+    separates cosmetic shine from acne, flags small/short samples. Critic verified all 7 quotes verbatim;
+    lint/style/verify clean.'
 isotretinoin-sebum-suppression:
   last_reviewed: '2026-07-28'
   score: 9
   verdict: publish
-  note: 'Detailed lay summary of isotretinoin''s sebum suppression (Goldstein: 88.4%
-    sebum decrease, partial recovery by 32wk; Strauss: durability to 30-80wk; King/Cunliffe
-    dose-response; Accutane label). Foregrounds the acne (health) mechanism, labels
-    reduced oiliness a secondary consequence, and frames it as the strongest known
-    oil lever but a systemic drug with a serious risk/monitoring profile decided with
+  note: 'Detailed lay summary of isotretinoin''s sebum suppression (Goldstein: 88.4% sebum decrease, partial
+    recovery by 32wk; Strauss: durability to 30-80wk; King/Cunliffe dose-response; Accutane label). Foregrounds
+    the acne (health) mechanism, labels reduced oiliness a secondary consequence, and frames it as the
+    strongest known oil lever but a systemic drug with a serious risk/monitoring profile decided with
     a clinician. Critic verified all quotes/stats verbatim; clean.'
 cosrx-oil-free-ultra-moisturizing-lotion-birch-sap:
   last_reviewed: '2026-07-28'
   score: 9
   verdict: publish
-  note: Korean oil-free/birch-sap moisturizer for oily/combination skin. Category-vs-product
-    done; health-vs-cosmetic honest (oil-free hydration does NOT reduce sebum production,
-    it avoids adding to the greasy feel). Critic verdict publish. lint/style/verify
-    clean.
+  note: Korean oil-free/birch-sap moisturizer for oily/combination skin. Category-vs-product done; health-vs-cosmetic
+    honest (oil-free hydration does NOT reduce sebum production, it avoids adding to the greasy feel).
+    Critic verdict publish. lint/style/verify clean.
 innisfree-no-sebum-mineral-powder:
   last_reviewed: '2026-07-28'
   score: 9
   verdict: publish
-  note: 'Korean sebum-absorbing loose setting powder. Category-vs-product + health-vs-cosmetic
-    done well: effect NONE for sebum production, cosmetic-only surface mattifying
-    (silica/starch). Critic''s only blocker was a broken [[silica]] xref; resolved
-    by creating the silica stub. Price corrected by critic ($19/10g jumbo). All sources
-    verbatim; lint/style/verify clean.'
+  note: 'Korean sebum-absorbing loose setting powder. Category-vs-product + health-vs-cosmetic done well:
+    effect NONE for sebum production, cosmetic-only surface mattifying (silica/starch). Critic''s only
+    blocker was a broken [[silica]] xref; resolved by creating the silica stub. Price corrected by critic
+    ($19/10g jumbo). All sources verbatim; lint/style/verify clean.'
 la-roche-posay-toleriane-hydrating-gentle-cleanser:
   last_reviewed: '2026-07-28'
   score: 9
   verdict: publish
-  note: 'LRP Toleriane Hydrating Gentle Cleanser (Cleansers). Results-first, health-led
-    (low-foam, sulfate-free, single amphoteric surfactant that cleans without stripping
-    the barrier; ceramide NP + niacinamide + panthenol + prebiotic thermal water).
-    Category-vs-product: category = gentle low-pH/syndet cleansing is better tolerated
-    on sensitive skin (Baranda 2002, pH-vs-irritation P<0.006), linked out to [[moisturizing]]/[[ceramides]];
+  note: 'LRP Toleriane Hydrating Gentle Cleanser (Cleansers). Results-first, health-led (low-foam, sulfate-free,
+    single amphoteric surfactant that cleans without stripping the barrier; ceramide NP + niacinamide
+    + panthenol + prebiotic thermal water). Category-vs-product: category = gentle low-pH/syndet cleansing
+    is better tolerated on sensitive skin (Baranda 2002, pH-vs-irritation P<0.006), linked out to [[moisturizing]]/[[ceramides]];
     product = a well-rounded fragrance-free gentle cleanser vs named peers [[cerave-hydrating-facial-cleanser]]/[[cetaphil-gentle-skin-cleanser]].
-    Editorial credibility quoted from NYT Wirecutter (''Best for dry skin''; ''without
-    robbing skin of precious moisture''; balanced with the ''more dutiful than beautiful''/''weak
-    suds'' criticism); anonymous brand blurb (Dr. Anna Karp) correctly declined. Grades
-    health-first (cleansing modest/mixed; barrier-deposit minimal/mixed with the rinse-off
-    caveat; cosmetic feel labeled). Price $19.99/400ml attributed as listed. 4-photo
-    side rail (LRP/Amazon/Target). Critic publish; orchestrator re-verified all Wirecutter
-    quotes verbatim via curl (incl. ''a mere 19 ingredients'' matching the INCI).
-    lint/style/verify clean.'
+    Editorial credibility quoted from NYT Wirecutter (''Best for dry skin''; ''without robbing skin of
+    precious moisture''; balanced with the ''more dutiful than beautiful''/''weak suds'' criticism); anonymous
+    brand blurb (Dr. Anna Karp) correctly declined. Grades health-first (cleansing modest/mixed; barrier-deposit
+    minimal/mixed with the rinse-off caveat; cosmetic feel labeled). Price $19.99/400ml attributed as
+    listed. 4-photo side rail (LRP/Amazon/Target). Critic publish; orchestrator re-verified all Wirecutter
+    quotes verbatim via curl (incl. ''a mere 19 ingredients'' matching the INCI). lint/style/verify clean.'
+some-by-mi-yuja-niacin-serum:
+  last_reviewed: '2026-07-28'
+  score: 9
+  verdict: publish
+  note: 'Held blocker cleared. Apify rag-web-browser re-fetched the two anti-bot retailer sources that
+    had 403d: iHerb page verbatim-confirms "combines 10% niacinamide and 83% yuja extract", "citrus junos
+    peel oil (293.1 ppm)", and 4.6/5 across 2,454 reviews; Stylevana confirms price $19.70 (Was $28.05).
+    iHerb hides its price under MAP restrictions, so the price is re-attributed to Stylevana and the unverifiable
+    $23 iHerb upper bound removed. Niacinamide science rests on [[niacinamide]] (already verified). lint+style
+    clean; verify WARNs are retailer domains off the primary allowlist (expected for product identity/price).'
