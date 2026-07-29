@@ -255,13 +255,22 @@ cos-de-baha-az20-azelaic-acid-20-serum:
     (cite FINACEA); created 2 See Also comparator stubs. Self-hosted image. lint/style
     clean.'
 anua-azelaic-acid-serum:
-  last_reviewed: '2026-07-27'
+  last_reviewed: '2026-07-28'
   score: 8
-  verdict: publish
-  note: 'Anua Azelaic Acid 10 serum; 10% azelaic (half trial strength), both uses
-    minimal/preliminary; caught marketed ''Blue Tansy Oil'' absent from INCI. Critic
-    FLAG->fixed: removed a non-verbatim ''3 Types of HA'' quote and a melasma-vs-HQ
-    stat mis-cited to FDA labels (deferred to azelaic-acid). Self-hosted image.'
+  verdict: revise
+  note: 'Re-review. All 4 sources re-fetched and verified: every quote verbatim
+    (Formulated with 10% Azelaic Acid; naturally derived green tint / instantly
+    soothe irritated skin and redness; Gentle Calming Complex including Cica and
+    Blue Tansy Oil; Non-comedogenic, Low-Irritation), INCI matches exactly (azelaic
+    2nd, niacinamide 19th), blue-tansy-absent-from-INCI claim confirmed, AZELEX 20%
+    cream/acne and FINACEA 15% gel/rosacea + 1995 active-moiety approval confirmed
+    on DailyMed. Load-bearing dims (D1-D4) clean. Fix applied: replaced two em-dash
+    connectors in footnotes [^3]/[^4] with periods (lint+verify+style stayed clean).
+    Structural/standard gaps (not reworked here, escalated): no results-first
+    ##Summary, no explicit category-vs-product framing (azelaic category is strong;
+    page leads with under-strength 10% caveat without balancing positives), no
+    approximate price, single bare-string photo. Escalated 2 items to
+    review-feedback.yaml (structure rework pri5, photos pri4).'
 beauty-of-joseon-light-on-serum-centella-vita-c:
   last_reviewed: '2026-07-27'
   score: 9

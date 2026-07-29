@@ -77,5 +77,5 @@ Other azelaic acid options: [[the-ordinary-azelaic-acid-suspension-10|The Ordina
 
 [^1]: Anua US. Azelaic Acid 10 Hyaluron Redness Soothing Serum, official product page (product name, "Formulated with 10% Azelaic Acid," testing results, and declared ingredient list). https://anua.com/products/azelaic-acid-10-hyaluron-redness-soothing-serum (accessed 2026-07-27)
 [^2]: Olive Young US. Anua Azelaic Acid 10 Hyaluron Redness Soothing Serum 1.01 fl. oz. (30ml) product listing and INCI ingredient list. https://us.oliveyoung.com/products/UA76124836 (accessed 2026-07-27)
-[^3]: AZELEX (azelaic acid) Cream, 20% — FDA prescribing information (DailyMed), initial U.S. approval 1995. https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ebdfcaf7-b5d6-47e1-be87-ccaba4b97e75 (accessed 2026-07-27)
-[^4]: FINACEA (azelaic acid) Gel, 15% — FDA prescribing information (DailyMed), initial U.S. approval 1995. https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9f40cd45-58a6-4376-9220-84bfe7d7e358 (accessed 2026-07-27)
+[^3]: AZELEX (azelaic acid) Cream, 20%. FDA prescribing information (DailyMed), initial U.S. approval 1995. https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ebdfcaf7-b5d6-47e1-be87-ccaba4b97e75 (accessed 2026-07-27)
+[^4]: FINACEA (azelaic acid) Gel, 15%. FDA prescribing information (DailyMed), initial U.S. approval 1995. https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9f40cd45-58a6-4376-9220-84bfe7d7e358 (accessed 2026-07-27)

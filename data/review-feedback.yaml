@@ -229,3 +229,32 @@
   priority: 6
   added: '2026-07-28'
   status: pending
+- slug: anua-azelaic-acid-serum
+  dimension: D5/structure
+  issue: Pre-current-standard page. No results-first '## Summary' section (only a
+    standfirst + one blockquote), and no explicit category-vs-product framing. Per
+    the writing guide, azelaic acid's category evidence is strong (FDA-approved for
+    acne and rosacea), so the page should say that plainly up front, then separately
+    note this is a lower-strength (labeled 10%) but standard-OTC, inexpensive,
+    fragrance-free K-beauty formulation; the current draft leads almost entirely
+    with the under-strength framing and does not credit the product's positives.
+    No approximate price is stated anywhere (Where to Buy lists SKUs but no price).
+  suggested_fix: Rework to the current standard - add a '## Summary' (what it is /
+    who for / how studied / good-at vs not / approximate price sourced to a SKU),
+    and add explicit category-verdict-vs-product-verdict framing per writing-guide
+    rule 3. Keep the honest 10%-vs-Rx-strength caveat but balance it. Separate task,
+    not an inline fix.
+  priority: 5
+  added: '2026-07-28'
+  status: pending
+- slug: anua-azelaic-acid-serum
+  dimension: D5/photos
+  issue: Only one product image (bare-string 'anua-azelaic-acid-serum.jpg'). Writing
+    guide wants several photos of this exact SKU from various sites (manufacturer +
+    2+ retailers) with source/source_url provenance mappings.
+  suggested_fix: Gather and self-host a handful of real photos of this SKU (Anua US,
+    Ulta, Olive Young US) as images mappings with source/source_url, and confirm the
+    built page renders each.
+  priority: 4
+  added: '2026-07-28'
+  status: pending
