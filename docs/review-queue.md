@@ -15,6 +15,10 @@ grades, side-rail photos, no imperatives):
 
 **Ingredient hubs:** vitamin-c · probiotics (topical + ingested)
 
+**Ingredients filled in the parallel drain (18, published):** ceramides · niacinamide · hyaluronic-acid ·
+glycerin · zinc-oxide · colloidal-oatmeal · ferulic-acid · retinol · peptides · bakuchiol · centella-asiatica ·
+ascorbic-acid-vitamin-c · salicylic-acid · hydroquinone · tranexamic-acid · avobenzone · snail-secretion-filtrate · copper-peptides
+
 **Goal / condition / study drafts now clearing to publish:** anti-aging · glass-skin · acne ·
 rosacea (+ rosacea-erythematotelangiectatic, rosacea-papulopustular) · skin-barrier-strengthening ·
 skin-barrier-repair · van-zuuren-2017 study · cerave (brand) · samantha-ellis (person)
