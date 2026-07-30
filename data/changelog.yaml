@@ -2,6 +2,10 @@
 # Newest entries at the TOP. Append with: sk log "message" [--slug SLUG] [--date YYYY-MM-DD]
 # Rendered to _site/whats-new.html (footer link).
 
+- date: '2026-07-30'
+  title: 'Filled in the silica page: an inert mineral that absorbs surface oil for a matte finish (cosmetic,
+    not sebum control).'
+  slug: silica
 - date: '2026-07-29'
   title: 'Started a research library: 39 study stubs (PMID-verified), 15 skincare experts, and 10 best-of
     / routine lists to cross-reference.'

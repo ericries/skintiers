@@ -960,3 +960,15 @@ anti-aging-perimenopause:
     verbatim-unchanged from the verified parent. Brackets HRT/topical estrogen as context, not as linked
     object pages (per the non-topical "later phase, don''t link" scope rule). Links back to [[anti-aging]]
     for the foundation. Footnote integrity verified; lint+verify+style+voice clean.'
+silica:
+  last_reviewed: '2026-07-30'
+  score: 9
+  verdict: publish
+  note: 'Ingredient stub filled (daily ingredient cron; Sonnet draft + Opus critic). Opus re-fetched all
+    4 sources (CIR amorphous-silica safety assessment incl. the free Final Report PDF, IARC crystalline-silica
+    monograph, Bamford 2021 powder study, Becker 2013 silylate assessment) and verified every quote/stat
+    verbatim. Applied the critic fixes: dropped an unsupported flashback->silica-silylate causal claim
+    (Bamford supports only "some brands seek silica-free powders"); removed a stray comma from the IARC
+    amorphous quote; trimmed process-narration from the CIR footnote and pointed it at the free full-text
+    PDF. Cosmetic/health separation correct throughout (absorbs surface oil, does not reduce sebum). lint+verify+style
+    clean.'

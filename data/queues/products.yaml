@@ -448,3 +448,9 @@
   status: pending
   discovered_from: skinceuticals-c-e-ferulic
   source: null
+- name: Innisfree No-Sebum Mineral Powder
+  type: product
+  priority: 5
+  status: done
+  discovered_from: null
+  source: https://pubmed.ncbi.nlm.nih.gov/40932354/
