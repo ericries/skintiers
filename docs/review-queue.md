@@ -77,3 +77,15 @@ Condition pages open with a layperson "How to know you have this". Photos = a si
 Separate the category verdict from the product verdict, and state both. On encountering a new study,
 create a stub study landing page (grouping similar studies is fine), then write a very detailed
 lay-audience summary. Conditions and Studies are top-level categories with their own queues.
+
+## Research library seeded 2026-07-29 (stubs to fill)
+Discovery workflow (Sonnet, grounded) + orchestrator verification seeded cross-referenceable stubs:
+- **39 study stubs** (`data/studies/`) — every PMID resolved + title/year cross-checked against NCBI (0 fabrications).
+  Clusters: acne systemic/hormonal (spironolactone SAFA, isotretinoin efficacy+psychiatric, COC, minocycline,
+  antibiotic resistance), retinoid/photoaging mechanism (Fisher 1996, Griffiths 1993, Weiss 1988, Kafi 2007),
+  sunscreen endpoints, pigmentation (cysteamine, kojic acid), barrier/eczema (filaggrin, ceramide, emollient-prevention).
+- **15 person stubs** (`data/people/`) — dermatologists (Draelos, Bowe, Lio, Shah, Friedman, Mahto), cosmetic chemists
+  (Wong/LabMuffin, Fu+Lu/Chemist Confessions, Romanowski, Dobos, Robinson, Ford), educators (Bankson, Rouleau).
+- **10 list stubs** (`data/lists/`) — 7 best-of (azelaic, vitamin C, gentle cleansers, ceramide moisturizers,
+  daily sunscreens, niacinamide, peptides) + 3 routines (minimal acne, rosacea-friendly, oily-skin Korean).
+Fill each with the detailed-lay-summary (studies) / full profile (people) / ranked tier-list (lists) convention.
