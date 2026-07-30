@@ -495,6 +495,17 @@ def set_status(path, status, mark_analyzed=False):
         frontmatter.dump(post, f)
 
 
+def set_assurance(path, level):
+    """Set the assurance level. A human 'reviewed' sign-off is never downgraded
+    by an automated caller (publish sets 'opus'; only a person confers 'reviewed')."""
+    post = frontmatter.load(path)
+    if post.get("assurance") == "reviewed":
+        return
+    post["assurance"] = level
+    with open(path, "wb") as f:
+        frontmatter.dump(post, f)
+
+
 import yaml as _yaml
 
 # Per-type queue storage. Each entity type gets its own prioritized list file

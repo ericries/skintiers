@@ -102,8 +102,14 @@ def cmd_publish(args):
         )
         return 1
     rc = _set_and_build(args.slug, "published", mark_analyzed=True)
-    if verdict != "publish" and getattr(args, "force", False):
-        print(f"WARN: force-published {args.slug} without a passing review")
+    if verdict == "publish":
+        # A passing critic review means the sources were independently re-verified.
+        path = sklib.find_profile(sklib.DATA_DIR, args.slug)
+        if path is not None:
+            sklib.set_assurance(path, "opus")
+    else:
+        if getattr(args, "force", False):
+            print(f"WARN: force-published {args.slug} without a passing review")
     return rc
 
 

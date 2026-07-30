@@ -32,3 +32,27 @@ def test_assurance_is_optional():
 
 def test_valid_assurance_constant_exposed():
     assert sklib.VALID_ASSURANCE == ("stub", "sonnet", "opus", "reviewed")
+
+
+def _write_profile(tmp_path, assurance=None):
+    import frontmatter
+    p = tmp_path / "x.md"
+    fm = "name: X\nslug: x\ntype: product\nstatus: draft\nupdated: 2026-07-29\n"
+    if assurance:
+        fm += f"assurance: {assurance}\n"
+    p.write_text(f"---\n{fm}---\n\nBody.\n")
+    return p
+
+
+def test_set_assurance_sets_level(tmp_path):
+    import frontmatter
+    p = _write_profile(tmp_path)
+    sklib.set_assurance(p, "opus")
+    assert frontmatter.load(p)["assurance"] == "opus"
+
+
+def test_set_assurance_preserves_human_reviewed(tmp_path):
+    import frontmatter
+    p = _write_profile(tmp_path, assurance="reviewed")
+    sklib.set_assurance(p, "opus")  # must not downgrade a human sign-off
+    assert frontmatter.load(p)["assurance"] == "reviewed"
