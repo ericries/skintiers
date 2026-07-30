@@ -987,3 +987,15 @@ maelove-the-glow-maker:
     + HuffPost + Chemist Confessions quotes verbatim. Category-vs-product discipline correct (general
     vitamin C evidence linked out; only product-specific evidence is a caveated formulator stability test).
     lint+verify+style clean.'
+skinceuticals:
+  last_reviewed: '2026-07-30'
+  score: 8
+  verdict: self-reviewed
+  note: 'Brand roll-up filled (daily brand cron; Sonnet draft + orchestrator self-check, no Opus critic
+    per the low-health-claim-type protocol; assurance=sonnet). Well-sourced from 7 real references (L''Oreal
+    2005 acquisition release + 2024 registration doc, SkinCeuticals corporate About/Heritage, PR Newswire
+    Pinnell obituary, JAAD tribute, Pinnell 2001 Derm Surg). Handled honestly: conflicting founding year
+    (1994 per L''Oreal vs 1997 per SkinCeuticals) reported both attributed; Sheldon Pinnell as "founding
+    scientist" distinguished from co-founders Alden Pinnell + Russell Moon; no unverified familial link
+    asserted. Marketing quarantined/linked out to the product page. lint+verify+style clean (verify WARNs
+    are corporate domains, expected).'

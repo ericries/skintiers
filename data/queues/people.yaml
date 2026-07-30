@@ -34,3 +34,9 @@
   status: done
   discovered_from: user request 2026-07-27
   source: https://www.youtube.com/@DrIdriss
+- name: Sheldon Pinnell
+  type: person
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://pubmed.ncbi.nlm.nih.gov/37619704/

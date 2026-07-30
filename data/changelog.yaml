@@ -3,6 +3,10 @@
 # Rendered to _site/whats-new.html (footer link).
 
 - date: '2026-07-30'
+  title: 'Added a SkinCeuticals brand page: the dermatologist-office antioxidant brand (L''Oreal-owned)
+    behind C E Ferulic.'
+  slug: skinceuticals
+- date: '2026-07-30'
   title: 'Filled in the Maelove Glow Maker page: a well-known budget alternative to SkinCeuticals C E
     Ferulic at ~1/6 the price.'
   slug: maelove-the-glow-maker

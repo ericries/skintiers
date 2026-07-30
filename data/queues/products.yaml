@@ -454,3 +454,9 @@
   status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/40932354/
+- name: SkinCeuticals Phloretin CF
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://www.lorealdermatologicalbeauty.com/skinceuticals/academic-heritage

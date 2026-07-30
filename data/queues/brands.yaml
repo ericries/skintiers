@@ -25,7 +25,7 @@
 - name: SkinCeuticals
   type: brand
   priority: 9
-  status: pending
+  status: done
   discovered_from: null
   source: null
 - name: Beauty of Joseon
