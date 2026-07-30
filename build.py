@@ -16,6 +16,7 @@ LISTINGS = (
     ("condition", "conditions", "Conditions"),
     ("goal", "goals", "Goals"),
     ("study", "studies", "Studies"),
+    ("list", "lists", "Lists"),
 )
 
 # High-level buckets for the Products index. Two are by product format

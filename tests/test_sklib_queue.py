@@ -12,6 +12,7 @@ def test_type_to_list_mapping_covers_all_types():
         "brand": "brands",
         "person": "people",
         "study": "studies",
+        "list": "lists",
     }
     # Inverse is consistent.
     for t, plural in sklib.TYPE_TO_LIST.items():
@@ -106,7 +107,7 @@ def test_type_autopublishes():
     assert sklib.type_autopublishes("goal") is True
     assert sklib.type_autopublishes("condition") is True
     assert sklib.AUTOPUBLISH_TYPES == {"product", "ingredient", "goal",
-                                       "condition", "brand", "person", "study"}
+                                       "condition", "brand", "person", "study", "list"}
 
 
 def _write_legacy(data_dir, items):

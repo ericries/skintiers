@@ -275,7 +275,7 @@ def main(argv=None):
     p_draft = sub.add_parser("draft")
     p_draft.add_argument("slug")
     p_draft.set_defaults(func=cmd_draft)
-    _TYPES = ("product", "ingredient", "condition", "goal", "brand", "person", "study")
+    _TYPES = ("product", "ingredient", "condition", "goal", "brand", "person", "study", "list")
     p_qa = sub.add_parser("queue-add")
     p_qa.add_argument("name")
     p_qa.add_argument("--type", required=True, choices=_TYPES)

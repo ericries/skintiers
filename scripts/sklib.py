@@ -15,8 +15,11 @@ ENTITY_TYPES = ("product", "ingredient", "condition", "goal")
 # and human-signed-off rather than auto-published. Valid in frontmatter; they are
 # cited roll-ups (a brand portfolio, a person's biography, a study writeup), not
 # graded like products/ingredients, so they carry no Rubric/Evidence structure.
-GATED_TYPES = ("brand", "person", "study")
+GATED_TYPES = ("brand", "person", "study", "list")
 PROFILE_TYPES = ENTITY_TYPES + GATED_TYPES
+# `list` is a curated collection that cross-references products/ingredients. Its
+# `kind` says what shape it is: a best-of ranking or a step-by-step routine.
+VALID_LIST_KIND = ("best-of", "routine")
 
 
 def load_profiles(data_dir):
@@ -128,6 +131,12 @@ def check_profile(metadata, content):
         errors.append(f"invalid status: {metadata['status']}")
     if metadata.get("assurance") and metadata["assurance"] not in VALID_ASSURANCE:
         errors.append(f"invalid assurance: {metadata['assurance']} (must be one of {VALID_ASSURANCE})")
+    if metadata.get("type") == "list":
+        kind = metadata.get("kind")
+        if not kind:
+            errors.append("list requires a 'kind' field (one of {})".format(VALID_LIST_KIND))
+        elif kind not in VALID_LIST_KIND:
+            errors.append(f"invalid kind: {kind} (must be one of {VALID_LIST_KIND})")
 
     refs = set(_REF_RE.findall(content))
     defs = _DEF_RE.findall(content)
@@ -518,6 +527,7 @@ TYPE_TO_LIST = {
     "brand": "brands",
     "person": "people",
     "study": "studies",
+    "list": "lists",
 }
 LIST_TO_TYPE = {v: k for k, v in TYPE_TO_LIST.items()}
 QUEUE_TYPES = tuple(TYPE_TO_LIST)
@@ -527,7 +537,7 @@ QUEUE_TYPES = tuple(TYPE_TO_LIST)
 # sign-off hold. (GATED_TYPES still classifies brand/person/study as cited
 # roll-up pages for lint/verify, but no longer gates publishing.)
 AUTOPUBLISH_TYPES = {"product", "ingredient", "goal", "condition",
-                     "brand", "person", "study"}
+                     "brand", "person", "study", "list"}
 
 
 def type_autopublishes(type):
