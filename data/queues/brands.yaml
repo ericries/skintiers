@@ -148,3 +148,9 @@
   status: pending
   discovered_from: cerave
   source: null
+- name: Maelove
+  type: brand
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://maelove.com/products/glow-maker-vitamin-c-serum
