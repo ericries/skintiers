@@ -1,5 +1,6 @@
 ---
 analyzed: '2026-07-28'
+assurance: opus
 name: Oily skin
 slug: oily-skin
 status: published

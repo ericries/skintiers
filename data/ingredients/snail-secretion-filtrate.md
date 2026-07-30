@@ -1,5 +1,6 @@
 ---
 analyzed: '2026-07-28'
+assurance: opus
 name: Snail secretion filtrate
 slug: snail-secretion-filtrate
 status: published

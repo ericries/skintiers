@@ -1,5 +1,6 @@
 ---
 analyzed: '2026-07-28'
+assurance: opus
 name: 'Makrgeorgou et al. 2018: Probiotics for treating eczema (Cochrane review)'
 slug: makrgeorgou-2018-probiotics-eczema
 status: published

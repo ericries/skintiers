@@ -1,5 +1,6 @@
 ---
 analyzed: '2026-07-28'
+assurance: opus
 name: Shereene Idriss
 slug: shereene-idriss
 status: published

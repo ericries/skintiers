@@ -1,5 +1,6 @@
 ---
 analyzed: '2026-07-28'
+assurance: opus
 name: 'van Zuuren et al.: Interventions for rosacea (2015 Cochrane review and 2019
   update)'
 slug: van-zuuren-rosacea-cochrane

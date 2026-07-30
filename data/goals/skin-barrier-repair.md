@@ -1,5 +1,6 @@
 ---
 analyzed: '2026-07-28'
+assurance: opus
 name: Repairing a disrupted skin barrier
 slug: skin-barrier-repair
 status: published

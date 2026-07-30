@@ -1,7 +1,9 @@
 ---
 analyzed: '2026-07-27'
+assurance: opus
 category: Sunscreens
-comparator: broad-spectrum sunscreens, including modern-filter products sold in the EU, Korea, and Australia
+comparator: broad-spectrum sunscreens, including modern-filter products sold in the
+  EU, Korea, and Australia
 grades:
 - effect: strong
   evidence: solid
@@ -9,7 +11,8 @@ grades:
   use: UVB (sunburn) protection
 - effect: modest
   evidence: solid
-  note: rests on avobenzone, the older US UVA filter; below modern-filter (Tinosorb, Mexoryl) sunscreens sold in the EU, Korea, and Australia
+  note: rests on avobenzone, the older US UVA filter; below modern-filter (Tinosorb,
+    Mexoryl) sunscreens sold in the EU, Korea, and Australia
   use: UVA (photoaging) protection
 images:
 - la-roche-posay-anthelios-melt-in-milk-spf-60.png
@@ -27,6 +30,14 @@ updated: '2026-07-27'
 La Roche-Posay Anthelios Melt-in Milk is a fragrance-free chemical sunscreen lotion for face and body, rated Broad Spectrum SPF 60 and water resistant for 80 minutes, with the UV filters avobenzone 3%, homosalate 10%, octisalate 5%, and octocrylene 7%.[^1]
 
 > This product pairs a high UVB rating (FDA Broad Spectrum SPF 60, water resistant 80 minutes) with UVA protection that rests on avobenzone, the older US UVA filter.[^1] Its sunburn (UVB) protection is strong; its photoaging (UVA) protection is more limited than modern-filter sunscreens built on Tinosorb or Mexoryl that are standard in the EU, Korea, and Australia.[^2] Regular use of a broad-spectrum sunscreen has randomized-trial support for slowing photoaging and reducing some skin cancers; how SPF, UVA, and the filter set fit together is covered on [[sunscreen-uv-filters]].
+
+## Summary
+
+Melt-in Milk is a fragrance-free chemical sunscreen lotion for face and body, rated Broad Spectrum SPF 60 with 80 minutes of water resistance.[^1] Its job is protective rather than cosmetic: regular use of a broad-spectrum sunscreen has randomized-trial support for slowing photoaging and reducing some skin cancers, the case laid out with the general UV-filter mechanism on [[sunscreen-uv-filters]].
+
+The grades on this page rest on the FDA-tested Drug Facts rating rather than a dedicated clinical trial of this formula, [as detailed in the evidence](#the-evidence), and that rating splits into two different levels of protection. Sunburn (UVB) protection is strong: SPF 60 is a high rating among broad-spectrum sunscreens. Photoaging (UVA) protection is only modest, because it rests on avobenzone 3%, the older US filter a Journal of Drugs in Dermatology review describes as "highly unstable" and behind the modern filters (Tinosorb, Mexoryl) standard in the EU, Korea, and Australia; European sunscreens as a group allow less UVA penetration than US sunscreens do.[^2] Octocrylene 7% also helps photostabilize the avobenzone; homosalate 10% and octisalate 5% are the other declared UVB filters, [detailed in what's in it](#whats-in-it).
+
+The base also carries silicones for the fast-absorbing feel and an antioxidant blend marketed as "Cell-Ox Shield" (tocopherol, diethylhexyl syringylidenemalonate, and senna alata leaf extract). The FDA-rated benefit on the label is the Broad Spectrum SPF 60 protection itself, not the added antioxidants, [and the rest of the label's positioning terms are addressed separately](#common-marketing-claims). Forbes includes the product among derm- and skin-expert-recommended La Roche-Posay picks, [cited here for its texture and finish](#common-marketing-claims).
 
 ## The Evidence
 

@@ -1,5 +1,6 @@
 ---
 analyzed: '2026-07-28'
+assurance: opus
 name: Probiotics for skin (topical and ingested)
 slug: probiotics
 status: published

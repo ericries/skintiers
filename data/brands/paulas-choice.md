@@ -1,5 +1,6 @@
 ---
 analyzed: '2026-07-28'
+assurance: opus
 name: Paula's Choice
 slug: paulas-choice
 status: published

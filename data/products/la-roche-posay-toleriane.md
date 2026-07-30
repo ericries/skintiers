@@ -1,5 +1,6 @@
 ---
 analyzed: '2026-07-28'
+assurance: opus
 category: Moisturizers
 comparator: other ceramide-and-niacinamide moisturizers
 grades:
@@ -23,6 +24,14 @@ updated: '2026-07-28'
 La Roche-Posay Toleriane Double Repair Face Moisturizer is a fragrance-free face cream. On the manufacturer's current US ingredient list it is led by water, glycerin, squalane, and dimethicone, with niacinamide and ceramide NP (ceramide-3) as its named barrier actives.[^1]
 
 > Moisturizing has strong evidence for barrier-impaired skin (see [[moisturizing]]): a Cochrane review of 77 randomized trials found most moisturizers help, but "did not find reliable evidence that one moisturiser is better than another."[^2] A separate trial of a different ceramide cream improved a barrier measurement but reduced eczema no more than a plain vehicle.[^3]
+
+## Summary
+
+La Roche-Posay Toleriane Double Repair Face Moisturizer is a fragrance-free face cream led by niacinamide and ceramide NP (ceramide-3) as its named barrier actives, in a glycerin, squalane, and dimethicone base. [What's In It](#whats-in-it) records that the formula has no petrolatum, unlike [[cerave-moisturizing-cream]], and no added fragrance, parabens, or drying alcohol.[^1]
+
+Moisturizing has strong evidence for barrier-impaired skin, a health effect rather than a cosmetic one: [[moisturizing]] maps that general case, and a Cochrane review of 77 randomized trials covering 6603 participants found that moisturizer use reduced eczema flares and lowered severity, with the authors reporting that "most moisturisers showed some beneficial effects." The same review "did not find reliable evidence that one moisturiser is better than another," a category-level finding [graded here as a notable effect on solid evidence for moisturizing as a category](#the-evidence).[^2]
+
+What is specific to this formula, the ceramide-and-niacinamide combination, rests on a thinner, health-relevant case. A randomized, placebo-controlled trial of a different ceramide-dominant cream, funded by that cream's own maker, improved a barrier measurement (transepidermal water loss) against a vehicle but did not reduce eczema severity any more than the vehicle did, [graded here as a minimal effect on mixed evidence against a plainer emollient or CeraVe Moisturizing Cream](#the-evidence).[^3] The manufacturer's barrier-repair-in-one-hour and 48-hour hydration figures, along with its prebiotic thermal water microbiome positioning, are label claims rather than independently tested outcomes, set out in [Common Marketing Claims](#common-marketing-claims).[^1]
 
 ## The Evidence
 

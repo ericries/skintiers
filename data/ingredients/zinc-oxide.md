@@ -1,5 +1,6 @@
 ---
 analyzed: '2026-07-28'
+assurance: opus
 name: Zinc oxide
 slug: zinc-oxide
 status: published

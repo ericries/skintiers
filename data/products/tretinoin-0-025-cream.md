@@ -1,5 +1,6 @@
 ---
 analyzed: '2026-07-27'
+assurance: opus
 category: Retinoids
 name: Tretinoin 0.025% cream
 slug: tretinoin-0-025-cream
@@ -10,6 +11,14 @@ updated: '2026-07-27'
 
 Tretinoin 0.025% cream is generic prescription tretinoin, all-trans retinoic acid, formulated at 0.025% by weight in a hydrophilic cream base. It is the entry strength of a product sold under brand names such as Retin-A and Avita and as unbranded generics, and it is prescription-only.[^7] This profile grades the **product at this specific strength**, not the molecule in the abstract: for the active-ingredient mechanism and the full body of tretinoin trial evidence, see [[tretinoin]]. The one thing worth knowing before anything else is counterintuitive: 0.025% is not the "weak" tretinoin. In the head-to-head trial that matters, it matched the 0.1% strength for photoaging while irritating far less, which makes it the efficiency sweet spot, not a starter dose you are meant to graduate out of.[^1]
 
+## Summary
+
+Tretinoin 0.025% cream is generic prescription all-trans retinoic acid formulated in a hydrophilic cream base, sold under brand names such as Retin-A and Avita and as unbranded generics.[^7] The FDA-approved indication for this strength is acne, a medical condition, and that is where the product's health effect is documented: topical-retinoid monotherapy produces a modest, solid-evidence reduction in acne lesion counts, strengthened further when combined with [[benzoyl-peroxide]] and roughly matched in efficacy by [[adapalene]] for comedonal acne; it is also comparable to [[azelaic-acid]], per the head-to-head evidence set out on that page (see [the evidence](#the-evidence) and [comparators](#comparators)).[^5][^6]
+
+The product is also used, off-label at this strength, for photoaging, a cosmetic effect on the appearance of fine wrinkles and mottled pigment rather than the labeled use.[^4][^7] The product-specific trial here is direct: a 48-week randomized, vehicle-controlled RCT found 0.025% produced the same degree of photoaging improvement as the stronger 0.1% cream, with significantly less irritation, so the entry strength delivers the benefit at a lower irritation cost rather than a diluted starter dose ([the evidence](#the-evidence)).[^1] The broader photoaging effect is replicated in an early vehicle-controlled trial from the same group and independently confirmed in a 2025 meta-analysis of 8 RCTs (1,361 patients); that evidence belongs to the tretinoin molecule generally and is mapped in full on [[tretinoin]] ([what we actually know](#what-we-actually-know)).[^2][^3]
+
+Two limits temper this. The manufacturer's own label states the drug does not eliminate wrinkles or reverse photoaging, and the measured benefit is gradual and partial rather than restorative ([manufacturer claims](#manufacturer-claims)).[^4] Moving up to the 0.05% or 0.1% strengths adds irritation without added photoaging benefit, so there is no controlled basis for treating a higher concentration as an upgrade ([comparators](#comparators)).[^1]
+
 ## The Rubric
 
 Product-level grades on two axes: **effect size** (none / minimal / modest / notable / strong) and **evidence quality** (anecdotal / preliminary / mixed / solid / gold-standard), assessed per use. Framing is relative and names comparators.
@@ -19,7 +28,7 @@ Product-level grades on two axes: **effect size** (none / minimal / modest / not
 - **Evidence quality: solid.** Double-blind, vehicle-controlled RCTs plus an independent 8-RCT / 1,361-patient meta-analysis converge, though the two early RCTs [^1][^2] share investigators (the Michigan/Voorhees group), so the genuinely independent replication is the meta-analysis, which pools separate cohorts.[^3] Short of gold-standard because photoaging outcomes rest on subjective ordinal scales and the effect is graded (smaller for coarse than fine wrinkles).[^3]
 
 **Acne (mild to moderate)**
-- **Effect size: modest.** This is the FDA-approved indication for the 0.025% cream.[^7] But topical-retinoid monotherapy delivers roughly an 18-percentage-point lesion reduction over placebo (18.27%; 95% CI 10.28 to 26.14) and ranks mid-pack; it is strongest paired with [[benzoyl-peroxide]], which raises the combined effect to 26.16% (95% CI 16.75 to 35.36).[^5] Head-to-head it is equivalent in efficacy to [[adapalene]], which was the better-tolerated of the two, though that comparison used tretinoin 0.05%, a stronger, more irritating strength than the 0.025% graded here, so it likely overstates the tolerability gap at 0.025%. It is comparable to [[azelaic-acid]] for comedonal acne.[^6] "Modest: a legitimate first-line topical whose solo effect trails combination regimens; roughly matched by adapalene."
+- **Effect size: modest.** This is the FDA-approved indication for the 0.025% cream.[^7] But topical-retinoid monotherapy delivers roughly an 18-percentage-point lesion reduction over placebo (18.27%; 95% CI 10.28 to 26.14) and ranks mid-pack; it is strongest paired with [[benzoyl-peroxide]], which raises the combined effect to 26.16% (95% CI 16.75 to 35.36).[^5] Head-to-head it is equivalent in efficacy to [[adapalene]], which was the better-tolerated of the two, though that comparison used tretinoin 0.05%, a stronger, more irritating strength than the 0.025% graded here, so it likely overstates the tolerability gap at 0.025%.[^6] It is comparable to [[azelaic-acid]] for comedonal acne, per the head-to-head evidence set out on that page. "Modest: a legitimate first-line topical whose solo effect trails combination regimens; roughly matched by adapalene."
 - **Evidence quality: solid.** A 179-RCT network meta-analysis, an independent 409-patient head-to-head RCT, and FDA approval converge.[^5][^6][^7] Short of gold-standard because the retinoid-monotherapy estimate carries a wide interval within the network.[^5]
 
 ## What We Actually Know

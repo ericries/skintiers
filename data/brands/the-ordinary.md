@@ -1,5 +1,6 @@
 ---
 analyzed: '2026-07-28'
+assurance: opus
 name: The Ordinary
 slug: the-ordinary
 status: published

@@ -1,5 +1,6 @@
 ---
 analyzed: '2026-07-27'
+assurance: opus
 category: Vitamin C serums
 comparator: other vitamin C and centella serums
 grades:
@@ -26,6 +27,16 @@ updated: '2026-07-27'
 Beauty of Joseon Light On Serum: Centella + Vita C is a lightweight leave-on serum, 30 ml (1.01 fl oz), whose main vitamin C is the water-stable derivative 3-O-ethyl ascorbic acid, paired with centella asiatica extract.[^1]
 
 > The clinical case for topical vitamin C (see [[ascorbic-acid-vitamin-c]]) is built on L-ascorbic acid at roughly 10 to 20% and a pH below 3.5 (Pinnell 2001). This serum's vitamin C is instead a derivative, 3-O-ethyl ascorbic acid, at a strength the manufacturer does not state, plus a trace of ascorbic acid polypeptide, so it is not the same form or concentration studied in that literature. Its centella content speaks to soothing, which is covered on [[centella-asiatica]].[^1][^2]
+
+## Summary
+
+Light On Serum: Centella + Vita C is a lightweight, 30 ml leave-on serum built on two functional ingredients, a vitamin C derivative and centella asiatica extract listed high on the panel.[^1] Both of its graded uses here, brightening from the vitamin C and soothing from the centella, are cosmetic effects, and for both the product-specific case rests on [composition rather than a trial of this exact formula](#the-evidence).[^1]
+
+The vitamin C side sits against a well-studied benchmark it does not match. Pinnell 2001 found the strongest penetration and efficacy data for topical vitamin C belongs to L-ascorbic acid at roughly 10 to 20% below pH 3.5, mapped on [[ascorbic-acid-vitamin-c]].[^2] This serum instead names the derivative 3-O-ethyl ascorbic acid as its main vitamin C, with a trace of a second derivative, ascorbic acid polypeptide, at concentrations the manufacturer does not state.[^1] [The comparator grade](#the-evidence) sets it against a disclosed L-ascorbic acid serum, [[skinceuticals-c-e-ferulic|SkinCeuticals C E Ferulic]], rather than crediting it with that same evidence base.
+
+The centella side leans on the ingredient's own mechanism. Centella asiatica's calming, "cica" action is a documented laboratory finding, but on [[centella-asiatica]] that soothing use is itself graded a cosmetic effect without a controlled human trial isolating it, distinct from centella's better-evidenced traditional role in wound healing. This serum lists centella high among its ingredients, with the same anecdotal grade for soothing.[^1]
+
+The formula is fragrance-free and, unlike Beauty of Joseon's own Glow Serum: Propolis + Niacinamide, contains no niacinamide.[^1] It is inexpensive, listed by the manufacturer at about $17 for the 30 ml bottle ([see Where to Buy](#where-to-buy), accessed 2026-07-27).[^1] The brand's brightening, texture, and soothing language is weighed against this evidence under [Common Marketing Claims](#common-marketing-claims).
 
 ## The Evidence
 

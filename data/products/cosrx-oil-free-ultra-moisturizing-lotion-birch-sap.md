@@ -1,5 +1,6 @@
 ---
 analyzed: '2026-07-28'
+assurance: opus
 category: Moisturizers
 comparator: other oil-free / lightweight moisturizers
 grades:

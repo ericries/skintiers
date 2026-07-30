@@ -1,14 +1,15 @@
 ---
 analyzed: '2026-07-28'
+assurance: opus
 category: Peptide serums
 comparator: other multi-peptide anti-aging serums
 grades:
 - effect: minimal
   evidence: preliminary
-  note: 'cosmetic (appearance), not health: vs proven anti-aging actives such as
-    retinoids, and vs other peptide serums. The topical-peptide wrinkle effect is
-    small and, in the meta-analysis, driven mostly by oral rather than topical
-    peptides (see The Evidence)'
+  note: 'cosmetic (appearance), not health: vs proven anti-aging actives such as retinoids,
+    and vs other peptide serums. The topical-peptide wrinkle effect is small and,
+    in the meta-analysis, driven mostly by oral rather than topical peptides (see
+    The Evidence)'
   use: Look of fine lines, elasticity and firmness (cosmetic)
 - effect: modest
   evidence: solid

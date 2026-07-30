@@ -1,5 +1,6 @@
 ---
 analyzed: '2026-07-28'
+assurance: opus
 category: Sunscreens
 comparator: broad-spectrum sunscreens, including older US-filter products
 grades:
@@ -13,12 +14,12 @@ grades:
   use: UVB (sunburn) protection
 - effect: strong
   evidence: solid
-  note: 'health: PA++++ (the highest tier of the graded PPD-based UVA scale) plus two
-    modern UVA filters, bisoctrizole (Tinosorb M) and diethylamino hydroxybenzoyl hexyl
-    benzoate (Uvinul A Plus); Consumer Reports'' independent test scored its UVA protection
-    5 of 5, above the older US-filter products it competes with, avobenzone (la-roche-posay-anthelios-melt-in-milk-spf-60)
-    and zinc oxide (eltamd-uv-clear-spf-46). A Korean label claim reaching US buyers
-    as an import, not FDA-tested'
+  note: 'health: PA++++ (the highest tier of the graded PPD-based UVA scale) plus
+    two modern UVA filters, bisoctrizole (Tinosorb M) and diethylamino hydroxybenzoyl
+    hexyl benzoate (Uvinul A Plus); Consumer Reports'' independent test scored its
+    UVA protection 5 of 5, above the older US-filter products it competes with, avobenzone
+    (la-roche-posay-anthelios-melt-in-milk-spf-60) and zinc oxide (eltamd-uv-clear-spf-46).
+    A Korean label claim reaching US buyers as an import, not FDA-tested'
   use: UVA (photoaging) protection
 images:
 - file: beauty-of-joseon-relief-sun-rice-probiotics-spf50.jpg

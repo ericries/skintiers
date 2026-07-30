@@ -1,14 +1,16 @@
 ---
 analyzed: '2026-07-28'
+assurance: opus
 category: Peptide serums
 comparator: other peptide serums
 grades:
 - effect: minimal
   evidence: preliminary
   note: 'cosmetic (appearance), not health: vs other peptide serums such as The Ordinary
-    Multi-Peptide + HA Serum, and vs proven anti-aging actives such as retinoids. Topical
-    peptide anti-aging evidence is preliminary; for the acetyl hexapeptide-8 this serum
-    names first, a 2025 review found limited skin penetration (see The Evidence)'
+    Multi-Peptide + HA Serum, and vs proven anti-aging actives such as retinoids.
+    Topical peptide anti-aging evidence is preliminary; for the acetyl hexapeptide-8
+    this serum names first, a 2025 review found limited skin penetration (see The
+    Evidence)'
   use: Look of fine lines and firmness (cosmetic)
 - effect: modest
   evidence: solid

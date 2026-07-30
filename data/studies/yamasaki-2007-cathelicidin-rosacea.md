@@ -1,5 +1,6 @@
 ---
 analyzed: '2026-07-28'
+assurance: opus
 name: 'Yamasaki et al. 2007: Cathelicidin and kallikrein-5 in rosacea (Nature Medicine)'
 slug: yamasaki-2007-cathelicidin-rosacea
 status: published

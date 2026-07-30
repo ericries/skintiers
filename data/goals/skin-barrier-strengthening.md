@@ -1,5 +1,6 @@
 ---
 analyzed: '2026-07-28'
+assurance: opus
 name: Strengthening the skin barrier (preventive / maintenance)
 slug: skin-barrier-strengthening
 status: published

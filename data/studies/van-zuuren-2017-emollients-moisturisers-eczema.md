@@ -1,5 +1,6 @@
 ---
 analyzed: '2026-07-28'
+assurance: opus
 name: 'van Zuuren et al. 2017: Emollients and moisturisers for eczema (Cochrane review)'
 slug: van-zuuren-2017-emollients-moisturisers-eczema
 status: published

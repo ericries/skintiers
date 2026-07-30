@@ -1,5 +1,6 @@
 ---
 analyzed: '2026-07-28'
+assurance: opus
 category: Moisturizers
 comparator: other mattifying, oil-control moisturizers for oily skin
 grades:

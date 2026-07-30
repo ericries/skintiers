@@ -1,5 +1,6 @@
 ---
 analyzed: '2026-07-28'
+assurance: opus
 name: Copper peptides
 slug: copper-peptides
 status: published

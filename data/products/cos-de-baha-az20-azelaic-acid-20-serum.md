@@ -1,5 +1,6 @@
 ---
 analyzed: '2026-07-27'
+assurance: opus
 category: Azelaic acid
 comparator: other azelaic acid products
 grades:
@@ -27,6 +28,14 @@ updated: '2026-07-27'
 Cos De BAHA AZ20 is a Korean-made facial cream that lists azelaic acid as its second ingredient at a labeled 20%, alongside centella (cica), panthenol, hyaluronic acid, and ceramide NP.[^1][^2]
 
 > Azelaic acid has good evidence for acne and melasma, and its prescription 15% gel is FDA-approved for rosacea,[^4] but that evidence comes from prescription-strength formulations, not this cosmetic (see [[azelaic-acid]]). AZ20's distinguishing feature is its labeled 20% strength, the same as the prescription cream AZELEX and the concentration used in the foundational acne and melasma trials, in a roughly $12 product that also carries cica and hyaluronic acid.[^1][^3]
+
+## Summary
+
+Cos De BAHA AZ20 is a Korean cosmetic cream built around a labeled 20% azelaic acid, the second ingredient on the list, alongside centella (cica), hyaluronic acid, panthenol, and a ceramide.[^1][^2] Azelaic acid itself is a well-evidenced ingredient: the FDA has approved it as a prescription drug for inflammatory acne at 20% (AZELEX) and for papulopustular rosacea at 15% (FINACEA), and in controlled trials a 20% cream lightened melasma more than hydroquinone 2%; that ingredient-level case is mapped on [[azelaic-acid]]. AZ20's distinguishing feature is matching the AZELEX label's 20% concentration, the same concentration used in the foundational acne and melasma trials, something most over-the-counter azelaic products, typically formulated around 10%, do not do.[^1][^3][^5][^6]
+
+[The evidence for this specific product](#the-evidence) is that it carries the same labeled strength as the prescription drug and the trials that established those effects, not a trial of the finished cosmetic itself; the 20% is a manufacturer label claim, not an independently assayed figure, and this is a cosmetic rather than an FDA-reviewed drug.[^3] On that basis its graded effect is modest with solid evidence for mild-to-moderate acne, matching the concentration in the Katsambas acne trial, and modest with mixed evidence for melasma and post-acne pigmentation, matching the concentration in the Verallo-Rowell melasma trial; both are health effects (treatment of acne and of a pigmentation disorder), not cosmetic ones.[^5][^6] For papulopustular rosacea the evidence is only preliminary at this strength, because the trials behind FDA approval used a 15% gel rather than a 20% cream.[^4]
+
+The label's own claims of general "brightening" and of barrier or elasticity support from panthenol and hyaluronic acid are [not established by any trial of this formulation](#common-marketing-claims); azelaic acid's pigment evidence is specific to melasma and post-acne marks, not generic brightening of already-even skin. At about $12 [as listed](#where-to-buy),[^1] it carries the same labeled concentration alongside soothing and barrier ingredients such as centella and ceramide NP ([full ingredient breakdown](#whats-in-it)).
 
 ## The Evidence
 
@@ -68,7 +77,7 @@ Other azelaic acid options: [[the-ordinary-azelaic-acid-suspension-10|The Ordina
 
 ## Where to Buy
 
-- [Cos De BAHA AZ20 Cream, 50ml (YesStyle)](https://www.yesstyle.com/en/cos-de-baha-az20-cream-50ml/info.html/pid.1133162006)
+- [Cos De BAHA AZ20 Cream, 50ml (YesStyle)](https://www.yesstyle.com/en/cos-de-baha-az20-cream-50ml/info.html/pid.1133162006) (listed about $12, accessed 2026-07-27)[^1]
 - [Cos De BAHA Azelaic Acid Cream AZ20, 50ml (Stylevana)](https://www.stylevana.com/en_US/cos-de-baha-azelaic-acid-cream-az20-50ml5135.html)
 
 ## Sources

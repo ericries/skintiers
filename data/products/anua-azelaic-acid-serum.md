@@ -1,5 +1,6 @@
 ---
 analyzed: '2026-07-27'
+assurance: opus
 category: Azelaic acid
 comparator: other azelaic acid products
 grades:
@@ -25,6 +26,16 @@ updated: '2026-07-27'
 Anua Azelaic Acid 10 Hyaluron Redness Soothing Serum is a lightweight, green-tinted Korean serum (30ml) that lists azelaic acid as its second ingredient at a labeled 10%, in a base of centella (cica), panthenol, niacinamide, hyaluronic acid, and ceramide NP.[^1][^2]
 
 > Azelaic acid has good controlled evidence for acne, melasma, and rosacea, but that evidence comes from the prescription 15% gel and 20% cream, not a 10% cosmetic (see [[azelaic-acid]]). This serum's labeled 10% is half the 20% in the prescription cream AZELEX and in Cos De BAHA AZ20, below the 15% in the rosacea gel FINACEA, and the same 10% carried by The Ordinary's and Paula's Choice's azelaic products.[^1][^3][^4]
+
+## Summary
+
+This Anua serum centers on azelaic acid, an ingredient with good controlled evidence for treating inflammatory acne, melasma, and papulopustular rosacea, evidence established at prescription strengths: the 20% cream AZELEX and the 15% gel FINACEA (see [[azelaic-acid]]). The serum lists azelaic acid as its second ingredient, after water, at a labeled 10%, half the 20% concentration and below the 15% concentration behind that evidence.[^1][^3][^4]
+
+Graded against those benchmarks, its expected benefit for mild acne and post-acne dark spots, and for facial redness and papulopustular rosacea, sits at the minimal end on preliminary evidence: no trial of this product exists, so the case rests on azelaic acid's own evidence extrapolated to a lower, cosmetic-label concentration rather than a study of this formula ([the evidence](#the-evidence)). The 10% figure itself is a cosmetic label claim rather than an independently assayed or FDA-reviewed concentration.[^1]
+
+Where azelaic acid's benefit is established, it is a health effect on acne-prone or rosacea-affected skin. Separately, the product markets an immediate cosmetic effect: it attributes an "instantly soothe irritated skin and redness" claim to a naturally derived green tint, an optical color-correcting effect distinct from azelaic acid's studied pharmacological action ([common marketing claims](#common-marketing-claims)).[^1] The base also carries centella asiatica, niacinamide, sodium hyaluronate, and a ceramide as soothing, humectant, and barrier-supporting ingredients ([what's in it](#whats-in-it)), but the product's demonstrated case rests on its azelaic acid, evidenced only at the ingredient level (see [[azelaic-acid]]).
+
+Against other azelaic acid products, this serum's labeled 10% matches [[the-ordinary-azelaic-acid-suspension-10|The Ordinary's]] and [[paulas-choice-boost-10-azelaic-acid-booster|Paula's Choice's]] 10% azelaic products, while [[cos-de-baha-az20-azelaic-acid-20-serum|Cos De BAHA AZ20]] is labeled at 20%, matching the prescription cream's strength.[^1][^3]
 
 ## The Evidence
 

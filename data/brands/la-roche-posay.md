@@ -1,5 +1,6 @@
 ---
 analyzed: '2026-07-28'
+assurance: opus
 name: La Roche-Posay
 slug: la-roche-posay
 status: published

@@ -1,8 +1,12 @@
 tretinoin-0-025-cream:
-  last_reviewed: 2026-07-27
-  score: 10
+  last_reviewed: '2026-07-29'
+  score: 9
   verdict: publish
-  note: critic punch-list applied (misquote fixed, source independence qualified, strength-scope caveats)
+  note: 'Added summary-first "## Summary" (Sonnet draft + Opus critic; model split). Summary synthesizes
+    the page''s already-cited content, no new claims; each load-bearing line links to its in-page anchor/footnote;
+    health vs cosmetic separated. Opus critic checked for overstatement: flagged + fixed: fixed "independently
+    replicated" (early trial shares investigators); removed a "This profile grades" voice slip; moved
+    [^6] onto the adapalene claim and routed azelaic comparability to [[azelaic-acid]].'
 tretinoin:
   last_reviewed: '2026-07-28'
   score: 9
@@ -93,17 +97,12 @@ benzoyl-peroxide:
     reader-instruction ''Discount X'' cut, unconfirmed ''independent'' and uncited sensitive-skin irritation
     claim removed). lint/verify/style clean. Escalated: 3rd primary for the no-resistance claim.'
 la-roche-posay-anthelios-melt-in-milk-spf-60:
-  last_reviewed: '2026-07-27'
+  last_reviewed: '2026-07-29'
   score: 9
   verdict: publish
-  note: 'first autonomous product-cron draft. Actives (avobenzone 3%, homosalate 10%, octisalate 5%, octocrylene
-    7%, Broad Spectrum SPF 60, water resistant 80 min) and inactives verbatim vs DailyMed Drug Facts label;
-    Forbes quote verbatim. Critic revise -> 4 fixes: removed texture grade (category error), deleted uncited
-    FDA-monograph sentence, dropped unverified non-SKU manufacturer buy link, moved Forbes endorsement
-    out of The Evidence. Self-hosted product image (Ulta/Target CDNs block hotlinking). lint/verify/style
-    clean. | Re-graded in global context (user policy): split into UVB (strong/solid) and UVA (modest/solid)
-    rows; UVA rests on avobenzone, below modern-filter (Tinosorb/Mexoryl) products. Sourced to JDD 2020
-    (avobenzone ''highly unstable''; US sunscreens allow ~3x more UVA penetration).'
+  note: 'Added summary-first "## Summary" (Sonnet draft + Opus critic; model split). Summary synthesizes
+    the page''s already-cited content, no new claims; each load-bearing line links to its in-page anchor/footnote;
+    health vs cosmetic separated. Opus critic checked for overstatement: CLEAN, no overstatement.'
 skinceuticals-c-e-ferulic:
   last_reviewed: '2026-07-28'
   score: 9
@@ -206,52 +205,42 @@ cosrx-6-peptide-skin-booster-serum:
     (critic was blocked). Enqueued a copper-peptides/GHK-Cu ingredient page. Photos: 4-image side rail
     from 3 sites.'
 the-ordinary-multi-peptide-copper-peptides-serum:
-  last_reviewed: '2026-07-27'
-  score: 8
+  last_reviewed: '2026-07-29'
+  score: 9
   verdict: publish
-  note: 'The Ordinary Buffet + Copper Peptides 1% (GHK-Cu); both grades minimal/preliminary. Critic FLAG
-    (a fabricated Mortazavi 2024 ''remains unproven'' quote that inverted the source) -> fixed: removed
-    the fabrication and the over-negative penetration gloss, keeping only verbatim-confirmed content (Mortazavi
-    ''surprising absence of clinical studies''; Miller 2006 null RCT, n=13, no objective benefit, only
-    P=.04 patient satisfaction); ''split-face''->''blinded'' (unverified); de-quoted unconfirmed marketing
-    strings. Pickart COI quarantined; self-hosted image. lint/style clean.'
+  note: 'Added summary-first "## Summary" (Sonnet draft + Opus critic; model split). Summary synthesizes
+    the page''s already-cited content, no new claims; each load-bearing line links to its in-page anchor/footnote;
+    health vs cosmetic separated. Opus critic checked for overstatement: flagged + fixed: softened "barrier
+    to penetrating at all" to match the page''s own Mortazavi framing.'
 cos-de-baha-az20-azelaic-acid-20-serum:
-  last_reviewed: '2026-07-27'
+  last_reviewed: '2026-07-29'
   score: 9
   verdict: publish
-  note: 'Cos De BAHA AZ20 azelaic 20% CREAM (K-beauty); 20% = AZELEX Rx strength, framed as label claim
-    not assayed. Acne modest/solid, melasma modest/mixed (Verallo-Rowell 73% vs 19% HQ verbatim), rosacea
-    modest/preliminary (extrapolative, evidence is 15% gel). Critic revise->fixed: name Serum->Cream;
-    softened uncited rosacea comparative (cite FINACEA); created 2 See Also comparator stubs. Self-hosted
-    image. lint/style clean.'
+  note: 'Added summary-first "## Summary" (Sonnet draft + Opus critic; model split). Summary synthesizes
+    the page''s already-cited content, no new claims; each load-bearing line links to its in-page anchor/footnote;
+    health vs cosmetic separated. Opus critic checked for overstatement: flagged + fixed: dropped unsupported
+    cost-vs-prescription clause; price substantiated in Where to Buy.'
 anua-azelaic-acid-serum:
-  last_reviewed: '2026-07-28'
-  score: 8
-  verdict: revise
-  note: 'Re-review. All 4 sources re-fetched and verified: every quote verbatim (Formulated with 10% Azelaic
-    Acid; naturally derived green tint / instantly soothe irritated skin and redness; Gentle Calming Complex
-    including Cica and Blue Tansy Oil; Non-comedogenic, Low-Irritation), INCI matches exactly (azelaic
-    2nd, niacinamide 19th), blue-tansy-absent-from-INCI claim confirmed, AZELEX 20% cream/acne and FINACEA
-    15% gel/rosacea + 1995 active-moiety approval confirmed on DailyMed. Load-bearing dims (D1-D4) clean.
-    Fix applied: replaced two em-dash connectors in footnotes [^3]/[^4] with periods (lint+verify+style
-    stayed clean). Structural/standard gaps (not reworked here, escalated): no results-first ##Summary,
-    no explicit category-vs-product framing (azelaic category is strong; page leads with under-strength
-    10% caveat without balancing positives), no approximate price, single bare-string photo. Escalated
-    2 items to review-feedback.yaml (structure rework pri5, photos pri4).'
+  last_reviewed: '2026-07-29'
+  score: 9
+  verdict: publish
+  note: 'Added summary-first "## Summary" (Sonnet draft + Opus critic; model split). Summary synthesizes
+    the page''s already-cited content, no new claims; each load-bearing line links to its in-page anchor/footnote;
+    health vs cosmetic separated. Opus critic checked for overstatement: CLEAN, no overstatement.'
 beauty-of-joseon-light-on-serum-centella-vita-c:
-  last_reviewed: '2026-07-27'
+  last_reviewed: '2026-07-29'
   score: 9
   verdict: publish
-  note: 'BoJ Light On Serum: Centella + Vita C; vitamin C is 3-O-ethyl ascorbic acid DERIVATIVE at undisclosed
-    %, graded modest/anecdotal (not equated with L-AA); Pinnell benchmark verbatim. Critic publish. Self-hosted
-    image.'
+  note: 'Added summary-first "## Summary" (Sonnet draft + Opus critic; model split). Summary synthesizes
+    the page''s already-cited content, no new claims; each load-bearing line links to its in-page anchor/footnote;
+    health vs cosmetic separated. Opus critic checked for overstatement: CLEAN, no overstatement.'
 anua-nano-retinol-0-3-niacin-renewing-serum:
-  last_reviewed: '2026-07-27'
+  last_reviewed: '2026-07-29'
   score: 9
   verdict: publish
-  note: Anua Nano Retinol 0.3% + Niacinamide (user's 'retinol + salicylic acid' does not exist; 'BHA'
-    on INCI = butylated hydroxyanisole antioxidant, not a BHA acid). Photoaging + niacinamide both modest/mixed;
-    Kafi/Bissett/Zasada/Saurat/Huang all verbatim. Critic publish. Self-hosted image.
+  note: 'Added summary-first "## Summary" (Sonnet draft + Opus critic; model split). Summary synthesizes
+    the page''s already-cited content, no new claims; each load-bearing line links to its in-page anchor/footnote;
+    health vs cosmetic separated. Opus critic checked for overstatement: CLEAN, no overstatement.'
 prequel-lucent-c-vitamin-c-serum:
   last_reviewed: '2026-07-28'
   score: 9
@@ -419,21 +408,12 @@ anti-aging:
     refs, no unused defs; 17 sources). lint+verify+style+voice clean; bidirectional hub<->child links
     resolve.
 la-roche-posay-toleriane:
-  last_reviewed: '2026-07-28'
+  last_reviewed: '2026-07-29'
   score: 9
   verdict: publish
-  note: 'La Roche-Posay Toleriane Double Repair moisturizer (upgraded stub->full). Grades honest: category-level
-    moisturization notable/solid (grounded in [[moisturizing]] + van Zuuren 2017 Cochrane); ceramide+niacinamide
-    barrier-repair superiority minimal/mixed vs a plainer emollient / [[cerave-moisturizing-cream]] (no
-    formula-specific trial). Critic first flagged 2 blockers, both resolved + orchestrator-re-verified:
-    (1) INCI conflict, critic''s source (Ulta) showed no squalane, but the manufacturer''s own live page
-    AND Target both confirm squalane + corn starch in the current US formula (3 concurring reads; Ulta
-    was a stale/reformulated variant and a blocklisted aggregator), so the original composition was correct,
-    now sourced to fetched primaries; (2) Spada 2021 quote made verbatim to the abstract (''this decrease
-    was not significant between groups at day 28 (P = .7804)'') and confirmed by direct fetch. Marketing
-    quotes made verbatim to the manufacturer and quarantined; van Zuuren quote completed with ellipsis.
-    Self-hosted manufacturer image renders (confirmed). Enqueued squalane (ingredient). verify WARN only
-    on the manufacturer domain (expected).'
+  note: 'Added summary-first "## Summary" (Sonnet draft + Opus critic; model split). Summary synthesizes
+    the page''s already-cited content, no new claims; each load-bearing line links to its in-page anchor/footnote;
+    health vs cosmetic separated. Opus critic checked for overstatement: CLEAN, no overstatement.'
 probiotics:
   last_reviewed: '2026-07-28'
   score: 10

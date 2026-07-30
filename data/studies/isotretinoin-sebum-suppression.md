@@ -1,5 +1,6 @@
 ---
 analyzed: '2026-07-28'
+assurance: opus
 name: 'Isotretinoin and sebum suppression: the 1982 sebaceous-gland studies (Goldstein,
   Strauss, King/Cunliffe)'
 slug: isotretinoin-sebum-suppression

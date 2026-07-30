@@ -1,12 +1,19 @@
 ---
 analyzed: '2026-07-27'
+assurance: opus
 category: Moisturizers
-name: CeraVe Moisturizing Cream
-slug: cerave-moisturizing-cream
-status: published
-type: product
-updated: '2026-07-28'
 comparator: other moisturizers
+grades:
+- effect: notable
+  evidence: solid
+  note: category-level evidence for emollient moisturizers on dry, barrier-impaired,
+    and eczema-prone skin; the one trial of this exact cream (Leshem 2020) was underpowered
+  use: Barrier support and slowing water loss (health)
+- effect: minimal
+  evidence: mixed
+  note: a ceramide cream improved a barrier metric (TEWL) but reduced eczema no more
+    than a plain vehicle (Spada 2021)
+  use: Added ceramides over a plain emollient (health)
 images:
 - file: cerave-moisturizing-cream.jpg
   source: CeraVe
@@ -17,27 +24,21 @@ images:
 - file: cerave-moisturizing-cream-ulta.jpg
   source: Ulta
   source_url: https://www.ulta.com/p/moisturizing-cream-body-face-moisturizer-xlsImpprod3530069?sku=2234849
-grades:
-- use: Barrier support and slowing water loss (health)
-  note: category-level evidence for emollient moisturizers on dry, barrier-impaired,
-    and eczema-prone skin; the one trial of this exact cream (Leshem 2020) was underpowered
-  effect: notable
-  evidence: solid
-- use: Added ceramides over a plain emollient (health)
-  note: a ceramide cream improved a barrier metric (TEWL) but reduced eczema no more
-    than a plain vehicle (Spada 2021)
-  effect: minimal
-  evidence: mixed
+name: CeraVe Moisturizing Cream
 recommended_in:
-- title: NewBeauty, 10 derm-recommended CeraVe products
+- source: newbeauty.com
+  title: NewBeauty, 10 derm-recommended CeraVe products
   url: https://www.newbeauty.com/view/cerave-dermatologist-recommended
-  source: newbeauty.com
-- title: HuffPost, best CeraVe products (dermatologist picks)
+- source: huffpost.com
+  title: HuffPost, best CeraVe products (dermatologist picks)
   url: https://www.huffpost.com/entry/best-cerave-products-dermatologist-recommendations-ud_l_693ac62ee4b0455a070e590a
-  source: huffpost.com
-- title: Yahoo, best drugstore moisturizer of 2026
+- source: yahoo.com
+  title: Yahoo, best drugstore moisturizer of 2026
   url: https://shopping.yahoo.com/beauty/skincare/article/best-drugstore-moisturizer-201112720.html
-  source: yahoo.com
+slug: cerave-moisturizing-cream
+status: published
+type: product
+updated: '2026-07-28'
 ---
 
 CeraVe Moisturizing Cream is a fragrance-free cream whose ingredient list includes petrolatum, glycerin, three ceramides (ceramide NP, AP, EOP), and hyaluronic acid (as sodium hyaluronate), sold inexpensively in a tub or pump.[^3]

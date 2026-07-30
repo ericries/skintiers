@@ -1,5 +1,6 @@
 ---
 analyzed: '2026-07-27'
+assurance: sonnet
 name: Azelaic acid
 slug: azelaic-acid
 status: published

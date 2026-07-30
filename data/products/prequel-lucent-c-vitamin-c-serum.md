@@ -1,5 +1,6 @@
 ---
 analyzed: '2026-07-28'
+assurance: opus
 category: Vitamin C serums
 comparator: other topical vitamin C serums
 grades:
@@ -15,8 +16,8 @@ grades:
 - effect: minimal
   evidence: preliminary
   note: contains ferulic acid but no vitamin E, so the Lin 2005 and Murray 2008 photoprotection
-    studies (which tested vitamin C plus vitamin E plus ferulic acid together) do not
-    describe this formula
+    studies (which tested vitamin C plus vitamin E plus ferulic acid together) do
+    not describe this formula
   use: The vitamin C plus vitamin E plus ferulic acid photoprotection combination
 - effect: minimal
   evidence: preliminary

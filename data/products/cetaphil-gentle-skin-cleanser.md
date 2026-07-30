@@ -1,5 +1,6 @@
 ---
 analyzed: '2026-07-28'
+assurance: opus
 category: Cleansers
 comparator: other gentle, low-foaming facial cleansers
 grades:

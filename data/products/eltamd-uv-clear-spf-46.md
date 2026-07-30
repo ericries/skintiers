@@ -1,5 +1,6 @@
 ---
 analyzed: '2026-07-28'
+assurance: opus
 category: Sunscreens
 comparator: broad-spectrum sunscreens, including modern-filter products sold in the
   EU, Korea, and Australia
@@ -7,8 +8,8 @@ grades:
 - effect: strong
   evidence: solid
   note: 'health: broad-spectrum UV protection lowers photoaging and skin-cancer risk.
-    FDA Broad Spectrum SPF 46, a high UVB rating among broad-spectrum sunscreens, modestly
-    below SPF 50+ products. An FDA-tested US OTC drug rating'
+    FDA Broad Spectrum SPF 46, a high UVB rating among broad-spectrum sunscreens,
+    modestly below SPF 50+ products. An FDA-tested US OTC drug rating'
   use: UVB (sunburn) protection
 - effect: modest
   evidence: solid

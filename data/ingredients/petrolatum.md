@@ -1,5 +1,6 @@
 ---
 analyzed: '2026-07-27'
+assurance: opus
 name: Petrolatum
 slug: petrolatum
 status: published

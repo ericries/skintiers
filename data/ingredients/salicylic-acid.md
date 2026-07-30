@@ -1,5 +1,6 @@
 ---
 analyzed: '2026-07-28'
+assurance: opus
 name: Salicylic acid
 slug: salicylic-acid
 status: published

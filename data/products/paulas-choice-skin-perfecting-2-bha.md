@@ -1,5 +1,6 @@
 ---
 analyzed: '2026-07-28'
+assurance: opus
 category: Exfoliants
 comparator: other salicylic acid (BHA) leave-on exfoliants
 grades:

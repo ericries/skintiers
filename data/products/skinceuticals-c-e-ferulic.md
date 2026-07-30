@@ -1,15 +1,17 @@
 ---
 analyzed: '2026-07-28'
+assurance: opus
 category: Vitamin C serums
 comparator: other topical vitamin C serums
 grades:
 - effect: notable
   evidence: solid
   note: 'health: the case rests on topical L-ascorbic acid, a well-studied antioxidant
-    active (its evidence mapped on the vitamin C page), delivered in a faithful, well-studied 15%
-    formulation; the brand''s own "8x" figures come from small, company-linked studies
-    (in The Evidence)'
-  use: Antioxidant vitamin C, for daily photoprotection support and brighter, more even tone (health)
+    active (its evidence mapped on the vitamin C page), delivered in a faithful, well-studied
+    15% formulation; the brand''s own "8x" figures come from small, company-linked
+    studies (in The Evidence)'
+  use: Antioxidant vitamin C, for daily photoprotection support and brighter, more
+    even tone (health)
 - effect: modest
   evidence: solid
   note: vs a plain L-ascorbic acid serum; ferulic acid and vitamin E stabilize the

@@ -1,5 +1,6 @@
 ---
 analyzed: '2026-07-28'
+assurance: opus
 category: Azelaic acid
 comparator: other azelaic acid products
 grades:

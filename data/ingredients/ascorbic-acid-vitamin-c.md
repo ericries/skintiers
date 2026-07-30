@@ -1,5 +1,6 @@
 ---
 analyzed: '2026-07-28'
+assurance: opus
 name: Ascorbic acid (vitamin C)
 slug: ascorbic-acid-vitamin-c
 status: published

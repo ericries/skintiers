@@ -1,5 +1,6 @@
 ---
 analyzed: '2026-07-28'
+assurance: opus
 name: 'Draelos et al. 2006: 2% niacinamide and facial sebum production'
 slug: niacinamide-sebum-studies
 status: published

@@ -1,5 +1,6 @@
 ---
 analyzed: '2026-07-28'
+assurance: opus
 name: Ferulic acid
 slug: ferulic-acid
 status: published

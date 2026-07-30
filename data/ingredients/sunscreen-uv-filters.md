@@ -1,5 +1,6 @@
 ---
 analyzed: '2026-07-27'
+assurance: opus
 name: Sunscreen (UV filters)
 slug: sunscreen-uv-filters
 status: published

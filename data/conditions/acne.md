@@ -1,5 +1,6 @@
 ---
 analyzed: '2026-07-29'
+assurance: opus
 name: Acne
 slug: acne
 status: published
