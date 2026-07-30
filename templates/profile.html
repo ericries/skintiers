@@ -5,6 +5,7 @@
   <div class="kicker">
     <a class="type-tag" href="{{ type_href }}">{{ profile.type | capitalize }}</a>
     <span class="status status-{{ profile.status }}">{{ profile.status }}</span>
+    {% if profile.assurance %}<span class="assurance assurance-{{ profile.assurance }}" title="{{ assurance_tip(profile.assurance) }}">{{ profile.assurance | capitalize }}</span>{% endif %}
   </div>
 
   {% if images %}

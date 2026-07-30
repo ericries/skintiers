@@ -217,8 +217,17 @@ def changelog_groups_for(path, published):
     return groups
 
 
+ASSURANCE_TIPS = {
+    "stub": "Placeholder page, not yet fully researched.",
+    "sonnet": "Drafted and auto-checked (lint, sources, style), single pass.",
+    "opus": "Independently verified: every cited source re-fetched, quotes and statistics checked.",
+    "reviewed": "Read and signed off by a human editor.",
+}
+
+
 def build():
     env = Environment(loader=FileSystemLoader(str(sklib.TEMPLATES_DIR)), autoescape=True)
+    env.globals["assurance_tip"] = lambda level: ASSURANCE_TIPS.get(level, "")
     out = sklib.OUTPUT_DIR
     if out.exists():
         shutil.rmtree(out)

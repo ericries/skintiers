@@ -57,6 +57,11 @@ article{padding:44px 0 8px}
 .status-published{color:#2f7a52;border-color:color-mix(in srgb,#2f7a52 40%,transparent);background:color-mix(in srgb,#2f7a52 8%,transparent)}
 .status-draft{color:#9a7a2e;border-color:color-mix(in srgb,#9a7a2e 44%,transparent);background:color-mix(in srgb,#9a7a2e 10%,transparent)}
 .status-stub{color:var(--faint);border-color:var(--rule-strong);background:transparent}
+.assurance{font-family:var(--mono);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;padding:2px 8px;border-radius:2px;border:1px solid;cursor:help}
+.assurance-stub{color:var(--faint);border-color:var(--rule-strong);background:transparent}
+.assurance-sonnet{color:#8a6d3b;border-color:color-mix(in srgb,#8a6d3b 40%,transparent);background:color-mix(in srgb,#8a6d3b 8%,transparent)}
+.assurance-opus{color:#3a6ea5;border-color:color-mix(in srgb,#3a6ea5 42%,transparent);background:color-mix(in srgb,#3a6ea5 10%,transparent)}
+.assurance-reviewed{color:#2f7a52;border-color:color-mix(in srgb,#2f7a52 46%,transparent);background:color-mix(in srgb,#2f7a52 12%,transparent)}
 
 .masthead{margin-top:2px}
 h1{font-family:var(--serif);font-weight:600;font-size:40px;line-height:1.08;letter-spacing:-.018em;margin:.1em 0 .3em;text-wrap:balance}

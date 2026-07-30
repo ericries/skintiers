@@ -106,6 +106,12 @@ import re
 
 REQUIRED_FIELDS = ("name", "slug", "type", "status", "updated")
 VALID_STATUS = ("stub", "draft", "published")
+# `assurance` is an OPTIONAL, separate axis from `status` (publish state): it
+# records how much scrutiny the page's content has had, shown as a reader-facing
+# badge. stub = placeholder; sonnet = auto-drafted + lint/verify/style/voice
+# clean, single pass; opus = independently critic-verified (sources re-fetched,
+# quotes/stats checked); reviewed = human sign-off. Backfilled from review-log.
+VALID_ASSURANCE = ("stub", "sonnet", "opus", "reviewed")
 
 _REF_RE = re.compile(r"\[\^([^\]]+)\](?!:)")
 _DEF_RE = re.compile(r"^\[\^([^\]]+)\]:", re.MULTILINE)
@@ -120,6 +126,8 @@ def check_profile(metadata, content):
         errors.append(f"invalid type: {metadata['type']} (must be one of {PROFILE_TYPES})")
     if metadata.get("status") and metadata["status"] not in VALID_STATUS:
         errors.append(f"invalid status: {metadata['status']}")
+    if metadata.get("assurance") and metadata["assurance"] not in VALID_ASSURANCE:
+        errors.append(f"invalid assurance: {metadata['assurance']} (must be one of {VALID_ASSURANCE})")
 
     refs = set(_REF_RE.findall(content))
     defs = _DEF_RE.findall(content)
