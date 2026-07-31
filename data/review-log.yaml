@@ -1014,3 +1014,16 @@ cetaphil-moisturizing-cream:
     (Gratch "gentle and dermatologist designed"; prices $15.97 Amazon/$15.97 Walmart/$20.99 Target). Applied
     the 2 minor fixes: unpinned the price range from "20 oz"; tightened the grade use to "hydration" since
     the product-specific TEWL result was null. lint+verify+style clean.'
+santer-2023-safa-spironolactone-acne:
+  last_reviewed: '2026-07-31'
+  score: 9
+  verdict: publish
+  note: 'Study stub filled (daily study cron; Sonnet draft + Opus critic). SAFA trial (Santer 2023, BMJ,
+    PMID 37192767) detailed lay summary. Opus re-fetched the PMC full text (PMC10543374) and verified
+    EVERY statistic verbatim/exact: primary Acne-QoL symptom subscale wk12 adj diff 1.27 (95% CI 0.07-2.46),
+    wk24 3.45 (2.16-4.75); n=410 randomised/342 primary analysis; secondary ORs, AEs (headache 20% vs
+    12% P=0.02, no serious adverse reactions, pregnancy caution) all matched. Applied 2 critic fixes:
+    corrected one non-verbatim quote to the source ("sufficient severity to warrant treatment with oral
+    antibiotics, as judged by the trial clinician"); trimmed site-scope meta ("topical-skincare scope"/"skincare-aisle
+    purchase"/"not a substitute for") from the closing. Fills the acne hormonal-therapy evidence gap.
+    lint+verify+style+voice clean.'
