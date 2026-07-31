@@ -460,3 +460,9 @@
   status: pending
   discovered_from: null
   source: https://www.lorealdermatologicalbeauty.com/skinceuticals/academic-heritage
+- name: COSRX Low pH Good Morning Gel Cleanser
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://www.cosrx.com/pages/about-us-old

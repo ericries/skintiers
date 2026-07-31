@@ -1050,3 +1050,13 @@ michelle-wong:
     no peer-reviewed pubs found (not claimed). Cross-links [[sunscreen-uv-filters]]. lint+verify+style+voice
     clean (verify WARNs are non-allowlist publisher/interview domains, same as samantha-ellis/shereene-idriss
     precedent).
+cosrx:
+  last_reviewed: '2026-07-31'
+  score: 8
+  verdict: self-reviewed
+  note: Brand roll-up filled (daily brand cron; Sonnet draft + self-check, no Opus critic; assurance=sonnet).
+    Korean minimalist skincare brand. Founding 2013 triple-corroborated (COSRX About page + Amorepacific
+    release + TheIndustry.beauty); Amorepacific majority ownership (93.2%, 2023) from PR Newswire + BeautyMatter.
+    Hero products named with composition but NO efficacy claims; marketing language attributed/quoted
+    not asserted. Cross-links its 2 covered products + [[snail-secretion-filtrate]]. lint+verify+style+voice
+    clean; footnotes intact (verify WARNs are corporate/trade domains).
