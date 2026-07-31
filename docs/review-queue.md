@@ -89,3 +89,15 @@ Discovery workflow (Sonnet, grounded) + orchestrator verification seeded cross-r
 - **10 list stubs** (`data/lists/`) — 7 best-of (azelaic, vitamin C, gentle cleansers, ceramide moisturizers,
   daily sunscreens, niacinamide, peptides) + 3 routines (minimal acne, rosacea-friendly, oily-skin Korean).
 Fill each with the detailed-lay-summary (studies) / full profile (people) / ranked tier-list (lists) convention.
+
+## Standing rule added 2026-07-31: ingredient -> product back-links
+Ingredient pages should link to the products on the site that contain that ingredient (fine to list
+only the high-tier / well-graded ones). Bidirectional maintenance rule (now in docs/writing-guide.md):
+when a product is added/reworked, update the ingredient pages it uses; when an ingredient page is
+written/updated, add its product back-links. Not done now, applied going forward.
+Open work:
+- **One-time backfill:** add product back-links to the existing published ingredient pages.
+- **Better: auto-generate at build.** build.py already renders back-references (tags, recommended_in);
+  it could scan product pages' [[ingredient]] links (or a key_ingredients frontmatter field) and
+  render a "Products with this ingredient" list on each ingredient page automatically, so it stays
+  current with zero manual upkeep. Prefer this over manual maintenance once there's time to build it.

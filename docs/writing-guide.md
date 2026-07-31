@@ -236,6 +236,16 @@ European broad-spectrum product built on modern filters.
 "Does moisturizing work and how" goes on the Moisturizing page. Retinoid mechanism goes on the
 retinoid ingredient page. Product pages borrow it with a link and stay on the product question.
 
+## Ingredient pages link back to the products that contain the ingredient
+The link runs both ways. A product page links out to the ingredient pages for its actives; an
+**ingredient page should link to the products on the site that contain it**, so a reader on the
+niacinamide page can jump to the graded niacinamide products. It is fine to list only the
+higher-tier / better-graded such products rather than every one. This is a **bidirectional
+maintenance rule**: whenever a new product is added (or a product page reworked), update the
+relevant ingredient pages to reference it; whenever an ingredient page is written or updated, add
+its product back-links. (See `docs/review-queue.md` for the one-time backfill of existing ingredient
+pages and the option of auto-generating this list at build time from product-to-ingredient links.)
+
 ## Health effects vs cosmetic effects (emphasize health)
 The site's main purpose is to surface HEALTH effects, so every page must keep the two kinds of
 effect distinct and lead with health where one is established.
