@@ -77,3 +77,9 @@
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/40932354/
+- name: Leshem 2020 OTC moisturizers in atopic dermatitis RCT
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://pubmed.ncbi.nlm.nih.gov/32947459/

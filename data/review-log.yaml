@@ -999,3 +999,18 @@ skinceuticals:
     scientist" distinguished from co-founders Alden Pinnell + Russell Moon; no unverified familial link
     asserted. Marketing quarantined/linked out to the product page. lint+verify+style clean (verify WARNs
     are corporate domains, expected).'
+cetaphil-moisturizing-cream:
+  last_reviewed: '2026-07-31'
+  score: 9
+  verdict: publish
+  note: 'Product stub filled (daily product cron; Sonnet draft + Opus critic + orchestrator Apify verification).
+    Fragrance-free mass-market cream; honest comparator to [[cerave-moisturizing-cream]] (stated composition
+    difference: no ceramides / no MVE, not a verdict). Two genuinely product-specific trials, both verbatim-verified
+    by the Opus critic and correctly caveated: Hanifin 1998 (via van Zuuren 2017 systematic review; 78
+    completed, 96% preference, 70% vs 55% marked-to-excellent, high risk of bias/unblinded) and Leshem
+    2020 (capacitance improved, TEWL non-significant, underpowered). INCI confirmed (no ceramides; current
+    formula adds panthenol/niacinamide) with the formulation-version discrepancy disclosed. Critic flagged
+    2 items on a 403-blocked TODAY.com cite; orchestrator re-fetched it via Apify and CONFIRMED both verbatim
+    (Gratch "gentle and dermatologist designed"; prices $15.97 Amazon/$15.97 Walmart/$20.99 Target). Applied
+    the 2 minor fixes: unpinned the price range from "20 oz"; tightened the grade use to "hydration" since
+    the product-specific TEWL result was null. lint+verify+style clean.'

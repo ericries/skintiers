@@ -2,6 +2,10 @@
 # Newest entries at the TOP. Append with: sk log "message" [--slug SLUG] [--date YYYY-MM-DD]
 # Rendered to _site/whats-new.html (footer link).
 
+- date: '2026-07-31'
+  title: 'Filled in the Cetaphil Moisturizing Cream page: a basic fragrance-free moisturizer (no ceramides,
+    unlike CeraVe).'
+  slug: cetaphil-moisturizing-cream
 - date: '2026-07-30'
   title: 'Added a SkinCeuticals brand page: the dermatologist-office antioxidant brand (L''Oreal-owned)
     behind C E Ferulic.'
