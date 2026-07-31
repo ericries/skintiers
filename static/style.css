@@ -134,11 +134,11 @@ sup a{font-family:var(--mono);font-size:.66em;border:none;padding:0 1px}
 .footnote a{word-break:break-word}
 .footnote .footnote-backref{border:none;font-family:var(--mono);font-size:11px}
 
-/* tagged-on-SkinTiers section */
-.tagged ul{list-style:none;padding:0;margin:0 0 12px}
-.tagged li{padding:6px 0;border-top:1px solid var(--rule)}
-.tagged li a{border:none;color:var(--muted)}
-.tagged li a:hover{color:var(--accent)}
+/* auto cross-reference ("Referenced by") + tag-based ("Also tagged") sections */
+.tagged ul,.backrefs ul{list-style:none;padding:0;margin:0 0 12px}
+.tagged li,.backrefs li{padding:6px 0;border-top:1px solid var(--rule)}
+.tagged li a,.backrefs li a{border:none;color:var(--muted)}
+.tagged li a:hover,.backrefs li a:hover{color:var(--accent)}
 
 /* listing + index pages */
 .page-head{padding:44px 0 4px}

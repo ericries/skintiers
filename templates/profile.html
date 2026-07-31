@@ -50,7 +50,9 @@
   </section>
   {% endif %}
 
-  {% if tagged_groups %}<section class="tagged prose"><h2>Also on SkinTiers — tagged {{ profile.name }}</h2>{% for g in tagged_groups %}<h3>{{ g.type_label }}</h3><ul>{% for it in g.items %}<li><a href="{{ it.slug }}.html">{{ it.name }}</a></li>{% endfor %}</ul>{% endfor %}</section>{% endif %}
+  {% if backref_groups %}<section class="backrefs prose"><h2>Referenced by</h2>{% for g in backref_groups %}<h3>{{ g.type_label }}</h3><ul>{% for it in g.items %}<li><a href="{{ it.slug }}.html">{{ it.name }}</a></li>{% endfor %}</ul>{% endfor %}</section>{% endif %}
+
+  {% if tagged_groups %}<section class="tagged prose"><h2>Also tagged {{ profile.name }}</h2>{% for g in tagged_groups %}<h3>{{ g.type_label }}</h3><ul>{% for it in g.items %}<li><a href="{{ it.slug }}.html">{{ it.name }}</a></li>{% endfor %}</ul>{% endfor %}</section>{% endif %}
 
   {% if sources_html %}<section class="prose sources">{{ sources_html | safe }}</section>{% endif %}
 </article>

@@ -41,6 +41,46 @@ def test_build_renders_all_statuses_with_badge_and_xref(tmp_path):
     assert "unobtainium.html" not in serum_html        # broken xref is plain text
 
 
+def test_pages_show_auto_backreferences_from_xrefs(tmp_path):
+    # Every page auto-lists the published pages that [[link]] to it, grouped by type.
+    data = tmp_path / "data"
+    out = tmp_path / "_site"
+    _write(data / "ingredients", "niacinamide", "published", "ingredient")
+    _write(data / "ingredients", "glycerin", "published", "ingredient")  # referenced by nobody
+    _write(data / "products", "serum", "published", "product",
+           "Built on [[niacinamide]].\n")
+    _write(data / "products", "draftprod", "draft", "product",
+           "Also uses [[niacinamide]].\n")
+    env = {**os.environ, "SK_DATA": str(data), "SK_OUTPUT": str(out)}
+    r = subprocess.run([sys.executable, str(ROOT / "build.py")], env=env,
+                       capture_output=True, text=True)
+    assert r.returncode == 0, r.stderr
+    nia = (out / "niacinamide.html").read_text()
+    assert "Referenced by" in nia                     # section present
+    assert 'href="serum.html"' in nia                 # published referencing product listed
+    assert 'href="draftprod.html"' not in nia         # draft referencing page not surfaced
+    gly = (out / "glycerin.html").read_text()
+    assert "Referenced by" not in gly                 # no backrefs -> no empty section
+    # a page does not list itself even if it self-references
+    assert 'href="serum.html"' not in (out / "serum.html").read_text()
+
+
+def test_tagged_section_does_not_name_the_site(tmp_path):
+    data = tmp_path / "data"
+    out = tmp_path / "_site"
+    # the tagged section renders on condition/goal pages that other pages tag by slug
+    _write(data / "conditions", "acne", "published", "condition")
+    _write(data / "products", "spot", "published", "product", "Body.\n", tags=["acne"])
+    env = {**os.environ, "SK_DATA": str(data), "SK_OUTPUT": str(out)}
+    r = subprocess.run([sys.executable, str(ROOT / "build.py")], env=env,
+                       capture_output=True, text=True)
+    assert r.returncode == 0, r.stderr
+    html = (out / "acne.html").read_text()
+    # the tagged-content heading must not name the site (masthead/title brand chrome is fine)
+    assert "Also on SkinTiers" not in html
+    assert "Also tagged" in html   # the section still renders, just without the site name
+
+
 def test_index_nav_hides_categories_with_no_published_content(tmp_path):
     data = tmp_path / "data"
     out = tmp_path / "_site"

@@ -50,6 +50,54 @@ def grouped_by_category(metadatas, order):
         groups.append(types.SimpleNamespace(label="Other", items=other))
     return groups
 
+# --- Auto cross-references ------------------------------------------------
+# Every page lists the published pages that [[link]] to it, grouped by type, so
+# the link runs both ways with zero manual upkeep: a product that links to an
+# ingredient automatically appears under "Referenced by" on that ingredient's
+# page, and likewise for studies, conditions, people, and every other type.
+TYPE_LABEL = {typ: label for typ, _filename, label in LISTINGS}
+TYPE_LABEL.setdefault("brand", "Brands")
+TYPE_LABEL.setdefault("person", "People")
+# Order the "Referenced by" groups: concrete products first, then the actives and
+# hubs, then the corpus pages.
+BACKREF_ORDER = ("product", "ingredient", "goal", "condition", "study", "list", "brand", "person")
+
+
+def reverse_xref_index(profiles):
+    """Map each slug -> list of profiles whose body [[links]] to it (self excluded).
+
+    Uses the same xref regex the renderer uses; a `[[slug#anchor]]` or
+    `[[slug|label]]` target counts as a reference to `slug`."""
+    idx = {}
+    for p in profiles:
+        targets = set()
+        for m in sklib._XREF_RE.finditer(p.content):
+            target = m.group(1).split("#")[0].strip()
+            if target:
+                targets.add(target)
+        for target in targets:
+            if target != p.get("slug"):
+                idx.setdefault(target, []).append(p)
+    return idx
+
+
+def backref_groups_for(slug, rev_index):
+    """The 'Referenced by' groups for one page: PUBLISHED referencing pages only
+    (transient stubs/drafts are not surfaced), grouped by type in BACKREF_ORDER
+    and sorted by name within a group."""
+    refs = [r for r in rev_index.get(slug, []) if r.get("status") == "published"]
+    by_type = {}
+    for r in refs:
+        by_type.setdefault(r.get("type"), []).append(r.metadata)
+    groups = []
+    for typ in BACKREF_ORDER:
+        items = sorted(by_type.get(typ, []), key=lambda m: (m.get("name") or "").lower())
+        if items:
+            groups.append(types.SimpleNamespace(
+                type_label=TYPE_LABEL.get(typ, typ.title() + "s"), items=items))
+    return groups
+
+
 # type -> listing page filename (for the profile kicker link).
 TYPE_HREF = {typ: f"{filename}.html" for typ, filename, _ in LISTINGS}
 
@@ -239,6 +287,7 @@ def build():
     slugs = {p["slug"] for p in profiles}
     names = {p["slug"]: p["name"] for p in profiles}
     tag_index = sklib.build_tag_index(profiles)
+    rev_index = reverse_xref_index(profiles)
 
     for p in profiles:
         linked = sklib.linkify_xrefs(p.content, slugs, names)
@@ -257,7 +306,8 @@ def build():
             images=images,
             monogram=monogram,
             type_href=TYPE_HREF.get(p.get("type"), "index.html"),
-            tagged_groups=tagged_groups_for(p, tag_index))
+            tagged_groups=tagged_groups_for(p, tag_index),
+            backref_groups=backref_groups_for(p["slug"], rev_index))
         (out / f"{p['slug']}.html").write_text(html)
 
     # Listing pages are always built for every category; only the index nav is
