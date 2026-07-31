@@ -1027,3 +1027,26 @@ santer-2023-safa-spironolactone-acne:
     antibiotics, as judged by the trial clinician"); trimmed site-scope meta ("topical-skincare scope"/"skincare-aisle
     purchase"/"not a substitute for") from the closing. Fills the acne hormonal-therapy evidence gap.
     lint+verify+style+voice clean.'
+best-azelaic-acid-products:
+  last_reviewed: '2026-07-31'
+  score: 8
+  verdict: self-reviewed
+  note: List stub filled (daily list cron; Sonnet draft + orchestrator self-check, no Opus critic per
+    the low-risk-type protocol; assurance=sonnet). Ranks the 3 PUBLISHED azelaic products by labeled strength
+    vs the studied prescription doses (Cos De BAHA 20% = AZELEX strength top tier; Anua 10% + The Ordinary
+    10% milder tier); excluded the Paula's Choice stub. Health uses (rosacea/acne/melasma) separated from
+    cosmetic marketing; states no product-specific trials exist and 20% is a label claim not an assayed
+    figure. Sources are the FDA DailyMed labels + Verallo-Rowell melasma RCT already used on the linked
+    pages. lint+verify+style+voice clean; footnotes intact.
+michelle-wong:
+  last_reviewed: '2026-07-31'
+  score: 8
+  verdict: self-reviewed
+  note: Person stub filled (daily person cron; Sonnet draft + orchestrator self-check, no Opus critic;
+    assurance=sonnet). Michelle Wong (Lab Muffin Beauty Science), chemist/science communicator. 7 sources;
+    PhD field+institution (chemistry, University of Sydney) cross-corroborated across her site + ASI alumni
+    page + IFLScience interview. Publisher marketing bio (brand collaborations, media profiles) attributed
+    as the publisher's claim, not asserted. Unverifiable specifics (PhD year, follower counts) omitted;
+    no peer-reviewed pubs found (not claimed). Cross-links [[sunscreen-uv-filters]]. lint+verify+style+voice
+    clean (verify WARNs are non-allowlist publisher/interview domains, same as samantha-ellis/shereene-idriss
+    precedent).
