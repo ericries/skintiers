@@ -95,9 +95,6 @@ Ingredient pages should link to the products on the site that contain that ingre
 only the high-tier / well-graded ones). Bidirectional maintenance rule (now in docs/writing-guide.md):
 when a product is added/reworked, update the ingredient pages it uses; when an ingredient page is
 written/updated, add its product back-links. Not done now, applied going forward.
-Open work:
-- **One-time backfill:** add product back-links to the existing published ingredient pages.
-- **Better: auto-generate at build.** build.py already renders back-references (tags, recommended_in);
-  it could scan product pages' [[ingredient]] links (or a key_ingredients frontmatter field) and
-  render a "Products with this ingredient" list on each ingredient page automatically, so it stays
-  current with zero manual upkeep. Prefer this over manual maintenance once there's time to build it.
+DONE 2026-07-31: auto-generated at build time for ALL cross-reference types (not just ingredient->product).
+build.py reverse-indexes every [[xref]] and renders a "Referenced by" section (published referrers only,
+grouped by type) on every page. No manual back-link maintenance needed; the one-time backfill is moot.
