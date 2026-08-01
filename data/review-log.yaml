@@ -1060,3 +1060,13 @@ cosrx:
     Hero products named with composition but NO efficacy claims; marketing language attributed/quoted
     not asserted. Cross-links its 2 covered products + [[snail-secretion-filtrate]]. lint+verify+style+voice
     clean; footnotes intact (verify WARNs are corporate/trade domains).
+cetaphil:
+  last_reviewed: '2026-07-31'
+  score: 8
+  verdict: self-reviewed
+  note: Brand roll-up filled (daily brand cron; Sonnet draft + self-check, no Opus critic; assurance=sonnet).
+    Mass-market gentle-skincare brand (Galderma). Founding 1947 confirmed on Cetaphil + Galderma pages;
+    ownership chain traced through Galderma press releases (Nestle 2014 -> EQT/ADIA consortium 2019 ->
+    2024 IPO -> L'Oreal stake). Unverified specifics (pharmacist name, exact Cetaphil-Galderma date) omitted.
+    Hero products named without efficacy claims; the one superlative is an attributed dermatologist quote
+    via TODAY. Cross-links its 2 covered products. lint+verify+style+voice clean; footnotes intact.

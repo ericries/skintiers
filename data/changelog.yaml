@@ -3,6 +3,9 @@
 # Rendered to _site/whats-new.html (footer link).
 
 - date: '2026-07-31'
+  title: Added a Cetaphil brand page (gentle mass-market dermatology skincare, Galderma-owned, since 1947).
+  slug: cetaphil
+- date: '2026-07-31'
   title: Added a COSRX brand page (Korean minimalist skincare, majority-owned by Amorepacific since 2023).
   slug: cosrx
 - date: '2026-07-31'

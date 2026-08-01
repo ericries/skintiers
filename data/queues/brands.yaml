@@ -79,7 +79,7 @@
 - name: Cetaphil
   type: brand
   priority: 7
-  status: pending
+  status: done
   discovered_from: null
   source: null
 - name: Neutrogena
