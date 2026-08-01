@@ -84,6 +84,60 @@ def tier_nav_from_html(body_html):
     return items if len(items) >= 2 else []
 
 
+# --- Sunscreen UV-filter coverage infographic --------------------------------
+# A static SVG spectrum (290 to 400 nm) showing the approximate UV range each
+# common filter protects against, against the UVB / UVA-II / UVA-I bands and the
+# 370 nm broad-spectrum threshold. Ranges are approximate protective ranges from
+# each filter's standard classification (mineral/bemotrizinol-class = broad;
+# avobenzone = UVA; salicylates/cinnamate = UVB; octocrylene = UVB + partial
+# UVA-II), consistent with the sourced bands on sunscreen-uv-filters. Rendered
+# in place of the <!--uv-filter-spectrum--> marker.
+UV_FILTERS = [  # (slug, display name, start nm, end nm)
+    ("zinc-oxide", "Zinc oxide", 290, 400),
+    ("bisoctrizole", "Bisoctrizole", 290, 400),
+    ("avobenzone", "Avobenzone", 320, 400),
+    ("octocrylene", "Octocrylene", 290, 340),
+    ("octinoxate", "Octinoxate", 290, 320),
+    ("octisalate", "Octisalate", 290, 320),
+    ("homosalate", "Homosalate", 290, 320),
+    ("ethylhexyl-triazone", "Ethylhexyl triazone", 290, 320),
+]
+_UV_MARKER = "<!--uv-filter-spectrum-->"
+
+
+def render_uv_spectrum(filters=UV_FILTERS):
+    nm0, nm1, L, R = 290, 400, 152, 700
+    top, row_h = 48, 22
+    plot_h = len(filters) * row_h
+    h = top + plot_h + 20
+
+    def x(nm):
+        return L + (nm - nm0) / (nm1 - nm0) * (R - L)
+
+    p = [f'<svg class="uv-spectrum" viewBox="0 0 720 {h}" role="img" '
+         f'aria-label="Approximate UV wavelengths each sunscreen filter covers">']
+    for cls, a, b, lbl in (("uvb", 290, 320, "UVB"), ("uva2", 320, 340, "UVA II"),
+                           ("uva1", 340, 400, "UVA I")):
+        p.append(f'<rect class="uv-band uv-band-{cls}" x="{x(a):.1f}" y="{top}" '
+                 f'width="{x(b)-x(a):.1f}" height="{plot_h}"/>')
+        p.append(f'<text class="uv-bandlabel" x="{(x(a)+x(b))/2:.1f}" y="14" '
+                 f'text-anchor="middle">{lbl}</text>')
+    for nm in (290, 320, 340, 400):
+        p.append(f'<text class="uv-tick" x="{x(nm):.1f}" y="34" text-anchor="middle">{nm}</text>')
+    p.append(f'<line class="uv-broad" x1="{x(370):.1f}" y1="{top-4}" '
+             f'x2="{x(370):.1f}" y2="{top+plot_h}"/>')
+    p.append(f'<text class="uv-broadlabel" x="{x(370):.1f}" y="{top+plot_h+14}" '
+             f'text-anchor="middle">broad-spectrum line (370 nm)</text>')
+    for i, (slug, name, a, b) in enumerate(filters):
+        y = top + i * row_h
+        p.append(f'<a href="{slug}.html"><text class="uv-label" x="{L-8}" '
+                 f'y="{y+row_h/2+3:.1f}" text-anchor="end">{name}</text></a>')
+        p.append(f'<rect class="uv-bar" x="{x(a):.1f}" y="{y+4:.1f}" '
+                 f'width="{x(b)-x(a):.1f}" height="{row_h-8}" rx="2"/>')
+    p.append("</svg>")
+    return "".join(p)
+
+
 def reverse_xref_index(profiles):
     """Map each slug -> list of profiles whose body [[links]] to it (self excluded).
 
@@ -315,6 +369,8 @@ def build():
         body = sklib.render_markdown(linked)
         standfirst, body_rest = split_standfirst(body)
         body_main, sources_html = split_sources(body_rest)
+        if _UV_MARKER in body_main:
+            body_main = body_main.replace(_UV_MARKER, render_uv_spectrum())
         images, monogram = images_and_monogram(p.metadata)
         html = env.get_template("profile.html").render(
             profile=p.metadata,

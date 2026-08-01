@@ -102,6 +102,23 @@ def test_tiered_page_gets_at_a_glance_tier_nav(tmp_path):
     assert "tier-glance" not in (out / "niacinamide.html").read_text()
 
 
+def test_uv_filter_spectrum_marker_renders_svg(tmp_path):
+    data = tmp_path / "data"
+    out = tmp_path / "_site"
+    _write(data / "ingredients", "sunscreen-uv-filters", "published", "ingredient",
+           "Filters.\n\n<!--uv-filter-spectrum-->\n\nMore.\n")
+    _write(data / "ingredients", "avobenzone", "published", "ingredient")
+    env = {**os.environ, "SK_DATA": str(data), "SK_OUTPUT": str(out)}
+    r = subprocess.run([sys.executable, str(ROOT / "build.py")], env=env,
+                       capture_output=True, text=True)
+    assert r.returncode == 0, r.stderr
+    html = (out / "sunscreen-uv-filters.html").read_text()
+    assert 'class="uv-spectrum"' in html          # the SVG rendered
+    assert 'href="avobenzone.html"' in html        # filter rows link their pages
+    assert "uv-filter-spectrum" not in html        # marker was consumed
+    assert 'class="uv-bar"' in html                # coverage bars present
+
+
 def test_index_nav_hides_categories_with_no_published_content(tmp_path):
     data = tmp_path / "data"
     out = tmp_path / "_site"

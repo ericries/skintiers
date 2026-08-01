@@ -98,3 +98,33 @@ written/updated, add its product back-links. Not done now, applied going forward
 DONE 2026-07-31: auto-generated at build time for ALL cross-reference types (not just ingredient->product).
 build.py reverse-indexes every [[xref]] and renders a "Referenced by" section (published referrers only,
 grouped by type) on every page. No manual back-link maintenance needed; the one-time backfill is moot.
+
+## Next phase (2026-07-31): routine visualization + simple infographics
+User-approved direction. Be judicious on tokens; cheaper models (Sonnet) for drafting, Opus only to verify claims.
+
+### A. Routine visualization (the big one)
+A `list` of `kind: routine` gets an at-a-glance dashboard computed from its products:
+- **How well it works** (aggregate of the products' two-axis effect x evidence grades)
+- **Ingredients as a whole** (deduped union of the products' key actives, each linked)
+- **Conditions/goals it serves** (union of what its products/actives are graded for)
+- **Tier distribution** (how many products are top-tier vs low-tier)
+Technical approach (static site, no backend):
+1. **Schema (the key gap):** routine pages need a machine-readable ordered `steps:` list, e.g.
+   `steps: [{when: AM|PM, product: <slug>, note: ...}]` (PROPOSE + confirm the exact shape before locking it).
+2. **build.py bakes the metadata:** aggregate each routine's steps -> {grade rollup, ingredient union, conditions,
+   tier counts} and emit `_site/routines.json` (or per-page data- attributes). build.py already loads grades +
+   [[ingredient]] links + the reverse-xref index, so the plumbing exists.
+3. **Client JS** renders the dashboard dynamically from the pre-baked JSON (grade bar, ingredient chips, condition
+   tags, filtering). No runtime computation.
+4. **Generated icons** (SVG, standardized size) for conditions/ingredient classes; **product badges** = each product
+   photo cropped/framed to a consistent size/layout with a tier badge overlay.
+Start small: schema -> build.py aggregation JSON -> a rudimentary renderer, then icons/badges.
+
+### B. Simple infographics
+- **Sunscreen filter UV-coverage chart** (STARTED 2026-07-31): a static SVG spectrum (280-400 nm, UVB / UVA-II / UVA-I
+  bands + the 370 nm broad-spectrum threshold) showing which wavelengths each filter covers, rendered from a small
+  build.py data map onto [[sunscreen-uv-filters]]. First rudimentary version shipped; refine with per-filter
+  absorption maxima once sourced from the filter ingredient pages / CIR, and add a per-sunscreen "which filters are
+  present" view on each SPF product page.
+- Other infographic candidates: tier-distribution bars (feeds the routine dashboard), health-vs-cosmetic split, an
+  ingredient's product-count. Reuse the same static-SVG + build.py-data pattern.

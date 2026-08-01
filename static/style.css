@@ -149,6 +149,20 @@ sup a{font-family:var(--mono);font-size:.66em;border:none;padding:0 1px}
 .tier-glance .tg-n{display:inline-flex;align-items:center;justify-content:center;min-width:19px;height:19px;border-radius:4px;background:color-mix(in srgb,var(--accent) 14%,transparent);color:var(--accent);font-family:var(--mono);font-size:11px;font-weight:500}
 .tier-glance li a:hover .tg-n{background:var(--accent);color:var(--card)}
 
+/* sunscreen UV-filter coverage infographic */
+.uv-spectrum{display:block;width:100%;height:auto;max-width:600px;margin:6px 0 22px;font-family:var(--mono)}
+.uv-band-uvb{fill:color-mix(in srgb,#d98a1f 13%,transparent)}
+.uv-band-uva2{fill:color-mix(in srgb,#6c5ce7 11%,transparent)}
+.uv-band-uva1{fill:color-mix(in srgb,#6c5ce7 18%,transparent)}
+.uv-bandlabel{fill:var(--muted);font-size:10px;letter-spacing:.1em}
+.uv-tick{fill:var(--faint);font-size:9px}
+.uv-broad{stroke:var(--accent);stroke-width:1;stroke-dasharray:3 3;opacity:.75}
+.uv-broadlabel{fill:var(--accent);font-size:8.5px;letter-spacing:.04em}
+.uv-label{fill:var(--ink);font-size:11px}
+.uv-spectrum a{cursor:pointer}
+.uv-spectrum a:hover .uv-label{fill:var(--accent)}
+.uv-bar{fill:color-mix(in srgb,var(--accent) 52%,transparent)}
+
 /* listing + index pages */
 .page-head{padding:44px 0 4px}
 .page-head h1{font-size:34px}

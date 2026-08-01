@@ -3,6 +3,10 @@
 # Rendered to _site/whats-new.html (footer link).
 
 - date: '2026-07-31'
+  title: 'Added a sunscreen-filter UV-coverage infographic: which wavelengths each filter blocks, across
+    the UVB/UVA bands.'
+  slug: sunscreen-uv-filters
+- date: '2026-07-31'
   title: Added a Cetaphil brand page (gentle mass-market dermatology skincare, Galderma-owned, since 1947).
   slug: cetaphil
 - date: '2026-07-31'
