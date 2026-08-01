@@ -81,6 +81,27 @@ def test_tagged_section_does_not_name_the_site(tmp_path):
     assert "Also tagged" in html   # the section still renders, just without the site name
 
 
+def test_tiered_page_gets_at_a_glance_tier_nav(tmp_path):
+    # A page with 2+ "## Tier N:" headings gets an auto "At a glance" click-down nav.
+    data = tmp_path / "data"
+    out = tmp_path / "_site"
+    body = ("Intro.\n\n## Tier 1: The Foundation\n\nText.\n\n"
+            "## Tier 2: Reliable Adjuncts\n\nMore.\n\n## What this page is not\n\nEnd.\n")
+    _write(data / "goals", "anti-aging", "published", "goal", body)
+    _write(data / "ingredients", "niacinamide", "published", "ingredient")  # not tiered
+    env = {**os.environ, "SK_DATA": str(data), "SK_OUTPUT": str(out)}
+    r = subprocess.run([sys.executable, str(ROOT / "build.py")], env=env,
+                       capture_output=True, text=True)
+    assert r.returncode == 0, r.stderr
+    ag = (out / "anti-aging.html").read_text()
+    assert "tier-glance" in ag                       # the nav renders
+    assert 'href="#tier-1-the-foundation"' in ag     # click-down link to tier 1
+    assert 'href="#tier-2-reliable-adjuncts"' in ag  # and tier 2
+    assert "What this page is not" not in ag.split("tier-glance")[1].split("</nav>")[0]  # only tiers in the nav
+    # a non-tiered page gets no tier-glance nav
+    assert "tier-glance" not in (out / "niacinamide.html").read_text()
+
+
 def test_index_nav_hides_categories_with_no_published_content(tmp_path):
     data = tmp_path / "data"
     out = tmp_path / "_site"

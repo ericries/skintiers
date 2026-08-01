@@ -63,6 +63,27 @@ TYPE_LABEL.setdefault("person", "People")
 BACKREF_ORDER = ("product", "ingredient", "goal", "condition", "study", "list", "brand", "person")
 
 
+# "At a glance" tier navigation: a page with 2+ "## Tier N:" headings gets a
+# compact click-down summary of its tiers at the top, so a reader can see the
+# whole ranking and jump to any tier. Built from the rendered heading ids so the
+# anchors always match the toc-generated ones.
+_TIER_H2 = re.compile(r'<h2 id="(tier-[^"]+)"[^>]*>(.*?)</h2>', re.I | re.S)
+_TIER_LABEL = re.compile(r"^\s*Tier\s+(\d+)\s*[:.\-]\s*(.*)$", re.I)
+
+
+def tier_nav_from_html(body_html):
+    """List of {href, num, label} for each '## Tier ...' heading; empty if under 2.
+    'Tier 1: The Foundation' -> num '1', label 'The Foundation'."""
+    items = []
+    for m in _TIER_H2.finditer(body_html):
+        full = re.sub(r"<[^>]+>", "", m.group(2)).strip()
+        lm = _TIER_LABEL.match(full)
+        items.append({"href": "#" + m.group(1),
+                      "num": lm.group(1) if lm else "",
+                      "label": lm.group(2) if lm else full})
+    return items if len(items) >= 2 else []
+
+
 def reverse_xref_index(profiles):
     """Map each slug -> list of profiles whose body [[links]] to it (self excluded).
 
@@ -307,7 +328,8 @@ def build():
             monogram=monogram,
             type_href=TYPE_HREF.get(p.get("type"), "index.html"),
             tagged_groups=tagged_groups_for(p, tag_index),
-            backref_groups=backref_groups_for(p["slug"], rev_index))
+            backref_groups=backref_groups_for(p["slug"], rev_index),
+            tier_nav=tier_nav_from_html(body_main))
         (out / f"{p['slug']}.html").write_text(html)
 
     # Listing pages are always built for every category; only the index nav is

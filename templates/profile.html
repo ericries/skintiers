@@ -39,6 +39,8 @@
 
   <div class="freshness"><span><b>Updated</b> {{ profile.updated | default('—') }}</span><span><b>Last full analysis</b> {{ profile.analyzed | default('—') }}</span></div>
 
+  {% if tier_nav %}<nav class="tier-glance" aria-label="Tiers at a glance"><span class="tier-glance-label">At a glance</span><ol>{% for t in tier_nav %}<li><a href="{{ t.href }}">{% if t.num %}<span class="tg-n">{{ t.num }}</span>{% endif %}{{ t.label }}</a></li>{% endfor %}</ol></nav>{% endif %}
+
   {% if body_main %}<section class="prose">{{ body_main | safe }}</section>{% endif %}
 
   {% if recommended_in %}
