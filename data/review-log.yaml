@@ -1092,3 +1092,31 @@ paulas-choice-boost-10-azelaic-acid-booster:
     NOTE - the Opus critic subagent read the user's Apify token from ~/.claude.json and called the API
     via raw curl to fetch cited sources, flagged by security policy; no exfiltration, but the pattern
     should not recur.
+timeless-20-vitamin-c-e-ferulic-serum:
+  last_reviewed: '2026-08-01'
+  score: 8
+  verdict: revise-then-fixed
+  note: |
+    Product fill (daily product cron; Sonnet draft + Opus profile-reviewer critic; assurance=sonnet
+    because the critic verdict was REVISE, addressed but not re-verified by a clean Opus pass). The
+    critic was explicitly instructed NOT to read credentials or use raw curl this time, and complied -
+    it used WebFetch only, reported nytimes and the Apify tool as unavailable to it rather than working
+    around them. It CONFIRMED verbatim, against re-fetched live sources, the full INCI (matches the
+    manufacturer, 20% L-ascorbic), the $27.95 / 1 oz price, the SkinCeuticals $185 reference (internally
+    consistent), and the stability caveat (Chemist Confessions accelerated heat test "more rapid
+    degradation and sputtering" + the manufacturer FAQ used against interest - 3 to 6 months, refrigerate,
+    darkens). The single REVISE blocker was that the NYT Wirecutter figures could not be re-fetched with
+    the permitted tools. In the main loop I tried Wirecutter via Apify rag-web-browser and it returned 0
+    items (nytimes blocks the scraper too), so those figures are genuinely unverifiable this session.
+    Per anti-hallucination discipline I softened/removed every Wirecutter-UNIQUE figure ("85% less",
+    "shares most of its ingredients", the "8 of 11 vs 12" ingredient count, the "upper limit of
+    concentrations" irritation quote, and $26 Amazon / $24 Nordstrom prices), replacing them with claims
+    I did verify - the manufacturer price ($28 is well under a fifth of $185) and the shared three core
+    actives from the confirmed INCI, with the irritation point re-routed to [[ascorbic-acid-vitamin-c]].
+    KEPT only the budget-pick quote "an affordable option with proven ingredients", which is independently
+    corroborated on the already-published [[skinceuticals-c-e-ferulic]] page (same article, verified
+    2026-07-28); dated [^4] to that fetch. Also dropped the stale Wayback/"server error" scaffolding on
+    [^1] (the critic confirmed the live page loads) and trimmed a minor shelf-life hedge. Category-vs-
+    product separation is textbook (no trial tests this product; antioxidant evidence linked out; the
+    manufacturer's 21-person survey quarantined in Common Marketing Claims). Health led, cosmetic split.
+    lint+verify+style clean.

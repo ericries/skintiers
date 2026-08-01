@@ -2,6 +2,9 @@
 # Newest entries at the TOP. Append with: sk log "message" [--slug SLUG] [--date YYYY-MM-DD]
 # Rendered to _site/whats-new.html (footer link).
 
+- date: '2026-08-01'
+  title: Added Timeless 20% Vitamin C + E Ferulic Acid Serum — a ~$28 L-ascorbic/E/ferulic serum widely
+    cited as a SkinCeuticals C E Ferulic dupe, with the oxidation/shelf-life caveat covered honestly.
 - date: '2026-07-31'
   title: Added Paula's Choice 10% Azelaic Acid Booster — the fourth azelaic option on the site and the
     only 10% one that pairs a labeled BHA (0.5% salicylic acid) with the azelaic acid.
