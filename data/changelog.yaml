@@ -3,6 +3,11 @@
 # Rendered to _site/whats-new.html (footer link).
 
 - date: '2026-08-03'
+  title: The site now has a People directory (and a Brands one), and each expert's page summarizes the
+    videos we've verified from them — Dr Michelle Wong's page, for instance, now lists her mineral-sunscreen
+    Short. Behind the scenes, a private local cache stores transcripts and sources so we never re-fetch
+    when double-checking a claim.
+- date: '2026-08-03'
   title: 'Built a YouTube transcript tool (scripts/yt_transcript.py via yt-dlp) so a creator''s video
     is only ever cited from its actual spoken content, not its caption. First transcript-verified video
     is live: Dr Michelle Wong''s Short on why you don''t need mineral sunscreen, on the UV-filters page.'

@@ -4,4 +4,8 @@ __pycache__/
 .venv/
 .DS_Store
 
+# Private local verbatim cache (transcripts, PDFs, saved fetches) - never on the
+# public site, and gitignored so verbatim copyrighted material is not committed.
+research-cache/
+
 .claude/settings.local.json

@@ -1313,3 +1313,20 @@ yt-transcript-tool-and-first-verified-video:
     creator. Contrast with the earlier removed pH TikTok (caption-only, unverifiable transcript - TikTok is
     anti-bot walled). NEXT: user flagged yt-dlp can also do TikTok subtitles (HN 48214399) - extend later.
     Writing-guide + memory updated with the transcript-first workflow. lint+style clean; full suite 154 green.
+expert-directory-and-private-research-cache:
+  last_reviewed: '2026-08-03'
+  score: 9
+  verdict: self-reviewed
+  note: |
+    Two user-requested pieces. (1) EXPERT/INFLUENCER DIRECTORY: added person + brand to build.py LISTINGS,
+    so the site now generates public People (17) and Brands (9) directory pages, both in the index nav. Each
+    person's page now summarises what we have found from them: build.py builds a reverse index of every
+    expert-video card across published pages keyed by creator_slug and renders a "Verified videos from
+    <name>" section on that person's page (title, platform, thesis, and which page it's cited on). Live:
+    Michelle Wong's page shows her mineral-sunscreen Short, cited on [[sunscreen-uv-filters]].
+    (2) PRIVATE VERBATIM CACHE: `research-cache/` (transcripts/ pdfs/ web/), GITIGNORED (holds verbatim
+    copyrighted material, so kept out of the possibly-public repo) and never built into _site (build only
+    copies static/ + data/). scripts/yt_transcript.py is now cache-aware - caches each transcript by video
+    id (json canonical + txt readable), serves cache hits without re-fetching (`[cached]`), `--refresh` to
+    bypass. Convention documented in docs/research-cache.md. 3 new tests (video_id extraction, cache hit
+    avoids network); full suite 156 green. Cache confirmed gitignored via git check-ignore.

@@ -108,6 +108,20 @@
   </section>
   {% endif %}
 
+  {% if creator_videos %}
+  <section class="vids">
+    <h2>Verified videos from {{ profile.name }}</h2>
+    <p class="vids-note">Videos of theirs cited on the site, each checked against its own transcript before use.</p>
+    {% for v in creator_videos %}
+    <div class="vid">
+      <div class="vid-head"><a class="vid-title" href="{{ v.url }}" rel="nofollow noopener" target="_blank">{{ v.title }}</a>{% if v.platform %}<span class="vid-plat">{{ v.platform }}</span>{% endif %}</div>
+      {% if v.thesis %}<p class="vid-thesis">{{ v.thesis }}</p>{% endif %}
+      <div class="vid-on">Cited on <a href="{{ v.on_slug }}.html">{{ v.on_name }}</a></div>
+    </div>
+    {% endfor %}
+  </section>
+  {% endif %}
+
   {% if recommended_in %}
   <section class="prose">
     <h2>Recommended In</h2>

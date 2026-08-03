@@ -18,6 +18,8 @@ LISTINGS = (
     ("goal", "goals", "Goals"),
     ("study", "studies", "Studies"),
     ("list", "lists", "Lists"),
+    ("person", "people", "People"),
+    ("brand", "brands", "Brands"),
 )
 
 # High-level buckets for the Products index. Two are by product format
@@ -550,6 +552,19 @@ def build():
     by_slug = {p["slug"]: p for p in profiles}
     routines_json = {}
 
+    # Reverse index of the expert-video cards across the site, keyed by the
+    # creator's person slug, so each expert's page can summarise what we have
+    # verified from them (only videos cited on PUBLISHED pages are surfaced).
+    creator_videos = {}
+    for p in profiles:
+        if p.get("status") != "published":
+            continue
+        for v in p.metadata.get("videos") or []:
+            cs = v.get("creator_slug")
+            if cs:
+                creator_videos.setdefault(cs, []).append(
+                    {**v, "on_slug": p["slug"], "on_name": p.metadata.get("name")})
+
     for p in profiles:
         linked = sklib.linkify_xrefs(p.content, slugs, names)
         body = sklib.render_markdown(linked)
@@ -595,7 +610,8 @@ def build():
             tier_nav=tier_nav_from_html(body_main),
             routine=routine,
             uv_spectrum=uv_spectrum,
-            videos=p.metadata.get("videos") or [])
+            videos=p.metadata.get("videos") or [],
+            creator_videos=(creator_videos.get(p["slug"], []) if p.get("type") == "person" else []))
         (out / f"{p['slug']}.html").write_text(html)
 
     # Baked routine rollups for a future client-side renderer (the pages
