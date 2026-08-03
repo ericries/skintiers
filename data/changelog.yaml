@@ -3,6 +3,11 @@
 # Rendered to _site/whats-new.html (footer link).
 
 - date: '2026-08-03'
+  title: 'Sunscreen product pages now show a UV-filter coverage chart — a spectrum of which UVB/UVA wavelengths
+    that specific sunscreen''s filters protect against (e.g. EltaMD UV Clear''s zinc oxide + octinoxate).
+    Also refined the routine dashboard: a plain ''Does not contain'' line for common missing actives,
+    and fixed the tier bar clipping its labels.'
+- date: '2026-08-03'
   title: Added a profile of Zoe Diana Draelos, MD — a Duke consulting professor and one of the most prolific
     clinical trialists in cosmetic dermatology, whose peer-reviewed studies (niacinamide and sebum, cleansers
     and the rosacea barrier, ivermectin trials) are the kind of primary evidence this site is built on.

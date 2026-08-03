@@ -162,6 +162,8 @@ sup a{font-family:var(--mono);font-size:.66em;border:none;padding:0 1px}
 .uv-spectrum a{cursor:pointer}
 .uv-spectrum a:hover .uv-label{fill:var(--accent)}
 .uv-bar{fill:color-mix(in srgb,var(--accent) 52%,transparent)}
+.uv-product{margin:26px 0 8px}
+.uv-product-note{font-size:13.5px;color:var(--muted);max-width:60ch;margin:0 0 6px}
 
 /* listing + index pages */
 .page-head{padding:44px 0 4px}
@@ -222,8 +224,8 @@ footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;
 .rd-strength-word{font-family:var(--serif);font-size:26px;font-weight:600;color:var(--tier-best)}
 .rd-strength .rd-effect{margin:6px 0 0}
 .rd-cap{font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin-top:5px}
-.rd-tiers{display:flex;flex:1;min-width:180px;gap:3px;height:26px}
-.rd-tier{display:flex;align-items:center;justify-content:center;font-family:var(--mono);font-size:10px;letter-spacing:.06em;text-transform:uppercase;color:#fff;border-radius:3px;padding:0 8px;white-space:nowrap;overflow:hidden}
+.rd-tiers{display:flex;flex:1 1 auto;min-width:180px;gap:3px;height:26px}
+.rd-tier{display:flex;align-items:center;justify-content:center;flex:0 1 auto;min-width:max-content;font-family:var(--mono);font-size:10px;letter-spacing:.06em;text-transform:uppercase;color:#fff;border-radius:3px;padding:0 10px;white-space:nowrap}
 .rd-tier-top{background:var(--tier-best)}
 .rd-tier-mid{background:var(--tier-mid)}
 .rd-tier-entry{background:var(--tier-weak)}
@@ -235,7 +237,6 @@ footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;
 .rd-chip-goal{background:var(--accent-soft);border-color:transparent;color:var(--accent)}
 .rd-x{margin-left:5px;font-weight:700;color:var(--tier-best)}
 .rd-chip-absent{color:var(--faint);border-style:dashed;border-color:var(--rule-strong)}
-.rd-absent-note{font-family:var(--serif);font-size:12.5px;font-style:italic;color:var(--faint);align-self:center;margin-left:2px}
 .rd-steps{display:flex;gap:30px;margin-top:20px;flex-wrap:wrap}
 .rd-phase{flex:1;min-width:220px}
 .rd-phase-h{margin:0 0 8px}

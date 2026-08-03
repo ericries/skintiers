@@ -104,6 +104,17 @@ UV_FILTERS = [  # (slug, display name, start nm, end nm)
     ("ethylhexyl-triazone", "Ethylhexyl triazone", 290, 320),
 ]
 _UV_MARKER = "<!--uv-filter-spectrum-->"
+_UV_SLUGS = {f[0] for f in UV_FILTERS}
+
+
+def product_uv_filters(content):
+    """The UV_FILTERS entries a body references via [[xref]], in UV_FILTERS
+    order. Used to render a per-sunscreen coverage chart from the filters the
+    product's own page actually names."""
+    refs = set()
+    for m in sklib._XREF_RE.finditer(content):
+        refs.add(m.group(1).split("#")[0].split("|")[0].strip())
+    return [f for f in UV_FILTERS if f[0] in refs]
 
 
 def render_uv_spectrum(filters=UV_FILTERS):
@@ -256,20 +267,16 @@ _ROUTINE_TIERS = (
     ("entry", "Entry", {"minimal", "none"}),
 )
 
-# The broadly-notable actives a reader commonly asks about, each satisfied by
-# any of a family of ingredient slugs. Used to tell the reader which notable
-# categories a routine does NOT include — informational, not a criticism.
+# Really-common, household-name actives, each satisfied by any of a family of
+# ingredient slugs. Used to state plainly which of these a routine does not
+# contain. Kept deliberately short (only ingredients a general reader would
+# recognize and might look for) so the line stays neutral, not a checklist.
 _NOTABLE_ACTIVES = (
-    ("A retinoid", {"retinol", "retinaldehyde", "adapalene", "tretinoin",
-                    "retinyl-esters", "retinyl-retinoate", "bakuchiol"}),
+    ("Retinoid", {"retinol", "retinaldehyde", "adapalene", "tretinoin",
+                  "retinyl-esters", "retinyl-retinoate", "bakuchiol"}),
     ("Vitamin C", {"ascorbic-acid-vitamin-c", "vitamin-c"}),
     ("Niacinamide", {"niacinamide"}),
-    ("Azelaic acid", {"azelaic-acid"}),
-    ("An exfoliating acid", {"salicylic-acid", "glycolic-acid", "lactic-acid",
-                             "mandelic-acid"}),
-    ("Sun protection (SPF)", {"zinc-oxide", "titanium-dioxide", "avobenzone",
-                              "octinoxate", "octisalate", "homosalate", "octocrylene",
-                              "bisoctrizole", "ethylhexyl-triazone", "sunscreen-uv-filters"}),
+    ("Exfoliant", {"salicylic-acid", "glycolic-acid", "lactic-acid", "mandelic-acid"}),
 )
 
 
@@ -535,6 +542,13 @@ def build():
         if _UV_MARKER in body_main:
             body_main = body_main.replace(_UV_MARKER, render_uv_spectrum())
         images, monogram = images_and_monogram(p.metadata)
+        # Per-sunscreen UV-filter coverage chart: only for Sunscreen products
+        # that name at least one known filter on their page.
+        uv_spectrum = None
+        if p.get("type") == "product" and p.metadata.get("category") == "Sunscreens":
+            fils = product_uv_filters(p.content)
+            if fils:
+                uv_spectrum = render_uv_spectrum(fils)
         routine = routine_summary(p, by_slug)
         if routine is not None:
             routines_json[p["slug"]] = {
@@ -562,7 +576,8 @@ def build():
             tagged_groups=tagged_groups_for(p, tag_index),
             backref_groups=backref_groups_for(p["slug"], rev_index),
             tier_nav=tier_nav_from_html(body_main),
-            routine=routine)
+            routine=routine,
+            uv_spectrum=uv_spectrum)
         (out / f"{p['slug']}.html").write_text(html)
 
     # Baked routine rollups for a future client-side renderer (the pages

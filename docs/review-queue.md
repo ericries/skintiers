@@ -126,11 +126,15 @@ so those stay auto-synced with no extra fields.
 - DONE: composite "how well it works" score — `strength` (Strong/Solid/Moderate/Light, mean of products'
   best health effect), rendered prominently and in routines.json. Labeled as a summary of the graded
   products, not a routine trial.
-- DONE (user request 2026-08-03): **layered-ingredient counts + notable-absent list.** An active that
-  appears in more than one of the routine's products shows an "x2 / x3 / x4" badge (e.g. niacinamide x4
-  in the oily routine). A "Not included" row lists broadly-notable actives the routine omits (from
-  `_NOTABLE_ACTIVES`: a retinoid, vitamin C, niacinamide, azelaic acid, an exfoliating acid, SPF),
-  explicitly framed as information, not a shortcoming. Both in build.py routine_summary + routines.json.
+- DONE (user request 2026-08-03): **layered-ingredient counts + "Does not contain" list.** An active in
+  more than one of the routine's products shows an "x2 / x3 / x4" badge (e.g. niacinamide x4 in the oily
+  routine). A plain "Does not contain" row lists only really-common, household-name actives the routine
+  omits (`_NOTABLE_ACTIVES`: Retinoid, Vitamin C, Niacinamide, Exfoliant) — stated neutrally, no
+  disclaimer (the user found "Not included" + a disclaimer read as a drawback callout). Azelaic acid and
+  SPF were dropped from the list as specialist / not-an-ingredient. In build.py routine_summary + routines.json.
+- DONE 2026-08-03: **tier-distribution bar no longer clips labels.** Narrow segments used flex-basis:0 +
+  overflow:hidden, so "TOP-TIER x1" showed as "P-TIER". Now segments flex-grow by count but never shrink
+  below their text (min-width:max-content, no overflow clip).
 
 - DONE 2026-08-03: **product badges.** Each routine step now shows the product's photo at a standardized
   46px square (CSS object-fit crop, no server-side image processing) inside a tier-colored frame
@@ -148,8 +152,11 @@ so those stay auto-synced with no extra fields.
 - **Sunscreen filter UV-coverage chart** (STARTED 2026-07-31): a static SVG spectrum (280-400 nm, UVB / UVA-II / UVA-I
   bands + the 370 nm broad-spectrum threshold) showing which wavelengths each filter covers, rendered from a small
   build.py data map onto [[sunscreen-uv-filters]]. First rudimentary version shipped; refine with per-filter
-  absorption maxima once sourced from the filter ingredient pages / CIR, and add a per-sunscreen "which filters are
-  present" view on each SPF product page.
+  absorption maxima once sourced from the filter ingredient pages / CIR.
+  DONE 2026-08-03: the **per-sunscreen "which filters are present" chart now auto-renders on every Sunscreen
+  product page** (build.py `product_uv_filters()` derives the filters from the [[xref]]s the page names, then
+  `render_uv_spectrum(subset)`, shown in a `.uv-product` section). Live on eltamd-uv-clear-spf-46,
+  beauty-of-joseon-relief-sun-rice-probiotics-spf50, la-roche-posay-anthelios-melt-in-milk-spf-60.
 - Other infographic candidates: tier-distribution bars (feeds the routine dashboard), health-vs-cosmetic split, an
   ingredient's product-count. Reuse the same static-SVG + build.py-data pattern.
 

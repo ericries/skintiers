@@ -302,8 +302,8 @@ def test_routine_dashboard_aggregates_from_products(tmp_path):
     assert rj["strength"]["segs"] == 2
     assert rj["ingredient_slugs"] == ["niacinamide", "azelaic-acid", "ceramides"]  # most-layered first
     assert rj["ingredients"]["niacinamide"] == 2         # niacinamide in 2 products -> x2
-    assert "A retinoid" in rj["absent"]                  # notable-absent categories flagged
-    assert "Niacinamide" not in rj["absent"]             # present -> not absent
+    assert "Retinoid" in rj["absent"]                    # common actives the routine lacks
+    assert "Niacinamide" not in rj["absent"]             # present -> not listed
     assert rj["serves_slugs"] == ["acne"]
     # rendered dashboard
     html = (out / "myroutine.html").read_text()
@@ -311,7 +311,7 @@ def test_routine_dashboard_aggregates_from_products(tmp_path):
     assert "Moderate" in html                            # composite strength word rendered
     assert "how well it works" in html
     assert 'class="rd-x"' in html                        # x2 badge on the layered active
-    assert "Not included" in html                        # absent row present
+    assert "Does not contain" in html                    # absent row present
     assert "rd-chip-absent" in html
     assert 'href="azelaic-acid.html"' in html            # active-ingredient chip links out
     assert 'href="acne.html"' in html                    # "good for" chip
