@@ -1262,12 +1262,12 @@ social-media-pipeline-first-instance:
     First real instance of the social-media expert pipeline (user asked to see it work), built with a hard
     verification bar: I cannot watch videos, so I only used content I could verify. TWO deliverables + a
     reusable mechanism (`videos:` frontmatter on any page; routine `source:` block).
-    (1) VIDEO ENHANCEMENT on [[ascorbic-acid-vitamin-c]]: a real Michelle Wong (Lab Muffin) TikTok short
-    (video/7178297870498483457) - verified to RESOLVE (Apify HTTP 200 under her verified channel), thesis
-    from its indexed caption ("pH isn't a good way to test if your vitamin C serum works"), and the
-    underlying chemistry corroborated by her own fully-fetched vitamin C guide + this page's own evidence
-    (ascorbic acid oxidises to inactive form while pH stays low). Creator is a credentialed cosmetic chemist
-    (PhD), links [[michelle-wong]]. No fabricated quotes - only the caption thesis + cited science.
+    (1) VIDEO ENHANCEMENT on [[ascorbic-acid-vitamin-c]]: a Michelle Wong (Lab Muffin) pH TikTok was added
+    then REMOVED same day. User rule (2026-08-03): do not include a video unless its actual TRANSCRIPT is
+    verifiable - a resolving URL + indexed caption is NOT enough. I could confirm the URL resolves (Apify
+    HTTP 200) and the caption, but TikTok is anti-bot walled so no transcript was obtainable; pulled it. The
+    reusable `videos:` mechanism stays; it must only be populated when a transcript can be read (prefer
+    YouTube Shorts, which expose transcripts, or a dedicated TikTok scraper, or user-supplied transcripts).
     (2) ROUTINE entirely sourced from social media: [[lab-muffin-minimal-core-routine]] - built on Wong's
     non-sponsored, repeatedly-stated core principle (cleanser + moisturizer + sunscreen are the cornerstones,
     above any active), mapped to the site's graded products (incl. the CeraVe cleanser she recommends), with

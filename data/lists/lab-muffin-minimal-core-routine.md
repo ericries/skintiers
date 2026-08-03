@@ -40,7 +40,7 @@ type: list
 updated: '2026-08-03'
 ---
 
-A deliberately minimal routine that follows the core message cosmetic chemist [[michelle-wong|Michelle Wong]] (Lab Muffin Beauty Science) repeats across her videos and guides: the products that matter most are the least glamorous ones, a gentle cleanser, a moisturizer, and daily sunscreen, and those cornerstones do more for most skin than any trending active. It is built only from products already graded on the site.
+A deliberately minimal routine that follows the core message cosmetic chemist [[michelle-wong|Michelle Wong]] (Lab Muffin Beauty Science) sets out in her published basic-skincare guidance: the products that matter most are the least glamorous ones, a gentle cleanser, a moisturizer, and daily sunscreen, and those cornerstones do more for most skin than any trending active. It is built only from products already graded on the site.
 
 ## What the routine is built from
 
