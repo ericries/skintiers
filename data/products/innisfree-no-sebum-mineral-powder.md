@@ -32,6 +32,8 @@ images:
   source: INCIDecoder
   source_url: https://incidecoder.com/products/innisfree-no-sebum-mineral-powder
 name: Innisfree No-Sebum Mineral Powder
+key_actives:
+- silica
 slug: innisfree-no-sebum-mineral-powder
 status: published
 type: product

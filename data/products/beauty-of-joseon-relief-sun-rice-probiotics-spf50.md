@@ -36,6 +36,10 @@ recommended_in:
 - source: allure.com
   title: 'Allure, The 6 Best Beauty of Joseon Products (names Relief Sun: Rice + Probiotics)'
   url: https://www.allure.com/story/best-beauty-of-joseon-products
+key_actives:
+- bisoctrizole
+- ethylhexyl-triazone
+- niacinamide
 slug: beauty-of-joseon-relief-sun-rice-probiotics-spf50
 status: published
 type: product

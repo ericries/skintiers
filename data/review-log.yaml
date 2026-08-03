@@ -1177,3 +1177,41 @@ skinmedica-retinol-complex-1-0:
     modest/preliminary (undisclosed-strength OTC retinol, no product trial); honest comparison to cheaper
     FDA-cleared [[differin-adapalene-0-1-gel]], Rx [[tretinoin-0-025-cream]], and [[anua-nano-retinol-0-3-niacin-renewing-serum]].
     Carries key_actives [retinol, niacinamide] for the routine dashboard. lint+verify+style clean.
+rosacea-friendly-routine:
+  last_reviewed: '2026-08-03'
+  score: 8
+  verdict: self-reviewed
+  note: |
+    Routine list filled (routine-viz phase; Sonnet-quality main-loop authoring + self-check, no Opus
+    critic per the curatorial LIST rule; assurance=sonnet, published --force). Low-irritant rosacea routine
+    drawn ONLY from published site products: gentle LRP Toleriane cleanser + Toleriane moisturizer around a
+    single active, Cos De BAHA 20% azelaic acid (the topical with the best rosacea trial evidence, linked to
+    [[azelaic-acid]]/[[rosacea]]), plus EltaMD sunscreen (UV is a top rosacea trigger). Uses the locked
+    schema: for:[rosacea, rosacea-papulopustular, rosacea-erythematotelangiectatic] + AM/PM steps. Dashboard
+    computes 4 products, 2 top-tier, "Solid" overall; actives azelaic-acid/ceramides/niacinamide/zinc-oxide/
+    octinoxate. Backfilled key_actives on la-roche-posay-toleriane. Descriptive (non-imperative) voice; each
+    claim links out to the product/ingredient/condition page that carries the citations. lint+verify+style clean.
+oily-skin-korean-routine:
+  last_reviewed: '2026-08-03'
+  score: 8
+  verdict: self-reviewed
+  note: |
+    Routine list filled (routine-viz phase; Sonnet-quality main-loop authoring + self-check, no Opus critic;
+    assurance=sonnet, published --force). Korean-brand-led oily-skin routine from published site products,
+    anchored on niacinamide (Some By Mi Yuja Niacin serum) with oil-free hydration (COSRX birch-sap lotion),
+    a silica mattifying powder (Innisfree No Sebum), and a light BoJ chemical sunscreen. Honestly flags the
+    two non-Korean functional picks (CeraVe foaming cleanser, LRP Effaclar Mat) rather than implying an
+    all-Korean lineup. for:[oily-skin] + AM/PM steps. Dashboard: 6 products, 1 top-tier, "Moderate" overall;
+    actives niacinamide/silica/hyaluronic-acid/bisoctrizole/ethylhexyl-triazone. Backfilled key_actives on
+    5 products (some-by-mi, effaclar-mat, innisfree, cosrx-lotion, boj-sunscreen), each derived from the
+    product's own declared actives (comparator links excluded). lint+verify+style clean.
+routine-dashboard-composite-strength:
+  last_reviewed: '2026-08-03'
+  score: 9
+  verdict: self-reviewed
+  note: |
+    Feature (routine-viz phase): added the "how well it works" composite the user asked for. build.py's
+    routine_summary now computes strength = mean of each product's best HEALTH effect (0-4) mapped to a plain
+    word (Strong/Solid/Moderate/Light), rendered prominently in .rd-strength with a 4-seg bar and emitted to
+    routines.json. Labeled honestly as a summary of the graded products, not a trial of the routine. Test
+    updated; full suite 149 green. Live reads: acne Solid (2.8), rosacea Solid (2.75), oily Moderate (2.0).

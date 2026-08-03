@@ -296,11 +296,16 @@ def test_routine_dashboard_aggregates_from_products(tmp_path):
     assert rj["product_count"] == 3
     assert rj["top_tier_count"] == 1                      # only "treatment" (notable)
     assert rj["tiers"] == {"top": 1, "mid": 1, "entry": 1}
+    # composite strength: mean of effects notable(3)+modest(2)+minimal(1) = 2.0 -> "Moderate"
+    assert rj["strength"]["label"] == "Moderate"
+    assert rj["strength"]["segs"] == 2
     assert rj["ingredient_slugs"] == ["azelaic-acid", "ceramides"]  # cleanser adds none
     assert rj["serves_slugs"] == ["acne"]
     # rendered dashboard
     html = (out / "myroutine.html").read_text()
     assert 'class="routine-dash"' in html
+    assert "Moderate" in html                            # composite strength word rendered
+    assert "how well it works" in html
     assert 'href="azelaic-acid.html"' in html            # active-ingredient chip links out
     assert 'href="acne.html"' in html                    # "good for" chip
     assert 'href="treatment.html"' in html               # a step links its product

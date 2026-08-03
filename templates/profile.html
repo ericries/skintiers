@@ -44,6 +44,7 @@
   {% if routine %}
   <section class="routine-dash" aria-label="Routine at a glance">
     <div class="rd-stats">
+      <div class="rd-stat rd-strength"><span class="rd-strength-word">{{ routine.strength.label }}</span><span class="rd-effect rd-effect-{{ routine.strength.segs }}" aria-hidden="true">{% for n in range(4) %}<i class="{{ 'on' if n < routine.strength.segs }}"></i>{% endfor %}</span><span class="rd-cap">how well it works</span></div>
       <div class="rd-stat"><span class="rd-num">{{ routine.product_count }}</span><span class="rd-cap">product{{ '' if routine.product_count == 1 else 's' }}</span></div>
       <div class="rd-stat"><span class="rd-num">{{ routine.top_tier_count }}</span><span class="rd-cap">top-tier</span></div>
       <div class="rd-tiers" role="img" aria-label="Tier distribution: {% for t in routine.tiers %}{{ t.count }} {{ t.label }}{{ '; ' if not loop.last }}{% endfor %}">

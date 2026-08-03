@@ -306,14 +306,26 @@ def routine_summary(profile, by_slug):
         phases.get((step.get("when") or "AM").upper().strip(), phases["AM"]).append(row)
 
     tier_counts = {key: 0 for key, _label, _words in _ROUTINE_TIERS}
+    seg_values = []
     for prod in products:
         word = _top_health_effect(prod.metadata)
+        seg_values.append(EFFECT_SEGS.get(word, 0))
         for key, _label, words in _ROUTINE_TIERS:
             if word in words:
                 tier_counts[key] += 1
                 break
     tiers = [{"key": key, "label": label, "count": tier_counts[key]}
              for key, label, _words in _ROUTINE_TIERS]
+
+    # A single "how well it works" read: the mean of the products' best HEALTH
+    # effect (0 to 4), mapped to a plain word. It is a summary of the graded
+    # products, not a trial of the routine, and is labeled that way on the page.
+    mean_seg = sum(seg_values) / len(seg_values) if seg_values else 0
+    for cutoff, word in ((3.0, "Strong"), (2.25, "Solid"), (1.5, "Moderate"), (0, "Light")):
+        if mean_seg >= cutoff:
+            strength_label = word
+            break
+    strength = {"label": strength_label, "segs": round(mean_seg), "mean": round(mean_seg, 2)}
 
     # Active ingredients "as a whole": the union of each product's declared
     # `key_actives:` (ingredient slugs). This is author-declared rather than
@@ -343,6 +355,7 @@ def routine_summary(profile, by_slug):
         "am": phases["AM"], "pm": phases["PM"],
         "product_count": len(products),
         "top_tier_count": tier_counts["top"],
+        "strength": strength,
         "tiers": tiers,
         "ingredients": ingredients,
         "serves": serves,
@@ -495,6 +508,7 @@ def build():
                 "name": p.metadata.get("name"),
                 "product_count": routine["product_count"],
                 "top_tier_count": routine["top_tier_count"],
+                "strength": routine["strength"],
                 "tiers": {t["key"]: t["count"] for t in routine["tiers"]},
                 "ingredient_slugs": [i["slug"] for i in routine["ingredients"]],
                 "serves_slugs": [s["slug"] for s in routine["serves"]],

@@ -29,6 +29,9 @@ images:
   source: YesStyle
   source_url: https://www.yesstyle.com/en/cosrx-oil-free-ultra-moisturizing-lotion-with-birch-sap/info.html/pid.1052684702
 name: COSRX Oil-Free Ultra-Moisturizing Lotion with Birch Sap
+key_actives:
+- niacinamide
+- hyaluronic-acid
 slug: cosrx-oil-free-ultra-moisturizing-lotion-birch-sap
 status: published
 type: product

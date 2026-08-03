@@ -45,6 +45,8 @@ images:
   source: Stylevana
   source_url: https://www.stylevana.com/en_US/some-by-mi-yuja-niacin-anti-blemish-serum-50ml25801.html
 name: Some By Mi Yuja Niacin 30 Days Blemish Care Serum
+key_actives:
+- niacinamide
 slug: some-by-mi-yuja-niacin-serum
 status: published
 type: product

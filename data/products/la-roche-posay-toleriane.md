@@ -15,6 +15,9 @@ grades:
 images:
 - la-roche-posay-toleriane.jpg
 name: La Roche-Posay Toleriane Double Repair Face Moisturizer
+key_actives:
+- ceramides
+- niacinamide
 slug: la-roche-posay-toleriane
 status: published
 type: product

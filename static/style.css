@@ -218,6 +218,9 @@ footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;
 .rd-stats{display:flex;align-items:center;gap:22px;flex-wrap:wrap}
 .rd-stat{display:flex;flex-direction:column;align-items:flex-start;line-height:1}
 .rd-num{font-family:var(--serif);font-size:34px;font-weight:600;color:var(--ink)}
+.rd-strength{padding-right:22px;border-right:1px solid var(--rule)}
+.rd-strength-word{font-family:var(--serif);font-size:26px;font-weight:600;color:var(--tier-best)}
+.rd-strength .rd-effect{margin:6px 0 0}
 .rd-cap{font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin-top:5px}
 .rd-tiers{display:flex;flex:1;min-width:180px;gap:3px;height:26px}
 .rd-tier{display:flex;align-items:center;justify-content:center;font-family:var(--mono);font-size:10px;letter-spacing:.06em;text-transform:uppercase;color:#fff;border-radius:3px;padding:0 8px;white-space:nowrap;overflow:hidden}

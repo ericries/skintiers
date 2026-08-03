@@ -41,6 +41,8 @@ recommended_in:
 - source: elle.com
   title: ELLE, 12 Best Non-Comedogenic Moisturizers For Acne-Prone Skin in 2024
   url: https://www.elle.com/beauty/g45205900/best-non-comedogenic-moisturizers/
+key_actives:
+- niacinamide
 slug: la-roche-posay-effaclar-mat
 status: published
 type: product

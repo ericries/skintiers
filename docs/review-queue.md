@@ -120,12 +120,19 @@ effect dots. `_site/routines.json` carries the same rollup for a future client-s
 Tier distribution and per-step effect come from each product's existing `grades:` (top HEALTH effect),
 so those stay auto-synced with no extra fields.
 
+**Updated 2026-08-03:**
+- DONE: all 3 routine stubs now live (minimal-acne, rosacea-friendly, oily-skin-korean), each with a
+  populated dashboard. key_actives backfilled on every product they use.
+- DONE: composite "how well it works" score — `strength` (Strong/Solid/Moderate/Light, mean of products'
+  best health effect), rendered prominently and in routines.json. Labeled as a summary of the graded
+  products, not a routine trial.
+
 **Still TODO (heavier, next design week):**
 - **Client JS renderer** over `routines.json` (filtering, interactivity). Static bake covers v1.
 - **Generated icons** (SVG, standardized) for conditions/ingredient classes; **product badges** = each
   product photo cropped/framed to a consistent size with a tier-badge overlay.
-- Fill the other 2 routine stubs (rosacea-friendly, oily-skin Korean) using the locked schema.
-- Aggregate grade "how well it works" as a single composite score if wanted (today it's the tier split).
+- A routines index / landing that surfaces the dashboards (today routines live under Lists).
+- Consider weighting the composite toward treatment actives vs support products (today it's a flat mean).
 
 ### B. Simple infographics
 - **Sunscreen filter UV-coverage chart** (STARTED 2026-07-31): a static SVG spectrum (280-400 nm, UVB / UVA-II / UVA-I
