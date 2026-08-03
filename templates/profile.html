@@ -98,13 +98,18 @@
   <section class="vids">
     <h2>On short-form video</h2>
     {% for v in videos %}
+    {% set emb = video_embed(v.url) %}
     <div class="vid">
       <div class="vid-head"><a class="vid-title" href="{{ v.url }}" rel="nofollow noopener" target="_blank">{{ v.title }}</a>{% if v.platform %}<span class="vid-plat">{{ v.platform }}</span>{% endif %}</div>
       <div class="vid-by">{% if v.creator_slug %}<a href="{{ v.creator_slug }}.html">{{ v.creator }}</a>{% else %}{{ v.creator }}{% endif %}{% if v.credential %} &middot; {{ v.credential }}{% endif %}{% if v.sponsored %} &middot; <span class="vid-ad">sponsored post</span>{% endif %}</div>
+      {% if emb and emb.kind == 'youtube' %}<div class="vid-embed"><iframe src="{{ emb.src }}" title="{{ v.title }}" loading="lazy" frameborder="0" allow="accelerometer; encrypted-media; picture-in-picture; web-share" allowfullscreen></iframe></div>
+      {% elif emb and emb.kind == 'tiktok' %}<blockquote class="tiktok-embed" cite="{{ emb.cite }}" data-video-id="{{ emb.id }}"><section><a href="{{ emb.cite }}" target="_blank" rel="noopener">{{ v.title }}</a></section></blockquote>
+      {% endif %}
       {% if v.thesis %}<p class="vid-thesis">{{ v.thesis }}</p>{% endif %}
       {% if v.note %}<p class="vid-note">{{ v.note }}</p>{% endif %}
     </div>
     {% endfor %}
+    {% if needs_tiktok_js %}<script async src="https://www.tiktok.com/embed.js"></script>{% endif %}
   </section>
   {% endif %}
 

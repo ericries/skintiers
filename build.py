@@ -240,6 +240,28 @@ def split_sources(body_rest):
     return body_rest[:m.start()].rstrip(), body_rest[m.start():].strip()
 
 
+# A video card embeds the video where the platform allows (the static site permits
+# third-party iframes/scripts). YouTube -> responsive iframe; TikTok -> blockquote
+# embed (needs tiktok's embed.js, included once per page). Anything else -> no
+# embed, the link-out in the card stands.
+_YT_EMBED = re.compile(r"(?:youtube\.com/(?:watch\?v=|shorts/|embed/)|youtu\.be/)([A-Za-z0-9_-]{11})")
+_TT_EMBED = re.compile(r"tiktok\.com/.+?/video/(\d+)")
+
+
+def video_embed(url):
+    """Return {kind, id, src|cite} for an embeddable video URL, or None."""
+    if not url:
+        return None
+    m = _YT_EMBED.search(url)
+    if m:
+        return {"kind": "youtube", "id": m.group(1),
+                "src": f"https://www.youtube.com/embed/{m.group(1)}"}
+    m = _TT_EMBED.search(url)
+    if m:
+        return {"kind": "tiktok", "id": m.group(1), "cite": url}
+    return None
+
+
 def grades_view_for(metadata):
     """Build the dossier view rows from a `grades:` frontmatter list."""
     view = []
@@ -547,6 +569,7 @@ ASSURANCE_TIPS = {
 def build():
     env = Environment(loader=FileSystemLoader(str(sklib.TEMPLATES_DIR)), autoescape=True)
     env.globals["assurance_tip"] = lambda level: ASSURANCE_TIPS.get(level, "")
+    env.globals["video_embed"] = video_embed
     out = sklib.OUTPUT_DIR
     if out.exists():
         shutil.rmtree(out)
@@ -620,7 +643,9 @@ def build():
             routine=routine,
             uv_spectrum=uv_spectrum,
             videos=p.metadata.get("videos") or [],
-            creator_videos=(creator_videos.get(p["slug"], []) if p.get("type") == "person" else []))
+            creator_videos=(creator_videos.get(p["slug"], []) if p.get("type") == "person" else []),
+            needs_tiktok_js=any((video_embed(v.get("url")) or {}).get("kind") == "tiktok"
+                                for v in (p.metadata.get("videos") or [])))
         (out / f"{p['slug']}.html").write_text(html)
 
     # Baked routine rollups for a future client-side renderer (the pages

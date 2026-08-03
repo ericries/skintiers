@@ -33,13 +33,12 @@ punch-list in review-log). **Tooling shipped:** `sk audit` (drafted-but-unshippe
 
 ## Open backlog (in rough priority order)
 
-0. **[requested 2026-08-03] EMBED videos, don't just link them.** Standard: whenever a `videos:` card (or
-   any video reference) links a video, embed it where the platform allows - a responsive YouTube iframe built
-   from the video id (`https://www.youtube.com/embed/<id>`), TikTok's blockquote + async embed script. The
-   static GitHub Pages site permits third-party iframes/scripts (the Artifact CSP sandbox does not). Build
-   this into the `.vid` card in profile.html + a small build.py helper to derive the embed URL/id from
-   `videos[].url`; keep the attributed title/creator/thesis text alongside the embed, and keep the plain
-   link as a no-JS fallback. Applies to the existing cards (Wong x2, Ellis, Chemist Confessions).
+0. DONE 2026-08-03: **EMBED videos, don't just link them.** The `.vid` card auto-embeds from `videos[].url`
+   via build.py `video_embed()` - a responsive YouTube iframe or a TikTok blockquote (+ `embed.js` once per
+   page, gated by `needs_tiktok_js`); the attributed text stays and the plain link is the no-JS fallback.
+   Live on all existing cards (Wong x2 incl. the TikTok, Ellis, Chemist Confessions). Follow-on if wanted:
+   embed the videos in the person-page "Verified videos from ..." aggregation too (kept as compact links for
+   now to keep those index pages light).
 0. **[requested 2026-08-03] Add a "Licensed estheticians" credential group to the People directory.** The
    directory groups people by `expertise:` (Dermatologists / Cosmetic chemists / Educators & communicators;
    `PEOPLE_EXPERTISE_ORDER` in build.py). Add a "Licensed estheticians" group and profiles for vetted

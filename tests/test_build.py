@@ -370,7 +370,7 @@ def test_expert_video_card_and_routine_source_render(tmp_path):
         "---\nname: VitC\nslug: vitc\ntype: ingredient\nstatus: published\n"
         "updated: 2026-08-03\nanalyzed: 2026-08-03\n"
         "videos:\n- title: Test Short\n  creator: A Creator\n  creator_slug: creator\n"
-        "  credential: Cosmetic chemist\n  platform: TikTok\n  url: https://example.com/v\n"
+        "  credential: Cosmetic chemist\n  platform: YouTube\n  url: https://www.youtube.com/watch?v=U68MTXuOG9k\n"
         "  thesis: A verifiable claim.\n"
         "---\n\nBody.\n\n## Sources\n\nNone.\n"
     )
@@ -391,7 +391,21 @@ def test_expert_video_card_and_routine_source_render(tmp_path):
     v = (out / "vitc.html").read_text()
     assert 'class="vids"' in v and "Test Short" in v
     assert 'href="creator.html"' in v                    # creator links their person page
-    assert "https://example.com/v" in v                  # links the actual video
+    assert "https://www.youtube.com/watch?v=U68MTXuOG9k" in v   # link-out fallback kept
+    assert 'class="vid-embed"' in v                      # and the video is embedded
+    assert "https://www.youtube.com/embed/U68MTXuOG9k" in v     # responsive iframe src
     rt = (out / "r.html").read_text()
     assert "rd-source" in rt and "Sourced from" in rt
     assert "Sourced note." in rt
+
+
+def test_video_embed_helper():
+    sys.path.insert(0, str(ROOT))
+    import build
+    yt = build.video_embed("https://www.youtube.com/watch?v=U68MTXuOG9k")
+    assert yt["kind"] == "youtube" and yt["src"] == "https://www.youtube.com/embed/U68MTXuOG9k"
+    assert build.video_embed("https://youtu.be/K5zwloQza9M")["id"] == "K5zwloQza9M"
+    assert build.video_embed("https://www.youtube.com/shorts/K5zwloQza9M")["kind"] == "youtube"
+    tt = build.video_embed("https://www.tiktok.com/@x/video/7178297870498483457")
+    assert tt["kind"] == "tiktok" and tt["id"] == "7178297870498483457"
+    assert build.video_embed("https://example.com/not-a-video") is None
