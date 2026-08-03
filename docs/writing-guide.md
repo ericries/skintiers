@@ -157,6 +157,10 @@ look worse than it is.
   person page), credential, platform, url, thesis, note (say how it was verified), sponsored (true to flag a
   paid post). Reject sponsored/#ad content as a source for evidence claims. Prefer credentialed creators
   (dermatologists, cosmetic chemists) whose advice matches the science. Exemplar: [[sunscreen-uv-filters]].
+  **STANDARD (2026-08-03): whenever we link a video, EMBED it if the platform allows** (a responsive YouTube
+  iframe from the video id; TikTok's blockquote embed), not just a link out. The static GitHub Pages site
+  permits third-party iframes/scripts (unlike the Artifact CSP sandbox). Until the card renders an embed,
+  the link-out stands in; see the backlog item to build embed rendering into the `.vid` card.
 - `key_actives:` frontmatter (optional, list of ingredient slugs): a product's genuine treatment
   actives (NOT base emollients or comparators). Powers the routine dashboard's "active ingredients
   as a whole" (see below). A rinse-off cleanser with no leave-on active omits it. Set/refresh it
