@@ -3,6 +3,11 @@
 # Rendered to _site/whats-new.html (footer link).
 
 - date: '2026-08-03'
+  title: 'Added a detailed lay summary of Dhaliwal 2019 — the pivotal double-blind RCT behind ''bakuchiol
+    is a gentler retinol alternative'': over 12 weeks both cut wrinkles and pigmentation equally, but
+    retinol caused more scaling and stinging. It compares bakuchiol to retinol (a mild OTC form), not
+    to prescription tretinoin.'
+- date: '2026-08-03'
   title: Routine dashboards now span three concerns — added A Rosacea-Friendly Routine and An Oily-Skin
     K-Beauty Routine — and every routine shows a single 'how well it works' strength read (Strong/Solid/Moderate/Light)
     computed from its products' grades.

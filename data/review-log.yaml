@@ -1215,3 +1215,23 @@ routine-dashboard-composite-strength:
     word (Strong/Solid/Moderate/Light), rendered prominently in .rd-strength with a 4-seg bar and emitted to
     routines.json. Labeled honestly as a summary of the graded products, not a trial of the routine. Test
     updated; full suite 149 green. Live reads: acne Solid (2.8), rosacea Solid (2.75), oily Moderate (2.0).
+dhaliwal-2019-bakuchiol-retinol-photoaging:
+  last_reviewed: '2026-08-03'
+  score: 10
+  verdict: publish
+  note: |
+    Study page filled (daily study cron; Sonnet draft + Opus profile-reviewer critic, tool-constrained to
+    WebFetch/Apify). PMID 29947134, the pivotal bakuchiol-vs-retinol RCT (Br J Dermatol 2019;180(2):289-296,
+    DOI 10.1111/bjd.16918). Critic re-fetched the PubMed abstract (WebFetch x2 sentence-by-sentence + Apify
+    full structured abstract) and the NCBI esummary JSON; verdict PUBLISH, 10/10 content. Every citation
+    field and all ten verbatim quotes match the source; design numbers confirmed (randomized double-blind,
+    12 weeks, n=44, bakuchiol 0.5% cream twice daily vs retinol 0.5% cream once daily, blinded dermatologist
+    grading from photography at weeks 0/4/8/12). Key result verbatim: both "significantly decreased wrinkle
+    surface area and hyperpigmentation, with no statistical difference between the compounds," and "the
+    retinol users reported more facial skin scaling and stinging." CRUCIALLY no fabrication - the abstract
+    reports no p-values, no completer/dropout count, and no funding/COI statement, and the page invents none
+    of them (left out per "when in doubt leave it out," with no defensive meta about the absence). Limitations
+    honest: single small 12-week trial, unmatched dosing (bakuchiol 2x/day vs retinol 1x/day), and the key
+    point that it compares bakuchiol to retinol (mild OTC), NOT to prescription [[tretinoin]]. Cosmetic
+    (wrinkle/pigment appearance) vs health endpoints labeled. Links [[bakuchiol]]/[[retinol]]/[[retinoids]]/
+    [[tretinoin]]. Published via sk publish (auto assurance=opus). lint+verify+style clean.
