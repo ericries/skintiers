@@ -472,3 +472,15 @@
   status: pending
   discovered_from: null
   source: https://naturium.com/products/vitamin-c-complex-serum
+- name: SkinMedica TNS Advanced+ Serum
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://www.skinmedica.com/us/skin-concern/fine-line-and-wrinkles/20086513.html
+- name: SkinMedica HA5 Rejuvenating Hydrator
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://www.skinmedica.com/us/allproducts/
