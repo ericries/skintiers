@@ -1,6 +1,7 @@
 ---
 analyzed: null
 assurance: stub
+expertise: Cosmetic chemists
 name: Gloria Lu
 slug: gloria-lu
 status: stub

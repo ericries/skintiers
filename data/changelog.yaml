@@ -3,6 +3,10 @@
 # Rendered to _site/whats-new.html (footer link).
 
 - date: '2026-08-03'
+  title: The People directory is now grouped by credential type (dermatologists, cosmetic chemists, educators).
+    Also removed a routine that was based on a creator's general guidance rather than a specific video
+    — going forward, a creator-sourced routine only ships if it's a verbatim draw from one embedded video.
+- date: '2026-08-03'
   title: The site now has a People directory (and a Brands one), and each expert's page summarizes the
     videos we've verified from them — Dr Michelle Wong's page, for instance, now lists her mineral-sunscreen
     Short. Behind the scenes, a private local cache stores transcripts and sources so we never re-fetch
@@ -20,11 +24,6 @@
   title: 'Pulled the Lab Muffin vitamin C video from the ascorbic acid page: we could confirm the video
     exists but not read its actual transcript, and the standard now is that a video is only cited when
     its spoken content can be verified — not from the caption alone.'
-- date: '2026-08-03'
-  title: 'First social-media-sourced content is live: the vitamin C page now features a verified Lab Muffin
-    (Dr Michelle Wong) short-form video on why a serum''s pH doesn''t prove it works, and there''s a new
-    minimal routine sourced from her non-sponsored ''cleanser, moisturizer, sunscreen are the cornerstones''
-    guidance — with the credibility gate visibly rejecting a sponsored routine video.'
 - date: '2026-08-03'
   title: The grouped sunscreen chip on routine pages now shows the actual filter names under the UVB/UVA
     label (e.g. 'Sunscreen · UVB + UVA' over 'Zinc oxide · Octinoxate'), each linking its ingredient page

@@ -33,6 +33,11 @@ punch-list in review-log). **Tooling shipped:** `sk audit` (drafted-but-unshippe
 
 ## Open backlog (in rough priority order)
 
+0. **[requested 2026-08-03] Add a "Licensed estheticians" credential group to the People directory.** The
+   directory groups people by `expertise:` (Dermatologists / Cosmetic chemists / Educators & communicators;
+   `PEOPLE_EXPERTISE_ORDER` in build.py). Add a "Licensed estheticians" group and profiles for vetted
+   licensed estheticians; the two estheticians currently on the site (Cassandra Bankson, Renee Rouleau) sit
+   under Educators & communicators until then.
 1. **Tier-list format (applies to every tier list):** (a) a click-down summary of the tiers at the top;
    (b) stronger visual separation between items within a tier. Build as a shared convention + CSS.
    **(c) [requested 2026-07-28] Replace bare "See Also" lists of similar items with a consistent

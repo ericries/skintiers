@@ -1330,3 +1330,19 @@ expert-directory-and-private-research-cache:
     id (json canonical + txt readable), serves cache hits without re-fetching (`[cached]`), `--refresh` to
     bypass. Convention documented in docs/research-cache.md. 3 new tests (video_id extraction, cache hit
     avoids network); full suite 156 green. Cache confirmed gitignored via git check-ignore.
+voice-and-routine-policy-corrections:
+  last_reviewed: '2026-08-03'
+  score: 9
+  verdict: self-reviewed
+  note: |
+    Three user corrections. (1) NO PROCESS/SELF-REFERENTIAL META on content pages: added two _VOICE_PATTERNS
+    to sklib (r"first ... on the site", r"in-house") so "This is the first routine on the site ... assembled
+    in-house" and its class are caught by sk style. (2) VERBATIM-VIDEO ROUTINE RULE: a creator-attributed
+    routine may only exist if it is a verbatim draw from ONE specific video (transcript read + video embedded);
+    general written guidance does not qualify. REMOVED lab-muffin-minimal-core-routine (it came from her guide,
+    not a video) + deleted its stale changelog entry. Rule documented in writing-guide + memory. (3) PEOPLE
+    DIRECTORY grouped by credential type: added an `expertise:` field to all 17 person pages (Dermatologists 8
+    / Cosmetic chemists 7 / Educators & communicators 2) and grouped the People listing by it (build.py
+    PEOPLE_EXPERTISE_ORDER; grouped_by_category generalised with a key param). TODO noted (code + docs): add a
+    "Licensed estheticians" group once esthetician profiles exist (the 2 estheticians sit under Educators for
+    now). lint/style clean; full suite 156 green.

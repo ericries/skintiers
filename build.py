@@ -36,16 +36,25 @@ PRODUCT_CATEGORY_ORDER = (
     "Peptide serums",
 )
 
+# The People directory is grouped by credential type (their `expertise` field).
+# TODO: add a "Licensed estheticians" group once esthetician profiles are added
+# (for now the two estheticians on the site sit under Educators & communicators).
+PEOPLE_EXPERTISE_ORDER = (
+    "Dermatologists",
+    "Cosmetic chemists",
+    "Educators & communicators",
+)
 
-def grouped_by_category(metadatas, order):
-    """Group product metadata dicts into [{label, items}] by their `category`
-    field, following `order`; unknown/missing categories collect under
+
+def grouped_by_category(metadatas, order, key="category"):
+    """Group metadata dicts into [{label, items}] by their `key` field (default
+    `category`), following `order`; unknown/missing values collect under
     "Other". Empty groups are omitted. Within a group, original (alphabetical
     by slug) order is preserved."""
     buckets = {label: [] for label in order}
     other = []
     for m in metadatas:
-        label = m.get("category")
+        label = m.get(key)
         (buckets[label] if label in buckets else other).append(m)
     groups = [types.SimpleNamespace(label=label, items=buckets[label])
               for label in order if buckets[label]]
@@ -625,10 +634,14 @@ def build():
         of_type = [p for p in profiles if p.get("type") == typ]
         items = [p.metadata for p in of_type]
         published_count = sum(1 for p in of_type if p.get("status") == "published")
-        # The Products index is grouped into high-level categories; the other
+        # Products group by category and People by credential type; the other
         # listings stay flat.
-        groups = grouped_by_category(items, PRODUCT_CATEGORY_ORDER) \
-            if typ == "product" else None
+        if typ == "product":
+            groups = grouped_by_category(items, PRODUCT_CATEGORY_ORDER)
+        elif typ == "person":
+            groups = grouped_by_category(items, PEOPLE_EXPERTISE_ORDER, key="expertise")
+        else:
+            groups = None
         html = env.get_template("listing.html").render(
             heading=label, items=items, groups=groups)
         (out / f"{filename}.html").write_text(html)

@@ -1,6 +1,7 @@
 ---
 analyzed: '2026-07-28'
 assurance: opus
+expertise: Dermatologists
 name: Samantha Ellis
 slug: samantha-ellis
 status: published

@@ -1,6 +1,7 @@
 ---
 analyzed: null
 assurance: stub
+expertise: Cosmetic chemists
 name: Kelly Dobos
 slug: kelly-dobos
 status: stub

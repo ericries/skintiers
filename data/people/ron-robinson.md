@@ -1,6 +1,7 @@
 ---
 analyzed: null
 assurance: stub
+expertise: Cosmetic chemists
 name: Ron Robinson
 slug: ron-robinson
 status: stub

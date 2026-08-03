@@ -419,6 +419,10 @@ _VOICE_PATTERNS = [
      "process/roadmap language ('not yet on the site')"),
     (re.compile(r"coming soon", re.I),
      "process/roadmap language ('coming soon')"),
+    (re.compile(r"first\b.{0,40}\bon the site", re.I),
+     "self-referential meta ('first ... on the site')"),
+    (re.compile(r"in-house", re.I),
+     "process meta ('in-house' / 'assembled in-house')"),
 ]
 
 

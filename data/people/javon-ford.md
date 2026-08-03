@@ -1,6 +1,7 @@
 ---
 analyzed: null
 assurance: stub
+expertise: Cosmetic chemists
 name: Javon Ford
 slug: javon-ford
 status: stub

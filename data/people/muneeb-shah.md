@@ -1,6 +1,7 @@
 ---
 analyzed: null
 assurance: stub
+expertise: Dermatologists
 name: Muneeb Shah
 slug: muneeb-shah
 status: stub

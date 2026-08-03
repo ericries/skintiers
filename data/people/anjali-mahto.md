@@ -1,6 +1,7 @@
 ---
 analyzed: null
 assurance: stub
+expertise: Dermatologists
 name: Anjali Mahto
 slug: anjali-mahto
 status: stub

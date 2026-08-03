@@ -1,6 +1,7 @@
 ---
 analyzed: null
 assurance: stub
+expertise: Cosmetic chemists
 name: Victoria Fu
 slug: victoria-fu
 status: stub

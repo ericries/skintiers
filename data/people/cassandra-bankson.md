@@ -1,6 +1,7 @@
 ---
 analyzed: null
 assurance: stub
+expertise: Educators & communicators
 name: Cassandra Bankson
 slug: cassandra-bankson
 status: stub

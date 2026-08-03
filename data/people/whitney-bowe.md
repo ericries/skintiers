@@ -1,6 +1,7 @@
 ---
 analyzed: null
 assurance: stub
+expertise: Dermatologists
 name: Whitney Bowe
 slug: whitney-bowe
 status: stub

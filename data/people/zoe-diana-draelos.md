@@ -1,6 +1,7 @@
 ---
 analyzed: '2026-08-03'
 assurance: sonnet
+expertise: Dermatologists
 name: Zoe Diana Draelos
 slug: zoe-diana-draelos
 status: published

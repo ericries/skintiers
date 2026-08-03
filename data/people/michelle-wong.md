@@ -1,6 +1,7 @@
 ---
 analyzed: '2026-07-31'
 assurance: sonnet
+expertise: Cosmetic chemists
 name: Michelle Wong
 slug: michelle-wong
 status: published

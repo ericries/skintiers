@@ -1,6 +1,7 @@
 ---
 analyzed: null
 assurance: stub
+expertise: Dermatologists
 name: Adam Friedman
 slug: adam-friedman
 status: stub

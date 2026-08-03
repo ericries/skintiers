@@ -167,6 +167,14 @@ look worse than it is.
   ingredient chips from the products' `key_actives:`, "good for" from `for:`). Draw steps ONLY from
   products already on the site; describe sequence/timing as fact, never as a command (see the routine
   rule above). Exemplar: `data/lists/minimal-evidence-led-acne-routine.md`.
+- **Social-media-sourced routines (HARD RULE):** only publish a routine attributed to a creator when it
+  is a VERBATIM draw from ONE specific video whose transcript you have read, and EMBED that video (a
+  `videos:` card or a `source:` pointing at the exact video). Do NOT build a routine from a creator's
+  general written guidance or a paraphrase of "their approach" - if there is no specific source video,
+  there is no page. Reject sponsored/#ad videos as a source.
+- **No process/self-referential meta on content pages.** Never write about the site's own process:
+  no "the first routine on the site", no "assembled in-house", no "sourced from a creator rather than
+  in-house". State the fact; `sk style` now flags these (see `_VOICE_PATTERNS`).
 - **Product photos: several, from various sites, required.** They render as a concise photo RAIL
   floated into the side whitespace (no captions, no labels on the photos). Gather a handful of real
   photos of THIS exact SKU from different sites: the manufacturer plus two or more retailers (e.g.

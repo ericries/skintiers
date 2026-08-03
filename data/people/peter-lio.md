@@ -1,6 +1,7 @@
 ---
 analyzed: null
 assurance: stub
+expertise: Dermatologists
 name: Peter A. Lio
 slug: peter-lio
 status: stub
