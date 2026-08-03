@@ -1367,3 +1367,28 @@ ivermectin-topical:
     sentences in The Evidence (numbers all verified correct; converted to reported speech so quote marks don't
     over-claim verbatim fidelity behind PubMed's captcha). Marketing claims quarantined; prescription/health
     framing correct; compared to [[azelaic-acid]] + metronidazole. 6 independent primaries. lint+verify+style clean.
+trader-joes-retinol-night-serum:
+  last_reviewed: '2026-08-03'
+  score: 8
+  verdict: revise-then-fixed
+  note: |
+    Product fill (daily product cron; Sonnet draft + Opus profile-reviewer critic; assurance=sonnet, critic
+    verdict REVISE-then-fixed). The $10 in-store-only Trader Joe's Retinol Night Serum, Wirecutter's "Best
+    value" retinol pick; completes the retinol cluster. Sourcing was strong: price $9.99/$10 + in-store-only
+    corroborated by 3+ independent sources (BecomeBetty, Lauren Anne, coolideas, Wirecutter); 0.3% retinol +
+    baobab seed oil confirmed by dated photos of the box (two blogs) + eBay listings; the draft correctly
+    rejected a blog's prose "retinyl palmitate" error in favour of the photographed "0.3% Retinol" label and
+    did NOT fabricate a full INCI. The critic's hard gate was that it could not re-fetch the Wirecutter quotes
+    (nytimes blocked to it, Apify unavailable to it). In the main loop I re-fetched the Wirecutter "Best
+    Retinol Products" article via Apify (HTTP 200) and confirmed EVERY main-article quote verbatim ("more than
+    holds its own against much pricier products", "seven of this serum's ingredients overlap with those in the
+    SkinMedica serum", "fragrance-, alcohol-, paraben-, and silicone-free", "moisturizing additions like
+    vitamin E, hyaluronic acid, and baobab seed oil", "Best value", the three tester quotes, "around 0.3% for
+    retinol", 42 states + DC). Fixes applied: (1) REMOVED all quotes from the SECOND Wirecutter article
+    ([^wirecutter-tj], "We Tested ... Trader Joe's") which I did NOT re-fetch, so nothing unverified remains;
+    (2) fixed the SkinMedica price - body said "$96" (that is the SkinMedica page's own Dermstore-verified
+    figure) but Wirecutter says "just under $100", so body now uses Wirecutter's wording / "far pricier" and
+    $96 survives only in the grades note backed by the cross-linked page; (3) de-duplicated the "no trial tests
+    this serum" line from 4x to 1x; (4) cut the "no fetchable INCI" research-process narration in What's In It
+    and the absence-hedge in Common Marketing Claims. Category-vs-product clean (retinol evidence linked out;
+    modest/preliminary grade); compared to SkinMedica/Differin/Anua. lint+verify+style clean.
