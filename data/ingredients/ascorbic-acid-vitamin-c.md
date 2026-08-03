@@ -1,6 +1,15 @@
 ---
 analyzed: '2026-07-28'
 assurance: opus
+videos:
+- title: "pH isn't a good way to test if your vitamin C serum works"
+  creator: Michelle Wong
+  creator_slug: michelle-wong
+  credential: Cosmetic chemist, PhD
+  platform: TikTok
+  url: https://www.tiktok.com/@labmuffinbeautyscience/video/7178297870498483457
+  thesis: "A serum's pH does not tell you whether its vitamin C works. The 'below pH 3.5' rule comes from a study of a simple water-based ascorbic acid solution, where the low pH was the only thing helping the vitamin C penetrate; more complex modern formulas use penetration enhancers beyond pH, so a home pH reading is not a reliable test of a serum."
+  note: "Verified from the video's transcript (yt-dlp pulled TikTok's creator captions, read in full). Wong is a credentialed cosmetic chemist (PhD); educational, non-sponsored."
 name: Ascorbic acid (vitamin C)
 slug: ascorbic-acid-vitamin-c
 status: published

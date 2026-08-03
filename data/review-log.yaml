@@ -1411,3 +1411,22 @@ expert-video-batch-1:
     not her brand; Chemist Confessions briefly note their own 5% serum). Both cards auto-aggregate onto the
     creators' person pages via the creator_videos reverse index. 3 expert video cards now live across the
     site (Wong/sunscreen, Ellis/retinoids, Chemist Confessions/niacinamide). lint+style clean; suite 156 green.
+tiktok-transcripts-and-roster-expansion:
+  last_reviewed: '2026-08-03'
+  score: 9
+  verdict: self-reviewed
+  note: |
+    "Continue on all fronts" - advanced infrastructure + content + roster. (1) TIKTOK UNBLOCKED: confirmed
+    yt-dlp pulls TikTok creator captions (VTT) - the exact block that forced the earlier pull. Generalised
+    scripts/yt_transcript.py to any yt-dlp platform: added parse_vtt (VTT for TikTok) alongside parse_json3
+    (YouTube), video_id now handles TikTok numeric ids + a url-hash fallback, _download_subs requests
+    json3/vtt/best. 3 new tests (parse_vtt x2, tiktok/generic id); verified live on a real TikTok (transcript
+    "manual", cached). (2) FIRST TIKTOK CARD: re-added Michelle Wong's "pH isn't a good way to test if your
+    vitamin C serum works" TikTok to [[ascorbic-acid-vitamin-c]] - the video I had to REMOVE earlier for lack
+    of a transcript is back, now grounded in the full transcript (the below-pH-3.5 rule comes from a study of
+    a simple water-based solution; modern formulas use penetration enhancers, so a pH reading is not a test).
+    (3) ROSTER: queued the two strong-YouTube derms not yet on the site (Andrea Suarez / Dr Dray, Dustin
+    Portela) for the person cron so their profiles exist before we attach their video cards. Writing-guide +
+    memory updated (transcript-first rule now spans YouTube + TikTok). Michelle Wong's page now aggregates 2
+    verified videos. lint+style clean; full suite 159 green. NEXT: fill the two derm profiles, more cards, and
+    the first verbatim routine-from-a-video (now feasible on TikTok too).

@@ -1,17 +1,21 @@
 #!/usr/bin/env python3
-"""Fetch a YouTube video's transcript (captions) via yt-dlp, for the social-media
-sourcing pipeline. Prefers creator-provided (manual) subtitles over auto-captions,
-and reports which was used so the caller knows how trustworthy the text is.
+"""Fetch a video's transcript (captions) via yt-dlp, for the social-media sourcing
+pipeline. Works on any platform yt-dlp supports that exposes captions; tested on
+YouTube (json3 captions) and TikTok (VTT subtitles). Prefers creator-provided
+(manual) subtitles over auto-captions and reports which was used, so the caller
+knows how trustworthy the text is. Transcripts are cached (see research-cache).
 
 Usage:
-    python scripts/yt_transcript.py <youtube-url-or-id>
-    python scripts/yt_transcript.py --json <url>      # machine-readable
+    python scripts/yt_transcript.py <url-or-youtube-id>
+    python scripts/yt_transcript.py --json <url>       # machine-readable
+    python scripts/yt_transcript.py --refresh <url>    # ignore the cache
 
-Only YouTube is supported here (it exposes transcripts cleanly). The parse step is
-pure and unit-tested; the fetch step shells out to yt-dlp and needs network.
+The parse steps are pure and unit-tested; the fetch step shells out to yt-dlp and
+needs network.
 """
 import argparse
 import glob
+import hashlib
 import json
 import os
 import pathlib
@@ -28,14 +32,26 @@ CACHE_ROOT = pathlib.Path(os.environ.get(
 TRANSCRIPT_CACHE = CACHE_ROOT / "transcripts"
 
 _YT_ID = re.compile(r"(?:v=|/shorts/|youtu\.be/|/embed/)([A-Za-z0-9_-]{11})")
+_TT_ID = re.compile(r"tiktok\.com/.+?/video/(\d+)")
 
 
 def video_id(url_or_id):
-    """Extract the 11-char YouTube id from a URL or bare id, or None."""
-    if re.fullmatch(r"[A-Za-z0-9_-]{11}", url_or_id or ""):
-        return url_or_id
-    m = _YT_ID.search(url_or_id or "")
-    return m.group(1) if m else None
+    """A stable cache key for a video URL (or bare YouTube id), or None.
+
+    YouTube -> the 11-char id; TikTok -> the numeric video id; any other URL ->
+    a short hash of the URL so it still caches deterministically."""
+    s = url_or_id or ""
+    if re.fullmatch(r"[A-Za-z0-9_-]{11}", s):
+        return s
+    m = _YT_ID.search(s)
+    if m:
+        return m.group(1)
+    m = _TT_ID.search(s)
+    if m:
+        return m.group(1)
+    if "://" in s:
+        return "url-" + hashlib.sha1(s.encode("utf-8")).hexdigest()[:12]
+    return None
 
 
 def parse_json3(data):
@@ -58,6 +74,23 @@ def parse_json3(data):
     return re.sub(r"\s+", " ", " ".join(lines)).strip()
 
 
+def parse_vtt(text):
+    """Turn a WebVTT subtitle file (TikTok and others) into clean plain text.
+
+    Drops the WEBVTT header, NOTE/STYLE blocks, cue-timing lines, numeric cue
+    ids, and inline tags; collapses consecutive duplicate lines and whitespace."""
+    lines = []
+    for raw in text.splitlines():
+        line = raw.strip()
+        if (not line or line == "WEBVTT" or "-->" in line or line.isdigit()
+                or line.startswith(("NOTE", "STYLE", "Kind:", "Language:"))):
+            continue
+        line = re.sub(r"<[^>]+>", "", line).strip()
+        if line and (not lines or line != lines[-1]):
+            lines.append(line)
+    return re.sub(r"\s+", " ", " ".join(lines)).strip()
+
+
 def _run(args):
     return subprocess.run(args, capture_output=True, text=True, timeout=120)
 
@@ -74,19 +107,34 @@ def video_meta(url):
             "duration": duration, "url": wurl}
 
 
-def _download_json3(url, langs, auto, workdir):
-    """Ask yt-dlp for one json3 caption file; return its path or None."""
+def _download_subs(url, langs, auto, workdir):
+    """Ask yt-dlp for one caption file (json3 preferred, VTT fallback); return
+    (path, ext) or (None, None). Covers YouTube (json3) and TikTok (vtt)."""
     flag = "--write-auto-subs" if auto else "--write-subs"
-    r = _run(["yt-dlp", "--skip-download", "--no-warnings", flag,
-              "--sub-langs", langs, "--sub-format", "json3",
-              "-o", os.path.join(workdir, "%(id)s.%(ext)s"), url])
-    files = sorted(glob.glob(os.path.join(workdir, "*.json3")))
-    return files[0] if files else None
+    _run(["yt-dlp", "--skip-download", "--no-warnings", flag,
+          "--sub-langs", langs, "--sub-format", "json3/vtt/best",
+          "-o", os.path.join(workdir, "%(id)s.%(ext)s"), url])
+    for ext in ("json3", "vtt"):
+        files = sorted(glob.glob(os.path.join(workdir, f"*.{ext}")))
+        if files:
+            return files[0], ext
+    return None, None
+
+
+def _parse_sub_file(path, ext):
+    with open(path, encoding="utf-8") as f:
+        data = f.read()
+    return parse_json3(json.loads(data)) if ext == "json3" else parse_vtt(data)
+
+
+# Language preference lists (YouTube uses en*, TikTok uses eng-US).
+_MANUAL_LANGS = "en,en-US,en-GB,en-orig,eng-US"
+_AUTO_LANGS = "en,en-orig,en-US,en.*,eng-US"
 
 
 def fetch_transcript(url, refresh=False):
-    """Fetch the best English transcript for a YouTube video, using the local
-    verbatim cache so a given video is fetched from the network only once.
+    """Fetch the best English transcript for a video, using the local verbatim
+    cache so a given video is fetched from the network only once.
 
     Returns a dict with metadata plus `source` ('manual'|'auto'), `text`,
     `has_transcript`, and `cached` (True if served from the local cache)."""
@@ -99,14 +147,15 @@ def fetch_transcript(url, refresh=False):
     meta = video_meta(url)
     with tempfile.TemporaryDirectory() as d:
         # Prefer creator-provided subs; fall back to auto-captions.
-        path, source = _download_json3(url, "en,en-US,en-GB", auto=False, workdir=d), "manual"
+        path, ext = _download_subs(url, _MANUAL_LANGS, auto=False, workdir=d)
+        source = "manual"
         if not path:
-            path, source = _download_json3(url, "en,en-orig,en-US,en.*", auto=True, workdir=d), "auto"
+            path, ext = _download_subs(url, _AUTO_LANGS, auto=True, workdir=d)
+            source = "auto"
         if not path:
             result = {**meta, "has_transcript": False, "source": None, "text": ""}
         else:
-            with open(path, encoding="utf-8") as f:
-                text = parse_json3(json.load(f))
+            text = _parse_sub_file(path, ext)
             result = {**meta, "has_transcript": bool(text), "source": source, "text": text}
 
     if vid:  # write to the verbatim cache (json canonical + txt for reading)
@@ -120,8 +169,8 @@ def fetch_transcript(url, refresh=False):
 
 
 def main(argv=None):
-    ap = argparse.ArgumentParser(description="Fetch a YouTube transcript via yt-dlp.")
-    ap.add_argument("url", help="YouTube URL or video id")
+    ap = argparse.ArgumentParser(description="Fetch a video transcript via yt-dlp (YouTube, TikTok, ...).")
+    ap.add_argument("url", help="video URL, or a bare YouTube id")
     ap.add_argument("--json", action="store_true", help="emit JSON")
     ap.add_argument("--refresh", action="store_true", help="ignore the cache and re-fetch")
     args = ap.parse_args(argv)

@@ -11,7 +11,8 @@ def test_video_id_extraction():
     assert yt_transcript.video_id("https://www.youtube.com/shorts/K5zwloQza9M") == "K5zwloQza9M"
     assert yt_transcript.video_id("https://youtu.be/K5zwloQza9M") == "K5zwloQza9M"
     assert yt_transcript.video_id("U68MTXuOG9k") == "U68MTXuOG9k"          # bare id
-    assert yt_transcript.video_id("https://labmuffin.com/article/") is None
+    assert yt_transcript.video_id("https://labmuffin.com/article/").startswith("url-")  # URL -> hash key
+    assert yt_transcript.video_id("not a url or id") is None
 
 
 def test_fetch_transcript_serves_from_cache_without_network(tmp_path, monkeypatch):
@@ -55,3 +56,29 @@ def test_parse_json3_collapses_rolling_duplicates_and_whitespace():
 def test_parse_json3_empty():
     assert yt_transcript.parse_json3({}) == ""
     assert yt_transcript.parse_json3({"events": [{"wWinId": 1}]}) == ""
+
+
+def test_parse_vtt_strips_timing_and_tags():
+    vtt = (
+        "WEBVTT\n\n"
+        "00:00:00.080 --> 00:00:03.439\n"
+        "ascorbic acid in water has to be\n\n"
+        "00:00:03.440 --> 00:00:06.359\n"
+        "<c>formulated at a lower pH.</c>\n"
+    )
+    assert yt_transcript.parse_vtt(vtt) == "ascorbic acid in water has to be formulated at a lower pH."
+
+
+def test_parse_vtt_collapses_rolling_duplicates():
+    vtt = ("WEBVTT\n\n1\n00:00.000 --> 00:01.000\na low pH\n\n"
+           "2\n00:01.000 --> 00:02.000\na low pH\n")   # duplicate cue text
+    assert yt_transcript.parse_vtt(vtt) == "a low pH"
+
+
+def test_video_id_tiktok_and_generic():
+    assert yt_transcript.video_id(
+        "https://www.tiktok.com/@labmuffinbeautyscience/video/7178297870498483457") == "7178297870498483457"
+    # a non-YouTube, non-TikTok URL still caches deterministically via a hash
+    h = yt_transcript.video_id("https://example.com/some/video")
+    assert h and h.startswith("url-")
+    assert yt_transcript.video_id("https://example.com/some/video") == h  # stable

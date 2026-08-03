@@ -82,3 +82,15 @@
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/29947134/
+- name: Andrea Suarez (Dr Dray)
+  type: person
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://www.youtube.com/@DrDrayzday
+- name: Dustin Portela
+  type: person
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://www.youtube.com/@dustinportela

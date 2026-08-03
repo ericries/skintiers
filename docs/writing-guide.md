@@ -152,7 +152,7 @@ look worse than it is.
   the product. Omit the field entirely if none verify. Never fabricate a list or a URL.
 - `videos:` frontmatter (optional): an attributed short-form-video card from a vetted expert. HARD RULE:
   only add a video whose actual TRANSCRIPT you have read - a resolving URL or its caption is NOT enough.
-  For YouTube (incl. Shorts), run `python scripts/yt_transcript.py <url>`, read the transcript, then write
+  For YouTube (incl. Shorts) OR TikTok, run `python scripts/yt_transcript.py <url>`, read the transcript, then write
   the entry with a `thesis` grounded in what was actually said. Fields: title, creator, creator_slug (their
   person page), credential, platform, url, thesis, note (say how it was verified), sponsored (true to flag a
   paid post). Reject sponsored/#ad content as a source for evidence claims. Prefer credentialed creators
