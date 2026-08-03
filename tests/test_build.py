@@ -357,3 +357,41 @@ def test_routine_groups_sunscreen_filters_by_uv_band(tmp_path):
     # the filter names ARE shown (under the band) and each links its own page
     assert ">Zinc oxide</a>" in html
     assert 'href="zinc-oxide.html"' in html
+
+
+def test_expert_video_card_and_routine_source_render(tmp_path):
+    # A page with `videos:` renders an attributed expert-video card; a routine
+    # with `source:` renders a "Sourced from" attribution block.
+    data = tmp_path / "data"
+    out = tmp_path / "_site"
+    _write(data / "people", "creator", "published", "person")
+    (data / "ingredients").mkdir(parents=True, exist_ok=True)
+    (data / "ingredients" / "vitc.md").write_text(
+        "---\nname: VitC\nslug: vitc\ntype: ingredient\nstatus: published\n"
+        "updated: 2026-08-03\nanalyzed: 2026-08-03\n"
+        "videos:\n- title: Test Short\n  creator: A Creator\n  creator_slug: creator\n"
+        "  credential: Cosmetic chemist\n  platform: TikTok\n  url: https://example.com/v\n"
+        "  thesis: A verifiable claim.\n"
+        "---\n\nBody.\n\n## Sources\n\nNone.\n"
+    )
+    _write_graded_product(data / "products", "cl", "modest", [])
+    (data / "lists").mkdir(parents=True, exist_ok=True)
+    (data / "lists" / "r.md").write_text(
+        "---\nname: R\nslug: r\ntype: list\nkind: routine\nstatus: published\n"
+        "updated: 2026-08-03\nanalyzed: 2026-08-03\n"
+        "source:\n  creator: A Creator\n  creator_slug: creator\n  platform: TikTok\n"
+        "  url: https://example.com/r\n  note: Sourced note.\n"
+        "steps:\n- when: AM\n  product: cl\n  role: Cleanser\n"
+        "---\n\nBody.\n\n## Sources\n\nNone.\n"
+    )
+    env = {**os.environ, "SK_DATA": str(data), "SK_OUTPUT": str(out)}
+    r = subprocess.run([sys.executable, str(ROOT / "build.py")], env=env,
+                       capture_output=True, text=True)
+    assert r.returncode == 0, r.stderr
+    v = (out / "vitc.html").read_text()
+    assert 'class="vids"' in v and "Test Short" in v
+    assert 'href="creator.html"' in v                    # creator links their person page
+    assert "https://example.com/v" in v                  # links the actual video
+    rt = (out / "r.html").read_text()
+    assert "rd-source" in rt and "Sourced from" in rt
+    assert "Sourced note." in rt

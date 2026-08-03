@@ -594,7 +594,8 @@ def build():
             backref_groups=backref_groups_for(p["slug"], rev_index),
             tier_nav=tier_nav_from_html(body_main),
             routine=routine,
-            uv_spectrum=uv_spectrum)
+            uv_spectrum=uv_spectrum,
+            videos=p.metadata.get("videos") or [])
         (out / f"{p['slug']}.html").write_text(html)
 
     # Baked routine rollups for a future client-side renderer (the pages

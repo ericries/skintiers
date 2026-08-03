@@ -3,6 +3,11 @@
 # Rendered to _site/whats-new.html (footer link).
 
 - date: '2026-08-03'
+  title: 'First social-media-sourced content is live: the vitamin C page now features a verified Lab Muffin
+    (Dr Michelle Wong) short-form video on why a serum''s pH doesn''t prove it works, and there''s a new
+    minimal routine sourced from her non-sponsored ''cleanser, moisturizer, sunscreen are the cornerstones''
+    guidance — with the credibility gate visibly rejecting a sponsored routine video.'
+- date: '2026-08-03'
   title: The grouped sunscreen chip on routine pages now shows the actual filter names under the UVB/UVA
     label (e.g. 'Sunscreen · UVB + UVA' over 'Zinc oxide · Octinoxate'), each linking its ingredient page
     — so the coverage is clear at a glance and the specific filters are still there.

@@ -1,6 +1,15 @@
 ---
 analyzed: '2026-07-28'
 assurance: opus
+videos:
+- title: "Why a serum's pH does not tell you whether its vitamin C works"
+  creator: Michelle Wong
+  creator_slug: michelle-wong
+  credential: Cosmetic chemist, PhD
+  platform: TikTok
+  url: https://www.tiktok.com/@labmuffinbeautyscience/video/7178297870498483457
+  thesis: "Measuring a vitamin C serum's pH does not tell you whether the vitamin C is still active."
+  note: "Verified: the TikTok resolves under her verified channel and its topic is indexed. The chemistry holds and is covered on this page - ascorbic acid needs a low pH to absorb, but a serum can sit at the right pH while the ascorbic acid has already oxidised into an inactive form, so pH alone is not a freshness or efficacy test. Wong is a credentialed cosmetic chemist (PhD); educational, non-sponsored content."
 name: Ascorbic acid (vitamin C)
 slug: ascorbic-acid-vitamin-c
 status: published

@@ -78,6 +78,9 @@
       </div>
       {% endif %}{% endfor %}
     </div>
+    {% if profile.source %}
+    <div class="rd-source"><span class="rd-source-label">Sourced from</span> {% if profile.source.creator_slug %}<a href="{{ profile.source.creator_slug }}.html">{{ profile.source.creator }}</a>{% else %}{{ profile.source.creator }}{% endif %}{% if profile.source.credential %}, {{ profile.source.credential }}{% endif %}{% if profile.source.url %} &middot; <a href="{{ profile.source.url }}" rel="nofollow noopener" target="_blank">{{ profile.source.platform or 'source' }}</a>{% endif %}{% if profile.source.note %}<span class="rd-source-note">{{ profile.source.note }}</span>{% endif %}</div>
+    {% endif %}
   </section>
   {% endif %}
 
@@ -90,6 +93,20 @@
   {% endif %}
 
   {% if body_main %}<section class="prose">{{ body_main | safe }}</section>{% endif %}
+
+  {% if videos %}
+  <section class="vids">
+    <h2>On short-form video</h2>
+    {% for v in videos %}
+    <div class="vid">
+      <div class="vid-head"><a class="vid-title" href="{{ v.url }}" rel="nofollow noopener" target="_blank">{{ v.title }}</a>{% if v.platform %}<span class="vid-plat">{{ v.platform }}</span>{% endif %}</div>
+      <div class="vid-by">{% if v.creator_slug %}<a href="{{ v.creator_slug }}.html">{{ v.creator }}</a>{% else %}{{ v.creator }}{% endif %}{% if v.credential %} &middot; {{ v.credential }}{% endif %}{% if v.sponsored %} &middot; <span class="vid-ad">sponsored post</span>{% endif %}</div>
+      {% if v.thesis %}<p class="vid-thesis">{{ v.thesis }}</p>{% endif %}
+      {% if v.note %}<p class="vid-note">{{ v.note }}</p>{% endif %}
+    </div>
+    {% endfor %}
+  </section>
+  {% endif %}
 
   {% if recommended_in %}
   <section class="prose">
