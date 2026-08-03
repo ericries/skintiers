@@ -348,10 +348,12 @@ def test_routine_groups_sunscreen_filters_by_uv_band(tmp_path):
     rj = json.loads((out / "routines.json").read_text())["sunroutine"]
     # zinc-oxide covers 290-400 (UVB+UVA); octinoxate 290-320 (UVB) -> combined UVB + UVA
     assert rj["filters"]["coverage"] == "UVB + UVA"
+    assert [i["name"] for i in rj["filters"]["entries"]] == ["Zinc oxide", "Octinoxate"]
     assert rj["ingredient_slugs"] == []                  # filters are NOT plain ingredient chips
     html = (out / "sunroutine.html").read_text()
-    assert "rd-chip-filters" in html                     # one grouped sunscreen chip
-    assert "UVB + UVA" in html                            # labeled by band, not filter names
-    assert 'href="sunscreen-uv-filters.html"' in html    # links to the filter hub
-    # the raw filter names are only in the hover title, not a standalone chip
-    assert '>Zinc oxide<' not in html
+    assert "rd-filters" in html                           # one grouped sunscreen block
+    assert "UVB + UVA" in html                            # labeled by band
+    assert 'href="sunscreen-uv-filters.html"' in html    # band label links the filter hub
+    # the filter names ARE shown (under the band) and each links its own page
+    assert ">Zinc oxide</a>" in html
+    assert 'href="zinc-oxide.html"' in html

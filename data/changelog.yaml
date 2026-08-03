@@ -3,6 +3,10 @@
 # Rendered to _site/whats-new.html (footer link).
 
 - date: '2026-08-03'
+  title: The grouped sunscreen chip on routine pages now shows the actual filter names under the UVB/UVA
+    label (e.g. 'Sunscreen · UVB + UVA' over 'Zinc oxide · Octinoxate'), each linking its ingredient page
+    — so the coverage is clear at a glance and the specific filters are still there.
+- date: '2026-08-03'
   title: Routine dashboards now group a routine's sunscreen filters into a single 'Sunscreen · UVB + UVA'
     chip instead of listing filter names most people don't recognize (bisoctrizole, octinoxate), with
     the actual filters on hover.

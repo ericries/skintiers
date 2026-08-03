@@ -381,8 +381,9 @@ def routine_summary(profile, by_slug):
         covers_uvb = any(uv_map[s][1] < 320 for s in filter_slugs)   # any range into UVB (<320 nm)
         covers_uva = any(uv_map[s][2] > 320 for s in filter_slugs)   # any range into UVA (>320 nm)
         bands = [b for b, on in (("UVB", covers_uvb), ("UVA", covers_uva)) if on]
-        names = [f[1] for f in UV_FILTERS if f[0] in set(filter_slugs)]
-        filters = {"coverage": " + ".join(bands) or "UV", "names": names}
+        fset = set(filter_slugs)
+        entries = [{"slug": f[0], "name": f[1]} for f in UV_FILTERS if f[0] in fset]
+        filters = {"coverage": " + ".join(bands) or "UV", "entries": entries}
 
     # Non-filter actives only, most-layered first then alphabetical.
     ingredients = sorted(
