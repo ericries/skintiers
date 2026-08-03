@@ -1,0 +1,26 @@
+# Vetted expert video sources for the daily video-pull cron.
+# The cron picks the STALEST creator (oldest / null last_pulled), pulls a few of
+# their recent, NON-SPONSORED, transcript-verified videos, attaches them as
+# `videos:` cards to the most relevant existing site page, and updates last_pulled.
+# Only credentialed creators (board-certified dermatologists, cosmetic chemists)
+# whose advice matches the science. Each has a person page for the card link.
+# conflict: their own product line - be cautious with product-recommendation videos
+# for their own brand; educational / how-to-use content is fine, sponsored is never.
+- name: Michelle Wong (Lab Muffin)
+  creator_slug: michelle-wong
+  credential: Cosmetic chemist, PhD
+  channel: https://www.youtube.com/@LabMuffinBeautyScience/videos
+  conflict: null
+  last_pulled: null
+- name: Dr. Sam Ellis
+  creator_slug: samantha-ellis
+  credential: Board-certified dermatologist
+  channel: https://www.youtube.com/@drsamellis/videos
+  conflict: founder of the Prequel skincare brand
+  last_pulled: null
+- name: Chemist Confessions (Victoria Fu and Gloria Lu)
+  creator_slug: victoria-fu
+  credential: Cosmetic chemists
+  channel: https://www.youtube.com/@chemistconfessions/videos
+  conflict: sell a small own-brand product line
+  last_pulled: null

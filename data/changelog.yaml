@@ -3,6 +3,11 @@
 # Rendered to _site/whats-new.html (footer link).
 
 - date: '2026-08-03'
+  title: Set up a daily job that pulls a few of a vetted expert's recent, non-sponsored videos onto the
+    matching pages (transcript-verified, sponsored content always excluded), rotating through the roster.
+    Also scoped a future 'freshness + news' feed to surface recent site changes and skincare news that
+    will seed what we cover next.
+- date: '2026-08-03'
   title: 'The tretinoin 0.025% page now embeds dermatologist Dr. Sam Ellis explaining how to actually
     start tretinoin — lowest strength first, let your skin acclimate, pea-size, build up slowly. Expert
     videos no longer need to be full routines: a derm or chemist showing how to use a product, or which

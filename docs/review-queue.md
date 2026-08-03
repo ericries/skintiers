@@ -177,6 +177,30 @@ so those stay auto-synced with no extra fields.
 - Other infographic candidates: tier-distribution bars (feeds the routine dashboard), health-vs-cosmetic split, an
   ingredient's product-count. Reuse the same static-SVG + build.py-data pattern.
 
+## FUTURE PHASE (requested 2026-08-03): freshness + news feed that seeds the queues
+User direction, NOT yet built. Two linked feeds:
+
+1. **A "recently added / updated" feed of our own pages.** We already log changes to `data/changelog.yaml`
+   (rendered to `whats-new.html`). Turn that into a real syndication feed - an RSS/Atom + JSON feed at a
+   stable URL - so the site's freshness is subscribable and machine-readable (also handy for our own
+   monitoring). Drive it off changelog.yaml + each page's `updated`/`analyzed` dates. Cheap, static, no new deps.
+
+2. **A skincare product-related NEWS feed that INFORMS FUTURE QUEUES (the valuable half).** Ingest reputable
+   external sources on a schedule - new product launches, ingredient/formulation news, FDA/regulatory actions,
+   and newly published studies (PubMed alerts on key topics, derm-trade press, brand press releases). Dedupe
+   against what we already cover and against `data/pending-*` / the queues, then auto-seed the type queues:
+   a new notable product -> `sk queue-add ... --type product --source <url>`, a new landmark study ->
+   `--type study`, a trending ingredient -> `--type ingredient`, etc. Each seeded candidate carries a real
+   source URL so the daily fill crons can draft it under the normal 3-primary-source discipline. This is the
+   original Seedlist "freshness feed / scraper" concept (see meta/07_CRON_PATTERNS.md, meta/reference), adapted:
+   the scraper proposes grounded candidates, humans/crons vet and draft them - never auto-publish from news.
+   Build: a `scripts/scrape_*.py` (TDD, parse chosen feeds -> dedup -> queue-add), wired to a scheduled cron;
+   run several manual cycles before automating. Anti-hallucination spine unchanged: news discovers, sources verify.
+
+Open questions for the brainstorm: which sources/feeds (and their ToS), how aggressively to auto-queue vs.
+hold for human review, and whether the news feed and the freshness feed share rendering. Scope as its own
+project (brainstorm -> spec -> plan) when picked up.
+
 ## FUTURE PHASE (requested 2026-08-03): social-media expert pipeline
 User direction, NOT yet built: pull practical skincare expertise from short-form video (TikTok, Reels,
 YouTube Shorts), especially from dermatologists and cosmetic chemists, and fold it into the site. This is a
