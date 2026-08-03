@@ -3,6 +3,10 @@
 # Rendered to _site/whats-new.html (footer link).
 
 - date: '2026-08-03'
+  title: Routine dashboards now group a routine's sunscreen filters into a single 'Sunscreen · UVB + UVA'
+    chip instead of listing filter names most people don't recognize (bisoctrizole, octinoxate), with
+    the actual filters on hover.
+- date: '2026-08-03'
   title: 'Sunscreen product pages now show a UV-filter coverage chart — a spectrum of which UVB/UVA wavelengths
     that specific sunscreen''s filters protect against (e.g. EltaMD UV Clear''s zinc oxide + octinoxate).
     Also refined the routine dashboard: a plain ''Does not contain'' line for common missing actives,

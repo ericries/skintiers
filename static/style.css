@@ -236,6 +236,8 @@ footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;
 .rd-chip:hover{color:var(--accent);border-color:var(--accent)}
 .rd-chip-goal{background:var(--accent-soft);border-color:transparent;color:var(--accent)}
 .rd-x{margin-left:5px;font-weight:700;color:var(--tier-best)}
+.rd-chip-filters{background:color-mix(in srgb,var(--tier-mid) 16%,var(--paper));border-color:color-mix(in srgb,var(--tier-mid) 45%,transparent);color:var(--tier-mid)}
+.rd-chip-filters:hover{border-color:var(--tier-mid);color:var(--tier-mid)}
 .rd-chip-absent{color:var(--faint);border-style:dashed;border-color:var(--rule-strong)}
 .rd-steps{display:flex;gap:30px;margin-top:20px;flex-wrap:wrap}
 .rd-phase{flex:1;min-width:220px}

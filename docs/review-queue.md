@@ -135,6 +135,10 @@ so those stay auto-synced with no extra fields.
 - DONE 2026-08-03: **tier-distribution bar no longer clips labels.** Narrow segments used flex-basis:0 +
   overflow:hidden, so "TOP-TIER x1" showed as "P-TIER". Now segments flex-grow by count but never shrink
   below their text (min-width:max-content, no overflow clip).
+- DONE 2026-08-03 (user request): **sunscreen filters grouped by UVB/UVA in the ingredient row.** Filter
+  actives (bisoctrizole, octinoxate, etc.) that readers do not recognize by name collapse into ONE chip
+  "Sunscreen &middot; UVB + UVA" (coverage computed from each filter's UV_FILTERS range), linking the filter
+  hub, with the real filter names in the hover title. build.py routine_summary `filters` + routines.json.
 
 - DONE 2026-08-03: **product badges.** Each routine step now shows the product's photo at a standardized
   46px square (CSS object-fit crop, no server-side image processing) inside a tier-colored frame

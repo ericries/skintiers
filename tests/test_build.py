@@ -322,3 +322,36 @@ def test_routine_dashboard_aggregates_from_products(tmp_path):
     assert "rd-step-mono" in html                         # monogram fallback (test products have no photo)
     # a non-routine page has no dashboard
     assert 'class="routine-dash"' not in (out / "treatment.html").read_text()
+
+
+def test_routine_groups_sunscreen_filters_by_uv_band(tmp_path):
+    # Sunscreen filters (which readers do not recognize by name) collapse into one
+    # chip labeled by UVB/UVA coverage, not shown as individual ingredient chips.
+    import json
+    data = tmp_path / "data"
+    out = tmp_path / "_site"
+    _write(data / "ingredients", "zinc-oxide", "published", "ingredient")
+    _write(data / "ingredients", "octinoxate", "published", "ingredient")
+    _write(data / "ingredients", "sunscreen-uv-filters", "published", "ingredient")
+    _write_graded_product(data / "products", "spf", "modest", ["zinc-oxide", "octinoxate"])
+    (data / "lists").mkdir(parents=True, exist_ok=True)
+    (data / "lists" / "sunroutine.md").write_text(
+        "---\nname: Sun Routine\nslug: sunroutine\ntype: list\nkind: routine\n"
+        "status: published\nupdated: 2026-08-03\nanalyzed: 2026-08-03\n"
+        "steps:\n- when: AM\n  product: spf\n  role: Sunscreen\n"
+        "---\n\nA routine.\n\n## Sources\n\nOn the linked pages.\n"
+    )
+    env = {**os.environ, "SK_DATA": str(data), "SK_OUTPUT": str(out)}
+    r = subprocess.run([sys.executable, str(ROOT / "build.py")], env=env,
+                       capture_output=True, text=True)
+    assert r.returncode == 0, r.stderr
+    rj = json.loads((out / "routines.json").read_text())["sunroutine"]
+    # zinc-oxide covers 290-400 (UVB+UVA); octinoxate 290-320 (UVB) -> combined UVB + UVA
+    assert rj["filters"]["coverage"] == "UVB + UVA"
+    assert rj["ingredient_slugs"] == []                  # filters are NOT plain ingredient chips
+    html = (out / "sunroutine.html").read_text()
+    assert "rd-chip-filters" in html                     # one grouped sunscreen chip
+    assert "UVB + UVA" in html                            # labeled by band, not filter names
+    assert 'href="sunscreen-uv-filters.html"' in html    # links to the filter hub
+    # the raw filter names are only in the hover title, not a standalone chip
+    assert '>Zinc oxide<' not in html

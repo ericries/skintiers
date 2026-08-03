@@ -371,9 +371,23 @@ def routine_summary(profile, by_slug):
                 continue
             ing_count[slug] = ing_count.get(slug, 0) + 1
             ing_name[slug] = t.metadata.get("name") or slug
-    # Most-layered first, then alphabetical.
+
+    # Sunscreen filters are grouped into one chip labeled by UVB/UVA coverage,
+    # because most readers do not recognize filter names (bisoctrizole, etc.).
+    uv_map = {f[0]: (f[1], f[2], f[3]) for f in UV_FILTERS}
+    filter_slugs = [s for s in ing_count if s in uv_map]
+    filters = None
+    if filter_slugs:
+        covers_uvb = any(uv_map[s][1] < 320 for s in filter_slugs)   # any range into UVB (<320 nm)
+        covers_uva = any(uv_map[s][2] > 320 for s in filter_slugs)   # any range into UVA (>320 nm)
+        bands = [b for b, on in (("UVB", covers_uvb), ("UVA", covers_uva)) if on]
+        names = [f[1] for f in UV_FILTERS if f[0] in set(filter_slugs)]
+        filters = {"coverage": " + ".join(bands) or "UV", "names": names}
+
+    # Non-filter actives only, most-layered first then alphabetical.
     ingredients = sorted(
-        ({"slug": s, "name": ing_name[s], "count": ing_count[s]} for s in ing_count),
+        ({"slug": s, "name": ing_name[s], "count": ing_count[s]}
+         for s in ing_count if s not in uv_map),
         key=lambda d: (-d["count"], d["name"].lower()))
 
     # Notable actives the routine does NOT include (informational, not a flaw).
@@ -397,6 +411,7 @@ def routine_summary(profile, by_slug):
         "strength": strength,
         "tiers": tiers,
         "ingredients": ingredients,
+        "filters": filters,
         "absent": absent,
         "serves": serves,
         "missing": missing,
@@ -559,6 +574,7 @@ def build():
                 "tiers": {t["key"]: t["count"] for t in routine["tiers"]},
                 "ingredients": {i["slug"]: i["count"] for i in routine["ingredients"]},
                 "ingredient_slugs": [i["slug"] for i in routine["ingredients"]],
+                "filters": routine["filters"],
                 "absent": routine["absent"],
                 "serves_slugs": [s["slug"] for s in routine["serves"]],
             }
