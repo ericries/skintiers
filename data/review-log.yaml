@@ -1120,3 +1120,29 @@ timeless-20-vitamin-c-e-ferulic-serum:
     product separation is textbook (no trial tests this product; antioxidant evidence linked out; the
     manufacturer's 21-person survey quarantined in Common Marketing Claims). Health led, cosmetic split.
     lint+verify+style clean.
+trader-joes-nourish-vitamins-c-e-facial-serum:
+  last_reviewed: '2026-08-03'
+  score: 8
+  verdict: revise-then-fixed
+  note: |
+    Product fill (daily product cron; Sonnet draft + Opus profile-reviewer critic, tool-constrained to
+    WebFetch/Apify with no credential or curl workaround - it complied; assurance=sonnet since the critic
+    verdict was REVISE, addressed but not re-verified by a clean Opus pass). This one INVERTED the drafting
+    prior: the brief assumed Trader Joe's serum uses a weak vitamin C derivative and is overhyped, but the
+    subagent found the current $9.99 "Vitamin C Serum" SKU (083750) states 15% L-ascorbic acid + 1% alpha-
+    tocopherol + 0.5% ferulic acid on its own label - the exact SkinCeuticals C E Ferulic study concentrations
+    - while a SEPARATE older "Nourish Antioxidant Facial Serum" is the derivative (tetrahexyldecyl ascorbate)
+    one. The critic verified: the SKU disambiguation is correct (What's in my Jar confirms the two are distinct
+    products); the $9.99 / 1 fl oz price is corroborated by 3+ sources; all quotes (Parade cosmetic-chemist
+    skepticism, SheKnows "Greatest Dupe of All Time") are verbatim; L-ascorbic + ferulic are genuinely in the
+    INCI. The load-bearing REVISE blocker: the page claimed the full 15/1/0.5 breakdown "recurs in Today.com
+    and Parade," but those disclose only the 15% figure and name E/ferulic without percentages - the full
+    breakdown rests on ONE beauty-blog label transcription (BeautyTidbits). Fixed: The Evidence now states
+    the 15/1/0.5 rests on the single label transcription, not cross-source agreement. Also fixed: (2) the
+    SkinCeuticals base comparison was cited to the TJ's-product footnotes ([^4] SkinSAFE, [^6] Trader Joe's),
+    neither of which establishes SkinCeuticals' INCI - re-routed to [[skinceuticals-c-e-ferulic]] and dropped
+    the unverifiable laureth-23 specificity; (3) dropped a mis-targeted [^2] from a Parade-only quote; (4) the
+    "patent expired March 2025" claim (single unfetchable Today.com source) is now attributed in-voice to
+    Today.com. Skeptical honesty strong: no trial and no independent stability test of this product (unlike
+    Timeless/Maelove), base differs (sunflower oil, different solubilizer), marketing quarantined. Completes
+    the CEF-dupe cluster (SkinCeuticals -> Maelove -> Timeless -> Trader Joe's). lint+verify+style clean.

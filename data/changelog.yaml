@@ -2,6 +2,11 @@
 # Newest entries at the TOP. Append with: sk log "message" [--slug SLUG] [--date YYYY-MM-DD]
 # Rendered to _site/whats-new.html (footer link).
 
+- date: '2026-08-03'
+  title: Added Trader Joe's Vitamin C Serum — the viral $9.99 'SkinCeuticals dupe.' Its label really does
+    state 15% L-ascorbic / 1% vitamin E / 0.5% ferulic (the studied CEF concentrations), but no trial
+    or stability test of this product exists and its base differs; separated it from Trader Joe's older
+    ester-based Nourish serum.
 - date: '2026-08-01'
   title: Added Timeless 20% Vitamin C + E Ferulic Acid Serum — a ~$28 L-ascorbic/E/ferulic serum widely
     cited as a SkinCeuticals C E Ferulic dupe, with the oxidation/shelf-life caveat covered honestly.

@@ -154,3 +154,9 @@
   status: pending
   discovered_from: null
   source: https://maelove.com/products/glow-maker-vitamin-c-serum
+- name: Trader Joe's
+  type: brand
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://www.traderjoes.com/home/products/pdp/vitamin-c-serum-083750
