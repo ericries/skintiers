@@ -89,3 +89,15 @@
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/24471735/
+- name: Draelos 2006 niacinamide 2% facial sebum production
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://pubmed.ncbi.nlm.nih.gov/16766489/
+- name: Draelos 2006 Cetaphil cleanser rosacea skin barrier
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://pubmed.ncbi.nlm.nih.gov/16706247/

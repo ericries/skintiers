@@ -3,6 +3,10 @@
 # Rendered to _site/whats-new.html (footer link).
 
 - date: '2026-08-03'
+  title: Added a profile of Zoe Diana Draelos, MD — a Duke consulting professor and one of the most prolific
+    clinical trialists in cosmetic dermatology, whose peer-reviewed studies (niacinamide and sebum, cleansers
+    and the rosacea barrier, ivermectin trials) are the kind of primary evidence this site is built on.
+- date: '2026-08-03'
   title: Routine steps now show a standardized product badge — each product's photo cropped to a uniform
     square inside a tier-colored frame (green for top-tier, amber for moderate), so a routine reads at
     a glance as a row of consistent, ranked product thumbnails.
