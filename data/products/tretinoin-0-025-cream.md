@@ -2,6 +2,15 @@
 analyzed: '2026-07-27'
 assurance: opus
 category: Retinoids
+videos:
+- title: "How to hack tretinoin to make it work 10x better"
+  creator: Dr. Sam Ellis
+  creator_slug: samantha-ellis
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=MT4DrMVbotE
+  thesis: "Almost everyone should start tretinoin at the lowest strength, 0.025%, and let the skin acclimate ('retinize') rather than starting high, which just causes needless irritation. Use a pea-sized amount for the whole face, begin around twice a week and build up, and hold off on adding other exfoliating actives until tretinoin is settled in."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship disclosed. Board-certified dermatologist; a how-to-use guide, not a product endorsement."
 name: Tretinoin 0.025% cream
 slug: tretinoin-0-025-cream
 status: published

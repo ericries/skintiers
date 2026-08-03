@@ -155,8 +155,13 @@ look worse than it is.
   For YouTube (incl. Shorts) OR TikTok, run `python scripts/yt_transcript.py <url>`, read the transcript, then write
   the entry with a `thesis` grounded in what was actually said. Fields: title, creator, creator_slug (their
   person page), credential, platform, url, thesis, note (say how it was verified), sponsored (true to flag a
-  paid post). Reject sponsored/#ad content as a source for evidence claims. Prefer credentialed creators
-  (dermatologists, cosmetic chemists) whose advice matches the science. Exemplar: [[sunscreen-uv-filters]].
+  paid post). Prefer credentialed creators (dermatologists, cosmetic chemists) whose advice matches the science.
+  **A video need NOT be a full routine.** The best fits are single-topic: a chemist/derm explaining HOW TO USE
+  a product properly, or WHICH product they like and why - attach those to that product/ingredient page.
+  **MANDATORY: reject ALL sponsored videos.** Read the transcript for sponsor disclosures ("sponsored by",
+  "#ad", "thank you [brand] for sponsoring", "gifted") and reject the video if any appear; also reject videos
+  whose uploader is a brand's own channel (e.g. "CeraVe"). Sponsored/paid content is out as a source, full stop.
+  Exemplars: [[sunscreen-uv-filters]] (Wong), [[tretinoin-0-025-cream]] (Ellis, how-to-use).
   **STANDARD (2026-08-03): whenever we link a video, EMBED it if the platform allows.** DONE: the `.vid` card
   now auto-embeds from `url` via build.py `video_embed()` - a responsive YouTube iframe (`youtube.com/embed/
   <id>`) or a TikTok blockquote (with `embed.js` included once per page). The attributed title/creator/thesis

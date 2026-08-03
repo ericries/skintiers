@@ -1447,3 +1447,22 @@ skinmedica:
     HA5, Lytera, Vitamin C+E, Total Defense sunscreens) named factually from manufacturer pages. Cross-links
     [[skinmedica-retinol-complex-1-0]]. No process/self-referential meta; house voice clean. lint+verify+style
     clean (verify WARNs are the expected manufacturer/press/SEC domains).
+expert-video-single-product-and-sponsorship-rule:
+  last_reviewed: '2026-08-03'
+  score: 9
+  verdict: self-reviewed
+  note: |
+    User expanded the video scope + hardened the sponsorship rule. FINDING first: chasing a verbatim
+    routine-from-a-video, the obvious top-derm "my routine" videos were all rejected by the credibility gate
+    - Dr Dray's AM/PM routine was Walmart-sponsored, the "Simple Routine | CeraVe" was on CeraVe's own brand
+    channel, and her acne-routine Short had no captions. So the credibility gate is working, but full routine
+    videos are a hard target. User's steer: videos need NOT be full routines - a chemist/derm explaining HOW
+    TO USE a product, or WHICH product they like and why, is a great fit, attached to that product/ingredient
+    page; and reject ALL sponsored videos (check the transcript for disclosures + brand-channel uploads).
+    Executed: added Dr Sam Ellis "How to hack tretinoin" (MT4DrMVbotE, YouTube, NON-sponsored - transcript
+    scanned clean) to [[tretinoin-0-025-cream]] - a how-to-use card grounded in the transcript (start at the
+    lowest 0.025% strength and let skin retinize rather than starting high; pea-size for the whole face; begin
+    ~2x/week and build; hold off on other exfoliating actives until tretinoin is settled). It maps exactly to
+    the 0.025% product page. Embedded (YouTube iframe) + auto-aggregated onto Sam Ellis's page (now 2 cited
+    videos). Rules locked in writing-guide + memory (single-product scope + mandatory sponsorship rejection).
+    5 expert cards now live, all embedded. lint+style clean; suite 160 green.
