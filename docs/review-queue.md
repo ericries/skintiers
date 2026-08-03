@@ -36,9 +36,10 @@ punch-list in review-log). **Tooling shipped:** `sk audit` (drafted-but-unshippe
 0. DONE 2026-08-03: **EMBED videos, don't just link them.** The `.vid` card auto-embeds from `videos[].url`
    via build.py `video_embed()` - a responsive YouTube iframe or a TikTok blockquote (+ `embed.js` once per
    page, gated by `needs_tiktok_js`); the attributed text stays and the plain link is the no-JS fallback.
-   Live on all existing cards (Wong x2 incl. the TikTok, Ellis, Chemist Confessions). Follow-on if wanted:
-   embed the videos in the person-page "Verified videos from ..." aggregation too (kept as compact links for
-   now to keep those index pages light).
+   Live on all existing cards (Wong x2 incl. the TikTok, Ellis, Chemist Confessions). DONE too: the
+   person-page "Verified videos from ..." aggregation now embeds as well (YouTube iframes are lazy-loaded;
+   the tiktok embed.js is included once per page, gated by needs_tiktok_js over both the videos: and the
+   aggregated list).
 0. **[requested 2026-08-03] Add a "Licensed estheticians" credential group to the People directory.** The
    directory groups people by `expertise:` (Dermatologists / Cosmetic chemists / Educators & communicators;
    `PEOPLE_EXPERTISE_ORDER` in build.py). Add a "Licensed estheticians" group and profiles for vetted

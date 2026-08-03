@@ -109,7 +109,6 @@
       {% if v.note %}<p class="vid-note">{{ v.note }}</p>{% endif %}
     </div>
     {% endfor %}
-    {% if needs_tiktok_js %}<script async src="https://www.tiktok.com/embed.js"></script>{% endif %}
   </section>
   {% endif %}
 
@@ -118,14 +117,20 @@
     <h2>Verified videos from {{ profile.name }}</h2>
     <p class="vids-note">Videos of theirs cited on the site, each checked against its own transcript before use.</p>
     {% for v in creator_videos %}
+    {% set emb = video_embed(v.url) %}
     <div class="vid">
       <div class="vid-head"><a class="vid-title" href="{{ v.url }}" rel="nofollow noopener" target="_blank">{{ v.title }}</a>{% if v.platform %}<span class="vid-plat">{{ v.platform }}</span>{% endif %}</div>
+      {% if emb and emb.kind == 'youtube' %}<div class="vid-embed"><iframe src="{{ emb.src }}" title="{{ v.title }}" loading="lazy" frameborder="0" allow="accelerometer; encrypted-media; picture-in-picture; web-share" allowfullscreen></iframe></div>
+      {% elif emb and emb.kind == 'tiktok' %}<blockquote class="tiktok-embed" cite="{{ emb.cite }}" data-video-id="{{ emb.id }}"><section><a href="{{ emb.cite }}" target="_blank" rel="noopener">{{ v.title }}</a></section></blockquote>
+      {% endif %}
       {% if v.thesis %}<p class="vid-thesis">{{ v.thesis }}</p>{% endif %}
       <div class="vid-on">Cited on <a href="{{ v.on_slug }}.html">{{ v.on_name }}</a></div>
     </div>
     {% endfor %}
   </section>
   {% endif %}
+
+  {% if needs_tiktok_js %}<script async src="https://www.tiktok.com/embed.js"></script>{% endif %}
 
   {% if recommended_in %}
   <section class="prose">

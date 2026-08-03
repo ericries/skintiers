@@ -626,6 +626,7 @@ def build():
                 "absent": routine["absent"],
                 "serves_slugs": [s["slug"] for s in routine["serves"]],
             }
+        cvids = creator_videos.get(p["slug"], []) if p.get("type") == "person" else []
         html = env.get_template("profile.html").render(
             profile=p.metadata,
             standfirst=standfirst,
@@ -643,9 +644,9 @@ def build():
             routine=routine,
             uv_spectrum=uv_spectrum,
             videos=p.metadata.get("videos") or [],
-            creator_videos=(creator_videos.get(p["slug"], []) if p.get("type") == "person" else []),
+            creator_videos=cvids,
             needs_tiktok_js=any((video_embed(v.get("url")) or {}).get("kind") == "tiktok"
-                                for v in (p.metadata.get("videos") or [])))
+                                for v in (p.metadata.get("videos") or []) + cvids))
         (out / f"{p['slug']}.html").write_text(html)
 
     # Baked routine rollups for a future client-side renderer (the pages

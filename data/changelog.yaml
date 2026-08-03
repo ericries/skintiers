@@ -3,6 +3,10 @@
 # Rendered to _site/whats-new.html (footer link).
 
 - date: '2026-08-03'
+  title: Each expert's profile page now plays their verified videos inline too (not just links) — e.g.
+    Dr Michelle Wong's page embeds both her sunscreen and vitamin C clips. YouTube frames lazy-load and
+    the TikTok script loads once per page.
+- date: '2026-08-03'
   title: Set up a daily job that pulls a few of a vetted expert's recent, non-sponsored videos onto the
     matching pages (transcript-verified, sponsored content always excluded), rotating through the roster.
     Also scoped a future 'freshness + news' feed to surface recent site changes and skincare news that
