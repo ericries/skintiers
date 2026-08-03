@@ -1277,3 +1277,22 @@ social-media-pipeline-first-instance:
     citable source is her guide article (fetchable), not a single non-sponsored routine video, because I
     could not verify a non-sponsored routine short's product-level content without watching it. lint+verify+
     style clean; 2 tests added (video card + routine source), full suite 150 -> now covers the mechanism.
+best-vitamin-c-serums:
+  last_reviewed: '2026-08-03'
+  score: 8
+  verdict: self-reviewed
+  note: |
+    Best-of list filled (daily list cron; Sonnet draft + my own check, no Opus critic per the curatorial
+    LIST rule; assurance=sonnet, published --force). Ranks the site's 6 published vitamin C serums by
+    EVIDENCE + EFFECT (not price), tiered by how completely each matches the studied 15% L-ascorbic + 1%
+    vitamin E + 0.5% ferulic combination: (1) SkinCeuticals C E Ferulic - the only one with product-specific
+    trials (Lin 2005, Murray 2008, inventor-tied, disclosed); (2) Maelove - 15% LAA, clean independent
+    stability test; (3) Timeless - 20% LAA but faster degradation + shelf-life caveat; (4) Trader Joe's -
+    fullest label match to 15/1/0.5 but zero product testing; (5) Prequel - 15% LAA but NO vitamin E, so the
+    ferulic photoprotection studies do not describe it; (6) Beauty of Joseon - a vitamin C DERIVATIVE
+    (3-O-ethyl ascorbic acid), lowest tier. I verified every load-bearing quote/price the list restates
+    actually appears on its source product page (Prequel "musty-meets-chem-lab"/"no vitamin E"/pH 3.2, BoJ
+    "3-O-ethyl ascorbic acid", prices $33/$23/$17) - nothing invented. Two real ingredient-level primaries
+    cited (Lin 2005 PMID 16185284, Murray 2008 JAAD). Health (antioxidant/photoprotection) vs cosmetic
+    (brightening/[[hyperpigmentation]]) separated; links [[ascorbic-acid-vitamin-c]]/[[vitamin-c]]/[[ferulic-acid]]/
+    [[tocopherol]]. lint+verify+style clean.

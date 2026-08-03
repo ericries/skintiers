@@ -466,3 +466,9 @@
   status: pending
   discovered_from: null
   source: https://www.cosrx.com/pages/about-us-old
+- name: Naturium Vitamin C Complex Serum
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://naturium.com/products/vitamin-c-complex-serum
