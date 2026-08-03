@@ -1,6 +1,15 @@
 ---
 analyzed: '2026-07-27'
 assurance: opus
+videos:
+- title: "You don't need mineral sunscreen"
+  creator: Michelle Wong
+  creator_slug: michelle-wong
+  credential: Cosmetic chemist, PhD
+  platform: YouTube Shorts
+  url: https://www.youtube.com/shorts/K5zwloQza9M
+  thesis: "Mineral filters are not inherently better than organic ones. Zinc oxide absorbs most UV and re-emits it as heat much like organic filters do (with negligible temperature difference), and its UVA absorption is broad but weak, so the highest-UVA-rated sunscreens on the market are organic or hybrid, not mineral."
+  note: "Verified from the video's own transcript (fetched with yt-dlp; auto-captions read in full, not just the caption). Wong is a credentialed cosmetic chemist (PhD); non-sponsored. Her framing of zinc oxide's absorption as broad-but-low matches the coverage chart on this page. Details on filter safety and heat sit in the sections below."
 name: Sunscreen (UV filters)
 slug: sunscreen-uv-filters
 status: published

@@ -150,6 +150,13 @@ look worse than it is.
 - `recommended_in:` frontmatter (optional): external best-of lists that recommend this product,
   each `title` + `url` + `source`. Every URL must be verified to load AND to actually recommend
   the product. Omit the field entirely if none verify. Never fabricate a list or a URL.
+- `videos:` frontmatter (optional): an attributed short-form-video card from a vetted expert. HARD RULE:
+  only add a video whose actual TRANSCRIPT you have read - a resolving URL or its caption is NOT enough.
+  For YouTube (incl. Shorts), run `python scripts/yt_transcript.py <url>`, read the transcript, then write
+  the entry with a `thesis` grounded in what was actually said. Fields: title, creator, creator_slug (their
+  person page), credential, platform, url, thesis, note (say how it was verified), sponsored (true to flag a
+  paid post). Reject sponsored/#ad content as a source for evidence claims. Prefer credentialed creators
+  (dermatologists, cosmetic chemists) whose advice matches the science. Exemplar: [[sunscreen-uv-filters]].
 - `key_actives:` frontmatter (optional, list of ingredient slugs): a product's genuine treatment
   actives (NOT base emollients or comparators). Powers the routine dashboard's "active ingredients
   as a whole" (see below). A rinse-off cleanser with no leave-on active omits it. Set/refresh it

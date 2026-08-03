@@ -1296,3 +1296,20 @@ best-vitamin-c-serums:
     cited (Lin 2005 PMID 16185284, Murray 2008 JAAD). Health (antioxidant/photoprotection) vs cosmetic
     (brightening/[[hyperpigmentation]]) separated; links [[ascorbic-acid-vitamin-c]]/[[vitamin-c]]/[[ferulic-acid]]/
     [[tocopherol]]. lint+verify+style clean.
+yt-transcript-tool-and-first-verified-video:
+  last_reviewed: '2026-08-03'
+  score: 9
+  verdict: self-reviewed
+  note: |
+    Built the YouTube transcript capability the user asked for. scripts/yt_transcript.py wraps yt-dlp
+    (installed; sandbox has network) to fetch a video's real captions, preferring creator/manual subs over
+    auto and reporting which; pure parse_json3() unit-tested (3 tests). This directly satisfies the user's
+    hard rule (only cite a video whose transcript you can actually read). Then used it to add the FIRST
+    transcript-verified video card: Michelle Wong (Lab Muffin) YouTube Short "You don't need mineral
+    sunscreen" (K5zwloQza9M, 113s) on [[sunscreen-uv-filters]]. I fetched and READ the full transcript
+    (auto-captions) - she debunks the mineral-is-better myth with three sub-points (reflect-vs-absorb/heat,
+    blue light, UVA), and her "zinc oxide is wide but low" framing literally matches this page's UV coverage
+    chart. Thesis on the card is grounded in the transcript, not a caption. Non-sponsored, credentialed
+    creator. Contrast with the earlier removed pH TikTok (caption-only, unverifiable transcript - TikTok is
+    anti-bot walled). NEXT: user flagged yt-dlp can also do TikTok subtitles (HN 48214399) - extend later.
+    Writing-guide + memory updated with the transcript-first workflow. lint+style clean; full suite 154 green.
