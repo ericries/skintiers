@@ -358,3 +358,9 @@
   status: pending
   discovered_from: null
   source: https://www.nytimes.com/wirecutter/reviews/best-retinol-products/
+- name: Alpha-arbutin
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://pubmed.ncbi.nlm.nih.gov/?term=alpha-arbutin+skin+pigmentation

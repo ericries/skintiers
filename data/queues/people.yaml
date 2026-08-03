@@ -100,3 +100,9 @@
   status: pending
   discovered_from: null
   source: https://www.skinmedica.com/us/our_story.html
+- name: Amit Pandya (melasma specialist dermatologist)
+  type: person
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://pubmed.ncbi.nlm.nih.gov/?term=Pandya+AG+melasma
