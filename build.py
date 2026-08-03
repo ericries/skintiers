@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """SkinTiers static site generator."""
+import json
 import os
 import re
 import shutil
@@ -235,6 +236,120 @@ def grades_view_for(metadata):
     return view
 
 
+# --- Routine dashboards ---------------------------------------------------
+# A `list` of `kind: routine` carries an ordered `steps:` list in frontmatter:
+#   steps:
+#     - when: AM            # AM or PM
+#       product: <slug>     # a product page on the site
+#       role: Cleanser      # short label for the step
+#       note: optional one-liner
+# From those product slugs build.py rolls up an at-a-glance summary computed
+# from each product's own `grades:` and [[xref]] links, so the dashboard stays
+# in sync automatically as the underlying product pages change. The same
+# summary is also emitted to _site/routines.json for a future client-side
+# (JavaScript) renderer; the page itself renders the baked HTML with no JS.
+
+# Coarse tiers for the distribution bar, from a product's best HEALTH effect.
+_ROUTINE_TIERS = (
+    ("top", "Top-tier", {"notable", "strong"}),
+    ("mid", "Moderate", {"modest"}),
+    ("entry", "Entry", {"minimal", "none"}),
+)
+
+
+def _top_health_effect(metadata):
+    """A product's best effect word among its HEALTH-labeled grades (falling
+    back to all grades if none are health-labeled); "" if it has no grades."""
+    grades = metadata.get("grades") or []
+    health = [g for g in grades if "(health)" in (g.get("use") or "").lower()]
+    pool = health or grades
+    best_word, best_segs = "", -1
+    for g in pool:
+        word = (g.get("effect") or "").lower()
+        segs = EFFECT_SEGS.get(word, 0)
+        if segs > best_segs:
+            best_word, best_segs = word, segs
+    return best_word
+
+
+def routine_summary(profile, by_slug):
+    """Build the at-a-glance dashboard model for a routine list, or None if the
+    profile is not a routine with steps. Reads each step's product frontmatter
+    for grades (tier distribution) and body xrefs (ingredient union, conditions
+    /goals served). Unknown product slugs are skipped so a routine never breaks
+    the build; they are surfaced via the returned `missing` list."""
+    if profile.get("type") != "list" or profile.get("kind") != "routine":
+        return None
+    steps = profile.metadata.get("steps")
+    if not steps:
+        return None
+    phases = {"AM": [], "PM": []}
+    products, missing = [], []
+    for step in steps:
+        slug = (step.get("product") or "").strip()
+        prod = by_slug.get(slug)
+        if prod is None:
+            missing.append(slug)
+            continue
+        if prod not in products:
+            products.append(prod)
+        effect = _top_health_effect(prod.metadata)
+        row = {
+            "slug": slug,
+            "name": prod.metadata.get("name") or slug,
+            "role": step.get("role") or prod.metadata.get("category") or "",
+            "note": step.get("note") or "",
+            "effect_word": effect,
+            "effect_segs": EFFECT_SEGS.get(effect, 0),
+            "published": prod.get("status") == "published",
+        }
+        phases.get((step.get("when") or "AM").upper().strip(), phases["AM"]).append(row)
+
+    tier_counts = {key: 0 for key, _label, _words in _ROUTINE_TIERS}
+    for prod in products:
+        word = _top_health_effect(prod.metadata)
+        for key, _label, words in _ROUTINE_TIERS:
+            if word in words:
+                tier_counts[key] += 1
+                break
+    tiers = [{"key": key, "label": label, "count": tier_counts[key]}
+             for key, label, _words in _ROUTINE_TIERS]
+
+    # Active ingredients "as a whole": the union of each product's declared
+    # `key_actives:` (ingredient slugs). This is author-declared rather than
+    # scraped from body links, so base emollients and comparator ingredients do
+    # not leak in; a product with no key_actives simply contributes nothing.
+    ingredients, seen_ing = [], set()
+    for prod in products:
+        for slug in prod.metadata.get("key_actives") or []:
+            t = by_slug.get(slug)
+            if t is None or slug in seen_ing:
+                continue
+            seen_ing.add(slug)
+            ingredients.append({"slug": slug, "name": t.metadata.get("name") or slug})
+    ingredients.sort(key=lambda d: d["name"].lower())
+
+    # Conditions/goals the routine is for: declared on the routine's own `for:`
+    # frontmatter (a routine targets a concern as a whole, so this is a property
+    # of the routine, not something to infer from its products' links).
+    serves = []
+    for slug in profile.metadata.get("for") or []:
+        t = by_slug.get(slug)
+        if t is not None:
+            serves.append({"slug": slug, "name": t.metadata.get("name") or slug,
+                           "type_label": TYPE_LABEL.get(t.get("type"), (t.get("type") or "").title())})
+
+    return {
+        "am": phases["AM"], "pm": phases["PM"],
+        "product_count": len(products),
+        "top_tier_count": tier_counts["top"],
+        "tiers": tiers,
+        "ingredients": ingredients,
+        "serves": serves,
+        "missing": missing,
+    }
+
+
 def _resolve_image(val):
     """A URL is used as-is; a bare filename resolves to images/<file>."""
     return val if re.match(r"^https?://", val) else f"images/{val}"
@@ -363,6 +478,8 @@ def build():
     names = {p["slug"]: p["name"] for p in profiles}
     tag_index = sklib.build_tag_index(profiles)
     rev_index = reverse_xref_index(profiles)
+    by_slug = {p["slug"]: p for p in profiles}
+    routines_json = {}
 
     for p in profiles:
         linked = sklib.linkify_xrefs(p.content, slugs, names)
@@ -372,6 +489,16 @@ def build():
         if _UV_MARKER in body_main:
             body_main = body_main.replace(_UV_MARKER, render_uv_spectrum())
         images, monogram = images_and_monogram(p.metadata)
+        routine = routine_summary(p, by_slug)
+        if routine is not None:
+            routines_json[p["slug"]] = {
+                "name": p.metadata.get("name"),
+                "product_count": routine["product_count"],
+                "top_tier_count": routine["top_tier_count"],
+                "tiers": {t["key"]: t["count"] for t in routine["tiers"]},
+                "ingredient_slugs": [i["slug"] for i in routine["ingredients"]],
+                "serves_slugs": [s["slug"] for s in routine["serves"]],
+            }
         html = env.get_template("profile.html").render(
             profile=p.metadata,
             standfirst=standfirst,
@@ -385,8 +512,13 @@ def build():
             type_href=TYPE_HREF.get(p.get("type"), "index.html"),
             tagged_groups=tagged_groups_for(p, tag_index),
             backref_groups=backref_groups_for(p["slug"], rev_index),
-            tier_nav=tier_nav_from_html(body_main))
+            tier_nav=tier_nav_from_html(body_main),
+            routine=routine)
         (out / f"{p['slug']}.html").write_text(html)
+
+    # Baked routine rollups for a future client-side renderer (the pages
+    # themselves render static HTML and need no JS).
+    (out / "routines.json").write_text(json.dumps(routines_json, indent=2, sort_keys=True))
 
     # Listing pages are always built for every category; only the index nav is
     # filtered to categories with at least one PUBLISHED profile.

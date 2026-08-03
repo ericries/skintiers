@@ -102,23 +102,30 @@ grouped by type) on every page. No manual back-link maintenance needed; the one-
 ## Next phase (2026-07-31): routine visualization + simple infographics
 User-approved direction. Be judicious on tokens; cheaper models (Sonnet) for drafting, Opus only to verify claims.
 
-### A. Routine visualization (the big one)
-A `list` of `kind: routine` gets an at-a-glance dashboard computed from its products:
-- **How well it works** (aggregate of the products' two-axis effect x evidence grades)
-- **Ingredients as a whole** (deduped union of the products' key actives, each linked)
-- **Conditions/goals it serves** (union of what its products/actives are graded for)
-- **Tier distribution** (how many products are top-tier vs low-tier)
-Technical approach (static site, no backend):
-1. **Schema (the key gap):** routine pages need a machine-readable ordered `steps:` list, e.g.
-   `steps: [{when: AM|PM, product: <slug>, note: ...}]` (PROPOSE + confirm the exact shape before locking it).
-2. **build.py bakes the metadata:** aggregate each routine's steps -> {grade rollup, ingredient union, conditions,
-   tier counts} and emit `_site/routines.json` (or per-page data- attributes). build.py already loads grades +
-   [[ingredient]] links + the reverse-xref index, so the plumbing exists.
-3. **Client JS** renders the dashboard dynamically from the pre-baked JSON (grade bar, ingredient chips, condition
-   tags, filtering). No runtime computation.
-4. **Generated icons** (SVG, standardized size) for conditions/ingredient classes; **product badges** = each product
-   photo cropped/framed to a consistent size/layout with a tier badge overlay.
-Start small: schema -> build.py aggregation JSON -> a rudimentary renderer, then icons/badges.
+### A. Routine visualization (RUDIMENTARY VERSION SHIPPED 2026-08-03)
+A `list` of `kind: routine` now gets an at-a-glance dashboard, baked as static HTML by build.py
+(`routine_summary()` + the `.routine-dash` block in profile.html), first live on
+[[minimal-evidence-led-acne-routine]]. It shows: product count, top-tier count, a tier-distribution bar,
+the active ingredients as a whole (chips), what it's good for (chips), and the AM/PM steps with per-step
+effect dots. `_site/routines.json` carries the same rollup for a future client-side renderer.
+
+**SCHEMA (LOCKED 2026-08-03).** Two frontmatter fields drive it:
+- On the routine list page: `for: [<condition/goal slug>, ...]` (what it targets) and an ordered
+  `steps:` list, each `{when: AM|PM, product: <product slug>, role: <short label>, note: <optional>}`.
+- On each product: `key_actives: [<ingredient slug>, ...]` — the genuine treatment actives (NOT base
+  emollients or comparators). The ingredient union is author-declared via this field, not scraped from
+  body links (scraping pulled in petrolatum, comparators, etc.). A product with no leave-on active (e.g.
+  a rinse-off cleanser) simply omits it. **Maintenance:** when a product is added/reworked, set its
+  `key_actives`; only the 5 products in the acne routine carry it so far, so backfill as routines grow.
+Tier distribution and per-step effect come from each product's existing `grades:` (top HEALTH effect),
+so those stay auto-synced with no extra fields.
+
+**Still TODO (heavier, next design week):**
+- **Client JS renderer** over `routines.json` (filtering, interactivity). Static bake covers v1.
+- **Generated icons** (SVG, standardized) for conditions/ingredient classes; **product badges** = each
+  product photo cropped/framed to a consistent size with a tier-badge overlay.
+- Fill the other 2 routine stubs (rosacea-friendly, oily-skin Korean) using the locked schema.
+- Aggregate grade "how well it works" as a single composite score if wanted (today it's the tier split).
 
 ### B. Simple infographics
 - **Sunscreen filter UV-coverage chart** (STARTED 2026-07-31): a static SVG spectrum (280-400 nm, UVB / UVA-II / UVA-I

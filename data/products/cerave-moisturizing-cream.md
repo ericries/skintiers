@@ -35,6 +35,9 @@ recommended_in:
 - source: yahoo.com
   title: Yahoo, best drugstore moisturizer of 2026
   url: https://shopping.yahoo.com/beauty/skincare/article/best-drugstore-moisturizer-201112720.html
+key_actives:
+- ceramides
+- hyaluronic-acid
 slug: cerave-moisturizing-cream
 status: published
 type: product

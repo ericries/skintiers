@@ -29,6 +29,10 @@ images:
   source: Dermstore
   source_url: https://www.dermstore.com/p/eltamd-uv-clear-broad-spectrum-spf46-48g/11370303/
 name: EltaMD UV Clear Broad-Spectrum SPF 46
+key_actives:
+- zinc-oxide
+- octinoxate
+- niacinamide
 slug: eltamd-uv-clear-spf-46
 status: published
 type: product

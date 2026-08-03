@@ -39,6 +39,8 @@ recommended_in:
   title: NBC Select, Best Acne Treatments for Teens 2026, According to Dermatologists
     (best overall)
   url: https://www.nbcnews.com/select/shopping/best-treatment-acne-spot-pimples-cleansers-ncna1136656
+key_actives:
+- adapalene
 slug: differin-adapalene-0-1-gel
 status: published
 type: product

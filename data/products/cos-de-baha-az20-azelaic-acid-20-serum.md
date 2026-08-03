@@ -19,6 +19,8 @@ grades:
 images:
 - cos-de-baha-az20-azelaic-acid-20-serum.jpg
 name: Cos De BAHA AZ20 Azelaic Acid 20% Cream
+key_actives:
+- azelaic-acid
 slug: cos-de-baha-az20-azelaic-acid-20-serum
 status: published
 type: product

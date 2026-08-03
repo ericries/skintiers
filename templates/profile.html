@@ -41,6 +41,41 @@
 
   {% if tier_nav %}<nav class="tier-glance" aria-label="Tiers at a glance"><span class="tier-glance-label">At a glance</span><ol>{% for t in tier_nav %}<li><a href="{{ t.href }}">{% if t.num %}<span class="tg-n">{{ t.num }}</span>{% endif %}{{ t.label }}</a></li>{% endfor %}</ol></nav>{% endif %}
 
+  {% if routine %}
+  <section class="routine-dash" aria-label="Routine at a glance">
+    <div class="rd-stats">
+      <div class="rd-stat"><span class="rd-num">{{ routine.product_count }}</span><span class="rd-cap">product{{ '' if routine.product_count == 1 else 's' }}</span></div>
+      <div class="rd-stat"><span class="rd-num">{{ routine.top_tier_count }}</span><span class="rd-cap">top-tier</span></div>
+      <div class="rd-tiers" role="img" aria-label="Tier distribution: {% for t in routine.tiers %}{{ t.count }} {{ t.label }}{{ '; ' if not loop.last }}{% endfor %}">
+        {% for t in routine.tiers %}{% if t.count %}<span class="rd-tier rd-tier-{{ t.key }}" style="flex:{{ t.count }}">{{ t.label }} · {{ t.count }}</span>{% endif %}{% endfor %}
+      </div>
+    </div>
+    {% if routine.serves %}
+    <div class="rd-row"><span class="rd-label">Good for</span><span class="rd-chips">{% for s in routine.serves %}<a class="rd-chip rd-chip-goal" href="{{ s.slug }}.html">{{ s.name }}</a>{% endfor %}</span></div>
+    {% endif %}
+    {% if routine.ingredients %}
+    <div class="rd-row"><span class="rd-label">Active ingredients</span><span class="rd-chips">{% for i in routine.ingredients %}<a class="rd-chip" href="{{ i.slug }}.html">{{ i.name }}</a>{% endfor %}</span></div>
+    {% endif %}
+    <div class="rd-steps">
+      {% for phase, rows in [('AM', routine.am), ('PM', routine.pm)] %}{% if rows %}
+      <div class="rd-phase">
+        <h3 class="rd-phase-h">{{ phase }}</h3>
+        <ol class="rd-step-list">
+          {% for r in rows %}
+          <li class="rd-step">
+            <span class="rd-step-role">{{ r.role }}</span>
+            <a class="rd-step-name" href="{{ r.slug }}.html">{{ r.name }}</a>
+            <span class="rd-effect rd-effect-{{ r.effect_segs }}" title="{{ r.effect_word|title }} effect" aria-label="{{ r.effect_word|title }} effect">{% for n in range(4) %}<i class="{{ 'on' if n < r.effect_segs }}"></i>{% endfor %}</span>
+            {% if r.note %}<span class="rd-step-note">{{ r.note }}</span>{% endif %}
+          </li>
+          {% endfor %}
+        </ol>
+      </div>
+      {% endif %}{% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
   {% if body_main %}<section class="prose">{{ body_main | safe }}</section>{% endif %}
 
   {% if recommended_in %}

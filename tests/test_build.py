@@ -247,3 +247,63 @@ def test_build_renders_tagged_index_on_condition_page(tmp_path):
     assert 'href="niacinamide.html"' not in acne_html    # untagged page not listed
     # The tagged section is NOT rendered on ingredient (non condition/goal) pages.
     assert "tagged" not in (out / "tretinoin.html").read_text().lower()
+
+
+def _write_graded_product(dirpath, slug, effect, key_actives):
+    """A product with one HEALTH grade at `effect` and a key_actives list."""
+    dirpath.mkdir(parents=True, exist_ok=True)
+    ka = "".join(f"- {a}\n" for a in key_actives)
+    (dirpath / f"{slug}.md").write_text(
+        f"---\nname: {slug.title()}\nslug: {slug}\ntype: product\nstatus: published\n"
+        f"updated: 2026-08-03\nanalyzed: 2026-08-03\ncategory: Test\n"
+        f"key_actives:\n{ka}"
+        f"grades:\n- effect: {effect}\n  evidence: solid\n  use: For test (health)\n"
+        f"---\n\n## Summary\n\nBody.\n\n## Sources\n\nNone.\n"
+    )
+
+
+def test_routine_dashboard_aggregates_from_products(tmp_path):
+    # A `kind: routine` list with `steps:` gets an at-a-glance dashboard whose
+    # tier distribution comes from each product's grades, whose active
+    # ingredients come from the products' `key_actives`, and whose "good for"
+    # comes from the routine's own `for:`. The rollup is also in routines.json.
+    import json
+    data = tmp_path / "data"
+    out = tmp_path / "_site"
+    _write(data / "ingredients", "azelaic-acid", "published", "ingredient")
+    _write(data / "ingredients", "ceramides", "published", "ingredient")
+    _write(data / "conditions", "acne", "published", "condition")
+    _write_graded_product(data / "products", "cleanser", "minimal", [])
+    _write_graded_product(data / "products", "treatment", "notable", ["azelaic-acid"])
+    _write_graded_product(data / "products", "cream", "modest", ["ceramides"])
+    (data / "lists").mkdir(parents=True, exist_ok=True)
+    (data / "lists" / "myroutine.md").write_text(
+        "---\nname: My Routine\nslug: myroutine\ntype: list\nkind: routine\n"
+        "status: published\nupdated: 2026-08-03\nanalyzed: 2026-08-03\n"
+        "for:\n- acne\n"
+        "steps:\n"
+        "- when: AM\n  product: cleanser\n  role: Cleanser\n"
+        "- when: AM\n  product: treatment\n  role: Treatment\n"
+        "- when: PM\n  product: cream\n  role: Moisturizer\n"
+        "---\n\nA routine.\n\n## Sources\n\nOn the linked pages.\n"
+    )
+    env = {**os.environ, "SK_DATA": str(data), "SK_OUTPUT": str(out)}
+    r = subprocess.run([sys.executable, str(ROOT / "build.py")], env=env,
+                       capture_output=True, text=True)
+    assert r.returncode == 0, r.stderr
+    # routines.json rollup
+    rj = json.loads((out / "routines.json").read_text())["myroutine"]
+    assert rj["product_count"] == 3
+    assert rj["top_tier_count"] == 1                      # only "treatment" (notable)
+    assert rj["tiers"] == {"top": 1, "mid": 1, "entry": 1}
+    assert rj["ingredient_slugs"] == ["azelaic-acid", "ceramides"]  # cleanser adds none
+    assert rj["serves_slugs"] == ["acne"]
+    # rendered dashboard
+    html = (out / "myroutine.html").read_text()
+    assert 'class="routine-dash"' in html
+    assert 'href="azelaic-acid.html"' in html            # active-ingredient chip links out
+    assert 'href="acne.html"' in html                    # "good for" chip
+    assert 'href="treatment.html"' in html               # a step links its product
+    assert "rd-tier-top" in html                          # tier bar present
+    # a non-routine page has no dashboard
+    assert 'class="routine-dash"' not in (out / "treatment.html").read_text()

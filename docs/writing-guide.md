@@ -150,6 +150,16 @@ look worse than it is.
 - `recommended_in:` frontmatter (optional): external best-of lists that recommend this product,
   each `title` + `url` + `source`. Every URL must be verified to load AND to actually recommend
   the product. Omit the field entirely if none verify. Never fabricate a list or a URL.
+- `key_actives:` frontmatter (optional, list of ingredient slugs): a product's genuine treatment
+  actives (NOT base emollients or comparators). Powers the routine dashboard's "active ingredients
+  as a whole" (see below). A rinse-off cleanser with no leave-on active omits it. Set/refresh it
+  whenever the product is added or reworked.
+- **Routine lists** (`kind: routine`): carry `for: [<condition/goal slug>...]` and an ordered
+  `steps:` list of `{when: AM|PM, product: <slug>, role: <short label>, note: <optional>}`. build.py
+  bakes an at-a-glance dashboard from those (tier split + per-step effect from each product's `grades:`,
+  ingredient chips from the products' `key_actives:`, "good for" from `for:`). Draw steps ONLY from
+  products already on the site; describe sequence/timing as fact, never as a command (see the routine
+  rule above). Exemplar: `data/lists/minimal-evidence-led-acne-routine.md`.
 - **Product photos: several, from various sites, required.** They render as a concise photo RAIL
   floated into the side whitespace (no captions, no labels on the photos). Gather a handful of real
   photos of THIS exact SKU from different sites: the manufacturer plus two or more retailers (e.g.
