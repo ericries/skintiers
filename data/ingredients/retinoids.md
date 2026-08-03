@@ -1,6 +1,15 @@
 ---
 analyzed: '2026-07-27'
 assurance: opus
+videos:
+- title: "Tretinoin vs adapalene: finding the right prescription retinoid"
+  creator: Dr. Sam Ellis
+  creator_slug: samantha-ellis
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=sPBrWZlHamc
+  thesis: "Prescription retinoids like tretinoin are already in the active retinoic-acid form, so they skip the conversion steps that over-the-counter retinol and retinaldehyde need; that makes them stronger and faster to work but likelier to cause the early redness, dryness, and peeling. For acne she starts patients on adapalene, because it is effective and better tolerated."
+  note: "Verified from the video's transcript (yt-dlp, read in full). Board-certified dermatologist; educational and non-sponsored - the video covers prescription retinoids, not her own Prequel brand."
 name: Retinoids
 slug: retinoids
 status: published

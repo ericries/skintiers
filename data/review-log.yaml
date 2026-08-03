@@ -1392,3 +1392,22 @@ trader-joes-retinol-night-serum:
     this serum" line from 4x to 1x; (4) cut the "no fetchable INCI" research-process narration in What's In It
     and the absence-hedge in Common Marketing Claims. Category-vs-product clean (retinol evidence linked out;
     modest/preliminary grade); compared to SkinMedica/Differin/Anua. lint+verify+style clean.
+expert-video-batch-1:
+  last_reviewed: '2026-08-03'
+  score: 9
+  verdict: self-reviewed
+  note: |
+    First real production batch of the social-media expert pipeline (user approved). Two new transcript-
+    verified YouTube video cards, from creators who already have person pages so the cards link real
+    profiles: (1) Dr. Sam Ellis (board-certified dermatologist, samantha-ellis) "Tretinoin vs adapalene:
+    finding the right prescription retinoid" (sPBrWZlHamc) on [[retinoids]] - thesis grounded in her actual
+    transcript (prescription retinoids are already in the active retinoic-acid form so they skip the
+    conversion steps OTC retinol needs = stronger/faster but more irritating; she starts acne on adapalene);
+    (2) Chemist Confessions (cosmetic chemists Victoria Fu + Gloria Lu, linked victoria-fu) "How to use
+    niacinamide" (xcOUyHgeITQ) on [[niacinamide]] - target 2 to 5% (10% gives no extra benefit), layering
+    many niacinamide products adds up to irritation, DIY powder pointless. Each transcript fetched with
+    scripts/yt_transcript.py, READ IN FULL, and cached; theses are from what was actually said, not captions.
+    Conflicts disclosed on the cards (Ellis owns Prequel - but this video is about prescription retinoids,
+    not her brand; Chemist Confessions briefly note their own 5% serum). Both cards auto-aggregate onto the
+    creators' person pages via the creator_videos reverse index. 3 expert video cards now live across the
+    site (Wong/sunscreen, Ellis/retinoids, Chemist Confessions/niacinamide). lint+style clean; suite 156 green.

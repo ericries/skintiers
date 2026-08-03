@@ -1,6 +1,15 @@
 ---
 analyzed: '2026-07-28'
 assurance: opus
+videos:
+- title: "How to use niacinamide in your routine"
+  creator: Chemist Confessions (Victoria Fu and Gloria Lu)
+  creator_slug: victoria-fu
+  credential: Cosmetic chemists
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=xcOUyHgeITQ
+  thesis: "The useful concentration is about 2 to 5%; a 10% serum is popular but does not give twice the benefit of 5%. Because niacinamide is stacked across so many products (cleansers, serums, moisturizers) the doses add up, and layering several niacinamide products can tip into irritation and redness. The do-it-yourself powder form is pointless and easy to overdose."
+  note: "Verified from the video's transcript (yt-dlp, read in full). Two cosmetic chemists; educational content. They briefly and openly note their own serum contains 5%; the concentration and layering guidance stands on its own."
 name: Niacinamide
 slug: niacinamide
 status: published
