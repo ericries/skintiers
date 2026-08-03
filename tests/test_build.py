@@ -274,8 +274,9 @@ def test_routine_dashboard_aggregates_from_products(tmp_path):
     _write(data / "ingredients", "ceramides", "published", "ingredient")
     _write(data / "conditions", "acne", "published", "condition")
     _write_graded_product(data / "products", "cleanser", "minimal", [])
-    _write_graded_product(data / "products", "treatment", "notable", ["azelaic-acid"])
-    _write_graded_product(data / "products", "cream", "modest", ["ceramides"])
+    _write_graded_product(data / "products", "treatment", "notable", ["azelaic-acid", "niacinamide"])
+    _write_graded_product(data / "products", "cream", "modest", ["ceramides", "niacinamide"])
+    _write(data / "ingredients", "niacinamide", "published", "ingredient")
     (data / "lists").mkdir(parents=True, exist_ok=True)
     (data / "lists" / "myroutine.md").write_text(
         "---\nname: My Routine\nslug: myroutine\ntype: list\nkind: routine\n"
@@ -299,13 +300,19 @@ def test_routine_dashboard_aggregates_from_products(tmp_path):
     # composite strength: mean of effects notable(3)+modest(2)+minimal(1) = 2.0 -> "Moderate"
     assert rj["strength"]["label"] == "Moderate"
     assert rj["strength"]["segs"] == 2
-    assert rj["ingredient_slugs"] == ["azelaic-acid", "ceramides"]  # cleanser adds none
+    assert rj["ingredient_slugs"] == ["niacinamide", "azelaic-acid", "ceramides"]  # most-layered first
+    assert rj["ingredients"]["niacinamide"] == 2         # niacinamide in 2 products -> x2
+    assert "A retinoid" in rj["absent"]                  # notable-absent categories flagged
+    assert "Niacinamide" not in rj["absent"]             # present -> not absent
     assert rj["serves_slugs"] == ["acne"]
     # rendered dashboard
     html = (out / "myroutine.html").read_text()
     assert 'class="routine-dash"' in html
     assert "Moderate" in html                            # composite strength word rendered
     assert "how well it works" in html
+    assert 'class="rd-x"' in html                        # x2 badge on the layered active
+    assert "Not included" in html                        # absent row present
+    assert "rd-chip-absent" in html
     assert 'href="azelaic-acid.html"' in html            # active-ingredient chip links out
     assert 'href="acne.html"' in html                    # "good for" chip
     assert 'href="treatment.html"' in html               # a step links its product

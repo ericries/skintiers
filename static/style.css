@@ -233,6 +233,9 @@ footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;
 .rd-chip{font-family:var(--mono);font-size:12px;color:var(--muted);background:var(--paper);border:1px solid var(--rule-strong);border-radius:20px;padding:3px 11px}
 .rd-chip:hover{color:var(--accent);border-color:var(--accent)}
 .rd-chip-goal{background:var(--accent-soft);border-color:transparent;color:var(--accent)}
+.rd-x{margin-left:5px;font-weight:700;color:var(--tier-best)}
+.rd-chip-absent{color:var(--faint);border-style:dashed;border-color:var(--rule-strong)}
+.rd-absent-note{font-family:var(--serif);font-size:12.5px;font-style:italic;color:var(--faint);align-self:center;margin-left:2px}
 .rd-steps{display:flex;gap:30px;margin-top:20px;flex-wrap:wrap}
 .rd-phase{flex:1;min-width:220px}
 .rd-phase-h{margin:0 0 8px}

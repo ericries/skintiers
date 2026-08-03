@@ -55,7 +55,10 @@
     <div class="rd-row"><span class="rd-label">Good for</span><span class="rd-chips">{% for s in routine.serves %}<a class="rd-chip rd-chip-goal" href="{{ s.slug }}.html">{{ s.name }}</a>{% endfor %}</span></div>
     {% endif %}
     {% if routine.ingredients %}
-    <div class="rd-row"><span class="rd-label">Active ingredients</span><span class="rd-chips">{% for i in routine.ingredients %}<a class="rd-chip" href="{{ i.slug }}.html">{{ i.name }}</a>{% endfor %}</span></div>
+    <div class="rd-row"><span class="rd-label">Active ingredients</span><span class="rd-chips">{% for i in routine.ingredients %}<a class="rd-chip" href="{{ i.slug }}.html">{{ i.name }}{% if i.count > 1 %}<span class="rd-x" title="in {{ i.count }} of the routine's products">&times;{{ i.count }}</span>{% endif %}</a>{% endfor %}</span></div>
+    {% endif %}
+    {% if routine.absent %}
+    <div class="rd-row"><span class="rd-label">Not included</span><span class="rd-chips">{% for a in routine.absent %}<span class="rd-chip rd-chip-absent">{{ a }}</span>{% endfor %}<span class="rd-absent-note">(shown for information, not as a shortcoming)</span></span></div>
     {% endif %}
     <div class="rd-steps">
       {% for phase, rows in [('AM', routine.am), ('PM', routine.pm)] %}{% if rows %}

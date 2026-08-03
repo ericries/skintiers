@@ -256,6 +256,22 @@ _ROUTINE_TIERS = (
     ("entry", "Entry", {"minimal", "none"}),
 )
 
+# The broadly-notable actives a reader commonly asks about, each satisfied by
+# any of a family of ingredient slugs. Used to tell the reader which notable
+# categories a routine does NOT include — informational, not a criticism.
+_NOTABLE_ACTIVES = (
+    ("A retinoid", {"retinol", "retinaldehyde", "adapalene", "tretinoin",
+                    "retinyl-esters", "retinyl-retinoate", "bakuchiol"}),
+    ("Vitamin C", {"ascorbic-acid-vitamin-c", "vitamin-c"}),
+    ("Niacinamide", {"niacinamide"}),
+    ("Azelaic acid", {"azelaic-acid"}),
+    ("An exfoliating acid", {"salicylic-acid", "glycolic-acid", "lactic-acid",
+                             "mandelic-acid"}),
+    ("Sun protection (SPF)", {"zinc-oxide", "titanium-dioxide", "avobenzone",
+                              "octinoxate", "octisalate", "homosalate", "octocrylene",
+                              "bisoctrizole", "ethylhexyl-triazone", "sunscreen-uv-filters"}),
+)
+
 
 def _top_health_effect(metadata):
     """A product's best effect word among its HEALTH-labeled grades (falling
@@ -327,19 +343,27 @@ def routine_summary(profile, by_slug):
             break
     strength = {"label": strength_label, "segs": round(mean_seg), "mean": round(mean_seg, 2)}
 
-    # Active ingredients "as a whole": the union of each product's declared
-    # `key_actives:` (ingredient slugs). This is author-declared rather than
-    # scraped from body links, so base emollients and comparator ingredients do
-    # not leak in; a product with no key_actives simply contributes nothing.
-    ingredients, seen_ing = [], set()
+    # Active ingredients "as a whole": each product's declared `key_actives:`
+    # (author-declared, so base emollients and comparators do not leak in). We
+    # COUNT how many distinct products in the routine carry each active, so a
+    # layered ingredient shows as "x2", "x3" etc.; a product with no key_actives
+    # contributes nothing.
+    ing_count, ing_name = {}, {}
     for prod in products:
         for slug in prod.metadata.get("key_actives") or []:
             t = by_slug.get(slug)
-            if t is None or slug in seen_ing:
+            if t is None:
                 continue
-            seen_ing.add(slug)
-            ingredients.append({"slug": slug, "name": t.metadata.get("name") or slug})
-    ingredients.sort(key=lambda d: d["name"].lower())
+            ing_count[slug] = ing_count.get(slug, 0) + 1
+            ing_name[slug] = t.metadata.get("name") or slug
+    # Most-layered first, then alphabetical.
+    ingredients = sorted(
+        ({"slug": s, "name": ing_name[s], "count": ing_count[s]} for s in ing_count),
+        key=lambda d: (-d["count"], d["name"].lower()))
+
+    # Notable actives the routine does NOT include (informational, not a flaw).
+    present = set(ing_count)
+    absent = [label for label, members in _NOTABLE_ACTIVES if not (members & present)]
 
     # Conditions/goals the routine is for: declared on the routine's own `for:`
     # frontmatter (a routine targets a concern as a whole, so this is a property
@@ -358,6 +382,7 @@ def routine_summary(profile, by_slug):
         "strength": strength,
         "tiers": tiers,
         "ingredients": ingredients,
+        "absent": absent,
         "serves": serves,
         "missing": missing,
     }
@@ -510,7 +535,9 @@ def build():
                 "top_tier_count": routine["top_tier_count"],
                 "strength": routine["strength"],
                 "tiers": {t["key"]: t["count"] for t in routine["tiers"]},
+                "ingredients": {i["slug"]: i["count"] for i in routine["ingredients"]},
                 "ingredient_slugs": [i["slug"] for i in routine["ingredients"]],
+                "absent": routine["absent"],
                 "serves_slugs": [s["slug"] for s in routine["serves"]],
             }
         html = env.get_template("profile.html").render(

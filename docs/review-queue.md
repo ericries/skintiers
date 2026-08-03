@@ -126,6 +126,11 @@ so those stay auto-synced with no extra fields.
 - DONE: composite "how well it works" score — `strength` (Strong/Solid/Moderate/Light, mean of products'
   best health effect), rendered prominently and in routines.json. Labeled as a summary of the graded
   products, not a routine trial.
+- DONE (user request 2026-08-03): **layered-ingredient counts + notable-absent list.** An active that
+  appears in more than one of the routine's products shows an "x2 / x3 / x4" badge (e.g. niacinamide x4
+  in the oily routine). A "Not included" row lists broadly-notable actives the routine omits (from
+  `_NOTABLE_ACTIVES`: a retinoid, vitamin C, niacinamide, azelaic acid, an exfoliating acid, SPF),
+  explicitly framed as information, not a shortcoming. Both in build.py routine_summary + routines.json.
 
 **Still TODO (heavier, next design week):**
 - **Client JS renderer** over `routines.json` (filtering, interactivity). Static bake covers v1.
@@ -142,3 +147,34 @@ so those stay auto-synced with no extra fields.
   present" view on each SPF product page.
 - Other infographic candidates: tier-distribution bars (feeds the routine dashboard), health-vs-cosmetic split, an
   ingredient's product-count. Reuse the same static-SVG + build.py-data pattern.
+
+## FUTURE PHASE (requested 2026-08-03): social-media expert pipeline
+User direction, NOT yet built: pull practical skincare expertise from short-form video (TikTok, Reels,
+YouTube Shorts), especially from dermatologists and cosmetic chemists, and fold it into the site. This is a
+multi-component pipeline; scope it as its own project (brainstorm -> spec -> plan) when we pick it up. Sketch:
+
+1. **Discovery.** Find candidate videos/creators (search by handle, hashtag, "routine for <condition>",
+   ingredient names). Maintain a seed list of credentialed creators (board-certified derms, cosmetic
+   chemists) rather than open-crawling. Feeds a queue like the freshness feed does.
+2. **Transcript + extraction.** Pull the transcript (platform captions, or audio -> speech-to-text). An LLM
+   pass extracts: named products, named ingredients, the claims made, and any "routine" structure (ordered
+   AM/PM steps).
+3. **Credibility gate (the hard part).** Two layers: (a) creator-level — credentials verified, cross-checked
+   against a credibility rubric; (b) claim-level — EVERY factual claim is checked against the site's existing
+   evidence, and anything that contradicts the science we have (e.g. debunked or unsafe advice) is filtered
+   out. A video is a CANDIDATE, never evidence: each surviving claim still needs the normal 3-primary-source
+   sourcing before it lands on a page. Creators who repeatedly push contradicted claims are excluded.
+4. **Incorporation.** Vetted creators become `person` pages (with the credibility assessment + why they are
+   trustworthy). Their videos are references/attribution, never primary evidence. Respect platform ToS and
+   copyright: summarize and link, do not reproduce the video; observe the one-short-quote limit.
+5. **"Routine for X" -> routine page (the killer feature).** A vetted expert's "my routine for <condition>"
+   video maps directly onto the routine schema we just shipped: match the named products to site product
+   pages (queue any missing), emit a `kind: routine` list with `for:`/`steps:`, and it gets the same
+   at-a-glance dashboard (strength, tier split, layered/absent ingredients) — attributed to the creator, with
+   each product's own graded evidence doing the load-bearing work. This is where short-form advice becomes
+   a durable, checkable page.
+
+Open questions for the brainstorm: which platforms/how to access transcripts within ToS; the exact
+credibility rubric and who is on the seed list; how aggressively to auto-reject vs. queue-for-human-review;
+how to attribute without over-reproducing copyrighted video. Anti-hallucination spine is unchanged: the
+expert lends credibility and discovery, but claims are still verified against primary sources, not the video.

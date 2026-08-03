@@ -3,6 +3,10 @@
 # Rendered to _site/whats-new.html (footer link).
 
 - date: '2026-08-03'
+  title: Routine dashboards now flag layered actives (e.g. niacinamide x4 in the oily-skin routine) and
+    list the notable actives a routine leaves out (vitamin C, a retinoid, an exfoliating acid, etc.) —
+    shown for information, not as a shortcoming.
+- date: '2026-08-03'
   title: 'Added a detailed lay summary of Dhaliwal 2019 — the pivotal double-blind RCT behind ''bakuchiol
     is a gentler retinol alternative'': over 12 weeks both cut wrinkles and pigmentation equally, but
     retinol caused more scaling and stinging. It compares bakuchiol to retinol (a mild OTC form), not
