@@ -1346,3 +1346,24 @@ voice-and-routine-policy-corrections:
     PEOPLE_EXPERTISE_ORDER; grouped_by_category generalised with a key param). TODO noted (code + docs): add a
     "Licensed estheticians" group once esthetician profiles exist (the 2 estheticians sit under Educators for
     now). lint/style clean; full suite 156 green.
+ivermectin-topical:
+  last_reviewed: '2026-08-03'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    New ingredient page (daily ingredient cron; Sonnet draft + Opus profile-reviewer critic; assurance=
+    sonnet since the critic verdict was REVISE, addressed but not re-verified by a clean pass - though the
+    critic did confirm every statistic). Topical ivermectin 1% (Soolantra), prescription cream for the
+    inflammatory lesions of papulopustular rosacea. Critic re-fetched sources via NCBI eutils efetch/esummary
+    (PubMed HTML is captcha-walled) + DailyMed and confirmed EVERY number verbatim: Stein 2014 (PMID
+    24595578) IGA success 38.4%/40.1% vs 11.6%/18.8% vehicle (P<.001), lesion reduction 76.0%/75.0% vs 50.0%;
+    Taieb 2015 ATTRACT (PMID 25228137) 962 pts, superior to metronidazole 0.75% - lesion reduction 83.0% vs
+    73.7% and IGA 84.9% vs 75.4% (both P<0.001); Stein Gold 2014 (PMID 25607706) framed honestly as
+    tolerability not a head-to-head efficacy win vs azelaic; Schaller 2017 (PMID 28653460) dual-mechanism
+    numbers. FDA approval Dec 2014, indication verbatim "inflammatory lesions of rosacea", and the DailyMed
+    "mechanism ... is unknown" is quoted so the dual anti-inflammatory/anti-Demodex action is only ever
+    "proposed". REVISE blockers fixed: (1) linked the actual indication [[rosacea-papulopustular]] (draft had
+    only linked the non-indicated erythematotelangiectatic sibling); (2) de-quoted two lightly-reconstructed
+    sentences in The Evidence (numbers all verified correct; converted to reported speech so quote marks don't
+    over-claim verbatim fidelity behind PubMed's captcha). Marketing claims quarantined; prescription/health
+    framing correct; compared to [[azelaic-acid]] + metronidazole. 6 independent primaries. lint+verify+style clean.

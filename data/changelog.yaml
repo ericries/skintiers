@@ -3,6 +3,11 @@
 # Rendered to _site/whats-new.html (footer link).
 
 - date: '2026-08-03'
+  title: Added a page on topical ivermectin (Soolantra) — the prescription rosacea cream. It has strong
+    evidence for the inflammatory papules and pustules of papulopustular rosacea (it beat vehicle in two
+    trials and outperformed metronidazole head-to-head), but its mechanism is officially unknown and it
+    does not treat rosacea's redness or flushing.
+- date: '2026-08-03'
   title: The People directory is now grouped by credential type (dermatologists, cosmetic chemists, educators).
     Also removed a routine that was based on a creator's general guidance rather than a specific video
     — going forward, a creator-sourced routine only ships if it's a verbatim draw from one embedded video.

@@ -101,3 +101,15 @@
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/16706247/
+- name: Taieb 2015 ATTRACT ivermectin vs metronidazole rosacea RCT
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://pubmed.ncbi.nlm.nih.gov/25228137/
+- name: Stein 2014 ivermectin 1% papulopustular rosacea pivotal trials
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://pubmed.ncbi.nlm.nih.gov/24595578/
