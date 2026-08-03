@@ -3,6 +3,11 @@
 # Rendered to _site/whats-new.html (footer link).
 
 - date: '2026-08-03'
+  title: 'Added SkinMedica Retinol Complex 1.0 — a $96 Wirecutter ''best for mature skin'' retinol pick.
+    Notable for what its label leaves out: no retinol percentage is disclosed (''1.0'' is just a tier
+    name), so its case rests on category-level retinol evidence, and cheaper OTC retinoids (including
+    an FDA-cleared one) exist.'
+- date: '2026-08-03'
   title: 'Routine visualization (rudimentary): kind:routine list pages now get an auto-computed at-a-glance
     dashboard — tier distribution, active-ingredients-as-a-whole, what it''s good for, and AM/PM steps
     with per-step effect. First one live: A Minimal, Evidence-Led Acne Routine.'

@@ -64,3 +64,15 @@
   status: pending
   discovered_from: null
   source: https://www.today.com/health/skin-beauty/trader-joes-vitamin-c-serum-review-dermatologist-rcna349177
+- name: Marisa Plescia
+  type: person
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://www.nytimes.com/wirecutter/reviews/best-retinol-products/
+- name: David Kim (dermatologist)
+  type: person
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://www.drkimdavid.com/about

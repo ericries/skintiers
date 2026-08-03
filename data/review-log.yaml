@@ -1146,3 +1146,34 @@ trader-joes-nourish-vitamins-c-e-facial-serum:
     Today.com. Skeptical honesty strong: no trial and no independent stability test of this product (unlike
     Timeless/Maelove), base differs (sunflower oil, different solubilizer), marketing quarantined. Completes
     the CEF-dupe cluster (SkinCeuticals -> Maelove -> Timeless -> Trader Joe's). lint+verify+style clean.
+skinmedica-retinol-complex-1-0:
+  last_reviewed: '2026-08-03'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    New product page (daily product cron; Sonnet draft + Opus profile-reviewer critic, tool-constrained
+    to WebFetch/Apify with no credential/curl workaround; assurance=sonnet as verdict was REVISE, fixed
+    but not re-verified by a clean second Opus pass). The honest handling of the UNDISCLOSED retinol %
+    is the core win: SkinMedica does not print a concentration ("1.0" is a tier name vs the brand's 0.25
+    and 0.5), the page asserts no % as fact anywhere, and quarantines Wirecutter's "0.25/0.5/1%" tier
+    figure as Wirecutter's wording. The critic gated on TWO things it could not fetch with sanctioned
+    tools: (a) skinmedica.com (PerimeterX bot-block) and (b) nytimes/Wirecutter. In the main loop I
+    fetched BOTH via Apify: skinmedica is bot-blocked even through Apify (genuinely unfetchable), but the
+    full Wirecutter article DID load, so I verified every Wirecutter quote verbatim - "best for mature
+    skin," "one of the strongest versions of the active ingredient retinol available. Yet it softened and
+    smoothed lines without irritating skin," "$96" (3 buy-links), "our most expensive pick," "just under
+    $100," the encapsulation/"slower release, along with less ruddiness and irritation" line, the crow's-
+    feet tester quotes, "14 testers / 35 brand-concealed products," and the Trader Joe's block ("seven of
+    this serum's ingredients overlap," "more than holds its own against much pricier products," "fragrance-,
+    alcohol-, paraben-, and silicone-free," 0.3%, $10, in-store only). Two verbatim slips fixed to match
+    the source ("didn't suffer a fleck of dry skin or redness" not "without suffering"; trimmed the "1.0%
+    strength was just under $100" quote). Real REVISE blocker also fixed: the category retinol evidence
+    ("vehicle-controlled trials... 0.1-0.4%... collagen biopsies") was mis-cited to the SkinMedica/Dermstore
+    product pages, which do not contain it - now an affirmative link-out to [[retinol]]/[[retinoids]] with
+    the 0.1-0.4% figure dropped (it belongs on the ingredient page with primaries). Also: INCI ordering
+    slip fixed (squalane before polysorbate 20 per Dermstore); two voice/meta nits trimmed; [^skinmedica]
+    footnote now transparently notes the page is bot-protected and that Dermstore + Wirecutter corroborate
+    the $96 price and INCI (so nothing load-bearing rests solely on the unfetchable page). Grades
+    modest/preliminary (undisclosed-strength OTC retinol, no product trial); honest comparison to cheaper
+    FDA-cleared [[differin-adapalene-0-1-gel]], Rx [[tretinoin-0-025-cream]], and [[anua-nano-retinol-0-3-niacin-renewing-serum]].
+    Carries key_actives [retinol, niacinamide] for the routine dashboard. lint+verify+style clean.
