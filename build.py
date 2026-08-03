@@ -310,6 +310,11 @@ def routine_summary(profile, by_slug):
         if prod not in products:
             products.append(prod)
         effect = _top_health_effect(prod.metadata)
+        # Standardized product badge: the product's first photo (cropped to a
+        # fixed square by the template's object-fit) inside a tier-colored frame,
+        # with a monogram fallback when the product has no photo.
+        imgs, mono = images_and_monogram(prod.metadata)
+        tier_key = next((k for k, _l, words in _ROUTINE_TIERS if effect in words), "entry")
         row = {
             "slug": slug,
             "name": prod.metadata.get("name") or slug,
@@ -317,6 +322,9 @@ def routine_summary(profile, by_slug):
             "note": step.get("note") or "",
             "effect_word": effect,
             "effect_segs": EFFECT_SEGS.get(effect, 0),
+            "tier_key": tier_key,
+            "thumb": imgs[0]["src"] if imgs else None,
+            "monogram": mono,
             "published": prod.get("status") == "published",
         }
         phases.get((step.get("when") or "AM").upper().strip(), phases["AM"]).append(row)

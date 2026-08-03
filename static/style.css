@@ -240,11 +240,18 @@ footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;
 .rd-phase{flex:1;min-width:220px}
 .rd-phase-h{margin:0 0 8px}
 .rd-step-list{list-style:none;margin:0;padding:0;counter-reset:rd}
-.rd-step{display:grid;grid-template-columns:1fr auto;align-items:baseline;gap:4px 10px;padding:9px 0;border-top:1px solid var(--rule)}
-.rd-step-role{font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--faint);grid-column:1}
-.rd-step-name{grid-column:1;grid-row:2;font-size:15px}
-.rd-effect{grid-column:2;grid-row:1/3;align-self:center;display:inline-flex;gap:3px}
+.rd-step{display:grid;grid-template-columns:auto 1fr auto;align-items:center;column-gap:12px;row-gap:2px;padding:10px 0;border-top:1px solid var(--rule)}
+.rd-step-badge{grid-column:1;grid-row:1/3;width:46px;height:46px;border-radius:8px;overflow:hidden;display:flex;align-items:center;justify-content:center;background:var(--card);border:2px solid var(--tier-weak)}
+.rd-step-badge:hover{border-width:2px}
+.rd-badge-top{border-color:var(--tier-best)}
+.rd-badge-mid{border-color:var(--tier-mid)}
+.rd-badge-entry{border-color:var(--tier-weak)}
+.rd-step-badge img{width:100%;height:100%;object-fit:cover;display:block}
+.rd-step-mono{font-family:var(--serif);font-size:20px;font-weight:600;color:var(--muted)}
+.rd-step-role{grid-column:2;grid-row:1;font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--faint)}
+.rd-step-name{grid-column:2;grid-row:2;font-size:15px}
+.rd-effect{grid-column:3;grid-row:1/3;align-self:center;display:inline-flex;gap:3px}
 .rd-effect i{width:7px;height:7px;border-radius:50%;background:var(--seg-empty)}
 .rd-effect i.on{background:var(--tier-good)}
-.rd-step-note{grid-column:1/3;grid-row:3;font-size:13px;color:var(--muted);margin-top:2px}
+.rd-step-note{grid-column:2/4;grid-row:3;font-size:13px;color:var(--muted);margin-top:2px}
 @media(max-width:600px){.rd-row{flex-direction:column;gap:5px}.rd-label{flex-basis:auto}.rd-steps{gap:18px}}

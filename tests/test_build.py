@@ -317,5 +317,8 @@ def test_routine_dashboard_aggregates_from_products(tmp_path):
     assert 'href="acne.html"' in html                    # "good for" chip
     assert 'href="treatment.html"' in html               # a step links its product
     assert "rd-tier-top" in html                          # tier bar present
+    assert "rd-step-badge" in html                        # standardized product badge rendered
+    assert "rd-badge-top" in html                         # badge frame colored by the product's tier
+    assert "rd-step-mono" in html                         # monogram fallback (test products have no photo)
     # a non-routine page has no dashboard
     assert 'class="routine-dash"' not in (out / "treatment.html").read_text()

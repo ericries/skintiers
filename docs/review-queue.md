@@ -132,10 +132,15 @@ so those stay auto-synced with no extra fields.
   `_NOTABLE_ACTIVES`: a retinoid, vitamin C, niacinamide, azelaic acid, an exfoliating acid, SPF),
   explicitly framed as information, not a shortcoming. Both in build.py routine_summary + routines.json.
 
+- DONE 2026-08-03: **product badges.** Each routine step now shows the product's photo at a standardized
+  46px square (CSS object-fit crop, no server-side image processing) inside a tier-colored frame
+  (top/mid/entry), with a serif monogram fallback when a product has no photo. build.py routine_summary
+  passes thumb/monogram/tier_key per step; .rd-step-badge in the template + css.
+
 **Still TODO (heavier, next design week):**
 - **Client JS renderer** over `routines.json` (filtering, interactivity). Static bake covers v1.
-- **Generated icons** (SVG, standardized) for conditions/ingredient classes; **product badges** = each
-  product photo cropped/framed to a consistent size with a tier-badge overlay.
+- **Generated icons** (SVG, standardized) for conditions/ingredient classes (the non-photo companion to
+  the product badges above).
 - A routines index / landing that surfaces the dashboards (today routines live under Lists).
 - Consider weighting the composite toward treatment actives vs support products (today it's a flat mean).
 
