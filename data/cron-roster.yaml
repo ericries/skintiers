@@ -1,0 +1,64 @@
+# Canonical roster of the standard SkinTiers session crons. The daily watchdog cron
+# reads this and re-creates (via CronCreate) any roster entry not currently present in
+# CronList, so the fleet survives the 7-day session-cron expiry as long as the session
+# lives. Session crons die when Claude exits; this cannot make them durable across that.
+#
+# Each entry: `cron` (5-field, local time) + `prompt`. The type-fill prompts share one
+# template (below); the watchdog recreates them verbatim from here.
+
+_fill_template: |
+  [SkinTiers daily fill: {TYPE}] Do ONE small bounded batch for the {TYPE} type ONLY, then stop.
+  KEEP TOKEN USE LOW. STEP 1: fill ONE page — prefer an existing {type} stub, else the next queued item
+  (`.venv/bin/python scripts/sk queue-next --type {type}`); if neither exists, skip STEP 1 (do not invent
+  work). Draft with a SINGLE Sonnet subagent following docs/writing-guide.md + docs/anti-ai-ese.md.
+  {CRITIC}. Keep status:draft during work; publish only once sk lint+verify+style are clean {PUBLISH}.
+  Record the review in data/review-log.yaml. STEP 2 (main loop, no subagent): add 2-5 REAL grounded
+  candidates (name + source) to OTHER type queues via `sk queue-add`. Then commit the shipped page, `sk log`
+  a What's New line, build, and push (git pull --rebase then push if rejected). One-line summary.
+
+crons:
+  - cron: "41 */6 * * *"
+    type: product
+    critic: "Because products make health/efficacy claims, one Opus profile-reviewer critic MUST re-verify every quote/stat/price/composition figure against the REAL source before publish"
+    publish: "and the critic returns verdict publish (else --force publishes at assurance=sonnet)"
+  - cron: "9 9 * * *"
+    type: study
+    critic: "Because studies make health claims, one Opus profile-reviewer critic MUST re-verify every quote and statistic against the REAL source (the PubMed URL) before publish"
+    publish: "and the critic returns verdict publish"
+  - cron: "31 12 * * *"
+    type: ingredient
+    critic: "Because ingredients make health/efficacy claims, one Opus profile-reviewer critic MUST re-verify every quote and statistic against the REAL source before publish"
+    publish: "and the critic returns verdict publish"
+  - cron: "29 15 * * *"
+    type: condition
+    critic: "Because conditions make health claims, one Opus profile-reviewer critic MUST re-verify every quote and statistic against the REAL source before publish"
+    publish: "and the critic returns verdict publish"
+  - cron: "37 16 * * *"
+    type: goal
+    critic: "Because goals make health/efficacy claims, one Opus profile-reviewer critic MUST re-verify every quote and statistic against the REAL source before publish"
+    publish: "and the critic returns verdict publish"
+  - cron: "17 10 * * *"
+    type: person
+    critic: "This type is biographical (lower risk): a Sonnet draft + your own careful lint/verify/style check is enough — do NOT spawn an Opus critic. Never state an unverified claim about a living person"
+    publish: "(person pages have no critic verdict; use --force after your own check)"
+  - cron: "43 13 * * *"
+    type: brand
+    critic: "This type is corporate/curatorial (lower health-claim risk): a Sonnet draft + your own check is enough — do NOT spawn an Opus critic. Attribute brand marketing claims as the brand's own, not fact"
+    publish: "(brand pages have no critic verdict; use --force after your own check)"
+  - cron: "23 11 * * *"
+    type: list
+    critic: "Lists are curatorial but cite health claims: a Sonnet draft + your own check; spot-verify any load-bearing stat against its source"
+    publish: "(use --force after your own check)"
+  - cron: "43 14 * * *"
+    label: video-pull
+    prompt: |
+      [SkinTiers daily video pull] Do ONE small bounded batch, then stop. KEEP TOKEN USE LOW. Pick one
+      creator from data/video-sources.yaml, fetch a few of their RECENT videos, and only cite a video whose
+      actual TRANSCRIPT you read (scripts/yt_transcript.py). Reject ALL sponsored videos. Add attributed
+      video: cards to the relevant page(s). Commit, sk log, build, push. One-line summary.
+  - cron: "47 8 * * *"
+    label: pubmed-ingest
+    prompt: |
+      [SkinTiers PubMed ingest] Run exactly: `.venv/bin/python scripts/ingest_pubmed.py`. It auto-adds new
+      high-quality dermatology studies to the study queue (dedup by PMID). If data/queues/studies.yaml
+      changed, commit and push it. KEEP TOKEN USE MINIMAL: run the script, commit if changed, stop.
