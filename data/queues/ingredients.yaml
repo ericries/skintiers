@@ -283,7 +283,7 @@
 - name: Ivermectin (topical, Soolantra)
   type: ingredient
   priority: 7
-  status: pending
+  status: done
   discovered_from: rosacea-papulopustular
   source: null
 - name: Brimonidine (topical, Mirvaso)
