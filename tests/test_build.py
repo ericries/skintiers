@@ -302,6 +302,19 @@ def test_routine_dashboard_aggregates_from_products(tmp_path):
     assert rj["strength"]["segs"] == 2
     assert rj["ingredient_slugs"] == ["niacinamide", "azelaic-acid", "ceramides"]  # most-layered first
     assert rj["ingredients"]["niacinamide"] == 2         # niacinamide in 2 products -> x2
+
+    # Code-keyed catalog for the routine builder: every published product gets a
+    # stable base62 code and carries the signals the client dashboard recomputes.
+    cat = json.loads((out / "routine-catalog.json").read_text())
+    assert cat["v"] == "r1" and cat["w"] == 2
+    code_of = {p["s"]: c for c, p in cat["p"].items()}
+    assert set(code_of) == {"cleanser", "treatment", "cream"}
+    treat = cat["p"][code_of["treatment"]]
+    assert treat["t"] == "top" and set(treat["a"]) == {"azelaic-acid", "niacinamide"}
+    assert cat["i"]["niacinamide"]["n"] == "Niacinamide"
+    assert [n[0] for n in cat["notable"]] == ["Retinoid", "Vitamin C", "Niacinamide", "Exfoliant"]
+    # the registry was written under the tmp data dir, NOT the real one
+    assert (data / "routine-codes.yaml").exists()
     assert "Retinoid" in rj["absent"]                    # common actives the routine lacks
     assert "Niacinamide" not in rj["absent"]             # present -> not listed
     assert rj["serves_slugs"] == ["acne"]

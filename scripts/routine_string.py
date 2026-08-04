@@ -1,30 +1,37 @@
 #!/usr/bin/env python3
 """Compact, URL-safe grammar for describing a skincare routine (a "routine string").
 
-    r1.am:slugA,slugB@3.pm:slugC,slugA
+    r1.a0A1f2z.p0A3k~34m
 
-  r1        grammar version (forward-compatible; parsers reject an unknown major).
-  .KEY:     a phase - KEY is am|pm (wk reserved). Listing order = application order.
-  slug      a product page slug, charset [a-z0-9-]. Same slug may repeat across phases.
-  @N        optional cadence: applied N times/week (1-7); omitted means daily.
+  r1          grammar version (forward-compatible; parsers reject an unknown major).
+  .X...       a phase block: leading marker X = a(m) | p(m) | w(eekly), then tokens.
+  token       a 2-char base62 product CODE, optionally "~N" cadence (N times/week, 1-6).
+              Codes are fixed width, so tokens need no separator between them.
+  default     a code with no "~N" means daily. The same code may appear in >1 phase.
 
-The string is meant to live in a URL *fragment* (#...), so it is never sent to a
-server, has no practical length limit, and needs no percent-encoding. This module is
-the spec of record; the browser builder mirrors parse()/encode() in JS and is checked
-against the same vectors in tests.
+Codes come from the append-only registry data/routine-codes.yaml (see product_codes.py),
+so the string stays tiny and stable: an 8-product routine is ~20 chars vs ~180 with slugs.
+It is meant to live in a URL *fragment* (#...): never sent to a server, no length limit,
+no percent-encoding needed. This module is the spec of record; the browser builder mirrors
+parse()/encode() in JS against the same vectors. base62 width 2 addresses 3,844 products;
+a future v2 widens the code and this version tag keeps old links valid.
 
-Canonical form: encode() emits phases in PHASE_ORDER and drops the default (daily)
-cadence, so parse->encode is idempotent.
+Canonical form: encode() emits phases in PHASE_ORDER and drops the default cadence, so
+parse->encode is idempotent.
 """
 import re
 
 VERSION = "r1"
-PHASE_ORDER = ("am", "pm", "wk")   # canonical ordering; "wk" reserved for later use
-_SLUG_RE = re.compile(r"^[a-z0-9-]+$")
+CODE_W = 2                                   # base62 code width (3,844 products)
+B62 = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
+_MARK_TO_KEY = {"a": "am", "p": "pm", "w": "wk"}
+_KEY_TO_MARK = {v: k for k, v in _MARK_TO_KEY.items()}
+PHASE_ORDER = ("am", "pm", "wk")             # canonical ordering
+_CODE_RE = re.compile(rf"^[{re.escape(B62)}]{{{CODE_W}}}$")
 
 
 def parse(s):
-    """Parse a routine string into {"phases": [{"key", "items": [{"slug","freq"}]}]}.
+    """Parse a routine string into {"phases": [{"key", "items": [{"code","freq"}]}]}.
 
     freq is an int 1-7 (7 = daily). Raises ValueError on anything malformed.
     """
@@ -34,35 +41,39 @@ def parse(s):
     parts = s.split(".")
     if not parts or parts[0] != VERSION:
         raise ValueError(f"unsupported routine-string version: {parts[0]!r}")
-    phases = []
-    seen_keys = set()
-    for seg in parts[1:]:
-        if ":" not in seg:
-            raise ValueError(f"phase missing ':' -> {seg!r}")
-        key, _, body = seg.partition(":")
-        if key not in PHASE_ORDER:
-            raise ValueError(f"unknown phase key: {key!r}")
-        if key in seen_keys:
+    phases, seen = [], set()
+    for block in parts[1:]:
+        if not block:
+            raise ValueError("empty phase block")
+        mark, body = block[0], block[1:]
+        if mark not in _MARK_TO_KEY:
+            raise ValueError(f"unknown phase marker: {mark!r}")
+        key = _MARK_TO_KEY[mark]
+        if key in seen:
             raise ValueError(f"duplicate phase: {key!r}")
-        seen_keys.add(key)
-        items = []
-        if body:
-            for tok in body.split(","):
-                items.append(_parse_item(tok))
-        phases.append({"key": key, "items": items})
+        seen.add(key)
+        phases.append({"key": key, "items": _parse_block(body)})
     return {"phases": phases}
 
 
-def _parse_item(tok):
-    slug, sep, freq = tok.partition("@")
-    if not _SLUG_RE.match(slug):
-        raise ValueError(f"invalid slug: {slug!r}")
-    f = 7
-    if sep:
-        if not freq.isdigit() or not (1 <= int(freq) <= 7):
-            raise ValueError(f"cadence must be 1-7, got {freq!r}")
-        f = int(freq)
-    return {"slug": slug, "freq": f}
+def _parse_block(body):
+    items, i, n = [], 0, len(body)
+    while i < n:
+        code = body[i:i + CODE_W]
+        if not _CODE_RE.match(code):
+            raise ValueError(f"invalid product code: {code!r}")
+        i += CODE_W
+        freq = 7
+        if i < n and body[i] == "~":
+            i += 1
+            if i >= n or not body[i].isdigit():
+                raise ValueError("cadence must be a digit 1-6")
+            freq = int(body[i])
+            if not (1 <= freq <= 6):
+                raise ValueError(f"cadence out of range: {freq}")
+            i += 1
+        items.append({"code": code, "freq": freq})
+    return items
 
 
 def encode(routine):
@@ -72,25 +83,25 @@ def encode(routine):
     for key in PHASE_ORDER:
         if key not in by_key:
             continue
-        toks = []
+        block = _KEY_TO_MARK[key]
         for it in by_key[key]:
-            slug = it["slug"]
-            if not _SLUG_RE.match(slug):
-                raise ValueError(f"invalid slug: {slug!r}")
+            code = it["code"]
+            if not _CODE_RE.match(code):
+                raise ValueError(f"invalid product code: {code!r}")
             freq = it.get("freq", 7)
-            toks.append(slug if freq == 7 else f"{slug}@{freq}")
-        segs.append(f"{key}:" + ",".join(toks))
+            block += code if freq == 7 else f"{code}~{freq}"
+        segs.append(block)
     return ".".join(segs)
 
 
-def slugs(routine):
-    """Every distinct product slug referenced, in first-seen order (for catalog lookup)."""
+def codes(routine):
+    """Every distinct product code referenced, in first-seen order."""
     out, seen = [], set()
     for p in routine.get("phases", []):
         for it in p["items"]:
-            if it["slug"] not in seen:
-                seen.add(it["slug"])
-                out.append(it["slug"])
+            if it["code"] not in seen:
+                seen.add(it["code"])
+                out.append(it["code"])
     return out
 
 

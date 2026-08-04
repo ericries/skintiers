@@ -7,18 +7,15 @@ ROOT = pathlib.Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 import routine_string as rs
 
-CANON = ("r1.am:cerave-foaming-cleanser,timeless-20-vitamin-c-e-ferulic-serum,"
-         "supergoop-unseen-sunscreen-spf-40.pm:cerave-hydrating-cleanser,"
-         "medik8-crystal-retinal-3@3,cerave-daily-moisturizing-lotion")
+# am: 0A 1f 2z ; pm: 0A (repeat) 3k@3/wk 4m
+CANON = "r1.a0A1f2z.p0A3k~34m"
 
 
 def test_parse_basic_structure():
     r = rs.parse(CANON)
     assert [p["key"] for p in r["phases"]] == ["am", "pm"]
-    am = r["phases"][0]["items"]
-    assert am[0] == {"slug": "cerave-foaming-cleanser", "freq": 7}          # daily default
-    pm = r["phases"][1]["items"]
-    assert pm[1] == {"slug": "medik8-crystal-retinal-3", "freq": 3}         # @3 cadence
+    assert r["phases"][0]["items"][0] == {"code": "0A", "freq": 7}      # daily default
+    assert r["phases"][1]["items"][1] == {"code": "3k", "freq": 3}      # ~3 cadence
 
 
 def test_roundtrip_is_canonical():
@@ -27,31 +24,32 @@ def test_roundtrip_is_canonical():
 
 def test_encode_drops_daily_and_canonicalizes_phase_order():
     routine = {"phases": [
-        {"key": "pm", "items": [{"slug": "tretinoin-0-025-cream", "freq": 4}]},
-        {"key": "am", "items": [{"slug": "cerave-foaming-cleanser", "freq": 7}]},
+        {"key": "pm", "items": [{"code": "9z", "freq": 4}]},
+        {"key": "am", "items": [{"code": "00", "freq": 7}]},
     ]}
-    # am sorts before pm; the freq=7 item drops its @7
-    assert rs.encode(routine) == "r1.am:cerave-foaming-cleanser.pm:tretinoin-0-025-cream@4"
+    assert rs.encode(routine) == "r1.a00.p9z~4"                          # am before pm; @7 dropped
 
 
-def test_slug_may_repeat_across_phases():
-    r = rs.parse("r1.am:cerave-daily-moisturizing-lotion.pm:cerave-daily-moisturizing-lotion")
-    assert rs.slugs(r) == ["cerave-daily-moisturizing-lotion"]              # distinct, first-seen
+def test_fixed_width_codes_need_no_separator():
+    r = rs.parse("r1.a0A1f2z")
+    assert [it["code"] for it in r["phases"][0]["items"]] == ["0A", "1f", "2z"]
 
 
-def test_empty_phase_allowed():
-    r = rs.parse("r1.am:.pm:medik8-crystal-retinal-3")
-    assert r["phases"][0]["items"] == []
+def test_code_may_repeat_across_phases():
+    r = rs.parse("r1.a0A.p0A")
+    assert rs.codes(r) == ["0A"]                                        # distinct, first-seen
 
 
 @pytest.mark.parametrize("bad", [
-    "r0.am:x",                       # wrong version
-    "am:x",                          # no version
-    "r1.am",                         # phase missing ':'
-    "r1.xx:foo",                     # unknown phase key
-    "r1.am:Bad_Slug",                # invalid slug chars
-    "r1.am:x@9",                     # cadence out of range
-    "r1.am:x.am:y",                  # duplicate phase
+    "r0.a0A",            # wrong version
+    "a0A",               # no version
+    "r1.x0A",            # unknown phase marker
+    "r1.a0",             # truncated code
+    "r1.a0-",            # non-base62 code char
+    "r1.a0A~9",          # cadence out of range (7+ is daily/omitted)
+    "r1.a0A~",           # cadence marker without digit
+    "r1.a0A.a1f",        # duplicate phase
+    "r1.a0A..p1f",       # empty phase block
 ])
 def test_parse_rejects_malformed(bad):
     with pytest.raises(ValueError):

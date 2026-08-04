@@ -12,6 +12,8 @@ import types
 
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "scripts"))
 import sklib  # noqa: E402
+import product_codes  # noqa: E402
+import routine_string  # noqa: E402
 from jinja2 import Environment, FileSystemLoader  # noqa: E402
 
 LISTINGS = (
@@ -457,6 +459,48 @@ def routine_summary(profile, by_slug):
     }
 
 
+def routine_catalog(profiles, by_slug, code_map):
+    """A hyper-compact, code-keyed catalog the browser routine builder loads once,
+    so any routine string (r1.a04...) resolves entirely client-side. Carries only
+    what the live dashboard needs - the same signals routine_summary() computes:
+    tier, effect strength, key actives, sunscreen filter bands, badge art.
+
+    Short keys keep it small: p[code]={s slug, n name, c category, t tier_key,
+    g effect_segs 0-4, a [active slugs], th thumb, m monogram}; i[active]={n name,
+    f filter band}; notable=[[label,[member slugs]]] for the "does not contain" line.
+    Only PUBLISHED products are included (the pickable, resolvable set)."""
+    uv_map = {f[0]: (f[1], f[2], f[3]) for f in UV_FILTERS}
+    prods, ings = {}, {}
+    for p in profiles:
+        if p.get("type") != "product" or p.get("status") != "published":
+            continue
+        code = code_map.get(p["slug"])
+        if not code:
+            continue
+        imgs, mono = images_and_monogram(p.metadata)
+        effect = _top_health_effect(p.metadata)
+        tier_key = next((k for k, _l, words in _ROUTINE_TIERS if effect in words), "entry")
+        actives = []
+        for slug in p.metadata.get("key_actives") or []:
+            if by_slug.get(slug) is None:
+                continue
+            actives.append(slug)
+            if slug not in ings:
+                meta = {"n": by_slug[slug].metadata.get("name") or slug}
+                if slug in uv_map:
+                    _n, lo, hi = uv_map[slug]
+                    meta["f"] = ("both" if lo < 320 and hi > 320
+                                 else "uvb" if lo < 320 else "uva")
+                ings[slug] = meta
+        prods[code] = {"s": p["slug"], "n": p.metadata.get("name") or p["slug"],
+                       "c": p.metadata.get("category") or "", "t": tier_key,
+                       "g": EFFECT_SEGS.get(effect, 0), "a": actives,
+                       "th": imgs[0]["src"] if imgs else None, "m": mono}
+    notable = [[label, sorted(members)] for label, members in _NOTABLE_ACTIVES]
+    return {"v": routine_string.VERSION, "w": routine_string.CODE_W,
+            "p": prods, "i": ings, "notable": notable}
+
+
 def _resolve_image(val):
     """A URL is used as-is; a bare filename resolves to images/<file>."""
     return val if re.match(r"^https?://", val) else f"images/{val}"
@@ -656,6 +700,12 @@ def build():
     by_slug = {p["slug"]: p for p in profiles}
     routines_json = {}
 
+    # Assign each product a stable base62 code (append-only registry), for the
+    # compact routine-string URLs the browser builder reads/writes.
+    code_map = product_codes.sync(
+        [p["slug"] for p in profiles if p.get("type") == "product"],
+        registry=sklib.DATA_DIR / "routine-codes.yaml")
+
     # Reverse index of the expert-video cards across the site, keyed by the
     # creator's person slug, so each expert's page can summarise what we have
     # verified from them (only videos cited on PUBLISHED pages are surfaced).
@@ -724,6 +774,11 @@ def build():
     # Baked routine rollups for a future client-side renderer (the pages
     # themselves render static HTML and need no JS).
     (out / "routines.json").write_text(json.dumps(routines_json, indent=2, sort_keys=True))
+
+    # Code-keyed product catalog for the routine builder (resolves routine-string
+    # URLs entirely client-side). Minified - it is machine-loaded, not read.
+    catalog = routine_catalog(profiles, by_slug, code_map)
+    (out / "routine-catalog.json").write_text(json.dumps(catalog, separators=(",", ":")))
 
     # Listing pages are always built for every category; only the index nav is
     # filtered to categories with at least one PUBLISHED profile.
