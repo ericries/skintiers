@@ -11,19 +11,23 @@ import pathlib
 
 import yaml
 
-from routine_string import B62, CODE_W
+from routine_string import B62
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 REGISTRY = ROOT / "data" / "routine-codes.yaml"
 PRODUCTS = ROOT / "data" / "products"
-_MAX = 62 ** CODE_W
 
 
 def to_code(n):
-    if n < 0 or n >= _MAX:
-        raise ValueError(f"code space exhausted (max {_MAX} for width {CODE_W})")
+    """Shortest base62 rendering of an index (0->"0", 61->"z", 62->"10"). Unbounded:
+    codes are comma-delimited in the URL, so they need no fixed width and the product
+    space has no ceiling."""
+    if n < 0:
+        raise ValueError("index must be non-negative")
+    if n == 0:
+        return B62[0]
     s = ""
-    for _ in range(CODE_W):
+    while n > 0:
         s = B62[n % 62] + s
         n //= 62
     return s

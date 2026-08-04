@@ -306,9 +306,10 @@ def test_routine_dashboard_aggregates_from_products(tmp_path):
     # Code-keyed catalog for the routine builder: every published product gets a
     # stable base62 code and carries the signals the client dashboard recomputes.
     cat = json.loads((out / "routine-catalog.json").read_text())
-    assert cat["v"] == "r1" and cat["w"] == 2
+    assert cat["v"] == "1" and "w" not in cat
     code_of = {p["s"]: c for c, p in cat["p"].items()}
     assert set(code_of) == {"cleanser", "treatment", "cream"}
+    assert all(len(c) == 1 for c in code_of.values())          # first 62 products = 1-char codes
     treat = cat["p"][code_of["treatment"]]
     assert treat["t"] == "top" and set(treat["a"]) == {"azelaic-acid", "niacinamide"}
     assert cat["i"]["niacinamide"]["n"] == "Niacinamide"

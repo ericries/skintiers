@@ -1,97 +1,98 @@
 #!/usr/bin/env python3
-"""Compact, URL-safe grammar for describing a skincare routine (a "routine string").
+"""URL grammar for describing a skincare routine as an ordinary HTTP query string.
 
-    r1.a0A1f2z.p0A3k~34m
+    routine.html?am=4,o,u,6,d&pm=4,Y~5,6&wk=M
 
-  r1          grammar version (forward-compatible; parsers reject an unknown major).
-  .X...       a phase block: leading marker X = a(m) | p(m) | w(eekly), then tokens.
-  token       a 2-char base62 product CODE, optionally "~N" cadence (N times/week, 1-6).
-              Codes are fixed width, so tokens need no separator between them.
-  default     a code with no "~N" means daily. The same code may appear in >1 phase.
+  am= / pm= / wk=   one param per phase; an absent phase is simply an absent param.
+                    Listing order within a value = application order.
+  code              a product's base62 code (variable length: 0..z, 10, 11, ...),
+                    comma-separated, so no fixed width -> the product space is unbounded.
+  ~N                optional cadence: applied N times/week (1-6); omitted means daily.
+  v (optional)      grammar version. Absent = v1 (this scheme). A future breaking change
+                    adds ?v=2 and every v1 link still parses. Additive params (a title t=,
+                    etc.) never break old links - unknown params are ignored by convention.
 
-Codes come from the append-only registry data/routine-codes.yaml (see product_codes.py),
-so the string stays tiny and stable: an 8-product routine is ~20 chars vs ~180 with slugs.
-It is meant to live in a URL *fragment* (#...): never sent to a server, no length limit,
-no percent-encoding needed. This module is the spec of record; the browser builder mirrors
-parse()/encode() in JS against the same vectors. base62 width 2 addresses 3,844 products;
-a future v2 widens the code and this version tag keeps old links valid.
-
-Canonical form: encode() emits phases in PHASE_ORDER and drops the default cadence, so
-parse->encode is idempotent.
+Everything is standard query syntax: it looks like a normal URL, is bookmarkable and
+cacheable, and needs no percent-encoding (comma and ~ are URL-safe in a query). Codes
+come from the append-only registry (product_codes.py); build.py emits a code-keyed
+catalog the browser builder loads to resolve a URL entirely client-side. This module is
+the spec of record; the builder mirrors parse()/encode() in JS against the same vectors.
 """
 import re
+from urllib.parse import parse_qsl, urlsplit
 
-VERSION = "r1"
-CODE_W = 2                                   # base62 code width (3,844 products)
+VERSION = "1"
 B62 = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
-_MARK_TO_KEY = {"a": "am", "p": "pm", "w": "wk"}
-_KEY_TO_MARK = {v: k for k, v in _MARK_TO_KEY.items()}
-PHASE_ORDER = ("am", "pm", "wk")             # canonical ordering
-_CODE_RE = re.compile(rf"^[{re.escape(B62)}]{{{CODE_W}}}$")
+PHASE_ORDER = ("am", "pm", "wk")             # canonical ordering; extensible
+_CODE_RE = re.compile(rf"^[{re.escape(B62)}]+$")
+
+
+def _query_of(s):
+    """Accept a full URL, a '?...' search string, or a bare 'am=..&pm=..' query."""
+    if not isinstance(s, str):
+        raise ValueError("routine URL/query must be a str")
+    s = s.strip()
+    if "?" in s:
+        return urlsplit(s).query
+    return s.lstrip("?")
 
 
 def parse(s):
-    """Parse a routine string into {"phases": [{"key", "items": [{"code","freq"}]}]}.
+    """Parse a routine URL/query into {"phases": [{"key", "items": [{"code","freq"}]}]}.
 
-    freq is an int 1-7 (7 = daily). Raises ValueError on anything malformed.
-    """
-    if not isinstance(s, str):
-        raise ValueError("routine string must be a str")
-    s = s.strip()
-    parts = s.split(".")
-    if not parts or parts[0] != VERSION:
-        raise ValueError(f"unsupported routine-string version: {parts[0]!r}")
-    phases, seen = [], set()
-    for block in parts[1:]:
-        if not block:
-            raise ValueError("empty phase block")
-        mark, body = block[0], block[1:]
-        if mark not in _MARK_TO_KEY:
-            raise ValueError(f"unknown phase marker: {mark!r}")
-        key = _MARK_TO_KEY[mark]
-        if key in seen:
-            raise ValueError(f"duplicate phase: {key!r}")
-        seen.add(key)
-        phases.append({"key": key, "items": _parse_block(body)})
+    freq is an int 1-7 (7 = daily). Raises ValueError on anything malformed."""
+    pairs = parse_qsl(_query_of(s), keep_blank_values=True)
+    params, seen = {}, set()
+    for k, v in pairs:
+        if k in PHASE_ORDER and k in seen:
+            raise ValueError(f"duplicate phase param: {k!r}")
+        seen.add(k)
+        params[k] = v
+    version = params.get("v", VERSION)
+    if version != VERSION:
+        raise ValueError(f"unsupported routine version: {version!r}")
+    phases = []
+    for key in PHASE_ORDER:
+        if key not in params:
+            continue
+        items = [_parse_item(tok) for tok in params[key].split(",")] if params[key] else []
+        phases.append({"key": key, "items": items})
     return {"phases": phases}
 
 
-def _parse_block(body):
-    items, i, n = [], 0, len(body)
-    while i < n:
-        code = body[i:i + CODE_W]
-        if not _CODE_RE.match(code):
-            raise ValueError(f"invalid product code: {code!r}")
-        i += CODE_W
-        freq = 7
-        if i < n and body[i] == "~":
-            i += 1
-            if i >= n or not body[i].isdigit():
-                raise ValueError("cadence must be a digit 1-6")
-            freq = int(body[i])
-            if not (1 <= freq <= 6):
-                raise ValueError(f"cadence out of range: {freq}")
-            i += 1
-        items.append({"code": code, "freq": freq})
-    return items
+def _parse_item(tok):
+    code, sep, freq = tok.partition("~")
+    if not _CODE_RE.match(code):
+        raise ValueError(f"invalid product code: {code!r}")
+    f = 7
+    if sep:
+        if not freq.isdigit() or not (1 <= int(freq) <= 6):
+            raise ValueError(f"cadence must be 1-6, got {freq!r}")
+        f = int(freq)
+    return {"code": code, "freq": f}
 
 
 def encode(routine):
-    """Serialize {"phases": [...]} back to a canonical routine string."""
+    """Serialize {"phases": [...]} to a canonical query string (no leading '?')."""
     by_key = {p["key"]: p["items"] for p in routine.get("phases", [])}
-    segs = [VERSION]
+    parts = []
     for key in PHASE_ORDER:
         if key not in by_key:
             continue
-        block = _KEY_TO_MARK[key]
+        toks = []
         for it in by_key[key]:
             code = it["code"]
             if not _CODE_RE.match(code):
                 raise ValueError(f"invalid product code: {code!r}")
             freq = it.get("freq", 7)
-            block += code if freq == 7 else f"{code}~{freq}"
-        segs.append(block)
-    return ".".join(segs)
+            toks.append(code if freq == 7 else f"{code}~{freq}")
+        parts.append(f"{key}=" + ",".join(toks))
+    return "&".join(parts)
+
+
+def to_url(routine, page="routine.html"):
+    q = encode(routine)
+    return f"{page}?{q}" if q else page
 
 
 def codes(routine):
