@@ -47,6 +47,10 @@ slug: timeless-20-vitamin-c-e-ferulic-serum
 status: published
 type: product
 updated: '2026-08-01'
+key_actives:
+- ascorbic-acid-vitamin-c
+- tocopherol
+- ferulic-acid
 ---
 
 Timeless 20% Vitamin C + E Ferulic Acid Serum is a leave-on morning vitamin C serum built around 20% L-ascorbic acid with vitamin E and ferulic acid, sold at a small fraction of the price of SkinCeuticals C E Ferulic, the antioxidant combination it is widely compared against.[^1][^2][^4]

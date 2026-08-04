@@ -160,3 +160,9 @@
   status: pending
   discovered_from: null
   source: https://www.traderjoes.com/home/products/pdp/vitamin-c-serum-083750
+- name: The Ordinary (DECIEM)
+  type: brand
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://theordinary.com/

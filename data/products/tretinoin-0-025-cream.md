@@ -16,6 +16,8 @@ slug: tretinoin-0-025-cream
 status: published
 type: product
 updated: '2026-07-27'
+key_actives:
+- tretinoin
 ---
 
 Tretinoin 0.025% cream is generic prescription tretinoin, all-trans retinoic acid, formulated at 0.025% by weight in a hydrophilic cream base. It is the entry strength of a product sold under brand names such as Retin-A and Avita and as unbranded generics, and it is prescription-only.[^7] This profile grades the **product at this specific strength**, not the molecule in the abstract: for the active-ingredient mechanism and the full body of tretinoin trial evidence, see [[tretinoin]]. The one thing worth knowing before anything else is counterintuitive: 0.025% is not the "weak" tretinoin. In the head-to-head trial that matters, it matched the 0.1% strength for photoaging while irritating far less, which makes it the efficiency sweet spot, not a starter dose you are meant to graduate out of.[^1]

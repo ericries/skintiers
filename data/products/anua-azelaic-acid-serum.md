@@ -21,6 +21,8 @@ slug: anua-azelaic-acid-serum
 status: published
 type: product
 updated: '2026-07-27'
+key_actives:
+- azelaic-acid
 ---
 
 Anua Azelaic Acid 10 Hyaluron Redness Soothing Serum is a lightweight, green-tinted Korean serum (30ml) that lists azelaic acid as its second ingredient at a labeled 10%, in a base of centella (cica), panthenol, niacinamide, hyaluronic acid, and ceramide NP.[^1][^2]

@@ -35,6 +35,8 @@ slug: cosrx-6-peptide-skin-booster-serum
 status: published
 type: product
 updated: '2026-07-28'
+key_actives:
+- peptides
 ---
 
 COSRX The 6 Peptide Skin Booster Serum is a lightweight, fragrance-free leave-on serum that combines six peptides (led by acetyl hexapeptide-8 and copper tripeptide-1) with niacinamide and a glycerin, hyaluronic acid and amino-acid humectant base, sold mainly in a large 150 mL bottle.[^1]

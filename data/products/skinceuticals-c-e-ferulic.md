@@ -46,6 +46,10 @@ slug: skinceuticals-c-e-ferulic
 status: published
 type: product
 updated: '2026-07-28'
+key_actives:
+- ascorbic-acid-vitamin-c
+- tocopherol
+- ferulic-acid
 ---
 
 SkinCeuticals C E Ferulic is a leave-on morning vitamin C serum, a fixed blend of 15% L-ascorbic acid (pure vitamin C), 1% alpha-tocopherol (vitamin E), and 0.5% ferulic acid in a low-pH base.[^1]

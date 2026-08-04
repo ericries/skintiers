@@ -22,6 +22,9 @@ slug: beauty-of-joseon-light-on-serum-centella-vita-c
 status: published
 type: product
 updated: '2026-07-27'
+key_actives:
+- centella-asiatica
+- vitamin-c
 ---
 
 Beauty of Joseon Light On Serum: Centella + Vita C is a lightweight leave-on serum, 30 ml (1.01 fl oz), whose main vitamin C is the water-stable derivative 3-O-ethyl ascorbic acid, paired with centella asiatica extract.[^1]

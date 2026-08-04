@@ -37,6 +37,8 @@ slug: paulas-choice-skin-perfecting-2-bha
 status: published
 type: product
 updated: '2026-07-28'
+key_actives:
+- salicylic-acid
 ---
 
 Paula's Choice Skin Perfecting 2% BHA Liquid Exfoliant is a leave-on liquid exfoliant built on 2% salicylic acid (a beta hydroxy acid), in a short, fragrance-free formula the manufacturer lists at pH 3.5.[^pc]

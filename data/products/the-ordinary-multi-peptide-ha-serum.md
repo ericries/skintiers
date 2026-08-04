@@ -34,6 +34,9 @@ slug: the-ordinary-multi-peptide-ha-serum
 status: published
 type: product
 updated: '2026-07-28'
+key_actives:
+- peptides
+- hyaluronic-acid
 ---
 
 The Ordinary Multi-Peptide + HA Serum (sold for years as "Buffet") is a low-cost water-based serum that pairs five peptide complexes with hyaluronic acid and a set of amino-acid moisturizing ingredients, marketed for the look of aging.[^1]

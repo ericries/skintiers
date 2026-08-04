@@ -367,7 +367,7 @@
 - name: Medik8 Crystal Retinal 3
   type: product
   priority: 9
-  status: pending
+  status: done
   discovered_from: wirecutter-best-retinols
   source: null
 - name: Youth To The People Retinal + Niacinamide Youth Serum

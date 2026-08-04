@@ -42,6 +42,8 @@ slug: the-ordinary-niacinamide-10-zinc-1
 status: published
 type: product
 updated: '2026-07-28'
+key_actives:
+- niacinamide
 ---
 
 The Ordinary Niacinamide 10% + Zinc 1% is a low-cost, water-based serum that pairs 10% niacinamide (vitamin B3) with 1% zinc PCA, sold in a 30 ml or 60 ml dropper bottle and marketed for oily and blemish-prone skin.[^1]

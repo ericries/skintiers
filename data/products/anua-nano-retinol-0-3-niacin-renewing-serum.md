@@ -21,6 +21,9 @@ slug: anua-nano-retinol-0-3-niacin-renewing-serum
 status: published
 type: product
 updated: '2026-07-27'
+key_actives:
+- retinol
+- niacinamide
 ---
 
 Anua Nano Retinol 0.3% + Niacin Renewing Serum is a 30 ml water-based leave-on serum whose ingredient list pairs retinol, declared at 0.3%, with niacinamide in a base of humectants, plant extracts, and a single ceramide.[^anua]

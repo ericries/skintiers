@@ -19,6 +19,9 @@ slug: the-ordinary-multi-peptide-copper-peptides-serum
 status: published
 type: product
 updated: '2026-07-27'
+key_actives:
+- peptides
+- copper-peptides
 ---
 
 The Ordinary Multi-Peptide + Copper Peptides 1% Serum is a water-based leave-on serum whose ingredient list is led by glycerin and a blend of peptides, including copper tripeptide-1 (GHK-Cu), acetyl hexapeptide-8, and the palmitoyl peptides of Matrixyl 3000, in a hyaluronic acid and amino-acid base.[^1]

@@ -2,6 +2,10 @@
 # Newest entries at the TOP. Append with: sk log "message" [--slug SLUG] [--date YYYY-MM-DD]
 # Rendered to _site/whats-new.html (footer link).
 
+- date: '2026-08-04'
+  title: Tagged the key active ingredients on 14 product pages (vitamin C serums, azelaic acid, peptides,
+    retinoids, exfoliants), so routine analysis reflects exactly what each product contains.
+  slug: products
 - date: '2026-08-03'
   title: Added a news ingester that auto-queues newly published high-quality dermatology studies (top-journal
     randomized trials, systematic reviews, and meta-analyses) for review — keeping the site current with

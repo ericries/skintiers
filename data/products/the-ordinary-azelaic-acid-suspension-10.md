@@ -35,6 +35,8 @@ slug: the-ordinary-azelaic-acid-suspension-10
 status: published
 type: product
 updated: '2026-07-28'
+key_actives:
+- azelaic-acid
 ---
 
 The Ordinary Azelaic Acid Suspension 10% is a silicone-based leave-on cream that lists azelaic acid as its fourth ingredient at a labeled 10%, sold inexpensively in a 30 ml or 100 ml tube.[^1]

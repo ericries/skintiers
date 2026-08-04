@@ -52,6 +52,8 @@ slug: paulas-choice-boost-10-azelaic-acid-booster
 status: published
 type: product
 updated: '2026-07-31'
+key_actives:
+- azelaic-acid
 ---
 
 Paula's Choice 10% Azelaic Acid Booster is a leave-on gel-cream that lists azelaic acid as its second ingredient at a labeled 10%, combined with a labeled 0.5% salicylic acid (BHA), sold in a 30 ml (1 fl oz) tube.[^dermstore][^pceu][^pc]
