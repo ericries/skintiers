@@ -364,3 +364,9 @@
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/?term=alpha-arbutin+skin+pigmentation
+- name: vitamin D (topical and skin synthesis)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://pubmed.ncbi.nlm.nih.gov/30945275/

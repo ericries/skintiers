@@ -1489,3 +1489,30 @@ medik8-crystal-retinal-3:
     trimmed Evidence to the one-vs-two conversion-step mechanism). Category-vs-product clean (retinaldehyde
     evidence linked out; modest/preliminary; honest it is stronger than retinol but milder than tretinoin);
     5 comparators. Created a Medik8 brand stub so [[medik8]] resolves. lint+verify+style clean.
+victoria-fu:
+  last_reviewed: '2026-08-04'
+  score: 9
+  verdict: self-reviewed
+  note: |
+    Person profile filled (daily person cron; Sonnet draft + my own check, no Opus critic per the
+    biographical/lower-risk person rule; assurance=sonnet, published --force). Victoria Fu, cosmetic chemist,
+    co-founder of Chemist Confessions with [[gloria-lu]]. Load-bearing claims cross-corroborated across
+    independent fetched sources: chem-eng degree (UC San Diego) + Kiehl's anti-aging chemist + met Lu at
+    L'Oreal via AIChE; nanoengineering master's + L'Oreal formulator via Argos & Artemis + Beauty Independent;
+    Aug 2017 Instagram founding + Aquafix/The Better Oil/Balm Voyage/Mr. Reliable line via Beauty Independent;
+    Skincare Decoded (Weldon Owen 2021; Revised 2024) via Biblio + Target. Conflict of interest stated plainly
+    (co-owns the Chemist Confessions product line). Conflicting/unverifiable facts omitted (current city,
+    tenure dates, follower counts). lint+style clean; verify WARNs are expected non-allowlisted biographical domains.
+neale-2019-sunscreen-vitamin-d:
+  last_reviewed: '2026-08-04'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Study page filled (daily study cron; Sonnet draft + Opus profile-reviewer critic). Neale et al. 2019 BJD
+    systematic review on sunscreen and vitamin D. Critic re-fetched PubMed 30945275 and confirmed all 11 quoted
+    passages verbatim + the citation (181(5):907-915, DOI 10.1111/bjd.17980); verdict REVISE on 3 items, all
+    fixed in main loop: (1) removed a mis-attributed "SPF 30/50 dominate the market / dermatologists recommend"
+    claim not supported by Neale, keeping only the sourced SPF ~16 fact + the review's own "very high SPF" quote;
+    (2) cut two uncited invented mechanistic "why the designs diverge" sentences (incl. a dietary/supplemental
+    vitamin D rationale nowhere in the source); (3) added the funding line (NHMRC, per PubMed's Grants metadata).
+    Single high-quality primary source, correctly the only source for a study summary. lint+verify+style clean.

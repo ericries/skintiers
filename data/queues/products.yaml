@@ -490,3 +490,9 @@
   status: pending
   discovered_from: null
   source: https://www.dermstore.com/medik8-c-tetra/
+- name: Chemist Confessions Aquafix
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://www.beautyindependent.com/cosmetic-chemists-and-chemist-confessions-founders-victoria-fu-and-gloria-lu-turn-to-science-to-take-the-bs-out-of-skincare/

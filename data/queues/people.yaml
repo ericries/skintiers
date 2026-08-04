@@ -112,3 +112,9 @@
   status: pending
   discovered_from: null
   source: https://linktr.ee/kristingl
+- name: Rachel Neale
+  type: person
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://pubmed.ncbi.nlm.nih.gov/30945275/

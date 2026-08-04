@@ -3,6 +3,15 @@
 # Rendered to _site/whats-new.html (footer link).
 
 - date: '2026-08-04'
+  title: 'Added a summary of a 2019 British Journal of Dermatology review on sunscreen and vitamin D:
+    little evidence that real-world sunscreen use lowers vitamin D, so the vitamin-D worry is not a reason
+    to skip sun protection.'
+  slug: neale-2019-sunscreen-vitamin-d
+- date: '2026-08-04'
+  title: Added a profile of cosmetic chemist Victoria Fu, co-founder of Chemist Confessions, whose ingredient-science
+    explainers translate formulation chemistry for a general audience.
+  slug: victoria-fu
+- date: '2026-08-04'
   title: Tagged the key active ingredients on 14 product pages (vitamin C serums, azelaic acid, peptides,
     retinoids, exfoliants), so routine analysis reflects exactly what each product contains.
   slug: products
