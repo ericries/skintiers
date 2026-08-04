@@ -1547,3 +1547,22 @@ diethylamino-hydroxybenzoyl-hexyl-benzoate:
     (5) removed a bare uncited avobenzone/TiO2 comparative. BASF's "only photostable organic UVA-I absorber"
     correctly quarantined as a marketing claim; regulatory authorization kept separate from efficacy. Not
     FDA-approved (absent from US sunscreens) stated plainly. lint+verify+style clean.
+youth-to-the-people-retinal-niacinamide-serum:
+  last_reviewed: '2026-08-04'
+  score: 8
+  verdict: revise-then-fixed
+  note: |
+    Product page filled (daily product cron; Sonnet draft + Opus profile-reviewer critic). YTTP Retinal +
+    Niacinamide Youth Serum (0.15% retinal + 5% niacinamide, $72/30ml). Critic verdict REVISE; key blocker was
+    that NEITHER the critic NOR I could re-fetch the NYT Wirecutter article or the web.archive.org captures in
+    this environment, so ~1/3 of the draft (verbatim tester quotes, 14-panelist/35-product methodology, derm
+    starting-concentration figures) could not be re-verified firsthand. Per the anti-hallucination rule I
+    STRIPPED all Wirecutter-only unverifiable content, keeping only the "Best for sensitive skin" designation
+    (independently corroborated by third-party coverage per the critic) and dropping the Wirecutter product
+    photo. Retained facts are independently corroborated: price $72 and 0.15% retinal (critic corroborated via
+    Woot/Amazon), 5% niacinamide + full INCI (critic verified firsthand at Space NK + Cult Beauty). Also fixed:
+    added missing Tocopherol to the INCI; narrowed the niacinamide grade to hyperpigmentation only (was blending
+    a stronger and weaker use in one row) with the tiered evidence linked out to [[niacinamide]]; trimmed the
+    repeated "no published trial" hedge from six instances to one (in The Evidence); attributed fragrance-free
+    to Space NK only. Category evidence linked out to [[retinaldehyde]]/[[niacinamide]]; brand marketing claims
+    (34-person study, 91% stats, pore claim) quarantined. assurance=sonnet. lint+verify+style clean.

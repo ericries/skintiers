@@ -340,3 +340,9 @@
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/28042100/
+- name: Navarrete-Solis 2011 niacinamide vs hydroquinone melasma RCT
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://ericries.github.io/skintiers/niacinamide.html
