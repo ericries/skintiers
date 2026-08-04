@@ -1466,3 +1466,26 @@ expert-video-single-product-and-sponsorship-rule:
     the 0.025% product page. Embedded (YouTube iframe) + auto-aggregated onto Sam Ellis's page (now 2 cited
     videos). Rules locked in writing-guide + memory (single-product scope + mandatory sponsorship rejection).
     5 expert cards now live, all embedded. lint+style clean; suite 160 green.
+medik8-crystal-retinal-3:
+  last_reviewed: '2026-08-03'
+  score: 8
+  verdict: revise-then-fixed
+  note: |
+    New product page (daily product cron; Sonnet draft + Opus profile-reviewer critic; assurance=sonnet,
+    verdict REVISE-then-fixed). Medik8 Crystal Retinal 3, Wirecutter's "best for adjustable potency"
+    encapsulated RETINALDEHYDE serum; extends the retinoid cluster (a retinal, a step stronger than the
+    retinols already covered). Strong sourcing: 0.03% retinaldehyde double-sourced (Dermstore + Space NK,
+    both critic-fetched, exact ladder captions 0.01% to 0.24%); full INCI faithful to Dermstore (retinal is
+    21st, correctly flagged as a name/retailer declaration not readable off the INCI); the "11x faster than
+    retinol"/33-participant/perception figures all quarantined in Common Marketing Claims and discounted.
+    Critic's hard blockers were unverifiable-to-it Wirecutter quotes + a 2nd $66 corroborator (nytimes
+    blocked, Apify unavailable to it). I confirmed both from my own Apify fetches of the Wirecutter "Best
+    Retinol Products" article this session (fetched 3x): every quote verbatim ("most effective retinoid sold
+    over the counter", the 0.01-0.24% ladder, "one step to convert" vs retinol's "two steps", "A lipid
+    encases the retinaldehyde ... less apt to irritate skin", "$60 an ounce ... expensive", 14 testers/35
+    products) and the $66 price (Dermstore + Wirecutter buy-links = 2 sources). Fixed the critic's repetition
+    flags: collapsed the "no trial tests this / no cited trial isolates 0.03%" refrain from 5x to standfirst +
+    Evidence, removed a redundant bottom-line, and de-duplicated the comparator rundown (kept full in Summary,
+    trimmed Evidence to the one-vs-two conversion-step mechanism). Category-vs-product clean (retinaldehyde
+    evidence linked out; modest/preliminary; honest it is stronger than retinol but milder than tretinoin);
+    5 comparators. Created a Medik8 brand stub so [[medik8]] resolves. lint+verify+style clean.

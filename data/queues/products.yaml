@@ -361,7 +361,7 @@
 - name: SkinMedica Retinol Complex 1.0
   type: product
   priority: 9
-  status: pending
+  status: done
   discovered_from: wirecutter-best-retinols
   source: null
 - name: Medik8 Crystal Retinal 3
@@ -484,3 +484,9 @@
   status: pending
   discovered_from: null
   source: https://www.skinmedica.com/us/allproducts/
+- name: Medik8 C-Tetra Vitamin C Serum
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://www.dermstore.com/medik8-c-tetra/
