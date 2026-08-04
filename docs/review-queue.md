@@ -165,11 +165,16 @@ so those stay auto-synced with no extra fields.
 
 **Still TODO (heavier, next design week):**
 - **Interactive routine builder** (the big one): the URL grammar, codec, code registry, and code-keyed
-  `routine-catalog.json` are DONE. Links are now ordinary query-string URLs
-  (`routine.html?am=I,O,U,6,D&pm=4,Y~5,6&wk=M` — variable-length base62 codes, unbounded, version-by-absence).
-  Remaining: the `routine.html` page itself (product picker -> AM/PM steps -> live dashboard, reading/writing
-  `location.search` via replaceState, JS codec mirroring routine_string.py against the same vectors) + an
-  "open in builder" link from curated routine pages. Needs its own UI brainstorm.
+  `routine-catalog.json` are DONE. Links are clean, compact PATH URLs:
+  `r1/aI,O,U,6,D/p4,Y~5,6/wM` (25 chars) where `r1` = routine grammar v1, `a/p/w` = AM/PM/weekly phase
+  segments, codes are variable-length base62 (1 char for the first 62 products, unbounded), `~N` = weekly
+  cadence. Analysis of "most compact": base62 codes are already at the floor; commas beat fixed-width while
+  the catalog is small AND stay unbounded; the win was fusing the prefix to `r1/`. HOSTING (static, no server
+  rewrites): the builder page doubles as `404.html`; GitHub Pages serves it for any `/r1/...` path, and JS
+  reads `location.pathname` + the catalog to render (the response carries a 404 status — fine for humans;
+  put OG tags in it so link previews still work). Remaining: the builder page itself (product picker -> AM/PM
+  steps -> live dashboard, updating the path via history.replaceState, JS codec mirroring routine_string.py
+  against the same vectors) + an "open in builder" link from curated routine pages. Needs its own UI brainstorm.
 - DONE 2026-08-04: **Generated icons** (SVG, deterministic) — `gen_icon(seed, monogram)` in build.py renders a
   hue-from-slug gradient tile with the monogram, registered as a Jinja global; used on the routines index.
   Broader rollout (condition/ingredient listing cards without photos) is a cheap follow-up.

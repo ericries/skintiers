@@ -1,61 +1,68 @@
 #!/usr/bin/env python3
-"""URL grammar for describing a skincare routine as an ordinary HTTP query string.
+"""URL grammar for describing a skincare routine as a clean, versioned PATH.
 
-    routine.html?am=4,o,u,6,d&pm=4,Y~5,6&wk=M
+    r1/aI,O,U,6,D/p4,Y~5,6/wM
 
-  am= / pm= / wk=   one param per phase; an absent phase is simply an absent param.
-                    Listing order within a value = application order.
-  code              a product's base62 code (variable length: 0..z, 10, 11, ...),
-                    comma-separated, so no fixed width -> the product space is unbounded.
-  ~N                optional cadence: applied N times/week (1-6); omitted means daily.
-  v (optional)      grammar version. Absent = v1 (this scheme). A future breaking change
-                    adds ?v=2 and every v1 link still parses. Additive params (a title t=,
-                    etc.) never break old links - unknown params are ignored by convention.
+  r1          anchor + grammar version fused into one short segment (r = routine, 1 = v1).
+              A future breaking change is r2/... and the r1 parser keeps working.
+  a.. p.. w.. one segment per phase: a leading marker (a=am, p=pm, w=weekly) then the
+              phase's product CODES. An absent phase is simply an absent segment.
+  code        a product's base62 code (variable length: 0..z, 10, ...), comma-separated
+              within the segment, so no fixed width -> the product space is unbounded and
+              the first 62 products are single characters (the compact floor).
+  ~N          optional cadence on a code: applied N times/week (1-6); omitted = daily.
 
-Everything is standard query syntax: it looks like a normal URL, is bookmarkable and
-cacheable, and needs no percent-encoding (comma and ~ are URL-safe in a query). Codes
-come from the append-only registry (product_codes.py); build.py emits a code-keyed
-catalog the browser builder loads to resolve a URL entirely client-side. This module is
-the spec of record; the builder mirrors parse()/encode() in JS against the same vectors.
+Path segments, marker letters, commas and ~ are all URL-safe unencoded, so the link
+stays clean with no query string. On a static host (GitHub Pages) these paths are served
+by the builder acting as 404.html, which reads location.pathname and renders client-side
+from the code-keyed catalog build.py emits. This module is the spec of record; the
+builder mirrors parse()/encode() in JS against the same vectors.
 """
 import re
-from urllib.parse import parse_qsl, urlsplit
+from urllib.parse import urlsplit
 
-VERSION = "1"
+VERSION = "1"                                 # grammar version; URL anchor is "r" + VERSION
+ANCHOR = "r" + VERSION                        # e.g. "r1"
 B62 = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
-PHASE_ORDER = ("am", "pm", "wk")             # canonical ordering; extensible
+_MARK_TO_KEY = {"a": "am", "p": "pm", "w": "wk"}
+_KEY_TO_MARK = {v: k for k, v in _MARK_TO_KEY.items()}
+PHASE_ORDER = ("am", "pm", "wk")
 _CODE_RE = re.compile(rf"^[{re.escape(B62)}]+$")
+_ANCHOR_RE = re.compile(r"^r\d+$")
 
 
-def _query_of(s):
-    """Accept a full URL, a '?...' search string, or a bare 'am=..&pm=..' query."""
+def _segments(s):
+    """Path segments of a full URL, absolute path, or bare 'r1/...' string, sliced from
+    the grammar anchor (r<version>) onward so any site prefix is ignored."""
     if not isinstance(s, str):
-        raise ValueError("routine URL/query must be a str")
-    s = s.strip()
-    if "?" in s:
-        return urlsplit(s).query
-    return s.lstrip("?")
+        raise ValueError("routine URL/path must be a str")
+    path = urlsplit(s.strip()).path if ("://" in s or s.startswith("/")) else s.strip()
+    parts = [seg for seg in path.split("/") if seg]
+    for i, seg in enumerate(parts):
+        if _ANCHOR_RE.match(seg):
+            return parts[i:]
+    return parts
 
 
 def parse(s):
-    """Parse a routine URL/query into {"phases": [{"key", "items": [{"code","freq"}]}]}.
+    """Parse a routine URL/path into {"phases": [{"key", "items": [{"code","freq"}]}]}.
 
     freq is an int 1-7 (7 = daily). Raises ValueError on anything malformed."""
-    pairs = parse_qsl(_query_of(s), keep_blank_values=True)
-    params, seen = {}, set()
-    for k, v in pairs:
-        if k in PHASE_ORDER and k in seen:
-            raise ValueError(f"duplicate phase param: {k!r}")
-        seen.add(k)
-        params[k] = v
-    version = params.get("v", VERSION)
-    if version != VERSION:
-        raise ValueError(f"unsupported routine version: {version!r}")
-    phases = []
-    for key in PHASE_ORDER:
-        if key not in params:
-            continue
-        items = [_parse_item(tok) for tok in params[key].split(",")] if params[key] else []
+    parts = _segments(s)
+    if not parts or not _ANCHOR_RE.match(parts[0]):
+        raise ValueError(f"missing anchor segment (expected {ANCHOR}/...)")
+    if parts[0] != ANCHOR:
+        raise ValueError(f"unsupported routine version: {parts[0]!r}")
+    phases, seen = [], set()
+    for seg in parts[1:]:
+        mark, body = seg[0], seg[1:]
+        if mark not in _MARK_TO_KEY:
+            raise ValueError(f"unknown phase marker: {mark!r}")
+        key = _MARK_TO_KEY[mark]
+        if key in seen:
+            raise ValueError(f"duplicate phase: {key!r}")
+        seen.add(key)
+        items = [_parse_item(t) for t in body.split(",")] if body else []
         phases.append({"key": key, "items": items})
     return {"phases": phases}
 
@@ -73,9 +80,9 @@ def _parse_item(tok):
 
 
 def encode(routine):
-    """Serialize {"phases": [...]} to a canonical query string (no leading '?')."""
+    """Serialize {"phases": [...]} to a canonical 'r1/...' path (no leading slash)."""
     by_key = {p["key"]: p["items"] for p in routine.get("phases", [])}
-    parts = []
+    segs = [ANCHOR]
     for key in PHASE_ORDER:
         if key not in by_key:
             continue
@@ -86,13 +93,13 @@ def encode(routine):
                 raise ValueError(f"invalid product code: {code!r}")
             freq = it.get("freq", 7)
             toks.append(code if freq == 7 else f"{code}~{freq}")
-        parts.append(f"{key}=" + ",".join(toks))
-    return "&".join(parts)
+        segs.append(_KEY_TO_MARK[key] + ",".join(toks))
+    return "/".join(segs)
 
 
-def to_url(routine, page="routine.html"):
-    q = encode(routine)
-    return f"{page}?{q}" if q else page
+def to_url(routine, base=""):
+    """Full URL/path for a routine. base may be '' , '/', or a site root ending in '/'."""
+    return base + encode(routine)
 
 
 def codes(routine):
