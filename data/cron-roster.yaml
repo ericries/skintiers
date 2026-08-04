@@ -11,10 +11,18 @@ _fill_template: |
   KEEP TOKEN USE LOW. STEP 1: fill ONE page — prefer an existing {type} stub, else the next queued item
   (`.venv/bin/python scripts/sk queue-next --type {type}`); if neither exists, skip STEP 1 (do not invent
   work). Draft with a SINGLE Sonnet subagent following docs/writing-guide.md + docs/anti-ai-ese.md.
-  {CRITIC}. Keep status:draft during work; publish only once sk lint+verify+style are clean {PUBLISH}.
-  Record the review in data/review-log.yaml. STEP 2 (main loop, no subagent): add 2-5 REAL grounded
-  candidates (name + source) to OTHER type queues via `sk queue-add`. Then commit the shipped page, `sk log`
-  a What's New line, build, and push (git pull --rebase then push if rejected). One-line summary.
+  SOURCE CACHING: for every source you CITE whose domain is NOT a durable primary (editorial/retailer/brand/
+  archived pages — the ones sk verify flags "verify manually", i.e. sklib classify_domain=='unknown'), pipe
+  the fetched text to `python scripts/source_cache.py put <url>` right after fetching it, so it can be verified
+  later even if the live site blocks a re-fetch. A load-bearing verbatim quote from such a source REQUIRES a
+  cache entry; if a source cannot be fetched/cached, use it ONLY for corroborated facts, never verbatim quotes.
+  {CRITIC}. The critic MUST verify cited non-primary sources against the local cache first
+  (`python scripts/source_cache.py get <url>`), live-fetching only on a cache miss, and flag any load-bearing
+  quote that has neither a cache entry nor a successful re-fetch. Keep status:draft during work; publish only
+  once sk lint+verify+style are clean {PUBLISH}. Record the review in data/review-log.yaml. STEP 2 (main loop,
+  no subagent): add 2-5 REAL grounded candidates (name + source) to OTHER type queues via `sk queue-add`. Then
+  commit the shipped page, `sk log` a What's New line, build, and push (git pull --rebase then push if
+  rejected). One-line summary.
 
 crons:
   - cron: "41 */6 * * *"

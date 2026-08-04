@@ -17,6 +17,19 @@ softened/removed — never shipped resting on one unverifiable page. Apply the p
 Mat (US page blocked → figures confirmed on Amazon) and Some By Mi (iHerb price hidden → priced from
 Stylevana). When in doubt, leave it out.
 
+**Cache non-primary sources when you fetch them, so verification does not depend on re-fetching.** A whole
+class of citable sources is only *sometimes* reachable — paywalled editorial (NYT/Wirecutter), retailer
+pages, archived brand pages — so a later re-fetch (by the critic, or a future edit) can fail and leave a
+load-bearing quote unverifiable (see `docs/postmortems/2026-08-04-wirecutter-cache.md`). Whenever you cite
+such a source, pipe the fetched text to `python scripts/source_cache.py put <url>` right after fetching it.
+Only `unknown`-class domains are cached (the ones `sk verify` flags "verify manually"); durable primaries
+(PubMed, `.gov`, EUR-Lex, journals) re-fetch on demand and are skipped, and aggregators (Sephora, Amazon)
+are not citable at all — so the cache stays the small set that truly needs it, and `source_cache.py gc` prunes
+anything no page cites. **Policy:** a load-bearing verbatim quote from a non-primary source requires a cache
+entry (proof it was retrieved); a critic verifies against the cache first (`source_cache.py get <url>`) and
+live-fetches only on a miss; a source that can neither be re-fetched nor cached is limited to corroborated
+facts, never verbatim quotes.
+
 ## Prime directive
 Every page has a purpose. A section or claim earns its place only if it serves that purpose.
 Rigor is not exhaustiveness. Honesty is not announcing every absence. Concision is a virtue.
