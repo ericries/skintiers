@@ -1566,3 +1566,19 @@ youth-to-the-people-retinal-niacinamide-serum:
     repeated "no published trial" hedge from six instances to one (in The Evidence); attributed fragrance-free
     to Space NK only. Category evidence linked out to [[retinaldehyde]]/[[niacinamide]]; brand marketing claims
     (34-person study, 91% stats, pore claim) quarantined. assurance=sonnet. lint+verify+style clean.
+youth-to-the-people:
+  last_reviewed: '2026-08-04'
+  score: 9
+  verdict: self-reviewed
+  note: |
+    Brand roll-up filled (daily brand cron; Sonnet draft + my own check, no Opus critic per the corporate/
+    curatorial brand rule; assurance=sonnet, published --force). Youth To The People, California vegan skincare
+    brand, founded 2015 by cousins Joe Cloyes + Greg Gonzalez; L'Oreal signed to acquire it 8 Dec 2021 (terms
+    undisclosed; $50M 2021 sales projection attributed), now in L'Oreal Luxe. FIRST fill under the new
+    source-cache policy: the drafter cached all three unknown-class sources (L'Oreal press release, L'Oreal
+    Luxe brand page, BeautyMatter) via source_cache.py, and I VERIFIED the load-bearing facts (8 Dec 2021,
+    founded 2015, Greg Gonzalez + Joe Cloyes, USD 50M, "not disclosed") against the CACHED L'Oreal release
+    directly - no live re-fetch needed. Brand's own bot-blocked site correctly NOT used; facts rest on L'Oreal's
+    own corporate primary + independent BeautyMatter corroborator. Marketing ("Biotech Superfoods + Science",
+    "three pillars") attributed, not asserted. Links [[youth-to-the-people-retinal-niacinamide-serum]].
+    lint+style clean; verify WARNs are the expected loreal.com/beautymatter.com unknown-class domains.
