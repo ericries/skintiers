@@ -633,6 +633,22 @@ def changelog_groups_for(path, published):
 # The changelog becomes a real RSS 2.0 + JSON Feed of recently added/updated pages,
 # so the site's freshness is subscribable and machine-readable. Static, no deps.
 SITE_URL = "https://ericries.github.io/skintiers"
+import urllib.parse as _urlparse  # noqa: E402
+SITE_BASE = _urlparse.urlsplit(SITE_URL).path.rstrip("/")  # "/skintiers"
+
+
+def render_builder(env, catalog):
+    """Render the self-contained routine builder page (used for both routine.html and
+    404.html). Inlines the catalog JSON and assets/routine-builder.js so it works when
+    served at any deep /r1/... fallback path on GitHub Pages."""
+    builder_js = (sklib.ROOT / "assets" / "routine-builder.js").read_text()
+    return env.get_template("routine_builder.html").render(
+        site_base=SITE_BASE,
+        catalog_json=json.dumps(catalog, separators=(",", ":")),
+        builder_js=builder_js,
+    )
+
+
 FEED_TITLE = "SkinTiers - What's New"
 FEED_DESC = "Recently added and updated pages on SkinTiers, a skeptical, evidence-first skincare directory."
 FEED_LIMIT = 50
@@ -802,6 +818,12 @@ def build():
     # URLs entirely client-side). Minified - it is machine-loaded, not read.
     catalog = routine_catalog(profiles, by_slug, code_map)
     (out / "routine-catalog.json").write_text(json.dumps(catalog, separators=(",", ":")))
+
+    # Interactive routine builder: one self-contained page served as both the start
+    # page (routine.html) and the 404 fallback (serves shared /r1/... paths on Pages).
+    _builder_html = render_builder(env, catalog)
+    (out / "routine.html").write_text(_builder_html)
+    (out / "404.html").write_text(_builder_html)
 
     # Routines index: surfaces the dashboards (routines otherwise live under Lists).
     _STRENGTH_KEY = {"Strong": "strong", "Solid": "solid", "Moderate": "moderate", "Light": "light"}

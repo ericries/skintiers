@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <base href="{{ site_base }}/">
+  <title>Routine Builder — SkinTiers</title>
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 900px; margin: 0 auto; padding: 1rem; color: #23201b; }
+    h1 { font-size: 1.4rem; }
+    .rb-search input { width: 100%; padding: .6rem; font-size: 1rem; box-sizing: border-box; border: 1px solid #ccc; border-radius: 8px; }
+    .rb-results { list-style: none; padding: 0; margin: .5rem 0; max-height: 40vh; overflow-y: auto; }
+    .rb-results li { display: flex; justify-content: space-between; align-items: center; gap: .5rem; padding: .35rem 0; border-bottom: 1px solid #eee; }
+    .rb-results button, .rb-copy { cursor: pointer; padding: .2rem .5rem; }
+    .rb-phases { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-top: 1rem; }
+    .rb-phase h2 { font-size: 1rem; margin: 0 0 .3rem; }
+    .rb-step { display: flex; align-items: center; gap: .5rem; padding: .3rem 0; }
+    .rb-step span.rb-name { flex: 1; }
+    .rb-badge { width: 34px; height: 34px; border-radius: 8px; display: grid; place-items: center; color: #fff; font-size: .75rem; overflow: hidden; flex: 0 0 34px; }
+    .rb-badge img { width: 100%; height: 100%; object-fit: cover; }
+    .rb-top { background: #2f7d4f; } .rb-mid { background: #b7871f; } .rb-entry { background: #9a938a; }
+    .rb-dash { margin-top: 1.5rem; padding: 1rem; border: 1px solid #ddd; border-radius: 10px; line-height: 1.5; }
+    .rb-dash .empty { color: #777; }
+    @media (max-width: 640px) { .rb-phases { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <h1>Routine Builder</h1>
+  <div class="rb-search"><input id="rb-search" type="search" placeholder="Search products to add…" autocomplete="off"></div>
+  <ul id="rb-results" class="rb-results"></ul>
+  <div class="rb-phases">
+    <div class="rb-phase"><h2>AM</h2><div id="rb-am"></div></div>
+    <div class="rb-phase"><h2>PM</h2><div id="rb-pm"></div></div>
+  </div>
+  <div id="rb-dash" class="rb-dash"></div>
+  <p><button id="rb-copy" class="rb-copy">Copy link</button> <span id="rb-copied"></span></p>
+
+  <script id="rb-catalog" type="application/json">{{ catalog_json | safe }}</script>
+  <script>{{ builder_js | safe }}</script>
+</body>
+</html>

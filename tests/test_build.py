@@ -416,6 +416,23 @@ def test_expert_video_card_and_routine_source_render(tmp_path):
     assert "Sourced note." in rt
 
 
+def test_routine_builder_page_is_emitted_self_contained(tmp_path):
+    data = tmp_path / "data"
+    out = tmp_path / "_site"
+    _write(data / "products", "serum", "published", "product")
+    env = {**os.environ, "SK_DATA": str(data), "SK_OUTPUT": str(out)}
+    r = subprocess.run([sys.executable, str(ROOT / "build.py")], env=env,
+                       capture_output=True, text=True)
+    assert r.returncode == 0, r.stderr
+    builder = (out / "routine.html").read_text()
+    fallback = (out / "404.html").read_text()
+    assert builder == fallback                                  # same page serves both
+    assert 'id="rb-catalog"' in builder                        # catalog inlined
+    assert '"p":' in builder                                    # catalog JSON present
+    assert "function parseRoutine" in builder                  # builder JS inlined
+    assert '<base href="/skintiers/">' in builder              # base href for deep-path links
+
+
 def test_gen_icon_is_deterministic_svg():
     sys.path.insert(0, str(ROOT))
     import build
