@@ -1,0 +1,13 @@
+[
+  {"path": "r1/a4ou/p4Y~56/wM",
+   "model": {"phases": [
+     {"key": "am", "items": [{"code": "4", "freq": 7}, {"code": "o", "freq": 7}, {"code": "u", "freq": 7}]},
+     {"key": "pm", "items": [{"code": "4", "freq": 7}, {"code": "Y", "freq": 5}, {"code": "6", "freq": 7}]},
+     {"key": "wk", "items": [{"code": "M", "freq": 7}]}]}},
+  {"path": "r1/a4", "model": {"phases": [{"key": "am", "items": [{"code": "4", "freq": 7}]}]}},
+  {"path": "r2/a00/p9z~4",
+   "model": {"phases": [
+     {"key": "am", "items": [{"code": "0", "freq": 7}]},
+     {"key": "pm", "items": [{"code": "9z", "freq": 4}]}]}},
+  {"path": "r1/p4u", "model": {"phases": [{"key": "pm", "items": [{"code": "4", "freq": 7}, {"code": "u", "freq": 7}]}]}}
+]
