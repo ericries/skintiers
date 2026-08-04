@@ -78,7 +78,49 @@
     return segs.join('/');
   }
 
-  var api = { parseRoutine: parseRoutine, encodeRoutine: encodeRoutine };
+  function computeDashboard(model, catalog) {
+    var codes = [], seen = {};
+    (model.phases || []).forEach(function (p) {
+      p.items.forEach(function (it) {
+        if (!seen[it.code]) { seen[it.code] = 1; codes.push(it.code); }
+      });
+    });
+    var products = codes.map(function (c) { return catalog.p[c]; }).filter(Boolean);
+    var segs = products.map(function (p) { return p.g || 0; });
+    var mean = segs.length ? segs.reduce(function (a, b) { return a + b; }, 0) / segs.length : 0;
+    var strength = mean >= 3 ? 'Strong' : mean >= 2.25 ? 'Solid' : mean >= 1.5 ? 'Moderate' : 'Light';
+
+    var count = {}, name = {};
+    products.forEach(function (p) {
+      (p.a || []).forEach(function (slug) {
+        count[slug] = (count[slug] || 0) + 1;
+        name[slug] = (catalog.i[slug] && catalog.i[slug].n) || slug;
+      });
+    });
+    var actives = [], filterEntries = [], bands = {};
+    Object.keys(count).forEach(function (slug) {
+      var meta = catalog.i[slug] || {};
+      if (meta.f) {
+        filterEntries.push({ slug: slug, name: name[slug] });
+        if (meta.f === 'both') { bands.UVB = 1; bands.UVA = 1; }
+        else bands[meta.f.toUpperCase()] = 1;
+      } else {
+        actives.push({ slug: slug, name: name[slug], count: count[slug] });
+      }
+    });
+    actives.sort(function (a, b) {
+      return (b.count - a.count) || a.name.toLowerCase().localeCompare(b.name.toLowerCase());
+    });
+    var coverage = ['UVB', 'UVA'].filter(function (b) { return bands[b]; }).join(' + ');
+    var filters = filterEntries.length ? { coverage: coverage || 'UV', entries: filterEntries } : null;
+    var absent = (catalog.notable || []).filter(function (pair) {
+      return !pair[1].some(function (m) { return count[m]; });
+    }).map(function (pair) { return pair[0]; });
+
+    return { strength: strength, product_count: products.length, ingredients: actives, filters: filters, absent: absent };
+  }
+
+  var api = { parseRoutine: parseRoutine, encodeRoutine: encodeRoutine, computeDashboard: computeDashboard };
   if (typeof module !== 'undefined' && module.exports) module.exports = api;
   else root.RoutineBuilder = api;
 })(this);

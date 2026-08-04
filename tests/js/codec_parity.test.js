@@ -9,3 +9,6 @@ vectors.forEach(function (v) {
   assert.strictEqual(rb.encodeRoutine(v.model), v.path, 'encode mismatch for ' + v.path);
 });
 console.log('codec parity OK (' + vectors.length + ' vectors)');
+var dc = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'fixtures', 'routine_dashboard_case.json'), 'utf8'));
+assert.deepStrictEqual(rb.computeDashboard(dc.model, dc.catalog), dc.expected, 'dashboard mismatch');
+console.log('dashboard parity OK');
