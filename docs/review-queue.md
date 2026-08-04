@@ -187,20 +187,22 @@ User direction, NOT yet built. Two linked feeds:
    item ids are stable per (date, title) so readers do not re-notify. Slug'd entries deep-link the page,
    the rest point at What's New. (Improvement: pass `--slug` to `sk log` more often so more items deep-link.)
 
-2. **A skincare product-related NEWS feed that INFORMS FUTURE QUEUES (the valuable half).** Ingest reputable
-   external sources on a schedule - new product launches, ingredient/formulation news, FDA/regulatory actions,
-   and newly published studies (PubMed alerts on key topics, derm-trade press, brand press releases). Dedupe
-   against what we already cover and against `data/pending-*` / the queues, then auto-seed the type queues:
-   a new notable product -> `sk queue-add ... --type product --source <url>`, a new landmark study ->
-   `--type study`, a trending ingredient -> `--type ingredient`, etc. Each seeded candidate carries a real
-   source URL so the daily fill crons can draft it under the normal 3-primary-source discipline. This is the
-   original Seedlist "freshness feed / scraper" concept (see meta/07_CRON_PATTERNS.md, meta/reference), adapted:
-   the scraper proposes grounded candidates, humans/crons vet and draft them - never auto-publish from news.
-   Build: a `scripts/scrape_*.py` (TDD, parse chosen feeds -> dedup -> queue-add), wired to a scheduled cron;
-   run several manual cycles before automating. Anti-hallucination spine unchanged: news discovers, sources verify.
+2. IN PROGRESS 2026-08-03: **a news ingester that seeds the queues.** Decision (user, 2026-08-03): *very
+   high filter, quality sources only, auto-add* (no human-hold gate; the draft + Opus-critic stage is the
+   safety net). First source shipped: **PubMed** via `scripts/ingest_pubmed.py` (NCBI E-utilities, stdlib,
+   no key, ToS-friendly). The very-high filter = a small allowlist of top derm/cosmetic journals + Cochrane,
+   restricted to RCTs / systematic reviews / meta-analyses, required to be about skin, on a topical-skincare
+   topic, with procedures/devices/systemics excluded by title (laser, filler, toxin, oral supplements, etc.),
+   English + human + last ~3y. Dedupes by PMID against study pages AND the queue, then auto `queue-add --type
+   study` with the PubMed URL. Daily cron 9e24ec40 (8:47 AM, before the 9:09 study-fill cron) runs it and
+   commits queue changes; nothing auto-publishes. First manual run auto-added 19 candidates. Pure logic
+   unit-tested (tests/test_ingest_pubmed.py).
+   REMAINING sources (same pattern, later): reputable product-launch / ingredient / FDA-regulatory news to
+   seed `--type product`/`ingredient`/`brand`. Those are messier (ToS, non-structured feeds) - tackle after
+   the PubMed study feed has proven itself. Anti-hallucination spine unchanged: news discovers, sources verify.
 
-Open questions for the brainstorm: which sources/feeds (and their ToS), how aggressively to auto-queue vs.
-hold for human review, and whether the news feed and the freshness feed share rendering. Scope as its own
+Open questions for the remaining commercial-news sources: which feeds (and their ToS), and whether the news
+feed and the freshness feed share rendering. Scope as its own
 project (brainstorm -> spec -> plan) when picked up.
 
 ## FUTURE PHASE (requested 2026-08-03): social-media expert pipeline
