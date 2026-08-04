@@ -498,7 +498,7 @@ def routine_catalog(profiles, by_slug, code_map):
                        "g": EFFECT_SEGS.get(effect, 0), "a": actives,
                        "th": imgs[0]["src"] if imgs else None, "m": mono}
     notable = [[label, sorted(members)] for label, members in _NOTABLE_ACTIVES]
-    return {"v": routine_string.ANCHOR, "p": prods, "i": ings, "notable": notable}
+    return {"v": routine_string.GRAMMAR, "p": prods, "i": ings, "notable": notable}
 
 
 def _resolve_image(val):

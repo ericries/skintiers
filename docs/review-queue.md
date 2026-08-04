@@ -165,11 +165,13 @@ so those stay auto-synced with no extra fields.
 
 **Still TODO (heavier, next design week):**
 - **Interactive routine builder** (the big one): the URL grammar, codec, code registry, and code-keyed
-  `routine-catalog.json` are DONE. Links are clean, compact PATH URLs:
-  `r1/aI,O,U,6,D/p4,Y~5,6/wM` (25 chars) where `r1` = routine grammar v1, `a/p/w` = AM/PM/weekly phase
-  segments, codes are variable-length base62 (1 char for the first 62 products, unbounded), `~N` = weekly
-  cadence. Analysis of "most compact": base62 codes are already at the floor; commas beat fixed-width while
-  the catalog is small AND stay unbounded; the win was fusing the prefix to `r1/`. HOSTING (static, no server
+  `routine-catalog.json` are DONE. Links are clean, compact, COMMA-FREE PATH URLs:
+  `r1/aIOU6D/p4Y~56/wM` (19 chars) where `rW` = routine + the base62 code WIDTH for that link (auto-sized to
+  the routine's largest code, so a small routine stays width 1 even after the catalog passes 62 products, and
+  the width travels in the URL so old links decode forever), `a/p/w` = AM/PM/weekly phase segments, codes are
+  FIXED-WIDTH base62 concatenated with NO delimiter (self-delimiting, which is what removes the commas),
+  `~N` = weekly cadence. Compactness analysis: base62 codes are the floor; fixed-width auto-sized per link is
+  <= the comma form always (shorter at width 1, ties at width 2) and stays unbounded. HOSTING (static, no server
   rewrites): the builder page doubles as `404.html`; GitHub Pages serves it for any `/r1/...` path, and JS
   reads `location.pathname` + the catalog to render (the response carries a 404 status — fine for humans;
   put OG tags in it so link previews still work). Remaining: the builder page itself (product picker -> AM/PM
