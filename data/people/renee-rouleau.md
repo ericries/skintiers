@@ -1,7 +1,7 @@
 ---
 analyzed: null
 assurance: stub
-expertise: Educators & communicators
+expertise: Influencers & educators
 name: Renée Rouleau
 slug: renee-rouleau
 status: stub

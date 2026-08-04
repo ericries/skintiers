@@ -161,6 +161,12 @@ look worse than it is.
   **MANDATORY: reject ALL sponsored videos.** Read the transcript for sponsor disclosures ("sponsored by",
   "#ad", "thank you [brand] for sponsoring", "gifted") and reject the video if any appear; also reject videos
   whose uploader is a brand's own channel (e.g. "CeraVe"). Sponsored/paid content is out as a source, full stop.
+  **Credential tiers + skepticism.** Board-certified dermatologists and cosmetic chemists are the credentialed
+  tier. A creator who is NOT a derm/chemist goes under `expertise: Influencers & educators` (person page) and
+  their claims are treated SKEPTICALLY: label the credential honestly (e.g. "Beauty product developer; not a
+  dermatologist or cosmetic chemist"), only use a video whose content ALIGNS with the site's evidence (do not
+  relay a novel/contested claim of theirs as fact), and do NOT present their PRODUCT recommendations as
+  authoritative - especially with an affiliate/sponsor conflict. Prefer their educational / how-to-use content.
   Exemplars: [[sunscreen-uv-filters]] (Wong), [[tretinoin-0-025-cream]] (Ellis, how-to-use).
   **STANDARD (2026-08-03): whenever we link a video, EMBED it if the platform allows.** DONE: the `.vid` card
   now auto-embeds from `url` via build.py `video_embed()` - a responsive YouTube iframe (`youtube.com/embed/

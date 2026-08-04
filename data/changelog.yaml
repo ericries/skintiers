@@ -3,6 +3,10 @@
 # Rendered to _site/whats-new.html (footer link).
 
 - date: '2026-08-03'
+  title: The People directory now separates credentialed experts (dermatologists, cosmetic chemists) from
+    a distinct 'Influencers & educators' group, whose claims we treat more skeptically — their credential
+    is labeled honestly and their product recommendations are not taken as authoritative.
+- date: '2026-08-03'
   title: Each expert's profile page now plays their verified videos inline too (not just links) — e.g.
     Dr Michelle Wong's page embeds both her sunscreen and vitamin C clips. YouTube frames lazy-load and
     the TikTok script loads once per page.

@@ -37,12 +37,14 @@ PRODUCT_CATEGORY_ORDER = (
 )
 
 # The People directory is grouped by credential type (their `expertise` field).
-# TODO: add a "Licensed estheticians" group once esthetician profiles are added
-# (for now the two estheticians on the site sit under Educators & communicators).
+# "Influencers & educators" is the NON-credentialed tier (not a derm/chemist): their
+# claims are treated skeptically - used only when they align with the evidence, product
+# recommendations are suspect (affiliate/sponsor conflicts), and their credential is
+# always labeled honestly. TODO: split out a "Licensed estheticians" group later.
 PEOPLE_EXPERTISE_ORDER = (
     "Dermatologists",
     "Cosmetic chemists",
-    "Educators & communicators",
+    "Influencers & educators",
 )
 
 
