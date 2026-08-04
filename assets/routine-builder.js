@@ -123,4 +123,93 @@
   var api = { parseRoutine: parseRoutine, encodeRoutine: encodeRoutine, computeDashboard: computeDashboard };
   if (typeof module !== 'undefined' && module.exports) module.exports = api;
   else root.RoutineBuilder = api;
+
+  if (typeof document !== 'undefined') {
+    (function () {
+      var catalog = JSON.parse(document.getElementById('rb-catalog').textContent);
+      var model;
+      try { model = parseRoutine(location.pathname); }
+      catch (e) { model = { phases: [] }; }
+
+      function items(key) {
+        var p = model.phases.filter(function (x) { return x.key === key; })[0];
+        if (!p) { p = { key: key, items: [] }; model.phases.push(p); }
+        return p.items;
+      }
+      function has(key, code) { return items(key).some(function (it) { return it.code === code; }); }
+      function add(key, code) { if (catalog.p[code] && !has(key, code)) { items(key).push({ code: code, freq: 7 }); sync(); } }
+      function remove(key, code) {
+        var arr = items(key);
+        for (var i = 0; i < arr.length; i++) { if (arr[i].code === code) { arr.splice(i, 1); break; } }
+        sync();
+      }
+
+      function badge(p) {
+        var cls = p.t === 'top' ? 'rb-top' : p.t === 'mid' ? 'rb-mid' : 'rb-entry';
+        var inner = p.th ? '<img src="' + p.th + '" alt="">' : (p.m || '?');
+        return '<span class="rb-badge ' + cls + '">' + inner + '</span>';
+      }
+
+      function renderPhase(key, elId) {
+        var el = document.getElementById(elId);
+        el.innerHTML = '';
+        items(key).forEach(function (it) {
+          var p = catalog.p[it.code];
+          if (!p) return;                                   // unknown code -> skip silently
+          var row = document.createElement('div');
+          row.className = 'rb-step';
+          row.innerHTML = badge(p) + '<span class="rb-name">' + p.n + '</span> <button aria-label="remove">✕</button>';
+          row.querySelector('button').onclick = function () { remove(key, it.code); };
+          el.appendChild(row);
+        });
+      }
+
+      function renderDash() {
+        var d = computeDashboard(model, catalog);
+        var el = document.getElementById('rb-dash');
+        if (!d.product_count) { el.innerHTML = '<span class="empty">Search to add your first product.</span>'; return; }
+        var actives = d.ingredients.map(function (i) { return i.name + (i.count > 1 ? ' ×' + i.count : ''); }).join(', ');
+        var html = '<strong>' + d.strength + '</strong> · ' + d.product_count + ' product' + (d.product_count === 1 ? '' : 's');
+        if (d.filters) html += ' · Sun: ' + d.filters.coverage;
+        if (actives) html += '<br>Actives: ' + actives;
+        if (d.absent.length) html += '<br>Does not contain: ' + d.absent.join(', ');
+        el.innerHTML = html;
+      }
+
+      function renderResults(q) {
+        var el = document.getElementById('rb-results');
+        el.innerHTML = '';
+        q = (q || '').trim().toLowerCase();
+        if (!q) return;
+        Object.keys(catalog.p).forEach(function (code) {
+          var p = catalog.p[code];
+          if ((p.n + ' ' + (p.c || '')).toLowerCase().indexOf(q) === -1) return;
+          var li = document.createElement('li');
+          li.innerHTML = '<span>' + p.n + '</span><span><button data-k="am">+ AM</button> <button data-k="pm">+ PM</button></span>';
+          li.querySelectorAll('button').forEach(function (b) {
+            b.onclick = function () { add(b.getAttribute('data-k'), code); };
+          });
+          el.appendChild(li);
+        });
+      }
+
+      function sync() {
+        model.phases = model.phases.filter(function (p) { return p.items.length; });
+        var path = encodeRoutine(model);
+        history.replaceState(null, '', document.querySelector('base').getAttribute('href') + path);
+        renderPhase('am', 'rb-am');
+        renderPhase('pm', 'rb-pm');
+        renderDash();
+      }
+
+      document.getElementById('rb-search').addEventListener('input', function (e) { renderResults(e.target.value); });
+      document.getElementById('rb-copy').addEventListener('click', function () {
+        navigator.clipboard.writeText(location.href).then(function () {
+          document.getElementById('rb-copied').textContent = 'Copied!';
+          setTimeout(function () { document.getElementById('rb-copied').textContent = ''; }, 1500);
+        });
+      });
+      sync();                                               // initial render from the URL
+    })();
+  }
 })(this);
