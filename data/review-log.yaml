@@ -1516,3 +1516,17 @@ neale-2019-sunscreen-vitamin-d:
     (2) cut two uncited invented mechanistic "why the designs diverge" sentences (incl. a dietary/supplemental
     vitamin D rationale nowhere in the source); (3) added the funding line (NHMRC, per PubMed's Grants metadata).
     Single high-quality primary source, correctly the only source for a study summary. lint+verify+style clean.
+best-peptide-serums:
+  last_reviewed: '2026-08-04'
+  score: 8
+  verdict: self-reviewed
+  note: |
+    Best-of list filled (daily list cron; Sonnet draft + my own check, no Opus critic per the curatorial
+    list rule; assurance=sonnet, published --force). Ranks the site's three peptide serums (COSRX 6 Peptide >
+    TO Multi-Peptide+HA > TO Copper Peptides) skeptically against the thin peptide evidence, rationale drawn
+    from already-published [[peptides]]/[[copper-peptides]]/[[hyaluronic-acid]] pages. MY CHECK caught the
+    drafter introducing an unverified external claim (a GHK-Cu post-laser-resurfacing RCT) NOT on the
+    copper-peptides page; replaced it with the on-site-supported rationale (copper peptide's human cosmetic
+    case rests on discoverer-authored/uncontrolled reviews + limited stratum-corneum permeation). Confirmed the
+    retained claims (acetyl hexapeptide-8 limited penetration per 2025 review; 2026 peptide meta) trace to the
+    linked pages' citations. Links only to existing pages. lint+verify+style clean.
