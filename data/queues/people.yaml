@@ -106,3 +106,9 @@
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/?term=Pandya+AG+melasma
+- name: Kristin Leite (kristingl, beauty product developer / skincare educator)
+  type: person
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://linktr.ee/kristingl
