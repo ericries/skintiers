@@ -370,3 +370,9 @@
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/30945275/
+- name: Sunscreen UV filters, categorized (mineral vs chemical) hub
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://ericries.github.io/skintiers/sunscreen-uv-filters.html

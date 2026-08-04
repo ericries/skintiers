@@ -279,3 +279,23 @@ footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;
 .rd-effect i.on{background:var(--tier-good)}
 .rd-step-note{grid-column:2/4;grid-row:3;font-size:13px;color:var(--muted);margin-top:2px}
 @media(max-width:600px){.rd-row{flex-direction:column;gap:5px}.rd-label{flex-basis:auto}.rd-steps{gap:18px}}
+
+/* Routines index + generated icons */
+.svg.genicon, svg.genicon { display: block; }
+.genicon { width: 100%; height: 100%; border-radius: 13px; }
+.routine-index { list-style: none; padding: 0; margin: 1.5rem 0; display: grid; gap: 0.9rem; }
+.ri-card { display: flex; gap: 0.9rem; align-items: flex-start; padding: 0.9rem 1rem;
+  border: 1px solid var(--rule, #e2ddd3); border-radius: 12px; background: var(--card, #fff); }
+.ri-icon { flex: 0 0 52px; width: 52px; height: 52px; display: block; }
+.ri-body { min-width: 0; }
+.ri-body h2 { margin: 0 0 0.3rem; font-size: 1.1rem; }
+.ri-meta { display: flex; flex-wrap: wrap; gap: 0.4rem 0.7rem; align-items: center;
+  font-size: 0.82rem; color: var(--muted, #6b6459); }
+.ri-strength { font-weight: 600; padding: 0.05rem 0.5rem; border-radius: 999px; color: #fff; }
+.ri-strong { background: #2f7d4f; } .ri-solid { background: #4a8a5c; }
+.ri-moderate { background: #b7871f; } .ri-light { background: #9a938a; }
+.ri-for { margin: 0.35rem 0 0; font-size: 0.85rem; }
+.ri-absent { margin: 0.2rem 0 0; font-size: 0.8rem; color: var(--muted, #6b6459); }
+@media (prefers-color-scheme: dark) {
+  .ri-card { border-color: #333; background: #1b1b1d; }
+}

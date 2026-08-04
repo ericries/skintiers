@@ -42,9 +42,9 @@ punch-list in review-log). **Tooling shipped:** `sk audit` (drafted-but-unshippe
    aggregated list).
 0. **[2026-08-03] People directory credential tiers.** Grouped by `expertise:` (`PEOPLE_EXPERTISE_ORDER` in
    build.py): Dermatologists / Cosmetic chemists / **Influencers & educators** (the non-credentialed tier -
-   claims treated skeptically, credential labeled honestly, product recs suspect). Still TODO: split a
-   "Licensed estheticians" group out of Influencers & educators (Cassandra Bankson, Renee Rouleau are licensed
-   estheticians sitting there for now).
+   claims treated skeptically, credential labeled honestly, product recs suspect). DONE 2026-08-04: split a
+   **Licensed estheticians** tier into PEOPLE_EXPERTISE_ORDER and moved Cassandra Bankson + Renee Rouleau there
+   (both established licensed estheticians; their stubs' credential will be re-verified when the person cron fills them).
 1. **Tier-list format (applies to every tier list):** (a) a click-down summary of the tiers at the top;
    (b) stronger visual separation between items within a tier. Build as a shared convention + CSS.
    **(c) [requested 2026-07-28] Replace bare "See Also" lists of similar items with a consistent
@@ -53,6 +53,10 @@ punch-list in review-log). **Tooling shipped:** `sk audit` (drafted-but-unshippe
    ranked within a category on product pages where applicable. Needs a reusable tier-list component driven
    by data (so the same ranking renders identically across every page that references the set), plus a
    source of truth for each ranking (potency, evidence, etc.).
+   STATUS 2026-08-04: the reusable component is buildable but blocked on the ranking DATA (research). Those
+   rankings are now QUEUED for the content crons: "Retinoids by potency" + "Best moisturizing ingredients" +
+   "Best products for glass skin" (--type list), "Sunscreen UV filters, categorized" (--type ingredient). Build
+   the shared tier-list macro + CSS once the first ranked list lands so it has a real consumer to render.
 2. **anti-aging → hub + child:** make `anti-aging` a general, health-first anti-aging hub (boosting skin
    health / reversing damage, not just cosmetic look); move the perimenopause material to a child page
    `anti-aging-perimenopause`; leave room to add more anti-aging sub-goals to the hub.
@@ -160,10 +164,17 @@ so those stay auto-synced with no extra fields.
   passes thumb/monogram/tier_key per step; .rd-step-badge in the template + css.
 
 **Still TODO (heavier, next design week):**
-- **Client JS renderer** over `routines.json` (filtering, interactivity). Static bake covers v1.
-- **Generated icons** (SVG, standardized) for conditions/ingredient classes (the non-photo companion to
-  the product badges above).
-- A routines index / landing that surfaces the dashboards (today routines live under Lists).
+- **Interactive routine builder** (the big one): the URL grammar, codec, code registry, and code-keyed
+  `routine-catalog.json` are DONE. Links are now ordinary query-string URLs
+  (`routine.html?am=I,O,U,6,D&pm=4,Y~5,6&wk=M` — variable-length base62 codes, unbounded, version-by-absence).
+  Remaining: the `routine.html` page itself (product picker -> AM/PM steps -> live dashboard, reading/writing
+  `location.search` via replaceState, JS codec mirroring routine_string.py against the same vectors) + an
+  "open in builder" link from curated routine pages. Needs its own UI brainstorm.
+- DONE 2026-08-04: **Generated icons** (SVG, deterministic) — `gen_icon(seed, monogram)` in build.py renders a
+  hue-from-slug gradient tile with the monogram, registered as a Jinja global; used on the routines index.
+  Broader rollout (condition/ingredient listing cards without photos) is a cheap follow-up.
+- DONE 2026-08-04: **routines index / landing** — `routines.html` (templates/routines_index.html) surfaces each
+  published routine's dashboard (strength, product count, sun coverage, good-for, does-not-contain) + footer nav link.
 - Consider weighting the composite toward treatment actives vs support products (today it's a flat mean).
 
 ### B. Simple infographics
@@ -177,6 +188,22 @@ so those stay auto-synced with no extra fields.
   beauty-of-joseon-relief-sun-rice-probiotics-spf50, la-roche-posay-anthelios-melt-in-milk-spf-60.
 - Other infographic candidates: tier-distribution bars (feeds the routine dashboard), health-vs-cosmetic split, an
   ingredient's product-count. Reuse the same static-SVG + build.py-data pattern.
+
+## FUTURE PHASE (requested 2026-08-04): social sharing
+User direction, NOT yet built. Make pages (and especially routines) shareable to social platforms:
+- **Open Graph + Twitter Card meta** in base.html `<head>` per page: og:title/description/type/url + a
+  per-page og:image (and twitter:card=summary_large_image). Drive title/description off each profile's name +
+  standfirst; url off the canonical page URL.
+- **Generated share images** (og:image, ~1200x630): reuse the deterministic-SVG approach (gen_icon / the tier
+  and dashboard visuals) to bake a static share card per page at build time - for a ROUTINE, render its
+  dashboard (strength, product badges, sun coverage) into the card so a shared routine link previews richly.
+  SVG -> PNG needs a rasterizer (e.g. a tiny build-time step) since most platforms want PNG/JPG for og:image.
+- **Share links/buttons** on each page (and on a built routine URL): prefilled share intents (X, Facebook,
+  Reddit, copy-link) using the page's canonical/normal URL. For routines, the shareable URL is already the
+  compact query-string builder link.
+- Set a sensible `Referrer-Policy` / `<meta name="referrer">` so a shared routine query string does not leak
+  via Referer to outbound product links.
+Ties into the routine builder (share the routine URL) and the generated-icon work already done.
 
 ## FUTURE PHASE (requested 2026-08-03): freshness + news feed that seeds the queues
 User direction, NOT yet built. Two linked feeds:

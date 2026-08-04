@@ -49,6 +49,7 @@ PRODUCT_CATEGORY_ORDER = (
 PEOPLE_EXPERTISE_ORDER = (
     "Dermatologists",
     "Cosmetic chemists",
+    "Licensed estheticians",
     "Influencers & educators",
 )
 
@@ -542,6 +543,28 @@ def images_and_monogram(metadata):
     monogram = "".join(w[0] for w in words[:2] if w).upper()
     return images, monogram
 
+
+def gen_icon(seed, monogram="", label=None):
+    """A deterministic inline-SVG tile for entities with no photo: a two-stop
+    gradient whose hue is derived from the slug, with the monogram centered. Same
+    seed -> same icon, everywhere. The gradient id is hashed so many can share a page."""
+    h = hashlib.md5((seed or "").encode("utf-8")).hexdigest()
+    hue = int(h[:2], 16) * 360 // 256
+    hue2 = (hue + 40) % 360
+    gid = "gi" + h[:8]
+    mono = _htmllib.escape((monogram or "")[:2])
+    aria = _htmllib.escape(label or seed or "")
+    return (
+        f'<svg class="genicon" viewBox="0 0 64 64" role="img" aria-label="{aria}" '
+        f'xmlns="http://www.w3.org/2000/svg">'
+        f'<defs><linearGradient id="{gid}" x1="0" y1="0" x2="1" y2="1">'
+        f'<stop offset="0" stop-color="hsl({hue} 58% 56%)"/>'
+        f'<stop offset="1" stop-color="hsl({hue2} 62% 44%)"/></linearGradient></defs>'
+        f'<rect width="64" height="64" rx="13" fill="url(#{gid})"/>'
+        f'<text x="32" y="35" text-anchor="middle" dominant-baseline="central" '
+        f'font-family="IBM Plex Mono, monospace" font-weight="600" font-size="26" '
+        f'fill="#fff">{mono}</text></svg>')
+
 # Stable order + plural labels for the auto "tagged pages" groups.
 TAG_GROUP_ORDER = (
     ("product", "Products"),
@@ -685,6 +708,7 @@ def build():
     env = Environment(loader=FileSystemLoader(str(sklib.TEMPLATES_DIR)), autoescape=True)
     env.globals["assurance_tip"] = lambda level: ASSURANCE_TIPS.get(level, "")
     env.globals["video_embed"] = video_embed
+    env.globals["gen_icon"] = gen_icon
     out = sklib.OUTPUT_DIR
     if out.exists():
         shutil.rmtree(out)
@@ -778,6 +802,27 @@ def build():
     # URLs entirely client-side). Minified - it is machine-loaded, not read.
     catalog = routine_catalog(profiles, by_slug, code_map)
     (out / "routine-catalog.json").write_text(json.dumps(catalog, separators=(",", ":")))
+
+    # Routines index: surfaces the dashboards (routines otherwise live under Lists).
+    _STRENGTH_KEY = {"Strong": "strong", "Solid": "solid", "Moderate": "moderate", "Light": "light"}
+    routine_cards = []
+    for p in profiles:
+        if p.get("status") != "published" or p["slug"] not in routines_json:
+            continue
+        rj = routines_json[p["slug"]]
+        _, mono = images_and_monogram(p.metadata)
+        routine_cards.append({
+            "slug": p["slug"], "name": rj["name"] or p["slug"], "monogram": mono,
+            "strength": rj["strength"]["label"],
+            "strength_key": _STRENGTH_KEY.get(rj["strength"]["label"], "light"),
+            "product_count": rj["product_count"],
+            "coverage": (rj["filters"] or {}).get("coverage") if rj["filters"] else None,
+            "serves": [names.get(s, s) for s in rj["serves_slugs"]],
+            "absent": rj["absent"],
+        })
+    routine_cards.sort(key=lambda c: c["name"].lower())
+    (out / "routines.html").write_text(
+        env.get_template("routines_index.html").render(routines=routine_cards))
 
     # Listing pages are always built for every category; only the index nav is
     # filtered to categories with at least one PUBLISHED profile.

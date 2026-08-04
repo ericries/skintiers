@@ -3,6 +3,11 @@
 # Rendered to _site/whats-new.html (footer link).
 
 - date: '2026-08-04'
+  title: Added a Routines page that gathers every routine with its at-a-glance dashboard — strength, layered
+    actives, sun coverage, and what it leaves out — plus a new Licensed estheticians category in the people
+    directory.
+  slug: routines
+- date: '2026-08-04'
   title: 'Added a summary of a 2019 British Journal of Dermatology review on sunscreen and vitamin D:
     little evidence that real-world sunscreen use lowers vitamin D, so the vitamin-D worry is not a reason
     to skip sun protection.'

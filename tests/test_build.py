@@ -316,6 +316,9 @@ def test_routine_dashboard_aggregates_from_products(tmp_path):
     assert [n[0] for n in cat["notable"]] == ["Retinoid", "Vitamin C", "Niacinamide", "Exfoliant"]
     # the registry was written under the tmp data dir, NOT the real one
     assert (data / "routine-codes.yaml").exists()
+    # routines index surfaces the dashboard as a card
+    ri = (out / "routines.html").read_text()
+    assert "ri-card" in ri and "My Routine" in ri and "genicon" in ri
     assert "Retinoid" in rj["absent"]                    # common actives the routine lacks
     assert "Niacinamide" not in rj["absent"]             # present -> not listed
     assert rj["serves_slugs"] == ["acne"]
@@ -411,6 +414,18 @@ def test_expert_video_card_and_routine_source_render(tmp_path):
     rt = (out / "r.html").read_text()
     assert "rd-source" in rt and "Sourced from" in rt
     assert "Sourced note." in rt
+
+
+def test_gen_icon_is_deterministic_svg():
+    sys.path.insert(0, str(ROOT))
+    import build
+    a = build.gen_icon("cerave-moisturizing-cream", "CM", "CeraVe Moisturizing Cream")
+    b = build.gen_icon("cerave-moisturizing-cream", "CM", "CeraVe Moisturizing Cream")
+    c = build.gen_icon("differin-adapalene-0-1-gel", "DA")
+    assert a == b                                   # same seed -> identical icon
+    assert a != c                                   # different seed -> different icon
+    assert a.startswith("<svg") and ">CM<" in a     # inline SVG carrying the monogram
+    assert "hsl(" in a                              # hue-derived gradient
 
 
 def test_syndication_feeds_render():

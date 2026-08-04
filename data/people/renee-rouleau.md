@@ -1,7 +1,7 @@
 ---
 analyzed: null
 assurance: stub
-expertise: Influencers & educators
+expertise: Licensed estheticians
 name: Renée Rouleau
 slug: renee-rouleau
 status: stub

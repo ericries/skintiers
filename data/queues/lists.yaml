@@ -1,0 +1,18 @@
+- name: Best products for glass skin (hydration, even tone, smoothness, sun protection)
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://ericries.github.io/skintiers/glass-skin.html
+- name: Best moisturizing ingredients, ranked (with an example product each)
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://ericries.github.io/skintiers/moisturizing.html
+- name: Retinoids by potency, ranked (tier list)
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://ericries.github.io/skintiers/retinoids.html
