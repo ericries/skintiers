@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
 """SkinTiers static site generator."""
+import datetime
+import hashlib
+import html as _htmllib
 import json
 import os
 import re
@@ -560,6 +563,73 @@ def changelog_groups_for(path, published):
     return groups
 
 
+# --- Syndication feeds (freshness) -------------------------------------------
+# The changelog becomes a real RSS 2.0 + JSON Feed of recently added/updated pages,
+# so the site's freshness is subscribable and machine-readable. Static, no deps.
+SITE_URL = "https://ericries.github.io/skintiers"
+FEED_TITLE = "SkinTiers - What's New"
+FEED_DESC = "Recently added and updated pages on SkinTiers, a skeptical, evidence-first skincare directory."
+FEED_LIMIT = 50
+
+
+def _feed_items(entries, published):
+    """Normalize newest-first changelog entries to feed items (capped at FEED_LIMIT).
+    A slug that names an existing page links to it; otherwise the item points at the
+    What's New page. Each id is stable per (date, title) so readers don't re-notify."""
+    items = []
+    for e in entries:
+        if not isinstance(e, dict) or not e.get("title"):
+            continue
+        title, date, slug = str(e["title"]), str(e.get("date", "")), e.get("slug")
+        url = f"{SITE_URL}/{slug}.html" if slug and slug in published else f"{SITE_URL}/whats-new.html"
+        uid = f"{SITE_URL}/#{date}-{hashlib.sha1(title.encode('utf-8')).hexdigest()[:12]}"
+        items.append({"title": title, "date": date, "url": url, "id": uid})
+        if len(items) >= FEED_LIMIT:
+            break
+    return items
+
+
+def _rfc822(date_str):
+    try:
+        return datetime.datetime.strptime(date_str, "%Y-%m-%d").strftime("%a, %d %b %Y 00:00:00 +0000")
+    except ValueError:
+        return ""
+
+
+def render_rss(entries, published):
+    """RSS 2.0 XML string of the recent changelog."""
+    out = ['<?xml version="1.0" encoding="UTF-8"?>', '<rss version="2.0"><channel>',
+           f"<title>{_htmllib.escape(FEED_TITLE)}</title>", f"<link>{SITE_URL}/</link>",
+           f"<description>{_htmllib.escape(FEED_DESC)}</description>",
+           f'<atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="{SITE_URL}/feed.xml" rel="self" type="application/rss+xml"/>']
+    for it in _feed_items(entries, published):
+        out.append("<item>")
+        out.append(f"<title>{_htmllib.escape(it['title'])}</title>")
+        out.append(f"<link>{it['url']}</link>")
+        out.append(f'<guid isPermaLink="false">{it["id"]}</guid>')
+        pd = _rfc822(it["date"])
+        if pd:
+            out.append(f"<pubDate>{pd}</pubDate>")
+        out.append("</item>")
+    out.append("</channel></rss>")
+    return "".join(out)
+
+
+def render_json_feed(entries, published):
+    """JSON Feed 1.1 string of the recent changelog."""
+    feed = {
+        "version": "https://jsonfeed.org/version/1.1",
+        "title": FEED_TITLE, "home_page_url": f"{SITE_URL}/",
+        "feed_url": f"{SITE_URL}/feed.json", "description": FEED_DESC,
+        "items": [
+            {"id": it["id"], "url": it["url"], "title": it["title"],
+             **({"date_published": f"{it['date']}T00:00:00Z"} if it["date"] else {})}
+            for it in _feed_items(entries, published)
+        ],
+    }
+    return json.dumps(feed, ensure_ascii=False, indent=2)
+
+
 ASSURANCE_TIPS = {
     "stub": "Placeholder page, not yet fully researched.",
     "sonnet": "Drafted and auto-checked (lint, sources, style), single pass.",
@@ -689,6 +759,13 @@ def build():
                                              published=set(slugs))
     whats_new = env.get_template("whats_new.html").render(groups=changelog_groups)
     (out / "whats-new.html").write_text(whats_new)
+
+    # Syndication feeds (RSS + JSON) of the same changelog, for subscribers/monitoring.
+    import yaml as _yaml
+    _cl = sklib.ROOT / "data" / "changelog.yaml"
+    _cl_entries = (_yaml.safe_load(_cl.read_text()) or []) if _cl.exists() else []
+    (out / "feed.xml").write_text(render_rss(_cl_entries, set(slugs)))
+    (out / "feed.json").write_text(render_json_feed(_cl_entries, set(slugs)))
 
     if sklib.STATIC_DIR.exists():
         for f in sklib.STATIC_DIR.iterdir():

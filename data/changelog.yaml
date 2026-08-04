@@ -3,6 +3,10 @@
 # Rendered to _site/whats-new.html (footer link).
 
 - date: '2026-08-03'
+  title: The site now publishes an RSS feed (and a JSON feed) of recently added and updated pages, so
+    you can subscribe to what's new — linked in the footer and auto-discovered by feed readers.
+  slug: feed.xml
+- date: '2026-08-03'
   title: Added Medik8 Crystal Retinal 3 — an encapsulated retinaldehyde serum and Wirecutter's 'best for
     adjustable potency' pick. Retinaldehyde is one conversion step from active (vs retinol's two), so
     it's a stronger over-the-counter option than the retinols, though still milder than prescription tretinoin;

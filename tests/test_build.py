@@ -399,6 +399,35 @@ def test_expert_video_card_and_routine_source_render(tmp_path):
     assert "Sourced note." in rt
 
 
+def test_syndication_feeds_render():
+    import json
+    import xml.dom.minidom as minidom
+    sys.path.insert(0, str(ROOT))
+    import build
+    entries = [
+        {"date": "2026-08-03", "title": "Added a niacinamide page", "slug": "niacinamide"},
+        {"date": "2026-08-02", "title": "A change with no page"},        # no slug -> What's New
+        {"date": "2026-08-01", "title": "Points at a stub", "slug": "not-published"},
+    ]
+    published = {"niacinamide"}
+    # RSS: well-formed, links the published page, falls back for the rest.
+    rss = build.render_rss(entries, published)
+    doc = minidom.parseString(rss)                       # raises if malformed
+    items = doc.getElementsByTagName("item")
+    assert len(items) == 3
+    links = [i.getElementsByTagName("link")[0].firstChild.data for i in items]
+    assert links[0] == "https://ericries.github.io/skintiers/niacinamide.html"
+    assert links[1].endswith("/whats-new.html")          # slugless -> What's New
+    assert links[2].endswith("/whats-new.html")          # unpublished slug -> What's New
+    assert "Mon, 03 Aug 2026" in rss                     # RFC-822 pubDate from the entry date
+    # JSON Feed 1.1: valid, same items.
+    feed = json.loads(build.render_json_feed(entries, published))
+    assert feed["version"] == "https://jsonfeed.org/version/1.1"
+    assert len(feed["items"]) == 3
+    assert feed["items"][0]["url"] == "https://ericries.github.io/skintiers/niacinamide.html"
+    assert feed["items"][0]["date_published"] == "2026-08-03T00:00:00Z"
+
+
 def test_video_embed_helper():
     sys.path.insert(0, str(ROOT))
     import build

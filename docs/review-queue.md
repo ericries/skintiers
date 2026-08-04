@@ -181,10 +181,11 @@ so those stay auto-synced with no extra fields.
 ## FUTURE PHASE (requested 2026-08-03): freshness + news feed that seeds the queues
 User direction, NOT yet built. Two linked feeds:
 
-1. **A "recently added / updated" feed of our own pages.** We already log changes to `data/changelog.yaml`
-   (rendered to `whats-new.html`). Turn that into a real syndication feed - an RSS/Atom + JSON feed at a
-   stable URL - so the site's freshness is subscribable and machine-readable (also handy for our own
-   monitoring). Drive it off changelog.yaml + each page's `updated`/`analyzed` dates. Cheap, static, no new deps.
+1. DONE 2026-08-03: **a syndication feed of recently added/updated pages.** build.py now emits `_site/feed.xml`
+   (RSS 2.0) + `_site/feed.json` (JSON Feed 1.1) from `data/changelog.yaml`, with autodiscovery `<link>`s in
+   every page head and a footer RSS link. `render_rss()` / `render_json_feed()` are pure + unit-tested;
+   item ids are stable per (date, title) so readers do not re-notify. Slug'd entries deep-link the page,
+   the rest point at What's New. (Improvement: pass `--slug` to `sk log` more often so more items deep-link.)
 
 2. **A skincare product-related NEWS feed that INFORMS FUTURE QUEUES (the valuable half).** Ingest reputable
    external sources on a schedule - new product launches, ingredient/formulation news, FDA/regulatory actions,
