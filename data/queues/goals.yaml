@@ -7,6 +7,6 @@
 - name: Barrier health
   type: goal
   priority: 8
-  status: pending
+  status: done
   discovered_from: null
   source: null

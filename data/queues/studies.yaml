@@ -113,3 +113,9 @@
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/24595578/
+- name: Elias 2014 skin barrier lipid structure and function
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://pmc.ncbi.nlm.nih.gov/articles/PMC3587970/
