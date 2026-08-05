@@ -1647,3 +1647,18 @@ prequel-gleanser-glycerin-cleanser:
     "NRS") -> fixed by starting the quotation at the verbatim span; plus trimmed a triple-restated
     "uncorroborated" point in the Summary. 3 self-hosted images (Prequel PDP + Target), sourced. assurance=sonnet.
     lint+verify+style clean.
+creidi-1998-retinaldehyde-retinoic-acid-profilometry:
+  last_reviewed: '2026-08-05'
+  score: 10
+  verdict: publish
+  note: |
+    Study page fleshed from stub (Sonnet draft + Opus critic). Creidi et al. 1998 (JAAD, PMID 9843009), the
+    primary product-specific efficacy evidence for retinaldehyde. Full text paywalled (JS-only Elsevier) ->
+    drafted ABSTRACT-ONLY and says so. Critic re-fetched PubMed and confirmed every number verbatim: n=125
+    profilometry population (40 retinoic acid / 40 retinaldehyde / 45 vehicle), 135 safety population, weeks 18
+    and 44 timepoints, silicone-replica optical profilometry, both actives cut wrinkle/roughness vs baseline
+    (no significant vehicle change), retinaldehyde better tolerated. Abstract has ZERO percentages/p-values and
+    the page invents none (flagged in Limitations). Honestly framed as a profilometric surface-texture surrogate,
+    not a health/collagen outcome; no head-to-head statistical claim between the two actives. 10/10, verdict
+    publish -> assurance=opus. lint+verify+style clean. Underpins the retinaldehyde 'strong' tier on the
+    retinoids hub.

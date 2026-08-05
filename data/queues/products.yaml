@@ -592,3 +592,9 @@
   status: pending
   discovered_from: null
   source: https://www.dr-g.com/collections/sunscreen
+- name: Avene RetrinAL 0.1 Intensive Cream
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://pubmed.ncbi.nlm.nih.gov/9843009/
