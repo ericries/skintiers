@@ -1611,3 +1611,22 @@ cerave-pm-facial-moisturizing-lotion:
     the full INCI); removed the two orphaned footnotes. INCI verbatim-confirmed against the cached cerave.com.
     Marketing (MVE, "developed with dermatologists") quarantined; grades narrow/unblended. assurance=sonnet.
     lint+verify+style clean. The source cache let the critic verify anti-bot retailers deterministically.
+soolantra-ivermectin-1-cream:
+  last_reviewed: '2026-08-05'
+  score: 8
+  verdict: revise-then-fixed
+  note: |
+    Prescription rosacea drug fleshed from a user-requested stub (Sonnet draft + Opus critic re-verifying
+    every stat against primaries). Critic VERIFIED all load-bearing efficacy figures verbatim: IGA 38.4/40.1
+    vs 11.6/18.8 (both P<.001) and lesion reduction 76/75 vs 50 (Stein Gold 2014); head-to-head 83.0 vs 73.7
+    and 84.9 vs 75.4, n=962, 16wk vs metronidazole 0.75% (Taieb/ATTRACT 2015); NNT 4-5 and 3 (AAFP); label
+    facts, 10mg/g, AEs <=1%, no boxed warning (DailyMed); prices vs GoodRx cache. Verdict REVISE on two
+    load-bearing items, both fixed in main loop: (1) an unsupported "no patient discontinued" clause not in
+    the cited Stein Gold abstract -> replaced with the abstract's verbatim QoL/"excellent-or-good" line;
+    (2) mechanism (anti-inflammatory + anti-Demodex) mis-cited to the label, which says mechanism unknown ->
+    re-cited to AAFP and hedged to "thought to combine", consistent with the standfirst. Also: dropped an
+    unsourced "high-quality Cochrane rating" clause; corrected price framing ($335 is GoodRx's average retail
+    baseline, not the tube's top price); added AAFP-sourced durability caveat (relapse in ~half within ~4mo;
+    not studied in milder rosacea). All edits removed or hedged claims / added cited caveats -> strictly more
+    conservative than the critic-reviewed draft. Photo gallery deferred (completeness, not accuracy).
+    assurance=sonnet (force-published as revise-then-fixed). lint+verify+style clean.

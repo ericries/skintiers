@@ -415,7 +415,7 @@
 - name: ivermectin
   type: ingredient
   priority: 6
-  status: pending
+  status: done
   discovered_from: null
   source: Soolantra active
 - name: hypochlorous-acid
