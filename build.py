@@ -401,6 +401,59 @@ def entity_tier(metadata):
     return _segs_to_tier(segs)
 
 
+_TIER_ORDER = ["best", "good", "mid", "weak", "unrated"]
+
+
+def tier_list_view(profile, by_slug):
+    """Build the tier-list render model from a page's `tier_list:` frontmatter,
+    or None if absent. Each item is a bare slug or {slug, note?, tier?}. Tier
+    precedence per item: its own `tier:` override -> entity_tier(target).
+    Unknown/unpublished slugs are skipped and surfaced in `missing`. Within a
+    tier, products sort by effect segs desc with declared order breaking ties;
+    items with no numeric effect (segs -1, e.g. ingredient hubs) keep declared
+    order."""
+    tl = profile.metadata.get("tier_list")
+    if not tl:
+        return None
+    buckets = {k: [] for k in _TIER_ORDER}
+    missing = []
+    for idx, raw in enumerate(tl.get("items") or []):
+        if isinstance(raw, dict):
+            slug = (raw.get("slug") or "").strip()
+            note = raw.get("note") or ""
+            override = (raw.get("tier") or "").strip().lower()
+        else:
+            slug, note, override = str(raw).strip(), "", ""
+        target = by_slug.get(slug)
+        if target is None or target.get("status") != "published":
+            missing.append(slug)
+            continue
+        key = (_TIER_ALIASES.get(override) if override else entity_tier(target.metadata)) or "unrated"
+        imgs, mono = images_and_monogram(target.metadata)
+        best = _best_health_grade(target.metadata)
+        segs = best[0] if best else -1
+        ev_label = EVIDENCE_MAP.get(best[1], (None, None))[1] if best else None
+        buckets[key].append({
+            "slug": slug,
+            "name": target.metadata.get("name") or slug,
+            "thumb": imgs[0]["src"] if imgs else None,
+            "monogram": mono,
+            "evidence": ev_label,
+            "note": note,
+            "order": idx,
+            "segs": segs,
+        })
+    tiers = []
+    for key in _TIER_ORDER:
+        rows = buckets[key]
+        if not rows:
+            continue
+        rows.sort(key=lambda r: (-r["segs"], r["order"]))
+        tiers.append({"key": key, "label": _TIER_LABEL.get(key, "Unrated"), "items": rows})
+    return {"title": tl.get("title") or "", "by": tl.get("by") or "",
+            "tiers": tiers, "missing": missing}
+
+
 def routine_summary(profile, by_slug):
     """Build the at-a-glance dashboard model for a routine list, or None if the
     profile is not a routine with steps. Reads each step's product frontmatter

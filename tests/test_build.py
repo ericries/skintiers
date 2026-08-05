@@ -572,3 +572,51 @@ def test_entity_tier_from_grades_and_overrides():
     # unknown alias -> unrated; nothing to derive -> unrated
     assert et({"tier": "bogus"}) is None
     assert et({}) is None
+
+
+def test_tier_list_view_groups_orders_and_reports_missing():
+    sys.path.insert(0, str(ROOT))
+    import build, frontmatter
+
+    def post(md):
+        return frontmatter.loads(md)
+
+    def graded(slug, effect, name):
+        return post(
+            f"---\nname: {name}\nslug: {slug}\ntype: product\nstatus: published\n"
+            f"grades:\n- effect: {effect}\n  evidence: solid\n  use: X (health)\n---\nBody.\n"
+        )
+
+    by_slug = {
+        "aa": graded("aa", "strong", "Alpha"),     # best, segs 4
+        "bb": graded("bb", "modest", "Bravo"),     # mid, segs 2
+        "cc": graded("cc", "notable", "Charlie"),  # good, segs 3
+        "dd": post("---\nname: Delta\nslug: dd\ntype: product\nstatus: draft\n---\nBody.\n"),  # not published
+    }
+    page = post(
+        "---\nname: List\nslug: list\ntype: list\nstatus: published\n"
+        "tier_list:\n"
+        "  title: Test ranking\n"
+        "  by: overall evidence\n"
+        "  items:\n"
+        "  - aa\n"
+        "  - slug: bb\n    note: gentle pick\n    tier: strong\n"   # override -> good
+        "  - cc\n"
+        "  - dd\n"                                                    # unpublished -> missing
+        "  - nope\n"                                                  # unknown -> missing
+        "---\nBody.\n"
+    )
+    v = build.tier_list_view(page, by_slug)
+    assert v["title"] == "Test ranking" and v["by"] == "overall evidence"
+    assert v["missing"] == ["dd", "nope"]
+    keys = [t["key"] for t in v["tiers"]]
+    assert keys == ["best", "good"]                     # empty tiers omitted, best-first
+    best = v["tiers"][0]
+    assert [i["slug"] for i in best["items"]] == ["aa"]
+    good = v["tiers"][1]
+    # cc (notable, segs 3) sorts above bb (override, segs 2) within the good tier
+    assert [i["slug"] for i in good["items"]] == ["cc", "bb"]
+    bb = [i for i in good["items"] if i["slug"] == "bb"][0]
+    assert bb["note"] == "gentle pick" and bb["evidence"] == "Solid"
+    # no tier_list -> None
+    assert build.tier_list_view(post("---\nname: X\nslug: x\ntype: list\n---\nB.\n"), by_slug) is None
