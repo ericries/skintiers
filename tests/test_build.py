@@ -449,6 +449,23 @@ def test_gen_icon_is_deterministic_svg():
     assert "hsl(" in a                              # hue-derived gradient
 
 
+def test_profile_pages_have_open_graph_meta(tmp_path):
+    data = tmp_path / "data"
+    out = tmp_path / "_site"
+    _write(data / "ingredients", "niacinamide", "published", "ingredient",
+           "Niacinamide is a well-studied form of vitamin B3 with real barrier benefits.\n")
+    env = {**os.environ, "SK_DATA": str(data), "SK_OUTPUT": str(out)}
+    r = subprocess.run([sys.executable, str(ROOT / "build.py")], env=env,
+                       capture_output=True, text=True)
+    assert r.returncode == 0, r.stderr
+    html = (out / "niacinamide.html").read_text()
+    assert '<meta property="og:title" content="Niacinamide' in html
+    assert '<meta property="og:type" content="article">' in html
+    assert '<meta property="og:url" content="https://ericries.github.io/skintiers/niacinamide.html">' in html
+    assert '<link rel="canonical" href="https://ericries.github.io/skintiers/niacinamide.html">' in html
+    assert 'property="og:description" content="Niacinamide is a well-studied' in html
+
+
 def test_whats_new_is_auto_derived_page_list(tmp_path):
     # What's New is a newest-first list of published pages (by `updated`), NOT a changelog.
     pdir = tmp_path / "data" / "products"

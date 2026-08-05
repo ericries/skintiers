@@ -460,6 +460,16 @@ def routine_summary(profile, by_slug):
     }
 
 
+def _plain_excerpt(html, limit=200):
+    """Plain-text, whitespace-collapsed excerpt of rendered HTML, for og:description /
+    meta description. Truncated at `limit` on a word boundary."""
+    text = _htmllib.unescape(re.sub(r"<[^>]+>", "", html or ""))
+    text = re.sub(r"\s+", " ", text).strip()
+    if len(text) <= limit:
+        return text
+    return text[:limit].rsplit(" ", 1)[0].rstrip(" ,;:") + "…"
+
+
 def routine_builder_path(routine, code_map):
     """The builder URL path (r1/a.../p...) for a curated routine's AM/PM products, so a
     reader can open it in the interactive builder and fork it. Weekly steps are omitted
@@ -817,6 +827,9 @@ def build():
         cvids = creator_videos.get(p["slug"], []) if p.get("type") == "person" else []
         html = env.get_template("profile.html").render(
             profile=p.metadata,
+            page_url=f"{SITE_URL}/{p['slug']}.html",
+            page_desc=_plain_excerpt(standfirst),
+            og_type="article",
             standfirst=standfirst,
             body_main=body_main,
             sources_html=sources_html,
