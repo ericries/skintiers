@@ -412,3 +412,15 @@
   status: pending
   discovered_from: null
   source: https://www.ncbi.nlm.nih.gov/books/NBK545171/
+- name: ivermectin
+  type: ingredient
+  priority: 6
+  status: pending
+  discovered_from: null
+  source: Soolantra active
+- name: hypochlorous-acid
+  type: ingredient
+  priority: 6
+  status: pending
+  discovered_from: null
+  source: Prequel Universal Skin Solution active

@@ -277,3 +277,23 @@ Open questions for the brainstorm: which platforms/how to access transcripts wit
 credibility rubric and who is on the seed list; how aggressively to auto-reject vs. queue-for-human-review;
 how to attribute without over-reproducing copyrighted video. Anti-hallucination spine is unchanged: the
 expert lends credibility and discovery, but claims are still verified against primary sources, not the video.
+
+## FUTURE PHASE (requested 2026-08-04): compound / generic "combination" products
+User direction, NOT yet built: add a way to represent a COMPOUND (generic) product — e.g. a compounding-
+pharmacy cream that combines two or more actives (the motivating example: a tretinoin + azelaic acid cream).
+Unlike a branded SKU, a compound has no single brand/price/INCI; it is defined by its actives and their
+strengths. Scope for a later brainstorm -> spec -> plan. Sketch of the open questions:
+
+1. **Data model.** A `product` variant (e.g. `kind: compound`) whose identity is its active list + strengths
+   rather than a brand SKU. Frontmatter like `actives: [{ingredient: tretinoin, strength: "0.05%"},
+   {ingredient: azelaic-acid, strength: "15%"}]`. No single price; note it is compounded/prescription.
+2. **Grades.** Its evidence is the union/interaction of its actives' own graded evidence (lean on the existing
+   per-active grades + the ingredient pages), NOT a product-specific trial (compounds are rarely trialed).
+   Be explicit that combining actives is an inference from each active, and flag interaction/irritation risk.
+3. **Routine-builder grammar.** Give compounds a code in the product registry so they slot into a routine
+   like any product. Decide whether the builder shows the combined actives (it already de-dupes/aggregates
+   actives across steps, so a compound would contribute both). Possibly a distinct badge so users see it is a
+   generic/compound, not a specific SKU.
+4. **Anti-hallucination.** A compound must not imply a branded product exists. Present it as a generic formula
+   ("a compounded tretinoin + azelaic acid cream"), cite each active's evidence, and never invent a price,
+   brand, or trial for the combination itself.

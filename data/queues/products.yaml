@@ -508,3 +508,45 @@
   status: pending
   discovered_from: null
   source: https://www.loreal.com/en/luxe-division/youth-to-the-people/
+- name: Soolantra (Ivermectin 1% Cream)
+  type: product
+  priority: 8
+  status: pending
+  discovered_from: null
+  source: user request 2026-08-04
+- name: Prequel Gleanser (Glycerin Cleanser)
+  type: product
+  priority: 7
+  status: pending
+  discovered_from: null
+  source: Prequel NRS Seal of Acceptance (user request 2026-08-04)
+- name: Prequel Redness Reform Serum
+  type: product
+  priority: 7
+  status: pending
+  discovered_from: null
+  source: Prequel NRS Seal of Acceptance (user request 2026-08-04)
+- name: Prequel AM/PM Modern Moisturizer
+  type: product
+  priority: 7
+  status: pending
+  discovered_from: null
+  source: Prequel NRS Seal of Acceptance (user request 2026-08-04)
+- name: Prequel Universal Skin Solution
+  type: product
+  priority: 7
+  status: pending
+  discovered_from: null
+  source: Prequel NRS Seal of Acceptance (user request 2026-08-04)
+- name: Prequel Sun Barrier Mineral Sunscreen
+  type: product
+  priority: 7
+  status: pending
+  discovered_from: null
+  source: Prequel NRS Seal of Acceptance (user request 2026-08-04)
+- name: Prequel Skin Utility Gel
+  type: product
+  priority: 7
+  status: pending
+  discovered_from: null
+  source: Prequel NRS Seal of Acceptance (user request 2026-08-04)
