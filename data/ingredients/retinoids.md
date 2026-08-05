@@ -13,6 +13,15 @@ videos:
 name: Retinoids
 slug: retinoids
 status: published
+tier_list:
+  title: "Retinoids by evidence"
+  by: "overall strength of evidence for anti-aging and acne"
+  items:
+    - tretinoin
+    - adapalene
+    - retinol
+    - retinaldehyde
+    - bakuchiol
 type: ingredient
 updated: '2026-07-27'
 ---

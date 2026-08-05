@@ -650,3 +650,20 @@ def test_tier_list_section_renders_on_a_page(tmp_path):
     assert "ghost" not in html                               # unknown item not shown
     # a page WITHOUT tier_list renders no such section
     assert 'class="tierlist"' not in (out / "alpha.html").read_text()
+
+
+def test_real_tier_list_pages_build(tmp_path):
+    # The real data set must build with the tier-list sections present and no
+    # items landing in `missing` (all referenced slugs exist + are published).
+    out = tmp_path / "_site"
+    env = {**os.environ, "SK_OUTPUT": str(out)}   # SK_DATA defaults to ./data
+    r = subprocess.run([sys.executable, str(ROOT / "build.py")], env=env,
+                       capture_output=True, text=True, cwd=str(ROOT))
+    assert r.returncode == 0, r.stderr
+    for slug in ("best-vitamin-c-serums", "best-peptide-serums", "retinoids"):
+        html = (out / f"{slug}.html").read_text()
+        assert 'class="tierlist"' in html, slug
+    vitc = (out / "best-vitamin-c-serums.html").read_text()
+    assert 'href="skinceuticals-c-e-ferulic.html"' in vitc
+    retin = (out / "retinoids.html").read_text()
+    assert 'href="tretinoin.html"' in retin and "Retinoids by evidence" in retin

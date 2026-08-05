@@ -6,6 +6,16 @@ name: The Best Vitamin C Serums, Compared
 slug: best-vitamin-c-serums
 status: published
 type: list
+tier_list:
+  title: "Vitamin C serums by evidence"
+  by: "overall evidence for the product's stated skin benefits"
+  items:
+    - skinceuticals-c-e-ferulic
+    - maelove-the-glow-maker
+    - timeless-20-vitamin-c-e-ferulic-serum
+    - beauty-of-joseon-light-on-serum-centella-vita-c
+    - prequel-lucent-c-vitamin-c-serum
+    - trader-joes-nourish-vitamins-c-e-facial-serum
 updated: '2026-08-03'
 ---
 

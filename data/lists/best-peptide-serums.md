@@ -6,6 +6,13 @@ name: The Best Peptide Serums, and What the Evidence Actually Shows
 slug: best-peptide-serums
 status: published
 type: list
+tier_list:
+  title: "Peptide serums by evidence"
+  by: "overall evidence for the product's stated skin benefits"
+  items:
+    - the-ordinary-multi-peptide-copper-peptides-serum
+    - the-ordinary-multi-peptide-ha-serum
+    - cosrx-6-peptide-skin-booster-serum
 updated: '2026-08-04'
 ---
 

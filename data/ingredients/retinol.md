@@ -4,6 +4,7 @@ assurance: opus
 name: Retinol
 slug: retinol
 status: published
+tier: moderate
 type: ingredient
 updated: '2026-07-28'
 ---
