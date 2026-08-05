@@ -549,3 +549,26 @@ def test_video_embed_helper():
     tt = build.video_embed("https://www.tiktok.com/@x/video/7178297870498483457")
     assert tt["kind"] == "tiktok" and tt["id"] == "7178297870498483457"
     assert build.video_embed("https://example.com/not-a-video") is None
+
+
+def test_entity_tier_from_grades_and_overrides():
+    sys.path.insert(0, str(ROOT))
+    import build
+    et = build.entity_tier
+    # strong effect + solid evidence -> top tier
+    assert et({"grades": [{"effect": "strong", "evidence": "solid", "use": "X (health)"}]}) == "best"
+    # strong effect but THIN evidence -> demoted one step -> good
+    assert et({"grades": [{"effect": "strong", "evidence": "preliminary", "use": "X (health)"}]}) == "good"
+    assert et({"grades": [{"effect": "modest", "evidence": "solid", "use": "X (health)"}]}) == "mid"
+    assert et({"grades": [{"effect": "minimal", "evidence": "solid", "use": "X (health)"}]}) == "weak"
+    # picks the best HEALTH grade, ignoring a stronger non-health grade
+    assert et({"grades": [
+        {"effect": "strong", "evidence": "solid", "use": "Cosmetic shine"},
+        {"effect": "modest", "evidence": "solid", "use": "Barrier (health)"},
+    ]}) == "mid"
+    # page-level summary `tier:` (ingredient hubs, no grades) wins, accepts words
+    assert et({"tier": "strong"}) == "good"
+    assert et({"tier": "Top-evidenced"}) == "best"
+    # unknown alias -> unrated; nothing to derive -> unrated
+    assert et({"tier": "bogus"}) is None
+    assert et({}) is None

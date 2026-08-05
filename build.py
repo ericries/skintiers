@@ -336,6 +336,71 @@ def _top_health_effect(metadata):
     return best_word
 
 
+# --- Evidence tiers (tier lists / rankings) -------------------------------
+# One coarse evidence tier per entity, reused by tier-list pages. Products
+# derive it from their `grades:`; pages that grade in prose (ingredient hubs)
+# carry an explicit summary `tier:` field. Keys match the --tier-* CSS vars.
+_TIER_LABELS = (
+    ("best", "Top-evidenced"),
+    ("good", "Strong"),
+    ("mid", "Moderate"),
+    ("weak", "Minimal"),
+)
+_TIER_LABEL = dict(_TIER_LABELS)
+# Accepted manual / page-level tier spellings -> canonical key.
+_TIER_ALIASES = {
+    "top": "best", "best": "best", "top-evidenced": "best",
+    "strong": "good", "good": "good",
+    "moderate": "mid", "mid": "mid",
+    "minimal": "weak", "weak": "weak",
+}
+_THIN_EVIDENCE = {"anecdotal", "preliminary"}
+
+
+def _best_health_grade(metadata):
+    """(effect_segs, evidence_word) of the HEALTH grade with the best effect,
+    or None if the page has no grades. Mirrors _top_health_effect's health-first
+    selection so a tier agrees with the routine dashboards."""
+    grades = metadata.get("grades") or []
+    if not grades:
+        return None
+    health = [g for g in grades if "(health)" in (g.get("use") or "").lower()]
+    pool = health or grades
+    best = None
+    for g in pool:
+        segs = EFFECT_SEGS.get((g.get("effect") or "").lower(), 0)
+        if best is None or segs > best[0]:
+            best = (segs, (g.get("evidence") or "").lower())
+    return best
+
+
+def _segs_to_tier(segs):
+    if segs >= 4:
+        return "best"
+    if segs == 3:
+        return "good"
+    if segs == 2:
+        return "mid"
+    return "weak"
+
+
+def entity_tier(metadata):
+    """A single evidence tier key for a page, or None (unrated).
+    Precedence: explicit page-level `tier:` (e.g. ingredient hubs that grade in
+    prose) -> derived from `grades:`, demoting one segment for thin
+    (anecdotal/preliminary) evidence -> None."""
+    manual = (metadata.get("tier") or "").strip().lower()
+    if manual:
+        return _TIER_ALIASES.get(manual)          # unknown spelling -> None (unrated)
+    best = _best_health_grade(metadata)
+    if best is None:
+        return None
+    segs, evidence = best
+    if evidence in _THIN_EVIDENCE:
+        segs = max(0, segs - 1)
+    return _segs_to_tier(segs)
+
+
 def routine_summary(profile, by_slug):
     """Build the at-a-glance dashboard model for a routine list, or None if the
     profile is not a routine with steps. Reads each step's product frontmatter
