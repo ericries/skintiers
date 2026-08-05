@@ -623,27 +623,38 @@ def _date_label(iso):
     return f"{MONTHS[mo - 1]} {d}, {y}" if 1 <= mo <= 12 else str(iso)
 
 
-def changelog_groups_for(path, published):
-    """Read data/changelog.yaml (a flat, newest-first list of {date, title, slug?})
-    and group consecutive entries by date for rendering. A slug that names a
-    published profile becomes a link; anything else renders as plain text."""
-    import yaml
-    if not path.exists():
-        return []
-    entries = yaml.safe_load(path.read_text()) or []
-    groups, cur = [], None
-    for e in entries:
-        if not isinstance(e, dict) or not e.get("title"):
+_TYPE_SINGULAR = {"product": "Product", "ingredient": "Ingredient", "condition": "Condition",
+                  "goal": "Goal", "study": "Study", "list": "List", "person": "Person", "brand": "Brand"}
+
+
+def recent_pages(profiles, limit=200):
+    """Newest-first list of published pages, keyed off each page's `updated` date. This
+    is the auto-derived 'What's New' - a list of recently added/updated pages, not a
+    hand-kept changelog (git history is the changelog)."""
+    items = []
+    for p in profiles:
+        if p.get("status") != "published":
             continue
-        date = str(e.get("date", ""))
-        slug = e.get("slug")
-        href = f"{slug}.html" if slug and slug in published else None
-        item = {"title": e["title"], "href": href}
-        if cur is None or cur["date"] != date:
-            cur = {"date": date, "date_label": _date_label(date), "entries": [item]}
+        upd = p.metadata.get("updated")
+        if not upd:
+            continue
+        items.append({"slug": p["slug"], "name": p.metadata.get("name") or p["slug"],
+                      "type": p.get("type"),
+                      "type_label": _TYPE_SINGULAR.get(p.get("type"), (p.get("type") or "").title()),
+                      "date": str(upd)})
+    items.sort(key=lambda d: (d["date"], d["name"].lower()), reverse=True)
+    return items[:limit]
+
+
+def recent_pages_grouped(pages):
+    """Group a recent_pages() list into [{date, date_label, entries}] by day, newest first."""
+    groups, cur = [], None
+    for it in pages:
+        if cur is None or cur["date"] != it["date"]:
+            cur = {"date": it["date"], "date_label": _date_label(it["date"]), "entries": [it]}
             groups.append(cur)
         else:
-            cur["entries"].append(item)
+            cur["entries"].append(it)
     return groups
 
 
@@ -672,18 +683,16 @@ FEED_DESC = "Recently added and updated pages on SkinTiers, a skeptical, evidenc
 FEED_LIMIT = 50
 
 
-def _feed_items(entries, published):
-    """Normalize newest-first changelog entries to feed items (capped at FEED_LIMIT).
-    A slug that names an existing page links to it; otherwise the item points at the
-    What's New page. Each id is stable per (date, title) so readers don't re-notify."""
+def _feed_items(pages):
+    """Feed items from the newest-first recent_pages() list (capped at FEED_LIMIT). Each
+    item links its page; the id is stable per (slug, updated) so readers don't re-notify
+    until the page actually changes date."""
     items = []
-    for e in entries:
-        if not isinstance(e, dict) or not e.get("title"):
-            continue
-        title, date, slug = str(e["title"]), str(e.get("date", "")), e.get("slug")
-        url = f"{SITE_URL}/{slug}.html" if slug and slug in published else f"{SITE_URL}/whats-new.html"
-        uid = f"{SITE_URL}/#{date}-{hashlib.sha1(title.encode('utf-8')).hexdigest()[:12]}"
-        items.append({"title": title, "date": date, "url": url, "id": uid})
+    for pg in pages:
+        title = f"{pg['type_label']}: {pg['name']}"
+        url = f"{SITE_URL}/{pg['slug']}.html"
+        uid = f"{SITE_URL}/#{pg['date']}-{hashlib.sha1(pg['slug'].encode('utf-8')).hexdigest()[:12]}"
+        items.append({"title": title, "date": pg["date"], "url": url, "id": uid})
         if len(items) >= FEED_LIMIT:
             break
     return items
@@ -696,13 +705,13 @@ def _rfc822(date_str):
         return ""
 
 
-def render_rss(entries, published):
-    """RSS 2.0 XML string of the recent changelog."""
+def render_rss(pages):
+    """RSS 2.0 XML string of recently added/updated pages."""
     out = ['<?xml version="1.0" encoding="UTF-8"?>', '<rss version="2.0"><channel>',
            f"<title>{_htmllib.escape(FEED_TITLE)}</title>", f"<link>{SITE_URL}/</link>",
            f"<description>{_htmllib.escape(FEED_DESC)}</description>",
            f'<atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="{SITE_URL}/feed.xml" rel="self" type="application/rss+xml"/>']
-    for it in _feed_items(entries, published):
+    for it in _feed_items(pages):
         out.append("<item>")
         out.append(f"<title>{_htmllib.escape(it['title'])}</title>")
         out.append(f"<link>{it['url']}</link>")
@@ -715,8 +724,8 @@ def render_rss(entries, published):
     return "".join(out)
 
 
-def render_json_feed(entries, published):
-    """JSON Feed 1.1 string of the recent changelog."""
+def render_json_feed(pages):
+    """JSON Feed 1.1 string of recently added/updated pages."""
     feed = {
         "version": "https://jsonfeed.org/version/1.1",
         "title": FEED_TITLE, "home_page_url": f"{SITE_URL}/",
@@ -724,7 +733,7 @@ def render_json_feed(entries, published):
         "items": [
             {"id": it["id"], "url": it["url"], "title": it["title"],
              **({"date_published": f"{it['date']}T00:00:00Z"} if it["date"] else {})}
-            for it in _feed_items(entries, published)
+            for it in _feed_items(pages)
         ],
     }
     return json.dumps(feed, ensure_ascii=False, indent=2)
@@ -894,18 +903,15 @@ def build():
     method = env.get_template("method.html").render()
     (out / "method.html").write_text(method)
 
-    # What's New: a date-sorted changelog from data/changelog.yaml, grouped by day.
-    changelog_groups = changelog_groups_for(sklib.ROOT / "data" / "changelog.yaml",
-                                             published=set(slugs))
-    whats_new = env.get_template("whats_new.html").render(groups=changelog_groups)
-    (out / "whats-new.html").write_text(whats_new)
+    # What's New: an auto-derived, newest-first list of published pages (by their
+    # `updated` date), grouped by day. No hand-kept changelog - git is the changelog.
+    recent = recent_pages(profiles)
+    (out / "whats-new.html").write_text(
+        env.get_template("whats_new.html").render(groups=recent_pages_grouped(recent)))
 
-    # Syndication feeds (RSS + JSON) of the same changelog, for subscribers/monitoring.
-    import yaml as _yaml
-    _cl = sklib.ROOT / "data" / "changelog.yaml"
-    _cl_entries = (_yaml.safe_load(_cl.read_text()) or []) if _cl.exists() else []
-    (out / "feed.xml").write_text(render_rss(_cl_entries, set(slugs)))
-    (out / "feed.json").write_text(render_json_feed(_cl_entries, set(slugs)))
+    # Syndication feeds (RSS + JSON) of the same recently added/updated pages.
+    (out / "feed.xml").write_text(render_rss(recent))
+    (out / "feed.json").write_text(render_json_feed(recent))
 
     if sklib.STATIC_DIR.exists():
         for f in sklib.STATIC_DIR.iterdir():

@@ -454,27 +454,30 @@ def test_syndication_feeds_render():
     import xml.dom.minidom as minidom
     sys.path.insert(0, str(ROOT))
     import build
-    entries = [
-        {"date": "2026-08-03", "title": "Added a niacinamide page", "slug": "niacinamide"},
-        {"date": "2026-08-02", "title": "A change with no page"},        # no slug -> What's New
-        {"date": "2026-08-01", "title": "Points at a stub", "slug": "not-published"},
+    # Feeds are built from the recent_pages() list: each item links its own page.
+    pages = [
+        {"slug": "niacinamide", "name": "Niacinamide", "type": "ingredient",
+         "type_label": "Ingredient", "date": "2026-08-03"},
+        {"slug": "cerave-moisturizing-cream", "name": "CeraVe Moisturizing Cream",
+         "type": "product", "type_label": "Product", "date": "2026-08-02"},
     ]
-    published = {"niacinamide"}
-    # RSS: well-formed, links the published page, falls back for the rest.
-    rss = build.render_rss(entries, published)
+    # RSS: well-formed, every item links its page.
+    rss = build.render_rss(pages)
     doc = minidom.parseString(rss)                       # raises if malformed
     items = doc.getElementsByTagName("item")
-    assert len(items) == 3
+    assert len(items) == 2
     links = [i.getElementsByTagName("link")[0].firstChild.data for i in items]
     assert links[0] == "https://ericries.github.io/skintiers/niacinamide.html"
-    assert links[1].endswith("/whats-new.html")          # slugless -> What's New
-    assert links[2].endswith("/whats-new.html")          # unpublished slug -> What's New
-    assert "Mon, 03 Aug 2026" in rss                     # RFC-822 pubDate from the entry date
+    assert links[1] == "https://ericries.github.io/skintiers/cerave-moisturizing-cream.html"
+    titles = [i.getElementsByTagName("title")[0].firstChild.data for i in items]  # each item's own title
+    assert titles[0] == "Ingredient: Niacinamide"
+    assert "Mon, 03 Aug 2026" in rss                     # RFC-822 pubDate from the page's updated date
     # JSON Feed 1.1: valid, same items.
-    feed = json.loads(build.render_json_feed(entries, published))
+    feed = json.loads(build.render_json_feed(pages))
     assert feed["version"] == "https://jsonfeed.org/version/1.1"
-    assert len(feed["items"]) == 3
+    assert len(feed["items"]) == 2
     assert feed["items"][0]["url"] == "https://ericries.github.io/skintiers/niacinamide.html"
+    assert feed["items"][0]["title"] == "Ingredient: Niacinamide"
     assert feed["items"][0]["date_published"] == "2026-08-03T00:00:00Z"
 
 

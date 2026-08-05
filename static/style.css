@@ -299,3 +299,10 @@ footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;
 @media (prefers-color-scheme: dark) {
   .ri-card { border-color: #333; background: #1b1b1d; }
 }
+
+/* What's New: auto-derived list of recently added/updated pages */
+.whatsnew .wn-day { margin-bottom: 1.1rem; }
+.wn-date { font-size: 1rem; margin: 0 0 .3rem; }
+.wn-list { list-style: none; padding: 0; margin: 0; }
+.wn-list li { padding: .2rem 0; display: flex; gap: .6rem; align-items: baseline; }
+.wn-type { flex: 0 0 5.5em; font-size: .72rem; text-transform: uppercase; letter-spacing: .04em; color: var(--muted, #6b6459); }

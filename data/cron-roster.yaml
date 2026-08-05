@@ -21,8 +21,8 @@ _fill_template: |
   quote that has neither a cache entry nor a successful re-fetch. Keep status:draft during work; publish only
   once sk lint+verify+style are clean {PUBLISH}. Record the review in data/review-log.yaml. STEP 2 (main loop,
   no subagent): add 2-5 REAL grounded candidates (name + source) to OTHER type queues via `sk queue-add`. Then
-  commit the shipped page, `sk log` a What's New line, build, and push (git pull --rebase then push if
-  rejected). One-line summary.
+  commit the shipped page, build, and push (git pull --rebase then push if rejected). One-line summary. (What's
+  New is auto-derived from each page's `updated` date - do NOT run `sk log`; there is no changelog.)
 
 crons:
   - cron: "41 */6 * * *"

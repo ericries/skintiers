@@ -6,17 +6,17 @@
   <div class="masthead">
     <div>
       <h1>What's new</h1>
-      <p class="standfirst">A running log of what has changed on the site, newest first.</p>
+      <p class="standfirst">Recently added and updated pages, newest first.</p>
     </div>
   </div>
 
-  <section class="prose changelog">
+  <section class="prose whatsnew">
     {% for group in groups %}
-    <div class="changelog-day">
-      <h2 class="changelog-date" id="d-{{ group.date }}">{{ group.date_label }}</h2>
-      <ul class="changelog-list">
+    <div class="wn-day">
+      <h2 class="wn-date" id="d-{{ group.date }}">{{ group.date_label }}</h2>
+      <ul class="wn-list">
         {% for e in group.entries %}
-        <li>{% if e.href %}<a href="{{ e.href }}">{{ e.title }}</a>{% else %}{{ e.title }}{% endif %}</li>
+        <li><span class="wn-type wn-type-{{ e.type }}">{{ e.type_label }}</span> <a href="{{ e.slug }}.html">{{ e.name }}</a></li>
         {% endfor %}
       </ul>
     </div>
