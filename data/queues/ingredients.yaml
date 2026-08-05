@@ -454,3 +454,9 @@
   status: pending
   discovered_from: null
   source: https://www.klairscosmetics.com/product/egf-blue-youth-activating-drop/
+- name: Copper peptides (GHK-Cu)
+  type: ingredient
+  priority: 7
+  status: pending
+  discovered_from: null
+  source: data/lists/best-peptide-serums.md

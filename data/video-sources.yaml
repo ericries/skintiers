@@ -33,3 +33,9 @@
   channel: https://www.tiktok.com/@kristingl
   conflict: runs an Amazon affiliate storefront and does sponsored posts - strongly prefer her educational / how-to / ingredient-explainer videos; be very cautious with any product recommendation (may be affiliate-driven)
   last_pulled: null
+- name: Ella (@your.estie.ella)
+  creator_slug: your-estie-ella
+  credential: Licensed esthetician (NOT a dermatologist or cosmetic chemist)
+  channel: https://www.tiktok.com/@your.estie.ella
+  conflict: non-credentialed educator (licensed esthetician, Atlanta; reportedly building a medspa) - apply extra per-video credibility scrutiny, prefer educational / how-to content over product picks, and never use sponsored videos
+  last_pulled: null

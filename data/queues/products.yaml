@@ -628,3 +628,15 @@
   status: pending
   discovered_from: null
   source: user request 2026-08-05 (Kristin GL holy-grail video)
+- name: Prequel Urea Repair 10% Moisturizing Milk
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://www.prnewswire.com/news-releases/dr-samantha-ellis-launches-solution-focused-skincare-brand-prequel-301885229.html
+- name: Prequel Skin Utility Ointment
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: null
+  source: https://www.prnewswire.com/news-releases/dr-samantha-ellis-launches-solution-focused-skincare-brand-prequel-301885229.html
