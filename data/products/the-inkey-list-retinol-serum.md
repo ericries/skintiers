@@ -6,19 +6,16 @@ category: Retinoids
 grades:
 - effect: minimal
   evidence: preliminary
-  note: 'health/cosmetic: despite its name, the formula does not declare [[retinol]]
-    itself; its 1% retinyl acetate is a retinyl ester, the weakest OTC retinoid tier,
-    which must first convert to retinol before doing anything, and the one cited human
-    trial of a retinyl ester found no significant improvement over placebo (covered
-    on [[retinyl-esters]]); its labeled 0.5% Granactive Retinoid names a trade-name
-    blend that is 10% hydroxypinacolone retinoate in 90% solvent, so the label implies
-    about 0.05% actual HPR, an ingredient with no cited human trial in isolation (covered
-    on [[hydroxypinacolone-retinoate]]); vs [[trader-joes-retinol-night-serum]] and
-    [[youth-to-the-people-retinal-niacinamide-serum]] (OTC serums built on [[retinol]]
-    and [[retinaldehyde]], each with its own vehicle-controlled trial evidence) and
-    [[tretinoin-0-025-cream]] (Rx retinoic acid, the benchmark every OTC retinoid
-    remains milder than)'
-  use: For photoaging (fine lines, texture) (health/cosmetic)
+  note: 'A gentle, low-irritation retinoid, and that tolerability is the real appeal
+    for sensitive or retinoid-new skin. The grade reflects thin evidence for THIS
+    product, not a verdict on retinoids: the class has strong, well-established
+    photoaging evidence ([[retinoids]]), but that belongs to [[retinol]],
+    [[retinaldehyde]], and prescription [[tretinoin-0-025-cream|tretinoin]], not to
+    the two mild forms here. Its 1% retinyl acetate is the weakest OTC tier
+    ([[retinyl-esters]]) and its labeled 0.5% Granactive Retinoid works out to about
+    0.05% [[hydroxypinacolone-retinoate|hydroxypinacolone retinoate]]; both are barely
+    tested in isolation, so what is thin is the evidence for these specific forms.'
+  use: 'For photoaging (fine lines, texture): a gentle, entry-level retinoid (health/cosmetic)'
 key_actives:
 - retinyl-esters
 - hydroxypinacolone-retinoate
@@ -31,7 +28,7 @@ updated: '2026-08-05'
 
 The INKEY List Retinol Serum is a 30 ml leave-on serum from [[the-inkey-list]], a British direct-to-consumer brand, priced at $15.00 (EUR15,00 on the brand's EU site).[^inkeyeu][^inkeyus2025]
 
-> Despite its name, this $15 serum does not declare [[retinol]] itself. Its two named actives are 1% retinyl acetate, a retinyl ester that must first convert to retinol before it does anything, and a labeled 0.5% "Granactive Retinoid," a trade-name blend that works out to roughly 0.05% actual hydroxypinacolone retinoate.[^inkeyus2025][^inkeyeu] Both sit below the [[retinol]]-based serums already covered on the site, and the one human trial of an isolated retinyl ester found no significant benefit over placebo (see [The Evidence](#the-evidence)). The brand has discontinued this exact formula in the US, where the URL now redirects to its general skincare collection and the brand points beginners to a newer Starter Retinol Serum, though the formula remains listed on the brand's EU site as of the access date below.[^starterfaq][^inkeyeu]
+> A cheap, gentle, beginner-oriented retinoid, and that low-irritation appeal is real: for sensitive or retinoid-new skin, a milder form is often what makes sticking with a retinoid possible at all. Two things are worth knowing before you buy. First, despite the "Retinol Serum" name it contains no [[retinol]]; its actives are 1% retinyl acetate, the gentlest and least-converted retinoid tier, and a labeled 0.5% "Granactive Retinoid," about 0.05% actual hydroxypinacolone retinoate.[^inkeyus2025][^inkeyeu] The strong photoaging evidence people associate with the word "retinol" belongs to [[retinol]], [[retinaldehyde]], and prescription retinoids, not to these two forms, whose own direct evidence is thin: the trade-off is tolerability bought at the price of potency and proof (see [The Evidence](#the-evidence)). Second, the brand has discontinued this exact formula in the US, where the URL now redirects to its general skincare collection and the brand points beginners to a newer Starter Retinol Serum, though the formula remains listed on the brand's EU site as of the access date below.[^starterfaq][^inkeyeu]
 
 ## Summary
 
@@ -41,17 +38,17 @@ What the label actually declares is two ingredients, neither of which is [[retin
 
 The brand's own directions state: "Only use Retinol Serum in your PM skincare routine," applied as "a pea-sized amount," and "Start off using it 1-2 times per week and increase gradually if your skin can tolerate more frequent use," followed by a moisturizer, with sunscreen "as the last step" of the morning routine.[^inkeyus2025]
 
-The main catch is availability and naming. The identical formula (same 1% retinyl acetate, 0.5% Granactive Retinoid, and price) is still sold on the brand's EU site as "Retinol Serum," but the brand's US site now redirects the same URL to its general skincare collection, and the FAQ for its newer Starter Retinol Serum states plainly: "Yes, the original INKEY Retinol has been discontinued."[^starterfaq][^inkeyeu] Against the category evidence set out on [[retinol]] and [[retinoids]], and against the retinol- and retinaldehyde-based serums already covered on this site, this formula's two declared actives sit at the weakest, thinnest-evidenced end of the over-the-counter retinoid class.
+The main catch is availability and naming. The identical formula (same 1% retinyl acetate, 0.5% Granactive Retinoid, and price) is still sold on the brand's EU site as "Retinol Serum," but the brand's US site now redirects the same URL to its general skincare collection, and the FAQ for its newer Starter Retinol Serum states plainly: "Yes, the original INKEY Retinol has been discontinued."[^starterfaq][^inkeyeu] Against the category evidence set out on [[retinol]] and [[retinoids]], and against the retinol- and retinaldehyde-based serums already covered on this site, this formula's two declared actives sit at the gentlest, least-irritating end of the over-the-counter retinoid class, which is also its weakest and least-proven: a reasonable, low-sting entry point for someone new to retinoids, but not the form to choose if the goal is the best-evidenced result.
 
 ## The Evidence
 
-Whether topical retinoids improve photoaged skin at all is the general question covered on [[retinoids]] and [[retinol]]: vehicle-controlled trials support gradual improvement in fine wrinkles and pigment from [[retinol]] itself, the most-studied over-the-counter form. This product's two declared actives sit below that benchmark. Retinyl esters, the class retinyl acetate belongs to, are graded on [[retinyl-esters]]: because an ester must first be cleaved to retinol before it can act, the class underperforms retinol and retinoic acid on anti-wrinkle measures, and the one controlled human trial of an isolated retinyl ester found no statistically significant improvement over placebo on any evaluated measure of photoaging. No trial isolates retinyl acetate specifically.
+Whether topical retinoids improve photoaged skin at all is the general question covered on [[retinoids]] and [[retinol]]: vehicle-controlled trials support gradual improvement in fine wrinkles and pigment from [[retinol]] itself, the most-studied over-the-counter form. This product's two declared actives sit below that benchmark. Retinyl esters, the class retinyl acetate belongs to, are graded on [[retinyl-esters]]: because an ester must first be cleaved to retinol before it can act, the class underperforms retinol and retinoic acid on anti-wrinkle measures, and the one controlled human trial of an isolated retinyl ester found no statistically significant improvement over placebo on any evaluated measure of photoaging. No trial we located isolates retinyl acetate specifically.
 
 Hydroxypinacolone retinoate is graded on [[hydroxypinacolone-retinoate]]. An in-vitro human fibroblast study found HPR combined with retinyl propionate raised expression of collagen and retinoid-pathway genes, a laboratory result consistent with retinoid-receptor activity but not a clinical outcome. Every located human study of HPR tests it inside a multi-ingredient formula alongside retinol or peptides, so no controlled human trial isolates HPR's own effect, and its standalone efficacy relative to established retinoids such as [[tretinoin]] or [[retinol]] is unresolved.
 
 > **Bottom line.** Neither ingredient this serum declares has controlled human trial evidence of its own showing a photoaging benefit in isolation: retinyl esters have one negative isolated trial, and HPR's human data all come from combination formulas.
 
-No published trial tests this exact serum or its specific 1% retinyl acetate / 0.5% Granactive Retinoid combination.[^inkeyus2025]
+We found no published trial of this exact serum, or of its specific 1% retinyl acetate / 0.5% Granactive Retinoid combination, in the sources reviewed here. That is an absence of located evidence, not proof that none exists; a small brand-run or unpublished study could sit outside what a search surfaces.[^inkeyus2025]
 
 ## What's In It
 
