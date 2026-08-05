@@ -460,6 +460,28 @@ def routine_summary(profile, by_slug):
     }
 
 
+def render_og_image(og_dir, name, title, subtitle):
+    """Write a 1200x630 branded share card PNG (og_dir/<name>.png) for rich link
+    previews. Uses Pillow's scalable default font (no bundled TTF needed)."""
+    import textwrap
+
+    from PIL import Image, ImageDraw, ImageFont
+    W, H = 1200, 630
+    img = Image.new("RGB", (W, H), (245, 242, 236))
+    d = ImageDraw.Draw(img)
+    d.rectangle([0, 0, W, 16], fill=(47, 125, 79))
+    d.text((64, 66), "SkinTiers", font=ImageFont.load_default(size=30), fill=(122, 112, 96))
+    title_font = ImageFont.load_default(size=62)
+    y = 168
+    for line in textwrap.wrap(title, width=24)[:4]:
+        d.text((64, y), line, font=title_font, fill=(35, 32, 27))
+        y += 76
+    if subtitle:
+        d.text((64, H - 92), subtitle, font=ImageFont.load_default(size=32), fill=(92, 84, 72))
+    og_dir.mkdir(parents=True, exist_ok=True)
+    img.save(og_dir / f"{name}.png")
+
+
 def _plain_excerpt(html, limit=200):
     """Plain-text, whitespace-collapsed excerpt of rendered HTML, for og:description /
     meta description. Truncated at `limit` on a word boundary."""
@@ -580,6 +602,8 @@ def gen_icon(seed, monogram="", label=None):
     hue = int(h[:2], 16) * 360 // 256
     hue2 = (hue + 40) % 360
     gid = "gi" + h[:8]
+    if not monogram:                       # derive initials from the label when none given
+        monogram = "".join(w[0] for w in (label or seed or "").split()[:2] if w).upper()
     mono = _htmllib.escape((monogram or "")[:2])
     aria = _htmllib.escape(label or seed or "")
     return (

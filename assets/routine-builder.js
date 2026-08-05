@@ -203,6 +203,12 @@
       }
 
       document.getElementById('rb-search').addEventListener('input', function (e) { renderResults(e.target.value); });
+      document.getElementById('rb-clear').addEventListener('click', function () {
+        model = { phases: [] };
+        document.getElementById('rb-search').value = '';
+        document.getElementById('rb-results').innerHTML = '';
+        sync();
+      });
       document.getElementById('rb-copy').addEventListener('click', function () {
         navigator.clipboard.writeText(location.href).then(function () {
           document.getElementById('rb-copied').textContent = 'Copied!';

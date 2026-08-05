@@ -306,3 +306,9 @@ footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;
 .wn-list { list-style: none; padding: 0; margin: 0; }
 .wn-list li { padding: .2rem 0; display: flex; gap: .6rem; align-items: baseline; }
 .wn-type { flex: 0 0 5.5em; font-size: .72rem; text-transform: uppercase; letter-spacing: .04em; color: var(--muted, #6b6459); }
+
+/* gen_icon tiles on listing rows (entities without a photo) */
+.listing li { display: flex; align-items: center; gap: .55rem; }
+.listing li .st { margin-left: auto; }
+.li-icon { flex: 0 0 22px; width: 22px; height: 22px; display: block; }
+.li-icon .genicon { width: 100%; height: 100%; border-radius: 6px; }

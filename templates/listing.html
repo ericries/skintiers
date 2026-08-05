@@ -9,14 +9,14 @@
   <h2 class="listing-group">{{ group.label }}</h2>
   <ul class="listing">
   {% for item in group.items %}
-    <li><a href="{{ item.slug }}.html">{{ item.name }}</a><span class="st">{{ item.status }}</span></li>
+    <li>{% if not item.images and not item.image %}<span class="li-icon">{{ gen_icon(item.slug, '', item.name)|safe }}</span>{% endif %}<a href="{{ item.slug }}.html">{{ item.name }}</a><span class="st">{{ item.status }}</span></li>
   {% endfor %}
   </ul>
 {% endfor %}
 {% else %}
 <ul class="listing">
 {% for item in items %}
-  <li><a href="{{ item.slug }}.html">{{ item.name }}</a><span class="st">{{ item.status }}</span></li>
+  <li>{% if not item.images and not item.image %}<span class="li-icon">{{ gen_icon(item.slug, '', item.name)|safe }}</span>{% endif %}<a href="{{ item.slug }}.html">{{ item.name }}</a><span class="st">{{ item.status }}</span></li>
 {% endfor %}
 </ul>
 {% endif %}
