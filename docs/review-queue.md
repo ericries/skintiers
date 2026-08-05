@@ -180,8 +180,11 @@ so those stay auto-synced with no extra fields.
   codec + dashboard mirror routine_string.py / routine_summary, pinned to a shared vectors fixture and verified
   in-browser (search/add/remove, dashboard, and the 404-fallback shared-link pre-load all confirmed). Linked in
   footer nav + a "Build your own" CTA on the routines index. See docs/superpowers/plans/2026-08-04-routine-builder.md.
-  DEFERRED (MVP exclusions; grammar already supports): weekly (`w`) phase, per-product `~N` cadence, step
-  reordering, "open in builder" links on curated routine pages, and OG/share images.
+  DONE 2026-08-04 (feature-complete): weekly (`w`) phase, per-product `~N` cadence (per-step frequency select),
+  and step reordering (up/down) added to the builder UI; "open in builder" links on curated routine pages and
+  generated OG/share images also shipped. The builder now covers the full URL grammar. (routine_builder_path
+  still emits AM/PM only for the curated "open in builder" links, since routine_summary groups steps into
+  AM/PM; extending it to weekly is a minor follow-up.)
 - DONE 2026-08-04: **Generated icons** (SVG, deterministic) — `gen_icon(seed, monogram)` in build.py renders a
   hue-from-slug gradient tile with the monogram, registered as a Jinja global; used on the routines index.
   Broader rollout (condition/ingredient listing cards without photos) is a cheap follow-up.

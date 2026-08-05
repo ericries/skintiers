@@ -19,10 +19,13 @@
     .rb-results { list-style: none; padding: 0; margin: .5rem 0; max-height: 40vh; overflow-y: auto; }
     .rb-results li { display: flex; justify-content: space-between; align-items: center; gap: .5rem; padding: .35rem 0; border-bottom: 1px solid #eee; }
     .rb-results button, .rb-copy { cursor: pointer; padding: .2rem .5rem; }
-    .rb-phases { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-top: 1rem; }
+    .rb-phases { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; margin-top: 1rem; }
     .rb-phase h2 { font-size: 1rem; margin: 0 0 .3rem; }
-    .rb-step { display: flex; align-items: center; gap: .5rem; padding: .3rem 0; }
-    .rb-step span.rb-name { flex: 1; }
+    .rb-step { display: flex; align-items: center; gap: .3rem; padding: .3rem 0; }
+    .rb-step span.rb-name { flex: 1; font-size: .9rem; }
+    .rb-step .rb-freq { font-size: .72rem; padding: .05rem; max-width: 5.2em; }
+    .rb-step button { cursor: pointer; border: none; background: none; padding: 0 .12rem; font-size: .85rem; color: #6b6459; }
+    .rb-step button:hover { color: #23201b; }
     .rb-badge { width: 34px; height: 34px; border-radius: 8px; display: grid; place-items: center; color: #fff; font-size: .75rem; overflow: hidden; flex: 0 0 34px; }
     .rb-badge img { width: 100%; height: 100%; object-fit: cover; }
     .rb-top { background: #2f7d4f; } .rb-mid { background: #b7871f; } .rb-entry { background: #9a938a; }
@@ -38,6 +41,7 @@
   <div class="rb-phases">
     <div class="rb-phase"><h2>AM</h2><div id="rb-am"></div></div>
     <div class="rb-phase"><h2>PM</h2><div id="rb-pm"></div></div>
+    <div class="rb-phase"><h2>Weekly</h2><div id="rb-wk"></div></div>
   </div>
   <div id="rb-dash" class="rb-dash"></div>
   <p><button id="rb-copy" class="rb-copy">Copy link</button> <button id="rb-clear" class="rb-copy">Clear</button> <span id="rb-copied"></span></p>

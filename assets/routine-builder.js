@@ -150,6 +150,20 @@
         return '<span class="rb-badge ' + cls + '">' + inner + '</span>';
       }
 
+      var FREQS = [[7, 'Daily'], [6, '6x/wk'], [5, '5x/wk'], [4, '4x/wk'], [3, '3x/wk'], [2, '2x/wk'], [1, '1x/wk']];
+
+      function move(key, code, dir) {
+        var arr = items(key);
+        for (var i = 0; i < arr.length; i++) {
+          if (arr[i].code === code) {
+            var j = i + dir;
+            if (j >= 0 && j < arr.length) { var t = arr[i]; arr[i] = arr[j]; arr[j] = t; }
+            break;
+          }
+        }
+        sync();
+      }
+
       function renderPhase(key, elId) {
         var el = document.getElementById(elId);
         el.innerHTML = '';
@@ -158,8 +172,18 @@
           if (!p) return;                                   // unknown code -> skip silently
           var row = document.createElement('div');
           row.className = 'rb-step';
-          row.innerHTML = badge(p) + '<span class="rb-name">' + p.n + '</span> <button aria-label="remove">✕</button>';
-          row.querySelector('button').onclick = function () { remove(key, it.code); };
+          var opts = FREQS.map(function (f) {
+            return '<option value="' + f[0] + '"' + (it.freq === f[0] ? ' selected' : '') + '>' + f[1] + '</option>';
+          }).join('');
+          row.innerHTML = badge(p) + '<span class="rb-name">' + p.n + '</span>'
+            + '<select class="rb-freq" aria-label="times per week">' + opts + '</select>'
+            + '<button class="rb-up" aria-label="move up" title="Move up">↑</button>'
+            + '<button class="rb-dn" aria-label="move down" title="Move down">↓</button>'
+            + '<button class="rb-rm" aria-label="remove" title="Remove">✕</button>';
+          row.querySelector('.rb-freq').onchange = function (e) { it.freq = parseInt(e.target.value, 10); sync(); };
+          row.querySelector('.rb-up').onclick = function () { move(key, it.code, -1); };
+          row.querySelector('.rb-dn').onclick = function () { move(key, it.code, 1); };
+          row.querySelector('.rb-rm').onclick = function () { remove(key, it.code); };
           el.appendChild(row);
         });
       }
@@ -185,7 +209,7 @@
           var p = catalog.p[code];
           if ((p.n + ' ' + (p.c || '')).toLowerCase().indexOf(q) === -1) return;
           var li = document.createElement('li');
-          li.innerHTML = '<span>' + p.n + '</span><span><button data-k="am">+ AM</button> <button data-k="pm">+ PM</button></span>';
+          li.innerHTML = '<span>' + p.n + '</span><span><button data-k="am">+ AM</button> <button data-k="pm">+ PM</button> <button data-k="wk">+ Wk</button></span>';
           li.querySelectorAll('button').forEach(function (b) {
             b.onclick = function () { add(b.getAttribute('data-k'), code); };
           });
@@ -199,6 +223,7 @@
         history.replaceState(null, '', document.querySelector('base').getAttribute('href') + path);
         renderPhase('am', 'rb-am');
         renderPhase('pm', 'rb-pm');
+        renderPhase('wk', 'rb-wk');
         renderDash();
       }
 
