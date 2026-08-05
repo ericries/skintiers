@@ -460,6 +460,24 @@ def routine_summary(profile, by_slug):
     }
 
 
+def routine_builder_path(routine, code_map):
+    """The builder URL path (r1/a.../p...) for a curated routine's AM/PM products, so a
+    reader can open it in the interactive builder and fork it. Weekly steps are omitted
+    (the MVP builder is AM/PM). Returns None if no step maps to a coded product."""
+    if not routine:
+        return None
+    phases = []
+    for key, rows in (("am", routine["am"]), ("pm", routine["pm"])):
+        items = []
+        for row in rows:
+            code = code_map.get(row["slug"])
+            if code and not any(it["code"] == code for it in items):
+                items.append({"code": code, "freq": 7})
+        if items:
+            phases.append({"key": key, "items": items})
+    return routine_string.encode({"phases": phases}) if phases else None
+
+
 def routine_catalog(profiles, by_slug, code_map):
     """A hyper-compact, code-keyed catalog the browser routine builder loads once,
     so any routine string (r1.a04...) resolves entirely client-side. Carries only
@@ -803,6 +821,7 @@ def build():
             backref_groups=backref_groups_for(p["slug"], rev_index),
             tier_nav=tier_nav_from_html(body_main),
             routine=routine,
+            builder_url=routine_builder_path(routine, code_map),
             uv_spectrum=uv_spectrum,
             videos=p.metadata.get("videos") or [],
             creator_videos=cvids,

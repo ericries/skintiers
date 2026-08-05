@@ -78,6 +78,9 @@
       </div>
       {% endif %}{% endfor %}
     </div>
+    {% if builder_url %}
+    <p class="rd-builder"><a href="{{ builder_url }}">Open this routine in the builder &rarr;</a></p>
+    {% endif %}
     {% if profile.source %}
     <div class="rd-source"><span class="rd-source-label">Sourced from</span> {% if profile.source.creator_slug %}<a href="{{ profile.source.creator_slug }}.html">{{ profile.source.creator }}</a>{% else %}{{ profile.source.creator }}{% endif %}{% if profile.source.credential %}, {{ profile.source.credential }}{% endif %}{% if profile.source.url %} &middot; <a href="{{ profile.source.url }}" rel="nofollow noopener" target="_blank">{{ profile.source.platform or 'source' }}</a>{% endif %}{% if profile.source.note %}<span class="rd-source-note">{{ profile.source.note }}</span>{% endif %}</div>
     {% endif %}

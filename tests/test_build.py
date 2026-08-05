@@ -319,6 +319,10 @@ def test_routine_dashboard_aggregates_from_products(tmp_path):
     # routines index surfaces the dashboard as a card
     ri = (out / "routines.html").read_text()
     assert "ri-card" in ri and "My Routine" in ri and "genicon" in ri
+    # "Open in builder" link: AM cleanser(0)+treatment(2), PM cream(1) -> r1/a02/p1
+    my = (out / "myroutine.html").read_text()
+    assert "Open this routine in the builder" in my
+    assert 'href="r1/a02/p1"' in my
     assert "Retinoid" in rj["absent"]                    # common actives the routine lacks
     assert "Niacinamide" not in rj["absent"]             # present -> not listed
     assert rj["serves_slugs"] == ["acne"]
