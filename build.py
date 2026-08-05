@@ -519,11 +519,13 @@ def routine_catalog(profiles, by_slug, code_map):
     Short keys keep it small: p[code]={s slug, n name, c category, t tier_key,
     g effect_segs 0-4, a [active slugs], th thumb, m monogram}; i[active]={n name,
     f filter band}; notable=[[label,[member slugs]]] for the "does not contain" line.
-    Only PUBLISHED products are included (the pickable, resolvable set)."""
+    PUBLISHED and STUB products are included, to give the builder a broad universe of
+    real products to pick from; stubs carry name/brand/category/key_actives (the fill
+    crons add grades/evidence later). Draft (mid-research) products are excluded."""
     uv_map = {f[0]: (f[1], f[2], f[3]) for f in UV_FILTERS}
     prods, ings = {}, {}
     for p in profiles:
-        if p.get("type") != "product" or p.get("status") != "published":
+        if p.get("type") != "product" or p.get("status") not in ("published", "stub"):
             continue
         code = code_map.get(p["slug"])
         if not code:

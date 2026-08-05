@@ -437,6 +437,23 @@ def test_routine_builder_page_is_emitted_self_contained(tmp_path):
     assert '<base href="/skintiers/">' in builder              # base href for deep-path links
 
 
+def test_builder_catalog_includes_stub_products(tmp_path):
+    # The builder universe includes published AND stub products (breadth); drafts excluded.
+    import json
+    data = tmp_path / "data"
+    out = tmp_path / "_site"
+    _write(data / "products", "pubprod", "published", "product")
+    _write(data / "products", "stubby", "stub", "product")
+    _write(data / "products", "draftp", "draft", "product")
+    env = {**os.environ, "SK_DATA": str(data), "SK_OUTPUT": str(out)}
+    r = subprocess.run([sys.executable, str(ROOT / "build.py")], env=env, capture_output=True, text=True)
+    assert r.returncode == 0, r.stderr
+    cat = json.loads((out / "routine-catalog.json").read_text())
+    slugs = {p["s"] for p in cat["p"].values()}
+    assert "pubprod" in slugs and "stubby" in slugs        # published + stub are pickable
+    assert "draftp" not in slugs                           # mid-research drafts excluded
+
+
 def test_gen_icon_is_deterministic_svg():
     sys.path.insert(0, str(ROOT))
     import build
