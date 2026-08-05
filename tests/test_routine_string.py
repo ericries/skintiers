@@ -51,6 +51,14 @@ def test_code_may_repeat_across_phases():
     assert rs.codes(rs.parse("r1/a4/p4")) == ["4"]                        # distinct, first-seen
 
 
+def test_python_codec_matches_shared_vectors():
+    import json
+    vectors = json.loads((ROOT / "tests" / "fixtures" / "routine_vectors.json").read_text())
+    for v in vectors:
+        assert rs.parse(v["path"]) == v["model"], f"parse mismatch for {v['path']}"
+        assert rs.encode(v["model"]) == v["path"], f"encode mismatch for {v['path']}"
+
+
 @pytest.mark.parametrize("bad", [
     "r1/a4-",            # non-base62 code char
     "r1/a4~9",           # cadence out of range (7+ is daily/omitted)

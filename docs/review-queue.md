@@ -174,9 +174,14 @@ so those stay auto-synced with no extra fields.
   <= the comma form always (shorter at width 1, ties at width 2) and stays unbounded. HOSTING (static, no server
   rewrites): the builder page doubles as `404.html`; GitHub Pages serves it for any `/r1/...` path, and JS
   reads `location.pathname` + the catalog to render (the response carries a 404 status — fine for humans;
-  put OG tags in it so link previews still work). Remaining: the builder page itself (product picker -> AM/PM
-  steps -> live dashboard, updating the path via history.replaceState, JS codec mirroring routine_string.py
-  against the same vectors) + an "open in builder" link from curated routine pages. Needs its own UI brainstorm.
+  put OG tags in it so link previews still work). DONE 2026-08-04 (MVP): `routine.html` (+ `404.html` copy)
+  is a self-contained page (inlined catalog/CSS/JS, `<base href>`) — search -> add to AM/PM -> live dashboard
+  (strength, layered actives xN, does-not-contain, UVA/UVB) -> URL updated via replaceState + Copy link. JS
+  codec + dashboard mirror routine_string.py / routine_summary, pinned to a shared vectors fixture and verified
+  in-browser (search/add/remove, dashboard, and the 404-fallback shared-link pre-load all confirmed). Linked in
+  footer nav + a "Build your own" CTA on the routines index. See docs/superpowers/plans/2026-08-04-routine-builder.md.
+  DEFERRED (MVP exclusions; grammar already supports): weekly (`w`) phase, per-product `~N` cadence, step
+  reordering, "open in builder" links on curated routine pages, and OG/share images.
 - DONE 2026-08-04: **Generated icons** (SVG, deterministic) — `gen_icon(seed, monogram)` in build.py renders a
   hue-from-slug gradient tile with the monogram, registered as a Jinja global; used on the routines index.
   Broader rollout (condition/ingredient listing cards without photos) is a cheap follow-up.

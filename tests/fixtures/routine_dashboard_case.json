@@ -1,0 +1,28 @@
+{
+  "catalog": {
+    "v": 1,
+    "p": {
+      "0": {"s": "cleanser", "n": "Cleanser", "c": "Cleansers", "t": "entry", "g": 1, "a": [], "th": null, "m": "C"},
+      "1": {"s": "cvit", "n": "C E Ferulic", "c": "Vitamin C serums", "t": "top", "g": 3, "a": ["ascorbic-acid-vitamin-c"], "th": null, "m": "CE"},
+      "2": {"s": "cream", "n": "Moisturizer", "c": "Moisturizers", "t": "top", "g": 3, "a": ["ceramides", "niacinamide"], "th": null, "m": "M"},
+      "3": {"s": "spf", "n": "Sunscreen", "c": "Sunscreens", "t": "top", "g": 3, "a": ["zinc-oxide", "niacinamide"], "th": null, "m": "S"}
+    },
+    "i": {
+      "ascorbic-acid-vitamin-c": {"n": "Vitamin C"},
+      "ceramides": {"n": "Ceramides"},
+      "niacinamide": {"n": "Niacinamide"},
+      "zinc-oxide": {"n": "Zinc oxide", "f": "both"}
+    },
+    "notable": [["Retinoid", ["retinol", "tretinoin"]], ["Vitamin C", ["ascorbic-acid-vitamin-c", "vitamin-c"]], ["Niacinamide", ["niacinamide"]], ["Exfoliant", ["salicylic-acid"]]]
+  },
+  "model": {"phases": [
+    {"key": "am", "items": [{"code": "0", "freq": 7}, {"code": "1", "freq": 7}, {"code": "2", "freq": 7}, {"code": "3", "freq": 7}]},
+    {"key": "pm", "items": [{"code": "0", "freq": 7}, {"code": "2", "freq": 7}]}]},
+  "expected": {
+    "strength": "Solid",
+    "product_count": 4,
+    "ingredients": [{"slug": "niacinamide", "name": "Niacinamide", "count": 2}, {"slug": "ceramides", "name": "Ceramides", "count": 1}, {"slug": "ascorbic-acid-vitamin-c", "name": "Vitamin C", "count": 1}],
+    "filters": {"coverage": "UVB + UVA", "entries": [{"slug": "zinc-oxide", "name": "Zinc oxide"}]},
+    "absent": ["Retinoid", "Exfoliant"]
+  }
+}
