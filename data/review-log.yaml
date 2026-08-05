@@ -1706,3 +1706,18 @@ metronidazole:
     trimmed the marketing-section reader-instruction header. Fixes only removed/corrected claims (strictly more
     accurate). Rubric: inflammatory lesions modest/solid; erythema minimal/mixed (outside FDA indication).
     assurance=sonnet (revise-then-fixed via --force). lint+verify+style clean.
+the-inkey-list-retinol-serum:
+  last_reviewed: '2026-08-05'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    INKEY List "Retinol Serum" fleshed from stub (Sonnet draft + focused Opus critic). On-mission finding,
+    critic-CONFIRMED against cached brand INCI: the product declares NO retinol — 1% retinyl acetate (weakest
+    retinyl-ester tier) + 0.5% "Granactive Retinoid" (=10% HPR in 90% dimethyl isosorbide, so ~0.05% actual
+    HPR). Graded minimal/preliminary; ALL retinoid efficacy linked out to [[retinol]]/[[retinyl-esters]]/
+    [[hydroxypinacolone-retinoate]]. Every brand quote + $15/30ml price verified verbatim; discontinued-in-US
+    (brand FAQ) framed honestly, EU still lists it. Critic REVISE on 2 accuracy tightenings, fixed: (A) the
+    "matched ingredient-for-ingredient on the EU listing" claim overstated — EU INCI is abbreviated and omits
+    HPR/dimethyl-isosorbide; softened to actives/price/claims corroboration only; (B) US redirect goes to the
+    general collection, not the Starter product — aligned. key_actives corrected off [retinol] to
+    [retinyl-esters, hydroxypinacolone-retinoate]. assurance=sonnet (revise-then-fixed). lint+style clean.
