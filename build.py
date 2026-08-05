@@ -346,7 +346,7 @@ _TIER_LABELS = (
     ("mid", "Moderate"),
     ("weak", "Minimal"),
 )
-_TIER_LABEL = dict(_TIER_LABELS)
+_TIER_LABEL_BY_KEY = dict(_TIER_LABELS)
 # Accepted manual / page-level tier spellings -> canonical key.
 _TIER_ALIASES = {
     "top": "best", "best": "best", "top-evidenced": "best",
@@ -449,7 +449,7 @@ def tier_list_view(profile, by_slug):
         if not rows:
             continue
         rows.sort(key=lambda r: (-r["segs"], r["order"]))
-        tiers.append({"key": key, "label": _TIER_LABEL.get(key, "Unrated"), "items": rows})
+        tiers.append({"key": key, "label": _TIER_LABEL_BY_KEY.get(key, "Unrated"), "items": rows})
     return {"title": tl.get("title") or "", "by": tl.get("by") or "",
             "tiers": tiers, "missing": missing}
 
