@@ -346,3 +346,15 @@
   status: pending
   discovered_from: null
   source: https://ericries.github.io/skintiers/niacinamide.html
+- name: 'Elewski 2003: azelaic acid 15% vs metronidazole 0.75% rosacea RCT'
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: data/ingredients/metronidazole.md
+- name: 'Bleicher 1987: metronidazole 0.75% gel vehicle-controlled rosacea RCT'
+  type: study
+  priority: 4
+  status: pending
+  discovered_from: null
+  source: data/ingredients/metronidazole.md

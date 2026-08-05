@@ -1687,3 +1687,22 @@ best-ceramide-moisturizers:
     moisturizer-class benefit does the work, not the ceramide label or brand; general case linked out to
     [[moisturizing]]/[[ceramides]]/[[niacinamide]]. Health (barrier) vs cosmetic (lighter finish for COSRX)
     separated. tier_list ('Ceramide moisturizers by evidence') kept intact. assurance=sonnet (--force).
+metronidazole:
+  last_reviewed: '2026-08-05'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Topical metronidazole (rosacea) ingredient page, new from queue (Sonnet draft + Opus critic). Critic
+    VERIFIED every efficacy statistic verbatim vs primaries: Bleicher 1987 (36.7/48.5/65.1% vs max 14.9%
+    vehicle), FDA label pivotal trial (746 subj, 50.7% vs 32.6%, IGA 38.42% vs 27.51%, Cmax 32+/-9 ng/mL),
+    Dahl 1998 maintenance (23% vs 42% relapse, P<.05), head-to-heads it LOSES (azelaic acid 72.7% vs 55.8%
+    P<.001 [Elewski]; ivermectin 83.0% vs 73.7% P<0.001 [ATTRACT]), and Cochrane rating metronidazole
+    'moderate-quality' vs 'high-quality' for azelaic acid/ivermectin. Critic verdict REVISE on ONE load-bearing
+    SAFETY item: the peripheral-neuropathy passage quoted only sentence 1 of FDA label sec 5.1 (systemic) and
+    claimed neuropathy was 'not a documented effect of the topical gel' - but the omitted sentence 2 says
+    'peripheral neuropathy has been reported with the post approval use of topical metronidazole.' Fixed in main
+    loop: now quotes BOTH label sentences verbatim (public-domain FDA text) and removes the false gloss, framed
+    as a rare post-marketing report. Also: re-attributed 'standard/first-line topical' to the comparator trials;
+    trimmed the marketing-section reader-instruction header. Fixes only removed/corrected claims (strictly more
+    accurate). Rubric: inflammatory lesions modest/solid; erythema minimal/mixed (outside FDA indication).
+    assurance=sonnet (revise-then-fixed via --force). lint+verify+style clean.

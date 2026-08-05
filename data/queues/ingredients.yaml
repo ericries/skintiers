@@ -205,7 +205,7 @@
 - name: Diethylamino Hydroxybenzoyl Hexyl Benzoate (Uvinul A Plus)
   type: ingredient
   priority: 6
-  status: pending
+  status: done
   discovered_from: beauty-of-joseon-relief-sun-rice-probiotics-spf50
   source: null
 - name: Ethylhexyl Triazone (Uvinul T 150)

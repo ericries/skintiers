@@ -610,3 +610,9 @@
   status: pending
   discovered_from: null
   source: https://www.skinfix.com
+- name: MetroGel (metronidazole 1% gel, Galderma)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: data/ingredients/metronidazole.md
