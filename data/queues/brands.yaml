@@ -190,3 +190,9 @@
   status: pending
   discovered_from: null
   source: https://www.dr-g.com
+- name: Dear, Klairs
+  type: brand
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://www.klairs.com

@@ -616,3 +616,15 @@
   status: pending
   discovered_from: null
   source: data/ingredients/metronidazole.md
+- name: SKIN1004 Madagascar Centella Asiatica 100 Ampoule
+  type: product
+  priority: 6
+  status: pending
+  discovered_from: null
+  source: user request 2026-08-05 (Kristin GL holy-grail video)
+- name: Dear, Klairs EGF Blue Youth Activating Drop (confirm exact EGF SKU vs video)
+  type: product
+  priority: 6
+  status: pending
+  discovered_from: null
+  source: user request 2026-08-05 (Kristin GL holy-grail video)
