@@ -1662,3 +1662,16 @@ creidi-1998-retinaldehyde-retinoic-acid-profilometry:
     not a health/collagen outcome; no head-to-head statistical claim between the two actives. 10/10, verdict
     publish -> assurance=opus. lint+verify+style clean. Underpins the retinaldehyde 'strong' tier on the
     retinoids hub.
+perry-romanowski:
+  last_reviewed: '2026-08-05'
+  score: 9
+  verdict: self-reviewed
+  note: |
+    Person page fleshed from stub (Sonnet draft + controller's own lint/verify/style + accuracy check; no Opus
+    critic, per biographical convention). Cosmetic chemist; every biographical fact cited to a fetched+cached
+    public source (7 sources): DePaul B.S. (own bio; conference bio's BS+MS discrepancy noted honestly), Element
+    44 VP, Alberto Culver brands, SCC past president AND 2026 national VP (cited to SCC's own election press
+    release), IFSCC Praesidium Chair of Education since 2019, Beauty Brains (2006, first 165 eps, Schueller
+    retired 2018, Valerie George co-host), Chemists Corner, books. Omitted per when-in-doubt: exact presidency
+    year, a Guinness record claim, unverified press appearances. Trimmed the one Beauty Brains mission quote to
+    <15 words (copyright). assurance=sonnet (--force). lint+verify+style clean.
