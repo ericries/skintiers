@@ -449,6 +449,26 @@ def test_gen_icon_is_deterministic_svg():
     assert "hsl(" in a                              # hue-derived gradient
 
 
+def test_whats_new_is_auto_derived_page_list(tmp_path):
+    # What's New is a newest-first list of published pages (by `updated`), NOT a changelog.
+    pdir = tmp_path / "data" / "products"
+    pdir.mkdir(parents=True)
+    (pdir / "old.md").write_text("---\nname: Old Serum\nslug: old\ntype: product\n"
+                                 "status: published\nupdated: 2026-07-01\nanalyzed: 2026-07-01\n---\n\nBody.\n")
+    (pdir / "new.md").write_text("---\nname: New Serum\nslug: new\ntype: product\n"
+                                 "status: published\nupdated: 2026-08-04\nanalyzed: 2026-08-04\n---\n\nBody.\n")
+    out = tmp_path / "_site"
+    env = {**os.environ, "SK_DATA": str(tmp_path / "data"), "SK_OUTPUT": str(out)}
+    r = subprocess.run([sys.executable, str(ROOT / "build.py")], env=env, capture_output=True, text=True)
+    assert r.returncode == 0, r.stderr
+    wn = (out / "whats-new.html").read_text()
+    assert "wn-type wn-type-product" in wn                       # auto-derived, type-badged list
+    assert 'href="new.html"' in wn and 'href="old.html"' in wn
+    assert wn.index("New Serum") < wn.index("Old Serum")         # newest first
+    assert "running log of what has changed" not in wn          # no hand-kept changelog
+    assert "<title>Product: New Serum</title>" in (out / "feed.xml").read_text()
+
+
 def test_syndication_feeds_render():
     import json
     import xml.dom.minidom as minidom

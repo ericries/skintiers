@@ -30,6 +30,19 @@ entry (proof it was retrieved); a critic verifies against the cache first (`sour
 live-fetches only on a miss; a source that can neither be re-fetched nor cached is limited to corroborated
 facts, never verbatim quotes.
 
+**Pre-flight self-check (the mistakes the Opus critic keeps catching — fix them before you hand off).**
+- **Quotation marks mean verbatim-from-a-fetched-source, nothing else.** Never wrap the page's own summary or
+  synthesis in quotes. If a sentence is your paraphrase, it carries no quotes (and still needs a footnote if
+  it is load-bearing). A quoted string that isn't in a fetched source is the single most common REVISE.
+- **Every date, number, %, and named figure must be verbatim in a source you actually fetched.** Do not state
+  "since 2005", "5x", a concentration, or a price unless a fetched page says it. If you can't fetch it, drop
+  it — do not carry it from memory or a search snippet.
+- **One grade row = one use at one evidence tier.** Never blend a stronger and a weaker use into a single
+  grade; split them or narrow the row to its best-supported use, and link the general evidence out.
+- **A load-bearing claim on a non-primary source needs a cache entry (put) AND a second corroborator**, or it
+  is softened to a corroborated fact. Editorial "best of" picks are corroborated designations, not a well of
+  verbatim tester quotes.
+
 ## Prime directive
 Every page has a purpose. A section or claim earns its place only if it serves that purpose.
 Rigor is not exhaustiveness. Honesty is not announcing every absence. Concision is a virtue.

@@ -20,7 +20,11 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - uses: actions/setup-node@v4    # so the JS<->Python codec/dashboard parity test runs for real
+        with:
+          node-version: '20'
       - run: pip install -r requirements.txt
+      - run: python -m pytest tests/ -q   # gate the deploy on a green suite (incl. JS parity)
       - run: python build.py
       - uses: actions/upload-pages-artifact@v3
         with:
