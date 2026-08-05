@@ -424,3 +424,15 @@
   status: pending
   discovered_from: null
   source: Prequel Universal Skin Solution active
+- name: Inulin
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://prequelskin.com/products/gleanser-non-drying-glycerin-cleanser
+- name: Oat extract (Avena sativa)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://prequelskin.com/products/gleanser-non-drying-glycerin-cleanser

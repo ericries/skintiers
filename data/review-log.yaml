@@ -1630,3 +1630,20 @@ soolantra-ivermectin-1-cream:
     not studied in milder rosacea). All edits removed or hedged claims / added cited caveats -> strictly more
     conservative than the critic-reviewed draft. Photo gallery deferred (completeness, not accuracy).
     assurance=sonnet (force-published as revise-then-fixed). lint+verify+style clean.
+prequel-gleanser-glycerin-cleanser:
+  last_reviewed: '2026-08-05'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Prequel Gleanser (50% glycerin cleanser) fleshed from a rosacea-thread stub (Sonnet draft + Opus critic).
+    Load-bearing "rosacea-approved" claim = the National Rosacea Society Seal of Acceptance, INDEPENDENTLY
+    corroborated by the critic on rosacea.org's own Prequel brand registry (not just Prequel marketing); page
+    correctly carries the NRS caveat that the Seal "does not guarantee ... improve an individual's rosacea."
+    Grades honest for a rinse-off cleanser (modest/mixed gentle-cleansing; minimal for rinse-off glycarin;
+    minimal/anecdotal cosmetic feel) - never claims it treats rosacea; general glycerin evidence linked out to
+    [[glycerin]]. Brand-run corneometer/rosacea percentage stats (91/94%, 26/27/38%) fully quarantined to
+    Common Marketing Claims, not graded; drafter/critic caught a PDP-vs-blog study-duration inconsistency.
+    Critic 9/10, verdict REVISE on one load-bearing verbatim slip (a quoted NRS sentence had dropped the word
+    "NRS") -> fixed by starting the quotation at the verbatim span; plus trimmed a triple-restated
+    "uncorroborated" point in the Summary. 3 self-hosted images (Prequel PDP + Target), sourced. assurance=sonnet.
+    lint+verify+style clean.
