@@ -5,7 +5,26 @@ name: Acne
 slug: acne
 status: published
 type: condition
-updated: '2026-07-29'
+updated: '2026-08-05'
+tier_list:
+  title: "Acne topical actives by evidence"
+  by: "strength of the evidence for treating acne — several of these are clinically similar, so the tiers track evidence certainty, not effect size alone"
+  items:
+    - slug: adapalene
+      tier: strong
+      note: "First-line topical retinoid; solid, FDA-approved (Rx and OTC), well tolerated."
+    - slug: tretinoin
+      tier: strong
+      note: "First-line prescription retinoid; solid evidence, matched in efficacy by adapalene."
+    - slug: azelaic-acid
+      tier: strong
+      note: "Equal to tretinoin 0.05% for comedonal acne and better tolerated; 16-RCT review, FDA-approved."
+    - slug: benzoyl-peroxide
+      tier: moderate
+      note: "Effective and first-line, but its key participant-reported outcomes are GRADE low-certainty."
+    - slug: salicylic-acid
+      tier: moderate
+      note: "FDA OTC acne active; a modest effect on low-to-very-low-certainty evidence, below the first-line actives."
 ---
 
 Acne vulgaris is the most common skin condition treated by dermatologists, driven by a mix of follicular hyperkeratinization, sebum, *Cutibacterium acnes*, and inflammation. Graded skeptically against controlled evidence for **topical skincare**, the best-studied over-the-counter and prescription topicals produce **modest** lesion reductions, the gap between the "best" and "second-best" topical is often smaller than the marketing implies, and the single largest evidence base for these treatments is rated moderate to very low certainty.[^1][^2]
