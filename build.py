@@ -792,6 +792,8 @@ def build():
     if out.exists():
         shutil.rmtree(out)
     out.mkdir(parents=True)
+    render_og_image(out / "og", "_default", "SkinTiers",
+                    "A skeptical, evidence-first skincare directory")
 
     # Render EVERY status (stubs/drafts included) so cross-links always resolve; each is badged.
     profiles = sklib.load_profiles(sklib.DATA_DIR)
@@ -851,10 +853,13 @@ def build():
                 "serves_slugs": [s["slug"] for s in routine["serves"]],
             }
         cvids = creator_videos.get(p["slug"], []) if p.get("type") == "person" else []
+        render_og_image(out / "og", p["slug"], p.metadata.get("name") or p["slug"],
+                        _TYPE_SINGULAR.get(p.get("type"), (p.get("type") or "").title()))
         html = env.get_template("profile.html").render(
             profile=p.metadata,
             page_url=f"{SITE_URL}/{p['slug']}.html",
             page_desc=_plain_excerpt(standfirst),
+            og_image=f"{SITE_URL}/og/{p['slug']}.png",
             og_type="article",
             standfirst=standfirst,
             body_main=body_main,

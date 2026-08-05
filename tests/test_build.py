@@ -481,6 +481,10 @@ def test_profile_pages_have_open_graph_meta(tmp_path):
     assert '<meta property="og:url" content="https://ericries.github.io/skintiers/niacinamide.html">' in html
     assert '<link rel="canonical" href="https://ericries.github.io/skintiers/niacinamide.html">' in html
     assert 'property="og:description" content="Niacinamide is a well-studied' in html
+    assert '<meta property="og:image" content="https://ericries.github.io/skintiers/og/niacinamide.png">' in html
+    assert '<meta name="twitter:card" content="summary_large_image">' in html
+    assert (out / "og" / "niacinamide.png").exists()             # generated share card
+    assert (out / "og" / "_default.png").exists()                # site fallback card
 
 
 def test_whats_new_is_auto_derived_page_list(tmp_path):
