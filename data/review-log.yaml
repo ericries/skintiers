@@ -1594,3 +1594,20 @@ ranella-hirsch:
     med-school claim against the LOCAL CACHE (SUNY Downstate/1998 present) - no live re-fetch. Atolla / Function
     of Beauty commercial conflict flagged. Drafter dropped an uncorroborated "Beauty Guru" label and refused a
     suspect Instagram fetch (pre-flight + source-cache policy working). lint+style clean.
+cerave-pm-facial-moisturizing-lotion:
+  last_reviewed: '2026-08-04'
+  score: 8
+  verdict: flag-then-fixed
+  note: |
+    Product page fleshed out from a seeded stub (Sonnet draft + Opus critic verifying against the LOCAL SOURCE
+    CACHE, since cerave.com/target are anti-bot). Critic verdict FLAG on two auto-0 items, both fixed in main
+    loop: (1) an uncited quoted HA statistic in The Evidence -> collapsed that section to one-sentence link-outs
+    to [[ceramides]]/[[niacinamide]]/[[hyaluronic-acid]] (removing the quote entirely, per product-page
+    standard); (2) a FABRICATED niacinamide concentration ("around 2%") attributed to Tanno 2000 -> deleted in
+    all three places (Evidence, grade note, Marketing Claims). Also fixed: invented price/size pairing ("3 fl oz
+    at $19.99" - cerave.com states $19.99 with NO size) -> now "$19.99 (manufacturer); Target 3 fl oz $14.99",
+    and dropped unverified sizes on the cerave/Ulta links; added the Spada 2021 industry-funding + different-brand
+    conflict (critic-verified) on the link-out; softened footnote 2 (Target corroborates the named actives, not
+    the full INCI); removed the two orphaned footnotes. INCI verbatim-confirmed against the cached cerave.com.
+    Marketing (MVE, "developed with dermatologists") quarantined; grades narrow/unblended. assurance=sonnet.
+    lint+verify+style clean. The source cache let the critic verify anti-bot retailers deterministically.

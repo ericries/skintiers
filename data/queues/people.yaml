@@ -118,3 +118,9 @@
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/30945275/
+- name: Valerie Callender (dermatologist)
+  type: person
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://www.newbeauty.com/view/cerave-dermatologist-recommended
