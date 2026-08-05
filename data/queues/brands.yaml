@@ -178,3 +178,15 @@
   status: pending
   discovered_from: null
   source: https://www.beautyindependent.com/cosmetic-chemists-and-chemist-confessions-founders-victoria-fu-and-gloria-lu-turn-to-science-to-take-the-bs-out-of-skincare/
+- name: Purito
+  type: brand
+  priority: 6
+  status: pending
+  discovered_from: null
+  source: https://purito.com
+- name: Dr.G
+  type: brand
+  priority: 6
+  status: pending
+  discovered_from: null
+  source: https://www.dr-g.com

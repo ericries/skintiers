@@ -436,3 +436,15 @@
   status: pending
   discovered_from: null
   source: https://prequelskin.com/products/gleanser-non-drying-glycerin-cleanser
+- name: Hydroxypinacolone retinoate (Granactive Retinoid / HPR)
+  type: ingredient
+  priority: 6
+  status: pending
+  discovered_from: null
+  source: user request 2026-08-05
+- name: Retinyl retinoate
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: user request 2026-08-05

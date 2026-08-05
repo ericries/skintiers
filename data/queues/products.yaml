@@ -550,3 +550,45 @@
   status: pending
   discovered_from: null
   source: Prequel NRS Seal of Acceptance (user request 2026-08-04)
+- name: CeraVe Skin Renewing Night Cream
+  type: product
+  priority: 7
+  status: pending
+  discovered_from: null
+  source: user request 2026-08-05
+- name: Purito Seoul Cica Clearing BB Cream
+  type: product
+  priority: 6
+  status: pending
+  discovered_from: null
+  source: user request 2026-08-05
+- name: Dr.G Green Mild Up Sun+ SPF50+
+  type: product
+  priority: 7
+  status: pending
+  discovered_from: null
+  source: user request 2026-08-05
+- name: Dr.G Baby Mild Up Sun SPF50+
+  type: product
+  priority: 6
+  status: pending
+  discovered_from: null
+  source: user request 2026-08-05
+- name: Purito Seoul oat moisturizer (confirm current SKU)
+  type: product
+  priority: 6
+  status: pending
+  discovered_from: null
+  source: https://purito.com
+- name: Purito Seoul panthenol moisturizer (confirm current SKU)
+  type: product
+  priority: 6
+  status: pending
+  discovered_from: null
+  source: https://purito.com
+- name: Dr.G Medi UV Mild Sun SPF50+
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://www.dr-g.com/collections/sunscreen
