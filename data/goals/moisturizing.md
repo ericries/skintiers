@@ -5,7 +5,17 @@ name: Moisturizing
 slug: moisturizing
 status: published
 type: goal
-updated: '2026-07-27'
+updated: '2026-08-05'
+tier_list:
+  title: "Moisturizing ingredients by evidence"
+  by: "strength of evidence as a moisturizing or barrier agent"
+  items:
+    - petrolatum
+    - glycerin
+    - hyaluronic-acid
+    - ceramides
+    - dimethicone
+    - colloidal-oatmeal
 ---
 
 Moisturizing is one of the best-evidenced interventions in dermatology for eczema and barrier-impaired skin. A Cochrane review found that keeping such skin hydrated and occluded reduces eczema flares and spares topical corticosteroids [^1]. Two mechanisms do the work: slowing water loss at the surface and binding water there.

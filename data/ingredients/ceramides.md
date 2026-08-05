@@ -1,4 +1,5 @@
 ---
+tier: moderate
 analyzed: '2026-07-28'
 assurance: opus
 name: Ceramides
