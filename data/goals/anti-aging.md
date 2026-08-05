@@ -5,7 +5,16 @@ name: Anti-aging
 slug: anti-aging
 status: published
 type: goal
-updated: '2026-07-29'
+updated: '2026-08-05'
+videos:
+- title: "Skincare Companies Don't Want You to Know This (Dermatologist's Anti-Aging Guide)"
+  creator: Dr. Sam Ellis
+  creator_slug: samantha-ellis
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=u2RBcVQZVyU
+  thesis: "Ellis splits facial aging into two kinds: surface aging (pigmentation, fine lines, dullness, enlarged pores), which skincare, retinoids, chemical peels, and lasers can genuinely improve, and structural aging (jowls, hollowing, deep nasolabial folds, under-eye bags), driven by fat-pad descent and bone loss that topicals cannot fix. Firming creams at best modestly plump and stimulate a little superficial collagen but cannot lift deeper tissues, and eye creams help hydration, crepiness, and pigment but not true hollowing or bags. Her message is not that skincare fails but that knowing its limits helps you set realistic expectations and spend wisely."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship disclosed. Board-certified dermatologist; an educational explainer on what topical anti-aging can and cannot do, not a product promotion (she founded Prequel, but this video sells nothing)."
 ---
 
 "Anti-aging" is a marketing umbrella, not a single outcome. Skin aging is several distinct changes at once: collagen and elastin breaking down (wrinkles, loss of firmness and elasticity) and pigment and tone shifting, driven largely by cumulative sun exposure. This page is health-first: it ranks interventions by how much they protect and rebuild skin structure in actual studies, not by how heavily they are sold or how much they smooth appearance in the short term. It is organized in tiers from highest to lowest demonstrated impact, and it links each topical to its own profile. Around menopause a faster, hormonally-driven loss stacks on top of this sun-driven aging; that component has its own large lever and is covered on [[anti-aging-perimenopause]].
