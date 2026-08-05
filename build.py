@@ -428,7 +428,10 @@ def tier_list_view(profile, by_slug):
         if target is None or target.get("status") != "published":
             missing.append(slug)
             continue
-        key = (_TIER_ALIASES.get(override) if override else entity_tier(target.metadata)) or "unrated"
+        if override:
+            key = _TIER_ALIASES.get(override) or entity_tier(target.metadata) or "unrated"
+        else:
+            key = entity_tier(target.metadata) or "unrated"
         imgs, mono = images_and_monogram(target.metadata)
         best = _best_health_grade(target.metadata)
         segs = best[0] if best else -1

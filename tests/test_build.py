@@ -667,3 +667,33 @@ def test_real_tier_list_pages_build(tmp_path):
     assert 'href="skinceuticals-c-e-ferulic.html"' in vitc
     retin = (out / "retinoids.html").read_text()
     assert 'href="tretinoin.html"' in retin and "Retinoids by evidence" in retin
+    # Every declared item must actually render (guards against a silently-skipped
+    # slug landing in `missing`): assert each expected href is present.
+    vitc_slugs = ["skinceuticals-c-e-ferulic", "maelove-the-glow-maker",
+                  "timeless-20-vitamin-c-e-ferulic-serum",
+                  "beauty-of-joseon-light-on-serum-centella-vita-c",
+                  "prequel-lucent-c-vitamin-c-serum",
+                  "trader-joes-nourish-vitamins-c-e-facial-serum"]
+    for s in vitc_slugs:
+        assert f'href="{s}.html"' in vitc, s
+    pep = (out / "best-peptide-serums.html").read_text()
+    for s in ["the-ordinary-multi-peptide-copper-peptides-serum",
+              "the-ordinary-multi-peptide-ha-serum",
+              "cosrx-6-peptide-skin-booster-serum"]:
+        assert f'href="{s}.html"' in pep, s
+    for s in ["tretinoin", "adapalene", "retinol", "retinaldehyde", "bakuchiol"]:
+        assert f'href="{s}.html"' in retin, s
+
+
+def test_tier_list_unknown_override_falls_through_to_grade():
+    sys.path.insert(0, str(ROOT))
+    import build, frontmatter
+    by_slug = {"gp": frontmatter.loads(
+        "---\nname: Graded\nslug: gp\ntype: product\nstatus: published\n"
+        "grades:\n- effect: strong\n  evidence: solid\n  use: X (health)\n---\nBody.\n")}
+    page = frontmatter.loads(
+        "---\nname: L\nslug: l\ntype: list\nstatus: published\n"
+        "tier_list:\n  items:\n  - slug: gp\n    tier: strogn\n---\nBody.\n")   # typo'd override
+    v = build.tier_list_view(page, by_slug)
+    keys = [t["key"] for t in v["tiers"]]
+    assert keys == ["best"]          # falls through to grade-derived 'best', not 'unrated'
