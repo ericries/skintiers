@@ -7,6 +7,13 @@ slug: best-azelaic-acid-products
 status: published
 type: list
 updated: '2026-07-31'
+tier_list:
+  title: "Azelaic acid products by evidence"
+  by: "overall evidence for the product's stated skin benefits"
+  items:
+    - anua-azelaic-acid-serum
+    - cos-de-baha-az20-azelaic-acid-20-serum
+    - the-ordinary-azelaic-acid-suspension-10
 ---
 
 Azelaic acid has controlled evidence for papulopustular rosacea, inflammatory acne, and melasma, established at prescription strengths: a 15% gel (FINACEA) and a 20% cream (AZELEX); see [[azelaic-acid]].[^1][^2]
