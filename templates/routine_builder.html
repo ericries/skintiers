@@ -11,41 +11,80 @@
   <meta property="og:site_name" content="SkinTiers">
   <meta property="og:title" content="Routine Builder — SkinTiers">
   <meta property="og:description" content="Build a skincare routine and see how strong the lineup is, which actives it layers, and its sunscreen coverage.">
-  <meta name="twitter:card" content="summary">
-  <style>
-    body { font-family: system-ui, sans-serif; max-width: 900px; margin: 0 auto; padding: 1rem; color: #23201b; }
-    h1 { font-size: 1.4rem; }
-    .rb-search input { width: 100%; padding: .6rem; font-size: 1rem; box-sizing: border-box; border: 1px solid #ccc; border-radius: 8px; }
-    .rb-results { list-style: none; padding: 0; margin: .5rem 0; max-height: 40vh; overflow-y: auto; }
-    .rb-results li { display: flex; justify-content: space-between; align-items: center; gap: .5rem; padding: .35rem 0; border-bottom: 1px solid #eee; }
-    .rb-results button, .rb-copy { cursor: pointer; padding: .2rem .5rem; }
-    .rb-phases { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; margin-top: 1rem; }
-    .rb-phase h2 { font-size: 1rem; margin: 0 0 .3rem; }
-    .rb-step { display: flex; align-items: center; gap: .3rem; padding: .3rem 0; }
-    .rb-step span.rb-name { flex: 1; font-size: .9rem; }
-    .rb-step .rb-freq { font-size: .72rem; padding: .05rem; max-width: 5.2em; }
-    .rb-step button { cursor: pointer; border: none; background: none; padding: 0 .12rem; font-size: .85rem; color: #6b6459; }
-    .rb-step button:hover { color: #23201b; }
-    .rb-badge { width: 34px; height: 34px; border-radius: 8px; display: grid; place-items: center; color: #fff; font-size: .75rem; overflow: hidden; flex: 0 0 34px; }
-    .rb-badge img { width: 100%; height: 100%; object-fit: cover; }
-    .rb-top { background: #2f7d4f; } .rb-mid { background: #b7871f; } .rb-entry { background: #9a938a; }
-    .rb-dash { margin-top: 1.5rem; padding: 1rem; border: 1px solid #ddd; border-radius: 10px; line-height: 1.5; }
-    .rb-dash .empty { color: #777; }
-    @media (max-width: 640px) { .rb-phases { grid-template-columns: 1fr; } }
-  </style>
+  <meta property="og:image" content="https://ericries.github.io/skintiers/og/_default.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <script>
+    (function(){try{var t=localStorage.getItem('theme');if(t==='light'||t==='dark'){document.documentElement.setAttribute('data-theme',t);}}catch(e){}})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Source+Serif+4:wght@400;600&display=swap">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Routine Builder</h1>
-  <div class="rb-search"><input id="rb-search" type="search" placeholder="Search products to add…" autocomplete="off"></div>
-  <ul id="rb-results" class="rb-results"></ul>
-  <div class="rb-phases">
-    <div class="rb-phase"><h2>AM</h2><div id="rb-am"></div></div>
-    <div class="rb-phase"><h2>PM</h2><div id="rb-pm"></div></div>
-    <div class="rb-phase"><h2>Weekly</h2><div id="rb-wk"></div></div>
-  </div>
-  <div id="rb-dash" class="rb-dash"></div>
-  <p><button id="rb-copy" class="rb-copy">Copy link</button> <button id="rb-clear" class="rb-copy">Clear</button> <span id="rb-copied"></span></p>
+  <header class="site">
+    <div class="builder-wrap" style="display:flex;align-items:baseline;justify-content:space-between;padding:16px 24px;gap:18px;flex-wrap:wrap">
+      <a class="brand" href="index.html">Skin<span class="tri">Tiers</span><small>what the evidence actually says</small></a>
+      <nav class="top">
+        <a href="products.html">Products</a>
+        <a href="ingredients.html">Ingredients</a>
+        <a href="routines.html">Routines</a>
+        <a href="method.html">Method</a>
+        <button type="button" class="theme-toggle" id="theme-toggle" aria-label="Toggle light or dark theme">Theme</button>
+      </nav>
+    </div>
+  </header>
 
+  <main class="builder-wrap">
+    <div class="rb-intro">
+      <div class="kicker"><span class="type-tag">Tool</span></div>
+      <h1>Routine builder</h1>
+      <p class="standfirst">Assemble a routine from products on the site and see, at a glance, how strong the lineup is and what it actually contains. Nothing is saved to a server: your whole routine is encoded in this page's link, so you can bookmark it or share it.</p>
+      <div class="rb-how">
+        <b>How it works</b>
+        <ol>
+          <li>Search for a product and add it to your morning (<b>AM</b>), evening (<b>PM</b>), or <b>Weekly</b> routine.</li>
+          <li>Set how often you use each one, or reorder the steps with the arrows.</li>
+          <li>Read the dashboard: overall strength, the active ingredients you're layering (with duplicates), sunscreen coverage, and notable actives the routine leaves out.</li>
+          <li>Use <b>Copy link</b> to save or share the routine. The link is the routine.</li>
+        </ol>
+      </div>
+    </div>
+
+    <div class="rb-search"><input id="rb-search" type="search" placeholder="Search products to add…" autocomplete="off"></div>
+    <ul id="rb-results" class="rb-results"></ul>
+
+    <div class="rb-phases">
+      <div class="rb-phase"><h2>AM · Morning</h2><div id="rb-am"></div></div>
+      <div class="rb-phase"><h2>PM · Evening</h2><div id="rb-pm"></div></div>
+      <div class="rb-phase"><h2>Weekly</h2><div id="rb-wk"></div></div>
+    </div>
+
+    <div id="rb-dash" class="rb-dash"></div>
+
+    <p class="rb-actions"><button id="rb-copy" class="rb-copy">Copy link</button> <button id="rb-clear" class="rb-copy">Clear</button> <span id="rb-copied"></span></p>
+  </main>
+
+  <footer class="site">
+    <div class="builder-wrap">
+      <p class="disclaimer">Educational, not medical advice. See a dermatologist for medical concerns.</p>
+      <div class="fnav"><a href="method.html">Method</a><a href="products.html">Products</a><a href="routines.html">Routines</a><a href="whats-new.html">What's New</a></div>
+    </div>
+  </footer>
+
+  <script>
+    (function(){
+      var btn=document.getElementById('theme-toggle');
+      if(!btn)return;
+      btn.addEventListener('click',function(){
+        var cur=document.documentElement.getAttribute('data-theme');
+        if(!cur){cur=(window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches)?'dark':'light';}
+        var next=(cur==='dark')?'light':'dark';
+        document.documentElement.setAttribute('data-theme',next);
+        try{localStorage.setItem('theme',next);}catch(e){}
+      });
+    })();
+  </script>
   <script id="rb-catalog" type="application/json">{{ catalog_json | safe }}</script>
   <script>{{ builder_js | safe }}</script>
 </body>
