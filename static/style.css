@@ -352,3 +352,30 @@ footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;
 @media(max-width:640px){.rb-phases{grid-template-columns:1fr}}
 .rb-privacy{font-family:var(--mono);font-size:11.5px;line-height:1.65;color:var(--faint);margin-top:16px;padding:11px 15px;border:1px solid var(--rule);border-radius:5px;background:var(--card)}
 .rb-privacy b{color:var(--muted);font-weight:500;text-transform:uppercase;letter-spacing:.07em;font-size:10.5px}
+
+/* Tier lists / rankings ---------------------------------------------------*/
+.tierlist{margin:28px 0}
+.tl-title{margin:0 0 4px;font-family:var(--serif);font-size:24px}
+.tl-by{margin:0 0 16px;color:var(--ink-soft,#6b6f68);font-size:14px;max-width:60ch}
+.tl-tier{display:grid;grid-template-columns:120px 1fr;gap:14px;align-items:start;
+  padding:12px 0;border-top:1px solid var(--rule)}
+.tl-tier:first-of-type{border-top:0}
+.tl-label{font-family:var(--mono);font-size:12px;font-weight:600;letter-spacing:.04em;
+  text-transform:uppercase;color:#fff;padding:5px 9px;border-radius:6px;text-align:center}
+.tl-tier-best .tl-label{background:var(--tier-best)}
+.tl-tier-good .tl-label{background:var(--tier-good)}
+.tl-tier-mid  .tl-label{background:var(--tier-mid)}
+.tl-tier-weak .tl-label{background:var(--tier-weak)}
+.tl-tier-unrated .tl-label{background:var(--tier-weak);opacity:.55}
+.tl-items{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:10px}
+.tl-item{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.tl-badge{flex:0 0 auto;width:34px;height:34px;border-radius:8px;overflow:hidden;
+  display:inline-flex;border:1px solid var(--rule)}
+.tl-badge img{width:100%;height:100%;object-fit:cover}
+.tl-badge .genicon{width:100%;height:100%}
+.tl-name{font-weight:600;text-decoration:none;color:var(--ink)}
+.tl-name:hover{text-decoration:underline}
+.tl-ev{font-family:var(--mono);font-size:11px;color:var(--ink-soft,#6b6f68);
+  border:1px solid var(--rule);border-radius:4px;padding:1px 6px}
+.tl-note{font-size:13px;color:var(--ink-soft,#6b6f68)}
+@media(max-width:560px){.tl-tier{grid-template-columns:1fr;gap:8px}}

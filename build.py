@@ -957,6 +957,7 @@ def build():
             if fils:
                 uv_spectrum = render_uv_spectrum(fils)
         routine = routine_summary(p, by_slug)
+        tier_list = tier_list_view(p, by_slug)
         if routine is not None:
             routines_json[p["slug"]] = {
                 "name": p.metadata.get("name"),
@@ -992,6 +993,7 @@ def build():
             backref_groups=backref_groups_for(p["slug"], rev_index),
             tier_nav=tier_nav_from_html(body_main),
             routine=routine,
+            tier_list=tier_list,
             builder_url=routine_builder_path(routine, code_map),
             uv_spectrum=uv_spectrum,
             videos=p.metadata.get("videos") or [],

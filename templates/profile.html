@@ -87,6 +87,28 @@
   </section>
   {% endif %}
 
+  {% if tier_list %}
+  <section class="tierlist" aria-label="Evidence tier list">
+    {% if tier_list.title %}<h2 class="tl-title">{{ tier_list.title }}</h2>{% endif %}
+    {% if tier_list.by %}<p class="tl-by">Ranked by {{ tier_list.by }}. Tier = the strength of the evidence behind each, from the site's own grades.</p>{% endif %}
+    {% for t in tier_list.tiers %}
+    <div class="tl-tier tl-tier-{{ t.key }}">
+      <div class="tl-label">{{ t.label }}</div>
+      <ul class="tl-items">
+        {% for it in t['items'] %}
+        <li class="tl-item">
+          <a class="tl-badge" href="{{ it.slug }}.html" aria-hidden="true" tabindex="-1">{% if it.thumb %}<img src="{{ it.thumb }}" alt="" loading="lazy">{% else %}{{ gen_icon(it.slug, it.monogram, it.name)|safe }}{% endif %}</a>
+          <a class="tl-name" href="{{ it.slug }}.html">{{ it.name }}</a>
+          {% if it.evidence %}<span class="tl-ev">{{ it.evidence }}</span>{% endif %}
+          {% if it.note %}<span class="tl-note">{{ it.note }}</span>{% endif %}
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endfor %}
+  </section>
+  {% endif %}
+
   {% if uv_spectrum %}
   <section class="uv-product">
     <h2>UV filters in this sunscreen</h2>

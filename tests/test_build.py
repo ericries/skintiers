@@ -620,3 +620,33 @@ def test_tier_list_view_groups_orders_and_reports_missing():
     assert bb["note"] == "gentle pick" and bb["evidence"] == "Solid"
     # no tier_list -> None
     assert build.tier_list_view(post("---\nname: X\nslug: x\ntype: list\n---\nB.\n"), by_slug) is None
+
+
+def test_tier_list_section_renders_on_a_page(tmp_path):
+    data = tmp_path / "data"
+    out = tmp_path / "_site"
+    _write_graded_product(data / "products", "alpha", "strong", [])
+    _write_graded_product(data / "products", "bravo", "modest", [])
+    (data / "lists").mkdir(parents=True, exist_ok=True)
+    (data / "lists" / "ranking.md").write_text(
+        "---\nname: A Ranking\nslug: ranking\ntype: list\nkind: best-of\n"
+        "status: published\nupdated: 2026-08-04\nanalyzed: 2026-08-04\n"
+        "tier_list:\n"
+        "  title: Serums by evidence\n"
+        "  by: overall evidence\n"
+        "  items:\n  - alpha\n  - bravo\n  - ghost\n"     # ghost is unknown -> skipped
+        "---\n\nBody.\n\n## Sources\n\nNone.\n"
+    )
+    env = {**os.environ, "SK_DATA": str(data), "SK_OUTPUT": str(out)}
+    r = subprocess.run([sys.executable, str(ROOT / "build.py")], env=env,
+                       capture_output=True, text=True)
+    assert r.returncode == 0, r.stderr
+    html = (out / "ranking.html").read_text()
+    assert 'class="tierlist"' in html
+    assert "Serums by evidence" in html
+    assert "Top-evidenced" in html and "Moderate" in html   # evidence-word labels
+    assert 'class="tl-tier tl-tier-best"' in html
+    assert 'href="alpha.html"' in html and 'href="bravo.html"' in html
+    assert "ghost" not in html                               # unknown item not shown
+    # a page WITHOUT tier_list renders no such section
+    assert 'class="tierlist"' not in (out / "alpha.html").read_text()
