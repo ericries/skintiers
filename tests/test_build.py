@@ -697,3 +697,29 @@ def test_tier_list_unknown_override_falls_through_to_grade():
     v = build.tier_list_view(page, by_slug)
     keys = [t["key"] for t in v["tiers"]]
     assert keys == ["best"]          # falls through to grade-derived 'best', not 'unrated'
+
+
+def test_grade_note_resolves_xrefs_and_markdown(tmp_path):
+    # A grade `note` may carry [[xref]] links + inline markdown; the build must
+    # resolve them the way the body does (existing page -> link; missing -> plain
+    # text, never raw [[brackets]]).
+    data = tmp_path / "data"
+    out = tmp_path / "_site"
+    _write(data / "ingredients", "retinol", "published", "ingredient")
+    (data / "products").mkdir(parents=True, exist_ok=True)
+    (data / "products" / "p.md").write_text(
+        "---\nname: P\nslug: p\ntype: product\nstatus: published\n"
+        "updated: 2026-08-05\nanalyzed: 2026-08-05\ncategory: Test\n"
+        "grades:\n- effect: modest\n  evidence: solid\n"
+        "  note: 'a real [[retinol]] and a missing [[nope-xyz]] link'\n"
+        "  use: For test (health)\n---\n\n## Summary\n\nBody.\n\n## Sources\n\nNone.\n"
+    )
+    env = {**os.environ, "SK_DATA": str(data), "SK_OUTPUT": str(out)}
+    r = subprocess.run([sys.executable, str(ROOT / "build.py")], env=env,
+                       capture_output=True, text=True)
+    assert r.returncode == 0, r.stderr
+    html = (out / "p.html").read_text()
+    assert 'href="retinol.html"' in html            # resolved xref -> link
+    assert "[[retinol]]" not in html                 # no raw wiki brackets
+    assert "[[nope-xyz]]" not in html                # missing target -> plain text, not brackets
+    assert "nope-xyz" in html                        # (its label still shows)

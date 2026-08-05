@@ -24,7 +24,7 @@
     <div class="head">Grade &middot; <a href="method.html">effect size &times; evidence quality</a>, vs {{ comparator }}</div>
     {% for g in grades_view %}
     <div class="grade-row">
-      <div class="grade-use">{{ g.use }}{% if g.note %}<small>{{ g.note }}</small>{% endif %}</div>
+      <div class="grade-use">{{ g.use }}{% if g.note %}<small>{{ g.note | safe }}</small>{% endif %}</div>
       <a class="axis" href="method.html#effect" title="What does Effect: {{ g.effect_word }} mean?">
         <span class="label">Effect: {{ g.effect_word }}</span>
         <div class="segs">{% for i in range(4) %}<i class="seg{% if i < g.effect_segs %} on{% endif %}"></i>{% endfor %}</div>

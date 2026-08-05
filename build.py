@@ -270,16 +270,30 @@ def video_embed(url):
     return None
 
 
-def grades_view_for(metadata):
-    """Build the dossier view rows from a `grades:` frontmatter list."""
+def grades_view_for(metadata, published_slugs=None, slug_to_name=None):
+    """Build the dossier view rows from a `grades:` frontmatter list.
+
+    A grade `note` may carry [[xref]] links and inline markdown. When the slug
+    maps are supplied, the note is linkified and rendered to inline HTML the same
+    way the body is, so its links resolve (a missing target renders as plain text,
+    never raw `[[brackets]]`). The rendered note is marked safe in the template."""
+    published_slugs = published_slugs or frozenset()
+    slug_to_name = slug_to_name or {}
     view = []
     for g in metadata.get("grades") or []:
         effect = (g.get("effect") or "").lower()
         evidence = (g.get("evidence") or "").lower()
         ev_class, ev_label = EVIDENCE_MAP.get(evidence, ("ev-anec", evidence.title()))
+        note = g.get("note", "")
+        if note:
+            note = sklib.render_markdown(
+                sklib.linkify_xrefs(note, published_slugs, slug_to_name)).strip()
+            # The note sits inline in a <small>; strip a single wrapping <p>.
+            if note.startswith("<p>") and note.endswith("</p>") and note.count("<p>") == 1:
+                note = note[3:-4]
         view.append({
             "use": g.get("use", ""),
-            "note": g.get("note", ""),
+            "note": note,
             "effect_word": effect,
             "effect_segs": EFFECT_SEGS.get(effect, 0),
             "evidence_class": ev_class,
@@ -987,7 +1001,7 @@ def build():
             body_main=body_main,
             sources_html=sources_html,
             comparator=p.get("comparator") or "others in its category",
-            grades_view=grades_view_for(p.metadata),
+            grades_view=grades_view_for(p.metadata, slugs, names),
             recommended_in=p.get("recommended_in") or [],
             images=images,
             monogram=monogram,
