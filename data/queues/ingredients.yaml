@@ -400,3 +400,15 @@
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/25919144/
+- name: Squalane (emollient)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://www.ncbi.nlm.nih.gov/books/NBK545171/
+- name: Urea (humectant and keratolytic)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://www.ncbi.nlm.nih.gov/books/NBK545171/
