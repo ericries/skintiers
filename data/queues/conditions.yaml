@@ -13,12 +13,12 @@
 - name: Rosacea (papulopustular subtype)
   type: condition
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b1d5b166-ab06-4ab5-b0c6-31126238118a
 - name: Rosacea (erythematotelangiectatic subtype)
   type: condition
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: data/conditions/rosacea.md

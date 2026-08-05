@@ -460,3 +460,21 @@
   status: pending
   discovered_from: null
   source: data/lists/best-peptide-serums.md
+- name: Tacrolimus (topical calcineurin inhibitor, Protopic)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: data/conditions/atopic-dermatitis.md
+- name: Pimecrolimus (topical calcineurin inhibitor, Elidel)
+  type: ingredient
+  priority: 4
+  status: pending
+  discovered_from: null
+  source: data/conditions/atopic-dermatitis.md
+- name: Crisaborole (topical PDE4 inhibitor, Eucrisa)
+  type: ingredient
+  priority: 4
+  status: pending
+  discovered_from: null
+  source: data/conditions/atopic-dermatitis.md
