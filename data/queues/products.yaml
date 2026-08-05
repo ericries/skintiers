@@ -598,3 +598,15 @@
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/9843009/
+- name: Dr. Jart+ Ceramidin Cream
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://www.drjart.com
+- name: Skinfix Barrier+ Triple Lipid-Peptide Cream
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: null
+  source: https://www.skinfix.com

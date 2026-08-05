@@ -1675,3 +1675,15 @@ perry-romanowski:
     retired 2018, Valerie George co-host), Chemists Corner, books. Omitted per when-in-doubt: exact presidency
     year, a Guinness record claim, unverified press appearances. Trimmed the one Beauty Brains mission quote to
     <15 words (copyright). assurance=sonnet (--force). lint+verify+style clean.
+best-ceramide-moisturizers:
+  last_reviewed: '2026-08-05'
+  score: 9
+  verdict: self-reviewed
+  note: |
+    Best-of list filled from stub (Sonnet draft + controller lint/verify/style; curatorial, no Opus critic).
+    Ranks 4 EXISTING product pages (CeraVe MC > Cetaphil MC [effective tie] > COSRX oil-free lotion > LRP
+    Toleriane) drawn only from each product's own grades; no off-site product/price/claim introduced (verify
+    clean, zero warnings). Deflationary, honest thesis grounded in the site's own evidence: the Cochrane-level
+    moisturizer-class benefit does the work, not the ceramide label or brand; general case linked out to
+    [[moisturizing]]/[[ceramides]]/[[niacinamide]]. Health (barrier) vs cosmetic (lighter finish for COSRX)
+    separated. tier_list ('Ceramide moisturizers by evidence') kept intact. assurance=sonnet (--force).
