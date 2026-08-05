@@ -350,3 +350,5 @@ footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;
 .rb-copy:hover{color:var(--accent);border-color:var(--accent)}
 #rb-copied{font-family:var(--mono);font-size:12px;color:#2f7a52}
 @media(max-width:640px){.rb-phases{grid-template-columns:1fr}}
+.rb-privacy{font-family:var(--mono);font-size:11.5px;line-height:1.65;color:var(--faint);margin-top:16px;padding:11px 15px;border:1px solid var(--rule);border-radius:5px;background:var(--card)}
+.rb-privacy b{color:var(--muted);font-weight:500;text-transform:uppercase;letter-spacing:.07em;font-size:10.5px}
