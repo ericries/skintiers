@@ -484,3 +484,9 @@
   status: pending
   discovered_from: null
   source: data/goals/anti-aging.md
+- name: Feverfew (Chrysanthemum parthenium) extract in skincare
+  type: ingredient
+  priority: 3
+  status: pending
+  discovered_from: null
+  source: data/products/first-aid-beauty-ultra-repair-cream.md

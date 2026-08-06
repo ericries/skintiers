@@ -1761,3 +1761,20 @@ neutrogena-hydro-boost-water-gel:
     no-occlusive/no-ceramide composition) — no HA trial numbers imported. Critic REVISE on 3 minor items, fixed:
     "acne-prone" quote re-cited [^2]->[^1] (Target); 0.5oz travel size cited to [^2] (Neutrogena); fragrance
     added to the enumerated INCI for completeness. assurance=sonnet (revise-then-fixed). lint+verify+style clean.
+first-aid-beauty-ultra-repair-cream:
+  last_reviewed: '2026-08-06'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    First Aid Beauty Ultra Repair Cream fleshed from stub (Sonnet draft + focused Opus critic; link-out page,
+    colloidal-oatmeal/moisturizing evidence linked out). Critic VERIFIED all product-specific facts vs the FAB
+    manufacturer page (only citable source; Ulta demoted per aggregator rule): full INCI incl. Ceramide NP,
+    squalane, shea, and CRITICALLY Eucalyptus Globulus Leaf Oil; colloidal oatmeal declared as the OTC skin-
+    protectant active at 0.5% (below the 1% in the RCTs on [[colloidal-oatmeal]]); $42/6oz manufacturer price.
+    On-mission honesty: the "barrier repair / eczema" cream is NOT verified fragrance-free (contains eucalyptus
+    essential oil, no fragrance-free claim) and the NEA Seal is manufacturer-stated-only -> both quarantined,
+    not asserted. Grades: barrier notable/solid (category), colloidal oatmeal modest/mixed (0.5%<1%), ceramide
+    minimal/mixed. Critic REVISE fixed: (A) "does not publish sample size" overstatement -> small in-house/
+    independent uncontrolled studies; (B) CeraVe comparator price [^1] mis-cite to the FAB page -> dropped
+    (standfirst + summary), carried by the [[cerave-moisturizing-cream]] wikilink. assurance=sonnet
+    (revise-then-fixed). lint+verify+style clean.

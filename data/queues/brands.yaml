@@ -196,3 +196,9 @@
   status: pending
   discovered_from: null
   source: https://www.klairs.com
+- name: First Aid Beauty
+  type: brand
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://www.firstaidbeauty.com
