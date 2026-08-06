@@ -646,3 +646,15 @@
   status: pending
   discovered_from: null
   source: https://www.neutrogena.com
+- name: The Ordinary Lactic Acid 10% + HA
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://theordinary.com
+- name: The Ordinary AHA 30% + BHA 2% Peeling Solution
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://theordinary.com

@@ -1732,3 +1732,17 @@ prequel:
     (which also owns Naturium), DTC. All positioning ("basic plus", "clinical-grade at everyday prices")
     attributed as the brand's OWN words, not fact. Founder's commercial dual-role stated plainly. 7 covered
     products linked; NRS Seal cross-checked on rosacea.org. assurance=sonnet (--force). lint+verify+style clean.
+the-ordinary-glycolic-acid-7-toning-solution:
+  last_reviewed: '2026-08-05'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    The Ordinary Glycolic Acid 7% Toning Solution fleshed from stub (Sonnet draft + focused Opus critic;
+    link-out page, glycolic evidence lives on [[glycolic-acid]]). Critic VERIFIED all product-specific facts
+    against the cached The Ordinary PDP + Cult Beauty: 7% glycolic (INCI 2nd), pH 3.5-3.9 (spec) / ~3.6 (copy),
+    full INCI verbatim, $9.00/100ml (+ Cult Beauty EUR9.30), and every safety caution quoted verbatim ("should
+    not be used on sensitive, peeling, or compromised skin"; Sunburn Alert; "Patch testing prior to use is
+    advised"). Grade modest/mixed, cosmetic, no trial numbers imported as product-specific. Critic REVISE on 2
+    citation-pointer errors (general/RCT facts footnoted to [^1] the product page): the "8% cream controlled
+    trial" and the free-acid/pH mechanism re-attributed to [[glycolic-acid]]; [^1] kept only on product-specific
+    7%/pH/price clauses. assurance=sonnet (revise-then-fixed). lint+verify+style clean.
