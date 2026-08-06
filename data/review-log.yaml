@@ -1835,3 +1835,18 @@ brimonidine:
     treatment"); (2) the "30 minutes" quote re-cited to Fowler alone (only there, not the label), keeping the
     label on the composite %s; (3) stopped calling van Zuuren 2019 a "Cochrane review" (it is a BJD systematic
     review with GRADE by the Cochrane rosacea group). assurance=sonnet (revise-then-fixed). lint+verify+style clean.
+la-roche-posay-pure-vitamin-c-12-serum:
+  last_reviewed: '2026-08-06'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    LRP Pure Vitamin C12 Serum fleshed from stub (Sonnet draft + focused Opus critic; link-out page, L-ascorbic
+    evidence on [[ascorbic-acid-vitamin-c]]). Critic VERIFIED all product-specific facts vs cached LRP (Wayback,
+    live US 403'd) + Target: 12% pure L-ascorbic acid (INCI 2nd after water), salicylic acid, neurosensine
+    (acetyl dipeptide-1 cetyl ester), tocopherol; FRAGRANCE present (parfum last on INCI); $44.99/30ml (LRP) +
+    $37.99 (Target). On-mission honesty: NO airless/light-blocking packaging - the brand FAQ instead says pure
+    vitamin C "can react on contact with the air, causing it to change color; but it's still effective"
+    (attributed, not asserted); the 63-subject in-house wrinkle/radiance stats quarantined to Common Marketing
+    Claims; sponsored-dermatologist quote flagged. Grade modest/preliminary (no product-specific trial). Critic
+    REVISE fixed 1 item: "Dermatologist Tested" quote re-cited to add [^target] (it's in Target, not LRP).
+    assurance=sonnet (revise-then-fixed). lint+verify+style clean.

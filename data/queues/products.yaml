@@ -694,3 +694,9 @@
   status: pending
   discovered_from: null
   source: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f6a4353f-ae69-4214-901f-e5d42a6fbde7
+- name: La Roche-Posay 10% Pure Vitamin C Serum
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: null
+  source: https://www.laroche-posay.us
