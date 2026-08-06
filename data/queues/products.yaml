@@ -640,3 +640,9 @@
   status: pending
   discovered_from: null
   source: https://www.prnewswire.com/news-releases/dr-samantha-ellis-launches-solution-focused-skincare-brand-prequel-301885229.html
+- name: Neutrogena Rapid Wrinkle Repair Retinol Serum
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://www.neutrogena.com

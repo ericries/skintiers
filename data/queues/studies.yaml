@@ -358,3 +358,9 @@
   status: pending
   discovered_from: null
   source: data/ingredients/metronidazole.md
+- name: 'Kligman 1986: topical tretinoin for photoaged skin (landmark RCT)'
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: data/goals/anti-aging.md
