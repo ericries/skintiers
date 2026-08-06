@@ -1746,3 +1746,18 @@ the-ordinary-glycolic-acid-7-toning-solution:
     citation-pointer errors (general/RCT facts footnoted to [^1] the product page): the "8% cream controlled
     trial" and the free-acid/pH mechanism re-attributed to [[glycolic-acid]]; [^1] kept only on product-specific
     7%/pH/price clauses. assurance=sonnet (revise-then-fixed). lint+verify+style clean.
+neutrogena-hydro-boost-water-gel:
+  last_reviewed: '2026-08-06'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Neutrogena Hydro Boost Water Gel fleshed from stub (Sonnet draft + focused Opus critic; link-out page, HA
+    + moisturizing evidence on [[hyaluronic-acid]]/[[moisturizing]]). Critic VERIFIED all product-specific facts
+    vs cached Neutrogena page + Target: full 20-item INCI (sodium hyaluronate, glycerin, dimethicone; NO
+    petrolatum/ceramides confirmed absent), FRAGRANCE present (load-bearing sensitive-skin note; two
+    fragrance-free sibling SKUs correctly kept separate), $19.99/1.7oz retailer-corroborated, every marketing
+    quote verbatim + quarantined ("24 hours of hydration", "#1 Gel Moisturizer", non-comedogenic, oil-free).
+    Grades: hydration notable/solid (normal/oily/combo) + barrier minimal/preliminary (downgraded on the real
+    no-occlusive/no-ceramide composition) — no HA trial numbers imported. Critic REVISE on 3 minor items, fixed:
+    "acne-prone" quote re-cited [^2]->[^1] (Target); 0.5oz travel size cited to [^2] (Neutrogena); fragrance
+    added to the enumerated INCI for completeness. assurance=sonnet (revise-then-fixed). lint+verify+style clean.

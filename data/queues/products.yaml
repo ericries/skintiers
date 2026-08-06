@@ -658,3 +658,9 @@
   status: pending
   discovered_from: null
   source: https://theordinary.com
+- name: Neutrogena Hydro Boost Gel-Cream (fragrance-free, for dry skin)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://www.neutrogena.com
