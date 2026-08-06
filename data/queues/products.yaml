@@ -664,3 +664,15 @@
   status: pending
   discovered_from: null
   source: https://www.neutrogena.com
+- name: Renova (tretinoin 0.02% emollient cream, photoaging-indicated)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://pubmed.ncbi.nlm.nih.gov/8336752/
+- name: Retin-A Micro (tretinoin gel microsphere)
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: null
+  source: https://pubmed.ncbi.nlm.nih.gov/8336752/

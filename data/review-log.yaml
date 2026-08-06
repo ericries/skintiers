@@ -1778,3 +1778,18 @@ first-aid-beauty-ultra-repair-cream:
     independent uncontrolled studies; (B) CeraVe comparator price [^1] mis-cite to the FAB page -> dropped
     (standfirst + summary), carried by the [[cerave-moisturizing-cream]] wikilink. assurance=sonnet
     (revise-then-fixed). lint+verify+style clean.
+griffiths-1993-tretinoin-collagen-restoration:
+  last_reviewed: '2026-08-06'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Griffiths 1993 (NEJM, PMID 8336752), the mechanistic tretinoin/procollagen study underpinning the tretinoin
+    top-tier grade. First page under the NEW compact/structured study scope (Design/Population/Intervention/
+    Result/Effect/Applicability+limitation) - drafter cost dropped to ~52k (vs 160k+ essays). Abstract-only
+    (NEJM paywalled). Critic re-fetched PubMed and confirmed EVERY figure verbatim: baseline collagen I 56%
+    less in photodamaged vs sun-protected skin (P<0.001; r=-0.58, P=0.002); treatment 80% increase (tretinoin
+    0.1%) vs 14% decrease (vehicle), P=0.006; n=26 baseline, 29 treated (15/14), 10-12 months, immunohistology.
+    Critic verdict REVISE on 2 anti-hallucination items, fixed: (1) "randomized" not in abstract -> removed
+    ("vehicle-controlled" only); (2) coined "94-percentage-point swing" (derived 80-(-14)) -> replaced with the
+    two source figures. Also added an abstract-only sourcing disclosure. Honest mechanistic-not-cosmetic framing
+    kept. assurance=sonnet (revise-then-fixed). lint+verify+style clean.
