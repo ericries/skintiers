@@ -1793,3 +1793,16 @@ griffiths-1993-tretinoin-collagen-restoration:
     ("vehicle-controlled" only); (2) coined "94-percentage-point swing" (derived 80-(-14)) -> replaced with the
     two source figures. Also added an abstract-only sourcing disclosure. Honest mechanistic-not-cosmetic framing
     kept. assurance=sonnet (revise-then-fixed). lint+verify+style clean.
+gloria-lu:
+  last_reviewed: '2026-08-06'
+  score: 8
+  verdict: self-reviewed
+  note: |
+    Gloria Lu LEAN discovery card (first page under the new person scope: <=150 words, drafted INLINE, no
+    subagent, no Opus critic). Cosmetic chemist, co-founder of Chemist Confessions with [[victoria-fu]] (whose
+    page already back-links her). Facts corroborated against Beauty Independent: chemical-engineering background,
+    both founders former L'Oreal formulators, IG launched Aug 2017. Source is non-primary and could NOT be
+    cached (site blocks the fetcher, empty content) -> removed the one verbatim quote and used the source for
+    paraphrased corroborated facts only, per source-cache policy. Omitted the unconfirmed 'Skincare Decoded'
+    book (not in this source). Cross-links fellow chemists [[perry-romanowski]]/[[michelle-wong]]. assurance=
+    sonnet (--force). lint+verify+style clean (verify WARN = expected non-primary allowlist).
