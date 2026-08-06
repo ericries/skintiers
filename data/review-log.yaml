@@ -1818,3 +1818,20 @@ best-gentle-cleansers-sensitive-skin:
     fragrance-free non-stripping cleansing is category-level; ranking turns on formulation/skin-type fit/cost,
     not hype. No off-site product/claim (verify clean, zero warnings); all [[xrefs]] resolve; tier_list intact.
     assurance=sonnet (--force).
+brimonidine:
+  last_reviewed: '2026-08-06'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Topical brimonidine 0.33% gel (Mirvaso), rosacea erythema, new ingredient page (Sonnet + Opus critic).
+    Completes the rosacea-treatment set (redness vs the lesion topicals metronidazole/azelaic/ivermectin).
+    Critic VERIFIED every figure verbatim vs 6 primaries: composite success 31%/11% and 25%/9% at hour 3 day 29
+    (DailyMed sec.14 + Fowler 2013), 553 subjects/4wk, alpha-2 vasoconstriction + FDA erythema indication + the
+    label's own rebound WARNING, systematic-review high-certainty rating (van Zuuren 2019 BJD/GRADE), rebound
+    figures correctly attributed to distinct sources (label warning; 10-20% specialist-panel estimate [Tanghetti
+    2015]; 5.4%/15.4% AE [Holmes 2015]; a JAAD case report). Honest: transient/cosmetic, NO disease modification,
+    rebound up front with the Fowler-4wk-vs-postmarketing tension stated. Critic verdict REVISE fixed: (1)
+    non-verbatim Holmes quotes -> exact ("not frequent"/"transient in nature"/"early in the course of
+    treatment"); (2) the "30 minutes" quote re-cited to Fowler alone (only there, not the label), keeping the
+    label on the composite %s; (3) stopped calling van Zuuren 2019 a "Cochrane review" (it is a BJD systematic
+    review with GRADE by the Cochrane rosacea group). assurance=sonnet (revise-then-fixed). lint+verify+style clean.

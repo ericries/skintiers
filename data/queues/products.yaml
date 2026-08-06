@@ -688,3 +688,9 @@
   status: pending
   discovered_from: null
   source: data/lists/best-gentle-cleansers-sensitive-skin.md
+- name: Mirvaso (brimonidine 0.33% topical gel, Galderma)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f6a4353f-ae69-4214-901f-e5d42a6fbde7

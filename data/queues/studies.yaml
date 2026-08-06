@@ -371,3 +371,9 @@
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/42555074/
+- name: 'Fowler 2013: brimonidine gel phase 3 rosacea erythema RCT'
+  type: study
+  priority: 4
+  status: pending
+  discovered_from: null
+  source: data/ingredients/brimonidine.md
