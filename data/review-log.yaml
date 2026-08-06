@@ -1806,3 +1806,15 @@ gloria-lu:
     paraphrased corroborated facts only, per source-cache policy. Omitted the unconfirmed 'Skincare Decoded'
     book (not in this source). Cross-links fellow chemists [[perry-romanowski]]/[[michelle-wong]]. assurance=
     sonnet (--force). lint+verify+style clean (verify WARN = expected non-primary allowlist).
+best-gentle-cleansers-sensitive-skin:
+  last_reviewed: '2026-08-06'
+  score: 9
+  verdict: self-reviewed
+  note: |
+    Best-of gentle cleansers filled from stub (Sonnet draft + controller lint/verify/style; curatorial, no Opus
+    critic). Ranks 4 EXISTING product pages drawn only from each product's own page: CeraVe Hydrating +
+    Cetaphil Gentle (tie, non-foaming for dry/sensitive) > LRP Toleriane Hydrating (fullest ceramide+niacinamide,
+    priciest) > CeraVe Foaming (foaming, for oily rather than barrier-impaired). Deflationary thesis: gentle
+    fragrance-free non-stripping cleansing is category-level; ranking turns on formulation/skin-type fit/cost,
+    not hype. No off-site product/claim (verify clean, zero warnings); all [[xrefs]] resolve; tier_list intact.
+    assurance=sonnet (--force).
