@@ -19,6 +19,30 @@
     {% if standfirst %}<p class="standfirst">{{ standfirst | safe }}</p>{% endif %}
   </div>
 
+  {% if evidence_levels %}
+  <section class="evlevels" aria-label="How strong is the evidence">
+    <div class="evl-head"><span class="evl-t">How strong is the evidence?</span><span class="evl-s">Three separate questions</span></div>
+    <div class="evl-lvl evl-active">
+      <div class="evl-side"><span class="evl-name"><span class="evl-n">01</span>The active</span><span class="evl-q">Does the ingredient work?</span></div>
+      <div class="evl-body">
+        <p class="evl-verdict">{% if evidence_levels.active_href %}<a href="{{ evidence_levels.active_href }}">{{ evidence_levels.active_name }}</a>{% else %}{{ evidence_levels.active_name }}{% endif %}{% if evidence_levels.active_note %} is {{ evidence_levels.active_note | safe }}{% endif %}.</p>
+        <div class="evl-status">
+          <a class="axis" href="method.html#effect" title="What does Effect: {{ evidence_levels.effect_word }} mean?"><span class="label">Effect: {{ evidence_levels.effect_word }}</span><span class="segs">{% for i in range(4) %}<i class="seg{% if i < evidence_levels.effect_segs %} on{% endif %}"></i>{% endfor %}</span></a>
+          <a class="axis" href="method.html#evidence"><span class="label">Evidence</span><span class="chip {{ evidence_levels.evidence_class }}">{{ evidence_levels.evidence_label }}</span></a>
+        </div>
+      </div>
+    </div>
+    <div class="evl-lvl evl-product">
+      <div class="evl-side"><span class="evl-name"><span class="evl-n">02</span>This product</span><span class="evl-q">A good way to get it?</span></div>
+      <div class="evl-body"><p class="evl-verdict">{{ evidence_levels.product_note | safe }}.</p></div>
+    </div>
+    <div class="evl-lvl evl-formula">
+      <div class="evl-side"><span class="evl-name"><span class="evl-n">03</span>This exact formula</span><span class="evl-q">Tested as sold?</span></div>
+      <div class="evl-body"><p class="evl-verdict">{{ evidence_levels.formula_note | safe }}.</p>{% if not evidence_levels.formula_tested %}<div class="evl-status"><span class="evl-flag">Not tested directly</span></div>{% endif %}</div>
+    </div>
+  </section>
+  {% endif %}
+
   {% if grades_view %}
   <div class="dossier">
     <div class="head">Grade &middot; <a href="method.html">effect size &times; evidence quality</a>, vs {{ comparator }}</div>

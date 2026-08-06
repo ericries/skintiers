@@ -27,6 +27,15 @@ images:
   source_url: https://www.cultbeauty.com/the-ordinary-glycolic-acid-7-exfoliating-toner-100ml/14883606.html
 key_actives:
 - glycolic-acid
+evidence_levels:
+  active: glycolic-acid
+  active_note: a well-studied AHA with a modest, mostly cosmetic effect on texture
+    and tone, and better-evidenced than most other acids
+  product_note: a genuine 7% glycolic acid held at an exfoliation-active pH (3.5 to
+    3.9), sold cheaply at about $9 for 100 ml
+  formula_note: no published trial has tested this exact 7% blend; the closest one
+    used an 8% cream, so reading across from it is reasonable but not direct
+  formula_tested: false
 name: The Ordinary Glycolic Acid 7% Toning Solution
 slug: the-ordinary-glycolic-acid-7-toning-solution
 status: published

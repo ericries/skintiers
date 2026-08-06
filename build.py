@@ -302,6 +302,47 @@ def grades_view_for(metadata, published_slugs=None, slug_to_name=None):
     return view
 
 
+def evidence_levels_view(metadata, published_slugs=None, slug_to_name=None):
+    """Build the three-level evidence model from a product's `evidence_levels:`
+    frontmatter, or None if absent. Separates the evidence a reader conflates:
+      01 the active/ingredient (reuses the top grade's effect x evidence + links
+         the ingredient page), 02 this product as a vehicle (authored, factual),
+         03 this exact formula (authored; whether the product itself was tested).
+    Levels 02/03 carry no rendered editorial verdict badge on purpose — the notes
+    state the facts and the reader judges. Notes may hold [[xrefs]]/markdown."""
+    el = metadata.get("evidence_levels")
+    if not el:
+        return None
+    published_slugs = published_slugs or frozenset()
+    slug_to_name = slug_to_name or {}
+
+    def note(text):
+        if not text:
+            return ""
+        html = sklib.render_markdown(
+            sklib.linkify_xrefs(text, published_slugs, slug_to_name)).strip()
+        if html.startswith("<p>") and html.endswith("</p>") and html.count("<p>") == 1:
+            html = html[3:-4]
+        return html
+
+    active = (el.get("active") or "").strip()
+    gv = grades_view_for(metadata, published_slugs, slug_to_name)
+    g0 = gv[0] if gv else None
+    return {
+        "active_slug": active,
+        "active_name": slug_to_name.get(active, active),
+        "active_href": f"{active}.html" if active in published_slugs else None,
+        "active_note": note(el.get("active_note")),
+        "effect_word": g0["effect_word"] if g0 else "",
+        "effect_segs": g0["effect_segs"] if g0 else 0,
+        "evidence_class": g0["evidence_class"] if g0 else "",
+        "evidence_label": g0["evidence_label"] if g0 else "",
+        "product_note": note(el.get("product_note")),
+        "formula_note": note(el.get("formula_note")),
+        "formula_tested": bool(el.get("formula_tested", False)),
+    }
+
+
 # --- Routine dashboards ---------------------------------------------------
 # A `list` of `kind: routine` carries an ordered `steps:` list in frontmatter:
 #   steps:
@@ -1002,6 +1043,7 @@ def build():
             sources_html=sources_html,
             comparator=p.get("comparator") or "others in its category",
             grades_view=grades_view_for(p.metadata, slugs, names),
+            evidence_levels=evidence_levels_view(p.metadata, slugs, names),
             recommended_in=p.get("recommended_in") or [],
             images=images,
             monogram=monogram,

@@ -723,3 +723,37 @@ def test_grade_note_resolves_xrefs_and_markdown(tmp_path):
     assert "[[retinol]]" not in html                 # no raw wiki brackets
     assert "[[nope-xyz]]" not in html                # missing target -> plain text, not brackets
     assert "nope-xyz" in html                        # (its label still shows)
+
+
+def test_evidence_levels_block_renders(tmp_path):
+    # A product with an `evidence_levels:` block renders the three-level section:
+    # 01 the active (link + effect segs + evidence badge from the top grade),
+    # 02 this product (factual note, no verdict badge), 03 this exact formula.
+    data = tmp_path / "data"
+    out = tmp_path / "_site"
+    _write(data / "ingredients", "glycolic-acid", "published", "ingredient")
+    (data / "products").mkdir(parents=True, exist_ok=True)
+    (data / "products" / "tone.md").write_text(
+        "---\nname: Tone\nslug: tone\ntype: product\nstatus: published\n"
+        "updated: 2026-08-06\nanalyzed: 2026-08-06\ncategory: Exfoliants\n"
+        "grades:\n- effect: modest\n  evidence: mixed\n  use: For texture (cosmetic)\n"
+        "evidence_levels:\n  active: glycolic-acid\n"
+        "  active_note: a well-studied AHA\n"
+        "  product_note: a genuine 7% acid at active pH\n"
+        "  formula_note: no trial tested this exact blend\n  formula_tested: false\n"
+        "---\n\n## Summary\n\nBody.\n\n## Sources\n\nNone.\n"
+    )
+    env = {**os.environ, "SK_DATA": str(data), "SK_OUTPUT": str(out)}
+    r = subprocess.run([sys.executable, str(ROOT / "build.py")], env=env,
+                       capture_output=True, text=True)
+    assert r.returncode == 0, r.stderr
+    html = (out / "tone.html").read_text()
+    assert 'class="evlevels"' in html                       # block renders
+    assert "How strong is the evidence?" in html
+    assert 'href="glycolic-acid.html"' in html              # active links out
+    assert "The active" in html and "This product" in html and "This exact formula" in html
+    assert "a genuine 7% acid at active pH" in html         # level-02 factual note
+    assert "Not tested directly" in html                    # level-03 factual flag
+    assert 'class="seg on"' in html                         # effect segs (from grade)
+    # a product without the block renders no such section
+    assert 'class="evlevels"' not in (out / "glycolic-acid.html").read_text()

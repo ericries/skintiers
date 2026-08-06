@@ -379,3 +379,23 @@ footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;
   border:1px solid var(--rule);border-radius:4px;padding:1px 6px}
 .tl-note{font-size:13px;color:var(--ink-soft,#6b6f68)}
 @media(max-width:560px){.tl-tier{grid-template-columns:1fr;gap:8px}}
+
+/* Three-level product evidence block (active / this product / this exact formula) */
+.evlevels{border:1px solid var(--rule-strong);border-radius:12px;background:var(--card);overflow:hidden;margin:22px 0}
+.evl-head{display:flex;align-items:baseline;justify-content:space-between;gap:12px;padding:12px 18px;border-bottom:1px solid var(--rule)}
+.evl-head .evl-t{font-family:var(--mono);font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink)}
+.evl-head .evl-s{font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--faint)}
+.evl-lvl{display:grid;grid-template-columns:158px 1fr;gap:14px;padding:15px 18px;position:relative}
+.evl-lvl + .evl-lvl{border-top:1px solid var(--rule)}
+.evl-lvl::before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--evl-edge,var(--rule-strong))}
+.evl-active{--evl-edge:var(--tier-good)}
+.evl-product{--evl-edge:var(--accent)}
+.evl-formula{--evl-edge:var(--tier-weak)}
+.evl-side{display:flex;flex-direction:column;gap:5px}
+.evl-name{font-family:var(--mono);font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink);display:flex;align-items:baseline;gap:7px}
+.evl-n{font-size:10.5px;color:var(--faint)}
+.evl-q{font-family:var(--mono);font-size:10px;letter-spacing:.02em;color:var(--faint);line-height:1.45}
+.evl-verdict{margin:0;font-size:16.5px;line-height:1.5}
+.evl-status{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-top:9px}
+.evl-flag{font-family:var(--mono);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:#fff;background:var(--tier-weak);padding:3px 9px;border-radius:5px}
+@media(max-width:560px){.evl-lvl{grid-template-columns:1fr;gap:7px}.evl-lvl::before{width:100%;height:3px;bottom:auto}}
