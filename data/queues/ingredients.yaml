@@ -490,3 +490,33 @@
   status: pending
   discovered_from: null
   source: data/products/first-aid-beauty-ultra-repair-cream.md
+- name: Hydroquinone (topical depigmenting agent)
+  type: ingredient
+  priority: 6
+  status: done
+  discovered_from: null
+  source: data/conditions/hyperpigmentation.md
+- name: Tranexamic acid (topical/oral, melasma)
+  type: ingredient
+  priority: 6
+  status: done
+  discovered_from: null
+  source: data/conditions/hyperpigmentation.md
+- name: Alpha arbutin (skin brightening)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: data/conditions/hyperpigmentation.md
+- name: Kojic acid (skin brightening)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: data/conditions/hyperpigmentation.md
+- name: Cysteamine (topical, melasma)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: data/conditions/hyperpigmentation.md
