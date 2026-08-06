@@ -364,3 +364,10 @@
   status: pending
   discovered_from: null
   source: data/goals/anti-aging.md
+- name: Nguyen 2026 Use of an Eczema Moisturizer or Cream Provides Immediate, Sustained
+    Itch Relief in Eczema- (PMID 42555074)
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://pubmed.ncbi.nlm.nih.gov/42555074/
