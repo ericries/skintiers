@@ -10,6 +10,14 @@ videos:
   url: https://www.youtube.com/shorts/K5zwloQza9M
   thesis: "Mineral filters are not inherently better than organic ones. Zinc oxide absorbs most UV and re-emits it as heat much like organic filters do (with negligible temperature difference), and its UVA absorption is broad but weak, so the highest-UVA-rated sunscreens on the market are organic or hybrid, not mineral."
   note: "Verified from the video's own transcript (fetched with yt-dlp; auto-captions read in full, not just the caption). Wong is a credentialed cosmetic chemist (PhD); non-sponsored. Her framing of zinc oxide's absorption as broad-but-low matches the coverage chart on this page. Details on filter safety and heat sit in the sections below."
+- title: "#184) Are You Applying Enough Sunscreen correctly? | Chemist Confessions Podcast #skincarereview"
+  creator: Chemist Confessions (Victoria Fu and Gloria Lu)
+  creator_slug: victoria-fu
+  credential: Cosmetic chemists
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=1XaMAFDY36I
+  thesis: "In a summary episode, the two cosmetic chemists distill years of testing sunscreens into practical takeaways for choosing and using one. They keep returning to application amount, since most people underapply, offering a two-finger or roughly quarter-teaspoon guide for the face as a rough calibration, and they argue reapplication should be judged by time and activity rather than by the SPF number. They also stress that a sunscreen's texture and feel matter, because a formula you enjoy is one you will actually apply enough of and reapply."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship disclosed. Cosmetic chemists; an educational summary of how to choose and apply sunscreen, not a promotion of their own line."
 - title: "Debunking this year's top sunscreen myths"
   creator: Michelle Wong
   creator_slug: michelle-wong
