@@ -1898,3 +1898,18 @@ cerave-resurfacing-retinol-serum:
     ~$10) handled as cross-refs not fresh assertions. Critic REVISE fixed 1: a niacinamide marketing quote
     ("to help soothe skin") not verbatim in cache -> softened to the cache-supported "soothing" (body + footnote);
     licorice "brighten" quote was verbatim, kept. assurance=sonnet (revise-then-fixed). lint+verify+style clean.
+fisher-1996-retinoid-antagonism-photoaging:
+  last_reviewed: '2026-08-07'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Fisher 1996 (Nature, PMID 8552187), the landmark UV->AP-1/NF-kB->MMP mechanism study underpinning every
+    retinoid-for-photoaging claim on the site. Compact/structured study scope (~40k drafter). Abstract-only
+    (Nature paywalled, disclosed). Critic re-fetched PubMed and confirmed EVERY quote verbatim ("within hours of
+    exposure to ultraviolet-B", "well below those that cause skin reddening", "Within minutes, low-dose UVB
+    upregulated the transcription factors AP-1 and NF-kappa B", retinoic acid "substantially reduced AP-1 and
+    metalloproteinase induction"); NO numbers/n/fold-changes invented (abstract has none - page says so).
+    Critic verdict REVISE on 1 substantive item, fixed: the collagen/elastin DEGRADATION step is the study's
+    proposal ("We propose"), not measured -> reworded to attribute it as the authors' proposal; also fixed a
+    dropped connective and softened "topical"->"applied to the skin". Honest mechanistic-not-clinical framing.
+    assurance=sonnet (revise-then-fixed). lint+verify+style clean.

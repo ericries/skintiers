@@ -730,3 +730,9 @@
   status: pending
   discovered_from: null
   source: https://supergoop.com
+- name: SkinCeuticals Retinol 0.5 Refining Night Cream
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: null
+  source: https://www.skinceuticals.com
