@@ -563,3 +563,9 @@
   status: pending
   discovered_from: prequel-skin-utility-gel
   source: null
+- name: arbutin
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: wave5-sunscreens
+  source: null

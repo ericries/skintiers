@@ -62,15 +62,17 @@
 - name: Vanicream Sunscreen SPF 50
   type: product
   priority: 8
-  status: pending
+  status: done
   discovered_from: null
   source: null
+  note: no such product; real SKU is Facial Moisturizer SPF 30 (re-queued)
 - name: CeraVe Hydrating Mineral Sunscreen SPF 50
   type: product
   priority: 8
-  status: pending
+  status: done
   discovered_from: null
   source: null
+  note: reconciled
 - name: Round Lab Birch Juice Moisturizing Sun SPF50+
   type: product
   priority: 8
@@ -100,9 +102,10 @@
 - name: Paula's Choice Clinical 1% Retinol Treatment
   type: product
   priority: 8
-  status: pending
+  status: done
   discovered_from: null
   source: null
+  note: 'reconciled: published as paulas-choice-clinical-1-retinol-treatment (house-aligned slug)'
 - name: Cetaphil Gentle Skin Cleanser
   type: product
   priority: 8
@@ -138,9 +141,10 @@
 - name: SKIN1004 Madagascar Centella Air-Fit Suncream
   type: product
   priority: 7
-  status: pending
+  status: done
   discovered_from: null
   source: null
+  note: reconciled
 - name: Neutrogena Ultra Sheer Dry-Touch SPF 55
   type: product
   priority: 7
@@ -229,9 +233,10 @@
 - name: Prequel Redness Reform Soothing Serum
   type: product
   priority: 8
-  status: pending
+  status: done
   discovered_from: null
   source: null
+  note: duplicate of prequel-redness-reform-serum (same SKU)
 - name: Prequel Redness Reform Sulfur Cleanser
   type: product
   priority: 7
@@ -266,9 +271,10 @@
 - name: Anua Rice 70 Glow Milky Toner
   type: product
   priority: 8
-  status: pending
+  status: done
   discovered_from: null
   source: null
+  note: reconciled
 - name: Anua Heartleaf 77% Soothing Toner
   type: product
   priority: 7
@@ -278,9 +284,10 @@
 - name: Aestura Atobarrier 365 Cream
   type: product
   priority: 8
-  status: pending
+  status: done
   discovered_from: null
   source: null
+  note: reconciled
 - name: Aestura Atobarrier 365 Lotion
   type: product
   priority: 7
@@ -380,9 +387,10 @@
 - name: Youth To The People Retinal + Niacinamide Youth Serum
   type: product
   priority: 9
-  status: pending
+  status: done
   discovered_from: wirecutter-best-retinols
   source: null
+  note: 'reconciled: published as youth-to-the-people-retinal-niacinamide-serum (house-aligned slug)'
 - name: LilyAna Naturals Retinol Cream
   type: product
   priority: 9
@@ -400,15 +408,17 @@
 - name: Trader Joe's Retinol Night Serum
   type: product
   priority: 9
-  status: pending
+  status: done
   discovered_from: wirecutter-best-retinols
   source: null
+  note: 'reconciled: published as trader-joes-retinol-night-serum (house-aligned slug)'
 - name: L'Oreal Paris Revitalift 0.3% Pure Retinol Serum
   type: product
   priority: 9
-  status: pending
+  status: done
   discovered_from: wirecutter-best-retinols
   source: null
+  note: 'reconciled: published as loreal-paris-revitalift-0-3-pure-retinol-serum (house-aligned slug)'
 - name: Differin Gel 0.3% (adapalene)
   type: product
   priority: 5
@@ -757,3 +767,27 @@
   status: pending
   discovered_from: null
   source: https://www.skinceuticals.com
+- name: Naturium Niacinamide Serum 12% Plus
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://www.naturium.com/products/niacinamide-serum-12-plus
+- name: Paula's Choice 10% Niacinamide Booster
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://www.paulaschoice.com/10-niacinamide-booster/2130.html
+- name: Geek & Gorgeous B-Bomb 10% Niacinamide
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://geekandgorgeous.com/products/b-bomb
+- name: Vanicream Facial Moisturizer Broad Spectrum SPF 30
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://www.vanicream.com/product/facial-moisturizer-spf-30

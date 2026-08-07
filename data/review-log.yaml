@@ -2275,3 +2275,83 @@ paulas-choice-clinical-1-retinol-treatment:
     (quarantined, not asserted), efficacy routed out. REVISE fixed: corrected an off-by-one ingredient ordinal
     (retinol is 17th/tetrahexyldecyl ascorbate 16th of 53, not 16th/15th of 52), an apostrophe deviation in a
     quoted stat, and a citation over-reach on a sibling-product clause. assurance=sonnet. lint clean.
+best-niacinamide-products:
+  last_reviewed: '2026-08-07'
+  score: 9
+  verdict: self-reviewed
+  note: |
+    The Best Niacinamide Products (best-of LIST; curatorial, references only already-published pages). Daily LIST
+    cron: single Sonnet draft + own lint/verify/style (no Opus critic — curatorial, references verified pages,
+    low new-claim risk). Ranks the site's 5 dedicated niacinamide serums evidence-first (health uses over
+    cosmetic): Some By Mi Yuja Niacin (10% + trial-backed oil-reduction case via [[niacinamide-sebum-studies]])
+    > The Ordinary 10%+Zinc = Good Molecules 10% (tied, plain ~$6, dose above tested range) > YTTP Retinal+
+    Niacinamide (5%, within tested range but case leans on undisclosed retinal) > Anua Nano Retinol+Niacin
+    (undisclosed niacinamide %, paired with weaker-evidenced retinol). No new claims; niacinamide evidence routed
+    to [[niacinamide]]. assurance=sonnet. lint+verify+style clean.
+cerave-hydrating-mineral-sunscreen-spf-50:
+  last_reviewed: '2026-08-07'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    CeraVe Hydrating Mineral Sunscreen SPF 50 (link-out; on [[zinc-oxide]], [[titanium-dioxide]],
+    [[sunscreen-uv-filters]], [[ceramides]]). Wave-5 queue drain. 100%-mineral Broad Spectrum SPF 50, titanium
+    dioxide 9% + zinc oxide 7% (no chemical filters), verified against FDA DailyMed (primary) + brand + Target
+    ($13.99/2.5 fl oz). Critic verified actives w/ mg amounts, Monograph M020, full 43-item inactive INCI (none
+    fabricated), Dr. Jenny Liu quote quarantined, fragrance-free; efficacy routed out, no trial numbers imported.
+    REVISE fixed: corrected the DailyMed label date (was calling the Jan-1-2024 publish date the "effective" date;
+    effective date is Dec-31-2023). assurance=sonnet. lint clean.
+round-lab-birch-juice-moisturizing-sun-spf-50:
+  last_reviewed: '2026-08-07'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Round Lab Birch Juice Moisturizing Sun SPF50+ (link-out; on [[sunscreen-uv-filters]], [[avobenzone]],
+    [[homosalate]], [[octisalate]]). Wave-5 queue drain. KEY point: as sold in the US (Target, "Birch Juice
+    Moisturizing UV Lock") it's SPF45+/PA++++ on the OLDER US filter trio avobenzone 2.7% + homosalate 13.5% +
+    octisalate 4.5% — NOT the modern Tinosorb/Mexoryl filters typical of Korean-market sunscreens. Critic verified
+    INCI/actives, SPF, price ($24.99/50ml), all quotes; 4.6-star stat not imported. REVISE fixed: corrected an
+    overstated comparator claim (LRP Anthelios Melt-in-Milk has FOUR filters incl. octocrylene, not the "same
+    three-filter combination"; homosalate 10% vs 13.5% not "broadly similar"). assurance=sonnet. lint clean.
+avene-mineral-ultra-light-spf-50:
+  last_reviewed: '2026-08-07'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Avène Mineral Ultra-Light SPF 50+ (link-out; on [[zinc-oxide]], [[titanium-dioxide]],
+    [[sunscreen-uv-filters]]). Wave-5 queue drain. KEY point: EU-only all-mineral facial sunscreen (titanium
+    dioxide 4% + zinc oxide 6%), SPF50+ under the EU standard, NOT sold under this name/formula in the US
+    (discontinued on LovelySkin, the one US retailer that carried it) -> graded against the EU rating with the
+    US/EU testing distinction flagged. Critic verified actives, price (EUR24.21/50ml), base INCI, all quotes vs
+    cached LookFantastic + LovelySkin + INCIdecoder. REVISE fixed: corrected a mis-cited tocopheryl-acetate line
+    (attributed to a source that doesn't list it), added INCIdecoder to Sources, fixed a vitamin-E
+    over-attribution. assurance=sonnet. lint clean.
+anua-rice-70-glow-milky-toner:
+  last_reviewed: '2026-08-07'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Anua Rice 70 Glow Milky Toner (link-out; on [[niacinamide]], [[arbutin]]). Wave-5 queue drain. KEY point: the
+    aqueous base is 71% rice BRAN WATER (a separate rice extract is declared far lower, ~0.38%/3,753 ppm), and
+    niacinamide sits 5th with no declared %; "glow/brightening" is largely cosmetic positioning. Brand before/
+    after "12.9% sebum"/"95% radiant" stats rest on an undisclosed manufacturer test -> quarantined. Critic
+    verified INCI, price, all quotes; no trial numbers imported. REVISE fixed (surgical). assurance=sonnet. lint clean.
+aestura-atobarrier-365-cream:
+  last_reviewed: '2026-08-07'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Aestura Atobarrier 365 Cream (link-out; on [[ceramides]], [[moisturizing]], [[atopic-dermatitis]]). Wave-5
+    queue drain. Ceramide barrier cream: INCI confirms Ceramide NP + cholesterol + four free fatty acids (the
+    1:1:1 barrier-lipid triad), graded on category-level ceramide evidence (no independent trial of this exact
+    cream). Critic verified INCI, price, fragrance status, all quotes; efficacy routed out. REVISE fixed
+    (surgical). assurance=sonnet. lint clean.
+skin1004-madagascar-centella-air-fit-suncream:
+  last_reviewed: '2026-08-07'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    SKIN1004 Madagascar Centella Air-Fit Suncream (link-out; on [[sunscreen-uv-filters]], [[centella-asiatica]],
+    [[zinc-oxide]], [[titanium-dioxide]]). Wave-5 queue drain. Sold as "Centella Air-Fit Suncream Plus SPF50+
+    PA++++"; confirmed a genuine MINERAL/physical sunscreen (zinc oxide + titanium dioxide only, no chemical
+    filters), Korean MFDS-labeled (NOT FDA-tested). Critic verified INCI/actives, price, all quotes; SPF/PA
+    flagged not-FDA-tested. REVISE fixed (surgical). assurance=sonnet. lint clean.
