@@ -700,3 +700,21 @@
   status: pending
   discovered_from: null
   source: https://www.laroche-posay.us
+- name: 'Beauty of Joseon Glow Deep Serum: Rice + Alpha Arbutin'
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: data/goals/glass-skin.md
+- name: Torriden Dive-In Low Molecular Hyaluronic Acid Serum
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: data/goals/glass-skin.md
+- name: Round Lab Birch Juice Moisturizing Sunscreen
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: null
+  source: data/goals/glass-skin.md
