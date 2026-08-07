@@ -76,15 +76,17 @@
 - name: Round Lab Birch Juice Moisturizing Sun SPF50+
   type: product
   priority: 8
-  status: pending
+  status: done
   discovered_from: null
   source: null
+  note: reconciled (robust)
 - name: Avène Mineral Ultra-Light SPF 50+
   type: product
   priority: 8
-  status: pending
+  status: done
   discovered_from: null
   source: null
+  note: reconciled (accent-folded)
 - name: Timeless 20% Vitamin C + E Ferulic Serum
   type: product
   priority: 8

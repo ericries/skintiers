@@ -1,14 +1,3 @@
-# Vetted expert video sources for the daily video-pull cron.
-# The cron picks the STALEST creator (oldest / null last_pulled), pulls a few of
-# their recent, NON-SPONSORED, transcript-verified videos, attaches them as
-# `videos:` cards to the most relevant existing site page, and updates last_pulled.
-# Mostly credentialed creators (board-certified dermatologists, cosmetic chemists);
-# a few vetted non-credentialed EDUCATORS whose content is science-aligned are allowed
-# but get extra per-video scrutiny and their credential is labeled honestly.
-# `conflict`: a commercial tie (own product line, affiliate storefront, sponsorships) -
-# be cautious with that creator's PRODUCT-recommendation videos and prefer their
-# educational / how-to-use content; sponsored (#ad) videos are NEVER used.
-# Each needs a person page for the card link.
 - name: Michelle Wong (Lab Muffin)
   creator_slug: michelle-wong
   credential: Cosmetic chemist, PhD
@@ -31,11 +20,14 @@
   creator_slug: kristin-leite
   credential: Beauty product developer and skincare educator (NOT a dermatologist or cosmetic chemist)
   channel: https://www.tiktok.com/@kristingl
-  conflict: runs an Amazon affiliate storefront and does sponsored posts - strongly prefer her educational / how-to / ingredient-explainer videos; be very cautious with any product recommendation (may be affiliate-driven)
-  last_pulled: null
+  conflict: runs an Amazon affiliate storefront and does sponsored posts - strongly prefer her educational
+    / how-to / ingredient-explainer videos; be very cautious with any product recommendation (may be affiliate-driven)
+  last_pulled: '2026-08-07'
 - name: Ella (@your.estie.ella)
   creator_slug: your-estie-ella
   credential: Licensed esthetician (NOT a dermatologist or cosmetic chemist)
   channel: https://www.tiktok.com/@your.estie.ella
-  conflict: non-credentialed educator (licensed esthetician, Atlanta; reportedly building a medspa) - apply extra per-video credibility scrutiny, prefer educational / how-to content over product picks, and never use sponsored videos
+  conflict: non-credentialed educator (licensed esthetician, Atlanta; reportedly building a medspa) -
+    apply extra per-video credibility scrutiny, prefer educational / how-to content over product picks,
+    and never use sponsored videos
   last_pulled: null

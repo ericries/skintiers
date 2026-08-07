@@ -26,6 +26,15 @@ slug: skin1004-madagascar-centella-asiatica-100-ampoule
 status: published
 type: product
 updated: '2026-08-07'
+videos:
+- title: "Replying to @Bubble gum What I really think of the @SKIN1004 US Centella ampoule"
+  creator: Kristin Leite
+  creator_slug: kristin-leite
+  credential: Skincare content creator (kristingl)
+  platform: TikTok
+  url: https://www.tiktok.com/@kristingl/video/7669071921773939981
+  thesis: "A longtime daily user compares the original SKIN1004 Centella Asiatica Ampoule with the newer TECA version and says she still prefers the original for its simplicity and everyday compatibility, calling it easy to layer day or night with any routine. She frames the TECA version, which adds a low, gentle level of exfoliants, as the better pick only for people wanting more potent centella or daily congestion management on oily or acne-prone skin."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 ---
 
 SKIN1004 Madagascar Centella Ampoule (SKIN1004), marketed as the Madagascar Centella Asiatica 100 Ampoule, is a seven-ingredient, fragrance-free leave-on serum built around Madagascar-grown centella asiatica extract.[^1][^2]
