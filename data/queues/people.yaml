@@ -142,3 +142,9 @@
   status: pending
   discovered_from: null
   source: https://thebeautybrains.com/about/
+- name: Melissa K. Levin
+  type: person
+  priority: 5
+  status: pending
+  discovered_from: wave4-retinoid-acne
+  source: null

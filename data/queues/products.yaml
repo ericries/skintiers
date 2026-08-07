@@ -124,15 +124,17 @@
 - name: Paula's Choice 10% Azelaic Acid Booster
   type: product
   priority: 8
-  status: pending
+  status: done
   discovered_from: null
   source: null
+  note: duplicate of paulas-choice-boost-10-azelaic-acid-booster
 - name: PanOxyl Acne Foaming Wash Benzoyl Peroxide 10%
   type: product
   priority: 8
-  status: pending
+  status: done
   discovered_from: null
   source: null
+  note: reconciled
 - name: SKIN1004 Madagascar Centella Air-Fit Suncream
   type: product
   priority: 7
@@ -384,15 +386,17 @@
 - name: LilyAna Naturals Retinol Cream
   type: product
   priority: 9
-  status: pending
+  status: done
   discovered_from: wirecutter-best-retinols
   source: null
+  note: reconciled
 - name: La Roche-Posay Effaclar Adapalene Gel 0.1%
   type: product
   priority: 9
-  status: pending
+  status: done
   discovered_from: wirecutter-best-retinols
   source: null
+  note: reconciled
 - name: Trader Joe's Retinol Night Serum
   type: product
   priority: 9

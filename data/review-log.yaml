@@ -2187,3 +2187,91 @@ dr-g-baby-mild-up-sun:
     price (25,000 KRW/60ml), all quotes. REVISE fixed: softened The Monodist source characterization ("French
     retailer carrying this SKU" -> "the K-beauty reference site The Monodist", price attributed to its listing) —
     the cache does not establish it as a French retailer that sells the product. assurance=sonnet. lint clean.
+la-roche-posay-effaclar-adapalene-gel-0-1:
+  last_reviewed: '2026-08-07'
+  score: 10
+  verdict: publish
+  note: |
+    La Roche-Posay Effaclar Adapalene Gel 0.1% (link-out; adapalene efficacy on [[adapalene]]). Wave-4 queue
+    drain (Sonnet draft + focused Opus critic). This is one of the genuinely strong OTC products — adapalene is a
+    prescription-grade retinoid now sold OTC with solid acne-trial evidence. Brand US page 403/500'd on every
+    fetch -> built entirely on Target, which reproduces the FDA Drug Facts label. Critic verified price
+    ($39.99/1.6oz/45g), Drug Facts active "adapalene usp (retinoid)(0.1%)", purpose/directions/warnings, full
+    inactive INCI, "oil-free, non comedogenic, fragrance-free" all verbatim; "90,000 dermatologists" quarantined
+    as image alt-text; efficacy routed to [[adapalene]], no trial numbers imported. Verdict publish. assurance=opus. lint clean.
+panoxyl-acne-foaming-wash-benzoyl-peroxide-10:
+  last_reviewed: '2026-08-07'
+  score: 10
+  verdict: publish
+  note: |
+    PanOxyl Acne Foaming Wash Benzoyl Peroxide 10% (link-out; BP efficacy on [[benzoyl-peroxide]]). Wave-4 queue
+    drain (Sonnet draft + focused Opus critic). KEY skeptical point: single-active 10% BPO in an otherwise plain
+    surfactant/thickener base, graded minimal/mixed (below the ingredient's usual modest/mixed) because BP's
+    evidence base is leave-on gels, not a max-strength RINSE-OFF wash — and 10% is not more effective than lower
+    % while being more irritating. Critic verified full INCI, 10% BPO active, $10.19/5.5oz, the Target-vs-brand
+    ingredient delta (oleic acid added / t-butyl alcohol omitted), all quotes verbatim; single-source stats
+    quarantined, no trial numbers imported. Verdict publish. assurance=opus. lint clean.
+youth-to-the-people-retinal-niacinamide-serum:
+  last_reviewed: '2026-08-07'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Youth To The People Retinal + Niacinamide Youth Serum (link-out; on [[retinaldehyde]], [[retinoids]],
+    [[niacinamide]]). Wave-4 queue drain. KEY point: neither retailer discloses the RETINAL percentage (only "5%
+    niacinamide" is stated; retinal sits 13th on the INCI vs niacinamide 4th), so unlike labeled competitors
+    (e.g. Medik8 Crystal Retinal's ladder) its retinaldehyde dose can't be placed against the 0.05-0.1% trials —
+    the page refuses to import the unfootnoted "0.15%" from the brand page. US site + Target 403'd -> verified via
+    Space NK + Cult Beauty (GBP66/EUR75.90, 30ml). Critic verified INCI order, 5% niacinamide (both retailers),
+    all quotes. REVISE fixed: corrected 3 displaced INCI ingredients (was asserting "declared order"), and routed
+    the imported 0.05-0.1% trial range out to [[retinaldehyde]]. assurance=sonnet. lint clean.
+lilyana-naturals-retinol-cream:
+  last_reviewed: '2026-08-07'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    LilyAna Naturals Retinol Cream (link-out; on [[retinol]], [[retinoids]]). Wave-4 queue drain. KEY skeptical
+    points: (1) discloses "just under 1%" retinol in prose but retinol sits 11th of 29 ingredients behind bulk
+    emollients/butters; (2) the "proprietary blend gives it the results of a 2.5% Retinol content" claim is
+    uncorroborated marketing -> quarantined; (3) titled "with Hyaluronic Acid" but contains NO hyaluronic acid,
+    only Caesalpinia spinosa gum branded "Botanical Hyaluronic Acid." Critic verified 29-item INCI (retinol 11th),
+    fragrance-free, prices ($29.99/1.7oz brand, $17.59 Target), all quotes; 2.5%-equiv + "98% Natural"
+    quarantined. REVISE fixed: body prose omitted Aloe Barbadensis (listed FIRST in source + footnote) -> restored
+    correct pre-retinol order in Summary + Evidence; fixed an emollient-count mismatch. assurance=sonnet. lint clean.
+trader-joes-retinol-night-serum:
+  last_reviewed: '2026-08-07'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Trader Joe's Retinol Night Serum (link-out; on [[retinol]], [[retinoids]]). Wave-4 queue drain; resolves a
+    comparator red-link referenced on other pages. KEY point: label declares 0.3% retinol (confirmed by both NYT
+    Wirecutter testing AND SkinSAFE), the derm-recommended starting dose, within the 0.1-0.4% trial range, at ~$10.
+    Critic verified $10/1 fl oz, 0.3% (both sources), 20-item INCI (exact SkinSAFE match), fragrance-free, all
+    quotes. REVISE fixed: removed an invalid "salicylic acid low by list position" inference (SkinSAFE list is
+    ALPHABETICAL, not concentration-ordered), dropped uncached INCIDecoder/PDP corroboration claims, corrected a
+    "35 retinol products" overstatement, restored a silently-trimmed quote. assurance=sonnet. lint clean.
+loreal-paris-revitalift-0-3-pure-retinol-serum:
+  last_reviewed: '2026-08-07'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    L'Oreal Paris Revitalift 0.3% Pure Retinol Serum (link-out; on [[retinol]], [[retinoids]]). Wave-4 queue
+    drain. KEY point: discloses 0.3% retinol on the label/name (near the top of the 0.1-0.4% trial range) — a
+    transparency most mass-market "Retinol" serums avoid; retinol is 14th of 23. Critic verified price ($39.99
+    direct / $29.88 Walmart), 1 fl oz, 23-item INCI, 0.3%, fragrance-free, Dr. Levin quote all verbatim; "100% of
+    women" stat manufacturer-only -> quarantined; no trial numbers imported. REVISE fixed: corrected 3
+    non-verbatim quotes ("a couple of times a week" -> "two times a week"; "12-week clinical study" -> "12-week
+    study"; panel-of-dermatologists wording), reattributed a "drying effects" claim from tocopherol to the
+    source's glycerin/HA, dropped an unsourced "(30 ml)". assurance=sonnet. lint clean.
+paulas-choice-clinical-1-retinol-treatment:
+  last_reviewed: '2026-08-07'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Paula's Choice Clinical 1% Retinol Treatment (link-out; on [[retinol]], [[retinoids]]). Wave-4 queue drain.
+    KEY point: the manufacturer states "High-strength 1% retinol concentration" directly on its page (unusually
+    explicit for OTC) — 1% is at the high end, so the page flags the irritation trade-off; + peptides and
+    tetrahexyldecyl ascorbate (a vitamin C ester). Critic verified full 53-item INCI, fragrance-free, price
+    ($65/30ml Dermstore), all quotes incl. the 33-subject/91%/94% + "0.02% tretinoin comparison" stats
+    (quarantined, not asserted), efficacy routed out. REVISE fixed: corrected an off-by-one ingredient ordinal
+    (retinol is 17th/tetrahexyldecyl ascorbate 16th of 53, not 16th/15th of 52), an apostrophe deviation in a
+    quoted stat, and a citation over-reach on a sibling-product clause. assurance=sonnet. lint clean.

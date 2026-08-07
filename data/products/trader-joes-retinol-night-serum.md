@@ -1,30 +1,22 @@
 ---
-analyzed: '2026-08-03'
+analyzed: '2026-08-07'
 assurance: sonnet
 category: Retinoids
-comparator: other over-the-counter retinoids
+comparator: SkinMedica Retinol Complex 1.0 and other over-the-counter retinol serums
 grades:
 - effect: modest
   evidence: preliminary
   note: 'health/cosmetic: topical retinol has category-level vehicle-controlled trial
-    evidence for photoaging (on the retinol and retinoids pages); no published trial
-    tests this specific serum, whose own box declares "0.3% Retinol," close to the
-    starting concentration ("around 0.3% for retinol") the dermatologists NYT Wirecutter
-    interviewed recommended; milder than prescription tretinoin; vs [[skinmedica-retinol-complex-1-0]]
-    (a premium retinol, about $96, that Wirecutter found shares seven ingredients
-    with this one), [[differin-adapalene-0-1-gel]] (an FDA-cleared OTC retinoid with
-    real acne trials, about $15), and [[anua-nano-retinol-0-3-niacin-renewing-serum]]
-    (another OTC retinol declared at the same 0.3%)'
-  use: For photoaging (fine lines, texture) (health/cosmetic)
-images:
-- file: trader-joes-retinol-night-serum-becomebetty.jpg
-  source: BecomeBetty
-  source_url: https://www.becomebetty.com/trader-joes-retinol-night-serum/
-- file: trader-joes-retinol-night-serum-laurenanne.jpg
-  source: Lauren Anne
-  source_url: https://bylaurenanne.com/trader-joes-retinol-night-serum-review/
+    evidence for photoaging, set out on [[retinol]] and [[retinoids]]; no published
+    trial tests this specific serum, but its own label declares 0.3% retinol, within
+    the 0.1%-0.4% range shown effective in those controlled trials and matching the
+    starting concentration dermatologists interviewed by NYT Wirecutter recommend,
+    unlike [[skinmedica-retinol-complex-1-0|SkinMedica Retinol Complex 1.0]], which
+    discloses no percentage at all; milder than prescription [[tretinoin-0-025-cream|tretinoin]]'
+  use: For photoaging (fine lines, texture)
 key_actives:
 - retinol
+- retinyl-esters
 name: Trader Joe's Retinol Night Serum
 recommended_in:
 - source: nytimes.com
@@ -33,61 +25,63 @@ recommended_in:
 slug: trader-joes-retinol-night-serum
 status: published
 type: product
-updated: '2026-08-03'
+updated: '2026-08-07'
 ---
 
-Trader Joe's Retinol Night Serum is a 1 fl oz (30 mL) leave-on serum whose own box declares "0.3% Retinol," sold only in Trader Joe's stores for about $10.[^becomebetty][^wirecutter]
+Trader Joe's Retinol Night Serum is a $10, 1 fl oz (30 mL) leave-on serum sold only in Trader Joe's stores, declaring 0.3% retinol on its label alongside vitamin E, sodium hyaluronate, and baobab seed oil.[^wirecutter][^skinsafe] NYT Wirecutter, which blind-tested 35 retinoid products with brand names concealed, named it a "Best value" pick, writing that it "more than holds its own against much pricier products."[^wirecutter]
 
-> NYT Wirecutter named this serum its "Best value" pick in a roundup of retinol products, writing that it "more than holds its own against much pricier products" and that "seven of this serum's ingredients overlap with those in the [[skinmedica-retinol-complex-1-0|SkinMedica serum]]," a retinol Wirecutter prices at just under $100 per fluid ounce.[^wirecutter] Topical retinol has category-level vehicle-controlled trial evidence for photoaging, covered on [[retinol]] and [[retinoids]]; its case rests on its declared 0.3% retinol, close to the concentration ("around 0.3% for retinol") the dermatologists Wirecutter interviewed recommended as a starting strength, and like every over-the-counter retinol it remains milder than prescription tretinoin.[^wirecutter] The main practical catch is availability: Trader Joe's does not sell it online, and as of early 2026 the chain has stores in 42 states and the District of Columbia.[^wirecutter]
+> A dermatologist-formulated, in-store-only serum that declares 0.3% retinol on its own label, the same starting concentration the dermatologists NYT Wirecutter interviewed recommend and the same declared strength as L'Oreal Paris Revitalift 0.3% Pure Retinol, in a $10 bottle that Wirecutter's blind-tested panel named its "Best value" pick. Wirecutter reports that "seven of this serum's ingredients overlap with those in the SkinMedica serum" (its pricier "Best for mature skin" pick, priced at $96 per [[skinmedica-retinol-complex-1-0|SkinMedica's own listing]]) and that both are "fragrance-, alcohol-, paraben-, and silicone-free."[^wirecutter] No published trial tests this exact serum; the underlying case for topical retinol is set out on [[retinol]] and [[retinoids]].
 
 ## Summary
 
-Trader Joe's Retinol Night Serum is a leave-on serum sold in a 1 fl oz (30 mL) glass pump bottle, available only in Trader Joe's physical stores rather than through the retailer's website.[^wirecutter][^becomebetty] Its own front label states "0.3% Retinol" and names baobab seed oil alongside it, a concentration and formulation independently reported by NYT Wirecutter, which describes the serum as having "moisturizing additions like vitamin E, hyaluronic acid, and baobab seed oil."[^wirecutter][^becomebetty] Both an independent blogger and Wirecutter price it at about $10 ($9.99), a small fraction of most other retinol serums on the market.[^wirecutter][^becomebetty]
+Trader Joe's Retinol Night Serum is a 1 fl oz (30 mL) leave-on serum sold exclusively in Trader Joe's stores (the chain does not sell it online) for $10.[^wirecutter] Its label declares 0.3% retinol, the same concentration NYT Wirecutter reports dermatologists it interviewed recommend as a starting dose, and SkinSAFE's independent listing corroborates that figure, describing the product as "Included in 0.3% concentration, Retinol (vitamin A), sodium hyaluronate, vitamins C & E, salicylic acid, and Baobab Seed Oil."[^wirecutter][^skinsafe]
 
-The active ingredient, [[retinol]], is a well-studied over-the-counter precursor to the receptor-active form of vitamin A. Vehicle-controlled trials show it produces gradual, measurable improvement in fine wrinkles and pigment, [set out in full on [[retinol]] and [[retinoids]]](#the-evidence). Its own declared concentration, 0.3%, sits close to what the dermatologists Wirecutter interviewed described as a sensible starting point, "around 0.3% for retinol," and it remains milder than prescription [[tretinoin]], as every over-the-counter retinol precursor does.[^wirecutter]
+Wirecutter tested it alongside 34 other retinol, retinal, and adapalene products with all brand names concealed from its 14 panelists, and named it "Best value," reporting that the serum "more than holds its own against much pricier products" and that "seven of this serum's ingredients overlap with those in the SkinMedica serum," its "Best for mature skin" pick, priced at $96 per [[skinmedica-retinol-complex-1-0|SkinMedica's own listing]].[^wirecutter] Wirecutter also notes both products share the same free-from profile: "both products are fragrance-, alcohol-, paraben-, and silicone-free."[^wirecutter] [SkinMedica Retinol Complex 1.0](skinmedica-retinol-complex-1-0) does not disclose a retinol percentage on its label at all, only a "1.0" tier name, so this serum's disclosed 0.3% is a point of transparency the pricier product lacks, [see the evidence](#the-evidence).[^wirecutter]
 
-NYT Wirecutter, which tested 35 over-the-counter retinoid products with brand names concealed, named this serum "Best value," reporting that it "more than holds its own against much pricier products" and specifically that "seven of this serum's ingredients overlap with those in the [[skinmedica-retinol-complex-1-0|SkinMedica serum]]," with both products "fragrance-, alcohol-, paraben-, and silicone-free."[^wirecutter]
-
-The practical catch is access. Trader Joe's does not sell this product online, and as of early 2026 the chain operates in 42 states and the District of Columbia, with several states holding only a single location.[^wirecutter] An independent blogger's transcription of the product's own label describes usage directions that call for starting twice weekly and increasing as tolerated, with the label itself carrying instructions and precautions.[^laurenanne][^wirecutter]
+Testers described the texture as "slick, sheer," splitting the difference between two other Wirecutter picks, and one tester "found the Trader Joe's serum to be remarkably smooth," while another "noted that her skin felt a bit tight at first, but that subsided quickly."[^wirecutter] Wirecutter also praised the packaging, noting it has "instructions and general precautions printed clearly on the label, in a type size that was actually legible," contrasting it with the SkinMedica bottle's "minuscule print."[^wirecutter] The one drawback Wirecutter names is availability: the serum "is available only in stores," and "several states have only a single [Trader Joe's] location."[^wirecutter]
 
 ## The Evidence
 
-Whether topical retinol improves aging skin, and how it compares with prescription retinoids, is covered on [[retinol]] and [[retinoids]]: in short, vehicle-controlled trials support gradual improvement in fine wrinkles and pigment, with the primary studies and the concentrations they tested set out on those pages. No published trial tests this exact serum.
+Topical retinol has category-level, vehicle-controlled trial evidence for improving fine wrinkles and pigment in aging skin, including measured increases in collagen-building activity; that evidence, and how retinol compares with prescription tretinoin, is set out in full on [[retinol]] and [[retinoids]]. No published trial tests this exact serum.
 
-> **Bottom line.** The case rests on the declared 0.3% retinol, close to the starting concentration NYT Wirecutter's dermatologist sources recommended, "around 0.3% for retinol."[^wirecutter][^becomebetty]
+What is verifiable about this product specifically is its concentration and its price-to-formula match against a well-known pricier competitor. NYT Wirecutter, whose retinol guide is based on 14 panelists testing 35 brand-concealed products over months, reports the serum's "retinol concentration of 0.3%," a figure SkinSAFE's independent ingredient listing corroborates.[^wirecutter][^skinsafe] That 0.3% sits inside the concentration range with controlled trial evidence for improving fine wrinkles and pigment on [[retinol]] (0.1% to 0.4% across the cited trials), and it matches what Wirecutter describes as dermatologists' recommended starting concentration for retinol.[^wirecutter] Wirecutter separately reports that "seven of this serum's ingredients overlap with those in the SkinMedica serum," the guide's "Best for mature skin" pick, priced at $96 per [[skinmedica-retinol-complex-1-0|SkinMedica's own listing]], and that both formulas are "fragrance-, alcohol-, paraben-, and silicone-free."[^wirecutter]
 
-NYT Wirecutter's own testing, which the outlet describes as involving 14 panelists using brand-concealed products over months, is an editorial and tester-experience review rather than a controlled trial. Its verdict on this serum was favorable: testers described a "silky texture and a pleasant tingly effect," one found it "remarkably smooth" and said she "loved how it made her skin feel," and another reported her skin "felt a bit tight at first, but that subsided quickly."[^wirecutter]
+The full ingredient list also includes retinyl palmitate, a weaker retinyl-ester precursor with thin standalone evidence, [covered on [[retinyl-esters]]](#the-evidence), and salicylic acid, whose own concentration in this formula is not disclosed. SkinSAFE's listing is alphabetized (it runs from Adansonia Digitata to Water), so salicylic acid appearing after retinol and retinyl palmitate reflects the alphabet, not concentration; it does not indicate whether the formula reaches the 0.5%-2% range at which [[salicylic-acid]] functions as an exfoliant.[^skinsafe]
 
-> **Bottom line.** Wirecutter's editorial pick and its testers' reports are a credible outside endorsement, but they are testimonial rather than clinical evidence, and do not establish an efficacy result beyond the category-level retinol case.[^wirecutter]
-
-Against comparators already covered: [[skinmedica-retinol-complex-1-0]] is a far pricier premium retinol serum that Wirecutter found shares seven ingredients with this one, though its own concentration is undisclosed by its manufacturer; [[differin-adapalene-0-1-gel]] is an FDA-cleared over-the-counter retinoid with real acne trials behind its approval, sold for about $15; and [[anua-nano-retinol-0-3-niacin-renewing-serum]] is another over-the-counter retinol declared at the same 0.3% concentration on its own label.[^wirecutter]
+> **Bottom line.** No trial has tested this exact serum, but two independent sources (Wirecutter's own testing and SkinSAFE's ingredient listing) agree its label declares 0.3% retinol, within the range shown effective in the controlled trials cited on [[retinol]] and matching the concentration dermatologists recommend for starting out, a disclosure SkinMedica's pricier competitor does not make.[^wirecutter][^skinsafe]
 
 ## What's In It
 
-The front-of-box declaration (photographed by independent reviewers) and Wirecutter's reporting name:[^becomebetty][^laurenanne][^wirecutter]
+The ingredient list, per SkinSAFE's independent listing.[^skinsafe]
 
-- [[retinol]] 0.3%, declared on the front of the box[^becomebetty][^wirecutter]
-- Baobab seed oil, named on the box alongside the retinol declaration[^becomebetty]
-- [[tocopherol|Vitamin E]] and hyaluronic acid, the other two "moisturizing additions" Wirecutter names[^wirecutter]
+Actives with a functional role, linked to their own pages:
 
-Wirecutter reports the serum is fragrance-, alcohol-, paraben-, and silicone-free, the same composition claim it makes for the [[skinmedica-retinol-complex-1-0|SkinMedica serum]].[^wirecutter]
+- [[retinol]], the labeled 0.3% headline active
+- [[retinyl-esters|Retinyl palmitate]], a weaker retinoid ester precursor
+- [[tocopherol]] and tocopheryl acetate, forms of vitamin E
+- Sodium ascorbate and ascorbyl palmitate, forms of [[vitamin-c|vitamin C]]
+- [[hyaluronic-acid|Sodium hyaluronate]], a humectant
+- [[salicylic-acid|Salicylic acid]], concentration not disclosed
+- Adansonia digitata (baobab) seed oil, an emollient
+
+Base, solvent, and preservative system: water, propanediol, caprylic/capric triglyceride, polyglyceryl-4 laurate/succinate, sorbitan oleate, phenoxyethanol, ammonium acryloyldimethyltaurate/VP copolymer, ethylhexylglycerin, citric acid, phospholipids, and sorbic acid.[^skinsafe]
 
 ## Common Marketing Claims
 
-Label claims not established by the product-specific evidence above:
+Label and marketing language not established by the graded evidence above:
 
-- **"Dermatologist Formulated."** Printed on the box; the formulator is not named.[^becomebetty][^laurenanne]
+- **"Dermatologist-formulated."** SkinSAFE's product description states: "Dermatologist-formulated Retinol Night Serum acts as an exfoliant, sloughing off dead skin cells."[^skinsafe] As with Trader Joe's other "Dermatologist Formulated" skincare, no dermatologist is named and no formulation brief has been published.
+- **"Acts as an exfoliant, sloughing off dead skin cells."** This description pairs the retinol (a cell-communicating ingredient, not a physical or acid exfoliant at typical use) with salicylic acid, whose own concentration is not disclosed on the label or in SkinSAFE's alphabetized ingredient listing. [[salicylic-acid|Salicylic acid]] functions as an exfoliant at 0.5%-2% under the US OTC acne monograph; whether this formula reaches that range cannot be determined from the available listing, and no product-specific exfoliation test was located.[^skinsafe]
 
 ## See Also
 
-[[retinol]], [[retinoids]], [[skinmedica-retinol-complex-1-0]], [[differin-adapalene-0-1-gel]], [[anua-nano-retinol-0-3-niacin-renewing-serum]].
+[[retinol]], [[retinoids]], [[skinmedica-retinol-complex-1-0]], [[the-inkey-list-starter-retinol-serum]], [[trader-joes-nourish-vitamins-c-e-facial-serum]].
 
 ## Where to Buy
 
-- [Retinol Night Serum, 1 fl oz / 30 mL (Trader Joe's, in stores only)](https://www.traderjoes.com/home/products/pdp/retinol-night-serum-072228), about $10[^wirecutter][^becomebetty]
+- Retinol Night Serum, 1 fl oz / 30 mL, $10, sold only in Trader Joe's stores; the chain does not sell it online, and no verified product-page URL was located.[^wirecutter]
 
 ## Sources
 
-[^wirecutter]: Evans, Rory. The Best Retinol Products. NYT Wirecutter, updated June 2026 (names Trader Joe's Retinol Night Serum "Best value"; quotes "more than holds its own against much pricier products," "seven of this serum's ingredients overlap with those in the SkinMedica serum," and "both products are fragrance-, alcohol-, paraben-, and silicone-free"; states "the Trader Joe's serum has a retinol concentration of 0.3%, with moisturizing additions like vitamin E, hyaluronic acid, and baobab seed oil"; quotes testers describing a "silky texture and a pleasant tingly effect," one finding it "remarkably smooth," another reporting her skin "felt a bit tight at first, but that subsided quickly"; states price "$10 from Trader Joe's" and "in-store purchase only"; states "As of early 2026, Trader Joe's has outposts in 42 states and the District of Columbia, and several states have only a single location"; and, in its methodology section, quotes dermatologists interviewed for the guide recommending starting concentrations "around 0.3% for retinol, 0.03% for retinal, and 0.1% for adapalene"; separately prices SkinMedica Retinol Complex 1.0 at "just under $100" per fluid ounce). https://www.nytimes.com/wirecutter/reviews/best-retinol-products/ (accessed 2026-08-03)
-[^becomebetty]: Sickles, Brenda. Trader Joe's Retinol Night Serum Review: A Budget Retinol That Delivers? BecomeBetty.com, published May 2022, updated August 2025 (independent photograph of the product's box and bottle, front label reading "Trader Joe's Retinol Night Serum with Baobab Seed Oil," "0.3% Retinol," "Dermatologist Formulated," "Net 1 Fl Oz (30mL)"; states price "$9.99" and availability "InStoreOnly"). https://www.becomebetty.com/trader-joes-retinol-night-serum/ (accessed 2026-08-03)
-[^laurenanne]: Lauren Anne. Trader Joe's Retinol Night Serum Review. bylaurenanne.com, published April 2022 (independent photograph of the product; states its "price point of $10"; transcribes label usage directions, "The label directions recommend you start incorporating this serum slowly into your routine by using twice per week and increase usage as your skin tolerates"; describes baobab seed oil as a named ingredient on the label). https://bylaurenanne.com/trader-joes-retinol-night-serum-review/ (accessed 2026-08-03)
+[^wirecutter]: Evans, Rory. The Best Retinol Products. NYT Wirecutter, updated June 22, 2026 (names Trader Joe's Retinol Night Serum "Best value," writing it "more than holds its own against much pricier products"; reports "seven of this serum's ingredients overlap with those in the SkinMedica serum" and that "both products are fragrance-, alcohol-, paraben-, and silicone-free"; states "the Trader Joe's serum has a retinol concentration of 0.3%, with moisturizing additions like vitamin E, hyaluronic acid, and baobab seed oil"; describes texture as "slick, sheer," noting one tester "found the Trader Joe's serum to be remarkably smooth" while another "noted that her skin felt a bit tight at first, but that subsided quickly"; praises the label's "instructions and general precautions printed clearly on the label, in a type size that was actually legible," contrasted with SkinMedica's "minuscule print"; flaw noted: "available only in stores... several states have only a single location"; price "$10 from Trader Joe's," "in-store purchase only"; methodology of 14 testers and 35 brand-concealed products, and that "the dermatologists I spoke with recommended starting with lower concentrations: around 0.3% for retinol, 0.03% for retinal, and 0.1% for adapalene"). https://www.nytimes.com/wirecutter/reviews/best-retinol-products/ (accessed 2026-08-07)
+[^skinsafe]: SkinSAFE. Trader Joe's Retinol Night Serum, 1 fl oz/30 mL, independent ingredient database (full declared ingredient list: Adansonia Digitata (Baobab) Seed Oil, Ammonium Acryloyldimethyltaurate/VP Copolymer, Ascorbyl Palmitate, Caprylic/Capric Triglyceride, Citric Acid, Ethylhexylglycerin, Phenoxyethanol, Phospholipids, Polyglyceryl-4 Laurate/Succinate, Propanediol, Retinol, Retinyl Palmitate, Salicylic Acid, Sodium Ascorbate, Sodium Hyaluronate, Sorbic Acid, Sorbitan Oleate, Tocopherol, Tocopheryl Acetate, Water; product description "Dermatologist-formulated Retinol Night Serum acts as an exfoliant, sloughing off dead skin cells. Included in 0.3% concentration, Retinol (vitamin A), sodium hyaluronate, vitamins C & E, salicylic acid, and Baobab Seed Oil"). https://www.skinsafeproducts.com/trader-joe-s-retinol-night-serum-1-fl-oz-30-ml (accessed 2026-08-07)
