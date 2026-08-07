@@ -718,3 +718,9 @@
   status: pending
   discovered_from: null
   source: data/goals/glass-skin.md
+- name: Good Molecules Discoloration Correcting Serum (tranexamic + niacinamide)
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: null
+  source: https://www.goodmolecules.com

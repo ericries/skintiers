@@ -1850,3 +1850,18 @@ la-roche-posay-pure-vitamin-c-12-serum:
     Claims; sponsored-dermatologist quote flagged. Grade modest/preliminary (no product-specific trial). Critic
     REVISE fixed 1 item: "Dermatologist Tested" quote re-cited to add [^target] (it's in Target, not LRP).
     assurance=sonnet (revise-then-fixed). lint+verify+style clean.
+good-molecules-niacinamide-serum:
+  last_reviewed: '2026-08-06'
+  score: 9
+  verdict: publish
+  note: |
+    Good Molecules Niacinamide Serum fleshed from stub (Sonnet draft + focused Opus critic; link-out page,
+    niacinamide evidence on [[niacinamide]]). Brand site is a non-rendering SPA (title only), so composition/
+    price/claims sourced from Target (honestly attributed via [^2]; brand [^1] used only for name + 30ml size).
+    Critic VERIFIED all product-specific facts vs cached Target: 10% niacinamide ("Formulated with 10%
+    Niacinamide (vitamin B3)" verbatim), 9-item INCI exact, unscented (no fragrance in INCI), $5.99/1floz.
+    Grades (barrier/pigmentation/acne health + pore-appearance cosmetic) all routed to [[niacinamide]], no
+    product-specific trial numbers imported. Verdict PUBLISH; applied the 3 advisory nits anyway before publish
+    (dropped over-attributed [^2][^3] on a general concentration/irritation claim; dropped the uncited
+    'lowest price in category' superlative; matched source wording 'fragrance-free'->'unscented'). Honest note:
+    the "above the 2-5% tested" concentration trade-off is the on-mission point. assurance=opus. lint+verify+style clean.
