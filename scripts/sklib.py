@@ -572,6 +572,31 @@ def load_all_queues(data_dir):
     return {t: load_queue(data_dir, t) for t in QUEUE_TYPES}
 
 
+_PAREN_RE = re.compile(r"\([^)]*\)")
+
+
+def _slugify(text):
+    t = (text or "").encode("ascii", "ignore").decode("ascii").lower()
+    return re.sub(r"[^a-z0-9]+", "-", t).strip("-")
+
+
+def page_exists_for(data_dir, name, type):
+    """Dedup guard: True if a data page probably already exists for this queued name.
+
+    Slugs are author-assigned, so a descriptive queue name ("Hydroquinone (topical
+    depigmenting agent)") does not map deterministically to its page slug
+    ("hydroquinone"). We check the slugified full name AND the name with any
+    parenthetical stripped against data/<plural>/<slug>.md, which catches the common
+    `<Existing thing> (descriptor)` harvest pattern that keeps re-queuing live pages."""
+    plural = TYPE_TO_LIST.get(type)
+    if not plural:
+        return False
+    base = pathlib.Path(data_dir) / plural
+    cands = {_slugify(name), _slugify(_PAREN_RE.sub(" ", name))}
+    cands.discard("")
+    return any((base / (s + ".md")).exists() for s in cands)
+
+
 def queue_add(data_dir, name, type, priority=5, discovered_from=None, source=None):
     items = load_queue(data_dir, type)
     for it in items:

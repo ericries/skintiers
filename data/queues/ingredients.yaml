@@ -520,3 +520,9 @@
   status: pending
   discovered_from: null
   source: data/conditions/hyperpigmentation.md
+- name: Some Brand New Ingredient XYZ
+  type: ingredient
+  priority: 5
+  status: done
+  discovered_from: null
+  source: null

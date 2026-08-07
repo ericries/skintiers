@@ -186,3 +186,16 @@ def test_profile_counts(tmp_path):
     counts = sklib.profile_counts(tmp_path, "ingredient")
     assert counts == {"stub": 2, "draft": 0, "published": 1}
     assert sklib.profile_counts(tmp_path, "product") == {"stub": 0, "draft": 1, "published": 0}
+
+
+def test_page_exists_for_catches_descriptor_names(tmp_path):
+    # The dedup guard must catch the "<Existing thing> (descriptor)" harvest pattern,
+    # where the queue name is a phrase but the page slug is a clean noun.
+    (tmp_path / "ingredients").mkdir(parents=True)
+    (tmp_path / "ingredients" / "hydroquinone.md").write_text("---\nslug: hydroquinone\n---\n")
+    assert sklib.page_exists_for(tmp_path, "Hydroquinone (topical depigmenting agent)", "ingredient") is True
+    assert sklib.page_exists_for(tmp_path, "hydroquinone", "ingredient") is True
+    # a genuinely new one is not flagged
+    assert sklib.page_exists_for(tmp_path, "Kojic acid (skin brightening)", "ingredient") is False
+    # wrong type does not false-match
+    assert sklib.page_exists_for(tmp_path, "Hydroquinone", "product") is False

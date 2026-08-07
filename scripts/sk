@@ -125,6 +125,10 @@ def _pending_sorted(type):
 
 def cmd_queue_add(args):
     sklib.migrate_queue(sklib.DATA_DIR)
+    if not getattr(args, "force", False) and \
+            sklib.page_exists_for(sklib.DATA_DIR, args.name, args.type):
+        print(f"skipped (page exists): {args.name}")
+        return 0
     added = sklib.queue_add(sklib.DATA_DIR, args.name, args.type, args.priority,
                             args.discovered_from, args.source)
     print(f"{'added' if added else 'already queued'}: {args.name}")
@@ -268,6 +272,8 @@ def main(argv=None):
     p_qa.add_argument("--priority", type=int, default=5)
     p_qa.add_argument("--from", dest="discovered_from", default=None)
     p_qa.add_argument("--source", default=None)
+    p_qa.add_argument("--force", action="store_true",
+                      help="queue even if a page with the derived slug already exists")
     p_qa.set_defaults(func=cmd_queue_add)
     p_q = sub.add_parser("queue")
     p_q.add_argument("--type", default=None, choices=_TYPES)
