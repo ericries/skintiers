@@ -1865,3 +1865,20 @@ good-molecules-niacinamide-serum:
     (dropped over-attributed [^2][^3] on a general concentration/irritation claim; dropped the uncited
     'lowest price in category' superlative; matched source wording 'fragrance-free'->'unscented'). Honest note:
     the "above the 2-5% tested" concentration trade-off is the on-mission point. assurance=opus. lint+verify+style clean.
+supergoop-unseen-sunscreen-spf-40:
+  last_reviewed: '2026-08-07'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Supergoop Unseen Sunscreen SPF 40 fleshed from stub (Sonnet draft + focused Opus critic; link-out page,
+    UV evidence on [[sunscreen-uv-filters]]). Critic VERIFIED filters EXACTLY vs the FDA Drug Facts label
+    (DailyMed, durable primary): avobenzone 3%, homosalate 8%, octocrylene 4%, octisalate 5%, SPF 40 broad
+    spectrum; fragrance-free (no parfum in inactives). ON-MISSION honesty (critic called it exemplary): this
+    exact SPF 40 SKU is DISCONTINUED/reformulated to SPF 50 on Supergoop's site (different filter %s) -> stated
+    plainly, NO price invented (Where-to-Buy left honestly unverified). Grades UVB strong/solid + UVA
+    notable/solid (avobenzone, hedged as behind Tinosorb/Mexoryl), routed out, no trial numbers imported.
+    Critic verdict REVISE fixed: (A) Directions re-quoted verbatim from the label ("apply generously and evenly
+    15 minutes before sun exposure" / reapply "after 40 minutes of swimming or sweating..."); (B) inactive list
+    corrected vs label (added meadowfoam estolide, removed diethylhexyl syringylidenemalonate [SPF 50 only],
+    renamed Lithothamnion calcareum); (C) loosened an unverified primer quote. assurance=sonnet
+    (revise-then-fixed). lint+verify+style clean. Published as a reference profile.

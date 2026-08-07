@@ -724,3 +724,9 @@
   status: pending
   discovered_from: null
   source: https://www.goodmolecules.com
+- name: Supergoop! Unseen Sunscreen SPF 50 (reformulated)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://supergoop.com
