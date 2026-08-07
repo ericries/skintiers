@@ -526,3 +526,9 @@
   status: done
   discovered_from: null
   source: null
+- name: Licorice root extract (dipotassium glycyrrhizate)
+  type: ingredient
+  priority: 4
+  status: pending
+  discovered_from: null
+  source: data/products/cerave-resurfacing-retinol-serum.md

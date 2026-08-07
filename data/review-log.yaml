@@ -1882,3 +1882,19 @@ supergoop-unseen-sunscreen-spf-40:
     corrected vs label (added meadowfoam estolide, removed diethylhexyl syringylidenemalonate [SPF 50 only],
     renamed Lithothamnion calcareum); (C) loosened an unverified primer quote. assurance=sonnet
     (revise-then-fixed). lint+verify+style clean. Published as a reference profile.
+cerave-resurfacing-retinol-serum:
+  last_reviewed: '2026-08-07'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    CeraVe Resurfacing Retinol Serum fleshed from stub (Sonnet draft, which died on an API error mid-run but
+    completed the page before dying; resumed once; + focused Opus critic). Link-out page; retinol evidence on
+    [[retinol]]/[[retinoids]]. Critic VERIFIED all product-specific facts vs cached cerave.com + Target:
+    CENTRAL honest claim confirmed - retinol % is NOT disclosed by CeraVe ("Retinol Concentration: Not
+    disclosed"); genuine RETINOL (19th on INCI), not a retinyl ester; niacinamide 5th, three ceramides NP/AP/EOP,
+    licorice (dipotassium glycyrrhizate); fragrance-free; $21.99 (CeraVe) / $16.49 Target (reg $18.69), 1floz.
+    Grades modest/preliminary (retinol, undisclosed dose) + minimal/mixed (ceramides) + modest/preliminary
+    (niacinamide), all routed out, no trial numbers imported; comparators (SkinMedica ~$96, Trader Joe's 0.3%
+    ~$10) handled as cross-refs not fresh assertions. Critic REVISE fixed 1: a niacinamide marketing quote
+    ("to help soothe skin") not verbatim in cache -> softened to the cache-supported "soothing" (body + footnote);
+    licorice "brighten" quote was verbatim, kept. assurance=sonnet (revise-then-fixed). lint+verify+style clean.
