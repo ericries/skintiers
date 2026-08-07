@@ -532,15 +532,17 @@
 - name: Prequel Redness Reform Serum
   type: product
   priority: 7
-  status: pending
+  status: done
   discovered_from: null
   source: Prequel NRS Seal of Acceptance (user request 2026-08-04)
+  note: 'reconciled: page published'
 - name: Prequel AM/PM Modern Moisturizer
   type: product
   priority: 7
-  status: pending
+  status: done
   discovered_from: null
   source: Prequel NRS Seal of Acceptance (user request 2026-08-04)
+  note: 'reconciled: page published'
 - name: Prequel Universal Skin Solution
   type: product
   priority: 7
@@ -629,9 +631,10 @@
 - name: SKIN1004 Madagascar Centella Asiatica 100 Ampoule
   type: product
   priority: 6
-  status: pending
+  status: done
   discovered_from: null
   source: user request 2026-08-05 (Kristin GL holy-grail video)
+  note: 'reconciled: page published'
 - name: Dear, Klairs EGF Blue Youth Activating Drop (confirm exact EGF SKU vs video)
   type: product
   priority: 6

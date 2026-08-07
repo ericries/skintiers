@@ -2009,3 +2009,106 @@ naturium-vitamin-c-complex-serum:
     reworded to state what is NOT disclosed (no n, control arm, statistical result, or peer review); (2) restored
     a non-verbatim bolded quote to the exact source wording; (3) fixed a paraphrase that recast "improve" as
     "reduction." assurance=sonnet (revise-then-fixed). lint clean.
+prequel-am-pm-modern-moisturizer:
+  last_reviewed: '2026-08-07'
+  score: 10
+  verdict: publish
+  note: |
+    Prequel AM/PM Modern Moisturizer (link-out; moisturizing/ceramide/HA evidence routed out). Wave-2 stub drain
+    (Sonnet draft + focused Opus critic). Fragrance-free ceramide-and-humectant cream (5 ceramides NP/AS/NS/EOP/AP
+    + sodium hyaluronate + glycerin + jojoba/squalane), ~$18 (Prequel $18.00 / Target $17.99, 2 fl oz). Critic
+    verified full 45-item INCI vs cached Prequel PDP + Target (none fabricated), fragrance-free, price/size, every
+    quote verbatim; society seals (NRS/NEA/NPF) + label claims quarantined as marketing, no trial numbers
+    imported. Founder line (Dr. Samantha Ellis) was missing from cache snapshot -> re-fetched live PDP, confirmed,
+    cache refreshed. Verdict publish. assurance=opus. lint clean.
+skin1004-madagascar-centella-asiatica-100-ampoule:
+  last_reviewed: '2026-08-07'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    SKIN1004 Madagascar Centella Asiatica 100 Ampoule (link-out; centella evidence on [[centella-asiatica]]).
+    Wave-2 stub drain, KristinGL holy-grail pick. KEY correction: the "100 Ampoule" name does NOT mean 100%
+    centella — the 7-ingredient INCI lists water, glycerin, butylene glycol BEFORE centella extract (4th),
+    concentration undisclosed; page now corrects the "pure centella" misconception as a composition fact. Critic
+    verified INCI, fragrance status, prices ($19.80/100ml, $15.99/55ml Target), all quotes verbatim; "7x soothing
+    actives" stat quarantined. REVISE fixed: removed the imported centella "four small trials" systematic-review
+    count from Summary + Evidence -> routed to [[centella-asiatica]] per link-out policy. assurance=sonnet. lint clean.
+klairs-egf-blue-youth-activating-drop:
+  last_reviewed: '2026-08-07'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Dear, Klairs EGF Blue Youth Activating Drop (link-out; peptide/growth-factor evidence on [[peptides]] +
+    "Overhyped" topical-growth-factor tier on [[anti-aging]]). Wave-2 stub drain, KristinGL holy-grail pick.
+    Confirmed on-label growth-factor INCI (sh-oligopeptide-1 = EGF, sh-polypeptide-1 = FGF, "EGF 10ppm + FGF
+    10ppm"); graded cosmetic anti-aging minimal/preliminary — the skeptical point is topical growth-factor
+    evidence is thin. Price not listed on brand page nor Target -> left out per policy, not guessed. Critic
+    verified 15-item INCI, no-fragrance, sizes, all quotes; "1 Million+ Sold" quarantined as a sales count.
+    REVISE fixed: trimmed an unsourced "blue-green, chamomile-derived" descriptor for guaiazulene. assurance=sonnet. lint clean.
+the-inkey-list-starter-retinol-serum:
+  last_reviewed: '2026-08-07'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    The INKEY List Starter Retinol Serum (link-out; on [[hydroxypinacolone-retinoate]], [[retinaldehyde]],
+    [[retinoids]]). Wave-2 stub drain. KEY point: despite the "Retinol" name it contains NO retinol — actives are
+    hydroxypinacolone retinoate ("1% Granactive Retinoid Pro Plus," unverified HPR fraction) + 0.01% retinal, far
+    below the 0.05-0.1% tested in the trials that make retinal the best-evidenced OTC retinoid. Critic verified
+    price ($15/EUR14), 36-item INCI, active labels, fragrance-free, all quotes vs cached US+EU brand pages; 5
+    marketing % stats + "7 days"/"2x" quarantined. REVISE fixed: removed a misattributed [^inkeyus] on retinal
+    trial concentrations, fixed non-verbatim "moisture sandwich" quote, dropped unsourced SymRelief-blend
+    attribution, corrected EU over-attribution on vegan/Leaping Bunny, dropped unsourced packaging descriptor.
+    assurance=sonnet. lint clean.
+naturium-retinol-complex-serum:
+  last_reviewed: '2026-08-07'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Naturium Retinol Complex Serum (link-out; on [[retinol]], [[retinoids]], [[bakuchiol]]). Wave-2 stub drain.
+    KEY point: the tagline claims "encapsulated retinol, a natural bio-retinol and bakuchiol" but the declared
+    INCI (corroborated by Target) lists only plain "Retinol" (5th) and "Bakuchiol" (7th) — no separate
+    encapsulation ingredient, no disclosed %. Critic verified 27-item INCI order, price ($21/30ml; $14.69
+    Target), all quotes verbatim; 8-week "clinically proven" stat quarantined, n=44 bakuchiol detail consistent
+    with the bakuchiol page. REVISE fixed: changed a pull-quote "unpublished 8-week study" -> "uncited to any
+    published journal" to match the source (only uncited is supported, not never-published). assurance=sonnet. lint clean.
+purito-cica-clearing-bb-cream:
+  last_reviewed: '2026-08-07'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Purito Seoul Cica Clearing BB Cream (link-out; on [[centella-asiatica]], [[niacinamide]], [[panthenol]],
+    [[sunscreen-uv-filters]]). Wave-2 stub drain. KEY point: despite the INCI carrying UV filters (titanium
+    dioxide, zinc oxide, octinoxate, octisalate), NEITHER the brand page nor an independent EU retailer states any
+    SPF/PA rating -> sun protection graded minimal/anecdotal, not assumed from filter presence. Target does not
+    carry the SKU -> corroborated via The Skin Counter (independent EU retailer); $12 US price left unconfirmed
+    cross-market. Critic verified 30ml/shade-#23 INCI, six shades, prices, all quotes. REVISE fixed: "fragrance-
+    free" -> "no synthetic fragrance" (source wording), "medium-coverage" reattributed to TSC (Purito says
+    "natural cover"), qualified the pigment-order note. assurance=sonnet. lint clean.
+prequel-redness-reform-serum:
+  last_reviewed: '2026-08-07'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Prequel Redness Reform Serum (link-out; on [[prequel]], [[rosacea]], [[moisturizing]]). Wave-2 stub drain
+    (part of the Prequel rosacea-approved line). KEY point: INCI carries NO niacinamide or azelaic acid — the
+    "optically reduces redness" language is explained by a green color-correcting pigment (Chromium Oxide Greens,
+    CI 77288); the rest of the redness positioning rests on common calming ingredients (oat/beta-glucan,
+    panthenol, bisabolol, licorice, arnica) unstudied for this SKU + unpublished brand consumer stats. Critic
+    verified price ($20/$19.99 Target), 1 fl oz, full INCI, fragrance-free; all marketing stats + NRS seal
+    quarantined. REVISE fixed: corrected 4 non-verbatim consumer-perception quotes ("felt" vs "agreed"), split a
+    merged 28-day "100%" quote into its three source stats, added 3 omitted INCI ingredients (butylene glycol,
+    pentylene glycol, hydroxyphenyl propamidobenzoic acid), attributed the "vitamin F" gloss to standard naming.
+    assurance=sonnet. lint clean.
+isntree-hyaluronic-acid-watery-sun-gel-spf-50:
+  last_reviewed: '2026-08-07'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Isntree Hyaluronic Acid Watery Sun Gel SPF 50+ (link-out; on [[sunscreen-uv-filters]], [[hyaluronic-acid]]).
+    Wave-2 stub drain. KEY point: this Korean sunscreen uses a MODERN, non-avobenzone filter set (Tinosorb S,
+    Tinosorb M, Uvinul A Plus, homosalate, octisalate) rated SPF 50+ PA++++ under KOREAN testing — genuinely
+    ahead of the older US chemical filter sets, but the rating is NOT FDA-tested (brand's own US store says the
+    SKU "is not available in the U.S. due to OTC regulations"). Critic re-fetched brand page (cache truncated),
+    verified full INCI incl. 8 HA derivatives + Ceramide NP + centella + astaxanthin, filter set, SPF/PA
+    (Target-corroborated), prices ($23.99 reg $33 / $21.96 brand, 1.69 fl oz). REVISE fixed: non-verbatim quote
+    "is unavailable" -> "is not available in the U.S. due to OTC regulations" in 3 places. assurance=sonnet. lint clean.
