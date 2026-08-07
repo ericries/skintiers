@@ -532,3 +532,9 @@
   status: pending
   discovered_from: null
   source: data/products/cerave-resurfacing-retinol-serum.md
+- name: sodium ascorbyl phosphate
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: naturium-vitamin-c-complex-serum
+  source: https://www.naturium.com/products/vitamin-c-complex-serum

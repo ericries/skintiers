@@ -1913,3 +1913,99 @@ fisher-1996-retinoid-antagonism-photoaging:
     proposal ("We propose"), not measured -> reworded to attribute it as the authors' proposal; also fixed a
     dropped connective and softened "topical"->"applied to the skin". Honest mechanistic-not-clinical framing.
     assurance=sonnet (revise-then-fixed). lint+verify+style clean.
+paulas-choice-skin-perfecting-8-aha-gel:
+  last_reviewed: '2026-08-07'
+  score: 10
+  verdict: publish
+  note: |
+    Paula's Choice Skin Perfecting 8% AHA Gel Exfoliant (link-out; glycolic-acid evidence on
+    [[glycolic-acid]]). Wave-1 product drain (Sonnet draft + focused Opus critic). Critic VERIFIED all
+    product-specific facts vs cached paulaschoice.in + dermstore.com (US brand page JS-blocked): full 15-item
+    INCI matches both in order (glycolic acid 2nd, labeled 8%), pH 3.5-3.9 (manufacturer-stated), fragrance-free,
+    price $34.00 RRP / $17.00 current / sold-out, 100 ml (3.3 fl oz), dated 2026-08-07. Every quoted phrase
+    verbatim; marketing claims quarantined; glycolic-acid efficacy (incl. 8%-cream/22-week Stiller RCT
+    descriptors matching glycolic-acid.md) routed out with no trial numbers imported. Key product-specific point:
+    labeled 8% matches the exact concentration of the controlled trial behind glycolic acid's texture evidence,
+    a point above The Ordinary's 7%. Verdict publish; Dermstore used in place of Target (cached, verifiable,
+    not on the Ulta/Sephora/Amazon hard-block). assurance=opus. lint clean.
+roc-retinol-correxion-deep-wrinkle-night-cream:
+  last_reviewed: '2026-08-07'
+  score: 9
+  verdict: publish
+  note: |
+    RoC Retinol Correxion Deep Wrinkle Night Cream (link-out; retinol evidence on [[retinol]]/[[retinoids]]).
+    Wave-1 product drain (Sonnet draft + focused Opus critic). Critic VERIFIED all product-specific facts vs
+    cached rocskincare.com + Target. The page's job is to quarantine RoC's aggressive unpublished manufacturer
+    figures, and it does: "7x more powerful," "96% improvement at 12 weeks," "up to 50% wrinkle reduction,"
+    "100%..." are all explicitly framed as manufacturer-only with no disclosed retinol %, no published
+    methodology, and no independent trial; the Target listing (same $21.99/1oz price, same ingredient order
+    through retinol, under a DIFFERENT name "RoC Retinol Anti-Aging + Firming Night Face Moisturizer") is
+    correctly framed as corroborating that the numbers are RoC's genuine claims for this formula, NOT
+    independently verifying them. Full INCI verbatim from source; added fragrance noted; grade modest/preliminary
+    routed out, no trial numbers imported. Critic returned verdict publish (its schema review_note came back as a
+    placeholder token; note authored here on inspection of the page). assurance=opus. lint clean.
+cerave-skin-renewing-night-cream:
+  last_reviewed: '2026-08-07'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    CeraVe Skin Renewing Night Cream (link-out; ceramide/moisturizing + niacinamide/peptide evidence routed out).
+    Wave-1 product drain (Sonnet draft + focused Opus critic + Sonnet fix). Critic verified full 40-item INCI vs
+    cached CeraVe + Target (match exactly), price ($21.99 CeraVe / $15.49 Target, 1.7 fl oz), fragrance-free,
+    every quote verbatim, no trial numbers imported, marketing/MVE claims quarantined. REVISE fixed: (1) dropped
+    the unverified container word "jar" (neither source states package type) -> "1.7 fl oz size"; (2) the
+    capitalized "Developed With Dermatologists" quote is verbatim only in CeraVe -> reattributed; (3) "3 essential
+    ceramides" quote reattributed to CeraVe only. assurance=sonnet (revise-then-fixed). lint clean.
+cerave-sa-smoothing-cleanser:
+  last_reviewed: '2026-08-07'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    CeraVe SA Smoothing Cleanser (link-out; salicylic-acid/ceramide evidence routed out). Wave-1 product drain
+    (Sonnet draft + focused Opus critic + Sonnet fix). Now sold on-shelf as the identically-formulated "Renewing
+    SA Cleanser." Critic verified INCI order+positions (niacinamide 5th, salicylic acid 16th, concentration NOT
+    disclosed -> keratolytic grade rests on category evidence), price ($15.99 CeraVe / $12.99 8fl oz Target),
+    fragrance-free/paraben-free, all quotes verbatim. REVISE fixed: (1) "oil-free" reattributed to Target only
+    (not in CeraVe's cached claims); (2) the "soften and smoothen" quote is Target's wording -> reattributed
+    (CeraVe says "soften and smooth"). assurance=sonnet (revise-then-fixed). lint clean.
+la-roche-posay-toleriane-purifying-foaming-cleanser:
+  last_reviewed: '2026-08-07'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    La Roche-Posay Toleriane Purifying Foaming Cleanser (link-out; niacinamide/ceramide evidence routed out).
+    Wave-1 product drain (Sonnet draft + focused Opus critic + Sonnet fix). Only product-specific "evidence" is
+    an unpublished brand-run 4-week consumer survey (94/94/92% figures), correctly quarantined not asserted;
+    rinse-off wash, so ingredient efficacy routed out with all grades minimal/anecdotal. Critic verified full
+    INCI, price/size ($19.99/400ml + refills), fragrance-free/sulfate-free/soap-free, all five verbatim quotes,
+    survey stats verbatim + Target-corroborated. REVISE fixed: (1) INCI transcription "caprylyl glycine" ->
+    "capryloyl glycine" (a different ingredient per source); (2) tightened the Target-corroboration wording so it
+    doesn't imply all three survey figures transfer (94% skin-feels-clean is LRP-only). assurance=sonnet. lint clean.
+vanicream-gentle-facial-cleanser:
+  last_reviewed: '2026-08-07'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Vanicream Gentle Facial Cleanser (link-out; moisturizing/atopic-dermatitis evidence routed out). Wave-1
+    product drain (Sonnet draft + focused Opus critic + Sonnet fix). Bare-bones soap-free/sulfate-free/
+    fragrance-free cleanser, NEA Seal of Acceptance, no product-specific trial; graded modest/anecdotal for
+    irritant-avoidance, minimal/mixed for its (rinsed-off) glycerin. Critic verified INCI (identical in brand +
+    Target), fragrance-free (Target-corroborated), price ($9.99, 8 fl oz), all quotes verbatim, "#1
+    dermatologist-recommended" stat quarantined. REVISE fixed: (1) restored declared INCI order (titanium
+    dioxide had been pulled up beside mica); (2) removed an imported general Cochrane "77 randomized trials"
+    finding -> routed the moisturizer evidence out to [[atopic-dermatitis]]/[[moisturizing]] per link-out policy.
+    assurance=sonnet (revise-then-fixed). lint clean.
+naturium-vitamin-c-complex-serum:
+  last_reviewed: '2026-08-07'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Naturium Vitamin C Complex Serum (link-out; vitamin C evidence on [[ascorbic-acid-vitamin-c]]). Wave-1
+    product drain (Sonnet draft + focused Opus critic + Sonnet fix). Key product-specific point: the
+    manufacturer's own INCI places sodium ascorbyl phosphate (a slow-converting, poorly-absorbed derivative) 4th,
+    AHEAD of L-ascorbic acid at 5th, despite marketing it as an "l-ascorbic acid vitamin C complex." Critic
+    verified INCI/order, fragrance-free, price ($21/30ml Naturium; $14.69 Target), six-extract blend, all quotes.
+    REVISE fixed: (1) stopped asserting the brand study was "uncontrolled"/"internal" (source says neither) ->
+    reworded to state what is NOT disclosed (no n, control arm, statistical result, or peer review); (2) restored
+    a non-verbatim bolded quote to the exact source wording; (3) fixed a paraphrase that recast "improve" as
+    "reduction." assurance=sonnet (revise-then-fixed). lint clean.
