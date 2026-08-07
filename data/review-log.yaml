@@ -2112,3 +2112,78 @@ isntree-hyaluronic-acid-watery-sun-gel-spf-50:
     verified full INCI incl. 8 HA derivatives + Ceramide NP + centella + astaxanthin, filter set, SPF/PA
     (Target-corroborated), prices ($23.99 reg $33 / $21.96 brand, 1.69 fl oz). REVISE fixed: non-verbatim quote
     "is unavailable" -> "is not available in the U.S. due to OTC regulations" in 3 places. assurance=sonnet. lint clean.
+prequel-skin-utility-gel:
+  last_reviewed: '2026-08-07'
+  score: 10
+  verdict: publish
+  note: |
+    Prequel Skin Utility Gel (link-out; glycerin efficacy on [[glycerin]]). Wave-3 stub drain (Sonnet draft +
+    focused Opus critic). Sole labeled Active is Glycerin 20.0% (skin-protectant format) + dimethicone/panthenol/
+    niacinamide support; the distinguishing "naringenin, clinically tested to reduce redness" claim rests only on
+    Prequel's own unsourced copy -> quarantined. NRS Seal independently confirmed via rosacea.org brand listing
+    (not just Prequel). Target lacks this exact SKU (only the separate Skin Utility Ointment) -> price on
+    manufacturer page alone, honestly disclosed. Critic verified active/inactive INCI, pH 4.25, fragrance-free,
+    price ($18/1.7 fl oz), all quotes verbatim; NEA/NPF seals flagged brand-displayed only, no trial numbers
+    imported. Verdict publish. assurance=opus. lint clean.
+prequel-redness-reform-sulfur-cleanser:
+  last_reviewed: '2026-08-07'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Prequel Redness Reform Sulfur Cleanser (link-out; on [[sulfur]], [[azelaic-acid]], [[prequel]], [[rosacea]]).
+    Wave-3 stub drain. Label discloses 2.5% colloidal sulfur + azelaic acid at undisclosed % in a RINSE-OFF wash;
+    graded modest/anecdotal because azelaic's solid rosacea evidence is for a 15% LEAVE-ON gel, not this
+    undisclosed-strength brief-contact format. Target lacks the SKU -> manufacturer page only (cached). Critic
+    verified $18/6 fl oz, 44-item INCI, 2.5% sulfur, flash-mask directions, all quotes; NRS Seal + "clinically
+    proven" quarantined. REVISE fixed: stripped imported azelaic-acid trial numbers (251-patient RCT, vs
+    metronidazole 0.75%) from Summary + Evidence -> routed to [[azelaic-acid]] per link-out policy. assurance=sonnet. lint clean.
+prequel-sun-barrier-mineral-sunscreen:
+  last_reviewed: '2026-08-07'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Prequel Sun Barrier Mineral Sunscreen (link-out; on [[zinc-oxide]], [[sunscreen-uv-filters]], [[prequel]]).
+    Wave-3 stub drain. FDA Drug Facts: single active zinc oxide 18.0% (Broad Spectrum SPF 50 PA++++), Target-
+    corroborated. KEY point: despite the "+ Chemical Boosters" name, NO second UV filter is declared (titanium
+    dioxide/mica/iron oxides are colorants) -> quarantined as marketing. Critic verified 42-item INCI,
+    fragrance-free, price ($22 Prequel/$21.99 Target, 1.7 fl oz), SPF/PA + 40-min water-resistance (both
+    listings), all quotes. REVISE fixed: corrected a lead-paragraph miscategorization of tin oxide as a
+    "colorant" (unsupported + inconsistent with the body) -> named the real colorants (titanium dioxide, mica,
+    iron oxides). assurance=sonnet. lint clean.
+prequel-universal-skin-solution:
+  last_reviewed: '2026-08-07'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Prequel Universal Skin Solution (link-out; on [[hypochlorous-acid]], [[prequel]]). Wave-3 stub drain.
+    Fragrance-free, alcohol-free HOCl spray, only 3 declared ingredients (water, HOCl, sodium chloride), no
+    disclosed HOCl %; the "clinically proven ... rosacea-prone" + "optically reduces redness" claims name no
+    study/n/source -> quarantined, graded minimal/preliminary-anecdotal. Critic verified INCI, fragrance/alcohol-
+    free, price, all quotes vs cached PDP. REVISE fixed: reframed an HOCl manufacturing-mechanism description
+    ("produced by electrolyzing saline") the PDP does not state -> attributed as general HOCl chemistry routed to
+    [[hypochlorous-acid]] rather than asserted under the product citation. assurance=sonnet. lint clean.
+dr-g-green-mild-up-sun:
+  last_reviewed: '2026-08-07'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Dr.G Green Mild Up Sun+ SPF50+ (link-out; on [[zinc-oxide]], [[sunscreen-uv-filters]]). Wave-3 stub drain.
+    Confirmed from a full YesStyle-listed INCI (authorized Dr.G retailer) that this is a SINGLE-filter mineral
+    sunscreen (zinc oxide only — no titanium dioxide, no organic filters), not a hybrid; graded notable/solid via
+    zinc oxide's page since no independent lab test of this SKU exists; KR SPF50+ PA++++ flagged NOT FDA-tested.
+    Price corroborated across YesStyle + Stylevana (~$29/50ml). Critic verified INCI, price/size, all quotes.
+    REVISE fixed: corrected INCI transcription "Caesalpinia spinaria" -> "Caesalpinia spinosa" (tara) per source.
+    assurance=sonnet. lint clean.
+dr-g-baby-mild-up-sun:
+  last_reviewed: '2026-08-07'
+  score: 8
+  verdict: revise-then-fixed
+  note: |
+    Dr.G Baby Mild Up Sun SPF35/PA+++ (link-out; on [[zinc-oxide]], [[sunscreen-uv-filters]]). Wave-3 stub drain.
+    IMPORTANT stub correction: the stub name "Dr.G Baby Mild Up Sun SPF50+" does NOT exist in any market — the
+    real product is "Baby Mild Up Sun SPF35/PA+++", a DISCONTINUED single-filter (zinc-oxide-only, undisclosed %)
+    mineral sunscreen no longer on Dr.G's storefront; page written/graded against the real SKU as a discontinued
+    reference (matching the Supergoop SPF40 precedent), KR SPF/PA flagged NOT FDA-tested. Critic verified INCI,
+    price (25,000 KRW/60ml), all quotes. REVISE fixed: softened The Monodist source characterization ("French
+    retailer carrying this SKU" -> "the K-beauty reference site The Monodist", price attributed to its listing) —
+    the cache does not establish it as a French retailer that sells the product. assurance=sonnet. lint clean.
