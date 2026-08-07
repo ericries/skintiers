@@ -82,7 +82,7 @@ Claims from First Aid Beauty's product page not established by the graded eviden
 
 ## See Also
 
-[[cerave-moisturizing-cream]], [[cetaphil-moisturizing-cream]], [[la-roche-posay-toleriane-double-repair-face-moisturizer]], [[colloidal-oatmeal]].
+[[cerave-moisturizing-cream]], [[cetaphil-moisturizing-cream]], [[la-roche-posay-toleriane]], [[colloidal-oatmeal]].
 
 ## Where to Buy
 

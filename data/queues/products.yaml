@@ -40,6 +40,7 @@
   status: done
   discovered_from: null
   source: null
+  note: duplicate of la-roche-posay-toleriane (canonical)
 - name: CeraVe Hydrating Facial Cleanser
   type: product
   priority: 9
@@ -76,7 +77,7 @@
   status: pending
   discovered_from: null
   source: null
-- name: "Av\xE8ne Mineral Ultra-Light SPF 50+"
+- name: Avène Mineral Ultra-Light SPF 50+
   type: product
   priority: 8
   status: pending
@@ -85,15 +86,17 @@
 - name: Timeless 20% Vitamin C + E Ferulic Serum
   type: product
   priority: 8
-  status: pending
+  status: done
   discovered_from: null
   source: null
+  note: 'reconciled: page already published'
 - name: CeraVe Resurfacing Retinol Serum
   type: product
   priority: 8
-  status: pending
+  status: done
   discovered_from: null
   source: null
+  note: 'reconciled: page already published'
 - name: Paula's Choice Clinical 1% Retinol Treatment
   type: product
   priority: 8
@@ -187,9 +190,10 @@
 - name: The Ordinary Glycolic Acid 7% Toning Solution
   type: product
   priority: 6
-  status: pending
+  status: done
   discovered_from: null
   source: null
+  note: 'reconciled: page already published'
 - name: Naturium Niacinamide Serum 12% + Zinc 2%
   type: product
   priority: 6
@@ -433,9 +437,10 @@
 - name: CeraVe PM Facial Moisturizing Lotion
   type: product
   priority: 6
-  status: pending
+  status: done
   discovered_from: cerave
   source: null
+  note: 'reconciled: page already published'
 - name: Trader Joe's Nourish Vitamins C + E + Hyaluronic Acid Facial Serum
   type: product
   priority: 6
@@ -445,9 +450,10 @@
 - name: Maelove The Glow Maker
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: skinceuticals-c-e-ferulic
   source: null
+  note: 'reconciled: page already published'
 - name: Innisfree No-Sebum Mineral Powder
   type: product
   priority: 5
@@ -469,9 +475,10 @@
 - name: Naturium Vitamin C Complex Serum
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://naturium.com/products/vitamin-c-complex-serum
+  note: 'reconciled: page already published'
 - name: SkinMedica TNS Advanced+ Serum
   type: product
   priority: 5
@@ -511,15 +518,17 @@
 - name: Soolantra (Ivermectin 1% Cream)
   type: product
   priority: 8
-  status: pending
+  status: done
   discovered_from: null
   source: user request 2026-08-04
+  note: 'reconciled: page already published'
 - name: Prequel Gleanser (Glycerin Cleanser)
   type: product
   priority: 7
-  status: pending
+  status: done
   discovered_from: null
   source: Prequel NRS Seal of Acceptance (user request 2026-08-04)
+  note: 'reconciled: page already published'
 - name: Prequel Redness Reform Serum
   type: product
   priority: 7
@@ -553,9 +562,10 @@
 - name: CeraVe Skin Renewing Night Cream
   type: product
   priority: 7
-  status: pending
+  status: done
   discovered_from: null
   source: user request 2026-08-05
+  note: 'reconciled: page already published'
 - name: Purito Seoul Cica Clearing BB Cream
   type: product
   priority: 6

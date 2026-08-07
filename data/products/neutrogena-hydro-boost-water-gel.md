@@ -71,7 +71,7 @@ Label and marketing claims not established by the graded evidence above:
 
 ## See Also
 
-[[cerave-moisturizing-cream]], [[cerave-pm-facial-moisturizing-lotion]], [[la-roche-posay-toleriane-double-repair-face-moisturizer]], [[cosrx-oil-free-ultra-moisturizing-lotion-birch-sap]], [[hyaluronic-acid]].
+[[cerave-moisturizing-cream]], [[cerave-pm-facial-moisturizing-lotion]], [[la-roche-posay-toleriane]], [[cosrx-oil-free-ultra-moisturizing-lotion-birch-sap]], [[hyaluronic-acid]].
 
 ## Where to Buy
 

@@ -78,7 +78,7 @@ Label and marketing terms not established by the graded evidence above. These ar
 ## Where to Buy
 
 - [Official product page (laroche-posay.us)](https://www.laroche-posay.us/our-products/face/face-moisturizer/toleriane-double-repair-face-moisturizer-tolerianedoublerepair.html)
-- [3.38 fl oz (Target)](https://www.target.com/p/la-roche-posay-toleriane-double-repair-face-moisturizer-with-ceramide-and-niacinamide-3-38-fl-oz/-/A-51195618)
+- [3.38 fl oz (Target)](https://www.target.com/p/la-roche-posay-toleriane-with-ceramide-and-niacinamide-3-38-fl-oz/-/A-51195618)
 - [Toleriane Double Repair Face Moisturizer (Ulta)](https://www.ulta.com/p/toleriane-double-repair-face-moisturizer-with-niacinamide-xlsImpprod16011007)
 
 ## Sources

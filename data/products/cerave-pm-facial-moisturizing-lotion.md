@@ -93,7 +93,7 @@ Label and marketing terms not established by the graded evidence above:
 
 ## See Also
 
-[[cerave-moisturizing-cream]], [[la-roche-posay-toleriane-double-repair-face-moisturizer]], [[cetaphil-moisturizing-cream]], [[niacinamide]], [[ceramides]], [[hyaluronic-acid]].
+[[cerave-moisturizing-cream]], [[la-roche-posay-toleriane]], [[cetaphil-moisturizing-cream]], [[niacinamide]], [[ceramides]], [[hyaluronic-acid]].
 
 ## Where to Buy
 

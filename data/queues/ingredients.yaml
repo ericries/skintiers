@@ -145,9 +145,10 @@
 - name: Cholesterol
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: cerave-moisturizing-cream
   source: null
+  note: 'reconciled: page already published'
 - name: Free fatty acids (skin barrier lipids)
   type: ingredient
   priority: 4
@@ -157,9 +158,10 @@
 - name: Phytosphingosine
   type: ingredient
   priority: 3
-  status: pending
+  status: done
   discovered_from: cerave-moisturizing-cream
   source: null
+  note: 'reconciled: page already published'
 - name: Free fatty acids
   type: ingredient
   priority: 5
@@ -289,9 +291,10 @@
 - name: Brimonidine (topical, Mirvaso)
   type: ingredient
   priority: 6
-  status: pending
+  status: done
   discovered_from: rosacea-erythematotelangiectatic
   source: null
+  note: 'reconciled: page already published'
 - name: Oxymetazoline (topical, Rhofade)
   type: ingredient
   priority: 6
@@ -385,15 +388,17 @@
 - name: Metronidazole (topical, for rosacea)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/25919144/
+  note: 'reconciled: page already published'
 - name: Brimonidine (topical, for rosacea redness)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/25919144/
+  note: 'reconciled: page already published'
 - name: Doxycycline (low-dose oral, for rosacea)
   type: ingredient
   priority: 5
@@ -439,15 +444,17 @@
 - name: Hydroxypinacolone retinoate (Granactive Retinoid / HPR)
   type: ingredient
   priority: 6
-  status: pending
+  status: done
   discovered_from: null
   source: user request 2026-08-05
+  note: 'reconciled: page already published'
 - name: Retinyl retinoate
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: user request 2026-08-05
+  note: 'reconciled: page already published'
 - name: Epidermal growth factor (EGF) in topical skincare
   type: ingredient
   priority: 6
