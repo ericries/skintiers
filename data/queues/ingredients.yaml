@@ -569,3 +569,15 @@
   status: pending
   discovered_from: wave5-sunscreens
   source: null
+- name: snail mucin (snail secretion filtrate)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: glass-skin
+  source: https://data.pmc.ncbi.nlm.nih.gov/?term=snail+secretion+filtrate+skin
+- name: beta-glucan
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: glass-skin
+  source: https://pubmed.ncbi.nlm.nih.gov/?term=beta-glucan+skin+hydration

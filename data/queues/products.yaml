@@ -80,7 +80,7 @@
   discovered_from: null
   source: null
   note: reconciled (robust)
-- name: Avène Mineral Ultra-Light SPF 50+
+- name: "Av\xE8ne Mineral Ultra-Light SPF 50+"
   type: product
   priority: 8
   status: done
@@ -107,7 +107,8 @@
   status: done
   discovered_from: null
   source: null
-  note: 'reconciled: published as paulas-choice-clinical-1-retinol-treatment (house-aligned slug)'
+  note: 'reconciled: published as paulas-choice-clinical-1-retinol-treatment (house-aligned
+    slug)'
 - name: Cetaphil Gentle Skin Cleanser
   type: product
   priority: 8
@@ -393,7 +394,8 @@
   status: done
   discovered_from: wirecutter-best-retinols
   source: null
-  note: 'reconciled: published as youth-to-the-people-retinal-niacinamide-serum (house-aligned slug)'
+  note: 'reconciled: published as youth-to-the-people-retinal-niacinamide-serum (house-aligned
+    slug)'
 - name: LilyAna Naturals Retinol Cream
   type: product
   priority: 9
@@ -421,7 +423,8 @@
   status: done
   discovered_from: wirecutter-best-retinols
   source: null
-  note: 'reconciled: published as loreal-paris-revitalift-0-3-pure-retinol-serum (house-aligned slug)'
+  note: 'reconciled: published as loreal-paris-revitalift-0-3-pure-retinol-serum (house-aligned
+    slug)'
 - name: Differin Gel 0.3% (adapalene)
   type: product
   priority: 5
@@ -794,3 +797,15 @@
   status: pending
   discovered_from: null
   source: https://www.vanicream.com/product/facial-moisturizer-spf-30
+- name: Beauty of Joseon Glow Deep Serum Rice + Alpha-Arbutin
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: glass-skin
+  source: https://beautyofjoseon.com/products/glow-deep-serum-rice-alpha-arbutin
+- name: Illiyoon Ceramide Ato Concentrate Cream
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: glass-skin
+  source: https://www.oliveyoung.com/store/display/getMCategoryList.do
