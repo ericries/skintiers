@@ -150,9 +150,10 @@
 - name: Neutrogena Ultra Sheer Dry-Touch SPF 55
   type: product
   priority: 7
-  status: pending
+  status: done
   discovered_from: null
   source: null
+  note: published
 - name: Paula's Choice C15 Super Booster
   type: product
   priority: 7

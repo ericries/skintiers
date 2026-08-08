@@ -2355,3 +2355,17 @@ skin1004-madagascar-centella-air-fit-suncream:
     PA++++"; confirmed a genuine MINERAL/physical sunscreen (zinc oxide + titanium dioxide only, no chemical
     filters), Korean MFDS-labeled (NOT FDA-tested). Critic verified INCI/actives, price, all quotes; SPF/PA
     flagged not-FDA-tested. REVISE fixed (surgical). assurance=sonnet. lint clean.
+neutrogena-ultra-sheer-dry-touch-spf-55:
+  last_reviewed: '2026-08-07'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Neutrogena Ultra Sheer Dry-Touch Sunscreen SPF 55 (link-out; on [[avobenzone]], [[sunscreen-uv-filters]],
+    [[homosalate]], [[octisalate]], [[octocrylene]]). Daily PRODUCT cron (Sonnet draft + Opus critic + Sonnet
+    fix). All-chemical US sunscreen: avobenzone 3% + homosalate 10% + octisalate 5% + octocrylene 10% (SPF 55
+    Broad Spectrum) — strong UVB (octisalate/octocrylene at US max, homosalate loaded high) but UVA rests SOLELY
+    on avobenzone 3% (the older-filter limitation of the US field). Critic verified INCI/actives + 28-item
+    inactive list vs FDA DailyMed (rev Nov 6 2025), fragrance status, price ($9.89/3 fl oz Target), water-
+    resistance, all marketing quotes; testing claims quarantined, no trial numbers imported. REVISE fixed: a
+    non-verbatim Directions quote ("swimming/sweating" -> label's "swimming or sweating") and a Dry-Touch/
+    Helioplex attribution (Target listing, not a separate Neutrogena source). assurance=sonnet. lint clean.
