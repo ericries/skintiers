@@ -2384,3 +2384,17 @@ imokawa-1991-ceramide-deficiency-atopic-dermatitis:
     and asserts no effect size the abstract lacks. Link-out discipline clean (general ceramide evidence routed
     out). Applied the critic's one optional fix: cut an unsupported "likely reflecting..." speculation on the
     n-range. assurance=opus. lint+verify+style clean.
+best-sunscreens-daily-wear:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: self-reviewed
+  note: |
+    The Best Daily-Wear Sunscreens on the Site (best-of LIST; curatorial, references only published pages).
+    Daily LIST cron: single Sonnet draft + own lint/verify/style (no Opus critic — curatorial). Ranks 11 published
+    daily-wear sunscreens evidence-first: Beauty of Joseon Relief Sun on top (only one with independent lab
+    verification — Consumer Reports, per its own page — behind a modern Tinosorb M/Uvinul A Plus set), then
+    Isntree (broader modern filters, no independent test, not US-sold), then FDA-tested mineral picks (Prequel
+    18% ZnO, CeraVe), then the avobenzone-based group (Neutrogena/EltaMD/LRP/Round Lab-US) by UVA grade, then
+    non-FDA-tested KR/EU entries (Avène, Dr.G Green, SKIN1004). Discontinued formulas (Supergoop Unseen SPF 40,
+    Dr.G Baby) excluded from the ranked tier and noted separately. No new claims; UV-filter science routed to
+    [[sunscreen-uv-filters]]. assurance=sonnet. lint+verify+style clean.
