@@ -16,8 +16,7 @@
   status: pending
   discovered_from: cerave-moisturizing-cream
   source: null
-- name: Goff & Stein 2025 Pediatric Dermatology cosmeceuticals ethics/talking-points
-    review
+- name: Goff & Stein 2025 Pediatric Dermatology cosmeceuticals ethics/talking-points review
   type: study
   priority: 5
   status: pending
@@ -119,190 +118,188 @@
   status: pending
   discovered_from: null
   source: https://pmc.ncbi.nlm.nih.gov/articles/PMC3587970/
-- name: Shah 2026 A Randomized Controlled Trial Analyzing the Likeability, Usability,
-    and In-Use Efficacy of (PMID 42235051)
+- name: Shah 2026 A Randomized Controlled Trial Analyzing the Likeability, Usability, and In-Use Efficacy
+    of (PMID 42235051)
   type: study
   priority: 5
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/42235051/
-- name: Prooyen 2026 Randomized Controlled Study of Bacteriophages in Acne Reveals
-    Efficacy and Novel Mechanism (PMID 42235049)
+- name: Prooyen 2026 Randomized Controlled Study of Bacteriophages in Acne Reveals Efficacy and Novel
+    Mechanism (PMID 42235049)
   type: study
   priority: 5
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/42235049/
-- name: Pantalena 2026 Photographic Assessment of Cosmetic Outcome in Postsurgical
-    Facial Scars Favors Rapidly Ab (PMID 42210897)
+- name: Pantalena 2026 Photographic Assessment of Cosmetic Outcome in Postsurgical Facial Scars Favors
+    Rapidly Ab (PMID 42210897)
   type: study
   priority: 5
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/42210897/
-- name: Draelos 2026 Efficacy, Tolerance, and Safety of a Novel Botanical Anti-Inflammatory
-    Moisturizer in Rosa (PMID 42163060)
+- name: Draelos 2026 Efficacy, Tolerance, and Safety of a Novel Botanical Anti-Inflammatory Moisturizer
+    in Rosa (PMID 42163060)
   type: study
   priority: 5
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/42163060/
-- name: LYu 2026 Efficacy and Tolerability of a Triple Acid-Containing Serum Combined
-    With 0.1% Adapalene i (PMID 42156331)
+- name: LYu 2026 Efficacy and Tolerability of a Triple Acid-Containing Serum Combined With 0.1% Adapalene
+    i (PMID 42156331)
   type: study
   priority: 5
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/42156331/
-- name: Abud 2026 A Randomized, Double-Blinded Pilot Study Comparing Synthetic Versus
-    Human-Derived Topical  (PMID 42152512)
+- name: Abud 2026 A Randomized, Double-Blinded Pilot Study Comparing Synthetic Versus Human-Derived Topical  (PMID
+    42152512)
   type: study
   priority: 5
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/42152512/
-- name: 'Payette 2026 Considerations for Genital Psoriasis Care Across Age Groups:
-    A Modified Delphi Consensus I (PMID 42126816)'
+- name: 'Payette 2026 Considerations for Genital Psoriasis Care Across Age Groups: A Modified Delphi Consensus
+    I (PMID 42126816)'
   type: study
   priority: 5
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/42126816/
-- name: Morgado-Carrasco 2026 Efficacy of a Topical Formulation on Skin Hydration
-    and Barrier Function in Individuals Wi (PMID 42108609)
+- name: Morgado-Carrasco 2026 Efficacy of a Topical Formulation on Skin Hydration and Barrier Function
+    in Individuals Wi (PMID 42108609)
   type: study
   priority: 5
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/42108609/
-- name: Zi 2026 Study on the Multiple Efficacies of Vitamin C Serum in Anti-Glycation,
-    Anti-Carbonylation, (PMID 42087444)
+- name: Zi 2026 Study on the Multiple Efficacies of Vitamin C Serum in Anti-Glycation, Anti-Carbonylation,
+    (PMID 42087444)
   type: study
   priority: 5
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/42087444/
-- name: Yosipovitch 2026 Itch Relief and Quality-of-Life Improvement with Abrocitinib
-    and Dupilumab in Patients wit (PMID 42084697)
+- name: Yosipovitch 2026 Itch Relief and Quality-of-Life Improvement with Abrocitinib and Dupilumab in
+    Patients wit (PMID 42084697)
   type: study
   priority: 5
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/42084697/
-- name: Liu 2026 Comparison of Compound Lidocaine Cream and Lidocaine-Prilocaine Cream
-    for Pain Management  (PMID 42003110)
+- name: Liu 2026 Comparison of Compound Lidocaine Cream and Lidocaine-Prilocaine Cream for Pain Management  (PMID
+    42003110)
   type: study
   priority: 5
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/42003110/
-- name: Eichenfield 2026 Identifying the Most Relevant Eczema Area and Severity Index
-    Thresholds from the Patient P (PMID 41996013)
+- name: Eichenfield 2026 Identifying the Most Relevant Eczema Area and Severity Index Thresholds from
+    the Patient P (PMID 41996013)
   type: study
   priority: 5
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41996013/
-- name: 'Wang 2026 Improved Skin Quality with a Novel Topical Body Serum: Distal Thighs
-    and Back of Hands (PMID 41981821)'
+- name: 'Wang 2026 Improved Skin Quality with a Novel Topical Body Serum: Distal Thighs and Back of Hands
+    (PMID 41981821)'
   type: study
   priority: 5
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41981821/
-- name: Maloney 2026 Hydroquinone-Free, Tetrahexyldecyl Ascorbate Antioxidant Serum
-    for Hyperpigmented and Phot (PMID 41947480)
+- name: Maloney 2026 Hydroquinone-Free, Tetrahexyldecyl Ascorbate Antioxidant Serum for Hyperpigmented
+    and Phot (PMID 41947480)
   type: study
   priority: 5
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41947480/
-- name: Afzal 2026 Prospective, Randomized, Double-Blind, Placebo-Controlled Study
-    of an Oral Antioxidant-Ric (PMID 41947475)
+- name: Afzal 2026 Prospective, Randomized, Double-Blind, Placebo-Controlled Study of an Oral Antioxidant-Ric
+    (PMID 41947475)
   type: study
   priority: 5
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41947475/
-- name: 'Farris 2026 Beyond Efficacy: 0.6% Selenium Disulfide Shampoo Matches 2% Ketoconazole
-    for Seborrheic De (PMID 41931685)'
+- name: 'Farris 2026 Beyond Efficacy: 0.6% Selenium Disulfide Shampoo Matches 2% Ketoconazole for Seborrheic
+    De (PMID 41931685)'
   type: study
   priority: 5
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41931685/
-- name: 'Ma 2026 Cross-Cultural Beliefs and Stigmatization in Vitiligo: A Systematic
-    Review (PMID 41873648)'
+- name: 'Ma 2026 Cross-Cultural Beliefs and Stigmatization in Vitiligo: A Systematic Review (PMID 41873648)'
   type: study
   priority: 5
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41873648/
-- name: 'Abedin 2026 Lactobacillus-Based Microbiome Therapy for Acne Vulgaris: A GRADE
-    Systematic Review and Me (PMID 41853869)'
+- name: 'Abedin 2026 Lactobacillus-Based Microbiome Therapy for Acne Vulgaris: A GRADE Systematic Review
+    and Me (PMID 41853869)'
   type: study
   priority: 5
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41853869/
-- name: 'Peng 2026 Oral JAK Inhibitors as a Promising Therapeutic Strategy for Refractory
-    Rosacea: A Systemat (PMID 41796703)'
+- name: 'Peng 2026 Oral JAK Inhibitors as a Promising Therapeutic Strategy for Refractory Rosacea: A Systemat
+    (PMID 41796703)'
   type: study
   priority: 5
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41796703/
-- name: Queille-Roussel 2026 Rapid, Strong, and Visible Efficacy of a Dermocosmetic
-    in Acne Patients With Dark Skin Pho (PMID 41772684)
+- name: Queille-Roussel 2026 Rapid, Strong, and Visible Efficacy of a Dermocosmetic in Acne Patients With
+    Dark Skin Pho (PMID 41772684)
   type: study
   priority: 5
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41772684/
-- name: 'Mosteirin 2026 Efficacy and Safety of Amino Acid-Enriched Hyaluronic Acid
-    in Facial Rejuvenation: A Syste (PMID 41724989)'
+- name: 'Mosteirin 2026 Efficacy and Safety of Amino Acid-Enriched Hyaluronic Acid in Facial Rejuvenation:
+    A Syste (PMID 41724989)'
   type: study
   priority: 5
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41724989/
-- name: Liao 2026 Efficacy and Safety of Sodium Hyaluronate Gel for Facial Skin Rejuvenation
-    (PMID 41650338)
+- name: Liao 2026 Efficacy and Safety of Sodium Hyaluronate Gel for Facial Skin Rejuvenation (PMID 41650338)
   type: study
   priority: 5
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41650338/
-- name: 'Singh 2026 Air Pollution and Skin Diseases: A Systematic Review of Epidemiological
-    Evidence (PMID 41649748)'
+- name: 'Singh 2026 Air Pollution and Skin Diseases: A Systematic Review of Epidemiological Evidence (PMID
+    41649748)'
   type: study
   priority: 5
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41649748/
-- name: Libecco 2026 Efficacy and Safety of Clascoterone Cream 1% for Acne Are Independent
-    of Age and Sex (PMID 41642149)
+- name: Libecco 2026 Efficacy and Safety of Clascoterone Cream 1% for Acne Are Independent of Age and
+    Sex (PMID 41642149)
   type: study
   priority: 5
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41642149/
-- name: 'Wang 2026 Comprehensive Evaluation of Body Lotion in Alleviating Xerosis:
-    A Multi-Omics Approach to  (PMID 41622615)'
+- name: 'Wang 2026 Comprehensive Evaluation of Body Lotion in Alleviating Xerosis: A Multi-Omics Approach
+    to  (PMID 41622615)'
   type: study
   priority: 5
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41622615/
-- name: Zhang 2026 Comprehensive Evaluation of a Cream With Advanced Soothing Complex
-    for Skin Recovery Follo (PMID 41622613)
+- name: Zhang 2026 Comprehensive Evaluation of a Cream With Advanced Soothing Complex for Skin Recovery
+    Follo (PMID 41622613)
   type: study
   priority: 5
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41622613/
-- name: 'Beer 2026 What''s New With Under Eye Treatment: A Multispecialty Systematic
-    Review of Recent Under Ey (PMID 41615388)'
+- name: 'Beer 2026 What''s New With Under Eye Treatment: A Multispecialty Systematic Review of Recent
+    Under Ey (PMID 41615388)'
   type: study
   priority: 5
   status: pending
@@ -314,15 +311,15 @@
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41560402/
-- name: Peacker 2026 Multiomics analyses prioritize disease genes and pathways in
-    hidradenitis suppurativa (PMID 41548865)
+- name: Peacker 2026 Multiomics analyses prioritize disease genes and pathways in hidradenitis suppurativa
+    (PMID 41548865)
   type: study
   priority: 5
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41548865/
-- name: 'Shah 2026 Delayed Full-Thickness Skin Grafting After Skin Cancer Resection:
-    A Systematic Review (PMID 41538769)'
+- name: 'Shah 2026 Delayed Full-Thickness Skin Grafting After Skin Cancer Resection: A Systematic Review
+    (PMID 41538769)'
   type: study
   priority: 5
   status: pending
@@ -364,8 +361,8 @@
   status: pending
   discovered_from: null
   source: data/goals/anti-aging.md
-- name: Nguyen 2026 Use of an Eczema Moisturizer or Cream Provides Immediate, Sustained
-    Itch Relief in Eczema- (PMID 42555074)
+- name: Nguyen 2026 Use of an Eczema Moisturizer or Cream Provides Immediate, Sustained Itch Relief in
+    Eczema- (PMID 42555074)
   type: study
   priority: 5
   status: pending

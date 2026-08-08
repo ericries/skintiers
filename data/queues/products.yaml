@@ -809,3 +809,9 @@
   status: pending
   discovered_from: glass-skin
   source: https://www.oliveyoung.com/store/display/getMCategoryList.do
+- name: Eucerin Advanced Repair Cream
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: imokawa-1991-ceramide-deficiency-atopic-dermatitis
+  source: https://www.eucerinus.com/products/advanced-repair/advanced-repair-cream

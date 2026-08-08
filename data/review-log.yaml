@@ -2369,3 +2369,18 @@ neutrogena-ultra-sheer-dry-touch-spf-55:
     resistance, all marketing quotes; testing claims quarantined, no trial numbers imported. REVISE fixed: a
     non-verbatim Directions quote ("swimming/sweating" -> label's "swimming or sweating") and a Dry-Touch/
     Helioplex attribution (Target listing, not a separate Neutrogena source). assurance=sonnet. lint clean.
+imokawa-1991-ceramide-deficiency-atopic-dermatitis:
+  last_reviewed: '2026-08-08'
+  score: 10
+  verdict: publish
+  note: |
+    Imokawa 1991 (J Invest Dermatol, PMID 2007790) — the founding study for the "ceramides are depleted in
+    eczema-prone skin" claim that anchors [[ceramides]], [[atopic-dermatitis]], and both barrier goal pages.
+    Daily STUDY cron (compact structured format, Sonnet draft + Opus profile-reviewer critic). Abstract-only
+    (JID 1991 paywalled, disclosed). Opus critic re-fetched the PubMed abstract and confirmed ALL FIVE quotes
+    verbatim (incl. the tail clause "compared with those of healthy individuals of the same age") and EVERY
+    number genuinely in the abstract: n=65 healthy, n=32-35 AD, six ceramide fractions, ceramide 1 most reduced
+    in both lesional AND non-lesional skin; page correctly discloses NO percentage/fold-change/p-value is given
+    and asserts no effect size the abstract lacks. Link-out discipline clean (general ceramide evidence routed
+    out). Applied the critic's one optional fix: cut an unsupported "likely reflecting..." speculation on the
+    n-range. assurance=opus. lint+verify+style clean.
