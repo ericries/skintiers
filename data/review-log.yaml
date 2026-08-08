@@ -2415,3 +2415,17 @@ panthenol:
     "manufacturer-adjacent but not confirmed-funded; no funding/COI statement on the PubMed record" (I re-checked
     the PubMed page myself). Manufacturer-linkage point now anchored on the verified 2017 Bayer-authored review.
     assurance=sonnet. lint+verify+style clean.
+paulas-choice-c15-super-booster:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Paula's Choice C15 Super Booster (link-out; vitamin C evidence on [[ascorbic-acid-vitamin-c]]). Daily PRODUCT
+    cron (Sonnet draft + Opus critic + Sonnet fix). KEY product-specific point: discloses an exact 15% L-ascorbic
+    acid (vs many serums that hide form/%) paired with vitamin E + ferulic acid — the same stabilizing combo
+    behind SkinCeuticals CE Ferulic's evidence — BUT PC does not publish the vitamin E/ferulic percentages, so
+    the exact studied ratio can't be confirmed; a retailer listing shows two added peptides (tridecapeptide-1,
+    palmitoyl tripeptide-5). Critic verified full INCI, 15% (corroborated across 3 sources), $59/20ml, directions
+    + copper-peptide quotes all verbatim, efficacy routed out with no imported trial numbers. REVISE fixed: two
+    ferulic-acid quotes were cited to Dermstore [^2] but are verbatim in the Paula's Choice source [^1] ->
+    re-attributed. assurance=sonnet. lint clean.
