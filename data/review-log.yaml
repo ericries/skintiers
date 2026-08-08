@@ -2398,3 +2398,20 @@ best-sunscreens-daily-wear:
     non-FDA-tested KR/EU entries (Avène, Dr.G Green, SKIN1004). Discontinued formulas (Supergoop Unseen SPF 40,
     Dr.G Baby) excluded from the ranked tier and noted separately. No new claims; UV-filter science routed to
     [[sunscreen-uv-filters]]. assurance=sonnet. lint+verify+style clean.
+panthenol:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Panthenol / provitamin B5 (INGREDIENT, prose "## The Rubric"). Daily INGREDIENT cron (Sonnet draft + Opus
+    profile-reviewer critic). 5 PubMed primaries. Critic re-fetched all five and confirmed EVERY quote verbatim
+    (Proksch 2002 barrier-repair/redness, Camargo 2011 TEWL, Ebner 2002, Heise 2019 wound-healing, 2017
+    anniversary review) and EVERY number genuine (n=38 split-face, panthenol 0.5/1/5% at 30 days, days 1/2/5/14,
+    3-of-4 Bayer authors on the 2017 review). Honest framing: anti-aging correctly left UNGRADED (no controlled
+    support), moisturizing hedged to the single Camargo trial. REVISE fixed 3 items: (1) Camargo is MeSH
+    "Single-Blind Method" -> corrected "not blinded" to single-blind/vehicle-controlled; (2) Ebner 2002's authors
+    are Beiersdorf/Eucerin-linked, NOT Bayer -> fixed the mis-grouping; (3) the Heise "funded by Bayer Vital
+    GmbH" claim was UNVERIFIABLE (PubMed shows no funding/COI statement, full text 403-paywalled) -> softened to
+    "manufacturer-adjacent but not confirmed-funded; no funding/COI statement on the PubMed record" (I re-checked
+    the PubMed page myself). Manufacturer-linkage point now anchored on the verified 2017 Bayer-authored review.
+    assurance=sonnet. lint+verify+style clean.
