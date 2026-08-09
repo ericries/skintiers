@@ -471,6 +471,16 @@ def tier_list_view(profile, by_slug):
     tl = profile.metadata.get("tier_list")
     if not tl:
         return None
+    # Optional per-list tier labels: `tier_labels:` maps a tier key (canonical
+    # best/good/mid/weak/unrated, or an alias spelling like top/strong) to a
+    # custom, factual label for THIS list only. Lets an evidence axis that is
+    # not "better/worse" (e.g. how much on-skin conversion a form needs) carry
+    # descriptive tier names without changing the global defaults.
+    label_overrides = {}
+    for k, v in (tl.get("tier_labels") or {}).items():
+        canon = _TIER_ALIASES.get(str(k).strip().lower(), str(k).strip().lower())
+        if v:
+            label_overrides[canon] = str(v)
     buckets = {k: [] for k in _TIER_ORDER}
     missing = []
     for idx, raw in enumerate(tl.get("items") or []):
@@ -508,8 +518,10 @@ def tier_list_view(profile, by_slug):
         if not rows:
             continue
         rows.sort(key=lambda r: (-r["segs"], r["order"]))
-        tiers.append({"key": key, "label": _TIER_LABEL_BY_KEY.get(key, "Unrated"), "items": rows})
+        label = label_overrides.get(key) or _TIER_LABEL_BY_KEY.get(key, "Unrated")
+        tiers.append({"key": key, "label": label, "items": rows})
     return {"title": tl.get("title") or "", "by": tl.get("by") or "",
+            "caption": tl.get("caption") or "",
             "tiers": tiers, "missing": missing}
 
 

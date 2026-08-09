@@ -622,6 +622,40 @@ def test_tier_list_view_groups_orders_and_reports_missing():
     assert build.tier_list_view(post("---\nname: X\nslug: x\ntype: list\n---\nB.\n"), by_slug) is None
 
 
+def test_tier_list_custom_labels_and_caption_override_defaults():
+    sys.path.insert(0, str(ROOT))
+    import build, frontmatter
+
+    def post(md):
+        return frontmatter.loads(md)
+
+    by_slug = {
+        "aa": post("---\nname: Alpha\nslug: aa\ntype: ingredient\nstatus: published\ntier: top\n---\nB.\n"),
+        "bb": post("---\nname: Bravo\nslug: bb\ntype: ingredient\nstatus: published\ntier: minimal\n---\nB.\n"),
+    }
+    page = post(
+        "---\nname: List\nslug: list\ntype: list\nstatus: published\n"
+        "tier_list:\n"
+        "  title: Forms\n"
+        "  by: how much on-skin conversion each needs\n"
+        "  caption: A factual map, not a quality ranking.\n"
+        "  tier_labels:\n"
+        "    top: Active as-is\n"          # alias spelling -> best
+        "    weak: Conversion unproven\n"  # canonical key
+        "  items:\n"
+        "  - aa\n"
+        "  - bb\n"
+        "---\nBody.\n"
+    )
+    v = build.tier_list_view(page, by_slug)
+    assert v["caption"] == "A factual map, not a quality ranking."
+    labels = {t["key"]: t["label"] for t in v["tiers"]}
+    assert labels["best"] == "Active as-is"      # alias key resolved
+    assert labels["weak"] == "Conversion unproven"
+    # a tier without an override keeps the global default
+    assert build._TIER_LABEL_BY_KEY["good"] == "Strong"
+
+
 def test_tier_list_section_renders_on_a_page(tmp_path):
     data = tmp_path / "data"
     out = tmp_path / "_site"

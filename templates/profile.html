@@ -125,7 +125,7 @@
   {% if tier_list %}
   <section class="tierlist" aria-label="Evidence tier list">
     {% if tier_list.title %}<h2 class="tl-title">{{ tier_list.title }}</h2>{% endif %}
-    {% if tier_list.by %}<p class="tl-by">Ranked by {{ tier_list.by }}. Tier = the strength of the evidence behind each, from the site's own grades.</p>{% endif %}
+    {% if tier_list.caption %}<p class="tl-by">{{ tier_list.caption }}</p>{% elif tier_list.by %}<p class="tl-by">Ranked by {{ tier_list.by }}. Tier = the strength of the evidence behind each, from the site's own grades.</p>{% endif %}
     {% for t in tier_list.tiers %}
     <div class="tl-tier tl-tier-{{ t.key }}">
       <div class="tl-label">{{ t.label }}</div>
