@@ -992,3 +992,53 @@
   status: pending
   discovered_from: video-javon-ford
   source: https://www.tiktok.com/@javonford16
+- name: Naked Sundays Clear Glow Sunscreen Stick
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: michelle-wong
+  source: Michelle Wong (Lab Muffin) sunscreen-stick application-payout tests (transcript-verified,
+    non-sponsored)
+- name: COSRX Niacinamide 15 Serum
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: samantha-ellis
+  source: Dr. Sam Ellis, vitamin C alternatives video (transcript-verified)
+- name: Caudalie Resveratrol Lift
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: samantha-ellis
+  source: Dr. Sam Ellis, non-retinol anti-aging pick (transcript-verified)
+- name: NIOD Copper Amino Isolate Serum
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: samantha-ellis
+  source: Dr. Sam Ellis, copper-peptide pick (transcript-verified)
+- name: Augustinus Bader The Rich Cream
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: samantha-ellis
+  source: Dr. Sam Ellis, reverse-emulsion moisturizer (transcript-verified)
+- name: Gold Bond Age Renew Retinol Body Lotion
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: samantha-ellis
+  source: Dr. Sam Ellis, affordable body retinol (transcript-verified)
+- name: Medik8 Crystal Retinal 6
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: victoria-fu
+  source: Chemist Confessions, retinaldehyde with most robust clinical testing among
+    reviewed (transcript-verified)
+- name: IOPE Stem 3 Clinical Recovery Serum
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: victoria-fu
+  source: Chemist Confessions, PDRN pick with split-face clinical vs injection (transcript-verified)
