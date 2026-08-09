@@ -1,11 +1,12 @@
 ---
-analyzed: '2026-08-08'
-assurance: sonnet
-name: Abud 2026 A Randomized, Double-Blinded Pilot Study Comparing Synthetic Versus Human-Derived Topical  (PMID 42152512)
+analyzed: '2026-08-09'
+assurance: opus
+name: Abud 2026 A Randomized, Double-Blinded Pilot Study Comparing Synthetic Versus
+  Human-Derived Topical  (PMID 42152512)
 slug: abud-2026-a-randomized-double-blinded-pilot-study-comparing-synthetic-
-status: draft
+status: published
 type: study
-updated: '2026-08-08'
+updated: '2026-08-09'
 ---
 
 A 12-week randomized, double-blinded pilot trial in 20 women found investigator ratings favored a recombinant topical [[epidermal-growth-factor]] (oligopeptide-1) serum over a human-derived growth factor serum for skin texture and firmness, though the abstract reports no numeric effect sizes.[^1]

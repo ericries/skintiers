@@ -49,7 +49,7 @@
 - name: Differin
   type: brand
   priority: 8
-  status: pending
+  status: done
   discovered_from: null
   source: null
 - name: Round Lab
@@ -61,7 +61,7 @@
 - name: Anua
   type: brand
   priority: 7
-  status: pending
+  status: done
   discovered_from: null
   source: null
 - name: SKIN1004
@@ -127,7 +127,7 @@
 - name: Aestura
   type: brand
   priority: 7
-  status: pending
+  status: done
   discovered_from: null
   source: null
 - name: Galderma
@@ -151,7 +151,7 @@
 - name: Maelove
   type: brand
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://maelove.com/products/glow-maker-vitamin-c-serum
 - name: Trader Joe's
@@ -163,7 +163,7 @@
 - name: The Ordinary (DECIEM)
   type: brand
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://theordinary.com/
 - name: Youth To The People
@@ -199,7 +199,7 @@
 - name: First Aid Beauty
   type: brand
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://www.firstaidbeauty.com
 - name: Good Molecules
@@ -211,6 +211,6 @@
 - name: Supergoop!
   type: brand
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://supergoop.com

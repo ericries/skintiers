@@ -1,11 +1,12 @@
 ---
-analyzed: '2026-08-08'
-assurance: sonnet
-name: Shah 2026 A Randomized Controlled Trial Analyzing the Likeability, Usability, and In-Use Efficacy of (PMID 42235051)
+analyzed: '2026-08-09'
+assurance: opus
+name: Shah 2026 A Randomized Controlled Trial Analyzing the Likeability, Usability,
+  and In-Use Efficacy of (PMID 42235051)
 slug: shah-2026-a-randomized-controlled-trial-analyzing-the-likeability-usab
-status: draft
+status: published
 type: study
-updated: '2026-08-08'
+updated: '2026-08-09'
 ---
 
 A randomized controlled trial found that mineral sunscreens leave a white cast that is three times more pronounced on darker skin tones, and that when application is uncontrolled, users apply less product and get less UV protection.[^1]

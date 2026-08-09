@@ -1,12 +1,16 @@
 ---
-analyzed: null
-assurance: stub
+analyzed: '2026-08-08'
+assurance: sonnet
 expertise: Dermatologists
 name: Adam Friedman
 slug: adam-friedman
-status: stub
+status: draft
 type: person
-updated: '2026-07-29'
+updated: '2026-08-08'
 ---
 
-Adam Friedman (MD, FAAD). Professor and Chair of Dermatology, Residency Program Director, and Director of Translational Research at George Washington University School of Medicine & Health Sciences. Runs an active nanomedicine/translational dermatology research program and is a frequent national CME educator/speaker, giving him a research- and teaching-driven public presence beyond direct patient care. Source: https://faculty.smhs.gwu.edu/adam-friedman (a full profile is planned).
+Dr. Adam Friedman, MD, FAAD, is Professor and Chair of the Department of Dermatology at George Washington University School of Medicine & Health Sciences, where he also directs the residency program and the department's translational research.[^gwu] His research centers on nanotechnology-based delivery of topical and injectable dermatologic treatments.[^gwu]
+
+## Sources
+
+[^gwu]: George Washington University School of Medicine & Health Sciences faculty profile for Adam Friedman, MD, FAAD (lists title as Chair, Department of Dermatology, and Professor of Dermatology, plus Residency Program Director and Director of Translational Research; describes his research on nanotechnology-based delivery for physiologically and medicinally relevant molecules). https://faculty.smhs.gwu.edu/adam-friedman (accessed 2026-08-08)

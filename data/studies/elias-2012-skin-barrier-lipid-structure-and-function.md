@@ -1,11 +1,11 @@
 ---
-analyzed: '2026-08-08'
+analyzed: '2026-08-09'
 assurance: sonnet
-name: Elias 2014 skin barrier lipid structure and function
-slug: elias-2014-skin-barrier-lipid-structure-and-function
-status: draft
+name: Elias 2012 skin barrier lipid structure and function
+slug: elias-2012-skin-barrier-lipid-structure-and-function
+status: published
 type: study
-updated: '2026-08-08'
+updated: '2026-08-09'
 ---
 
 A short invited commentary by Peter Elias summarizing that the stratum corneum extracellular matrix is organized into lipid lamellar bilayers whose molecular architecture is now known, but that how the matrix's non-lipid components (enzymes, structural proteins, antimicrobial peptides) jointly govern barrier function remains largely unknown.[^1]
@@ -20,7 +20,7 @@ A short invited commentary by Peter Elias summarizing that the stratum corneum e
 
 **Effect size / interpretation:** Not applicable; this piece reports no measured effect. It is conceptual: it frames the stratum corneum lipid bilayer architecture as established science while flagging the interaction of lipids with enzymes, structural proteins, and antimicrobial peptides in that matrix as an open question.[^1]
 
-**Applicability + key limitation:** Useful as a compact conceptual anchor for the lamellar-bilayer model underlying [[ceramides]] and the [[skin-barrier-repair]] / [[skin-barrier-strengthening]] pages, but it is a brief invited commentary rather than a data-bearing study, so it supplies no sample size, intervention, or quantitative effect size to cite; only the PubMed/PMC abstract was accessed (the article is also noted on PMC as 2012, not 2014, per its PMID/PMCID record), and the full text was not reviewed for this entry.
+**Applicability + key limitation:** Useful as a compact conceptual anchor for the lamellar-bilayer model underlying [[ceramides]] and the [[skin-barrier-repair]] / [[skin-barrier-strengthening]] pages, but it is a brief invited commentary rather than a data-bearing study, so it supplies no sample size, intervention, or quantitative effect size to cite; only the PubMed/PMC abstract was accessed (published 2012, per its PMID/PMCID record), and the full text was not reviewed for this entry.
 
 ## Sources
 

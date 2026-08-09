@@ -1,11 +1,12 @@
 ---
-analyzed: '2026-08-08'
+analyzed: '2026-08-09'
 assurance: sonnet
-name: "Payette 2026 Considerations for Genital Psoriasis Care Across Age Groups (PMID 42126816)"
+name: Payette 2026 Considerations for Genital Psoriasis Care Across Age Groups (PMID
+  42126816)
 slug: payette-2026-considerations-for-genital-psoriasis-care-across-age-grou
-status: draft
+status: published
 type: study
-updated: '2026-08-08'
+updated: '2026-08-09'
 ---
 
 A multidisciplinary expert panel used a modified Delphi consensus process to develop practice considerations for genital psoriasis diagnosis and treatment across pediatric, adult, and geriatric patients.[^1]
@@ -20,7 +21,7 @@ A multidisciplinary expert panel used a modified Delphi consensus process to dev
 
 **Effect size / interpretation:** Not applicable. This is a consensus-statement paper with no measured clinical effect; its output is a set of expert-agreed care considerations rather than a quantified treatment effect.[^1]
 
-**Applicability + key limitation:** Applies to clinicians managing genital psoriasis in pediatric, adult, and geriatric patients; it is expert consensus informed by a literature review, not primary trial evidence, so its recommendations carry the inherent limitations of Delphi methodology (panel composition and voting-round details are not disclosed in the abstract). Only the PubMed abstract was accessed, not the full text. Relevant to [[tazarotene]], the topical retinoid with an FDA psoriasis indication discussed on its own page.[^1]
+**Applicability + key limitation:** Applies to clinicians managing genital psoriasis in pediatric, adult, and geriatric patients; it is expert consensus informed by a literature review, not primary trial evidence, so its recommendations carry the inherent limitations of Delphi methodology (panel composition and voting-round details are not disclosed in the abstract). Only the PubMed abstract was accessed, not the full text. Relevant to [[tazarotene]] (FDA psoriasis indication documented on its own page).
 
 ## Sources
 

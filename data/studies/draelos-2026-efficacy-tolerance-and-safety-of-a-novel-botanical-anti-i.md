@@ -1,11 +1,12 @@
 ---
-analyzed: '2026-08-08'
-assurance: sonnet
-name: Draelos 2026 Efficacy, Tolerance, and Safety of a Novel Botanical Anti-Inflammatory Moisturizer in Rosa (PMID 42163060)
+analyzed: '2026-08-09'
+assurance: opus
+name: Draelos 2026 Efficacy, Tolerance, and Safety of a Novel Botanical Anti-Inflammatory
+  Moisturizer in Rosa (PMID 42163060)
 slug: draelos-2026-efficacy-tolerance-and-safety-of-a-novel-botanical-anti-i
-status: draft
+status: published
 type: study
-updated: '2026-08-08'
+updated: '2026-08-09'
 ---
 
 A double-blinded randomized controlled trial in 60 adults with mild-to-severe [[rosacea]] found a topical anti-inflammatory moisturizer containing [[oat]] and [[aloe]] produced significantly greater reduction in erythema and lesion counts than 0.75% [[metronidazole]] cream over 12 weeks.[^1]

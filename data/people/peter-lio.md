@@ -1,12 +1,16 @@
 ---
-analyzed: null
-assurance: stub
+analyzed: '2026-08-08'
+assurance: sonnet
 expertise: Dermatologists
 name: Peter A. Lio
 slug: peter-lio
-status: stub
+status: draft
 type: person
-updated: '2026-07-29'
+updated: '2026-08-08'
 ---
 
-Peter A. Lio (MD, FAAD). Board-certified dermatologist and Clinical Assistant Professor of Dermatology & Pediatrics at Northwestern University's Feinberg School of Medicine; founding director of the Chicago Integrative Eczema Center. Author of 200+ peer-reviewed publications and three textbooks, and a nationally/internationally recognized eczema/atopic-dermatitis educator who lectures widely on evidence-based (including integrative) treatment approaches. Source: https://www.feinberg.northwestern.edu/faculty-profiles/az/profile.html?xid=18098 (a full profile is planned).
+Peter A. Lio is a dermatologist who holds an academic appointment as Clinical Assistant Professor of Dermatology and Pediatrics at Northwestern University's Feinberg School of Medicine, per his Feinberg faculty profile.[^1]
+
+## Sources
+
+[^1]: Northwestern University Feinberg School of Medicine. Faculty profile, Peter A. Lio (confirms the Clinical Assistant Professor, Dermatology and Pediatrics title and Feinberg affiliation). https://www.feinberg.northwestern.edu/faculty-profiles/az/profile.html?xid=18098 (accessed 2026-08-08)

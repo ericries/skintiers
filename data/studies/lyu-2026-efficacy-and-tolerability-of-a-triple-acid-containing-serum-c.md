@@ -1,11 +1,12 @@
 ---
-analyzed: '2026-08-08'
-assurance: sonnet
-name: LYu 2026 Efficacy and Tolerability of a Triple Acid-Containing Serum Combined With 0.1% Adapalene i (PMID 42156331)
+analyzed: '2026-08-09'
+assurance: opus
+name: LYu 2026 Efficacy and Tolerability of a Triple Acid-Containing Serum Combined
+  With 0.1% Adapalene i (PMID 42156331)
 slug: lyu-2026-efficacy-and-tolerability-of-a-triple-acid-containing-serum-c
-status: draft
+status: published
 type: study
-updated: '2026-08-08'
+updated: '2026-08-09'
 ---
 
 An open-label randomized controlled trial in 41 patients with mild-to-moderate acne found that adding a triple acid-containing serum (TAS) to 0.1% [[adapalene]] gel gave significantly greater lesion and IGA improvement than adapalene alone, and that stopping adapalene while continuing the serum alone as maintenance reduced rebound compared to stopping treatment entirely.[^1]

@@ -3676,3 +3676,116 @@ good-molecules:
   note: |
     Lean brand discovery-aid (Sonnet-only). What-it-is + sourced ownership (or left out if unverifiable) +
     linked on-site products. assurance=sonnet. lint/style clean.
+elias-2014-skin-barrier-lipid-structure-and-function:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Re-fetched PubMed abstract (PMID 22895445): all four quoted phrases in the Primary result section are verbatim, the 'Comment' publication-type classification and JID journal match, the abstract genuinely contains no n/%/p-value/fold-change and the page correctly asserts none, and abstract-only access is disclosed. Link-out discipline is respected (conceptual anchor only, no imported ingredient evidence). Verdict revise: the only defect is a fixable year error — the study name/slug say 2014 while the source is 2012 (citation footnote is already correct); no quote or effect size is fabricated.
+prooyen-2026-randomized-controlled-study-of-bacteriophages-in-acne-rev:
+  last_reviewed: '2026-08-08'
+  score: 10
+  verdict: publish
+  note: |
+    Opus re-fetched PubMed abstract PMID 42235049 and verified all three quoted phrases are verbatim (quote 3 is a benign mid-sentence truncation of "Notably, phage use...") and every number (n=90, ages 12-35, 8 weeks, three arms, visits at baseline/wk4/wk8, P<0.05) is present in the abstract. Page correctly asserts no effect-size magnitudes (none given beyond P<0.05), discloses abstract-only access, and imports no general ingredient evidence. Verdict: publish.
+lyu-2026-efficacy-and-tolerability-of-a-triple-acid-containing-serum-c:
+  last_reviewed: '2026-08-08'
+  score: 10
+  verdict: publish
+  note: |
+    Opus re-fetched PubMed 42156331 abstract: verified the verbatim Results block quote (significantly greater lesion/IGA/microcomedone reduction; control rebound after AG withdrawal; physiological params improved without significance; mild transient AEs) is exact, and confirmed all four abstract numbers (n=41, 8-week trial, 4-week phases, 0.1% adapalene) with no percentages/p-values/fold-changes present. Design (open-label RCT, baseline/2/4/8-week assessments, VISIA-CR, TAS+AG vs AG-alone with TAS maintenance), abstract-only disclosure, unstated per-arm n, and unidentified acid composition all match the source; no fabricated figures. Verdict: publish.
+draelos-2026-efficacy-tolerance-and-safety-of-a-novel-botanical-anti-i:
+  last_reviewed: '2026-08-08'
+  score: 10
+  verdict: publish
+  note: |
+    Opus re-fetched PubMed abstract PMID 42163060 and verified all figures (n=60; Wk8 erythema IGA 50% vs 22% p=0.001, lesions 74% vs 6% p=0.015; Wk12 erythema 54% vs 23% p<0.001, lesions 74% vs 17% p=0.044), the design (double-blinded RCT vs 0.75% metronidazole, 12 wk), and both quoted conclusion/tolerability statements as present in the abstract. Per-arm n is correctly disclosed as not stated, abstract-only access is disclosed, active-comparator limitation is flagged, and link-out discipline is respected with no imported ingredient evidence. Verdict: publish — no fabricated numbers or quotes found.
+abud-2026-a-randomized-double-blinded-pilot-study-comparing-synthetic-:
+  last_reviewed: '2026-08-08'
+  score: 10
+  verdict: publish
+  note: |
+    Opus re-fetched PubMed 42152512 and verified every quoted phrase verbatim in the abstract (texture/firmness ratings, higher satisfaction, exploratory lay-evaluator/estimated-age sentence, and the 12-week conclusion) and every number genuinely present (n=20, ages 50-65, 12 weeks, Fitzpatrick II/III, twice daily, oligopeptide-1). Page correctly discloses abstract-only access, asserts no percentages/p-values/fold-changes (none exist in the abstract), and respects link-out discipline by scoping findings to the two proprietary serums. Verdict: publish.
+shah-2026-a-randomized-controlled-trial-analyzing-the-likeability-usab:
+  last_reviewed: '2026-08-08'
+  score: 10
+  verdict: publish
+  note: |
+    Opus re-fetched PubMed abstract (PMID 42235051) and confirmed all three quoted results phrases are verbatim, every number is genuinely in the abstract (2 mg/cm2 dose, 5 mineral + 1 chemical sunscreen, 2 of 6, 3x whitening), and n/p-values/SPF-UVAPF figures are correctly disclosed as not stated. Design, population, comparator, and citation match the abstract; abstract-only limitation disclosed and link-out discipline respected. Verdict: publish.
+pantalena-2026-photographic-assessment-of-cosmetic-outcome-in-postsurg:
+  last_reviewed: '2026-08-08'
+  score: 10
+  verdict: publish
+  note: |
+    Opus re-fetched PMID 42210897 abstract and verified every quoted phrase verbatim and every number (n=105, VAS 76.5(14.5) vs 73.2(15.2) p=.05, SBSES 4.4(0.9) vs 4.0(1.1) p=.006, WES 5.4(1.0) vs 5.1(1.1) p=.05, 6-month follow-up, 5-0 suture sizes) is present in the abstract; design/population/comparator match and abstract-only access is disclosed. No fabricated effect size and link-out discipline respected. Verdict: publish (one minor non-blocking note: abstract does state raters were blinded to suture location, so listing "blinding method" as undisclosed slightly understates the source).
+payette-2026-considerations-for-genital-psoriasis-care-across-age-grou:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Re-fetched PMID 42126816 abstract via WebFetch and confirmed every quoted phrase is verbatim (Delphi/nominal-group/≥75% consensus, 7-point Likert scale, 'routine genital assessment within comprehensive skin exams', pediatric shared-decision-making, and the adult/geriatric comorbidities/polypharmacy/corticosteroid language) and that all figures (≥75%, 7-point scale, 16 named authors) are genuinely present; the page correctly discloses abstract-only access and asserts no effect size, since the abstract states none. Verdict revise: no fabricated number or quote, but the trailing [^1] on the tazarotene cross-reference misattributes tazarotene's FDA psoriasis indication to the Payette abstract, which mentions no drug — detach that clause from the footnote to preserve link-out discipline.
+elias-2012-skin-barrier-lipid-structure-and-function:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Elias 2012 (J Invest Dermatol, PMID 22895445) — invited commentary on stratum-corneum ECM/lipid-bilayer
+    barrier architecture. Study-queue drain. Opus critic verified all quotes verbatim + confirmed the abstract
+    gives no n/effect size (correctly asserted). REVISE fixed: corrected the year (source is 2012, not the 2014 in
+    the original stub name/slug) — file renamed to elias-2012-*. assurance=sonnet. lint/verify clean.
+differin:
+  last_reviewed: '2026-08-08'
+  score: 8
+  verdict: self-reviewed
+  note: |
+    Lean brand discovery-aid (Sonnet-only). What-it-is + sourced ownership + linked on-site products.
+    assurance=sonnet. lint/style clean.
+supergoop:
+  last_reviewed: '2026-08-08'
+  score: 8
+  verdict: self-reviewed
+  note: |
+    Lean brand discovery-aid (Sonnet-only). What-it-is + sourced ownership + linked on-site products.
+    assurance=sonnet. lint/style clean.
+first-aid-beauty:
+  last_reviewed: '2026-08-08'
+  score: 8
+  verdict: self-reviewed
+  note: |
+    Lean brand discovery-aid (Sonnet-only). What-it-is + sourced ownership + linked on-site products.
+    assurance=sonnet. lint/style clean.
+the-ordinary-deciem:
+  last_reviewed: '2026-08-08'
+  score: 8
+  verdict: self-reviewed
+  note: |
+    Lean brand discovery-aid (Sonnet-only). What-it-is + sourced ownership + linked on-site products.
+    assurance=sonnet. lint/style clean.
+anua:
+  last_reviewed: '2026-08-08'
+  score: 8
+  verdict: self-reviewed
+  note: |
+    Lean brand discovery-aid (Sonnet-only). What-it-is + sourced ownership + linked on-site products.
+    assurance=sonnet. lint/style clean.
+roc:
+  last_reviewed: '2026-08-08'
+  score: 8
+  verdict: self-reviewed
+  note: |
+    Lean brand discovery-aid (Sonnet-only). What-it-is + sourced ownership + linked on-site products.
+    assurance=sonnet. lint/style clean.
+maelove:
+  last_reviewed: '2026-08-08'
+  score: 8
+  verdict: self-reviewed
+  note: |
+    Lean brand discovery-aid (Sonnet-only). What-it-is + sourced ownership + linked on-site products.
+    assurance=sonnet. lint/style clean.
+aestura:
+  last_reviewed: '2026-08-08'
+  score: 8
+  verdict: self-reviewed
+  note: |
+    Lean brand discovery-aid (Sonnet-only). What-it-is + sourced ownership + linked on-site products.
+    assurance=sonnet. lint/style clean.
