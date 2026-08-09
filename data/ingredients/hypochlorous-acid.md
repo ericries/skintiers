@@ -15,6 +15,14 @@ videos:
   url: https://www.tiktok.com/@javonford16/video/7638978796485414157
   thesis: "Hypochlorous acid sprays like Tower 28's SOS Spray and Prequel's spray are functionally the same formula because HOCl is made through electrolysis of saltwater, so any major deviation destabilizes it; both list only water, sodium chloride, and hypochlorous acid. Differences in listed ingredient order among brands don't indicate a different formula since ingredients under 1% can be listed in any order, so he says to use whichever brand is preferred."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: "Hypochlorous Acid Deep Dive, BuzzFeed's Top Skincare Products, Rice Water Secrets & Shark Repellents"
+  creator: Dr. Muneeb Shah (DermDoctor)
+  creator_slug: muneeb-shah
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=2xNfzaAqx5A
+  thesis: "Dr. Shah calls hypochlorous acid a leave-on sanitizer that the body naturally produces during the immune system's oxidative burst, useful as a bacteria-killing spray for acne mechanica (mask or helmet-related breakouts) and for disinfecting makeup brushes and beauty blenders, but says people with normal, healthy skin likely will not benefit and could even disrupt their skin microbiome by killing normal bacteria, and that it is cheap to formulate so there is no need to overspend on a specific brand."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 ---
 
 Hypochlorous acid (HOCl) is a weak acid that immune cells naturally generate to fight microbes; it is also an integral part of the innate immune system, and skincare brands sell electrolyzed or chemically stabilized versions as leave-on sprays, mists, and gels marketed for acne-prone, eczema-prone, and post-procedure skin.[^haralovic][^gold] The strongest human evidence involves a related but distinct intervention, dilute sodium hypochlorite bleach baths for eczema, while the stabilized topical HOCl products sold today rest mainly on an animal model, an expert-panel wound-care review, and narrative reviews rather than a controlled human trial of the product category itself.

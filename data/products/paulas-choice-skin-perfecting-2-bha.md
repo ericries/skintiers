@@ -3,6 +3,15 @@ analyzed: '2026-07-28'
 assurance: opus
 category: Exfoliants
 comparator: other salicylic acid (BHA) leave-on exfoliants
+videos:
+- title: "Hypochlorous Acid Deep Dive, BuzzFeed's Top Skincare Products, Rice Water Secrets & Shark Repellents"
+  creator: Dr. Muneeb Shah (DermDoctor)
+  creator_slug: muneeb-shah
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=2xNfzaAqx5A
+  thesis: "Reviewing it as a BuzzFeed viral pick, Dr. Shah says he loves this product and calls it Paula's Choice's bestselling item, describing it as a simple, gentle 2% salicylic acid liquid exfoliant that helps with pores, texture, and oily skin, and confirming it does not make explicit acne claims despite containing an acne-monograph active."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 grades:
 - effect: modest
   evidence: mixed

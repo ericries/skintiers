@@ -6,6 +6,15 @@ slug: azelaic-acid
 status: published
 type: ingredient
 updated: '2026-07-27'
+videos:
+- title: "WE ARE ENDING THIS! Hyperpigmentation Finale! | Chemist Confessions Podcast"
+  creator: Chemist Confessions (Victoria Fu and Gloria Lu)
+  creator_slug: victoria-fu
+  credential: Cosmetic chemists
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=r95YJoxZQ-I
+  thesis: "Ranking hyperpigmentation actives after a multi-episode series, the chemists place 20% azelaic acid in their top tier alongside 4% hydroquinone, citing its long track record and data specifically in darker skin tones. They rank 10% azelaic acid a tier lower, arguing most 10% products lean on the 20% research without their own evidence and function better as a supporting 'sidekick' than a stand-alone treatment."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 ---
 
 Azelaic acid is a saturated dicarboxylic acid used topically at 15% (gel/foam) and 20% (cream), FDA-approved for rosacea (15% gel) and inflammatory acne (20% cream); azelaic acid was first approved by the FDA in 1995.[^4][^8] Its evidence base is unusually good for a dermatologic topical, but the grade depends entirely on **what you are using it for**, and each use is graded separately below.

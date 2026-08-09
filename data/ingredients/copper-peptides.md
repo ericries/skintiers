@@ -15,6 +15,14 @@ videos:
   url: https://www.tiktok.com/@your.estie.ella/video/7670531715860876557
   thesis: "A licensed esthetician walks through how to fit a copper-peptide serum into an existing routine, framing it as a useful add-on for anti-aging and barrier support rather than an all-in-one treatment, and one that needs months of patience before results show. Her practical guidance: copper peptides layer fine with most products, and the only pairings to space out are retinoids and the active form of vitamin C (ascorbic acid, not the derivatives), where she suggests waiting ten to fifteen minutes between applying those and the copper peptides; she says they can be used morning and night."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship, no brand mentions or product picks. Presented as a non-credentialed esthetician's practical how-to, not established clinical fact."
+- title: "Are Copper Peptides Better Than Vitamin C? Dermatologist Explain"
+  creator: Andrea Suarez (Dr Dray)
+  creator_slug: andrea-suarez-dr-dray
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=YuHLRmJMUzI
+  thesis: "Answering a viewer question in a weekend Q&A, Suarez says copper is involved in the enzyme tyrosinase, so there is a theoretical reason copper peptides could help hyperpigmentation, but there is no good clinical research showing they actually work for it. She says topical vitamin C, especially ascorbic acid, has a lot more evidence behind it for hyperpigmentation, and that even the non-ascorbic-acid vitamin C derivatives are still a better bet than copper peptides because they act as surface antioxidants."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 ---
 
 Copper peptides are the copper complex of the human tripeptide GHK (glycyl-L-histidyl-L-lysine), sold in skincare as copper tripeptide-1 or GHK-Cu, one of the four classes of cosmetic peptide (a "carrier peptide") whose job is to move trace copper into skin.[^gorouhi][^pickart2008]

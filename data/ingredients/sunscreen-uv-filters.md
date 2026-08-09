@@ -26,6 +26,22 @@ videos:
   url: https://www.youtube.com/watch?v=wATBG1X7HX4
   thesis: "Wong debunks popular sunscreen myths, focusing on the claim that mineral (physical) sunscreens are inherently superior. She argues the ideas that mineral filters protect better against blue light, or against UVA because they block all wavelengths, are not supported, and that some of these claims trace back to a single flawed paper."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship. A longer companion to her mineral-sunscreen short above."
+- title: "Are Chemical Sunscreens Really Safe? Dermatologist Explains"
+  creator: Andrea Suarez (Dr Dray)
+  creator_slug: andrea-suarez-dr-dray
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=BVnGrOMfeRM
+  thesis: "Asked whether chemical sunscreen ingredients get into the bloodstream and affect hormone levels, Suarez confirms these ingredients can be detected in blood after application, including days later, but says that has never been shown to cause harm to human health. She notes the studies linking these filters to hormone disruption used very high systemic doses in small animals, far above real topical exposure, and that the filters have decades of human use without evidence of endocrine harm."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: "Does Sunscreen Cause Vitamin D Deficiency? Dermatologist Explains"
+  creator: Andrea Suarez (Dr Dray)
+  creator_slug: andrea-suarez-dr-dray
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=i3IQCX0wRko
+  thesis: "Suarez says current research does not show that wearing sunscreen lowers vitamin D levels, while flagging that most of these studies were done on beachgoers and have not tested very high-SPF products specifically. She also questions the broader vitamin D deficiency narrative itself, arguing that lowered lab thresholds plus confounders like obesity and chronic inflammation (vitamin D behaves as a negative acute-phase reactant) have inflated how many people get labeled deficient."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 name: Sunscreen (UV filters)
 slug: sunscreen-uv-filters
 status: published

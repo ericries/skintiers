@@ -7,6 +7,23 @@ status: published
 tier: strong
 type: ingredient
 updated: '2026-07-27'
+videos:
+- title: "Copper Peptides, Hair Loss & Retinol Questions Answered"
+  creator: Andrea Suarez (Dr Dray)
+  creator_slug: andrea-suarez-dr-dray
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=0sxHRZPDvss
+  thesis: "Answering a question on retinol versus retinal, Suarez explains both are cosmetic forms of vitamin A that the skin has to convert toward the active form, with retinaldehyde needing one conversion step and retinol needing two. She says there is no good evidence that fewer conversion steps makes retinaldehyde more effective, and that from her own experience testing many retinols and retinaldehydes, staying consistent with whichever one is tolerated and affordable matters more than which molecule is chosen."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: "Retinal Products Decoded | Chemist Confessions Podcast"
+  creator: Chemist Confessions (Victoria Fu and Gloria Lu)
+  creator_slug: victoria-fu
+  credential: Cosmetic chemists
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=OgE4NPoRAmU
+  thesis: "Testing four retinaldehyde products (Krave Beauty at 0.05%, Prequel at 0.1%, a Korean spicule shot at 0.1%, and Medik8 Crystal Retinal 6), the chemists found texture and stability, not just percentage, drove their real-world experience: several formulas showed visible discoloration or degraded quickly once opened, and encapsulation or physical-particle stabilization mattered more than raw concentration. They singled out Medik8's marketing claim that retinaldehyde works 'up to 11 times faster' than retinol as misleading, since the cited paper is an early in-vitro study on isolated metabolism, not a test of the actual finished formula."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship. Cosmetic chemists reviewing competitor products; their own brand's retinol product came up only briefly as a comparison point for irritation, not as the focus."
 ---
 
 Retinaldehyde (retinal) is the aldehyde form of vitamin A, an over-the-counter cosmetic [[retinoids|retinoid]] that sits one oxidation step below the receptor-active acid on the vitamin A pathway. That pathway runs retinyl ester to [[retinol]] to retinaldehyde to retinoic acid ([[tretinoin]]), each step an oxidation; because retinaldehyde is only one step from the active molecule rather than two, Saurat and colleagues found it induced the retinoic-acid marker CRABP-2 more strongly than retinol did, ranking "retinoic acid > retinaldehyde > 9 cis retinoic acid > retinol > beta carotene."[^1] It is the closest-to-active retinoid available without a prescription, and it anchors a growing premium-serum category (examples include Avene RetrinAL, Medik8 Crystal Retinal, and The INKEY List Retinal). Its clinical evidence is thinner than prescription tretinoin's but better than that of the retinyl esters, and this profile grades it against both.

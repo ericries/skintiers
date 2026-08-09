@@ -6,6 +6,15 @@ slug: vitamin-c
 status: published
 type: ingredient
 updated: '2026-07-28'
+videos:
+- title: "Are Copper Peptides Better Than Vitamin C? Dermatologist Explain"
+  creator: Andrea Suarez (Dr Dray)
+  creator_slug: andrea-suarez-dr-dray
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=YuHLRmJMUzI
+  thesis: "Asked whether copper peptides beat vitamin C for hyperpigmentation, Suarez says no: topical vitamin C, particularly ascorbic acid, has a lot more evidence behind it than copper peptides, even though ascorbic acid has real formulation and penetration challenges. She adds that even the non-ascorbic-acid vitamin C derivatives are still a better bet than copper peptides because they act as antioxidants at the skin surface, which can help hyperpigmentation."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 ---
 
 Vitamin C on a skincare label can mean several different molecules. The reference form is L-ascorbic acid, the pure unmodified vitamin and the only form the skin can use without first converting it. Because L-ascorbic acid is unstable in water and oxidizes readily, formulators also use a set of chemically modified derivatives (the ascorbyl phosphates, ascorbyl glucoside, an ethylated form, and lipid-soluble esters) that are more stable but must be converted back to ascorbic acid in or on the skin to do the same work. The forms are not interchangeable: they differ in how many conversion steps separate them from ascorbic acid, and in how much controlled human evidence stands behind each. This hub maps the family by conversion pathway, by form, and by strength of evidence, and links to the full profile for the reference form, [[ascorbic-acid-vitamin-c]].
