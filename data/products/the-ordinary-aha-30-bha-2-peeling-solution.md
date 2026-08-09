@@ -25,7 +25,7 @@ key_actives:
 - salicylic-acid
 name: The Ordinary AHA 30% + BHA 2% Peeling Solution
 slug: the-ordinary-aha-30-bha-2-peeling-solution
-status: draft
+status: published
 type: product
 updated: '2026-08-08'
 ---

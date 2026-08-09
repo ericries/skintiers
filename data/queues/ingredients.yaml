@@ -363,9 +363,10 @@
 - name: Panthenol (provitamin B5)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: skin-barrier-repair
   source: https://pubmed.ncbi.nlm.nih.gov/19753737/
+  note: published as panthenol
 - name: Baobab seed oil
   type: ingredient
   priority: 5
@@ -375,9 +376,10 @@
 - name: Alpha-arbutin
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/?term=alpha-arbutin+skin+pigmentation
+  note: covered by arbutin page
 - name: vitamin D (topical and skin synthesis)
   type: ingredient
   priority: 5
@@ -413,15 +415,17 @@
 - name: Doxycycline (low-dose oral, for rosacea)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/25919144/
+  note: published as doxycycline-oral-subantimicrobial
 - name: Squalane (emollient)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://www.ncbi.nlm.nih.gov/books/NBK545171/
+  note: duplicate of Squalane
 - name: Urea (humectant and keratolytic)
   type: ingredient
   priority: 5

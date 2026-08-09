@@ -1,6 +1,6 @@
 ---
 analyzed: '2026-08-08'
-assurance: sonnet
+assurance: opus
 brand: Galderma
 category: Treatments
 grades:
@@ -19,7 +19,7 @@ key_actives:
 - metronidazole
 name: MetroGel (metronidazole 1% gel)
 slug: metrogel-metronidazole-1-gel
-status: draft
+status: published
 type: product
 updated: '2026-08-08'
 ---

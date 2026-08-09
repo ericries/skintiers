@@ -1,40 +1,38 @@
 ---
-analyzed: '2026-08-07'
+analyzed: '2026-08-08'
 assurance: sonnet
 brand: The Ordinary
 category: Exfoliants
 comparator: other lactic acid / AHA leave-on exfoliants
+evidence_levels:
+  active: glycolic-acid
+  active_note: lactic acid is an alpha-hydroxy acid (AHA) with modest, mostly cosmetic
+    evidence for texture and tone, in the same trial that established glycolic acid's
+    evidence, and it is generally described as milder and more hydrating than glycolic
+    acid because its larger molecule penetrates skin more slowly
+  formula_note: no published trial has tested this exact 10% formula; the closest
+    one used an 8% lactic acid cream, so reading across from it is reasonable but
+    not direct
+  formula_tested: false
+  product_note: a genuine 10% lactic acid held at a manufacturer-stated pH of 3.60-3.80
+    (an exfoliation-active range), with hyaluronic acid (as sodium hyaluronate crosspolymer)
+    for hydration, sold for about $9.20 for 30 ml
 grades:
 - effect: modest
   evidence: mixed
   note: lactic acid's photoaging and texture evidence rests on an 8% cream, close
-    to this product's labeled 10%; that trial's duration and endpoints are not a
-    trial of this leave-on serum itself and are set out on the glycolic-acid
-    page, which covers lactic acid as an AHA
-  use: Skin texture and photodamage appearance, from daily leave-on lactic acid
-    (cosmetic)
+    to this product's labeled 10%; that trial's duration and endpoints are not a trial
+    of this leave-on serum itself and are set out on the glycolic-acid page, which
+    covers lactic acid as an AHA
+  use: Skin texture and photodamage appearance, from daily leave-on lactic acid (cosmetic)
 key_actives:
 - glycolic-acid
 - hyaluronic-acid
-evidence_levels:
-  active: glycolic-acid
-  active_note: lactic acid is an alpha-hydroxy acid (AHA) with modest, mostly
-    cosmetic evidence for texture and tone, in the same trial that established
-    glycolic acid's evidence, and it is generally described as milder and more
-    hydrating than glycolic acid because its larger molecule penetrates skin
-    more slowly
-  product_note: a genuine 10% lactic acid held at a manufacturer-stated pH of
-    3.60-3.80 (an exfoliation-active range), with hyaluronic acid (as sodium
-    hyaluronate crosspolymer) for hydration, sold for about $9.20 for 30 ml
-  formula_note: no published trial has tested this exact 10% formula; the
-    closest one used an 8% lactic acid cream, so reading across from it is
-    reasonable but not direct
-  formula_tested: false
 name: The Ordinary Lactic Acid 10% + HA
 slug: the-ordinary-lactic-acid-10-ha
-status: draft
+status: published
 type: product
-updated: '2026-08-07'
+updated: '2026-08-08'
 ---
 
 The Ordinary Lactic Acid 10% + HA is a water-based, leave-on exfoliating serum built around a labeled 10% lactic acid, with a manufacturer-stated pH of 3.60 to 3.80, sold for about $9.20 for a 30 ml bottle.[^1][^2]

@@ -1,6 +1,6 @@
 ---
-analyzed: '2026-08-07'
-assurance: sonnet
+analyzed: '2026-08-08'
+assurance: opus
 brand: Avène
 category: Retinoids
 comparator: other over-the-counter retinoids
@@ -24,9 +24,9 @@ key_actives:
 - retinaldehyde
 name: Avène RetrinAL 0.1 Intensive Cream
 slug: avene-retrinal-0-1-intensive-cream
-status: draft
+status: published
 type: product
-updated: '2026-08-07'
+updated: '2026-08-08'
 ---
 
 Avène RetrinAL 0.1 Intensive Cream is a 0.1%-labeled retinaldehyde anti-aging face, neck, and décolletage cream from [[avene|Avène]], the French dermocosmetics brand built on Avène thermal spring water, sold in the US at $39.99 for 0.5 fl oz ($79.98 per fluid ounce) per Target's listing.[^target]

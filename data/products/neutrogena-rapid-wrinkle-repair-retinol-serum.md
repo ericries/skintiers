@@ -1,6 +1,6 @@
 ---
-analyzed: '2026-08-07'
-assurance: sonnet
+analyzed: '2026-08-08'
+assurance: opus
 brand: Neutrogena
 category: Retinoids
 comparator: other over-the-counter retinol serums
@@ -11,19 +11,18 @@ grades:
     for improving fine wrinkles and pigment in photoaged skin (on [[retinol]] and
     [[retinoids]]); no published trial tests this exact serum, but Target's listing
     discloses a genuine retinol at 0.1%, matching the concentration used in one of
-    the two vehicle-controlled trials cited on [[retinol]] (a 52-week trial of a
-    0.1% stabilized retinol), unlike undisclosed-percentage competitors such as
-    [[roc-retinol-correxion-deep-wrinkle-night-cream]] (about $22) and [[cerave-resurfacing-retinol-serum]]
-    (about $22); [[trader-joes-retinol-night-serum]] declares a higher 0.3% on its
-    own label for about $10
+    the two vehicle-controlled trials cited on [[retinol]] (a 52-week trial of a 0.1%
+    stabilized retinol), unlike undisclosed-percentage competitors such as [[roc-retinol-correxion-deep-wrinkle-night-cream]]
+    (about $22) and [[cerave-resurfacing-retinol-serum]] (about $22); [[trader-joes-retinol-night-serum]]
+    declares a higher 0.3% on its own label for about $10
   use: For fine lines, wrinkles, and texture (cosmetic)
 key_actives:
 - retinol
 name: Neutrogena Rapid Wrinkle Repair Retinol Serum
 slug: neutrogena-rapid-wrinkle-repair-retinol-serum
-status: draft
+status: published
 type: product
-updated: '2026-08-07'
+updated: '2026-08-08'
 ---
 
 Neutrogena Rapid Wrinkle Repair Retinol Serum (full name on the current listing: Rapid Wrinkle Repair Retinol Renewal Serum) is a 1 fl oz leave-on facial serum built around 0.1% retinol, sold by Neutrogena for $27.99.[^1]

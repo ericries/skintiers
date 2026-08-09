@@ -1,5 +1,5 @@
 ---
-analyzed: '2026-08-07'
+analyzed: '2026-08-08'
 assurance: sonnet
 brand: Prequel
 category: Moisturizers
@@ -7,24 +7,24 @@ comparator: other urea-based body/face lotions and plainer humectant moisturizer
 grades:
 - effect: modest
   evidence: preliminary
-  note: 'category-level evidence for moisturizing dry, barrier-impaired skin (see
-    [[moisturizing]]); this formula''s headline active is 10% urea, a concentration
-    confirmed on both the manufacturer''s product page and Target''s listing, alongside
-    niacinamide, glycerin, and shea butter; no independent trial isolates this exact
-    product, and the manufacturer''s "clinically tested 24 hour moisture" claim is
-    not accompanied by methodology or data on either page cited here'
+  note: category-level evidence for moisturizing dry, barrier-impaired skin (see [[moisturizing]]);
+    this formula's headline active is 10% urea, a concentration confirmed on both
+    the manufacturer's product page and Target's listing, alongside niacinamide, glycerin,
+    and shea butter; no independent trial isolates this exact product, and the manufacturer's
+    "clinically tested 24 hour moisture" claim is not accompanied by methodology or
+    data on either page cited here
   use: Hydration and softening for dry, rough, or flaky skin (cosmetic-to-health)
 key_actives:
 - niacinamide
 - glycerin
 name: Prequel Urea Repair 10% Moisturizing Milk
 slug: prequel-urea-repair-10-moisturizing-milk
-status: draft
+status: published
 type: product
 updated: '2026-08-08'
 ---
 
-Prequel Urea Repair 10% Moisturizing Milk, sold by Prequel under the name "Urea Advanced Relief Moisturizing Milk," is a fragrance-free face-and-body lotion built around 10% urea, made by Prequel, a skincare brand founded by dermatologist Dr. Samantha Ellis.[^pdp]
+Prequel Urea Repair 10% Moisturizing Milk, sold by [[prequel|Prequel]] (a skincare brand founded by dermatologist [[samantha-ellis|Dr. Samantha Ellis]]) under the name "Urea Advanced Relief Moisturizing Milk," is a fragrance-free face-and-body lotion built around 10% urea.[^pdp][^target]
 
 > A lightweight, fragrance-free lotion whose headline ingredient is 10% urea, a concentration confirmed on both Prequel's own product page and Target's listing, alongside niacinamide, glycerin, and shea butter.[^pdp][^target] Moisturizing dry or barrier-impaired skin this way has a well-evidenced general case, covered on [[moisturizing]]; no independently reported trial isolates this exact lotion, and the manufacturer's "clinically tested 24 hour moisture" claim is [reported here as marketing, not independently verified](#common-marketing-claims).[^pdp][^target]
 
@@ -46,7 +46,7 @@ No published, independently reported trial of this exact lotion is cited on the 
 
 ## What's In It
 
-The full ingredient list (INCI) as declared by the manufacturer, matched against Target's listing.[^pdp][^target]
+The full ingredient list (INCI) as declared by the manufacturer.[^pdp]
 
 - Water (Aqua)
 - Urea, stated at 10%, a humectant at lower concentrations and a keratolytic at higher ones

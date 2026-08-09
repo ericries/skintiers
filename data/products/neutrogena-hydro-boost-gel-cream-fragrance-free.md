@@ -1,34 +1,32 @@
 ---
-analyzed: '2026-08-07'
-assurance: sonnet
+analyzed: '2026-08-08'
+assurance: opus
 brand: Neutrogena
 category: Moisturizers
-comparator: other lightweight, oil-free gel-cream moisturizers for normal-to-dry
-  skin
+comparator: other lightweight, oil-free gel-cream moisturizers for normal-to-dry skin
 grades:
 - effect: notable
   evidence: solid
-  note: category-level evidence for a humectant gel-cream built on glycerin and
-    hyaluronic acid (sodium hyaluronate); glycerin is listed second in the declared
-    ingredient list, ahead of sodium hyaluronate, general case on [[glycerin]],
-    [[hyaluronic-acid]], and [[moisturizing]]; the only occlusive is dimethicone,
-    a lighter-tier occlusive on [[moisturizing]]'s own ranking than petrolatum or
-    ceramides
+  note: category-level evidence for a humectant gel-cream built on glycerin and hyaluronic
+    acid (sodium hyaluronate); glycerin is listed second in the declared ingredient
+    list, ahead of sodium hyaluronate, general case on [[glycerin]], [[hyaluronic-acid]],
+    and [[moisturizing]]; the only occlusive is dimethicone, a lighter-tier occlusive
+    on [[moisturizing]]'s own ranking than petrolatum or ceramides
   use: Hydration for normal-to-dry, combination, and sensitive skin (health)
 - effect: minimal
   evidence: preliminary
-  note: the formula has neither petrolatum nor ceramides, the stronger-evidenced
-    occlusive and barrier lipids set out on [[moisturizing]]; comparators built
-    around those, such as [[cerave-moisturizing-cream|CeraVe Moisturizing Cream]],
-    are formulated for that population and this gel-cream is not
+  note: the formula has neither petrolatum nor ceramides, the stronger-evidenced occlusive
+    and barrier lipids set out on [[moisturizing]]; comparators built around those,
+    such as [[cerave-moisturizing-cream|CeraVe Moisturizing Cream]], are formulated
+    for that population and this gel-cream is not
   use: Barrier support for dry or barrier-impaired skin (health)
 key_actives:
 - hyaluronic-acid
 name: Neutrogena Hydro Boost Gel-Cream (fragrance-free)
 slug: neutrogena-hydro-boost-gel-cream-fragrance-free
-status: draft
+status: published
 type: product
-updated: '2026-08-07'
+updated: '2026-08-08'
 ---
 
 Neutrogena Hydro Boost Gel-Cream (fragrance-free), sold by Target under the title "Neutrogena Hydro Boost Water Gel Cream Face Moisturizer with Hyaluronic Acid for Normal to Dry Skin - Fragrance Free," is the fragrance-free sibling of [[neutrogena-hydro-boost-water-gel]], an oil-free gel-cream moisturizer marketed for normal-to-dry, combination, acne-prone, and sensitive skin.[^target]

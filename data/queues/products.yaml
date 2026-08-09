@@ -661,9 +661,10 @@
 - name: Avene RetrinAL 0.1 Intensive Cream
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/9843009/
+  note: reconciled
 - name: Dr. Jart+ Ceramidin Cream
   type: product
   priority: 5
@@ -699,9 +700,10 @@
 - name: Prequel Urea Repair 10% Moisturizing Milk
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://www.prnewswire.com/news-releases/dr-samantha-ellis-launches-solution-focused-skincare-brand-prequel-301885229.html
+  note: reconciled
 - name: Prequel Skin Utility Ointment
   type: product
   priority: 4
@@ -711,21 +713,24 @@
 - name: Neutrogena Rapid Wrinkle Repair Retinol Serum
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://www.neutrogena.com
+  note: reconciled
 - name: The Ordinary Lactic Acid 10% + HA
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://theordinary.com
+  note: reconciled
 - name: The Ordinary AHA 30% + BHA 2% Peeling Solution
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://theordinary.com
+  note: reconciled
 - name: Neutrogena Hydro Boost Gel-Cream (fragrance-free, for dry skin)
   type: product
   priority: 5

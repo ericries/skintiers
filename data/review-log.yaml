@@ -2663,3 +2663,45 @@ free-fatty-acids:
   verdict: revise-then-fixed
   note: |
     Opus verification of free-fatty-acids.md: re-fetched all four cited primaries (Man 1996 PMID 8618046, Elias 2012 PMC3587970, Feingold 2007 PMID 17872588, Prottey 1976 PMID 1252336) — every quoted phrase is verbatim and every stat (1:1:1 molar ratio, 50/25/15 composition, up-to-3-fold, equimolar recovery, TEWL restoration) checks out, and efficacy is honestly hedged (isolated FFA not graded as effective; animal/preliminary evidence flagged). Verdict: revise — three of the four 'primary' sources share the UCSF Elias/Feingold lab, so the independence of the load-bearing 1:1:1-mixture claim is overstated and should be disclosed; also drop the unsupported 'by mass' qualifier on the Feingold percentages.
+the-ordinary-lactic-acid-10-ha:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus focused review of draft product page the-ordinary-lactic-acid-10-ha: verified price ($9.20, corroborated The Ordinary + Target, dated 2026-08-07), size (30 ml / 1 fl oz), pH (3.60-3.80; Target 'approximately 3.8'), full 15-ingredient INCI (matches both sources), fragrance status (no parfum, no false fragrance-free claim), and all quoted marketing phrases against the cached sources; the 4.4/775 review stat was correctly not imported. Verdict revise: one non-verbatim quotation ('should not be used' substituted for source 'Do not use') and imported RCT trial specifics in the grades note need surgical fixes; all other product-specific facts check out and efficacy is correctly routed to the ingredient page.
+the-ordinary-aha-30-bha-2-peeling-solution:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Focused product-fact review against cached brand + Target sources: verified INCI (all 24 ingredients in order, salicylic 8th), $9.50 price, 30ml/1 fl oz size, pH 3.50-3.70, and the brand-stated \"5 exfoliating acids, at a total of 32%\" (properly quarantined as brand-only, not asserted). All caution/direction quotes are verbatim and no product-specific trial numbers were imported. Verdict revise: three minor fixes needed (one over-scoped \"Delivers...in-office peel\" quote, one \"listing title\" mischaracterization, and one over-attribution of Target-only marketing phrases to [^1]).
+neutrogena-rapid-wrinkle-repair-retinol-serum:
+  last_reviewed: '2026-08-08'
+  score: 10
+  verdict: publish
+  note: |
+    Opus focused product-fact review against cached Target source (research-cache/web/3abdb963c2d8960a.md): verified full 32-ingredient INCI verbatim, price $27.99/1 fl oz, disclosed 0.1% retinol, fragrance present (not claimed fragrance-free), and all four marketing quotes verbatim in-source with the 1-week stat properly quarantined as manufacturer-only copy. Comparator prices/disclosure (RoC $21.99, CeraVe $21.99 undisclosed, Trader Joe's $10/0.3%, SkinMedica $96) match their data files, and the grade's 0.1%/52-week rationale matches the Randhawa trial on the retinol page with no imported trial numbers. Verdict: publish.
+metrogel-metronidazole-1-gel:
+  last_reviewed: '2026-08-08'
+  score: 10
+  verdict: publish
+  note: |
+    Opus focused product-specific review of metrogel-metronidazole-1-gel (draft): DailyMed source was a cache miss, so re-fetched the live FDA label via WebFetch (primary source) and verified INCI (verbatim, correct order), Rx-only status, indication, dosing, 60 g tube + NDC 0299-3820-60, and the product-specific 746-subject pivotal-trial figures (557/189; 18.3→8.9/50.7%; 18.4→12.8/32.6%; IGA 38.42% vs 27.51%) all match exactly. No fragrance claim overstated, no price fabricated, general comparative evidence correctly routed to [[metronidazole]] with no imported numbers; verdict publish.
+avene-retrinal-0-1-intensive-cream:
+  last_reviewed: '2026-08-08'
+  score: 10
+  verdict: publish
+  note: |
+    Opus review of avene-retrinal-0-1-intensive-cream (draft): verified all product-specific facts against the cached Target listing (key d1899e7649fffc2f) — price/size ($39.99, 0.5 fl oz, $79.98/fl oz), full 25-ingredient INCI in declared order, fragrance-free status, and every quoted phrase (directions, 92% firmness, 3X/10X, 97% natural origin, wrinkle/firmness/radiance claim) all verbatim. The 92% firmness stat and 3X/10X multiples are correctly quarantined as manufacturer-only marketing claims, the 0.1% strength is honestly attributed to the label alone, and efficacy is routed out to the retinaldehyde/retinoids pages with no imported trial numbers. Verdict: publish.
+neutrogena-hydro-boost-gel-cream-fragrance-free:
+  last_reviewed: '2026-08-08'
+  score: 10
+  verdict: publish
+  note: |
+    Opus focused review confirmed all product-specific facts against the cached Target listing (INCI order, $9.97/0.5 fl oz price, UPC/TCIN, fragrance-free status, verbatim quotes, sibling Blue-1 claim corroborated); marketing stats are properly quarantined and grades import no trial numbers. Verdict: publish.
+prequel-urea-repair-10-moisturizing-milk:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus focused review 2026-08-08: verified all product-specific facts against cached Prequel PDP + Target listing. Composition/full 24-item INCI (PDP), 10% urea, $22.00/$21.99 at 13.5 fl oz / 400 mL, fragrance-free status, and every quoted phrase ("Urea Advanced Relief Moisturizing Milk," "a restoring face and body urea lotion...," "Clinically tested 24 hour moisture," the derm/eczema seal claims, directions) all check out verbatim; grades honestly route general evidence to [[moisturizing]] with no imported trial numbers and the 24-hour-moisture stat properly quarantined. Verdict revise (not flag): no fabrication, but three citation-attribution fixes needed — the founder claim is cited to [^pdp] (which lacks it; it belongs to [[prequel]]), "fragrance-free" needs the [^target] citation, and the full-INCI header over-cites [^target] which only lists key ingredients.
