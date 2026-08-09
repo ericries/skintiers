@@ -42,6 +42,15 @@ slug: trader-joes-nourish-vitamins-c-e-facial-serum
 status: published
 type: product
 updated: '2026-08-03'
+videos:
+- title: "Trader Joe's \"dupe\" for Skinceutical's Vitamin C Serum"
+  creator: Javon Ford
+  creator_slug: javon-ford
+  credential: Cosmetic chemist
+  platform: TikTok
+  url: https://www.tiktok.com/@javonford16/video/7645121314952498446
+  thesis: "Trader Joe's $10 vitamin C serum is a close formula match to SkinCeuticals: both use 15% L-ascorbic acid, 1% tocopherol, 0.5% ferulic acid, a similar pH range of 2 to 3.5, and the same ethoxydiglycol penetration enhancer. The differences are the solubilizer (Trader Joe's uses polyglyceryl-10 caprate instead of Laureth-8) and added sunflower oil, which could matter for sunflower allergies or formula stability."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 ---
 
 Trader Joe's Vitamin C Serum is a $9.99, 1 fl oz antioxidant serum sold only in Trader Joe's stores, whose own front label states 15% L-ascorbic acid, 1% alpha-tocopherol (vitamin E), and 0.5% ferulic acid, the same three concentrations the SkinCeuticals C E Ferulic photoprotection studies were run at, a match that TikTok and lifestyle coverage frame as an under-$10 dupe of the $185 SkinCeuticals serum.[^1][^2][^3]

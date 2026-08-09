@@ -7,6 +7,15 @@ status: published
 tier: moderate
 type: ingredient
 updated: '2026-07-28'
+videos:
+- title: "Stitch @Philsmypharmacist"
+  creator: Javon Ford
+  creator_slug: javon-ford
+  credential: Cosmetic chemist
+  platform: TikTok
+  url: https://www.tiktok.com/@javonford16/video/7635837533212953869
+  thesis: "He warns against DIY-mixing raw retinol into a body lotion because retinol is already hard to stabilize and an open-air container won't preserve it, calling it wasteful rather than money-saving when cheaper pre-formulated retinol body creams exist. He also clarifies that the ordinary's granactive retinoid is an ester of retinol, not retinol itself, so it still works but more slowly."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 ---
 
 Retinol is the alcohol form of vitamin A and the most-studied cosmetic [[retinoids|retinoid]] sold over the counter, sitting two enzymatic steps from the receptor-active acid that prescription retinoids deliver directly.

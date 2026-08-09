@@ -968,3 +968,27 @@
   status: pending
   discovered_from: tretinoin-studies
   source: https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=altreno
+- name: Black Girl Sunscreen SPF 30
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: video-javon-ford
+  source: https://www.tiktok.com/@javonford16
+- name: Danessa Myricks Barrier Boost Plumping Serum
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: video-javon-ford
+  source: https://www.tiktok.com/@javonford16
+- name: Tower 28 SOS Daily Rescue Facial Spray
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: video-javon-ford
+  source: https://www.tiktok.com/@javonford16
+- name: Cocokind Retinol Body Cream 0.05%
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: video-javon-ford
+  source: https://www.tiktok.com/@javonford16

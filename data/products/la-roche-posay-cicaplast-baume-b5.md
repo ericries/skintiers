@@ -26,6 +26,15 @@ slug: la-roche-posay-cicaplast-baume-b5
 status: published
 type: product
 updated: '2026-08-08'
+videos:
+- title: "Using diaper cream in place of La Roche-Posay's Cicaplast"
+  creator: Javon Ford
+  creator_slug: javon-ford
+  credential: Cosmetic chemist
+  platform: TikTok
+  url: https://www.tiktok.com/@javonford16/video/7624001716882607373
+  thesis: "Cicaplast is essentially a fancier diaper rash cream, both relying on a skin protectant (dimethicone in Cicaplast versus zinc oxide around 40% in generic diaper creams). Generic diaper cream can work as a cheaper substitute but leaves a heavier white cast than any sunscreen and often contains cod liver oil and lanolin, which can clog pores on acne-prone facial skin, so he cautions checking the ingredient list before swapping."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 ---
 
 La Roche-Posay Cicaplast Baume B5 (sold in the US as "Cicaplast Balm Vitamin B5 Soothing Therapeutic Cream for Dry & Irritated Skin") is a fragrance-free, multi-use balm labeled with 5% panthenol plus shea butter, glycerin, and madecassoside, positioned for cracked, chapped, or irritated skin on the face, body, and hands.[^1]
