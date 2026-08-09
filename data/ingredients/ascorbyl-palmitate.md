@@ -1,9 +1,9 @@
 ---
 analyzed: '2026-08-08'
-assurance: sonnet
+assurance: opus
 name: Ascorbyl palmitate
 slug: ascorbyl-palmitate
-status: draft
+status: published
 type: ingredient
 updated: '2026-08-08'
 ---

@@ -3,7 +3,7 @@ analyzed: '2026-08-08'
 assurance: sonnet
 name: Squalane
 slug: squalane
-status: draft
+status: published
 type: ingredient
 updated: '2026-08-08'
 ---

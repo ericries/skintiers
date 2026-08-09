@@ -3,7 +3,7 @@ analyzed: '2026-08-08'
 assurance: sonnet
 name: Bifida ferment lysate
 slug: bifida-ferment-lysate
-status: draft
+status: published
 type: ingredient
 updated: '2026-08-08'
 ---

@@ -2753,3 +2753,51 @@ dr-jart-ceramidin-cream:
   verdict: publish
   note: |
     Opus focused review verified all product-specific facts against the cached Target listing (key d22b7dd84c4c37b2): title, 1.69 oz size, price $51.99/reg $68.00, the five named ceramides plus panthenol and hyaluronic acid, and every quoted marketing phrase are verbatim in the source, and the source confirms no INCI list is published. Grades are honest, general ceramide/HA efficacy is routed out to ingredient pages with no imported trial numbers, and marketing claims are quarantined rather than asserted. Verdict: publish; only non-blocking polish notes are the accessed-date 2026-08-07 vs cache 2026-08-08 and the page's silence on the listing's "Scent: Fresh."
+kojic-acid:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus verification of data/ingredients/kojic-acid.md: re-fetched all 10 cited primaries (PubChem/ChEBI + 9 PubMed abstracts). Every statistic checks out verbatim (Garcia 39pt/51-28-21%, Lim 60% vs 47.5%, Deo 4x20 arms, Chang 45 studies/2359pt SMD KA -0.9 vs HQ -1.3/-1.4 & 5.3% irritation, Nakagawa 5/8 & 0/212, Khadivi 86% vs 76% p<0.0001) and the CIR/Nakagawa/Kim/Garcia-Gavin quotes are all verbatim; evidence is honestly graded (modest, add-on framing, marketing claims debunked). Verdict revise for one non-verbatim tyrosinase-inhibitor 'quote' from PubChem, a 'network meta-analysis' mischaracterization of Chang, an unsupported 'both on the kojic acid side' detail in Lim, and a base-rate overstatement in the intro — all surgical, no fabricated numbers.
+urea:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus re-fetched all seven cited PubMed primaries and confirmed every load-bearing stat and quote: Cochrane RRs/CIs and the 'no reliable evidence one moisturiser is better' line, Wiren's relapse figures and one-third quote, Tadini's SRRC/GE/tolerability numbers and p-values, Bassiri's 82.8% vs 62.8% and 'statistically significant superiority' quote, Tietz's 692-subject cure rates, and the Friedman/Dall'Oglio verbatim quotes. One factual error: the Tadini withdrawal count is misattributed to the urea side (2 urea + 1 glycerol, not 3 urea) in two places, overstating urea's irritation. Verdict: revise (surgical fix); evidence is otherwise honestly represented, with adjunct-only and no-treatment-comparator caveats correctly flagged.
+squalane:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus verification: re-fetched all five PubMed primaries plus StatPearls (apoptosis paper 40722956 verified via Europe PMC API after PubMed reCAPTCHA). Every quote is verbatim and every stat (13% sebum, 0.005-0.015%, 10 J/cm2, 1982 CIR original) checks out; evidence is honestly represented (no-human-trial caveats intact, two Wolosik papers correctly flagged as same-lab non-independent, marketing claims debunked). One surgical revise: line 26 appends an un-quoted 'less than untreated controls' gloss not present in the Wolosik abstract; remove it, then publish.
+vitamin-d-topical:
+  last_reviewed: '2026-08-08'
+  score: 10
+  verdict: publish
+  note: |
+    Opus verification re-fetched all 5 cited primaries (Devaux 22512681, Ghafoor 35946971, Wacker PMC3897598, Marks 7726582, Neale 30945275): every quoted phrase is verbatim in its source and every statistic (51 articles, 3-52 wks, 22-96%/4-40% mono vs 35-86%/27-53% combo, "twice higher" VDS, 95-98% UVB block, three-fold age difference, 113 subjects, +12.8/+11.8 mmol/L) is genuinely present. Evidence is honestly scoped — prescription analogs and endogenous synthesis are graded while cosmetic "vitamin D serums" and the sunscreen-causes-deficiency claim are explicitly called out as unsupported rather than credited; load-bearing sunscreen claim rests on 3 independent primaries. Verdict: publish.
+argireline-acetyl-hexapeptide-8:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus verification (2026-08-08): re-fetched all five cited PubMed primaries (Blanes-Mira 2002, Wang 2013, Kraeling/FDA 2015, Zdrada-Nowak 2025 review, CIR 2025). Every statistic (30% wrinkle depth, 48.9% vs 0%, 0.54%/0.22% SC penetration, 0.01% epidermis, 0.005% CIR limit, 2 mg/cm2, 60 subjects 3:1) and every quote checks out verbatim, funding/independence is honestly disclosed, and efficacy is not overstated (mechanism graded unconfirmed, "topical Botox" claim called out). One fixable defect: the phrase "no peptide reached the dermis" is quoted in three places but is a paraphrase, not Kraeling's verbatim wording ("No peptide was detected in the dermis...") — revise the quotation marks. Verdict: revise.
+iscotrizinol:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    iscotrizinol (draft): re-fetched all six cited sources. All Couteau efficacy numbers (12.58/10.41/10.42/15.14/20.0, and octyltriazone=ethylhexyl triazone 7.80), all three Tsuchiya quotes, the Symrise 310nm/10%/photostable quotes, Kim's Iscotrizinol/"recent UV filter" wording, CosIng Annex VI entry 17 (CAS 154702-15-5, 10%), and the CFR 16-actives list verify verbatim. Evidence is honestly framed (UVB-only, no clinical/DNA trial, marketing superlative quarantined). Verdict revise: the quoted phrase "specifically a UVB filter" (lines 18, 43) is fabricated — not in the Symrise source — and the Kim citation pagination (63(3):167-183) is wrong (PubMed: 63(2):103-17); both are surgical fixes with the underlying claims intact.
+ascorbyl-palmitate:
+  last_reviewed: '2026-08-08'
+  score: 10
+  verdict: publish
+  note: |
+    Opus verification: re-fetched all five cited primaries (Pullar PMC5579659, Meves 12445199, Perricone 10471382, Khan 27756097, CIR 16154915) and confirmed every quoted phrase is verbatim and every stat (order-of-magnitude vs DMPO, n=11, 90 days) is present in its source; draft honestly marks thin/preliminary evidence, flags the pro-oxidant UV-B risk, and does not grade unproven marketing claims. Verdict: publish.
+bifida-ferment-lysate:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus verification of bifida-ferment-lysate (draft): re-fetched both cited PubMed primaries and confirmed every quoted phrase verbatim (Wang barrier/AMP-gene and IL-8/TNF-alpha/COX-2 sentences; Fabbrocini 'partial and total clearance' and 'safe and effective' quotes) and every stat (60 participants, aged >=16, four actives, Class IIa device, twice-daily 2 months, eight clinical parameters); Giuliani Pharma conflict is accurately disclosed and thin/confounded evidence is honestly represented with marketing claims called out rather than graded. Verdict revise: one citation page-range error (Fabbrocini should be 12(8):1835-1845, not 1889-1900) and a minor 'no adverse events' over-assertion vs the abstract's 'safe and well tolerated' — both surgical, no fabrication.

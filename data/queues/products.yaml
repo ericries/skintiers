@@ -743,9 +743,10 @@
 - name: Renova (tretinoin 0.02% emollient cream, photoaging-indicated)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/8336752/
+  note: published as renova-tretinoin-0-02-cream
 - name: Retin-A Micro (tretinoin gel microsphere)
   type: product
   priority: 4
@@ -768,9 +769,10 @@
 - name: Mirvaso (brimonidine 0.33% topical gel, Galderma)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f6a4353f-ae69-4214-901f-e5d42a6fbde7
+  note: published as mirvaso-brimonidine-gel
 - name: La Roche-Posay 10% Pure Vitamin C Serum
   type: product
   priority: 4
@@ -794,9 +796,10 @@
 - name: Round Lab Birch Juice Moisturizing Sunscreen
   type: product
   priority: 4
-  status: pending
+  status: done
   discovered_from: null
   source: data/goals/glass-skin.md
+  note: published as round-lab-birch-juice-moisturizing-sun-spf-50
 - name: Good Molecules Discoloration Correcting Serum (tranexamic + niacinamide)
   type: product
   priority: 4
@@ -806,9 +809,10 @@
 - name: Supergoop! Unseen Sunscreen SPF 50 (reformulated)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://supergoop.com
+  note: published as supergoop-unseen-sunscreen-spf-50
 - name: SkinCeuticals Retinol 0.5 Refining Night Cream
   type: product
   priority: 4

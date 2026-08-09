@@ -228,9 +228,10 @@
 - name: Diethylhexyl Butamido Triazone (Iscotrizinol)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: beauty-of-joseon-relief-sun-rice-probiotics-spf50
   source: null
+  note: reconciled
 - name: Magnesium ascorbyl phosphate (MAP)
   type: ingredient
   priority: 5
@@ -269,9 +270,10 @@
 - name: Ascorbyl palmitate
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: null
+  note: reconciled
 - name: Glycolic acid and alpha-hydroxy acids (AHAs)
   type: ingredient
   priority: 5
@@ -281,9 +283,10 @@
 - name: Squalane
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: la-roche-posay-toleriane
   source: https://www.laroche-posay.us/our-products/face/face-moisturizer/toleriane-double-repair-face-moisturizer-3337875545488.html
+  note: reconciled
 - name: Metronidazole (topical rosacea)
   type: ingredient
   priority: 6
@@ -350,9 +353,10 @@
 - name: Kojic acid
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://pmc.ncbi.nlm.nih.gov/articles/PMC2921758/
+  note: reconciled
 - name: Arbutin
   type: ingredient
   priority: 5
@@ -383,9 +387,10 @@
 - name: vitamin D (topical and skin synthesis)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/30945275/
+  note: reconciled
 - name: Sunscreen UV filters, categorized (mineral vs chemical) hub
   type: ingredient
   priority: 5
@@ -395,9 +400,10 @@
 - name: Argireline (acetyl hexapeptide-8)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/40565185/
+  note: reconciled
 - name: Metronidazole (topical, for rosacea)
   type: ingredient
   priority: 5
@@ -429,9 +435,10 @@
 - name: Urea (humectant and keratolytic)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://www.ncbi.nlm.nih.gov/books/NBK545171/
+  note: reconciled
 - name: ivermectin
   type: ingredient
   priority: 6
