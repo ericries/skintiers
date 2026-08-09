@@ -13,9 +13,10 @@
 - name: Leshem 2020 OTC moisturizers skin-barrier RCT
   type: study
   priority: 5
-  status: pending
+  status: done
   discovered_from: cerave-moisturizing-cream
   source: null
+  note: published as leshem-2020-otc-moisturizers-in-atopic-dermatitis-rct
 - name: Goff & Stein 2025 Pediatric Dermatology cosmeceuticals ethics/talking-points review
   type: study
   priority: 5
@@ -275,67 +276,67 @@
     41649748)'
   type: study
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41649748/
 - name: Libecco 2026 Efficacy and Safety of Clascoterone Cream 1% for Acne Are Independent of Age and
     Sex (PMID 41642149)
   type: study
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41642149/
 - name: 'Wang 2026 Comprehensive Evaluation of Body Lotion in Alleviating Xerosis: A Multi-Omics Approach
     to  (PMID 41622615)'
   type: study
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41622615/
 - name: Zhang 2026 Comprehensive Evaluation of a Cream With Advanced Soothing Complex for Skin Recovery
     Follo (PMID 41622613)
   type: study
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41622613/
 - name: 'Beer 2026 What''s New With Under Eye Treatment: A Multispecialty Systematic Review of Recent
     Under Ey (PMID 41615388)'
   type: study
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41615388/
 - name: Wu 2026 Advances in the Treatment of Striae Distensae (PMID 41560402)
   type: study
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41560402/
 - name: Peacker 2026 Multiomics analyses prioritize disease genes and pathways in hidradenitis suppurativa
     (PMID 41548865)
   type: study
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41548865/
 - name: 'Shah 2026 Delayed Full-Thickness Skin Grafting After Skin Cancer Resection: A Systematic Review
     (PMID 41538769)'
   type: study
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41538769/
 - name: Raikou 2017 acetyl hexapeptide-3 antiwrinkle RCT
   type: study
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/28150423/
 - name: Kawakami 2017 DHHB avobenzone photostability study (EJPS)
   type: study
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/28042100/
 - name: Navarrete-Solis 2011 niacinamide vs hydroquinone melasma RCT
@@ -366,7 +367,7 @@
     Eczema- (PMID 42555074)
   type: study
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/42555074/
 - name: 'Fowler 2013: brimonidine gel phase 3 rosacea erythema RCT'

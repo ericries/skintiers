@@ -3974,3 +3974,69 @@ liao-2026-efficacy-and-safety-of-sodium-hyaluronate-gel-for-facial-ski:
   verdict: revise-then-fixed
   note: |
     Re-fetched PubMed abstract (PMID 41650338) three times and verified every quoted phrase ('90.63% vs 3.65%', '83.20% vs 3.65%', 'Peak efficacy rates ... 51.59% and 50.00%, respectively.', p<.0001, mild/transient AEs) is verbatim, and that design, intervention/comparator, 6-month sustainment, and 'Chinese population' all match the abstract; abstract-only access is disclosed and no unsupported effect size is asserted. One fix needed: per-arm sizes n=280/n=140 are arithmetic derivations from the stated '420, 2:1' and are not in the abstract, so they must be qualified or dropped. Verdict: revise (single surgical fix; no fabricated load-bearing number).
+singh-2026-air-pollution-and-skin-diseases-a-systematic-review-of-epid:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Re-fetched PubMed abstract (PMID 41649748) via WebFetch and confirmed every quoted phrase and every number is genuinely present: 1393 screened / 77 selected, search of SCOPUS+PubMed 1 Jan 1990–30 Apr 2025, the seven enumerated conditions, the six named pollutants (PM10, PM2.5, NO2, SO2, O3, CO), and the \"low to very low\" certainty; the page correctly discloses abstract-only access and asserts no effect size the abstract lacks, and link-out discipline holds. One fixable defect: line 19 places quotation marks around \"in confounding, selection bias, and exposure assessment\" which is not contiguous verbatim (abstract: \"in the domains of confounding...\"). Verdict: revise (surgical quote fix; no load-bearing number or quote fabricated).
+libecco-2026-efficacy-and-safety-of-clascoterone-cream-1-for-acne-are-:
+  last_reviewed: '2026-08-08'
+  score: 10
+  verdict: publish
+  note: |
+    Opus re-fetched PubMed abstract PMID 41642149; all four quoted sentences (IGA success across subgroups, lesion-count reductions in all subgroups, adult-vs-adolescent / male-vs-female comparison, adverse events) are verbatim, and every IGA figure (47/287 16.4% vs 12/306 3.9% adolescent; 77/330 23.3% vs 29/309 9.4% adult; 32/226 14.2% vs 13/252 5.2% male; 92/391 23.5% vs 28/363 7.7% female), the ≥12yr mild-to-moderate population, twice-daily 12-week dosing, Phase 3 / post hoc design, and both NCT numbers are present in the abstract. Page correctly discloses abstract-only access, asserts no p-values/CIs/lesion counts the abstract lacks, flags the 1,232 pooled N as derived not stated, and labels the percentage-point differences as computed; link-out discipline respected. Verdict: publish.
+wang-2026-comprehensive-evaluation-of-body-lotion-in-alleviating-xeros:
+  last_reviewed: '2026-08-08'
+  score: 10
+  verdict: publish
+  note: |
+    Opus re-fetched PubMed abstract PMID 41622615 (two WebFetch passes): both direct quotes are verbatim (the main-results sentence and the "mean ± SD (n = 68), #p < 0.05 compared between the treatment and control groups" figure caption), and every number/design detail (n = 68, multicenter/randomized/self-controlled paired-leg, 4 weeks daily, measured parameters incl. pH and stratum corneum hydration, Firmicutes/Cutibacterium/Proteobacteria directions) is genuinely present in the source. Page correctly discloses abstract-only access, asserts no effect size the abstract lacks, and respects link-out discipline (only the [[ceramides]] wikilink). Verdict: publish.
+zhang-2026-comprehensive-evaluation-of-a-cream-with-advanced-soothing-:
+  last_reviewed: '2026-08-08'
+  score: 10
+  verdict: publish
+  note: |
+    Opus re-fetched PubMed abstract (PMID 41622613); verified design (randomized double-blind split-face RCT, n=30 healthy women, TTS cream vs moisturizing toner post-IPL), all timepoints, and every number verbatim: hydration Δ=12.79 vs 0.32 C.U., D28 erythema index Δ=-54.61, erythema area Δ=-7.02%, TEWL Δ=-4.41 g/m2 h (all p<0.01), satisfaction 100%/96.67%, no adverse effects. Abstract-only access is disclosed, no effect size beyond the abstract is asserted, and link-out discipline is respected. Verdict: publish.
+beer-2026-what-s-new-with-under-eye-treatment-a-multispecialty-systema:
+  last_reviewed: '2026-08-08'
+  score: 10
+  verdict: publish
+  note: |
+    Opus re-fetched PMID 41615388 abstract and verified every quoted phrase verbatim (PRISMA/March-2025 search, "fifty studies...categorized by treatment type", efficacy/safety/suitability, full modality list, entire Results block, patient-specific-factors sentence) and every figure (50 studies, post-2010, March 2025); confirmed the abstract reports no percentages/p-values/fold-changes/patient counts and the page correctly asserts no effect size, discloses abstract-only access, and links hyperpigmentation out rather than importing general evidence. Design/population/comparator and citation (52(2):155-163, DOI, PMID, author list) all match. Verdict: publish.
+wu-2026-advances-in-the-treatment-of-striae-distensae-pmid-41560402:
+  last_reviewed: '2026-08-08'
+  score: 10
+  verdict: publish
+  note: |
+    Opus re-fetched PMID 41560402 abstract via WebFetch and verified every quoted phrase verbatim (56% incidence, PRISMA + PubMed/Web of Science/Scopus search, the 2010-2025 prioritization sentence, the "Efficacious treatments include..." list, and the 1565 nm NAFL / PRP-combination sentences). The lone numeric figure (56% incidence) is genuinely present; the page correctly asserts no effect sizes/response rates/p-values/study count and discloses abstract-only access, with design/population/comparator matching the source. Verdict: publish.
+peacker-2026-multiomics-analyses-prioritize-disease-genes-and-pathways:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus re-fetched PubMed abstract PMID 41548865 via WebFetch and confirmed all six quoted phrases are verbatim ('9 genome-wide significant loci, 5 of which have not been previously reported', 'mapped these variants to 11 lead genes', 'differentially expressed in hidradenitis suppurativa skin lesions', 'additional genes likely involved in the pathogenesis', 'reaffirm the previously suspected role of KLF5', 'lipid and skin barrier homeostasis, proteasome function, and oxidative stress'), and all numbers (3,941 cases; 1,435,603 controls; 9 loci; 5 novel; 11 lead genes) genuinely present; abstract-only disclosure and no-effect-size assertion are accurate. Verdict revise: the summary line bundles MPO (an 'additional' Mendelian-randomization gene per the abstract) into the '11 lead candidate genes' from variant-to-gene mapping, a bucketing error the body already gets right; one surgical reword fixes it. No fabricated numbers or quotes found.
+shah-2026-delayed-full-thickness-skin-grafting-after-skin-cancer-resec:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Re-fetched the abstract via NCBI eutils (PubMed itself served a CAPTCHA). All three block quotes (Methods, Population, Results) are verbatim, and every number (24 studies, 665 patients, 63.8 yrs, 52.6% male, 16.5 days, 89.6%, 13 mo, 2-3 wk vs ≤1 wk) is present in the abstract; the page correctly discloses abstract-only, asserts no effect size/p-value the abstract lacks, and respects link-out discipline. Verdict revise: one minor quote-fidelity fix — the standalone quoted word "significant" should read "significantly" (abstract wording) or lose its quotes; nothing fabricated.
+raikou-2017-acetyl-hexapeptide-3-antiwrinkle-rct:
+  last_reviewed: '2026-08-08'
+  score: 10
+  verdict: publish
+  note: |
+    Opus re-fetched PubMed 28150423 and verified every quoted phrase verbatim (including the full pairwise p-value results block with its source typos "CR2" and "cR3= P=.044") and every number (n=24, 4 arms, 60 days, measurements at 20/40/60 days, all cR2/cR3/TEWL p-values) as present in the abstract; group assignments, design, comparator, and abstract-only disclosure match, with no fabricated effect size. Verdict: publish.
+kawakami-2017-dhhb-avobenzone-photostability-study-ejps:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus focused verification against re-fetched PubMed abstract (PMID 28042100): all six quoted phrases confirmed verbatim, and no fabricated quantitative figures — the page correctly discloses abstract-only access and asserts no effect sizes the abstract lacks (no n, %, p-value, or fold-change are present in the abstract). Verdict revise: two fixable non-fabrication issues — the Effect-size section wrongly describes F1 as an AVO/DHHB pairing (abstract: F1 = AVO alone, F3 = AVO/DHHB), and 'mouse' is added to '3T3 fibroblast cultures' though not stated in the abstract. Design/population/comparator otherwise match the abstract and link-out discipline is respected.
+nguyen-2026-use-of-an-eczema-moisturizer-or-cream-provides-immediate-s:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus re-fetched PubMed abstract PMID 42555074: both quoted result sentences are verbatim and every number (n=33, 38s/43s time-to-relief, 98-99% reduction, NRS 0.03/0.09, P<0.0001, 24h, split-body/blinded/randomized) is genuinely present; abstract-only disclosure and link-out discipline are correct, and no effect size beyond the abstract is asserted. Revise (not flag): no fabricated numbers, but the page asserts 'manufacturer-funded' and Galderma attribution/COI as fact when the accessed abstract carries no funding statement — soften these to inference/structural-COI wording before publishing.
