@@ -198,9 +198,10 @@
 - name: Carnosine
   type: ingredient
   priority: 3
-  status: pending
+  status: done
   discovered_from: skinceuticals-c-e-ferulic
   source: null
+  note: reconciled
 - name: Octinoxate
   type: ingredient
   priority: 6
@@ -330,9 +331,10 @@
 - name: Vitreoscilla filiformis lysate (postbiotic)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: probiotics
   source: null
+  note: reconciled
 - name: Bifida ferment lysate (postbiotic)
   type: ingredient
   priority: 5
@@ -377,9 +379,10 @@
 - name: Baobab seed oil
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://www.nytimes.com/wirecutter/reviews/best-retinol-products/
+  note: reconciled
 - name: Alpha-arbutin
   type: ingredient
   priority: 5
@@ -459,9 +462,10 @@
 - name: Inulin
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://prequelskin.com/products/gleanser-non-drying-glycerin-cleanser
+  note: reconciled
 - name: Oat extract (Avena sativa)
   type: ingredient
   priority: 5
@@ -527,9 +531,10 @@
 - name: Feverfew (Chrysanthemum parthenium) extract in skincare
   type: ingredient
   priority: 3
-  status: pending
+  status: done
   discovered_from: null
   source: data/products/first-aid-beauty-ultra-repair-cream.md
+  note: published as feverfew-extract
 - name: Hydroquinone (topical depigmenting agent)
   type: ingredient
   priority: 6

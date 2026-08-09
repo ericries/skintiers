@@ -2993,3 +2993,45 @@ feverfew-extract:
   verdict: revise-then-fixed
   note: |
     Opus verification: re-fetched all five cited primaries (Martin 2008 PMID 18071724, Sur 2009 PMID 19112586, Rodriguez 2013 PMID 24035441, Paulsen 2010 PMID 20690937, Michalak 2024 PMC11594288); every quoted phrase is verbatim and every stat (DPPH 84.09/69.54/64.73%, seven patients/four positive, up-to-85% sesquiterpene content) checks out, J&J developer affiliations and independent-source status confirmed, and efficacy is honestly bounded (single-lab, not rosacea; marketing claims debunked). Verdict revise for two surgical fixes: the unsourced \"patented\" assertion (abstracts support only \"developed\") and a Michalak quote attributed to parthenolide that the source applies to the sesquiterpene-lactone fraction.
+vitreoscilla-filiformis-lysate:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus re-fetched all six cited PubMed/Frontiers primaries: 2006 trial quotes and stats (13 patients, 5%, 4 wk, mEASI, split-body), 2013 Mahe TLR2/PKC-zeta quotes, 2022 combination quotes/concentrations (10% VVMW, 0.002% VfeV, cytokine and barrier-protein lists), the 2021 review COI and 22-women/1%/10-day DHA "decreased significantly more rapidly" quote, and the no-abstract status of both 2008 letters all verified verbatim; funding/conflict (all-L'Oreal) and thin single-trial evidence are honestly framed and marketing claims correctly debunked. One fabricated quotation found: "accelerated barrier recovery" is attributed to the 2021 review but the source reads "improved barrier function recovery ... compared with the control area" (appears twice). Verdict: revise — surgical quote fix only.
+baobab-seed-oil:
+  last_reviewed: '2026-08-08'
+  score: 10
+  verdict: publish
+  note: |
+    Opus verification: re-fetched all four cited primaries (Msalilwa PMC7822711, Ralaimanarivo PubMed 27519305, Ayanlowo PubMed 33928725, StatPearls NBK545171). Every quoted phrase is verbatim and every statistic (fatty-acid percentages, CPFA percentages, Halphen-test ranges, 200-250°C refining) is present in its cited source. Evidence is honestly framed as compositional/category-level with no baobab-specific human-skin trial, marketing claims are called out, and no aggregator is load-bearing; verdict publish.
+inulin:
+  last_reviewed: '2026-08-08'
+  score: 10
+  verdict: publish
+  note: |
+    Opus verification: re-fetched all six cited primaries (afzal PMC12529085, yoshida 37762500, woolerylloyd 36239004, talens PMC13084527, wu 11376968, krupakozak PMC13107836) and confirmed every quoted phrase is verbatim and every statistic (36.0/34.5/35.9% P<0.0001, 5,633-fold C. acnes, 856-fold S. epidermidis, 5- to 15-fold transfollicular transport, 15 g/day 8-week protocol) is present in-source. Funding/conflict disclosures (Burt's Bees, Sivamani consulting) and the thin-evidence framing are accurate; topical inulin is correctly presented as unproven with mouse/oral and expert-opinion data kept distinct. Verdict: publish.
+carnosine:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    carnosine: Opus re-fetched all three cited primaries (Narda 2018 PMID 30199874 incl. Karger full text, Emanuele 2014 PMID 24595577, Babizhayev 2012 PMID 21756141). Every quote is verbatim and every statistic (AGE percentages, 0.2% carnosine, 42 subjects, ISDIN disclosure) checks out; evidence is honestly represented as ex vivo/combination/oral with manufacturer/vendor conflicts flagged and no grade given to the unproven topical use. Verdict revise: the Babizhayev footnote title is incorrect for its PMID, 'paid' overstates the 'Scientific Advisor to ISDIN' disclosure, and the Narda author count is stated as four when there are five (fifth author is the BIO-EC contract lab) — all surgical citation fixes, no fabricated numbers.
+drometrizole-trisiloxane:
+  last_reviewed: '2026-08-08'
+  score: 10
+  verdict: publish
+  note: |
+    Opus re-fetched all cited primaries (Turner & Torgerson 2025 PMC12332967, Moyal 2004 PMID 15379874, Latha 2013 PMC3543289, PubChem CID 9848888) and confirmed every quoted phrase is verbatim and every stat (303/344 nm peaks, TDSA 345 nm, formula C24H39N3O3Si3, three Si atoms) is present in source. Evidence is honestly represented: spectral claim disclosed as a single narrative review, pigmentation efficacy flagged as combination-only and L'Oréal-run, tolerability limited to two case reports, and marketing claims correctly called out as unproven. Verdict: publish.
+ecamsule:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus verification of DRAFT ecamsule.md: re-fetched all four cited primaries. DeLeo Cutis 2009 stats (56%/11% P<.001; 36%/16% P=.02; ecamsule 3%/avobenzone 2%/octocrylene 10%/titanium dioxide 5% cream) and the D'Souza and Latha quotes all verify verbatim; openFDA confirms the four L'Oreal NDA numbers, ecamsule strengths, and approval dates. Verdict REVISE: the Rubric mislabels the avobenzone comparison (26/71 is the full formula, not the avobenzone-free arm), the lede's "since the 1990s" is unsupported by any cited source, and the FDA parentheticals for Anthelios 20 and Capital Soleil 15 omit their other active filters, implying single-filter products; no load-bearing number is fabricated, so these are fixable.
+mexoryl-400-mce:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus verification of mexoryl-400-mce.md against the three cited primaries (Marionnet PMC8762479, Mercurio PubMed 39673229, Loretan PubMed 39305114, all re-fetched via WebFetch; source-cache miss). Marionnet quotes/stats (385 nm peak, coeff 63,052, 370 nm reference, 74% 9-or-10, n=19, 50 J/cm2, NCT04865094, 0.7%/1.5%, Episkin, INCI/CAS) and Loretan/Mercurio quotes and all P-values verify verbatim, but three fixable defects remain: the pigmentation scale is 0-13 (page says 'out of 10'/'top of the scale'), the [^mercurio] 370 nm quotation is not verbatim in its source, and 'every author is an L'Oreal employee' is wrong (7 of 8; Passeron is academic). Verdict: revise.
