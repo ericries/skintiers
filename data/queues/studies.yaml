@@ -67,49 +67,49 @@
 - name: Bamford 2021 mesoporous magnesium carbonate powder cosmetics study
   type: study
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://pmc.ncbi.nlm.nih.gov/articles/PMC7821260/
 - name: CIR amorphous silica safety assessment (Burnett 2025)
   type: study
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/40932354/
 - name: Leshem 2020 OTC moisturizers in atopic dermatitis RCT
   type: study
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/32947459/
 - name: Chaudhuri Bojanowski 2014 bakuchiol retinol-like compound
   type: study
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/24471735/
 - name: Draelos 2006 niacinamide 2% facial sebum production
   type: study
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/16766489/
 - name: Draelos 2006 Cetaphil cleanser rosacea skin barrier
   type: study
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/16706247/
 - name: Taieb 2015 ATTRACT ivermectin vs metronidazole rosacea RCT
   type: study
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/25228137/
 - name: Stein 2014 ivermectin 1% papulopustular rosacea pivotal trials
   type: study
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/24595578/
 - name: Elias 2014 skin barrier lipid structure and function

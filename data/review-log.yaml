@@ -3355,3 +3355,51 @@ vanicream:
     Lean brand discovery-aid page (daily-drain, Sonnet-only, no Opus critic per roster). <=180 words: what it
     is + founder/ownership (sourced) + linked list of this brand's on-site products. Own-domain source cached.
     assurance=sonnet. lint/style clean.
+bamford-2021-mesoporous-magnesium-carbonate-powder-cosmetics-study:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus re-fetched the cited PMC full text (PMC7821260) and confirmed the headline figures verbatim (110% oil uptake vs silica, 300 m2 g-1 / 0.5 cm3 g-1 BET, 85.2 +/- 3.5% RhE viability vs >50% criterion, 8 h mattifying, kaolin exception, flashback wording, 50-subject HRIPT, 14/8/50 panels, 20C/76% RH, OECD 439, Upsalite/Disruptive Materials industry affiliation, 'Corn Starch'). Two substantive corrections required: the page falsely states no statistical tests/p-values are reported (source describes a two-sided t-test, p<0.05 vs control), and the dual-loading sentence quotes '50 wt% oil' which is not in the source (source: '0.5 g g-1 oil'). Verdict: revise — core data sound, but a false stats claim and a non-verbatim quoted figure must be fixed before publish.
+cir-amorphous-silica-safety-assessment-burnett-2025:
+  last_reviewed: '2026-08-08'
+  score: 10
+  verdict: publish
+  note: |
+    Opus re-fetched PubMed abstract (PMID 40932354) and confirmed all four block quotes are verbatim (method-of-manufacture exclusivity, function list, "including frequency and concentration of uses," and the "safe...when formulated to be non-irritating" conclusion), with author list, journal/volume/pages, and DOI matching. The abstract contains zero numeric figures and the page correctly asserts none (no n, %, dose, or p-value) while disclosing that only the abstract was accessed; design/population/scope match and link-out discipline is respected. Verdict: publish.
+leshem-2020-otc-moisturizers-in-atopic-dermatitis-rct:
+  last_reviewed: '2026-08-08'
+  score: 10
+  verdict: publish
+  note: |
+    Opus re-fetched PubMed 32947459 via WebFetch: all five quoted Results phrases and the conclusion quote are verbatim, and every number (n=20 AD, 10 non-AD controls, 4 moisturizers, 4 weeks, age >12, clear-to-moderate AD) is genuinely in the abstract. Page correctly asserts no p-values/percentages/effect sizes and discloses abstract-only access; design/population/comparator/products all match. Verdict: publish.
+chaudhuri-bojanowski-2014-bakuchiol-retinol-like-compound:
+  last_reviewed: '2026-08-08'
+  score: 10
+  verdict: publish
+  note: |
+    Opus re-fetched PubMed abstract (PMID 24471735) and verified all three block quotes ("Volcano plots showed great overall similarity...", the types I/III/IV collagen sentence, and the "after 12 weeks treatment, significant improvement..." sentence) plus the "great overall similarity," "significant improvement," and conclusion phrases are verbatim. Confirmed the only numbers present (12 weeks, twice-daily) are genuine, that the page correctly discloses abstract-only access and asserts no n/percentage/p-value/fold-change effect sizes (none exist in the abstract), and that design/population/comparator (EpiDerm FT, human dermal fibroblasts, uncontrolled clinical case study, no control arm) match the source with link-out discipline respected. Verdict: publish.
+draelos-2006-niacinamide-2-facial-sebum-production:
+  last_reviewed: '2026-08-08'
+  score: 10
+  verdict: publish
+  note: |
+    Opus re-fetched PMID 16766489 via WebFetch and confirmed both verbatim results quotes (Japanese SER lowered at wks 2/4; US "After 6 weeks... CSL significantly reduced, but the SER was not significantly reduced") and the conclusion are word-for-word in the abstract, that all numbers (n=100 50/50, 4 wk; n=30 split-face, 6 wk; 2%) are present, and that the abstract carries no percentage, p-value, or fold-change — which the page correctly discloses while asserting no effect size. Design/population/comparator match (double-blind placebo-controlled Japanese arm; randomized split-face US arm) and abstract-only access is disclosed with link-out discipline intact. Verdict: publish.
+draelos-2006-cetaphil-cleanser-rosacea-skin-barrier:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus re-fetched PubMed 16706247 (abstract only) and confirmed all three block quotes are verbatim and every number (n=30, P<.05, 2-week washout with Dove Sensitive Skin Bar, 2-week twice-daily Cetaphil study period) is present in the abstract; no numeric TEWL/corneometry values were invented, post-hoc framing and abstract-only disclosure are correct, and link-out discipline holds. One fixable over-attribution: the Design line says the study is 'non-randomized, non-blinded per the abstract,' but the abstract is silent on both — soften to 'single-arm sequential; abstract does not report randomization or blinding.' Verdict: revise (single surgical wording fix; all quotes/numbers verified accurate).
+taieb-2015-attract-ivermectin-vs-metronidazole-rosacea-rct:
+  last_reviewed: '2026-08-08'
+  score: 10
+  verdict: publish
+  note: |
+    Opus re-fetched PubMed 25228137: the verbatim primary-result quote matches the abstract character-for-character, and every number (n=962/478/484, 83.0% vs 73.7% P<0.001, 84.9% vs 75.4% P<0.001, 16 wk, dosing) is genuinely present; design/population/comparator, the abstract-only disclosure, the hedged derived effect sizes, and the qualitative AE statement (no invented rates) all check out, with link-out discipline respected. Verdict: publish.
+stein-2014-ivermectin-1-papulopustular-rosacea-pivotal-trials:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus re-fetched PubMed 24595578 (abstract only): all four block quotes (treatment success 38.4%/40.1% vs 11.6%/18.8% P<.001; inflammatory-lesion reduction 76.0%/75.0% vs 50.0%; week-4-through-12 superiority; and the dermatologic-AE/skin-dryness safety sentence) are verbatim, and every number is genuinely in the abstract; the page correctly discloses abstract-only access and asserts no effect size or per-arm n the abstract lacks. Revise (not publish) for two non-number fixes: \"multicenter\" is not in the abstract or title, and the FDA-approval sentence is external context unsupported by footnote [^1].

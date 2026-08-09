@@ -1,9 +1,9 @@
 ---
 analyzed: '2026-08-08'
-assurance: sonnet
+assurance: opus
 name: Leshem 2020 OTC moisturizers in atopic dermatitis RCT
 slug: leshem-2020-otc-moisturizers-in-atopic-dermatitis-rct
-status: draft
+status: published
 type: study
 updated: '2026-08-08'
 ---

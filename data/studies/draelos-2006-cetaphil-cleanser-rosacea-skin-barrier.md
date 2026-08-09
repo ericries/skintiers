@@ -3,14 +3,14 @@ analyzed: '2026-08-08'
 assurance: sonnet
 name: Draelos 2006 Cetaphil cleanser rosacea skin barrier
 slug: draelos-2006-cetaphil-cleanser-rosacea-skin-barrier
-status: draft
+status: published
 type: study
 updated: '2026-08-08'
 ---
 
 A single-arm before/after study in 30 patients with mild-to-moderate rosacea found that two weeks of twice-daily washing with Cetaphil Gentle Skin Cleanser produced no significant rise in transepidermal water loss and maintained skin hydration, with a post hoc analysis also showing reduced investigator-rated rosacea severity.[^1]
 
-**Design:** Single-arm, sequential (non-randomized, non-blinded per the abstract) clinical trial: a 2-week washout period cleansing with Dove Sensitive Skin Bar, followed by a 2-week study period cleansing twice daily with [[cetaphil-gentle-skin-cleanser|Cetaphil Gentle Skin Cleanser]], with no rosacea therapy during either period. Skin barrier function (TEWL, corneometry) and rosacea severity were monitored throughout.[^1]
+**Design:** Single-arm, sequential (the abstract does not report randomization or blinding) clinical trial: a 2-week washout period cleansing with Dove Sensitive Skin Bar, followed by a 2-week study period cleansing twice daily with [[cetaphil-gentle-skin-cleanser|Cetaphil Gentle Skin Cleanser]], with no rosacea therapy during either period. Skin barrier function (TEWL, corneometry) and rosacea severity were monitored throughout.[^1]
 
 **Population / n:** 30 patients with mild to moderate [[rosacea]].[^1]
 

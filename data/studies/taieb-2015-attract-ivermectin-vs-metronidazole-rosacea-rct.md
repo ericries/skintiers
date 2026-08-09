@@ -1,9 +1,9 @@
 ---
 analyzed: '2026-08-08'
-assurance: sonnet
+assurance: opus
 name: Taieb 2015 ATTRACT ivermectin vs metronidazole rosacea RCT
 slug: taieb-2015-attract-ivermectin-vs-metronidazole-rosacea-rct
-status: draft
+status: published
 type: study
 updated: '2026-08-08'
 ---

@@ -1,9 +1,9 @@
 ---
 analyzed: '2026-08-08'
-assurance: sonnet
+assurance: opus
 name: Draelos 2006 niacinamide 2% facial sebum production
 slug: draelos-2006-niacinamide-2-facial-sebum-production
-status: draft
+status: published
 type: study
 updated: '2026-08-08'
 ---

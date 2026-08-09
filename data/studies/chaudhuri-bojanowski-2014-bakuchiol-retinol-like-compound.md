@@ -1,9 +1,9 @@
 ---
 analyzed: '2026-08-08'
-assurance: sonnet
+assurance: opus
 name: Chaudhuri Bojanowski 2014 bakuchiol retinol-like compound
 slug: chaudhuri-bojanowski-2014-bakuchiol-retinol-like-compound
-status: draft
+status: published
 type: study
 updated: '2026-08-08'
 ---

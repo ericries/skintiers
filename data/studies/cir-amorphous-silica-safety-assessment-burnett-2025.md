@@ -1,9 +1,9 @@
 ---
 analyzed: '2026-08-08'
-assurance: sonnet
+assurance: opus
 name: CIR amorphous silica safety assessment (Burnett 2025)
 slug: cir-amorphous-silica-safety-assessment-burnett-2025
-status: draft
+status: published
 type: study
 updated: '2026-08-08'
 ---
