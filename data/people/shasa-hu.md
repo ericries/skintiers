@@ -4,7 +4,7 @@ assurance: sonnet
 expertise: Dermatologists
 name: Shasa Hu
 slug: shasa-hu
-status: draft
+status: published
 type: person
 updated: '2026-08-08'
 ---

@@ -4,7 +4,7 @@ assurance: sonnet
 expertise: Dermatologists
 name: Jenna Queller
 slug: jenna-queller
-status: draft
+status: published
 type: person
 updated: '2026-08-08'
 ---

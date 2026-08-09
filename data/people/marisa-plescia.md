@@ -4,7 +4,7 @@ assurance: sonnet
 expertise: Cosmetic chemists
 name: Marisa Plescia
 slug: marisa-plescia
-status: draft
+status: published
 type: person
 updated: '2026-08-08'
 ---

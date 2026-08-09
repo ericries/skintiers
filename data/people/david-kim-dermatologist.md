@@ -4,7 +4,7 @@ assurance: sonnet
 expertise: Dermatologists
 name: David Kim (dermatologist)
 slug: david-kim-dermatologist
-status: draft
+status: published
 type: person
 updated: '2026-08-08'
 ---

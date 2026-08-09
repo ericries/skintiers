@@ -55,7 +55,7 @@
 - name: Round Lab
   type: brand
   priority: 8
-  status: pending
+  status: done
   discovered_from: null
   source: null
 - name: Anua
@@ -133,7 +133,7 @@
 - name: Galderma
   type: brand
   priority: 7
-  status: pending
+  status: done
   discovered_from: differin-adapalene-0-1-gel
   source: null
 - name: L'Oreal
@@ -175,13 +175,13 @@
 - name: Chemist Confessions
   type: brand
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://www.beautyindependent.com/cosmetic-chemists-and-chemist-confessions-founders-victoria-fu-and-gloria-lu-turn-to-science-to-take-the-bs-out-of-skincare/
 - name: Purito
   type: brand
   priority: 6
-  status: pending
+  status: done
   discovered_from: null
   source: https://purito.com
 - name: Dr.G
@@ -193,7 +193,7 @@
 - name: Dear, Klairs
   type: brand
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://www.klairs.com
 - name: First Aid Beauty

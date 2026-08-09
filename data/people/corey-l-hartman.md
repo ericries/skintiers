@@ -4,7 +4,7 @@ assurance: sonnet
 expertise: Dermatologists
 name: Corey L. Hartman
 slug: corey-l-hartman
-status: draft
+status: published
 type: person
 updated: '2026-08-08'
 ---

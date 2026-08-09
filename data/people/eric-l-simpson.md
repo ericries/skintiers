@@ -4,7 +4,7 @@ assurance: sonnet
 expertise: Dermatologists
 name: Eric L. Simpson
 slug: eric-l-simpson
-status: draft
+status: published
 type: person
 updated: '2026-08-08'
 ---

@@ -4,7 +4,7 @@ assurance: sonnet
 expertise: Dermatologists
 name: Sheldon Pinnell
 slug: sheldon-pinnell
-status: draft
+status: published
 type: person
 updated: '2026-08-08'
 ---
