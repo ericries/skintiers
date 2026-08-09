@@ -3880,3 +3880,97 @@ rachel-neale:
   note: |
     Lean person discovery-aid (Sonnet-only). Honest credential + linked on-site studies/products.
     assurance=sonnet. lint/style clean.
+zi-2026-study-on-the-multiple-efficacies-of-vitamin-c-serum-in-anti-gl:
+  last_reviewed: '2026-08-08'
+  score: 10
+  verdict: publish
+  note: |
+    Opus re-fetched PubMed abstract PMID 42087444 and verified every quoted phrase is verbatim and all six result figures (AGEs -17.65%, carbonylation -49.22%, IL-1a -58.73%, ABTS +12.14%, b* -6.13%, a* -16.46%, all p<0.001) plus design (RCT, double-blind), population (n=66; 31 blank/35 topical), and intervention (10% vitamin C, 12 weeks) are genuinely present in the abstract. Abstract-only access is disclosed, no unsupported effect size is asserted, and link-out discipline is respected. Verdict: publish.
+yosipovitch-2026-itch-relief-and-quality-of-life-improvement-with-abro:
+  last_reviewed: '2026-08-08'
+  score: 10
+  verdict: publish
+  note: |
+    Opus re-fetched PubMed PMID 42084697 and verified every quoted phrase is verbatim and every number (n=1196/588/608, 67% vs 63%, 36% vs 27%, 11 vs 29 days, 57 vs 139 days, overlapping 95% CIs, no p-values, 200 mg/day, 300 mg q2w, 16 wk) is present in the abstract. Design/population/comparator match, the PP-NRS ≥2 residual-itch threshold and QoL claim are supported, abstract-only access is disclosed, and no effect size or general ingredient evidence is fabricated or imported. Verdict: publish.
+liu-2026-comparison-of-compound-lidocaine-cream-and-lidocaine-prilocai:
+  last_reviewed: '2026-08-08'
+  score: 10
+  verdict: publish
+  note: |
+    Opus re-fetched the abstract via Europe PMC (PubMed itself served a CAPTCHA) and verified every load-bearing element: the primary-result quote (2.51 ± 1.80 vs 3.75 ± 1.74; t = -3.48, p < 0.001) is verbatim, and n per arm (47/53, 100 total), adverse rates (4.3% 2/47 vs 11.3% 6/53; χ² = 1.89, p = 0.169), the lack-of-blinding limitation, design, population, comparator, and citation all match the abstract with no fabricated figures. Abstract-only access is disclosed and no effect size beyond the derived ~1.2-point VAS difference is asserted; link-out discipline respected. Verdict: publish.
+eichenfield-2026-identifying-the-most-relevant-eczema-area-and-severit:
+  last_reviewed: '2026-08-08'
+  score: 10
+  verdict: publish
+  note: |
+    Opus re-fetched PMID 41996013: both verbatim quotes match the abstract exactly (clean period-terminated truncations), and every figure the page carries (n=106, 1-year duration, six PROMs, EASI-50/75/90/100 bands, dupilumab 300 mg q2w + TCS) is present in the PubMed source — the sample size, duration, and measure count coming from the plain-language summary on the same page. Design/population/single-arm framing match, the page correctly states the abstract gives no p-values/CIs/per-PROM percentages and asserts no fabricated effect size, discloses abstract-only, and respects link-out discipline. Verdict: publish.
+wang-2026-improved-skin-quality-with-a-novel-topical-body-serum-distal:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus re-fetched PMID 41981821 (PubMed) and verified every quote and number against the abstract: n=11 (distal thighs) / n=12 (back of hands), 12-week randomized double-blinded split-body vehicle-controlled design, BFS vs vehicle twice daily, timepoints (weeks 2/4/8/12), abstract-only disclosure, no fabricated percentages/p-values/effect sizes, and correct link-out discipline (BFS composition undisclosed, no imported ingredient evidence) all confirmed. Two fixable defects: (1) week-12 vehicle-vs-baseline texture improvement is misattributed to the back of hands when the abstract assigns it to the distal thighs; (2) the quoted phrase "improved significantly" is a reordering of the abstract's "significantly improved." Verdict: revise.
+maloney-2026-hydroquinone-free-tetrahexyldecyl-ascorbate-antioxidant-s:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus re-fetched PubMed 41947480 and confirmed every quoted phrase (Methods design sentence, '30% THD Ascorbate', patent-pending blend, and the full Results block) is verbatim, and every number (88/87/82% ROS at 30/60/120 min, 24% melanin, 4-fold collagen) is genuinely in the abstract with correct comparators; n correctly 'Not stated', clinical arm correctly qualitative-only, abstract-only access disclosed, link-out discipline respected. One fixable inference: line 17 labels the melanin co-culture comparator 'untreated', which the abstract does not state. Verdict: revise (single surgical fix); no fabricated load-bearing number or quote.
+morgado-carrasco-2026-efficacy-of-a-topical-formulation-on-skin-hydrat:
+  last_reviewed: '2026-08-09'
+  score: 9
+  verdict: flag-then-fixed
+  note: |
+    Morgado-Carrasco 2026 (panthenol/niacinamide/licorice moisturizer, xerosis, PMID 42108609). Study drain. Opus
+    critic FLAGGED fabricated TEWL numbers (drafter wrote 8.2/11.3%/13.5%/p<0.05 vs the abstract's actual
+    8.1/12.0%/14.1%/p<0.001 - understating significance). Corrections applied from the critic's exact figures and
+    re-verified; hydration figures (66.2%/74.1%, p<0.001) were already correct. Anti-hallucination catch working
+    as designed. assurance=sonnet. lint clean.
+afzal-2026-prospective-randomized-double-blind-placebo-controlled-stud:
+  last_reviewed: '2026-08-08'
+  score: 10
+  verdict: publish
+  note: |
+    Opus re-fetched PubMed abstract (PMID 41947475): the verbatim Results quote matches character-for-character and every number (n=36, -5.28% p<0.01 wrinkle, 22.0%/13.8% elasticity, 12.2% firmness, 30.2% viscoelasticity, 8 weeks, baseline/wk4/wk8) is genuinely in the abstract; design/population/comparator match. Abstract-only status disclosed, no fabricated effect size, hydration/erythema/pigmentation correctly flagged as measured-but-no-figures-reported, per-arm n correctly noted as unstated, link-out discipline respected. Verdict: publish.
+farris-2026-beyond-efficacy-0-6-selenium-disulfide-shampoo-matches-2-k:
+  last_reviewed: '2026-08-08'
+  score: 10
+  verdict: publish
+  note: |
+    Opus re-fetched the source via NCBI eutils (pubmed.ncbi.nlm.nih.gov returned a reCAPTCHA) and confirmed the full RESULTS quote block is verbatim and every number (n=87, 6 wk, TSS 69.5%/77.9%, SSSD 68.0%/74.5%, pruritus 76.2%/75.9%, all P<0.001, cosmesis P<0.001) is present in the abstract; design/population/comparator and citation metadata match, no effect size is asserted beyond the abstract, and the abstract-only limitation is disclosed. Only nit: page calls the products "antifungal shampoos," a label not used in the abstract, but it is a standard category descriptor (non-blocking). Verdict: publish.
+ma-2026-cross-cultural-beliefs-and-stigmatization-in-vitiligo-a-system:
+  last_reviewed: '2026-08-08'
+  score: 10
+  verdict: publish
+  note: |
+    Opus re-fetched PubMed 41873648 and verified all seven quoted phrases are verbatim in the abstract, the sole numeric claim (23 studies) is present, and the databases (PubMed/Embase/PsycINFO), design, and non-Western vs Western comparator match the source. Page correctly discloses abstract-only access and asserts no effect sizes, percentages, or p-values the abstract lacks; link-out discipline respected. Verdict: publish.
+abedin-2026-lactobacillus-based-microbiome-therapy-for-acne-vulgaris-a:
+  last_reviewed: '2026-08-08'
+  score: 10
+  verdict: publish
+  note: |
+    Opus re-fetched PubMed 41853869 and verified every quoted figure verbatim (three pooled mean differences with 95% CIs and p-values: -1.39/p=0.46, -0.08/p=0.89, -9.07/p=0.13), n (5 RCTs, 332 participants), the "moderate to low" heterogeneity phrase, the conclusion quote, the oral/topical probiotic-or-postbiotic intervention, and the placebo/benzoyl-peroxide comparator — all present in the abstract. GRADE-in-title-only caveat and abstract-only disclosure are both correct; no fabricated effect sizes, no imported general ingredient evidence. Verdict: publish.
+peng-2026-oral-jak-inhibitors-as-a-promising-therapeutic-strategy-for-:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus re-fetched the full PMID 41796703 abstract via NCBI E-utilities (PubMed HTML was CAPTCHA-blocked) and confirmed every quoted phrase verbatim and every figure present: 11 studies/57 patients, 89.9% pooled response (95% CI 74.4-99.4%, I2=16.3%), IGA 67.8%, CEA 74.6%, AEs 10.5%, PROSPERO CRD420251245235, and the 'small sample size and single-arm design, these findings are exploratory' limitation. Abstract-only disclosure and no-comparator/effect-size caveats are correct; only defect is line 17's invented '(pre/post or case-series designs)' detail not in the abstract. Verdict: revise (one surgical fix).
+queille-roussel-2026-rapid-strong-and-visible-efficacy-of-a-dermocosme:
+  last_reviewed: '2026-08-08'
+  score: 10
+  verdict: publish
+  note: |
+    Opus re-fetched PMID 41772684 (J Cosmet Dermatol 2026;25(3):e70737) and verified every quoted phrase is verbatim in the PubMed abstract and every number (n=16, 57-day, phototype IV-VI split 50/31.2/18.8%, GEA 68.8/31.2%, age 26.8±6.7, total-lesion -17.1%/p<0.05 Day5 and -44.9%/p<0.01 Day57 vs -28.4% untreated, p<0.01 inflammatory/non-inflammatory and AIH Day11-57, PAHPI -22.7% with hemi-face p<0.05) is genuinely present; no fabricated effect size. Design/population/comparator match, abstract-only access is disclosed in three places, and link-out discipline holds (no imported ingredient evidence, composition correctly noted as undisclosed). Verdict: publish.
+mosteirin-2026-efficacy-and-safety-of-amino-acid-enriched-hyaluronic-a:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus re-fetched PMID 41724989 and verified all figures: n=11 studies, WSRS MD 2.15 (2.00-2.30), GAIS MD 3.13 (1.94-4.33), dermal thickness MD -0.42mm (-0.55 to -0.30), cell viability MD -24.00 (-25.16 to -22.84), adverse events RR 5.20 (0.53-50.77, p=0.16) all present and correct, with no pooled patient count in the abstract (correctly disclosed) and abstract-only access disclosed. The adverse-event interpretation correctly flags the abstract's internal inconsistency, and link-out discipline is respected. Verdict revise: four sentences in the 'verbatim figures' section are misquoted (altered wording, incl. 'substantially' for 'significantly'), though every underlying number is genuine.
+liao-2026-efficacy-and-safety-of-sodium-hyaluronate-gel-for-facial-ski:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Re-fetched PubMed abstract (PMID 41650338) three times and verified every quoted phrase ('90.63% vs 3.65%', '83.20% vs 3.65%', 'Peak efficacy rates ... 51.59% and 50.00%, respectively.', p<.0001, mild/transient AEs) is verbatim, and that design, intervention/comparator, 6-month sustainment, and 'Chinese population' all match the abstract; abstract-only access is disclosed and no unsupported effect size is asserted. One fix needed: per-arm sizes n=280/n=140 are arithmetic derivations from the stated '420, 2:1' and are not in the abstract, so they must be qualified or dropped. Verdict: revise (single surgical fix; no fabricated load-bearing number).
