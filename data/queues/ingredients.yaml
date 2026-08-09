@@ -153,9 +153,10 @@
 - name: Free fatty acids (skin barrier lipids)
   type: ingredient
   priority: 4
-  status: pending
+  status: done
   discovered_from: cerave-moisturizing-cream
   source: null
+  note: reconciled
 - name: Phytosphingosine
   type: ingredient
   priority: 3
@@ -166,9 +167,10 @@
 - name: Free fatty acids
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: cholesterol
   source: null
+  note: reconciled
 - name: Homosalate
   type: ingredient
   priority: 6
@@ -232,27 +234,31 @@
 - name: Magnesium ascorbyl phosphate (MAP)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: null
+  note: reconciled
 - name: Sodium ascorbyl phosphate (SAP)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: null
+  note: reconciled
 - name: 3-O-ethyl ascorbic acid
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: null
+  note: reconciled
 - name: Ascorbyl glucoside
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: null
+  note: reconciled
 - name: Tetrahexyldecyl ascorbate (THD ascorbate)
   type: ingredient
   priority: 5
@@ -300,15 +306,17 @@
 - name: Oxymetazoline (topical, Rhofade)
   type: ingredient
   priority: 6
-  status: pending
+  status: done
   discovered_from: rosacea-erythematotelangiectatic
   source: null
+  note: reconciled
 - name: Doxycycline (oral, sub-antimicrobial 40mg Oracea)
   type: ingredient
   priority: 6
-  status: pending
+  status: done
   discovered_from: rosacea-papulopustular
   source: null
+  note: reconciled
 - name: Minocycline (topical foam and oral)
   type: ingredient
   priority: 4
@@ -462,9 +470,10 @@
 - name: Epidermal growth factor (EGF) in topical skincare
   type: ingredient
   priority: 6
-  status: pending
+  status: done
   discovered_from: null
   source: https://www.klairscosmetics.com/product/egf-blue-youth-activating-drop/
+  note: reconciled
 - name: Copper peptides (GHK-Cu)
   type: ingredient
   priority: 7
@@ -546,9 +555,10 @@
 - name: sodium ascorbyl phosphate
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: naturium-vitamin-c-complex-serum
   source: https://www.naturium.com/products/vitamin-c-complex-serum
+  note: reconciled
 - name: adenosine
   type: ingredient
   priority: 5

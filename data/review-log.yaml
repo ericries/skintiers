@@ -2615,3 +2615,51 @@ youth-to-the-people-superfood-antioxidant-cleanser:
   verdict: publish
   note: |
     Opus focused review: verified all product-specific facts against the cached Target listing (source_cache key f45705a919479011) — price $33.20/regular $39.00/15% off, 8 oz, UPC 810834030322, TCIN 1006104836, every quoted marketing phrase verbatim, and the absence of an INCI correctly disclosed rather than fabricated. Grades honest (effect minimal/anecdotal), no trial numbers imported, general evidence routed out to [[moisturizing]], marketing claims quarantined. Verdict: publish.
+magnesium-ascorbyl-phosphate:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus re-fetched all four cited PubMed primaries (Kameyama 8543691, Geesin 8489778, Campos 19159387, CIR/Elmore 16154915) and confirmed every quoted phrase verbatim and every stat/concentration (19/34, 3/25, 1.6%, 10%, tenfold, 0.001%-3%) present in source. Evidence is honestly represented: animal/cell-culture findings are not graded as human efficacy and the unproven head-to-head-vs-L-ascorbic-acid marketing claim is explicitly called out. Revise (not publish) only for a single stray leading "the" inside the Campos viscoelastic-ratio quote; all other quotes are exact.
+sodium-ascorbyl-phosphate:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus verification: re-fetched all five cited PubMed primaries and confirmed every quoted phrase is verbatim and every statistic checks out (Woolery-Lloyd 50-subject 12-week vehicle-controlled RCT; Ruamrak lesion-reduction percentages 20.14/48.82/21.79/49.50/29.28/63.10; Klock log-5/40%/76.9%/DSM; Nayama 1.03-/2.17-/6.27-fold and the ~50% untreated depletion; CIR 0.01-3% safety quotes). Efficacy is honestly represented (acne-only grading, mechanism-not-human-endpoint labeling, marketing claims flagged unproven). Verdict: revise, because the anchor trial is called 'independently authored' when co-author Ikeno links it to the DSM manufacturer study and it is tagged non-government-funded, so the independence claim must be softened.
+3-o-ethyl-ascorbic-acid:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus re-fetched all four cited PubMed sources (Iliopoulos 31517290, Liao 30311899, Chen 34314818, Mamodaly 31066077): every statistic verified in-source (MP 114.39°C, logP -1.07, pKa 7.72; DPPH IC50 0.032 g/L, tyrosinase IC50 7.5 g/L, RSM 36.3°C/pH 5.46) and evidence honesty is strong (no human trial, all grades preliminary/ex vivo/anecdotal, human data routed to L-ascorbic acid). Verdict revise: two in-quote misquotes (Chen zebrafish drops \"/activity\"; Liao \"at\" vs source \"as\") and one framing fix (\"same assay\" → \"same study\" for the cross-assay 230-fold comparison) — all surgical, nothing fabricated.
+ascorbyl-glucoside:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus verification of ascorbyl-glucoside: re-fetched all five PubMed primaries (Jacques 2021, Takada 2024, Hakozaki 2006, Mota 2023, CIR 2025) plus Mota full text (PMC10820089). Every quoted phrase is verbatim and every stat/concentration checks out — including the AA-2G tyrosinase result (11.17% at 150 uM, weakest of six), which the abstract omits but the full text confirms; efficacy is honestly deweighted and CIR correctly labeled safety-not-efficacy. Verdict revise: three of four efficacy sources carry undisclosed industry ties (Takada co-authors employed by Doctor's Choice Co.; Jacques funded by Pierre Fabre; Hakozaki authored by P&G) that should be disclosed, and one unsourced paraphrase ('lower absolute skin levels of AA') needs verification or softening.
+epidermal-growth-factor:
+  last_reviewed: '2026-08-08'
+  score: 10
+  verdict: publish
+  note: |
+    Opus verification review: re-fetched all 8 cited primary sources and confirmed every quoted phrase is verbatim and every number/stat/concentration is present in its cited source (wound-healing RCTs, cosmetic pilot/industry trial, 500-Dalton rule, gene summary, carcinogenesis abstract). Evidence is honestly represented, popular cosmetic use is called out rather than graded, and funding/conflicts are accurate; verdict publish.
+oxymetazoline-topical:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus verification of oxymetazoline-topical: re-fetched both REVEAL trials (PubMed 29320594, 29537447), the RHOFADE DailyMed label, and all three brimonidine case reports (25780983, 24742853, 24438976); every quoted phrase is verbatim and every stat (patient counts, demographics, composite-success percentages, adverse-reaction table, discontinuation/rebound rates, p-values) checks out against a cited source, and efficacy is honestly framed as modest/transient with popular claims rebutted. Verdict: revise — the per-timepoint success percentages should also cite [^label] (they are in the label's Clinical Studies table, not the Kircik abstract) and the Routt citation issue number should be 70(2), not 70(3); no fabricated or unverifiable numbers.
+doxycycline-oral-subantimicrobial:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus verification of doxycycline-oral-subantimicrobial: re-fetched all 5 cited primaries (Del Rosso 2007 abstract, Kanada 2012, Skidmore 2003, Husein-ElAhmed 2021 meta-analysis, Oracea FDA/DailyMed label). Every statistic (lesion-count changes, P values, AE %, n=537, RR 1.45/0.52 CIs) and every mechanism/meta-analysis/FDA quote verified verbatim; efficacy is honestly bounded (papulopustular only, no proven edge over active drugs, resistance claim correctly flagged as from a different 20 mg acne regimen). Verdict revise: two Del Rosso limitation phrases are quoted but sit in the paywalled full text (not the abstract) so are currently unverifiable, and one FDA quote has a boundary error ("should not be used for" is not the label's wording).
+free-fatty-acids:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus verification of free-fatty-acids.md: re-fetched all four cited primaries (Man 1996 PMID 8618046, Elias 2012 PMC3587970, Feingold 2007 PMID 17872588, Prottey 1976 PMID 1252336) — every quoted phrase is verbatim and every stat (1:1:1 molar ratio, 50/25/15 composition, up-to-3-fold, equimolar recovery, TEWL restoration) checks out, and efficacy is honestly hedged (isolated FFA not graded as effective; animal/preliminary evidence flagged). Verdict: revise — three of the four 'primary' sources share the UCSF Elias/Feingold lab, so the independence of the load-bearing 1:1:1-mixture claim is overstated and should be disclosed; also drop the unsupported 'by mass' qualifier on the Feingold percentages.

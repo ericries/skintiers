@@ -1,11 +1,68 @@
 ---
-analyzed: null
-assurance: stub
+analyzed: '2026-08-08'
+assurance: sonnet
 name: Ascorbyl glucoside
 slug: ascorbyl-glucoside
-status: stub
+status: published
 type: ingredient
 updated: '2026-08-08'
 ---
 
-Stub - to be researched and filled. Ascorbyl glucoside.
+Ascorbyl glucoside (AA2G, ascorbic acid 2-glucoside) is a glucose-conjugated derivative of vitamin C, sold as a shelf-stable alternative to plain L-ascorbic acid. It has no antioxidant activity of its own: skin must enzymatically cleave off the glucose and release free ascorbic acid before it can act, and researchers describe it explicitly as an "ascorbic acid pro-drug."[^jacques] The direct human evidence for it is thin. Most of what is published either tests it mixed with other actives and delivery boosters, or tests a concentrated complex rather than the plain ingredient at typical cosmetic-serum levels.
+
+> Ex vivo human skin studies show ascorbyl glucoside is converted to ascorbic acid in skin and gives an antioxidant effect similar to plain ascorbic acid at a lower concentration, but that evidence stops at skin explants and does not extend to a living human trial.[^jacques] The clearest human data are a small 24-week half-face trial of a 28% ascorbyl glucoside-arginine complex, not plain ascorbyl glucoside at retail-serum strength, that reduced solar lentigo pigmentation,[^takada] and a separate trial that paired ascorbyl glucoside with niacinamide and ultrasound-assisted delivery, a design that cannot isolate ascorbyl glucoside's own contribution.[^hakozaki] In one in vitro comparison it was the weakest tyrosinase inhibitor of six depigmenting agents tested, clearly behind bakuchiol and 4-butylresorcinol.[^mota] A 2025 US Cosmetic Ingredient Review panel found it safe in cosmetics at reported use levels, which is a safety finding, not an efficacy one.[^cir]
+
+## The Rubric
+
+**Prodrug conversion and antioxidant effect (mechanism, ex vivo and in vitro)**
+- **Effect size: modest, and mechanistic only.** In fresh human skin explants and a reconstructed human epidermis model, ascorbyl glucoside "was completely metabolized to AA by the skin before entering the receptor compartment," and at a lower concentration (1.8% AA2G) than a comparator ascorbic acid formulation (15% AA), "the protective effect of AA and AA2G was similar" across three oxidative-stress markers (malondialdehyde, superoxide dismutase, catalase).[^jacques] This confirms the conversion happens and that the converted product performs like ascorbic acid ex vivo; it does not measure any effect in living human skin. "Modest and mechanism-only: the antioxidant payoff depends entirely on skin converting it into ascorbic acid first; a well-studied antioxidant with modest evidence for collagen support and UV-damage protection once it is ascorbic acid, see [[ascorbic-acid-vitamin-c]]."
+- **Evidence quality: preliminary.** One study, using ex vivo human skin explants and an in vitro reconstructed-epidermis model; no living human or clinical-outcome data.[^jacques]
+
+**Hyperpigmentation and solar lentigos (topical, cosmetic)**
+- **Effect size: modest, but in a complex and concentration not representative of typical serums.** A double-blind, half-face, 24-week trial in 27 Japanese women with solar lentigos found a lotion containing 28% ascorbyl glucoside-arginine complex (AGAC) produced "significantly higher increased L or decreased MI [melanin index]" values than a placebo lotion applied to the paired side, and the authors concluded AGAC "is distinctly effective in ameliorating the hyperpigmentation levels of SLs."[^takada] That trial used an amino-acid complex of ascorbyl glucoside at a far higher concentration than typical cosmetic ascorbyl-glucoside serums, not the ingredient alone. A separate trial paired ascorbyl glucoside with [[niacinamide]] and ultrasound-assisted delivery in 60 women and found the gel-plus-ultrasound combination reduced hyperpigmented spots more than the gel alone after four weeks, but the design cannot separate what ascorbyl glucoside itself contributed from niacinamide's own established skin-lightening effect or from the ultrasound delivery boost.[^hakozaki] "Modest at best and hard to attribute: the one clean positive trial used a concentrated arginine complex rather than plain ascorbyl glucoside and carries a cosmetics-industry conflict of interest, and the other mixed it with niacinamide and ultrasound."
+- **Evidence quality: preliminary.** Two small trials (27 and 60 subjects), neither isolating plain ascorbyl glucoside at a standard concentration, and no independent replication.[^takada][^hakozaki]
+
+**Tyrosinase inhibition (mechanism, in vitro)**
+- **Effect size: minimal relative to comparators.** In a cell-based comparison of six depigmenting agents, ascorbyl glucoside was non-photoreactive but inhibited tyrosinase by just 11.17% at 150 uM, the weakest result of the six agents tested, well behind 4-butylresorcinol and [[bakuchiol]]; ascorbic acid's own result in the same assay was flagged by the authors as inconclusive due to chemical interference, so the clearest direct comparison is against 4-butylresorcinol and bakuchiol rather than ascorbic acid.[^mota] "Weakest tyrosinase inhibitor of the six agents tested, and clearly behind 4-butylresorcinol and bakuchiol on the one enzyme assay that compared them directly."
+- **Evidence quality: preliminary.** Single in vitro study.[^mota]
+
+## What We Actually Know
+
+Ascorbyl glucoside is inert until skin enzymes cleave it to ascorbic acid; ex vivo human skin explants confirm the conversion happens and that the resulting antioxidant effect matches plain ascorbic acid at a lower tested concentration, but that work stops at explanted skin.[^jacques] The best human pigmentation data come from a 24-week trial, and it tested a 28% ascorbyl glucoside-arginine complex against placebo, not the plain ingredient at ordinary serum strength.[^takada] A second human trial mixed ascorbyl glucoside with niacinamide and ultrasound-assisted delivery, so it cannot show what ascorbyl glucoside did on its own.[^hakozaki] Against other depigmenting agents in a direct in vitro tyrosinase assay, it was the weakest inhibitor of the six agents tested, clearly behind bakuchiol and 4-butylresorcinol.[^mota] The Cosmetic Ingredient Review panel found ascorbyl glucoside and sodium ascorbyl glucoside "safe in cosmetics in the present practices of use and concentration."[^cir]
+
+## How It Works
+
+Ascorbyl glucoside is ascorbic acid with a glucose molecule attached, which is what gives it shelf stability compared with plain L-ascorbic acid.[^jacques] That same modification means it has no antioxidant activity by itself; the Jacques study, titled "Ascorbic Acid 2-Glucoside: An Ascorbic Acid Pro-Drug," found the compound "was completely metabolized to AA by the skin before entering the receptor compartment," with both the parent compound and free ascorbic acid detectable in skin tissue, "indicating a reserve of AA2G was present for further metabolism."[^jacques] In other words, the benefit a formula built on ascorbyl glucoside can deliver is capped by how much of it skin actually converts to the active molecule described on [[ascorbic-acid-vitamin-c]].
+
+## The Evidence
+
+**Conversion and antioxidant effect (ex vivo/in vitro).** Jacques and colleagues compared a commercial 1.8% ascorbyl glucoside formulation against a commercial 15% ascorbic acid formulation using fresh viable human skin explants and an in vitro reconstructed human epidermis model, measuring oxidative-stress markers (malondialdehyde, superoxide dismutase, catalase). Ascorbyl glucoside "was completely metabolized to AA by the skin before entering the receptor compartment," both compounds reached maximum flux at 12 hours with continued absorption over 24 hours, and "the protective effect of AA and AA2G was similar" across all three markers. The authors concluded "a lower concentration of AA2G is as effective as the active metabolite, AA, in terms of antioxidant effects," and that AA2G was chemically stable, avoiding the need for a highly acidic formulation.[^jacques] This is the source relied on above for the conversion mechanism and the antioxidant-equivalence claim; the study was funded by Les Laboratoires Pierre Fabre, a cosmetics manufacturer.[^jacques]
+
+**Solar lentigos (human, half-face RCT).** Takada and colleagues ran a double-blind, half-face controlled trial in 27 Japanese women with solar lentigos, applying a lotion with or without 28% ascorbyl glucoside-arginine complex (AGAC) twice daily for 24 weeks, with pigmentation scored by photo-scale, a color-difference meter, and Mexameter melanin index. AGAC-treated lesions showed "significantly higher increased L or decreased MI values" than placebo-treated lesions at 12 and 24 weeks, and the authors concluded AGAC "is distinctly effective in ameliorating the hyperpigmentation levels of SLs at a level visibly recognizable by the subjects, without any hypo-pigmenting effects or skin problems."[^takada] This is the page's only clean positive human trial, and it carries a commercial conflict of interest: co-authors Masahiko Nakano and Akio Yamamoto are employed by Doctor's Choice Co., Ltd. (Cosmetic Research Center), a cosmetics company, per the paper's disclosed conflict-of-interest statement.[^takada]
+
+**Combination with niacinamide and ultrasound (human RCT).** Hakozaki and colleagues assigned 60 Japanese women with facial hyperpigmentation to a coupling gel containing ascorbyl glucoside and niacinamide, applied with or without therapeutic ultrasound, and separately confirmed via tape-stripping on the forearm that "ultrasound radiation enhanced the absorption of skin-lightening agents in the stratum corneum in a radiation-time-dependent manner." After four weeks, the gel-plus-ultrasound combination "significantly reduced facial hyperpigmented spots compared with both no treatment and skin-lightening gel alone."[^hakozaki] The authors are Procter & Gamble researchers, an industry sponsorship that compounds the trial's other limitation: the combination design cannot isolate ascorbyl glucoside's own contribution from niacinamide or the ultrasound delivery boost.[^hakozaki]
+
+**Comparative tyrosinase inhibition (in vitro).** Mota and colleagues compared six depigmenting agents, including ascorbyl glucoside, ascorbic acid, alpha-arbutin, bakuchiol, tranexamic acid, and 4-butylresorcinol, for photoreactivity (reactive-oxygen-species assay), tyrosinase inhibition, and cytotoxicity in B-16V melanocytes. Ascorbyl glucoside was among the agents found non-photoreactive; it inhibited tyrosinase by 11.17% at 150 uM, the weakest of the six agents tested, while "4-Butylresorcinol, acting as a competitive inhibitor, displayed potent tyrosinase inhibition, followed by ascorbic acid and bakuchiol." The authors flagged ascorbic acid's own result as inconclusive because of chemical interference with the assay, so ascorbyl glucoside's clearest direct comparison is against 4-butylresorcinol and bakuchiol rather than against ascorbic acid.[^mota]
+
+**Safety.** The 2025 Cosmetic Ingredient Review Expert Panel concluded "Ascorbyl Glucoside and Sodium Ascorbyl Glucoside are safe in cosmetics in the present practices of use and concentration described in this safety assessment."[^cir]
+
+## Uses
+
+Preliminary and cosmetic: some support for lightening solar lentigos, from a 24-week trial of a concentrated ascorbyl glucoside-arginine complex rather than the plain ingredient,[^takada] and from a combination protocol pairing ascorbyl glucoside with niacinamide and ultrasound-assisted delivery.[^hakozaki] Mechanistic support only: ex vivo human skin explants show it converts to ascorbic acid and then behaves like ascorbic acid as an antioxidant, at a lower tested concentration than the parent molecule.[^jacques] Considered safe in cosmetics at reported use levels by the Cosmetic Ingredient Review.[^cir]
+
+## Common Marketing Claims
+
+- **"As effective as vitamin C, but gentler and more stable."** The stability claim is supported: ascorbyl glucoside is chemically stable under storage conditions that would degrade plain ascorbic acid.[^jacques] The equivalence claim rests on one ex vivo/in vitro study showing a similar antioxidant effect at a lower tested concentration, not a living-skin or clinical brightening comparison.[^jacques]
+- **"Brightens dark spots."** The only positive human pigmentation data used a 28% ascorbyl glucoside-arginine complex, not the plain ingredient at typical serum concentrations,[^takada] or combined ascorbyl glucoside with niacinamide and ultrasound-assisted delivery, a design that cannot isolate ascorbyl glucoside's own contribution.[^hakozaki]
+
+## See Also
+
+[[ascorbic-acid-vitamin-c]] [[niacinamide]] [[bakuchiol]]
+
+## Sources
+
+[^jacques]: Jacques C, Genies C, Bacqueville D, et al. Ascorbic Acid 2-Glucoside: An Ascorbic Acid Pro-Drug with Longer-Term Antioxidant Efficacy in Skin. International Journal of Cosmetic Science, 2021. https://pubmed.ncbi.nlm.nih.gov/34679221/ (accessed 2026-08-08)
+[^takada]: Takada M, Numano K, Nakano M, Yamamoto A, Imokawa G. Treatment with Ascorbyl Glucoside-Arginine Complex Ameliorates Solar Lentigos. International Journal of Molecular Sciences, 2024;25(24). https://pubmed.ncbi.nlm.nih.gov/39769217/ (accessed 2026-08-08)
+[^hakozaki]: Hakozaki T, Takiwaki H, Miyamoto K, Sato Y, Arase S. Ultrasound enhanced skin-lightening effect of vitamin C and niacinamide. Skin Research and Technology, 2006;12(2):105-113. https://pubmed.ncbi.nlm.nih.gov/16626384/ (accessed 2026-08-08)
+[^mota]: Mota S, Rosa GP, Barreto MC, et al. Comparative Studies on the Photoreactivity, Efficacy, and Safety of Six Depigmenting Agents. Pharmaceuticals (Basel), 2023;17(1). https://pubmed.ncbi.nlm.nih.gov/38256889/ (accessed 2026-08-08)
+[^cir]: Johnson W Jr, Bergfeld WF, Belsito DV, et al. Safety Assessment of Ascorbyl Glucoside and Sodium Ascorbyl Glucoside as Used in Cosmetics. International Journal of Toxicology, 2025. https://pubmed.ncbi.nlm.nih.gov/39513541/ (accessed 2026-08-08)

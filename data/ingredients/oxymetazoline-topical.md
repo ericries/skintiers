@@ -1,11 +1,50 @@
 ---
-analyzed: null
-assurance: stub
+analyzed: '2026-08-08'
+assurance: sonnet
 name: Oxymetazoline (topical, Rhofade)
 slug: oxymetazoline-topical
-status: stub
+status: published
 type: ingredient
 updated: '2026-08-08'
 ---
 
-Stub - to be researched and filled. Oxymetazoline (topical, Rhofade).
+Oxymetazoline hydrochloride cream 1% (brand name Rhofade) is a prescription alpha1A-adrenoceptor agonist FDA-approved for the topical treatment of persistent facial erythema associated with [[rosacea]] in adults; it works as a vasoconstrictor rather than a treatment for the disease itself.[^label][^patel] Two identically designed phase 3 trials found it produced a statistically significant but numerically modest reduction in redness within hours of application, with the benefit not extending to the inflammatory bumps and pustules of rosacea.
+
+> In its two phase 3 trials, oxymetazoline cream produced composite success (a 2-grade improvement on both a clinician and a patient redness scale) in roughly 12 to 18% of patients across the day, versus 5 to 9% on vehicle; it reduces visible flushing for hours at a time rather than treating the underlying condition, and the FDA label lists worsening of inflammatory rosacea lesions as an adverse reaction in 1% of users.[^kircik][^baumann][^label]
+
+## The Rubric
+
+**Persistent background facial erythema, once-daily topical use.**
+- **Effect size: modest and transient.** Across the two identically designed phase 3 trials, composite success (a 2-grade improvement from baseline on both a clinician-rated and a patient-rated redness scale) ran roughly 12 to 18% on oxymetazoline versus 5 to 9% on vehicle at post-dose timepoints through day 29.[^kircik][^baumann][^label] Only a minority of treated patients hit that strict bar at any given hour, and the improvement is a same-day vasoconstriction effect that fades and requires reapplication, not a cure of the underlying vascular changes of rosacea. "Modest; a same-day flush-reduction effect, not a lasting fix, and it does not touch the inflammatory bumps and pustules of rosacea."
+- **Evidence quality: solid but narrow.** Two phase 3, multicenter, double-blind, vehicle-controlled RCTs (440 and 445 patients, 29 days of treatment) both reached statistical significance for the erythema endpoint.[^kircik][^baumann] The trials measured erythema only, over one month, so they say nothing about lesions, long-term tachyphylaxis, or use beyond 29 days.
+
+**What it does not do: inflammatory lesions.** The FDA label's indication is limited to erythema; it says nothing about papules or pustules, and lists "worsening inflammatory lesions of rosacea" among the adverse reactions reported in 1% of oxymetazoline users in the phase 3 trials, a rate as high as several other listed reactions.[^label] Oxymetazoline is not a substitute for the papulopustular-rosacea treatments covered on [[azelaic-acid]] or [[rosacea]].
+
+**Rebound and tachyphylaxis.** In the Kircik trial's post-treatment follow-up, a low proportion of patients experienced a rebound worsening of erythema after stopping oxymetazoline: 2.2% in the oxymetazoline arm versus 1.1% on vehicle.[^kircik] That rate is small in the controlled trial, but topical alpha-agonist vasoconstrictors for rosacea as a class have drawn case reports of more severe rebound erythema: dermatology case reports describe "severe rebound erythema" and burning after use of the related alpha-2 agonist brimonidine, and clinicians have flagged that brimonidine is "effective but may lead to significant rebound erythema."[^werner][^routt][^ilkovitch] Oxymetazoline's alpha1A-selective mechanism differs from brimonidine's alpha-2 mechanism, and the phase 3 trials did not report rebound at the severity described in those brimonidine case reports, but the trials were short (29 days of treatment, 28 days of follow-up) and the case-report literature on alpha-agonist rebound for rosacea comes from real-world use of the sister drug, not from oxymetazoline's own long-term data.[^label][^kircik]
+
+**Cardiovascular and vascular cautions.** Because oxymetazoline acts on adrenergic receptors, the FDA label advises caution in patients with severe, unstable, or uncontrolled cardiovascular disease, and in those with conditions involving vascular insufficiency such as Raynaud's phenomenon, scleroderma, or Sjogren's syndrome, and warns it may raise the risk of angle-closure glaucoma in patients with narrow angles.[^label] These are prescribing precautions from the label rather than events reported in the phase 3 trials' published results.
+
+## Common Marketing Claims
+
+None of the claims below is established beyond what The Rubric and The Evidence above support.
+
+- **"No rebound risk, unlike brimonidine."** The phase 3 trials' own follow-up found a small rebound rate on oxymetazoline (2.2% versus 1.1% on vehicle) after just 29 days of use, and that follow-up window was only 28 days.[^kircik] Case reports of severe rebound erythema exist for the related alpha-agonist brimonidine,[^werner][^routt][^ilkovitch] but no comparably long real-world safety data exist yet for oxymetazoline to call the rebound risk resolved.
+- **"Treats rosacea redness."** The FDA indication and the trial endpoints cover only the persistent background erythema of rosacea, measured hours after a single application; the drug is not shown to treat the inflammatory papules and pustules, and the label lists worsening of those lesions as an adverse reaction.[^label]
+
+## The Evidence
+
+**First REVEAL trial (Kircik et al.).** A phase 3, multicenter, double-blind, randomized, vehicle-controlled trial applied oxymetazoline hydrochloride cream 1% or vehicle once daily for 29 days to 440 patients (mean age 49.5, 78.9% female) with moderate to severe persistent facial erythema of rosacea, followed by 28 days off treatment. Composite success, at least a 2-grade decrease from baseline on both the Clinician Erythema Assessment and the patient's Subject Self-Assessment, was measured at 3, 6, 9, and 12 hours after dosing on day 29: 12% versus 6% at 3 hours, 16% versus 8% at 6 hours, 18% versus 6% at 9 hours, and 15% versus 6% at 12 hours (P<0.02 at each timepoint, P<0.001 overall).[^kircik][^label] Discontinuation due to adverse events was 1.8% on oxymetazoline versus 0.5% on vehicle; the most common treatment-emergent adverse events were application-site dermatitis, application-site erythema, and headache (1.4% each) on oxymetazoline. After stopping treatment, rebound erythema occurred in 2.2% on oxymetazoline versus 1.1% on vehicle. The authors concluded oxymetazoline "was effective, safe, and well tolerated in patients with moderate to severe persistent facial erythema of rosacea."[^kircik]
+
+**Second REVEAL trial (Baumann et al.).** An identically designed phase 3 trial in 445 patients (mean age 50.3, 78.7% female) found composite success significantly favored oxymetazoline overall (P=0.001), with the clinician-rated erythema component (P<0.001) and the patient self-assessment component (P=0.011) both favoring treatment; a digital image analysis of facial redness on day 29 also favored oxymetazoline (P<0.001). Discontinuations due to treatment-emergent adverse events were low in both arms (2.7% versus 0.5%), and the authors reported a minimal rebound effect after stopping treatment. The authors concluded topical oxymetazoline "was effective, safe, and well tolerated in the treatment of moderate to severe persistent facial erythema of rosacea."[^baumann]
+
+**FDA label.** RHOFADE's indication is "the topical treatment of persistent facial erythema associated with rosacea in adults," and its mechanism is described as: "Oxymetazoline is an alpha1A adrenoceptor agonist. Oxymetazoline acts as a vasoconstrictor."[^label] The label's adverse reaction table (from the phase 3 trials, ≥1% incidence) lists application site dermatitis (2%), worsening inflammatory lesions of rosacea (1%), application site pruritus (1%), application site erythema (1%), and application site pain (1%).[^label]
+
+## Sources
+
+[^label]: RHOFADE (oxymetazoline hydrochloride) cream, 1%, full prescribing information. Aclaris Therapeutics, Inc., via DailyMed (U.S. National Library of Medicine). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8968299e-2a4f-41a8-9088-6343ea6c91f4 (accessed 2026-08-08)
+[^kircik]: Kircik LH, DuBois J, Draelos ZD, et al. Pivotal Trial of the Efficacy and Safety of Oxymetazoline Cream 1.0% for the Treatment of Persistent Facial Erythema Associated With Rosacea: Findings from the First REVEAL Trial. Journal of Drugs in Dermatology, 2018;17(1):97-105. https://pubmed.ncbi.nlm.nih.gov/29320594/ (accessed 2026-08-08)
+[^baumann]: Baumann L, Goldberg DJ, Stein Gold L, Tanghetti EA, et al. Pivotal Trial of the Efficacy and Safety of Oxymetazoline Cream 1.0% for the Treatment of Persistent Facial Erythema Associated With Rosacea: Findings from the Second REVEAL Trial. Journal of Drugs in Dermatology, 2018;17(3):290-298. https://pubmed.ncbi.nlm.nih.gov/29537447/ (accessed 2026-08-08)
+[^patel]: Patel NU, Shukla S, Zaki J, Feldman SR. Oxymetazoline hydrochloride cream for facial erythema associated with rosacea. Expert Review of Clinical Pharmacology, 2017;10(8):839-844. https://pubmed.ncbi.nlm.nih.gov/28837365/ (accessed 2026-08-08)
+[^werner]: Werner S, Kobayashi TT. Dermatitis medicamentosa: severe rebound erythema secondary to topical brimonidine in rosacea. Dermatology Online Journal, 2015;21(6). https://pubmed.ncbi.nlm.nih.gov/25780983/ (accessed 2026-08-08)
+[^routt]: Routt ET, Levitt JO. Rebound erythema and burning sensation from a new topical brimonidine tartrate gel 0.33%. Journal of the American Academy of Dermatology, 2014;70(2):e37-e38. https://pubmed.ncbi.nlm.nih.gov/24438976/ (accessed 2026-08-08)
+[^ilkovitch]: Ilkovitch D, Pomerantz RG. Brimonidine effective but may lead to significant rebound erythema. Journal of the American Academy of Dermatology, 2014;70(5):e109-e110. https://pubmed.ncbi.nlm.nih.gov/24742853/ (accessed 2026-08-08)
