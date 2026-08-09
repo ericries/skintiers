@@ -1,0 +1,55 @@
+---
+analyzed: '2026-08-08'
+assurance: sonnet
+name: Clindamycin (topical, for acne)
+slug: clindamycin-topical
+status: published
+type: ingredient
+updated: '2026-08-08'
+---
+
+Topical clindamycin is a prescription lincosamide antibiotic, sold as a gel, solution, or lotion (and in fixed combinations), that is FDA-labeled "Rx only" for the treatment of acne vulgaris.[^dailymed] It inhibits bacterial protein synthesis by binding the 23S RNA of the ribosome's 50S subunit, though the FDA label states plainly that "the mechanism of action of clindamycin in treating acne vulgaris is unknown."[^dailymed] Pooled trial evidence puts its effect as monotherapy on the weak side, especially for mild-to-moderate acne, and *Cutibacterium acnes* resistance to it is now common enough that combining it with [[benzoyl-peroxide]] is the better-supported way to use it.
+
+> Across 179 randomized trials pooled in a network meta-analysis, topical clindamycin alone barely beat placebo for mild-to-moderate acne and its confidence interval crossed zero, while adding benzoyl peroxide roughly tripled the effect; separately, a 2025 meta-analysis of 23 studies found about 22% of *C. acnes* isolates worldwide are clindamycin-resistant, and an in vitro/clinical review found resistant counts rose to over 1,600% of baseline on clindamycin monotherapy but stayed at or below baseline when benzoyl peroxide was added.[^nma][^zhu][^ghannoum]
+
+## The Rubric
+
+**Acne vulgaris (topical, prescription; monotherapy weaker in mild-to-moderate disease, stronger combined with benzoyl peroxide)**
+- **Effect size: modest, and severity-dependent.** In the Mavranezouli network meta-analysis, topical clindamycin monotherapy produced a 6.28% lesion reduction over placebo in mild-to-moderate acne (95% credible interval -1.67 to 14.18, crossing the line of no effect) but a much larger 34.08% reduction in moderate-to-severe acne (95% CrI 21.26-47.02).[^nma] Clindamycin plus benzoyl peroxide beat clindamycin alone in mild-to-moderate acne (17.91%, 95% CrI 8.01-27.73, versus 6.28%) but not in moderate-to-severe acne, where the combination's point estimate was lower than monotherapy's (22.64%, 95% CrI 6.24-39.14, versus 34.08%), though the two credible intervals overlap widely; clindamycin plus a retinoid did better than monotherapy at both severities (up to 44.43% in moderate-to-severe disease, ranked 7th of the treatment classes analyzed).[^nma] "Weak-to-absent as monotherapy in mild-to-moderate acne, real but modest in moderate-to-severe disease, and clearly improved by adding [[benzoyl-peroxide]] or a retinoid."
+- **Evidence quality: a large pooled synthesis, but individual clindamycin trials are thin and resistance undercuts durability.** The 6.28%-mild-to-moderate figure rests on a credible interval that includes zero, meaning the pooled trials do not reliably distinguish clindamycin monotherapy from placebo at that severity.[^nma] Separately, a 2025 systematic review and meta-analysis of 23 studies (2,046 *C. acnes* isolates, January 2005 to April 2025) found a pooled clindamycin resistance rate of 22.38% (95% CI 14.69-32.56%), rising over time, versus only 2.44% for doxycycline.[^zhu] "A large multi-trial synthesis for efficacy, but the weakest severity-tier estimate is not statistically distinguishable from placebo, and roughly one in five isolates tested worldwide no longer respond to the drug."
+
+## What We Actually Know
+
+Clindamycin is FDA-labeled for acne vulgaris, applied topically, and available only by prescription.[^dailymed] Pharmacologically it blocks bacterial protein synthesis by binding the ribosome's 50S subunit, but the FDA label itself does not claim to know why that translates into an acne benefit.[^dailymed] Pooled RCT evidence shows the clinical effect of clindamycin alone is weak in mild-to-moderate acne (not clearly better than placebo) and modest in moderate-to-severe acne, with a clindamycin-plus-retinoid combination outperforming monotherapy at both severities (clindamycin plus benzoyl peroxide outperforms monotherapy only in mild-to-moderate disease).[^nma] *C. acnes* resistance to clindamycin is well documented at a population level, pooled around 22% of isolates in a 2025 meta-analysis and higher in some countries.[^zhu] An in vitro and clinical review found repeated clindamycin exposure alone drove resistance in cultured *C. acnes* strains (a threefold or greater rise in minimum inhibitory concentration) and, in a 16-week clinical study, counts of clindamycin-resistant *C. acnes* rose to over 1,600% of baseline on clindamycin 1% gel monotherapy but stayed at or below baseline when the same antibiotic was combined with benzoyl peroxide 5%.[^ghannoum] The label separately warns that topical clindamycin carries a risk of diarrhea, bloody diarrhea, and colitis, the same class-level risk documented for oral and injected clindamycin.[^dailymed]
+
+## How It Works
+
+The FDA prescribing information for clindamycin phosphate gel states the mechanism directly: "Clindamycin inhibits bacterial protein synthesis by binding to the 23S RNA of the 50S subunit of the ribosome."[^dailymed] That is a general antibacterial mechanism, and the same label adds a caveat rarely stated so plainly on a drug label: "The mechanism of action of clindamycin in treating acne vulgaris is unknown."[^dailymed] The resistance mechanism runs the other way: Ghannoum and colleagues, in a study funded by Ortho Dermatologics (a maker of clindamycin/benzoyl-peroxide fixed-combination products, with a direct commercial interest in the combination's superiority), found that repeated passage of *C. acnes* strains through clindamycin alone produced resistant strains, while the same strains repeatedly exposed to clindamycin combined with benzoyl peroxide showed "no change in MIC over repeated passages," which the authors attribute to benzoyl peroxide's non-specific oxidative killing mechanism, a mechanism bacteria cannot evolve around the way they can around a targeted antibiotic.[^ghannoum] The general logic of pairing a resistance-proof oxidizer with an antibiotic is covered on [[benzoyl-peroxide]].
+
+## The Evidence
+
+**Efficacy, pooled across RCTs.** The Mavranezouli network meta-analysis (2022, British Journal of Dermatology) synthesized 179 randomized controlled trials across roughly 35,000 observations and 49 treatment classes for acne vulgaris. For mild-to-moderate acne, topical clindamycin monotherapy showed a 6.28% lesion reduction versus placebo (95% CrI -1.67 to 14.18), ranked 34th of the classes analyzed at that severity, with a credible interval crossing zero. For moderate-to-severe acne, clindamycin monotherapy showed a 34.08% reduction (95% CrI 21.26-47.02), ranked 13th. Clindamycin combined with benzoyl peroxide reached 17.91% (95% CrI 8.01-27.73) in mild-to-moderate acne and 22.64% (95% CrI 6.24-39.14) in moderate-to-severe acne; clindamycin combined with a retinoid reached 24.23% (95% CrI 10.84-37.51) in mild-to-moderate acne and 44.43% (95% CrI 29.20-60.02, ranked 7th) in moderate-to-severe acne.[^nma]
+
+**Bacterial resistance.** A 2025 systematic review and meta-analysis pooled 23 studies (2,046 *C. acnes* isolates) published between January 2005 and April 2025 and found a pooled clindamycin resistance rate of 22.38% (95% CI 14.69-32.56%), with resistance to lincosamides and macrolides described as rising over time and higher in some regions (notably China); by contrast, doxycycline resistance pooled at only 2.44%, which the authors say "allows tetracyclines to continue serving as first-line antibiotics for acne treatment."[^zhu]
+
+**Resistance suppression by combining with benzoyl peroxide.** Ghannoum and colleagues (2025) reported that repeated in vitro exposure of three *C. acnes* strains to clindamycin alone produced "a ≥3-fold increase in MIC over repeated passages," while the same strains exposed to clindamycin combined with benzoyl peroxide had "no change in MIC over repeated passages." Citing a 16-week clinical study, they reported that counts of clindamycin-resistant *C. acnes* "remained at or below baseline values with clindamycin phosphate 1%/BPO 5% gel treatment but increased to >1600% of baseline values with clindamycin 1% gel monotherapy."[^ghannoum]
+
+## Uses
+
+FDA-labeled for topical treatment of acne vulgaris, by prescription.[^dailymed] The pooled RCT evidence supports real benefit in moderate-to-severe acne and a weaker, not clearly placebo-beating effect at mild-to-moderate severity when used alone; combining it with [[benzoyl-peroxide]] improves the pooled effect size in mild-to-moderate acne (though not in moderate-to-severe acne, where the combination's point estimate trails monotherapy) and suppresses the antibiotic resistance that clindamycin monotherapy drives, which is why fixed clindamycin/benzoyl-peroxide combination products exist.[^nma][^ghannoum] General acne evidence and other topical options are covered on [[acne]].
+
+## Common Marketing Claims
+
+- **"Kills acne-causing bacteria."** Clindamycin inhibits bacterial protein synthesis in general, but the FDA label states plainly that its mechanism in treating acne is unknown, and roughly 22% of *C. acnes* isolates worldwide are already resistant to it, a share that has been rising over time.[^dailymed][^zhu]
+- **"The clindamycin/benzoyl peroxide combination is always more effective than clindamycin alone."** True in mild-to-moderate acne (17.91% versus 6.28% lesion reduction), but in moderate-to-severe acne the network meta-analysis's point estimate for clindamycin monotherapy (34.08%) was higher than for the combination (22.64%), with wide, overlapping credible intervals.[^nma]
+
+## See Also
+
+[[benzoyl-peroxide]] [[acne]] [[azelaic-acid]]
+
+## Sources
+
+[^dailymed]: Clindamycin Phosphate Gel USP, 1%, FDA prescribing information (DailyMed), Encube Ethicals, Inc. https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ac21d7ad-f94e-4d57-95e3-1648add7ad0b (accessed 2026-08-08)
+[^nma]: Mavranezouli I, Daly CH, Welton NJ, Deshpande S, Berg L, Bromham N, et al. A systematic review and network meta-analysis of topical pharmacological, oral pharmacological, physical and combined treatments for acne vulgaris. British Journal of Dermatology, 2022;187(5):639-649. https://pmc.ncbi.nlm.nih.gov/articles/PMC9804728/ (accessed 2026-08-08)
+[^zhu]: Zhu et al. Antibiotic resistance rates in Cutibacterium acnes isolated from patients with acne vulgaris: a systematic review and meta-analysis, 2025. https://pubmed.ncbi.nlm.nih.gov/40535003/ (accessed 2026-08-08)
+[^ghannoum]: Ghannoum M, Gamal A, Kadry A, et al. Criticality of Benzoyl Peroxide and Antibiotic Fixed Combinations in Combating Rising Resistance in Cutibacterium acnes. Clinical, Cosmetic and Investigational Dermatology, 2025;18:755-766. https://pmc.ncbi.nlm.nih.gov/articles/PMC11970427/ (accessed 2026-08-08)

@@ -335,9 +335,10 @@
 - name: Bifida ferment lysate (postbiotic)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: probiotics
   source: null
+  note: published as bifida-ferment-lysate
 - name: Galactomyces ferment filtrate
   type: ingredient
   priority: 4
@@ -494,9 +495,10 @@
 - name: Tacrolimus (topical calcineurin inhibitor, Protopic)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: data/conditions/atopic-dermatitis.md
+  note: reconciled
 - name: Pimecrolimus (topical calcineurin inhibitor, Elidel)
   type: ingredient
   priority: 4
@@ -506,15 +508,17 @@
 - name: Crisaborole (topical PDE4 inhibitor, Eucrisa)
   type: ingredient
   priority: 4
-  status: pending
+  status: done
   discovered_from: null
   source: data/conditions/atopic-dermatitis.md
+  note: reconciled
 - name: Lactic acid (AHA)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: data/goals/anti-aging.md
+  note: reconciled
 - name: Feverfew (Chrysanthemum parthenium) extract in skincare
   type: ingredient
   priority: 3
@@ -536,21 +540,24 @@
 - name: Alpha arbutin (skin brightening)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: data/conditions/hyperpigmentation.md
+  note: covered by arbutin
 - name: Kojic acid (skin brightening)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: data/conditions/hyperpigmentation.md
+  note: published as kojic-acid
 - name: Cysteamine (topical, melasma)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: data/conditions/hyperpigmentation.md
+  note: reconciled
 - name: Some Brand New Ingredient XYZ
   type: ingredient
   priority: 5
@@ -573,15 +580,17 @@
 - name: adenosine
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: purito-cica-clearing-bb-cream
   source: null
+  note: reconciled
 - name: bemotrizinol
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: isntree-hyaluronic-acid-watery-sun-gel-spf-50
   source: null
+  note: reconciled
 - name: naringenin
   type: ingredient
   priority: 5
@@ -598,9 +607,10 @@
 - name: snail mucin (snail secretion filtrate)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: glass-skin
   source: https://data.pmc.ncbi.nlm.nih.gov/?term=snail+secretion+filtrate+skin
+  note: covered by snail-secretion-filtrate
 - name: beta-glucan
   type: ingredient
   priority: 5
@@ -616,9 +626,10 @@
 - name: clindamycin (topical)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: acne
   source: https://pubmed.ncbi.nlm.nih.gov/?term=topical+clindamycin+acne+randomized
+  note: reconciled
 - name: gluconolactone (PHA)
   type: ingredient
   priority: 5

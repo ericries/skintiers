@@ -2801,3 +2801,99 @@ bifida-ferment-lysate:
   verdict: revise-then-fixed
   note: |
     Opus verification of bifida-ferment-lysate (draft): re-fetched both cited PubMed primaries and confirmed every quoted phrase verbatim (Wang barrier/AMP-gene and IL-8/TNF-alpha/COX-2 sentences; Fabbrocini 'partial and total clearance' and 'safe and effective' quotes) and every stat (60 participants, aged >=16, four actives, Class IIa device, twice-daily 2 months, eight clinical parameters); Giuliani Pharma conflict is accurately disclosed and thin/confounded evidence is honestly represented with marketing claims called out rather than graded. Verdict revise: one citation page-range error (Fabbrocini should be 12(8):1835-1845, not 1889-1900) and a minor 'no adverse events' over-assertion vs the abstract's 'safe and well tolerated' — both surgical, no fabrication.
+lactic-acid:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus re-fetched all five cited primaries (Stiller PMID 8651713, Smith IJCS 19245467, Smith JAAD 8784274, Berardesca 9470910, Kornhauser PMC3047947): every quoted phrase is verbatim and every stat (71/76/40% P<.05, 74/67 subjects, 5-12% dose split, 8% Berardesca P-values, apoptosis quote) checks out; evidence is honestly represented (lactic tested alongside glycolic not alone, single studies marked preliminary, marketing claims split by conflicting sources). Revise for one minor fix: Kornhauser et al. mischaracterized as 'former FDA scientists' when only the lead author is FDA-retired (coauthors are NIH). Otherwise publish-ready.
+cysteamine:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus re-fetched all four cited PubMed primaries (Mansouri 2015, Nguyen 2021, Mawu 2024 meta-analysis, Ahramiyanpour 2021 review) and confirmed every statistic (MASI 7.2±5.5 vs 11.6±7.9 P=0.02; mMASI 21.3% vs 32% P=0.3; SMD -0.84 and 0.16 with CIs; mexameter values) and the tolerability/odor/alternative quotes are verbatim, with efficacy honestly framed as modest and non-superior to hydroquinone. One defect: the draft inserts an article into the Mawu conclusion quote ("may become a suitable alternative" vs the source's "may become suitable alternative"). Verdict: revise — fix that single non-verbatim quote, then publishable.
+tacrolimus-topical:
+  last_reviewed: '2026-08-08'
+  score: 10
+  verdict: publish
+  note: |
+    Opus verification: re-fetched all three cited primaries (Reitamo 2002 JACI RCT, FDA openFDA tacrolimus-ointment label, Paller 2020 APPLES cohort) and confirmed every quote is verbatim and every statistic matches — 570-patient arm sizes and mEASI medians (47.0/36.5/36.1%), the boxed-warning malignancy wording and age/concentration restrictions, and APPLES's 7,954 children / 44,629 person-years / 6 cancers / 0 lymphomas / SIR 1.01 (0.37-2.20). Evidence is honestly framed (single RCT + single comparator caveated, APPLES flagged as observational/pediatric-only, no off-label uses graded, no aggregators load-bearing); no funding statement was visible in the sources so none was asserted. Verdict: publish.
+crisaborole:
+  last_reviewed: '2026-08-08'
+  score: 10
+  verdict: publish
+  note: |
+    Opus verification: re-fetched all three cited primaries (Paller 2016 PubMed abstract, EUCRISA DailyMed label, Jarnagin 2016 PubMed abstract). Every quoted phrase is verbatim and every statistic checks out — ISGA primary/secondary percentages and P-values (32.8/25.4, 31.4/18.0, 51.7/40.6, 48.5/29.7), the 7-13pp gap, application-site pain 4%(45) vs 1%(6), the cAMP and PDE4 mechanism quotes, and the 251-dalton figure. Evidence is honestly represented: effect graded modest, indication age (3mo) correctly distinguished from trial age (2yr), vehicle-only/28-day limits stated, developer-authored Jarnagin used only for mechanism with attribution, and the "steroid-free = gentler" marketing claim explicitly called out as unproven. Verdict: publish.
+clindamycin-topical:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus verification of clindamycin-topical against 4 primaries (DailyMed label, Mavranezouli 2022 NMA, Zhu 2025 resistance MA, Ghannoum 2025): all quotes verbatim and every stat (179 RCTs, 6.28/34.08/17.91/22.64/24.23/44.43% CrIs, 22.38% clindamycin vs 2.44% doxycycline resistance, >=3-fold MIC, >1600% of baseline) confirmed present in the cited sources. Verdict revise: the rubric claim that clindamycin+BPO beats monotherapy at BOTH severities is contradicted by its own cited numbers (monotherapy 34.08% > combo 22.64% at moderate-to-severe), and the load-bearing Ghannoum resistance-suppression source is Ortho Dermatologics-funded (maker of the combo product) without disclosure. No fabrications; both issues are fixable wording/disclosure edits.
+bemotrizinol:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus verification (2026-08-08): re-fetched all four cited primaries — Chatelain 11594052, Gomes/pontes 31773345, Turner 40778531, and the FDA order (federalregister.gov API doc 2026-11578, pub 2026-06-10, order OTC000039, M020, bemotrizinol GRASE up to 6%). Every load-bearing stat (30 MED, up to 6%, June 2026, OTC000039) is genuinely present and evidence is honestly scoped (no standalone clinical SPF trial claimed; regulatory timeline framed as market history not efficacy; marketing superlatives quarantined). Verdict revise: one quote is normalized ([^pontes] \"sunscreen products\" vs source \"sunscreens products\") and the octinoxate-destabilization aside is over-attributed to Chatelain — both surgical, no fabrication.
+adenosine:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus re-fetched all four PubMed primaries (Legendre 17520154, Kang 29574973, Victor-Vega 11936752, Valls 19041853) plus PubChem; every quoted phrase (FOITS roughness quote, the mouse 50%-closure day-1.9/1.9/3.5/3.2 vs day-4 p<0.05 quote, Becaplermin, Sonedenoson diabetic-foot-ulcer quote, 'statistically significant efficacy for almost all parameters (P<0.05)', 'no adverse effects') is verbatim, L'Oreal and Juvic funding are accurate, and wound-healing is honestly kept to preclinical/mechanistic. Verdict revise: the Kang P<0.001 is the microneedle patch's superior hydration OVER the cream (between-group), but the draft misattributes it to the adenosine-cream comparator arm in two places, overstating the ingredient's cosmetic result; the number is real but the attribution must be corrected before publish.
+licorice-root-extract:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus verification: re-fetched all three cited primaries (PubMed 9870547 Yokota, 14522625 Saeedi; PMC11837239 scoping review). Yokota and Saeedi quotes/stats (0.1-1.0 microg/ml, no DNA-synthesis effect, 0.5% glabridin, 19.6% glycyrrhizinic acid, 30/group, p<0.05, "atopic dermatitis") verified verbatim; scoping-review melasma stats (80% excellent response, 0% placebo, "has less effect than 4% hydroquinone," 20-84 patients, 2-4%, 4-12 wk) verified. Two defects: a fabricated "significantly better" quote and an "either group" overstatement on complications must be fixed; evidence honesty otherwise strong (underperformance vs hydroquinone and thin dipotassium-glycyrrhizate evidence both disclosed). Verdict: revise.
+la-roche-posay-cicaplast-baume-b5:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus verified all product-specific facts against the cached Target listing (research-cache/web, key 0e6972e3038f347d): price $14.29 / 1.35 oz (attributed + dated 2026-08-07), the full 34-item INCI in order, 5% panthenol callout, fragrance-free status, formula-attribute tags, and the no-copper honesty catch all check out, and the grades correctly route general panthenol evidence to [[panthenol]] with no imported trial numbers or asserted marketing stats. Two marketing quotes on line 38 are non-verbatim ("nourish/reduce" vs source "nourishes/reduces"), so verdict is revise pending those surgical fixes; no fabricated or unverifiable load-bearing claim.
+la-roche-posay-anthelios-uvmune-400-spf-50:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus focused review of draft la-roche-posay-anthelios-uvmune-400-spf-50 against the two cached sources (brand ME product page 087f700a7c548ceb, Target search f43c40396552d705): full INCI panel, all 8 UV filters, every quoted phrase (400nm/texture/use-test), no-price handling, and Target non-listing all verify verbatim; marketing stats correctly quarantined and general efficacy routed out with no imported trial numbers. Two fixable sourcing gaps: the Europe/UK/Australia distribution claim and the 'EU-method' SPF characterization exceed what the single cited ME-site source states (which discloses no SPF test method). Verdict: revise (surgical softening/attribution; no fabricated figures or quotes).
+eucerin-advanced-repair-cream:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus focused review of DRAFT eucerin-advanced-repair-cream against the two cached sources (Eucerin PDP cf772e1f, Target 12d3f72a): verified full 28-ingredient INCI order, 5% urea, ceramide NP, fragrance/dye/paraben-free status, $13.49/$0.84-per-oz/16oz price (dated 2026-08-07), and every quoted phrase verbatim; grades route general evidence out with no imported trial numbers and the 48-hour claim is properly quarantined as marketing. Verdict revise: one unsupported detail — the 16 oz size is called a "jar" though neither source states the 16 oz form factor (only the 8 oz tube is sourced); soften or verify.
+illiyoon-ceramide-ato-concentrate-cream:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus focused review (link-out page; ceramide efficacy left to [[ceramides]]). Verified product-specific facts against cached Target listing (ff986a07) and re-fetched INCIDecoder (re-fetchable domain, not cache-stored): full 30-ingredient INCI order matches exactly; Hydroxypropyl Bispalmitamide MEA \"Ceramide Pc-104 6310Ppm\" 14th of 30 = ~0.63% confirmed; Cholesterol 26th; fragrance-free corroborated by both sources; $39.99/5.07 fl oz attributed+dated; every Target quote verbatim; the \"100 hours of proven hydration\" stat correctly quarantined as marketing, not asserted; grades honest with no imported trial numbers. One fixable issue: the Summary calls it a \"tube\" but neither source states the package format — hence revise.
+la-roche-posay-effaclar-duo:
+  last_reviewed: '2026-08-08'
+  score: 10
+  verdict: publish
+  note: |
+    Opus focused product-fact review against 3 cached sources (LRP-ME brand page, Target product page, Target search) verified full 35-ingredient INCI, parfum/fragrance status, niacinamide 5th-position, salicylic acid 0.5% active, $18.79/1.35 fl oz price+size, and all verbatim quotes; the 66%/44% figures are corroborated on Target while the 45% marks, 8-hour, and 45-subject stats are manufacturer-only and correctly quarantined, with general efficacy routed to ingredient pages. Verdict publish.
+skinceuticals-retinol-0-5-refining-night-cream:
+  last_reviewed: '2026-08-08'
+  score: 10
+  verdict: publish
+  note: |
+    Opus focused review verified all product-specific facts against the cached Target listing (source_cache key 9ac894c1def4e6c0): price $78.59 / regular $117.58, 1 oz, out of stock, TCIN 1002998046 / UPC 883140024705, "0.5% pure retinol" headline active with no published INCI list, and every quoted marketing phrase verbatim. Grades honestly route efficacy out to [[retinol]]/[[retinoids]] with no imported trial numbers and cosmetic claims quarantined; verdict publish (optional: source states Scent: Unscented, which the page omits).
+cetaphil-gentle-foaming-cleanser:
+  last_reviewed: '2026-08-08'
+  score: 10
+  verdict: publish
+  note: |
+    Opus focused review verified all product-specific facts against cached Cetaphil brand page and Target listing: full INCI (12 ingredients, identical across both sources; glycerin correctly the 5th ingredient), fragrance-free status, price/size ($8.99 / 8 fl oz / $1.12 per fl oz, attributed to Target, dated 2026-08-07), and every quoted phrase verbatim. Grades honestly route general active efficacy out to ingredient pages with no imported trial numbers, and the single-source "5 signs" marketing claim is quarantined rather than asserted. No fabrications or unverifiable load-bearing claims found; verdict publish.
+good-molecules-discoloration-correcting-serum:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus product-specific review of good-molecules-discoloration-correcting-serum against cached Target and Good Molecules sources: INCI (11 entries), 4% niacinamide, cetyl tranexamate mesylate at undisclosed conc, 30 ml/1 fl oz size, $11.99 price, no-fragrance status, and the directions and freckles quotes all verified verbatim; grades correctly route active efficacy to ingredient pages with no imported trial numbers. Verdict revise: the "$25.49 for a larger 75 ml size" price/size is in no cited source, and the bolded "Targets dark spots..." marketing quote is not verbatim in the Target listing.

@@ -763,9 +763,10 @@
 - name: Cetaphil Gentle Foaming Cleanser
   type: product
   priority: 4
-  status: pending
+  status: done
   discovered_from: null
   source: data/lists/best-gentle-cleansers-sensitive-skin.md
+  note: reconciled
 - name: Mirvaso (brimonidine 0.33% topical gel, Galderma)
   type: product
   priority: 5
@@ -816,9 +817,10 @@
 - name: SkinCeuticals Retinol 0.5 Refining Night Cream
   type: product
   priority: 4
-  status: pending
+  status: done
   discovered_from: null
   source: https://www.skinceuticals.com
+  note: reconciled
 - name: Naturium Niacinamide Serum 12% Plus
   type: product
   priority: 5
@@ -856,21 +858,24 @@
 - name: Illiyoon Ceramide Ato Concentrate Cream
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: glass-skin
   source: https://www.oliveyoung.com/store/display/getMCategoryList.do
+  note: reconciled
 - name: Eucerin Advanced Repair Cream
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: imokawa-1991-ceramide-deficiency-atopic-dermatitis
   source: https://www.eucerinus.com/products/advanced-repair/advanced-repair-cream
+  note: reconciled
 - name: La Roche-Posay Anthelios UVMune 400 SPF50+
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: best-sunscreens-daily-wear
   source: https://www.laroche-posay.com/anthelios-uvmune-400
+  note: reconciled
 - name: Beauty of Joseon Matte Sun Stick
   type: product
   priority: 5
@@ -880,9 +885,10 @@
 - name: La Roche-Posay Cicaplast Baume B5
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: panthenol
   source: https://www.laroche-posay.us/our-products/damaged-skin/cicaplast-baume-b5
+  note: reconciled
 - name: Avene Cicalfate+ Restorative Protective Cream
   type: product
   priority: 5
@@ -904,6 +910,7 @@
 - name: La Roche-Posay Effaclar Duo+
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: acne
   source: https://www.laroche-posay.us/our-products/acne/effaclar-duo
+  note: reconciled
