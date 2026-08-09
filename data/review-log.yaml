@@ -3131,3 +3131,51 @@ garner-2012-cochrane-minocycline-acne:
   verdict: revise-then-fixed
   note: |
     Opus re-fetched PMID 22895927 (abstract only) and verified every number (39 RCTs / 6,013 participants, 12 new RCTs, 16 adverse-effects studies, database date ranges to Nov 2011, and the 8.8 lupus cases/100,000 person-years) plus all safety/limitation quotes as verbatim; no effect size is fabricated and the abstract-only disclosure is correct. Two fixable defects: the Intervention/comparator paragraph imports a ~15-drug comparator enumeration absent from the abstract (Selection criteria say only 'an active or a placebo control'; doxycycline is the sole named comparator), and the efficacy quote is capitalized/re-cut vs. the abstract's 'Although minocycline was shown...'. Verdict: revise.
+ghadially-1992-petrolatum-stratum-corneum:
+  last_reviewed: '2026-08-08'
+  score: 10
+  verdict: publish
+  note: |
+    Opus re-fetched PubMed 1564142 and verified all three verbatim quotes ("VPJ accelerated, rather than impeded, barrier recovery"; "VPJ was present within the interstices at all levels of the SC, where it replaced intercellular bilayers"; the epicutaneous-membrane conclusion) match the abstract exactly, and confirmed the abstract contains no n, TEWL values, percentages, p-values, dose, or duration — all of which the page correctly discloses as absent while claiming no fabricated effect size. Design (acetone disruption, VPJ vs untreated, ruthenium tetroxide/tracer localization), population, and comparator match the abstract; abstract-only access is disclosed and link-out discipline is respected. Verdict: publish.
+kang-2001-tazarotene-tretinoin-photodamage:
+  last_reviewed: '2026-08-08'
+  score: 10
+  verdict: publish
+  note: |
+    Opus re-fetched PubMed 11735710 and verified all six week-24 global response rates verbatim (67% 39/58, 52% 30/58, 36% 21/58, 41% 24/59, 55% 32/58 tretinoin, 22% 13/58 vehicle), n=349, 24-week duration, doses, the verbatim "significantly improved mottled hyperpigmentation and fine wrinkles" and mild-to-moderate adverse-event quotes; design/population/comparators match the abstract. No fabricated p-values or effect sizes — page correctly discloses abstract-only access, hedges the tazarotene-vs-tretinoin comparison as unproven, and keeps ingredient generalities linked out. Verdict: publish.
+lima-2020-cysteamine-vs-hydroquinone:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus re-fetched PubMed abstract PMID 32864760 (two WebFetch passes for verbatim wording): all quoted phrases (74% photographic, 'No severe adverse effects', conclusion) are verbatim substrings, and every number (n=40, 60/120 days, mMASI 24/41% P=0.015, 38/53% P=0.017, photo P=0.087, MELASQoL P=0.018, adverse-effect P>0.170, SPF 50/PPD 19, 5%/4%) is genuinely in the abstract; design/population/comparator and abstract-only disclosure all match. Verdict: revise — one paraphrase says 'most frequent' where the abstract says 'most important' local adverse effects; single surgical fix, no fabricated numbers or effect sizes.
+kafi-2007-retinol-naturally-aged-skin:
+  last_reviewed: '2026-08-08'
+  score: 10
+  verdict: publish
+  note: |
+    Opus re-fetched PubMed abstract PMID 17515510 via WebFetch and confirmed every quoted phrase (design, intervention, biochemical results) is verbatim and every number (n=36, mean age 87, 0.4% retinol, up to 3x/week x24wk, fine-wrinkling -1.64 [95% CI -2.06 to -1.22] vs -0.08 [-0.17 to 0.01], P<.001, GAG P=.02 n=6, procollagen I P=.049 n=4) is present in the abstract. Abstract-only access is disclosed, no effect size beyond the abstract is asserted (the ~20-fold ratio is labeled interpretation and derived from the two stated change scores), and link-out discipline is respected. Verdict: publish.
+karrabi-2021-cysteamine-vs-kligman:
+  last_reviewed: '2026-08-08'
+  score: 10
+  verdict: publish
+  note: |
+    Opus re-fetched the PubMed abstract (PMID 32585079) and verified all three quotes verbatim (the conclusion quote's ellipsis correctly marks an omitted intermediate sentence) and every number — n=50, ages 34.96 (6.17)/35.76 (5.23), cysteamine 5% once-daily 15-min exposure, MKF 4% HQ/0.05% RA/0.1% betamethasone nightly, 4 months, mMASI 7.04 (2.23)/6.09 (2.01), ~9% greater reduction, P=.005/.001 — all present in the abstract. Abstract-only access and the unstated per-arm n, baseline mMASI, and adverse-event figures are correctly disclosed; no effect size beyond the source is asserted and link-out discipline is respected. Verdict: publish.
+grubauer-1989-tewl-barrier-recovery-signal:
+  last_reviewed: '2026-08-08'
+  score: 10
+  verdict: publish
+  note: |
+    Opus re-fetched PubMed 2723540 and verified all four quoted phrases are verbatim in the abstract, the only figure ("48 hr") is present, and n / percentages / fold-changes / p-values are correctly disclosed as not stated rather than invented. Design (acetone disruption; occlusive vs vapor-permeable vs uncovered hairless mice), population, comparator, and the TEWL-flux-as-signal conclusion all match the abstract; abstract-only access is disclosed and link-out discipline is respected. Verdict: publish.
+horimukai-2014-moisturizer-neonates-atopic-dermatitis-prevention:
+  last_reviewed: '2026-08-08'
+  score: 10
+  verdict: publish
+  note: |
+    Re-fetched PubMed abstract PMID 25282564 via WebFetch: verified the verbatim quote "Approximately 32% fewer neonates... (P = .012, log-rank test)", n=118 (59/59), modified Hanifin and Rajka criteria, multicenter Japanese RCT, allergen-specific IgE, and odds ratio 2.86 (95% CI 1.22-6.73) — all present and accurate. Page correctly discloses abstract-only access, asserts no absolute incidence/hazard ratio the abstract lacks, and respects link-out discipline; verdict publish (minor non-blocking gloss of "control subjects" as "standard care" is safely hedged with "(no moisturizer)").
+simpson-2014-emollient-atopic-dermatitis-prevention:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus re-fetched PubMed abstract PMID 25282563: confirmed design (multicenter US/UK RCT), n=124 high-risk neonates, the "forty-two percent" randomization phrase, intervention (full-body emollient >=1x/day within 3 weeks of birth), and the verbatim primary result (RR 0.50; 95% CI 0.28-0.9; P=.017); no fabricated numbers and abstract-only access correctly disclosed. Two fixable issues: the adverse-events sentence is quoted non-verbatim (drops leading "There were"), and follow-up duration is wrongly listed as unverifiable when the abstract reports a 6-month follow-up. Verdict: revise.
