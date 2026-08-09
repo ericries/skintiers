@@ -3083,3 +3083,51 @@ prequel-skin-utility-ointment:
   verdict: revise-then-fixed
   note: |
     Opus focused-verified the Prequel Skin Utility Ointment draft against the two cached sources: PDP (price $18.00, size 2oz/56.6g, Petrolatum 45% active, fragrance-free, all 14 inactive INCI in source order, all four quoted phrases verbatim, dermatologist founder, three seals properly quarantined as unverified) and Target (2oz, $17.99->$15.29 clearance, 4.5/215 reviews, no ingredient list) all check out, and grades correctly route efficacy to [[petrolatum]]/[[moisturizing]] with no imported trial numbers. Verdict: revise for two surgical fixes only — an added INCI qualifier ("Helianthus Annuus Seed Extract" vs. source's "Helianthus Annuus Extract") and normalizing "45.0%" to the source's "45%". No load-bearing fabrication found.
+man-1996-physiologic-lipid-mixtures-barrier-repair:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Re-fetched PMID 8618046 abstract via WebFetch and confirmed all three quoted phrases are verbatim and the sole numeric figure ('up to 3-fold' ingredient-ratio increase) is genuinely present; page correctly discloses abstract-only access and asserts no delay duration, %, p-value, or repair fold-change (none in abstract). Verdict revise: the page introduces the unverified detail 'hairless mouse' (abstract states only 'murine skin'), inconsistent with its own opening line; design, comparator, substitutes, citation, PMID, and link-out discipline otherwise check out.
+palmer-2006-filaggrin-atopic-dermatitis:
+  last_reviewed: '2026-08-08'
+  score: 10
+  verdict: publish
+  note: |
+    Opus re-fetched PubMed 16550169 and verified every quoted phrase is verbatim in the abstract and that both numbers used (~9% European carrier frequency) are genuinely present; the page correctly discloses abstract-only access and asserts no OR/RR/p-value (none exist in the abstract), matching design/population/comparator to the source. Link-out discipline respected (no imported general ingredient evidence). Verdict: publish.
+deo-2013-kojic-acid-combinations-rct:
+  last_reviewed: '2026-08-08'
+  score: 10
+  verdict: publish
+  note: |
+    Opus re-fetched PMID 23918998; both quoted sentences ("The clinical efficacy of group B was the highest..." and "Kojic acid in synergy with hydroquinone is a superior depigmenting agent...") are verbatim in the abstract, and every number (n=80, four groups of 20, kojic acid 1% / hydroquinone 2% / betamethasone valerate 0.1%, evaluated every 2 weeks, fall in MASI at 12 weeks, "single tertiary care center") is genuinely present. The page correctly discloses abstract-only access, asserts no MASI values/percentages/p-values or safety data that the abstract lacks, and matches the design/population/comparator; link-out discipline is respected. Verdict: publish.
+arowojolu-2012-cochrane-coc-acne:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus re-fetched PMID 22786490 (abstract only) and verified all six progestin effect figures (levonorgestrel MD -9.98, norethindrone acetate OR 1.86, norgestimate MD -9.32, drospirenone OR 3.02, dienogest MD -15.30, chlormadinone/CMA OR 2.31), the 31-trial/12,579-participant/9-placebo-controlled counts, and both verbatim quotes (main results + authors' conclusions) as genuinely present in the abstract; abstract-only disclosure and link-out discipline are intact. Verdict: revise — one fixable accuracy error, the Design line misattributes the August 2011 date to all databases when the main-database search was January 2012 (Aug 2011 applies only to ClinicalTrials.gov/ICTRP). No fabricated numbers or quotes.
+stein-gold-2019-topical-minocycline-foam:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus re-fetched the cited PubMed abstract (PMID 30165171): all seven quoted phrases are verbatim and every number (n=961/466/495, 2:1 randomization, 12 weeks, FMX101 4%, P<.05, <1% AE) is genuinely in the abstract, with abstract-only access disclosed and no fabricated effect size. Verdict revise: the page omits the abstract's pooled-analysis result ('statistical significance for both coprimary end points, all P<.05'), which makes the stated key limitation one-sided; add the pooled result and qualify the limitation before publishing.
+huang-cheng-2017-isotretinoin-depression:
+  last_reviewed: '2026-08-08'
+  score: 10
+  verdict: publish
+  note: |
+    Opus re-fetched PubMed abstract (PMID 28291553) and verified all four quoted phrases are verbatim and every number (31 studies, ≥15-patient inclusion, search to Sept 30 2016, SMD -0.334 [CI -0.680 to 0.011], RR 0.588 [CI 0.382-0.904], SMD -0.335 [CI -0.498 to -0.172]) is present in the abstract. Abstract-only access is disclosed, no effect size beyond the abstract is asserted, and design/population/comparator and link-out discipline all check out. Verdict: publish.
+costa-2018-cochrane-oral-isotretinoin:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus re-fetched PMID 30484286 abstract and verified every effect-size figure (RR 1.01/1.15/1.67/3.00 with CIs and participant/study counts, MD 3.72/3.87 with CIs), the n=3,836/31-RCT/12-55y population, the 67% minor-AE figure, the null birth-defect reporting, and the abstract-only disclosure and link-out discipline as accurate. Two revise-level defects remain: a fabricated '20-24 weeks' assessment window for the isotretinoin-vs-antibiotic comparison (not in abstract), and a false assertion that the abstract gives no GRADE rating for the dosing MD comparisons (abstract grades them 'low-quality evidence'). Verdict: revise; no central statistic fabricated, so not flagged.
+garner-2012-cochrane-minocycline-acne:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus re-fetched PMID 22895927 (abstract only) and verified every number (39 RCTs / 6,013 participants, 12 new RCTs, 16 adverse-effects studies, database date ranges to Nov 2011, and the 8.8 lupus cases/100,000 person-years) plus all safety/limitation quotes as verbatim; no effect size is fabricated and the abstract-only disclosure is correct. Two fixable defects: the Intervention/comparator paragraph imports a ~15-drug comparator enumeration absent from the abstract (Selection criteria say only 'an active or a placebo control'; doxycycline is the sole named comparator), and the efficacy quote is capitalized/re-cut vs. the abstract's 'Although minocycline was shown...'. Verdict: revise.

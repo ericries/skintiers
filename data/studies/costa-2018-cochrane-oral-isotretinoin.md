@@ -3,7 +3,7 @@ analyzed: '2026-08-08'
 assurance: sonnet
 name: Oral isotretinoin for acne
 slug: costa-2018-cochrane-oral-isotretinoin
-status: draft
+status: published
 type: study
 updated: '2026-08-08'
 ---

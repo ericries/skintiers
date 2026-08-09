@@ -3,7 +3,7 @@ analyzed: '2026-08-08'
 assurance: sonnet
 name: Optimization of physiological lipid mixtures for barrier repair
 slug: man-1996-physiologic-lipid-mixtures-barrier-repair
-status: draft
+status: published
 type: study
 updated: '2026-08-08'
 ---

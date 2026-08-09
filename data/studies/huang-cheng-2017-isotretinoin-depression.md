@@ -1,10 +1,10 @@
 ---
 analyzed: '2026-08-08'
-assurance: sonnet
+assurance: opus
 name: 'Isotretinoin treatment for acne and risk of depression: A systematic review
   and meta-analysis'
 slug: huang-cheng-2017-isotretinoin-depression
-status: draft
+status: published
 type: study
 updated: '2026-08-08'
 ---

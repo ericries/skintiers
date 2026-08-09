@@ -3,7 +3,7 @@ analyzed: '2026-08-08'
 assurance: sonnet
 name: 'Minocycline for acne vulgaris: efficacy and safety'
 slug: garner-2012-cochrane-minocycline-acne
-status: draft
+status: published
 type: study
 updated: '2026-08-08'
 ---

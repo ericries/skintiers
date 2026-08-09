@@ -1,10 +1,10 @@
 ---
 analyzed: '2026-08-08'
-assurance: sonnet
+assurance: opus
 name: 'Kojic Acid vis-a-vis its Combinations with Hydroquinone and Betamethasone Valerate
   in Melasma: A Randomized, Single Blind, Comparative Study of Efficacy and Safety'
 slug: deo-2013-kojic-acid-combinations-rct
-status: draft
+status: published
 type: study
 updated: '2026-08-08'
 ---

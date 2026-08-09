@@ -4,7 +4,7 @@ assurance: sonnet
 name: 'A novel topical minocycline foam for the treatment of moderate-to-severe acne
   vulgaris: Results of 2 randomized, double-blind, phase 3 studies'
 slug: stein-gold-2019-topical-minocycline-foam
-status: draft
+status: published
 type: study
 updated: '2026-08-08'
 ---

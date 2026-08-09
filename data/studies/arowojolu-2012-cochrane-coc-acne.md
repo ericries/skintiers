@@ -3,7 +3,7 @@ analyzed: '2026-08-08'
 assurance: sonnet
 name: Combined oral contraceptive pills for treatment of acne
 slug: arowojolu-2012-cochrane-coc-acne
-status: draft
+status: published
 type: study
 updated: '2026-08-08'
 ---

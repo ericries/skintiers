@@ -1,10 +1,10 @@
 ---
 analyzed: '2026-08-08'
-assurance: sonnet
+assurance: opus
 name: Common loss-of-function variants of the epidermal barrier protein filaggrin
   are a major predisposing factor for atopic dermatitis
 slug: palmer-2006-filaggrin-atopic-dermatitis
-status: draft
+status: published
 type: study
 updated: '2026-08-08'
 ---
