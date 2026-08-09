@@ -1,11 +1,11 @@
 ---
-analyzed: '2026-08-08'
+analyzed: '2026-08-09'
 assurance: sonnet
 name: Good Molecules
 slug: good-molecules
-status: draft
+status: published
 type: brand
-updated: '2026-08-08'
+updated: '2026-08-09'
 ---
 
 Good Molecules is a direct-to-consumer skincare brand selling low-priced, single- or few-active

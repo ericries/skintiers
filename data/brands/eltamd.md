@@ -1,11 +1,11 @@
 ---
-analyzed: '2026-08-08'
+analyzed: '2026-08-09'
 assurance: sonnet
 name: EltaMD
 slug: eltamd
-status: draft
+status: published
 type: brand
-updated: '2026-08-08'
+updated: '2026-08-09'
 ---
 
 EltaMD is a US professional skincare brand focused on sun care, describing itself on its own site as "the #1 Dermatologist-recommended and trusted professional sunscreen brand"; it is owned by CP Skin Health Group, Inc., per the copyright footer on its own site.[^1]

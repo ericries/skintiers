@@ -1,11 +1,11 @@
 ---
-analyzed: '2026-08-08'
+analyzed: '2026-08-09'
 assurance: sonnet
 name: Neutrogena
 slug: neutrogena
-status: draft
+status: published
 type: brand
-updated: '2026-08-08'
+updated: '2026-08-09'
 ---
 
 Neutrogena is a mass-market skincare and sun-care brand; its parent company Kenvue's own site describes itself as "maker of Neutrogena®, Aveeno®, OGX®, and Zyrtec®."[^1]

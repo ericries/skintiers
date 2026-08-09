@@ -43,7 +43,7 @@
 - name: EltaMD
   type: brand
   priority: 8
-  status: pending
+  status: done
   discovered_from: null
   source: null
 - name: Differin
@@ -67,7 +67,7 @@
 - name: SKIN1004
   type: brand
   priority: 7
-  status: pending
+  status: done
   discovered_from: null
   source: null
 - name: Vanicream
@@ -85,7 +85,7 @@
 - name: Neutrogena
   type: brand
   priority: 7
-  status: pending
+  status: done
   discovered_from: null
   source: null
 - name: Avène
@@ -97,19 +97,19 @@
 - name: Naturium
   type: brand
   priority: 6
-  status: pending
+  status: done
   discovered_from: null
   source: null
 - name: PanOxyl
   type: brand
   priority: 6
-  status: pending
+  status: done
   discovered_from: null
   source: null
 - name: Timeless Skin Care
   type: brand
   priority: 6
-  status: pending
+  status: done
   discovered_from: null
   source: null
 - name: Isntree
@@ -139,7 +139,7 @@
 - name: L'Oreal
   type: brand
   priority: 9
-  status: pending
+  status: done
   discovered_from: cerave
   source: null
 - name: Bausch Health
@@ -157,7 +157,7 @@
 - name: Trader Joe's
   type: brand
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://www.traderjoes.com/home/products/pdp/vitamin-c-serum-083750
 - name: The Ordinary (DECIEM)
@@ -205,7 +205,7 @@
 - name: Good Molecules
   type: brand
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://www.goodmolecules.com
 - name: Supergoop!

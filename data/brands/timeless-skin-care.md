@@ -1,11 +1,11 @@
 ---
-analyzed: '2026-08-08'
+analyzed: '2026-08-09'
 assurance: sonnet
 name: Timeless Skin Care
 slug: timeless-skin-care
-status: draft
+status: published
 type: brand
-updated: '2026-08-08'
+updated: '2026-08-09'
 ---
 
 Timeless Skin Care is a US budget-priced, actives-focused skincare brand; its own site states it was "founded in 2009 by Veronica Pedersen," made in the USA "in small batches."[^1]

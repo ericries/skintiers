@@ -1,11 +1,11 @@
 ---
-analyzed: '2026-08-08'
+analyzed: '2026-08-09'
 assurance: sonnet
 name: Naturium
 slug: naturium
-status: draft
+status: published
 type: brand
-updated: '2026-08-08'
+updated: '2026-08-09'
 ---
 
 Naturium is a mass-market skincare brand describing itself as bringing "the science of consistent skincare to every one, every where, every day."[^1]

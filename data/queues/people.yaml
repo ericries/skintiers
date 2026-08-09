@@ -79,7 +79,7 @@
 - name: Raja Sivamani
   type: person
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/29947134/
 - name: Andrea Suarez (Dr Dray)
@@ -97,7 +97,7 @@
 - name: Richard Fitzpatrick (dermatologist, SkinMedica co-founder)
   type: person
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://www.skinmedica.com/us/our_story.html
 - name: Amit Pandya (melasma specialist dermatologist)
@@ -109,7 +109,7 @@
 - name: Kristin Leite (kristingl, beauty product developer / skincare educator)
   type: person
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://linktr.ee/kristingl
 - name: Rachel Neale
@@ -139,12 +139,12 @@
 - name: Valerie George
   type: person
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://thebeautybrains.com/about/
 - name: Melissa K. Levin
   type: person
   priority: 5
-  status: pending
+  status: done
   discovered_from: wave4-retinoid-acne
   source: null

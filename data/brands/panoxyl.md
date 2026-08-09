@@ -1,11 +1,11 @@
 ---
-analyzed: '2026-08-08'
+analyzed: '2026-08-09'
 assurance: sonnet
 name: PanOxyl
 slug: panoxyl
-status: draft
+status: published
 type: brand
-updated: '2026-08-08'
+updated: '2026-08-09'
 ---
 
 PanOxyl is an over-the-counter acne skincare line built around benzoyl peroxide washes, owned by Crown Laboratories Inc., a Revance company.[^1]

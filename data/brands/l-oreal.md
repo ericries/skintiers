@@ -1,11 +1,11 @@
 ---
-analyzed: '2026-08-08'
+analyzed: '2026-08-09'
 assurance: sonnet
 name: L'Oreal
 slug: l-oreal
-status: draft
+status: published
 type: brand
-updated: '2026-08-08'
+updated: '2026-08-09'
 ---
 
 L'Oreal is a French cosmetics and beauty company, founded in 1909 by chemist Eugene Schueller, per the brand's own corporate history.[^1]

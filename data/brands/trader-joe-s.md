@@ -1,11 +1,11 @@
 ---
-analyzed: '2026-08-08'
+analyzed: '2026-08-09'
 assurance: sonnet
 name: Trader Joe's
 slug: trader-joe-s
-status: draft
+status: published
 type: brand
-updated: '2026-08-08'
+updated: '2026-08-09'
 ---
 
 Trader Joe's is a U.S. grocery store chain that also sells a small skincare line under its own name, available only in its physical stores rather than online.[^1]
