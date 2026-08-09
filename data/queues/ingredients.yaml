@@ -395,9 +395,10 @@
 - name: Sunscreen UV filters, categorized (mineral vs chemical) hub
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://ericries.github.io/skintiers/sunscreen-uv-filters.html
+  note: covered by sunscreen-uv-filters
 - name: Argireline (acetyl hexapeptide-8)
   type: ingredient
   priority: 5
@@ -462,9 +463,10 @@
 - name: Oat extract (Avena sativa)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://prequelskin.com/products/gleanser-non-drying-glycerin-cleanser
+  note: covered by colloidal-oatmeal
 - name: Hydroxypinacolone retinoate (Granactive Retinoid / HPR)
   type: ingredient
   priority: 6
@@ -567,9 +569,10 @@
 - name: Licorice root extract (dipotassium glycyrrhizate)
   type: ingredient
   priority: 4
-  status: pending
+  status: done
   discovered_from: null
   source: data/products/cerave-resurfacing-retinol-serum.md
+  note: published as licorice-root-extract
 - name: sodium ascorbyl phosphate
   type: ingredient
   priority: 5

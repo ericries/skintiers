@@ -391,9 +391,10 @@
 - name: CeraVe Hydrating Mineral Sunscreen SPF 30 Face
   type: product
   priority: 4
-  status: pending
+  status: done
   discovered_from: la-roche-posay-anthelios-melt-in-milk-spf-60
   source: null
+  note: reconciled
 - name: SkinMedica Retinol Complex 1.0
   type: product
   priority: 9
@@ -675,9 +676,10 @@
 - name: Skinfix Barrier+ Triple Lipid-Peptide Cream
   type: product
   priority: 4
-  status: pending
+  status: done
   discovered_from: null
   source: https://www.skinfix.com
+  note: reconciled
 - name: MetroGel (metronidazole 1% gel, Galderma)
   type: product
   priority: 5
@@ -750,9 +752,10 @@
 - name: Retin-A Micro (tretinoin gel microsphere)
   type: product
   priority: 4
-  status: pending
+  status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/8336752/
+  note: reconciled
 - name: Aveeno Calm + Restore Oat Gentle Cleanser
   type: product
   priority: 5
@@ -777,9 +780,10 @@
 - name: La Roche-Posay 10% Pure Vitamin C Serum
   type: product
   priority: 4
-  status: pending
+  status: done
   discovered_from: null
   source: https://www.laroche-posay.us
+  note: ambiguous/likely dup of la-roche-posay-pure-vitamin-c-12-serum; drafter refused
 - name: 'Beauty of Joseon Glow Deep Serum: Rice + Alpha Arbutin'
   type: product
   priority: 5
@@ -804,9 +808,10 @@
 - name: Good Molecules Discoloration Correcting Serum (tranexamic + niacinamide)
   type: product
   priority: 4
-  status: pending
+  status: done
   discovered_from: null
   source: https://www.goodmolecules.com
+  note: published as good-molecules-discoloration-correcting-serum
 - name: Supergoop! Unseen Sunscreen SPF 50 (reformulated)
   type: product
   priority: 5
@@ -845,9 +850,10 @@
 - name: Vanicream Facial Moisturizer Broad Spectrum SPF 30
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://www.vanicream.com/product/facial-moisturizer-spf-30
+  note: reconciled
 - name: Beauty of Joseon Glow Deep Serum Rice + Alpha-Arbutin
   type: product
   priority: 5
@@ -879,9 +885,10 @@
 - name: Beauty of Joseon Matte Sun Stick
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: best-sunscreens-daily-wear
   source: https://beautyofjoseon.com/products/matte-sun-stick
+  note: reconciled
 - name: La Roche-Posay Cicaplast Baume B5
   type: product
   priority: 5
@@ -892,21 +899,24 @@
 - name: Avene Cicalfate+ Restorative Protective Cream
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: panthenol
   source: https://www.aveneusa.com/cicalfate-restorative-protective-cream
+  note: reconciled
 - name: Olay Regenerist Retinol24 Night Serum
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: anti-aging
   source: https://www.olay.com/en-us/skin-care-products/retinol24-night-serum
+  note: reconciled
 - name: CeraVe Skin Renewing Retinol Serum
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: anti-aging
   source: https://www.cerave.com/skincare/serums/skin-renewing-retinol-serum
+  note: reconciled
 - name: La Roche-Posay Effaclar Duo+
   type: product
   priority: 5
