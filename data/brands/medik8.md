@@ -3,7 +3,7 @@ analyzed: '2026-08-08'
 assurance: sonnet
 name: Medik8
 slug: medik8
-status: draft
+status: published
 type: brand
 updated: '2026-08-08'
 ---
