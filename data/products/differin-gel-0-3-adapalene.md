@@ -7,17 +7,17 @@ grades:
 - effect: modest to notable
   evidence: solid
   note: Adapalene is an FDA-approved topical retinoid for acne vulgaris; this label
-    is the 0.3% prescription strength, three times the OTC 0.1% concentration
-    ([[differin-adapalene-gel-0-1]]). The grade reflects the ingredient-level evidence
-    for adapalene in general ([[adapalene]]); no independently fetchable trial of this
-    exact 0.3% product was located, so it is graded as a higher-strength, prescription
-    delivery of the proven active rather than on its own dedicated trial.
+    is the 0.3% prescription strength, three times the OTC 0.1% concentration ([[differin-adapalene-gel-0-1]]).
+    The grade reflects the ingredient-level evidence for adapalene in general ([[adapalene]]);
+    no independently fetchable trial of this exact 0.3% product was located, so it
+    is graded as a higher-strength, prescription delivery of the proven active rather
+    than on its own dedicated trial.
   use: Acne vulgaris, mild to moderate, ages 12 and older (health)
 key_actives:
 - adapalene
 name: Differin Gel 0.3% (adapalene)
 slug: differin-gel-0-3-adapalene
-status: draft
+status: published
 type: product
 updated: '2026-08-08'
 ---

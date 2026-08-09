@@ -1,5 +1,5 @@
 ---
-analyzed: '2026-08-07'
+analyzed: '2026-08-08'
 assurance: sonnet
 brand: Youth To The People
 category: Moisturizers
@@ -16,31 +16,32 @@ grades:
   use: Hydration via humectant glycerin and hyaluronic acid (cosmetic)
 - effect: minimal
   evidence: anecdotal
-  note: 'composition fact: the "superfood" plant extracts (kale, green tea, chamomile,
-    alfalfa, spinach) sit 10th through 15th of 37 declared ingredients, and 3-O-ethyl
-    ascorbic acid, a stabilized vitamin C derivative, is 24th; that vitamin C derivative''s
-    own antioxidant and brightening evidence is preclinical only (cell-free assays,
-    cultured cells, a zebrafish model, no human trial), covered on [[3-o-ethyl-ascorbic-acid]]'
+  note: 'composition fact: the "superfood" plant extracts kale, green tea, chamomile,
+    and alfalfa sit 10th through 13th of 37 declared ingredients, sarcosine interrupts
+    the run at 14th, and spinach follows at 15th; 3-O-ethyl ascorbic acid, a stabilized
+    vitamin C derivative, is 24th; that vitamin C derivative''s own antioxidant and
+    brightening evidence is preclinical only (cell-free assays, cultured cells, a
+    zebrafish model, no human trial), covered on [[3-o-ethyl-ascorbic-acid]]'
   use: Antioxidant "superfood" plant extracts and 3-O-ethyl ascorbic acid (cosmetic)
 key_actives:
 - hyaluronic-acid
 - 3-o-ethyl-ascorbic-acid
 name: Youth To The People Superfood Air-Whip Hyaluronic Acid Moisture Cream
 slug: youth-to-the-people-superfood-air-whip-moisture-cream
-status: draft
+status: published
 type: product
-updated: '2026-08-07'
+updated: '2026-08-08'
 ---
 
-Youth To The People Superfood Air-Whip Hyaluronic Acid Moisture Cream is a leave-on face moisturizer from [[youth-to-the-people]] built around glycerin and hyaluronic acid alongside "superfood" plant extracts (kale, green tea, chamomile, alfalfa, spinach), sold in 59 mL, 150 mL, and 237 mL sizes and priced at £39.00 for the 59 mL size on Space NK's UK site, with Cult Beauty's EU listing independently matching the same declared ingredient list at EUR44.85 for 59 mL.[^spacenk][^cultbeauty]
+Youth To The People Superfood Air-Whip Hyaluronic Acid Moisture Cream is a leave-on face moisturizer from [[youth-to-the-people]] built around glycerin and hyaluronic acid alongside "superfood" plant extracts (kale, green tea, chamomile, alfalfa, spinach). Space NK's UK site sells it in 59 mL and 15 mL sizes, priced at £39.00 for 59 mL; Cult Beauty's EU listing independently matches the same declared ingredient list across 59 mL, 150 mL, and 237 mL sizes, pricing 59 mL at EUR44.85.[^spacenk][^cultbeauty]
 
 > The hydrating case here rests on the well-evidenced general role of glycerin and hyaluronic acid as humectants (see [[hyaluronic-acid]] and [[moisturizing]]); glycerin is second on the ingredient list, ahead of both hyaluronic-acid forms, so [glycerin's own well-evidenced humectant effect is at least as relevant as the headline hyaluronic acid](#the-evidence).[^spacenk][^cultbeauty] The "superfood" plant extracts and a stabilized vitamin C derivative sit well down the list, and that derivative's own evidence is preclinical only, not yet tested in a human trial.[^spacenk][^cultbeauty]
 
 ## Summary
 
-Youth To The People Superfood Air-Whip Hyaluronic Acid Moisture Cream is a leave-on face moisturizer from [[youth-to-the-people]], the L'Oreal-owned brand. Space NK's UK listing sells it in 59 mL and 15 mL sizes at £39.00 for the 59 mL size; Cult Beauty's EU listing independently confirms the same product with 59 mL, 150 mL, and 237 mL sizes, pricing 59 mL at EUR44.85.[^spacenk][^cultbeauty] Cult Beauty describes its texture as "a deliciously light, creamy, gel-like texture that absorbs quickly," and both retailers' declared ingredient lists match each other exactly.[^cultbeauty][^spacenk]
+Youth To The People Superfood Air-Whip Hyaluronic Acid Moisture Cream is a leave-on face moisturizer from [[youth-to-the-people]]. Space NK's UK listing sells it in 59 mL and 15 mL sizes at £39.00 for the 59 mL size; Cult Beauty's EU listing independently confirms the same product with 59 mL, 150 mL, and 237 mL sizes, pricing 59 mL at EUR44.85.[^spacenk][^cultbeauty] Cult Beauty describes its texture as "a deliciously light, creamy, gel-like texture that absorbs quickly," and both retailers' declared ingredient lists match each other exactly.[^cultbeauty][^spacenk]
 
-The formula's declared order tells most of the story. [[glycerin|Glycerin]] is second, right after water; [[squalane|squalane]] and sunflower seed oil follow as emollients; then a run of "superfood" plant extracts (kale, green tea, chamomile, alfalfa, spinach) sit 10th through 15th; the two hyaluronic-acid forms, hydrolyzed sodium hyaluronate and sodium hyaluronate, do not appear until 17th and 21st of 37 total ingredients; and 3-O-ethyl ascorbic acid, a stabilized vitamin C derivative, appears 24th.[^spacenk][^cultbeauty] So the headline "Hyaluronic Acid" on the label sits behind a glycerin-led humectant base rather than leading it, [a composition fact set out in full below](#whats-in-it).
+The formula's declared order tells most of the story. [[glycerin|Glycerin]] is second, right after water; [[squalane|squalane]] and sunflower seed oil follow as emollients; then a run of "superfood" plant extracts, kale, green tea, chamomile, and alfalfa, sit 10th through 13th, sarcosine interrupts the run at 14th, and spinach follows at 15th; the two hyaluronic-acid forms, hydrolyzed sodium hyaluronate and sodium hyaluronate, do not appear until 17th and 21st of 37 total ingredients; and 3-O-ethyl ascorbic acid, a stabilized vitamin C derivative, appears 24th.[^spacenk][^cultbeauty] So the headline "Hyaluronic Acid" on the label sits behind a glycerin-led humectant base rather than leading it, [a composition fact set out in full below](#whats-in-it).
 
 Hydration via glycerin and hyaluronic acid is a well-evidenced cosmetic humectant effect, covered on [[hyaluronic-acid]] and [[moisturizing]]. The "superfood" plant extracts and the vitamin C derivative are cosmetic add-ins further down the formula; the vitamin C derivative's own antioxidant and brightening evidence, covered on [[3-o-ethyl-ascorbic-acid]], comes only from cell-free assays, cultured cells, and a zebrafish model, not a human trial. No published trial tests this exact cream.
 
@@ -48,9 +49,9 @@ Hydration via glycerin and hyaluronic acid is a well-evidenced cosmetic humectan
 
 Glycerin and hyaluronic acid, applied topically as humectants, reliably raise a measured skin-hydration reading in controlled testing; glycerin's case is set out on [[glycerin]] and [[moisturizing]], where it sits in a higher evidence tier than hyaluronic acid, and hyaluronic acid's case, including the molecular-weight distinction for penetration, is set out on [[hyaluronic-acid]]. This cream's declared ingredient list places glycerin second overall, ahead of both its hyaluronate forms (hydrolyzed sodium hyaluronate 17th, sodium hyaluronate 21st of 37), so glycerin's well-evidenced humectant effect is at least as relevant to this formula as the headline hyaluronic-acid claim.[^spacenk][^cultbeauty]
 
-No published trial tests this exact cream. The "superfood" plant extracts, kale (Brassica oleracea acephala leaf extract), green tea (Camellia sinensis leaf extract), chamomile, alfalfa, and spinach, sit 10th through 15th on the declared list, ahead of the hyaluronate forms but without a cited product-specific or isolated-ingredient trial for any of them in this formulation.[^spacenk][^cultbeauty] 3-O-ethyl ascorbic acid, a stabilized ether derivative of vitamin C, appears 24th; its own antioxidant and tyrosinase-inhibition evidence, covered on [[3-o-ethyl-ascorbic-acid]], comes from a cell-free DPPH assay, cultured UVA-irradiated keratinocytes, and a zebrafish model, with no published human clinical trial located and one published case report of allergic contact dermatitis to the ingredient itself.
+No published trial tests this exact cream. The "superfood" plant extracts, kale (Brassica oleracea acephala leaf extract), green tea (Camellia sinensis leaf extract), chamomile, and alfalfa, sit 10th through 13th on the declared list, with sarcosine interrupting the run at 14th before spinach follows at 15th, all ahead of the hyaluronate forms but without a cited product-specific or isolated-ingredient trial for any of them in this formulation.[^spacenk][^cultbeauty] 3-O-ethyl ascorbic acid, a stabilized ether derivative of vitamin C, appears 24th; its own antioxidant and tyrosinase-inhibition evidence, covered on [[3-o-ethyl-ascorbic-acid]], comes from a cell-free DPPH assay, cultured UVA-irradiated keratinocytes, and a zebrafish model, with no published human clinical trial located and one published case report of allergic contact dermatitis to the ingredient itself.
 
-> **Bottom line.** This cream's hydrating case rests on the general evidence for glycerin and hyaluronic acid as humectants, applied to a formula that leads with glycerin ahead of the hyaluronate forms named on the label. The "superfood" botanicals and vitamin C derivative sit further down the ingredient list, and the vitamin C derivative's own supporting evidence is preclinical, not a finding on human skin.
+> **Bottom line.** This cream's hydrating case rests on the general evidence for glycerin and hyaluronic acid as humectants, applied to a formula that leads with glycerin ahead of the hyaluronate forms named on the label. The "superfood" botanicals and vitamin C derivative sit further down the ingredient list, and the vitamin C derivative's own supporting evidence comes from cell-free and cultured-cell work rather than a human-skin trial.
 
 ## What's In It
 

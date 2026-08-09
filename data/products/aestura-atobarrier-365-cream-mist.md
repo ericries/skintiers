@@ -1,5 +1,5 @@
 ---
-analyzed: '2026-08-07'
+analyzed: '2026-08-08'
 assurance: sonnet
 brand: Aestura
 category: Moisturizers
@@ -27,9 +27,9 @@ key_actives:
 - glycerin
 name: Aestura Atobarrier 365 Cream Mist
 slug: aestura-atobarrier-365-cream-mist
-status: draft
+status: published
 type: product
-updated: '2026-08-07'
+updated: '2026-08-08'
 ---
 
 Aestura Atobarrier 365 Cream Mist is a South Korean facial spray from the ceramide-focused Atobarrier 365 line, sold in a 120 mL[^aestura] / 4.05 fl oz[^target] bottle.

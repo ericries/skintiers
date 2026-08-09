@@ -1,6 +1,6 @@
 ---
-analyzed: '2026-08-07'
-assurance: sonnet
+analyzed: '2026-08-08'
+assurance: opus
 brand: Neutrogena
 category: Sunscreens
 comparator: broad-spectrum sunscreens, including modern-filter products sold in the
@@ -25,9 +25,9 @@ key_actives:
 - avobenzone
 name: Neutrogena Ultra Sheer Dry-Touch Sunscreen Broad Spectrum SPF 70
 slug: neutrogena-ultra-sheer-dry-touch-spf-70
-status: draft
+status: published
 type: product
-updated: '2026-08-07'
+updated: '2026-08-08'
 ---
 
 Neutrogena Ultra Sheer Dry-Touch Sunscreen Broad Spectrum SPF 70 is a lotion-format face and body sunscreen built entirely on organic (chemical) UV filters, marketed for a fast-absorbing, non-greasy "Dry-Touch" finish.[^1]

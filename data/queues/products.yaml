@@ -325,15 +325,17 @@
 - name: Aestura Atobarrier 365 Hydro Soothing Gel Cream
   type: product
   priority: 6
-  status: pending
+  status: done
   discovered_from: null
   source: null
+  note: reconciled
 - name: Aestura Atobarrier 365 Cream Mist
   type: product
   priority: 6
-  status: pending
+  status: done
   discovered_from: null
   source: null
+  note: reconciled
 - name: Anua Azelaic Acid Serum
   type: product
   priority: 10
@@ -385,9 +387,10 @@
 - name: Neutrogena Ultra Sheer Dry-Touch SPF 70
   type: product
   priority: 4
-  status: pending
+  status: done
   discovered_from: la-roche-posay-anthelios-melt-in-milk-spf-60
   source: null
+  note: reconciled
 - name: CeraVe Hydrating Mineral Sunscreen SPF 30 Face
   type: product
   priority: 4
@@ -445,9 +448,10 @@
 - name: Differin Gel 0.3% (adapalene)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: differin-adapalene-0-1-gel
   source: null
+  note: reconciled
 - name: Epiduo (adapalene / benzoyl peroxide)
   type: product
   priority: 5
@@ -526,9 +530,10 @@
 - name: SkinMedica TNS Advanced+ Serum
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://www.skinmedica.com/us/skin-concern/fine-line-and-wrinkles/20086513.html
+  note: reconciled
 - name: SkinMedica HA5 Rejuvenating Hydrator
   type: product
   priority: 5
@@ -546,9 +551,10 @@
 - name: Chemist Confessions Aquafix
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://www.beautyindependent.com/cosmetic-chemists-and-chemist-confessions-founders-victoria-fu-and-gloria-lu-turn-to-science-to-take-the-bs-out-of-skincare/
+  note: reconciled
 - name: Youth To The People Superfood Antioxidant Cleanser
   type: product
   priority: 5
@@ -559,9 +565,10 @@
 - name: Youth To The People Superfood Air-Whip Hyaluronic Acid Moisture Cream
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://www.loreal.com/en/luxe-division/youth-to-the-people/
+  note: reconciled
 - name: Soolantra (Ivermectin 1% Cream)
   type: product
   priority: 8
@@ -656,9 +663,10 @@
 - name: Dr.G Medi UV Mild Sun SPF50+
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://www.dr-g.com/collections/sunscreen
+  note: drafter could not complete (source); low-value KR sunscreen, skipped
 - name: Avene RetrinAL 0.1 Intensive Cream
   type: product
   priority: 5
@@ -711,9 +719,10 @@
 - name: Prequel Skin Utility Ointment
   type: product
   priority: 4
-  status: pending
+  status: done
   discovered_from: null
   source: https://www.prnewswire.com/news-releases/dr-samantha-ellis-launches-solution-focused-skincare-brand-prequel-301885229.html
+  note: reconciled
 - name: Neutrogena Rapid Wrinkle Repair Retinol Serum
   type: product
   priority: 5

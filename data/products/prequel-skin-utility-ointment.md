@@ -1,9 +1,10 @@
 ---
-analyzed: '2026-08-07'
+analyzed: '2026-08-08'
 assurance: sonnet
 brand: Prequel
 category: Moisturizers
-comparator: other petrolatum-based skin-protectant ointments (e.g. plain white petrolatum, [[cerave-healing-ointment]])
+comparator: other petrolatum-based skin-protectant ointments (e.g. plain white petrolatum,
+  [[cerave-healing-ointment]])
 grades:
 - effect: strong
   evidence: solid
@@ -20,9 +21,9 @@ key_actives:
 - petrolatum
 name: Prequel Skin Utility Ointment
 slug: prequel-skin-utility-ointment
-status: draft
+status: published
 type: product
-updated: '2026-08-07'
+updated: '2026-08-08'
 ---
 
 Prequel Skin Utility Ointment is a fragrance-free skin-protectant ointment that lists Petrolatum 45% as its sole Active Ingredient, made by Prequel, a skincare brand whose product page identifies its founder, Dr. Samantha Ellis, as a dermatologist.[^pdp]

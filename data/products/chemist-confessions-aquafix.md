@@ -3,7 +3,8 @@ analyzed: '2026-08-08'
 assurance: sonnet
 brand: chemist-confessions
 category: Serums
-comparator: other glycerin- and hyaluronic-acid-led hydrating gels/essences, such as [[torriden-dive-in-low-molecular-hyaluronic-acid-serum]]
+comparator: other glycerin- and hyaluronic-acid-led hydrating gels/essences, such
+  as [[torriden-dive-in-low-molecular-hyaluronic-acid-serum]]
 grades:
 - effect: notable
   evidence: solid
@@ -11,8 +12,8 @@ grades:
     and [[moisturizing]]; the brand's own declared actives list leads with a "9.5%
     Smart Glycerin Complex," well ahead of the 2% sodium PCA and the 0.2% hyaluronic
     acid, so glycerin's well-evidenced humectant/barrier effect is doing most of the
-    hydrating work here, not the headline hyaluronic acid; health effect (barrier hydration/TEWL),
-    not merely cosmetic
+    hydrating work here, not the headline hyaluronic acid; health effect (barrier
+    hydration/TEWL), not merely cosmetic
   use: Hydration via humectant complex (glycerin, sodium PCA, hyaluronic acid, panthenol)
 - effect: minimal
   evidence: preliminary
@@ -33,7 +34,7 @@ key_actives:
 - centella-asiatica
 name: Chemist Confessions Aquafix Hydrating Water Gel
 slug: chemist-confessions-aquafix
-status: draft
+status: published
 type: product
 updated: '2026-08-08'
 ---

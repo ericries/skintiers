@@ -3035,3 +3035,51 @@ mexoryl-400-mce:
   verdict: revise-then-fixed
   note: |
     Opus verification of mexoryl-400-mce.md against the three cited primaries (Marionnet PMC8762479, Mercurio PubMed 39673229, Loretan PubMed 39305114, all re-fetched via WebFetch; source-cache miss). Marionnet quotes/stats (385 nm peak, coeff 63,052, 370 nm reference, 74% 9-or-10, n=19, 50 J/cm2, NCT04865094, 0.7%/1.5%, Episkin, INCI/CAS) and Loretan/Mercurio quotes and all P-values verify verbatim, but three fixable defects remain: the pigmentation scale is 0-13 (page says 'out of 10'/'top of the scale'), the [^mercurio] 370 nm quotation is not verbatim in its source, and 'every author is an L'Oreal employee' is wrong (7 of 8; Passeron is academic). Verdict: revise.
+aestura-atobarrier-365-hydro-soothing-gel-cream:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Focused Opus review of Aestura Atobarrier 365 Hydro Soothing (Gel) Cream draft: verified full 42-ingredient INCI, fragrance (<1% synthetic), free-of list, 60ml/2.02oz size, Target $47.99 price (attributed+dated 2026-08-07), and all quoted marketing/test claims against cached brand + Target sources; re-fetched the brand page to confirm the 'ceramide capsule' and 'gel cream' quotes verbatim and updated the cache. Verdict revise: the 'no ceramide / only two of three lipids' thesis driving both grades ignores Hydroxypropyl Bispalmitamide MEA (a pseudoceramide in the INCI), the quoted phrase '3 key components' is non-verbatim ('three key components'), and 'step 4' routine positioning is not attested.
+aestura-atobarrier-365-cream-mist:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus focused-verify of DRAFT aestura-atobarrier-365-cream-mist against the two cached sources (brand int.aestura.com key 03b94437bffb323d; Target key 23c9d422c8bb214b): INCI order/contents, <1% synthetic fragrance status, $35.99/4.05 fl oz price+size, and all six quoted phrases confirmed verbatim; the "10,000 ppm ceramide" marketing stat is properly quarantined (not asserted) and grades route general evidence out with no imported trial numbers. No fabrication found. Verdict revise for two surgical fixes only: the "in order" INCI header is contradicted by the function-grouped bullets, and the 4.05 fl oz size on line 35 is mis-attributed to the brand rather than Target.
+differin-gel-0-3-adapalene:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus focused review of draft differin-gel-0-3-adapalene: every FDA-label quote (indication, directions, description '3 mg adapalene in an off-white aqueous gel', adverse reactions, inactive INCI with poloxamer 124) verified verbatim against the re-fetched DailyMed prescribing information; Target 'no 0.3% retail SKU' claim re-fetched and cached. Link-out discipline is clean — no trial numbers imported, grade honestly rests on general adapalene evidence, no marketing stat asserted. Verdict revise: the only defect is the package-size list, which omits the 45 g tube and mislabels the 45 g as pump-only versus the label's four presentations (2 g / 15 g / 45 g tubes + 45 g pump).
+skinmedica-tns-advanced-serum:
+  last_reviewed: '2026-08-08'
+  score: 10
+  verdict: publish
+  note: |
+    Opus focused review verified all product-specific facts against the cached Dermstore listing (SKU 12596429): price $295.00, size 1 fl oz / 30 mL, the full 32-ingredient INCI (all present, correct order, no invented concentrations), and both quoted phrases verbatim, with the full marketing claim correctly quarantined under Common Marketing Claims. Grades (minimal/anecdotal) are honest and route all growth-factor evidence out to [[epidermal-growth-factor]] with no imported trial numbers or single-source stats asserted as fact. Verdict: publish; only non-blocking note is the unsourced "physician-dispensed" brand characterization, which is out of product-fact scope.
+chemist-confessions-aquafix:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus focused review of DRAFT chemist-confessions-aquafix (link-out): verified composition/percentages (9.5% glycerin complex, 2% sodium PCA, 2% CityStem, 1% panthenol, 0.5% madecassoside/asiaticoside, 0.5% allantoin, 0.2% HA), fragrance-free/oil-free/vegan status, $38/50 mL price+size, and all marketing quotes against the cached brand page; no INCI ordinal list exists so the draft correctly discloses named actives only, and all 'clinically tested'/CityStem stats are quarantined with no imported trial numbers. Verdict revise: three fixable issues -- an unsupported 'HA headlines the marketing' overstatement, a 'maximizes' vs cached 'maximize' verbatim quote drift, and the 'Barrier Calm Complex' being described with asiaticoside where the brand names panthenol. No fabricated load-bearing claim.
+youth-to-the-people-superfood-air-whip-moisture-cream:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus focused review of the YTTP Superfood Air-Whip Moisture Cream draft: verified all product-specific facts against the two cached retailer sources (Space NK GBP39.00/59mL, Cult Beauty EUR44.85/59mL, dated 2026-08-07), the full 37-item INCI list and every cited ingredient position, fragrance status, and all three quoted phrases (verbatim); the 48-hour hydration stat is correctly quarantined as single-source and grades route efficacy out with no imported trial numbers. Verdict revise for three fixable polish items: an unattributed 'L'Oreal-owned' aside, a positional imprecision (sarcosine interrupts the 10th-15th superfood run at 14th), and an intro that conflates Space NK vs Cult Beauty size ranges. No fabrications or unverifiable load-bearing claims found.
+neutrogena-ultra-sheer-dry-touch-spf-70:
+  last_reviewed: '2026-08-08'
+  score: 10
+  verdict: publish
+  note: |
+    Opus focused verification re-fetched the DailyMed FDA label (cache miss) and read the cached Target listing: actives (avobenzone 3%/homosalate 15%/octisalate 5%/octocrylene 10%), full INCI list, label revision date (Oct 17 2025), all Directions quotes, and Target price ($9.89/3 fl oz) and marketing phrases all verbatim; homosalate-10%-to-15% comparison matches the sourced SPF 55 sibling. General efficacy routed out to [[sunscreen-uv-filters]] with no imported trial numbers, marketing stat quarantined. Verdict publish; sole non-blocking nit is a one-day mismatch between the [^2] accessed date (2026-08-07) and the cache fetch date (2026-08-08).
+prequel-skin-utility-ointment:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus focused-verified the Prequel Skin Utility Ointment draft against the two cached sources: PDP (price $18.00, size 2oz/56.6g, Petrolatum 45% active, fragrance-free, all 14 inactive INCI in source order, all four quoted phrases verbatim, dermatologist founder, three seals properly quarantined as unverified) and Target (2oz, $17.99->$15.29 clearance, 4.5/215 reviews, no ingredient list) all check out, and grades correctly route efficacy to [[petrolatum]]/[[moisturizing]] with no imported trial numbers. Verdict: revise for two surgical fixes only — an added INCI qualifier ("Helianthus Annuus Seed Extract" vs. source's "Helianthus Annuus Extract") and normalizing "45.0%" to the source's "45%". No load-bearing fabrication found.

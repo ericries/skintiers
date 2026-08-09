@@ -1,21 +1,22 @@
 ---
-analyzed: '2026-08-07'
-assurance: sonnet
+analyzed: '2026-08-08'
+assurance: opus
 brand: skinmedica
 category: Peptide serums
 grades:
 - effect: minimal
   evidence: anecdotal
   note: vs a plainer peptide or vitamin-C serum, or a vehicle moisturizer
-  use: As an anti-aging serum for coarse wrinkles, fine lines, and sagging skin (growth-factor / Human Fibroblast Conditioned Media blend)
-name: SkinMedica TNS Advanced+ Serum
-slug: skinmedica-tns-advanced-serum
-status: draft
-type: product
-updated: '2026-08-07'
+  use: As an anti-aging serum for coarse wrinkles, fine lines, and sagging skin (growth-factor
+    / Human Fibroblast Conditioned Media blend)
 key_actives:
 - epidermal-growth-factor
 - peptides
+name: SkinMedica TNS Advanced+ Serum
+slug: skinmedica-tns-advanced-serum
+status: published
+type: product
+updated: '2026-08-08'
 ---
 
 TNS Advanced+ Serum is [[skinmedica|SkinMedica]]'s flagship anti-aging serum, built around Human Fibroblast Conditioned Media, a growth-factor-bearing extract from cultured human fibroblasts, marketed under the retailer-quoted description "powered by TNS-MR and Renessensce (RSC) Advanced."[^1]
