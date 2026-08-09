@@ -4133,3 +4133,16 @@ la-roche-posay-mela-b3-serum:
     cached Target listing. Critic verified price ($44.99/1 fl oz), partial INCI (niacinamide 10% + Melasyl),
     directions, all quotes verbatim; both manufacturer stats (23,000 people; 8-week/72-women) quarantined, no
     trial numbers imported. Verdict publish. assurance=opus. lint clean.
+
+cosrx-the-retinol-0-1-cream:
+  last_reviewed: '2026-08-09'
+  score: 9
+  verdict: revise-then-published
+  note: |
+    COSRX The Retinol 0.1 Cream (link-out; retinol class evidence on [[retinol]]). Daily PRODUCT cron (Sonnet
+    draft + Opus profile-reviewer). Facts cache-verified: $27 list / 20 ml, retinol explicitly disclosed
+    "Retinol (0.1%)" as 25th of 51 INCI (cosrx.com + yesstyle.com, both cached). Critic caught a mis-citation:
+    Randhawa 44%/84% class-level stats were restated in The Evidence and footnoted to cosrx.com. Fixed by
+    dropping the restated numbers and linking out to [[retinol]], keeping only the disclosed 0.1% dose-match
+    (cited to the cosrx INCI). evidence_levels added (active: retinol, formula_tested: false).
+    assurance=sonnet. lint/style clean; verify 2 expected cache WARNs.

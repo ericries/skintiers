@@ -947,7 +947,7 @@
 - name: COSRX The Retinol 0.1 Cream
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: post-drain-harvest
   source: https://www.cosrx.com/products/the-retinol-0-1-cream
 - name: 'Beauty of Joseon Revive Eye Serum: Ginseng + Retinal'
@@ -1042,3 +1042,23 @@
   status: pending
   discovered_from: victoria-fu
   source: Chemist Confessions, PDRN pick with split-face clinical vs injection (transcript-verified)
+- name: SK-II Facial Treatment Essence
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: samantha-ellis
+  source: 'Dr. Sam Ellis video (transcript-verified): galactomyces essence for skin
+    that cannot tolerate acids/vitamin C'
+- name: Tatcha Indigo Overnight Repair Serum
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: samantha-ellis
+  source: 'Dr. Sam Ellis video: calming nighttime moisturizer for sensitive skin'
+- name: Cetaphil Sheer Mineral Sunscreen Stick
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: michelle-wong
+  source: 'Michelle Wong sunscreen-stick application tests: strong coverage among
+    mineral sticks'
