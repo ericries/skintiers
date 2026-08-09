@@ -4,7 +4,7 @@ assurance: sonnet
 expertise: Cosmetic chemists
 name: Randy Schueller
 slug: randy-schueller
-status: draft
+status: published
 type: person
 updated: '2026-08-09'
 ---

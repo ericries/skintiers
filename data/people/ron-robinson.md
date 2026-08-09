@@ -1,12 +1,12 @@
 ---
-analyzed: '2026-08-08'
+analyzed: '2026-08-09'
 assurance: sonnet
 expertise: Cosmetic chemists
 name: Ron Robinson
 slug: ron-robinson
-status: draft
+status: published
 type: person
-updated: '2026-08-08'
+updated: '2026-08-09'
 ---
 
 Ron Robinson is a cosmetic chemist, founder, and CEO of BeautyStat Cosmetics.[^1]

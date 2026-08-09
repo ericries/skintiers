@@ -1,12 +1,12 @@
 ---
-analyzed: '2026-08-08'
+analyzed: '2026-08-09'
 assurance: sonnet
 expertise: Dermatologists
 name: Peter A. Lio
 slug: peter-lio
-status: draft
+status: published
 type: person
-updated: '2026-08-08'
+updated: '2026-08-09'
 ---
 
 Peter A. Lio is a dermatologist who holds an academic appointment as Clinical Assistant Professor of Dermatology and Pediatrics at Northwestern University's Feinberg School of Medicine, per his Feinberg faculty profile.[^1]

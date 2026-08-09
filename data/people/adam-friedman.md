@@ -1,12 +1,12 @@
 ---
-analyzed: '2026-08-08'
+analyzed: '2026-08-09'
 assurance: sonnet
 expertise: Dermatologists
 name: Adam Friedman
 slug: adam-friedman
-status: draft
+status: published
 type: person
-updated: '2026-08-08'
+updated: '2026-08-09'
 ---
 
 Dr. Adam Friedman, MD, FAAD, is Professor and Chair of the Department of Dermatology at George Washington University School of Medicine & Health Sciences, where he also directs the residency program and the department's translational research.[^gwu] His research centers on nanotechnology-based delivery of topical and injectable dermatologic treatments.[^gwu]

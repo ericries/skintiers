@@ -85,13 +85,13 @@
 - name: Andrea Suarez (Dr Dray)
   type: person
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://www.youtube.com/@DrDrayzday
 - name: Dustin Portela
   type: person
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://www.youtube.com/@dustinportela
 - name: Richard Fitzpatrick (dermatologist, SkinMedica co-founder)
@@ -103,7 +103,7 @@
 - name: Amit Pandya (melasma specialist dermatologist)
   type: person
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/?term=Pandya+AG+melasma
 - name: Kristin Leite (kristingl, beauty product developer / skincare educator)
@@ -115,25 +115,25 @@
 - name: Rachel Neale
   type: person
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/30945275/
 - name: Valerie Callender (dermatologist)
   type: person
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://www.newbeauty.com/view/cerave-dermatologist-recommended
 - name: Linda Stein Gold
   type: person
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/24595578/
 - name: Randy Schueller
   type: person
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://thebeautybrains.com/about/
 - name: Valerie George

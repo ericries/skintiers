@@ -1,12 +1,12 @@
 ---
-analyzed: '2026-08-08'
+analyzed: '2026-08-09'
 assurance: sonnet
 expertise: Dermatologists
 name: Valerie Callender (dermatologist)
 slug: valerie-callender-dermatologist
-status: draft
+status: published
 type: person
-updated: '2026-08-08'
+updated: '2026-08-09'
 ---
 
 Valerie Callender is a board-certified dermatologist based in Glenn Dale, Maryland, quoted in NewBeauty's round-up of dermatologist-recommended CeraVe products.[^1]

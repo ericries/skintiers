@@ -1,12 +1,12 @@
 ---
-analyzed: '2026-08-08'
+analyzed: '2026-08-09'
 assurance: sonnet
 expertise: Dermatologists
 name: Daniel Sugai
 slug: daniel-sugai
-status: draft
+status: published
 type: person
-updated: '2026-08-08'
+updated: '2026-08-09'
 ---
 
 Daniel Yoshio Sugai, M.D., is listed in the federal NPI registry with a primary specialty of Dermatology and a Washington medical license (MD.60631007), with practice addresses in Renton, WA and Bellevue, WA and an additional listed address in Boston, MA.[^npi] No product, ingredient, or video on this site currently cites him.

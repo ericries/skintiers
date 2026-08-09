@@ -3,7 +3,7 @@ analyzed: '2026-08-09'
 assurance: sonnet
 name: Rachel Neale
 slug: rachel-neale
-status: draft
+status: published
 type: person
 updated: '2026-08-09'
 ---

@@ -1,12 +1,12 @@
 ---
-analyzed: '2026-08-08'
+analyzed: '2026-08-09'
 assurance: sonnet
 expertise: Dermatologists
 name: Muneeb Shah
 slug: muneeb-shah
-status: draft
+status: published
 type: person
-updated: '2026-08-08'
+updated: '2026-08-09'
 ---
 
 Muneeb Shah, DO, is a board-certified dermatologist known publicly as "DermDoctor," with over 20 million combined followers across TikTok, Instagram, and YouTube, according to the American Osteopathic Association.[^1] The AOA profile credits him with using that reach to debunk skincare myths and deliver evidence-based educational content, and names him as one half of the "Doctorly" team on YouTube.[^1]

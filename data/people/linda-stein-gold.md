@@ -1,11 +1,11 @@
 ---
-analyzed: '2026-08-08'
+analyzed: '2026-08-09'
 assurance: sonnet
 name: Linda Stein Gold
 slug: linda-stein-gold
-status: draft
+status: published
 type: person
-updated: '2026-08-08'
+updated: '2026-08-09'
 ---
 
 Linda Stein Gold is a board-certified dermatologist and Director of Dermatology Clinical Research and Division Head of Dermatology at Henry Ford Health in Michigan.[^1]

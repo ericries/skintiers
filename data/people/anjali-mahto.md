@@ -1,12 +1,12 @@
 ---
-analyzed: '2026-08-08'
+analyzed: '2026-08-09'
 assurance: sonnet
 expertise: Dermatologists
 name: Anjali Mahto
 slug: anjali-mahto
-status: draft
+status: published
 type: person
-updated: '2026-08-08'
+updated: '2026-08-09'
 ---
 
 Anjali Mahto, MBBCh BSc MRCP (Derm), is a London-trained consultant dermatologist registered with the UK General Medical Council, and a spokesperson for the British Skin Foundation and executive committee member of the British Cosmetic Dermatology Group.[^1] She is the author of the consumer book "The Skincare Bible."[^1]

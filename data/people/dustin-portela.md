@@ -4,7 +4,7 @@ assurance: sonnet
 expertise: Dermatologists
 name: Dustin Portela
 slug: dustin-portela
-status: draft
+status: published
 type: person
 updated: '2026-08-09'
 ---
