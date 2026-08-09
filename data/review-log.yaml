@@ -3227,3 +3227,51 @@ mansouri-2015-cysteamine-melasma-rct:
   verdict: publish
   note: |
     Opus re-fetched PubMed 25251767 via WebFetch and confirmed all four quoted phrases (Mexameter mean differences 39.7±16.6 / 26.2±16 vs 63.8±28.6 / 60.7±27.3, P=0.001 and P<0.001; MASI 7.2±5.5 vs 11.6±7.9, P=0.02; IGA/patients' viewpoints sentence) are verbatim in the abstract, and that design (double-blind RCT, cysteamine 5% vs placebo, once nightly, 4 months, assessments at baseline/2/4 mo), n (50; 25/25), and epidermal-melasma population all match. Page correctly discloses abstract-only access, asserts no effect size the abstract lacks, honestly notes absence of responder-% and safety data, and respects link-out discipline (no imported general ingredient evidence). Verdict: publish.
+patil-2025-cysteamine-vs-kojic-acid:
+  last_reviewed: '2026-08-08'
+  score: 10
+  verdict: publish
+  note: |
+    Opus re-fetched PubMed abstract (PMID 40296942) and confirmed every quoted phrase is verbatim ("numerically greater mean percentage reduction in mMASI scores (12.25% vs. 10%)", "5.13% vs. 4.81%", "were not statistically significant", "No abnormal clinical or functional signs were reported during the study") and every figure (n=72, 1:1 randomization, 5% cysteamine vs 2% kojic acid, once nightly, 16 weeks) is present in the abstract; design/population/comparator match, abstract-only access is disclosed, no p-value or effect size is asserted beyond the source, and link-out discipline is respected. No fabrications found. Verdict: publish.
+garcia-fulton-1996-kojic-acid-hydroquinone:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus re-fetched PubMed abstract (PMID 8634807) and verified: n=39, all three percentages (51%/28%/21%), both verbatim quotes, split-face design, Wood's light + UV photography, glycolic-acid vehicle, and abstract-only disclosure all match the source. REVISE: the draft misattributes the abstract's 'These results were not statistically different' (which applies to the pigment-response distribution / no superior ingredient) to the irritation difference, and implies irritation was tested for significance when the abstract states unqualified that 'the kojic acid preparation was more irritating.' Two surgical fixes needed; no fabricated numbers.
+newman-2009-tio2-zno-nanoparticle-safety:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Re-fetched PubMed abstract (PMID 19646780) via WebFetch and verified: citation metadata (JAAD 2009;61(4):685-92, DOI 10.1016/j.jaad.2009.02.051) matches, the core quote is verbatim, abstract is purely qualitative with no numbers, and abstract-only access is disclosed correctly. Flagged three surgical fixes for content not present in the abstract — the 'versus non-nanosized forms' comparator and the word 'compromised' — plus a quote-capitalization bracket; verdict revise (all fixable, no fabricated load-bearing number).
+mawu-2024-cysteamine-meta-analysis:
+  last_reviewed: '2026-08-08'
+  score: 10
+  verdict: publish
+  note: |
+    Opus re-fetched PubMed 39673630 (WebFetch only): all quoted phrases are verbatim and every number (7 RCTs; vs-placebo SMD −0.84, 95% CI −1.19/−0.49, p<0.00001, I²=0%; vs-HQ4% SMD 0.16, 95% CI −0.22/0.53, p=0.42, I²=55%; search databases and June 22 2024 cutoff; random-effects/OR/SMD methods) is genuinely present in the abstract. The page correctly discloses abstract-only access and correctly states that total n, per-trial sample sizes, durations, and numeric AE rates are not reported — no fabrication; comparator/population/design match and link-out discipline is respected. Verdict: publish (only trivial variance is sentence-initial capitalization of "cysteamine" in one embedded quote, standard editorial convention).
+lim-1999-kojic-acid-add-on-rct:
+  last_reviewed: '2026-08-08'
+  score: 10
+  verdict: publish
+  note: |
+    Opus re-fetched PubMed abstract PMID 10417583 (Lim 1999, Dermatol Surg) and confirmed every quoted phrase verbatim ("2% kojic acid in a gel containing 10% glycolic acid and 2% hydroquinone", "More than half of the melasma cleared in 24/40 (60%) patients", "19/40 (47.5%) patients", "redness, stinging, and exfoliation") and every number (n=40 Chinese women, split-face, 4-weekly assessments to 12 weeks, 60% vs 47.5%, 2 complete clearances, Wilcoxon rank sum test) genuinely present in the abstract. The initially-suspicious duration and statistical-test claims were both verified in the source; the page correctly discloses abstract-only access, asserts no p-value the abstract lacks, treats the 12.5pp gap as derived arithmetic, and respects link-out discipline. Verdict: publish.
+williams-1994-uk-diagnostic-criteria-atopic-dermatitis:
+  last_reviewed: '2026-08-08'
+  score: 10
+  verdict: publish
+  note: |
+    Opus re-fetched PubMed abstract (PMID 7918015): all four block quotes are verbatim, and every number (31 candidate features, 6-item derived set, n=224 / 120 cases / 102 controls, 150-person community validation sample, 13 dermatologists + 2 family practitioners + 1 paediatrician) is present in the abstract; design/population/gold-standard/comparator all match. Page correctly discloses abstract-only access, asserts no sensitivity/specificity/OR/p-value (verified absent from abstract), and respects link-out discipline. Verdict: publish. (Minor source-side note: abstract's stated 224 total does not sum to 120+102=222, but the draft faithfully reproduces the source's own figures.)
+thompson-1993-solar-keratoses-sunscreen:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus re-fetched PubMed 8377777 and confirmed all three verbatim quote blocks (difference 1.53, CI 0.81-2.25; rate ratio 0.62, CI 0.54-0.71; odds ratio 1.53, CI 1.29-1.80; dose-response sentence), plus design/n/population/SPF/sites/dates and the abstract-only disclosure and 'by implication' caveat, all match the abstract with no fabricated numbers. One fixable interpretation error: line 21 inverts rate ratio 0.62 as '38% the rate' when it means ~62% the rate (a ~38% reduction). Verdict: revise.
+naylor-1995-actinic-neoplasia-sunscreen:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus re-fetched PubMed abstract PMID 7857113 via WebFetch (initial fetch was summarizer-truncated; full structured abstract confirmed on second fetch). All quoted phrases are verbatim and all numbers (n=53, 37 completers, 24-month visit, 2-year period, Dec 1987-Dec 1990) are genuinely in the abstract; page correctly discloses no effect size/p-value and abstract-only access, and link-out discipline is respected. Verdict revise: two unsupported design descriptors ("randomized" on line 11; "(vehicle) cream" on line 17) not present in the abstract — surgical fixes only, no fabricated numbers.
