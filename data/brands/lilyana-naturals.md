@@ -3,7 +3,7 @@ analyzed: '2026-08-08'
 assurance: sonnet
 name: LilyAna Naturals
 slug: lilyana-naturals
-status: draft
+status: published
 type: brand
 updated: '2026-08-08'
 ---
