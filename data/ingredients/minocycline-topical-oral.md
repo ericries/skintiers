@@ -1,9 +1,9 @@
 ---
 analyzed: '2026-08-08'
-assurance: sonnet
+assurance: opus
 name: Minocycline (topical foam and oral)
 slug: minocycline-topical-oral
-status: draft
+status: published
 type: ingredient
 updated: '2026-08-08'
 ---

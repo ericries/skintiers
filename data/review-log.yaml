@@ -2945,3 +2945,51 @@ retin-a-micro-tretinoin-gel-microsphere:
   verdict: revise-then-fixed
   note: |
     Opus focused review (2026-08-08) of Retin-A Micro draft: verified all product-specific facts against the FDA/DailyMed label (primary; cache miss, fetched fresh) — inactive-ingredient INCI list, indication sentence, four strengths, Rx-only, and the 6%/3%/1%/1.3% by-strength discontinuation stats all check out verbatim; no fragrance claim, no price/size, grades honestly route efficacy to [[tretinoin]] with no imported trial numbers, and the microsphere marketing claim is properly quarantined. Two non-verbatim quotes need surgical fixes (the reordered "apply a thin layer" dosage quote in body+footnote, and the "ultraviolet (UV) light"/truncation in the photosensitivity footnote); verdict revise.
+minocycline-topical-oral:
+  last_reviewed: '2026-08-08'
+  score: 10
+  verdict: publish
+  note: |
+    Opus re-fetched all five cited primaries (oral + AMZEEQ DailyMed labels, Cochrane 22895927, Gold et al JAAD 30165171, Zhu meta-analysis 40535003): every quoted phrase is verbatim and every stat checks out — Cochrane "no evidence superior"/lupus 8.8 per 100k/worse-than-doxycycline; AMZEEQ Cmax 1.3±0.6 ng/mL, lesion 44/43/54% vs 34/34/42%, IGA 8.1/15.8/30.8 vs 4.8/8.4/19.6, headache 3% vs 2%; JAAD IGA-significant-in-study-05-only, <1% skin AEs; Zhu minocycline 0.22%/doxy 2.44%/clinda 22.38%. Evidence is honest — efficacy not overstated, foam's inconsistent IGA endpoint and Foamix manufacturer funding disclosed, no aggregators load-bearing. Verdict: publish (only unverified item is the non-load-bearing "roughly equal-sized arms" descriptor for the third foam trial).
+pimecrolimus:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus verification: re-fetched all five cited primaries (Eichenfield 2002 PMID 11907497, Wahn 2002 PMID 12093983, Paller 2005 PMID 15858471, Margolis 2015 PMID 25692459, and the openFDA pimecrolimus label). Every quoted phrase is verbatim and every statistic (403/713/1,065/650 patients; flare-free and steroid-sparing percentages; head-to-head success rates and P-values; PEER 7,457 children / 26,792 person-years / SIRs 1.2, 2.9, 2.0; FDA boxed warning and infant AE rates) checks out; efficacy is honestly graded as weaker than tacrolimus and the malignancy signal is not overstated. Verdict revise: one surgical fix needed — disclose that the load-bearing Margolis/PEER malignancy study was a manufacturer-linked (Valeant co-author), FDA-mandated postmarketing registry.
+galactomyces-ferment-filtrate:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus re-fetched all five cited primaries (PubMed 36362566/34198790/36769815/33938432 directly; 36012891 via Europe PMC REST after PubMed and MDPI were reCAPTCHA/403-blocked) and confirmed every statistic (n=47/57, n=86/12mo, n=51 FST IV-V, 99 genes, P<0.05 results, hydration/TEWL) and the conflict-of-interest statements verbatim, plus that evidence is honestly framed as company-run and confounded with no independent GFF-isolating trial. One defect: the quoted phrase \"consistently modulated 99 genes\" silently drops the source's internal parenthetical, so it is not strictly verbatim. Verdict: revise (single surgical quote fix); all numbers and other quotes check out.
+beta-glucan:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus re-fetched all six cited PubMed primaries (Zykova 25411598, Medeiros 22942695, Jesenak 26654776, Majtan 29614757, Zulli 18505493, Fuste 30732776): every source quote is verbatim and every statistic (44%/17% P=0.03, 36/63 days P=0.130, 59%/37% P=0.09, 67.8%, VAS 1.68/1.95, EASI 1.57/1.85 P<0.001, sample sizes) checks out in its cited abstract, including 'placebo controlled studies' in the Zulli abstract. Evidence is honestly represented — manufacturer-run source, non-significant primary endpoint, and unblinded design are all disclosed and marketing claims are debunked. Revise (not flag): only minor framing fixes needed — 'concluding only that' overstates where the Zulli quote sits, and one line conflates the cultured-cell vs healthy-volunteer arms.
+allantoin:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus verification: re-fetched all three cited primaries (21 CFR 347.10 via govinfo; CIR final report PMID 20448269; Savic 2015 PMID 25880800). Every quoted phrase is verbatim and every stat (0.5-2%, 1376 products, up to 2%, 40/100 ug/ml, 3 and 7 days) is present in its cited source; efficacy is honestly framed as resting on a single study and marketing claims are called out as unproven rather than graded. Verdict revise: only issue is the unsourced/historically inaccurate 'originally isolated from the comfrey root' opening clause, a one-line surgical fix.
+gluconolactone-pha:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus focused verification re-fetched all five cited PubMed primaries: every load-bearing stat (n=11, 28+/-6, 8% AHAs, 5% SLS/6h, 16-woman split-face trials at 10%/30%, up to 50% UV protection) and every quote checked out verbatim EXCEPT the corneometric \"a statistically significant elevation\" (lines 13/22/43), which the source (PMID 33769633) actually renders as \"a significant increase in facial skin hydration.\" Evidence framing is honest (preliminary grades, single-trial and same-group caveats, UV claim quarantined as in vitro not SPF), though the industry (NeoStrata) affiliation of shared author B.A. Green on the two PHA-favorable sources is undisclosed. Verdict revise: fix the misquote, then publishable.
+naringenin:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus re-fetched all four cited PubMed primaries (Martinez 2016 PLoS One, Sajeeda 2024 J Photochem Photobiol B, Kim 2013 Life Sci, Cai 2023 Biomed Pharmacother). Every quote from Sajeeda, Kim, and Cai is verbatim and every stat/route (intraperitoneal one week, hairless/Balb/c mice, HDFs, cytokine and antioxidant markers) checks out; evidence is honestly framed as entirely preclinical with the clinical-data gap and marketing overreach correctly flagged. Verdict revise: one quotation on line 25, \"inhibited UVB-induced edema,\" is not verbatim (source says \"inhibiting edema\") and must be paraphrased or corrected before publish.
+feverfew-extract:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus verification: re-fetched all five cited primaries (Martin 2008 PMID 18071724, Sur 2009 PMID 19112586, Rodriguez 2013 PMID 24035441, Paulsen 2010 PMID 20690937, Michalak 2024 PMC11594288); every quoted phrase is verbatim and every stat (DPPH 84.09/69.54/64.73%, seven patients/four positive, up-to-85% sesquiterpene content) checks out, J&J developer affiliations and independent-source status confirmed, and efficacy is honestly bounded (single-lab, not rosacea; marketing claims debunked). Verdict revise for two surgical fixes: the unsourced \"patented\" assertion (abstracts support only \"developed\") and a Michalak quote attributed to parthenolide that the source applies to the sesquiterpene-lactone fraction.

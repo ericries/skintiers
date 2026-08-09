@@ -323,9 +323,10 @@
 - name: Minocycline (topical foam and oral)
   type: ingredient
   priority: 4
-  status: pending
+  status: done
   discovered_from: rosacea-papulopustular
   source: null
+  note: reconciled
 - name: Vitreoscilla filiformis lysate (postbiotic)
   type: ingredient
   priority: 5
@@ -342,9 +343,10 @@
 - name: Galactomyces ferment filtrate
   type: ingredient
   priority: 4
-  status: pending
+  status: done
   discovered_from: probiotics
   source: null
+  note: reconciled
 - name: Copper peptides (GHK-Cu / copper tripeptide-1)
   type: ingredient
   priority: 6
@@ -504,9 +506,10 @@
 - name: Pimecrolimus (topical calcineurin inhibitor, Elidel)
   type: ingredient
   priority: 4
-  status: pending
+  status: done
   discovered_from: null
   source: data/conditions/atopic-dermatitis.md
+  note: reconciled
 - name: Crisaborole (topical PDE4 inhibitor, Eucrisa)
   type: ingredient
   priority: 4
@@ -597,9 +600,10 @@
 - name: naringenin
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: prequel-skin-utility-gel
   source: null
+  note: reconciled
 - name: arbutin
   type: ingredient
   priority: 5
@@ -617,15 +621,17 @@
 - name: beta-glucan
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: glass-skin
   source: https://pubmed.ncbi.nlm.nih.gov/?term=beta-glucan+skin+hydration
+  note: reconciled
 - name: allantoin
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: panthenol
   source: https://pubchem.ncbi.nlm.nih.gov/compound/Allantoin
+  note: reconciled
 - name: clindamycin (topical)
   type: ingredient
   priority: 5
@@ -636,6 +642,7 @@
 - name: gluconolactone (PHA)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: anua-heartleaf-77-clear-pad
   source: https://pubmed.ncbi.nlm.nih.gov/?term=gluconolactone+PHA+skin
+  note: reconciled
