@@ -1,11 +1,58 @@
 ---
-analyzed: null
-assurance: stub
+analyzed: '2026-08-08'
+assurance: sonnet
 name: Diethylhexyl butamido triazone (Iscotrizinol)
 slug: iscotrizinol
-status: stub
+status: draft
 type: ingredient
 updated: '2026-08-08'
 ---
 
-Stub - to be researched and filled. Diethylhexyl butamido triazone (Iscotrizinol).
+Diethylhexyl butamido triazone (INCI; USAN Iscotrizinol) is an organic ultraviolet-B sunscreen filter sold under trade names including Uvasorb HEB (3V Sigma) and Neo Heliopan 310 (Symrise), authorized in the European Union at up to 10% and reported as approved up to that same 10% ceiling in Mercosur, ASEAN and China.[^cosing][^symrise] It is a triazine derivative that absorbs mainly in the UVB band, with an absorption peak near 310 nm from its three chromophore groups,[^symrise] the wavelengths chiefly responsible for sunburn and the DNA photodamage behind keratinocyte skin cancers, a mechanism explained on [[sunscreen-uv-filters]]. It does not appear among the 16 active ingredients in the current US over-the-counter sunscreen monograph, so it is not found in US-made sunscreens.[^cfr]
+
+> Diethylhexyl butamido triazone is an organic UVB filter authorized in the European Union at up to 10% and used in European and Asian sunscreens. Independent in vitro testing ranks it among the more effective UVB absorbers at its legal maximum concentration, and a photophysical study found it deactivates mostly through fluorescence rather than the reactive triplet-state pathways that generate singlet oxygen. It is a UVB filter, not a broad-spectrum one on its own, and it is absent from the US OTC sunscreen monograph.[^couteau][^tsuchiya][^symrise][^cfr]
+
+## The Rubric
+
+What is well supported: its UVB photoprotective efficacy has been measured independently. An in vitro comparison of 18 UV filters authorized in the EU, each tested at its own legal maximum concentration on PMMA plates, ranked diethylhexylbutamidotriazone at 12.58 on the study's ascending efficacy scale, above octocrylene (10.41) and octylmethoxycinnamate (10.42) and below isoamylparamethoxycinnamate (15.14) and bemotrizinol (20.0), and well above [[ethylhexyl-triazone]] (7.80) in the same ranking.[^couteau] Its photostability has a real mechanistic basis: a spectroscopic study of its excited states found the molecule deactivates predominantly by fluorescence, with only part of the excited population crossing to the triplet state, and it did not generate significant singlet oxygen, unlike some other organic filters.[^tsuchiya] Its presence in commercial products is documented too: a peer-reviewed HPLC method paper analyzing 23 commercial sunscreens for 16 UV filters included it by name, describing it as a "recent UV filter."[^kim]
+
+What is weaker or unverified: no clinical or DNA-damage-prevention trial specific to this filter was found; the demonstrated health benefit of sunscreen use (reduced sunburn and skin-cancer risk with regular broad-spectrum use) is a property of the practice, documented on [[sunscreen-uv-filters]], not a filter-specific finding for diethylhexyl butamido triazone. It is fundamentally a UVB absorber; trade-press coverage of Symrise's version describes it as "a new organic crystalline UVB filter," so a product's broad-spectrum (UVA) coverage comes from pairing it with a dedicated UVA filter such as [[avobenzone]] or [[bisoctrizole]], not from this ingredient alone.[^symrise] The claim that it is "one of the most photostable UVB filters on the market" comes from Symrise's own trade-press description of its version of the ingredient, not an independent head-to-head photostability measurement.[^symrise] The Couteau efficacy score of 12.58 is a single in vitro PMMA-plate study comparing each filter at its own regulatory maximum rather than an equal applied dose, so it is a formulation-level efficacy proxy, not a clinical SPF or UVA-PF measurement.
+
+## How It Works
+
+As a triazine-based organic filter, diethylhexyl butamido triazone absorbs UV photons and releases the energy rather than scattering light the way mineral filters do. Spectroscopic work on its excited states found the dominant decay pathway in ethanol is fluorescence, with only part of the excited-state population crossing to the longer-lived triplet state; the same study found it "did not exhibit significantly antioxidative properties by quenching singlet oxygen," meaning it functions as a UV absorber rather than an antioxidant.[^tsuchiya] This low tendency to generate reactive triplet and singlet-oxygen species is the photochemical basis for describing it as photostable, though the study did not report a comparative photostability metric (such as percentage SPF retained over time) against other filters.
+
+## The Evidence
+
+**UVB efficacy.** Couteau and colleagues tested 18 UV filters authorized in the European Union, each at its own legal maximum concentration, using an in vitro SPF method on PMMA plates. Ranked in ascending order of efficacy, diethylhexylbutamidotriazone scored 12.58, placing it above octocrylene (10.41) and octylmethoxycinnamate (10.42), and below isoamylparamethoxycinnamate (15.14) and anisotriazine/bemotrizinol (20.0).[^couteau]
+
+**Photophysics and photostability.** Tsuchiya and colleagues measured the UV absorption, fluorescence, phosphorescence and triplet-triplet absorption of diethylhexylbutamido triazone (DBT) and ethylhexyl triazone (EHT) in ethanol. They found that "the deactivation process of EHT and DBT is predominantly fluorescence," though "a significant portion of the S1 molecules undergoes intersystem crossing to the T1 state," and reported that "EHT and DBT did not exhibit significantly antioxidative properties by quenching singlet oxygen."[^tsuchiya]
+
+**Real-world use.** Kim and colleagues developed an HPLC method to quantify 16 UV filters simultaneously, describing "diethylhexyl butamidotriazone (USAN Iscotrizinol)" among the "recent UV filter[s]" covered, and applied the method to 23 commercial sunscreens from local markets.[^kim]
+
+**Regulatory status.** The ingredient is listed in Annex VI (permitted UV filters) of EU Cosmetics Regulation 1223/2009 as entry 17, CAS 154702-15-5, at a maximum concentration of 10% in the ready-to-use product.[^cosing] Trade press covering Symrise's version of the same INCI ("INCI: Diethylhexyl Butamido Triazone") reports it "approved for use at up to 10% in sun care and skin care products in the European Union, Mercosur, ASEAN, and China."[^symrise] It is not among the 16 sunscreen active ingredients (aminobenzoic acid, avobenzone, cinoxate, dioxybenzone, homosalate, menthyl anthranilate, octocrylene, octyl methoxycinnamate, octyl salicylate, oxybenzone, padimate O, phenylbenzimidazole sulfonic acid, sulisobenzone, titanium dioxide, trolamine salicylate, zinc oxide) listed in the current US Code of Federal Regulations sunscreen monograph.[^cfr]
+
+## Uses
+
+Used as the UVB component of broad-spectrum sunscreen formulations sold in the European Union and parts of Asia, typically alongside a dedicated UVA filter such as [[avobenzone]] or [[bisoctrizole]], since it does not by itself extend coverage into UVA.[^symrise][^couteau] It is not available in US-marketed sunscreens because it is outside the FDA's OTC monograph.[^cfr]
+
+## Common Marketing Claims
+
+This section is quarantined and discounted; treat everything here as unproven or overstated unless it appears in The Evidence above.
+
+- **"Broad-spectrum protection."** Trade press covering the ingredient describes it as "a new organic crystalline UVB filter"; on its own it does not provide UVA coverage, and a product's broad-spectrum status comes from pairing it with a dedicated UVA filter such as [[avobenzone]] or [[bisoctrizole]].[^symrise]
+- **"One of the most photostable UVB filters on the market."** That specific superlative is Symrise's own trade-press description of its version of the ingredient, not an independent comparative photostability measurement.[^symrise] The photostability case that is independently supported is mechanistic: excited-state deactivation runs predominantly through fluorescence rather than the reactive triplet-state pathways linked to photodegradation.[^tsuchiya]
+- **"FDA-approved sunscreen filter."** It is authorized in the EU at up to 10%, but it is absent from the 16 active ingredients in the current US Code of Federal Regulations sunscreen monograph.[^cfr]
+
+## See Also
+
+[[sunscreen-uv-filters]] [[ethylhexyl-triazone]] [[avobenzone]] [[bisoctrizole]]
+
+## Sources
+
+[^couteau]: Couteau C, Pommier M, Paparis E, Coiffard LJ. Study of the efficacy of 18 sun filters authorized in European Union tested in vitro. Pharmazie, 2007;62(6):449-452. Ascending-efficacy ranking including "diethylhexylbutamidotriazone (12.58)", "octocrylene (10.41)", "octylmethoxycinnamate (10.42)", "isoamylparamethoxycinnamate (15.14)" and "anisotriazine (20.0)" verified against the abstract. https://pubmed.ncbi.nlm.nih.gov/17663193/ (accessed 2026-08-08)
+[^tsuchiya]: Tsuchiya T, Kikuchi A, Oguchi-Fujiyama N, Miyazawa K, Yagi M. Photoexcited triplet states of UV-B absorbers: ethylhexyl triazone and diethylhexylbutamido triazone. Photochemical and Photobiological Sciences, 2015;14(4):807-814. Quotations ("the deactivation process of EHT and DBT is predominantly fluorescence"; "a significant portion of the S1 molecules undergoes intersystem crossing to the T1 state"; "EHT and DBT did not exhibit significantly antioxidative properties by quenching singlet oxygen") verified against the abstract. https://pubmed.ncbi.nlm.nih.gov/25653197/ (accessed 2026-08-08)
+[^kim]: Kim D, Kim S, Kim SA, Choi M, Kwon KJ, Kim M, Kim DS, Kim SH, Choi BK. Simultaneous analysis and monitoring of 16 UV filters in cosmetics by high-performance liquid chromatography. Journal of Cosmetic Science, 2012;63(3):167-183. Describes "diethylhexyl butamidotriazone (USAN Iscotrizinol)" as a "recent UV filter" among 16 filters analyzed in 23 commercial sunscreens, verified against the abstract. https://pubmed.ncbi.nlm.nih.gov/22591562/ (accessed 2026-08-08)
+[^cfr]: US Code of Federal Regulations, Title 21, Section 352.10 (Sunscreen drug products for over-the-counter human use; active ingredients). Lists 16 permitted actives (aminobenzoic acid, avobenzone, cinoxate, dioxybenzone, homosalate, menthyl anthranilate, octocrylene, octyl methoxycinnamate, octyl salicylate, oxybenzone, padimate O, phenylbenzimidazole sulfonic acid, sulisobenzone, titanium dioxide, trolamine salicylate, zinc oxide); diethylhexyl butamido triazone/iscotrizinol/Uvasorb HEB is absent. https://www.govinfo.gov/content/pkg/CFR-2023-title21-vol5/xml/CFR-2023-title21-vol5-sec352-10.xml (accessed 2026-08-08)
+[^cosing]: CosIng Checker. EU Cosmetics Regulation 1223/2009, Annex VI, entry 17: Diethylhexyl Butamido Triazone, CAS 154702-15-5, maximum concentration in ready-to-use product 10%. https://cosingchecker.com/annex/vi/vi-17-diethylhexyl-butamido-triazone/ (accessed 2026-08-08)
+[^symrise]: Premium Beauty News. Neo Heliopan 310: Symrise's new high UVB absorption filter. Reports "INCI: Diethylhexyl Butamido Triazone", an absorption peak "of 310 nm due to its three chromophore groups", the description "one of the most photostable UVB filters on the market", and approval "at up to 10% in sun care and skin care products in the European Union, Mercosur, ASEAN, and China." https://www.premiumbeautynews.com/en/neo-heliopan-310-symrise-s-new,26006 (accessed 2026-08-08)

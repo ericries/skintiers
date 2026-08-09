@@ -2705,3 +2705,51 @@ prequel-urea-repair-10-moisturizing-milk:
   verdict: revise-then-fixed
   note: |
     Opus focused review 2026-08-08: verified all product-specific facts against cached Prequel PDP + Target listing. Composition/full 24-item INCI (PDP), 10% urea, $22.00/$21.99 at 13.5 fl oz / 400 mL, fragrance-free status, and every quoted phrase ("Urea Advanced Relief Moisturizing Milk," "a restoring face and body urea lotion...," "Clinically tested 24 hour moisture," the derm/eczema seal claims, directions) all check out verbatim; grades honestly route general evidence to [[moisturizing]] with no imported trial numbers and the 24-hour-moisture stat properly quarantined. Verdict revise (not flag): no fabrication, but three citation-attribution fixes needed — the founder claim is cited to [^pdp] (which lacks it; it belongs to [[prequel]]), "fragrance-free" needs the [^target] citation, and the full-INCI header over-cites [^target] which only lists key ingredients.
+supergoop-unseen-sunscreen-spf-50:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus focused review (2026-08-08) verified product-specific facts against cached sources: actives (avobenzone 3%, homosalate 7%, octisalate 5%, octocrylene 9%), full 18-item inactive INCI, Broad Spectrum SPF 50, Supergoop base price $19 with 0.68/1.7/2.5 fl oz sizes, and Target 1.7 fl oz $38.00 ($22.35/fl oz) all check out; grades route general efficacy to [[sunscreen-uv-filters]] with no imported trial numbers. Verdict revise: no fabricated product fact, but several quotes/claims (water-resistance phrase, non-acnegenic, invisibility trio, no-fragrance) and the SPF 40 4% octocrylene figure are misattributed to sources that don't contain them, plus one near-verbatim punctuation slip. Fixes are surgical citation/verbatim corrections.
+torriden-dive-in-low-molecular-hyaluronic-acid-serum:
+  last_reviewed: '2026-08-08'
+  score: 10
+  verdict: publish
+  note: |
+    Opus focused product-fact review against cached sources: verified the full 33-ingredient INCI and ingredient order (glycerin 3rd, ahead of all five hyaluronate forms; ceramide/cholesterol block at positions 18-23) against both the Torriden and YesStyle caches, plus price/size ($24.00, 50 mL / 1.69 fl oz, Torriden US, dated 2026-08-07), every quoted phrase verbatim, and confirmed all brand-run moisture percentages/sample sizes are single-sourced and correctly quarantined as marketing claims with no trial numbers imported into the grades. Efficacy is routed out to the ingredient pages; no non-verbatim quotes, unsourced figures, or overstatements found. Verdict: publish.
+aveeno-calm-restore-oat-gentle-cleanser:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus focused review (2026-08-08) verified all product-specific facts against the cached Target listing: full 16-ingredient INCI list and order, price $9.99 / 7.8 fl oz, fragrance-free and free-of claims, and every quoted phrase; the "70-years" brand stat is properly quarantined and no ingredient-trial numbers are imported (efficacy routed out to [[colloidal-oatmeal]]/[[glycerin]]/[[hyaluronic-acid]]). One non-verbatim quote found ("lift away" should be "lifts away" per source); all else checks out, so verdict is revise pending that one-word fix.
+mirvaso-brimonidine-gel:
+  last_reviewed: '2026-08-08'
+  score: 10
+  verdict: publish
+  note: |
+    Opus focused review of mirvaso-brimonidine-gel (draft): verified all product-specific facts against the FDA/DailyMed prescribing information (cache miss; freshly fetched via WebFetch). Concentration (0.33%/3.3mg free base), Rx-only status, full inactive-ingredient INCI list, dosing, adverse reactions, the "diminish hours after application" and rebound quotes, and the product's own registration-trial numbers (553 enrolled; 31%/11% and 25%/9% composite success at hour 3 day 29) all check out verbatim; general/comparative evidence is correctly routed to the brimonidine ingredient page, grades are honest, and no price or marketing stat is fabricated. Verdict: publish.
+renova-tretinoin-0-02-cream:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus focused review of renova-tretinoin-0-02-cream.md (draft) verified all product-specific facts against the FDA/DailyMed Renova 0.02% label (cache miss; re-fetched via WebFetch): indication quote, full INCI list, tretinoin 0.02% strength, five-trial 324/332 24-week program and all graded fine-wrinkle percentages (60% vs 39%), the "no two of the five trials" and all-caps "DOES NOT ELIMINATE WRINKLES" quotes, the N=107 darkly-pigmented 43%/29% figures, Rx-only status with no public price, sizes (20/40/60 g tubes + 44 g pump, dated 2026-08-07), directions, and pregnancy statement — all confirmed verbatim/accurate with no imported trial numbers or marketing stats. Verdict: revise — one surgical fix, the line-46 darkly-pigmented quote uses an ellipsis that reorders the source phrase "demonstrated minimal or mild improvement" (figures are correct; reorder the quote to match source).
+paulas-choice-10-niacinamide-booster:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus focused product-fact review (2026-08-08) against both cached sources (Paula's Choice UK m7980 + Dermstore 11316245): every quoted phrase (tagline, directions, "enlarged pores..." description) verified verbatim, $53.00/20ml/0.67oz price and size confirmed and dated, fragrance-free supported by INCI absence, full ingredient list and the Ubiquinone/EDTA-vs-DISS list-difference claim all corroborated, and grades correctly route trial numbers out to [[niacinamide]] with no imported figures. Verdict revise: ascorbyl glucoside is the 4th INCI ingredient, not "listed second," and the $53.00 is Dermstore's US price (Paula's Choice UK lists £52.00), so line 43's attribution needs a small wording fix; both are surgical, no fabrication.
+geek-gorgeous-b-bomb-10-niacinamide:
+  last_reviewed: '2026-08-08'
+  score: 10
+  verdict: publish
+  note: |
+    Opus focused product-fact review against the cached Geek & Gorgeous brand page (research-cache/web/a87c2b0d9f6d60a0.md): verified full 11-item INCI (all present, none added/dropped), niacinamide stated at 10%, EUR 8.50 / 30 ml price and size, fragrance-free status (claimed + no parfum in INCI), zinc PCA and sarcosine correctly left concentration-undisclosed, and both marketing quotes plus the directions quote verbatim in-source. The single-source manufacturer price is honestly quarantined as uncorroborated, and the grades route general niacinamide evidence to [[niacinamide]] with no product-specific trial numbers imported. Verdict: publish.
+dr-jart-ceramidin-cream:
+  last_reviewed: '2026-08-08'
+  score: 10
+  verdict: publish
+  note: |
+    Opus focused review verified all product-specific facts against the cached Target listing (key d22b7dd84c4c37b2): title, 1.69 oz size, price $51.99/reg $68.00, the five named ceramides plus panthenol and hyaluronic acid, and every quoted marketing phrase are verbatim in the source, and the source confirms no INCI list is published. Grades are honest, general ceramide/HA efficacy is routed out to ingredient pages with no imported trial numbers, and marketing claims are quarantined rather than asserted. Verdict: publish; only non-blocking polish notes are the accessed-date 2026-08-07 vs cache 2026-08-08 and the page's silence on the listing's "Scent: Fresh."

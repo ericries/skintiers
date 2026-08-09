@@ -1,11 +1,58 @@
 ---
-analyzed: null
-assurance: stub
+analyzed: '2026-08-08'
+assurance: sonnet
 name: Argireline (acetyl hexapeptide-8)
 slug: argireline-acetyl-hexapeptide-8
-status: stub
+status: draft
 type: ingredient
 updated: '2026-08-08'
 ---
 
-Stub - to be researched and filled. Argireline (acetyl hexapeptide-8).
+Argireline is the trademarked name for acetyl hexapeptide-8 (Ac-EEMQRR-NH2), a synthetic six-amino-acid peptide added to leave-on serums and marketed as a needle-free "topical Botox" that relaxes expression lines. Its developers reported it interferes with the same nerve-signaling machinery botulinum toxin blocks, but an independent US government toxicology study found almost none of the peptide gets past the skin's outer layer, leaving that neuromuscular mechanism largely unconfirmed even as small trials report a modest reduction in surface wrinkle depth.
+
+> In the lab and in a small trial run by the peptide's own developers, a 10% Argireline emulsion "reduced wrinkle depth up to 30% upon 30 days treatment" and blocked neurotransmitter release in cultured cells "with a potency similar to that of BoNT A," though "much lower efficacy than the neurotoxin."[^blanesmira] An independent randomized trial in 60 people found a smaller but still measurable effect on peri-orbital wrinkles.[^wang] Whether either effect comes from actual neuromuscular relaxation is doubtful: applying the same 10% concentration to human skin in diffusion cells, FDA toxicologists found only 0.22% of the peptide reached the stratum corneum and none reached the dermis, and a 2025 review concluded the peptide's "ability... to reach neuromuscular junctions remains uncertain."[^kraeling][^zdrada]
+
+## The Rubric
+
+**Wrinkle-depth reduction (topical, cosmetic)**
+- Effect size: modest and cosmetic. In the peptide's originating study, a 10% Argireline oil/water emulsion "reduced wrinkle depth up to 30% upon 30 days treatment" in women volunteers, alongside cell-based evidence that it inhibits neurotransmitter release "with a potency similar to that of BoNT A" but with "much lower efficacy."[^blanesmira] An independent double-blind, placebo-controlled RCT in 60 Chinese subjects reported "the total anti-wrinkle efficacy in the argireline group was 48.9%, compared with 0% in the placebo group" after four weeks of twice-daily use on peri-orbital wrinkles, with instrument-measured skin roughness "decreased in the argireline group (p<0.01)" but not in the placebo group.[^wang] "Modest and cosmetic: a measured reduction in wrinkle depth and roughness in two small trials, well short of the near-paralytic effect of injected botulinum toxin the marketing invokes."
+- Evidence quality: preliminary. The foundational 30%-reduction figure comes from the paper that also coins the Argireline trademark, i.e. the peptide's own developers, and its abstract does not report how many women were tested.[^blanesmira] The independent Wang trial is small (60 subjects, randomized 3:1 to argireline versus placebo) and its abstract does not disclose funding.[^wang]
+
+**The "topical Botox" neuromuscular mechanism**
+- Effect size: unconfirmed. The wrinkle-depth benefit above rests on a botulinum-toxin-mimicking mechanism, interference with the SNARE complex that drives neurotransmitter release, demonstrated only in cultured cells, not in human skin.[^blanesmira] When FDA toxicologists applied the same 10% peptide formulation to hairless guinea pig and human cadaver skin for 24 hours, only 0.54% (guinea pig) and 0.22% (human) of the applied dose reached the stratum corneum, epidermal levels were 0.01% in both, and no peptide reached the dermis or the receptor fluid beneath it, where the nerve-muscle junctions the marketing invokes actually sit.[^kraeling] A 2025 review of the peptide's structure and delivery found that, "due to its hydrophilic nature and relatively large molecular size," it "faces limited permeability through the lipophilic stratum corneum," that its "ability... to reach neuromuscular junctions remains uncertain," and that the biology behind its cosmetic effects "remain[s] incompletely understood."[^zdrada] "Unconfirmed: the only independent, non-manufacturer test of whether the peptide actually reaches its claimed target found that it essentially does not."
+- Evidence quality: contradicted by independent penetration data. The efficacy trials measure surface wrinkle depth and roughness, not confirmed delivery to a neuromuscular junction; the one independent, government-run test of that delivery step found it does not happen in any meaningful amount.[^kraeling][^zdrada]
+
+## How It Works
+
+Argireline was designed to imitate part of the SNARE complex, the protein assembly a nerve terminal needs to fuse vesicles and release neurotransmitter. Its developers report it "significantly inhibited neurotransmitter release with a potency similar to that of BoNT A" in vitro, through "the interference of the hexapeptide with the formation and/or stability" of that complex, though "as expected, it displayed much lower efficacy than the neurotoxin" itself.[^blanesmira] Injected botulinum toxin acts directly at the neuromuscular junction; Argireline is applied to the skin surface, and the independent FDA penetration data indicate it barely leaves the stratum corneum, let alone reaches that junction.[^kraeling] The 2025 Cosmetic Ingredient Review Expert Panel opinion, assessing the same molecule as "Acetyl Hexapeptide-8 Amide" (Ac-EEMQRR-NH2's formal amide-terminated structure), found it "safe in cosmetics in the present practices of use at concentrations up to 0.005%" and said "the available data are insufficient to make a determination" above that level.[^cir] 0.005% is a small fraction of the 10% single-peptide concentration used in the trials behind the "up to 30%" wrinkle-depth figure.[^blanesmira][^cir]
+
+Cosmetic peptides as a class have a modest, mostly preliminary effect on the appearance of aging that is larger for ingested than for topical forms; see [[peptides]]. Within the broader field of anti-aging interventions ranked by demonstrated effect on skin structure, sunscreen and prescription retinoids sit well above any peptide, topical Argireline included; see [[anti-aging]].
+
+## The Evidence
+
+**Foundational developer study.** Blanes-Mira and colleagues, working from Universidad Miguel Hernández and coining the Argireline trademark in the same paper, tested Ac-EEMQRR-NH2 in cultured cells and in a topical human trial. In vitro, "Argireline significantly inhibited neurotransmitter release with a potency similar to that of BoNT A." In skin-topography analysis of a 10% oil/water emulsion applied to healthy women volunteers, the treatment "reduced wrinkle depth up to 30% upon 30 days treatment," and the peptide "did not exhibit in vivo oral toxicity nor primary irritation at high doses."[^blanesmira] *A cell-culture mechanism plus a small, developer-run human trial reporting up to 30% wrinkle-depth reduction; sample size is not stated in the published abstract.*
+
+**Independent randomized trial.** Wang and colleagues, at the Second Hospital of Xi'an Jiaotong University, randomized 60 subjects 3:1 to twice-daily argireline or placebo on peri-orbital wrinkles for four weeks in a double-blind design. "The total anti-wrinkle efficacy in the argireline group was 48.9%, compared with 0% in the placebo group" by clinical grading, and instrument-measured roughness parameters "were all decreased in the argireline group (p<0.01), while no decrease was obvious in the placebo group (p>0.05)."[^wang] *An independent placebo-controlled trial confirms a measurable reduction in wrinkle depth and skin roughness, though the trial does not test whether the effect comes from the claimed neuromuscular mechanism.*
+
+**Independent skin-penetration study.** Kraeling and colleagues, at the US FDA's Center for Food Safety and Applied Nutrition, applied a 10% acetyl hexapeptide-8 emulsion (2 mg/cm²) to hairless guinea pig and human cadaver skin in diffusion cells for 24 hours, then measured peptide distribution by tape stripping. Only 0.54% of the applied dose was recovered in guinea pig stratum corneum and 0.22% in human stratum corneum; epidermal levels were 0.01% in both; no peptide reached the dermis or the receptor fluid beneath it, and no metabolite was detected.[^kraeling] *At the same 10% concentration used in the efficacy trials, essentially none of the peptide penetrated past the outermost skin layer.*
+
+**2025 review of structure, delivery and efficacy.** Zdrada-Nowak and colleagues reviewed acetyl hexapeptide-8's mechanism and penetration data. They wrote that, "due to its hydrophilic nature and relatively large molecular size, AH-8 faces limited permeability through the lipophilic stratum corneum, making effective dermal delivery challenging," that "the ability of AH-8 to reach neuromuscular junctions remains uncertain," and that "preclinical and clinical studies indicate that AH-8 may reduce wrinkle depth, improve skin elasticity, and enhance hydration," while the mechanism behind those effects "remain[s] incompletely understood."[^zdrada] *An independent 2025 review accepts the reported cosmetic outcomes but says the peptide's own claimed route to producing them is unconfirmed.*
+
+**Safety and concentration of use.** The Cosmetic Ingredient Review Expert Panel's 2025 opinion on "Acetyl Hexapeptide-8 Amide" concluded it "is safe in cosmetics in the present practices of use at concentrations up to 0.005%" and that "the available data are insufficient to make a determination" of safety above that concentration.[^cir] *The concentration cosmetic products are typically formulated and reviewed at (0.005%) is roughly 2,000 times lower than the 10% single-peptide concentration used in the developer and independent wrinkle trials.*
+
+## Common Marketing Claims
+
+- **"Topical Botox" / reduces wrinkles like injectable botulinum toxin.** Reviews describe Argireline as "often referred to as a 'botox-like' peptide."[^zdrada] Its developers found it inhibits neurotransmitter release in cultured cells with potency comparable to botulinum toxin A, but "much lower efficacy" than the actual neurotoxin,[^blanesmira] and the independent FDA study found the peptide does not meaningfully penetrate past the stratum corneum when applied to skin, with no peptide reaching the dermis, where a neuromuscular junction would be.[^kraeling]
+- **Reduces wrinkle depth by up to 30%.** This figure comes from a single developer-run trial of a 10% single-peptide emulsion, with no sample size reported in the published abstract.[^blanesmira] An independent trial found a smaller subjective effect (48.9% "total anti-wrinkle efficacy" versus 0% for placebo) at an unspecified concentration.[^wang]
+
+## See Also
+
+[[peptides]] [[anti-aging]]
+
+## Sources
+
+[^blanesmira]: Blanes-Mira C, Clemente J, Jodas G, et al. A synthetic hexapeptide (Argireline) with antiwrinkle activity. International Journal of Cosmetic Science, 2002;24(5):303-310. https://pubmed.ncbi.nlm.nih.gov/18498523/ (accessed 2026-08-08)
+[^wang]: Wang Y, Wang M, Xiao S, Pan P, Li P, Huo J. The anti-wrinkle efficacy of argireline, a synthetic hexapeptide, in Chinese subjects: a randomized, placebo-controlled study. American Journal of Clinical Dermatology, 2013;14(2):147-153. https://pubmed.ncbi.nlm.nih.gov/23417317/ (accessed 2026-08-08)
+[^kraeling]: Kraeling ME, Zhou W, Wang P, Ogunsola OA. In vitro skin penetration of acetyl hexapeptide-8 from a cosmetic formulation. Cutaneous and Ocular Toxicology, 2015;34(1):46-52. https://pubmed.ncbi.nlm.nih.gov/24754410/ (accessed 2026-08-08) [US FDA CFSAN Division of Toxicology; independent of the ingredient's manufacturers.]
+[^zdrada]: Zdrada-Nowak J, Surgiel-Gemza A, Szatkowska M. Acetyl Hexapeptide-8 in Cosmeceuticals - A Review of Skin Permeability and Efficacy. International Journal of Molecular Sciences, 2025. https://pubmed.ncbi.nlm.nih.gov/40565185/ (accessed 2026-08-08)
+[^cir]: Johnson W Jr, Bergfeld WF, Belsito DV, et al. Safety Assessment of Acetyl Hexapeptide-8 Amide as Used in Cosmetics. International Journal of Toxicology, 2025. https://pubmed.ncbi.nlm.nih.gov/40673537/ (accessed 2026-08-08) [Cosmetic Ingredient Review Expert Panel for Cosmetic Ingredient Safety.]

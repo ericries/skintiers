@@ -668,9 +668,10 @@
 - name: Dr. Jart+ Ceramidin Cream
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://www.drjart.com
+  note: reconciled
 - name: Skinfix Barrier+ Triple Lipid-Peptide Cream
   type: product
   priority: 4
@@ -680,9 +681,10 @@
 - name: MetroGel (metronidazole 1% gel, Galderma)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: data/ingredients/metronidazole.md
+  note: published as metrogel-metronidazole-1-gel
 - name: SKIN1004 Madagascar Centella Asiatica 100 Ampoule
   type: product
   priority: 6
@@ -734,9 +736,10 @@
 - name: Neutrogena Hydro Boost Gel-Cream (fragrance-free, for dry skin)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://www.neutrogena.com
+  note: published as neutrogena-hydro-boost-gel-cream-fragrance-free
 - name: Renova (tretinoin 0.02% emollient cream, photoaging-indicated)
   type: product
   priority: 5
@@ -752,9 +755,10 @@
 - name: Aveeno Calm + Restore Oat Gentle Cleanser
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: data/lists/best-gentle-cleansers-sensitive-skin.md
+  note: reconciled
 - name: Cetaphil Gentle Foaming Cleanser
   type: product
   priority: 4
@@ -783,9 +787,10 @@
 - name: Torriden Dive-In Low Molecular Hyaluronic Acid Serum
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: data/goals/glass-skin.md
+  note: reconciled
 - name: Round Lab Birch Juice Moisturizing Sunscreen
   type: product
   priority: 4
@@ -813,21 +818,24 @@
 - name: Naturium Niacinamide Serum 12% Plus
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://www.naturium.com/products/niacinamide-serum-12-plus
+  note: published as naturium-niacinamide-serum-12-zinc-2
 - name: Paula's Choice 10% Niacinamide Booster
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://www.paulaschoice.com/10-niacinamide-booster/2130.html
+  note: reconciled
 - name: Geek & Gorgeous B-Bomb 10% Niacinamide
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://geekandgorgeous.com/products/b-bomb
+  note: reconciled
 - name: Vanicream Facial Moisturizer Broad Spectrum SPF 30
   type: product
   priority: 5
