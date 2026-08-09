@@ -663,3 +663,17 @@
   status: pending
   discovered_from: libecco-2026-clascoterone
   source: https://pubmed.ncbi.nlm.nih.gov/41642149/
+- name: Acetyl zingerone
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: afzal-2024-thd-trial
+  source: 'Afzal 2024 (PMID 38525606) + Meyer review: the antioxidant that improved
+    outcomes where THD-ascorbate-alone did not; emerging stabilizing active'
+- name: Polydeoxyribonucleotide (PDRN)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: chemist-confessions
+  source: 'Chemist Confessions IOPE Stem 3 review: salmon-PDRN active with a split-face
+    clinical vs injection; trending repair ingredient'
