@@ -1,10 +1,10 @@
 ---
 analyzed: '2026-08-08'
-assurance: sonnet
+assurance: opus
 name: 'Systematic review of antibiotic resistance in acne: an increasing topical and
   oral threat'
 slug: walsh-2016-antibiotic-resistance-acne
-status: draft
+status: published
 type: study
 updated: '2026-08-08'
 ---

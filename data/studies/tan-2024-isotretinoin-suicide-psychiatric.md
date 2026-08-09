@@ -3,7 +3,7 @@ analyzed: '2026-08-08'
 assurance: sonnet
 name: 'Risk of Suicide and Psychiatric Disorders Among Isotretinoin Users: A Meta-Analysis'
 slug: tan-2024-isotretinoin-suicide-psychiatric
-status: draft
+status: published
 type: study
 updated: '2026-08-08'
 ---

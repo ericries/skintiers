@@ -4,7 +4,7 @@ assurance: sonnet
 name: 'Prevention of non-melanoma skin cancer in organ transplant patients by regular
   use of a sunscreen: a 24 months, prospective, case-control study'
 slug: ulrich-2009-transplant-nmsc-sunscreen
-status: draft
+status: published
 type: study
 updated: '2026-08-08'
 ---

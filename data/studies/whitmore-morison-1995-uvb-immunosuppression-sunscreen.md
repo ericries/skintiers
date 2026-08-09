@@ -4,7 +4,7 @@ assurance: sonnet
 name: Prevention of UVB-induced immunosuppression in humans by a high sun protection
   factor sunscreen
 slug: whitmore-morison-1995-uvb-immunosuppression-sunscreen
-status: draft
+status: published
 type: study
 updated: '2026-08-08'
 ---

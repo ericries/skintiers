@@ -1,10 +1,10 @@
 ---
 analyzed: '2026-08-08'
-assurance: sonnet
+assurance: opus
 name: 'Evaluation of the efficacy of cysteamine 5% cream in the treatment of epidermal
   melasma: a randomized double-blind placebo-controlled trial'
 slug: mansouri-2015-cysteamine-melasma-rct
-status: draft
+status: published
 type: study
 updated: '2026-08-08'
 ---

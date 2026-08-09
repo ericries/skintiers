@@ -5,7 +5,7 @@ name: Toxicopathological Effects of the Sunscreen UV Filter, Oxybenzone (Benzoph
   on Coral Planulae and Cultured Primary Cells and Its Environmental Contamination
   in Hawaii and the U.S. Virgin Islands
 slug: downs-2016-oxybenzone-coral-toxicity
-status: draft
+status: published
 type: study
 updated: '2026-08-08'
 ---

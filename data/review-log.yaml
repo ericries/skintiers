@@ -3179,3 +3179,51 @@ simpson-2014-emollient-atopic-dermatitis-prevention:
   verdict: revise-then-fixed
   note: |
     Opus re-fetched PubMed abstract PMID 25282563: confirmed design (multicenter US/UK RCT), n=124 high-risk neonates, the "forty-two percent" randomization phrase, intervention (full-body emollient >=1x/day within 3 weeks of birth), and the verbatim primary result (RR 0.50; 95% CI 0.28-0.9; P=.017); no fabricated numbers and abstract-only access correctly disclosed. Two fixable issues: the adverse-events sentence is quoted non-verbatim (drops leading "There were"), and follow-up duration is wrongly listed as unverifiable when the abstract reports a 6-month follow-up. Verdict: revise.
+tan-2024-isotretinoin-suicide-psychiatric:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Re-fetched PubMed abstract PMID 38019562 (JAMA Dermatol 2024;160(1):54-62) via WebFetch and confirmed every number (25/24 studies, 1,625,891 participants, <0.5% one-year suicide-related risks, depression 3.83% [95% CI 2.45-5.93; I2=77%], all-psychiatric RR 1.08 [95% CI 0.99-1.19; I2=0%], suicide-attempt RR 0.92/0.86/0.85 at 2/3/4y) plus methods (Newcastle-Ottawa Scale, inverse variance-weighted pooling, four databases from inception to Jan 24 2023) are genuinely in the abstract; no fabricated figures and abstract-only disclosure is present. Two minor fixes: one in-quote sentence drops '; I2 = 0%' inside its parenthetical, and 'average' age range is an unsupported qualifier. Verdict: revise (both surgical, no load-bearing number fabricated).
+downs-2016-oxybenzone-coral-toxicity:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus re-fetched PMID 26487337 abstract: all quoted figures (planula LC50 3.1 mg/L & 139 µg/L light, 16.8 mg/L & 779 µg/L dark; deformity EC20 6.5/10 µg/L; cell LC50 8-340 µg/L; cell LC20 0.062-8 µg/L; env 75 µg/L-1.4 mg/L USVI, 0.8-19.2 µg/L Hawaii) are verbatim-correct, and abstract-only disclosure plus link-out discipline hold. Two fixable defects: species count misstated as 'six additional' vs abstract's 'seven other coral species,' and an interpretation error claiming the 6.5-10 µg/L EC20 'falls within' the 75 µg/L-1.4 mg/L USVI range when it is below it. Verdict: revise (no fabricated source numbers).
+huang-2025-tretinoin-meta-analysis-photodamage:
+  last_reviewed: '2026-08-08'
+  score: 10
+  verdict: publish
+  note: |
+    Opus re-fetched PMID 41236273 via WebFetch and verified all four quoted phrases verbatim (median age range/follow-up, fine-wrinkle MD 0.412 CI 0.233-0.590 P<0.001, coarse-wrinkle MD 0.245 CI 0.119-0.370 P<0.001, and the authors' safe/effective conclusion) and every number (8 trials, 1,361 patients, ages 29-76, 16 wk-2 yr) against the abstract; no fabricated effect size, and design/population/comparator match. Abstract-only access is disclosed and negative claims (no I²/heterogeneity, no safety data, no grading scale) are accurate; link-out discipline respected. Verdict: publish (only a non-blocking citation nit — "Huang et al." for a two-author paper, Huang & Lee).
+whitmore-morison-1995-uvb-immunosuppression-sunscreen:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus re-fetched PubMed abstract PMID 7574828 (Arch Dermatol 1995;131(10):1128-33) via WebFetch and verified every quote and number: n=29 (19 irradiated + 10 controls), SPF 29 filters, 3 MED UVB x3 days, P<=.008, P>=.53, and abstract-only disclosure all check out. Revise (not publish): the page truncates the key result quote and asserts UVB 'significantly suppressed... at every challenge dose tested', but the abstract explicitly exempts the highest dose (12.5 ug) and reports four challenge doses, not three — an overstated scope claim and misleading quote truncation that are surgically fixable.
+weiss-1988-tretinoin-photoaged-skin:
+  last_reviewed: '2026-08-08'
+  score: 10
+  verdict: publish
+  note: |
+    Opus re-fetched PubMed abstract (PMID 3336176) and verified all four quoted phrases verbatim and every figure (n=30 completers, 14/15=93% face improvement, 0/15 vehicle, 100%/0% forearm, 16 weeks) as genuinely present; design (within-patient forearm / between-patient face, tretinoin vs vehicle) and citation match. Page correctly discloses abstract-only access and marks n enrolled, concentration, dosing, and exact p-values as not stated, asserting no fabricated effect size; link-out discipline respected. Verdict: publish.
+ulrich-2009-transplant-nmsc-sunscreen:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus re-fetched PubMed 19775361 (abstract only) and verified every quoted phrase verbatim (population/matching, group protocols incl. 'SPF>50', '2 mg cm(-2)', primary AK/SCC/BCC counts, '5.6 applications per week', 25(OH)D '53 ng mL(-1) vs. 60 ng mL(-1)', authors' conclusion) and every number (n=120/60-per-arm, 0 vs 8 SCC P<0.01, 89 vs 273 and 89 vs 191 P<0.01, mean diffs 3.07 [1.76-4.36] and 1.7 [0.68-2.72]) as genuinely present; design 'prospective, single-center, case-control, 24 months' and abstract-only disclosure both confirmed, link-out discipline respected. Verdict: revise for one fixable over-specification — the draft labels the bracketed ranges as '95% CI' but the abstract states no CI designation; no fabricated numbers or quotes found.
+walsh-2016-antibiotic-resistance-acne:
+  last_reviewed: '2026-08-08'
+  score: 10
+  verdict: publish
+  note: |
+    Opus re-fetched the cited PubMed abstract (PMID 26852728) and verified every quoted phrase verbatim (>50% macrolide resistance / "making them less effective"; BPO+retinoid recommendation; "no longer than 3 months"; long-term oral + BPO pairing) and confirmed all numbers (>50%, 3 months, 1954-Mar 7 2015 search window, four multiword searches) are genuinely in the abstract, with no fabricated effect size, p-value, or per-country figure. Abstract-only access is disclosed, design/population/comparator match, and link-out discipline is respected; the systematic-vs-narrative label is an interpretation but transparently hedged. Verdict: publish.
+mansouri-2015-cysteamine-melasma-rct:
+  last_reviewed: '2026-08-08'
+  score: 10
+  verdict: publish
+  note: |
+    Opus re-fetched PubMed 25251767 via WebFetch and confirmed all four quoted phrases (Mexameter mean differences 39.7±16.6 / 26.2±16 vs 63.8±28.6 / 60.7±27.3, P=0.001 and P<0.001; MASI 7.2±5.5 vs 11.6±7.9, P=0.02; IGA/patients' viewpoints sentence) are verbatim in the abstract, and that design (double-blind RCT, cysteamine 5% vs placebo, once nightly, 4 months, assessments at baseline/2/4 mo), n (50; 25/25), and epidermal-melasma population all match. Page correctly discloses abstract-only access, asserts no effect size the abstract lacks, honestly notes absence of responder-% and safety data, and respects link-out discipline (no imported general ingredient evidence). Verdict: publish.

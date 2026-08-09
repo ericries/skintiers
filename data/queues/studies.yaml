@@ -377,6 +377,7 @@
 - name: 'Kang 2001: topical retinol inhibits UV-induced MMPs in human skin'
   type: study
   priority: 4
-  status: pending
+  status: done
   discovered_from: null
   source: data/studies/fisher-1996-retinoid-antagonism-photoaging.md
+  note: reconciled (published)

@@ -1,10 +1,10 @@
 ---
 analyzed: '2026-08-08'
-assurance: sonnet
+assurance: opus
 name: Topical tretinoin improves photoaged skin. A double-blind vehicle-controlled
   study
 slug: weiss-1988-tretinoin-photoaged-skin
-status: draft
+status: published
 type: study
 updated: '2026-08-08'
 ---

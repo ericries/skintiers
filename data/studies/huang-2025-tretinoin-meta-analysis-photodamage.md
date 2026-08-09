@@ -1,10 +1,10 @@
 ---
 analyzed: '2026-08-08'
-assurance: sonnet
+assurance: opus
 name: 'Tretinoin for Photodamaged Facial Skin: Systematic Review and Meta-Analysis
   of Randomized Controlled Trials'
 slug: huang-2025-tretinoin-meta-analysis-photodamage
-status: draft
+status: published
 type: study
 updated: '2026-08-08'
 ---
