@@ -1,11 +1,12 @@
 ---
-analyzed: '2026-08-08'
-assurance: sonnet
-name: "Goff & Stein 2025 Pediatric Dermatology cosmeceuticals ethics/talking-points review"
+analyzed: '2026-08-09'
+assurance: opus
+name: Goff & Stein 2025 Pediatric Dermatology cosmeceuticals ethics/talking-points
+  review
 slug: goff-stein-2025-pediatric-dermatology-cosmeceuticals-ethics-talking-po
-status: draft
+status: published
 type: study
-updated: '2026-08-08'
+updated: '2026-08-09'
 ---
 
 A narrative review (companion "Part II" to the same authors' evidence review) that lays out ethical dilemmas raised by pediatric cosmeceutical use and gives dermatologists talking points for these patient conversations, without reporting any empirical data.[^1]

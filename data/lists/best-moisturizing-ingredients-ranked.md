@@ -2,12 +2,12 @@
 analyzed: '2026-08-09'
 assurance: sonnet
 kind: best-of
-name: "Moisturizing Ingredients, Ranked"
+name: Moisturizing Ingredients, Ranked
 slug: best-moisturizing-ingredients-ranked
-status: draft
+status: published
 tier_list:
-  title: "Moisturizing Ingredients, Ranked"
-  by: "strength of evidence for the moisturizing mechanism, grouped as occlusive, physiologic barrier-lipid triad, humectant, and emollient/soothing support"
+  by: strength of evidence for the moisturizing mechanism, grouped as occlusive, physiologic
+    barrier-lipid triad, humectant, and emollient/soothing support
   items:
   - petrolatum
   - ceramides
@@ -19,6 +19,7 @@ tier_list:
   - squalane
   - panthenol
   - colloidal-oatmeal
+  title: Moisturizing Ingredients, Ranked
 type: list
 updated: '2026-08-09'
 ---

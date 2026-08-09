@@ -1,11 +1,11 @@
 ---
-analyzed: '2026-08-08'
+analyzed: '2026-08-09'
 assurance: sonnet
-name: "Fowler 2013: brimonidine gel phase 3 rosacea erythema RCT"
+name: 'Fowler 2013: brimonidine gel phase 3 rosacea erythema RCT'
 slug: fowler-2013-brimonidine-gel-phase-3-rosacea-erythema-rct
-status: draft
+status: published
 type: study
-updated: '2026-08-08'
+updated: '2026-08-09'
 ---
 
 Two identically-designed phase 3 RCTs found once-daily [[brimonidine]] gel 0.5% significantly more effective than vehicle at reducing facial erythema of [[rosacea-erythematotelangiectatic|rosacea]], with a significant difference detectable within 30 minutes of the first dose.[^1]

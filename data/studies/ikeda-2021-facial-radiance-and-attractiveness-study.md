@@ -1,11 +1,11 @@
 ---
-analyzed: '2026-08-08'
+analyzed: '2026-08-09'
 assurance: sonnet
-name: "Ikeda 2021 facial radiance and attractiveness study"
+name: Ikeda 2021 facial radiance and attractiveness study
 slug: ikeda-2021-facial-radiance-and-attractiveness-study
-status: draft
+status: published
 type: study
-updated: '2026-08-08'
+updated: '2026-08-09'
 ---
 
 An experimental psychophysical study found that facial images rendered with radiant skin reflection were rated more attractive and more positively across several affective impressions than the same faces rendered oily/shiny or matte, by 160 female raters.[^1]

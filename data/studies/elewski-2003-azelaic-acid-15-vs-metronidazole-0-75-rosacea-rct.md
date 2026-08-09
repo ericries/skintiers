@@ -1,11 +1,11 @@
 ---
-analyzed: '2026-08-08'
+analyzed: '2026-08-09'
 assurance: sonnet
-name: "Elewski 2003: azelaic acid 15% vs metronidazole 0.75% rosacea RCT"
+name: 'Elewski 2003: azelaic acid 15% vs metronidazole 0.75% rosacea RCT'
 slug: elewski-2003-azelaic-acid-15-vs-metronidazole-0-75-rosacea-rct
-status: draft
+status: published
 type: study
-updated: '2026-08-08'
+updated: '2026-08-09'
 ---
 
 A multicenter randomized trial in papulopustular rosacea found 15% [[azelaic-acid]] gel significantly outperformed 0.75% metronidazole gel on inflammatory lesion count and erythema over 15 weeks.[^1]

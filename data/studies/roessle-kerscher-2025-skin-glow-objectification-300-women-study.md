@@ -1,11 +1,11 @@
 ---
-analyzed: '2026-08-08'
-assurance: sonnet
-name: "Roessle & Kerscher 2025 skin glow objectification 300-women study"
+analyzed: '2026-08-09'
+assurance: opus
+name: Roessle & Kerscher 2025 skin glow objectification 300-women study
 slug: roessle-kerscher-2025-skin-glow-objectification-300-women-study
-status: draft
+status: published
 type: study
-updated: '2026-08-08'
+updated: '2026-08-09'
 ---
 
 A cross-sectional study of 300 Caucasian women found that objective skin-glow parameters correlate with age mainly at nonfacial sites (especially the neck), while facial skin glow showed no measurable age correlation.[^1]

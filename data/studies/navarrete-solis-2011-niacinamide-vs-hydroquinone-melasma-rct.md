@@ -1,11 +1,11 @@
 ---
-analyzed: '2026-08-08'
+analyzed: '2026-08-09'
 assurance: sonnet
-name: "Navarrete-Solis 2011 niacinamide vs hydroquinone melasma RCT"
+name: Navarrete-Solis 2011 niacinamide vs hydroquinone melasma RCT
 slug: navarrete-solis-2011-niacinamide-vs-hydroquinone-melasma-rct
-status: draft
+status: published
 type: study
-updated: '2026-08-08'
+updated: '2026-08-09'
 ---
 
 A split-face, double-blind RCT in 27 melasma patients found 4% niacinamide performed comparably to 4% hydroquinone on colorimetric measures, with a slightly lower subjective-scale (good-to-excellent) response rate and fewer side effects.[^1]

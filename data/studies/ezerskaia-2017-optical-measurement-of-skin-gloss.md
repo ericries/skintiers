@@ -1,11 +1,11 @@
 ---
-analyzed: '2026-08-08'
-assurance: sonnet
-name: "Ezerskaia 2017 optical measurement of skin gloss"
+analyzed: '2026-08-09'
+assurance: opus
+name: Ezerskaia 2017 optical measurement of skin gloss
 slug: ezerskaia-2017-optical-measurement-of-skin-gloss
-status: draft
+status: published
 type: study
-updated: '2026-08-08'
+updated: '2026-08-09'
 ---
 
 A methods (instrumentation) study, not a clinical trial, that demonstrates a low-cost camera-based optical technique for measuring skin gloss with improved sensitivity at the low-gloss end of the scale, and shows the method can track gloss changes on skin after applying a paraffin-based cream.[^1]

@@ -1,11 +1,11 @@
 ---
-analyzed: '2026-08-08'
-assurance: sonnet
-name: "Spada 2021 ceramide-dominant cream eczema RCT"
+analyzed: '2026-08-09'
+assurance: opus
+name: Spada 2021 ceramide-dominant cream eczema RCT
 slug: spada-2021-ceramide-dominant-cream-eczema-rct
-status: draft
+status: published
 type: study
-updated: '2026-08-08'
+updated: '2026-08-09'
 ---
 
 A 28-day randomized trial in adults with moderate eczema found a ceramide-dominant moisturizing cream/cleanser system significantly improved transepidermal water loss and skin hydration over placebo, but did not separate from placebo on overall eczema severity (EASI).[^1]

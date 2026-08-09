@@ -2,9 +2,9 @@
 analyzed: '2026-08-09'
 assurance: sonnet
 kind: best-of
-name: "The Best Products for Glass Skin"
+name: The Best Products for Glass Skin
 slug: best-glass-skin-products
-status: draft
+status: published
 type: list
 updated: '2026-08-09'
 ---

@@ -4040,3 +4040,84 @@ nguyen-2026-use-of-an-eczema-moisturizer-or-cream-provides-immediate-s:
   verdict: revise-then-fixed
   note: |
     Opus re-fetched PubMed abstract PMID 42555074: both quoted result sentences are verbatim and every number (n=33, 38s/43s time-to-relief, 98-99% reduction, NRS 0.03/0.09, P<0.0001, 24h, split-body/blinded/randomized) is genuinely present; abstract-only disclosure and link-out discipline are correct, and no effect size beyond the abstract is asserted. Revise (not flag): no fabricated numbers, but the page asserts 'manufacturer-funded' and Galderma attribution/COI as fact when the accessed abstract carries no funding statement — soften these to inference/structural-COI wording before publishing.
+spada-2021-ceramide-dominant-cream-eczema-rct:
+  last_reviewed: '2026-08-08'
+  score: 10
+  verdict: publish
+  note: |
+    Opus re-fetched PubMed abstract (PMID 33984185) and confirmed all six quoted result sentences are verbatim and every p-value (P<.0001, .7804, .0342, .1579, .5256, all P<.05) is genuinely in the abstract; no sample size, arm sizes, blinding, or effect-size figures are fabricated — each is correctly disclosed as not stated, and abstract-only access is flagged. Design/population/placebo comparator match the abstract and link-out discipline is respected (ceramides/atopic-dermatitis linked out, no imported general evidence). Verdict: publish.
+goff-stein-2025-pediatric-dermatology-cosmeceuticals-ethics-talking-po:
+  last_reviewed: '2026-08-08'
+  score: 10
+  verdict: publish
+  note: |
+    Opus re-fetched PubMed abstract PMID 39973230: the single quoted passage is verbatim, all bibliographic fields (Pediatr Dermatol 2025;42(2):228-232, DOI 10.1111/pde.15867) match, and the page correctly reports zero quantitative figures (abstract contains none) while disclosing abstract-only access. Design/population/comparator match the abstract, link-out discipline is respected, and the companion Part I cross-ref (PMID 39925031) was independently verified as correct. Verdict: publish.
+roessle-kerscher-2025-skin-glow-objectification-300-women-study:
+  last_reviewed: '2026-08-08'
+  score: 10
+  verdict: publish
+  note: |
+    Opus re-fetched PMID 40847899 abstract and confirmed the load-bearing results quote is verbatim, all numbers (n=300 Caucasian women 20-69, five age groups, five sites, MI/EI/gloss DSC via Mexameter + Skin-Glossymeter) are present, and the page correctly discloses abstract-only access and asserts no r/p effect sizes (none exist in the abstract). Neck-as-reference-site framing and the "detractors" (erythema/pigmentation) link-outs trace to the abstract's own Conclusion; "cross-sectional" is an accurate design label though not verbatim. Verdict: publish.
+ikeda-2021-facial-radiance-and-attractiveness-study:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus re-fetched PubMed 33217010: all four quoted phrases verified verbatim against the abstract; n=160 female raters, seven skin-reflection conditions (3 reflection types x 3 positions), and citation metadata (Int J Cosmet Sci 2021;43(2):144-157, DOI 10.1111/ics.12673) all confirmed present. Page correctly discloses abstract-only access and asserts no effect sizes the abstract lacks; no imported ingredient evidence. Verdict revise: one fixable over-specification — the 'computer-manipulated/simulated' stimulus descriptor is not in the abstract and contradicts the page's own stimulus-construction caveat.
+ezerskaia-2017-optical-measurement-of-skin-gloss:
+  last_reviewed: '2026-08-08'
+  score: 10
+  verdict: publish
+  note: |
+    Opus re-fetched PubMed abstract (PMID 29026683) and confirmed all three block quotes are verbatim, the design/comparator/population match the abstract, and the page correctly discloses abstract-only access while asserting no effect size or numeric figures the abstract lacks (abstract contains none). Citation details and link-out discipline (general emollient evidence routed to [[petrolatum]]) verified. Verdict: publish.
+navarrete-solis-2011-niacinamide-vs-hydroquinone-melasma-rct:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus re-fetched PubMed abstract (PMID 21822427): all three quoted passages verbatim; all numbers (n=27, 4%/4% doses, 8-week duration, 44% vs 55% good-to-excellent, 18% vs 29% side effects) genuinely present; design (double-blind per title, randomized, split-face, sunscreen throughout, histology on niacinamide side) matches; abstract-only correctly disclosed and no fabricated p-value or effect size. Verdict revise: single fixable overspecification — page calls the subjective response 'physician-rated' but the abstract says only 'subjective scales'; no fabricated load-bearing figure.
+elewski-2003-azelaic-acid-15-vs-metronidazole-0-75-rosacea-rct:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus re-fetched the cited PubMed abstract (PMID 14623704) and verified every number verbatim: n=251, 13 US centers, twice-daily x15 weeks, lesion count -12.9 vs -10.7 (P=.003), inflammatory -72.7% vs -55.8% (P<.001), erythema 56% vs 42% (P=.02), IGA P=.02, overall improvement P=.005; design, population, comparator, high-cosmetic-acceptability and no-serious-adverse-events claims, and the abstract-only disclosure all check out and link-out discipline is respected. Verdict revise: the telangiectasia line paraphrases 'clinically appreciable effect' as 'statistically significant improvement,' inventing a statistical claim the abstract never makes; fix that (and soften unquoted 'well tolerated') and it publishes.
+bleicher-1987-metronidazole-0-75-gel-vehicle-controlled-rosacea-rct:
+  last_reviewed: '2026-08-08'
+  score: 10
+  verdict: publish
+  note: |
+    Opus re-fetched PubMed PMID 2953312 and confirmed every quoted phrase is verbatim and every number (n=40, 2 dropouts, 0.75% gel BID, 36.7/48.5/65.1 vs 14.9 at 3/6/9 wk) is genuinely in the abstract; design, population, and comparator match. Abstract-only access is disclosed, no p-value is asserted (correctly flagged absent), and the ~4.4x figure is transparent arithmetic of the two reported percentages. Verdict: publish.
+kligman-1986-topical-tretinoin-for-photoaged-skin-landmark-rct:
+  last_reviewed: '2026-08-08'
+  score: 10
+  verdict: publish
+  note: |
+    Opus re-fetched the cited abstract via the Europe PMC REST API (PubMed itself returned a CAPTCHA); both block quotes (the light/electron-microscopy findings list and the "at least partly reversing the structural damages..." conclusion) are verbatim, and the sole numeric figure (0.05% dose) is present in the abstract. The page correctly discloses abstract-only access, asserts no effect size, and flags n/age/sex/duration/randomization/blinding/percentages/p-values as not stated — none fabricated; design, comparator, and population all match the abstract and link-out discipline is respected. Verdict: publish.
+fowler-2013-brimonidine-gel-phase-3-rosacea-erythema-rct:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus re-fetched PubMed abstract PMID 23839181: all three quoted phrases (efficacy 12-hours/days 1,15,29/30-min/all P<.001; \"slightly higher incidence of adverse events\"; \"dermatological, mild, and transient\") are verbatim, and every number (0.5%, once-daily, 4-wk treatment, 4-wk follow-up, 1:1, P<.001) is in the abstract; page correctly discloses abstract-only access and asserts no unstated sample size or effect size. One surgical fix: the follow-up phase is labeled \"(no-treatment)\" but the abstract only says \"follow-up phase.\" Verdict: revise (remove the (no-treatment) descriptor); everything else publish-ready.
+best-glass-skin-products:
+  last_reviewed: '2026-08-09'
+  score: 9
+  verdict: self-reviewed
+  note: |
+    Curatorial tier list (daily LIST cron style; Sonnet draft + own lint/verify/style, no Opus critic).
+    Ranks/organizes only ALREADY-published pages by evidence; no new claims. assurance=sonnet. lint/verify/style clean.
+best-moisturizing-ingredients-ranked:
+  last_reviewed: '2026-08-09'
+  score: 9
+  verdict: self-reviewed
+  note: |
+    Curatorial tier list (daily LIST cron style; Sonnet draft + own lint/verify/style, no Opus critic).
+    Ranks/organizes only ALREADY-published pages by evidence; no new claims. assurance=sonnet. lint/verify/style clean.
+retinoids-by-potency-ranked:
+  last_reviewed: '2026-08-09'
+  score: 9
+  verdict: self-reviewed
+  note: |
+    Curatorial tier list (daily LIST cron style; Sonnet draft + own lint/verify/style, no Opus critic).
+    Ranks/organizes only ALREADY-published pages by evidence; no new claims. assurance=sonnet. lint/verify/style clean.

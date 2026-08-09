@@ -1,11 +1,11 @@
 ---
-analyzed: '2026-08-08'
-assurance: sonnet
-name: "Kligman 1986: topical tretinoin for photoaged skin (landmark RCT)"
+analyzed: '2026-08-09'
+assurance: opus
+name: 'Kligman 1986: topical tretinoin for photoaged skin (landmark RCT)'
 slug: kligman-1986-topical-tretinoin-for-photoaged-skin-landmark-rct
-status: draft
+status: published
 type: study
-updated: '2026-08-08'
+updated: '2026-08-09'
 ---
 
 A vehicle-controlled comparison of daily 0.05% [[tretinoin]] cream on the face and forearms found histologic reversal of several markers of [[photoaging]], including new collagen formation and elimination of dysplasia.[^1]

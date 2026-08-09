@@ -2,29 +2,29 @@
 analyzed: '2026-08-09'
 assurance: sonnet
 kind: best-of
-name: "Retinoids by Potency, Ranked"
+name: Retinoids by Potency, Ranked
 slug: retinoids-by-potency-ranked
-status: draft
+status: published
 tier_list:
-  title: "Retinoids by Potency, Ranked"
-  by: "strength and evidence of topical retinoids, prescription to over the counter"
+  by: strength and evidence of topical retinoids, prescription to over the counter
   items:
-    - slug: tretinoin
-      tier: top
-    - slug: tazarotene
-      tier: top
-    - slug: adapalene
-      tier: strong
-    - slug: retinaldehyde
-      tier: strong
-    - slug: retinol
-      tier: moderate
-    - slug: retinyl-retinoate
-      tier: minimal
-    - slug: hydroxypinacolone-retinoate
-      tier: minimal
-    - slug: retinyl-esters
-      tier: minimal
+  - slug: tretinoin
+    tier: top
+  - slug: tazarotene
+    tier: top
+  - slug: adapalene
+    tier: strong
+  - slug: retinaldehyde
+    tier: strong
+  - slug: retinol
+    tier: moderate
+  - slug: retinyl-retinoate
+    tier: minimal
+  - slug: hydroxypinacolone-retinoate
+    tier: minimal
+  - slug: retinyl-esters
+    tier: minimal
+  title: Retinoids by Potency, Ranked
 type: list
 updated: '2026-08-09'
 ---
