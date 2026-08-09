@@ -593,3 +593,9 @@
   status: pending
   discovered_from: acne
   source: https://pubmed.ncbi.nlm.nih.gov/?term=topical+clindamycin+acne+randomized
+- name: gluconolactone (PHA)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: anua-heartleaf-77-clear-pad
+  source: https://pubmed.ncbi.nlm.nih.gov/?term=gluconolactone+PHA+skin

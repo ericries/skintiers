@@ -80,7 +80,7 @@
   discovered_from: null
   source: null
   note: reconciled (robust)
-- name: "Av\xE8ne Mineral Ultra-Light SPF 50+"
+- name: Avène Mineral Ultra-Light SPF 50+
   type: product
   priority: 8
   status: done
@@ -107,8 +107,7 @@
   status: done
   discovered_from: null
   source: null
-  note: 'reconciled: published as paulas-choice-clinical-1-retinol-treatment (house-aligned
-    slug)'
+  note: 'reconciled: published as paulas-choice-clinical-1-retinol-treatment (house-aligned slug)'
 - name: Cetaphil Gentle Skin Cleanser
   type: product
   priority: 8
@@ -165,41 +164,45 @@
 - name: Vanicream Moisturizing Cream
   type: product
   priority: 7
-  status: pending
+  status: done
   discovered_from: null
   source: null
+  note: reconciled
 - name: Anua Niacinamide 10% + TXA 4% Serum
   type: product
   priority: 7
-  status: pending
+  status: done
   discovered_from: null
   source: null
+  note: reconciled
 - name: COSRX Advanced Snail 96 Mucin Power Essence
   type: product
   priority: 7
-  status: pending
+  status: done
   discovered_from: null
   source: null
+  note: reconciled
 - name: SKIN1004 Madagascar Centella Ampoule
   type: product
   priority: 7
   status: done
   discovered_from: null
   source: null
-  note: published as skin1004-madagascar-centella-asiatica-100-ampoule (same flagship
-    ampoule)
+  note: published as skin1004-madagascar-centella-asiatica-100-ampoule (same flagship ampoule)
 - name: La Roche-Posay Retinol B3 Serum
   type: product
   priority: 6
-  status: pending
+  status: done
   discovered_from: null
   source: null
+  note: reconciled
 - name: Round Lab 1025 Dokdo Cream
   type: product
   priority: 6
-  status: pending
+  status: done
   discovered_from: null
   source: null
+  note: reconciled
 - name: The Ordinary Glycolic Acid 7% Toning Solution
   type: product
   priority: 6
@@ -210,33 +213,38 @@
 - name: Naturium Niacinamide Serum 12% + Zinc 2%
   type: product
   priority: 6
-  status: pending
+  status: done
   discovered_from: null
   source: null
+  note: reconciled
 - name: Beauty of Joseon Glow Deep Serum Rice + Alpha Arbutin
   type: product
   priority: 6
-  status: pending
+  status: done
   discovered_from: null
   source: null
+  note: reconciled
 - name: Anua Heartleaf 77% Clear Pad
   type: product
   priority: 6
-  status: pending
+  status: done
   discovered_from: null
   source: null
+  note: reconciled
 - name: COSRX AHA/BHA Clarifying Treatment Toner
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: null
+  note: reconciled
 - name: Beauty of Joseon Ginseng Essence Water
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: null
+  note: reconciled
 - name: Prequel Redness Reform Soothing Serum
   type: product
   priority: 8
@@ -261,21 +269,24 @@
 - name: Prequel Universal Skin Solution Dermal Spray
   type: product
   priority: 6
-  status: pending
+  status: done
   discovered_from: null
   source: null
+  note: published as prequel-universal-skin-solution
 - name: Prequel Modern Moisturizer
   type: product
   priority: 6
-  status: pending
+  status: done
   discovered_from: null
   source: null
+  note: published as prequel-am-pm-modern-moisturizer
 - name: Prequel Skin Utility Gel Multi-Purpose Skin Protectant
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: null
+  note: published as prequel-skin-utility-gel
 - name: Anua Rice 70 Glow Milky Toner
   type: product
   priority: 8
@@ -286,9 +297,10 @@
 - name: Anua Heartleaf 77% Soothing Toner
   type: product
   priority: 7
-  status: pending
+  status: done
   discovered_from: null
   source: null
+  note: reconciled
 - name: Aestura Atobarrier 365 Cream
   type: product
   priority: 8
@@ -299,9 +311,10 @@
 - name: Aestura Atobarrier 365 Lotion
   type: product
   priority: 7
-  status: pending
+  status: done
   discovered_from: null
   source: null
+  note: reconciled
 - name: Aestura Atobarrier 365 Hydro Cera-HA Ampoule
   type: product
   priority: 7
@@ -398,8 +411,7 @@
   status: done
   discovered_from: wirecutter-best-retinols
   source: null
-  note: 'reconciled: published as youth-to-the-people-retinal-niacinamide-serum (house-aligned
-    slug)'
+  note: 'reconciled: published as youth-to-the-people-retinal-niacinamide-serum (house-aligned slug)'
 - name: LilyAna Naturals Retinol Cream
   type: product
   priority: 9
@@ -427,8 +439,7 @@
   status: done
   discovered_from: wirecutter-best-retinols
   source: null
-  note: 'reconciled: published as loreal-paris-revitalift-0-3-pure-retinol-serum (house-aligned
-    slug)'
+  note: 'reconciled: published as loreal-paris-revitalift-0-3-pure-retinol-serum (house-aligned slug)'
 - name: Differin Gel 0.3% (adapalene)
   type: product
   priority: 5
@@ -450,9 +461,10 @@
 - name: CeraVe Healing Ointment
   type: product
   priority: 7
-  status: pending
+  status: done
   discovered_from: cerave
   source: null
+  note: reconciled
 - name: CeraVe Foaming Facial Cleanser
   type: product
   priority: 7
@@ -469,9 +481,10 @@
 - name: Trader Joe's Nourish Vitamins C + E + Hyaluronic Acid Facial Serum
   type: product
   priority: 6
-  status: pending
+  status: done
   discovered_from: skinceuticals-c-e-ferulic
   source: null
+  note: already published
 - name: Maelove The Glow Maker
   type: product
   priority: 5
@@ -488,9 +501,10 @@
 - name: SkinCeuticals Phloretin CF
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://www.lorealdermatologicalbeauty.com/skinceuticals/academic-heritage
+  note: reconciled
 - name: COSRX Low pH Good Morning Gel Cleanser
   type: product
   priority: 5
@@ -599,21 +613,24 @@
 - name: Purito Seoul Cica Clearing BB Cream
   type: product
   priority: 6
-  status: pending
+  status: done
   discovered_from: null
   source: user request 2026-08-05
+  note: published as purito-cica-clearing-bb-cream
 - name: Dr.G Green Mild Up Sun+ SPF50+
   type: product
   priority: 7
-  status: pending
+  status: done
   discovered_from: null
   source: user request 2026-08-05
+  note: published as dr-g-green-mild-up-sun
 - name: Dr.G Baby Mild Up Sun SPF50+
   type: product
   priority: 6
-  status: pending
+  status: done
   discovered_from: null
   source: user request 2026-08-05
+  note: no such SKU (SPF50+); real is SPF35 published as dr-g-baby-mild-up-sun
 - name: Purito Seoul oat moisturizer (confirm current SKU)
   type: product
   priority: 6
@@ -666,9 +683,10 @@
 - name: Dear, Klairs EGF Blue Youth Activating Drop (confirm exact EGF SKU vs video)
   type: product
   priority: 6
-  status: pending
+  status: done
   discovered_from: null
   source: user request 2026-08-05 (Kristin GL holy-grail video)
+  note: published as klairs-egf-blue-youth-activating-drop
 - name: Prequel Urea Repair 10% Moisturizing Milk
   type: product
   priority: 5
@@ -744,9 +762,10 @@
 - name: 'Beauty of Joseon Glow Deep Serum: Rice + Alpha Arbutin'
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: data/goals/glass-skin.md
+  note: reconciled
 - name: Torriden Dive-In Low Molecular Hyaluronic Acid Serum
   type: product
   priority: 5
@@ -804,9 +823,10 @@
 - name: Beauty of Joseon Glow Deep Serum Rice + Alpha-Arbutin
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: glass-skin
   source: https://beautyofjoseon.com/products/glow-deep-serum-rice-alpha-arbutin
+  note: reconciled
 - name: Illiyoon Ceramide Ato Concentrate Cream
   type: product
   priority: 5

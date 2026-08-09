@@ -2429,3 +2429,93 @@ paulas-choice-c15-super-booster:
     + copper-peptide quotes all verbatim, efficacy routed out with no imported trial numbers. REVISE fixed: two
     ferulic-acid quotes were cited to Dermstore [^2] but are verbatim in the Paula's Choice source [^1] ->
     re-attributed. assurance=sonnet. lint clean.
+vanicream-moisturizing-cream:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus focused review of draft product page vanicream-moisturizing-cream.md against both cached sources (vanicream.com product page, Target listing). Verified INCI (10 ingredients, petrolatum second-listed), fragrance-free status, price/size ($13.19, 16 oz, dated 2026-08-07), NEA Seal, and every quoted marketing phrase; the single-source '#1 Dermatologist-Recommended Brand' stat is correctly quarantined and grades honestly route general evidence out with no imported trial numbers. Verdict revise: one quoted 'free of...' phrase drops an Oxford comma present in the source (verbatim violation) plus a minor '16 fl oz' vs '16 oz' unit mismatch — both surgical fixes; no fabrication found.
+cosrx-advanced-snail-96-mucin-power-essence:
+  last_reviewed: '2026-08-08'
+  score: 10
+  verdict: publish
+  note: |
+    Opus product-fact review against cached sources (cosrx.com + Target): verified full 13-item INCI verbatim/in-order, the 96.3% snail-secretion-filtrate figure, no-added-fragrance status, and Target price/size ($8.50 for 1.01 fl oz / 30 mL, attributed and dated 2026-08-07); every quoted marketing/clinical phrase matches the cached COSRX text verbatim (ellipsis correctly marks the one omission). The +35%/-80% brand-run stat is properly quarantined under Common Marketing Claims rather than asserted, grades route general SSF evidence out with no imported trial numbers, and no figure lacks a source. Verdict: publish.
+anua-heartleaf-77-soothing-toner:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus critic verified all product-specific facts for Anua Heartleaf 77 Soothing Toner (link-out; heartleaf efficacy routed to [[houttuynia-cordata]]) against the cached Anua US product page (research-cache/web/0ae6f8be9a9e2053.md): full INCI order, fragrance-free/non-comedogenic status, 250/500 ml sizes, 77% labeling, and every quoted marketing phrase and manufacturer stat are verbatim, with the four device-measured stats correctly quarantined and general panthenol/HA evidence routed out with no imported trial numbers. Two fixable errors: the hyaluronic-acid forms are counted as "six" but seven are listed/enumerated (matching the INCI), and the $23.00 price is attributed specifically to the 250 ml with the 500 ml called price-less, neither of which the cached source supports. Verdict: revise.
+cerave-healing-ointment:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus focused review of draft product page cerave-healing-ointment.md against both cached sources (CeraVe brand page + Target 3oz listing): INCI/both inactive lists, petrolatum 46.5%/49.5% active, fragrance-free/lanolin-free status, $20.99 (CeraVe) and $10.29/$3.43-oz (Target 3oz), and every quoted marketing phrase all verified verbatim and correctly attributed; single-source 'eight hours' and NEA-approval claims are properly quarantined. Verdict revise: 'The Evidence' section imports uncited general trial numbers (Cochrane 77-RCT figure and a ceramide RCT) onto a link-out page, which must be stripped and routed to the ingredient/[[moisturizing]] pages; all other product-specific facts check out.
+beauty-of-joseon-glow-deep-serum-rice-alpha-arbutin:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus focused review (2026-08-08): verified all product-specific facts against the cached BOJ source and the Davis 2010 PMC full text (Davis fetched fresh, cache miss). INCI order, alpha-arbutin 7th/niacinamide 8th, price/size, directions, all brand marketing quotes, and the Davis "effectively lighten areas of hypermelanosis" quote check out; general active evidence is correctly routed to [[arbutin]]/[[niacinamide]] with no imported trial numbers. Verdict revise: the quoted "radiant complexion" is not verbatim on the brand page (says "naturally radiant skin"), plus an uncited "2 to 5%" niacinamide figure and a price over-attributed to the 30 ml size.
+differin-adapalene-gel-0-1:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus focused review of draft differin-adapalene-gel-0-1: verified INCI/inactive list, active (adapalene 0.1%), price ($23.99) and size (45g/1.6oz) dated 2026-08-07, fragrance-free/oil-free/water-based status, the Drug Facts directions quote, and all marketing phrases verbatim against cached Target and Differin.com sources; the 87% stat is correctly quarantined as single-source brand copy and no ingredient-trial numbers were imported. Verdict revise: the lede's "1996" prescription-approval date and the Rx-to-OTC "switch" history are attributed to [^target]/[^differin] but appear in neither source, and "Galderma" as manufacturer is likewise unsourced in the cited pages; all other product-specific facts check out.
+skinceuticals-phloretin-cf:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus focused review of DRAFT skinceuticals-phloretin-cf against cached Target source (key 79e92a045b79e60a): verified price/size ($159.56 from $216.55, 1 oz), primary active (ascorbic acid), absence of INCI/concentrations, and the two long marketing quotes as verbatim; grades honest with no trial numbers imported (C E Ferulic 15/1/0.5 composition and Lin 2005/Murray 2008 correctly routed to sibling/ingredient pages). Revise: the three 'Listed highlights' are quoted non-verbatim ("Brighten/improve/reduce" vs source "Brightens/Improves/Reduces"); source also lists Scent=Unscented, which the page omits.
+anua-niacinamide-10-tranexamic-acid-4-serum:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Focused Opus review of DRAFT product page: verified all product-specific facts against the cached Anua US product page (price $24.00, active-claim and marketing quotes verbatim, full INCI, niacinamide-3rd/TXA-4th ordering, no added fragrance) and confirmed the grades route efficacy out to the ingredient pages with no imported product-trial numbers. Verdict revise: no fabrications, but two concentration/comparability overstatements need softening — the '2% Arbutin' label is presented as arbutin+alpha-arbutin 'combined at 2%' (not stated by the source), and the Desai three-active topical study (3% TXA + kojic acid + niacinamide) is called 'the same combination' this serum carries; plus two INCI extracts are omitted from the prose.
+aestura-atobarrier-365-lotion:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus focused review of aestura-atobarrier-365-lotion (link-out product page) against the cached Aestura brand page (research-cache/web, key ec734d1d65afec4e). Verified full INCI (all 38 ingredients match, none invented), fragrance status ('<1% synthetic fragrance'), 90/150 ml sizes (no price asserted or in source), every quoted marketing figure verbatim, grades routing general ceramide evidence out to [[ceramides]] with no imported trial numbers, and all brand stats correctly quarantined under Common Marketing Claims. Verdict: revise — niacinamide is wrongly characterized as a brand-described 'small concentration' (source is silent and INCI order contradicts it), and the two-tests-to-claims mapping is stated as fact when the cache does not support the mapping; both fixable without re-verifying efficacy.
+la-roche-posay-retinol-b3-serum:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus focused product review (link-out page): verified all product-specific facts against the cached Target listing (bc39623c51a9feed) — price $44.99 / 1.0 fl oz, title and marketing quotes ("pure + gradual release retinol," "visibly reduces the look of lines, wrinkles, & signs of premature sun damage," "Dermatologist Tested, Allergy Tested Formula," description and how-to) all verbatim, full 21-entry INCI accurate, fragrance disclosed, retinol % correctly stated undisclosed with no imported trial numbers and efficacy routed to ingredient pages. Verdict revise: single fixable error — "niacinamide 6th of 19" is inconsistent (6th requires the 21-entry split list; the raw 19-token list puts it 5th), so the total should read 21.
+round-lab-1025-dokdo-cream:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Verified all product-specific facts against the two cached sources (Target listing a6a7f33148efff7c; COSMAX SDS 4eafff5c9a1c207f): every INCI ingredient and weight-percent, price ($35.99), size (80 ml), unscented/fragrance status, and every quoted marketing phrase check out verbatim, with general moisturizing evidence correctly routed to [[moisturizing]] and no trial numbers imported. However the page's load-bearing trace-concentration figures contain a systematic factor-of-100 error: SDS percentages were converted to ppm/ppb without dividing by 100 (ceramides at 5.0E-6% are ~0.05 ppm, not '5 ppm'; the HA floor at 8.3E-9% is ~0.08 ppb, not '8 ppb'), which also contradicts the page's own correct 'well under 1 ppb' statement. Verdict: revise — the source data is present and correct and the trace thesis still holds, so the fix is a straightforward recomputation plus three minor sourcing/naming cleanups.
+naturium-niacinamide-serum-12-zinc-2:
+  last_reviewed: '2026-08-08'
+  score: 10
+  verdict: publish
+  note: |
+    Opus focused review (2026-08-08): verified all product-specific facts against cached Naturium brand page and Target listing. Full INCI order matches both sources exactly; 12% niacinamide / 2% zinc PCA concentrations, Fragrance-Free status, $17/30ml manufacturer price, $13.99-from-$16.99 Target price, and 30/60ml sizes all confirmed and dated 2026-08-07; every quoted marketing phrase is verbatim; grades route general niacinamide evidence out with no imported trial numbers and the manufacturer "clinically proven" 8-week claim is properly quarantined. No fabrications or unverifiable load-bearing claims found. Verdict: publish.
+anua-heartleaf-77-clear-pad:
+  last_reviewed: '2026-08-08'
+  score: 10
+  verdict: publish
+  note: |
+    Opus focused review of Anua Heartleaf 77% Clear Pad (link-out product page): verified all product-specific facts against cached brand source anua.com (research-cache/web/54f8175e06e66e93) — $22.00 sale price, 160 ml/70 pads, full INCI in order (Houttuynia Cordata 77% first, gluconolactone third, Centella + triterpenes low, no BHA), all direction quotes and all four "Testing Results" stats verbatim. Marketing figures are correctly quarantined as manufacturer-only, grades are minimal/anecdotal with efficacy routed to ingredient pages and no imported trial numbers. Verdict: publish.
+cosrx-aha-bha-clarifying-treatment-toner:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus focused review of cosrx-aha-bha-clarifying-treatment-toner (draft): verified full 11-item INCI, ingredient order (glycolic 7th, betaine salicylate 8th), no-fragrance status, both prices/sizes ($10 from $20 at COSRX; $20 at Target, 150ml, accessed 2026-08-07), and every quoted phrase verbatim against the cached brand + Target sources; grades honestly route general acid evidence out with no imported trial numbers. Verdict: revise — one counting error ('five' vs six ingredients preceding the actives) and the '10%' willow-bark/apple-water stat is Target-only [^2] but mis-attributed to the brand page [^1].
+beauty-of-joseon-ginseng-essence-water:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus verified product-specific facts against the cached beautyofjoseon.com page (source_cache key 5b9f4d1203dc2cc1): the 24-ingredient INCI matches verbatim, price $18.00 / 150 ml and fragrance-free + alcohol-free status confirmed and dated 2026-08-07, and all marketing quotes ("Smooth + Glow," "clinically proven to be non-irritating," etc.) are correctly quarantined. Verdict revise: Panax Ginseng Root Water is the 7th ingredient not the 6th (stated in three places), the "ahead of plain water further down" claim is false (water is the sole, first ingredient), one bolded quote drops a leading "A," and the link-out page imports niacinamide trial figures (hydroquinone 4%, 2–5%) that belong routed out to [[niacinamide]].
