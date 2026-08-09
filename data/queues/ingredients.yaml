@@ -587,3 +587,9 @@
   status: pending
   discovered_from: panthenol
   source: https://pubchem.ncbi.nlm.nih.gov/compound/Allantoin
+- name: clindamycin (topical)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: acne
+  source: https://pubmed.ncbi.nlm.nih.gov/?term=topical+clindamycin+acne+randomized

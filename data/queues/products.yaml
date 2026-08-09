@@ -80,7 +80,7 @@
   discovered_from: null
   source: null
   note: reconciled (robust)
-- name: Avène Mineral Ultra-Light SPF 50+
+- name: "Av\xE8ne Mineral Ultra-Light SPF 50+"
   type: product
   priority: 8
   status: done
@@ -107,7 +107,8 @@
   status: done
   discovered_from: null
   source: null
-  note: 'reconciled: published as paulas-choice-clinical-1-retinol-treatment (house-aligned slug)'
+  note: 'reconciled: published as paulas-choice-clinical-1-retinol-treatment (house-aligned
+    slug)'
 - name: Cetaphil Gentle Skin Cleanser
   type: product
   priority: 8
@@ -185,7 +186,8 @@
   status: done
   discovered_from: null
   source: null
-  note: published as skin1004-madagascar-centella-asiatica-100-ampoule (same flagship ampoule)
+  note: published as skin1004-madagascar-centella-asiatica-100-ampoule (same flagship
+    ampoule)
 - name: La Roche-Posay Retinol B3 Serum
   type: product
   priority: 6
@@ -396,7 +398,8 @@
   status: done
   discovered_from: wirecutter-best-retinols
   source: null
-  note: 'reconciled: published as youth-to-the-people-retinal-niacinamide-serum (house-aligned slug)'
+  note: 'reconciled: published as youth-to-the-people-retinal-niacinamide-serum (house-aligned
+    slug)'
 - name: LilyAna Naturals Retinol Cream
   type: product
   priority: 9
@@ -424,7 +427,8 @@
   status: done
   discovered_from: wirecutter-best-retinols
   source: null
-  note: 'reconciled: published as loreal-paris-revitalift-0-3-pure-retinol-serum (house-aligned slug)'
+  note: 'reconciled: published as loreal-paris-revitalift-0-3-pure-retinol-serum (house-aligned
+    slug)'
 - name: Differin Gel 0.3% (adapalene)
   type: product
   priority: 5
@@ -839,3 +843,21 @@
   status: pending
   discovered_from: panthenol
   source: https://www.aveneusa.com/cicalfate-restorative-protective-cream
+- name: Olay Regenerist Retinol24 Night Serum
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: anti-aging
+  source: https://www.olay.com/en-us/skin-care-products/retinol24-night-serum
+- name: CeraVe Skin Renewing Retinol Serum
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: anti-aging
+  source: https://www.cerave.com/skincare/serums/skin-renewing-retinol-serum
+- name: La Roche-Posay Effaclar Duo+
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: acne
+  source: https://www.laroche-posay.us/our-products/acne/effaclar-duo

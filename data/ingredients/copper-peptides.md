@@ -5,7 +5,16 @@ name: Copper peptides
 slug: copper-peptides
 status: published
 type: ingredient
-updated: '2026-07-28'
+updated: '2026-08-08'
+videos:
+- title: "I loooooove me some copper peptides and honestly if you're going to f..."
+  creator: Ella
+  creator_slug: your-estie-ella
+  credential: Licensed esthetician (not a dermatologist or cosmetic chemist)
+  platform: TikTok
+  url: https://www.tiktok.com/@your.estie.ella/video/7670531715860876557
+  thesis: "A licensed esthetician walks through how to fit a copper-peptide serum into an existing routine, framing it as a useful add-on for anti-aging and barrier support rather than an all-in-one treatment, and one that needs months of patience before results show. Her practical guidance: copper peptides layer fine with most products, and the only pairings to space out are retinoids and the active form of vitamin C (ascorbic acid, not the derivatives), where she suggests waiting ten to fifteen minutes between applying those and the copper peptides; she says they can be used morning and night."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship, no brand mentions or product picks. Presented as a non-credentialed esthetician's practical how-to, not established clinical fact."
 ---
 
 Copper peptides are the copper complex of the human tripeptide GHK (glycyl-L-histidyl-L-lysine), sold in skincare as copper tripeptide-1 or GHK-Cu, one of the four classes of cosmetic peptide (a "carrier peptide") whose job is to move trace copper into skin.[^gorouhi][^pickart2008]
