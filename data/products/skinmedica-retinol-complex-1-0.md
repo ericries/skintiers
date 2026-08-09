@@ -2,6 +2,17 @@
 analyzed: '2026-08-03'
 assurance: sonnet
 category: Retinoids
+evidence_levels:
+  active: retinol
+  active_note: topical retinol has category level vehicle controlled trial evidence
+    for improving fine wrinkles and pigment
+  product_note: the manufacturer does not disclose an exact retinol percentage
+    on the product page or ingredient list, only the "1.0" tier name distinguishing
+    it from the brand's own 0.25 and 0.5 versions
+  formula_note: no published trial tests this exact serum, and NYT Wirecutter's
+    favorable review is an editorial, tester experience pick rather than a
+    controlled trial
+  formula_tested: false
 comparator: other over-the-counter retinoids
 grades:
 - effect: modest

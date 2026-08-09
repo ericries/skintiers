@@ -3,6 +3,16 @@ analyzed: '2026-08-08'
 assurance: opus
 brand: Avène
 category: Retinoids
+evidence_levels:
+  active: retinaldehyde
+  active_note: retinaldehyde has category-level evidence stronger than retinol's
+    among over-the-counter retinoids, with modest but real evidence for wrinkle
+    and texture improvement, covered on [[retinaldehyde]] and [[retinoids]]
+  product_note: the 0.1% strength is named on the product itself, a labeled
+    concentration most competing retinaldehyde serums do not disclose
+  formula_note: no published trial tests this specific cream, and its marketing
+    statistics rest on the brand's own unpublished testing
+  formula_tested: false
 comparator: other over-the-counter retinoids
 grades:
 - effect: modest

@@ -3,6 +3,20 @@ analyzed: '2026-08-08'
 assurance: sonnet
 brand: Bausch Health
 category: Retinoids
+evidence_levels:
+  active: tretinoin
+  active_note: a well-studied prescription retinoid, a legitimate first-line
+    topical acne treatment and the reference topical for photoaging, with a
+    well-replicated but gradual effect (class evidence on the tretinoin page)
+  product_note: Retin-A Micro carries its own FDA indication for this exact
+    gel, "for the topical treatment of acne vulgaris in adults and pediatric
+    patients 12 years of age and older," across all four labeled strengths
+  formula_note: the label's own trial data show discontinuation for
+    irritation rising with strength within this product, but no head-to-head
+    trial against a conventional non-microsphere tretinoin product is cited,
+    and its photoaging use is off-label, extrapolated from cream-formulation
+    trials rather than tested in this gel-microsphere vehicle
+  formula_tested: true
 comparator: other prescription tretinoin formulations
 grades:
 - effect: modest

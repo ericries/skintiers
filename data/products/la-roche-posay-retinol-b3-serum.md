@@ -3,6 +3,17 @@ analyzed: '2026-08-08'
 assurance: sonnet
 brand: La Roche-Posay
 category: Retinoids
+evidence_levels:
+  active: retinol
+  active_note: topical retinol has category-level vehicle-controlled trial
+    evidence for photoaging, improving fine wrinkles and pigment, set out on
+    [[retinol]] and [[retinoids]]
+  product_note: Target's listing does not disclose a retinol percentage,
+    describing the formula only as "pure + gradual release retinol," unlike
+    [[trader-joes-retinol-night-serum|Trader Joe's Retinol Night Serum]], which
+    declares 0.3% retinol on its own label
+  formula_note: no published trial tests this specific serum
+  formula_tested: false
 comparator: other over-the-counter retinol serums, including [[trader-joes-retinol-night-serum|Trader
   Joe's Retinol Night Serum]]
 grades:

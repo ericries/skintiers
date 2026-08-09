@@ -3,6 +3,16 @@ analyzed: '2026-08-07'
 assurance: sonnet
 brand: CeraVe
 category: Retinoids
+evidence_levels:
+  active: retinol
+  active_note: a well studied over the counter retinoid, with vehicle controlled
+    trial evidence for improving fine wrinkles and pigment in photoaged skin
+  product_note: it is a genuine retinol, not a milder retinyl ester, but CeraVe
+    does not disclose a retinol percentage on the product page or ingredient list,
+    and markets it for post acne marks and pore appearance rather than wrinkles
+  formula_note: no published trial tests this exact serum or its specific combination
+    with ceramides, niacinamide, and licorice extract
+  formula_tested: false
 comparator: other over-the-counter retinoids
 grades:
 - effect: modest

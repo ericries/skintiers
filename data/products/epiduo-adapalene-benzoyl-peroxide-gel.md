@@ -3,6 +3,19 @@ analyzed: '2026-08-08'
 assurance: sonnet
 brand: Galderma
 category: Retinoids
+evidence_levels:
+  active: adapalene
+  active_note: adapalene is a solidly evidenced topical retinoid for acne, on par
+    with benzoyl peroxide and tretinoin in head to head data, and benzoyl peroxide
+    is itself a solidly evidenced first line topical acne treatment
+  product_note: this fixed dose gel pairs adapalene 0.1% with benzoyl peroxide
+    2.5% in a single once daily application, sold by prescription and, since May
+    2026, also over the counter as Differin Epiduo
+  formula_note: this exact fixed dose combination carries its own FDA indication
+    for acne vulgaris in patients 12 and older, on both the prescription and the
+    over the counter labels, rather than resting only on the two actives' separate
+    evidence
+  formula_tested: true
 grades:
 - effect: notable
   evidence: solid

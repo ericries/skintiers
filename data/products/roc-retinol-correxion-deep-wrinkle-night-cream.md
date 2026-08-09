@@ -4,6 +4,18 @@ assurance: opus
 brand: RoC
 category: Retinoids
 comparator: other undisclosed-concentration OTC retinoids
+evidence_levels:
+  active: retinol
+  active_note: a well-studied over-the-counter retinoid with vehicle-controlled
+    trial evidence for improving fine wrinkles and pigment in aging skin at
+    concentrations of 0.1% to 0.4%
+  product_note: does not disclose what percentage of retinol its "Patented Clinical
+    Retinol" contains, so there is no way to compare its dose against the tested
+    concentrations, and its headline wrinkle-reduction figures come only from
+    the manufacturer's own unpublished testing
+  formula_note: no published trial tests this cream or its "Patented Clinical
+    Retinol" complex at any disclosed concentration
+  formula_tested: false
 grades:
 - effect: modest
   evidence: preliminary

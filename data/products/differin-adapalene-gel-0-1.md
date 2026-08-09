@@ -3,6 +3,18 @@ analyzed: '2026-08-08'
 assurance: sonnet
 brand: Galderma
 category: Retinoids
+evidence_levels:
+  active: adapalene
+  active_note: a synthetic retinoid the FDA classifies as an acne treatment in its
+    own right, with a solid evidence base built on a Cochrane review and a pooled
+    meta-analysis against benzoyl peroxide and tretinoin
+  product_note: an FDA over-the-counter acne treatment at 0.1%, the same molecule
+    and strength as the original prescription gel, confirmed on the Drug Facts
+    label
+  formula_note: no fetchable clinical study specific to this exact SKU was found,
+    so the grade rests on the general adapalene 0.1% evidence rather than a trial
+    of this product
+  formula_tested: false
 grades:
 - effect: modest to notable
   evidence: solid

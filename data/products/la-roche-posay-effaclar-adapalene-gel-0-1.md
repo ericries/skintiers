@@ -3,6 +3,18 @@ analyzed: '2026-08-07'
 assurance: opus
 brand: La Roche-Posay
 category: Retinoids
+evidence_levels:
+  active: adapalene
+  active_note: a well-studied over-the-counter retinoid, with a solid evidence
+    base built on a Cochrane review and a pooled meta-analysis against
+    benzoyl peroxide and tretinoin at the 0.1% strength used here
+  product_note: the Drug Facts label declares adapalene usp 0.1% as the sole
+    active for acne treatment, the same molecule and concentration as the
+    original prescription gel, not a diluted OTC-strength version
+  formula_note: no published trial or clinical program specific to this La
+    Roche-Posay SKU was found, so the grade rests on the general adapalene
+    evidence rather than a trial of this exact product
+  formula_tested: false
 grades:
 - effect: modest to notable
   evidence: solid

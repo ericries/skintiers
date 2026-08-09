@@ -3,6 +3,15 @@ analyzed: '2026-08-07'
 assurance: sonnet
 brand: Youth To The People
 category: Retinoids
+evidence_levels:
+  active: retinaldehyde
+  active_note: retinaldehyde has category level evidence stronger than retinol's
+    among over the counter retinoids
+  product_note: niacinamide is declared at 5% and positioned ahead of the retinal
+    on the ingredient list, but neither retailer listing discloses what percentage
+    of retinal the formula itself contains
+  formula_note: no published trial tests this exact serum
+  formula_tested: false
 comparator: other over-the-counter retinoids
 grades:
 - effect: modest

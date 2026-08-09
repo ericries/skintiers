@@ -3,6 +3,20 @@ analyzed: '2026-08-07'
 assurance: sonnet
 brand: The INKEY List
 category: Retinoids
+evidence_levels:
+  active: retinaldehyde
+  active_note: the best-evidenced over-the-counter retinoid, with
+    vehicle-controlled and concentration-comparison trials showing measurable
+    improvement in wrinkles, roughness, and texture at 0.05% and 0.1%, and
+    meaningfully lower irritation than prescription retinoic acid
+  product_note: this serum labels its retinal at 0.01%, five to ten times
+    below the 0.05-0.1% tested in those controlled trials, and pairs it with
+    a differently-branded "1% Granactive Retinoid Pro Plus" hydroxypinacolone
+    retinoate blend at a concentration this page cannot independently verify
+  formula_note: no published, independently reviewable trial of this exact
+    serum, or of its specific 1% Granactive Retinoid Pro Plus / 0.01% retinal
+    combination, was found
+  formula_tested: false
 grades:
 - effect: minimal
   evidence: preliminary

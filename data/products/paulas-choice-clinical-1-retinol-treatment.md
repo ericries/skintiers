@@ -3,6 +3,16 @@ analyzed: '2026-08-07'
 assurance: sonnet
 brand: Paula's Choice
 category: Retinoids
+evidence_levels:
+  active: retinol
+  active_note: topical retinol has vehicle controlled trial evidence for fine
+    wrinkles and pigment in aging skin
+  product_note: the manufacturer discloses a high strength 1% retinol concentration
+    on its own product page, at the upper end of over the counter retinol dosing
+  formula_note: no published trial tests this exact formula, and the manufacturer's
+    own clinically proven claim rests on an unnamed study of 33 subjects with
+    no control arm, statistical result, or journal disclosed
+  formula_tested: false
 comparator: other high-strength OTC retinol treatments
 grades:
 - effect: modest

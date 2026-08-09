@@ -3,6 +3,18 @@ analyzed: '2026-08-08'
 assurance: sonnet
 brand: Bausch Health
 category: Retinoids
+evidence_levels:
+  active: tretinoin
+  active_note: tretinoin is the reference prescription retinoid, with replicated
+    trial evidence for photoaging at the higher 0.025% and 0.1% strengths
+  product_note: Renova's own FDA-approved indication is specifically for the
+    mitigation of fine facial wrinkles at the lower 0.02% strength, as an
+    adjunct to a comprehensive skin-care and sunlight-avoidance program
+  formula_note: this exact product carries its own FDA-cited approval program,
+    five trials totaling 324 subjects on Renova and 332 on vehicle over 24
+    weeks, finding 60% of Renova users showed at least minimal improvement in
+    fine facial wrinkles versus 39% on vehicle
+  formula_tested: true
 grades:
 - effect: modest
   evidence: solid

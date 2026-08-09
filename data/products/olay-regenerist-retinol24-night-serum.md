@@ -3,6 +3,19 @@ analyzed: '2026-08-08'
 assurance: sonnet
 brand: Olay
 category: Retinoids
+evidence_levels:
+  active: retinol
+  active_note: topical retinol has category-level vehicle-controlled trial
+    evidence for photoaging, improving fine wrinkles and pigment, set out on
+    [[retinol]] and [[retinoids]], and it remains milder than prescription
+    [[tretinoin-0-025-cream|tretinoin]]
+  product_note: neither Olay's own product page nor Target's listing discloses
+    a retinol percentage, Olay telling shoppers that ingredient percentages are
+    "proprietary information which we're unable to provide," and the formula
+    also lists retinyl propionate, whose own 0.15% trial found no significant
+    improvement over placebo
+  formula_note: no published trial tests this specific product
+  formula_tested: false
 comparator: other over-the-counter retinol moisturizers with undisclosed concentrations
 grades:
 - effect: modest

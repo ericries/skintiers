@@ -2,7 +2,31 @@
 analyzed: '2026-07-28'
 assurance: opus
 category: Retinoids
+evidence_levels:
+  active: adapalene
+  active_note: a well-studied over-the-counter retinoid, with head-to-head trial
+    evidence placing it level with benzoyl peroxide and tretinoin while better
+    tolerated than tretinoin (class evidence on the adapalene and retinoids
+    pages)
+  product_note: this exact product is FDA-approved for acne only, the same
+    molecule and strength as the former prescription Differin, and the first
+    topical retinoid the FDA cleared for nonprescription sale; anti-aging use
+    is off-label
+  formula_note: Differin carries its own FDA indication for acne, but the OTC
+    approval carried the prescription drug's established efficacy over rather
+    than retesting it, resting on consumer-use and label-comprehension
+    studies, not a fresh efficacy trial
+  formula_tested: true
 comparator: other over-the-counter retinoids
+videos:
+- title: "Hypochlorous Acid Deep Dive, BuzzFeed's Top Skincare Products, Rice Water Secrets & Shark Repellents"
+  creator: Dr. Muneeb Shah (DermDoctor)
+  creator_slug: muneeb-shah
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=2xNfzaAqx5A
+  thesis: "Reacting to a BuzzFeed before-and-after of Differin gel used for acne, Dr. Shah says he agrees it is the best over-the-counter ingredient for most forms of acne, and that the before-and-after shown was believable and representative rather than an outlier, typically taking two to three months of consistent use with possible purging when first starting."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 grades:
 - effect: notable
   evidence: solid

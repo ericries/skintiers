@@ -3,6 +3,18 @@ analyzed: '2026-08-07'
 assurance: sonnet
 category: Retinoids
 comparator: SkinMedica Retinol Complex 1.0 and other over-the-counter retinol serums
+evidence_levels:
+  active: retinol
+  active_note: a well-studied over-the-counter retinoid with category-level
+    vehicle-controlled trial evidence for photoaging, milder than prescription
+    tretinoin
+  product_note: declares 0.3% retinol on its own label, within the 0.1% to 0.4%
+    range shown effective in the controlled trials and matching the starting
+    concentration dermatologists interviewed by NYT Wirecutter recommend, unlike
+    SkinMedica Retinol Complex 1.0, which discloses no percentage at all
+  formula_note: no published trial tests this exact serum, though Wirecutter's
+    blind consumer panel named it a "Best value" pick
+  formula_tested: false
 grades:
 - effect: modest
   evidence: preliminary

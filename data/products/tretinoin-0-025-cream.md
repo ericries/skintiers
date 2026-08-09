@@ -2,6 +2,19 @@
 analyzed: '2026-07-27'
 assurance: opus
 category: Retinoids
+evidence_levels:
+  active: tretinoin
+  active_note: tretinoin is the reference prescription topical for photoaging
+    and a bona fide first-line acne treatment, with double-blind, vehicle-controlled
+    RCTs plus an independent 8-RCT, 1,361-patient meta-analysis for photoaging
+    and a 179-RCT network meta-analysis for acne, covered on [[tretinoin]]
+  product_note: this is the entry 0.025% strength, FDA-approved for acne vulgaris,
+    and used off-label at this strength for photoaging
+  formula_note: a 48-week randomized, vehicle-controlled RCT tests this exact
+    0.025% strength directly against 0.1%, finding the same degree of photoaging
+    improvement with significantly less irritation, and the FDA label for this
+    0.025% cream (Retin-A/Avita) carries its own acne indication
+  formula_tested: true
 videos:
 - title: "How to hack tretinoin to make it work 10x better"
   creator: Dr. Sam Ellis

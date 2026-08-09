@@ -3,6 +3,16 @@ analyzed: '2026-08-08'
 assurance: opus
 brand: SkinCeuticals
 category: Retinoids
+evidence_levels:
+  active: retinol
+  active_note: topical retinol has category-level vehicle-controlled trial
+    evidence for improving fine wrinkles and pigment, set out on [[retinol]]
+    and [[retinoids]]
+  product_note: Target's listing confirms "0.5% pure retinol" as the headline
+    active, unlike [[skinmedica-retinol-complex-1-0]] which names only a tier
+    number, but it does not publish a full declared ingredient (INCI) list
+  formula_note: no independent trial of this exact cream is published
+  formula_tested: false
 comparator: other over-the-counter retinol products, such as [[skinmedica-retinol-complex-1-0|SkinMedica
   Retinol Complex 1.0]] (which does not disclose its own retinol percentage) and cheaper
   drugstore retinols

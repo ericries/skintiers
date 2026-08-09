@@ -3,6 +3,17 @@ analyzed: '2026-08-05'
 assurance: sonnet
 brand: The INKEY List
 category: Retinoids
+evidence_levels:
+  active: retinyl-esters
+  active_note: retinyl esters are the mildest, least-converted over-the-counter
+    retinoid tier, and the one isolated human trial of a retinyl ester found no
+    significant benefit over placebo
+  product_note: this serum's primary declared active is 1% retinyl acetate,
+    alongside a labeled 0.5% Granactive Retinoid that works out to about 0.05%
+    actual hydroxypinacolone retinoate
+  formula_note: no published trial tests this exact serum or its specific 1%
+    retinyl acetate and 0.5% Granactive Retinoid combination
+  formula_tested: false
 grades:
 - effect: minimal
   evidence: preliminary

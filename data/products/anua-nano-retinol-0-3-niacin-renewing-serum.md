@@ -3,6 +3,17 @@ analyzed: '2026-07-27'
 assurance: opus
 category: Retinoids
 comparator: other OTC retinol serums
+evidence_levels:
+  active: retinol
+  active_note: a well-studied over-the-counter retinoid, milder than prescription
+    tretinoin because it needs two enzymatic conversion steps before it becomes
+    active, with vehicle-controlled trial evidence for fine wrinkles and collagen-building
+    activity
+  product_note: declares its retinol at 0.3%, at the lower end of the concentrations
+    used by comparator OTC retinol serums, with niacinamide third on the ingredient
+    list as a second evidenced active
+  formula_note: no published trial tests this exact serum
+  formula_tested: false
 grades:
 - effect: modest
   evidence: mixed

@@ -3,6 +3,18 @@ analyzed: '2026-08-08'
 assurance: sonnet
 brand: Galderma
 category: Retinoids
+evidence_levels:
+  active: adapalene
+  active_note: adapalene is an FDA-approved topical retinoid for acne vulgaris,
+    with a solid evidence base built on a Cochrane review and pooled comparative
+    trials against benzoyl peroxide and tretinoin, covered on [[adapalene]]
+  product_note: this label is the 0.3% prescription strength, three times the
+    OTC 0.1% concentration, and the FDA label states it is indicated for the
+    topical treatment of acne vulgaris in patients 12 years of age and older
+  formula_note: no independently fetchable trial of this exact 0.3% product was
+    located, so it is graded as a higher-strength, prescription delivery of the
+    proven active rather than on its own dedicated trial
+  formula_tested: false
 grades:
 - effect: modest to notable
   evidence: solid

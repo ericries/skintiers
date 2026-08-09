@@ -3,6 +3,17 @@ analyzed: '2026-08-07'
 assurance: sonnet
 brand: Naturium
 category: Retinoids
+evidence_levels:
+  active: retinol
+  active_note: a well-studied vitamin A precursor, with vehicle-controlled
+    trial evidence for fine wrinkles and pigment in aging skin
+  product_note: the manufacturer discloses neither a retinol percentage nor
+    an encapsulation ingredient distinct from plain "Retinol," only that it
+    is present, fifth on the ingredient declaration
+  formula_note: no published trial tests this specific serum, and the
+    manufacturer's own 8-week clinical claim is not cited to any published
+    journal, with no sample size, control arm, or peer review disclosed
+  formula_tested: false
 grades:
 - effect: modest
   evidence: preliminary

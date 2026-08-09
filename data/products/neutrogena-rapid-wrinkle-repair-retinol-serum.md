@@ -4,6 +4,17 @@ assurance: opus
 brand: Neutrogena
 category: Retinoids
 comparator: other over-the-counter retinol serums
+evidence_levels:
+  active: retinol
+  active_note: a well-studied over-the-counter retinoid with vehicle-controlled
+    trial evidence for improving fine wrinkles and pigment in photoaged skin,
+    milder and slower than prescription tretinoin
+  product_note: discloses its retinol at 0.1%, matching the concentration used
+    in a published 52-week vehicle-controlled trial, unlike undisclosed-percentage
+    competitors such as RoC and CeraVe
+  formula_note: no published trial tests this exact serum or its non-retinol
+    ingredients
+  formula_tested: false
 grades:
 - effect: modest
   evidence: preliminary

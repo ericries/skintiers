@@ -3,6 +3,18 @@ analyzed: '2026-08-07'
 assurance: sonnet
 brand: LilyAna Naturals
 category: Retinoids
+evidence_levels:
+  active: retinol
+  active_note: retinol has vehicle controlled trial evidence for fine wrinkles
+    and pigment
+  product_note: the manufacturer states the cream contains just under 1% retinol,
+    but retinol sits eleventh on a 29 item ingredient declaration behind bulk
+    emollients and butters, and the brand's claim that its proprietary blend
+    matches the results of a 2.5% retinol content is not corroborated by any
+    published data
+  formula_note: no published trial or independent data supports the manufacturer's
+    2.5% equivalence claim for this specific formula
+  formula_tested: false
 grades:
 - effect: modest
   evidence: preliminary

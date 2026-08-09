@@ -2,6 +2,17 @@
 analyzed: '2026-08-03'
 assurance: sonnet
 category: Retinoids
+evidence_levels:
+  active: retinaldehyde
+  active_note: retinaldehyde has the strongest category-level evidence among
+    over-the-counter retinoids, sitting one enzymatic step from receptor-active
+    retinoic acid, closer than retinol's two steps
+  product_note: declared at 0.03% in the product name and on retailer listings,
+    the second-lowest rung of a six-strength Crystal Retinal ladder, though the
+    raw ingredient declaration itself does not show the percentage
+  formula_note: no published trial tests this exact serum, and no cited trial
+    isolates the 0.03% concentration
+  formula_tested: false
 comparator: other over-the-counter retinoids
 grades:
 - effect: modest
