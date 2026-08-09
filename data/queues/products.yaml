@@ -318,9 +318,10 @@
 - name: Aestura Atobarrier 365 Hydro Cera-HA Ampoule
   type: product
   priority: 7
-  status: pending
+  status: done
   discovered_from: null
   source: null
+  note: reconciled
 - name: Aestura Atobarrier 365 Hydro Soothing Gel Cream
   type: product
   priority: 6
@@ -449,9 +450,10 @@
 - name: Epiduo (adapalene / benzoyl peroxide)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: adapalene
   source: null
+  note: published as epiduo-adapalene-benzoyl-peroxide-gel
 - name: Differin (adapalene gel)
   type: product
   priority: 5
@@ -509,9 +511,10 @@
 - name: COSRX Low pH Good Morning Gel Cleanser
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://www.cosrx.com/pages/about-us-old
+  note: reconciled
 - name: Naturium Vitamin C Complex Serum
   type: product
   priority: 5
@@ -528,15 +531,17 @@
 - name: SkinMedica HA5 Rejuvenating Hydrator
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://www.skinmedica.com/us/allproducts/
+  note: reconciled
 - name: Medik8 C-Tetra Vitamin C Serum
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://www.dermstore.com/medik8-c-tetra/
+  note: reconciled
 - name: Chemist Confessions Aquafix
   type: product
   priority: 5
@@ -546,9 +551,10 @@
 - name: Youth To The People Superfood Antioxidant Cleanser
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://www.loreal.com/en/luxe-division/youth-to-the-people/
+  note: reconciled
 - name: Youth To The People Superfood Air-Whip Hyaluronic Acid Moisture Cream
   type: product
   priority: 5
@@ -635,15 +641,17 @@
 - name: Purito Seoul oat moisturizer (confirm current SKU)
   type: product
   priority: 6
-  status: pending
+  status: done
   discovered_from: null
   source: https://purito.com
+  note: published as purito-oat-in-calming-gel-cream
 - name: Purito Seoul panthenol moisturizer (confirm current SKU)
   type: product
   priority: 6
-  status: pending
+  status: done
   discovered_from: null
   source: https://purito.com
+  note: published as purito-panthenol-moisturizer (Mighty Bamboo Panthenol Cream)
 - name: Dr.G Medi UV Mild Sun SPF50+
   type: product
   priority: 5

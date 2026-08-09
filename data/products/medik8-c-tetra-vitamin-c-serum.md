@@ -1,5 +1,5 @@
 ---
-analyzed: '2026-08-07'
+analyzed: '2026-08-08'
 assurance: sonnet
 brand: Medik8
 category: Vitamin C serums
@@ -13,8 +13,8 @@ grades:
     on [[ascorbic-acid-vitamin-c]] is built on L-ascorbic acid, and the derivative
     review mapped on [[vitamin-c]] reports that conversion of lipid-soluble esters
     like this one to the active ascorbic acid form is in doubt, so a disclosed percentage
-    of THDA does not carry the same evidentiary weight as the same percentage of
-    L-ascorbic acid'
+    of THDA does not carry the same evidentiary weight as the same percentage of L-ascorbic
+    acid'
   use: Antioxidant vitamin C support, for daily use alongside sunscreen and tone-evening
     (health)
 - effect: minimal
@@ -33,9 +33,9 @@ key_actives:
 - tocopherol
 name: Medik8 C-Tetra Vitamin C Serum
 slug: medik8-c-tetra-vitamin-c-serum
-status: draft
+status: published
 type: product
-updated: '2026-08-07'
+updated: '2026-08-08'
 ---
 
 Medik8 C-Tetra is a 30 ml leave-on serum, listed by the manufacturer at £45, built around a disclosed 7% tetrahexyldecyl ascorbate (THDA), a lipid-soluble ester of vitamin C, rather than the reference form, L-ascorbic acid, used in serums such as SkinCeuticals C E Ferulic.[^1]

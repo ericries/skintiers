@@ -25,7 +25,7 @@ key_actives:
 - niacinamide
 name: Aestura Atobarrier 365 Hydro Cera-HA Ampoule
 slug: aestura-atobarrier-365-hydro-cera-ha-ampoule
-status: draft
+status: published
 type: product
 updated: '2026-08-08'
 ---

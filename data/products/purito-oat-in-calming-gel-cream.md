@@ -1,6 +1,6 @@
 ---
-analyzed: '2026-08-07'
-assurance: sonnet
+analyzed: '2026-08-08'
+assurance: opus
 brand: Purito
 category: Moisturizers
 comparator: other lightweight, calming-marketed gel-cream moisturizers
@@ -8,17 +8,17 @@ grades:
 - effect: modest
   evidence: anecdotal
   note: 'cosmetic: marketed around "oat seed water" as a lightweight hydrator for
-    sensitive/irritated skin; neither the brand''s product page nor the Target
-    listing checked discloses a full ingredient list or a concentration for that
-    active, so the formulation cannot be verified beyond the marketing description'
+    sensitive/irritated skin; neither the brand''s product page nor the Target listing
+    checked discloses a full ingredient list or a concentration for that active, so
+    the formulation cannot be verified beyond the marketing description'
   use: Hydration and calming for sensitive, irritated skin
 key_actives:
 - colloidal-oatmeal
 name: Purito Seoul Oat-in Calming Gel Cream
 slug: purito-oat-in-calming-gel-cream
-status: draft
+status: published
 type: product
-updated: '2026-08-07'
+updated: '2026-08-08'
 ---
 
 Purito Seoul Oat-in Calming Gel Cream is a lightweight gel-format facial moisturizer from [[purito]], a South Korean skincare brand, built around what the brand and Target's listing both call "oat seed water" and marketed for sensitive, irritated skin.[^target]

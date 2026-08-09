@@ -2567,3 +2567,51 @@ tetrahexyldecyl-ascorbate:
   verdict: revise-then-fixed
   note: |
     Opus verification of tetrahexyldecyl-ascorbate.md: re-fetched all 5 PubMed primaries. Every quote (Swindell 'poor antioxidant... degrades rapidly when exposed to singlet oxygen,' 'completely abrogated by the addition of AZ'; Afzal conclusion; Meyer 'ascorbic acid precursor'/'type I interferon' passages) is verbatim, and every Afzal stat (wrinkle/pigment/redness % and P values, n=44) and the Min P values (n=35) check out; efficacy is honestly hedged and marketing claims correctly debunked. Verdict revise: line 22 wrongly attributes Sytheon funding to the Min open-label study (Europe PMC lists Image Skincare only), and the paywalled Scheman letter has no abstract, so its 'case series'/'patch testing'/plural-patients specifics are unverified beyond the title.
+aestura-atobarrier-365-hydro-cera-ha-ampoule:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus focused review of Aestura Atobarrier 365 Hydro Cera-HA Ampoule (link-out product page) verified all product-specific facts against the cached brand source (int.aestura.com): name, 30 ml size, full 42-item INCI, <1% synthetic fragrance, 'free of' list, verbatim usage quote, and the 31-woman 2024 brand test with all stats correctly quarantined under Common Marketing Claims; grades route general ceramide/HA evidence out with no imported trial numbers. Two fixable composition errors: niacinamide's position is described as 'ahead of water-glycerin-butylene glycol' (reversed — those three precede it), and the ingredient count is stated as 41 when the source lists 42. Verdict: revise.
+purito-oat-in-calming-gel-cream:
+  last_reviewed: '2026-08-08'
+  score: 10
+  verdict: publish
+  note: |
+    Opus focused review of the Purito Oat-in Calming Gel Cream draft: verified all product-specific facts against the cached Target listing and Purito brand page. Price ($25.99, reg $30.00), size (3.38 oz/100 ml), seller/TCIN, and every quoted marketing phrase check out verbatim; two highlight quotes absent from the condensed cache were re-fetched live from Target, confirmed verbatim, and written back to the cache. No INCI is disclosed and the draft says so; general emollient/colloidal-oatmeal evidence is routed out with no imported trial numbers and all marketing claims are quarantined. Verdict: publish.
+purito-panthenol-moisturizer:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Verified all product-specific facts against the cached PURITO page and a fresh brand-page fetch: full INCI list and order, ingredient positions (Panthenol 2nd/10%, Squalane 3rd, Niacinamide 6th), Bambusa 3,497 ppm, price $23.00, size 100 mL/3.38 fl oz, and the "Blemish recovery"/"Glow boost"/bamboo claims all check out, with efficacy correctly routed to [[panthenol]] and no imported trial numbers. Revise: two quote-fidelity fixes needed — the "Strengthens the skin barrier with 10% Panthenol" quotation is not verbatim on the brand page (actual phrase is "helps to strengthen the skin barrier"), and the headline tagline uses a hyphen where the brand uses an en-dash.
+epiduo-adapalene-benzoyl-peroxide-gel:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus focused review 2026-08-08: verified product-specific facts against cached Target source and re-fetched DailyMed Rx (setid 67002593) and OTC (setid ae3f8cd9, NDA220736) labels — composition/INCI, actives (adapalene 0.1% / benzoyl peroxide 2.5%), OTC 'For the treatment of acne' use, carton 'First FDA-approved OTC dual active' claim, 05/22/2026 marketing start, and Target price/size ($19.99/15g, $34.99/45g, dated 2026-08-07) all check out; the 65% marketing stat is correctly quarantined and efficacy is routed to ingredient pages with no imported trial numbers. Verdict revise: the OTC 'Directions' quote is altered (semicolons/lowercasing) from the label's exact wording and one Rx footnote clause ('Not for ophthalmic, oral or intravaginal use') was not verifiable on re-fetch — both fixable without touching the load-bearing claims.
+cosrx-low-ph-good-morning-gel-cleanser:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus focused product-fact review of cosrx-low-ph-good-morning-gel-cleanser (draft) against cached COSRX and Target sources: price ($14.00, corroborated by both), sizes (150/50 mL), pH (5.31±1.00 corroborated by Target 5.3-6.3), full 25-item INCI, fragrance/sulfate-free status, and all marketing quotes verified verbatim; efficacy correctly routed out to salicylic-acid with no imported trial numbers. Verdict revise: the draft miscounts Betaine Salicylate as 'eighteenth of twenty-three' when it is the 19th of 25 ingredients (repeated 3x), plus one minor non-verbatim marketing quote; both are surgical fixes with no fabrication of load-bearing claims.
+medik8-c-tetra-vitamin-c-serum:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Verified all product-specific facts for medik8-c-tetra-vitamin-c-serum against the cached Medik8 product page (research-cache/web/4bd8570a772714ab.md): 30 ml / £45, 7% THDA, full INCI order, no-added-fragrance/no-ferulic-acid status, the usage-directions quote, and the "7 days to visibly brighter smoother skin" and "4 weeks to visibly reduced wrinkles & dark spots" marketing quotes all check out verbatim, with numeric panel stats correctly left unasserted and grades routing general L-ascorbic-acid evidence out with no imported trial numbers. One misquote: line 79's "Restores the look of skin radiance in 7 days" should read "Restore the look of skin radiance in just 7 days" per source. Verdict: revise (single fixable non-verbatim quote; all other product-specific claims verified).
+skinmedica-ha5-rejuvenating-hydrator:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus product-specific review of SkinMedica HA5 Rejuvenating Hydrator (link-out page) against the two cached sources (Dermstore listing, DermApproved review): INCI list, size (2 fl oz / 56.7g), both prices ($184 Dermstore / $178 DermApproved, dated 2026-08-07), the silicone-ordering claim, all marketing quotes, the directions quote, and the manufacturer-study and formula-description quotes all verify verbatim/accurately, and general HA evidence is correctly routed to the ingredient page with no imported trial numbers. One non-verbatim quote flagged: the opening/footnote \"five types of hydrators that immediately go to work replenishing your skin's hyaluronic acid\" extends beyond the cached \"blends five types of hydrators.\" Verdict revise: trim that quote to its verbatim fragment (and soften the unsourced \"physician-dispensed\" tag); everything else is publish-ready.
+youth-to-the-people-superfood-antioxidant-cleanser:
+  last_reviewed: '2026-08-08'
+  score: 10
+  verdict: publish
+  note: |
+    Opus focused review: verified all product-specific facts against the cached Target listing (source_cache key f45705a919479011) — price $33.20/regular $39.00/15% off, 8 oz, UPC 810834030322, TCIN 1006104836, every quoted marketing phrase verbatim, and the absence of an INCI correctly disclosed rather than fabricated. Grades honest (effect minimal/anecdotal), no trial numbers imported, general evidence routed out to [[moisturizing]], marketing claims quarantined. Verdict: publish.

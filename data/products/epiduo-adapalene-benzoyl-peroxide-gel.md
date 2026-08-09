@@ -1,5 +1,5 @@
 ---
-analyzed: '2026-08-07'
+analyzed: '2026-08-08'
 assurance: sonnet
 brand: Galderma
 category: Retinoids
@@ -7,22 +7,21 @@ grades:
 - effect: notable
   evidence: solid
   note: Adapalene 0.1% and benzoyl peroxide 2.5% are each solidly evidenced first-line
-    topical acne actives on their own ([[adapalene]], [[benzoyl-peroxide]]), and
-    combining a retinoid with benzoyl peroxide is a well-established acne strategy.
-    This exact fixed-dose combination carries its own FDA indication, "for the topical
-    treatment of acne vulgaris in patients 12 years of age and older," first as a
-    prescription drug and, since May 2026, also as an over-the-counter switch under
-    the Differin Epiduo name, rather than resting on extrapolation from the two
-    actives alone.
+    topical acne actives on their own ([[adapalene]], [[benzoyl-peroxide]]), and combining
+    a retinoid with benzoyl peroxide is a well-established acne strategy. This exact
+    fixed-dose combination carries its own FDA indication, "for the topical treatment
+    of acne vulgaris in patients 12 years of age and older," first as a prescription
+    drug and, since May 2026, also as an over-the-counter switch under the Differin
+    Epiduo name, rather than resting on extrapolation from the two actives alone.
   use: Acne vulgaris, its FDA-approved indication for patients 12 and older (health)
 key_actives:
 - adapalene
 - benzoyl-peroxide
 name: Epiduo (adapalene 0.1% / benzoyl peroxide 2.5%)
 slug: epiduo-adapalene-benzoyl-peroxide-gel
-status: draft
+status: published
 type: product
-updated: '2026-08-07'
+updated: '2026-08-08'
 ---
 
 Epiduo is a fixed-dose gel combining [[adapalene]] 0.1%, a synthetic [[retinoids|retinoid]], with [[benzoyl-peroxide|benzoyl peroxide]] 2.5% in a single once-daily application, FDA-labeled as "indicated for the topical treatment of acne vulgaris in patients 12 years of age and older."[^epiduo-rx]

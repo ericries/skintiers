@@ -1,5 +1,5 @@
 ---
-analyzed: '2026-08-07'
+analyzed: '2026-08-08'
 assurance: sonnet
 brand: Purito
 category: Moisturizers
@@ -8,11 +8,11 @@ grades:
 - effect: modest
   evidence: solid
   note: 'health: several controlled trials show topical dexpanthenol speeds barrier
-    repair and reduces irritation-induced redness versus a plain vehicle, though
-    much of that literature is manufacturer-linked; covered in full on [[panthenol]].
-    This cream declares plain Panthenol (not specifically the dexpanthenol form
-    tested in those trials) at 10%, higher than any concentration directly tested
-    in the cited trials'
+    repair and reduces irritation-induced redness versus a plain vehicle, though much
+    of that literature is manufacturer-linked; covered in full on [[panthenol]]. This
+    cream declares plain Panthenol (not specifically the dexpanthenol form tested
+    in those trials) at 10%, higher than any concentration directly tested in the
+    cited trials'
   use: Barrier support and irritation recovery (topical panthenol)
 - effect: modest
   evidence: preliminary
@@ -28,9 +28,9 @@ key_actives:
 - centella-asiatica
 name: Purito Mighty Bamboo Panthenol Cream
 slug: purito-panthenol-moisturizer
-status: draft
+status: published
 type: product
-updated: '2026-08-07'
+updated: '2026-08-08'
 ---
 
 Purito Mighty Bamboo Panthenol Cream is a South Korean facial moisturizer from [[purito]] built around 10% panthenol as its headline ingredient, sold in a 100 ml size for $23.00 on the brand's own site.[^purito]

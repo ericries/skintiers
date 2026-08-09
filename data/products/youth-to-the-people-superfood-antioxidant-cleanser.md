@@ -1,6 +1,6 @@
 ---
-analyzed: '2026-08-07'
-assurance: sonnet
+analyzed: '2026-08-08'
+assurance: opus
 brand: Youth To The People
 category: Cleansers
 comparator: other rinse-off gel cleansers marketed with plant antioxidants
@@ -10,15 +10,14 @@ grades:
   note: 'cosmetic: an 8 oz gel cleanser built around kale, spinach, and green tea
     plant extracts marketed for antioxidant support; as a rinse-off product it is
     on the skin only briefly before being washed away, unlike a leave-on antioxidant
-    formulation; Target''s listing does not disclose a full ingredient list, so
-    the extracts'' position and concentration cannot be checked; no product-specific
-    trial'
+    formulation; Target''s listing does not disclose a full ingredient list, so the
+    extracts'' position and concentration cannot be checked; no product-specific trial'
   use: Antioxidant support from plant extracts, rinsed off (cosmetic)
 name: Youth To The People Superfood Antioxidant Cleanser
 slug: youth-to-the-people-superfood-antioxidant-cleanser
-status: draft
+status: published
 type: product
-updated: '2026-08-07'
+updated: '2026-08-08'
 ---
 
 Youth To The People Superfood Antioxidant Cleanser is an 8 oz gel face wash from [[youth-to-the-people]] built around kale, spinach, and green tea plant extracts, sold by Target at $33.20 as of 2026-08-07 (15% off a $39.00 list price).[^target]

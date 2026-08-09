@@ -1,5 +1,5 @@
 ---
-analyzed: '2026-08-07'
+analyzed: '2026-08-08'
 assurance: sonnet
 brand: COSRX
 category: Cleansers
@@ -8,9 +8,9 @@ grades:
 - effect: minimal
   evidence: anecdotal
   note: 'cosmetic/health overlap: vs soap-based or high-pH foaming cleansers; built
-    on cocamidopropyl betaine and sodium lauroyl methyl isethionate rather than
-    sulfates, at a manufacturer-labeled pH of 5.31±1.00, roughly corroborated by
-    Target''s listed range of 5.3 to 6.3; no independent trial of this cleanser'
+    on cocamidopropyl betaine and sodium lauroyl methyl isethionate rather than sulfates,
+    at a manufacturer-labeled pH of 5.31±1.00, roughly corroborated by Target''s listed
+    range of 5.3 to 6.3; no independent trial of this cleanser'
   use: Gentle, low-pH cleansing without stripping the skin (composition-based)
 - effect: minimal
   evidence: anecdotal
@@ -23,9 +23,9 @@ key_actives:
 - salicylic-acid
 name: COSRX Low pH Good Morning Gel Cleanser
 slug: cosrx-low-ph-good-morning-gel-cleanser
-status: draft
+status: published
 type: product
-updated: '2026-08-07'
+updated: '2026-08-08'
 ---
 
 COSRX Low pH Good Morning Gel Cleanser is a South Korean gel facial cleanser built around a mildly acidic, manufacturer-labeled pH and mild surfactants, sold in 150 mL and 50 mL sizes.[^1]

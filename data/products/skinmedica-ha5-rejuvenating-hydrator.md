@@ -1,5 +1,5 @@
 ---
-analyzed: '2026-08-07'
+analyzed: '2026-08-08'
 assurance: sonnet
 brand: SkinMedica
 category: Moisturizers
@@ -8,22 +8,22 @@ grades:
 - effect: modest
   evidence: preliminary
   note: 'cosmetic hydration: blends several hyaluronic-acid forms (sodium hyaluronate,
-    sodium hyaluronate crosspolymer, hydrolyzed hyaluronic acid) with glycerin
-    over a dimethicone/silicone base; no product-specific trial verified firsthand,
-    a third-party review cites unspecified manufacturer-sponsored studies; several
-    times the price of a plain hyaluronic-acid serum such as [[the-ordinary-multi-peptide-ha-serum]]'
+    sodium hyaluronate crosspolymer, hydrolyzed hyaluronic acid) with glycerin over
+    a dimethicone/silicone base; no product-specific trial verified firsthand, a third-party
+    review cites unspecified manufacturer-sponsored studies; several times the price
+    of a plain hyaluronic-acid serum such as [[the-ordinary-multi-peptide-ha-serum]]'
   use: Skin hydration
 key_actives:
 - hyaluronic-acid
 - glycerin
 name: SkinMedica HA5 Rejuvenating Hydrator
 slug: skinmedica-ha5-rejuvenating-hydrator
-status: draft
+status: published
 type: product
-updated: '2026-08-07'
+updated: '2026-08-08'
 ---
 
-SkinMedica HA5 Rejuvenating Hydrator is a physician-dispensed hydrating facial serum from [[skinmedica]], sold in a 2 fl. oz. (56.7 g) bottle and described by Dermstore's listing as blending "five types of hydrators that immediately go to work replenishing your skin's hyaluronic acid," for "all skin types."[^dermstore]
+SkinMedica HA5 Rejuvenating Hydrator is a hydrating facial serum from [[skinmedica]], sold in a 2 fl. oz. (56.7 g) bottle and described by Dermstore's listing as blending "five types of hydrators" to replenish the skin's hyaluronic acid, for "all skin types."[^dermstore]
 
 > Moisturizing with a humectant is a well-evidenced way to raise a skin's hydration reading, and hyaluronic acid specifically has solid trial evidence for that use, covered on [[hyaluronic-acid]]. This serum supplies that hydration through several hyaluronic-acid forms plus glycerin, layered over a dimethicone/silicone base that sits ahead of the named hyaluronic-acid ingredients in the ingredient list, at a price several times that of a plain hyaluronic-acid serum.[^dermstore]
 
@@ -65,5 +65,5 @@ Claims from the retail listing, not established by the formula data above:
 
 ## Sources
 
-[^dermstore]: SkinMedica HA5 Rejuvenating Hydrator (2 fl. oz.) product listing, Dermstore. States the product "blends five types of hydrators that immediately go to work replenishing your skin's hyaluronic acid," describes it as "ideal for all skin types" and claims it will "balance moisture levels to smooth and soften rough texture, lines and wrinkles," with a separate claim of "eight continuous hours of deep hydration." Lists the full ingredient list and directions ("Apply twice daily as the last treatment product in your skin care regimen and immediately before applying a moisturizer (AM/PM) and before sunscreen (AM). Apply to face, neck and decollete or any area where fine lines and wrinkles primarily exist."). Also the source for price ($184.00) and size (2 fl. oz. / 56.7 g). Retailer listing, cited for formula, marketing claims, and buying availability, not as efficacy evidence. https://www.dermstore.com/p/skinmedica-ha5-rejuvenating-hydrator/11290631/ (accessed 2026-08-07)
+[^dermstore]: SkinMedica HA5 Rejuvenating Hydrator (2 fl. oz.) product listing, Dermstore. States the product "blends five types of hydrators" to replenish hyaluronic acid, describes it as "ideal for all skin types" and claims it will "balance moisture levels to smooth and soften rough texture, lines and wrinkles," with a separate claim of "eight continuous hours of deep hydration." Lists the full ingredient list and directions ("Apply twice daily as the last treatment product in your skin care regimen and immediately before applying a moisturizer (AM/PM) and before sunscreen (AM). Apply to face, neck and decollete or any area where fine lines and wrinkles primarily exist."). Also the source for price ($184.00) and size (2 fl. oz. / 56.7 g). Retailer listing, cited for formula, marketing claims, and buying availability, not as efficacy evidence. https://www.dermstore.com/p/skinmedica-ha5-rejuvenating-hydrator/11290631/ (accessed 2026-08-07)
 [^dermapproved]: SkinMedica HA5 Rejuvenating Hydrator review, DermApproved. Lists price and size ($178.00 for 56.7 g) and describes the formula as containing "sodium hyaluronate, hydrolyzed HA, acetylated HA, free HA, and HA crosspolymer." States that brand-sponsored studies reported "improvements in hydration measures, fine wrinkle appearance, and skin smoothness over 4-8 weeks of use." Third-party review, cited for price corroboration and its description of manufacturer-sponsored studies, not as independent efficacy evidence. https://dermapproved.com/products/skinmedica-ha5-rejuvenating-hydrator/ (accessed 2026-08-07)
