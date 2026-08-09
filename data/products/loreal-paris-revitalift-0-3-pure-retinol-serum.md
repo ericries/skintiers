@@ -3,6 +3,15 @@ analyzed: '2026-08-07'
 assurance: sonnet
 brand: L'Oreal Paris
 category: Retinoids
+evidence_levels:
+  active: retinol
+  active_note: a well-studied over-the-counter retinoid, with vehicle-controlled trial
+    evidence for improving fine wrinkles and pigment
+  product_note: a real retinol disclosed at 0.3% on the label, near the top of the
+    0.1% to 0.4% range those trials used, unlike mass-market rivals that hide the percentage
+  formula_note: no independent trial tests this exact serum, and the brand's own 12-week
+    claim is unpublished, so the case rests on the retinol evidence at a comparable, disclosed dose
+  formula_tested: false
 grades:
 - effect: modest
   evidence: preliminary

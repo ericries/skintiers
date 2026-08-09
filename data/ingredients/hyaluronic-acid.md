@@ -7,6 +7,15 @@ slug: hyaluronic-acid
 status: published
 type: ingredient
 updated: '2026-07-28'
+videos:
+- title: "Skincare myths I used to believe"
+  creator: Michelle Wong (Lab Muffin)
+  creator_slug: michelle-wong
+  credential: Cosmetic chemist, PhD
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=c5ujp0KftnE
+  thesis: "The widely repeated claim that hyaluronic acid holds 1,000 times its weight in water (or 6 litres per gram) traces back to an unreferenced 'fun fact' in a Cosmetic Ingredient Review safety assessment's introduction, not to actual data; a 2024 paper that tried to verify it experimentally found no detectable binding at that scale and calculated hyaluronic acid actually holds roughly 40 to 85 percent of its own weight in water. Wong also notes The Ordinary's own clinical test found its hyaluronic acid serum worked about the same on damp versus dry skin, since hydrogen bonding only acts over very short distances."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship, and the video explicitly says so."
 ---
 
 Hyaluronic acid is a large sugar molecule (a polysaccharide) found throughout the human body, including the skin and soft tissue, where it binds and holds water, and in skincare it is used topically as a humectant in serums and moisturizers.[^voigt][^papakon]

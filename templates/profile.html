@@ -21,7 +21,7 @@
 
   {% if evidence_levels %}
   <section class="evlevels" aria-label="How strong is the evidence">
-    <div class="evl-head"><span class="evl-t">How strong is the evidence?</span><span class="evl-s">Three separate questions</span></div>
+    <div class="evl-head"><span class="evl-t">How strong is the evidence?</span><span class="evl-s">{% if evidence_levels.rank %}Four{% else %}Three{% endif %} separate questions</span></div>
     <div class="evl-lvl evl-active">
       <div class="evl-side"><span class="evl-name"><span class="evl-n">01</span>The active</span><span class="evl-q">Does the ingredient work?</span></div>
       <div class="evl-body">
@@ -36,8 +36,19 @@
       <div class="evl-side"><span class="evl-name"><span class="evl-n">02</span>This product</span><span class="evl-q">A good way to get it?</span></div>
       <div class="evl-body"><p class="evl-verdict">{{ evidence_levels.product_note | safe }}.</p></div>
     </div>
+    {% if evidence_levels.rank %}
+    <div class="evl-lvl evl-rank">
+      <div class="evl-side"><span class="evl-name"><span class="evl-n">03</span>How strong a type?</span><span class="evl-q">Where it ranks</span></div>
+      <div class="evl-body">
+        <ol class="evl-ladder">
+          {% for r in evidence_levels.rank.rungs %}<li class="evl-rung tier-{{ r.tier_key }}{% if r.here %} here{% endif %}"><span class="evl-bar"></span><span class="evl-rname">{{ r.name }}</span>{% if r.here %}<span class="evl-here">this</span>{% endif %}</li>{% endfor %}
+        </ol>
+        <p class="evl-rmore">Full ranking: <a href="{{ evidence_levels.rank.list_href }}">{{ evidence_levels.rank.list_name }}</a></p>
+      </div>
+    </div>
+    {% endif %}
     <div class="evl-lvl evl-formula">
-      <div class="evl-side"><span class="evl-name"><span class="evl-n">03</span>This exact formula</span><span class="evl-q">Tested as sold?</span></div>
+      <div class="evl-side"><span class="evl-name"><span class="evl-n">{% if evidence_levels.rank %}04{% else %}03{% endif %}</span>This exact formula</span><span class="evl-q">Tested as sold?</span></div>
       <div class="evl-body"><p class="evl-verdict">{{ evidence_levels.formula_note | safe }}.</p>{% if not evidence_levels.formula_tested %}<div class="evl-status"><span class="evl-flag">Not tested directly</span></div>{% endif %}</div>
     </div>
   </section>

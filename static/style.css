@@ -391,6 +391,19 @@ footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;
 .evl-active{--evl-edge:var(--tier-good)}
 .evl-product{--evl-edge:var(--accent)}
 .evl-formula{--evl-edge:var(--tier-weak)}
+.evl-rank{--evl-edge:var(--tier-mid)}
+.evl-ladder{list-style:none;margin:2px 0 0;padding:0;display:flex;flex-direction:column;gap:5px;max-width:320px}
+.evl-rung{display:flex;align-items:center;gap:9px;font-size:14px;color:var(--faint);line-height:1.3}
+.evl-rung .evl-bar{height:8px;border-radius:2px;flex:0 0 auto;background:var(--rule-strong)}
+.evl-rung.tier-best .evl-bar{width:66px;background:var(--tier-best)}
+.evl-rung.tier-good .evl-bar{width:50px;background:var(--tier-good)}
+.evl-rung.tier-mid  .evl-bar{width:36px;background:var(--tier-mid)}
+.evl-rung.tier-weak .evl-bar{width:22px;background:var(--tier-weak)}
+.evl-rung.tier-unrated .evl-bar{width:16px;background:var(--faint)}
+.evl-rung.here{color:var(--ink);font-weight:600}
+.evl-here{font-family:var(--mono);font-size:9px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);border:1px solid var(--accent);border-radius:4px;padding:1px 5px;margin-left:2px}
+.evl-rmore{font-family:var(--mono);font-size:11px;color:var(--faint);margin:9px 0 0}
+.evl-rmore a{color:var(--accent)}
 .evl-side{display:flex;flex-direction:column;gap:5px}
 .evl-name{font-family:var(--mono);font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink);display:flex;align-items:baseline;gap:7px}
 .evl-n{font-size:10.5px;color:var(--faint)}

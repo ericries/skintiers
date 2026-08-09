@@ -302,7 +302,7 @@ def grades_view_for(metadata, published_slugs=None, slug_to_name=None):
     return view
 
 
-def evidence_levels_view(metadata, published_slugs=None, slug_to_name=None):
+def evidence_levels_view(metadata, published_slugs=None, slug_to_name=None, rank_index=None):
     """Build the three-level evidence model from a product's `evidence_levels:`
     frontmatter, or None if absent. Separates the evidence a reader conflates:
       01 the active/ingredient (reuses the top grade's effect x evidence + links
@@ -340,6 +340,7 @@ def evidence_levels_view(metadata, published_slugs=None, slug_to_name=None):
         "product_note": note(el.get("product_note")),
         "formula_note": note(el.get("formula_note")),
         "formula_tested": bool(el.get("formula_tested", False)),
+        "rank": (rank_index or {}).get(active),
     }
 
 
@@ -510,6 +511,43 @@ def tier_list_view(profile, by_slug):
         tiers.append({"key": key, "label": _TIER_LABEL_BY_KEY.get(key, "Unrated"), "items": rows})
     return {"title": tl.get("title") or "", "by": tl.get("by") or "",
             "tiers": tiers, "missing": missing}
+
+
+def build_potency_rank_index(profiles, by_slug):
+    """Map an ingredient slug -> a potency-ladder render model, derived from any
+    published best-of `list` whose ranking is by potency/strength. Lets a product
+    page answer 'where does this active rank vs. others?' with no hand-authoring,
+    staying in sync with the tier list itself."""
+    index = {}
+    for p in profiles:
+        if p.get("type") != "list" or p.get("status") != "published":
+            continue
+        tl = p.metadata.get("tier_list") or {}
+        hay = " ".join(str(tl.get(k) or "") for k in ("by", "title")).lower() + " " + str(p.metadata.get("name") or "").lower()
+        if "potenc" not in hay and "strength" not in hay:
+            continue
+        rungs = []
+        for raw in tl.get("items") or []:
+            if isinstance(raw, dict):
+                slug = (raw.get("slug") or "").strip()
+                override = (raw.get("tier") or "").strip().lower()
+            else:
+                slug, override = str(raw).strip(), ""
+            tgt = by_slug.get(slug)
+            if tgt is None or tgt.get("status") != "published":
+                continue
+            key = (_TIER_ALIASES.get(override) if override else None) or entity_tier(tgt.metadata) or "unrated"
+            rungs.append({"slug": slug, "name": tgt.metadata.get("name") or slug, "tier_key": key})
+        if len(rungs) < 2:
+            continue
+        for i, r in enumerate(rungs):
+            index[r["slug"]] = {
+                "list_slug": p["slug"],
+                "list_name": p.metadata.get("name") or p["slug"],
+                "list_href": f"{p['slug']}.html",
+                "rungs": [{**rr, "here": (j == i)} for j, rr in enumerate(rungs)],
+            }
+    return index
 
 
 def routine_summary(profile, by_slug):
@@ -999,6 +1037,8 @@ def build():
                 creator_videos.setdefault(cs, []).append(
                     {**v, "on_slug": p["slug"], "on_name": p.metadata.get("name")})
 
+    potency_rank_index = build_potency_rank_index(profiles, by_slug)
+
     for p in profiles:
         linked = sklib.linkify_xrefs(p.content, slugs, names)
         body = sklib.render_markdown(linked)
@@ -1043,7 +1083,7 @@ def build():
             sources_html=sources_html,
             comparator=p.get("comparator") or "others in its category",
             grades_view=grades_view_for(p.metadata, slugs, names),
-            evidence_levels=evidence_levels_view(p.metadata, slugs, names),
+            evidence_levels=evidence_levels_view(p.metadata, slugs, names, potency_rank_index),
             recommended_in=p.get("recommended_in") or [],
             images=images,
             monogram=monogram,

@@ -31,6 +31,15 @@ slug: beauty-of-joseon-matte-sun-stick
 status: published
 type: product
 updated: '2026-08-08'
+videos:
+- title: "I was wrong about sunscreen sticks (kinda)"
+  creator: Michelle Wong (Lab Muffin)
+  creator_slug: michelle-wong
+  credential: Cosmetic chemist, PhD
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=NyWP_a0rICQ
+  thesis: "In weighed application tests, this was the first sunscreen stick that let Wong reach the labeled SPF amount with four passes, after Glow by Ramon's collaboration tweaked the formula for better payout onto skin. It still took about 1.5 minutes of swiping to get there, and she still missed spots on her face using the four-pass method, consistent with her general finding that sunscreen sticks are error-prone and a lotion is the better default for most people."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 ---
 
 Beauty of Joseon Matte Sun Stick is a Korean twist-up stick sunscreen, 18 g, rated SPF50 PA++++, built on the same family of modern organic UV filters as the brand's liquid Relief Sun and marketed around a mugwort-and-camellia botanical blend and a sebum-absorbing matte finish.[^1][^2]
