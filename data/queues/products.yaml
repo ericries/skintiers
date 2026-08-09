@@ -455,9 +455,10 @@
 - name: Differin (adapalene gel)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: adapalene
   source: null
+  note: published as differin-adapalene-gel-0-1
 - name: CeraVe Healing Ointment
   type: product
   priority: 7

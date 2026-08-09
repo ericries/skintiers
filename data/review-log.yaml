@@ -2519,3 +2519,51 @@ beauty-of-joseon-ginseng-essence-water:
   verdict: revise-then-fixed
   note: |
     Opus verified product-specific facts against the cached beautyofjoseon.com page (source_cache key 5b9f4d1203dc2cc1): the 24-ingredient INCI matches verbatim, price $18.00 / 150 ml and fragrance-free + alcohol-free status confirmed and dated 2026-08-07, and all marketing quotes ("Smooth + Glow," "clinically proven to be non-irritating," etc.) are correctly quarantined. Verdict revise: Panax Ginseng Root Water is the 7th ingredient not the 6th (stated in three places), the "ahead of plain water further down" claim is false (water is the sole, first ingredient), one bolded quote drops a leading "A," and the link-out page imports niacinamide trial figures (hydroquinone 4%, 2–5%) that belong routed out to [[niacinamide]].
+houttuynia-cordata:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus verification: re-fetched all three cited PubMed primaries (Yang 2024 CIMB 47(1):18; Huang 2025 IJBM 314:144264; Sangthong 2025 Sci Rep 15:37263). Every statistic (all Sangthong IC50/FRAP/concentration/stability values) and all quoted phrases verified verbatim EXCEPT one: the Yang quote \"clear away...eliminate...drain pus\" is de-conjugated from the source's \"clears away...eliminates...drains pus.\" Evidence is honestly represented (no human topical trial, all uses graded preliminary/not-established, popular claims flagged not graded, COIs accurate); verdict revise for the single non-verbatim quote fix.
+sulfur:
+  last_reviewed: '2026-08-08'
+  score: 10
+  verdict: publish
+  note: |
+    Opus verification: re-fetched all six cited primaries (Torok 2005 PMID 16047874, Liu/Cochrane 2020 PMID 33034949, Lin 1988 PMID 2450900, Strauss 1978 PMID 150816, Gupta/Nicol 2004 PMID 15303787, Trumbore 2009 PMID 19271381) — every quoted phrase is verbatim and every statistic (n=75/77, 80% vs 72% P=.04, 69% vs 45% P=.0007, 79% vs 59% P=.01, 85% vs 97% tolerance, ~1% absorption, 49 trials/3,880 participants, 5% sulfur patches) is present in its cited source. All sources are peer-reviewed primaries with no aggregator load-bearing; efficacy is honestly framed (rosacea preliminary on one RCT + one uncontrolled 8-patient series; acne marked uncertain/weak with the popular-but-unproven acne use explicitly called out). Verdict: publish.
+phloretin:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus verification of phloretin: re-fetched all four cited PubMed primaries (19146606, 12711454, 31614273, 32971088); every quoted phrase is verbatim and every stat (n=10, IC50 169.36 umol/L, 30 h, biomarker list) checks out, and thin/mixture-only evidence is honestly represented (no ungraded efficacy claims). One citation error: [^chen] volume/article should be 226:117642, not 231:118127. Verdict: revise (fix citation, then publish).
+titanium-dioxide:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus verification of titanium-dioxide.md: re-fetched all four cited primaries (Schneider/Lim PMID 30444533, Cole et al. PMID 26431814, Dreno et al. PMID 31588611, FDA 84 FR 6204 via govinfo) and confirmed every quoted phrase is verbatim and the reflection/absorption/25% stats are genuine. Found one fixable, internally contradictory statistic: the count of FDA-reviewed actives is given as "twelve" (line 21) and "fourteen" (line 41) when the rule reviewed sixteen (2 Category I, 12 Category III, 2 Category II). Verdict revise.
+arbutin:
+  last_reviewed: '2026-08-08'
+  score: 10
+  verdict: publish
+  note: |
+    Opus verification (2026-08-08): re-fetched all six cited primaries (PubChem CID 440936, Mann 2018 JID, Tantanasrigul 2025, Polnikorn 2010, Teeranachaideekul 2021, Boo 2021). Every quoted phrase is verbatim and every statistic (IC50 millimolar/1.1 µmol/L, 50,000-compound screen; 30-pt split-face trial p=0.344/0.268/0.032/0.004/0.045, no COI; Polnikorn 35-pt >81%/30%, 8.57%, 5.71%; 7% cream ~92% at 60 days; PubChem structure description) checks out against its source. Evidence is honestly represented — laser confound flagged, no arbutin-alone RCT acknowledged, marketing claims called out not graded, all sources durable primaries; verdict publish.
+hypochlorous-acid:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus focused review of hypochlorous-acid (draft): re-fetched all five cited PubMed primaries (Huang 19403473, Fukuyama 29028288, Gold 31904191, Krynicka 35167708, Haralovic 41462936) and confirmed every load-bearing quote and every number/concentration (31 patients, 0.05% hydrogel, 0.1% betamethasone, 0.005% bath) is verbatim/present in its source, with evidence honestly graded (eczema preliminary, wound care weak, acne anecdotal) and the stabilized-spray-lacks-its-own-trial caveat stated throughout. Verdict: revise — two surgical fixes: one Fukuyama quote ("prevented lesion development throughout the observation") is a paraphrase inside quotation marks rather than verbatim, and line 19 mislabels Huang's enrollment criterion as "Staphylococcus aureus infection" instead of "secondary bacterial infection." No fabricated statistics and no aggregator used as load-bearing evidence.
+panax-ginseng:
+  last_reviewed: '2026-08-08'
+  score: 10
+  verdict: publish
+  note: |
+    Opus verification: re-fetched all five cited PubMed primaries (39583168, 26024573, 25867599, 27616902, 20041778) and confirmed every quoted phrase is verbatim and every stat checks out — n=23 topical EG-cream RCT, oral n=78 (3x750 mg, 24 wk) and n=82 (3 g/day, 24 wk) trials, plus the two review quotes. Evidence is honestly represented: topical proof is a single small trial, oral trials are correctly flagged as route-mismatched, the Cho herb confound and preclinical-only mechanism are disclosed, and marketing claims are called out rather than graded. One minor non-blocking nuance: the Hwang GPDS is quoted as "significantly decreased" where the abstract says "significantly reduced" (same significance/direction). Verdict: publish.
+tetrahexyldecyl-ascorbate:
+  last_reviewed: '2026-08-08'
+  score: 9
+  verdict: revise-then-fixed
+  note: |
+    Opus verification of tetrahexyldecyl-ascorbate.md: re-fetched all 5 PubMed primaries. Every quote (Swindell 'poor antioxidant... degrades rapidly when exposed to singlet oxygen,' 'completely abrogated by the addition of AZ'; Afzal conclusion; Meyer 'ascorbic acid precursor'/'type I interferon' passages) is verbatim, and every Afzal stat (wrinkle/pigment/redness % and P values, n=44) and the Min P values (n=35) check out; efficacy is honestly hedged and marketing claims correctly debunked. Verdict revise: line 22 wrongly attributes Sytheon funding to the Min open-label study (Europe PMC lists Image Skincare only), and the paywalled Scheman letter has no abstract, so its 'case series'/'patch testing'/plural-patients specifics are unverified beyond the title.

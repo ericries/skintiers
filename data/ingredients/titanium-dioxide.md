@@ -1,11 +1,66 @@
 ---
-analyzed: null
-assurance: stub
+analyzed: '2026-08-08'
+assurance: sonnet
 name: Titanium dioxide
 slug: titanium-dioxide
-status: stub
+status: published
 type: ingredient
-updated: '2026-08-07'
+updated: '2026-08-08'
 ---
 
-Stub — to be researched and filled. Titanium dioxide is one of the two mineral (inorganic) UV filters used in sunscreens, alongside [[zinc-oxide]].
+Titanium dioxide is an inorganic (mineral) UV filter used in sunscreens alongside [[zinc-oxide]], and also functions as a white colorant in cosmetics and food. As a sunscreen active it is one of only two filters the US FDA proposed as generally recognized as safe and effective (GRASE) in its 2019 sunscreen review, at concentrations up to 25%, but its ultraviolet coverage is narrower than zinc oxide's and it carries a distinct nanoparticle-inhalation caution that zinc oxide does not.[^fda][^schneider]
+
+> Titanium dioxide is a photostable mineral UV filter with solid UVB protection and only partial UVA coverage, weaker in the long-wave UVA range than zinc oxide.[^schneider] Human and reviewed evidence finds that its nanoparticle form does not penetrate past the outer stratum corneum into living skin when applied topically, a no-dermal-harm conclusion drawn independently by the EU's SCCS and corroborated by the FDA's own finding of "sufficient safety data" on the ingredient, so the safety question that remains is inhalation from sprays and loose powders, not topical absorption.[^dreno][^fda]
+
+## The Rubric
+
+Grades are for titanium dioxide as a sunscreen UV filter. Framing is relative and names the comparator, zinc oxide, the other mineral filter.
+
+**UVB protection (sunburn, DNA photodamage)**
+- **Effect size: notable.** Titanium dioxide is an efficient UVB absorber. Schneider and Lim's comparative review states plainly that "TiO2 provides better UVB protection" than zinc oxide, while zinc oxide's advantage is a broader combined UVA-UVB curve.[^schneider] "Notable: titanium dioxide is the stronger UVB absorber of the two mineral filters."
+- **Evidence quality: solid.** The FDA's 2019 safety-and-effectiveness review found "sufficient safety data on both zinc oxide and titanium dioxide" to propose both as Category I (GRASE) sunscreen actives at up to 25%, the only two of sixteen reviewed actives placed in Category I.[^fda]
+
+**UVA protection (photoaging, deeper damage)**
+- **Effect size: modest, and narrower than zinc oxide.** The same Schneider and Lim comparison that credits titanium dioxide with better UVB protection describes zinc oxide, not titanium dioxide, as having "a broad UVA-UVB absorption curve," meaning titanium dioxide's UVA coverage does not extend as far into the long-wave UVA range.[^schneider] It still absorbs across the UV band the FDA regulates for sunscreens rather than reflecting it away: an integrating-sphere study of both metal oxides found reflection accounted for "only 4-5%" of their protection, with the mineral filters providing "UV protection primarily via absorption of UV radiation."[^cole] "Modest: real UVA absorption, but the narrower of the two mineral filters, with zinc oxide reaching further into long-wave UVA."
+- **Evidence quality: solid for the mechanism, comparative for the gap.** The absorption mechanism is directly measured;[^cole] the UVA shortfall relative to zinc oxide rests on the qualitative comparison in Schneider and Lim's review rather than a head-to-head UVA protection factor.[^schneider]
+
+## What We Actually Know
+
+Titanium dioxide is a well-characterized mineral UV filter that protects mainly by absorbing ultraviolet radiation rather than reflecting it: an integrating-sphere study of both metal oxide filters found reflection contributed "only 4-5%" of their action across the UV range, "less than SPF 2," with the rest coming from "semiconductor band gap mediated absorbance of the UV photons."[^cole] Its particular strength is UVB, where a comparative review states it "provides better UVB protection" than zinc oxide, while its UVA coverage is the narrower of the two mineral filters, with zinc oxide's absorption curve described as broader across UVA and UVB together.[^schneider] On safety, a 2019 review of nano-titanium dioxide in cosmetics concludes that "nano-TiO2 did not penetrate beyond the outer layers of stratum corneum to viable cells," so the substance is not shown to reach living skin or the bloodstream when applied topically; the same review reports the EU Scientific Committee on Consumer Safety concluded topical "nano-TiO2 from sunscreens does not present any health risk when applied on the skin at a concentration up to 25%."[^dreno] The safety question that remains is inhalation, not topical absorption: the same source reports the SCCS "does not recommend the use of nano-TiO2 in formulations that may lead to exposure of the consumer's lungs by inhalation (sprayable products and powders)," based on animal data showing lung inflammation, since human inhalation data are sparse.[^dreno] On that safety record the FDA proposed titanium dioxide, with zinc oxide, as Category I (GRASE) at concentrations up to 25%, against twelve organic filters it left in Category III for insufficient data, and noted that nanomaterial forms of both minerals "have been used in marketed OTC sunscreens" without proposing particle-size-specific conditions of use.[^fda] Whether filtering UV in turn prevents photoaging and skin cancer is a question answered by trials of whole sunscreen products rather than of the isolated filter, covered on [[sunscreen-uv-filters]].
+
+## How It Works
+
+Titanium dioxide is a semiconductor, like zinc oxide. Cole and colleagues measured reflection and absorption separately with an integrating sphere and found both mineral filters work mainly by absorbing UV photons whose energy exceeds the material's band gap, re-emitting that energy as heat, and becoming "predominantly reflectors of light (up to 60% reflection) and non-absorbing" only at longer wavelengths past that band gap.[^cole] Titanium dioxide's band gap sits such that it absorbs UVB and shorter UVA wavelengths efficiently, which is the basis for Schneider and Lim's finding that it gives "better UVB protection" than zinc oxide, while zinc oxide's band gap lets it absorb further into long-wave UVA, giving it "a broad UVA-UVB absorption curve" that titanium dioxide does not match.[^schneider][^cole] Because that photon absorption is a bulk property of the semiconductor crystal rather than a breakable molecular bond, titanium dioxide, like zinc oxide, is photostable and does not photodegrade the way organic filters such as avobenzone can.[^cole] Milling the particles down to nanoparticle size (well under the visible-light wavelength range) is what makes a titanium dioxide sunscreen cosmetically transparent instead of opaque white; the same nanosizing is why its inhalation exposure, rather than its dermal exposure, draws the SCCS caution described above.[^dreno]
+
+## The Evidence
+
+Primary evidence, by question:
+
+**Mechanism and spectral coverage.** Cole et al. (Photodermatology, Photoimmunology & Photomedicine, 2016) used an integrating sphere to separate reflection from absorption for zinc oxide and titanium dioxide sunscreens and found reflection averaged "only 4-5%" across the UV range, concluding the filters "provide UV protection primarily via absorption of UV radiation" and "not through significant reflection or scattering," becoming reflective only at longer wavelengths past their semiconductor band gap.[^cole] Schneider and Lim's comparative review (Photodermatology, Photoimmunology & Photomedicine, 2019) states the practical division between the two mineral filters: "ZnO has a broad UVA-UVB absorption curve, while TiO2 provides better UVB protection," and notes that milling either filter to nanoparticle size makes it "much less visible after application," addressing the whitecast that larger mineral particles otherwise leave.[^schneider]
+
+**Regulatory status.** In its 2019 proposed rule, the FDA stated it had "sufficient safety data on both zinc oxide and titanium dioxide" and proposed sunscreens containing them "at concentrations of up to 25 percent" as GRASE, placing both in "Category I," the only two of the sixteen reviewed sunscreen actives given that status; twelve organic filters, including avobenzone, oxybenzone, octinoxate, homosalate, octisalate, and octocrylene, were placed in Category III for insufficient data.[^fda] The rule separately notes that "nanomaterial forms of the active ingredients zinc oxide and titanium dioxide have been used in marketed OTC sunscreens" and does not propose conditions of use specific to particle size.[^fda]
+
+**Nanoparticle skin penetration and inhalation safety.** Dréno et al.'s 2019 review in the Journal of the European Academy of Dermatology and Venereology, summarizing the EU Scientific Committee on Consumer Safety's assessment of nano-titanium dioxide in cosmetics, reports that "most studies performed in humans or animals showed that nano-TiO2 did not penetrate beyond the outer layers of stratum corneum to viable cells" and that the SCCS concluded "nano-TiO2 from sunscreens does not present any health risk when applied on the skin at a concentration up to 25%."[^dreno] The same review reports that the SCCS "does not recommend the use of nano-TiO2 in formulations that may lead to exposure of the consumer's lungs by inhalation (sprayable products and powders)," a caution based on animal inhalation studies showing lung inflammation rather than on any finding of dermal harm.[^dreno]
+
+## Uses
+
+Well-evidenced as a sunscreen UV filter, chiefly for UVB (sunburn, most of the DNA photodamage that drives skin cancer), at concentrations up to the 25% the FDA proposed as GRASE.[^fda][^schneider] Its UVA coverage is real but narrower than zinc oxide's, so a mineral sunscreen relying on titanium dioxide alone covers less of the UVA band than one built on zinc oxide or one combining both filters.[^schneider] Nanosizing addresses the visible white cast of the larger mineral particle and is not shown to raise topical safety concerns, since nano-titanium dioxide has not been shown to penetrate past the outer stratum corneum into living skin;[^dreno] the safety caution that does apply is against inhaling it, which is why regulators single out spray and loose-powder formats rather than the topical sunscreen or lotion form most buyers use.[^dreno] Whether the resulting UV protection lowers photoaging or skin-cancer risk in practice is a question about whole sunscreen products, covered on [[sunscreen-uv-filters]].
+
+## Common Marketing Claims
+
+This section is quarantined and discounted; treat everything here as unproven or overstated unless it appears in The Evidence above.
+
+- **"Physical blocker that reflects UV away."** A mechanistic myth shared with zinc oxide. Reflection accounts for only 4-5% of titanium dioxide's action across the UV range; it protects mainly by absorbing UV.[^cole]
+- **"Full broad-spectrum, equivalent to zinc oxide."** Titanium dioxide gives the stronger UVB protection of the two mineral filters, but the same comparative review credits zinc oxide, not titanium dioxide, with the broader UVA-UVB curve, so a titanium-dioxide-only sunscreen's UVA coverage is narrower.[^schneider]
+- **"Nanoparticles get absorbed into your bloodstream."** Not supported for topical use. Nano-titanium dioxide has not been shown to penetrate beyond the outer stratum corneum into living skin in human and animal studies reviewed by Dréno and colleagues; the safety caution that is supported is against inhaling it from sprays or loose powders, not against wearing it on skin.[^dreno]
+
+## See Also
+
+[[sunscreen-uv-filters]] [[zinc-oxide]]
+
+## Sources
+
+[^schneider]: Schneider SL, Lim HW. A review of inorganic UV filters zinc oxide and titanium dioxide. Photodermatology, Photoimmunology & Photomedicine, 2019;35(6):442-446. Quotations ("ZnO has a broad UVA-UVB absorption curve, while TiO2 provides better UVB protection"; nanoparticles "much less visible after application") verified verbatim against the abstract. https://pubmed.ncbi.nlm.nih.gov/30444533/ (accessed 2026-08-08)
+[^cole]: Cole C, Shyr T, Ou-Yang H. Metal oxide sunscreens protect skin by absorption, not by reflection or scattering. Photodermatology, Photoimmunology & Photomedicine, 2016;32(1):5-10. Quotations ("less than SPF 2"; "provide UV protection primarily via absorption of UV radiation"; "not through significant reflection or scattering"; "semiconductor band gap mediated absorbance of the UV photons"; reflection "only 4-5%"; "predominantly reflectors of light (up to 60% reflection) and non-absorbing") verified verbatim against the abstract. https://pubmed.ncbi.nlm.nih.gov/26431814/ (accessed 2026-08-08)
+[^fda]: US FDA. Sunscreen Drug Products for Over-the-Counter Human Use — proposed rule. Federal Register, 84 FR 6204, February 26, 2019. Quotations ("sufficient safety data on both zinc oxide and titanium dioxide"; "at concentrations of up to 25 percent"; "we are proposing that these ingredients are Category I"; "nanomaterial forms of the active ingredients zinc oxide and titanium dioxide have been used in marketed OTC sunscreens") verified verbatim against the govinfo full text. https://www.govinfo.gov/content/pkg/FR-2019-02-26/html/2019-03019.htm (accessed 2026-08-08)
+[^dreno]: Dréno B, Alexis A, Chuberre B, Marinovich M. Safety of titanium dioxide nanoparticles in cosmetics. Journal of the European Academy of Dermatology and Venereology, 2019;33(Suppl 7):34-46. Quotations ("nano-TiO2 did not penetrate beyond the outer layers of stratum corneum to viable cells"; "nano-TiO2 from sunscreens does not present any health risk when applied on the skin at a concentration up to 25%"; "the SCCS does not recommend the use of nano-TiO2 in formulations that may lead to exposure of the consumer's lungs by inhalation (sprayable products and powders)") verified verbatim against the abstract. https://pubmed.ncbi.nlm.nih.gov/31588611/ (accessed 2026-08-08)

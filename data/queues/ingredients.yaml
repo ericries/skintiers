@@ -127,9 +127,10 @@
 - name: Houttuynia cordata
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: null
+  note: reconciled
 - name: Propolis
   type: ingredient
   priority: 5
@@ -255,9 +256,10 @@
 - name: Tetrahexyldecyl ascorbate (THD ascorbate)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: null
+  note: reconciled
 - name: Ascorbyl palmitate
   type: ingredient
   priority: 5
@@ -346,9 +348,10 @@
 - name: Arbutin
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://pmc.ncbi.nlm.nih.gov/articles/PMC2921758/
+  note: reconciled
 - name: Panthenol (provitamin B5)
   type: ingredient
   priority: 5
@@ -426,9 +429,10 @@
 - name: hypochlorous-acid
   type: ingredient
   priority: 6
-  status: pending
+  status: done
   discovered_from: null
   source: Prequel Universal Skin Solution active
+  note: reconciled
 - name: Inulin
   type: ingredient
   priority: 5
@@ -566,9 +570,10 @@
 - name: arbutin
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: wave5-sunscreens
   source: null
+  note: reconciled
 - name: snail mucin (snail secretion filtrate)
   type: ingredient
   priority: 5
