@@ -4121,3 +4121,15 @@ retinoids-by-potency-ranked:
   note: |
     Curatorial tier list (daily LIST cron style; Sonnet draft + own lint/verify/style, no Opus critic).
     Ranks/organizes only ALREADY-published pages by evidence; no new claims. assurance=sonnet. lint/verify/style clean.
+la-roche-posay-mela-b3-serum:
+  last_reviewed: '2026-08-09'
+  score: 10
+  verdict: publish
+  note: |
+    La Roche-Posay Mela B3 Serum (link-out; niacinamide evidence on [[niacinamide]]). Daily PRODUCT cron (Sonnet
+    draft + Opus critic). KEY point: 10% niacinamide (above the 4-5% tested hyperpigmentation range) + Melasyl
+    (2-mercaptonicotinoyl glycine), a NOVEL LRP/L'Oreal-proprietary pigment-blocking compound with NO independent
+    published trial - only manufacturer claims (correctly framed as such). Brand page 403'd -> sourced solely to
+    cached Target listing. Critic verified price ($44.99/1 fl oz), partial INCI (niacinamide 10% + Melasyl),
+    directions, all quotes verbatim; both manufacturer stats (23,000 people; 8-week/72-women) quarantined, no
+    trial numbers imported. Verdict publish. assurance=opus. lint clean.
