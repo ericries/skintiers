@@ -25,7 +25,7 @@
 - name: Melasma
   type: condition
   priority: 5
-  status: pending
+  status: done
   discovered_from: video-harvest
   source: Surfaced repeatedly in mined derm videos (Idriss, Bunting, Lim on pigmentation/visible-light);
     distinct from general hyperpigmentation (hormonal, UV/visible-light driven)

@@ -4188,3 +4188,16 @@ beauty-of-joseon-revive-eye-serum-ginseng-retinal:
     (8.65% n=21 unpublished; 100%-satisfied survey) are properly quarantined. Verdict revise: fixed a repeated
     INCI miscount (27th-of-35 -> 28th-of-36), a backwards "cheaper" COSRX comparator ($27 > $17), and a
     health/cosmetic tag (wrinkle appearance is cosmetic). assurance=sonnet. lint/style clean.
+
+melasma:
+  last_reviewed: '2026-08-10'
+  score: 9
+  verdict: revise-then-published
+  note: |
+    Melasma condition hub (visible-light protection first; graded topical actives + honest relapse/procedure
+    limits). Daily CONDITION cron (Sonnet draft + Opus critic). 11 PubMed/PMC primaries, reusing vetted
+    citations from the sibling ingredient pages. Critic re-fetched Handel 2014, Castanedo-Cazares 2014
+    (iron-oxide-vs-UV RCT), Del Rosario 2018 and confirmed every quote/stat verbatim. Verdict
+    revise-then-publish: fixed a load-bearing conflation (two unrelated Handel sentences were bridged into an
+    implied causal PIH-after-procedures claim) -> now two separate sentences; also folded kojic acid + cysteamine
+    into the tier_list (minimal) and added azelaic's older/smaller-trials caveat. assurance=sonnet. lint/verify/style clean.
