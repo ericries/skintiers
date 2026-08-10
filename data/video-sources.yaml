@@ -1,33 +1,137 @@
+# Vetted creator roster for video-card harvesting.
+# last_pulled: a date = already mined at least once (re-mining finds NEW videos via
+# the video_id dedup guard); null = never mined. tier: HIGH = credentialed derm/chemist
+# (product picks usable with care); MED = non-credentialed educator (educational content
+# only, never treat picks as endorsements, never use sponsored videos).
 - name: Michelle Wong (Lab Muffin)
   creator_slug: michelle-wong
   credential: Cosmetic chemist, PhD
+  tier: HIGH
   channel: https://www.youtube.com/@LabMuffinBeautyScience/videos
   conflict: null
   last_pulled: '2026-08-09'
 - name: Dr. Sam Ellis
   creator_slug: samantha-ellis
   credential: Board-certified dermatologist
+  tier: HIGH
   channel: https://www.youtube.com/@drsamellis/videos
-  conflict: founder of the Prequel skincare brand
-  last_pulled: '2026-08-05'
+  conflict: founder of the Prequel skincare brand - skip videos mainly promoting her own products
+  last_pulled: '2026-08-09'
 - name: Chemist Confessions (Victoria Fu and Gloria Lu)
   creator_slug: victoria-fu
   credential: Cosmetic chemists
+  tier: HIGH
   channel: https://www.youtube.com/@chemistconfessions/videos
-  conflict: sell a small own-brand product line
-  last_pulled: '2026-08-06'
+  conflict: sell a small own-brand product line - skip own-brand promos
+  last_pulled: '2026-08-09'
+- name: Andrea Suarez (Dr Dray)
+  creator_slug: andrea-suarez-dr-dray
+  credential: Board-certified dermatologist
+  tier: HIGH
+  channel: https://www.youtube.com/@DrDrayzday/videos
+  conflict: null
+  last_pulled: '2026-08-09'
+- name: Dr. Muneeb Shah (DermDoctor)
+  creator_slug: muneeb-shah
+  credential: Board-certified dermatologist
+  tier: HIGH
+  channel: https://www.youtube.com/@dermdoctor/videos
+  conflict: runs an affiliate storefront - be cautious treating product picks as unbiased endorsements
+  last_pulled: '2026-08-09'
+- name: Dr. Dustin Portela
+  creator_slug: dustin-portela
+  credential: Board-certified dermatologist
+  tier: HIGH
+  channel: https://www.youtube.com/@DustinPortelaDO/videos
+  conflict: null
+  last_pulled: '2026-08-09'
+- name: Javon Ford
+  creator_slug: javon-ford
+  credential: Cosmetic chemist
+  tier: HIGH
+  channel: https://www.youtube.com/@javonford16/videos
+  conflict: null
+  last_pulled: '2026-08-04'
 - name: Kristin Leite (kristingl)
   creator_slug: kristin-leite
   credential: Beauty product developer and skincare educator (NOT a dermatologist or cosmetic chemist)
+  tier: MED
   channel: https://www.tiktok.com/@kristingl
-  conflict: runs an Amazon affiliate storefront and does sponsored posts - strongly prefer her educational
-    / how-to / ingredient-explainer videos; be very cautious with any product recommendation (may be affiliate-driven)
+  conflict: runs an Amazon affiliate storefront and does sponsored posts - strongly prefer educational
+    / how-to / ingredient-explainer videos; be very cautious with any product recommendation
   last_pulled: '2026-08-07'
 - name: Ella (@your.estie.ella)
   creator_slug: your-estie-ella
   credential: Licensed esthetician (NOT a dermatologist or cosmetic chemist)
+  tier: MED
   channel: https://www.tiktok.com/@your.estie.ella
-  conflict: non-credentialed educator (licensed esthetician, Atlanta; reportedly building a medspa) -
-    apply extra per-video credibility scrutiny, prefer educational / how-to content over product picks,
-    and never use sponsored videos
+  conflict: non-credentialed educator - apply extra per-video credibility scrutiny, prefer educational
+    / how-to content over product picks, never use sponsored videos
   last_pulled: '2026-08-08'
+- name: Dr. Shereene Idriss
+  creator_slug: shereene-idriss
+  credential: Board-certified dermatologist
+  tier: HIGH
+  channel: https://www.youtube.com/@DrIdriss/videos
+  conflict: runs the PillowtalkDerm brand - skip videos mainly promoting her own products
+  last_pulled: null
+- name: Dr. Sam Bunting
+  creator_slug: sam-bunting
+  credential: Board-certified dermatologist (UK)
+  tier: HIGH
+  channel: https://www.youtube.com/@DrSamBunting/videos
+  conflict: has an own-brand line (Dr Sam's) - skip own-brand promos
+  last_pulled: null
+- name: Dr. Davin Lim
+  creator_slug: davin-lim
+  credential: Board-certified dermatologist (Australia)
+  tier: HIGH
+  channel: https://www.youtube.com/@DrDavinLim/videos
+  conflict: null
+  last_pulled: null
+- name: Dr. Scott Walter
+  creator_slug: scott-walter
+  credential: Board-certified dermatologist
+  tier: HIGH
+  channel: https://www.youtube.com/@DrScottWalter/videos
+  conflict: null
+  last_pulled: null
+- name: Dr. Whitney Bowe
+  creator_slug: whitney-bowe
+  credential: Board-certified dermatologist
+  tier: HIGH
+  channel: https://www.youtube.com/@DrWhitneyBowe/videos
+  conflict: has an own-brand line - skip own-brand promos
+  last_pulled: null
+- name: Cassandra Bankson
+  creator_slug: cassandra-bankson
+  credential: Licensed medical esthetician (NOT a dermatologist or cosmetic chemist)
+  tier: MED
+  channel: https://www.youtube.com/@cassandrabankson/videos
+  conflict: non-credentialed educator - educational content only, never treat picks as endorsements,
+    never use sponsored videos
+  last_pulled: null
+- name: Hyram (Skincare by Hyram)
+  creator_slug: hyram
+  credential: Skincare educator (NOT a dermatologist or cosmetic chemist)
+  tier: MED
+  channel: https://www.youtube.com/@Hyram/videos
+  conflict: has an own-brand line (Selfless) and does sponsorships - educational content only, never
+    treat picks as endorsements, never use sponsored videos
+  last_pulled: null
+- name: James Welsh
+  creator_slug: james-welsh
+  credential: Skincare content creator (NOT a dermatologist or cosmetic chemist)
+  tier: MED
+  channel: https://www.youtube.com/@JamesWelsh/videos
+  conflict: does sponsorships - educational content only, never treat picks as endorsements, never
+    use sponsored videos
+  last_pulled: null
+- name: Gothamista
+  creator_slug: gothamista
+  credential: Skincare content creator (NOT a dermatologist or cosmetic chemist)
+  tier: MED
+  channel: https://www.youtube.com/@gothamista/videos
+  conflict: does sponsorships - educational content only, never treat picks as endorsements, never
+    use sponsored videos
+  last_pulled: null
