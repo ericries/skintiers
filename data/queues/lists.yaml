@@ -19,3 +19,11 @@
   discovered_from: null
   source: https://ericries.github.io/skintiers/retinoids.html
   note: published as retinoids-by-potency-ranked
+- name: Exfoliating acids by strength, ranked
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: planned
+  source: 'Exfoliating acids ranked by strength/irritation (glycolic, lactic, mandelic,
+    salicylic); a forms-of-one-family ladder candidate (set tier_list.ladder: true)
+    to drive the evidence box on AHA/BHA product pages'
