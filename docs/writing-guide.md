@@ -150,6 +150,15 @@ look worse than it is.
   claim, no spin). It renders in italics. If there is NO product-specific study, say so factually in
   one sentence and grade on the category evidence via the comparator note (a composition/evidence
   fact, not a hedge), then link out.
+  - **When a study tested a COMBINATION, not the isolated active, link a product that embodies it.**
+    On an ingredient page, whenever a cited study tested the active alongside another active (e.g.
+    the ascorbyl-palmitate sebum study tested it combined with sodium ascorbyl phosphate), run
+    `python scripts/products_with.py <active-1> <active-2> ...` to find a published product whose
+    formula actually contains that combination. If one exists, link it in the study sentence (e.g.
+    "the only human study tested it combined with [[sodium-ascorbyl-phosphate]], a pairing found in
+    [[some-product|Some Product]]"), so the reader can reach a real product embodying the tested
+    evidence. If none exists, say the combination is untested-in-isolation and move on (do not invent
+    a product); consider `sk queue-add` for a real product with that combination if you know of one.
 - `## What's In It`: the ingredient list, split into the notable/functional ones (linked to their
   own pages) and the base/texture/preservative system (plain). Optionally a composition-fact line
   of conspicuous absences (see Omit-empty). Do NOT narrate which ingredients lack evidence or that
