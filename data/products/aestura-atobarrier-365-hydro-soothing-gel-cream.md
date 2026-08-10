@@ -24,6 +24,10 @@ grades:
     a named ceramide subtype such as ceramide NP, so it is not shown to supply the
     equimolar natural-lipid mixture that mechanism describes'
   use: Ceramide-specific barrier-lipid replacement (health)
+images:
+- file: aestura-atobarrier-365-hydro-soothing-gel-cream-aestura.jpg
+  source: AESTURA
+  source_url: https://int.aestura.com/products/atobarrier-365-hydro-soothing-cream
 key_actives:
 - cholesterol
 name: Aestura Atobarrier 365 Hydro Soothing Gel Cream

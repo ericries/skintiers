@@ -19,6 +19,10 @@ grades:
     but did not reduce eczema severity more than a matched base (on [[ceramides]]);
     this ampoule has no eczema-severity trial of its own'
   use: Eczema / atopic dermatitis severity (health)
+images:
+- file: aestura-atobarrier-365-hydro-cera-ha-ampoule-aestura.jpg
+  source: AESTURA
+  source_url: https://int.aestura.com/products/atobarrier-365-hydro-cera-ha-serum
 key_actives:
 - ceramides
 - hyaluronic-acid

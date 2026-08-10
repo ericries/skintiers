@@ -22,6 +22,10 @@ grades:
     residence time on skin than a leave-on moisturizer or serum
   use: General hydration from its glycerin humectant base, used as a facial mist/toner
     (cosmetic)
+images:
+- file: aestura-atobarrier-365-cream-mist-aestura.jpg
+  source: AESTURA
+  source_url: https://int.aestura.com/products/atobarrier-365-cream-mist
 key_actives:
 - cholesterol
 - glycerin
