@@ -302,6 +302,20 @@ def grades_view_for(metadata, published_slugs=None, slug_to_name=None):
     return view
 
 
+def _derive_primary_active(metadata, published_slugs, rank_index):
+    """Pick the product's primary studied active for an auto-derived evidence box.
+    Prefers a key_active that sits in a ranked potency list (so the ladder shows),
+    else the first key_active with a published ingredient page. None if neither."""
+    actives = [str(a).strip() for a in (metadata.get("key_actives") or []) if a]
+    for a in actives:
+        if a in rank_index:
+            return a
+    for a in actives:
+        if a in published_slugs:
+            return a
+    return None
+
+
 def evidence_levels_view(metadata, published_slugs=None, slug_to_name=None, rank_index=None):
     """Build the three-level evidence model from a product's `evidence_levels:`
     frontmatter, or None if absent. Separates the evidence a reader conflates:
@@ -310,11 +324,22 @@ def evidence_levels_view(metadata, published_slugs=None, slug_to_name=None, rank
          03 this exact formula (authored; whether the product itself was tested).
     Levels 02/03 carry no rendered editorial verdict badge on purpose — the notes
     state the facts and the reader judges. Notes may hold [[xrefs]]/markdown."""
-    el = metadata.get("evidence_levels")
-    if not el:
-        return None
     published_slugs = published_slugs or frozenset()
     slug_to_name = slug_to_name or {}
+    rank_index = rank_index or {}
+    el = metadata.get("evidence_levels")
+    derived = False
+    if not el:
+        # No authored block: auto-derive the scaffold from key_actives so every
+        # graded product with a recognized active still renders the box (and its
+        # potency ladder) with no per-product authoring. Authored evidence_levels:
+        # enriches this with the three prose notes; this is the floor, not a
+        # replacement. Requires a resolvable primary active AND grades to badge.
+        active = _derive_primary_active(metadata, published_slugs, rank_index)
+        if not active or not (grades_view_for(metadata, published_slugs, slug_to_name)):
+            return None
+        el = {"active": active, "formula_tested": False}
+        derived = True
 
     def note(text):
         if not text:
@@ -328,6 +353,11 @@ def evidence_levels_view(metadata, published_slugs=None, slug_to_name=None, rank
     active = (el.get("active") or "").strip()
     gv = grades_view_for(metadata, published_slugs, slug_to_name)
     g0 = gv[0] if gv else None
+    product_note = note(el.get("product_note"))
+    rank = rank_index.get(active)
+    # Levels shown: 01 active + 04 formula always; 02 product only when authored;
+    # 03 rank only when the active sits in a ranked list. The subtitle counts them.
+    nq = 2 + (1 if product_note else 0) + (1 if rank else 0)
     return {
         "active_slug": active,
         "active_name": slug_to_name.get(active, active),
@@ -337,10 +367,12 @@ def evidence_levels_view(metadata, published_slugs=None, slug_to_name=None, rank
         "effect_segs": g0["effect_segs"] if g0 else 0,
         "evidence_class": g0["evidence_class"] if g0 else "",
         "evidence_label": g0["evidence_label"] if g0 else "",
-        "product_note": note(el.get("product_note")),
+        "product_note": product_note,
         "formula_note": note(el.get("formula_note")),
         "formula_tested": bool(el.get("formula_tested", False)),
-        "rank": (rank_index or {}).get(active),
+        "rank": rank,
+        "derived": derived,
+        "nquestions_word": {2: "Two", 3: "Three", 4: "Four"}.get(nq, str(nq)),
     }
 
 
@@ -535,9 +567,14 @@ def build_potency_rank_index(profiles, by_slug):
         if p.get("type") != "list" or p.get("status") != "published":
             continue
         tl = p.metadata.get("tier_list") or {}
-        hay = " ".join(str(tl.get(k) or "") for k in ("by", "title")).lower() + " " + str(p.metadata.get("name") or "").lower()
-        if "potenc" not in hay and "strength" not in hay:
-            continue
+        # A list drives the evidence-box ladder if it opts in with `ladder: true`
+        # (the explicit, general signal) or, for back-compat, its ranking is by
+        # potency/strength. The ladder only makes sense for lists that rank FORMS
+        # of one active family (retinoids, vitamin C forms), so it is opt-in.
+        if not tl.get("ladder"):
+            hay = " ".join(str(tl.get(k) or "") for k in ("by", "title")).lower() + " " + str(p.metadata.get("name") or "").lower()
+            if "potenc" not in hay and "strength" not in hay:
+                continue
         rungs = []
         for raw in tl.get("items") or []:
             if isinstance(raw, dict):

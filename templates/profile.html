@@ -21,9 +21,11 @@
 
   {% if evidence_levels %}
   <section class="evlevels" aria-label="How strong is the evidence">
-    <div class="evl-head"><span class="evl-t">How strong is the evidence?</span><span class="evl-s">{% if evidence_levels.rank %}Four{% else %}Three{% endif %} separate questions</span></div>
+    <div class="evl-head"><span class="evl-t">How strong is the evidence?</span><span class="evl-s">{{ evidence_levels.nquestions_word }} separate questions</span></div>
+    {% set ns = namespace(n=0) %}
     <div class="evl-lvl evl-active">
-      <div class="evl-side"><span class="evl-name"><span class="evl-n">01</span>The active</span><span class="evl-q">Does the ingredient work?</span></div>
+      {% set ns.n = ns.n + 1 %}
+      <div class="evl-side"><span class="evl-name"><span class="evl-n">0{{ ns.n }}</span>The active</span><span class="evl-q">Does the ingredient work?</span></div>
       <div class="evl-body">
         <p class="evl-verdict">{% if evidence_levels.active_href %}<a href="{{ evidence_levels.active_href }}">{{ evidence_levels.active_name }}</a>{% else %}{{ evidence_levels.active_name }}{% endif %}{% if evidence_levels.active_note %} is {{ evidence_levels.active_note | safe }}{% endif %}.</p>
         <div class="evl-status">
@@ -32,13 +34,17 @@
         </div>
       </div>
     </div>
+    {% if evidence_levels.product_note %}
     <div class="evl-lvl evl-product">
-      <div class="evl-side"><span class="evl-name"><span class="evl-n">02</span>This product</span><span class="evl-q">A good way to get it?</span></div>
+      {% set ns.n = ns.n + 1 %}
+      <div class="evl-side"><span class="evl-name"><span class="evl-n">0{{ ns.n }}</span>This product</span><span class="evl-q">A good way to get it?</span></div>
       <div class="evl-body"><p class="evl-verdict">{{ evidence_levels.product_note | safe }}.</p></div>
     </div>
+    {% endif %}
     {% if evidence_levels.rank %}
     <div class="evl-lvl evl-rank">
-      <div class="evl-side"><span class="evl-name"><span class="evl-n">03</span>How strong a type?</span><span class="evl-q">Where it ranks</span></div>
+      {% set ns.n = ns.n + 1 %}
+      <div class="evl-side"><span class="evl-name"><span class="evl-n">0{{ ns.n }}</span>How strong a type?</span><span class="evl-q">Where it ranks</span></div>
       <div class="evl-body">
         <ol class="evl-ladder">
           {% for r in evidence_levels.rank.rungs %}<li class="evl-rung tier-{{ r.tier_key }}{% if r.here %} here{% endif %}"><span class="evl-bar"></span><span class="evl-rname">{{ r.name }}</span>{% if r.here %}<span class="evl-here">this</span>{% endif %}</li>{% endfor %}
@@ -48,8 +54,9 @@
     </div>
     {% endif %}
     <div class="evl-lvl evl-formula">
-      <div class="evl-side"><span class="evl-name"><span class="evl-n">{% if evidence_levels.rank %}04{% else %}03{% endif %}</span>This exact formula</span><span class="evl-q">Tested as sold?</span></div>
-      <div class="evl-body"><p class="evl-verdict">{{ evidence_levels.formula_note | safe }}.</p>{% if not evidence_levels.formula_tested %}<div class="evl-status"><span class="evl-flag">Not tested directly</span></div>{% endif %}</div>
+      {% set ns.n = ns.n + 1 %}
+      <div class="evl-side"><span class="evl-name"><span class="evl-n">0{{ ns.n }}</span>This exact formula</span><span class="evl-q">Tested as sold?</span></div>
+      <div class="evl-body">{% if evidence_levels.formula_note %}<p class="evl-verdict">{{ evidence_levels.formula_note | safe }}.</p>{% endif %}{% if not evidence_levels.formula_tested %}<div class="evl-status"><span class="evl-flag">Not tested directly</span></div>{% endif %}</div>
     </div>
   </section>
   {% endif %}

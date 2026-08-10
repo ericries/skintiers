@@ -6,6 +6,7 @@ name: Vitamin C Forms Compared
 slug: vitamin-c-forms-by-evidence
 status: published
 tier_list:
+  ladder: true
   by: how directly each form works on skin and how much controlled human evidence backs it
   caption: A factual map of the vitamin C forms this site profiles, on four axes, whether the form must convert to L-ascorbic acid on the skin, how stable it is, its usable pH and likelihood of stinging, and what controlled human evidence exists. Higher rows act more directly and carry more human data. That does not make them the right pick for every person, since the gentler forms trade evidence for tolerability.
   tier_labels:

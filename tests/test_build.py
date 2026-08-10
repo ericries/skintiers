@@ -656,6 +656,64 @@ def test_tier_list_custom_labels_and_caption_override_defaults():
     assert build._TIER_LABEL_BY_KEY["good"] == "Strong"
 
 
+def test_evidence_levels_auto_derives_from_key_actives():
+    sys.path.insert(0, str(ROOT))
+    import build, frontmatter
+
+    def post(md):
+        return frontmatter.loads(md)
+
+    slugs = frozenset({"retinol"})
+    names = {"retinol": "Retinol"}
+    rank = {"retinol": {"list_slug": "l", "list_name": "L", "list_href": "l.html",
+                        "rungs": [{"slug": "retinol", "name": "Retinol",
+                                   "tier_key": "mid", "here": True}]}}
+    # No evidence_levels: block, but key_actives + grades present -> derived box.
+    meta = post("---\nname: P\nslug: p\ntype: product\nstatus: published\n"
+                "key_actives:\n- retinol\n"
+                "grades:\n- effect: modest\n  evidence: solid\n  use: X (health)\n---\nB.\n").metadata
+    v = build.evidence_levels_view(meta, slugs, names, rank)
+    assert v is not None and v["derived"] is True
+    assert v["active_slug"] == "retinol"
+    assert v["rank"] is not None                 # ladder auto-attached from rank index
+    assert v["product_note"] == ""               # no authored note -> level 02 hidden
+    assert v["formula_tested"] is False          # honest default
+    assert v["nquestions_word"] == "Three"       # active + rank + formula (no product)
+    # No key_actives and no evidence_levels -> nothing to derive -> None.
+    meta2 = post("---\nname: Q\nslug: q\ntype: product\nstatus: published\n"
+                 "grades:\n- effect: modest\n  evidence: solid\n  use: X (health)\n---\nB.\n").metadata
+    assert build.evidence_levels_view(meta2, slugs, names, rank) is None
+    # Authored block still wins and is not marked derived.
+    meta3 = post("---\nname: R\nslug: r\ntype: product\nstatus: published\n"
+                 "key_actives:\n- retinol\n"
+                 "evidence_levels:\n  active: retinol\n  product_note: a real retinol\n  formula_tested: false\n"
+                 "grades:\n- effect: modest\n  evidence: solid\n  use: X (health)\n---\nB.\n").metadata
+    v3 = build.evidence_levels_view(meta3, slugs, names, rank)
+    assert v3["derived"] is False and v3["product_note"] == "a real retinol"
+    assert v3["nquestions_word"] == "Four"       # active + product + rank + formula
+
+
+def test_potency_ladder_opt_in_flag():
+    sys.path.insert(0, str(ROOT))
+    import build, frontmatter
+
+    def post(md):
+        return frontmatter.loads(md)
+
+    a = post("---\nname: Alpha\nslug: aa\ntype: ingredient\nstatus: published\ntier: top\n---\nB.\n")
+    b = post("---\nname: Bravo\nslug: bb\ntype: ingredient\nstatus: published\ntier: minimal\n---\nB.\n")
+    # Name/by carry no potency/strength keyword; opted in via ladder: true.
+    lst = post("---\nname: Forms Compared\nslug: forms\ntype: list\nstatus: published\n"
+               "tier_list:\n  ladder: true\n  by: conversion needed\n  items:\n  - aa\n  - bb\n---\nB.\n")
+    idx = build.build_potency_rank_index([a, b, lst], {"aa": a, "bb": b, "forms": lst})
+    assert "aa" in idx and "bb" in idx
+    # Same list without the flag and without a keyword -> not a ladder source.
+    lst2 = post("---\nname: Forms Compared\nslug: forms\ntype: list\nstatus: published\n"
+                "tier_list:\n  by: conversion needed\n  items:\n  - aa\n  - bb\n---\nB.\n")
+    idx2 = build.build_potency_rank_index([a, b, lst2], {"aa": a, "bb": b, "forms": lst2})
+    assert "aa" not in idx2
+
+
 def test_tier_list_section_renders_on_a_page(tmp_path):
     data = tmp_path / "data"
     out = tmp_path / "_site"
