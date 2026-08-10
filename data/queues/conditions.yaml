@@ -53,7 +53,7 @@
 - name: PCOS polycystic ovary syndrome skin symptoms
   type: condition
   priority: 10
-  status: pending
+  status: done
   discovered_from: user-request
   source: 'User request: PCOS skincare symptoms + how to address. Explain cystic/hormonal
     acne vs comedonal clogged-pore acne and PROVEN ingredients for each; note hormonal

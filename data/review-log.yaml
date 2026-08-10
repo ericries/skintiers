@@ -4146,3 +4146,17 @@ cosrx-the-retinol-0-1-cream:
     dropping the restated numbers and linking out to [[retinol]], keeping only the disclosed 0.1% dose-match
     (cited to the cosrx INCI). evidence_levels added (active: retinol, formula_tested: false).
     assurance=sonnet. lint/style clean; verify 2 expected cache WARNs.
+
+pcos:
+  last_reviewed: '2026-08-10'
+  score: 9
+  verdict: revise-then-published
+  note: |
+    PCOS condition page (cystic/hormonal vs comedonal acne + proven treatments per type). Daily CONDITION
+    cron (Sonnet draft + Opus profile-reviewer). Central comedonal-vs-hormonal distinction verified accurate
+    and well-cited (Damoulaki mechanism, Bagatin/Farhan clinical pattern, all quotes verbatim). Critic caught
+    4 citation issues, all fixed from already-verified sources: (1) hirsutism quote double-cited to a source
+    lacking it -> [^2] only; (2) "androgens play a central role" quote was about seborrheic dermatitis ->
+    swapped to Farhan's actual sebum sentence; (3) salicylic-acid RCT stat -> added "detailed on [[acne]]"
+    citation path; (4) StatPearls title cleaned (dropped non-title parenthetical). Honest: systemic options
+    (spironolactone/COCs) framed as prescriber-managed, no medical advice. assurance=sonnet. lint/verify/style clean.
