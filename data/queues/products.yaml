@@ -953,7 +953,7 @@
 - name: 'Beauty of Joseon Revive Eye Serum: Ginseng + Retinal'
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: post-drain-harvest
   source: https://beautyofjoseon.com/products/revive-eye-serum
 - name: Cyspera Intensive Cysteamine Cream

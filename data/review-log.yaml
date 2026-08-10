@@ -4175,3 +4175,16 @@ melasyl:
     PREVENTION, not treating existing spots). Applied 4 mechanical fixes: completed passeron COI (named CRO
     employees), restored (p<0.05) on Demessant quote, deleted an uncited comparative clause. assurance=sonnet.
     Follow-up (task #51): reconcile la-roche-posay-mela-b3-serum which still says "no independent trial".
+
+beauty-of-joseon-revive-eye-serum-ginseng-retinal:
+  last_reviewed: '2026-08-10'
+  score: 9
+  verdict: revise-then-published
+  note: |
+    BoJ Revive Eye Serum (Ginseng + Retinal). Daily PRODUCT cron (Sonnet draft + Opus critic). Retinal
+    (retinaldehyde) at UNDISCLOSED concentration (28th of 36 INCI), honestly flagged; class evidence links
+    out to [[retinaldehyde]]. Critic verified price/INCI/quotes vs cache, confirmed the retinaldehyde
+    crow's-feet class trial and the ginseng extract-mismatch framings are accurate, and the marketing claims
+    (8.65% n=21 unpublished; 100%-satisfied survey) are properly quarantined. Verdict revise: fixed a repeated
+    INCI miscount (27th-of-35 -> 28th-of-36), a backwards "cheaper" COSRX comparator ($27 > $17), and a
+    health/cosmetic tag (wrinkle appearance is cosmetic). assurance=sonnet. lint/style clean.
