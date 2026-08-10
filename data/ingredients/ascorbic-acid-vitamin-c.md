@@ -8,7 +8,7 @@ videos:
   credential: Cosmetic chemist, PhD
   platform: TikTok
   url: https://www.tiktok.com/@labmuffinbeautyscience/video/7178297870498483457
-  thesis: "A serum's pH does not tell you whether its vitamin C works. The 'below pH 3.5' rule comes from a study of a simple water-based ascorbic acid solution, where the low pH was the only thing helping the vitamin C penetrate; more complex modern formulas use penetration enhancers beyond pH, so a home pH reading is not a reliable test of a serum."
+  thesis: "Cosmetic chemist Michelle Wong, PhD, explains that a serum's pH alone does not tell you whether its vitamin C works. The 'below pH 3.5' rule comes from a study of a simple water-based ascorbic acid solution, where the low pH was the only thing helping the vitamin C penetrate, but more complex modern formulas use penetration enhancers beyond pH, so a home pH reading is not a reliable test of a serum."
   note: "Verified from the video's transcript (yt-dlp pulled TikTok's creator captions, read in full). Wong is a credentialed cosmetic chemist (PhD); educational, non-sponsored."
 - title: "Why Vitamin C and Sunscreen Aren't Fixing Your Pigmentation (And What Actually Will)"
   creator: Dr. Sam Bunting
@@ -16,7 +16,7 @@ videos:
   credential: Board-certified dermatologist (UK)
   platform: YouTube
   url: https://www.youtube.com/watch?v=gWFxLAYaTp4
-  thesis: "Bunting explains that vitamin C is a genuinely useful antioxidant that slows melanin production, but pigmentation forms through nine pathways across three stages (triggers, the tyrosinase enzyme, and melanin delivery/removal), so vitamin C alone only touches part of the process. She says vitamin C and sunscreen users still need targeted actives like azelaic acid, hydroquinone, arbutin, or niacinamide to address the other pigmentation checkpoints."
+  thesis: "Board-certified dermatologist Dr. Sam Bunting (UK) explains that vitamin C is a genuinely useful antioxidant that slows melanin production, but pigmentation forms through nine pathways across three stages, triggers, the tyrosinase enzyme, and melanin delivery and removal, so vitamin C alone only touches part of the process. She says people using vitamin C and sunscreen still need targeted actives like azelaic acid, hydroquinone, arbutin, or niacinamide to address the other pigmentation checkpoints."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 name: Ascorbic acid (vitamin C)
 slug: ascorbic-acid-vitamin-c

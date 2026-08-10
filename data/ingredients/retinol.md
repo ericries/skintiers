@@ -14,7 +14,7 @@ videos:
   credential: Cosmetic chemist
   platform: TikTok
   url: https://www.tiktok.com/@javonford16/video/7635837533212953869
-  thesis: "He warns against DIY-mixing raw retinol into a body lotion because retinol is already hard to stabilize and an open-air container won't preserve it, calling it wasteful rather than money-saving when cheaper pre-formulated retinol body creams exist. He also clarifies that the ordinary's granactive retinoid is an ester of retinol, not retinol itself, so it still works but more slowly."
+  thesis: "Cosmetic chemist Javon Ford warns against DIY-mixing raw retinol into a body lotion, because retinol is already hard to stabilize and an open-air container will not preserve it, calling the practice wasteful rather than money-saving when cheaper pre-formulated retinol body creams already exist. He also clarifies that The Ordinary's Granactive Retinoid is an ester of retinol, not retinol itself, so it still works but more slowly."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 ---
 

@@ -33,7 +33,7 @@ videos:
   credential: Cosmetic chemist
   platform: TikTok
   url: https://www.tiktok.com/@javonford16/video/7624001716882607373
-  thesis: "Cicaplast is essentially a fancier diaper rash cream, both relying on a skin protectant (dimethicone in Cicaplast versus zinc oxide around 40% in generic diaper creams). Generic diaper cream can work as a cheaper substitute but leaves a heavier white cast than any sunscreen and often contains cod liver oil and lanolin, which can clog pores on acne-prone facial skin, so he cautions checking the ingredient list before swapping."
+  thesis: "Cosmetic chemist Javon Ford says La Roche-Posay Cicaplast Baume B5 is essentially a fancier diaper rash cream, since both rely on a skin protectant, dimethicone in Cicaplast versus roughly 40% zinc oxide in generic diaper creams. He notes generic diaper cream can work as a cheaper substitute for Cicaplast but leaves a heavier white cast than any sunscreen and often contains cod liver oil and lanolin, which can clog pores on acne-prone facial skin, so he cautions checking the ingredient list before swapping."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 ---
 

@@ -10,7 +10,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=2xNfzaAqx5A
-  thesis: "Reviewing it as a BuzzFeed viral pick, Dr. Shah says he loves this product and calls it Paula's Choice's bestselling item, describing it as a simple, gentle 2% salicylic acid liquid exfoliant that helps with pores, texture, and oily skin, and confirming it does not make explicit acne claims despite containing an acne-monograph active."
+  thesis: "Reviewing Paula's Choice Skin Perfecting 2% BHA Liquid Exfoliant as a BuzzFeed viral pick, board-certified dermatologist Dr. Muneeb Shah says he loves the product and calls it Paula's Choice's bestselling item. He describes it as a simple, gentle 2% salicylic acid liquid exfoliant that helps with pores, texture, and oily skin, and notes it does not make explicit acne claims despite containing an acne-monograph active."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 grades:
 - effect: modest

@@ -13,7 +13,7 @@ videos:
   credential: "Board-certified dermatologist"
   platform: YouTube
   url: https://www.youtube.com/watch?v=qlGhez_uw94
-  thesis: "In a rundown of ingredients for the look of large pores, Idriss recommends salicylic acid for oil-prone, acne-prone skin because it is oil-loving and gets pulled into oil-clogged pores where it helps clear the buildup, calling it a good option for blackheads and clogged pores. She cautions it can be inflammatory and irritating on rosacea-prone skin, making it a double-edged sword for reactive skin types."
+  thesis: "In a rundown of ingredients for the look of large pores, board-certified dermatologist Dr. Shereene Idriss recommends salicylic acid for oil-prone, acne-prone skin because it is oil-loving and gets pulled into oil-clogged pores where it helps clear the buildup, calling it a good option for blackheads and clogged pores. She cautions that salicylic acid can be inflammatory and irritating on rosacea-prone skin, making it a double-edged sword for reactive skin types."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 ---
 

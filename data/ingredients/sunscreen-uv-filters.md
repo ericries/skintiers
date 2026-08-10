@@ -8,7 +8,7 @@ videos:
   credential: Cosmetic chemist, PhD
   platform: YouTube Shorts
   url: https://www.youtube.com/shorts/K5zwloQza9M
-  thesis: "Mineral filters are not inherently better than organic ones. Zinc oxide absorbs most UV and re-emits it as heat much like organic filters do (with negligible temperature difference), and its UVA absorption is broad but weak, so the highest-UVA-rated sunscreens on the market are organic or hybrid, not mineral."
+  thesis: "Cosmetic chemist Michelle Wong, PhD, argues that mineral sunscreen filters are not inherently better than organic (chemical) ones. She explains that zinc oxide absorbs most UV and re-emits it as heat much like organic filters do, with only a negligible temperature difference, and that its UVA absorption is broad but weak, which is why the highest-UVA-rated sunscreens on the market are organic or hybrid rather than mineral."
   note: "Verified from the video's own transcript (fetched with yt-dlp; auto-captions read in full, not just the caption). Wong is a credentialed cosmetic chemist (PhD); non-sponsored. Her framing of zinc oxide's absorption as broad-but-low matches the coverage chart on this page. Details on filter safety and heat sit in the sections below."
 - title: "#184) Are You Applying Enough Sunscreen correctly? | Chemist Confessions Podcast #skincarereview"
   creator: Chemist Confessions (Victoria Fu and Gloria Lu)
@@ -16,7 +16,7 @@ videos:
   credential: Cosmetic chemists
   platform: YouTube
   url: https://www.youtube.com/watch?v=1XaMAFDY36I
-  thesis: "In a summary episode, the two cosmetic chemists distill years of testing sunscreens into practical takeaways for choosing and using one. They keep returning to application amount, since most people underapply, offering a two-finger or roughly quarter-teaspoon guide for the face as a rough calibration, and they argue reapplication should be judged by time and activity rather than by the SPF number. They also stress that a sunscreen's texture and feel matter, because a formula you enjoy is one you will actually apply enough of and reapply."
+  thesis: "Cosmetic chemists Victoria Fu and Gloria Lu, who run the channel Chemist Confessions, distill years of testing sunscreens into practical takeaways for choosing and using sunscreen. They keep returning to application amount, since most people underapply, offering a two-finger or roughly quarter-teaspoon guide for the face as a rough calibration, and they argue reapplication should be judged by time and activity rather than by the SPF number. They also stress that a sunscreen's texture and feel matter, because a formula you enjoy is one you will actually apply enough of and reapply."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship disclosed. Cosmetic chemists; an educational summary of how to choose and apply sunscreen, not a promotion of their own line."
 - title: "Debunking this year's top sunscreen myths"
   creator: Michelle Wong
@@ -24,7 +24,7 @@ videos:
   credential: Cosmetic chemist, PhD
   platform: YouTube
   url: https://www.youtube.com/watch?v=wATBG1X7HX4
-  thesis: "Wong debunks popular sunscreen myths, focusing on the claim that mineral (physical) sunscreens are inherently superior. She argues the ideas that mineral filters protect better against blue light, or against UVA because they block all wavelengths, are not supported, and that some of these claims trace back to a single flawed paper."
+  thesis: "Cosmetic chemist Michelle Wong, PhD, debunks popular sunscreen myths, focusing on the claim that mineral (physical) sunscreens are inherently superior. She argues the ideas that mineral filters protect better against blue light, or against UVA because they block all wavelengths, are not supported, and that some of these claims trace back to a single flawed paper."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship. A longer companion to her mineral-sunscreen short above."
 - title: "Are Chemical Sunscreens Really Safe? Dermatologist Explains"
   creator: Andrea Suarez (Dr Dray)
@@ -32,7 +32,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=BVnGrOMfeRM
-  thesis: "Asked whether chemical sunscreen ingredients get into the bloodstream and affect hormone levels, Suarez confirms these ingredients can be detected in blood after application, including days later, but says that has never been shown to cause harm to human health. She notes the studies linking these filters to hormone disruption used very high systemic doses in small animals, far above real topical exposure, and that the filters have decades of human use without evidence of endocrine harm."
+  thesis: "Board-certified dermatologist Andrea Suarez (Dr. Dray), asked whether chemical sunscreen filters get into the bloodstream and affect hormone levels, confirms these ingredients can be detected in blood after application, including days later, but says that has never been shown to cause harm to human health. She notes the studies linking these filters to hormone disruption used very high systemic doses in small animals, far above real topical exposure, and that the filters have decades of human use without evidence of endocrine harm."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 - title: "Does Sunscreen Cause Vitamin D Deficiency? Dermatologist Explains"
   creator: Andrea Suarez (Dr Dray)
@@ -40,7 +40,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=i3IQCX0wRko
-  thesis: "Suarez says current research does not show that wearing sunscreen lowers vitamin D levels, while flagging that most of these studies were done on beachgoers and have not tested very high-SPF products specifically. She also questions the broader vitamin D deficiency narrative itself, arguing that lowered lab thresholds plus confounders like obesity and chronic inflammation (vitamin D behaves as a negative acute-phase reactant) have inflated how many people get labeled deficient."
+  thesis: "Board-certified dermatologist Andrea Suarez (Dr. Dray) says current research does not show that wearing sunscreen lowers vitamin D levels, while flagging that most of these studies were done on beachgoers and have not tested very high-SPF products specifically. She also questions the broader vitamin D deficiency narrative itself, arguing that lowered lab thresholds plus confounders like obesity and chronic inflammation (vitamin D behaves as a negative acute-phase reactant) have inflated how many people get labeled deficient."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 name: Sunscreen (UV filters)
 slug: sunscreen-uv-filters

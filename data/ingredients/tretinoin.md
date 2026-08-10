@@ -14,7 +14,7 @@ videos:
   credential: "Board-certified dermatologist"
   platform: YouTube
   url: https://www.youtube.com/watch?v=-HdzW2aiuD0
-  thesis: "Idriss frames tretinoin as the collagen half of her two-prescription anti-aging pairing, saying it speeds up the cell turnover that slows as skin ages and stimulates collagen production, and calling it the most powerful topical anti-aging ingredient with no over-the-counter option matching its track record. She recommends building consistency with an over-the-counter retinol first, then starting a prescription retinoid at one to two nights a week and increasing gradually, and not pairing it on the same night as an exfoliating treatment until tolerance is established."
+  thesis: "Board-certified dermatologist Dr. Shereene Idriss frames tretinoin as the collagen half of her two-prescription anti-aging pairing, saying it speeds up the cell turnover that slows as skin ages and stimulates collagen production, and calling it the most powerful topical anti-aging ingredient, with no over-the-counter option matching its track record. She recommends building consistency with an over-the-counter retinol first, then starting a prescription retinoid such as tretinoin at one to two nights a week and increasing gradually, and not pairing it on the same night as an exfoliating treatment until tolerance is established."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 ---
 

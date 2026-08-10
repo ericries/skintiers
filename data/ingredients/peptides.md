@@ -13,7 +13,7 @@ videos:
   credential: "Board-certified dermatologist"
   platform: YouTube
   url: https://www.youtube.com/watch?v=F24UvKBOf_k
-  thesis: "Idriss groups eight cosmetic peptides by the skin concern each targets: acetyl tetrapeptide-40 for barrier support and inflammation, palmitoyl tripeptide-1 with palmitoyl tetrapeptide-7 together for collagen signaling and preservation, oligopeptide-1 for long-term texture and skin repair, hexapeptide-2 for pigment regulation, acetyl hexapeptide-8 (Argireline) as a temporary 'Botox in a bottle' softener of expression lines that she says is not worth spending much money on, palmitoyl hexapeptide-52 for environmentally stressed skin, and palmitoyl tripeptide-38 for lip texture and fullness."
+  thesis: "Board-certified dermatologist Dr. Shereene Idriss groups eight cosmetic peptides by the skin concern each targets: acetyl tetrapeptide-40 for barrier support and inflammation, palmitoyl tripeptide-1 with palmitoyl tetrapeptide-7 together for collagen signaling and preservation, oligopeptide-1 for long-term texture and skin repair, hexapeptide-2 for pigment regulation, acetyl hexapeptide-8 (Argireline) as a temporary 'Botox in a bottle' softener of expression lines that she says is not worth spending much money on, palmitoyl hexapeptide-52 for environmentally stressed skin, and palmitoyl tripeptide-38 for lip texture and fullness."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 ---
 

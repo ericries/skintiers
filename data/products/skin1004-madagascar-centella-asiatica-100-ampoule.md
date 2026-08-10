@@ -33,7 +33,7 @@ videos:
   credential: Skincare content creator (kristingl)
   platform: TikTok
   url: https://www.tiktok.com/@kristingl/video/7669071921773939981
-  thesis: "A longtime daily user compares the original SKIN1004 Centella Asiatica Ampoule with the newer TECA version and says she still prefers the original for its simplicity and everyday compatibility, calling it easy to layer day or night with any routine. She frames the TECA version, which adds a low, gentle level of exfoliants, as the better pick only for people wanting more potent centella or daily congestion management on oily or acne-prone skin."
+  thesis: "Content creator Kristin Leite, a longtime daily user, compares the SKIN1004 Madagascar Centella Asiatica 100 Ampoule with the brand's newer TECA version and says she still prefers this original ampoule for its simplicity and everyday compatibility, calling it easy to layer day or night with any routine. She frames the TECA version, which adds a low, gentle level of exfoliants, as the better pick only for people wanting more potent centella or daily congestion management on oily or acne-prone skin."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 ---
 

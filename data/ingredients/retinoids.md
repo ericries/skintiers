@@ -8,7 +8,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=sPBrWZlHamc
-  thesis: "Prescription retinoids like tretinoin are already in the active retinoic-acid form, so they skip the conversion steps that over-the-counter retinol and retinaldehyde need; that makes them stronger and faster to work but likelier to cause the early redness, dryness, and peeling. For acne she starts patients on adapalene, because it is effective and better tolerated."
+  thesis: "Dermatologist Dr. Sam Ellis explains that prescription retinoids, part of the broader retinoid family, like tretinoin, are already in the active retinoic-acid form, so they skip the conversion steps that over-the-counter retinol and retinaldehyde need; that makes them stronger and faster to work but likelier to cause early redness, dryness, and peeling. For acne, she starts patients on the prescription retinoid adapalene, because it is effective and better tolerated."
   note: "Verified from the video's transcript (yt-dlp, read in full). Board-certified dermatologist; educational and non-sponsored - the video covers prescription retinoids, not her own Prequel brand."
 - title: "Don't Fall For This Retinoid Mistake In 2025"
   creator: Dr. Sam Bunting
@@ -16,7 +16,7 @@ videos:
   credential: Board-certified dermatologist (UK)
   platform: YouTube
   url: https://www.youtube.com/watch?v=mkYhHlCuABc
-  thesis: "Bunting argues patients overcomplicate retinoid strength: any given retinoid only needs about three rungs on the ladder (a low, middle, and top dose), not the many strengths brands now sell. She gives the dose ranges she uses (retinol 0.1 to 1%, retinaldehyde 0.1%, granactive retinoid 2 to 5%, adapalene 0.1 to 0.3%, tretinoin 0.025 to 0.1%) and recommends buffering, applying moisturizer before the retinoid, to reduce irritation while building tolerance."
+  thesis: "Dermatologist Dr. Sam Bunting argues patients overcomplicate retinoid strength: any given retinoid only needs about three rungs on the ladder (a low, middle, and top dose), not the many strengths brands now sell. She gives the dose ranges she uses across the retinoid family (retinol 0.1 to 1%, retinaldehyde 0.1%, granactive retinoid 2 to 5%, adapalene 0.1 to 0.3%, tretinoin 0.025 to 0.1%) and recommends buffering, applying moisturizer before the retinoid, to reduce irritation while building tolerance."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 name: Retinoids
 slug: retinoids

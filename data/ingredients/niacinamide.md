@@ -8,7 +8,7 @@ videos:
   credential: Cosmetic chemists
   platform: YouTube
   url: https://www.youtube.com/watch?v=xcOUyHgeITQ
-  thesis: "The useful concentration is about 2 to 5%; a 10% serum is popular but does not give twice the benefit of 5%. Because niacinamide is stacked across so many products (cleansers, serums, moisturizers) the doses add up, and layering several niacinamide products can tip into irritation and redness. The do-it-yourself powder form is pointless and easy to overdose."
+  thesis: "Cosmetic chemists Victoria Fu and Gloria Lu of Chemist Confessions say niacinamide's useful concentration is about 2 to 5%, and that a popular 10% serum does not give twice the benefit of a 5% one. Because niacinamide is stacked across so many products, cleansers, serums, and moisturizers, the doses add up, and layering several niacinamide products can tip into irritation and redness; they add that mixing your own niacinamide from powder is pointless and easy to overdose."
   note: "Verified from the video's transcript (yt-dlp, read in full). Two cosmetic chemists; educational content. They briefly and openly note their own serum contains 5%; the concentration and layering guidance stands on its own."
 - title: "Alternatives to Vitamin C You Should Try NOW"
   creator: Dr. Sam Ellis
@@ -16,7 +16,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=pEn6fIL51Dk
-  thesis: "For patients whose skin does not tolerate vitamin C, niacinamide is the alternative she recommends most, since it is also an antioxidant but additionally strengthens the skin barrier, is anti-inflammatory, helps with oil control, and brightens by blocking pigment transfer rather than pigment production. It is most studied at 2 to 5%, though she notes the benefit does not clearly top out at 5%, and she favors it especially for acne-prone or oily skin."
+  thesis: "Board-certified dermatologist Dr. Sam Ellis says that for patients whose skin does not tolerate vitamin C, niacinamide is the alternative she recommends most, since it is also an antioxidant but additionally strengthens the skin barrier, is anti-inflammatory, helps with oil control, and brightens by blocking pigment transfer rather than pigment production. She says niacinamide is most studied at 2 to 5%, though the benefit does not clearly top out at 5%, and she favors it especially for acne-prone or oily skin."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 name: Niacinamide
 slug: niacinamide

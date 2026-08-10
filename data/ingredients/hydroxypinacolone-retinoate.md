@@ -13,7 +13,7 @@ videos:
   credential: "Board-certified dermatologist"
   platform: YouTube
   url: https://www.youtube.com/watch?v=xuvqSI4D7lo
-  thesis: "Idriss explains HPR as a retinoid that reaches the retinoic-acid receptor through a different route than retinol's multi-step conversion, which she says makes it more stable in formulation and, in her experience, generally better tolerated. She recommends it as the place to start for people who are scared of retinoids or have had a bad experience with one, building up gradually to two or three nights a week, and advises against it during pregnancy."
+  thesis: "Board-certified dermatologist Dr. Shereene Idriss explains hydroxypinacolone retinoate (HPR) as a retinoid that reaches the retinoic-acid receptor through a different route than retinol's multi-step conversion, which she says makes it more stable in formulation and, in her experience, generally better tolerated. She recommends HPR as the place to start for people who are scared of retinoids or have had a bad experience with one, building up gradually to two or three nights a week, and advises against it during pregnancy."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 ---
 

@@ -13,7 +13,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=b8XQgEXH4Vo
-  thesis: "Bowe calls hydroquinone the gold standard tyrosinase inhibitor for blocking pigment production, and says it really works, but she does not recommend using it except under the close supervision of a dermatologist. Used incorrectly, she says it can cause exogenous ochronosis, irreversible brown spots that become refractory to treatment, so anyone going down the hydroquinone route should have a dermatologist checking their skin every couple of months."
+  thesis: "Dermatologist Dr. Whitney Bowe calls hydroquinone the gold standard tyrosinase inhibitor for blocking pigment production, and says it really works, but she does not recommend using it except under the close supervision of a dermatologist. Used incorrectly, she says hydroquinone can cause exogenous ochronosis, irreversible brown spots that become refractory to treatment, so anyone going down the hydroquinone route should have a dermatologist checking their skin every couple of months."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 - title: "How to Layer Anti-aging Prescriptions (Tretinoin & Hydroquinone)"
   creator: "Dr. Shereene Idriss"
@@ -21,7 +21,7 @@ videos:
   credential: "Board-certified dermatologist"
   platform: YouTube
   url: https://www.youtube.com/watch?v=-HdzW2aiuD0
-  thesis: "Idriss calls hydroquinone the gold-standard topical for hyperpigmentation and melasma, with over 70 years of clinical use, and explains it works by blocking tyrosinase, the enzyme that converts tyrosine into melanin. She says she prescribes it at 4 to 6 percent and never above 8 percent, cycles patients about a month or two on and then off to avoid exogenous ochronosis, requires daily sunscreen alongside it, and warns against buying it outside a pharmacy because black-market versions are sometimes laced with mercury."
+  thesis: "Dermatologist Dr. Shereene Idriss calls hydroquinone the gold-standard topical for hyperpigmentation and melasma, with over 70 years of clinical use, and explains it works by blocking tyrosinase, the enzyme that converts tyrosine into melanin. She says she prescribes hydroquinone at 4 to 6 percent and never above 8 percent, cycles patients about a month or two on and then off to avoid exogenous ochronosis, requires daily sunscreen alongside it, and warns against buying it outside a pharmacy because black-market versions are sometimes laced with mercury."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 ---
 

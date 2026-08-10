@@ -24,7 +24,7 @@ videos:
   credential: "Board-certified dermatologist"
   platform: YouTube
   url: https://www.youtube.com/watch?v=NaGVtluUHfc
-  thesis: "Idriss keeps TNS Advanced+ Serum as an office tester and describes it as two chambers in one bottle: a Human Fibroblast Conditioned Media growth-factor blend plus the peptides progeline and Prolixir 20 in one chamber, and botanical and marine extracts in the other. She calls the $295 price steep but says patients specifically request it and report strong results, and frames it as an option for people who cannot tolerate retinoids on the neck."
+  thesis: "Board-certified dermatologist Dr. Shereene Idriss keeps SkinMedica TNS Advanced+ Serum as an office tester and describes it as two chambers in one bottle: a Human Fibroblast Conditioned Media growth-factor blend plus the peptides progeline and Prolixir 20 in one chamber, and botanical and marine extracts in the other. She calls the $295 price steep but says patients specifically request it and report strong results, and frames it as an option for people who cannot tolerate retinoids on the neck."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 ---
 

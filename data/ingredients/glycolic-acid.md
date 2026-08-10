@@ -8,7 +8,7 @@ videos:
   credential: Board-certified dermatologist (Australia)
   platform: YouTube
   url: https://www.youtube.com/watch?v=dAZeFdwyIOs
-  thesis: "For melasma he uses glycolic acid only as an in-office peel, stepping up concentration from about 20% toward 70%, and only combined with sunscreen and pigment inhibitors, never as a standalone treatment; a series of glycolic peels can improve melasma by up to 40 to 50% in some studies. At-home use should stay in a 5 to 10% range building to about 15%, left on a maximum of 3 minutes and neutralized at the first sign of redness or stinging, because unlike self-neutralizing acids such as retinoic or salicylic acid, glycolic acid must be actively neutralized and is one of the more common causes of at-home peel mishaps."
+  thesis: "For melasma, Australian board-certified dermatologist Dr. Davin Lim uses glycolic acid only as an in-office peel, stepping up concentration from about 20% toward 70%, and only combined with sunscreen and pigment inhibitors, never as a standalone treatment; he notes a series of glycolic peels can improve melasma by up to 40 to 50% in some studies. For at-home use of glycolic acid, he recommends staying in a 5 to 10% range building to about 15%, left on a maximum of 3 minutes and neutralized at the first sign of redness or stinging, because unlike self-neutralizing acids such as retinoic or salicylic acid, glycolic acid must be actively neutralized and is one of the more common causes of at-home peel mishaps."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 name: Glycolic acid
 slug: glycolic-acid
