@@ -63,7 +63,7 @@
 
   {% if grades_view %}
   <div class="dossier">
-    <div class="head">Grade &middot; <a href="method.html">effect size &times; evidence quality</a>, vs {{ comparator }}</div>
+    <div class="head">Grade &middot; <a href="method.html">effect size &times; evidence quality</a>, vs {{ comparator | safe }}</div>
     {% for g in grades_view %}
     <div class="grade-row">
       <div class="grade-use">{{ g.use }}{% if g.note %}<small>{{ g.note | safe }}</small>{% endif %}</div>

@@ -379,6 +379,20 @@ def _clean_active_note(text, active_name):
     return text
 
 
+def render_inline(text, published_slugs=None, slug_to_name=None):
+    """Linkify [[xrefs]] and render inline markdown to HTML with no wrapping <p>,
+    for a short frontmatter phrase shown inline in the template (e.g. the grade
+    `comparator`). Without this, a [[slug]] in such a field reaches the reader as raw
+    bracket markup — the render bug the smoke test caught on comparator fields."""
+    if not text:
+        return text
+    html = sklib.render_markdown(
+        sklib.linkify_xrefs(text, published_slugs or frozenset(), slug_to_name or {})).strip()
+    if html.startswith("<p>") and html.endswith("</p>") and html.count("<p>") == 1:
+        html = html[3:-4]
+    return html
+
+
 def evidence_levels_view(metadata, published_slugs=None, slug_to_name=None, rank_index=None):
     """Build the three-level evidence model from a product's `evidence_levels:`
     frontmatter, or None if absent. Separates the evidence a reader conflates:
@@ -1197,7 +1211,7 @@ def build():
             standfirst=standfirst,
             body_main=body_main,
             sources_html=sources_html,
-            comparator=p.get("comparator") or "others in its category",
+            comparator=render_inline(p.get("comparator") or "others in its category", slugs, names),
             grades_view=grades_view_for(p.metadata, slugs, names),
             evidence_levels=evidence_levels_view(p.metadata, slugs, names, potency_rank_index),
             recommended_in=p.get("recommended_in") or [],
