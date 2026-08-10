@@ -4160,3 +4160,18 @@ pcos:
     swapped to Farhan's actual sebum sentence; (3) salicylic-acid RCT stat -> added "detailed on [[acne]]"
     citation path; (4) StatPearls title cleaned (dropped non-title parenthetical). Honest: systemic options
     (spironolactone/COCs) framed as prescriber-managed, no medical advice. assurance=sonnet. lint/verify/style clean.
+
+melasyl:
+  last_reviewed: '2026-08-10'
+  score: 9
+  verdict: revise-then-published
+  note: |
+    Melasyl (2-mercaptonicotinoyl glycine), L'Oreal-proprietary pigment active. Daily INGREDIENT cron
+    (Sonnet draft + Opus profile-reviewer). KEY finding: real peer-reviewed literature EXISTS (6 PubMed
+    studies incl. 2 RCTs) but every one is L'Oreal/LRP-authored, CRO-run, or COI-disclosed-consultant. Critic
+    re-fetched all PMIDs, verified every quote/stat/author-affiliation verbatim. The two hardest calls made
+    correctly: the hydroquinone non-inferiority RCT tested the FINISHED Mela B3 serum (Melasyl + 10%
+    niacinamide) so cannot isolate Melasyl; only de Dormael isolates 2-MNG vs vehicle (UV-darkening
+    PREVENTION, not treating existing spots). Applied 4 mechanical fixes: completed passeron COI (named CRO
+    employees), restored (p<0.05) on Demessant quote, deleted an uncited comparative clause. assurance=sonnet.
+    Follow-up (task #51): reconcile la-roche-posay-mela-b3-serum which still says "no independent trial".

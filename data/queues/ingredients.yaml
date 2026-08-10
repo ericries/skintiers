@@ -654,7 +654,7 @@
 - name: Melasyl (2-mercaptonicotinoyl glycine)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: la-roche-posay-mela-b3-serum
   source: https://www.laroche-posay.us
 - name: Clascoterone (Winlevi 1% cream)
