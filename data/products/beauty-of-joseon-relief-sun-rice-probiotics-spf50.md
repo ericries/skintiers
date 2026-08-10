@@ -1,5 +1,5 @@
 ---
-analyzed: '2026-07-28'
+analyzed: '2026-08-10'
 assurance: opus
 category: Sunscreens
 comparator: broad-spectrum sunscreens, including older US-filter products
@@ -43,7 +43,7 @@ key_actives:
 slug: beauty-of-joseon-relief-sun-rice-probiotics-spf50
 status: published
 type: product
-updated: '2026-07-28'
+updated: '2026-08-10'
 videos:
 - title: "A Dermatologist's TOP 5 Korean Sunscreens: Why Korean SPF is SO POPULAR"
   creator: Dr. Scott Walter
@@ -102,7 +102,7 @@ UV filters (all modern organic filters, none in the current US OTC monograph):
 - [[diethylamino-hydroxybenzoyl-hexyl-benzoate]] (Uvinul A Plus), a UVA filter
 - [[bisoctrizole]] (methylene bis-benzotriazolyl tetramethylbutylphenol, Tinosorb M), a broad-spectrum filter
 - [[ethylhexyl-triazone]] (Uvinul T 150), a UVB filter
-- [[diethylhexyl-butamido-triazone]] (iscotrizinol), a UVB filter
+- diethylhexyl butamido triazone (iscotrizinol), a UVB filter; no dedicated ingredient page yet
 
 Other functional ingredients:
 
