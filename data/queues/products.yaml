@@ -1139,3 +1139,17 @@
   discovered_from: user-request
   source: User request; distinct stronger SKU from the published Epiduo 0.1%/2.5%
     (adapalene 0.3% / benzoyl peroxide 2.5%, prescription)
+- name: AESTURA Derma UV365 Barrier Hydro Mineral Sunscreen
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: scott-walter
+  source: 'Dr. Scott Walter routine (transcript-verified): AESTURA mineral sunscreen,
+    ''the CeraVe of Korea'''
+- name: NIOD Multi-Molecular Hyaluronic Complex
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: shereene-idriss
+  source: 'Dr. Shereene Idriss (transcript-verified): NIOD neck serum, five-peptide
+    9% blend'

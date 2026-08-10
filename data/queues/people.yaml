@@ -148,3 +148,17 @@
   status: done
   discovered_from: wave4-retinoid-acne
   source: null
+- name: Dr. Davin Lim
+  type: person
+  priority: 5
+  status: pending
+  discovered_from: video-cards
+  source: Board-certified dermatologist (Australia); has a transcript-verified glycolic-acid
+    video card on the site
+- name: Dr. Scott Walter
+  type: person
+  priority: 5
+  status: pending
+  discovered_from: video-cards
+  source: Board-certified dermatologist; has transcript-verified Korean-sunscreen
+    video cards on the site
