@@ -81,28 +81,28 @@
   tier: HIGH
   channel: https://www.youtube.com/@DrSamBunting/videos
   conflict: has an own-brand line (Dr Sam's) - skip own-brand promos
-  last_pulled: null
+  last_pulled: '2026-08-10'
 - name: Dr. Davin Lim
   creator_slug: davin-lim
   credential: Board-certified dermatologist (Australia)
   tier: HIGH
   channel: https://www.youtube.com/@DrDavinLim/videos
   conflict: null
-  last_pulled: null
+  last_pulled: '2026-08-10'
 - name: Dr. Scott Walter
   creator_slug: scott-walter
   credential: Board-certified dermatologist
   tier: HIGH
   channel: https://www.youtube.com/@DrScottWalter/videos
   conflict: null
-  last_pulled: null
+  last_pulled: '2026-08-10'
 - name: Dr. Whitney Bowe
   creator_slug: whitney-bowe
   credential: Board-certified dermatologist
   tier: HIGH
   channel: https://www.youtube.com/@DrWhitneyBowe/videos
   conflict: has an own-brand line - skip own-brand promos
-  last_pulled: null
+  last_pulled: '2026-08-10'
 - name: Cassandra Bankson
   creator_slug: cassandra-bankson
   credential: Licensed medical esthetician (NOT a dermatologist or cosmetic chemist)
@@ -110,7 +110,7 @@
   channel: https://www.youtube.com/@cassandrabankson/videos
   conflict: non-credentialed educator - educational content only, never treat picks as endorsements,
     never use sponsored videos
-  last_pulled: null
+  last_pulled: '2026-08-10'
 - name: Hyram (Skincare by Hyram)
   creator_slug: hyram
   credential: Skincare educator (NOT a dermatologist or cosmetic chemist)
