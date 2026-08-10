@@ -1132,3 +1132,10 @@
   discovered_from: shereene-idriss
   source: 'Dr. Shereene Idriss peptides video (transcript-verified): acetyl tetrapeptide-40
     source for barrier/calming'
+- name: Epiduo Forte (adapalene 0.3% / benzoyl peroxide 2.5%)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: user-request
+  source: User request; distinct stronger SKU from the published Epiduo 0.1%/2.5%
+    (adapalene 0.3% / benzoyl peroxide 2.5%, prescription)
