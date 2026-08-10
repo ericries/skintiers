@@ -1111,3 +1111,24 @@
   discovered_from: shereene-idriss
   source: 'Dr. Shereene Idriss (transcript-verified): French pharmacy retinol/retinyl-ester
     cult product'
+- name: Skin1004 Madagascar Centella Hyalu-Cica Water-Fit Sun Serum
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: scott-walter
+  source: Dr. Scott Walter daily-routine sunscreen (transcript-verified); distinct
+    from the Air-Fit sunscreen already on the site
+- name: Haruharu Wonder Black Rice Hyaluronic Toner
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: scott-walter
+  source: 'Dr. Scott Walter morning glass-skin routine (transcript-verified): HA toner
+    step'
+- name: Allies of Skin Peptides and Antioxidants Firming Daily Treatment
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: shereene-idriss
+  source: 'Dr. Shereene Idriss peptides video (transcript-verified): acetyl tetrapeptide-40
+    source for barrier/calming'

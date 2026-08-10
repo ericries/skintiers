@@ -677,3 +677,10 @@
   discovered_from: chemist-confessions
   source: 'Chemist Confessions IOPE Stem 3 review: salmon-PDRN active with a split-face
     clinical vs injection; trending repair ingredient'
+- name: Ergothioneine
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: shereene-idriss
+  source: 'Dr. Shereene Idriss + Augustinus Bader The C Serum: antioxidant the body
+    cannot synthesize; emerging topical active with published research'
