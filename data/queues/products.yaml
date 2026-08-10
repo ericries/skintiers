@@ -1062,3 +1062,52 @@
   discovered_from: michelle-wong
   source: 'Michelle Wong sunscreen-stick application tests: strong coverage among
     mineral sticks'
+- name: Skin1004 Hyalu-Waterfit Sun Serum
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: scott-walter
+  source: 'Dr. Scott Walter top-5 Korean sunscreens (transcript-verified): SPF50 serum-texture,
+    no white cast, for acne-prone skin'
+- name: Beauty of Joseon Aqua Fresh Sunscreen
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: scott-walter
+  source: 'Dr. Scott Walter (transcript-verified): newer lighter BoJ sunscreen; his
+    corneometer test 38 vs 46 for original Relief Sun'
+- name: Biodance Bio-Collagen Real Deep Mask
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: scott-walter
+  source: 'Dr. Scott Walter (transcript-verified): overnight hydrogel mask; his test
+    hydration 12% to 42%'
+- name: SVR Melan 130 Tinted Sunscreen
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: davin-lim
+  source: 'Dr. Davin Lim (transcript-verified): high-SPF tinted mineral sunscreen
+    with iron oxides for melasma/visible-light'
+- name: Paula's Choice Pro-Collagen Peptide Plumping Moisturizer
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: shereene-idriss
+  source: 'Dr. Shereene Idriss peptides video (transcript-verified): oligopeptide-1
+    source'
+- name: Murad Dark Spot Correcting Serum
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: shereene-idriss
+  source: 'Dr. Shereene Idriss peptides video (transcript-verified): hexapeptide-2
+    for melanin regulation'
+- name: A313 Vitamin A Pommade
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: shereene-idriss
+  source: 'Dr. Shereene Idriss (transcript-verified): French pharmacy retinol/retinyl-ester
+    cult product'
