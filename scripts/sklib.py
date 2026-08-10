@@ -491,6 +491,46 @@ def linkify_xrefs(text, published_slugs, slug_to_name):
     return _XREF_RE.sub(repl, text)
 
 
+def known_slugs(data_dir=None):
+    """Every declared slug across all pages (published, draft, or stub). Used to
+    tell an unresolved xref (a real broken link) from a resolved one."""
+    import frontmatter
+    data_dir = pathlib.Path(data_dir or DATA_DIR)
+    slugs = set()
+    for md in data_dir.glob("*/*.md"):
+        try:
+            s = frontmatter.load(md).metadata.get("slug")
+        except Exception:
+            s = None
+        if s:
+            slugs.add(s)
+    return slugs
+
+
+def check_xrefs(content, known):
+    """Warn on a bare [[slug]] xref (no |display alias) whose target is not a real
+    page slug: at build time an unresolved xref renders as its raw target text, so a
+    hyphenated slug like [[sebaceous-glands]] shows as literal 'sebaceous-glands' to
+    the reader (the iscotrizinol-on-Relief-Sun bug). An unresolved [[slug|alias]] is
+    fine (it renders the alias), so only the alias-less form is flagged. Fix by
+    creating the page, adding a |display alias, or correcting a mistyped slug."""
+    warnings = []
+    seen = set()
+    for m in _XREF_RE.finditer(content):
+        target = m.group(1).split("#")[0].strip()
+        alias = m.group(2)
+        if alias is not None or not target or target in known or target in seen:
+            continue
+        seen.add(target)
+        # A single lowercase word renders acceptably as that word; a hyphenated or
+        # spaced target renders as broken-looking raw slug text. Flag the latter.
+        if "-" in target or " " in target:
+            warnings.append(
+                f"unresolved xref [[{target}]] renders as raw slug text "
+                f"(create the page, add a |display alias, or fix the slug)")
+    return warnings
+
+
 import datetime as _datetime
 
 

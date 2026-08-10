@@ -93,3 +93,21 @@ def test_duplicate_definition_is_error():
     content = "A.[^1]\n\n## Sources\n[^1]: One. https://a.com\n[^1]: Two. https://b.com\n"
     errors, _ = sklib.check_profile(GOOD_META, content)
     assert any("duplicate" in e.lower() for e in errors)
+
+
+def test_check_xrefs_flags_bare_unresolved_hyphenated_slug():
+    # The iscotrizinol-on-Relief-Sun class: a bare [[slug]] with no page and no
+    # display alias renders as raw hyphenated slug text to the reader.
+    known = {"retinol", "azelaic-acid"}
+    warns = sklib.check_xrefs("See [[sebaceous-glands]] and [[retinol]].", known)
+    assert len(warns) == 1 and "sebaceous-glands" in warns[0]
+
+
+def test_check_xrefs_allows_resolved_aliased_and_single_word():
+    known = {"retinol"}
+    # resolved target: fine
+    assert sklib.check_xrefs("A [[retinol]] serum.", known) == []
+    # unresolved but has a |display alias: renders the alias, fine
+    assert sklib.check_xrefs("A [[future-page|nice name]] link.", known) == []
+    # unresolved single lowercase word: renders acceptably as the word, not flagged
+    assert sklib.check_xrefs("Caused by [[sebum]] buildup.", known) == []
