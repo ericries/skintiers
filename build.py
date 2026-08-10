@@ -316,6 +316,27 @@ def _derive_primary_active(metadata, published_slugs, rank_index):
     return None
 
 
+def _clean_active_note(text, active_name):
+    """Level 01 of the evidence box is composed as '{active_name} is {active_note}',
+    so a note authored as a full sentence ('adapalene is a well studied retinoid')
+    renders the subject twice: 'Adapalene is adapalene is a well studied retinoid'.
+    Strip a redundant leading subject/verb so the note is always a clean predicate,
+    regardless of how it was authored. Belt-and-suspenders with clean source notes."""
+    if not text:
+        return text
+    s = text.lstrip()
+    name = (active_name or "").strip()
+    pats = []
+    if name:
+        pats += [rf"{re.escape(name)}\s+is\s+", rf"{re.escape(name)}\s*,\s*"]
+    pats.append(r"is\s+")
+    for pat in pats:
+        m = re.match(pat, s, re.I)
+        if m:
+            return s[m.end():]
+    return text
+
+
 def evidence_levels_view(metadata, published_slugs=None, slug_to_name=None, rank_index=None):
     """Build the three-level evidence model from a product's `evidence_levels:`
     frontmatter, or None if absent. Separates the evidence a reader conflates:
@@ -362,7 +383,7 @@ def evidence_levels_view(metadata, published_slugs=None, slug_to_name=None, rank
         "active_slug": active,
         "active_name": slug_to_name.get(active, active),
         "active_href": f"{active}.html" if active in published_slugs else None,
-        "active_note": note(el.get("active_note")),
+        "active_note": note(_clean_active_note(el.get("active_note"), slug_to_name.get(active, active))),
         "effect_word": g0["effect_word"] if g0 else "",
         "effect_segs": g0["effect_segs"] if g0 else 0,
         "evidence_class": g0["evidence_class"] if g0 else "",

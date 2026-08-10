@@ -693,6 +693,20 @@ def test_evidence_levels_auto_derives_from_key_actives():
     assert v3["nquestions_word"] == "Four"       # active + product + rank + formula
 
 
+def test_clean_active_note_strips_restated_subject():
+    sys.path.insert(0, str(ROOT))
+    import build
+    # The box frames level 01 as "{name} is {note}"; a note that restates the
+    # subject must not double it ("Adapalene is adapalene is ...").
+    assert build._clean_active_note("adapalene is a well studied retinoid", "Adapalene") == "a well studied retinoid"
+    assert build._clean_active_note("is a well studied retinoid", "Adapalene") == "a well studied retinoid"
+    assert build._clean_active_note("Retinol, a mild retinoid", "Retinol") == "a mild retinoid"
+    # Already-clean predicates and empties pass through unchanged.
+    assert build._clean_active_note("a well studied retinoid", "Adapalene") == "a well studied retinoid"
+    assert build._clean_active_note("", "Adapalene") == ""
+    assert build._clean_active_note(None, "Adapalene") is None
+
+
 def test_potency_ladder_opt_in_flag():
     sys.path.insert(0, str(ROOT))
     import build, frontmatter
