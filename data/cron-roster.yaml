@@ -82,10 +82,19 @@ crons:
   - cron: "43 14 * * *"
     label: video-pull
     prompt: |
-      [SkinTiers daily video pull] Do ONE small bounded batch, then stop. KEEP TOKEN USE LOW. Pick one
-      creator from data/video-sources.yaml, fetch a few of their RECENT videos, and only cite a video whose
-      actual TRANSCRIPT you read (scripts/yt_transcript.py). Reject ALL sponsored videos. Add attributed
-      video: cards to the relevant page(s). Commit, sk log, build, push. One-line summary.
+      [SkinTiers daily video pull] Do ONE small bounded batch, then stop. KEEP TOKEN USE LOW; MAIN-LOOP work only (no subagents). Add a few of ONE vetted expert's recent, NON-SPONSORED, transcript-verified videos as embedded videos: cards on the most relevant existing pages.
+
+      STEP 1 - Pick the creator: read data/video-sources.yaml, pick the entry with the oldest or null last_pulled (ties: first listed). Use its name, creator_slug, credential, channel, conflict.
+      STEP 2 - List recent uploads: `yt-dlp --flat-playlist --playlist-end 15 --no-warnings --print "%(id)s\t%(title)s" <channel>`. Choose UP TO 3 candidates whose TITLE is about a topic the site already has a page for: a named product, an ingredient/topic (retinoids, niacinamide, vitamin C, azelaic/salicylic/glycolic acid, sunscreen/SPF, ceramides, hyaluronic acid, peptides), OR a skin CONDITION or GOAL the site covers (rosacea, melasma, acne, anti-aging). Skip vague vlogs, GRWM, hauls, favorites, and any #ad/sponsored title.
+      STEP 3 - For EACH chosen video (STOP after at most 3 cards):
+        a. `.venv/bin/python scripts/yt_transcript.py <id>`. No transcript -> skip.
+        b. MANDATORY sponsorship scan of the transcript (sponsor, sponsored, #ad, paid partnership, "thank you <brand> for sponsoring", gifted, "brought to you by", "use my code", affiliate callouts). ANY present -> REJECT. Reject brand-channel uploads.
+        c. READ the transcript; it must be genuine education/how-to/which-product-they-like. If the creator has an own-brand conflict and the video mainly promotes their own product, skip.
+        d. Pick the MOST relevant EXISTING page: a specific product page, else the ingredient/topic page, else a condition or goal hub page the video is about (data/products, data/ingredients, data/conditions, data/goals). No relevant page -> SKIP (do not create pages).
+        e. `grep -rl "<id>" data/` - if the id is already used anywhere, skip (no duplicates).
+        f. Add a videos: entry (add the videos: key if absent): title, creator, creator_slug, credential (from the roster), platform: YouTube, url: https://www.youtube.com/watch?v=<id>, thesis, note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship." The THESIS is 2-3 sentences GROUNDED IN THE TRANSCRIPT (only what they actually said, never fabricate a number/claim) and MUST be SELF-CONTAINED for a lay reader who does not know this creator or video: (1) name the product/ingredient/topic explicitly as the subject, never a bare "this"/"it"; (2) introduce the creator with their credential on first mention (e.g. "cosmetic chemist Michelle Wong", "dermatologist Dr Dray"); (3) read clearly on its own. No em/en-dashes; no site self-reference.
+      STEP 4 - Set that creator's last_pulled to today's date in data/video-sources.yaml (advance rotation even if 0 cards added).
+      STEP 5 - `.venv/bin/python scripts/sk lint <slug>` + `sk style <slug>` on each touched page (fix issues), `.venv/bin/python build.py`, `.venv/bin/python scripts/sk log "..."` a What's New line naming the creator + what was added, commit and push (git pull --rebase then push if rejected). One-line summary: creator + cards added (page + video), or "none found" with why.
   - cron: "13 3,11,19 * * *"
     label: product-images
     prompt: |
