@@ -1160,3 +1160,17 @@
   discovered_from: catalog-gap
   source: Higher-strength Medik8 retinaldehyde (10) vs the Crystal Retinal 3 already
     on the site; extends the retinal potency coverage
+- name: La Roche-Posay Anthelios Mineral Tinted SPF 50 (iron oxides)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: melasma
+  source: Tinted mineral sunscreen with iron oxides for visible-light protection,
+    the foundational melasma intervention
+- name: SkinCeuticals Discoloration Defense
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: melasma
+  source: Popular tranexamic-acid + kojic-acid + niacinamide serum marketed for stubborn
+    discoloration/melasma
