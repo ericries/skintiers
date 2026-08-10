@@ -86,6 +86,22 @@ crons:
       creator from data/video-sources.yaml, fetch a few of their RECENT videos, and only cite a video whose
       actual TRANSCRIPT you read (scripts/yt_transcript.py). Reject ALL sponsored videos. Add attributed
       video: cards to the relevant page(s). Commit, sk log, build, push. One-line summary.
+  - cron: "13 3,11,19 * * *"
+    label: product-images
+    prompt: |
+      [SkinTiers product images] Populate real product photos for products that lack them. Do ONE bounded batch then stop. KEEP TOKEN USE MODERATE.
+
+      STEP 1: list up to 5 products with NO images: frontmatter:
+      `for f in data/products/*.md; do grep -q "^images:" "$f" || basename "$f" .md; done | head -5`
+      If none, stop (nothing to do).
+
+      STEP 2: spawn ONE Sonnet subagent (effort medium) to handle exactly those 5 products. For EACH product it must:
+        a. Read the product page for its real brand + retailer URLs (the footnote source URLs and Where-to-Buy links already on the page are the best leads).
+        b. Fetch a brand or major-retailer product page and extract a REAL photo URL of THIS EXACT product (the og:image meta tag or the main product image). It must be the product itself, NOT a logo, banner, model shot, or unrelated image. If unsure or none is found, SKIP that product (never guess or fabricate an image).
+        c. Self-host it: `curl -sL "<url>" -o static/images/<slug>-<source>.jpg` then VERIFY it is a real image (`file static/images/<slug>-<source>.jpg` reports image data AND size > 3KB). If it is HTML/an error page/too small, delete it and skip.
+        d. Add an images: block to the frontmatter (after the category: or brand: line) with file/source/source_url per the site convention (reference data/products/cosrx-the-retinol-0-1-cream.md). 1-2 genuine product photos max. Attribute the source honestly.
+        e. Run `.venv/bin/python scripts/sk lint <slug>` and fix issues.
+      STEP 3 (main loop): `.venv/bin/python build.py`; confirm each touched product now renders a thumb (`grep -c 'thumb' _site/<slug>.html`). Commit (`git add data/products static/images && git commit -m "images: real product photos for N products (image cron)"`) and push (git pull --rebase then push if rejected). One-line summary: which products got images, which were skipped and why. Do NOT draft or change any other page content.
   - cron: "47 8 * * *"
     label: pubmed-ingest
     prompt: |
