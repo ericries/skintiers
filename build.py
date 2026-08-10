@@ -121,6 +121,8 @@ UV_FILTERS = [  # (slug, display name, start nm, end nm)
     ("octisalate", "Octisalate", 290, 320),
     ("homosalate", "Homosalate", 290, 320),
     ("ethylhexyl-triazone", "Ethylhexyl triazone", 290, 320),
+    ("bemotrizinol", "Bemotrizinol", 290, 400),
+    ("diethylamino-hydroxybenzoyl-hexyl-benzoate", "Diethylamino hydroxybenzoyl hexyl benzoate", 320, 400),
 ]
 _UV_MARKER = "<!--uv-filter-spectrum-->"
 _UV_SLUGS = {f[0] for f in UV_FILTERS}
@@ -136,10 +138,32 @@ def product_uv_filters(content):
     return [f for f in UV_FILTERS if f[0] in refs]
 
 
-def render_uv_spectrum(filters=UV_FILTERS):
+def _merge_uv_intervals(filters):
+    """Union of the filters' (start, end) nm ranges into sorted, merged segments,
+    plus the gaps left uncovered inside 290-400. Lets the chart state plainly which
+    wavelengths the whole product does and does not cover."""
+    ivals = sorted((a, b) for _, _, a, b in filters)
+    covered = []
+    for a, b in ivals:
+        if covered and a <= covered[-1][1]:
+            covered[-1][1] = max(covered[-1][1], b)
+        else:
+            covered.append([a, b])
+    gaps, cur = [], 290
+    for a, b in covered:
+        if a > cur:
+            gaps.append([cur, a])
+        cur = max(cur, b)
+    if cur < 400:
+        gaps.append([cur, 400])
+    return covered, gaps
+
+
+def render_uv_spectrum(filters=UV_FILTERS, combined=False):
     nm0, nm1, L, R = 290, 400, 152, 700
     top, row_h = 48, 22
-    plot_h = len(filters) * row_h
+    n_rows = len(filters) + (1 if combined else 0)
+    plot_h = n_rows * row_h
     h = top + plot_h + 20
 
     def x(nm):
@@ -159,8 +183,26 @@ def render_uv_spectrum(filters=UV_FILTERS):
              f'x2="{x(370):.1f}" y2="{top+plot_h}"/>')
     p.append(f'<text class="uv-broadlabel" x="{x(370):.1f}" y="{top+plot_h+14}" '
              f'text-anchor="middle">broad-spectrum line (370 nm)</text>')
+    offset = 0
+    if combined:
+        # Summary row first: the union of every filter, so the reader sees the
+        # product's total covered range (and any uncovered gap) at a glance.
+        covered, gaps = _merge_uv_intervals(filters)
+        y = top
+        p.append(f'<text class="uv-label uv-label-combined" x="{L-8}" '
+                 f'y="{y+row_h/2+3:.1f}" text-anchor="end">Combined coverage</text>')
+        for a, b in covered:
+            p.append(f'<rect class="uv-bar uv-bar-combined" x="{x(a):.1f}" y="{y+4:.1f}" '
+                     f'width="{x(b)-x(a):.1f}" height="{row_h-8}" rx="2"/>')
+        for a, b in gaps:
+            p.append(f'<rect class="uv-gap" x="{x(a):.1f}" y="{y+4:.1f}" '
+                     f'width="{x(b)-x(a):.1f}" height="{row_h-8}" rx="2"/>')
+            p.append(f'<text class="uv-gaplabel" x="{(x(a)+x(b))/2:.1f}" '
+                     f'y="{y+row_h/2+3:.1f}" text-anchor="middle">gap</text>')
+        p.append(f'<line class="uv-sep" x1="{L-8}" y1="{top+row_h:.1f}" x2="{R}" y2="{top+row_h:.1f}"/>')
+        offset = 1
     for i, (slug, name, a, b) in enumerate(filters):
-        y = top + i * row_h
+        y = top + (i + offset) * row_h
         p.append(f'<a href="{slug}.html"><text class="uv-label" x="{L-8}" '
                  f'y="{y+row_h/2+3:.1f}" text-anchor="end">{name}</text></a>')
         p.append(f'<rect class="uv-bar" x="{x(a):.1f}" y="{y+4:.1f}" '
@@ -588,14 +630,14 @@ def build_potency_rank_index(profiles, by_slug):
         if p.get("type") != "list" or p.get("status") != "published":
             continue
         tl = p.metadata.get("tier_list") or {}
-        # A list drives the evidence-box ladder if it opts in with `ladder: true`
-        # (the explicit, general signal) or, for back-compat, its ranking is by
-        # potency/strength. The ladder only makes sense for lists that rank FORMS
-        # of one active family (retinoids, vitamin C forms), so it is opt-in.
+        # A list drives the evidence-box ladder ONLY if it opts in with `ladder: true`.
+        # The ladder answers "how strong a TYPE is this active vs. its alternatives",
+        # so it only fits lists that rank FORMS of one active family (retinoids,
+        # vitamin C forms). A cross-ingredient roundup like "best moisturizing
+        # ingredients ranked" must NOT drive it: a product contains many of those at
+        # once, so singling out one and ranking it against the rest is meaningless.
         if not tl.get("ladder"):
-            hay = " ".join(str(tl.get(k) or "") for k in ("by", "title")).lower() + " " + str(p.metadata.get("name") or "").lower()
-            if "potenc" not in hay and "strength" not in hay:
-                continue
+            continue
         rungs = []
         for raw in tl.get("items") or []:
             if isinstance(raw, dict):
@@ -610,6 +652,10 @@ def build_potency_rank_index(profiles, by_slug):
             rungs.append({"slug": slug, "name": tgt.metadata.get("name") or slug, "tier_key": key})
         if len(rungs) < 2:
             continue
+        # Always render the ladder as an ordered gradient (best -> weak), so it reads
+        # as a ranking regardless of the list's declared item order; ties keep
+        # declared order (stable sort).
+        rungs.sort(key=lambda r: _TIER_ORDER.index(r["tier_key"]) if r["tier_key"] in _TIER_ORDER else len(_TIER_ORDER))
         for i, r in enumerate(rungs):
             index[r["slug"]] = {
                 "list_slug": p["slug"],
@@ -1123,7 +1169,7 @@ def build():
         if p.get("type") == "product" and p.metadata.get("category") == "Sunscreens":
             fils = product_uv_filters(p.content)
             if fils:
-                uv_spectrum = render_uv_spectrum(fils)
+                uv_spectrum = render_uv_spectrum(fils, combined=True)
         routine = routine_summary(p, by_slug)
         tier_list = tier_list_view(p, by_slug)
         if routine is not None:

@@ -162,6 +162,11 @@ sup a{font-family:var(--mono);font-size:.66em;border:none;padding:0 1px}
 .uv-spectrum a{cursor:pointer}
 .uv-spectrum a:hover .uv-label{fill:var(--accent)}
 .uv-bar{fill:color-mix(in srgb,var(--accent) 52%,transparent)}
+.uv-label-combined{font-family:var(--mono);font-weight:700;fill:var(--ink)}
+.uv-bar-combined{fill:var(--accent)}
+.uv-gap{fill:color-mix(in srgb,var(--tier-weak) 22%,transparent);stroke:var(--tier-weak);stroke-dasharray:3 2;stroke-width:1}
+.uv-gaplabel{font-family:var(--mono);font-size:9px;fill:var(--tier-weak);letter-spacing:.06em;text-transform:uppercase}
+.uv-sep{stroke:var(--line);stroke-width:1}
 .uv-product{margin:26px 0 8px}
 .uv-product-note{font-size:13.5px;color:var(--muted);max-width:60ch;margin:0 0 6px}
 /* --- Expert short-form video cards + routine source --- */

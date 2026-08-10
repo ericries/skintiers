@@ -6,6 +6,7 @@ name: Retinoids by Potency, Ranked
 slug: retinoids-by-potency-ranked
 status: published
 tier_list:
+  ladder: true
   by: strength and evidence of topical retinoids, prescription to over the counter
   items:
   - slug: tretinoin
