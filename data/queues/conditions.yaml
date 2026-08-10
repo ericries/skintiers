@@ -22,3 +22,31 @@
   status: done
   discovered_from: null
   source: data/conditions/rosacea.md
+- name: Melasma
+  type: condition
+  priority: 5
+  status: pending
+  discovered_from: video-harvest
+  source: Surfaced repeatedly in mined derm videos (Idriss, Bunting, Lim on pigmentation/visible-light);
+    distinct from general hyperpigmentation (hormonal, UV/visible-light driven)
+- name: Keratosis pilaris
+  type: condition
+  priority: 5
+  status: pending
+  discovered_from: video-harvest
+  source: 'Dr. Sam Ellis body-exfoliation video (transcript-verified): common condition;
+    urea/AHA/BHA body treatments'
+- name: Perioral dermatitis
+  type: condition
+  priority: 5
+  status: pending
+  discovered_from: general-gap
+  source: Common condition absent from the site; distinct management (stop actives/steroids,
+    topical antibiotics) - high search interest
+- name: Fungal acne (malassezia folliculitis)
+  type: condition
+  priority: 5
+  status: pending
+  discovered_from: general-gap
+  source: Commonly confused with comedonal acne; different treatment (antifungals,
+    avoid oils/esters) - useful skeptical explainer
