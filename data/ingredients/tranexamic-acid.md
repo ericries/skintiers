@@ -6,6 +6,15 @@ slug: tranexamic-acid
 status: published
 type: ingredient
 updated: '2026-07-28'
+videos:
+- title: "DERMATOLOGIST'S BEST SKINCARE INGREDIENTS FOR DARK SPOTS, HYPERPIGMENTATION & MELASMA"
+  creator: Dr. Whitney Bowe
+  creator_slug: whitney-bowe
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=b8XQgEXH4Vo
+  thesis: "Bowe describes tranexamic acid as an ingredient near and dear to her because she prescribes it as an oral pill to some patients with treatment-resistant, stubborn melasma who are good candidates for it, and says she finds it can be very effective both orally and, in certain cases, when formulated well topically. She groups it among the ingredients that block the tyrosinase step of pigment production."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 ---
 
 Tranexamic acid is a synthetic lysine derivative used as a systemic antifibrinolytic drug to control heavy bleeding, and, off-label in dermatology, to lighten melasma; the FDA-approved oral tablet is indicated only for "cyclic heavy menstrual bleeding in females of reproductive potential."[^label]

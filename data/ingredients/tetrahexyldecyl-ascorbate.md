@@ -6,6 +6,15 @@ slug: tetrahexyldecyl-ascorbate
 status: published
 type: ingredient
 updated: '2026-08-09'
+videos:
+- title: "VITAMIN C: DERMATOLOGIST EXPLAINS BENEFITS, HOW TO USE & BEST TYPES"
+  creator: Dr. Whitney Bowe
+  creator_slug: whitney-bowe
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=lr-5jIX2vhk
+  thesis: "Bowe explains that THD ascorbate is lipid-loving, which she says lets it more readily penetrate the lipid-heavy stratum corneum and reach into pores, where she argues free radicals contribute to acne through lipid peroxidation; she personally favors combining it with a water-loving vitamin C form for fuller delivery. Her penetration rationale is the same mechanism claim the evidence below examines; it is a view expressed in the video, not a trial result."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship. Her efficacy framing is her own; see this page's evidence for the controlled-trial picture."
 ---
 
 Tetrahexyldecyl ascorbate (THD ascorbate, sometimes THDA or THDC) is an oil-soluble ester of vitamin C, built by attaching a fatty branched-chain alcohol to ascorbic acid so the molecule dissolves in oils and silicones rather than water; it is the vitamin C form behind serums such as Medik8's C-Tetra line.[^swindell] Ingredient lists sometimes name the same molecule "ascorbyl tetraisopalmitate" (ATIP); a structural comparison by cosmetic chemist Michelle Wong concluded the two INCI names refer to the same molecule in the vast majority of commercial ingredients, so products labeled either way are this same form rather than two different ingredients.[^wong] The pitch for lipophilic esters like this one is that they dodge the instability and low-pH penetration barrier that limits [[ascorbic-acid-vitamin-c|L-ascorbic acid]], but the direct human trial evidence for THD ascorbate on its own is thin, and the most rigorous data available describe it as chemically fragile rather than a stable improvement on the parent molecule. It also does not act on skin directly: it must be hydrolyzed to release ascorbic acid, and the rate at which that conversion happens in skin is not quantified in the fetched literature.[^swindell]

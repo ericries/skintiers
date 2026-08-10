@@ -17,6 +17,15 @@ slug: skinmedica-tns-advanced-serum
 status: published
 type: product
 updated: '2026-08-08'
+videos:
+- title: "Best Neck Creams for Crepey Skin, Wrinkles & Tech Neck (Derm Explains)"
+  creator: "Dr. Shereene Idriss"
+  creator_slug: shereene-idriss
+  credential: "Board-certified dermatologist"
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=NaGVtluUHfc
+  thesis: "Idriss keeps TNS Advanced+ Serum as an office tester and describes it as two chambers in one bottle: a Human Fibroblast Conditioned Media growth-factor blend plus the peptides progeline and Prolixir 20 in one chamber, and botanical and marine extracts in the other. She calls the $295 price steep but says patients specifically request it and report strong results, and frames it as an option for people who cannot tolerate retinoids on the neck."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 ---
 
 TNS Advanced+ Serum is [[skinmedica|SkinMedica]]'s flagship anti-aging serum, built around Human Fibroblast Conditioned Media, a growth-factor-bearing extract from cultured human fibroblasts, marketed under the retailer-quoted description "powered by TNS-MR and Renessensce (RSC) Advanced."[^1]

@@ -7,6 +7,15 @@ status: published
 tier: top
 type: ingredient
 updated: '2026-07-27'
+videos:
+- title: "How to Layer Anti-aging Prescriptions (Tretinoin & Hydroquinone)"
+  creator: "Dr. Shereene Idriss"
+  creator_slug: shereene-idriss
+  credential: "Board-certified dermatologist"
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=-HdzW2aiuD0
+  thesis: "Idriss frames tretinoin as the collagen half of her two-prescription anti-aging pairing, saying it speeds up the cell turnover that slows as skin ages and stimulates collagen production, and calling it the most powerful topical anti-aging ingredient with no over-the-counter option matching its track record. She recommends building consistency with an over-the-counter retinol first, then starting a prescription retinoid at one to two nights a week and increasing gradually, and not pairing it on the same night as an exfoliating treatment until tolerance is established."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 ---
 
 Tretinoin is all-trans retinoic acid, the direct, receptor-active form of vitamin A and a prescription-only topical drug. Unlike over-the-counter [[retinol]] (a precursor the skin must enzymatically convert to reach this same molecule), tretinoin binds retinoic acid receptors directly, which is why it is the trial-validated benchmark against which milder retinoids are measured.[^4] It has two well-studied uses with genuinely different evidence, so this profile grades each separately: photoaging and acne. Its reputation runs ahead of its data in one specific way: it improves skin rather than reversing aging, and even the FDA label says so.[^4]

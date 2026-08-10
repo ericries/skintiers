@@ -6,6 +6,15 @@ slug: peptides
 status: published
 type: ingredient
 updated: '2026-07-28'
+videos:
+- title: "Top 8 Peptides You Want In Your Skincare Routine — Expert Tips from a Dermatologist!"
+  creator: "Dr. Shereene Idriss"
+  creator_slug: shereene-idriss
+  credential: "Board-certified dermatologist"
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=F24UvKBOf_k
+  thesis: "Idriss groups eight cosmetic peptides by the skin concern each targets: acetyl tetrapeptide-40 for barrier support and inflammation, palmitoyl tripeptide-1 with palmitoyl tetrapeptide-7 together for collagen signaling and preservation, oligopeptide-1 for long-term texture and skin repair, hexapeptide-2 for pigment regulation, acetyl hexapeptide-8 (Argireline) as a temporary 'Botox in a bottle' softener of expression lines that she says is not worth spending much money on, palmitoyl hexapeptide-52 for environmentally stressed skin, and palmitoyl tripeptide-38 for lip texture and fullness."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 ---
 
 Cosmetic peptides are short chains of amino acids added to skincare, usually to signal collagen production, relax expression lines, or carry trace metals, and marketed mainly as anti-aging actives whose measured effect on the look of aging is modest and mostly preliminary. Because the evidence differs sharply by the type of peptide, this profile grades them by class rather than as one ingredient.

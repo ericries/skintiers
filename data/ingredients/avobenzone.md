@@ -6,6 +6,15 @@ slug: avobenzone
 status: published
 type: ingredient
 updated: '2026-07-28'
+videos:
+- title: "DERMATOLOGIST EXPLAINS SUNSCREEN ALLERGIC REACTIONS AND WHAT INGREDIENTS TO AVOID"
+  creator: Dr. Whitney Bowe
+  creator_slug: whitney-bowe
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=j13syR1ZdGA
+  thesis: "Bowe says most people who react to a sunscreen are actually reacting to fragrance or essential oils rather than the sunscreen's active filters, so that should be ruled out first. Among the chemical filters that can cause allergic contact dermatitis or photoallergy, she ranks oxybenzone as the most common culprit (though now easier to avoid since most US sunscreens have reformulated without it), with avobenzone and octocrylene as much less likely, rarer causes."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 ---
 
 Avobenzone (INCI butyl methoxydibenzoylmethane) is an organic sunscreen filter and the main ultraviolet-A filter in United States over-the-counter sunscreens, absorbing across the UVA band but breaking down in sunlight unless a co-filter holds it stable.[^beasley][^akintilo] It is a dedicated UVA filter, not a UVB one, so it contributes little to a product's SPF and is combined with UVB filters such as [[octinoxate]], octisalate, homosalate, and octocrylene; SPF is a UVB metric and UVA is a separate axis, both explained on [[sunscreen-uv-filters]]. Regular broad-spectrum sunscreen use is one of the few skincare practices with randomized-trial support for slowing photoaging and reducing melanoma and squamous-cell tumor burden, and avobenzone is the UVA component of that protection in most older US formulas; the health benefit is established for the practice, not for avobenzone in isolation, and lives on [[sunscreen-uv-filters]].[^beasley][^akintilo] Two questions shape how it is graded: how well it actually covers UVA once photodegradation is accounted for, and what its measured systemic absorption means.

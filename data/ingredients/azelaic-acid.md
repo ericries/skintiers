@@ -15,6 +15,14 @@ videos:
   url: https://www.youtube.com/watch?v=r95YJoxZQ-I
   thesis: "Ranking hyperpigmentation actives after a multi-episode series, the chemists place 20% azelaic acid in their top tier alongside 4% hydroquinone, citing its long track record and data specifically in darker skin tones. They rank 10% azelaic acid a tier lower, arguing most 10% products lean on the 20% research without their own evidence and function better as a supporting 'sidekick' than a stand-alone treatment."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: "Hyperpigmentation and Sensitive Skin: Why Most Treatments Cause Irritation and What Actually Works"
+  creator: Dr. Sam Bunting
+  creator_slug: sam-bunting
+  credential: Board-certified dermatologist (UK)
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=ombQvS1pPfg
+  thesis: "For pigmentation in sensitive or darker skin, Bunting favors azelaic acid because it works through several mechanisms at once: competitive inhibition of tyrosinase, selective targeting of overactive melanocytes, downregulating melanocyte mitochondrial energy, and speeding cell turnover to shed existing pigment, all without the irritation that itself can trigger more melanin production. She pairs it with niacinamide, which blocks delivery of melanin parcels to skin cells while also supporting the barrier via ceramide production."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 ---
 
 Azelaic acid is a saturated dicarboxylic acid used topically at 15% (gel/foam) and 20% (cream), FDA-approved for rosacea (15% gel) and inflammatory acne (20% cream); azelaic acid was first approved by the FDA in 1995.[^4][^8] Its evidence base is unusually good for a dermatologic topical, but the grade depends entirely on **what you are using it for**, and each use is graded separately below.

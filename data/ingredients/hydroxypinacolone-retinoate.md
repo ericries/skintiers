@@ -6,6 +6,15 @@ slug: hydroxypinacolone-retinoate
 status: published
 type: ingredient
 updated: '2026-07-27'
+videos:
+- title: "5 Underrated Skincare Ingredients For Healthy Skin & Slow Aging That Deserve More Hype"
+  creator: "Dr. Shereene Idriss"
+  creator_slug: shereene-idriss
+  credential: "Board-certified dermatologist"
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=xuvqSI4D7lo
+  thesis: "Idriss explains HPR as a retinoid that reaches the retinoic-acid receptor through a different route than retinol's multi-step conversion, which she says makes it more stable in formulation and, in her experience, generally better tolerated. She recommends it as the place to start for people who are scared of retinoids or have had a bad experience with one, building up gradually to two or three nights a week, and advises against it during pregnancy."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 ---
 
 Hydroxypinacolone Retinoate (INCI Hydroxypinacolone Retinoate; also called HPR) is a synthetic ester of all-trans retinoic acid ([[tretinoin]]) used in cosmetics as a [[retinoids|retinoid]] alternative to [[retinol]]. The commercial raw material is sold by Grant Industries under the trade name Granactive Retinoid, an anhydrous blend of 10% HPR in 90% dimethyl isosorbide, so a label that reads "2% Granactive Retinoid" contains about 0.2% actual HPR (and 1.8% solvent), and "5% Granactive Retinoid" about 0.5% HPR. The Ordinary uses it in its Granactive Retinoid 2% Emulsion and Granactive Retinoid 5% in Squalane.

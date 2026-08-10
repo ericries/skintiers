@@ -27,6 +27,15 @@ slug: round-lab-birch-juice-moisturizing-sun-spf-50
 status: published
 type: product
 updated: '2026-08-07'
+videos:
+- title: "A Dermatologist's TOP 5 Korean Sunscreens: Why Korean SPF is SO POPULAR"
+  creator: Dr. Scott Walter
+  creator_slug: scott-walter
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=TftRd5FmQHU
+  thesis: "Walter names this one of his top five Korean sunscreens, calling out its birch sap base plus vitamin C, niacinamide, and hyaluronic acid, and says it is a perfect blend of hydration and sun protection that feels moisturizing and dewy on his skin."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 ---
 
 Round Lab Birch Juice Moisturizing Sun is a South Korean facial sunscreen from [[round-lab]] marketed as a hybrid sunscreen-moisturizer; the current US listing, sold under the name "Birch Juice Moisturizing UV Lock," rates it SPF45+ and PA++++ and lists avobenzone, homosalate, and octisalate as its active UV filters.[^target]

@@ -6,6 +6,15 @@ slug: salicylic-acid
 status: published
 type: ingredient
 updated: '2026-07-28'
+videos:
+- title: "Large Pores? Top 5 Ingredients to 'Shrink' | Carpool Karaoke (PillowtalkDerm Edition)"
+  creator: "Dr. Shereene Idriss"
+  creator_slug: shereene-idriss
+  credential: "Board-certified dermatologist"
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=qlGhez_uw94
+  thesis: "In a rundown of ingredients for the look of large pores, Idriss recommends salicylic acid for oil-prone, acne-prone skin because it is oil-loving and gets pulled into oil-clogged pores where it helps clear the buildup, calling it a good option for blackheads and clogged pores. She cautions it can be inflammatory and irritating on rosacea-prone skin, making it a double-edged sword for reactive skin types."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 ---
 
 Salicylic acid is a lipophilic beta-hydroxy acid used topically as a nonprescription acne active at 0.5% to 2%, as a keratolytic wart remover at 12% to 40%, and at roughly 20% to 30% for in-office chemical peels.[^cfr-acne][^cfr-wart][^arif]
