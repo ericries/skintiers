@@ -1202,3 +1202,10 @@
   discovered_from: retinoid-cluster
   source: Newer 4th-gen selective retinoid (trifarotene), FDA-approved for facial
     and truncal acne with pivotal RCTs
+- name: Twyneo (tretinoin 0.1% / benzoyl peroxide 3% cream)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: retinoid-cluster
+  source: 'Twyneo (tretinoin 0.1% + benzoyl peroxide 3%): first FDA-approved fixed-combo
+    of tretinoin+BPO via silica microencapsulation; pivotal acne RCTs'
