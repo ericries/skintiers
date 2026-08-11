@@ -4,6 +4,10 @@ assurance: sonnet
 brand: Aveeno
 category: Cleansers
 comparator: other fragrance-free, non-foaming cream cleansers for sensitive skin
+images:
+- file: aveeno-calm-restore-oat-gentle-cleanser-aveeno.jpg
+  source: Aveeno
+  source_url: https://www.aveeno.com/products/calm-restore-gentle-nourishing-oat-face-cleanser
 grades:
 - effect: modest
   evidence: anecdotal

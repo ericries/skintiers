@@ -4,6 +4,10 @@ assurance: opus
 brand: Anua
 category: Toners
 comparator: plainer heartleaf toners without an added exfoliating acid
+images:
+- file: anua-heartleaf-77-clear-pad-anua.jpg
+  source: Anua
+  source_url: https://anua.com/products/heartleaf-77-toner-pad-160ml
 grades:
 - effect: minimal
   evidence: anecdotal

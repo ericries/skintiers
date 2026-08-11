@@ -3,6 +3,10 @@ analyzed: '2026-08-08'
 assurance: sonnet
 category: Niacinamide serums
 comparator: other niacinamide serums
+images:
+- file: anua-niacinamide-10-tranexamic-acid-4-serum-anua.jpg
+  source: Anua
+  source_url: https://anua.com/products/niacinamide-10-txa-4-serum-2
 grades:
 - effect: modest
   evidence: mixed

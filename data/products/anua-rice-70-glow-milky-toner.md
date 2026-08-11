@@ -3,6 +3,10 @@ analyzed: '2026-08-07'
 assurance: sonnet
 category: Toners
 comparator: plainer niacinamide toners and serums
+images:
+- file: anua-rice-70-glow-milky-toner-anua.jpg
+  source: Anua
+  source_url: https://anua.com/products/rice-70-glow-milky-toner
 grades:
 - effect: minimal
   evidence: preliminary
