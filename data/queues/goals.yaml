@@ -13,7 +13,7 @@
 - name: Brightening / even skin tone
   type: goal
   priority: 5
-  status: pending
+  status: done
   discovered_from: video-harvest
   source: Recurring goal across vitamin C / tranexamic acid / niacinamide videos;
     anchor for pigment-evidence tier lists

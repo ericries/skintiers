@@ -4201,3 +4201,17 @@ melasma:
     revise-then-publish: fixed a load-bearing conflation (two unrelated Handel sentences were bridged into an
     implied causal PIH-after-procedures claim) -> now two separate sentences; also folded kojic acid + cysteamine
     into the tier_list (minimal) and added azelaic's older/smaller-trials caveat. assurance=sonnet. lint/verify/style clean.
+
+brightening:
+  last_reviewed: '2026-08-10'
+  score: 9
+  verdict: revise-then-published
+  note: |
+    Brightening / even skin tone GOAL hub. Daily GOAL cron (Sonnet draft + Opus critic). Routes the "even
+    tone" intent to the right cause ([[melasma]] vs [[hyperpigmentation]] vs dullness) and hosts a tier list
+    of pigment actives with grades REUSED verbatim from melasma.md (no new numbers). Critic re-verified tier
+    consistency (7/8 match melasma exactly, arbutin faithful to arbutin.md) and honesty. Verdict revise:
+    fixed 5 citation over-reaches: mis-cited "short courses" to FDA-2006 (moved to [^triluma], scoped to the
+    triple-combination cream), dropped a misleading "skin-bleaching" quote on hydroquinone itself, reworded
+    the Evidence section to link-out (removed uncited network-meta/head-to-head clauses), added [[arbutin]] as
+    a source, dropped an unsupported "as well as UV" clause. assurance=sonnet. lint/verify/style clean.
