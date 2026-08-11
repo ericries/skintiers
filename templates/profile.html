@@ -151,6 +151,27 @@
   </section>
   {% endif %}
 
+  {% if concern_products %}
+  <section class="concern-products" aria-label="Products with these actives">
+    <h2>Products with these actives</h2>
+    <p class="cp-note">Products on the site that contain the graded actives above, grouped by the strongest active each one delivers. Each product's own evidence grade is on its page.</p>
+    {% for g in concern_products.groups %}
+    <div class="cp-group">
+      <h3 class="cp-active tier-{{ g.tier_key }}"><a href="{{ g.active_slug }}.html">{{ g.active_name }}</a></h3>
+      <ul class="cp-list">
+        {% for pr in g['products'] %}
+        <li class="cp-item">
+          <a class="cp-badge" href="{{ pr.slug }}.html" aria-hidden="true" tabindex="-1">{% if pr.thumb %}<img src="{{ pr.thumb }}" alt="" loading="lazy">{% else %}{{ gen_icon(pr.slug, pr.monogram, pr.name)|safe }}{% endif %}</a>
+          <a class="cp-name" href="{{ pr.slug }}.html">{{ pr.name }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+      {% if g.more %}<p class="cp-more">plus {{ g.more }} more on <a href="{{ g.active_slug }}.html">{{ g.active_name }}</a></p>{% endif %}
+    </div>
+    {% endfor %}
+  </section>
+  {% endif %}
+
   {% if uv_spectrum %}
   <section class="uv-product">
     <h2>UV filters in this sunscreen</h2>

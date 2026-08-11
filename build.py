@@ -634,6 +634,52 @@ def tier_list_view(profile, by_slug):
             "tiers": tiers, "missing": missing}
 
 
+def products_for_tier_list(tl_view, profiles):
+    """For a condition/goal tier list that ranks ingredient ACTIVES, list the published
+    PRODUCTS that contain each active (via key_actives), turning a concern page into a
+    concern -> product discovery hub. Each product is placed under the single
+    highest-tier active it contains (no duplicates); actives appear best-tier first, and
+    products within an active sort by their own evidence tier. Returns None if nothing
+    matches (e.g. a tier list that ranks products, not actives)."""
+    if not tl_view:
+        return None
+    rank = {k: i for i, k in enumerate(_TIER_ORDER)}
+    active_tier, active_name = {}, {}
+    for t in tl_view["tiers"]:
+        for it in t["items"]:
+            active_tier[it["slug"]] = t["key"]
+            active_name[it["slug"]] = it["name"]
+    actives = set(active_tier)
+    if not actives:
+        return None
+    groups = {}
+    for p in profiles:
+        if p.get("type") != "product" or p.get("status") != "published":
+            continue
+        ka = {str(a).strip().lower() for a in (p.metadata.get("key_actives") or [])}
+        matched = ka & actives
+        if not matched:
+            continue
+        best = min(matched, key=lambda a: rank.get(active_tier[a], 99))
+        imgs, mono = images_and_monogram(p.metadata)
+        ptier = entity_tier(p.metadata) or "unrated"
+        pseg = (_best_health_grade(p.metadata) or (-1,))[0]
+        groups.setdefault(best, []).append({
+            "slug": p["slug"], "name": p.metadata.get("name") or p["slug"],
+            "thumb": imgs[0]["src"] if imgs else None, "monogram": mono,
+            "ptier": ptier, "pseg": pseg})
+    out = []
+    for a in sorted(actives, key=lambda a: rank.get(active_tier[a], 99)):
+        prods = groups.get(a)
+        if not prods:
+            continue
+        prods.sort(key=lambda r: (rank.get(r["ptier"], 99), -r["pseg"], r["name"].lower()))
+        out.append({"active_slug": a, "active_name": active_name[a],
+                    "tier_key": active_tier[a], "products": prods[:8],
+                    "more": max(0, len(prods) - 8)})
+    return {"groups": out} if out else None
+
+
 def build_potency_rank_index(profiles, by_slug):
     """Map an ingredient slug -> a potency-ladder render model, derived from any
     published best-of `list` whose ranking is by potency/strength. Lets a product
@@ -1186,6 +1232,8 @@ def build():
                 uv_spectrum = render_uv_spectrum(fils, combined=True)
         routine = routine_summary(p, by_slug)
         tier_list = tier_list_view(p, by_slug)
+        concern_products = (products_for_tier_list(tier_list, profiles)
+                            if p.get("type") in ("condition", "goal") else None)
         if routine is not None:
             routines_json[p["slug"]] = {
                 "name": p.metadata.get("name"),
@@ -1223,6 +1271,7 @@ def build():
             tier_nav=tier_nav_from_html(body_main),
             routine=routine,
             tier_list=tier_list,
+            concern_products=concern_products,
             builder_url=routine_builder_path(routine, code_map),
             uv_spectrum=uv_spectrum,
             videos=p.metadata.get("videos") or [],

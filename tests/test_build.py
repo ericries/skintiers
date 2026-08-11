@@ -707,6 +707,42 @@ def test_clean_active_note_strips_restated_subject():
     assert build._clean_active_note(None, "Adapalene") is None
 
 
+def test_products_for_tier_list_groups_products_by_best_active():
+    sys.path.insert(0, str(ROOT))
+    import build, frontmatter
+
+    def post(md):
+        return frontmatter.loads(md)
+
+    def prod(slug, actives, effect="modest", status="published"):
+        ka = "".join(f"- {a}\n" for a in actives)
+        return post(f"---\nname: {slug.upper()}\nslug: {slug}\ntype: product\nstatus: {status}\n"
+                    f"key_actives:\n{ka}grades:\n- effect: {effect}\n  evidence: solid\n  use: X (health)\n---\nB.\n")
+
+    prods = [
+        prod("p1", ["azelaic-acid"], effect="notable"),
+        prod("p2", ["niacinamide", "azelaic-acid"]),   # both -> assigned to its best-tier active
+        prod("pd", ["azelaic-acid"], status="draft"),   # unpublished, excluded
+    ]
+    by_slug = {
+        "azelaic-acid": post("---\nname: Azelaic acid\nslug: azelaic-acid\ntype: ingredient\nstatus: published\ntier: strong\n---\nB.\n"),
+        "niacinamide": post("---\nname: Niacinamide\nslug: niacinamide\ntype: ingredient\nstatus: published\ntier: moderate\n---\nB.\n"),
+    }
+    cond = post("---\nname: C\nslug: c\ntype: condition\nstatus: published\n"
+                "tier_list:\n  by: x\n  items:\n  - azelaic-acid\n  - niacinamide\n---\nB.\n")
+    tl = build.tier_list_view(cond, by_slug)
+    cp = build.products_for_tier_list(tl, prods)
+    assert cp is not None
+    groups = {g["active_slug"]: [p["slug"] for p in g["products"]] for g in cp["groups"]}
+    # p2 has both actives but is placed under its strongest-tier active (azelaic), no dupes;
+    # the draft is excluded; the niacinamide group is empty so it is dropped.
+    assert set(groups.get("azelaic-acid", [])) == {"p1", "p2"}
+    assert "niacinamide" not in groups
+    assert cp["groups"][0]["active_slug"] == "azelaic-acid"  # best tier first
+    # a tier list that ranks products (no active matches key_actives) yields nothing.
+    assert build.products_for_tier_list(tl, []) is None
+
+
 def test_potency_ladder_opt_in_flag():
     sys.path.insert(0, str(ROOT))
     import build, frontmatter
