@@ -47,6 +47,8 @@ header.site{border-bottom:1px solid var(--rule);position:sticky;top:0;background
 nav.top{font-family:var(--mono);font-size:12.5px;letter-spacing:.03em;display:flex;gap:20px;align-items:baseline}
 nav.top a{border:none;color:var(--muted)}
 nav.top a:hover{color:var(--accent)}
+nav.top a.nav-cta{color:var(--accent);border:1px solid var(--accent);border-radius:3px;padding:2px 9px;font-weight:500}
+nav.top a.nav-cta:hover{background:var(--accent);color:var(--paper)}
 .theme-toggle{font-family:var(--mono);font-size:12.5px;letter-spacing:.03em;color:var(--muted);background:none;border:1px solid var(--rule-strong);border-radius:3px;padding:2px 9px;cursor:pointer;line-height:1.4}
 .theme-toggle:hover{color:var(--accent);border-color:var(--accent)}
 
