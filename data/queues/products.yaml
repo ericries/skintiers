@@ -1230,3 +1230,10 @@
   discovered_from: davin-lim
   source: Dr Davin Lim / The Melasma Clinic focus; a real tinted mineral SPF for melasma
     visible-light protection
+- name: Paula's Choice Skin Perfecting 8% AHA Gel
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: exfoliating-acids
+  source: Glycolic-acid AHA exfoliant (8% glycolic); anchors the strongest-AHA rung
+    with a product
