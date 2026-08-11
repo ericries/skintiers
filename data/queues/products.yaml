@@ -1174,3 +1174,10 @@
   discovered_from: melasma
   source: Popular tranexamic-acid + kojic-acid + niacinamide serum marketed for stubborn
     discoloration/melasma
+- name: The Ordinary Alpha Arbutin 2% + HA
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: brightening
+  source: Popular affordable alpha-arbutin brightening serum; anchors the brightening
+    goal catalog
