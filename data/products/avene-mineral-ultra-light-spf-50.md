@@ -18,6 +18,10 @@ grades:
     [[titanium-dioxide]]); combined active load (10%) is lower than higher-percentage
     single-filter mineral sunscreens'
   use: UVA (photoaging) protection
+images:
+- file: avene-mineral-ultra-light-spf-50-lookfantastic.jpg
+  source: LookFantastic (Ireland)
+  source_url: https://www.lookfantastic.ie/p/avene-mineral-ultra-light-hydrating-sunscreen-lotion-spf50-1.7fl.-oz/11411636/
 key_actives:
 - zinc-oxide
 - titanium-dioxide

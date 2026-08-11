@@ -16,6 +16,10 @@ grades:
     is set out on [[niacinamide]]; here niacinamide sits eighth on the list, after
     alpha-arbutin, with no declared concentration'
   use: Skin barrier support and hyperpigmentation (health, niacinamide)
+images:
+- file: beauty-of-joseon-glow-deep-serum-rice-alpha-arbutin-boj.jpg
+  source: Beauty of Joseon (US official site)
+  source_url: https://beautyofjoseon.com/products/glow-deep-serum-rice-alpha-arbutin
 key_actives:
 - arbutin
 - niacinamide

@@ -13,6 +13,10 @@ grades:
     beeswax, and microcrystalline wax) and carries National Eczema Association acceptance,
     but no independent trial of this exact cream is cited here'
   use: Occlusion and barrier support for sensitive, dry, or compromised skin (health)
+images:
+- file: avene-cicalfate-restorative-protective-cream-target.jpg
+  source: Target
+  source_url: https://www.target.com/p/avene-cicalfate-restorative-protective-skin-barrier-face-cream/-/A-94646373
 key_actives:
 - zinc-oxide
 name: Avene Cicalfate+ Restorative Protective Cream

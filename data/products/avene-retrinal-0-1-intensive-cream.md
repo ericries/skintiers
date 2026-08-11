@@ -30,6 +30,10 @@ grades:
     OTC retinoid with real acne trials, about $15), and [[tretinoin-0-025-cream]]
     (Rx retinoic acid, the benchmark every OTC retinoid remains milder than)'
   use: For photoaging (fine lines, texture, firmness) (health/cosmetic)
+images:
+- file: avene-retrinal-0-1-intensive-cream-target.jpg
+  source: Target
+  source_url: https://www.target.com/p/avene-retrinal-0-1-intensive-multi-corrective-cream-0-5-fl-oz/-/A-91940666
 key_actives:
 - retinaldehyde
 name: Avène RetrinAL 0.1 Intensive Cream

@@ -20,6 +20,10 @@ grades:
     and no cited trial isolates any of the five ginseng ingredients (root water, callus
     culture extract, root extract, berry extract, ferment filtrate)'
   use: Brightening and glow appearance (cosmetic)
+images:
+- file: beauty-of-joseon-ginseng-essence-water-boj.jpg
+  source: Beauty of Joseon (US official site)
+  source_url: https://beautyofjoseon.com/products/ginseng-essence-water
 key_actives:
 - niacinamide
 - panax-ginseng
