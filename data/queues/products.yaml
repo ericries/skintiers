@@ -1209,3 +1209,17 @@
   discovered_from: retinoid-cluster
   source: 'Twyneo (tretinoin 0.1% + benzoyl peroxide 3%): first FDA-approved fixed-combo
     of tretinoin+BPO via silica microencapsulation; pivotal acne RCTs'
+- name: The Ordinary Ascorbyl Glucoside Solution 12%
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: vitamin-c-forms
+  source: Affordable ascorbyl-glucoside (vitamin C derivative) serum; ties the vitamin-c-forms
+    ladder to a real buyable product
+- name: Isdin Melatonik Night Serum
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: pigment-cluster
+  source: Popular melatonin + bakuchiol + vitamin C antioxidant night serum marketed
+    for tone/repair; fits the brightening cluster
