@@ -1237,3 +1237,10 @@
   discovered_from: exfoliating-acids
   source: Glycolic-acid AHA exfoliant (8% glycolic); anchors the strongest-AHA rung
     with a product
+- name: Winlevi (clascoterone 1% cream)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: clascoterone
+  source: The FDA-approved clascoterone product (first topical anti-androgen for acne);
+    product-specific pivotal RCTs (Hebert 2020)
