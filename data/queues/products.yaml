@@ -1181,3 +1181,17 @@
   discovered_from: brightening
   source: Popular affordable alpha-arbutin brightening serum; anchors the brightening
     goal catalog
+- name: Naturium Alpha Arbutin Serum 2%
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: brightening
+  source: Affordable alpha-arbutin brightening serum; anchors the brightening tier
+    list alongside The Ordinary Alpha Arbutin
+- name: The Inkey List Tranexamic Acid Night Treatment
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: brightening
+  source: Affordable tranexamic-acid brightening product; TXA is a strong-tier melasma/brightening
+    active
