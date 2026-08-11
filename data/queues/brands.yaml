@@ -88,7 +88,7 @@
   status: done
   discovered_from: null
   source: null
-- name: Avène
+- name: "Av\xE8ne"
   type: brand
   priority: 6
   status: done
@@ -214,3 +214,10 @@
   status: done
   discovered_from: null
   source: https://supergoop.com
+- name: Black Girl Sunscreen
+  type: brand
+  priority: 5
+  status: pending
+  discovered_from: product-gap
+  source: Founded 2016 by Shontay Lundy; has Black Girl Sunscreen SPF 30 on the site,
+    no brand page yet
