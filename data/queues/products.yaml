@@ -971,7 +971,7 @@
 - name: Black Girl Sunscreen SPF 30
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: video-javon-ford
   source: https://www.tiktok.com/@javonford16
 - name: Danessa Myricks Barrier Boost Plumping Serum
