@@ -4303,3 +4303,17 @@ scientis:
     Scientis brand discovery card (BRAND cron, inline, no critic per brand scope). Lean: Geneva-based Swiss
     company that makes the cysteamine-based Cyspera depigmenting line; links to [[cyspera-intensive-cysteamine-cream]].
     Source cyspera.com (cached). Flipped stub -> published. assurance=sonnet.
+
+keratosis-pilaris:
+  last_reviewed: '2026-08-11'
+  score: 9
+  verdict: revise-then-published
+  note: |
+    Keratosis pilaris condition hub (KP, "chicken skin"). Daily CONDITION cron (Sonnet draft + Opus critic).
+    8 primary sources; critic re-fetched all 8 and found zero discrepancies ("unusually clean fact-check").
+    Honest management-not-cure framing (StatPearls "no controlled trials or a cure" verbatim); tier list
+    graded lactic/salicylic MODERATE (one split-side RCT, Kootiratrakarn 2015 n=50, 66% vs 52%, 14-pt gap
+    P<0.05), urea/glycolic MINIMAL (single uncontrolled trials), retinoids MINIMAL (no KP-specific trial,
+    correctly not overstated). Verdict revise: added the trial's own null TEWL finding + the p-value, corrected
+    a Beyron paraphrase ("preferred" not "most commonly studied"), split a bundled citation. Reuses the
+    exfoliating-acids ladder. assurance=sonnet. lint/verify/style clean.
