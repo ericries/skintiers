@@ -1265,3 +1265,17 @@
   discovered_from: cysteamine
   source: Scientis's next-gen Cyspera; a boost/HydraBright variant, extends the Cyspera
     line coverage
+- name: AmLactin Daily Moisturizing Body Lotion (12% lactic acid)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: keratosis-pilaris
+  source: The classic ammonium-lactate KP body treatment; anchors the lactic-acid
+    rung
+- name: CeraVe SA Smoothing Cream (salicylic acid)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: keratosis-pilaris
+  source: Popular salicylic-acid + urea body cream widely recommended for KP/rough
+    bumpy skin
