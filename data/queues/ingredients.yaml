@@ -660,7 +660,7 @@
 - name: Clascoterone (Winlevi 1% cream)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: libecco-2026-clascoterone
   source: https://pubmed.ncbi.nlm.nih.gov/41642149/
 - name: Acetyl zingerone

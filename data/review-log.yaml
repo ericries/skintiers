@@ -4267,3 +4267,17 @@ exfoliating-acids-by-strength:
     (moderate, gentler AHA). Factual strength/penetration framing per the vitamin-C-forms precedent (stronger
     != better). Reuses each acid ingredient page's evidence; mandelic + PHAs noted as gentler, not-yet-profiled.
     lint/verify/style clean.
+
+clascoterone:
+  last_reviewed: '2026-08-11'
+  score: 9
+  verdict: revise-then-published
+  note: |
+    Clascoterone (Winlevi), first-in-class TOPICAL androgen-receptor inhibitor for acne. Daily INGREDIENT
+    cron (Sonnet draft + Opus critic). Critic re-verified all 5 primaries verbatim ("cleanest source-fidelity
+    result on a first pass"): Hebert 2020 JAMA Derm two RCTs (N=1440; IGA success 18.4% vs 9.0% and 20.3% vs
+    6.5%, P<.001), WINLEVI FDA label (mechanism "unknown", HPA-axis signal 1/20 + 2/22 reversible),
+    Dhillon/Kircik reviews, AAD 2024 (conditional rec), Libecco 2026 correctly discounted as a same-cohort
+    re-slice. Honest: no PCOS-population trial (mechanistic [[pcos]] link only), no head-to-head vs
+    tretinoin/adapalene, HPA-axis disclosed with exact numbers, Rx-only + under-12 gap. Verdict revise: fixed
+    one footnote misattribution (four-ring-backbone fact -> [^kircik] not [^dhillon]). assurance=sonnet.
