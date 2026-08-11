@@ -19,9 +19,17 @@ verified pages" (crons do that) to "make the accumulated evidence usable for dec
   on every page (commit 4750598). REMAINING: (a) a homepage hero that invites building a
   routine; (b) minor UX polish - the sticky header overlaps the search/dashboard on
   scroll; (c) more product images so thumbnails fill in (image cron churning, ~49/147).
-- **Concern-based navigation + site search.** Evidence tags (tier, concern, ingredient,
-  price) exist; expose them as browse/filter. "Tier-1 vitamin C serums under $30" should
-  be answerable. NOT started - the next Phase-A piece after the builder polish.
+- **Concern-based navigation.** DONE (commit 0cc2044): every condition/goal page now has a
+  'Products with these actives' section - the published products whose key_actives match
+  the page's graded ingredient tier list, grouped by strongest active. Pure build-time
+  derivation, no JS. "I have melasma -> here are products with the evidence-backed actives."
+  Homepage builder hero + sticky-header scroll fix also done (d9b8b53).
+- **Raw filter/search ("tier-1 vitamin C under $30").** DEFERRED: needs STRUCTURED PRICE
+  (currently prose-only) and per-product concern tags. The concern hubs + category pages +
+  the routine builder now cover most of the discovery need without it. Do the price-
+  structuring data pass first (a Phase B/C data task) before a raw filter UI is worthwhile.
+  Phase A decision layer is substantially shipped: assemble (builder) + discover-by-concern
+  (hubs) + browse-by-category (existing).
 
 ## Phase B - Deepen core value (ongoing, cron + targeted)
 - 4-6 more tier-list ladder families: exfoliating acids (queued), peptides, sunscreen
