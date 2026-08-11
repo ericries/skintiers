@@ -959,7 +959,7 @@
 - name: Cyspera Intensive Cysteamine Cream
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: cysteamine-studies
   source: https://cyspera.com
 - name: Altreno (tretinoin 0.05% lotion)

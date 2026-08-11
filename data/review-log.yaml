@@ -4215,3 +4215,17 @@ brightening:
     triple-combination cream), dropped a misleading "skin-bleaching" quote on hydroquinone itself, reworded
     the Evidence section to link-out (removed uncited network-meta/head-to-head clauses), added [[arbutin]] as
     a source, dropped an unsupported "as well as UV" clause. assurance=sonnet. lint/verify/style clean.
+
+cyspera-intensive-cysteamine-cream:
+  last_reviewed: '2026-08-10'
+  score: 9
+  verdict: revise-then-published
+  note: |
+    Cyspera Intensive cysteamine cream. Daily PRODUCT cron (Sonnet draft + Opus critic). The skeptical
+    core: real trials exist (Mansouri 2015 placebo, Nguyen 2021 vs HQ, Mawu 2024 meta) but ALL Scientis-linked
+    (co-author/grant), tested an UNBRANDED cream, and the concentration is muddled (5% in trials/retailer vs 7%
+    on the current manufacturer page). Critic re-fetched all PMIDs, verified every stat verbatim. Verdict revise:
+    (1) formula_tested was TRUE - a load-bearing bug that suppressed the "Not tested directly" badge; set false;
+    (2) softened the "both trials tested 5%" claim (Nguyen's abstract states no concentration; only Mansouri's
+    title says 5%) across formula_note/standfirst/Evidence; (3) restored "5%" to the Mansouri footnote title;
+    (4) de-narrated two "was found" marketing-claim lines. assurance=sonnet. lint/verify/style clean.
