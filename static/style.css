@@ -38,7 +38,12 @@ a:hover{border-bottom-color:var(--accent)}
 .mono{font-family:var(--mono)}
 .label{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--faint)}
 
+html{scroll-padding-top:84px}
 header.site{border-bottom:1px solid var(--rule);position:sticky;top:0;background:color-mix(in srgb,var(--paper) 88%,transparent);backdrop-filter:blur(6px);z-index:5}
+.home-cta{display:flex;align-items:center;gap:20px;flex-wrap:wrap;justify-content:space-between;border:1px solid var(--accent);border-radius:8px;padding:16px 20px;margin:22px 0 30px;background:color-mix(in srgb,var(--accent) 5%,transparent)}
+.home-cta-text{font-size:14.5px;color:var(--ink);max-width:62ch;line-height:1.5}
+.home-cta-btn{flex:none;font-family:var(--mono);font-size:13px;letter-spacing:.03em;color:var(--paper);background:var(--accent);border-radius:4px;padding:9px 16px;white-space:nowrap}
+.home-cta-btn:hover{filter:brightness(1.12)}
 .site .wrap{display:flex;align-items:baseline;justify-content:space-between;padding:16px 24px;gap:18px;flex-wrap:wrap;max-width:720px}
 .brand{font-family:var(--serif);font-weight:600;font-size:21px;letter-spacing:-.01em;border:none;color:var(--ink)}
 .brand:hover{border:none}

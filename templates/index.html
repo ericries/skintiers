@@ -5,6 +5,12 @@
   <h1>SkinTiers</h1>
   <p class="lede">A skeptical, evidence-first directory of skincare. Every product graded on two axes, effect size and evidence quality, relative to its category and against named comparators.</p>
 </div>
+<div class="home-cta">
+  <div class="home-cta-text">
+    <b>Build a routine.</b> Assemble one from graded products and see at a glance how strong the lineup is, which actives it layers, and what it leaves out. Your routine is encoded in the link, so you can bookmark or share it.
+  </div>
+  <a class="home-cta-btn" href="routine.html">Open the routine builder</a>
+</div>
 <ul class="nav-cats">
   {% for c in nav_categories %}<li><a href="{{ c.filename }}.html">{{ c.label }} ({{ c.count }})</a></li>{% endfor %}
 </ul>
