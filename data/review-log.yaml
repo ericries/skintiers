@@ -4244,3 +4244,14 @@ altreno-tretinoin-0-05-lotion:
     composition catch: "alcohol-free" marketing vs benzyl alcohol on the label. Verdict revise: added a
     ## Where to Buy with the manufacturer MSRP ($60/20g, $115/45g) that was already cached, and dropped an
     inaccurate "no price is stated here" line. assurance=sonnet. lint/verify/style clean.
+
+davin-lim:
+  last_reviewed: '2026-08-11'
+  verdict: published
+  note: |
+    Davin Lim person discovery card (PERSON cron, inline, no Opus critic per person scope). Australian
+    dermatologist (Brisbane/Sydney), aesthetic/procedural focus; credential PARAPHRASED from his own practice
+    site (drdavinlim.com) - the raw source_cache fetch returned empty so NO verbatim quote was used, per the
+    verbatim-quote-requires-cache rule. Auto-surfaces his transcript-verified glycolic-acid video card.
+    No unverified independent credential asserted as fact. assurance=sonnet. lint/style clean; verify WARN
+    expected (non-primary bio domain).

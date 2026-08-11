@@ -1223,3 +1223,10 @@
   discovered_from: pigment-cluster
   source: Popular melatonin + bakuchiol + vitamin C antioxidant night serum marketed
     for tone/repair; fits the brightening cluster
+- name: ISDIN Eryfotona Ageless Tinted Mineral Sunscreen SPF 50
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: davin-lim
+  source: Dr Davin Lim / The Melasma Clinic focus; a real tinted mineral SPF for melasma
+    visible-light protection
