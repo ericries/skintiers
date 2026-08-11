@@ -965,7 +965,7 @@
 - name: Altreno (tretinoin 0.05% lotion)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: tretinoin-studies
   source: https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=altreno
 - name: Black Girl Sunscreen SPF 30

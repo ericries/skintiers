@@ -4229,3 +4229,18 @@ cyspera-intensive-cysteamine-cream:
     (2) softened the "both trials tested 5%" claim (Nguyen's abstract states no concentration; only Mansouri's
     title says 5%) across formula_note/standfirst/Evidence; (3) restored "5%" to the Mansouri footnote title;
     (4) de-narrated two "was found" marketing-claim lines. assurance=sonnet. lint/verify/style clean.
+
+altreno-tretinoin-0-05-lotion:
+  last_reviewed: '2026-08-11'
+  score: 9
+  verdict: revise-then-published
+  note: |
+    Altreno (tretinoin 0.05% lotion, Rx). Daily PRODUCT cron (Sonnet draft + Opus critic; API-transient
+    failures forced 3 dispatch retries). The first tretinoin in a lotion vehicle, FDA-approved for acne, with
+    its OWN registration RCTs (Tyring 2018, n=1640, 52%/46% lesion reduction P<.001, 18% EGSS) so
+    formula_tested: true. Critic re-verified every DailyMed label fact + adverse table + Tyring numbers +
+    cached marketing quotes verbatim (10/10 on D1-D3). Honest grade split (acne solid/own-indication vs
+    photoaging off-label-class-only, downgraded because the lotion vehicle was never tested for it). Nice
+    composition catch: "alcohol-free" marketing vs benzyl alcohol on the label. Verdict revise: added a
+    ## Where to Buy with the manufacturer MSRP ($60/20g, $115/45g) that was already cached, and dropped an
+    inaccurate "no price is stated here" line. assurance=sonnet. lint/verify/style clean.
