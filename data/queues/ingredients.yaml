@@ -725,3 +725,12 @@
     urea's keratolytic evidence) appearing in on-site formulas (Gold Bond Rough &
     Bumpy, Aestura Atobarrier). A short page would let those products link to it cleanly
     instead of hand-waving 'urea derivative.'
+- name: Cholecalciferol (topical vitamin D)
+  type: ingredient
+  priority: 5
+  status: done
+  discovered_from: cerave-sa-body-lotion-for-rough-and-bumpy-skin
+  source: 'Topical vitamin D3 appears in several on-site formulas (CeraVe SA lotion,
+    others) and is marketed with antioxidant claims; a short evidence page would let
+    products link out instead of hand-waving. Note: distinct from the vitamin-d-topical
+    page if that covers a different form - dedupe at draft time.'

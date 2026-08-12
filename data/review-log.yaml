@@ -4338,3 +4338,22 @@ gold-bond-rough-and-bumpy-daily-skin-therapy:
     from 3-4x down to once (in The Evidence). Fix 6 (photo gallery) deferred to the image cron.
     Surfaces on the keratosis-pilaris concern->product feed via salicylic-acid + lactic-acid actives.
     assurance=sonnet. lint/verify/style clean (verify: expected non-primary WARNs, both cached).
+
+cerave-sa-body-lotion-for-rough-and-bumpy-skin:
+  last_reviewed: '2026-08-12'
+  score: 8
+  verdict: revise-then-published
+  note: |
+    CeraVe SA Lotion for Rough & Bumpy Skin (KP-marketed salicylic + ammonium-lactate + ceramides
+    body lotion; sibling/comparator to the Gold Bond page). Daily PRODUCT cron (Sonnet draft + Opus
+    critic, cache-first). Critic re-verified every CeraVe quote/price/INCI verbatim vs the cached
+    cerave.com page: all matched, no fabrication, verdict revise-then-publish (8/10). Same honest frame
+    as Gold Bond: NO Drug Facts panel / no disclosed % (cosmetic exfoliant, not an OTC drug); niacinamide
+    correctly EXCLUDED from key_actives despite an Amazon marketing bullet claiming it (flagged as a
+    composition discrepancy). Applied 4 critic fixes: (1) the "8 fl oz" size is NOT on the CeraVe page
+    (only "8 Ounce" on Amazon) - re-attributed size to the Amazon corroboration and corrected fl oz->oz
+    in the lead, footnote, and Where-to-Buy; (2) de-quoted two Amazon-derived phrases (niacinamide bullet,
+    vitamin-D "antioxidant") per the no-verbatim-from-uncacheable-aggregator rule; (3) dropped a duplicated
+    niacinamide-absence sentence; (4) flipped draft->published. Surfaces on the keratosis-pilaris and
+    exfoliating-acids-by-strength concern->product feeds via salicylic-acid + lactic-acid actives.
+    assurance=sonnet. lint/style clean; verify: expected cerave.com non-primary WARN (cached).
