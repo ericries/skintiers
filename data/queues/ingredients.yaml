@@ -764,3 +764,12 @@
     Mineral 89 and others; no ingredient page yet. Needed to responsibly cover HA+PGA
     'moisture acid' serums. Grade conservatively - evidence is mostly manufacturer/in-vitro
     water-holding data, few controlled skin trials.
+- name: Ammonium lactate
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: The ammonium salt of lactic acid (the AHA form in AmLactin, Gold Bond Rough
+    & Bumpy, CeraVe SA lotions); currently we link 'ammonium lactate' to [[lactic-acid]]
+    but a short dedicated page could carry the salt-form/keratolytic specifics. Dedup
+    vs [[lactic-acid]] at draft time - may just enrich that page instead.

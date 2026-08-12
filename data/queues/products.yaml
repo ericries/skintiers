@@ -1411,3 +1411,11 @@
     (LRP publishes clean INCI + the site already profiles several LRP products); a
     cleanly-sourceable HA-serum alternative to the blocked Vichy Mineral 89, for the
     hyaluronic-acid + moisturizing hubs. https://www.laroche-posay.us
+- name: Gold Bond Healing Hand Cream
+  type: product
+  priority: 6
+  status: pending
+  discovered_from: gold-bond
+  source: Another Gold Bond body-care SKU to grow the brand roll-up; verify composition
+    on goldbond.com. Lower priority - the brand's KP/exfoliant cream is the evidence-interesting
+    one already shipped.

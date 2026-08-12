@@ -4412,3 +4412,17 @@ lactobionic-acid:
     (cross-page consistency). Wired onto the exfoliating-acids-by-strength ladder as the 5th/gentlest
     rung (tier minimal) - ladder now glycolic>salicylic>lactic>gluconolactone>lactobionic, and its
     own evidence box shows the ladder. assurance=sonnet. lint/verify/style clean.
+
+gold-bond:
+  last_reviewed: '2026-08-12'
+  verdict: published
+  assurance: sonnet
+  note: |
+    Gold Bond brand discovery card (BRAND cron, drafted INLINE, no subagent/critic per scope).
+    Fleshed the prior lean stub into a proper roll-up (62-word body). Job: link to on-site products
+    (currently just gold-bond-rough-and-bumpy-daily-skin-therapy). Dropped the stub's unsourced
+    'sold by Sanofi' ownership claim - could not verify it (web-search budget exhausted, cached
+    goldbond.com page has no ownership info), so per anti-hallucination discipline left it out
+    rather than assert unverified. Positioning attributed to the brand's own cached product page.
+    Caught + fixed a style-check site-self-reference ('On SkinTiers' -> 'Products profiled here').
+    lint/style clean; verify: expected goldbond.com non-primary WARN (cached).
