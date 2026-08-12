@@ -3,6 +3,10 @@ analyzed: '2026-08-07'
 assurance: sonnet
 brand: CeraVe
 category: Sunscreens
+images:
+- file: cerave-hydrating-mineral-sunscreen-spf-50-cerave.jpg
+  source: CeraVe
+  source_url: https://www.cerave.com/sunscreen/face/hydrating-mineral-sunscreen-face-lotion-spf-50
 comparator: broad-spectrum sunscreens, including modern-filter products sold in the
   EU, Korea, and Australia
 grades:

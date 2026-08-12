@@ -3,6 +3,10 @@ analyzed: '2026-08-08'
 assurance: sonnet
 brand: beauty-of-joseon
 category: Sunscreens
+images:
+- file: beauty-of-joseon-matte-sun-stick-stylevana.jpg
+  source: Stylevana
+  source_url: https://www.stylevana.com/en_US/beauty-of-joseon-matte-sun-stick-mugwort-camelia-spf50-pa-18g21910.html
 comparator: broad-spectrum liquid/lotion sunscreens, including the same brand's Relief
   Sun
 grades:

@@ -3,6 +3,10 @@ analyzed: '2026-08-04'
 assurance: sonnet
 brand: CeraVe
 category: Moisturizers
+images:
+- file: cerave-pm-facial-moisturizing-lotion-cerave.jpg
+  source: CeraVe
+  source_url: https://www.cerave.com/skincare/moisturizers/pm-facial-moisturizing-lotion
 comparator: other CeraVe moisturizers
 grades:
 - effect: notable

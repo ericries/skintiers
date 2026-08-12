@@ -3,6 +3,10 @@ analyzed: '2026-08-08'
 assurance: sonnet
 brand: CeraVe
 category: Moisturizers
+images:
+- file: cerave-healing-ointment-cerave.jpg
+  source: CeraVe
+  source_url: https://www.cerave.com/skincare/moisturizers/healing-ointment
 comparator: other petrolatum-based skin-protectant ointments (e.g. plain white petrolatum)
 grades:
 - effect: strong
