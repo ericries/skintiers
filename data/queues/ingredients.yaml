@@ -701,7 +701,7 @@
 - name: Lactobionic acid
   type: ingredient
   priority: 4
-  status: pending
+  status: done
   discovered_from: exfoliating-acids-by-strength
   source: A polyhydroxy acid (PHA) explicitly named on the exfoliating-acids-by-strength
     ladder as a gentler, slow-penetrating option not yet profiled; sits below lactic

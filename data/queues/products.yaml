@@ -1372,3 +1372,19 @@
   discovered_from: best-peptide-serums
   source: A multi-peptide + niacinamide moisturizer; extends peptide-product coverage
     and the best-peptide-serums list. https://www.naturium.com/products/multi-peptide-advanced-moisturizer
+- name: Naturium PHA Bionic Acid Toner
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: lactobionic-acid
+  source: A PHA/bionic-acid (gluconolactone + lactobionic) toner - would surface on
+    the exfoliating-acids ladder under the gentle PHA rungs and give lactobionic/gluconolactone
+    a product to link to. https://www.naturium.com
+- name: NeoStrata Bionic Face Cream (lactobionic acid)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: lactobionic-acid
+  source: NeoStrata's own lactobionic-acid PHA cream (the brand behind much of the
+    PHA literature); a disclosed-PHA product for the gentlest ladder rung. Attribute
+    NeoStrata's efficacy claims as the brand's own. https://www.neostrata.com

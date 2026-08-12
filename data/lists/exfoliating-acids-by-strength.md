@@ -34,6 +34,12 @@ tier_list:
       to a detergent irritant than glycolic acid did. The usual pick for sensitive skin.
     slug: gluconolactone-pha
     tier: minimal
+  - note: A bionic acid (a polyhydroxy acid with an added sugar), larger and slower-penetrating
+      than even gluconolactone, so among the gentlest of all. The controlled evidence is
+      thin and mostly for hydration and being better tolerated than glycolic acid, rather
+      than for exfoliation strength.
+    slug: lactobionic-acid
+    tier: minimal
   ladder: true
   tier_labels:
     minimal: Gentlest, largest molecule
@@ -42,7 +48,7 @@ tier_list:
     top: Strongest, deepest-penetrating
   title: Exfoliating acids by strength
 type: list
-updated: '2026-08-11'
+updated: '2026-08-12'
 ---
 
 Compares the chemical exfoliating acids the site profiles by the factors that actually differ between them: how deeply the molecule penetrates, how strongly it exfoliates, and how likely it is to irritate. The full mechanism and per-acid evidence live on each ingredient's own page; this page maps them against each other.
@@ -53,7 +59,7 @@ These three acronyms name the families of exfoliating acid. They differ in two t
 
 - **AHA (alpha hydroxy acids)** are water-soluble and work on the skin's surface, loosening the bonds that hold dead surface cells together. The smaller the molecule the deeper it reaches and the more strongly it exfoliates, so [[glycolic-acid]] (the smallest) is the strongest of the group and [[lactic-acid]] a larger, gentler option that also draws in water.
 - **BHA (beta hydroxy acid)** is oil-soluble, so it can pass through sebum and work inside the pore rather than only on the surface. In skincare it almost always means [[salicylic-acid]], which is why it is the standard choice for oily, clogged, and acne-prone skin rather than a milder or stronger version of the AHAs.
-- **PHA (polyhydroxy acids)** are larger cousins of the AHAs, such as [[gluconolactone-pha]]. The bigger molecule penetrates the slowest, so PHAs exfoliate the most gently while also acting as humectants that hold water in the skin, which makes them the usual pick for sensitive skin.
+- **PHA (polyhydroxy acids)** are larger cousins of the AHAs, such as [[gluconolactone-pha]] and the even larger bionic acid [[lactobionic-acid]]. The bigger molecule penetrates the slowest, so PHAs exfoliate the most gently while also acting as humectants that hold water in the skin, which makes them the usual pick for sensitive skin.
 
 The tier list above orders them on this same axis of penetration and strength; the section below is the quick practical picker.
 
@@ -62,10 +68,11 @@ The tier list above orders them on this same axis of penetration and strength; t
 - **[[glycolic-acid]] (strongest surface exfoliant).** Best-evidenced for texture and photoaging, and the most likely to sting or over-exfoliate; start low and infrequent.
 - **[[salicylic-acid]] (into the pores).** Oil-soluble, so it targets clogged, sebum-filled follicles rather than just the surface; the first choice for blackheads, whiteheads, and oily skin, covered further on [[acne]].
 - **[[lactic-acid]] (gentler surface exfoliant).** Milder penetration plus a hydrating, humectant effect makes it a common starting acid for people who find glycolic too harsh.
-- **[[gluconolactone-pha]] (gentlest, for sensitive skin).** A polyhydroxy acid whose larger molecule penetrates the slowest, so it exfoliates most gently and adds a humectant effect; the usual choice when even lactic acid is too much.
+- **[[gluconolactone-pha]] (very gentle, for sensitive skin).** A polyhydroxy acid whose larger molecule penetrates slowly, so it exfoliates gently and adds a humectant effect; a good choice when even lactic acid is too much.
+- **[[lactobionic-acid]] (gentlest, thinnest evidence).** A bionic acid, larger still, so the gentlest of the group; its controlled evidence is mostly for hydration and tolerability rather than exfoliation, so pick it for sensitivity, not for strength.
 
-Gentler options not yet profiled here, such as mandelic acid (a large, slow-penetrating alpha hydroxy acid) and lactobionic acid (another polyhydroxy acid), sit alongside or below gluconolactone on the same penetration axis.
+The one gentler acid not yet profiled here, mandelic acid (a large, slow-penetrating alpha hydroxy acid), sits alongside lactic acid on the same penetration axis.
 
 ## Sources
 
-Each acid's evidence and citations live on its own page: [[glycolic-acid]], [[salicylic-acid]], [[lactic-acid]], [[gluconolactone-pha]]. Related: [[acne]] for the pore-clogging use of salicylic acid, and [[brightening]] and [[hyperpigmentation]] for exfoliation's role in evening tone.
+Each acid's evidence and citations live on its own page: [[glycolic-acid]], [[salicylic-acid]], [[lactic-acid]], [[gluconolactone-pha]], [[lactobionic-acid]]. Related: [[acne]] for the pore-clogging use of salicylic acid, and [[brightening]] and [[hyperpigmentation]] for exfoliation's role in evening tone.

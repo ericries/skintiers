@@ -4394,3 +4394,21 @@ scott-walter:
     independently verified fact, per the never-state-an-unverified-claim-about-a-living-person rule.
     Reverse index now lists his 3 cards on the page and the cards link back to him. lint/verify/style
     clean (verify: expected youtube.com non-primary WARN).
+
+lactobionic-acid:
+  last_reviewed: '2026-08-12'
+  score: 9
+  verdict: revise-then-published
+  note: |
+    Lactobionic acid ingredient page (bionic acid / PHA, the gentlest exfoliating-acid rung).
+    Daily INGREDIENT cron (Sonnet draft + Opus critic). All 8 sources are durable PubMed; critic
+    re-fetched every abstract and confirmed every quote/stat/PMID VERBATIM (clean D2, "the rarer
+    outcome") - zero discrepancies, no swapped PMIDs. Graded conservatively (3 uses, all
+    preliminary): hydration modest, tolerability-vs-glycolic modest, antioxidant/MMP "unclear for
+    skin" with the NeoStrata conflict flagged. Applied 2 critic fixes: (1) reworded a standfirst
+    overclaim ("gentlest, slowest-penetrating ... on the market") to the sibling's hedged framing;
+    (2) narrowed the [^grimes] COI footnote to the ONE affiliation actually confirmable from a
+    fetched source (Green), and applied the SAME correction to the published gluconolactone-pha.md
+    (cross-page consistency). Wired onto the exfoliating-acids-by-strength ladder as the 5th/gentlest
+    rung (tier minimal) - ladder now glycolic>salicylic>lactic>gluconolactone>lactobionic, and its
+    own evidence box shows the ladder. assurance=sonnet. lint/verify/style clean.
