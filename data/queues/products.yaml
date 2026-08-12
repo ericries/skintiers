@@ -1336,7 +1336,7 @@
 - name: Vichy Mineral 89 Hyaluronic Acid Face Serum
   type: product
   priority: 4
-  status: pending
+  status: done
   discovered_from: null
   source: A widely sold hyaluronic acid + Vichy volcanic mineralizing water hydrating
     serum; extends [[hyaluronic-acid]] product coverage and the [[moisturizing]]/[[glass-skin]]
@@ -1388,3 +1388,26 @@
   source: NeoStrata's own lactobionic-acid PHA cream (the brand behind much of the
     PHA literature); a disclosed-PHA product for the gentlest ladder rung. Attribute
     NeoStrata's efficacy claims as the brand's own. https://www.neostrata.com
+- name: Vichy Mineral 89 (resolve two-formula identity first)
+  type: product
+  priority: 6
+  status: pending
+  discovered_from: null
+  source: 'BLOCKED 2026-08-12: two formulas share the name. Vichy''s own US page now
+    sells a REFORMULATED ''Hydrating & Plumping Daily Booster'' (HA + polyglutamic
+    acid + volcanic water; 325-derm testing, 93%/19% figures, 30/50/75ml). The classic
+    ''89% Mineralizing Water + HA'' 11-ingredient SKU is only documentable via a third-party
+    Walmart MARKETPLACE ''Imperfect Box'' listing (unreliable price/source). TO DO:
+    pick ONE identity - prefer the CURRENT product from vichyusa.com (cached) - and
+    get a real price from a first-party retailer (Sephora/Ulta/Target were blocked
+    this session; web-search budget was exhausted). Needs polyglutamic-acid ingredient
+    page for the reformulated version.'
+- name: La Roche-Posay Hyalu B5 Hyaluronic Acid Serum
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: null
+  source: A well-documented, first-party-sourceable HA + vitamin B5 hydrating serum
+    (LRP publishes clean INCI + the site already profiles several LRP products); a
+    cleanly-sourceable HA-serum alternative to the blocked Vichy Mineral 89, for the
+    hyaluronic-acid + moisturizing hubs. https://www.laroche-posay.us

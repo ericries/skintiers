@@ -754,3 +754,13 @@
     products but has no ingredient page. Needed to populate a Peptides-by-evidence
     ladder. Manufacturer (Sederma) collagen-stimulation data + a few small trials
     - grade conservatively.
+- name: Polyglutamic acid
+  type: ingredient
+  priority: 4
+  status: pending
+  discovered_from: null
+  source: A high-molecular-weight humectant peptide (increasingly common, marketed
+    as holding more water than hyaluronic acid) now in reformulated serums incl. Vichy
+    Mineral 89 and others; no ingredient page yet. Needed to responsibly cover HA+PGA
+    'moisture acid' serums. Grade conservatively - evidence is mostly manufacturer/in-vitro
+    water-holding data, few controlled skin trials.
