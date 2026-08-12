@@ -28,8 +28,15 @@ tier_list:
       for skin that finds glycolic acid too strong.
     slug: lactic-acid
     tier: moderate
+  - note: A polyhydroxy acid (PHA), a larger molecule again than the alpha hydroxy acids,
+      so it penetrates the slowest and exfoliates the most gently while also acting as
+      a humectant. In one small controlled challenge, pretreatment left skin more resistant
+      to a detergent irritant than glycolic acid did. The usual pick for sensitive skin.
+    slug: gluconolactone-pha
+    tier: minimal
   ladder: true
   tier_labels:
+    minimal: Gentlest, largest molecule
     moderate: Gentler, more superficial
     strong: Oil-soluble, works into pores
     top: Strongest, deepest-penetrating
@@ -40,16 +47,17 @@ updated: '2026-08-11'
 
 Compares the chemical exfoliating acids the site profiles by the factors that actually differ between them: how deeply the molecule penetrates, how strongly it exfoliates, and how likely it is to irritate. The full mechanism and per-acid evidence live on each ingredient's own page; this page maps them against each other.
 
-The pattern is molecular size, not quality. Among the water-soluble [alpha hydroxy acids](#the-evidence), [[glycolic-acid]] is the smallest molecule, so it penetrates deepest and works most strongly, while [[lactic-acid]] is larger, milder, and doubles as a humectant. [[salicylic-acid]] sits apart: it is a beta hydroxy acid and oil-soluble, so instead of ranking as a stronger or weaker surface exfoliant it reaches a different place, the sebum inside pores, which is why it is the standard choice for oily and acne-prone skin.
+The pattern is molecular size, not quality. Among the water-soluble [alpha hydroxy acids](#the-evidence), [[glycolic-acid]] is the smallest molecule, so it penetrates deepest and works most strongly, while [[lactic-acid]] is larger, milder, and doubles as a humectant. [[gluconolactone-pha]] is larger again, a polyhydroxy acid whose slow-penetrating molecule makes it the gentlest of the group while adding its own humectant effect. [[salicylic-acid]] sits apart: it is a beta hydroxy acid and oil-soluble, so instead of ranking as a stronger or weaker surface exfoliant it reaches a different place, the sebum inside pores, which is why it is the standard choice for oily and acne-prone skin.
 
 ## Choosing between them
 
 - **[[glycolic-acid]] (strongest surface exfoliant).** Best-evidenced for texture and photoaging, and the most likely to sting or over-exfoliate; start low and infrequent.
 - **[[salicylic-acid]] (into the pores).** Oil-soluble, so it targets clogged, sebum-filled follicles rather than just the surface; the first choice for blackheads, whiteheads, and oily skin, covered further on [[acne]].
 - **[[lactic-acid]] (gentler surface exfoliant).** Milder penetration plus a hydrating, humectant effect makes it a common starting acid for people who find glycolic too harsh.
+- **[[gluconolactone-pha]] (gentlest, for sensitive skin).** A polyhydroxy acid whose larger molecule penetrates the slowest, so it exfoliates most gently and adds a humectant effect; the usual choice when even lactic acid is too much.
 
-Gentler options not yet profiled here, such as mandelic acid (a large, slow-penetrating alpha hydroxy acid) and the polyhydroxy acids, sit below lactic acid on the same penetration axis.
+Gentler options not yet profiled here, such as mandelic acid (a large, slow-penetrating alpha hydroxy acid) and lactobionic acid (another polyhydroxy acid), sit alongside or below gluconolactone on the same penetration axis.
 
 ## Sources
 
-Each acid's evidence and citations live on its own page: [[glycolic-acid]], [[salicylic-acid]], [[lactic-acid]]. Related: [[acne]] for the pore-clogging use of salicylic acid, and [[brightening]] and [[hyperpigmentation]] for exfoliation's role in evening tone.
+Each acid's evidence and citations live on its own page: [[glycolic-acid]], [[salicylic-acid]], [[lactic-acid]], [[gluconolactone-pha]]. Related: [[acne]] for the pore-clogging use of salicylic acid, and [[brightening]] and [[hyperpigmentation]] for exfoliation's role in evening tone.
