@@ -1279,3 +1279,18 @@
   discovered_from: keratosis-pilaris
   source: Popular salicylic-acid + urea body cream widely recommended for KP/rough
     bumpy skin
+- name: Gold Bond Rough & Bumpy Daily Skin Therapy
+  type: product
+  priority: 3
+  status: pending
+  discovered_from: keratosis-pilaris
+  source: Body lotion marketed specifically for KP/rough-bumpy skin; 7% AHA (lactic/salicylic)
+    + urea. Fills a concrete concern->product gap on the new keratosis-pilaris page.
+    https://www.goldbond.com/products/rough-bumpy-skin-daily-skin-therapy-cream
+- name: Eucerin Roughness Relief Lotion
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: keratosis-pilaris
+  source: 10% urea + additional humectant lotion marketed for rough, bumpy, KP-prone
+    skin; complements the graded urea/lactic evidence on keratosis-pilaris. https://www.eucerinus.com/products/roughness-relief

@@ -698,3 +698,12 @@
   discovered_from: brightening
   source: Common OTC tyrosinase-inhibitor brightener (hydroquinone derivative); needed
     for the brightening/melasma tier lists
+- name: Lactobionic acid
+  type: ingredient
+  priority: 4
+  status: pending
+  discovered_from: exfoliating-acids-by-strength
+  source: A polyhydroxy acid (PHA) explicitly named on the exfoliating-acids-by-strength
+    ladder as a gentler, slow-penetrating option not yet profiled; sits below lactic
+    acid on the penetration axis. Larger molecule, strong humectant, low-irritation
+    exfoliant.
