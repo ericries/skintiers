@@ -49,6 +49,16 @@ tier_list:
   title: Exfoliating acids by strength
 type: list
 updated: '2026-08-12'
+videos:
+- title: "The TIKTOK DIY 30% Chemical Peel….GONE WRONG"
+  creator: James Welsh
+  creator_slug: james-welsh
+  credential: Skincare content creator (NOT a dermatologist or cosmetic chemist)
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=dInT86Bwqe4
+  posted: '2026-07-26'
+  thesis: "Skincare content creator James Welsh (not a dermatologist or chemist) breaks down a viral case of a man doing a 30% TCA (trichloroacetic acid) chemical peel on himself at home, and explains why it is dangerous. A peel that strong is a medical-grade, controlled skin injury that penetrates into the dermis and is meant to be performed by a professional, not treated as strong at-home exfoliation, and the risk of pigmentation complications (post-inflammatory hyperpigmentation or hypopigmentation) is higher on deeper skin tones. He also corrects two viral myths from the case: that a vitamin C serum protects against peel complications, and that more skin damage means more collagen."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 ---
 
 Compares the chemical exfoliating acids the site profiles by the factors that actually differ between them: how deeply the molecule penetrates, how strongly it exfoliates, and how likely it is to irritate. The full mechanism and per-acid evidence live on each ingredient's own page; this page maps them against each other.
