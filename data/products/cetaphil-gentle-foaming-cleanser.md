@@ -2,6 +2,10 @@
 analyzed: '2026-08-08'
 assurance: opus
 category: Cleansers
+images:
+- file: cetaphil-gentle-foaming-cleanser-cetaphil.jpg
+  source: Cetaphil
+  source_url: https://www.cetaphil.com/us/products/product-categories/all-cleansers/gentle-foaming-cleanser/302993889175.html
 comparator: other mild, sulfate-free foaming facial cleansers
 grades:
 - effect: modest

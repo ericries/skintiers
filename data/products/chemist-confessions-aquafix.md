@@ -3,6 +3,10 @@ analyzed: '2026-08-08'
 assurance: sonnet
 brand: chemist-confessions
 category: Serums
+images:
+- file: chemist-confessions-aquafix-chemistconfessions.jpg
+  source: Chemist Confessions
+  source_url: https://chemistconfessions.com/products/aquafix-hydrating-water-gel
 comparator: other glycerin- and hyaluronic-acid-led hydrating gels/essences, such
   as [[torriden-dive-in-low-molecular-hyaluronic-acid-serum]]
 grades:

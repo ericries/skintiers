@@ -3,6 +3,10 @@ analyzed: '2026-08-08'
 assurance: sonnet
 brand: COSRX
 category: Exfoliants
+images:
+- file: cosrx-aha-bha-clarifying-treatment-toner-cosrx.jpg
+  source: COSRX
+  source_url: https://www.cosrx.com/products/aha-bha-clarifying-treatment-toner
 comparator: other combination AHA/BHA leave-on toners and dedicated single-active
   leave-on exfoliants (e.g. Paula's Choice 2% BHA)
 grades:

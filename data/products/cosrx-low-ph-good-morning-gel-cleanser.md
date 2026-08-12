@@ -3,6 +3,10 @@ analyzed: '2026-08-08'
 assurance: sonnet
 brand: COSRX
 category: Cleansers
+images:
+- file: cosrx-low-ph-good-morning-gel-cleanser-cosrx.jpg
+  source: COSRX
+  source_url: https://www.cosrx.com/products/low-ph-good-morning-gel-cleanser
 comparator: other gentle, low-pH gel cleansers with a mild BHA and tea tree oil
 grades:
 - effect: minimal

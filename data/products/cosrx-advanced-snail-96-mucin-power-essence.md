@@ -2,6 +2,10 @@
 analyzed: '2026-08-08'
 assurance: opus
 category: Moisturizers
+images:
+- file: cosrx-advanced-snail-96-mucin-power-essence-cosrx.jpg
+  source: COSRX
+  source_url: https://www.cosrx.com/products/advanced-snail-96-mucin-power-essence
 comparator: other snail-mucin essences and hydrating serums
 grades:
 - effect: minimal
