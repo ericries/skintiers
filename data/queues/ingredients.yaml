@@ -744,3 +744,13 @@
     Green Mild Up Sun) with no ingredient page to link to. Has small controlled trials
     in atopic dermatitis and rhinitis. Dedup vs any existing osmolyte page at draft
     time.
+- name: Matrixyl (palmitoyl pentapeptide-4)
+  type: ingredient
+  priority: 4
+  status: pending
+  discovered_from: best-peptide-serums
+  source: The best-known signal/matrix peptide (palmitoyl pentapeptide-4, and Matrixyl
+    3000 with palmitoyl tripeptide-1/tetrapeptide-7); appears in many on-site peptide
+    products but has no ingredient page. Needed to populate a Peptides-by-evidence
+    ladder. Manufacturer (Sederma) collagen-stimulation data + a few small trials
+    - grade conservatively.

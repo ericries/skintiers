@@ -22,8 +22,30 @@
 - name: Exfoliating acids by strength, ranked
   type: list
   priority: 5
-  status: pending
+  status: done
   discovered_from: planned
   source: 'Exfoliating acids ranked by strength/irritation (glycolic, lactic, mandelic,
     salicylic); a forms-of-one-family ladder candidate (set tier_list.ladder: true)
     to drive the evidence box on AHA/BHA product pages'
+- name: Peptides by evidence
+  type: list
+  priority: 4
+  status: pending
+  discovered_from: exfoliating-acids-by-strength
+  source: 'Phase B ladder (roadmap): rank the peptide TYPES the site profiles - copper
+    peptides, signal/matrix peptides (Matrixyl), and the neuropeptide argireline -
+    by strength of clinical evidence, with tier_list.ladder:true so it lights up the
+    evidence box across peptide pages the way the acids/retinoid/vitamin-C ladders
+    do. Complements the existing best-peptide-serums (products) list. Grounds: [[copper-peptides]],
+    [[argireline-acetyl-hexapeptide-8]], [[peptides]].'
+- name: Humectants vs occlusives vs emollients
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: best-moisturizing-ingredients-ranked
+  source: 'Phase B mechanism map (roadmap ''humectants-vs-occlusives''): group the
+    moisturizer ingredient classes by HOW they work - humectants that draw water in
+    ([[glycerin]], [[hyaluronic-acid]], [[urea]], [[panthenol]]) vs occlusives/emollients
+    that seal it in ([[petrolatum]], [[squalane]], [[dimethicone]]). A mechanism split,
+    NOT a strength ladder (no ladder:true), so it doesn''t repeat the cross-ingredient-ranking
+    bug.'
