@@ -62,3 +62,16 @@ def test_rendered_site_has_no_render_defects(tmp_path):
     if stray_markers:
         problems.append(f"unreplaced UV-filter chart marker: {stray_markers[:5]}")
     assert not problems, "render defects found:\n" + "\n".join(problems)
+
+
+def test_feed_page_lists_videos_newest_first(tmp_path):
+    """The Feed page must build, carry the site's video cards, and show their posting
+    dates in descending (newest-first) order - the ordering is the whole point."""
+    out = _build_real_site(tmp_path)
+    feed = out / "feed.html"
+    assert feed.exists(), "build did not produce feed.html"
+    html = feed.read_text()
+    assert 'class="vid"' in html, "feed.html has no video cards"
+    dates = re.findall(r'vid-date">(\d{4}-\d\d-\d\d)<', html)
+    assert len(dates) >= 5, f"feed.html shows too few dated cards: {len(dates)}"
+    assert dates == sorted(dates, reverse=True), "feed cards are not newest-first by post date"

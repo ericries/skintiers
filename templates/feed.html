@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block title %}Feed — SkinTiers{% endblock %}
+{% block content %}
+<article>
+  <div class="kicker"><span class="type-tag">Feed</span></div>
+  <div class="masthead">
+    <div>
+      <h1>The Feed</h1>
+      <p class="standfirst">Every expert short-form video cited across the site, in one place, newest first by when the video was originally posted. Each card was checked against the video's own transcript before use.</p>
+    </div>
+  </div>
+
+  <section class="vids feed">
+    {% for v in cards %}
+    {% set emb = video_embed(v.url) %}
+    <div class="vid">
+      <div class="vid-head"><a class="vid-title" href="{{ v.url }}" rel="nofollow noopener" target="_blank">{{ v.title }}</a>{% if v.platform %}<span class="vid-plat">{{ v.platform }}</span>{% endif %}</div>
+      <div class="vid-by">{% if v.posted %}<span class="vid-date">{{ v.posted }}</span> &middot; {% endif %}{% if v.creator_slug %}<a href="{{ v.creator_slug }}.html">{{ v.creator }}</a>{% else %}{{ v.creator }}{% endif %}{% if v.credential %} &middot; {{ v.credential }}{% endif %}{% if v.sponsored %} &middot; <span class="vid-ad">sponsored post</span>{% endif %}</div>
+      {% if emb and emb.kind == 'youtube' %}<div class="vid-embed"><iframe src="{{ emb.src }}" title="{{ v.title }}" loading="lazy" frameborder="0" allow="accelerometer; encrypted-media; picture-in-picture; web-share" allowfullscreen></iframe></div>
+      {% elif emb and emb.kind == 'tiktok' %}<blockquote class="tiktok-embed" cite="{{ emb.cite }}" data-video-id="{{ emb.id }}"><section><a href="{{ emb.cite }}" target="_blank" rel="noopener">{{ v.title }}</a></section></blockquote>
+      {% endif %}
+      {% if v.thesis %}<p class="vid-thesis">{{ v.thesis }}</p>{% endif %}
+      {% if v.note %}<p class="vid-note">{{ v.note }}</p>{% endif %}
+      {% if v.on %}<div class="vid-on">Cited on {% for o in v.on %}<a href="{{ o.slug }}.html">{{ o.name }}</a>{% if not loop.last %}, {% endif %}{% endfor %}</div>{% endif %}
+    </div>
+    {% endfor %}
+  </section>
+  {% if cards|length > n_dated %}
+  <p class="feed-foot">{{ cards|length - n_dated }} card{{ 's' if (cards|length - n_dated) != 1 else '' }} without a resolvable original post date are shown last.</p>
+  {% endif %}
+</article>
+{% if needs_tiktok_js %}<script async src="https://www.tiktok.com/embed.js"></script>{% endif %}
+{% endblock %}

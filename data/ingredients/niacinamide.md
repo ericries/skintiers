@@ -8,6 +8,7 @@ videos:
   credential: Cosmetic chemists
   platform: YouTube
   url: https://www.youtube.com/watch?v=xcOUyHgeITQ
+  posted: '2024-03-20'
   thesis: "Cosmetic chemists Victoria Fu and Gloria Lu of Chemist Confessions say niacinamide's useful concentration is about 2 to 5%, and that a popular 10% serum does not give twice the benefit of a 5% one. Because niacinamide is stacked across so many products, cleansers, serums, and moisturizers, the doses add up, and layering several niacinamide products can tip into irritation and redness; they add that mixing your own niacinamide from powder is pointless and easy to overdose."
   note: "Verified from the video's transcript (yt-dlp, read in full). Two cosmetic chemists; educational content. They briefly and openly note their own serum contains 5%; the concentration and layering guidance stands on its own."
 - title: "Alternatives to Vitamin C You Should Try NOW"
@@ -16,6 +17,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=pEn6fIL51Dk
+  posted: '2026-04-17'
   thesis: "Board-certified dermatologist Dr. Sam Ellis says that for patients whose skin does not tolerate vitamin C, niacinamide is the alternative she recommends most, since it is also an antioxidant but additionally strengthens the skin barrier, is anti-inflammatory, helps with oil control, and brightens by blocking pigment transfer rather than pigment production. She says niacinamide is most studied at 2 to 5%, though the benefit does not clearly top out at 5%, and she favors it especially for acne-prone or oily skin."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 name: Niacinamide

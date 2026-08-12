@@ -13,6 +13,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=u2RBcVQZVyU
+  posted: '2026-07-10'
   thesis: "Board-certified dermatologist Dr. Sam Ellis explains that facial aging is really two kinds: surface aging (pigmentation, fine lines, dullness, enlarged pores), which skincare, retinoids, chemical peels, and lasers can genuinely improve, and structural aging (jowls, hollowing, deep nasolabial folds, under-eye bags), driven by fat-pad descent and bone loss that topical anti-aging products cannot fix. She says firming creams at best modestly plump skin and stimulate a little superficial collagen but cannot lift deeper tissues, and eye creams help hydration, crepiness, and pigment but not true hollowing or bags. Her point is not that skincare fails, but that knowing its limits helps people set realistic expectations and spend wisely on anti-aging products."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship disclosed. Board-certified dermatologist; an educational explainer on what topical anti-aging can and cannot do, not a product promotion (she founded Prequel, but this video sells nothing)."
 ---

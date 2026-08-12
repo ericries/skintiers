@@ -34,6 +34,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=TftRd5FmQHU
+  posted: '2025-01-03'
   thesis: "Board-certified dermatologist Dr. Scott Walter names Round Lab Birch Juice Moisturizing Sun one of his top five Korean sunscreens, calling out its birch sap base plus vitamin C, niacinamide, and hyaluronic acid, and says it is a perfect blend of hydration and sun protection that feels moisturizing and dewy on his skin."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 ---

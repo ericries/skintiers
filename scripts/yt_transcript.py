@@ -96,15 +96,21 @@ def _run(args):
 
 
 def video_meta(url):
-    """Return {id, title, uploader, channel, duration, url} via yt-dlp, no download."""
+    """Return {id, title, uploader, channel, duration, url, posted} via yt-dlp, no
+    download. `posted` is the video's original upload date as 'YYYY-MM-DD' (or ''
+    if yt-dlp reports none) - used as the `posted:` field on video cards so the
+    Feed page can order them by when the video was posted."""
     fields = ("%(id)s\t%(title)s\t%(uploader)s\t%(channel)s\t"
-              "%(duration)s\t%(webpage_url)s")
+              "%(duration)s\t%(webpage_url)s\t%(upload_date)s")
     r = _run(["yt-dlp", "--skip-download", "--no-warnings", "--print", fields, url])
     if r.returncode != 0:
         raise RuntimeError(f"yt-dlp metadata failed: {r.stderr.strip()[:300]}")
-    vid, title, uploader, channel, duration, wurl = (r.stdout.strip().split("\t") + [""] * 6)[:6]
+    vid, title, uploader, channel, duration, wurl, uploaded = (
+        r.stdout.strip().split("\t") + [""] * 7)[:7]
+    posted = (f"{uploaded[0:4]}-{uploaded[4:6]}-{uploaded[6:8]}"
+              if uploaded.isdigit() and len(uploaded) == 8 else "")
     return {"id": vid, "title": title, "uploader": uploader, "channel": channel,
-            "duration": duration, "url": wurl}
+            "duration": duration, "url": wurl, "posted": posted}
 
 
 def _download_subs(url, langs, auto, workdir):

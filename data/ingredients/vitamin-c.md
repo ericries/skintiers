@@ -13,6 +13,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=YuHLRmJMUzI
+  posted: '2026-08-01'
   thesis: "Asked whether copper peptides beat vitamin C for hyperpigmentation, board-certified dermatologist Andrea Suarez (Dr Dray) says no: topical vitamin C, particularly ascorbic acid, has a lot more evidence behind it than copper peptides, even though ascorbic acid has real formulation and penetration challenges. She adds that even the non-ascorbic-acid vitamin C derivatives are still a better bet than copper peptides, because they act as antioxidants at the skin surface, which can help hyperpigmentation."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 - title: "VITAMIN C: DERMATOLOGIST EXPLAINS BENEFITS, HOW TO USE & BEST TYPES"
@@ -21,6 +22,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=lr-5jIX2vhk
+  posted: '2023-07-20'
   thesis: "Board-certified dermatologist Dr. Whitney Bowe gives three reasons she recommends a daily vitamin C serum: sunscreen only blocks about 55% of free radicals, so a vitamin C antioxidant layered underneath can mop up the rest; vitamin C blocks the tyrosinase enzyme in the pigment pathway, helping brighten dark spots; and it acts as a cofactor for the two enzymes that link collagen strands together in the dermis. She also explains why L-ascorbic acid is unstable, broken down by heat, high pH, air, and sunlight, and must be formulated below pH 3.5 to penetrate skin, which is why some newer derivatives were developed as more stable alternatives."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 ---

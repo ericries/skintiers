@@ -13,6 +13,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=j13syR1ZdGA
+  posted: '2023-07-02'
   thesis: "Dermatologist Dr. Whitney Bowe says most people who react to a sunscreen are actually reacting to fragrance or essential oils rather than to filters like avobenzone, so that should be ruled out first. Among the chemical filters that can cause allergic contact dermatitis or photoallergy, she ranks oxybenzone as the most common culprit (though now easier to avoid since most US sunscreens have reformulated without it), with avobenzone and octocrylene as much less likely, rarer causes."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 ---

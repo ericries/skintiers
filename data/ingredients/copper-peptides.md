@@ -13,6 +13,7 @@ videos:
   credential: Licensed esthetician (not a dermatologist or cosmetic chemist)
   platform: TikTok
   url: https://www.tiktok.com/@your.estie.ella/video/7670531715860876557
+  posted: '2026-08-05'
   thesis: "Licensed esthetician Ella walks through how to fit a copper-peptide serum into an existing routine, framing copper peptides as a useful add-on for anti-aging and barrier support rather than an all-in-one treatment that needs months of patience before results show. Her practical guidance is that copper peptides layer fine with most products, and the only pairings to space out are retinoids and the active form of vitamin C (ascorbic acid, not the derivatives), where she suggests waiting ten to fifteen minutes between applying those and the copper peptides; she says copper peptides can be used morning and night."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship, no brand mentions or product picks. Presented as a non-credentialed esthetician's practical how-to, not established clinical fact."
 - title: "Are Copper Peptides Better Than Vitamin C? Dermatologist Explain"
@@ -21,6 +22,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=YuHLRmJMUzI
+  posted: '2026-08-01'
   thesis: "Answering a viewer question in a weekend Q&A, board-certified dermatologist Andrea Suarez (Dr. Dray) says copper is involved in the enzyme tyrosinase, so there is a theoretical reason copper peptides could help hyperpigmentation, but no good clinical research shows they actually work for it. She says topical vitamin C, especially ascorbic acid, has a lot more evidence behind it for hyperpigmentation, and that even the non-ascorbic-acid vitamin C derivatives are still a better bet than copper peptides because they act as surface antioxidants."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 ---

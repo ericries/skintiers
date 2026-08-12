@@ -899,3 +899,70 @@ def test_evidence_levels_block_renders(tmp_path):
     assert 'class="seg on"' in html                         # effect segs (from grade)
     # a product without the block renders no such section
     assert 'class="evlevels"' not in (out / "glycolic-acid.html").read_text()
+
+
+def test_build_video_feed_dedupes_sorts_and_excludes_drafts():
+    """build_video_feed: newest-first by `posted`, one card per video (with every
+    citing page recorded), drafts excluded, undated cards last."""
+    sys.path.insert(0, str(ROOT))
+    import build
+
+    class Post(dict):
+        def __init__(self, meta):
+            super().__init__(meta)
+            self.metadata = meta
+
+    profiles = [
+        Post({"slug": "a", "status": "published", "type": "ingredient", "name": "A",
+              "videos": [
+                  {"title": "Old", "url": "https://www.youtube.com/watch?v=OLD",
+                   "creator": "X", "posted": "2025-01-01"},
+                  {"title": "New", "url": "https://www.youtube.com/watch?v=NEW",
+                   "creator": "Y", "posted": "2026-06-01"}]}),
+        Post({"slug": "b", "status": "published", "type": "goal", "name": "B",
+              "videos": [
+                  {"title": "New", "url": "https://www.youtube.com/watch?v=NEW",
+                   "creator": "Y", "posted": "2026-06-01"},
+                  {"title": "Undated", "url": "https://vimeo.com/999", "creator": "Z"}]}),
+        Post({"slug": "d", "status": "draft", "type": "goal", "name": "D",
+              "videos": [
+                  {"title": "Draft", "url": "https://www.youtube.com/watch?v=DRAFT",
+                   "creator": "W", "posted": "2026-12-01"}]}),
+    ]
+    feed = build.build_video_feed(profiles)
+    # draft page's future-dated video is excluded despite being newest
+    assert [c["title"] for c in feed] == ["New", "Old", "Undated"]
+    # the shared video appears once, citing both published pages
+    new = next(c for c in feed if c["title"] == "New")
+    assert sorted(o["slug"] for o in new["on"]) == ["a", "b"]
+    # undated card sorts last
+    assert feed[-1]["title"] == "Undated" and not feed[-1].get("posted")
+
+
+def test_feed_html_orders_and_links_video_cards(tmp_path):
+    """The rendered feed.html lists every published page's video cards newest-first
+    and links each back to the page(s) it is cited on."""
+    data = tmp_path / "data"
+    out = tmp_path / "_site"
+    idir = data / "ingredients"
+    idir.mkdir(parents=True)
+    (idir / "one.md").write_text(
+        "---\nname: One\nslug: one\ntype: ingredient\nstatus: published\n"
+        "updated: 2026-07-26\nanalyzed: 2026-07-26\n"
+        "videos:\n"
+        "- title: Older take\n  url: https://www.youtube.com/watch?v=AAA\n"
+        "  creator: Dr A\n  platform: YouTube\n  posted: '2025-03-10'\n"
+        "- title: Newer take\n  url: https://www.youtube.com/watch?v=BBB\n"
+        "  creator: Dr B\n  platform: YouTube\n  posted: '2026-05-20'\n"
+        "---\n\nBody.\n")
+    env = {**os.environ, "SK_DATA": str(data), "SK_OUTPUT": str(out)}
+    r = subprocess.run([sys.executable, str(ROOT / "build.py")], env=env,
+                       capture_output=True, text=True)
+    assert r.returncode == 0, r.stderr
+    html = (out / "feed.html").read_text()
+    # newer card appears before older
+    assert html.index("Newer take") < html.index("Older take")
+    # posting dates rendered
+    assert "2026-05-20" in html and "2025-03-10" in html
+    # each card links back to the citing page
+    assert 'href="one.html"' in html

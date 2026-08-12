@@ -948,6 +948,43 @@ def _resolve_image(val):
     return val if re.match(r"^https?://", val) else f"images/{val}"
 
 
+def build_video_feed(profiles):
+    """Collect every expert-video card cited on a PUBLISHED page into one feed,
+    de-duplicated by video and ordered newest-first by the video's own posting
+    date (`posted:` on the card). A video cited on several pages appears once,
+    with every page it is cited on listed under `on`. Cards without a resolvable
+    `posted:` date sort to the end (never dropped), so the feed is complete even
+    when a date could not be fetched.
+
+    Returns a list of card dicts: each is the card's frontmatter plus
+    `on` (list of {slug, name}) and `posted` (or None).
+    """
+    by_key = {}
+    order = []                       # preserve first-seen order for stable ties
+    for p in profiles:
+        if p.get("status") != "published":
+            continue
+        for v in p.metadata.get("videos") or []:
+            url = v.get("url")
+            if not url:
+                continue
+            emb = video_embed(url) or {}
+            key = f"{emb.get('kind')}:{emb.get('id')}" if emb.get("id") else url
+            on = {"slug": p["slug"], "name": p.metadata.get("name")}
+            if key in by_key:
+                # same video on another page - record the extra citation only once
+                if not any(o["slug"] == on["slug"] for o in by_key[key]["on"]):
+                    by_key[key]["on"].append(on)
+            else:
+                by_key[key] = {**v, "on": [on], "posted": v.get("posted")}
+                order.append(key)
+    cards = [by_key[k] for k in order]
+    dated = sorted((c for c in cards if c.get("posted")),
+                   key=lambda c: c["posted"], reverse=True)
+    undated = [c for c in cards if not c.get("posted")]
+    return dated + undated
+
+
 def images_and_monogram(metadata):
     """Return (images, monogram) for a profile.
 
@@ -1354,6 +1391,15 @@ def build():
     # Syndication feeds (RSS + JSON) of the same recently added/updated pages.
     (out / "feed.xml").write_text(render_rss(recent))
     (out / "feed.json").write_text(render_json_feed(recent))
+
+    # The Feed: every expert-video card on the site, one place, newest-first by the
+    # video's own posting date. Maintained automatically on every build.
+    feed_cards = build_video_feed(profiles)
+    (out / "feed.html").write_text(env.get_template("feed.html").render(
+        cards=feed_cards,
+        n_dated=sum(1 for c in feed_cards if c.get("posted")),
+        needs_tiktok_js=any((video_embed(c.get("url")) or {}).get("kind") == "tiktok"
+                            for c in feed_cards)))
 
     if sklib.STATIC_DIR.exists():
         for f in sklib.STATIC_DIR.iterdir():

@@ -42,6 +42,7 @@ videos:
   credential: Cosmetic chemist, PhD
   platform: YouTube
   url: https://www.youtube.com/watch?v=NyWP_a0rICQ
+  posted: '2026-07-14'
   thesis: "In weighed application tests, cosmetic chemist Michelle Wong (PhD) found the Beauty of Joseon Matte Sun Stick was the first sunscreen stick that let her reach the labeled SPF amount using four passes, after a collaboration with Glow by Ramon tweaked the formula for better payout onto skin. It still took about 1.5 minutes of swiping to get there, and she still missed spots on her face using the four-pass method, consistent with her general finding that sunscreen sticks are error-prone and a lotion is the better default for most people."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 ---

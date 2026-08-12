@@ -14,6 +14,7 @@ videos:
   credential: "Board-certified dermatologist"
   platform: YouTube
   url: https://www.youtube.com/watch?v=-HdzW2aiuD0
+  posted: '2026-04-18'
   thesis: "Board-certified dermatologist Dr. Shereene Idriss frames tretinoin as the collagen half of her two-prescription anti-aging pairing, saying it speeds up the cell turnover that slows as skin ages and stimulates collagen production, and calling it the most powerful topical anti-aging ingredient, with no over-the-counter option matching its track record. She recommends building consistency with an over-the-counter retinol first, then starting a prescription retinoid such as tretinoin at one to two nights a week and increasing gradually, and not pairing it on the same night as an exfoliating treatment until tolerance is established."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 - title: "Every Tretinoin Hack You Need To Know"
@@ -22,6 +23,7 @@ videos:
   credential: Skincare educator (not a dermatologist or cosmetic chemist)
   platform: YouTube
   url: https://www.youtube.com/watch?v=3dFUYg-67ag
+  posted: '2026-07-19'
   thesis: "Skincare educator Hyram Yarbro (Skincare by Hyram), who states he is not a dermatologist or chemist and that his tips do not override a prescriber's advice, shares consensus how-to-use guidance for prescription tretinoin from years of his own use: build up gradually by starting with over-the-counter retinol or adapalene before tretinoin, expect an 8 to 12 week purging period of dryness and irritation, and pair it with a rich moisturizer. For sensitive skin he suggests applying moisturizer as a base first and the tretinoin over the top to buffer its strength, and he warns against mixing tretinoin into a moisturizer or adding other active ingredients until months into use."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship. Non-credentialed educator sharing his own experience, not medical advice or a product endorsement; his own-brand product mention is excluded."
 ---

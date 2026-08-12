@@ -51,6 +51,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=TftRd5FmQHU
+  posted: '2025-01-03'
   thesis: "Board-certified dermatologist Dr. Scott Walter calls Beauty of Joseon Relief Sun: Rice + Probiotics a longtime favorite among his top five Korean sunscreens, describing it as almost like a moisturizer that pairs well with makeup and is packed with rice extract, glycerin, niacinamide, green tea leaf extract, and ginseng root extract, with a creamy texture that absorbs with no white cast."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 - title: "Dermatologist reviews NEW Beauty of Joseon Aqua Fresh Sunscreen! (and compares it to the original)"
@@ -59,6 +60,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=3wILIVGMfQE
+  posted: '2024-08-22'
   thesis: "Comparing Beauty of Joseon Relief Sun: Rice + Probiotics to the brand's newer Aqua Fresh sunscreen, board-certified dermatologist Dr. Scott Walter recaps the Relief Sun's green tea, ginseng root extract, vitamin E, niacinamide, and fermented rice, a creamy but lightweight texture with a dewy finish, and notes it is the more moisturizing of the two. In his own on-skin hydration measurements the Relief Sun scored 46 versus 38 for the Aqua Fresh, though he calls both moisturizing."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 ---

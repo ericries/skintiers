@@ -14,6 +14,7 @@ videos:
   credential: Cosmetic chemist, PhD
   platform: YouTube
   url: https://www.youtube.com/watch?v=c5ujp0KftnE
+  posted: '2026-03-04'
   thesis: "The widely repeated claim that hyaluronic acid holds 1,000 times its weight in water (or 6 litres per gram) traces back to an unreferenced 'fun fact' in a Cosmetic Ingredient Review safety assessment's introduction, not to actual data, according to cosmetic chemist Michelle Wong (PhD). A 2024 paper that tried to verify the claim experimentally found no detectable binding at that scale and calculated that hyaluronic acid actually holds roughly 40 to 85 percent of its own weight in water. Wong also notes that The Ordinary's own clinical test found its hyaluronic acid serum worked about the same on damp versus dry skin, since hydrogen bonding only acts over very short distances."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship, and the video explicitly says so."
 ---

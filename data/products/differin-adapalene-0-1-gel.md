@@ -25,6 +25,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=2xNfzaAqx5A
+  posted: '2024-07-02'
   thesis: "Reacting to a BuzzFeed before-and-after of Differin Gel used for acne, board-certified dermatologist Dr. Muneeb Shah says he agrees adapalene is the best over-the-counter ingredient for most forms of acne, and that the before-and-after shown was believable and representative rather than an outlier. He notes it typically takes two to three months of consistent use, with possible purging when first starting."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 grades:

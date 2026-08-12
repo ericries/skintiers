@@ -14,6 +14,7 @@ videos:
   credential: Cosmetic chemist
   platform: TikTok
   url: https://www.tiktok.com/@javonford16/video/7635837533212953869
+  posted: '2026-05-04'
   thesis: "Cosmetic chemist Javon Ford warns against DIY-mixing raw retinol into a body lotion, because retinol is already hard to stabilize and an open-air container will not preserve it, calling the practice wasteful rather than money-saving when cheaper pre-formulated retinol body creams already exist. He also clarifies that The Ordinary's Granactive Retinoid is an ester of retinol, not retinol itself, so it still works but more slowly."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 - title: "3 Things Making Your Skin WORSE - Dermaplaning, Gua Sha & Slugging Retinoids"
@@ -22,6 +23,7 @@ videos:
   credential: Licensed medical esthetician
   platform: YouTube
   url: https://www.youtube.com/watch?v=dKeDDERpy-U
+  posted: '2024-06-21'
   thesis: "Esthetician Cassandra Bankson describes a common way beginners make retinol and other topical retinoids backfire: using far more than a pea-sized amount, applying it to wet skin, and then sealing it under an occlusive like petroleum jelly (slugging), all of which drive the active to penetrate more deeply and can trigger redness, flaking, and painful irritation. She advises starting low and slow, a pea-sized amount a couple of times a week, and notes that putting the occlusive on first, as a buffer under the retinoid, gives a gentler, slower release for people still building tolerance."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship. Licensed esthetician, not a dermatologist or chemist; used for general how-to-use education, not product endorsement."
 ---
