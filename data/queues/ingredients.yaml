@@ -734,3 +734,13 @@
     others) and is marketed with antioxidant claims; a short evidence page would let
     products link out instead of hand-waving. Note: distinct from the vitamin-d-topical
     page if that covers a different form - dedupe at draft time.'
+- name: Ectoin
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: A bacterial-derived protective osmolyte/extremolyte used as a humectant
+    and barrier/anti-irritant agent; already appears in on-site formulas (e.g. Dr.G
+    Green Mild Up Sun) with no ingredient page to link to. Has small controlled trials
+    in atopic dermatitis and rhinitis. Dedup vs any existing osmolyte page at draft
+    time.

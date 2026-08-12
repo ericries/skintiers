@@ -1333,3 +1333,19 @@
   source: A ceramide + shea + niacinamide body balm for very dry/eczema-prone skin;
     a barrier-repair (non-exfoliant) counterpart to the urea/acid body lotions, extends
     [[ceramides]] and [[moisturizing]] product coverage. https://www.laroche-posay.us/our-products/body/body-moisturizer/lipikar-balm-ap-intense-repair-body-cream
+- name: Vichy Mineral 89 Hyaluronic Acid Face Serum
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: null
+  source: A widely sold hyaluronic acid + Vichy volcanic mineralizing water hydrating
+    serum; extends [[hyaluronic-acid]] product coverage and the [[moisturizing]]/[[glass-skin]]
+    hubs. https://www.vichyusa.com/skin-care/face-serum/mineral-89-hyaluronic-acid-face-moisturizer/VIC3337875543236.html
+- name: Bioderma Sensibio H2O Micellar Water
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: null
+  source: A very widely used no-rinse micellar cleansing water for sensitive skin;
+    a gentle-cleanser catalog gap, relevant to sensitive-skin routines and [[skin-barrier-repair]].
+    https://www.bioderma.us/our-products/sensibio/sensibio-h2o
