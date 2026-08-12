@@ -4317,3 +4317,24 @@ keratosis-pilaris:
     correctly not overstated). Verdict revise: added the trial's own null TEWL finding + the p-value, corrected
     a Beyron paraphrase ("preferred" not "most commonly studied"), split a bundled citation. Reuses the
     exfoliating-acids ladder. assurance=sonnet. lint/verify/style clean.
+
+gold-bond-rough-and-bumpy-daily-skin-therapy:
+  last_reviewed: '2026-08-11'
+  score: 7
+  verdict: revise-then-published
+  note: |
+    Gold Bond Rough & Bumpy Daily Skin Therapy Cream (KP-marketed exfoliating body cream).
+    Daily PRODUCT cron (Sonnet draft + Opus profile-reviewer critic; cache-first verification).
+    Critic re-verified every quote/price/INCI verbatim against the cached goldbond.com + Walmart
+    pages: all matched, no load-bearing errors, verdict revise-then-publish (7/10 -> fixes applied).
+    Key catches BAKED IN by the draft: NO Drug Facts panel / no disclosed % (cosmetic exfoliant,
+    not an OTC drug); the three acids are salicylic acid + gluconolactone (PHA) + ammonium lactate
+    (which Gold Bond's own callout mislabels "Lactic Acid"); hydroxyethyl urea is NOT urea (correctly
+    not linked to [[urea]]); the 74% (Gold Bond) vs 72% (Walmart) bump-reduction figures conflict and
+    are quarantined as unpublished "data on file." Applied 5 critic fixes: (1) grade-note no longer
+    implies the PHA has KP evidence; (2) dropped uncited "12%/2%" comparator concentrations;
+    (3) AmLactin fact re-pointed to [[keratosis-pilaris]] not [^pdp]; (4) added omitted propylene
+    glycol to the INCI prose; (5) trimmed the category-evidence + "no independent trial" restatements
+    from 3-4x down to once (in The Evidence). Fix 6 (photo gallery) deferred to the image cron.
+    Surfaces on the keratosis-pilaris concern->product feed via salicylic-acid + lactic-acid actives.
+    assurance=sonnet. lint/verify/style clean (verify: expected non-primary WARNs, both cached).

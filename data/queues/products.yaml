@@ -1294,3 +1294,11 @@
   discovered_from: keratosis-pilaris
   source: 10% urea + additional humectant lotion marketed for rough, bumpy, KP-prone
     skin; complements the graded urea/lactic evidence on keratosis-pilaris. https://www.eucerinus.com/products/roughness-relief
+- name: CeraVe SA Body Lotion for Rough & Bumpy Skin
+  type: product
+  priority: 3
+  status: pending
+  discovered_from: gold-bond-rough-and-bumpy-daily-skin-therapy
+  source: Salicylic acid + ammonium lactate (LHA) + ceramides body lotion marketed
+    for rough, bumpy, KP-prone skin; a direct comparator to the Gold Bond cream and
+    a second concern->product option for keratosis-pilaris. https://www.cerave.com/skincare/moisturizers/sa-body-lotion-for-rough-and-bumpy-skin

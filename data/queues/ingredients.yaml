@@ -707,3 +707,21 @@
     ladder as a gentler, slow-penetrating option not yet profiled; sits below lactic
     acid on the penetration axis. Larger molecule, strong humectant, low-irritation
     exfoliant.
+- name: Capryloyl salicylic acid (LHA)
+  type: ingredient
+  priority: 4
+  status: pending
+  discovered_from: la-roche-posay-effaclar-duo
+  source: A lipophilic derivative of salicylic acid (LHA) used as a surface exfoliant
+    across several on-site products (La Roche-Posay Effaclar Duo/Mat, CeraVe SA).
+    Larger, more lipophilic than salicylic acid, so it exfoliates more superficially;
+    would extend the exfoliating-acids-by-strength ladder.
+- name: Hydroxyethyl urea
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: gold-bond-rough-and-bumpy-daily-skin-therapy
+  source: A urea-derived humectant (distinct from urea itself, so it does not inherit
+    urea's keratolytic evidence) appearing in on-site formulas (Gold Bond Rough &
+    Bumpy, Aestura Atobarrier). A short page would let those products link to it cleanly
+    instead of hand-waving 'urea derivative.'
