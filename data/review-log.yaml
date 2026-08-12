@@ -4357,3 +4357,23 @@ cerave-sa-body-lotion-for-rough-and-bumpy-skin:
     niacinamide-absence sentence; (4) flipped draft->published. Surfaces on the keratosis-pilaris and
     exfoliating-acids-by-strength concern->product feeds via salicylic-acid + lactic-acid actives.
     assurance=sonnet. lint/style clean; verify: expected cerave.com non-primary WARN (cached).
+
+eucerin-roughness-relief-lotion:
+  last_reviewed: '2026-08-12'
+  score: 9
+  verdict: revise-then-published
+  note: |
+    Eucerin Roughness Relief Lotion (urea-led KP/rough-skin body lotion; third body option after
+    Gold Bond + CeraVe SA). Daily PRODUCT cron (Sonnet draft + Opus critic, cache-first). Critic
+    re-verified every quote/price/INCI verbatim vs cached eucerinus.com + walmart.com: all matched,
+    no fabrication, 9/10 revise-then-publish. Honest frame consistent with siblings: the "10% urea"
+    is MARKETING copy ("Enriched with 10% Urea"), NOT a Drug Facts panel (none on either source) -
+    urea/lactic/ceramide are all cosmetic ingredients, not regulated OTC actives; the "clinically
+    shown" smoothing claim has no disclosed methodology (quarantined). Notable catches baked in:
+    the Walmart on-page title "Roughness Smoothing" vs URL/title-tag "Roughness Relief" naming
+    discrepancy; two distinct "72-hour"/"72 hours of hydration" phrasings kept as separate quotes.
+    Applied 1 fix: trimmed a redundant Summary paragraph (restated the urea/KP/acid-alternatives
+    detail The Evidence already carries) to a single deferring pointer, matching the sibling pattern;
+    flipped draft->published. key_actives urea/lactic-acid/ceramides -> surfaces on the KP +
+    exfoliating-acids concern feeds (under lactic, its strongest KP-graded active). assurance=sonnet.
+    lint/style clean; verify: expected eucerinus.com + walmart.com non-primary WARNs (both cached).

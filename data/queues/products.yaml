@@ -1290,7 +1290,7 @@
 - name: Eucerin Roughness Relief Lotion
   type: product
   priority: 4
-  status: pending
+  status: done
   discovered_from: keratosis-pilaris
   source: 10% urea + additional humectant lotion marketed for rough, bumpy, KP-prone
     skin; complements the graded urea/lactic evidence on keratosis-pilaris. https://www.eucerinus.com/products/roughness-relief
@@ -1317,3 +1317,19 @@
   source: A 2% salicylic acid body exfoliant widely recommended for KP/body acne;
     a disclosed-concentration comparator to the Gold Bond/CeraVe SA body lotions.
     https://www.paulaschoice.com/weightless-body-treatment-2pct-bha/2010.html
+- name: CeraVe Acne Control Gel (2% salicylic acid)
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: cerave-sa-body-lotion-for-rough-and-bumpy-skin
+  source: A 2% salicylic acid + AHA acne treatment gel with a disclosed OTC concentration;
+    a Drug-Facts comparator to the no-%-disclosed cosmetic exfoliants, and extends
+    salicylic-acid product coverage on [[acne]]. https://www.cerave.com/skincare/treatments/acne-control-gel
+- name: La Roche-Posay Lipikar Balm AP+M
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: eucerin-roughness-relief-lotion
+  source: A ceramide + shea + niacinamide body balm for very dry/eczema-prone skin;
+    a barrier-repair (non-exfoliant) counterpart to the urea/acid body lotions, extends
+    [[ceramides]] and [[moisturizing]] product coverage. https://www.laroche-posay.us/our-products/body/body-moisturizer/lipikar-balm-ap-intense-repair-body-cream
