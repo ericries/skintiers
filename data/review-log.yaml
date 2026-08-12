@@ -4426,3 +4426,24 @@ gold-bond:
     rather than assert unverified. Positioning attributed to the brand's own cached product page.
     Caught + fixed a style-check site-self-reference ('On SkinTiers' -> 'Products profiled here').
     lint/style clean; verify: expected goldbond.com non-primary WARN (cached).
+
+perioral-dermatitis:
+  last_reviewed: '2026-08-12'
+  score: 8
+  verdict: revise-then-published
+  note: |
+    Perioral dermatitis condition hub (periorificial dermatitis). Daily CONDITION cron (Sonnet draft
+    + Opus critic). 4 durable primary sources (StatPearls NBK525968, Tempark 2014, Gray 2022 GRADE
+    systematic review, Searle 2021); critic re-fetched all 4 and confirmed every quote/stat/CI/dose
+    VERBATIM ("as clean a D2 pass as I've seen") - zero discrepancies. Honest, thin-evidence framing:
+    #1 principle STOP topical steroids (they commonly CAUSE it) is in the caption + prose, not a fake
+    tier item; foregrounds Gray 2022's low/very-low GRADE certainty over the rosier 2014 review.
+    tier_list wired to existing ingredient pages: oral tetracyclines (doxycycline/minocycline)
+    moderate; metronidazole/azelaic/clindamycin/sulfur/pimecrolimus/tacrolimus minimal. Drafter
+    correctly downgraded azelaic acid to minimal (Gray null finding) and DROPPED an unverifiable
+    tacrolimus-causation claim. Applied 3 critic fixes: added the missing sulfur first-line topical
+    (page exists); added minocycline's worse-adverse-effect/lupus-like caveat (from its own page's
+    Cochrane cite); added a metronidazole precision clause (not re-assessed by Gray). Deferred 2
+    companion enhancements (a PD Rubric row on doxycycline page; an erythromycin-topical stub) to the
+    queue. Surfaces on the concern->product feed via metronidazole/azelaic/clindamycin actives.
+    assurance=sonnet. lint/verify/style clean.

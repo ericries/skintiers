@@ -39,7 +39,7 @@
 - name: Perioral dermatitis
   type: condition
   priority: 5
-  status: pending
+  status: done
   discovered_from: general-gap
   source: Common condition absent from the site; distinct management (stop actives/steroids,
     topical antibiotics) - high search interest

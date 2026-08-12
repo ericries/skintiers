@@ -773,3 +773,22 @@
     & Bumpy, CeraVe SA lotions); currently we link 'ammonium lactate' to [[lactic-acid]]
     but a short dedicated page could carry the salt-form/keratolytic specifics. Dedup
     vs [[lactic-acid]] at draft time - may just enrich that page instead.
+- name: Topical erythromycin
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: A first-line topical for perioral dermatitis (StatPearls) and an acne topical
+    antibiotic, but no ingredient page yet - so it's named in prose on [[perioral-dermatitis]]
+    but absent from the tier list. A stub would let the PD hub cite it like metronidazole/clindamycin.
+    Pairs with the existing [[clindamycin-topical]] page.
+- name: 'doxycycline-oral-subantimicrobial: add perioral-dermatitis Rubric row'
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: 'ENHANCEMENT (critic-flagged): the doxycycline page is graded only for the
+    40mg anti-inflammatory rosacea dose, but [[perioral-dermatitis]] cites it for
+    the 100mg full-antimicrobial PD use. Add a ''Perioral dermatitis (oral, 100mg)''
+    Rubric row citing Tempark 2014 (''best valid evidence'') + Gray 2022 (day-20,
+    low-certainty) so the link substantiates its claim.'
