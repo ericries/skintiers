@@ -3,6 +3,10 @@ analyzed: '2026-08-12'
 assurance: sonnet
 brand: CeraVe
 category: Moisturizers
+images:
+- file: cerave-sa-body-lotion-for-rough-and-bumpy-skin-cerave.jpg
+  source: CeraVe
+  source_url: https://www.cerave.com/skincare/moisturizers/sa-lotion-for-rough-and-bumpy-skin
 comparator: other exfoliating body lotions and creams marketed for rough, bumpy, keratosis-pilaris-prone
   skin, including [[gold-bond-rough-and-bumpy-daily-skin-therapy]]
 grades:

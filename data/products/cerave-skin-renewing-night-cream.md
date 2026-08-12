@@ -3,6 +3,10 @@ analyzed: '2026-08-07'
 assurance: sonnet
 brand: CeraVe
 category: Moisturizers
+images:
+- file: cerave-skin-renewing-night-cream-cerave.jpg
+  source: CeraVe
+  source_url: https://www.cerave.com/skincare/moisturizers/skin-renewing-night-cream
 comparator: other ceramide-containing night moisturizers with a humectant and occlusive
   base
 grades:

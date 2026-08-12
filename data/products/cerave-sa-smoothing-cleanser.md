@@ -3,6 +3,10 @@ analyzed: '2026-08-07'
 assurance: sonnet
 brand: CeraVe
 category: Cleansers
+images:
+- file: cerave-sa-smoothing-cleanser-cerave.jpg
+  source: CeraVe
+  source_url: https://www.cerave.com/skincare/cleansers/renewing-sa-cleanser
 comparator: other gentle, fragrance-free facial cleansers with salicylic acid
 grades:
 - effect: modest

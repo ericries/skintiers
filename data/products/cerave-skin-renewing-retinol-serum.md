@@ -3,6 +3,10 @@ analyzed: '2026-08-08'
 assurance: sonnet
 brand: CeraVe
 category: Retinoids
+images:
+- file: cerave-skin-renewing-retinol-serum-cerave.jpg
+  source: CeraVe
+  source_url: https://www.cerave.com/skincare/serums/skin-renewing-retinol-serum
 evidence_levels:
   active: retinol
   active_note: a well-studied over-the-counter retinoid, with vehicle-controlled
