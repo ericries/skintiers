@@ -1269,8 +1269,14 @@ def build():
                 uv_spectrum = render_uv_spectrum(fils, combined=True)
         routine = routine_summary(p, by_slug)
         tier_list = tier_list_view(p, by_slug)
+        # Surface the products that contain each graded active: on concern hubs
+        # (condition/goal) and on strength ladders (a `list` whose tier_list opts into
+        # `ladder: true`, i.e. it ranks FORMS of one active family - acids, retinoids,
+        # vitamin C - so "products with each form" is exactly the useful next step).
+        _wants_products = p.get("type") in ("condition", "goal") or (
+            p.get("type") == "list" and (p.metadata.get("tier_list") or {}).get("ladder"))
         concern_products = (products_for_tier_list(tier_list, profiles)
-                            if p.get("type") in ("condition", "goal") else None)
+                            if _wants_products else None)
         if routine is not None:
             routines_json[p["slug"]] = {
                 "name": p.metadata.get("name"),

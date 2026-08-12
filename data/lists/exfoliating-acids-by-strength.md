@@ -47,7 +47,15 @@ updated: '2026-08-11'
 
 Compares the chemical exfoliating acids the site profiles by the factors that actually differ between them: how deeply the molecule penetrates, how strongly it exfoliates, and how likely it is to irritate. The full mechanism and per-acid evidence live on each ingredient's own page; this page maps them against each other.
 
-The pattern is molecular size, not quality. Among the water-soluble [alpha hydroxy acids](#the-evidence), [[glycolic-acid]] is the smallest molecule, so it penetrates deepest and works most strongly, while [[lactic-acid]] is larger, milder, and doubles as a humectant. [[gluconolactone-pha]] is larger again, a polyhydroxy acid whose slow-penetrating molecule makes it the gentlest of the group while adding its own humectant effect. [[salicylic-acid]] sits apart: it is a beta hydroxy acid and oil-soluble, so instead of ranking as a stronger or weaker surface exfoliant it reaches a different place, the sebum inside pores, which is why it is the standard choice for oily and acne-prone skin.
+## What AHA, BHA, and PHA mean
+
+These three acronyms name the families of exfoliating acid. They differ in two things that decide where and how strongly each one works: whether the acid dissolves in water or oil, and how big its molecule is. Bigger molecules penetrate more slowly and exfoliate more gently, so within a family the difference between two acids is mostly molecule size, not quality.
+
+- **AHA (alpha hydroxy acids)** are water-soluble and work on the skin's surface, loosening the bonds that hold dead surface cells together. The smaller the molecule the deeper it reaches and the more strongly it exfoliates, so [[glycolic-acid]] (the smallest) is the strongest of the group and [[lactic-acid]] a larger, gentler option that also draws in water.
+- **BHA (beta hydroxy acid)** is oil-soluble, so it can pass through sebum and work inside the pore rather than only on the surface. In skincare it almost always means [[salicylic-acid]], which is why it is the standard choice for oily, clogged, and acne-prone skin rather than a milder or stronger version of the AHAs.
+- **PHA (polyhydroxy acids)** are larger cousins of the AHAs, such as [[gluconolactone-pha]]. The bigger molecule penetrates the slowest, so PHAs exfoliate the most gently while also acting as humectants that hold water in the skin, which makes them the usual pick for sensitive skin.
+
+The tier list above orders them on this same axis of penetration and strength; the section below is the quick practical picker.
 
 ## Choosing between them
 

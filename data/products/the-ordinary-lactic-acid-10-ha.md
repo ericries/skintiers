@@ -22,11 +22,10 @@ grades:
   evidence: mixed
   note: lactic acid's photoaging and texture evidence rests on an 8% cream, close
     to this product's labeled 10%; that trial's duration and endpoints are not a trial
-    of this leave-on serum itself and are set out on the glycolic-acid page, which
-    covers lactic acid as an AHA
+    of this leave-on serum itself and are set out on the [[lactic-acid]] page
   use: Skin texture and photodamage appearance, from daily leave-on lactic acid (cosmetic)
 key_actives:
-- glycolic-acid
+- lactic-acid
 - hyaluronic-acid
 name: The Ordinary Lactic Acid 10% + HA
 slug: the-ordinary-lactic-acid-10-ha
