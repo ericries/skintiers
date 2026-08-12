@@ -158,7 +158,7 @@
 - name: Dr. Scott Walter
   type: person
   priority: 5
-  status: pending
+  status: done
   discovered_from: video-cards
   source: Board-certified dermatologist; has transcript-verified Korean-sunscreen
     video cards on the site

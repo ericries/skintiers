@@ -1349,3 +1349,19 @@
   source: A very widely used no-rinse micellar cleansing water for sensitive skin;
     a gentle-cleanser catalog gap, relevant to sensitive-skin routines and [[skin-barrier-repair]].
     https://www.bioderma.us/our-products/sensibio/sensibio-h2o
+- name: Beauty of Joseon Aqua Fresh Sun Serum SPF50+
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: scott-walter
+  source: Newer lighter/acne-friendly BoJ sunscreen (no niacinamide; glycerin, ceramides,
+    HA, rice seed water, oat, vitamin E); a sibling to the already-profiled Relief
+    Sun, praised in Dr Scott Walter's top-5 Korean sunscreens video. https://beautyofjoseon.com/products/aqua-fresh-sun-serum
+- name: Aestura Derma UV365 Barrier Hydro Mineral Sunscreen
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: scott-walter
+  source: A zinc-oxide mineral sunscreen for sensitive/irritation-prone skin from
+    Aestura (the site already profiles several Aestura Atobarrier products); featured
+    in Dr Scott Walter's top-5 Korean sunscreens video. https://www.aestura.com

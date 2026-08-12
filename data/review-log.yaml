@@ -4377,3 +4377,20 @@ eucerin-roughness-relief-lotion:
     flipped draft->published. key_actives urea/lactic-acid/ceramides -> surfaces on the KP +
     exfoliating-acids concern feeds (under lactic, its strongest KP-graded active). assurance=sonnet.
     lint/style clean; verify: expected eucerinus.com + walmart.com non-primary WARNs (both cached).
+
+scott-walter:
+  last_reviewed: '2026-08-12'
+  verdict: published
+  assurance: sonnet
+  note: |
+    Scott Walter person discovery card (board-certified dermatologist, @DrScottWalter). PERSON daily
+    cron, drafted INLINE (no subagent, no Opus critic per person scope). Lean (47-word body). Built
+    because the site already carries 3 transcript-verified video cards of his (Beauty of Joseon Relief
+    Sun x2, Round Lab Birch Juice Sun) whose creator links were dead until this page existed. Credential
+    sourcing note: web-search budget was exhausted and youtube.com/@handle 404s via WebFetch, so his
+    board certification + Colorado practice are attributed HONESTLY to his own self-introduction in the
+    cited, cached video transcript (research-cache/transcripts/TftRd5FmQHU.txt) - "my name is Dr Scott
+    Walter and I'm a board certified dermatologist I practice here in Colorado" - not asserted as
+    independently verified fact, per the never-state-an-unverified-claim-about-a-living-person rule.
+    Reverse index now lists his 3 cards on the page and the cards link back to him. lint/verify/style
+    clean (verify: expected youtube.com non-primary WARN).
