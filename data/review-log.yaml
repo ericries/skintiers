@@ -4557,3 +4557,21 @@ black-girl-sunscreen:
     for melanin-rich/deeper skin tones) attributed to the brand's own cached 'Our Brand Story' page
     (verified present in cache), framed as the brand's own claims not independently verified. Links to
     the one on-site product (black-girl-sunscreen-spf-30). lint/verify/style clean.
+
+fungal-acne:
+  last_reviewed: '2026-08-13'
+  score: 7
+  verdict: revise-then-published
+  assurance: sonnet
+  note: |
+    Fungal acne (Malassezia folliculitis) condition hub. Daily CONDITION cron (Sonnet + Opus critic).
+    4 durable primary sources (Saunte 2020 PMC7098993, StatPearls NBK547754, Henning 2023 EADV position
+    statement, Okamoto 2021 BPO in-vitro); critic re-fetched all and confirmed every quote/stat verbatim.
+    Core value = DIFFERENTIATION: it's a yeast (Malassezia) not bacterial acne, does NOT respond to acne
+    antibiotics (which are themselves a risk factor) and needs ANTIFUNGALS. Exemplary omit-empty: the
+    tier_list is ONE item (benzoyl-peroxide, minimal, flagged in-vitro-only); sulfur/salicylic/azelaic
+    EXCLUDED for lack of anti-Malassezia evidence rather than padded. Prescription antifungals (topical
+    azoles/selenium sulfide; oral itraconazole 69-100%, fluconazole 80%) named in caption/prose, not as
+    tier items (no pages). Applied 4 critic fixes: flip to published; Henning issue no. (6)->(7); a
+    StatPearls misattribution re-pointed to Saunte; two self-referential process phrases stripped. Surfaces
+    on the concern->product feed via benzoyl-peroxide products. assurance=sonnet. lint/verify/style clean.

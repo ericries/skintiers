@@ -46,7 +46,7 @@
 - name: Fungal acne (malassezia folliculitis)
   type: condition
   priority: 5
-  status: pending
+  status: done
   discovered_from: general-gap
   source: Commonly confused with comedonal acne; different treatment (antifungals,
     avoid oils/esters) - useful skeptical explainer

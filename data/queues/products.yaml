@@ -1476,3 +1476,11 @@
   discovered_from: mandelic-acid
   source: A 12% mandelic acid exfoliating serum; a second mandelic OTC option for
     the acids ladder/dark-mark use. https://www.naturium.com
+- name: Nizoral Anti-Dandruff Shampoo (ketoconazole 1%)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: fungal-acne
+  source: OTC ketoconazole shampoo widely used off-label as a body wash for fungal
+    acne/Malassezia; a real product for the fungal-acne hub once ketoconazole has
+    a page. https://www.nizoral.com

@@ -828,3 +828,20 @@
   source: An anti-inflammatory botanical (mountain pepper) used in The Ordinary's
     acid serums to reduce irritation; niche, low priority - likely a brief page or
     skip. Appears in the-ordinary-mandelic/lactic/glycolic INCI.
+- name: Ketoconazole (topical)
+  type: ingredient
+  priority: 4
+  status: pending
+  discovered_from: null
+  source: The first-line topical azole antifungal for Malassezia folliculitis / fungal
+    acne (and seborrheic dermatitis); no page yet, so [[fungal-acne]] names it in
+    prose but cannot tier it. Real RCT evidence (Nizoral 2%). Would let the fungal-acne
+    tier list carry its actual first-line treatment.
+- name: Zinc pyrithione
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: An antifungal/antimicrobial active in medicated washes (Head & Shoulders,
+    some cleansers) used for Malassezia (seb derm, dandruff, fungal acne); no page
+    yet. Would extend [[fungal-acne]] + a future seborrheic-dermatitis hub.
