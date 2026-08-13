@@ -1419,3 +1419,20 @@
   source: Another Gold Bond body-care SKU to grow the brand roll-up; verify composition
     on goldbond.com. Lower priority - the brand's KP/exfoliant cream is the evidence-interesting
     one already shipped.
+- name: CeraVe Daily Moisturizing Lotion
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: null
+  source: CeraVe's flagship everyday lightweight body/face lotion (ceramides + hyaluronic
+    acid + MVE); a core-catalog barrier/hydration staple for the moisturizing + skin-barrier-repair
+    hubs, cleanly sourceable on cerave.com. https://www.cerave.com/skincare/moisturizers/daily-moisturizing-lotion
+- name: Vanicream Daily Facial Moisturizer
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: null
+  source: A bland, fragrance/dye/paraben-free facial moisturizer widely recommended
+    for sensitive/reactive skin; fits the 'simplify skincare' step for perioral dermatitis
+    and the skin-barrier-repair hub. Complements the existing vanicream-moisturizing-cream
+    / vanicream-facial-moisturizer-spf-30. https://www.vanicream.com

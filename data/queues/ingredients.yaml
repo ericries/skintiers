@@ -792,3 +792,12 @@
     the 100mg full-antimicrobial PD use. Add a ''Perioral dermatitis (oral, 100mg)''
     Rubric row citing Tempark 2014 (''best valid evidence'') + Gray 2022 (day-20,
     low-certainty) so the link substantiates its claim.'
+- name: Zinc PCA
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: A zinc salt of PCA used as a humectant and marketed for sebum control; appears
+    in on-site formulas (e.g. Anua Azelaic Acid serum) with no ingredient page to
+    link to. Evidence is mostly in-vitro/manufacturer sebum-reduction data - grade
+    conservatively. Relevant to oily-skin.
