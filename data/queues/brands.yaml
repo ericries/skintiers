@@ -217,7 +217,15 @@
 - name: Black Girl Sunscreen
   type: brand
   priority: 5
-  status: pending
+  status: done
   discovered_from: product-gap
   source: Founded 2016 by Shontay Lundy; has Black Girl Sunscreen SPF 30 on the site,
     no brand page yet
+- name: Torriden
+  type: brand
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: 'Korean skincare brand with a product already on the site (torriden-dive-in-low-molecular-hyaluronic-acid-serum)
+    but no brand page - a brand-page gap to fill. Its job: link to that HA serum.
+    Sourceable via torriden.com / Korean retailers.'
