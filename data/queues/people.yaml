@@ -151,7 +151,7 @@
 - name: Dr. Davin Lim
   type: person
   priority: 5
-  status: pending
+  status: done
   discovered_from: video-cards
   source: Board-certified dermatologist (Australia); has a transcript-verified glycolic-acid
     video card on the site
