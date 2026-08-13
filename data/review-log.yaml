@@ -4491,3 +4491,24 @@ beauty-of-joseon-aqua-fresh-sun-serum:
     niacinamide CONFIRMED ABSENT (vs Relief Sun), broader UVA filter set (4 vs 2). Added a Scott Walter
     comparison video card (same id also on Relief Sun - legit, it's a head-to-head). Surfaces the UV
     chart. lint/verify/style clean.
+
+cerave-daily-moisturizing-lotion:
+  last_reviewed: '2026-08-13'
+  score: 8
+  verdict: revise-then-published
+  assurance: sonnet
+  note: |
+    CeraVe Daily Moisturizing Lotion (flagship ceramide + HA everyday moisturizer). Daily PRODUCT
+    cron; PRE-FLIGHT source check applied. Sonnet draft + Opus critic (cache-first). Sourcing was a
+    model of the price rule: $14.99 cited only to cerave.com (verbatim in cache), Target price DROPPED
+    (not in fetched HTML). Critic verified both INCI lists + all quotes verbatim; the highest-risk
+    items (price, composition) checked out clean. Notable verified catch: cerave.com and Target
+    declare DIFFERENT formulations (Target adds methyl/propylparaben + hydrolyzed HA; cerave.com has
+    phenoxyethanol/ethylhexylglycerin/tocopherol + sodium hyaluronate) - reported accurately.
+    Dimethicone correctly cosmetic (no Drug Facts panel), excluded from key_actives. Applied 3 critic
+    fixes: dropped an unsupported 'pump bottle' detail (word absent from both sources); tightened the
+    ceramide grade note so 'minimal' clearly means net eczema-severity outcome (the same trial did
+    improve TEWL); dropped a 'Developed with dermatologists' bullet (sitewide boilerplate, not product
+    copy). Photo gallery deferred to the image cron. 3 grade rows (barrier/occlusion notable/solid;
+    added-ceramides minimal/mixed; HA hydration notable/solid). Surfaces on moisturizing/barrier hubs.
+    assurance=sonnet. lint/verify/style clean.

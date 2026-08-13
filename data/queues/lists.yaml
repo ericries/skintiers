@@ -49,3 +49,12 @@
     that seal it in ([[petrolatum]], [[squalane]], [[dimethicone]]). A mechanism split,
     NOT a strength ladder (no ladder:true), so it doesn''t repeat the cross-ingredient-ranking
     bug.'
+- name: 'best-ceramide-moisturizers: add CeraVe Daily Moisturizing Lotion'
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: 'CURATORIAL: the newly-published cerave-daily-moisturizing-lotion (3 ceramides
+    NP/AP/EOP + HA) belongs on the best-ceramide-moisturizers tier list alongside
+    the CeraVe Cream/PM and Dr Jart Ceramidin entries. Add it at the appropriate tier
+    at next list cron.'

@@ -1422,7 +1422,7 @@
 - name: CeraVe Daily Moisturizing Lotion
   type: product
   priority: 4
-  status: pending
+  status: done
   discovered_from: null
   source: CeraVe's flagship everyday lightweight body/face lotion (ceramides + hyaluronic
     acid + MVE); a core-catalog barrier/hydration staple for the moisturizing + skin-barrier-repair
@@ -1445,3 +1445,11 @@
     in Dr Scott Walter's top-5 Korean sunscreens video; extends the [[sunscreen-uv-filters]]
     catalog alongside the BoJ Relief Sun/Aqua-fresh and Round Lab entries. Sourceable
     via Stylevana/YesStyle (proven reliable). https://skin1004.com
+- name: Aveeno Daily Moisturizing Lotion
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: null
+  source: Colloidal-oatmeal + dimethicone drugstore body/face moisturizer staple (NEA-accepted);
+    a core-catalog moisturizing/barrier entry, cleanly sourceable on aveeno.com +
+    Target; complements [[colloidal-oatmeal]] and the moisturizing hub. https://www.aveeno.com/products/aveeno-daily-moisturizing-lotion
