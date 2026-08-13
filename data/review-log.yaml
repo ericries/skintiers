@@ -4512,3 +4512,20 @@ cerave-daily-moisturizing-lotion:
     copy). Photo gallery deferred to the image cron. 3 grade rows (barrier/occlusion notable/solid;
     added-ceramides minimal/mixed; HA hydration notable/solid). Surfaces on moisturizing/barrier hubs.
     assurance=sonnet. lint/verify/style clean.
+
+mandelic-acid:
+  last_reviewed: '2026-08-13'
+  score: 10
+  verdict: publish
+  assurance: sonnet
+  note: |
+    Mandelic acid ingredient page (large-molecule AHA). Daily INGREDIENT cron (Sonnet draft + Opus
+    critic). 6-7 durable PubMed sources; critic re-fetched all via NCBI eutils and confirmed every
+    quote/stat/PMID/CI VERBATIM - clean 10/10, D1-D4 all 10, no misquote/overclaim. Graded 4 uses
+    separately, all preliminary/weak, none above modest: acne (level with salicylic, beats glycolic
+    only in a salicylic-mandelic combo on Cochrane-rated low-quality evidence); melasma/hyperpigmentation
+    MIXED; photoaging weak (single uncontrolled n=24); tolerability honestly 'NOT shown gentler than
+    lactic acid'. Backbone honesty: the one pure-mandelic head-to-head (Malviya 2025) found lactic acid
+    beat mandelic on efficacy AND irritation - used to rebut the 'gentler/no-irritation' marketing.
+    Drafter dropped unsourced bitter-almond-origin / MW / Fitzpatrick claims (critic confirmed none
+    slipped in). Published on critic verdict=publish (no force). Wired onto the exfoliating-acids ladder.

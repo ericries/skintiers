@@ -687,7 +687,7 @@
 - name: Mandelic acid
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: gap
   source: Common AHA absent from the site; needed for the exfoliating-acids strength
     list
