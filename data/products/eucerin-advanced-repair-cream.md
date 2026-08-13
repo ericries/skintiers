@@ -3,6 +3,10 @@ analyzed: '2026-08-08'
 assurance: sonnet
 brand: Eucerin
 category: Moisturizers
+images:
+- file: eucerin-advanced-repair-cream-eucerin.jpg
+  source: Eucerin
+  source_url: https://www.eucerinus.com/products/advanced-repair/advanced-repair-creme
 comparator: other urea-plus-ceramide barrier creams and plainer humectant-only lotions
 grades:
 - effect: modest

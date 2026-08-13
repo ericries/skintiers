@@ -3,6 +3,10 @@ analyzed: '2026-08-08'
 assurance: sonnet
 brand: Galderma
 category: Retinoids
+images:
+- file: differin-gel-0-3-adapalene-goodrx.jpg
+  source: GoodRx
+  source_url: https://www.goodrx.com/differin
 evidence_levels:
   active: adapalene
   active_note: adapalene is an FDA-approved topical retinoid for acne vulgaris,

@@ -3,6 +3,10 @@ analyzed: '2026-08-12'
 assurance: sonnet
 brand: Eucerin
 category: Moisturizers
+images:
+- file: eucerin-roughness-relief-lotion-eucerin.jpg
+  source: Eucerin
+  source_url: https://www.eucerinus.com/products/roughness-relief/roughness-relief-lotion
 comparator: other urea-based body lotions (see [[prequel-urea-repair-10-moisturizing-milk]])
   and acid-led body lotions marketed for rough, bumpy, keratosis-pilaris-prone skin,
   including [[gold-bond-rough-and-bumpy-daily-skin-therapy]] and [[cerave-sa-body-lotion-for-rough-and-bumpy-skin]]

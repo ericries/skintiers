@@ -3,6 +3,10 @@ analyzed: '2026-08-08'
 assurance: sonnet
 brand: Galderma
 category: Retinoids
+images:
+- file: epiduo-adapalene-benzoyl-peroxide-gel-target.jpg
+  source: Target
+  source_url: https://www.target.com/p/differin-epiduo-acne-gel/-/A-1011278830
 evidence_levels:
   active: adapalene
   active_note: adapalene is a solidly evidenced topical retinoid for acne, on par

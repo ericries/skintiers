@@ -3,6 +3,10 @@ analyzed: '2026-08-13'
 assurance: sonnet
 brand: Beauty of Joseon
 category: Sunscreens
+images:
+- file: beauty-of-joseon-aqua-fresh-sun-serum-stylevana.jpg
+  source: Stylevana
+  source_url: https://www.stylevana.com/en_US/beauty-of-joseon-relief-sun-aqua-fresh-rice-b5-spf50-pa-50ml27125.html
 comparator: 'other Korean chemical sunscreens, especially its sibling [[beauty-of-joseon-relief-sun-rice-probiotics-spf50|Relief
   Sun: Rice + Probiotics]]'
 grades:
