@@ -811,3 +811,12 @@
     - so it's currently unlinkable. Distinct from the whole-extract [[centella-asiatica]]
     page (a single isolated compound). Has small controlled trials in wound healing/barrier.
     https://pubmed.ncbi.nlm.nih.gov/?term=madecassoside+skin
+- name: Polysilicone-15 (Parsol SLX)
+  type: ingredient
+  priority: 6
+  status: pending
+  discovered_from: null
+  source: A modern organic/polymeric UV filter (dimethico-diethylbenzalmalonate) common
+    in Korean/EU sunscreens but not in the US OTC monograph; would extend the [[sunscreen-uv-filters]]
+    filter set and the per-product UV charts. Verify presence across on-site Korean
+    sunscreens at draft time.

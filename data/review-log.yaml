@@ -4469,3 +4469,25 @@ la-roche-posay-hyalu-b5-hyaluronic-acid-serum:
     disclosed), the 1000x-water myth debunked via [[hyaluronic-acid]]. Graded cosmetic hydration only
     (notable/solid, matching the Torriden exemplar). Score 5 reflects the pre-fix draft; post-fix the
     page is 100% on the critic-verified LRP-ME source. lint/verify/style clean.
+
+beauty-of-joseon-aqua-fresh-sun-serum:
+  last_reviewed: '2026-08-13'
+  score: 7
+  verdict: revise-then-published
+  assurance: sonnet
+  note: |
+    BoJ "Relief Sun Aqua-fresh Rice + B5" SPF50+ PA++++ (lighter/newer sibling of Relief Sun).
+    Daily PRODUCT cron; PRE-FLIGHT source check applied. Sonnet draft + Opus critic (cache-first).
+    Critic verified the Stylevana price/SPF/PA/marketing quotes + Scott Walter transcript (46 vs 38,
+    "lighter weight", niacinamide-omission) all verbatim. TWO load-bearing fixes applied: (1) the
+    bemotrizinol "June 2026 FDA monograph" claim was uncited AND self-contradictory ("added June 2026"
+    + "none in the CURRENT monograph" - but it's now August 2026); corrected in 3 places (lead, The
+    Evidence, What's In It) to "4 of 5 outside the monograph; bemotrizinol added June 2026" with a
+    [[bemotrizinol]] link (which sources the FDA Federal Register order). (2) The 5 UV filters - which
+    drive both grades - rest ONLY on INCIDecoder (non-citable aggregator; 2 submissions there are not
+    independent), and unlike the sibling there's no independent lab test; downgraded both grade rows
+    evidence solid -> MIXED and added an explicit 'filter identities rest on a single ingredient-database
+    listing' caveat. Also deleted an omit-empty 'no independent study' line. Composition resolved:
+    niacinamide CONFIRMED ABSENT (vs Relief Sun), broader UVA filter set (4 vs 2). Added a Scott Walter
+    comparison video card (same id also on Relief Sun - legit, it's a head-to-head). Surfaces the UV
+    chart. lint/verify/style clean.

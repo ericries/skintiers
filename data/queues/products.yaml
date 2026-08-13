@@ -1352,7 +1352,7 @@
 - name: Beauty of Joseon Aqua Fresh Sun Serum SPF50+
   type: product
   priority: 4
-  status: pending
+  status: done
   discovered_from: scott-walter
   source: Newer lighter/acne-friendly BoJ sunscreen (no niacinamide; glycerin, ceramides,
     HA, rice seed water, oat, vitamin E); a sibling to the already-profiled Relief
@@ -1436,3 +1436,12 @@
     for sensitive/reactive skin; fits the 'simplify skincare' step for perioral dermatitis
     and the skin-barrier-repair hub. Complements the existing vanicream-moisturizing-cream
     / vanicream-facial-moisturizer-spf-30. https://www.vanicream.com
+- name: SKIN1004 Madagascar Centella Hyalu-Cica Water-Fit Sun Serum SPF50+
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: beauty-of-joseon-aqua-fresh-sun-serum
+  source: Another modern-filter Korean chemical sunscreen serum (centella + HA), named
+    in Dr Scott Walter's top-5 Korean sunscreens video; extends the [[sunscreen-uv-filters]]
+    catalog alongside the BoJ Relief Sun/Aqua-fresh and Round Lab entries. Sourceable
+    via Stylevana/YesStyle (proven reliable). https://skin1004.com
