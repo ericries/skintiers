@@ -52,7 +52,7 @@
 - name: 'best-ceramide-moisturizers: add CeraVe Daily Moisturizing Lotion'
   type: list
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: 'CURATORIAL: the newly-published cerave-daily-moisturizing-lotion (3 ceramides
     NP/AP/EOP + HA) belongs on the best-ceramide-moisturizers tier list alongside

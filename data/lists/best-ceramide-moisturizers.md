@@ -9,17 +9,18 @@ tier_list:
   by: overall evidence for the product's stated skin benefits
   items:
   - cerave-moisturizing-cream
+  - cerave-daily-moisturizing-lotion
   - cetaphil-moisturizing-cream
   - cosrx-oil-free-ultra-moisturizing-lotion-birch-sap
   - la-roche-posay-toleriane
   title: Ceramide moisturizers by evidence
 type: list
-updated: '2026-08-05'
+updated: '2026-08-13'
 ---
 
-Moisturizing is one of the best-evidenced interventions in dermatology for dry, barrier-impaired, and eczema-prone skin: a Cochrane review of 77 randomized trials found moisturizer use reduced flares and spared topical corticosteroids, without reliable evidence that any one moisturizer beats another, the general case set out on [[moisturizing]]. Ceramides, the barrier lipids that eczema-prone skin is measurably short of, move barrier measurements like water loss when added to a cream, but the one randomized trial behind that finding showed no advantage over a matched base on eczema severity itself, detailed on [[ceramides]]. Two of the four moisturizers below add ceramides; the other two rely on the same occlusive-and-humectant base without them, one adding [[niacinamide]] instead.
+Moisturizing is one of the best-evidenced interventions in dermatology for dry, barrier-impaired, and eczema-prone skin: a Cochrane review of 77 randomized trials found moisturizer use reduced flares and spared topical corticosteroids, without reliable evidence that any one moisturizer beats another, the general case set out on [[moisturizing]]. Ceramides, the barrier lipids that eczema-prone skin is measurably short of, move barrier measurements like water loss when added to a cream, but the one randomized trial behind that finding showed no advantage over a matched base on eczema severity itself, detailed on [[ceramides]]. Three of the five moisturizers below add ceramides; the other two rely on the same occlusive-and-humectant base without them, one adding [[niacinamide]] instead.
 
-> The Cochrane-level evidence says the moisturizer class does the work for dry and barrier-impaired skin, not the ceramide label or the brand. All four creams and lotions below are faithful, well-tolerated examples of that evidenced class, and any is a reasonable choice; the ranking below turns on formulation, evidence faithfulness, cost, and texture, not on hype.
+> The Cochrane-level evidence says the moisturizer class does the work for dry and barrier-impaired skin, not the ceramide label or the brand. All five creams and lotions below are faithful, well-tolerated examples of that evidenced class, and any is a reasonable choice; the ranking below turns on formulation, evidence faithfulness, cost, and texture, not on hype.
 
 ## Inexpensive, dermatologist-recommended creams for dry and barrier-impaired skin
 
@@ -29,9 +30,11 @@ Moisturizing is one of the best-evidenced interventions in dermatology for dry, 
 
 Between the two, the difference is formulation rather than a proven edge for either: CeraVe adds ceramides and hyaluronic acid on a mixed, category-level ceramide case, while Cetaphil adds niacinamide and carries an own-product trial that read positively, if unblinded. Both are fragrance-free, NEA-listed, and similarly priced, and it is the general moisturizing evidence, not the ceramide content, that carries most of the case for either.
 
+CeraVe also makes a lighter everyday version, [[cerave-daily-moisturizing-lotion|CeraVe Daily Moisturizing Lotion]]: the same three ceramides and hyaluronic acid as the Cream but no petrolatum, so it absorbs thinner and suits normal-to-dry skin and larger areas. Its grades match the Cream's, a notable barrier-support effect on solid, category-level evidence and the same minimal-on-mixed grade for the ceramide addition, at about $15.
+
 ## A lighter, oil-free lotion for oily and combination skin
 
-[[cosrx-oil-free-ultra-moisturizing-lotion-birch-sap|COSRX Oil-Free Ultra-Moisturizing Lotion with Birch Sap]] targets oily and combination skin rather than the dry, barrier-impaired skin the two creams above are made for. It swaps petrolatum and ceramides for a birch-sap base, stated at 70% of the formula, with glycerin, betaine, and sodium hyaluronate as its humectants and dimethicone in place of an oil for slip. No trial of this exact lotion is published; its hydration effect is graded on the same category-level moisturizing evidence, at a modest effect on solid evidence, one step below the notable barrier-support grade the two creams above carry. Its distinctive strength is cosmetic rather than health: a notable effect on solid evidence for leaving a lighter, non-greasy finish than a richer cream such as CeraVe, a property of the ingredient list rather than a sebum-reducing effect, since the formula carries no oil-controlling active. At about $25, it is the most expensive of the four.
+[[cosrx-oil-free-ultra-moisturizing-lotion-birch-sap|COSRX Oil-Free Ultra-Moisturizing Lotion with Birch Sap]] targets oily and combination skin rather than the dry, barrier-impaired skin the two creams above are made for. It swaps petrolatum and ceramides for a birch-sap base, stated at 70% of the formula, with glycerin, betaine, and sodium hyaluronate as its humectants and dimethicone in place of an oil for slip. No trial of this exact lotion is published; its hydration effect is graded on the same category-level moisturizing evidence, at a modest effect on solid evidence, one step below the notable barrier-support grade the two creams above carry. Its distinctive strength is cosmetic rather than health: a notable effect on solid evidence for leaving a lighter, non-greasy finish than a richer cream such as CeraVe, a property of the ingredient list rather than a sebum-reducing effect, since the formula carries no oil-controlling active. At about $25, it is the most expensive of the five.
 
 ## A ceramide-and-niacinamide cream benchmarked against CeraVe
 
@@ -39,4 +42,4 @@ Between the two, the difference is formulation rather than a proven edge for eit
 
 ## Sources
 
-The general moisturizing case is on [[moisturizing]]; the ceramide-specific evidence, including the trial both CeraVe and La Roche-Posay Toleriane are graded against, is on [[ceramides]]; topical niacinamide's barrier evidence is on [[niacinamide]]. Each product's own formula, trials, and citations are on its own page: [[cerave-moisturizing-cream]], [[cetaphil-moisturizing-cream]], [[cosrx-oil-free-ultra-moisturizing-lotion-birch-sap]], [[la-roche-posay-toleriane]].
+The general moisturizing case is on [[moisturizing]]; the ceramide-specific evidence, including the trial both CeraVe and La Roche-Posay Toleriane are graded against, is on [[ceramides]]; topical niacinamide's barrier evidence is on [[niacinamide]]. Each product's own formula, trials, and citations are on its own page: [[cerave-moisturizing-cream]], [[cerave-daily-moisturizing-lotion]], [[cetaphil-moisturizing-cream]], [[cosrx-oil-free-ultra-moisturizing-lotion-birch-sap]], [[la-roche-posay-toleriane]].
