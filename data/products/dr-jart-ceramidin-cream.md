@@ -3,6 +3,10 @@ analyzed: '2026-08-08'
 assurance: opus
 brand: Dr. Jart+
 category: Moisturizers
+images:
+- file: dr-jart-ceramidin-cream-stylevana.jpg
+  source: Stylevana
+  source_url: https://www.stylevana.com/en_US/dr-jart-ceramidin-skin-barrier-moisturizing-cream-50ml6267.html
 comparator: other ceramide-based barrier moisturizers, such as [[cerave-moisturizing-cream|CeraVe
   Moisturizing Cream]] and [[aestura-atobarrier-365-cream|Aestura Atobarrier 365 Cream]],
   and plainer humectant/occlusive moisturizers

@@ -3,6 +3,10 @@ analyzed: '2026-08-07'
 assurance: sonnet
 brand: Dr.G
 category: Sunscreens
+images:
+- file: dr-g-baby-mild-up-sun-monodist.jpg
+  source: The Monodist
+  source_url: https://themonodist.com/dr-g-baby-mild-up-sun-spf35-pa/
 grades:
 - effect: notable
   evidence: solid

@@ -3,6 +3,10 @@ analyzed: '2026-08-07'
 assurance: sonnet
 brand: Dr.G
 category: Sunscreens
+images:
+- file: dr-g-green-mild-up-sun-yesstyle.jpg
+  source: YesStyle
+  source_url: https://www.yesstyle.com/en/dr-g-green-mild-up-sun-set-2-pcs/info.html/pid.1135224646
 comparator: broad-spectrum sunscreens, including hybrid- and organic-filter Korean
   sunscreens
 grades:

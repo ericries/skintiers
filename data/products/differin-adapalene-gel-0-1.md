@@ -3,6 +3,10 @@ analyzed: '2026-08-08'
 assurance: sonnet
 brand: Galderma
 category: Retinoids
+images:
+- file: differin-adapalene-gel-0-1-target.jpg
+  source: Target
+  source_url: https://www.target.com/p/differin-acne-retinoid-treatment-gel-adapalene-0-1-45g-1-6oz/-/A-76545052
 evidence_levels:
   active: adapalene
   active_note: a synthetic retinoid the FDA classifies as an acne treatment in its
