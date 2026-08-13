@@ -1464,7 +1464,7 @@
 - name: The Ordinary Mandelic Acid 10% + HA
   type: product
   priority: 4
-  status: pending
+  status: done
   discovered_from: mandelic-acid
   source: A leave-on 10% mandelic acid + HA exfoliating serum, the most common OTC
     mandelic product; would surface on the mandelic-acid page + exfoliating-acids

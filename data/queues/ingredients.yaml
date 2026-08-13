@@ -820,3 +820,11 @@
     in Korean/EU sunscreens but not in the US OTC monograph; would extend the [[sunscreen-uv-filters]]
     filter set and the per-product UV charts. Verify presence across on-site Korean
     sunscreens at draft time.
+- name: Tasmannia lanceolata (Tasmanian pepperberry) extract
+  type: ingredient
+  priority: 6
+  status: pending
+  discovered_from: null
+  source: An anti-inflammatory botanical (mountain pepper) used in The Ordinary's
+    acid serums to reduce irritation; niche, low priority - likely a brief page or
+    skip. Appears in the-ordinary-mandelic/lactic/glycolic INCI.

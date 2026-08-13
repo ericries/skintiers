@@ -58,3 +58,12 @@
     NP/AP/EOP + HA) belongs on the best-ceramide-moisturizers tier list alongside
     the CeraVe Cream/PM and Dr Jart Ceramidin entries. Add it at the appropriate tier
     at next list cron.'
+- name: 'build.py: add ''Exfoliants'' to PRODUCT_CATEGORY_ORDER'
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: 'TOOLING (critic-flagged): category ''Exfoliants'' (used by both The Ordinary
+    acid products) is missing from PRODUCT_CATEGORY_ORDER in build.py, so they fall
+    into the ''Other'' index bucket. Add ''Exfoliants'' to the order list at an appropriate
+    position. Not a content task - a small build.py fix.'
