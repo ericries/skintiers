@@ -801,3 +801,13 @@
     in on-site formulas (e.g. Anua Azelaic Acid serum) with no ingredient page to
     link to. Evidence is mostly in-vitro/manufacturer sebum-reduction data - grade
     conservatively. Relevant to oily-skin.
+- name: Madecassoside
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: The purified centella asiatica triterpenoid (soothing/barrier), a key active
+    in LRP Hyalu B5 and Cicaplast and many K-beauty products, with no ingredient page
+    - so it's currently unlinkable. Distinct from the whole-extract [[centella-asiatica]]
+    page (a single isolated compound). Has small controlled trials in wound healing/barrier.
+    https://pubmed.ncbi.nlm.nih.gov/?term=madecassoside+skin

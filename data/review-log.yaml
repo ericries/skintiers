@@ -4447,3 +4447,25 @@ perioral-dermatitis:
     companion enhancements (a PD Rubric row on doxycycline page; an erythromycin-topical stub) to the
     queue. Surfaces on the concern->product feed via metronidazole/azelaic/clindamycin actives.
     assurance=sonnet. lint/verify/style clean.
+
+la-roche-posay-hyalu-b5-hyaluronic-acid-serum:
+  last_reviewed: '2026-08-12'
+  score: 5
+  verdict: revise-then-published
+  assurance: sonnet
+  note: |
+    LRP Hyalu B5 Pure Hyaluronic Acid Serum (cosmetic HA + vitamin B5 + madecassoside serum).
+    Daily PRODUCT cron (Sonnet draft + Opus critic, cache-first). PRE-FLIGHT source check applied
+    (Vichy lesson): confirmed LRP.us is 403 but the site sources LRP reliably via Target, so proceeded.
+    Critic caught the KEY issue by verifying against the CACHE: the Target capture held only page
+    chrome/JSON - NONE of the Target-attributed strings ($39.99 price, marketing quotes, INCI,
+    directions) were actually in the cached text (Target loads them via a bot-gated API). The LRP
+    Middle East source (laroche-posay-me.com), by contrast, was verified FLAWLESS: every quote, the
+    full 22-item INCI, and all 5 position claims (glycerin 2nd, panthenol 5th, madecassoside 11th,
+    sodium hyaluronate 12th, hydrolyzed HA 15th) verbatim. FIX: rewrote to rely SOLELY on the
+    verified LRP-ME source - dropped the un-cacheable $39.99 price (softened to 'price varies by
+    retailer'), restated 'two HA forms' as an INCI fact rather than a Target quote, and removed all
+    Target-sourced marketing quotes. Kept the good catches: NOT alcohol-free (alcohol denat. 3rd,
+    disclosed), the 1000x-water myth debunked via [[hyaluronic-acid]]. Graded cosmetic hydration only
+    (notable/solid, matching the Torriden exemplar). Score 5 reflects the pre-fix draft; post-fix the
+    page is 100% on the critic-verified LRP-ME source. lint/verify/style clean.
