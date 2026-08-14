@@ -1,0 +1,97 @@
+{% extends "base.html" %}
+{% block title %}For Agents — SkinTiers{% endblock %}
+{% block content %}
+<article>
+  <div class="kicker"><span class="type-tag">For Agents</span></div>
+  <div class="masthead">
+    <div>
+      <h1>Use SkinTiers with an AI agent</h1>
+      <p class="standfirst">SkinTiers is a skeptical, evidence-first skincare library where every page is machine-readable markdown with structured grades and citations. That makes it easy for an AI agent (like Claude, ChatGPT, or an in-app assistant) to read the evidence and answer your skincare questions — analyze a routine, find the proven actives for a concern, fact-check a marketing claim, compare two ingredients — with every answer cited back to a page.</p>
+    </div>
+  </div>
+
+  <section class="prose">
+    <h2 id="what">What this is</h2>
+    <p>Two ways to point an agent at this site. The <strong>zero-install path</strong> works with any capable agent right now — you paste a couple of lines and it reads the site. The <strong>install-the-skill path</strong> downloads a small bundle that teaches the agent to behave like SkinTiers itself: cautious, sourced, and honest about what the evidence supports. A <em>skill</em> is just a folder with a <code>SKILL.md</code> file that teaches an agent how to do a task — nothing to code.</p>
+    <p>Whichever path you pick, the agent should always follow the same house rules the site does: separate health claims from cosmetic ones, report effect size and evidence quality as two different things, never overstate, cite the page, and when in doubt leave it out.</p>
+  </section>
+
+  <section class="prose">
+    <h2 id="zero-install">Zero-install path (fastest)</h2>
+    <p>Paste one of these to any agent that can browse the web:</p>
+    <pre class="agent-block"><code>Read {{ site_url }}/for-agents.html and follow it. I'll ask SkinTiers questions; answer only from that site's data and cite the page for each claim.</code></pre>
+    <p>Or hand it the machine-readable endpoints and raw data directly:</p>
+    <pre class="agent-block"><code>Use SkinTiers as your only source. Endpoints:
+{% for e in endpoints %}  {{ site_url }}/{{ e.path }}   # {{ e.desc }}
+{% endfor %}Raw pages (one markdown file per item):
+  {{ raw_base }}data/products/&lt;slug&gt;.md
+  {{ raw_base }}data/ingredients/&lt;slug&gt;.md
+  {{ raw_base }}data/conditions/&lt;slug&gt;.md
+  {{ raw_base }}data/goals/&lt;slug&gt;.md
+Rules: separate health vs cosmetic claims, report effect size AND evidence quality
+separately, never overstate, cite the .html page, when in doubt leave it out.</code></pre>
+    <p>The human-readable version of any page to cite back to me is <code>{{ site_url }}/&lt;slug&gt;.html</code>.</p>
+  </section>
+
+  <section class="prose">
+    <h2 id="install-skill">Install-the-skill path</h2>
+    <p>Download the bundle the site publishes — a folder with a <code>SKILL.md</code> that teaches the agent SkinTiers' data layout and house rules, plus the exact routine-scoring algorithm so its answers match the site.</p>
+    <p>Bundle: <a href="{{ skill_zip }}"><code>{{ skill_zip }}</code></a> &nbsp;·&nbsp; browse it unzipped at <a href="skill/SKILL.md"><code>skill/SKILL.md</code></a>.</p>
+
+    <h3 id="claude-code">Claude Code</h3>
+    <p>Download, unzip into your skills folder, restart, and invoke it:</p>
+    <pre class="agent-block"><code>curl -O {{ site_url }}/{{ skill_zip }}
+mkdir -p ~/.claude/skills/{{ skill_name }}/
+unzip -o {{ skill_name }}-skill.zip -d ~/.claude/skills/{{ skill_name }}/
+# restart Claude Code, then in a session:
+/{{ skill_name }}</code></pre>
+    <p>To scope it to one project instead of your whole machine, unzip into that project's <code>.claude/skills/{{ skill_name }}/</code> in place of <code>~/.claude/skills/…</code>.</p>
+
+    <h3 id="general">Cowork and other agents (the general drop-in pattern)</h3>
+    <p>Any agent that loads skills from a folder works the same way: unzip the bundle into that host's skills directory (for example a project's <code>.claude/skills/{{ skill_name }}/</code>), then tell the agent to read <code>SKILL.md</code> and follow it. If your host has no skills folder, use the zero-install path above and point it at <code>{{ site_url }}/skill/SKILL.md</code> directly.</p>
+  </section>
+
+  <section class="prose">
+    <h2 id="samples">Sample usage</h2>
+
+    <h3>Analyze my routine (the flagship)</h3>
+    <pre class="agent-block"><code>You: Here's my current routine: CeraVe Foaming Cleanser AM/PM, The Ordinary
+     Niacinamide 10% + Zinc 1% PM, La Roche-Posay Anthelios SPF 60 AM.
+     What's my evidence strength and what's missing?
+
+Agent: Strength: Moderate — this is a summary of the graded products, not a
+     trial of the routine as a whole.
+     · 3 products matched to SkinTiers pages.
+     · Sunscreen: present, UVB + UVA coverage (Anthelios).
+     · Actives covered: niacinamide, zinc.
+     · Not present (informational): retinoid, vitamin C, exfoliant.
+     Gap worth noting: no evening active for tone or aging — a retinoid or
+     vitamin C would raise the strength if your goals call for it.
+     [cites each product + ingredient .html page]</code></pre>
+
+    <h3>Concern → proven actives</h3>
+    <pre class="agent-block"><code>You: I have melasma. What actives are proven, and which products have them?
+
+Agent: [reads conditions/melasma] Top-evidenced actives for melasma, health
+     claims only: … Then, products on SkinTiers that contain them: …
+     Cosmetic "brightening" claims are kept separate. [cites the pages]</code></pre>
+
+    <h3>Claim check (stated vs. inferred)</h3>
+    <pre class="agent-block"><code>You: Is CeraVe's "clinically proven" claim on product X actually supported?
+
+Agent: [reads the product's grades notes] The health use is graded &lt;effect&gt; on
+     &lt;evidence&gt; evidence versus &lt;comparator&gt;; the marketed phrase refers to a
+     cosmetic appearance endpoint, not a health outcome — here's the gap. [cites]</code></pre>
+
+    <h3>Ingredient comparison</h3>
+    <pre class="agent-block"><code>You: Tretinoin vs adapalene for a beginner?
+
+Agent: [reads both ingredient pages] Effect and evidence for each, plus
+     tolerability for a beginner, with the trade-offs the pages document. [cites both]</code></pre>
+  </section>
+
+  <section class="prose">
+    <p class="disclaimer">Educational, not medical advice. An agent using SkinTiers should say the same, and send you to a dermatologist for medical concerns.</p>
+  </section>
+</article>
+{% endblock %}
