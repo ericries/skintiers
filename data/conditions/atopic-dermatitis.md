@@ -1,11 +1,27 @@
 ---
-analyzed: '2026-07-28'
+analyzed: '2026-08-14'
 assurance: opus
 name: Atopic dermatitis (eczema)
 slug: atopic-dermatitis
 status: published
 type: condition
-updated: '2026-07-28'
+updated: '2026-08-14'
+tier_list:
+  title: "Topical skincare for atopic dermatitis by evidence"
+  by: "strength of the evidence for OTC topical skincare in atopic dermatitis; prescription anti-inflammatories (topical corticosteroids and calcineurin inhibitors) are the first-line treatment for active flares and sit above every option here"
+  items:
+    - slug: moisturizing
+      tier: strong
+      note: "The best-evidenced topical measure: a Cochrane review found regular moisturizer use reduces flares and the amount of prescription steroid needed, with no one moisturizer shown to beat another."
+    - slug: colloidal-oatmeal
+      tier: moderate
+      note: "An FDA skin-protectant monograph active for eczema itch; a randomized trial of a 1% cream was non-inferior to a prescription barrier cream, and a second manufacturer trial cut EASI and Atopic Dermatitis Severity Index scores by 51% and 54% at 14 days, though both trials were manufacturer-funded. A directional severity signal, unlike ceramides below, but still adjunctive to moisturizing."
+    - slug: ceramides
+      tier: weak
+      note: "Barrier lipids atopic skin is short of; adding them moves water-loss measures, but the one randomized trial found no advantage over a matched base on eczema severity itself, so the incremental benefit beyond a plain emollient is weak."
+    - slug: niacinamide
+      tier: weak
+      note: "Preliminary evidence for raising the skin's own ceramide production and lowering water loss in dry skin generally (no atopic-dermatitis-specific trial); an adjunct inside a moisturizer, not a stand-alone atopic-dermatitis therapy."
 ---
 
 Atopic dermatitis, the form of eczema meant when people say "eczema" without qualification, is a chronic, intensely itchy inflammatory skin disease that relapses and remits over years and has no cure, where treatment "at best achieves symptom control rather than cure."[^nutten2015] The American Academy of Dermatology guideline describes it as "a chronic, pruritic inflammatory dermatosis that affects up to 25% of children and 2% to 3% of adults."[^eichenfield2014] Among **topical skincare** options for atopic dermatitis, the intervention with the strongest evidence is plain moisturizing, which reduces flares and the amount of prescription steroid needed rather than clearing the disease, and no moisturizer has been shown to beat another.[^cochrane2017]

@@ -1607,3 +1607,10 @@
   discovered_from: 'BRAND cron (torriden): centella barrier cream; ties to centella-asiatica
     + skin-barrier-repair'
   source: https://torriden.us/products/balanceful-cica-cream
+- name: Eucerin Eczema Relief Cream
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: 'CONDITION cron (atopic-dermatitis): colloidal-oatmeal eczema cream
+    (NEA-accepted); ties to colloidal-oatmeal + atopic-dermatitis'
+  source: https://www.eucerinus.com/products/eczema-relief/eczema-relief-cream

@@ -1,3 +1,19 @@
+atopic-dermatitis:
+  last_reviewed: '2026-08-14'
+  score: 9
+  verdict: publish
+  note: 'CONDITION cron: added a graded topical tier_list to the existing AD hub (queue
+    item). 4 rungs by OTC-skincare evidence: moisturizing STRONG (Cochrane: fewer flares
+    RR 0.40, steroid-sparing), colloidal-oatmeal MODERATE (monograph + non-inferiority
+    RCT + a 2nd trial cutting EASI/ADSI 51%/54%, both manufacturer-funded), ceramides
+    WEAK (barrier RCT positive but null on eczema severity vs matched base), niacinamide
+    WEAK (preliminary, non-AD-specific). by-line states Rx anti-inflammatories are
+    first-line above all. Opus critic re-verified the two highest-stakes stats verbatim
+    (Cochrane RR 0.40/MD -9.30g; Spada EASI P=.7804) and the rest against the opus-assured
+    ingredient pages; verdict REVISE, all fixes applied: tightened the colloidal-oatmeal
+    note so the moderate/weak split is self-legible (added the 51%/54% severity clause),
+    lowercased a shouty by-line, added a "no AD-specific trial" hedge to niacinamide,
+    bumped analyzed. All 4 tier slugs resolve. assurance stays opus (critic-verified).'
 torriden:
   last_reviewed: '2026-08-14'
   score: 8

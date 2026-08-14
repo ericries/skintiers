@@ -891,3 +891,10 @@
   discovered_from: 'INGREDIENT cron: EU UVB filter under endocrine-disruptor scrutiny
     (skeptical-value page); UV-filter coverage'
   source: https://ec.europa.eu/growth/tools-databases/cosing/reference/annexes/list/VI
+- name: Hydrocortisone (OTC topical corticosteroid)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: 'CONDITION cron (atopic-dermatitis tier_list): OTC first-line anti-inflammatory
+    referenced in the tier_list by-line but uncharted; high-value catalog gap'
+  source: https://www.ncbi.nlm.nih.gov/books/NBK553196/
