@@ -966,3 +966,37 @@ def test_feed_html_orders_and_links_video_cards(tmp_path):
     assert "2026-05-20" in html and "2025-03-10" in html
     # each card links back to the citing page
     assert 'href="one.html"' in html
+
+
+def test_feed_related_links_every_appropriate_page(tmp_path):
+    """A video card's `related:` slugs become extra links in its feed entry, so a
+    feed entry links to every appropriate page, not just the one it is embedded on.
+    Published pages only; a page the card is already embedded on is not duplicated."""
+    data = tmp_path / "data"
+    out = tmp_path / "_site"
+    (data / "ingredients").mkdir(parents=True)
+    (data / "conditions").mkdir(parents=True)
+    (data / "conditions" / "acne.md").write_text(
+        "---\nname: Acne\nslug: acne\ntype: condition\nstatus: published\n"
+        "updated: 2026-07-26\nanalyzed: 2026-07-26\n---\n\nBody.\n")
+    (data / "ingredients" / "retinol.md").write_text(
+        "---\nname: Retinol\nslug: retinol\ntype: ingredient\nstatus: published\n"
+        "updated: 2026-07-26\nanalyzed: 2026-07-26\n"
+        "videos:\n"
+        "- title: Retinol for acne\n  url: https://www.youtube.com/watch?v=AAA\n"
+        "  creator: Dr A\n  platform: YouTube\n  posted: '2026-05-20'\n"
+        "  related: [acne, retinol, ghost-slug]\n"
+        "---\n\nBody.\n")
+    env = {**os.environ, "SK_DATA": str(data), "SK_OUTPUT": str(out)}
+    r = subprocess.run([sys.executable, str(ROOT / "build.py")], env=env,
+                       capture_output=True, text=True)
+    assert r.returncode == 0, r.stderr
+    html = (out / "feed.html").read_text()
+    # the feed entry links to the embedded page AND the related page
+    assert 'href="retinol.html"' in html
+    assert 'href="acne.html"' in html
+    assert "also relevant to" in html
+    # a non-existent related slug is dropped (no broken link)
+    assert 'href="ghost-slug.html"' not in html
+    # retinol (the embedded page) is not duplicated into the related list
+    assert html.count('href="retinol.html"') == 1

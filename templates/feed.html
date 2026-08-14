@@ -21,7 +21,7 @@
       {% endif %}
       {% if v.thesis %}<p class="vid-thesis">{{ v.thesis }}</p>{% endif %}
       {% if v.note %}<p class="vid-note">{{ v.note }}</p>{% endif %}
-      {% if v.on %}<div class="vid-on">Cited on {% for o in v.on %}<a href="{{ o.slug }}.html">{{ o.name }}</a>{% if not loop.last %}, {% endif %}{% endfor %}</div>{% endif %}
+      {% if v.on or v.related %}<div class="vid-on">{% if v.on %}Cited on {% for o in v.on %}<a href="{{ o.slug }}.html">{{ o.name }}</a>{% if not loop.last %}, {% endif %}{% endfor %}{% endif %}{% if v.related %}{% if v.on %} &middot; also relevant to {% else %}Relevant to {% endif %}{% for o in v.related %}<a href="{{ o.slug }}.html">{{ o.name }}</a>{% if not loop.last %}, {% endif %}{% endfor %}{% endif %}</div>{% endif %}
     </div>
     {% endfor %}
   </section>

@@ -956,9 +956,16 @@ def build_video_feed(profiles):
     `posted:` date sort to the end (never dropped), so the feed is complete even
     when a date could not be fetched.
 
+    Each card also carries `related`: additional pages the video is about but is
+    not embedded on, taken from the card's own `related:` slug list (each resolved
+    to {slug, name}, published pages only, excluding any page already under `on`).
+    So a feed entry links to every page it is appropriate for, not just its home.
+
     Returns a list of card dicts: each is the card's frontmatter plus
-    `on` (list of {slug, name}) and `posted` (or None).
+    `on` (list of {slug, name}), `related` (list of {slug, name}), and `posted`.
     """
+    slug_to_name = {p["slug"]: (p.metadata.get("name") or p["slug"])
+                    for p in profiles if p.get("status") == "published"}
     by_key = {}
     order = []                       # preserve first-seen order for stable ties
     for p in profiles:
@@ -971,13 +978,22 @@ def build_video_feed(profiles):
             emb = video_embed(url) or {}
             key = f"{emb.get('kind')}:{emb.get('id')}" if emb.get("id") else url
             on = {"slug": p["slug"], "name": p.metadata.get("name")}
+            rel = {str(s).strip() for s in (v.get("related") or [])}
             if key in by_key:
                 # same video on another page - record the extra citation only once
                 if not any(o["slug"] == on["slug"] for o in by_key[key]["on"]):
                     by_key[key]["on"].append(on)
+                by_key[key]["_rel"] |= rel
             else:
-                by_key[key] = {**v, "on": [on], "posted": v.get("posted")}
+                by_key[key] = {**v, "on": [on], "posted": v.get("posted"), "_rel": rel}
                 order.append(key)
+    # Resolve each card's related slugs to {slug, name}: published pages only, and
+    # never a page the card is already embedded on (that is already in `on`).
+    for card in by_key.values():
+        on_slugs = {o["slug"] for o in card["on"]}
+        card["related"] = [{"slug": s, "name": slug_to_name[s]}
+                           for s in sorted(card.pop("_rel"))
+                           if s in slug_to_name and s not in on_slugs]
     cards = [by_key[k] for k in order]
     dated = sorted((c for c in cards if c.get("posted")),
                    key=lambda c: c["posted"], reverse=True)
