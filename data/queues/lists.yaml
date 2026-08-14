@@ -67,3 +67,13 @@
     acid products) is missing from PRODUCT_CATEGORY_ORDER in build.py, so they fall
     into the ''Other'' index bucket. Add ''Exfoliants'' to the order list at an appropriate
     position. Not a content task - a small build.py fix.'
+- name: 'best-ceramide-moisturizers: consider LRP Lipikar Balm AP+M'
+  type: list
+  priority: 6
+  status: pending
+  discovered_from: null
+  source: 'CURATORIAL (with a caveat): LRP Lipikar Balm AP+M has Ceramide NP on its
+    US label but NONE on LRP''s own Middle East panel - a regional-formula split.
+    If added to the ceramide list, state that caveat; it may be better framed as a
+    niacinamide+microbiome barrier balm than a ceramide product. Judgment call at
+    next list cron.'

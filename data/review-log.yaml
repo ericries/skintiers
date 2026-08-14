@@ -4575,3 +4575,21 @@ fungal-acne:
     tier items (no pages). Applied 4 critic fixes: flip to published; Henning issue no. (6)->(7); a
     StatPearls misattribution re-pointed to Saunte; two self-referential process phrases stripped. Surfaces
     on the concern->product feed via benzoyl-peroxide products. assurance=sonnet. lint/verify/style clean.
+
+la-roche-posay-lipikar-balm-ap-m:
+  last_reviewed: '2026-08-13'
+  score: 8
+  verdict: revise-then-published
+  assurance: sonnet
+  note: |
+    LRP Lipikar Balm AP+M (niacinamide + Vitreoscilla + barrier-repair balm for eczema-prone skin).
+    Daily PRODUCT cron; pre-flight source check (Hyalu B5 path). Sonnet draft + Opus critic (cache-first).
+    KEY verified finding, honestly handled: a real COMPOSITION DISCREPANCY between sources - LRP Middle
+    East's own INCI has NO ceramide, while Target's US label shows Ceramide NP (~13th-14th); the page
+    discloses the split prominently rather than picking the flattering source (likely different regional
+    formulations). Price correctly SOFTENED to 'price varies by retailer' (no price string in either
+    fetched source - Target API-gated, LRP-ME price:none). All brand clinical percentages (82% relapse,
+    -41% itch, etc.) verified verbatim in the LRP-ME cache and quarantined as unpublished marketing.
+    Critic 8/10, no integrity issues; applied concision/sharpening fixes: trimmed 'no independent study'
+    from 4x->1x (kept in The Evidence), added a concrete CeraVe-3-ceramides-vs-this-balm's-1 comparator,
+    fixed the ceramide position (13th/14th by label size), flipped to published. assurance=sonnet.

@@ -1328,7 +1328,7 @@
 - name: La Roche-Posay Lipikar Balm AP+M
   type: product
   priority: 4
-  status: pending
+  status: done
   discovered_from: eucerin-roughness-relief-lotion
   source: A ceramide + shea + niacinamide body balm for very dry/eczema-prone skin;
     a barrier-repair (non-exfoliant) counterpart to the urea/acid body lotions, extends
@@ -1501,3 +1501,11 @@
     wash); BPO is the one OTC active with in-vitro anti-Malassezia evidence on [[fungal-acne]],
     and a wash format is the common way it's used on the body. Verify vs existing
     panoxyl page at draft time. https://www.panoxyl.com
+- name: La Roche-Posay Lipikar Syndet AP+ Body Wash
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: la-roche-posay-lipikar-balm-ap-m
+  source: The companion gentle cleanser to the Lipikar Balm (the -41% itch clinical
+    claim was for the two used together); a fragrance-free eczema-prone body wash.
+    Sourceable via LRP-ME/Target. https://www.laroche-posay-me.com
