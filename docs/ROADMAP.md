@@ -43,6 +43,15 @@ verified pages" (crons do that) to "make the accumulated evidence usable for dec
   referenced-but-uncharted UV filters, and a cross-page grade-consistency check
   (auto-detect a product page disagreeing with its ingredient page - the Mela B3/Melasyl
   and Cyspera formula_tested classes of bug).
+  DONE (2026-08-14): `check_uv_filter_coverage` (ERROR - verified green on current
+  data) catches a sunscreen naming a UV filter in its own text with no published
+  ingredient page, scanning prose (not just key_actives, which is often incomplete)
+  with sentence-level negation filtering so "oxybenzone-free" marketing claims don't
+  false-positive. `check_grade_consistency` (WARNING, advisory only - divergence is
+  usually legitimate) flags a product grade that directionally flips vs. the
+  ingredient page's own rubric grade for the matching use; both wired into
+  `consistency_issues()` and `sk lint`. Missing-image check (`check_images_exist`)
+  was already done pre-Phase-C; ladder-on-non-forms guard still open.
 - Freshness crons: price/availability drift re-check; auto-reconciliation sweeps when
   ingredient evidence updates.
 
