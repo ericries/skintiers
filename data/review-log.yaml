@@ -4593,3 +4593,23 @@ la-roche-posay-lipikar-balm-ap-m:
     Critic 8/10, no integrity issues; applied concision/sharpening fixes: trimmed 'no independent study'
     from 4x->1x (kept in The Evidence), added a concrete CeraVe-3-ceramides-vs-this-balm's-1 comparator,
     fixed the ceramide position (13th/14th by label size), flipped to published. assurance=sonnet.
+
+aveeno-daily-moisturizing-lotion:
+  last_reviewed: '2026-08-14'
+  score: 8
+  verdict: revise-then-published
+  assurance: sonnet
+  note: |
+    Aveeno Daily Moisturizing Lotion (oat + petrolatum + glycerin drugstore lotion). Daily PRODUCT
+    cron; pre-flight source check. Sonnet draft + Opus critic (cache-first). Model sourcing discipline:
+    price DROPPED entirely (no price string in either fetched source - Aveeno + Target both client-
+    render it); full 10-item INCI verified verbatim across both caches. NO Drug Facts panel on the
+    profiled SKU (dimethicone + oat both cosmetic here) - and the critic caught a sharp scoping point:
+    a DIFFERENT similarly-named Aveeno SKU on the same Target page DOES carry a dimethicone-1.2%
+    skin-protectant panel, but the draft correctly scoped its no-panel claim to the right TCIN.
+    key_actives colloidal-oatmeal + glycerin (petrolatum/dimethicone excluded as base occlusives,
+    matching the CeraVe sibling). Applied 2 critic fixes: (1) footnote wrongly generalized a 'to
+    moisturize skin' quote to Water/Petrolatum whose blurbs differ - narrowed it; (2) the flat 'Avena
+    Sativa Kernel Flour IS the INCI name for colloidal oatmeal' was uncited - reframed all spots as
+    brand-attributed ('the oat kernel flour Aveeno markets as colloidal oatmeal') so no uncited
+    chemical-identity claim stands. Photo gallery deferred to image cron. assurance=sonnet.

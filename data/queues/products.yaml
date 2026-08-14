@@ -1448,7 +1448,7 @@
 - name: Aveeno Daily Moisturizing Lotion
   type: product
   priority: 4
-  status: pending
+  status: done
   discovered_from: null
   source: Colloidal-oatmeal + dimethicone drugstore body/face moisturizer staple (NEA-accepted);
     a core-catalog moisturizing/barrier entry, cleanly sourceable on aveeno.com +
@@ -1509,3 +1509,19 @@
   source: The companion gentle cleanser to the Lipikar Balm (the -41% itch clinical
     claim was for the two used together); a fragrance-free eczema-prone body wash.
     Sourceable via LRP-ME/Target. https://www.laroche-posay-me.com
+- name: Aveeno Skin Relief Moisturizing Lotion (colloidal oatmeal, fragrance-free)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: A richer Aveeno oat lotion for very dry/itchy skin (Skin Relief line); some
+    Aveeno SKUs DO carry a Drug Facts dimethicone skin-protectant panel - verify whether
+    this one does. Extends [[colloidal-oatmeal]] coverage. https://www.aveeno.com
+- name: Aveeno Eczema Therapy Daily Moisturizing Cream (colloidal oatmeal 1%)
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: null
+  source: The eczema-indicated Aveeno cream with colloidal oatmeal 1% as a DECLARED
+    Drug Facts skin-protectant active - the disclosed-% monograph-active contrast
+    to this cosmetic lotion; NEA-accepted. Sourceable aveeno.com + Target. https://www.aveeno.com
