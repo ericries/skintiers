@@ -24,6 +24,12 @@ key_actives:
 - hyaluronic-acid
 - panthenol
 name: Dr. Jart+ Ceramidin Cream
+price:
+- amount: 51.99
+  currency: USD
+  size: "1.69 oz"
+  as_of: '2026-08-07'
+  source: "^target"
 slug: dr-jart-ceramidin-cream
 status: published
 type: product

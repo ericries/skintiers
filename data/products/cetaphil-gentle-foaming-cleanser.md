@@ -31,6 +31,12 @@ grades:
   use: Foaming lather and a non-tight feel on normal to combination/acne-prone skin
     (cosmetic)
 name: Cetaphil Gentle Foaming Cleanser
+price:
+- amount: 8.99
+  currency: USD
+  size: "8 fl oz"
+  as_of: '2026-08-07'
+  source: "^2"
 slug: cetaphil-gentle-foaming-cleanser
 status: published
 type: product

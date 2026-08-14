@@ -23,6 +23,12 @@ grades:
 key_actives:
 - hyaluronic-acid
 name: Neutrogena Hydro Boost Gel-Cream (fragrance-free)
+price:
+- amount: 9.97
+  currency: USD
+  size: "0.5 fl oz"
+  as_of: '2026-08-07'
+  source: "^target"
 slug: neutrogena-hydro-boost-gel-cream-fragrance-free
 status: published
 type: product

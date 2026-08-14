@@ -23,6 +23,12 @@ grades:
 key_actives:
 - hyaluronic-acid
 name: Isntree Hyaluronic Acid Watery Sun Gel SPF 50+
+price:
+- amount: 23.99
+  currency: USD
+  size: "50 ml"
+  as_of: '2026-08-07'
+  source: "^target"
 slug: isntree-hyaluronic-acid-watery-sun-gel-spf-50
 status: published
 type: product

@@ -40,6 +40,16 @@ key_actives:
 - ceramides
 - hyaluronic-acid
 name: CeraVe Healing Ointment
+price:
+- amount: 20.99
+  currency: USD
+  as_of: '2026-08-08'
+  source: "^2"
+- amount: 10.29
+  currency: USD
+  size: "3 oz"
+  as_of: '2026-08-08'
+  source: "^1"
 slug: cerave-healing-ointment
 status: published
 type: product

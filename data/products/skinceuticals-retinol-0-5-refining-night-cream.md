@@ -28,6 +28,12 @@ grades:
 key_actives:
 - retinol
 name: SkinCeuticals Retinol 0.5 Refining Night Cream
+price:
+- amount: 78.59
+  currency: USD
+  size: "1 oz"
+  as_of: '2026-08-07'
+  source: "^target"
 slug: skinceuticals-retinol-0-5-refining-night-cream
 status: published
 type: product

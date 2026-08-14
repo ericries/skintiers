@@ -22,6 +22,12 @@ grades:
 key_actives:
 - hyaluronic-acid
 name: Neutrogena Hydro Boost Water Gel
+price:
+- amount: 19.99
+  currency: USD
+  size: "1.7 fl oz"
+  as_of: '2026-08-06'
+  source: "^1"
 slug: neutrogena-hydro-boost-water-gel
 status: published
 type: product

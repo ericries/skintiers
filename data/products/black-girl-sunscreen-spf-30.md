@@ -33,6 +33,17 @@ images:
 key_actives:
 - avobenzone
 name: Black Girl Sunscreen SPF 30
+price:
+- amount: 10.99
+  currency: USD
+  size: "2 fl oz"
+  as_of: '2026-08-11'
+  source: "^1"
+- amount: 15.99
+  currency: USD
+  size: "3 fl oz"
+  as_of: '2026-08-11'
+  source: "^2"
 slug: black-girl-sunscreen-spf-30
 status: published
 type: product

@@ -38,6 +38,12 @@ recommended_in:
 - source: huffpost.com
   title: HuffPost, The Best Vitamin C Serums Experts Recommend
   url: https://www.huffpost.com/entry/best-vitamin-c-serums-dermatologists-ud_l_68d6c3a0e4b085d511c65140
+price:
+- amount: 32.95
+  currency: USD
+  size: "30 ml"
+  as_of: '2026-07-30'
+  source: "^1"
 slug: maelove-the-glow-maker
 status: published
 type: product

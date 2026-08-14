@@ -14,6 +14,12 @@ grades:
     extracts'' position and concentration cannot be checked; no product-specific trial'
   use: Antioxidant support from plant extracts, rinsed off (cosmetic)
 name: Youth To The People Superfood Antioxidant Cleanser
+price:
+- amount: 33.2
+  currency: USD
+  size: "8 oz"
+  as_of: '2026-08-07'
+  source: "^target"
 slug: youth-to-the-people-superfood-antioxidant-cleanser
 status: published
 type: product

@@ -34,6 +34,12 @@ recommended_in:
 - source: nytimes.com
   title: NYT Wirecutter, The Best Retinol Products (Best value)
   url: https://www.nytimes.com/wirecutter/reviews/best-retinol-products/
+price:
+- amount: 10
+  currency: USD
+  size: "1 fl oz"
+  as_of: '2026-08-07'
+  source: "^wirecutter"
 slug: trader-joes-retinol-night-serum
 status: published
 type: product

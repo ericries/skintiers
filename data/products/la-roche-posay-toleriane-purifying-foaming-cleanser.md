@@ -31,6 +31,12 @@ grades:
 key_actives:
 - niacinamide
 name: La Roche-Posay Toleriane Purifying Foaming Cleanser
+price:
+- amount: 19.99
+  currency: USD
+  size: "400 ml"
+  as_of: '2026-08-07'
+  source: "^lrp"
 slug: la-roche-posay-toleriane-purifying-foaming-cleanser
 status: published
 type: product

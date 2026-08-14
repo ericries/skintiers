@@ -41,6 +41,17 @@ images:
 key_actives:
 - tretinoin
 name: Altreno (tretinoin 0.05% lotion)
+price:
+- amount: 60
+  currency: USD
+  size: "20 g"
+  as_of: '2026-08-11'
+  source: "^altreno"
+- amount: 115
+  currency: USD
+  size: "45 g"
+  as_of: '2026-08-11'
+  source: "^altreno"
 slug: altreno-tretinoin-0-05-lotion
 status: published
 type: product

@@ -28,6 +28,12 @@ grades:
 key_actives:
 - glycolic-acid
 name: Paula's Choice Skin Perfecting 8% AHA Gel Exfoliant
+price:
+- amount: 34
+  currency: USD
+  size: "100 ml"
+  as_of: '2026-08-07'
+  source: "^2"
 slug: paulas-choice-skin-perfecting-8-aha-gel
 status: published
 type: product

@@ -31,6 +31,12 @@ key_actives:
 - bemotrizinol
 - ethylhexyl-triazone
 name: Beauty of Joseon Matte Sun Stick
+price:
+- amount: 18
+  currency: USD
+  size: "18 g"
+  as_of: '2026-08-07'
+  source: "^2"
 slug: beauty-of-joseon-matte-sun-stick
 status: published
 type: product

@@ -50,6 +50,12 @@ key_actives:
 - retinaldehyde
 - panax-ginseng
 name: 'Beauty of Joseon Revive Eye Serum: Ginseng + Retinal'
+price:
+- amount: 17
+  currency: USD
+  size: "30 ml"
+  as_of: '2026-08-10'
+  source: "^boj"
 slug: beauty-of-joseon-revive-eye-serum-ginseng-retinal
 status: published
 type: product

@@ -23,6 +23,12 @@ grades:
 key_actives:
 - avobenzone
 name: Supergoop! Unseen Sunscreen SPF 50
+price:
+- amount: 38
+  currency: USD
+  size: "1.7 fl oz"
+  as_of: '2026-08-08'
+  source: "^2"
 slug: supergoop-unseen-sunscreen-spf-50
 status: published
 type: product

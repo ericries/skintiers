@@ -37,6 +37,12 @@ images:
 key_actives:
 - retinaldehyde
 name: Avène RetrinAL 0.1 Intensive Cream
+price:
+- amount: 39.99
+  currency: USD
+  size: "0.5 fl oz"
+  as_of: '2026-08-07'
+  source: "^target"
 slug: avene-retrinal-0-1-intensive-cream
 status: published
 type: product
