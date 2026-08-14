@@ -1484,3 +1484,20 @@
   source: OTC ketoconazole shampoo widely used off-label as a body wash for fungal
     acne/Malassezia; a real product for the fungal-acne hub once ketoconazole has
     a page. https://www.nizoral.com
+- name: Selsun Blue Medicated Anti-Dandruff Shampoo (selenium sulfide 1%)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: fungal-acne
+  source: An OTC selenium sulfide 1% wash widely used off-label as a body/face wash
+    for fungal acne (Malassezia); a real product for the [[fungal-acne]] hub once
+    selenium sulfide has a page. https://www.selsunblue.com
+- name: PanOxyl 4% Acne Creamy Wash (benzoyl peroxide)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: fungal-acne
+  source: A gentler 4% benzoyl peroxide wash (vs the existing PanOxyl 10% foaming
+    wash); BPO is the one OTC active with in-vitro anti-Malassezia evidence on [[fungal-acne]],
+    and a wash format is the common way it's used on the body. Verify vs existing
+    panoxyl page at draft time. https://www.panoxyl.com
