@@ -17,6 +17,12 @@ key_actives:
 - hyaluronic-acid
 - glycerin
 name: SkinMedica HA5 Rejuvenating Hydrator
+price:
+- amount: 184
+  currency: USD
+  size: "56.7 g"
+  as_of: '2026-08-07'
+  source: "^dermstore"
 slug: skinmedica-ha5-rejuvenating-hydrator
 status: published
 type: product

@@ -42,6 +42,12 @@ recommended_in:
 - source: nbcnews.com
   title: 'NBC Select, Tested and Reviewed: 15+ Best Vitamin C Serums of 2026'
   url: https://www.nbcnews.com/select/shopping/best-vitamin-c-serums-rcna240620
+price:
+- amount: 185
+  currency: USD
+  size: "30 ml"
+  as_of: '2026-07-28'
+  source: "^1"
 slug: skinceuticals-c-e-ferulic
 status: published
 type: product

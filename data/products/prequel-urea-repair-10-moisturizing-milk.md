@@ -18,6 +18,12 @@ key_actives:
 - niacinamide
 - glycerin
 name: Prequel Urea Repair 10% Moisturizing Milk
+price:
+- amount: 22
+  currency: USD
+  size: "13.5 fl oz"
+  as_of: '2026-08-07'
+  source: "^pdp"
 slug: prequel-urea-repair-10-moisturizing-milk
 status: published
 type: product

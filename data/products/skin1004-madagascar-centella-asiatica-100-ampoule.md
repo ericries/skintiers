@@ -22,6 +22,12 @@ key_actives:
 - centella-asiatica
 - glycerin
 name: SKIN1004 Madagascar Centella Asiatica 100 Ampoule
+price:
+- amount: 15.99
+  currency: USD
+  size: "55 ml"
+  as_of: '2026-08-07'
+  source: "^2"
 slug: skin1004-madagascar-centella-asiatica-100-ampoule
 status: published
 type: product

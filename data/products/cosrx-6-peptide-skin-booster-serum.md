@@ -31,6 +31,12 @@ images:
   source: YesStyle
   source_url: https://www.yesstyle.com/en/cosrx-the-6-peptide-skin-booster-150ml/info.html/pid.1124133306
 name: COSRX The 6 Peptide Skin Booster Serum
+price:
+- amount: 25
+  currency: USD
+  size: "150 ml"
+  as_of: '2026-07-28'
+  source: "^1"
 slug: cosrx-6-peptide-skin-booster-serum
 status: published
 type: product

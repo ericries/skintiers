@@ -44,6 +44,12 @@ key_actives:
 - niacinamide
 - peptides
 name: Olay Regenerist Retinol24 Night Moisturizer
+price:
+- amount: 39.99
+  currency: USD
+  size: "1.7 fl oz"
+  as_of: '2026-08-07'
+  source: "^olay"
 slug: olay-regenerist-retinol24-night-serum
 status: published
 type: product

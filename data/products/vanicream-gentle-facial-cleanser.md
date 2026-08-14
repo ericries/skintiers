@@ -19,6 +19,12 @@ grades:
     humectant evidence is for leave-on use'
   use: Humectant left behind by a rinse-off (glycerin)
 name: Vanicream Gentle Facial Cleanser
+price:
+- amount: 9.99
+  currency: USD
+  size: "8 fl oz"
+  as_of: '2026-08-07'
+  source: "^2"
 slug: vanicream-gentle-facial-cleanser
 status: published
 type: product

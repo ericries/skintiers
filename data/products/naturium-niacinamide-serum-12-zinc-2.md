@@ -32,6 +32,12 @@ grades:
 key_actives:
 - niacinamide
 name: Naturium Niacinamide Serum 12% + Zinc 2%
+price:
+- amount: 17
+  currency: USD
+  size: "30 ml"
+  as_of: '2026-08-07'
+  source: "^naturium"
 slug: naturium-niacinamide-serum-12-zinc-2
 status: published
 type: product

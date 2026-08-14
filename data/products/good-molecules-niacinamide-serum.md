@@ -35,6 +35,12 @@ grades:
 key_actives:
 - niacinamide
 name: Good Molecules Niacinamide Serum
+price:
+- amount: 5.99
+  currency: USD
+  size: "1 fl oz"
+  as_of: '2026-08-06'
+  source: "^2"
 slug: good-molecules-niacinamide-serum
 status: published
 type: product

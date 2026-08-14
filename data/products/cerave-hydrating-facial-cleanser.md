@@ -42,6 +42,11 @@ recommended_in:
 - source: huffpost.com
   title: HuffPost, best CeraVe products (dermatologist picks)
   url: https://www.huffpost.com/entry/best-cerave-products-dermatologist-recommendations-ud_l_693ac62ee4b0455a070e590a
+price:
+- amount: 15.99
+  currency: USD
+  as_of: '2026-07-28'
+  source: "^1"
 slug: cerave-hydrating-facial-cleanser
 status: published
 type: product

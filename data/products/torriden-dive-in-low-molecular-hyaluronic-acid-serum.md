@@ -26,6 +26,12 @@ grades:
 key_actives:
 - hyaluronic-acid
 name: Torriden Dive-In Low Molecular Hyaluronic Acid Serum
+price:
+- amount: 24
+  currency: USD
+  size: "50 ml"
+  as_of: '2026-08-07'
+  source: "^torriden"
 slug: torriden-dive-in-low-molecular-hyaluronic-acid-serum
 status: published
 type: product

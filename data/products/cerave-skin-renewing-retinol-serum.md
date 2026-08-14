@@ -51,6 +51,11 @@ key_actives:
 - retinol
 - niacinamide
 name: CeraVe Skin Renewing Retinol Serum
+price:
+- amount: 24.99
+  currency: USD
+  as_of: '2026-08-07'
+  source: "^1"
 slug: cerave-skin-renewing-retinol-serum
 status: published
 type: product

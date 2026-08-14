@@ -32,6 +32,12 @@ key_actives:
 - niacinamide
 - panthenol
 name: Purito Seoul Cica Clearing BB Cream
+price:
+- amount: 12
+  currency: USD
+  size: "30 ml"
+  as_of: '2026-08-07'
+  source: "^purito"
 slug: purito-cica-clearing-bb-cream
 status: published
 type: product

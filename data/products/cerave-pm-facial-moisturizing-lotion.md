@@ -42,6 +42,11 @@ recommended_in:
 - source: newbeauty.com
   title: NewBeauty, 10 Dermatologist-Recommended CeraVe Products
   url: https://www.newbeauty.com/view/cerave-dermatologist-recommended
+price:
+- amount: 19.99
+  currency: USD
+  as_of: '2026-08-04'
+  source: "^1"
 slug: cerave-pm-facial-moisturizing-lotion
 status: published
 type: product

@@ -28,6 +28,12 @@ key_actives:
 - ceramides
 - hyaluronic-acid
 name: CeraVe SA Lotion for Rough & Bumpy Skin
+price:
+- amount: 19.99
+  currency: USD
+  size: "8 oz"
+  as_of: '2026-08-12'
+  source: "^pdp"
 slug: cerave-sa-body-lotion-for-rough-and-bumpy-skin
 status: published
 type: product

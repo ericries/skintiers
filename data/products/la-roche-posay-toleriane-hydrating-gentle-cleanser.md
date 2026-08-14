@@ -41,6 +41,12 @@ recommended_in:
 - source: nytimes.com
   title: NYT Wirecutter, The 8 Best Facial Cleansers of 2026 (best for dry skin)
   url: https://www.nytimes.com/wirecutter/reviews/best-facial-cleansers/
+price:
+- amount: 19.99
+  currency: USD
+  size: "13.5 fl oz"
+  as_of: '2026-07-28'
+  source: "^4"
 slug: la-roche-posay-toleriane-hydrating-gentle-cleanser
 status: published
 type: product

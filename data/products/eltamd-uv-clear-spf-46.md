@@ -33,6 +33,12 @@ key_actives:
 - zinc-oxide
 - octinoxate
 - niacinamide
+price:
+- amount: 45
+  currency: USD
+  size: "1.7 oz"
+  as_of: '2026-07-28'
+  source: "^5"
 slug: eltamd-uv-clear-spf-46
 status: published
 type: product

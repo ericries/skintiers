@@ -20,6 +20,12 @@ grades:
 key_actives:
 - petrolatum
 name: Prequel Skin Utility Ointment
+price:
+- amount: 18
+  currency: USD
+  size: "2 oz"
+  as_of: '2026-08-07'
+  source: "^pdp"
 slug: prequel-skin-utility-ointment
 status: published
 type: product

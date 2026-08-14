@@ -28,6 +28,12 @@ key_actives:
 - niacinamide
 - panax-ginseng
 name: Beauty of Joseon Ginseng Essence Water
+price:
+- amount: 18
+  currency: USD
+  size: "150 ml"
+  as_of: '2026-08-07'
+  source: "^boj"
 slug: beauty-of-joseon-ginseng-essence-water
 status: published
 type: product

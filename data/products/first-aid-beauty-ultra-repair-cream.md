@@ -34,6 +34,12 @@ grades:
 key_actives:
 - colloidal-oatmeal
 name: First Aid Beauty Ultra Repair Cream Intense Hydration
+price:
+- amount: 42
+  currency: USD
+  size: "6 fl oz"
+  as_of: '2026-08-06'
+  source: "^1"
 slug: first-aid-beauty-ultra-repair-cream
 status: published
 type: product

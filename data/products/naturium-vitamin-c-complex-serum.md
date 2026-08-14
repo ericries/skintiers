@@ -26,6 +26,12 @@ grades:
 key_actives:
 - vitamin-c
 name: Naturium Vitamin C Complex Serum
+price:
+- amount: 21
+  currency: USD
+  size: "30 ml"
+  as_of: '2026-08-07'
+  source: "^naturium"
 slug: naturium-vitamin-c-complex-serum
 status: published
 type: product

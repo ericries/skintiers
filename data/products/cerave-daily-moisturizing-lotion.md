@@ -31,6 +31,11 @@ key_actives:
 - ceramides
 - hyaluronic-acid
 name: CeraVe Daily Moisturizing Lotion
+price:
+- amount: 14.99
+  currency: USD
+  as_of: '2026-08-13'
+  source: "^1"
 slug: cerave-daily-moisturizing-lotion
 status: published
 type: product

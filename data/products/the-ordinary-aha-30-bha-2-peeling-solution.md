@@ -24,6 +24,12 @@ key_actives:
 - glycolic-acid
 - salicylic-acid
 name: The Ordinary AHA 30% + BHA 2% Peeling Solution
+price:
+- amount: 9.5
+  currency: USD
+  size: "30 ml"
+  as_of: '2026-08-07'
+  source: "^1"
 slug: the-ordinary-aha-30-bha-2-peeling-solution
 status: published
 type: product

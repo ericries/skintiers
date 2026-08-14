@@ -43,6 +43,12 @@ recommended_in:
   url: https://www.elle.com/beauty/g45205900/best-non-comedogenic-moisturizers/
 key_actives:
 - niacinamide
+price:
+- amount: 39.97
+  currency: USD
+  size: "40 ml"
+  as_of: '2026-07-28'
+  source: "^1"
 slug: la-roche-posay-effaclar-mat
 status: published
 type: product

@@ -26,6 +26,12 @@ grades:
 key_actives:
 - salicylic-acid
 name: COSRX Low pH Good Morning Gel Cleanser
+price:
+- amount: 14
+  currency: USD
+  size: "150 ml"
+  as_of: '2026-08-07'
+  source: "^1"
 slug: cosrx-low-ph-good-morning-gel-cleanser
 status: published
 type: product

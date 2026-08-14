@@ -28,6 +28,12 @@ grades:
 key_actives:
 - houttuynia-cordata
 name: Anua Heartleaf 77% Soothing Toner
+price:
+- amount: 23
+  currency: USD
+  size: "250 ml"
+  as_of: '2026-08-08'
+  source: "^anua"
 slug: anua-heartleaf-77-soothing-toner
 status: published
 type: product

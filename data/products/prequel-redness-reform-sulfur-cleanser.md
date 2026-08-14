@@ -23,6 +23,12 @@ key_actives:
 - sulfur
 - azelaic-acid
 name: Prequel Redness Reform Sulfur Cleanser
+price:
+- amount: 18
+  currency: USD
+  size: "6 fl oz"
+  as_of: '2026-08-07'
+  source: "^pdp"
 slug: prequel-redness-reform-sulfur-cleanser
 status: published
 type: product

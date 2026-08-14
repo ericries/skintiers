@@ -31,6 +31,12 @@ grades:
 key_actives:
 - panthenol
 name: Prequel Redness Reform Serum
+price:
+- amount: 20
+  currency: USD
+  size: "1 fl oz"
+  as_of: '2026-08-07'
+  source: "^pdp"
 slug: prequel-redness-reform-serum
 status: published
 type: product

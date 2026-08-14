@@ -34,6 +34,12 @@ grades:
 key_actives:
 - retinol
 name: RoC Retinol Correxion Deep Wrinkle Night Cream
+price:
+- amount: 21.99
+  currency: USD
+  size: "1 fl oz"
+  as_of: '2026-08-07'
+  source: "^target"
 slug: roc-retinol-correxion-deep-wrinkle-night-cream
 status: published
 type: product

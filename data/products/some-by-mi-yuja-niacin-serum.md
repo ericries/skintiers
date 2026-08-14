@@ -47,6 +47,12 @@ images:
 name: Some By Mi Yuja Niacin 30 Days Blemish Care Serum
 key_actives:
 - niacinamide
+price:
+- amount: 19.7
+  currency: USD
+  size: "50 ml"
+  as_of: '2026-07-28'
+  source: "^stylevana"
 slug: some-by-mi-yuja-niacin-serum
 status: published
 type: product

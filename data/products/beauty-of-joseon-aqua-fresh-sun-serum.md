@@ -36,6 +36,12 @@ key_actives:
 - diethylamino-hydroxybenzoyl-hexyl-benzoate
 - bemotrizinol
 name: 'Beauty of Joseon Relief Sun: Aqua-fresh Rice + B5 SPF50+ PA++++'
+price:
+- amount: 18
+  currency: USD
+  size: "50 ml"
+  as_of: '2026-08-13'
+  source: "^1"
 slug: beauty-of-joseon-aqua-fresh-sun-serum
 status: published
 type: product

@@ -30,6 +30,12 @@ images:
   source: Ulta
   source_url: https://www.ulta.com/p/multi-peptide-hyaluronic-acid-serum-firmness-elasticity-pimprod2035079
 name: The Ordinary Multi-Peptide + HA Serum (Buffet)
+price:
+- amount: 19.9
+  currency: USD
+  size: "30 ml"
+  as_of: '2026-07-28'
+  source: "^1"
 slug: the-ordinary-multi-peptide-ha-serum
 status: published
 type: product

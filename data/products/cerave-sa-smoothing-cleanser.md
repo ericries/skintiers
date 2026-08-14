@@ -34,6 +34,11 @@ grades:
 key_actives:
 - salicylic-acid
 name: CeraVe SA Smoothing Cleanser
+price:
+- amount: 15.99
+  currency: USD
+  as_of: '2026-08-07'
+  source: "^1"
 slug: cerave-sa-smoothing-cleanser
 status: published
 type: product

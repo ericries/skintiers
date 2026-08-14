@@ -31,6 +31,12 @@ key_actives:
 - retinyl-esters
 - hydroxypinacolone-retinoate
 name: The INKEY List Retinol Serum
+price:
+- amount: 15
+  currency: USD
+  size: "30 ml"
+  as_of: '2026-08-05'
+  source: "^inkeyus2025"
 slug: the-inkey-list-retinol-serum
 status: published
 type: product

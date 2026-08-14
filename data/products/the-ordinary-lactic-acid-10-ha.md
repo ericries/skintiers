@@ -28,6 +28,12 @@ key_actives:
 - lactic-acid
 - hyaluronic-acid
 name: The Ordinary Lactic Acid 10% + HA
+price:
+- amount: 9.2
+  currency: USD
+  size: "30 ml"
+  as_of: '2026-08-07'
+  source: "^1"
 slug: the-ordinary-lactic-acid-10-ha
 status: published
 type: product

@@ -13,6 +13,12 @@ key_actives:
 - epidermal-growth-factor
 - peptides
 name: SkinMedica TNS Advanced+ Serum
+price:
+- amount: 295
+  currency: USD
+  size: "30 ml"
+  as_of: '2026-08-07'
+  source: "^1"
 slug: skinmedica-tns-advanced-serum
 status: published
 type: product

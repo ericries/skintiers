@@ -24,6 +24,12 @@ grades:
     is not tested for this product'
   use: Oat (colloidal oatmeal) as a calming ingredient in a rinse-off formula (health)
 name: Aveeno Calm + Restore Face Cleanser for Sensitive Skin
+price:
+- amount: 9.99
+  currency: USD
+  size: "7.8 fl oz"
+  as_of: '2026-08-07'
+  source: "^1"
 slug: aveeno-calm-restore-oat-gentle-cleanser
 status: published
 type: product

@@ -48,6 +48,12 @@ recommended_in:
 - source: Byrdie
   title: The 8 Best Azelaic Acid Products (named "Best for Acne-Prone Skin")
   url: https://www.byrdie.com/best-azelaic-acid-products-11953791
+price:
+- amount: 42
+  currency: USD
+  size: "1 fl oz"
+  as_of: '2026-07-31'
+  source: "^dermstore"
 slug: paulas-choice-boost-10-azelaic-acid-booster
 status: published
 type: product

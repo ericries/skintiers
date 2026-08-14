@@ -29,6 +29,12 @@ key_actives:
 - mandelic-acid
 - hyaluronic-acid
 name: The Ordinary Mandelic Acid 10% + HA
+price:
+- amount: 7.8
+  currency: USD
+  size: "30 ml"
+  as_of: '2026-08-13'
+  source: "^1"
 slug: the-ordinary-mandelic-acid-10-ha
 status: published
 type: product

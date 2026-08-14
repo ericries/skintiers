@@ -38,6 +38,11 @@ recommended_in:
 key_actives:
 - ceramides
 - hyaluronic-acid
+price:
+- amount: 14.99
+  currency: USD
+  as_of: '2026-07-28'
+  source: "^3"
 slug: cerave-moisturizing-cream
 status: published
 type: product

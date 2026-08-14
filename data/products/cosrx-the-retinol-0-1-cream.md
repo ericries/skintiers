@@ -34,6 +34,12 @@ images:
 key_actives:
 - retinol
 name: COSRX The Retinol 0.1 Cream
+price:
+- amount: 27
+  currency: USD
+  size: "20 ml"
+  as_of: '2026-08-09'
+  source: "^cosrx"
 slug: cosrx-the-retinol-0-1-cream
 status: published
 type: product

@@ -36,6 +36,11 @@ key_actives:
 - peptides
 - ceramides
 name: CeraVe Skin Renewing Night Cream
+price:
+- amount: 21.99
+  currency: USD
+  as_of: '2026-08-07'
+  source: "^1"
 slug: cerave-skin-renewing-night-cream
 status: published
 type: product

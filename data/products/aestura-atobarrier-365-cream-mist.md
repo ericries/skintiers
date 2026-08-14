@@ -30,6 +30,12 @@ key_actives:
 - cholesterol
 - glycerin
 name: Aestura Atobarrier 365 Cream Mist
+price:
+- amount: 35.99
+  currency: USD
+  size: "4.05 fl oz"
+  as_of: '2026-08-07'
+  source: "^target"
 slug: aestura-atobarrier-365-cream-mist
 status: published
 type: product

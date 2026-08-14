@@ -17,6 +17,12 @@ key_actives:
 - ceramides
 - hyaluronic-acid
 name: Round Lab 1025 Dokdo Cream
+price:
+- amount: 35.99
+  currency: USD
+  size: "80 ml"
+  as_of: '2026-08-07'
+  source: "^target"
 slug: round-lab-1025-dokdo-cream
 status: published
 type: product

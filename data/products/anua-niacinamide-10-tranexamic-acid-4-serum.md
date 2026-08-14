@@ -24,6 +24,11 @@ key_actives:
 - tranexamic-acid
 - arbutin
 name: Anua Niacinamide 10% + TXA 4% Serum
+price:
+- amount: 24
+  currency: USD
+  as_of: '2026-08-07'
+  source: "^1"
 slug: anua-niacinamide-10-tranexamic-acid-4-serum
 status: published
 type: product
