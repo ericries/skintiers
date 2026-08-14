@@ -3,6 +3,10 @@ analyzed: '2026-08-07'
 assurance: sonnet
 brand: Dear, Klairs
 category: Peptide serums
+images:
+- file: klairs-egf-blue-youth-activating-drop-klairs.jpg
+  source: Klairs
+  source_url: https://www.klairscosmetics.com/product/egf-blue-youth-activating-drop/
 comparator: other growth-factor "anti-aging" serums, and vs proven retinoids
 grades:
 - effect: minimal

@@ -3,6 +3,10 @@ analyzed: '2026-08-14'
 assurance: sonnet
 brand: Aveeno
 category: Moisturizers
+images:
+- file: aveeno-daily-moisturizing-lotion-aveeno.webp
+  source: Aveeno
+  source_url: https://www.aveeno.com/products/daily-moisturizing-lotion-with-soothing-oat
 comparator: other drugstore moisturizing lotions (e.g. [[cerave-daily-moisturizing-lotion]])
 grades:
 - effect: notable

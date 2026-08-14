@@ -3,6 +3,10 @@ analyzed: '2026-08-08'
 assurance: sonnet
 brand: Illiyoon
 category: Moisturizers
+images:
+- file: illiyoon-ceramide-ato-concentrate-cream-target.webp
+  source: Target
+  source_url: https://www.target.com/p/illiyoon-ceramide-ato-concentrate-cream-5-07-oz-the-comfort-cream-for-a-confident-skin-barrier/-/A-1006832522
 comparator: other ceramide-based barrier moisturizers, such as [[cerave-moisturizing-cream|CeraVe
   Moisturizing Cream]] and [[dr-jart-ceramidin-cream|Dr. Jart+ Ceramidin Cream]],
   and plainer humectant/occlusive moisturizers

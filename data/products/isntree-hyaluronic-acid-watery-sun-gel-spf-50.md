@@ -3,6 +3,10 @@ analyzed: '2026-08-07'
 assurance: sonnet
 brand: Isntree
 category: Sunscreens
+images:
+- file: isntree-hyaluronic-acid-watery-sun-gel-spf-50-isntree.png
+  source: Isntree
+  source_url: https://isntree-global.com/products/isntree-hyaluronic-acid-watery-sun-gel-50ml
 comparator: broad-spectrum sunscreens, including avobenzone-reliant US products
 grades:
 - effect: strong

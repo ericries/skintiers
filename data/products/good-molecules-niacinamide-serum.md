@@ -3,6 +3,10 @@ analyzed: '2026-08-06'
 assurance: opus
 brand: Good Molecules
 category: Niacinamide serums
+images:
+- file: good-molecules-niacinamide-serum-goodmolecules.jpg
+  source: Good Molecules
+  source_url: https://www.goodmolecules.com/s/good-molecules-niacinamide-serum-30ml
 comparator: other niacinamide serums
 grades:
 - effect: modest
