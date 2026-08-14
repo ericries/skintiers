@@ -1520,8 +1520,16 @@
 - name: Aveeno Eczema Therapy Daily Moisturizing Cream (colloidal oatmeal 1%)
   type: product
   priority: 4
-  status: pending
+  status: done
   discovered_from: null
   source: The eczema-indicated Aveeno cream with colloidal oatmeal 1% as a DECLARED
     Drug Facts skin-protectant active - the disclosed-% monograph-active contrast
     to this cosmetic lotion; NEA-accepted. Sourceable aveeno.com + Target. https://www.aveeno.com
+- name: Aveeno Eczema Therapy Itch Relief Balm (colloidal oatmeal 1%)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: aveeno-eczema-therapy-daily-moisturizing-cream
+  source: The intensive balm in Aveeno's Eczema Therapy line, colloidal oatmeal 1%
+    Drug Facts skin-protectant active; extends the [[colloidal-oatmeal]] + [[atopic-dermatitis]]
+    coverage. Sourceable aveeno.com + Target. https://www.aveeno.com

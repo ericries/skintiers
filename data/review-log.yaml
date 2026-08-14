@@ -4613,3 +4613,22 @@ aveeno-daily-moisturizing-lotion:
     Sativa Kernel Flour IS the INCI name for colloidal oatmeal' was uncited - reframed all spots as
     brand-attributed ('the oat kernel flour Aveeno markets as colloidal oatmeal') so no uncited
     chemical-identity claim stands. Photo gallery deferred to image cron. assurance=sonnet.
+
+aveeno-eczema-therapy-daily-moisturizing-cream:
+  last_reviewed: '2026-08-14'
+  score: 8
+  verdict: revise-then-published
+  assurance: sonnet
+  note: |
+    Aveeno Eczema Therapy Daily Moisturizing Cream - the DISCLOSED-% Drug Facts contrast to the
+    cosmetic Aveeno Daily lotion (realizing the 'turn a limitation into a lead' thread). Daily PRODUCT
+    cron; pre-flight + Opus critic (cache-first). D1-D4 essentially perfect: the Drug Facts panel
+    (Colloidal Oatmeal 1% / Skin Protectant / Uses text) verified VERBATIM and INDEPENDENTLY corroborated
+    across BOTH caches (Aveeno + Target embedded drug_facts JSON). Same-SKU nuance resolved: Target lists
+    it as 'Daily Soothing Eczema Relief Steroid-Free Body Cream' but the 14-item INCI + Drug Facts match
+    exactly - honest 'renamed, same formula' framing (not overclaimed as identical SKU#). Price DROPPED
+    (not in either source). Honest catches: ONE Ceramide NP (not plural as marketing implies); the barrier
+    grade credits the combined emollient formula, NOT oat's own lower barrier tier. Applied 4 critic
+    fixes (tightened a dense blockquote; added the barrier-grade honesty clause; Where-to-Buy naming note;
+    published). Photo gallery deferred to image cron. Surfaces on colloidal-oatmeal + moisturizing.
+    assurance=sonnet.

@@ -59,3 +59,13 @@
     acne vs comedonal clogged-pore acne and PROVEN ingredients for each; note hormonal
     drivers and that systemic options are prescriber-managed. Sonnet draft + Opus
     critic, primary sources.'
+- name: 'atopic-dermatitis: add a graded topical tier_list'
+  type: condition
+  priority: 4
+  status: pending
+  discovered_from: null
+  source: 'TOOLING/CONTENT: the atopic-dermatitis hub likely lacks a tier_list of
+    graded treatments; with colloidal-oatmeal, ceramides, tacrolimus/pimecrolimus,
+    crisaborole all now on the site, it could host a real evidence-graded tier list
+    and a concern->product feed (like keratosis-pilaris/perioral-dermatitis). Verify
+    current state at next condition cron.'
