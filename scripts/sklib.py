@@ -668,6 +668,245 @@ def check_tier_list_slugs(metadata, published_slugs):
     return errors
 
 
+# --- Cross-page grade-consistency (WARNING only, Phase C) -------------------------
+#
+# A product's `grades:` entry is use-specific ("For melasma...", "Facial redness /
+# papulopustular rosacea"); the ingredient page's own "## The Rubric" grades the
+# active generally, use-case by use-case, in bolded "Effect size: ..." prose (there
+# is no structured `grades:` list on ingredient pages). Divergence between the two is
+# usually LEGITIMATE - a product may use a lower concentration than the ingredient
+# page's studied dose (see the azelaic-acid-10%-vs-FINACEA-15% case this check finds
+# below) - so this is advisory only and must never fail the build.
+#
+# Vocabulary: both sides draw their effect-size adjective from the same five-word
+# scale used across every product `effect:` field: none < minimal < modest < notable
+# < strong. RULE (deliberately narrow, to keep false positives near zero): only warn
+# when one side is HIGH (notable/strong) and the other is LOW (none/minimal) for the
+# SAME use-case - a directional flip, the Mela B3/Melasyl and Cyspera class of bug.
+# "modest", any hedged/free-text phrasing outside the five-word vocabulary (e.g. "not
+# established in humans", "unresolved for skin"), and any grade with no topical
+# keyword overlap with an ingredient-page heading are all left silent.
+_EFFECT_VOCAB = {"none", "minimal", "modest", "notable", "strong"}
+_EFFECT_LOW = {"none", "minimal"}
+_EFFECT_HIGH = {"notable", "strong"}
+
+# Generic words that appear in nearly every use/heading on this site and would
+# otherwise cause an off-topic keyword "match" (e.g. "Barrier support..." matching
+# "...cosmetic-to-barrier" on an unrelated hydration heading). Excluded from the
+# topic-overlap check below; kept short and reviewed for precision, not recall.
+_GRADE_TOPIC_STOPWORDS = {
+    "topical", "cosmetic", "health", "mechanism", "mechanistic", "support",
+    "claims", "general", "active", "actives", "class", "combination", "product",
+    "products", "treatment", "treatments", "evidence", "formula", "marketed",
+    "positioning", "adjunct", "preliminary", "safety", "facial", "using", "skin",
+    "daily", "serum", "cream", "gentle", "other", "concentration",
+    "concentrations", "level", "levels", "appearance", "contribution",
+    "topically", "controlled", "claim", "disease", "moderate", "mild", "severe",
+    "only", "tested", "specific", "overall", "barrier",
+}
+_RUBRIC_SECTION_RE = re.compile(r"\n## The Rubric\b(.*?)(?:\n## |\Z)", re.DOTALL)
+_RUBRIC_HEADING_RE = re.compile(r"^\*\*([^*]+)\*\*$")
+_RUBRIC_EFFECT_RE = re.compile(r"^-\s*\*\*Effect size:\s*([^*]+?)\.?\*\*")
+
+
+def _leading_effect_word(text):
+    """The first word of a free-text effect-size phrase, lowercased, IF it is one of
+    the five known grade adjectives; otherwise None. Hedged prose ("unresolved for
+    skin", "substantial in the laboratory, not established in humans") is real
+    content but not safely comparable, so it is left unparsed rather than guessed
+    at - the same 'leave it out' discipline as the rest of this site."""
+    text = (text or "").strip()
+    if not text:
+        return None
+    word = text.split()[0].lower().strip(",.;:")
+    return word if word in _EFFECT_VOCAB else None
+
+
+def _ingredient_rubric_effects(ingredient_body):
+    """Parse an ingredient page's '## The Rubric' section into a list of
+    (use_case_heading, effect_word_or_None) pairs, one per bolded use-case bullet
+    ('**Heading**' followed by '- **Effect size: ...**')."""
+    m = _RUBRIC_SECTION_RE.search(ingredient_body or "")
+    if not m:
+        return []
+    out = []
+    heading = None
+    for line in m.group(1).splitlines():
+        line = line.strip()
+        hm = _RUBRIC_HEADING_RE.match(line)
+        if hm:
+            heading = hm.group(1).strip()
+            continue
+        em = _RUBRIC_EFFECT_RE.match(line)
+        if em and heading:
+            out.append((heading, _leading_effect_word(em.group(1))))
+            heading = None  # only the first Effect-size bullet per heading counts
+    return out
+
+
+def _grade_topic_keywords(text, exclude):
+    words = re.findall(r"[a-z]+", (text or "").lower())
+    return {w for w in words if len(w) >= 5 and w not in _GRADE_TOPIC_STOPWORDS} - exclude
+
+
+def check_grade_consistency(metadata, ingredient_bodies):
+    """WARNING-level, advisory only (see module comment above): flags a product grade
+    for a key_active that directionally disagrees with that ingredient page's own
+    rubric grade for the same use. Scoped to products with EXACTLY ONE key_active, so
+    a grade entry is never compared against the wrong active on a multi-active
+    product (grade entries don't name which active they're for)."""
+    if metadata.get("type") != "product":
+        return []
+    key_actives = [str(s).strip() for s in (metadata.get("key_actives") or [])]
+    if len(key_actives) != 1:
+        return []
+    active = key_actives[0]
+    body = ingredient_bodies.get(active)
+    if not body:
+        return []
+    rubric = _ingredient_rubric_effects(body)
+    if not rubric:
+        return []
+    name_stop = set(active.split("-"))
+    warnings = []
+    for g in metadata.get("grades") or []:
+        product_effect = _leading_effect_word(g.get("effect"))
+        if product_effect is None:
+            continue
+        use = str(g.get("use") or "")
+        use_kw = _grade_topic_keywords(use, name_stop)
+        if not use_kw:
+            continue
+        for heading, ing_effect in rubric:
+            if ing_effect is None:
+                continue
+            heading_kw = _grade_topic_keywords(heading, name_stop)
+            if not (use_kw & heading_kw):
+                continue
+            flip = ((product_effect in _EFFECT_HIGH and ing_effect in _EFFECT_LOW) or
+                    (product_effect in _EFFECT_LOW and ing_effect in _EFFECT_HIGH))
+            if flip:
+                warnings.append(
+                    f"grade for key_active '{active}' on use '{use}' is "
+                    f"'{product_effect}', but [[{active}]]'s '{heading}' rubric grades "
+                    f"it '{ing_effect}' - a directional disagreement worth a human "
+                    f"check (use-specific divergence, e.g. a lower concentration than "
+                    f"the ingredient page's studied dose, is often legitimate)")
+    return warnings
+
+
+# --- Referenced-but-uncharted UV filter guard (ERROR, Phase C) --------------------
+#
+# A sunscreen product's own text often names its UV filters in prose, sometimes ONLY
+# in prose (key_actives can be incomplete - e.g. la-roche-posay-anthelios-melt-in-
+# milk-spf-60 names avobenzone/homosalate/octisalate/octocrylene in its opening
+# sentence with an EMPTY key_actives list). A filter named as this product's own
+# active that has no published ingredient page would silently under-cite the
+# product's central claim. check_key_actives can't catch this class of gap because
+# it only checks slugs that ARE in key_actives.
+#
+# Decision: ERROR (build-blocking), matching the other structural consistency
+# checks above. Verified against real data before choosing this: every filter this
+# scan finds named as an active, across all published sunscreen products, already
+# has a page (see tests/test_consistency.py). The scan is sentence-scoped and skips
+# any sentence containing a negation cue ("free of", "without", "-free", "no ", ...)
+# so "free of oxybenzone and octinoxate" / "PABA-free/oxybenzone-free" marketing
+# claims - real, common, and NOT a reference to this product's own actives - do not
+# false-positive (verified: every 'oxybenzone'/'benzophenone-3' mention in current
+# product data is one of these exclusion claims). If a future product legitimately
+# names an uncharted filter as its own active before that filter gets its own page,
+# flip this to a WARNING rather than looping the check tighter.
+#
+# Alias map built from each published filter page's own name/trade names (avoids
+# hand-typed drift from the source of truth). The bare "_UNCHARTED_UV_FILTER_NAMES"
+# list is other real, named organic UV filters (FDA/EU/Asia-approved) that have no
+# page here yet; matching one of these means "uncharted" by definition.
+_UV_FILTER_ALIASES = {
+    "avobenzone": "avobenzone",
+    "bemotrizinol": "bemotrizinol", "tinosorb s": "bemotrizinol",
+    "bisoctrizole": "bisoctrizole", "tinosorb m": "bisoctrizole",
+    "diethylamino hydroxybenzoyl hexyl benzoate": "diethylamino-hydroxybenzoyl-hexyl-benzoate",
+    "uvinul a plus": "diethylamino-hydroxybenzoyl-hexyl-benzoate",
+    "ethylhexyl triazone": "ethylhexyl-triazone",
+    "uvinul t150": "ethylhexyl-triazone", "uvinul t 150": "ethylhexyl-triazone",
+    "ecamsule": "ecamsule", "mexoryl sx": "ecamsule",
+    "terephthalylidene dicamphor sulfonic acid": "ecamsule",
+    "drometrizole trisiloxane": "drometrizole-trisiloxane",
+    "mexoryl xl": "drometrizole-trisiloxane",
+    "homosalate": "homosalate",
+    "iscotrizinol": "iscotrizinol",
+    "diethylhexyl butamido triazone": "iscotrizinol", "uvasorb heb": "iscotrizinol",
+    "mexoryl 400": "mexoryl-400-mce", "mexoryl mce": "mexoryl-400-mce",
+    "octocrylene": "octocrylene",
+    "octinoxate": "octinoxate", "octyl methoxycinnamate": "octinoxate",
+    "ethylhexyl methoxycinnamate": "octinoxate",
+    "octisalate": "octisalate", "ethylhexyl salicylate": "octisalate",
+    "octyl salicylate": "octisalate",
+    "titanium dioxide": "titanium-dioxide",
+    "zinc oxide": "zinc-oxide",
+}
+_UNCHARTED_UV_FILTER_NAMES = (
+    "oxybenzone", "benzophenone-3", "cinoxate", "dioxybenzone", "ensulizole",
+    "phenylbenzimidazole sulfonic acid", "meradimate", "menthyl anthranilate",
+    "padimate o", "sulisobenzone", "trolamine salicylate", "enzacamene",
+    "aminobenzoic acid",
+)
+_UV_FILTER_NAME_RE = re.compile(
+    r"\b(" + "|".join(re.escape(n) for n in sorted(
+        set(_UV_FILTER_ALIASES) | set(_UNCHARTED_UV_FILTER_NAMES),
+        key=len, reverse=True)) + r")\b",
+    re.IGNORECASE)
+# Sentence containing any of these is an exclusion/marketing claim ("free of X",
+# "X-free"), not a reference to this product's own active - skip it entirely.
+_UV_FILTER_NEGATION_CUES = ("free of", "without", "-free", " free ", "not contain",
+                             "excludes", "excluding", "no ")
+
+
+def check_uv_filter_coverage(metadata, content, published_ingredient_slugs):
+    """ERROR-level (see module comment above): every UV filter named as an active in
+    a sunscreen product's own text (grade notes + body) must have a published
+    ingredient page. Restricted to the 'Sunscreens' category to avoid matching an
+    unrelated product whose text happens to mention a filter chemical by name."""
+    if metadata.get("type") != "product":
+        return []
+    if "sunscreen" not in (metadata.get("category") or "").lower():
+        return []
+    parts = [content or ""]
+    for g in metadata.get("grades") or []:
+        if g.get("note"):
+            parts.append(str(g["note"]))
+    text = " ".join(parts)
+    sentences = re.split(r"(?<=[.!?])\s+|\n+", text)
+    seen, errors = set(), []
+    for sentence in sentences:
+        low = sentence.lower()
+        if any(cue in low for cue in _UV_FILTER_NEGATION_CUES):
+            continue
+        for m in _UV_FILTER_NAME_RE.finditer(sentence):
+            matched = m.group(1)
+            slug = _UV_FILTER_ALIASES.get(matched.lower())
+            key = slug or matched.lower()
+            if key in seen:
+                continue
+            seen.add(key)
+            if slug is None or slug not in published_ingredient_slugs:
+                errors.append(
+                    f"UV filter '{matched}' is named as an active in this "
+                    f"sunscreen's own text but has no published ingredient page "
+                    f"(referenced-but-uncharted filter)")
+    return errors
+
+
+def published_ingredient_bodies(data_dir=None):
+    """slug -> markdown body, PUBLISHED ingredient pages only. Feeds
+    check_grade_consistency, which needs the ingredient page's own '## The Rubric'
+    prose (there is no structured grades: list on ingredient pages)."""
+    data_dir = pathlib.Path(data_dir or DATA_DIR)
+    return {p.metadata.get("slug"): p.content
+            for p in filter_published(load_profiles(data_dir))
+            if p.metadata.get("type") == "ingredient" and p.metadata.get("slug")}
+
+
 def consistency_issues(data_dir=None, static_dir=None):
     """Scan the whole tree, returning (errors, warnings) as lists of (slug, message).
     errors should fail the build; warnings surface for review. This is the cross-page
@@ -675,6 +914,7 @@ def consistency_issues(data_dir=None, static_dir=None):
     data_dir = pathlib.Path(data_dir or DATA_DIR)
     published_slugs, by_type, _ = published_indexes(data_dir)
     ing = by_type.get("ingredient", set())
+    ing_bodies = published_ingredient_bodies(data_dir)
     errors, warnings = [], []
     for p in filter_published(load_profiles(data_dir)):
         m = p.metadata
@@ -685,10 +925,14 @@ def consistency_issues(data_dir=None, static_dir=None):
             errors.append((slug, e))
         for e in check_tier_list_slugs(m, published_slugs):
             errors.append((slug, e))
+        for e in check_uv_filter_coverage(m, p.content, ing):
+            errors.append((slug, e))
         na_errors, na_warnings = check_name_actives(m, ing)
         for e in na_errors:
             errors.append((slug, e))
         for w in na_warnings:
+            warnings.append((slug, w))
+        for w in check_grade_consistency(m, ing_bodies):
             warnings.append((slug, w))
     return errors, warnings
 
