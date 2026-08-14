@@ -1533,3 +1533,21 @@
   source: The intensive balm in Aveeno's Eczema Therapy line, colloidal oatmeal 1%
     Drug Facts skin-protectant active; extends the [[colloidal-oatmeal]] + [[atopic-dermatitis]]
     coverage. Sourceable aveeno.com + Target. https://www.aveeno.com
+- name: Eucerin Eczema Relief Cream (colloidal oatmeal 1%)
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: null
+  source: OTC eczema cream with colloidal oatmeal 1% as a declared Drug Facts skin-protectant
+    active (like the Aveeno Eczema Therapy cream); a disclosed-active competitor for
+    the [[colloidal-oatmeal]] + atopic-dermatitis coverage. Sourceable eucerinus.com/Target.
+    https://www.eucerinus.com
+- name: CeraVe Itch Relief Moisturizing Lotion (pramoxine 1%)
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: null
+  source: OTC anti-itch lotion with pramoxine hydrochloride 1% as a Drug Facts external
+    analgesic active + ceramides; a distinct itch-relief mechanism for atopic-dermatitis/eczema
+    coverage. Would need a pramoxine ingredient page (queue separately). Sourceable
+    cerave.com/Target. https://www.cerave.com

@@ -861,3 +861,12 @@
   discovered_from: null
   source: A common older UV filter (benzophenone-3) referenced in sunscreen-allergy/comparison
     videos; no page yet, so those video cards can't link to it. Would extend [[sunscreen-uv-filters]].
+- name: Pramoxine hydrochloride
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: A topical OTC external analgesic (anti-itch) active with an FDA monograph,
+    used in anti-itch lotions (CeraVe/Aveeno Itch Relief); no page yet. Would let
+    itch-relief products cite their actual active. Real monograph + small trials for
+    pruritus.
