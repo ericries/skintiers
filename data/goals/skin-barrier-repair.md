@@ -5,7 +5,18 @@ name: Repairing a disrupted skin barrier
 slug: skin-barrier-repair
 status: published
 type: goal
-updated: '2026-07-28'
+updated: '2026-08-14'
+videos:
+- title: "The truth about skin barrier repair"
+  creator: Kristin Leite
+  creator_slug: kristin-leite
+  credential: Beauty product developer and skincare educator (NOT a dermatologist or cosmetic chemist)
+  platform: TikTok
+  url: https://www.tiktok.com/@kristingl/video/7670192887124086030
+  posted: '2026-08-04'
+  thesis: "Beauty product developer Kristin Leite (not a dermatologist or chemist) explains that skin barrier repair products all work differently even when they are marketed the same way, so the goal is finding the ingredient that suits you. She walks through several barrier-supporting ingredients and what each does: EGF as a signalling protein that tells skin to repair itself, centella (with alternatives like heartleaf or mugwort) to calm redness and inflammation, ceramides for moisture and hydration retention, and panthenol to reduce water loss through the skin. Her takeaway is that everyone benefits from barrier care, not only people with dry or acne-prone skin."
+  related: [skin-barrier-strengthening, epidermal-growth-factor, centella-asiatica, ceramides, panthenol, houttuynia-cordata]
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 ---
 
 A disrupted skin barrier is a damaged stratum corneum, the skin's outermost layer, which normally works like a brick wall: flattened skin cells are the bricks and a mix of fatty molecules is the mortar between them. Elias describes that lipid mortar as an "approximately 1:1:1 molar ratio of ceramides (Cer), cholesterol, and nonessential fatty acids," where "all three lipids are required to form the lamellar structures that regulate barrier function."[^elias] When over-exfoliation, retinoid or acid irritation, over-washing, harsh weather, or an eczema flare strips or damages that mortar, the wall leaks: water escapes faster and irritants get in more easily. This page ranks what actually helps a barrier that is *already* disrupted recover, from highest to lowest demonstrated impact. Recovery is mostly about stopping whatever is damaging the skin and supporting the mortar as it re-forms, not about buying one special product. For keeping a healthy barrier resilient in the first place, the sibling maintenance list covers what holds up over the long run: [[skin-barrier-strengthening]].
