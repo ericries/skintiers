@@ -1,3 +1,43 @@
+medik8-crystal-retinal-6:
+  last_reviewed: '2026-08-14'
+  score: 8
+  verdict: revise-then-fixed
+  note: 'PRODUCT cron (Sonnet draft, modeled on medik8-crystal-retinal-3 sibling, +
+    Opus critic). 0.06% retinaldehyde serum. Critic re-verified all quotes/price/INCI
+    cache-first, all verbatim ($87, 0.06%, retinal 22nd, ingredient diffs). Verdict
+    REVISE; applied all content fixes: (Critical) removed an uncited CR3-vs-CR6 study
+    comparison that rested on a source not containing it; (Imp) completed the CR3/CR6
+    composition diff (added PPG-12/SMDI copolymer, verified present in the cached CR3
+    INCI, absent from CR6); (Imp) fixed a colorant/fragrance mislabel (vanilla/tonka/
+    coumarin are the scent source, not colorants); (Imp) added a stronger CREDENTIALED
+    rebuttal of the "11x faster" claim, attributed to Chemist Confessions (Fu/Lu) with
+    verbatim quotes verified against the cached transcript + new [^chemistconfessions]
+    footnote; trimmed one mechanism restatement. ALSO fixed a real accuracy bug the
+    critic surfaced on [[retinaldehyde]]: its video-card thesis wrongly listed CR6 among
+    four "tested" products, but the transcript says they "did not test out... the Medik8
+    retinal" (discussed, not tested), reworded accordingly. Photo gallery DEFERRED to
+    the image cron (product has no images: block, will be auto-picked-up). Published at
+    assurance=sonnet (force); sources Opus-re-verified.'
+polysilicone-15:
+  last_reviewed: '2026-08-14'
+  score: 8
+  verdict: revise-then-fixed
+  note: 'INGREDIENT cron (Sonnet draft + Opus profile-reviewer critic). Polysilicone-15
+    (Parsol SLX), an EU-authorized UVB co-filter NOT in the US FDA monograph. Critic
+    re-verified EVERY quote/stat cache-first and found them all verbatim-accurate
+    (incl. the 312 nm peak, which it confirmed by reading the SCCS PDF chart image,
+    and the full Couteau ranking via Europe PMC when PubMed bot-walled). Verdict was
+    REVISE on 3 Important items, all fixed: (1) "weaker-to-middle" overstated its
+    Couteau rank (actually 5th-weakest of 18 = bottom quartile), reworded to "lower"
+    in all 4 places; (2) added the CosIng detail-record URL backing the "functions"
+    quote to [^cosing]; (3) softened an uncited "never submitted to US framework"
+    inference to "a listing gap, not a stated safety finding". SKIPPED the critic''s
+    Minor #4 (meta-commentary in the Rubric framing) as a FALSE POSITIVE: the model
+    page octisalate.md (opus-assured, published) uses the identical two-axis framing,
+    so the drafter correctly followed house pattern. Sources SCCS/1346/10, CosIng
+    Annex VI, 21 CFR 352.10, Couteau 2007; non-primary EU sources cached. Published
+    at assurance=sonnet (force) since no fresh publish verdict, though sources are
+    Opus-re-verified.'
 best-ceramide-moisturizers:
   last_reviewed: '2026-08-14'
   score: 9
