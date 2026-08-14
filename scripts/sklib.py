@@ -668,6 +668,58 @@ def check_tier_list_slugs(metadata, published_slugs):
     return errors
 
 
+# Structured price backing (accuracy gate). The `price:` frontmatter is a list of
+# {amount, currency, size, as_of, source} entries. It exists ONLY to make a price the
+# page already states in prose/sources queryable; it must never introduce a new number.
+# So every structured amount has to be backed by a verbatim price string somewhere on
+# the page. This check is the mechanical enforcement of that rule.
+_PAGE_PRICE_RE = re.compile(r"\$\s?\d[\d,]*(?:\.\d+)?")
+_ISO_DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
+
+
+def _page_price_floats(content):
+    """Every dollar amount that literally appears in the page body, as a set of
+    floats rounded to cents (so $185, $185.00 and $185.0 all compare equal)."""
+    out = set()
+    for m in _PAGE_PRICE_RE.finditer(content):
+        raw = m.group(0).replace("$", "").replace(",", "").replace(" ", "")
+        try:
+            out.add(round(float(raw), 2))
+        except ValueError:
+            continue
+    return out
+
+
+def check_price_backing(metadata, content):
+    """ERROR-level: every structured `price.amount` must correspond to a verbatim
+    price string already present in the page prose or its ## Sources footnotes. This
+    enforces the non-negotiable rule that the structured field only mirrors a price
+    the page already states, never invents, rounds, or looks one up."""
+    price = metadata.get("price")
+    if not price:
+        return []
+    errors = []
+    if not isinstance(price, list):
+        return ["price: must be a list of {amount, currency, size, as_of, source} entries"]
+    page_prices = _page_price_floats(content)
+    for i, entry in enumerate(price):
+        if not isinstance(entry, dict):
+            errors.append(f"price[{i}]: must be a mapping, not {type(entry).__name__}")
+            continue
+        amount = entry.get("amount")
+        if not isinstance(amount, (int, float)) or isinstance(amount, bool):
+            errors.append(f"price[{i}]: missing numeric 'amount'")
+            continue
+        as_of = entry.get("as_of")
+        if as_of is not None and not _ISO_DATE_RE.match(str(as_of)):
+            errors.append(f"price[{i}]: as_of '{as_of}' is not YYYY-MM-DD")
+        if round(float(amount), 2) not in page_prices:
+            errors.append(
+                f"price[{i}]: amount {amount} has no verbatim price string on the page "
+                f"(a structured price must mirror one the page already states, never invent one)")
+    return errors
+
+
 def consistency_issues(data_dir=None, static_dir=None):
     """Scan the whole tree, returning (errors, warnings) as lists of (slug, message).
     errors should fail the build; warnings surface for review. This is the cross-page
@@ -684,6 +736,8 @@ def consistency_issues(data_dir=None, static_dir=None):
         for e in check_images_exist(m, static_dir):
             errors.append((slug, e))
         for e in check_tier_list_slugs(m, published_slugs):
+            errors.append((slug, e))
+        for e in check_price_backing(m, p.content):
             errors.append((slug, e))
         na_errors, na_warnings = check_name_actives(m, ing)
         for e in na_errors:
