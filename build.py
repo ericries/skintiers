@@ -9,6 +9,7 @@ import re
 import shutil
 import sys
 import types
+import zipfile
 
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "scripts"))
 import sklib  # noqa: E402
@@ -1159,6 +1160,73 @@ def render_builder(env, catalog):
     )
 
 
+# --- Phase E: agent-native access layer ------------------------------------
+# Raw GitHub base for the data-as-git markdown, handed to agents on for-agents.html.
+RAW_BASE = "https://raw.githubusercontent.com/ericries/skintiers/main/"
+SKILL_NAME = "skintiers"                         # skill slug; invoked as /skintiers
+SKILL_ZIP = f"{SKILL_NAME}-skill.zip"            # published at the site root
+
+# The machine-readable endpoints an agent consumes. Each `path` MUST be produced as a
+# build output (asserted by tests/test_skill_bundle.py) so the "For Agents" page and the
+# skill never advertise an endpoint that does not exist. Mirrored into skill/endpoints.json.
+AGENT_ENDPOINTS = [
+    {"path": "routine-catalog.json",
+     "desc": "Every published/stub product, code-keyed, with pre-derived effect strength, "
+             "tier, key actives, and UV-filter bands (fastest input for routine analysis)."},
+    {"path": "routines.json",
+     "desc": "Pre-computed dashboards for the site's curated routine pages."},
+    {"path": "feed.json", "desc": "Recently added/updated pages (JSON Feed 1.1)."},
+    {"path": "feed.xml", "desc": "Recently added/updated pages (RSS 2.0)."},
+]
+
+
+def render_for_agents(env):
+    """Render for-agents.html: the plain-language guide that points any AI agent at the
+    site (zero-install path + installable skill). Deliberately NOT linked from the nav or
+    footer yet - discoverability is the integrator's call (Phase E is a first draft)."""
+    return env.get_template("for_agents.html").render(
+        page_url=f"{SITE_URL}/for-agents.html",
+        page_desc="Use SkinTiers with an AI agent: a machine-readable, cited skincare "
+                  "evidence source. Zero-install path plus a downloadable skill.",
+        og_type="website",
+        site_url=SITE_URL,
+        raw_base=RAW_BASE,
+        endpoints=AGENT_ENDPOINTS,
+        skill_name=SKILL_NAME,
+        skill_zip=SKILL_ZIP,
+    )
+
+
+def build_skill_bundle(out):
+    """Assemble the installable agent skill under _site/skill/ (browsable) and zip it to
+    _site/<SKILL_ZIP>. Single-sources its algorithm: docs/routine-strength-spec.md is copied
+    in verbatim, and endpoints.json is generated from AGENT_ENDPOINTS, so the bundle cannot
+    drift from the live build. Returns the list of files placed in the bundle dir."""
+    skill_src = sklib.ROOT / "skill"
+    spec_src = sklib.ROOT / "docs" / "routine-strength-spec.md"
+    skill_out = out / "skill"
+    skill_out.mkdir(parents=True, exist_ok=True)
+
+    # Canonical, hand-written skill instructions.
+    shutil.copy(skill_src / "SKILL.md", skill_out / "SKILL.md")
+    # Single-sourced strength algorithm (canonical copy lives in docs/).
+    shutil.copy(spec_src, skill_out / "routine-strength-spec.md")
+    # Generated endpoint manifest so the skill's endpoint list is always build-accurate.
+    endpoints_manifest = {
+        "site_url": SITE_URL,
+        "raw_base": RAW_BASE,
+        "endpoints": [{"url": f"{SITE_URL}/{e['path']}", **e} for e in AGENT_ENDPOINTS],
+    }
+    (skill_out / "endpoints.json").write_text(json.dumps(endpoints_manifest, indent=2))
+
+    bundle_files = sorted(p.name for p in skill_out.iterdir() if p.is_file())
+    zip_path = out / SKILL_ZIP
+    with zipfile.ZipFile(zip_path, "w", zipfile.ZIP_DEFLATED) as zf:
+        for name in bundle_files:
+            zf.write(skill_out / name, arcname=f"{SKILL_NAME}/{name}")
+    return bundle_files
+
+
 FEED_TITLE = "SkinTiers - What's New"
 FEED_DESC = "Recently added and updated pages on SkinTiers, a skeptical, evidence-first skincare directory."
 FEED_LIMIT = 50
@@ -1424,6 +1492,11 @@ def build():
         n_dated=sum(1 for c in feed_cards if c.get("posted")),
         needs_tiktok_js=any((video_embed(c.get("url")) or {}).get("kind") == "tiktok"
                             for c in feed_cards)))
+
+    # Phase E: agent-native access layer. The "For Agents" page + the installable skill
+    # bundle. Left UNLINKED from the nav/footer on purpose (integrator decides launch).
+    (out / "for-agents.html").write_text(render_for_agents(env))
+    build_skill_bundle(out)
 
     if sklib.STATIC_DIR.exists():
         for f in sklib.STATIC_DIR.iterdir():

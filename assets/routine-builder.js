@@ -1,3 +1,8 @@
+// Routine strength/actives/sunscreen logic lives in computeDashboard() below.
+// CANONICAL SPEC: docs/routine-strength-spec.md is the single source of truth for this
+// algorithm (build.py:routine_summary and skill/SKILL.md implement the same spec). This
+// file hardcodes the same numbers today; it should eventually read them from that spec so
+// the browser, the build, and the agent skill cannot drift. Change the spec first.
 (function (root) {
   'use strict';
   var CODE_RE = /^[0-9A-Za-z]+$/;
