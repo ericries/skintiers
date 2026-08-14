@@ -6,6 +6,17 @@ slug: acne
 status: published
 type: condition
 updated: '2026-08-05'
+videos:
+- title: "What to do (and what not to do) during an active acne breakout"
+  creator: "Ella (@your.estie.ella)"
+  creator_slug: your-estie-ella
+  credential: "Licensed esthetician"
+  platform: TikTok
+  url: https://www.tiktok.com/@your.estie.ella/video/7672370181460512014
+  posted: '2026-08-10'
+  thesis: "Licensed esthetician Ella (@your.estie.ella) explains what to do during an active acne breakout: resist the urge to pile on new actives, avoid scrubs, dermaplaning, and at-home extraction tools, and instead keep the skin calm, stay on your current routine, and add at most one new treatment at a time while giving it weeks to work. For active spots she suggests spot-treating with pimple patches, a spot treatment, or a sulfur mask rather than overhauling the whole routine, since breakouts take time to settle."
+  related: [salicylic-acid, retinoids, sulfur]
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 tier_list:
   title: "Acne topical actives by evidence"
   by: "strength of the evidence for treating acne — several of these are clinically similar, so the tiers track evidence certainty, not effect size alone"

@@ -16,6 +16,16 @@ videos:
   posted: '2026-02-07'
   thesis: "Board-certified dermatologist Dr. Shereene Idriss groups eight cosmetic peptides by the skin concern each targets: acetyl tetrapeptide-40 for barrier support and inflammation, palmitoyl tripeptide-1 with palmitoyl tetrapeptide-7 together for collagen signaling and preservation, oligopeptide-1 for long-term texture and skin repair, hexapeptide-2 for pigment regulation, acetyl hexapeptide-8 (Argireline) as a temporary 'Botox in a bottle' softener of expression lines that she says is not worth spending much money on, palmitoyl hexapeptide-52 for environmentally stressed skin, and palmitoyl tripeptide-38 for lip texture and fullness."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: "Peptide serums for anti-aging: setting realistic expectations"
+  creator: "Ella (@your.estie.ella)"
+  creator_slug: your-estie-ella
+  credential: "Licensed esthetician"
+  platform: TikTok
+  url: https://www.tiktok.com/@your.estie.ella/video/7671707845510941966
+  posted: '2026-08-08'
+  thesis: "Licensed esthetician Ella (@your.estie.ella) sets expectations for peptide serums in an anti-aging routine: a peptide serum is not an all-in-one anti-aging product, and without a daily sunscreen and a good retinoid she says you are unlikely to see much from it, because peptides cannot match what a retinoid does on fine lines and wrinkles. She frames the realistic benefits of peptides as overall brightening, smoother texture, and a more youthful appearance, and says results build over roughly eight to twelve months of continued use rather than within three."
+  related: [retinoids, sunscreen-uv-filters, anti-aging]
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 ---
 
 Cosmetic peptides are short chains of amino acids added to skincare, usually to signal collagen production, relax expression lines, or carry trace metals, and marketed mainly as anti-aging actives whose measured effect on the look of aging is modest and mostly preliminary. Because the evidence differs sharply by the type of peptide, this profile grades them by class rather than as one ingredient.

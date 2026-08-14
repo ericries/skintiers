@@ -1593,3 +1593,17 @@
   discovered_from: 'LIST cron: derm-recommended barrier/occlusive cream, ties to skin-barrier-repair;
     absent from site+queue'
   source: https://www.eucerinus.com/products/original-healing/original-healing-rich-cream
+- name: Torriden Dive-In Low Molecular Hyaluronic Acid Cream
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: 'BRAND cron (torriden): sibling cream to the profiled Dive-In serum;
+    ties to hyaluronic-acid + glass-skin'
+  source: https://torriden.us/products/dive-in-cream
+- name: Torriden Balanceful Cica Cream
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: 'BRAND cron (torriden): centella barrier cream; ties to centella-asiatica
+    + skin-barrier-repair'
+  source: https://torriden.us/products/balanceful-cica-cream
