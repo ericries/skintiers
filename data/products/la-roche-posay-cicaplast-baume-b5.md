@@ -5,6 +5,10 @@ brand: La Roche-Posay
 category: Moisturizers
 comparator: other panthenol- or centella-based barrier-repair balms, especially [[purito-panthenol-moisturizer]]
   and occlusive repair balms like [[cerave-healing-ointment]]
+images:
+- file: la-roche-posay-cicaplast-baume-b5-target.jpg
+  source: Target
+  source_url: https://www.target.com/p/la-roche-posay-cicaplast-balm-vitamin-b5-soothing-therapeutic-cream-for-dry-skin-and-irritated-skin-unscented-1-35oz/-/A-50009971
 grades:
 - effect: modest
   evidence: solid

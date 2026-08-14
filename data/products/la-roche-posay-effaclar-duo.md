@@ -3,6 +3,10 @@ analyzed: '2026-08-08'
 assurance: opus
 brand: La Roche-Posay
 category: Treatments
+images:
+- file: la-roche-posay-effaclar-duo-target.jpg
+  source: Target
+  source_url: https://www.target.com/p/la-roche-posay-effaclar-duo-m-multi-target-acne-treatment-with-salicylic-acid-1-35-fl-oz/-/A-94581537
 grades:
 - effect: minimal
   evidence: preliminary

@@ -5,6 +5,10 @@ brand: Aveeno
 category: Moisturizers
 comparator: the cosmetic-only oat lotion [[aveeno-daily-moisturizing-lotion]] and
   other barrier/eczema creams such as [[cerave-moisturizing-cream]]
+images:
+- file: aveeno-eczema-therapy-daily-moisturizing-cream-target.jpg
+  source: Target
+  source_url: https://www.target.com/p/aveeno-eczema-therapy-daily-soothing-eczema-relief-steroid-free-body-cream-fragrance-free-7-3oz/-/A-14502700
 grades:
 - effect: modest to notable
   evidence: solid

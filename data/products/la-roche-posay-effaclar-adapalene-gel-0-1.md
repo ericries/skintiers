@@ -15,6 +15,10 @@ evidence_levels:
     Roche-Posay SKU was found, so the grade rests on the general adapalene
     evidence rather than a trial of this exact product
   formula_tested: false
+images:
+- file: la-roche-posay-effaclar-adapalene-gel-0-1-target.jpg
+  source: Target
+  source_url: https://www.target.com/p/la-roche-posay-unscented-effaclar-adapalene-topical-retinoid-oil-free-acne-treatment-1-6oz/-/A-76153613
 grades:
 - effect: modest to notable
   evidence: solid

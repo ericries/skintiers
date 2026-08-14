@@ -5,6 +5,10 @@ brand: La Roche-Posay
 category: Sunscreens
 comparator: broad-spectrum sunscreens sold in the US on the older avobenzone-based
   filter set
+images:
+- file: la-roche-posay-anthelios-uvmune-400-spf-50-laroche-posay.png
+  source: La Roche-Posay (official, Middle East regional site)
+  source_url: https://www.laroche-posay-me.com/en/anthelios/anthelios-uvmune/anthelios-uvmune-400-invisible-fluid-spf50-plus-non-perfumed
 grades:
 - effect: strong
   evidence: preliminary
