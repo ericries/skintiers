@@ -3,6 +3,10 @@ analyzed: '2026-08-08'
 assurance: sonnet
 brand: Good Molecules
 category: Niacinamide serums
+images:
+- file: good-molecules-discoloration-correcting-serum-goodmolecules.jpg
+  source: Good Molecules
+  source_url: https://www.goodmolecules.com/s/good-molecules-discoloration-correcting-serum-30ml
 comparator: other niacinamide serums
 grades:
 - effect: modest

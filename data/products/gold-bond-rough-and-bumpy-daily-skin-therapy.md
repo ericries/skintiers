@@ -3,6 +3,10 @@ analyzed: '2026-08-11'
 assurance: sonnet
 brand: Gold Bond
 category: Moisturizers
+images:
+- file: gold-bond-rough-and-bumpy-daily-skin-therapy-goldbond.jpg
+  source: Gold Bond
+  source_url: https://www.goldbond.com/en-us/products/rough-bumpy
 comparator: other exfoliating body lotions and creams marketed for rough, bumpy, keratosis-pilaris-prone
   skin
 grades:

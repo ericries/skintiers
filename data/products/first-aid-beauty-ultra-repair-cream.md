@@ -3,6 +3,10 @@ analyzed: '2026-08-06'
 assurance: sonnet
 brand: First Aid Beauty
 category: Moisturizers
+images:
+- file: first-aid-beauty-ultra-repair-cream-firstaidbeauty.jpg
+  source: First Aid Beauty
+  source_url: https://www.firstaidbeauty.com/products/ultra-repair-cream-intense-hydration
 comparator: other rich barrier moisturizers for dry and eczema-prone skin
 grades:
 - effect: notable

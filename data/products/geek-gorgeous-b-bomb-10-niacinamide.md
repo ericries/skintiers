@@ -3,6 +3,10 @@ analyzed: '2026-08-08'
 assurance: opus
 brand: geek-gorgeous
 category: Niacinamide serums
+images:
+- file: geek-gorgeous-b-bomb-10-niacinamide-geekandgorgeous.jpg
+  source: Geek & Gorgeous
+  source_url: https://geekandgorgeous.com/products/b-bomb
 comparator: other 10% niacinamide serums
 grades:
 - effect: modest
