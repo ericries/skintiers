@@ -14,6 +14,7 @@ videos:
   platform: YouTube
   url: https://www.youtube.com/watch?v=r95YJoxZQ-I
   posted: '2026-03-25'
+  related: [hydroquinone, hyperpigmentation]
   thesis: "Ranking hyperpigmentation actives after a multi-episode series, cosmetic chemists Victoria Fu and Gloria Lu of Chemist Confessions place 20% azelaic acid in their top tier alongside 4% hydroquinone, citing its long track record and data specifically in darker skin tones. They rank 10% azelaic acid a tier lower, arguing most 10% products lean on the 20% research without their own evidence and function better as a supporting 'sidekick' than a stand-alone treatment."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 - title: "Hyperpigmentation and Sensitive Skin: Why Most Treatments Cause Irritation and What Actually Works"
@@ -23,6 +24,7 @@ videos:
   platform: YouTube
   url: https://www.youtube.com/watch?v=ombQvS1pPfg
   posted: '2026-04-28'
+  related: [niacinamide, hyperpigmentation]
   thesis: "For pigmentation in sensitive or darker skin, UK board-certified dermatologist Dr. Sam Bunting favors azelaic acid because it works through several mechanisms at once: competitive inhibition of tyrosinase, selective targeting of overactive melanocytes, downregulating melanocyte mitochondrial energy, and speeding cell turnover to shed existing pigment, all without the irritation that itself can trigger more melanin production. She pairs azelaic acid with niacinamide, which blocks delivery of melanin parcels to skin cells while also supporting the barrier via ceramide production."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 ---

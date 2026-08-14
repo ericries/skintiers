@@ -854,3 +854,10 @@
     in the [[fungal-acne]] caption as a first-line topical but with no ingredient
     page yet; completes the antifungal set alongside the queued ketoconazole + zinc
     pyrithione. Real OTC evidence (Selsun/Head & Shoulders). https://pubmed.ncbi.nlm.nih.gov/?term=selenium+sulfide+malassezia
+- name: Oxybenzone
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: A common older UV filter (benzophenone-3) referenced in sunscreen-allergy/comparison
+    videos; no page yet, so those video cards can't link to it. Would extend [[sunscreen-uv-filters]].

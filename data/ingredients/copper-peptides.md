@@ -23,6 +23,7 @@ videos:
   platform: YouTube
   url: https://www.youtube.com/watch?v=YuHLRmJMUzI
   posted: '2026-08-01'
+  related: [vitamin-c, hyperpigmentation]
   thesis: "Answering a viewer question in a weekend Q&A, board-certified dermatologist Andrea Suarez (Dr. Dray) says copper is involved in the enzyme tyrosinase, so there is a theoretical reason copper peptides could help hyperpigmentation, but no good clinical research shows they actually work for it. She says topical vitamin C, especially ascorbic acid, has a lot more evidence behind it for hyperpigmentation, and that even the non-ascorbic-acid vitamin C derivatives are still a better bet than copper peptides because they act as surface antioxidants."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 ---

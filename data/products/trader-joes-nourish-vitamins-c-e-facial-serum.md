@@ -50,6 +50,7 @@ videos:
   platform: TikTok
   url: https://www.tiktok.com/@javonford16/video/7645121314952498446
   posted: '2026-05-29'
+  related: [skinceuticals-c-e-ferulic, ascorbic-acid-vitamin-c, ferulic-acid, tocopherol]
   thesis: "Cosmetic chemist Javon Ford says Trader Joe's Vitamin C Serum is a close formula match to SkinCeuticals C E Ferulic: both use 15% L-ascorbic acid, 1% tocopherol, 0.5% ferulic acid, a similar pH range of 2 to 3.5, and the same ethoxydiglycol penetration enhancer. He notes the differences are the solubilizer (Trader Joe's uses polyglyceryl-10 caprate instead of Laureth-8) and added sunflower oil, which could matter for sunflower allergies or formula stability."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 ---

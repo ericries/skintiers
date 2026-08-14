@@ -14,6 +14,7 @@ videos:
   platform: TikTok
   url: https://www.tiktok.com/@javonford16/video/7638978796485414157
   posted: '2026-05-12'
+  related: [prequel]
   thesis: "Cosmetic chemist Javon Ford says hypochlorous acid sprays like Tower 28's SOS Spray and Prequel's spray are functionally the same formula, because HOCl is made through electrolysis of saltwater, so any major deviation destabilizes it, and both list only water, sodium chloride, and hypochlorous acid. He notes differences in listed ingredient order among brands don't indicate a different formula, since ingredients under 1% can be listed in any order, so he says to use whichever brand is preferred."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 - title: "Hypochlorous Acid Deep Dive, BuzzFeed's Top Skincare Products, Rice Water Secrets & Shark Repellents"
@@ -23,6 +24,7 @@ videos:
   platform: YouTube
   url: https://www.youtube.com/watch?v=2xNfzaAqx5A
   posted: '2024-07-02'
+  related: [differin-adapalene-0-1-gel, paulas-choice-skin-perfecting-2-bha]
   thesis: "Board-certified dermatologist Dr. Muneeb Shah calls hypochlorous acid a leave-on sanitizer that the body naturally produces during the immune system's oxidative burst, useful as a bacteria-killing spray for acne mechanica (mask or helmet-related breakouts) and for disinfecting makeup brushes and beauty blenders. He says people with normal, healthy skin likely will not benefit and could even disrupt their skin microbiome by killing normal bacteria, and that hypochlorous acid is cheap to formulate, so there is no need to overspend on a specific brand."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 ---

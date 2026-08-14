@@ -14,6 +14,7 @@ videos:
   platform: YouTube
   url: https://www.youtube.com/watch?v=j13syR1ZdGA
   posted: '2023-07-02'
+  related: [avobenzone]
   thesis: "Board-certified dermatologist Dr. Whitney Bowe recommends zinc oxide mineral sunscreen for patients with a suspected sunscreen allergy, because zinc oxide is soothing, has anti-inflammatory properties (the same reason it is used in diaper creams), and will not itself cause an allergy. She notes the tradeoffs: mineral-only formulas can leave a white cast, especially on deeper skin tones, and some zinc oxide formulations can be drying, so she pairs them with a hydrating routine."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 ---

@@ -14,6 +14,7 @@ videos:
   platform: YouTube
   url: https://www.youtube.com/watch?v=lr-5jIX2vhk
   posted: '2023-07-20'
+  related: [ascorbic-acid-vitamin-c, vitamin-c]
   thesis: "Board-certified dermatologist Dr. Whitney Bowe explains that tetrahexyldecyl ascorbate (THD ascorbate) is lipid-loving, which she says lets it more readily penetrate the lipid-heavy stratum corneum and reach into pores, where she argues free radicals contribute to acne through lipid peroxidation. She personally favors combining it with a water-loving vitamin C form for fuller delivery; her penetration rationale is a view expressed in the video, not a trial result, and is the same mechanism claim examined in this page's evidence."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship. Her efficacy framing is her own; see this page's evidence for the controlled-trial picture."
 ---

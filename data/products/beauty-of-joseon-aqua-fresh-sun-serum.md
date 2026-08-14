@@ -47,6 +47,7 @@ videos:
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
   platform: YouTube
   posted: '2024-08-22'
+  related: [beauty-of-joseon-relief-sun-rice-probiotics-spf50]
   thesis: Board-certified dermatologist Dr. Scott Walter compares Beauty of Joseon's
     newer Aqua-fresh sunscreen side by side with the brand's original Relief Sun,
     noting Aqua-fresh keeps the rice and green tea but adds panthenol, ferulic acid,

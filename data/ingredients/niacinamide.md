@@ -18,6 +18,7 @@ videos:
   platform: YouTube
   url: https://www.youtube.com/watch?v=pEn6fIL51Dk
   posted: '2026-04-17'
+  related: [vitamin-c]
   thesis: "Board-certified dermatologist Dr. Sam Ellis says that for patients whose skin does not tolerate vitamin C, niacinamide is the alternative she recommends most, since it is also an antioxidant but additionally strengthens the skin barrier, is anti-inflammatory, helps with oil control, and brightens by blocking pigment transfer rather than pigment production. She says niacinamide is most studied at 2 to 5%, though the benefit does not clearly top out at 5%, and she favors it especially for acne-prone or oily skin."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 name: Niacinamide

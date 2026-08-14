@@ -15,6 +15,7 @@ videos:
   platform: TikTok
   url: https://www.tiktok.com/@javonford16/video/7635837533212953869
   posted: '2026-05-04'
+  related: [hydroxypinacolone-retinoate]
   thesis: "Cosmetic chemist Javon Ford warns against DIY-mixing raw retinol into a body lotion, because retinol is already hard to stabilize and an open-air container will not preserve it, calling the practice wasteful rather than money-saving when cheaper pre-formulated retinol body creams already exist. He also clarifies that The Ordinary's Granactive Retinoid is an ester of retinol, not retinol itself, so it still works but more slowly."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 - title: "3 Things Making Your Skin WORSE - Dermaplaning, Gua Sha & Slugging Retinoids"
