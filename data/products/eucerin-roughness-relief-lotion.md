@@ -26,6 +26,12 @@ key_actives:
 - lactic-acid
 - ceramides
 name: Eucerin Roughness Relief Lotion
+price:
+- amount: 14.97
+  currency: USD
+  size: "16.9 fl oz"
+  as_of: '2026-08-12'
+  source: "^walmart"
 slug: eucerin-roughness-relief-lotion
 status: published
 type: product

@@ -26,6 +26,12 @@ key_actives:
 - houttuynia-cordata
 - centella-asiatica
 name: Anua Heartleaf 77% Clear Pad
+price:
+- amount: 22
+  currency: USD
+  size: "160 ml"
+  as_of: '2026-08-07'
+  source: "^anua"
 slug: anua-heartleaf-77-clear-pad
 status: published
 type: product

@@ -21,6 +21,12 @@ grades:
 key_actives:
 - hypochlorous-acid
 name: Prequel Universal Skin Solution
+price:
+- amount: 17
+  currency: USD
+  size: "4 fl oz"
+  as_of: '2026-08-07'
+  source: "^pdp"
 slug: prequel-universal-skin-solution
 status: published
 type: product

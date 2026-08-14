@@ -24,6 +24,12 @@ key_actives:
 - arbutin
 - niacinamide
 name: Beauty of Joseon Glow Deep Serum Rice + Alpha-Arbutin
+price:
+- amount: 17
+  currency: USD
+  size: "30 ml"
+  as_of: '2026-08-07'
+  source: "^boj"
 slug: beauty-of-joseon-glow-deep-serum-rice-alpha-arbutin
 status: published
 type: product

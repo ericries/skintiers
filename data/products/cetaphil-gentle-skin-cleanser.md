@@ -38,6 +38,12 @@ recommended_in:
 - source: allure.com
   title: Allure, Cetaphil Gentle Skin Cleanser review (multiple-award-winning formula)
   url: https://www.allure.com/review/cetaphil-gentle-skin-cleanser
+price:
+- amount: 12.89
+  currency: USD
+  size: "16 fl oz"
+  as_of: '2026-07-28'
+  source: "^6"
 slug: cetaphil-gentle-skin-cleanser
 status: published
 type: product

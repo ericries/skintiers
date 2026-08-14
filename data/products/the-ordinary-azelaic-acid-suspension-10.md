@@ -31,6 +31,12 @@ images:
   source: Amazon
   source_url: https://www.amazon.com/dp/B06WD5J8KY
 name: The Ordinary Azelaic Acid Suspension 10%
+price:
+- amount: 12.2
+  currency: USD
+  size: "30 ml"
+  as_of: '2026-07-28'
+  source: "^1"
 slug: the-ordinary-azelaic-acid-suspension-10
 status: published
 type: product

@@ -34,6 +34,12 @@ key_actives:
 - hyaluronic-acid
 - glycerin
 name: Prequel AM/PM Modern Moisturizer
+price:
+- amount: 17.99
+  currency: USD
+  size: "2 fl oz"
+  as_of: '2026-08-07'
+  source: "^target"
 slug: prequel-am-pm-modern-moisturizer
 status: published
 type: product

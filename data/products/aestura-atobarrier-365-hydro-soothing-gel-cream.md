@@ -31,6 +31,12 @@ images:
 key_actives:
 - cholesterol
 name: Aestura Atobarrier 365 Hydro Soothing Gel Cream
+price:
+- amount: 47.99
+  currency: USD
+  size: "2.02 oz"
+  as_of: '2026-08-07'
+  source: "^target"
 slug: aestura-atobarrier-365-hydro-soothing-gel-cream
 status: published
 type: product

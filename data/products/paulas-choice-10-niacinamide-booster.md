@@ -32,6 +32,12 @@ key_actives:
 - niacinamide
 - ascorbyl-glucoside
 name: Paula's Choice 10% Niacinamide Booster
+price:
+- amount: 53
+  currency: USD
+  size: "20 ml"
+  as_of: '2026-08-07'
+  source: "^2"
 slug: paulas-choice-10-niacinamide-booster
 status: published
 type: product

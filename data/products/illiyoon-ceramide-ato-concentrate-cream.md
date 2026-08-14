@@ -23,6 +23,12 @@ grades:
 key_actives:
 - ceramides
 name: Illiyoon Ceramide Ato Concentrate Cream
+price:
+- amount: 39.99
+  currency: USD
+  size: "5.07 oz"
+  as_of: '2026-08-07'
+  source: "^target"
 slug: illiyoon-ceramide-ato-concentrate-cream
 status: published
 type: product

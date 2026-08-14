@@ -40,6 +40,12 @@ key_actives:
 - bisoctrizole
 - ethylhexyl-triazone
 - niacinamide
+price:
+- amount: 18
+  currency: USD
+  size: "50 ml"
+  as_of: '2026-07-28'
+  source: "^1"
 slug: beauty-of-joseon-relief-sun-rice-probiotics-spf50
 status: published
 type: product

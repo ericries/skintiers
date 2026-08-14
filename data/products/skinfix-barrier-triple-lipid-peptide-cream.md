@@ -30,6 +30,12 @@ key_actives:
 - free-fatty-acids
 - peptides
 name: Skinfix Barrier+ Triple Lipid-Peptide Cream
+price:
+- amount: 54
+  currency: USD
+  size: "0.5 oz"
+  as_of: '2026-08-07'
+  source: "^skinfix"
 slug: skinfix-barrier-triple-lipid-peptide-cream
 status: published
 type: product

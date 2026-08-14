@@ -37,6 +37,12 @@ evidence_levels:
     used an 8% cream, so reading across from it is reasonable but not direct
   formula_tested: false
 name: The Ordinary Glycolic Acid 7% Toning Solution
+price:
+- amount: 9
+  currency: USD
+  size: "100 ml"
+  as_of: '2026-08-05'
+  source: "^1"
 slug: the-ordinary-glycolic-acid-7-toning-solution
 status: published
 type: product

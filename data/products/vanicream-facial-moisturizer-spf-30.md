@@ -29,6 +29,12 @@ key_actives:
 - zinc-oxide
 - ceramides
 name: Vanicream Facial Moisturizer Broad Spectrum SPF 30
+price:
+- amount: 13.99
+  currency: USD
+  size: "2.5 oz"
+  as_of: '2026-08-07'
+  source: "^2"
 slug: vanicream-facial-moisturizer-spf-30
 status: published
 type: product

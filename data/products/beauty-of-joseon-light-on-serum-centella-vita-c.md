@@ -18,6 +18,12 @@ grades:
 images:
 - beauty-of-joseon-light-on-serum-centella-vita-c.jpg
 name: 'Beauty of Joseon Light On Serum: Centella + Vita C'
+price:
+- amount: 17
+  currency: USD
+  size: "30 ml"
+  as_of: '2026-07-27'
+  source: "^1"
 slug: beauty-of-joseon-light-on-serum-centella-vita-c
 status: published
 type: product

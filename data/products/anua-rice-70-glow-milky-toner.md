@@ -25,6 +25,11 @@ grades:
 key_actives:
 - niacinamide
 name: Anua Rice 70 Glow Milky Toner
+price:
+- amount: 23
+  currency: USD
+  as_of: '2026-08-07'
+  source: "^anua"
 slug: anua-rice-70-glow-milky-toner
 status: published
 type: product

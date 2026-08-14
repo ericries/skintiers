@@ -24,6 +24,12 @@ key_actives:
 - snail-secretion-filtrate
 - hyaluronic-acid
 name: COSRX Advanced Snail 96 Mucin Power Essence
+price:
+- amount: 8.5
+  currency: USD
+  size: "1.01 fl oz"
+  as_of: '2026-08-07'
+  source: "^2"
 slug: cosrx-advanced-snail-96-mucin-power-essence
 status: published
 type: product

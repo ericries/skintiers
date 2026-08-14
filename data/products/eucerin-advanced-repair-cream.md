@@ -22,6 +22,12 @@ key_actives:
 - urea
 - glycerin
 name: Eucerin Advanced Repair Cream
+price:
+- amount: 13.49
+  currency: USD
+  size: "16 oz"
+  as_of: '2026-08-07'
+  source: "^target"
 slug: eucerin-advanced-repair-cream
 status: published
 type: product

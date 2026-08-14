@@ -29,6 +29,11 @@ key_actives:
 - titanium-dioxide
 - niacinamide
 name: CeraVe Hydrating Mineral Sunscreen SPF 50
+price:
+- amount: 15.99
+  currency: USD
+  as_of: '2026-08-07'
+  source: "^1"
 slug: cerave-hydrating-mineral-sunscreen-spf-50
 status: published
 type: product

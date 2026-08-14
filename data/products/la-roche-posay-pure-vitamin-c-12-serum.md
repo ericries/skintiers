@@ -29,6 +29,12 @@ grades:
 key_actives:
 - ascorbic-acid-vitamin-c
 name: La Roche-Posay Pure Vitamin C12 Serum
+price:
+- amount: 44.99
+  currency: USD
+  size: "30 ml"
+  as_of: '2026-08-06'
+  source: "^lrp"
 slug: la-roche-posay-pure-vitamin-c-12-serum
 status: published
 type: product

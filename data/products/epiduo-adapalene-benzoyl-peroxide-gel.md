@@ -35,6 +35,17 @@ key_actives:
 - adapalene
 - benzoyl-peroxide
 name: Epiduo (adapalene 0.1% / benzoyl peroxide 2.5%)
+price:
+- amount: 19.99
+  currency: USD
+  size: "15 g"
+  as_of: '2026-08-07'
+  source: "^target"
+- amount: 34.99
+  currency: USD
+  size: "45 g"
+  as_of: '2026-08-07'
+  source: "^target"
 slug: epiduo-adapalene-benzoyl-peroxide-gel
 status: published
 type: product

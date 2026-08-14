@@ -19,6 +19,12 @@ grades:
 key_actives:
 - benzoyl-peroxide
 name: PanOxyl Acne Foaming Wash Benzoyl Peroxide 10%
+price:
+- amount: 10.19
+  currency: USD
+  size: "5.5 oz"
+  as_of: '2026-08-07'
+  source: "^2"
 slug: panoxyl-acne-foaming-wash-benzoyl-peroxide-10
 status: published
 type: product

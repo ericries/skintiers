@@ -38,6 +38,12 @@ images:
   source_url: https://www.skinsafeproducts.com/trader-joe-s-serum-vitamin-c-1-fl-oz-29-ml
 name: Trader Joe's Vitamin C Serum
 recommended_in: []
+price:
+- amount: 9.99
+  currency: USD
+  size: "1 fl oz"
+  as_of: '2026-08-03'
+  source: "^1"
 slug: trader-joes-nourish-vitamins-c-e-facial-serum
 status: published
 type: product

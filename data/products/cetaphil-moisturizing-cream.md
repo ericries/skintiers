@@ -32,6 +32,12 @@ recommended_in:
 - source: today.com
   title: TODAY (NBC), Do Experts Actually Recommend Cetaphil? We Asked Dermatologists
   url: https://www.today.com/shop/best-cetaphil-products-rcna183415
+price:
+- amount: 18.99
+  currency: USD
+  size: "16 oz"
+  as_of: '2026-07-31'
+  source: "^8"
 slug: cetaphil-moisturizing-cream
 status: published
 type: product

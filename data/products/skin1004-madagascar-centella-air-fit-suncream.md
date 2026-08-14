@@ -28,6 +28,12 @@ key_actives:
 - niacinamide
 - centella-asiatica
 name: SKIN1004 Madagascar Centella Air-Fit Suncream
+price:
+- amount: 18
+  currency: USD
+  size: "50 ml"
+  as_of: '2026-08-07'
+  source: "^1"
 slug: skin1004-madagascar-centella-air-fit-suncream
 status: published
 type: product

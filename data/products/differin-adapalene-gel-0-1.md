@@ -32,6 +32,12 @@ grades:
 key_actives:
 - adapalene
 name: Differin Gel (adapalene 0.1%)
+price:
+- amount: 23.99
+  currency: USD
+  size: "45 g"
+  as_of: '2026-08-07'
+  source: "^target"
 slug: differin-adapalene-gel-0-1
 status: published
 type: product

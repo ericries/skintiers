@@ -36,6 +36,12 @@ images:
   source: Amazon
   source_url: https://www.amazon.com/Prequel-Skin-Lucent-C-L-Asorbic-Treatment/dp/B0CX33YMJJ
 name: Prequel Lucent-C Brightening Vitamin C Serum
+price:
+- amount: 23
+  currency: USD
+  size: "30 ml"
+  as_of: '2026-07-28'
+  source: "^1"
 slug: prequel-lucent-c-vitamin-c-serum
 status: published
 type: product

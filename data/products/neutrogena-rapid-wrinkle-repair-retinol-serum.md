@@ -30,6 +30,12 @@ grades:
 key_actives:
 - retinol
 name: Neutrogena Rapid Wrinkle Repair Retinol Serum
+price:
+- amount: 27.99
+  currency: USD
+  size: "1 fl oz"
+  as_of: '2026-08-07'
+  source: "^1"
 slug: neutrogena-rapid-wrinkle-repair-retinol-serum
 status: published
 type: product

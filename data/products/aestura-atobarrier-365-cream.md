@@ -25,6 +25,12 @@ images:
 key_actives:
 - ceramides
 name: Aestura Atobarrier 365 Cream
+price:
+- amount: 42.99
+  currency: USD
+  size: "2.70 oz"
+  as_of: '2026-08-07'
+  source: "^target"
 slug: aestura-atobarrier-365-cream
 status: published
 type: product

@@ -26,6 +26,12 @@ key_actives:
 - lactic-acid
 - gluconolactone-pha
 name: Gold Bond Rough & Bumpy Daily Skin Therapy Cream
+price:
+- amount: 11.97
+  currency: USD
+  size: "8 oz"
+  as_of: '2026-08-11'
+  source: "^pdp"
 slug: gold-bond-rough-and-bumpy-daily-skin-therapy
 status: published
 type: product

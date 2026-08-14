@@ -33,6 +33,12 @@ key_actives:
 - peptides
 - vitamin-c
 name: Paula's Choice Clinical 1% Retinol Treatment
+price:
+- amount: 65
+  currency: USD
+  size: "30 ml"
+  as_of: '2026-08-07'
+  source: "^dermstore"
 slug: paulas-choice-clinical-1-retinol-treatment
 status: published
 type: product

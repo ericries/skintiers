@@ -23,6 +23,12 @@ grades:
 key_actives:
 - niacinamide
 name: La Roche-Posay Mela B3 Serum
+price:
+- amount: 44.99
+  currency: USD
+  size: "1 fl oz"
+  as_of: '2026-08-07'
+  source: "^target"
 slug: la-roche-posay-mela-b3-serum
 status: published
 type: product

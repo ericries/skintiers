@@ -29,6 +29,12 @@ grades:
 key_actives:
 - zinc-oxide
 name: Dr.G Green Mild Up Sun+ SPF50+
+price:
+- amount: 32
+  currency: USD
+  size: "50 ml"
+  as_of: '2026-08-07'
+  source: "^yesstyle"
 slug: dr-g-green-mild-up-sun
 status: published
 type: product

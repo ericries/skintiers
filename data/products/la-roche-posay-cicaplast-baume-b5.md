@@ -26,6 +26,12 @@ grades:
 key_actives:
 - panthenol
 name: La Roche-Posay Cicaplast Baume B5
+price:
+- amount: 14.29
+  currency: USD
+  size: "1.35 oz"
+  as_of: '2026-08-07'
+  source: "^1"
 slug: la-roche-posay-cicaplast-baume-b5
 status: published
 type: product

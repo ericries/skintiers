@@ -35,6 +35,12 @@ key_actives:
 - hydroxypinacolone-retinoate
 - retinaldehyde
 name: The INKEY List Starter Retinol Serum
+price:
+- amount: 15
+  currency: USD
+  size: "30 ml"
+  as_of: '2026-08-07'
+  source: "^inkeyus"
 slug: the-inkey-list-starter-retinol-serum
 status: published
 type: product

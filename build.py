@@ -347,6 +347,33 @@ def grades_view_for(metadata, published_slugs=None, slug_to_name=None):
     return view
 
 
+def _fmt_amount(amount):
+    """Money as it reads on a shelf: no trailing zeros for whole dollars, else cents."""
+    if amount == int(amount):
+        return f"${int(amount):,}"
+    return f"${amount:,.2f}"
+
+
+def price_view_for(metadata):
+    """Rows for the structured Price section from a product's `price:` frontmatter.
+    Each entry mirrors a price the page already states (enforced by sklib.check_price_backing),
+    so this only formats it; it does not fetch or compute anything."""
+    entries = metadata.get("price")
+    if not entries or not isinstance(entries, list):
+        return []
+    view = []
+    for e in entries:
+        if not isinstance(e, dict) or not isinstance(e.get("amount"), (int, float)):
+            continue
+        view.append({
+            "amount": _fmt_amount(float(e["amount"])),
+            "currency": e.get("currency") or "USD",
+            "size": e.get("size"),
+            "as_of": e.get("as_of"),
+        })
+    return view
+
+
 def _derive_primary_active(metadata, published_slugs, rank_index):
     """Pick the product's primary studied active for an auto-derived evidence box.
     Prefers a key_active that sits in a ranked potency list (so the ladder shows),
@@ -1390,6 +1417,7 @@ def build():
             sources_html=sources_html,
             comparator=render_inline(p.get("comparator") or "others in its category", slugs, names),
             grades_view=grades_view_for(p.metadata, slugs, names),
+            price_view=price_view_for(p.metadata),
             evidence_levels=evidence_levels_view(p.metadata, slugs, names, potency_rank_index),
             recommended_in=p.get("recommended_in") or [],
             images=images,

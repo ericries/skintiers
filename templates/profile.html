@@ -182,6 +182,17 @@
 
   {% if body_main %}<section class="prose">{{ body_main | safe }}</section>{% endif %}
 
+  {% if price_view %}
+  <section class="price-box" aria-label="Price">
+    <h2>Price</h2>
+    <ul class="price-list">
+      {% for pr in price_view %}
+      <li><span class="price-amt">{{ pr.amount }}</span>{% if pr.size %} <span class="price-size">for {{ pr.size }}</span>{% endif %}{% if pr.as_of %} <span class="price-asof">as listed {{ pr.as_of }}</span>{% endif %}</li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+
   {% if videos %}
   <section class="vids">
     <h2>On short-form video</h2>

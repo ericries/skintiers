@@ -23,6 +23,12 @@ grades:
 key_actives:
 - zinc-oxide
 name: Prequel Sun Barrier Mineral Sunscreen
+price:
+- amount: 22
+  currency: USD
+  size: "1.7 fl oz"
+  as_of: '2026-08-07'
+  source: "^pdp"
 slug: prequel-sun-barrier-mineral-sunscreen
 status: published
 type: product

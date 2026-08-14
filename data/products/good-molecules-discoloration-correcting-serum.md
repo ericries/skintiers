@@ -45,6 +45,12 @@ key_actives:
 - niacinamide
 - tranexamic-acid
 name: Good Molecules Discoloration Correcting Serum
+price:
+- amount: 11.99
+  currency: USD
+  size: "1 fl oz"
+  as_of: '2026-08-07'
+  source: "^2"
 slug: good-molecules-discoloration-correcting-serum
 status: published
 type: product

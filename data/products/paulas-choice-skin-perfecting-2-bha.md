@@ -44,6 +44,12 @@ recommended_in:
 - source: marieclaire.com
   title: Marie Claire Skin & Hair Awards 2025, Best Exfoliator
   url: https://www.marieclaire.com/beauty/skin-hair-awards-2025/
+price:
+- amount: 37
+  currency: USD
+  size: "4 fl oz"
+  as_of: '2026-07-28'
+  source: "^pc"
 slug: paulas-choice-skin-perfecting-2-bha
 status: published
 type: product

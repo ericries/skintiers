@@ -35,6 +35,11 @@ recommended_in:
 - source: newbeauty.com
   title: NewBeauty, 10 derm-recommended CeraVe products
   url: https://www.newbeauty.com/view/cerave-dermatologist-recommended
+price:
+- amount: 15.99
+  currency: USD
+  as_of: '2026-07-28'
+  source: "^1"
 slug: cerave-foaming-facial-cleanser
 status: published
 type: product

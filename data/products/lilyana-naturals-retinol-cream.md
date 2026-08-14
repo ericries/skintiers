@@ -31,6 +31,12 @@ grades:
 key_actives:
 - retinol
 name: LilyAna Naturals Retinol Cream
+price:
+- amount: 29.99
+  currency: USD
+  size: "1.7 oz"
+  as_of: '2026-08-07'
+  source: "^brand"
 slug: lilyana-naturals-retinol-cream
 status: published
 type: product

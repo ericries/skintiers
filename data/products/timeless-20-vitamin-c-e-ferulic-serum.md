@@ -43,6 +43,12 @@ recommended_in:
 - source: nytimes.com
   title: NYT Wirecutter, The Best Vitamin C Serums (Best Budget-Friendly Option)
   url: https://www.nytimes.com/wirecutter/reviews/best-vitamin-c-serums/
+price:
+- amount: 27.95
+  currency: USD
+  size: "1 oz"
+  as_of: '2026-08-01'
+  source: "^1"
 slug: timeless-20-vitamin-c-e-ferulic-serum
 status: published
 type: product

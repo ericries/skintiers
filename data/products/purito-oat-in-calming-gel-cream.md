@@ -15,6 +15,12 @@ grades:
 key_actives:
 - colloidal-oatmeal
 name: Purito Seoul Oat-in Calming Gel Cream
+price:
+- amount: 25.99
+  currency: USD
+  size: "3.38 oz"
+  as_of: '2026-08-07'
+  source: "^target"
 slug: purito-oat-in-calming-gel-cream
 status: published
 type: product

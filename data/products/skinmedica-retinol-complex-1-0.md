@@ -49,6 +49,12 @@ recommended_in:
 - source: nytimes.com
   title: NYT Wirecutter, The Best Retinol Products (Best for mature skin)
   url: https://www.nytimes.com/wirecutter/reviews/best-retinol-products/
+price:
+- amount: 96
+  currency: USD
+  size: "30 ml"
+  as_of: '2026-08-03'
+  source: "^skinmedica"
 slug: skinmedica-retinol-complex-1-0
 status: published
 type: product

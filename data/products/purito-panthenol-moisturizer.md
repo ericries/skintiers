@@ -27,6 +27,12 @@ key_actives:
 - hyaluronic-acid
 - centella-asiatica
 name: Purito Mighty Bamboo Panthenol Cream
+price:
+- amount: 23
+  currency: USD
+  size: "100 ml"
+  as_of: '2026-08-07'
+  source: "^purito"
 slug: purito-panthenol-moisturizer
 status: published
 type: product

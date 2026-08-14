@@ -33,6 +33,12 @@ key_actives:
 - ferulic-acid
 - peptides
 name: Paula's Choice C15 Super Booster
+price:
+- amount: 59
+  currency: USD
+  size: "20 ml"
+  as_of: '2026-08-07'
+  source: "^2"
 slug: paulas-choice-c15-super-booster
 status: published
 type: product

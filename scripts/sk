@@ -37,6 +37,7 @@ def cmd_lint(args):
     errors = errors + sklib.check_images_exist(post.metadata)
     errors = errors + sklib.check_tier_list_slugs(post.metadata, pub_slugs)
     errors = errors + sklib.check_uv_filter_coverage(post.metadata, post.content, ing_slugs)
+    errors = errors + sklib.check_price_backing(post.metadata, post.content)
     na_errors, na_warnings = sklib.check_name_actives(post.metadata, ing_slugs)
     errors = errors + na_errors
     warnings = warnings + na_warnings

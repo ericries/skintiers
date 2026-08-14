@@ -24,6 +24,12 @@ grades:
 key_actives:
 - avobenzone
 name: Neutrogena Ultra Sheer Dry-Touch Sunscreen Broad Spectrum SPF 70
+price:
+- amount: 9.89
+  currency: USD
+  size: "3 fl oz"
+  as_of: '2026-08-07'
+  source: "^2"
 slug: neutrogena-ultra-sheer-dry-touch-spf-70
 status: published
 type: product

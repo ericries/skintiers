@@ -37,6 +37,12 @@ key_actives:
 - allantoin
 - centella-asiatica
 name: Chemist Confessions Aquafix Hydrating Water Gel
+price:
+- amount: 38
+  currency: USD
+  size: "50 ml"
+  as_of: '2026-08-07'
+  source: "^cc"
 slug: chemist-confessions-aquafix
 status: published
 type: product

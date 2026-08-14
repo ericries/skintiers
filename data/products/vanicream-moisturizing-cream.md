@@ -15,6 +15,12 @@ grades:
   use: Barrier support and slowing water loss for dry, sensitive, and eczema-prone
     skin (health)
 name: Vanicream Moisturizing Cream
+price:
+- amount: 13.19
+  currency: USD
+  size: "16 oz"
+  as_of: '2026-08-07'
+  source: "^2"
 slug: vanicream-moisturizing-cream
 status: published
 type: product

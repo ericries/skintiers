@@ -32,6 +32,12 @@ name: COSRX Oil-Free Ultra-Moisturizing Lotion with Birch Sap
 key_actives:
 - niacinamide
 - hyaluronic-acid
+price:
+- amount: 25
+  currency: USD
+  size: "100 ml"
+  as_of: '2026-07-28'
+  source: "^1"
 slug: cosrx-oil-free-ultra-moisturizing-lotion-birch-sap
 status: published
 type: product

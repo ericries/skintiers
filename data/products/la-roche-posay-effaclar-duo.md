@@ -31,6 +31,12 @@ key_actives:
 - salicylic-acid
 - niacinamide
 name: La Roche-Posay Effaclar Duo+
+price:
+- amount: 18.79
+  currency: USD
+  size: "1.35 fl oz"
+  as_of: '2026-08-07'
+  source: "^2"
 slug: la-roche-posay-effaclar-duo
 status: published
 type: product

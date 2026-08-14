@@ -38,6 +38,12 @@ images:
   source: Target
   source_url: https://www.target.com/p/prequel-facial-gleanser-13-5-fl-oz/-/A-89210172
 name: Prequel Gleanser (Glycerin Cleanser)
+price:
+- amount: 18
+  currency: USD
+  size: "13.5 fl oz"
+  as_of: '2026-08-05'
+  source: "Prequel"
 slug: prequel-gleanser-glycerin-cleanser
 status: published
 type: product

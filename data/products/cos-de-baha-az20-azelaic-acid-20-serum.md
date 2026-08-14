@@ -21,6 +21,12 @@ images:
 name: Cos De BAHA AZ20 Azelaic Acid 20% Cream
 key_actives:
 - azelaic-acid
+price:
+- amount: 12
+  currency: USD
+  size: "50 ml"
+  as_of: '2026-07-27'
+  source: "^1"
 slug: cos-de-baha-az20-azelaic-acid-20-serum
 status: published
 type: product

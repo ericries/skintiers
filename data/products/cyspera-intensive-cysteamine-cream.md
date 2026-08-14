@@ -43,6 +43,11 @@ images:
 key_actives:
 - cysteamine
 name: Cyspera Intensive
+price:
+- amount: 180
+  currency: USD
+  as_of: '2026-08-10'
+  source: "^cyspera"
 slug: cyspera-intensive-cysteamine-cream
 status: published
 type: product

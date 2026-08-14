@@ -38,6 +38,12 @@ images:
   source: Target
   source_url: https://www.target.com/p/the-ordinary-niacinamide-10-zinc-1-1-fl-oz-ulta-beauty/-/A-82541253
 name: The Ordinary Niacinamide 10% + Zinc 1%
+price:
+- amount: 6
+  currency: USD
+  size: "30 ml"
+  as_of: '2026-07-28'
+  source: "^1"
 slug: the-ordinary-niacinamide-10-zinc-1
 status: published
 type: product

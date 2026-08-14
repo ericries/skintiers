@@ -32,6 +32,12 @@ grades:
 key_actives:
 - adapalene
 name: La Roche-Posay Effaclar Adapalene Gel 0.1%
+price:
+- amount: 39.99
+  currency: USD
+  size: "45 g"
+  as_of: '2026-08-07'
+  source: "^target"
 slug: la-roche-posay-effaclar-adapalene-gel-0-1
 status: published
 type: product

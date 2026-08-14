@@ -20,6 +20,17 @@ images:
 key_actives:
 - zinc-oxide
 name: Avene Cicalfate+ Restorative Protective Cream
+price:
+- amount: 19.59
+  currency: USD
+  size: "1.3 fl oz"
+  as_of: '2026-08-08'
+  source: "^target"
+- amount: 30.99
+  currency: USD
+  size: "3.3 fl oz"
+  as_of: '2026-08-08'
+  source: "^target"
 slug: avene-cicalfate-restorative-protective-cream
 status: published
 type: product

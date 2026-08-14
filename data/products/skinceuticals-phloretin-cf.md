@@ -31,6 +31,12 @@ key_actives:
 - ferulic-acid
 - phloretin
 name: SkinCeuticals Phloretin CF
+price:
+- amount: 159.56
+  currency: USD
+  size: "1 oz"
+  as_of: '2026-08-07'
+  source: "^1"
 slug: skinceuticals-phloretin-cf
 status: published
 type: product

@@ -23,6 +23,12 @@ key_actives:
 - homosalate
 - octisalate
 name: Round Lab Birch Juice Moisturizing Sun SPF50+
+price:
+- amount: 24.99
+  currency: USD
+  size: "50 ml"
+  as_of: '2026-08-07'
+  source: "^target"
 slug: round-lab-birch-juice-moisturizing-sun-spf-50
 status: published
 type: product

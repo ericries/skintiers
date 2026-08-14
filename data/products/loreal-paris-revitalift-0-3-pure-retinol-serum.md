@@ -26,6 +26,11 @@ grades:
 key_actives:
 - retinol
 name: L'Oreal Paris Revitalift 0.3% Pure Retinol Serum
+price:
+- amount: 39.99
+  currency: USD
+  as_of: '2026-08-07'
+  source: "^loreal"
 slug: loreal-paris-revitalift-0-3-pure-retinol-serum
 status: published
 type: product

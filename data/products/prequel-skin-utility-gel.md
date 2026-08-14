@@ -27,6 +27,12 @@ key_actives:
 - panthenol
 - niacinamide
 name: Prequel Skin Utility Gel
+price:
+- amount: 18
+  currency: USD
+  size: "1.7 fl oz"
+  as_of: '2026-08-07'
+  source: "^pdp"
 slug: prequel-skin-utility-gel
 status: published
 type: product
