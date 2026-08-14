@@ -36,7 +36,9 @@ PRODUCT_CATEGORY_ORDER = (
     "Moisturizers",
     "Cleansers",
     "Retinoids",
+    "Exfoliants",
     "Vitamin C serums",
+    "Niacinamide serums",
     "Azelaic acid",
     "Peptide serums",
 )

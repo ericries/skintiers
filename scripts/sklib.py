@@ -534,6 +534,165 @@ def check_xrefs(content, known):
 import datetime as _datetime
 
 
+# --- Cross-page consistency (Phase C) ------------------------------------
+# Catches the class of bug that recurs and that a single-page lint can't see: a
+# product mis-tagged relative to its own name, a key_active/tier-list slug that
+# points at no published page (a 404 or raw-render), or an images: file that was
+# renamed/untracked. All source-level, so they run in `sk lint` AND in CI (a test
+# that scans the whole tree and fails the build), enforcing consistency by default.
+
+# Product names that unambiguously imply one specific active. A product NAMED after
+# one of these should carry it in key_actives; the value is the ingredient slug.
+# Deliberately excludes ambiguous families (a "Vitamin C serum" may use any of
+# several C forms; a "retinoid" may be retinol/retinal/an ester) to avoid false
+# positives. Order matters: longer phrases first so "hyaluronic acid" wins over "acid".
+NAME_ACTIVE_MAP = [
+    ("hyaluronic acid", "hyaluronic-acid"),
+    ("salicylic acid", "salicylic-acid"),
+    ("glycolic acid", "glycolic-acid"),
+    ("mandelic acid", "mandelic-acid"),
+    ("lactic acid", "lactic-acid"),
+    ("azelaic acid", "azelaic-acid"),
+    ("ferulic acid", "ferulic-acid"),
+    ("tranexamic acid", "tranexamic-acid"),
+    ("gluconolactone", "gluconolactone-pha"),
+    ("lactobionic acid", "lactobionic-acid"),
+    ("niacinamide", "niacinamide"),
+    ("benzoyl peroxide", "benzoyl-peroxide"),
+    ("adapalene", "adapalene"),
+    ("tretinoin", "tretinoin"),
+    ("tazarotene", "tazarotene"),
+    ("clascoterone", "clascoterone"),
+    ("cysteamine", "cysteamine"),
+    ("hydroquinone", "hydroquinone"),
+    ("panthenol", "panthenol"),
+    ("colloidal oatmeal", "colloidal-oatmeal"),
+]
+
+
+def published_indexes(data_dir=None):
+    """Return (published_slugs, published_by_type, slug_to_name) over PUBLISHED pages
+    only. Used by the consistency checks so a reference to a draft/stub/missing page
+    is treated as broken (it would 404 or render raw for a reader)."""
+    data_dir = pathlib.Path(data_dir or DATA_DIR)
+    slugs, by_type, names = set(), {}, {}
+    for p in filter_published(load_profiles(data_dir)):
+        s = p.metadata.get("slug")
+        if not s:
+            continue
+        slugs.add(s)
+        by_type.setdefault(p.metadata.get("type"), set()).add(s)
+        names[s] = p.metadata.get("name") or s
+    return slugs, by_type, names
+
+
+def check_key_actives(metadata, published_ingredient_slugs):
+    """ERROR-level: every key_actives slug must be a PUBLISHED ingredient page. Catches
+    a rename/typo (a key_active pointing at a draft or non-existent ingredient), which
+    otherwise silently mis-derives the evidence box and drops the product from concern
+    feeds."""
+    errors = []
+    for slug in metadata.get("key_actives") or []:
+        slug = str(slug).strip()
+        if slug and slug not in published_ingredient_slugs:
+            errors.append(
+                f"key_active '{slug}' is not a published ingredient page "
+                f"(rename/typo, or the ingredient page is still a draft/stub)")
+    return errors
+
+
+def check_name_actives(metadata, published_ingredient_slugs):
+    """If the product NAME names an unambiguous active (NAME_ACTIVE_MAP) whose page is
+    published, that slug should be in key_actives. Returns (errors, warnings):
+      - ERROR (a SUBSTITUTION): the named active is missing AND a DIFFERENT mapped
+        active is present instead - the-ordinary-lactic bug (named 'Lactic Acid', but
+        key_actives listed glycolic-acid). Near-zero false positive, so build-blocking.
+      - WARN (plain absence): the named active is missing with no substitution - it may
+        legitimately be a secondary ingredient (a sunscreen 'with niacinamide'), so
+        surfaced for review rather than failing the build."""
+    if metadata.get("type") != "product":
+        return [], []
+    name = (metadata.get("name") or "").lower()
+    have = {str(s).strip() for s in (metadata.get("key_actives") or [])}
+    map_slugs = {slug for _, slug in NAME_ACTIVE_MAP}
+    named = {slug for term, slug in NAME_ACTIVE_MAP
+             if term in name and slug in published_ingredient_slugs}
+    missing = named - have
+    if not missing:
+        return [], []
+    substituted = sorted(s for s in have if s in map_slugs and s not in named)
+    errors, warnings = [], []
+    for slug in sorted(missing):
+        if substituted:
+            errors.append(
+                f"name implies active '{slug}' but key_actives lists {substituted} "
+                f"instead and omits it (mis-tag, the-ordinary-lactic-acid class of bug)")
+        else:
+            warnings.append(
+                f"name says '{slug}' but key_actives is missing it "
+                f"(confirm it is not just a secondary ingredient)")
+    return errors, warnings
+
+
+def check_images_exist(metadata, static_dir=None):
+    """ERROR-level: every images: entry must resolve to a real self-hosted file under
+    static/images/. Catches a renamed/untracked image that would 404 for readers (the
+    scoped-git-add glob-miss bug)."""
+    static_dir = pathlib.Path(static_dir or STATIC_DIR)
+    errors = []
+    for entry in metadata.get("images") or []:
+        f = entry.get("file") if isinstance(entry, dict) else entry
+        if not f:
+            continue
+        f = str(f)
+        if f.startswith("http"):
+            continue  # a full URL is used as-is, nothing to self-host
+        if not (static_dir / "images" / f).exists():
+            errors.append(f"images: references missing file 'static/images/{f}'")
+    return errors
+
+
+def check_tier_list_slugs(metadata, published_slugs):
+    """ERROR-level: every tier_list item slug must be a PUBLISHED page. A ladder or
+    best-of that lists a draft/typo/unprofiled slug renders a dead link (404) or, for
+    a ladder rung, raw text - the class the render-smoke test misses because it is a
+    link target, not a bare [[xref]]."""
+    tl = metadata.get("tier_list") or {}
+    errors = []
+    for raw in tl.get("items") or []:
+        slug = (raw.get("slug") if isinstance(raw, dict) else str(raw)).strip()
+        if slug and slug not in published_slugs:
+            errors.append(
+                f"tier_list item '{slug}' is not a published page "
+                f"(renders a dead link / raw text; profile it or fix the slug)")
+    return errors
+
+
+def consistency_issues(data_dir=None, static_dir=None):
+    """Scan the whole tree, returning (errors, warnings) as lists of (slug, message).
+    errors should fail the build; warnings surface for review. This is the cross-page
+    accuracy gate: a page can be internally clean yet inconsistent with another page."""
+    data_dir = pathlib.Path(data_dir or DATA_DIR)
+    published_slugs, by_type, _ = published_indexes(data_dir)
+    ing = by_type.get("ingredient", set())
+    errors, warnings = [], []
+    for p in filter_published(load_profiles(data_dir)):
+        m = p.metadata
+        slug = m.get("slug") or "?"
+        for e in check_key_actives(m, ing):
+            errors.append((slug, e))
+        for e in check_images_exist(m, static_dir):
+            errors.append((slug, e))
+        for e in check_tier_list_slugs(m, published_slugs):
+            errors.append((slug, e))
+        na_errors, na_warnings = check_name_actives(m, ing)
+        for e in na_errors:
+            errors.append((slug, e))
+        for w in na_warnings:
+            warnings.append((slug, w))
+    return errors, warnings
+
+
 def _today():
     return _datetime.date.today().isoformat()
 

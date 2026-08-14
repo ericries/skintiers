@@ -29,6 +29,16 @@ def cmd_lint(args):
     errors, warnings = sklib.check_profile(post.metadata, post.content)
     warnings = warnings + sklib.check_required_sections(post.metadata, post.content)
     warnings = warnings + sklib.check_xrefs(post.content, sklib.known_slugs())
+    # Cross-page consistency (Phase C): key_actives/tier-list slugs resolve to real
+    # published pages, images exist, and the product isn't mis-tagged vs its name.
+    pub_slugs, by_type, _ = sklib.published_indexes(sklib.DATA_DIR)
+    ing_slugs = by_type.get("ingredient", set())
+    errors = errors + sklib.check_key_actives(post.metadata, ing_slugs)
+    errors = errors + sklib.check_images_exist(post.metadata)
+    errors = errors + sklib.check_tier_list_slugs(post.metadata, pub_slugs)
+    na_errors, na_warnings = sklib.check_name_actives(post.metadata, ing_slugs)
+    errors = errors + na_errors
+    warnings = warnings + na_warnings
     for e in errors:
         print(f"ERROR: {e}")
     for w in warnings:
