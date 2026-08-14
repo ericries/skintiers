@@ -26,6 +26,16 @@ videos:
   thesis: "Licensed esthetician Ella (@your.estie.ella) sets expectations for peptide serums in an anti-aging routine: a peptide serum is not an all-in-one anti-aging product, and without a daily sunscreen and a good retinoid she says you are unlikely to see much from it, because peptides cannot match what a retinoid does on fine lines and wrinkles. She frames the realistic benefits of peptides as overall brightening, smoother texture, and a more youthful appearance, and says results build over roughly eight to twelve months of continued use rather than within three."
   related: [retinoids, sunscreen-uv-filters, anti-aging]
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: "Copper peptide serums for every skin type and budget (a licensed esthetician's favorites)"
+  creator: "Ella (@your.estie.ella)"
+  creator_slug: your-estie-ella
+  credential: "Licensed esthetician"
+  platform: TikTok
+  url: https://www.tiktok.com/@your.estie.ella/video/7671668004354018574
+  posted: '2026-08-08'
+  thesis: "Licensed esthetician Ella (@your.estie.ella) recommends copper peptide serums for different skin types and budgets: the InnBeauty Project Elastic Skin Peptide as an all-round pick she has used for years, Biossance Squalane and Copper Peptides for dry or compromised skin because the added squalane brings extra hydration and barrier support, the more affordable Remedy Skin copper peptides for normal-to-oily skin, and multi-peptide options from Medik8 and Geek and Gorgeous. She frames copper peptides as a barrier-support and brightening adjunct rather than a single best product, and stresses the right choice depends on your own skin."
+  related: [medik8, squalane, anti-aging, skin-barrier-repair]
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship. Non-sponsored favorites video from a credibility-vetted creator."
 ---
 
 Cosmetic peptides are short chains of amino acids added to skincare, usually to signal collagen production, relax expression lines, or carry trace metals, and marketed mainly as anti-aging actives whose measured effect on the look of aging is modest and mostly preliminary. Because the evidence differs sharply by the type of peptide, this profile grades them by class rather than as one ingredient.

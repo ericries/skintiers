@@ -7,10 +7,13 @@
 #   'ok' = this creator is credibility-vetted (their advice is generally science-aligned,
 #   judged from reviewed content), so their non-sponsored product picks ARE fine. tier HIGH
 #   (derm/chemist) implies product_recs ok. Absent on a MED creator = education/how-to only
-#   for now, until we have reviewed enough of their content to vet them. For EVERY creator,
-#   regardless of this flag: the transcript sponsorship scan is MANDATORY, sponsored/affiliate
-#   videos are always rejected, promotional multi-product hauls/favorites are skipped, and an
-#   own-brand conflict still means skip videos mainly promoting their own products.
+#   for now, until we have reviewed enough of their content to vet them. A vetted creator's
+#   "favorites / products I love" multi-product video is fine too (embed on the most relevant
+#   page, use related: for the others). For EVERY creator, regardless of this flag: the
+#   transcript sponsorship scan is MANDATORY, sponsored/affiliate/gifted videos are always
+#   rejected, an own-brand conflict still means skip videos mainly promoting their own
+#   products, and a creator who monetizes picks via an affiliate storefront (see Kristin
+#   Leite) has their favorites/picks treated as effectively paid, so skip those.
 - name: Michelle Wong (Lab Muffin)
   creator_slug: michelle-wong
   credential: Cosmetic chemist, PhD
@@ -75,8 +78,8 @@
   channel: https://www.tiktok.com/@your.estie.ella
   product_recs: ok
   conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content
-    was science-aligned) - her NON-SPONSORED product picks are eligible; still run the sponsorship
-    scan, reject any sponsored/affiliate video, and skip promotional multi-product favorites/hauls
+    was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible;
+    still run the sponsorship scan and reject any sponsored/affiliate/gifted video
   last_pulled: '2026-08-14'
 - name: Dr. Shereene Idriss
   creator_slug: shereene-idriss
