@@ -1551,3 +1551,31 @@
     analgesic active + ceramides; a distinct itch-relief mechanism for atopic-dermatitis/eczema
     coverage. Would need a pramoxine ingredient page (queue separately). Sourceable
     cerave.com/Target. https://www.cerave.com
+- name: Kiehl's Ultra Facial Cream
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: 'PERSON-cron catalog gap-fill: high-popularity barrier moisturizer
+    not yet on site'
+  source: https://www.kiehls.com/skincare/face-moisturizers/ultra-facial-cream/622.html
+- name: Topicals Faded Serum for Dark Spots & Discoloration
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: 'PERSON-cron catalog gap-fill: popular hyperpigmentation serum
+    (azelaic/kojic/tranexamic/niacinamide); ties to melasma/hyperpigmentation hubs'
+  source: https://mytopicals.com/products/faded-serum-for-dark-spots-discoloration
+- name: Byoma Moisturizing Rich Cream
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: 'PERSON-cron catalog gap-fill: trending barrier-repair (ceramide)
+    moisturizer, ties to skin-barrier-repair goal'
+  source: https://byoma.com/products/moisturizing-rich-cream
+- name: Glow Recipe Watermelon Glow Niacinamide Dew Drops
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: 'PERSON-cron catalog gap-fill: popular niacinamide illuminating
+    serum'
+  source: https://www.glowrecipe.com/products/watermelon-glow-niacinamide-dew-drops
