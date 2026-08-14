@@ -1579,3 +1579,17 @@
   discovered_from: 'PERSON-cron catalog gap-fill: popular niacinamide illuminating
     serum'
   source: https://www.glowrecipe.com/products/watermelon-glow-niacinamide-dew-drops
+- name: Aquaphor Healing Ointment
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: 'LIST cron (best-ceramide-moisturizers): iconic petrolatum occlusive
+    / barrier-repair benchmark, absent from site+queue'
+  source: https://www.aquaphorus.com/products/healing-ointment
+- name: Eucerin Original Healing Cream
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: 'LIST cron: derm-recommended barrier/occlusive cream, ties to skin-barrier-repair;
+    absent from site+queue'
+  source: https://www.eucerinus.com/products/original-healing/original-healing-rich-cream

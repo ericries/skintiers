@@ -61,7 +61,7 @@
 - name: 'build.py: add ''Exfoliants'' to PRODUCT_CATEGORY_ORDER'
   type: list
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: 'TOOLING (critic-flagged): category ''Exfoliants'' (used by both The Ordinary
     acid products) is missing from PRODUCT_CATEGORY_ORDER in build.py, so they fall
@@ -70,7 +70,7 @@
 - name: 'best-ceramide-moisturizers: consider LRP Lipikar Balm AP+M'
   type: list
   priority: 6
-  status: pending
+  status: done
   discovered_from: null
   source: 'CURATORIAL (with a caveat): LRP Lipikar Balm AP+M has Ceramide NP on its
     US label but NONE on LRP''s own Middle East panel - a regional-formula split.
