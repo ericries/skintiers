@@ -1,3 +1,60 @@
+# --- Drain wave (parallel Workflow: Sonnet draft -> Opus critic -> Sonnet fix), 2026-08-15 ---
+augustinus-bader-the-rich-cream:
+  last_reviewed: '2026-08-15'
+  score: 8
+  verdict: revise-then-fixed
+  note: 'Drain-wave. Luxury cult moisturizer ("TFC8" proprietary complex). Critic REVISE;
+    fixes applied against the single manufacturer source: verbatim age-spots quote,
+    added missing INCI, marketing claims quarantined, price verbatim-only. Grades honest/low
+    (no independent trial; TFC8 undisclosed). Published assurance=sonnet (force).'
+caudalie-resveratrol-lift-firming-serum:
+  last_reviewed: '2026-08-15'
+  score: 8
+  verdict: revise-then-fixed
+  note: 'Drain-wave. Critic REVISE; verified full INCI order vs cache (HA #18, adenosine #22,
+    tripeptide-1 #35, hexapeptide-9 #36 of 36), fixed a false "(INCI order)" header, corrected
+    fragrance-component count (5->7), created a caudalie brand stub so the See Also link resolves,
+    named both comparators. Published assurance=sonnet (force).'
+cocokind-retinol-body-cream-0-05:
+  last_reviewed: '2026-08-15'
+  score: 8
+  verdict: revise-then-fixed
+  note: 'Drain-wave. Critic REVISE; fixed a self-contradictory "no limb-skin trial" claim
+    (retinol.md sources show Kafi 0.4% inner-arm + Randhawa forearm sub-study exist; the real
+    gap is trunk/leg skin + the untested 0.05% dose), corrected INCI count (21->22) and retinol
+    list position (10 of 22, cache-verified), gave [^retinol] resolvable PubMed URLs, added a
+    scoped Javon Ford video card. Published assurance=sonnet (force).'
+danessa-myricks-barrier-boost-plumping-serum:
+  last_reviewed: '2026-08-15'
+  score: 8
+  verdict: revise-then-fixed
+  note: 'Drain-wave (Sonnet draft -> Opus critic -> Sonnet fix). Critic fixes applied; INCI/
+    price verbatim-checked, grades traced to the linked ingredient pages, marketing quarantined.
+    lint/verify/style + consistency clean. Published assurance=sonnet (force).'
+gold-bond-age-renew-retinol-overnight-body-lotion:
+  last_reviewed: '2026-08-15'
+  score: 8
+  verdict: revise-then-fixed
+  note: 'Drain-wave (Sonnet draft -> Opus critic -> Sonnet fix). Critic fixes applied; retinol
+    body lotion graded on the active + concentration with link-out to [[retinol]]; INCI/price
+    verbatim-checked, marketing quarantined. Published assurance=sonnet (force).'
+naked-sundays-clear-glow-sun-stick:
+  last_reviewed: '2026-08-15'
+  score: 8
+  verdict: revise-then-fixed
+  note: 'Drain-wave. Critic REVISE; honestly flags that composition/size/price rest solely on the
+    manufacturer page (a US Ulta listing corroborated but Ulta is aggregator-class -> ERROR when
+    cited, reverted); fixed a misquote to verbatim, added a live-reverified EU regulation citation
+    for the homosalate 7.34% cap, trimmed redundancy. Published assurance=sonnet (force).'
+niod-copper-amino-isolate-serum-3-1-1:
+  last_reviewed: '2026-08-15'
+  score: 8
+  verdict: flag-then-fixed
+  note: 'Drain-wave. Critic FLAG (serious sourcing/quote defects) -> all four fixed: corrected the
+    Mortazavi 2024 misquote to verbatim "a surprising absence of clinical studies"; removed a
+    misattributed Ogorek-2025 permeation quote (delivery lives on [[copper-peptides]]); added
+    Miller 2006 null-RCT everywhere the finding is used; fixed a marketing misquote and the price
+    ($62.00/15 mL, live-confirmed). Re-gated clean. Published assurance=sonnet (force).'
 tower-28-sos-daily-rescue-facial-spray:
   last_reviewed: '2026-08-15'
   score: 8
