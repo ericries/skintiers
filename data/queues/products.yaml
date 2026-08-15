@@ -1642,3 +1642,17 @@
   discovered_from: 'PRODUCT cron (tower-28-sos): hypochlorous-acid-adjacent soothing
     serum sibling; ties to hypochlorous-acid'
   source: https://tower28beauty.com/products/sos-rescue-serum
+- name: Weleda Skin Food
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: 'STUDY cron (queue empty): iconic rich emollient balm, derm-adjacent
+    cult product; ties to occlusives/skin-barrier-repair'
+  source: https://www.weleda.com/product/s/skin-food-original
+- name: Nivea Creme
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: 'STUDY cron: iconic legacy occlusive/emollient cream (eucerit/mineral
+    oil base); barrier/moisturizing context'
+  source: https://www.nivea.com/products/nivea-creme
