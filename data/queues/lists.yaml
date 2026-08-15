@@ -41,7 +41,7 @@
 - name: Humectants vs occlusives vs emollients
   type: list
   priority: 5
-  status: pending
+  status: done
   discovered_from: best-moisturizing-ingredients-ranked
   source: 'Phase B mechanism map (roadmap ''humectants-vs-occlusives''): group the
     moisturizer ingredient classes by HOW they work - humectants that draw water in

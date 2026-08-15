@@ -905,3 +905,18 @@
   discovered_from: 'PRODUCT cron: deepen hypochlorous-acid page with stability/formulation
     evidence'
   source: https://pubmed.ncbi.nlm.nih.gov/?term=hypochlorous+acid+skin
+- name: Matrixyl (Palmitoyl Pentapeptide-4 / Palmitoyl Tripeptide-1)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: 'LIST cron: the flagship signal-peptide (in The Ordinary Buffet);
+    needed to build a peptides-by-evidence class ladder (currently only argireline
+    + copper-peptides pages exist)'
+  source: https://pubmed.ncbi.nlm.nih.gov/?term=palmitoyl+pentapeptide+skin
+- name: Palmitoyl Tetrapeptide-7
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: 'LIST cron: anti-inflammatory signal peptide paired with tripeptide-1
+    in Matrixyl 3000; peptide-ladder coverage'
+  source: https://pubmed.ncbi.nlm.nih.gov/?term=palmitoyl+tetrapeptide-7
