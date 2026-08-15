@@ -3,6 +3,10 @@ analyzed: '2026-08-12'
 assurance: sonnet
 brand: La Roche-Posay
 category: Serums
+images:
+- file: la-roche-posay-hyalu-b5-hyaluronic-acid-serum-target.jpg
+  source: Target
+  source_url: https://www.target.com/p/la-roche-posay-hyaluronic-acid-serum-hyalu-b5-face-serum-1-01-fl-oz/-/A-76545829
 comparator: other hyaluronic-acid hydrating serums, including [[torriden-dive-in-low-molecular-hyaluronic-acid-serum]]
 grades:
 - effect: notable

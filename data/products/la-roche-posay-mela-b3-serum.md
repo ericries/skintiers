@@ -3,6 +3,10 @@ analyzed: '2026-08-10'
 assurance: opus
 brand: La Roche-Posay
 category: Niacinamide serums
+images:
+- file: la-roche-posay-mela-b3-serum-target.jpg
+  source: Target
+  source_url: https://www.target.com/p/la-roche-posay-mela-b3-dark-spot-serum-with-melasyl-and-10-niacinamide-1-fl-oz/-/A-89209537
 comparator: other niacinamide-led pigmentation serums
 grades:
 - effect: modest

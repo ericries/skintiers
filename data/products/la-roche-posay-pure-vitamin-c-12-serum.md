@@ -3,6 +3,10 @@ analyzed: '2026-08-06'
 assurance: sonnet
 brand: La Roche-Posay
 category: Vitamin C serums
+images:
+- file: la-roche-posay-pure-vitamin-c-12-serum-target.jpg
+  source: Target
+  source_url: https://www.target.com/p/la-roche-posay-pure-vitamin-c-face-serum-with-hyaluronic-acid-38-salicylic-acid-anti-aging-face-serum-for-sensitive-skin-1oz/-/A-76545828
 comparator: other 10-15% L-ascorbic acid vitamin C serums
 grades:
 - effect: modest

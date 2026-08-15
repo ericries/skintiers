@@ -3,6 +3,10 @@ analyzed: '2026-08-13'
 assurance: sonnet
 brand: La Roche-Posay
 category: Moisturizers
+images:
+- file: la-roche-posay-lipikar-balm-ap-m-target.jpg
+  source: Target
+  source_url: https://www.target.com/p/la-roche-posay-lipikar-ap-m-triple-repair-body-moisturizing-cream-body-and-face-moisturizer-for-dry-skin-with-shea-butter-and-glycerin-13-5-oz/-/A-52725266
 comparator: other barrier-repair balms for very dry, eczema-prone skin, including [[la-roche-posay-cicaplast-baume-b5]]
   and [[cerave-moisturizing-cream]]
 grades:

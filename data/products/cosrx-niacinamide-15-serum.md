@@ -3,6 +3,10 @@ analyzed: '2026-08-15'
 assurance: sonnet
 brand: COSRX
 category: Niacinamide serums
+images:
+- file: cosrx-niacinamide-15-serum-cosrx.jpg
+  source: COSRX (official)
+  source_url: https://www.cosrx.com/products/the-niacinamide-15-serum
 comparator: other niacinamide serums (e.g. The Ordinary Niacinamide 10% + Zinc 1%,
   Naturium Niacinamide Serum 12% + Zinc 2%)
 grades:
