@@ -39,16 +39,17 @@ def _build(tmp_path):
     return out
 
 
-def test_for_agents_page_built_but_not_linked_in_nav(tmp_path):
+def test_for_agents_page_built_and_linked_in_nav(tmp_path):
     out = _build(tmp_path)
     page = out / "for-agents.html"
     assert page.exists()
     html = page.read_text()
     assert "Zero-install" in html and "install-the-skill" in html.lower()
     assert "skintiers-skill.zip" in html
-    # Phase E requirement: the integrator decides launch - it must NOT be wired into nav yet.
+    # Launched: the page is wired into the shared nav and footer (base.html), so it
+    # appears on every rendered page including the homepage.
     index = (out / "index.html").read_text()
-    assert "for-agents.html" not in index
+    assert "for-agents.html" in index
 
 
 def test_skill_bundle_dir_and_zip_produced(tmp_path):
