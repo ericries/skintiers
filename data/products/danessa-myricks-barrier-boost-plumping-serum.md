@@ -5,6 +5,10 @@ brand: Danessa Myricks Beauty
 category: Serums
 comparator: other multi-molecular-weight hyaluronic acid serums (e.g. Torriden
   Dive-In, SkinMedica HA5)
+images:
+- file: danessa-myricks-barrier-boost-plumping-serum-danessamyricks.jpg
+  source: Danessa Myricks Beauty (official)
+  source_url: https://danessamyricksbeauty.com/collections/yummy-skin/products/yummy-skin-10-10-barrier-boost-hyaluronic-acid-ectoin-plumping-serum
 grades:
 - effect: notable
   evidence: solid

@@ -5,6 +5,10 @@ brand: Caudalie
 category: Peptide serums
 comparator: other peptide-forward firming serums (e.g. SkinMedica TNS Advanced+
   Serum, The Ordinary Multi-Peptide + Copper Peptides 1% Serum)
+images:
+- file: caudalie-resveratrol-lift-firming-serum-caudalie.jpg
+  source: Caudalie (official)
+  source_url: https://us.caudalie.com/p/570R2/570r2-instant-firming-retinol-alternative-serum-with-pro-collagen-multi-peptides.html
 grades:
 - effect: minimal to modest
   evidence: preliminary

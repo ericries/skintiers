@@ -4,6 +4,13 @@ assurance: sonnet
 brand: Gold Bond
 category: Retinoids
 comparator: other over-the-counter retinol body lotions and body-focused anti-aging moisturizers
+images:
+- file: gold-bond-age-renew-retinol-overnight-body-lotion-goldbond.webp
+  source: Gold Bond (official)
+  source_url: https://www.goldbond.com/en-us/products/retinol-overnight
+- file: gold-bond-age-renew-retinol-overnight-body-lotion-target.jpg
+  source: Target
+  source_url: https://www.target.com/p/gold-bond-retinol-overnight-body-lotion-unscented-7oz/-/A-86416862
 grades:
 - effect: modest
   evidence: preliminary

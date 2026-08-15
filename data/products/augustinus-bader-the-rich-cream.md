@@ -5,6 +5,10 @@ brand: Augustinus Bader
 category: Moisturizers
 comparator: other rich anti-aging moisturizers (e.g. SkinMedica HA5 Rejuvenating
   Hydrator, Skinfix Barrier+ Triple Lipid-Peptide Cream)
+images:
+- file: augustinus-bader-the-rich-cream-augustinusbader.png
+  source: Augustinus Bader (official)
+  source_url: https://augustinusbader.com/us/en/the-rich-cream
 grades:
 - effect: modest
   evidence: preliminary

@@ -3,6 +3,10 @@ analyzed: '2026-08-15'
 assurance: sonnet
 brand: Cocokind
 category: Retinoids
+images:
+- file: cocokind-retinol-body-cream-0-05-cocokind.png
+  source: Cocokind (official)
+  source_url: https://cocokind.com/products/retinol-body-cream
 grades:
 - effect: minimal
   evidence: preliminary
