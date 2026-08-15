@@ -973,6 +973,69 @@ def routine_catalog(profiles, by_slug, code_map):
     return {"v": routine_string.GRAMMAR, "p": prods, "i": ings, "notable": notable}
 
 
+def _lowest_price(metadata):
+    """The lowest structured price for a product, or None. Reads the same `price:`
+    frontmatter the product page shows (price_view_for); it only picks the minimum
+    amount, it never fetches or invents a number. Returns {amount, size, currency}."""
+    entries = metadata.get("price")
+    if not entries or not isinstance(entries, list):
+        return None
+    best = None
+    for e in entries:
+        if not isinstance(e, dict) or not isinstance(e.get("amount"), (int, float)):
+            continue
+        amt = float(e["amount"])
+        if best is None or amt < best["amount"]:
+            best = {"amount": amt, "size": e.get("size"),
+                    "currency": e.get("currency") or "USD"}
+    return best
+
+
+def filter_catalog(profiles, by_slug):
+    """A flat, readable catalog for the client-side product filter (filter.html): one
+    row per PUBLISHED product, carrying only what the filter needs. The evidence
+    signals are factored from the SAME helpers the product pages and routine
+    dashboards use - _best_health_grade (best HEALTH grade's 0-4 effect strength +
+    evidence word), _top_health_effect (its effect word) and _ROUTINE_TIERS (the
+    coarse tier key) - so the filter surfaces the site's own grades and never invents
+    a ranking. Price is the lowest structured `price:` entry, or null.
+
+    Products with no price are kept (price null; the UI flags them "price not listed"
+    and drops them when a max-price filter is active). Draft/stub products are omitted:
+    the filter is a buying aid over the graded, published catalog."""
+    rows = []
+    for p in profiles:
+        if p.get("type") != "product" or p.get("status") != "published":
+            continue
+        meta = p.metadata
+        actives = []
+        for slug in meta.get("key_actives") or []:
+            ing = by_slug.get(slug)
+            name = (ing.metadata.get("name") if ing is not None else None) or slug
+            actives.append({"slug": slug, "name": name})
+        low = _lowest_price(meta)
+        best = _best_health_grade(meta)
+        effect = _top_health_effect(meta)
+        tier = next((k for k, _l, words in _ROUTINE_TIERS if effect in words), None)
+        rows.append({
+            "slug": p["slug"],
+            "url": f"{p['slug']}.html",
+            "name": meta.get("name") or p["slug"],
+            "brand": meta.get("brand") or "",
+            "category": meta.get("category") or "",
+            "actives": actives,
+            "price": low["amount"] if low else None,
+            "price_display": _fmt_amount(low["amount"]) if low else None,
+            "price_size": (low.get("size") if low else None),
+            "effect": effect,
+            "evidence": best[1] if best else "",
+            "segs": best[0] if best else 0,
+            "tier": tier,
+        })
+    rows.sort(key=lambda r: r["name"].lower())
+    return {"products": rows}
+
+
 def _resolve_image(val):
     """A URL is used as-is; a bare filename resolves to images/<file>."""
     return val if re.match(r"^https?://", val) else f"images/{val}"
@@ -1184,6 +1247,22 @@ def render_builder(env, catalog):
         site_base=SITE_BASE,
         catalog_json=json.dumps(catalog, separators=(",", ":")),
         builder_js=builder_js,
+    )
+
+
+def render_filter(env, filter_data):
+    """Render filter.html: a self-contained client-side product filter/search over the
+    published catalog. Inlines products-filter.json and assets/product-filter.js so the
+    whole thing runs in the browser with no external deps (mirrors the routine builder).
+    Category and active option lists are built in JS from the catalog itself."""
+    filter_js = (sklib.ROOT / "assets" / "product-filter.js").read_text()
+    return env.get_template("filter.html").render(
+        page_url=f"{SITE_URL}/filter.html",
+        page_desc="Filter and search the SkinTiers catalog by category, active ingredient, "
+                  "price, and evidence strength - every result carries the site's own grade.",
+        catalog_json=json.dumps(filter_data, separators=(",", ":")),
+        filter_js=filter_js,
+        product_count=len(filter_data["products"]),
     )
 
 
@@ -1451,6 +1530,14 @@ def build():
     _builder_html = render_builder(env, catalog)
     (out / "routine.html").write_text(_builder_html)
     (out / "404.html").write_text(_builder_html)
+
+    # Product filter/search: a flat, published-only catalog + a self-contained client-side
+    # page (filter.html) that filters by category, active, max price, and evidence strength.
+    # The catalog carries the site's own grades; the page surfaces them, never re-ranks.
+    filter_data = filter_catalog(profiles, by_slug)
+    (out / "products-filter.json").write_text(
+        json.dumps(filter_data, separators=(",", ":")))
+    (out / "filter.html").write_text(render_filter(env, filter_data))
 
     # Routines index: surfaces the dashboards (routines otherwise live under Lists).
     _STRENGTH_KEY = {"Strong": "strong", "Solid": "solid", "Moderate": "moderate", "Light": "light"}

@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{% block title %}Find products — SkinTiers{% endblock %}
+{% block content %}
+<div class="pf">
+  <div class="kicker"><span class="type-tag">Tool</span></div>
+  <h1>Find products</h1>
+  <p class="standfirst">Search and filter the graded catalog by category, active ingredient, price, and evidence strength. Every result shows the site's own grade. This filters what SkinTiers has already graded; it does not invent a ranking.</p>
+
+  <div class="pf-controls">
+    <div class="pf-field pf-search">
+      <label for="pf-q">Search</label>
+      <input id="pf-q" type="search" placeholder="Product or brand name…" autocomplete="off">
+    </div>
+    <div class="pf-field">
+      <label for="pf-cat">Category</label>
+      <select id="pf-cat"><option value="">Any category</option></select>
+    </div>
+    <div class="pf-field">
+      <label for="pf-active">Active ingredient</label>
+      <select id="pf-active"><option value="">Any active</option></select>
+    </div>
+    <div class="pf-field">
+      <label for="pf-price">Max price (USD)</label>
+      <input id="pf-price" type="number" min="0" step="1" inputmode="numeric" placeholder="No limit">
+    </div>
+    <div class="pf-field">
+      <label for="pf-tier">Min. evidence strength</label>
+      <select id="pf-tier">
+        <option value="0">Any</option>
+        <option value="1">Minimal or better</option>
+        <option value="2">Modest or better</option>
+        <option value="3">Notable or better</option>
+        <option value="4">Strong only</option>
+      </select>
+    </div>
+  </div>
+
+  <p class="pf-note"><b>Evidence strength</b> is the best effect the site has graded for a product on health grounds, shown as filled segments out of four. <b>Price not listed</b> means we have not recorded a structured price yet; those products are hidden when you set a max price.</p>
+
+  <p id="pf-count" class="pf-count" aria-live="polite"></p>
+  <ul id="pf-results" class="pf-results"></ul>
+  <p id="pf-empty" class="pf-empty" hidden>No products match these filters. Loosen a filter to see more.</p>
+</div>
+
+<script id="pf-catalog" type="application/json">{{ catalog_json | safe }}</script>
+<script>{{ filter_js | safe }}</script>
+{% endblock %}
