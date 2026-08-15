@@ -20,7 +20,7 @@
   tier: HIGH
   channel: https://www.youtube.com/@LabMuffinBeautyScience/videos
   conflict: null
-  last_pulled: '2026-08-14'
+  last_pulled: '2026-08-15'
 - name: Dr. Sam Ellis
   creator_slug: samantha-ellis
   credential: Board-certified dermatologist
@@ -55,7 +55,7 @@
   tier: HIGH
   channel: https://www.youtube.com/@DustinPortelaDO/videos
   conflict: null
-  last_pulled: '2026-08-14'
+  last_pulled: '2026-08-15'
 - name: Javon Ford
   creator_slug: javon-ford
   credential: Cosmetic chemist
@@ -87,7 +87,7 @@
   tier: HIGH
   channel: https://www.youtube.com/@ShereeneIdriss/videos
   conflict: runs the PillowtalkDerm brand - skip videos mainly promoting her own products
-  last_pulled: '2026-08-14'
+  last_pulled: '2026-08-15'
 - name: Dr. Sam Bunting
   creator_slug: sam-bunting
   credential: Board-certified dermatologist (UK)
@@ -108,14 +108,14 @@
   tier: HIGH
   channel: https://www.youtube.com/@DrScottWalter/videos
   conflict: null
-  last_pulled: '2026-08-10'
+  last_pulled: '2026-08-15'
 - name: Dr. Whitney Bowe
   creator_slug: whitney-bowe
   credential: Board-certified dermatologist
   tier: HIGH
   channel: https://www.youtube.com/@DrWhitneyBowe/videos
   conflict: has an own-brand line - skip own-brand promos
-  last_pulled: '2026-08-10'
+  last_pulled: '2026-08-15'
 - name: Cassandra Bankson
   creator_slug: cassandra-bankson
   credential: Licensed medical esthetician (NOT a dermatologist or cosmetic chemist)
@@ -123,7 +123,7 @@
   channel: https://www.youtube.com/@cassandrabankson/videos
   conflict: non-credentialed educator - educational content only, never treat picks as endorsements,
     never use sponsored videos
-  last_pulled: '2026-08-10'
+  last_pulled: '2026-08-15'
 - name: Hyram (Skincare by Hyram)
   creator_slug: hyram
   credential: Skincare educator (NOT a dermatologist or cosmetic chemist)

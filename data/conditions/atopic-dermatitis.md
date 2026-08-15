@@ -22,6 +22,16 @@ tier_list:
     - slug: niacinamide
       tier: weak
       note: "Preliminary evidence for raising the skin's own ceramide production and lowering water loss in dry skin generally (no atopic-dermatitis-specific trial); an adjunct inside a moisturizer, not a stand-alone atopic-dermatitis therapy."
+videos:
+- title: "Derm explains new NO-STEROID Eczema Creams: Vtama, Opzelura and Zoryve"
+  creator: "Dr. Scott Walter"
+  creator_slug: scott-walter
+  credential: "Board-certified dermatologist"
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=KaPdhHj32u4
+  posted: '2025-10-14'
+  thesis: "Board-certified dermatologist Dr. Scott Walter runs through three newer non-steroidal prescription creams for eczema (atopic dermatitis): tapinarof (Vtama), ruxolitinib (Opzelura), and roflumilast (Zoryve), explaining that they calm the inflammation of eczema through different mechanisms than steroids do. He notes topical steroids remain effective but that incorrect long-term use can cause skin thinning, discoloration, or a withdrawal reaction, which is part of why some patients look for alternatives. He cautions that because these options are new to market they can be expensive and often require insurance prior authorization."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 ---
 
 Atopic dermatitis, the form of eczema meant when people say "eczema" without qualification, is a chronic, intensely itchy inflammatory skin disease that relapses and remits over years and has no cure, where treatment "at best achieves symptom control rather than cure."[^nutten2015] The American Academy of Dermatology guideline describes it as "a chronic, pruritic inflammatory dermatosis that affects up to 25% of children and 2% to 3% of adults."[^eichenfield2014] Among **topical skincare** options for atopic dermatitis, the intervention with the strongest evidence is plain moisturizing, which reduces flares and the amount of prescription steroid needed rather than clearing the disease, and no moisturizer has been shown to beat another.[^cochrane2017]

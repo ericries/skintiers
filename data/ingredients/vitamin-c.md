@@ -27,6 +27,16 @@ videos:
   related: [tetrahexyldecyl-ascorbate, ascorbic-acid-vitamin-c]
   thesis: "Board-certified dermatologist Dr. Whitney Bowe gives three reasons she recommends a daily vitamin C serum: sunscreen only blocks about 55% of free radicals, so a vitamin C antioxidant layered underneath can mop up the rest; vitamin C blocks the tyrosinase enzyme in the pigment pathway, helping brighten dark spots; and it acts as a cofactor for the two enzymes that link collagen strands together in the dermis. She also explains why L-ascorbic acid is unstable, broken down by heat, high pH, air, and sunlight, and must be formulated below pH 3.5 to penetrate skin, which is why some newer derivatives were developed as more stable alternatives."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: "The Best Vitamin C Products for Your Skin (Dermatologist Recommended)"
+  creator: "Dr. Whitney Bowe"
+  creator_slug: whitney-bowe
+  credential: "Board-certified dermatologist"
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=--B7iuGlD4s
+  posted: '2023-11-09'
+  thesis: "Board-certified dermatologist Dr. Whitney Bowe reviews a lineup of vitamin C serums built on different forms of the ingredient: L-ascorbic acid in SkinCeuticals C E Ferulic and Phloretin CF, tetrahexyldecyl ascorbate in SkinBetter Science Alto Defense Serum, and a blend of tetrahexyldecyl ascorbate with 3-O-ethyl ascorbic acid in her own Dr. Whitney Bowe Beauty AA-C serum. She explains that L-ascorbic acid is the most studied form but is unstable and can irritate sensitive or acne-prone skin, that ferulic acid is commonly added to stabilize L-ascorbic acid formulations, and that a Murad vitamin C serum combining the ingredient with glycolic and lactic acid can increase sun sensitivity, so she recommends easing in gradually and prioritizing daily sunscreen."
+  related: ["ascorbic-acid-vitamin-c", "tetrahexyldecyl-ascorbate", "3-o-ethyl-ascorbic-acid", "ferulic-acid", "glycolic-acid", "lactic-acid", "skinceuticals-c-e-ferulic"]
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 ---
 
 Vitamin C on a skincare label can mean several different molecules. The reference form is L-ascorbic acid, the pure unmodified vitamin and the only form the skin can use without first converting it. Because L-ascorbic acid is unstable in water and oxidizes readily, formulators also use a set of chemically modified derivatives (the ascorbyl phosphates, ascorbyl glucoside, an ethylated form, and lipid-soluble esters) that are more stable but must be converted back to ascorbic acid in or on the skin to do the same work. The forms are not interchangeable: they differ in how many conversion steps separate them from ascorbic acid, and in how much controlled human evidence stands behind each. This hub maps the family by conversion pathway, by form, and by strength of evidence, and links to the full profile for the reference form, [[ascorbic-acid-vitamin-c]].

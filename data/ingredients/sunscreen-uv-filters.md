@@ -68,6 +68,26 @@ videos:
   thesis: "Cosmetic chemists Victoria Fu and Gloria Lu of Chemist Confessions explain what actually separates a sunscreen people keep using from one that ends up abandoned, covering how fast a formula sets, whether its finish stays comfortable over hours of wear, and how well it holds up to sweat, rubbing, and face-touching. Drawing on their own multi-year sunscreen testing, they single out La Roche-Posay's Anthelios UV Mune 400 as setting unusually fast and encouraging generous reapplication, while also naming Beauty of Joseon's Relief Sun and Round Lab's Birch Juice sunscreen as broadly tolerated, easy starting points. They also push back on the idea that labels like oil-free reliably predict comfort for acne-prone or oily skin."
   related: ["la-roche-posay-anthelios-uvmune-400-spf-50", "beauty-of-joseon-relief-sun-rice-probiotics-spf50", "round-lab-birch-juice-moisturizing-sun-spf-50"]
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: "L'Oreal's SPF Toast Commercial, Fact-Checked by an Esthetician"
+  creator: "Cassandra Bankson"
+  creator_slug: cassandra-bankson
+  credential: "Licensed esthetician"
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=sAlaTROAY5U
+  posted: '2024-07-26'
+  thesis: "Licensed esthetician Cassandra Bankson reacts to L'Oreal's viral commercial comparing unprotected skin to toasted bread, explaining that a toaster produces heat rather than the UVA and UVB radiation the sun emits, so the demonstration does not reflect how sunscreen actually works. She clarifies that sunscreen functions by absorbing or blocking UV rays before they can damage skin cell DNA, the same DNA damage that drives skin cancer, and that the bread in the ad browned unevenly because wet bread resists toasting until its moisture evaporates, not because of any protective effect. The video critiques misleading skincare marketing while delivering an accurate explanation of how UV radiation and sunscreen protection work."
+  related: ["best-sunscreens-daily-wear"]
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: "Dermatologist Debunks 5 Anti-Sunscreen Myths (using actual science)"
+  creator: "Dr. Dustin Portela"
+  creator_slug: dustin-portela
+  credential: "Board-certified dermatologist"
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=9vBSYuj9CVA
+  posted: '2026-06-07'
+  thesis: "Board-certified dermatologist Dr. Dustin Portela walks through five sunscreen myths spreading on social media, including the claims that sunscreen causes melanoma, blocks vitamin D, and contains toxic chemical ingredients. He explains that historical melanoma rate increases track with rising sun exposure and tanning-bed use rather than sunscreen adoption, that a suntan itself only offers roughly SPF 3 to 4 worth of protection, and that the FDA's 2019 study on chemical filter absorption found the filters can enter the bloodstream but showed no evidence of harm. He argues that consistent broad-spectrum SPF 30 or higher remains the best-supported prevention tool."
+  related: ["zinc-oxide", "titanium-dioxide"]
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 name: Sunscreen (UV filters)
 slug: sunscreen-uv-filters
 status: published

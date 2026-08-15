@@ -37,6 +37,26 @@ videos:
   thesis: "Board-certified dermatologist Andrea Suarez (Dr Dray) explains that post-inflammatory hyperpigmentation is often not just leftover pigment from a resolved flare, but a sign that low-grade inflammation from the original condition, such as acne, eczema, or contact dermatitis, may still be active beneath the skin even when nothing looks red or irritated, especially in deeper skin tones where redness is harder to see. She warns that layering on many new brightening products at once can itself cause irritation that drives more pigmentation, and instead recommends a simple routine, continued treatment of the underlying condition, and daily sun protection, noting that tinted sunscreens with iron oxides add protection against the visible light that also worsens hyperpigmentation."
   related: ["melasma", "tretinoin", "hydroquinone", "azelaic-acid", "sunscreen-uv-filters"]
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: "The Truth About Hidden Sun Damage, From a Dermatologist"
+  creator: "Dr. Shereene Idriss"
+  creator_slug: shereene-idriss
+  credential: "Board-certified dermatologist"
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=PH_dizReTU8
+  posted: '2026-05-16'
+  thesis: "Board-certified dermatologist Dr. Shereene Idriss explains that visible sun spots and melasma are only the surface of a deeper reservoir of pigment sitting in the dermis, which is why in-office laser treatments used as a first move can fail once that hidden pigment resurfaces. She recommends addressing pigmentation at home first with a stack of underrated actives, kojic acid, tranexamic acid, and 4-butylresorcinol, each blocking pigment production through a different pathway, before considering lasers, and stresses that daily sunscreen is non-negotiable since unprotected skin lets old sun damage reawaken and new damage form."
+  related: ["kojic-acid", "tranexamic-acid", "melasma", "sunscreen-uv-filters"]
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: "How to Treat Dark Spots and Hyperpigmentation"
+  creator: "Michelle Wong"
+  creator_slug: michelle-wong
+  credential: "Cosmetic chemist, PhD"
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=z2T20iZBEUc
+  posted: '2024-05-27'
+  thesis: "Cosmetic chemist Michelle Wong breaks hyperpigmentation down into four stages, from melanocyte stimulation through melanin production, transfer to skin cells, and shedding, explaining that treatments work best when they target more than one stage at once. She says daily broad-spectrum sunscreen with strong UVA protection is the single most important step, since an unblocked trigger undermines every other product, and walks through how vitamin C, azelaic acid, niacinamide, retinoids, and hydroquinone act at different stages, while cautioning that although tranexamic acid has good evidence as an oral treatment, she is not convinced it can penetrate skin effectively in topical products."
+  related: ["sunscreen-uv-filters", "vitamin-c", "azelaic-acid", "niacinamide", "retinoids", "hydroquinone", "tranexamic-acid", "melasma"]
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 ---
 
 Hyperpigmentation is a darkening of the skin caused by excess melanin, and its common facial forms are melasma, post-inflammatory hyperpigmentation, and pigmentation driven by sun exposure.[^handel][^davis] The color change is usually the only symptom, the skin stays flat and is neither itchy nor sore, and the same person can have more than one form at once. Among the topical options with controlled evidence, photoprotection is the foundation with the strongest support, the depigmenting creams are real but modest, and without ongoing sun protection the pigment tends to come back.[^liu][^castanedo][^delrosario]

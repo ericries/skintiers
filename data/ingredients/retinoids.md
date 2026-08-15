@@ -32,6 +32,16 @@ videos:
   thesis: "Board-certified dermatologist Andrea Suarez (Dr Dray) compares the two cosmetic forms of topical vitamin A, retinol and retinaldehyde, explaining that retinol needs two conversion steps in the skin to become active while retinaldehyde needs only one, but she stresses there is no good evidence that this makes retinaldehyde stronger or more effective than retinol, since consistent long-term use of either produces similar results. She notes both forms are gentler but slower acting than prescription retinoids such as tretinoin or adapalene, and recommends starting a few nights a week before working up to nightly use, always paired with daytime sunscreen, since sun protection is what preserves any anti-aging benefit."
   related: ["retinol", "retinaldehyde", "tretinoin", "adapalene"]
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: "Should You Even Use Tretinoin? A Scientific Breakdown"
+  creator: "Michelle Wong"
+  creator_slug: michelle-wong
+  credential: "Cosmetic chemist, PhD"
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=FdDbglHKh8w
+  posted: '2023-12-21'
+  thesis: "Cosmetic chemist Michelle Wong compares prescription drug retinoids like tretinoin and adapalene against cosmetic retinoids like retinol, explaining that drug retinoids benefit from regulatory testing that guarantees the final formula's efficacy, stability, and accurate labeling, advantages cosmetic retinoids generally lack. She argues cosmetic retinoids offer more flexible, better-tolerated formulas and a self-limiting conversion pathway to tretinoin that makes overuse less punishing, and cautions that compounded prescription blends from telederm companies often lose the stability and efficacy testing of both categories without gaining much in return."
+  related: ["tretinoin", "adapalene", "retinol"]
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 name: Retinoids
 slug: retinoids
 status: published

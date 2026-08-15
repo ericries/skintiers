@@ -37,6 +37,16 @@ videos:
   thesis: "Board-certified dermatologist Dr. Dustin Portela explains why retinol often stops producing visible results: it is not the active molecule itself but two conversion steps away from retinoic acid, the form that binds skin cell receptors, and much of that conversion is lost along the way. He offers a two question framework for deciding whether to move from over the counter retinol to prescription tretinoin, based on current results and skin sensitivity, and warns against the popular sandwich method, which he says research shows blunts the treatment's effect."
   related: ["tretinoin", "retinaldehyde", "acne"]
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: "Does Retinol in Skincare Even Work?"
+  creator: "Michelle Wong"
+  creator_slug: michelle-wong
+  credential: "Cosmetic chemist, PhD"
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=e6Z5Vr7uSiA
+  posted: '2023-11-06'
+  thesis: "Cosmetic chemist Michelle Wong addresses why peer-reviewed clinical trials on retinol are scarce compared with prescription retinoids, tracing it to a decades-old drug-versus-cosmetic regulatory split and companies' weaker financial incentive to fund and publish cosmetic research. She argues that once mechanism-of-action studies, cell and tissue evidence, and retinol's known skin conversion into tretinoin are considered together, the case that retinol works is convincing even without abundant high-quality clinical trials."
+  related: ["tretinoin", "retinoids"]
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 ---
 
 Retinol is the alcohol form of vitamin A and the most-studied cosmetic [[retinoids|retinoid]] sold over the counter, sitting two enzymatic steps from the receptor-active acid that prescription retinoids deliver directly.
