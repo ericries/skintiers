@@ -1656,3 +1656,17 @@
   discovered_from: 'STUDY cron: iconic legacy occlusive/emollient cream (eucerit/mineral
     oil base); barrier/moisturizing context'
   source: https://www.nivea.com/products/nivea-creme
+- name: La Roche-Posay Effaclar Micro-Peeling Purifying Gel Cleanser
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: 'PERSON cron (queue empty): salicylic-acid gel cleanser for oily/acne
+    skin; ties to salicylic-acid + acne + oily-skin'
+  source: https://www.laroche-posay.us/our-products/acne-oily-skin/acne-face-wash/effaclar-medicated-gel-cleanser
+- name: Isntree Hyaluronic Acid Toner
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: 'PERSON cron: K-beauty hyaluronic acid toner; ties to hyaluronic-acid
+    + glass-skin'
+  source: https://isntree.com/product/hyaluronic-acid-toner
