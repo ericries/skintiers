@@ -1,3 +1,19 @@
+polydeoxyribonucleotide-pdrn:
+  last_reviewed: '2026-08-15'
+  score: 8
+  verdict: publish
+  note: 'INGREDIENT cron (Sonnet draft). PDRN / "salmon DNA" - a heavily hyped ingredient.
+    Dual rubric: injected/in-clinic modest/preliminary vs TOPICAL leave-on minimal/anecdotal.
+    NOTE: the mandatory Opus critic subagent could not be spawned (session hit the 200-agent
+    cap), so the MAIN LOOP did the critic verification directly: confirmed all 5 PMIDs resolve
+    to real papers via Europe PMC with exactly-matching titles/authors/years (fabricated-citation
+    risk cleared), and verified the load-bearing stats verbatim against the abstracts (Lampridou
+    "Nine studies... 219 patients", polynucleotide INJECTIONS - correctly labeled injectable;
+    Jeon n=15 CFGS/GAIS injectable filler; Ye verbatim "0.1% PDRN-850K eye cream with 0.1%
+    retinol over 28 days", the developer''s own study of a proprietary penetration-optimized
+    variant). Core skeptical framing verified sound: injectable evidence never presented as
+    topical; single topical trial flagged industry-run + non-standard; topical grade honestly
+    low. lint/verify/style + consistency clean. Published assurance=sonnet (force).'
 uv-filters-by-uva-protection:
   last_reviewed: '2026-08-15'
   score: 9

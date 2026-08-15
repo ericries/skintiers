@@ -1670,3 +1670,17 @@
   discovered_from: 'PERSON cron: K-beauty hyaluronic acid toner; ties to hyaluronic-acid
     + glass-skin'
   source: https://isntree.com/product/hyaluronic-acid-toner
+- name: Medicube PDRN Pink Collagen Serum
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: 'INGREDIENT cron (pdrn): popular topical PDRN-marketed serum; surfaces
+    the new [[polydeoxyribonucleotide-pdrn]] skeptical page against a real product'
+  source: https://themedicube.com/products/pdrn-pink-collagen-serum
+- name: Numbuzin No.3 Skin Softening Serum
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: 'INGREDIENT cron: popular K-beauty niacinamide/panthenol serum;
+    catalog gap'
+  source: https://numbuzin.com/products/no-3-skin-softening-serum

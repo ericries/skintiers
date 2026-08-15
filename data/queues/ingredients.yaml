@@ -814,7 +814,7 @@
 - name: Polysilicone-15 (Parsol SLX)
   type: ingredient
   priority: 6
-  status: pending
+  status: done
   discovered_from: null
   source: A modern organic/polymeric UV filter (dimethico-diethylbenzalmalonate) common
     in Korean/EU sunscreens but not in the US OTC monograph; would extend the [[sunscreen-uv-filters]]
