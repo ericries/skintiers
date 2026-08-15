@@ -17,6 +17,16 @@ videos:
   thesis: "Licensed esthetician Ella (@your.estie.ella) explains what to do during an active acne breakout: resist the urge to pile on new actives, avoid scrubs, dermaplaning, and at-home extraction tools, and instead keep the skin calm, stay on your current routine, and add at most one new treatment at a time while giving it weeks to work. For active spots she suggests spot-treating with pimple patches, a spot treatment, or a sulfur mask rather than overhauling the whole routine, since breakouts take time to settle."
   related: [salicylic-acid, retinoids, sulfur]
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: "How to Fix Adult Acne Without Drying Out Your Skin (30s, 40s, Beyond)"
+  creator: "Dr. Sam Bunting"
+  creator_slug: sam-bunting
+  credential: "Board-certified dermatologist"
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=dyzK718tnNI
+  posted: '2025-12-07'
+  thesis: "Board-certified dermatologist Dr. Sam Bunting explains why adult acne, especially in women over 35, needs a different approach than teenage acne: drier, more reactive skin means the old habit of drying spots out with harsh cleansers and stacking many actives damages the skin barrier and makes breakouts worse. Her framework puts a supportive routine first, a gentle cleanser, a moisturizer, and a daily sunscreen, then a small consistent set of actives, azelaic acid in the morning and a retinoid at night, keeping benzoyl peroxide or salicylic acid for the occasional spot. She stresses treating the whole zone consistently rather than dabbing individual spots as they appear, and building up slowly, since adult acne responds to consistency rather than intensity."
+  related: [azelaic-acid, retinoids, benzoyl-peroxide, salicylic-acid, skin-barrier-repair, niacinamide]
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 tier_list:
   title: "Acne topical actives by evidence"
   by: "strength of the evidence for treating acne — several of these are clinically similar, so the tiers track evidence certainty, not effect size alone"
