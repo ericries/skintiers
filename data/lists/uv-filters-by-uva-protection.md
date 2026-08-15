@@ -4,7 +4,7 @@ assurance: opus
 kind: best-of
 name: UV Filters by UVA Protection
 slug: uv-filters-by-uva-protection
-status: draft
+status: published
 tier_list:
   by: how much of the ultraviolet-A spectrum (especially long-wave UVA1) each filter
     covers, and how photostable it is
@@ -28,8 +28,9 @@ tier_list:
     slug: bisoctrizole
     tier: top
   - note: Two absorption peaks (303 nm UVB, 344 nm UVA) give it broader single-filter
-      coverage than avobenzone, and it is photostable; a proprietary L'Oreal filter
-      absent from US products.
+      coverage than avobenzone, and a 2025 review credits it with more stable protection
+      than the older US filter set (no dedicated photostability assay of the isolated
+      molecule was found); a proprietary L'Oreal filter absent from US products.
     slug: drometrizole-trisiloxane
     tier: strong
   - note: Peaks at 385 nm and extends coverage toward 400 nm, filling the far-UVA1 gap
@@ -40,8 +41,9 @@ tier_list:
       it is paired with UVB filters.
     slug: diethylamino-hydroxybenzoyl-hexyl-benzoate
     tier: strong
-  - note: A photostable UVA filter (peak about 345 nm) whose removal from an SPF 40 cream
-      cut its rash-prevention rate from 56% to 11% in one trial; it reached the US only
+  - note: A UVA filter, credited with better photostability than avobenzone in a review
+      rather than a measured assay, whose removal from an SPF 40 cream cut its
+      rash-prevention rate from 56% to 11% in one trial; it reached the US only
       inside specific L'Oreal products.
     slug: ecamsule
     tier: strong
@@ -118,7 +120,7 @@ A second axis rides alongside coverage: **photostability**. A filter that breaks
 
 ## How to read the tiers
 
-- **Modern broad-spectrum organics ([[bemotrizinol]], [[bisoctrizole]], [[drometrizole-trisiloxane]], [[mexoryl-400-mce]], [[diethylamino-hydroxybenzoyl-hexyl-benzoate|DHHB]], [[ecamsule]]).** These reach furthest into long-wave UVA and stay photostable, which is why the highest-UVA products tend to be built on them; most are standard in Europe and Asia but absent or restricted in the US. Products built on them include [[isntree-hyaluronic-acid-watery-sun-gel-spf-50]] and [[beauty-of-joseon-relief-sun-rice-probiotics-spf50]] (Tinosorb S/M plus DHHB) and [[la-roche-posay-anthelios-uvmune-400-spf-50]] (Mexoryl 400 with Mexoryl XL and DHHB).
+- **Modern broad-spectrum organics ([[bemotrizinol]], [[bisoctrizole]], [[drometrizole-trisiloxane]], [[mexoryl-400-mce]], [[diethylamino-hydroxybenzoyl-hexyl-benzoate|DHHB]], [[ecamsule]]).** These reach furthest into long-wave UVA and stay photostable, which is why the highest-UVA products tend to be built on them; most are standard in Europe and Asia but absent or restricted in the US. Products built on them include [[isntree-hyaluronic-acid-watery-sun-gel-spf-50]] (Tinosorb S/M plus DHHB), [[beauty-of-joseon-relief-sun-rice-probiotics-spf50]] (Tinosorb M plus DHHB and ethylhexyl triazone), and [[la-roche-posay-anthelios-uvmune-400-spf-50]] (Mexoryl 400 with Mexoryl XL and DHHB).
 - **Avobenzone, the US UVA workhorse.** [[avobenzone]] covers long-wave UVA well but degrades in sunlight, so the protection it actually delivers depends on the formula stabilizing it; examples are [[neutrogena-ultra-sheer-dry-touch-spf-55]] and [[la-roche-posay-anthelios-melt-in-milk-spf-60]].
 - **Mineral filters ([[zinc-oxide]], [[titanium-dioxide]]).** Photostable and broad, but broad-but-weak per unit, so their protection scales with how heavily they are loaded; zinc oxide reaches further into long-wave UVA than titanium dioxide. Seen in [[cerave-hydrating-mineral-sunscreen-spf-50]], [[avene-mineral-ultra-light-spf-50]], [[prequel-sun-barrier-mineral-sunscreen]], and the zinc-oxide-based [[eltamd-uv-clear-spf-46]].
 - **UVB-only filters ([[ethylhexyl-triazone]], [[iscotrizinol]], [[octinoxate]], [[homosalate]], [[octisalate]]).** These are efficient sunburn-and-SPF filters with essentially no UVA, so they are never the reason a product is broad-spectrum; they are always paired with one of the UVA filters above. Placing them at the bottom of a UVA ladder is not a mark against them, it reflects that UVA is a different job than the one they do.
