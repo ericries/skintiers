@@ -898,3 +898,10 @@
   discovered_from: 'CONDITION cron (atopic-dermatitis tier_list): OTC first-line anti-inflammatory
     referenced in the tier_list by-line but uncharted; high-value catalog gap'
   source: https://www.ncbi.nlm.nih.gov/books/NBK553196/
+- name: Electrolyzed water / hypochlorous acid delivery (in-vivo stability)
+  type: ingredient
+  priority: 5
+  status: done
+  discovered_from: 'PRODUCT cron: deepen hypochlorous-acid page with stability/formulation
+    evidence'
+  source: https://pubmed.ncbi.nlm.nih.gov/?term=hypochlorous+acid+skin

@@ -1002,7 +1002,7 @@
 - name: COSRX Niacinamide 15 Serum
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: samantha-ellis
   source: Dr. Sam Ellis, vitamin C alternatives video (transcript-verified)
 - name: Caudalie Resveratrol Lift
@@ -1628,3 +1628,17 @@
   discovered_from: 'PRODUCT cron: niacinamide comparator named on cosrx-niacinamide-15-serum;
     ties to niacinamide'
   source: https://naturium.com/products/niacinamide-serum-12-plus-zinc-2
+- name: Tower 28 SunnyDays SPF 30 Mineral Sunscreen
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: 'PRODUCT cron (tower-28-sos): Tower 28 mineral (non-nano zinc)
+    sunscreen; ties to sunscreen-uv-filters + zinc-oxide'
+  source: https://tower28beauty.com/products/sunnydays-tinted-spf-30
+- name: Tower 28 SOS Rescue Serum
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: 'PRODUCT cron (tower-28-sos): hypochlorous-acid-adjacent soothing
+    serum sibling; ties to hypochlorous-acid'
+  source: https://tower28beauty.com/products/sos-rescue-serum
