@@ -1,3 +1,17 @@
+hyperpigmentation:
+  last_reviewed: '2026-08-15'
+  score: 9
+  verdict: publish
+  note: 'CONDITION cron: added a graded topical tier_list to the hyperpigmentation hub (9 rungs).
+    strong: sunscreen-uv-filters (foundation; RCT prevention), hydroquinone (gold-standard
+    depigmenting benchmark); moderate: azelaic-acid (beat HQ 2%, ~matched 4%), tranexamic-acid
+    (topical < oral), ascorbic-acid-vitamin-c, retinoids; weak: niacinamide (melanosome-transfer,
+    modest), kojic-acid, arbutin. by-line notes sun protection is the foundation and Rx hydroquinone/
+    tretinoin outrank OTC. NOTE: the mandatory Opus critic subagent could not be spawned (session
+    200-agent cap), so the main loop anchored every grade to the already-opus-assured ingredient
+    pages and inline-verified the key facts (sunscreen=strong prevention, azelaic beats HQ2%,
+    topical TXA reduces melasma). No [[xref]] in tier notes (they do not linkify; rung slugs link).
+    All 9 slugs resolve; lint/style/render-smoke/consistency clean.'
 caudalie:
   last_reviewed: '2026-08-15'
   score: 8

@@ -62,7 +62,7 @@
 - name: 'atopic-dermatitis: add a graded topical tier_list'
   type: condition
   priority: 4
-  status: pending
+  status: done
   discovered_from: null
   source: 'TOOLING/CONTENT: the atopic-dermatitis hub likely lacks a tier_list of
     graded treatments; with colloidal-oatmeal, ceramides, tacrolimus/pimecrolimus,

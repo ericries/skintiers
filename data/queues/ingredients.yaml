@@ -920,3 +920,10 @@
   discovered_from: 'LIST cron: anti-inflammatory signal peptide paired with tripeptide-1
     in Matrixyl 3000; peptide-ladder coverage'
   source: https://pubmed.ncbi.nlm.nih.gov/?term=palmitoyl+tetrapeptide-7
+- name: 4-Butylresorcinol (Rucinol)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: 'CONDITION cron (hyperpigmentation): tyrosinase inhibitor named
+    in Idriss/Chemist-Confessions pigment videos; extends the pigment tier_list'
+  source: https://pubmed.ncbi.nlm.nih.gov/?term=4-butylresorcinol+melasma

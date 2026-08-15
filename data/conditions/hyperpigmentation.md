@@ -1,11 +1,42 @@
 ---
-analyzed: '2026-07-28'
+analyzed: '2026-08-15'
 assurance: opus
 name: Hyperpigmentation
 slug: hyperpigmentation
 status: published
 type: condition
-updated: '2026-07-28'
+updated: '2026-08-15'
+tier_list:
+  title: "Topical actives for hyperpigmentation by evidence"
+  by: "strength of the evidence for reducing facial hyperpigmentation and melasma; sun protection is the foundation every other active depends on, and prescription hydroquinone and tretinoin outrank the over-the-counter options"
+  items:
+    - slug: sunscreen-uv-filters
+      tier: strong
+      note: "The foundation, not an optional add-on: randomized trials show daily broad-spectrum sunscreen, especially strong UVA or tinted, prevents and reduces melasma and protects the results of every other treatment; without it, pigment keeps returning."
+    - slug: hydroquinone
+      tier: strong
+      note: "The most-studied topical depigmenting agent and the melasma and post-inflammatory hyperpigmentation benchmark, a tyrosinase inhibitor; prescription in the US and cycled on and off to avoid the rare side effect ochronosis."
+    - slug: azelaic-acid
+      tier: moderate
+      note: "A tyrosinase inhibitor with real melasma and post-acne-mark evidence: 20% azelaic acid beat hydroquinone 2% and roughly matched hydroquinone 4% in trials, and it is well tolerated including in pregnancy."
+    - slug: tranexamic-acid
+      tier: moderate
+      note: "Good melasma evidence, strongest taken orally; topical tranexamic acid also reduces melasma in trials, though less than the oral form."
+    - slug: ascorbic-acid-vitamin-c
+      tier: moderate
+      note: "An antioxidant and tyrosinase inhibitor: modest as a standalone lightener, more useful in combination and as a daytime partner to sunscreen."
+    - slug: retinoids
+      tier: moderate
+      note: "Speed cell turnover and help other actives penetrate; prescription tretinoin has melasma evidence but works slowly and can irritate, and irritation itself can worsen pigment in deeper skin tones."
+    - slug: niacinamide
+      tier: weak
+      note: "Reduces the transfer of pigment (melanosomes) to skin cells, a real but modest effect best used as an adjunct rather than a primary treatment."
+    - slug: kojic-acid
+      tier: weak
+      note: "A tyrosinase inhibitor with thinner, older human evidence than the actives above; a secondary adjunct."
+    - slug: arbutin
+      tier: weak
+      note: "A gentler hydroquinone precursor with limited robust human evidence; a mild adjunct."
 videos:
 - title: "Fade Scars FAST (and for real)"
   creator: "Dr. Sam Ellis"
