@@ -20,42 +20,42 @@
   tier: HIGH
   channel: https://www.youtube.com/@LabMuffinBeautyScience/videos
   conflict: null
-  last_pulled: '2026-08-09'
+  last_pulled: '2026-08-14'
 - name: Dr. Sam Ellis
   creator_slug: samantha-ellis
   credential: Board-certified dermatologist
   tier: HIGH
   channel: https://www.youtube.com/@drsamellis/videos
   conflict: founder of the Prequel skincare brand - skip videos mainly promoting her own products
-  last_pulled: '2026-08-09'
+  last_pulled: '2026-08-14'
 - name: Chemist Confessions (Victoria Fu and Gloria Lu)
   creator_slug: victoria-fu
   credential: Cosmetic chemists
   tier: HIGH
   channel: https://www.youtube.com/@chemistconfessions/videos
   conflict: sell a small own-brand product line - skip own-brand promos
-  last_pulled: '2026-08-09'
+  last_pulled: '2026-08-14'
 - name: Andrea Suarez (Dr Dray)
   creator_slug: andrea-suarez-dr-dray
   credential: Board-certified dermatologist
   tier: HIGH
   channel: https://www.youtube.com/@DrDrayzday/videos
   conflict: null
-  last_pulled: '2026-08-09'
+  last_pulled: '2026-08-14'
 - name: Dr. Muneeb Shah (DermDoctor)
   creator_slug: muneeb-shah
   credential: Board-certified dermatologist
   tier: HIGH
   channel: https://www.youtube.com/@dermdoctor/videos
   conflict: runs an affiliate storefront - be cautious treating product picks as unbiased endorsements
-  last_pulled: '2026-08-09'
+  last_pulled: '2026-08-14'
 - name: Dr. Dustin Portela
   creator_slug: dustin-portela
   credential: Board-certified dermatologist
   tier: HIGH
   channel: https://www.youtube.com/@DustinPortelaDO/videos
   conflict: null
-  last_pulled: '2026-08-09'
+  last_pulled: '2026-08-14'
 - name: Javon Ford
   creator_slug: javon-ford
   credential: Cosmetic chemist
@@ -87,7 +87,7 @@
   tier: HIGH
   channel: https://www.youtube.com/@ShereeneIdriss/videos
   conflict: runs the PillowtalkDerm brand - skip videos mainly promoting her own products
-  last_pulled: '2026-08-10'
+  last_pulled: '2026-08-14'
 - name: Dr. Sam Bunting
   creator_slug: sam-bunting
   credential: Board-certified dermatologist (UK)

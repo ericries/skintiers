@@ -26,6 +26,16 @@ videos:
   related: [vitamin-c, hyperpigmentation]
   thesis: "Answering a viewer question in a weekend Q&A, board-certified dermatologist Andrea Suarez (Dr. Dray) says copper is involved in the enzyme tyrosinase, so there is a theoretical reason copper peptides could help hyperpigmentation, but no good clinical research shows they actually work for it. She says topical vitamin C, especially ascorbic acid, has a lot more evidence behind it for hyperpigmentation, and that even the non-ascorbic-acid vitamin C derivatives are still a better bet than copper peptides because they act as surface antioxidants."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: "Are Copper Peptides Overrated?"
+  creator: "Victoria Fu and Gloria Lu (Chemist Confessions)"
+  creator_slug: victoria-fu
+  credential: "Cosmetic chemists"
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=KeIk6B7AUEM
+  posted: '2026-08-14'
+  thesis: "Cosmetic chemists Victoria Fu and Gloria Lu of Chemist Confessions take a hard look at copper peptides, the copper-binding tripeptide known by the shorthand GHK-Cu that is often marketed as a collagen booster. They walk through permeation research showing the molecule struggles to get past the skin's outer layer and note that the clinical evidence behind topical copper peptides is thin, resting mostly on a handful of old, hard-to-access studies that get recycled across marketing copy. Their conclusion is that copper peptides have a compelling backstory but are not a must-have, so people already curious about them can experiment without expecting dramatic results."
+  related: ["peptides"]
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 ---
 
 Copper peptides are the copper complex of the human tripeptide GHK (glycyl-L-histidyl-L-lysine), sold in skincare as copper tripeptide-1 or GHK-Cu, one of the four classes of cosmetic peptide (a "carrier peptide") whose job is to move trace copper into skin.[^gorouhi][^pickart2008]

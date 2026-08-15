@@ -48,6 +48,26 @@ videos:
   posted: '2026-07-26'
   thesis: "Board-certified dermatologist Andrea Suarez (Dr. Dray) says current research does not show that wearing sunscreen lowers vitamin D levels, while flagging that most of these studies were done on beachgoers and have not tested very high-SPF products specifically. She also questions the broader vitamin D deficiency narrative itself, arguing that lowered lab thresholds plus confounders like obesity and chronic inflammation (vitamin D behaves as a negative acute-phase reactant) have inflated how many people get labeled deficient."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: "Bad Science: a viral toxicologist's sunscreen claims, fact-checked (Dr Yvonne Burkhart)"
+  creator: "Michelle Wong"
+  creator_slug: michelle-wong
+  credential: "Cosmetic chemist, PhD"
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=VmNxyhN8ZxI
+  posted: '2025-05-24'
+  thesis: "Sunscreen UV filters and the safety claims made against them are the subject of this video from Michelle Wong, a cosmetic chemist with a PhD, who fact-checks a viral video from a self-described toxicologist attacking chemical and mineral sunscreen ingredients. Wong walks through the actual toxicology literature on retinyl palmitate, zinc oxide nanoparticles, and chemical filters like oxybenzone and octinoxate, showing that several of the cited studies do not support the claims being made and that a homemade DIY sunscreen recommended in the original video would likely test at only around SPF 6. She argues that checking a broad scientific consensus, rather than a single study or a single expert, is the more reliable way to evaluate sunscreen safety claims."
+  related: ["zinc-oxide", "avobenzone", "octinoxate", "homosalate", "octisalate", "retinyl-esters"]
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: "What to look for in a sunscreen?"
+  creator: "Victoria Fu and Gloria Lu (Chemist Confessions)"
+  creator_slug: victoria-fu
+  credential: "Cosmetic chemists"
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=lrdVLpnZyLs
+  posted: '2026-06-25'
+  thesis: "Cosmetic chemists Victoria Fu and Gloria Lu of Chemist Confessions explain what actually separates a sunscreen people keep using from one that ends up abandoned, covering how fast a formula sets, whether its finish stays comfortable over hours of wear, and how well it holds up to sweat, rubbing, and face-touching. Drawing on their own multi-year sunscreen testing, they single out La Roche-Posay's Anthelios UV Mune 400 as setting unusually fast and encouraging generous reapplication, while also naming Beauty of Joseon's Relief Sun and Round Lab's Birch Juice sunscreen as broadly tolerated, easy starting points. They also push back on the idea that labels like oil-free reliably predict comfort for acne-prone or oily skin."
+  related: ["la-roche-posay-anthelios-uvmune-400-spf-50", "beauty-of-joseon-relief-sun-rice-probiotics-spf50", "round-lab-birch-juice-moisturizing-sun-spf-50"]
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 name: Sunscreen (UV filters)
 slug: sunscreen-uv-filters
 status: published

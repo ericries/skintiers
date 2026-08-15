@@ -22,6 +22,16 @@ videos:
   related: [retinol, retinaldehyde, adapalene, tretinoin, hydroxypinacolone-retinoate]
   thesis: "Dermatologist Dr. Sam Bunting argues patients overcomplicate retinoid strength: any given retinoid only needs about three rungs on the ladder (a low, middle, and top dose), not the many strengths brands now sell. She gives the dose ranges she uses across the retinoid family (retinol 0.1 to 1%, retinaldehyde 0.1%, granactive retinoid 2 to 5%, adapalene 0.1 to 0.3%, tretinoin 0.025 to 0.1%) and recommends buffering, applying moisturizer before the retinoid, to reduce irritation while building tolerance."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: "Best Retinol and Retinal Products for 2026 | Dermatologist's Top 3"
+  creator: "Andrea Suarez (Dr Dray)"
+  creator_slug: andrea-suarez-dr-dray
+  credential: "Board-certified dermatologist"
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=8rmIw-F7mNc
+  posted: '2026-08-12'
+  thesis: "Board-certified dermatologist Andrea Suarez (Dr Dray) compares the two cosmetic forms of topical vitamin A, retinol and retinaldehyde, explaining that retinol needs two conversion steps in the skin to become active while retinaldehyde needs only one, but she stresses there is no good evidence that this makes retinaldehyde stronger or more effective than retinol, since consistent long-term use of either produces similar results. She notes both forms are gentler but slower acting than prescription retinoids such as tretinoin or adapalene, and recommends starting a few nights a week before working up to nightly use, always paired with daytime sunscreen, since sun protection is what preserves any anti-aging benefit."
+  related: ["retinol", "retinaldehyde", "tretinoin", "adapalene"]
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 name: Retinoids
 slug: retinoids
 status: published

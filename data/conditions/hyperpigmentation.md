@@ -6,6 +6,37 @@ slug: hyperpigmentation
 status: published
 type: condition
 updated: '2026-07-28'
+videos:
+- title: "Fade Scars FAST (and for real)"
+  creator: "Dr. Sam Ellis"
+  creator_slug: samantha-ellis
+  credential: "Board-certified dermatologist"
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=dTSPCPjyMss
+  posted: '2026-06-12'
+  thesis: "Board-certified dermatologist Dr. Sam Ellis explains that post-inflammatory hyperpigmentation, the flat brown discoloration left after acne or minor skin trauma, is not a true scar because it involves no textural change, unlike raised hypertrophic or sunken atrophic scars. She says sun protection is the single most important step for fading it, and that it will fade on its own with time and sun protection even without treatment, though vitamin C, niacinamide, azelaic acid, and retinoids can help by supporting turnover and blocking pigment production, with prescription hydroquinone available in-office for more resistant cases."
+  related: ["vitamin-c", "niacinamide", "azelaic-acid", "retinoids", "hydroquinone"]
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: "Are iron oxides a MUST for hyperpigmentation?"
+  creator: "Victoria Fu and Gloria Lu (Chemist Confessions)"
+  creator_slug: victoria-fu
+  credential: "Cosmetic chemists"
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=Ih4ecC2me8w
+  posted: '2026-05-28'
+  thesis: "Cosmetic chemists Victoria Fu and Gloria Lu of Chemist Confessions examine whether iron oxide, the pigment that tints sunscreen and can block visible light in a way plain UV filters cannot, is necessary for people managing hyperpigmentation and melasma. They walk through several clinical studies, including one in patients also using hydroquinone and one comparing plain sunscreen to iron-oxide-containing foundation, that found tinted or iron-oxide formulas modestly outperformed untinted ones, especially for melasma. Their conclusion is that iron oxide is not a must-have but can be a worthwhile add-on for someone who already has a consistent sunscreen habit and wants an extra edge."
+  related: ["melasma", "sunscreen-uv-filters"]
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: "Why Your Hyperpigmentation Won't Go Away | Dermatologist Explains"
+  creator: "Andrea Suarez (Dr Dray)"
+  creator_slug: andrea-suarez-dr-dray
+  credential: "Board-certified dermatologist"
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=DYqU1VIR3pw
+  posted: '2026-08-13'
+  thesis: "Board-certified dermatologist Andrea Suarez (Dr Dray) explains that post-inflammatory hyperpigmentation is often not just leftover pigment from a resolved flare, but a sign that low-grade inflammation from the original condition, such as acne, eczema, or contact dermatitis, may still be active beneath the skin even when nothing looks red or irritated, especially in deeper skin tones where redness is harder to see. She warns that layering on many new brightening products at once can itself cause irritation that drives more pigmentation, and instead recommends a simple routine, continued treatment of the underlying condition, and daily sun protection, noting that tinted sunscreens with iron oxides add protection against the visible light that also worsens hyperpigmentation."
+  related: ["melasma", "tretinoin", "hydroquinone", "azelaic-acid", "sunscreen-uv-filters"]
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 ---
 
 Hyperpigmentation is a darkening of the skin caused by excess melanin, and its common facial forms are melasma, post-inflammatory hyperpigmentation, and pigmentation driven by sun exposure.[^handel][^davis] The color change is usually the only symptom, the skin stays flat and is neither itchy nor sore, and the same person can have more than one form at once. Among the topical options with controlled evidence, photoprotection is the foundation with the strongest support, the depigmenting creams are real but modest, and without ongoing sun protection the pigment tends to come back.[^liu][^castanedo][^delrosario]

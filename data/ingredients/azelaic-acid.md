@@ -27,6 +27,16 @@ videos:
   related: [niacinamide, hyperpigmentation]
   thesis: "For pigmentation in sensitive or darker skin, UK board-certified dermatologist Dr. Sam Bunting favors azelaic acid because it works through several mechanisms at once: competitive inhibition of tyrosinase, selective targeting of overactive melanocytes, downregulating melanocyte mitochondrial energy, and speeding cell turnover to shed existing pigment, all without the irritation that itself can trigger more melanin production. She pairs azelaic acid with niacinamide, which blocks delivery of melanin parcels to skin cells while also supporting the barrier via ceramide production."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: "The Acid That Treats Acne AND Rosacea"
+  creator: "Dr. Dustin Portela"
+  creator_slug: dustin-portela
+  credential: "Board-certified dermatologist"
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=erSEdS4hnSc
+  posted: '2026-04-19'
+  thesis: "Board-certified dermatologist Dr. Dustin Portela breaks down why he considers azelaic acid one of the most versatile ingredients in his practice, using it to treat acne, rosacea, melasma, and post-inflammatory hyperpigmentation in the same patients. He walks through the four mechanisms behind the ingredient, including its antibacterial and anti-inflammatory effects, and explains why he considers it one of the few topical options he is comfortable recommending during pregnancy."
+  related: ["rosacea", "acne", "melasma", "hyperpigmentation", "niacinamide"]
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 ---
 
 Azelaic acid is a saturated dicarboxylic acid used topically at 15% (gel/foam) and 20% (cream), FDA-approved for rosacea (15% gel) and inflammatory acne (20% cream); azelaic acid was first approved by the FDA in 1995.[^4][^8] Its evidence base is unusually good for a dermatologic topical, but the grade depends entirely on **what you are using it for**, and each use is graded separately below.

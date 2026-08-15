@@ -27,6 +27,16 @@ videos:
   related: [tretinoin, hyperpigmentation, melasma]
   thesis: "Dermatologist Dr. Shereene Idriss calls hydroquinone the gold-standard topical for hyperpigmentation and melasma, with over 70 years of clinical use, and explains it works by blocking tyrosinase, the enzyme that converts tyrosine into melanin. She says she prescribes hydroquinone at 4 to 6 percent and never above 8 percent, cycles patients about a month or two on and then off to avoid exogenous ochronosis, requires daily sunscreen alongside it, and warns against buying it outside a pharmacy because black-market versions are sometimes laced with mercury."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: "How to Layer Anti-aging Prescriptions (Tretinoin and Hydroquinone)"
+  creator: "Dr. Shereene Idriss"
+  creator_slug: shereene-idriss
+  credential: "Board-certified dermatologist"
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=-HdzW2aiuD0
+  posted: '2026-04-18'
+  thesis: "Board-certified dermatologist Dr. Shereene Idriss explains how she uses two prescription anti-aging treatments together, hydroquinone and tretinoin. She describes hydroquinone as a tyrosinase-blocking pigment treatment that evens skin tone, used in cycles of roughly one to two months on and then off to avoid a rare side effect called exogenous ochronosis, and tretinoin as a retinoid that speeds cell turnover and stimulates collagen. She stresses layering them on a weekly rather than daily plan, applying the prescriptions after cleansing and before serums and moisturizer, and treats daily sunscreen as non-negotiable to protect the results."
+  related: ["tretinoin", "anti-aging", "melasma", "hyperpigmentation", "retinoids"]
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 ---
 
 Hydroquinone is a topical depigmenting drug and the long-standing reference treatment for melasma, available in the United States only by prescription.[^triluma][^fda2006]

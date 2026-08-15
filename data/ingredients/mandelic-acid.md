@@ -6,6 +6,17 @@ slug: mandelic-acid
 status: published
 type: ingredient
 updated: '2026-08-13'
+videos:
+- title: "The Mandelic Acid PRICE TRAP You Should Avoid (Dermatologist Explains)"
+  creator: "Dr. Dustin Portela"
+  creator_slug: dustin-portela
+  credential: "Board-certified dermatologist"
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=ErjbMerzz7A
+  posted: '2026-06-21'
+  thesis: "Board-certified dermatologist Dr. Dustin Portela makes the case for mandelic acid as a gentler alternative for people who find glycolic acid too irritating, explaining that its larger molecule size slows how deeply it penetrates the skin. He compares specific over the counter mandelic acid products at low, mid, and premium price points and walks through how to introduce the acid into a routine that already includes retinol or other actives without overwhelming the skin barrier."
+  related: ["glycolic-acid", "salicylic-acid", "hyperpigmentation", "acne"]
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 ---
 
 Mandelic acid is an alpha-hydroxy acid (AHA) with a larger molecule than glycolic acid, which places it on the slower-penetrating, gentler side of the exfoliating-acid strength axis alongside [[lactic-acid]]; see [[exfoliating-acids-by-strength]] for how it lines up against the rest of the family. Its clinical evidence is thinner than glycolic or lactic acid's: almost every controlled trial is a small in-office peel study, most from Indian dermatology departments, testing [[acne]] or [[hyperpigmentation]] rather than daily leave-on use.

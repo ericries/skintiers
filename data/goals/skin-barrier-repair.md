@@ -17,6 +17,16 @@ videos:
   thesis: "Beauty product developer Kristin Leite (not a dermatologist or chemist) explains that skin barrier repair products all work differently even when they are marketed the same way, so the goal is finding the ingredient that suits you. She walks through several barrier-supporting ingredients and what each does: EGF as a signalling protein that tells skin to repair itself, centella (with alternatives like heartleaf or mugwort) to calm redness and inflammation, ceramides for moisture and hydration retention, and panthenol to reduce water loss through the skin. Her takeaway is that everyone benefits from barrier care, not only people with dry or acne-prone skin."
   related: [skin-barrier-strengthening, epidermal-growth-factor, centella-asiatica, ceramides, panthenol, houttuynia-cordata]
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: "When Should You STOP Washing Your Face? Dermatologist Verdict"
+  creator: "Dr. Sam Ellis"
+  creator_slug: samantha-ellis
+  credential: "Board-certified dermatologist"
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=uOBx0QK3qmM
+  posted: '2026-03-13'
+  thesis: "Board-certified dermatologist Dr. Sam Ellis gives her verdict on the viral caveman method of quitting skincare and even face-washing entirely, saying the idea that skipping cleansing is naturally healthier is not supported by evidence since oil, sweat, dead skin cells, and bacteria build up without it. She says a short break from an overloaded routine can let an irritated barrier calm down, but recommends replacing the caveman method with a minimal routine, a gentle cleanser and a bland moisturizer without active ingredients, rather than stopping skincare altogether, and cautions that people with eczema, rosacea, or seborrheic dermatitis should not try it at all."
+  related: ["atopic-dermatitis", "rosacea"]
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 ---
 
 A disrupted skin barrier is a damaged stratum corneum, the skin's outermost layer, which normally works like a brick wall: flattened skin cells are the bricks and a mix of fatty molecules is the mortar between them. Elias describes that lipid mortar as an "approximately 1:1:1 molar ratio of ceramides (Cer), cholesterol, and nonessential fatty acids," where "all three lipids are required to form the lamellar structures that regulate barrier function."[^elias] When over-exfoliation, retinoid or acid irritation, over-washing, harsh weather, or an eczema flare strips or damages that mortar, the wall leaks: water escapes faster and irritants get in more easily. This page ranks what actually helps a barrier that is *already* disrupted recover, from highest to lowest demonstrated impact. Recovery is mostly about stopping whatever is damaging the skin and supporting the mortar as it re-forms, not about buying one special product. For keeping a healthy barrier resilient in the first place, the sibling maintenance list covers what holds up over the long run: [[skin-barrier-strengthening]].

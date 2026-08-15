@@ -27,6 +27,16 @@ videos:
   posted: '2024-06-21'
   thesis: "Esthetician Cassandra Bankson describes a common way beginners make retinol and other topical retinoids backfire: using far more than a pea-sized amount, applying it to wet skin, and then sealing it under an occlusive like petroleum jelly (slugging), all of which drive the active to penetrate more deeply and can trigger redness, flaking, and painful irritation. She advises starting low and slow, a pea-sized amount a couple of times a week, and notes that putting the occlusive on first, as a buffer under the retinoid, gives a gentler, slower release for people still building tolerance."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship. Licensed esthetician, not a dermatologist or chemist; used for general how-to-use education, not product endorsement."
+- title: "Your Retinol Isn't Working. Here's Why"
+  creator: "Dr. Dustin Portela"
+  creator_slug: dustin-portela
+  credential: "Board-certified dermatologist"
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=dCEdTMY-3KU
+  posted: '2026-08-09'
+  thesis: "Board-certified dermatologist Dr. Dustin Portela explains why retinol often stops producing visible results: it is not the active molecule itself but two conversion steps away from retinoic acid, the form that binds skin cell receptors, and much of that conversion is lost along the way. He offers a two question framework for deciding whether to move from over the counter retinol to prescription tretinoin, based on current results and skin sensitivity, and warns against the popular sandwich method, which he says research shows blunts the treatment's effect."
+  related: ["tretinoin", "retinaldehyde", "acne"]
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 ---
 
 Retinol is the alcohol form of vitamin A and the most-studied cosmetic [[retinoids|retinoid]] sold over the counter, sitting two enzymatic steps from the receptor-active acid that prescription retinoids deliver directly.
