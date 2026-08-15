@@ -1614,3 +1614,17 @@
   discovered_from: 'CONDITION cron (atopic-dermatitis): colloidal-oatmeal eczema cream
     (NEA-accepted); ties to colloidal-oatmeal + atopic-dermatitis'
   source: https://www.eucerinus.com/products/eczema-relief/eczema-relief-cream
+- name: COSRX Advanced Snail 92 All-in-One Cream
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: 'PRODUCT cron (cosrx-niacinamide-15): snail-mucin moisturizer,
+    sibling to the profiled Snail 96 essence'
+  source: https://www.cosrx.com/products/advanced-snail-92-all-in-one-cream
+- name: Naturium Niacinamide Serum 12% Plus Zinc 2%
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: 'PRODUCT cron: niacinamide comparator named on cosrx-niacinamide-15-serum;
+    ties to niacinamide'
+  source: https://naturium.com/products/niacinamide-serum-12-plus-zinc-2

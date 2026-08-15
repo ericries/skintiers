@@ -1,3 +1,19 @@
+cosrx-niacinamide-15-serum:
+  last_reviewed: '2026-08-15'
+  score: 8
+  verdict: revise-then-fixed
+  note: 'PRODUCT cron (Sonnet draft modeled on cosrx-6-peptide sibling + Opus critic).
+    15% niacinamide serum; $25/20mL + INCI verbatim from two cached sources (COSRX
+    official + Chemist Confessions). 4 grades all traced to [[niacinamide]] tiers with
+    the untested-at-15% gap named in every row; 15%-above-2-to-5%-tested-range framed
+    honestly (attributed to Chemist Confessions), sebum -50% quarantined. Critic verdict
+    REVISE; applied all fixes: deleted an unsourced quoted alt-name and an uncited
+    cross-catalog price-parity claim (both D1/D2 gaps), corrected the INCI order
+    (acetyl glucosamine before zinc PCA), cut the Evidence-section rehash of
+    ingredient-page study numbers to a link-out + de-duplicated the Chemist Confessions
+    quote (kept in Evidence only), tightened "roughly triple" to "triple the top of the
+    range". Photo gallery DEFERRED to the image cron. Published assurance=sonnet (force);
+    sources Opus-re-verified. Queued COSRX Snail 92 + Naturium Niacinamide 12%.'
 atopic-dermatitis:
   last_reviewed: '2026-08-14'
   score: 9
