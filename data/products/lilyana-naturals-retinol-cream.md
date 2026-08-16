@@ -2,6 +2,10 @@
 analyzed: '2026-08-07'
 assurance: sonnet
 brand: LilyAna Naturals
+images:
+- file: lilyana-naturals-retinol-cream-lilyana.png
+  source: LilyAna Naturals (official)
+  source_url: https://lilyananaturals.com/products/retinol-cream
 category: Retinoids
 evidence_levels:
   active: retinol

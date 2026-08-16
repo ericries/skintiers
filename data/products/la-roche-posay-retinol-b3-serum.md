@@ -2,6 +2,10 @@
 analyzed: '2026-08-08'
 assurance: sonnet
 brand: La Roche-Posay
+images:
+- file: la-roche-posay-retinol-b3-serum-target.webp
+  source: Target
+  source_url: https://www.target.com/p/la-roche-posay-retinol-face-serum-with-vitamin-b3-1-0-fl-oz/-/A-76545832
 category: Retinoids
 evidence_levels:
   active: retinol

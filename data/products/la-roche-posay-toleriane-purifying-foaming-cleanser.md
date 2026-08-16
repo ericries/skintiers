@@ -2,6 +2,10 @@
 analyzed: '2026-08-07'
 assurance: sonnet
 brand: La Roche-Posay
+images:
+- file: la-roche-posay-toleriane-purifying-foaming-cleanser-target.webp
+  source: Target
+  source_url: https://www.target.com/p/la-roche-posay-toleriane-purifying-facial-cleanser-with-niacinamide-for-oily-skin-13-52-fl-oz/-/A-51195574
 category: Cleansers
 comparator: other sulfate-free, fragrance-free foaming cleansers for normal to oily,
   sensitive skin
