@@ -8,7 +8,7 @@ type: condition
 updated: '2026-08-15'
 tier_list:
   title: "Rosacea treatments by evidence"
-  by: "strength of the evidence for treating rosacea; most first-line rosacea treatments are prescription (including topical metronidazole, which has no page here yet), and daily sun protection plus trigger avoidance are foundational"
+  by: "strength of the evidence for treating rosacea; most first-line rosacea treatments are prescription, and daily sun protection plus trigger avoidance are foundational"
   items:
     - slug: sunscreen-uv-filters
       tier: strong
@@ -19,6 +19,9 @@ tier_list:
     - slug: ivermectin-topical
       tier: strong
       note: "A first-line prescription topical (1%) with strong trial evidence for inflammatory rosacea, outperforming topical metronidazole head-to-head; it reduces inflammation and Demodex mites."
+    - slug: metronidazole
+      tier: moderate
+      note: "The long-standing first-line prescription topical for papulopustular rosacea (0.75 to 1%), well-tolerated with solid evidence; effective but bested by topical ivermectin in head-to-head trials, so it sits just below it."
     - slug: doxycycline-oral-subantimicrobial
       tier: moderate
       note: "Oral doxycycline at a sub-antimicrobial anti-inflammatory dose (40 mg) has good evidence for papulopustular rosacea; systemic and prescription, used when topicals are not enough."
