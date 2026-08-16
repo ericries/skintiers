@@ -2,6 +2,10 @@
 analyzed: '2026-08-14'
 assurance: sonnet
 category: Retinoids
+images:
+- file: medik8-crystal-retinal-6-dermstore.jpg
+  source: Dermstore
+  source_url: https://www.dermstore.com/p/medik8-crystal-retinal-6-serum-30ml/12810727/
 comparator: other over-the-counter retinoids
 evidence_levels:
   active: retinaldehyde
