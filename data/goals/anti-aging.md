@@ -1,11 +1,36 @@
 ---
-analyzed: '2026-07-29'
+analyzed: '2026-08-15'
 assurance: opus
 name: Anti-aging
 slug: anti-aging
 status: published
 type: goal
-updated: '2026-08-05'
+updated: '2026-08-15'
+tier_list:
+  title: "Topical anti-aging actives by evidence"
+  by: "strength of the evidence for topical anti-aging skincare; sun protection is the foundation every active builds on, and prescription retinoids plus in-office procedures (and systemic or hormonal approaches, out of scope here) are a separate, generally stronger tier not ranked below"
+  items:
+    - slug: sunscreen-uv-filters
+      tier: strong
+      note: "The single most-evidenced anti-aging step: randomized trials show daily broad-spectrum sunscreen slows visible photoaging (wrinkles, texture, and pigment). Prevention outperforms any repair active, so this is the foundation, not an add-on."
+    - slug: retinoids
+      tier: strong
+      note: "The best-evidenced topical repair actives: prescription tretinoin and the over-the-counter retinoids build collagen and improve fine lines, texture, and tone in controlled trials; the forms are ranked by potency on their own page."
+    - slug: ascorbic-acid-vitamin-c
+      tier: moderate
+      note: "A daytime antioxidant with some collagen and photoprotection-support evidence; modest on its own, most useful layered under sunscreen rather than as a standalone anti-ager."
+    - slug: glycolic-acid
+      tier: moderate
+      note: "AHA exfoliation smooths surface texture and has some dermal and collagen evidence for photoaged skin; a supporting active rather than a primary one."
+    - slug: niacinamide
+      tier: moderate
+      note: "Modest evidence for fine lines plus skin-tone and barrier support; a well-tolerated adjunct rather than a lead anti-aging active."
+    - slug: peptides
+      tier: weak
+      note: "Well-tolerated but modest and mostly preliminary for the look of aging; the most consistent measured benefit is hydration, and the pooled anti-wrinkle signal leans on oral rather than topical peptides."
+    - slug: bakuchiol
+      tier: weak
+      note: "A retinol alternative with limited but growing evidence: gentler than retinoids but less proven, a reasonable option for people who cannot tolerate retinoids."
 videos:
 - title: "Skincare Companies Don't Want You to Know This (Dermatologist's Anti-Aging Guide)"
   creator: Dr. Sam Ellis

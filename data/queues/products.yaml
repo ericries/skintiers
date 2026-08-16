@@ -1698,3 +1698,10 @@
   discovered_from: 'BRAND cron: salicylic-acid serum for oily/acne skin; ties to salicylic-acid
     + acne'
   source: https://www.caudalie.us/vinopure-natural-salicylic-acid-pore-minimizing-serum.html
+- name: The Ordinary Granactive Retinoid 2% Emulsion
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: 'GOAL cron (anti-aging): popular next-gen retinoid (HPR) serum;
+    ties to retinoids + hydroxypinacolone-retinoate'
+  source: https://theordinary.com/en-us/granactive-retinoid-2-emulsion-serum
