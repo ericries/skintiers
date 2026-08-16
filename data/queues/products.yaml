@@ -1705,3 +1705,9 @@
   discovered_from: 'GOAL cron (anti-aging): popular next-gen retinoid (HPR) serum;
     ties to retinoids + hydroxypinacolone-retinoate'
   source: https://theordinary.com/en-us/granactive-retinoid-2-emulsion-serum
+- name: La Roche-Posay Rosaliac AR Intense Serum
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: 'ROSACEA hub: redness-prone-skin serum; ties to rosacea + niacinamide'
+  source: https://www.laroche-posay.us/our-products/sensitive-allergic-skin/redness-prone-skin/rosaliac-ar-intense-visible-redness-reducing-serum

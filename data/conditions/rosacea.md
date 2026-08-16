@@ -1,11 +1,36 @@
 ---
-analyzed: '2026-07-28'
+analyzed: '2026-08-15'
 assurance: opus
 name: Rosacea
 slug: rosacea
 status: published
 type: condition
-updated: '2026-07-28'
+updated: '2026-08-15'
+tier_list:
+  title: "Rosacea treatments by evidence"
+  by: "strength of the evidence for treating rosacea; most first-line rosacea treatments are prescription (including topical metronidazole, which has no page here yet), and daily sun protection plus trigger avoidance are foundational"
+  items:
+    - slug: sunscreen-uv-filters
+      tier: strong
+      note: "Sun exposure is one of the most common rosacea triggers, so daily broad-spectrum sunscreen is foundational for reducing flares; it manages a major trigger rather than treating the rosacea itself."
+    - slug: azelaic-acid
+      tier: strong
+      note: "FDA-approved for papulopustular rosacea (15% gel or foam) with good randomized evidence for reducing bumps and redness; a first-line topical, prescription in the US at that strength."
+    - slug: ivermectin-topical
+      tier: strong
+      note: "A first-line prescription topical (1%) with strong trial evidence for inflammatory rosacea, outperforming topical metronidazole head-to-head; it reduces inflammation and Demodex mites."
+    - slug: doxycycline-oral-subantimicrobial
+      tier: moderate
+      note: "Oral doxycycline at a sub-antimicrobial anti-inflammatory dose (40 mg) has good evidence for papulopustular rosacea; systemic and prescription, used when topicals are not enough."
+    - slug: brimonidine
+      tier: moderate
+      note: "A prescription topical that temporarily reduces the persistent facial redness of rosacea for several hours, but rebound flushing after it wears off is a documented and common drawback."
+    - slug: sulfur
+      tier: weak
+      note: "Older topical sulfur and sodium-sulfacetamide products have some, mostly dated, evidence for rosacea; a secondary option below the first-line actives."
+    - slug: niacinamide
+      tier: weak
+      note: "Barrier support and anti-inflammatory effects make it a reasonable adjunct, but rosacea-specific evidence is limited; it calms and supports rather than treats the disease."
 ---
 
 Rosacea is a chronic inflammatory condition of the central face, described in the Cochrane systematic review as "a common chronic skin condition affecting the face" whose features include flushing, persistent redness, visible blood vessels, and inflammatory bumps.[^cochrane2015] It relapses and remits over years, it clusters on the cheeks, nose, chin, and forehead, and it has no cure: the treatments with the best evidence reduce specific features rather than resolve the disease, and which treatment fits is decided by which features a person actually has.[^vanzuuren2019][^schaller2017] This page maps the condition at a high level. The deep clinical and treatment detail lives on the subtype pages linked below.

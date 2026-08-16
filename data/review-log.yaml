@@ -1,3 +1,15 @@
+rosacea:
+  last_reviewed: '2026-08-15'
+  score: 9
+  verdict: publish
+  note: 'CONDITION-hub tier_list (main loop, continue). Rosacea treatments by evidence, 7 rungs.
+    strong: sunscreen-uv-filters (UV is a top trigger; foundational), azelaic-acid (FDA-approved
+    15% papulopustular), ivermectin-topical (first-line, beats metronidazole head-to-head);
+    moderate: doxycycline-oral-subantimicrobial (40mg anti-inflammatory), brimonidine (temporary
+    erythema, rebound caveat); weak: sulfur (dated), niacinamide (adjunct). by-line flags most
+    first-line treatments are prescription incl. topical metronidazole (no page yet). Opus critic
+    subagent unavailable (session cap); grades anchored to the opus-assured ingredient pages +
+    established rosacea guidelines. All 7 slugs resolve; gates + render-smoke clean.'
 anti-aging:
   last_reviewed: '2026-08-15'
   score: 9
