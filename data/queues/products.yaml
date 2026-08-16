@@ -983,7 +983,7 @@
 - name: Tower 28 SOS Daily Rescue Facial Spray
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: video-javon-ford
   source: https://www.tiktok.com/@javonford16
 - name: Cocokind Retinol Body Cream 0.05%
@@ -1032,7 +1032,7 @@
 - name: Medik8 Crystal Retinal 6
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: victoria-fu
   source: Chemist Confessions, retinaldehyde with most robust clinical testing among
     reviewed (transcript-verified)
