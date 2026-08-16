@@ -1072,7 +1072,7 @@
 - name: Beauty of Joseon Aqua Fresh Sunscreen
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: scott-walter
   source: 'Dr. Scott Walter (transcript-verified): newer lighter BoJ sunscreen; his
     corneometer test 38 vs 46 for original Relief Sun'
