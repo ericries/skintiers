@@ -1,11 +1,27 @@
 ---
-analyzed: '2026-07-28'
+analyzed: '2026-08-15'
 assurance: opus
 name: Oily skin
 slug: oily-skin
 status: published
 type: condition
-updated: '2026-07-28'
+updated: '2026-08-15'
+tier_list:
+  title: "Oily-skin actives by evidence"
+  by: "strength of the evidence for reducing oil and the look of enlarged pores; genuine, lasting oil control is modest at best, and mattifying products give a temporary cosmetic finish rather than reducing how much oil the skin makes"
+  items:
+    - slug: salicylic-acid
+      tier: moderate
+      note: "An oil-soluble BHA that penetrates and clears pores and reduces the look of congestion and oiliness; the best-evidenced over-the-counter active for oily, pore-prone skin."
+    - slug: retinoids
+      tier: moderate
+      note: "Normalize skin-cell turnover and, over time, can refine pore appearance and reduce oiliness; slower to work but with real evidence, mostly drawn from acne and photoaging research."
+    - slug: azelaic-acid
+      tier: weak
+      note: "Helps with the bumps and marks that often accompany oily, blemish-prone skin, though its direct oil-control evidence is limited."
+    - slug: niacinamide
+      tier: weak
+      note: "Heavily marketed for oil control, but the sebum-reduction evidence is thin and preliminary; its better-evidenced roles are barrier support and pigment, so treat oil-control claims skeptically."
 ---
 
 Oily skin (seborrhea) is the everyday name for skin that produces more sebum than average, which Sakuma and Maibach describe as oversized sebaceous glands that "produce excessive amounts of sebum giving the appearance of shiny and greasy skin."[^sakuma] It is a skin type and a cosmetic complaint rather than a disease, though the same excess sebum feeds acne and seborrhoeic dermatitis. There are two things people mean by "controlling oil": actually reducing how much sebum the glands make (a change in skin biology), and mopping up or hiding the oil already on the surface (appearance only). Only one intervention, oral isotretinoin, durably lowers production, and it is a prescription drug used for acne, not for oiliness alone; almost everything sold for oily skin works on the surface.[^landthaler][^endly][^draelos]
