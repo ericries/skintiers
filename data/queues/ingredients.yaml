@@ -927,3 +927,21 @@
   discovered_from: 'CONDITION cron (hyperpigmentation): tyrosinase inhibitor named
     in Idriss/Chemist-Confessions pigment videos; extends the pigment tier_list'
   source: https://pubmed.ncbi.nlm.nih.gov/?term=4-butylresorcinol+melasma
+- name: Palmitoyl Pentapeptide-4 (Matrixyl / pal-KTTKS)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://pubmed.ncbi.nlm.nih.gov/18492135/
+- name: Palmitoyl Tripeptide-1 and Palmitoyl Tetrapeptide-7 (Matrixyl 3000)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://pubmed.ncbi.nlm.nih.gov/23320735/
+- name: Acetyl Octapeptide-3 (SNAP-8)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3583886/
