@@ -1156,56 +1156,56 @@
 - name: Medik8 Crystal Retinal 10
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: catalog-gap
   source: Higher-strength Medik8 retinaldehyde (10) vs the Crystal Retinal 3 already
     on the site; extends the retinal potency coverage
 - name: La Roche-Posay Anthelios Mineral Tinted SPF 50 (iron oxides)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: melasma
   source: Tinted mineral sunscreen with iron oxides for visible-light protection,
     the foundational melasma intervention
 - name: SkinCeuticals Discoloration Defense
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: melasma
   source: Popular tranexamic-acid + kojic-acid + niacinamide serum marketed for stubborn
     discoloration/melasma
 - name: The Ordinary Alpha Arbutin 2% + HA
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: brightening
   source: Popular affordable alpha-arbutin brightening serum; anchors the brightening
     goal catalog
 - name: Naturium Alpha Arbutin Serum 2%
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: brightening
   source: Affordable alpha-arbutin brightening serum; anchors the brightening tier
     list alongside The Ordinary Alpha Arbutin
 - name: The Inkey List Tranexamic Acid Night Treatment
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: brightening
   source: Affordable tranexamic-acid brightening product; TXA is a strong-tier melasma/brightening
     active
 - name: Aklief (trifarotene 0.005% cream)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: retinoid-cluster
   source: Newer 4th-gen selective retinoid (trifarotene), FDA-approved for facial
     and truncal acne with pivotal RCTs
 - name: Twyneo (tretinoin 0.1% / benzoyl peroxide 3% cream)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: retinoid-cluster
   source: 'Twyneo (tretinoin 0.1% + benzoyl peroxide 3%): first FDA-approved fixed-combo
     of tretinoin+BPO via silica microencapsulation; pivotal acne RCTs'

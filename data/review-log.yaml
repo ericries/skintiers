@@ -4961,3 +4961,43 @@ acetyl-zingerone:
   score: 9
   verdict: publish
   note: 'INGREDIENT cron (Sonnet draft, Opus critic). Emerging antioxidant (Sytheon, patent-holder Chaudhuri). Critic verdict PUBLISH: re-verified all 3 sources via NCBI E-utilities/BioC (Swindell 2021 PMC8395926, Meyer 2023 PMC10295400, Afzal 2024 PMID 38525606); every stat exact, no fabrication. Honest grading: in-vitro=patent-holder/unreplicated, combination RCT (n=44, 8wk, no vehicle arm)=preliminary/only-in-combination, standalone=anecdotal/unpublished. Sponsor+COI disclosed; CPD deflated as DNA-damage marker not cancer outcome. Gates clean; force-published assurance=sonnet.'
+medik8-crystal-retinal-10:
+  last_reviewed: '2026-08-16'
+  score: 8
+  verdict: revise-then-fixed
+  note: 'Drain wave 5. Corrected ''no cited trial isolates 0.10%'' (Kwon 2018/Deda 2026 on retinaldehyde page do test 0.1%; real gap is Medik8''s formula), made single-source price gap explicit, attributed 11x discounting to Chemist Confessions. Gates clean; force-published.'
+la-roche-posay-anthelios-mineral-tinted-spf-50:
+  last_reviewed: '2026-08-16'
+  score: 8
+  verdict: revise-then-fixed
+  note: 'Drain wave 5. Removed fabricated ''broad spectrum SPF 50'' page-metadata quote (page says SPF 40-50 range), re-cited to Target+DailyMed FDA label (TiO2 11%), added real URL to [^3], dropped unsourced ''2025 reformulation''. Gates clean; force-published.'
+skinceuticals-discoloration-defense:
+  last_reviewed: '2026-08-16'
+  score: 8
+  verdict: revise-then-fixed
+  note: 'Drain wave 5. Downgraded grade evidence mixed->preliminary (single opaque likely-manufacturer study, Desai 2019), flagged formula-match as likely validation research, removed self-references. Gates clean; force-published.'
+the-ordinary-alpha-arbutin-2-ha:
+  last_reviewed: '2026-08-16'
+  score: 8
+  verdict: revise-then-fixed
+  note: 'Drain wave 5. Fixed invalid evidence:unresolvable->anecdotal (build.py EVIDENCE_MAP), affirmative HA link-out summary, surfaced $11.50 mfr price, noted 2% effect inferred-not-evidenced. Gates clean; force-published.'
+naturium-alpha-arbutin-serum-2:
+  last_reviewed: '2026-08-16'
+  score: 8
+  verdict: revise-then-fixed
+  note: 'Drain wave 5. Added 2 real PubMed URLs to [^2] (Tantanasrigul 2025, Polnikorn 2010), split blended niacinamide grade row (barrier=preliminary, hyperpigmentation=mixed per niacinamide.md), compressed rehashed evidence, fixed dropped-word quote. Gates clean; force-published.'
+the-inkey-list-tranexamic-acid-night-treatment:
+  last_reviewed: '2026-08-16'
+  score: 8
+  verdict: revise-then-fixed
+  note: 'Drain wave 5. Critic revise->fixed. Gates clean; force-published.'
+aklief-trifarotene-0-005-cream:
+  last_reviewed: '2026-08-16'
+  score: 8
+  verdict: revise-then-fixed
+  note: 'Drain wave 5 (Rx trifarotene). Critic revise->fixed. Gates clean; force-published.'
+twyneo-tretinoin-benzoyl-peroxide-cream:
+  last_reviewed: '2026-08-16'
+  score: 8
+  verdict: revise-then-fixed
+  note: 'Drain wave 5 (Rx tretinoin 0.1%/BPO 3%). Critic revise->fixed. Gates clean; force-published.'
