@@ -3,6 +3,10 @@ analyzed: '2026-08-16'
 assurance: sonnet
 brand: IOPE
 category: Serums
+images:
+- file: iope-stem-3-clinical-recovery-serum-iope.jpg
+  source: IOPE
+  source_url: https://www.iope.com/product/xmd%EC%8A%A4%ED%85%9C3-%ED%81%B4%EB%A6%AC%EB%8B%88%EC%BB%AC-%EB%A6%AC%EC%BB%A4%EB%B2%84%EB%A6%AC-%EC%84%B8%EB%9F%BC/60/category/1/display/2/
 grades:
 - effect: minimal
   evidence: preliminary

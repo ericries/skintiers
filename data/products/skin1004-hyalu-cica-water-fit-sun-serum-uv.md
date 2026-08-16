@@ -3,6 +3,10 @@ analyzed: '2026-08-16'
 assurance: sonnet
 brand: SKIN1004
 category: Sunscreens
+images:
+- file: skin1004-hyalu-cica-water-fit-sun-serum-uv-skin1004.jpg
+  source: SKIN1004
+  source_url: https://www.skin1004.com/products/hyalu-cica-water-fit-sun-serum-uv
 comparator: other Korean chemical sunscreens sold as "sun serums," especially [[beauty-of-joseon-aqua-fresh-sun-serum|Beauty
   of Joseon's Aqua-fresh Rice + B5]]
 grades:

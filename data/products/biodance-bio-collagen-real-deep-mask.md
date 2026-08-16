@@ -3,6 +3,10 @@ analyzed: '2026-08-16'
 assurance: sonnet
 brand: BIODANCE
 category: Masks
+images:
+- file: biodance-bio-collagen-real-deep-mask-biodance.png
+  source: BIODANCE
+  source_url: https://www.biodance.co.kr/product/16%EB%A7%A4%EC%9E%85-%EB%B0%94%EC%9D%B4%EC%98%A4-%EC%BD%9C%EB%9D%BC%EA%B2%90-%EB%A6%AC%EC%96%BC-%EB%94%A5-%EB%A7%88%EC%8A%A4%ED%81%AC/132/category/1/display/10/
 comparator: other hydrogel/collagen sheet masks
 grades:
 - effect: minimal

@@ -3,6 +3,10 @@ analyzed: '2026-08-16'
 assurance: sonnet
 brand: SK-II
 category: Toners
+images:
+- file: sk-ii-facial-treatment-essence-skii.jpg
+  source: SK-II
+  source_url: https://www.sk-ii.com/products/facial-treatment-essence
 grades:
 - effect: modest
   evidence: preliminary

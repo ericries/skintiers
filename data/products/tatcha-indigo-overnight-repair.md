@@ -3,6 +3,10 @@ analyzed: '2026-08-16'
 assurance: sonnet
 brand: Tatcha
 category: Moisturizers
+images:
+- file: tatcha-indigo-overnight-repair-tatcha.jpg
+  source: Tatcha
+  source_url: https://www.tatcha.com/products/indigo-overnight-repair-serum
 comparator: other ceramide-based barrier/soothing creams, such as [[dr-jart-ceramidin-cream|Dr.
   Jart+ Ceramidin Cream]] and [[la-roche-posay-cicaplast-baume-b5|La Roche-Posay Cicaplast
   Baume B5]]

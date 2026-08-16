@@ -3,6 +3,13 @@ analyzed: '2026-08-16'
 assurance: sonnet
 brand: Cetaphil
 category: Sunscreens
+images:
+- file: cetaphil-sheer-mineral-sunscreen-stick-spf-50-cetaphil.jpg
+  source: Cetaphil
+  source_url: https://www.cetaphil.com/us/products/product-categories/sunscreens/sheer-mineral*-sunscreen-stick-spf-50/302994108008.html
+- file: cetaphil-sheer-mineral-sunscreen-stick-spf-50-target.jpg
+  source: Target
+  source_url: https://www.target.com/p/cetaphil-sheer-mineral-sunscreen-stick-for-face-38-body-spf-50-0-5-fl-oz/-/A-80139633
 comparator: other mineral sunscreens, including CeraVe's mineral SPF 50 face sunscreen
 grades:
 - effect: modest
