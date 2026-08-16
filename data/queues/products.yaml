@@ -1093,21 +1093,21 @@
 - name: Paula's Choice Pro-Collagen Peptide Plumping Moisturizer
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: shereene-idriss
   source: 'Dr. Shereene Idriss peptides video (transcript-verified): oligopeptide-1
     source'
 - name: Murad Dark Spot Correcting Serum
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: shereene-idriss
   source: 'Dr. Shereene Idriss peptides video (transcript-verified): hexapeptide-2
     for melanin regulation'
 - name: A313 Vitamin A Pommade
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: shereene-idriss
   source: 'Dr. Shereene Idriss (transcript-verified): French pharmacy retinol/retinyl-ester
     cult product'
@@ -1121,35 +1121,35 @@
 - name: Haruharu Wonder Black Rice Hyaluronic Toner
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: scott-walter
   source: 'Dr. Scott Walter morning glass-skin routine (transcript-verified): HA toner
     step'
 - name: Allies of Skin Peptides and Antioxidants Firming Daily Treatment
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: shereene-idriss
   source: 'Dr. Shereene Idriss peptides video (transcript-verified): acetyl tetrapeptide-40
     source for barrier/calming'
 - name: Epiduo Forte (adapalene 0.3% / benzoyl peroxide 2.5%)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: user-request
   source: User request; distinct stronger SKU from the published Epiduo 0.1%/2.5%
     (adapalene 0.3% / benzoyl peroxide 2.5%, prescription)
 - name: AESTURA Derma UV365 Barrier Hydro Mineral Sunscreen
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: scott-walter
   source: 'Dr. Scott Walter routine (transcript-verified): AESTURA mineral sunscreen,
     ''the CeraVe of Korea'''
 - name: NIOD Multi-Molecular Hyaluronic Complex
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: shereene-idriss
   source: 'Dr. Shereene Idriss (transcript-verified): NIOD neck serum, five-peptide
     9% blend'
@@ -1360,7 +1360,7 @@
 - name: Aestura Derma UV365 Barrier Hydro Mineral Sunscreen
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: scott-walter
   source: A zinc-oxide mineral sunscreen for sensitive/irritation-prone skin from
     Aestura (the site already profiles several Aestura Atobarrier products); featured

@@ -4886,45 +4886,73 @@ aveeno-eczema-therapy-daily-moisturizing-cream:
     fixes (tightened a dense blockquote; added the barrier-grade honesty clause; Where-to-Buy naming note;
     published). Photo gallery deferred to image cron. Surfaces on colloidal-oatmeal + moisturizing.
     assurance=sonnet.
-
-- slug: iope-stem-3-clinical-recovery-serum
-  date: "2026-08-16"
-  reviewer: opus-profile-reviewer (drain wave wf_7ed6c60b)
-  verdict: revise->fixed->force-published
-  note: >-
-    Opus critic: revise. Fixed 3 verify ERRORs (embedded PubMed URLs), INCI count 31->32, softened niacinamide ~2% attribution, centella grade mechanism-only. Gates clean.
-
-- slug: sk-ii-facial-treatment-essence
-  date: "2026-08-16"
-  reviewer: opus-profile-reviewer (drain wave wf_7ed6c60b)
-  verdict: revise->fixed->force-published
-  note: >-
-    Opus critic: revise. Removed fabricated quotes, corrected 1999-cohort mischaracterization (same subjects 11y later), citation page 1177->1168, added Toners category+test. Gates clean.
-
-- slug: tatcha-indigo-overnight-repair
-  date: "2026-08-16"
-  reviewer: opus-profile-reviewer (drain wave wf_7ed6c60b)
-  verdict: revise->fixed->force-published
-  note: >-
-    Opus critic: flag->resolved. Corrected false 'no sample size' claim (n=40 bio-instrumentation), verbatim quote fix, INCI 31->32, dimethicone grade minimal->modest. Gates clean.
-
-- slug: cetaphil-sheer-mineral-sunscreen-stick-spf-50
-  date: "2026-08-16"
-  reviewer: opus-profile-reviewer (drain wave wf_7ed6c60b)
-  verdict: revise->fixed->force-published
-  note: >-
-    Opus critic: revise. Added DailyMed URL for footnote [^3], corrected comparator overclaim/typo. Gates clean.
-
-- slug: skin1004-hyalu-cica-water-fit-sun-serum-uv
-  date: "2026-08-16"
-  reviewer: opus-profile-reviewer (drain wave wf_7ed6c60b)
-  verdict: revise->fixed->force-published
-  note: >-
-    Opus critic: revise (fixed). Gates clean.
-
-- slug: biodance-bio-collagen-real-deep-mask
-  date: "2026-08-16"
-  reviewer: opus-profile-reviewer (drain wave wf_7ed6c60b)
-  verdict: revise->fixed->force-published
-  note: >-
-    Opus critic: revise (fixed). Gates clean.
+iope-stem-3-clinical-recovery-serum:
+  last_reviewed: '2026-08-16'
+  score: 8
+  verdict: revise-then-fixed
+  note: 'Drain wave (Sonnet draft, Opus critic). Fixed 3 verify ERRORs (embedded PubMed URLs), INCI 31->32, softened niacinamide ~2% attribution, centella grade mechanism-only. Gates clean; force-published assurance=sonnet.'
+sk-ii-facial-treatment-essence:
+  last_reviewed: '2026-08-16'
+  score: 8
+  verdict: revise-then-fixed
+  note: 'Drain wave. Removed fabricated quotes, corrected 1999-cohort mischaracterization (same subjects 11y later), citation page 1177->1168, added Toners category+regression test. Gates clean; force-published.'
+tatcha-indigo-overnight-repair:
+  last_reviewed: '2026-08-16'
+  score: 8
+  verdict: revise-then-fixed
+  note: 'Drain wave. Corrected false ''no sample size'' claim (n=40 bio-instrumentation), verbatim quote fix, INCI 31->32, dimethicone grade minimal->modest. Gates clean; force-published.'
+cetaphil-sheer-mineral-sunscreen-stick-spf-50:
+  last_reviewed: '2026-08-16'
+  score: 8
+  verdict: revise-then-fixed
+  note: 'Drain wave. Added DailyMed URL for footnote [^3], corrected comparator overclaim/typo. Gates clean; force-published.'
+skin1004-hyalu-cica-water-fit-sun-serum-uv:
+  last_reviewed: '2026-08-16'
+  score: 8
+  verdict: revise-then-fixed
+  note: 'Drain wave. Critic revise->fixed. Gates clean; force-published.'
+biodance-bio-collagen-real-deep-mask:
+  last_reviewed: '2026-08-16'
+  score: 8
+  verdict: revise-then-fixed
+  note: 'Drain wave. Critic revise->fixed. Gates clean; force-published.'
+paulas-choice-pro-collagen-peptide-plumping-moisturizer:
+  last_reviewed: '2026-08-16'
+  score: 8
+  verdict: revise-then-fixed
+  note: 'Drain wave 4 (Sonnet draft, Opus critic). Corrected dimethicone INCI position (2nd not 1st), dropped unconfirmed 50mL size, flagged single cache-only manufacturer source. Gates clean; force-published.'
+murad-rapid-dark-spot-correcting-serum:
+  last_reviewed: '2026-08-16'
+  score: 8
+  verdict: revise-then-fixed
+  note: 'Drain wave 4. Misquote ''in 7 days''->''within 7 days'', rewrote uncited-stat paragraphs to link out to tranexamic-acid/glycolic-acid, INCI 40->42. Gates clean; force-published.'
+a313-vitamin-a-pommade:
+  last_reviewed: '2026-08-16'
+  score: 8
+  verdict: revise-then-fixed
+  note: 'Drain wave 4. Replaced fabricated ''trusted by dermatologists'' quote with verified distributor text, added 3 PMC primary URLs, relabeled wrinkle grade cosmetic, acne grade minimal->none. Gates clean; force-published.'
+haruharu-wonder-black-rice-hyaluronic-toner:
+  last_reviewed: '2026-08-16'
+  score: 8
+  verdict: revise-then-fixed
+  note: 'Drain wave 4. Replaced fabricated quote with accurate label-contradiction framing, INCI 27->28, hydration grade minimal->modest, linked beta-glucan. Gates clean; force-published.'
+allies-of-skin-peptides-antioxidants-advanced-firming-daily-treatment:
+  last_reviewed: '2026-08-16'
+  score: 8
+  verdict: revise-then-fixed
+  note: 'Drain wave 4. Fixed peptide count (6 not 7), softened 5% antioxidant-complex grouping, corrected INCI count ~60->~70, added Cult Beauty existence corroborator footnote. Gates clean; force-published.'
+epiduo-forte-adapalene-benzoyl-peroxide-gel:
+  last_reviewed: '2026-08-16'
+  score: 8
+  verdict: revise-then-fixed
+  note: 'Drain wave 4 (Sonnet draft, Opus critic). Rx adapalene 0.3%/BPO 2.5%; critic punch-list applied. Gates clean; force-published.'
+aestura-derma-uv365-barrier-hydro-mineral-sunscreen:
+  last_reviewed: '2026-08-16'
+  score: 8
+  verdict: revise-then-fixed
+  note: 'Drain wave 4. Critic revise->fixed. Gates clean; force-published.'
+niod-multi-molecular-hyaluronic-complex:
+  last_reviewed: '2026-08-16'
+  score: 8
+  verdict: revise-then-fixed
+  note: 'Drain wave 4. Critic revise->fixed. Gates clean; force-published.'
