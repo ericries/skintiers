@@ -36,6 +36,7 @@ PRODUCT_CATEGORY_ORDER = (
     "Sunscreens",
     "Moisturizers",
     "Cleansers",
+    "Toners",
     "Retinoids",
     "Exfoliants",
     "Vitamin C serums",

@@ -198,6 +198,36 @@ def test_products_listing_groups_by_category_in_order(tmp_path):
     assert 'class="listing-group"' not in (out / "ingredients.html").read_text()
 
 
+def test_products_listing_recognizes_toners_category(tmp_path):
+    # "Toners" is a recognized bucket in PRODUCT_CATEGORY_ORDER (added after
+    # several toner products, e.g. SK-II Facial Treatment Essence, were
+    # falling into "Other" because the category wasn't registered).
+    data = tmp_path / "data"
+    out = tmp_path / "_site"
+    pdir = data / "products"
+    pdir.mkdir(parents=True)
+
+    def _prod(slug, category=None):
+        cat = f"category: {category}\n" if category else ""
+        (pdir / f"{slug}.md").write_text(
+            f"---\nname: {slug.title()}\nslug: {slug}\ntype: product\n"
+            f"status: published\nupdated: 2026-07-26\nanalyzed: 2026-07-26\n"
+            f"{cat}---\n\nBody.\n")
+
+    _prod("a-toner", "Toners")
+    _prod("b-mystery")  # no category -> "Other"
+
+    env = {**os.environ, "SK_DATA": str(data), "SK_OUTPUT": str(out)}
+    r = subprocess.run([sys.executable, str(ROOT / "build.py")], env=env,
+                       capture_output=True, text=True)
+    assert r.returncode == 0, r.stderr
+
+    products_html = (out / "products.html").read_text()
+    assert 'class="listing-group">Toners<' in products_html
+    assert products_html.index("Toners") < products_html.index("Other")
+    assert products_html.index("Toners") < products_html.index("A-Toner")
+
+
 def test_product_photo_rail_no_captions(tmp_path):
     data = tmp_path / "data"
     out = tmp_path / "_site"

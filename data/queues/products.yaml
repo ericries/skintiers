@@ -1039,33 +1039,33 @@
 - name: IOPE Stem 3 Clinical Recovery Serum
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: victoria-fu
   source: Chemist Confessions, PDRN pick with split-face clinical vs injection (transcript-verified)
 - name: SK-II Facial Treatment Essence
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: samantha-ellis
   source: 'Dr. Sam Ellis video (transcript-verified): galactomyces essence for skin
     that cannot tolerate acids/vitamin C'
 - name: Tatcha Indigo Overnight Repair Serum
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: samantha-ellis
   source: 'Dr. Sam Ellis video: calming nighttime moisturizer for sensitive skin'
 - name: Cetaphil Sheer Mineral Sunscreen Stick
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: michelle-wong
   source: 'Michelle Wong sunscreen-stick application tests: strong coverage among
     mineral sticks'
 - name: Skin1004 Hyalu-Waterfit Sun Serum
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: scott-walter
   source: 'Dr. Scott Walter top-5 Korean sunscreens (transcript-verified): SPF50 serum-texture,
     no white cast, for acne-prone skin'
@@ -1079,7 +1079,7 @@
 - name: Biodance Bio-Collagen Real Deep Mask
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: scott-walter
   source: 'Dr. Scott Walter (transcript-verified): overnight hydrogel mask; his test
     hydration 12% to 42%'
