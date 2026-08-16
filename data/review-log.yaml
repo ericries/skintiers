@@ -4956,3 +4956,8 @@ niod-multi-molecular-hyaluronic-complex:
   score: 8
   verdict: revise-then-fixed
   note: 'Drain wave 4. Critic revise->fixed. Gates clean; force-published.'
+acetyl-zingerone:
+  last_reviewed: '2026-08-16'
+  score: 9
+  verdict: publish
+  note: 'INGREDIENT cron (Sonnet draft, Opus critic). Emerging antioxidant (Sytheon, patent-holder Chaudhuri). Critic verdict PUBLISH: re-verified all 3 sources via NCBI E-utilities/BioC (Swindell 2021 PMC8395926, Meyer 2023 PMC10295400, Afzal 2024 PMID 38525606); every stat exact, no fabrication. Honest grading: in-vitro=patent-holder/unreplicated, combination RCT (n=44, 8wk, no vehicle arm)=preliminary/only-in-combination, standalone=anecdotal/unpublished. Sponsor+COI disclosed; CPD deflated as DNA-damage marker not cancer outcome. Gates clean; force-published assurance=sonnet.'
