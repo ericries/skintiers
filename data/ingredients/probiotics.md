@@ -6,6 +6,18 @@ slug: probiotics
 status: published
 type: ingredient
 updated: '2026-07-28'
+videos:
+- title: "Prebiotics vs probiotics vs postbiotics vs synbiotics"
+  creator: ""
+  creator_slug: heather-woolerylloyd
+  credential: ""
+  platform: TikTok
+  url: https://www.tiktok.com/@drheathermd/video/7563884756690128183
+  posted: '2025-10-22'
+  related: [inulin]
+  thesis: "Dr. Heather Woolery-Lloyd, a board-certified dermatologist, clarifies the differences between prebiotics, probiotics, postbiotics, and synbiotics in skincare. She explains prebiotics like inulin feed beneficial skin bacteria, while true live probiotic bacteria are rarely formulated into cosmetics; postbiotics are the beneficial metabolites bacteria produce and deliver benefits without live organisms. Synbiotics combine prebiotics and probiotics in one product but run into the same live-bacteria formulation limitation."
+  note: "Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship."
+
 ---
 
 "Probiotics" on a skincare label rarely means what the word suggests. In science a probiotic is a live microorganism, given in a large enough dose to do something measurable in the body. Most skincare sold as "probiotic" contains no live bacteria at all. It contains bacterial ferments, lysates, and filtrates, which are the broken-down remains or by-products of microbes, a category researchers now call postbiotics. So the first job of this page is to separate the terms. The second is to sort the evidence by how the product is used: creams and lotions put on the skin (topical), and capsules and drinks taken by mouth (ingested). The two lines of evidence are not equally strong, and neither supports the broad "rebalance your microbiome" claims on most labels.

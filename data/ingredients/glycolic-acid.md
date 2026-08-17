@@ -12,6 +12,16 @@ videos:
   related: [melasma]
   thesis: "For melasma, Australian board-certified dermatologist Dr. Davin Lim uses glycolic acid only as an in-office peel, stepping up concentration from about 20% toward 70%, and only combined with sunscreen and pigment inhibitors, never as a standalone treatment; he notes a series of glycolic peels can improve melasma by up to 40 to 50% in some studies. For at-home use of glycolic acid, he recommends staying in a 5 to 10% range building to about 15%, left on a maximum of 3 minutes and neutralized at the first sign of redness or stinging, because unlike self-neutralizing acids such as retinoic or salicylic acid, glycolic acid must be actively neutralized and is one of the more common causes of at-home peel mishaps."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: "glycolic acid or salicylic acid? #skincaretips #razorbumps #fyp"
+  creator: ""
+  creator_slug: neera-nathan
+  credential: ""
+  platform: TikTok
+  url: https://www.tiktok.com/@dermatologysurgeon/video/7667998860593171742
+  posted: '2026-07-29'
+  related: [salicylic-acid, keratosis-pilaris]
+  thesis: "Dr. Neera Nathan, a board certified dermatologist, explains when to reach for glycolic acid versus salicylic acid. She recommends glycolic acid for razor bumps, calloused heels, wrinkles, keratosis pilaris, and dark spots, and points to salicylic acid for sebaceous filaments, oily skin, and comedones."
+  note: "Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship."
 name: Glycolic acid
 slug: glycolic-acid
 status: published

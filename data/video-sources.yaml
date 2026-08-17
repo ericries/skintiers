@@ -371,7 +371,7 @@
   channel: 'https://www.youtube.com/@dr.ugonabo'
   product_recs: restricted
   conflict: 'Periodic disclosed sponsored brand-partner content (Clinique ''#AD'', SkinCeuticals ''#skinceuticalspartner''); no own-brand product l'
-  last_pulled: null
+  last_pulled: '2026-08-16'
 - name: 'Dr. Shari Marchbein'
   creator_slug: shari-marchbein
   credential: 'Dermatologist'
@@ -379,7 +379,7 @@
   channel: 'https://www.tiktok.com/@drsharimarchbein'
   product_recs: restricted
   conflict: 'Recurring rotating consumer-brand partnerships visible in IG story highlights (Colorescience, Vaseline-HUED, Ponds, St Ives, and o'
-  last_pulled: null
+  last_pulled: '2026-08-16'
 - name: 'Dr. Onyeka Obioha-Lolagne, MD, FAAD (Dr. Onyeka Obioha)'
   creator_slug: onyeka-obiohalolagne
   credential: 'Dermatologist'
@@ -387,7 +387,7 @@
   channel: 'https://www.tiktok.com/@dr.obioha'
   product_recs: restricted
   conflict: 'Runs an in-house ''Apothecary'' and ''Shop'' tied to Boutik Dermatology (her own practice''s product line) — treat any product endorsem'
-  last_pulled: null
+  last_pulled: '2026-08-16'
 - name: 'Dr. Heather Woolery-Lloyd (drheathermd)'
   creator_slug: heather-woolerylloyd
   credential: 'Board-certified dermatologist'
@@ -395,7 +395,7 @@
   channel: 'https://www.tiktok.com/@drheathermd'
   product_recs: restricted
   conflict: 'Paid Chief Medical Advisor to Nutrafol (hair-growth supplement brand); bio links a stan.store link-in-bio storefront (possible aff'
-  last_pulled: null
+  last_pulled: '2026-08-16'
 - name: 'Dr. Brooke Jeffy (Brooke Jeffy, MD)'
   creator_slug: brooke-jeffy
   credential: 'Board-certified dermatologist'
@@ -403,7 +403,7 @@
   channel: 'https://www.youtube.com/@brookejeffymd'
   product_recs: restricted
   conflict: 'Founder of own-brand tween/teen skincare line BTWN (meetbtwn.com), which she actively promotes on all three platforms; also co-hos'
-  last_pulled: null
+  last_pulled: '2026-08-16'
 - name: 'Dr Zainab Laftah'
   creator_slug: zainab-laftah
   credential: 'Consultant dermatologist'
@@ -421,7 +421,7 @@
   channel: 'https://www.tiktok.com/@dr.iferodney'
   product_recs: restricted
   conflict: 'Founder & CEO of own hair-care brand, BLCK Hair Care (@blckhaircare), promoted in her Instagram bio — a product-formulation/owners'
-  last_pulled: null
+  last_pulled: '2026-08-16'
 - name: 'Dr. Chris Tomassian'
   creator_slug: chris-tomassian
   credential: 'Board-certified dermatologist'
@@ -429,7 +429,7 @@
   channel: 'https://www.youtube.com/@dr.tomassian'
   product_recs: ok
   conflict: 'Bio includes a business/booking contact email suggesting managed brand partnerships; no confirmed own-brand line or affiliate stor'
-  last_pulled: null
+  last_pulled: '2026-08-16'
 - name: 'Dr. Neera Nathan'
   creator_slug: neera-nathan
   credential: 'Board-certified dermatologist'
@@ -437,7 +437,7 @@
   channel: 'https://www.youtube.com/@dermatologysurgeon'
   product_recs: restricted
   conflict: 'Runs a "Shop my Favorites" affiliate storefront (linktr.ee/dermatologysurgeon) that monetizes her product picks; no own-brand prod'
-  last_pulled: null
+  last_pulled: '2026-08-16'
 - name: 'Dr. Aegean Chan'
   creator_slug: aegean-chan
   credential: 'Board-certified dermatologist'
@@ -445,4 +445,4 @@
   channel: 'https://www.tiktok.com/@draegeanchan'
   product_recs: restricted
   conflict: 'Founder/owner of active postpartum skincare brand "More Than Nine" (cleanser, exfoliator, moisturizer, balm) — an ongoing own-bran'
-  last_pulled: null
+  last_pulled: '2026-08-16'

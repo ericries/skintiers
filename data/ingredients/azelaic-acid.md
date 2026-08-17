@@ -47,6 +47,26 @@ videos:
   related: [hyperpigmentation, melasma, acne, rosacea]
   thesis: "Board-certified dermatologist Dr. Alexis Stephens explains why azelaic acid is her go-to ingredient for hyperpigmentation, describing it as a tyrosinase inhibitor that curbs overactive melanin production while also being bactericidal against acne-causing bacteria, keratolytic, and anti-inflammatory, which makes it useful for melasma, post-inflammatory hyperpigmentation, acne, and rosacea. She says it is not photosensitizing so she applies it in the morning, notes it is safe during pregnancy and nursing, and states that at 20 percent (prescription-strength) it is comparably effective to hydroquinone for treating hyperpigmentation and melasma, while over-the-counter versions are available from brands like The Ordinary, Paula's Choice, and Glytone."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: "Azelaic Acid is going crazy!"
+  creator: ""
+  creator_slug: chris-tomassian
+  credential: ""
+  platform: TikTok
+  url: https://www.tiktok.com/@dr.tomassian/video/7673613138167663886
+  posted: '2026-08-13'
+  related: [rosacea, hyperpigmentation, acne]
+  thesis: "Dr. Chris Tomassian, a board-certified dermatologist, discusses how social media hype around azelaic acid has driven demand so high it caused a national shortage, leaving him temporarily unable to prescribe it to his patients. He notes azelaic acid is used to treat rosacea, hyperpigmentation, acne, and skin texture issues, while cautioning that enthusiasm for it has outpaced supply."
+  note: "Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship."
+- title: "how often to apply skincare #azelaicacid #retinol #fyp"
+  creator: ""
+  creator_slug: neera-nathan
+  credential: ""
+  platform: TikTok
+  url: https://www.tiktok.com/@dermatologysurgeon/video/7673611941050338590
+  posted: '2026-08-13'
+  related: [retinol, glycolic-acid, ascorbic-acid-vitamin-c, hyaluronic-acid, skin-barrier-repair]
+  thesis: "Dr. Neera Nathan, a board certified dermatologist, breaks down how often to use common skincare acids and actives. She recommends azelaic acid once or twice daily, vitamin C every morning, and retinol nightly if tolerated, starting with just a few nights per week. She also covers glycolic acid two to three times a week, hyaluronic acid up to twice daily, and barrier repair cream as often as needed."
+  note: "Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship."
 
 ---
 

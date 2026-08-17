@@ -87,6 +87,26 @@ videos:
   related: [salicylic-acid, lactic-acid, glycolic-acid, retinol, benzoyl-peroxide]
   thesis: "Board-certified dermatologist Dr. Sheila Farhang explains that acne is not treated one way, and breaks it down by type: comedonal acne (clogged pores) responds to salicylic, lactic, or glycolic acid plus a retinoid to speed cell turnover; inflammatory acne (whiteheads and painful surface bumps) starts with benzoyl peroxide to reduce bacteria, salicylic acid to unclog pores, and a retinoid, with topical clindamycin (pregnancy-safe) as her backup; nodular cystic acne is deeper and can scar, so she says it is time to see a dermatologist for prescription topicals, in-office laser, or oral medication; and hormonal acne is a systemic issue where she looks for the underlying trigger and uses supplements like DIM, the prescription topical Winlevi, or spironolactone alongside topicals."
   note: "Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship."
+- title: "3 common skincare ingredients that cause acne"
+  creator: ""
+  creator_slug: onyeka-obiohalolagne
+  credential: ""
+  platform: TikTok
+  url: https://www.tiktok.com/@dr.obioha/video/7339236743608274222
+  posted: '2024-02-24'
+  related: []
+  thesis: "Board-certified dermatologist Dr. Onyeka Obioha warns that some skincare products marketed as oil-free can still contain comedogenic oils and butters that sit on top of the skin and clog pores. She explains that clogged pores worsen breakouts, so she recommends flipping the bottle over and checking the ingredient list for oils and butters rather than trusting front-of-package claims. This is a general label-reading tip for anyone managing acne-prone skin."
+  note: "Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship."
+- title: "At-home acne injection pen (ClearPen) in development"
+  creator: ""
+  creator_slug: heather-woolerylloyd
+  credential: ""
+  platform: TikTok
+  url: https://www.tiktok.com/@drheathermd/video/7603033455491894541
+  posted: '2026-02-04'
+  related: []
+  thesis: "Dr. Heather Woolery-Lloyd, a board-certified dermatologist, discusses an investigational at-home acne injection device called ClearPen, being developed by the company Indomo. The device uses a microneedle delivery system to let patients self-administer triamcinolone, a steroid dermatologists use to rapidly reduce inflammation, directly into inflammatory acne lesions, and is currently headed into phase two clinical trials."
+  note: "Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship."
 tier_list:
   title: "Acne topical actives by evidence"
   by: "strength of the evidence for treating acne — several of these are clinically similar, so the tiers track evidence certainty, not effect size alone"

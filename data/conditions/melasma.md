@@ -46,6 +46,18 @@ tier_list:
   title: Topical actives for melasma, by evidence
 type: condition
 updated: '2026-08-10'
+videos:
+- title: "If you have melasma, you need to know this!"
+  creator: ""
+  creator_slug: chris-tomassian
+  credential: ""
+  platform: TikTok
+  url: https://www.tiktok.com/@dr.tomassian/video/7673640360509328654
+  posted: '2026-08-13'
+  related: [hyperpigmentation]
+  thesis: "Dr. Chris Tomassian, a board-certified dermatologist, warns that people with melasma, a type of hyperpigmentation, should avoid excessive heat exposure such as saunas and steam rooms. He explains that heat worsens melasma and makes it much harder to treat, so heat avoidance should be paired with the usual sun protection measures."
+  note: "Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship."
+
 ---
 
 Melasma is an acquired, symmetric darkening of the skin, described in a clinical and epidemiological review as "irregular brown macules symmetrically distributed on sun-exposed areas," most often across the central face.[^handel] It is strongly hormone-influenced: in about 40 to 50% of women the disease is triggered by pregnancy or by oral contraceptive use, which is where the older names "mask of pregnancy" and chloasma come from, though the same review notes those terms "do not fully characterize the disease."[^handel] Reported female-to-male ratios run 9 or 10 to 1, and the condition concentrates in people with medium-to-deep skin tones (Fitzpatrick III to V).[^handel] Both ultraviolet and visible light drive it, and it is chronic: it darkens in summer, fades in winter, and, per the same review, "long-term therapies are necessary, since recurrence rates are high."[^handel] That sets it apart from ordinary post-inflammatory hyperpigmentation and other dark spots, which trace to a single earlier injury at that exact site rather than forming melasma's own symmetric, hormone-linked pattern; [[hyperpigmentation]] covers those other forms and how clinicians tell all three apart.

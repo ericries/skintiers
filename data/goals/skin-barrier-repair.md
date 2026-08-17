@@ -47,6 +47,26 @@ videos:
   related: [ceramides, niacinamide, hyaluronic-acid, la-roche-posay-toleriane-hydrating-gentle-cleanser, skinfix-barrier-triple-lipid-peptide-cream, skin-barrier-strengthening]
   thesis: "Board-certified dermatologist Dr. Joyce Park (Tea with MD) walks through three seasonal swaps to protect the skin barrier as cold air and indoor heating set in: switching from foaming cleansers to gentle, non-foaming ones with niacinamide, ceramides, glycerin, and hyaluronic acid (she names La Roche-Posay Toleriane Hydrating Gentle Cleanser and CeraVe Hydrating Cleanser), moving from gel moisturizers to richer ceramide creams like SkinCeuticals Triple Lipid Restore or the budget alternative Skinfix Triple Lipid Peptide Cream, and continuing daily sunscreen (favoring mineral formulas for flare-prone rosacea or eczema skin) since UV exposure and skin cancer risk persist through winter. She frames the routine as layering hydration in stages rather than swapping one product for another, and does not cite any specific published study."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: "#barrierrepair #moisturebarrier #skincareroutine"
+  creator: ""
+  creator_slug: onyeka-obiohalolagne
+  credential: ""
+  platform: TikTok
+  url: https://www.tiktok.com/@dr.obioha/video/7288898312877493547
+  posted: '2023-10-12'
+  related: [ceramides, atopic-dermatitis]
+  thesis: "Board-certified dermatologist Dr. Onyeka Obioha explains that the skin's moisture barrier, made up of ceramides, fatty acids, and lipids, protects against the external environment and unwanted bacteria. She describes how a compromised barrier leads to transepidermal water loss, dryness, and can worsen inflammatory conditions like eczema, causing redness, itching, and increased infection risk. She notes that plain oils without ceramides or fatty acids sit on top of the skin and do nothing to actually restore the barrier, so it matters to know whether a product truly supports the moisture barrier or only feels like it does."
+  note: "Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship."
+- title: "If all you've been told for eczema is moisturize"
+  creator: ""
+  creator_slug: ife-rodney
+  credential: ""
+  platform: TikTok
+  url: https://www.tiktok.com/@dr.iferodney/video/7668026486355414302
+  posted: '2026-07-29'
+  related: [moisturizing]
+  thesis: "Dr. Ife Rodney, a board-certified dermatologist, explains that moisturizing alone is not enough to manage eczema and that reinforcing the skin's protective barrier also requires avoiding hot showers and fragranced or dyed products that can trigger flares. She recommends patting (not fully drying) skin after showering and massaging in a bland, gentle moisturizer within three minutes of getting out."
+  note: "Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship."
 
 ---
 

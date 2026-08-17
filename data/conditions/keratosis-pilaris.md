@@ -53,6 +53,16 @@ videos:
   related: [lactic-acid, salicylic-acid, urea, retinoids, retinol, cerave-sa-body-lotion-for-rough-and-bumpy-skin]
   thesis: "Board-certified dermatologist Dr. Alexis Stephens explains that keratosis pilaris is a genetic, chronic dry-skin condition caused by a buildup of keratin plugging the hair follicles, giving skin a rough, bumpy texture on the arms, legs, or cheeks. She recommends lukewarm (not hot) showers, immediate moisturizing on damp skin, and chemical exfoliants such as lactic acid, salicylic acid, and retinoid-containing products two to three times a week, paired daily with urea- and glycerin-based moisturizers to rebuild the skin barrier."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: "bad, good & great products for strawberry skin"
+  creator: ""
+  creator_slug: neera-nathan
+  credential: ""
+  platform: TikTok
+  url: https://www.tiktok.com/@dermatologysurgeon/video/7672410221788138782
+  posted: '2026-08-10'
+  related: [glycolic-acid, adapalene, retinaldehyde, tranexamic-acid, lactic-acid, urea]
+  thesis: "Dr. Neera Nathan, a board certified dermatologist, ranks bad, good, and great products for strawberry skin, also known as keratosis pilaris. She advises against dry brushing and harsh scrubs, notes that retinaldehyde helps only a little while adapalene is a better retinoid option, and calls glycolic acid a top pick for exfoliating and hydrating bumpy skin. She also recommends glycolic acid pads containing tranexamic acid for hyperpigmented strawberry skin and lactic acid or urea moisturizers for smoothing texture."
+  note: "Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship."
 
 ---
 

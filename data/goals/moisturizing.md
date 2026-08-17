@@ -16,6 +16,18 @@ tier_list:
     - ceramides
     - dimethicone
     - colloidal-oatmeal
+videos:
+- title: "If your eczema keeps flaring, there may be more than one trigger"
+  creator: ""
+  creator_slug: ife-rodney
+  credential: ""
+  platform: TikTok
+  url: https://www.tiktok.com/@dr.iferodney/video/7667674410001698062
+  posted: '2026-07-28'
+  related: [skin-barrier-repair]
+  thesis: "Dr. Ife Rodney, a board-certified dermatologist, explains that eczema flares can have more than one trigger because a disrupted skin barrier leaves skin more prone to dryness, inflammation, and allergic reactions to fragrances and dyes in detergents, lotions, and soaps. She recommends a bland, fragrance-free moisturizer applied within three minutes of showering and reapplied throughout the day whenever skin feels dry or itchy."
+  note: "Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship."
+
 ---
 
 Moisturizing is one of the best-evidenced interventions in dermatology for eczema and barrier-impaired skin. A Cochrane review found that keeping such skin hydrated and occluded reduces eczema flares and spares topical corticosteroids [^1]. Two mechanisms do the work: slowing water loss at the surface and binding water there.

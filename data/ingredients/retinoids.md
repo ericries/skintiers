@@ -92,6 +92,26 @@ videos:
   related: [tretinoin, retinol, acne, melasma]
   thesis: "Board-certified dermatologist Dr. Jenny Liu addresses common myths about topical retinoids (the vitamin A derivative category that includes prescription tretinoin, adapalene, and tazarotene, plus over-the-counter retinol and retinaldehyde). She explains that retinoids do not age skin faster or thin it (biopsy evidence shows they actually thicken skin and compact the stratum corneum), do not need to be paused in summer as long as sunscreen is worn, can be combined with vitamin C, and take at least 6 weeks to 3 to 6 months to show visible results because they work by boosting collagen production and normalizing skin cell turnover."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: "How to use the skincare holygrail - #retinol #retinoid"
+  creator: ""
+  creator_slug: onyeka-obiohalolagne
+  credential: ""
+  platform: TikTok
+  url: https://www.tiktok.com/@dr.obioha/video/7307128425330887979
+  posted: '2023-11-30'
+  related: [retinol]
+  thesis: "Board-certified dermatologist Dr. Onyeka Obioha demonstrates proper application technique for retinol and retinoid products, topical forms of vitamin A she calls a skincare holy grail. She recommends a pea-sized amount distributed across the forehead, cheeks, and chin, applied carefully near but not too close to the eyes. Her key tip is that if the product feels like too much was applied, it likely was, since the correct amount should feel like barely enough."
+  note: "Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship."
+- title: "DON'T BELIEVE EVERYTHING YOU READ: retinoids and breastfeeding"
+  creator: ""
+  creator_slug: aegean-chan
+  credential: ""
+  platform: TikTok
+  url: https://www.tiktok.com/@draegeanchan/video/7662835515032440077
+  posted: '2026-07-15'
+  related: []
+  thesis: "Board-certified dermatologist Dr. Aegean Chan explains that breastfeeding mothers can safely use topical retinoids, calling the common advice against it a myth. She notes that a retinoid applied to the face has minimal systemic absorption, so very little would ever reach the bloodstream, cross into breast milk, and then cross into the baby's gastrointestinal tract to have any effect, and by that point it is essentially just vitamin A, which infants need anyway. She contrasts this with pregnancy, where a developing fetus exposed to retinoids at high enough doses (typically from oral retinoids) can experience birth defects, arguing that many sources wrongly apply pregnancy-era retinoid warnings to breastfeeding, when the risk profile for a fully developed baby outside the body is very different."
+  note: "Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship."
 name: Retinoids
 slug: retinoids
 status: published

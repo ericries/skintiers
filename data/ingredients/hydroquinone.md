@@ -47,6 +47,16 @@ videos:
   related: [rosacea, retinoids]
   thesis: "Dr. Mamina Turegano, a board-certified dermatologist, argues that fear of certain prescription skincare treatments is often disproportionate to the evidence. She says most rosacea is undertreated rather than overtreated, that hydroquinone gets more fear than the evidence supports when it is used appropriately, and that tretinoin is both over-feared and under-prescribed. She advises sticking with a current routine if a condition is mild and improving, but seeing a dermatologist if it keeps recurring, worsens, or causes scarring or persistent pain and itching."
   note: "Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship."
+- title: "Dark spot treatments that really work!"
+  creator: ""
+  creator_slug: chris-tomassian
+  credential: ""
+  platform: TikTok
+  url: https://www.tiktok.com/@dr.tomassian/video/7672962933499940110
+  posted: '2026-08-12'
+  related: [hyperpigmentation]
+  thesis: "Dr. Chris Tomassian, a board-certified dermatologist, recommends hydroquinone-based creams, obtained through a dermatologist or an online pharmacy, as the most effective at-home option for treating dark spots, noting that use needs to be cycled with breaks. He adds that pairing hydroquinone with an in-office laser such as IPL or Pico for fair skin, or Fraxel for darker skin, gives the best results for stubborn dark spots."
+  note: "Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship."
 
 ---
 

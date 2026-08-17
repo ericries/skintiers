@@ -268,6 +268,46 @@ videos:
   related: []
   thesis: "Dr. Geeta Yadav, a board-certified dermatologist, explains that most people apply only about a quarter of the sunscreen amount needed to achieve the SPF printed on the label, meaning an SPF 50 product often performs closer to an SPF 15 to 25 in real-world use. She cites a randomized controlled trial published in the Journal of the American Academy of Dermatology showing that in real-world conditions SPF 100 outperformed SPF 50, arguing this shows high-SPF products are not a marketing gimmick but a buffer for typical under-application, and recommends reapplying every two hours and using a generous amount."
   note: "Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship."
+- title: "Sunscreen doping: hidden UV filters in mineral sunscreens"
+  creator: ""
+  creator_slug: heather-woolerylloyd
+  credential: ""
+  platform: TikTok
+  url: https://www.tiktok.com/@drheathermd/video/7558521767921274126
+  posted: '2025-10-07'
+  related: [octisalate]
+  thesis: "Dr. Heather Woolery-Lloyd, a board-certified dermatologist, explains the practice known as sunscreen doping, where brands add unapproved chemical UV-filter analogs like butyl octyl salicylate and tridecyl salicylate, both chemical cousins of the approved filter octisalate, to boost SPF and UVA protection without listing them as active ingredients. She notes this is sometimes done in products marketed as 100% mineral sunscreens to reduce white cast while secretly adding chemical UV protection, leaving consumers without transparency about what is actually protecting their skin."
+  note: "Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship."
+- title: "Thanks for the sunscreen misinformation @cnn"
+  creator: ""
+  creator_slug: brooke-jeffy
+  credential: ""
+  platform: TikTok
+  url: https://www.tiktok.com/@brookejeffymd/video/7642189715185093901
+  posted: '2026-05-21'
+  related: []
+  thesis: "Dermatologist Dr. Brooke Jeffy, MD, pushes back on recurring media claims that most sunscreen is unsafe. She argues that absorption of a sunscreen ingredient into the skin does not equal harm, that fear-based ratings from advocacy groups like the EWG ignore dose, formulation, and real-world human risk data, and that the well-documented harms of UV radiation itself (wrinkles, collagen loss, skin cancer) far outweigh the theoretical risks used to scare people away from sunscreen."
+  note: "Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship."
+- title: "Myth busting: Chemical vs. Mineral SPF edition"
+  creator: ""
+  creator_slug: brooke-jeffy
+  credential: ""
+  platform: TikTok
+  url: https://www.tiktok.com/@brookejeffymd/video/7636175182578617614
+  posted: '2026-05-04'
+  related: []
+  thesis: "Dermatologist Dr. Brooke Jeffy, MD, debunks common myths comparing mineral and chemical sunscreens. She states both filter types are FDA regulated and proven safe, that there is no clinical evidence chemical sunscreen ingredients absorbed into the bloodstream cause harm, and that the evidence chemical sunscreens damage coral reefs is limited and inconclusive, concluding that the best sunscreen is simply the one a person will actually wear consistently."
+  note: "Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship."
+- title: "What every dermatologist wants you to know about sunscreen"
+  creator: ""
+  creator_slug: ife-rodney
+  credential: ""
+  platform: TikTok
+  url: https://www.tiktok.com/@dr.iferodney/video/7668438213547035935
+  posted: '2026-07-30'
+  related: [hyperpigmentation, anti-aging]
+  thesis: "Dr. Ife Rodney, a board-certified dermatologist, explains that daily sunscreen use protects skin from UV rays and can help fade hyperpigmentation while lowering skin cancer risk over time. She adds that consistent use and reapplication of sunscreen also helps prevent fine lines and wrinkles, calling reapplication the habit every dermatologist wants to see from patients."
+  note: "Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship."
 name: Sunscreen (UV filters)
 slug: sunscreen-uv-filters
 status: published

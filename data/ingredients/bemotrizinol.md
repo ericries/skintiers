@@ -6,6 +6,18 @@ slug: bemotrizinol
 status: published
 type: ingredient
 updated: '2026-08-08'
+videos:
+- title: "New sunscreen filter bemotrizinol proposed by FDA"
+  creator: ""
+  creator_slug: heather-woolerylloyd
+  credential: ""
+  platform: TikTok
+  url: https://www.tiktok.com/@drheathermd/video/7596032062348381495
+  posted: '2026-01-16'
+  related: [sunscreen-uv-filters]
+  thesis: "Dr. Heather Woolery-Lloyd, a board-certified dermatologist, explains that the FDA has proposed approving bemotrizinol as a new over-the-counter sunscreen active ingredient in the US, the first such approval since 1999. Bemotrizinol (sold abroad as Tinosorb S) is an oil-soluble filter that absorbs both UVA and UVB rays and has been used safely in Europe and Asia since 2000. She notes the FDA's review found it provides strong UV protection with minimal systemic absorption and low irritation risk."
+  note: "Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship."
+
 ---
 
 Bemotrizinol (INCI bis-ethylhexyloxyphenol methoxyphenyl triazine, trade name Tinosorb S) is a triazine-class organic sunscreen filter described in the chemistry literature as broad-spectrum and photostable, absorbing across both the UVB and UVA bands.[^pontes] It was the standard modern broad-spectrum filter in Europe, Australia, and much of Asia for roughly two decades before the FDA added it to the US OTC sunscreen monograph for the first time, in June 2026.[^fda2026]
