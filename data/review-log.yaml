@@ -5086,3 +5086,8 @@ isdin:
   score: 8
   verdict: publish
   note: 'BRAND cron (lean inline card, no critic). ISDIN discovery roll-up: Spanish dermatological skincare brand; links its 2 site products (Eryfotona tinted SPF 50, Melatonik serum), marketing attributed as brand''s own. Grounded backlog (2 products, no brand page). Gates clean; force-published.'
+rosacea-papulopustular:
+  last_reviewed: '2026-08-17'
+  score: 8
+  verdict: publish
+  note: 'CONDITION cron (inline tier_list, no fresh critic). Added ''Papulopustular rosacea treatments by evidence'' tier_list to the subtype hub: sunscreen/azelaic-acid/ivermectin-topical (strong), metronidazole/doxycycline-40mg (moderate), sulfur (weak); excluded brimonidine (redness-only subtype) and niacinamide (barrier-only). Grades+notes lifted from the already Opus-critic-verified main rosacea tier_list, so no new unverified health claims. All 6 slugs resolve to published pages; gates clean.'

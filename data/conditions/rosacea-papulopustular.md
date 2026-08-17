@@ -5,7 +5,30 @@ name: 'Rosacea Type 2: Papulopustular (inflammatory bumps and pustules)'
 slug: rosacea-papulopustular
 status: published
 type: condition
-updated: '2026-07-28'
+updated: '2026-08-17'
+tier_list:
+  title: "Papulopustular rosacea treatments by evidence"
+  by: "strength of the evidence specifically for the inflammatory bumps and pus-filled spots (papules and pustules) of this rosacea subtype; most first-line options are prescription, and daily sun protection plus trigger avoidance are foundational"
+  items:
+    - slug: sunscreen-uv-filters
+      tier: strong
+      note: "Sun is one of the most common rosacea triggers, so daily broad-spectrum sunscreen is foundational for reducing papulopustular flares; it manages a trigger rather than treating the lesions directly."
+    - slug: azelaic-acid
+      tier: strong
+      note: "FDA-approved specifically for papulopustular rosacea (15 percent gel or foam) with good randomized evidence for reducing inflammatory bumps; a first-line topical, prescription at that strength in the US."
+    - slug: ivermectin-topical
+      tier: strong
+      note: "First-line prescription topical (1 percent) with strong trial evidence for inflammatory papules and pustules, outperforming topical metronidazole head-to-head by targeting inflammation and Demodex mites."
+    - slug: metronidazole
+      tier: moderate
+      note: "The long-standing first-line prescription topical for this subtype (0.75 to 1 percent), well-tolerated with solid evidence, but bested by topical ivermectin in head-to-head trials."
+    - slug: doxycycline-oral-subantimicrobial
+      tier: moderate
+      note: "Oral doxycycline at a sub-antimicrobial anti-inflammatory dose (40 mg) has good evidence for papulopustular rosacea; systemic and prescription, used when topicals alone are not enough."
+    - slug: sulfur
+      tier: weak
+      note: "An older topical option (often paired with sodium sulfacetamide) sometimes used for the bumps; weaker and less consistent evidence than the first-line topicals above."
+
 ---
 
 Papulopustular rosacea (PPR), historically called Type 2 or subtype 2 rosacea, is the inflammatory form of the disease: crops of small red bumps (papules) and pus-topped spots (pustules) sitting on a background of persistent redness across the central face. It produces no blackheads or whiteheads, which is the clearest way it separates from acne, and it adds visible inflammatory lesions on top of the flushing and redness that define the Type 1 (erythematotelangiectatic) form.
