@@ -930,7 +930,7 @@
 - name: Palmitoyl Pentapeptide-4 (Matrixyl / pal-KTTKS)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/18492135/
 - name: Palmitoyl Tripeptide-1 and Palmitoyl Tetrapeptide-7 (Matrixyl 3000)

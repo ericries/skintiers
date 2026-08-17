@@ -5071,3 +5071,8 @@ lindsey-zubritsky:
   score: 8
   verdict: publish
   note: 'PERSON cron (lean inline card, no critic). Lindsey Zubritsky (DermGuru). Credential NPI-verified (NPI 1740600329: M.D., Dermatology, PA license MD463422); stated only NPI facts, not unverified ''board-certified''. Links her 4 embedded video cards (sulfur, tretinoin, acne, hyperpigmentation). Gates clean; force-published.'
+palmitoyl-pentapeptide-4-matrixyl:
+  last_reviewed: '2026-08-17'
+  score: 9
+  verdict: publish
+  note: 'INGREDIENT cron (Fable draft -> Opus critic verdict PUBLISH). Palmitoyl Pentapeptide-4 (Matrixyl/pal-KTTKS). Critic re-verified all 10 sources vs primary records (9 PMIDs incl 2026 Nukaly meta-analysis, PMC full text, cached retail). Honest: independent evidence is Robinson 2005 (n=93) modest/preliminary cosmetic; pooled wrinkle signal driven by ORAL not topical peptides; 3 different ''Matrixyl'' molecules disentangled; P&G/Sederma/Alumier COIs disclosed. Reached past low-value queue-top (Tasmannia) to unblock the peptides ladder. Gates clean; force-published.'
