@@ -3,6 +3,10 @@ analyzed: '2026-08-16'
 assurance: sonnet
 brand: Haruharu Wonder
 category: Toners
+images:
+- file: haruharu-wonder-black-rice-hyaluronic-toner-haruharuwonder.jpg
+  source: Haruharu Wonder
+  source_url: https://haruharuwonder.com/products/haruharuwonder-black-rice-hyaluronic-toner
 comparator: other Korean fermented-rice and hyaluronic acid toners (e.g. Anua Rice
   70 Glow Milky Toner, Isntree Hyaluronic Acid Toner)
 grades:

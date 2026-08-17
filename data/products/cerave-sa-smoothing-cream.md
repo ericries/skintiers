@@ -3,6 +3,10 @@ analyzed: '2026-08-16'
 assurance: sonnet
 brand: CeraVe
 category: Moisturizers
+images:
+- file: cerave-sa-smoothing-cream-lookfantastic.jpg
+  source: LookFantastic
+  source_url: https://www.lookfantastic.com/p/cerave-sa-smoothing-cream-with-salicylic-acid-for-dry-rough-bumpy-skin-340g/12207664/
 comparator: other exfoliating body creams and lotions for rough, bumpy, keratosis-pilaris-prone
   skin, including [[cerave-sa-body-lotion-for-rough-and-bumpy-skin]] and [[amlactin-daily-moisturizing-lotion-12-lactic-acid]]
 grades:

@@ -3,6 +3,10 @@ analyzed: '2026-08-16'
 assurance: sonnet
 brand: Galderma
 category: Retinoids
+images:
+- file: epiduo-forte-adapalene-benzoyl-peroxide-gel-dailymed.jpg
+  source: DailyMed (FDA label, Galderma Laboratories)
+  source_url: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f4e5d381-098a-4c93-9ff0-002cae46daac
 evidence_levels:
   active: adapalene
   active_note: adapalene is a solidly evidenced topical retinoid for acne, on par

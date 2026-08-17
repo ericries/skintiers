@@ -3,6 +3,10 @@ analyzed: '2026-08-16'
 assurance: sonnet
 brand: ISDIN
 category: Sunscreens
+images:
+- file: isdin-eryfotona-ageless-tinted-mineral-spf-50-dermstore.jpg
+  source: Dermstore
+  source_url: https://www.dermstore.com/p/isdin-eryfotona-ageless-tinted-mineral-sunscreen-spf-50-zinc-oxide-100ml/13971530/
 comparator: tinted mineral face sunscreens (e.g. La Roche-Posay Anthelios Mineral
   Tinted SPF 50, CeraVe Hydrating Mineral Sunscreen SPF 50)
 grades:

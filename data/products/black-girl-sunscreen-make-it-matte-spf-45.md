@@ -3,6 +3,10 @@ analyzed: '2026-08-16'
 assurance: sonnet
 brand: Black Girl Sunscreen
 category: Sunscreens
+images:
+- file: black-girl-sunscreen-make-it-matte-spf-45-blackgirlsunscreen.jpg
+  source: Black Girl Sunscreen
+  source_url: https://blackgirlsunscreen.com/product/make-it-matte-spf-45/
 comparator: broad-spectrum chemical sunscreens, including Black Girl Sunscreen's own
   Original SPF 30 and other US-filter facial sunscreens
 grades:
