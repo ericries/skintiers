@@ -5001,3 +5001,38 @@ twyneo-tretinoin-benzoyl-peroxide-cream:
   score: 8
   verdict: revise-then-fixed
   note: 'Drain wave 5 (Rx tretinoin 0.1%/BPO 3%). Critic revise->fixed. Gates clean; force-published.'
+winlevi-clascoterone-1-cream:
+  last_reviewed: '2026-08-16'
+  score: 8
+  verdict: revise-then-fixed
+  note: 'Drain wave 6 (Rx clascoterone 1%). Deleted fabricated truncal-dosing detail, corrected grade to label''s 12+ CI stats (IGA 18.8 vs 8.7; 20.9 vs 6.6), added Hebert/Dhillon sources. Gates clean; force-published.'
+supergoop-glowscreen-spf-40:
+  last_reviewed: '2026-08-16'
+  score: 8
+  verdict: revise-then-fixed
+  note: 'Drain wave 6. Critic revise->fixed. Gates clean; force-published.'
+amlactin-daily-moisturizing-lotion-12-lactic-acid:
+  last_reviewed: '2026-08-16'
+  score: 8
+  verdict: revise-then-fixed
+  note: 'Drain wave 6 (12% lactic acid body). Critic revise->fixed. Gates clean; force-published.'
+the-ordinary-ascorbyl-glucoside-solution-12:
+  last_reviewed: '2026-08-16'
+  score: 8
+  verdict: revise-then-fixed
+  note: 'Drain wave 6. Split health/cosmetic grade row, replaced uncited comparator with named+linked (LRP Pure Vit C $44.99, SkinCeuticals CEF $185). Gates clean; force-published.'
+black-girl-sunscreen-make-it-matte-spf-45:
+  last_reviewed: '2026-08-16'
+  score: 8
+  verdict: revise-then-fixed
+  note: 'Drain wave 6. Cached 2nd source (Target) which surfaced an octocrylene 5% vs 10% conflict; disclosed disagreement rather than claim, kept UVA grade modest. Gates clean; force-published.'
+isdin-melatonik-night-serum:
+  last_reviewed: '2026-08-16'
+  score: 8
+  verdict: revise-then-fixed
+  note: 'Drain wave 6. Removed fabricated ''master antioxidant'' quote (replaced w/ verbatim isdin.com/Dermstore language), corrected INCI attribution + ingredient count. Gates clean; force-published.'
+isdin-eryfotona-ageless-tinted-mineral-spf-50:
+  last_reviewed: '2026-08-16'
+  score: 8
+  verdict: revise-then-fixed
+  note: 'Drain wave 6. Softened single-source price (no independent corroborator found), split photoaging vs skin-cancer grade rows w/ Cochrane caveat. Gates clean; force-published.'

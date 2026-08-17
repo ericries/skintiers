@@ -1212,21 +1212,21 @@
 - name: The Ordinary Ascorbyl Glucoside Solution 12%
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: vitamin-c-forms
   source: Affordable ascorbyl-glucoside (vitamin C derivative) serum; ties the vitamin-c-forms
     ladder to a real buyable product
 - name: Isdin Melatonik Night Serum
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: pigment-cluster
   source: Popular melatonin + bakuchiol + vitamin C antioxidant night serum marketed
     for tone/repair; fits the brightening cluster
 - name: ISDIN Eryfotona Ageless Tinted Mineral Sunscreen SPF 50
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: davin-lim
   source: Dr Davin Lim / The Melasma Clinic focus; a real tinted mineral SPF for melasma
     visible-light protection
@@ -1240,21 +1240,21 @@
 - name: Winlevi (clascoterone 1% cream)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: clascoterone
   source: The FDA-approved clascoterone product (first topical anti-androgen for acne);
     product-specific pivotal RCTs (Hebert 2020)
 - name: Black Girl Sunscreen Make It Matte SPF 45
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: black-girl-sunscreen
   source: The matte/higher-SPF variant of Black Girl Sunscreen; complements the flagship
     SPF 30
 - name: Supergoop Glowscreen SPF 40
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: sunscreen-cluster
   source: Popular tinted-glow daily chemical sunscreen; widely recommended, extends
     daily-SPF coverage
@@ -1268,7 +1268,7 @@
 - name: AmLactin Daily Moisturizing Body Lotion (12% lactic acid)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: keratosis-pilaris
   source: The classic ammonium-lactate KP body treatment; anchors the lactic-acid
     rung
