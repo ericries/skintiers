@@ -6,6 +6,28 @@ slug: skin-barrier-strengthening
 status: published
 type: goal
 updated: '2026-07-28'
+videos:
+- title: "Skin barrier explained as a front door"
+  creator: ""
+  creator_slug: ranella-hirsch
+  credential: ""
+  platform: TikTok
+  url: https://www.tiktok.com/@ranellamd/video/7179246795917118762
+  posted: '2022-12-20'
+  related: [skin-barrier-repair]
+  thesis: "Board-certified dermatologist Dr. Ranella Hirsch explains the skin barrier using a front-door analogy: a healthy barrier quietly keeps out things you do not want and keeps in what you do, without you having to think about it or actively maintain it. Her point is that if something in your routine seriously damages that barrier every couple of weeks, that is a sign the routine itself is the problem, just as a front door that needed replacing every two weeks would mean something was wrong with how it was being treated."
+  note: "Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship."
+- title: "Are you over-exfoliating your skin barrier?"
+  creator: ""
+  creator_slug: fatima-fahs
+  credential: ""
+  platform: TikTok
+  url: https://www.tiktok.com/@dermydoctor/video/7672372895707893005
+  posted: '2026-08-10'
+  related: [retinoids]
+  thesis: "Dr. Fatima Fahs, a board-certified dermatologist, warns that over-exfoliating can compromise the skin barrier and increase the risk of breakouts and irritation, even though skin naturally sheds cells on its own roughly every 28 days. She explains that exfoliation can help with dullness, oiliness, or discoloration when used in moderation, and describes her own routine of exfoliating with a pad, wash, or leave-on solution just one or two nights a week, alternating with retinol rather than layering too many active ingredients at once."
+  note: "Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship."
+
 ---
 
 The skin barrier is the outermost layer of the skin, the stratum corneum. The usual way to picture it is a brick wall: flattened dead cells (corneocytes) are the bricks, and a matrix of fats between them is the mortar. That mortar is a specific mix of three lipids, ceramides, cholesterol, and free fatty acids, stacked in layered sheets. Peter Elias, who worked out much of this model, states that "all three lipids are required to form the lamellar structures that regulate barrier function."[^elias] The wall has one main job: hold water in and keep irritants out. Researchers score how well it is doing by measuring transepidermal water loss (TEWL), the rate at which water escapes through the skin. A healthy barrier loses little; a damaged one loses more, which is why TEWL is the standard readout for barrier function. This page is about the preventive side, keeping a healthy barrier strong, and it ranks the interventions by how much they actually do that, best-evidenced first. Rebuilding a barrier that is already disrupted (by eczema, over-exfoliation, or harsh weather) is a related but separate job, where moisturization has strong evidence; that companion list is [[skin-barrier-repair]].

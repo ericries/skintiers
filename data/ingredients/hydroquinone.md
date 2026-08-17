@@ -37,6 +37,17 @@ videos:
   thesis: "Board-certified dermatologist Dr. Shereene Idriss explains how she uses two prescription anti-aging treatments together, hydroquinone and tretinoin. She describes hydroquinone as a tyrosinase-blocking pigment treatment that evens skin tone, used in cycles of roughly one to two months on and then off to avoid a rare side effect called exogenous ochronosis, and tretinoin as a retinoid that speeds cell turnover and stimulates collagen. She stresses layering them on a weekly rather than daily plan, applying the prescriptions after cleansing and before serums and moisturizer, and treats daily sunscreen as non-negotiable to protect the results."
   related: ["tretinoin", "anti-aging", "melasma", "hyperpigmentation", "retinoids"]
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: "Opinions I will take to the Grave: Prescription Edition"
+  creator: ""
+  creator_slug: mamina-turegano
+  credential: ""
+  platform: TikTok
+  url: https://www.tiktok.com/@dr.mamina/video/7674821792577408286
+  posted: '2026-08-16'
+  related: [rosacea, retinoids]
+  thesis: "Dr. Mamina Turegano, a board-certified dermatologist, argues that fear of certain prescription skincare treatments is often disproportionate to the evidence. She says most rosacea is undertreated rather than overtreated, that hydroquinone gets more fear than the evidence supports when it is used appropriately, and that tretinoin is both over-feared and under-prescribed. She advises sticking with a current routine if a condition is mild and improving, but seeing a dermatologist if it keeps recurring, worsens, or causes scarring or persistent pain and itching."
+  note: "Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship."
+
 ---
 
 Hydroquinone is a topical depigmenting drug and the long-standing reference treatment for melasma, available in the United States only by prescription.[^triluma][^fda2006]

@@ -41,6 +41,17 @@ videos:
   posted: '2026-07-10'
   thesis: "Board-certified dermatologist Dr. Sam Ellis explains that facial aging is really two kinds: surface aging (pigmentation, fine lines, dullness, enlarged pores), which skincare, retinoids, chemical peels, and lasers can genuinely improve, and structural aging (jowls, hollowing, deep nasolabial folds, under-eye bags), driven by fat-pad descent and bone loss that topical anti-aging products cannot fix. She says firming creams at best modestly plump skin and stimulate a little superficial collagen but cannot lift deeper tissues, and eye creams help hydration, crepiness, and pigment but not true hollowing or bags. Her point is not that skincare fails, but that knowing its limits helps people set realistic expectations and spend wisely on anti-aging products."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship disclosed. Board-certified dermatologist; an educational explainer on what topical anti-aging can and cannot do, not a product promotion (she founded Prequel, but this video sells nothing)."
+- title: "Your hands are aging faster than your face"
+  creator: ""
+  creator_slug: mamina-turegano
+  credential: ""
+  platform: TikTok
+  url: https://www.tiktok.com/@dr.mamina/video/7664593977571675406
+  posted: '2026-07-20'
+  related: [sunscreen-uv-filters, retinoids, vitamin-c]
+  thesis: "Dr. Mamina Turegano, a board-certified dermatologist, explains that the hands often show visible signs of aging faster than areas like the eyes because they get less skincare attention. She recommends extending facial products such as vitamin C serum, retinol, and moisturizer down to the hands, using a dedicated hand cream since hands are washed more frequently than other skin, and consistently reapplying sunscreen on the backs of the hands, including wearing gloves during prolonged sun exposure such as driving."
+  note: "Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship."
+
 ---
 
 "Anti-aging" is a marketing umbrella, not a single outcome. Skin aging is several distinct changes at once: collagen and elastin breaking down (wrinkles, loss of firmness and elasticity) and pigment and tone shifting, driven largely by cumulative sun exposure. This page is health-first: it ranks interventions by how much they protect and rebuild skin structure in actual studies, not by how heavily they are sold or how much they smooth appearance in the short term. It is organized in tiers from highest to lowest demonstrated impact, and it links each topical to its own profile. Around menopause a faster, hormonally-driven loss stacks on top of this sun-driven aging; that component has its own large lever and is covered on [[anti-aging-perimenopause]].

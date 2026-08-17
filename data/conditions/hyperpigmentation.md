@@ -128,6 +128,16 @@ videos:
   related: [melasma, la-roche-posay-mela-b3-serum]
   thesis: "Board-certified dermatologist Dr. Daniel Sugai explains that common over-the-counter ingredients for hyperpigmentation and melasma, such as alpha arbutin, kojic acid, and tranexamic acid, often produce only modest results on their own. He highlights his interest in thiamidol, used in Eucerin's Radiant Tone line, as a tyrosinase inhibitor that can help avoid the rebound pigmentation seen when stopping hydroquinone, while cautioning that consistent use for eight to twelve weeks, and sometimes three to four months, is needed before improvement is visible."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: "Contraception & Pigmentation"
+  creator: ""
+  creator_slug: emma-wedgeworth
+  credential: ""
+  platform: TikTok
+  url: https://www.tiktok.com/@dremwedgeworth/video/7534634711046573334
+  posted: '2025-08-04'
+  related: [melasma]
+  thesis: "Dr Emma Wedgeworth, a consultant dermatologist in London, explains that hormonal contraception can increase the risk of pigmentation, particularly melasma, especially in people prone to it, with sun exposure, or with a family history. She cites a study finding the risk of melasma was two to three times higher with the combined oral contraceptive pill and the progesterone only mini pill compared to non hormonal contraception, while hormonal IUDs like the Mirena coil did not show an increased melasma risk in that study, though they did show increased risk for pigmentation overall. Her practical takeaway is that people prone to pigmentation who have a choice should consider a non hormonal option like the copper coil, or a hormonal IUD before tablets if hormonal contraception is needed."
+  note: "Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship."
 
 ---
 

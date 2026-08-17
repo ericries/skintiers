@@ -67,6 +67,16 @@ videos:
   related: []
   thesis: "Board-certified dermatologist Dr. Angelo Landriscina (DermAngelo) examines the viral claim that eating Brazil nuts (a source of selenium) can clear acne and heal acne scars, and concludes the evidence does not support it. He walks through a case-control study that found lower average blood selenium in acne patients but no statistically significant difference in selenium deficiency rates, and a small, ethically flagged supplementation study, arguing that correlation between selenium and acne does not establish selenium as a therapeutic target."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: "Adult vs Teen acne"
+  creator: ""
+  creator_slug: emma-wedgeworth
+  credential: ""
+  platform: TikTok
+  url: https://www.tiktok.com/@dremwedgeworth/video/7497344010160295190
+  posted: '2025-04-25'
+  related: []
+  thesis: "Dr Emma Wedgeworth, a consultant dermatologist in London, contrasts how acne presents differently in teens versus adults. She explains that teenage acne concentrates in the T-zone with oily skin and consists mainly of pustules and blackheads occurring all month, while adult acne tends to affect the chin and jaw in sensitive or combination-prone skin, flares mid-cycle and pre-period, and shows up as painful lumpy nodules under the skin; she also notes adult women experience acne much more than men, unlike in teens where rates are similar between sexes. She reassures viewers that both forms are entirely treatable."
+  note: "Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship."
 tier_list:
   title: "Acne topical actives by evidence"
   by: "strength of the evidence for treating acne — several of these are clinically similar, so the tiers track evidence certainty, not effect size alone"

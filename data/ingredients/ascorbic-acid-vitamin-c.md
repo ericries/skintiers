@@ -22,6 +22,16 @@ videos:
   related: [azelaic-acid, hydroquinone, arbutin, niacinamide, hyperpigmentation]
   thesis: "Board-certified dermatologist Dr. Sam Bunting (UK) explains that vitamin C is a genuinely useful antioxidant that slows melanin production, but pigmentation forms through nine pathways across three stages, triggers, the tyrosinase enzyme, and melanin delivery and removal, so vitamin C alone only touches part of the process. She says people using vitamin C and sunscreen still need targeted actives like azelaic acid, hydroquinone, arbutin, or niacinamide to address the other pigmentation checkpoints."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: "How to layer skincare AM and PM correctly"
+  creator: ""
+  creator_slug: fatima-fahs
+  credential: ""
+  platform: TikTok
+  url: https://www.tiktok.com/@dermydoctor/video/7672748209294347533
+  posted: '2026-08-11'
+  related: [retinoids, sunscreen-uv-filters]
+  thesis: "Dr. Fatima Fahs, a board-certified dermatologist, outlines a simple morning and evening skincare layering routine and highlights vitamin C serum as a key morning step, explaining that it strengthens the skin, provides brightening effects, and boosts the effectiveness of sunscreen applied afterward. She also walks through the evening routine, which includes cleansing, an active step such as retinol or an exfoliant, and finishing with a moisturizer to lock everything in."
+  note: "Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship."
 name: Ascorbic acid (vitamin C)
 slug: ascorbic-acid-vitamin-c
 status: published

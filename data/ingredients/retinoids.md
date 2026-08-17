@@ -72,6 +72,16 @@ videos:
   related: [retinol, tretinoin, olay-regenerist-retinol24-night-serum, la-roche-posay-retinol-b3-serum]
   thesis: "Board-certified dermatologist Dr. Daniel Sugai explains that people with sensitive skin should not jump straight into prescription tretinoin, since that often causes irritation within the first three weeks and leads them to quit. He recommends starting with over-the-counter retinol, progressing to a retinaldehyde once tolerated, and only then moving to prescription tretinoin, applying two to three times a week at first, always moisturizing afterward, and wearing sunscreen daily while using a retinoid."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: "WSJ / Dr. Barbara Sturm retinol claims fact-check"
+  creator: ""
+  creator_slug: esther-olu
+  credential: ""
+  platform: TikTok
+  url: https://www.tiktok.com/@themelaninchemist/video/7645118823661636877
+  posted: '2026-05-29'
+  related: [retinol, sunscreen-uv-filters]
+  thesis: "Esther Olu, a cosmetic chemist, fact-checks a Wall Street Journal interview in which Dr. Barbara Sturm (an orthopedic doctor, not a dermatologist) claimed retinol thins the skin, strips the microbiome, and should be avoided alongside sun exposure. Olu counters that multiple studies on topical retinoids instead show increased epidermal thickness, stimulated collagen production, and improved dermal matrix organization, which is why dermatologists prescribe them for photoaging; she notes irritation from retinoids is not the same as damage and that both retinoids and sunscreen remain the product categories with the strongest evidence for skin aging."
+  note: "Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship."
 name: Retinoids
 slug: retinoids
 status: published

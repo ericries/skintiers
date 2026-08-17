@@ -254,3 +254,29 @@
   product_recs: restricted
   conflict: 'Recurring paid partnerships (Dermatica affiliate code "DRALEXIS" on multiple videos, La Roche-Posay branded partner content, SkinBetter Scie'
   last_pulled: null
+
+# --- Added 2026-08-16 via tiktok-intake (TikTok-primary, transcript-verified) ---
+- name: ''
+  creator_slug: mamina-turegano
+  credential: ''
+  tier: MED
+  channel: 'https://www.tiktok.com/@dr.mamina'
+  product_recs: restricted
+  conflict: null
+  last_pulled: '2026-08-16'
+- name: ''
+  creator_slug: ranella-hirsch
+  credential: ''
+  tier: HIGH
+  channel: 'https://www.tiktok.com/@ranellamd'
+  product_recs: restricted
+  conflict: null
+  last_pulled: '2026-08-16'
+- name: ''
+  creator_slug: fatima-fahs
+  credential: ''
+  tier: HIGH
+  channel: 'https://www.tiktok.com/@dermydoctor'
+  product_recs: restricted
+  conflict: null
+  last_pulled: '2026-08-16'

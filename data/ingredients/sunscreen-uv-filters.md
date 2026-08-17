@@ -168,6 +168,66 @@ videos:
   related: []
   thesis: "Board-certified dermatologist Dr. Angelo Landriscina (DermAngelo) reviews five more sunscreens in his ongoing SPF series, discussing mineral, chemical, and hybrid (mixed mineral/chemical) formulas. He explains why zinc oxide mineral sunscreens will generally leave some white cast on non-pale skin regardless of marketing claims, and highlights the tradeoffs of tinted mineral sunscreens versus lighter chemical or hybrid options for daily wear."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: "Is your sunscreen making your eyes water?"
+  creator: ""
+  creator_slug: fatima-fahs
+  credential: ""
+  platform: TikTok
+  url: https://www.tiktok.com/@dermydoctor/video/7671263529973959949
+  posted: '2026-08-07'
+  related: [zinc-oxide, titanium-dioxide]
+  thesis: "Dr. Fatima Fahs, a board-certified dermatologist, explains that sunscreen around the eyes matters because UV exposure thins the collagen in that delicate skin, but the burning or watering some people experience usually comes from chemical sunscreen filters or added fragrance rather than sunscreen itself. She recommends checking the active ingredients list and switching to a mineral sunscreen containing zinc oxide or titanium dioxide, which tends to be better tolerated around the eyes, and suggests looking for an eye-area formula with tint or peptides as a bonus."
+  note: "Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship."
+- title: "A new sunscreen filter was just approved in the US"
+  creator: ""
+  creator_slug: fatima-fahs
+  credential: ""
+  platform: TikTok
+  url: https://www.tiktok.com/@dermydoctor/video/7670525771974266125
+  posted: '2026-08-05'
+  related: []
+  thesis: "Dr. Fatima Fahs, a board-certified dermatologist, discusses a newly approved sunscreen UV filter in the United States, calling it the first new filter approved in decades. She explains it is highly photostable and provides strong protection against UVA rays, which contribute to both skin aging and skin cancer, and notes that UVA protection has historically been harder to achieve in US sunscreen formulations compared to sunscreens sold in Europe and Korea, with the new filter expected to reach the market soon."
+  note: "Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship."
+- title: "Sunscreen (SPF) testing gaps for darker skin tones"
+  creator: ""
+  creator_slug: esther-olu
+  credential: ""
+  platform: TikTok
+  url: https://www.tiktok.com/@themelaninchemist/video/7569424856723361079
+  posted: '2025-11-06'
+  related: []
+  thesis: "Esther Olu, a cosmetic chemist, explains from the 2025 Sunscreen Symposium that standard sunscreen (SPF) testing relies on erythema (visible redness), which is easy to measure on lighter Fitzpatrick I-III skin but is subtle or nearly invisible on deeper skin tones, even though darker skin is still impacted by UV damage. She notes SPF values are relative to individual skin response rather than a fixed universal number, and describes preliminary work at the symposium exploring additional markers, such as tanning response and skin tone uniformity change, to make sunscreen testing more inclusive across skin tones."
+  note: "Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship."
+- title: "Why SPF makeup does not give full sun protection"
+  creator: ""
+  creator_slug: esther-olu
+  credential: ""
+  platform: TikTok
+  url: https://www.tiktok.com/@themelaninchemist/video/7511474696878083374
+  posted: '2025-06-02'
+  related: []
+  thesis: "Esther Olu, a cosmetic chemist and licensed esthetician, explains that SPF-containing makeup products (SPF foundation, primer, blush, setting spray) rarely deliver their labeled sun protection because SPF is dose-dependent, requiring about one quarter to one half teaspoon of product across the face, neck, and ears (2 mg per square centimeter) to reach the tested SPF level. She demonstrates that applying that amount of foundation looks visibly cakey and unnatural, showing that realistic makeup application under-doses SPF, and recommends applying a standalone sunscreen first and layering makeup on top for genuine sun protection."
+  note: "Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship."
+- title: "Chemical sunscreen UV filter safety data debunks \"sunscreens are killing you\""
+  creator: ""
+  creator_slug: esther-olu
+  credential: ""
+  platform: TikTok
+  url: https://www.tiktok.com/@themelaninchemist/video/7572020628904070413
+  posted: '2025-11-13'
+  related: []
+  thesis: "Esther Olu, a cosmetic chemist, addresses viral claims that chemical sunscreens are toxic by summarizing over a decade of safety data reviewed by the Personal Care Products Council across six chemical UV filters, covering scenarios from maximum to everyday recommended sunscreen use. She reports no estrogenic activity, immune toxicity, or cytotoxicity was found at realistic exposure levels, explains the toxicology distinction between hazard, risk, and exposure, and concludes that current evidence supports chemical sunscreen filters as safe and effective for preventing skin cancer and UV-related skin damage, alongside shade-seeking and UV-protective clothing."
+  note: "Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship."
+- title: "Sunscreen over makeup"
+  creator: ""
+  creator_slug: emma-wedgeworth
+  credential: ""
+  platform: TikTok
+  url: https://www.tiktok.com/@dremwedgeworth/video/7486472673950731542
+  posted: '2025-03-27'
+  related: []
+  thesis: "Dr Emma Wedgeworth, a consultant dermatologist in London, answers how to reapply sunscreen over makeup, a question she says she is frequently asked in clinic. She offers three practical options: a quick spray sunscreen as a stopgap that is not a substitute for a full application, applying a very light sunscreen on top of makeup with a beauty blender, or simply wearing a tinted sunscreen from the start; for touch-ups she suggests using micellar water to remove residue before reapplying a full layer of sunscreen."
+  note: "Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship."
 name: Sunscreen (UV filters)
 slug: sunscreen-uv-filters
 status: published
