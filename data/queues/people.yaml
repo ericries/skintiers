@@ -162,3 +162,33 @@
   discovered_from: video-cards
   source: Board-certified dermatologist; has transcript-verified Korean-sunscreen
     video cards on the site
+- name: Lindsey Zubritsky (dermatologist, DermGuru)
+  type: person
+  priority: 5
+  status: done
+  discovered_from: null
+  source: https://npiregistry.cms.hhs.gov
+- name: Fatima Fahs (dermatologist, Dermy Doctor)
+  type: person
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://npiregistry.cms.hhs.gov
+- name: Geeta Yadav (dermatologist)
+  type: person
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://npiregistry.cms.hhs.gov
+- name: Angelo Landriscina (dermatologist)
+  type: person
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://npiregistry.cms.hhs.gov
+- name: Alexis Stephens (dermatologist)
+  type: person
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://npiregistry.cms.hhs.gov
