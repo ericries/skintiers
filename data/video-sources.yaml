@@ -354,3 +354,61 @@
   product_recs: restricted
   conflict: 'Occasional sponsored/brand-partnered content (#AD Instagram posts; a paid partnership talk with Galderma) creates a mild COI on sp; no YouTube; TikTok/IG intake'
   last_pulled: '2026-08-16'
+
+# --- Added 2026-08-16 via creator-vetting batch 3 (auto-add) ---
+- name: 'Dr. Angela Lamb'
+  creator_slug: angela-lamb
+  credential: 'Board-certified dermatologist'
+  tier: HIGH
+  channel: 'https://www.tiktok.com/@gohealio'
+  product_recs: ok
+  conflict: 'None found. No own-brand skincare line and no personal affiliate storefront identified; only a possible loose tie-in via an Instag'
+  last_pulled: null
+- name: 'Nkem Ugonabo, MD, MPH (Dr. Ugonabo)'
+  creator_slug: nkem-ugonabo
+  credential: 'Skincare educator'
+  tier: HIGH
+  channel: 'https://www.youtube.com/@dr.ugonabo'
+  product_recs: restricted
+  conflict: 'Periodic disclosed sponsored brand-partner content (Clinique ''#AD'', SkinCeuticals ''#skinceuticalspartner''); no own-brand product l'
+  last_pulled: null
+- name: 'Dr. Shari Marchbein'
+  creator_slug: shari-marchbein
+  credential: 'Dermatologist'
+  tier: HIGH
+  channel: 'https://www.tiktok.com/@drsharimarchbein'
+  product_recs: restricted
+  conflict: 'Recurring rotating consumer-brand partnerships visible in IG story highlights (Colorescience, Vaseline-HUED, Ponds, St Ives, and o'
+  last_pulled: null
+- name: 'Dr. Onyeka Obioha-Lolagne, MD, FAAD (Dr. Onyeka Obioha)'
+  creator_slug: onyeka-obiohalolagne
+  credential: 'Dermatologist'
+  tier: HIGH
+  channel: 'https://www.tiktok.com/@dr.obioha'
+  product_recs: restricted
+  conflict: 'Runs an in-house ''Apothecary'' and ''Shop'' tied to Boutik Dermatology (her own practice''s product line) — treat any product endorsem'
+  last_pulled: null
+- name: 'Dr. Heather Woolery-Lloyd (drheathermd)'
+  creator_slug: heather-woolerylloyd
+  credential: 'Board-certified dermatologist'
+  tier: HIGH
+  channel: 'https://www.tiktok.com/@drheathermd'
+  product_recs: restricted
+  conflict: 'Paid Chief Medical Advisor to Nutrafol (hair-growth supplement brand); bio links a stan.store link-in-bio storefront (possible aff'
+  last_pulled: null
+- name: 'Dr. Brooke Jeffy (Brooke Jeffy, MD)'
+  creator_slug: brooke-jeffy
+  credential: 'Board-certified dermatologist'
+  tier: HIGH
+  channel: 'https://www.youtube.com/@brookejeffymd'
+  product_recs: restricted
+  conflict: 'Founder of own-brand tween/teen skincare line BTWN (meetbtwn.com), which she actively promotes on all three platforms; also co-hos'
+  last_pulled: null
+- name: 'Dr Zainab Laftah'
+  creator_slug: zainab-laftah
+  credential: 'Consultant dermatologist'
+  tier: MED
+  channel: 'PENDING - TikTok/IG'
+  product_recs: restricted
+  conflict: 'Frequent paid/branded partnerships dominate her recent grid: repeated ''W-Expert'' collabs with W_Wellness (promoting Vida Glow/Wild'
+  last_pulled: null

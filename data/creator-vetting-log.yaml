@@ -192,3 +192,94 @@
     verdict: add-high
     product_recs: restricted
     reason: 'Real, verifiable, currently-active UK consultant dermatologist and registered nutritionist with a strong, independently-confirmed credential trail (Bupa Consultant Finder, NHS Barts Health Trust listing, Cleveland Clinic London, KCL honorary senior lecturer, Oxford/Imperial training) plus a mainstre'
+2026-08-16-pass-3:
+  - name: 'Sean Garrette'
+    slug: sean-garrette
+    verdict: reject
+    product_recs: na
+    reason: 'Confirmed this is a real, active person with a genuine Instagram presence (@seangarrette, ~91.3K followers, self-described NY esthetician), so not a duplicate or fabrication. However, no YouTube channel could be located (our preferred transcript pipeline) and no TikTok account co'
+  - name: 'Dr. Hadley King'
+    slug: hadley-king
+    verdict: reject
+    product_recs: na
+    reason: 'Credential is solid and verifiable (real, active board-certified NYC dermatologist), but she does not resolve to our preferred pipeline platform: no YouTube channel and no TikTok could be located/confirmed at all despite reasonable attempts. Her only confirmed channel, Instagram '
+  - name: 'Dr. Rachel Nazarian'
+    slug: rachel-nazarian
+    verdict: reject
+    product_recs: na
+    reason: 'Could not resolve a primary, personally-run YouTube, TikTok, or Instagram content channel for Dr. Rachel Nazarian. Attempted a guessed-URL WebFetch search across YouTube (@drrachelnazarian, search results page), Instagram (@drnazarian - a private 25-follower account, unconfirmed '
+  - name: 'Dr. Marisa Garshick'
+    slug: marisa-garshick
+    verdict: reject
+    product_recs: na
+    reason: 'She is a real, living, actively-posting, credentialed dermatologist (verified Instagram @drmarisagarshick, 28.2K followers; Clinical Assistant Professor at Cornell; regularly quoted in NYT/WSJ/Self) and not a duplicate of anyone on the existing roster. However, she fails our vett'
+  - name: 'Dr. Tia Paul'
+    slug: tia-paul
+    verdict: reject
+    product_recs: na
+    reason: 'She is a real, currently-active, credentialed (Harvard-MIT MD, board-certified dermatologist, Miami chief resident) creator with an active Instagram (~124K followers, legitimate-sounding derm topics) and an existing YouTube channel, so she clears the living/active and credential '
+  - name: 'Dr. Debra Jaliman'
+    slug: debra-jaliman
+    verdict: reject
+    product_recs: na
+    reason: 'Dr. Jaliman is a real, verifiable, board-certified NYC dermatologist (FAAD, Mount Sinai faculty, published author) with confirmed official social accounts, so identity/credential are solid. But she fails the video-content bar this pipeline needs: her YouTube channel (youtube.com/'
+  - name: 'Dr. Angela Lamb'
+    slug: angela-lamb
+    verdict: add-high
+    product_recs: ok
+    reason: 'Real, currently active, board-certified dermatologist (FAAD) and academic at Mount Sinai''s Icahn School of Medicine with a verifiable private practice (angelalambmd.com, 2026 NY Super Doctor honoree) and an active Instagram (@angelalambmd, post as recent as ~1 week ago). Not a du'
+  - name: 'Nkem Ugonabo, MD, MPH (Dr. Ugonabo)'
+    slug: nkem-ugonabo
+    verdict: add-high
+    product_recs: restricted
+    reason: 'Credential is strongly and independently verifiable (UnionDerm practice bio + her own docnkem.com bio + HCPLive author page agree in detail: Stanford BA, Harvard MPH, University of Michigan MD, NYU dermatology residency as Chief Resident, ASDS cosmetic fellowship at UnionDerm, bo'
+  - name: 'Dr. Alexis Stephens'
+    slug: alexis-stephens
+    verdict: reject
+    product_recs: na
+    reason: 'Could not resolve "Dr. Alexis Stephens" to any confirmed, currently-active YouTube, TikTok, or Instagram channel. Web searches (Google/Bing/DuckDuckGo) and direct YouTube/TikTok search pages returned no substantive hits identifying this person as a real, active skincare/dermatolo'
+  - name: 'Dr. Joshua Zeichner'
+    slug: joshua-zeichner
+    verdict: reject
+    product_recs: na
+    reason: 'Real, verifiable, credentialed person (board-certified derm, Mount Sinai academic appointment) and not a roster duplicate — but he functions primarily as a quoted media expert, not an owned-channel content creator: his official YouTube has only 56 subscribers and is mostly repost'
+  - name: 'Dr. Shari Marchbein'
+    slug: shari-marchbein
+    verdict: add-high
+    product_recs: restricted
+    reason: 'Real, verifiable, long-track-record board-certified NYC dermatologist with a decade-plus history of being quoted as a credible expert source in reputable outlets (Seventeen 2015, Women''s Health 2020, Skincare.com by L''Oréal, Cosmopolitan 2026), plus an independently-conferred ''Ca'
+  - name: 'Dr. Onyeka Obioha-Lolagne, MD, FAAD (Dr. Onyeka Obioha)'
+    slug: onyeka-obiohalolagne
+    verdict: add-high
+    product_recs: restricted
+    reason: 'Real, verifiable, currently-active board-certified dermatologist (not a duplicate of anyone on the existing roster). Confirmed via independent sources: US News doctor profile, Byrdie, Self, Glamour, LinkedIn, and her practice site (boutikdermatology.com) — UCLA David Geffen Schoo'
+  - name: 'Dr. Heather Woolery-Lloyd (drheathermd)'
+    slug: heather-woolerylloyd
+    verdict: add-high
+    product_recs: restricted
+    reason: 'Board-certified dermatologist (FAAD) with two confirmed real, active, verified accounts (Instagram 37.6K followers, TikTok 22.2K followers — no personal YouTube channel found, but she is a recurring guest on other channels'' educational videos, e.g. a 38-min Mixed Makeup interview'
+  - name: 'Dr. Sonia Batra'
+    slug: sonia-batra
+    verdict: reject
+    product_recs: na
+    reason: 'Real, currently-active, exceptionally credentialed board-certified dermatologist (Harvard MD/MPH, Oxford Rhodes Scholar, Stanford derm residency + Mohs/laser fellowship, co-host of CBS''s The Doctors) with a long, legitimate mainstream press record and no pseudoscience/fear-monger'
+  - name: 'Dr. Brooke Jeffy (Brooke Jeffy, MD)'
+    slug: brooke-jeffy
+    verdict: add-high
+    product_recs: restricted
+    reason: 'Credential independently verified via NPI Registry (active board-certified dermatologist, AZ/KY licenses). Living/active across YouTube (576 subs/241 videos), Instagram (79.3K, verified), and TikTok (55.4K, 2M likes) with recent posts. Two full transcripts sampled (cleanser-textu'
+  - name: 'Dr Karan Rajan (@DrKaran / drkaranrajan)'
+    slug: karan-rajan
+    verdict: reject
+    product_recs: na
+    reason: 'Confirmed real, large, active creator (YouTube 2.23M subs, TikTok 5.4M followers) — not a duplicate of anyone on our existing roster. However: (1) skincare is a peripheral topic for him, not his focus — his channel is primarily general-health/gut-health myth-busting, entangled wi'
+  - name: 'Dr. Viktoryia Kazlouskaya'
+    slug: viktoryia-kazlouskaya
+    verdict: reject
+    product_recs: na
+    reason: 'She is a real, credentialed dermatologist/dermatopathologist, but is not a substantive or currently active skincare video creator by any reasonable bar for this roster. Her personal YouTube channel has only 111 subscribers and 5 videos, the newest ~4 years old, and the content is'
+  - name: 'Dr Zainab Laftah'
+    slug: zainab-laftah
+    verdict: add-med
+    product_recs: restricted
+    reason: 'Real, living, currently-active UK consultant dermatologist — credential independently verified via Bupa Finder, HCA Healthcare, and Spire Healthcare listings (St John''s Institute of Dermatology, Guy''s & St Thomas''). She is NOT a match for anyone already on the roster. Only confir'
