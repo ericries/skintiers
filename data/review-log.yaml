@@ -5076,3 +5076,8 @@ palmitoyl-pentapeptide-4-matrixyl:
   score: 9
   verdict: publish
   note: 'INGREDIENT cron (Fable draft -> Opus critic verdict PUBLISH). Palmitoyl Pentapeptide-4 (Matrixyl/pal-KTTKS). Critic re-verified all 10 sources vs primary records (9 PMIDs incl 2026 Nukaly meta-analysis, PMC full text, cached retail). Honest: independent evidence is Robinson 2005 (n=93) modest/preliminary cosmetic; pooled wrinkle signal driven by ORAL not topical peptides; 3 different ''Matrixyl'' molecules disentangled; P&G/Sederma/Alumier COIs disclosed. Reached past low-value queue-top (Tasmannia) to unblock the peptides ladder. Gates clean; force-published.'
+neostrata-bionic-face-cream:
+  last_reviewed: '2026-08-17'
+  score: 8
+  verdict: revise-then-fixed
+  note: 'PRODUCT cron (Fable draft -> Opus critic revise->fixed). NeoStrata Bionic Face Cream (lactobionic acid PHA). Fix stage died mid-response on an API drop; resumed workflow confirmed all Critical/Important fixes were applied (sold-out re-attributed, 12%-combined figure caveated as undisclosed split, uncited founders/retailer claims dropped, truncated quote completed). Gates clean; force-published.'
