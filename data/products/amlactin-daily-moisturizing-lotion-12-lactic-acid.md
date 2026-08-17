@@ -5,6 +5,10 @@ brand: AmLactin
 category: Moisturizers
 comparator: other exfoliating body lotions marketed for rough, dry, or keratosis-pilaris-prone
   skin, including [[cerave-sa-body-lotion-for-rough-and-bumpy-skin]] and [[eucerin-roughness-relief-lotion]]
+images:
+- file: amlactin-daily-moisturizing-lotion-12-lactic-acid-amlactin.jpg
+  source: AmLactin
+  source_url: https://www.amlactin.com/products/daily-nourish-lotion-with-12-lactic-acid
 grades:
 - effect: modest
   evidence: preliminary

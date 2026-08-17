@@ -3,6 +3,10 @@ analyzed: '2026-08-16'
 assurance: sonnet
 brand: Galderma
 category: Retinoids
+images:
+- file: aklief-trifarotene-0-005-cream-aklief.jpg
+  source: Galderma (aklief.com)
+  source_url: https://www.aklief.com/
 grades:
 - effect: modest
   evidence: solid

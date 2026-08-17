@@ -5,6 +5,13 @@ brand: Aestura
 category: Sunscreens
 comparator: other mineral-only sunscreens for sensitive skin, such as [[cerave-hydrating-mineral-sunscreen-spf-50]]
   and [[avene-mineral-ultra-light-spf-50]]
+images:
+- file: aestura-derma-uv365-barrier-hydro-mineral-sunscreen-aestura.png
+  source: Aestura
+  source_url: https://int.aestura.com/products/derma-uv365-barrier-hydro-mineral-sunscreen
+- file: aestura-derma-uv365-barrier-hydro-mineral-sunscreen-kimsbasket.jpg
+  source: Kim's Basket
+  source_url: https://kimsbasket.com/products/aestura-derma-uv365-barrier-hydro-mineral-sunscreen
 grades:
 - effect: modest
   evidence: preliminary

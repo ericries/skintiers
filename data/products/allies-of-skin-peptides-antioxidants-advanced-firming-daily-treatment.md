@@ -3,6 +3,10 @@ analyzed: '2026-08-16'
 assurance: sonnet
 brand: Allies of Skin
 category: Moisturizers
+images:
+- file: allies-of-skin-peptides-antioxidants-advanced-firming-daily-treatment-alliesofskin.png
+  source: Allies of Skin
+  source_url: https://us.allies.shop/products/peptides-antioxidants-advanced-firming-daily-treatment
 comparator: other peptide and antioxidant firming treatments, such as [[skinfix-barrier-triple-lipid-peptide-cream|Skinfix
   Barrier+ Triple Lipid-Peptide Cream]] and peptide serums like [[the-ordinary-multi-peptide-ha-serum|The
   Ordinary Multi-Peptide + HA Serum]]

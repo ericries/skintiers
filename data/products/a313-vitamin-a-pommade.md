@@ -3,6 +3,10 @@ analyzed: '2026-08-16'
 assurance: sonnet
 brand: A313
 category: Retinoids
+images:
+- file: a313-vitamin-a-pommade-frenchpharmacy.jpg
+  source: FrenchPharmacy.com
+  source_url: https://frenchpharmacy.com/products/a313-vitamin-a-pommade-200-000-ui
 comparator: other OTC retinyl-ester products (e.g. [[the-inkey-list-retinol-serum|The
   Inkey List Retinol Serum]], [[olay-regenerist-retinol24-night-serum|Olay Regenerist
   Retinol24 Night Serum]])
