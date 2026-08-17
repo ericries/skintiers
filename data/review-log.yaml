@@ -5051,3 +5051,8 @@ microplastics-in-cosmetics:
   score: 9
   verdict: publish
   note: 'GAP page (#4 quota push). Fable draft -> Opus critic revise->fixed (mis-cited dimethicone tolerability corrected to Kang 2022 PMC9315586). Myth explainer: real solid-microbead bans (Microbead-Free Waters Act 2015, EU 2023 REACH) vs overbroad ''liquid microplastics'' framing. Gates clean; force-published.'
+naturium-multi-peptide-moisturizer:
+  last_reviewed: '2026-08-17'
+  score: 8
+  verdict: revise-then-fixed
+  note: 'PRODUCT cron (Fable draft -> Opus critic revise->fixed). Conservative grades (minimal/preliminary peptides+niacinamide+vitC, modest humectant base). Added price comparators ($20 vs Paula''s Choice $49, COSRX $25), fixed INCI-position claim. Gates clean; force-published. (Original queue name ''Multi-Peptide Advanced Moisturizer'' was a phantom; corrected to real product.)'
