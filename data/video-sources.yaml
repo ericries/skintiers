@@ -148,3 +148,109 @@
   conflict: does sponsorships - educational content only, never treat picks as endorsements, never
     use sponsored videos
   last_pulled: '2026-08-16'
+
+# --- Added 2026-08-16 via creator-vetting.js (auto-add, rubric-passed) ---
+- name: 'Dr Emma Wedgeworth'
+  creator_slug: emma-wedgeworth
+  credential: 'Consultant dermatologist'
+  tier: MED
+  channel: 'https://www.instagram.com/dremwedgeworth'
+  product_recs: ok
+  conflict: 'Unspecified/undisclosed brand partnerships per her own bio (''frequently works with leading brands and the media''); no own-brand product line; no YouTube; transcript-verified cards pending an IG/TikTok solution'
+  last_pulled: null
+- name: 'Dr. Adeline Kikam (Brown Skin Derm)'
+  creator_slug: adeline-kikam
+  credential: 'Board-certified dermatologist'
+  tier: MED
+  channel: 'https://www.youtube.com/@brownskinderm'
+  product_recs: restricted
+  conflict: 'Affiliate storefronts (ShopMy + Amazon Shop via linktree), recurring #AD sponsored posts, a branded discount-code partnership (LivSo), and c'
+  last_pulled: null
+- name: 'Dr. Joyce Park (Tea with MD)'
+  creator_slug: joyce-park
+  credential: 'Board-certified dermatologist'
+  tier: HIGH
+  channel: 'https://www.youtube.com/@TeawithMD'
+  product_recs: restricted
+  conflict: 'ShopMy affiliate storefront linked in nearly every video (''My Holy Grail Products''); own hair-care brand Kerativ Hair (she is Founder/CEO);'
+  last_pulled: null
+- name: 'Stephen Alain Ko (KindofStephen)'
+  creator_slug: stephen-alain-ko
+  credential: 'Skincare educator'
+  tier: MED
+  channel: 'https://www.youtube.com/@kindofstephen'
+  product_recs: ok
+  conflict: 'No affiliate storefront or own-brand line found; occasionally discloses paid/employer formulation work on specific ingredient categories (e.'
+  last_pulled: null
+- name: 'Dr. Angelo Landriscina (DermAngelo)'
+  creator_slug: angelo-landriscina
+  credential: 'Board-certified dermatologist'
+  tier: HIGH
+  channel: 'https://www.youtube.com/@DermAngelo'
+  product_recs: restricted
+  conflict: 'Own-brand UPF sun-protective clothing line, SOUL-A (wearsoula.com / @wearsoula), founded and promoted by him — apparel, not topical skincare'
+  last_pulled: null
+- name: 'Dr Aamna Adel'
+  creator_slug: aamna-adel
+  credential: 'Consultant dermatologist'
+  tier: HIGH
+  channel: 'https://www.youtube.com/@DrAamnaAdel'
+  product_recs: restricted
+  conflict: 'Founder of own-brand haircare line (Rhute); TikTok Shop affiliate/product storefront; recurring disclosed sponsored posts (No7, La Roche Pos'
+  last_pulled: null
+- name: 'Esther Olu (The Melanin Chemist)'
+  creator_slug: esther-olu
+  credential: 'Cosmetic chemist'
+  tier: MED
+  channel: 'PENDING - no YouTube, IG/TikTok only'
+  product_recs: ok
+  conflict: 'Occasional disclosed #AD brand partnerships (e.g. a Dieux Skin sponsored post, Aug 2026); no own-brand line or affiliate storefront found.; no YouTube; transcript-verified cards pending an IG/TikTok solution'
+  last_pulled: null
+- name: 'Dr. Lindsey Zubritsky (DermGuru)'
+  creator_slug: lindsey-zubritsky
+  credential: 'Board-certified dermatologist'
+  tier: HIGH
+  channel: 'https://www.youtube.com/@drlindseyzubritsky'
+  product_recs: restricted
+  conflict: 'Active paid spokesperson for RoC Skincare (on-air brand deal w/ discount code) + Cetaphil-sponsored content + ''all'' detergent partnership; a'
+  last_pulled: null
+- name: 'Caroline Hirons'
+  creator_slug: caroline-hirons
+  credential: 'Board-certified dermatologist'
+  tier: MED
+  channel: 'https://www.youtube.com/channel/UCyzKg_t3tPv8Aa_7JL2xXZA'
+  product_recs: restricted
+  conflict: 'Founder of own-brand skincare line (Skin Rocks); recent upload mix is dominated by PR-gifted product unboxings and empties (haul-adjacent fo'
+  last_pulled: null
+- name: 'Dr. Daniel Sugai'
+  creator_slug: daniel-sugai
+  credential: 'Board-certified dermatologist'
+  tier: HIGH
+  channel: 'https://www.youtube.com/@danielsugaimd'
+  product_recs: restricted
+  conflict: 'Chief Medical Officer of hair-growth-serum brand REYUS; advisory-board member of Bubble Skincare; periodic disclosed paid brand partnerships'
+  last_pulled: null
+- name: 'Jen Novakovich (The Eco Well)'
+  creator_slug: jen-novakovich
+  credential: 'Cosmetic scientist'
+  tier: HIGH
+  channel: 'https://www.youtube.com/@TheEcoWell'
+  product_recs: ok
+  conflict: 'Runs a paid cosmetics-industry consulting/science-communication practice (BeautySciComm, e-summits, mentorship cohorts) and is Patreon-suppo'
+  last_pulled: null
+- name: 'Dr. Usama Syed'
+  creator_slug: usama-syed
+  credential: 'Board-certified dermatologist'
+  tier: MED
+  channel: 'https://www.youtube.com/c/DrUsamaSyed/videos'
+  product_recs: restricted
+  conflict: 'Affiliate product links in video descriptions; actively promotes his own paid $30/mo teledermatology subscription (FutureClinic, formerly Li'
+  last_pulled: null
+- name: 'Dr. Alexis Stephens'
+  creator_slug: alexis-stephens
+  credential: 'Board-certified dermatologist'
+  tier: HIGH
+  channel: 'https://www.youtube.com/@DrAlexisStephens'
+  product_recs: restricted
+  conflict: 'Recurring paid partnerships (Dermatica affiliate code "DRALEXIS" on multiple videos, La Roche-Posay branded partner content, SkinBetter Scie'
+  last_pulled: null

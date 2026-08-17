@@ -1,0 +1,93 @@
+# Creator vetting audit log. One entry per candidate ever vetted (auto-add gate).
+# verdict: add-high | add-med | reject. See docs/creator-expansion-plan.md.
+2026-08-16-pass-1:
+  - name: 'Dr. Ranella Hirsch'
+    slug: ranella-hirsch
+    verdict: reject
+    product_recs: na
+    reason: 'Real, verified person and a real, verified Instagram account were confirmed (@ranellamd, ~123K followers, board-certified derm FAAD, well-documented in major press). However: (1) no YouTube or TikTok channel could be resolved for her — her own linktr.ee lists only Instagram under ''Social Media'', and repeated WebFetch attempts against youtube.com/@ranellamd and tiktok.com/@ranellamd returned no cha'
+  - name: 'Dr Emma Wedgeworth'
+    slug: emma-wedgeworth
+    verdict: add-med
+    product_recs: ok
+    reason: 'Real, currently-active, credentialed UK consultant dermatologist (FRCP Derm) with a genuine professional practice (Harley Street) and press track record (Vogue, Glamour, Elle, BBC). Her own-site blog is current (posts dated Apr/Jun/Jun 2026) and its content is measured, non-sensational, occasionally citation-backed, and free of pseudoscience/toxic-ingredient rhetoric in the two articles sampled. H'
+  - name: 'Dr. Fatima Fahs (Dermy Doctor)'
+    slug: fatima-fahs
+    verdict: reject
+    product_recs: na
+    reason: 'Not a duplicate of the existing roster. Her board certification (MD, FAAD, dermatology, Michigan) is independently verified across multiple sources (Next Steps in Dermatology, Top Dermatology, SELF Magazine, LinkedIn, her own Dermy Doc Institute site), and she is a living, currently active creator (TikTok post 2 days old, active Instagram at 85.4K followers). However: (1) no primary YouTube channe'
+  - name: 'Cheryl Woodman'
+    slug: cheryl-woodman
+    verdict: reject
+    product_recs: na
+    reason: 'Real, currently-active YouTube creator (not a roster duplicate) whose one deeply-sampled video was more evidence-careful than its clickbait title suggested and aligned with our own benzoyl-peroxide evidence page. But this is a very small, early-stage channel (225 subscribers) with an unverifiable self-claimed "scientist"/"award-winning formulator" credential (site inaccessible, no independent conf'
+  - name: 'Dr. Mamina Turegano'
+    slug: mamina-turegano
+    verdict: reject
+    product_recs: na
+    reason: 'Real, currently-active, credentialed dermatologist (not a roster duplicate), but sampled content disqualifies her. Her retinoid-choice video is solid and evidence-aligned, but she says on-camera she "helped formulate" a commercial retinoid product (Beauty Pie) that she then recommends. Her hormonal-acne video — a substantive, non-throwaway upload — leans heavily on functional-medicine "root cause"'
+  - name: 'Dr. Adeline Kikam (Brown Skin Derm)'
+    slug: adeline-kikam
+    verdict: add-med
+    product_recs: restricted
+    reason: 'Real, verifiable, actively posting board-certified dermatologist (DO, MSc, FAAD; American Board of Dermatology) running a legitimate Houston practice (Skinclusive Derm) with mainstream media credibility (Vogue/Allure/Essence). Instagram (153K, verified) is confirmed active as of today; TikTok handle confirmed via her own linktree; a YouTube channel handle resolves but its content could not be samp'
+  - name: 'Dr. Joyce Park (Tea with MD)'
+    slug: joyce-park
+    verdict: add-high
+    product_recs: restricted
+    reason: 'Confirmed real, currently-active, board-certified dermatologist creator (YouTube channel ''Tea with MD'' @TeawithMD, verified badge, uploads as recent as May 2026; Instagram @teawithmd ~539K followers). Sampled videos and transcripts show mainstream, evidence-aligned claims with no pseudoscience or fear-mongering, and she is not a duplicate of any existing roster name. She does not cite primary lite'
+  - name: 'Stephen Alain Ko (KindofStephen)'
+    slug: stephen-alain-ko
+    verdict: add-med
+    product_recs: ok
+    reason: 'Real, verifiable person and creator: Instagram (@kindofstephen, 68.1K followers, bio ''Skincare and cosmetic formulator'') shows a post as recent as 2026-02-06, so living_active is true, but activity is sparse and concentrated on Instagram — his YouTube channel (only 3 videos ever) has been dormant since 2020, and TikTok (previously his most prolific channel, dozens of science-education clips 2022-2'
+  - name: 'Dr. Angelo Landriscina (DermAngelo)'
+    slug: angelo-landriscina
+    verdict: add-high
+    product_recs: restricted
+    reason: 'Real, active, credentialed board-certified dermatologist with a large, currently-posting YouTube channel (927K subs, upload 13 days ago) and Instagram (698K followers); not a duplicate of anyone on the existing roster. Sampled content (laser-physics explainer plus two ''dermreacts'' mythbusting videos, one with full transcript review) is rigorous and science-aligned: he correctly reads and contextua'
+  - name: 'Dr Aamna Adel'
+    slug: aamna-adel
+    verdict: add-high
+    product_recs: restricted
+    reason: 'Real, actively-practicing UK Consultant Dermatologist (verified via her clinic''s own bio page, corroborated by SELF Magazine, StrongBody AI, and her hair-brand site) with a large, currently active following across TikTok, Instagram, and YouTube. Sampled content (title/caption spot-checks across ~15 videos plus one full YouTube transcript read) is mythbusting/education-forward, appropriately hedges'
+  - name: 'Esther Olu (The Melanin Chemist)'
+    slug: esther-olu
+    verdict: add-med
+    product_recs: ok
+    reason: 'Real, currently-active, credentialed cosmetic chemist/esthetician (verified via multiple independent press features plus her own SCC Symposium content) who is genuinely science-aligned — she actively debunks ''clean beauty'' pseudoscience and ingredient-fear culture rather than promoting it, and claims sampled hold up against mainstream toxicology/dermatology consensus. Scored add-med rather than ad'
+  - name: 'Dr. Lindsey Zubritsky (DermGuru)'
+    slug: lindsey-zubritsky
+    verdict: add-high
+    product_recs: restricted
+    reason: 'Verified, currently-active, board-certified dermatologist (MD, FAAD) with a real YouTube channel (@drlindseyzubritsky, 29.4K subs, 442 videos) and a large verified Instagram/TikTok presence (@dermguru, 1.8M followers), frequently featured on CNN/Allure/USA Today/The View/Entertainment Tonight as a derm expert. Sampled organic content (ingredient-for-concern shorts) is accurate, evidence-aligned, a'
+  - name: 'Caroline Hirons'
+    slug: caroline-hirons
+    verdict: add-med
+    product_recs: restricted
+    reason: 'Real, currently-active, verifiable creator (YouTube channel + 799K-follower Instagram both confirmed live and recently posting, as of Aug 2026) — not a roster duplicate. Not a credentialed dermatologist or chemist, and the sampled content skews interview/haul/lifestyle rather than rigorous, citation-driven education, so cites_literature is weak and the evidence sample is thin. No pseudoscience or '
+  - name: 'Dr. Daniel Sugai'
+    slug: daniel-sugai
+    verdict: add-high
+    product_recs: restricted
+    reason: 'Board-certified dermatologist (FAAD) with credential verified across multiple independent sources (LinkedIn, practice website, press profiles, Instagram bio). Sampled long-form YouTube content (nail-signs explainer, oily-skin/niacinamide-salicylic acid explainer, product-review video) is accurate against SkinTiers'' own graded ingredient evidence, explicitly avoids fear-mongering and pseudoscience,'
+  - name: 'Charlotte Palermino (@charlotteparler)'
+    slug: charlotte-palermino
+    verdict: reject
+    product_recs: na
+    reason: 'Confirmed to be a real, currently active creator (Instagram 387K / TikTok 468.1K, both live and posting recently) and not a duplicate of anyone on the existing roster. However: (1) her YouTube channel — our preferred transcript-pipeline platform — exists but has zero content (74 subs, empty), and I was unable to reliably extract actual video/reel captions or transcripts from TikTok (player errors)'
+  - name: 'Jen Novakovich (The Eco Well)'
+    slug: jen-novakovich
+    verdict: add-high
+    product_recs: ok
+    reason: 'Confirmed real, active, cross-platform creator (YouTube @TheEcoWell 10.2K subs/77 videos posting within the last few months, TikTok and Instagram with matching bios). Credentialed cosmetic scientist and PhD candidate studying beauty misinformation, not a duplicate of anyone on the existing roster. Sampled long-form and short-form content is rigorously science-aligned, cites and critiques specific '
+  - name: 'Dr. Usama Syed'
+    slug: usama-syed
+    verdict: add-med
+    product_recs: restricted
+    reason: 'Genuine, verifiable, currently-active board-certified dermatologist (Doximity/Healthgrades/CareDash + Mount Sinai affiliation) not already on our roster. Sampled long-form content (retinoid explainer) is evidence-aligned with real study references and correct usage guidance, and he shows above-average integrity (killed his own product line over marketing-honesty concerns). Held to add-med rather t'
+  - name: 'Dr. Alexis Stephens'
+    slug: alexis-stephens
+    verdict: add-high
+    product_recs: restricted
+    reason: 'IMPORTANT DISCREPANCY FIRST: the channel name/handle given in the brief — "Drive Into Dermatology" / @driveintodermatology — does not exist. I confirmed this three ways: (1) youtube.com/@driveintodermatology returns 404; (2) a YouTube search for "Drive Into Dermatology" returns zero matching results (only unrelated "how to become a dermatologist" career videos); (3) Google searches for "Drive Into'
