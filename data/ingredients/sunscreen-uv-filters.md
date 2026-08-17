@@ -238,6 +238,36 @@ videos:
   related: [zinc-oxide, titanium-dioxide, avobenzone, hyperpigmentation]
   thesis: "Board-certified dermatologist Dr. Caroline Robinson explains how sunscreen filters work, recommending a minimum SPF 30 (about 97% UVB protection) and noting SPF 50 as a reasonable ceiling since higher SPFs add little extra benefit. She distinguishes mineral filters (zinc oxide, titanium dioxide) from chemical filters like avobenzone, says she favors mineral sunscreens for sensitive, eczema-prone, or acne-prone skin, and notes that consistent sunscreen use alone has repeatedly been shown to help improve hyperpigmentation and uneven skin tone in deeper skin tones."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: "US approves first new sunscreen filter since the 1990s"
+  creator: ""
+  creator_slug: geeta-yadav
+  credential: ""
+  platform: TikTok
+  url: https://www.tiktok.com/@geetayadavmd/video/7667926097937403149
+  posted: '2026-07-29'
+  related: []
+  thesis: "Dr. Geeta Yadav, a board-certified dermatologist, explains that the United States has approved bemotrizinol, its first new sunscreen UV filter since the 1990s, after the FDA's approval process stalled for 25 years over required animal-testing safety data that manufacturers were not producing. She notes that Canada's regulator took a different approach, reviewing international evidence and approving newer filters years earlier, which is why sunscreens sold in Canada or Europe (built on filters like mexoryl) have long felt different from the older avobenzone-based formulas sold in the US. She says American shelves should start carrying products with the new filter by the end of the year."
+  note: "Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship."
+- title: "Why tinted sunscreen matters for hyperpigmentation and deeper skin tones"
+  creator: ""
+  creator_slug: geeta-yadav
+  credential: ""
+  platform: TikTok
+  url: https://www.tiktok.com/@geetayadavmd/video/7666070789728390414
+  posted: '2026-07-24'
+  related: [hyperpigmentation]
+  thesis: "Dr. Geeta Yadav, a board-certified dermatologist, explains that most sunscreens have a blind spot for people with deeper skin tones or hyperpigmentation because standard broad-spectrum formulas block UV radiation but not visible light, which also drives pigmentation and affects deeper skin tones the hardest. She says tinted sunscreens containing iron oxides are currently the best available tool for blocking visible light, acknowledging they are imperfect (shade matching can be tricky and they can be messier or pricier), but argues that skipping tinted sunscreen undermines any money spent on treating pigmentation."
+  note: "Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship."
+- title: "Why your SPF number is not what you actually get"
+  creator: ""
+  creator_slug: geeta-yadav
+  credential: ""
+  platform: TikTok
+  url: https://www.tiktok.com/@geetayadavmd/video/7665386398962289934
+  posted: '2026-07-22'
+  related: []
+  thesis: "Dr. Geeta Yadav, a board-certified dermatologist, explains that most people apply only about a quarter of the sunscreen amount needed to achieve the SPF printed on the label, meaning an SPF 50 product often performs closer to an SPF 15 to 25 in real-world use. She cites a randomized controlled trial published in the Journal of the American Academy of Dermatology showing that in real-world conditions SPF 100 outperformed SPF 50, arguing this shows high-SPF products are not a marketing gimmick but a buffer for typical under-application, and recommends reapplying every two hours and using a generous amount."
+  note: "Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship."
 name: Sunscreen (UV filters)
 slug: sunscreen-uv-filters
 status: published

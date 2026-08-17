@@ -6,6 +6,18 @@ slug: polydeoxyribonucleotide-pdrn
 status: published
 type: ingredient
 updated: '2026-08-15'
+videos:
+- title: "PDRN chat: how to choose a PDRN product"
+  creator: ""
+  creator_slug: hannah-english
+  credential: ""
+  platform: TikTok
+  url: https://www.tiktok.com/@hannahcollingwoodenglish/video/7669549023509925141
+  posted: '2026-08-02'
+  related: []
+  thesis: "Hannah English, a skincare science communicator with a background in pharmaceutical research, explains what to look for when choosing a polydeoxyribonucleotide (PDRN) product. She notes that most PDRN products contain around 0.1% or less of the ingredient, so a formula with a meaningfully higher concentration (plus supporting actives like a copper-free tripeptide and panthenol) stands out, and that a workable delivery system matters as much as concentration. She also describes using PDRN to help her skin repair faster and fade post-pimple red marks while on isotretinoin, which is known to slow skin repair."
+  note: "Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship."
+
 ---
 
 Polydeoxyribonucleotide (PDRN) is a "DNA-derived drug from Oncorhynchus mykiss (Salmon trout) or Oncorhynchus keta (Chum Salmon) sperm with molecular weights between 50 and 1500 KDa," purified by high-temperature extraction into a mixture of DNA fragments.[^galeano] It is the active ingredient behind "salmon DNA" facials and skin boosters such as Rejuran, and it has a real, well-characterized mechanism, but almost all of that evidence comes from PDRN that is injected or applied directly to an open wound, not from a leave-on cosmetic serum.[^galeano][^lampridou]

@@ -297,7 +297,7 @@
   channel: 'PENDING - no YouTube; TikTok/IG intake'
   product_recs: restricted
   conflict: 'Kenvue/Cetaphil brand partnership + Gillette Venus product link + a MikMak commerce link on her linktree (dandruff shampoo); no pe; no YouTube; TikTok/IG intake'
-  last_pulled: null
+  last_pulled: '2026-08-16'
 - name: 'Dr. Caroline Robinson'
   creator_slug: caroline-robinson
   credential: 'Board-certified dermatologist'
@@ -313,7 +313,7 @@
   channel: 'https://www.tiktok.com/@hannahcollingwoodenglish'
   product_recs: restricted
   conflict: 'Co-developed/formulated the Tbh Skincare ''Rebound'' Serum and Toner (product-formulation partnership) — her endorsement of that spe; no YouTube; TikTok/IG intake'
-  last_pulled: null
+  last_pulled: '2026-08-16'
 - name: 'Dr. Jenny Liu (Jenny Liu, MD, FAAD)'
   creator_slug: jenny-liu
   credential: 'Board-certified dermatologist'
@@ -345,7 +345,7 @@
   channel: 'https://www.tiktok.com/@dr.sheila_derm'
   product_recs: restricted
   conflict: 'Self-describes as a "Key Opinion Leader for industry beauty companies" (per her own practice bio) and most sampled TikTok videos e; no YouTube; TikTok/IG intake'
-  last_pulled: null
+  last_pulled: '2026-08-16'
 - name: 'Dr Thivi Maruthappu'
   creator_slug: thivi-maruthappu
   credential: 'Consultant dermatologist'
@@ -353,4 +353,4 @@
   channel: 'https://www.instagram.com/drthivimaru'
   product_recs: restricted
   conflict: 'Occasional sponsored/brand-partnered content (#AD Instagram posts; a paid partnership talk with Galderma) creates a mild COI on sp; no YouTube; TikTok/IG intake'
-  last_pulled: null
+  last_pulled: '2026-08-16'

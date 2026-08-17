@@ -138,6 +138,26 @@ videos:
   related: [melasma]
   thesis: "Dr Emma Wedgeworth, a consultant dermatologist in London, explains that hormonal contraception can increase the risk of pigmentation, particularly melasma, especially in people prone to it, with sun exposure, or with a family history. She cites a study finding the risk of melasma was two to three times higher with the combined oral contraceptive pill and the progesterone only mini pill compared to non hormonal contraception, while hormonal IUDs like the Mirena coil did not show an increased melasma risk in that study, though they did show increased risk for pigmentation overall. Her practical takeaway is that people prone to pigmentation who have a choice should consider a non hormonal option like the copper coil, or a hormonal IUD before tablets if hormonal contraception is needed."
   note: "Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship."
+- title: "Fading dark underarms with glycolic acid"
+  creator: ""
+  creator_slug: sheila-farhang
+  credential: ""
+  platform: TikTok
+  url: https://www.tiktok.com/@dr.sheila_derm/video/7666127692139400479
+  posted: '2026-07-24'
+  related: [glycolic-acid, brightening]
+  thesis: "Board-certified dermatologist Dr. Sheila Farhang says a common complaint she hears, dark or discolored underarms, elbows, and knees, does not need an expensive treatment or laser, just consistent glycolic acid. She recommends applying it a couple of nights a week and says most people see visible brightening within six to eight weeks, calling out a sub-$10 glycolic acid product as her pick. Her broader point is that gentle, consistent exfoliation outperforms a single expensive in-office treatment for this kind of dullness and discoloration."
+  note: "Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship."
+- title: "Post-inflammatory hyperpigmentation (PIH) explained"
+  creator: ""
+  creator_slug: geeta-yadav
+  credential: ""
+  platform: TikTok
+  url: https://www.tiktok.com/@geetayadavmd/video/7652077717973699853
+  posted: '2026-06-16'
+  related: [hydroquinone, retinoids, tretinoin, azelaic-acid]
+  thesis: "Dr. Geeta Yadav, a board-certified dermatologist, discusses post-inflammatory hyperpigmentation (PIH), the dark marks left behind after acne, eczema, or a bug bite, noting she recently co-authored a paper on the topic. She explains that PIH is one of the most common reasons people with skin of color seek dermatology care, since their risk of darker and more persistent marks is higher, and that the cornerstone of managing it is daily photoprotection with a tinted SPF 30 to 50, since visible light also drives pigmentation. She adds that topicals such as hydroquinone, retinoids, tretinoin, and azelaic acid, along with chemical peels and lasers, can help, and recommends seeing a board-certified dermatologist for persistent cases."
+  note: "Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship."
 
 ---
 

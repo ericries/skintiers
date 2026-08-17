@@ -400,3 +400,10 @@
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/26487337/
+- name: 'Williams 2018 JAAD: SPF 100+ vs SPF 50+ sunburn protection, randomized split-face
+    trial (cited by Geeta Yadav)'
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://pubmed.ncbi.nlm.nih.gov/28714075/

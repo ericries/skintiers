@@ -27,6 +27,16 @@ videos:
   related: [retinoids]
   thesis: "Dr. Fatima Fahs, a board-certified dermatologist, warns that over-exfoliating can compromise the skin barrier and increase the risk of breakouts and irritation, even though skin naturally sheds cells on its own roughly every 28 days. She explains that exfoliation can help with dullness, oiliness, or discoloration when used in moderation, and describes her own routine of exfoliating with a pad, wash, or leave-on solution just one or two nights a week, alternating with retinol rather than layering too many active ingredients at once."
   note: "Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship."
+- title: "Dermatographism: when your skin 'writes' when scratched"
+  creator: ""
+  creator_slug: sheila-farhang
+  credential: ""
+  platform: TikTok
+  url: https://www.tiktok.com/@dr.sheila_derm/video/7669094389951532318
+  posted: '2026-08-01'
+  related: []
+  thesis: "Board-certified dermatologist Dr. Sheila Farhang explains dermatographism, a form of reactive or sensitive skin sometimes called skin writing, where scratching or pressure causes raised red welts within seconds. She says this happens because the skin releases histamine that dilates blood vessels, and it is more common in people who already have sensitive or reactive skin. She clarifies it does not mean the body is full of toxins or needs a detox; it simply means the skin barrier reacts more strongly to friction and pressure."
+  note: "Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship."
 
 ---
 

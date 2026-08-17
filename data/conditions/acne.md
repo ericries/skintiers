@@ -77,6 +77,16 @@ videos:
   related: []
   thesis: "Dr Emma Wedgeworth, a consultant dermatologist in London, contrasts how acne presents differently in teens versus adults. She explains that teenage acne concentrates in the T-zone with oily skin and consists mainly of pustules and blackheads occurring all month, while adult acne tends to affect the chin and jaw in sensitive or combination-prone skin, flares mid-cycle and pre-period, and shows up as painful lumpy nodules under the skin; she also notes adult women experience acne much more than men, unlike in teens where rates are similar between sexes. She reassures viewers that both forms are entirely treatable."
   note: "Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship."
+- title: "How to treat each of the 4 types of acne"
+  creator: ""
+  creator_slug: sheila-farhang
+  credential: ""
+  platform: TikTok
+  url: https://www.tiktok.com/@dr.sheila_derm/video/7667388983848078623
+  posted: '2026-07-28'
+  related: [salicylic-acid, lactic-acid, glycolic-acid, retinol, benzoyl-peroxide]
+  thesis: "Board-certified dermatologist Dr. Sheila Farhang explains that acne is not treated one way, and breaks it down by type: comedonal acne (clogged pores) responds to salicylic, lactic, or glycolic acid plus a retinoid to speed cell turnover; inflammatory acne (whiteheads and painful surface bumps) starts with benzoyl peroxide to reduce bacteria, salicylic acid to unclog pores, and a retinoid, with topical clindamycin (pregnancy-safe) as her backup; nodular cystic acne is deeper and can scar, so she says it is time to see a dermatologist for prescription topicals, in-office laser, or oral medication; and hormonal acne is a systemic issue where she looks for the underlying trigger and uses supplements like DIM, the prescription topical Winlevi, or spironolactone alongside topicals."
+  note: "Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship."
 tier_list:
   title: "Acne topical actives by evidence"
   by: "strength of the evidence for treating acne — several of these are clinically similar, so the tiers track evidence certainty, not effect size alone"
