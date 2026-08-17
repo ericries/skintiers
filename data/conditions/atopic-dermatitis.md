@@ -42,6 +42,16 @@ videos:
   related: []
   thesis: "Board-certified dermatologist Dr. Usama Syed explains that eczema results from an impaired skin barrier that lets moisture escape, and walks through treatment tiers starting with moisturizers, humidifiers, and shorter cooler showers, then topical steroids ranging from over-the-counter hydrocortisone to prescription-strength options, non-steroid creams like tacrolimus and crisaborole ointments, and phototherapy. He also covers the biologic dupilumab, given as an at-home injection every two weeks for more severe eczema, and newer oral JAK inhibitor medications for resistant cases."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: "Eczema Treatment: What's New in 2026? | Dermatologist Explains"
+  creator: ""
+  creator_slug: andrea-suarez-dr-dray
+  credential: ""
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=E8jpYRmSd9k
+  posted: '2026-07-24'
+  related: []
+  thesis: "Board-certified dermatologist Andrea Suarez (Dr Dray), who also has atopic dermatitis herself, reviews what is new in eczema (atopic dermatitis) treatment in 2026, covering barrier dysfunction, immune overactivity involving interleukin 4, 13, and 31, genetics, and the skin microbiome as underlying causes. She walks through newer targeted therapies including biologics like dupilumab, tralokinumab, lebrikizumab, and the itch-targeting nemolizumab, oral JAK inhibitors such as baricitinib and upadacitinib, and newer topicals like ruxolitinib cream, tapinarof, and roflumilast, while emphasizing that consistent fragrance-free moisturizing and gentle bathing habits remain a mainstay of management alongside these newer options."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 
 ---
 

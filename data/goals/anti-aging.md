@@ -51,6 +51,16 @@ videos:
   related: [sunscreen-uv-filters, retinoids, vitamin-c]
   thesis: "Dr. Mamina Turegano, a board-certified dermatologist, explains that the hands often show visible signs of aging faster than areas like the eyes because they get less skincare attention. She recommends extending facial products such as vitamin C serum, retinol, and moisturizer down to the hands, using a dedicated hand cream since hands are washed more frequently than other skin, and consistently reapplying sunscreen on the backs of the hands, including wearing gloves during prolonged sun exposure such as driving."
   note: "Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship."
+- title: "How To Stop Skin Sagging + Slow Ageing - It's Not All About Collagen"
+  creator: ""
+  creator_slug: sam-bunting
+  credential: ""
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=Xq8nuUQdvMM
+  posted: '2025-02-16'
+  related: []
+  thesis: "Board-certified dermatologist Dr. Sam Bunting explains that skin elastin, not just collagen, drives the skin's elastic recoil and that UVA exposure is the main cause of elastin breakdown over time. She recommends a three-step anti-aging approach: daily broad-spectrum sunscreen (with careful attention to the eye area), antioxidants such as vitamin C, niacinamide, and retinoids, and newer approaches targeting mitochondrial dysfunction and cellular senescence in skin cells."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 
 ---
 

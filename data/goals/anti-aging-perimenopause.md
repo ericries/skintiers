@@ -6,6 +6,18 @@ slug: anti-aging-perimenopause
 status: published
 type: goal
 updated: '2026-07-29'
+videos:
+- title: "Do these skincare trends actually work? Encapsulation, derivatives, microbiome, menopause"
+  creator: ""
+  creator_slug: michelle-wong
+  credential: ""
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=sGqERq0xBxc
+  posted: '2025-01-06'
+  related: [melasma, retinol, retinoids]
+  thesis: "Cosmetic chemist Michelle Wong (Lab Muffin), who holds a PhD in medicinal chemistry, examines the trend of using vaginal estrogen creams on the face for anti-aging during perimenopause and menopause. She explains that declining estrogen during menopause causes skin to lose collagen, get thinner, and become drier, but warns that topical estrogen can absorb into the bloodstream, is linked to certain cancers, and can darken melasma, so she advises consulting a doctor rather than self-treating with estrogen products marketed by telehealth companies. She also highlights lower-risk alternatives such as phytoestrogens and methyl estradiol propanoate, though she notes the evidence for these is currently weaker than for standard anti-aging ingredients."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+
 ---
 
 Skin aging speeds up around menopause. As estrogen falls, skin loses collagen and elasticity faster than sun exposure alone explains, and much of the visible change tracks estrogen status rather than chronological age. Skin collagen declines "between 1-2% per year after the menopause," and the loss correlates with years since menopause, not birthday.[^brincat87] This page covers the levers specific to that hormonal component. The general, sun-driven half of aging, and the sunscreen-and-retinoid foundation that does most of the work, is ranked on [[anti-aging]]; this page is about what is different when the driver is hormonal.

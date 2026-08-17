@@ -28,6 +28,17 @@ videos:
   related: [medik8, prequel]
   thesis: "Testing retinaldehyde products from Krave Beauty (0.05%), Prequel (0.1%), and a Korean spicule shot (0.1%), and discussing (but not themselves testing) Medik8 Crystal Retinal 6, cosmetic chemists Victoria Fu and Gloria Lu of Chemist Confessions found that texture and stability, not just percentage, drove their real-world experience with retinaldehyde: several formulas showed visible discoloration or degraded quickly once opened, and encapsulation or physical-particle stabilization mattered more than raw concentration. They singled out Medik8's marketing claim that retinaldehyde works 'up to 11 times faster' than retinol as misleading, since the cited paper is an early in-vitro study on isolated metabolism, not a test of the actual finished formula."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship. Cosmetic chemists reviewing competitor products; their own brand's retinol product came up only briefly as a comparison point for irritation, not as the focus."
+- title: "The Ordinary Is Coming For Your Dermatologist New Retinal Emulsion"
+  creator: ""
+  creator_slug: cassandra-bankson
+  credential: ""
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=1NA2mD7IhXw
+  posted: '2024-05-01'
+  related: [medik8-crystal-retinal-3, youth-to-the-people-retinal-niacinamide-serum]
+  thesis: "Medical esthetician Cassandra Bankson runs a personal weeks-long trial of The Ordinary's Retinal 0.2% Emulsion, an over-the-counter retinaldehyde product, applying it to acne scarring and sebaceous filaments on her chest and face. She reports no retinization or irritation during the trial and describes a visible reduction in sebaceous filaments and brighter, more even skin tone, while noting the blackhead-like texture in one area did not improve. She also compares it informally to pricier retinal products, saying she found it more effective for her than the Youth To The People retinal serum but less effective than Medik8's Crystal Retinal."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+
 ---
 
 Retinaldehyde (retinal) is the aldehyde form of vitamin A, an over-the-counter cosmetic [[retinoids|retinoid]] that sits one oxidation step below the receptor-active acid on the vitamin A pathway. That pathway runs retinyl ester to [[retinol]] to retinaldehyde to retinoic acid ([[tretinoin]]), each step an oxidation; because retinaldehyde is only one step from the active molecule rather than two, Saurat and colleagues found it induced the retinoic-acid marker CRABP-2 more strongly than retinol did, ranking "retinoic acid > retinaldehyde > 9 cis retinoic acid > retinol > beta carotene."[^1] It is the closest-to-active retinoid available without a prescription, and it anchors a growing premium-serum category (examples include Avene RetrinAL, Medik8 Crystal Retinal, and The INKEY List Retinal). Its clinical evidence is thinner than prescription tretinoin's but better than that of the retinyl esters, and this profile grades it against both.

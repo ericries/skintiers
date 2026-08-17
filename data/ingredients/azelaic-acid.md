@@ -67,6 +67,36 @@ videos:
   related: [retinol, glycolic-acid, ascorbic-acid-vitamin-c, hyaluronic-acid, skin-barrier-repair]
   thesis: "Dr. Neera Nathan, a board certified dermatologist, breaks down how often to use common skincare acids and actives. She recommends azelaic acid once or twice daily, vitamin C every morning, and retinol nightly if tolerated, starting with just a few nights per week. She also covers glycolic acid two to three times a week, hyaluronic acid up to twice daily, and barrier repair cream as often as needed."
   note: "Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship."
+- title: "How to Build Your Morning Skincare Routine | A Step-by-Step Guide to a Stellar Skincare Routine"
+  creator: ""
+  creator_slug: sam-bunting
+  credential: ""
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=-Jt3gczy_4o
+  posted: '2025-07-31'
+  related: []
+  thesis: "Board-certified dermatologist Dr. Sam Bunting walks through a morning skincare routine and highlights azelaic acid as a key ingredient for tackling redness, clogged pores, and blemishes, noting it can be found in products like The Ordinary's 10% Azelaic Acid Suspension or Paula's Choice's azelaic acid booster in addition to her own brand's serum. She also covers cleansing, antioxidant serums, hydration with barrier-supporting ingredients like ceramides and niacinamide, and finishes with guidance on properly applying sunscreen using the correct amount and distribution."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: "Can You Mix Azelaic Acid With Anything? Dermatologist Q&A"
+  creator: ""
+  creator_slug: andrea-suarez-dr-dray
+  credential: ""
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=oyQl5MU3pRQ
+  posted: '2026-08-16'
+  related: [benzoyl-peroxide]
+  thesis: "Board-certified dermatologist Andrea Suarez (Dr Dray) explains that azelaic acid, whether over-the-counter at 10% or prescription strength (15-20%, such as Finacea), can be combined with other skincare ingredients as long as the combination is tolerated. She cautions that azelaic acid can be drying and irritating on its own, so pairing it with dapsone is generally fine, but combining it with benzoyl peroxide (also notoriously drying) may push some people into excess dryness and irritation."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: "#162) Testing 3 Popular K-Beauty Azelaic Acid Serums"
+  creator: ""
+  creator_slug: victoria-fu
+  credential: ""
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=tpdULfR0Org
+  posted: '2026-01-28'
+  related: [hyperpigmentation, anua-azelaic-acid-serum, kojic-acid]
+  thesis: "Cosmetic chemists Chemist Confessions (Victoria Fu and Gloria Lu) tested three Korean-beauty azelaic acid serums against each other: Anua's Azelaic Acid 10 Hyaluron Redness Soothing Serum, Purito's Azelaic Acid 10 with Kojic Acid and Tea Tree serum, and Medicube's Azelaic Acid Exosome Shot Serum. They found Purito's marketing misleading, since its 10 percent tea tree claim turned out to refer to tea tree leaf water rather than the clinically studied tea tree essential oil, and they questioned Medicube's very low 0.01 percent azelaic acid concentration despite its intense, prickly application experience. They favored Anua for its non-stinging texture and for being the only one of the three with its own consumer testing, while cautioning that at these over-the-counter 10 percent concentrations, none of the products should be relied on as a primary fix for hyperpigmentation."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 
 ---
 

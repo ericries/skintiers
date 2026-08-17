@@ -308,6 +308,26 @@ videos:
   related: [hyperpigmentation, anti-aging]
   thesis: "Dr. Ife Rodney, a board-certified dermatologist, explains that daily sunscreen use protects skin from UV rays and can help fade hyperpigmentation while lowering skin cancer risk over time. She adds that consistent use and reapplication of sunscreen also helps prevent fine lines and wrinkles, calling reapplication the habit every dermatologist wants to see from patients."
   note: "Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship."
+- title: "Why Do Wellness Influencers Fear Sunscreen More Than Skin Cancer?"
+  creator: ""
+  creator_slug: james-welsh
+  credential: ""
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=dCjwOEnRwQI
+  posted: '2026-05-31'
+  related: []
+  thesis: "Skincare educator James Welsh recaps a UK parliamentary inquiry into skin cancer that he was invited to speak at, and uses it to debunk common sunscreen myths spread by wellness influencers, including claims that sunscreen causes cancer, that oxybenzone disrupts hormones at real-world doses, and that oils like raspberry seed or carrot seed oil act as natural sunscreens. He cites inquiry findings that UV radiation is a WHO group one carcinogen, that around 86 to 90 percent of skin cancers are preventable, and that only about 4 percent of dermatology content online is created or verified by actual dermatologists. The video argues that daily sunscreen use remains essential despite online fearmongering."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: "#178) 5 More Tinted SPFs Tested in 2026"
+  creator: ""
+  creator_slug: victoria-fu
+  credential: ""
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=X2ZfxXo9XZk
+  posted: '2026-06-04'
+  related: [avene-mineral-ultra-light-spf-50]
+  thesis: "Cosmetic chemists Chemist Confessions (Victoria Fu and Gloria Lu) tested five tinted sunscreens as part of their 2026 sunscreen testing series: Merit's The Uniform tinted mineral SPF 45, La Roche-Posay's tinted UV Mune 400, Avene's anti-pigmentation SPF 50+, Bloom Effects' Dew Drops tinted mineral sunscreen, and Eucerin's Tinted Age Defense with hyaluronic acid. They grouped the products by coverage level, from sheer to high coverage, finding that Merit gave foundation-like coverage but transferred heavily onto clothing, while Eucerin's formula went on thick and left a tacky residue on the hands. For people who just want a touch of iron-oxide pigment without real coverage, they recommended the tinted UV Mune or EltaMD UV Clear as easier, lower-maintenance options."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 name: Sunscreen (UV filters)
 slug: sunscreen-uv-filters
 status: published

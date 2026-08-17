@@ -7,6 +7,18 @@ status: published
 tier: strong
 type: ingredient
 updated: '2026-07-28'
+videos:
+- title: "Can Adapalene Really Prevent Wrinkles? Dermatologist Q&A"
+  creator: ""
+  creator_slug: andrea-suarez-dr-dray
+  credential: ""
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=l30kQh-VdwI
+  posted: '2026-08-15'
+  related: [tretinoin]
+  thesis: "Board-certified dermatologist Andrea Suarez (Dr Dray) discusses whether adapalene is evidence-based for anti-aging compared to tretinoin, noting that research on adapalene for this use is far more limited than for tretinoin (the established gold-standard retinoid), largely because adapalene is newer and less studied. She points out that the available small studies used 0.3% adapalene versus 0.05% tretinoin and found adapalene not inferior, with biopsy-confirmed improvements in collagen production, and that she recommends adapalene mainly because it tends to be less irritating than tretinoin and is available over the counter in the US at 0.1% strength."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+
 ---
 
 Adapalene is a synthetic third-generation [[retinoids|retinoid]] and the active ingredient in Differin, first approved by the FDA as a prescription acne drug in 1996 and later sold over the counter. Skincare retinoids sit on a conversion pathway: a retinyl ester is converted to [[retinol]], retinol to retinaldehyde, and retinaldehyde to retinoic acid, the only form that binds the skin's retinoic acid receptors directly. Adapalene sits off that chain. Like [[tretinoin]] (which is retinoic acid itself) and the other synthetic prescription retinoids [[tazarotene]] and [[trifarotene]], it acts on the receptors directly rather than being converted from retinol, and the FDA label describes it as "a naphthoic acid derivative with retinoid-like properties" that "binds to specific retinoic acid nuclear receptors."[^epiduo] Two secondary reviews describe that receptor activity as selective for the beta and gamma retinoic acid receptors rather than binding all three subtypes broadly.[^statpearls][^cosio] Its controlled evidence is for acne, so this profile grades that use and treats photoaging as an off-label, class-level extrapolation.

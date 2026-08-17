@@ -46,6 +46,16 @@ videos:
   related: [copper-peptides, argireline-acetyl-hexapeptide-8, hyaluronic-acid, vitamin-c, retinol]
   thesis: "Board-certified dermatologist Dr. Alexis Stephens breaks peptides down into five functional categories for skincare: signaling peptides (like matrixyl/pentapeptide-4) that stimulate collagen, elastin, or hyaluronic acid; neurotransmitter-inhibiting peptides such as argireline (acetyl hexapeptide-8) that softly reduce facial muscle movement; carrier peptides like copper peptides that transport trace elements into the skin; enzyme-inhibiting peptides that curb tyrosinase for brightening; and antimicrobial peptides. She advises choosing a peptide-containing product for the specific benefit you want rather than assuming all peptides do the same thing, and stresses that peptides should supplement, not replace, a daily vitamin C and nighttime retinoid."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: "The Peptide Truth: What Actually Works vs. What's STEALING Your Money (Dermatologist's Guide)"
+  creator: ""
+  creator_slug: dustin-portela
+  credential: ""
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=WyWDBJIm6wY
+  posted: '2026-02-01'
+  related: [copper-peptides]
+  thesis: "Board-certified dermatologist Dr. Dustin Portela breaks down skincare peptides and says copper peptides, specifically GHK-Cu, have the strongest evidence, helping deliver copper to skin cells to support collagen and elastin production and wound healing, while so-called \"Botox in a bottle\" neurotransmitter peptides likely cannot penetrate deep enough to meaningfully relax facial muscles. He recommends starting with copper peptides for at least three months if you try peptides at all, but says most people get 90 percent of their results from a basic retinol, vitamin C, and sunscreen routine, with peptides as an optional extra rather than a foundation."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 
 ---
 

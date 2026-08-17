@@ -17,6 +17,16 @@ videos:
   related: []
   thesis: "Hannah English, a skincare science communicator with a background in pharmaceutical research, explains what to look for when choosing a polydeoxyribonucleotide (PDRN) product. She notes that most PDRN products contain around 0.1% or less of the ingredient, so a formula with a meaningfully higher concentration (plus supporting actives like a copper-free tripeptide and panthenol) stands out, and that a workable delivery system matters as much as concentration. She also describes using PDRN to help her skin repair faster and fade post-pimple red marks while on isotretinoin, which is known to slow skin repair."
   note: "Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship."
+- title: "#176) 5 PDRN Product Reviewed!"
+  creator: ""
+  creator_slug: victoria-fu
+  credential: ""
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=E0lH6oDlPyM
+  posted: '2026-05-06'
+  related: [niacinamide, iope-stem-3-clinical-recovery-serum]
+  thesis: "Cosmetic chemists Chemist Confessions (Victoria Fu and Gloria Lu) reviewed five Korean-beauty PDRN products: numbuzin's PDRN glow-boosting toner, Mediheal's PDRN Lifting Serum, Dr. Leegeehaam's PDRN rejuvenating cream, Rejuran's Turnover Ampoule, and IOPE's Stem 3 Clinical Recovery Serum. They highlighted IOPE's split-face study, which compared the topical product on one side of subjects' faces against an actual salmon-derived PDRN injection on the other, as by far the most useful data in the category. They ultimately recommended IOPE as their pick for pore size and hydration results, while cautioning that most of the other products used low or diluted PDRN concentrations with vague marketing claims that made it hard to draw firm conclusions about efficacy."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 
 ---
 

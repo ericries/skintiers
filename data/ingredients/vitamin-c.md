@@ -47,6 +47,16 @@ videos:
   related: [naturium-vitamin-c-complex-serum, timeless-20-vitamin-c-e-ferulic-serum, maelove-the-glow-maker, roc-retinol-correxion-deep-wrinkle-night-cream]
   thesis: "Board-certified dermatologist Dr. Daniel Sugai explains that L-ascorbic acid is the most well-studied active form of vitamin C but is unstable to light, heat, and pH, so formulation matters as much as listed concentration when choosing a serum. He recommends applying vitamin C in the morning before sunscreen to help neutralize free radical damage, and notes it can take up to six months of consistent use to see meaningful improvement in dark spots and skin brightness."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: "Dermatologist Reveals Why Your Vitamin C Isn't Working"
+  creator: ""
+  creator_slug: dustin-portela
+  credential: ""
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=T8yxDm6ZgVs
+  posted: '2025-10-26'
+  related: [ascorbic-acid-vitamin-c]
+  thesis: "Board-certified dermatologist Dr. Dustin Portela explains that L-ascorbic acid is the most researched and potent form of topical vitamin C but is unstable and can oxidize (turning a serum brown), while derivatives like magnesium ascorbyl phosphate, sodium ascorbyl phosphate, and ascorbyl glucoside are gentler, more stable options better suited to beginners. He advises applying vitamin C in the morning before sunscreen, avoiding layering it with AHA or BHA exfoliants, and says early glow shows up in 1 to 4 weeks, more visible brightening and fading of dark spots by 6 to 12 weeks, and the biggest improvements in firmness and pigmentation after 3 to 6 months of consistent use."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 
 ---
 

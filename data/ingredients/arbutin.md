@@ -6,6 +6,18 @@ slug: arbutin
 status: published
 type: ingredient
 updated: '2026-08-08'
+videos:
+- title: "#164) Reviewing 5 Affordable Arbutin Products for Skin Brightening"
+  creator: ""
+  creator_slug: victoria-fu
+  credential: ""
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=tMmOJ8YR6l8
+  posted: '2026-02-12'
+  related: [hyperpigmentation, niacinamide, hydroquinone, the-ordinary-alpha-arbutin-2-ha, beauty-of-joseon-glow-deep-serum-rice-alpha-arbutin]
+  thesis: "Cosmetic chemists Chemist Confessions (Victoria Fu and Gloria Lu) reviewed five affordable arbutin products for skin brightening: COSRX's Alpha Arbutin 2% Discoloration Care, Beauty of Joseon's alpha arbutin serum, The Ordinary's Alpha Arbutin 2% + HA, Nurium's alpha arbutin serum, and TooWoom's 7% RB10 with tranexamic acid cream. They singled out COSRX for having done the most consumer testing of the group, though they mocked some of its claims (like improving inner and outer melanin) as vague marketing, and flagged TooWoom's high 7 percent arbutin figure as coming with no supporting data or clear brand background. Their final picks were COSRX and The Ordinary, while stressing that arbutin, a weaker relative of hydroquinone, is not strong enough on its own to be a workhorse for hyperpigmentation and works best paired with other actives."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+
 ---
 
 Arbutin is a glycoside of hydroquinone, chemically hydroquinone attached to a glucose molecule by a glycosidic bond, naturally present in the leaves of bearberry (genus *Arctostaphylos*) and other plants in the Ericaceae family.[^pubchem] Skincare formulations also use a separate compound, alpha-arbutin, studied in cream form at 5% to 7% for melasma.[^teera][^tanta] It is marketed as a gentler tyrosinase-inhibiting alternative to hydroquinone, but the enzyme data say it is not a stronger inhibitor, and the clinical comparisons against hydroquinone-based treatment are limited to one small trial.

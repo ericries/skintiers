@@ -63,6 +63,16 @@ videos:
   related: [glycolic-acid, adapalene, retinaldehyde, tranexamic-acid, lactic-acid, urea]
   thesis: "Dr. Neera Nathan, a board certified dermatologist, ranks bad, good, and great products for strawberry skin, also known as keratosis pilaris. She advises against dry brushing and harsh scrubs, notes that retinaldehyde helps only a little while adapalene is a better retinoid option, and calls glycolic acid a top pick for exfoliating and hydrating bumpy skin. She also recommends glycolic acid pads containing tranexamic acid for hyperpigmented strawberry skin and lactic acid or urea moisturizers for smoothing texture."
   note: "Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship."
+- title: "Science-based body care hacks: KP, breakouts, dark marks"
+  creator: ""
+  creator_slug: michelle-wong
+  credential: ""
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=HFBRM4jT4ac
+  posted: '2025-01-20'
+  related: [hyperpigmentation, acne, urea, salicylic-acid, retinol, glycolic-acid, lactic-acid, benzoyl-peroxide]
+  thesis: "Cosmetic chemist Michelle Wong (Lab Muffin) shares science-based tips for treating keratosis pilaris (KP), the harmless but rough \"chicken skin\" bumps caused by keratin plugging hair follicles, recommending consistent chemical exfoliation with ingredients like urea, salicylic acid, glycolic acid, and lactic acid, plus physical exfoliation with tools like Turkish exfoliating mitts. She notes that urea, found in products like a 25% urea heel balm, works as both an exfoliant and a humectant moisturizer, and that salicylic acid may be a safer choice than alpha hydroxy acids for sun-exposed body skin since it doesn't increase photosensitivity the way AHAs do even after rinsing off. She also covers using body retinol products for fading post-inflammatory dark marks left by KP and ingrown hairs, referencing an EU safety assessment that led to lower recommended retinol concentrations in body products."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 
 ---
 

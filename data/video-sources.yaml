@@ -34,14 +34,14 @@
   tier: HIGH
   channel: https://www.youtube.com/@chemistconfessions/videos
   conflict: sell a small own-brand product line - skip own-brand promos
-  last_pulled: '2026-08-14'
+  last_pulled: '2026-08-16'
 - name: Andrea Suarez (Dr Dray)
   creator_slug: andrea-suarez-dr-dray
   credential: Board-certified dermatologist
   tier: HIGH
   channel: https://www.youtube.com/@DrDrayzday/videos
   conflict: null
-  last_pulled: '2026-08-14'
+  last_pulled: '2026-08-16'
 - name: Dr. Muneeb Shah (DermDoctor)
   creator_slug: muneeb-shah
   credential: Board-certified dermatologist
@@ -55,7 +55,7 @@
   tier: HIGH
   channel: https://www.youtube.com/@DustinPortelaDO/videos
   conflict: null
-  last_pulled: '2026-08-15'
+  last_pulled: '2026-08-16'
 - name: Javon Ford
   creator_slug: javon-ford
   credential: Cosmetic chemist
@@ -94,7 +94,7 @@
   tier: HIGH
   channel: https://www.youtube.com/@DrSamBunting/videos
   conflict: has an own-brand line (Dr Sam's) - skip own-brand promos
-  last_pulled: '2026-08-15'
+  last_pulled: '2026-08-16'
 - name: Dr. Davin Lim
   creator_slug: davin-lim
   credential: Board-certified dermatologist (Australia)
@@ -123,7 +123,7 @@
   channel: https://www.youtube.com/@cassandrabankson/videos
   conflict: non-credentialed educator - educational content only, never treat picks as endorsements,
     never use sponsored videos
-  last_pulled: '2026-08-15'
+  last_pulled: '2026-08-16'
 - name: Hyram (Skincare by Hyram)
   creator_slug: hyram
   credential: Skincare educator (NOT a dermatologist or cosmetic chemist)
@@ -131,7 +131,7 @@
   channel: https://www.youtube.com/@Hyram/videos
   conflict: has an own-brand line (Selfless) and does sponsorships - educational content only, never
     treat picks as endorsements, never use sponsored videos
-  last_pulled: '2026-08-15'
+  last_pulled: '2026-08-16'
 - name: James Welsh
   creator_slug: james-welsh
   credential: Skincare content creator (NOT a dermatologist or cosmetic chemist)
@@ -139,7 +139,7 @@
   channel: https://www.youtube.com/@JamesWelsh/videos
   conflict: does sponsorships - educational content only, never treat picks as endorsements, never
     use sponsored videos
-  last_pulled: '2026-08-15'
+  last_pulled: '2026-08-16'
 - name: Gothamista
   creator_slug: gothamista
   credential: Skincare content creator (NOT a dermatologist or cosmetic chemist)
