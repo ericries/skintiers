@@ -1472,7 +1472,7 @@
 - name: Naturium Mandelic Topical Acid 12%
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: mandelic-acid
   source: A 12% mandelic acid exfoliating serum; a second mandelic OTC option for
     the acids ladder/dark-mark use. https://www.naturium.com

@@ -5056,3 +5056,8 @@ naturium-multi-peptide-moisturizer:
   score: 8
   verdict: revise-then-fixed
   note: 'PRODUCT cron (Fable draft -> Opus critic revise->fixed). Conservative grades (minimal/preliminary peptides+niacinamide+vitC, modest humectant base). Added price comparators ($20 vs Paula''s Choice $49, COSRX $25), fixed INCI-position claim. Gates clean; force-published. (Original queue name ''Multi-Peptide Advanced Moisturizer'' was a phantom; corrected to real product.)'
+naturium-mandelic-topical-acid-12:
+  last_reviewed: '2026-08-17'
+  score: 8
+  verdict: revise-then-fixed
+  note: 'PRODUCT cron (Fable draft -> Opus critic revise->fixed). 12% mandelic leave-on; prices/pH/INCI cache-verified. Grades trace to mandelic-acid preliminary/weak tiers, no overstatement; added The Ordinary 10% comparator, trimmed redundant no-trial restatement. Gates clean; force-published. (2 phantom Naturium queue entries preceded this real one.)'
