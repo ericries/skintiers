@@ -91,3 +91,104 @@
     verdict: add-high
     product_recs: restricted
     reason: 'IMPORTANT DISCREPANCY FIRST: the channel name/handle given in the brief — "Drive Into Dermatology" / @driveintodermatology — does not exist. I confirmed this three ways: (1) youtube.com/@driveintodermatology returns 404; (2) a YouTube search for "Drive Into Dermatology" returns zero matching results (only unrelated "how to become a dermatologist" career videos); (3) Google searches for "Drive Into'
+2026-08-16-pass-2:
+  - name: 'Kelly Dobos'
+    slug: kelly-dobos
+    verdict: reject
+    product_recs: na
+    reason: 'Could not resolve any confirmed, active YouTube, TikTok, or Instagram channel for Kelly Dobos. This session''s WebSearch budget was exhausted before meaningful queries returned results, and fallback WebFetch attempts against Google/Bing/DuckDuckGo returned bot-check pages or unrelated generic results'
+  - name: 'Andrew Alexis'
+    slug: andrew-alexis
+    verdict: reject
+    product_recs: na
+    reason: 'No personal, self-run content channel could be resolved on YouTube, Instagram, or TikTok. Extensive searching (Google, direct platform search, YouTube search) turns up Dr. Alexis exclusively as an interview subject/guest expert inside OTHER organizations'' content: Skin of Color Society (@skinofcolor'
+  - name: 'Perry Romanowski'
+    slug: perry-romanowski
+    verdict: reject
+    product_recs: na
+    reason: 'Perry Romanowski is a real, apparently-active cosmetic chemist (Chemists Corner founder, co-host of The Beauty Brains) but I could not confirm any active YouTube, TikTok, or Instagram video channel for him or the show within a bounded search — the one Instagram account found for "The Beauty Brains" '
+  - name: 'Dr. Corey L. Hartman (Skin Wellness Dermatology)'
+    slug: corey-l-hartman
+    verdict: reject
+    product_recs: na
+    reason: 'Confirmed as a real, currently-active, board-certified dermatologist (MD, FAAD) with an active personal Instagram (212K followers) and practice Instagram, but his YouTube presence (SkinWellnessAL) is stale/marketing-only (last real upload Nov 2024, mostly 2020-2021 CoolSculpting ads and procedure de'
+  - name: 'Dr. Mona Gohara'
+    slug: mona-gohara
+    verdict: reject
+    product_recs: na
+    reason: 'Dr. Gohara is a real, living, currently-active, well-credentialed dermatologist (Yale Clinical Professor, board-certified, verified via medicine.yale.edu and multiple magazine author bios) — not a fabrication and not a duplicate of anyone already on the roster. However, per the conservative auto-add'
+  - name: 'Dr. Elyse Love'
+    slug: elyse-love
+    verdict: reject
+    product_recs: na
+    reason: 'Could not resolve any confirmed, currently-active content channel for this candidate, so per protocol (resolved:false -> reject, never fabricate) this is a reject. What I could verify: the CMS/NPI registry (a primary government source) confirms a real, actively licensed NYC dermatologist named Elyse'
+  - name: 'Dr. Michelle Henry, MD FAAD'
+    slug: michelle-henry-md-faad
+    verdict: add-med
+    product_recs: restricted
+    reason: 'Real, living, active, and well-corroborated board-certified dermatologist/Mohs surgeon (independently verified via TODAY.com, Forbes, Melanoma Research Foundation, LinkedIn, and her practice site) with active Instagram (199K) and TikTok (@skindoctoks, 9.6K) accounts and no roster overlap. No pseudos'
+  - name: 'Dr. Geeta Yadav'
+    slug: geeta-yadav
+    verdict: add-high
+    product_recs: restricted
+    reason: 'Board-certified dermatologist (FRCPC, FAAD, Fellow EADV) confirmed independently via her clinic''s own site (facetdermatology.com), not just self-reported — meets the credential bar cleanly. Living/active confirmed via a currently active TikTok (@geetayadavmd, 54.8K followers) and Instagram (@geetaya'
+  - name: 'Dr. Blair Murphy-Rose'
+    slug: blair-murphyrose
+    verdict: reject
+    product_recs: na
+    reason: 'Real, verifiable, currently-active board-certified dermatologist (FAAD; Fellow AAD; published in JAAD, Dermatologic Surgery, Pediatric Dermatology; ongoing Everyday Health medical-reviewer byline through Aug 2026; Castle Connolly Top Doctor) — credential checks out. But she fails the auto-add bar on'
+  - name: 'Dr. Anthony Rossi (Dr. Rossi DERM MD)'
+    slug: anthony-rossi
+    verdict: reject
+    product_recs: na
+    reason: 'Real, living, currently-active, credentialed dermatologist (board-certified derm + Mohs surgeon, MSKCC) with a resolved YouTube channel (@rossidermmd, ''Dr. Rossi DERM MD'') and Instagram (@rossidermmd) — not a duplicate of anyone on the existing roster. However, this is a conservative auto-add gate a'
+  - name: 'Dr. Caroline Robinson'
+    slug: caroline-robinson
+    verdict: add-high
+    product_recs: restricted
+    reason: 'Confirmed real, active, board-certified dermatologist with a genuine YouTube channel (@crobinsonmd, "Set the Tone" podcast) and a large, verified, active Instagram (@crobinsonmd, 80.2K). Not a duplicate of anyone on the existing roster (skin-of-color specialist, distinct from the listed derms). Samp'
+  - name: 'Hannah English (@ms_hannah_e / Hannah Collingwood English)'
+    slug: hannah-english
+    verdict: add-high
+    product_recs: restricted
+    reason: 'Real, currently-active creator: Australian pharmaceutical scientist and skincare science communicator, primary platforms Instagram (@ms_hannah_e) and TikTok (@hannahcollingwoodenglish, 20.6K followers, posted within the last month) — living_active confirmed. No usable personal YouTube channel (her n'
+  - name: 'Dr. Jenny Liu (Jenny Liu, MD, FAAD)'
+    slug: jenny-liu
+    verdict: add-high
+    product_recs: restricted
+    reason: 'Verifiable, currently-active, credentialed board-certified dermatologist (FAAD, assistant professor at University of Minnesota) confirmed via Healthgrades and corroborating professional directories. Sampled educational video content (retinoid myth-busting) is scientifically accurate and aligns close'
+  - name: 'Dr. Justine Kluk'
+    slug: justine-kluk
+    verdict: add-med
+    product_recs: ok
+    reason: 'Justine Kluk is a real, active, credentialed UK consultant dermatologist (MBChB FRCP; BAD/RCP/RSM affiliations) not on our existing roster. Her confirmed channel is a verified, active Instagram (@drjustinekluk, ~30-33K followers) with recent posts on acne, stress-and-skin, and dermatology education;'
+  - name: 'Dr. Karan Lal'
+    slug: karan-lal
+    verdict: add-med
+    product_recs: restricted
+    reason: 'Real, verifiable, currently-active board-certified dermatologist (DO, MS, FAAD; pediatric + fellowship-trained cosmetic dermatologist at Affiliated Dermatology, Scottsdale AZ) confirmed via independent sources: Zocdoc, US News Health, LiVDerm faculty bio, Arizona Foothills Magazine profile, Dermatol'
+  - name: 'Dr. DiAnne Davis'
+    slug: dianne-davis
+    verdict: reject
+    product_recs: na
+    reason: 'Real, credentialed, currently-active dermatologist (not a duplicate of the existing roster), but I could not verify the two rubric items that matter most for an auto-add: claims_aligned and no_pseudoscience. No YouTube channel exists (her own linktr.ee lists only TikTok/Instagram/X/Facebook — no You'
+  - name: 'Dr. Sheila Farhang (dr.sheila_derm)'
+    slug: sheila-farhang
+    verdict: add-high
+    product_recs: restricted
+    reason: 'Real, active, verified creator confirmed on two platforms (Instagram 156K, TikTok 12.3K with a June 2026 post — active within the past year). She is a credentialed board-certified dermatologist with Mohs and cosmetic-surgery fellowship training, distinct from all 18 existing roster names. Sampled co'
+  - name: 'Dr. Naana Boakye'
+    slug: naana-boakye
+    verdict: reject
+    product_recs: na
+    reason: 'Real, active, credentialed board-certified dermatologist (FAAD) confirmed across Instagram/YouTube/TikTok under a consistent handle — not a duplicate of the existing roster. However, in this session I could not sample enough actual video/caption content (YouTube channel page would not render its vid'
+  - name: 'Dr. Zenovia Gabriel'
+    slug: zenovia-gabriel
+    verdict: reject
+    product_recs: na
+    reason: 'Real, credentialed, active dermatologist confirmed, but every sampled piece of content on every platform is product marketing for her own brand rather than independent education — could not find claims to check against our evidence pages, could not find a single non-promotional/non-branded routine o'
+  - name: 'Dr Thivi Maruthappu'
+    slug: thivi-maruthappu
+    verdict: add-high
+    product_recs: restricted
+    reason: 'Real, verifiable, currently-active UK consultant dermatologist and registered nutritionist with a strong, independently-confirmed credential trail (Bupa Consultant Finder, NHS Barts Health Trust listing, Cleveland Clinic London, KCL honorary senior lecturer, Oxford/Imperial training) plus a mainstre'
