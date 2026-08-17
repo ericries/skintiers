@@ -283,3 +283,64 @@
     verdict: add-med
     product_recs: restricted
     reason: 'Real, living, currently-active UK consultant dermatologist — credential independently verified via Bupa Finder, HCA Healthcare, and Spire Healthcare listings (St John''s Institute of Dermatology, Guy''s & St Thomas''). She is NOT a match for anyone already on the roster. Only confir'
+2026-08-16-pass-4:
+  - name: 'Dr. Julie Jackson (@drjuliejackson)'
+    slug: julie-jackson
+    verdict: reject
+    product_recs: na
+    reason: 'Could not resolve or confirm any real, active YouTube/TikTok/Instagram channel for "Dr. Julie Jackson" / @drjuliejackson. This session''s WebSearch budget was exhausted (200/200 used) before I could run discovery queries, and direct WebFetch attempts against in'
+  - name: 'Dr. Sara Perkins'
+    slug: sara-perkins
+    verdict: reject
+    product_recs: na
+    reason: 'Dr. Sara Perkins is a real, verifiable person — Associate Professor of Dermatology and Assistant Residency Director at Yale School of Medicine (confirmed via medicine.yale.edu faculty profile, general/medical dermatology with focus on skin cancer/photoaging). '
+  - name: 'Dr. Whitney Tolpinrud (@dermdoctorwhitney)'
+    slug: whitney-tolpinrud
+    verdict: reject
+    product_recs: na
+    reason: 'Confirmed via the NPPES NPI Registry (a primary government source) that Whitney Lynn Tolpinrud, MD is a real, actively licensed physician with specialties listed as Dermatology/Dermatopathology (CA) and Internal Medicine (MA), practicing in San Diego, CA and B'
+  - name: 'Dr. Nava Greenfield'
+    slug: nava-greenfield
+    verdict: reject
+    product_recs: na
+    reason: 'Real, credentialed practicing dermatologist (MD, Schweiger Dermatology Group, Park Ave NYC; Albert Einstein College of Medicine; dermatology residency at SUNY Downstate; AAD/AMA/Women''s Dermatologic Society member) who is frequently quoted as an expert source '
+  - name: 'Dr. Lauren Fine'
+    slug: lauren-fine
+    verdict: reject
+    product_recs: na
+    reason: 'Only one platform could be confirmed (a small, ~2,300-follower Instagram account, @drlaurenfine) and no YouTube or TikTok channel could be located despite direct handle checks and search attempts. Critically, no actual post/reel content (captions, transcripts,'
+  - name: 'Dr. Ife Rodney (@driferodney)'
+    slug: ife-rodney
+    verdict: add-med
+    product_recs: restricted
+    reason: 'Real, currently-active, board-certified dermatologist (MD, FAAD, dermatopathologist; Founding Medical Director, Eternal Dermatology & Aesthetic Center, Fulton MD) confirmed via her practice''s official bio page and media mentions (NBC News, Elle, Essence, Shape'
+  - name: 'Dr. Brandon Kirsch'
+    slug: brandon-kirsch
+    verdict: reject
+    product_recs: na
+    reason: 'Real, credentialed board-certified dermatologist confirmed via multiple independent sources (kirschderm.com, US News Health, Healthgrades, Doximity, Connectively), but no active YouTube or TikTok channel could be found despite extensive search (Bing, Google, d'
+  - name: 'Dr. Chris Tomassian'
+    slug: chris-tomassian
+    verdict: add-med
+    product_recs: ok
+    reason: 'Real, verified, actively-posting board-certified dermatologist (Instagram verified, 746K followers, content dated through Aug 2026) not present on our existing roster. Credentials (MD, U. of Missouri–Kansas City; dermatology residency, U. of Kansas; founder of'
+  - name: 'Dr. Joyce Imahiyerobo-Ip (@bostonderm candidate)'
+    slug: joyce-imahiyeroboip
+    verdict: reject
+    product_recs: na
+    reason: 'Real, living, board-certified derm (verified across 5+ independent directories) — not a duplicate of the existing roster. However: (1) the given handle "@bostonderm" does not resolve to a real/active account under her name (an Instagram @bostonderm exists but '
+  - name: 'Dr. Elizabeth Houshmand'
+    slug: elizabeth-houshmand
+    verdict: reject
+    product_recs: na
+    reason: 'Real, living, credentialed board-certified dermatologist (MD, FAAD) with a genuine, active, verified Instagram (@houshmandmd, 86.2K followers) — but the specific handle given in the brief (@drhoushmandhealthyskin) does not exist on any platform I could check ('
+  - name: 'Dr. Neera Nathan'
+    slug: neera-nathan
+    verdict: add-high
+    product_recs: restricted
+    reason: 'RESOLVED and LIVING/ACTIVE. Found her real, primary YouTube channel @dermatologysurgeon (376K subscribers, 381 videos, frequent recent uploads marked "New"), with linked Instagram (@dermatologysurgeon), TikTok (@dermatologysurgeon), and Facebook, all listed in'
+  - name: 'Dr. Aegean Chan'
+    slug: aegean-chan
+    verdict: add-high
+    product_recs: restricted
+    reason: 'Real, living, actively-posting board-certified dermatologist and dermatopathologist (FAAD) with a real primary channel on Instagram (@draegeanchan, ~48.1K followers, active through Aug 2026) and a smaller TikTok (@draegeanchan, 8,940 followers) — confirmed via'
