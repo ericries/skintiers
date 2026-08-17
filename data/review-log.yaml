@@ -5061,3 +5061,8 @@ naturium-mandelic-topical-acid-12:
   score: 8
   verdict: revise-then-fixed
   note: 'PRODUCT cron (Fable draft -> Opus critic revise->fixed). 12% mandelic leave-on; prices/pH/INCI cache-verified. Grades trace to mandelic-acid preliminary/weak tiers, no overstatement; added The Ordinary 10% comparator, trimmed redundant no-trial restatement. Gates clean; force-published. (2 phantom Naturium queue entries preceded this real one.)'
+williams-2018-spf100-vs-spf50-sunburn-rct:
+  last_reviewed: '2026-08-17'
+  score: 9
+  verdict: publish
+  note: 'STUDY cron (Fable draft -> Opus critic verdict PUBLISH). Williams 2018 JAAD SPF 100+ vs 50+ sunburn RCT (n=199, split-face, natural sunlight). Critic re-verified every number via NCBI E-utilities: 55.3% vs 5% more sunburned, 40.7% vs 13.6% increased erythema, all EXACT; J&J COI disclosed. Caught+corrected a wrong PMID in the queue source (28714075 was an ADHD paper; real is 29291958). First feed-driven study page (cited by Geeta Yadav TikTok). Gates clean.'
