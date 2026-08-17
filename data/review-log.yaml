@@ -5041,3 +5041,13 @@ cerave-sa-smoothing-cream:
   score: 8
   verdict: revise-then-fixed
   note: 'PRODUCT cron, FIRST Fable-drafted (Fable draft -> Opus critic -> Sonnet fix). Critic revise: added relative price framing, softened ''UK and Europe''->''UK'' (only UK sources cited), ''177ml tube''->''177ml size'', named AmLactin comparator. Fable draft quality on par with Sonnet (no fabrication). Gates clean; force-published.'
+preservatives:
+  last_reviewed: '2026-08-16'
+  score: 9
+  verdict: publish
+  note: 'GAP page (#4 quota push). Fable draft -> Opus critic verdict PUBLISH (all 12 PMIDs + FDA + Halla 2018 review re-verified, zero fabrications, ''exemplary''). Added ## The Evidence umbrella section for structural verify. Separates real signal (MI/MCI contact allergy, Allergen of the Year 2013; formaldehyde-releaser allergy in sensitized) from paraben fear-mongering. Gates clean; force-published.'
+microplastics-in-cosmetics:
+  last_reviewed: '2026-08-16'
+  score: 9
+  verdict: publish
+  note: 'GAP page (#4 quota push). Fable draft -> Opus critic revise->fixed (mis-cited dimethicone tolerability corrected to Kang 2022 PMC9315586). Myth explainer: real solid-microbead bans (Microbead-Free Waters Act 2015, EU 2023 REACH) vs overbroad ''liquid microplastics'' framing. Gates clean; force-published.'

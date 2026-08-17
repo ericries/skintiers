@@ -3,7 +3,7 @@ analyzed: '2026-08-16'
 assurance: sonnet
 name: Cosmetic preservatives
 slug: preservatives
-status: draft
+status: published
 type: ingredient
 updated: '2026-08-16'
 ---
@@ -48,7 +48,11 @@ Graded by the documented signal for each concern, from the patch-test and regula
 **Phenoxyethanol**
 - **Real signal: low.** A dermatology safety review reports that "according to the European Scientific Committee on Consumer Safety, phenoxyethanol is safe for all consumers - including children of all ages - when used as a preservative in cosmetic products at a maximum concentration of 1%," that adverse effects in animal studies appeared only at exposures around 200-fold higher than consumer exposure, and that despite widespread use it "is a rare sensitizer."[^dreno]
 
-## The Paraben Scare
+## The Evidence
+
+The safety debate around preservatives is really three separate stories, and lumping them together is what fuels most of the fear. Each is treated on its own evidence below: a marketing scare with weak support, a genuine allergen lesson, and a real but narrow allergy issue.
+
+### The Paraben Scare
 
 The scare traces largely to two findings. Routledge and colleagues showed in 1998 that parabens are weakly estrogenic in vitro, with the qualifiers above: the most potent was 10,000-fold weaker than estradiol, and oral dosing did nothing in rats.[^routledge] Darbre and colleagues then reported in 2004 that intact parabens could be measured in 20 human breast tumour samples, at a mean of 20.6 ng per gram of tissue.[^darbre] The study measured no healthy tissue for comparison and its abstract frames the result as a starting point for measuring body burdens, an open question the authors themselves pose, rather than evidence that parabens cause cancer.[^darbre]
 
@@ -56,13 +60,13 @@ The regulatory and toxicology reviews that followed reached consistent conclusio
 
 That substitution already happened. The companion review by the same group records that the unsubstantiated public perception of parabens led to their replacement in many products "with preservatives having far greater allergenic potential."[^fransway-allergy]
 
-## The Isothiazolinone Lesson
+### The Isothiazolinone Lesson
 
 MI is the clearest case of a preservative concern that is real and well documented. As its use in cosmetics and toiletries rose, exposure rose with it.[^castanedo] By 2013 it was Contact Allergen of the Year, European groups had documented allergy frequencies of approximately 1.5%, and the standard MCI/MI patch test was missing about 40% of MI allergy.[^castanedo] The 2024 Lidén and White review attributes the widespread sensitization mainly to cosmetic use, notes that contact allergy to MI and to the industrial isothiazolinones BIT and OIT "has increased," and records that BIT, OIT, and DCOIT have never been permitted in cosmetic products in Europe.[^liden]
 
 The allergy is a contact allergy: it shows up as dermatitis where the product touches the skin and is diagnosed by patch testing.[^castanedo] Avoidance by people who develop it depends on the label; cosmetics sold to consumers in stores or online must carry an ingredient list, per the FDA.[^fda]
 
-## Formaldehyde-Releasers: The Real Issue Is Allergy
+### Formaldehyde-Releasers: The Real Issue Is Allergy
 
 The word formaldehyde invites fears of systemic harm, but the documented health issue with releaser preservatives in cosmetics is allergic contact dermatitis, and mostly in people already sensitized to formaldehyde. The de Groot two-part review quantifies it: 40-60% of patch-test reactions to most releasers are reactions to the released formaldehyde; releasers can in some formulas exceed 200 ppm free formaldehyde, a level that can provoke dermatitis in allergic individuals; and the label does not reveal how much free formaldehyde a given product contains.[^degroot2] On that basis the reviewers recommend that patients with formaldehyde allergy be advised to avoid leave-on cosmetics preserved with quaternium-15, diazolidinyl urea, DMDM hydantoin, or imidazolidinyl urea, "acknowledging that many would tolerate some products."[^degroot2] For everyone else, the European sensitization frequencies to the releasers are low, 0.3% to 1.9% of patch-tested patients depending on the compound.[^degroot1]
 
