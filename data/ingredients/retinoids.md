@@ -82,6 +82,16 @@ videos:
   related: [retinol, sunscreen-uv-filters]
   thesis: "Esther Olu, a cosmetic chemist, fact-checks a Wall Street Journal interview in which Dr. Barbara Sturm (an orthopedic doctor, not a dermatologist) claimed retinol thins the skin, strips the microbiome, and should be avoided alongside sun exposure. Olu counters that multiple studies on topical retinoids instead show increased epidermal thickness, stimulated collagen production, and improved dermal matrix organization, which is why dermatologists prescribe them for photoaging; she notes irritation from retinoids is not the same as damage and that both retinoids and sunscreen remain the product categories with the strongest evidence for skin aging."
   note: "Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship."
+- title: "Everything You've Heard About Retinoids Debunked"
+  creator: "Dr. Jenny Liu"
+  creator_slug: jenny-liu
+  credential: "Board-certified dermatologist"
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=R9ZVgFSixMk
+  posted: '2025-10-23'
+  related: [tretinoin, retinol, acne, melasma]
+  thesis: "Board-certified dermatologist Dr. Jenny Liu addresses common myths about topical retinoids (the vitamin A derivative category that includes prescription tretinoin, adapalene, and tazarotene, plus over-the-counter retinol and retinaldehyde). She explains that retinoids do not age skin faster or thin it (biopsy evidence shows they actually thicken skin and compact the stratum corneum), do not need to be paused in summer as long as sunscreen is worn, can be combined with vitamin C, and take at least 6 weeks to 3 to 6 months to show visible results because they work by boosting collagen production and normalizing skin cell turnover."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 name: Retinoids
 slug: retinoids
 status: published

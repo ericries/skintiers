@@ -305,7 +305,7 @@
   channel: 'https://www.youtube.com/@crobinsonmd'
   product_recs: restricted
   conflict: 'Affiliate storefront (shopmy.us collections linked in nearly every video description) plus her own practice''s e-commerce "Tone Sho'
-  last_pulled: null
+  last_pulled: '2026-08-16'
 - name: 'Hannah English (@ms_hannah_e / Hannah Collingwood English)'
   creator_slug: hannah-english
   credential: 'Skincare educator'
@@ -321,7 +321,7 @@
   channel: 'https://www.youtube.com/@dr.jennyliu'
   product_recs: restricted
   conflict: 'Runs an Amazon affiliate storefront (amazon.com/shop/derm.talk); recurring disclosed paid brand partnerships (Shiseido, SkinCeutic'
-  last_pulled: null
+  last_pulled: '2026-08-16'
 - name: 'Dr. Justine Kluk'
   creator_slug: justine-kluk
   credential: 'Consultant dermatologist'

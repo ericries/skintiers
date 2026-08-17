@@ -228,6 +228,16 @@ videos:
   related: []
   thesis: "Dr Emma Wedgeworth, a consultant dermatologist in London, answers how to reapply sunscreen over makeup, a question she says she is frequently asked in clinic. She offers three practical options: a quick spray sunscreen as a stopgap that is not a substitute for a full application, applying a very light sunscreen on top of makeup with a beauty blender, or simply wearing a tinted sunscreen from the start; for touch-ups she suggests using micellar water to remove residue before reapplying a full layer of sunscreen."
   note: "Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship."
+- title: "The Truth About Sunscreens: What You Really Need to Know"
+  creator: "Dr. Caroline Robinson"
+  creator_slug: caroline-robinson
+  credential: "Board-certified dermatologist"
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=qzSgM_6lw3M
+  posted: '2025-09-17'
+  related: [zinc-oxide, titanium-dioxide, avobenzone, hyperpigmentation]
+  thesis: "Board-certified dermatologist Dr. Caroline Robinson explains how sunscreen filters work, recommending a minimum SPF 30 (about 97% UVB protection) and noting SPF 50 as a reasonable ceiling since higher SPFs add little extra benefit. She distinguishes mineral filters (zinc oxide, titanium dioxide) from chemical filters like avobenzone, says she favors mineral sunscreens for sensitive, eczema-prone, or acne-prone skin, and notes that consistent sunscreen use alone has repeatedly been shown to help improve hyperpigmentation and uneven skin tone in deeper skin tones."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 name: Sunscreen (UV filters)
 slug: sunscreen-uv-filters
 status: published
