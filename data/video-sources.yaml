@@ -173,7 +173,7 @@
   channel: 'https://www.youtube.com/@TeawithMD'
   product_recs: restricted
   conflict: 'ShopMy affiliate storefront linked in nearly every video (''My Holy Grail Products''); own hair-care brand Kerativ Hair (she is Founder/CEO);'
-  last_pulled: null
+  last_pulled: '2026-08-16'
 - name: 'Stephen Alain Ko (KindofStephen)'
   creator_slug: stephen-alain-ko
   credential: 'Skincare educator'
@@ -181,7 +181,7 @@
   channel: 'https://www.youtube.com/@kindofstephen'
   product_recs: ok
   conflict: 'No affiliate storefront or own-brand line found; occasionally discloses paid/employer formulation work on specific ingredient categories (e.'
-  last_pulled: null
+  last_pulled: '2026-08-16'
 - name: 'Dr. Angelo Landriscina (DermAngelo)'
   creator_slug: angelo-landriscina
   credential: 'Board-certified dermatologist'
@@ -189,7 +189,7 @@
   channel: 'https://www.youtube.com/@DermAngelo'
   product_recs: restricted
   conflict: 'Own-brand UPF sun-protective clothing line, SOUL-A (wearsoula.com / @wearsoula), founded and promoted by him — apparel, not topical skincare'
-  last_pulled: null
+  last_pulled: '2026-08-16'
 - name: 'Dr Aamna Adel'
   creator_slug: aamna-adel
   credential: 'Consultant dermatologist'
@@ -197,7 +197,7 @@
   channel: 'https://www.youtube.com/@DrAamnaAdel'
   product_recs: restricted
   conflict: 'Founder of own-brand haircare line (Rhute); TikTok Shop affiliate/product storefront; recurring disclosed sponsored posts (No7, La Roche Pos'
-  last_pulled: null
+  last_pulled: '2026-08-16'
 - name: 'Esther Olu (The Melanin Chemist)'
   creator_slug: esther-olu
   credential: 'Cosmetic chemist'
@@ -213,15 +213,15 @@
   channel: 'https://www.youtube.com/@drlindseyzubritsky'
   product_recs: restricted
   conflict: 'Active paid spokesperson for RoC Skincare (on-air brand deal w/ discount code) + Cetaphil-sponsored content + ''all'' detergent partnership; a'
-  last_pulled: null
+  last_pulled: '2026-08-16'
 - name: 'Caroline Hirons'
   creator_slug: caroline-hirons
-  credential: 'Board-certified dermatologist'
+  credential: 'Esthetician and skincare author (NOT a dermatologist or cosmetic chemist)'
   tier: MED
   channel: 'https://www.youtube.com/channel/UCyzKg_t3tPv8Aa_7JL2xXZA'
   product_recs: restricted
   conflict: 'Founder of own-brand skincare line (Skin Rocks); recent upload mix is dominated by PR-gifted product unboxings and empties (haul-adjacent fo'
-  last_pulled: null
+  last_pulled: '2026-08-17'
 - name: 'Dr. Daniel Sugai'
   creator_slug: daniel-sugai
   credential: 'Board-certified dermatologist'
@@ -229,7 +229,7 @@
   channel: 'https://www.youtube.com/@danielsugaimd'
   product_recs: restricted
   conflict: 'Chief Medical Officer of hair-growth-serum brand REYUS; advisory-board member of Bubble Skincare; periodic disclosed paid brand partnerships'
-  last_pulled: null
+  last_pulled: '2026-08-16'
 - name: 'Jen Novakovich (The Eco Well)'
   creator_slug: jen-novakovich
   credential: 'Cosmetic scientist'
@@ -237,7 +237,7 @@
   channel: 'https://www.youtube.com/@TheEcoWell'
   product_recs: ok
   conflict: 'Runs a paid cosmetics-industry consulting/science-communication practice (BeautySciComm, e-summits, mentorship cohorts) and is Patreon-suppo'
-  last_pulled: null
+  last_pulled: '2026-08-16'
 - name: 'Dr. Usama Syed'
   creator_slug: usama-syed
   credential: 'Board-certified dermatologist'
@@ -245,7 +245,7 @@
   channel: 'https://www.youtube.com/c/DrUsamaSyed/videos'
   product_recs: restricted
   conflict: 'Affiliate product links in video descriptions; actively promotes his own paid $30/mo teledermatology subscription (FutureClinic, formerly Li'
-  last_pulled: null
+  last_pulled: '2026-08-16'
 - name: 'Dr. Alexis Stephens'
   creator_slug: alexis-stephens
   credential: 'Board-certified dermatologist'
@@ -253,7 +253,7 @@
   channel: 'https://www.youtube.com/@DrAlexisStephens'
   product_recs: restricted
   conflict: 'Recurring paid partnerships (Dermatica affiliate code "DRALEXIS" on multiple videos, La Roche-Posay branded partner content, SkinBetter Scie'
-  last_pulled: null
+  last_pulled: '2026-08-16'
 
 # --- Added 2026-08-16 via tiktok-intake (TikTok-primary, transcript-verified) ---
 - name: ''
