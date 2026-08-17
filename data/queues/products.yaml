@@ -1368,7 +1368,7 @@
 - name: Naturium Multi-Peptide Advanced Moisturizer
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: best-peptide-serums
   source: A multi-peptide + niacinamide moisturizer; extends peptide-product coverage
     and the best-peptide-serums list. https://www.naturium.com/products/multi-peptide-advanced-moisturizer
@@ -1711,3 +1711,15 @@
   status: pending
   discovered_from: 'ROSACEA hub: redness-prone-skin serum; ties to rosacea + niacinamide'
   source: https://www.laroche-posay.us/our-products/sensitive-allergic-skin/redness-prone-skin/rosaliac-ar-intense-visible-redness-reducing-serum
+- name: Naturium Multi-Peptide Moisturizer
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://naturium.com
+- name: Naturium Multi-Peptide Advanced Serum
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://naturium.com
