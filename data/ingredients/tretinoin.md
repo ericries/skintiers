@@ -28,6 +28,17 @@ videos:
   related: [retinol, adapalene]
   thesis: "Skincare educator Hyram Yarbro (Skincare by Hyram), who states he is not a dermatologist or chemist and that his tips do not override a prescriber's advice, shares consensus how-to-use guidance for prescription tretinoin from years of his own use: build up gradually by starting with over-the-counter retinol or adapalene before tretinoin, expect an 8 to 12 week purging period of dryness and irritation, and pair it with a rich moisturizer. For sensitive skin he suggests applying moisturizer as a base first and the tretinoin over the top to buffer its strength, and he warns against mixing tretinoin into a moisturizer or adding other active ingredients until months into use."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship. Non-credentialed educator sharing his own experience, not medical advice or a product endorsement; his own-brand product mention is excluded."
+- title: "How To Use Tretinoin Like A Dermatologist"
+  creator: ""
+  creator_slug: lindsey-zubritsky
+  credential: ""
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=NN9XEzy-WSo
+  posted: '2026-06-02'
+  related: []
+  thesis: "Board-certified dermatologist Dr. Lindsey Zubritsky (DermGuru) walks through the correct application technique for tretinoin, a prescription retinoid: apply it to fully dry skin, protect the nose, lips, and eye area with petroleum jelly, use only a pea-sized amount spread evenly over the face and down the neck, and finish by moisturizing again using the 'sandwich method' (moisturizer, tretinoin, moisturizer) to reduce irritation. She notes applying moisturizer before tretinoin first is optional."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+
 ---
 
 Tretinoin is all-trans retinoic acid, the direct, receptor-active form of vitamin A and a prescription-only topical drug. Unlike over-the-counter [[retinol]] (a precursor the skin must enzymatically convert to reach this same molecule), tretinoin binds retinoic acid receptors directly, which is why it is the trial-validated benchmark against which milder retinoids are measured.[^4] It has two well-studied uses with genuinely different evidence, so this profile grades each separately: photoaging and acne. Its reputation runs ahead of its data in one specific way: it improves skin rather than reversing aging, and even the FDA label says so.[^4]

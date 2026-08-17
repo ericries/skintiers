@@ -36,6 +36,17 @@ videos:
   thesis: "Licensed esthetician Ella (@your.estie.ella) recommends copper peptide serums for different skin types and budgets: the InnBeauty Project Elastic Skin Peptide as an all-round pick she has used for years, Biossance Squalane and Copper Peptides for dry or compromised skin because the added squalane brings extra hydration and barrier support, the more affordable Remedy Skin copper peptides for normal-to-oily skin, and multi-peptide options from Medik8 and Geek and Gorgeous. She frames copper peptides as a barrier-support and brightening adjunct rather than a single best product, and stresses the right choice depends on your own skin."
   related: [medik8, squalane, anti-aging, skin-barrier-repair]
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship. Non-sponsored favorites video from a credibility-vetted creator."
+- title: "Best Peptides for Anti-aging, Skin Brightening & Barrier Repair"
+  creator: ""
+  creator_slug: alexis-stephens
+  credential: ""
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=_tdqQ7t4CHc
+  posted: '2022-07-04'
+  related: [copper-peptides, argireline-acetyl-hexapeptide-8, hyaluronic-acid, vitamin-c, retinol]
+  thesis: "Board-certified dermatologist Dr. Alexis Stephens breaks peptides down into five functional categories for skincare: signaling peptides (like matrixyl/pentapeptide-4) that stimulate collagen, elastin, or hyaluronic acid; neurotransmitter-inhibiting peptides such as argireline (acetyl hexapeptide-8) that softly reduce facial muscle movement; carrier peptides like copper peptides that transport trace elements into the skin; enzyme-inhibiting peptides that curb tyrosinase for brightening; and antimicrobial peptides. She advises choosing a peptide-containing product for the specific benefit you want rather than assuming all peptides do the same thing, and stresses that peptides should supplement, not replace, a daily vitamin C and nighttime retinoid."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+
 ---
 
 Cosmetic peptides are short chains of amino acids added to skincare, usually to signal collagen production, relax expression lines, or carry trace metals, and marketed mainly as anti-aging actives whose measured effect on the look of aging is modest and mostly preliminary. Because the evidence differs sharply by the type of peptide, this profile grades them by class rather than as one ingredient.

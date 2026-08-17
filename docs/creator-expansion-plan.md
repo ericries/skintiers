@@ -6,10 +6,19 @@ videos that **cite specific studies** or **suggest specific routines** — turni
 Feed into a research-intake engine, not a link dump.
 
 Settled decisions (user, 2026-08-16):
-- **Platforms:** YouTube + TikTok/Instagram. YouTube is transcript-verifiable (our
-  `yt_transcript.py` pipeline), so it stays the backbone for CARDS; TikTok/IG creators
-  are still vetted and rostered, but a card only ships when its claim is verifiable
-  (auto-captions / on-screen text / caption). No transcript, no load-bearing claim.
+- **Platforms:** YouTube + TikTok/Instagram. YouTube via `yt_transcript.py`; **TikTok now
+  works via `scripts/tiktok_transcript.py`** (yt-dlp exposes eng VTT captions), so
+  TikTok-primary creators ARE cardable (transcript-verified) — this unlocked the credible
+  derms we'd rostered/rejected for lacking YouTube (Hirsch, Fahs, Esther Olu, Wedgeworth,
+  Mamina). Instagram remains pending (yt-dlp IG support is flaky/auth-gated). No transcript,
+  no load-bearing claim, on any platform.
+- **COI policy (user, 2026-08-16):** a "worked-on-it" product COI (a creator helped
+  formulate a product they recommend) is NOT a blanket disqualifier. Such a creator can be
+  rostered (product_recs: restricted, COI in `conflict`); their endorsement of THAT product
+  is usable ONLY on that product's own page WITH context, never elsewhere. General
+  educational content from them is fine. Reject only for pseudoscience, unverifiability, or
+  heavy undisclosed sponsorship. (This rehabilitated Mamina Turegano, first rejected for a
+  Beauty Pie retinoid COI.)
 - **Roster additions:** AUTO-ADD any candidate that passes the rubric (no per-creator
   human gate). The rubric IS the gate, so it is conservative: **reject when uncertain.**
   Every decision (added AND rejected, with reason) is logged to

@@ -138,6 +138,36 @@ videos:
   related: [hyperpigmentation, melasma, eltamd-uv-clear-spf-46, la-roche-posay-anthelios-uvmune-400-spf-50]
   thesis: "Board-certified dermatologist Dr. Alexis Stephens runs through ten common sunscreen mistakes, including underestimating the SPF 7 to 10 natural protection of melanin-rich skin, applying too little product (she recommends two to three finger-lengths for the face and neck), skipping daily and cloudy-day use, forgetting to reapply every two hours during direct sun exposure, and using expired sunscreen or improperly storing it outside its original packaging. She stresses matching sunscreen texture and filter type (mineral vs. chemical) to skin type and concern, since a sunscreen you dislike wearing will not get worn consistently, and flags visible-light and UVA protection as especially relevant for hyperpigmentation and melasma."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: "Let’s talk about #jbeauty #japanesesunscreen and why we desperately need better filters and more"
+  creator: ""
+  creator_slug: joyce-park
+  credential: ""
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=DU7DijoSfNo
+  posted: '2024-10-02'
+  related: []
+  thesis: "Board-certified dermatologist Dr. Joyce Park (Tea with MD) explains why she prefers Asian (Japanese and Korean) sunscreens over most US options: the FDA has not approved a new UV filter since the 1990s, leaving Americans with filters like avobenzone (unstable, needs pairing with octocrylene) and oxybenzone (fallen out of favor), while countries like Japan and Korea use newer filters with broader, more stable UVA coverage and less white cast. She notes the 2014 Sunscreen Innovation Act was meant to speed up FDA approval but has not led to meaningfully faster filter approvals, and that Asian sunscreen formulas tend to feel more cosmetically elegant, like a moisturizer, encouraging more consistent daily use."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: "5 More Must-See Sunscreens"
+  creator: ""
+  creator_slug: angelo-landriscina
+  credential: ""
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=npsEAr_ONPo
+  posted: '2025-07-07'
+  related: []
+  thesis: "Board-certified dermatologist Dr. Angelo Landriscina (DermAngelo) reviews five more sunscreens as part of his annual SPF roundup series, covering both chemical and mineral formulas. He notes that chemical (organic) sunscreen filters can still work well for sensitive skin, pointing to a hydrating chemical formula with colloidal oatmeal as a good option for reactive skin, and contrasts several moisturizing chemical formulas against a mineral option that left a white cast."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: "MORE SUNSCREENS"
+  creator: ""
+  creator_slug: angelo-landriscina
+  credential: ""
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=lJKqyC7axDU
+  posted: '2025-06-22'
+  related: []
+  thesis: "Board-certified dermatologist Dr. Angelo Landriscina (DermAngelo) reviews five more sunscreens in his ongoing SPF series, discussing mineral, chemical, and hybrid (mixed mineral/chemical) formulas. He explains why zinc oxide mineral sunscreens will generally leave some white cast on non-pale skin regardless of marketing claims, and highlights the tradeoffs of tinted mineral sunscreens versus lighter chemical or hybrid options for daily wear."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 name: Sunscreen (UV filters)
 slug: sunscreen-uv-filters
 status: published

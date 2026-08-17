@@ -32,6 +32,17 @@ videos:
   posted: '2025-10-14'
   thesis: "Board-certified dermatologist Dr. Scott Walter runs through three newer non-steroidal prescription creams for eczema (atopic dermatitis): tapinarof (Vtama), ruxolitinib (Opzelura), and roflumilast (Zoryve), explaining that they calm the inflammation of eczema through different mechanisms than steroids do. He notes topical steroids remain effective but that incorrect long-term use can cause skin thinning, discoloration, or a withdrawal reaction, which is part of why some patients look for alternatives. He cautions that because these options are new to market they can be expensive and often require insurance prior authorization."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: "How To Treat Eczema (Dermatologist Explains)"
+  creator: ""
+  creator_slug: usama-syed
+  credential: ""
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=f_sMpdifzVc
+  posted: '2022-04-14'
+  related: []
+  thesis: "Board-certified dermatologist Dr. Usama Syed explains that eczema results from an impaired skin barrier that lets moisture escape, and walks through treatment tiers starting with moisturizers, humidifiers, and shorter cooler showers, then topical steroids ranging from over-the-counter hydrocortisone to prescription-strength options, non-steroid creams like tacrolimus and crisaborole ointments, and phototherapy. He also covers the biologic dupilumab, given as an at-home injection every two weeks for more severe eczema, and newer oral JAK inhibitor medications for resistant cases."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+
 ---
 
 Atopic dermatitis, the form of eczema meant when people say "eczema" without qualification, is a chronic, intensely itchy inflammatory skin disease that relapses and remits over years and has no cure, where treatment "at best achieves symptom control rather than cure."[^nutten2015] The American Academy of Dermatology guideline describes it as "a chronic, pruritic inflammatory dermatosis that affects up to 25% of children and 2% to 3% of adults."[^eichenfield2014] Among **topical skincare** options for atopic dermatitis, the intervention with the strongest evidence is plain moisturizing, which reduces flares and the amount of prescription steroid needed rather than clearing the disease, and no moisturizer has been shown to beat another.[^cochrane2017]

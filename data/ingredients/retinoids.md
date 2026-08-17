@@ -52,6 +52,26 @@ videos:
   related: [differin-adapalene-0-1-gel, la-roche-posay-effaclar-adapalene-gel-0-1, neutrogena-rapid-wrinkle-repair-retinol-serum, acne, hyperpigmentation, anti-aging]
   thesis: "Board-certified dermatologist Dr. Usama Syed explains that retinoids, the umbrella term for vitamin A derivatives like retinol, retinaldehyde, and prescription retinoic acids, boost collagen and elastic fiber formation (citing a biopsy study comparing topical retinoid use to placebo), disperse pigment clusters to fade dark spots, reduce sebum to help acne, and can even prompt early skin cancer cells to die or differentiate. He warns retinoids are unsafe in pregnancy and commonly cause dryness and peeling at first, so he advises starting low (every other night, a pea-sized amount mixed with moisturizer) and going slow, and names adapalene 0.1% gel (Differin, or the La Roche-Posay version) as his top over-the-counter pick, with Neutrogena's retinol serum as a gentler alternative."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: "How to Apply Retinol on Skin - Derm Guide to Reduce Irritation | Achieve The Best Results"
+  creator: ""
+  creator_slug: adeline-kikam
+  credential: ""
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=CHKd5MSx7Uc
+  posted: '2022-05-22'
+  related: [retinol, tretinoin]
+  thesis: "Board-certified dermatologist Dr. Adeline Kikam (Brown Skin Derm) demonstrates two ways to apply topical retinoids (including retinol and prescription tretinoin) while minimizing irritation: the sandwich method, where the retinoid is layered between a hydrating serum and a moisturizer applied before and after it, and the short contact method, where the retinoid is left on for a few minutes before being rinsed off like a mask. She emphasizes using only a pea sized amount, prepping skin with a gentle cleanser and hydrating serum first, and following with a rich moisturizer to keep the routine tolerable enough to use consistently."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: "The Best Retinoids for Beginners (Before You Try Tretinoin)"
+  creator: ""
+  creator_slug: daniel-sugai
+  credential: ""
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=cI_PufUSyUM
+  posted: '2026-05-16'
+  related: [retinol, tretinoin, olay-regenerist-retinol24-night-serum, la-roche-posay-retinol-b3-serum]
+  thesis: "Board-certified dermatologist Dr. Daniel Sugai explains that people with sensitive skin should not jump straight into prescription tretinoin, since that often causes irritation within the first three weeks and leads them to quit. He recommends starting with over-the-counter retinol, progressing to a retinaldehyde once tolerated, and only then moving to prescription tretinoin, applying two to three times a week at first, always moisturizing afterward, and wearing sunscreen daily while using a retinoid."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 name: Retinoids
 slug: retinoids
 status: published

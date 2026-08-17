@@ -6,6 +6,18 @@ slug: sulfur
 status: published
 type: ingredient
 updated: '2026-08-08'
+videos:
+- title: "The 1 Ingredient That Does It All — From A Derm"
+  creator: ""
+  creator_slug: lindsey-zubritsky
+  credential: ""
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=FWRgQLdHPeQ
+  posted: '2026-05-15'
+  related: [acne, rosacea, perioral-dermatitis]
+  thesis: "Board-certified dermatologist Dr. Lindsey Zubritsky (DermGuru) makes the case for sulfur as an underused, multipurpose skincare ingredient. She describes it as an antimicrobial and gentle exfoliant that clears texture and unclogs pores, useful as a spot treatment for breakouts and acne-prone comedones, and notes it can help calm inflammation and redness in conditions like rosacea and perioral dermatitis (which she says she personally has). She also suggests an overnight sulfur mask to help minimize sebaceous filaments on the nose, while noting the ingredient can have a sulfurous smell."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+
 ---
 
 Sulfur is one of dermatology's oldest topical treatments, an elemental mineral valued for keratolytic, antibacterial, and antifungal activity and used historically in acne, rosacea, seborrheic dermatitis, dandruff, and pityriasis versicolor, alone or combined with agents such as sodium sulfacetamide or salicylic acid.[^guptanicol] Its modern controlled-trial base is thin and concentrated on the sodium sulfacetamide/sulfur combination for rosacea; for acne it has not been tested against benzoyl peroxide or the retinoids head to head, and a 2020 evidence review of topical acne treatments called its effect uncertain.

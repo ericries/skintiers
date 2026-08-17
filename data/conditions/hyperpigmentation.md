@@ -98,6 +98,36 @@ videos:
   related: [lactic-acid, glycolic-acid, amlactin-daily-moisturizing-lotion-12-lactic-acid]
   thesis: "Board-certified dermatologist Dr. Adeline Kikam (Brown Skin Derm) explains causes of hyperpigmentation in the genital and inner-thigh area, noting it is often normal in people of color but can also signal conditions like acanthosis nigricans (a velvety darkening that can be a warning sign of insulin resistance or obesity) or chafing from skin friction. To improve the appearance of the discoloration she points to over-the-counter exfoliants such as 12 percent lactic acid (for example AmLactin) and alpha hydroxy acids, while stressing that identifying the underlying cause comes first."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: "What Causes Dark Spots On Skin?"
+  creator: ""
+  creator_slug: usama-syed
+  credential: ""
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=Ea6D1vxbdhk
+  posted: '2020-12-18'
+  related: [melasma]
+  thesis: "Board-certified dermatologist Dr. Usama Syed explains hyperpigmentation (dark spots on skin) as an overproduction of melanin by melanocytes, most commonly triggered by post-inflammatory hyperpigmentation from acne, scratching, or irritation. He also discusses melasma, most often seen in women in their 30s and 40s and linked to hormones and sun exposure, plus acanthosis nigricans linked to insulin resistance, and stresses that sun exposure and ongoing skin inflammation both worsen and prolong dark spots regardless of the underlying cause."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: "Derm Rates Skincare For Dark Spots"
+  creator: ""
+  creator_slug: lindsey-zubritsky
+  credential: ""
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=zqhWwSRoOMU
+  posted: '2026-07-09'
+  related: [tretinoin, hydroquinone, azelaic-acid, niacinamide, vitamin-c]
+  thesis: "Board-certified dermatologist Dr. Lindsey Zubritsky (DermGuru) rates common ingredients and habits for treating dark spots (hyperpigmentation). She rates hydroquinone and tretinoin as top performers for eliminating pigmentation, calls azelaic acid an 'overachiever' for dark spots and red marks, and rates thiamidol as a targeted melanin-specific option; she rates niacinamide and vitamin C as only supportive rather than primary treatments, and warns that lemon juice and physical scrubs can worsen dark spots by irritating and damaging the skin barrier, while charcoal does nothing for pigment. She also stresses that daily tinted sunscreen is essential, since skipping it undermines every other treatment."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: "How to ACTUALLY Fix Dark Spots (Dermatologist No-BS Guide)"
+  creator: ""
+  creator_slug: daniel-sugai
+  credential: ""
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=ri4VQ79mNPY
+  posted: '2026-02-28'
+  related: [melasma, la-roche-posay-mela-b3-serum]
+  thesis: "Board-certified dermatologist Dr. Daniel Sugai explains that common over-the-counter ingredients for hyperpigmentation and melasma, such as alpha arbutin, kojic acid, and tranexamic acid, often produce only modest results on their own. He highlights his interest in thiamidol, used in Eucerin's Radiant Tone line, as a tyrosinase inhibitor that can help avoid the rebound pigmentation seen when stopping hydroquinone, while cautioning that consistent use for eight to twelve weeks, and sometimes three to four months, is needed before improvement is visible."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 
 ---
 

@@ -27,6 +27,46 @@ videos:
   thesis: "Board-certified dermatologist Dr. Sam Bunting explains why adult acne, especially in women over 35, needs a different approach than teenage acne: drier, more reactive skin means the old habit of drying spots out with harsh cleansers and stacking many actives damages the skin barrier and makes breakouts worse. Her framework puts a supportive routine first, a gentle cleanser, a moisturizer, and a daily sunscreen, then a small consistent set of actives, azelaic acid in the morning and a retinoid at night, keeping benzoyl peroxide or salicylic acid for the occasional spot. She stresses treating the whole zone consistently rather than dabbing individual spots as they appear, and building up slowly, since adult acne responds to consistency rather than intensity."
   related: [azelaic-acid, retinoids, benzoyl-peroxide, salicylic-acid, skin-barrier-repair, niacinamide]
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: "Body Acne Treatment | Get rid of Body Acne | Derm Guide for Body Acne and blemishes"
+  creator: ""
+  creator_slug: adeline-kikam
+  credential: ""
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=Efdvq8ptkmA
+  posted: '2022-06-18'
+  related: []
+  thesis: "Board-certified dermatologist Dr. Adeline Kikam (Brown Skin Derm) explains that body acne on the chest and back shares the same root causes as facial acne, excess oil and dead skin clogging pores plus bacterial colonization, but is often worsened by tight clothing, sweat, stress-driven cortisol, and certain hair or grooming products. She recommends daily showers after sweating, gentle chemical exfoliation with ingredients like salicylic acid, glycolic acid, lactic acid, or benzoyl peroxide, avoiding picking at lesions to prevent scarring and dark spots, and seeing a dermatologist if breakouts do not improve since body acne can be confused with folliculitis."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: "99% Overlook These Effective Acne Treatments – 2025 Guide"
+  creator: ""
+  creator_slug: usama-syed
+  credential: ""
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=y5d_iIgH3Pc
+  posted: '2023-07-05'
+  related: [retinoids, salicylic-acid, benzoyl-peroxide, niacinamide, azelaic-acid]
+  thesis: "Board-certified dermatologist Dr. Usama Syed covers acne treatment across lifestyle, over-the-counter, and prescription tiers, explaining how blocked oil glands and P. acnes bacteria drive breakouts. He highlights salicylic acid and benzoyl peroxide as classic over-the-counter actives, calls retinoids the ingredient he is most enthusiastic about for acne because they work across the entire acne pathway, and also names niacinamide and azelaic acid as helpful secondary options before discussing prescription retinoids, oral antibiotics, hormonal treatments, and isotretinoin (Accutane) for more severe cases."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: "3 Ways To Fix Bacne — From A Derm"
+  creator: ""
+  creator_slug: lindsey-zubritsky
+  credential: ""
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=OMwRjoDwJ5M
+  posted: '2026-06-22'
+  related: [benzoyl-peroxide, salicylic-acid, adapalene]
+  thesis: "Board-certified dermatologist Dr. Lindsey Zubritsky (DermGuru) shares three drugstore-accessible ways to treat back acne (bacne). She recommends benzoyl peroxide left on for five minutes in the shower several times a week (using an old or white towel to dry off, since it can bleach fabric), a salicylic acid or hypochlorous acid spray to use after sweaty workouts to reduce acne-causing bacteria, and adapalene gel (a retinoid) applied in a pea-sized amount to the back, while cautioning against scrubbing acne-prone skin."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: "Will Brazil nuts cure your acne?"
+  creator: ""
+  creator_slug: angelo-landriscina
+  credential: ""
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=trlgLsWAYsY
+  posted: '2025-11-01'
+  related: []
+  thesis: "Board-certified dermatologist Dr. Angelo Landriscina (DermAngelo) examines the viral claim that eating Brazil nuts (a source of selenium) can clear acne and heal acne scars, and concludes the evidence does not support it. He walks through a case-control study that found lower average blood selenium in acne patients but no statistically significant difference in selenium deficiency rates, and a small, ethically flagged supplementation study, arguing that correlation between selenium and acne does not establish selenium as a therapeutic target."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 tier_list:
   title: "Acne topical actives by evidence"
   by: "strength of the evidence for treating acne — several of these are clinically similar, so the tiers track evidence certainty, not effect size alone"

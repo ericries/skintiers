@@ -6,6 +6,18 @@ slug: benzoyl-peroxide
 status: published
 type: ingredient
 updated: '2026-07-27'
+videos:
+- title: "Is CeraVe Benzoyl Peroxide Dangerous? Dermatologist Explains the Benzene Lawsuit"
+  creator: ""
+  creator_slug: daniel-sugai
+  credential: ""
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=QeHkL6DLWeg
+  posted: '2026-06-27'
+  related: []
+  thesis: "Board-certified dermatologist Dr. Daniel Sugai addresses viral claims that benzoyl peroxide acne products, including CeraVe's, degrade into the carcinogen benzene, pointing out that CeraVe was not on the FDA's recall list after its follow-up study found more than 90% of tested products had undetectable or very low benzene levels. He cites retrospective clinical studies finding no association between benzoyl peroxide use and increased cancer risk or elevated blood benzene, while still advising patients to store products at room temperature away from heat and direct sunlight and to avoid using expired benzoyl peroxide."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+
 ---
 
 Benzoyl peroxide (BPO) is a topical oxidizing agent that releases reactive oxygen radicals, killing *Cutibacterium acnes* (formerly *Propionibacterium acnes*) on contact.[^3][^4] It is sold both over-the-counter and by prescription, and it is one of the oldest and most universally recommended first-line acne treatments. It has a distinctive property: no bacterial resistance to it has been documented, and it suppresses the emergence of antibiotic resistance when co-formulated with a topical antibiotic.[^4][^5] By GRADE, the certainty of its efficacy evidence is low, and its clinical effect is modest.[^1]

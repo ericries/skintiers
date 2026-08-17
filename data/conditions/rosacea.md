@@ -34,6 +34,18 @@ tier_list:
     - slug: niacinamide
       tier: weak
       note: "Barrier support and anti-inflammatory effects make it a reasonable adjunct, but rosacea-specific evidence is limited; it calms and supports rather than treats the disease."
+videos:
+- title: "Struggling with Rosacea? Here Are the Best Treatments for 2025"
+  creator: ""
+  creator_slug: usama-syed
+  credential: ""
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=iDgHqa_MI0Q
+  posted: '2023-08-23'
+  related: [azelaic-acid]
+  thesis: "Board-certified dermatologist Dr. Usama Syed walks through rosacea treatment in tiers: lifestyle changes (physical sunscreen with zinc or titanium, avoiding spicy food, cold weather, and other flare triggers), over-the-counter options, prescription creams, and procedures. He singles out azelaic acid as a standout ingredient for rosacea because it is anti-inflammatory, reduces redness, and is safe in pregnancy, and warns against physical or chemical exfoliants, benzoyl peroxide, and unmodified retinoids since they can irritate rosacea-prone skin."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+
 ---
 
 Rosacea is a chronic inflammatory condition of the central face, described in the Cochrane systematic review as "a common chronic skin condition affecting the face" whose features include flushing, persistent redness, visible blood vessels, and inflammatory bumps.[^cochrane2015] It relapses and remits over years, it clusters on the cheeks, nose, chin, and forehead, and it has no cure: the treatments with the best evidence reduce specific features rather than resolve the disease, and which treatment fits is decided by which features a person actually has.[^vanzuuren2019][^schaller2017] This page maps the condition at a high level. The deep clinical and treatment detail lives on the subtype pages linked below.

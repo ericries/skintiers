@@ -42,6 +42,18 @@ tier_list:
   title: Topical treatments for keratosis pilaris, by evidence
 type: condition
 updated: '2026-08-11'
+videos:
+- title: "How to Get Rid of Textured, Bumpy, Rough Skin | Keratosis Pilaris"
+  creator: ""
+  creator_slug: alexis-stephens
+  credential: ""
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=HIDjggeMX9Y
+  posted: '2022-06-11'
+  related: [lactic-acid, salicylic-acid, urea, retinoids, retinol, cerave-sa-body-lotion-for-rough-and-bumpy-skin]
+  thesis: "Board-certified dermatologist Dr. Alexis Stephens explains that keratosis pilaris is a genetic, chronic dry-skin condition caused by a buildup of keratin plugging the hair follicles, giving skin a rough, bumpy texture on the arms, legs, or cheeks. She recommends lukewarm (not hot) showers, immediate moisturizing on damp skin, and chemical exfoliants such as lactic acid, salicylic acid, and retinoid-containing products two to three times a week, paired daily with urea- and glycerin-based moisturizers to rebuild the skin barrier."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+
 ---
 
 Keratosis pilaris is a common, benign skin condition in which small, rough plugs of keratin form inside hair follicles, giving the skin a stippled, bumpy texture that some call chicken skin.[^statpearls] It shows up most on the outer upper arms, thighs, cheeks, and buttocks.[^poskitt][^statpearls] The plugging is a follicular keratinization problem rather than the inflamed, bacteria-driven comedones of [[acne]], and StatPearls lists acne vulgaris among the look-alikes clinicians rule out when diagnosing it.[^statpearls] It runs in families in a meaningful share of cases, is linked to dry skin and atopic conditions, and is medically harmless.[^poskitt][^statpearls]
