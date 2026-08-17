@@ -17,6 +17,17 @@ videos:
   posted: '2026-03-04'
   thesis: "The widely repeated claim that hyaluronic acid holds 1,000 times its weight in water (or 6 litres per gram) traces back to an unreferenced 'fun fact' in a Cosmetic Ingredient Review safety assessment's introduction, not to actual data, according to cosmetic chemist Michelle Wong (PhD). A 2024 paper that tried to verify the claim experimentally found no detectable binding at that scale and calculated that hyaluronic acid actually holds roughly 40 to 85 percent of its own weight in water. Wong also notes that The Ordinary's own clinical test found its hyaluronic acid serum worked about the same on damp versus dry skin, since hydrogen bonding only acts over very short distances."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship, and the video explicitly says so."
+- title: "Are Collagen Masks Worth The Hype?! Dermatologist Explains"
+  creator: ""
+  creator_slug: 
+  credential: ""
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=k09F-ZHctGg
+  posted: '2024-08-04'
+  related: [glass-skin]
+  thesis: "Consultant dermatologist Dr Aamna Adel reviews the viral Korean overnight hydrogel collagen mask, explaining that its collagen molecule is too large to be absorbed into skin and will not stimulate the body's own collagen production, contrary to brand claims about pores and elasticity. She notes the mask's real benefit is hydration from its low molecular weight collagen and hyaluronic acid content, and advises against it for active acne or very sensitive skin due to the irritation risk from prolonged occlusion."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+
 ---
 
 Hyaluronic acid is a large sugar molecule (a polysaccharide) found throughout the human body, including the skin and soft tissue, where it binds and holds water, and in skincare it is used topically as a humectant in serums and moisturizers.[^voigt][^papakon]

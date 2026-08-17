@@ -88,6 +88,56 @@ videos:
   thesis: "Board-certified dermatologist Dr. Dustin Portela walks through five sunscreen myths spreading on social media, including the claims that sunscreen causes melanoma, blocks vitamin D, and contains toxic chemical ingredients. He explains that historical melanoma rate increases track with rising sun exposure and tanning-bed use rather than sunscreen adoption, that a suntan itself only offers roughly SPF 3 to 4 worth of protection, and that the FDA's 2019 study on chemical filter absorption found the filters can enter the bloodstream but showed no evidence of harm. He argues that consistent broad-spectrum SPF 30 or higher remains the best-supported prevention tool."
   related: ["zinc-oxide", "titanium-dioxide"]
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: "She ate WHAT???"
+  creator: ""
+  creator_slug: 
+  credential: ""
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=a8tvfhu3Lj0
+  posted: '2026-06-28'
+  related: []
+  thesis: "Board-certified dermatologist Dr. Angelo Landriscina (DermAngelo) reacts to a carnivore-diet creator's claim that cutting seed oils and animal fat-only eating stopped her sunburns, let her tan almost immediately, and meant she could quit sunscreen. He counters that tanning itself is a sign of UV damage even without burning, and that itchy sun rashes some people get can be polymorphous light eruption, which tends to \"harden\" and become less reactive with repeated sun exposure regardless of diet, so he does not think dropping sunscreen is a good strategy for anyone. He also flags the video's bone broth \"beauty food\" claim, noting only hydrolyzed collagen (not bone broth) has any early supporting data for skin hydration."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: "How much sunscreen do you need to use? Use a sheetmask to find out!"
+  creator: ""
+  creator_slug: 
+  credential: ""
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=5M507sXhcmg
+  posted: '2020-02-22'
+  related: []
+  thesis: "Skincare educator Stephen Alain Ko (KindofStephen) explains that most people apply far less sunscreen than the 2 milligrams per square centimeter standard used in official SPF testing, which can cut real-world protection roughly in half or more. He shows a DIY method using a sheet mask to measure your face's actual surface area (folding it, measuring width and height, and applying the oval area formula) to calculate a personalized sunscreen dose in milliliters, rather than relying on generic estimates like the \"quarter teaspoon\" rule."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: "Was it all a lie? The dangers of sun exposure."
+  creator: ""
+  creator_slug: 
+  credential: ""
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=hSnqMHuUhns
+  posted: '2026-03-17'
+  related: []
+  thesis: "Board-certified dermatologist Dr. Angelo Landriscina (DermAngelo) fact-checks a viral social media claim that a \"new study\" proves sun exposure advice and the skin cancer link have all been wrong. He shows the source is actually a 2024 BJD opinion piece by Richard Weller arguing UV is not the major driver of melanoma mortality specifically in white UK populations, and walks through why its correlational data (reduced all-cause mortality, vitamin D links, rising melanoma incidence without rising mortality) does not prove sun exposure is safe, noting confounders like wealth, overdiagnosis, and better melanoma treatment, and that the piece says nothing about basal cell or squamous cell carcinoma, the more common skin cancers."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: "Beauty's Snowballing Misinformation Problem"
+  creator: ""
+  creator_slug: 
+  credential: ""
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=ykvc8GS6Qmc
+  posted: '2026-05-14'
+  related: [zinc-oxide, titanium-dioxide, avobenzone]
+  thesis: "Cosmetic scientist Jen Novakovich (The Eco Well) traces how cosmetics misinformation snowballs, using the 2015 \"reef safe\" sunscreen panic as a case study: a widely criticized coral-bleaching study led brands and NGOs to promote mineral filters as environmentally superior, even though the same mineral filters cause bleaching at the same extreme test doses and blind testing shows consumers prefer chemical filters, meaning fear-driven mineral-only choices can mean under-application, more white cast avoidance, and potentially less sun protection. She argues the same fear-marketing cycle (SLS-free, paraben-free claims, EWG's Skin Deep database) rewards sensational, unvetted claims over accurate science communication."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: "Stop making these sunscreen mistakes, says dermatologist"
+  creator: ""
+  creator_slug: 
+  credential: ""
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=pnQcCw1muRE
+  posted: '2023-07-21'
+  related: [hyperpigmentation, melasma, eltamd-uv-clear-spf-46, la-roche-posay-anthelios-uvmune-400-spf-50]
+  thesis: "Board-certified dermatologist Dr. Alexis Stephens runs through ten common sunscreen mistakes, including underestimating the SPF 7 to 10 natural protection of melanin-rich skin, applying too little product (she recommends two to three finger-lengths for the face and neck), skipping daily and cloudy-day use, forgetting to reapply every two hours during direct sun exposure, and using expired sunscreen or improperly storing it outside its original packaging. She stresses matching sunscreen texture and filter type (mineral vs. chemical) to skin type and concern, since a sunscreen you dislike wearing will not get worn consistently, and flags visible-light and UVA protection as especially relevant for hyperpigmentation and melasma."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 name: Sunscreen (UV filters)
 slug: sunscreen-uv-filters
 status: published

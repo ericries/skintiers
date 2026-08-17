@@ -37,6 +37,17 @@ videos:
   thesis: "Board-certified dermatologist Dr. Dustin Portela breaks down why he considers azelaic acid one of the most versatile ingredients in his practice, using it to treat acne, rosacea, melasma, and post-inflammatory hyperpigmentation in the same patients. He walks through the four mechanisms behind the ingredient, including its antibacterial and anti-inflammatory effects, and explains why he considers it one of the few topical options he is comfortable recommending during pregnancy."
   related: ["rosacea", "acne", "melasma", "hyperpigmentation", "niacinamide"]
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: "Azelaic Acid"
+  creator: ""
+  creator_slug: 
+  credential: ""
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=t_w1BTQI7T0
+  posted: '2020-08-18'
+  related: [hyperpigmentation, melasma, acne, rosacea]
+  thesis: "Board-certified dermatologist Dr. Alexis Stephens explains why azelaic acid is her go-to ingredient for hyperpigmentation, describing it as a tyrosinase inhibitor that curbs overactive melanin production while also being bactericidal against acne-causing bacteria, keratolytic, and anti-inflammatory, which makes it useful for melasma, post-inflammatory hyperpigmentation, acne, and rosacea. She says it is not photosensitizing so she applies it in the morning, notes it is safe during pregnancy and nursing, and states that at 20 percent (prescription-strength) it is comparably effective to hydroquinone for treating hyperpigmentation and melasma, while over-the-counter versions are available from brands like The Ordinary, Paula's Choice, and Glytone."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+
 ---
 
 Azelaic acid is a saturated dicarboxylic acid used topically at 15% (gel/foam) and 20% (cream), FDA-approved for rosacea (15% gel) and inflammatory acne (20% cream); azelaic acid was first approved by the FDA in 1995.[^4][^8] Its evidence base is unusually good for a dermatologic topical, but the grade depends entirely on **what you are using it for**, and each use is graded separately below.

@@ -42,6 +42,16 @@ videos:
   thesis: "Cosmetic chemist Michelle Wong compares prescription drug retinoids like tretinoin and adapalene against cosmetic retinoids like retinol, explaining that drug retinoids benefit from regulatory testing that guarantees the final formula's efficacy, stability, and accurate labeling, advantages cosmetic retinoids generally lack. She argues cosmetic retinoids offer more flexible, better-tolerated formulas and a self-limiting conversion pathway to tretinoin that makes overuse less punishing, and cautions that compounded prescription blends from telederm companies often lose the stability and efficacy testing of both categories without gaining much in return."
   related: ["tretinoin", "adapalene", "retinol"]
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: "Why You NEED To Use A Retinoid For Your Skin (Dermatologist)"
+  creator: ""
+  creator_slug: 
+  credential: ""
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=Xxb6EIKpS3s
+  posted: '2021-07-27'
+  related: [differin-adapalene-0-1-gel, la-roche-posay-effaclar-adapalene-gel-0-1, neutrogena-rapid-wrinkle-repair-retinol-serum, acne, hyperpigmentation, anti-aging]
+  thesis: "Board-certified dermatologist Dr. Usama Syed explains that retinoids, the umbrella term for vitamin A derivatives like retinol, retinaldehyde, and prescription retinoic acids, boost collagen and elastic fiber formation (citing a biopsy study comparing topical retinoid use to placebo), disperse pigment clusters to fade dark spots, reduce sebum to help acne, and can even prompt early skin cancer cells to die or differentiate. He warns retinoids are unsafe in pregnancy and commonly cause dryness and peeling at first, so he advises starting low (every other night, a pea-sized amount mixed with moisturizer) and going slow, and names adapalene 0.1% gel (Differin, or the La Roche-Posay version) as his top over-the-counter pick, with Neutrogena's retinol serum as a gentler alternative."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 name: Retinoids
 slug: retinoids
 status: published

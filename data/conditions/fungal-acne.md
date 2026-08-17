@@ -26,6 +26,18 @@ tier_list:
     antibiotic use is itself a listed risk factor for the condition.
 type: condition
 updated: '2026-08-13'
+videos:
+- title: "Solutions For Common Skin Concerns — From A Derm"
+  creator: ""
+  creator_slug: 
+  credential: ""
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=cIldVGJyAF0
+  posted: '2026-08-15'
+  related: [vitamin-c, retinol, retinoids, salicylic-acid, sulfur, glycolic-acid, lactic-acid]
+  thesis: "Board certified dermatologist Dr. Lindsey Zubritsky (DermGuru) runs through quick, condition specific fixes in this short: ketoconazole for fungal acne, salicylic acid and sulfur for sebaceous filaments, vitamin C and retinol for dark circles, retinoids for milia, caffeine and green tea for puffy under eyes, and lactic acid plus glycolic acid for skin congestion. For fungal acne specifically, she names the antifungal ketoconazole rather than a standard acne active as her recommended treatment."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+
 ---
 
 "Fungal acne" is not acne. The name is popular shorthand for Malassezia (formerly Pityrosporum) folliculitis, an itchy eruption caused by overgrowth of the Malassezia yeast that normally lives on skin, inside hair follicles, rather than the bacterial, comedone-driven process behind [[acne]].[^saunte] It produces monomorphic, 2 to 4 mm itchy papules and papulopustules, most often on the chest, back, upper arms, neck, and face, and StatPearls describes a characteristic "cape-like distribution over the patient's shoulders, back, and neck."[^saunte][^statpearls] It is routinely mistaken for acne or bacterial folliculitis, and it does not respond to the antibiotics that treat ordinary acne because those drugs do not target yeast; StatPearls specifically flags clinical suspicion in patients diagnosed with acne "that has failed to respond or even worsened, after antibiotic treatment," and broad-spectrum antibiotic use is itself listed among the condition's predisposing factors.[^statpearls][^saunte]

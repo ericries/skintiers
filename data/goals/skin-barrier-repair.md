@@ -27,6 +27,27 @@ videos:
   thesis: "Board-certified dermatologist Dr. Sam Ellis gives her verdict on the viral caveman method of quitting skincare and even face-washing entirely, saying the idea that skipping cleansing is naturally healthier is not supported by evidence since oil, sweat, dead skin cells, and bacteria build up without it. She says a short break from an overloaded routine can let an irritated barrier calm down, but recommends replacing the caveman method with a minimal routine, a gentle cleanser and a bland moisturizer without active ingredients, rather than stopping skincare altogether, and cautions that people with eczema, rosacea, or seborrheic dermatitis should not try it at all."
   related: ["atopic-dermatitis", "rosacea"]
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: "Building A Skincare Routine For All Skin Types | Dr. Joyce Park"
+  creator: ""
+  creator_slug: 
+  credential: ""
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=KAyTvaTaS7o
+  posted: '2024-10-04'
+  related: [retinol, vitamin-c, sunscreen-uv-filters]
+  thesis: "Board-certified dermatologist Dr. Joyce Park (Tea with MD) walks through how to build a basic AM/PM skincare routine, warning that using too many products can damage the skin barrier and cause redness and irritation. She covers ordering actives (treatment step, vitamin C, moisturizer, sunscreen), introduces the \"sandwich method\" (moisturizer, then retinoid, then moisturizer) for easing sensitive or dry skin into retinoids to reduce retinoid dermatitis, and recommends a \"skin diet\" (stripping back to basics, then reintroducing one product every few days) to identify what is causing irritation."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: "Winter Skincare Swaps: How to Transition Your Routine for Dry, Cold Weather"
+  creator: ""
+  creator_slug: 
+  credential: ""
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=u557TRHEsaM
+  posted: '2025-11-21'
+  related: [ceramides, niacinamide, hyaluronic-acid, la-roche-posay-toleriane-hydrating-gentle-cleanser, skinfix-barrier-triple-lipid-peptide-cream, skin-barrier-strengthening]
+  thesis: "Board-certified dermatologist Dr. Joyce Park (Tea with MD) walks through three seasonal swaps to protect the skin barrier as cold air and indoor heating set in: switching from foaming cleansers to gentle, non-foaming ones with niacinamide, ceramides, glycerin, and hyaluronic acid (she names La Roche-Posay Toleriane Hydrating Gentle Cleanser and CeraVe Hydrating Cleanser), moving from gel moisturizers to richer ceramide creams like SkinCeuticals Triple Lipid Restore or the budget alternative Skinfix Triple Lipid Peptide Cream, and continuing daily sunscreen (favoring mineral formulas for flare-prone rosacea or eczema skin) since UV exposure and skin cancer risk persist through winter. She frames the routine as layering hydration in stages rather than swapping one product for another, and does not cite any specific published study."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+
 ---
 
 A disrupted skin barrier is a damaged stratum corneum, the skin's outermost layer, which normally works like a brick wall: flattened skin cells are the bricks and a mix of fatty molecules is the mortar between them. Elias describes that lipid mortar as an "approximately 1:1:1 molar ratio of ceramides (Cer), cholesterol, and nonessential fatty acids," where "all three lipids are required to form the lamellar structures that regulate barrier function."[^elias] When over-exfoliation, retinoid or acid irritation, over-washing, harsh weather, or an eczema flare strips or damages that mortar, the wall leaks: water escapes faster and irritants get in more easily. This page ranks what actually helps a barrier that is *already* disrupted recover, from highest to lowest demonstrated impact. Recovery is mostly about stopping whatever is damaging the skin and supporting the mortar as it re-forms, not about buying one special product. For keeping a healthy barrier resilient in the first place, the sibling maintenance list covers what holds up over the long run: [[skin-barrier-strengthening]].
