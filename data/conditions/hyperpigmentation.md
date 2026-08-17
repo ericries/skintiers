@@ -88,6 +88,17 @@ videos:
   thesis: "Cosmetic chemist Michelle Wong breaks hyperpigmentation down into four stages, from melanocyte stimulation through melanin production, transfer to skin cells, and shedding, explaining that treatments work best when they target more than one stage at once. She says daily broad-spectrum sunscreen with strong UVA protection is the single most important step, since an unblocked trigger undermines every other product, and walks through how vitamin C, azelaic acid, niacinamide, retinoids, and hydroquinone act at different stages, while cautioning that although tranexamic acid has good evidence as an oral treatment, she is not convinced it can penetrate skin effectively in topical products."
   related: ["sunscreen-uv-filters", "vitamin-c", "azelaic-acid", "niacinamide", "retinoids", "hydroquinone", "tranexamic-acid", "melasma"]
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: "Dark Inner Thighs: Causes & Treatment"
+  creator: "Dr. Adeline Kikam"
+  creator_slug: adeline-kikam
+  credential: "Board-certified dermatologist"
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=ghoLg47eD1U
+  posted: '2023-03-06'
+  related: [lactic-acid, glycolic-acid, amlactin-daily-moisturizing-lotion-12-lactic-acid]
+  thesis: "Board-certified dermatologist Dr. Adeline Kikam (Brown Skin Derm) explains causes of hyperpigmentation in the genital and inner-thigh area, noting it is often normal in people of color but can also signal conditions like acanthosis nigricans (a velvety darkening that can be a warning sign of insulin resistance or obesity) or chafing from skin friction. To improve the appearance of the discoloration she points to over-the-counter exfoliants such as 12 percent lactic acid (for example AmLactin) and alpha hydroxy acids, while stressing that identifying the underlying cause comes first."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+
 ---
 
 Hyperpigmentation is a darkening of the skin caused by excess melanin, and its common facial forms are melasma, post-inflammatory hyperpigmentation, and pigmentation driven by sun exposure.[^handel][^davis] The color change is usually the only symptom, the skin stays flat and is neither itchy nor sore, and the same person can have more than one form at once. Among the topical options with controlled evidence, photoprotection is the foundation with the strongest support, the depigmenting creams are real but modest, and without ongoing sun protection the pigment tends to come back.[^liu][^castanedo][^delrosario]

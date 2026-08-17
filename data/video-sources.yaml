@@ -157,7 +157,7 @@
   channel: 'https://www.instagram.com/dremwedgeworth'
   product_recs: ok
   conflict: 'Unspecified/undisclosed brand partnerships per her own bio (''frequently works with leading brands and the media''); no own-brand product line; no YouTube; transcript-verified cards pending an IG/TikTok solution'
-  last_pulled: null
+  last_pulled: '2026-08-16'
 - name: 'Dr. Adeline Kikam (Brown Skin Derm)'
   creator_slug: adeline-kikam
   credential: 'Board-certified dermatologist'
@@ -165,7 +165,7 @@
   channel: 'https://www.youtube.com/@brownskinderm'
   product_recs: restricted
   conflict: 'Affiliate storefronts (ShopMy + Amazon Shop via linktree), recurring #AD sponsored posts, a branded discount-code partnership (LivSo), and c'
-  last_pulled: null
+  last_pulled: '2026-08-16'
 - name: 'Dr. Joyce Park (Tea with MD)'
   creator_slug: joyce-park
   credential: 'Board-certified dermatologist'
@@ -205,7 +205,7 @@
   channel: 'PENDING - no YouTube, IG/TikTok only'
   product_recs: ok
   conflict: 'Occasional disclosed #AD brand partnerships (e.g. a Dieux Skin sponsored post, Aug 2026); no own-brand line or affiliate storefront found.; no YouTube; transcript-verified cards pending an IG/TikTok solution'
-  last_pulled: null
+  last_pulled: '2026-08-16'
 - name: 'Dr. Lindsey Zubritsky (DermGuru)'
   creator_slug: lindsey-zubritsky
   credential: 'Board-certified dermatologist'
