@@ -3,6 +3,10 @@ analyzed: '2026-08-16'
 assurance: sonnet
 brand: Isdin
 category: Serums
+images:
+- file: isdin-melatonik-night-serum-dermstore.jpg
+  source: Dermstore
+  source_url: https://www.dermstore.com/p/isdin-melatonik-recovery-night-serum-with-melatonin-bakuchiol-vitamin-c-30ml/13971524/
 comparator: other prestige multi-active night serums built around a retinol alternative
   and antioxidants rather than retinoids (e.g. Caudalie Resveratrol Lift Firming Serum)
 grades:

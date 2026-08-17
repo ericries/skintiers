@@ -3,6 +3,10 @@ analyzed: '2026-08-16'
 assurance: sonnet
 brand: La Roche-Posay
 category: Sunscreens
+images:
+- file: la-roche-posay-anthelios-mineral-tinted-spf-50-target.jpg
+  source: Target
+  source_url: https://www.target.com/p/la-roche-posay-anthelios-tinted-face-sunscreen-spf-50-ultra-light-fluid-mineral-face-sunscreen-with-titanium-dioxide-spf-50-1-7-fl-oz/-/A-14225598
 comparator: mineral sunscreens that pair titanium dioxide with zinc oxide (e.g. CeraVe
   Hydrating Mineral Sunscreen)
 grades:

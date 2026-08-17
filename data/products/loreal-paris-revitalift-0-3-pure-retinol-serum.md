@@ -3,6 +3,10 @@ analyzed: '2026-08-07'
 assurance: sonnet
 brand: L'Oreal Paris
 category: Retinoids
+images:
+- file: loreal-paris-revitalift-0-3-pure-retinol-serum-loreal.jpg
+  source: L'Oreal Paris
+  source_url: https://www.lorealparisusa.com/skin-care/face-serums/revitalift-derm-intensives-night-serum-03-pure-retinol
 evidence_levels:
   active: retinol
   active_note: a well-studied over-the-counter retinoid, with vehicle-controlled trial

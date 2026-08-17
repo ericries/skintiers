@@ -3,6 +3,10 @@ analyzed: '2026-08-08'
 assurance: sonnet
 brand: Medik8
 category: Vitamin C serums
+images:
+- file: medik8-c-tetra-vitamin-c-serum-medik8.jpg
+  source: Medik8
+  source_url: https://www.medik8.com/products/c-tetra
 comparator: L-ascorbic acid vitamin C serums (e.g. SkinCeuticals C E Ferulic, Paula's
   Choice C15 Super Booster)
 grades:

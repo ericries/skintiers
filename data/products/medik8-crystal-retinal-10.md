@@ -3,6 +3,10 @@ analyzed: '2026-08-16'
 assurance: sonnet
 category: Retinoids
 comparator: other over-the-counter retinoids
+images:
+- file: medik8-crystal-retinal-10-medik8.png
+  source: Medik8
+  source_url: https://us.medik8.com/products/crystal-retinal
 evidence_levels:
   active: retinaldehyde
   active_note: retinaldehyde has the strongest category-level evidence among over-the-counter
