@@ -61,6 +61,16 @@ videos:
   related: []
   thesis: "Board-certified dermatologist Dr. Sam Bunting explains that skin elastin, not just collagen, drives the skin's elastic recoil and that UVA exposure is the main cause of elastin breakdown over time. She recommends a three-step anti-aging approach: daily broad-spectrum sunscreen (with careful attention to the eye area), antioxidants such as vitamin C, niacinamide, and retinoids, and newer approaches targeting mitochondrial dysfunction and cellular senescence in skin cells."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: "The Most Effective Anti-Aging Products (As Backed by Research)"
+  creator: "Javon Ford"
+  creator_slug: javon-ford
+  credential: "Cosmetic chemist"
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=WAkznrGVrPw
+  posted: '2019-10-07'
+  related: [sunscreen-uv-filters]
+  thesis: "Cosmetic chemist Javon Ford argues that the single most effective anti-aging product, backed by roughly 50 years of research, is sunscreen, because the sun is the biggest cause of premature visible aging like wrinkles and sun spots. He stresses that daily sunscreen is non-negotiable regardless of skin tone, noting that modern UV exposure (a thinned ozone layer and living closer to the equator) makes it more necessary than historical comparisons suggest."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 
 ---
 
