@@ -1375,7 +1375,7 @@
 - name: Naturium PHA Bionic Acid Toner
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: lactobionic-acid
   source: A PHA/bionic-acid (gluconolactone + lactobionic) toner - would surface on
     the exfoliating-acids ladder under the gentle PHA rungs and give lactobionic/gluconolactone
@@ -1718,6 +1718,12 @@
   discovered_from: null
   source: https://naturium.com
 - name: Naturium Multi-Peptide Advanced Serum
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://naturium.com
+- name: Naturium Multi-Bright Milky Toner
   type: product
   priority: 5
   status: pending
