@@ -1275,7 +1275,7 @@
 - name: CeraVe SA Smoothing Cream (salicylic acid)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: keratosis-pilaris
   source: Popular salicylic-acid + urea body cream widely recommended for KP/rough
     bumpy skin
