@@ -5106,3 +5106,8 @@ peptides-by-evidence:
   score: 8
   verdict: publish
   note: 'LIST cron (curatorial ladder, no fresh critic). Built ''Peptides by evidence'' - finally unblocked after publishing the Matrixyl page (3 real rungs now). Honest evidence ranking: copper-peptides (moderate, best-evidenced), palmitoyl-pentapeptide-4-matrixyl + argireline (weak); NO strong rung - the point is peptides are over-marketed vs the evidence. Grades aggregate the already-verified ingredient pages (no new claims). All 3 slugs resolve; gates clean; force-published. Was deferred twice as premature at 2 rungs.'
+ergothioneine:
+  last_reviewed: '2026-08-18'
+  score: 9
+  verdict: publish
+  note: 'INGREDIENT cron (Fable draft -> Opus critic verdict PUBLISH). Ergothioneine. Critic re-verified all 9 PMIDs via NCBI eutils/PMC (Cheah/Halliwell, Markova, Hseu, etc.), all quotes verbatim, industry COIs confirmed. Honest 2-layer grading: strong in-vitro antioxidant credentials (dedicated OCTN1 transporter) vs preliminary/weak human topical skin-benefit evidence (poor stratum-corneum penetration, combination-product confounding, non-significant oral biomarkers). Reached past low-value queue-top (Tasmannia). Gates clean; force-published.'
