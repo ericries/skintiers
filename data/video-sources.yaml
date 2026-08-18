@@ -87,7 +87,7 @@
   tier: HIGH
   channel: https://www.youtube.com/@ShereeneIdriss/videos
   conflict: runs the PillowtalkDerm brand - skip videos mainly promoting her own products
-  last_pulled: '2026-08-15'
+  last_pulled: '2026-08-17'
 - name: Dr. Sam Bunting
   creator_slug: sam-bunting
   credential: Board-certified dermatologist (UK)
