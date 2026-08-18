@@ -328,6 +328,16 @@ videos:
   related: [avene-mineral-ultra-light-spf-50]
   thesis: "Cosmetic chemists Chemist Confessions (Victoria Fu and Gloria Lu) tested five tinted sunscreens as part of their 2026 sunscreen testing series: Merit's The Uniform tinted mineral SPF 45, La Roche-Posay's tinted UV Mune 400, Avene's anti-pigmentation SPF 50+, Bloom Effects' Dew Drops tinted mineral sunscreen, and Eucerin's Tinted Age Defense with hyaluronic acid. They grouped the products by coverage level, from sheer to high coverage, finding that Merit gave foundation-like coverage but transferred heavily onto clothing, while Eucerin's formula went on thick and left a tacky residue on the hands. For people who just want a touch of iron-oxide pigment without real coverage, they recommended the tinted UV Mune or EltaMD UV Clear as easier, lower-maintenance options."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: "The Best Alternatives to Sunscreen | Dermatologist Explains"
+  creator: "Andrea Suarez"
+  creator_slug: andrea-suarez-dr-dray
+  credential: "Board-certified dermatologist"
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=JgjFGkt5Gfw
+  posted: '2026-07-23'
+  related: []
+  thesis: "Board-certified dermatologist Andrea Suarez (Dr Dray) explains that sunscreen was never meant as a sole means of sun protection and walks through complementary strategies, including UPF clothing and emerging UV-blocking adhesive patches. She notes UPF clothing avoids sunscreen's biggest real-world failure of under-application and rub-off, while UV patches show promising lab data but lack large clinical trials and still leave most of the face uncovered, so her practical recommendation remains layering sunscreen with a hat, UPF clothing, shade, and sunglasses."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 name: Sunscreen (UV filters)
 slug: sunscreen-uv-filters
 status: published

@@ -16,6 +16,8 @@
 #   Leite) has their favorites/picks treated as effectively paid, so skip those.
 - name: Michelle Wong (Lab Muffin)
   creator_slug: michelle-wong
+  flagship: true
+  backfill_cursor: 30
   credential: Cosmetic chemist, PhD
   tier: HIGH
   channel: https://www.youtube.com/@LabMuffinBeautyScience/videos
@@ -30,6 +32,8 @@
   last_pulled: '2026-08-16'
 - name: Chemist Confessions (Victoria Fu and Gloria Lu)
   creator_slug: victoria-fu
+  flagship: true
+  backfill_cursor: 15
   credential: Cosmetic chemists
   tier: HIGH
   channel: https://www.youtube.com/@chemistconfessions/videos
@@ -37,6 +41,8 @@
   last_pulled: '2026-08-16'
 - name: Andrea Suarez (Dr Dray)
   creator_slug: andrea-suarez-dr-dray
+  flagship: true
+  backfill_cursor: 30
   credential: Board-certified dermatologist
   tier: HIGH
   channel: https://www.youtube.com/@DrDrayzday/videos
@@ -51,6 +57,8 @@
   last_pulled: '2026-08-17'
 - name: Dr. Dustin Portela
   creator_slug: dustin-portela
+  flagship: true
+  backfill_cursor: 15
   credential: Board-certified dermatologist
   tier: HIGH
   channel: https://www.youtube.com/@DustinPortelaDO/videos
@@ -90,6 +98,8 @@
   last_pulled: '2026-08-17'
 - name: Dr. Sam Bunting
   creator_slug: sam-bunting
+  flagship: true
+  backfill_cursor: 15
   credential: Board-certified dermatologist (UK)
   tier: HIGH
   channel: https://www.youtube.com/@DrSamBunting/videos
@@ -97,6 +107,8 @@
   last_pulled: '2026-08-16'
 - name: Dr. Davin Lim
   creator_slug: davin-lim
+  flagship: true
+  backfill_cursor: 15
   credential: Board-certified dermatologist (Australia)
   tier: HIGH
   channel: https://www.youtube.com/@DrDavinLim/videos
@@ -104,6 +116,8 @@
   last_pulled: '2026-08-15'
 - name: Dr. Scott Walter
   creator_slug: scott-walter
+  flagship: true
+  backfill_cursor: 15
   credential: Board-certified dermatologist
   tier: HIGH
   channel: https://www.youtube.com/@DrScottWalter/videos
@@ -176,6 +190,8 @@
   last_pulled: '2026-08-16'
 - name: 'Stephen Alain Ko (KindofStephen)'
   creator_slug: stephen-alain-ko
+  flagship: true
+  backfill_cursor: 15
   credential: 'Skincare educator'
   tier: MED
   channel: 'https://www.youtube.com/@kindofstephen'
