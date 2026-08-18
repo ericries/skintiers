@@ -30,7 +30,7 @@
 - name: Peptides by evidence
   type: list
   priority: 4
-  status: pending
+  status: done
   discovered_from: exfoliating-acids-by-strength
   source: 'Phase B ladder (roadmap): rank the peptide TYPES the site profiles - copper
     peptides, signal/matrix peptides (Matrixyl), and the neuropeptide argireline -
