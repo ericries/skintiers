@@ -27,6 +27,16 @@ videos:
   related: [niacinamide, iope-stem-3-clinical-recovery-serum]
   thesis: "Cosmetic chemists Chemist Confessions (Victoria Fu and Gloria Lu) reviewed five Korean-beauty PDRN products: numbuzin's PDRN glow-boosting toner, Mediheal's PDRN Lifting Serum, Dr. Leegeehaam's PDRN rejuvenating cream, Rejuran's Turnover Ampoule, and IOPE's Stem 3 Clinical Recovery Serum. They highlighted IOPE's split-face study, which compared the topical product on one side of subjects' faces against an actual salmon-derived PDRN injection on the other, as by far the most useful data in the category. They ultimately recommended IOPE as their pick for pore size and hydration results, while cautioning that most of the other products used low or diluted PDRN concentrations with vague marketing claims that made it hard to draw firm conclusions about efficacy."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: "Is There Any Science Behind PDRN in Skincare? (EP126 clip)"
+  creator: "Chemist Confessions (Victoria Fu and Gloria Lu)"
+  creator_slug: victoria-fu
+  credential: "Cosmetic chemists"
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=lrmLKfFBpIk
+  posted: '2025-12-15'
+  related: []
+  thesis: "Cosmetic chemists Chemist Confessions (Victoria Fu and Gloria Lu) dig into the science of PDRN (polydeoxyribonucleotide) in skincare, noting the ingredient has its roots in in-office treatments like injectable Rejuran and microneedling rather than at-home topicals. They explain that separating the in-office evidence from what a leave-on topical can actually do is difficult, and that the in-office side in particular is a wild west of strong benefit claims with unclear sourcing, so consumers should be cautious about extrapolating dramatic results to over-the-counter PDRN serums."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 
 ---
 

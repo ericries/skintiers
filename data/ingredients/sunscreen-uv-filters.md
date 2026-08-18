@@ -338,6 +338,16 @@ videos:
   related: []
   thesis: "Board-certified dermatologist Andrea Suarez (Dr Dray) explains that sunscreen was never meant as a sole means of sun protection and walks through complementary strategies, including UPF clothing and emerging UV-blocking adhesive patches. She notes UPF clothing avoids sunscreen's biggest real-world failure of under-application and rub-off, while UV patches show promising lab data but lack large clinical trials and still leave most of the face uncovered, so her practical recommendation remains layering sunscreen with a hat, UPF clothing, shade, and sunglasses."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: "Will the US finally get new sunscreen filters? A Conversation with Sen. Hassan"
+  creator: "Chemist Confessions (Victoria Fu and Gloria Lu)"
+  creator_slug: victoria-fu
+  credential: "Cosmetic chemists"
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=hjiGvwvb11M
+  posted: '2025-12-22'
+  related: [bemotrizinol]
+  thesis: "Cosmetic chemists Chemist Confessions interview US Senator Maggie Hassan about a new law that changes how the FDA approves sunscreen ingredients, the reason Americans have had no new UV filter approved since the 1990s while Europe and Asia use newer ones. Senator Hassan explains the bill lets manufacturers rely on real-world evidence from other countries rather than requiring lengthy animal and clinical testing, giving the FDA about a year to update its rules, and she notes the FDA has just begun looking at approving a new filter called bemotrizinol. The chemists stay cautiously optimistic, stressing that any new filters still have to prove they meet their labeled protection."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 name: Sunscreen (UV filters)
 slug: sunscreen-uv-filters
 status: published
