@@ -158,6 +158,16 @@ videos:
   related: [hydroquinone, retinoids, tretinoin, azelaic-acid]
   thesis: "Dr. Geeta Yadav, a board-certified dermatologist, discusses post-inflammatory hyperpigmentation (PIH), the dark marks left behind after acne, eczema, or a bug bite, noting she recently co-authored a paper on the topic. She explains that PIH is one of the most common reasons people with skin of color seek dermatology care, since their risk of darker and more persistent marks is higher, and that the cornerstone of managing it is daily photoprotection with a tinted SPF 30 to 50, since visible light also drives pigmentation. She adds that topicals such as hydroquinone, retinoids, tretinoin, and azelaic acid, along with chemical peels and lasers, can help, and recommends seeing a board-certified dermatologist for persistent cases."
   note: "Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship."
+- title: "How to Prevent & Treat Sun-Induced Pigmentation: Dermatologist Tips"
+  creator: "Davin Lim"
+  creator_slug: davin-lim
+  credential: "Board-certified dermatologist (Australia)"
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=vU9XccWySgA
+  posted: '2025-03-04'
+  related: [melasma, sunscreen-uv-filters]
+  thesis: "Board-certified dermatologist Davin Lim explains that hyperpigmentation comes down to three drivers, genetics, sun exposure, and hormones, and that UV radiation including visible light, UVA, and UVB stimulates melanocytes to overproduce pigment. He notes that melasma, sometimes called the mask of pregnancy, is a genetically predisposed form that settles on its own in roughly half of cases but persists in the rest, and that persistent pigmentation usually needs dermatologist-guided treatment alongside strict sun protection."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 
 ---
 

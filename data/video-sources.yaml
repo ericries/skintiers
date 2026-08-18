@@ -113,7 +113,7 @@
   tier: HIGH
   channel: https://www.youtube.com/@DrDavinLim/videos
   conflict: null
-  last_pulled: '2026-08-15'
+  last_pulled: '2026-08-18'
 - name: Dr. Scott Walter
   creator_slug: scott-walter
   flagship: true
