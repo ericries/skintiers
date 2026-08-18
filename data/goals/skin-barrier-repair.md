@@ -5,7 +5,7 @@ name: Repairing a disrupted skin barrier
 slug: skin-barrier-repair
 status: published
 type: goal
-updated: '2026-08-14'
+updated: '2026-08-17'
 videos:
 - title: "The truth about skin barrier repair"
   creator: Kristin Leite
@@ -67,6 +67,37 @@ videos:
   related: [moisturizing]
   thesis: "Dr. Ife Rodney, a board-certified dermatologist, explains that moisturizing alone is not enough to manage eczema and that reinforcing the skin's protective barrier also requires avoiding hot showers and fragranced or dyed products that can trigger flares. She recommends patting (not fully drying) skin after showering and massaging in a bland, gentle moisturizer within three minutes of getting out."
   note: "Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship."
+tier_list:
+  title: "Barrier-repair ingredients by evidence"
+  by: "how well each supports rebuilding a disrupted skin barrier, structuring this page's own Tier 1 to Tier 2 ranking; occlusion and humectancy plus the physiological barrier lipids do the most work, and time drives the underlying recovery"
+  items:
+    - slug: petrolatum
+      tier: strong
+      note: "The most occlusive foundation, cutting transepidermal water loss more than any other common ingredient and buying the barrier time to re-form its own lipids."
+    - slug: glycerin
+      tier: strong
+      note: "A well-studied humectant that draws and holds water in the stratum corneum; a core part of the supportive foundation, especially sealed under an occlusive."
+    - slug: hyaluronic-acid
+      tier: strong
+      note: "A humectant that raises surface hydration and helps narrow the water-loss gradient; works best layered under an occlusive rather than on its own."
+    - slug: ceramides
+      tier: strong
+      note: "A core barrier lipid; replenishing ceramides (ideally with cholesterol and fatty acids) helps rebuild the lipid matrix the barrier is made of."
+    - slug: colloidal-oatmeal
+      tier: moderate
+      note: "Soothing and mildly barrier-supportive with reasonable evidence for irritated and eczema-prone skin; a reliable adjunct rather than the foundation."
+    - slug: niacinamide
+      tier: moderate
+      note: "Supports barrier lipid synthesis and lowers water loss at around 2 to 5 percent; a reliable adjunct that complements the occlusive and humectant base."
+    - slug: cholesterol
+      tier: moderate
+      note: "One of the three physiological barrier lipids; most useful alongside ceramides and free fatty acids in a balanced ratio rather than alone."
+    - slug: phytosphingosine
+      tier: moderate
+      note: "A sphingoid-base lipid that feeds into ceramide production; a smaller supportive lever within a barrier-repair formula."
+    - slug: centella-asiatica
+      tier: moderate
+      note: "Cica extract with soothing and antioxidant support for compromised skin; a modest adjunct, not a barrier-rebuilding foundation."
 
 ---
 

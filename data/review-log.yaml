@@ -5091,3 +5091,8 @@ rosacea-papulopustular:
   score: 8
   verdict: publish
   note: 'CONDITION cron (inline tier_list, no fresh critic). Added ''Papulopustular rosacea treatments by evidence'' tier_list to the subtype hub: sunscreen/azelaic-acid/ivermectin-topical (strong), metronidazole/doxycycline-40mg (moderate), sulfur (weak); excluded brimonidine (redness-only subtype) and niacinamide (barrier-only). Grades+notes lifted from the already Opus-critic-verified main rosacea tier_list, so no new unverified health claims. All 6 slugs resolve to published pages; gates clean.'
+skin-barrier-repair:
+  last_reviewed: '2026-08-17'
+  score: 8
+  verdict: publish
+  note: 'GOAL cron (inline tier_list, no fresh critic). Added ''Barrier-repair ingredients by evidence'' to the goal hub by STRUCTURING the page''s own existing prose ranking (Tier 1 -> strong: petrolatum/glycerin/hyaluronic-acid/ceramides; Tier 2 -> moderate: colloidal-oatmeal/niacinamide/cholesterol/phytosphingosine/centella-asiatica). Tier 3 (time/water-gradient) is process not ingredients; Tier 4 overhyped excluded. No new claims (page prose already Opus-verified); all 9 slugs resolve; gates clean.'
