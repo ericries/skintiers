@@ -680,7 +680,7 @@
 - name: Ergothioneine
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: shereene-idriss
   source: 'Dr. Shereene Idriss + Augustinus Bader The C Serum: antioxidant the body
     cannot synthesize; emerging topical active with published research'
