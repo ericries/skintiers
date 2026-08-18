@@ -171,7 +171,7 @@
 - name: Fatima Fahs (dermatologist, Dermy Doctor)
   type: person
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://npiregistry.cms.hhs.gov
 - name: Geeta Yadav (dermatologist)

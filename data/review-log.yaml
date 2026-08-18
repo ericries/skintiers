@@ -5096,3 +5096,8 @@ skin-barrier-repair:
   score: 8
   verdict: publish
   note: 'GOAL cron (inline tier_list, no fresh critic). Added ''Barrier-repair ingredients by evidence'' to the goal hub by STRUCTURING the page''s own existing prose ranking (Tier 1 -> strong: petrolatum/glycerin/hyaluronic-acid/ceramides; Tier 2 -> moderate: colloidal-oatmeal/niacinamide/cholesterol/phytosphingosine/centella-asiatica). Tier 3 (time/water-gradient) is process not ingredients; Tier 4 overhyped excluded. No new claims (page prose already Opus-verified); all 9 slugs resolve; gates clean.'
+fatima-fahs:
+  last_reviewed: '2026-08-18'
+  score: 8
+  verdict: publish
+  note: 'PERSON cron (lean inline card, no critic). Fatima Fahs (Dermy Doctor). Credential NPI-verified (NPI 1942659958: M.D., Dermatology, MI license 4301110324); stated only NPI facts, not unverified ''board-certified''. Links her 3 embedded card pages (sunscreen-uv-filters, ascorbic-acid-vitamin-c, skin-barrier-strengthening). Gates clean; force-published.'
