@@ -3,6 +3,10 @@ analyzed: '2026-08-16'
 assurance: sonnet
 brand: Naturium
 category: Niacinamide serums
+images:
+- file: naturium-alpha-arbutin-serum-2-naturium.jpg
+  source: Naturium
+  source_url: https://naturium.com/products/alpha-arbutin-serum-2
 comparator: other brightening arbutin serums (e.g. Beauty of Joseon Glow Deep Serum
   Rice + Alpha-Arbutin)
 grades:

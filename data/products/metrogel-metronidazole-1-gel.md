@@ -3,6 +3,10 @@ analyzed: '2026-08-08'
 assurance: opus
 brand: Galderma
 category: Treatments
+images:
+- file: metrogel-metronidazole-1-gel-dailymed.jpg
+  source: DailyMed (FDA label package image)
+  source_url: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ab3a8a2d-714a-4beb-af8a-99bc3ac3ebbe
 grades:
 - effect: modest
   evidence: solid

@@ -3,6 +3,10 @@ analyzed: '2026-08-16'
 assurance: sonnet
 brand: Murad
 category: Serums
+images:
+- file: murad-rapid-dark-spot-correcting-serum-murad.jpg
+  source: Murad
+  source_url: https://www.murad.com/products/rapid-dark-spot-correcting-serum
 grades:
 - effect: minimal to modest
   evidence: mixed

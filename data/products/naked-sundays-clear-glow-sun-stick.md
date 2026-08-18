@@ -3,6 +3,10 @@ analyzed: '2026-08-15'
 assurance: sonnet
 brand: Naked Sundays
 category: Sunscreens
+images:
+- file: naked-sundays-clear-glow-sun-stick-nakedsundays.jpg
+  source: Naked Sundays
+  source_url: https://nakedsundays.com/products/spf50-clear-glow-stick
 comparator: chemical-filter stick and lotion sunscreens using the same avobenzone/octocrylene/homosalate/octisalate filter set
 grades:
 - effect: strong

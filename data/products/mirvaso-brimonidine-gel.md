@@ -3,6 +3,10 @@ analyzed: '2026-08-08'
 assurance: opus
 brand: Galderma
 category: Treatments
+images:
+- file: mirvaso-brimonidine-gel-dailymed.jpg
+  source: DailyMed (FDA label package image)
+  source_url: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f6a4353f-ae69-4214-901f-e5d42a6fbde7
 grades:
 - effect: modest
   evidence: solid
