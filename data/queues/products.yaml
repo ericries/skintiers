@@ -1495,7 +1495,7 @@
 - name: PanOxyl 4% Acne Creamy Wash (benzoyl peroxide)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: fungal-acne
   source: A gentler 4% benzoyl peroxide wash (vs the existing PanOxyl 10% foaming
     wash); BPO is the one OTC active with in-vitro anti-Malassezia evidence on [[fungal-acne]],

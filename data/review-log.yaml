@@ -5111,3 +5111,8 @@ ergothioneine:
   score: 9
   verdict: publish
   note: 'INGREDIENT cron (Fable draft -> Opus critic verdict PUBLISH). Ergothioneine. Critic re-verified all 9 PMIDs via NCBI eutils/PMC (Cheah/Halliwell, Markova, Hseu, etc.), all quotes verbatim, industry COIs confirmed. Honest 2-layer grading: strong in-vitro antioxidant credentials (dedicated OCTN1 transporter) vs preliminary/weak human topical skin-benefit evidence (poor stratum-corneum penetration, combination-product confounding, non-significant oral biomarkers). Reached past low-value queue-top (Tasmannia). Gates clean; force-published.'
+panoxyl-acne-creamy-wash-benzoyl-peroxide-4:
+  last_reviewed: '2026-08-18'
+  score: 8
+  verdict: revise-then-fixed
+  note: 'PRODUCT cron (Fable draft -> Opus critic revise->fixed). PanOxyl 4% Benzoyl Peroxide Acne Creamy Wash. Critic verified vs DailyMed + live panoxyl.com/Target; corrected Drug-Facts ''Use'' (for the treatment of acne) vs PDP marketing copy conflation, added price ($10.19/6oz), fixed sizes to label verbatim (85g/170g). Gates clean; force-published.'
