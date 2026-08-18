@@ -5116,3 +5116,13 @@ panoxyl-acne-creamy-wash-benzoyl-peroxide-4:
   score: 8
   verdict: revise-then-fixed
   note: 'PRODUCT cron (Fable draft -> Opus critic revise->fixed). PanOxyl 4% Benzoyl Peroxide Acne Creamy Wash. Critic verified vs DailyMed + live panoxyl.com/Target; corrected Drug-Facts ''Use'' (for the treatment of acne) vs PDP marketing copy conflation, added price ($10.19/6oz), fixed sizes to label verbatim (85g/170g). Gates clean; force-published.'
+niod:
+  last_reviewed: '2026-08-18'
+  score: 8
+  verdict: publish
+  note: 'BRAND cron (lean inline card, no critic). NIOD (DECIEM). Discovery roll-up linking its 2 site products (Copper Amino Isolate CAIS3, Multi-Molecular Hyaluronic Complex); marketing attributed as brand''s own. Gates clean; force-published.'
+glass-skin-scottwalter-card:
+  last_reviewed: '2026-08-18'
+  score: 7
+  verdict: publish
+  note: 'VIDEO-PULL (Scott Walter). Corneometer test of a viral Korean collagen sheet mask''s hydration duration -> glass-skin. Mask brand NOT named in transcript, so homed on glass-skin with an honest generic subject rather than guessing Biodance. Non-sponsored, transcript-verified. His 3 other on-topic uploads were Wave-1 dups; also fixed his roster channel (@DrScottWalter 404 -> real channel ID).'
