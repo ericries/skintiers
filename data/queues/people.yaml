@@ -176,14 +176,16 @@
   source: https://npiregistry.cms.hhs.gov
 - name: Geeta Yadav (dermatologist)
   type: person
-  priority: 5
+  priority: 2
   status: pending
   discovered_from: null
-  source: https://npiregistry.cms.hhs.gov
+  source: 'NPI has NO dermatologist match (she is Toronto-based, not in the US registry);
+    verify via the Ontario CPSO public register (doctors.cpso.on.ca) when web access
+    is available. Deprioritized until then so she does not block the person queue.'
 - name: Angelo Landriscina (dermatologist)
   type: person
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://npiregistry.cms.hhs.gov
 - name: Alexis Stephens (dermatologist)

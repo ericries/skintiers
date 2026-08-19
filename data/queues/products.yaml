@@ -1741,3 +1741,9 @@
   status: pending
   discovered_from: STUDY cron (Nukaly 2026 peptide meta-analysis)
   source: https://www.paulaschoice.com/
+- name: Differin Gel (adapalene 0.1%)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: PERSON cron (Angelo Landriscina, acne content)
+  source: https://www.differin.com/
