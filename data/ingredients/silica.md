@@ -3,6 +3,7 @@ analyzed: '2026-07-30'
 assurance: opus
 name: Silica
 slug: silica
+tier: weak
 status: published
 type: ingredient
 updated: '2026-07-30'

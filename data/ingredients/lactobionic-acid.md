@@ -3,6 +3,7 @@ analyzed: '2026-08-12'
 assurance: sonnet
 name: Lactobionic acid
 slug: lactobionic-acid
+tier: weak
 status: published
 type: ingredient
 updated: '2026-08-12'

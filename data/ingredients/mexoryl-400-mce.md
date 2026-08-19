@@ -3,6 +3,7 @@ analyzed: '2026-08-08'
 assurance: sonnet
 name: Mexoryl 400 (MCE)
 slug: mexoryl-400-mce
+tier: weak
 status: published
 type: ingredient
 updated: '2026-08-08'

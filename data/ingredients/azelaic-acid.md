@@ -3,6 +3,7 @@ analyzed: '2026-07-27'
 assurance: sonnet
 name: Azelaic acid
 slug: azelaic-acid
+tier: good
 status: published
 type: ingredient
 updated: '2026-07-27'

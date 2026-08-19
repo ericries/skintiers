@@ -3,6 +3,7 @@ analyzed: '2026-08-08'
 assurance: sonnet
 name: Galactomyces ferment filtrate
 slug: galactomyces-ferment-filtrate
+tier: weak
 status: published
 type: ingredient
 updated: '2026-08-08'

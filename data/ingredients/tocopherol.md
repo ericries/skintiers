@@ -3,6 +3,7 @@ analyzed: '2026-07-27'
 assurance: opus
 name: Tocopherol
 slug: tocopherol
+tier: weak
 status: published
 type: ingredient
 updated: '2026-07-27'

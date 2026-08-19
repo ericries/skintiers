@@ -3,6 +3,7 @@ analyzed: '2026-08-08'
 assurance: sonnet
 name: Vitreoscilla filiformis lysate (postbiotic)
 slug: vitreoscilla-filiformis-lysate
+tier: weak
 status: published
 type: ingredient
 updated: '2026-08-08'

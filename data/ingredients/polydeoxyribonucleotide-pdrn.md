@@ -3,6 +3,7 @@ analyzed: '2026-08-15'
 assurance: sonnet
 name: Polydeoxyribonucleotide (PDRN)
 slug: polydeoxyribonucleotide-pdrn
+tier: weak
 status: published
 type: ingredient
 updated: '2026-08-15'

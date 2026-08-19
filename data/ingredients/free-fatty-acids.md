@@ -3,6 +3,7 @@ analyzed: '2026-08-08'
 assurance: sonnet
 name: Free fatty acids (skin barrier lipids)
 slug: free-fatty-acids
+tier: weak
 status: published
 type: ingredient
 updated: '2026-08-08'

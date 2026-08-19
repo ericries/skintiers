@@ -3,6 +3,7 @@ analyzed: '2026-08-11'
 assurance: sonnet
 name: Clascoterone
 slug: clascoterone
+tier: mid
 status: published
 type: ingredient
 updated: '2026-08-11'

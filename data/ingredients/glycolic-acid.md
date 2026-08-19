@@ -24,6 +24,7 @@ videos:
   note: "Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship."
 name: Glycolic acid
 slug: glycolic-acid
+tier: mid
 status: published
 type: ingredient
 updated: '2026-07-28'

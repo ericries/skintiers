@@ -34,6 +34,7 @@ videos:
   note: "Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship."
 name: Ascorbic acid (vitamin C)
 slug: ascorbic-acid-vitamin-c
+tier: mid
 status: published
 type: ingredient
 updated: '2026-07-28'

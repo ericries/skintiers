@@ -3,6 +3,7 @@ analyzed: '2026-07-28'
 assurance: opus
 name: Centella asiatica
 slug: centella-asiatica
+tier: weak
 status: published
 type: ingredient
 updated: '2026-07-28'

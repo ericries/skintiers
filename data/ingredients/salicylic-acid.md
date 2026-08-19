@@ -3,6 +3,7 @@ analyzed: '2026-07-28'
 assurance: opus
 name: Salicylic acid
 slug: salicylic-acid
+tier: good
 status: published
 type: ingredient
 updated: '2026-07-28'

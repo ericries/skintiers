@@ -3,6 +3,7 @@ analyzed: '2026-07-27'
 assurance: opus
 name: Benzoyl peroxide
 slug: benzoyl-peroxide
+tier: mid
 status: published
 type: ingredient
 updated: '2026-07-27'

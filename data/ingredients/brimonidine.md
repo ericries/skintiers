@@ -3,6 +3,7 @@ analyzed: '2026-08-06'
 assurance: sonnet
 name: Brimonidine (topical)
 slug: brimonidine
+tier: mid
 status: published
 type: ingredient
 updated: '2026-08-06'

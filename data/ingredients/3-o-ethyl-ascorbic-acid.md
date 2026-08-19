@@ -3,6 +3,7 @@ analyzed: '2026-08-08'
 assurance: sonnet
 name: 3-O-ethyl ascorbic acid
 slug: 3-o-ethyl-ascorbic-acid
+tier: weak
 status: published
 type: ingredient
 updated: '2026-08-08'

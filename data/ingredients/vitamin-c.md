@@ -3,6 +3,7 @@ analyzed: '2026-07-28'
 assurance: opus
 name: Vitamin C (forms and derivatives)
 slug: vitamin-c
+tier: mid
 status: published
 type: ingredient
 updated: '2026-07-28'

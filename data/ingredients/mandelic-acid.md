@@ -3,6 +3,7 @@ analyzed: '2026-08-13'
 assurance: opus
 name: Mandelic acid
 slug: mandelic-acid
+tier: weak
 status: published
 type: ingredient
 updated: '2026-08-13'

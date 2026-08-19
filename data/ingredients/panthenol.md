@@ -3,6 +3,7 @@ analyzed: '2026-08-08'
 assurance: sonnet
 name: Panthenol
 slug: panthenol
+tier: mid
 status: published
 type: ingredient
 updated: '2026-08-08'

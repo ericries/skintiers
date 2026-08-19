@@ -3,6 +3,7 @@ analyzed: '2026-08-03'
 assurance: sonnet
 name: Topical ivermectin (Soolantra)
 slug: ivermectin-topical
+tier: good
 status: published
 type: ingredient
 updated: '2026-08-03'

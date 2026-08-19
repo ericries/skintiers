@@ -3,6 +3,7 @@ analyzed: '2026-08-08'
 assurance: opus
 name: Ascorbyl palmitate
 slug: ascorbyl-palmitate
+tier: weak
 status: published
 type: ingredient
 updated: '2026-08-09'

@@ -23,6 +23,7 @@ videos:
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 name: Niacinamide
 slug: niacinamide
+tier: mid
 status: published
 type: ingredient
 updated: '2026-07-28'
