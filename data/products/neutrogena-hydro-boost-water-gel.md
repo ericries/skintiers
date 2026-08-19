@@ -19,6 +19,10 @@ grades:
     such as [[cerave-moisturizing-cream|CeraVe Moisturizing Cream]], are formulated
     for this population and this water gel is not
   use: Barrier support for dry or barrier-impaired skin (health)
+images:
+- file: neutrogena-hydro-boost-water-gel-target.jpg
+  source: Target
+  source_url: https://www.target.com/p/neutrogena-hydroboost-moisturizer-with-hyaluronic-acid-1-7oz/-/A-16600123
 key_actives:
 - hyaluronic-acid
 name: Neutrogena Hydro Boost Water Gel

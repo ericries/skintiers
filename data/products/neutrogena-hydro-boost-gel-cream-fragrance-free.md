@@ -3,6 +3,10 @@ analyzed: '2026-08-08'
 assurance: opus
 brand: Neutrogena
 category: Moisturizers
+images:
+- file: neutrogena-hydro-boost-gel-cream-fragrance-free-target.jpg
+  source: Target
+  source_url: https://www.target.com/p/neutrogena-hydro-boost-water-gel-moisturizer-with-hyaluronic-acid-fragrance-free/-/A-92041503
 comparator: other lightweight, oil-free gel-cream moisturizers for normal-to-dry skin
 grades:
 - effect: notable

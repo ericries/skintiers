@@ -2,6 +2,10 @@
 analyzed: '2026-08-17'
 brand: NeoStrata
 category: Moisturizers
+images:
+- file: neostrata-bionic-face-cream-neostrata.jpg
+  source: NeoStrata
+  source_url: https://www.neostrata.com/products/bionic-face-cream
 grades:
 - effect: modest
   evidence: preliminary

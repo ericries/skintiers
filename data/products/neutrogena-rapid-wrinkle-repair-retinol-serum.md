@@ -3,6 +3,10 @@ analyzed: '2026-08-08'
 assurance: opus
 brand: Neutrogena
 category: Retinoids
+images:
+- file: neutrogena-rapid-wrinkle-repair-retinol-serum-target.jpg
+  source: Target
+  source_url: https://www.target.com/p/neutrogena-rapid-wrinkle-repair-retinol-renewal-serum-1-fl-oz/-/A-94597085
 comparator: other over-the-counter retinol serums
 evidence_levels:
   active: retinol
