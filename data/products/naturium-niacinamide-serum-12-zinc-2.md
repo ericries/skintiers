@@ -29,6 +29,13 @@ grades:
     any published journal, with no sample size, control arm, statistical result, or
     peer review disclosed
   use: Cosmetic dark-spot, pore, and fine-line claims (cosmetic)
+images:
+- file: naturium-niacinamide-serum-12-zinc-2-naturium.jpg
+  source: Naturium
+  source_url: https://www.naturium.com/products/niacinamide-serum-12-plus-zinc-2
+- file: naturium-niacinamide-serum-12-zinc-2-target.jpg
+  source: Target
+  source_url: https://www.target.com/p/naturium-niacinamide-serum-12-plus-zinc-2-1-fl-oz/-/A-80184048
 key_actives:
 - niacinamide
 name: Naturium Niacinamide Serum 12% + Zinc 2%

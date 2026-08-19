@@ -20,6 +20,10 @@ grades:
     formulation, with no vehicle or comparator arm (on [[mandelic-acid]]); no trial
     tests this product'
   use: Reducing the look of fine lines and wrinkles (cosmetic)
+images:
+- file: naturium-mandelic-topical-acid-12-naturium.jpg
+  source: Naturium
+  source_url: https://naturium.com/products/mandelic-topical-acid-12
 key_actives:
 - mandelic-acid
 - niacinamide

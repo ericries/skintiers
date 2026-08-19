@@ -2,6 +2,13 @@
 analyzed: '2026-08-17'
 brand: Naturium
 category: Moisturizers
+images:
+- file: naturium-multi-peptide-moisturizer-naturium.jpg
+  source: Naturium
+  source_url: https://naturium.com/products/multi-peptide-moisturizer
+- file: naturium-multi-peptide-moisturizer-target.jpg
+  source: Target
+  source_url: https://www.target.com/p/naturium-multi-peptide-moisturizer-1-7-oz/-/A-82247120
 comparator: other peptide moisturizers (e.g. Paula's Choice Pro-Collagen Peptide Plumping
   Moisturizer, COSRX The 6 Peptide Skin Booster Serum)
 grades:

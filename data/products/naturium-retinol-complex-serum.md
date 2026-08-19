@@ -3,6 +3,13 @@ analyzed: '2026-08-07'
 assurance: sonnet
 brand: Naturium
 category: Retinoids
+images:
+- file: naturium-retinol-complex-serum-naturium.jpg
+  source: Naturium
+  source_url: https://www.naturium.com/products/retinol-complex-serum
+- file: naturium-retinol-complex-serum-target.jpg
+  source: Target
+  source_url: https://www.target.com/p/naturium-retinol-complex-serum-1-fl-oz/-/A-80184036
 evidence_levels:
   active: retinol
   active_note: a well-studied vitamin A precursor, with vehicle-controlled

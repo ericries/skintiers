@@ -3,6 +3,10 @@ analyzed: '2026-08-07'
 assurance: sonnet
 brand: Naturium
 category: Vitamin C serums
+images:
+- file: naturium-vitamin-c-complex-serum-naturium.jpg
+  source: Naturium
+  source_url: https://www.naturium.com/products/vitamin-c-complex-serum
 comparator: single-form, higher-dose L-ascorbic acid serums (e.g. La Roche-Posay Pure
   Vitamin C12, SkinCeuticals C E Ferulic)
 grades:
