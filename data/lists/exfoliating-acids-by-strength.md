@@ -65,6 +65,17 @@ videos:
   posted: '2026-07-26'
   thesis: "Skincare content creator James Welsh (not a dermatologist or chemist) breaks down a viral case of a man doing a 30% TCA (trichloroacetic acid) chemical peel on himself at home, and explains why it is dangerous. A peel that strong is a medical-grade, controlled skin injury that penetrates into the dermis and is meant to be performed by a professional, not treated as strong at-home exfoliation, and the risk of pigmentation complications (post-inflammatory hyperpigmentation or hypopigmentation) is higher on deeper skin tones. He also corrects two viral myths from the case: that a vitamin C serum protects against peel complications, and that more skin damage means more collagen."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: 'Skincare ingredients dictionary: chemical exfoliants (AHAs, BHAs, PHAs)'
+  creator: Jenn Lexi
+  creator_slug: jennlexi
+  credential: esthetician
+  platform: TikTok
+  url: https://www.tiktok.com/@jennlexi_/video/7675759886969392397
+  posted: '2026-08-19'
+  related: [glycolic-acid, lactic-acid, mandelic-acid, salicylic-acid, gluconolactone-pha]
+  thesis: 'Esthetician Jenn Lexi breaks down the three categories of chemical exfoliant (AHAs, BHAs, and PHAs) and explains how an acid''s molecular size sets how deeply and quickly it penetrates: smaller molecules penetrate faster and tend to irritate more, larger ones work more slowly and gently. Covering the AHAs, she frames glycolic acid as the small, faster-penetrating option for rough texture and dullness, lactic acid as a larger and gentler acid that also draws water into the skin, and mandelic acid as the largest and gentlest, suited to sensitive or acne-prone skin.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Compares the chemical exfoliating acids the site profiles by the factors that actually differ between them: how deeply the molecule penetrates, how strongly it exfoliates, and how likely it is to irritate. The full mechanism and per-acid evidence live on each ingredient's own page; this page maps them against each other.

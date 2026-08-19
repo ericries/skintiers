@@ -344,3 +344,9 @@
     verdict: add-high
     product_recs: restricted
     reason: 'Real, living, actively-posting board-certified dermatologist and dermatopathologist (FAAD) with a real primary channel on Instagram (@draegeanchan, ~48.1K followers, active through Aug 2026) and a smaller TikTok (@draegeanchan, 8,940 followers) — confirmed via'
+2026-08-19-pass-1:
+- name: Jenn Lexi (@jennlexi_)
+  slug: jennlexi
+  verdict: add-med
+  product_recs: restricted
+  reason: 'Real, active licensed esthetician (self-identified: "I''m an esthetician") posting a ''skincare ingredients dictionary'' educational series broken down by ingredient category. Credibility CHECKED against a transcript: her AHA/BHA/PHA breakdown (video 7675759886969392397) is accurate and science-aligned - correct categories, the molecular-size -> penetration -> irritation heuristic (glycolic small/stronger, lactic larger/gentler + humectant, mandelic largest/gentlest), no overclaiming. Conflict: #ad sponsored posts (TruSkin) + Target hauls/reviews, so product_recs restricted to educational content only. Added at MED as an esthetician educator.'
