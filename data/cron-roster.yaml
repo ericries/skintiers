@@ -22,7 +22,7 @@ _fill_template: |
 
   PURPOSE & SCOPE (this decides how much to write — obey it):
   - The site's CORE VALUE is product reviews + evidence tier lists, backed by ingredient evidence. Concentrate effort there.
-  - product / ingredient: CORE. Write the full standard page (product-page standard / prose "## The Rubric"). Worth the depth and the Opus critic.
+  - product / ingredient: CORE. Write the full standard page (product-page standard / prose "## The Rubric"). Worth the depth and the Opus critic. FOR INGREDIENT PAGES: also set a top-level evidence `tier:` frontmatter field (one of best/good/mid/weak) that reflects the page's OWN rubric verdict for a visible skin benefit (best=top-evidenced, good=strong, mid=moderate, weak=minimal/thin). This is the same grade the prose already argues, expressed structurally so the routine builder can group the ingredient by evidence (entity_tier reads it). Do NOT invent a tier; it must match the rubric you wrote/verified. If you only touch an already-published ingredient page that lacks `tier:`, add it from its existing rubric.
   - list: CORE (best-of / tier lists / routines). Curatorial over pages that ALREADY exist; keep any tier_list block; be concise, no padding.
   - condition / goal: hubs that drive DISCOVERY and host topic tier lists. Keep prose tight; PREFER adding/maintaining a tier_list of the graded items over a long essay.
   - brand: DISCOVERY AID ONLY. LEAN, <=180 words: what it is, founder in one line, and a linked list of its products/ingredients ALREADY on the site. NO founding-history or positioning essay. Attribute any brand claim as the brand's own. Its job is to link to products.
