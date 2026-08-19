@@ -21,6 +21,10 @@ grades:
     less photostable UVA filter than the modern-filter (Tinosorb, Mexoryl) products
     sold in the EU, Korea, and Australia'
   use: UVA (photoaging) protection
+images:
+- file: neutrogena-ultra-sheer-dry-touch-spf-70-target.jpg
+  source: Target
+  source_url: https://www.target.com/p/neutrogena-ultra-sheer-dry-touch-sunscreen-lotion-spf-70-3-fl-oz/-/A-80839024
 key_actives:
 - avobenzone
 name: Neutrogena Ultra Sheer Dry-Touch Sunscreen Broad Spectrum SPF 70

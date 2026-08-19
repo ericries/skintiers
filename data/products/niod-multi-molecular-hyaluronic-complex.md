@@ -3,6 +3,10 @@ analyzed: '2026-08-16'
 assurance: sonnet
 brand: NIOD
 category: Serums
+images:
+- file: niod-multi-molecular-hyaluronic-complex-niod.png
+  source: NIOD
+  source_url: https://niod.com/en-us/multi-molecular-hyaluronic-complex-mmhc2-serum-100365.html
 grades:
 - effect: notable
   evidence: solid

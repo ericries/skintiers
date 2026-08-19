@@ -4,6 +4,10 @@ brand: Naturium
 category: Exfoliants
 comparator: other salicylic acid (BHA) leave-on exfoliants (e.g. Paula's Choice Skin
   Perfecting 2% BHA Liquid Exfoliant)
+images:
+- file: naturium-bha-liquid-exfoliant-2-naturium.jpg
+  source: Naturium
+  source_url: https://naturium.com/products/bha-liquid-exfoliant-2
 grades:
 - effect: modest
   evidence: mixed

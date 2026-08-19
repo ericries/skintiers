@@ -2,6 +2,10 @@
 analyzed: '2026-08-18'
 brand: Nizoral
 category: Treatments
+images:
+- file: nizoral-anti-dandruff-shampoo-ketoconazole-1-target.jpg
+  source: Target
+  source_url: https://www.target.com/p/nizoral-1-ketoconazole-clean-anti-dandruff-shampoo-fresh-scent-7-fl-oz/-/A-94862244
 grades:
 - effect: notable
   evidence: mixed

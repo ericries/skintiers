@@ -4,6 +4,10 @@ assurance: sonnet
 brand: NIOD
 category: Peptide serums
 comparator: other copper-peptide and multi-peptide serums (e.g. The Ordinary Multi-Peptide + Copper Peptides 1% Serum)
+images:
+- file: niod-copper-amino-isolate-serum-3-1-1-niod.png
+  source: NIOD
+  source_url: https://niod.com/en-us/copper-amino-isolate-serum-3-11-cais3-serum-100368.html
 grades:
 - effect: substantial in laboratory and animal models, not established as a clinical treatment
   evidence: experimental
