@@ -5156,3 +5156,8 @@ angelo-landriscina:
   score: 9
   verdict: publish
   note: 'PERSON cron: lean discovery card. Credential VERIFIED via NPI API (1760836373): ANGELO LANDRISCINA MD, primary taxonomy Dermatology, NY license 305549. Links to his 3 transcript-verified video cards already on acne + sunscreen-uv-filters. Queue-next was Geeta Yadav but NPI has no dermatologist match for her (Canadian/CPSO; her queue NPI source is wrong) so did the cleanly-verifiable Angelo instead.'
+ketoconazole:
+  last_reviewed: '2026-08-19'
+  score: 9
+  verdict: publish
+  note: 'INGREDIENT cron: full page from the ketoconazole stub. Every quote/stat re-verified VERBATIM against the REAL primary sources via NCBI E-utilities (PubMed cookie-walls live fetch): Cochrane 2015 CD008138 (PMID 25933684) - 12 ketoconazole trials N=3253, 2% RR 0.69 (0.59-0.81, eight studies), ''low-quality evidence'', side effects ''44% lower...than in the steroid group'', ''24 trials'' COI, ciclopirox RR 1.09; Pierard 2001 (PMID 11306850) - 66 pts, ''2% significantly superior over 1% (p<0.001)''. Reused the same citations already verified on the Nizoral product page. tier: good (notable effect, FDA first-line, but Cochrane low-quality rating keeps it short of gold-standard). Opus critic agent unavailable (200-agent cap); verified directly in the Opus main loop.'

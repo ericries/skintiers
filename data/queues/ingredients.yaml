@@ -945,3 +945,16 @@
   status: pending
   discovered_from: null
   source: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3583886/
+- name: Ciclopirox (ciclopirox olamine)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: INGREDIENT cron (ketoconazole page; the other first-line antifungal
+    for seborrhoeic dermatitis, RR 1.09 vs ketoconazole in Cochrane CD008138)
+  source: https://pubmed.ncbi.nlm.nih.gov/25933684/
+- name: Selenium sulfide
+  type: ingredient
+  priority: 4
+  status: pending
+  discovered_from: INGREDIENT cron (OTC anti-dandruff active; peer to ketoconazole)
+  source: https://dailymed.nlm.nih.gov/
