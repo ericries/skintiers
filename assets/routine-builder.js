@@ -91,9 +91,14 @@
       });
     });
     var products = codes.map(function (c) { return catalog.p[c]; }).filter(Boolean);
-    var segs = products.map(function (p) { return p.g || 0; });
-    var mean = segs.length ? segs.reduce(function (a, b) { return a + b; }, 0) / segs.length : 0;
-    var strength = mean >= 3 ? 'Strong' : mean >= 2.25 ? 'Solid' : mean >= 1.5 ? 'Moderate' : 'Light';
+    // Strength averages GRADED products only (gr). A published-but-ungraded
+    // product or a stub has no measured effect, so counting it as 0 would wrongly
+    // drag strength down; such products are excluded, and a routine with no
+    // graded products is 'Unrated'.
+    var segs = products.filter(function (p) { return p.gr; }).map(function (p) { return p.g || 0; });
+    var mean = segs.length ? segs.reduce(function (a, b) { return a + b; }, 0) / segs.length : null;
+    var strength = mean === null ? 'Unrated'
+      : mean >= 3 ? 'Strong' : mean >= 2.25 ? 'Solid' : mean >= 1.5 ? 'Moderate' : 'Light';
 
     var count = {}, name = {};
     products.forEach(function (p) {

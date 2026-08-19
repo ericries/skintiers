@@ -54,8 +54,9 @@ Routine Builder reads the pre-derived `g` value, which is effect-only.)
 
 ## Step 2 — Routine strength label
 
-Compute the **mean** of the per-product effect strengths across the **distinct** products in
-the routine (deduplicate; a product listed in both AM and PM counts once). Map the mean:
+Compute the **mean** of the per-product effect strengths across the **distinct GRADED**
+products in the routine (deduplicate; a product listed in both AM and PM counts once). Map
+the mean:
 
 | mean effect segments | label    |
 |----------------------|----------|
@@ -64,7 +65,12 @@ the routine (deduplicate; a product listed in both AM and PM counts once). Map t
 | ≥ 1.5                | Moderate |
 | < 1.5                | Light    |
 
-An empty routine has mean 0 → Light (or simply report "no products yet").
+**Only graded products count.** A published-but-ungraded product (or a stub) has no measured
+effect; it MUST be excluded from the mean, never counted as effect 0 — otherwise it wrongly
+drags the routine down (e.g. an ungraded tretinoin product, the strongest active present,
+pulling a routine from Solid to Moderate). In the catalog a graded product is marked `gr:1`;
+average over those only. A routine with **no graded products** is **Unrated** (an empty
+routine likewise has nothing to grade).
 
 ## Step 3 — Actives covered
 

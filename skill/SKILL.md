@@ -118,11 +118,12 @@ When a user pastes a routine, produce the same dashboard the site's Routine Buil
 computed inline, no browser needed. **Follow `routine-strength-spec.md` (shipped alongside this
 file) exactly** so your answer matches the site's. In short:
 
-1. For each distinct product, effect strength (0–4) = best `(health)` grade's effect segments
-   (fall back to all grades if none are health-tagged; no grades → 0). Effect only — no
-   evidence demotion here.
-2. Routine strength = mean of those across distinct products →
-   `≥3 Strong · ≥2.25 Solid · ≥1.5 Moderate · else Light`.
+1. For each distinct GRADED product, effect strength (0–4) = best `(health)` grade's effect
+   segments (fall back to all grades if none are health-tagged). Effect only — no evidence
+   demotion here. A product with NO grades (published-but-ungraded, or a stub) is excluded, not
+   counted as 0.
+2. Routine strength = mean of those across distinct graded products →
+   `≥3 Strong · ≥2.25 Solid · ≥1.5 Moderate · else Light`; no graded products → Unrated.
 3. Actives = union of `key_actives`, counting how many products carry each.
 4. Sunscreen = are any actives UV filters? Report UVB/UVA coverage; if none, flag the gap.
 5. Notable actives absent = families in `routine-catalog.json`'s `notable` array with no member

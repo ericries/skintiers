@@ -40,3 +40,21 @@ assert.ok(/Azelaic acid is in 2/.test(dupFlag.text), 'dup flag text: ' + dupFlag
 // Evidence buckets: all three land in 'well' (best/good).
 assert.deepStrictEqual(fd.evidence.map(function (b) { return b.key; }), ['well'], 'evidence buckets: ' + JSON.stringify(fd.evidence));
 console.log('flags + evidence OK');
+
+// Strength averages GRADED products only (gr): an ungraded product must not
+// count as effect 0. Here a graded strong product (g4) sits beside an ungraded
+// one (no gr); strength must read 'Strong' (4), not 'Solid' (mean of 4 and 0).
+var gradeCat = {
+  v: 1,
+  p: {
+    '0': { s: 'strong-tret', n: 'Tret', c: 'T', t: 'top', g: 4, a: [], th: null, m: 'T', gr: 1 },
+    '1': { s: 'ungraded', n: 'Ungraded moisturizer', c: 'M', t: 'entry', g: 0, a: [], th: null, m: 'U' }
+  },
+  i: {}, notable: []
+};
+var gdA = rb.computeDashboard({ phases: [{ key: 'pm', items: [{ code: '0', freq: 7 }, { code: '1', freq: 7 }] }] }, gradeCat);
+assert.strictEqual(gdA.strength, 'Strong', 'ungraded product should be excluded; got ' + gdA.strength);
+// A routine with no graded products is 'Unrated', not 'Light'.
+var gdB = rb.computeDashboard({ phases: [{ key: 'pm', items: [{ code: '1', freq: 7 }] }] }, gradeCat);
+assert.strictEqual(gdB.strength, 'Unrated', 'all-ungraded routine should be Unrated; got ' + gdB.strength);
+console.log('strength grading OK');

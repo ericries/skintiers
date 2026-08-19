@@ -2,10 +2,10 @@
   "catalog": {
     "v": 1,
     "p": {
-      "0": {"s": "cleanser", "n": "Cleanser", "c": "Cleansers", "t": "entry", "g": 1, "a": [], "th": null, "m": "C"},
-      "1": {"s": "cvit", "n": "C E Ferulic", "c": "Vitamin C serums", "t": "top", "g": 3, "a": ["ascorbic-acid-vitamin-c"], "th": null, "m": "CE"},
-      "2": {"s": "cream", "n": "Moisturizer", "c": "Moisturizers", "t": "top", "g": 3, "a": ["ceramides", "niacinamide"], "th": null, "m": "M"},
-      "3": {"s": "spf", "n": "Sunscreen", "c": "Sunscreens", "t": "top", "g": 3, "a": ["zinc-oxide", "niacinamide"], "th": null, "m": "S"}
+      "0": {"s": "cleanser", "n": "Cleanser", "c": "Cleansers", "t": "entry", "g": 1, "a": [], "th": null, "m": "C", "gr": 1},
+      "1": {"s": "cvit", "n": "C E Ferulic", "c": "Vitamin C serums", "t": "top", "g": 3, "a": ["ascorbic-acid-vitamin-c"], "th": null, "m": "CE", "gr": 1},
+      "2": {"s": "cream", "n": "Moisturizer", "c": "Moisturizers", "t": "top", "g": 3, "a": ["ceramides", "niacinamide"], "th": null, "m": "M", "gr": 1},
+      "3": {"s": "spf", "n": "Sunscreen", "c": "Sunscreens", "t": "top", "g": 3, "a": ["zinc-oxide", "niacinamide"], "th": null, "m": "S", "gr": 1}
     },
     "i": {
       "ascorbic-acid-vitamin-c": {"n": "Vitamin C", "ev": "good"},

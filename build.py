@@ -824,9 +824,15 @@ def routine_summary(profile, by_slug):
         }
         phases.get((step.get("when") or "AM").upper().strip(), phases["AM"]).append(row)
 
+    # Strength and the tier distribution count only GRADED products. A
+    # published-but-ungraded product (or a stub) has no measured effect; treating
+    # it as 0 would wrongly drag the routine down, so it is excluded (not counted
+    # as "none"/entry tier).
     tier_counts = {key: 0 for key, _label, _words in _ROUTINE_TIERS}
     seg_values = []
     for prod in products:
+        if not prod.metadata.get("grades"):
+            continue
         word = _top_health_effect(prod.metadata)
         seg_values.append(EFFECT_SEGS.get(word, 0))
         for key, _label, words in _ROUTINE_TIERS:
@@ -836,15 +842,20 @@ def routine_summary(profile, by_slug):
     tiers = [{"key": key, "label": label, "count": tier_counts[key]}
              for key, label, _words in _ROUTINE_TIERS]
 
-    # A single "how well it works" read: the mean of the products' best HEALTH
-    # effect (0 to 4), mapped to a plain word. It is a summary of the graded
-    # products, not a trial of the routine, and is labeled that way on the page.
-    mean_seg = sum(seg_values) / len(seg_values) if seg_values else 0
-    for cutoff, word in ((3.0, "Strong"), (2.25, "Solid"), (1.5, "Moderate"), (0, "Light")):
-        if mean_seg >= cutoff:
-            strength_label = word
-            break
-    strength = {"label": strength_label, "segs": round(mean_seg), "mean": round(mean_seg, 2)}
+    # A single "how well it works" read: the mean of the GRADED products' best
+    # HEALTH effect (0 to 4), mapped to a plain word. It is a summary of the
+    # graded products, not a trial of the routine, and is labeled that way on the
+    # page. With no graded products the routine is "Unrated" rather than 0.
+    if seg_values:
+        mean_seg = sum(seg_values) / len(seg_values)
+        for cutoff, word in ((3.0, "Strong"), (2.25, "Solid"), (1.5, "Moderate"), (0, "Light")):
+            if mean_seg >= cutoff:
+                strength_label = word
+                break
+    else:
+        mean_seg, strength_label = 0, "Unrated"
+    strength = {"label": strength_label, "segs": round(mean_seg), "mean": round(mean_seg, 2),
+                "graded_count": len(seg_values)}
 
     # Active ingredients "as a whole": each product's declared `key_actives:`
     # (author-declared, so base emollients and comparators do not leak in). We
@@ -1006,6 +1017,12 @@ def routine_catalog(profiles, by_slug, code_map):
                        "c": p.metadata.get("category") or "", "t": tier_key,
                        "g": EFFECT_SEGS.get(effect, 0), "a": actives,
                        "th": imgs[0]["src"] if imgs else None, "m": mono}
+        # gr=1 marks a product that actually carries grades, so the client can
+        # average strength over graded products only. A published-but-ungraded
+        # product (or a stub) must NOT count as effect 0, which would wrongly
+        # drag the routine's strength down.
+        if p.metadata.get("grades"):
+            prods[code]["gr"] = 1
     notable = [[label, sorted(members)] for label, members in _NOTABLE_ACTIVES]
     return {"v": routine_string.GRAMMAR, "p": prods, "i": ings, "notable": notable}
 
