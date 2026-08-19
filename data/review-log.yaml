@@ -5146,3 +5146,8 @@ naturium-bha-liquid-exfoliant-2:
   score: 8
   verdict: revise-then-fixed
   note: 'PRODUCT cron (Fable draft -> Opus critic revise->fixed). Naturium BHA Liquid Exfoliant 2% (salicylic acid). Critic removed an unsupported pH-penetration mechanism claim mis-attributed to salicylic-acid (whose page covers lipophilicity, not pH/pKa); grades trace to salicylic-acid (health/mixed, cosmetic/preliminary). Gates clean; force-published. (Drained during a classifier outage via the Workflow tool.)'
+nukaly-2026-oral-topical-peptides-skin-aging-meta-analysis:
+  last_reviewed: '2026-08-19'
+  score: 10
+  verdict: publish
+  note: 'Study cron: compact structured meta-analysis page. Every quote + stat verified VERBATIM against the NCBI E-utilities abstract (PubMed cookie-walls live fetch): 19 RCTs/1,341 pts, MD=0.27 p=0.04, MD=1.5 p=0.01, CRD420250652779, PMID 41924746. Skeptical framing (wrinkle benefit driven by ORAL polypeptides, not topical) is faithful. Independent profile-reviewer agent was blocked by the 200-agent session cap; verified directly in the Opus main loop against the primary source.'

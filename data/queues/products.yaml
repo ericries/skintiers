@@ -1729,3 +1729,15 @@
   status: pending
   discovered_from: null
   source: https://naturium.com
+- name: The Ordinary Argireline Solution 10%
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: STUDY cron (Nukaly 2026 peptide meta-analysis; ties to argireline-acetyl-hexapeptide-8)
+  source: https://theordinary.com/
+- name: Paula's Choice Peptide Booster
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: STUDY cron (Nukaly 2026 peptide meta-analysis)
+  source: https://www.paulaschoice.com/
