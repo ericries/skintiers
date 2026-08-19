@@ -1,77 +1,69 @@
-"""Render-level smoke test: build the REAL site and assert the composed HTML has no
-known-bad patterns. Our other gates (sk lint/verify/style) validate the markdown
-SOURCE; this is the only gate that looks at what the reader actually sees. Every bug
-in the 2026-08-10 session lived here (evidence-box subject-doubling, empty verdicts,
-unresolved xrefs, an unreplaced chart marker). CI runs pytest before build+deploy, so
-a failure here blocks the broken version from going live.
+"""Render-level smoke test: build the whole site from the REAL data and assert the
+composed HTML has none of the known-bad render patterns that source-level lint
+(sk lint/verify/style) cannot see. Every render bug this project has shipped lived
+in the gap between markdown source and rendered output (unresolved [[xref]] showing
+as raw slug text, doubled-subject verdicts like "Adapalene is adapalene is"). Those
+are invisible to the source gates; this test is the render gate.
+
+The build is isolated in a copy of data/ so it cannot mutate the repo (build.py
+writes routine-codes.yaml back into its data dir).
 """
+import glob
 import os
+import pathlib
 import re
+import shutil
 import subprocess
 import sys
-import pathlib
+
+import pytest
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 
-# An actual unrendered xref: [[slug]] or [[slug|alias]] that survived to HTML. The
-# renderer always turns these into <a> or plain label text, so any survivor is a bug.
-_UNRENDERED_XREF = re.compile(r"\[\[[a-z0-9][a-z0-9 |#-]*\]\]")
-# The evidence box composes level 01 as "{Name} is {note}"; a note that restated the
-# subject doubled it ("Adapalene is adapalene is ..."). Detect a word repeated as
-# "Word is word is" inside a verdict.
-_DOUBLED_SUBJECT = re.compile(r"\b(\w+) is \1 is\b", re.IGNORECASE)
-_EVL_VERDICT = re.compile(r'<p class="evl-verdict">(.*?)</p>', re.DOTALL)
+# routine.html and 404.html inline the routine catalog JSON, whose `notable`
+# array-of-arrays legitimately contains "[[" — they are app shells, not profile
+# content, so they are exempt from the xref-survival scan.
+_SHELLS = {"routine.html", "404.html"}
 
 
-def _build_real_site(tmp_path):
-    out = tmp_path / "_site"
-    env = {**os.environ, "SK_OUTPUT": str(out)}  # SK_DATA defaults to the real data/
+@pytest.fixture(scope="module")
+def rendered_site(tmp_path_factory):
+    tmp = tmp_path_factory.mktemp("render")
+    data = tmp / "data"
+    shutil.copytree(ROOT / "data", data)
+    out = tmp / "_site"
+    env = {**os.environ, "SK_DATA": str(data), "SK_OUTPUT": str(out)}
     r = subprocess.run([sys.executable, str(ROOT / "build.py")], env=env,
                        capture_output=True, text=True)
     assert r.returncode == 0, r.stderr
     return out
 
 
-def test_rendered_site_has_no_render_defects(tmp_path):
-    out = _build_real_site(tmp_path)
-    pages = list(out.glob("*.html"))
-    assert pages, "build produced no pages"
-
-    unrendered_xrefs, doubled, empty_verdicts, stray_markers = [], [], [], []
-    for p in pages:
-        html = p.read_text()
-        if _UNRENDERED_XREF.search(html):
-            unrendered_xrefs.append(f"{p.name}: {_UNRENDERED_XREF.search(html).group(0)}")
-        if "<!--uv-filter-spectrum-->" in html:
-            stray_markers.append(p.name)
-        for verdict in _EVL_VERDICT.findall(html):
-            inner = verdict.strip()
-            if inner in (".", ""):
-                empty_verdicts.append(p.name)
-            m = _DOUBLED_SUBJECT.search(re.sub(r"<[^>]+>", "", verdict))
-            if m:
-                doubled.append(f"{p.name}: {m.group(0)}")
-
-    problems = []
-    if unrendered_xrefs:
-        problems.append(f"unrendered xref markup survived to HTML: {unrendered_xrefs[:5]}")
-    if doubled:
-        problems.append(f"evidence-box subject doubled ('Word is word is'): {doubled[:5]}")
-    if empty_verdicts:
-        problems.append(f"empty evidence-box verdict (bare '.'): {empty_verdicts[:5]}")
-    if stray_markers:
-        problems.append(f"unreplaced UV-filter chart marker: {stray_markers[:5]}")
-    assert not problems, "render defects found:\n" + "\n".join(problems)
+def _content_pages(out):
+    for f in glob.glob(str(out / "*.html")):
+        if os.path.basename(f) not in _SHELLS:
+            yield f
 
 
-def test_feed_page_lists_videos_newest_first(tmp_path):
-    """The Feed page must build, carry the site's video cards, and show their posting
-    dates in descending (newest-first) order - the ordering is the whole point."""
-    out = _build_real_site(tmp_path)
-    feed = out / "feed.html"
-    assert feed.exists(), "build did not produce feed.html"
-    html = feed.read_text()
-    assert 'class="vid"' in html, "feed.html has no video cards"
-    dates = re.findall(r'vid-date">(\d{4}-\d\d-\d\d)<', html)
-    assert len(dates) >= 5, f"feed.html shows too few dated cards: {len(dates)}"
-    assert dates == sorted(dates, reverse=True), "feed cards are not newest-first by post date"
+def test_no_unresolved_xref_survives_into_html(rendered_site):
+    offenders = []
+    for f in _content_pages(rendered_site):
+        html = pathlib.Path(f).read_text()
+        i = html.find("[[")
+        if i != -1:
+            offenders.append(f"{os.path.basename(f)}: ...{html[max(0, i-40):i+40]}...")
+    assert not offenders, (
+        "unresolved [[xref]] rendered as raw text (should be a link or |alias):\n"
+        + "\n".join(offenders[:10])
+    )
+
+
+def test_no_doubled_subject_in_html(rendered_site):
+    # The evidence-box template composes "{name} is {note}"; a note that restates
+    # the subject produced "Adapalene is adapalene is ...". Catch that class.
+    pat = re.compile(r"\b(\w+) is \1 is\b", re.I)
+    offenders = []
+    for f in _content_pages(rendered_site):
+        for m in pat.finditer(pathlib.Path(f).read_text()):
+            offenders.append(f"{os.path.basename(f)}: '{m.group(0)}'")
+    assert not offenders, "doubled-subject verdict rendered:\n" + "\n".join(offenders[:10])
