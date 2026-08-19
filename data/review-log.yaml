@@ -5161,3 +5161,8 @@ ketoconazole:
   score: 9
   verdict: publish
   note: 'INGREDIENT cron: full page from the ketoconazole stub. Every quote/stat re-verified VERBATIM against the REAL primary sources via NCBI E-utilities (PubMed cookie-walls live fetch): Cochrane 2015 CD008138 (PMID 25933684) - 12 ketoconazole trials N=3253, 2% RR 0.69 (0.59-0.81, eight studies), ''low-quality evidence'', side effects ''44% lower...than in the steroid group'', ''24 trials'' COI, ciclopirox RR 1.09; Pierard 2001 (PMID 11306850) - 66 pts, ''2% significantly superior over 1% (p<0.001)''. Reused the same citations already verified on the Nizoral product page. tier: good (notable effect, FDA first-line, but Cochrane low-quality rating keeps it short of gold-standard). Opus critic agent unavailable (200-agent cap); verified directly in the Opus main loop.'
+eltamd-uv-clear-broad-spectrum-spf-46:
+  last_reviewed: '2026-08-19'
+  score: 9
+  verdict: publish
+  note: 'PRODUCT cron: filled from queue (EltaMD UV Clear SPF 46). Composition/price/claims verified against the OFFICIAL EltaMD product page, fetched via curl (WebFetch 403''d) and CACHED verbatim (research-cache/web/c571556ca247ac3e.md): Drug Facts actives ''Octinoxate 7.5%'' + ''Zinc Oxide 9.0%'', 1.7 oz at $45, niacinamide + hyaluronic acid featured. Key honest point surfaced: it is a chemical-and-mineral HYBRID (contains octinoxate), not the pure-mineral sunscreen its sensitive-skin reputation implies; UVA rests on zinc oxide alone. Graded notable/solid UVB + UVA (a notch below the SPF 70 in the catalog); no product-specific trial, filter evidence links to sunscreen-uv-filters. Opus critic agent unavailable (200-agent cap); verified directly in the Opus main loop against the cached source.'

@@ -1390,7 +1390,7 @@
     NeoStrata's efficacy claims as the brand's own. https://www.neostrata.com
 - name: Vichy Mineral 89 (resolve two-formula identity first)
   type: product
-  priority: 6
+  priority: 2
   status: pending
   discovered_from: null
   source: 'BLOCKED 2026-08-12: two formulas share the name. Vichy''s own US page now
@@ -1750,7 +1750,14 @@
 - name: EltaMD UV Clear Broad-Spectrum SPF 46
   type: product
   priority: 6
-  status: pending
+  status: done
   discovered_from: LIST cron (most derm-recommended daily facial sunscreen; ties to
     sunscreen-uv-filters + best-sunscreens-daily-wear)
   source: https://eltamd.com/products/uv-clear-broad-spectrum-spf-46
+- name: EltaMD UV Physical Broad-Spectrum SPF 41 (tinted mineral)
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: PRODUCT cron (EltaMD UV Clear page; the pure-mineral tinted EltaMD,
+    a contrast to UV Clear's octinoxate hybrid)
+  source: https://eltamd.com/
