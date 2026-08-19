@@ -107,6 +107,16 @@ videos:
   related: []
   thesis: "Dr. Heather Woolery-Lloyd, a board-certified dermatologist, discusses an investigational at-home acne injection device called ClearPen, being developed by the company Indomo. The device uses a microneedle delivery system to let patients self-administer triamcinolone, a steroid dermatologists use to rapidly reduce inflammation, directly into inflammatory acne lesions, and is currently headed into phase two clinical trials."
   note: "Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship."
+- title: 'Acne Purging: What It Is and How to Manage It'
+  creator: Dr Sam Bunting
+  creator_slug: sam-bunting
+  credential: Board-certified dermatologist (UK)
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=1T_3APXXtDw
+  posted: '2024-01-11'
+  related: [retinoids, tretinoin, adapalene, salicylic-acid]
+  thesis: UK board-certified dermatologist Dr Sam Bunting explains acne purging, the turbulent first six weeks after starting an active-based acne routine that targets the root cause. She describes how a blemish begins with a clogged pore where sticky skin cells block the follicle so oil and acne bacteria build up behind the blockage and inflammation forms, and how starting an active that unclogs pores brings that already-forming congestion to the surface faster, which is the purge. Her point is not to let fear of purging delay treating acne for a single day longer.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 tier_list:
   title: "Acne topical actives by evidence"
   by: "strength of the evidence for treating acne — several of these are clinically similar, so the tiers track evidence certainty, not effect size alone"
