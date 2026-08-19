@@ -108,17 +108,11 @@ def _set_and_build(slug, status, mark_analyzed=False):
     return cmd_build(None)
 
 
-# Page types whose fill workflow runs an independent Opus profile-reviewer critic
-# (sources re-fetched, quotes/stats checked). Only these earn `assurance: opus`
-# from a passing review. Person/brand/condition/goal/list pages have NO critic —
-# their review-log entry is a self-check, so they stay `sonnet`, not `opus`.
-CRITIC_TYPES = ("product", "ingredient", "study")
-
-
 def _publish_assurance(page_type, verdict):
     """The assurance level a passing review earns at publish, or None to leave the
-    page's declared assurance untouched. Only critic-backed types earn 'opus'."""
-    if verdict == "publish" and page_type in CRITIC_TYPES:
+    page's declared assurance untouched. Only critic-backed types (sklib.CRITIC_TYPES)
+    earn 'opus'; check_profile lints the same rule so the two cannot drift."""
+    if verdict == "publish" and page_type in sklib.CRITIC_TYPES:
         return "opus"
     return None
 

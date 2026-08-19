@@ -7,14 +7,27 @@ import pytest
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 
 
+def _runnable(node):
+    try:
+        return subprocess.run([node, "-e", "process.exit(0)"],
+                              capture_output=True, text=True).returncode == 0
+    except OSError:
+        return False
+
+
 def _node_or_skip():
-    node = shutil.which("node")
-    if not node:
+    # Try PATH's node first, then common install locations. A node that is present
+    # but broken (e.g. Homebrew icu4c version drift) must NOT silently skip the
+    # test when another working node exists -- this JS is the user-facing routine
+    # builder logic and has to stay gated.
+    candidates = [shutil.which("node"), "/opt/homebrew/bin/node", "/usr/local/bin/node"]
+    for node in candidates:
+        if node and _runnable(node):
+            return node
+    present = [c for c in candidates if c]
+    if not present:
         pytest.skip("node not installed")
-    probe = subprocess.run([node, "-e", "process.exit(0)"], capture_output=True, text=True)
-    if probe.returncode != 0:
-        pytest.skip(f"node present but not runnable: {probe.stderr.strip()[:120]}")
-    return node
+    pytest.skip(f"node present but none runnable (tried {present})")
 
 
 def test_js_codec_matches_shared_vectors():

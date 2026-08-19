@@ -115,6 +115,12 @@ VALID_STATUS = ("stub", "draft", "published")
 # clean, single pass; opus = independently critic-verified (sources re-fetched,
 # quotes/stats checked); reviewed = human sign-off. Backfilled from review-log.
 VALID_ASSURANCE = ("stub", "sonnet", "opus", "reviewed")
+# Page types whose fill workflow runs an independent Opus profile-reviewer critic
+# (sources re-fetched, quotes/stats checked). ONLY these may carry assurance: opus.
+# Person/brand/condition/goal/list pages have no critic, so their self-check is
+# 'sonnet'. Shared by cmd_publish (which stamps it) and check_profile (which lints
+# it) so the two can never disagree.
+CRITIC_TYPES = ("product", "ingredient", "study")
 
 _REF_RE = re.compile(r"\[\^([^\]]+)\](?!:)")
 _DEF_RE = re.compile(r"^\[\^([^\]]+)\]:", re.MULTILINE)
@@ -131,6 +137,11 @@ def check_profile(metadata, content):
         errors.append(f"invalid status: {metadata['status']}")
     if metadata.get("assurance") and metadata["assurance"] not in VALID_ASSURANCE:
         errors.append(f"invalid assurance: {metadata['assurance']} (must be one of {VALID_ASSURANCE})")
+    if metadata.get("assurance") == "opus" and metadata.get("type") not in CRITIC_TYPES:
+        errors.append(
+            f"assurance: opus is only valid for critic-backed types {CRITIC_TYPES}; "
+            f"a '{metadata.get('type')}' page has no Opus critic (use 'sonnet')"
+        )
     if metadata.get("type") == "list":
         kind = metadata.get("kind")
         if not kind:

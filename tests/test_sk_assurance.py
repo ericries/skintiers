@@ -34,6 +34,28 @@ def test_valid_assurance_constant_exposed():
     assert sklib.VALID_ASSURANCE == ("stub", "sonnet", "opus", "reviewed")
 
 
+def test_opus_rejected_on_non_critic_types():
+    # person/brand/condition/goal/list have no Opus critic -> opus is a lint error
+    for typ in ("person", "brand", "condition", "goal", "list"):
+        meta = {**BASE, "type": typ, "assurance": "opus"}
+        if typ == "list":
+            meta["kind"] = "best-of"
+        errs = _errors(meta)
+        assert any("assurance: opus is only valid" in e for e in errs), typ
+
+
+def test_opus_allowed_on_critic_types():
+    for typ in ("product", "ingredient", "study"):
+        errs = _errors({**BASE, "type": typ, "assurance": "opus"})
+        assert not any("only valid" in e for e in errs), typ
+
+
+def test_sonnet_allowed_on_any_type():
+    for typ in ("person", "brand", "condition"):
+        errs = _errors({**BASE, "type": typ, "assurance": "sonnet"})
+        assert not any("assurance" in e for e in errs), typ
+
+
 def _write_profile(tmp_path, assurance=None):
     import frontmatter
     p = tmp_path / "x.md"
