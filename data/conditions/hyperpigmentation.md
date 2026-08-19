@@ -168,6 +168,16 @@ videos:
   related: [melasma, sunscreen-uv-filters]
   thesis: "Board-certified dermatologist Davin Lim explains that hyperpigmentation comes down to three drivers, genetics, sun exposure, and hormones, and that UV radiation including visible light, UVA, and UVB stimulates melanocytes to overproduce pigment. He notes that melasma, sometimes called the mask of pregnancy, is a genetically predisposed form that settles on its own in roughly half of cases but persists in the rest, and that persistent pigmentation usually needs dermatologist-guided treatment alongside strict sun protection."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: "Stop Buying Dark Spot Removers Until You Watch This"
+  creator: "Dr. Dustin Portela"
+  creator_slug: dustin-portela
+  credential: "Board-certified dermatologist"
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=M-tG_msV1KE
+  posted: '2026-04-12'
+  related: [melasma, hydroquinone, tranexamic-acid, ascorbic-acid-vitamin-c, niacinamide, azelaic-acid, sunscreen-uv-filters, kojic-acid]
+  thesis: "Board-certified dermatologist Dustin Portela debunks viral instant dark-spot removers and lays out what actually fades hyperpigmentation. He stresses that UV radiation is the number one trigger for melanin production, so daily sunscreen is not just prevention but a core part of treatment, and walks through evidence-backed brightening actives including hydroquinone, tranexamic acid, vitamin C, niacinamide, azelaic acid, and kojic acid, while warning that cheap 48-hour miracle products often leave skin worse and that fading dark spots takes time and consistency, not a quick fix."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 
 ---
 

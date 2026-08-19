@@ -58,10 +58,10 @@
 - name: Dr. Dustin Portela
   creator_slug: dustin-portela
   flagship: true
-  backfill_cursor: 15
+  backfill_cursor: 30
   credential: Board-certified dermatologist
   tier: HIGH
-  channel: https://www.youtube.com/@DustinPortelaDO/videos
+  channel: https://www.youtube.com/channel/UCC9iFyuXhE3Epr-rJsFiK3Q/videos
   conflict: null
   last_pulled: '2026-08-16'
 - name: Javon Ford
