@@ -5136,3 +5136,8 @@ skin-barrier-strengthening:
   score: 8
   verdict: publish
   note: 'GOAL cron (inline tier_list, no fresh critic). Structured skin-barrier-strengthening''s own prose Tier 1-2 ranking: petrolatum/glycerin/hyaluronic-acid/ceramides/sunscreen (strong), dimethicone/niacinamide/cholesterol/phytosphingosine/colloidal-oatmeal (moderate). Graded CONSISTENTLY with the skin-barrier-repair tier_list to avoid cross-page conflict (colloidal-oatmeal/dimethicone kept moderate rather than the page''s looser Tier-1 grouping); probiotics (overhyped) excluded. No new claims; all 10 slugs resolve; gates clean.'
+nizoral-anti-dandruff-shampoo-ketoconazole-1:
+  last_reviewed: '2026-08-18'
+  score: 8
+  verdict: revise-then-fixed
+  note: 'PRODUCT cron (Fable draft -> Opus critic revise->fixed). Nizoral A-D Shampoo (ketoconazole 1%), framed for its fungal-acne/seb-derm skincare use. Critic: softened dandruff grade solid->mixed (placebo never tested; open-label Pierard-Franchimont trial disclosed; Cochrane RR 0.55 CI 0.38-0.80 cited directly), corrected pack sizes vs DailyMed, added Target SKU. Created ketoconazole ingredient stub + linked. Gates clean; force-published.'

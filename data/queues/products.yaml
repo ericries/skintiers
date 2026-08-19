@@ -1479,7 +1479,7 @@
 - name: Nizoral Anti-Dandruff Shampoo (ketoconazole 1%)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: fungal-acne
   source: OTC ketoconazole shampoo widely used off-label as a body wash for fungal
     acne/Malassezia; a real product for the fungal-acne hub once ketoconazole has
