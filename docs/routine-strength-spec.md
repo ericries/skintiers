@@ -125,3 +125,25 @@ Result to present: *"Moderate strength (a summary of the graded products, not a 
 routine). Sunscreen present with UVB + UVA coverage. Niacinamide covered. No retinoid,
 vitamin C, or exfoliant — add one if your goals call for it. Every number links back to the
 product and ingredient pages it came from."*
+
+---
+
+## Builder-only analysis signals (evidence grouping + flags)
+
+These are computed **client-side by the routine builder** (`assets/routine-builder.js`
+`computeDashboard`) from the enriched catalog; they are NOT part of the strength number
+above and are not (yet) mirrored in the server-side `routine_summary`. The catalog carries,
+per active (`i[slug]`): `ev` = the ingredient's own evidence tier from `entity_tier()`
+(best/good/mid/weak; omitted if the page has no `tier:`/`grades:`), `cl` = redundancy family
+(`_ROUTINE_CLASS`: retinoid / vitamin-c / exfoliant), `ir` = 1 if a commonly-irritating
+active (`_ROUTINE_IRRITANT`). All three are ingredient-identity facts, never efficacy claims.
+
+**Actives by evidence** — group the routine's actives into buckets by `ev`:
+well-evidenced (best+good), some evidence (mid), limited (weak), not yet rated (no tier).
+Each links to its ingredient page. Coverage depends on ingredient pages carrying a tier;
+ungraded ingredients fall to "not yet rated" until their page is graded.
+
+**Flags** (worded as redundancy/irritation, never as hard "never mix" bans):
+- `dup` — an irritant active (`ir`) present in ≥2 products ("doubling the same active").
+- `class` — ≥2 distinct actives sharing a `cl` family ("you have 2 retinoids …").
+- `load` — ≥3 distinct irritant actives ("introduce them one at a time").

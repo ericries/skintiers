@@ -8,9 +8,9 @@
       "3": {"s": "spf", "n": "Sunscreen", "c": "Sunscreens", "t": "top", "g": 3, "a": ["zinc-oxide", "niacinamide"], "th": null, "m": "S"}
     },
     "i": {
-      "ascorbic-acid-vitamin-c": {"n": "Vitamin C"},
-      "ceramides": {"n": "Ceramides"},
-      "niacinamide": {"n": "Niacinamide"},
+      "ascorbic-acid-vitamin-c": {"n": "Vitamin C", "ev": "good"},
+      "ceramides": {"n": "Ceramides", "ev": "mid"},
+      "niacinamide": {"n": "Niacinamide", "ev": "good"},
       "zinc-oxide": {"n": "Zinc oxide", "f": "both"}
     },
     "notable": [["Retinoid", ["retinol", "tretinoin"]], ["Vitamin C", ["ascorbic-acid-vitamin-c", "vitamin-c"]], ["Niacinamide", ["niacinamide"]], ["Exfoliant", ["salicylic-acid"]]]
@@ -23,6 +23,11 @@
     "product_count": 4,
     "ingredients": [{"slug": "niacinamide", "name": "Niacinamide", "count": 2}, {"slug": "ceramides", "name": "Ceramides", "count": 1}, {"slug": "ascorbic-acid-vitamin-c", "name": "Vitamin C", "count": 1}],
     "filters": {"coverage": "UVB + UVA", "entries": [{"slug": "zinc-oxide", "name": "Zinc oxide"}]},
-    "absent": ["Retinoid", "Exfoliant"]
+    "absent": ["Retinoid", "Exfoliant"],
+    "evidence": [
+      {"key": "well", "label": "Well-evidenced", "items": [{"slug": "niacinamide", "name": "Niacinamide", "count": 2}, {"slug": "ascorbic-acid-vitamin-c", "name": "Vitamin C", "count": 1}]},
+      {"key": "some", "label": "Some evidence", "items": [{"slug": "ceramides", "name": "Ceramides", "count": 1}]}
+    ],
+    "flags": []
   }
 }

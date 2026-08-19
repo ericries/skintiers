@@ -599,6 +599,32 @@ def entity_tier(metadata):
 
 _TIER_ORDER = ["best", "good", "mid", "weak", "unrated"]
 
+# Ingredient FAMILIES where "one is usually enough" holds. The routine builder
+# uses these to flag redundancy (two retinoids, two vitamin C products, two
+# chemical exfoliants) so a user layering the same job twice sees it. These are
+# ingredient-identity groupings, NOT efficacy claims. Keyed by ingredient slug.
+_ROUTINE_CLASS = {
+    "retinoids": "retinoid", "tretinoin": "retinoid", "retinol": "retinoid",
+    "retinaldehyde": "retinoid", "adapalene": "retinoid", "bakuchiol": "retinoid",
+    "hydroxypinacolone-retinoate": "retinoid", "retinyl-esters": "retinoid",
+    "retinyl-retinoate": "retinoid",
+    "vitamin-c": "vitamin-c", "ascorbic-acid-vitamin-c": "vitamin-c",
+    "3-o-ethyl-ascorbic-acid": "vitamin-c", "ascorbyl-glucoside": "vitamin-c",
+    "ascorbyl-palmitate": "vitamin-c", "magnesium-ascorbyl-phosphate": "vitamin-c",
+    "sodium-ascorbyl-phosphate": "vitamin-c", "tetrahexyldecyl-ascorbate": "vitamin-c",
+    "glycolic-acid": "exfoliant", "lactic-acid": "exfoliant", "mandelic-acid": "exfoliant",
+    "salicylic-acid": "exfoliant", "gluconolactone-pha": "exfoliant",
+}
+# Actives that commonly cause irritation / dryness, for the builder's active-load
+# flag ("you are layering N potentially-irritating actives"). Deliberately
+# excludes the gentle members of the families above (bakuchiol, PHA).
+_ROUTINE_IRRITANT = {
+    "retinoids", "tretinoin", "retinol", "retinaldehyde", "adapalene",
+    "hydroxypinacolone-retinoate", "retinyl-esters", "retinyl-retinoate",
+    "glycolic-acid", "lactic-acid", "mandelic-acid", "salicylic-acid",
+    "azelaic-acid", "benzoyl-peroxide", "sulfur",
+}
+
 
 def tier_list_view(profile, by_slug):
     """Build the tier-list render model from a page's `tier_list:` frontmatter,
@@ -965,6 +991,16 @@ def routine_catalog(profiles, by_slug, code_map):
                     _n, lo, hi = uv_map[slug]
                     meta["f"] = ("both" if lo < 320 and hi > 320
                                  else "uvb" if lo < 320 else "uva")
+                # Enrich actives so the builder can do real analysis: the
+                # ingredient's own evidence tier (ev), redundancy family (cl),
+                # and whether it commonly irritates (ir).
+                ev = entity_tier(by_slug[slug].metadata)
+                if ev:
+                    meta["ev"] = ev
+                if slug in _ROUTINE_CLASS:
+                    meta["cl"] = _ROUTINE_CLASS[slug]
+                if slug in _ROUTINE_IRRITANT:
+                    meta["ir"] = 1
                 ings[slug] = meta
         prods[code] = {"s": p["slug"], "n": p.metadata.get("name") or p["slug"],
                        "c": p.metadata.get("category") or "", "t": tier_key,

@@ -375,6 +375,38 @@ def test_routine_dashboard_aggregates_from_products(tmp_path):
     assert 'class="routine-dash"' not in (out / "treatment.html").read_text()
 
 
+def test_routine_catalog_enriches_actives_with_tier_class_irritant(tmp_path):
+    # The routine builder catalog carries, per active, the ingredient's own
+    # evidence tier (ev), its redundancy family (cl), and whether it commonly
+    # irritates (ir) -- so the client can group actives by evidence and flag
+    # redundancy/load. Absent signals are omitted, not emitted as null.
+    import json
+    data = tmp_path / "data"
+    out = tmp_path / "_site"
+
+    def _ing(slug, name, tier):
+        d = data / "ingredients"
+        d.mkdir(parents=True, exist_ok=True)
+        (d / f"{slug}.md").write_text(
+            f"---\nname: {name}\nslug: {slug}\ntype: ingredient\nstatus: published\n"
+            f"updated: 2026-08-19\nanalyzed: 2026-08-19\ntier: {tier}\n---\n\nBody.\n"
+        )
+
+    _ing("tretinoin", "Tretinoin", "strong")      # -> ev good, retinoid, irritant
+    _ing("ceramides", "Ceramides", "minimal")     # -> ev weak, no class, not irritant
+    _ing("salicylic-acid", "Salicylic acid", "moderate")  # -> ev mid, exfoliant, irritant
+    _write_graded_product(data / "products", "treatment", "notable",
+                          ["tretinoin", "ceramides", "salicylic-acid"])
+    env = {**os.environ, "SK_DATA": str(data), "SK_OUTPUT": str(out)}
+    r = subprocess.run([sys.executable, str(ROOT / "build.py")], env=env,
+                       capture_output=True, text=True)
+    assert r.returncode == 0, r.stderr
+    ings = json.loads((out / "routine-catalog.json").read_text())["i"]
+    assert ings["tretinoin"] == {"n": "Tretinoin", "ev": "good", "cl": "retinoid", "ir": 1}
+    assert ings["salicylic-acid"] == {"n": "Salicylic acid", "ev": "mid", "cl": "exfoliant", "ir": 1}
+    assert ings["ceramides"] == {"n": "Ceramides", "ev": "weak"}  # no cl/ir keys emitted
+
+
 def test_routine_groups_sunscreen_filters_by_uv_band(tmp_path):
     # Sunscreen filters (which readers do not recognize by name) collapse into one
     # chip labeled by UVB/UVA coverage, not shown as individual ingredient chips.

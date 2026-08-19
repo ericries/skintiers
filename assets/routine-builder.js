@@ -122,7 +122,57 @@
       return !pair[1].some(function (m) { return count[m]; });
     }).map(function (pair) { return pair[0]; });
 
-    return { strength: strength, product_count: products.length, ingredients: actives, filters: filters, absent: absent };
+    // Actives grouped by the site's own evidence tier (ev on the catalog),
+    // so the routine's ingredients read as "which of these are actually
+    // evidence-backed" rather than one flat list. Buckets keep declared
+    // active order (already sorted by count then name).
+    var BUCKETS = [
+      { key: 'well', label: 'Well-evidenced', tiers: { best: 1, good: 1 } },
+      { key: 'some', label: 'Some evidence', tiers: { mid: 1 } },
+      { key: 'limited', label: 'Limited evidence', tiers: { weak: 1 } },
+      { key: 'unrated', label: 'Not yet rated', tiers: {} }
+    ];
+    function bucketFor(tier) {
+      for (var b = 0; b < BUCKETS.length; b++) {
+        if (tier && BUCKETS[b].tiers[tier]) return BUCKETS[b].key;
+      }
+      return 'unrated';
+    }
+    var byBucket = {};
+    actives.forEach(function (a) {
+      var tier = (catalog.i[a.slug] || {}).ev || null;
+      var k = bucketFor(tier);
+      (byBucket[k] = byBucket[k] || []).push({ slug: a.slug, name: a.name, count: a.count });
+    });
+    var evidence = BUCKETS.filter(function (b) { return byBucket[b.key]; })
+      .map(function (b) { return { key: b.key, label: b.label, items: byBucket[b.key] }; });
+
+    // Redundancy / load flags, all derived from the actives the routine layers.
+    // Worded as irritation/redundancy, never as hard "never mix" bans.
+    var flags = [];
+    var CLASS_LABEL = { retinoid: 'retinoids', 'vitamin-c': 'vitamin C products', exfoliant: 'chemical exfoliants' };
+    actives.forEach(function (a) {
+      if (a.count >= 2 && (catalog.i[a.slug] || {}).ir) {
+        flags.push({ kind: 'dup', text: a.name + ' is in ' + a.count + ' of your products; doubling the same active mostly adds irritation, not benefit.' });
+      }
+    });
+    var byClass = {};
+    actives.forEach(function (a) {
+      var cl = (catalog.i[a.slug] || {}).cl;
+      if (cl) (byClass[cl] = byClass[cl] || []).push(a.name);
+    });
+    Object.keys(byClass).forEach(function (cl) {
+      var names = byClass[cl];
+      if (names.length >= 2) {
+        flags.push({ kind: 'class', text: 'You have ' + names.length + ' ' + (CLASS_LABEL[cl] || cl) + ' (' + names.join(', ') + '). One is usually enough; a second raises irritation risk without added proven benefit.' });
+      }
+    });
+    var irr = actives.filter(function (a) { return (catalog.i[a.slug] || {}).ir; }).map(function (a) { return a.name; });
+    if (irr.length >= 3) {
+      flags.push({ kind: 'load', text: 'This routine layers ' + irr.length + ' potentially-irritating actives (' + irr.join(', ') + '). Introduce them one at a time and expect an adjustment period.' });
+    }
+
+    return { strength: strength, product_count: products.length, ingredients: actives, filters: filters, absent: absent, evidence: evidence, flags: flags };
   }
 
   var api = { parseRoutine: parseRoutine, encodeRoutine: encodeRoutine, computeDashboard: computeDashboard };
@@ -193,15 +243,37 @@
         });
       }
 
+      var BASE = (document.querySelector('base') || {}).getAttribute
+        ? document.querySelector('base').getAttribute('href') : '';
+      function esc(s) {
+        return String(s).replace(/[&<>"]/g, function (c) {
+          return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c];
+        });
+      }
       function renderDash() {
         var d = computeDashboard(model, catalog);
         var el = document.getElementById('rb-dash');
         if (!d.product_count) { el.innerHTML = '<span class="empty">Search to add your first product.</span>'; return; }
-        var actives = d.ingredients.map(function (i) { return i.name + (i.count > 1 ? ' ×' + i.count : ''); }).join(', ');
         var html = '<strong>' + d.strength + '</strong> · ' + d.product_count + ' product' + (d.product_count === 1 ? '' : 's');
-        if (d.filters) html += ' · Sun: ' + d.filters.coverage;
-        if (actives) html += '<br>Actives: ' + actives;
-        if (d.absent.length) html += '<br>Does not contain: ' + d.absent.join(', ');
+        if (d.filters) html += ' · Sun: ' + esc(d.filters.coverage);
+        if (d.evidence.length) {
+          html += '<div class="rb-ev">';
+          d.evidence.forEach(function (b) {
+            var items = b.items.map(function (it) {
+              return '<a href="' + BASE + esc(it.slug) + '.html">' + esc(it.name) + '</a>'
+                + (it.count > 1 ? ' <span class="rb-ev-n">×' + it.count + '</span>' : '');
+            }).join(', ');
+            html += '<div class="rb-ev-row"><span class="rb-ev-label rb-ev-' + b.key + '">'
+              + esc(b.label) + '</span><span class="rb-ev-items">' + items + '</span></div>';
+          });
+          html += '</div>';
+        }
+        if (d.flags.length) {
+          html += '<div class="rb-flags"><strong>Heads up</strong><ul>';
+          d.flags.forEach(function (f) { html += '<li>' + esc(f.text) + '</li>'; });
+          html += '</ul></div>';
+        }
+        if (d.absent.length) html += '<p class="rb-absent">Notably absent: ' + esc(d.absent.join(', ')) + '</p>';
         el.innerHTML = html;
       }
 
