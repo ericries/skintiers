@@ -67,6 +67,16 @@ videos:
   related: [moisturizing]
   thesis: "Dr. Ife Rodney, a board-certified dermatologist, explains that moisturizing alone is not enough to manage eczema and that reinforcing the skin's protective barrier also requires avoiding hot showers and fragranced or dyed products that can trigger flares. She recommends patting (not fully drying) skin after showering and massaging in a bland, gentle moisturizer within three minutes of getting out."
   note: "Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship."
+- title: What is a damaged skin barrier and how do you fix it? (Part 1)
+  creator: Jenn Lexi
+  creator_slug: jennlexi
+  credential: esthetician
+  platform: TikTok
+  url: https://www.tiktok.com/@jennlexi_/video/7665901016860118285
+  posted: '2026-07-24'
+  related: [skin-barrier-strengthening, retinoids]
+  thesis: 'Esthetician Jenn Lexi explains what a damaged skin barrier actually is and how it heals, using a brick-wall analogy: when the barrier breaks down from over-exfoliation, too-high retinoid percentages, or under-moisturizing, the skin loses water and lets irritants in, turning red, inflamed, and breakout-prone. She notes the skin shifts into repair mode on its own within about a day and can recover over a couple of weeks, but only if you stop the habits that caused the damage; otherwise acute damage becomes chronic inflammation.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 tier_list:
   title: "Barrier-repair ingredients by evidence"
   by: "how well each supports rebuilding a disrupted skin barrier, structuring this page's own Tier 1 to Tier 2 ranking; occlusion and humectancy plus the physiological barrier lipids do the most work, and time drives the underlying recovery"
