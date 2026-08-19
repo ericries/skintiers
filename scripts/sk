@@ -151,6 +151,52 @@ def cmd_queue_add(args):
     return 0
 
 
+def cmd_add_review(args):
+    """Append a data/review-log.yaml entry SAFELY.
+
+    The entry is serialized with yaml.safe_dump, so quoting/escaping
+    (apostrophes, colons) is handled by the library, never by hand-built
+    strings — the manual-escaping mistake that has corrupted review-log.yaml
+    before. New slugs are APPENDED (minimal git diff, existing entries and
+    their formatting untouched). A repeat slug (a re-review) is the only case
+    that rewrites the whole file, to replace the entry in place.
+    """
+    import datetime
+    import yaml
+    log_path = sklib.DATA_DIR / "review-log.yaml"
+    existing = yaml.safe_load(log_path.read_text()) if log_path.exists() else {}
+    if not isinstance(existing, dict):
+        print("ERROR: review-log.yaml is not a slug-keyed mapping; not touching it")
+        return 1
+    entry = {
+        "last_reviewed": args.date or datetime.date.today().isoformat(),
+        "score": args.score,
+        "verdict": args.verdict,
+        "note": args.note,
+    }
+    if args.slug in existing:
+        existing[args.slug] = entry
+        log_path.write_text(yaml.safe_dump(existing, default_flow_style=False,
+                                           allow_unicode=True, sort_keys=False, width=1000))
+        action = "updated"
+    else:
+        block = yaml.safe_dump({args.slug: entry}, default_flow_style=False,
+                               allow_unicode=True, sort_keys=False, width=1000)
+        content = log_path.read_text() if log_path.exists() else ""
+        if content and not content.endswith("\n"):
+            content += "\n"
+        log_path.write_text(content + block)
+        action = "logged"
+    # Fail loudly if we somehow produced invalid YAML.
+    reloaded = yaml.safe_load(log_path.read_text())
+    if not isinstance(reloaded, dict) or args.slug not in reloaded \
+            or reloaded[args.slug].get("note") != args.note:
+        print("ERROR: entry did not round-trip; review-log.yaml may be malformed")
+        return 1
+    print(f"review {action}: {args.slug} ({args.verdict}, score {args.score})")
+    return 0
+
+
 def _print_item(i):
     frm = i.get("discovered_from")
     suffix = f" (from {frm})" if frm else ""
@@ -291,6 +337,14 @@ def main(argv=None):
     p_qa.add_argument("--force", action="store_true",
                       help="queue even if a page with the derived slug already exists")
     p_qa.set_defaults(func=cmd_queue_add)
+    p_ar = sub.add_parser("add-review",
+                          help="safely append/replace a review-log.yaml entry")
+    p_ar.add_argument("slug")
+    p_ar.add_argument("--verdict", required=True)
+    p_ar.add_argument("--score", type=int, required=True)
+    p_ar.add_argument("--note", required=True)
+    p_ar.add_argument("--date", default=None, help="YYYY-MM-DD; defaults to today")
+    p_ar.set_defaults(func=cmd_add_review)
     p_q = sub.add_parser("queue")
     p_q.add_argument("--type", default=None, choices=_TYPES)
     p_q.set_defaults(func=cmd_queue)
