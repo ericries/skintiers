@@ -129,7 +129,7 @@
   tier: HIGH
   channel: https://www.youtube.com/@DrWhitneyBowe/videos
   conflict: has an own-brand line - skip own-brand promos
-  last_pulled: '2026-08-15'
+  last_pulled: '2026-08-18'
 - name: Cassandra Bankson
   creator_slug: cassandra-bankson
   credential: Licensed medical esthetician (NOT a dermatologist or cosmetic chemist)

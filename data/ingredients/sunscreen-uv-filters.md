@@ -348,6 +348,16 @@ videos:
   related: [bemotrizinol]
   thesis: "Cosmetic chemists Chemist Confessions interview US Senator Maggie Hassan about a new law that changes how the FDA approves sunscreen ingredients, the reason Americans have had no new UV filter approved since the 1990s while Europe and Asia use newer ones. Senator Hassan explains the bill lets manufacturers rely on real-world evidence from other countries rather than requiring lengthy animal and clinical testing, giving the FDA about a year to update its rules, and she notes the FDA has just begun looking at approving a new filter called bemotrizinol. The chemists stay cautiously optimistic, stressing that any new filters still have to prove they meet their labeled protection."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: "The Burning Truth: DIY Sunscreen"
+  creator: "Dr. Whitney Bowe"
+  creator_slug: whitney-bowe
+  credential: "Board-certified dermatologist"
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=In8HvTJn_1Y
+  posted: '2026-05-27'
+  related: []
+  thesis: "Board-certified dermatologist Whitney Bowe puts viral DIY sunscreen recipes, including tallow-based mixtures, to the test to see whether homemade sun protection actually works. She demonstrates that these recipes let UV pass through to the skin and do not provide reliable protection, and as a melanoma survivor she says she would not use them, concluding that people should rely on sunscreens that have actually been tested for their SPF rather than gambling on online recipes."
+  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 name: Sunscreen (UV filters)
 slug: sunscreen-uv-filters
 status: published
