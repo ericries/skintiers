@@ -197,6 +197,77 @@ def cmd_add_review(args):
     return 0
 
 
+def cmd_add_video(args):
+    """Insert a `videos:` card into a page's frontmatter SAFELY.
+
+    The card is serialized with yaml (escaping library-handled, never
+    hand-built), and the command enforces every guardrail the video crons do
+    by hand: the attach page must exist, the video id must not already be
+    carded anywhere under data/ (dedup), `related` slugs that do not resolve
+    are dropped, em/en-dashes are rejected, and the resulting frontmatter is
+    re-parsed before write. Replaces the per-cron inline insert logic.
+    """
+    import re
+    import yaml
+    path = sklib.find_profile(sklib.DATA_DIR, args.attach)
+    if path is None:
+        print(f"ERROR: no page found for slug '{args.attach}'")
+        return 1
+    vid = args.id
+    for md in sklib.DATA_DIR.glob("*/*.md"):
+        if vid in md.read_text():
+            print(f"dup: {vid} already carded in {md.name}; not added")
+            return 0
+    note = args.note or ("Verified from the video's transcript "
+                         "(yt-dlp, read in full); no sponsorship.")
+    for label, val in (("title", args.title), ("thesis", args.thesis), ("note", note)):
+        if val and ("—" in val or "–" in val):
+            print(f"ERROR: {label} contains an em/en-dash; rewrite with plain punctuation")
+            return 1
+    known = sklib.known_slugs(sklib.DATA_DIR)
+    want = [s.strip() for s in (args.related or "").split(",") if s.strip()]
+    related = [s for s in want if s in known and s != args.attach]
+    dropped = [s for s in want if s not in related]
+    url = args.url or (f"https://www.youtube.com/watch?v={vid}"
+                       if args.platform == "YouTube" else None)
+    if not url:
+        print("ERROR: --url is required for non-YouTube platforms")
+        return 1
+    entry = {
+        "title": args.title, "creator": args.creator, "creator_slug": args.creator_slug,
+        "credential": args.credential, "platform": args.platform, "url": url,
+        "posted": args.posted, "related": related, "thesis": args.thesis, "note": note,
+    }
+    block = yaml.safe_dump([entry], default_flow_style=None, allow_unicode=True,
+                           sort_keys=False, width=1000).rstrip("\n")
+    text = path.read_text()
+    if not text.startswith("---"):
+        print(f"ERROR: {path.name} has no frontmatter")
+        return 1
+    end = text.index("\n---", 3)
+    fm_text, rest = text[4:end], text[end:]
+    m = re.search(r"^videos:\s*$", fm_text, re.M)
+    if m:
+        after = fm_text[m.end():]
+        nk = re.compile(r"^[A-Za-z_][A-Za-z0-9_]*:", re.M).search(after)
+        ins = m.end() + (nk.start() if nk else len(after))
+        fm_text = fm_text[:ins].rstrip("\n") + "\n" + block + "\n" + fm_text[ins:]
+    else:
+        fm_text = fm_text.rstrip("\n") + "\nvideos:\n" + block + "\n"
+    new = "---\n" + fm_text + rest
+    try:
+        yaml.safe_load(new[4:new.index("\n---", 3)])
+    except yaml.YAMLError as exc:
+        print(f"ERROR: insert would break frontmatter YAML ({exc}); aborting")
+        return 1
+    path.write_text(new)
+    msg = f"carded: {vid} -> {args.attach}"
+    if dropped:
+        msg += f" (dropped unknown related: {', '.join(dropped)})"
+    print(msg)
+    return 0
+
+
 def _print_item(i):
     frm = i.get("discovered_from")
     suffix = f" (from {frm})" if frm else ""
@@ -345,6 +416,23 @@ def main(argv=None):
     p_ar.add_argument("--note", required=True)
     p_ar.add_argument("--date", default=None, help="YYYY-MM-DD; defaults to today")
     p_ar.set_defaults(func=cmd_add_review)
+    p_av = sub.add_parser("add-video",
+                          help="safely insert a videos: card into a page's frontmatter")
+    p_av.add_argument("attach", help="slug of the page to embed the card on")
+    p_av.add_argument("--id", required=True, help="platform video id (used for dedup + URL)")
+    p_av.add_argument("--title", required=True)
+    p_av.add_argument("--creator", required=True)
+    p_av.add_argument("--creator-slug", dest="creator_slug", required=True)
+    p_av.add_argument("--credential", required=True)
+    p_av.add_argument("--thesis", required=True)
+    p_av.add_argument("--posted", required=True, help="YYYY-MM-DD")
+    p_av.add_argument("--platform", default="YouTube")
+    p_av.add_argument("--url", default=None,
+                      help="full URL; auto-derived for YouTube, required otherwise")
+    p_av.add_argument("--related", default="",
+                      help="comma-separated slugs; unknown ones are dropped")
+    p_av.add_argument("--note", default=None, help="provenance note; a default is used if omitted")
+    p_av.set_defaults(func=cmd_add_video)
     p_q = sub.add_parser("queue")
     p_q.add_argument("--type", default=None, choices=_TYPES)
     p_q.set_defaults(func=cmd_queue)

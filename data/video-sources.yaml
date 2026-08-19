@@ -384,7 +384,10 @@
   creator_slug: nkem-ugonabo
   credential: 'Skincare educator'
   tier: HIGH
-  channel: 'https://www.youtube.com/@dr.ugonabo'
+  channel: ''
+  channel_broken: '2026-08-19: @dr.ugonabo 404s on YouTube; no verified channel
+    found (web-search budget exhausted, no own cards to infer from). Likely TikTok.
+    Do not pull until re-pinned to a resolving URL.'
   product_recs: restricted
   conflict: 'Periodic disclosed sponsored brand-partner content (Clinique ''#AD'', SkinCeuticals ''#skinceuticalspartner''); no own-brand product l'
   last_pulled: '2026-08-16'
@@ -442,7 +445,7 @@
   creator_slug: chris-tomassian
   credential: 'Board-certified dermatologist'
   tier: MED
-  channel: 'https://www.youtube.com/@dr.tomassian'
+  channel: 'https://www.tiktok.com/@dr.tomassian'
   product_recs: ok
   conflict: 'Bio includes a business/booking contact email suggesting managed brand partnerships; no confirmed own-brand line or affiliate stor'
   last_pulled: '2026-08-16'
