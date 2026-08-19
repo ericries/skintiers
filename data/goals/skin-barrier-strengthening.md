@@ -1,6 +1,6 @@
 ---
 analyzed: '2026-07-28'
-assurance: opus
+assurance: sonnet
 name: Strengthening the skin barrier (preventive / maintenance)
 slug: skin-barrier-strengthening
 status: published

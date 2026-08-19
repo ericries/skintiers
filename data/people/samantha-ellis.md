@@ -1,6 +1,6 @@
 ---
 analyzed: '2026-07-28'
-assurance: opus
+assurance: sonnet
 expertise: Dermatologists
 name: Samantha Ellis
 slug: samantha-ellis

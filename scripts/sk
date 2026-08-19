@@ -108,6 +108,21 @@ def _set_and_build(slug, status, mark_analyzed=False):
     return cmd_build(None)
 
 
+# Page types whose fill workflow runs an independent Opus profile-reviewer critic
+# (sources re-fetched, quotes/stats checked). Only these earn `assurance: opus`
+# from a passing review. Person/brand/condition/goal/list pages have NO critic —
+# their review-log entry is a self-check, so they stay `sonnet`, not `opus`.
+CRITIC_TYPES = ("product", "ingredient", "study")
+
+
+def _publish_assurance(page_type, verdict):
+    """The assurance level a passing review earns at publish, or None to leave the
+    page's declared assurance untouched. Only critic-backed types earn 'opus'."""
+    if verdict == "publish" and page_type in CRITIC_TYPES:
+        return "opus"
+    return None
+
+
 def cmd_publish(args):
     verdict = sklib.review_verdict(sklib.DATA_DIR, args.slug)
     if verdict != "publish" and not getattr(args, "force", False):
@@ -118,12 +133,15 @@ def cmd_publish(args):
         )
         return 1
     rc = _set_and_build(args.slug, "published", mark_analyzed=True)
-    if verdict == "publish":
-        # A passing critic review means the sources were independently re-verified.
-        path = sklib.find_profile(sklib.DATA_DIR, args.slug)
-        if path is not None:
-            sklib.set_assurance(path, "opus")
-    else:
+    path = sklib.find_profile(sklib.DATA_DIR, args.slug)
+    if path is not None:
+        import frontmatter
+        page_type = frontmatter.load(path).metadata.get("type")
+        level = _publish_assurance(page_type, verdict)
+        if level:
+            # A passing critic review means the sources were independently re-verified.
+            sklib.set_assurance(path, level)
+    if verdict != "publish":
         if getattr(args, "force", False):
             print(f"WARN: force-published {args.slug} without a passing review")
     return rc

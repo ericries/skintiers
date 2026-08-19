@@ -1,6 +1,6 @@
 ---
 analyzed: '2026-07-29'
-assurance: opus
+assurance: sonnet
 name: Anti-aging during perimenopause and menopause
 slug: anti-aging-perimenopause
 status: published

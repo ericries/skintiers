@@ -1,6 +1,6 @@
 ---
 analyzed: '2026-08-15'
-assurance: opus
+assurance: sonnet
 name: Hyperpigmentation
 slug: hyperpigmentation
 status: published

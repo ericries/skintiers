@@ -1,6 +1,6 @@
 ---
 analyzed: '2026-07-27'
-assurance: opus
+assurance: sonnet
 name: Moisturizing
 slug: moisturizing
 status: published

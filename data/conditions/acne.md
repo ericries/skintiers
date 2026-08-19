@@ -1,6 +1,6 @@
 ---
 analyzed: '2026-07-29'
-assurance: opus
+assurance: sonnet
 name: Acne
 slug: acne
 status: published

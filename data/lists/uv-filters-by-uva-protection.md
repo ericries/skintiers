@@ -1,6 +1,6 @@
 ---
 analyzed: '2026-08-14'
-assurance: opus
+assurance: sonnet
 kind: best-of
 name: UV Filters by UVA Protection
 slug: uv-filters-by-uva-protection

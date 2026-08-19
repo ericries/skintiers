@@ -1,6 +1,6 @@
 ---
 analyzed: '2026-08-15'
-assurance: opus
+assurance: sonnet
 name: Anti-aging
 slug: anti-aging
 status: published

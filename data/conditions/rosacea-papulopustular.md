@@ -1,6 +1,6 @@
 ---
 analyzed: '2026-07-28'
-assurance: opus
+assurance: sonnet
 name: 'Rosacea Type 2: Papulopustular (inflammatory bumps and pustules)'
 slug: rosacea-papulopustular
 status: published

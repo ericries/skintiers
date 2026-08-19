@@ -1,6 +1,6 @@
 ---
 analyzed: '2026-08-14'
-assurance: opus
+assurance: sonnet
 name: Atopic dermatitis (eczema)
 slug: atopic-dermatitis
 status: published

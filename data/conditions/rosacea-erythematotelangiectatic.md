@@ -1,6 +1,6 @@
 ---
 analyzed: '2026-07-28'
-assurance: opus
+assurance: sonnet
 name: 'Rosacea Type 1: Erythematotelangiectatic (persistent redness and flushing)'
 slug: rosacea-erythematotelangiectatic
 status: published

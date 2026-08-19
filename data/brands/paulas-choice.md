@@ -1,6 +1,6 @@
 ---
 analyzed: '2026-07-28'
-assurance: opus
+assurance: sonnet
 name: Paula's Choice
 slug: paulas-choice
 status: published
