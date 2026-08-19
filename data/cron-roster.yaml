@@ -113,7 +113,7 @@ crons:
         c. Self-host it: `curl -sL "<url>" -o static/images/<slug>-<source>.jpg` then VERIFY it is a real image (`file static/images/<slug>-<source>.jpg` reports image data AND size > 3KB). If it is HTML/an error page/too small, delete it and skip.
         d. Add an images: block to the frontmatter (after the category: or brand: line) with file/source/source_url per the site convention (reference data/products/cosrx-the-retinol-0-1-cream.md). 1-2 genuine product photos max. Attribute the source honestly.
         e. Run `.venv/bin/python scripts/sk lint <slug>` and fix issues.
-      STEP 3 (main loop): `.venv/bin/python build.py`; confirm each touched product now renders a thumb (`grep -c 'thumb' _site/<slug>.html`). Commit (`git add data/products static/images && git commit -m "images: real product photos for N products (image cron)"`) and push (git pull --rebase then push if rejected). One-line summary: which products got images, which were skipped and why. Do NOT draft or change any other page content.
+      STEP 3 (main loop): `.venv/bin/python build.py`; confirm each touched product now renders its photo (`grep -c 'img src="images/<slug>' _site/<slug>.html` returns >=1; the product gallery class is `photo-rail` and the rendered image path prefix is `images/`, NOT `static/images/` and NOT `thumb`). Commit (`git add data/products static/images && git commit -m "images: real product photos for N products (image cron)"`) and push (git pull --rebase then push if rejected). One-line summary: which products got images, which were skipped and why. Do NOT draft or change any other page content.
   - cron: "47 8 * * *"
     label: pubmed-ingest
     prompt: |
