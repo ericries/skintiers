@@ -5,7 +5,7 @@ name: Strengthening the skin barrier (preventive / maintenance)
 slug: skin-barrier-strengthening
 status: published
 type: goal
-updated: '2026-07-28'
+updated: '2026-08-18'
 videos:
 - title: "Skin barrier explained as a front door"
   creator: ""
@@ -37,6 +37,40 @@ videos:
   related: []
   thesis: "Board-certified dermatologist Dr. Sheila Farhang explains dermatographism, a form of reactive or sensitive skin sometimes called skin writing, where scratching or pressure causes raised red welts within seconds. She says this happens because the skin releases histamine that dilates blood vessels, and it is more common in people who already have sensitive or reactive skin. She clarifies it does not mean the body is full of toxins or needs a detox; it simply means the skin barrier reacts more strongly to friction and pressure."
   note: "Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship."
+tier_list:
+  title: "Barrier-strengthening ingredients by evidence"
+  by: "how well each helps build and maintain a resilient skin barrier, structuring this page's own Tier 1 to Tier 2 ranking; occlusion, humectancy, the physiological barrier lipids, and daily sun protection do the most work"
+  items:
+    - slug: petrolatum
+      tier: strong
+      note: "The most occlusive foundation, minimizing transepidermal water loss so the barrier can hold its own lipids and stay resilient."
+    - slug: glycerin
+      tier: strong
+      note: "A well-studied humectant that keeps the stratum corneum hydrated and supple; a core part of the supportive foundation."
+    - slug: hyaluronic-acid
+      tier: strong
+      note: "A humectant that raises surface hydration and helps narrow the water-loss gradient; works best layered under an occlusive."
+    - slug: ceramides
+      tier: strong
+      note: "A core barrier lipid; replenishing ceramides helps build the lipid matrix that makes the barrier resilient, ideally with cholesterol and fatty acids."
+    - slug: sunscreen-uv-filters
+      tier: strong
+      note: "Daily broad-spectrum sunscreen prevents the UV damage that degrades barrier function over time, so it is foundational for keeping a barrier strong rather than just repairing it."
+    - slug: dimethicone
+      tier: moderate
+      note: "A breathable silicone occlusive and emollient that smooths and helps seal the barrier with a lighter feel than petrolatum; a reliable adjunct."
+    - slug: niacinamide
+      tier: moderate
+      note: "Supports barrier lipid synthesis and lowers water loss at around 2 to 5 percent; a reliable adjunct that complements the occlusive and humectant base."
+    - slug: cholesterol
+      tier: moderate
+      note: "One of the three physiological barrier lipids; most useful alongside ceramides and free fatty acids in a balanced ratio."
+    - slug: phytosphingosine
+      tier: moderate
+      note: "A sphingoid-base lipid that feeds into ceramide production; a smaller supportive lever within a barrier formula."
+    - slug: colloidal-oatmeal
+      tier: moderate
+      note: "Soothing and mildly barrier-supportive with reasonable evidence for reactive and eczema-prone skin; a reliable adjunct rather than the foundation."
 
 ---
 

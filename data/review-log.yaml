@@ -5131,3 +5131,8 @@ rosacea-erythematotelangiectatic:
   score: 8
   verdict: publish
   note: 'CONDITION cron (inline tier_list, no fresh critic). Added ''Erythematotelangiectatic rosacea treatments by evidence'' to the redness-subtype hub: sunscreen (strong), brimonidine + azelaic-acid (moderate), metronidazole + niacinamide (weak). Subtype-specific: brimonidine central here (vs excluded from papulopustular); papule-focused ivermectin/doxycycline excluded; honest caveat that established telangiectasias need laser/IPL not topicals. Grades reused from the Opus-verified main rosacea tier_list (no new claims); all 5 slugs resolve; gates clean. Completes tier_lists on both rosacea subtype hubs.'
+skin-barrier-strengthening:
+  last_reviewed: '2026-08-18'
+  score: 8
+  verdict: publish
+  note: 'GOAL cron (inline tier_list, no fresh critic). Structured skin-barrier-strengthening''s own prose Tier 1-2 ranking: petrolatum/glycerin/hyaluronic-acid/ceramides/sunscreen (strong), dimethicone/niacinamide/cholesterol/phytosphingosine/colloidal-oatmeal (moderate). Graded CONSISTENTLY with the skin-barrier-repair tier_list to avoid cross-page conflict (colloidal-oatmeal/dimethicone kept moderate rather than the page''s looser Tier-1 grouping); probiotics (overhyped) excluded. No new claims; all 10 slugs resolve; gates clean.'
