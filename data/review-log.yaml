@@ -5141,3 +5141,8 @@ nizoral-anti-dandruff-shampoo-ketoconazole-1:
   score: 8
   verdict: revise-then-fixed
   note: 'PRODUCT cron (Fable draft -> Opus critic revise->fixed). Nizoral A-D Shampoo (ketoconazole 1%), framed for its fungal-acne/seb-derm skincare use. Critic: softened dandruff grade solid->mixed (placebo never tested; open-label Pierard-Franchimont trial disclosed; Cochrane RR 0.55 CI 0.38-0.80 cited directly), corrected pack sizes vs DailyMed, added Target SKU. Created ketoconazole ingredient stub + linked. Gates clean; force-published.'
+naturium-bha-liquid-exfoliant-2:
+  last_reviewed: '2026-08-19'
+  score: 8
+  verdict: revise-then-fixed
+  note: 'PRODUCT cron (Fable draft -> Opus critic revise->fixed). Naturium BHA Liquid Exfoliant 2% (salicylic acid). Critic removed an unsupported pH-penetration mechanism claim mis-attributed to salicylic-acid (whose page covers lipophilicity, not pH/pKa); grades trace to salicylic-acid (health/mixed, cosmetic/preliminary). Gates clean; force-published. (Drained during a classifier outage via the Workflow tool.)'

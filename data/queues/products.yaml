@@ -1305,7 +1305,7 @@
 - name: Naturium BHA Liquid Exfoliant 2%
   type: product
   priority: 4
-  status: pending
+  status: done
   discovered_from: cerave-sa-body-lotion-for-rough-and-bumpy-skin
   source: A 2% salicylic acid (BHA) leave-on liquid exfoliant; a face-focused counterpart
     to the body exfoliants, extends salicylic-acid product coverage. https://www.naturium.com/products/bha-liquid-exfoliant-2
