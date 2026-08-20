@@ -1,31 +1,45 @@
 ---
 analyzed: '2026-07-28'
-assurance: sonnet
+assurance: opus
 name: 'Rosacea Type 1: Erythematotelangiectatic (persistent redness and flushing)'
 slug: rosacea-erythematotelangiectatic
 status: published
+tier_list:
+  by: strength of the evidence for the persistent facial redness, flushing, and visible
+    vessels of this rosacea subtype. The papule-focused options (ivermectin, oral
+    doxycycline) live on the papulopustular page; a key limit here is that established
+    broken vessels (telangiectasias) do not respond to any topical and need in-office
+    laser or IPL
+  items:
+  - note: Sun is one of the biggest triggers of the flushing and persistent redness
+      of this subtype, so daily broad-spectrum sunscreen is the foundational, best-evidenced
+      step; it controls a major trigger rather than erasing existing redness.
+    slug: sunscreen-uv-filters
+    tier: strong
+  - note: A topical prescription vasoconstrictor (0.33 percent) FDA-approved specifically
+      for the persistent facial redness of rosacea; it narrows blood vessels to reduce
+      redness for several hours, but the effect wears off and some people get rebound
+      redness, so it manages rather than cures the erythema.
+    slug: brimonidine
+    tier: moderate
+  - note: Reduces the background inflammation that drives redness, with reasonable
+      rosacea evidence; better studied for the bumps of the papulopustular subtype
+      but still a useful anti-redness topical here.
+    slug: azelaic-acid
+    tier: moderate
+  - note: The classic rosacea topical gives a modest reduction in redness for this
+      subtype, more so when some inflammatory bumps are also present; the evidence
+      for pure erythema is thinner.
+    slug: metronidazole
+    tier: weak
+  - note: Supports the skin barrier and can reduce the sensitivity and reactivity
+      that worsen flushing; an adjunct that improves tolerance rather than a direct
+      redness treatment.
+    slug: niacinamide
+    tier: weak
+  title: Erythematotelangiectatic rosacea treatments by evidence
 type: condition
 updated: '2026-08-18'
-tier_list:
-  title: "Erythematotelangiectatic rosacea treatments by evidence"
-  by: "strength of the evidence for the persistent facial redness, flushing, and visible vessels of this rosacea subtype. The papule-focused options (ivermectin, oral doxycycline) live on the papulopustular page; a key limit here is that established broken vessels (telangiectasias) do not respond to any topical and need in-office laser or IPL"
-  items:
-    - slug: sunscreen-uv-filters
-      tier: strong
-      note: "Sun is one of the biggest triggers of the flushing and persistent redness of this subtype, so daily broad-spectrum sunscreen is the foundational, best-evidenced step; it controls a major trigger rather than erasing existing redness."
-    - slug: brimonidine
-      tier: moderate
-      note: "A topical prescription vasoconstrictor (0.33 percent) FDA-approved specifically for the persistent facial redness of rosacea; it narrows blood vessels to reduce redness for several hours, but the effect wears off and some people get rebound redness, so it manages rather than cures the erythema."
-    - slug: azelaic-acid
-      tier: moderate
-      note: "Reduces the background inflammation that drives redness, with reasonable rosacea evidence; better studied for the bumps of the papulopustular subtype but still a useful anti-redness topical here."
-    - slug: metronidazole
-      tier: weak
-      note: "The classic rosacea topical gives a modest reduction in redness for this subtype, more so when some inflammatory bumps are also present; the evidence for pure erythema is thinner."
-    - slug: niacinamide
-      tier: weak
-      note: "Supports the skin barrier and can reduce the sensitivity and reactivity that worsen flushing; an adjunct that improves tolerance rather than a direct redness treatment."
-
 ---
 
 Erythematotelangiectatic rosacea (ETR), often called "type 1" rosacea, is the redness-and-vessels form of the disease: persistent flushing and central-facial redness, visible small blood vessels (telangiectasia), and a face that stings, burns, and reacts easily, but without the acne-like papules and pustules of the inflammatory type. For the redness and the vessels, the realistic non-prescription levers are topical skincare and in-office light devices, and the evidence for them is limited. The two prescription drugs approved specifically for the persistent redness, brimonidine and oxymetazoline, reduce it only temporarily and, in the registration trials, only a minority of patients reached the strict success threshold; the visible vessels themselves respond to lasers rather than to any cream, on weaker evidence than the drugs; and the anti-inflammatory topicals that carry Cochrane certainty (azelaic acid, ivermectin, metronidazole) were graded for the papules and pustules of the other subtype, not for type 1's fixed erythema or telangiectasia.

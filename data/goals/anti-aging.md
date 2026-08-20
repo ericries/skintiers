@@ -1,77 +1,125 @@
 ---
 analyzed: '2026-08-15'
-assurance: sonnet
+assurance: opus
 name: Anti-aging
 slug: anti-aging
 status: published
+tier_list:
+  by: strength of the evidence for topical anti-aging skincare; sun protection is
+    the foundation every active builds on, and prescription retinoids plus in-office
+    procedures (and systemic or hormonal approaches, out of scope here) are a separate,
+    generally stronger tier not ranked below
+  items:
+  - note: 'The single most-evidenced anti-aging step: randomized trials show daily
+      broad-spectrum sunscreen slows visible photoaging (wrinkles, texture, and pigment).
+      Prevention outperforms any repair active, so this is the foundation, not an
+      add-on.'
+    slug: sunscreen-uv-filters
+    tier: strong
+  - note: 'The best-evidenced topical repair actives: prescription tretinoin and the
+      over-the-counter retinoids build collagen and improve fine lines, texture, and
+      tone in controlled trials; the forms are ranked by potency on their own page.'
+    slug: retinoids
+    tier: strong
+  - note: A daytime antioxidant with some collagen and photoprotection-support evidence;
+      modest on its own, most useful layered under sunscreen rather than as a standalone
+      anti-ager.
+    slug: ascorbic-acid-vitamin-c
+    tier: moderate
+  - note: AHA exfoliation smooths surface texture and has some dermal and collagen
+      evidence for photoaged skin; a supporting active rather than a primary one.
+    slug: glycolic-acid
+    tier: moderate
+  - note: Modest evidence for fine lines plus skin-tone and barrier support; a well-tolerated
+      adjunct rather than a lead anti-aging active.
+    slug: niacinamide
+    tier: moderate
+  - note: Well-tolerated but modest and mostly preliminary for the look of aging;
+      the most consistent measured benefit is hydration, and the pooled anti-wrinkle
+      signal leans on oral rather than topical peptides.
+    slug: peptides
+    tier: weak
+  - note: 'A retinol alternative with limited but growing evidence: gentler than retinoids
+      but less proven, a reasonable option for people who cannot tolerate retinoids.'
+    slug: bakuchiol
+    tier: weak
+  title: Topical anti-aging actives by evidence
 type: goal
 updated: '2026-08-15'
-tier_list:
-  title: "Topical anti-aging actives by evidence"
-  by: "strength of the evidence for topical anti-aging skincare; sun protection is the foundation every active builds on, and prescription retinoids plus in-office procedures (and systemic or hormonal approaches, out of scope here) are a separate, generally stronger tier not ranked below"
-  items:
-    - slug: sunscreen-uv-filters
-      tier: strong
-      note: "The single most-evidenced anti-aging step: randomized trials show daily broad-spectrum sunscreen slows visible photoaging (wrinkles, texture, and pigment). Prevention outperforms any repair active, so this is the foundation, not an add-on."
-    - slug: retinoids
-      tier: strong
-      note: "The best-evidenced topical repair actives: prescription tretinoin and the over-the-counter retinoids build collagen and improve fine lines, texture, and tone in controlled trials; the forms are ranked by potency on their own page."
-    - slug: ascorbic-acid-vitamin-c
-      tier: moderate
-      note: "A daytime antioxidant with some collagen and photoprotection-support evidence; modest on its own, most useful layered under sunscreen rather than as a standalone anti-ager."
-    - slug: glycolic-acid
-      tier: moderate
-      note: "AHA exfoliation smooths surface texture and has some dermal and collagen evidence for photoaged skin; a supporting active rather than a primary one."
-    - slug: niacinamide
-      tier: moderate
-      note: "Modest evidence for fine lines plus skin-tone and barrier support; a well-tolerated adjunct rather than a lead anti-aging active."
-    - slug: peptides
-      tier: weak
-      note: "Well-tolerated but modest and mostly preliminary for the look of aging; the most consistent measured benefit is hydration, and the pooled anti-wrinkle signal leans on oral rather than topical peptides."
-    - slug: bakuchiol
-      tier: weak
-      note: "A retinol alternative with limited but growing evidence: gentler than retinoids but less proven, a reasonable option for people who cannot tolerate retinoids."
 videos:
-- title: "Skincare Companies Don't Want You to Know This (Dermatologist's Anti-Aging Guide)"
-  creator: Dr. Sam Ellis
+- creator: Dr. Sam Ellis
   creator_slug: samantha-ellis
   credential: Board-certified dermatologist
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship
+    disclosed. Board-certified dermatologist; an educational explainer on what topical
+    anti-aging can and cannot do, not a product promotion (she founded Prequel, but
+    this video sells nothing).
   platform: YouTube
-  url: https://www.youtube.com/watch?v=u2RBcVQZVyU
   posted: '2026-07-10'
-  thesis: "Board-certified dermatologist Dr. Sam Ellis explains that facial aging is really two kinds: surface aging (pigmentation, fine lines, dullness, enlarged pores), which skincare, retinoids, chemical peels, and lasers can genuinely improve, and structural aging (jowls, hollowing, deep nasolabial folds, under-eye bags), driven by fat-pad descent and bone loss that topical anti-aging products cannot fix. She says firming creams at best modestly plump skin and stimulate a little superficial collagen but cannot lift deeper tissues, and eye creams help hydration, crepiness, and pigment but not true hollowing or bags. Her point is not that skincare fails, but that knowing its limits helps people set realistic expectations and spend wisely on anti-aging products."
-  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship disclosed. Board-certified dermatologist; an educational explainer on what topical anti-aging can and cannot do, not a product promotion (she founded Prequel, but this video sells nothing)."
-- title: "Your hands are aging faster than your face"
-  creator: ""
+  thesis: 'Board-certified dermatologist Dr. Sam Ellis explains that facial aging
+    is really two kinds: surface aging (pigmentation, fine lines, dullness, enlarged
+    pores), which skincare, retinoids, chemical peels, and lasers can genuinely improve,
+    and structural aging (jowls, hollowing, deep nasolabial folds, under-eye bags),
+    driven by fat-pad descent and bone loss that topical anti-aging products cannot
+    fix. She says firming creams at best modestly plump skin and stimulate a little
+    superficial collagen but cannot lift deeper tissues, and eye creams help hydration,
+    crepiness, and pigment but not true hollowing or bags. Her point is not that skincare
+    fails, but that knowing its limits helps people set realistic expectations and
+    spend wisely on anti-aging products.'
+  title: Skincare Companies Don't Want You to Know This (Dermatologist's Anti-Aging
+    Guide)
+  url: https://www.youtube.com/watch?v=u2RBcVQZVyU
+- creator: ''
   creator_slug: mamina-turegano
-  credential: ""
+  credential: ''
+  note: Verified from the video's TikTok transcript (yt-dlp captions, read in full);
+    no sponsorship.
   platform: TikTok
-  url: https://www.tiktok.com/@dr.mamina/video/7664593977571675406
   posted: '2026-07-20'
-  related: [sunscreen-uv-filters, retinoids, vitamin-c]
-  thesis: "Dr. Mamina Turegano, a board-certified dermatologist, explains that the hands often show visible signs of aging faster than areas like the eyes because they get less skincare attention. She recommends extending facial products such as vitamin C serum, retinol, and moisturizer down to the hands, using a dedicated hand cream since hands are washed more frequently than other skin, and consistently reapplying sunscreen on the backs of the hands, including wearing gloves during prolonged sun exposure such as driving."
-  note: "Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship."
-- title: "How To Stop Skin Sagging + Slow Ageing - It's Not All About Collagen"
-  creator: ""
+  related:
+  - sunscreen-uv-filters
+  - retinoids
+  - vitamin-c
+  thesis: Dr. Mamina Turegano, a board-certified dermatologist, explains that the
+    hands often show visible signs of aging faster than areas like the eyes because
+    they get less skincare attention. She recommends extending facial products such
+    as vitamin C serum, retinol, and moisturizer down to the hands, using a dedicated
+    hand cream since hands are washed more frequently than other skin, and consistently
+    reapplying sunscreen on the backs of the hands, including wearing gloves during
+    prolonged sun exposure such as driving.
+  title: Your hands are aging faster than your face
+  url: https://www.tiktok.com/@dr.mamina/video/7664593977571675406
+- creator: ''
   creator_slug: sam-bunting
-  credential: ""
+  credential: ''
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
   platform: YouTube
-  url: https://www.youtube.com/watch?v=Xq8nuUQdvMM
   posted: '2025-02-16'
   related: []
-  thesis: "Board-certified dermatologist Dr. Sam Bunting explains that skin elastin, not just collagen, drives the skin's elastic recoil and that UVA exposure is the main cause of elastin breakdown over time. She recommends a three-step anti-aging approach: daily broad-spectrum sunscreen (with careful attention to the eye area), antioxidants such as vitamin C, niacinamide, and retinoids, and newer approaches targeting mitochondrial dysfunction and cellular senescence in skin cells."
-  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
-- title: "The Most Effective Anti-Aging Products (As Backed by Research)"
-  creator: "Javon Ford"
+  thesis: 'Board-certified dermatologist Dr. Sam Bunting explains that skin elastin,
+    not just collagen, drives the skin''s elastic recoil and that UVA exposure is
+    the main cause of elastin breakdown over time. She recommends a three-step anti-aging
+    approach: daily broad-spectrum sunscreen (with careful attention to the eye area),
+    antioxidants such as vitamin C, niacinamide, and retinoids, and newer approaches
+    targeting mitochondrial dysfunction and cellular senescence in skin cells.'
+  title: How To Stop Skin Sagging + Slow Ageing - It's Not All About Collagen
+  url: https://www.youtube.com/watch?v=Xq8nuUQdvMM
+- creator: Javon Ford
   creator_slug: javon-ford
-  credential: "Cosmetic chemist"
+  credential: Cosmetic chemist
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
   platform: YouTube
-  url: https://www.youtube.com/watch?v=WAkznrGVrPw
   posted: '2019-10-07'
-  related: [sunscreen-uv-filters]
-  thesis: "Cosmetic chemist Javon Ford argues that the single most effective anti-aging product, backed by roughly 50 years of research, is sunscreen, because the sun is the biggest cause of premature visible aging like wrinkles and sun spots. He stresses that daily sunscreen is non-negotiable regardless of skin tone, noting that modern UV exposure (a thinned ozone layer and living closer to the equator) makes it more necessary than historical comparisons suggest."
-  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
-
+  related:
+  - sunscreen-uv-filters
+  thesis: Cosmetic chemist Javon Ford argues that the single most effective anti-aging
+    product, backed by roughly 50 years of research, is sunscreen, because the sun
+    is the biggest cause of premature visible aging like wrinkles and sun spots. He
+    stresses that daily sunscreen is non-negotiable regardless of skin tone, noting
+    that modern UV exposure (a thinned ozone layer and living closer to the equator)
+    makes it more necessary than historical comparisons suggest.
+  title: The Most Effective Anti-Aging Products (As Backed by Research)
+  url: https://www.youtube.com/watch?v=WAkznrGVrPw
 ---
 
 "Anti-aging" is a marketing umbrella, not a single outcome. Skin aging is several distinct changes at once: collagen and elastin breaking down (wrinkles, loss of firmness and elasticity) and pigment and tone shifting, driven largely by cumulative sun exposure. This page is health-first: it ranks interventions by how much they protect and rebuild skin structure in actual studies, not by how heavily they are sold or how much they smooth appearance in the short term. It is organized in tiers from highest to lowest demonstrated impact, and it links each topical to its own profile. Around menopause a faster, hormonally-driven loss stacks on top of this sun-driven aging; that component has its own large lever and is covered on [[anti-aging-perimenopause]].

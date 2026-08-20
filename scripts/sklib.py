@@ -116,11 +116,12 @@ VALID_STATUS = ("stub", "draft", "published")
 # quotes/stats checked); reviewed = human sign-off. Backfilled from review-log.
 VALID_ASSURANCE = ("stub", "sonnet", "opus", "reviewed")
 # Page types whose fill workflow runs an independent Opus profile-reviewer critic
-# (sources re-fetched, quotes/stats checked). ONLY these may carry assurance: opus.
-# Person/brand/condition/goal/list pages have no critic, so their self-check is
-# 'sonnet'. Shared by cmd_publish (which stamps it) and check_profile (which lints
-# it) so the two can never disagree.
-CRITIC_TYPES = ("product", "ingredient", "study")
+# (sources re-fetched, quotes/stats checked) because they make health/efficacy
+# claims. ONLY these may carry assurance: opus. Person/brand/list pages are lean
+# discovery aids / curatorial with no critic, so their self-check stays 'sonnet'.
+# Shared by cmd_publish (which stamps it) and check_profile (which lints it) so
+# the two can never disagree.
+CRITIC_TYPES = ("product", "ingredient", "study", "condition", "goal")
 
 _REF_RE = re.compile(r"\[\^([^\]]+)\](?!:)")
 _DEF_RE = re.compile(r"^\[\^([^\]]+)\]:", re.MULTILINE)

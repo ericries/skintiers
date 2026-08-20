@@ -35,8 +35,8 @@ def test_valid_assurance_constant_exposed():
 
 
 def test_opus_rejected_on_non_critic_types():
-    # person/brand/condition/goal/list have no Opus critic -> opus is a lint error
-    for typ in ("person", "brand", "condition", "goal", "list"):
+    # person/brand/list are lean/curatorial with no Opus critic -> opus is a lint error
+    for typ in ("person", "brand", "list"):
         meta = {**BASE, "type": typ, "assurance": "opus"}
         if typ == "list":
             meta["kind"] = "best-of"
@@ -45,7 +45,8 @@ def test_opus_rejected_on_non_critic_types():
 
 
 def test_opus_allowed_on_critic_types():
-    for typ in ("product", "ingredient", "study"):
+    # condition/goal make health claims and DO get an Opus critic, like product/ingredient/study
+    for typ in ("product", "ingredient", "study", "condition", "goal"):
         errs = _errors({**BASE, "type": typ, "assurance": "opus"})
         assert not any("only valid" in e for e in errs), typ
 

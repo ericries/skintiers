@@ -1,33 +1,39 @@
 ---
 analyzed: '2026-07-27'
-assurance: sonnet
+assurance: opus
 name: Moisturizing
 slug: moisturizing
 status: published
+tier_list:
+  by: strength of evidence as a moisturizing or barrier agent
+  items:
+  - petrolatum
+  - glycerin
+  - hyaluronic-acid
+  - ceramides
+  - dimethicone
+  - colloidal-oatmeal
+  title: Moisturizing ingredients by evidence
 type: goal
 updated: '2026-08-05'
-tier_list:
-  title: "Moisturizing ingredients by evidence"
-  by: "strength of evidence as a moisturizing or barrier agent"
-  items:
-    - petrolatum
-    - glycerin
-    - hyaluronic-acid
-    - ceramides
-    - dimethicone
-    - colloidal-oatmeal
 videos:
-- title: "If your eczema keeps flaring, there may be more than one trigger"
-  creator: ""
+- creator: ''
   creator_slug: ife-rodney
-  credential: ""
+  credential: ''
+  note: Verified from the video's TikTok transcript (yt-dlp captions, read in full);
+    no sponsorship.
   platform: TikTok
-  url: https://www.tiktok.com/@dr.iferodney/video/7667674410001698062
   posted: '2026-07-28'
-  related: [skin-barrier-repair]
-  thesis: "Dr. Ife Rodney, a board-certified dermatologist, explains that eczema flares can have more than one trigger because a disrupted skin barrier leaves skin more prone to dryness, inflammation, and allergic reactions to fragrances and dyes in detergents, lotions, and soaps. She recommends a bland, fragrance-free moisturizer applied within three minutes of showering and reapplied throughout the day whenever skin feels dry or itchy."
-  note: "Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship."
-
+  related:
+  - skin-barrier-repair
+  thesis: Dr. Ife Rodney, a board-certified dermatologist, explains that eczema flares
+    can have more than one trigger because a disrupted skin barrier leaves skin more
+    prone to dryness, inflammation, and allergic reactions to fragrances and dyes
+    in detergents, lotions, and soaps. She recommends a bland, fragrance-free moisturizer
+    applied within three minutes of showering and reapplied throughout the day whenever
+    skin feels dry or itchy.
+  title: If your eczema keeps flaring, there may be more than one trigger
+  url: https://www.tiktok.com/@dr.iferodney/video/7667674410001698062
 ---
 
 Moisturizing is one of the best-evidenced interventions in dermatology for eczema and barrier-impaired skin. A Cochrane review found that keeping such skin hydrated and occluded reduces eczema flares and spares topical corticosteroids [^1]. Two mechanisms do the work: slowing water loss at the surface and binding water there.

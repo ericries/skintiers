@@ -1,77 +1,112 @@
 ---
 analyzed: '2026-07-28'
-assurance: sonnet
+assurance: opus
 name: Strengthening the skin barrier (preventive / maintenance)
 slug: skin-barrier-strengthening
 status: published
+tier_list:
+  by: how well each helps build and maintain a resilient skin barrier, structuring
+    this page's own Tier 1 to Tier 2 ranking; occlusion, humectancy, the physiological
+    barrier lipids, and daily sun protection do the most work
+  items:
+  - note: The most occlusive foundation, minimizing transepidermal water loss so the
+      barrier can hold its own lipids and stay resilient.
+    slug: petrolatum
+    tier: strong
+  - note: A well-studied humectant that keeps the stratum corneum hydrated and supple;
+      a core part of the supportive foundation.
+    slug: glycerin
+    tier: strong
+  - note: A humectant that raises surface hydration and helps narrow the water-loss
+      gradient; works best layered under an occlusive.
+    slug: hyaluronic-acid
+    tier: strong
+  - note: A core barrier lipid; replenishing ceramides helps build the lipid matrix
+      that makes the barrier resilient, ideally with cholesterol and fatty acids.
+    slug: ceramides
+    tier: strong
+  - note: Daily broad-spectrum sunscreen prevents the UV damage that degrades barrier
+      function over time, so it is foundational for keeping a barrier strong rather
+      than just repairing it.
+    slug: sunscreen-uv-filters
+    tier: strong
+  - note: A breathable silicone occlusive and emollient that smooths and helps seal
+      the barrier with a lighter feel than petrolatum; a reliable adjunct.
+    slug: dimethicone
+    tier: moderate
+  - note: Supports barrier lipid synthesis and lowers water loss at around 2 to 5
+      percent; a reliable adjunct that complements the occlusive and humectant base.
+    slug: niacinamide
+    tier: moderate
+  - note: One of the three physiological barrier lipids; most useful alongside ceramides
+      and free fatty acids in a balanced ratio.
+    slug: cholesterol
+    tier: moderate
+  - note: A sphingoid-base lipid that feeds into ceramide production; a smaller supportive
+      lever within a barrier formula.
+    slug: phytosphingosine
+    tier: moderate
+  - note: Soothing and mildly barrier-supportive with reasonable evidence for reactive
+      and eczema-prone skin; a reliable adjunct rather than the foundation.
+    slug: colloidal-oatmeal
+    tier: moderate
+  title: Barrier-strengthening ingredients by evidence
 type: goal
 updated: '2026-08-18'
 videos:
-- title: "Skin barrier explained as a front door"
-  creator: ""
+- creator: ''
   creator_slug: ranella-hirsch
-  credential: ""
+  credential: ''
+  note: Verified from the video's TikTok transcript (yt-dlp captions, read in full);
+    no sponsorship.
   platform: TikTok
-  url: https://www.tiktok.com/@ranellamd/video/7179246795917118762
   posted: '2022-12-20'
-  related: [skin-barrier-repair]
-  thesis: "Board-certified dermatologist Dr. Ranella Hirsch explains the skin barrier using a front-door analogy: a healthy barrier quietly keeps out things you do not want and keeps in what you do, without you having to think about it or actively maintain it. Her point is that if something in your routine seriously damages that barrier every couple of weeks, that is a sign the routine itself is the problem, just as a front door that needed replacing every two weeks would mean something was wrong with how it was being treated."
-  note: "Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship."
-- title: "Are you over-exfoliating your skin barrier?"
-  creator: ""
+  related:
+  - skin-barrier-repair
+  thesis: 'Board-certified dermatologist Dr. Ranella Hirsch explains the skin barrier
+    using a front-door analogy: a healthy barrier quietly keeps out things you do
+    not want and keeps in what you do, without you having to think about it or actively
+    maintain it. Her point is that if something in your routine seriously damages
+    that barrier every couple of weeks, that is a sign the routine itself is the problem,
+    just as a front door that needed replacing every two weeks would mean something
+    was wrong with how it was being treated.'
+  title: Skin barrier explained as a front door
+  url: https://www.tiktok.com/@ranellamd/video/7179246795917118762
+- creator: ''
   creator_slug: fatima-fahs
-  credential: ""
+  credential: ''
+  note: Verified from the video's TikTok transcript (yt-dlp captions, read in full);
+    no sponsorship.
   platform: TikTok
-  url: https://www.tiktok.com/@dermydoctor/video/7672372895707893005
   posted: '2026-08-10'
-  related: [retinoids]
-  thesis: "Dr. Fatima Fahs, a board-certified dermatologist, warns that over-exfoliating can compromise the skin barrier and increase the risk of breakouts and irritation, even though skin naturally sheds cells on its own roughly every 28 days. She explains that exfoliation can help with dullness, oiliness, or discoloration when used in moderation, and describes her own routine of exfoliating with a pad, wash, or leave-on solution just one or two nights a week, alternating with retinol rather than layering too many active ingredients at once."
-  note: "Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship."
-- title: "Dermatographism: when your skin 'writes' when scratched"
-  creator: ""
+  related:
+  - retinoids
+  thesis: Dr. Fatima Fahs, a board-certified dermatologist, warns that over-exfoliating
+    can compromise the skin barrier and increase the risk of breakouts and irritation,
+    even though skin naturally sheds cells on its own roughly every 28 days. She explains
+    that exfoliation can help with dullness, oiliness, or discoloration when used
+    in moderation, and describes her own routine of exfoliating with a pad, wash,
+    or leave-on solution just one or two nights a week, alternating with retinol rather
+    than layering too many active ingredients at once.
+  title: Are you over-exfoliating your skin barrier?
+  url: https://www.tiktok.com/@dermydoctor/video/7672372895707893005
+- creator: ''
   creator_slug: sheila-farhang
-  credential: ""
+  credential: ''
+  note: Verified from the video's TikTok transcript (yt-dlp captions, read in full);
+    no sponsorship.
   platform: TikTok
-  url: https://www.tiktok.com/@dr.sheila_derm/video/7669094389951532318
   posted: '2026-08-01'
   related: []
-  thesis: "Board-certified dermatologist Dr. Sheila Farhang explains dermatographism, a form of reactive or sensitive skin sometimes called skin writing, where scratching or pressure causes raised red welts within seconds. She says this happens because the skin releases histamine that dilates blood vessels, and it is more common in people who already have sensitive or reactive skin. She clarifies it does not mean the body is full of toxins or needs a detox; it simply means the skin barrier reacts more strongly to friction and pressure."
-  note: "Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship."
-tier_list:
-  title: "Barrier-strengthening ingredients by evidence"
-  by: "how well each helps build and maintain a resilient skin barrier, structuring this page's own Tier 1 to Tier 2 ranking; occlusion, humectancy, the physiological barrier lipids, and daily sun protection do the most work"
-  items:
-    - slug: petrolatum
-      tier: strong
-      note: "The most occlusive foundation, minimizing transepidermal water loss so the barrier can hold its own lipids and stay resilient."
-    - slug: glycerin
-      tier: strong
-      note: "A well-studied humectant that keeps the stratum corneum hydrated and supple; a core part of the supportive foundation."
-    - slug: hyaluronic-acid
-      tier: strong
-      note: "A humectant that raises surface hydration and helps narrow the water-loss gradient; works best layered under an occlusive."
-    - slug: ceramides
-      tier: strong
-      note: "A core barrier lipid; replenishing ceramides helps build the lipid matrix that makes the barrier resilient, ideally with cholesterol and fatty acids."
-    - slug: sunscreen-uv-filters
-      tier: strong
-      note: "Daily broad-spectrum sunscreen prevents the UV damage that degrades barrier function over time, so it is foundational for keeping a barrier strong rather than just repairing it."
-    - slug: dimethicone
-      tier: moderate
-      note: "A breathable silicone occlusive and emollient that smooths and helps seal the barrier with a lighter feel than petrolatum; a reliable adjunct."
-    - slug: niacinamide
-      tier: moderate
-      note: "Supports barrier lipid synthesis and lowers water loss at around 2 to 5 percent; a reliable adjunct that complements the occlusive and humectant base."
-    - slug: cholesterol
-      tier: moderate
-      note: "One of the three physiological barrier lipids; most useful alongside ceramides and free fatty acids in a balanced ratio."
-    - slug: phytosphingosine
-      tier: moderate
-      note: "A sphingoid-base lipid that feeds into ceramide production; a smaller supportive lever within a barrier formula."
-    - slug: colloidal-oatmeal
-      tier: moderate
-      note: "Soothing and mildly barrier-supportive with reasonable evidence for reactive and eczema-prone skin; a reliable adjunct rather than the foundation."
-
+  thesis: Board-certified dermatologist Dr. Sheila Farhang explains dermatographism,
+    a form of reactive or sensitive skin sometimes called skin writing, where scratching
+    or pressure causes raised red welts within seconds. She says this happens because
+    the skin releases histamine that dilates blood vessels, and it is more common
+    in people who already have sensitive or reactive skin. She clarifies it does not
+    mean the body is full of toxins or needs a detox; it simply means the skin barrier
+    reacts more strongly to friction and pressure.
+  title: 'Dermatographism: when your skin ''writes'' when scratched'
+  url: https://www.tiktok.com/@dr.sheila_derm/video/7669094389951532318
 ---
 
 The skin barrier is the outermost layer of the skin, the stratum corneum. The usual way to picture it is a brick wall: flattened dead cells (corneocytes) are the bricks, and a matrix of fats between them is the mortar. That mortar is a specific mix of three lipids, ceramides, cholesterol, and free fatty acids, stacked in layered sheets. Peter Elias, who worked out much of this model, states that "all three lipids are required to form the lamellar structures that regulate barrier function."[^elias] The wall has one main job: hold water in and keep irritants out. Researchers score how well it is doing by measuring transepidermal water loss (TEWL), the rate at which water escapes through the skin. A healthy barrier loses little; a damaged one loses more, which is why TEWL is the standard readout for barrier function. This page is about the preventive side, keeping a healthy barrier strong, and it ranks the interventions by how much they actually do that, best-evidenced first. Rebuilding a barrier that is already disrupted (by eczema, over-exfoliation, or harsh weather) is a related but separate job, where moisturization has strong evidence; that companion list is [[skin-barrier-repair]].

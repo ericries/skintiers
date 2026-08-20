@@ -1,23 +1,29 @@
 ---
 analyzed: '2026-07-28'
-assurance: sonnet
+assurance: opus
 name: Glass skin
 slug: glass-skin
 status: published
 type: goal
 updated: '2026-07-28'
 videos:
-- title: "Derm finds out: How long do the results last from the viral Korean collagen mask?"
-  creator: "Dr. Scott Walter"
+- creator: Dr. Scott Walter
   creator_slug: scott-walter
-  credential: "Board-certified dermatologist"
+  credential: Board-certified dermatologist
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
   platform: YouTube
-  url: https://www.youtube.com/watch?v=7q5awcqlW4o
   posted: '2024-07-09'
   related: []
-  thesis: "Board-certified dermatologist Scott Walter ran a corneometer experiment to test how long the hydration from a viral, sold-out Korean collagen sheet mask actually lasts. Using half his face as a control and measuring after leaving the mask on overnight, he found it did boost skin hydration, even on top of other skincare, but the effect started falling back toward baseline after about three hours rather than lasting all day. He stresses this is a single person's result and a proper test would need many participants and skin types."
-  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
-
+  thesis: Board-certified dermatologist Scott Walter ran a corneometer experiment
+    to test how long the hydration from a viral, sold-out Korean collagen sheet mask
+    actually lasts. Using half his face as a control and measuring after leaving the
+    mask on overnight, he found it did boost skin hydration, even on top of other
+    skincare, but the effect started falling back toward baseline after about three
+    hours rather than lasting all day. He stresses this is a single person's result
+    and a proper test would need many participants and skin types.
+  title: 'Derm finds out: How long do the results last from the viral Korean collagen
+    mask?'
+  url: https://www.youtube.com/watch?v=7q5awcqlW4o
 ---
 
 "Glass skin" is a K-beauty social-media aesthetic, not a medical condition or a single product outcome. The name describes a look: skin that appears poreless, smooth, even-toned, and luminous, like a pane of glass. In a 2025 Pediatric Dermatology review, Goff and Stein describe the trend as one that "involves applying numerous exfoliating products and serums over the top of one another to achieve a smooth, shiny surface without the appearance of pores or texture, an impossible goal."[^1] "Glass skin" has no clinical definition and no trials of its own. What can be examined is the look broken into parts: how much of it is surface optics, and which of its components have evidence behind them. Those components live on their own pages, linked below.

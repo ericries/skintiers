@@ -1,151 +1,268 @@
 ---
 analyzed: '2026-07-29'
-assurance: sonnet
+assurance: opus
 name: Acne
 slug: acne
 status: published
+tier_list:
+  by: strength of the evidence for treating acne — several of these are clinically
+    similar, so the tiers track evidence certainty, not effect size alone
+  items:
+  - note: First-line topical retinoid; solid, FDA-approved (Rx and OTC), well tolerated.
+    slug: adapalene
+    tier: strong
+  - note: First-line prescription retinoid; solid evidence, matched in efficacy by
+      adapalene.
+    slug: tretinoin
+    tier: strong
+  - note: Equal to tretinoin 0.05% for comedonal acne and better tolerated; 16-RCT
+      review, FDA-approved.
+    slug: azelaic-acid
+    tier: strong
+  - note: Effective and first-line, but its key participant-reported outcomes are
+      GRADE low-certainty.
+    slug: benzoyl-peroxide
+    tier: moderate
+  - note: FDA OTC acne active; a modest effect on low-to-very-low-certainty evidence,
+      below the first-line actives.
+    slug: salicylic-acid
+    tier: moderate
+  title: Acne topical actives by evidence
 type: condition
 updated: '2026-08-05'
 videos:
-- title: "What to do (and what not to do) during an active acne breakout"
-  creator: "Ella (@your.estie.ella)"
+- creator: Ella (@your.estie.ella)
   creator_slug: your-estie-ella
-  credential: "Licensed esthetician"
+  credential: Licensed esthetician
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
   platform: TikTok
-  url: https://www.tiktok.com/@your.estie.ella/video/7672370181460512014
   posted: '2026-08-10'
-  thesis: "Licensed esthetician Ella (@your.estie.ella) explains what to do during an active acne breakout: resist the urge to pile on new actives, avoid scrubs, dermaplaning, and at-home extraction tools, and instead keep the skin calm, stay on your current routine, and add at most one new treatment at a time while giving it weeks to work. For active spots she suggests spot-treating with pimple patches, a spot treatment, or a sulfur mask rather than overhauling the whole routine, since breakouts take time to settle."
-  related: [salicylic-acid, retinoids, sulfur]
-  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
-- title: "How to Fix Adult Acne Without Drying Out Your Skin (30s, 40s, Beyond)"
-  creator: "Dr. Sam Bunting"
+  related:
+  - salicylic-acid
+  - retinoids
+  - sulfur
+  thesis: 'Licensed esthetician Ella (@your.estie.ella) explains what to do during
+    an active acne breakout: resist the urge to pile on new actives, avoid scrubs,
+    dermaplaning, and at-home extraction tools, and instead keep the skin calm, stay
+    on your current routine, and add at most one new treatment at a time while giving
+    it weeks to work. For active spots she suggests spot-treating with pimple patches,
+    a spot treatment, or a sulfur mask rather than overhauling the whole routine,
+    since breakouts take time to settle.'
+  title: What to do (and what not to do) during an active acne breakout
+  url: https://www.tiktok.com/@your.estie.ella/video/7672370181460512014
+- creator: Dr. Sam Bunting
   creator_slug: sam-bunting
-  credential: "Board-certified dermatologist"
+  credential: Board-certified dermatologist
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
   platform: YouTube
-  url: https://www.youtube.com/watch?v=dyzK718tnNI
   posted: '2025-12-07'
-  thesis: "Board-certified dermatologist Dr. Sam Bunting explains why adult acne, especially in women over 35, needs a different approach than teenage acne: drier, more reactive skin means the old habit of drying spots out with harsh cleansers and stacking many actives damages the skin barrier and makes breakouts worse. Her framework puts a supportive routine first, a gentle cleanser, a moisturizer, and a daily sunscreen, then a small consistent set of actives, azelaic acid in the morning and a retinoid at night, keeping benzoyl peroxide or salicylic acid for the occasional spot. She stresses treating the whole zone consistently rather than dabbing individual spots as they appear, and building up slowly, since adult acne responds to consistency rather than intensity."
-  related: [azelaic-acid, retinoids, benzoyl-peroxide, salicylic-acid, skin-barrier-repair, niacinamide]
-  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
-- title: "Body Acne Treatment | Get rid of Body Acne | Derm Guide for Body Acne and blemishes"
-  creator: ""
+  related:
+  - azelaic-acid
+  - retinoids
+  - benzoyl-peroxide
+  - salicylic-acid
+  - skin-barrier-repair
+  - niacinamide
+  thesis: 'Board-certified dermatologist Dr. Sam Bunting explains why adult acne,
+    especially in women over 35, needs a different approach than teenage acne: drier,
+    more reactive skin means the old habit of drying spots out with harsh cleansers
+    and stacking many actives damages the skin barrier and makes breakouts worse.
+    Her framework puts a supportive routine first, a gentle cleanser, a moisturizer,
+    and a daily sunscreen, then a small consistent set of actives, azelaic acid in
+    the morning and a retinoid at night, keeping benzoyl peroxide or salicylic acid
+    for the occasional spot. She stresses treating the whole zone consistently rather
+    than dabbing individual spots as they appear, and building up slowly, since adult
+    acne responds to consistency rather than intensity.'
+  title: How to Fix Adult Acne Without Drying Out Your Skin (30s, 40s, Beyond)
+  url: https://www.youtube.com/watch?v=dyzK718tnNI
+- creator: ''
   creator_slug: adeline-kikam
-  credential: ""
+  credential: ''
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
   platform: YouTube
-  url: https://www.youtube.com/watch?v=Efdvq8ptkmA
   posted: '2022-06-18'
   related: []
-  thesis: "Board-certified dermatologist Dr. Adeline Kikam (Brown Skin Derm) explains that body acne on the chest and back shares the same root causes as facial acne, excess oil and dead skin clogging pores plus bacterial colonization, but is often worsened by tight clothing, sweat, stress-driven cortisol, and certain hair or grooming products. She recommends daily showers after sweating, gentle chemical exfoliation with ingredients like salicylic acid, glycolic acid, lactic acid, or benzoyl peroxide, avoiding picking at lesions to prevent scarring and dark spots, and seeing a dermatologist if breakouts do not improve since body acne can be confused with folliculitis."
-  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
-- title: "99% Overlook These Effective Acne Treatments – 2025 Guide"
-  creator: ""
+  thesis: Board-certified dermatologist Dr. Adeline Kikam (Brown Skin Derm) explains
+    that body acne on the chest and back shares the same root causes as facial acne,
+    excess oil and dead skin clogging pores plus bacterial colonization, but is often
+    worsened by tight clothing, sweat, stress-driven cortisol, and certain hair or
+    grooming products. She recommends daily showers after sweating, gentle chemical
+    exfoliation with ingredients like salicylic acid, glycolic acid, lactic acid,
+    or benzoyl peroxide, avoiding picking at lesions to prevent scarring and dark
+    spots, and seeing a dermatologist if breakouts do not improve since body acne
+    can be confused with folliculitis.
+  title: Body Acne Treatment | Get rid of Body Acne | Derm Guide for Body Acne and
+    blemishes
+  url: https://www.youtube.com/watch?v=Efdvq8ptkmA
+- creator: ''
   creator_slug: usama-syed
-  credential: ""
+  credential: ''
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
   platform: YouTube
-  url: https://www.youtube.com/watch?v=y5d_iIgH3Pc
   posted: '2023-07-05'
-  related: [retinoids, salicylic-acid, benzoyl-peroxide, niacinamide, azelaic-acid]
-  thesis: "Board-certified dermatologist Dr. Usama Syed covers acne treatment across lifestyle, over-the-counter, and prescription tiers, explaining how blocked oil glands and P. acnes bacteria drive breakouts. He highlights salicylic acid and benzoyl peroxide as classic over-the-counter actives, calls retinoids the ingredient he is most enthusiastic about for acne because they work across the entire acne pathway, and also names niacinamide and azelaic acid as helpful secondary options before discussing prescription retinoids, oral antibiotics, hormonal treatments, and isotretinoin (Accutane) for more severe cases."
-  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
-- title: "3 Ways To Fix Bacne — From A Derm"
-  creator: ""
+  related:
+  - retinoids
+  - salicylic-acid
+  - benzoyl-peroxide
+  - niacinamide
+  - azelaic-acid
+  thesis: Board-certified dermatologist Dr. Usama Syed covers acne treatment across
+    lifestyle, over-the-counter, and prescription tiers, explaining how blocked oil
+    glands and P. acnes bacteria drive breakouts. He highlights salicylic acid and
+    benzoyl peroxide as classic over-the-counter actives, calls retinoids the ingredient
+    he is most enthusiastic about for acne because they work across the entire acne
+    pathway, and also names niacinamide and azelaic acid as helpful secondary options
+    before discussing prescription retinoids, oral antibiotics, hormonal treatments,
+    and isotretinoin (Accutane) for more severe cases.
+  title: 99% Overlook These Effective Acne Treatments – 2025 Guide
+  url: https://www.youtube.com/watch?v=y5d_iIgH3Pc
+- creator: ''
   creator_slug: lindsey-zubritsky
-  credential: ""
+  credential: ''
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
   platform: YouTube
-  url: https://www.youtube.com/watch?v=OMwRjoDwJ5M
   posted: '2026-06-22'
-  related: [benzoyl-peroxide, salicylic-acid, adapalene]
-  thesis: "Board-certified dermatologist Dr. Lindsey Zubritsky (DermGuru) shares three drugstore-accessible ways to treat back acne (bacne). She recommends benzoyl peroxide left on for five minutes in the shower several times a week (using an old or white towel to dry off, since it can bleach fabric), a salicylic acid or hypochlorous acid spray to use after sweaty workouts to reduce acne-causing bacteria, and adapalene gel (a retinoid) applied in a pea-sized amount to the back, while cautioning against scrubbing acne-prone skin."
-  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
-- title: "Will Brazil nuts cure your acne?"
-  creator: ""
+  related:
+  - benzoyl-peroxide
+  - salicylic-acid
+  - adapalene
+  thesis: Board-certified dermatologist Dr. Lindsey Zubritsky (DermGuru) shares three
+    drugstore-accessible ways to treat back acne (bacne). She recommends benzoyl peroxide
+    left on for five minutes in the shower several times a week (using an old or white
+    towel to dry off, since it can bleach fabric), a salicylic acid or hypochlorous
+    acid spray to use after sweaty workouts to reduce acne-causing bacteria, and adapalene
+    gel (a retinoid) applied in a pea-sized amount to the back, while cautioning against
+    scrubbing acne-prone skin.
+  title: 3 Ways To Fix Bacne — From A Derm
+  url: https://www.youtube.com/watch?v=OMwRjoDwJ5M
+- creator: ''
   creator_slug: angelo-landriscina
-  credential: ""
+  credential: ''
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
   platform: YouTube
-  url: https://www.youtube.com/watch?v=trlgLsWAYsY
   posted: '2025-11-01'
   related: []
-  thesis: "Board-certified dermatologist Dr. Angelo Landriscina (DermAngelo) examines the viral claim that eating Brazil nuts (a source of selenium) can clear acne and heal acne scars, and concludes the evidence does not support it. He walks through a case-control study that found lower average blood selenium in acne patients but no statistically significant difference in selenium deficiency rates, and a small, ethically flagged supplementation study, arguing that correlation between selenium and acne does not establish selenium as a therapeutic target."
-  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
-- title: "Adult vs Teen acne"
-  creator: ""
+  thesis: Board-certified dermatologist Dr. Angelo Landriscina (DermAngelo) examines
+    the viral claim that eating Brazil nuts (a source of selenium) can clear acne
+    and heal acne scars, and concludes the evidence does not support it. He walks
+    through a case-control study that found lower average blood selenium in acne patients
+    but no statistically significant difference in selenium deficiency rates, and
+    a small, ethically flagged supplementation study, arguing that correlation between
+    selenium and acne does not establish selenium as a therapeutic target.
+  title: Will Brazil nuts cure your acne?
+  url: https://www.youtube.com/watch?v=trlgLsWAYsY
+- creator: ''
   creator_slug: emma-wedgeworth
-  credential: ""
+  credential: ''
+  note: Verified from the video's TikTok transcript (yt-dlp captions, read in full);
+    no sponsorship.
   platform: TikTok
-  url: https://www.tiktok.com/@dremwedgeworth/video/7497344010160295190
   posted: '2025-04-25'
   related: []
-  thesis: "Dr Emma Wedgeworth, a consultant dermatologist in London, contrasts how acne presents differently in teens versus adults. She explains that teenage acne concentrates in the T-zone with oily skin and consists mainly of pustules and blackheads occurring all month, while adult acne tends to affect the chin and jaw in sensitive or combination-prone skin, flares mid-cycle and pre-period, and shows up as painful lumpy nodules under the skin; she also notes adult women experience acne much more than men, unlike in teens where rates are similar between sexes. She reassures viewers that both forms are entirely treatable."
-  note: "Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship."
-- title: "How to treat each of the 4 types of acne"
-  creator: ""
+  thesis: Dr Emma Wedgeworth, a consultant dermatologist in London, contrasts how
+    acne presents differently in teens versus adults. She explains that teenage acne
+    concentrates in the T-zone with oily skin and consists mainly of pustules and
+    blackheads occurring all month, while adult acne tends to affect the chin and
+    jaw in sensitive or combination-prone skin, flares mid-cycle and pre-period, and
+    shows up as painful lumpy nodules under the skin; she also notes adult women experience
+    acne much more than men, unlike in teens where rates are similar between sexes.
+    She reassures viewers that both forms are entirely treatable.
+  title: Adult vs Teen acne
+  url: https://www.tiktok.com/@dremwedgeworth/video/7497344010160295190
+- creator: ''
   creator_slug: sheila-farhang
-  credential: ""
+  credential: ''
+  note: Verified from the video's TikTok transcript (yt-dlp captions, read in full);
+    no sponsorship.
   platform: TikTok
-  url: https://www.tiktok.com/@dr.sheila_derm/video/7667388983848078623
   posted: '2026-07-28'
-  related: [salicylic-acid, lactic-acid, glycolic-acid, retinol, benzoyl-peroxide]
-  thesis: "Board-certified dermatologist Dr. Sheila Farhang explains that acne is not treated one way, and breaks it down by type: comedonal acne (clogged pores) responds to salicylic, lactic, or glycolic acid plus a retinoid to speed cell turnover; inflammatory acne (whiteheads and painful surface bumps) starts with benzoyl peroxide to reduce bacteria, salicylic acid to unclog pores, and a retinoid, with topical clindamycin (pregnancy-safe) as her backup; nodular cystic acne is deeper and can scar, so she says it is time to see a dermatologist for prescription topicals, in-office laser, or oral medication; and hormonal acne is a systemic issue where she looks for the underlying trigger and uses supplements like DIM, the prescription topical Winlevi, or spironolactone alongside topicals."
-  note: "Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship."
-- title: "3 common skincare ingredients that cause acne"
-  creator: ""
+  related:
+  - salicylic-acid
+  - lactic-acid
+  - glycolic-acid
+  - retinol
+  - benzoyl-peroxide
+  thesis: 'Board-certified dermatologist Dr. Sheila Farhang explains that acne is
+    not treated one way, and breaks it down by type: comedonal acne (clogged pores)
+    responds to salicylic, lactic, or glycolic acid plus a retinoid to speed cell
+    turnover; inflammatory acne (whiteheads and painful surface bumps) starts with
+    benzoyl peroxide to reduce bacteria, salicylic acid to unclog pores, and a retinoid,
+    with topical clindamycin (pregnancy-safe) as her backup; nodular cystic acne is
+    deeper and can scar, so she says it is time to see a dermatologist for prescription
+    topicals, in-office laser, or oral medication; and hormonal acne is a systemic
+    issue where she looks for the underlying trigger and uses supplements like DIM,
+    the prescription topical Winlevi, or spironolactone alongside topicals.'
+  title: How to treat each of the 4 types of acne
+  url: https://www.tiktok.com/@dr.sheila_derm/video/7667388983848078623
+- creator: ''
   creator_slug: onyeka-obiohalolagne
-  credential: ""
+  credential: ''
+  note: Verified from the video's TikTok transcript (yt-dlp captions, read in full);
+    no sponsorship.
   platform: TikTok
-  url: https://www.tiktok.com/@dr.obioha/video/7339236743608274222
   posted: '2024-02-24'
   related: []
-  thesis: "Board-certified dermatologist Dr. Onyeka Obioha warns that some skincare products marketed as oil-free can still contain comedogenic oils and butters that sit on top of the skin and clog pores. She explains that clogged pores worsen breakouts, so she recommends flipping the bottle over and checking the ingredient list for oils and butters rather than trusting front-of-package claims. This is a general label-reading tip for anyone managing acne-prone skin."
-  note: "Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship."
-- title: "At-home acne injection pen (ClearPen) in development"
-  creator: ""
+  thesis: Board-certified dermatologist Dr. Onyeka Obioha warns that some skincare
+    products marketed as oil-free can still contain comedogenic oils and butters that
+    sit on top of the skin and clog pores. She explains that clogged pores worsen
+    breakouts, so she recommends flipping the bottle over and checking the ingredient
+    list for oils and butters rather than trusting front-of-package claims. This is
+    a general label-reading tip for anyone managing acne-prone skin.
+  title: 3 common skincare ingredients that cause acne
+  url: https://www.tiktok.com/@dr.obioha/video/7339236743608274222
+- creator: ''
   creator_slug: heather-woolerylloyd
-  credential: ""
+  credential: ''
+  note: Verified from the video's TikTok transcript (yt-dlp captions, read in full);
+    no sponsorship.
   platform: TikTok
-  url: https://www.tiktok.com/@drheathermd/video/7603033455491894541
   posted: '2026-02-04'
   related: []
-  thesis: "Dr. Heather Woolery-Lloyd, a board-certified dermatologist, discusses an investigational at-home acne injection device called ClearPen, being developed by the company Indomo. The device uses a microneedle delivery system to let patients self-administer triamcinolone, a steroid dermatologists use to rapidly reduce inflammation, directly into inflammatory acne lesions, and is currently headed into phase two clinical trials."
-  note: "Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship."
-- title: 'Acne Purging: What It Is and How to Manage It'
-  creator: Dr Sam Bunting
+  thesis: Dr. Heather Woolery-Lloyd, a board-certified dermatologist, discusses an
+    investigational at-home acne injection device called ClearPen, being developed
+    by the company Indomo. The device uses a microneedle delivery system to let patients
+    self-administer triamcinolone, a steroid dermatologists use to rapidly reduce
+    inflammation, directly into inflammatory acne lesions, and is currently headed
+    into phase two clinical trials.
+  title: At-home acne injection pen (ClearPen) in development
+  url: https://www.tiktok.com/@drheathermd/video/7603033455491894541
+- creator: Dr Sam Bunting
   creator_slug: sam-bunting
   credential: Board-certified dermatologist (UK)
-  platform: YouTube
-  url: https://www.youtube.com/watch?v=1T_3APXXtDw
-  posted: '2024-01-11'
-  related: [retinoids, tretinoin, adapalene, salicylic-acid]
-  thesis: UK board-certified dermatologist Dr Sam Bunting explains acne purging, the turbulent first six weeks after starting an active-based acne routine that targets the root cause. She describes how a blemish begins with a clogged pore where sticky skin cells block the follicle so oil and acne bacteria build up behind the blockage and inflammation forms, and how starting an active that unclogs pores brings that already-forming congestion to the surface faster, which is the purge. Her point is not to let fear of purging delay treating acne for a single day longer.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
-- title: Post-Acne Marks Heal by Calming, Not Scrubbing
-  creator: Ella
+  platform: YouTube
+  posted: '2024-01-11'
+  related:
+  - retinoids
+  - tretinoin
+  - adapalene
+  - salicylic-acid
+  thesis: UK board-certified dermatologist Dr Sam Bunting explains acne purging, the
+    turbulent first six weeks after starting an active-based acne routine that targets
+    the root cause. She describes how a blemish begins with a clogged pore where sticky
+    skin cells block the follicle so oil and acne bacteria build up behind the blockage
+    and inflammation forms, and how starting an active that unclogs pores brings that
+    already-forming congestion to the surface faster, which is the purge. Her point
+    is not to let fear of purging delay treating acne for a single day longer.
+  title: 'Acne Purging: What It Is and How to Manage It'
+  url: https://www.youtube.com/watch?v=1T_3APXXtDw
+- creator: Ella
   creator_slug: your-estie-ella
   credential: licensed esthetician
-  platform: TikTok
-  url: https://www.tiktok.com/@your.estie.ella/video/7675730527655038221
-  posted: '2026-08-19'
-  related: [hyperpigmentation, skin-barrier-repair]
-  thesis: Licensed esthetician Ella explains that fading post-acne marks is not about scrubbing them or reaching for the strongest acid or tretinoin, but about calming, soothing skincare. She frames acne as a wound that inflames the skin, leaving post-inflammatory erythema (PIE, the red marks) and post-inflammatory hyperpigmentation (PIH, the dark marks); harsh acids and scrubbing prolong them, while nurturing the skin barrier with gentle, soothing ingredients lets the marks fade faster.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
-tier_list:
-  title: "Acne topical actives by evidence"
-  by: "strength of the evidence for treating acne — several of these are clinically similar, so the tiers track evidence certainty, not effect size alone"
-  items:
-    - slug: adapalene
-      tier: strong
-      note: "First-line topical retinoid; solid, FDA-approved (Rx and OTC), well tolerated."
-    - slug: tretinoin
-      tier: strong
-      note: "First-line prescription retinoid; solid evidence, matched in efficacy by adapalene."
-    - slug: azelaic-acid
-      tier: strong
-      note: "Equal to tretinoin 0.05% for comedonal acne and better tolerated; 16-RCT review, FDA-approved."
-    - slug: benzoyl-peroxide
-      tier: moderate
-      note: "Effective and first-line, but its key participant-reported outcomes are GRADE low-certainty."
-    - slug: salicylic-acid
-      tier: moderate
-      note: "FDA OTC acne active; a modest effect on low-to-very-low-certainty evidence, below the first-line actives."
+  platform: TikTok
+  posted: '2026-08-19'
+  related:
+  - hyperpigmentation
+  - skin-barrier-repair
+  thesis: Licensed esthetician Ella explains that fading post-acne marks is not about
+    scrubbing them or reaching for the strongest acid or tretinoin, but about calming,
+    soothing skincare. She frames acne as a wound that inflames the skin, leaving
+    post-inflammatory erythema (PIE, the red marks) and post-inflammatory hyperpigmentation
+    (PIH, the dark marks); harsh acids and scrubbing prolong them, while nurturing
+    the skin barrier with gentle, soothing ingredients lets the marks fade faster.
+  title: Post-Acne Marks Heal by Calming, Not Scrubbing
+  url: https://www.tiktok.com/@your.estie.ella/video/7675730527655038221
 ---
 
 Acne vulgaris is the most common skin condition treated by dermatologists, driven by a mix of follicular hyperkeratinization, sebum, *Cutibacterium acnes*, and inflammation. Graded skeptically against controlled evidence for **topical skincare**, the best-studied over-the-counter and prescription topicals produce **modest** lesion reductions, the gap between the "best" and "second-best" topical is often smaller than the marketing implies, and the single largest evidence base for these treatments is rated moderate to very low certainty.[^1][^2]

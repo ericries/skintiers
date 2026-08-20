@@ -1,114 +1,199 @@
 ---
 analyzed: '2026-07-28'
-assurance: sonnet
+assurance: opus
 name: Repairing a disrupted skin barrier
 slug: skin-barrier-repair
 status: published
+tier_list:
+  by: how well each supports rebuilding a disrupted skin barrier, structuring this
+    page's own Tier 1 to Tier 2 ranking; occlusion and humectancy plus the physiological
+    barrier lipids do the most work, and time drives the underlying recovery
+  items:
+  - note: The most occlusive foundation, cutting transepidermal water loss more than
+      any other common ingredient and buying the barrier time to re-form its own lipids.
+    slug: petrolatum
+    tier: strong
+  - note: A well-studied humectant that draws and holds water in the stratum corneum;
+      a core part of the supportive foundation, especially sealed under an occlusive.
+    slug: glycerin
+    tier: strong
+  - note: A humectant that raises surface hydration and helps narrow the water-loss
+      gradient; works best layered under an occlusive rather than on its own.
+    slug: hyaluronic-acid
+    tier: strong
+  - note: A core barrier lipid; replenishing ceramides (ideally with cholesterol and
+      fatty acids) helps rebuild the lipid matrix the barrier is made of.
+    slug: ceramides
+    tier: strong
+  - note: Soothing and mildly barrier-supportive with reasonable evidence for irritated
+      and eczema-prone skin; a reliable adjunct rather than the foundation.
+    slug: colloidal-oatmeal
+    tier: moderate
+  - note: Supports barrier lipid synthesis and lowers water loss at around 2 to 5
+      percent; a reliable adjunct that complements the occlusive and humectant base.
+    slug: niacinamide
+    tier: moderate
+  - note: One of the three physiological barrier lipids; most useful alongside ceramides
+      and free fatty acids in a balanced ratio rather than alone.
+    slug: cholesterol
+    tier: moderate
+  - note: A sphingoid-base lipid that feeds into ceramide production; a smaller supportive
+      lever within a barrier-repair formula.
+    slug: phytosphingosine
+    tier: moderate
+  - note: Cica extract with soothing and antioxidant support for compromised skin;
+      a modest adjunct, not a barrier-rebuilding foundation.
+    slug: centella-asiatica
+    tier: moderate
+  title: Barrier-repair ingredients by evidence
 type: goal
 updated: '2026-08-17'
 videos:
-- title: "The truth about skin barrier repair"
-  creator: Kristin Leite
+- creator: Kristin Leite
   creator_slug: kristin-leite
-  credential: Beauty product developer and skincare educator (NOT a dermatologist or cosmetic chemist)
+  credential: Beauty product developer and skincare educator (NOT a dermatologist
+    or cosmetic chemist)
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
   platform: TikTok
-  url: https://www.tiktok.com/@kristingl/video/7670192887124086030
   posted: '2026-08-04'
-  thesis: "Beauty product developer Kristin Leite (not a dermatologist or chemist) explains that skin barrier repair products all work differently even when they are marketed the same way, so the goal is finding the ingredient that suits you. She walks through several barrier-supporting ingredients and what each does: EGF as a signalling protein that tells skin to repair itself, centella (with alternatives like heartleaf or mugwort) to calm redness and inflammation, ceramides for moisture and hydration retention, and panthenol to reduce water loss through the skin. Her takeaway is that everyone benefits from barrier care, not only people with dry or acne-prone skin."
-  related: [skin-barrier-strengthening, epidermal-growth-factor, centella-asiatica, ceramides, panthenol, houttuynia-cordata]
-  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
-- title: "When Should You STOP Washing Your Face? Dermatologist Verdict"
-  creator: "Dr. Sam Ellis"
+  related:
+  - skin-barrier-strengthening
+  - epidermal-growth-factor
+  - centella-asiatica
+  - ceramides
+  - panthenol
+  - houttuynia-cordata
+  thesis: 'Beauty product developer Kristin Leite (not a dermatologist or chemist)
+    explains that skin barrier repair products all work differently even when they
+    are marketed the same way, so the goal is finding the ingredient that suits you.
+    She walks through several barrier-supporting ingredients and what each does: EGF
+    as a signalling protein that tells skin to repair itself, centella (with alternatives
+    like heartleaf or mugwort) to calm redness and inflammation, ceramides for moisture
+    and hydration retention, and panthenol to reduce water loss through the skin.
+    Her takeaway is that everyone benefits from barrier care, not only people with
+    dry or acne-prone skin.'
+  title: The truth about skin barrier repair
+  url: https://www.tiktok.com/@kristingl/video/7670192887124086030
+- creator: Dr. Sam Ellis
   creator_slug: samantha-ellis
-  credential: "Board-certified dermatologist"
+  credential: Board-certified dermatologist
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
   platform: YouTube
-  url: https://www.youtube.com/watch?v=uOBx0QK3qmM
   posted: '2026-03-13'
-  thesis: "Board-certified dermatologist Dr. Sam Ellis gives her verdict on the viral caveman method of quitting skincare and even face-washing entirely, saying the idea that skipping cleansing is naturally healthier is not supported by evidence since oil, sweat, dead skin cells, and bacteria build up without it. She says a short break from an overloaded routine can let an irritated barrier calm down, but recommends replacing the caveman method with a minimal routine, a gentle cleanser and a bland moisturizer without active ingredients, rather than stopping skincare altogether, and cautions that people with eczema, rosacea, or seborrheic dermatitis should not try it at all."
-  related: ["atopic-dermatitis", "rosacea"]
-  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
-- title: "Building A Skincare Routine For All Skin Types | Dr. Joyce Park"
-  creator: ""
-  creator_slug: 
-  credential: ""
+  related:
+  - atopic-dermatitis
+  - rosacea
+  thesis: Board-certified dermatologist Dr. Sam Ellis gives her verdict on the viral
+    caveman method of quitting skincare and even face-washing entirely, saying the
+    idea that skipping cleansing is naturally healthier is not supported by evidence
+    since oil, sweat, dead skin cells, and bacteria build up without it. She says
+    a short break from an overloaded routine can let an irritated barrier calm down,
+    but recommends replacing the caveman method with a minimal routine, a gentle cleanser
+    and a bland moisturizer without active ingredients, rather than stopping skincare
+    altogether, and cautions that people with eczema, rosacea, or seborrheic dermatitis
+    should not try it at all.
+  title: When Should You STOP Washing Your Face? Dermatologist Verdict
+  url: https://www.youtube.com/watch?v=uOBx0QK3qmM
+- creator: ''
+  creator_slug: null
+  credential: ''
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
   platform: YouTube
-  url: https://www.youtube.com/watch?v=KAyTvaTaS7o
   posted: '2024-10-04'
-  related: [retinol, vitamin-c, sunscreen-uv-filters]
-  thesis: "Board-certified dermatologist Dr. Joyce Park (Tea with MD) walks through how to build a basic AM/PM skincare routine, warning that using too many products can damage the skin barrier and cause redness and irritation. She covers ordering actives (treatment step, vitamin C, moisturizer, sunscreen), introduces the \"sandwich method\" (moisturizer, then retinoid, then moisturizer) for easing sensitive or dry skin into retinoids to reduce retinoid dermatitis, and recommends a \"skin diet\" (stripping back to basics, then reintroducing one product every few days) to identify what is causing irritation."
-  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
-- title: "Winter Skincare Swaps: How to Transition Your Routine for Dry, Cold Weather"
-  creator: ""
-  creator_slug: 
-  credential: ""
+  related:
+  - retinol
+  - vitamin-c
+  - sunscreen-uv-filters
+  thesis: Board-certified dermatologist Dr. Joyce Park (Tea with MD) walks through
+    how to build a basic AM/PM skincare routine, warning that using too many products
+    can damage the skin barrier and cause redness and irritation. She covers ordering
+    actives (treatment step, vitamin C, moisturizer, sunscreen), introduces the "sandwich
+    method" (moisturizer, then retinoid, then moisturizer) for easing sensitive or
+    dry skin into retinoids to reduce retinoid dermatitis, and recommends a "skin
+    diet" (stripping back to basics, then reintroducing one product every few days)
+    to identify what is causing irritation.
+  title: Building A Skincare Routine For All Skin Types | Dr. Joyce Park
+  url: https://www.youtube.com/watch?v=KAyTvaTaS7o
+- creator: ''
+  creator_slug: null
+  credential: ''
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
   platform: YouTube
-  url: https://www.youtube.com/watch?v=u557TRHEsaM
   posted: '2025-11-21'
-  related: [ceramides, niacinamide, hyaluronic-acid, la-roche-posay-toleriane-hydrating-gentle-cleanser, skinfix-barrier-triple-lipid-peptide-cream, skin-barrier-strengthening]
-  thesis: "Board-certified dermatologist Dr. Joyce Park (Tea with MD) walks through three seasonal swaps to protect the skin barrier as cold air and indoor heating set in: switching from foaming cleansers to gentle, non-foaming ones with niacinamide, ceramides, glycerin, and hyaluronic acid (she names La Roche-Posay Toleriane Hydrating Gentle Cleanser and CeraVe Hydrating Cleanser), moving from gel moisturizers to richer ceramide creams like SkinCeuticals Triple Lipid Restore or the budget alternative Skinfix Triple Lipid Peptide Cream, and continuing daily sunscreen (favoring mineral formulas for flare-prone rosacea or eczema skin) since UV exposure and skin cancer risk persist through winter. She frames the routine as layering hydration in stages rather than swapping one product for another, and does not cite any specific published study."
-  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
-- title: "#barrierrepair #moisturebarrier #skincareroutine"
-  creator: ""
+  related:
+  - ceramides
+  - niacinamide
+  - hyaluronic-acid
+  - la-roche-posay-toleriane-hydrating-gentle-cleanser
+  - skinfix-barrier-triple-lipid-peptide-cream
+  - skin-barrier-strengthening
+  thesis: 'Board-certified dermatologist Dr. Joyce Park (Tea with MD) walks through
+    three seasonal swaps to protect the skin barrier as cold air and indoor heating
+    set in: switching from foaming cleansers to gentle, non-foaming ones with niacinamide,
+    ceramides, glycerin, and hyaluronic acid (she names La Roche-Posay Toleriane Hydrating
+    Gentle Cleanser and CeraVe Hydrating Cleanser), moving from gel moisturizers to
+    richer ceramide creams like SkinCeuticals Triple Lipid Restore or the budget alternative
+    Skinfix Triple Lipid Peptide Cream, and continuing daily sunscreen (favoring mineral
+    formulas for flare-prone rosacea or eczema skin) since UV exposure and skin cancer
+    risk persist through winter. She frames the routine as layering hydration in stages
+    rather than swapping one product for another, and does not cite any specific published
+    study.'
+  title: 'Winter Skincare Swaps: How to Transition Your Routine for Dry, Cold Weather'
+  url: https://www.youtube.com/watch?v=u557TRHEsaM
+- creator: ''
   creator_slug: onyeka-obiohalolagne
-  credential: ""
+  credential: ''
+  note: Verified from the video's TikTok transcript (yt-dlp captions, read in full);
+    no sponsorship.
   platform: TikTok
-  url: https://www.tiktok.com/@dr.obioha/video/7288898312877493547
   posted: '2023-10-12'
-  related: [ceramides, atopic-dermatitis]
-  thesis: "Board-certified dermatologist Dr. Onyeka Obioha explains that the skin's moisture barrier, made up of ceramides, fatty acids, and lipids, protects against the external environment and unwanted bacteria. She describes how a compromised barrier leads to transepidermal water loss, dryness, and can worsen inflammatory conditions like eczema, causing redness, itching, and increased infection risk. She notes that plain oils without ceramides or fatty acids sit on top of the skin and do nothing to actually restore the barrier, so it matters to know whether a product truly supports the moisture barrier or only feels like it does."
-  note: "Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship."
-- title: "If all you've been told for eczema is moisturize"
-  creator: ""
+  related:
+  - ceramides
+  - atopic-dermatitis
+  thesis: Board-certified dermatologist Dr. Onyeka Obioha explains that the skin's
+    moisture barrier, made up of ceramides, fatty acids, and lipids, protects against
+    the external environment and unwanted bacteria. She describes how a compromised
+    barrier leads to transepidermal water loss, dryness, and can worsen inflammatory
+    conditions like eczema, causing redness, itching, and increased infection risk.
+    She notes that plain oils without ceramides or fatty acids sit on top of the skin
+    and do nothing to actually restore the barrier, so it matters to know whether
+    a product truly supports the moisture barrier or only feels like it does.
+  title: '#barrierrepair #moisturebarrier #skincareroutine'
+  url: https://www.tiktok.com/@dr.obioha/video/7288898312877493547
+- creator: ''
   creator_slug: ife-rodney
-  credential: ""
+  credential: ''
+  note: Verified from the video's TikTok transcript (yt-dlp captions, read in full);
+    no sponsorship.
   platform: TikTok
-  url: https://www.tiktok.com/@dr.iferodney/video/7668026486355414302
   posted: '2026-07-29'
-  related: [moisturizing]
-  thesis: "Dr. Ife Rodney, a board-certified dermatologist, explains that moisturizing alone is not enough to manage eczema and that reinforcing the skin's protective barrier also requires avoiding hot showers and fragranced or dyed products that can trigger flares. She recommends patting (not fully drying) skin after showering and massaging in a bland, gentle moisturizer within three minutes of getting out."
-  note: "Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship."
-- title: What is a damaged skin barrier and how do you fix it? (Part 1)
-  creator: Jenn Lexi
+  related:
+  - moisturizing
+  thesis: Dr. Ife Rodney, a board-certified dermatologist, explains that moisturizing
+    alone is not enough to manage eczema and that reinforcing the skin's protective
+    barrier also requires avoiding hot showers and fragranced or dyed products that
+    can trigger flares. She recommends patting (not fully drying) skin after showering
+    and massaging in a bland, gentle moisturizer within three minutes of getting out.
+  title: If all you've been told for eczema is moisturize
+  url: https://www.tiktok.com/@dr.iferodney/video/7668026486355414302
+- creator: Jenn Lexi
   creator_slug: jennlexi
   credential: esthetician
-  platform: TikTok
-  url: https://www.tiktok.com/@jennlexi_/video/7665901016860118285
-  posted: '2026-07-24'
-  related: [skin-barrier-strengthening, retinoids]
-  thesis: 'Esthetician Jenn Lexi explains what a damaged skin barrier actually is and how it heals, using a brick-wall analogy: when the barrier breaks down from over-exfoliation, too-high retinoid percentages, or under-moisturizing, the skin loses water and lets irritants in, turning red, inflamed, and breakout-prone. She notes the skin shifts into repair mode on its own within about a day and can recover over a couple of weeks, but only if you stop the habits that caused the damage; otherwise acute damage becomes chronic inflammation.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
-tier_list:
-  title: "Barrier-repair ingredients by evidence"
-  by: "how well each supports rebuilding a disrupted skin barrier, structuring this page's own Tier 1 to Tier 2 ranking; occlusion and humectancy plus the physiological barrier lipids do the most work, and time drives the underlying recovery"
-  items:
-    - slug: petrolatum
-      tier: strong
-      note: "The most occlusive foundation, cutting transepidermal water loss more than any other common ingredient and buying the barrier time to re-form its own lipids."
-    - slug: glycerin
-      tier: strong
-      note: "A well-studied humectant that draws and holds water in the stratum corneum; a core part of the supportive foundation, especially sealed under an occlusive."
-    - slug: hyaluronic-acid
-      tier: strong
-      note: "A humectant that raises surface hydration and helps narrow the water-loss gradient; works best layered under an occlusive rather than on its own."
-    - slug: ceramides
-      tier: strong
-      note: "A core barrier lipid; replenishing ceramides (ideally with cholesterol and fatty acids) helps rebuild the lipid matrix the barrier is made of."
-    - slug: colloidal-oatmeal
-      tier: moderate
-      note: "Soothing and mildly barrier-supportive with reasonable evidence for irritated and eczema-prone skin; a reliable adjunct rather than the foundation."
-    - slug: niacinamide
-      tier: moderate
-      note: "Supports barrier lipid synthesis and lowers water loss at around 2 to 5 percent; a reliable adjunct that complements the occlusive and humectant base."
-    - slug: cholesterol
-      tier: moderate
-      note: "One of the three physiological barrier lipids; most useful alongside ceramides and free fatty acids in a balanced ratio rather than alone."
-    - slug: phytosphingosine
-      tier: moderate
-      note: "A sphingoid-base lipid that feeds into ceramide production; a smaller supportive lever within a barrier-repair formula."
-    - slug: centella-asiatica
-      tier: moderate
-      note: "Cica extract with soothing and antioxidant support for compromised skin; a modest adjunct, not a barrier-rebuilding foundation."
-
+  platform: TikTok
+  posted: '2026-07-24'
+  related:
+  - skin-barrier-strengthening
+  - retinoids
+  thesis: 'Esthetician Jenn Lexi explains what a damaged skin barrier actually is
+    and how it heals, using a brick-wall analogy: when the barrier breaks down from
+    over-exfoliation, too-high retinoid percentages, or under-moisturizing, the skin
+    loses water and lets irritants in, turning red, inflamed, and breakout-prone.
+    She notes the skin shifts into repair mode on its own within about a day and can
+    recover over a couple of weeks, but only if you stop the habits that caused the
+    damage; otherwise acute damage becomes chronic inflammation.'
+  title: What is a damaged skin barrier and how do you fix it? (Part 1)
+  url: https://www.tiktok.com/@jennlexi_/video/7665901016860118285
 ---
 
 A disrupted skin barrier is a damaged stratum corneum, the skin's outermost layer, which normally works like a brick wall: flattened skin cells are the bricks and a mix of fatty molecules is the mortar between them. Elias describes that lipid mortar as an "approximately 1:1:1 molar ratio of ceramides (Cer), cholesterol, and nonessential fatty acids," where "all three lipids are required to form the lamellar structures that regulate barrier function."[^elias] When over-exfoliation, retinoid or acid irritation, over-washing, harsh weather, or an eczema flare strips or damages that mortar, the wall leaks: water escapes faster and irritants get in more easily. This page ranks what actually helps a barrier that is *already* disrupted recover, from highest to lowest demonstrated impact. Recovery is mostly about stopping whatever is damaging the skin and supporting the mortar as it re-forms, not about buying one special product. For keeping a healthy barrier resilient in the first place, the sibling maintenance list covers what holds up over the long run: [[skin-barrier-strengthening]].

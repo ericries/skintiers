@@ -1,184 +1,356 @@
 ---
 analyzed: '2026-08-15'
-assurance: sonnet
+assurance: opus
 name: Hyperpigmentation
 slug: hyperpigmentation
 status: published
+tier_list:
+  by: strength of the evidence for reducing facial hyperpigmentation and melasma;
+    sun protection is the foundation every other active depends on, and prescription
+    hydroquinone and tretinoin outrank the over-the-counter options
+  items:
+  - note: 'The foundation, not an optional add-on: randomized trials show daily broad-spectrum
+      sunscreen, especially strong UVA or tinted, prevents and reduces melasma and
+      protects the results of every other treatment; without it, pigment keeps returning.'
+    slug: sunscreen-uv-filters
+    tier: strong
+  - note: The most-studied topical depigmenting agent and the melasma and post-inflammatory
+      hyperpigmentation benchmark, a tyrosinase inhibitor; prescription in the US
+      and cycled on and off to avoid the rare side effect ochronosis.
+    slug: hydroquinone
+    tier: strong
+  - note: 'A tyrosinase inhibitor with real melasma and post-acne-mark evidence: 20%
+      azelaic acid beat hydroquinone 2% and roughly matched hydroquinone 4% in trials,
+      and it is well tolerated including in pregnancy.'
+    slug: azelaic-acid
+    tier: moderate
+  - note: Good melasma evidence, strongest taken orally; topical tranexamic acid also
+      reduces melasma in trials, though less than the oral form.
+    slug: tranexamic-acid
+    tier: moderate
+  - note: 'An antioxidant and tyrosinase inhibitor: modest as a standalone lightener,
+      more useful in combination and as a daytime partner to sunscreen.'
+    slug: ascorbic-acid-vitamin-c
+    tier: moderate
+  - note: Speed cell turnover and help other actives penetrate; prescription tretinoin
+      has melasma evidence but works slowly and can irritate, and irritation itself
+      can worsen pigment in deeper skin tones.
+    slug: retinoids
+    tier: moderate
+  - note: Reduces the transfer of pigment (melanosomes) to skin cells, a real but
+      modest effect best used as an adjunct rather than a primary treatment.
+    slug: niacinamide
+    tier: weak
+  - note: A tyrosinase inhibitor with thinner, older human evidence than the actives
+      above; a secondary adjunct.
+    slug: kojic-acid
+    tier: weak
+  - note: A gentler hydroquinone precursor with limited robust human evidence; a mild
+      adjunct.
+    slug: arbutin
+    tier: weak
+  title: Topical actives for hyperpigmentation by evidence
 type: condition
 updated: '2026-08-15'
-tier_list:
-  title: "Topical actives for hyperpigmentation by evidence"
-  by: "strength of the evidence for reducing facial hyperpigmentation and melasma; sun protection is the foundation every other active depends on, and prescription hydroquinone and tretinoin outrank the over-the-counter options"
-  items:
-    - slug: sunscreen-uv-filters
-      tier: strong
-      note: "The foundation, not an optional add-on: randomized trials show daily broad-spectrum sunscreen, especially strong UVA or tinted, prevents and reduces melasma and protects the results of every other treatment; without it, pigment keeps returning."
-    - slug: hydroquinone
-      tier: strong
-      note: "The most-studied topical depigmenting agent and the melasma and post-inflammatory hyperpigmentation benchmark, a tyrosinase inhibitor; prescription in the US and cycled on and off to avoid the rare side effect ochronosis."
-    - slug: azelaic-acid
-      tier: moderate
-      note: "A tyrosinase inhibitor with real melasma and post-acne-mark evidence: 20% azelaic acid beat hydroquinone 2% and roughly matched hydroquinone 4% in trials, and it is well tolerated including in pregnancy."
-    - slug: tranexamic-acid
-      tier: moderate
-      note: "Good melasma evidence, strongest taken orally; topical tranexamic acid also reduces melasma in trials, though less than the oral form."
-    - slug: ascorbic-acid-vitamin-c
-      tier: moderate
-      note: "An antioxidant and tyrosinase inhibitor: modest as a standalone lightener, more useful in combination and as a daytime partner to sunscreen."
-    - slug: retinoids
-      tier: moderate
-      note: "Speed cell turnover and help other actives penetrate; prescription tretinoin has melasma evidence but works slowly and can irritate, and irritation itself can worsen pigment in deeper skin tones."
-    - slug: niacinamide
-      tier: weak
-      note: "Reduces the transfer of pigment (melanosomes) to skin cells, a real but modest effect best used as an adjunct rather than a primary treatment."
-    - slug: kojic-acid
-      tier: weak
-      note: "A tyrosinase inhibitor with thinner, older human evidence than the actives above; a secondary adjunct."
-    - slug: arbutin
-      tier: weak
-      note: "A gentler hydroquinone precursor with limited robust human evidence; a mild adjunct."
 videos:
-- title: "Fade Scars FAST (and for real)"
-  creator: "Dr. Sam Ellis"
+- creator: Dr. Sam Ellis
   creator_slug: samantha-ellis
-  credential: "Board-certified dermatologist"
+  credential: Board-certified dermatologist
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
   platform: YouTube
-  url: https://www.youtube.com/watch?v=dTSPCPjyMss
   posted: '2026-06-12'
-  thesis: "Board-certified dermatologist Dr. Sam Ellis explains that post-inflammatory hyperpigmentation, the flat brown discoloration left after acne or minor skin trauma, is not a true scar because it involves no textural change, unlike raised hypertrophic or sunken atrophic scars. She says sun protection is the single most important step for fading it, and that it will fade on its own with time and sun protection even without treatment, though vitamin C, niacinamide, azelaic acid, and retinoids can help by supporting turnover and blocking pigment production, with prescription hydroquinone available in-office for more resistant cases."
-  related: ["vitamin-c", "niacinamide", "azelaic-acid", "retinoids", "hydroquinone"]
-  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
-- title: "Are iron oxides a MUST for hyperpigmentation?"
-  creator: "Victoria Fu and Gloria Lu (Chemist Confessions)"
+  related:
+  - vitamin-c
+  - niacinamide
+  - azelaic-acid
+  - retinoids
+  - hydroquinone
+  thesis: Board-certified dermatologist Dr. Sam Ellis explains that post-inflammatory
+    hyperpigmentation, the flat brown discoloration left after acne or minor skin
+    trauma, is not a true scar because it involves no textural change, unlike raised
+    hypertrophic or sunken atrophic scars. She says sun protection is the single most
+    important step for fading it, and that it will fade on its own with time and sun
+    protection even without treatment, though vitamin C, niacinamide, azelaic acid,
+    and retinoids can help by supporting turnover and blocking pigment production,
+    with prescription hydroquinone available in-office for more resistant cases.
+  title: Fade Scars FAST (and for real)
+  url: https://www.youtube.com/watch?v=dTSPCPjyMss
+- creator: Victoria Fu and Gloria Lu (Chemist Confessions)
   creator_slug: victoria-fu
-  credential: "Cosmetic chemists"
+  credential: Cosmetic chemists
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
   platform: YouTube
-  url: https://www.youtube.com/watch?v=Ih4ecC2me8w
   posted: '2026-05-28'
-  thesis: "Cosmetic chemists Victoria Fu and Gloria Lu of Chemist Confessions examine whether iron oxide, the pigment that tints sunscreen and can block visible light in a way plain UV filters cannot, is necessary for people managing hyperpigmentation and melasma. They walk through several clinical studies, including one in patients also using hydroquinone and one comparing plain sunscreen to iron-oxide-containing foundation, that found tinted or iron-oxide formulas modestly outperformed untinted ones, especially for melasma. Their conclusion is that iron oxide is not a must-have but can be a worthwhile add-on for someone who already has a consistent sunscreen habit and wants an extra edge."
-  related: ["melasma", "sunscreen-uv-filters"]
-  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
-- title: "Why Your Hyperpigmentation Won't Go Away | Dermatologist Explains"
-  creator: "Andrea Suarez (Dr Dray)"
+  related:
+  - melasma
+  - sunscreen-uv-filters
+  thesis: Cosmetic chemists Victoria Fu and Gloria Lu of Chemist Confessions examine
+    whether iron oxide, the pigment that tints sunscreen and can block visible light
+    in a way plain UV filters cannot, is necessary for people managing hyperpigmentation
+    and melasma. They walk through several clinical studies, including one in patients
+    also using hydroquinone and one comparing plain sunscreen to iron-oxide-containing
+    foundation, that found tinted or iron-oxide formulas modestly outperformed untinted
+    ones, especially for melasma. Their conclusion is that iron oxide is not a must-have
+    but can be a worthwhile add-on for someone who already has a consistent sunscreen
+    habit and wants an extra edge.
+  title: Are iron oxides a MUST for hyperpigmentation?
+  url: https://www.youtube.com/watch?v=Ih4ecC2me8w
+- creator: Andrea Suarez (Dr Dray)
   creator_slug: andrea-suarez-dr-dray
-  credential: "Board-certified dermatologist"
+  credential: Board-certified dermatologist
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
   platform: YouTube
-  url: https://www.youtube.com/watch?v=DYqU1VIR3pw
   posted: '2026-08-13'
-  thesis: "Board-certified dermatologist Andrea Suarez (Dr Dray) explains that post-inflammatory hyperpigmentation is often not just leftover pigment from a resolved flare, but a sign that low-grade inflammation from the original condition, such as acne, eczema, or contact dermatitis, may still be active beneath the skin even when nothing looks red or irritated, especially in deeper skin tones where redness is harder to see. She warns that layering on many new brightening products at once can itself cause irritation that drives more pigmentation, and instead recommends a simple routine, continued treatment of the underlying condition, and daily sun protection, noting that tinted sunscreens with iron oxides add protection against the visible light that also worsens hyperpigmentation."
-  related: ["melasma", "tretinoin", "hydroquinone", "azelaic-acid", "sunscreen-uv-filters"]
-  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
-- title: "The Truth About Hidden Sun Damage, From a Dermatologist"
-  creator: "Dr. Shereene Idriss"
+  related:
+  - melasma
+  - tretinoin
+  - hydroquinone
+  - azelaic-acid
+  - sunscreen-uv-filters
+  thesis: Board-certified dermatologist Andrea Suarez (Dr Dray) explains that post-inflammatory
+    hyperpigmentation is often not just leftover pigment from a resolved flare, but
+    a sign that low-grade inflammation from the original condition, such as acne,
+    eczema, or contact dermatitis, may still be active beneath the skin even when
+    nothing looks red or irritated, especially in deeper skin tones where redness
+    is harder to see. She warns that layering on many new brightening products at
+    once can itself cause irritation that drives more pigmentation, and instead recommends
+    a simple routine, continued treatment of the underlying condition, and daily sun
+    protection, noting that tinted sunscreens with iron oxides add protection against
+    the visible light that also worsens hyperpigmentation.
+  title: Why Your Hyperpigmentation Won't Go Away | Dermatologist Explains
+  url: https://www.youtube.com/watch?v=DYqU1VIR3pw
+- creator: Dr. Shereene Idriss
   creator_slug: shereene-idriss
-  credential: "Board-certified dermatologist"
+  credential: Board-certified dermatologist
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
   platform: YouTube
-  url: https://www.youtube.com/watch?v=PH_dizReTU8
   posted: '2026-05-16'
-  thesis: "Board-certified dermatologist Dr. Shereene Idriss explains that visible sun spots and melasma are only the surface of a deeper reservoir of pigment sitting in the dermis, which is why in-office laser treatments used as a first move can fail once that hidden pigment resurfaces. She recommends addressing pigmentation at home first with a stack of underrated actives, kojic acid, tranexamic acid, and 4-butylresorcinol, each blocking pigment production through a different pathway, before considering lasers, and stresses that daily sunscreen is non-negotiable since unprotected skin lets old sun damage reawaken and new damage form."
-  related: ["kojic-acid", "tranexamic-acid", "melasma", "sunscreen-uv-filters"]
-  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
-- title: "How to Treat Dark Spots and Hyperpigmentation"
-  creator: "Michelle Wong"
+  related:
+  - kojic-acid
+  - tranexamic-acid
+  - melasma
+  - sunscreen-uv-filters
+  thesis: Board-certified dermatologist Dr. Shereene Idriss explains that visible
+    sun spots and melasma are only the surface of a deeper reservoir of pigment sitting
+    in the dermis, which is why in-office laser treatments used as a first move can
+    fail once that hidden pigment resurfaces. She recommends addressing pigmentation
+    at home first with a stack of underrated actives, kojic acid, tranexamic acid,
+    and 4-butylresorcinol, each blocking pigment production through a different pathway,
+    before considering lasers, and stresses that daily sunscreen is non-negotiable
+    since unprotected skin lets old sun damage reawaken and new damage form.
+  title: The Truth About Hidden Sun Damage, From a Dermatologist
+  url: https://www.youtube.com/watch?v=PH_dizReTU8
+- creator: Michelle Wong
   creator_slug: michelle-wong
-  credential: "Cosmetic chemist, PhD"
+  credential: Cosmetic chemist, PhD
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
   platform: YouTube
-  url: https://www.youtube.com/watch?v=z2T20iZBEUc
   posted: '2024-05-27'
-  thesis: "Cosmetic chemist Michelle Wong breaks hyperpigmentation down into four stages, from melanocyte stimulation through melanin production, transfer to skin cells, and shedding, explaining that treatments work best when they target more than one stage at once. She says daily broad-spectrum sunscreen with strong UVA protection is the single most important step, since an unblocked trigger undermines every other product, and walks through how vitamin C, azelaic acid, niacinamide, retinoids, and hydroquinone act at different stages, while cautioning that although tranexamic acid has good evidence as an oral treatment, she is not convinced it can penetrate skin effectively in topical products."
-  related: ["sunscreen-uv-filters", "vitamin-c", "azelaic-acid", "niacinamide", "retinoids", "hydroquinone", "tranexamic-acid", "melasma"]
-  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
-- title: "Dark Inner Thighs: Causes & Treatment"
-  creator: "Dr. Adeline Kikam"
+  related:
+  - sunscreen-uv-filters
+  - vitamin-c
+  - azelaic-acid
+  - niacinamide
+  - retinoids
+  - hydroquinone
+  - tranexamic-acid
+  - melasma
+  thesis: Cosmetic chemist Michelle Wong breaks hyperpigmentation down into four stages,
+    from melanocyte stimulation through melanin production, transfer to skin cells,
+    and shedding, explaining that treatments work best when they target more than
+    one stage at once. She says daily broad-spectrum sunscreen with strong UVA protection
+    is the single most important step, since an unblocked trigger undermines every
+    other product, and walks through how vitamin C, azelaic acid, niacinamide, retinoids,
+    and hydroquinone act at different stages, while cautioning that although tranexamic
+    acid has good evidence as an oral treatment, she is not convinced it can penetrate
+    skin effectively in topical products.
+  title: How to Treat Dark Spots and Hyperpigmentation
+  url: https://www.youtube.com/watch?v=z2T20iZBEUc
+- creator: Dr. Adeline Kikam
   creator_slug: adeline-kikam
-  credential: "Board-certified dermatologist"
+  credential: Board-certified dermatologist
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
   platform: YouTube
-  url: https://www.youtube.com/watch?v=ghoLg47eD1U
   posted: '2023-03-06'
-  related: [lactic-acid, glycolic-acid, amlactin-daily-moisturizing-lotion-12-lactic-acid]
-  thesis: "Board-certified dermatologist Dr. Adeline Kikam (Brown Skin Derm) explains causes of hyperpigmentation in the genital and inner-thigh area, noting it is often normal in people of color but can also signal conditions like acanthosis nigricans (a velvety darkening that can be a warning sign of insulin resistance or obesity) or chafing from skin friction. To improve the appearance of the discoloration she points to over-the-counter exfoliants such as 12 percent lactic acid (for example AmLactin) and alpha hydroxy acids, while stressing that identifying the underlying cause comes first."
-  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
-- title: "What Causes Dark Spots On Skin?"
-  creator: ""
+  related:
+  - lactic-acid
+  - glycolic-acid
+  - amlactin-daily-moisturizing-lotion-12-lactic-acid
+  thesis: Board-certified dermatologist Dr. Adeline Kikam (Brown Skin Derm) explains
+    causes of hyperpigmentation in the genital and inner-thigh area, noting it is
+    often normal in people of color but can also signal conditions like acanthosis
+    nigricans (a velvety darkening that can be a warning sign of insulin resistance
+    or obesity) or chafing from skin friction. To improve the appearance of the discoloration
+    she points to over-the-counter exfoliants such as 12 percent lactic acid (for
+    example AmLactin) and alpha hydroxy acids, while stressing that identifying the
+    underlying cause comes first.
+  title: 'Dark Inner Thighs: Causes & Treatment'
+  url: https://www.youtube.com/watch?v=ghoLg47eD1U
+- creator: ''
   creator_slug: usama-syed
-  credential: ""
+  credential: ''
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
   platform: YouTube
-  url: https://www.youtube.com/watch?v=Ea6D1vxbdhk
   posted: '2020-12-18'
-  related: [melasma]
-  thesis: "Board-certified dermatologist Dr. Usama Syed explains hyperpigmentation (dark spots on skin) as an overproduction of melanin by melanocytes, most commonly triggered by post-inflammatory hyperpigmentation from acne, scratching, or irritation. He also discusses melasma, most often seen in women in their 30s and 40s and linked to hormones and sun exposure, plus acanthosis nigricans linked to insulin resistance, and stresses that sun exposure and ongoing skin inflammation both worsen and prolong dark spots regardless of the underlying cause."
-  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
-- title: "Derm Rates Skincare For Dark Spots"
-  creator: ""
+  related:
+  - melasma
+  thesis: Board-certified dermatologist Dr. Usama Syed explains hyperpigmentation
+    (dark spots on skin) as an overproduction of melanin by melanocytes, most commonly
+    triggered by post-inflammatory hyperpigmentation from acne, scratching, or irritation.
+    He also discusses melasma, most often seen in women in their 30s and 40s and linked
+    to hormones and sun exposure, plus acanthosis nigricans linked to insulin resistance,
+    and stresses that sun exposure and ongoing skin inflammation both worsen and prolong
+    dark spots regardless of the underlying cause.
+  title: What Causes Dark Spots On Skin?
+  url: https://www.youtube.com/watch?v=Ea6D1vxbdhk
+- creator: ''
   creator_slug: lindsey-zubritsky
-  credential: ""
+  credential: ''
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
   platform: YouTube
-  url: https://www.youtube.com/watch?v=zqhWwSRoOMU
   posted: '2026-07-09'
-  related: [tretinoin, hydroquinone, azelaic-acid, niacinamide, vitamin-c]
-  thesis: "Board-certified dermatologist Dr. Lindsey Zubritsky (DermGuru) rates common ingredients and habits for treating dark spots (hyperpigmentation). She rates hydroquinone and tretinoin as top performers for eliminating pigmentation, calls azelaic acid an 'overachiever' for dark spots and red marks, and rates thiamidol as a targeted melanin-specific option; she rates niacinamide and vitamin C as only supportive rather than primary treatments, and warns that lemon juice and physical scrubs can worsen dark spots by irritating and damaging the skin barrier, while charcoal does nothing for pigment. She also stresses that daily tinted sunscreen is essential, since skipping it undermines every other treatment."
-  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
-- title: "How to ACTUALLY Fix Dark Spots (Dermatologist No-BS Guide)"
-  creator: ""
+  related:
+  - tretinoin
+  - hydroquinone
+  - azelaic-acid
+  - niacinamide
+  - vitamin-c
+  thesis: Board-certified dermatologist Dr. Lindsey Zubritsky (DermGuru) rates common
+    ingredients and habits for treating dark spots (hyperpigmentation). She rates
+    hydroquinone and tretinoin as top performers for eliminating pigmentation, calls
+    azelaic acid an 'overachiever' for dark spots and red marks, and rates thiamidol
+    as a targeted melanin-specific option; she rates niacinamide and vitamin C as
+    only supportive rather than primary treatments, and warns that lemon juice and
+    physical scrubs can worsen dark spots by irritating and damaging the skin barrier,
+    while charcoal does nothing for pigment. She also stresses that daily tinted sunscreen
+    is essential, since skipping it undermines every other treatment.
+  title: Derm Rates Skincare For Dark Spots
+  url: https://www.youtube.com/watch?v=zqhWwSRoOMU
+- creator: ''
   creator_slug: daniel-sugai
-  credential: ""
+  credential: ''
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
   platform: YouTube
-  url: https://www.youtube.com/watch?v=ri4VQ79mNPY
   posted: '2026-02-28'
-  related: [melasma, la-roche-posay-mela-b3-serum]
-  thesis: "Board-certified dermatologist Dr. Daniel Sugai explains that common over-the-counter ingredients for hyperpigmentation and melasma, such as alpha arbutin, kojic acid, and tranexamic acid, often produce only modest results on their own. He highlights his interest in thiamidol, used in Eucerin's Radiant Tone line, as a tyrosinase inhibitor that can help avoid the rebound pigmentation seen when stopping hydroquinone, while cautioning that consistent use for eight to twelve weeks, and sometimes three to four months, is needed before improvement is visible."
-  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
-- title: "Contraception & Pigmentation"
-  creator: ""
+  related:
+  - melasma
+  - la-roche-posay-mela-b3-serum
+  thesis: Board-certified dermatologist Dr. Daniel Sugai explains that common over-the-counter
+    ingredients for hyperpigmentation and melasma, such as alpha arbutin, kojic acid,
+    and tranexamic acid, often produce only modest results on their own. He highlights
+    his interest in thiamidol, used in Eucerin's Radiant Tone line, as a tyrosinase
+    inhibitor that can help avoid the rebound pigmentation seen when stopping hydroquinone,
+    while cautioning that consistent use for eight to twelve weeks, and sometimes
+    three to four months, is needed before improvement is visible.
+  title: How to ACTUALLY Fix Dark Spots (Dermatologist No-BS Guide)
+  url: https://www.youtube.com/watch?v=ri4VQ79mNPY
+- creator: ''
   creator_slug: emma-wedgeworth
-  credential: ""
+  credential: ''
+  note: Verified from the video's TikTok transcript (yt-dlp captions, read in full);
+    no sponsorship.
   platform: TikTok
-  url: https://www.tiktok.com/@dremwedgeworth/video/7534634711046573334
   posted: '2025-08-04'
-  related: [melasma]
-  thesis: "Dr Emma Wedgeworth, a consultant dermatologist in London, explains that hormonal contraception can increase the risk of pigmentation, particularly melasma, especially in people prone to it, with sun exposure, or with a family history. She cites a study finding the risk of melasma was two to three times higher with the combined oral contraceptive pill and the progesterone only mini pill compared to non hormonal contraception, while hormonal IUDs like the Mirena coil did not show an increased melasma risk in that study, though they did show increased risk for pigmentation overall. Her practical takeaway is that people prone to pigmentation who have a choice should consider a non hormonal option like the copper coil, or a hormonal IUD before tablets if hormonal contraception is needed."
-  note: "Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship."
-- title: "Fading dark underarms with glycolic acid"
-  creator: ""
+  related:
+  - melasma
+  thesis: Dr Emma Wedgeworth, a consultant dermatologist in London, explains that
+    hormonal contraception can increase the risk of pigmentation, particularly melasma,
+    especially in people prone to it, with sun exposure, or with a family history.
+    She cites a study finding the risk of melasma was two to three times higher with
+    the combined oral contraceptive pill and the progesterone only mini pill compared
+    to non hormonal contraception, while hormonal IUDs like the Mirena coil did not
+    show an increased melasma risk in that study, though they did show increased risk
+    for pigmentation overall. Her practical takeaway is that people prone to pigmentation
+    who have a choice should consider a non hormonal option like the copper coil,
+    or a hormonal IUD before tablets if hormonal contraception is needed.
+  title: Contraception & Pigmentation
+  url: https://www.tiktok.com/@dremwedgeworth/video/7534634711046573334
+- creator: ''
   creator_slug: sheila-farhang
-  credential: ""
+  credential: ''
+  note: Verified from the video's TikTok transcript (yt-dlp captions, read in full);
+    no sponsorship.
   platform: TikTok
-  url: https://www.tiktok.com/@dr.sheila_derm/video/7666127692139400479
   posted: '2026-07-24'
-  related: [glycolic-acid, brightening]
-  thesis: "Board-certified dermatologist Dr. Sheila Farhang says a common complaint she hears, dark or discolored underarms, elbows, and knees, does not need an expensive treatment or laser, just consistent glycolic acid. She recommends applying it a couple of nights a week and says most people see visible brightening within six to eight weeks, calling out a sub-$10 glycolic acid product as her pick. Her broader point is that gentle, consistent exfoliation outperforms a single expensive in-office treatment for this kind of dullness and discoloration."
-  note: "Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship."
-- title: "Post-inflammatory hyperpigmentation (PIH) explained"
-  creator: ""
+  related:
+  - glycolic-acid
+  - brightening
+  thesis: Board-certified dermatologist Dr. Sheila Farhang says a common complaint
+    she hears, dark or discolored underarms, elbows, and knees, does not need an expensive
+    treatment or laser, just consistent glycolic acid. She recommends applying it
+    a couple of nights a week and says most people see visible brightening within
+    six to eight weeks, calling out a sub-$10 glycolic acid product as her pick. Her
+    broader point is that gentle, consistent exfoliation outperforms a single expensive
+    in-office treatment for this kind of dullness and discoloration.
+  title: Fading dark underarms with glycolic acid
+  url: https://www.tiktok.com/@dr.sheila_derm/video/7666127692139400479
+- creator: ''
   creator_slug: geeta-yadav
-  credential: ""
+  credential: ''
+  note: Verified from the video's TikTok transcript (yt-dlp captions, read in full);
+    no sponsorship.
   platform: TikTok
-  url: https://www.tiktok.com/@geetayadavmd/video/7652077717973699853
   posted: '2026-06-16'
-  related: [hydroquinone, retinoids, tretinoin, azelaic-acid]
-  thesis: "Dr. Geeta Yadav, a board-certified dermatologist, discusses post-inflammatory hyperpigmentation (PIH), the dark marks left behind after acne, eczema, or a bug bite, noting she recently co-authored a paper on the topic. She explains that PIH is one of the most common reasons people with skin of color seek dermatology care, since their risk of darker and more persistent marks is higher, and that the cornerstone of managing it is daily photoprotection with a tinted SPF 30 to 50, since visible light also drives pigmentation. She adds that topicals such as hydroquinone, retinoids, tretinoin, and azelaic acid, along with chemical peels and lasers, can help, and recommends seeing a board-certified dermatologist for persistent cases."
-  note: "Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship."
-- title: "How to Prevent & Treat Sun-Induced Pigmentation: Dermatologist Tips"
-  creator: "Davin Lim"
+  related:
+  - hydroquinone
+  - retinoids
+  - tretinoin
+  - azelaic-acid
+  thesis: Dr. Geeta Yadav, a board-certified dermatologist, discusses post-inflammatory
+    hyperpigmentation (PIH), the dark marks left behind after acne, eczema, or a bug
+    bite, noting she recently co-authored a paper on the topic. She explains that
+    PIH is one of the most common reasons people with skin of color seek dermatology
+    care, since their risk of darker and more persistent marks is higher, and that
+    the cornerstone of managing it is daily photoprotection with a tinted SPF 30 to
+    50, since visible light also drives pigmentation. She adds that topicals such
+    as hydroquinone, retinoids, tretinoin, and azelaic acid, along with chemical peels
+    and lasers, can help, and recommends seeing a board-certified dermatologist for
+    persistent cases.
+  title: Post-inflammatory hyperpigmentation (PIH) explained
+  url: https://www.tiktok.com/@geetayadavmd/video/7652077717973699853
+- creator: Davin Lim
   creator_slug: davin-lim
-  credential: "Board-certified dermatologist (Australia)"
+  credential: Board-certified dermatologist (Australia)
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
   platform: YouTube
-  url: https://www.youtube.com/watch?v=vU9XccWySgA
   posted: '2025-03-04'
-  related: [melasma, sunscreen-uv-filters]
-  thesis: "Board-certified dermatologist Davin Lim explains that hyperpigmentation comes down to three drivers, genetics, sun exposure, and hormones, and that UV radiation including visible light, UVA, and UVB stimulates melanocytes to overproduce pigment. He notes that melasma, sometimes called the mask of pregnancy, is a genetically predisposed form that settles on its own in roughly half of cases but persists in the rest, and that persistent pigmentation usually needs dermatologist-guided treatment alongside strict sun protection."
-  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
-- title: "Stop Buying Dark Spot Removers Until You Watch This"
-  creator: "Dr. Dustin Portela"
+  related:
+  - melasma
+  - sunscreen-uv-filters
+  thesis: Board-certified dermatologist Davin Lim explains that hyperpigmentation
+    comes down to three drivers, genetics, sun exposure, and hormones, and that UV
+    radiation including visible light, UVA, and UVB stimulates melanocytes to overproduce
+    pigment. He notes that melasma, sometimes called the mask of pregnancy, is a genetically
+    predisposed form that settles on its own in roughly half of cases but persists
+    in the rest, and that persistent pigmentation usually needs dermatologist-guided
+    treatment alongside strict sun protection.
+  title: 'How to Prevent & Treat Sun-Induced Pigmentation: Dermatologist Tips'
+  url: https://www.youtube.com/watch?v=vU9XccWySgA
+- creator: Dr. Dustin Portela
   creator_slug: dustin-portela
-  credential: "Board-certified dermatologist"
+  credential: Board-certified dermatologist
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
   platform: YouTube
-  url: https://www.youtube.com/watch?v=M-tG_msV1KE
   posted: '2026-04-12'
-  related: [melasma, hydroquinone, tranexamic-acid, ascorbic-acid-vitamin-c, niacinamide, azelaic-acid, sunscreen-uv-filters, kojic-acid]
-  thesis: "Board-certified dermatologist Dustin Portela debunks viral instant dark-spot removers and lays out what actually fades hyperpigmentation. He stresses that UV radiation is the number one trigger for melanin production, so daily sunscreen is not just prevention but a core part of treatment, and walks through evidence-backed brightening actives including hydroquinone, tranexamic acid, vitamin C, niacinamide, azelaic acid, and kojic acid, while warning that cheap 48-hour miracle products often leave skin worse and that fading dark spots takes time and consistency, not a quick fix."
-  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
-
+  related:
+  - melasma
+  - hydroquinone
+  - tranexamic-acid
+  - ascorbic-acid-vitamin-c
+  - niacinamide
+  - azelaic-acid
+  - sunscreen-uv-filters
+  - kojic-acid
+  thesis: Board-certified dermatologist Dustin Portela debunks viral instant dark-spot
+    removers and lays out what actually fades hyperpigmentation. He stresses that
+    UV radiation is the number one trigger for melanin production, so daily sunscreen
+    is not just prevention but a core part of treatment, and walks through evidence-backed
+    brightening actives including hydroquinone, tranexamic acid, vitamin C, niacinamide,
+    azelaic acid, and kojic acid, while warning that cheap 48-hour miracle products
+    often leave skin worse and that fading dark spots takes time and consistency,
+    not a quick fix.
+  title: Stop Buying Dark Spot Removers Until You Watch This
+  url: https://www.youtube.com/watch?v=M-tG_msV1KE
 ---
 
 Hyperpigmentation is a darkening of the skin caused by excess melanin, and its common facial forms are melasma, post-inflammatory hyperpigmentation, and pigmentation driven by sun exposure.[^handel][^davis] The color change is usually the only symptom, the skin stays flat and is neither itchy nor sore, and the same person can have more than one form at once. Among the topical options with controlled evidence, photoprotection is the foundation with the strongest support, the depigmenting creams are real but modest, and without ongoing sun protection the pigment tends to come back.[^liu][^castanedo][^delrosario]

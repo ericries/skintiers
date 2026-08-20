@@ -1,6 +1,6 @@
 ---
 analyzed: '2026-08-20'
-assurance: sonnet
+assurance: opus
 name: Seborrheic dermatitis
 slug: seborrheic-dermatitis
 status: published

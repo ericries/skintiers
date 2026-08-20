@@ -1,58 +1,92 @@
 ---
 analyzed: '2026-08-14'
-assurance: sonnet
+assurance: opus
 name: Atopic dermatitis (eczema)
 slug: atopic-dermatitis
 status: published
+tier_list:
+  by: strength of the evidence for OTC topical skincare in atopic dermatitis; prescription
+    anti-inflammatories (topical corticosteroids and calcineurin inhibitors) are the
+    first-line treatment for active flares and sit above every option here
+  items:
+  - note: 'The best-evidenced topical measure: a Cochrane review found regular moisturizer
+      use reduces flares and the amount of prescription steroid needed, with no one
+      moisturizer shown to beat another.'
+    slug: moisturizing
+    tier: strong
+  - note: An FDA skin-protectant monograph active for eczema itch; a randomized trial
+      of a 1% cream was non-inferior to a prescription barrier cream, and a second
+      manufacturer trial cut EASI and Atopic Dermatitis Severity Index scores by 51%
+      and 54% at 14 days, though both trials were manufacturer-funded. A directional
+      severity signal, unlike ceramides below, but still adjunctive to moisturizing.
+    slug: colloidal-oatmeal
+    tier: moderate
+  - note: Barrier lipids atopic skin is short of; adding them moves water-loss measures,
+      but the one randomized trial found no advantage over a matched base on eczema
+      severity itself, so the incremental benefit beyond a plain emollient is weak.
+    slug: ceramides
+    tier: weak
+  - note: Preliminary evidence for raising the skin's own ceramide production and
+      lowering water loss in dry skin generally (no atopic-dermatitis-specific trial);
+      an adjunct inside a moisturizer, not a stand-alone atopic-dermatitis therapy.
+    slug: niacinamide
+    tier: weak
+  title: Topical skincare for atopic dermatitis by evidence
 type: condition
 updated: '2026-08-14'
-tier_list:
-  title: "Topical skincare for atopic dermatitis by evidence"
-  by: "strength of the evidence for OTC topical skincare in atopic dermatitis; prescription anti-inflammatories (topical corticosteroids and calcineurin inhibitors) are the first-line treatment for active flares and sit above every option here"
-  items:
-    - slug: moisturizing
-      tier: strong
-      note: "The best-evidenced topical measure: a Cochrane review found regular moisturizer use reduces flares and the amount of prescription steroid needed, with no one moisturizer shown to beat another."
-    - slug: colloidal-oatmeal
-      tier: moderate
-      note: "An FDA skin-protectant monograph active for eczema itch; a randomized trial of a 1% cream was non-inferior to a prescription barrier cream, and a second manufacturer trial cut EASI and Atopic Dermatitis Severity Index scores by 51% and 54% at 14 days, though both trials were manufacturer-funded. A directional severity signal, unlike ceramides below, but still adjunctive to moisturizing."
-    - slug: ceramides
-      tier: weak
-      note: "Barrier lipids atopic skin is short of; adding them moves water-loss measures, but the one randomized trial found no advantage over a matched base on eczema severity itself, so the incremental benefit beyond a plain emollient is weak."
-    - slug: niacinamide
-      tier: weak
-      note: "Preliminary evidence for raising the skin's own ceramide production and lowering water loss in dry skin generally (no atopic-dermatitis-specific trial); an adjunct inside a moisturizer, not a stand-alone atopic-dermatitis therapy."
 videos:
-- title: "Derm explains new NO-STEROID Eczema Creams: Vtama, Opzelura and Zoryve"
-  creator: "Dr. Scott Walter"
+- creator: Dr. Scott Walter
   creator_slug: scott-walter
-  credential: "Board-certified dermatologist"
+  credential: Board-certified dermatologist
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
   platform: YouTube
-  url: https://www.youtube.com/watch?v=KaPdhHj32u4
   posted: '2025-10-14'
-  thesis: "Board-certified dermatologist Dr. Scott Walter runs through three newer non-steroidal prescription creams for eczema (atopic dermatitis): tapinarof (Vtama), ruxolitinib (Opzelura), and roflumilast (Zoryve), explaining that they calm the inflammation of eczema through different mechanisms than steroids do. He notes topical steroids remain effective but that incorrect long-term use can cause skin thinning, discoloration, or a withdrawal reaction, which is part of why some patients look for alternatives. He cautions that because these options are new to market they can be expensive and often require insurance prior authorization."
-  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
-- title: "How To Treat Eczema (Dermatologist Explains)"
-  creator: ""
+  thesis: 'Board-certified dermatologist Dr. Scott Walter runs through three newer
+    non-steroidal prescription creams for eczema (atopic dermatitis): tapinarof (Vtama),
+    ruxolitinib (Opzelura), and roflumilast (Zoryve), explaining that they calm the
+    inflammation of eczema through different mechanisms than steroids do. He notes
+    topical steroids remain effective but that incorrect long-term use can cause skin
+    thinning, discoloration, or a withdrawal reaction, which is part of why some patients
+    look for alternatives. He cautions that because these options are new to market
+    they can be expensive and often require insurance prior authorization.'
+  title: 'Derm explains new NO-STEROID Eczema Creams: Vtama, Opzelura and Zoryve'
+  url: https://www.youtube.com/watch?v=KaPdhHj32u4
+- creator: ''
   creator_slug: usama-syed
-  credential: ""
+  credential: ''
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
   platform: YouTube
-  url: https://www.youtube.com/watch?v=f_sMpdifzVc
   posted: '2022-04-14'
   related: []
-  thesis: "Board-certified dermatologist Dr. Usama Syed explains that eczema results from an impaired skin barrier that lets moisture escape, and walks through treatment tiers starting with moisturizers, humidifiers, and shorter cooler showers, then topical steroids ranging from over-the-counter hydrocortisone to prescription-strength options, non-steroid creams like tacrolimus and crisaborole ointments, and phototherapy. He also covers the biologic dupilumab, given as an at-home injection every two weeks for more severe eczema, and newer oral JAK inhibitor medications for resistant cases."
-  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
-- title: "Eczema Treatment: What's New in 2026? | Dermatologist Explains"
-  creator: ""
+  thesis: Board-certified dermatologist Dr. Usama Syed explains that eczema results
+    from an impaired skin barrier that lets moisture escape, and walks through treatment
+    tiers starting with moisturizers, humidifiers, and shorter cooler showers, then
+    topical steroids ranging from over-the-counter hydrocortisone to prescription-strength
+    options, non-steroid creams like tacrolimus and crisaborole ointments, and phototherapy.
+    He also covers the biologic dupilumab, given as an at-home injection every two
+    weeks for more severe eczema, and newer oral JAK inhibitor medications for resistant
+    cases.
+  title: How To Treat Eczema (Dermatologist Explains)
+  url: https://www.youtube.com/watch?v=f_sMpdifzVc
+- creator: ''
   creator_slug: andrea-suarez-dr-dray
-  credential: ""
+  credential: ''
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
   platform: YouTube
-  url: https://www.youtube.com/watch?v=E8jpYRmSd9k
   posted: '2026-07-24'
   related: []
-  thesis: "Board-certified dermatologist Andrea Suarez (Dr Dray), who also has atopic dermatitis herself, reviews what is new in eczema (atopic dermatitis) treatment in 2026, covering barrier dysfunction, immune overactivity involving interleukin 4, 13, and 31, genetics, and the skin microbiome as underlying causes. She walks through newer targeted therapies including biologics like dupilumab, tralokinumab, lebrikizumab, and the itch-targeting nemolizumab, oral JAK inhibitors such as baricitinib and upadacitinib, and newer topicals like ruxolitinib cream, tapinarof, and roflumilast, while emphasizing that consistent fragrance-free moisturizing and gentle bathing habits remain a mainstay of management alongside these newer options."
-  note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
-
+  thesis: Board-certified dermatologist Andrea Suarez (Dr Dray), who also has atopic
+    dermatitis herself, reviews what is new in eczema (atopic dermatitis) treatment
+    in 2026, covering barrier dysfunction, immune overactivity involving interleukin
+    4, 13, and 31, genetics, and the skin microbiome as underlying causes. She walks
+    through newer targeted therapies including biologics like dupilumab, tralokinumab,
+    lebrikizumab, and the itch-targeting nemolizumab, oral JAK inhibitors such as
+    baricitinib and upadacitinib, and newer topicals like ruxolitinib cream, tapinarof,
+    and roflumilast, while emphasizing that consistent fragrance-free moisturizing
+    and gentle bathing habits remain a mainstay of management alongside these newer
+    options.
+  title: 'Eczema Treatment: What''s New in 2026? | Dermatologist Explains'
+  url: https://www.youtube.com/watch?v=E8jpYRmSd9k
 ---
 
 Atopic dermatitis, the form of eczema meant when people say "eczema" without qualification, is a chronic, intensely itchy inflammatory skin disease that relapses and remits over years and has no cure, where treatment "at best achieves symptom control rather than cure."[^nutten2015] The American Academy of Dermatology guideline describes it as "a chronic, pruritic inflammatory dermatosis that affects up to 25% of children and 2% to 3% of adults."[^eichenfield2014] Among **topical skincare** options for atopic dermatitis, the intervention with the strongest evidence is plain moisturizing, which reduces flares and the amount of prescription steroid needed rather than clearing the disease, and no moisturizer has been shown to beat another.[^cochrane2017]

@@ -21,9 +21,9 @@ def _load_sk():
 
 def test_only_critic_types_earn_opus():
     sk = _load_sk()
-    for t in ("product", "ingredient", "study"):
+    for t in ("product", "ingredient", "study", "condition", "goal"):
         assert sk._publish_assurance(t, "publish") == "opus", t
-    for t in ("person", "brand", "condition", "goal", "list"):
+    for t in ("person", "brand", "list"):
         assert sk._publish_assurance(t, "publish") is None, t
 
 
