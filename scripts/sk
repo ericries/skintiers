@@ -280,6 +280,61 @@ def cmd_add_video(args):
     return 0
 
 
+def cmd_roster_set(args):
+    """Safely update a video-sources.yaml roster entry's last_pulled and/or
+    backfill_cursor. Replaces the fragile per-cron `range(i, i+8)` line-search
+    heredocs, which SILENTLY FAILED on entries whose long multi-line `conflict:`
+    field pushed the target line out of the fixed window (a creator then never
+    advanced and got re-pulled every cycle). This searches the whole entry (from
+    its `creator_slug` to the next `- name:`), edits surgically to preserve the
+    file's comment header (a yaml round-trip would drop it), and re-parses +
+    verifies the value landed before keeping the write.
+    """
+    import yaml
+    path = sklib.DATA_DIR / "video-sources.yaml"
+    lines = path.read_text().split("\n")
+    slug_idx = next((i for i, l in enumerate(lines)
+                     if l.strip() == f"creator_slug: {args.slug}"), None)
+    if slug_idx is None:
+        print(f"ERROR: no roster entry with creator_slug: {args.slug}")
+        return 1
+    end = next((j for j in range(slug_idx + 1, len(lines))
+                if lines[j].startswith("- name:")), len(lines))
+    updates = []
+    if args.last_pulled is not None:
+        updates.append(("last_pulled", f"'{args.last_pulled}'"))
+    if args.backfill_cursor is not None:
+        updates.append(("backfill_cursor", str(args.backfill_cursor)))
+    if not updates:
+        print("nothing to update (pass --last-pulled and/or --backfill-cursor)")
+        return 1
+    for field, value in updates:
+        idx = next((j for j in range(slug_idx + 1, end)
+                    if lines[j].lstrip().startswith(f"{field}:")), None)
+        if idx is None:
+            print(f"ERROR: entry '{args.slug}' has no '{field}:' line to update")
+            return 1
+        indent = lines[idx][:len(lines[idx]) - len(lines[idx].lstrip())]
+        lines[idx] = f"{indent}{field}: {value}"
+    new_text = "\n".join(lines)
+    try:
+        parsed = yaml.safe_load(new_text)
+    except yaml.YAMLError as exc:
+        print(f"ERROR: edit would break the roster YAML ({exc}); aborting")
+        return 1
+    entry = next((c for c in parsed if c.get("creator_slug") == args.slug), None)
+    if entry is None or (args.last_pulled is not None
+                         and str(entry.get("last_pulled")) != args.last_pulled) \
+            or (args.backfill_cursor is not None
+                and entry.get("backfill_cursor") != args.backfill_cursor):
+        print("ERROR: values did not round-trip; roster left unchanged")
+        return 1
+    path.write_text(new_text)
+    print(f"roster updated: {args.slug} "
+          + ", ".join(f"{f}={v}" for f, v in updates))
+    return 0
+
+
 def _print_item(i):
     frm = i.get("discovered_from")
     suffix = f" (from {frm})" if frm else ""
@@ -461,6 +516,12 @@ def main(argv=None):
     p_gc.set_defaults(func=cmd_gate_check)
     sub.add_parser("queue-migrate").set_defaults(func=cmd_queue_migrate)
     sub.add_parser("audit").set_defaults(func=cmd_audit)
+    p_rs = sub.add_parser("roster-set",
+                          help="safely update a roster entry's last_pulled / backfill_cursor")
+    p_rs.add_argument("slug", help="creator_slug of the video-sources.yaml entry")
+    p_rs.add_argument("--last-pulled", dest="last_pulled", default=None, help="YYYY-MM-DD")
+    p_rs.add_argument("--backfill-cursor", dest="backfill_cursor", type=int, default=None)
+    p_rs.set_defaults(func=cmd_roster_set)
     p_log = sub.add_parser("log")
     p_log.add_argument("message")
     p_log.add_argument("--slug", default=None)
