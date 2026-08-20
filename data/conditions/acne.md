@@ -263,6 +263,17 @@ videos:
     the skin barrier with gentle, soothing ingredients lets the marks fade faster.
   title: Post-Acne Marks Heal by Calming, Not Scrubbing
   url: https://www.tiktok.com/@your.estie.ella/video/7675730527655038221
+- title: How to Tell If You Have Hormonal Acne
+  creator: Dr. Scott Walter
+  creator_slug: scott-walter
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=jamDLBRGfEc
+  posted: '2024-02-12'
+  related: []
+  thesis: 'Board-certified dermatologist Dr Scott Walter explains how to recognize hormonal acne, the type most often seen in adult women, which over-the-counter topicals only partly address. He describes its telltale pattern: papules, cysts, and nodules concentrated on the lower face, jawline, and chin that flare around the menstrual cycle, often in the days just before it.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Acne vulgaris is the most common skin condition treated by dermatologists, driven by a mix of follicular hyperkeratinization, sebum, *Cutibacterium acnes*, and inflammation. Graded skeptically against controlled evidence for **topical skincare**, the best-studied over-the-counter and prescription topicals produce **modest** lesion reductions, the gap between the "best" and "second-best" topical is often smaller than the marketing implies, and the single largest evidence base for these treatments is rated moderate to very low certainty.[^1][^2]

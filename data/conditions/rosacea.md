@@ -68,6 +68,17 @@ videos:
     peroxide, and unmodified retinoids since they can irritate rosacea-prone skin.'
   title: Struggling with Rosacea? Here Are the Best Treatments for 2025
   url: https://www.youtube.com/watch?v=iDgHqa_MI0Q
+- title: Rosacea and the Link with Demodex Mites
+  creator: Dr. Scott Walter
+  creator_slug: scott-walter
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=05ysCxb8gxg
+  posted: '2024-03-26'
+  related: []
+  thesis: Board-certified dermatologist Dr Scott Walter explains the suspected link between rosacea and Demodex, the microscopic mites that live in the pores of everyone's face and feed on skin oil and dead cells. He points out that these mites are normal and present on all of us, but are thought to play a role in the common inflammatory condition rosacea, and shows how he sampled his own overnight using tape.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Rosacea is a chronic inflammatory condition of the central face, described in the Cochrane systematic review as "a common chronic skin condition affecting the face" whose features include flushing, persistent redness, visible blood vessels, and inflammatory bumps.[^cochrane2015] It relapses and remits over years, it clusters on the cheeks, nose, chin, and forehead, and it has no cure: the treatments with the best evidence reduce specific features rather than resolve the disease, and which treatment fits is decided by which features a person actually has.[^vanzuuren2019][^schaller2017] This page maps the condition at a high level. The deep clinical and treatment detail lives on the subtype pages linked below.

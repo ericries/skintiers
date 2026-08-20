@@ -117,7 +117,7 @@
 - name: Dr. Scott Walter
   creator_slug: scott-walter
   flagship: true
-  backfill_cursor: 15
+  backfill_cursor: 30
   credential: Board-certified dermatologist
   tier: HIGH
   channel: https://www.youtube.com/channel/UCMpQ40ncZxXcY4OPT7V9hwQ/videos

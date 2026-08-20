@@ -49,6 +49,18 @@ slug: biodance-bio-collagen-real-deep-mask
 status: published
 type: product
 updated: '2026-08-16'
+videos:
+- title: A Dermatologist Measures the Biodance Mask's Hydration
+  creator: Dr. Scott Walter
+  creator_slug: scott-walter
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=N0y4zFwmrXc
+  posted: '2024-06-10'
+  related: []
+  thesis: Board-certified dermatologist Dr Scott Walter reviews the viral Korean Biodance Bio-Collagen Real Deep Mask by measuring his skin's hydration with a corneometer before and after wearing it, rather than relying on impressions. He records his skin as dehydrated beforehand (about 12% on the device) after a long flight from Korea, and notes the mask is meant to be left on for several hours, taking a science-based look at whether the hype holds up.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Biodance Bio-Collagen Real Deep Mask is a Korean hydrogel sheet mask sold as a four-piece single-use set (forehead, two cheeks, chin) totaling 34 g, marketed around a "bio-collagen" claim for hydration and plumping.[^brand]
