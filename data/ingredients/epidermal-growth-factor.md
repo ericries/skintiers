@@ -3,6 +3,7 @@ analyzed: '2026-08-08'
 assurance: opus
 name: Epidermal growth factor (EGF) in topical skincare
 slug: epidermal-growth-factor
+tier: weak
 status: published
 type: ingredient
 updated: '2026-08-08'

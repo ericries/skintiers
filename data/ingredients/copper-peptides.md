@@ -3,6 +3,7 @@ analyzed: '2026-07-28'
 assurance: opus
 name: Copper peptides
 slug: copper-peptides
+tier: weak
 status: published
 type: ingredient
 updated: '2026-08-08'

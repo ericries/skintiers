@@ -3,6 +3,7 @@ analyzed: '2026-08-05'
 assurance: sonnet
 name: Metronidazole (topical)
 slug: metronidazole
+tier: mid
 status: published
 type: ingredient
 updated: '2026-08-05'
