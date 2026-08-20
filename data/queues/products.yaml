@@ -1088,7 +1088,12 @@
   priority: 2
   status: pending
   discovered_from: davin-lim
-  source: 'DEFER 2026-08-20: identity unverifiable. Davin-Lim-transcript provenance is real (a tinted mineral SPF w/ iron oxides for melasma) but SVRs actual pigmentation line is CLAIRIAL (SPF50+), and SPF 130 is impossible under standard labeling, so Melan 130 is a garbled/mis-transcribed name. Resolve the exact SVR SKU (likely Clairial tinted SPF50+) from a first-party source when web-search is available; do not draft from the current name.'
+  source: 'DEFER 2026-08-20: identity unverifiable. Davin-Lim-transcript provenance
+    is real (a tinted mineral SPF w/ iron oxides for melasma) but SVRs actual pigmentation
+    line is CLAIRIAL (SPF50+), and SPF 130 is impossible under standard labeling,
+    so Melan 130 is a garbled/mis-transcribed name. Resolve the exact SVR SKU (likely
+    Clairial tinted SPF50+) from a first-party source when web-search is available;
+    do not draft from the current name.'
 - name: Paula's Choice Pro-Collagen Peptide Plumping Moisturizer
   type: product
   priority: 5
@@ -1262,7 +1267,10 @@
   priority: 2
   status: pending
   discovered_from: cysteamine
-  source: 'DEFER 2026-08-20: a bundle/kit ("System") that does not fit the single-product grading model well, and the evidence-interesting cysteamine active is already covered by the on-site cyspera-intensive-cysteamine-cream product. Low incremental value; deprioritized rather than drafting a bundle page.'
+  source: 'DEFER 2026-08-20: a bundle/kit ("System") that does not fit the single-product
+    grading model well, and the evidence-interesting cysteamine active is already
+    covered by the on-site cyspera-intensive-cysteamine-cream product. Low incremental
+    value; deprioritized rather than drafting a bundle page.'
 - name: AmLactin Daily Moisturizing Body Lotion (12% lactic acid)
   type: product
   priority: 5
@@ -1759,3 +1767,9 @@
   discovered_from: PRODUCT cron (EltaMD UV Clear page; the pure-mineral tinted EltaMD,
     a contrast to UV Clear's octinoxate hybrid)
   source: https://eltamd.com/
+- name: Medik8 Liquid Peptides
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: PERSON cron (Alexis Stephens; multi-peptide serum)
+  source: https://www.medik8.com/
