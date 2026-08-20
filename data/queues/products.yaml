@@ -1089,7 +1089,6 @@
   status: pending
   discovered_from: davin-lim
   source: 'DEFER 2026-08-20: identity unverifiable. Davin-Lim-transcript provenance is real (a tinted mineral SPF w/ iron oxides for melasma) but SVRs actual pigmentation line is CLAIRIAL (SPF50+), and SPF 130 is impossible under standard labeling, so Melan 130 is a garbled/mis-transcribed name. Resolve the exact SVR SKU (likely Clairial tinted SPF50+) from a first-party source when web-search is available; do not draft from the current name.'
-    with iron oxides for melasma/visible-light'
 - name: Paula's Choice Pro-Collagen Peptide Plumping Moisturizer
   type: product
   priority: 5
