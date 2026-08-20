@@ -4,6 +4,10 @@ assurance: sonnet
 brand: Paula's Choice
 category: Niacinamide serums
 comparator: other 10% niacinamide serums
+images:
+- file: paulas-choice-10-niacinamide-booster-paulaschoice.jpg
+  source: Paula's Choice
+  source_url: https://www.paulaschoice.co.uk/niacinamide-booster/m7980.html
 grades:
 - effect: modest
   evidence: preliminary

@@ -2,6 +2,10 @@
 analyzed: '2026-08-18'
 brand: PanOxyl
 category: Cleansers
+images:
+- file: panoxyl-acne-creamy-wash-benzoyl-peroxide-4-panoxyl.webp
+  source: PanOxyl
+  source_url: https://panoxyl.com/acne-products/acne-creamy-wash/
 comparator: other benzoyl peroxide washes (e.g. PanOxyl Acne Foaming Wash 10%) and
   leave-on benzoyl peroxide gels
 grades:

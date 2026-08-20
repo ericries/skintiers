@@ -3,6 +3,10 @@ analyzed: '2026-08-07'
 assurance: opus
 brand: PanOxyl
 category: Cleansers
+images:
+- file: panoxyl-acne-foaming-wash-benzoyl-peroxide-10-panoxyl.webp
+  source: PanOxyl
+  source_url: https://panoxyl.com/acne-products/acne-foaming-wash-benzoyl-peroxide/
 comparator: lower-strength (2.5-5%) benzoyl peroxide washes and leave-on benzoyl peroxide
   gels
 grades:

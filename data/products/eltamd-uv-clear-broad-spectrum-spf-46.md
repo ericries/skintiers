@@ -5,6 +5,10 @@ brand: EltaMD
 category: Sunscreens
 comparator: broad-spectrum daily facial sunscreens, including mineral-only options
   and modern-filter products sold in the EU, Korea, and Australia
+images:
+- file: eltamd-uv-clear-broad-spectrum-spf-46-eltamd.jpg
+  source: EltaMD
+  source_url: https://eltamd.com/products/uv-clear-broad-spectrum-spf-46
 grades:
 - effect: notable
   evidence: solid

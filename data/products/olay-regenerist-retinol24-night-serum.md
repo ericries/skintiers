@@ -3,6 +3,10 @@ analyzed: '2026-08-08'
 assurance: sonnet
 brand: Olay
 category: Retinoids
+images:
+- file: olay-regenerist-retinol24-night-serum-olay.jpg
+  source: Olay
+  source_url: https://www.olay.com/products/olay-retinol24-night-moisturizer
 evidence_levels:
   active: retinol
   active_note: topical retinol has category-level vehicle-controlled trial
