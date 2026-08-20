@@ -34,8 +34,14 @@ _fill_template: |
   STEP 1: fill ONE page — prefer an existing {type} stub, else the next queued item
   (`.venv/bin/python scripts/sk queue-next --type {type}`); if neither exists, skip STEP 1 (do not invent
   work). Follow docs/writing-guide.md + docs/anti-ai-ese.md, SCALED to the scope above.
+  FETCHING (product/ingredient composition, price, INCI, claims): try `curl -sL -A "Mozilla/5.0" <url>` first.
+  If it returns only a JS-SPA shell or a bot-block (Cloudflare/"Robot or human?", empty title, no INCI/price),
+  use the Apify browser instead: ToolSearch "select:mcp__apify__apify--rag-web-browser,mcp__apify__get-dataset-items",
+  then call apify--rag-web-browser with {query: <product URL> OR search keywords, maxResults:1-2, outputFormats:["markdown"], waitSecs:45}
+  and read the result via get-dataset-items {datasetId, fields:"metadata.title,metadata.url,markdown", clean:true}.
+  It renders JS AND does Google Search (so it also finds the right product URL when web-search is exhausted). Amazon still bot-blocks it; prefer brand sites + reputable reviews. If the item's identity is uncertain/garbled, resolve it via this search before drafting; do NOT draft from an unverified name.
   SOURCE CACHING: for every source you CITE whose domain is NOT a durable primary (the ones sk verify flags
-  "verify manually", i.e. sklib classify_domain=='unknown'), pipe the fetched text to
+  "verify manually", i.e. sklib classify_domain=='unknown'), pipe the fetched text (or the Apify markdown) to
   `python scripts/source_cache.py put <url>` right after fetching it, so it can be verified later even if the
   live site blocks a re-fetch. A load-bearing verbatim quote from such a source REQUIRES a cache entry.
   {CRITIC}. The critic MUST verify cited non-primary sources against the local cache first
