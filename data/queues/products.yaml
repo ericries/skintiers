@@ -1567,7 +1567,7 @@
 - name: Topicals Faded Serum for Dark Spots & Discoloration
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: 'PERSON-cron catalog gap-fill: popular hyperpigmentation serum
     (azelaic/kojic/tranexamic/niacinamide); ties to melasma/hyperpigmentation hubs'
   source: https://mytopicals.com/products/faded-serum-for-dark-spots-discoloration

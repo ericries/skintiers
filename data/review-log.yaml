@@ -5933,3 +5933,8 @@ alexis-stephens:
   score: 9
   verdict: publish
   note: 'PERSON cron: lean discovery card. Credential VERIFIED via NPI API (1407143670): ALEXIS STEPHENS D.O., primary taxonomy Dermatology, FL license OS11837 (earlier NPI search missed her; adding the taxonomy_description=Dermatology filter resolved it). Links to her 2 transcript-verified video cards already on keratosis-pilaris + peptides.'
+topicals-faded-brightening-clearing-serum:
+  last_reviewed: '2026-08-20'
+  score: 9
+  verdict: publish
+  note: 'PRODUCT cron (via Apify): first product unblocked by the apify/rag-web-browser (renders JS + does Google search, defeating the curl SPA/bot-block + exhausted web-search that stalled 5+ product cycles). Composition/price/claims verified VERBATIM against the CACHED official Topicals page: 5 key actives (tranexamic/niacinamide/azelaic/kojic/melatonin, NO % disclosed), 30ml/1floz , ''100% odorless'' reformulation, ''clinically proven...'' claim + the 2-week consumer-study figures 92.31%/94.87% quarantined as brand marketing. Honest read: good actives but undisclosed doses + no independent trial. Opus critic agent unavailable (cap); verified in the Opus main loop against the cached source.'
