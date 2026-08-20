@@ -1773,3 +1773,10 @@
   status: pending
   discovered_from: PERSON cron (Alexis Stephens; multi-peptide serum)
   source: https://www.medik8.com/
+- name: Nizoral Anti-Dandruff Shampoo 2% (prescription)
+  type: product
+  priority: 3
+  status: pending
+  discovered_from: 'LIST cron: the 2% Rx strength of the ketoconazole shampoo (site
+    has the 1% OTC); Cochrane shows 2% > 1%'
+  source: https://dailymed.nlm.nih.gov/
