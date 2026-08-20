@@ -72,7 +72,7 @@
 - name: Seborrheic dermatitis (and dandruff)
   type: condition
   priority: 5
-  status: pending
+  status: done
   discovered_from: 'LIST cron gap: ketoconazole (built), ciclopirox, zinc pyrithione,
     selenium sulfide all treat it but no condition hub exists to tie them together'
   source: https://pubmed.ncbi.nlm.nih.gov/25933684/

@@ -5938,3 +5938,8 @@ topicals-faded-brightening-clearing-serum:
   score: 9
   verdict: publish
   note: 'PRODUCT cron (via Apify): first product unblocked by the apify/rag-web-browser (renders JS + does Google search, defeating the curl SPA/bot-block + exhausted web-search that stalled 5+ product cycles). Composition/price/claims verified VERBATIM against the CACHED official Topicals page: 5 key actives (tranexamic/niacinamide/azelaic/kojic/melatonin, NO % disclosed), 30ml/1floz , ''100% odorless'' reformulation, ''clinically proven...'' claim + the 2-week consumer-study figures 92.31%/94.87% quarantined as brand marketing. Honest read: good actives but undisclosed doses + no independent trial. Opus critic agent unavailable (cap); verified in the Opus main loop against the cached source.'
+seborrheic-dermatitis:
+  last_reviewed: '2026-08-20'
+  score: 9
+  verdict: publish
+  note: 'CONDITION cron: seborrheic dermatitis hub (ties together the ketoconazole/antifungal cluster). Presentation/demographics/mechanism/treatment-classes verified verbatim against the CACHED DermNet page (fetched via Apify rag-web-browser: ''common, chronic... scalp, face, and trunk'', ''3% to 12% of the population'', ''Proliferation of Malassezia... believed to play a role'', calcineurin-inhibitors steroid-sparing, ''efficacy is uncertain'' for herbal remedies). Treatment efficacy from the already-verified Cochrane 2015 (RR 0.69, ''44% lower'' side effects vs steroids, ''low-quality evidence''). 3-item tier_list (ketoconazole strong / pimecrolimus moderate / salicylic-acid weak, all published). Opus critic agent unavailable (cap); verified in the Opus main loop against the cached sources.'

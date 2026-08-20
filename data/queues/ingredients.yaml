@@ -965,3 +965,17 @@
   discovered_from: 'INGREDIENT cron: topical Rx acne active (Aczone 5%/7.5%); not
     yet covered'
   source: https://dailymed.nlm.nih.gov/
+- name: Roflumilast (topical)
+  type: ingredient
+  priority: 4
+  status: pending
+  discovered_from: 'CONDITION cron (seb-derm): Roflumilast 0.3% foam, recent FDA approval
+    for seborrheic dermatitis per DermNet; not covered'
+  source: https://dailymed.nlm.nih.gov/
+- name: Coal tar
+  type: ingredient
+  priority: 3
+  status: pending
+  discovered_from: 'CONDITION cron (seb-derm/psoriasis): traditional anti-dandruff/scalp
+    keratolytic-antifungal; DermNet lists it'
+  source: https://dailymed.nlm.nih.gov/
