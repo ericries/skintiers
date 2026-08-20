@@ -18,6 +18,16 @@ videos:
   related: [acne, rosacea, perioral-dermatitis]
   thesis: "Board-certified dermatologist Dr. Lindsey Zubritsky (DermGuru) makes the case for sulfur as an underused, multipurpose skincare ingredient. She describes it as an antimicrobial and gentle exfoliant that clears texture and unclogs pores, useful as a spot treatment for breakouts and acne-prone comedones, and notes it can help calm inflammation and redness in conditions like rosacea and perioral dermatitis (which she says she personally has). She also suggests an overnight sulfur mask to help minimize sebaceous filaments on the nose, while noting the ingredient can have a sulfurous smell."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: What to Do After You Pick Your Skin
+  creator: Ella
+  creator_slug: your-estie-ella
+  credential: licensed esthetician
+  platform: TikTok
+  url: https://www.tiktok.com/@your.estie.ella/video/7675034450698292493
+  posted: '2026-08-17'
+  related: [acne, skin-barrier-repair]
+  thesis: 'Licensed esthetician Ella gives after-care advice for skin you picked at overnight, with a nuanced take on sulfur: apply sulfur only if you still feel congestion under the skin in that spot, and be careful because sulfur is not always the best choice over an open wound. Her broader message is to resist piling on new or viral products while the skin heals, keep to the products your skin already knows, and ice the area to calm inflammation, since healing takes time no matter what you add.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

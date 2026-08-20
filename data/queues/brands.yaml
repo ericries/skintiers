@@ -229,3 +229,17 @@
   source: 'Korean skincare brand with a product already on the site (torriden-dive-in-low-molecular-hyaluronic-acid-serum)
     but no brand page - a brand-page gap to fill. Its job: link to that HA serum.
     Sourceable via torriden.com / Korean retailers.'
+- name: Tower 28
+  type: brand
+  priority: 4
+  status: pending
+  discovered_from: 'BRAND cron: has tower-28-sos-daily-rescue-facial-spray on site
+    but no brand page'
+  source: https://tower28beauty.com/
+- name: Murad
+  type: brand
+  priority: 3
+  status: pending
+  discovered_from: 'BRAND cron: has murad-rapid-dark-spot-correcting-serum on site
+    but no brand page'
+  source: https://www.murad.com/
