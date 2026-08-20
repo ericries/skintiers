@@ -3,6 +3,10 @@ analyzed: '2026-08-16'
 assurance: sonnet
 brand: Paula's Choice
 category: Moisturizers
+images:
+- file: paulas-choice-pro-collagen-peptide-plumping-moisturizer-paulaschoice.png
+  source: Paula's Choice
+  source_url: https://www.paulaschoice.com/pro-collagen-peptide-plumping-moisturizer/1510.html
 comparator: other peptide gel-cream moisturizers (e.g. The Ordinary Multi-Peptide
   + HA Serum, COSRX The 6 Peptide Skin Booster Serum)
 grades:

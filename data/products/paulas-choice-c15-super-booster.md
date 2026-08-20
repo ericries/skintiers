@@ -5,6 +5,10 @@ brand: Paula's Choice
 category: Vitamin C serums
 comparator: SkinCeuticals C E Ferulic and other disclosed-concentration vitamin C
   + E + ferulic acid serums
+images:
+- file: paulas-choice-c15-super-booster-paulaschoice.jpg
+  source: Paula's Choice
+  source_url: https://www.paulaschoice.com/c15-super-booster/777.html
 grades:
 - effect: modest
   evidence: preliminary

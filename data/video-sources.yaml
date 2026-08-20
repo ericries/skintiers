@@ -108,7 +108,7 @@
 - name: Dr. Davin Lim
   creator_slug: davin-lim
   flagship: true
-  backfill_cursor: 15
+  backfill_cursor: 30
   credential: Board-certified dermatologist (Australia)
   tier: HIGH
   channel: https://www.youtube.com/@DrDavinLim/videos

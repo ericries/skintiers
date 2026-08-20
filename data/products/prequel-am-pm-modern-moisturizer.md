@@ -5,6 +5,10 @@ brand: Prequel
 category: Moisturizers
 comparator: other multi-ceramide, humectant-and-occlusive moisturizers for normal
   to dry skin
+images:
+- file: prequel-am-pm-modern-moisturizer-prequel.jpg
+  source: Prequel
+  source_url: https://prequelskin.com/products/am-pm-face-moisturizer
 grades:
 - effect: notable
   evidence: solid

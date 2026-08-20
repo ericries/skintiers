@@ -3,6 +3,10 @@ analyzed: '2026-08-07'
 assurance: opus
 brand: Paula's Choice
 category: Exfoliants
+images:
+- file: paulas-choice-skin-perfecting-8-aha-gel-paulaschoice.png
+  source: Paula's Choice
+  source_url: https://www.paulaschoice.in/products/skin-perfecting-8-aha-gel-exfoliant
 comparator: other glycolic acid / AHA leave-on exfoliants
 evidence_levels:
   active: glycolic-acid

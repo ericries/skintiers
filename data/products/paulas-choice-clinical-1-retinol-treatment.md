@@ -3,6 +3,10 @@ analyzed: '2026-08-07'
 assurance: sonnet
 brand: Paula's Choice
 category: Retinoids
+images:
+- file: paulas-choice-clinical-1-retinol-treatment-paulaschoice.jpg
+  source: Paula's Choice
+  source_url: https://paulaschoice.sg/products/clinical-1-retinol-treatment
 evidence_levels:
   active: retinol
   active_note: topical retinol has vehicle controlled trial evidence for fine
