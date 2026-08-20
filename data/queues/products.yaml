@@ -1259,11 +1259,10 @@
     daily-SPF coverage
 - name: Cyspera Boost Intensive System
   type: product
-  priority: 5
+  priority: 2
   status: pending
   discovered_from: cysteamine
-  source: Scientis's next-gen Cyspera; a boost/HydraBright variant, extends the Cyspera
-    line coverage
+  source: 'DEFER 2026-08-20: a bundle/kit ("System") that does not fit the single-product grading model well, and the evidence-interesting cysteamine active is already covered by the on-site cyspera-intensive-cysteamine-cream product. Low incremental value; deprioritized rather than drafting a bundle page.'
 - name: AmLactin Daily Moisturizing Body Lotion (12% lactic acid)
   type: product
   priority: 5

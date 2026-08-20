@@ -117,6 +117,16 @@ videos:
   related: [retinoids, tretinoin, adapalene, salicylic-acid]
   thesis: UK board-certified dermatologist Dr Sam Bunting explains acne purging, the turbulent first six weeks after starting an active-based acne routine that targets the root cause. She describes how a blemish begins with a clogged pore where sticky skin cells block the follicle so oil and acne bacteria build up behind the blockage and inflammation forms, and how starting an active that unclogs pores brings that already-forming congestion to the surface faster, which is the purge. Her point is not to let fear of purging delay treating acne for a single day longer.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Post-Acne Marks Heal by Calming, Not Scrubbing
+  creator: Ella
+  creator_slug: your-estie-ella
+  credential: licensed esthetician
+  platform: TikTok
+  url: https://www.tiktok.com/@your.estie.ella/video/7675730527655038221
+  posted: '2026-08-19'
+  related: [hyperpigmentation, skin-barrier-repair]
+  thesis: Licensed esthetician Ella explains that fading post-acne marks is not about scrubbing them or reaching for the strongest acid or tretinoin, but about calming, soothing skincare. She frames acne as a wound that inflames the skin, leaving post-inflammatory erythema (PIE, the red marks) and post-inflammatory hyperpigmentation (PIH, the dark marks); harsh acids and scrubbing prolong them, while nurturing the skin barrier with gentle, soothing ingredients lets the marks fade faster.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 tier_list:
   title: "Acne topical actives by evidence"
   by: "strength of the evidence for treating acne — several of these are clinically similar, so the tiers track evidence certainty, not effect size alone"
