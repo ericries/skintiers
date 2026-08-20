@@ -19,6 +19,10 @@ grades:
     panthenol, chamomile flower water, and aloe, ingredients commonly marketed as
     skin-calming agents; no independent trial of this formula located
   use: Calming ingredient blend for sensitive, redness-prone skin (cosmetic/comfort)
+images:
+- file: prequel-redness-reform-sulfur-cleanser-prequel.jpg
+  source: Prequel
+  source_url: https://prequelskin.com/products/redness-reform-sulfur-cleanser
 key_actives:
 - sulfur
 - azelaic-acid

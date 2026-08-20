@@ -5,6 +5,10 @@ brand: Prequel
 category: Sunscreens
 comparator: US mineral (zinc oxide) facial sunscreens, including lower-zinc-load products
   such as EltaMD UV Clear (9% zinc oxide)
+images:
+- file: prequel-sun-barrier-mineral-sunscreen-prequel.jpg
+  source: Prequel
+  source_url: https://prequelskin.com/products/sun-barrier-mineral-sunscreen
 grades:
 - effect: strong
   evidence: solid

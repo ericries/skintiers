@@ -3,6 +3,10 @@ analyzed: '2026-08-07'
 assurance: sonnet
 brand: Prequel
 category: Serums
+images:
+- file: prequel-redness-reform-serum-prequel.jpg
+  source: Prequel
+  source_url: https://prequelskin.com/products/redness-reform-soothing-serum
 comparator: other redness-targeted, color-correcting serums for sensitive and rosacea-prone
   skin
 grades:

@@ -3,6 +3,10 @@ analyzed: '2026-08-08'
 assurance: sonnet
 brand: Prequel
 category: Moisturizers
+images:
+- file: prequel-skin-utility-ointment-prequel.jpg
+  source: Prequel
+  source_url: https://prequelskin.com/products/skin-utility-ointment
 comparator: other petrolatum-based skin-protectant ointments (e.g. plain white petrolatum,
   [[cerave-healing-ointment]])
 grades:

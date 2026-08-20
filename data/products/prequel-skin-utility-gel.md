@@ -5,6 +5,10 @@ brand: Prequel
 category: Moisturizers
 comparator: other lightweight, water-based skin-protectant gels and glycerin-forward
   moisturizers
+images:
+- file: prequel-skin-utility-gel-prequel.jpg
+  source: Prequel
+  source_url: https://prequelskin.com/products/skin-utility-gel
 grades:
 - effect: modest
   evidence: solid
