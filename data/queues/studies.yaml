@@ -418,7 +418,7 @@
     RCT'
   type: study
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/?term=Bissett+niacinamide+facial+skin+appearance
 - name: Wang 2026 Systemic Proteomic Alterations and Predictive Biomarkers of Paroxetine

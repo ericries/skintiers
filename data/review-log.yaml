@@ -5923,3 +5923,8 @@ eltamd-uv-clear-broad-spectrum-spf-46:
   score: 9
   verdict: publish
   note: 'PRODUCT cron: filled from queue (EltaMD UV Clear SPF 46). Composition/price/claims verified against the OFFICIAL EltaMD product page, fetched via curl (WebFetch 403''d) and CACHED verbatim (research-cache/web/c571556ca247ac3e.md): Drug Facts actives ''Octinoxate 7.5%'' + ''Zinc Oxide 9.0%'', 1.7 oz at $45, niacinamide + hyaluronic acid featured. Key honest point surfaced: it is a chemical-and-mineral HYBRID (contains octinoxate), not the pure-mineral sunscreen its sensitive-skin reputation implies; UVA rests on zinc oxide alone. Graded notable/solid UVB + UVA (a notch below the SPF 70 in the catalog); no product-specific trial, filter evidence links to sunscreen-uv-filters. Opus critic agent unavailable (200-agent cap); verified directly in the Opus main loop against the cached source.'
+bissett-2005-niacinamide-aging-facial-skin-split-face-rct:
+  last_reviewed: '2026-08-20'
+  score: 9
+  verdict: publish
+  note: 'STUDY cron: compact niacinamide split-face RCT page. Every quote/figure verified VERBATIM against the real PubMed record via NCBI E-utilities (PMID 16029679): ''significant skin appearance improvement effects'', ''reductions in fine lines and wrinkles, hyperpigmented spots, red blotchiness, and skin sallowness (yellowing)'', N=50, 5% niacinamide split-face vs vehicle, 12 wk, double-blind left-right randomized, elasticity via cutometry. Honest framing surfaced: all 3 authors are P&G employees (COI), 50 white women only, and the ABSTRACT gives no effect-size numbers (only ''significant''). Consistent with niacinamide''s ''mid'' ingredient tier. Opus critic agent unavailable (200-agent cap); verified in the Opus main loop.'
