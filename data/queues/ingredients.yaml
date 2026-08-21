@@ -1060,3 +1060,19 @@
   discovered_from: null
   source: Already has a page; skip if dup - only queue if the seb-derm keratolytic
     angle warrants a section
+- name: Propylene glycol (50% topical, anti-Malassezia)
+  type: ingredient
+  priority: 6
+  status: pending
+  discovered_from: fungal-acne
+  source: One of the topical options with reported benefit for fungal acne (propylene
+    glycol 50% twice daily, Saunte, on [[fungal-acne]]); no ingredient page; would
+    join the anti-Malassezia tier_list
+- name: Itraconazole (oral antifungal)
+  type: ingredient
+  priority: 8
+  status: pending
+  discovered_from: fungal-acne
+  source: Oral antifungal for resistant fungal acne / Malassezia folliculitis (100-200
+    mg daily 1-4 wk, 69-100% clinical effect per Saunte on [[fungal-acne]]); systemic
+    drug, bracket as context per non-topical scope

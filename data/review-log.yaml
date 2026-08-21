@@ -5983,3 +5983,8 @@ tower-28:
   score: 9
   verdict: publish
   note: 'BRAND cron: lean discovery roll-up (<180 words). Founder VERIFIED from the brand''s own site ("Amy Liu, founder and CEO of Tower 28 Beauty", cached). Links the one on-site product ([[tower-28-sos-daily-rescue-facial-spray]]) + its active [[hypochlorous-acid]]. NEA seal + clean-beauty positioning attributed as the brand''s OWN claims, not fact. Brand pages self-check, no critic; assurance sonnet.'
+fungal-acne:
+  last_reviewed: '2026-08-21'
+  score: 9
+  verdict: publish
+  note: 'CONDITION cron: curatorial tier_list maintenance (no new page - the queued "Malassezia folliculitis (fungal acne)" was a DUPLICATE of this existing page, since fungal acne IS Malassezia folliculitis; resolved that phantom queue item). The anti-Malassezia tier_list had only ONE item (benzoyl-peroxide minimal), omitting ketoconazole, the best-evidenced azole antifungal. Added ketoconazole tier:strong as the top item, grounded in the page''s existing Saunte citation ("azole antifungals" first-line topical) + the [[ketoconazole]] page; honestly noted its highest-quality RCTs are in seborrheic dermatitis, not fungal acne specifically. No new external source (reused Saunte), verify clean. Consistent with the page''s existing Dr Zubritsky video card that names ketoconazole for fungal acne. Opus critic agent unavailable (cap); verified in the Opus main loop; page assurance unchanged (sonnet).'

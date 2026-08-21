@@ -11,6 +11,14 @@ tier_list:
     ones with a genuine anti-Malassezia evidence trail, sit well below the antifungal
     drugs
   items:
+  - note: The best-evidenced topical antifungal against Malassezia and the representative
+      azole. Azole antifungals are the first-line topical treatment for fungal acne
+      (Saunte), and ketoconazole, over the counter as a 1% shampoo used as a short-contact
+      wash and prescription at 2%, has the strongest anti-Malassezia clinical track
+      record, detailed on [[ketoconazole]]. Its highest-quality randomized trials are
+      in seborrheic dermatitis rather than fungal acne specifically.
+    slug: ketoconazole
+    tier: strong
   - note: An in vitro study exposed *Malassezia furfur*, *M. restricta*, and *M.
       globosa* to benzoyl peroxide (0.25-2 mmol/L, 1 hour) and found viable fungal
       counts markedly decreased, with electron microscopy showing destroyed *M.
@@ -25,7 +33,7 @@ tier_list:
     cases; standard acne antibiotics do not treat Malassezia and broad-spectrum
     antibiotic use is itself a listed risk factor for the condition.
 type: condition
-updated: '2026-08-13'
+updated: '2026-08-21'
 videos:
 - title: "Solutions For Common Skin Concerns — From A Derm"
   creator: ""
