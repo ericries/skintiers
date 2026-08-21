@@ -979,3 +979,15 @@
   discovered_from: 'CONDITION cron (seb-derm/psoriasis): traditional anti-dandruff/scalp
     keratolytic-antifungal; DermNet lists it'
   source: https://dailymed.nlm.nih.gov/
+- name: Methyl estradiol propanoate (MEP)
+  type: ingredient
+  priority: 4
+  status: pending
+  discovered_from: anti-aging-perimenopause
+  source: https://www.youtube.com/watch?v=sGqERq0xBxc
+- name: Genistein (soy isoflavone, topical)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: anti-aging-perimenopause
+  source: https://www.youtube.com/watch?v=sGqERq0xBxc

@@ -1780,3 +1780,9 @@
   discovered_from: 'LIST cron: the 2% Rx strength of the ketoconazole shampoo (site
     has the 1% OTC); Cochrane shows 2% > 1%'
   source: https://dailymed.nlm.nih.gov/
+- name: Emepelle Serum (Biopelle, MEP-based)
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: anti-aging-perimenopause
+  source: https://www.youtube.com/watch?v=sGqERq0xBxc
