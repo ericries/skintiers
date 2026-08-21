@@ -1811,7 +1811,7 @@
 - name: Head & Shoulders Clinical Strength Dandruff Shampoo (pyrithione zinc)
   type: product
   priority: 7
-  status: pending
+  status: done
   discovered_from: selsun-blue-itchy-dry-scalp-pyrithione-zinc
   source: The reference pyrithione zinc antidandruff shampoo; DailyMed-sourceable
     FDA drug label
@@ -1839,7 +1839,14 @@
 - name: Palmer's Cocoa Butter Formula (stretch marks)
   type: product
   priority: 7
-  status: pending
+  status: done
   discovered_from: tasmannia-lanceolata-extract
   source: Classic drugstore cocoa-butter stretch-mark product; weak striae evidence;
     skeptical catalog
+- name: Palmer's Cocoa Butter Skin Therapy Oil (scars / stretch marks)
+  type: product
+  priority: 6
+  status: pending
+  discovered_from: palmers-cocoa-butter-massage-lotion-stretch-marks
+  source: Palmer's multi-purpose dry oil marketed for scars/stretch marks/uneven tone;
+    brand page + retailer sourceable; skeptical catalog

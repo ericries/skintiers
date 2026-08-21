@@ -428,3 +428,11 @@
   status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/42307911/
+- name: Osman 2008 cocoa butter for striae gravidarum RCT (PMID 18715434)
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: palmers-cocoa-butter-massage-lotion-stretch-marks
+  source: 'The definitive negative RCT (double-blind, placebo-controlled, n=175):
+    cocoa butter did NOT reduce stretch marks (45.1% vs 48.8%, p=0.730); infrastructure
+    for the stretch-marks hub + Palmer''s/Bio-Oil pages'
