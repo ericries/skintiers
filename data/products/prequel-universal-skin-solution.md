@@ -3,6 +3,10 @@ analyzed: '2026-08-07'
 assurance: sonnet
 brand: Prequel
 category: Treatments
+images:
+- file: prequel-universal-skin-solution-prequel.jpg
+  source: Prequel
+  source_url: https://prequelskin.com/products/universal-skin-solution-hypochlorous-acid-spray
 comparator: other hypochlorous acid sprays and mists marketed for sensitized, reactive,
   or acne-prone skin
 grades:

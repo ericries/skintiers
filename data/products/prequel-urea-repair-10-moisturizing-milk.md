@@ -3,6 +3,10 @@ analyzed: '2026-08-08'
 assurance: sonnet
 brand: Prequel
 category: Moisturizers
+images:
+- file: prequel-urea-repair-10-moisturizing-milk-prequel.jpg
+  source: Prequel
+  source_url: https://prequelskin.com/products/urea-advanced-relief-moisturizing-milk
 comparator: other urea-based body/face lotions and plainer humectant moisturizers
 grades:
 - effect: modest

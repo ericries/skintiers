@@ -2,6 +2,10 @@
 analyzed: '2026-08-20'
 brand: Cetaphil
 category: Sunscreens
+images:
+- file: cetaphil-daily-facial-moisturizer-spf-50-target.jpg
+  source: Target
+  source_url: https://www.target.com/p/cetaphil-daily-facial-moisturizer-broad-spectrum-spf-50-1-7-fl-oz/-/A-76153640
 comparator: Cetaphil's own [[cetaphil-sheer-mineral-sunscreen-stick-spf-50|Sheer Mineral
   Sunscreen Stick SPF 50]], which the brand markets as free of oxybenzone and octinoxate
 grades:

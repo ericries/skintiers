@@ -3,6 +3,10 @@ analyzed: '2026-08-08'
 assurance: opus
 brand: Purito
 category: Moisturizers
+images:
+- file: purito-oat-in-calming-gel-cream-purito.png
+  source: Purito
+  source_url: https://www.purito.com/products/oat-in-calming-gel-cream
 comparator: other lightweight, calming-marketed gel-cream moisturizers
 grades:
 - effect: modest
