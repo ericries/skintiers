@@ -1045,3 +1045,11 @@
   source: Established anti-Malassezia antifungal, the 'fungal-acne-safe' alternative
     active; relevant to the [[fungal-acne]] + [[seborrheic-dermatitis]] cluster. No
     ingredient page yet
+- name: Iron oxides (tinted-sunscreen pigments)
+  type: ingredient
+  priority: 4
+  status: pending
+  discovered_from: geeta-yadav
+  source: Visible-light/HEV protection pigments in tinted sunscreen; central to reducing
+    melasma/hyperpigmentation in deeper skin tones (Dr Geeta Yadav's tinted-sunscreen
+    cards on [[sunscreen-uv-filters]]); real ingredient gap

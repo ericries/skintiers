@@ -1815,3 +1815,10 @@
   discovered_from: selsun-blue-itchy-dry-scalp-pyrithione-zinc
   source: The reference pyrithione zinc antidandruff shampoo; DailyMed-sourceable
     FDA drug label
+- name: EltaMD UV Elements Tinted Mineral Broad-Spectrum SPF 44
+  type: product
+  priority: 6
+  status: pending
+  discovered_from: geeta-yadav
+  source: Tinted mineral (zinc/titanium + iron oxides) sunscreen widely recommended
+    for hyperpigmentation/deeper tones; brand + retailer sourceable

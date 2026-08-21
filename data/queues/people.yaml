@@ -177,7 +177,7 @@
 - name: Geeta Yadav (dermatologist)
   type: person
   priority: 2
-  status: pending
+  status: done
   discovered_from: null
   source: NPI has NO dermatologist match (she is Toronto-based, not in the US registry);
     verify via the Ontario CPSO public register (doctors.cpso.on.ca) when web access
