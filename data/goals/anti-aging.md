@@ -120,6 +120,17 @@ videos:
     makes it more necessary than historical comparisons suggest.
   title: The Most Effective Anti-Aging Products (As Backed by Research)
   url: https://www.youtube.com/watch?v=WAkznrGVrPw
+- title: Science-Backed Skincare Dupes Saving My Patients Thousands
+  creator: Dr. Sam Ellis
+  creator_slug: samantha-ellis
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=MGQfH7lQPNU
+  posted: '2026-05-29'
+  related: [ascorbic-acid-vitamin-c, copper-peptides, galactomyces-ferment-filtrate, peptides, retinoids, sunscreen-uv-filters]
+  thesis: Board-certified dermatologist Dr. Sam Ellis compares six expensive anti-aging skincare products with cheaper alternatives that share the same key ingredients. She notes that SkinCeuticals CE Ferulic, the vitamin C serum most of the anti-aging research was done on, lost its patent and now has close dupes such as MaeLove Glow Maker and Timeless 20% CE Ferulic built on the same L-ascorbic acid, vitamin E, and ferulic acid at low pH; that NIOD's copper peptide serum is closely matched by The Ordinary's cheaper multi-peptide plus copper version; and that the SK-II galactomyces essence has a COSRX galactomyces dupe. She frames vitamin C, retinoids, and sunscreen as the core anti-aging trio, with peptides as the next thing to add.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 "Anti-aging" is a marketing umbrella, not a single outcome. Skin aging is several distinct changes at once: collagen and elastin breaking down (wrinkles, loss of firmness and elasticity) and pigment and tone shifting, driven largely by cumulative sun exposure. This page is health-first: it ranks interventions by how much they protect and rebuild skin structure in actual studies, not by how heavily they are sold or how much they smooth appearance in the short term. It is organized in tiers from highest to lowest demonstrated impact, and it links each topical to its own profile. Around menopause a faster, hormonally-driven loss stacks on top of this sun-driven aging; that component has its own large lever and is covered on [[anti-aging-perimenopause]].
