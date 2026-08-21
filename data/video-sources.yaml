@@ -190,7 +190,7 @@
   last_pulled: '2026-08-16'
 - name: 'Stephen Alain Ko (KindofStephen)'
   creator_slug: stephen-alain-ko
-  flagship: true
+  flagship: false  # YouTube back-catalog exhausted: channel has only ~4 videos (blog/IG educator); backfill sweep done
   backfill_cursor: 15
   credential: 'Skincare educator'
   tier: MED
