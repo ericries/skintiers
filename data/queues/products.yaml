@@ -1829,3 +1829,17 @@
   discovered_from: null
   source: Fragrance-free pyrithione zinc 2% cleansing bar widely used for seborrheic
     dermatitis + fungal acne; brand (vanicream.com) + retailer sourceable
+- name: Bio-Oil Skincare Oil (stretch marks / scars)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: tasmannia-lanceolata-extract
+  source: Iconic heavily-marketed stretch-mark/scar oil with famously thin evidence;
+    high skeptical-catalog value; brand + retailer sourceable
+- name: Palmer's Cocoa Butter Formula (stretch marks)
+  type: product
+  priority: 7
+  status: pending
+  discovered_from: tasmannia-lanceolata-extract
+  source: Classic drugstore cocoa-butter stretch-mark product; weak striae evidence;
+    skeptical catalog
