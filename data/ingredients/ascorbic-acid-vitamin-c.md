@@ -32,6 +32,16 @@ videos:
   related: [retinoids, sunscreen-uv-filters]
   thesis: "Dr. Fatima Fahs, a board-certified dermatologist, outlines a simple morning and evening skincare layering routine and highlights vitamin C serum as a key morning step, explaining that it strengthens the skin, provides brightening effects, and boosts the effectiveness of sunscreen applied afterward. She also walks through the evening routine, which includes cleansing, an active step such as retinol or an exfoliant, and finishing with a moisturizer to lock everything in."
   note: "Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship."
+- title: Do You Actually Need Vitamin C Serum? A Dermatologist Explains
+  creator: Andrea Suarez (Dr Dray)
+  creator_slug: andrea-suarez-dr-dray
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=WQrwaOFMEzc
+  posted: '2026-08-17'
+  related: [vitamin-c, ferulic-acid, tocopherol, anti-aging]
+  thesis: Board-certified dermatologist Andrea Suarez (Dr Dray) examines whether a topical vitamin C serum is actually necessary. She explains that vitamin C works mainly as an antioxidant, one important part of the skin's antioxidant defense system but not the only one, and scrutinizes whether the clinical data justifies the high price of many serums. She frames vitamin C as a potentially helpful addition rather than an automatic must-have step.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 name: Ascorbic acid (vitamin C)
 slug: ascorbic-acid-vitamin-c
 tier: mid

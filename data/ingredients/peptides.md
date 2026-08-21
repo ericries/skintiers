@@ -57,6 +57,16 @@ videos:
   related: [copper-peptides]
   thesis: "Board-certified dermatologist Dr. Dustin Portela breaks down skincare peptides and says copper peptides, specifically GHK-Cu, have the strongest evidence, helping deliver copper to skin cells to support collagen and elastin production and wound healing, while so-called \"Botox in a bottle\" neurotransmitter peptides likely cannot penetrate deep enough to meaningfully relax facial muscles. He recommends starting with copper peptides for at least three months if you try peptides at all, but says most people get 90 percent of their results from a basic retinol, vitamin C, and sunscreen routine, with peptides as an optional extra rather than a foundation."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: 'Peptides for Skin: Which Ones Actually Work? Dermatologist Explains'
+  creator: Andrea Suarez (Dr Dray)
+  creator_slug: andrea-suarez-dr-dray
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=bQvrFrhUets
+  posted: '2026-08-20'
+  related: [palmitoyl-pentapeptide-4-matrixyl, copper-peptides, anti-aging]
+  thesis: Board-certified dermatologist Andrea Suarez (Dr Dray) explains which skincare peptides actually work. She describes collagen-signaling peptides such as Matrixyl (palmitoyl pentapeptide-4), designed to tell skin fibroblasts to build collagen, but notes the core limitation that peptides struggle to penetrate the skin in meaningful amounts, so the firmness improvements seen in topical studies are modest. She separately warns that injectable peptides sold direct-to-consumer without clinician oversight have no clinical evidence or quality control and have caused serious adverse outcomes.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
