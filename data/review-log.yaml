@@ -5978,3 +5978,8 @@ palmers-cocoa-butter-massage-lotion-stretch-marks:
   score: 9
   verdict: publish
   note: 'PRODUCT cron (took this after resolving the garbled/redundant Head & Shoulders queue item - "Clinical Strength" is actually selenium sulfide not pyrithione zinc, and the classic H&S shampoo is not cleanly in DailyMed). Skeptical review: the marketed stretch-mark benefit is refuted by a double-blind placebo-controlled RCT (Osman 2008, BJOG, PMID 18715434) - "no difference in the development of SG (45.1% versus 48.8%; P = 0.730)", verified verbatim via E-utilities; corroborated by Ud-Din 2016 review (PMID 26486318, "cocoa butter... did not demonstrate any effect"). Contrasted with the brand''s own uncontrolled "over 98% / 102 panelists / 8 wk in-home" self-assessment. IDENTITY/CURRENCY CATCH: INCIDecoder listed an OUTDATED formula (with fragrance); the CURRENT brand page says fragrance-free + free of mineral oil/parabens/phthalates/dyes, so I dropped INCIDecoder entirely (also it tripped the aggregator-as-evidence verify gate) and sourced composition/price/claims from the cached brand page. Price $8.99/8.5 fl oz. Both evidence sources primary (PubMed), verify clean. Opus critic agent unavailable (cap); verified in the Opus main loop; assurance sonnet.'
+tower-28:
+  last_reviewed: '2026-08-21'
+  score: 9
+  verdict: publish
+  note: 'BRAND cron: lean discovery roll-up (<180 words). Founder VERIFIED from the brand''s own site ("Amy Liu, founder and CEO of Tower 28 Beauty", cached). Links the one on-site product ([[tower-28-sos-daily-rescue-facial-spray]]) + its active [[hypochlorous-acid]]. NEA seal + clean-beauty positioning attributed as the brand''s OWN claims, not fact. Brand pages self-check, no critic; assurance sonnet.'

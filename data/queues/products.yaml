@@ -1850,3 +1850,17 @@
   discovered_from: palmers-cocoa-butter-massage-lotion-stretch-marks
   source: Palmer's multi-purpose dry oil marketed for scars/stretch marks/uneven tone;
     brand page + retailer sourceable; skeptical catalog
+- name: Tower 28 SunnyDays SPF 30 Tinted Mineral Sunscreen Foundation
+  type: product
+  priority: 6
+  status: pending
+  discovered_from: tower-28
+  source: Tower 28 tinted mineral (zinc + iron oxides) SPF 30; ties to the tinted-SPF/iron-oxides
+    thread; brand + Sephora sourceable
+- name: Tower 28 SOS Rescue + Repair Serum
+  type: product
+  priority: 8
+  status: pending
+  discovered_from: tower-28
+  source: Tower 28 hypochlorous-acid-adjacent barrier serum for sensitive skin; brand
+    + retailer sourceable

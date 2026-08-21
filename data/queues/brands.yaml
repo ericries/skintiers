@@ -232,7 +232,7 @@
 - name: Tower 28
   type: brand
   priority: 4
-  status: pending
+  status: done
   discovered_from: 'BRAND cron: has tower-28-sos-daily-rescue-facial-spray on site
     but no brand page'
   source: https://tower28beauty.com/
