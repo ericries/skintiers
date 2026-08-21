@@ -1053,3 +1053,10 @@
   source: Visible-light/HEV protection pigments in tinted sunscreen; central to reducing
     melasma/hyperpigmentation in deeper skin tones (Dr Geeta Yadav's tinted-sunscreen
     cards on [[sunscreen-uv-filters]]); real ingredient gap
+- name: Salicylic acid (as a seb-derm/dandruff keratolytic)
+  type: ingredient
+  priority: 8
+  status: done
+  discovered_from: null
+  source: Already has a page; skip if dup - only queue if the seb-derm keratolytic
+    angle warrants a section

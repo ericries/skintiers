@@ -77,3 +77,13 @@
     If added to the ceramide list, state that caveat; it may be better framed as a
     niacinamide+microbiome barrier balm than a ceramide product. Judgment call at
     next list cron.'
+- name: Anti-dandruff and seborrheic dermatitis treatments by evidence
+  type: list
+  priority: 3
+  status: pending
+  discovered_from: null
+  source: 'Curatorial tier list over EXISTING pages: [[nizoral-anti-dandruff-shampoo-ketoconazole-1]],
+    [[selsun-blue-selenium-sulfide-shampoo]], [[selsun-blue-itchy-dry-scalp-pyrithione-zinc]]
+    + ingredient tiers (ketoconazole best, selenium sulfide/pyrithione zinc) + the
+    [[seborrheic-dermatitis]] tier_list + the Farris 2026 RCT; ranks the Malassezia-active
+    antifungals by strength of evidence'

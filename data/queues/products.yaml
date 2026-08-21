@@ -1822,3 +1822,10 @@
   discovered_from: geeta-yadav
   source: Tinted mineral (zinc/titanium + iron oxides) sunscreen widely recommended
     for hyperpigmentation/deeper tones; brand + retailer sourceable
+- name: Vanicream Z-Bar (pyrithione zinc cleansing bar)
+  type: product
+  priority: 6
+  status: pending
+  discovered_from: null
+  source: Fragrance-free pyrithione zinc 2% cleansing bar widely used for seborrheic
+    dermatitis + fungal acne; brand (vanicream.com) + retailer sourceable
