@@ -194,6 +194,17 @@ videos:
     damage; otherwise acute damage becomes chronic inflammation.'
   title: What is a damaged skin barrier and how do you fix it? (Part 1)
   url: https://www.tiktok.com/@jennlexi_/video/7665901016860118285
+- title: 'Stop Over-Exfoliating: Do This Barrier Repair Routine Instead'
+  creator: Dr. Dustin Portela
+  creator_slug: dustin-portela
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=rbH4F5MQuyE
+  posted: '2026-07-12'
+  related: [houttuynia-cordata, beta-glucan, centella-asiatica]
+  thesis: Board-certified dermatologist Dr. Dustin Portela explains how to repair a compromised skin barrier and warns that over-exfoliating is a common cause of the damage he sees in clinic, using a brick-wall analogy in which skin cells are the bricks and the lipids between them are the mortar. He walks through three trending barrier-support ingredients, heartleaf (Houttuynia cordata), beta-glucan, and ectoin, comparing them to the better-known centella (cica) and noting each calms and reinforces the barrier a different way. His core advice is to strip a damaged routine back to gentle repair rather than piling on more active ingredients.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 A disrupted skin barrier is a damaged stratum corneum, the skin's outermost layer, which normally works like a brick wall: flattened skin cells are the bricks and a mix of fatty molecules is the mortar between them. Elias describes that lipid mortar as an "approximately 1:1:1 molar ratio of ceramides (Cer), cholesterol, and nonessential fatty acids," where "all three lipids are required to form the lamellar structures that regulate barrier function."[^elias] When over-exfoliation, retinoid or acid irritation, over-washing, harsh weather, or an eczema flare strips or damages that mortar, the wall leaks: water escapes faster and irritants get in more easily. This page ranks what actually helps a barrier that is *already* disrupted recover, from highest to lowest demonstrated impact. Recovery is mostly about stopping whatever is damaging the skin and supporting the mortar as it re-forms, not about buying one special product. For keeping a healthy barrier resilient in the first place, the sibling maintenance list covers what holds up over the long run: [[skin-barrier-strengthening]].

@@ -18,6 +18,16 @@ videos:
   related: []
   thesis: "Board-certified dermatologist Dr. Daniel Sugai addresses viral claims that benzoyl peroxide acne products, including CeraVe's, degrade into the carcinogen benzene, pointing out that CeraVe was not on the FDA's recall list after its follow-up study found more than 90% of tested products had undetectable or very low benzene levels. He cites retrospective clinical studies finding no association between benzoyl peroxide use and increased cancer risk or elevated blood benzene, while still advising patients to store products at room temperature away from heat and direct sunlight and to avoid using expired benzoyl peroxide."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: Dermatologist Reacts to the CeraVe Cancer Headlines
+  creator: Dr. Dustin Portela
+  creator_slug: dustin-portela
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=h4vIyvnk4xU
+  posted: '2026-06-14'
+  related: [acne]
+  thesis: Board-certified dermatologist Dr. Dustin Portela addresses headlines claiming that CeraVe and other benzoyl peroxide acne products cause cancer because benzoyl peroxide can degrade into benzene, a known carcinogen. He explains that the alarming numbers came from an independent lab's thermal-degradation study that heated the products to extreme temperatures, and relays the point that people do not store acne products in a hot car for weeks on end, so the headline figures do not reflect normal use. He urges perspective rather than panic over the benzene headlines.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
