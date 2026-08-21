@@ -18,6 +18,16 @@ videos:
   related: [tretinoin]
   thesis: "Board-certified dermatologist Andrea Suarez (Dr Dray) discusses whether adapalene is evidence-based for anti-aging compared to tretinoin, noting that research on adapalene for this use is far more limited than for tretinoin (the established gold-standard retinoid), largely because adapalene is newer and less studied. She points out that the available small studies used 0.3% adapalene versus 0.05% tretinoin and found adapalene not inferior, with biopsy-confirmed improvements in collagen production, and that she recommends adapalene mainly because it tends to be less irritating than tretinoin and is available over the counter in the US at 0.1% strength."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: Is Differin better than tretinoin? Ultimate Guide to Drug Retinoids
+  creator: Michelle Wong (Lab Muffin)
+  creator_slug: michelle-wong
+  credential: Cosmetic chemist, PhD
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=KbeopWc_xLE
+  posted: '2023-12-29'
+  related: [tretinoin, retinoids, differin-adapalene-0-1-gel, acne]
+  thesis: Cosmetic chemist Michelle Wong (Lab Muffin), who holds a PhD, compares the prescription retinoid tretinoin with adapalene, sold over the counter as Differin, across acne, wrinkles, and pigmentation. She explains that tretinoin has by far the most clinical evidence and works for all the standard retinoid goals, while adapalene is more photostable and often less irritating and is approved for acne. She cautions that head-to-head studies in which tretinoin appears to lose to a newer retinoid are often industry-funded, so they should be read with that bias in mind.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

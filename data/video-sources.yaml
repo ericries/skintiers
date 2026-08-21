@@ -17,7 +17,7 @@
 - name: Michelle Wong (Lab Muffin)
   creator_slug: michelle-wong
   flagship: true
-  backfill_cursor: 30
+  backfill_cursor: 45
   credential: Cosmetic chemist, PhD
   tier: HIGH
   channel: https://www.youtube.com/@LabMuffinBeautyScience/videos
