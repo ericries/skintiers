@@ -991,3 +991,19 @@
   status: pending
   discovered_from: anti-aging-perimenopause
   source: https://www.youtube.com/watch?v=sGqERq0xBxc
+- name: Selenium disulfide (selenium sulfide)
+  type: ingredient
+  priority: 4
+  status: pending
+  discovered_from: selsun-blue-selenium-sulfide-shampoo
+  source: Active of Selsun Blue (DailyMed setid f97e458c) + on-site Farris 2026 RCT
+    (PMID 41931685, matched 2% ketoconazole); antifungal vs Malassezia, relevant to
+    fungal-acne + seborrheic-dermatitis
+- name: Zinc pyrithione (pyrithione zinc)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: selsun-blue-selenium-sulfide-shampoo
+  source: Major OTC antidandruff antifungal active (Head & Shoulders; Selsun Blue
+    Itchy Dry Scalp, DailyMed setid c491014d); Malassezia-active, relevant to seborrheic-dermatitis
+    + fungal-acne
