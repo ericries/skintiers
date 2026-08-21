@@ -1021,3 +1021,27 @@
   discovered_from: selsun-blue-itchy-dry-scalp-pyrithione-zinc
   source: Extremely common soothing/moisturizing botanical (inactive in this shampoo
     + across the catalog); real but modest evidence, worth a skeptical page
+- name: Coenzyme Q10 (ubiquinone), topical
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: Named as a vitamin C alternative antioxidant by derm Dr Sam Ellis (video
+    carded on ascorbic-acid-vitamin-c); topical anti-aging/antioxidant literature
+    exists (e.g., Hoppe 1999). Catalog gap
+- name: Green tea extract / EGCG (Camellia sinensis)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: Named as a stable antioxidant vitamin C alternative by derm Dr Sam Ellis
+    (video carded on ascorbic-acid-vitamin-c); topical polyphenol antioxidant evidence.
+    Catalog gap
+- name: Piroctone olamine (octopirox)
+  type: ingredient
+  priority: 6
+  status: pending
+  discovered_from: null
+  source: Established anti-Malassezia antifungal, the 'fungal-acne-safe' alternative
+    active; relevant to the [[fungal-acne]] + [[seborrheic-dermatitis]] cluster. No
+    ingredient page yet
