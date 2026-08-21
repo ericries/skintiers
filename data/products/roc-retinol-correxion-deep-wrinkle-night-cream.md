@@ -3,6 +3,10 @@ analyzed: '2026-08-07'
 assurance: opus
 brand: RoC
 category: Retinoids
+images:
+- file: roc-retinol-correxion-deep-wrinkle-night-cream-roc.jpg
+  source: RoC
+  source_url: https://www.rocskincare.com/products/retinol-correxion-deep-wrinkle-night-cream-1
 comparator: other undisclosed-concentration OTC retinoids
 evidence_levels:
   active: retinol
