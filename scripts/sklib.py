@@ -856,9 +856,10 @@ _UV_FILTER_ALIASES = {
     "octyl salicylate": "octisalate",
     "titanium dioxide": "titanium-dioxide",
     "zinc oxide": "zinc-oxide",
+    "oxybenzone": "oxybenzone", "benzophenone-3": "oxybenzone",
 }
 _UNCHARTED_UV_FILTER_NAMES = (
-    "oxybenzone", "benzophenone-3", "cinoxate", "dioxybenzone", "ensulizole",
+    "cinoxate", "dioxybenzone", "ensulizole",
     "phenylbenzimidazole sulfonic acid", "meradimate", "menthyl anthranilate",
     "padimate o", "sulisobenzone", "trolamine salicylate", "enzacamene",
     "aminobenzoic acid",

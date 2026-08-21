@@ -1445,7 +1445,7 @@
 - name: SKIN1004 Madagascar Centella Hyalu-Cica Water-Fit Sun Serum SPF50+
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: beauty-of-joseon-aqua-fresh-sun-serum
   source: Another modern-filter Korean chemical sunscreen serum (centella + HA), named
     in Dr Scott Walter's top-5 Korean sunscreens video; extends the [[sunscreen-uv-filters]]
@@ -1462,7 +1462,7 @@
 - name: Cetaphil Daily Facial Moisturizer SPF 15
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: A lightweight daily facial moisturizer with SPF; extends the moisturizing
     + sunscreen coverage and the Cetaphil range already on the site. Cleanly sourceable
@@ -1786,3 +1786,18 @@
   status: pending
   discovered_from: anti-aging-perimenopause
   source: https://www.youtube.com/watch?v=sGqERq0xBxc
+- name: Cetaphil Daily Oil-Free Facial Moisturizer SPF 35
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: cetaphil-daily-facial-moisturizer-spf-50
+  source: DailyMed FDA label setid f5eb347f-0d46-4de6-8f3f-9010327678ed (avobenzone
+    2.8%, homosalate 9.5%, octisalate 4.8%, octocrylene) - the modern avobenzone-based
+    sibling; useful contrast to the SPF 50's legacy oxybenzone set
+- name: Cetaphil Redness Relieving Daily Facial Moisturizer SPF 40
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: cetaphil-daily-facial-moisturizer-spf-50
+  source: DailyMed FDA label setid 45d101be-2b88-4759-9ccc-556f5ec0553d (titanium
+    dioxide-based mineral filter); extends the Cetaphil range + rosacea/redness angle

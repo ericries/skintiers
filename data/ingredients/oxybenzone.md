@@ -1,0 +1,48 @@
+---
+analyzed: '2026-08-20'
+name: Oxybenzone
+slug: oxybenzone
+status: published
+tier: mid
+type: ingredient
+updated: '2026-08-20'
+---
+
+Oxybenzone (INCI benzophenone-3, often abbreviated Bp-3) is an organic sunscreen filter that absorbs ultraviolet-B and the shorter part of the ultraviolet-A band (UVA-II), permitted in US sunscreens at up to 6%.[^latha][^fda2019] For decades it was a mainstay chemical filter, valued because a single ingredient covered both UVB and short-UVA; SPF and the UVA axis are explained on [[sunscreen-uv-filters]].[^latha] It has since fallen out of favor for two reasons that sit on a different axis from whether it works: it is absorbed into the bloodstream more than any other filter measured in the FDA's maximal-use study, and it is estrogenic in laboratory and animal assays.[^matta2020][^schlumpf] The health value of using it is the health value of regular broad-spectrum sunscreen, which has randomized-trial support for slowing photoaging and lowering skin-cancer burden and is documented on [[sunscreen-uv-filters]], not in any oxybenzone-specific clinical-endpoint trial.[^latha]
+
+> Oxybenzone is an effective organic filter covering UVB and short-UVA (UVA-II), permitted at up to 6% in US sunscreens, but it gives no long-UVA (UVA-I) coverage on its own, is absorbed into plasma at far higher levels than any other filter in the FDA maximal-use trial (up to 258.1 ng/mL, ~500 times the 0.5 ng/mL threshold that triggers further FDA safety testing), and is estrogenic in cell and rodent assays; the FDA has classified it as lacking sufficient data for a positive safety determination, and the "reef-safe" marketing built around avoiding it is covered on [[sunscreen-uv-filters]].[^latha][^matta2020][^schlumpf][^fda2019]
+
+## The Rubric
+
+The grade below is for oxybenzone's job in a sunscreen, ultraviolet photoprotection, framed relative to the other filters it is measured against. Systemic absorption and endocrine activity are a separate axis, graded separately and not folded into the photoprotection grade.
+
+**Ultraviolet photoprotection**
+- **Effect size: moderate. Real UVB and short-UVA absorption, but no long-UVA and largely abandoned.** Oxybenzone absorbs across UVB and into UVA-II (short UVA), so a single filter historically raised both SPF and part of the UVA rating, which is why it was so widely used.[^latha] Its coverage stops short of the long-UVA (UVA-I) range that avobenzone or zinc oxide supply, so it is not a broad-spectrum filter on its own.[^latha] It remains an FDA-permitted active at up to 6%, but formulators have moved away from it toward filters without its absorption and environmental baggage.[^fda2019] "Effective UVB and short-UVA absorber, permitted to 6%, but no long-UVA coverage and increasingly replaced."
+- **Evidence quality: solid for the spectral characterization; the health payoff is inherited, not filter-specific.** That oxybenzone absorbs UVB and short-UVA is well documented in filter reviews.[^latha] What is not demonstrated for oxybenzone on its own is any clinical-endpoint benefit; the randomized evidence that broad-spectrum sunscreen slows photoaging and lowers skin-cancer burden is for the practice of regular use, covered on [[sunscreen-uv-filters]], with oxybenzone contributing UVB and short-UVA coverage within a formula.[^latha]
+
+**Systemic absorption and endocrine activity (a separate axis, not an efficacy grade)**
+- In the FDA maximal-use randomized trial, oxybenzone was absorbed into plasma at "258.1 ng/mL (CV, 53.0%) for lotion and 180.1 ng/mL (CV, 57.3%) for aerosol spray," the highest maximum concentrations of the six filters tested and roughly 500 times the 0.5 ng/mL threshold above which the agency recommends further nonclinical safety testing; the threshold was "surpassed on day 1 after a single application for all active ingredients."[^matta2020] Oxybenzone is estrogenic in laboratory assays: benzophenone-3 increased proliferation of estrogen-sensitive MCF-7 breast-cancer cells in vitro and was active in an immature-rat uterotrophic assay (effective at 1,525 mg/kg/day, oral), which led the authors to conclude that "UV screens should be tested for endocrine activity."[^schlumpf] The absorption and the in-vitro/animal estrogenicity are well established; the FDA has not found harm to people, but classified oxybenzone among the organic filters for which "the public record does not currently contain sufficient data to support positive GRASE determinations," and the JAMA authors stressed the plasma findings "do not indicate that individuals should refrain from the use of sunscreen."[^matta2020][^fda2019]
+
+## What We Actually Know
+
+Oxybenzone is a well-characterized organic filter that absorbs UVB and short-UVA (UVA-II) but gives no long-UVA (UVA-I) coverage on its own, so it is paired with a UVA-I filter or supplies only part of a broad-spectrum claim.[^latha] It is FDA-permitted at up to 6%, but it is the filter absorbed most heavily into the body in the FDA's maximal-use trial, reaching plasma concentrations far above the 0.5 ng/mL threshold that triggers a call for further FDA testing, and it is estrogenic in cell and rodent assays.[^matta2020][^schlumpf][^fda2019] No reproductive-hormone harm has been demonstrated in people, and the FDA has requested more data rather than found the ingredient unsafe; the agency lists it among filters lacking sufficient GRASE data.[^fda2019] The environmental "reef-safe" debate that drives much oxybenzone-free marketing is an unregulated claim, covered on [[sunscreen-uv-filters]].[^latha] The health value of using it is the value of regular broad-spectrum sunscreen use documented on [[sunscreen-uv-filters]], with oxybenzone supplying UVB and short-UVA coverage within a formula.[^latha]
+
+## The Evidence
+
+The filter-characterization evidence (that oxybenzone absorbs UVB and short-UVA and lacks long-UVA reach) comes from sunscreen-agent reviews.[^latha] The two findings that define its modern reputation are both from primary studies: the FDA maximal-use randomized trial that measured plasma oxybenzone at 258.1 ng/mL (lotion), the highest of any filter tested and far above the 0.5 ng/mL testing threshold,[^matta2020] and the in-vitro/in-vivo estrogenicity study in which benzophenone-3 raised MCF-7 proliferation and was active in a rat uterotrophic assay.[^schlumpf] The FDA has treated these as reasons to request more data, classifying oxybenzone among the organic filters lacking sufficient evidence for a positive GRASE (safety) determination, not as a finding of human harm.[^fda2019] No oxybenzone-specific trial demonstrates a clinical-endpoint skin benefit; that evidence belongs to regular broad-spectrum sunscreen use as a practice, on [[sunscreen-uv-filters]].[^latha]
+
+## Common Marketing Claims
+
+- **"Oxybenzone-free" / "reef-safe."** A composition and environmental-positioning claim, not an efficacy claim; "reef-safe" is unregulated and carries no information about a product's photoprotection, as discussed on [[sunscreen-uv-filters]].[^latha]
+- **"Chemical filters are toxic."** Absorption into the bloodstream is measured and real for oxybenzone, but absorption is not the same as harm; the FDA has asked for more safety data, not declared the filter unsafe, and the trial authors advised against stopping sunscreen use.[^matta2020][^fda2019]
+
+## See Also
+
+[[sunscreen-uv-filters]], [[octinoxate]], [[avobenzone]], [[octocrylene]], [[titanium-dioxide]].
+
+## Sources
+
+[^latha]: Latha MS, Martis J, Shobha V, et al. Sunscreening agents: a review. Journal of Clinical and Aesthetic Dermatology, 2013;6(1):16-26. Oxybenzone (benzophenone-3) classification among chemical filters and its UVB/UVA-II absorption range verified against the full text. https://pmc.ncbi.nlm.nih.gov/articles/PMC3543289/ (accessed 2026-08-20)
+[^matta2020]: Matta MK, Florian J, Zusterzeel R, et al. Effect of Sunscreen Application on Plasma Concentration of Sunscreen Active Ingredients: A Randomized Clinical Trial. JAMA, 2020;323(3):256-267. Oxybenzone maximum plasma concentrations "258.1 ng/mL (CV, 53.0%) for lotion and 180.1 ng/mL (CV, 57.3%) for aerosol spray" (highest of the six filters); all six above 0.5 ng/mL and "surpassed on day 1 after a single application for all active ingredients"; "do not indicate that individuals should refrain from the use of sunscreen" verified against the abstract. https://pubmed.ncbi.nlm.nih.gov/31961417/ (accessed 2026-08-20)
+[^schlumpf]: Schlumpf M, Cotton B, Conscience M, Haller V, Steinmann B, Lichtensteiger W. In vitro and in vivo estrogenicity of UV screens. Environmental Health Perspectives, 2001;109(3):239-244. Benzophenone-3 (Bp-3) among the filters increasing MCF-7 proliferation; uterotrophic assay active at 1,525 mg/kg/day (immature rats, oral); quotation ("UV screens should be tested for endocrine activity, in view of possible long-term effects in humans and wildlife") verified against the abstract. https://pubmed.ncbi.nlm.nih.gov/11333184/ (accessed 2026-08-20)
+[^fda2019]: US FDA. Sunscreen Drug Products for Over-the-Counter Human Use (proposed rule). Federal Register, 84 FR 6204, 2019-02-26. Oxybenzone maximum concentration 6% (Table 1); oxybenzone and eleven other organic filters proposed "Category III" because "the public record does not currently contain sufficient data to support positive GRASE determinations"; zinc oxide and titanium dioxide proposed Category I. Verified against the codified text. https://www.govinfo.gov/content/pkg/FR-2019-02-26/html/2019-03019.htm (accessed 2026-08-20)
