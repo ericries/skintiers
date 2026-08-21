@@ -1804,7 +1804,14 @@
 - name: Selsun Blue Itchy Dry Scalp (pyrithione zinc) Shampoo
   type: product
   priority: 6
-  status: pending
+  status: done
   discovered_from: selsun-blue-selenium-sulfide-shampoo
   source: DailyMed FDA label setid c491014d-f8c7-46bb-b065-eaf5ea842860 (pyrithione
     zinc); sibling antidandruff shampoo
+- name: Head & Shoulders Clinical Strength Dandruff Shampoo (pyrithione zinc)
+  type: product
+  priority: 7
+  status: pending
+  discovered_from: selsun-blue-itchy-dry-scalp-pyrithione-zinc
+  source: The reference pyrithione zinc antidandruff shampoo; DailyMed-sourceable
+    FDA drug label

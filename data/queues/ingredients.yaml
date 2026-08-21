@@ -1007,3 +1007,17 @@
   source: Major OTC antidandruff antifungal active (Head & Shoulders; Selsun Blue
     Itchy Dry Scalp, DailyMed setid c491014d); Malassezia-active, relevant to seborrheic-dermatitis
     + fungal-acne
+- name: Ciclopirox (topical antifungal)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: selsun-blue-itchy-dry-scalp-pyrithione-zinc
+  source: First-line topical antifungal for seborrheic dermatitis per [[seborrheic-dermatitis]]
+    (DermNet/Cochrane), used like ketoconazole; no ingredient page yet
+- name: Aloe vera (aloe barbadensis leaf juice)
+  type: ingredient
+  priority: 6
+  status: pending
+  discovered_from: selsun-blue-itchy-dry-scalp-pyrithione-zinc
+  source: Extremely common soothing/moisturizing botanical (inactive in this shampoo
+    + across the catalog); real but modest evidence, worth a skeptical page
