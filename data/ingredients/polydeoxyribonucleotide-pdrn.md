@@ -38,6 +38,16 @@ videos:
   related: []
   thesis: "Cosmetic chemists Chemist Confessions (Victoria Fu and Gloria Lu) dig into the science of PDRN (polydeoxyribonucleotide) in skincare, noting the ingredient has its roots in in-office treatments like injectable Rejuran and microneedling rather than at-home topicals. They explain that separating the in-office evidence from what a leave-on topical can actually do is difficult, and that the in-office side in particular is a wild west of strong benefit claims with unclear sourcing, so consumers should be cautious about extrapolating dramatic results to over-the-counter PDRN serums."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: 'PDRN Skincare: Longevity Cure or Just Hype?'
+  creator: Chemist Confessions (Victoria Fu and Gloria Lu)
+  creator_slug: victoria-fu
+  credential: Cosmetic chemists
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=2kv1r2rPje4
+  posted: '2026-04-22'
+  related: [anti-aging, peptides]
+  thesis: Cosmetic chemists Victoria Fu and Gloria Lu of Chemist Confessions assess whether PDRN (polydeoxyribonucleotide), a DNA fragment commonly sourced from salmon sperm or trout, is a longevity breakthrough or marketing hype in skincare. They note that the most impressive evidence comes from PDRN injected into wounds such as diabetic foot ulcers rather than from topical skincare use, and that studies on topical PDRN are sparse. They treat the topical hype with skepticism while finding the underlying DNA-fragment concept more logically grounded than plant-derived exosome claims.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

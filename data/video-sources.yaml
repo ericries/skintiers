@@ -38,7 +38,7 @@
   tier: HIGH
   channel: https://www.youtube.com/@chemistconfessions/videos
   conflict: sell a small own-brand product line - skip own-brand promos
-  last_pulled: '2026-08-16'
+  last_pulled: '2026-08-21'
 - name: Andrea Suarez (Dr Dray)
   creator_slug: andrea-suarez-dr-dray
   flagship: true
