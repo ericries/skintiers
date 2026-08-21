@@ -3,6 +3,10 @@ analyzed: '2026-08-08'
 assurance: sonnet
 brand: Round Lab
 category: Moisturizers
+images:
+- file: round-lab-1025-dokdo-cream-roundlab.jpg
+  source: Round Lab
+  source_url: https://roundlab.com/products/1025-dokdo-cream
 comparator: other emollient moisturizing creams
 grades:
 - effect: modest
