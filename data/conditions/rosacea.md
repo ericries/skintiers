@@ -78,6 +78,16 @@ videos:
   related: []
   thesis: Board-certified dermatologist Dr Scott Walter explains the suspected link between rosacea and Demodex, the microscopic mites that live in the pores of everyone's face and feed on skin oil and dead cells. He points out that these mites are normal and present on all of us, but are thought to play a role in the common inflammatory condition rosacea, and shows how he sampled his own overnight using tape.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Will Facial Redness Go Away After You Quit Drinking? Dermatologist Explains
+  creator: Andrea Suarez (Dr Dray)
+  creator_slug: andrea-suarez-dr-dray
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=SMVvY1QAavY
+  posted: '2026-07-18'
+  related: [rosacea-erythematotelangiectatic, sunscreen-uv-filters]
+  thesis: 'Board-certified dermatologist Andrea Suarez (Dr Dray) answers a viewer who quit drinking but still has persistent facial redness, using it to explain alcohol as a rosacea trigger. She describes how rosacea can progress from alcohol-triggered flushing to fixed facial redness that does not resolve on its own, and outlines what helps that fixed redness: light-based devices such as intense pulsed light or pulse dye laser, the topical vasoconstrictor brimonidine for temporary improvement, plus daily sunscreen and gentle moisturizers, since UV exposure and an impaired skin barrier worsen rosacea.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

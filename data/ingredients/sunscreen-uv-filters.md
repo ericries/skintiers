@@ -358,6 +358,16 @@ videos:
   related: []
   thesis: "Board-certified dermatologist Whitney Bowe puts viral DIY sunscreen recipes, including tallow-based mixtures, to the test to see whether homemade sun protection actually works. She demonstrates that these recipes let UV pass through to the skin and do not provide reliable protection, and as a melanoma survivor she says she would not use them, concluding that people should rely on sunscreens that have actually been tested for their SPF rather than gambling on online recipes."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: Does Sunscreen Go Bad in a Hot Car? Dermatologist Explains
+  creator: Andrea Suarez (Dr Dray)
+  creator_slug: andrea-suarez-dr-dray
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=QC-ritxlyHo
+  posted: '2026-07-19'
+  related: []
+  thesis: Board-certified dermatologist Andrea Suarez (Dr Dray) answers whether sunscreen degrades if left in a hot car. She explains that extreme heat can degrade sunscreen, so she does not recommend storing it in a hot car, but manufacturers heat-stabilize the actives and ship under temperature-controlled conditions. She notes a 2021 study that independently tested sunscreens at temperature extremes and found they stayed largely effective, so the bigger risk is a bottle you leave baking in a car, not one in transit.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 name: Sunscreen (UV filters)
 slug: sunscreen-uv-filters
 status: published

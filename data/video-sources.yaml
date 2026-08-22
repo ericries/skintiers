@@ -42,7 +42,7 @@
 - name: Andrea Suarez (Dr Dray)
   creator_slug: andrea-suarez-dr-dray
   flagship: true
-  backfill_cursor: 30
+  backfill_cursor: 45
   credential: Board-certified dermatologist
   tier: HIGH
   channel: https://www.youtube.com/@DrDrayzday/videos
