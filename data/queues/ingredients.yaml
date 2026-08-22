@@ -1101,3 +1101,10 @@
     shows NO stretch-mark benefit, but it is a legit moisturizing occlusive-emollient
     butter (cocoa mass polyphenols); catalog gap anchoring the Palmer's/stretch-marks
     cluster
+- name: Coal tar (antidandruff / seborrheic dermatitis)
+  type: ingredient
+  priority: 8
+  status: pending
+  discovered_from: anti-dandruff-seborrheic-dermatitis-treatments-by-evidence
+  source: Classic OTC antidandruff/seb-derm/psoriasis active (Neutrogena T/Gel); FDA-monograph,
+    real evidence trail; catalog gap for the Malassezia cluster + a psoriasis angle

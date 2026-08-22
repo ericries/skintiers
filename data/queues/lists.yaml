@@ -80,7 +80,7 @@
 - name: Anti-dandruff and seborrheic dermatitis treatments by evidence
   type: list
   priority: 3
-  status: pending
+  status: done
   discovered_from: null
   source: 'Curatorial tier list over EXISTING pages: [[nizoral-anti-dandruff-shampoo-ketoconazole-1]],
     [[selsun-blue-selenium-sulfide-shampoo]], [[selsun-blue-itchy-dry-scalp-pyrithione-zinc]]
