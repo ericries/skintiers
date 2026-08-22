@@ -1076,3 +1076,11 @@
   source: Oral antifungal for resistant fungal acne / Malassezia folliculitis (100-200
     mg daily 1-4 wk, 69-100% clinical effect per Saunte on [[fungal-acne]]); systemic
     drug, bracket as context per non-topical scope
+- name: Alpha-bisabolol (bisabolol)
+  type: ingredient
+  priority: 7
+  status: pending
+  discovered_from: tower-28-sos-faceguard-spf-30
+  source: Chamomile-derived soothing/anti-inflammatory cosmetic active in many sensitive-skin
+    products (incl. this FaceGuard + serum bases); real but modest evidence; catalog
+    gap

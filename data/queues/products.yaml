@@ -1881,7 +1881,14 @@
 - name: Tower 28 SOS FaceGuard SPF 30 Mineral Sunscreen
   type: product
   priority: 8
-  status: pending
+  status: done
   discovered_from: tower-28-sos-intensive-rescue-serum
   source: Tower 28 mineral (zinc/titanium) SPF 30 with NEA/NRS/NPF seals for sensitive
     skin; brand + retailer sourceable
+- name: Tower 28 SOS Gentle Gel Cleanser
+  type: product
+  priority: 8
+  status: pending
+  discovered_from: tower-28-sos-faceguard-spf-30
+  source: Tower 28 fragrance-free gentle gel cleanser, part of the SOS sensitive-skin
+    routine; brand + retailer sourceable
