@@ -1108,3 +1108,10 @@
   discovered_from: anti-dandruff-seborrheic-dermatitis-treatments-by-evidence
   source: Classic OTC antidandruff/seb-derm/psoriasis active (Neutrogena T/Gel); FDA-monograph,
     real evidence trail; catalog gap for the Malassezia cluster + a psoriasis angle
+- name: Hexylresorcinol
+  type: ingredient
+  priority: 6
+  status: pending
+  discovered_from: murad
+  source: Tyrosinase-inhibiting brightening/pigment active (in the Murad dark-spot
+    serum + others); real evidence trail for hyperpigmentation; catalog gap

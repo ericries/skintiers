@@ -239,7 +239,7 @@
 - name: Murad
   type: brand
   priority: 3
-  status: pending
+  status: done
   discovered_from: 'BRAND cron: has murad-rapid-dark-spot-correcting-serum on site
     but no brand page'
   source: https://www.murad.com/

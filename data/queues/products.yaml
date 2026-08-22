@@ -1931,3 +1931,10 @@
   source: The reference lactic-acid body lotion for keratosis pilaris + rough/dry
     body skin; distinct brand, dermatologist-recommended; fills the KP body-treatment
     gap linked from this page
+- name: Murad Retinol Youth Renewal Serum
+  type: product
+  priority: 7
+  status: pending
+  discovered_from: murad
+  source: Murad's flagship retinol serum (retinol tri-active); brand + retailer sourceable;
+    surfaces the Murad range + retinol
