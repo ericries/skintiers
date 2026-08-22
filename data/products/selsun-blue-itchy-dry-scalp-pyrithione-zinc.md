@@ -2,6 +2,10 @@
 analyzed: '2026-08-21'
 brand: Selsun Blue
 category: Treatments
+images:
+- file: selsun-blue-itchy-dry-scalp-pyrithione-zinc-dailymed.jpg
+  source: DailyMed (FDA label)
+  source_url: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c491014d-f8c7-46bb-b065-eaf5ea842860
 grades:
 - effect: notable
   evidence: mixed
