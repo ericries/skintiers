@@ -86,7 +86,7 @@
 - name: Psoriasis
   type: condition
   priority: 4
-  status: pending
+  status: done
   discovered_from: coal-tar
   source: Major chronic inflammatory skin condition referenced by coal tar + many
     treatments; genuine hub gap (no psoriasis page); would host a treatments tier_list

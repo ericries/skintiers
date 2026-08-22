@@ -1938,3 +1938,24 @@
   discovered_from: murad
   source: Murad's flagship retinol serum (retinol tri-active); brand + retailer sourceable;
     surfaces the Murad range + retinol
+- name: Roflumilast cream (Zoryve)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: psoriasis
+  source: FDA-approved topical PDE4 inhibitor for plaque psoriasis of scalp and body;
+    CADTH/CDEC review PMID 42485470
+- name: CeraVe Psoriasis Moisturizing Cream (2% salicylic acid + lactic acid)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: psoriasis
+  source: OTC psoriasis product; salicylic acid keratolytic + lactic acid, verify
+    active/label via DailyMed or brand
+- name: MG217 Medicated Coal Tar Ointment
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: psoriasis
+  source: OTC FDA-monograph coal tar (2%) product for psoriasis; verify Drug Facts
+    via DailyMed

@@ -6038,3 +6038,9 @@ murad:
   score: 9
   verdict: publish
   note: 'BRAND cron: lean discovery roll-up. Founder verified from the brand''s own site ("Howard Murad, Founder"), stated as founded by dermatologist Dr. Howard Murad. "First modern doctor brand" attributed as the brand''s OWN claim, not fact. Links the one on-site product (murad-rapid-dark-spot-correcting-serum) + its actives [[tranexamic-acid]]/[[glycolic-acid]]. Brand pages self-check, no critic; assurance sonnet.'
+psoriasis:
+  last_reviewed: '2026-08-22'
+  score: 9
+  verdict: publish
+  note: 'CONDITION cron: topical-focused hub. Two load-bearing quotes verified VERBATIM against live PubMed (NCBI E-utilities), both primary secondary-literature: (1) "chronic autoimmune-mediated inflammatory skin disorder...keratinocyte proliferation, abnormalities in the immune system...epidermal barrier" + "conventional topical treatments...include corticosteroids, vitamin D analogues, and keratolytic" from Int J Pharm 2026;700:127049 (PMID 42264053); (2) FDA-approved topical first-line "include topical roflumilast, tapinarof, topical corticosteroids, and vitamin D analogs in the same category" from J Clin Aesthet Dermatol 2026;19(6):15-21 expert position paper (PMID 42482862). CATCH: initially cited wrong first authors (guessed Kashaw/Del Rosso); verified actual first authors from abstract (Bobde M / Burshtein J) and corrected both citations before publish. tier_list ranks only OTC self-care topicals (coal-tar moderate, salicylic-acid weak); prescription first-line (corticosteroids/vitamin
+    D analogs/roflumilast/tapinarof) named in caption ABOVE them, NOT ranked; systemics/biologics bracketed out-of-topical-scope. Health-first, dermatologist-deferral throughout. Opus critic agent unavailable (cap); verified in Opus main loop; assurance sonnet.'

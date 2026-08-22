@@ -1115,3 +1115,18 @@
   discovered_from: murad
   source: Tyrosinase-inhibiting brightening/pigment active (in the Murad dark-spot
     serum + others); real evidence trail for hyperpigmentation; catalog gap
+- name: Calcipotriene (calcipotriol)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: psoriasis
+  source: FDA-approved topical vitamin D3 analog, first-line for plaque psoriasis;
+    named in the psoriasis treatment ladder (Burshtein 2026 expert position paper,
+    PMID 42482862)
+- name: Tapinarof (Vtama)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: psoriasis
+  source: FDA-approved nonsteroidal topical aryl-hydrocarbon-receptor agonist for
+    plaque psoriasis; first-line topical per Burshtein 2026 (PMID 42482862)
