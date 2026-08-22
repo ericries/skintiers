@@ -1084,3 +1084,11 @@
   source: Chamomile-derived soothing/anti-inflammatory cosmetic active in many sensitive-skin
     products (incl. this FaceGuard + serum bases); real but modest evidence; catalog
     gap
+- name: Decyl glucoside (mild non-ionic surfactant)
+  type: ingredient
+  priority: 7
+  status: pending
+  discovered_from: tower-28-sos-daily-balancing-gel-cleanser
+  source: Sugar-derived mild non-ionic surfactant, the workhorse gentle cleanser base
+    in this + many sensitive-skin washes (glucoside surfactants); low-irritation;
+    catalog gap tying the gentle-cleanser cluster together

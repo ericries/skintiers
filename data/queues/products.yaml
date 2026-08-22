@@ -1888,7 +1888,14 @@
 - name: Tower 28 SOS Gentle Gel Cleanser
   type: product
   priority: 8
-  status: pending
+  status: done
   discovered_from: tower-28-sos-faceguard-spf-30
   source: Tower 28 fragrance-free gentle gel cleanser, part of the SOS sensitive-skin
     routine; brand + retailer sourceable
+- name: Tower 28 SOS Rescue + Relief Body Wash (sodium hypochlorite)
+  type: product
+  priority: 9
+  status: pending
+  discovered_from: tower-28-sos-daily-balancing-gel-cleanser
+  source: Tower 28 sodium-hypochlorite (HOCl-adjacent) body wash for body acne / KP
+    / sensitive skin; brand + retailer sourceable
