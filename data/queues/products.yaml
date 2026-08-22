@@ -1860,7 +1860,7 @@
 - name: Tower 28 SOS Rescue + Repair Serum
   type: product
   priority: 8
-  status: pending
+  status: done
   discovered_from: tower-28
   source: Tower 28 hypochlorous-acid-adjacent barrier serum for sensitive skin; brand
     + retailer sourceable
@@ -1871,3 +1871,17 @@
   discovered_from: stretch-marks
   source: Common heavily-marketed stretch-mark cream (centella + hyaluronic acid);
     skeptical catalog value for the stretch-marks hub; brand + retailer sourceable
+- name: Tower 28 SOS Daily Barrier Recovery Cream (ceramides)
+  type: product
+  priority: 6
+  status: pending
+  discovered_from: tower-28-sos-intensive-rescue-serum
+  source: Tower 28 ceramide barrier-repair cream, completes the SOS skincare trio
+    (spray/serum/cream); ceramides are evidence-backed; brand + retailer sourceable
+- name: Tower 28 SOS FaceGuard SPF 30 Mineral Sunscreen
+  type: product
+  priority: 8
+  status: pending
+  discovered_from: tower-28-sos-intensive-rescue-serum
+  source: Tower 28 mineral (zinc/titanium) SPF 30 with NEA/NRS/NPF seals for sensitive
+    skin; brand + retailer sourceable
