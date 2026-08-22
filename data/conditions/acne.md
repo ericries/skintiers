@@ -273,6 +273,16 @@ videos:
   related: []
   thesis: 'Board-certified dermatologist Dr Scott Walter explains how to recognize hormonal acne, the type most often seen in adult women, which over-the-counter topicals only partly address. He describes its telltale pattern: papules, cysts, and nodules concentrated on the lower face, jawline, and chin that flare around the menstrual cycle, often in the days just before it.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: The Acne Mistake Almost EVERYONE Makes - Why Your Acne Isn't Improving
+  creator: Dr. Sam Bunting
+  creator_slug: sam-bunting
+  credential: Board-certified dermatologist (UK)
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=IGLdq7kgTdI
+  posted: '2025-12-23'
+  related: [azelaic-acid, retinoids]
+  thesis: Board-certified dermatologist Dr. Sam Bunting argues that the most common acne mistake is spot-treating individual blemishes reactively instead of treating whole acne-prone zones preventatively. She explains that adult acne, especially in women, tends to recur in the same areas, the jawline and U-zone, the T-zone, the chest, and the back, because hormonal shifts activate many oil glands together across a region rather than one at a time. Her recommended approach is to apply preventative actives over the entire zone, azelaic acid in the morning and a retinoid at night, to reduce breakouts before they start rather than waiting for a spot to appear.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
