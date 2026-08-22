@@ -2,6 +2,10 @@
 analyzed: '2026-08-21'
 brand: Palmer's
 category: Moisturizers
+images:
+- file: palmers-cocoa-butter-massage-lotion-stretch-marks-palmers.png
+  source: Palmer's
+  source_url: https://palmers.com/products/massage-lotion-for-stretch-marks
 grades:
 - effect: minimal
   evidence: solid
