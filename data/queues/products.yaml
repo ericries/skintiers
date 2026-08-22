@@ -1895,7 +1895,7 @@
 - name: Tower 28 SOS Rescue + Relief Body Wash (sodium hypochlorite)
   type: product
   priority: 9
-  status: pending
+  status: done
   discovered_from: tower-28-sos-daily-balancing-gel-cleanser
   source: Tower 28 sodium-hypochlorite (HOCl-adjacent) body wash for body acne / KP
     / sensitive skin; brand + retailer sourceable
@@ -1915,3 +1915,19 @@
   source: The iconic coal tar antidandruff/seb-derm shampoo; FDA OTC drug (coal tar),
     DailyMed/retailer sourceable; would join the antidandruff tier list + coal-tar
     page
+- name: CLn BodyWash (sodium hypochlorite cleanser)
+  type: product
+  priority: 6
+  status: pending
+  discovered_from: tower-28-sos-rescue-relief-body-wash
+  source: The dermatologist-recommended dilute-sodium-hypochlorite (bleach-bath-in-a-wash)
+    cleanser for eczema, folliculitis, and body acne; the actual evidence-grounded
+    version of this category; distinct brand, brand + retailer sourceable
+- name: AmLactin Daily Moisturizing Body Lotion (lactic acid 12%)
+  type: product
+  priority: 6
+  status: pending
+  discovered_from: tower-28-sos-rescue-relief-body-wash
+  source: The reference lactic-acid body lotion for keratosis pilaris + rough/dry
+    body skin; distinct brand, dermatologist-recommended; fills the KP body-treatment
+    gap linked from this page
