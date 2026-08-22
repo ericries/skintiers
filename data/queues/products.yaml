@@ -1926,7 +1926,7 @@
 - name: AmLactin Daily Moisturizing Body Lotion (lactic acid 12%)
   type: product
   priority: 6
-  status: pending
+  status: done
   discovered_from: tower-28-sos-rescue-relief-body-wash
   source: The reference lactic-acid body lotion for keratosis pilaris + rough/dry
     body skin; distinct brand, dermatologist-recommended; fills the KP body-treatment
