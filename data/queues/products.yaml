@@ -1907,3 +1907,11 @@
   source: The iconic max-strength H&S selenium sulfide antidandruff shampoo (DailyMed-sourceable;
     'Clinical Strength' line is selenium sulfide, not pyrithione zinc); would join
     the anti-dandruff tier list
+- name: Neutrogena T/Gel Therapeutic Shampoo (coal tar)
+  type: product
+  priority: 7
+  status: pending
+  discovered_from: coal-tar
+  source: The iconic coal tar antidandruff/seb-derm shampoo; FDA OTC drug (coal tar),
+    DailyMed/retailer sourceable; would join the antidandruff tier list + coal-tar
+    page

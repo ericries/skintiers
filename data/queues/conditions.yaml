@@ -83,3 +83,11 @@
   discovered_from: 'LIST cron gap: common Malassezia-driven condition, treated off-label
     with ketoconazole/antifungals; distinct from acne'
   source: https://pubmed.ncbi.nlm.nih.gov/
+- name: Psoriasis
+  type: condition
+  priority: 4
+  status: pending
+  discovered_from: coal-tar
+  source: Major chronic inflammatory skin condition referenced by coal tar + many
+    treatments; genuine hub gap (no psoriasis page); would host a treatments tier_list
+    (topical steroids, vitamin D analogs, coal tar, biologics as context)

@@ -1071,7 +1071,7 @@
 - name: Itraconazole (oral antifungal)
   type: ingredient
   priority: 8
-  status: pending
+  status: done
   discovered_from: fungal-acne
   source: Oral antifungal for resistant fungal acne / Malassezia folliculitis (100-200
     mg daily 1-4 wk, 69-100% clinical effect per Saunte on [[fungal-acne]]); systemic
@@ -1104,7 +1104,7 @@
 - name: Coal tar (antidandruff / seborrheic dermatitis)
   type: ingredient
   priority: 8
-  status: pending
+  status: done
   discovered_from: anti-dandruff-seborrheic-dermatitis-treatments-by-evidence
   source: Classic OTC antidandruff/seb-derm/psoriasis active (Neutrogena T/Gel); FDA-monograph,
     real evidence trail; catalog gap for the Malassezia cluster + a psoriasis angle
