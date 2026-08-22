@@ -20,7 +20,7 @@
 - name: Stretch marks (striae) evidence hub
   type: goal
   priority: 6
-  status: pending
+  status: done
   discovered_from: tasmannia-lanceolata-extract
   source: Common skin concern the site lacks a hub for; would host Tasmannia lanceolata,
     tretinoin (early striae), centella-asiatica + skeptical takes on Bio-Oil/cocoa

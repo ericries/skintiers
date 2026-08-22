@@ -1864,3 +1864,10 @@
   discovered_from: tower-28
   source: Tower 28 hypochlorous-acid-adjacent barrier serum for sensitive skin; brand
     + retailer sourceable
+- name: Mederma Stretch Marks Therapy (centella + hyaluronic acid)
+  type: product
+  priority: 7
+  status: pending
+  discovered_from: stretch-marks
+  source: Common heavily-marketed stretch-mark cream (centella + hyaluronic acid);
+    skeptical catalog value for the stretch-marks hub; brand + retailer sourceable

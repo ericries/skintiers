@@ -436,3 +436,11 @@
   source: 'The definitive negative RCT (double-blind, placebo-controlled, n=175):
     cocoa butter did NOT reduce stretch marks (45.1% vs 48.8%, p=0.730); infrastructure
     for the stretch-marks hub + Palmer''s/Bio-Oil pages'
+- name: Ud-Din 2016 topical management of striae distensae review (PMID 26486318)
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: stretch-marks
+  source: 'The umbrella review for the stretch-marks hub: no topical shown most effective;
+    tretinoin varying results; cocoa butter/olive oil no effect; distinguishes striae
+    rubrae vs albae. Infrastructure for [[stretch-marks]] + Palmer''s/tasmannia pages'
