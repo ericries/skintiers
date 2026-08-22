@@ -3,6 +3,10 @@ analyzed: '2026-08-07'
 assurance: sonnet
 brand: Round Lab
 category: Sunscreens
+images:
+- file: round-lab-birch-juice-moisturizing-sun-spf-50-target.jpg
+  source: Target
+  source_url: https://www.target.com/p/round-lab-birch-juice-moisturizing-uv-lock-50ml/-/A-93287835
 comparator: broad-spectrum sunscreens, including modern-filter sunscreens sold in
   Korea, the EU, and Australia
 grades:
