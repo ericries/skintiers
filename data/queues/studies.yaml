@@ -431,7 +431,7 @@
 - name: Osman 2008 cocoa butter for striae gravidarum RCT (PMID 18715434)
   type: study
   priority: 5
-  status: pending
+  status: done
   discovered_from: palmers-cocoa-butter-massage-lotion-stretch-marks
   source: 'The definitive negative RCT (double-blind, placebo-controlled, n=175):
     cocoa butter did NOT reduce stretch marks (45.1% vs 48.8%, p=0.730); infrastructure
@@ -444,3 +444,11 @@
   source: 'The umbrella review for the stretch-marks hub: no topical shown most effective;
     tretinoin varying results; cocoa butter/olive oil no effect; distinguishes striae
     rubrae vs albae. Infrastructure for [[stretch-marks]] + Palmer''s/tasmannia pages'
+- name: Kang 1996 tretinoin 0.1% for striae rubrae RCT (Arch Dermatol, PMID 8624149)
+  type: study
+  priority: 6
+  status: pending
+  discovered_from: osman-2008-cocoa-butter-for-prevention-of-striae-gravidarum-rct
+  source: 'Grounds the [[stretch-marks]] tier_list''s top item (tretinoin, moderate):
+    the positive topical-retinoid evidence for EARLY red striae, to balance the negative
+    cocoa-butter RCT'

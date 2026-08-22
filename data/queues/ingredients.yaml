@@ -1092,3 +1092,12 @@
   source: Sugar-derived mild non-ionic surfactant, the workhorse gentle cleanser base
     in this + many sensitive-skin washes (glucoside surfactants); low-irritation;
     catalog gap tying the gentle-cleanser cluster together
+- name: Cocoa butter (Theobroma cacao seed butter)
+  type: ingredient
+  priority: 7
+  status: pending
+  discovered_from: osman-2008-cocoa-butter-for-prevention-of-striae-gravidarum-rct
+  source: Ubiquitous plant-butter emollient; a placebo-controlled RCT (Osman 2008)
+    shows NO stretch-mark benefit, but it is a legit moisturizing occlusive-emollient
+    butter (cocoa mass polyphenols); catalog gap anchoring the Palmer's/stretch-marks
+    cluster
