@@ -28,6 +28,17 @@ videos:
   related: [differin-adapalene-0-1-gel, paulas-choice-skin-perfecting-2-bha]
   thesis: "Board-certified dermatologist Dr. Muneeb Shah calls hypochlorous acid a leave-on sanitizer that the body naturally produces during the immune system's oxidative burst, useful as a bacteria-killing spray for acne mechanica (mask or helmet-related breakouts) and for disinfecting makeup brushes and beauty blenders. He says people with normal, healthy skin likely will not benefit and could even disrupt their skin microbiome by killing normal bacteria, and that hypochlorous acid is cheap to formulate, so there is no need to overspend on a specific brand."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: Hypochlorous Acid Explained | Chemist Confessions Podcast
+  creator: Chemist Confessions (Victoria Fu and Gloria Lu)
+  creator_slug: victoria-fu
+  credential: Cosmetic chemists
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=mPNVP12zxUg
+  posted: '2025-08-27'
+  related: [acne]
+  thesis: Cosmetic chemists Victoria Fu and Gloria Lu of Chemist Confessions explain hypochlorous acid, the ingredient behind a wave of acne testimonials and viral skin-soothing buzz. They note that its strongest evidence is for wound healing, such as diabetic foot ulcers, while its efficacy for everyday skincare and acne is still poorly understood and rests largely on testimonials. They also examine its reputation for instability, finding that although hypochlorous acid degrades quickly in general, some well-formulated versions stayed around 95 percent intact after ten days.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Hypochlorous acid (HOCl) is a weak acid that immune cells naturally generate to fight microbes; it is also an integral part of the innate immune system, and skincare brands sell electrolyzed or chemically stabilized versions as leave-on sprays, mists, and gels marketed for acne-prone, eczema-prone, and post-procedure skin.[^haralovic][^gold] The strongest human evidence involves a related but distinct intervention, dilute sodium hypochlorite bleach baths for eczema, while the stabilized topical HOCl products sold today rest mainly on an animal model, an expert-panel wound-care review, and narrative reviews rather than a controlled human trial of the product category itself.

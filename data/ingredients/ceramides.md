@@ -7,6 +7,18 @@ slug: ceramides
 status: published
 type: ingredient
 updated: '2026-07-28'
+videos:
+- title: Ceramides in products! | Chemist Confessions Podcast
+  creator: Chemist Confessions (Victoria Fu and Gloria Lu)
+  creator_slug: victoria-fu
+  credential: Cosmetic chemists
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=qEOXEisx8lY
+  posted: '2025-11-03'
+  related: [skin-barrier-repair, cholesterol, phytosphingosine]
+  thesis: Cosmetic chemists Victoria Fu and Gloria Lu of Chemist Confessions break down what ceramides actually are in skincare. They explain that ceramide is not a single ingredient like niacinamide but a whole class of lipid molecules, each built by bonding a fatty acid to a sphingosine and named by types such as N, A, and E, and that the skin barrier relies on specific ceramide types and ratios that formulators try to mimic. The episode accompanies their review of ten barrier creams, using the chemistry to explain what the ceramides in those products are doing.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Ceramides are the major lipid constituent of the stratum corneum, the skin's outer barrier layer, and a common physiologic-lipid ingredient in barrier-repair moisturizers.
