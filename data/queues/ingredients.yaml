@@ -1146,3 +1146,10 @@
   source: The 'Cepalin' active in Mederma scar/stretch-mark products; onion extract
     has multiple scar RCTs (mostly showing no benefit over vehicle) - real evidence
     page
+- name: Piroctone olamine
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: head-shoulders-clinical-strength-dandruff-defense-selenium-sulfide
+  source: Common non-monograph antidandruff antifungal (widely used outside US OTC
+    monograph); would round out the antidandruff ingredient set

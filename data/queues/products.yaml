@@ -1902,7 +1902,7 @@
 - name: Head & Shoulders Clinical Strength Dandruff Defense (selenium sulfide 1%)
   type: product
   priority: 7
-  status: pending
+  status: done
   discovered_from: anti-dandruff-seborrheic-dermatitis-treatments-by-evidence
   source: The iconic max-strength H&S selenium sulfide antidandruff shampoo (DailyMed-sourceable;
     'Clinical Strength' line is selenium sulfide, not pyrithione zinc); would join
@@ -1980,3 +1980,11 @@
   discovered_from: mederma-stretch-marks-therapy
   source: Mederma's stretch-mark oil sibling to the therapy cream; brand product page;
     ties to stretch-marks cluster
+- name: Head & Shoulders Clinical Strength Dandruff Defense Sensitive Scalp (selenium
+    sulfide)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: head-shoulders-clinical-strength-dandruff-defense-selenium-sulfide
+  source: Sibling SLS-free/sensitive variant, DailyMed setid eedc5e57-8047-eab7; different
+    base, same active
