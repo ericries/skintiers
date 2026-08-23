@@ -218,7 +218,7 @@
 - name: Dr. Usama Syed
   type: person
   priority: 5
-  status: pending
+  status: done
   discovered_from: heather-woolerylloyd
   source: Board-certified dermatologist, 4 on-site cards, no person page; verify via
     NPI; disclose affiliate product links
