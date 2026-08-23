@@ -1867,7 +1867,7 @@
 - name: Mederma Stretch Marks Therapy (centella + hyaluronic acid)
   type: product
   priority: 7
-  status: pending
+  status: done
   discovered_from: stretch-marks
   source: Common heavily-marketed stretch-mark cream (centella + hyaluronic acid);
     skeptical catalog value for the stretch-marks hub; brand + retailer sourceable
@@ -1966,3 +1966,17 @@
   discovered_from: goals
   source: Widely used OTC under-eye serum (caffeine 5% + epigallocatechin gallatyl
     glucoside); brand ingredient list + price sourceable via Deciem/The Ordinary
+- name: Mederma Advanced Scar Gel (Cepalin/onion extract + allantoin)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: mederma-stretch-marks-therapy
+  source: Mederma flagship onion-extract scar gel; brand product page has composition
+    + claims; scar-evidence angle (onion extract RCTs)
+- name: Mederma Quick Dry Oil (stretch mark oil)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: mederma-stretch-marks-therapy
+  source: Mederma's stretch-mark oil sibling to the therapy cream; brand product page;
+    ties to stretch-marks cluster
