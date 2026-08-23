@@ -6107,3 +6107,9 @@ alpha-bisabolol:
   score: 9
   verdict: publish
   note: 'INGREDIENT cron. Load-bearing quote verified VERBATIM vs fetched NCBI abstract (Lee 2010, PMID 20642768): ''significant lightening effect in the pigmented skin for the majority of the subjects'', n=28, 8 weeks, vehicle-controlled, back application, industry-affiliated (Biospectrum) - all captured with those caveats. tier: weak (thin standalone clinical evidence; soothing role is preclinical/traditional, brightening is one small industry study). Framed as a well-tolerated calming adjunct, not a reason to buy; evidenced brighteners linked out to brightening/hyperpigmentation. Opus main-loop critic; assurance sonnet.'
+murad-retinol-youth-renewal-serum:
+  last_reviewed: '2026-08-23'
+  score: 9
+  verdict: publish
+  note: 'PRODUCT cron (Murad/retinol cluster). Murad is a Shopify JS-SPA; resolved via Apify + CACHED brand markdown. Composition + all 3 claims verified VERBATIM: "powered by 4x Active Retinoid Technology... encapsulated retinol... a gentle yet fast-acting retinol, a stabilized retinoid with barrier-nourishing omega-6"; "In 14 days: 100% showed visible improvements in elasticity, firmness and radiance, 93%... fine lines, wrinkles, and dark spots, and 96% agree skin looks healthier"; "In 7 days: Clinically proven to improve 10 visible signs of early skin aging". Dagger-footnoted claims correctly framed as brand consumer/clinical-panel studies, NOT independent RCTs. PRICE OMITTED: markdown had $87 and $97 both recurring with no clean attribution to this serum + empty jsonLd price, so left it to the brand page rather than guess. Retinol evidence linked OUT to [[retinol]]/[[retinoids]], not re-told. Undisclosed concentration flagged. Grade cosmetic notable/preliminary. Opus main-loop critic;
+    assurance sonnet.'

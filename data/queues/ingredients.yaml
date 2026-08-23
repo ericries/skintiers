@@ -1160,3 +1160,10 @@
   discovered_from: kang-1996-topical-tretinoin-improves-early-stretch-marks-rct
   source: AmLactin active; studied for striae and xerosis; complements the stretch-marks
     + keratosis-pilaris clusters
+- name: Encapsulated retinol (delivery systems)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: murad-retinol-youth-renewal-serum
+  source: Encapsulation/stabilized-delivery retinol tech (as in Murad 4x Active Retinoid);
+    ties to the retinol page; formulation-stability angle

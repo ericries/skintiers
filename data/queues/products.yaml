@@ -1934,7 +1934,7 @@
 - name: Murad Retinol Youth Renewal Serum
   type: product
   priority: 7
-  status: pending
+  status: done
   discovered_from: murad
   source: Murad's flagship retinol serum (retinol tri-active); brand + retailer sourceable;
     surfaces the Murad range + retinol
@@ -2023,3 +2023,16 @@
   discovered_from: atopic-dermatitis
   source: Topical calcineurin inhibitor for atopic dermatitis; DailyMed Drug Facts;
     the Rx steroid-sparing option named on the AD hub
+- name: Murad Rapid Dark Spot Correcting Serum (Resorcinol + tranexamic acid)
+  type: product
+  priority: 5
+  status: done
+  discovered_from: murad-retinol-youth-renewal-serum
+  source: Wait check exists
+- name: Murad Resurgence Retinal ReSculpt Overnight Treatment (retinal)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: murad-retinol-youth-renewal-serum
+  source: Murad retinaldehyde overnight treatment seen on the brand site (1 oz); ties
+    to retinaldehyde + retinoids clusters
