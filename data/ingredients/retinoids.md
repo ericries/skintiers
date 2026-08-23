@@ -112,6 +112,16 @@ videos:
   related: []
   thesis: "Board-certified dermatologist Dr. Aegean Chan explains that breastfeeding mothers can safely use topical retinoids, calling the common advice against it a myth. She notes that a retinoid applied to the face has minimal systemic absorption, so very little would ever reach the bloodstream, cross into breast milk, and then cross into the baby's gastrointestinal tract to have any effect, and by that point it is essentially just vitamin A, which infants need anyway. She contrasts this with pregnancy, where a developing fetus exposed to retinoids at high enough doses (typically from oral retinoids) can experience birth defects, arguing that many sources wrongly apply pregnancy-era retinoid warnings to breastfeeding, when the risk profile for a fully developed baby outside the body is very different."
   note: "Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship."
+- title: 6 Retinoid Myths Fully Debunked
+  creator: Dr. Sam Bunting
+  creator_slug: sam-bunting
+  credential: Board-certified dermatologist (UK)
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=ffR4becBUb0
+  posted: '2023-11-30'
+  related: []
+  thesis: Board-certified dermatologist Dr. Sam Bunting debunks six common myths about retinoids, the vitamin A derivatives she calls the gold standard of anti-aging skincare. She argues that a lot of the retinoid information circulating on social media is inaccurate and discourages people from adopting what she considers one of the most valuable steps in a routine, and she walks through the misconceptions so viewers can use retinoids correctly rather than avoid them.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 name: Retinoids
 slug: retinoids
 status: published

@@ -99,7 +99,7 @@
 - name: Dr. Sam Bunting
   creator_slug: sam-bunting
   flagship: true
-  backfill_cursor: 30
+  backfill_cursor: 45
   credential: Board-certified dermatologist (UK)
   tier: HIGH
   channel: https://www.youtube.com/@DrSamBunting/videos

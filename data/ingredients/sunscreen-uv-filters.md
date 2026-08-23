@@ -368,6 +368,16 @@ videos:
   related: []
   thesis: Board-certified dermatologist Andrea Suarez (Dr Dray) answers whether sunscreen degrades if left in a hot car. She explains that extreme heat can degrade sunscreen, so she does not recommend storing it in a hot car, but manufacturers heat-stabilize the actives and ship under temperature-controlled conditions. She notes a 2021 study that independently tested sunscreens at temperature extremes and found they stayed largely effective, so the bigger risk is a bottle you leave baking in a car, not one in transit.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: 10 Sunscreen Mistakes You Might Be Making
+  creator: Dr. Sam Bunting
+  creator_slug: sam-bunting
+  credential: Board-certified dermatologist (UK)
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=aMaOQoZXxQY
+  posted: '2023-07-20'
+  related: []
+  thesis: 'Board-certified dermatologist Dr. Sam Bunting runs through the ten sunscreen mistakes she sees most often and how to fix them. The first and most common is under-dosing: she notes the average person applies only about a quarter to a half of the amount needed to reach the SPF printed on the pack, so she emphasizes learning what the correct dose actually looks like for the face.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 name: Sunscreen (UV filters)
 slug: sunscreen-uv-filters
 status: published
