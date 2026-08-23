@@ -447,7 +447,7 @@
 - name: Kang 1996 tretinoin 0.1% for striae rubrae RCT (Arch Dermatol, PMID 8624149)
   type: study
   priority: 6
-  status: pending
+  status: done
   discovered_from: osman-2008-cocoa-butter-for-prevention-of-striae-gravidarum-rct
   source: 'Grounds the [[stretch-marks]] tier_list''s top item (tretinoin, moderate):
     the positive topical-retinoid evidence for EARLY red striae, to balance the negative

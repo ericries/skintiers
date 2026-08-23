@@ -1153,3 +1153,10 @@
   discovered_from: head-shoulders-clinical-strength-dandruff-defense-selenium-sulfide
   source: Common non-monograph antidandruff antifungal (widely used outside US OTC
     monograph); would round out the antidandruff ingredient set
+- name: Ammonium lactate (lactic acid) topical
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: kang-1996-topical-tretinoin-improves-early-stretch-marks-rct
+  source: AmLactin active; studied for striae and xerosis; complements the stretch-marks
+    + keratosis-pilaris clusters
