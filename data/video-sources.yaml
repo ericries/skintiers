@@ -197,7 +197,7 @@
   channel: 'https://www.youtube.com/@kindofstephen'
   product_recs: ok
   conflict: 'No affiliate storefront or own-brand line found; occasionally discloses paid/employer formulation work on specific ingredient categories (e.'
-  last_pulled: '2026-08-16'
+  last_pulled: '2026-08-23'
 - name: 'Dr. Angelo Landriscina (DermAngelo)'
   creator_slug: angelo-landriscina
   credential: 'Board-certified dermatologist'
