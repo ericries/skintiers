@@ -6102,3 +6102,8 @@ usama-syed:
   score: 8
   verdict: publish
   note: 'PERSON cron (lean discovery card, 128 words). Credential VERIFIED via NPI registry (durable primary): NPI 1942731989, Usama Syed, primary taxonomy Dermatology. Links back to his embedded cards on acne/rosacea/hyperpigmentation/atopic-dermatitis + retinoids. Disclosure included (affiliate links in descriptions + own paid teledermatology subscription). No critic (person type); self-checked; assurance sonnet.'
+alpha-bisabolol:
+  last_reviewed: '2026-08-23'
+  score: 9
+  verdict: publish
+  note: 'INGREDIENT cron. Load-bearing quote verified VERBATIM vs fetched NCBI abstract (Lee 2010, PMID 20642768): ''significant lightening effect in the pigmented skin for the majority of the subjects'', n=28, 8 weeks, vehicle-controlled, back application, industry-affiliated (Biospectrum) - all captured with those caveats. tier: weak (thin standalone clinical evidence; soothing role is preclinical/traditional, brightening is one small industry study). Framed as a well-tolerated calming adjunct, not a reason to buy; evidenced brighteners linked out to brightening/hyperpigmentation. Opus main-loop critic; assurance sonnet.'
