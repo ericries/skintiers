@@ -6113,3 +6113,8 @@ murad-retinol-youth-renewal-serum:
   verdict: publish
   note: 'PRODUCT cron (Murad/retinol cluster). Murad is a Shopify JS-SPA; resolved via Apify + CACHED brand markdown. Composition + all 3 claims verified VERBATIM: "powered by 4x Active Retinoid Technology... encapsulated retinol... a gentle yet fast-acting retinol, a stabilized retinoid with barrier-nourishing omega-6"; "In 14 days: 100% showed visible improvements in elasticity, firmness and radiance, 93%... fine lines, wrinkles, and dark spots, and 96% agree skin looks healthier"; "In 7 days: Clinically proven to improve 10 visible signs of early skin aging". Dagger-footnoted claims correctly framed as brand consumer/clinical-panel studies, NOT independent RCTs. PRICE OMITTED: markdown had $87 and $97 both recurring with no clean attribution to this serum + empty jsonLd price, so left it to the brand page rather than guess. Retinol evidence linked OUT to [[retinol]]/[[retinoids]], not re-told. Undisclosed concentration flagged. Grade cosmetic notable/preliminary. Opus main-loop critic;
     assurance sonnet.'
+mederma:
+  last_reviewed: '2026-08-23'
+  score: 8
+  verdict: publish
+  note: 'BRAND cron (lean discovery card, 47 words). What it is: OTC scar/stretch-mark brand built on Cepalin (onion/Allium cepa extract). ''#1 doctor-recommended brand'' attributed as the brand''s OWN claim (verified vs cached product page). No founder asserted (unverified - omitted rather than fabricate). Links its one on-site product (mederma-stretch-marks-therapy) + actives centella-asiatica/hyaluronic-acid; points thin-evidence caveat to stretch-marks. No critic (brand type); self-checked; assurance sonnet.'
