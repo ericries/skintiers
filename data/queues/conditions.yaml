@@ -91,3 +91,11 @@
   source: Major chronic inflammatory skin condition referenced by coal tar + many
     treatments; genuine hub gap (no psoriasis page); would host a treatments tier_list
     (topical steroids, vitamin D analogs, coal tar, biologics as context)
+- name: Contact dermatitis (allergic and irritant)
+  type: condition
+  priority: 5
+  status: pending
+  discovered_from: atopic-dermatitis
+  source: Common eczematous condition distinct from atopic dermatitis (external trigger);
+    real treatment framework (avoidance + topical corticosteroids + emollients); refills
+    empty condition queue

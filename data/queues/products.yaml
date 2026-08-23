@@ -2036,3 +2036,10 @@
   discovered_from: murad-retinol-youth-renewal-serum
   source: Murad retinaldehyde overnight treatment seen on the brand site (1 oz); ties
     to retinaldehyde + retinoids clusters
+- name: Vanicream Z-Bar (pyrithione zinc 2% cleansing bar)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: zinc-pyrithione
+  source: OTC pyrithione zinc 2% bar for seb-derm/fungal-acne; DailyMed Drug Facts;
+    backs the zinc-pyrithione ingredient page
