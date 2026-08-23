@@ -6087,3 +6087,13 @@ aveeno-skin-relief-moisturizing-lotion:
   score: 9
   verdict: publish
   note: 'PRODUCT (eczema cluster). IDENTITY CATCH: queue said ''colloidal oatmeal'' but DailyMed active is ''Dimethicone 1.2%'' (skin protectant); labeled use is chapped/chapped-skin protection, NOT eczema treatment. Verbatim active/use/inactives; framed as a barrier-protecting daily moisturizer, oat is in the base not the Drug Facts active. Opus main-loop critic; assurance sonnet.'
+selenium-sulfide:
+  last_reviewed: '2026-08-23'
+  score: 9
+  verdict: publish
+  note: 'INGREDIENT (antidandruff cluster, aggressive batch). FDA OTC monograph verified verbatim via eCFR 21 CFR 358 (selenium sulfide 1% antidandruff active). Farris 2026 head-to-head (0.6% SeS = 2% ketoconazole) referenced to the verified study page, not re-derived. tier: good (first-line, matched ketoconazole which is good). Backs the antidandruff tier list + Selsun/H&S product pages. Opus main-loop critic; assurance sonnet.'
+zinc-pyrithione:
+  last_reviewed: '2026-08-23'
+  score: 9
+  verdict: publish
+  note: 'INGREDIENT (antidandruff cluster). FDA OTC monograph verified verbatim via eCFR 21 CFR 358 (''0.3 to 2 percent when formulated to be applied and then washed off after brief exposure''). tier: mid (moderate; established + safe but thinner recent head-to-head data than ketoconazole/selenium sulfide, consistent with its ''moderate'' rank on the tier list). Opus main-loop critic; assurance sonnet.'

@@ -840,7 +840,7 @@
 - name: Zinc pyrithione
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: An antifungal/antimicrobial active in medicated washes (Head & Shoulders,
     some cleansers) used for Malassezia (seb derm, dandruff, fungal acne); no page
@@ -848,7 +848,7 @@
 - name: Selenium sulfide (topical)
   type: ingredient
   priority: 4
-  status: pending
+  status: done
   discovered_from: null
   source: A topical antifungal for Malassezia (fungal acne, seb derm, dandruff), named
     in the [[fungal-acne]] caption as a first-line topical but with no ingredient
