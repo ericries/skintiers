@@ -3,6 +3,10 @@ analyzed: '2026-08-23'
 assurance: opus
 brand: Eucerin
 category: Moisturizers
+images:
+- file: eucerin-eczema-relief-cream-dailymed.jpg
+  source: DailyMed (FDA label)
+  source_url: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9895f3c3-b00b-462c-ace0-696d688e2e04
 grades:
 - effect: modest
   evidence: established

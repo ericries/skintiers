@@ -3,6 +3,10 @@ analyzed: '2026-08-23'
 assurance: opus
 brand: Aveeno
 category: Moisturizers
+images:
+- file: aveeno-eczema-therapy-itch-relief-balm-dailymed.jpg
+  source: DailyMed (FDA label)
+  source_url: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e3350a8f-b983-7c4d-e053-2a95a90a53f5
 grades:
 - effect: modest
   evidence: established

@@ -3,6 +3,10 @@ analyzed: '2026-08-23'
 assurance: opus
 brand: Aveeno
 category: Moisturizers
+images:
+- file: aveeno-skin-relief-moisturizing-lotion-dailymed.jpg
+  source: DailyMed (FDA label)
+  source_url: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1bad1069-b169-4bc9-8eb8-5123d57f74e5
 grades:
 - effect: modest
   evidence: established
