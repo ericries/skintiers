@@ -2016,3 +2016,10 @@
   discovered_from: kang-1996-topical-tretinoin-improves-early-stretch-marks-rct
   source: The 0.1% tretinoin strength used in Kang 1996; DailyMed-labeled prescription
     retinoid; would carry the striae-rubrae + photoaging evidence
+- name: Elidel (pimecrolimus 1% cream)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: atopic-dermatitis
+  source: Topical calcineurin inhibitor for atopic dermatitis; DailyMed Drug Facts;
+    the Rx steroid-sparing option named on the AD hub

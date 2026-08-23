@@ -87,3 +87,11 @@
     + ingredient tiers (ketoconazole best, selenium sulfide/pyrithione zinc) + the
     [[seborrheic-dermatitis]] tier_list + the Farris 2026 RCT; ranks the Malassezia-active
     antifungals by strength of evidence'
+- name: Best gentle eczema and sensitive-skin moisturizers (product best-of)
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: atopic-dermatitis
+  source: Product-focused best-of ranking the actual eczema moisturizers on the site
+    (Eucerin, Aveeno, CeraVe, Vanicream) by evidence/role - distinct from the atopic-dermatitis
+    hub's ingredient tier_list; build once enough products exist
