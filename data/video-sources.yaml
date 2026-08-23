@@ -187,7 +187,7 @@
   channel: 'https://www.youtube.com/@TeawithMD'
   product_recs: restricted
   conflict: 'ShopMy affiliate storefront linked in nearly every video (''My Holy Grail Products''); own hair-care brand Kerativ Hair (she is Founder/CEO);'
-  last_pulled: '2026-08-16'
+  last_pulled: '2026-08-23'
 - name: 'Stephen Alain Ko (KindofStephen)'
   creator_slug: stephen-alain-ko
   flagship: false  # YouTube back-catalog exhausted: channel has only ~4 videos (blog/IG educator); backfill sweep done

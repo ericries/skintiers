@@ -27,6 +27,18 @@ tier_list:
   title: Seborrheic dermatitis treatments by evidence
 type: condition
 updated: '2026-08-20'
+videos:
+- title: All about Dandruff & Seborrheic Dermatitis | Dermatologist Explains
+  creator: Dr. Joyce Park (Tea with MD)
+  creator_slug: joyce-park
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=AGVZfO3rhQU
+  posted: '2024-11-22'
+  related: [fungal-acne, anti-dandruff-seborrheic-dermatitis-treatments-by-evidence]
+  thesis: Board-certified dermatologist Dr. Joyce Park explains seborrheic dermatitis, the condition commonly known as dandruff. She describes it as an inflammatory, scaly condition that affects oil-rich areas such as the scalp, face, chest, and back, likely driven by Malassezia yeast and worsened by stress, and also more common in immunocompromised states and neurologic conditions like Parkinson's. Her practical takeaway is to start with over-the-counter options and only move to prescription treatment if symptoms really need it.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Seborrheic dermatitis is "a common, chronic, or relapsing form of eczema/dermatitis that mainly affects the sebaceous gland-rich regions of the scalp, face, and trunk," and dandruff is simply its uninflamed scalp form.[^dermnet] It is driven largely by an overgrowth of the skin yeast Malassezia on oily skin, which is why topical antifungals are the mainstay of treatment.[^dermnet][^cochrane]
