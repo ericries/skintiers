@@ -25,3 +25,11 @@
   source: Common skin concern the site lacks a hub for; would host Tasmannia lanceolata,
     tretinoin (early striae), centella-asiatica + skeptical takes on Bio-Oil/cocoa
     butter; small evidence base
+- name: Dark circles (under-eye)
+  type: goal
+  priority: 5
+  status: pending
+  discovered_from: goals
+  source: Recognized concern with a real evidence framework (vascular vs pigmentary
+    vs structural/tear-trough); actives include caffeine, retinoids, vitamin C, and
+    pigment-directed brighteners; refills empty goal queue

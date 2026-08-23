@@ -1130,3 +1130,11 @@
   discovered_from: psoriasis
   source: FDA-approved nonsteroidal topical aryl-hydrocarbon-receptor agonist for
     plaque psoriasis; first-line topical per Burshtein 2026 (PMID 42482862)
+- name: Caffeine (topical)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: goals
+  source: Common topical antioxidant/vasoconstrictor in eye products; evidence base
+    for under-eye puffiness/dark circles and as an antioxidant; ties to a future dark-circles
+    goal

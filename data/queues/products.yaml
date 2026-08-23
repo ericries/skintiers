@@ -1959,3 +1959,10 @@
   discovered_from: psoriasis
   source: OTC FDA-monograph coal tar (2%) product for psoriasis; verify Drug Facts
     via DailyMed
+- name: The Ordinary Caffeine Solution 5% + EGCG
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: goals
+  source: Widely used OTC under-eye serum (caffeine 5% + epigallocatechin gallatyl
+    glucoside); brand ingredient list + price sourceable via Deciem/The Ordinary
