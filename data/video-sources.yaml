@@ -179,7 +179,7 @@
   channel: 'https://www.youtube.com/@brownskinderm'
   product_recs: restricted
   conflict: 'Affiliate storefronts (ShopMy + Amazon Shop via linktree), recurring #AD sponsored posts, a branded discount-code partnership (LivSo), and c'
-  last_pulled: '2026-08-16'
+  last_pulled: '2026-08-23'
 - name: 'Dr. Joyce Park (Tea with MD)'
   creator_slug: joyce-park
   credential: 'Board-certified dermatologist'
