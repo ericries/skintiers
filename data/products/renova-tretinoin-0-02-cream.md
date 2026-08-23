@@ -3,6 +3,10 @@ analyzed: '2026-08-08'
 assurance: sonnet
 brand: Bausch Health
 category: Retinoids
+images:
+- file: renova-tretinoin-0-02-cream-dailymed.jpg
+  source: DailyMed (FDA label)
+  source_url: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9f0a0e8d-1051-48a4-80c5-1bd260dd9c36
 evidence_levels:
   active: tretinoin
   active_note: tretinoin is the reference prescription retinoid, with replicated

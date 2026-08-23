@@ -3,6 +3,10 @@ analyzed: '2026-08-22'
 assurance: opus
 brand: Mederma
 category: Treatments
+images:
+- file: mederma-stretch-marks-therapy-mederma.png
+  source: Mederma
+  source_url: https://www.mederma.com/product/mederma-stretch-marks-therapy/
 comparator: other stretch-mark topicals graded on [[stretch-marks]], including the
   [[palmers-cocoa-butter-massage-lotion-stretch-marks|Palmer's cocoa butter lotion]]
 grades:

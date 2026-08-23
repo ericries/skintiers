@@ -3,6 +3,10 @@ analyzed: '2026-08-08'
 assurance: sonnet
 brand: Bausch Health
 category: Retinoids
+images:
+- file: retin-a-micro-tretinoin-gel-microsphere-dailymed.jpg
+  source: DailyMed (FDA label)
+  source_url: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=08ab7e0c-1437-455f-815c-98904d96a289
 evidence_levels:
   active: tretinoin
   active_note: a well-studied prescription retinoid, a legitimate first-line
