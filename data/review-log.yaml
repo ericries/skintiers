@@ -6067,3 +6067,23 @@ kang-1996-topical-tretinoin-improves-early-stretch-marks-rct:
   score: 9
   verdict: publish
   note: 'STUDY cron (stretch-marks cluster). CATCH: queue PMID 8624149 was WRONG (a Sjogren/lupus autoantibody paper, McCauliffe 1996); found the real Kang tretinoin-striae RCT at PMID 8624148 (same Arch Dermatol issue, 132(5):519-26). All stats verified VERBATIM against the fetched NCBI abstract: double-blind vehicle-controlled, n=22 (0.1% tretinoin n=10 vs vehicle n=12), 6 months; "eight (80%) of the 10 tretinoin-treated patients had definite or marked improvement compared with one (8%) of the 12 vehicle-treated patients (P = .002)"; targeted marks -14%/-8% length/width vs +10% (P<.001)/+24% (P=.008); "no significant differences in... dermal collagen and elastic fibers." Compact structured infra; general tretinoin story linked OUT to [[tretinoin]]/[[retinoids]]/[[stretch-marks]]. Limitation (tiny n, early active striae only, mechanism unexplained) captured. Opus critic unavailable (cap); verified in Opus main loop; assurance sonnet.'
+cerave-itch-relief-moisturizing-lotion:
+  last_reviewed: '2026-08-23'
+  score: 9
+  verdict: publish
+  note: 'PRODUCT (eczema cluster, aggressive batch). DailyMed verbatim: active ''Pramoxine hydrochloride 1%'', purpose ''External analgesic'', use ''temporary relief of itching associated with minor skin irritations''; ceramide+glycerin base. Symptomatic-itch framing (anesthetic, not a cure); eczema evidence linked out to atopic-dermatitis/colloidal-oatmeal/ceramides. Opus main-loop critic; assurance sonnet.'
+eucerin-eczema-relief-cream:
+  last_reviewed: '2026-08-23'
+  score: 9
+  verdict: publish
+  note: 'PRODUCT (eczema cluster). DailyMed verbatim: active ''Colloidal Oatmeal 1%'', use ''temporarily protects and helps relieve minor skin irritation and itching due to rashes, eczema''; ceramide-3 + licorice-root base. Colloidal-oatmeal evidence (tier mid) linked out; maintenance-care not flare-treatment framing. Opus main-loop critic; assurance sonnet.'
+aveeno-eczema-therapy-itch-relief-balm:
+  last_reviewed: '2026-08-23'
+  score: 9
+  verdict: publish
+  note: 'PRODUCT (eczema cluster). DailyMed verbatim: active ''Colloidal Oatmeal 1%'', use ''temporarily protects and helps relieve minor skin irritation and itching due to rashes, eczema''; rich oat-oil overnight balm base. Same active as siblings; vehicle-choice framing; evidence linked out. Opus main-loop critic; assurance sonnet.'
+aveeno-skin-relief-moisturizing-lotion:
+  last_reviewed: '2026-08-23'
+  score: 9
+  verdict: publish
+  note: 'PRODUCT (eczema cluster). IDENTITY CATCH: queue said ''colloidal oatmeal'' but DailyMed active is ''Dimethicone 1.2%'' (skin protectant); labeled use is chapped/chapped-skin protection, NOT eczema treatment. Verbatim active/use/inactives; framed as a barrier-protecting daily moisturizer, oat is in the base not the Drug Facts active. Opus main-loop critic; assurance sonnet.'

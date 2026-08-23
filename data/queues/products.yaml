@@ -1518,7 +1518,7 @@
 - name: Aveeno Skin Relief Moisturizing Lotion (colloidal oatmeal, fragrance-free)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: A richer Aveeno oat lotion for very dry/itchy skin (Skin Relief line); some
     Aveeno SKUs DO carry a Drug Facts dimethicone skin-protectant panel - verify whether
@@ -1534,7 +1534,7 @@
 - name: Aveeno Eczema Therapy Itch Relief Balm (colloidal oatmeal 1%)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: aveeno-eczema-therapy-daily-moisturizing-cream
   source: The intensive balm in Aveeno's Eczema Therapy line, colloidal oatmeal 1%
     Drug Facts skin-protectant active; extends the [[colloidal-oatmeal]] + [[atopic-dermatitis]]
@@ -1542,7 +1542,7 @@
 - name: Eucerin Eczema Relief Cream (colloidal oatmeal 1%)
   type: product
   priority: 4
-  status: pending
+  status: done
   discovered_from: null
   source: OTC eczema cream with colloidal oatmeal 1% as a declared Drug Facts skin-protectant
     active (like the Aveeno Eczema Therapy cream); a disclosed-active competitor for
@@ -1551,7 +1551,7 @@
 - name: CeraVe Itch Relief Moisturizing Lotion (pramoxine 1%)
   type: product
   priority: 4
-  status: pending
+  status: done
   discovered_from: null
   source: OTC anti-itch lotion with pramoxine hydrochloride 1% as a Drug Facts external
     analgesic active + ceramides; a distinct itch-relief mechanism for atopic-dermatitis/eczema
