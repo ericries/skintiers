@@ -1910,7 +1910,7 @@
 - name: Neutrogena T/Gel Therapeutic Shampoo (coal tar)
   type: product
   priority: 7
-  status: pending
+  status: done
   discovered_from: coal-tar
   source: The iconic coal tar antidandruff/seb-derm shampoo; FDA OTC drug (coal tar),
     DailyMed/retailer sourceable; would join the antidandruff tier list + coal-tar
@@ -1988,3 +1988,24 @@
   discovered_from: head-shoulders-clinical-strength-dandruff-defense-selenium-sulfide
   source: Sibling SLS-free/sensitive variant, DailyMed setid eedc5e57-8047-eab7; different
     base, same active
+- name: Neutrogena T/Gel Extra Strength Therapeutic Shampoo (coal tar 1%)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: neutrogena-tgel-therapeutic-shampoo-coal-tar
+  source: Higher-strength (coal tar 1%) sibling; Walgreens Extra Strength T-Gel equivalent
+    on DailyMed setid 7f681386; ties to coal-tar cluster
+- name: DHS Tar Gel (coal tar) Shampoo
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: neutrogena-tgel-therapeutic-shampoo-coal-tar
+  source: Person & Covey coal tar shampoo on DailyMed (setid e17bd664); another antidandruff/coal-tar
+    option for the tier list
+- name: MG217 Medicated Tar Shampoo (coal tar)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: neutrogena-tgel-therapeutic-shampoo-coal-tar
+  source: Common OTC coal tar shampoo/psoriasis line; DailyMed-labeled; complements
+    MG217 coal tar ointment already queued
