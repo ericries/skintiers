@@ -3,6 +3,10 @@ analyzed: '2026-08-23'
 assurance: opus
 brand: Head & Shoulders
 category: Treatments
+images:
+- file: head-shoulders-clinical-strength-dandruff-defense-selenium-sulfide-dailymed.jpg
+  source: DailyMed (FDA label)
+  source_url: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b6ad7707-9d02-31a6-e053-2a95a90ae7ad
 grades:
 - effect: notable
   evidence: established

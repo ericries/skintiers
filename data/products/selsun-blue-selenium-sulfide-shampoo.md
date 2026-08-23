@@ -2,6 +2,10 @@
 analyzed: '2026-08-21'
 brand: Selsun Blue
 category: Treatments
+images:
+- file: selsun-blue-selenium-sulfide-shampoo-dailymed.jpg
+  source: DailyMed (FDA label)
+  source_url: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f97e458c-cce3-498f-81fc-1b96a4e8f50a
 grades:
 - effect: notable
   evidence: solid
