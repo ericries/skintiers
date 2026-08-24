@@ -7,6 +7,10 @@ comparator: other physiologic-lipid barrier creams, such as [[dr-jart-ceramidin-
   Jart+ Ceramidin Cream]] and [[illiyoon-ceramide-ato-concentrate-cream|Illiyoon Ceramide
   Ato Concentrate Cream]], and plainer humectant/occlusive moisturizers such as [[cerave-moisturizing-cream|CeraVe
   Moisturizing Cream]]
+images:
+- file: skinfix-barrier-triple-lipid-peptide-cream-brand.png
+  source: Skinfix
+  source_url: https://skinfix.com/products/lipid-peptide-cream
 grades:
 - effect: modest
   evidence: preliminary

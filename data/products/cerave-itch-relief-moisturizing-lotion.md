@@ -3,6 +3,10 @@ analyzed: '2026-08-23'
 assurance: opus
 brand: CeraVe
 category: Moisturizers
+images:
+- file: cerave-itch-relief-moisturizing-lotion-dailymed.jpg
+  source: DailyMed (FDA structured product label)
+  source_url: https://dailymed.nlm.nih.gov/dailymed/image.cfm?name=CVItchReliefLotionFront.jpg&setid=13ce57d0-b1c5-4685-ad7d-a562d9d8fc86&type=img
 grades:
 - effect: modest
   evidence: established

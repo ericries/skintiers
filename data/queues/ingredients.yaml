@@ -710,7 +710,7 @@
 - name: Capryloyl salicylic acid (LHA)
   type: ingredient
   priority: 4
-  status: pending
+  status: done
   discovered_from: la-roche-posay-effaclar-duo
   source: A lipophilic derivative of salicylic acid (LHA) used as a surface exfoliant
     across several on-site products (La Roche-Posay Effaclar Duo/Mat, CeraVe SA).
@@ -719,7 +719,7 @@
 - name: Hydroxyethyl urea
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: gold-bond-rough-and-bumpy-daily-skin-therapy
   source: A urea-derived humectant (distinct from urea itself, so it does not inherit
     urea's keratolytic evidence) appearing in on-site formulas (Gold Bond Rough &
@@ -737,7 +737,7 @@
 - name: Ectoin
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: A bacterial-derived protective osmolyte/extremolyte used as a humectant
     and barrier/anti-irritant agent; already appears in on-site formulas (e.g. Dr.G
@@ -747,7 +747,7 @@
 - name: Matrixyl (palmitoyl pentapeptide-4)
   type: ingredient
   priority: 4
-  status: pending
+  status: done
   discovered_from: best-peptide-serums
   source: The best-known signal/matrix peptide (palmitoyl pentapeptide-4, and Matrixyl
     3000 with palmitoyl tripeptide-1/tetrapeptide-7); appears in many on-site peptide
@@ -757,7 +757,7 @@
 - name: Polyglutamic acid
   type: ingredient
   priority: 4
-  status: pending
+  status: done
   discovered_from: null
   source: A high-molecular-weight humectant peptide (increasingly common, marketed
     as holding more water than hyaluronic acid) now in reformulated serums incl. Vichy

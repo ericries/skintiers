@@ -16,6 +16,10 @@ evidence_levels:
 comparator: other over-the-counter retinol products, such as [[skinmedica-retinol-complex-1-0|SkinMedica
   Retinol Complex 1.0]] (which does not disclose its own retinol percentage) and cheaper
   drugstore retinols
+images:
+- file: skinceuticals-retinol-0-5-refining-night-cream-target.jpg
+  source: Target
+  source_url: https://www.target.com/p/skinceuticals-retinol-0-5-refining-night-cream-1-oz/-/A-1002998046
 grades:
 - effect: modest
   evidence: preliminary

@@ -6,6 +6,28 @@ slug: microplastics-in-cosmetics
 status: published
 type: ingredient
 updated: '2026-08-16'
+videos:
+- title: Actually, most cosmetics formulas DO NOT have microplastics.
+  creator: Jen Novakovich (The Eco Well)
+  creator_slug: jen-novakovich
+  credential: Cosmetic scientist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=pIcIXVFA4Xs
+  posted: '2026-01-12'
+  related: []
+  thesis: Jen Novakovich, a cosmetic scientist at The Eco Well, explains that a widely cited claim that 87% of cosmetic formulas contain microplastics is based on a report that used an overly broad, self-defined version of "microplastic" that wrongly includes water-soluble and liquid ingredients like polyquaternium-7 and PEG compounds. She notes true microplastics must be small, synthetic, solid, and not water soluble, and that ingredient lists alone cannot tell you the physical form of an ingredient. She adds that cosmetics are a minor contributor to environmental microplastic pollution compared to clothing and larger plastics breaking down, with historical estimates near 0.1% of marine microplastic from cosmetics.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: so... we don't have a spoonful of microplastics in our brains? No.
+  creator: Jen Novakovich (The Eco Well)
+  creator_slug: jen-novakovich
+  credential: Cosmetic scientist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=lNaRury5Ppo
+  posted: '2026-01-19'
+  related: []
+  thesis: Jen Novakovich, a cosmetic scientist at The Eco Well, reviews the uncertain science behind viral claims of microplastics accumulating in the human body, noting that many of the underlying studies had major methodological issues, including sample contamination from lab gloves and background microplastic in lab air leading to false positives. She cites conclusions from the WHO and the EU's EFSA that current evidence does not conclusively show microplastics are causing harm, though it does not rule it out either. She frames the episode as more about broken science journalism and how easily sensationalized findings spread while careful corrections struggle to get attention.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Microplastics in cosmetics covers two claims that are usually run together: a narrow one about solid plastic scrub particles, which lawmakers in the United States, England, and the European Union have banned or restricted under written definitions, and a much broader one that counts hundreds of everyday cosmetic polymers, including soluble thickeners and liquid polymers, as microplastic ingredients.[^us][^uk][^eu][^btmb]

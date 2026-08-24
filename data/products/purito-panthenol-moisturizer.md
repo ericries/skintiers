@@ -4,6 +4,10 @@ assurance: sonnet
 brand: Purito
 category: Moisturizers
 comparator: other panthenol- or centella-based soothing moisturizers
+images:
+- file: purito-panthenol-moisturizer-yesstyle.jpg
+  source: YesStyle
+  source_url: https://www.yesstyle.com/en/purito-seoul-mighty-bamboo-panthenol-cream-100ml/info.html/pid.1129733663
 grades:
 - effect: modest
   evidence: solid

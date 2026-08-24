@@ -28,6 +28,16 @@ videos:
   related: [tretinoin, retinoids, differin-adapalene-0-1-gel, acne]
   thesis: Cosmetic chemist Michelle Wong (Lab Muffin), who holds a PhD, compares the prescription retinoid tretinoin with adapalene, sold over the counter as Differin, across acne, wrinkles, and pigmentation. She explains that tretinoin has by far the most clinical evidence and works for all the standard retinoid goals, while adapalene is more photostable and often less irritating and is approved for acne. She cautions that head-to-head studies in which tretinoin appears to lose to a newer retinoid are often industry-funded, so they should be read with that bias in mind.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Can Adapalene Cause Facial Fat Loss? Dermatologist Q&A
+  creator: Andrea Suarez (Dr Dray)
+  creator_slug: andrea-suarez-dr-dray
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=DprHVOUpvaM
+  posted: '2026-08-23'
+  related: [retinoids, retinol]
+  thesis: In this skincare Q&A, board-certified dermatologist Andrea Suarez (Dr Dray) answers a viewer question about whether adapalene, a topical retinoid, can cause facial fat loss. She explains that adapalene, like retinol and tretinoin, does not cause facial fat loss, and that people often mistake normal age-related volume loss for a skincare side effect simply because the two coincide in timing. She notes that lost facial volume can only be restored with filler placed where it is wanted, not by any topical.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

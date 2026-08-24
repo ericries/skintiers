@@ -23,6 +23,18 @@ type: product
 updated: '2026-07-27'
 key_actives:
 - azelaic-acid
+videos:
+- title: Anua Azelaic Acid REFORMULATED? Controversy Explained | Derm Q&A
+  creator: Andrea Suarez (Dr Dray)
+  creator_slug: andrea-suarez-dr-dray
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=1b7nGYAIktw
+  posted: '2026-08-22'
+  related: [azelaic-acid]
+  thesis: Board-certified dermatologist Andrea Suarez (Dr Dray) addresses viewer questions about a TikTok-driven controversy claiming a pH and free-acid-value change to the Anua Azelaic Acid 10 Serum made the reformulated version ineffective. She explains that azelaic acid works mainly at the surface of the skin as an antimicrobial and anti-inflammatory, so the free-acid-value argument used against the product does not hold the same way it would for a pH-dependent exfoliant like glycolic acid. She says she has continued using the serum, including newer bottles, has not personally noticed a difference, and still recommends it.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Anua Azelaic Acid 10 Hyaluron Redness Soothing Serum is a lightweight, green-tinted Korean serum (30ml) that lists azelaic acid as its second ingredient at a labeled 10%, in a base of centella (cica), panthenol, niacinamide, hyaluronic acid, and ceramide NP.[^1][^2]

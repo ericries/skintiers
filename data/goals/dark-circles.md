@@ -37,6 +37,48 @@ tier_list:
   title: Topical actives for under-eye dark circles by evidence
 type: goal
 updated: '2026-08-23'
+videos:
+- title: The Truth About Dark Circles | Why They Happen And How to Tackle Them | Dr Sam Bunting
+  creator: Dr. Sam Bunting
+  creator_slug: sam-bunting
+  credential: Board-certified dermatologist (UK)
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=CDh6TcpknLw
+  posted: '2025-01-17'
+  related: [niacinamide, retinoids, sunscreen-uv-filters, bakuchiol]
+  thesis: Dr Sam Bunting, a UK board-certified dermatologist, explains that dark circles come from either a melanin problem or a blood-vessel problem, and shows how the pinch test tells the two apart. For pigment-related dark circles she points to niacinamide, tyrosinase inhibitors, retinoids or bakuchiol as a gentler alternative, and daily mineral sunscreen, while for blood-vessel-related dark circles she highlights that thinning skin with age makes vessels more visible and discusses ingredients aimed at strengthening capillaries and reducing puffiness.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Tips and Tricks for Dark Under Eye Circles from a Derm
+  creator: Dr. Adeline Kikam (Brown Skin Derm)
+  creator_slug: adeline-kikam
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=NgRFpmIwA5o
+  posted: '2023-02-04'
+  related: []
+  thesis: Dr. Adeline Kikam, a board-certified dermatologist (Brown Skin Derm), explains that dark under eye circles are not a medical condition but a symptom cluster with multiple causes, including genetics, age related volume loss (from shrinkage of the sub orbicularis oculi fat pad), eye strain, poor sleep, and dehydration. She notes that genetic dark circles are the hardest to treat, while circles from aging involve thinning skin that makes underlying blood vessels more visible. The video frames these mechanisms to help viewers understand why their own dark circles may be occurring before pursuing treatment.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: 'Dark Circles Explained: Causes, Types, and What Actually Works'
+  creator: Dr. Caroline Robinson
+  creator_slug: caroline-robinson
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=nLdJtZ_7l6U
+  posted: '2026-04-06'
+  related: [azelaic-acid, niacinamide]
+  thesis: Board-certified dermatologist Dr. Caroline Robinson explains that dark circles have six possible causes (genetics, post-inflammatory hyperpigmentation, edema, increased vascularity, skin thinning, and aging) and breaks them into pigmented, vascular, structural, and mixed types. She describes a simple at-home skin-pinch test to identify your type and matches treatment approach accordingly, from eye creams with azelaic acid, niacinamide, or caffeine to in-office options like microneedling, radiofrequency, lasers, and filler for structural cases.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Why Your Dark Circles Won't Go Away - A Dermatologist Explains | Dr. Jenny Liu
+  creator: Dr. Jenny Liu (Jenny Liu, MD, FAAD)
+  creator_slug: jenny-liu
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=LuKxRh5WiOA
+  posted: '2026-06-04'
+  related: []
+  thesis: 'Dr. Jenny Liu, MD, FAAD, a board-certified dermatologist, explains that under-eye dark circles are not one problem but stem from up to four distinct causes: pigmentation/melanin, vascular (visible blood vessels), structural shadowing from volume loss, and skin laxity. She emphasizes that effective treatment requires first identifying which type (or combination) a person has, since using the wrong product or procedure for the wrong cause is why many people see no improvement despite trying many remedies.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Under-eye dark circles are not one problem. A 2021 systematic review notes that "etiologies of the condition include pigmentary, structural, vascular, and mixed causes," and that the most effective treatments overall are procedures: "soft tissue fillers and autologous fat grafting are most effective" for the structural (hollowing) type, while lasers help vascular and pigment types.[^review] That matters because it decides whether skincare can help at all.

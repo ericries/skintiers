@@ -3,6 +3,10 @@ analyzed: '2026-08-08'
 assurance: sonnet
 brand: SkinMedica
 category: Moisturizers
+images:
+- file: skinmedica-ha5-rejuvenating-hydrator-dermstore.jpg
+  source: Dermstore
+  source_url: https://www.dermstore.com/p/skinmedica-ha5-rejuvenating-hydrator/11290631/
 comparator: other hyaluronic-acid serums and moisturizers
 grades:
 - effect: modest

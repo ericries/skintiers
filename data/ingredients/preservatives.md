@@ -6,6 +6,18 @@ slug: preservatives
 status: published
 type: ingredient
 updated: '2026-08-16'
+videos:
+- title: Formaldehyde donor preservatives in cosmetics are actually fine?
+  creator: Jen Novakovich (The Eco Well)
+  creator_slug: jen-novakovich
+  credential: Cosmetic scientist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=HhXcbamdMHI
+  posted: '2026-05-31'
+  related: []
+  thesis: Jen Novakovich, a cosmetic scientist at The Eco Well, explains that formaldehyde-donor preservatives like DMDM hydantoin used in rinse-off products such as shampoo are not the same as adding pure formaldehyde, and that dose and exposure determine risk. She notes these preservatives release only small, slow, controlled amounts of formaldehyde comparable to what naturally occurs in a pear or in exhaled breath, and that risk assessments on DMDM hydantoin at the US regulatory limit of 1% found a wide margin of safety. She argues that under-preserving a product carries its own real public health risk from microbial contamination, and that conflating these preservatives with formaldehyde itself has fueled misinformed lawsuits and state-level bans.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Cosmetic preservatives are the antimicrobial ingredients added to water-containing products to stop bacteria, mold, and yeast from growing in the bottle; the main classes on regulatory approved lists are parabens, phenoxyethanol, formaldehyde-releasers, isothiazolinones, and organic acids such as benzoic and sorbic acid.[^halla][^fda]

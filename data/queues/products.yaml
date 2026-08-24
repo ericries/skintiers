@@ -1086,7 +1086,7 @@
 - name: SVR Melan 130 Tinted Sunscreen
   type: product
   priority: 2
-  status: pending
+  status: done
   discovered_from: davin-lim
   source: 'DEFER 2026-08-20: identity unverifiable. Davin-Lim-transcript provenance
     is real (a tinted mineral SPF w/ iron oxides for melasma) but SVRs actual pigmentation
@@ -1265,7 +1265,7 @@
 - name: Cyspera Boost Intensive System
   type: product
   priority: 2
-  status: pending
+  status: done
   discovered_from: cysteamine
   source: 'DEFER 2026-08-20: a bundle/kit ("System") that does not fit the single-product
     grading model well, and the evidence-interesting cysteamine active is already
@@ -1318,7 +1318,7 @@
 - name: Paula's Choice Weightless Body Treatment 2% BHA
   type: product
   priority: 4
-  status: pending
+  status: done
   discovered_from: keratosis-pilaris
   source: A 2% salicylic acid body exfoliant widely recommended for KP/body acne;
     a disclosed-concentration comparator to the Gold Bond/CeraVe SA body lotions.
@@ -1326,7 +1326,7 @@
 - name: CeraVe Acne Control Gel (2% salicylic acid)
   type: product
   priority: 4
-  status: pending
+  status: done
   discovered_from: cerave-sa-body-lotion-for-rough-and-bumpy-skin
   source: A 2% salicylic acid + AHA acne treatment gel with a disclosed OTC concentration;
     a Drug-Facts comparator to the no-%-disclosed cosmetic exfoliants, and extends
@@ -1350,7 +1350,7 @@
 - name: Bioderma Sensibio H2O Micellar Water
   type: product
   priority: 4
-  status: pending
+  status: done
   discovered_from: null
   source: A very widely used no-rinse micellar cleansing water for sensitive skin;
     a gentle-cleanser catalog gap, relevant to sensitive-skin routines and [[skin-barrier-repair]].
@@ -1397,7 +1397,7 @@
 - name: Vichy Mineral 89 (resolve two-formula identity first)
   type: product
   priority: 2
-  status: pending
+  status: done
   discovered_from: null
   source: 'BLOCKED 2026-08-12: two formulas share the name. Vichy''s own US page now
     sells a REFORMULATED ''Hydrating & Plumping Daily Booster'' (HA + polyglutamic
@@ -2050,3 +2050,11 @@
   discovered_from: eltamd-uv-aox-elements-tinted-mineral-spf-50
   source: EltaMD chemical/mineral hybrid daily tinted moisturizer-SPF; DailyMed-labeled;
     common EltaMD pick
+- name: Mesoestetic Mesoprotech Melan 130 Pigment Control (tinted SPF50+)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: dark-circles
+  source: Agent found 'Melan 130' is mesoestetic's tinted pigment-control sunscreen
+    (mesoestetic.com), NOT an SVR product; corrected re-queue of the garbled SVR Melan
+    130 entry

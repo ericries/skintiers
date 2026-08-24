@@ -6,6 +6,10 @@ category: Niacinamide serums
 comparator: other tranexamic acid / kojic acid / niacinamide discoloration serums
   (e.g. Good Molecules Discoloration Correcting Serum, Murad Rapid Dark Spot Correcting
   Serum)
+images:
+- file: skinceuticals-discoloration-defense-dermstore.jpg
+  source: Dermstore product listing
+  source_url: https://www.dermstore.com/p/skinceuticals-discoloration-defense-dark-spot-serum-30ml/11679046/
 grades:
 - effect: modest
   evidence: preliminary

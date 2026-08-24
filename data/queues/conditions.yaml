@@ -94,7 +94,7 @@
 - name: Contact dermatitis (allergic and irritant)
   type: condition
   priority: 5
-  status: pending
+  status: done
   discovered_from: atopic-dermatitis
   source: Common eczematous condition distinct from atopic dermatitis (external trigger);
     real treatment framework (avoidance + topical corticosteroids + emollients); refills

@@ -3,6 +3,10 @@ analyzed: '2026-08-07'
 assurance: sonnet
 brand: SKIN1004
 category: Sunscreens
+images:
+- file: skin1004-madagascar-centella-air-fit-suncream-skin1004.jpg
+  source: SKIN1004 (Wayback Machine archive)
+  source_url: http://web.archive.org/web/20250209044513/https://skin1004.com/products/skin1004-madagascar-centella-air-fit-suncream-plus
 comparator: other Korean mineral (tone-up) sunscreens and US chemical-filter facial
   sunscreens such as Supergoop Unseen Sunscreen
 grades:

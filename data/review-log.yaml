@@ -6128,3 +6128,48 @@ eltamd-uv-aox-elements-tinted-mineral-spf-50:
   score: 9
   verdict: publish
   note: 'PRODUCT cron (sunscreen). IDENTITY TRAP RESOLVED: queued "UV Elements SPF 44" is discontinued/reformulated into "UV AOX Elements SPF 50" (confirmed: not in DailyMed under SPF44; brand now sells only the AOX SPF50; a Reddit PSA flagged the reformulation). Reviewed the current product under its correct name. DUAL PRIMARY+CACHED sourcing: DailyMed SPL (primary, setid 2c74209d) actives verified VERBATIM "Titanium Dioxide 4.4%" + "Zinc Oxide 13.5%", purpose Sunscreen; brand page (CACHED) verified verbatim for price $46/1.7oz, antioxidants, iron-oxide tint, and the anti-aging claims (dullness -22%, tone +14%, texture +44%/96%) footnoted to "12 week study on 31 subjects" = brand panel, quarantined as marketing. Grades: health notable/established (sun protection, the strong core; general evidence linked OUT to sunscreen-uv-filters/zinc-oxide) + cosmetic modest/preliminary. Iron-oxide/visible-light angle linked to melasma. Opus main-loop critic; assurance sonnet.'
+bioderma-sensibio-h2o-micellar-water:
+  last_reviewed: '2026-08-23'
+  score: 9
+  verdict: publish
+  note: 'PARALLEL WORKFLOW fill: Sonnet draft + parallel Opus critic verdict publish (score 9). Critic re-verified composition/claims against source. Micellar water; gentle cleanser framing.'
+hydroxyethyl-urea:
+  last_reviewed: '2026-08-23'
+  score: 9
+  verdict: publish
+  note: 'PARALLEL WORKFLOW fill: Sonnet draft + parallel Opus critic verdict publish (score 9). Humectant ingredient; tier verified against rubric.'
+ectoin:
+  last_reviewed: '2026-08-23'
+  score: 9
+  verdict: publish
+  note: 'PARALLEL WORKFLOW fill: Sonnet draft + parallel Opus critic verdict publish (score 9). Ingredient; evidence verified.'
+paulas-choice-weightless-body-treatment-2-bha:
+  last_reviewed: '2026-08-23'
+  score: 7
+  verdict: publish
+  note: 'PARALLEL WORKFLOW fill: Sonnet draft + parallel Opus critic verdict REVISE (score 7). Critic-flagged defect FIXED in Opus main loop: dropped mis-attributed KP trial figures (52%/66%) + [^pc] marker; linked those out to keratosis-pilaris. Re-gated clean; published.'
+cerave-acne-control-gel:
+  last_reviewed: '2026-08-23'
+  score: 8
+  verdict: publish
+  note: 'PARALLEL WORKFLOW fill: Sonnet draft + parallel Opus critic verdict REVISE (score 8). Critic-flagged defect FIXED in Opus main loop: added a quarantined ## Common Marketing Claims section for the 3 brand quotes. Re-gated clean; published.'
+vichy-mineral-89-hydrating-plumping-daily-booster:
+  last_reviewed: '2026-08-23'
+  score: 8
+  verdict: publish
+  note: 'PARALLEL WORKFLOW fill: Sonnet draft + parallel Opus critic verdict REVISE (score 8). Critic-flagged defect FIXED in Opus main loop: reworded the INCI claim (page has a ''Full ingredient list'' link, so INCI is one click away, not absent). Re-gated clean; published.'
+capryloyl-salicylic-acid-lha:
+  last_reviewed: '2026-08-23'
+  score: 7
+  verdict: publish
+  note: 'PARALLEL WORKFLOW fill: Sonnet draft + parallel Opus critic verdict REVISE (score 7). Critic-flagged defect FIXED in Opus main loop: narrowed the ''only ever tested in combination'' claim to the 66-patient trial + acknowledged Zeichner''s thinly-reported LHA-monotherapy-vs-BPO study. Re-gated clean; published.'
+polyglutamic-acid:
+  last_reviewed: '2026-08-23'
+  score: 7
+  verdict: publish
+  note: 'PARALLEL WORKFLOW fill: Sonnet draft + parallel Opus critic verdict REVISE (score 7). Critic-flagged defect FIXED in Opus main loop: corrected the HaCaT cytotoxicity result attribution from ''commercial'' to ''algae-derived'' gamma-PGA per the source. Re-gated clean; published.'
+contact-dermatitis:
+  last_reviewed: '2026-08-23'
+  score: 7
+  verdict: publish
+  note: 'PARALLEL WORKFLOW fill: Sonnet draft + parallel Opus critic verdict REVISE (score 7). Critic-flagged defect FIXED in Opus main loop: reworded 2 over-attributions to DermNet (dropped ''steroid-sparing/on the face'' language DermNet does not use). Re-gated clean; published.'

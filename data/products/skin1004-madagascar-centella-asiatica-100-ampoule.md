@@ -3,6 +3,10 @@ analyzed: '2026-08-07'
 assurance: sonnet
 brand: SKIN1004
 category: Treatments
+images:
+- file: skin1004-madagascar-centella-asiatica-100-ampoule-brand.jpg
+  source: SKIN1004
+  source_url: https://www.skin1004.com/products/skin1004-madagascar-centella-ampoule
 comparator: other centella ("cica") ampoules and simple hydrating serums
 grades:
 - effect: minimal

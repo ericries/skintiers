@@ -27,6 +27,10 @@ grades:
     natural finish; the brand''s own listing claims only a natural finish and moisture
     retention, both unproven marketing language'
   use: Light, buildable tinted coverage (cosmetic)
+images:
+- file: purito-cica-clearing-bb-cream-tsc.png
+  source: The Skin Counter
+  source_url: https://theskincounter.com/products/purito-cica-clearing-bb-cream
 key_actives:
 - centella-asiatica
 - niacinamide

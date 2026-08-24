@@ -57,6 +57,16 @@ videos:
   related: [hyperpigmentation]
   thesis: "Dr. Chris Tomassian, a board-certified dermatologist, warns that people with melasma, a type of hyperpigmentation, should avoid excessive heat exposure such as saunas and steam rooms. He explains that heat worsens melasma and makes it much harder to treat, so heat avoidance should be paired with the usual sun protection measures."
   note: "Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship."
+- title: 'This popular OTC supplement could improve MELASMA? #melasma #melatonin #pregnancy'
+  creator: Dr. Scott Walter
+  creator_slug: scott-walter
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=5dnO5JKbm5w
+  posted: '2024-07-17'
+  related: []
+  thesis: Melasma is a common pigmentary disorder causing symmetric light to dark patches on the face, usually starting in the 30s and 40s, and worsened by sun exposure and high estrogen states. Dermatologist Dr. Scott Walter (board-certified dermatologist) highlights a small study out of India in which seven melasma patients took 3 mg of oral melatonin daily plus daily sunscreen for 12 weeks, with every patient showing improvement in their melasma score. He notes melatonin may act as an antioxidant and help regulate hormone imbalances tied to melasma, but frames this as an early, small finding pending larger studies rather than an established treatment.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

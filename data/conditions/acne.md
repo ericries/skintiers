@@ -283,6 +283,16 @@ videos:
   related: [azelaic-acid, retinoids]
   thesis: Board-certified dermatologist Dr. Sam Bunting argues that the most common acne mistake is spot-treating individual blemishes reactively instead of treating whole acne-prone zones preventatively. She explains that adult acne, especially in women, tends to recur in the same areas, the jawline and U-zone, the T-zone, the chest, and the back, because hormonal shifts activate many oil glands together across a region rather than one at a time. Her recommended approach is to apply preventative actives over the entire zone, azelaic acid in the morning and a retinoid at night, to reduce breakouts before they start rather than waiting for a spot to appear.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: 'Spongilla Lacustris: How this freshwater sponge may change how we treat ACNE! #acne #research'
+  creator: Dr. Scott Walter
+  creator_slug: scott-walter
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=rVf-EA20svI
+  posted: '2024-06-18'
+  related: []
+  thesis: Dermatologist Dr. Scott Walter (board-certified dermatologist) discusses a phase 2b study of Spongilla lacustris, a silica-based freshwater sponge with anti-inflammatory and antibacterial properties, applied once weekly as a mask for moderate to severe acne. At 12 weeks the once-weekly treatment produced statistically significant improvements in inflammatory and non-inflammatory acne, with 44% of patients achieving a two-point IGA score improvement and no serious adverse events reported. He frames it as a promising early finding on treatment compliance that needs more studies before becoming a standard acne option.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

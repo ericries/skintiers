@@ -2,6 +2,10 @@
 analyzed: '2026-08-08'
 assurance: sonnet
 category: Vitamin C serums
+images:
+- file: skinceuticals-phloretin-cf-target.jpg
+  source: Target
+  source_url: https://www.target.com/p/skinceuticals-phloretin-cf-antioxidant-serum-for-brightening-firmness-environmental-protection-1-oz/-/A-1009496445
 comparator: other vitamin C serums, particularly its sibling SkinCeuticals C E Ferulic
 grades:
 - effect: modest

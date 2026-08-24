@@ -98,6 +98,26 @@ videos:
   related: [hyperpigmentation, anua-azelaic-acid-serum, kojic-acid]
   thesis: "Cosmetic chemists Chemist Confessions (Victoria Fu and Gloria Lu) tested three Korean-beauty azelaic acid serums against each other: Anua's Azelaic Acid 10 Hyaluron Redness Soothing Serum, Purito's Azelaic Acid 10 with Kojic Acid and Tea Tree serum, and Medicube's Azelaic Acid Exosome Shot Serum. They found Purito's marketing misleading, since its 10 percent tea tree claim turned out to refer to tea tree leaf water rather than the clinically studied tea tree essential oil, and they questioned Medicube's very low 0.01 percent azelaic acid concentration despite its intense, prickly application experience. They favored Anua for its non-stinging texture and for being the only one of the three with its own consumer testing, while cautioning that at these over-the-counter 10 percent concentrations, none of the products should be relied on as a primary fix for hyperpigmentation."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: dermatologist talks about azelaic acid
+  creator: Dr Aamna Adel
+  creator_slug: aamna-adel
+  credential: Consultant dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=wXiQo7rINoU
+  posted: '2026-08-13'
+  related: [acne, hyperpigmentation, rosacea]
+  thesis: Dr Aamna Adel, a consultant dermatologist, explains that azelaic acid is one of her favorite ingredients for acne, hyperpigmentation, and rosacea. She notes mild tingling can happen when starting out, especially at higher strengths like 15%, but serious burning suggests another active (retinoids or exfoliating acids) may be the real culprit rather than the azelaic acid itself. She recommends starting with a small amount a few times a week on dry skin followed by moisturizer, or using a moisturizer as a buffer first for sensitive skin.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: How Strong Should Azelaic Acid Be
+  creator: Dr. Caroline Robinson
+  creator_slug: caroline-robinson
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=2TvlqY0bjf0
+  posted: '2026-02-23'
+  related: [rosacea, acne]
+  thesis: Board-certified dermatologist Dr. Caroline Robinson gives a quick rundown of azelaic acid concentrations, noting she typically prescribes 15% for rosacea and 20% for acne patients, while over-the-counter formulations are usually around 10% and can still help calm redness and hyperpigmentation. She gives azelaic acid an overall thumbs up as a treatment option.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

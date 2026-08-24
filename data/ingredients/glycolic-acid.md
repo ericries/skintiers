@@ -22,6 +22,16 @@ videos:
   related: [salicylic-acid, keratosis-pilaris]
   thesis: "Dr. Neera Nathan, a board certified dermatologist, explains when to reach for glycolic acid versus salicylic acid. She recommends glycolic acid for razor bumps, calloused heels, wrinkles, keratosis pilaris, and dark spots, and points to salicylic acid for sebaceous filaments, oily skin, and comedones."
   note: "Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship."
+- title: 'correct way to use glycolic acid #bodycare stitch with @chxrryglow'
+  creator: Dr. Neera Nathan
+  creator_slug: neera-nathan
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=-ks8YlDWhUY
+  posted: '2026-08-23'
+  related: []
+  thesis: Dr. Neera Nathan, a board-certified dermatologist, explains how to use glycolic acid safely on different body areas. She recommends 7% glycolic acid on armpits only one to two times per week to avoid irritation and darkening, two to three times per week on the body for ingrown hairs and breakouts, three to four times per week on chest, arms, or legs for crepey skin (alternating with a body retinol), and daily use is reserved for calluses on the soles followed by urea cream or Aquaphor.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 name: Glycolic acid
 slug: glycolic-acid
 tier: mid

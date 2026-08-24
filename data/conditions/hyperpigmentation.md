@@ -351,6 +351,37 @@ videos:
     not a quick fix.
   title: Stop Buying Dark Spot Removers Until You Watch This
   url: https://www.youtube.com/watch?v=M-tG_msV1KE
+- title: How do Dermatologists FIX Pigmentation? (PIH)
+  creator: Dr. Davin Lim
+  creator_slug: davin-lim
+  credential: Board-certified dermatologist (Australia)
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=gD1RbEPw03M
+  posted: '2024-07-18'
+  related: [acne]
+  thesis: Dr Davin Lim, a board-certified dermatologist (Australia), explains how to treat post-inflammatory hyperpigmentation (PIH), the flat dark marks that remain after acne clears. He stresses first getting active acne into full remission, then daily tinted sunscreen, and at-home actives like azelaic acid (10-20%), niacinamide (10-20%), and vitamin C (ascorbic acid, 10-20%) to fade existing marks. He also outlines in-clinic options dermatologists use, including Pico lasers, Q-switch lasers, and chemical peels (salicylic, glycolic, lactic, and retinoic acid), with typical courses of three to six sessions spaced two to four weeks apart.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: 'Hydroquinone Alternative: THIAMIDOL Fades Hyperpigmentation & Melasma'
+  creator: Dr. Alexis Stephens
+  creator_slug: alexis-stephens
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=Sn_Y59aGjcw
+  posted: '2023-11-05'
+  related: [melasma]
+  thesis: Board-certified dermatologist Dr. Alexis Stephens explains thiamidol (also listed as isobutylamido thiazolyl resorcinol), an over-the-counter tyrosinase inhibitor increasingly discussed as an alternative to prescription hydroquinone for fading post-inflammatory dark marks, hyperpigmentation, and melasma. She notes it works by blocking the tyrosinase enzyme that produces melanin, cites clinical studies showing fading beginning around 2 weeks with most users seeing improvement by 3 months, and reports minimal stinging or irritation in the trials she references. She stresses that no single ingredient is a cure-all for hyperpigmentation and that consistent daily sun protection remains essential alongside it.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Dark Spots Won't Fade? Here's What You're Missing (Derm Explains) | Dr. Jenny Liu
+  creator: Dr. Jenny Liu (Jenny Liu, MD, FAAD)
+  creator_slug: jenny-liu
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=tho0X8AB-To
+  posted: '2026-05-28'
+  related: []
+  thesis: Dr. Jenny Liu, MD, FAAD, a board-certified dermatologist, explains that hyperpigmentation and dark spots often fail to fade or keep returning because people treat the pigment itself without addressing the underlying inflammation that triggers melanocyte overactivity. She outlines a home skin care strategy for improving uneven tone, when to escalate treatment, and when the condition warrants seeing a dermatologist in person.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Hyperpigmentation is a darkening of the skin caused by excess melanin, and its common facial forms are melasma, post-inflammatory hyperpigmentation, and pigmentation driven by sun exposure.[^handel][^davis] The color change is usually the only symptom, the skin stays flat and is neither itchy nor sore, and the same person can have more than one form at once. Among the topical options with controlled evidence, photoprotection is the foundation with the strongest support, the depigmenting creams are real but modest, and without ongoing sun protection the pigment tends to come back.[^liu][^castanedo][^delrosario]

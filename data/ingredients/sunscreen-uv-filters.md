@@ -378,6 +378,46 @@ videos:
   related: []
   thesis: 'Board-certified dermatologist Dr. Sam Bunting runs through the ten sunscreen mistakes she sees most often and how to fix them. The first and most common is under-dosing: she notes the average person applies only about a quarter to a half of the amount needed to reach the SPF printed on the pack, so she emphasizes learning what the correct dose actually looks like for the face.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: What to look for in a sunscreen
+  creator: Dr. Adeline Kikam (Brown Skin Derm)
+  creator_slug: adeline-kikam
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=4YTSiRZh2dM
+  posted: '2026-06-04'
+  related: []
+  thesis: 'Dr. Adeline Kikam, a board-certified dermatologist (Brown Skin Derm), gives a brief tiered breakdown of sunscreen shopping criteria: a good sunscreen is broad-spectrum SPF 30 or above, a better one adds antioxidants, and the best also includes iron oxides and peptides. It is a short, self-contained checklist for evaluating sunscreen formulas by ingredient content rather than brand.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Best Sunscreens of 2026- Dermatologist Picks
+  creator: Dr. Daniel Sugai
+  creator_slug: daniel-sugai
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=wF_oFhBVGPA
+  posted: '2026-07-18'
+  related: [niacinamide, hyperpigmentation, acne, melasma]
+  thesis: Board-certified dermatologist Dr. Daniel Sugai reviews sunscreen picks for 2026, covering mineral and chemical UV filter options for acne-prone skin, hyperpigmentation, and sensitive skin, and reiterates the core guidance of broad-spectrum SPF 30 or higher with reapplication every 1 to 2 hours outdoors. He explains why UVA exposure occurs even indoors near windows or while driving and why daily sunscreen use matters regardless of visible sun exposure. He discloses he is exploring a potential advisory-board role with Bubble Skincare while mentioning one of their tinted sunscreen products.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Busting Myths About SPF
+  creator: Dr. Brooke Jeffy (Brooke Jeffy, MD)
+  creator_slug: brooke-jeffy
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=gK26oFnkqR0
+  posted: '2026-05-04'
+  related: []
+  thesis: 'Dermatologist Dr. Brooke Jeffy, MD debunks three common sunscreen myths: that mineral sunscreen is inherently safer than chemical sunscreen, that chemical filters absorb into the bloodstream and cause harm, and that chemical sunscreens destroy coral reefs. She notes both mineral and chemical sunscreens are FDA regulated, that there is no clinical evidence of bloodstream harm from chemical filters, and that reef-damage research is limited and inconclusive. Her takeaway is that skin type matters more than formula type, and the best sunscreen is the one a person will actually wear consistently.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: The Best Tinted Sunscreens of 2026
+  creator: Dr. Daniel Sugai
+  creator_slug: daniel-sugai
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=-BEwevuTJIM
+  posted: '2026-07-04'
+  related: [melasma, hyperpigmentation, niacinamide, acne]
+  thesis: Board-certified dermatologist Dr. Daniel Sugai explains why tinted sunscreens containing iron oxide matter for people with melasma, post-acne marks, or hyperpigmentation, since visible light (not just UVA and UVB) can worsen these conditions even with diligent use of a non-tinted sunscreen. He compares tint-matching and formulation differences across several drugstore and prestige tinted sunscreen brands and notes that all mineral formulas are gentler for pediatric and sensitive skin use. He mentions a Bubble Skincare tinted sunscreen as an affordable teen option, describing it as his daughter's favorite brand.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 name: Sunscreen (UV filters)
 slug: sunscreen-uv-filters
 status: published
