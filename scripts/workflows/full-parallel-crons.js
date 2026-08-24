@@ -25,8 +25,8 @@ const WORK_SCHEMA = {
 }
 const work = await agent(
   `You are the SCOUT for a parallel content run in ${REPO}. Gather the work-list. Run these and report results as structured data. DO NOT draft or change anything.
-1. Pending fill items (next queued, NOT status:done) for each type. Read each data/queues/<type>s.yaml and list up to these caps of pending (status != 'done') names: product 10, ingredient 8, study 3, condition 1, goal 1, brand 1, person 2, list 1. Return them as fills[] = {type, name}. SKIP a type if its queue is empty. IMPORTANT: skip any name that looks garbled, non-existent, or a likely duplicate of an existing page (a fill agent will double-check, but do not pad).
-2. Imageless products (up to 12): for f in data/products/*.md; do grep -q '^images:' "$f" || basename "$f" .md; done | head -12  -> images[] (slugs).
+1. Pending fill items (next queued, NOT status:done) for each type. Read each data/queues/<type>s.yaml and list up to these caps of pending (status != 'done') names: product 12, ingredient 10, study 3, condition 1, goal 1, brand 1, person 2, list 1. Return them as fills[] = {type, name}. SKIP a type if its queue is empty. IMPORTANT: skip any name that looks garbled, non-existent, or a likely duplicate of an existing page (a fill agent will double-check, but do not pad).
+2. Imageless products (up to 14): for f in data/products/*.md; do grep -q '^images:' "$f" || basename "$f" .md; done | head -14  -> images[] (slugs).
 3. Creators: return an EMPTY array [] for creators (video harvest was just run; skip it this wave).
 Return {fills, images, creators}.`,
   { schema: WORK_SCHEMA, label: 'scout', phase: 'Scout', model: 'sonnet', effort: 'low' }
