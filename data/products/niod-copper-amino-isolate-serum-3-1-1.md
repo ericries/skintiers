@@ -32,6 +32,7 @@ slug: niod-copper-amino-isolate-serum-3-1-1
 status: published
 type: product
 updated: '2026-08-15'
+
 ---
 
 NIOD Copper Amino Isolate Serum 3 1:1 (CAIS3) is a water-based leave-on serum built around a manufacturer-declared 1% GHK-Cu (copper tripeptide-1), paired with several other signal and carrier peptides in a glycerin and hyaluronic-acid base, sold by NIOD (a Deciem brand) in 15 mL and 30 mL sizes.[^1]

@@ -209,53 +209,20 @@ def cmd_add_review(args):
     return 0
 
 
-def cmd_add_video(args):
-    """Insert a `videos:` card into a page's frontmatter SAFELY.
+def _insert_video_block(path, block):
+    """Insert a serialized videos: card into one page's frontmatter.
 
-    The card is serialized with yaml (escaping library-handled, never
-    hand-built), and the command enforces every guardrail the video crons do
-    by hand: the attach page must exist, the video id must not already be
-    carded anywhere under data/ (dedup), `related` slugs that do not resolve
-    are dropped, em/en-dashes are rejected, and the resulting frontmatter is
-    re-parsed before write. Replaces the per-cron inline insert logic.
+    Returns "ok" on write, "dup" if the id is already carded on THIS page,
+    or an "ERROR: ..." string on a structural problem. Dedup is PER-PAGE (a
+    video may legitimately be embedded on several pages - a roundup lives on
+    the ingredient hub AND on each named product page - and the Feed builder
+    de-duplicates those into a single entry that lists every page it is on).
     """
     import re
     import yaml
-    path = sklib.find_profile(sklib.DATA_DIR, args.attach)
-    if path is None:
-        print(f"ERROR: no page found for slug '{args.attach}'")
-        return 1
-    vid = args.id
-    for md in sklib.DATA_DIR.glob("*/*.md"):
-        if vid in md.read_text():
-            print(f"dup: {vid} already carded in {md.name}; not added")
-            return 0
-    note = args.note or ("Verified from the video's transcript "
-                         "(yt-dlp, read in full); no sponsorship.")
-    for label, val in (("title", args.title), ("thesis", args.thesis), ("note", note)):
-        if val and ("—" in val or "–" in val):
-            print(f"ERROR: {label} contains an em/en-dash; rewrite with plain punctuation")
-            return 1
-    known = sklib.known_slugs(sklib.DATA_DIR)
-    want = [s.strip() for s in (args.related or "").split(",") if s.strip()]
-    related = [s for s in want if s in known and s != args.attach]
-    dropped = [s for s in want if s not in related]
-    url = args.url or (f"https://www.youtube.com/watch?v={vid}"
-                       if args.platform == "YouTube" else None)
-    if not url:
-        print("ERROR: --url is required for non-YouTube platforms")
-        return 1
-    entry = {
-        "title": args.title, "creator": args.creator, "creator_slug": args.creator_slug,
-        "credential": args.credential, "platform": args.platform, "url": url,
-        "posted": args.posted, "related": related, "thesis": args.thesis, "note": note,
-    }
-    block = yaml.safe_dump([entry], default_flow_style=None, allow_unicode=True,
-                           sort_keys=False, width=1000).rstrip("\n")
     text = path.read_text()
     if not text.startswith("---"):
-        print(f"ERROR: {path.name} has no frontmatter")
-        return 1
+        return f"ERROR: {path.name} has no frontmatter"
     end = text.index("\n---", 3)
     fm_text, rest = text[4:end], text[end:]
     m = re.search(r"^videos:\s*$", fm_text, re.M)
@@ -270,13 +237,81 @@ def cmd_add_video(args):
     try:
         yaml.safe_load(new[4:new.index("\n---", 3)])
     except yaml.YAMLError as exc:
-        print(f"ERROR: insert would break frontmatter YAML ({exc}); aborting")
-        return 1
+        return f"ERROR: insert would break frontmatter YAML ({exc}); aborting"
     path.write_text(new)
-    msg = f"carded: {vid} -> {args.attach}"
-    if dropped:
-        msg += f" (dropped unknown related: {', '.join(dropped)})"
-    print(msg)
+    return "ok"
+
+
+def cmd_add_video(args):
+    """Insert a `videos:` card into one or more pages' frontmatter SAFELY.
+
+    The card is serialized with yaml (escaping library-handled, never
+    hand-built). Guardrails the video crons used to do by hand: every target
+    page must exist, `related` slugs that do not resolve are dropped,
+    em/en-dashes are rejected, and the resulting frontmatter is re-parsed
+    before write.
+
+    Dedup is PER-PAGE, not global: the same video may be embedded on several
+    pages at once. For a "5 X tested" / "favorites" roundup, pass the
+    ingredient/topic hub as `attach` and every named product page that
+    already exists via `--also slug1,slug2,...` - the card renders in full on
+    each, and the Feed builder collapses them into one entry listing every
+    page. A page that already carries this id is skipped (reported), the rest
+    still get it.
+    """
+    import yaml
+    targets, seen = [], set()
+    for s in [args.attach] + [x.strip() for x in (args.also or "").split(",") if x.strip()]:
+        if s and s not in seen:
+            seen.add(s)
+            targets.append(s)
+    paths = {}
+    for s in targets:
+        p = sklib.find_profile(sklib.DATA_DIR, s)
+        if p is None:
+            print(f"ERROR: no page found for slug '{s}'")
+            return 1
+        paths[s] = p
+    vid = args.id
+    note = args.note or ("Verified from the video's transcript "
+                         "(yt-dlp, read in full); no sponsorship.")
+    for label, val in (("title", args.title), ("thesis", args.thesis), ("note", note)):
+        if val and ("—" in val or "–" in val):
+            print(f"ERROR: {label} contains an em/en-dash; rewrite with plain punctuation")
+            return 1
+    known = sklib.known_slugs(sklib.DATA_DIR)
+    want = [s.strip() for s in (args.related or "").split(",") if s.strip()]
+    related = [s for s in want if s in known and s not in seen]
+    dropped = [s for s in want if s not in related and s not in seen]
+    url = args.url or (f"https://www.youtube.com/watch?v={vid}"
+                       if args.platform == "YouTube" else None)
+    if not url:
+        print("ERROR: --url is required for non-YouTube platforms")
+        return 1
+    entry = {
+        "title": args.title, "creator": args.creator, "creator_slug": args.creator_slug,
+        "credential": args.credential, "platform": args.platform, "url": url,
+        "posted": args.posted, "related": related, "thesis": args.thesis, "note": note,
+    }
+    block = yaml.safe_dump([entry], default_flow_style=None, allow_unicode=True,
+                           sort_keys=False, width=1000).rstrip("\n")
+    carded, dup = [], []
+    for s in targets:
+        if vid in paths[s].read_text():
+            dup.append(s)
+            continue
+        res = _insert_video_block(paths[s], block)
+        if res != "ok":
+            print(res)
+            return 1
+        carded.append(s)
+    if carded:
+        msg = f"carded: {vid} -> {', '.join(carded)}"
+        if dropped:
+            msg += f" (dropped unknown related: {', '.join(dropped)})"
+        print(msg)
+    if dup:
+        print(f"dup: {vid} already on {', '.join(dup)}; skipped there")
     return 0
 
 
@@ -485,7 +520,11 @@ def main(argv=None):
     p_ar.set_defaults(func=cmd_add_review)
     p_av = sub.add_parser("add-video",
                           help="safely insert a videos: card into a page's frontmatter")
-    p_av.add_argument("attach", help="slug of the page to embed the card on")
+    p_av.add_argument("attach", help="slug of the primary page to embed the card on")
+    p_av.add_argument("--also", default="",
+                      help="comma-separated ADDITIONAL page slugs to embed the same card on "
+                           "(e.g. every named product page in a roundup); per-page dedup, "
+                           "the Feed collapses them into one entry")
     p_av.add_argument("--id", required=True, help="platform video id (used for dedup + URL)")
     p_av.add_argument("--title", required=True)
     p_av.add_argument("--creator", required=True)

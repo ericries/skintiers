@@ -22,6 +22,18 @@ updated: '2026-07-27'
 key_actives:
 - peptides
 - copper-peptides
+videos:
+- title: 5 Copper Peptide Serums Tested
+  creator: Chemist Confessions
+  creator_slug: victoria-fu
+  credential: Cosmetic chemists
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=WCPIouF2LPQ
+  posted: '2026-08-17'
+  related: []
+  thesis: Cosmetic chemists Victoria Fu and Gloria Lu of Chemist Confessions test and compare five copper peptide serums, including The Ordinary's, as a follow-up to their science deep dive on the ingredient. They are openly skeptical of the eye-catching 200 to 400 percent hydration-boost figures some brands cite, question what those numbers actually mean, and coach viewers to scan ingredient lists for named peptides like GHK to judge a product rather than trusting headline claims.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 The Ordinary Multi-Peptide + Copper Peptides 1% Serum is a water-based leave-on serum whose ingredient list is led by glycerin and a blend of peptides, including copper tripeptide-1 (GHK-Cu), acetyl hexapeptide-8, and the palmitoyl peptides of Matrixyl 3000, in a hyaluronic acid and amino-acid base.[^1]
