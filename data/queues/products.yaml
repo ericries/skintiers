@@ -1918,7 +1918,7 @@
 - name: CLn BodyWash (sodium hypochlorite cleanser)
   type: product
   priority: 6
-  status: pending
+  status: done
   discovered_from: tower-28-sos-rescue-relief-body-wash
   source: The dermatologist-recommended dilute-sodium-hypochlorite (bleach-bath-in-a-wash)
     cleanser for eczema, folliculitis, and body acne; the actual evidence-grounded
@@ -2072,3 +2072,9 @@
   discovered_from: vanicream-z-bar-pyrithione-zinc
   source: Popular OTC pyrithione zinc bar (with argan oil) for psoriasis/seb-derm;
     DailyMed-labeled
+- name: CLn Facial Cleanser (sodium hypochlorite)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: cln-bodywash
+  source: Face version of CLn BodyWash for perioral dermatitis/acne-prone skin; clnwash.com/products/facial-cleanser

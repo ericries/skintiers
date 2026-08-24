@@ -1212,3 +1212,19 @@
   source: Sibling APG surfactant in the same family reviewed by Alfalah 2017 (Dermatitis);
     cross-reacts with decyl glucoside - common gentle-cleanser ingredient worth its
     own evidence+allergy page
+- name: Sodium hypochlorite (topical / dilute-bleach therapy)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: cln-bodywash
+  source: Active in CLn BodyWash + dilute-bleach bath therapy; Bakaa 2022 + Chopra
+    2017 meta-analyses (Ann Allergy Asthma Immunol) - high-value ingredient page backing
+    multiple eczema/folliculitis products
+- name: Cocamidopropyl betaine (amphoteric surfactant)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: cln-bodywash
+  source: Ubiquitous co-surfactant in this INCI + most gentle cleansers; a notable
+    ACD contact allergen (ACDS Allergen of the Year 2004) - evidence+allergy page
+    like decyl-glucoside
