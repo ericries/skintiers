@@ -3,6 +3,10 @@ analyzed: '2026-08-24'
 assurance: opus
 brand: Palmer's
 category: Treatments
+images:
+- file: palmers-cocoa-butter-skin-therapy-oil-palmers.jpg
+  source: Palmer's
+  source_url: https://palmers.com/products/skin-therapy-oil-rosehip
 comparator: Palmer's own [[palmers-cocoa-butter-massage-lotion-stretch-marks|Cocoa
   Butter Massage Lotion for Stretch Marks]], and other stretch-mark topicals graded
   on [[stretch-marks]]
