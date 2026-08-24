@@ -2039,7 +2039,7 @@
 - name: Vanicream Z-Bar (pyrithione zinc 2% cleansing bar)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: zinc-pyrithione
   source: OTC pyrithione zinc 2% bar for seb-derm/fungal-acne; DailyMed Drug Facts;
     backs the zinc-pyrithione ingredient page
@@ -2058,3 +2058,17 @@
   source: Agent found 'Melan 130' is mesoestetic's tinted pigment-control sunscreen
     (mesoestetic.com), NOT an SVR product; corrected re-queue of the garbled SVR Melan
     130 entry
+- name: DermaHarmony 2% Pyrithione Zinc Bar Soap
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: vanicream-z-bar-pyrithione-zinc
+  source: Another OTC 2% pyrithione zinc cleansing bar for seb-derm/fungal acne; DailyMed-labeled;
+    complements the zinc-pyrithione set
+- name: Noble Formula 2% Pyrithione Zinc Bar Soap
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: vanicream-z-bar-pyrithione-zinc
+  source: Popular OTC pyrithione zinc bar (with argan oil) for psoriasis/seb-derm;
+    DailyMed-labeled
