@@ -1087,7 +1087,7 @@
 - name: Decyl glucoside (mild non-ionic surfactant)
   type: ingredient
   priority: 7
-  status: pending
+  status: done
   discovered_from: tower-28-sos-daily-balancing-gel-cleanser
   source: Sugar-derived mild non-ionic surfactant, the workhorse gentle cleanser base
     in this + many sensitive-skin washes (glucoside surfactants); low-irritation;
@@ -1204,3 +1204,11 @@
   source: Ubiquitous antioxidant; notably NEGATIVE/mixed evidence for scars (Baumann
     1999 RCT worsened cosmesis); high-value skeptical ingredient page backing many
     scar/stretch-mark products
+- name: Coco-glucoside (alkyl polyglucoside surfactant)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: decyl-glucoside
+  source: Sibling APG surfactant in the same family reviewed by Alfalah 2017 (Dermatitis);
+    cross-reacts with decyl glucoside - common gentle-cleanser ingredient worth its
+    own evidence+allergy page
