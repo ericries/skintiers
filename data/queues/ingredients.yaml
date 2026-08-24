@@ -1182,3 +1182,10 @@
   discovered_from: dark-circles
   source: Often marketed for under-eye/vascular dark circles + bruising; thin evidence;
     would round out the dark-circles actives
+- name: Iron oxides (sunscreen tint / visible-light protection)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: eltamd-uv-aox-elements-tinted-mineral-spf-50
+  source: Pigments in tinted sunscreens that block visible light; real melasma/PIH
+    relevance; referenced by multiple tinted-SPF products but no page yet

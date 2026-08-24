@@ -1818,7 +1818,7 @@
 - name: EltaMD UV Elements Tinted Mineral Broad-Spectrum SPF 44
   type: product
   priority: 6
-  status: pending
+  status: done
   discovered_from: geeta-yadav
   source: Tinted mineral (zinc/titanium + iron oxides) sunscreen widely recommended
     for hyperpigmentation/deeper tones; brand + retailer sourceable
@@ -2043,3 +2043,10 @@
   discovered_from: zinc-pyrithione
   source: OTC pyrithione zinc 2% bar for seb-derm/fungal-acne; DailyMed Drug Facts;
     backs the zinc-pyrithione ingredient page
+- name: EltaMD UV Daily Tinted Broad-Spectrum SPF 40
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: eltamd-uv-aox-elements-tinted-mineral-spf-50
+  source: EltaMD chemical/mineral hybrid daily tinted moisturizer-SPF; DailyMed-labeled;
+    common EltaMD pick
