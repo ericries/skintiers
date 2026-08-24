@@ -3,6 +3,10 @@ analyzed: '2026-08-23'
 assurance: opus
 brand: Caudalie
 category: Brightening/dark-spot serums
+images:
+- file: caudalie-vinoperfect-radiance-serum-caudalie.jpg
+  source: Caudalie
+  source_url: https://us.caudalie.com/p/324C/324c-radiance-dark-spot-serum-vitamin-c-alternative.html
 comparator: other brightening serums built on niacinamide and tranexamic acid (e.g.
   Anua Niacinamide 10% + TXA 4% Serum)
 grades:

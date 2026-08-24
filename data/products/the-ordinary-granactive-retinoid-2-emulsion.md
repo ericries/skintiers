@@ -3,6 +3,10 @@ analyzed: '2026-08-23'
 assurance: opus
 brand: The Ordinary
 category: Retinoids
+images:
+- file: the-ordinary-granactive-retinoid-2-emulsion-theordinary.png
+  source: The Ordinary
+  source_url: https://theordinary.com/en-us/granactive-retinoid-2-emulsion-serum-100419.html
 comparator: other over-the-counter retinoids and HPR-containing serums
 evidence_levels:
   active: hydroxypinacolone retinoate (HPR) combined with retinol

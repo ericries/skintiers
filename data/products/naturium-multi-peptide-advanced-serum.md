@@ -3,6 +3,10 @@ analyzed: '2026-08-23'
 assurance: opus
 brand: Naturium
 category: Serums
+images:
+- file: naturium-multi-peptide-advanced-serum-naturium.jpg
+  source: Naturium
+  source_url: https://naturium.com/products/multi-peptide-advanced-serum
 comparator: other peptide serums (e.g. The Ordinary Multi-Peptide + Copper Peptides
   1% Serum, COSRX The 6 Peptide Skin Booster Serum)
 grades:

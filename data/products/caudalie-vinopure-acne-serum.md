@@ -3,6 +3,10 @@ analyzed: '2026-08-23'
 assurance: opus
 brand: Caudalie
 category: Acne treatments
+images:
+- file: caudalie-vinopure-acne-serum-caudalie.jpg
+  source: Caudalie
+  source_url: https://us.caudalie.com/p/500R2/500r2-acne-serum-to-treat-and-prevent-blemishes.html
 comparator: other 0.5% to 2% salicylic acid leave-on acne treatments (e.g. Paula's
   Choice Skin Perfecting 2% BHA Liquid Exfoliant)
 grades:

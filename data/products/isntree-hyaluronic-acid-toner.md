@@ -3,6 +3,10 @@ analyzed: '2026-08-23'
 assurance: opus
 brand: Isntree
 category: Toners
+images:
+- file: isntree-hyaluronic-acid-toner-isntree.png
+  source: Isntree
+  source_url: https://isntree-global.com/products/isntree-hyaluronic-acid-toner-200ml
 comparator: other Korean hyaluronic-acid toners (e.g. Haruharu Wonder Black Rice Hyaluronic
   Toner)
 grades:
