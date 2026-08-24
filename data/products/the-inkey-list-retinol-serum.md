@@ -3,6 +3,10 @@ analyzed: '2026-08-05'
 assurance: sonnet
 brand: The INKEY List
 category: Retinoids
+images:
+- file: the-inkey-list-retinol-serum-inkeyeu.png
+  source: The INKEY List (EU)
+  source_url: https://eu.theinkeylist.com/products/retinol-serum
 evidence_levels:
   active: retinyl-esters
   active_note: retinyl esters are the mildest, least-converted over-the-counter

@@ -3,6 +3,10 @@ analyzed: '2026-08-05'
 assurance: sonnet
 brand: Galderma
 category: Treatments
+images:
+- file: soolantra-ivermectin-1-cream-dailymed.jpg
+  source: DailyMed
+  source_url: https://dailymed.nlm.nih.gov/dailymed/image.cfm?name=45g-carton.jpg&setid=b1d5b166-ab06-4ab5-b0c6-31126238118a&type=img
 grades:
 - effect: notable
   evidence: solid

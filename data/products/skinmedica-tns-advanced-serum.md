@@ -3,6 +3,10 @@ analyzed: '2026-08-08'
 assurance: opus
 brand: skinmedica
 category: Peptide serums
+images:
+- file: skinmedica-tns-advanced-serum-dermstore.jpg
+  source: Dermstore
+  source_url: https://www.dermstore.com/p/skinmedica-tns-advanced-serum-28.4g/12596429/
 grades:
 - effect: minimal
   evidence: anecdotal

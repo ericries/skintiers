@@ -6173,3 +6173,58 @@ contact-dermatitis:
   score: 7
   verdict: publish
   note: 'PARALLEL WORKFLOW fill: Sonnet draft + parallel Opus critic verdict REVISE (score 7). Critic-flagged defect FIXED in Opus main loop: reworded 2 over-attributions to DermNet (dropped ''steroid-sparing/on the face'' language DermNet does not use). Re-gated clean; published.'
+vanicream-daily-facial-moisturizer:
+  last_reviewed: '2026-08-23'
+  score: 9
+  verdict: publish
+  note: 'PARALLEL WORKFLOW wave2: Sonnet draft + parallel Opus critic verdict publish (9). INCI + NEA/vegan claims verified verbatim vs Vanicream + Target; price omitted (JS-only). Evidence linked out.'
+zinc-pca:
+  last_reviewed: '2026-08-23'
+  score: 9
+  verdict: publish
+  note: 'PARALLEL WORKFLOW wave2: Sonnet draft + parallel Opus critic verdict publish (9). Ingredient; evidence + tier verified.'
+gold-bond-healing-hand-cream:
+  last_reviewed: '2026-08-23'
+  score: 7
+  verdict: publish
+  note: 'PARALLEL WORKFLOW wave2: Sonnet draft + parallel Opus critic verdict REVISE (7); critic-flagged defect fixed in Opus main loop: corrected ''ends in fragrance'' -> ''includes fragrance'' (fragrance is 3rd from last); normalized an em-dash in a quote. Re-gated clean.'
+la-roche-posay-lipikar-syndet-ap-body-wash:
+  last_reviewed: '2026-08-23'
+  score: 6
+  verdict: publish
+  note: 'PARALLEL WORKFLOW wave2: Sonnet draft + parallel Opus critic verdict REVISE (6); critic-flagged defect fixed in Opus main loop: corrected ingredient-count ordinals (23 not 22; Vitreoscilla 12th; shea 13th) throughout + fixed a stitched non-verbatim 24hr quote. Re-gated clean.'
+kiehls-ultra-facial-cream:
+  last_reviewed: '2026-08-23'
+  score: 7
+  verdict: publish
+  note: 'PARALLEL WORKFLOW wave2: Sonnet draft + parallel Opus critic verdict REVISE (7); critic-flagged defect fixed in Opus main loop: added primary-source URLs to the squalane/ceramides footnotes (were URL-less -> verify ERROR). Re-gated clean.'
+byoma-moisturizing-rich-cream:
+  last_reviewed: '2026-08-23'
+  score: 8
+  verdict: publish
+  note: 'PARALLEL WORKFLOW wave2: Sonnet draft + parallel Opus critic verdict REVISE (8); critic-flagged defect fixed in Opus main loop: fixed a silently-altered quote (dropped the misquoted ''a rich...'' fragment; corrected footnote to verbatim ''This rich...''). Re-gated clean.'
+glow-recipe-watermelon-glow-niacinamide-dew-drops:
+  last_reviewed: '2026-08-23'
+  score: 8
+  verdict: publish
+  note: 'PARALLEL WORKFLOW wave2: Sonnet draft + parallel Opus critic verdict REVISE (8); critic-flagged defect fixed in Opus main loop: added the omitted Eclipta Prostrata Extract (position 11) to the INCI list. Re-gated clean.'
+ammonium-lactate:
+  last_reviewed: '2026-08-23'
+  score: 8
+  verdict: publish
+  note: 'PARALLEL WORKFLOW wave2: Sonnet draft + parallel Opus critic verdict REVISE (8); critic-flagged defect fixed in Opus main loop: cited the Bottom-line blockquote ([^dahl][^jennings][^uy]); reworded AI-ese (''pivotal'',''not just''). Re-gated clean.'
+erythromycin-topical:
+  last_reviewed: '2026-08-23'
+  score: 7
+  verdict: publish
+  note: 'PARALLEL WORKFLOW wave2: Sonnet draft + parallel Opus critic verdict REVISE (7); critic-flagged defect fixed in Opus main loop: narrowed the [^dailymed] gel-only citation (other dosage forms no longer attributed to it); fixed an Austin abstract misread. Re-gated clean.'
+madecassoside:
+  last_reviewed: '2026-08-23'
+  score: 8
+  verdict: publish
+  note: 'PARALLEL WORKFLOW wave2: Sonnet draft + parallel Opus critic verdict REVISE (8); critic-flagged defect fixed in Opus main loop: attached the 25-30% figure to type I collagen only (source specifies type I). Re-gated clean.'
+ud-din-2016-topical-management-of-striae-distensae-review-pmid-26486318:
+  last_reviewed: '2026-08-23'
+  score: 8
+  verdict: publish
+  note: 'PARALLEL WORKFLOW wave2: Sonnet draft + parallel Opus critic verdict REVISE (8); critic-flagged defect fixed in Opus main loop: replaced an em-dash with a sentence break (house style). Re-gated clean.'

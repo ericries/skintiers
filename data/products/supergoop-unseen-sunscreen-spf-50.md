@@ -5,6 +5,10 @@ brand: Supergoop
 category: Sunscreens
 comparator: broad-spectrum sunscreens, including modern-filter products sold in the
   EU, Korea, and Australia
+images:
+- file: supergoop-unseen-sunscreen-spf-50-supergoop.png
+  source: Supergoop
+  source_url: https://supergoop.com/products/unseen-sunscreen-spf-50
 grades:
 - effect: strong
   evidence: solid

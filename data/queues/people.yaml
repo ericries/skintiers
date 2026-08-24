@@ -197,14 +197,14 @@
 - name: Esther Olu (The Melanin Chemist)
   type: person
   priority: 3
-  status: pending
+  status: done
   discovered_from: heather-woolerylloyd
   source: 'Cosmetic chemist with 4 transcript-verified on-site video cards but no
     person page; disclose occasional #AD partnerships'
 - name: Dr. Sheila Farhang (dr.sheila_derm)
   type: person
   priority: 4
-  status: pending
+  status: done
   discovered_from: heather-woolerylloyd
   source: Board-certified dermatologist (HIGH), 3 on-site cards, no person page; verify
     via NPI; self-describes as KOL

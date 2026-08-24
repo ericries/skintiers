@@ -439,7 +439,7 @@
 - name: Ud-Din 2016 topical management of striae distensae review (PMID 26486318)
   type: study
   priority: 5
-  status: pending
+  status: done
   discovered_from: stretch-marks
   source: 'The umbrella review for the stretch-marks hub: no topical shown most effective;
     tretinoin varying results; cocoa butter/olive oil no effect; distinguishes striae

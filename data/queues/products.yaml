@@ -1420,7 +1420,7 @@
 - name: Gold Bond Healing Hand Cream
   type: product
   priority: 2
-  status: pending
+  status: done
   discovered_from: gold-bond
   source: Another Gold Bond body-care SKU to grow the brand roll-up; verify composition
     on goldbond.com. Lower priority - the brand's KP/exfoliant cream is the evidence-interesting
@@ -1436,7 +1436,7 @@
 - name: Vanicream Daily Facial Moisturizer
   type: product
   priority: 4
-  status: pending
+  status: done
   discovered_from: null
   source: A bland, fragrance/dye/paraben-free facial moisturizer widely recommended
     for sensitive/reactive skin; fits the 'simplify skincare' step for perioral dermatitis
@@ -1510,7 +1510,7 @@
 - name: La Roche-Posay Lipikar Syndet AP+ Body Wash
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: la-roche-posay-lipikar-balm-ap-m
   source: The companion gentle cleanser to the Lipikar Balm (the -41% itch clinical
     claim was for the two used together); a fragrance-free eczema-prone body wash.
@@ -1560,7 +1560,7 @@
 - name: Kiehl's Ultra Facial Cream
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: 'PERSON-cron catalog gap-fill: high-popularity barrier moisturizer
     not yet on site'
   source: https://www.kiehls.com/skincare/face-moisturizers/ultra-facial-cream/622.html
@@ -1574,14 +1574,14 @@
 - name: Byoma Moisturizing Rich Cream
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: 'PERSON-cron catalog gap-fill: trending barrier-repair (ceramide)
     moisturizer, ties to skin-barrier-repair goal'
   source: https://byoma.com/products/moisturizing-rich-cream
 - name: Glow Recipe Watermelon Glow Niacinamide Dew Drops
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: 'PERSON-cron catalog gap-fill: popular niacinamide illuminating
     serum'
   source: https://www.glowrecipe.com/products/watermelon-glow-niacinamide-dew-drops

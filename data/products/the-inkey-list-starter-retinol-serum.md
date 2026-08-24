@@ -3,6 +3,10 @@ analyzed: '2026-08-07'
 assurance: sonnet
 brand: The INKEY List
 category: Retinoids
+images:
+- file: the-inkey-list-starter-retinol-serum-inkeyus.jpg
+  source: The INKEY List (US)
+  source_url: https://www.theinkeylist.com/products/starter-retinol
 evidence_levels:
   active: retinaldehyde
   active_note: the best-evidenced over-the-counter retinoid, with

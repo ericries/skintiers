@@ -3,6 +3,10 @@ analyzed: '2026-08-23'
 assurance: opus
 brand: Paula's Choice
 category: Moisturizers
+images:
+- file: paulas-choice-weightless-body-treatment-2-bha-brand.png
+  source: Paula's Choice
+  source_url: https://www.paulaschoice.com/weightless-body-treatment-2pct-bha/570-5700.html
 comparator: other body-focused salicylic acid exfoliants, including [[cerave-sa-body-lotion-for-rough-and-bumpy-skin]]
 grades:
 - effect: modest

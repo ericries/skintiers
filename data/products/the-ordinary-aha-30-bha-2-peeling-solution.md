@@ -3,6 +3,10 @@ analyzed: '2026-08-08'
 assurance: sonnet
 brand: The Ordinary
 category: Exfoliants
+images:
+- file: the-ordinary-aha-30-bha-2-peeling-solution-brand.png
+  source: The Ordinary
+  source_url: https://theordinary.com/en-us/aha-30-bha-2-peeling-solution-exfoliator-100400.html
 comparator: dedicated single-active leave-on exfoliants (e.g. [[paulas-choice-skin-perfecting-2-bha]])
   and in-office superficial chemical peels
 grades:

@@ -3,6 +3,10 @@ analyzed: '2026-08-16'
 assurance: sonnet
 brand: The INKEY List
 category: Treatments
+images:
+- file: the-inkey-list-tranexamic-acid-night-treatment-brand.png
+  source: The INKEY List
+  source_url: https://www.theinkeylist.com/products/tranexamic-acid-night-treatment
 comparator: other tranexamic acid dark-spot serums (e.g. [[anua-niacinamide-10-tranexamic-acid-4-serum]])
 grades:
 - effect: minimal

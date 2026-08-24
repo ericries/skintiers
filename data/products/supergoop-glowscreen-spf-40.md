@@ -3,6 +3,10 @@ analyzed: '2026-08-16'
 assurance: sonnet
 brand: Supergoop
 category: Sunscreens
+images:
+- file: supergoop-glowscreen-spf-40-supergoop.png
+  source: Supergoop
+  source_url: https://supergoop.com/products/glowscreen-spf-40
 comparator: other tinted sunscreens/primers, including La Roche-Posay's Anthelios
   Mineral Tinted SPF 50 and Supergoop's own untinted Unseen Sunscreen SPF 40/50
 grades:
