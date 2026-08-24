@@ -857,14 +857,14 @@
 - name: Oxybenzone
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: A common older UV filter (benzophenone-3) referenced in sunscreen-allergy/comparison
     videos; no page yet, so those video cards can't link to it. Would extend [[sunscreen-uv-filters]].
 - name: Pramoxine hydrochloride
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: A topical OTC external analgesic (anti-itch) active with an FDA monograph,
     used in anti-itch lotions (CeraVe/Aveeno Itch Relief); no page yet. Would let
@@ -873,7 +873,7 @@
 - name: Ensulizole (Phenylbenzimidazole sulfonic acid)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: 'INGREDIENT cron (polysilicone-15): water-soluble UVB filter, IS
     in the US monograph (contrast to polysilicone-15); extends UV-filter coverage'
   source: https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-352/subpart-B/section-352.10

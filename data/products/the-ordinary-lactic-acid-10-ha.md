@@ -17,6 +17,10 @@ evidence_levels:
   product_note: a genuine 10% lactic acid held at a manufacturer-stated pH of 3.60-3.80
     (an exfoliation-active range), with hyaluronic acid (as sodium hyaluronate crosspolymer)
     for hydration, sold for about $9.20 for 30 ml
+images:
+- file: the-ordinary-lactic-acid-10-ha-theordinary.png
+  source: The Ordinary (DECIEM)
+  source_url: https://theordinary.com/en-us/lactic-acid-10-ha-exfoliator-100426.html
 grades:
 - effect: modest
   evidence: mixed

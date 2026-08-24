@@ -6,6 +6,10 @@ category: Cleansers
 comparator: the brand's own leave-on [[la-roche-posay-lipikar-balm-ap-m|Lipikar Balm
   AP+M]], which carries the same niacinamide-plus-Vitreoscilla-filiformis story in
   a formula that stays on skin instead of rinsing off
+images:
+- file: la-roche-posay-lipikar-syndet-ap-body-wash-brand.jpg
+  source: La Roche-Posay
+  source_url: https://web.archive.org/web/20250906055623/https://www.laroche-posay.us/our-products/body/body-wash/lipikar-wash-ap--moisturizing-body-face-wash-3337875917377.html
 grades:
 - effect: modest
   evidence: preliminary

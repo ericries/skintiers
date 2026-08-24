@@ -3,6 +3,10 @@ analyzed: '2026-08-13'
 assurance: sonnet
 brand: The Ordinary
 category: Exfoliants
+images:
+- file: the-ordinary-mandelic-acid-10-ha-cultbeauty.jpg
+  source: Cult Beauty
+  source_url: https://www.cultbeauty.com/p/the-ordinary-mandelic-acid-10-30ml/11751839/
 comparator: other leave-on AHA exfoliating serums
 evidence_levels:
   active: mandelic-acid

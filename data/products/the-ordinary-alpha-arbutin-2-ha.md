@@ -3,6 +3,10 @@ analyzed: '2026-08-16'
 assurance: sonnet
 brand: The Ordinary
 category: Alpha arbutin
+images:
+- file: the-ordinary-alpha-arbutin-2-ha-cultbeauty.jpg
+  source: Cult Beauty
+  source_url: https://www.cultbeauty.com/p/the-ordinary-alpha-arbutin-2-ha-30ml/15464526/
 comparator: other alpha arbutin serums (e.g. Beauty of Joseon Glow Deep Serum Rice
   + Alpha Arbutin)
 grades:

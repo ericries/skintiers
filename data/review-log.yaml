@@ -6228,3 +6228,48 @@ ud-din-2016-topical-management-of-striae-distensae-review-pmid-26486318:
   score: 8
   verdict: publish
   note: 'PARALLEL WORKFLOW wave2: Sonnet draft + parallel Opus critic verdict REVISE (8); critic-flagged defect fixed in Opus main loop: replaced an em-dash with a sentence break (house style). Re-gated clean.'
+aquaphor-healing-ointment:
+  last_reviewed: '2026-08-23'
+  score: 9
+  verdict: publish
+  note: 'PARALLEL wave3: Sonnet+Opus critic verdict publish (9). DailyMed SPL petrolatum 41% + uses verified verbatim; petrolatum evidence linked out.'
+weleda-skin-food:
+  last_reviewed: '2026-08-23'
+  score: 9
+  verdict: publish
+  note: 'PARALLEL wave3: Sonnet+Opus critic verdict publish (9). Composition/claims verified vs brand.'
+ensulizole:
+  last_reviewed: '2026-08-23'
+  score: 9
+  verdict: publish
+  note: 'PARALLEL wave3: Sonnet+Opus critic verdict publish (9). UV filter ingredient; evidence + tier verified.'
+eucerin-original-healing-cream:
+  last_reviewed: '2026-08-23'
+  score: 7
+  verdict: publish
+  note: 'PARALLEL wave3: Sonnet draft + Opus critic REVISE (7); fixed: corrected INCI mis-attribution (both sources declare the same full list; Eucerin highlights 3 as key).'
+torriden-dive-in-low-molecular-hyaluronic-acid-cream:
+  last_reviewed: '2026-08-23'
+  score: 7
+  verdict: publish
+  note: 'PARALLEL wave3: Sonnet draft + Opus critic REVISE (7); fixed: corrected ingredient total (48 not 34).'
+cosrx-advanced-snail-92-all-in-one-cream:
+  last_reviewed: '2026-08-23'
+  score: 8
+  verdict: publish
+  note: 'PARALLEL wave3: Sonnet draft + Opus critic REVISE (8); fixed: removed stray ** bold markers on 2 claim bullets.'
+nivea-creme:
+  last_reviewed: '2026-08-23'
+  score: 8
+  verdict: publish
+  note: 'PARALLEL wave3: Sonnet draft + Opus critic REVISE (8); fixed: unlinked missing [[nivea]] brand; dropped an uncited CeraVe % + an unconfirmable Target price.'
+la-roche-posay-effaclar-micro-peeling-purifying-gel-cleanser:
+  last_reviewed: '2026-08-23'
+  score: 5
+  verdict: publish
+  note: 'PARALLEL wave3: Sonnet draft + Opus critic REVISE (5); fixed: removed 3 fabricated/unsourced percentages (2% SA, 0.05% LHA, 0.2% zinc) + the highest-strength framing they drove; dropped an unsupported product name.'
+pramoxine-hydrochloride:
+  last_reviewed: '2026-08-23'
+  score: 7
+  verdict: publish
+  note: 'PARALLEL wave3: Sonnet draft + Opus critic REVISE (7); fixed: added the required ## The Evidence section (renamed from ''What We Actually Know'').'

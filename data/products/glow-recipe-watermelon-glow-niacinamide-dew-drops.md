@@ -3,6 +3,10 @@ analyzed: '2026-08-23'
 assurance: opus
 brand: Glow Recipe
 category: Niacinamide serums
+images:
+- file: glow-recipe-watermelon-glow-niacinamide-dew-drops-brand.jpg
+  source: Glow Recipe
+  source_url: https://www.glowrecipe.com/products/watermelon-glow-niacinamide-dew-drops
 comparator: other niacinamide serums (e.g. The Ordinary Niacinamide 10% + Zinc 1%,
   Naturium Niacinamide Serum 12% + Zinc 2%)
 grades:

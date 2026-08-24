@@ -3,6 +3,10 @@ analyzed: '2026-08-08'
 assurance: opus
 brand: Torriden
 category: Serums
+images:
+- file: torriden-dive-in-low-molecular-hyaluronic-acid-serum-torriden.jpg
+  source: Torriden
+  source_url: https://torriden.us/products/dive-in-serum
 comparator: other lightweight, low-molecular-weight hyaluronic-acid serums
 grades:
 - effect: notable

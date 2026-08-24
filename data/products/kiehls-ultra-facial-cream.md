@@ -5,6 +5,10 @@ brand: Kiehl's
 category: Moisturizers
 comparator: other barrier moisturizers (e.g. [[cerave-moisturizing-cream|CeraVe Moisturizing
   Cream]])
+images:
+- file: kiehls-ultra-facial-cream-ulta.jpg
+  source: Ulta Beauty
+  source_url: https://www.ulta.com/p/ultra-facial-cream-with-squalane-pimprod2002804?sku=2540233
 grades:
 - effect: notable
   evidence: solid

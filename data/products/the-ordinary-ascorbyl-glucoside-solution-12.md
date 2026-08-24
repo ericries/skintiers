@@ -3,6 +3,10 @@ analyzed: '2026-08-16'
 assurance: sonnet
 brand: The Ordinary
 category: Vitamin C serums
+images:
+- file: the-ordinary-ascorbyl-glucoside-solution-12-theordinary.png
+  source: The Ordinary
+  source_url: https://theordinary.com/en-us/ascorbyl-glucoside-solution-12-vitamin-c-100405.html
 comparator: single-form, higher-dose L-ascorbic acid serums (e.g. La Roche-Posay Pure
   Vitamin C12, SkinCeuticals C E Ferulic)
 grades:

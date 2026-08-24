@@ -14,6 +14,10 @@ grades:
     figures rather than a published study
   use: Moisturizing and barrier support for dry hands, including through frequent
     handwashing (cosmetic)
+images:
+- file: gold-bond-healing-hand-cream-goldbond.webp
+  source: Gold Bond
+  source_url: https://www.goldbond.com/en-us/products/healing-hand-cream
 key_actives:
 - niacinamide
 - glycerin

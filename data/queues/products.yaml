@@ -80,7 +80,7 @@
   discovered_from: null
   source: null
   note: reconciled (robust)
-- name: "Av\xE8ne Mineral Ultra-Light SPF 50+"
+- name: Avène Mineral Ultra-Light SPF 50+
   type: product
   priority: 8
   status: done
@@ -1588,28 +1588,28 @@
 - name: Aquaphor Healing Ointment
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: 'LIST cron (best-ceramide-moisturizers): iconic petrolatum occlusive
     / barrier-repair benchmark, absent from site+queue'
   source: https://www.aquaphorus.com/products/healing-ointment
 - name: Eucerin Original Healing Cream
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: 'LIST cron: derm-recommended barrier/occlusive cream, ties to skin-barrier-repair;
     absent from site+queue'
   source: https://www.eucerinus.com/products/original-healing/original-healing-rich-cream
 - name: Torriden Dive-In Low Molecular Hyaluronic Acid Cream
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: 'BRAND cron (torriden): sibling cream to the profiled Dive-In serum;
     ties to hyaluronic-acid + glass-skin'
   source: https://torriden.us/products/dive-in-cream
 - name: Torriden Balanceful Cica Cream
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: 'BRAND cron (torriden): centella barrier cream; ties to centella-asiatica
     + skin-barrier-repair'
   source: https://torriden.us/products/balanceful-cica-cream
@@ -1623,49 +1623,49 @@
 - name: COSRX Advanced Snail 92 All-in-One Cream
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: 'PRODUCT cron (cosrx-niacinamide-15): snail-mucin moisturizer,
     sibling to the profiled Snail 96 essence'
   source: https://www.cosrx.com/products/advanced-snail-92-all-in-one-cream
 - name: Naturium Niacinamide Serum 12% Plus Zinc 2%
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: 'PRODUCT cron: niacinamide comparator named on cosrx-niacinamide-15-serum;
     ties to niacinamide'
   source: https://naturium.com/products/niacinamide-serum-12-plus-zinc-2
 - name: Tower 28 SunnyDays SPF 30 Mineral Sunscreen
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: 'PRODUCT cron (tower-28-sos): Tower 28 mineral (non-nano zinc)
     sunscreen; ties to sunscreen-uv-filters + zinc-oxide'
   source: https://tower28beauty.com/products/sunnydays-tinted-spf-30
 - name: Tower 28 SOS Rescue Serum
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: 'PRODUCT cron (tower-28-sos): hypochlorous-acid-adjacent soothing
     serum sibling; ties to hypochlorous-acid'
   source: https://tower28beauty.com/products/sos-rescue-serum
 - name: Weleda Skin Food
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: 'STUDY cron (queue empty): iconic rich emollient balm, derm-adjacent
     cult product; ties to occlusives/skin-barrier-repair'
   source: https://www.weleda.com/product/s/skin-food-original
 - name: Nivea Creme
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: 'STUDY cron: iconic legacy occlusive/emollient cream (eucerit/mineral
     oil base); barrier/moisturizing context'
   source: https://www.nivea.com/products/nivea-creme
 - name: La Roche-Posay Effaclar Micro-Peeling Purifying Gel Cleanser
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: 'PERSON cron (queue empty): salicylic-acid gel cleanser for oily/acne
     skin; ties to salicylic-acid + acne + oily-skin'
   source: https://www.laroche-posay.us/our-products/acne-oily-skin/acne-face-wash/effaclar-medicated-gel-cleanser
@@ -1853,7 +1853,7 @@
 - name: Tower 28 SunnyDays SPF 30 Tinted Mineral Sunscreen Foundation
   type: product
   priority: 6
-  status: pending
+  status: null
   discovered_from: tower-28
   source: Tower 28 tinted mineral (zinc + iron oxides) SPF 30; ties to the tinted-SPF/iron-oxides
     thread; brand + Sephora sourceable
@@ -1874,7 +1874,7 @@
 - name: Tower 28 SOS Daily Barrier Recovery Cream (ceramides)
   type: product
   priority: 6
-  status: pending
+  status: null
   discovered_from: tower-28-sos-intensive-rescue-serum
   source: Tower 28 ceramide barrier-repair cream, completes the SOS skincare trio
     (spray/serum/cream); ceramides are evidence-backed; brand + retailer sourceable

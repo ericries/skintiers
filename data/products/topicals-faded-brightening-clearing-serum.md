@@ -3,6 +3,10 @@ analyzed: '2026-08-20'
 assurance: opus
 brand: Topicals
 category: Brightening serums
+images:
+- file: topicals-faded-brightening-clearing-serum-brand.jpg
+  source: Topicals
+  source_url: https://mytopicals.com/products/faded
 comparator: multi-active brightening and dark-spot serums
 grades:
 - effect: modest
