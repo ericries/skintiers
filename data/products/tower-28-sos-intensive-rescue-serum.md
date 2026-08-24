@@ -2,6 +2,10 @@
 analyzed: '2026-08-21'
 brand: Tower 28
 category: Treatments
+images:
+- file: tower-28-sos-intensive-rescue-serum-brand.jpg
+  source: Tower 28
+  source_url: https://www.tower28beauty.com/products/sos-intensive-rescue-serum
 comparator: Tower 28's own [[tower-28-sos-daily-rescue-facial-spray|SOS Daily Rescue
   Facial Spray]] (same active in a toner form) and other hypochlorous acid products
   such as [[prequel-universal-skin-solution]]

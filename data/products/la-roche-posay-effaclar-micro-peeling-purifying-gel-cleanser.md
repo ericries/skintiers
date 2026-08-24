@@ -5,11 +5,15 @@ brand: La Roche-Posay
 category: Cleansers
 comparator: other salicylic-acid rinse-off acne cleansers, including the brand's own
   lower-strength Effaclar washes
+images:
+- file: la-roche-posay-effaclar-micro-peeling-purifying-gel-cleanser-lrp-me.png
+  source: La Roche-Posay Middle East/North Africa product page
+  source_url: https://www.laroche-posay-me.com/en/effaclar/effaclar-micro-peeling-purifying-gel
 grades:
 - effect: modest
   evidence: preliminary
-  note: 'health: salicylic acid is the headline acne active (the brand does not disclose
-    its concentration); salicylic acid is a conditionally recommended, second-tier
+  note: 'health: salicylic acid at 2% (stated on the product packaging), the top of
+    the FDA''s 0.5-2% OTC acne-active range; salicylic acid is a conditionally recommended, second-tier
     acne active behind [[benzoyl-peroxide]] and topical [[retinoids]] per the American
     Academy of Dermatology (see [[salicylic-acid]]). As a rinse-off wash it also has
     less skin contact time than a leave-on product, and no product-specific controlled
@@ -46,15 +50,15 @@ type: product
 updated: '2026-08-23'
 ---
 
-La Roche-Posay Effaclar Micro-Peeling Purifying Gel Cleanser is a rinse-off face-and-body wash for acne-prone skin, formulated with salicylic acid, the brand's own capryloyl salicylic acid (LHA) exfoliant, and zinc gluconate.[^lrp-me]
+La Roche-Posay Effaclar Micro-Peeling Purifying Gel Cleanser is a rinse-off face-and-body wash for acne-prone skin, formulated with 2% salicylic acid (stated on the product packaging), the brand's own capryloyl salicylic acid (LHA) exfoliant, and zinc gluconate.[^lrp-me]
 
-> The manufacturer's own strongest-strength Effaclar wash: it carries salicylic acid as its headline acne active, alongside a small amount of the brand's proprietary LHA exfoliant and zinc gluconate.[^lrp-me] Salicylic acid is a real, guideline-recognized acne active, but a conditionally recommended, second-tier one behind benzoyl peroxide and retinoids, and it works less on skin as a rinsed-off wash than as a leave-on product (see [[salicylic-acid]]). No independent, controlled trial of this specific cleanser was found; the manufacturer's "smoother skin," "not oily," and anti-recurrence figures come from its own uncontrolled 52-subject study (see [Common Marketing Claims](#common-marketing-claims)).[^lrp-me] This is an international product, not sold under this name on La Roche-Posay's US site, priced at AU$46.99 for 400 ml on an Australian retailer.[^priceline]
+> The manufacturer's own strongest-strength Effaclar wash: it carries 2% salicylic acid, the top of the FDA's OTC acne-active range, alongside a small amount of the brand's proprietary LHA exfoliant and zinc gluconate.[^lrp-me] Salicylic acid is a real, guideline-recognized acne active, but a conditionally recommended, second-tier one behind benzoyl peroxide and retinoids, and it works less on skin as a rinsed-off wash than as a leave-on product (see [[salicylic-acid]]). No independent, controlled trial of this specific cleanser was found; the manufacturer's "smoother skin," "not oily," and anti-recurrence figures come from its own uncontrolled 52-subject study (see [Common Marketing Claims](#common-marketing-claims)).[^lrp-me] This is an international product, not sold under this name on La Roche-Posay's US site, priced at AU$46.99 for 400 ml on an Australian retailer.[^priceline]
 
 ## Summary
 
 This is a gel face-and-body wash the manufacturer markets for oily, acne-prone skin, positioned to "deeply unclog pores" and "remove excess sebum" while addressing "persistent imperfections including marks" and reducing breakout recurrence.[^lrp-me] La Roche-Posay positions it as an exfoliating salicylic-acid wash in its Effaclar range, distinct from the brand's other Effaclar washes, [[la-roche-posay-toleriane-purifying-foaming-cleanser|Toleriane Purifying Foaming Cleanser]] and Effaclar Purifying Foaming Gel, which do not carry salicylic acid.[^lrp-me] It is directed to be lathered between wet hands and massaged onto skin, then rinsed thoroughly.[^lrp-me]
 
-The formula's headline active is salicylic acid, declared on the ingredient list without a stated percentage; the FDA's OTC monograph recognizes salicylic acid for acne at 0.5-2%.[^lrp-me] The brand also adds a small amount of its own patented LHA derivative and zinc gluconate, both positioned as supporting actives.[^lrp-me] Salicylic acid's real but second-tier evidence base as an acne treatment is covered in full on [[salicylic-acid]]; LHA's mostly industry-run, mostly small evidence base is covered on [[capryloyl-salicylic-acid-lha]].
+The formula's headline active is salicylic acid, stated on the product packaging as 2% salicylic acid, the top of the 0.5-2% range the FDA's OTC monograph recognizes for acne.[^lrp-me] The brand also adds a small amount of its own patented LHA derivative and zinc gluconate, both positioned as supporting actives.[^lrp-me] Salicylic acid's real but second-tier evidence base as an acne treatment is covered in full on [[salicylic-acid]]; LHA's mostly industry-run, mostly small evidence base is covered on [[capryloyl-salicylic-acid-lha]].
 
 This product does not appear to be sold on La Roche-Posay's US site or at major US retailers; the brand's US Effaclar lineup instead includes the differently formulated Effaclar Purifying Foaming Gel.[^dermstore] It is sold internationally, including in Australia and the Middle East/North Africa region, where an Australian retailer lists the 400 ml size at AU$46.99.[^priceline]
 

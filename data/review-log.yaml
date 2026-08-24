@@ -6273,3 +6273,63 @@ pramoxine-hydrochloride:
   score: 7
   verdict: publish
   note: 'PARALLEL wave3: Sonnet draft + Opus critic REVISE (7); fixed: added the required ## The Evidence section (renamed from ''What We Actually Know'').'
+isntree-hyaluronic-acid-toner:
+  last_reviewed: '2026-08-23'
+  score: 9
+  verdict: publish
+  note: 'PARALLEL wave4: Sonnet+Opus critic verdict publish. Verified vs sources.'
+the-ordinary-granactive-retinoid-2-emulsion:
+  last_reviewed: '2026-08-23'
+  score: 9
+  verdict: publish
+  note: 'PARALLEL wave4: Sonnet+Opus critic verdict publish. Verified vs sources.'
+tris-biphenyl-triazine-tinosorb-a2b:
+  last_reviewed: '2026-08-23'
+  score: 9
+  verdict: publish
+  note: 'PARALLEL wave4: Sonnet+Opus critic verdict publish. Verified vs sources.'
+hydrocortisone-otc-topical-corticosteroid:
+  last_reviewed: '2026-08-23'
+  score: 9
+  verdict: publish
+  note: 'PARALLEL wave4: Sonnet+Opus critic verdict publish. Verified vs sources.'
+palmitoyl-tetrapeptide-7:
+  last_reviewed: '2026-08-23'
+  score: 9
+  verdict: publish
+  note: 'PARALLEL wave4: Sonnet+Opus critic verdict publish. Verified vs sources.'
+4-butylresorcinol:
+  last_reviewed: '2026-08-23'
+  score: 8
+  verdict: publish
+  note: 'PARALLEL wave4: Sonnet+Opus critic verdict publish. Verified vs sources.'
+numbuzin-no-3-skin-softening-serum:
+  last_reviewed: '2026-08-23'
+  score: 7
+  verdict: publish
+  note: 'PARALLEL wave4: Sonnet draft + Opus critic REVISE (7); fixed: softened fragrance-free->no-added-fragrance; corrected ferment ingredient-order (ahead of base solvents).'
+caudalie-vinoperfect-radiance-serum:
+  last_reviewed: '2026-08-23'
+  score: 8
+  verdict: publish
+  note: 'PARALLEL wave4: Sonnet draft + Opus critic REVISE (8); fixed: corrected a misquote (inhibiting->inhibitory).'
+caudalie-vinopure-acne-serum:
+  last_reviewed: '2026-08-23'
+  score: 5
+  verdict: publish
+  note: 'PARALLEL wave4: Sonnet draft + Opus critic REVISE (5); fixed: corrected alphabetical Drug Facts list misread as concentration order; removed unsourced rename + added-conversion; added omitted sunflower oil.'
+naturium-multi-peptide-advanced-serum:
+  last_reviewed: '2026-08-23'
+  score: 4
+  verdict: publish
+  note: 'PARALLEL wave4: Sonnet draft + Opus critic REVISE (4); fixed: REMOVED a fabricated GHK-Cu clinical-trial claim (in no cited source); linked copper-peptide evidence out; removed site self-reference; INCI Aqua/Water/Eau.'
+naturium-multi-bright-milky-toner:
+  last_reviewed: '2026-08-23'
+  score: 6
+  verdict: publish
+  note: 'PARALLEL wave4: Sonnet draft + Opus critic REVISE (6); fixed: removed an uncited second rosacea study; corrected rosacea staging to what the paper enrolled.'
+enzacamene:
+  last_reviewed: '2026-08-23'
+  score: 8
+  verdict: publish
+  note: 'PARALLEL wave4: Sonnet draft + Opus critic REVISE (8); fixed: corrected a citation ordinal (reference 94 not footnote 95).'

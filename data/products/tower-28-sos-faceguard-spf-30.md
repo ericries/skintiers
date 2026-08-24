@@ -2,6 +2,10 @@
 analyzed: '2026-08-22'
 brand: Tower 28
 category: Sunscreens
+images:
+- file: tower-28-sos-faceguard-spf-30-brand.jpg
+  source: Tower 28 Beauty
+  source_url: https://www.tower28beauty.com/products/sos-faceguard-spf-30
 comparator: other mineral facial sunscreens such as [[cetaphil-sheer-mineral-sunscreen-stick-spf-50|Cetaphil's
   Sheer Mineral Stick SPF 50]] (higher SPF, no tint), and Tower 28's own SunnyDays
   Tinted SPF 30 (more coverage, many shades)

@@ -80,7 +80,7 @@
   discovered_from: null
   source: null
   note: reconciled (robust)
-- name: Avène Mineral Ultra-Light SPF 50+
+- name: "Av\xE8ne Mineral Ultra-Light SPF 50+"
   type: product
   priority: 8
   status: done
@@ -1616,7 +1616,7 @@
 - name: Eucerin Eczema Relief Cream
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: 'CONDITION cron (atopic-dermatitis): colloidal-oatmeal eczema cream
     (NEA-accepted); ties to colloidal-oatmeal + atopic-dermatitis'
   source: https://www.eucerinus.com/products/eczema-relief/eczema-relief-cream
@@ -1672,7 +1672,7 @@
 - name: Isntree Hyaluronic Acid Toner
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: 'PERSON cron: K-beauty hyaluronic acid toner; ties to hyaluronic-acid
     + glass-skin'
   source: https://isntree.com/product/hyaluronic-acid-toner
@@ -1686,28 +1686,28 @@
 - name: Numbuzin No.3 Skin Softening Serum
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: 'INGREDIENT cron: popular K-beauty niacinamide/panthenol serum;
     catalog gap'
   source: https://numbuzin.com/products/no-3-skin-softening-serum
 - name: Caudalie Vinoperfect Radiance Serum
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: 'BRAND cron (caudalie): viniferine brightening serum; ties to brightening
     + hyperpigmentation'
   source: https://www.caudalie.us/vinoperfect-radiance-serum.html
 - name: Caudalie Vinopure Salicylic Acid Serum
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: 'BRAND cron: salicylic-acid serum for oily/acne skin; ties to salicylic-acid
     + acne'
   source: https://www.caudalie.us/vinopure-natural-salicylic-acid-pore-minimizing-serum.html
 - name: The Ordinary Granactive Retinoid 2% Emulsion
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: 'GOAL cron (anti-aging): popular next-gen retinoid (HPR) serum;
     ties to retinoids + hydroxypinacolone-retinoate'
   source: https://theordinary.com/en-us/granactive-retinoid-2-emulsion-serum
@@ -1726,13 +1726,13 @@
 - name: Naturium Multi-Peptide Advanced Serum
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://naturium.com
 - name: Naturium Multi-Bright Milky Toner
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://naturium.com
 - name: The Ordinary Argireline Solution 10%

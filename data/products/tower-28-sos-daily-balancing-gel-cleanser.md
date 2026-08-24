@@ -2,6 +2,10 @@
 analyzed: '2026-08-22'
 brand: Tower 28
 category: Cleansers
+images:
+- file: tower-28-sos-daily-balancing-gel-cleanser-brand.png
+  source: Tower 28
+  source_url: https://www.tower28beauty.com/products/sos-gel-cleanser
 comparator: other sulfate-free gentle cleansers such as [[la-roche-posay-toleriane-hydrating-gentle-cleanser]]
   and [[cerave-hydrating-facial-cleanser]], and Tower 28's own SOS sensitive-skin
   line

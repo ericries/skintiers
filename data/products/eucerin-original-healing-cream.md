@@ -3,6 +3,10 @@ analyzed: '2026-08-23'
 assurance: opus
 brand: Eucerin
 category: Moisturizers
+images:
+- file: eucerin-original-healing-cream-pdp.jpg
+  source: Eucerin
+  source_url: https://www.eucerinus.com/products/original-healing-cream
 comparator: other plain petrolatum-and-mineral-oil occlusive body creams and ointments,
   including [[cerave-healing-ointment]]
 grades:

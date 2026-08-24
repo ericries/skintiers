@@ -5,6 +5,10 @@ brand: Nivea
 category: Moisturizers
 comparator: other plain water-oil-wax occlusive creams built on petrolatum and mineral
   oil, including [[eucerin-original-healing-cream]] and [[cerave-healing-ointment]]
+images:
+- file: nivea-creme-niveausa.webp
+  source: NIVEA
+  source_url: https://www.niveausa.com/products/nivea-creme-721408010140079.html
 grades:
 - effect: strong
   evidence: solid

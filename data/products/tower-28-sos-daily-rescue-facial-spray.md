@@ -4,6 +4,10 @@ assurance: sonnet
 brand: Tower 28
 category: Treatments
 comparator: other hypochlorous acid sprays (e.g. Prequel Universal Skin Solution)
+images:
+- file: tower-28-sos-daily-rescue-facial-spray-brand.webp
+  source: Tower 28 Beauty
+  source_url: https://www.tower28beauty.com/products/sos-daily-facial-rescue-spray
 grades:
 - effect: minimal
   evidence: preliminary

@@ -4,6 +4,10 @@ assurance: opus
 brand: Aquaphor
 category: Moisturizers
 comparator: plain petrolatum jelly (e.g. Vaseline) and other OTC skin-protectant ointments
+images:
+- file: aquaphor-healing-ointment-aquaphorus.jpg
+  source: Beiersdorf (Aquaphor)
+  source_url: https://www.aquaphorus.com/products/aquaphor-repairing-ointment/aquaphor-healing-ointment-14oz
 grades:
 - effect: notable
   evidence: solid

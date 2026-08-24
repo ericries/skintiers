@@ -2,6 +2,10 @@
 analyzed: '2026-08-22'
 brand: Tower 28
 category: Cleansers
+images:
+- file: tower-28-sos-rescue-relief-body-wash-brand.png
+  source: Tower 28
+  source_url: https://www.tower28beauty.com/products/sos-rescue-relief-body-wash-treatment
 comparator: Tower 28's own leave-on hypochlorous acid products, the [[tower-28-sos-intensive-rescue-serum|SOS
   serum]] and [[tower-28-sos-daily-rescue-facial-spray|SOS spray]], and its [[tower-28-sos-daily-balancing-gel-cleanser|SOS
   face cleanser]]

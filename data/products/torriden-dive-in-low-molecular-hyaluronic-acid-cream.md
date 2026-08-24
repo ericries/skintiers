@@ -3,6 +3,10 @@ analyzed: '2026-08-23'
 assurance: opus
 brand: Torriden
 category: Moisturizers
+images:
+- file: torriden-dive-in-low-molecular-hyaluronic-acid-cream-torriden.jpg
+  source: Torriden US product page
+  source_url: https://torriden.us/products/dive-in-cream
 comparator: other lightweight, low-molecular-weight hyaluronic-acid moisturizers
 grades:
 - effect: notable

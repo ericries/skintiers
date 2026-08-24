@@ -880,21 +880,21 @@
 - name: Tris-Biphenyl Triazine (Tinosorb A2B)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: 'INGREDIENT cron: newer EU-approved broad-spectrum filter; UV-filter
     ladder gap'
   source: https://ec.europa.eu/growth/tools-databases/cosing/reference/annexes/list/VI
 - name: Enzacamene (4-Methylbenzylidene camphor)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: 'INGREDIENT cron: EU UVB filter under endocrine-disruptor scrutiny
     (skeptical-value page); UV-filter coverage'
   source: https://ec.europa.eu/growth/tools-databases/cosing/reference/annexes/list/VI
 - name: Hydrocortisone (OTC topical corticosteroid)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: 'CONDITION cron (atopic-dermatitis tier_list): OTC first-line anti-inflammatory
     referenced in the tier_list by-line but uncharted; high-value catalog gap'
   source: https://www.ncbi.nlm.nih.gov/books/NBK553196/
@@ -916,14 +916,14 @@
 - name: Palmitoyl Tetrapeptide-7
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: 'LIST cron: anti-inflammatory signal peptide paired with tripeptide-1
     in Matrixyl 3000; peptide-ladder coverage'
   source: https://pubmed.ncbi.nlm.nih.gov/?term=palmitoyl+tetrapeptide-7
 - name: 4-Butylresorcinol (Rucinol)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: 'CONDITION cron (hyperpigmentation): tyrosinase inhibitor named
     in Idriss/Chemist-Confessions pigment videos; extends the pigment tier_list'
   source: https://pubmed.ncbi.nlm.nih.gov/?term=4-butylresorcinol+melasma
