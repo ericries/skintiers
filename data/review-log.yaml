@@ -6338,3 +6338,8 @@ vanicream-z-bar-pyrithione-zinc:
   score: 9
   verdict: publish
   note: 'PRODUCT cron (antidandruff/seb-derm cluster). DailyMed SPL (setid 21c84000) verified VERBATIM: active ''pyrithione zinc 2%'', purpose ''Anti-dandruff, Anti-seborrheic dermatitis'', uses/directions/inactives. Evidence linked OUT to [[zinc-pyrithione]] (tier mid) + antidandruff tier list (pyrithione zinc ranked moderate), NOT re-told. Gentle sulfate-free syndet (sodium cocoyl isethionate) + fragrance-free base framed as a formulation strength, not added antifungal effect. Bar format (face/body vs scalp shampoo) noted. Off-label fungal-acne modest/preliminary (mechanistic; evidence centers on azoles/selenium sulfide). Opus main-loop critic; assurance sonnet.'
+palmers-cocoa-butter-skin-therapy-oil:
+  last_reviewed: '2026-08-24'
+  score: 9
+  verdict: publish
+  note: 'PRODUCT cron (stretch-marks cluster). Palmers.com is a Shopify JS-SPA (curl 404d); resolved via Apify + CACHED brand markdown. Price $13.49/5.1fl oz, composition (cocoa butter, vitamin E, argan oil, Cetesomate-E), and all claims verified VERBATIM. SKEPTICAL SPINE: the headline scar/stretch-mark case rests on cocoa butter - the ingredient a placebo-controlled RCT (Osman 2008) + Ud-Din 2016 review found INEFFECTIVE for stretch marks - linked OUT to [[stretch-marks]], NOT re-told. Brand "93% scars / 92% stretch marks / 94% tone" figures correctly quarantined as its own uncontrolled 8-week home-user survey of 200 female panelists (self-reported). "#1 Stretch Marks brand" = a sales-ranking claim, not efficacy. Grades: moisturizing modest/established (real emollient oil) + scars/stretch-marks minimal/anecdotal. argan-oil/vitamin-e ingredient pages absent (not linked). Opus main-loop critic; assurance sonnet.'

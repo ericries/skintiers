@@ -1825,7 +1825,7 @@
 - name: Vanicream Z-Bar (pyrithione zinc cleansing bar)
   type: product
   priority: 6
-  status: pending
+  status: done
   discovered_from: null
   source: Fragrance-free pyrithione zinc 2% cleansing bar widely used for seborrheic
     dermatitis + fungal acne; brand (vanicream.com) + retailer sourceable
@@ -1846,7 +1846,7 @@
 - name: Palmer's Cocoa Butter Skin Therapy Oil (scars / stretch marks)
   type: product
   priority: 6
-  status: pending
+  status: done
   discovered_from: palmers-cocoa-butter-massage-lotion-stretch-marks
   source: Palmer's multi-purpose dry oil marketed for scars/stretch marks/uneven tone;
     brand page + retailer sourceable; skeptical catalog
