@@ -37,6 +37,17 @@ videos:
   thesis: "Cosmetic chemists Victoria Fu and Gloria Lu of Chemist Confessions take a hard look at copper peptides, the copper-binding tripeptide known by the shorthand GHK-Cu that is often marketed as a collagen booster. They walk through permeation research showing the molecule struggles to get past the skin's outer layer and note that the clinical evidence behind topical copper peptides is thin, resting mostly on a handful of old, hard-to-access studies that get recycled across marketing copy. Their conclusion is that copper peptides have a compelling backstory but are not a must-have, so people already curious about them can experiment without expecting dramatic results."
   related: ["peptides"]
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: 5 Copper Peptide Serums Tested
+  creator: Chemist Confessions
+  creator_slug: victoria-fu
+  credential: Cosmetic chemists
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=WCPIouF2LPQ
+  posted: '2026-08-17'
+  related: [the-ordinary-multi-peptide-copper-peptides-serum, niod-copper-amino-isolate-serum-3-1-1]
+  thesis: Cosmetic chemists Victoria Fu and Gloria Lu of Chemist Confessions test and compare five copper peptide serums, including The Ordinary's, as a follow-up to their science deep dive on the ingredient. They are openly skeptical of the eye-catching 200 to 400 percent hydration-boost figures some brands cite, question what those numbers actually mean, and coach viewers to scan ingredient lists for named peptides like GHK to judge a product rather than trusting headline claims.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Copper peptides are the copper complex of the human tripeptide GHK (glycyl-L-histidyl-L-lysine), sold in skincare as copper tripeptide-1 or GHK-Cu, one of the four classes of cosmetic peptide (a "carrier peptide") whose job is to move trace copper into skin.[^gorouhi][^pickart2008]
