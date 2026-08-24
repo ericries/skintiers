@@ -3,6 +3,10 @@ analyzed: '2026-08-23'
 assurance: opus
 brand: EltaMD
 category: Sunscreens
+images:
+- file: eltamd-uv-aox-elements-tinted-mineral-spf-50-eltamd.jpg
+  source: EltaMD
+  source_url: https://eltamd.com/products/eltamd-uv-aox-elements-broad-spectrum-spf-50
 grades:
 - effect: notable
   evidence: established

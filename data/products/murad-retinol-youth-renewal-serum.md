@@ -3,6 +3,10 @@ analyzed: '2026-08-23'
 assurance: opus
 brand: Murad
 category: Retinoids
+images:
+- file: murad-retinol-youth-renewal-serum-murad.png
+  source: Murad
+  source_url: https://www.murad.com/products/retinol-youth-renewal-serum
 comparator: other retinol and retinoid options graded on [[retinol]] and [[retinoids]]
 grades:
 - effect: notable

@@ -3,6 +3,10 @@ analyzed: '2026-08-23'
 assurance: opus
 brand: Neutrogena
 category: Treatments
+images:
+- file: neutrogena-tgel-therapeutic-shampoo-coal-tar-neutrogena.jpg
+  source: Neutrogena
+  source_url: https://www.neutrogena.co.uk/hair-and-scalp/dandruff/t-gel-therapeutic-shampoo
 grades:
 - effect: modest
   evidence: established
