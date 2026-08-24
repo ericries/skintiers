@@ -1175,3 +1175,10 @@
   source: Broad-spectrum topical antifungal used for seborrheic dermatitis and tinea;
     DailyMed-labeled (Rx shampoo/cream); rounds out the antidandruff/antifungal ingredient
     set
+- name: Vitamin K (topical, phytonadione)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: dark-circles
+  source: Often marketed for under-eye/vascular dark circles + bruising; thin evidence;
+    would round out the dark-circles actives
