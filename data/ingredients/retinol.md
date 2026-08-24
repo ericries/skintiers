@@ -47,6 +47,17 @@ videos:
   thesis: "Cosmetic chemist Michelle Wong addresses why peer-reviewed clinical trials on retinol are scarce compared with prescription retinoids, tracing it to a decades-old drug-versus-cosmetic regulatory split and companies' weaker financial incentive to fund and publish cosmetic research. She argues that once mechanism-of-action studies, cell and tissue evidence, and retinol's known skin conversion into tretinoin are considered together, the case that retinol works is convincing even without abundant high-quality clinical trials."
   related: ["tretinoin", "retinoids"]
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: Should you use Retinol for Pigmentation?
+  creator: Dr. Davin Lim
+  creator_slug: davin-lim
+  credential: Board-certified dermatologist (Australia)
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=0ehPg16IljA
+  posted: '2024-03-21'
+  related: [retinoids, tretinoin, hyperpigmentation]
+  thesis: Board-certified dermatologist Dr. Davin Lim explains retinol, an over-the-counter vitamin A preparation he counts among his go-to anti-aging ingredients for wrinkles, photodamage, and pore appearance, and how it helps with pigmentation. He also contrasts it with prescription-strength tretinoin.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Retinol is the alcohol form of vitamin A and the most-studied cosmetic [[retinoids|retinoid]] sold over the counter, sitting two enzymatic steps from the receptor-active acid that prescription retinoids deliver directly.

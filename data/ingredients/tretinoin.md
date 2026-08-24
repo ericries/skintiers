@@ -38,6 +38,16 @@ videos:
   related: []
   thesis: "Board-certified dermatologist Dr. Lindsey Zubritsky (DermGuru) walks through the correct application technique for tretinoin, a prescription retinoid: apply it to fully dry skin, protect the nose, lips, and eye area with petroleum jelly, use only a pea-sized amount spread evenly over the face and down the neck, and finish by moisturizing again using the 'sandwich method' (moisturizer, tretinoin, moisturizer) to reduce irritation. She notes applying moisturizer before tretinoin first is optional."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: Should you use Tretinoin?
+  creator: Dr. Davin Lim
+  creator_slug: davin-lim
+  credential: Board-certified dermatologist (Australia)
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=G8hiEpfx2g8
+  posted: '2024-04-06'
+  related: [retinoids, hyperpigmentation, melasma]
+  thesis: Board-certified dermatologist Dr. Davin Lim explains tretinoin, a first-generation prescription retinoid and vitamin A analog traditionally used for anti-aging, and how well it works for pigmentation. He places it within the broader class of prescription retinoids available as creams or tablets and walks through how it acts on pigment.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

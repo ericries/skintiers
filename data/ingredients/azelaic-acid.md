@@ -118,6 +118,16 @@ videos:
   related: [rosacea, acne]
   thesis: Board-certified dermatologist Dr. Caroline Robinson gives a quick rundown of azelaic acid concentrations, noting she typically prescribes 15% for rosacea and 20% for acne patients, while over-the-counter formulations are usually around 10% and can still help calm redness and hyperpigmentation. She gives azelaic acid an overall thumbs up as a treatment option.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Should you use Azelaic acid for Pigmentation?
+  creator: Dr. Davin Lim
+  creator_slug: davin-lim
+  credential: Board-certified dermatologist (Australia)
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=gILZWIHqlBk
+  posted: '2024-03-30'
+  related: [hyperpigmentation, melasma]
+  thesis: Board-certified dermatologist Dr. Davin Lim explains azelaic acid, a naturally occurring acid, and how useful it is for pigmentary conditions such as melasma and post-inflammatory hyperpigmentation. He covers what it is, the concentrations used, the side effects, and how effective it actually is for pigment.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
