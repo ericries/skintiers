@@ -1679,7 +1679,7 @@
 - name: Medicube PDRN Pink Collagen Serum
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: 'INGREDIENT cron (pdrn): popular topical PDRN-marketed serum; surfaces
     the new [[polydeoxyribonucleotide-pdrn]] skeptical page against a real product'
   source: https://themedicube.com/products/pdrn-pink-collagen-serum

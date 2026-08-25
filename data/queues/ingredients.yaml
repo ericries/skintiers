@@ -1228,3 +1228,10 @@
   source: Ubiquitous co-surfactant in this INCI + most gentle cleansers; a notable
     ACD contact allergen (ACDS Allergen of the Year 2004) - evidence+allergy page
     like decyl-glucoside
+- name: Exosomes (topical / extracellular vesicles)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: medicube-pdrn-pink-collagen-exosome-shot-serum
+  source: Trendy K-beauty active declared at 10 ppm here + in many serums; needs a
+    skeptical evidence page like [[polydeoxyribonucleotide-pdrn]]
