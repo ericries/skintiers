@@ -1256,3 +1256,10 @@
   discovered_from: cocoa-butter
   source: A principal fatty acid of cocoa butter + common emulsifier/emollient across
     creams; basic evidence page
+- name: Palmitoyl Pentapeptide-4 (Matrixyl, topical peptide)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: the-ordinary-argireline-solution-10
+  source: The other headline anti-aging peptide (Matrixyl); appears across The Ordinary
+    + many serums; needs its own evidence page beside [[argireline-acetyl-hexapeptide-8]]

@@ -6369,3 +6369,8 @@ cocoa-butter:
   score: 9
   verdict: publish
   note: 'INGREDIENT cron (from Osman 2008 study page). Skeptical emollient page: generic occlusive moisturizer + DEBUNKED stretch-mark claim. Osman 2008 (PMID 18715434, BJOG) stats re-verified VERBATIM vs PubMed abstract: 210 enrolled/175 (83%) completed, 91 cocoa butter vs 84 placebo, SG development 45.1% vs 48.8% P=0.730, no severity difference, conclusion "does not appear to reduce the likelihood of developing striae gravidarum". Stretch-mark evidence linked OUT to [[stretch-marks]] + study pages (NOT re-told). tier:weak matches rubric (generic emollient shared by other occlusives; comedogenic; marquee claim disproven). PubMed durable primary (no cache). Opus main-loop critic; assurance sonnet.'
+the-ordinary-argireline-solution-10:
+  last_reviewed: '2026-08-25'
+  score: 9
+  verdict: publish
+  note: 'PRODUCT cron (from Nukaly 2026 peptide meta study; ties to argireline). theordinary.com JS-SPA (curl empty); Apify got the MANUFACTURER page + brand deep-dive (CACHED, classify=unknown). Price $9.70/30ml, verbatim INCI (Acetyl Hexapeptide-8 3rd), pH 6-7, and all brand claims verified VERBATIM vs cache. SKEPTICAL SPINE: Argireline = "topical Botox" peptide; independent evidence weak (US gov tox study: almost none penetrates; small trials only modest surface wrinkle-depth) - linked OUT to [[argireline-acetyl-hexapeptide-8]], NOT re-told. Brand "improvement in just 2 weeks (crows feet/forehead/glabellar/nasolabial)" quarantined as its own uncontrolled test. Noted "10%" = Argireline trade-solution conc, not 10% pure peptide. Grade minimal/weak. Opus main-loop critic; assurance sonnet.'

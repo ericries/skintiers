@@ -1738,7 +1738,7 @@
 - name: The Ordinary Argireline Solution 10%
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: STUDY cron (Nukaly 2026 peptide meta-analysis; ties to argireline-acetyl-hexapeptide-8)
   source: https://theordinary.com/
 - name: Paula's Choice Peptide Booster
@@ -2085,3 +2085,10 @@
   discovered_from: polydeoxyribonucleotide-pdrn
   source: 'Dr Dray - PDRN Skincare: Is It Worth the Hype? (video, bktMjB3Ke2o); $20
     at Ulta; topical PDRN/sodium DNA + caffeine eye cream'
+- name: The Ordinary Matrixyl 10% + HA
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: the-ordinary-argireline-solution-10
+  source: Sibling peptide serum in The Ordinary's anti-aging peptide range (compared
+    in the brand's Argireline deep-dive); palmitoyl-based Matrixyl peptides
