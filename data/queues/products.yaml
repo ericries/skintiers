@@ -2078,3 +2078,10 @@
   status: pending
   discovered_from: cln-bodywash
   source: Face version of CLn BodyWash for perioral dermatitis/acne-prone skin; clnwash.com/products/facial-cleanser
+- name: Avon ANEW PDRN Caffeine Rejuvenating Eye Cream
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: polydeoxyribonucleotide-pdrn
+  source: 'Dr Dray - PDRN Skincare: Is It Worth the Hype? (video, bktMjB3Ke2o); $20
+    at Ulta; topical PDRN/sodium DNA + caffeine eye cream'

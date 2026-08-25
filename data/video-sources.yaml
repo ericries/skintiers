@@ -47,7 +47,7 @@
   tier: HIGH
   channel: https://www.youtube.com/@DrDrayzday/videos
   conflict: null
-  last_pulled: '2026-08-23'
+  last_pulled: '2026-08-25'
 - name: Dr. Muneeb Shah (DermDoctor)
   creator_slug: muneeb-shah
   credential: Board-certified dermatologist
