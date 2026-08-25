@@ -1235,3 +1235,10 @@
   discovered_from: medicube-pdrn-pink-collagen-exosome-shot-serum
   source: Trendy K-beauty active declared at 10 ppm here + in many serums; needs a
     skeptical evidence page like [[polydeoxyribonucleotide-pdrn]]
+- name: Acetyl Dipeptide-1 Cetyl Ester (Calmosensine soothing peptide)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: la-roche-posay-rosaliac-ar-intense-serum
+  source: The neurosensine active in LRP Rosaliac + other soothing serums; only a
+    capsaicin-sting model backs it - skeptical soothing-peptide evidence page

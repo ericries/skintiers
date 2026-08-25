@@ -1714,7 +1714,7 @@
 - name: La Roche-Posay Rosaliac AR Intense Serum
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: 'ROSACEA hub: redness-prone-skin serum; ties to rosacea + niacinamide'
   source: https://www.laroche-posay.us/our-products/sensitive-allergic-skin/redness-prone-skin/rosaliac-ar-intense-visible-redness-reducing-serum
 - name: Naturium Multi-Peptide Moisturizer
