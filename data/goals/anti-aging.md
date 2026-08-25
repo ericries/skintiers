@@ -130,6 +130,16 @@ videos:
   related: [ascorbic-acid-vitamin-c, copper-peptides, galactomyces-ferment-filtrate, peptides, retinoids, sunscreen-uv-filters]
   thesis: Board-certified dermatologist Dr. Sam Ellis compares six expensive anti-aging skincare products with cheaper alternatives that share the same key ingredients. She notes that SkinCeuticals CE Ferulic, the vitamin C serum most of the anti-aging research was done on, lost its patent and now has close dupes such as MaeLove Glow Maker and Timeless 20% CE Ferulic built on the same L-ascorbic acid, vitamin E, and ferulic acid at low pH; that NIOD's copper peptide serum is closely matched by The Ordinary's cheaper multi-peptide plus copper version; and that the SK-II galactomyces essence has a COSRX galactomyces dupe. She frames vitamin C, retinoids, and sunscreen as the core anti-aging trio, with peptides as the next thing to add.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: The Longevity Serums Worth Buying (And The Scams)
+  creator: Dr. Dustin Portela
+  creator_slug: dustin-portela
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=jMC07PlUMSk
+  posted: '2026-07-05'
+  related: [retinoids, retinol, peptides, sunscreen-uv-filters, vitamin-c]
+  thesis: Board-certified dermatologist Dr Dustin Portela unpacks how the skincare industry has rebranded anti-aging as skin longevity, warning that brands often quietly swap the label on the same product to sell it again. He offers a framework for telling a genuine shift in skin science from a marketing move, and weighs which longevity-marketed ingredients, from retinoids and peptides to NAD+ and vitamin C, are worth buying versus hype, with sunscreen as the non-negotiable foundation.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
