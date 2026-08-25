@@ -56,7 +56,9 @@ EXCLUDE_TITLE = [
     "toxin", "platysma",
 ]
 RECENT_DAYS = 1095   # ~3 years
-MAX_FETCH = 30
+MAX_FETCH = 120      # widened 2026-08-25: with sort=date the newest ~68 were all
+                     # already ingested, so retmax=30 returned "no new" every run;
+                     # a deeper window resurfaces the un-ingested tail (dedup still applies)
 
 _PMID_RE = re.compile(r"pubmed\.ncbi\.nlm\.nih\.gov/(\d+)")
 

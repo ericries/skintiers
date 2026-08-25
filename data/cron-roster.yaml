@@ -33,7 +33,15 @@ _fill_template: |
 
   STEP 1: fill ONE page — prefer an existing {type} stub, else the next queued item
   (`.venv/bin/python scripts/sk queue-next --type {type}`); if neither exists, skip STEP 1 (do not invent
-  work). Follow docs/writing-guide.md + docs/anti-ai-ese.md, SCALED to the scope above.
+  work). CURATE-DON'T-SKIP EXCEPTION for condition / goal / list ONLY (user 2026-08-25): these are curatorial
+  hubs, so when there is no stub AND the queue is empty, do NOT skip. Instead MAINTAIN one existing {type} hub:
+  pick a published {type} page whose tier_list is missing recently-published graded products/ingredients that
+  genuinely belong on it (grep data/products + data/ingredients for pages published since the hub's `updated`
+  date that fit its topic), and add those items to the existing tier_list block (keep the tier_list schema and
+  tiers; link to the pages that already exist; concise, NO padding, do not re-explain what those pages own).
+  This keeps the evidence tier lists current as the catalog grows. Bump the hub's `updated` date. (product /
+  ingredient / study / brand / person still skip on an empty queue - they are not curatorial hubs.)
+  Follow docs/writing-guide.md + docs/anti-ai-ese.md, SCALED to the scope above.
   FETCHING (product/ingredient composition, price, INCI, claims): try `curl -sL -A "Mozilla/5.0" <url>` first.
   If it returns only a JS-SPA shell or a bot-block (Cloudflare/"Robot or human?", empty title, no INCI/price),
   use the Apify browser instead: ToolSearch "select:mcp__apify__apify--rag-web-browser,mcp__apify__get-dataset-items",
@@ -49,7 +57,13 @@ _fill_template: |
   work; publish only once sk lint+verify+style are clean {PUBLISH}. Record the review in data/review-log.yaml.
   STEP 2 (main loop, no subagent): add 2-5 REAL grounded candidates (name + source) to OTHER type queues via
   `sk queue-add` — bias toward PRODUCTS and INGREDIENTS (the catalog), since brand/person/study exist mainly to
-  surface those. Then commit the shipped page, build, and push (git pull --rebase then push if rejected).
+  surface those. CROSS-FEED THE DISCOVERY QUEUES so they do not starve (user 2026-08-25): whenever the page you
+  just shipped genuinely surfaces a DISCOVERY entity that has NO page yet, queue it too (in addition to the
+  product/ingredient candidates) — a skin condition or goal the product treats but the site has no hub for
+  (`--type condition`/`--type goal`), a best-of / tier list the product clearly belongs on that does not exist
+  yet (`--type list`), or a credible expert/creator named on the page without a person page (`--type person`).
+  Only queue discovery entities that are genuinely grounded in the shipped page; do NOT invent hubs. Then commit
+  the shipped page, build, and push (git pull --rebase then push if rejected).
   One-line summary. (What's New is auto-derived from each page's `updated` date - do NOT run `sk log`.)
 
 crons:
