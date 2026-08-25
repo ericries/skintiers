@@ -3,6 +3,10 @@ analyzed: '2026-08-24'
 assurance: opus
 brand: Medicube
 category: Treatments
+images:
+- file: medicube-pdrn-pink-collagen-exosome-shot-serum-incidecoder.jpg
+  source: INKEEDecoder
+  source_url: https://inkeedecoder.com/products/medicube-pdrn-pink-collagen-exosome-shot-serum
 comparator: other trace-PDRN "collagen" serums, and plainer [[niacinamide]] serums
   that carry the one meaningfully-dosed active here without the marquee extras
 grades:

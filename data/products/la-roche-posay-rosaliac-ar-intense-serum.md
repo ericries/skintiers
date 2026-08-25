@@ -3,6 +3,10 @@ analyzed: '2026-08-25'
 assurance: opus
 brand: La Roche-Posay
 category: Treatments
+images:
+- file: la-roche-posay-rosaliac-ar-intense-serum-incidecoder.jpg
+  source: INKEEDecoder
+  source_url: https://inkeedecoder.com/products/la-roche-posay-rosaliac-ar-intense-serum
 comparator: evidence-based rosacea redness topicals (azelaic acid, brimonidine, ivermectin,
   metronidazole) graded on [[rosacea]], and plainer fragrance-free soothing moisturizers
 grades:
