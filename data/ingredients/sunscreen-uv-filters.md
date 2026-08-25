@@ -418,6 +418,26 @@ videos:
   related: [melasma, hyperpigmentation, niacinamide, acne]
   thesis: Board-certified dermatologist Dr. Daniel Sugai explains why tinted sunscreens containing iron oxide matter for people with melasma, post-acne marks, or hyperpigmentation, since visible light (not just UVA and UVB) can worsen these conditions even with diligent use of a non-tinted sunscreen. He compares tint-matching and formulation differences across several drugstore and prestige tinted sunscreen brands and notes that all mineral formulas are gentler for pediatric and sensitive skin use. He mentions a Bubble Skincare tinted sunscreen as an affordable teen option, describing it as his daughter's favorite brand.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Scientist Debunks Sunscreen Myths in the News
+  creator: Michelle Wong (Lab Muffin)
+  creator_slug: michelle-wong
+  credential: Cosmetic chemist, PhD
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=9Ttg-QliIAE
+  posted: '2023-06-26'
+  related: []
+  thesis: Cosmetic chemist Michelle Wong of Lab Muffin Beauty Science, who holds a chemistry PhD, works through sunscreen myths spread by trusted media outlets, explaining what the news articles get wrong about sunscreen and what you should do instead. She notes she has previously debunked claims that sunscreens are toxic or that you can safely make your own, and here targets the subtler, harder-to-spot bad advice.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Do sunscreen sticks work? The science
+  creator: Michelle Wong (Lab Muffin)
+  creator_slug: michelle-wong
+  credential: Cosmetic chemist, PhD
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=rDZGu68c5sU
+  posted: '2023-03-13'
+  related: []
+  thesis: Cosmetic chemist Michelle Wong of Lab Muffin Beauty Science, a chemistry PhD, ran her own experiments on sunscreen sticks to figure out how they should be used and says she was shocked by the results. She explains that although sticks are convenient for reapplying without getting sunscreen all over your hands, how you apply one strongly affects whether you actually get the protection stated on the label.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 name: Sunscreen (UV filters)
 slug: sunscreen-uv-filters
 status: published
