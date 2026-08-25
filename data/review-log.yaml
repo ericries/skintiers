@@ -6364,3 +6364,8 @@ la-roche-posay-rosaliac-ar-intense-serum:
   score: 9
   verdict: publish
   note: 'PRODUCT cron (rosacea cluster). LRP site JS-SPA (curl empty); Apify + 2 independent INCI databases (inkeedecoder CACHED + hautschutzengel corroborating - identical ordered INCI). SKEPTICAL SPINE verified vs cache: hero actives decode to ambophenol=Tambourissa Trichophylla Leaf Extract (7th) + neurosensine=Acetyl Dipeptide-1 Cetyl Ester/Calmosensine (LAST), neither with independent rosacea/redness trials; only Calmosensine has a manufacturer-cited capsaicin-sting result (comparator 4-t-butylcyclohexanol did somewhat better). CORRECTED the queue assumption: NO niacinamide in this formula. "light reflectors" claim unsupported by INCI (no pigments). No price captured -> omitted. Real rosacea topicals linked out to [[rosacea]]. Grades: calming modest/established; redness minimal/weak. Opus main-loop critic; assurance sonnet.'
+cocoa-butter:
+  last_reviewed: '2026-08-25'
+  score: 9
+  verdict: publish
+  note: 'INGREDIENT cron (from Osman 2008 study page). Skeptical emollient page: generic occlusive moisturizer + DEBUNKED stretch-mark claim. Osman 2008 (PMID 18715434, BJOG) stats re-verified VERBATIM vs PubMed abstract: 210 enrolled/175 (83%) completed, 91 cocoa butter vs 84 placebo, SG development 45.1% vs 48.8% P=0.730, no severity difference, conclusion "does not appear to reduce the likelihood of developing striae gravidarum". Stretch-mark evidence linked OUT to [[stretch-marks]] + study pages (NOT re-told). tier:weak matches rubric (generic emollient shared by other occlusives; comedogenic; marquee claim disproven). PubMed durable primary (no cache). Opus main-loop critic; assurance sonnet.'

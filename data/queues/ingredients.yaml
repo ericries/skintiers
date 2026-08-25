@@ -1095,7 +1095,7 @@
 - name: Cocoa butter (Theobroma cacao seed butter)
   type: ingredient
   priority: 7
-  status: pending
+  status: done
   discovered_from: osman-2008-cocoa-butter-for-prevention-of-striae-gravidarum-rct
   source: Ubiquitous plant-butter emollient; a placebo-controlled RCT (Osman 2008)
     shows NO stretch-mark benefit, but it is a legit moisturizing occlusive-emollient
@@ -1242,3 +1242,17 @@
   discovered_from: la-roche-posay-rosaliac-ar-intense-serum
   source: The neurosensine active in LRP Rosaliac + other soothing serums; only a
     capsaicin-sting model backs it - skeptical soothing-peptide evidence page
+- name: Shea butter (Butyrospermum Parkii)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: cocoa-butter
+  source: Comparator occlusive plant butter referenced on cocoa-butter; ubiquitous
+    in body/face creams; deserves its own emollient evidence page
+- name: Stearic acid (topical fatty acid / emollient)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: cocoa-butter
+  source: A principal fatty acid of cocoa butter + common emulsifier/emollient across
+    creams; basic evidence page
