@@ -3,6 +3,10 @@ analyzed: '2026-08-24'
 assurance: opus
 brand: CLn Skin Care
 category: Cleansers
+images:
+- file: cln-bodywash-clnwash.jpg
+  source: CLn Skin Care
+  source_url: https://www.clnwash.com/products/bodywash
 comparator: Tower 28's [[tower-28-sos-rescue-relief-body-wash|SOS Rescue + Relief
   Body Wash]] (which uses hypochlorous acid, not sodium hypochlorite), and plain gentle
   or dilute-bleach-bath approaches graded on [[atopic-dermatitis]]
