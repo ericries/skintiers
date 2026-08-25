@@ -3,6 +3,10 @@ analyzed: '2026-08-23'
 assurance: opus
 brand: Vanicream
 category: Moisturizers
+images:
+- file: vanicream-daily-facial-moisturizer-incidecoder.jpg
+  source: INKEEDecoder
+  source_url: https://inkeedecoder.com/products/vanicream-daily-facial-moisturizer
 comparator: other fragrance-free facial moisturizers with hyaluronic acid and ceramides,
   especially [[cerave-pm-facial-moisturizing-lotion]]
 grades:
