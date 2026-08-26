@@ -98,7 +98,7 @@
 - name: Best peptide serums by evidence
   type: list
   priority: 5
-  status: pending
+  status: done
   discovered_from: paulas-choice-peptide-booster
   source: 'CROSS-FEED: a best-of/tier list this product + The Ordinary Argireline
     + Multi-Peptide serums belong on; no peptide-serum list exists yet'

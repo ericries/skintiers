@@ -1271,3 +1271,10 @@
   source: Beiersdorf tyrosinase-inhibitor brightening active (Eucerin Anti-Pigment);
     Taylor 2026 + Desai 2025 + Grimes RCTs; high-value hyperpigmentation ingredient
     page, no page yet
+- name: Palmitoyl Tripeptide-1 (Matrixyl 3000 component)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: best-peptide-serums
+  source: The other half of Matrixyl 3000 (with palmitoyl tetrapeptide-7, which has
+    a page); appears across peptide serums

@@ -1396,28 +1396,10 @@ neale-2019-sunscreen-vitamin-d:
 
     '
 best-peptide-serums:
-  last_reviewed: '2026-08-04'
-  score: 8
-  verdict: self-reviewed
-  note: 'Best-of list filled (daily list cron; Sonnet draft + my own check, no Opus critic per the curatorial
-
-    list rule; assurance=sonnet, published --force). Ranks the site''s three peptide serums (COSRX 6 Peptide >
-
-    TO Multi-Peptide+HA > TO Copper Peptides) skeptically against the thin peptide evidence, rationale drawn
-
-    from already-published [[peptides]]/[[copper-peptides]]/[[hyaluronic-acid]] pages. MY CHECK caught the
-
-    drafter introducing an unverified external claim (a GHK-Cu post-laser-resurfacing RCT) NOT on the
-
-    copper-peptides page; replaced it with the on-site-supported rationale (copper peptide''s human cosmetic
-
-    case rests on discoverer-authored/uncontrolled reviews + limited stratum-corneum permeation). Confirmed the
-
-    retained claims (acetyl hexapeptide-8 limited penetration per 2025 review; 2026 peptide meta) trace to the
-
-    linked pages'' citations. Links only to existing pages. lint+verify+style clean.
-
-    '
+  last_reviewed: '2026-08-26'
+  score: 9
+  verdict: publish
+  note: 'LIST cron (curate). Cross-fed "Best peptide serums by evidence" was a DUP of the existing best-peptide-serums list -> resolved as dup, curated the existing list instead. Added 5 recently-published peptide SERUMS to the tier_list + concise prose, ranked by evidence: Paula Choice Multi-Peptide Booster (most peptide-dense, top), Naturium Multi-Peptide, Allies of Skin (broad blends); NIOD Copper Amino Isolate (copper section); The Ordinary Argireline (new single-peptide section, bottom - weakest evidence). Moisturizers/creams (PC plumping moisturizer, Naturium moisturizer, Skinfix, NIOD HA) excluded - list is SERUMS. Fixed "three serums" intro references. All facts from the already-verified product/ingredient pages linked out. Sonnet-quality curate; my own lint/verify/style all clean.'
 diethylamino-hydroxybenzoyl-hexyl-benzoate:
   last_reviewed: '2026-08-04'
   score: 9
@@ -5546,33 +5528,10 @@ black-girl-sunscreen:
 
     '
 fungal-acne:
-  last_reviewed: '2026-08-13'
-  score: 7
-  verdict: revise-then-published
-  assurance: sonnet
-  note: 'Fungal acne (Malassezia folliculitis) condition hub. Daily CONDITION cron (Sonnet + Opus critic).
-
-    4 durable primary sources (Saunte 2020 PMC7098993, StatPearls NBK547754, Henning 2023 EADV position
-
-    statement, Okamoto 2021 BPO in-vitro); critic re-fetched all and confirmed every quote/stat verbatim.
-
-    Core value = DIFFERENTIATION: it''s a yeast (Malassezia) not bacterial acne, does NOT respond to acne
-
-    antibiotics (which are themselves a risk factor) and needs ANTIFUNGALS. Exemplary omit-empty: the
-
-    tier_list is ONE item (benzoyl-peroxide, minimal, flagged in-vitro-only); sulfur/salicylic/azelaic
-
-    EXCLUDED for lack of anti-Malassezia evidence rather than padded. Prescription antifungals (topical
-
-    azoles/selenium sulfide; oral itraconazole 69-100%, fluconazole 80%) named in caption/prose, not as
-
-    tier items (no pages). Applied 4 critic fixes: flip to published; Henning issue no. (6)->(7); a
-
-    StatPearls misattribution re-pointed to Saunte; two self-referential process phrases stripped. Surfaces
-
-    on the concern->product feed via benzoyl-peroxide products. assurance=sonnet. lint/verify/style clean.
-
-    '
+  last_reviewed: '2026-08-21'
+  score: 9
+  verdict: publish
+  note: 'CONDITION cron: curatorial tier_list maintenance (no new page - the queued "Malassezia folliculitis (fungal acne)" was a DUPLICATE of this existing page, since fungal acne IS Malassezia folliculitis; resolved that phantom queue item). The anti-Malassezia tier_list had only ONE item (benzoyl-peroxide minimal), omitting ketoconazole, the best-evidenced azole antifungal. Added ketoconazole tier:strong as the top item, grounded in the page''s existing Saunte citation ("azole antifungals" first-line topical) + the [[ketoconazole]] page; honestly noted its highest-quality RCTs are in seborrheic dermatitis, not fungal acne specifically. No new external source (reused Saunte), verify clean. Consistent with the page''s existing Dr Zubritsky video card that names ketoconazole for fungal acne. Opus critic agent unavailable (cap); verified in the Opus main loop; page assurance unchanged (sonnet).'
 la-roche-posay-lipikar-balm-ap-m:
   last_reviewed: '2026-08-13'
   score: 8
@@ -5957,7 +5916,8 @@ selsun-blue-selenium-sulfide-shampoo:
   last_reviewed: '2026-08-21'
   score: 9
   verdict: publish
-  note: 'PRODUCT cron. Queue name (Selsun Blue "Medicated") is legacy; DailyMed lists the current selenium sulfide SKUs as "Normal to Oily" and "Moisturizing" (both selenium sulfide 1%), so titled the page to the selenium sulfide 1% identity. Composition verified VERBATIM against the DailyMed FDA label (setid f97e458c): active "selenium sulfide 1%", purpose "antidandruff", full INCI. Efficacy grounded in the on-site opus-verified Farris 2026 RCT (PMID 41931685): 0.6% selenium disulfide matched 2% ketoconazole, TSS -77.9% vs -69.5%, no between-group difference; flagged that the trial used a different 0.6% micronized formulation, not this 1% product. Off-label fungal-acne use linked out to [[fungal-acne]] (owns the Saunte regimen), NOT re-cited. Self-critic caught + fixed a citation mismatch (Farris [^2] wrongly attached to fungal-acne claims; removed, link-out carries them). Both sources primary (DailyMed + PubMed), verify clean. Opus critic agent unavailable (200-agent cap); verified in the Opus main loop; assurance sonnet.'
+  note: 'PRODUCT cron. Queue name (Selsun Blue "Medicated") is legacy; DailyMed lists the current selenium sulfide SKUs as "Normal to Oily" and "Moisturizing" (both selenium sulfide 1%), so titled the page to the selenium sulfide 1% identity. Composition verified VERBATIM against the DailyMed FDA label (setid f97e458c): active "selenium sulfide 1%", purpose "antidandruff", full INCI. Efficacy grounded in the on-site opus-verified Farris 2026 RCT (PMID 41931685): 0.6% selenium disulfide matched 2% ketoconazole, TSS -77.9% vs -69.5%, no between-group difference; flagged that the trial used a different 0.6% micronized formulation, not this 1% product. Off-label fungal-acne use linked out to [[fungal-acne]] (owns the Saunte regimen), NOT re-cited. Self-critic caught + fixed a citation mismatch (Farris [^2] wrongly attached to fungal-acne claims; removed, link-out carries them). Both sources primary (DailyMed + PubMed), verify clean. Opus critic agent unavailable (200-agent cap); verified in
+    the Opus main loop; assurance sonnet.'
 selsun-blue-itchy-dry-scalp-pyrithione-zinc:
   last_reviewed: '2026-08-21'
   score: 9
@@ -5977,17 +5937,13 @@ palmers-cocoa-butter-massage-lotion-stretch-marks:
   last_reviewed: '2026-08-21'
   score: 9
   verdict: publish
-  note: 'PRODUCT cron (took this after resolving the garbled/redundant Head & Shoulders queue item - "Clinical Strength" is actually selenium sulfide not pyrithione zinc, and the classic H&S shampoo is not cleanly in DailyMed). Skeptical review: the marketed stretch-mark benefit is refuted by a double-blind placebo-controlled RCT (Osman 2008, BJOG, PMID 18715434) - "no difference in the development of SG (45.1% versus 48.8%; P = 0.730)", verified verbatim via E-utilities; corroborated by Ud-Din 2016 review (PMID 26486318, "cocoa butter... did not demonstrate any effect"). Contrasted with the brand''s own uncontrolled "over 98% / 102 panelists / 8 wk in-home" self-assessment. IDENTITY/CURRENCY CATCH: INCIDecoder listed an OUTDATED formula (with fragrance); the CURRENT brand page says fragrance-free + free of mineral oil/parabens/phthalates/dyes, so I dropped INCIDecoder entirely (also it tripped the aggregator-as-evidence verify gate) and sourced composition/price/claims from the cached brand page. Price $8.99/8.5 fl oz. Both evidence sources primary (PubMed), verify clean. Opus critic agent unavailable (cap); verified in the Opus main loop; assurance sonnet.'
+  note: 'PRODUCT cron (took this after resolving the garbled/redundant Head & Shoulders queue item - "Clinical Strength" is actually selenium sulfide not pyrithione zinc, and the classic H&S shampoo is not cleanly in DailyMed). Skeptical review: the marketed stretch-mark benefit is refuted by a double-blind placebo-controlled RCT (Osman 2008, BJOG, PMID 18715434) - "no difference in the development of SG (45.1% versus 48.8%; P = 0.730)", verified verbatim via E-utilities; corroborated by Ud-Din 2016 review (PMID 26486318, "cocoa butter... did not demonstrate any effect"). Contrasted with the brand''s own uncontrolled "over 98% / 102 panelists / 8 wk in-home" self-assessment. IDENTITY/CURRENCY CATCH: INCIDecoder listed an OUTDATED formula (with fragrance); the CURRENT brand page says fragrance-free + free of mineral oil/parabens/phthalates/dyes, so I dropped INCIDecoder entirely (also it tripped the aggregator-as-evidence verify gate) and sourced composition/price/claims from the cached brand
+    page. Price $8.99/8.5 fl oz. Both evidence sources primary (PubMed), verify clean. Opus critic agent unavailable (cap); verified in the Opus main loop; assurance sonnet.'
 tower-28:
   last_reviewed: '2026-08-21'
   score: 9
   verdict: publish
   note: 'BRAND cron: lean discovery roll-up (<180 words). Founder VERIFIED from the brand''s own site ("Amy Liu, founder and CEO of Tower 28 Beauty", cached). Links the one on-site product ([[tower-28-sos-daily-rescue-facial-spray]]) + its active [[hypochlorous-acid]]. NEA seal + clean-beauty positioning attributed as the brand''s OWN claims, not fact. Brand pages self-check, no critic; assurance sonnet.'
-fungal-acne:
-  last_reviewed: '2026-08-21'
-  score: 9
-  verdict: publish
-  note: 'CONDITION cron: curatorial tier_list maintenance (no new page - the queued "Malassezia folliculitis (fungal acne)" was a DUPLICATE of this existing page, since fungal acne IS Malassezia folliculitis; resolved that phantom queue item). The anti-Malassezia tier_list had only ONE item (benzoyl-peroxide minimal), omitting ketoconazole, the best-evidenced azole antifungal. Added ketoconazole tier:strong as the top item, grounded in the page''s existing Saunte citation ("azole antifungals" first-line topical) + the [[ketoconazole]] page; honestly noted its highest-quality RCTs are in seborrheic dermatitis, not fungal acne specifically. No new external source (reused Saunte), verify clean. Consistent with the page''s existing Dr Zubritsky video card that names ketoconazole for fungal acne. Opus critic agent unavailable (cap); verified in the Opus main loop; page assurance unchanged (sonnet).'
 stretch-marks:
   last_reviewed: '2026-08-21'
   score: 9
@@ -5997,7 +5953,8 @@ tower-28-sos-intensive-rescue-serum:
   last_reviewed: '2026-08-22'
   score: 9
   verdict: publish
-  note: 'PRODUCT cron. IDENTITY RESOLVED via Apify: the queued "SOS Rescue + Repair Serum" name was an approximation; the real product is "Tower 28 SOS Intensive Rescue Serum" (brand URLs I guessed 404''d; search found the correct product). Composition/price/claims verified VERBATIM against the CACHED brand page: full INCI "Water, Sodium Magnesium Fluorosilicate, Sodium Phosphate, Sodium Chloride, Hypochlorous Acid", $34/59.2 mL. Active is hypochlorous acid = SAME as the on-site SOS spray, so evidence linked out to [[hypochlorous-acid]] and grades aligned with the spray (minimal/preliminary health, minimal/anecdotal cosmetic), NOT re-explained. Skeptical framing: the 3 acceptance seals (NEA/NRS/NPF) attest to TOLERABILITY not efficacy; "clears skin/reduces redness" claims footnoted by the brand to "3rd-party consumer studies and testimonials"; a user review crediting it for "clearing fungal acne" flagged as an anecdote, not relayed as fact. Single source (cached brand), verify clean. Opus critic agent unavailable (cap); verified in the Opus main loop; assurance sonnet.'
+  note: 'PRODUCT cron. IDENTITY RESOLVED via Apify: the queued "SOS Rescue + Repair Serum" name was an approximation; the real product is "Tower 28 SOS Intensive Rescue Serum" (brand URLs I guessed 404''d; search found the correct product). Composition/price/claims verified VERBATIM against the CACHED brand page: full INCI "Water, Sodium Magnesium Fluorosilicate, Sodium Phosphate, Sodium Chloride, Hypochlorous Acid", $34/59.2 mL. Active is hypochlorous acid = SAME as the on-site SOS spray, so evidence linked out to [[hypochlorous-acid]] and grades aligned with the spray (minimal/preliminary health, minimal/anecdotal cosmetic), NOT re-explained. Skeptical framing: the 3 acceptance seals (NEA/NRS/NPF) attest to TOLERABILITY not efficacy; "clears skin/reduces redness" claims footnoted by the brand to "3rd-party consumer studies and testimonials"; a user review crediting it for "clearing fungal acne" flagged as an anecdote, not relayed as fact. Single source (cached brand), verify clean. Opus
+    critic agent unavailable (cap); verified in the Opus main loop; assurance sonnet.'
 tower-28-sos-faceguard-spf-30:
   last_reviewed: '2026-08-22'
   score: 9
@@ -6012,7 +5969,8 @@ osman-2008-cocoa-butter-for-prevention-of-striae-gravidarum-rct:
   last_reviewed: '2026-08-22'
   score: 9
   verdict: publish
-  note: 'STUDY cron: compact agent-facing infrastructure page for the definitive NEGATIVE cocoa-butter/stretch-mark RCT (Osman 2008, BJOG, PMID 18715434). Every figure verified VERBATIM against the PubMed abstract via E-utilities: multicentre double-blind placebo-controlled RCT, 210 enrolled / 175 completed (91 cocoa butter, 84 placebo), "no difference in the development of SG (45.1% versus 48.8%; P = 0.730) or the severity of SG", conclusion cocoa butter "does not appear to reduce the likelihood of developing striae gravidarum". Links out to [[stretch-marks]] + [[palmers-cocoa-butter-massage-lotion-stretch-marks]], does NOT re-tell the cocoa-butter story. SELF-CRITIC FIX: initially wrote the 3.7pp difference as "in favour of placebo" - WRONG (45.1% cocoa butter < 48.8% placebo, so numerically fewer in the cocoa butter arm); corrected to a neutral "trivial 3.7pp gap, far from significant (P=0.730)". Primary source (PubMed), verify clean. Opus critic agent unavailable (cap); verified in the Opus main loop; assurance sonnet.'
+  note: 'STUDY cron: compact agent-facing infrastructure page for the definitive NEGATIVE cocoa-butter/stretch-mark RCT (Osman 2008, BJOG, PMID 18715434). Every figure verified VERBATIM against the PubMed abstract via E-utilities: multicentre double-blind placebo-controlled RCT, 210 enrolled / 175 completed (91 cocoa butter, 84 placebo), "no difference in the development of SG (45.1% versus 48.8%; P = 0.730) or the severity of SG", conclusion cocoa butter "does not appear to reduce the likelihood of developing striae gravidarum". Links out to [[stretch-marks]] + [[palmers-cocoa-butter-massage-lotion-stretch-marks]], does NOT re-tell the cocoa-butter story. SELF-CRITIC FIX: initially wrote the 3.7pp difference as "in favour of placebo" - WRONG (45.1% cocoa butter < 48.8% placebo, so numerically fewer in the cocoa butter arm); corrected to a neutral "trivial 3.7pp gap, far from significant (P=0.730)". Primary source (PubMed), verify clean. Opus critic agent unavailable (cap); verified in the
+    Opus main loop; assurance sonnet.'
 heather-woolerylloyd:
   last_reviewed: '2026-08-22'
   score: 9
@@ -6027,12 +5985,14 @@ coal-tar:
   last_reviewed: '2026-08-22'
   score: 9
   verdict: publish
-  note: 'INGREDIENT cron. Tier mid. (Prior queued item "Itraconazole (oral antifungal)" resolved as OUT OF SCOPE - a systemic oral drug, not a topical ingredient; already bracketed as context on fungal-acne. Took the next: coal tar.) Two primary sources verified verbatim: FDA OTC monograph via eCFR (coal tar recognized for dandruff/seb-derm/psoriasis at "0.5 to 5 percent", 21 CFR part 358) and Roelofzen 2010 carcinogenicity cohort (PMID 20016499, via E-utilities): 13,200 patients, coal tar vs corticosteroid reference, "did not increase the risk of non-skin malignancies (HR 0.92; 95% CI 0.78-1.09), or the risk of skin cancer (HR 1.09; 95% CI 0.69-1.72)". Honest skeptical balance: efficacy real + FDA-recognized but modest/dated/superseded and messy (stains/odor/photosensitivity); the carcinogenicity worry (industrial coal tar IS carcinogenic) addressed head-on with the therapeutic cohort showing no increased risk. Both sources primary, verify clean. Opus critic agent unavailable (cap); verified in the Opus main loop; assurance sonnet.'
+  note: 'INGREDIENT cron. Tier mid. (Prior queued item "Itraconazole (oral antifungal)" resolved as OUT OF SCOPE - a systemic oral drug, not a topical ingredient; already bracketed as context on fungal-acne. Took the next: coal tar.) Two primary sources verified verbatim: FDA OTC monograph via eCFR (coal tar recognized for dandruff/seb-derm/psoriasis at "0.5 to 5 percent", 21 CFR part 358) and Roelofzen 2010 carcinogenicity cohort (PMID 20016499, via E-utilities): 13,200 patients, coal tar vs corticosteroid reference, "did not increase the risk of non-skin malignancies (HR 0.92; 95% CI 0.78-1.09), or the risk of skin cancer (HR 1.09; 95% CI 0.69-1.72)". Honest skeptical balance: efficacy real + FDA-recognized but modest/dated/superseded and messy (stains/odor/photosensitivity); the carcinogenicity worry (industrial coal tar IS carcinogenic) addressed head-on with the therapeutic cohort showing no increased risk. Both sources primary, verify clean. Opus critic agent unavailable (cap); verified
+    in the Opus main loop; assurance sonnet.'
 tower-28-sos-rescue-relief-body-wash:
   last_reviewed: '2026-08-22'
   score: 9
   verdict: publish
-  note: 'PRODUCT cron (5th Tower 28 SOS product - kept LEAN, linked the active out). Composition/price verbatim from CACHED brand page: mild sulfate-free surfactants (cocamidopropyl hydroxysultaine + sodium cocoyl glutamate) + sodium hypochlorite (INCI: "Hypochlorous Acid, Sodium Salt"), $22/150 mL. Active evidence linked out to [[hypochlorous-acid]] (preliminary), NOT re-explained. Honest rinse-off caveat: contact time is brief. SELF-CRITIC CATCH: initially claimed dilute sodium hypochlorite "has real evidence as a bleach bath for eczema (covered on [[atopic-dermatitis]])" - but the AD page does NOT cover bleach baths, making it an uncited health claim wrongly attributed to a page that does not own it. Removed all 5 references; replaced with the accurate chemistry/format point (bleach baths + wound rinses are soaks/leave-on, so that use does not transfer to a rinse-off wash) - no efficacy claim, no false attribution. Brand "eczema/rosacea/psoriasis/smoother in 2 weeks" claims quarantined as marketing. Single source (cached brand), verify clean. Opus critic agent unavailable (cap); verified in the Opus main loop; assurance sonnet.'
+  note: 'PRODUCT cron (5th Tower 28 SOS product - kept LEAN, linked the active out). Composition/price verbatim from CACHED brand page: mild sulfate-free surfactants (cocamidopropyl hydroxysultaine + sodium cocoyl glutamate) + sodium hypochlorite (INCI: "Hypochlorous Acid, Sodium Salt"), $22/150 mL. Active evidence linked out to [[hypochlorous-acid]] (preliminary), NOT re-explained. Honest rinse-off caveat: contact time is brief. SELF-CRITIC CATCH: initially claimed dilute sodium hypochlorite "has real evidence as a bleach bath for eczema (covered on [[atopic-dermatitis]])" - but the AD page does NOT cover bleach baths, making it an uncited health claim wrongly attributed to a page that does not own it. Removed all 5 references; replaced with the accurate chemistry/format point (bleach baths + wound rinses are soaks/leave-on, so that use does not transfer to a rinse-off wash) - no efficacy claim, no false attribution. Brand "eczema/rosacea/psoriasis/smoother in 2 weeks" claims quarantined
+    as marketing. Single source (cached brand), verify clean. Opus critic agent unavailable (cap); verified in the Opus main loop; assurance sonnet.'
 murad:
   last_reviewed: '2026-08-22'
   score: 9
