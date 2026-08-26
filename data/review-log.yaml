@@ -6349,3 +6349,8 @@ taylor-2026-thiamidol-regimen-vs-spf-hyperpigmentation-pmid-41493252:
   score: 9
   verdict: publish
   note: 'STUDY cron. Chose a TOPICAL-skincare RCT (thiamidol vs SPF for hyperpigmentation) over the queue-top systemic psoriasis biologic (icotrokinra) - study infra should serve the topical core. PubMed durable primary (no cache). All stats VERBATIM vs abstract: 95 subjects (n=47 thiamidol/n=48 SPF30), 18-65, colorimeter+ITA, 12wk+6wk regression, AM Day Lotion SPF30+Serum / PM Night Cream+Serum vs standard SPF30; result "significantly reduced ... vs the standard SPF 30 lotion at weeks 8 and 12". NO effect-size numbers fabricated (abstract gives none - flagged as limitation). Flagged: active-controlled (SPF not vehicle placebo), industry-relevant (thiamidol=Beiersdorf proprietary). Compact structured; linked out to [[hyperpigmentation]]/[[sunscreen-uv-filters]]. Opus main-loop critic; assurance sonnet.'
+aloe-vera:
+  last_reviewed: '2026-08-26'
+  score: 9
+  verdict: publish
+  note: 'INGREDIENT cron (from Selsun Blue). Mild soother/humectant, honest MIXED evidence. Both quotes verified VERBATIM vs PubMed abstracts (durable primary, no cache): Dal Belo 2006 (Skin Res Technol) hydration - 0.25/0.50% raised SC water content, all conc at 2wk vs vehicle, "TEWL was not modified"; Hekmatpou 2019 (Iran J Med Sci) SR of 23 trials for wounds/burns, concluded supportive but trials small/heterogeneous. tier:mid matches rubric (real modest soothing/hydration; NOT barrier-repair since TEWL unchanged; burn evidence low-quality). Noted aloe is an occasional contact allergen. Linked OUT to [[psoriasis]]/[[seborrheic-dermatitis]]/[[glycerin]]. Opus main-loop critic; assurance sonnet.'
