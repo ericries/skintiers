@@ -1750,7 +1750,7 @@
 - name: Differin Gel (adapalene 0.1%)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: PERSON cron (Angelo Landriscina, acne content)
   source: https://www.differin.com/
 - name: EltaMD UV Clear Broad-Spectrum SPF 46
@@ -2092,3 +2092,10 @@
   discovered_from: the-ordinary-argireline-solution-10
   source: Sibling peptide serum in The Ordinary's anti-aging peptide range (compared
     in the brand's Argireline deep-dive); palmitoyl-based Matrixyl peptides
+- name: Epiduo (adapalene 0.1% / benzoyl peroxide 2.5%)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: differin-gel-adapalene
+  source: Galderma Rx combo (adapalene + BPO) seen on DailyMed; common next-step acne
+    prescription

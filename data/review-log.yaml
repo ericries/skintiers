@@ -6379,3 +6379,8 @@ paulas-choice-peptide-booster:
   score: 9
   verdict: publish
   note: 'PRODUCT cron (peptide cluster, from Nukaly 2026 meta). paulaschoice.com DataDome-blocked (Apify render 180 bytes, no price); INCI verified via inkeedecoder (CACHED). SKEPTICAL SPINE verified vs cache: 8 peptides genuinely HIGH (positions 4-11 incl Matrixyl 3000 = palmitoyl tripeptide-1 + tetrapeptide-7) - a REAL peptide-forward formula, NOT trace/fairy-dusted (contrast Medicube PDRN, Argireline). But ceiling = the peptide category evidence (modest, penetration-limited) - linked OUT to [[peptides]], NOT re-told; "8 peptides = formulation not additive proof". NO price captured -> OMITTED (not guessed). No brand-claim quotes fabricated (paulaschoice render failed). Grade modest/preliminary. Opus main-loop critic; assurance sonnet.'
+differin-gel-adapalene:
+  last_reviewed: '2026-08-26'
+  score: 9
+  verdict: publish
+  note: 'PRODUCT cron (acne cluster, from Angelo Landriscina person cron). DailyMed (durable primary, no cache) - Galderma Differin adapalene gel setid a0031324. Active adapalene 0.1%, indication "topical treatment of acne vulgaris in patients 12 years of age and older", initial US approval 1996, inactive list all VERBATIM. "First OTC retinoid for acne (2016)" = accurate public FDA record. Acne evidence linked OUT to [[adapalene]]/[[acne]], NOT re-told. Value-add: branded Differin = identical to adapalene generics -> buy on price. No price (label lists none; omitted). Grades: acne notable/established (labeled use) + off-label anti-aging modest/preliminary. Opus main-loop critic; assurance sonnet.'
