@@ -30,8 +30,19 @@ def _rows():
     return d if isinstance(d, list) else d.get("creators", d.get("sources", []))
 
 
+def _platform(r):
+    ch = r.get("channel") or ""
+    if "youtube.com" in ch:
+        return "youtube"
+    if "tiktok.com" in ch:
+        return "tiktok"
+    if "instagram.com" in ch:
+        return "instagram"
+    return None
+
+
 def _is_youtube(r):
-    return "youtube.com" in (r.get("channel") or "")
+    return _platform(r) == "youtube"
 
 
 def _fmt(r):
@@ -43,6 +54,8 @@ def _fmt(r):
 def main(argv=None):
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("mode", choices=["pull", "backfill", "noyt"])
+    ap.add_argument("--platform", default="youtube", choices=["youtube", "tiktok", "instagram"],
+                    help="pull mode: which platform's creators to rotate (default youtube)")
     ap.add_argument("--all-high", action="store_true",
                     help="backfill mode: consider ALL HIGH-tier YouTube creators, not just flagship")
     args = ap.parse_args(argv)
@@ -56,8 +69,9 @@ def main(argv=None):
         return 0
 
     if args.mode == "pull":
-        # oldest (or null) last_pulled; ties broken by file order (stable sort)
-        pick = sorted(yt, key=lambda r: (r.get("last_pulled") or ""))
+        # oldest (or null) last_pulled on the requested platform; ties: file order
+        pool = [r for r in rows if _platform(r) == args.platform]
+        pick = sorted(pool, key=lambda r: (r.get("last_pulled") or ""))
         if not pick:
             print("none")
             return 0
