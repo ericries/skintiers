@@ -647,6 +647,10 @@ def tier_list_view(profile, by_slug):
         canon = _TIER_ALIASES.get(str(k).strip().lower(), str(k).strip().lower())
         if v:
             label_overrides[canon] = str(v)
+    # A tier_list item `note` may carry [[xref]] links and inline markdown, like a
+    # grade note; linkify + render it so it shows as links, never raw [[brackets]].
+    published = {s for s, pr in by_slug.items() if pr.get("status") == "published"}
+    slug_to_name = {s: (pr.metadata.get("name") or s) for s, pr in by_slug.items()}
     buckets = {k: [] for k in _TIER_ORDER}
     missing = []
     for idx, raw in enumerate(tl.get("items") or []):
@@ -656,6 +660,11 @@ def tier_list_view(profile, by_slug):
             override = (raw.get("tier") or "").strip().lower()
         else:
             slug, note, override = str(raw).strip(), "", ""
+        if note:
+            note = sklib.render_markdown(
+                sklib.linkify_xrefs(note, published, slug_to_name)).strip()
+            if note.startswith("<p>") and note.endswith("</p>") and note.count("<p>") == 1:
+                note = note[3:-4]
         target = by_slug.get(slug)
         if target is None or target.get("status") != "published":
             missing.append(slug)
