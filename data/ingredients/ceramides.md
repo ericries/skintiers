@@ -18,6 +18,16 @@ videos:
   related: [skin-barrier-repair, cholesterol, phytosphingosine]
   thesis: Cosmetic chemists Victoria Fu and Gloria Lu of Chemist Confessions break down what ceramides actually are in skincare. They explain that ceramide is not a single ingredient like niacinamide but a whole class of lipid molecules, each built by bonding a fatty acid to a sphingosine and named by types such as N, A, and E, and that the skin barrier relies on specific ceramide types and ratios that formulators try to mimic. The episode accompanies their review of ten barrier creams, using the chemistry to explain what the ceramides in those products are doing.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Which Ceramide is the Best For Your Skin?
+  creator: Chemist Confessions
+  creator_slug: victoria-fu
+  credential: Cosmetic chemists
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=Zs5ZlHjNndA
+  posted: '2025-04-07'
+  related: [skin-barrier-repair]
+  thesis: Cosmetic chemists Victoria Fu and Gloria Lu of Chemist Confessions revisit ceramides to answer common listener questions, including whether ceramides are only worth using on a compromised or damaged skin barrier. They talk through what ceramides actually do for the skin barrier and how to think about which type or product is worth reaching for.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

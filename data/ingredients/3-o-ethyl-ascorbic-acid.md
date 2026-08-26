@@ -7,6 +7,18 @@ tier: weak
 status: published
 type: ingredient
 updated: '2026-08-08'
+videos:
+- title: Is 3-o-ethyl ascorbic acid a worthy vitamin C derivative?
+  creator: Chemist Confessions
+  creator_slug: victoria-fu
+  credential: Cosmetic chemists
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=X9wfbFIUIJg
+  posted: '2025-07-01'
+  related: [ascorbic-acid-vitamin-c, vitamin-c]
+  thesis: Cosmetic chemists Victoria Fu and Gloria Lu of Chemist Confessions tackle vitamin C derivatives one at a time, starting with 3-O-ethyl ascorbic acid, a common non-ascorbic-acid form of vitamin C. Answering listener questions, they weigh whether it is a worthwhile stand-in for pure ascorbic acid and set realistic expectations for what these derivatives can and cannot deliver.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 3-O-ethyl ascorbic acid (EAA) is an ether derivative of vitamin C, made by attaching an ethyl group to the third hydroxyl of the ascorbic acid ring so the molecule resists the oxidation that degrades plain L-ascorbic acid in water, and it is formulated into leave-on serums and whitening creams as a more stable antioxidant and brightening ingredient.[^iliopoulos] Because the ethyl group is joined by an ether bond, harder to cleave than the ester or phosphate linkages some other vitamin C derivatives use, no retrieved primary source demonstrates that EAA is converted to free L-ascorbic acid once it is in skin; the activity reported for it is measured for the intact molecule. The chemistry and skin-delivery case for EAA rests on characterization work and human ex vivo and animal skin studies; its case for actually doing something on living human skin rests on cell-free enzyme assays, cultured keratinocytes and melanocytes, a zebrafish model, and one in-vitro/reconstructed-tissue study of a branded combination product.
