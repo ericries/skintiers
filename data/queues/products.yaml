@@ -1744,7 +1744,7 @@
 - name: Paula's Choice Peptide Booster
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: STUDY cron (Nukaly 2026 peptide meta-analysis)
   source: https://www.paulaschoice.com/
 - name: Differin Gel (adapalene 0.1%)

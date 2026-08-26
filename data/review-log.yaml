@@ -6374,3 +6374,8 @@ the-ordinary-argireline-solution-10:
   score: 9
   verdict: publish
   note: 'PRODUCT cron (from Nukaly 2026 peptide meta study; ties to argireline). theordinary.com JS-SPA (curl empty); Apify got the MANUFACTURER page + brand deep-dive (CACHED, classify=unknown). Price $9.70/30ml, verbatim INCI (Acetyl Hexapeptide-8 3rd), pH 6-7, and all brand claims verified VERBATIM vs cache. SKEPTICAL SPINE: Argireline = "topical Botox" peptide; independent evidence weak (US gov tox study: almost none penetrates; small trials only modest surface wrinkle-depth) - linked OUT to [[argireline-acetyl-hexapeptide-8]], NOT re-told. Brand "improvement in just 2 weeks (crows feet/forehead/glabellar/nasolabial)" quarantined as its own uncontrolled test. Noted "10%" = Argireline trade-solution conc, not 10% pure peptide. Grade minimal/weak. Opus main-loop critic; assurance sonnet.'
+paulas-choice-peptide-booster:
+  last_reviewed: '2026-08-26'
+  score: 9
+  verdict: publish
+  note: 'PRODUCT cron (peptide cluster, from Nukaly 2026 meta). paulaschoice.com DataDome-blocked (Apify render 180 bytes, no price); INCI verified via inkeedecoder (CACHED). SKEPTICAL SPINE verified vs cache: 8 peptides genuinely HIGH (positions 4-11 incl Matrixyl 3000 = palmitoyl tripeptide-1 + tetrapeptide-7) - a REAL peptide-forward formula, NOT trace/fairy-dusted (contrast Medicube PDRN, Argireline). But ceiling = the peptide category evidence (modest, penetration-limited) - linked OUT to [[peptides]], NOT re-told; "8 peptides = formulation not additive proof". NO price captured -> OMITTED (not guessed). No brand-claim quotes fabricated (paulaschoice render failed). Grade modest/preliminary. Opus main-loop critic; assurance sonnet.'
