@@ -3,6 +3,10 @@ analyzed: '2026-08-26'
 assurance: opus
 brand: Paula's Choice
 category: Treatments
+images:
+- file: paulas-choice-peptide-booster-incidecoder.jpg
+  source: INKEEDecoder
+  source_url: https://inkeedecoder.com/products/paulas-choice-peptide-booster
 comparator: single-peptide serums like [[the-ordinary-argireline-solution-10|The Ordinary
   Argireline Solution 10%]], and the general topical-peptide evidence on [[peptides]]
 grades:
