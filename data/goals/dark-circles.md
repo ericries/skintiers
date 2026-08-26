@@ -78,6 +78,16 @@ videos:
   related: []
   thesis: 'Dr. Jenny Liu, MD, FAAD, a board-certified dermatologist, explains that under-eye dark circles are not one problem but stem from up to four distinct causes: pigmentation/melanin, vascular (visible blood vessels), structural shadowing from volume loss, and skin laxity. She emphasizes that effective treatment requires first identifying which type (or combination) a person has, since using the wrong product or procedure for the wrong cause is why many people see no improvement despite trying many remedies.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: 'How to Get Rid of Sunken, Hollow Under Eyes: What Actually Helps'
+  creator: Dr. Shereene Idriss
+  creator_slug: shereene-idriss
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=RVADMAuXNKM
+  posted: '2026-06-27'
+  related: []
+  thesis: Board-certified dermatologist Dr Shereene Idriss gives a full guide to sunken, hollow under-eyes, the kind that make people look tired no matter how much they sleep. She explains what actually causes under-eye hollows and walks through the range of options, from skincare steps like retinol and caffeine to in-office fillers, so viewers can match the fix to the underlying cause rather than chase the wrong one.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
