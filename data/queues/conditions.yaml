@@ -99,3 +99,39 @@
   source: Common eczematous condition distinct from atopic dermatitis (external trigger);
     real treatment framework (avoidance + topical corticosteroids + emollients); refills
     empty condition queue
+- name: Body acne (back & chest)
+  type: condition
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: 'discover_hubs: 9 mentions across the video archive; no condition hub yet'
+- name: Acne scars (atrophic & PIE)
+  type: condition
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: 'discover_hubs: 4 mentions across the video archive; no condition hub yet'
+- name: Sun damage & photoaging
+  type: condition
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: 'discover_hubs: 2 mentions across the video archive; no condition hub yet'
+- name: Enlarged pores
+  type: condition
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: 'discover_hubs: 2 mentions across the video archive; no condition hub yet'
+- name: Hormonal acne
+  type: condition
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: 'discover_hubs: 2 mentions across the video archive; no condition hub yet'
+- name: Hair loss & thinning
+  type: condition
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: 'discover_hubs: 2 mentions across the video archive; no condition hub yet'

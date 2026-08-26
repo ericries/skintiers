@@ -102,3 +102,45 @@
   discovered_from: paulas-choice-peptide-booster
   source: 'CROSS-FEED: a best-of/tier list this product + The Ordinary Argireline
     + Multi-Peptide serums belong on; no peptide-serum list exists yet'
+- name: Best products for dark spots / hyperpigmentation
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: 'discover_hubs: 15 mentions across the video archive; no list hub yet'
+- name: AM/PM routine by evidence
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: 'discover_hubs: 13 mentions across the video archive; no list hub yet'
+- name: Best body-acne treatments
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: 'discover_hubs: 9 mentions across the video archive; no list hub yet'
+- name: Best affordable drugstore dupes
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: 'discover_hubs: 9 mentions across the video archive; no list hub yet'
+- name: Best retinol & retinoid products
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: 'discover_hubs: 8 mentions across the video archive; no list hub yet'
+- name: Best tinted sunscreens
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: 'discover_hubs: 2 mentions across the video archive; no list hub yet'
+- name: Best mineral (zinc) sunscreens
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: 'discover_hubs: 2 mentions across the video archive; no list hub yet'

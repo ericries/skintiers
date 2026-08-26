@@ -166,6 +166,10 @@ crons:
       (SURGICAL one-line edit; never yaml.dump the file). If you CANNOT verify a real channel, do NOT guess:
       set that entry's channel to '' and add a `channel_broken:` line dated today explaining, so pulls skip it
       and this check mutes it. Commit + push only if you changed the roster. One-line summary of what was re-pinned or muted.
+  - cron: "41 6 * * 1"
+    label: hub-discovery
+    prompt: |
+      [SkinTiers hub discovery] Run exactly: `.venv/bin/python scripts/discover_hubs.py`. It mines the video-transcript archive (research-cache/transcripts + carded titles) for recurring condition/goal/list topics that have NO page yet and appends the ones above the frequency floor to the type queues (dedup vs existing pages + queue). This keeps the discovery hubs (conditions/goals/lists) filled so those daily crons have work (user 2026-08-26). KEEP TOKEN USE MINIMAL: run the script; if data/queues/{conditions,goals,lists}.yaml changed, commit + push; stop. Do not fill pages here.
   - cron: "17 8 * * 1"
     label: creator-vetting
     prompt: |
