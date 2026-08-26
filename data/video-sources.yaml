@@ -51,7 +51,7 @@
   last_pulled: '2026-08-25'
 - name: Dr. Muneeb Shah (DermDoctor)
   creator_slug: muneeb-shah
-  backfill_cursor: 0
+  backfill_cursor: 15
   credential: Board-certified dermatologist
   tier: HIGH
   channel: https://www.youtube.com/@dermdoctor/videos
