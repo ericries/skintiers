@@ -1,0 +1,157 @@
+- name: Doctorly
+  channel_url: https://www.youtube.com/channel/UCHCZnC9akNA9pBP7aJGNKdg
+  hits: 14
+  topics:
+  - azelaic acid
+  - hyaluronic acid
+  - hyperpigmentation
+  - niacinamide
+  - rosacea
+  - salicylic acid
+  - skin barrier
+  - sunscreen
+  - tretinoin
+  - vitamin C serum
+  status: pending
+- name: Isomers Skincare
+  channel_url: https://www.youtube.com/channel/UCishx5LBR8dSAzj5GVWy1Zw
+  hits: 6
+  topics:
+  - benzoyl peroxide
+  - fungal acne
+  - hyperpigmentation
+  - melasma
+  - sunscreen
+  status: pending
+- name: The Budget Dermatologist
+  channel_url: https://www.youtube.com/channel/UCDc2wFMXTSApCa4UwDrdz_Q
+  hits: 3
+  topics:
+  - fungal acne
+  - retinoids
+  - tretinoin
+  status: pending
+- name: Dr. Aleksandra Brown DO, FAAD
+  channel_url: https://www.youtube.com/channel/UC52c6a0gfbhuVCdHYZQAzuQ
+  hits: 3
+  topics:
+  - fungal acne
+  - niacinamide
+  - sunscreen
+  status: pending
+- name: The Institute of Personal Care Science
+  channel_url: https://www.youtube.com/channel/UCczaVLd160LPFdn9E8hrYxA
+  hits: 3
+  topics:
+  - hyaluronic acid
+  - salicylic acid
+  status: pending
+- name: April Basi
+  channel_url: https://www.youtube.com/channel/UCoggt1MMgHRaDZtFYY-2TMg
+  hits: 2
+  topics:
+  - benzoyl peroxide
+  - melasma
+  status: pending
+- name: The Skincare Engineer
+  channel_url: https://www.youtube.com/channel/UCkPv5aRcNNC_rHL0sJxhViQ
+  hits: 1
+  topics:
+  - niacinamide
+  status: pending
+- name: Luisa Fanzani
+  channel_url: https://www.youtube.com/channel/UC3NJnOSNC-dhB3lyU4IFDSA
+  hits: 1
+  topics:
+  - niacinamide
+  status: pending
+- name: Glow By Ramón
+  channel_url: https://www.youtube.com/channel/UC5CPgckWU4TM2iz14W2v04g
+  hits: 1
+  topics:
+  - vitamin C serum
+  status: pending
+- name: SLMD Skincare
+  channel_url: https://www.youtube.com/channel/UCvaD01Jb_ruxsAcVqVmTHzQ
+  hits: 1
+  topics:
+  - salicylic acid
+  status: pending
+- name: Skin Chemist
+  channel_url: https://www.youtube.com/channel/UCMPpJnaJCveK1d0xlXhxTLw
+  hits: 1
+  topics:
+  - salicylic acid
+  status: pending
+- name: Educated Mess
+  channel_url: https://www.youtube.com/channel/UCS09mkJRnlBI_Yu0O2A3WKw
+  hits: 1
+  topics:
+  - salicylic acid
+  status: pending
+- name: Dr. Abby
+  channel_url: https://www.youtube.com/channel/UCNI5Bp59r_SFle-ObBG3H4Q
+  hits: 1
+  topics:
+  - benzoyl peroxide
+  status: pending
+- name: John Barbieri, MD
+  channel_url: https://www.youtube.com/channel/UCm0RvvD6gfywapkgOt3bFCA
+  hits: 1
+  topics:
+  - benzoyl peroxide
+  status: pending
+- name: Dr. Sarah Sheu
+  channel_url: https://www.youtube.com/channel/UCt81dX_POSILzje8ICIRGHQ
+  hits: 1
+  topics:
+  - sunscreen
+  status: pending
+- name: dermTVdotcom
+  channel_url: https://www.youtube.com/channel/UCWl7rIYGLnCwVpuO1DmrEUQ
+  hits: 1
+  topics:
+  - rosacea
+  status: pending
+- name: The Skin Explained
+  channel_url: https://www.youtube.com/channel/UCUujx1fqOO9tHuVYqBPU4fg
+  hits: 1
+  topics:
+  - rosacea
+  status: pending
+- name: Tanya Kormeili MD, Board Certified Dermatologist
+  channel_url: https://www.youtube.com/channel/UCRK0TPthymHl44WeA0nZ6Mw
+  hits: 1
+  topics:
+  - melasma
+  status: pending
+- name: Doctor Youn
+  channel_url: https://www.youtube.com/channel/UC9HQXWbt14wTdr_Tzc8ZE0A
+  hits: 1
+  topics:
+  - melasma
+  status: pending
+- name: Dr. Aanchal MD
+  channel_url: https://www.youtube.com/channel/UCMTl80jTQwGkO335HoVf0ig
+  hits: 1
+  topics:
+  - fungal acne
+  status: pending
+- name: FWBEAUTY
+  channel_url: https://www.youtube.com/channel/UCJO--UzSbCMwRA0A30zjY2w
+  hits: 1
+  topics:
+  - fungal acne
+  status: pending
+- name: EVOA by Green Nature Cosmetics
+  channel_url: https://www.youtube.com/channel/UCnOTpBbs698Frgboqq8yV-g
+  hits: 1
+  topics:
+  - skin barrier
+  status: pending
+- name: Green Beauty Chemist - R & D Cosmetic Chemist
+  channel_url: https://www.youtube.com/channel/UCLILyRkEkHoKqOwcKpUAJuA
+  hits: 1
+  topics:
+  - hyaluronic acid
+  status: pending
