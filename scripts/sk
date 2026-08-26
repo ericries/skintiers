@@ -261,7 +261,8 @@ def cmd_add_video(args):
     """
     import yaml
     targets, seen = [], set()
-    for s in [args.attach] + [x.strip() for x in (args.also or "").split(",") if x.strip()]:
+    also = getattr(args, "also", None) or ""
+    for s in [args.attach] + [x.strip() for x in also.split(",") if x.strip()]:
         if s and s not in seen:
             seen.add(s)
             targets.append(s)
