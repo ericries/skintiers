@@ -163,3 +163,17 @@ crons:
       (SURGICAL one-line edit; never yaml.dump the file). If you CANNOT verify a real channel, do NOT guess:
       set that entry's channel to '' and add a `channel_broken:` line dated today explaining, so pulls skip it
       and this check mutes it. Commit + push only if you changed the roster. One-line summary of what was re-pinned or muted.
+  - cron: "17 8 * * 1"
+    label: creator-vetting
+    prompt: |
+      [SkinTiers creator vetting] Weekly: vet ONE new creator candidate and promote it to the roster if it passes. MAIN-LOOP work only (no subagents). KEEP TOKEN USE MODERATE. This is the producer that keeps the video roster growing (user 2026-08-25).
+
+      STEP 0 - Refresh candidates: `.venv/bin/python scripts/discover_creators.py --per 4` mines the site's core topics ("<topic> dermatologist"/"cosmetic chemist"), dedups vs the roster (UC id, @handle, name), and appends fresh channels to data/queues/creator-candidates.yaml ranked by cross-topic `hits`. Bounded but can take a few minutes.
+      STEP 1 - Pick the highest-`hits` candidate whose status is pending (or missing) in data/queues/creator-candidates.yaml. Note its name + channel_url.
+      STEP 2 - VET it (rubric in docs/creator-expansion-plan.md; CREDIBILITY not credential is the gate, user 2026-08-14):
+        a. Reject if it is NOT a skincare-science creator: brand/retailer channels ("X Skincare", "X Cosmetics"), general beauty/GRWM vloggers, or naturopath/pseudoscience channels are all REJECT.
+        b. Identify the person + credential HONESTLY. Never state an unverified claim about a living person: a "board-certified dermatologist" claim must be supported by the channel's own stated credentials (About page / video). Cosmetic chemist -> a real formulation/chemistry background. If you cannot verify a real credential, tier MED at most, or reject.
+        c. Skim 1-2 of the channel's videos (`yt-dlp --flat-playlist --playlist-end 8 ... <channel>` then one `scripts/yt_transcript.py <id>`) to confirm an evidence-based, science-aligned track record with no rampant misinformation.
+        d. Note conflicts: own-brand line, affiliate storefront (favorites treated as effectively paid), sponsor-heavy. Set product_recs "ok"/"restricted"/empty accordingly.
+      STEP 3 - If it PASSES: `.venv/bin/python scripts/roster_add.py --name "..." --creator-slug <slug> --credential "<honest, verified>" --tier HIGH|MED --channel <channel_url> --conflict "<or empty>" --product-recs "<ok|restricted|empty>"`. Then, in data/queues/creator-candidates.yaml, set that candidate's status to `added` (load/set/dump is fine - the candidates file has no comment header). If it FAILS: set its status to `rejected` with a short `reason:` and do NOT add it to the roster.
+      STEP 4 - Commit + push (roster + candidates file). One-line summary: candidate + verdict (added as TIER, or rejected: reason).
