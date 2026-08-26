@@ -102,7 +102,7 @@
 - name: Body acne (back & chest)
   type: condition
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: 'discover_hubs: 9 mentions across the video archive; no condition hub yet'
 - name: Acne scars (atrophic & PIE)

@@ -2113,3 +2113,9 @@
   discovered_from: cetaphil-redness-relieving-daily-facial-moisturizer-spf-40
   source: Cetaphil 100% mineral sunscreen (DailyMed); popular fragrance-free reactive-skin
     SPF
+- name: Paula's Choice Clear Back and Body Acne Spray (salicylic acid 2%)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: body-acne
+  source: https://www.paulaschoice.com/clear-back-and-body-acne-spray/2010.html
