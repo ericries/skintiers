@@ -1278,3 +1278,10 @@
   discovered_from: best-peptide-serums
   source: The other half of Matrixyl 3000 (with palmitoyl tetrapeptide-7, which has
     a page); appears across peptide serums
+- name: Iron oxides (tinted-sunscreen pigment, visible-light protection)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: cetaphil-redness-relieving-daily-facial-moisturizer-spf-40
+  source: The tint pigment in redness/mineral sunscreens; iron oxides also block visible
+    light (relevant to melasma/hyperpigmentation) - high-value ingredient page

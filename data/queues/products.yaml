@@ -1797,7 +1797,7 @@
 - name: Cetaphil Redness Relieving Daily Facial Moisturizer SPF 40
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: cetaphil-daily-facial-moisturizer-spf-50
   source: DailyMed FDA label setid 45d101be-2b88-4759-9ccc-556f5ec0553d (titanium
     dioxide-based mineral filter); extends the Cetaphil range + rosacea/redness angle
@@ -2106,3 +2106,10 @@
   discovered_from: taylor-2026-thiamidol-regimen-vs-spf-hyperpigmentation-pmid-41493252
   source: The flagship thiamidol serum tested in this regimen; popular hyperpigmentation
     product
+- name: Cetaphil Sheer Mineral Sunscreen SPF 50 (titanium dioxide, zinc oxide)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: cetaphil-redness-relieving-daily-facial-moisturizer-spf-40
+  source: Cetaphil 100% mineral sunscreen (DailyMed); popular fragrance-free reactive-skin
+    SPF

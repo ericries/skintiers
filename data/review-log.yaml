@@ -6354,3 +6354,8 @@ aloe-vera:
   score: 9
   verdict: publish
   note: 'INGREDIENT cron (from Selsun Blue). Mild soother/humectant, honest MIXED evidence. Both quotes verified VERBATIM vs PubMed abstracts (durable primary, no cache): Dal Belo 2006 (Skin Res Technol) hydration - 0.25/0.50% raised SC water content, all conc at 2wk vs vehicle, "TEWL was not modified"; Hekmatpou 2019 (Iran J Med Sci) SR of 23 trials for wounds/burns, concluded supportive but trials small/heterogeneous. tier:mid matches rubric (real modest soothing/hydration; NOT barrier-repair since TEWL unchanged; burn evidence low-quality). Noted aloe is an occasional contact allergen. Linked OUT to [[psoriasis]]/[[seborrheic-dermatitis]]/[[glycerin]]. Opus main-loop critic; assurance sonnet.'
+cetaphil-redness-relieving-daily-facial-moisturizer-spf-40:
+  last_reviewed: '2026-08-26'
+  score: 9
+  verdict: publish
+  note: 'PRODUCT cron. inci_lookup (new tool) confirmed identity + 100% mineral actives in 1 call; incidecoder is an AGGREGATOR (sk verify ERROR - not citable) so I moved all citations to DailyMed (durable primary). DailyMed VERIFIED: TiO2 10.1% + ZnO 7.8% (100% mineral, no chemical filters), purpose Sunscreen, uses verbatim, inactives incl allantoin/caffeine/dipotassium glycyrrhizate + tint (chromium oxide greens + iron oxides). SKEPTICAL SPINE: "redness relieving" = mostly OPTICAL (green/iron-oxide tint neutralizes red by colour theory) + caffeine (temp vasoconstriction) + mild soothers, NOT a rosacea treatment; the durable benefit is the mineral SPF (first-line for rosacea). Real rosacea Rx linked OUT to [[rosacea]]. No price (label none). Grades: sun protection notable/established; redness-look modest/established. Opus main-loop critic; assurance sonnet.'
