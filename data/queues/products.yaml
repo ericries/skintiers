@@ -2099,3 +2099,10 @@
   discovered_from: differin-gel-adapalene
   source: Galderma Rx combo (adapalene + BPO) seen on DailyMed; common next-step acne
     prescription
+- name: Eucerin Anti-Pigment Dual Serum (thiamidol)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: taylor-2026-thiamidol-regimen-vs-spf-hyperpigmentation-pmid-41493252
+  source: The flagship thiamidol serum tested in this regimen; popular hyperpigmentation
+    product

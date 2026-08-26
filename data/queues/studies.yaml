@@ -477,7 +477,7 @@
     With SPF Alone for Faci (PMID 41493252)
   type: study
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41493252/
 - name: Grimes 2026 A Randomized, Controlled, Split-Face, Double-Blind Study Comparing

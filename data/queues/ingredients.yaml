@@ -1263,3 +1263,11 @@
   discovered_from: the-ordinary-argireline-solution-10
   source: The other headline anti-aging peptide (Matrixyl); appears across The Ordinary
     + many serums; needs its own evidence page beside [[argireline-acetyl-hexapeptide-8]]
+- name: Thiamidol (Isobutylamido Thiazolyl Resorcinol)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: taylor-2026-thiamidol-regimen-vs-spf-hyperpigmentation-pmid-41493252
+  source: Beiersdorf tyrosinase-inhibitor brightening active (Eucerin Anti-Pigment);
+    Taylor 2026 + Desai 2025 + Grimes RCTs; high-value hyperpigmentation ingredient
+    page, no page yet
