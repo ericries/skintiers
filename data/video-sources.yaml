@@ -25,6 +25,7 @@
   last_pulled: '2026-08-24'
 - name: Dr. Sam Ellis
   creator_slug: samantha-ellis
+  backfill_cursor: 0
   credential: Board-certified dermatologist
   tier: HIGH
   channel: https://www.youtube.com/@drsamellis/videos
@@ -50,6 +51,7 @@
   last_pulled: '2026-08-25'
 - name: Dr. Muneeb Shah (DermDoctor)
   creator_slug: muneeb-shah
+  backfill_cursor: 0
   credential: Board-certified dermatologist
   tier: HIGH
   channel: https://www.youtube.com/@dermdoctor/videos
@@ -66,6 +68,7 @@
   last_pulled: '2026-08-25'
 - name: Javon Ford
   creator_slug: javon-ford
+  backfill_cursor: 0
   credential: Cosmetic chemist
   tier: HIGH
   channel: https://www.youtube.com/@javonford16/videos
@@ -91,6 +94,7 @@
   last_pulled: '2026-08-20'
 - name: Dr. Shereene Idriss
   creator_slug: shereene-idriss
+  backfill_cursor: 0
   credential: Board-certified dermatologist
   tier: HIGH
   channel: https://www.youtube.com/@ShereeneIdriss/videos
@@ -125,6 +129,7 @@
   last_pulled: '2026-08-23'
 - name: Dr. Whitney Bowe
   creator_slug: whitney-bowe
+  backfill_cursor: 0
   credential: Board-certified dermatologist
   tier: HIGH
   channel: https://www.youtube.com/@DrWhitneyBowe/videos
@@ -182,6 +187,7 @@
   last_pulled: '2026-08-23'
 - name: 'Dr. Joyce Park (Tea with MD)'
   creator_slug: joyce-park
+  backfill_cursor: 0
   credential: 'Board-certified dermatologist'
   tier: HIGH
   channel: 'https://www.youtube.com/@TeawithMD'
@@ -200,6 +206,7 @@
   last_pulled: '2026-08-23'
 - name: 'Dr. Angelo Landriscina (DermAngelo)'
   creator_slug: angelo-landriscina
+  backfill_cursor: 0
   credential: 'Board-certified dermatologist'
   tier: HIGH
   channel: 'https://www.youtube.com/@DermAngelo'
@@ -208,6 +215,7 @@
   last_pulled: '2026-08-23'
 - name: 'Dr Aamna Adel'
   creator_slug: aamna-adel
+  backfill_cursor: 0
   credential: 'Consultant dermatologist'
   tier: HIGH
   channel: 'https://www.youtube.com/@DrAamnaAdel'
@@ -224,6 +232,7 @@
   last_pulled: '2026-08-16'
 - name: 'Dr. Lindsey Zubritsky (DermGuru)'
   creator_slug: lindsey-zubritsky
+  backfill_cursor: 0
   credential: 'Board-certified dermatologist'
   tier: HIGH
   channel: 'https://www.youtube.com/@drlindseyzubritsky'
@@ -240,6 +249,7 @@
   last_pulled: '2026-08-23'
 - name: 'Dr. Daniel Sugai'
   creator_slug: daniel-sugai
+  backfill_cursor: 0
   credential: 'Board-certified dermatologist'
   tier: HIGH
   channel: 'https://www.youtube.com/@danielsugaimd'
@@ -248,6 +258,7 @@
   last_pulled: '2026-08-23'
 - name: 'Jen Novakovich (The Eco Well)'
   creator_slug: jen-novakovich
+  backfill_cursor: 0
   credential: 'Cosmetic scientist'
   tier: HIGH
   channel: 'https://www.youtube.com/@TheEcoWell'
@@ -264,6 +275,7 @@
   last_pulled: '2026-08-23'
 - name: 'Dr. Alexis Stephens'
   creator_slug: alexis-stephens
+  backfill_cursor: 0
   credential: 'Board-certified dermatologist'
   tier: HIGH
   channel: 'https://www.youtube.com/@DrAlexisStephens'
@@ -316,6 +328,7 @@
   last_pulled: '2026-08-16'
 - name: 'Dr. Caroline Robinson'
   creator_slug: caroline-robinson
+  backfill_cursor: 0
   credential: 'Board-certified dermatologist'
   tier: HIGH
   channel: 'https://www.youtube.com/@crobinsonmd'
@@ -332,6 +345,7 @@
   last_pulled: '2026-08-16'
 - name: 'Dr. Jenny Liu (Jenny Liu, MD, FAAD)'
   creator_slug: jenny-liu
+  backfill_cursor: 0
   credential: 'Board-certified dermatologist'
   tier: HIGH
   channel: 'https://www.youtube.com/@dr.jennyliu'
@@ -417,6 +431,7 @@
   last_pulled: '2026-08-16'
 - name: 'Dr. Brooke Jeffy (Brooke Jeffy, MD)'
   creator_slug: brooke-jeffy
+  backfill_cursor: 0
   credential: 'Board-certified dermatologist'
   tier: HIGH
   channel: 'https://www.youtube.com/@brookejeffymd'
@@ -451,6 +466,7 @@
   last_pulled: '2026-08-16'
 - name: 'Dr. Neera Nathan'
   creator_slug: neera-nathan
+  backfill_cursor: 0
   credential: 'Board-certified dermatologist'
   tier: HIGH
   channel: 'https://www.youtube.com/@dermatologysurgeon'
