@@ -63,6 +63,18 @@ tier_list:
   title: Topical and oral treatments for perioral dermatitis, by evidence
 type: condition
 updated: '2026-08-12'
+videos:
+- title: Dermatologist Explains Perioral Dermatitis (What it Looks Like, Causes & Treatments)
+  creator: Dr. Sam Ellis
+  creator_slug: samantha-ellis
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=G6lHjPdTYPk
+  posted: '2023-07-19'
+  related: []
+  thesis: Board-certified dermatologist Dr Sam Ellis explains perioral dermatitis, a persistent red rash that appears around the mouth. She walks through what the condition is, what causes it, and the treatment options she finds effective, to help viewers recognize and address it rather than mistake it for ordinary acne or irritation.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Perioral dermatitis is a common facial rash of small, red, sometimes scaly papules and pustules clustered around the mouth, and often the eyes and nose too, where it is also called periorificial dermatitis.[^statpearls] It affects young adult women most often, typically between ages 20 and 45, though it also occurs in children.[^statpearls] The rash characteristically spares a thin rim of skin right at the vermilion border of the lips.[^statpearls] It is distinct from the clogged-follicle comedones that define [[acne]] and from the persistent central-facial flushing of [[rosacea]], though it shares several of rosacea's topical treatments. It is benign but tends to recur.[^statpearls]
