@@ -3,6 +3,10 @@ analyzed: '2026-08-25'
 assurance: opus
 brand: The Ordinary
 category: Treatments
+images:
+- file: the-ordinary-argireline-solution-10-theordinary.jpg
+  source: The Ordinary
+  source_url: https://theordinary.com/en-us/argireline-solution-10-serum-100403.html
 comparator: other topical peptide "needle-free Botox" serums, and the actual evidence
   for the active on [[argireline-acetyl-hexapeptide-8]]
 grades:
