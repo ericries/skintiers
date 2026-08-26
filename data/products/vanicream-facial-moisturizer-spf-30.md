@@ -3,6 +3,7 @@ analyzed: '2026-08-08'
 assurance: sonnet
 brand: Vanicream
 category: Sunscreens
+image_unresolvable: 'no clean primary product photo found (curl/incidecoder/Apify all tried); recheck manually'
 comparator: other mineral (zinc-oxide-only) facial sunscreens, and against organic-filter
   sunscreens more broadly
 grades:

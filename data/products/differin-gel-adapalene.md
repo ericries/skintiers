@@ -3,6 +3,10 @@ analyzed: '2026-08-26'
 assurance: opus
 brand: Differin (Galderma)
 category: Treatments
+images:
+- file: differin-gel-adapalene-incidecoder.jpg
+  source: INCIDecoder
+  source_url: https://incidecoder.com/products/differin-adapalene-gel
 comparator: other topical retinoids for acne (prescription tretinoin, over-the-counter
   adapalene generics), graded on [[adapalene]] and [[acne]]
 grades:

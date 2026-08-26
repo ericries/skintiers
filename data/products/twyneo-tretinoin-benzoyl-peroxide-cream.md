@@ -3,6 +3,7 @@ analyzed: '2026-08-16'
 assurance: sonnet
 brand: Galderma
 category: Retinoids
+image_unresolvable: 'no clean primary product photo found (curl/incidecoder/Apify all tried); recheck manually'
 grades:
 - effect: notable
   evidence: solid

@@ -2,6 +2,7 @@
 analyzed: '2026-08-07'
 assurance: sonnet
 category: Retinoids
+image_unresolvable: 'no clean primary product photo found (curl/incidecoder/Apify all tried); recheck manually'
 comparator: SkinMedica Retinol Complex 1.0 and other over-the-counter retinol serums
 evidence_levels:
   active: retinol

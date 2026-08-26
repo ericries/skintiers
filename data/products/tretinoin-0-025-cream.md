@@ -2,6 +2,7 @@
 analyzed: '2026-07-27'
 assurance: opus
 category: Retinoids
+image_unresolvable: 'no clean primary product photo found (curl/incidecoder/Apify all tried); recheck manually'
 evidence_levels:
   active: tretinoin
   active_note: tretinoin is the reference prescription topical for photoaging
