@@ -9217,3 +9217,16 @@ warren-2026-icotrokinra-high-impact-site-psoriasis-iconic-total-pmid-42175814:
     to placebo thru W16, no new signal thru W52; 90 sites/11 countries; JEADV 2026;40(9):1502-1514. Limitation
     flagged: placebo only thru W16 then crossover (single-arm durability, no active comparator), NRI,
     J&J-funded. No dashes. Inline main-loop critic (subagent cap hit); assurance opus.'
+best-products-dark-spots-hyperpigmentation:
+  last_reviewed: '2026-08-27'
+  score: 9
+  verdict: publish
+  note: 'LIST cron (curatorial best-of). Product-level dark-spot/hyperpigmentation ranking, DISTINCT from
+    the brightening GOAL (which ranks actives) - this ranks 8 finished OTC products that already have
+    pages, tiered by their main active''s evidence reused from [[brightening]]/[[azelaic-acid]]/[[tranexamic-acid]]/[[niacinamide]]/[[cysteamine]]/[[arbutin]].
+    Strong: azelaic (Cos De BAHA 20, Anua 10) + tranexamic combos (Good Molecules, Anua N10/TXA4, Murad);
+    moderate: niacinamide/Melasyl (LRP Mela B3); lower: cysteamine (Cyspera), arbutin (Naturium). Sunscreen-prerequisite
+    + slow-results + see-a-derm caveats included. 2 durable footnotes (AZELEX DailyMed strength; Del Rosario
+    2018 oral TXA melasma RCT PMID 28987494) reused from verified pages; removed a mis-attributed ''beat
+    HQ 2%'' stat (linked out to [[azelaic-acid]] instead). No dashes. Sonnet draft + own lint/verify/style
+    check per list-cron flow.'

@@ -105,7 +105,7 @@
 - name: Best products for dark spots / hyperpigmentation
   type: list
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: 'discover_hubs: 15 mentions across the video archive; no list hub yet'
 - name: AM/PM routine by evidence
