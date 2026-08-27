@@ -155,3 +155,17 @@
   topics:
   - hyaluronic acid
   status: pending
+- name: LaRochePosayUSA
+  channel_url: https://www.youtube.com/@LaRochePosayUSA
+  hits: 1
+  topics:
+  - referral
+  discovered_via: 'referral: mpfOVDGzKXw'
+  status: pending
+- name: impactmelanoma9815
+  channel_url: https://www.youtube.com/@impactmelanoma9815
+  hits: 1
+  topics:
+  - referral
+  discovered_via: 'referral: mpfOVDGzKXw'
+  status: pending

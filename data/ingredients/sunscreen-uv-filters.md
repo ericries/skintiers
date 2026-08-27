@@ -448,6 +448,16 @@ videos:
   related: [zinc-oxide]
   thesis: 'In this roundup, board-certified dermatologist Dr. Scott Walter shares his top five favorite Korean sunscreens and explains why he reaches for them for daily facial use: Korea allows newer UV filters such as Tinosorb S, Tinosorb M, and Uvinul A Plus that the US FDA has not approved since 1999, which he says makes for lighter, more wearable formulas with stronger UVA protection. His five picks are the Skin1004 Hyalu-Cica Water-Fit Sun Serum (which he likes for acne-prone skin), the Beauty of Joseon Relief Sun and its newer lighter Aqua Fresh version, the Round Lab Birch Juice Moisturizing Sun, and the AESTURA Derma UV365 Barrier Hydro mineral sunscreen for people who prefer a zinc-oxide physical filter. He adds that US sunscreens still protect effectively, but he simply prefers these formulas for everyday wear.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: 'The Burning Truth: Sun, Science and SPF'
+  creator: Dr. Whitney Bowe
+  creator_slug: whitney-bowe
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=mpfOVDGzKXw
+  posted: '2026-06-03'
+  related: [zinc-oxide, titanium-dioxide, anti-aging]
+  thesis: 'In this sunscreen explainer, board-certified dermatologist Dr. Whitney Bowe teams up with cosmetic chemist Ramon Pagan to break down how sunscreen actually works. They correct a common myth: both mineral and chemical sunscreens work mainly by absorbing UV radiation and releasing it as a small amount of heat, with mineral filters scattering only about 5 percent of it, rather than simply reflecting rays like a mirror. Bowe also stresses that the SPF number reflects only UVB protection, so broad-spectrum coverage matters for the UVA rays that penetrate deeper and break down collagen, and that the best sunscreen is the one you will actually wear every day.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 name: Sunscreen (UV filters)
 slug: sunscreen-uv-filters
 status: published
