@@ -2133,3 +2133,9 @@
   discovered_from: warren-2026-icotrokinra-high-impact-site-psoriasis-iconic-total-pmid-42175814
   source: https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=tapinarof (FDA-approved
     non-steroid topical AhR agonist for plaque psoriasis and atopic dermatitis)
+- name: Ducray Kelual DS Squamo-Reducing Soothing Cream (piroctone olamine + climbazole)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: piroctone-olamine
+  source: https://www.ducray.com/en-us/dandruff/kelual-ds-squamo-reducing-cream

@@ -9230,3 +9230,18 @@ best-products-dark-spots-hyperpigmentation:
     2018 oral TXA melasma RCT PMID 28987494) reused from verified pages; removed a mis-attributed ''beat
     HQ 2%'' stat (linked out to [[azelaic-acid]] instead). No dashes. Sonnet draft + own lint/verify/style
     check per list-cron flow.'
+piroctone-olamine:
+  last_reviewed: '2026-08-27'
+  score: 9
+  verdict: publish
+  note: 'INGREDIENT cron. Piroctone olamine (Octopirox), anti-Malassezia antifungal for dandruff/seb-derm.
+    tier:mid matches rubric (modest-to-notable effect ~ zinc pyrithione, but LIMITED industry-weighted
+    evidence, below ketoconazole/selenium sulfide). Both sources verified VERBATIM vs NCBI eutils efetch:
+    Schmidt-Rose 2011 (Int J Cosmet Sci, PMID 21272039, Beiersdorf) head-to-head 0.5% piroctone+0.45%
+    climbazole shampoo vs 1% zinc pyrithione: ''comparable anti-fungal effectiveness'', split-head ''equally
+    effective in reducing the amount of dandruff'', ''significantly higher anti-mycotics substantivity'',
+    90% itch-decrease approval at 4wk; Tang 2023 (PMID 36752028, UCL/Unilever) ''monoethanolamine salt
+    of piroctone... antifungal agent widely used for the management of dandruff''. Honest caveats: cleanest
+    RCT is a COMBINATION (climbazole) so isolated contribution not separated + industry-run; ''fungal-acne-safe''
+    claim = mechanism not trials. Links OUT to [[seborrheic-dermatitis]]/[[fungal-acne]]. No dashes. Inline
+    main-loop critic (subagent cap hit); assurance opus.'

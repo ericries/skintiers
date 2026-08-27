@@ -33,6 +33,12 @@ tier_list:
       head-to-head evidence on this site than ketoconazole or selenium sulfide.
     slug: selsun-blue-itchy-dry-scalp-pyrithione-zinc
     tier: moderate
+  - note: Piroctone olamine (Octopirox), an anti-Malassezia antifungal used in shampoos
+      and leave-on "fungal-acne-safe" products. In a manufacturer head-to-head it
+      roughly matched pyrithione zinc for dandruff, but its isolated evidence is
+      limited and industry-weighted; see [[piroctone-olamine]].
+    slug: piroctone-olamine
+    tier: moderate
   - note: A topical calcineurin inhibitor, a steroid-sparing option for facial seborrheic
       dermatitis rather than scalp dandruff; it calms the inflammation without directly
       targeting the yeast.
@@ -45,7 +51,7 @@ tier_list:
     tier: weak
   title: Anti-dandruff and seborrheic dermatitis treatments by evidence
 type: list
-updated: '2026-08-22'
+updated: '2026-08-27'
 ---
 
 Dandruff and seborrheic dermatitis are the same condition at different severities: an inflammatory response to the Malassezia yeast that lives on everyone's skin, covered on [[seborrheic-dermatitis]] (and, on the trunk and face as itchy bumps, on [[fungal-acne]]). It is managed, not cured, so treatment is used in courses and repeated when it relapses.

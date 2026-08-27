@@ -1040,7 +1040,7 @@
 - name: Piroctone olamine (octopirox)
   type: ingredient
   priority: 6
-  status: pending
+  status: done
   discovered_from: null
   source: Established anti-Malassezia antifungal, the 'fungal-acne-safe' alternative
     active; relevant to the [[fungal-acne]] + [[seborrheic-dermatitis]] cluster. No
@@ -1303,3 +1303,9 @@
   status: done
   discovered_from: warren-2026-icotrokinra-high-impact-site-psoriasis-iconic-total-pmid-42175814
   source: https://pubmed.ncbi.nlm.nih.gov/?term=tapinarof+psoriasis+randomized
+- name: Climbazole (azole antifungal, antidandruff)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: piroctone-olamine
+  source: https://pubmed.ncbi.nlm.nih.gov/?term=climbazole+dandruff+Malassezia
