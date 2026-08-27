@@ -15,6 +15,10 @@ grades:
     42 subjects found 19% longer-lasting plumpness; both are small, uncontrolled,
     company-run tests, not independently published'
   use: Hydration via hyaluronic acid and polyglutamic acid (cosmetic)
+images:
+- file: vichy-mineral-89-hydrating-plumping-daily-booster-incidecoder.jpg
+  source: INCIDecoder
+  source_url: https://incidecoder.com/products/vichy-mineral-89
 key_actives:
 - hyaluronic-acid
 name: Vichy Minéral 89 Hydrating & Plumping Daily Booster

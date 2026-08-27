@@ -12,6 +12,10 @@ grades:
     controlled trial of this exact cream is published, and the brand''s own in-use
     survey is quarantined under Common Marketing Claims'
   use: Dry, rough skin on the face and body (health)
+images:
+- file: weleda-skin-food-incidecoder.jpg
+  source: INCIDecoder
+  source_url: https://incidecoder.com/products/weleda-skin-food
 name: Weleda Skin Food Original Ultra-Rich Cream
 price:
 - amount: 22.99

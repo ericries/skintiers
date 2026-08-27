@@ -14,13 +14,17 @@ grades:
     Association Seal of Acceptance, but no trial isolates this exact cream'
   use: Barrier support and slowing water loss for dry, sensitive, and eczema-prone
     skin (health)
+images:
+- file: vanicream-moisturizing-cream-incidecoder.jpg
+  source: INCIDecoder
+  source_url: https://incidecoder.com/products/vanicream-moisturizing-skin-cream
 name: Vanicream Moisturizing Cream
 price:
 - amount: 13.19
-  currency: USD
-  size: "16 oz"
   as_of: '2026-08-07'
-  source: "^2"
+  currency: USD
+  size: 16 oz
+  source: ^2
 slug: vanicream-moisturizing-cream
 status: published
 type: product

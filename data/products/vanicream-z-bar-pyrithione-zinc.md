@@ -19,6 +19,10 @@ grades:
     as a short-contact wash, but that use is not on the label and the fungal-acne
     evidence centers on azoles and selenium sulfide, not pyrithione zinc'
   use: Fungal acne / Malassezia folliculitis (health, off-label)
+images:
+- file: vanicream-z-bar-pyrithione-zinc-incidecoder.jpg
+  source: INCIDecoder
+  source_url: https://incidecoder.com/products/vanicream-z-bar
 key_actives: []
 name: Vanicream Z-Bar (pyrithione zinc)
 slug: vanicream-z-bar-pyrithione-zinc
