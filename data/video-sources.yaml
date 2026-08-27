@@ -68,7 +68,7 @@
   last_pulled: '2026-08-25'
 - name: Javon Ford
   creator_slug: javon-ford
-  backfill_cursor: 0
+  backfill_cursor: 15
   credential: Cosmetic chemist
   tier: HIGH
   channel: https://www.youtube.com/@javonford16/videos
