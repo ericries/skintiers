@@ -2126,3 +2126,10 @@
   status: pending
   discovered_from: brightening
   source: https://eltamd.com/products/uv-elements-broad-spectrum-spf-44
+- name: Vtama (tapinarof 1% cream)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: warren-2026-icotrokinra-high-impact-site-psoriasis-iconic-total-pmid-42175814
+  source: https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=tapinarof (FDA-approved
+    non-steroid topical AhR agonist for plaque psoriasis and atopic dermatitis)

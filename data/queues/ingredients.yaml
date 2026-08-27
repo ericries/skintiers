@@ -1297,3 +1297,9 @@
   status: pending
   discovered_from: bio-oil-skincare-oil
   source: https://pubmed.ncbi.nlm.nih.gov/?term=mineral+oil+emollient+occlusive+skin
+- name: Tapinarof (topical AhR agonist)
+  type: ingredient
+  priority: 5
+  status: done
+  discovered_from: warren-2026-icotrokinra-high-impact-site-psoriasis-iconic-total-pmid-42175814
+  source: https://pubmed.ncbi.nlm.nih.gov/?term=tapinarof+psoriasis+randomized

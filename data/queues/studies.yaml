@@ -456,7 +456,7 @@
     1-year ICONIC-TOTAL  (PMID 42175814)'
   type: study
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/42175814/
 - name: 'Cheng 2026 Validation of International Classification of Diseases Codes for
