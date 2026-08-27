@@ -1285,3 +1285,15 @@
   discovered_from: cetaphil-redness-relieving-daily-facial-moisturizer-spf-40
   source: The tint pigment in redness/mineral sunscreens; iron oxides also block visible
     light (relevant to melasma/hyperpigmentation) - high-value ingredient page
+- name: Retinyl palmitate (vitamin A ester)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: bio-oil-skincare-oil
+  source: https://pubmed.ncbi.nlm.nih.gov/?term=retinyl+palmitate+skin+retinoid
+- name: Mineral oil (paraffinum liquidum)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: bio-oil-skincare-oil
+  source: https://pubmed.ncbi.nlm.nih.gov/?term=mineral+oil+emollient+occlusive+skin

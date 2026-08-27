@@ -32,9 +32,15 @@ tier_list:
       any effect." See [[palmers-cocoa-butter-massage-lotion-stretch-marks]].
     slug: palmers-cocoa-butter-massage-lotion-stretch-marks
     tier: minimal
+  - note: A fragranced mineral-oil emollient heavily marketed for scars and stretch
+      marks. There is no product-specific trial, and an emollient oil is the least-supported
+      topical class here, the same category as the cocoa butter and olive oil the
+      2016 review found showed no effect. See [[bio-oil-skincare-oil]].
+    slug: bio-oil-skincare-oil
+    tier: minimal
   title: Topical stretch-mark treatments by evidence
 type: goal
-updated: '2026-08-21'
+updated: '2026-08-26'
 ---
 
 Stretch marks (striae distensae) are bands of thinned, scarred skin that form when skin is stretched faster than it can adapt, as in pregnancy, growth spurts, or rapid weight change. They start red or purple (striae rubrae) and fade to pale, slightly sunken lines (striae albae) over months to years. They are a cosmetic concern rather than a medical problem, and they are notoriously resistant to treatment.
