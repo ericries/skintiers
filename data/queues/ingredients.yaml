@@ -1309,3 +1309,9 @@
   status: pending
   discovered_from: piroctone-olamine
   source: https://pubmed.ncbi.nlm.nih.gov/?term=climbazole+dandruff+Malassezia
+- name: Roflumilast (topical PDE4 inhibitor)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: zoryve-roflumilast-cream
+  source: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ec1bb0d1-f38a-4080-831a-68791d1d1fdb

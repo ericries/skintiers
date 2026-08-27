@@ -1941,7 +1941,7 @@
 - name: Roflumilast cream (Zoryve)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: psoriasis
   source: FDA-approved topical PDE4 inhibitor for plaque psoriasis of scalp and body;
     CADTH/CDEC review PMID 42485470
@@ -2139,3 +2139,15 @@
   status: pending
   discovered_from: piroctone-olamine
   source: https://www.ducray.com/en-us/dandruff/kelual-ds-squamo-reducing-cream
+- name: Zoryve (roflumilast 0.3% foam) for seborrheic dermatitis
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: zoryve-roflumilast-cream
+  source: https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=roflumilast+foam
+- name: Opzelura (ruxolitinib 1.5% cream) for atopic dermatitis and vitiligo
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: zoryve-roflumilast-cream
+  source: https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=ruxolitinib+cream
