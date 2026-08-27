@@ -300,14 +300,14 @@
   product_recs: restricted
   conflict: null
   last_pulled: '2026-08-26'
-- name: ''
+- name: 'Fatima Fahs'
   creator_slug: fatima-fahs
-  credential: ''
+  credential: 'Dermatologist (MD)'
   tier: HIGH
   channel: 'https://www.tiktok.com/@dermydoctor'
   product_recs: restricted
   conflict: null
-  last_pulled: '2026-08-16'
+  last_pulled: '2026-08-27'
 
 # --- Added 2026-08-16 via creator-vetting batch 2 (auto-add) ---
 - name: 'Dr. Michelle Henry, MD FAAD'

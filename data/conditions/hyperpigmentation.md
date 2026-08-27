@@ -381,6 +381,16 @@ videos:
   related: []
   thesis: Dr. Jenny Liu, MD, FAAD, a board-certified dermatologist, explains that hyperpigmentation and dark spots often fail to fade or keep returning because people treat the pigment itself without addressing the underlying inflammation that triggers melanocyte overactivity. She outlines a home skin care strategy for improving uneven tone, when to escalate treatment, and when the condition warrants seeing a dermatologist in person.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: 'Freckles vs sun spots: what''s the difference?'
+  creator: Fatima Fahs
+  creator_slug: fatima-fahs
+  credential: Dermatologist (MD)
+  platform: TikTok
+  url: https://www.tiktok.com/@dermydoctor/video/7677570515090918670
+  posted: '2026-08-24'
+  related: [sunscreen-uv-filters, brightening, melasma]
+  thesis: Dermatologist Dr. Fatima Fahs (Dermy Doctor) explains how freckles differ from sun spots. Freckles, or ephelides, are largely genetic and darken each summer with more UV exposure, while sun spots, or solar lentigines, come from cumulative lifetime UV exposure and stay put whether it is sunny or freezing. She adds that new sun spots that do not fade are a sign of ongoing UV damage, and that both are a reason to see a dermatologist for a skin check so the spots can be examined under a dermoscope.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
