@@ -23,6 +23,10 @@ grades:
     brightening evidence is preclinical only (cell-free assays, cultured cells, a
     zebrafish model, no human trial), covered on [[3-o-ethyl-ascorbic-acid]]'
   use: Antioxidant "superfood" plant extracts and 3-O-ethyl ascorbic acid (cosmetic)
+images:
+- file: youth-to-the-people-superfood-air-whip-moisture-cream-incidecoder.jpg
+  source: INCIDecoder
+  source_url: https://incidecoder.com/products/youth-to-the-people-superfood-air-whip-moisture-cream
 key_actives:
 - hyaluronic-acid
 - 3-o-ethyl-ascorbic-acid

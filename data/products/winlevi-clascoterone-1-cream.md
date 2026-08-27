@@ -19,6 +19,10 @@ grades:
     a PCOS population; the local androgen-blocking mechanism is plausible for hormonal
     acne but untested as such (on [[clascoterone]], [[pcos]])'
   use: Hormonal or PCOS-associated acne specifically, off-label (health)
+images:
+- file: winlevi-clascoterone-1-cream-dailymed.jpg
+  source: DailyMed
+  source_url: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1673a84b-7f5c-47ab-a99c-1e3db21a6a09
 key_actives:
 - clascoterone
 name: Winlevi (clascoterone 1% cream)
