@@ -2119,3 +2119,10 @@
   status: pending
   discovered_from: body-acne
   source: https://www.paulaschoice.com/clear-back-and-body-acne-spray/2010.html
+- name: EltaMD UV Elements Tinted Mineral Sunscreen SPF 44 (iron oxides, visible-light
+    protection for melasma)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: brightening
+  source: https://eltamd.com/products/uv-elements-broad-spectrum-spf-44

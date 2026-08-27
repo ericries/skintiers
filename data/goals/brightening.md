@@ -34,6 +34,14 @@ tier_list:
       tyrosinase. Matched hydroquinone 4% in one small independent trial.
     slug: niacinamide
     tier: moderate
+  - note: A resorcinol-derivative tyrosinase inhibitor. In a head-to-head in vitro
+      comparison it was the most potent tyrosinase inhibitor tested, well ahead of
+      hydroquinone, kojic acid, and arbutin, though that comparison came from an
+      industry lab; its clinical case rests on one vehicle-controlled split-face
+      melasma trial of the isolated 0.3% ingredient, significant at 12 weeks and not
+      yet independently replicated.
+    slug: 4-butylresorcinol
+    tier: moderate
   - note: Tyrosinase-inhibiting brightener, usually a combination-formula add-on.
       Real but comparatively modest evidence; ranks below hydroquinone, azelaic acid,
       and tranexamic acid on pooled effect size.
@@ -52,7 +60,7 @@ tier_list:
     tier: minimal
   title: Topical actives that even skin tone, by evidence
 type: goal
-updated: '2026-08-10'
+updated: '2026-08-26'
 ---
 
 "Brightening" and "even skin tone" are marketing umbrella terms for more than one problem, and the problems need different fixes. Real hyperpigmentation, melasma, post-inflammatory marks, and sun spots, is extra melanin sitting in specific patches; [[melasma]] and [[hyperpigmentation]] cover how those three are told apart and what the trial evidence supports for each. General dullness, a flat or tired look with no distinct dark patches, is a different problem: a surface effect from a rough or dehydrated top layer rather than a color change in the skin. Nothing below bleaches skin lighter than its own natural tone. Even hydroquinone, the ingredient at the center of the FDA's 2006 proposed rule on over-the-counter skin-bleaching drug products,[^fda2006] is not a general lightener: its one FDA-approved form, the fixed triple-combination cream, is restricted to short-term use for diagnosed melasma.[^triluma] The actives below work slowly: the trials behind them typically run 8 to 12 weeks or longer, and none produce a lasting result without daily sun protection underneath.

@@ -36,7 +36,7 @@
 - name: Fading dark spots & even tone
   type: goal
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: 'discover_hubs: 18 mentions across the video archive; no goal hub yet'
 - name: "Neck & chest (d\xE9colletage) care"
