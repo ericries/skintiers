@@ -142,7 +142,7 @@
   channel: https://www.youtube.com/@cassandrabankson/videos
   conflict: non-credentialed educator - educational content only, never treat picks as endorsements,
     never use sponsored videos
-  last_pulled: '2026-08-23'
+  last_pulled: '2026-08-27'
 - name: Hyram (Skincare by Hyram)
   creator_slug: hyram
   credential: Skincare educator (NOT a dermatologist or cosmetic chemist)
