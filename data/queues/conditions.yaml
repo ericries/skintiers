@@ -108,7 +108,7 @@
 - name: Acne scars (atrophic & PIE)
   type: condition
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: 'discover_hubs: 4 mentions across the video archive; no condition hub yet'
 - name: Sun damage & photoaging
@@ -135,3 +135,9 @@
   status: pending
   discovered_from: null
   source: 'discover_hubs: 2 mentions across the video archive; no condition hub yet'
+- name: Post-inflammatory erythema (PIE), red acne marks
+  type: condition
+  priority: 5
+  status: pending
+  discovered_from: acne-scars
+  source: https://pubmed.ncbi.nlm.nih.gov/?term=post-inflammatory+erythema+acne+treatment

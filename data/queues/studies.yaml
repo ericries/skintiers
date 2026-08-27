@@ -1081,3 +1081,10 @@
   status: pending
   discovered_from: brightening
   source: https://pubmed.ncbi.nlm.nih.gov/24313385/
+- name: Topical tazarotene/tretinoin for atrophic acne scars (split-face randomized
+    trial)
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: acne-scars
+  source: https://pubmed.ncbi.nlm.nih.gov/?term=topical+retinoid+atrophic+acne+scars+randomized
