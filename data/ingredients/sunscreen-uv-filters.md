@@ -438,6 +438,16 @@ videos:
   related: []
   thesis: Cosmetic chemist Michelle Wong of Lab Muffin Beauty Science, a chemistry PhD, ran her own experiments on sunscreen sticks to figure out how they should be used and says she was shocked by the results. She explains that although sticks are convenient for reapplying without getting sunscreen all over your hands, how you apply one strongly affects whether you actually get the protection stated on the label.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: A Dermatologist's Top 5 Korean Sunscreens
+  creator: Dr. Scott Walter
+  creator_slug: scott-walter
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=TftRd5FmQHU
+  posted: '2025-01-03'
+  related: [zinc-oxide]
+  thesis: 'In this roundup, board-certified dermatologist Dr. Scott Walter shares his top five favorite Korean sunscreens and explains why he reaches for them for daily facial use: Korea allows newer UV filters such as Tinosorb S, Tinosorb M, and Uvinul A Plus that the US FDA has not approved since 1999, which he says makes for lighter, more wearable formulas with stronger UVA protection. His five picks are the Skin1004 Hyalu-Cica Water-Fit Sun Serum (which he likes for acne-prone skin), the Beauty of Joseon Relief Sun and its newer lighter Aqua Fresh version, the Round Lab Birch Juice Moisturizing Sun, and the AESTURA Derma UV365 Barrier Hydro mineral sunscreen for people who prefer a zinc-oxide physical filter. He adds that US sunscreens still protect effectively, but he simply prefers these formulas for everyday wear.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 name: Sunscreen (UV filters)
 slug: sunscreen-uv-filters
 status: published

@@ -126,7 +126,7 @@
   tier: HIGH
   channel: https://www.youtube.com/channel/UCMpQ40ncZxXcY4OPT7V9hwQ/videos
   conflict: null
-  last_pulled: '2026-08-23'
+  last_pulled: '2026-08-27'
 - name: Dr. Whitney Bowe
   creator_slug: whitney-bowe
   backfill_cursor: 0
