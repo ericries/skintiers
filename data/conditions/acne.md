@@ -293,6 +293,16 @@ videos:
   related: []
   thesis: Dermatologist Dr. Scott Walter (board-certified dermatologist) discusses a phase 2b study of Spongilla lacustris, a silica-based freshwater sponge with anti-inflammatory and antibacterial properties, applied once weekly as a mask for moderate to severe acne. At 12 weeks the once-weekly treatment produced statistically significant improvements in inflammatory and non-inflammatory acne, with 44% of patients achieving a two-point IGA score improvement and no serious adverse events reported. He frames it as a promising early finding on treatment compliance that needs more studies before becoming a standard acne option.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Top 5 Dermatologist-Approved Natural Acne Remedies
+  creator: Dr. Davin Lim
+  creator_slug: davin-lim
+  credential: Board-certified dermatologist (Australia)
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=1BaBKjrpyT0
+  posted: '2024-11-18'
+  related: []
+  thesis: In this acne explainer, board-certified dermatologist Dr. Davin Lim walks through natural and supplement-based options for managing breakouts. He highlights oral zinc as the best-studied choice, taken as zinc sulfate over roughly 6 to 12 weeks, and cites a 2014 study in which 2.2 grams of daily vitamin B5 (pantothenic acid) reduced acne lesions by 67 percent after 12 weeks, alongside diet and lifestyle factors. He frames these as holistic options to help manage acne rather than replacements for standard treatment.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
