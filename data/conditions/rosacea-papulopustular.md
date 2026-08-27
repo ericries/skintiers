@@ -41,7 +41,49 @@ tier_list:
     tier: weak
   title: Papulopustular rosacea treatments by evidence
 type: condition
-updated: '2026-08-17'
+updated: '2026-08-27'
+videos:
+- title: Rosacea and the Link with Demodex Mites
+  creator: Dr. Scott Walter
+  creator_slug: scott-walter
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=05ysCxb8gxg
+  posted: '2024-03-26'
+  related: [rosacea, ivermectin-topical, soolantra-ivermectin-1-cream]
+  thesis: Board-certified dermatologist Dr Scott Walter explains the suspected link between rosacea and Demodex, the microscopic mites that live in the pores of everyone's face and feed on skin oil and dead cells. He points out that these mites are normal and present on all of us but are thought to play a role in the common inflammatory condition rosacea, which is part of why an anti-mite topical like ivermectin helps, and shows how he sampled his own skin overnight using tape.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Struggling with Rosacea? Here Are the Best Treatments
+  creator: Dr. Usama Syed
+  creator_slug: usama-syed
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=iDgHqa_MI0Q
+  posted: '2023-08-23'
+  related: [azelaic-acid, sunscreen-uv-filters, rosacea]
+  thesis: 'Board-certified dermatologist Dr. Usama Syed walks through rosacea treatment in tiers: lifestyle changes (physical sunscreen with zinc or titanium, avoiding spicy food, cold weather, and other flare triggers), over-the-counter options, prescription creams, and procedures. He singles out azelaic acid as a standout ingredient for rosacea because it is anti-inflammatory, reduces redness, and is safe in pregnancy, and warns against physical or chemical exfoliants, benzoyl peroxide, and unmodified retinoids since they can irritate rosacea-prone skin.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Will Facial Redness Go Away After You Quit Drinking?
+  creator: Andrea Suarez (Dr Dray)
+  creator_slug: andrea-suarez-dr-dray
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=SMVvY1QAavY
+  posted: '2026-07-18'
+  related: [rosacea-erythematotelangiectatic, brimonidine, sunscreen-uv-filters]
+  thesis: 'Board-certified dermatologist Andrea Suarez (Dr Dray) answers a viewer who quit drinking but still has persistent facial redness, using it to explain alcohol as a rosacea trigger. She describes how rosacea can progress from alcohol-triggered flushing to fixed facial redness that does not resolve on its own, and outlines what helps that fixed redness: light-based devices such as intense pulsed light or pulsed-dye laser, the topical vasoconstrictor brimonidine for temporary improvement, plus daily sunscreen and gentle moisturizers, since UV exposure and an impaired skin barrier worsen rosacea.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: The Acid That Treats Acne AND Rosacea
+  creator: Dr. Dustin Portela
+  creator_slug: dustin-portela
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=erSEdS4hnSc
+  posted: '2026-04-19'
+  related: [azelaic-acid, rosacea, acne]
+  thesis: Board-certified dermatologist Dr. Dustin Portela breaks down why he considers azelaic acid one of the most versatile ingredients in his practice, using it to treat acne, rosacea, melasma, and post-inflammatory hyperpigmentation in the same patients. He walks through the four mechanisms behind the ingredient, including its antibacterial and anti-inflammatory effects, and explains why he considers it one of the few topical options he is comfortable recommending during pregnancy.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Papulopustular rosacea (PPR), historically called Type 2 or subtype 2 rosacea, is the inflammatory form of the disease: crops of small red bumps (papules) and pus-topped spots (pustules) sitting on a background of persistent redness across the central face. It produces no blackheads or whiteheads, which is the clearest way it separates from acne, and it adds visible inflammatory lesions on top of the flushing and redness that define the Type 1 (erythematotelangiectatic) form.
@@ -91,6 +133,25 @@ The anchor is the abridged updated Cochrane review of interventions for rosacea,
 
 **6. Oral isotretinoin (off-label, for severe or refractory disease). Effect: notable · Evidence: solid, but a specialist decision.** Low-dose isotretinoin is used off-label when papulopustular rosacea is severe or has not responded to the topicals and antibiotics above. The Cochrane review found "low-dose isotretinoin appeared to be slightly more effective than doxycycline 50-100 mg (high-quality evidence)."[^cochrane] It is a systemic retinoid with teratogenicity and other risks that require prescriber supervision and monitoring, which is why it is reserved rather than first-line. Other tetracyclines (oral tetracycline and standard-dose doxycycline or minocycline) also have evidence: Cochrane cited "moderate-quality evidence for the effectiveness of tetracycline based on two old studies," and rated oral minocycline 45 mg only "may be effective for papulopustular rosacea (low-quality evidence)."[^cochrane]
 
+## A Practical Routine, and the Products That Deliver It
+
+Rosacea skin is reactive, so the routine is deliberately short: a gentle cleanser, one evidence-based active, a barrier moisturizer, and daily sun protection. The most effective actives (topical ivermectin, prescription-strength azelaic acid, metronidazole, and oral doxycycline) are prescription decisions made with a dermatologist; the over-the-counter azelaic acid products below are the strongest self-directed option. Product names are examples that already have pages here, not the only choices.
+
+**Cleanse gently, morning and night.** Use a non-stripping, low-surfactant cleanser and lukewarm water, no scrubs or brushes: [[cetaphil-gentle-skin-cleanser|Cetaphil Gentle Skin Cleanser]], [[prequel-gleanser-glycerin-cleanser|Prequel Gleanser]], or [[tower-28-sos-daily-balancing-gel-cleanser|Tower 28 SOS Daily Balancing Cleanser]].
+
+**Treat with one core active.**
+- *Prescription, best-evidenced (with a dermatologist):* topical ivermectin as [[soolantra-ivermectin-1-cream|Soolantra]], prescription-strength azelaic acid, or metronidazole as [[metrogel-metronidazole-1-gel|MetroGel]]. Ivermectin and azelaic acid carry the strongest Cochrane certainty, graded in the tier list above.
+- *Over-the-counter route (azelaic acid):* [[the-ordinary-azelaic-acid-suspension-10|The Ordinary Azelaic Acid Suspension]] or [[paulas-choice-boost-10-azelaic-acid-booster|Paula's Choice Azelaic Acid Booster]]. These are below the prescription gel strength but are the most defensible non-prescription active for the inflammatory bumps; the concentration-versus-evidence picture is on [[azelaic-acid]].
+- *Sulfur (older, weaker option):* [[prequel-redness-reform-sulfur-cleanser|Prequel Redness Reform Sulfur Cleanser]] or [[prequel-redness-reform-serum|Prequel Redness Reform Serum]]; both rank below the topicals above.
+
+**Moisturize to support the barrier.** Rosacea skin has an impaired barrier, so a bland, fragrance-free moisturizer reduces stinging and helps the actives be tolerated: [[la-roche-posay-rosaliac-ar-intense-serum|La Roche-Posay Rosaliac AR]] or a plain ceramide or glycerin moisturizer layered underneath.
+
+**Protect from the sun every morning.** Ultraviolet exposure is one of the most common rosacea triggers, so daily broad-spectrum sunscreen is foundational; it manages a trigger rather than treating the lesions. A 100% mineral filter is a reasonable default for reactive skin: [[cetaphil-redness-relieving-daily-facial-moisturizer-spf-40|Cetaphil Redness Relieving SPF 40]] is a tinted mineral option whose green tint also mutes redness. [[eltamd-uv-clear-spf-46|EltaMD UV Clear SPF 46]] is a widely recommended sensitive-skin choice, though it is a hybrid (zinc oxide plus a chemical filter) rather than fully mineral.
+
+**For the redness itself (an adjunct, not for the bumps).** If persistent facial redness is the bigger complaint, the vasoconstrictor brimonidine as [[mirvaso-brimonidine-gel|Mirvaso]] temporarily reduces it but does nothing for papules and pustules; the redness subtype and its options are on [[rosacea-erythematotelangiectatic]].
+
+**What to leave out.** Skip physical and chemical exfoliants, benzoyl peroxide, high-strength unbuffered acids, alcohol-heavy toners, and added fragrance, which commonly aggravate rosacea; introduce any retinoid slowly and only with guidance. None of this replaces a dermatologist for the prescription actives that work best.
+
 ## What's Overhyped
 
 Everything here is unsupported for the *papulopustular lesions* unless it also appears in The Evidence.
@@ -129,7 +190,7 @@ Taken together, the syntheses converge: the Cochrane GRADE ratings (topical iver
 
 ## See Also
 
-[[rosacea]], [[rosacea-erythematotelangiectatic]], [[azelaic-acid]], [[acne]]
+[[rosacea]], [[rosacea-erythematotelangiectatic]], [[azelaic-acid]], [[metronidazole]], [[brimonidine]], [[acne]], [[soolantra-ivermectin-1-cream]], [[metrogel-metronidazole-1-gel]], [[mirvaso-brimonidine-gel]], [[the-ordinary-azelaic-acid-suspension-10]], [[cetaphil-redness-relieving-daily-facial-moisturizer-spf-40]]
 
 ## Sources
 

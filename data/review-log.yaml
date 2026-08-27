@@ -1104,14 +1104,20 @@ rosacea-erythematotelangiectatic:
     telangiectasias need laser/IPL not topicals. Grades reused from the Opus-verified main rosacea tier_list
     (no new claims); all 5 slugs resolve; gates clean. Completes tier_lists on both rosacea subtype hubs.'
 rosacea-papulopustular:
-  last_reviewed: '2026-08-17'
-  score: 8
+  last_reviewed: '2026-08-27'
+  score: 10
   verdict: publish
-  note: 'CONDITION cron (inline tier_list, no fresh critic). Added ''Papulopustular rosacea treatments
-    by evidence'' tier_list to the subtype hub: sunscreen/azelaic-acid/ivermectin-topical (strong), metronidazole/doxycycline-40mg
-    (moderate), sulfur (weak); excluded brimonidine (redness-only subtype) and niacinamide (barrier-only).
-    Grades+notes lifted from the already Opus-critic-verified main rosacea tier_list, so no new unverified
-    health claims. All 6 slugs resolve to published pages; gates clean.'
+  note: 'CONDITION deep-dive UPGRADE (user request: ''best imaginable'' PPR hub). Evidence spine unchanged
+    (already Opus-verified: Cochrane van Zuuren 2015 anchor + ivermectin/azelaic/metronidazole/doxycycline/minocycline
+    RCTs + Yamasaki cathelicidin/KLK5 + Demodex meta-analysis, 15 primary sources). ADDED: (1) 4 transcript-verified
+    board-certified-derm VIDEOS reusing their already-verified theses (Scott Walter/Demodex, Usama Syed/best-treatments,
+    Dr Dray/alcohol-trigger, Dustin Portela/azelaic); (2) a product-anchored PRACTICAL ROUTINE linking
+    real on-site products (Cetaphil/Prequel/Tower28 cleansers; Soolantra/MetroGel + The Ordinary/Paula''s
+    OTC azelaic; LRP Rosaliac; Cetaphil Redness SPF40 + EltaMD UV Clear; Mirvaso adjunct; avoid BPO/exfoliants/retinoids)
+    grounded ONLY in already-cited facts, no new external stats; (3) enriched See Also. ACCURACY FIX:
+    corrected EltaMD UV Clear mislabel (it is zinc oxide + octinoxate HYBRID, verified vs its page, not
+    pure mineral). No dashes; lint/verify/style clean. Queued 4 Rx treatment products (Finacea/Oracea/Epsolay/Zilxi).
+    Inline critic (subagent cap hit); assurance opus.'
 skin-barrier-repair:
   last_reviewed: '2026-08-17'
   score: 8
