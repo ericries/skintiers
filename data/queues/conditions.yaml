@@ -141,3 +141,9 @@
   status: pending
   discovered_from: acne-scars
   source: https://pubmed.ncbi.nlm.nih.gov/?term=post-inflammatory+erythema+acne+treatment
+- name: Poikiloderma of Civatte (sun-induced neck and chest redness/pigment)
+  type: condition
+  priority: 5
+  status: pending
+  discovered_from: neck-chest-decolletage-care
+  source: https://pubmed.ncbi.nlm.nih.gov/34889036/

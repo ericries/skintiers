@@ -9280,3 +9280,17 @@ acne-scars:
     topicals (tretinoin moderate, azelaic moderate, niacinamide minimal) w/ caption stating procedures
     lead for atrophic + prevention via early [[acne]] tx. No PIH re-explanation (links out). No dashes.
     Inline main-loop critic (subagent cap hit); assurance opus.'
+neck-chest-decolletage-care:
+  last_reviewed: '2026-08-27'
+  score: 9
+  verdict: publish
+  note: 'GOAL cron (health/efficacy). Lean hub: neck/chest photoage like the face -> same actives, applied
+    gentler (thinner skin); links OUT to [[anti-aging]]/[[retinoids]]/[[sunscreen-uv-filters]] for the
+    actives'' evidence. Both quotes verified VERBATIM vs NCBI eutils: Rawlings 2013 (J Cosmet Dermatol,
+    PMID 23438139) randomized no-treatment-controlled study - vit A+antioxidant oil ''improved fine lines,
+    coarse wrinkles, mottled pigmentation, uneven skin tone, roughness, firmness, and clarity of the skin
+    on the face and neck'' + ''crepey skin texture, dryness, scaling and roughness'' on decolletage; Sarac
+    2022 (PMID 34889036) poikiloderma of Civatte ''there is no standard treatment guideline'', treated
+    with lasers (procedural, out of scope, stated). tier_list sunscreen/retinoids strong, vitamin C/lactic
+    acid moderate; names real body products (Gold Bond retinol, Cocokind retinol, AmLactin). YAML colon-space
+    fix applied. No dashes. Inline main-loop critic (subagent cap hit); assurance opus.'

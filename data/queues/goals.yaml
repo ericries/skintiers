@@ -42,7 +42,7 @@
 - name: "Neck & chest (d\xE9colletage) care"
   type: goal
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: 'discover_hubs: 6 mentions across the video archive; no goal hub yet'
 - name: Glowing / radiant skin

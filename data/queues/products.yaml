@@ -2175,3 +2175,15 @@
   status: pending
   discovered_from: rosacea-papulopustular
   source: https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=zilxi+minocycline
+- name: Necessaire The Body Retinol (0.1% retinol body serum)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: neck-chest-decolletage-care
+  source: https://www.necessaire.com/products/the-body-retinol
+- name: StriVectin TL Advanced Tightening Neck Cream Plus
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: neck-chest-decolletage-care
+  source: https://www.strivectin.com/tl-advanced-tightening-neck-cream-plus/2401.html
