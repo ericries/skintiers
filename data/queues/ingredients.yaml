@@ -1063,7 +1063,7 @@
 - name: Propylene glycol (50% topical, anti-Malassezia)
   type: ingredient
   priority: 6
-  status: pending
+  status: done
   discovered_from: fungal-acne
   source: One of the topical options with reported benefit for fungal acne (propylene
     glycol 50% twice daily, Saunte, on [[fungal-acne]]); no ingredient page; would
@@ -1321,3 +1321,9 @@
   status: pending
   discovered_from: cerave-psoriasis-moisturizing-cream
   source: https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=calcipotriene
+- name: Ciclopirox (ciclopiroxolamine, topical antifungal)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: propylene-glycol
+  source: https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=ciclopirox

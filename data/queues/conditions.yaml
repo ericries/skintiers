@@ -147,3 +147,9 @@
   status: pending
   discovered_from: neck-chest-decolletage-care
   source: https://pubmed.ncbi.nlm.nih.gov/34889036/
+- name: Pityriasis (tinea) versicolor (Malassezia discoloration)
+  type: condition
+  priority: 5
+  status: pending
+  discovered_from: propylene-glycol
+  source: https://pubmed.ncbi.nlm.nih.gov/8312142/
