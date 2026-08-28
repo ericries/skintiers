@@ -1948,7 +1948,7 @@
 - name: CeraVe Psoriasis Moisturizing Cream (2% salicylic acid + lactic acid)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: psoriasis
   source: OTC psoriasis product; salicylic acid keratolytic + lactic acid, verify
     active/label via DailyMed or brand
@@ -2187,3 +2187,15 @@
   status: pending
   discovered_from: neck-chest-decolletage-care
   source: https://www.strivectin.com/tl-advanced-tightening-neck-cream-plus/2401.html
+- name: Sorilux (calcipotriene 0.005% foam) for plaque psoriasis
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: cerave-psoriasis-moisturizing-cream
+  source: https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=sorilux+calcipotriene
+- name: MG217 Medicated Salicylic Acid Psoriasis Cream
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: cerave-psoriasis-moisturizing-cream
+  source: https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=mg217+salicylic+acid+psoriasis

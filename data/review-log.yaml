@@ -9294,3 +9294,18 @@ neck-chest-decolletage-care:
     with lasers (procedural, out of scope, stated). tier_list sunscreen/retinoids strong, vitamin C/lactic
     acid moderate; names real body products (Gold Bond retinol, Cocokind retinol, AmLactin). YAML colon-space
     fix applied. No dashes. Inline main-loop critic (subagent cap hit); assurance opus.'
+cerave-psoriasis-moisturizing-cream:
+  last_reviewed: '2026-08-27'
+  score: 9
+  verdict: publish
+  note: 'PRODUCT cron (skeptical catalog). CeraVe Psoriasis Cream = salicylic acid 2% (OTC keratolytic
+    for psoriasis SCALE) in a ceramide/urea/niacinamide base. All facts verified VERBATIM vs DailyMed
+    OTC label (setid 51f27970): active ''Salicylic acid 2%'', purpose ''Psoriasis'', uses ''for the relief
+    of skin itching, scaling, redness, flaking and irritation associated with psoriasis'' + ''helps prevent
+    the recurrence of the symptoms of psoriasis''; inactive list verbatim. ACCURACY: (1) corrected the
+    queue name''s ''lactic acid'' -> label actually lists C12-13 alkyl lactate (ester) + urea, NOT free
+    lactic acid; (2) trimmed the verbatim inactive quote to EXCLUDE the label''s typo ''ceamide 6-II'',
+    describing the ceramides in prose instead. SKEPTICAL SPINE: removes scale + moisturizes = supportive
+    care, NOT disease-modifying; real psoriasis tx (steroids/vit-D analogues/[[zoryve-roflumilast-cream]])
+    linked OUT to [[psoriasis]]. Grades both modest/established. Real incidecoder photo. No price invented.
+    No dashes. Inline main-loop critic (subagent cap hit); assurance opus.'
