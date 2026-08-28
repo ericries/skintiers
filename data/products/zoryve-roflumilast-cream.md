@@ -3,6 +3,7 @@ analyzed: '2026-08-27'
 assurance: opus
 brand: Zoryve (Arcutis Biotherapeutics)
 category: Treatments
+image_unresolvable: 'Rx-only; not on incidecoder; DailyMed media are only the roflumilast chemical structure and the DERMIS/INTEGUMENT trial figures (no carton or tube photo); zoryve.com is a JS-SPA with no og:image. No clean, verifiable product photo obtainable without a paid render/search.'
 comparator: topical corticosteroids and other steroid-free topicals for psoriasis
   and eczema, including the PDE4 inhibitor [[crisaborole]], graded on [[psoriasis]]
   and [[atopic-dermatitis]]
