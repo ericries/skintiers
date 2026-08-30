@@ -1193,6 +1193,15 @@ beta-glucan:
     '
   score: 9
   verdict: revise-then-fixed
+betamethasone-dipropionate:
+  last_reviewed: '2026-08-30'
+  note: 'INGREDIENT wave5. High-potency topical corticosteroid, steroid half of the calcipotriene combo.
+    tier:good. Opus critic FIXED a BLOCKING TSS data error (68%/76% not 40%/68%, PMID 28238742), false
+    "double calcipotriol" claim (57.2% is 1.24x), epidermal-thinning misattribution (Jung: thinning in
+    GC+vehicle+untreated alike). All stats verbatim vs eutils + PubChem CID 21800. Main-loop: pivotal->registration,
+    not-just reworded. tier:good. Opus critic inline (workflow pipeline); assurance opus.'
+  score: 9
+  verdict: publish
 bifida-ferment-lysate:
   last_reviewed: '2026-08-08'
   note: 'Opus verification of bifida-ferment-lysate (draft): re-fetched both cited PubMed primaries and
@@ -2065,6 +2074,13 @@ cocamidopropyl-betaine:
     pipeline); assurance opus.
   score: 8
   verdict: publish
+coco-glucoside:
+  last_reviewed: '2026-08-30'
+  note: INGREDIENT wave5. Mild alkyl polyglucoside surfactant (functional cleanser base, not a skin active).
+    tier:weak honest. All verbatim vs eutils. Links [[moisturizing]]. tier:weak. Opus critic inline (workflow
+    pipeline); assurance opus.
+  score: 7
+  verdict: publish
 cocoa-butter:
   last_reviewed: '2026-08-25'
   note: 'INGREDIENT cron (from Osman 2008 study page). Skeptical emollient page: generic occlusive moisturizer
@@ -2355,6 +2371,15 @@ daniel-sugai:
     '
   score: 8
   verdict: self-reviewed
+dapsone-topical:
+  last_reviewed: '2026-08-30'
+  note: 'INGREDIENT wave5. Topical sulfone (Aczone 5%/7.5%) for acne. tier:good honest (large RCT but
+    modest ~6.5-9pt margin over vehicle, industry-funded). All stats verbatim vs eutils (Thiboutot 27847545,
+    Draelos 17208334, Tanghetti 23377510/30500141, Piette 19075138) + PubChem CID 2955; G6PD safety established.
+    Opus critic fixed broken [[clindamycin]] link. Main-loop: pivotal->registration. tier:good. Opus critic
+    inline (workflow pipeline); assurance opus.'
+  score: 9
+  verdict: publish
 dark-circles:
   last_reviewed: '2026-08-23'
   note: 'GOAL cron. Topic-scoped hub. 3 load-bearing quotes verified VERBATIM vs fetched NCBI abstract
@@ -2901,6 +2926,32 @@ eltamd-uv-daily-tinted-broad-spectrum-spf-40:
     (9): actives/inactives/uses/warnings verbatim vs DailyMed SPL ad8aafdf; prices $43/$23 + brand quotes
     verbatim vs eltamd.com (cached); restored dropped Warnings sentence, fixed Purpose/Uses labeling.
     Iron-oxide VL claim hedged. Links [[sunscreen-uv-filters]],[[iron-oxides]]. No dashes. Opus critic
+    inline (workflow pipeline); assurance opus.'
+  score: 9
+  verdict: publish
+eltamd-uv-elements-tinted-mineral-sunscreen-spf-44:
+  last_reviewed: '2026-08-30'
+  note: 'PRODUCT wave5. OTC PURE-mineral tinted sunscreen (ZnO+TiO2, iron-oxide tint), contrast to octinoxate-hybrid
+    UV Clear/UV Daily. Opus critic (9): actives/inactives/price verbatim vs Wayback archive + DailyMed
+    comparator; no fixes. Visible-light tint for [[hyperpigmentation]]. Links [[sunscreen-uv-filters]],[[iron-oxides]].
+    No dashes. Opus critic inline (workflow pipeline); assurance opus.'
+  score: 9
+  verdict: publish
+emrosi-minocycline-extended-release:
+  last_reviewed: '2026-08-30'
+  note: 'PRODUCT wave5. Rx minocycline 40mg ER (DFD-29) for rosacea, beat BOTH placebo AND doxycycline
+    40mg in phase 3. Opus critic (93): all efficacy (IGA success 65/60% vs dox 46/31% vs placebo 31/27%)
+    + warnings verbatim vs DailyMed; FIXED FDA approval year 2025->2024. Compare [[oracea-doxycycline-40-mg]].
+    Main-loop: not-just reworded, brand cached. No dashes. Opus critic inline (workflow pipeline); assurance
+    opus.'
+  score: 9
+  verdict: publish
+enstilar-calcipotriene-betamethasone-foam:
+  last_reviewed: '2026-08-30'
+  note: 'PRODUCT wave5. Rx calcipotriene+betamethasone foam, strongest topical psoriasis regimen. Opus
+    critic (9): all stats/inactives/indication verbatim vs DailyMed setid d1193df2 + PubMed 26959941/34339017;
+    FIXED a PSO-LONG overclaim contradicting Lebwohl 2021. Combination evidence OUT to [[calcipotriene]]/[[betamethasone-dipropionate]].
+    Main-loop: dropped dangling [^kaufmann] (linked out), pivotal->registration. No dashes. Opus critic
     inline (workflow pipeline); assurance opus.'
   score: 9
   verdict: publish
@@ -4905,6 +4956,15 @@ liu-2026-comparison-of-compound-lidocaine-cream-and-lidocaine-prilocai:
     '
   score: 10
   verdict: publish
+loprox-ciclopirox-shampoo:
+  last_reviewed: '2026-08-30'
+  note: 'PRODUCT wave5. Rx ciclopirox 1% shampoo for scalp seb-derm (brand discontinued, generics carry
+    same data). Opus critic (9): all stats (58/31%, 26/13%, n=626) + label quotes verbatim vs DailyMed
+    46af5d52 + openFDA NDA021159 + GoodRx $29.12; fixed em-dash + strength. Mechanism OUT to [[ciclopirox]].
+    Main-loop: pivotal->registration (kept label-verbatim "pivotal studies" quote shortened to exact substring),
+    citations, goodrx cached. No dashes. Opus critic inline (workflow pipeline); assurance opus.'
+  score: 9
+  verdict: publish
 loreal-paris-revitalift-0-3-pure-retinol-serum:
   last_reviewed: '2026-08-07'
   note: 'L''Oreal Paris Revitalift 0.3% Pure Retinol Serum (link-out; on [[retinol]], [[retinoids]]).
@@ -5010,6 +5070,15 @@ makrgeorgou-2018-probiotics-eczema:
     0-103 scale, low, correctly noted as statistically significant but below the 8.7-point MCID); adverse
     events RR 1.54 (95% CI 0.90 to 2.63, low, correctly noted as crossing 1.0); funding '
   score: 9
+  verdict: publish
+malassezin:
+  last_reviewed: '2026-08-30'
+  note: INGREDIENT wave5. Novel AhR-agonist indole depigmenting agent (Malassezia metabolite), matched
+    4% HQ split-face (Grimes). tier:weak honest (single n=20 no-vehicle sponsor-linked RCT + n=7 uncontrolled
+    + in-vitro). All stats/EC50 verbatim vs eutils + PubChem CID 10265357. Opus critic softened a Kramer
+    2005 mechanistic overclaim. Backs [[grimes-2026-malassezin-vs-hydroquinone-facial-hyperpigmentation-pmid-41493251]].
+    tier:weak. Opus critic inline (workflow pipeline); assurance opus.
+  score: 8
   verdict: publish
 maloney-2026-hydroquinone-free-tetrahexyldecyl-ascorbate-antioxidant-s:
   last_reviewed: '2026-08-08'
@@ -7976,6 +8045,14 @@ skinmedica-ha5-rejuvenating-hydrator:
     '
   score: 9
   verdict: revise-then-fixed
+skinmedica-lytera-2-pigment-correcting-serum:
+  last_reviewed: '2026-08-30'
+  note: 'PRODUCT wave5. Cosmetic hydroquinone-free brightening serum (TXA, phenylethyl resorcinol, niacinamide,
+    tetrapeptide-30). Opus critic (88): INCI/price/claims verbatim vs retailer+brand; FIXED active count
+    5->4, INCI 22->23, 404-footnote attribution. Multi-active, no isolated trial; evidence OUT to [[phenylethyl-resorcinol]]/[[tranexamic-acid]]/[[niacinamide]].
+    Brand cached. No dashes. Opus critic inline (workflow pipeline); assurance opus.'
+  score: 8
+  verdict: publish
 skinmedica-retinol-complex-1-0:
   last_reviewed: '2026-08-03'
   note: 'New product page (daily product cron; Sonnet draft + Opus profile-reviewer critic, tool-constrained
@@ -8343,6 +8420,14 @@ supergoop-unseen-sunscreen-spf-50:
     '
   score: 9
   verdict: revise-then-fixed
+tacalcitol:
+  last_reviewed: '2026-08-30'
+  note: 'INGREDIENT wave5. Topical vitamin D3 analog for psoriasis, calcipotriol peer/comparator. tier:mid
+    honest (RCT-backed but calcipotriol better studied). All stats verbatim vs eutils + PubChem. Critic:
+    no fixes. Links [[psoriasis]],[[calcipotriene]]. tier:mid. Opus critic inline (workflow pipeline);
+    assurance opus.'
+  score: 8
+  verdict: publish
 tacrolimus-topical:
   last_reviewed: '2026-08-08'
   note: 'Opus verification: re-fetched all three cited primaries (Reitamo 2002 JACI RCT, FDA openFDA tacrolimus-ointment
@@ -8856,6 +8941,15 @@ tocopherol:
   note: ingredient draft; critic verdict publish. Keen & Hassan 2016 + Podhaisky 2002 quotes re-fetched
     and verbatim; antioxidant mechanism vs sparse/negative clinical evidence (scars/burns disappointing,
     no skin-cancer effect). lint/verify/style clean.
+  score: 9
+  verdict: publish
+topical-corticosteroids:
+  last_reviewed: '2026-08-30'
+  note: 'INGREDIENT wave5. CLASS OVERVIEW (potency ladder I-VII), first-line topical anti-inflammatory.
+    tier:good (deep RCT base offset by atrophy/withdrawal harms, foregrounded). Opus critic FIXED 3 fabricated
+    stats: misattributed P<0.0001 (Kerkhof PMID 19067709), invented denominators (Berth-Jones PMID 12816824),
+    wrong betamethasone potency class. All HRs/CIs/p verbatim vs eutils. Hub for [[atopic-dermatitis]]/[[psoriasis]].
+    tier:good. Opus critic inline (workflow pipeline); assurance opus.'
   score: 9
   verdict: publish
 topicals-faded-brightening-clearing-serum:

@@ -2012,7 +2012,7 @@
 - name: EltaMD UV Elements Tinted Mineral Sunscreen SPF 44 (iron oxides, visible-light protection for melasma)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: brightening
   source: https://eltamd.com/products/uv-elements-broad-spectrum-spf-44
 - name: Vtama (tapinarof 1% cream)
@@ -2082,7 +2082,7 @@
   status: done
   discovered_from: cerave-psoriasis-moisturizing-cream
   source: https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=sorilux+calcipotriene
-- name: MG217 Medicated Salicylic Acid Psoriasis Cream
+- name: MG217 Medicated Salicylic Acid Psoriasis Cream [needs correct DailyMed setid - drafter found only the coal-tar variant]
   type: product
   priority: 5
   status: pending
@@ -2097,7 +2097,7 @@
 - name: SkinMedica Lytera 2.0 Pigment Correcting Serum (contains hexylresorcinol + niacinamide) - verify brand INCI
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: null
 - name: Protopic (tacrolimus ointment 0.03%/0.1%) - the more potent topical calcineurin inhibitor, Elidel's comparator; verify
@@ -2110,14 +2110,14 @@
 - name: Loprox (ciclopirox olamine) shampoo/gel - Rx antifungal for seb-derm; verify DailyMed
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: null
 - name: Enstilar / Taclonex (calcipotriene + betamethasone dipropionate foam/ointment) - the fixed-combo that outperforms
     either alone; verify DailyMed
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: null
 - name: Zilxi (minocycline 1.5% foam) for rosacea - completes the rosacea Rx set; verify DailyMed
@@ -2129,6 +2129,6 @@
 - name: Emrosi (minocycline hydrochloride 40mg extended-release, DFD-29) for rosacea; verify DailyMed
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: null

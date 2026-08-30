@@ -934,7 +934,7 @@
 - name: Dapsone (topical)
   type: ingredient
   priority: 4
-  status: pending
+  status: done
   discovered_from: 'INGREDIENT cron: topical Rx acne active (Aczone 5%/7.5%); not yet covered'
   source: https://dailymed.nlm.nih.gov/
 - name: Roflumilast (topical)
@@ -1160,7 +1160,7 @@
 - name: Coco-glucoside (alkyl polyglucoside surfactant)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: decyl-glucoside
   source: Sibling APG surfactant in the same family reviewed by Alfalah 2017 (Dermatitis); cross-reacts with decyl glucoside
     - common gentle-cleanser ingredient worth its own evidence+allergy page
@@ -1296,25 +1296,25 @@
     DailyMed + potency class
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: null
 - name: Tacalcitol (topical vitamin D3 analog) - calcipotriol comparator in Ortonne 2004; verify PubMed
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: null
 - name: Topical corticosteroids (class overview by potency) - hub ingredient many condition pages link to
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: null
 - name: Malassezin (novel topical AhR-pathway depigmenting agent) - matched 4% hydroquinone split-face (Grimes 2026); verify
     PubMed
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: null
