@@ -2199,3 +2199,17 @@
   status: pending
   discovered_from: cerave-psoriasis-moisturizing-cream
   source: https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=mg217+salicylic+acid+psoriasis
+- name: Murad Rapid Dark Spot Correcting Serum (hexylresorcinol + tranexamic acid)
+    - brand source is queue origin for hexylresorcinol
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null
+- name: SkinMedica Lytera 2.0 Pigment Correcting Serum (contains hexylresorcinol +
+    niacinamide) - verify brand INCI
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null

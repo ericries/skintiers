@@ -1111,7 +1111,7 @@
 - name: Hexylresorcinol
   type: ingredient
   priority: 6
-  status: pending
+  status: done
   discovered_from: murad
   source: Tyrosinase-inhibiting brightening/pigment active (in the Murad dark-spot
     serum + others); real evidence trail for hyperpigmentation; catalog gap
@@ -1327,3 +1327,17 @@
   status: pending
   discovered_from: propylene-glycol
   source: https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=ciclopirox
+- name: Phenylethyl Resorcinol (Symwhite 377) - resorcinol-family tyrosinase inhibitor;
+    verify PubChem + PMID 23205541 comparison
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null
+- name: Thiamidol (isobutylamido-thiazolyl-resorcinol) - Beiersdorf/Eucerin tyrosinase
+    inhibitor; verify Mann 2018 PMID 29596947
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null
