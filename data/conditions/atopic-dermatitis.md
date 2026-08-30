@@ -33,7 +33,7 @@ tier_list:
     tier: weak
   title: Topical skincare for atopic dermatitis by evidence
 type: condition
-updated: '2026-08-14'
+updated: '2026-08-30'
 videos:
 - creator: Dr. Scott Walter
   creator_slug: scott-walter
@@ -122,7 +122,7 @@ Atopic dermatitis arises from a damaged skin barrier and a misdirected immune re
 
 ## What Actually Works
 
-The best-evidenced topical **skincare** for atopic dermatitis rests on a Cochrane systematic review of 77 randomized trials (6,603 participants) of emollients and moisturizers for eczema.[^cochrane2017] The prescription anti-inflammatory drugs are more potent but are not topical skincare.
+The best-evidenced topical **skincare** for atopic dermatitis rests on a Cochrane systematic review of 77 randomized trials (6,603 participants) of emollients and moisturizers for eczema.[^cochrane2017] The prescription anti-inflammatory drugs are more potent but are not topical skincare; each now has its own page here: the corticosteroid class ([[topical-corticosteroids]]), the topical calcineurin inhibitors [[tacrolimus-topical]] ([[protopic-tacrolimus-ointment|Protopic]]) and [[pimecrolimus]] ([[elidel-pimecrolimus-cream|Elidel]]), the steroid-free [[tapinarof]] ([[vtama-tapinarof-cream|Vtama]], now approved for eczema), and the topical JAK inhibitor [[opzelura-ruxolitinib-cream|ruxolitinib (Opzelura)]].
 
 **1. Moisturizing and emollients (the barrier-repair category) - Effect: modest to notable (flare prevention and steroid-sparing) - Evidence: solid.** This is the best-evidenced skincare step for eczema. In the Cochrane review, moisturizer use produced lower investigator-assessed severity than control (SMD -1.04, 95% CI -1.57 to -0.51; 12 studies, 1,281 participants; high-quality evidence) and fewer flares (RR 0.33, 95% CI 0.17-0.62; moderate quality), and against no moisturizer at all it cut flares (RR 0.40, 95% CI 0.23-0.70), prolonged time to flare (median 180 vs 30 days), and reduced the topical corticosteroid needed (mean difference -9.30 g, 95% CI -15.3 to -3.27).[^cochrane2017] Adding a moisturizer to an active drug beat the active drug alone (SMD -0.87, 95% CI -1.17 to -0.57; moderate quality).[^cochrane2017] Moisturizing is a well-evidenced barrier intervention for eczema that reduces flares and spares steroids; how it works and how to read the evidence is covered on [[moisturizing]]. The honest ceiling: the review "did not find reliable evidence that one moisturiser is better than another."[^cochrane2017]
 

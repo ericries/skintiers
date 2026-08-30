@@ -28,7 +28,7 @@ tier_list:
     tier: weak
   title: Over-the-counter psoriasis topicals by evidence
 type: condition
-updated: '2026-08-22'
+updated: '2026-08-30'
 ---
 
 Psoriasis is "a chronic autoimmune-mediated inflammatory skin disorder" driven by "increased keratinocyte proliferation, abnormalities in the immune system, and abnormalities in the epidermal barrier."[^intjpharm] It typically shows as well-defined plaques topped with silvery scale, and it is distinct from the [[seborrheic-dermatitis]] and [[atopic-dermatitis]] it is often confused with. It is a chronic, relapsing disease that is managed rather than cured, and moderate-to-severe cases belong with a dermatologist.
@@ -41,7 +41,7 @@ The classic sign is a well-defined, raised plaque covered with silvery-white sca
 
 ## The treatment ladder
 
-For topical treatment, an expert position paper on topical psoriasis therapy concludes that "initial therapy should be supported by Food and Drug Administration (FDA) approval and labeling," which "include topical roflumilast, tapinarof, topical corticosteroids, and vitamin D analogs in the same category."[^expert] Those prescription topicals are first-line. The "conventional topical treatments" also "include corticosteroids, vitamin D analogues, and keratolytic[s]" such as coal tar and salicylic acid.[^intjpharm]
+For topical treatment, an expert position paper on topical psoriasis therapy concludes that "initial therapy should be supported by Food and Drug Administration (FDA) approval and labeling," which "include topical roflumilast, tapinarof, topical corticosteroids, and vitamin D analogs in the same category."[^expert] Those prescription topicals are first-line, and each now has its own page: the vitamin D analog [[calcipotriene]] and its peer [[tacalcitol]], the corticosteroid class on [[topical-corticosteroids]] (for example the potent [[betamethasone-dipropionate]]), the fixed combination that outperforms either alone ([[enstilar-calcipotriene-betamethasone-foam|calcipotriene plus betamethasone foam]], and the milder [[sorilux-calcipotriene-foam|calcipotriene foam]] alone), and the steroid-free nonsteroidals [[tapinarof]] ([[vtama-tapinarof-cream|Vtama cream]]) and [[roflumilast]] ([[zoryve-roflumilast-cream|Zoryve cream]]). The "conventional topical treatments" also "include corticosteroids, vitamin D analogues, and keratolytic[s]" such as coal tar and salicylic acid.[^intjpharm]
 
 The over-the-counter actives this site covers sit below that first line. [[coal-tar]] is an FDA-monograph OTC active that genuinely reduces the scaling of psoriasis but is modest, dated, and messy; [[salicylic-acid]] is a keratolytic that lifts scale so other treatments can penetrate, an adjunct rather than a treatment of the disease itself. A topical calcineurin inhibitor such as [[pimecrolimus]] is sometimes used off-label on the face and skin folds, where corticosteroids risk thinning the skin.
 
