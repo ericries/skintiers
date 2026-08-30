@@ -994,6 +994,14 @@ benzoyl-peroxide:
     claim removed). lint/verify/style clean. Escalated: 3rd primary for the no-resistance claim.'
   score: 8
   verdict: publish
+best-aha-exfoliant-products:
+  last_reviewed: '2026-08-30'
+  note: 'LIST wave3. Best-of AHA exfoliants. Opus critic (89): 8 slugs resolve, Stiller 1996 (8651713)/Smith
+    1996 (8784274) verbatim; FIXED a glycolic dermal-level misattribution (that was lactic 12%, Smith).
+    Honest: concentration-matched to trial anchors, higher!=better. Main-loop: not-just reworded. No dashes.
+    Opus critic inline (workflow pipeline); assurance opus.'
+  score: 9
+  verdict: publish
 best-azelaic-acid-products:
   last_reviewed: '2026-07-31'
   note: List stub filled (daily list cron; Sonnet draft + orchestrator self-check, no Opus critic per
@@ -1059,6 +1067,29 @@ best-eczema-moisturizers-by-evidence:
     (workflow pipeline); assurance opus.'
   score: 9
   verdict: publish
+best-eye-creams-by-evidence:
+  last_reviewed: '2026-08-30'
+  note: 'LIST wave3. Best-of eye creams (lean, 3 real pages). Opus critic (9): all slugs resolve. Honest
+    per [[dark-circles]]: retinaldehyde best-studied, caffeine transient de-puffing, PDRN "a gimmick"
+    (Dr Dray). Routes [[dark-circles]]/[[retinoids]]/[[caffeine]]. No dashes. Opus critic inline (workflow
+    pipeline); assurance opus.'
+  score: 9
+  verdict: publish
+best-face-moisturizers-by-evidence:
+  last_reviewed: '2026-08-30'
+  note: 'LIST wave3. Best-of face moisturizers. Opus critic (88): 16 slugs resolve, StatPearls/Cochrane
+    verbatim; FIXED fabricated StatPearls author names (Harwood/Nassereddin/Krishnamurthy not Nguyen).
+    Honest: class effect, no moisturizer proven better. Routes [[moisturizing]]. No dashes. Opus critic
+    inline (workflow pipeline); assurance opus.'
+  score: 9
+  verdict: publish
+best-fungal-acne-safe-products:
+  last_reviewed: '2026-08-30'
+  note: 'LIST wave3. Best-of fungal-acne-safe products. Opus critic (9): 9 slugs resolve, Cochrane (25933684)/Saunte
+    verbatim. Antifungals first-line, non-treating humectants last (labeled as not treating). Routes [[fungal-acne]].
+    No dashes. Opus critic inline (workflow pipeline); assurance opus.'
+  score: 9
+  verdict: publish
 best-gentle-cleansers-sensitive-skin:
   last_reviewed: '2026-08-06'
   note: 'Best-of gentle cleansers filled from stub (Sonnet draft + controller lint/verify/style; curatorial,
@@ -1092,6 +1123,13 @@ best-glass-skin-products:
     '
   score: 9
   verdict: self-reviewed
+best-hyaluronic-acid-products:
+  last_reviewed: '2026-08-30'
+  note: 'LIST wave3. Best-of HA products. Opus critic (95): 7 slugs resolve, Essendoubi (25877232)/Pavicic
+    (22052267) verbatim. Honest anti-hype: HA hydrates surface, does not build collagen, MW claims marketing.
+    Routes [[hyaluronic-acid]]. No dashes. Opus critic inline (workflow pipeline); assurance opus.'
+  score: 9
+  verdict: publish
 best-hydroquinone-free-brightening-products:
   last_reviewed: '2026-08-30'
   note: 'LIST wave. Best-of hydroquinone-free brightening products. Opus critic (9): all 13 product slugs
@@ -1172,6 +1210,13 @@ best-retinol-products-by-strength:
   note: 'LIST wave2. OTC retinoid products by potency (29 slugs all resolve!). Opus critic (9): molecule-over-%
     ladder (adapalene>retinaldehyde>disclosed retinol>esters), honest that strength!=better. Routes [[retinoids]]/[[retinol]]/[[retinaldehyde]].
     No dashes. Opus critic inline (workflow pipeline); assurance opus.'
+  score: 9
+  verdict: publish
+best-salicylic-acid-bha-products:
+  last_reviewed: '2026-08-30'
+  note: 'LIST wave3. Best-of SA/BHA products. Opus critic (9): 13 slugs resolve, AAD guideline (38300170)
+    verbatim; fixed em-dash. Honest: SA adjunct below BPO/retinoids. Routes [[salicylic-acid]]. No dashes.
+    Opus critic inline (workflow pipeline); assurance opus.'
   score: 9
   verdict: publish
 best-scalp-psoriasis-shampoos:
@@ -2862,6 +2907,15 @@ drometrizole-trisiloxane:
     '
   score: 10
   verdict: publish
+dry-skin:
+  last_reviewed: '2026-08-30'
+  note: 'NEW HUB (condition, xerosis). Opus critic (9): all 8 slugs + DermNet/Cochrane/StatPearls verbatim.
+    tier_list [[moisturizing]] foundation + humectants ([[glycerin]]/[[urea]]/[[hyaluronic-acid]]) + occlusives
+    ([[mineral-oil]]/[[petrolatum]]) + [[lactic-acid]]. Honest: moisturizing genuinely works here; HA
+    honestly downgraded; expensive serums not better than thick emollient. No dashes. Opus critic inline
+    (workflow pipeline); assurance opus.'
+  score: 9
+  verdict: publish
 ducray-kelual-ds-cream:
   last_reviewed: '2026-08-30'
   note: 'PRODUCT wave4. Cosmetic seb-derm gel-cream. Opus critic (9): French brand claims + 57-subject
@@ -3046,6 +3100,14 @@ emrosi-minocycline-extended-release:
     + warnings verbatim vs DailyMed; FIXED FDA approval year 2025->2024. Compare [[oracea-doxycycline-40-mg]].
     Main-loop: not-just reworded, brand cached. No dashes. Opus critic inline (workflow pipeline); assurance
     opus.'
+  score: 9
+  verdict: publish
+enlarged-pores:
+  last_reviewed: '2026-08-30'
+  note: 'NEW HUB (goal). Opus critic (93): all 4 slugs + DermNet + niacinamide (PMID 16766489) quotes
+    verbatim. HONEST skeptical spine: pore SIZE is genetic/hormonal, OTC cannot close pores, only improve
+    appearance. tier_list [[retinoids]]/[[niacinamide]]/[[salicylic-acid]]/[[azelaic-acid]]. Rx/procedures
+    bracketed w/disclaimer. No dashes. Opus critic inline (workflow pipeline); assurance opus.'
   score: 9
   verdict: publish
 enstilar-calcipotriene-betamethasone-foam:
@@ -3501,6 +3563,15 @@ fisher-1996-retinoid-antagonism-photoaging:
     '
   score: 9
   verdict: revise-then-fixed
+folliculitis:
+  last_reviewed: '2026-08-30'
+  note: 'NEW HUB (condition). Follicle inflammation, bacterial vs FUNGAL (Malassezia). Opus critic (93):
+    all 6 slugs + DermNet/StatPearls quotes verbatim. tier_list distinguishes bacterial ([[benzoyl-peroxide]],
+    [[sodium-hypochlorite]]) vs fungal ([[ketoconazole]]/[[ciclopirox]]/[[selenium-sulfide]], route [[fungal-acne]]).
+    Honest: antibiotics WORSEN fungal form. Medical disclaimer. No dashes. Opus critic inline (workflow
+    pipeline); assurance opus.'
+  score: 9
+  verdict: publish
 fowler-2013-brimonidine-gel-phase-3-rosacea-erythema-rct:
   last_reviewed: '2026-08-08'
   note: 'Opus re-fetched PubMed abstract PMID 23839181: all three quoted phrases (efficacy 12-hours/days
@@ -5576,6 +5647,14 @@ microplastics-in-cosmetics:
   note: 'GAP page (#4 quota push). Fable draft -> Opus critic revise->fixed (mis-cited dimethicone tolerability
     corrected to Kang 2022 PMC9315586). Myth explainer: real solid-microbead bans (Microbead-Free Waters
     Act 2015, EU 2023 REACH) vs overbroad ''liquid microplastics'' framing. Gates clean; force-published.'
+  score: 9
+  verdict: publish
+milia:
+  last_reviewed: '2026-08-30'
+  note: 'NEW HUB (condition). Tiny keratin cysts. Opus critic (91): DermNet stats verbatim; fixed a misattributed
+    minocycline quote + added medical disclaimer. tier_list SHORT ([[retinoids]]/[[salicylic-acid]] preventive
+    only). Honest skeptical: established milia need EXTRACTION not creams; "milia-dissolving" claims flagged.
+    No dashes. Opus critic inline (workflow pipeline); assurance opus.'
   score: 9
   verdict: publish
 mineral-oil:
@@ -7868,6 +7947,14 @@ selsun-blue-selenium-sulfide-shampoo:
     assurance sonnet.'
   score: 9
   verdict: publish
+sensitive-skin:
+  last_reviewed: '2026-08-30'
+  note: 'NEW HUB (goal). Opus critic (92): all 6 slugs + DermNet/Cochrane verbatim; fixed a dropped bracket
+    in ICD quote + added disclaimer. HONEST: "sensitive skin" is a SYMPTOM not a diagnosis; rule out [[rosacea]]/[[atopic-dermatitis]]/[[contact-dermatitis]].
+    tier_list [[moisturizing]]/[[skin-barrier-repair]]/[[niacinamide]] + avoid irritants. Main-loop: footnote
+    URL added. No dashes. Opus critic inline (workflow pipeline); assurance opus.'
+  score: 9
+  verdict: publish
 shah-2026-a-randomized-controlled-trial-analyzing-the-likeability-usab:
   last_reviewed: '2026-08-08'
   note: 'Opus re-fetched PubMed abstract (PMID 42235051) and confirmed all three quoted results phrases
@@ -9604,6 +9691,15 @@ vitamin-k-topical:
     CID 5284607). Opus critic: no fixes needed. Correctly labels dark-circle claim an unsupported extrapolation.
     Links [[dark-circles]]. tier:weak. Opus critic inline (workflow pipeline); assurance opus.'
   score: 8
+  verdict: publish
+vitiligo:
+  last_reviewed: '2026-08-30'
+  note: 'NEW HUB (condition). Autoimmune depigmentation. Opus critic (92): all 3 tier_list slugs + DermNet
+    stats verbatim vs cache (prevalence, NBUVB/PUVA meta, corticosteroids/calcineurin/vit-D). tier_list:
+    [[opzelura-ruxolitinib-cream]] (FDA-approved repigmentation), [[topical-corticosteroids]], [[tacrolimus-topical]].
+    Medical disclaimer. Honest: repigmentation slow/partial, medical. DermNet cached. No dashes. Opus
+    critic inline (workflow pipeline); assurance opus.'
+  score: 9
   verdict: publish
 vitreoscilla-filiformis-lysate:
   last_reviewed: '2026-08-08'

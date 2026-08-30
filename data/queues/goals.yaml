@@ -15,31 +15,28 @@
   priority: 5
   status: done
   discovered_from: video-harvest
-  source: Recurring goal across vitamin C / tranexamic acid / niacinamide videos;
-    anchor for pigment-evidence tier lists
+  source: Recurring goal across vitamin C / tranexamic acid / niacinamide videos; anchor for pigment-evidence tier lists
 - name: Stretch marks (striae) evidence hub
   type: goal
   priority: 6
   status: done
   discovered_from: tasmannia-lanceolata-extract
-  source: Common skin concern the site lacks a hub for; would host Tasmannia lanceolata,
-    tretinoin (early striae), centella-asiatica + skeptical takes on Bio-Oil/cocoa
-    butter; small evidence base
+  source: Common skin concern the site lacks a hub for; would host Tasmannia lanceolata, tretinoin (early striae), centella-asiatica
+    + skeptical takes on Bio-Oil/cocoa butter; small evidence base
 - name: Dark circles (under-eye)
   type: goal
   priority: 5
   status: done
   discovered_from: goals
-  source: Recognized concern with a real evidence framework (vascular vs pigmentary
-    vs structural/tear-trough); actives include caffeine, retinoids, vitamin C, and
-    pigment-directed brighteners; refills empty goal queue
+  source: Recognized concern with a real evidence framework (vascular vs pigmentary vs structural/tear-trough); actives include
+    caffeine, retinoids, vitamin C, and pigment-directed brighteners; refills empty goal queue
 - name: Fading dark spots & even tone
   type: goal
   priority: 5
   status: done
   discovered_from: null
   source: 'discover_hubs: 18 mentions across the video archive; no goal hub yet'
-- name: "Neck & chest (d\xE9colletage) care"
+- name: Neck & chest (décolletage) care
   type: goal
   priority: 5
   status: done
@@ -66,6 +63,6 @@
 - name: Sensitive skin routine
   type: goal
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: 'discover_hubs: 3 mentions across the video archive; no goal hub yet'
