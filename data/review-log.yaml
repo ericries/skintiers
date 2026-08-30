@@ -260,6 +260,16 @@ allies-of-skin-peptides-antioxidants-advanced-firming-daily-treatment:
     INCI count ~60->~70, added Cult Beauty existence corroborator footnote. Gates clean; force-published.
   score: 8
   verdict: revise-then-fixed
+allium-cepa-onion-extract:
+  last_reviewed: '2026-08-30'
+  note: INGREDIENT wave2. Onion bulb extract (Mederma Cepalin) for scars. tier:weak honest - consistently
+    negative standalone evidence. All 6 PMIDs verbatim vs eutils (Chung 16442038, Jackson 10417579, Yuan
+    33372412, Pangkanon 33387398, Napavichayanun 34658139, Cochrane 24030657). Opus critic removed broken
+    [[quercetin]] link. Main-loop split verbatim Yuan quote into 2 exact substrings to clear not-only-but
+    AI-ese flag (fidelity preserved). Links [[acne-scars]]. tier:weak. Opus critic inline (workflow pipeline);
+    assurance opus.
+  score: 9
+  verdict: publish
 aloe-vera:
   last_reviewed: '2026-08-26'
   note: 'INGREDIENT cron (from Selsun Blue). Mild soother/humectant, honest MIXED evidence. Both quotes
@@ -1386,6 +1396,16 @@ caffeine:
     Fouad 39384727 etc) + PubChem CID 2519. Opus critic removed unverifiable Franz-cell detail + corrected
     instrument naming. Links [[dark-circles]]. tier:weak. Opus critic inline (workflow pipeline); assurance
     opus.
+  score: 9
+  verdict: publish
+calcipotriene:
+  last_reviewed: '2026-08-30'
+  note: INGREDIENT wave2. Vit D3 analog, first-line topical psoriasis; best data = fixed combo w/betamethasone.
+    tier:good honest (real-but-modest irritating monotherapy). All stats/CI/p across 5 PMIDs verbatim
+    vs eutils (Kaufmann 12444337, Ortonne 15539894, Lovato 26794805, Lebwohl PSO-LONG 34339017, Kragballe
+    17367044) + PubChem CID 5288783. Opus critic FIXED an IL-17A/dendritic-cell mechanism misattribution
+    + broken wikilinks. Main-loop reworded AI-ese pivotal. tier:good. Opus critic inline (workflow pipeline);
+    assurance opus.
   score: 9
   verdict: publish
 capryloyl-salicylic-acid-lha:
@@ -3934,6 +3954,15 @@ iope-stem-3-clinical-recovery-serum:
     assurance=sonnet.
   score: 8
   verdict: revise-then-fixed
+iron-oxides:
+  last_reviewed: '2026-08-30'
+  note: INGREDIENT wave2. Mineral pigments (CI 77491/77492/77499) that TINT sunscreens + add visible-light
+    protection (melasma/[[hyperpigmentation]] in darker skin). tier:mid honest (one modest adjunct-only
+    RCT + industry mechanistic data, no standalone trial). All 5 PMIDs verbatim vs eutils (24313385,32335182,38069506,32726103,30428143)
+    + PubChem CID 518696/16211978. Opus critic removed unverifiable Loreal attribution on Dumbuya study.
+    Links [[sunscreen-uv-filters]]. tier:mid. Opus critic inline (workflow pipeline); assurance opus.
+  score: 9
+  verdict: publish
 iscotrizinol:
   last_reviewed: '2026-08-08'
   note: 'iscotrizinol (draft): re-fetched all six cited sources. All Couteau efficacy numbers (12.58/10.41/10.42/15.14/20.0,
@@ -7852,6 +7881,15 @@ sodium-ascorbyl-phosphate:
     '
   score: 9
   verdict: revise-then-fixed
+sodium-hypochlorite:
+  last_reviewed: '2026-08-30'
+  note: INGREDIENT wave2. Dilute bleach (sodium hypochlorite) baths, adjunct for moderate-severe atopic
+    dermatitis. tier:mid honest (guideline-endorsed but Chopra 2017 meta-analysis found NOT clearly superior
+    to plain water baths). Opus critic removed unverifiable dosing figures (0.005%, cup-per-bathtub, 5-10min)
+    not in cited sources. Links [[atopic-dermatitis]]. tier:mid. Opus critic inline (workflow pipeline);
+    assurance opus.
+  score: 9
+  verdict: publish
 some-by-mi-yuja-niacin-serum:
   last_reviewed: '2026-07-28'
   note: 'Held blocker cleared. Apify rag-web-browser re-fetched the two anti-bot retailer sources that
@@ -8091,6 +8129,17 @@ tan-2024-isotretinoin-suicide-psychiatric:
     '
   score: 9
   verdict: revise-then-fixed
+tapinarof:
+  last_reviewed: '2026-08-30'
+  note: INGREDIENT wave2. AhR agonist, steroid-free, FDA-approved plaque psoriasis (PSOARING) + atopic
+    dermatitis (ADORING). tier:good honest (replicated phase 3 but industry-funded Dermavant, no active
+    comparator, short AD trials, folliculitis tradeoff 22.7%). All quotes/rates verbatim vs eutils (PMIDs
+    34879448,35772599,38777187,40465504,40383273,37556512) + PubChem CID 6439522. Opus critic fixed broken
+    [[roflumilast]] link, reattributed no-tachyphylaxis quote, corrected unsourced folliculitis claim
+    + PSOARING3 40wk. Main-loop reworded AI-ese pivotal (kept verbatim in ADORING paper title). tier:good.
+    Opus critic inline (workflow pipeline); assurance opus.
+  score: 9
+  verdict: publish
 tasmannia-lanceolata-extract:
   last_reviewed: '2026-08-21'
   note: 'INGREDIENT cron. Tier weak. Key reframe: the soothing/anti-redness MARKETING is not what the
@@ -9040,6 +9089,15 @@ vitamin-d-topical:
 
     '
   score: 10
+  verdict: publish
+vitamin-k-topical:
+  last_reviewed: '2026-08-30'
+  note: 'INGREDIENT wave2. Topical phytonadione for dark circles/bruising. tier:weak honest - 2 small
+    unreplicated split-face RCTs (1 significant post-treatment, 1 null), ZERO dark-circle trials. All
+    5 sources verbatim vs eutils/PubChem (Shah 12140470, Cohen 19894369, Bapna 41692082, Goto 32822810,
+    CID 5284607). Opus critic: no fixes needed. Correctly labels dark-circle claim an unsupported extrapolation.
+    Links [[dark-circles]]. tier:weak. Opus critic inline (workflow pipeline); assurance opus.'
+  score: 8
   verdict: publish
 vitreoscilla-filiformis-lysate:
   last_reviewed: '2026-08-08'

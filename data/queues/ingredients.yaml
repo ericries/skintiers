@@ -1118,7 +1118,7 @@
 - name: Calcipotriene (calcipotriol)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: psoriasis
   source: FDA-approved topical vitamin D3 analog, first-line for plaque psoriasis;
     named in the psoriasis treatment ladder (Burshtein 2026 expert position paper,
@@ -1126,7 +1126,7 @@
 - name: Tapinarof (Vtama)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: psoriasis
   source: FDA-approved nonsteroidal topical aryl-hydrocarbon-receptor agonist for
     plaque psoriasis; first-line topical per Burshtein 2026 (PMID 42482862)
@@ -1141,7 +1141,7 @@
 - name: Allium cepa (onion bulb) extract
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: mederma-stretch-marks-therapy
   source: The 'Cepalin' active in Mederma scar/stretch-mark products; onion extract
     has multiple scar RCTs (mostly showing no benefit over vehicle) - real evidence
@@ -1178,14 +1178,14 @@
 - name: Vitamin K (topical, phytonadione)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: dark-circles
   source: Often marketed for under-eye/vascular dark circles + bruising; thin evidence;
     would round out the dark-circles actives
 - name: Iron oxides (sunscreen tint / visible-light protection)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: eltamd-uv-aox-elements-tinted-mineral-spf-50
   source: Pigments in tinted sunscreens that block visible light; real melasma/PIH
     relevance; referenced by multiple tinted-SPF products but no page yet
@@ -1215,7 +1215,7 @@
 - name: Sodium hypochlorite (topical / dilute-bleach therapy)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: cln-bodywash
   source: Active in CLn BodyWash + dilute-bleach bath therapy; Bakaa 2022 + Chopra
     2017 meta-analyses (Ann Allergy Asthma Immunol) - high-value ingredient page backing
@@ -1343,6 +1343,27 @@
   source: null
 - name: Solubilized coal tar extract (Neutar) - the coal tar delivery form in T/Gel;
     distinct from crude coal tar, verify concentration equivalence
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null
+- name: Betamethasone dipropionate (topical corticosteroid) - the steroid in calcipotriol/betamethasone
+    fixed combo; verify DailyMed + potency class
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null
+- name: Tacalcitol (topical vitamin D3 analog) - calcipotriol comparator in Ortonne
+    2004; verify PubMed
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null
+- name: Topical corticosteroids (class overview by potency) - hub ingredient many
+    condition pages link to
   type: ingredient
   priority: 5
   status: pending

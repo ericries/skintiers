@@ -1,0 +1,56 @@
+---
+analyzed: '2026-08-30'
+assurance: opus
+name: Vitamin K (Topical, Phytonadione)
+slug: vitamin-k-topical
+status: published
+tier: weak
+type: ingredient
+updated: '2026-08-30'
+---
+
+Topical vitamin K1 (phytonadione, INCI name Phytonadione; also formulated as vitamin K1 oxide) is a fat-soluble naphthoquinone best known as a cofactor for hepatic clotting-factor synthesis; in skincare it is marketed as a post-procedure bruising accelerant and, separately and with far less support, as a [[dark-circles]] treatment.[^pubchem] The only controlled clinical evidence isolating it addresses laser-induced facial purpura, where results are mixed: one split-face RCT found a post-treatment benefit but no pretreatment effect, and a second, similarly designed trial found only a non-significant trend.[^shah][^cohen]
+
+> In a 22-patient, double-blind, randomized, placebo-controlled split-face trial, applying topical vitamin K cream twice daily for 2 weeks before pulsed dye laser treatment showed "no significant difference in bruising as compared to placebo," while applying it for 2 weeks after laser treatment produced "significantly lower scores of bruising severity when compared with the side treated with placebo."[^shah]
+
+## The Rubric
+
+**Speeding resolution of post-laser/post-procedure bruising (purpura), topical, after the procedure**
+- **Effect size: modest, and not replicated at statistical significance.** In the Shah 2002 split-face RCT, vitamin K cream applied twice daily for 2 weeks starting after 585-nm pulsed dye laser treatment produced significantly lower bruising severity scores than the vehicle-treated side, "particularly in the initial days of application."[^shah] A separate 20-patient, randomized, double-blinded, placebo-controlled split-face trial of a vitamin K oxide gel applied for 9 days after purpuric-setting pulsed dye laser found the active side resolving faster on daily photo scoring, with the largest gap on day 4, but the authors reported plainly that "differences in active versus placebo scores did not reach statistical significance during the nine-day study period," describing only "a trend toward faster resolution."[^cohen]
+- **Evidence quality: thin, two small industry-adjacent trials with one significant and one null result.** Total isolated-ingredient evidence is two split-face RCTs (n=22 and n=20); one reached significance for post-treatment use, the other did not. Neither has been independently replicated, both are small, and a 2026 dermatology review summarizing the topical vitamin K literature describes the wound-healing/purpura evidence as limited to "postlaser purpura resolution" studies of this scale, without characterizing the effect as established.[^shah][^cohen][^review]
+
+**Preventing bruising before a procedure, topical**
+- **Effect size: none demonstrated.** The Shah 2002 trial specifically tested 2 weeks of pretreatment before laser and found "no significant difference in bruising as compared to placebo" on the pretreated side.[^shah] Pretreatment is the claim most commonly marketed ("apply before your filler appointment"), and it is the arm that failed.
+- **Evidence quality: one negative RCT arm; no positive trial exists for prevention.**[^shah]
+
+**Under-eye dark circles, topical (general cosmetic use, not tied to a procedure)**
+- **Effect size: unquantifiable, no isolated-ingredient trial exists.** A PubMed search for controlled trials of topical vitamin K specifically for periorbital dark circles returns no clinical trial results; the only dark-circle RCTs found test unrelated interventions (carboxytherapy, lasers, mesotherapy, injectable fillers, other topical actives), and a 2026 review of vitamin K in dermatology lists post-laser purpura and cetuximab-dermatitis prevention as its topical dermatologic applications, not dark circles.[^review] The dark-circle marketing claim rests on extrapolation from the bruising-resolution data (dark circles are sometimes attributed partly to visible subdermal blood vessels/hemosiderin) rather than on any trial that measured dark circles as an endpoint.
+- **Evidence quality: none for this specific use.** No controlled trial identified.
+
+## How It Works
+
+Vitamin K1 (phytonadione, phylloquinone) is 2-methyl-3-[(E,7R,11R)-3,7,11,15-tetramethylhexadec-2-enyl]naphthalene-1,4-dione, C31H46O2, a fat-soluble naphthoquinone.[^pubchem] Its established physiological role is as a cofactor for the hepatic gamma-glutamyl carboxylase enzyme that activates clotting factors II, VII, IX, and X; the cosmetic rationale for post-procedure bruising is that locally increasing vitamin K availability might support faster degradation and clearance of extravasated blood (the source of a bruise's visible color) after a laser, filler, or peel disrupts small vessels.[^shah] Neither trial that tested this mechanism clinically measured a biochemical readout confirming it; both simply scored visible bruise/purpura severity.[^shah][^cohen] Because topical vitamin K1 (phylloquinone) is also reported to be photosensitive and prone to phototoxicity and photodegradation on skin, some formulators instead use vitamin K1 oxide or ester prodrug derivatives, which is why product labels vary between "vitamin K," "vitamin K oxide," and less common ester forms; this is a formulation-stability issue, not evidence of a different or stronger clinical effect.[^goto]
+
+## The Evidence
+
+**Pulsed dye laser bruising, pre- versus post-treatment, split-face (topical).** A double-blind, randomized, placebo-controlled trial enrolled 22 patients, split into a pretreatment group (11 patients applying vitamin K cream to half the face and vehicle to the other half twice daily for 2 weeks before 585-nm pulsed dye laser treatment of facial telangiectases) and a posttreatment group (same regimen, but for 2 weeks starting after laser treatment). Bruising was rated by patient and physician on a visual analogue scale on days 0, 3, 7, 10, 14, and 17. The pretreated side "showed no significant difference in bruising as compared to placebo," while the posttreated side "had significantly lower scores of bruising severity when compared with the side treated with placebo," especially in the initial days.[^shah] *A well-designed split-face RCT found no benefit to applying vitamin K before a procedure, but a real, significant benefit to applying it after, at least in the first days of healing.*
+
+**Vitamin K oxide gel after purpuric-setting pulsed dye laser, split-face (topical).** A randomized, double-blind, placebo-controlled split-face trial in 20 subjects with bilateral facial telangiectasia treated both sides with a pulsed dye laser at purpuric settings, then randomly assigned vitamin K oxide gel to one side and vehicle to the other, applied twice daily for 9 (+/-1) days. Photographic scoring found the active side resolving purpura faster after day 2, with the largest gap on day 4, but "differences in active versus placebo scores did not reach statistical significance during the nine-day study period," only "a trend toward faster resolution."[^cohen] *A second, similarly designed trial saw the same directional pattern as Shah 2002 but could not statistically confirm it, leaving the post-procedure benefit as plausible but not firmly established.*
+
+## Common Marketing Claims
+
+- **"Reduces bruising and speeds healing after cosmetic procedures."** Partially supported: one small RCT found a significant reduction in post-laser bruising severity when vitamin K was applied after the procedure, but a second similarly designed trial found only a non-significant trend, and neither trial has been independently replicated at larger scale.[^shah][^cohen] Fair to describe as promising, not proven.
+- **"Prevents bruising when used before your appointment."** Not supported. The one trial that tested pretreatment specifically found no significant difference versus placebo.[^shah] Products marketed for pre-procedure use are extrapolating from a mechanism, not from data.
+- **"Reduces dark circles."** Not supported by any identified controlled trial. No PubMed-indexed study has tested topical vitamin K against dark circles as a defined endpoint; the claim appears to be marketing extrapolation from the (mixed) post-laser bruising data rather than its own evidence base.
+
+## See Also
+
+[[dark-circles]] [[retinol]] [[vitamin-c]] [[niacinamide]]
+
+## Sources
+
+[^pubchem]: PubChem. Compound Summary for CID 5284607, Phytonadione. National Center for Biotechnology Information, National Library of Medicine. Molecular formula C31H46O2; IUPAC name 2-methyl-3-[(E,7R,11R)-3,7,11,15-tetramethylhexadec-2-enyl]naphthalene-1,4-dione. https://pubchem.ncbi.nlm.nih.gov/compound/5284607 (accessed 2026-08-30)
+[^shah]: Shah NS, Lazarus MC, Bugdodel R, Hsia SL, He J, Duncan R, Baumann L. "The effects of topical vitamin K on bruising after laser treatment." J Am Acad Dermatol. 2002 Aug;47(2):241-4. Double-blind, randomized, placebo-controlled split-face trial, 22 patients (11 pretreatment, 11 posttreatment groups), 585-nm pulsed dye laser for facial telangiectases. "The side of the face treated with topical vitamin K before laser therapy showed no significant difference in bruising as compared to placebo. However, the side of the face treated with vitamin K cream after laser treatment had significantly lower scores of bruising severity when compared with the side treated with placebo." https://pubmed.ncbi.nlm.nih.gov/12140470/ (accessed 2026-08-30)
+[^cohen]: Cohen JL, Bhatia AC. "The role of topical vitamin K oxide gel in the resolution of postprocedural purpura." J Drugs Dermatol. 2009 Nov;8(11):1020-4. Randomized, double-blinded, placebo-controlled split-face trial, 20 subjects with bilateral facial telangiectasia, pulsed dye laser at purpuric settings, vitamin K oxide gel versus vehicle applied twice daily for 9 (+/-1) days. "Resolution of the field of purpura was consistently greater with the vitamin K oxide gel after the second day of treatment. The greatest difference between the vitamin K oxide gel and placebo scores occurred on the fourth day after treatment. Although differences in active versus placebo scores did not reach statistical significance during the nine-day study period, a trend toward faster resolution of purpura with the active product was seen." https://pubmed.ncbi.nlm.nih.gov/19894369/ (accessed 2026-08-30)
+[^goto]: Goto S, Setoguchi S, Nagata-Akaho N, Terada K, Watase D, Yamakawa H, Toki E, Koga M, Matsunaga K, Karube Y, Takata J. "Ester derivatives of phyllohydroquinone effectively deliver the active form of vitamin K1 topically, owing to their non-photosensitivity." Eur J Pharm Sci. 2020 Dec 1;155:105519. "Topical application of phylloquinone (PK) is beneficial to the skin; however, its topical use is limited in Europe owing to its photosensitive properties such as photodegradation and phototoxicity." https://pubmed.ncbi.nlm.nih.gov/32822810/ (accessed 2026-08-30)
+[^review]: Bapna M, Deng M. "Vitamin K in dermatology." Clin Dermatol. 2026 Mar-Apr;44(2):264-269. "In its topical form, vitamin K has been investigated for its wound healing properties, particularly in postlaser purpura resolution as well as prevention of cetuximab-induced dermatitis." https://pubmed.ncbi.nlm.nih.gov/41692082/ (accessed 2026-08-30)
