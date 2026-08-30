@@ -165,3 +165,10 @@
   status: pending
   discovered_from: null
   source: null
+- name: Rosacea (papulopustular) treatments by evidence (azelaic acid, ivermectin,
+    metronidazole, doxycycline, BPO, minocycline)
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null

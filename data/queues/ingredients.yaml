@@ -940,7 +940,7 @@
 - name: Roflumilast (topical)
   type: ingredient
   priority: 4
-  status: pending
+  status: done
   discovered_from: 'CONDITION cron (seb-derm): Roflumilast 0.3% foam, recent FDA approval for seborrheic dermatitis per DermNet;
     not covered'
   source: https://dailymed.nlm.nih.gov/
@@ -1194,7 +1194,7 @@
 - name: Shea butter (Butyrospermum Parkii)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: cocoa-butter
   source: Comparator occlusive plant butter referenced on cocoa-butter; ubiquitous in body/face creams; deserves its own emollient
     evidence page
@@ -1214,7 +1214,7 @@
 - name: Thiamidol (Isobutylamido Thiazolyl Resorcinol)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: taylor-2026-thiamidol-regimen-vs-spf-hyperpigmentation-pmid-41493252
   source: Beiersdorf tyrosinase-inhibitor brightening active (Eucerin Anti-Pigment); Taylor 2026 + Desai 2025 + Grimes RCTs;
     high-value hyperpigmentation ingredient page, no page yet
@@ -1234,13 +1234,13 @@
 - name: Retinyl palmitate (vitamin A ester)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: bio-oil-skincare-oil
   source: https://pubmed.ncbi.nlm.nih.gov/?term=retinyl+palmitate+skin+retinoid
 - name: Mineral oil (paraffinum liquidum)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: bio-oil-skincare-oil
   source: https://pubmed.ncbi.nlm.nih.gov/?term=mineral+oil+emollient+occlusive+skin
 - name: Tapinarof (topical AhR agonist)
@@ -1252,13 +1252,13 @@
 - name: Climbazole (azole antifungal, antidandruff)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: piroctone-olamine
   source: https://pubmed.ncbi.nlm.nih.gov/?term=climbazole+dandruff+Malassezia
 - name: Roflumilast (topical PDE4 inhibitor)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: zoryve-roflumilast-cream
   source: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ec1bb0d1-f38a-4080-831a-68791d1d1fdb
 - name: Calcipotriene (calcipotriol, topical vitamin D analog for psoriasis)
@@ -1282,7 +1282,7 @@
 - name: Thiamidol (isobutylamido-thiazolyl-resorcinol) - Beiersdorf/Eucerin tyrosinase inhibitor; verify Mann 2018 PMID 29596947
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: null
 - name: Solubilized coal tar extract (Neutar) - the coal tar delivery form in T/Gel; distinct from crude coal tar, verify

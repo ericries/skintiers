@@ -2102,7 +2102,7 @@
 - name: Eucerin Anti-Pigment Dual Serum (thiamidol)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: taylor-2026-thiamidol-regimen-vs-spf-hyperpigmentation-pmid-41493252
   source: The flagship thiamidol serum tested in this regimen; popular hyperpigmentation
     product
@@ -2142,31 +2142,31 @@
 - name: Zoryve (roflumilast 0.3% foam) for seborrheic dermatitis
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: zoryve-roflumilast-cream
   source: https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=roflumilast+foam
 - name: Opzelura (ruxolitinib 1.5% cream) for atopic dermatitis and vitiligo
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: zoryve-roflumilast-cream
   source: https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=ruxolitinib+cream
 - name: Finacea (azelaic acid 15% gel) for papulopustular rosacea
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: rosacea-papulopustular
   source: https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=finacea+azelaic
 - name: Oracea (doxycycline 40 mg modified-release) for rosacea
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: rosacea-papulopustular
   source: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=aa15c93a-ff4c-447a-8a21-96da506d8997
 - name: Epsolay (encapsulated benzoyl peroxide 5% cream) for papulopustular rosacea
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: rosacea-papulopustular
   source: https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=epsolay+benzoyl+peroxide
 - name: Zilxi (minocycline 1.5% topical foam) for rosacea
@@ -2229,6 +2229,13 @@
   source: null
 - name: Enstilar / Taclonex (calcipotriene + betamethasone dipropionate foam/ointment)
     - the fixed-combo that outperforms either alone; verify DailyMed
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null
+- name: Zilxi (minocycline 1.5% foam) for rosacea - completes the rosacea Rx set;
+    verify DailyMed
   type: product
   priority: 5
   status: pending

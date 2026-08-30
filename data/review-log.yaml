@@ -1989,6 +1989,15 @@ clascoterone:
     '
   score: 9
   verdict: revise-then-published
+climbazole:
+  last_reviewed: '2026-08-30'
+  note: INGREDIENT wave3. Imidazole antidandruff antifungal. tier:weak honest (no vehicle-controlled solo-climbazole
+    RCT; best-controlled trial = NEGATIVE for climbazole combo vs Potentiated ZPT, Schwartz P&G). All
+    6 abstracts verbatim vs eutils + PubChem CID 37907. Opus critic fixed significance overclaim + broken
+    [[dandruff]] link. Main-loop removed dangling [^cavana] ref + AI-ese. tier:weak. Opus critic inline
+    (workflow pipeline); assurance opus.
+  score: 8
+  verdict: publish
 clindamycin-topical:
   last_reviewed: '2026-08-08'
   note: 'Opus verification of clindamycin-topical against 4 primaries (DailyMed label, Mavranezouli 2022
@@ -2899,6 +2908,15 @@ epiduo-forte-adapalene-benzoyl-peroxide-gel:
     Gates clean; force-published.
   score: 8
   verdict: revise-then-fixed
+epsolay-benzoyl-peroxide-5-cream:
+  last_reviewed: '2026-08-30'
+  note: 'PRODUCT wave3. Rx microencapsulated benzoyl peroxide 5% cream, first FDA-approved BPO for rosacea.
+    Opus critic (9): all label stats (IGA 47.4/20.7/49.2/28.2, lesion -68.2/-38.3, n=733, NCT ids) + Bhatia/Werschler/Poteate
+    abstracts + GoodRx prices verbatim vs DailyMed/eutils/goodrx; fixed em-dash + Poteate misquote (provide
+    vs provides). Mechanism OUT to [[benzoyl-peroxide]]. GoodRx cached. No dashes. Opus critic inline
+    (workflow pipeline); assurance opus.'
+  score: 9
+  verdict: publish
 ergothioneine:
   last_reviewed: '2026-08-18'
   note: 'INGREDIENT cron (Fable draft -> Opus critic verdict PUBLISH). Ergothioneine. Critic re-verified
@@ -2964,6 +2982,15 @@ eucerin-advanced-repair-cream:
     '
   score: 9
   verdict: revise-then-fixed
+eucerin-anti-pigment-dual-serum:
+  last_reviewed: '2026-08-30'
+  note: 'PRODUCT wave3. Cosmetic thiamidol brightening serum. Opus critic (9): INCI (22, verbatim) + Thiamidol@10/Octocrylene@5
+    + brand figures verbatim vs incidecoder+eucerin.us; price unresolvable honestly. Skeptical: no trial
+    of exact serum, evidence rests on [[thiamidol]] ingredient (Beiersdorf-funded). Main-loop: converted
+    incidecoder from footnote to inline link (sklib aggregator rule), reworded stat-heavy link-out sentence.
+    Brand cached. No dashes. Opus critic inline (workflow pipeline); assurance opus.'
+  score: 8
+  verdict: publish
 eucerin-eczema-relief-cream:
   last_reviewed: '2026-08-23'
   note: 'PRODUCT (eczema cluster). DailyMed verbatim: active ''Colloidal Oatmeal 1%'', use ''temporarily
@@ -3189,6 +3216,15 @@ feverfew-extract:
     '
   score: 9
   verdict: revise-then-fixed
+finacea-azelaic-acid-15-gel:
+  last_reviewed: '2026-08-30'
+  note: 'PRODUCT wave3. Rx azelaic acid 15% gel for papulopustular rosacea. Opus critic (draft score 4,
+    all issues FIXED): corrected IGA success to label-verbatim "clear or minimal (2-step reduction)",
+    reframed AE stats (22/13/6% cutaneous AE severity, not just burning), removed em-dash. All stats verbatim
+    vs DailyMed + Elewski 2003 (beats metronidazole). Honest tolerability caveat. Main-loop: pivotal->registration,
+    bottom-line citation. No dashes. Opus critic inline (workflow pipeline); assurance opus.'
+  score: 8
+  verdict: publish
 first-aid-beauty:
   last_reviewed: '2026-08-08'
   note: 'Lean brand discovery-aid (Sonnet-only). What-it-is + sourced ownership + linked on-site products.
@@ -5285,6 +5321,14 @@ microplastics-in-cosmetics:
     Act 2015, EU 2023 REACH) vs overbroad ''liquid microplastics'' framing. Gates clean; force-published.'
   score: 9
   verdict: publish
+mineral-oil:
+  last_reviewed: '2026-08-30'
+  note: INGREDIENT wave3. Refined occlusive emollient (paraffinum liquidum). tier:good honest (robust
+    human mechanistic data on par with petrolatum + 1 active-comparator RCT; comedogenic reputation unsupported
+    for cosmetic grade). All 8 quotes verbatim vs eutils. Opus critic removed broken [[xerosis]] link.
+    Main-loop reworded AI-ese not-just. tier:good. Opus critic inline (workflow pipeline); assurance opus.
+  score: 9
+  verdict: publish
 minocycline-topical-oral:
   last_reviewed: '2026-08-08'
   note: 'Opus re-fetched all five cited primaries (oral + AMZEEQ DailyMed labels, Cochrane 22895927, Gold
@@ -5932,6 +5976,24 @@ olay-regenerist-retinol24-night-serum:
     '
   score: 9
   verdict: revise-then-fixed
+opzelura-ruxolitinib-cream:
+  last_reviewed: '2026-08-30'
+  note: 'PRODUCT wave3. Rx ruxolitinib 1.5% cream (topical JAK inhibitor) for atopic dermatitis + vitiligo,
+    BOXED WARNING. Opus critic (9): all AD/vitiligo stats + boxed-warning quote verbatim vs DailyMed +
+    PMID 39546129; removed unverifiable "first topical JAK" claim + em-dash. Boxed warning foregrounded
+    honestly. Main-loop: pivotal->registration, vitiligo bottom-line citation. No dashes. Opus critic
+    inline (workflow pipeline); assurance opus.'
+  score: 9
+  verdict: publish
+oracea-doxycycline-40-mg:
+  last_reviewed: '2026-08-30'
+  note: 'PRODUCT wave3. Rx doxycycline 40mg modified-release (anti-inflammatory sub-antimicrobial dose)
+    for rosacea. Opus critic (9): all stats/table verbatim vs DailyMed (rev Apr 2025); fixed em-dash +
+    "doubled" overclaim (Study1 was 1.58x). Full tetracycline class warnings noted. Mechanism OUT to [[doxycycline-oral-subantimicrobial]].
+    Main-loop: pivotal->registration, table citation. No dashes. Opus critic inline (workflow pipeline);
+    assurance opus.'
+  score: 9
+  verdict: publish
 osman-2008-cocoa-butter-for-prevention-of-striae-gravidarum-rct:
   last_reviewed: '2026-08-22'
   note: 'STUDY cron: compact agent-facing infrastructure page for the definitive NEGATIVE cocoa-butter/stretch-mark
@@ -7139,6 +7201,14 @@ retinyl-esters:
     quarantined as in-vitro.
   score: 9
   verdict: publish
+retinyl-palmitate:
+  last_reviewed: '2026-08-30'
+  note: INGREDIENT wave3. Vitamin A ester, weakest cosmetic retinoid (24x less potent than retinol). tier:weak
+    honest (zero isolated-ingredient wrinkle data). All quotes/ratios verbatim vs eutils + PubChem CID
+    5280531 (Duell 1997, Chien 2022, Rawlings 2013, Watson 2008, NTP). Opus critic fixed broken [[retinal]]
+    link + occlusion imprecision. tier:weak. Opus critic inline (workflow pipeline); assurance opus.
+  score: 8
+  verdict: publish
 retinyl-retinoate:
   last_reviewed: '2026-07-27'
   note: critic revise->fixed (de-quoted 4 paywalled BJD quotes to paraphrase; tolerability notable->modest);
@@ -7205,6 +7275,14 @@ roessle-kerscher-2025-skin-glow-objectification-300-women-study:
 
     '
   score: 10
+  verdict: publish
+roflumilast:
+  last_reviewed: '2026-08-30'
+  note: INGREDIENT wave3. Topical PDE4 inhibitor (Zoryve). tier:good honest (replicated phase 3 DERMIS/INTEGUMENT/STRATUM,
+    short duration, industry, vehicle-only comparators). All trial stats/PK verbatim vs eutils + PubChem
+    CID 449193. Opus critic fixed DERMIS footnote PMID, plasma-trough figure, IGA percentage-point range.
+    Main-loop reworded AI-ese pivotal. tier:good. Opus critic inline (workflow pipeline); assurance opus.
+  score: 9
   verdict: publish
 ron-robinson:
   last_reviewed: '2026-08-08'
@@ -7504,6 +7582,13 @@ shasa-hu:
     '
   score: 8
   verdict: self-reviewed
+shea-butter:
+  last_reviewed: '2026-08-30'
+  note: 'INGREDIENT wave3. Plant-butter emollient (Butyrospermum parkii). tier:mid honest. All quotes
+    verbatim vs eutils (Jirabundansuk 2014, Draelos 2016, Prakoeswa 2024 etc). Opus critic: no fixes needed.
+    tier:mid. Opus critic inline (workflow pipeline); assurance opus.'
+  score: 9
+  verdict: publish
 sheldon-pinnell:
   last_reviewed: '2026-08-08'
   note: 'Lean person discovery-aid (Sonnet-only, no Opus critic per roster). Who + honest credential +
@@ -8497,6 +8582,14 @@ the-ordinary-niacinamide-10-zinc-1:
     seemingly vanilla ingredient", "niacinamide really hit superstardom level with the Ordinary''s 10%
     Niacinamide serum", "you only need 2%", "you only need 4%"), the manufacturer directions "Apply a
     few drop'
+  score: 9
+  verdict: publish
+thiamidol:
+  last_reviewed: '2026-08-30'
+  note: INGREDIENT wave3. Beiersdorf tyrosinase inhibitor (isobutylamido thiazolyl resorcinol). tier:good
+    honest (one vehicle-controlled RCT + head-to-head vs hydroquinone, industry-funded, independent replication
+    thin). All IC50/p/quotes verbatim vs eutils + PubChem. Opus critic fixed Mann 2018 misquote + added
+    concentration citation. tier:good. Opus critic inline (workflow pipeline); assurance opus.
   score: 9
   verdict: publish
 thompson-1993-solar-keratoses-sunscreen:
@@ -9554,5 +9647,13 @@ zoryve-roflumilast-cream:
     + qualitative primary instead). Steroid-sparing framing honest (vehicle-controlled, not vs steroids).
     Grades psoriasis + AD both notable/established. No dashes. Inline main-loop critic (subagent cap hit);
     assurance opus.'
+  score: 9
+  verdict: publish
+zoryve-roflumilast-foam:
+  last_reviewed: '2026-08-30'
+  note: 'PRODUCT wave3. Rx roflumilast 0.3% FOAM for seborrheic dermatitis (distinct from [[zoryve-roflumilast-cream]]).
+    Opus critic (9): all stats/quotes verbatim vs DailyMed setid f9e0b4a9; removed 2 broken [[roflumilast]]
+    links (now published so fine). STRATUM trial. Honest: vehicle-only comparator. Main-loop: pivotal->registration.
+    No dashes. Opus critic inline (workflow pipeline); assurance opus.'
   score: 9
   verdict: publish

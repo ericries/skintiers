@@ -153,3 +153,10 @@
   status: pending
   discovered_from: propylene-glycol
   source: https://pubmed.ncbi.nlm.nih.gov/8312142/
+- name: Vitiligo - autoimmune depigmentation; Opzelura (ruxolitinib) is FDA-approved
+    for it; needs a hub
+  type: condition
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null
