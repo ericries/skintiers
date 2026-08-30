@@ -2849,6 +2849,15 @@ eltamd-uv-clear-spf-46:
     found). Critic 10/10, no fixes.'
   score: 10
   verdict: publish
+eltamd-uv-daily-tinted-broad-spectrum-spf-40:
+  last_reviewed: '2026-08-30'
+  note: 'PRODUCT wave2. OTC hybrid tinted sunscreen (zinc oxide + octinoxate, iron-oxide tint). Opus critic
+    (9): actives/inactives/uses/warnings verbatim vs DailyMed SPL ad8aafdf; prices $43/$23 + brand quotes
+    verbatim vs eltamd.com (cached); restored dropped Warnings sentence, fixed Purpose/Uses labeling.
+    Iron-oxide VL claim hedged. Links [[sunscreen-uv-filters]],[[iron-oxides]]. No dashes. Opus critic
+    inline (workflow pipeline); assurance opus.'
+  score: 9
+  verdict: publish
 ensulizole:
   last_reviewed: '2026-08-23'
   note: 'PARALLEL wave3: Sonnet+Opus critic verdict publish (9). UV filter ingredient; evidence + tier
@@ -5378,6 +5387,17 @@ murad-rapid-dark-spot-correcting-serum:
     to tranexamic-acid/glycolic-acid, INCI 40->42. Gates clean; force-published.
   score: 8
   verdict: revise-then-fixed
+murad-resurgence-retinal-resculpt-overnight-treatment:
+  last_reviewed: '2026-08-30'
+  note: 'PRODUCT wave2. Cosmetic retinaldehyde night cream, $109. Opus critic (7) did MAJOR anti-hallucination
+    work: REMOVED fabricated "8-week study n=34", "4-week study" footnote, "independent ex-vivo study"
+    - none exist on source; verified live vs murad.com + product.js. Page is now a MODEL skeptical review:
+    every efficacy claim labeled unsupported brand marketing (no n/control/method), undisclosed concentration
+    flagged w/verbatim FAQ quote, INCI caveated as brand-published/unverifiable (not on incidecoder).
+    tier modest/preliminary honest. Category evidence OUT to [[retinaldehyde]]. Brand source cached. No
+    dashes. Opus critic inline (workflow pipeline); assurance opus.'
+  score: 8
+  verdict: publish
 murad-retinol-youth-renewal-serum:
   last_reviewed: '2026-08-23'
   note: 'PRODUCT cron (Murad/retinol cluster). Murad is a Shopify JS-SPA; resolved via Apify + CACHED
@@ -6881,6 +6901,15 @@ propylene-glycol:
     (subagent cap hit); assurance opus.'
   score: 9
   verdict: publish
+protopic-tacrolimus-ointment:
+  last_reviewed: '2026-08-30'
+  note: 'PRODUCT wave2. Rx tacrolimus 0.03%/0.1% ointment (TCI), boxed warning. Opus critic (91): stats/quotes/inactives
+    verbatim vs DailyMed + Paller 2005 (eutils); FIXED adult vehicle 10%->7%, removed wrong 1mg/g, relabeled
+    EASI metric. More potent sibling of [[elidel-pimecrolimus-cream]]; head-to-head win OUT to [[tacrolimus-topical]].
+    Main-loop added [^dailymed] to bottom-line. No dashes. Opus critic inline (workflow pipeline); assurance
+    opus.'
+  score: 9
+  verdict: publish
 psoriasis:
   last_reviewed: '2026-08-22'
   note: 'CONDITION cron: topical-focused hub. Two load-bearing quotes verified VERBATIM against live PubMed
@@ -7068,6 +7097,14 @@ retin-a-micro-tretinoin-gel-microsphere:
     '
   score: 9
   verdict: revise-then-fixed
+retin-a-tretinoin-0-1-cream:
+  last_reviewed: '2026-08-30'
+  note: 'PRODUCT wave2. Rx tretinoin 0.1% cream. Opus critic (93): quotes/stats/indication/price verbatim
+    vs DailyMed + PubMed (Griffiths/Cunliffe/Mavranezouli) + live GoodRx (cached); fixed em-dash. Acne
+    = label use; photoaging evidence OUT to [[tretinoin]]/[[retinoids]]. Links [[acne]]. No dashes. Opus
+    critic inline (workflow pipeline); assurance opus.'
+  score: 9
+  verdict: publish
 retinaldehyde:
   last_reviewed: '2026-07-27'
   note: critic revise->fixed (Deda 2026 quote corrected to verbatim); 5 independent primaries; photoaging
@@ -7940,6 +7977,15 @@ soolantra-ivermectin-1-cream:
     '
   score: 8
   verdict: revise-then-fixed
+sorilux-calcipotriene-foam:
+  last_reviewed: '2026-08-30'
+  note: 'PRODUCT wave2. Rx calcipotriene 0.005% foam, vit D3 analog for psoriasis. Opus critic (9): stats/indication
+    verbatim vs DailyMed; fixed em-dash, imprecise AR rates (label-exact 2%/3%), overspecified receptor
+    claim. HONEST skeptical: absolute success rates modest (14/27% body, 41% scalp), mild-disease subgroup
+    did WORSE than vehicle. Mechanism OUT to [[calcipotriene]]. Main-loop: pivotal->registration, blockquote
+    citations. No dashes. Opus critic inline (workflow pipeline); assurance opus.'
+  score: 9
+  verdict: publish
 spada-2021-ceramide-dominant-cream-eczema-rct:
   last_reviewed: '2026-08-08'
   note: 'Opus re-fetched PubMed abstract (PMID 33984185) and confirmed all six quoted result sentences
@@ -9144,6 +9190,14 @@ voice-and-routine-policy-corrections:
     '
   score: 9
   verdict: self-reviewed
+vtama-tapinarof-cream:
+  last_reviewed: '2026-08-30'
+  note: 'PRODUCT wave2. Rx tapinarof 1% cream (AhR agonist) for psoriasis+AD. Opus critic (91): all efficacy
+    stats/AEs/indication verbatim vs DailyMed; FIXED misread ADORING-1 itch (56% vs 34% not 22%), unverifiable
+    marketing quote, em-dash. Mechanism/trials OUT to [[tapinarof]]. Main-loop added [^adoring] to AD
+    bottom-line. No dashes. Opus critic inline (workflow pipeline); assurance opus.'
+  score: 9
+  verdict: publish
 walsh-2016-antibiotic-resistance-acne:
   last_reviewed: '2026-08-08'
   note: 'Opus re-fetched the cited PubMed abstract (PMID 26852728) and verified every quoted phrase verbatim

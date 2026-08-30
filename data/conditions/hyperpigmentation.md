@@ -14,6 +14,13 @@ tier_list:
       protects the results of every other treatment; without it, pigment keeps returning.'
     slug: sunscreen-uv-filters
     tier: strong
+  - note: Iron oxides, the pigments that make a sunscreen tinted, add protection against
+      visible light, which drives melasma and post-inflammatory hyperpigmentation
+      in darker skin in a way clear (UV-only) sunscreens do not. A worthwhile upgrade
+      to sun protection for pigment-prone skin rather than a standalone treatment;
+      evidence on [[iron-oxides]].
+    slug: iron-oxides
+    tier: moderate
   - note: The most-studied topical depigmenting agent and the melasma and post-inflammatory
       hyperpigmentation benchmark, a tyrosinase inhibitor; prescription in the US
       and cycled on and off to avoid the rare side effect ochronosis.
@@ -51,7 +58,7 @@ tier_list:
     tier: weak
   title: Topical actives for hyperpigmentation by evidence
 type: condition
-updated: '2026-08-15'
+updated: '2026-08-30'
 videos:
 - creator: Dr. Sam Ellis
   creator_slug: samantha-ellis
@@ -351,47 +358,78 @@ videos:
     not a quick fix.
   title: Stop Buying Dark Spot Removers Until You Watch This
   url: https://www.youtube.com/watch?v=M-tG_msV1KE
-- title: How do Dermatologists FIX Pigmentation? (PIH)
-  creator: Dr. Davin Lim
+- creator: Dr. Davin Lim
   creator_slug: davin-lim
   credential: Board-certified dermatologist (Australia)
-  platform: YouTube
-  url: https://www.youtube.com/watch?v=gD1RbEPw03M
-  posted: '2024-07-18'
-  related: [acne]
-  thesis: Dr Davin Lim, a board-certified dermatologist (Australia), explains how to treat post-inflammatory hyperpigmentation (PIH), the flat dark marks that remain after acne clears. He stresses first getting active acne into full remission, then daily tinted sunscreen, and at-home actives like azelaic acid (10-20%), niacinamide (10-20%), and vitamin C (ascorbic acid, 10-20%) to fade existing marks. He also outlines in-clinic options dermatologists use, including Pico lasers, Q-switch lasers, and chemical peels (salicylic, glycolic, lactic, and retinoic acid), with typical courses of three to six sessions spaced two to four weeks apart.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
-- title: 'Hydroquinone Alternative: THIAMIDOL Fades Hyperpigmentation & Melasma'
-  creator: Dr. Alexis Stephens
+  platform: YouTube
+  posted: '2024-07-18'
+  related:
+  - acne
+  thesis: Dr Davin Lim, a board-certified dermatologist (Australia), explains how
+    to treat post-inflammatory hyperpigmentation (PIH), the flat dark marks that remain
+    after acne clears. He stresses first getting active acne into full remission,
+    then daily tinted sunscreen, and at-home actives like azelaic acid (10-20%), niacinamide
+    (10-20%), and vitamin C (ascorbic acid, 10-20%) to fade existing marks. He also
+    outlines in-clinic options dermatologists use, including Pico lasers, Q-switch
+    lasers, and chemical peels (salicylic, glycolic, lactic, and retinoic acid), with
+    typical courses of three to six sessions spaced two to four weeks apart.
+  title: How do Dermatologists FIX Pigmentation? (PIH)
+  url: https://www.youtube.com/watch?v=gD1RbEPw03M
+- creator: Dr. Alexis Stephens
   creator_slug: alexis-stephens
   credential: Board-certified dermatologist
-  platform: YouTube
-  url: https://www.youtube.com/watch?v=Sn_Y59aGjcw
-  posted: '2023-11-05'
-  related: [melasma]
-  thesis: Board-certified dermatologist Dr. Alexis Stephens explains thiamidol (also listed as isobutylamido thiazolyl resorcinol), an over-the-counter tyrosinase inhibitor increasingly discussed as an alternative to prescription hydroquinone for fading post-inflammatory dark marks, hyperpigmentation, and melasma. She notes it works by blocking the tyrosinase enzyme that produces melanin, cites clinical studies showing fading beginning around 2 weeks with most users seeing improvement by 3 months, and reports minimal stinging or irritation in the trials she references. She stresses that no single ingredient is a cure-all for hyperpigmentation and that consistent daily sun protection remains essential alongside it.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
-- title: Dark Spots Won't Fade? Here's What You're Missing (Derm Explains) | Dr. Jenny Liu
-  creator: Dr. Jenny Liu (Jenny Liu, MD, FAAD)
+  platform: YouTube
+  posted: '2023-11-05'
+  related:
+  - melasma
+  thesis: Board-certified dermatologist Dr. Alexis Stephens explains thiamidol (also
+    listed as isobutylamido thiazolyl resorcinol), an over-the-counter tyrosinase
+    inhibitor increasingly discussed as an alternative to prescription hydroquinone
+    for fading post-inflammatory dark marks, hyperpigmentation, and melasma. She notes
+    it works by blocking the tyrosinase enzyme that produces melanin, cites clinical
+    studies showing fading beginning around 2 weeks with most users seeing improvement
+    by 3 months, and reports minimal stinging or irritation in the trials she references.
+    She stresses that no single ingredient is a cure-all for hyperpigmentation and
+    that consistent daily sun protection remains essential alongside it.
+  title: 'Hydroquinone Alternative: THIAMIDOL Fades Hyperpigmentation & Melasma'
+  url: https://www.youtube.com/watch?v=Sn_Y59aGjcw
+- creator: Dr. Jenny Liu (Jenny Liu, MD, FAAD)
   creator_slug: jenny-liu
   credential: Board-certified dermatologist
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
   platform: YouTube
-  url: https://www.youtube.com/watch?v=tho0X8AB-To
   posted: '2026-05-28'
   related: []
-  thesis: Dr. Jenny Liu, MD, FAAD, a board-certified dermatologist, explains that hyperpigmentation and dark spots often fail to fade or keep returning because people treat the pigment itself without addressing the underlying inflammation that triggers melanocyte overactivity. She outlines a home skin care strategy for improving uneven tone, when to escalate treatment, and when the condition warrants seeing a dermatologist in person.
-  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
-- title: 'Freckles vs sun spots: what''s the difference?'
-  creator: Fatima Fahs
+  thesis: Dr. Jenny Liu, MD, FAAD, a board-certified dermatologist, explains that
+    hyperpigmentation and dark spots often fail to fade or keep returning because
+    people treat the pigment itself without addressing the underlying inflammation
+    that triggers melanocyte overactivity. She outlines a home skin care strategy
+    for improving uneven tone, when to escalate treatment, and when the condition
+    warrants seeing a dermatologist in person.
+  title: Dark Spots Won't Fade? Here's What You're Missing (Derm Explains) | Dr. Jenny
+    Liu
+  url: https://www.youtube.com/watch?v=tho0X8AB-To
+- creator: Fatima Fahs
   creator_slug: fatima-fahs
   credential: Dermatologist (MD)
-  platform: TikTok
-  url: https://www.tiktok.com/@dermydoctor/video/7677570515090918670
-  posted: '2026-08-24'
-  related: [sunscreen-uv-filters, brightening, melasma]
-  thesis: Dermatologist Dr. Fatima Fahs (Dermy Doctor) explains how freckles differ from sun spots. Freckles, or ephelides, are largely genetic and darken each summer with more UV exposure, while sun spots, or solar lentigines, come from cumulative lifetime UV exposure and stay put whether it is sunny or freezing. She adds that new sun spots that do not fade are a sign of ongoing UV damage, and that both are a reason to see a dermatologist for a skin check so the spots can be examined under a dermoscope.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
-
+  platform: TikTok
+  posted: '2026-08-24'
+  related:
+  - sunscreen-uv-filters
+  - brightening
+  - melasma
+  thesis: Dermatologist Dr. Fatima Fahs (Dermy Doctor) explains how freckles differ
+    from sun spots. Freckles, or ephelides, are largely genetic and darken each summer
+    with more UV exposure, while sun spots, or solar lentigines, come from cumulative
+    lifetime UV exposure and stay put whether it is sunny or freezing. She adds that
+    new sun spots that do not fade are a sign of ongoing UV damage, and that both
+    are a reason to see a dermatologist for a skin check so the spots can be examined
+    under a dermoscope.
+  title: 'Freckles vs sun spots: what''s the difference?'
+  url: https://www.tiktok.com/@dermydoctor/video/7677570515090918670
 ---
 
 Hyperpigmentation is a darkening of the skin caused by excess melanin, and its common facial forms are melasma, post-inflammatory hyperpigmentation, and pigmentation driven by sun exposure.[^handel][^davis] The color change is usually the only symptom, the skin stays flat and is neither itchy nor sore, and the same person can have more than one form at once. Among the topical options with controlled evidence, photoprotection is the foundation with the strongest support, the depigmenting creams are real but modest, and without ongoing sun protection the pigment tends to come back.[^liu][^castanedo][^delrosario]

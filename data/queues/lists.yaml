@@ -151,3 +151,10 @@
   status: pending
   discovered_from: null
   source: null
+- name: Psoriasis topical treatments by evidence (steroids, vit-D analogs calcipotriene,
+    tapinarof, roflumilast, coal tar)
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null
