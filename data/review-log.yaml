@@ -995,6 +995,14 @@ best-azelaic-acid-products:
     pages. lint+verify+style+voice clean; footnotes intact.
   score: 8
   verdict: self-reviewed
+best-body-anti-aging-products:
+  last_reviewed: '2026-08-30'
+  note: 'LIST wave. Best-of body anti-aging products (retinoids + AHAs). Opus critic (9): all 5 slugs
+    resolve; FIXED a ranking inversion (disclosed matched-dose actives now outrank undisclosed/below-range).
+    Main-loop: not-just reworded, brand sources cached. No dashes. Opus critic inline (workflow pipeline);
+    assurance opus.'
+  score: 9
+  verdict: publish
 best-ceramide-moisturizers:
   last_reviewed: '2026-08-05'
   note: 'Best-of list filled from stub (Sonnet draft + controller lint/verify/style; curatorial, no Opus
@@ -1051,6 +1059,21 @@ best-glass-skin-products:
     '
   score: 9
   verdict: self-reviewed
+best-hydroquinone-free-brightening-products:
+  last_reviewed: '2026-08-30'
+  note: 'LIST wave. Best-of hydroquinone-free brightening products. Opus critic (9): all 13 product slugs
+    resolve, thiamidol PMID 30825454 verbatim; fixed a thiamidol-vs-azelaic evidence contradiction (thiamidol
+    industry-funded, azelaic independent). No dashes. Opus critic inline (workflow pipeline); assurance
+    opus.'
+  score: 9
+  verdict: publish
+best-mineral-sunscreens-by-evidence:
+  last_reviewed: '2026-08-30'
+  note: 'LIST wave. Best-of 100%-mineral sunscreens. Opus critic (90): all 12 slugs resolve, actives verbatim;
+    FIXED an absolute combinations-beat-single-filter rule that contradicted the order. Excludes hybrids
+    (octinoxate). No dashes. Opus critic inline (workflow pipeline); assurance opus.'
+  score: 8
+  verdict: publish
 best-moisturizing-ingredients-ranked:
   last_reviewed: '2026-08-09'
   note: 'Curatorial tier list (daily LIST cron style; Sonnet draft + own lint/verify/style, no Opus critic).
@@ -6690,6 +6713,14 @@ perioral-dermatitis:
     '
   score: 8
   verdict: revise-then-published
+perioral-dermatitis-treatments-by-evidence:
+  last_reviewed: '2026-08-30'
+  note: 'LIST wave. Graded perioral dermatitis treatments (STOP steroids first). Opus critic (9): all
+    9 slugs resolve, Gray 2022 Cochrane (PMID 34779023) stats verbatim. Honest (stopping corticosteroids
+    strong, oral tetracyclines moderate, topicals minimal). No dashes. Opus critic inline (workflow pipeline);
+    assurance opus.'
+  score: 9
+  verdict: publish
 perry-romanowski:
   last_reviewed: '2026-08-05'
   note: 'Person page fleshed from stub (Sonnet draft + controller''s own lint/verify/style + accuracy
@@ -7172,6 +7203,14 @@ psoriasis:
     assurance sonnet.'
   score: 9
   verdict: publish
+psoriasis-topical-treatments-by-evidence:
+  last_reviewed: '2026-08-30'
+  note: 'LIST wave. Graded topical psoriasis treatments (Rx first-line INCLUDED, unlike OTC-scoped [[psoriasis]]
+    tier_list). Opus critic (9): all 11 slugs resolve, PSO-FAST/PSOARING/DERMIS stats verbatim; fixed
+    a class-I potency error. Main-loop: added footnote PubMed URLs. No dashes. Opus critic inline (workflow
+    pipeline); assurance opus.'
+  score: 9
+  verdict: publish
 purito:
   last_reviewed: '2026-08-08'
   note: 'Lean brand discovery-aid (Sonnet-only, no Opus critic per roster). What-it-is + sourced founder/ownership
@@ -7539,6 +7578,14 @@ rosacea-papulopustular:
     pure mineral). No dashes; lint/verify/style clean. Queued 4 Rx treatment products (Finacea/Oracea/Epsolay/Zilxi).
     Inline critic (subagent cap hit); assurance opus.'
   score: 10
+  verdict: publish
+rosacea-papulopustular-treatments-by-evidence:
+  last_reviewed: '2026-08-30'
+  note: 'LIST wave. Graded papulopustular rosacea treatments. Opus critic (93): all 7 item slugs resolve,
+    3 stats verbatim vs eutils (Elewski 2003, Taieb 2015, Husein-ElAhmed 2021). Honest ranking (azelaic/ivermectin
+    head-to-head winners top, metronidazole first-line-but-weaker, minocyclines moderate). Main-loop:
+    not-just reworded. No dashes. Opus critic inline (workflow pipeline); assurance opus.'
+  score: 9
   verdict: publish
 round-lab:
   last_reviewed: '2026-08-08'
