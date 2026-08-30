@@ -501,6 +501,14 @@ arbutin:
     '
   score: 10
   verdict: publish
+argan-oil:
+  last_reviewed: '2026-08-30'
+  note: INGREDIENT wave4. Plant-oil emollient (Argania spinosa). tier:mid honest (small uncontrolled no-vehicle
+    studies). All composition/TEWL/elasticity p-values verbatim vs eutils. Critic tightened an elasticity
+    p-value bound (topical-arm vs consumption-arm). tier:mid. Opus critic inline (workflow pipeline);
+    assurance opus.
+  score: 9
+  verdict: publish
 argireline-acetyl-hexapeptide-8:
   last_reviewed: '2026-08-08'
   note: 'Opus verification (2026-08-08): re-fetched all five cited PubMed primaries (Blanes-Mira 2002,
@@ -1894,6 +1902,13 @@ cetaphil-redness-relieving-daily-facial-moisturizer-spf-40:
     Opus main-loop critic; assurance sonnet.'
   score: 9
   verdict: publish
+cetaphil-sheer-mineral-sunscreen-spf-50:
+  last_reviewed: '2026-08-30'
+  note: 'PRODUCT wave4. OTC 100% mineral sunscreen (TiO2+ZnO) SPF 50. Opus critic (95): all actives/inactives/uses/warnings
+    + brand quotes verbatim vs DailyMed SPL + cetaphil.com; no fixes. Links [[sunscreen-uv-filters]].
+    Brand cached. No dashes. Opus critic inline (workflow pipeline); assurance opus.'
+  score: 9
+  verdict: publish
 cetaphil-sheer-mineral-sunscreen-stick-spf-50:
   last_reviewed: '2026-08-16'
   note: Drain wave. Added DailyMed URL for footnote [^3], corrected comparator overclaim/typo. Gates clean;
@@ -2041,6 +2056,14 @@ coal-tar:
     Both sources primary, verify clean. Opus critic agent unavailable (cap); verified in the Opus main
     loop; assurance sonnet.'
   score: 9
+  verdict: publish
+cocamidopropyl-betaine:
+  last_reviewed: '2026-08-30'
+  note: INGREDIENT wave4. Amphoteric co-surfactant, mild-but-allergenic. tier:mid. Critic FIXED a blocking
+    Corazza 2010 misreading (none of 8 tested prep gave reactions; 5/105 from standard series) + 3 broken
+    wikilinks. All stats verbatim vs eutils + PubChem CID 20280. tier:mid. Opus critic inline (workflow
+    pipeline); assurance opus.
+  score: 8
   verdict: publish
 cocoa-butter:
   last_reviewed: '2026-08-25'
@@ -2720,6 +2743,15 @@ drometrizole-trisiloxane:
     '
   score: 10
   verdict: publish
+ducray-kelual-ds-cream:
+  last_reviewed: '2026-08-30'
+  note: 'PRODUCT wave4. Cosmetic seb-derm gel-cream. Opus critic (9): French brand claims + 57-subject
+    brand studies + INCI (19) verbatim vs ducray.com/incidecoder. HONESTLY FLAGS discrepancy: brand markets
+    CPO/PO (ciclopirox+piroctone) synergy but incidecoder INCI lists only piroctone olamine, no ciclopirox.
+    Unpublished brand studies caveated. Main-loop: incidecoder footnote->inline link, dropped bare stats,
+    in-house->own. Brand cached. No dashes. Opus critic inline (workflow pipeline); assurance opus.'
+  score: 8
+  verdict: publish
 dustin-portela:
   last_reviewed: '2026-08-08'
   note: 'Lean person discovery-aid (Sonnet-only). Honest credential + linked on-site studies/products.
@@ -3064,6 +3096,14 @@ exfoliating-acids-by-strength:
 
     '
   verdict: published
+exosomes:
+  last_reviewed: '2026-08-30'
+  note: INGREDIENT wave4. Topical extracellular vesicles, trendy. tier:weak honest (only 18 human topical
+    studies total, one unblinded adjunct-only RCT, safety undefined). All quotes verbatim vs eutils (5
+    PMIDs). Critic fixed broken wikilinks; main-loop added missing footnote URLs + reworded AI-ese. tier:weak.
+    Opus critic inline (workflow pipeline); assurance opus.
+  score: 8
+  verdict: publish
 expert-directory-and-private-research-cache:
   last_reviewed: '2026-08-03'
   note: 'Two user-requested pieces. (1) EXPERT/INFLUENCER DIRECTORY: added person + brand to build.py
@@ -5691,6 +5731,14 @@ neale-2019-sunscreen-vitamin-d:
     '
   score: 9
   verdict: revise-then-fixed
+necessaire-the-body-retinol:
+  last_reviewed: '2026-08-30'
+  note: 'PRODUCT wave4. Cosmetic 0.1% retinol body serum. Opus critic (9): INCI (43, exact order) + 0.1%
+    dose + price $65/150ml + study numbers verbatim vs necessaire.com; fixed airless-pump->package. Skeptical:
+    brand-run uncontrolled panel-perception study, not vehicle-controlled; retinol evidence OUT to [[retinol]].
+    Brand cached. No dashes. Opus critic inline (workflow pipeline); assurance opus.'
+  score: 8
+  verdict: publish
 neck-chest-decolletage-care:
   last_reviewed: '2026-08-27'
   note: 'GOAL cron (health/efficacy). Lean hub: neck/chest photoage like the face -> same actives, applied
@@ -6138,6 +6186,13 @@ palmitoyl-tetrapeptide-7:
   note: 'PARALLEL wave4: Sonnet+Opus critic verdict publish. Verified vs sources.'
   score: 9
   verdict: publish
+palmitoyl-tripeptide-1:
+  last_reviewed: '2026-08-30'
+  note: 'INGREDIENT wave4. Signal peptide Pal-GHK (Matrixyl 3000 component). tier:weak honest (no strong
+    isolated-ingredient RCT). All quotes/IC-range verbatim vs eutils + PubChem CID 10231864. Critic: no
+    fixes. tier:weak. Opus critic inline (workflow pipeline); assurance opus.'
+  score: 8
+  verdict: publish
 panax-ginseng:
   last_reviewed: '2026-08-08'
   note: 'Opus verification: re-fetched all five cited PubMed primaries (39583168, 26024573, 25867599,
@@ -6347,6 +6402,14 @@ paulas-choice-c15-super-booster:
     '
   score: 9
   verdict: revise-then-fixed
+paulas-choice-clear-back-body-acne-spray:
+  last_reviewed: '2026-08-30'
+  note: 'PRODUCT wave4. OTC salicylic acid 2% body-acne spray. Opus critic (9): all label facts verbatim
+    vs DailyMed SPL 46cb9ff7; reworded around label "of of Acne" double-typo (paraphrase not quote). Links
+    [[body-acne]],[[salicylic-acid]]. Main-loop: removed URL-less [^bodyacne] footnote, added dailymed
+    citation. No dashes. Opus critic inline (workflow pipeline); assurance opus.'
+  score: 9
+  verdict: publish
 paulas-choice-clinical-1-retinol-treatment:
   last_reviewed: '2026-08-07'
   note: 'Paula''s Choice Clinical 1% Retinol Treatment (link-out; on [[retinol]], [[retinoids]]). Wave-4
@@ -6600,6 +6663,14 @@ petrolatum:
     + the 2.0%/0.9% percentages); added the steroid CI (95% CI -15.3 to -3.27) and the ACD P=.12; softened
     ''safer on allergy'' to the authors'' ''minimal risk for induction of allergy'' wording. lint/verify/style
     clean.'
+  score: 8
+  verdict: publish
+phenylethyl-resorcinol:
+  last_reviewed: '2026-08-30'
+  note: 'INGREDIENT wave4. Resorcinol-family tyrosinase inhibitor (Symwhite 377). tier:weak honest (single
+    n=20 narrow RCT; LOST head-to-head to 4-butylresorcinol per Kolbe; no vehicle-controlled melasma trial).
+    All IC50/logP/mp/p verbatim vs eutils + PubChem CID 11171903. Critic: no fixes. tier:weak. Opus critic
+    inline (workflow pipeline); assurance opus.'
   score: 8
   verdict: publish
 phloretin:
@@ -8138,6 +8209,13 @@ squalane:
     '
   score: 9
   verdict: revise-then-fixed
+stearic-acid:
+  last_reviewed: '2026-08-30'
+  note: INGREDIENT wave4. Fatty-acid emollient/emulsifier (C18H36O2). tier:weak honest (no standalone
+    human trial; mixture-dependent). All quotes verbatim vs eutils + PubChem CID 5281. Critic fixed broken
+    [[linoleic-acid]] link. tier:weak. Opus critic inline (workflow pipeline); assurance opus.
+  score: 8
+  verdict: publish
 stein-2014-ivermectin-1-papulopustular-rosacea-pivotal-trials:
   last_reviewed: '2026-08-08'
   note: 'Opus re-fetched PubMed 24595578 (abstract only): all four block quotes (treatment success 38.4%/40.1%
@@ -8592,6 +8670,15 @@ the-ordinary-mandelic-acid-10-ha:
     '
   score: 9
   verdict: revise-then-published
+the-ordinary-matrixyl-10-ha:
+  last_reviewed: '2026-08-30'
+  note: 'PRODUCT wave4. Cosmetic peptide serum (Matrixyl 3000 + synthe6). Opus critic (9): price/INCI/marketing
+    verbatim vs theordinary.com; repointed tripeptide-1 wikilink to its new page. Skeptical: peptide evidence
+    thin, no trial of serum, linked OUT to [[palmitoyl-tripeptide-1]]/[[palmitoyl-tetrapeptide-7]]/[[peptides]].
+    Main-loop: removed URL-less [^to-pal4] footnote + verbatim quotes (owned by ingredient pages), dropped
+    bare %. Brand cached. No dashes. Opus critic inline (workflow pipeline); assurance opus.'
+  score: 8
+  verdict: publish
 the-ordinary-multi-peptide-copper-peptides-serum:
   last_reviewed: '2026-07-29'
   note: 'Added summary-first "## Summary" (Sonnet draft + Opus critic; model split). Summary synthesizes
@@ -9623,6 +9710,14 @@ zi-2026-study-on-the-multiple-efficacies-of-vitamin-c-serum-in-anti-gl:
 
     '
   score: 10
+  verdict: publish
+zilxi-minocycline-foam:
+  last_reviewed: '2026-08-30'
+  note: 'PRODUCT wave4. Rx minocycline 1.5% foam, first topical minocycline for rosacea. Opus critic (9):
+    all quotes/stats/indication verbatim vs DailyMed + Gold 2020 (PMID 32004648). Completes rosacea Rx
+    set. Main-loop added bottom-line citation. No dashes. Opus critic inline (workflow pipeline); assurance
+    opus.'
+  score: 9
   verdict: publish
 zinc-oxide:
   last_reviewed: '2026-07-28'

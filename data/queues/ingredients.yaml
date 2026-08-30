@@ -936,7 +936,7 @@
 - name: Palmitoyl Tripeptide-1 and Palmitoyl Tetrapeptide-7 (Matrixyl 3000)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/23320735/
 - name: Acetyl Octapeptide-3 (SNAP-8)
@@ -1192,7 +1192,7 @@
 - name: Argan oil (topical)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: palmers-cocoa-butter-skin-therapy-oil
   source: Emollient oil common in body/hair products (Palmers, many); moisturizing
     evidence + weak anti-aging claims; would back multiple product pages
@@ -1223,7 +1223,7 @@
 - name: Cocamidopropyl betaine (amphoteric surfactant)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: cln-bodywash
   source: Ubiquitous co-surfactant in this INCI + most gentle cleansers; a notable
     ACD contact allergen (ACDS Allergen of the Year 2004) - evidence+allergy page
@@ -1231,7 +1231,7 @@
 - name: Exosomes (topical / extracellular vesicles)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: medicube-pdrn-pink-collagen-exosome-shot-serum
   source: Trendy K-beauty active declared at 10 ppm here + in many serums; needs a
     skeptical evidence page like [[polydeoxyribonucleotide-pdrn]]
@@ -1252,7 +1252,7 @@
 - name: Stearic acid (topical fatty acid / emollient)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: cocoa-butter
   source: A principal fatty acid of cocoa butter + common emulsifier/emollient across
     creams; basic evidence page
@@ -1274,7 +1274,7 @@
 - name: Palmitoyl Tripeptide-1 (Matrixyl 3000 component)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: best-peptide-serums
   source: The other half of Matrixyl 3000 (with palmitoyl tetrapeptide-7, which has
     a page); appears across peptide serums
@@ -1331,7 +1331,7 @@
     verify PubChem + PMID 23205541 comparison
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: null
 - name: Thiamidol (isobutylamido-thiazolyl-resorcinol) - Beiersdorf/Eucerin tyrosinase
@@ -1371,6 +1371,12 @@
   source: null
 - name: Malassezin (novel topical AhR-pathway depigmenting agent) - matched 4% hydroquinone
     split-face (Grimes 2026); verify PubMed
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null
+- name: Glycolic acid in Ducray/body context - already exists? skip
   type: ingredient
   priority: 5
   status: pending

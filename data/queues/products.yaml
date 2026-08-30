@@ -80,7 +80,7 @@
   discovered_from: null
   source: null
   note: reconciled (robust)
-- name: "Av\xE8ne Mineral Ultra-Light SPF 50+"
+- name: Avène Mineral Ultra-Light SPF 50+
   type: product
   priority: 8
   status: done
@@ -107,8 +107,7 @@
   status: done
   discovered_from: null
   source: null
-  note: 'reconciled: published as paulas-choice-clinical-1-retinol-treatment (house-aligned
-    slug)'
+  note: 'reconciled: published as paulas-choice-clinical-1-retinol-treatment (house-aligned slug)'
 - name: Cetaphil Gentle Skin Cleanser
   type: product
   priority: 8
@@ -189,8 +188,7 @@
   status: done
   discovered_from: null
   source: null
-  note: published as skin1004-madagascar-centella-asiatica-100-ampoule (same flagship
-    ampoule)
+  note: published as skin1004-madagascar-centella-asiatica-100-ampoule (same flagship ampoule)
 - name: La Roche-Posay Retinol B3 Serum
   type: product
   priority: 6
@@ -418,8 +416,7 @@
   status: done
   discovered_from: wirecutter-best-retinols
   source: null
-  note: 'reconciled: published as youth-to-the-people-retinal-niacinamide-serum (house-aligned
-    slug)'
+  note: 'reconciled: published as youth-to-the-people-retinal-niacinamide-serum (house-aligned slug)'
 - name: LilyAna Naturals Retinol Cream
   type: product
   priority: 9
@@ -447,8 +444,7 @@
   status: done
   discovered_from: wirecutter-best-retinols
   source: null
-  note: 'reconciled: published as loreal-paris-revitalift-0-3-pure-retinol-serum (house-aligned
-    slug)'
+  note: 'reconciled: published as loreal-paris-revitalift-0-3-pure-retinol-serum (house-aligned slug)'
 - name: Differin Gel 0.3% (adapalene)
   type: product
   priority: 5
@@ -997,8 +993,7 @@
   priority: 5
   status: done
   discovered_from: michelle-wong
-  source: Michelle Wong (Lab Muffin) sunscreen-stick application-payout tests (transcript-verified,
-    non-sponsored)
+  source: Michelle Wong (Lab Muffin) sunscreen-stick application-payout tests (transcript-verified, non-sponsored)
 - name: COSRX Niacinamide 15 Serum
   type: product
   priority: 5
@@ -1034,8 +1029,7 @@
   priority: 5
   status: done
   discovered_from: victoria-fu
-  source: Chemist Confessions, retinaldehyde with most robust clinical testing among
-    reviewed (transcript-verified)
+  source: Chemist Confessions, retinaldehyde with most robust clinical testing among reviewed (transcript-verified)
 - name: IOPE Stem 3 Clinical Recovery Serum
   type: product
   priority: 5
@@ -1047,8 +1041,7 @@
   priority: 5
   status: done
   discovered_from: samantha-ellis
-  source: 'Dr. Sam Ellis video (transcript-verified): galactomyces essence for skin
-    that cannot tolerate acids/vitamin C'
+  source: 'Dr. Sam Ellis video (transcript-verified): galactomyces essence for skin that cannot tolerate acids/vitamin C'
 - name: Tatcha Indigo Overnight Repair Serum
   type: product
   priority: 5
@@ -1060,656 +1053,583 @@
   priority: 5
   status: done
   discovered_from: michelle-wong
-  source: 'Michelle Wong sunscreen-stick application tests: strong coverage among
-    mineral sticks'
+  source: 'Michelle Wong sunscreen-stick application tests: strong coverage among mineral sticks'
 - name: Skin1004 Hyalu-Waterfit Sun Serum
   type: product
   priority: 5
   status: done
   discovered_from: scott-walter
-  source: 'Dr. Scott Walter top-5 Korean sunscreens (transcript-verified): SPF50 serum-texture,
-    no white cast, for acne-prone skin'
+  source: 'Dr. Scott Walter top-5 Korean sunscreens (transcript-verified): SPF50 serum-texture, no white cast, for acne-prone
+    skin'
 - name: Beauty of Joseon Aqua Fresh Sunscreen
   type: product
   priority: 5
   status: done
   discovered_from: scott-walter
-  source: 'Dr. Scott Walter (transcript-verified): newer lighter BoJ sunscreen; his
-    corneometer test 38 vs 46 for original Relief Sun'
+  source: 'Dr. Scott Walter (transcript-verified): newer lighter BoJ sunscreen; his corneometer test 38 vs 46 for original
+    Relief Sun'
 - name: Biodance Bio-Collagen Real Deep Mask
   type: product
   priority: 5
   status: done
   discovered_from: scott-walter
-  source: 'Dr. Scott Walter (transcript-verified): overnight hydrogel mask; his test
-    hydration 12% to 42%'
+  source: 'Dr. Scott Walter (transcript-verified): overnight hydrogel mask; his test hydration 12% to 42%'
 - name: SVR Melan 130 Tinted Sunscreen
   type: product
   priority: 2
   status: done
   discovered_from: davin-lim
-  source: 'DEFER 2026-08-20: identity unverifiable. Davin-Lim-transcript provenance
-    is real (a tinted mineral SPF w/ iron oxides for melasma) but SVRs actual pigmentation
-    line is CLAIRIAL (SPF50+), and SPF 130 is impossible under standard labeling,
-    so Melan 130 is a garbled/mis-transcribed name. Resolve the exact SVR SKU (likely
-    Clairial tinted SPF50+) from a first-party source when web-search is available;
-    do not draft from the current name.'
+  source: 'DEFER 2026-08-20: identity unverifiable. Davin-Lim-transcript provenance is real (a tinted mineral SPF w/ iron
+    oxides for melasma) but SVRs actual pigmentation line is CLAIRIAL (SPF50+), and SPF 130 is impossible under standard labeling,
+    so Melan 130 is a garbled/mis-transcribed name. Resolve the exact SVR SKU (likely Clairial tinted SPF50+) from a first-party
+    source when web-search is available; do not draft from the current name.'
 - name: Paula's Choice Pro-Collagen Peptide Plumping Moisturizer
   type: product
   priority: 5
   status: done
   discovered_from: shereene-idriss
-  source: 'Dr. Shereene Idriss peptides video (transcript-verified): oligopeptide-1
-    source'
+  source: 'Dr. Shereene Idriss peptides video (transcript-verified): oligopeptide-1 source'
 - name: Murad Dark Spot Correcting Serum
   type: product
   priority: 5
   status: done
   discovered_from: shereene-idriss
-  source: 'Dr. Shereene Idriss peptides video (transcript-verified): hexapeptide-2
-    for melanin regulation'
+  source: 'Dr. Shereene Idriss peptides video (transcript-verified): hexapeptide-2 for melanin regulation'
 - name: A313 Vitamin A Pommade
   type: product
   priority: 5
   status: done
   discovered_from: shereene-idriss
-  source: 'Dr. Shereene Idriss (transcript-verified): French pharmacy retinol/retinyl-ester
-    cult product'
+  source: 'Dr. Shereene Idriss (transcript-verified): French pharmacy retinol/retinyl-ester cult product'
 - name: Skin1004 Madagascar Centella Hyalu-Cica Water-Fit Sun Serum
   type: product
   priority: 5
   status: done
   discovered_from: scott-walter
-  source: Dr. Scott Walter daily-routine sunscreen (transcript-verified); distinct
-    from the Air-Fit sunscreen already on the site
+  source: Dr. Scott Walter daily-routine sunscreen (transcript-verified); distinct from the Air-Fit sunscreen already on the
+    site
 - name: Haruharu Wonder Black Rice Hyaluronic Toner
   type: product
   priority: 5
   status: done
   discovered_from: scott-walter
-  source: 'Dr. Scott Walter morning glass-skin routine (transcript-verified): HA toner
-    step'
+  source: 'Dr. Scott Walter morning glass-skin routine (transcript-verified): HA toner step'
 - name: Allies of Skin Peptides and Antioxidants Firming Daily Treatment
   type: product
   priority: 5
   status: done
   discovered_from: shereene-idriss
-  source: 'Dr. Shereene Idriss peptides video (transcript-verified): acetyl tetrapeptide-40
-    source for barrier/calming'
+  source: 'Dr. Shereene Idriss peptides video (transcript-verified): acetyl tetrapeptide-40 source for barrier/calming'
 - name: Epiduo Forte (adapalene 0.3% / benzoyl peroxide 2.5%)
   type: product
   priority: 5
   status: done
   discovered_from: user-request
-  source: User request; distinct stronger SKU from the published Epiduo 0.1%/2.5%
-    (adapalene 0.3% / benzoyl peroxide 2.5%, prescription)
+  source: User request; distinct stronger SKU from the published Epiduo 0.1%/2.5% (adapalene 0.3% / benzoyl peroxide 2.5%,
+    prescription)
 - name: AESTURA Derma UV365 Barrier Hydro Mineral Sunscreen
   type: product
   priority: 5
   status: done
   discovered_from: scott-walter
-  source: 'Dr. Scott Walter routine (transcript-verified): AESTURA mineral sunscreen,
-    ''the CeraVe of Korea'''
+  source: 'Dr. Scott Walter routine (transcript-verified): AESTURA mineral sunscreen, ''the CeraVe of Korea'''
 - name: NIOD Multi-Molecular Hyaluronic Complex
   type: product
   priority: 5
   status: done
   discovered_from: shereene-idriss
-  source: 'Dr. Shereene Idriss (transcript-verified): NIOD neck serum, five-peptide
-    9% blend'
+  source: 'Dr. Shereene Idriss (transcript-verified): NIOD neck serum, five-peptide 9% blend'
 - name: Medik8 Crystal Retinal 10
   type: product
   priority: 5
   status: done
   discovered_from: catalog-gap
-  source: Higher-strength Medik8 retinaldehyde (10) vs the Crystal Retinal 3 already
-    on the site; extends the retinal potency coverage
+  source: Higher-strength Medik8 retinaldehyde (10) vs the Crystal Retinal 3 already on the site; extends the retinal potency
+    coverage
 - name: La Roche-Posay Anthelios Mineral Tinted SPF 50 (iron oxides)
   type: product
   priority: 5
   status: done
   discovered_from: melasma
-  source: Tinted mineral sunscreen with iron oxides for visible-light protection,
-    the foundational melasma intervention
+  source: Tinted mineral sunscreen with iron oxides for visible-light protection, the foundational melasma intervention
 - name: SkinCeuticals Discoloration Defense
   type: product
   priority: 5
   status: done
   discovered_from: melasma
-  source: Popular tranexamic-acid + kojic-acid + niacinamide serum marketed for stubborn
-    discoloration/melasma
+  source: Popular tranexamic-acid + kojic-acid + niacinamide serum marketed for stubborn discoloration/melasma
 - name: The Ordinary Alpha Arbutin 2% + HA
   type: product
   priority: 5
   status: done
   discovered_from: brightening
-  source: Popular affordable alpha-arbutin brightening serum; anchors the brightening
-    goal catalog
+  source: Popular affordable alpha-arbutin brightening serum; anchors the brightening goal catalog
 - name: Naturium Alpha Arbutin Serum 2%
   type: product
   priority: 5
   status: done
   discovered_from: brightening
-  source: Affordable alpha-arbutin brightening serum; anchors the brightening tier
-    list alongside The Ordinary Alpha Arbutin
+  source: Affordable alpha-arbutin brightening serum; anchors the brightening tier list alongside The Ordinary Alpha Arbutin
 - name: The Inkey List Tranexamic Acid Night Treatment
   type: product
   priority: 5
   status: done
   discovered_from: brightening
-  source: Affordable tranexamic-acid brightening product; TXA is a strong-tier melasma/brightening
-    active
+  source: Affordable tranexamic-acid brightening product; TXA is a strong-tier melasma/brightening active
 - name: Aklief (trifarotene 0.005% cream)
   type: product
   priority: 5
   status: done
   discovered_from: retinoid-cluster
-  source: Newer 4th-gen selective retinoid (trifarotene), FDA-approved for facial
-    and truncal acne with pivotal RCTs
+  source: Newer 4th-gen selective retinoid (trifarotene), FDA-approved for facial and truncal acne with pivotal RCTs
 - name: Twyneo (tretinoin 0.1% / benzoyl peroxide 3% cream)
   type: product
   priority: 5
   status: done
   discovered_from: retinoid-cluster
-  source: 'Twyneo (tretinoin 0.1% + benzoyl peroxide 3%): first FDA-approved fixed-combo
-    of tretinoin+BPO via silica microencapsulation; pivotal acne RCTs'
+  source: 'Twyneo (tretinoin 0.1% + benzoyl peroxide 3%): first FDA-approved fixed-combo of tretinoin+BPO via silica microencapsulation;
+    pivotal acne RCTs'
 - name: The Ordinary Ascorbyl Glucoside Solution 12%
   type: product
   priority: 5
   status: done
   discovered_from: vitamin-c-forms
-  source: Affordable ascorbyl-glucoside (vitamin C derivative) serum; ties the vitamin-c-forms
-    ladder to a real buyable product
+  source: Affordable ascorbyl-glucoside (vitamin C derivative) serum; ties the vitamin-c-forms ladder to a real buyable product
 - name: Isdin Melatonik Night Serum
   type: product
   priority: 5
   status: done
   discovered_from: pigment-cluster
-  source: Popular melatonin + bakuchiol + vitamin C antioxidant night serum marketed
-    for tone/repair; fits the brightening cluster
+  source: Popular melatonin + bakuchiol + vitamin C antioxidant night serum marketed for tone/repair; fits the brightening
+    cluster
 - name: ISDIN Eryfotona Ageless Tinted Mineral Sunscreen SPF 50
   type: product
   priority: 5
   status: done
   discovered_from: davin-lim
-  source: Dr Davin Lim / The Melasma Clinic focus; a real tinted mineral SPF for melasma
-    visible-light protection
+  source: Dr Davin Lim / The Melasma Clinic focus; a real tinted mineral SPF for melasma visible-light protection
 - name: Paula's Choice Skin Perfecting 8% AHA Gel
   type: product
   priority: 5
   status: done
   discovered_from: exfoliating-acids
-  source: Glycolic-acid AHA exfoliant (8% glycolic); anchors the strongest-AHA rung
-    with a product
+  source: Glycolic-acid AHA exfoliant (8% glycolic); anchors the strongest-AHA rung with a product
 - name: Winlevi (clascoterone 1% cream)
   type: product
   priority: 5
   status: done
   discovered_from: clascoterone
-  source: The FDA-approved clascoterone product (first topical anti-androgen for acne);
-    product-specific pivotal RCTs (Hebert 2020)
+  source: The FDA-approved clascoterone product (first topical anti-androgen for acne); product-specific pivotal RCTs (Hebert
+    2020)
 - name: Black Girl Sunscreen Make It Matte SPF 45
   type: product
   priority: 5
   status: done
   discovered_from: black-girl-sunscreen
-  source: The matte/higher-SPF variant of Black Girl Sunscreen; complements the flagship
-    SPF 30
+  source: The matte/higher-SPF variant of Black Girl Sunscreen; complements the flagship SPF 30
 - name: Supergoop Glowscreen SPF 40
   type: product
   priority: 5
   status: done
   discovered_from: sunscreen-cluster
-  source: Popular tinted-glow daily chemical sunscreen; widely recommended, extends
-    daily-SPF coverage
+  source: Popular tinted-glow daily chemical sunscreen; widely recommended, extends daily-SPF coverage
 - name: Cyspera Boost Intensive System
   type: product
   priority: 2
   status: done
   discovered_from: cysteamine
-  source: 'DEFER 2026-08-20: a bundle/kit ("System") that does not fit the single-product
-    grading model well, and the evidence-interesting cysteamine active is already
-    covered by the on-site cyspera-intensive-cysteamine-cream product. Low incremental
-    value; deprioritized rather than drafting a bundle page.'
+  source: 'DEFER 2026-08-20: a bundle/kit ("System") that does not fit the single-product grading model well, and the evidence-interesting
+    cysteamine active is already covered by the on-site cyspera-intensive-cysteamine-cream product. Low incremental value;
+    deprioritized rather than drafting a bundle page.'
 - name: AmLactin Daily Moisturizing Body Lotion (12% lactic acid)
   type: product
   priority: 5
   status: done
   discovered_from: keratosis-pilaris
-  source: The classic ammonium-lactate KP body treatment; anchors the lactic-acid
-    rung
+  source: The classic ammonium-lactate KP body treatment; anchors the lactic-acid rung
 - name: CeraVe SA Smoothing Cream (salicylic acid)
   type: product
   priority: 5
   status: done
   discovered_from: keratosis-pilaris
-  source: Popular salicylic-acid + urea body cream widely recommended for KP/rough
-    bumpy skin
+  source: Popular salicylic-acid + urea body cream widely recommended for KP/rough bumpy skin
 - name: Gold Bond Rough & Bumpy Daily Skin Therapy
   type: product
   priority: 3
   status: done
   discovered_from: keratosis-pilaris
-  source: Body lotion marketed specifically for KP/rough-bumpy skin; 7% AHA (lactic/salicylic)
-    + urea. Fills a concrete concern->product gap on the new keratosis-pilaris page.
-    https://www.goldbond.com/products/rough-bumpy-skin-daily-skin-therapy-cream
+  source: Body lotion marketed specifically for KP/rough-bumpy skin; 7% AHA (lactic/salicylic) + urea. Fills a concrete concern->product
+    gap on the new keratosis-pilaris page. https://www.goldbond.com/products/rough-bumpy-skin-daily-skin-therapy-cream
 - name: Eucerin Roughness Relief Lotion
   type: product
   priority: 4
   status: done
   discovered_from: keratosis-pilaris
-  source: 10% urea + additional humectant lotion marketed for rough, bumpy, KP-prone
-    skin; complements the graded urea/lactic evidence on keratosis-pilaris. https://www.eucerinus.com/products/roughness-relief
+  source: 10% urea + additional humectant lotion marketed for rough, bumpy, KP-prone skin; complements the graded urea/lactic
+    evidence on keratosis-pilaris. https://www.eucerinus.com/products/roughness-relief
 - name: CeraVe SA Body Lotion for Rough & Bumpy Skin
   type: product
   priority: 3
   status: done
   discovered_from: gold-bond-rough-and-bumpy-daily-skin-therapy
-  source: Salicylic acid + ammonium lactate (LHA) + ceramides body lotion marketed
-    for rough, bumpy, KP-prone skin; a direct comparator to the Gold Bond cream and
-    a second concern->product option for keratosis-pilaris. https://www.cerave.com/skincare/moisturizers/sa-body-lotion-for-rough-and-bumpy-skin
+  source: Salicylic acid + ammonium lactate (LHA) + ceramides body lotion marketed for rough, bumpy, KP-prone skin; a direct
+    comparator to the Gold Bond cream and a second concern->product option for keratosis-pilaris. https://www.cerave.com/skincare/moisturizers/sa-body-lotion-for-rough-and-bumpy-skin
 - name: Naturium BHA Liquid Exfoliant 2%
   type: product
   priority: 4
   status: done
   discovered_from: cerave-sa-body-lotion-for-rough-and-bumpy-skin
-  source: A 2% salicylic acid (BHA) leave-on liquid exfoliant; a face-focused counterpart
-    to the body exfoliants, extends salicylic-acid product coverage. https://www.naturium.com/products/bha-liquid-exfoliant-2
+  source: A 2% salicylic acid (BHA) leave-on liquid exfoliant; a face-focused counterpart to the body exfoliants, extends
+    salicylic-acid product coverage. https://www.naturium.com/products/bha-liquid-exfoliant-2
 - name: Paula's Choice Weightless Body Treatment 2% BHA
   type: product
   priority: 4
   status: done
   discovered_from: keratosis-pilaris
-  source: A 2% salicylic acid body exfoliant widely recommended for KP/body acne;
-    a disclosed-concentration comparator to the Gold Bond/CeraVe SA body lotions.
-    https://www.paulaschoice.com/weightless-body-treatment-2pct-bha/2010.html
+  source: A 2% salicylic acid body exfoliant widely recommended for KP/body acne; a disclosed-concentration comparator to
+    the Gold Bond/CeraVe SA body lotions. https://www.paulaschoice.com/weightless-body-treatment-2pct-bha/2010.html
 - name: CeraVe Acne Control Gel (2% salicylic acid)
   type: product
   priority: 4
   status: done
   discovered_from: cerave-sa-body-lotion-for-rough-and-bumpy-skin
-  source: A 2% salicylic acid + AHA acne treatment gel with a disclosed OTC concentration;
-    a Drug-Facts comparator to the no-%-disclosed cosmetic exfoliants, and extends
-    salicylic-acid product coverage on [[acne]]. https://www.cerave.com/skincare/treatments/acne-control-gel
+  source: A 2% salicylic acid + AHA acne treatment gel with a disclosed OTC concentration; a Drug-Facts comparator to the
+    no-%-disclosed cosmetic exfoliants, and extends salicylic-acid product coverage on [[acne]]. https://www.cerave.com/skincare/treatments/acne-control-gel
 - name: La Roche-Posay Lipikar Balm AP+M
   type: product
   priority: 4
   status: done
   discovered_from: eucerin-roughness-relief-lotion
-  source: A ceramide + shea + niacinamide body balm for very dry/eczema-prone skin;
-    a barrier-repair (non-exfoliant) counterpart to the urea/acid body lotions, extends
-    [[ceramides]] and [[moisturizing]] product coverage. https://www.laroche-posay.us/our-products/body/body-moisturizer/lipikar-balm-ap-intense-repair-body-cream
+  source: A ceramide + shea + niacinamide body balm for very dry/eczema-prone skin; a barrier-repair (non-exfoliant) counterpart
+    to the urea/acid body lotions, extends [[ceramides]] and [[moisturizing]] product coverage. https://www.laroche-posay.us/our-products/body/body-moisturizer/lipikar-balm-ap-intense-repair-body-cream
 - name: Vichy Mineral 89 Hyaluronic Acid Face Serum
   type: product
   priority: 4
   status: done
   discovered_from: null
-  source: A widely sold hyaluronic acid + Vichy volcanic mineralizing water hydrating
-    serum; extends [[hyaluronic-acid]] product coverage and the [[moisturizing]]/[[glass-skin]]
-    hubs. https://www.vichyusa.com/skin-care/face-serum/mineral-89-hyaluronic-acid-face-moisturizer/VIC3337875543236.html
+  source: A widely sold hyaluronic acid + Vichy volcanic mineralizing water hydrating serum; extends [[hyaluronic-acid]] product
+    coverage and the [[moisturizing]]/[[glass-skin]] hubs. https://www.vichyusa.com/skin-care/face-serum/mineral-89-hyaluronic-acid-face-moisturizer/VIC3337875543236.html
 - name: Bioderma Sensibio H2O Micellar Water
   type: product
   priority: 4
   status: done
   discovered_from: null
-  source: A very widely used no-rinse micellar cleansing water for sensitive skin;
-    a gentle-cleanser catalog gap, relevant to sensitive-skin routines and [[skin-barrier-repair]].
-    https://www.bioderma.us/our-products/sensibio/sensibio-h2o
+  source: A very widely used no-rinse micellar cleansing water for sensitive skin; a gentle-cleanser catalog gap, relevant
+    to sensitive-skin routines and [[skin-barrier-repair]]. https://www.bioderma.us/our-products/sensibio/sensibio-h2o
 - name: Beauty of Joseon Aqua Fresh Sun Serum SPF50+
   type: product
   priority: 4
   status: done
   discovered_from: scott-walter
-  source: Newer lighter/acne-friendly BoJ sunscreen (no niacinamide; glycerin, ceramides,
-    HA, rice seed water, oat, vitamin E); a sibling to the already-profiled Relief
-    Sun, praised in Dr Scott Walter's top-5 Korean sunscreens video. https://beautyofjoseon.com/products/aqua-fresh-sun-serum
+  source: Newer lighter/acne-friendly BoJ sunscreen (no niacinamide; glycerin, ceramides, HA, rice seed water, oat, vitamin
+    E); a sibling to the already-profiled Relief Sun, praised in Dr Scott Walter's top-5 Korean sunscreens video. https://beautyofjoseon.com/products/aqua-fresh-sun-serum
 - name: Aestura Derma UV365 Barrier Hydro Mineral Sunscreen
   type: product
   priority: 5
   status: done
   discovered_from: scott-walter
-  source: A zinc-oxide mineral sunscreen for sensitive/irritation-prone skin from
-    Aestura (the site already profiles several Aestura Atobarrier products); featured
-    in Dr Scott Walter's top-5 Korean sunscreens video. https://www.aestura.com
+  source: A zinc-oxide mineral sunscreen for sensitive/irritation-prone skin from Aestura (the site already profiles several
+    Aestura Atobarrier products); featured in Dr Scott Walter's top-5 Korean sunscreens video. https://www.aestura.com
 - name: Naturium Multi-Peptide Advanced Moisturizer
   type: product
   priority: 5
   status: done
   discovered_from: best-peptide-serums
-  source: A multi-peptide + niacinamide moisturizer; extends peptide-product coverage
-    and the best-peptide-serums list. https://www.naturium.com/products/multi-peptide-advanced-moisturizer
+  source: A multi-peptide + niacinamide moisturizer; extends peptide-product coverage and the best-peptide-serums list. https://www.naturium.com/products/multi-peptide-advanced-moisturizer
 - name: Naturium PHA Bionic Acid Toner
   type: product
   priority: 5
   status: done
   discovered_from: lactobionic-acid
-  source: A PHA/bionic-acid (gluconolactone + lactobionic) toner - would surface on
-    the exfoliating-acids ladder under the gentle PHA rungs and give lactobionic/gluconolactone
-    a product to link to. https://www.naturium.com
+  source: A PHA/bionic-acid (gluconolactone + lactobionic) toner - would surface on the exfoliating-acids ladder under the
+    gentle PHA rungs and give lactobionic/gluconolactone a product to link to. https://www.naturium.com
 - name: NeoStrata Bionic Face Cream (lactobionic acid)
   type: product
   priority: 5
   status: done
   discovered_from: lactobionic-acid
-  source: NeoStrata's own lactobionic-acid PHA cream (the brand behind much of the
-    PHA literature); a disclosed-PHA product for the gentlest ladder rung. Attribute
-    NeoStrata's efficacy claims as the brand's own. https://www.neostrata.com
+  source: NeoStrata's own lactobionic-acid PHA cream (the brand behind much of the PHA literature); a disclosed-PHA product
+    for the gentlest ladder rung. Attribute NeoStrata's efficacy claims as the brand's own. https://www.neostrata.com
 - name: Vichy Mineral 89 (resolve two-formula identity first)
   type: product
   priority: 2
   status: done
   discovered_from: null
-  source: 'BLOCKED 2026-08-12: two formulas share the name. Vichy''s own US page now
-    sells a REFORMULATED ''Hydrating & Plumping Daily Booster'' (HA + polyglutamic
-    acid + volcanic water; 325-derm testing, 93%/19% figures, 30/50/75ml). The classic
-    ''89% Mineralizing Water + HA'' 11-ingredient SKU is only documentable via a third-party
-    Walmart MARKETPLACE ''Imperfect Box'' listing (unreliable price/source). TO DO:
-    pick ONE identity - prefer the CURRENT product from vichyusa.com (cached) - and
-    get a real price from a first-party retailer (Sephora/Ulta/Target were blocked
-    this session; web-search budget was exhausted). Needs polyglutamic-acid ingredient
-    page for the reformulated version.'
+  source: 'BLOCKED 2026-08-12: two formulas share the name. Vichy''s own US page now sells a REFORMULATED ''Hydrating & Plumping
+    Daily Booster'' (HA + polyglutamic acid + volcanic water; 325-derm testing, 93%/19% figures, 30/50/75ml). The classic
+    ''89% Mineralizing Water + HA'' 11-ingredient SKU is only documentable via a third-party Walmart MARKETPLACE ''Imperfect
+    Box'' listing (unreliable price/source). TO DO: pick ONE identity - prefer the CURRENT product from vichyusa.com (cached)
+    - and get a real price from a first-party retailer (Sephora/Ulta/Target were blocked this session; web-search budget was
+    exhausted). Needs polyglutamic-acid ingredient page for the reformulated version.'
 - name: La Roche-Posay Hyalu B5 Hyaluronic Acid Serum
   type: product
   priority: 4
   status: done
   discovered_from: null
-  source: A well-documented, first-party-sourceable HA + vitamin B5 hydrating serum
-    (LRP publishes clean INCI + the site already profiles several LRP products); a
-    cleanly-sourceable HA-serum alternative to the blocked Vichy Mineral 89, for the
-    hyaluronic-acid + moisturizing hubs. https://www.laroche-posay.us
+  source: A well-documented, first-party-sourceable HA + vitamin B5 hydrating serum (LRP publishes clean INCI + the site already
+    profiles several LRP products); a cleanly-sourceable HA-serum alternative to the blocked Vichy Mineral 89, for the hyaluronic-acid
+    + moisturizing hubs. https://www.laroche-posay.us
 - name: Gold Bond Healing Hand Cream
   type: product
   priority: 2
   status: done
   discovered_from: gold-bond
-  source: Another Gold Bond body-care SKU to grow the brand roll-up; verify composition
-    on goldbond.com. Lower priority - the brand's KP/exfoliant cream is the evidence-interesting
-    one already shipped.
+  source: Another Gold Bond body-care SKU to grow the brand roll-up; verify composition on goldbond.com. Lower priority -
+    the brand's KP/exfoliant cream is the evidence-interesting one already shipped.
 - name: CeraVe Daily Moisturizing Lotion
   type: product
   priority: 4
   status: done
   discovered_from: null
-  source: CeraVe's flagship everyday lightweight body/face lotion (ceramides + hyaluronic
-    acid + MVE); a core-catalog barrier/hydration staple for the moisturizing + skin-barrier-repair
-    hubs, cleanly sourceable on cerave.com. https://www.cerave.com/skincare/moisturizers/daily-moisturizing-lotion
+  source: CeraVe's flagship everyday lightweight body/face lotion (ceramides + hyaluronic acid + MVE); a core-catalog barrier/hydration
+    staple for the moisturizing + skin-barrier-repair hubs, cleanly sourceable on cerave.com. https://www.cerave.com/skincare/moisturizers/daily-moisturizing-lotion
 - name: Vanicream Daily Facial Moisturizer
   type: product
   priority: 4
   status: done
   discovered_from: null
-  source: A bland, fragrance/dye/paraben-free facial moisturizer widely recommended
-    for sensitive/reactive skin; fits the 'simplify skincare' step for perioral dermatitis
-    and the skin-barrier-repair hub. Complements the existing vanicream-moisturizing-cream
+  source: A bland, fragrance/dye/paraben-free facial moisturizer widely recommended for sensitive/reactive skin; fits the
+    'simplify skincare' step for perioral dermatitis and the skin-barrier-repair hub. Complements the existing vanicream-moisturizing-cream
     / vanicream-facial-moisturizer-spf-30. https://www.vanicream.com
 - name: SKIN1004 Madagascar Centella Hyalu-Cica Water-Fit Sun Serum SPF50+
   type: product
   priority: 5
   status: done
   discovered_from: beauty-of-joseon-aqua-fresh-sun-serum
-  source: Another modern-filter Korean chemical sunscreen serum (centella + HA), named
-    in Dr Scott Walter's top-5 Korean sunscreens video; extends the [[sunscreen-uv-filters]]
-    catalog alongside the BoJ Relief Sun/Aqua-fresh and Round Lab entries. Sourceable
+  source: Another modern-filter Korean chemical sunscreen serum (centella + HA), named in Dr Scott Walter's top-5 Korean sunscreens
+    video; extends the [[sunscreen-uv-filters]] catalog alongside the BoJ Relief Sun/Aqua-fresh and Round Lab entries. Sourceable
     via Stylevana/YesStyle (proven reliable). https://skin1004.com
 - name: Aveeno Daily Moisturizing Lotion
   type: product
   priority: 4
   status: done
   discovered_from: null
-  source: Colloidal-oatmeal + dimethicone drugstore body/face moisturizer staple (NEA-accepted);
-    a core-catalog moisturizing/barrier entry, cleanly sourceable on aveeno.com +
-    Target; complements [[colloidal-oatmeal]] and the moisturizing hub. https://www.aveeno.com/products/aveeno-daily-moisturizing-lotion
+  source: Colloidal-oatmeal + dimethicone drugstore body/face moisturizer staple (NEA-accepted); a core-catalog moisturizing/barrier
+    entry, cleanly sourceable on aveeno.com + Target; complements [[colloidal-oatmeal]] and the moisturizing hub. https://www.aveeno.com/products/aveeno-daily-moisturizing-lotion
 - name: Cetaphil Daily Facial Moisturizer SPF 15
   type: product
   priority: 5
   status: done
   discovered_from: null
-  source: A lightweight daily facial moisturizer with SPF; extends the moisturizing
-    + sunscreen coverage and the Cetaphil range already on the site. Cleanly sourceable
-    on cetaphil.com + Target. https://www.cetaphil.com
+  source: A lightweight daily facial moisturizer with SPF; extends the moisturizing + sunscreen coverage and the Cetaphil
+    range already on the site. Cleanly sourceable on cetaphil.com + Target. https://www.cetaphil.com
 - name: The Ordinary Mandelic Acid 10% + HA
   type: product
   priority: 4
   status: done
   discovered_from: mandelic-acid
-  source: A leave-on 10% mandelic acid + HA exfoliating serum, the most common OTC
-    mandelic product; would surface on the mandelic-acid page + exfoliating-acids
-    ladder concern feed. Cleanly sourceable on theordinary.com/Ulta. https://theordinary.com
+  source: A leave-on 10% mandelic acid + HA exfoliating serum, the most common OTC mandelic product; would surface on the
+    mandelic-acid page + exfoliating-acids ladder concern feed. Cleanly sourceable on theordinary.com/Ulta. https://theordinary.com
 - name: Naturium Mandelic Topical Acid 12%
   type: product
   priority: 5
   status: done
   discovered_from: mandelic-acid
-  source: A 12% mandelic acid exfoliating serum; a second mandelic OTC option for
-    the acids ladder/dark-mark use. https://www.naturium.com
+  source: A 12% mandelic acid exfoliating serum; a second mandelic OTC option for the acids ladder/dark-mark use. https://www.naturium.com
 - name: Nizoral Anti-Dandruff Shampoo (ketoconazole 1%)
   type: product
   priority: 5
   status: done
   discovered_from: fungal-acne
-  source: OTC ketoconazole shampoo widely used off-label as a body wash for fungal
-    acne/Malassezia; a real product for the fungal-acne hub once ketoconazole has
-    a page. https://www.nizoral.com
+  source: OTC ketoconazole shampoo widely used off-label as a body wash for fungal acne/Malassezia; a real product for the
+    fungal-acne hub once ketoconazole has a page. https://www.nizoral.com
 - name: Selsun Blue Medicated Anti-Dandruff Shampoo (selenium sulfide 1%)
   type: product
   priority: 5
   status: done
   discovered_from: fungal-acne
-  source: An OTC selenium sulfide 1% wash widely used off-label as a body/face wash
-    for fungal acne (Malassezia); a real product for the [[fungal-acne]] hub once
-    selenium sulfide has a page. https://www.selsunblue.com
+  source: An OTC selenium sulfide 1% wash widely used off-label as a body/face wash for fungal acne (Malassezia); a real product
+    for the [[fungal-acne]] hub once selenium sulfide has a page. https://www.selsunblue.com
 - name: PanOxyl 4% Acne Creamy Wash (benzoyl peroxide)
   type: product
   priority: 5
   status: done
   discovered_from: fungal-acne
-  source: A gentler 4% benzoyl peroxide wash (vs the existing PanOxyl 10% foaming
-    wash); BPO is the one OTC active with in-vitro anti-Malassezia evidence on [[fungal-acne]],
-    and a wash format is the common way it's used on the body. Verify vs existing
+  source: A gentler 4% benzoyl peroxide wash (vs the existing PanOxyl 10% foaming wash); BPO is the one OTC active with in-vitro
+    anti-Malassezia evidence on [[fungal-acne]], and a wash format is the common way it's used on the body. Verify vs existing
     panoxyl page at draft time. https://www.panoxyl.com
 - name: La Roche-Posay Lipikar Syndet AP+ Body Wash
   type: product
   priority: 5
   status: done
   discovered_from: la-roche-posay-lipikar-balm-ap-m
-  source: The companion gentle cleanser to the Lipikar Balm (the -41% itch clinical
-    claim was for the two used together); a fragrance-free eczema-prone body wash.
-    Sourceable via LRP-ME/Target. https://www.laroche-posay-me.com
+  source: The companion gentle cleanser to the Lipikar Balm (the -41% itch clinical claim was for the two used together);
+    a fragrance-free eczema-prone body wash. Sourceable via LRP-ME/Target. https://www.laroche-posay-me.com
 - name: Aveeno Skin Relief Moisturizing Lotion (colloidal oatmeal, fragrance-free)
   type: product
   priority: 5
   status: done
   discovered_from: null
-  source: A richer Aveeno oat lotion for very dry/itchy skin (Skin Relief line); some
-    Aveeno SKUs DO carry a Drug Facts dimethicone skin-protectant panel - verify whether
-    this one does. Extends [[colloidal-oatmeal]] coverage. https://www.aveeno.com
+  source: A richer Aveeno oat lotion for very dry/itchy skin (Skin Relief line); some Aveeno SKUs DO carry a Drug Facts dimethicone
+    skin-protectant panel - verify whether this one does. Extends [[colloidal-oatmeal]] coverage. https://www.aveeno.com
 - name: Aveeno Eczema Therapy Daily Moisturizing Cream (colloidal oatmeal 1%)
   type: product
   priority: 4
   status: done
   discovered_from: null
-  source: The eczema-indicated Aveeno cream with colloidal oatmeal 1% as a DECLARED
-    Drug Facts skin-protectant active - the disclosed-% monograph-active contrast
-    to this cosmetic lotion; NEA-accepted. Sourceable aveeno.com + Target. https://www.aveeno.com
+  source: The eczema-indicated Aveeno cream with colloidal oatmeal 1% as a DECLARED Drug Facts skin-protectant active - the
+    disclosed-% monograph-active contrast to this cosmetic lotion; NEA-accepted. Sourceable aveeno.com + Target. https://www.aveeno.com
 - name: Aveeno Eczema Therapy Itch Relief Balm (colloidal oatmeal 1%)
   type: product
   priority: 5
   status: done
   discovered_from: aveeno-eczema-therapy-daily-moisturizing-cream
-  source: The intensive balm in Aveeno's Eczema Therapy line, colloidal oatmeal 1%
-    Drug Facts skin-protectant active; extends the [[colloidal-oatmeal]] + [[atopic-dermatitis]]
-    coverage. Sourceable aveeno.com + Target. https://www.aveeno.com
+  source: The intensive balm in Aveeno's Eczema Therapy line, colloidal oatmeal 1% Drug Facts skin-protectant active; extends
+    the [[colloidal-oatmeal]] + [[atopic-dermatitis]] coverage. Sourceable aveeno.com + Target. https://www.aveeno.com
 - name: Eucerin Eczema Relief Cream (colloidal oatmeal 1%)
   type: product
   priority: 4
   status: done
   discovered_from: null
-  source: OTC eczema cream with colloidal oatmeal 1% as a declared Drug Facts skin-protectant
-    active (like the Aveeno Eczema Therapy cream); a disclosed-active competitor for
-    the [[colloidal-oatmeal]] + atopic-dermatitis coverage. Sourceable eucerinus.com/Target.
+  source: OTC eczema cream with colloidal oatmeal 1% as a declared Drug Facts skin-protectant active (like the Aveeno Eczema
+    Therapy cream); a disclosed-active competitor for the [[colloidal-oatmeal]] + atopic-dermatitis coverage. Sourceable eucerinus.com/Target.
     https://www.eucerinus.com
 - name: CeraVe Itch Relief Moisturizing Lotion (pramoxine 1%)
   type: product
   priority: 4
   status: done
   discovered_from: null
-  source: OTC anti-itch lotion with pramoxine hydrochloride 1% as a Drug Facts external
-    analgesic active + ceramides; a distinct itch-relief mechanism for atopic-dermatitis/eczema
-    coverage. Would need a pramoxine ingredient page (queue separately). Sourceable
-    cerave.com/Target. https://www.cerave.com
+  source: OTC anti-itch lotion with pramoxine hydrochloride 1% as a Drug Facts external analgesic active + ceramides; a distinct
+    itch-relief mechanism for atopic-dermatitis/eczema coverage. Would need a pramoxine ingredient page (queue separately).
+    Sourceable cerave.com/Target. https://www.cerave.com
 - name: Kiehl's Ultra Facial Cream
   type: product
   priority: 5
   status: done
-  discovered_from: 'PERSON-cron catalog gap-fill: high-popularity barrier moisturizer
-    not yet on site'
+  discovered_from: 'PERSON-cron catalog gap-fill: high-popularity barrier moisturizer not yet on site'
   source: https://www.kiehls.com/skincare/face-moisturizers/ultra-facial-cream/622.html
 - name: Topicals Faded Serum for Dark Spots & Discoloration
   type: product
   priority: 5
   status: done
-  discovered_from: 'PERSON-cron catalog gap-fill: popular hyperpigmentation serum
-    (azelaic/kojic/tranexamic/niacinamide); ties to melasma/hyperpigmentation hubs'
+  discovered_from: 'PERSON-cron catalog gap-fill: popular hyperpigmentation serum (azelaic/kojic/tranexamic/niacinamide);
+    ties to melasma/hyperpigmentation hubs'
   source: https://mytopicals.com/products/faded-serum-for-dark-spots-discoloration
 - name: Byoma Moisturizing Rich Cream
   type: product
   priority: 5
   status: done
-  discovered_from: 'PERSON-cron catalog gap-fill: trending barrier-repair (ceramide)
-    moisturizer, ties to skin-barrier-repair goal'
+  discovered_from: 'PERSON-cron catalog gap-fill: trending barrier-repair (ceramide) moisturizer, ties to skin-barrier-repair
+    goal'
   source: https://byoma.com/products/moisturizing-rich-cream
 - name: Glow Recipe Watermelon Glow Niacinamide Dew Drops
   type: product
   priority: 5
   status: done
-  discovered_from: 'PERSON-cron catalog gap-fill: popular niacinamide illuminating
-    serum'
+  discovered_from: 'PERSON-cron catalog gap-fill: popular niacinamide illuminating serum'
   source: https://www.glowrecipe.com/products/watermelon-glow-niacinamide-dew-drops
 - name: Aquaphor Healing Ointment
   type: product
   priority: 5
   status: done
-  discovered_from: 'LIST cron (best-ceramide-moisturizers): iconic petrolatum occlusive
-    / barrier-repair benchmark, absent from site+queue'
+  discovered_from: 'LIST cron (best-ceramide-moisturizers): iconic petrolatum occlusive / barrier-repair benchmark, absent
+    from site+queue'
   source: https://www.aquaphorus.com/products/healing-ointment
 - name: Eucerin Original Healing Cream
   type: product
   priority: 5
   status: done
-  discovered_from: 'LIST cron: derm-recommended barrier/occlusive cream, ties to skin-barrier-repair;
-    absent from site+queue'
+  discovered_from: 'LIST cron: derm-recommended barrier/occlusive cream, ties to skin-barrier-repair; absent from site+queue'
   source: https://www.eucerinus.com/products/original-healing/original-healing-rich-cream
 - name: Torriden Dive-In Low Molecular Hyaluronic Acid Cream
   type: product
   priority: 5
   status: done
-  discovered_from: 'BRAND cron (torriden): sibling cream to the profiled Dive-In serum;
-    ties to hyaluronic-acid + glass-skin'
+  discovered_from: 'BRAND cron (torriden): sibling cream to the profiled Dive-In serum; ties to hyaluronic-acid + glass-skin'
   source: https://torriden.us/products/dive-in-cream
 - name: Torriden Balanceful Cica Cream
   type: product
   priority: 5
   status: done
-  discovered_from: 'BRAND cron (torriden): centella barrier cream; ties to centella-asiatica
-    + skin-barrier-repair'
+  discovered_from: 'BRAND cron (torriden): centella barrier cream; ties to centella-asiatica + skin-barrier-repair'
   source: https://torriden.us/products/balanceful-cica-cream
 - name: Eucerin Eczema Relief Cream
   type: product
   priority: 5
   status: done
-  discovered_from: 'CONDITION cron (atopic-dermatitis): colloidal-oatmeal eczema cream
-    (NEA-accepted); ties to colloidal-oatmeal + atopic-dermatitis'
+  discovered_from: 'CONDITION cron (atopic-dermatitis): colloidal-oatmeal eczema cream (NEA-accepted); ties to colloidal-oatmeal
+    + atopic-dermatitis'
   source: https://www.eucerinus.com/products/eczema-relief/eczema-relief-cream
 - name: COSRX Advanced Snail 92 All-in-One Cream
   type: product
   priority: 5
   status: done
-  discovered_from: 'PRODUCT cron (cosrx-niacinamide-15): snail-mucin moisturizer,
-    sibling to the profiled Snail 96 essence'
+  discovered_from: 'PRODUCT cron (cosrx-niacinamide-15): snail-mucin moisturizer, sibling to the profiled Snail 96 essence'
   source: https://www.cosrx.com/products/advanced-snail-92-all-in-one-cream
 - name: Naturium Niacinamide Serum 12% Plus Zinc 2%
   type: product
   priority: 5
   status: done
-  discovered_from: 'PRODUCT cron: niacinamide comparator named on cosrx-niacinamide-15-serum;
-    ties to niacinamide'
+  discovered_from: 'PRODUCT cron: niacinamide comparator named on cosrx-niacinamide-15-serum; ties to niacinamide'
   source: https://naturium.com/products/niacinamide-serum-12-plus-zinc-2
 - name: Tower 28 SunnyDays SPF 30 Mineral Sunscreen
   type: product
   priority: 5
   status: done
-  discovered_from: 'PRODUCT cron (tower-28-sos): Tower 28 mineral (non-nano zinc)
-    sunscreen; ties to sunscreen-uv-filters + zinc-oxide'
+  discovered_from: 'PRODUCT cron (tower-28-sos): Tower 28 mineral (non-nano zinc) sunscreen; ties to sunscreen-uv-filters
+    + zinc-oxide'
   source: https://tower28beauty.com/products/sunnydays-tinted-spf-30
 - name: Tower 28 SOS Rescue Serum
   type: product
   priority: 5
   status: done
-  discovered_from: 'PRODUCT cron (tower-28-sos): hypochlorous-acid-adjacent soothing
-    serum sibling; ties to hypochlorous-acid'
+  discovered_from: 'PRODUCT cron (tower-28-sos): hypochlorous-acid-adjacent soothing serum sibling; ties to hypochlorous-acid'
   source: https://tower28beauty.com/products/sos-rescue-serum
 - name: Weleda Skin Food
   type: product
   priority: 5
   status: done
-  discovered_from: 'STUDY cron (queue empty): iconic rich emollient balm, derm-adjacent
-    cult product; ties to occlusives/skin-barrier-repair'
+  discovered_from: 'STUDY cron (queue empty): iconic rich emollient balm, derm-adjacent cult product; ties to occlusives/skin-barrier-repair'
   source: https://www.weleda.com/product/s/skin-food-original
 - name: Nivea Creme
   type: product
   priority: 5
   status: done
-  discovered_from: 'STUDY cron: iconic legacy occlusive/emollient cream (eucerit/mineral
-    oil base); barrier/moisturizing context'
+  discovered_from: 'STUDY cron: iconic legacy occlusive/emollient cream (eucerit/mineral oil base); barrier/moisturizing context'
   source: https://www.nivea.com/products/nivea-creme
 - name: La Roche-Posay Effaclar Micro-Peeling Purifying Gel Cleanser
   type: product
   priority: 5
   status: done
-  discovered_from: 'PERSON cron (queue empty): salicylic-acid gel cleanser for oily/acne
-    skin; ties to salicylic-acid + acne + oily-skin'
+  discovered_from: 'PERSON cron (queue empty): salicylic-acid gel cleanser for oily/acne skin; ties to salicylic-acid + acne
+    + oily-skin'
   source: https://www.laroche-posay.us/our-products/acne-oily-skin/acne-face-wash/effaclar-medicated-gel-cleanser
 - name: Isntree Hyaluronic Acid Toner
   type: product
   priority: 5
   status: done
-  discovered_from: 'PERSON cron: K-beauty hyaluronic acid toner; ties to hyaluronic-acid
-    + glass-skin'
+  discovered_from: 'PERSON cron: K-beauty hyaluronic acid toner; ties to hyaluronic-acid + glass-skin'
   source: https://isntree.com/product/hyaluronic-acid-toner
 - name: Medicube PDRN Pink Collagen Serum
   type: product
   priority: 5
   status: done
-  discovered_from: 'INGREDIENT cron (pdrn): popular topical PDRN-marketed serum; surfaces
-    the new [[polydeoxyribonucleotide-pdrn]] skeptical page against a real product'
+  discovered_from: 'INGREDIENT cron (pdrn): popular topical PDRN-marketed serum; surfaces the new [[polydeoxyribonucleotide-pdrn]]
+    skeptical page against a real product'
   source: https://themedicube.com/products/pdrn-pink-collagen-serum
 - name: Numbuzin No.3 Skin Softening Serum
   type: product
   priority: 5
   status: done
-  discovered_from: 'INGREDIENT cron: popular K-beauty niacinamide/panthenol serum;
-    catalog gap'
+  discovered_from: 'INGREDIENT cron: popular K-beauty niacinamide/panthenol serum; catalog gap'
   source: https://numbuzin.com/products/no-3-skin-softening-serum
 - name: Caudalie Vinoperfect Radiance Serum
   type: product
   priority: 5
   status: done
-  discovered_from: 'BRAND cron (caudalie): viniferine brightening serum; ties to brightening
-    + hyperpigmentation'
+  discovered_from: 'BRAND cron (caudalie): viniferine brightening serum; ties to brightening + hyperpigmentation'
   source: https://www.caudalie.us/vinoperfect-radiance-serum.html
 - name: Caudalie Vinopure Salicylic Acid Serum
   type: product
   priority: 5
   status: done
-  discovered_from: 'BRAND cron: salicylic-acid serum for oily/acne skin; ties to salicylic-acid
-    + acne'
+  discovered_from: 'BRAND cron: salicylic-acid serum for oily/acne skin; ties to salicylic-acid + acne'
   source: https://www.caudalie.us/vinopure-natural-salicylic-acid-pore-minimizing-serum.html
 - name: The Ordinary Granactive Retinoid 2% Emulsion
   type: product
   priority: 5
   status: done
-  discovered_from: 'GOAL cron (anti-aging): popular next-gen retinoid (HPR) serum;
-    ties to retinoids + hydroxypinacolone-retinoate'
+  discovered_from: 'GOAL cron (anti-aging): popular next-gen retinoid (HPR) serum; ties to retinoids + hydroxypinacolone-retinoate'
   source: https://theordinary.com/en-us/granactive-retinoid-2-emulsion-serum
 - name: La Roche-Posay Rosaliac AR Intense Serum
   type: product
@@ -1757,15 +1677,14 @@
   type: product
   priority: 6
   status: done
-  discovered_from: LIST cron (most derm-recommended daily facial sunscreen; ties to
-    sunscreen-uv-filters + best-sunscreens-daily-wear)
+  discovered_from: LIST cron (most derm-recommended daily facial sunscreen; ties to sunscreen-uv-filters + best-sunscreens-daily-wear)
   source: https://eltamd.com/products/uv-clear-broad-spectrum-spf-46
 - name: EltaMD UV Physical Broad-Spectrum SPF 41 (tinted mineral)
   type: product
   priority: 4
   status: pending
-  discovered_from: PRODUCT cron (EltaMD UV Clear page; the pure-mineral tinted EltaMD,
-    a contrast to UV Clear's octinoxate hybrid)
+  discovered_from: PRODUCT cron (EltaMD UV Clear page; the pure-mineral tinted EltaMD, a contrast to UV Clear's octinoxate
+    hybrid)
   source: https://eltamd.com/
 - name: Medik8 Liquid Peptides
   type: product
@@ -1777,8 +1696,7 @@
   type: product
   priority: 3
   status: pending
-  discovered_from: 'LIST cron: the 2% Rx strength of the ketoconazole shampoo (site
-    has the 1% OTC); Cochrane shows 2% > 1%'
+  discovered_from: 'LIST cron: the 2% Rx strength of the ketoconazole shampoo (site has the 1% OTC); Cochrane shows 2% > 1%'
   source: https://dailymed.nlm.nih.gov/
 - name: Emepelle Serum (Biopelle, MEP-based)
   type: product
@@ -1791,238 +1709,218 @@
   priority: 4
   status: pending
   discovered_from: cetaphil-daily-facial-moisturizer-spf-50
-  source: DailyMed FDA label setid f5eb347f-0d46-4de6-8f3f-9010327678ed (avobenzone
-    2.8%, homosalate 9.5%, octisalate 4.8%, octocrylene) - the modern avobenzone-based
-    sibling; useful contrast to the SPF 50's legacy oxybenzone set
+  source: DailyMed FDA label setid f5eb347f-0d46-4de6-8f3f-9010327678ed (avobenzone 2.8%, homosalate 9.5%, octisalate 4.8%,
+    octocrylene) - the modern avobenzone-based sibling; useful contrast to the SPF 50's legacy oxybenzone set
 - name: Cetaphil Redness Relieving Daily Facial Moisturizer SPF 40
   type: product
   priority: 5
   status: done
   discovered_from: cetaphil-daily-facial-moisturizer-spf-50
-  source: DailyMed FDA label setid 45d101be-2b88-4759-9ccc-556f5ec0553d (titanium
-    dioxide-based mineral filter); extends the Cetaphil range + rosacea/redness angle
+  source: DailyMed FDA label setid 45d101be-2b88-4759-9ccc-556f5ec0553d (titanium dioxide-based mineral filter); extends the
+    Cetaphil range + rosacea/redness angle
 - name: Selsun Blue Itchy Dry Scalp (pyrithione zinc) Shampoo
   type: product
   priority: 6
   status: done
   discovered_from: selsun-blue-selenium-sulfide-shampoo
-  source: DailyMed FDA label setid c491014d-f8c7-46bb-b065-eaf5ea842860 (pyrithione
-    zinc); sibling antidandruff shampoo
+  source: DailyMed FDA label setid c491014d-f8c7-46bb-b065-eaf5ea842860 (pyrithione zinc); sibling antidandruff shampoo
 - name: Head & Shoulders Clinical Strength Dandruff Shampoo (pyrithione zinc)
   type: product
   priority: 7
   status: done
   discovered_from: selsun-blue-itchy-dry-scalp-pyrithione-zinc
-  source: The reference pyrithione zinc antidandruff shampoo; DailyMed-sourceable
-    FDA drug label
+  source: The reference pyrithione zinc antidandruff shampoo; DailyMed-sourceable FDA drug label
 - name: EltaMD UV Elements Tinted Mineral Broad-Spectrum SPF 44
   type: product
   priority: 6
   status: done
   discovered_from: geeta-yadav
-  source: Tinted mineral (zinc/titanium + iron oxides) sunscreen widely recommended
-    for hyperpigmentation/deeper tones; brand + retailer sourceable
+  source: Tinted mineral (zinc/titanium + iron oxides) sunscreen widely recommended for hyperpigmentation/deeper tones; brand
+    + retailer sourceable
 - name: Vanicream Z-Bar (pyrithione zinc cleansing bar)
   type: product
   priority: 6
   status: done
   discovered_from: null
-  source: Fragrance-free pyrithione zinc 2% cleansing bar widely used for seborrheic
-    dermatitis + fungal acne; brand (vanicream.com) + retailer sourceable
+  source: Fragrance-free pyrithione zinc 2% cleansing bar widely used for seborrheic dermatitis + fungal acne; brand (vanicream.com)
+    + retailer sourceable
 - name: Bio-Oil Skincare Oil (stretch marks / scars)
   type: product
   priority: 5
   status: done
   discovered_from: tasmannia-lanceolata-extract
-  source: Iconic heavily-marketed stretch-mark/scar oil with famously thin evidence;
-    high skeptical-catalog value; brand + retailer sourceable
+  source: Iconic heavily-marketed stretch-mark/scar oil with famously thin evidence; high skeptical-catalog value; brand +
+    retailer sourceable
 - name: Palmer's Cocoa Butter Formula (stretch marks)
   type: product
   priority: 7
   status: done
   discovered_from: tasmannia-lanceolata-extract
-  source: Classic drugstore cocoa-butter stretch-mark product; weak striae evidence;
-    skeptical catalog
+  source: Classic drugstore cocoa-butter stretch-mark product; weak striae evidence; skeptical catalog
 - name: Palmer's Cocoa Butter Skin Therapy Oil (scars / stretch marks)
   type: product
   priority: 6
   status: done
   discovered_from: palmers-cocoa-butter-massage-lotion-stretch-marks
-  source: Palmer's multi-purpose dry oil marketed for scars/stretch marks/uneven tone;
-    brand page + retailer sourceable; skeptical catalog
+  source: Palmer's multi-purpose dry oil marketed for scars/stretch marks/uneven tone; brand page + retailer sourceable; skeptical
+    catalog
 - name: Tower 28 SunnyDays SPF 30 Tinted Mineral Sunscreen Foundation
   type: product
   priority: 6
   status: null
   discovered_from: tower-28
-  source: Tower 28 tinted mineral (zinc + iron oxides) SPF 30; ties to the tinted-SPF/iron-oxides
-    thread; brand + Sephora sourceable
+  source: Tower 28 tinted mineral (zinc + iron oxides) SPF 30; ties to the tinted-SPF/iron-oxides thread; brand + Sephora
+    sourceable
 - name: Tower 28 SOS Rescue + Repair Serum
   type: product
   priority: 8
   status: done
   discovered_from: tower-28
-  source: Tower 28 hypochlorous-acid-adjacent barrier serum for sensitive skin; brand
-    + retailer sourceable
+  source: Tower 28 hypochlorous-acid-adjacent barrier serum for sensitive skin; brand + retailer sourceable
 - name: Mederma Stretch Marks Therapy (centella + hyaluronic acid)
   type: product
   priority: 7
   status: done
   discovered_from: stretch-marks
-  source: Common heavily-marketed stretch-mark cream (centella + hyaluronic acid);
-    skeptical catalog value for the stretch-marks hub; brand + retailer sourceable
+  source: Common heavily-marketed stretch-mark cream (centella + hyaluronic acid); skeptical catalog value for the stretch-marks
+    hub; brand + retailer sourceable
 - name: Tower 28 SOS Daily Barrier Recovery Cream (ceramides)
   type: product
   priority: 6
   status: null
   discovered_from: tower-28-sos-intensive-rescue-serum
-  source: Tower 28 ceramide barrier-repair cream, completes the SOS skincare trio
-    (spray/serum/cream); ceramides are evidence-backed; brand + retailer sourceable
+  source: Tower 28 ceramide barrier-repair cream, completes the SOS skincare trio (spray/serum/cream); ceramides are evidence-backed;
+    brand + retailer sourceable
 - name: Tower 28 SOS FaceGuard SPF 30 Mineral Sunscreen
   type: product
   priority: 8
   status: done
   discovered_from: tower-28-sos-intensive-rescue-serum
-  source: Tower 28 mineral (zinc/titanium) SPF 30 with NEA/NRS/NPF seals for sensitive
-    skin; brand + retailer sourceable
+  source: Tower 28 mineral (zinc/titanium) SPF 30 with NEA/NRS/NPF seals for sensitive skin; brand + retailer sourceable
 - name: Tower 28 SOS Gentle Gel Cleanser
   type: product
   priority: 8
   status: done
   discovered_from: tower-28-sos-faceguard-spf-30
-  source: Tower 28 fragrance-free gentle gel cleanser, part of the SOS sensitive-skin
-    routine; brand + retailer sourceable
+  source: Tower 28 fragrance-free gentle gel cleanser, part of the SOS sensitive-skin routine; brand + retailer sourceable
 - name: Tower 28 SOS Rescue + Relief Body Wash (sodium hypochlorite)
   type: product
   priority: 9
   status: done
   discovered_from: tower-28-sos-daily-balancing-gel-cleanser
-  source: Tower 28 sodium-hypochlorite (HOCl-adjacent) body wash for body acne / KP
-    / sensitive skin; brand + retailer sourceable
+  source: Tower 28 sodium-hypochlorite (HOCl-adjacent) body wash for body acne / KP / sensitive skin; brand + retailer sourceable
 - name: Head & Shoulders Clinical Strength Dandruff Defense (selenium sulfide 1%)
   type: product
   priority: 7
   status: done
   discovered_from: anti-dandruff-seborrheic-dermatitis-treatments-by-evidence
-  source: The iconic max-strength H&S selenium sulfide antidandruff shampoo (DailyMed-sourceable;
-    'Clinical Strength' line is selenium sulfide, not pyrithione zinc); would join
-    the anti-dandruff tier list
+  source: The iconic max-strength H&S selenium sulfide antidandruff shampoo (DailyMed-sourceable; 'Clinical Strength' line
+    is selenium sulfide, not pyrithione zinc); would join the anti-dandruff tier list
 - name: Neutrogena T/Gel Therapeutic Shampoo (coal tar)
   type: product
   priority: 7
   status: done
   discovered_from: coal-tar
-  source: The iconic coal tar antidandruff/seb-derm shampoo; FDA OTC drug (coal tar),
-    DailyMed/retailer sourceable; would join the antidandruff tier list + coal-tar
-    page
+  source: The iconic coal tar antidandruff/seb-derm shampoo; FDA OTC drug (coal tar), DailyMed/retailer sourceable; would
+    join the antidandruff tier list + coal-tar page
 - name: CLn BodyWash (sodium hypochlorite cleanser)
   type: product
   priority: 6
   status: done
   discovered_from: tower-28-sos-rescue-relief-body-wash
-  source: The dermatologist-recommended dilute-sodium-hypochlorite (bleach-bath-in-a-wash)
-    cleanser for eczema, folliculitis, and body acne; the actual evidence-grounded
-    version of this category; distinct brand, brand + retailer sourceable
+  source: The dermatologist-recommended dilute-sodium-hypochlorite (bleach-bath-in-a-wash) cleanser for eczema, folliculitis,
+    and body acne; the actual evidence-grounded version of this category; distinct brand, brand + retailer sourceable
 - name: AmLactin Daily Moisturizing Body Lotion (lactic acid 12%)
   type: product
   priority: 6
   status: done
   discovered_from: tower-28-sos-rescue-relief-body-wash
-  source: The reference lactic-acid body lotion for keratosis pilaris + rough/dry
-    body skin; distinct brand, dermatologist-recommended; fills the KP body-treatment
-    gap linked from this page
+  source: The reference lactic-acid body lotion for keratosis pilaris + rough/dry body skin; distinct brand, dermatologist-recommended;
+    fills the KP body-treatment gap linked from this page
 - name: Murad Retinol Youth Renewal Serum
   type: product
   priority: 7
   status: done
   discovered_from: murad
-  source: Murad's flagship retinol serum (retinol tri-active); brand + retailer sourceable;
-    surfaces the Murad range + retinol
+  source: Murad's flagship retinol serum (retinol tri-active); brand + retailer sourceable; surfaces the Murad range + retinol
 - name: Roflumilast cream (Zoryve)
   type: product
   priority: 5
   status: done
   discovered_from: psoriasis
-  source: FDA-approved topical PDE4 inhibitor for plaque psoriasis of scalp and body;
-    CADTH/CDEC review PMID 42485470
+  source: FDA-approved topical PDE4 inhibitor for plaque psoriasis of scalp and body; CADTH/CDEC review PMID 42485470
 - name: CeraVe Psoriasis Moisturizing Cream (2% salicylic acid + lactic acid)
   type: product
   priority: 5
   status: done
   discovered_from: psoriasis
-  source: OTC psoriasis product; salicylic acid keratolytic + lactic acid, verify
-    active/label via DailyMed or brand
+  source: OTC psoriasis product; salicylic acid keratolytic + lactic acid, verify active/label via DailyMed or brand
 - name: MG217 Medicated Coal Tar Ointment
   type: product
   priority: 5
   status: done
   discovered_from: psoriasis
-  source: OTC FDA-monograph coal tar (2%) product for psoriasis; verify Drug Facts
-    via DailyMed
+  source: OTC FDA-monograph coal tar (2%) product for psoriasis; verify Drug Facts via DailyMed
 - name: The Ordinary Caffeine Solution 5% + EGCG
   type: product
   priority: 5
   status: done
   discovered_from: goals
-  source: Widely used OTC under-eye serum (caffeine 5% + epigallocatechin gallatyl
-    glucoside); brand ingredient list + price sourceable via Deciem/The Ordinary
+  source: Widely used OTC under-eye serum (caffeine 5% + epigallocatechin gallatyl glucoside); brand ingredient list + price
+    sourceable via Deciem/The Ordinary
 - name: Mederma Advanced Scar Gel (Cepalin/onion extract + allantoin)
   type: product
   priority: 5
   status: done
   discovered_from: mederma-stretch-marks-therapy
-  source: Mederma flagship onion-extract scar gel; brand product page has composition
-    + claims; scar-evidence angle (onion extract RCTs)
+  source: Mederma flagship onion-extract scar gel; brand product page has composition + claims; scar-evidence angle (onion
+    extract RCTs)
 - name: Mederma Quick Dry Oil (stretch mark oil)
   type: product
   priority: 5
   status: pending
   discovered_from: mederma-stretch-marks-therapy
-  source: Mederma's stretch-mark oil sibling to the therapy cream; brand product page;
-    ties to stretch-marks cluster
-- name: Head & Shoulders Clinical Strength Dandruff Defense Sensitive Scalp (selenium
-    sulfide)
+  source: Mederma's stretch-mark oil sibling to the therapy cream; brand product page; ties to stretch-marks cluster
+- name: Head & Shoulders Clinical Strength Dandruff Defense Sensitive Scalp (selenium sulfide)
   type: product
   priority: 5
   status: done
   discovered_from: head-shoulders-clinical-strength-dandruff-defense-selenium-sulfide
-  source: Sibling SLS-free/sensitive variant, DailyMed setid eedc5e57-8047-eab7; different
-    base, same active
+  source: Sibling SLS-free/sensitive variant, DailyMed setid eedc5e57-8047-eab7; different base, same active
 - name: Neutrogena T/Gel Extra Strength Therapeutic Shampoo (coal tar 1%)
   type: product
   priority: 5
   status: done
   discovered_from: neutrogena-tgel-therapeutic-shampoo-coal-tar
-  source: Higher-strength (coal tar 1%) sibling; Walgreens Extra Strength T-Gel equivalent
-    on DailyMed setid 7f681386; ties to coal-tar cluster
+  source: Higher-strength (coal tar 1%) sibling; Walgreens Extra Strength T-Gel equivalent on DailyMed setid 7f681386; ties
+    to coal-tar cluster
 - name: DHS Tar Gel (coal tar) Shampoo
   type: product
   priority: 5
   status: pending
   discovered_from: neutrogena-tgel-therapeutic-shampoo-coal-tar
-  source: Person & Covey coal tar shampoo on DailyMed (setid e17bd664); another antidandruff/coal-tar
-    option for the tier list
+  source: Person & Covey coal tar shampoo on DailyMed (setid e17bd664); another antidandruff/coal-tar option for the tier
+    list
 - name: MG217 Medicated Tar Shampoo (coal tar)
   type: product
   priority: 5
   status: pending
   discovered_from: neutrogena-tgel-therapeutic-shampoo-coal-tar
-  source: Common OTC coal tar shampoo/psoriasis line; DailyMed-labeled; complements
-    MG217 coal tar ointment already queued
+  source: Common OTC coal tar shampoo/psoriasis line; DailyMed-labeled; complements MG217 coal tar ointment already queued
 - name: Retin-A tretinoin 0.1% cream (striae/anti-aging)
   type: product
   priority: 5
   status: done
   discovered_from: kang-1996-topical-tretinoin-improves-early-stretch-marks-rct
-  source: The 0.1% tretinoin strength used in Kang 1996; DailyMed-labeled prescription
-    retinoid; would carry the striae-rubrae + photoaging evidence
+  source: The 0.1% tretinoin strength used in Kang 1996; DailyMed-labeled prescription retinoid; would carry the striae-rubrae
+    + photoaging evidence
 - name: Elidel (pimecrolimus 1% cream)
   type: product
   priority: 5
   status: done
   discovered_from: atopic-dermatitis
-  source: Topical calcineurin inhibitor for atopic dermatitis; DailyMed Drug Facts;
-    the Rx steroid-sparing option named on the AD hub
+  source: Topical calcineurin inhibitor for atopic dermatitis; DailyMed Drug Facts; the Rx steroid-sparing option named on
+    the AD hub
 - name: Murad Rapid Dark Spot Correcting Serum (Resorcinol + tranexamic acid)
   type: product
   priority: 5
@@ -2034,44 +1932,39 @@
   priority: 5
   status: done
   discovered_from: murad-retinol-youth-renewal-serum
-  source: Murad retinaldehyde overnight treatment seen on the brand site (1 oz); ties
-    to retinaldehyde + retinoids clusters
+  source: Murad retinaldehyde overnight treatment seen on the brand site (1 oz); ties to retinaldehyde + retinoids clusters
 - name: Vanicream Z-Bar (pyrithione zinc 2% cleansing bar)
   type: product
   priority: 5
   status: done
   discovered_from: zinc-pyrithione
-  source: OTC pyrithione zinc 2% bar for seb-derm/fungal-acne; DailyMed Drug Facts;
-    backs the zinc-pyrithione ingredient page
+  source: OTC pyrithione zinc 2% bar for seb-derm/fungal-acne; DailyMed Drug Facts; backs the zinc-pyrithione ingredient page
 - name: EltaMD UV Daily Tinted Broad-Spectrum SPF 40
   type: product
   priority: 5
   status: done
   discovered_from: eltamd-uv-aox-elements-tinted-mineral-spf-50
-  source: EltaMD chemical/mineral hybrid daily tinted moisturizer-SPF; DailyMed-labeled;
-    common EltaMD pick
+  source: EltaMD chemical/mineral hybrid daily tinted moisturizer-SPF; DailyMed-labeled; common EltaMD pick
 - name: Mesoestetic Mesoprotech Melan 130 Pigment Control (tinted SPF50+)
   type: product
   priority: 5
   status: pending
   discovered_from: dark-circles
-  source: Agent found 'Melan 130' is mesoestetic's tinted pigment-control sunscreen
-    (mesoestetic.com), NOT an SVR product; corrected re-queue of the garbled SVR Melan
-    130 entry
+  source: Agent found 'Melan 130' is mesoestetic's tinted pigment-control sunscreen (mesoestetic.com), NOT an SVR product;
+    corrected re-queue of the garbled SVR Melan 130 entry
 - name: DermaHarmony 2% Pyrithione Zinc Bar Soap
   type: product
   priority: 5
   status: pending
   discovered_from: vanicream-z-bar-pyrithione-zinc
-  source: Another OTC 2% pyrithione zinc cleansing bar for seb-derm/fungal acne; DailyMed-labeled;
-    complements the zinc-pyrithione set
+  source: Another OTC 2% pyrithione zinc cleansing bar for seb-derm/fungal acne; DailyMed-labeled; complements the zinc-pyrithione
+    set
 - name: Noble Formula 2% Pyrithione Zinc Bar Soap
   type: product
   priority: 5
   status: pending
   discovered_from: vanicream-z-bar-pyrithione-zinc
-  source: Popular OTC pyrithione zinc bar (with argan oil) for psoriasis/seb-derm;
-    DailyMed-labeled
+  source: Popular OTC pyrithione zinc bar (with argan oil) for psoriasis/seb-derm; DailyMed-labeled
 - name: CLn Facial Cleanser (sodium hypochlorite)
   type: product
   priority: 5
@@ -2083,44 +1976,40 @@
   priority: 5
   status: pending
   discovered_from: polydeoxyribonucleotide-pdrn
-  source: 'Dr Dray - PDRN Skincare: Is It Worth the Hype? (video, bktMjB3Ke2o); $20
-    at Ulta; topical PDRN/sodium DNA + caffeine eye cream'
+  source: 'Dr Dray - PDRN Skincare: Is It Worth the Hype? (video, bktMjB3Ke2o); $20 at Ulta; topical PDRN/sodium DNA + caffeine
+    eye cream'
 - name: The Ordinary Matrixyl 10% + HA
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: the-ordinary-argireline-solution-10
-  source: Sibling peptide serum in The Ordinary's anti-aging peptide range (compared
-    in the brand's Argireline deep-dive); palmitoyl-based Matrixyl peptides
+  source: Sibling peptide serum in The Ordinary's anti-aging peptide range (compared in the brand's Argireline deep-dive);
+    palmitoyl-based Matrixyl peptides
 - name: Epiduo (adapalene 0.1% / benzoyl peroxide 2.5%)
   type: product
   priority: 5
   status: pending
   discovered_from: differin-gel-adapalene
-  source: Galderma Rx combo (adapalene + BPO) seen on DailyMed; common next-step acne
-    prescription
+  source: Galderma Rx combo (adapalene + BPO) seen on DailyMed; common next-step acne prescription
 - name: Eucerin Anti-Pigment Dual Serum (thiamidol)
   type: product
   priority: 5
   status: done
   discovered_from: taylor-2026-thiamidol-regimen-vs-spf-hyperpigmentation-pmid-41493252
-  source: The flagship thiamidol serum tested in this regimen; popular hyperpigmentation
-    product
+  source: The flagship thiamidol serum tested in this regimen; popular hyperpigmentation product
 - name: Cetaphil Sheer Mineral Sunscreen SPF 50 (titanium dioxide, zinc oxide)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: cetaphil-redness-relieving-daily-facial-moisturizer-spf-40
-  source: Cetaphil 100% mineral sunscreen (DailyMed); popular fragrance-free reactive-skin
-    SPF
+  source: Cetaphil 100% mineral sunscreen (DailyMed); popular fragrance-free reactive-skin SPF
 - name: Paula's Choice Clear Back and Body Acne Spray (salicylic acid 2%)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: body-acne
   source: https://www.paulaschoice.com/clear-back-and-body-acne-spray/2010.html
-- name: EltaMD UV Elements Tinted Mineral Sunscreen SPF 44 (iron oxides, visible-light
-    protection for melasma)
+- name: EltaMD UV Elements Tinted Mineral Sunscreen SPF 44 (iron oxides, visible-light protection for melasma)
   type: product
   priority: 5
   status: pending
@@ -2131,12 +2020,12 @@
   priority: 5
   status: done
   discovered_from: warren-2026-icotrokinra-high-impact-site-psoriasis-iconic-total-pmid-42175814
-  source: https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=tapinarof (FDA-approved
-    non-steroid topical AhR agonist for plaque psoriasis and atopic dermatitis)
+  source: https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=tapinarof (FDA-approved non-steroid topical AhR agonist for
+    plaque psoriasis and atopic dermatitis)
 - name: Ducray Kelual DS Squamo-Reducing Soothing Cream (piroctone olamine + climbazole)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: piroctone-olamine
   source: https://www.ducray.com/en-us/dandruff/kelual-ds-squamo-reducing-cream
 - name: Zoryve (roflumilast 0.3% foam) for seborrheic dermatitis
@@ -2172,13 +2061,13 @@
 - name: Zilxi (minocycline 1.5% topical foam) for rosacea
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: rosacea-papulopustular
   source: https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=zilxi+minocycline
 - name: Necessaire The Body Retinol (0.1% retinol body serum)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: neck-chest-decolletage-care
   source: https://www.necessaire.com/products/the-body-retinol
 - name: StriVectin TL Advanced Tightening Neck Cream Plus
@@ -2199,50 +2088,45 @@
   status: pending
   discovered_from: cerave-psoriasis-moisturizing-cream
   source: https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=mg217+salicylic+acid+psoriasis
-- name: Murad Rapid Dark Spot Correcting Serum (hexylresorcinol + tranexamic acid)
-    - brand source is queue origin for hexylresorcinol
+- name: Murad Rapid Dark Spot Correcting Serum (hexylresorcinol + tranexamic acid) - brand source is queue origin for hexylresorcinol
   type: product
   priority: 5
   status: pending
   discovered_from: null
   source: null
-- name: SkinMedica Lytera 2.0 Pigment Correcting Serum (contains hexylresorcinol +
-    niacinamide) - verify brand INCI
+- name: SkinMedica Lytera 2.0 Pigment Correcting Serum (contains hexylresorcinol + niacinamide) - verify brand INCI
   type: product
   priority: 5
   status: pending
   discovered_from: null
   source: null
-- name: Protopic (tacrolimus ointment 0.03%/0.1%) - the more potent topical calcineurin
-    inhibitor, Elidel's comparator; verify DailyMed
+- name: Protopic (tacrolimus ointment 0.03%/0.1%) - the more potent topical calcineurin inhibitor, Elidel's comparator; verify
+    DailyMed
   type: product
   priority: 5
   status: done
   discovered_from: null
   source: null
-- name: Loprox (ciclopirox olamine) shampoo/gel - Rx antifungal for seb-derm; verify
-    DailyMed
+- name: Loprox (ciclopirox olamine) shampoo/gel - Rx antifungal for seb-derm; verify DailyMed
   type: product
   priority: 5
   status: pending
   discovered_from: null
   source: null
-- name: Enstilar / Taclonex (calcipotriene + betamethasone dipropionate foam/ointment)
-    - the fixed-combo that outperforms either alone; verify DailyMed
+- name: Enstilar / Taclonex (calcipotriene + betamethasone dipropionate foam/ointment) - the fixed-combo that outperforms
+    either alone; verify DailyMed
   type: product
   priority: 5
   status: pending
   discovered_from: null
   source: null
-- name: Zilxi (minocycline 1.5% foam) for rosacea - completes the rosacea Rx set;
-    verify DailyMed
+- name: Zilxi (minocycline 1.5% foam) for rosacea - completes the rosacea Rx set; verify DailyMed
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: null
-- name: Emrosi (minocycline hydrochloride 40mg extended-release, DFD-29) for rosacea;
-    verify DailyMed
+- name: Emrosi (minocycline hydrochloride 40mg extended-release, DFD-29) for rosacea; verify DailyMed
   type: product
   priority: 5
   status: pending

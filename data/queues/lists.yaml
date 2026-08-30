@@ -172,3 +172,10 @@
   status: pending
   discovered_from: null
   source: null
+- name: Best body retinol / body anti-aging products by evidence (Necessaire, Gold
+    Bond, AmLactin)
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null
