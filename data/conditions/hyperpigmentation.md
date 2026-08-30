@@ -35,6 +35,11 @@ tier_list:
       reduces melasma in trials, though less than the oral form.
     slug: tranexamic-acid
     tier: moderate
+  - note: Thiamidol (isobutylamido thiazolyl resorcinol), a potent tyrosinase inhibitor
+      that matched 4% hydroquinone on melasma in a split-face trial; the evidence
+      is real but largely from its maker (Beiersdorf/Eucerin). Evidence on [[thiamidol]].
+    slug: thiamidol
+    tier: moderate
   - note: 'An antioxidant and tyrosinase inhibitor: modest as a standalone lightener,
       more useful in combination and as a daytime partner to sunscreen.'
     slug: ascorbic-acid-vitamin-c
@@ -55,6 +60,11 @@ tier_list:
   - note: A gentler hydroquinone precursor with limited robust human evidence; a mild
       adjunct.
     slug: arbutin
+    tier: weak
+  - note: Malassezin, a novel aryl hydrocarbon receptor agonist that matched 4% hydroquinone
+      in one small split-face trial; promising but resting on a single sponsor-linked
+      study of 20 patients. Evidence on [[malassezin]].
+    slug: malassezin
     tier: weak
   title: Topical actives for hyperpigmentation by evidence
 type: condition

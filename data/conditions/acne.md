@@ -27,9 +27,14 @@ tier_list:
       below the first-line actives.
     slug: salicylic-acid
     tier: moderate
+  - note: Topical dapsone (Aczone 5%/7.5% gel), a prescription anti-inflammatory sulfone
+      with large phase 3 trials; a real but modest edge over vehicle, with a notably
+      larger response in women. Evidence on [[dapsone-topical]].
+    slug: dapsone-topical
+    tier: moderate
   title: Acne topical actives by evidence
 type: condition
-updated: '2026-08-05'
+updated: '2026-08-30'
 videos:
 - creator: Ella (@your.estie.ella)
   creator_slug: your-estie-ella
@@ -263,47 +268,74 @@ videos:
     the skin barrier with gentle, soothing ingredients lets the marks fade faster.
   title: Post-Acne Marks Heal by Calming, Not Scrubbing
   url: https://www.tiktok.com/@your.estie.ella/video/7675730527655038221
-- title: How to Tell If You Have Hormonal Acne
-  creator: Dr. Scott Walter
+- creator: Dr. Scott Walter
   creator_slug: scott-walter
   credential: Board-certified dermatologist
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
   platform: YouTube
-  url: https://www.youtube.com/watch?v=jamDLBRGfEc
   posted: '2024-02-12'
   related: []
-  thesis: 'Board-certified dermatologist Dr Scott Walter explains how to recognize hormonal acne, the type most often seen in adult women, which over-the-counter topicals only partly address. He describes its telltale pattern: papules, cysts, and nodules concentrated on the lower face, jawline, and chin that flare around the menstrual cycle, often in the days just before it.'
-  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
-- title: The Acne Mistake Almost EVERYONE Makes - Why Your Acne Isn't Improving
-  creator: Dr. Sam Bunting
+  thesis: 'Board-certified dermatologist Dr Scott Walter explains how to recognize
+    hormonal acne, the type most often seen in adult women, which over-the-counter
+    topicals only partly address. He describes its telltale pattern: papules, cysts,
+    and nodules concentrated on the lower face, jawline, and chin that flare around
+    the menstrual cycle, often in the days just before it.'
+  title: How to Tell If You Have Hormonal Acne
+  url: https://www.youtube.com/watch?v=jamDLBRGfEc
+- creator: Dr. Sam Bunting
   creator_slug: sam-bunting
   credential: Board-certified dermatologist (UK)
-  platform: YouTube
-  url: https://www.youtube.com/watch?v=IGLdq7kgTdI
-  posted: '2025-12-23'
-  related: [azelaic-acid, retinoids]
-  thesis: Board-certified dermatologist Dr. Sam Bunting argues that the most common acne mistake is spot-treating individual blemishes reactively instead of treating whole acne-prone zones preventatively. She explains that adult acne, especially in women, tends to recur in the same areas, the jawline and U-zone, the T-zone, the chest, and the back, because hormonal shifts activate many oil glands together across a region rather than one at a time. Her recommended approach is to apply preventative actives over the entire zone, azelaic acid in the morning and a retinoid at night, to reduce breakouts before they start rather than waiting for a spot to appear.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
-- title: 'Spongilla Lacustris: How this freshwater sponge may change how we treat ACNE! #acne #research'
-  creator: Dr. Scott Walter
+  platform: YouTube
+  posted: '2025-12-23'
+  related:
+  - azelaic-acid
+  - retinoids
+  thesis: Board-certified dermatologist Dr. Sam Bunting argues that the most common
+    acne mistake is spot-treating individual blemishes reactively instead of treating
+    whole acne-prone zones preventatively. She explains that adult acne, especially
+    in women, tends to recur in the same areas, the jawline and U-zone, the T-zone,
+    the chest, and the back, because hormonal shifts activate many oil glands together
+    across a region rather than one at a time. Her recommended approach is to apply
+    preventative actives over the entire zone, azelaic acid in the morning and a retinoid
+    at night, to reduce breakouts before they start rather than waiting for a spot
+    to appear.
+  title: The Acne Mistake Almost EVERYONE Makes - Why Your Acne Isn't Improving
+  url: https://www.youtube.com/watch?v=IGLdq7kgTdI
+- creator: Dr. Scott Walter
   creator_slug: scott-walter
   credential: Board-certified dermatologist
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
   platform: YouTube
-  url: https://www.youtube.com/watch?v=rVf-EA20svI
   posted: '2024-06-18'
   related: []
-  thesis: Dermatologist Dr. Scott Walter (board-certified dermatologist) discusses a phase 2b study of Spongilla lacustris, a silica-based freshwater sponge with anti-inflammatory and antibacterial properties, applied once weekly as a mask for moderate to severe acne. At 12 weeks the once-weekly treatment produced statistically significant improvements in inflammatory and non-inflammatory acne, with 44% of patients achieving a two-point IGA score improvement and no serious adverse events reported. He frames it as a promising early finding on treatment compliance that needs more studies before becoming a standard acne option.
-  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
-- title: Top 5 Dermatologist-Approved Natural Acne Remedies
-  creator: Dr. Davin Lim
+  thesis: Dermatologist Dr. Scott Walter (board-certified dermatologist) discusses
+    a phase 2b study of Spongilla lacustris, a silica-based freshwater sponge with
+    anti-inflammatory and antibacterial properties, applied once weekly as a mask
+    for moderate to severe acne. At 12 weeks the once-weekly treatment produced statistically
+    significant improvements in inflammatory and non-inflammatory acne, with 44% of
+    patients achieving a two-point IGA score improvement and no serious adverse events
+    reported. He frames it as a promising early finding on treatment compliance that
+    needs more studies before becoming a standard acne option.
+  title: 'Spongilla Lacustris: How this freshwater sponge may change how we treat
+    ACNE! #acne #research'
+  url: https://www.youtube.com/watch?v=rVf-EA20svI
+- creator: Dr. Davin Lim
   creator_slug: davin-lim
   credential: Board-certified dermatologist (Australia)
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
   platform: YouTube
-  url: https://www.youtube.com/watch?v=1BaBKjrpyT0
   posted: '2024-11-18'
   related: []
-  thesis: In this acne explainer, board-certified dermatologist Dr. Davin Lim walks through natural and supplement-based options for managing breakouts. He highlights oral zinc as the best-studied choice, taken as zinc sulfate over roughly 6 to 12 weeks, and cites a 2014 study in which 2.2 grams of daily vitamin B5 (pantothenic acid) reduced acne lesions by 67 percent after 12 weeks, alongside diet and lifestyle factors. He frames these as holistic options to help manage acne rather than replacements for standard treatment.
-  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
-
+  thesis: In this acne explainer, board-certified dermatologist Dr. Davin Lim walks
+    through natural and supplement-based options for managing breakouts. He highlights
+    oral zinc as the best-studied choice, taken as zinc sulfate over roughly 6 to
+    12 weeks, and cites a 2014 study in which 2.2 grams of daily vitamin B5 (pantothenic
+    acid) reduced acne lesions by 67 percent after 12 weeks, alongside diet and lifestyle
+    factors. He frames these as holistic options to help manage acne rather than replacements
+    for standard treatment.
+  title: Top 5 Dermatologist-Approved Natural Acne Remedies
+  url: https://www.youtube.com/watch?v=1BaBKjrpyT0
 ---
 
 Acne vulgaris is the most common skin condition treated by dermatologists, driven by a mix of follicular hyperkeratinization, sebum, *Cutibacterium acnes*, and inflammation. Graded skeptically against controlled evidence for **topical skincare**, the best-studied over-the-counter and prescription topicals produce **modest** lesion reductions, the gap between the "best" and "second-best" topical is often smaller than the marketing implies, and the single largest evidence base for these treatments is rated moderate to very low certainty.[^1][^2]
