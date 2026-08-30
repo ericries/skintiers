@@ -47,6 +47,15 @@ abud-2026-a-randomized-double-blinded-pilot-study-comparing-synthetic-:
     '
   score: 10
   verdict: publish
+acetyl-octapeptide-3:
+  last_reviewed: '2026-08-30'
+  note: INGREDIENT wave. SNAP-8 neuropeptide (elongated argireline analog). tier:weak honest - NO isolated-ingredient
+    trial, only 2 small industry-affiliated combination microneedle-patch studies (Avcil PMID 31134751,
+    Shin PMID 39082657), neither vehicle-controlled for the peptide. Opus critic fixed 3 internal miscounts
+    of co-formulated actives; all quotes verbatim vs eutils, identity vs PubChem CID 76283482. tier:weak.
+    Opus critic inline (workflow pipeline); assurance opus.
+  score: 8
+  verdict: publish
 acetyl-zingerone:
   last_reviewed: '2026-08-16'
   note: 'INGREDIENT cron (Sonnet draft, Opus critic). Emerging antioxidant (Sytheon, patent-holder Chaudhuri).
@@ -1370,6 +1379,15 @@ byoma-moisturizing-rich-cream:
     fragment; corrected footnote to verbatim ''This rich...''). Re-gated clean.'
   score: 8
   verdict: publish
+caffeine:
+  last_reviewed: '2026-08-30'
+  note: INGREDIENT wave. Topical caffeine for periorbital puffiness/dark circles + (dubious) cellulite.
+    tier:weak honest. All 8 PMIDs verbatim vs eutils (Ponto 41754894, Herman 23075568, Lupo 17763597,
+    Fouad 39384727 etc) + PubChem CID 2519. Opus critic removed unverifiable Franz-cell detail + corrected
+    instrument naming. Links [[dark-circles]]. tier:weak. Opus critic inline (workflow pipeline); assurance
+    opus.
+  score: 9
+  verdict: publish
 capryloyl-salicylic-acid-lha:
   last_reviewed: '2026-08-23'
   note: 'PARALLEL WORKFLOW fill: Sonnet draft + parallel Opus critic verdict REVISE (score 7). Critic-flagged
@@ -1907,6 +1925,15 @@ cholesterol:
     claim. lint/verify/style clean.
   score: 9
   verdict: publish
+ciclopirox:
+  last_reviewed: '2026-08-30'
+  note: INGREDIENT wave. Hydroxypyridone antifungal for seb-derm/dandruff, comparable to ketoconazole.
+    tier:good. All quotes/RR-CI/P verbatim vs eutils (PMIDs 25933684,21696088,15271194,19958427,20964457)
+    + PubChem CID 2749. Cochrane footnote preserves source typo. Opus critic removed 2 broken wikilinks
+    ([[dandruff]],[[malassezia]] no page). tier:good. Opus critic inline (workflow pipeline); assurance
+    opus.
+  score: 9
+  verdict: publish
 cir-amorphous-silica-safety-assessment-burnett-2025:
   last_reviewed: '2026-08-08'
   note: 'Opus re-fetched PubMed abstract (PMID 40932354) and confirmed all four block quotes are verbatim
@@ -2006,6 +2033,15 @@ cocokind-retinol-body-cream-0-05:
     (force).
   score: 8
   verdict: revise-then-fixed
+coenzyme-q10:
+  last_reviewed: '2026-08-30'
+  note: INGREDIENT wave. CoQ10/ubiquinone lipophilic antioxidant, topical anti-aging. tier:weak honest
+    - no independent vehicle-controlled topical RCT; strong Zmitek RCT is ORAL not topical (page says
+    so). All 6 quotes verbatim vs eutils + PubChem CID 5281915. Opus critic corrected COI (2->3 Beiersdorf
+    employees, PMID 39148958) + removed broken [[antioxidant]] link. tier:weak. Opus critic inline (workflow
+    pipeline); assurance opus.
+  score: 8
+  verdict: publish
 colloidal-oatmeal:
   last_reviewed: '2026-07-28'
   note: 'Ingredient page drafted + critic-gated in the parallel drain. '
@@ -2733,6 +2769,16 @@ elias-2014-skin-barrier-lipid-structure-and-function:
     '
   score: 9
   verdict: revise-then-fixed
+elidel-pimecrolimus-cream:
+  last_reviewed: '2026-08-30'
+  note: PRODUCT wave. Rx pimecrolimus 1% TCI for atopic dermatitis (second-line, boxed warning). Opus
+    critic (score 89) corrected a day-8 efficacy overclaim (label attributes significant effect to day
+    15). Indication/quotes/trial stats (403 pts, 35% vs 18% clear/almost-clear) + inactives verbatim vs
+    DailyMed 6f94f6e7 + Phase 3 PMID 15858471. Steroid-sparing notable/established; disease OUT to [[atopic-dermatitis]].
+    Main-loop reworded AI-ese "pivotal". No dashes. Opus critic inline (workflow pipeline); assurance
+    opus.
+  score: 9
+  verdict: publish
 eltamd:
   last_reviewed: '2026-08-08'
   note: 'Lean brand discovery-aid (Sonnet-only). What-it-is + sourced ownership (or left out if unverifiable)
@@ -3317,6 +3363,15 @@ geeta-yadav:
     (Cetaphil is Galderma). Person pages self-check, no Opus critic; assurance sonnet.'
   score: 9
   verdict: publish
+genistein:
+  last_reviewed: '2026-08-30'
+  note: 'INGREDIENT wave. Soy isoflavone/phytoestrogen, topical photoaging. tier:weak honest. All 5 study
+    footnotes verbatim vs eutils (Moraes 19450919, Na Takuathung 36835861, Tang 35209841, Huang 18761396,
+    Wei 14608119) + PubChem CID 5280961. Marketing section deflates estrogen-alternative framing. Opus
+    critic: no fixes needed, all verbatim matched. tier:weak. Opus critic inline (workflow pipeline);
+    assurance opus.'
+  score: 8
+  verdict: publish
 ghadially-1992-petrolatum-stratum-corneum:
   last_reviewed: '2026-08-08'
   note: 'Opus re-fetched PubMed 1564142 and verified all three verbatim quotes ("VPJ accelerated, rather
@@ -3548,6 +3603,15 @@ good-molecules-niacinamide-serum:
     '
   score: 9
   verdict: publish
+green-tea-egcg:
+  last_reviewed: '2026-08-30'
+  note: INGREDIENT wave. Camellia sinensis EGCG polyphenol antioxidant. tier:mid honest - real mechanistic
+    photoprotection (Elmets 2001 PMID 11209110) + positive 62-person scar RCT (Ud-Din 2019) BUT flagship
+    anti-aging RCT (Chiu 2005) clinically NEGATIVE. All quotes verbatim vs eutils + PubChem CID 65064.
+    Opus critic removed broken [[antioxidants]] link. tier:mid. Opus critic inline (workflow pipeline);
+    assurance opus.
+  score: 9
+  verdict: publish
 griffiths-1993-tretinoin-collagen-restoration:
   last_reviewed: '2026-08-06'
   note: 'Griffiths 1993 (NEJM, PMID 8336752), the mechanistic tretinoin/procollagen study underpinning
@@ -3606,6 +3670,14 @@ head-shoulders-clinical-strength-dandruff-defense-selenium-sulfide:
     "itch relief" honestly framed as sensory cooling, not added antifungal. SLS base noted. No product-specific
     trial; grade rests on active + monograph. Health notable/established (labeled) + modest/preliminary
     (off-label fungal acne). Opus critic unavailable (cap); verified in Opus main loop; assurance sonnet.'
+  score: 9
+  verdict: publish
+head-shoulders-clinical-strength-dandruff-defense-sensitive-scalp-selenium-sulfide:
+  last_reviewed: '2026-08-30'
+  note: 'PRODUCT wave. Selenium sulfide antidandruff. Opus critic (score 9): all label quotes/actives/inactives/directions
+    verbatim vs DailyMed SPL eedc5e57; moved a footnote so the ketoconazole-comparison stat rests on its
+    study wikilink not DailyMed. Mechanism OUT to [[selenium-sulfide]]. No dashes. Opus critic inline
+    (workflow pipeline); assurance opus.'
   score: 9
   verdict: publish
 heather-d-rogers:
@@ -4895,6 +4967,15 @@ mederma:
     points thin-evidence caveat to stretch-marks. No critic (brand type); self-checked; assurance sonnet.'
   score: 8
   verdict: publish
+mederma-advanced-scar-gel:
+  last_reviewed: '2026-08-30'
+  note: PRODUCT wave. Onion-extract (Cepalin) scar gel. Opus critic (score 92) FIXED an allantoin hallucination
+    (not in INCI - replaced with actual humectants panthenol/sodium hyaluronate) + corrected a Yuan 2021
+    overstatement to match abstract. INCI (incidecoder) + 3 PubMed PMIDs + brand claim verbatim. Onion-extract
+    scar evidence mixed/weak. Real incidecoder photo. Brand source cached. No dashes. Opus critic inline
+    (workflow pipeline); assurance opus.
+  score: 9
+  verdict: publish
 mederma-stretch-marks-therapy:
   last_reviewed: '2026-08-22'
   note: 'PRODUCT cron (stretch-marks cluster). Composition + all brand claims verified VERBATIM against
@@ -5142,6 +5223,14 @@ mexoryl-400-mce:
     '
   score: 9
   verdict: revise-then-fixed
+mg217-medicated-coal-tar-ointment:
+  last_reviewed: '2026-08-30'
+  note: 'PRODUCT wave. OTC coal tar ointment for psoriasis/seb-derm. Opus critic (score 95): all label
+    facts (active/inactives/uses/directions/warnings/Prop65/NDC) verbatim vs DailyMed SPL; no fixes needed.
+    Keratolytic/antipruritic modest/established; disease evidence linked OUT to [[psoriasis]]/[[seborrheic-dermatitis]]/[[coal-tar]].
+    No dashes. Opus critic inline (workflow pipeline); assurance opus.'
+  score: 9
+  verdict: publish
 michelle-wong:
   last_reviewed: '2026-07-31'
   note: Person stub filled (daily person cron; Sonnet draft + orchestrator self-check, no Opus critic;
@@ -5551,6 +5640,15 @@ neutrogena-rapid-wrinkle-repair-retinol-serum:
 
     '
   score: 10
+  verdict: publish
+neutrogena-tgel-extra-strength-therapeutic-shampoo:
+  last_reviewed: '2026-08-30'
+  note: 'PRODUCT wave. Coal tar 1% shampoo (DISCONTINUED per neutrogena.com verbatim title/meta). Strength
+    corroborated by FDA store-brand comparator label (Solubilized Coal Tar Extract 4.0% = Coal Tar 1.0%).
+    Opus critic (score 8) removed unverifiable on-package brand quotes, added omitted colorants to inactive
+    list. Main-loop: added label-grounded Common Marketing Claims section (cleared WARN). Brand source
+    cached. No dashes. Opus critic inline (workflow pipeline); assurance opus.'
+  score: 8
   verdict: publish
 neutrogena-tgel-therapeutic-shampoo-coal-tar:
   last_reviewed: '2026-08-23'
@@ -8177,6 +8275,15 @@ the-ordinary-azelaic-acid-suspension-10:
     All load-bearing quotes verified (Rachel Ho review, price, AZELEX/FINACEA indications). The one unverifiable
     item was an Allure Ava Shamban verbatim quote (paywalled); dropped it, keeping the attributed 'budget
     pick' listing. lint/style/verify clean.
+  score: 9
+  verdict: publish
+the-ordinary-caffeine-solution-5-egcg:
+  last_reviewed: '2026-08-30'
+  note: 'PRODUCT wave. Caffeine 5% + EGCG eye serum. Opus critic (score 9): INCI (incidecoder) + price
+    (theordinary.com) + 2 PubMed mechanism refs verbatim. Skeptical: no trial of finished serum; caffeine
+    periorbital evidence thin, linked OUT to [[caffeine]]. Main-loop reworded mechanism sentence to clear
+    uncited-stat WARN. Real incidecoder photo. Brand source cached. No dashes. Opus critic inline (workflow
+    pipeline); assurance opus.'
   score: 9
   verdict: publish
 the-ordinary-deciem:

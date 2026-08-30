@@ -1955,21 +1955,21 @@
 - name: MG217 Medicated Coal Tar Ointment
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: psoriasis
   source: OTC FDA-monograph coal tar (2%) product for psoriasis; verify Drug Facts
     via DailyMed
 - name: The Ordinary Caffeine Solution 5% + EGCG
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: goals
   source: Widely used OTC under-eye serum (caffeine 5% + epigallocatechin gallatyl
     glucoside); brand ingredient list + price sourceable via Deciem/The Ordinary
 - name: Mederma Advanced Scar Gel (Cepalin/onion extract + allantoin)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: mederma-stretch-marks-therapy
   source: Mederma flagship onion-extract scar gel; brand product page has composition
     + claims; scar-evidence angle (onion extract RCTs)
@@ -1984,14 +1984,14 @@
     sulfide)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: head-shoulders-clinical-strength-dandruff-defense-selenium-sulfide
   source: Sibling SLS-free/sensitive variant, DailyMed setid eedc5e57-8047-eab7; different
     base, same active
 - name: Neutrogena T/Gel Extra Strength Therapeutic Shampoo (coal tar 1%)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: neutrogena-tgel-therapeutic-shampoo-coal-tar
   source: Higher-strength (coal tar 1%) sibling; Walgreens Extra Strength T-Gel equivalent
     on DailyMed setid 7f681386; ties to coal-tar cluster
@@ -2019,7 +2019,7 @@
 - name: Elidel (pimecrolimus 1% cream)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: atopic-dermatitis
   source: Topical calcineurin inhibitor for atopic dermatitis; DailyMed Drug Facts;
     the Rx steroid-sparing option named on the AD hub
@@ -2208,6 +2208,20 @@
   source: null
 - name: SkinMedica Lytera 2.0 Pigment Correcting Serum (contains hexylresorcinol +
     niacinamide) - verify brand INCI
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null
+- name: Protopic (tacrolimus ointment 0.03%/0.1%) - the more potent topical calcineurin
+    inhibitor, Elidel's comparator; verify DailyMed
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null
+- name: Loprox (ciclopirox olamine) shampoo/gel - Rx antifungal for seb-derm; verify
+    DailyMed
   type: product
   priority: 5
   status: pending

@@ -908,7 +908,7 @@
 - name: Matrixyl (Palmitoyl Pentapeptide-4 / Palmitoyl Tripeptide-1)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: 'LIST cron: the flagship signal-peptide (in The Ordinary Buffet);
     needed to build a peptides-by-evidence class ladder (currently only argireline
     + copper-peptides pages exist)'
@@ -942,13 +942,13 @@
 - name: Acetyl Octapeptide-3 (SNAP-8)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3583886/
 - name: Ciclopirox (ciclopirox olamine)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: INGREDIENT cron (ketoconazole page; the other first-line antifungal
     for seborrhoeic dermatitis, RR 1.09 vs ketoconazole in Cochrane CD008138)
   source: https://pubmed.ncbi.nlm.nih.gov/25933684/
@@ -988,7 +988,7 @@
 - name: Genistein (soy isoflavone, topical)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: anti-aging-perimenopause
   source: https://www.youtube.com/watch?v=sGqERq0xBxc
 - name: Selenium disulfide (selenium sulfide)
@@ -1002,7 +1002,7 @@
 - name: Zinc pyrithione (pyrithione zinc)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: selsun-blue-selenium-sulfide-shampoo
   source: Major OTC antidandruff antifungal active (Head & Shoulders; Selsun Blue
     Itchy Dry Scalp, DailyMed setid c491014d); Malassezia-active, relevant to seborrheic-dermatitis
@@ -1010,7 +1010,7 @@
 - name: Ciclopirox (topical antifungal)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: selsun-blue-itchy-dry-scalp-pyrithione-zinc
   source: First-line topical antifungal for seborrheic dermatitis per [[seborrheic-dermatitis]]
     (DermNet/Cochrane), used like ketoconazole; no ingredient page yet
@@ -1024,7 +1024,7 @@
 - name: Coenzyme Q10 (ubiquinone), topical
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: Named as a vitamin C alternative antioxidant by derm Dr Sam Ellis (video
     carded on ascorbic-acid-vitamin-c); topical anti-aging/antioxidant literature
@@ -1032,7 +1032,7 @@
 - name: Green tea extract / EGCG (Camellia sinensis)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: Named as a stable antioxidant vitamin C alternative by derm Dr Sam Ellis
     (video carded on ascorbic-acid-vitamin-c); topical polyphenol antioxidant evidence.
@@ -1133,7 +1133,7 @@
 - name: Caffeine (topical)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: goals
   source: Common topical antioxidant/vasoconstrictor in eye products; evidence base
     for under-eye puffiness/dark circles and as an antioxidant; ties to a future dark-circles
@@ -1170,7 +1170,7 @@
 - name: Ciclopirox (olamine) topical antifungal
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: seborrheic-dermatitis
   source: Broad-spectrum topical antifungal used for seborrheic dermatitis and tinea;
     DailyMed-labeled (Rx shampoo/cream); rounds out the antidandruff/antifungal ingredient
@@ -1259,7 +1259,7 @@
 - name: Palmitoyl Pentapeptide-4 (Matrixyl, topical peptide)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: the-ordinary-argireline-solution-10
   source: The other headline anti-aging peptide (Matrixyl); appears across The Ordinary
     + many serums; needs its own evidence page beside [[argireline-acetyl-hexapeptide-8]]
@@ -1324,7 +1324,7 @@
 - name: Ciclopirox (ciclopiroxolamine, topical antifungal)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: propylene-glycol
   source: https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=ciclopirox
 - name: Phenylethyl Resorcinol (Symwhite 377) - resorcinol-family tyrosinase inhibitor;
@@ -1336,6 +1336,13 @@
   source: null
 - name: Thiamidol (isobutylamido-thiazolyl-resorcinol) - Beiersdorf/Eucerin tyrosinase
     inhibitor; verify Mann 2018 PMID 29596947
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null
+- name: Solubilized coal tar extract (Neutar) - the coal tar delivery form in T/Gel;
+    distinct from crude coal tar, verify concentration equivalence
   type: ingredient
   priority: 5
   status: pending

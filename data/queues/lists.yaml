@@ -144,3 +144,10 @@
   status: pending
   discovered_from: null
   source: 'discover_hubs: 2 mentions across the video archive; no list hub yet'
+- name: Best under-eye / dark-circle products by evidence (caffeine, vitamin K, retinoids,
+    brightening actives)
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null
