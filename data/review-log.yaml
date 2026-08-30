@@ -2407,6 +2407,14 @@ deo-2013-kojic-acid-combinations-rct:
     '
   score: 10
   verdict: publish
+desai-2025-thiamidol-formulations-facial-hyperpigmentation-pmid-41329151:
+  last_reviewed: '2026-08-30'
+  note: 'STUDY wave. Thiamidol serum vs regimen for facial hyperpigmentation, n=90, 12wk. All figures
+    + result quotes verbatim vs eutils PMID 41329151. Critic: no fixes needed; key limitation = no vehicle-control
+    arm; funding not disclosed in abstract (honest framing). Backs [[thiamidol]]. No dashes. Opus critic
+    inline (workflow pipeline); assurance opus.'
+  score: 9
+  verdict: publish
 dhaliwal-2019-bakuchiol-retinol-photoaging:
   last_reviewed: '2026-08-03'
   note: 'Study page filled (daily study cron; Sonnet draft + Opus profile-reviewer critic, tool-constrained
@@ -3362,6 +3370,13 @@ galderma:
     '
   score: 8
   verdict: self-reviewed
+gallo-2025-low-dose-minocycline-dfd-29-microflora-pmid-41329149:
+  last_reviewed: '2026-08-30'
+  note: STUDY wave. Low-dose oral minocycline (DFD-29/Emrosi) impact on skin/GI/vaginal microflora, rosacea
+    drug. All figures verbatim vs eutils PMID 41329149. Backs [[rosacea]]. No dashes. Opus critic inline
+    (workflow pipeline); assurance opus.
+  score: 9
+  verdict: publish
 garcia-fulton-1996-kojic-acid-hydroquinone:
   last_reviewed: '2026-08-08'
   note: 'Opus re-fetched PubMed abstract (PMID 8634807) and verified: n=39, all three percentages (51%/28%/21%),
@@ -3703,6 +3718,14 @@ griffiths-1993-tretinoin-collagen-restoration:
     '
   score: 9
   verdict: revise-then-fixed
+grimes-2026-malassezin-vs-hydroquinone-facial-hyperpigmentation-pmid-41493251:
+  last_reviewed: '2026-08-30'
+  note: 'STUDY wave. Novel topical malassezin 0.75% vs hydroquinone 4%, split-face n=20, 12wk. All values
+    verbatim vs eutils PMID 41493251. Critic: honest key limitation (small n; no-difference does not prove
+    equivalence). Backs [[hyperpigmentation]]. No dashes. Opus critic inline (workflow pipeline); assurance
+    opus.'
+  score: 9
+  verdict: publish
 grubauer-1989-tewl-barrier-recovery-signal:
   last_reviewed: '2026-08-08'
   note: 'Opus re-fetched PubMed 2723540 and verified all four quoted phrases are verbatim in the abstract,
@@ -4267,6 +4290,14 @@ kiehls-ultra-facial-cream:
     defect fixed in Opus main loop: added primary-source URLs to the squalane/ceramides footnotes (were
     URL-less -> verify ERROR). Re-gated clean.'
   score: 7
+  verdict: publish
+kircik-2025-ruxolitinib-vs-triamcinolone-atopic-dermatitis-pmid-41037525:
+  last_reviewed: '2026-08-30'
+  note: STUDY wave. Ruxolitinib cream vs triamcinolone in AD, phase 2 dose-ranging. All 8 efficacy/p figures
+    verbatim vs eutils PMID 41037525. Critic REMOVED unverifiable "employees of Incyte" author claim (not
+    in abstract). Backs [[opzelura-ruxolitinib-cream]]. No dashes. Opus critic inline (workflow pipeline);
+    assurance opus.
+  score: 9
   verdict: publish
 klairs-egf-blue-youth-activating-drop:
   last_reviewed: '2026-08-07'
@@ -5228,6 +5259,13 @@ melissa-k-levin:
     '
   score: 8
   verdict: self-reviewed
+merola-2026-apremilast-genital-psoriasis-discreet-pmid-41369155:
+  last_reviewed: '2026-08-30'
+  note: 'STUDY wave. Apremilast for genital psoriasis, phase 3 DISCREET, n=289. All figures verbatim vs
+    eutils PMID 41369155. Critic: key limitation = no placebo after wk16 + Amgen funding disclosed. Backs
+    [[psoriasis]]. No dashes. Opus critic inline (workflow pipeline); assurance opus.'
+  score: 9
+  verdict: publish
 metrogel-metronidazole-1-gel:
   last_reviewed: '2026-08-08'
   note: 'Opus focused product-specific review of metrogel-metronidazole-1-gel (draft): DailyMed source
@@ -5391,6 +5429,14 @@ morgado-carrasco-2026-efficacy-of-a-topical-formulation-on-skin-hydrat:
     '
   score: 9
   verdict: flag-then-fixed
+morrow-2026-weight-loss-psoriasis-severity-meta-analysis-pmid-41416383:
+  last_reviewed: '2026-08-30'
+  note: STUDY wave. Weight-loss interventions on psoriasis severity, systematic review + meta-analysis.
+    All n/RR/CI/I2 verbatim vs eutils PMID 41416383. Critic fixed odds->likelihood (RR not OR), clarified
+    funding (British Skin Foundation/NIHR grants, not industry). Leads with high heterogeneity I2 up to
+    96%. Backs [[psoriasis]]. No dashes. Opus critic inline (workflow pipeline); assurance opus.
+  score: 9
+  verdict: publish
 mosteirin-2026-efficacy-and-safety-of-amino-acid-enriched-hyaluronic-a:
   last_reviewed: '2026-08-08'
   note: 'Opus re-fetched PMID 41724989 and verified all figures: n=11 studies, WSRS MD 2.15 (2.00-2.30),
