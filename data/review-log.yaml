@@ -463,6 +463,16 @@ anua-niacinamide-10-tranexamic-acid-4-serum:
     '
   score: 9
   verdict: revise-then-fixed
+anua-pdrn-caffeine-rejuvenating-eye-cream:
+  last_reviewed: '2026-08-30'
+  note: 'PRODUCT wave6. Anua PDRN + caffeine eye cream, $20 Ulta. Opus critic (revise->fixed): CAUGHT
+    WRONG BRAND (draft said Avon ANEW; real product is ANUA - auto-transcript mis-rendered "Anua" as "ANEW").
+    Corrected brand throughout + sourced to Dr Dray video (description names it, cached transcript). Main-loop
+    RENAMED file+slug avon->anua, fixed PDRN ingredient page ref. Skeptical: Dr Dray calls "PDRN a gimmick";
+    both actives thin evidence. OUT to [[polydeoxyribonucleotide-pdrn]]/[[caffeine]]/[[dark-circles]].
+    No dashes. Opus critic inline (workflow pipeline); assurance opus.'
+  score: 8
+  verdict: publish
 anua-rice-70-glow-milky-toner:
   last_reviewed: '2026-08-07'
   note: 'Anua Rice 70 Glow Milky Toner (link-out; on [[niacinamide]], [[arbutin]]). Wave-5 queue drain.
@@ -995,6 +1005,21 @@ best-azelaic-acid-products:
     pages. lint+verify+style+voice clean; footnotes intact.
   score: 8
   verdict: self-reviewed
+best-benzoyl-peroxide-products:
+  last_reviewed: '2026-08-30'
+  note: 'LIST wave2. Best-of BPO acne products. Opus critic (9): all 6 slugs resolve, Twyneo (PMID 37356627)/Kawashima
+    (28295516) verbatim; attached 2 orphaned footnotes. Retinoid+BPO combos top, 10% wash last (irritation
+    w/o added efficacy). Main-loop: kawashima URL + AI-ese. No dashes. Opus critic inline (workflow pipeline);
+    assurance opus.'
+  score: 9
+  verdict: publish
+best-body-acne-products:
+  last_reviewed: '2026-08-30'
+  note: 'LIST wave2. Best-of body acne products. Opus critic (95): all 6 slugs resolve, StatPearls verbatim.
+    Rx retinoid+BPO>OTC adapalene>BPO washes>SA. Routes [[body-acne]]. Main-loop: not-just reworded. No
+    dashes. Opus critic inline (workflow pipeline); assurance opus.'
+  score: 9
+  verdict: publish
 best-body-anti-aging-products:
   last_reviewed: '2026-08-30'
   note: 'LIST wave. Best-of body anti-aging products (retinoids + AHAs). Opus critic (9): all 5 slugs
@@ -1026,6 +1051,14 @@ best-ceramide-moisturizers:
     '
   score: 9
   verdict: self-reviewed
+best-eczema-moisturizers-by-evidence:
+  last_reviewed: '2026-08-30'
+  note: 'LIST wave2. Best-of eczema moisturizers. Opus critic (9): all 9 slugs resolve, Cochrane (PMID
+    28166390) verbatim incl "no reliable evidence one moisturiser better than another". Honest: barrier-appropriate
+    formulation not false efficacy hierarchy. Main-loop: nea/spada URLs. No dashes. Opus critic inline
+    (workflow pipeline); assurance opus.'
+  score: 9
+  verdict: publish
 best-gentle-cleansers-sensitive-skin:
   last_reviewed: '2026-08-06'
   note: 'Best-of gentle cleansers filled from stub (Sonnet draft + controller lint/verify/style; curatorial,
@@ -1134,6 +1167,20 @@ best-products-dark-spots-hyperpigmentation:
     check per list-cron flow.'
   score: 9
   verdict: publish
+best-retinol-products-by-strength:
+  last_reviewed: '2026-08-30'
+  note: 'LIST wave2. OTC retinoid products by potency (29 slugs all resolve!). Opus critic (9): molecule-over-%
+    ladder (adapalene>retinaldehyde>disclosed retinol>esters), honest that strength!=better. Routes [[retinoids]]/[[retinol]]/[[retinaldehyde]].
+    No dashes. Opus critic inline (workflow pipeline); assurance opus.'
+  score: 9
+  verdict: publish
+best-scalp-psoriasis-shampoos:
+  last_reviewed: '2026-08-30'
+  note: 'LIST wave2. Best-of medicated scalp shampoos. Opus critic (9): all 8 slugs resolve, ketoconazole/selenium/ciclopirox
+    stats verbatim-consistent. Antifungals>coal tar>adjuncts. Honest: manages scale not disease. Main-loop:
+    3 cochrane/farris footnote URLs. No dashes. Opus critic inline (workflow pipeline); assurance opus.'
+  score: 9
+  verdict: publish
 best-sunscreens-daily-wear:
   last_reviewed: '2026-08-08'
   note: 'The Best Daily-Wear Sunscreens on the Site (best-of LIST; curatorial, references only published
@@ -1202,6 +1249,14 @@ best-vitamin-c-serums:
     '
   score: 8
   verdict: self-reviewed
+best-vitamin-c-serums-by-evidence:
+  last_reviewed: '2026-08-30'
+  note: 'LIST wave2. Best-of vitamin C serums. Opus critic (93): all 12 slugs resolve, Pinnell 2001/Lin
+    2005/Murray 2008 verbatim vs eutils. Honest: L-ascorbic gold-standard (CE Ferulic + dupes) top, derivatives
+    bottom. Routes [[ascorbic-acid-vitamin-c]]. No dashes. Opus critic inline (workflow pipeline); assurance
+    opus.'
+  score: 9
+  verdict: publish
 beta-glucan:
   last_reviewed: '2026-08-08'
   note: 'Opus re-fetched all six cited PubMed primaries (Zykova 25411598, Medeiros 22942695, Jesenak 26654776,
@@ -2074,6 +2129,14 @@ cln-bodywash:
     != hypochlorous acid (Tower 28). Grades modest/preliminary x2. Opus main-loop critic; assurance sonnet.'
   score: 9
   verdict: publish
+cln-facial-cleanser-sodium-hypochlorite:
+  last_reviewed: '2026-08-30'
+  note: 'PRODUCT wave6. Dilute-bleach facial cleanser. Opus critic (9): Bakaa 2022 + Chopra 2017 verbatim
+    vs eutils, INCI/price vs brand+incidecoder. Honestly notes NO salicylic acid in this variant. Active
+    evidence OUT to [[sodium-hypochlorite]]. Main-loop: incidecoder footnote->inline. No dashes. Opus
+    critic inline (workflow pipeline); assurance opus.'
+  score: 9
+  verdict: publish
 coal-tar:
   last_reviewed: '2026-08-22'
   note: 'INGREDIENT cron. Tier mid. (Prior queued item "Itraconazole (oral antifungal)" resolved as OUT
@@ -2525,6 +2588,14 @@ dhaliwal-2019-bakuchiol-retinol-photoaging:
     '
   score: 10
   verdict: publish
+dhs-tar-gel-shampoo:
+  last_reviewed: '2026-08-30'
+  note: 'PRODUCT wave6. OTC coal tar 0.5% shampoo. Opus critic (90): SPL quotes/actives/warnings verbatim
+    vs DailyMed setid e17bd664; REMOVED a fabricated "coal tar solution 2.5%" quote absent from the SPL.
+    Sibling to [[neutrogena-tgel-therapeutic-shampoo-coal-tar]]. OUT to [[coal-tar]]. No dashes. Opus
+    critic inline (workflow pipeline); assurance opus.'
+  score: 9
+  verdict: publish
 diethylamino-hydroxybenzoyl-hexyl-benzoate:
   last_reviewed: '2026-08-04'
   note: 'Ingredient page filled (daily ingredient cron; Sonnet draft + Opus profile-reviewer critic).
@@ -2959,6 +3030,14 @@ eltamd-uv-elements-tinted-mineral-sunscreen-spf-44:
     comparator; no fixes. Visible-light tint for [[hyperpigmentation]]. Links [[sunscreen-uv-filters]],[[iron-oxides]].
     No dashes. Opus critic inline (workflow pipeline); assurance opus.'
   score: 9
+  verdict: publish
+eltamd-uv-physical-tinted-mineral-spf-41:
+  last_reviewed: '2026-08-30'
+  note: 'PRODUCT wave6. OTC pure-mineral tinted water-resistant sunscreen (ZnO+TiO2). Opus critic (8):
+    actives/quotes/price verbatim vs DailyMed SPL + eltamd.com; fixed broken sibling wikilink + restored
+    label typo "ethylkhexyl stearate" verbatim. Links [[sunscreen-uv-filters]]/[[iron-oxides]]. No dashes.
+    Opus critic inline (workflow pipeline); assurance opus.'
+  score: 8
   verdict: publish
 emrosi-minocycline-extended-release:
   last_reviewed: '2026-08-30'
@@ -5397,6 +5476,14 @@ merola-2026-apremilast-genital-psoriasis-discreet-pmid-41369155:
     eutils PMID 41369155. Critic: key limitation = no placebo after wk16 + Amgen funding disclosed. Backs
     [[psoriasis]]. No dashes. Opus critic inline (workflow pipeline); assurance opus.'
   score: 9
+  verdict: publish
+mesoestetic-mesoprotech-melan-130-pigment-control:
+  last_reviewed: '2026-08-30'
+  note: 'PRODUCT wave6. Tinted high-SPF for melasma. Opus critic (7) did strong anti-hallucination: FIXED
+    invented price ($63->$60.49 vs Wayback) + REMOVED fabricated brand-description quotes; DailyMed actives
+    (3/8/8.5%) verbatim. Skeptical. OUT to [[sunscreen-uv-filters]]/[[iron-oxides]]/[[hyperpigmentation]].
+    Brand cached. No dashes. Opus critic inline (workflow pipeline); assurance opus.'
+  score: 8
   verdict: publish
 metrogel-metronidazole-1-gel:
   last_reviewed: '2026-08-08'
@@ -8377,6 +8464,15 @@ stretch-marks:
     scope. centella/HA mentioned but explicitly NOT ranked (insufficient evidence). Both sources primary,
     verify clean. Opus critic agent unavailable (cap); verified in the Opus main loop; assurance sonnet.'
   score: 9
+  verdict: publish
+strivectin-tl-advanced-tightening-neck-cream:
+  last_reviewed: '2026-08-30'
+  note: 'PRODUCT wave6. Cosmetic neck firming cream $99. Opus critic (9): quotes/INCI/price verbatim vs
+    brand; fixed broken [[strivectin]] link + en-dash. Skeptical: only brand-run 35-subject consumer-perception
+    panel, no independent trial; "tightening" cosmetic. OUT to [[peptides]]/[[neck-chest-decolletage-care]].
+    Main-loop: incidecoder->inline, in-house reworded. No dashes. Opus critic inline (workflow pipeline);
+    assurance opus.'
+  score: 8
   verdict: publish
 sulfur:
   last_reviewed: '2026-08-08'

@@ -1682,7 +1682,7 @@
 - name: EltaMD UV Physical Broad-Spectrum SPF 41 (tinted mineral)
   type: product
   priority: 4
-  status: pending
+  status: done
   discovered_from: PRODUCT cron (EltaMD UV Clear page; the pure-mineral tinted EltaMD, a contrast to UV Clear's octinoxate
     hybrid)
   source: https://eltamd.com/
@@ -1897,7 +1897,7 @@
 - name: DHS Tar Gel (coal tar) Shampoo
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: neutrogena-tgel-therapeutic-shampoo-coal-tar
   source: Person & Covey coal tar shampoo on DailyMed (setid e17bd664); another antidandruff/coal-tar option for the tier
     list
@@ -1948,7 +1948,7 @@
 - name: Mesoestetic Mesoprotech Melan 130 Pigment Control (tinted SPF50+)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: dark-circles
   source: Agent found 'Melan 130' is mesoestetic's tinted pigment-control sunscreen (mesoestetic.com), NOT an SVR product;
     corrected re-queue of the garbled SVR Melan 130 entry
@@ -1968,13 +1968,13 @@
 - name: CLn Facial Cleanser (sodium hypochlorite)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: cln-bodywash
   source: Face version of CLn BodyWash for perioral dermatitis/acne-prone skin; clnwash.com/products/facial-cleanser
 - name: Avon ANEW PDRN Caffeine Rejuvenating Eye Cream
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: polydeoxyribonucleotide-pdrn
   source: 'Dr Dray - PDRN Skincare: Is It Worth the Hype? (video, bktMjB3Ke2o); $20 at Ulta; topical PDRN/sodium DNA + caffeine
     eye cream'
@@ -2073,7 +2073,7 @@
 - name: StriVectin TL Advanced Tightening Neck Cream Plus
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: neck-chest-decolletage-care
   source: https://www.strivectin.com/tl-advanced-tightening-neck-cream-plus/2401.html
 - name: Sorilux (calcipotriene 0.005% foam) for plaque psoriasis

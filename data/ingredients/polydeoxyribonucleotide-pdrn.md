@@ -56,7 +56,7 @@ videos:
   url: https://www.youtube.com/watch?v=bktMjB3Ke2o
   posted: '2026-08-24'
   related: []
-  thesis: Board-certified dermatologist Dr Dray explains PDRN (polydeoxyribonucleotide), the trending ingredient that shows up on skincare labels as sodium DNA and is typically isolated from salmon or trout milt. Reviewing the ANEW PDRN caffeine eye cream (about 20 dollars at Ulta) as her example, she is skeptical of the hype, noting that the buzz around injected PDRN does not automatically carry over to what a leave-on topical can deliver.
+  thesis: Board-certified dermatologist Dr Dray explains PDRN (polydeoxyribonucleotide), the trending ingredient that shows up on skincare labels as sodium DNA and is typically isolated from salmon or trout milt. Reviewing the Anua PDRN Caffeine Rejuvenating Eye Cream (about 20 dollars at Ulta) as her example, she is skeptical of the hype, noting that the buzz around injected PDRN does not automatically carry over to what a leave-on topical can deliver.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
