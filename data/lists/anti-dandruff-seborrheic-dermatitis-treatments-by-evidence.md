@@ -12,9 +12,9 @@ tier_list:
     inhibitors are adjuncts. Each note points to the product on the site for that
     treatment
   caption: Dandruff and seborrheic dermatitis are the same Malassezia-driven process,
-    managed rather than cured; topical antifungals are first-line, with ketoconazole
-    and selenium sulfide best-evidenced, pyrithione zinc a solid established option,
-    and calcineurin inhibitors or salicylic acid as adjuncts.
+    managed rather than cured; topical antifungals are first-line, with ketoconazole,
+    selenium sulfide, and ciclopirox best-evidenced, pyrithione zinc a solid established
+    option, and calcineurin inhibitors or salicylic acid as adjuncts.
   items:
   - note: The best-evidenced topical antifungal. A Cochrane review found ketoconazole
       2% cut the risk of failed clearance by 31% versus placebo (details on [[ketoconazole]]).
@@ -28,6 +28,12 @@ tier_list:
       Its highest-quality data is scalp seborrheic dermatitis, not fungal acne specifically.
     slug: selsun-blue-selenium-sulfide-shampoo
     tier: strong
+  - note: Ciclopirox (ciclopirox olamine), a hydroxypyridone antifungal. A Cochrane
+      review found it comparable to ketoconazole for seborrheic dermatitis, making
+      it another genuinely first-line topical antifungal; details and the trial numbers
+      are on [[ciclopirox]].
+    slug: ciclopirox
+    tier: strong
   - note: Pyrithione zinc, the Head & Shoulders active. A long-established over-the-counter
       antidandruff antifungal used the same way as the others, but with thinner recent
       head-to-head evidence on this site than ketoconazole or selenium sulfide.
@@ -35,8 +41,8 @@ tier_list:
     tier: moderate
   - note: Piroctone olamine (Octopirox), an anti-Malassezia antifungal used in shampoos
       and leave-on "fungal-acne-safe" products. In a manufacturer head-to-head it
-      roughly matched pyrithione zinc for dandruff, but its isolated evidence is
-      limited and industry-weighted; see [[piroctone-olamine]].
+      roughly matched pyrithione zinc for dandruff, but its isolated evidence is limited
+      and industry-weighted; see [[piroctone-olamine]].
     slug: piroctone-olamine
     tier: moderate
   - note: A topical calcineurin inhibitor, a steroid-sparing option for facial seborrheic
@@ -51,7 +57,7 @@ tier_list:
     tier: weak
   title: Anti-dandruff and seborrheic dermatitis treatments by evidence
 type: list
-updated: '2026-08-27'
+updated: '2026-08-30'
 ---
 
 Dandruff and seborrheic dermatitis are the same condition at different severities: an inflammatory response to the Malassezia yeast that lives on everyone's skin, covered on [[seborrheic-dermatitis]] (and, on the trunk and face as itchy bumps, on [[fungal-acne]]). It is managed, not cured, so treatment is used in courses and repeated when it relapses.
