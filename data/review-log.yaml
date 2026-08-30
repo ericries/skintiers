@@ -2556,19 +2556,16 @@ downs-2016-oxybenzone-coral-toxicity:
   score: 9
   verdict: revise-then-fixed
 doxycycline-oral-subantimicrobial:
-  last_reviewed: '2026-08-08'
-  note: 'Opus verification of doxycycline-oral-subantimicrobial: re-fetched all 5 cited primaries (Del
-    Rosso 2007 abstract, Kanada 2012, Skidmore 2003, Husein-ElAhmed 2021 meta-analysis, Oracea FDA/DailyMed
-    label). Every statistic (lesion-count changes, P values, AE %, n=537, RR 1.45/0.52 CIs) and every
-    mechanism/meta-analysis/FDA quote verified verbatim; efficacy is honestly bounded (papulopustular
-    only, no proven edge over active drugs, resistance claim correctly flagged as from a different 20
-    mg acne regimen). Verdict revise: two Del Rosso limitation phrases are quoted but sit in the paywalled
-    full text (not the abstract) so are currently unverifiable, and one FDA quote has a boundary error
-    ("should not be used for" is not the label''s wording).
-
-    '
+  last_reviewed: '2026-08-30'
+  note: 'INGREDIENT cron (maintenance). Added perioral-dermatitis Rubric row + tier:good (matches existing
+    solid phase-III RCT rosacea rubric). StatPearls quote verbatim vs eutils PMID 30247843 ''Other treatment
+    approaches include topical metronidazole, topical calcineurin inhibitors, and oral tetracycline antibiotics''.
+    HONEST: no controlled evidence for the 40mg SUB-antimicrobial dose in perioral dermatitis (only standard-dose
+    tetracycline use). CAUGHT+AVOIDED miscitation: PMID 42037824 is low-dose ISOTRETINOIN not doxycycline
+    (dox failed there) - not cited. Added [[perioral-dermatitis]] to See Also. Inline main-loop critic;
+    assurance opus.'
   score: 9
-  verdict: revise-then-fixed
+  verdict: publish
 dr-g:
   last_reviewed: '2026-08-08'
   note: 'Lean brand discovery-aid page (daily-drain, Sonnet-only, no Opus critic per roster). <=180 words:

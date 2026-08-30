@@ -1,11 +1,12 @@
 ---
-analyzed: '2026-08-08'
-assurance: sonnet
+analyzed: '2026-08-30'
+assurance: opus
 name: Doxycycline (oral, sub-antimicrobial 40mg, Oracea)
 slug: doxycycline-oral-subantimicrobial
 status: published
+tier: good
 type: ingredient
-updated: '2026-08-08'
+updated: '2026-08-30'
 ---
 
 Sub-antimicrobial dose doxycycline is an oral prescription capsule (brand Oracea, 30 mg immediate-release plus 10 mg delayed-release doxycycline beads, 40 mg total, once daily) formulated to stay below the blood level needed to kill bacteria, so it is intended to work as an anti-inflammatory rather than as an antibiotic.[^fda] It is FDA-approved specifically for the inflammatory bumps and pustules of [[rosacea-papulopustular]], not for the flushing and visible vessels of erythematotelangiectatic [[rosacea]].[^fda]
@@ -17,6 +18,10 @@ Sub-antimicrobial dose doxycycline is an oral prescription capsule (brand Oracea
 **Inflammatory papules and pustules of rosacea (oral, 40 mg once daily).**
 - *Effect size: modest and dose-consistent.* Across two identical trials, active treatment cut inflammatory lesion counts roughly twice as much as placebo from a baseline of about 20 lesions.[^delrosso] "A real reduction in inflammatory bumps and pustules over placebo in two identical trials, on top of a baseline of about 20 lesions."
 - *Evidence quality: solid for this specific presentation, not for rosacea generally.* Two double-blind, placebo-controlled phase III trials (n=537 combined) plus a 2021 pooled meta-analysis that found the dose clearly beat placebo but was not shown to beat other active rosacea drugs.[^delrosso][^husein] "Solid trial evidence for papulopustular rosacea; no controlled evidence for the flushing/redness-only form, and no proven edge over other active treatments."
+
+**Perioral (periorificial) dermatitis (oral, off-label at this dose).**
+- *Effect size: presumed but unquantified for the 40 mg dose.* Oral tetracyclines including doxycycline are a recognized treatment for perioral dermatitis, listed by a StatPearls review among the standard approaches ("topical metronidazole, topical calcineurin inhibitors, and oral tetracycline antibiotics"), and the anti-inflammatory rationale is the same one behind its rosacea use; but that role is established at standard antibiotic doses, not the 40 mg sub-antimicrobial capsule this page describes.[^statpearls] "Mechanistically plausible and clinically used for the condition, but not studied at the sub-antimicrobial dose."
+- *Evidence quality: weak for this specific dose.* No randomized trial has tested the 40 mg sub-antimicrobial formulation in perioral dermatitis; the tetracycline role there rests on standard-dose use and expert guidance. The condition itself is covered on [[perioral-dermatitis]].[^statpearls]
 
 **Anti-inflammatory mechanism, not an antibiotic effect (laboratory evidence).**
 - *Effect size: not applicable; a mechanism finding, not a clinical outcome.* Keratinocyte and skin-extract experiments show doxycycline blocking the enzyme pathway that activates cathelicidin, the inflammatory peptide implicated in rosacea.[^kanada] "Explains a plausible route from dose to effect; does not by itself measure how much a patient improves."
@@ -43,10 +48,11 @@ Sub-antimicrobial dose doxycycline is an oral prescription capsule (brand Oracea
 
 ## See Also
 
-[[rosacea]] [[rosacea-papulopustular]] [[yamasaki-2007-cathelicidin-rosacea]]
+[[rosacea]] [[rosacea-papulopustular]] [[perioral-dermatitis]] [[yamasaki-2007-cathelicidin-rosacea]]
 
 ## Sources
 
+[^statpearls]: Tolaymat L, Syed HA, Hall MR. "Perioral Dermatitis." In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2026 (updated 2025 Jul 6). On treatment: "Other treatment approaches include topical metronidazole, topical calcineurin inhibitors, and oral tetracycline antibiotics." The review does not specify the 40 mg sub-antimicrobial doxycycline formulation. https://pubmed.ncbi.nlm.nih.gov/30247843/ (accessed 2026-08-30)
 [^delrosso]: Del Rosso JQ, Webster GF, Jackson M, Rendon M, Rich P, Torok H, Bradshaw M. Two randomized phase III clinical trials evaluating anti-inflammatory dose doxycycline (40-mg doxycycline, USP capsules) administered once daily for treatment of rosacea. Journal of the American Academy of Dermatology, 2007;56(5):791-802. https://pubmed.ncbi.nlm.nih.gov/17367893/ (accessed 2026-08-08)
 [^kanada]: Kanada KN, Nakatsuji T, Gallo RL. Doxycycline indirectly inhibits proteolytic activation of tryptic kallikrein-related peptidases and activation of cathelicidin. Journal of Investigative Dermatology, 2012;132(5):1435-1442. https://pubmed.ncbi.nlm.nih.gov/22336948/ (accessed 2026-08-08)
 [^skidmore]: Skidmore R, Kovach R, Walker C, Thomas J, Bradshaw M, Leyden J, Powala C, Ashley R. Effects of subantimicrobial-dose doxycycline in the treatment of moderate acne. Archives of Dermatology, 2003;139(4):459-464. https://pubmed.ncbi.nlm.nih.gov/12707093/ (accessed 2026-08-08)

@@ -668,264 +668,237 @@
   priority: 5
   status: done
   discovered_from: afzal-2024-thd-trial
-  source: 'Afzal 2024 (PMID 38525606) + Meyer review: the antioxidant that improved
-    outcomes where THD-ascorbate-alone did not; emerging stabilizing active'
+  source: 'Afzal 2024 (PMID 38525606) + Meyer review: the antioxidant that improved outcomes where THD-ascorbate-alone did
+    not; emerging stabilizing active'
 - name: Polydeoxyribonucleotide (PDRN)
   type: ingredient
   priority: 5
   status: done
   discovered_from: chemist-confessions
-  source: 'Chemist Confessions IOPE Stem 3 review: salmon-PDRN active with a split-face
-    clinical vs injection; trending repair ingredient'
+  source: 'Chemist Confessions IOPE Stem 3 review: salmon-PDRN active with a split-face clinical vs injection; trending repair
+    ingredient'
 - name: Ergothioneine
   type: ingredient
   priority: 5
   status: done
   discovered_from: shereene-idriss
-  source: 'Dr. Shereene Idriss + Augustinus Bader The C Serum: antioxidant the body
-    cannot synthesize; emerging topical active with published research'
+  source: 'Dr. Shereene Idriss + Augustinus Bader The C Serum: antioxidant the body cannot synthesize; emerging topical active
+    with published research'
 - name: Mandelic acid
   type: ingredient
   priority: 5
   status: done
   discovered_from: gap
-  source: Common AHA absent from the site; needed for the exfoliating-acids strength
-    list
+  source: Common AHA absent from the site; needed for the exfoliating-acids strength list
 - name: Alpha arbutin
   type: ingredient
   priority: 5
   status: done
   discovered_from: brightening
-  source: Common OTC tyrosinase-inhibitor brightener (hydroquinone derivative); needed
-    for the brightening/melasma tier lists
+  source: Common OTC tyrosinase-inhibitor brightener (hydroquinone derivative); needed for the brightening/melasma tier lists
 - name: Lactobionic acid
   type: ingredient
   priority: 4
   status: done
   discovered_from: exfoliating-acids-by-strength
-  source: A polyhydroxy acid (PHA) explicitly named on the exfoliating-acids-by-strength
-    ladder as a gentler, slow-penetrating option not yet profiled; sits below lactic
-    acid on the penetration axis. Larger molecule, strong humectant, low-irritation
+  source: A polyhydroxy acid (PHA) explicitly named on the exfoliating-acids-by-strength ladder as a gentler, slow-penetrating
+    option not yet profiled; sits below lactic acid on the penetration axis. Larger molecule, strong humectant, low-irritation
     exfoliant.
 - name: Capryloyl salicylic acid (LHA)
   type: ingredient
   priority: 4
   status: done
   discovered_from: la-roche-posay-effaclar-duo
-  source: A lipophilic derivative of salicylic acid (LHA) used as a surface exfoliant
-    across several on-site products (La Roche-Posay Effaclar Duo/Mat, CeraVe SA).
-    Larger, more lipophilic than salicylic acid, so it exfoliates more superficially;
+  source: A lipophilic derivative of salicylic acid (LHA) used as a surface exfoliant across several on-site products (La
+    Roche-Posay Effaclar Duo/Mat, CeraVe SA). Larger, more lipophilic than salicylic acid, so it exfoliates more superficially;
     would extend the exfoliating-acids-by-strength ladder.
 - name: Hydroxyethyl urea
   type: ingredient
   priority: 5
   status: done
   discovered_from: gold-bond-rough-and-bumpy-daily-skin-therapy
-  source: A urea-derived humectant (distinct from urea itself, so it does not inherit
-    urea's keratolytic evidence) appearing in on-site formulas (Gold Bond Rough &
-    Bumpy, Aestura Atobarrier). A short page would let those products link to it cleanly
+  source: A urea-derived humectant (distinct from urea itself, so it does not inherit urea's keratolytic evidence) appearing
+    in on-site formulas (Gold Bond Rough & Bumpy, Aestura Atobarrier). A short page would let those products link to it cleanly
     instead of hand-waving 'urea derivative.'
 - name: Cholecalciferol (topical vitamin D)
   type: ingredient
   priority: 5
   status: done
   discovered_from: cerave-sa-body-lotion-for-rough-and-bumpy-skin
-  source: 'Topical vitamin D3 appears in several on-site formulas (CeraVe SA lotion,
-    others) and is marketed with antioxidant claims; a short evidence page would let
-    products link out instead of hand-waving. Note: distinct from the vitamin-d-topical
+  source: 'Topical vitamin D3 appears in several on-site formulas (CeraVe SA lotion, others) and is marketed with antioxidant
+    claims; a short evidence page would let products link out instead of hand-waving. Note: distinct from the vitamin-d-topical
     page if that covers a different form - dedupe at draft time.'
 - name: Ectoin
   type: ingredient
   priority: 5
   status: done
   discovered_from: null
-  source: A bacterial-derived protective osmolyte/extremolyte used as a humectant
-    and barrier/anti-irritant agent; already appears in on-site formulas (e.g. Dr.G
-    Green Mild Up Sun) with no ingredient page to link to. Has small controlled trials
-    in atopic dermatitis and rhinitis. Dedup vs any existing osmolyte page at draft
-    time.
+  source: A bacterial-derived protective osmolyte/extremolyte used as a humectant and barrier/anti-irritant agent; already
+    appears in on-site formulas (e.g. Dr.G Green Mild Up Sun) with no ingredient page to link to. Has small controlled trials
+    in atopic dermatitis and rhinitis. Dedup vs any existing osmolyte page at draft time.
 - name: Matrixyl (palmitoyl pentapeptide-4)
   type: ingredient
   priority: 4
   status: done
   discovered_from: best-peptide-serums
-  source: The best-known signal/matrix peptide (palmitoyl pentapeptide-4, and Matrixyl
-    3000 with palmitoyl tripeptide-1/tetrapeptide-7); appears in many on-site peptide
-    products but has no ingredient page. Needed to populate a Peptides-by-evidence
-    ladder. Manufacturer (Sederma) collagen-stimulation data + a few small trials
-    - grade conservatively.
+  source: The best-known signal/matrix peptide (palmitoyl pentapeptide-4, and Matrixyl 3000 with palmitoyl tripeptide-1/tetrapeptide-7);
+    appears in many on-site peptide products but has no ingredient page. Needed to populate a Peptides-by-evidence ladder.
+    Manufacturer (Sederma) collagen-stimulation data + a few small trials - grade conservatively.
 - name: Polyglutamic acid
   type: ingredient
   priority: 4
   status: done
   discovered_from: null
-  source: A high-molecular-weight humectant peptide (increasingly common, marketed
-    as holding more water than hyaluronic acid) now in reformulated serums incl. Vichy
-    Mineral 89 and others; no ingredient page yet. Needed to responsibly cover HA+PGA
-    'moisture acid' serums. Grade conservatively - evidence is mostly manufacturer/in-vitro
-    water-holding data, few controlled skin trials.
+  source: A high-molecular-weight humectant peptide (increasingly common, marketed as holding more water than hyaluronic acid)
+    now in reformulated serums incl. Vichy Mineral 89 and others; no ingredient page yet. Needed to responsibly cover HA+PGA
+    'moisture acid' serums. Grade conservatively - evidence is mostly manufacturer/in-vitro water-holding data, few controlled
+    skin trials.
 - name: Ammonium lactate
   type: ingredient
   priority: 5
   status: done
   discovered_from: null
-  source: The ammonium salt of lactic acid (the AHA form in AmLactin, Gold Bond Rough
-    & Bumpy, CeraVe SA lotions); currently we link 'ammonium lactate' to [[lactic-acid]]
-    but a short dedicated page could carry the salt-form/keratolytic specifics. Dedup
-    vs [[lactic-acid]] at draft time - may just enrich that page instead.
+  source: The ammonium salt of lactic acid (the AHA form in AmLactin, Gold Bond Rough & Bumpy, CeraVe SA lotions); currently
+    we link 'ammonium lactate' to [[lactic-acid]] but a short dedicated page could carry the salt-form/keratolytic specifics.
+    Dedup vs [[lactic-acid]] at draft time - may just enrich that page instead.
 - name: Topical erythromycin
   type: ingredient
   priority: 5
   status: done
   discovered_from: null
-  source: A first-line topical for perioral dermatitis (StatPearls) and an acne topical
-    antibiotic, but no ingredient page yet - so it's named in prose on [[perioral-dermatitis]]
-    but absent from the tier list. A stub would let the PD hub cite it like metronidazole/clindamycin.
-    Pairs with the existing [[clindamycin-topical]] page.
+  source: A first-line topical for perioral dermatitis (StatPearls) and an acne topical antibiotic, but no ingredient page
+    yet - so it's named in prose on [[perioral-dermatitis]] but absent from the tier list. A stub would let the PD hub cite
+    it like metronidazole/clindamycin. Pairs with the existing [[clindamycin-topical]] page.
 - name: 'doxycycline-oral-subantimicrobial: add perioral-dermatitis Rubric row'
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
-  source: 'ENHANCEMENT (critic-flagged): the doxycycline page is graded only for the
-    40mg anti-inflammatory rosacea dose, but [[perioral-dermatitis]] cites it for
-    the 100mg full-antimicrobial PD use. Add a ''Perioral dermatitis (oral, 100mg)''
-    Rubric row citing Tempark 2014 (''best valid evidence'') + Gray 2022 (day-20,
-    low-certainty) so the link substantiates its claim.'
+  source: 'ENHANCEMENT (critic-flagged): the doxycycline page is graded only for the 40mg anti-inflammatory rosacea dose,
+    but [[perioral-dermatitis]] cites it for the 100mg full-antimicrobial PD use. Add a ''Perioral dermatitis (oral, 100mg)''
+    Rubric row citing Tempark 2014 (''best valid evidence'') + Gray 2022 (day-20, low-certainty) so the link substantiates
+    its claim.'
 - name: Zinc PCA
   type: ingredient
   priority: 5
   status: done
   discovered_from: null
-  source: A zinc salt of PCA used as a humectant and marketed for sebum control; appears
-    in on-site formulas (e.g. Anua Azelaic Acid serum) with no ingredient page to
-    link to. Evidence is mostly in-vitro/manufacturer sebum-reduction data - grade
+  source: A zinc salt of PCA used as a humectant and marketed for sebum control; appears in on-site formulas (e.g. Anua Azelaic
+    Acid serum) with no ingredient page to link to. Evidence is mostly in-vitro/manufacturer sebum-reduction data - grade
     conservatively. Relevant to oily-skin.
 - name: Madecassoside
   type: ingredient
   priority: 5
   status: done
   discovered_from: null
-  source: The purified centella asiatica triterpenoid (soothing/barrier), a key active
-    in LRP Hyalu B5 and Cicaplast and many K-beauty products, with no ingredient page
-    - so it's currently unlinkable. Distinct from the whole-extract [[centella-asiatica]]
-    page (a single isolated compound). Has small controlled trials in wound healing/barrier.
-    https://pubmed.ncbi.nlm.nih.gov/?term=madecassoside+skin
+  source: The purified centella asiatica triterpenoid (soothing/barrier), a key active in LRP Hyalu B5 and Cicaplast and many
+    K-beauty products, with no ingredient page - so it's currently unlinkable. Distinct from the whole-extract [[centella-asiatica]]
+    page (a single isolated compound). Has small controlled trials in wound healing/barrier. https://pubmed.ncbi.nlm.nih.gov/?term=madecassoside+skin
 - name: Polysilicone-15 (Parsol SLX)
   type: ingredient
   priority: 6
   status: done
   discovered_from: null
-  source: A modern organic/polymeric UV filter (dimethico-diethylbenzalmalonate) common
-    in Korean/EU sunscreens but not in the US OTC monograph; would extend the [[sunscreen-uv-filters]]
-    filter set and the per-product UV charts. Verify presence across on-site Korean
-    sunscreens at draft time.
+  source: A modern organic/polymeric UV filter (dimethico-diethylbenzalmalonate) common in Korean/EU sunscreens but not in
+    the US OTC monograph; would extend the [[sunscreen-uv-filters]] filter set and the per-product UV charts. Verify presence
+    across on-site Korean sunscreens at draft time.
 - name: Tasmannia lanceolata (Tasmanian pepperberry) extract
   type: ingredient
   priority: 6
   status: done
   discovered_from: null
-  source: An anti-inflammatory botanical (mountain pepper) used in The Ordinary's
-    acid serums to reduce irritation; niche, low priority - likely a brief page or
-    skip. Appears in the-ordinary-mandelic/lactic/glycolic INCI.
+  source: An anti-inflammatory botanical (mountain pepper) used in The Ordinary's acid serums to reduce irritation; niche,
+    low priority - likely a brief page or skip. Appears in the-ordinary-mandelic/lactic/glycolic INCI.
 - name: Ketoconazole (topical)
   type: ingredient
   priority: 4
   status: done
   discovered_from: null
-  source: The first-line topical azole antifungal for Malassezia folliculitis / fungal
-    acne (and seborrheic dermatitis); no page yet, so [[fungal-acne]] names it in
-    prose but cannot tier it. Real RCT evidence (Nizoral 2%). Would let the fungal-acne
+  source: The first-line topical azole antifungal for Malassezia folliculitis / fungal acne (and seborrheic dermatitis); no
+    page yet, so [[fungal-acne]] names it in prose but cannot tier it. Real RCT evidence (Nizoral 2%). Would let the fungal-acne
     tier list carry its actual first-line treatment.
 - name: Zinc pyrithione
   type: ingredient
   priority: 5
   status: done
   discovered_from: null
-  source: An antifungal/antimicrobial active in medicated washes (Head & Shoulders,
-    some cleansers) used for Malassezia (seb derm, dandruff, fungal acne); no page
-    yet. Would extend [[fungal-acne]] + a future seborrheic-dermatitis hub.
+  source: An antifungal/antimicrobial active in medicated washes (Head & Shoulders, some cleansers) used for Malassezia (seb
+    derm, dandruff, fungal acne); no page yet. Would extend [[fungal-acne]] + a future seborrheic-dermatitis hub.
 - name: Selenium sulfide (topical)
   type: ingredient
   priority: 4
   status: done
   discovered_from: null
-  source: A topical antifungal for Malassezia (fungal acne, seb derm, dandruff), named
-    in the [[fungal-acne]] caption as a first-line topical but with no ingredient
-    page yet; completes the antifungal set alongside the queued ketoconazole + zinc
+  source: A topical antifungal for Malassezia (fungal acne, seb derm, dandruff), named in the [[fungal-acne]] caption as a
+    first-line topical but with no ingredient page yet; completes the antifungal set alongside the queued ketoconazole + zinc
     pyrithione. Real OTC evidence (Selsun/Head & Shoulders). https://pubmed.ncbi.nlm.nih.gov/?term=selenium+sulfide+malassezia
 - name: Oxybenzone
   type: ingredient
   priority: 5
   status: done
   discovered_from: null
-  source: A common older UV filter (benzophenone-3) referenced in sunscreen-allergy/comparison
-    videos; no page yet, so those video cards can't link to it. Would extend [[sunscreen-uv-filters]].
+  source: A common older UV filter (benzophenone-3) referenced in sunscreen-allergy/comparison videos; no page yet, so those
+    video cards can't link to it. Would extend [[sunscreen-uv-filters]].
 - name: Pramoxine hydrochloride
   type: ingredient
   priority: 5
   status: done
   discovered_from: null
-  source: A topical OTC external analgesic (anti-itch) active with an FDA monograph,
-    used in anti-itch lotions (CeraVe/Aveeno Itch Relief); no page yet. Would let
-    itch-relief products cite their actual active. Real monograph + small trials for
+  source: A topical OTC external analgesic (anti-itch) active with an FDA monograph, used in anti-itch lotions (CeraVe/Aveeno
+    Itch Relief); no page yet. Would let itch-relief products cite their actual active. Real monograph + small trials for
     pruritus.
 - name: Ensulizole (Phenylbenzimidazole sulfonic acid)
   type: ingredient
   priority: 5
   status: done
-  discovered_from: 'INGREDIENT cron (polysilicone-15): water-soluble UVB filter, IS
-    in the US monograph (contrast to polysilicone-15); extends UV-filter coverage'
+  discovered_from: 'INGREDIENT cron (polysilicone-15): water-soluble UVB filter, IS in the US monograph (contrast to polysilicone-15);
+    extends UV-filter coverage'
   source: https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-352/subpart-B/section-352.10
 - name: Tris-Biphenyl Triazine (Tinosorb A2B)
   type: ingredient
   priority: 5
   status: done
-  discovered_from: 'INGREDIENT cron: newer EU-approved broad-spectrum filter; UV-filter
-    ladder gap'
+  discovered_from: 'INGREDIENT cron: newer EU-approved broad-spectrum filter; UV-filter ladder gap'
   source: https://ec.europa.eu/growth/tools-databases/cosing/reference/annexes/list/VI
 - name: Enzacamene (4-Methylbenzylidene camphor)
   type: ingredient
   priority: 5
   status: done
-  discovered_from: 'INGREDIENT cron: EU UVB filter under endocrine-disruptor scrutiny
-    (skeptical-value page); UV-filter coverage'
+  discovered_from: 'INGREDIENT cron: EU UVB filter under endocrine-disruptor scrutiny (skeptical-value page); UV-filter coverage'
   source: https://ec.europa.eu/growth/tools-databases/cosing/reference/annexes/list/VI
 - name: Hydrocortisone (OTC topical corticosteroid)
   type: ingredient
   priority: 5
   status: done
-  discovered_from: 'CONDITION cron (atopic-dermatitis tier_list): OTC first-line anti-inflammatory
-    referenced in the tier_list by-line but uncharted; high-value catalog gap'
+  discovered_from: 'CONDITION cron (atopic-dermatitis tier_list): OTC first-line anti-inflammatory referenced in the tier_list
+    by-line but uncharted; high-value catalog gap'
   source: https://www.ncbi.nlm.nih.gov/books/NBK553196/
 - name: Electrolyzed water / hypochlorous acid delivery (in-vivo stability)
   type: ingredient
   priority: 5
   status: done
-  discovered_from: 'PRODUCT cron: deepen hypochlorous-acid page with stability/formulation
-    evidence'
+  discovered_from: 'PRODUCT cron: deepen hypochlorous-acid page with stability/formulation evidence'
   source: https://pubmed.ncbi.nlm.nih.gov/?term=hypochlorous+acid+skin
 - name: Matrixyl (Palmitoyl Pentapeptide-4 / Palmitoyl Tripeptide-1)
   type: ingredient
   priority: 5
   status: done
-  discovered_from: 'LIST cron: the flagship signal-peptide (in The Ordinary Buffet);
-    needed to build a peptides-by-evidence class ladder (currently only argireline
-    + copper-peptides pages exist)'
+  discovered_from: 'LIST cron: the flagship signal-peptide (in The Ordinary Buffet); needed to build a peptides-by-evidence
+    class ladder (currently only argireline + copper-peptides pages exist)'
   source: https://pubmed.ncbi.nlm.nih.gov/?term=palmitoyl+pentapeptide+skin
 - name: Palmitoyl Tetrapeptide-7
   type: ingredient
   priority: 5
   status: done
-  discovered_from: 'LIST cron: anti-inflammatory signal peptide paired with tripeptide-1
-    in Matrixyl 3000; peptide-ladder coverage'
+  discovered_from: 'LIST cron: anti-inflammatory signal peptide paired with tripeptide-1 in Matrixyl 3000; peptide-ladder
+    coverage'
   source: https://pubmed.ncbi.nlm.nih.gov/?term=palmitoyl+tetrapeptide-7
 - name: 4-Butylresorcinol (Rucinol)
   type: ingredient
   priority: 5
   status: done
-  discovered_from: 'CONDITION cron (hyperpigmentation): tyrosinase inhibitor named
-    in Idriss/Chemist-Confessions pigment videos; extends the pigment tier_list'
+  discovered_from: 'CONDITION cron (hyperpigmentation): tyrosinase inhibitor named in Idriss/Chemist-Confessions pigment videos;
+    extends the pigment tier_list'
   source: https://pubmed.ncbi.nlm.nih.gov/?term=4-butylresorcinol+melasma
 - name: Palmitoyl Pentapeptide-4 (Matrixyl / pal-KTTKS)
   type: ingredient
@@ -949,8 +922,8 @@
   type: ingredient
   priority: 5
   status: done
-  discovered_from: INGREDIENT cron (ketoconazole page; the other first-line antifungal
-    for seborrhoeic dermatitis, RR 1.09 vs ketoconazole in Cochrane CD008138)
+  discovered_from: INGREDIENT cron (ketoconazole page; the other first-line antifungal for seborrhoeic dermatitis, RR 1.09
+    vs ketoconazole in Cochrane CD008138)
   source: https://pubmed.ncbi.nlm.nih.gov/25933684/
 - name: Selenium sulfide
   type: ingredient
@@ -962,22 +935,21 @@
   type: ingredient
   priority: 4
   status: pending
-  discovered_from: 'INGREDIENT cron: topical Rx acne active (Aczone 5%/7.5%); not
-    yet covered'
+  discovered_from: 'INGREDIENT cron: topical Rx acne active (Aczone 5%/7.5%); not yet covered'
   source: https://dailymed.nlm.nih.gov/
 - name: Roflumilast (topical)
   type: ingredient
   priority: 4
   status: pending
-  discovered_from: 'CONDITION cron (seb-derm): Roflumilast 0.3% foam, recent FDA approval
-    for seborrheic dermatitis per DermNet; not covered'
+  discovered_from: 'CONDITION cron (seb-derm): Roflumilast 0.3% foam, recent FDA approval for seborrheic dermatitis per DermNet;
+    not covered'
   source: https://dailymed.nlm.nih.gov/
 - name: Coal tar
   type: ingredient
   priority: 3
   status: pending
-  discovered_from: 'CONDITION cron (seb-derm/psoriasis): traditional anti-dandruff/scalp
-    keratolytic-antifungal; DermNet lists it'
+  discovered_from: 'CONDITION cron (seb-derm/psoriasis): traditional anti-dandruff/scalp keratolytic-antifungal; DermNet lists
+    it'
   source: https://dailymed.nlm.nih.gov/
 - name: Methyl estradiol propanoate (MEP)
   type: ingredient
@@ -996,295 +968,269 @@
   priority: 4
   status: pending
   discovered_from: selsun-blue-selenium-sulfide-shampoo
-  source: Active of Selsun Blue (DailyMed setid f97e458c) + on-site Farris 2026 RCT
-    (PMID 41931685, matched 2% ketoconazole); antifungal vs Malassezia, relevant to
-    fungal-acne + seborrheic-dermatitis
+  source: Active of Selsun Blue (DailyMed setid f97e458c) + on-site Farris 2026 RCT (PMID 41931685, matched 2% ketoconazole);
+    antifungal vs Malassezia, relevant to fungal-acne + seborrheic-dermatitis
 - name: Zinc pyrithione (pyrithione zinc)
   type: ingredient
   priority: 5
   status: done
   discovered_from: selsun-blue-selenium-sulfide-shampoo
-  source: Major OTC antidandruff antifungal active (Head & Shoulders; Selsun Blue
-    Itchy Dry Scalp, DailyMed setid c491014d); Malassezia-active, relevant to seborrheic-dermatitis
-    + fungal-acne
+  source: Major OTC antidandruff antifungal active (Head & Shoulders; Selsun Blue Itchy Dry Scalp, DailyMed setid c491014d);
+    Malassezia-active, relevant to seborrheic-dermatitis + fungal-acne
 - name: Ciclopirox (topical antifungal)
   type: ingredient
   priority: 5
   status: done
   discovered_from: selsun-blue-itchy-dry-scalp-pyrithione-zinc
-  source: First-line topical antifungal for seborrheic dermatitis per [[seborrheic-dermatitis]]
-    (DermNet/Cochrane), used like ketoconazole; no ingredient page yet
+  source: First-line topical antifungal for seborrheic dermatitis per [[seborrheic-dermatitis]] (DermNet/Cochrane), used like
+    ketoconazole; no ingredient page yet
 - name: Aloe vera (aloe barbadensis leaf juice)
   type: ingredient
   priority: 6
   status: done
   discovered_from: selsun-blue-itchy-dry-scalp-pyrithione-zinc
-  source: Extremely common soothing/moisturizing botanical (inactive in this shampoo
-    + across the catalog); real but modest evidence, worth a skeptical page
+  source: Extremely common soothing/moisturizing botanical (inactive in this shampoo + across the catalog); real but modest
+    evidence, worth a skeptical page
 - name: Coenzyme Q10 (ubiquinone), topical
   type: ingredient
   priority: 5
   status: done
   discovered_from: null
-  source: Named as a vitamin C alternative antioxidant by derm Dr Sam Ellis (video
-    carded on ascorbic-acid-vitamin-c); topical anti-aging/antioxidant literature
-    exists (e.g., Hoppe 1999). Catalog gap
+  source: Named as a vitamin C alternative antioxidant by derm Dr Sam Ellis (video carded on ascorbic-acid-vitamin-c); topical
+    anti-aging/antioxidant literature exists (e.g., Hoppe 1999). Catalog gap
 - name: Green tea extract / EGCG (Camellia sinensis)
   type: ingredient
   priority: 5
   status: done
   discovered_from: null
-  source: Named as a stable antioxidant vitamin C alternative by derm Dr Sam Ellis
-    (video carded on ascorbic-acid-vitamin-c); topical polyphenol antioxidant evidence.
-    Catalog gap
+  source: Named as a stable antioxidant vitamin C alternative by derm Dr Sam Ellis (video carded on ascorbic-acid-vitamin-c);
+    topical polyphenol antioxidant evidence. Catalog gap
 - name: Piroctone olamine (octopirox)
   type: ingredient
   priority: 6
   status: done
   discovered_from: null
-  source: Established anti-Malassezia antifungal, the 'fungal-acne-safe' alternative
-    active; relevant to the [[fungal-acne]] + [[seborrheic-dermatitis]] cluster. No
-    ingredient page yet
+  source: Established anti-Malassezia antifungal, the 'fungal-acne-safe' alternative active; relevant to the [[fungal-acne]]
+    + [[seborrheic-dermatitis]] cluster. No ingredient page yet
 - name: Iron oxides (tinted-sunscreen pigments)
   type: ingredient
   priority: 4
   status: pending
   discovered_from: geeta-yadav
-  source: Visible-light/HEV protection pigments in tinted sunscreen; central to reducing
-    melasma/hyperpigmentation in deeper skin tones (Dr Geeta Yadav's tinted-sunscreen
-    cards on [[sunscreen-uv-filters]]); real ingredient gap
+  source: Visible-light/HEV protection pigments in tinted sunscreen; central to reducing melasma/hyperpigmentation in deeper
+    skin tones (Dr Geeta Yadav's tinted-sunscreen cards on [[sunscreen-uv-filters]]); real ingredient gap
 - name: Salicylic acid (as a seb-derm/dandruff keratolytic)
   type: ingredient
   priority: 8
   status: done
   discovered_from: null
-  source: Already has a page; skip if dup - only queue if the seb-derm keratolytic
-    angle warrants a section
+  source: Already has a page; skip if dup - only queue if the seb-derm keratolytic angle warrants a section
 - name: Propylene glycol (50% topical, anti-Malassezia)
   type: ingredient
   priority: 6
   status: done
   discovered_from: fungal-acne
-  source: One of the topical options with reported benefit for fungal acne (propylene
-    glycol 50% twice daily, Saunte, on [[fungal-acne]]); no ingredient page; would
-    join the anti-Malassezia tier_list
+  source: One of the topical options with reported benefit for fungal acne (propylene glycol 50% twice daily, Saunte, on [[fungal-acne]]);
+    no ingredient page; would join the anti-Malassezia tier_list
 - name: Itraconazole (oral antifungal)
   type: ingredient
   priority: 8
   status: done
   discovered_from: fungal-acne
-  source: Oral antifungal for resistant fungal acne / Malassezia folliculitis (100-200
-    mg daily 1-4 wk, 69-100% clinical effect per Saunte on [[fungal-acne]]); systemic
-    drug, bracket as context per non-topical scope
+  source: Oral antifungal for resistant fungal acne / Malassezia folliculitis (100-200 mg daily 1-4 wk, 69-100% clinical effect
+    per Saunte on [[fungal-acne]]); systemic drug, bracket as context per non-topical scope
 - name: Alpha-bisabolol (bisabolol)
   type: ingredient
   priority: 7
   status: done
   discovered_from: tower-28-sos-faceguard-spf-30
-  source: Chamomile-derived soothing/anti-inflammatory cosmetic active in many sensitive-skin
-    products (incl. this FaceGuard + serum bases); real but modest evidence; catalog
-    gap
+  source: Chamomile-derived soothing/anti-inflammatory cosmetic active in many sensitive-skin products (incl. this FaceGuard
+    + serum bases); real but modest evidence; catalog gap
 - name: Decyl glucoside (mild non-ionic surfactant)
   type: ingredient
   priority: 7
   status: done
   discovered_from: tower-28-sos-daily-balancing-gel-cleanser
-  source: Sugar-derived mild non-ionic surfactant, the workhorse gentle cleanser base
-    in this + many sensitive-skin washes (glucoside surfactants); low-irritation;
-    catalog gap tying the gentle-cleanser cluster together
+  source: Sugar-derived mild non-ionic surfactant, the workhorse gentle cleanser base in this + many sensitive-skin washes
+    (glucoside surfactants); low-irritation; catalog gap tying the gentle-cleanser cluster together
 - name: Cocoa butter (Theobroma cacao seed butter)
   type: ingredient
   priority: 7
   status: done
   discovered_from: osman-2008-cocoa-butter-for-prevention-of-striae-gravidarum-rct
-  source: Ubiquitous plant-butter emollient; a placebo-controlled RCT (Osman 2008)
-    shows NO stretch-mark benefit, but it is a legit moisturizing occlusive-emollient
-    butter (cocoa mass polyphenols); catalog gap anchoring the Palmer's/stretch-marks
+  source: Ubiquitous plant-butter emollient; a placebo-controlled RCT (Osman 2008) shows NO stretch-mark benefit, but it is
+    a legit moisturizing occlusive-emollient butter (cocoa mass polyphenols); catalog gap anchoring the Palmer's/stretch-marks
     cluster
 - name: Coal tar (antidandruff / seborrheic dermatitis)
   type: ingredient
   priority: 8
   status: done
   discovered_from: anti-dandruff-seborrheic-dermatitis-treatments-by-evidence
-  source: Classic OTC antidandruff/seb-derm/psoriasis active (Neutrogena T/Gel); FDA-monograph,
-    real evidence trail; catalog gap for the Malassezia cluster + a psoriasis angle
+  source: Classic OTC antidandruff/seb-derm/psoriasis active (Neutrogena T/Gel); FDA-monograph, real evidence trail; catalog
+    gap for the Malassezia cluster + a psoriasis angle
 - name: Hexylresorcinol
   type: ingredient
   priority: 6
   status: done
   discovered_from: murad
-  source: Tyrosinase-inhibiting brightening/pigment active (in the Murad dark-spot
-    serum + others); real evidence trail for hyperpigmentation; catalog gap
+  source: Tyrosinase-inhibiting brightening/pigment active (in the Murad dark-spot serum + others); real evidence trail for
+    hyperpigmentation; catalog gap
 - name: Calcipotriene (calcipotriol)
   type: ingredient
   priority: 5
   status: done
   discovered_from: psoriasis
-  source: FDA-approved topical vitamin D3 analog, first-line for plaque psoriasis;
-    named in the psoriasis treatment ladder (Burshtein 2026 expert position paper,
-    PMID 42482862)
+  source: FDA-approved topical vitamin D3 analog, first-line for plaque psoriasis; named in the psoriasis treatment ladder
+    (Burshtein 2026 expert position paper, PMID 42482862)
 - name: Tapinarof (Vtama)
   type: ingredient
   priority: 5
   status: done
   discovered_from: psoriasis
-  source: FDA-approved nonsteroidal topical aryl-hydrocarbon-receptor agonist for
-    plaque psoriasis; first-line topical per Burshtein 2026 (PMID 42482862)
+  source: FDA-approved nonsteroidal topical aryl-hydrocarbon-receptor agonist for plaque psoriasis; first-line topical per
+    Burshtein 2026 (PMID 42482862)
 - name: Caffeine (topical)
   type: ingredient
   priority: 5
   status: done
   discovered_from: goals
-  source: Common topical antioxidant/vasoconstrictor in eye products; evidence base
-    for under-eye puffiness/dark circles and as an antioxidant; ties to a future dark-circles
-    goal
+  source: Common topical antioxidant/vasoconstrictor in eye products; evidence base for under-eye puffiness/dark circles and
+    as an antioxidant; ties to a future dark-circles goal
 - name: Allium cepa (onion bulb) extract
   type: ingredient
   priority: 5
   status: done
   discovered_from: mederma-stretch-marks-therapy
-  source: The 'Cepalin' active in Mederma scar/stretch-mark products; onion extract
-    has multiple scar RCTs (mostly showing no benefit over vehicle) - real evidence
-    page
+  source: The 'Cepalin' active in Mederma scar/stretch-mark products; onion extract has multiple scar RCTs (mostly showing
+    no benefit over vehicle) - real evidence page
 - name: Piroctone olamine
   type: ingredient
   priority: 5
   status: pending
   discovered_from: head-shoulders-clinical-strength-dandruff-defense-selenium-sulfide
-  source: Common non-monograph antidandruff antifungal (widely used outside US OTC
-    monograph); would round out the antidandruff ingredient set
+  source: Common non-monograph antidandruff antifungal (widely used outside US OTC monograph); would round out the antidandruff
+    ingredient set
 - name: Ammonium lactate (lactic acid) topical
   type: ingredient
   priority: 5
   status: pending
   discovered_from: kang-1996-topical-tretinoin-improves-early-stretch-marks-rct
-  source: AmLactin active; studied for striae and xerosis; complements the stretch-marks
-    + keratosis-pilaris clusters
+  source: AmLactin active; studied for striae and xerosis; complements the stretch-marks + keratosis-pilaris clusters
 - name: Encapsulated retinol (delivery systems)
   type: ingredient
   priority: 5
   status: pending
   discovered_from: murad-retinol-youth-renewal-serum
-  source: Encapsulation/stabilized-delivery retinol tech (as in Murad 4x Active Retinoid);
-    ties to the retinol page; formulation-stability angle
+  source: Encapsulation/stabilized-delivery retinol tech (as in Murad 4x Active Retinoid); ties to the retinol page; formulation-stability
+    angle
 - name: Ciclopirox (olamine) topical antifungal
   type: ingredient
   priority: 5
   status: done
   discovered_from: seborrheic-dermatitis
-  source: Broad-spectrum topical antifungal used for seborrheic dermatitis and tinea;
-    DailyMed-labeled (Rx shampoo/cream); rounds out the antidandruff/antifungal ingredient
-    set
+  source: Broad-spectrum topical antifungal used for seborrheic dermatitis and tinea; DailyMed-labeled (Rx shampoo/cream);
+    rounds out the antidandruff/antifungal ingredient set
 - name: Vitamin K (topical, phytonadione)
   type: ingredient
   priority: 5
   status: done
   discovered_from: dark-circles
-  source: Often marketed for under-eye/vascular dark circles + bruising; thin evidence;
-    would round out the dark-circles actives
+  source: Often marketed for under-eye/vascular dark circles + bruising; thin evidence; would round out the dark-circles actives
 - name: Iron oxides (sunscreen tint / visible-light protection)
   type: ingredient
   priority: 5
   status: done
   discovered_from: eltamd-uv-aox-elements-tinted-mineral-spf-50
-  source: Pigments in tinted sunscreens that block visible light; real melasma/PIH
-    relevance; referenced by multiple tinted-SPF products but no page yet
+  source: Pigments in tinted sunscreens that block visible light; real melasma/PIH relevance; referenced by multiple tinted-SPF
+    products but no page yet
 - name: Argan oil (topical)
   type: ingredient
   priority: 5
   status: pending
   discovered_from: palmers-cocoa-butter-skin-therapy-oil
-  source: Emollient oil common in body/hair products (Palmers, many); moisturizing
-    evidence + weak anti-aging claims; would back multiple product pages
+  source: Emollient oil common in body/hair products (Palmers, many); moisturizing evidence + weak anti-aging claims; would
+    back multiple product pages
 - name: Vitamin E (tocopherol, topical)
   type: ingredient
   priority: 5
   status: pending
   discovered_from: palmers-cocoa-butter-skin-therapy-oil
-  source: Ubiquitous antioxidant; notably NEGATIVE/mixed evidence for scars (Baumann
-    1999 RCT worsened cosmesis); high-value skeptical ingredient page backing many
-    scar/stretch-mark products
+  source: Ubiquitous antioxidant; notably NEGATIVE/mixed evidence for scars (Baumann 1999 RCT worsened cosmesis); high-value
+    skeptical ingredient page backing many scar/stretch-mark products
 - name: Coco-glucoside (alkyl polyglucoside surfactant)
   type: ingredient
   priority: 5
   status: pending
   discovered_from: decyl-glucoside
-  source: Sibling APG surfactant in the same family reviewed by Alfalah 2017 (Dermatitis);
-    cross-reacts with decyl glucoside - common gentle-cleanser ingredient worth its
-    own evidence+allergy page
+  source: Sibling APG surfactant in the same family reviewed by Alfalah 2017 (Dermatitis); cross-reacts with decyl glucoside
+    - common gentle-cleanser ingredient worth its own evidence+allergy page
 - name: Sodium hypochlorite (topical / dilute-bleach therapy)
   type: ingredient
   priority: 5
   status: done
   discovered_from: cln-bodywash
-  source: Active in CLn BodyWash + dilute-bleach bath therapy; Bakaa 2022 + Chopra
-    2017 meta-analyses (Ann Allergy Asthma Immunol) - high-value ingredient page backing
-    multiple eczema/folliculitis products
+  source: Active in CLn BodyWash + dilute-bleach bath therapy; Bakaa 2022 + Chopra 2017 meta-analyses (Ann Allergy Asthma
+    Immunol) - high-value ingredient page backing multiple eczema/folliculitis products
 - name: Cocamidopropyl betaine (amphoteric surfactant)
   type: ingredient
   priority: 5
   status: pending
   discovered_from: cln-bodywash
-  source: Ubiquitous co-surfactant in this INCI + most gentle cleansers; a notable
-    ACD contact allergen (ACDS Allergen of the Year 2004) - evidence+allergy page
-    like decyl-glucoside
+  source: Ubiquitous co-surfactant in this INCI + most gentle cleansers; a notable ACD contact allergen (ACDS Allergen of
+    the Year 2004) - evidence+allergy page like decyl-glucoside
 - name: Exosomes (topical / extracellular vesicles)
   type: ingredient
   priority: 5
   status: pending
   discovered_from: medicube-pdrn-pink-collagen-exosome-shot-serum
-  source: Trendy K-beauty active declared at 10 ppm here + in many serums; needs a
-    skeptical evidence page like [[polydeoxyribonucleotide-pdrn]]
+  source: Trendy K-beauty active declared at 10 ppm here + in many serums; needs a skeptical evidence page like [[polydeoxyribonucleotide-pdrn]]
 - name: Acetyl Dipeptide-1 Cetyl Ester (Calmosensine soothing peptide)
   type: ingredient
   priority: 5
   status: pending
   discovered_from: la-roche-posay-rosaliac-ar-intense-serum
-  source: The neurosensine active in LRP Rosaliac + other soothing serums; only a
-    capsaicin-sting model backs it - skeptical soothing-peptide evidence page
+  source: The neurosensine active in LRP Rosaliac + other soothing serums; only a capsaicin-sting model backs it - skeptical
+    soothing-peptide evidence page
 - name: Shea butter (Butyrospermum Parkii)
   type: ingredient
   priority: 5
   status: pending
   discovered_from: cocoa-butter
-  source: Comparator occlusive plant butter referenced on cocoa-butter; ubiquitous
-    in body/face creams; deserves its own emollient evidence page
+  source: Comparator occlusive plant butter referenced on cocoa-butter; ubiquitous in body/face creams; deserves its own emollient
+    evidence page
 - name: Stearic acid (topical fatty acid / emollient)
   type: ingredient
   priority: 5
   status: pending
   discovered_from: cocoa-butter
-  source: A principal fatty acid of cocoa butter + common emulsifier/emollient across
-    creams; basic evidence page
+  source: A principal fatty acid of cocoa butter + common emulsifier/emollient across creams; basic evidence page
 - name: Palmitoyl Pentapeptide-4 (Matrixyl, topical peptide)
   type: ingredient
   priority: 5
   status: done
   discovered_from: the-ordinary-argireline-solution-10
-  source: The other headline anti-aging peptide (Matrixyl); appears across The Ordinary
-    + many serums; needs its own evidence page beside [[argireline-acetyl-hexapeptide-8]]
+  source: The other headline anti-aging peptide (Matrixyl); appears across The Ordinary + many serums; needs its own evidence
+    page beside [[argireline-acetyl-hexapeptide-8]]
 - name: Thiamidol (Isobutylamido Thiazolyl Resorcinol)
   type: ingredient
   priority: 5
   status: pending
   discovered_from: taylor-2026-thiamidol-regimen-vs-spf-hyperpigmentation-pmid-41493252
-  source: Beiersdorf tyrosinase-inhibitor brightening active (Eucerin Anti-Pigment);
-    Taylor 2026 + Desai 2025 + Grimes RCTs; high-value hyperpigmentation ingredient
-    page, no page yet
+  source: Beiersdorf tyrosinase-inhibitor brightening active (Eucerin Anti-Pigment); Taylor 2026 + Desai 2025 + Grimes RCTs;
+    high-value hyperpigmentation ingredient page, no page yet
 - name: Palmitoyl Tripeptide-1 (Matrixyl 3000 component)
   type: ingredient
   priority: 5
   status: pending
   discovered_from: best-peptide-serums
-  source: The other half of Matrixyl 3000 (with palmitoyl tetrapeptide-7, which has
-    a page); appears across peptide serums
+  source: The other half of Matrixyl 3000 (with palmitoyl tetrapeptide-7, which has a page); appears across peptide serums
 - name: Iron oxides (tinted-sunscreen pigment, visible-light protection)
   type: ingredient
   priority: 5
   status: pending
   discovered_from: cetaphil-redness-relieving-daily-facial-moisturizer-spf-40
-  source: The tint pigment in redness/mineral sunscreens; iron oxides also block visible
-    light (relevant to melasma/hyperpigmentation) - high-value ingredient page
+  source: The tint pigment in redness/mineral sunscreens; iron oxides also block visible light (relevant to melasma/hyperpigmentation)
+    - high-value ingredient page
 - name: Retinyl palmitate (vitamin A ester)
   type: ingredient
   priority: 5
@@ -1327,43 +1273,39 @@
   status: done
   discovered_from: propylene-glycol
   source: https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=ciclopirox
-- name: Phenylethyl Resorcinol (Symwhite 377) - resorcinol-family tyrosinase inhibitor;
-    verify PubChem + PMID 23205541 comparison
+- name: Phenylethyl Resorcinol (Symwhite 377) - resorcinol-family tyrosinase inhibitor; verify PubChem + PMID 23205541 comparison
   type: ingredient
   priority: 5
   status: pending
   discovered_from: null
   source: null
-- name: Thiamidol (isobutylamido-thiazolyl-resorcinol) - Beiersdorf/Eucerin tyrosinase
-    inhibitor; verify Mann 2018 PMID 29596947
+- name: Thiamidol (isobutylamido-thiazolyl-resorcinol) - Beiersdorf/Eucerin tyrosinase inhibitor; verify Mann 2018 PMID 29596947
   type: ingredient
   priority: 5
   status: pending
   discovered_from: null
   source: null
-- name: Solubilized coal tar extract (Neutar) - the coal tar delivery form in T/Gel;
-    distinct from crude coal tar, verify concentration equivalence
+- name: Solubilized coal tar extract (Neutar) - the coal tar delivery form in T/Gel; distinct from crude coal tar, verify
+    concentration equivalence
   type: ingredient
   priority: 5
   status: pending
   discovered_from: null
   source: null
-- name: Betamethasone dipropionate (topical corticosteroid) - the steroid in calcipotriol/betamethasone
-    fixed combo; verify DailyMed + potency class
+- name: Betamethasone dipropionate (topical corticosteroid) - the steroid in calcipotriol/betamethasone fixed combo; verify
+    DailyMed + potency class
   type: ingredient
   priority: 5
   status: pending
   discovered_from: null
   source: null
-- name: Tacalcitol (topical vitamin D3 analog) - calcipotriol comparator in Ortonne
-    2004; verify PubMed
+- name: Tacalcitol (topical vitamin D3 analog) - calcipotriol comparator in Ortonne 2004; verify PubMed
   type: ingredient
   priority: 5
   status: pending
   discovered_from: null
   source: null
-- name: Topical corticosteroids (class overview by potency) - hub ingredient many
-    condition pages link to
+- name: Topical corticosteroids (class overview by potency) - hub ingredient many condition pages link to
   type: ingredient
   priority: 5
   status: pending

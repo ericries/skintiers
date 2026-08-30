@@ -158,3 +158,10 @@
   status: pending
   discovered_from: null
   source: null
+- name: Perioral (periorificial) dermatitis treatments by evidence (stop topical steroids,
+    topical metronidazole/azelaic, oral tetracyclines)
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null
