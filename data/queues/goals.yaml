@@ -51,13 +51,13 @@
 - name: Firming & skin tightening
   type: goal
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: 'discover_hubs: 4 mentions across the video archive; no goal hub yet'
 - name: Under-eye & eye-area care
   type: goal
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: 'discover_hubs: 4 mentions across the video archive; no goal hub yet'
 - name: Sensitive skin routine

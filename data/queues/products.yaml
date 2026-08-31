@@ -1988,7 +1988,7 @@
 - name: Epiduo (adapalene 0.1% / benzoyl peroxide 2.5%)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: differin-gel-adapalene
   source: Galderma Rx combo (adapalene + BPO) seen on DailyMed; common next-step acne prescription
 - name: Eucerin Anti-Pigment Dual Serum (thiamidol)
@@ -2085,13 +2085,13 @@
 - name: MG217 Medicated Salicylic Acid Psoriasis Cream [needs correct DailyMed setid - drafter found only the coal-tar variant]
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: cerave-psoriasis-moisturizing-cream
   source: https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=mg217+salicylic+acid+psoriasis
 - name: Murad Rapid Dark Spot Correcting Serum (hexylresorcinol + tranexamic acid) - brand source is queue origin for hexylresorcinol
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: null
 - name: SkinMedica Lytera 2.0 Pigment Correcting Serum (contains hexylresorcinol + niacinamide) - verify brand INCI

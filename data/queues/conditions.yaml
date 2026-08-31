@@ -113,7 +113,7 @@
 - name: Enlarged pores
   type: condition
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: 'discover_hubs: 2 mentions across the video archive; no condition hub yet'
 - name: Hormonal acne

@@ -105,7 +105,7 @@
 - name: Best body-acne treatments
   type: list
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: 'discover_hubs: 9 mentions across the video archive; no list hub yet'
 - name: Best affordable drugstore dupes
@@ -117,7 +117,7 @@
 - name: Best retinol & retinoid products
   type: list
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: 'discover_hubs: 8 mentions across the video archive; no list hub yet'
 - name: Best tinted sunscreens
@@ -129,7 +129,7 @@
 - name: Best mineral (zinc) sunscreens
   type: list
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: 'discover_hubs: 2 mentions across the video archive; no list hub yet'
 - name: Best under-eye / dark-circle products by evidence (caffeine, vitamin K, retinoids, brightening actives)

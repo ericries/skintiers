@@ -928,7 +928,7 @@
 - name: Selenium sulfide
   type: ingredient
   priority: 4
-  status: pending
+  status: done
   discovered_from: INGREDIENT cron (OTC anti-dandruff active; peer to ketoconazole)
   source: https://dailymed.nlm.nih.gov/
 - name: Dapsone (topical)
@@ -966,7 +966,7 @@
 - name: Selenium disulfide (selenium sulfide)
   type: ingredient
   priority: 4
-  status: pending
+  status: done
   discovered_from: selsun-blue-selenium-sulfide-shampoo
   source: Active of Selsun Blue (DailyMed setid f97e458c) + on-site Farris 2026 RCT (PMID 41931685, matched 2% ketoconazole);
     antifungal vs Malassezia, relevant to fungal-acne + seborrheic-dermatitis
@@ -1015,7 +1015,7 @@
 - name: Iron oxides (tinted-sunscreen pigments)
   type: ingredient
   priority: 4
-  status: pending
+  status: done
   discovered_from: geeta-yadav
   source: Visible-light/HEV protection pigments in tinted sunscreen; central to reducing melasma/hyperpigmentation in deeper
     skin tones (Dr Geeta Yadav's tinted-sunscreen cards on [[sunscreen-uv-filters]]); real ingredient gap
@@ -1106,7 +1106,7 @@
 - name: Piroctone olamine
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: head-shoulders-clinical-strength-dandruff-defense-selenium-sulfide
   source: Common non-monograph antidandruff antifungal (widely used outside US OTC monograph); would round out the antidandruff
     ingredient set
@@ -1153,7 +1153,7 @@
 - name: Vitamin E (tocopherol, topical)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: palmers-cocoa-butter-skin-therapy-oil
   source: Ubiquitous antioxidant; notably NEGATIVE/mixed evidence for scars (Baumann 1999 RCT worsened cosmesis); high-value
     skeptical ingredient page backing many scar/stretch-mark products
@@ -1227,7 +1227,7 @@
 - name: Iron oxides (tinted-sunscreen pigment, visible-light protection)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: cetaphil-redness-relieving-daily-facial-moisturizer-spf-40
   source: The tint pigment in redness/mineral sunscreens; iron oxides also block visible light (relevant to melasma/hyperpigmentation)
     - high-value ingredient page
@@ -1264,7 +1264,7 @@
 - name: Calcipotriene (calcipotriol, topical vitamin D analog for psoriasis)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: cerave-psoriasis-moisturizing-cream
   source: https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=calcipotriene
 - name: Ciclopirox (ciclopiroxolamine, topical antifungal)
