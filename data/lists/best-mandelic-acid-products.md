@@ -16,7 +16,7 @@ type: list
 updated: '2026-08-30'
 ---
 
-Mandelic acid is the largest, slowest-penetrating alpha-hydroxy acid the site covers, which is the mechanistic reason it is often reached for as a gentler option for sensitive or darker skin, detailed on [[mandelic-acid]]. But its isolated clinical evidence is thin: almost every controlled trial is a small in-office peel at 30 to 45 percent, mostly testing acne or hyperpigmentation, not the low-percent leave-on serums sold for daily home use. The one trial that pitted mandelic acid alone against another gentle AHA, lactic acid, found lactic acid produced better pigmentation results, higher satisfaction, and less irritation. Only two dedicated mandelic acid products are on-site right now; this list ranks them by labeled strength and transparency rather than by any head-to-head data, because none exists.
+Mandelic acid is the largest, slowest-penetrating alpha-hydroxy acid the site covers, which is the mechanistic reason it is often reached for as a gentler option for sensitive or darker skin, detailed on [[mandelic-acid]]. But its isolated clinical evidence is thin: almost every controlled trial is a small in-office peel at 30 to 45 percent, mostly testing acne or hyperpigmentation, not the low-percent leave-on serums sold for daily home use. The one trial that pitted mandelic acid alone against another gentle AHA, lactic acid, found lactic acid produced better pigmentation results, higher satisfaction, and less irritation.[^malviya] Only two dedicated mandelic acid products are on-site right now; this list ranks them by labeled strength and transparency rather than by any head-to-head data, because none exists.
 
 ## The tier list
 
