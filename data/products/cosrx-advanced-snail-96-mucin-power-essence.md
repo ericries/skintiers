@@ -45,6 +45,16 @@ videos:
   related: [skin-barrier-repair]
   thesis: In this Doctorly Unhinged podcast episode, board-certified dermatologist Dr. Muneeb Shah names COSRX's Advanced Snail 92 All-In-One Cream as his current favorite moisturizer, calling it an underrated lightweight gel-cream and distinguishing it from the brand's more popular Advanced Snail 96 Mucin Power Essence, which he says functions more like a hydrating hyaluronic-acid serum rather than a true moisturizer. He specifically says the All-In-One Cream is a "hero" for an irritated or damaged skin barrier, such as from retinoid dermatitis. He and co-host Dr. Sam Maxfield then react to a Huffington Post roundup of TikTok skincare trends, rejecting DIY at-home Botox/filler injections, BB glow microneedling with foundation pigment, and daily antibacterial soap as a facial cleanser as unsafe or unnecessary, while saying a deliberate "morning shed" routine and occasional ice rolling are not harmful when done thoughtfully.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Viral Skincare Products I'd Never - A Derm's Honest Review | Dr. Jenny Liu
+  creator: Dr. Jenny Liu (Jenny Liu, MD, FAAD)
+  creator_slug: jenny-liu
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=rXQgrehNCas
+  posted: '2026-07-16'
+  related: [tretinoin]
+  thesis: Board-certified dermatologist Dr. Jenny Liu reacts to seven viral TikTok skincare trends and rates each. She says snail mucin (like COSRX's) is a mild, essentially upgraded hyaluronic acid serum with only preliminary efficacy data, not a must-have; beef tallow as moisturizer she avoids entirely, noting its fatty-acid profile resembles sebum and can worsen acne, plus raw tallow can go rancid or harbor bacteria; and liquid chlorophyll drops have little supporting data and aren't worth the money, with supplements generally carrying under-recognized liver-injury and drug-interaction risks. She endorses skin cycling and fermented-ingredient toners/essences (citing SK-II's Pitera essence) as legitimate but optional, and says a daily vitamin C serum in the morning plus a topical retinoid at night covers the majority of what most patients need for aging, texture, and tone, cautioning that not all vitamin C serums are equally effective.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

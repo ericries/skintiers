@@ -366,6 +366,36 @@ videos:
   related: [niacinamide, differin-adapalene-0-1-gel, la-roche-posay-effaclar-adapalene-gel-0-1]
   thesis: 'Board-certified dermatologist Dr. Daniel Sugai explains clogged pores as a form of comedonal acne (whiteheads and blackheads, common on the forehead) and lays out his prevention approach: never sleep in makeup or without cleansing, use a lipid-soluble salicylic acid (BHA) product regularly to help clear pores, and add a retinoid since he says retinoids are not all the same. He recommends over-the-counter adapalene (Differin or La Roche-Posay) applied pea-size to the whole face, or a prescription tretinoin from a dermatologist for stronger cases, noting both work well on inflammatory acne and clogged pores. He also advises a lightweight sunscreen containing niacinamide, explaining that sun exposure can dilate pores and make them more clogged and enlarged over time.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Skincare Mistakes That Make Your Acne Worse & Damage Your Skin Barrier| Q&A with Dermatologist
+  creator: Dr. Alexis Stephens
+  creator_slug: alexis-stephens
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=BCNCiZ0R6uU
+  posted: '2023-10-30'
+  related: [skin-barrier-repair, retinol, salicylic-acid, niacinamide, sulfur, hydroquinone, benzoyl-peroxide]
+  thesis: Board-certified dermatologist Dr. Alexis Stephens answers rapid-fire skincare questions from passersby in a Central Park street Q&A. She names the top three acne mistakes as quitting products too soon, layering too many products at once, and skipping sunscreen, and stresses that even oily, acne-prone skin still needs a moisturizer to protect the skin barrier. She also clarifies that "skin purging" only happens with products that increase cell turnover (not every reaction is a purge), that hydroquinone should be used under a doctor's guidance with breaks rather than long-term abuse, and that steroid-injection-related skin atrophy or hypopigmentation is usually temporary and treatable with saline. She addresses sunscreen for melanin-rich skin (SPF 30+ and broad spectrum for UVA, not just the SPF number), recommends salicylic acid and niacinamide for oily skin and sulfur for seborrheic dermatitis, and warns against DIY fixes like using toothpaste or baking soda on skin.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: 'Accutane Survival Tips 💊 (Derm Edition) #isotretinoin  #accutane #acne'
+  creator: Dr. Alexis Stephens
+  creator_slug: alexis-stephens
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=IKKi_vBNy5Q
+  posted: '2025-11-03'
+  related: []
+  thesis: Board-certified dermatologist Dr. Alexis Stephens runs through the "Accutane survival kit" she gives her isotretinoin patients for acne. She explains that dryness is expected everywhere on the body (not a matter of if but when and how severe), and recommends Vaseline for lips (with hydrocortisone if irritation gets worse), eye drops for dry eyes, nasal spray for a dry nose, SPF for the face and lips to prevent discoloration, gentle fragrance-free cleansers for underarms/face/body, and pausing waxing, threading, and laser hair removal while skin is extra dry. She also notes antihistamines like Claritin can help reduce the itching and "purge" that tend to happen early in treatment.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: '#skincare #cosmeticdermatology #skincareroutine #dermatologist #skincaretips'
+  creator: Dr. Jenny Liu (Jenny Liu, MD, FAAD)
+  creator_slug: jenny-liu
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=zwwaoe_TZlE
+  posted: '2026-08-22'
+  related: [hyperpigmentation, salicylic-acid, benzoyl-peroxide, adapalene, tretinoin, azelaic-acid, tranexamic-acid, niacinamide]
+  thesis: 'Board-certified dermatologist Dr. Jenny Liu argues that the common skincare goals of clear skin, faded acne marks, and a glowing complexion should not be pursued all at once. She lays out a treatment order: first stop active acne (salicylic acid, benzoyl peroxide, adapalene, or prescription tretinoin), then address existing pigmentation (retinoids, azelaic acid, tranexamic acid, niacinamide), and only after that focus on glow, which she says is mostly just a healthy skin barrier plus consistent sunscreen use. Her main point is that people commonly waste money on glow serums while still actively breaking out, when the biggest mistake is skipping the acne-first step, and that following this sequence can realistically show results within about 6 months.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

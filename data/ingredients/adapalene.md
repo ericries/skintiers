@@ -48,6 +48,26 @@ videos:
   related: [niacinamide, differin-adapalene-0-1-gel, la-roche-posay-effaclar-adapalene-gel-0-1]
   thesis: 'Board-certified dermatologist Dr. Daniel Sugai explains clogged pores as a form of comedonal acne (whiteheads and blackheads, common on the forehead) and lays out his prevention approach: never sleep in makeup or without cleansing, use a lipid-soluble salicylic acid (BHA) product regularly to help clear pores, and add a retinoid since he says retinoids are not all the same. He recommends over-the-counter adapalene (Differin or La Roche-Posay) applied pea-size to the whole face, or a prescription tretinoin from a dermatologist for stronger cases, noting both work well on inflammatory acne and clogged pores. He also advises a lightweight sunscreen containing niacinamide, explaining that sun exposure can dilate pores and make them more clogged and enlarged over time.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: '#skincare #cosmeticdermatology #skincareroutine #dermatologist #skincaretips #acneproneskin'
+  creator: Dr. Jenny Liu (Jenny Liu, MD, FAAD)
+  creator_slug: jenny-liu
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=coUHJ-vt5F8
+  posted: '2026-08-24'
+  related: [la-roche-posay-cicaplast-baume-b5, blackheads-clogged-pores]
+  thesis: Board-certified dermatologist Dr. Jenny Liu outlines a six-step routine to reduce the appearance of sebaceous filaments (the natural oil-duct openings around the nose and cheeks often mistaken for blackheads). She recommends a gentle cleanser (double cleansing if wearing makeup), nightly adapalene (Differin) for cell turnover, a salicylic acid exfoliant a few times a week to clear pores of sebum, consistent moisturizing to keep the skin barrier healthy, and a weekly clay mask for very oily skin to pull out excess oil. She notes moisturizer doesn't directly clear filaments but supports skin turnover, which is why some people credit products like Cicaplast with improvement.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: 'these are not pimples #skincare stitch with qitarra.olson'
+  creator: Dr. Neera Nathan
+  creator_slug: neera-nathan
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=sjqs8gBjiAM
+  posted: '2026-08-17'
+  related: []
+  thesis: 'Board-certified dermatologist Dr. Neera Nathan explains that the small persistent bumps many people see on the chin and nose are not pimples or milia but sebaceous filaments, normal pore structures that cannot be eliminated but can be minimized. She offers three derm-approved approaches: a sulfur mask left on 10 minutes to break down debris and reduce surface oiliness, a salicylic acid cleanser to exfoliate and cut sebum without stripping the skin barrier, and a pea-sized amount of adapalene gel, which she says is unmatched over-the-counter for keeping pores clear and appearing smaller.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

@@ -16,6 +16,18 @@ tier_list:
   title: A simple AM/PM routine, product by product
 type: list
 updated: '2026-08-30'
+videos:
+- title: 'Stop Rinsing With Water: How to Wash Your Face Correctly from a Derm'
+  creator: Dr. Brooke Jeffy (Brooke Jeffy, MD)
+  creator_slug: brooke-jeffy
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=gSM41KbLPgw
+  posted: '2026-01-02'
+  related: [skin-barrier-strengthening]
+  thesis: 'Board-certified dermatologist Dr. Brooke Jeffy explains why rinsing with water alone is not enough to cleanse the face: sunscreen, sebum, and other oil-based products need a cleanser because water and oil do not mix, and leftover residue can drive inflammation that contributes to acne, eczema, rosacea, and premature aging. She recommends a nightly double cleanse (an oil-based remover like micellar water or a cleansing balm to lift off sunscreen and makeup, followed by a water-based cleanser) since nighttime cleansing is non-negotiable, while morning cleansing is optional for dry or sensitive skin but recommended for oily or acne-prone skin. She also warns that over-cleansing (scrubbing multiple times a day) is just as damaging to the skin barrier as under-cleansing or skipping the nightly wash.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 This is not a haul. It is the minimum routine that the evidence actually supports, one product per step, morning and night. The two steps that matter most are the two people skip: sunscreen every morning and giving a retinoid, if you use one, weeks to work before judging it. Everything else here is optional polish.

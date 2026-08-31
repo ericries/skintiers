@@ -33,6 +33,16 @@ videos:
   thesis: 'Cosmetic chemists Victoria Fu and Gloria Lu of Chemist Confessions interview Charlotte Cho, founder of Soko Glam and the K-beauty brand Then I Met You, about the state of Korean skincare. Cho explains that toner and essence are largely interchangeable, brand-defined category names, that snail mucin has endured as an ingredient because it hydrates without heaviness (not just because of TikTok trends), and that recent US sunscreen filter crackdowns forced Korean brands to reformulate hero sunscreens while still performing well. In a rapid-fire "worth the hype" segment, the hosts and Cho give informal verdicts on several trending ingredients: exosomes (not yet, evidence still pending), PDRN (potentially yes but highly dependent on brand and sourcing, since claims of "PDRN" vary widely in quality), NAD+ (unproven, not yet in her routine), topical glutathione (yes, though injectable/ingestible glutathione is viewed skeptically), and Volufiline (skeptical of viral filler-like marketing
     claims but reporting personal results using it in a snail-mucin/Volufiline/azelaic eye cream over a 12-week testing period).'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: The TRUTH About Korean Skincare (Dermatologist)
+  creator: Dr. Usama Syed
+  creator_slug: usama-syed
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=o-FhEB9WFAc
+  posted: '2023-06-20'
+  related: [oily-skin-korean-routine, sunscreen-uv-filters]
+  thesis: Board-certified dermatologist Dr. Usama Syed evaluates whether K-beauty deserves its hype. He finds centella asiatica and snail mucin (which contains glycolic acid, hyaluronic acid, and allantoin) have decent human-skin evidence, while green tea creams and bee venom lack compelling data. He calls the 10-step Korean routine mostly unnecessary, arguing it could be cut to about five steps, but says Korean sunscreens genuinely are more advanced, using filters like Tinosorb S and Uvinul A Plus that US regulation has blocked since the FDA hasn't approved a new sunscreen ingredient since the 1990s, though he also notes a 2020 Korean scandal where tested sunscreens fell well short of their labeled SPF. He concludes that K-beauty's popularity owes more to Korea's very high rates of cosmetic surgery, Botox, and filler use, plus lifestyle factors like diet and smoking, than to any product ingredient.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

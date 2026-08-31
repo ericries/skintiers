@@ -182,6 +182,46 @@ videos:
   related: [retinoids]
   thesis: 'Board-certified dermatologist Dr. Shereene Idriss explains that facial aging involves three separate layers, bone structure, fat/collagen volume, and skin, and that a facelift only addresses the skin layer by removing excess skin and repositioning fat, not restoring lost bone or volume. She cites a 30-year study finding deep-plane facelifts last an average of 10.9 years, and argues most people chasing surgery too early (in their 30s) are being sold fear by social media. She lays out a decade-by-decade plan: focus on skin care, retinoids, and sun protection in your 30s, conservative in-office collagen-stimulating and filler treatments in your 40s, and only consider surgery once skin laxity itself, not bone or fat loss, is the main problem.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: 'Red Light: Skincare MIRACLE or Myth? (Dermatologist)'
+  creator: Dr. Usama Syed
+  creator_slug: usama-syed
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=4L2cCOmdg7A
+  posted: '2023-06-27'
+  related: [acne]
+  thesis: Board-certified dermatologist Dr. Usama Syed explains the science behind red light therapy (photobiomodulation), citing a placebo-controlled split-face trial showing increased collagen, elastic fibers, and fibroblast activity with red/near-infrared LED light, plus a 107-person RCT where combined red and blue light outperformed benzoyl peroxide for acne. He then compares commercial at-home devices against the clinical-trial power output (105 mW/cm2 from the medical-grade Omnilux used in the anti-aging study), finding the Solawave wand's 40-45 mW/cm2 output and 7-LED design far weaker and its before-and-after photos misleading (inconsistent lighting, angles, and expressions). He concludes red light devices have real evidence for anti-aging and acne, but recommends higher-powered full-face LED masks like SpectraLite Faceware Pro or Omnilux Contour Face over handheld wands like Solawave.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: 2025's Best Dermatologist-Approved Cosmetic Treatments | Less-Is-More Anti-Aging Guide
+  creator: Dr. Caroline Robinson
+  creator_slug: caroline-robinson
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=Lbgv3HB4BTE
+  posted: '2025-10-17'
+  related: [retinoids, vitamin-c, sunscreen-uv-filters]
+  thesis: Dr. Caroline Robinson, a board-certified cosmetic dermatologist, walks through a "roadmap" of anti-aging treatments ordered from least to most invasive. She argues a foundational routine of daily sunscreen, a topical retinoid, and an antioxidant like vitamin C should come first, since most visible aging traces back to collagen breakdown that starts in your 20s. From there she ranks skin-quality treatments (medical-grade microneedling as her top pick, chemical peels, laser, and skin boosters), then injectables (Botox for muscle movement, filler for volume loss using her "sink or sag" test, generally not before age 25), energy-based treatments (RF and ultrasound for subtle tightening, LED as a "nice to have"), and surgery as a last resort, urging a less-is-more, natural-looking approach throughout.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Treat This Before Eye Lines
+  creator: Dr. Caroline Robinson
+  creator_slug: caroline-robinson
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=inETd97YArQ
+  posted: '2026-05-04'
+  related: [dark-circles]
+  thesis: Board-certified dermatologist Dr. Caroline Robinson explains her sequencing approach for lines around the eyes, including crow's feet and under-eye lines caused by volume loss or structural change. She says she treats skin quality, structure, and pigment first, since under-eye lines often improve on their own with microneedling, skin tightening, or filler. Only after that does she address remaining lines with neurotoxin (Botox), and she notes this sequencing typically reduces how much line correction is ultimately needed.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Your Skincare Routine Should Change Every Decade   A Derm Tells You Exactly How | Dr. Jenny Liu
+  creator: Dr. Jenny Liu (Jenny Liu, MD, FAAD)
+  creator_slug: jenny-liu
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=87FtOO1RDnM
+  posted: '2026-08-06'
+  related: [anti-aging-perimenopause]
+  thesis: 'Dr. Jenny Liu, a board-certified dermatologist, explains that skin biology (collagen production, cell turnover, sebum, and barrier function) shifts meaningfully each decade, so a routine that worked at 25 needs to change by 35, 45, and 55. She lays out a constant foundation for every age (daily SPF 30+, gentle cleansing, and moisturizer), then walks through what to add or swap per decade: preventive vitamin C and eventually retinoids in the 20s, more retinoid/exfoliation and consideration of in-office resurfacing in the 30s, addressing laxity with treatments like skin-tightening devices, Botox, and chemical peels starting in the 40s, and in the 50s adjusting for the collagen and barrier loss that comes with menopause using richer, barrier-supportive product lines plus eye/neck creams. She frames the message as adjusting and layering in a few products over time rather than overhauling the routine every ten years.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

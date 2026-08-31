@@ -7,6 +7,18 @@ status: published
 tier: minimal
 type: ingredient
 updated: '2026-07-28'
+videos:
+- title: Why "pregnancy safe" beauty is a massive red flag
+  creator: Jen Novakovich (The Eco Well)
+  creator_slug: jen-novakovich
+  credential: Cosmetic scientist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=9hSQK2fqb38
+  posted: '2026-02-13'
+  related: [retinol]
+  thesis: Jen Novakovich, a cosmetic scientist, argues that "pregnancy safe" beauty claims are a regulatory red flag because brands cannot ethically test products on pregnant women to substantiate such a claim, so the label is made without valid proof. She points out that brands often justify swapping in an ingredient like bakuchiol for retinol by citing retinol's known pregnancy concerns, but notes that lack of data on the substitute (bakuchiol) is not the same as proof of safety, and that a full formulation's other ingredients also matter, not just the one substituted ingredient. She concludes this marketing pattern leaves brands legally exposed if a pregnant user later reports a health issue, since there is no valid proof behind the safety claim.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Bakuchiol is a plant-derived meroterpene phenol from the seeds of Psoralea corylifolia, sold as a gentler alternative to retinol even though it is not a vitamin A derivative and sits nowhere on the [[retinoids|retinoid conversion pathway]].[^chaudhuri][^puyana] Its case rests almost entirely on one small independent head-to-head against retinol; the rest of the human data is mostly open-label and industry-run, and remains preliminary.

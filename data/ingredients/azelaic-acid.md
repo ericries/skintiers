@@ -158,6 +158,36 @@ videos:
   related: [rosacea]
   thesis: Board-certified dermatologist Dr. Lindsey Zubritsky lists five effective skincare ingredients that are prescription-only, explaining why each requires a doctor. She names tretinoin as the gold standard for acne, fine lines, and photoaging; prescription-strength azelaic acid for rosacea, perioral dermatitis, and post-breakout dark or red marks; hydroquinone for stubborn hyperpigmentation and melasma; topical ivermectin for rosacea linked to skin mites; and eflornithine to slow excess facial hair growth. She notes these aren't sold over the counter because a prescriber needs to confirm the ingredient is right for a patient's skin.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Dermatologist Breaks Down Today's Biggest Skincare Trends
+  creator: Dr. Caroline Robinson
+  creator_slug: caroline-robinson
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=oNhnH5Ezyn0
+  posted: '2026-01-26'
+  related: [rosacea-papulopustular, acne, pityriasis-versicolor, best-azelaic-acid-products, best-niacinamide-products, best-peptide-serums]
+  thesis: Board-certified dermatologist Dr. Caroline Robinson gives a thumbs up/down verdict on several 2026 skincare trends. She explains azelaic acid started as the compound behind tinea versicolor's skin-lightening rash before becoming a prescription and OTC treatment for rosacea (15%) and acne-related hyperpigmentation (20% for acne, 10% OTC), calling it a thumbs up. She says niacinamide controls oil at 2%, helps hyperpigmentation at 4 to 5%, but risks irritation at the popular 10% level, so lower doses are the "sweet spot." She endorses red light masks as adjuncts to in-office treatments (checking wavelength and device-specific studies matters) and peptides as a helpful but non-foundational addition after retinoids and sunscreen, dismisses at-home chemical peels as unsafe versus in-office ones, and gives multi-step (6 to 7 product) TikTok routines a thumbs down, arguing cleansing, exfoliating, and moisturizing can be done well in 3 to 4 steps.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: '#skincare #cosmeticdermatology #skincareroutine #dermatologist #skincaretips'
+  creator: Dr. Jenny Liu (Jenny Liu, MD, FAAD)
+  creator_slug: jenny-liu
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=mctaZsSEKEU
+  posted: '2026-08-23'
+  related: []
+  thesis: Board-certified dermatologist Dr. Jenny Liu explains why glycolic acid is the "missing piece" when combined with tretinoin and azelaic acid. She says tretinoin builds collagen and speeds cell turnover while azelaic acid helps with redness, acne, and pigmentation, but neither gives an immediate smooth, polished look; glycolic acid dissolves the dead skin on the surface so the effects of the other two actives can show, producing a next-day "wow" effect. She warns against layering all three every night, recommending glycolic acid only two nights a week since an inflamed skin barrier undermines glowing skin.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: 'rating viral skincare trends! #skincare stitch with nieveyspam'
+  creator: Dr. Neera Nathan
+  creator_slug: neera-nathan
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=BqI2_Q3heXI
+  posted: '2026-08-16'
+  related: []
+  thesis: Board-certified dermatologist Dr. Neera Nathan reacts to viral skincare trends and explains which ones actually hold up. She says zinc oxide diaper rash cream applied at night acts as a skin protectant and anti-inflammatory that helps repair a damaged moisture barrier. She calls glycolic acid a versatile AHA useful for exfoliation, collagen boosting, evening pigmentation, and treating ingrown hairs or dark elbows when used one to three times a week. She notes viral collagen face masks work mainly as humectants for temporary plumping rather than by boosting the skin's own collagen production, and highlights combining azelaic acid in the morning with tretinoin at night as a long-standing dermatologist combo for smoothing texture, fading hyperpigmentation, and reducing wrinkles.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

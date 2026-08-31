@@ -28,6 +28,16 @@ videos:
   related: [acne, skin-barrier-repair]
   thesis: 'Licensed esthetician Ella gives after-care advice for skin you picked at overnight, with a nuanced take on sulfur: apply sulfur only if you still feel congestion under the skin in that spot, and be careful because sulfur is not always the best choice over an open wound. Her broader message is to resist piling on new or viral products while the skin heals, keep to the products your skin already knows, and ice the area to calm inflammation, since healing takes time no matter what you add.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: 'these are not pimples #skincare stitch with qitarra.olson'
+  creator: Dr. Neera Nathan
+  creator_slug: neera-nathan
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=sjqs8gBjiAM
+  posted: '2026-08-17'
+  related: []
+  thesis: 'Board-certified dermatologist Dr. Neera Nathan explains that the small persistent bumps many people see on the chin and nose are not pimples or milia but sebaceous filaments, normal pore structures that cannot be eliminated but can be minimized. She offers three derm-approved approaches: a sulfur mask left on 10 minutes to break down debris and reduce surface oiliness, a salicylic acid cleanser to exfoliate and cut sebum without stripping the skin barrier, and a pea-sized amount of adapalene gel, which she says is unmatched over-the-counter for keeping pores clear and appearing smaller.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

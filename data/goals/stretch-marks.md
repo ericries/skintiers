@@ -41,6 +41,18 @@ tier_list:
   title: Topical stretch-mark treatments by evidence
 type: goal
 updated: '2026-08-26'
+videos:
+- title: Stretch Marks   Can You Actually Get Rid of Them? A Dermatologist Answers Honestly | Dr. Jenny Liu
+  creator: Dr. Jenny Liu (Jenny Liu, MD, FAAD)
+  creator_slug: jenny-liu
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=gAQoQmzBT-s
+  posted: '2026-08-13'
+  related: [cerave, vanicream, the-ordinary, roc]
+  thesis: 'Board-certified dermatologist Dr. Jenny Liu explains that stretch marks (striae) are essentially scars formed when skin is stretched faster than it can adapt, and that the stage matters most: red/purple "striae rubra" respond much better to intervention than old white "striae alba," which can only be made less visible, never erased. She ranks 0.1% tretinoin for 12 weeks as the best topical for red stretch marks specifically, notes centella asiatica and hyaluronic-acid-based moisturizers have the better evidence for prevention (especially in pregnancy), and says lactic acid lotion (AmLactin), silicone sheets, and massage oils have weaker but plausible support. She concludes in-office procedures (pulsed dye laser/IPL for redness, then microneedling, RF microneedling, or fractional CO2 resurfacing over 3-5+ sessions) give the best clinical results, and that prevention (managing weight gain, keeping skin hydrated) beats treatment overall.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Stretch marks (striae distensae) are bands of thinned, scarred skin that form when skin is stretched faster than it can adapt, as in pregnancy, growth spurts, or rapid weight change. They start red or purple (striae rubrae) and fade to pale, slightly sunken lines (striae albae) over months to years. They are a cosmetic concern rather than a medical problem, and they are notoriously resistant to treatment.

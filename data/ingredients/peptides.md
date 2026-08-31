@@ -67,6 +67,16 @@ videos:
   related: [palmitoyl-pentapeptide-4-matrixyl, copper-peptides, anti-aging]
   thesis: Board-certified dermatologist Andrea Suarez (Dr Dray) explains which skincare peptides actually work. She describes collagen-signaling peptides such as Matrixyl (palmitoyl pentapeptide-4), designed to tell skin fibroblasts to build collagen, but notes the core limitation that peptides struggle to penetrate the skin in meaningful amounts, so the firmness improvements seen in topical studies are modest. She separately warns that injectable peptides sold direct-to-consumer without clinician oversight have no clinical evidence or quality control and have caused serious adverse outcomes.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Dermatologist Breaks Down Today's Biggest Skincare Trends
+  creator: Dr. Caroline Robinson
+  creator_slug: caroline-robinson
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=oNhnH5Ezyn0
+  posted: '2026-01-26'
+  related: [rosacea-papulopustular, acne, pityriasis-versicolor, best-azelaic-acid-products, best-niacinamide-products, best-peptide-serums]
+  thesis: Board-certified dermatologist Dr. Caroline Robinson gives a thumbs up/down verdict on several 2026 skincare trends. She explains azelaic acid started as the compound behind tinea versicolor's skin-lightening rash before becoming a prescription and OTC treatment for rosacea (15%) and acne-related hyperpigmentation (20% for acne, 10% OTC), calling it a thumbs up. She says niacinamide controls oil at 2%, helps hyperpigmentation at 4 to 5%, but risks irritation at the popular 10% level, so lower doses are the "sweet spot." She endorses red light masks as adjuncts to in-office treatments (checking wavelength and device-specific studies matters) and peptides as a helpful but non-foundational addition after retinoids and sunscreen, dismisses at-home chemical peels as unsafe versus in-office ones, and gives multi-step (6 to 7 product) TikTok routines a thumbs down, arguing cleansing, exfoliating, and moisturizing can be done well in 3 to 4 steps.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

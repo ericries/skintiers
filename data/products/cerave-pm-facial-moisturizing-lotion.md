@@ -51,6 +51,18 @@ slug: cerave-pm-facial-moisturizing-lotion
 status: published
 type: product
 updated: '2026-08-04'
+videos:
+- title: Stop Using Your Winter Skincare Routine in Summer   A Dermatologist Explains | Dr. Jenny Liu
+  creator: Dr. Jenny Liu (Jenny Liu, MD, FAAD)
+  creator_slug: jenny-liu
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=VVHaU9qu4c4
+  posted: '2026-07-09'
+  related: [melasma, tretinoin, glycolic-acid, salicylic-acid, ascorbic-acid-vitamin-c, vitamin-c, seborrheic-dermatitis, pityriasis-versicolor]
+  thesis: Board-certified dermatologist Dr. Jenny Liu explains why a winter skincare routine needs specific summer swaps rather than a full overhaul. She recommends lighter, less occlusive moisturizers, a higher-SPF water-resistant sunscreen, and double cleansing at night (an oil or balm cleanser first) to remove sunscreen buildup that can worsen breakouts. She advises cutting back on AHA exfoliants like glycolic or lactic acid (which increase sun-burn risk) or switching to a BHA, but says tretinoin does not need to be reduced since it does not raise burn risk. She also covers storing and choosing vitamin C serums to protect against summer-worsened melasma, and swapping in an anti-dandruff shampoo/body wash to manage summer flares of seborrheic dermatitis and tinea versicolor.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 CeraVe PM Facial Moisturizing Lotion is a lightweight, fragrance-free nighttime facial moisturizer whose ingredient list includes niacinamide, three ceramides (ceramide NP, AP, EOP), and hyaluronic acid (as sodium hyaluronate), sold inexpensively in a pump bottle.[^1]

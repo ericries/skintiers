@@ -27,6 +27,16 @@ videos:
   related: [acne, avobenzone, tretinoin, retinoids, azelaic-acid, rosacea]
   thesis: In this nearly two hour Instagram Live Q&A, skincare educator and formulator Stephen Alain Ko (KindofStephen) answers viewer questions across a wide range of skincare topics. On sunscreen, he explains why "next-gen" UV filters like Tinosorb are approved in Europe and Asia but not routinely in the US and Canada due to regulatory differences, and cites a Johnson & Johnson presentation at the American Academy of Dermatology describing a 21.6% zinc oxide mineral sunscreen with a UVA protection factor around 31 to 32, notably higher than the 15 to 22 typical of mineral sunscreens. He also breaks down the difference between sodium hyaluronate and hydrolyzed hyaluronic acid by molecular weight, discusses vitamin C derivatives versus L-ascorbic acid as the still-unbeaten gold standard, and weighs in on benzoyl peroxide's efficacy and oxidative tradeoffs for acne, an LED mask study he criticizes for lacking a control group, and niacinamide combined with tretinoin for acne and hyperpigmentation.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: 'rating viral skincare trends! #skincare stitch with nieveyspam'
+  creator: Dr. Neera Nathan
+  creator_slug: neera-nathan
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=BqI2_Q3heXI
+  posted: '2026-08-16'
+  related: []
+  thesis: Board-certified dermatologist Dr. Neera Nathan reacts to viral skincare trends and explains which ones actually hold up. She says zinc oxide diaper rash cream applied at night acts as a skin protectant and anti-inflammatory that helps repair a damaged moisture barrier. She calls glycolic acid a versatile AHA useful for exfoliation, collagen boosting, evening pigmentation, and treating ingrown hairs or dark elbows when used one to three times a week. She notes viral collagen face masks work mainly as humectants for temporary plumping rather than by boosting the skin's own collagen production, and highlights combining azelaic acid in the morning with tretinoin at night as a long-standing dermatologist combo for smoothing texture, fading hyperpigmentation, and reducing wrinkles.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

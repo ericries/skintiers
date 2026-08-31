@@ -224,6 +224,16 @@ videos:
   related: [retinoids, sensitive-skin]
   thesis: Board-certified dermatologist Dr. Whitney Bowe joins Good Morning America to explain that skin inflammation happens when immune cells release chemicals that increase blood flow and trigger cellular repair, causing redness, swelling, and discoloration. She notes that active ingredients like retinoids can trigger this inflammation if introduced too fast, which is why she developed her skin cycling method of slowly phasing in actives. She also explains phytophotodermatitis, nicknamed "margarita burn," where citrus, celery, or parsley juice on the skin combined with sun exposure causes burns or lingering post-inflammatory hyperpigmentation, and recommends rinsing exposed skin and applying sunscreen. Her overall advice for inflamed, barrier-damaged skin is to simplify to a gentle cleanser, moisturizer, and sunscreen, optionally layering in a soothing serum formulated for sensitive or post-procedure skin.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: The texture of your cleanser is probably wrong
+  creator: Dr. Brooke Jeffy (Brooke Jeffy, MD)
+  creator_slug: brooke-jeffy
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=8krqZ4Wmz1Y
+  posted: '2026-01-13'
+  related: [best-gentle-cleansers-sensitive-skin, best-cleansers-for-oily-acne-prone-skin]
+  thesis: Board-certified dermatologist Dr. Brooke Jeffy explains that cleanser texture (foaming, gel, cream/lotion, oil/serum, balm) matters as much as ingredients when picking a cleanser. She says dry, sensitive, eczema, or rosacea-prone skin does best with cream, lotion, serum, or oil-type cleansers with little to no foam, while oily or acne-prone skin does best with gel or gentle foaming formulas; combination skin usually suits gel or low-foaming cleansers, and aging skin often benefits from cream or serum cleansers focused on hydration. Her key takeaway is that a tight, "squeaky clean," or tingling feeling after washing means the cleanser is too harsh, not a sign it's working well.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

@@ -18,6 +18,16 @@ videos:
   related: [hydroquinone]
   thesis: 'Board-certified dermatologist Dr. Andrea Suarez (Dr Dray) explains why she recommends 12%+ ammonium lactate (AmLactin) over at-home glycolic acid for dermal thickening: she cites two clinical studies showing 12% lactic acid produced both epidermal and dermal thickening (versus epidermal-only at 5%), and a second study where 12% ammonium lactate offset dermal atrophy caused by the potent steroid clobetasol. She notes in-office glycolic acid peels are actually superior for dermal effects, but at-home glycolic acid strengths are too heterogeneous and generally too weak to reliably reach the dermis the way 12% ammonium lactate does. In shorter Q&A segments she also covers Fraxel versus Laser Genesis laser risks, sunscreen application on sweaty/wet skin, and using urea and azelaic acid for keratosis pilaris.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Stretch Marks   Can You Actually Get Rid of Them? A Dermatologist Answers Honestly | Dr. Jenny Liu
+  creator: Dr. Jenny Liu (Jenny Liu, MD, FAAD)
+  creator_slug: jenny-liu
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=gAQoQmzBT-s
+  posted: '2026-08-13'
+  related: [cerave, vanicream, the-ordinary, roc]
+  thesis: 'Board-certified dermatologist Dr. Jenny Liu explains that stretch marks (striae) are essentially scars formed when skin is stretched faster than it can adapt, and that the stage matters most: red/purple "striae rubra" respond much better to intervention than old white "striae alba," which can only be made less visible, never erased. She ranks 0.1% tretinoin for 12 weeks as the best topical for red stretch marks specifically, notes centella asiatica and hyaluronic-acid-based moisturizers have the better evidence for prevention (especially in pregnancy), and says lactic acid lotion (AmLactin), silicone sheets, and massage oils have weaker but plausible support. She concludes in-office procedures (pulsed dye laser/IPL for redness, then microneedling, RF microneedling, or fractional CO2 resurfacing over 3-5+ sessions) give the best clinical results, and that prevention (managing weight gain, keeping skin hydrated) beats treatment overall.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

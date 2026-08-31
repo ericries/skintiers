@@ -34,6 +34,16 @@ videos:
   related: [petrolatum]
   thesis: Board-certified dermatologist Dr. Daniel Sugai runs through different Aquaphor petrolatum formats and how to use each one. He recommends the Healing Balm Stick for mess-free reapplication on chapped lips or for "slugging responsibly" over the cheekbones for a subtle glow, but flags it contains beeswax so those with a beeswax sensitivity should stick with the plain tube ointment instead. He also covers the classic tube for lips (to avoid dipping fingers into a tub), the Aquaphor ointment body spray for covering larger dry areas like cracked heels under a sock, and the Aquaphor foot masks, framing all of them as different delivery formats for the same barrier-repair petrolatum base.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Why Your Lips Are ALWAYS Dry (Dermatologist)
+  creator: Dr. Usama Syed
+  creator_slug: usama-syed
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=l5YQOwGbDAk
+  posted: '2024-03-12'
+  related: [tacrolimus-topical]
+  thesis: Board-certified dermatologist Dr. Usama Syed explains that chapped lips (cheilitis) have several distinct causes, most commonly dry winter air combined with mouth breathing from a blocked nose, but also lip-product allergens (like beeswax and peppermint oil in some balms), eczema, actinic cheilitis from chronic sun damage, and infections. He explains that dehydration is rarely the real cause and that lip scrubs make the problem worse by further damaging an already compromised skin barrier. His main recommendations are a plain occlusive ointment (Vaseline, or alternatives like Aquaphor or CeraVe Healing Ointment) applied several times daily and especially before bed, a humidifier to add moisture to the air, and stopping lip-licking, which he says worsens dryness via digestive enzymes in saliva; for the minority of cases that do not improve he mentions dermatologist-prescribed options like tacrolimus ointment.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

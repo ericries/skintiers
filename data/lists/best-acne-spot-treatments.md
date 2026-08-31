@@ -15,6 +15,18 @@ tier_list:
   title: Acne spot treatments by evidence
 type: list
 updated: '2026-08-30'
+videos:
+- title: 'stop wasting money on pimple patches! Stitch with mishel.archive #skincare'
+  creator: Dr. Neera Nathan
+  creator_slug: neera-nathan
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=X5DAUauyYMM
+  posted: '2026-08-27'
+  related: [acne]
+  thesis: Board-certified dermatologist Dr. Neera Nathan explains that pimple patches are just tiny hydrocolloid pads sold at a markup, since a pack of 36 small patches can cost about $17. She recommends buying hydrocolloid pads or hydrocolloid tape from the wound care aisle instead, which gives far more material for less money. She notes you can cut the tape or pads to the exact size needed and apply them to pimples, blisters, or bug bites to help them heal faster with less scarring.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 This ranks on-site leave-on acne spot treatments by the strength of evidence behind their labeled active. The honest framing up front: [[benzoyl-peroxide|benzoyl peroxide]] is the best-evidenced OTC spot active and the American Academy of Dermatology ranks it above [[salicylic-acid|salicylic acid]], but the site does not yet have a page for a plain leave-on benzoyl peroxide spot gel; the benzoyl peroxide products covered so far are either rinse-off washes, a rosacea-only prescription, or combination retinoid-plus-BPO prescriptions, none of which fit a "dab it on a pimple" spot treatment. Sulfur and hydrocolloid pimple patches also have no dedicated product page yet. So every item below is a salicylic acid leave-on treatment; see [[acne]] for the full active-by-active picture and [[salicylic-acid]] for the trial evidence behind this tier.

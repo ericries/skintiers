@@ -37,6 +37,18 @@ slug: neutrogena-hydro-boost-gel-cream-fragrance-free
 status: published
 type: product
 updated: '2026-08-08'
+videos:
+- title: Stop Using Your Winter Skincare Routine in Summer   A Dermatologist Explains | Dr. Jenny Liu
+  creator: Dr. Jenny Liu (Jenny Liu, MD, FAAD)
+  creator_slug: jenny-liu
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=VVHaU9qu4c4
+  posted: '2026-07-09'
+  related: [melasma, tretinoin, glycolic-acid, salicylic-acid, ascorbic-acid-vitamin-c, vitamin-c, seborrheic-dermatitis, pityriasis-versicolor]
+  thesis: Board-certified dermatologist Dr. Jenny Liu explains why a winter skincare routine needs specific summer swaps rather than a full overhaul. She recommends lighter, less occlusive moisturizers, a higher-SPF water-resistant sunscreen, and double cleansing at night (an oil or balm cleanser first) to remove sunscreen buildup that can worsen breakouts. She advises cutting back on AHA exfoliants like glycolic or lactic acid (which increase sun-burn risk) or switching to a BHA, but says tretinoin does not need to be reduced since it does not raise burn risk. She also covers storing and choosing vitamin C serums to protect against summer-worsened melasma, and swapping in an anti-dandruff shampoo/body wash to manage summer flares of seborrheic dermatitis and tinea versicolor.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Neutrogena Hydro Boost Gel-Cream (fragrance-free), sold by Target under the title "Neutrogena Hydro Boost Water Gel Cream Face Moisturizer with Hyaluronic Acid for Normal to Dry Skin - Fragrance Free," is the fragrance-free sibling of [[neutrogena-hydro-boost-water-gel]], an oil-free gel-cream moisturizer marketed for normal-to-dry, combination, acne-prone, and sensitive skin.[^target]

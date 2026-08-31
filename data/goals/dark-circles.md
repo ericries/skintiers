@@ -146,6 +146,76 @@ videos:
   related: []
   thesis: Board-certified dermatologist Dr. Lindsey Zubritsky (DermGuru) explains why she avoids eyelash growth serums that contain prostaglandins or prostaglandin analogs. She says these ingredients can darken the under-eye area or lash line, change eye color (especially in light or green eyes), cause peri-orbital fat loss around the eyes that may not be reversible, and trigger allergic contact dermatitis or irritation. She recommends choosing a prostaglandin-free lash serum, such as one built on peptides, instead.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: When Treatments Make It Worse
+  creator: Dr. Caroline Robinson
+  creator_slug: caroline-robinson
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=4G-UgmoGctc
+  posted: '2026-05-06'
+  related: []
+  thesis: 'Board-certified dermatologist Dr. Caroline Robinson warns that under-eye treatments can backfire: filler can cause swelling or bruising, laser can worsen pigment or fail to clear it, and chemical peels can aggravate dark circles that stem from eczema or allergies, since those patients'' skin is already sensitized (she says she does not consider them good peel candidates). She also cautions that repeated filler resets a patient''s sense of "normal," which can lead people to seek more filler than they actually need, and stresses wanting a provider willing to say no. Her main recommendation is to prioritize a solid at-home core routine, prevention, and lifestyle optimization before pursuing procedural treatments.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Filler Mistake Everyone Makes
+  creator: Dr. Caroline Robinson
+  creator_slug: caroline-robinson
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=8tLzQOefPvQ
+  posted: '2026-05-01'
+  related: []
+  thesis: 'Board-certified dermatologist Dr. Caroline Robinson explains a common under-eye filler mistake: injecting filler directly into the tear trough (under-eye hollow) without first addressing the cheek. She notes the eye area itself has no fat, only skin, muscle, and fluid, while the cheek provides structural support that the under-eye relies on, and cheek volume loss is what typically causes tear-trough hollowing in the first place. Her recommended approach is to rebuild cheek volume first, then correct any remaining under-eye hollowness, rather than injecting the tear trough as a first step.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Why Dark Circles Get Worse With Age
+  creator: Dr. Caroline Robinson
+  creator_slug: caroline-robinson
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=CBl27a-hv_o
+  posted: '2026-04-20'
+  related: []
+  thesis: 'Board-certified dermatologist Dr. Caroline Robinson explains why under-eye hollowing and dark circles worsen with age: the eye socket (orbit) widens and loses bone support, so the ligaments connecting bone to skin become more visible through the skin, and the fat pad beneath the skin loses its support and descends. She notes the cheek falls too, and together these changes create increasing hollowness that spreads from the tear trough out toward the outer eye as we age.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: First Step to Treat Dark Circles
+  creator: Dr. Caroline Robinson
+  creator_slug: caroline-robinson
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=4a_56VsKuQ8
+  posted: '2026-04-29'
+  related: []
+  thesis: Board-certified dermatologist Dr. Caroline Robinson explains that for most dark circle patients (including those with eczema or age-related darkness), she starts by improving overall under-eye skin quality rather than targeting pigment directly, since under-eye skin ages faster and gets thinner. She notes hydration is essentially a requirement for an effective eye cream, since under-eye skin is prone to dehydration and thinning. In-office, she uses skin booster treatments like Skinvive to boost hydration and microneedling to thicken the skin, which she says can also help improve shadowing, thinning-related darkness, and pigment.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: What to Use for Dark Circles
+  creator: Dr. Caroline Robinson
+  creator_slug: caroline-robinson
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=5JcRKfaV-Mc
+  posted: '2026-04-27'
+  related: [azelaic-acid, niacinamide, vitamin-c, caffeine]
+  thesis: Board-certified dermatologist Dr. Caroline Robinson explains that at-home treatment for dark circles depends on the underlying type. For pigmented dark circles, she recommends eye creams with actives like azelaic acid, niacinamide, or vitamin C, which regulate steps in the melanin production pathway and help even skin tone. For vascular dark circles, she recommends eye creams containing caffeine, which can help regulate blood flow to the area and temporarily improve the appearance of the under-eye.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Try This Test for Dark Circles
+  creator: Dr. Caroline Robinson
+  creator_slug: caroline-robinson
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=Q2d7LpLVO44
+  posted: '2026-04-22'
+  related: []
+  thesis: Board-certified dermatologist Dr. Caroline Robinson demonstrates a simple "skin pinch" test to identify which type of dark circles you have. She explains that if the darkness stays the same while you pinch the under-eye skin, it's the pigmented type; if it gets worse (looking pink, gray, or purple rather than brown), it's the vascular type; and if the pigment actually improves when pinched, that indicates the structural type of dark circles.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: '#skincare #cosmeticdermatology #skincareroutine #dermatologist #darkcircles #undereyetreatment'
+  creator: Dr. Jenny Liu (Jenny Liu, MD, FAAD)
+  creator_slug: jenny-liu
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=Ng5BdAF0CKA
+  posted: '2026-08-28'
+  related: [vitamin-c, retinoids, peptides]
+  thesis: Dermatologist Dr. Jenny Liu explains that dark circles need to be identified as vascular versus pigmented before treating them. She notes that a purple-blue tone usually comes from blood vessels showing through thin under-eye skin (vascular), while brown tones come from melanin (pigmented), and that vitamin C works well on pigmented dark circles by blocking melanin production but is much less effective on vascular ones. For vascular or thin-skin cases she recommends sunscreen to prevent collagen breakdown, retinoids, peptides, and vitamin C to thicken the skin over time, and for significant hollowing or thinning, in-office procedures like PRF, microneedling, laser, or carefully placed HA filler.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

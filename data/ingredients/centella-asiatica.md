@@ -18,6 +18,26 @@ videos:
   related: []
   thesis: 'Dr. Adeline Kikam, a board-certified dermatologist (Brown Skin Derm), explains that plumping and hydrating the skin can improve the appearance of scars as well as fine lines and wrinkles. Reacting to a clip of someone using a Korean centella ampoule or capsule containing glycerin, tranexamic acid, and centella asiatica, she breaks down each ingredient''s role: centella supports the skin barrier, glycerin plumps and hydrates, and tranexamic acid helps even skin tone. She concludes that this overall improvement in skin texture and tone is what makes scars and fine lines look less noticeable, rather than any single ingredient erasing them directly.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: The TRUTH About Korean Skincare (Dermatologist)
+  creator: Dr. Usama Syed
+  creator_slug: usama-syed
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=o-FhEB9WFAc
+  posted: '2023-06-20'
+  related: [oily-skin-korean-routine, sunscreen-uv-filters]
+  thesis: Board-certified dermatologist Dr. Usama Syed evaluates whether K-beauty deserves its hype. He finds centella asiatica and snail mucin (which contains glycolic acid, hyaluronic acid, and allantoin) have decent human-skin evidence, while green tea creams and bee venom lack compelling data. He calls the 10-step Korean routine mostly unnecessary, arguing it could be cut to about five steps, but says Korean sunscreens genuinely are more advanced, using filters like Tinosorb S and Uvinul A Plus that US regulation has blocked since the FDA hasn't approved a new sunscreen ingredient since the 1990s, though he also notes a 2020 Korean scandal where tested sunscreens fell well short of their labeled SPF. He concludes that K-beauty's popularity owes more to Korea's very high rates of cosmetic surgery, Botox, and filler use, plus lifestyle factors like diet and smoking, than to any product ingredient.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Stretch Marks   Can You Actually Get Rid of Them? A Dermatologist Answers Honestly | Dr. Jenny Liu
+  creator: Dr. Jenny Liu (Jenny Liu, MD, FAAD)
+  creator_slug: jenny-liu
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=gAQoQmzBT-s
+  posted: '2026-08-13'
+  related: [cerave, vanicream, the-ordinary, roc]
+  thesis: 'Board-certified dermatologist Dr. Jenny Liu explains that stretch marks (striae) are essentially scars formed when skin is stretched faster than it can adapt, and that the stage matters most: red/purple "striae rubra" respond much better to intervention than old white "striae alba," which can only be made less visible, never erased. She ranks 0.1% tretinoin for 12 weeks as the best topical for red stretch marks specifically, notes centella asiatica and hyaluronic-acid-based moisturizers have the better evidence for prevention (especially in pregnancy), and says lactic acid lotion (AmLactin), silicone sheets, and massage oils have weaker but plausible support. She concludes in-office procedures (pulsed dye laser/IPL for redness, then microneedling, RF microneedling, or fractional CO2 resurfacing over 3-5+ sessions) give the best clinical results, and that prevention (managing weight gain, keeping skin hydrated) beats treatment overall.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

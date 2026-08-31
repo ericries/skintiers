@@ -98,6 +98,16 @@ videos:
   related: [hair-loss-thinning]
   thesis: 'Board-certified dermatologist Dr. Shereene Idriss walks through six skin, hair, and nail changes that can signal an underlying systemic condition rather than a skincare problem: jawline acne paired with new coarse facial hair or scalp thinning that can point to PMOS/PCOS and elevated androgens; a sudden smooth round bald patch that may be alopecia areata; a butterfly-shaped facial rash that spares the nasolabial folds and worsens after sun exposure, which can indicate lupus rather than rosacea; yellow eyelid plaques (xanthelasma) that warrant a cholesterol check; horizontal grooves across multiple nails (Beau''s lines) reflecting a past physical stressor; and dark, velvety skin at the neck or underarms (acanthosis nigricans) as an early insulin-resistance warning sign. She stresses these are cues to see a doctor and get appropriate bloodwork rather than self-diagnose, and that topical skincare cannot fix the underlying hormonal, autoimmune, or metabolic causes.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: '#rosacea #rosaceatreatment #skincare #cosmeticdermatology #dermatologist #skincaretips'
+  creator: Dr. Jenny Liu (Jenny Liu, MD, FAAD)
+  creator_slug: jenny-liu
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=k_SFxS9hBZM
+  posted: '2026-08-29'
+  related: [rosacea-erythematotelangiectatic, rosacea-papulopustular]
+  thesis: 'Dermatologist Jenny Liu, MD, FAAD explains that many people who think they have sensitive skin actually have rosacea and are treating the wrong condition. She breaks rosacea into four types: type 1 is redness and flushing with visible blood vessels; type 2 is mistaken for acne, presenting as small red bumps and pustules on the central face that do not respond to acne treatments; type 3 is skin thickening around the nose and chin from sebaceous gland overgrowth; and type 4 is ocular rosacea, causing eye burning, dryness, watery eyes, and styes. She notes people often have more than one type at once, and treatment differs by type: type 1 responds best to lasers like Vbeam or IPL, while type 2 responds best to topicals like sulfur, ivermectin, and metronidazole cream, with combination treatment common for overlapping types.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

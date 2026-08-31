@@ -88,6 +88,36 @@ videos:
   related: [skin-barrier-repair]
   thesis: Board-certified dermatologist Dr. Daniel Sugai runs through several skincare facts worth knowing. He explains benzoyl peroxide is still a good ingredient despite recent controversy, but warns not to store it in high heat (like a hot car) or use it expired, since heat can break it down into benzene. He clarifies that tretinoin does not thin skin; it thickens the deeper collagen layers while the visible peeling is just the stratum corneum adjusting to faster cell turnover, not damage. He also notes people do not need to overspend on expensive barrier repair creams, recommending affordable options like Avene Cicalfate, La Roche-Posay Cicaplast Baume B5, or plain Vaseline when skin is compromised.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: '#skincare #cosmeticdermatology #skincareroutine #dermatologist #skincaretips'
+  creator: Dr. Jenny Liu (Jenny Liu, MD, FAAD)
+  creator_slug: jenny-liu
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=mctaZsSEKEU
+  posted: '2026-08-23'
+  related: []
+  thesis: Board-certified dermatologist Dr. Jenny Liu explains why glycolic acid is the "missing piece" when combined with tretinoin and azelaic acid. She says tretinoin builds collagen and speeds cell turnover while azelaic acid helps with redness, acne, and pigmentation, but neither gives an immediate smooth, polished look; glycolic acid dissolves the dead skin on the surface so the effects of the other two actives can show, producing a next-day "wow" effect. She warns against layering all three every night, recommending glycolic acid only two nights a week since an inflamed skin barrier undermines glowing skin.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Stretch Marks   Can You Actually Get Rid of Them? A Dermatologist Answers Honestly | Dr. Jenny Liu
+  creator: Dr. Jenny Liu (Jenny Liu, MD, FAAD)
+  creator_slug: jenny-liu
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=gAQoQmzBT-s
+  posted: '2026-08-13'
+  related: [cerave, vanicream, the-ordinary, roc]
+  thesis: 'Board-certified dermatologist Dr. Jenny Liu explains that stretch marks (striae) are essentially scars formed when skin is stretched faster than it can adapt, and that the stage matters most: red/purple "striae rubra" respond much better to intervention than old white "striae alba," which can only be made less visible, never erased. She ranks 0.1% tretinoin for 12 weeks as the best topical for red stretch marks specifically, notes centella asiatica and hyaluronic-acid-based moisturizers have the better evidence for prevention (especially in pregnancy), and says lactic acid lotion (AmLactin), silicone sheets, and massage oils have weaker but plausible support. She concludes in-office procedures (pulsed dye laser/IPL for redness, then microneedling, RF microneedling, or fractional CO2 resurfacing over 3-5+ sessions) give the best clinical results, and that prevention (managing weight gain, keeping skin hydrated) beats treatment overall.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: 'rating viral skincare trends! #skincare stitch with nieveyspam'
+  creator: Dr. Neera Nathan
+  creator_slug: neera-nathan
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=BqI2_Q3heXI
+  posted: '2026-08-16'
+  related: []
+  thesis: Board-certified dermatologist Dr. Neera Nathan reacts to viral skincare trends and explains which ones actually hold up. She says zinc oxide diaper rash cream applied at night acts as a skin protectant and anti-inflammatory that helps repair a damaged moisture barrier. She calls glycolic acid a versatile AHA useful for exfoliation, collagen boosting, evening pigmentation, and treating ingrown hairs or dark elbows when used one to three times a week. She notes viral collagen face masks work mainly as humectants for temporary plumping rather than by boosting the skin's own collagen production, and highlights combining azelaic acid in the morning with tretinoin at night as a long-standing dermatologist combo for smoothing texture, fading hyperpigmentation, and reducing wrinkles.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

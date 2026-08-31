@@ -89,6 +89,16 @@ videos:
   related: []
   thesis: 'Board-certified dermatologist Dr. Daniel Sugai shares tips he wishes he had known sooner. He explains that hyaluronic acid serum gives instant plumping and glow, good before an event, while vitamin C serum works more gradually as an antioxidant that fights free-radical damage from pollution and sunlight, improving fine lines, texture, and brightness over time; he wishes he had started vitamin C earlier in his 30s. He advises applying the less stable vitamin C serum first, then hyaluronic acid, then moisturizer and sunscreen (thinnest to thickest). He also stresses that not all sunscreens are equal for melasma and hyperpigmentation: a tinted sunscreen containing iron oxides is needed to block visible light, and he says patients whose melasma keeps worsening despite using sunscreen often turn out to be using one without iron oxides.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Viral Skincare Products I'd Never - A Derm's Honest Review | Dr. Jenny Liu
+  creator: Dr. Jenny Liu (Jenny Liu, MD, FAAD)
+  creator_slug: jenny-liu
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=rXQgrehNCas
+  posted: '2026-07-16'
+  related: [tretinoin]
+  thesis: Board-certified dermatologist Dr. Jenny Liu reacts to seven viral TikTok skincare trends and rates each. She says snail mucin (like COSRX's) is a mild, essentially upgraded hyaluronic acid serum with only preliminary efficacy data, not a must-have; beef tallow as moisturizer she avoids entirely, noting its fatty-acid profile resembles sebum and can worsen acne, plus raw tallow can go rancid or harbor bacteria; and liquid chlorophyll drops have little supporting data and aren't worth the money, with supplements generally carrying under-recognized liver-injury and drug-interaction risks. She endorses skin cycling and fermented-ingredient toners/essences (citing SK-II's Pitera essence) as legitimate but optional, and says a daily vitamin C serum in the morning plus a topical retinoid at night covers the majority of what most patients need for aging, texture, and tone, cautioning that not all vitamin C serums are equally effective.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

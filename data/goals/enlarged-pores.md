@@ -31,6 +31,38 @@ tier_list:
   title: Treatments by evidence for pore appearance
 type: goal
 updated: '2026-08-30'
+videos:
+- title: How to Actually Minimize Pores   The Full Derm Routine | Dr. Jenny Liu
+  creator: Dr. Jenny Liu (Jenny Liu, MD, FAAD)
+  creator_slug: jenny-liu
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=7AcYNmCLD4k
+  posted: '2026-07-02'
+  related: [salicylic-acid, niacinamide, adapalene, tretinoin]
+  thesis: Board-certified dermatologist Dr. Jenny Liu explains that pore size itself is genetically fixed and cannot be changed, but visibility can be reduced; enlarged pores mainly come from loss of collagen/elastin support with aging and from oil/debris buildup plus UV damage, and she debunks pore strips and hot/cold "opening and closing" hacks as ineffective. She recommends a long-term topical routine of salicylic acid to clear pores, niacinamide to regulate sebum, and a topical retinoid (adapalene or prescription tretinoin/tazarotene, not retinaldehyde) to support collagen and turnover, all alongside daily sunscreen, and says results take 3 to 6 months of consistent use. For people who don't see enough improvement from topicals, she discusses in-office options like microneedling, laser resurfacing, salicylic acid chemical peels, and clay masks for temporary oil control.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: '#skincare #cosmeticdermatology #skincareroutine #dermatologist #skincaretips #acneproneskin'
+  creator: Dr. Jenny Liu (Jenny Liu, MD, FAAD)
+  creator_slug: jenny-liu
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=coUHJ-vt5F8
+  posted: '2026-08-24'
+  related: [la-roche-posay-cicaplast-baume-b5, blackheads-clogged-pores]
+  thesis: Board-certified dermatologist Dr. Jenny Liu outlines a six-step routine to reduce the appearance of sebaceous filaments (the natural oil-duct openings around the nose and cheeks often mistaken for blackheads). She recommends a gentle cleanser (double cleansing if wearing makeup), nightly adapalene (Differin) for cell turnover, a salicylic acid exfoliant a few times a week to clear pores of sebum, consistent moisturizing to keep the skin barrier healthy, and a weekly clay mask for very oily skin to pull out excess oil. She notes moisturizer doesn't directly clear filaments but supports skin turnover, which is why some people credit products like Cicaplast with improvement.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: 'these are not pimples #skincare stitch with qitarra.olson'
+  creator: Dr. Neera Nathan
+  creator_slug: neera-nathan
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=sjqs8gBjiAM
+  posted: '2026-08-17'
+  related: []
+  thesis: 'Board-certified dermatologist Dr. Neera Nathan explains that the small persistent bumps many people see on the chin and nose are not pimples or milia but sebaceous filaments, normal pore structures that cannot be eliminated but can be minimized. She offers three derm-approved approaches: a sulfur mask left on 10 minutes to break down debris and reduce surface oiliness, a salicylic acid cleanser to exfoliate and cut sebum without stripping the skin barrier, and a pea-sized amount of adapalene gel, which she says is unmatched over-the-counter for keeping pores clear and appearing smaller.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Pore size is largely fixed by genetics, sex hormones, and age; DermNet states plainly that "treatments that focus on preventing and shrinking large pores are not very effective."[^1] What you can actually change is how full and visible pores look: less oil, less debris, and better surface texture make the same follicle openings read as smaller. Nothing sold over the counter closes a pore.

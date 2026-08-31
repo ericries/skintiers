@@ -59,6 +59,16 @@ videos:
   thesis: Board-certified dermatologist Dr. Whitney Bowe debunks common tanning myths (a "base tan" protects skin, not burning means you're fine, tanning bed use is safer, tanning clears acne) alongside her teenage daughter and guest contributors including a melanoma survivor. She explains that any tan is itself a sign of DNA damage and cellular injury, since melanocytes only pump out more melanin as an emergency stress response once UV rays have already penetrated the skin; UVA (breaks down collagen, ages skin) and UVB (causes burning) both contribute even without a visible burn. She notes tanning bed users have three times the melanoma risk because modern beds emit intense UVA plus enough UVB to damage cells without necessarily burning, and that tanning does not clear acne but instead triggers oxidative stress that can worsen breakouts long-term. She closes by demonstrating a daytime routine (cleanser, vitamin C serum, then daily sunscreen as the single most important step) to protect
     and improve skin without sun exposure.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Stop Using Your Winter Skincare Routine in Summer   A Dermatologist Explains | Dr. Jenny Liu
+  creator: Dr. Jenny Liu (Jenny Liu, MD, FAAD)
+  creator_slug: jenny-liu
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=VVHaU9qu4c4
+  posted: '2026-07-09'
+  related: [melasma, tretinoin, glycolic-acid, salicylic-acid, ascorbic-acid-vitamin-c, vitamin-c, seborrheic-dermatitis, pityriasis-versicolor]
+  thesis: Board-certified dermatologist Dr. Jenny Liu explains why a winter skincare routine needs specific summer swaps rather than a full overhaul. She recommends lighter, less occlusive moisturizers, a higher-SPF water-resistant sunscreen, and double cleansing at night (an oil or balm cleanser first) to remove sunscreen buildup that can worsen breakouts. She advises cutting back on AHA exfoliants like glycolic or lactic acid (which increase sun-burn risk) or switching to a BHA, but says tretinoin does not need to be reduced since it does not raise burn risk. She also covers storing and choosing vitamin C serums to protect against summer-worsened melasma, and swapping in an anti-dandruff shampoo/body wash to manage summer flares of seborrheic dermatitis and tinea versicolor.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

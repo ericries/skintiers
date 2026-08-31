@@ -7,6 +7,18 @@ status: published
 tier: mid
 type: ingredient
 updated: '2026-08-30'
+videos:
+- title: The TRUTH About Korean Skincare (Dermatologist)
+  creator: Dr. Usama Syed
+  creator_slug: usama-syed
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=o-FhEB9WFAc
+  posted: '2023-06-20'
+  related: [oily-skin-korean-routine, sunscreen-uv-filters]
+  thesis: Board-certified dermatologist Dr. Usama Syed evaluates whether K-beauty deserves its hype. He finds centella asiatica and snail mucin (which contains glycolic acid, hyaluronic acid, and allantoin) have decent human-skin evidence, while green tea creams and bee venom lack compelling data. He calls the 10-step Korean routine mostly unnecessary, arguing it could be cut to about five steps, but says Korean sunscreens genuinely are more advanced, using filters like Tinosorb S and Uvinul A Plus that US regulation has blocked since the FDA hasn't approved a new sunscreen ingredient since the 1990s, though he also notes a 2020 Korean scandal where tested sunscreens fell well short of their labeled SPF. He concludes that K-beauty's popularity owes more to Korea's very high rates of cosmetic surgery, Botox, and filler use, plus lifestyle factors like diet and smoking, than to any product ingredient.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Green tea extract (INCI names include Camellia Sinensis Leaf Extract) is a polyphenol-rich botanical whose most-studied active fraction is (-)-epigallocatechin-3-gallate (EGCG, C22H18O11), formulated topically in leave-on serums and creams at concentrations that have ranged from roughly 2.5% EGCG in trial creams to 10% whole-extract creams in combination regimens.[^pubchem][^domingo][^chiu] The evidence base is real but preliminary: a single-application study found green tea extract dose-dependently blunted acute UV-induced erythema and DNA damage, while the one randomized, double-blind, placebo-controlled trial of a combined oral-plus-topical regimen for chronic photoaging found no significant clinical improvement over eight weeks, only a histologic increase in elastic tissue.[^elmets][^chiu]

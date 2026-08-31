@@ -32,6 +32,36 @@ videos:
   related: []
   thesis: Dr. Neera Nathan, a board-certified dermatologist, explains how to use glycolic acid safely on different body areas. She recommends 7% glycolic acid on armpits only one to two times per week to avoid irritation and darkening, two to three times per week on the body for ingrown hairs and breakouts, three to four times per week on chest, arms, or legs for crepey skin (alternating with a body retinol), and daily use is reserved for calluses on the soles followed by urea cream or Aquaphor.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: '#skincare #cosmeticdermatology #skincareroutine #dermatologist #skincaretips'
+  creator: Dr. Jenny Liu (Jenny Liu, MD, FAAD)
+  creator_slug: jenny-liu
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=mctaZsSEKEU
+  posted: '2026-08-23'
+  related: []
+  thesis: Board-certified dermatologist Dr. Jenny Liu explains why glycolic acid is the "missing piece" when combined with tretinoin and azelaic acid. She says tretinoin builds collagen and speeds cell turnover while azelaic acid helps with redness, acne, and pigmentation, but neither gives an immediate smooth, polished look; glycolic acid dissolves the dead skin on the surface so the effects of the other two actives can show, producing a next-day "wow" effect. She warns against layering all three every night, recommending glycolic acid only two nights a week since an inflamed skin barrier undermines glowing skin.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: '#skincare #skincareroutine #dermatologist #skincaretips #shavinghacks #razorbumps'
+  creator: Dr. Jenny Liu (Jenny Liu, MD, FAAD)
+  creator_slug: jenny-liu
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=pk5_rveYLZE
+  posted: '2026-08-30'
+  related: []
+  thesis: 'Reacting to a viewer''s leg-shaving hack, board-certified dermatologist Dr. Jenny Liu confirms that hair conditioner works as a shaving cream (it adds slip and cuts friction) and that men''s razors are often sharper and easier to maneuver. She then adds her own upgrades: shave at the end of a shower once hair has softened, always use a fresh blade since dull blades cause more irritation and ingrown hairs, shave with the grain if you''re prone to razor bumps, moisturize immediately after, and use an AHA-based moisturizer two to three times a week to reduce dead skin buildup.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: 'rating viral skincare trends! #skincare stitch with nieveyspam'
+  creator: Dr. Neera Nathan
+  creator_slug: neera-nathan
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=BqI2_Q3heXI
+  posted: '2026-08-16'
+  related: []
+  thesis: Board-certified dermatologist Dr. Neera Nathan reacts to viral skincare trends and explains which ones actually hold up. She says zinc oxide diaper rash cream applied at night acts as a skin protectant and anti-inflammatory that helps repair a damaged moisture barrier. She calls glycolic acid a versatile AHA useful for exfoliation, collagen boosting, evening pigmentation, and treating ingrown hairs or dark elbows when used one to three times a week. She notes viral collagen face masks work mainly as humectants for temporary plumping rather than by boosting the skin's own collagen production, and highlights combining azelaic acid in the morning with tretinoin at night as a long-standing dermatologist combo for smoothing texture, fading hyperpigmentation, and reducing wrinkles.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 name: Glycolic acid
 slug: glycolic-acid
 tier: mid

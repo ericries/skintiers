@@ -67,6 +67,16 @@ videos:
   related: [salicylic-acid, glycolic-acid, urea]
   thesis: 'Dr. Dustin Portela, a board-certified dermatologist, explains seven common benign skin growths he sees daily in clinic: seborrheic keratoses, warts, sebaceous hyperplasia, skin tags, milia, cherry angiomas, and venous lakes. He covers why each forms and how it is treated, and stresses that none of them are cancerous or turn into cancer. On milia specifically, he explains they are fully enclosed under the skin (unlike whiteheads, which connect to a follicle with a natural opening), so they cannot be popped at home; he removes them in-office with a needle or 11-blade and recommends a topical retinol to help prevent new ones from forming, since occlusive products like slugging without proper cleansing can also make people more prone to them.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Viral Skincare Products I'd Never - A Derm's Honest Review | Dr. Jenny Liu
+  creator: Dr. Jenny Liu (Jenny Liu, MD, FAAD)
+  creator_slug: jenny-liu
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=rXQgrehNCas
+  posted: '2026-07-16'
+  related: [tretinoin]
+  thesis: Board-certified dermatologist Dr. Jenny Liu reacts to seven viral TikTok skincare trends and rates each. She says snail mucin (like COSRX's) is a mild, essentially upgraded hyaluronic acid serum with only preliminary efficacy data, not a must-have; beef tallow as moisturizer she avoids entirely, noting its fatty-acid profile resembles sebum and can worsen acne, plus raw tallow can go rancid or harbor bacteria; and liquid chlorophyll drops have little supporting data and aren't worth the money, with supplements generally carrying under-recognized liver-injury and drug-interaction risks. She endorses skin cycling and fermented-ingredient toners/essences (citing SK-II's Pitera essence) as legitimate but optional, and says a daily vitamin C serum in the morning plus a topical retinoid at night covers the majority of what most patients need for aging, texture, and tone, cautioning that not all vitamin C serums are equally effective.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

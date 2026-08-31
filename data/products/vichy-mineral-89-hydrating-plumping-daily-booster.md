@@ -26,6 +26,18 @@ slug: vichy-mineral-89-hydrating-plumping-daily-booster
 status: published
 type: product
 updated: '2026-08-23'
+videos:
+- title: Ozempic Face Is Real | Dermatologist Explains How to Prevent & Fix It
+  creator: Dr. Jenny Liu (Jenny Liu, MD, FAAD)
+  creator_slug: jenny-liu
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=PffIcp5zFxA
+  posted: '2026-07-23'
+  related: [niacinamide, retinol, vitamin-c, hyaluronic-acid]
+  thesis: 'Dr. Jenny Liu, a board-certified dermatologist, explains "Ozempic face": the hollowing, sagging, and skin-quality changes seen in patients on GLP-1 medications who lose weight rapidly, especially older patients and those with low protein intake. She says risk can be reduced with slower weight loss, adequate protein, daily sunscreen, a tolerable retinoid, vitamin C, and a barrier-supporting moisturizer with niacinamide or collagen-supporting peptides, plus optional microcurrent devices or LED masks for mild laxity. For patients who already have facial hollowing or sagging, she discusses in-office options (biostimulatory fillers like Sculptra, hyaluronic acid fillers, and energy-based skin-tightening devices) and separately covers GLP-1-related hair shedding (telogen effluvium), for which she recommends nutrition, minoxidil, and seeing a dermatologist if severe.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Vichy Minéral 89 Hydrating & Plumping Daily Booster is a fragrance-free hyaluronic-acid and polyglutamic-acid hydrating serum, sold in 30 mL, 50 mL, and 75 mL sizes, built around Vichy's mineralizing volcanic water.[^vichy]

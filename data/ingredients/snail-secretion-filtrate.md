@@ -18,6 +18,16 @@ videos:
   related: [neck-chest-decolletage-care]
   thesis: Board-certified dermatologist Dr. Angelo Landriscina (DermAngelo) reacts in real time to another creator's skincare routine, correcting or confirming each step. He says wiping your face with a towel does not cause wrinkles ("according to the data"), doubts that applying serum specifically to damp versus dry skin matters much, and says he does not buy into the snail mucin hype since there are other hydrating ingredients that do not require "traumatizing snails." He also endorses washing hands before touching your face, using your index finger for more control when applying product, and not skipping SPF on the neck, décolletage, and lips.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: The TRUTH About Korean Skincare (Dermatologist)
+  creator: Dr. Usama Syed
+  creator_slug: usama-syed
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=o-FhEB9WFAc
+  posted: '2023-06-20'
+  related: [oily-skin-korean-routine, sunscreen-uv-filters]
+  thesis: Board-certified dermatologist Dr. Usama Syed evaluates whether K-beauty deserves its hype. He finds centella asiatica and snail mucin (which contains glycolic acid, hyaluronic acid, and allantoin) have decent human-skin evidence, while green tea creams and bee venom lack compelling data. He calls the 10-step Korean routine mostly unnecessary, arguing it could be cut to about five steps, but says Korean sunscreens genuinely are more advanced, using filters like Tinosorb S and Uvinul A Plus that US regulation has blocked since the FDA hasn't approved a new sunscreen ingredient since the 1990s, though he also notes a 2020 Korean scandal where tested sunscreens fell well short of their labeled SPF. He concludes that K-beauty's popularity owes more to Korea's very high rates of cosmetic surgery, Botox, and filler use, plus lifestyle factors like diet and smoking, than to any product ingredient.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

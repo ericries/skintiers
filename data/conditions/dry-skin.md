@@ -51,6 +51,18 @@ tier_list:
   title: Dry skin (xerosis) treatments by evidence
 type: condition
 updated: '2026-08-30'
+videos:
+- title: Why Your Lips Are ALWAYS Dry (Dermatologist)
+  creator: Dr. Usama Syed
+  creator_slug: usama-syed
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=l5YQOwGbDAk
+  posted: '2024-03-12'
+  related: [tacrolimus-topical]
+  thesis: Board-certified dermatologist Dr. Usama Syed explains that chapped lips (cheilitis) have several distinct causes, most commonly dry winter air combined with mouth breathing from a blocked nose, but also lip-product allergens (like beeswax and peppermint oil in some balms), eczema, actinic cheilitis from chronic sun damage, and infections. He explains that dehydration is rarely the real cause and that lip scrubs make the problem worse by further damaging an already compromised skin barrier. His main recommendations are a plain occlusive ointment (Vaseline, or alternatives like Aquaphor or CeraVe Healing Ointment) applied several times daily and especially before bed, a humidifier to add moisture to the air, and stopping lip-licking, which he says worsens dryness via digestive enzymes in saliva; for the minority of cases that do not improve he mentions dermatologist-prescribed options like tacrolimus ointment.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Dry skin, medically xerosis (also xeroderma or asteatosis), "refers to skin that feels dry to touch," occurring "when the skin is lacking moisture in the outer horny cell layer (stratum corneum)," which results in visible cracking of the surface.[^dermnet] It is one of the most treatable complaints in skincare: the fix is not exotic, it is applying enough of the right kind of moisturizer, consistently, while removing whatever is stripping the barrier in the first place.

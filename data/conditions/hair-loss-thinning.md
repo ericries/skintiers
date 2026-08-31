@@ -74,6 +74,16 @@ videos:
   related: [salicylic-acid, glycolic-acid]
   thesis: Dr Adel, a consultant dermatologist specializing in hair with 15 years treating scalp and hair problems, walks through a full framework for hair growth covering scalp buildup, microneedling (dermastamp) for stimulation, and the difference between dandruff and dryness. She debunks biotin and collagen supplements for people without a deficiency, explains ferritin (not just iron) as a key blood marker for hair loss, and details a pre-wash/wash/post-wash/treat routine structure. She also covers heat, mechanical, and traction damage, clarifies that trimming does not speed growth, and explains telogen effluvium, where stress- or hormone-driven shedding shows up 2 to 3 months after the trigger and is usually reversible once the cause is addressed.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: 99% Miss This NEW Hair Loss Treatment - Dermatologist Explains
+  creator: Dr. Usama Syed
+  creator_slug: usama-syed
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=an4HwWcK9wM
+  posted: '2023-08-09'
+  related: []
+  thesis: Board-certified dermatologist Dr. Usama Syed explains low-dose oral minoxidil, a tablet form of the decades-old topical hair loss drug, repurposed off-label at much lower doses than its original blood-pressure use. He argues it outperforms topical minoxidil because it delivers more active drug to the hair follicle via the bloodstream, cites early clinical data mainly in male and female pattern hair loss, and details common side effects (excess body hair growth in about one in five patients, mild heart rate increase, and leg swelling/water weight in a subset). He stresses it is not FDA-approved for hair loss, is prescription-only, and states he has no financial stake in any oral minoxidil company or virtual-visit service.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
