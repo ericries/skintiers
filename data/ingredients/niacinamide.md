@@ -49,7 +49,7 @@ type: ingredient
 updated: '2026-07-28'
 ---
 
-Niacinamide (nicotinamide) is the amide form of vitamin B3 (niacin), used in leave-on skincare typically at 2% to 10% and taken orally as a supplement; in the body it is a precursor to the coenzymes NAD+ and NADP+, which run cellular energy metabolism and DNA repair.[^tosti][^ontrac] Its evidence splits by route of use: the strongest controlled data are for oral supplementation reducing skin cancers in high-risk people, while the topical serums most buyers reach for rest on smaller and frequently manufacturer-run trials.
+Niacinamide (also called nicotinamide) is a form of vitamin B3, used in leave-on skincare products (serums, moisturizers) typically at 2% to 10% strength, and also taken as an oral supplement. In the body it is a building block for the coenzymes NAD+ and NADP+, which run cellular energy metabolism and DNA repair.[^tosti][^ontrac] Its evidence splits sharply by how it is used: the strongest controlled data back oral supplementation for reducing skin cancers in high-risk people, while the topical serums most buyers reach for rest on smaller and frequently manufacturer-run trials.
 
 > Oral niacinamide has real but population-dependent evidence for cutting nonmelanoma skin cancers in high-risk immunocompetent people, a 23% reduction in one phase 3 trial, yet a later trial in organ-transplant recipients found no benefit and a 2023 meta-analysis pooling both calls the overall evidence insufficient.[^ontrac][^ontrans][^tosti] Topical niacinamide is well tolerated and has modest evidence for supporting the skin barrier and for lightening facial hyperpigmentation, much of it from small or manufacturer-run studies; the oral skin-cancer data are for a 500 mg twice-daily pill and do not transfer to a topical serum.[^tanno][^hakozaki][^navarrete]
 
@@ -62,15 +62,15 @@ Grades differ by route and use.
 - **Evidence quality: solid but conflicting.** Two phase 3 double-blind RCTs reached opposite results in different populations, and a 2023 systematic review and meta-analysis of four trials, pooling immunocompetent and immunosuppressed patients, found the pooled signal did not reach significance (NMSC rate ratio 0.82; 95% CI 0.61 to 1.12).[^ontrac][^ontrans][^tosti]
 
 **Skin barrier support and dry skin (topical)**
-- **Effect size: modest.** In cultured human keratinocytes, nicotinamide raised de novo synthesis of ceramides and other stratum-corneum lipids, and topical application increased stratum-corneum ceramide and free fatty acid levels and lowered transepidermal water loss in dry skin.[^tanno] This is a lipid-precursor mechanism that overlaps the barrier support attributed to [[ceramides]], useful for dry skin rather than a treatment for a barrier disease. "Modest; a barrier-lipid boost adjacent to what [[ceramides]] provide, shown mainly as reduced water loss in dry skin."
+- **Effect size: modest.** In cultured human keratinocytes, nicotinamide raised de novo synthesis of ceramides and other stratum-corneum lipids, and topical application increased stratum-corneum ceramide and free fatty acid levels and lowered transepidermal water loss in [[dry-skin|dry skin]].[^tanno] This is a lipid-precursor mechanism that overlaps the barrier support attributed to [[ceramides]], useful for dry skin rather than a treatment for a barrier disease. "Modest; a barrier-lipid boost adjacent to what [[ceramides]] provide, shown mainly as reduced water loss in dry skin."
 - **Evidence quality: preliminary.** Mechanistic keratinocyte work plus an in vivo transepidermal-water-loss measure, from a single manufacturer research group (Kanebo).[^tanno]
 
 **Hyperpigmentation and melasma (topical)**
-- **Effect size: modest.** A split-face study of 5% niacinamide reduced facial hyperpigmentation versus vehicle after four weeks, and in a small independent melasma RCT 4% niacinamide was comparable to hydroquinone 4% (good-to-excellent response 44% vs 55%, with no significant colorimetric difference) and better tolerated (side effects 18% vs 29%).[^hakozaki][^navarrete] It works by a different route than [[hydroquinone]], blocking pigment transfer rather than inhibiting tyrosinase. "Modest; roughly comparable to hydroquinone 4% in one small independent melasma trial and better tolerated, on a different mechanism."
+- **Effect size: modest.** A split-face study of 5% niacinamide reduced facial [[hyperpigmentation]] versus vehicle after four weeks, and in a small independent [[melasma]] RCT 4% niacinamide was comparable to hydroquinone 4% (good-to-excellent response 44% vs 55%, with no significant colorimetric difference) and better tolerated (side effects 18% vs 29%).[^hakozaki][^navarrete] It works by a different route than [[hydroquinone]], blocking pigment transfer rather than inhibiting tyrosinase. "Modest; roughly comparable to hydroquinone 4% in one small independent melasma trial and better tolerated, on a different mechanism."
 - **Evidence quality: mixed.** One small independent RCT (27 patients) plus manufacturer split-face studies; small samples and heterogeneous designs.[^hakozaki][^navarrete]
 
 **Acne (topical)**
-- **Effect size: modest.** In a double-blind RCT, 4% nicotinamide gel was comparable to 1% clindamycin gel over 8 weeks (papule and pustule reduction -60% vs -43%, P=0.168; 82% vs 68% of patients improved on the Physician's Global Evaluation, P=0.19).[^shalita] It sits below the better-evidenced topical acne actives [[benzoyl-peroxide]] and [[azelaic-acid]]. "Modest; comparable to topical clindamycin in a single small RCT, on much thinner evidence than benzoyl peroxide or azelaic acid."
+- **Effect size: modest.** In a double-blind RCT, 4% nicotinamide gel was comparable to 1% clindamycin gel over 8 weeks (papule and pustule reduction -60% vs -43%, P=0.168; 82% vs 68% of patients improved on the Physician's Global Evaluation, P=0.19).[^shalita] It sits below the better-evidenced topical [[acne]] actives [[benzoyl-peroxide]] and [[azelaic-acid]]. "Modest; comparable to topical clindamycin in a single small RCT, on much thinner evidence than benzoyl peroxide or azelaic acid."
 - **Evidence quality: preliminary.** The topical acne case rests largely on one small RCT (76 patients); an abridged Cochrane review found no included nicotinamide trial reported the global self-assessment outcome and rated the topical acne evidence outside azelaic acid "low- to very-low-quality evidence for other topical treatments."[^shalita][^cochrane]
 
 **Photoaging appearance and wrinkles (topical, cosmetic)**
@@ -114,7 +114,7 @@ None of the claims below is established beyond what The Evidence above supports.
 
 ## See Also
 
-[[ceramides]] [[azelaic-acid]] [[benzoyl-peroxide]] [[hydroquinone]] [[retinoids]] [[skin-barrier-repair]] [[anti-aging]]
+[[hyperpigmentation]] [[melasma]] [[acne]] [[ceramides]] [[azelaic-acid]] [[benzoyl-peroxide]] [[hydroquinone]] [[retinoids]] [[skin-barrier-repair]] [[anti-aging]]
 
 ## Sources
 

@@ -110,7 +110,9 @@ videos:
 
 ---
 
-Atopic dermatitis, the form of eczema meant when people say "eczema" without qualification, is a chronic, intensely itchy inflammatory skin disease that relapses and remits over years and has no cure, where treatment "at best achieves symptom control rather than cure."[^nutten2015] The American Academy of Dermatology guideline describes it as "a chronic, pruritic inflammatory dermatosis that affects up to 25% of children and 2% to 3% of adults."[^eichenfield2014] Among **topical skincare** options for atopic dermatitis, the intervention with the strongest evidence is plain moisturizing, which reduces flares and the amount of prescription steroid needed rather than clearing the disease, and no moisturizer has been shown to beat another.[^cochrane2017]
+Atopic dermatitis, the form of eczema meant when people say "eczema" without qualification, is a chronic, intensely itchy inflammatory skin disease that relapses and remits over years and has no cure, where treatment "at best achieves symptom control rather than cure."[^nutten2015] The American Academy of Dermatology guideline describes it as "a chronic, pruritic inflammatory dermatosis that affects up to 25% of children and 2% to 3% of adults."[^eichenfield2014]
+
+**The skeptical bottom line:** among **topical skincare** options for atopic dermatitis, the intervention with the strongest evidence is plain [[moisturizing]], which reduces flares and the amount of prescription steroid needed rather than clearing the disease, and no moisturizer has been shown to beat another.[^cochrane2017]
 
 ## How to know you have this
 
@@ -119,7 +121,7 @@ These are the features clinicians look for, described so a reader can recognize 
 The single feature the U.K. Working Party found most discriminating is a **history of an itchy skin condition**; in its validated criteria, atopic dermatitis is recognized by that itch plus several of the following: a history of the rash in the skin creases, a history of generally dry skin, onset before age 2, a personal history of asthma or hay fever, and visible dermatitis in the skin folds.[^williams1994] In everyday terms:
 
 - **Itch is the core.** The itch tends to come before the visible rash and drives much of the distress; scratching then worsens the skin. A rash without itch is unlikely to be atopic dermatitis by these criteria.[^williams1994]
-- **The skin looks and feels eczematous.** The AAD lists the typical findings as "erythema, edema, xerosis, erosions/excoriations, oozing and crusting, and lichenification," meaning redness, swelling, dryness, scratch marks, weeping and crusting in flares, and thickened leathery skin where it has been rubbed for a long time; these "vary by patient age and chronicity."[^eichenfield2014] Generally dry skin between flares is common.[^williams1994]
+- **The skin looks and feels eczematous.** The AAD lists the typical findings as "erythema, edema, xerosis, erosions/excoriations, oozing and crusting, and lichenification," meaning redness, swelling, dryness, scratch marks, weeping and crusting in flares, and thickened leathery skin where it has been rubbed for a long time; these "vary by patient age and chronicity."[^eichenfield2014] Generally [[dry-skin|dry skin]] between flares is common.[^williams1994]
 - **Where it sits changes with age.** In infants and young children it often appears on the cheeks, face, and the outer surfaces of the limbs; in older children and adults it tends to settle into the skin folds (the flexures): the fronts of the elbows, behind the knees, the fronts of the ankles, and around the neck, which is the flexural pattern the U.K. criteria treat as characteristic.[^williams1994][^eichenfield2014]
 - **It relapses and remits.** It is chronic and comes and goes over months and years rather than clearing in days, usually beginning in early childhood.[^nutten2015][^williams1994]
 - **Personal or family atopy is common.** A personal or family history of asthma or hay fever supports the pattern, because atopic dermatitis is part of the same atopic tendency.[^williams1994][^nutten2015]
@@ -138,7 +140,7 @@ The most rigorous recent estimate in U.S. adults comes from the Atopic Dermatiti
 
 Atopic dermatitis arises from a damaged skin barrier and a misdirected immune response acting together, rather than from one cause. The epidemiology review frames it as "the interaction of a dysfunctional epidermal barrier in genetically predisposed individuals with harmful effects of environmental agents."[^nutten2015]
 
-- **A skin-barrier defect.** The clearest genetic evidence is for filaggrin, a protein that helps build the outer barrier. Palmer and colleagues showed that two loss-of-function variants in the filaggrin gene are "very strong predisposing factors for atopic dermatitis," carried by "approximately 9% of people of European origin," and concluded the work "establishes a key role for impaired skin barrier function in the development of atopic disease."[^palmer2006] A leaky barrier loses water and lets in irritants and allergens, which is the mechanistic reason repairing and moisturizing the barrier is a mainstay of care.[^palmer2006][^nutten2015]
+- **A skin-barrier defect.** The clearest genetic evidence is for filaggrin, a protein that helps build the outer barrier. Palmer and colleagues showed that two loss-of-function variants in the filaggrin gene are "very strong predisposing factors for atopic dermatitis," carried by "approximately 9% of people of European origin," and concluded the work "establishes a key role for impaired skin barrier function in the development of atopic disease."[^palmer2006] A leaky barrier loses water and lets in irritants and allergens, which is the mechanistic reason [[skin-barrier-repair|repairing and moisturizing the barrier]] is a mainstay of care.[^palmer2006][^nutten2015]
 - **Immune and allergic involvement, as consequence more than trigger.** Atopic dermatitis has long been called an allergic disease, but the epidemiology review notes "the contribution of allergic reactions to the initiation of AD is challenged," proposing instead that allergy "is rather a consequence of AD" once the barrier is breached in an atopic person.[^nutten2015] This is one reason food-elimination diets are a poor primary treatment (see What's Overhyped).
 
 ## What Actually Works
@@ -171,7 +173,7 @@ These sources are methodologically independent: a Cochrane synthesis of treatmen
 
 ## See Also
 
-[[moisturizing]], [[colloidal-oatmeal]], [[ceramides]], [[petrolatum]], [[glycerin]], [[niacinamide]], [[acne]], [[rosacea]]
+[[moisturizing]], [[skin-barrier-repair]], [[colloidal-oatmeal]], [[ceramides]], [[petrolatum]], [[glycerin]], [[niacinamide]], [[acne]], [[rosacea]]
 
 ## Sources
 

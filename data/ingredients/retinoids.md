@@ -158,13 +158,13 @@ type: ingredient
 updated: '2026-07-27'
 ---
 
-Retinoids are the family of vitamin A derivatives used on skin. The family runs from prescription retinoic acid, the receptor-active form, out through the over-the-counter esters, [[retinol]], and [[retinaldehyde]], to a set of newer cosmetic derivatives. They are not interchangeable: the forms differ in how many enzymatic steps separate them from the active molecule, and in how much clinical evidence stands behind each. This hub maps the family by conversion pathway, by form, and by the strength of evidence for each form, and links to the full profile for every member.
+Retinoids are the family of vitamin A derivatives used on skin, from prescription drugs like [[tretinoin]] to over-the-counter forms like [[retinol]]. They treat [[acne]] and [[anti-aging|photoaging]] (wrinkles, sun damage), but they are not interchangeable: the forms differ in how many conversion steps separate them from the active molecule inside the skin, and in how much clinical evidence stands behind each. In short, the prescription forms have decades of trial data behind them; most over-the-counter forms have thinner evidence, and a couple of newer cosmetic ones have barely any. This hub maps the family by conversion pathway, by form, and by the strength of evidence for each, and links to the full profile for every member.
 
 > The retinoid family shares one active endpoint, retinoic acid, but the evidence behind each member is very different: decades of randomized trials for the prescription drugs, solid over-the-counter data for [[retinaldehyde]], thinner and mostly single-group data for the newest cosmetic esters. [[bakuchiol]] is marketed alongside them as a "retinol alternative" but is not a vitamin A derivative at all.
 
 ## The Conversion Pathway
 
-The skin's retinoid pathway is a chain of enzymatic conversions. A retinyl ester is hydrolyzed to [[retinol]], which is then oxidized in stages to the active acid. Zasada and Budzisz describe the esters as compounds that "are very stable but first they need to be converted to retinol by cleavage of the ester bond, and in the subsequent stage into retinoic acid."[^zasada] The full chain runs:
+The skin's retinoid pathway is a chain of enzymatic conversions, meaning the skin's own enzymes have to process each form step by step before it becomes active. A retinyl ester is hydrolyzed to [[retinol]], which is then oxidized in stages to the active acid. Zasada and Budzisz describe the esters as compounds that "are very stable but first they need to be converted to retinol by cleavage of the ester bond, and in the subsequent stage into retinoic acid."[^zasada] The full chain runs:
 
 - retinyl ester ([[retinyl-esters]]) -> [[retinol]] -> [[retinaldehyde]] -> retinoic acid ([[tretinoin]])
 
@@ -238,6 +238,18 @@ Treat everything here as unproven or overstated unless it appears in The Evidenc
 - **"Contains a retinoid, so it works like retinol or tretinoin."** A form's position on the conversion pathway matters. An ester is inactive until the skin cleaves it to retinol and converts it onward, and even then it converts less efficiently; Zasada and Budzisz record the esters' "decreased effectiveness of anti-wrinkle properties (smaller increase in the epidermal thickness) as compared to retinol and retinoic acid."[^zasada] The word "retinoid" on a label is not evidence of retinol-level or prescription-level efficacy.
 - **"Newer cosmetic derivatives match prescription strength."** The clinical evidence does not support equivalence claims for HPR or retinyl retinoate: their human data are in-vitro, combination-only, or single-group and small.[^wang][^kim] The trial-validated benchmark remains prescription tretinoin.[^huang]
 - **"Retinol alternatives are retinoids."** [[bakuchiol]] and similar plant "alternatives" are not vitamin A derivatives and do not sit on the retinoid conversion pathway. They are marketed alongside retinoids, which is a positioning choice, not a shared chemistry.
+
+## See Also
+
+- [[tretinoin]] - the prescription benchmark, retinoic acid itself
+- [[adapalene]] - the best-tolerated prescription option, also sold over the counter
+- [[retinol]] - the most-studied over-the-counter form
+- [[retinaldehyde]] - the strongest-evidenced over-the-counter form
+- [[bakuchiol]] - marketed as a "retinol alternative" but not a vitamin A derivative
+- [[acne]] - the condition most prescription retinoids are approved to treat
+- [[anti-aging]] - the goal most retinoid evidence targets
+- [[hyperpigmentation]] - another common use case for retinoids
+- [[sunscreen-uv-filters]] - daily use protects retinoid results and is required alongside them
 
 ## Sources
 

@@ -75,15 +75,15 @@ videos:
   url: https://www.youtube.com/watch?v=AGVZfO3rhQU
 ---
 
-Seborrheic dermatitis is "a common, chronic, or relapsing form of eczema/dermatitis that mainly affects the sebaceous gland-rich regions of the scalp, face, and trunk," and dandruff is simply its uninflamed scalp form.[^dermnet] It is driven largely by an overgrowth of the skin yeast Malassezia on oily skin, which is why topical antifungals are the mainstay of treatment.[^dermnet][^cochrane]
+Seborrheic dermatitis is the flaky, sometimes red, sometimes itchy skin condition that shows up on the scalp, face, and chest, in DermNet's words "a common, chronic, or relapsing form of eczema/dermatitis that mainly affects the sebaceous gland-rich regions of the scalp, face, and trunk." Dandruff is simply its uninflamed scalp form.[^dermnet] It is driven largely by an overgrowth of the skin yeast Malassezia on oily skin, which is why topical antifungals, not moisturizers or harder scrubbing, are the mainstay of treatment.[^dermnet][^cochrane]
 
 ## How to know you have this
 
 Adult seborrheic dermatitis shows up as salmon-pink, flaky, ill-defined patches with minimal itch in the oiliest areas: the scalp, the sides of the nose and nasolabial folds, the eyebrows and glabella, the ears and behind them, and the mid-chest.[^dermnet] It typically flares in winter and eases in summer with sun exposure, and it is chronic and relapsing.[^dermnet] It is common, affecting an estimated "3% to 12% of the population," and is one of the more frequent diagnoses in darker skin, where it can instead leave scaly hypopigmented (lighter) patches.[^dermnet]
 
-## What is happening in the skin
+## Why it happens
 
-The cause is not fully understood, but "proliferation of Malassezia yeast genus is believed to play a role": the yeast's enzymes cleave free fatty acids from the triglycerides in sebum, which appears to trigger the inflammation and flaking.[^dermnet] That is why the core of treatment is reducing the yeast itself rather than only lifting the scale off the surface.
+The cause is not fully understood, but "proliferation of Malassezia yeast genus is believed to play a role": the yeast's enzymes cleave free fatty acids from the triglycerides in sebum (skin oil), which appears to trigger the inflammation and flaking.[^dermnet] That is why the core of treatment is reducing the yeast itself rather than only lifting the scale off the surface.
 
 ## What actually works
 
@@ -102,6 +102,10 @@ The strongest treatment evidence is the 2015 Cochrane systematic review of topic
 - [[ketoconazole]] and [[nizoral-anti-dandruff-shampoo-ketoconazole-1]] for the best-evidenced treatment.
 - [[anti-dandruff-seborrheic-dermatitis-treatments-by-evidence]] for the full ranked treatment list, and [[ciclopirox]], [[selenium-sulfide]], [[zinc-pyrithione]], [[piroctone-olamine]], and [[roflumilast]] for the other antifungal and nonsteroidal options.
 - [[fungal-acne]] for the same Malassezia yeast on the trunk (dandruff is this condition's uninflamed scalp form).
+- [[atopic-dermatitis]] and [[psoriasis]] for other scaly, chronic scalp and facial conditions that can look similar but need different treatment.
+- [[rosacea]] for another chronic facial redness condition that shares some of the same central-face territory.
+- [[pimecrolimus]] and [[topical-corticosteroids]] for the steroid-sparing and steroid options used alongside antifungals.
+- [[oily-skin]] for managing the sebum-rich skin type this condition tends to favor.
 
 ## Sources
 

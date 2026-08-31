@@ -48,17 +48,33 @@ videos:
 
 ---
 
-Moisturizing is one of the best-evidenced interventions in dermatology for eczema and barrier-impaired skin. A Cochrane review found that keeping such skin hydrated and occluded reduces eczema flares and spares topical corticosteroids [^1]. Two mechanisms do the work: slowing water loss at the surface and binding water there.
+Moisturizing means applying a product that slows water loss from skin and adds water back to it. It is one of the best-evidenced interventions in dermatology, especially for eczema (also called [[atopic-dermatitis]]) and other barrier-impaired skin. A Cochrane review found that keeping such skin hydrated and occluded (sealed against water loss) reduces eczema flares and spares topical corticosteroids [^1]. Two mechanisms do the work: slowing water loss at the surface, and binding water there.
 
 ## The Evidence
 
 An abridged Cochrane systematic review of emollients and moisturizers for eczema reported that moisturizer use reduced flares versus none: "Fewer flares were seen (risk ratio 0·40, 95% CI 0·23-0·70)," and patients "used less topical corticosteroids over 6-8 weeks (mean difference -9·30 g, 95% CI -15·3 to -3·27)."[^1]
 
-On mechanism, StatPearls characterizes petrolatum as "a classic example of an occlusive moisturizer and the most effective, reducing water loss through the epidermis by nearly 99%."[^2] That "nearly 99%" figure is a textbook characterization in StatPearls, not a standalone measured statistic. StatPearls defines humectants as "compounds that attract and bind water."[^2]
+On mechanism, StatPearls characterizes petrolatum as "a classic example of an occlusive moisturizer and the most effective, reducing water loss through the epidermis by nearly 99%."[^2] That "nearly 99%" figure is a textbook characterization in StatPearls, not a standalone measured statistic. StatPearls defines humectants (ingredients that draw and hold water) as "compounds that attract and bind water."[^2]
 
 ## What Makes a Good Moisturizer
 
-The demonstrable work is done by two components: an occlusive to slow transepidermal water loss (the strongest per StatPearls is [[petrolatum]]) and a humectant to bind water (glycerin, [[hyaluronic-acid]]). Barrier lipids such as [[ceramides]] mirror the skin's own intercellular lipids. In Spada 2021, a randomized trial of a ceramide cream against a vehicle, the ceramide cream improved barrier metrics but showed no difference in eczema severity between the ceramide cream and the vehicle (EASI, P=.7804) [^3].
+The demonstrable work is done by two components: an occlusive to slow transepidermal water loss (the strongest per StatPearls is [[petrolatum]]) and a humectant to bind water ([[glycerin]], [[hyaluronic-acid]]). Barrier lipids such as [[ceramides]] mirror the skin's own intercellular lipids. In Spada 2021, a randomized trial of a ceramide cream against a vehicle, the ceramide cream improved barrier metrics but showed no difference in eczema severity between the ceramide cream and the vehicle (EASI, P=.7804) [^3]. For a ranked comparison of these and other ingredients, see [[best-moisturizing-ingredients-ranked]].
+
+## How to Use It
+
+For barrier-impaired or [[dry-skin]] and [[sensitive-skin]], the practical routine is a bland, fragrance-free moisturizer applied within a few minutes of showering and reapplied whenever skin feels dry or itchy, the same approach covered on the [[skin-barrier-repair]] page. Look for a product that combines an occlusive with a humectant rather than either alone.
+
+## See Also
+
+- [[skin-barrier-repair]]
+- [[atopic-dermatitis]]
+- [[dry-skin]]
+- [[sensitive-skin]]
+- [[best-moisturizing-ingredients-ranked]]
+- [[ceramides]]
+- [[hyaluronic-acid]]
+- [[glycerin]]
+- [[cerave-moisturizing-cream]]
 
 ## Sources
 

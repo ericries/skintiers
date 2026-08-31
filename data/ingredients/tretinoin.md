@@ -91,7 +91,9 @@ videos:
 
 ---
 
-Tretinoin is all-trans retinoic acid, the direct, receptor-active form of vitamin A and a prescription-only topical drug. Unlike over-the-counter [[retinol]] (a precursor the skin must enzymatically convert to reach this same molecule), tretinoin binds retinoic acid receptors directly, which is why it is the trial-validated benchmark against which milder retinoids are measured.[^4] It has two well-studied uses with genuinely different evidence, so this profile grades each separately: photoaging and acne. Its reputation runs ahead of its data in one specific way: it improves skin rather than reversing aging, and even the FDA label says so.[^4]
+Tretinoin is a prescription-only topical drug and the strongest member of the [[retinoids|retinoid]] family: it is all-trans retinoic acid, the direct, receptor-active form of vitamin A. Unlike over-the-counter [[retinol]] (a precursor the skin must enzymatically convert to reach this same molecule), tretinoin binds retinoic acid receptors directly, which is why it is the trial-validated benchmark against which milder retinoids are measured.[^4] It has two well-studied uses with genuinely different evidence, so this profile grades each separately: [[anti-aging|photoaging]] and [[acne]].
+
+> **Bottom line:** Tretinoin genuinely improves fine wrinkles, mottled pigment, and mild-to-moderate acne, and the evidence behind it is solid. But its reputation runs ahead of its data in one specific way: it improves skin rather than reversing aging, and even the FDA label says so in capital letters.[^4]
 
 ## The Rubric
 
@@ -125,7 +127,7 @@ Primary clinical evidence, by use:
 
 ## Uses
 
-Well-supported: photoaging (fine wrinkles and, to a smaller degree, coarse wrinkles), where tretinoin is the trial-validated benchmark topical and outperforms the OTC [[retinol]] that emulates it, with the honest caveat that it improves rather than erases and needs months plus irritation management. Well-supported: mild-to-moderate acne vulgaris, where it is FDA-approved and first-line, best combined with [[benzoyl-peroxide]]; for people who cannot tolerate the sting, [[adapalene]] gives equivalent efficacy with better tolerability, and [[azelaic-acid]] is a gentler comedonal alternative. Not established: reversing photoaging, mitigating tactile roughness or deep wrinkling at low strengths (undemonstrated per label), or any use as a spot "wrinkle eraser."
+Well-supported: photoaging (fine wrinkles and, to a smaller degree, coarse wrinkles), where tretinoin is the trial-validated benchmark topical and outperforms the OTC [[retinol]] that emulates it, with the honest caveat that it improves rather than erases and needs months plus irritation management. Well-supported: mild-to-moderate [[acne]] vulgaris, where it is FDA-approved and first-line, best combined with [[benzoyl-peroxide]]; for people who cannot tolerate the sting, [[adapalene]] gives equivalent efficacy with better tolerability, and [[azelaic-acid]] is a gentler comedonal alternative. Not established: reversing photoaging, mitigating tactile roughness or deep wrinkling at low strengths (undemonstrated per label), or any use as a spot "wrinkle eraser."
 
 ## Common Marketing Claims
 
@@ -135,6 +137,17 @@ This section is quarantined and discounted; treat everything here as unproven un
 - **"OTC retinol = prescription tretinoin."** Discount. Retinol is a precursor the skin must convert to reach retinoic acid; tretinoin *is* retinoic acid and is the molecule these RCTs tested.[^4] Equivalence claims extrapolate beyond the controlled evidence graded here. See [[retinol]].
 - **"Purging is good / means it's working."** Not supported by the primary evidence. The trials report irritation (erythema, scaling, dryness, stinging) as a dose-dependent side effect, and higher irritation did not track with greater benefit: 0.1% was more irritating than 0.025% without being more effective for photoaging.[^1][^6] There is no controlled evidence that an early flare predicts a better outcome; treat "purging" as an unproven rationalization of irritation.
 - **"Higher strength = better results."** Discount for photoaging. A head-to-head double-blind RCT found 0.025% as effective as 0.1%, with significantly less irritation.[^1]
+
+## See Also
+
+- [[retinoids]]: the broader prescription/OTC drug class tretinoin belongs to
+- [[retinol]]: the milder, over-the-counter precursor most people try first
+- [[adapalene]]: equivalent acne efficacy with better tolerability
+- [[benzoyl-peroxide]]: the combination partner that boosts tretinoin's acne effect
+- [[azelaic-acid]]: a gentler comedonal alternative
+- [[acne]]: the condition hub for mild-to-moderate acne treatment
+- [[hyperpigmentation]] and [[melasma]]: conditions where retinoids are sometimes used adjunctively
+- [[anti-aging]]: the broader goal hub for photoaging treatment
 
 ## Sources
 

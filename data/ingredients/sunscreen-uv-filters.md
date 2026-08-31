@@ -526,7 +526,9 @@ type: ingredient
 updated: '2026-07-27'
 ---
 
-"Sunscreen" is a **category**, not an ingredient. It is a delivery vehicle for one or more UV filters (mineral filters such as zinc oxide and titanium dioxide, and organic filters such as avobenzone, octocrylene, and octinoxate). Each of those filters has its own absorption profile, stability, and safety questions. The question the category-level randomized evidence can actually answer is **does regular sunscreen use work?** What SPF does and does not measure, and why the filter set matters, follows from there. The honest answer on efficacy is that regular use is one of the very few skincare practices with randomized-trial support against hard clinical endpoints (photoaging and skin cancer), but that support traces largely to a *single* long-running Australian field trial, and an independent systematic review is markedly more cautious.[^1][^2][^3][^4]
+"Sunscreen" is a **category**, not a single ingredient. It is a delivery vehicle for one or more UV filters, either mineral filters such as [[zinc-oxide]] and [[titanium-dioxide]], or organic (chemical) filters such as [[avobenzone]], octocrylene, and [[octinoxate]]. Each filter has its own absorption profile, stability, and safety questions, covered on that filter's own page. This page grades the question the category-level randomized evidence can actually answer: **does regular sunscreen use work?**
+
+The honest answer is yes, and the evidence is unusually strong for skincare: regular use is one of the very few skincare practices with randomized-trial support against hard clinical endpoints, meaning [[sun-damage-photoaging|photoaging]] and skin cancer rather than a short-term cosmetic score. The caveat is that this support traces largely to a *single* long-running Australian field trial, and an independent systematic review of the same data is markedly more cautious. What SPF does and does not measure, and why which filters a product uses still matters, follows below.[^1][^2][^3][^4]
 
 ## The Rubric
 
@@ -546,7 +548,9 @@ Grades are for **regular, real-world use of a broad-spectrum sunscreen**, not fo
 
 ## What We Actually Know
 
-Regular use of a broad-spectrum sunscreen has genuine randomized-trial support for **slowing photoaging** and **reducing melanoma and squamous-cell tumor burden**, a level of evidence almost nothing else in skincare can claim, because these are among the only skincare RCTs with hard clinical endpoints rather than short-term cosmetic scores.[^1][^2][^3] Two honest qualifiers belong on every one of these claims. First, the landmark trial evidence comes overwhelmingly from **one cohort** (the Nambour trial in Australia); Hughes 2013, Green 2011, and Green 1999 are all the same ~1,600-person population analyzed for different endpoints, so this is one trial reporting three outcomes rather than three independent trials.[^1][^2][^3] Second, when the evidence is synthesized *independently*, it looks weaker: the 2016 Cochrane review found "no difference" at the person level for either keratinocyte cancer and rated the evidence low-quality.[^4] The strongest single claim, photoaging prevention, is also the best-supported, because it is a within-trial randomized comparison rather than a rare-event count. The benefit is for **regular, adequately applied** use; it is not a property of any SPF number on a label, and real-world application is typically far below the amount used to earn that number.[^5]
+Regular use of a broad-spectrum sunscreen has genuine randomized-trial support for **slowing photoaging** and **reducing melanoma and squamous-cell tumor burden**, a level of evidence almost nothing else in skincare can claim, because these are among the only skincare RCTs with hard clinical endpoints rather than short-term cosmetic scores.[^1][^2][^3]
+
+Two honest qualifiers belong on every one of these claims. First, the landmark trial evidence comes overwhelmingly from **one cohort** (the Nambour trial in Australia); Hughes 2013, Green 2011, and Green 1999 are all the same ~1,600-person population analyzed for different endpoints, so this is one trial reporting three outcomes rather than three independent trials.[^1][^2][^3] Second, when the evidence is synthesized *independently*, it looks weaker: the 2016 Cochrane review found "no difference" at the person level for either keratinocyte cancer and rated the evidence low-quality.[^4] The strongest single claim, photoaging prevention, is also the best-supported, because it is a within-trial randomized comparison rather than a rare-event count. The benefit is for **regular, adequately applied** use; it is not a property of any SPF number on a label, and real-world application is typically far below the amount used to earn that number.[^5]
 
 ## How It Works
 
@@ -596,6 +600,17 @@ This section is quarantined and discounted; treat everything here as unproven un
 - **"Reef-safe" (as an efficacy signal).** It is an unregulated environmental term, not an efficacy claim, and carries no information about the product's photoprotection.
 - **"SPF 100 protects twice as much as SPF 50."** SPF is a diminishing-returns ratio of blocked erythemal UVB, not a linear one, so SPF 100 does not block twice the UV of SPF 50; the increment at the top of the scale is small. Real-world under-application (0.39 to 1.0 vs the tested 2 mg/cm²) erodes the delivered SPF far more than the gap between high SPF numbers.[^5] SPF is also a UVB-only number and says nothing about UVA coverage.[^6]
 - **"All-day protection" / "apply once in the morning" / "waterproof."** Contradicted by the applied-dose and wear reality: protection degrades with time, sweat, water, and rubbing, and SPF is measured at a fixed dose that consumers rarely re-establish. The trial benefits came from *daily, reapplied* use, not a single morning application.[^5] No topical is truly waterproof or all-day.
+
+## See Also
+
+- [[zinc-oxide]] and [[titanium-dioxide]], the mineral filters, gentler on reactive skin
+- [[avobenzone]], the main UVA workhorse filter in most US sunscreens
+- [[bemotrizinol]], the newly US-approved UVA filter discussed above
+- [[sun-damage-photoaging]], the condition daily sunscreen most directly slows
+- [[anti-aging]], the goal this page's strongest evidence supports
+- [[melasma]] and [[hyperpigmentation]], where visible-light and UVA coverage matter beyond the SPF number
+- [[best-sunscreens-daily-wear]], a product-level list for choosing an actual bottle
+- [[eltamd-uv-clear-spf-46]], a widely recommended daily sunscreen product
 
 ## Sources
 

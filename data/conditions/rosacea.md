@@ -101,7 +101,9 @@ videos:
 
 ---
 
-Rosacea is a chronic inflammatory condition of the central face, described in the Cochrane systematic review as "a common chronic skin condition affecting the face" whose features include flushing, persistent redness, visible blood vessels, and inflammatory bumps.[^cochrane2015] It relapses and remits over years, it clusters on the cheeks, nose, chin, and forehead, and it has no cure: the treatments with the best evidence reduce specific features rather than resolve the disease, and which treatment fits is decided by which features a person actually has.[^vanzuuren2019][^schaller2017] This page maps the condition at a high level. The deep clinical and treatment detail lives on the subtype pages linked below.
+Rosacea is a chronic inflammatory condition of the central face, described in the Cochrane systematic review as "a common chronic skin condition affecting the face" whose features include flushing, persistent redness, visible blood vessels, and inflammatory bumps.[^cochrane2015] It relapses and remits over years, it clusters on the cheeks, nose, chin, and forehead, and it has no cure.
+
+**The bottom line:** the treatments with the best evidence reduce specific features (redness, bumps, or visible vessels) rather than resolve the disease, and which treatment fits depends on which features a person actually has, not on a single "rosacea" label.[^vanzuuren2019][^schaller2017] This page maps the condition at a high level; the deep clinical and treatment detail lives on the subtype pages linked below, [[rosacea-erythematotelangiectatic]] for the redness-and-flushing form and [[rosacea-papulopustular]] for the inflammatory-bump form.
 
 ## How to know you have this
 
@@ -116,15 +118,15 @@ These are the features clinicians look for, described so a reader can recognize 
 
 Rosacea tends to relapse and remit over years rather than clear in days, and it stays clustered on the central face. The Cochrane reviewers' plain description gathers the range as flushing, redness, pimples, pustules, dilated blood vessels, eye involvement, and, in some people, thickening of the skin with enlargement of the nose.[^cochrane2015]
 
-**Telling it apart from look-alikes.** The comparison people most often need is with acne. A StatPearls review states that "rosacea lacks comedones, helping to differentiate it from true acne," so the clearest difference is what rosacea does not have: blackheads and whiteheads.[^statpearls] Rosacea also sits on the background of persistent central-face redness described above, which ordinary acne does not.[^tan2017] The blackheads and whiteheads of ordinary acne are covered on [[acne]]. Because the features overlap and no single sign is decisive, separating rosacea from its look-alikes still calls for clinical examination.[^tan2017]
+**Telling it apart from look-alikes.** The comparison people most often need is with [[acne]]. A StatPearls review states that "rosacea lacks comedones, helping to differentiate it from true acne," so the clearest difference is what rosacea does not have: blackheads and whiteheads.[^statpearls] Rosacea also sits on the background of persistent central-face redness described above, which ordinary acne does not.[^tan2017] Because the features overlap and no single sign is decisive, separating rosacea from its look-alikes still calls for clinical examination.[^tan2017]
 
-**Medical disclaimer.** This is educational content, not medical advice, and it does not diagnose or treat any individual. Rosacea is a *medical* condition: it can involve the eyes (ocular rosacea), and the thickening of skin known as phyma can be disfiguring, so evaluation by a board-certified dermatologist is appropriate, particularly for eye symptoms or skin thickening. Several of the interventions with the strongest evidence are *prescription drugs that fall outside this page's skincare scope*, including topical metronidazole, topical ivermectin, topical brimonidine, topical oxymetazoline, and oral doxycycline and isotretinoin.[^vanzuuren2019] They are named here so readers know they exist; they require a prescriber and are graded, where in scope, on the linked subtype pages rather than here. Nothing here should be used to delay appropriate medical care.
+**Medical disclaimer.** This is educational content, not medical advice, and it does not diagnose or treat any individual. Rosacea is a *medical* condition: it can involve the eyes (ocular rosacea), and the thickening of skin known as phyma can be disfiguring, so evaluation by a board-certified dermatologist is appropriate, particularly for eye symptoms or skin thickening. Several of the interventions with the strongest evidence are *prescription drugs that fall outside this page's skincare scope*, including topical [[metronidazole]], topical [[ivermectin-topical|ivermectin]], topical [[brimonidine]], topical oxymetazoline, and oral doxycycline and isotretinoin.[^vanzuuren2019] They are named here so readers know they exist; they require a prescriber and are graded, where in scope, on the linked subtype pages rather than here. Nothing here should be used to delay appropriate medical care.
 
 ## Who Gets It
 
 The most rigorous prevalence estimate comes from a 2018 systematic review and meta-analysis that pooled 41 populations totaling about 26.5 million people.[^gether2018] It found that "5·46% of the adult population is affected" in the general population (95% CI 4.91-6.04), with a lower figure of 2.39% (95% CI 1.56-3.39) among dermatology outpatients.[^gether2018] Prevalence was higher in women (5.41%, 95% CI 3.85-7.23) than men (3.90%, 95% CI 3.04-4.87), and rosacea affected "mostly those aged 45-60 years."[^gether2018]
 
-Two caveats belong with those numbers. The estimate depends heavily on how rosacea is ascertained: the authors found that questionnaire-based self-report gave higher figures than diagnosis by clinical examination, "suggesting a low specificity of questionnaires based on symptoms."[^gether2018] And the underlying data are geographically skewed, with 22 of the 41 populations drawn from Europe and comparatively few from Africa, Asia, or South America, so the global figure rests mainly on lighter-skinned European populations.[^gether2018]
+Two caveats belong with those numbers. First, the estimate depends heavily on how rosacea is ascertained: the authors found that questionnaire-based self-report gave higher figures than diagnosis by clinical examination, "suggesting a low specificity of questionnaires based on symptoms."[^gether2018] Second, the underlying data are geographically skewed, with 22 of the 41 populations drawn from Europe and comparatively few from Africa, Asia, or South America, so the global figure rests mainly on lighter-skinned European populations.[^gether2018]
 
 ## How Rosacea Is Classified: Subtypes Versus Phenotypes
 
@@ -177,7 +179,7 @@ The synthesis to carry away is that the evidence is feature-specific: a treatmen
 
 ## See Also
 
-[[rosacea-erythematotelangiectatic]], [[rosacea-papulopustular]], [[azelaic-acid]], [[niacinamide]], [[centella-asiatica]], [[sunscreen-uv-filters]], [[acne]], [[anti-aging]]
+[[rosacea-erythematotelangiectatic]], [[rosacea-papulopustular]], [[azelaic-acid]], [[niacinamide]], [[centella-asiatica]], [[sunscreen-uv-filters]], [[sensitive-skin]], [[acne]], [[anti-aging]]
 
 ## Sources
 

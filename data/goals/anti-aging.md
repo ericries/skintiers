@@ -185,7 +185,7 @@ videos:
 
 ---
 
-"Anti-aging" is a marketing umbrella, not a single outcome. Skin aging is several distinct changes at once: collagen and elastin breaking down (wrinkles, loss of firmness and elasticity) and pigment and tone shifting, driven largely by cumulative sun exposure. This page is health-first: it ranks interventions by how much they protect and rebuild skin structure in actual studies, not by how heavily they are sold or how much they smooth appearance in the short term. It is organized in tiers from highest to lowest demonstrated impact, and it links each topical to its own profile. Around menopause a faster, hormonally-driven loss stacks on top of this sun-driven aging; that component has its own large lever and is covered on [[anti-aging-perimenopause]].
+"Anti-aging" is a marketing umbrella, not a single outcome. Skin aging is several distinct changes at once: collagen and elastin breaking down (wrinkles, loss of firmness and elasticity) and pigment and tone shifting, driven largely by cumulative sun exposure, a process dermatologists call photoaging. This page is health-first: it ranks interventions by how much they protect and rebuild skin structure in actual studies, not by how heavily they are sold or how much they smooth appearance in the short term. It is organized in tiers from highest to lowest demonstrated impact, and each topical links to its own profile page for the full evidence. Around menopause a faster, hormonally-driven loss stacks on top of this sun-driven aging; that component has its own large lever and is covered on [[anti-aging-perimenopause]].
 
 > Two cheap, long-established interventions carry the strongest evidence and sit at the top: daily broad-spectrum sunscreen (prevention) and prescription tretinoin (reversal). Most of what is marketed harder ranks lower, and the most heavily promoted category, ingestible supplements, has the weakest and lowest-quality evidence of anything here. For the part of skin aging tied specifically to menopause, the biggest lever is hormonal and is covered on [[anti-aging-perimenopause]].
 
@@ -243,7 +243,7 @@ The two interventions with large, well-evidenced effects that apply to nearly ev
 
 *These improve skin quality and comfort more than deep structure, which matters more as skin dries and thins with age, and makes the stronger actives above more tolerable.*
 
-**Ceramide + hyaluronic-acid moisturizer.** Rebuilds the barrier and holds surface moisture, countering age- and estrogen-related dryness. This is hydration and comfort, not dermal remodeling, and the ceramide-specific advantage over a plainer emollient is modest; the category evidence is on [[moisturizing]] and the ceramide nuance on [[cerave-moisturizing-cream]] and [[ceramides]] / [[hyaluronic-acid]].
+**Ceramide + hyaluronic-acid moisturizer.** Rebuilds the [[skin-barrier-repair|skin barrier]] and holds surface moisture, countering age- and estrogen-related dryness. This is hydration and comfort, not dermal remodeling, and the ceramide-specific advantage over a plainer emollient is modest; the category evidence is on [[moisturizing]] and the ceramide nuance on [[cerave-moisturizing-cream]] and [[ceramides]] / [[hyaluronic-acid]].
 
 - **Effect: Small (comfort and appearance, not structure).**
 
@@ -287,7 +287,7 @@ This is an educational summary, not medical advice. The tiers are directional, n
 
 ## See Also
 
-[[anti-aging-perimenopause]], [[retinoids]], [[tretinoin]], [[retinaldehyde]], [[retinol]], [[adapalene]], [[bakuchiol]], [[vitamin-c]], [[ascorbic-acid-vitamin-c]], [[niacinamide]], [[azelaic-acid]], [[peptides]], [[ceramides]], [[hyaluronic-acid]], [[sunscreen-uv-filters]], [[moisturizing]], [[glass-skin]]
+[[anti-aging-perimenopause]], [[retinoids]], [[tretinoin]], [[sunscreen-uv-filters]], [[vitamin-c]], [[niacinamide]], [[peptides]], [[moisturizing]], [[glass-skin]]
 
 ## Sources
 
