@@ -47,6 +47,14 @@ abud-2026-a-randomized-double-blinded-pilot-study-comparing-synthetic-:
     '
   score: 10
   verdict: publish
+acetyl-dipeptide-1-cetyl-ester:
+  last_reviewed: '2026-08-30'
+  note: 'INGREDIENT wave6. Calmosensine soothing peptide. tier:weak honest (lost head-to-head, no placebo,
+    inactive on TRPV1, sponsor-funded in-vitro). All quotes verbatim vs eutils (5 PMIDs) + PubChem CID
+    11685829. Critic: no fixes. Links [[sensitive-skin]]/[[peptides]]. No dashes. Opus critic inline (workflow
+    pipeline); assurance opus.'
+  score: 8
+  verdict: publish
 acetyl-octapeptide-3:
   last_reviewed: '2026-08-30'
   note: INGREDIENT wave. SNAP-8 neuropeptide (elongated argireline analog). tier:weak honest - NO isolated-ingredient
@@ -319,6 +327,14 @@ altreno-tretinoin-0-05-lotion:
     '
   score: 9
   verdict: revise-then-published
+am-pm-routine-by-evidence:
+  last_reviewed: '2026-08-30'
+  note: 'LIST wave6 (ROUTINE). Lean evidence-led AM/PM routine linking real products per step. Opus critic
+    (88): all 5 slugs resolve, Nambour/Hughes 2013 (PMID 23732711) verbatim; fixed a mismatched adapalene
+    footnote (cited wrong brand label). Honest: consistency + sunscreen > product count. Main-loop: adapalene
+    footnote URL. No dashes. Opus critic inline (workflow pipeline); assurance sonnet.'
+  score: 8
+  verdict: publish
 amit-pandya-melasma-specialist-dermatologist:
   last_reviewed: '2026-08-08'
   note: 'Lean person discovery-aid (Sonnet-only). Honest credential + linked on-site studies/products.
@@ -1002,6 +1018,14 @@ best-acne-spot-treatments:
     opus.'
   score: 9
   verdict: publish
+best-affordable-drugstore-dupes:
+  last_reviewed: '2026-08-30'
+  note: 'LIST wave6. Expensive-vs-cheap dupe pairs. Opus critic (93): all 7 slugs resolve, CEFer reference
+    formula (Lin 2005) verbatim; honest (a dupe works when it matches disclosed active/conc/pH, retinoid
+    flagged not-a-dupe). Blog sources cached. No dashes. Opus critic inline (workflow pipeline); assurance
+    sonnet.'
+  score: 9
+  verdict: publish
 best-aha-exfoliant-products:
   last_reviewed: '2026-08-30'
   note: 'LIST wave3. Best-of AHA exfoliants. Opus critic (89): 8 slugs resolve, Stiller 1996 (8651713)/Smith
@@ -1328,6 +1352,14 @@ best-sunscreens-daily-wear:
     '
   score: 9
   verdict: self-reviewed
+best-tinted-sunscreens:
+  last_reviewed: '2026-08-30'
+  note: 'LIST wave6. Tinted (iron-oxide) sunscreens for visible-light protection. Opus critic (92): all
+    8 slugs resolve, Castanedo (24313385)/Lyons (32335182) verbatim; distinct from best-mineral-sunscreens.
+    Routes [[iron-oxides]]/[[hyperpigmentation]]. Main-loop: assurance opus->sonnet, AI-ese. No dashes.
+    Opus critic inline (workflow pipeline); assurance sonnet.'
+  score: 9
+  verdict: publish
 best-tranexamic-acid-products:
   last_reviewed: '2026-08-30'
   note: 'LIST wave4. Best-of topical TXA products for melasma. Opus critic (92): 7 slugs resolve, Del
@@ -3229,6 +3261,15 @@ emrosi-minocycline-extended-release:
     Main-loop: not-just reworded, brand cached. No dashes. Opus critic inline (workflow pipeline); assurance
     opus.'
   score: 9
+  verdict: publish
+encapsulated-retinol:
+  last_reviewed: '2026-08-30'
+  note: INGREDIENT wave6. Retinol delivery-tech (a formulation strategy, not a molecule). tier:mid honest
+    (stability single-study/in-vitro; clinical benefits bundled/open-label). All quotes verbatim vs eutils
+    (5 PMIDs). Opus critic fixed funding mischaracterization + "phase 3 trial"->two. Refuses to claim
+    superiority over plain retinol. Backs [[retinol]]. No dashes. Opus critic inline (workflow pipeline);
+    assurance opus.
+  score: 8
   verdict: publish
 enlarged-pores:
   last_reviewed: '2026-08-30'
@@ -5734,6 +5775,14 @@ mesoestetic-mesoprotech-melan-130-pigment-control:
     invented price ($63->$60.49 vs Wayback) + REMOVED fabricated brand-description quotes; DailyMed actives
     (3/8/8.5%) verbatim. Skeptical. OUT to [[sunscreen-uv-filters]]/[[iron-oxides]]/[[hyperpigmentation]].
     Brand cached. No dashes. Opus critic inline (workflow pipeline); assurance opus.'
+  score: 8
+  verdict: publish
+methyl-estradiol-propanoate-mep:
+  last_reviewed: '2026-08-30'
+  note: INGREDIENT wave6. MEP estrogen-pathway ingredient (Emepelle active). tier:weak honest (1 small
+    industry pilot + 2 open-label branded series). All quotes verbatim vs eutils (PMIDs 30500138/31860210/36342739/38758222)
+    + PubChem CID 171390764. Opus critic fixed a false no-PubChem claim + "all four"->three. Backs [[emepelle-serum-mep]].
+    No dashes. Opus critic inline (workflow pipeline); assurance opus.
   score: 8
   verdict: publish
 metrogel-metronidazole-1-gel:
@@ -8646,6 +8695,14 @@ sodium-hypochlorite:
     not in cited sources. Links [[atopic-dermatitis]]. tier:mid. Opus critic inline (workflow pipeline);
     assurance opus.
   score: 9
+  verdict: publish
+solubilized-coal-tar-extract:
+  last_reviewed: '2026-08-30'
+  note: INGREDIENT wave6. Neutar delivery form of coal tar (4% extract = ~1% coal tar). tier:mid honest
+    (monograph inheritance + 1 uncontrolled case report). Quotes verbatim vs eutils (PMID 15249786) +
+    2 DailyMed SPLs; ratios correct arithmetic. Backs [[coal-tar]]/T-Gel shampoos. No dashes. Opus critic
+    inline (workflow pipeline); assurance opus.
+  score: 8
   verdict: publish
 some-by-mi-yuja-niacin-serum:
   last_reviewed: '2026-07-28'
