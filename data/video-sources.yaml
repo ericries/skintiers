@@ -280,7 +280,7 @@
   channel: https://www.tiktok.com/@dermydoctor
   product_recs: restricted
   conflict: null
-  last_pulled: '2026-08-27'
+  last_pulled: '2026-08-30'
 - name: Dr. Michelle Henry, MD FAAD
   creator_slug: michelle-henry-md-faad
   credential: Board-certified dermatologist
@@ -313,7 +313,7 @@
   channel: https://www.tiktok.com/@hannahcollingwoodenglish
   product_recs: restricted
   conflict: Co-developed/formulated the Tbh Skincare 'Rebound' Serum and Toner (product-formulation partnership) — her endorsement of that spe; no YouTube; TikTok/IG intake
-  last_pulled: '2026-08-16'
+  last_pulled: '2026-08-30'
 - name: Dr. Jenny Liu (Jenny Liu, MD, FAAD)
   creator_slug: jenny-liu
   backfill_cursor: 0
@@ -387,7 +387,7 @@
   channel: https://www.tiktok.com/@dr.obioha
   product_recs: restricted
   conflict: Runs an in-house 'Apothecary' and 'Shop' tied to Boutik Dermatology (her own practice's product line) — treat any product endorsem
-  last_pulled: '2026-08-16'
+  last_pulled: '2026-08-30'
 - name: Dr. Heather Woolery-Lloyd (drheathermd)
   creator_slug: heather-woolerylloyd
   credential: Board-certified dermatologist
@@ -395,7 +395,7 @@
   channel: https://www.tiktok.com/@drheathermd
   product_recs: restricted
   conflict: Paid Chief Medical Advisor to Nutrafol (hair-growth supplement brand); bio links a stan.store link-in-bio storefront (possible aff
-  last_pulled: '2026-08-16'
+  last_pulled: '2026-08-30'
 - name: Dr. Brooke Jeffy (Brooke Jeffy, MD)
   creator_slug: brooke-jeffy
   backfill_cursor: 0
@@ -445,7 +445,7 @@
   channel: https://www.tiktok.com/@draegeanchan
   product_recs: restricted
   conflict: Founder/owner of active postpartum skincare brand "More Than Nine" (cleanser, exfoliator, moisturizer, balm) — an ongoing own-bran
-  last_pulled: '2026-08-16'
+  last_pulled: '2026-08-30'
 - name: Jenn Lexi (@jennlexi_)
   creator_slug: jennlexi
   credential: Esthetician (self-identified); not a dermatologist or cosmetic chemist

@@ -69,6 +69,16 @@ videos:
   related: [melasma, tretinoin, glycolic-acid, salicylic-acid, ascorbic-acid-vitamin-c, vitamin-c, seborrheic-dermatitis, pityriasis-versicolor]
   thesis: Board-certified dermatologist Dr. Jenny Liu explains why a winter skincare routine needs specific summer swaps rather than a full overhaul. She recommends lighter, less occlusive moisturizers, a higher-SPF water-resistant sunscreen, and double cleansing at night (an oil or balm cleanser first) to remove sunscreen buildup that can worsen breakouts. She advises cutting back on AHA exfoliants like glycolic or lactic acid (which increase sun-burn risk) or switching to a BHA, but says tretinoin does not need to be reduced since it does not raise burn risk. She also covers storing and choosing vitamin C serums to protect against summer-worsened melasma, and swapping in an anti-dandruff shampoo/body wash to manage summer flares of seborrheic dermatitis and tinea versicolor.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: FDA withdraws proposal to ban minors from tanning beds
+  creator: Dr. Heather Woolery-Lloyd (drheathermd)
+  creator_slug: heather-woolerylloyd
+  credential: Board-certified dermatologist
+  platform: TikTok
+  url: https://www.tiktok.com/@drheathermd/video/7644220802027490574
+  posted: '2026-05-26'
+  related: [sunscreen-uv-filters]
+  thesis: Dr. Heather Woolery-Lloyd, a board certified dermatologist, explains that the FDA has withdrawn its 2015 proposal that would have banned indoor tanning for anyone under 18 and required signed risk consent forms at tanning salons, after weighing over 8,000 public comments on personal choice and small-business burden. She notes the American Academy of Dermatology opposed the withdrawal, citing data that tanning before age 20 raises melanoma risk by 47 percent, and cites a 2025 Northwestern and UCSF study finding indoor tanning causes more severe DNA damage in skin cells than natural aging in non-tanners twice their age
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

@@ -77,6 +77,16 @@ videos:
   related: [rosacea-papulopustular, acne, pityriasis-versicolor, best-azelaic-acid-products, best-niacinamide-products, best-peptide-serums]
   thesis: Board-certified dermatologist Dr. Caroline Robinson gives a thumbs up/down verdict on several 2026 skincare trends. She explains azelaic acid started as the compound behind tinea versicolor's skin-lightening rash before becoming a prescription and OTC treatment for rosacea (15%) and acne-related hyperpigmentation (20% for acne, 10% OTC), calling it a thumbs up. She says niacinamide controls oil at 2%, helps hyperpigmentation at 4 to 5%, but risks irritation at the popular 10% level, so lower doses are the "sweet spot." She endorses red light masks as adjuncts to in-office treatments (checking wavelength and device-specific studies matters) and peptides as a helpful but non-foundational addition after retinoids and sunscreen, dismisses at-home chemical peels as unsafe versus in-office ones, and gives multi-step (6 to 7 product) TikTok routines a thumbs down, arguing cleansing, exfoliating, and moisturizing can be done well in 3 to 4 steps.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Are Marine Spicules the New DIY Microneedling?
+  creator: Dr. Heather Woolery-Lloyd (drheathermd)
+  creator_slug: heather-woolerylloyd
+  credential: Board-certified dermatologist
+  platform: TikTok
+  url: https://www.tiktok.com/@drheathermd/video/7645401636201893134
+  posted: '2026-05-29'
+  related: []
+  thesis: 'Dr. Heather Woolery-Lloyd, a board-certified dermatologist, explains marine spicules: microscopic needle-like structures harvested from sponges that create a controlled micro-injury in skin, forming temporary pathways thought to boost penetration of actives like peptides and PDRN before the spicules shed away. She notes spicule products typically start at 0.1 to 1 percent concentration to limit irritation, and that experts advise against pairing them with aggressive treatments like retinoids or strong acne medications to avoid over-exfoliation'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

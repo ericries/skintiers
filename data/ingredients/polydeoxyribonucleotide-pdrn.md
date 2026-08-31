@@ -79,6 +79,16 @@ videos:
   related: []
   thesis: Skincare educator Hyram traces PDRN (polydeoxyribonucleotide) from its 1980s Italian origin as a wound-healing extract to its rise as a Korean injectable skin booster, then explains that topical PDRN in skincare products has much less research behind it than injectable PDRN, with unclear skin absorption and no data comparable to well-studied actives like retinoids, vitamin C, or sunscreen. He concludes PDRN can be a worthwhile bonus ingredient in an otherwise well-formulated product, but there is not enough evidence to justify buying or adding a product specifically because it contains PDRN.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Are Marine Spicules the New DIY Microneedling?
+  creator: Dr. Heather Woolery-Lloyd (drheathermd)
+  creator_slug: heather-woolerylloyd
+  credential: Board-certified dermatologist
+  platform: TikTok
+  url: https://www.tiktok.com/@drheathermd/video/7645401636201893134
+  posted: '2026-05-29'
+  related: []
+  thesis: 'Dr. Heather Woolery-Lloyd, a board-certified dermatologist, explains marine spicules: microscopic needle-like structures harvested from sponges that create a controlled micro-injury in skin, forming temporary pathways thought to boost penetration of actives like peptides and PDRN before the spicules shed away. She notes spicule products typically start at 0.1 to 1 percent concentration to limit irritation, and that experts advise against pairing them with aggressive treatments like retinoids or strong acne medications to avoid over-exfoliation'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

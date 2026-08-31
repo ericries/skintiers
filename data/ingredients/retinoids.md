@@ -142,6 +142,16 @@ videos:
   related: [retinol]
   thesis: Board-certified dermatologist Dr. Daniel Sugai examines a viral ex vivo study that some claimed proves the "retinoid sandwich" method (moisturizer, then tretinoin, then moisturizer) blocks tretinoin from working. He explains the study used skin explants from a single patient treated with 0.1% retinol or 0.025% tretinoin, and only measured two short-term biomarker genes (HB-EGF and HAS3), not acne clearance, wrinkle reduction, or any long-term clinical outcome. He concludes the full sandwich reduced expression of those two genes compared to tretinoin alone, but that this shows attenuation of a molecular signal, not chemical neutralization or a loss of real-world efficacy, and he still recommends sandwiching for patients starting retinoids, those with sensitive skin, or during dry winter months to improve tolerability and adherence.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: 'Dr. Onyeka Obioha: The 3-Step Skincare Routine Framework (Cleanse, Treat, Protect)'
+  creator: Dr. Onyeka Obioha-Lolagne, MD, FAAD (Dr. Onyeka Obioha)
+  creator_slug: onyeka-obiohalolagne
+  credential: Dermatologist
+  platform: TikTok
+  url: https://www.tiktok.com/@dr.obioha/video/7339766161955048750
+  posted: '2024-02-26'
+  related: [hyperpigmentation, acne]
+  thesis: 'Dermatologist Dr. Onyeka Obioha explains that every skincare routine boils down to three steps: cleanse, treat, and protect. She uses her own routine as an example, treating her acne and hyperpigmentation at night with a topical retinoid (tretinoin) alternated with an exfoliating acid, and in the morning treating with an antioxidant before protecting with sunscreen and moisturizer. She emphasizes the treatment step should target your specific skin concern and will vary by skin type'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 name: Retinoids
 slug: retinoids
 status: published

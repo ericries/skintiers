@@ -73,6 +73,17 @@ videos:
     to prescription treatment if symptoms really need it.
   title: All about Dandruff & Seborrheic Dermatitis | Dermatologist Explains
   url: https://www.youtube.com/watch?v=AGVZfO3rhQU
+- title: 'Dry scalp: are your oils causing more harm than good?'
+  creator: Dr. Onyeka Obioha-Lolagne, MD, FAAD (Dr. Onyeka Obioha)
+  creator_slug: onyeka-obiohalolagne
+  credential: Dermatologist
+  platform: TikTok
+  url: https://www.tiktok.com/@dr.obioha/video/7325630499693628715
+  posted: '2024-01-19'
+  related: []
+  thesis: Dermatologist Dr. Onyeka Obioha explains that a "dry" scalp may not actually be dry at all. Everyone's scalp naturally hosts Malassezia yeast, which feeds on skin oils, so continuing to apply oils can fuel yeast overgrowth and inflammation, causing seborrheic dermatitis rather than true dryness. She advises avoiding oils, shampooing at least once a week, and seeing a specialist if symptoms persist
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Seborrheic dermatitis is the flaky, sometimes red, sometimes itchy skin condition that shows up on the scalp, face, and chest, in DermNet's words "a common, chronic, or relapsing form of eczema/dermatitis that mainly affects the sebaceous gland-rich regions of the scalp, face, and trunk." Dandruff is simply its uninflamed scalp form.[^dermnet] It is driven largely by an overgrowth of the skin yeast Malassezia on oily skin, which is why topical antifungals, not moisturizers or harder scrubbing, are the mainstay of treatment.[^dermnet][^cochrane]

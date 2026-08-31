@@ -45,6 +45,16 @@ videos:
   thesis: 'Cosmetic chemist Javon Ford explains that most skincare products (toners, moisturizers, serums) are built from three functional ingredient categories: humectants (water-binders like glycerin, propylene glycol, and hyaluronic acid), emollients (moisturizing oils, butters, silicones, and esters that add slip), and occlusives (barrier-formers like petrolatum, mineral oil, and large-molecule polymers that seal water in). He clarifies that "hydrating" (adding water via humectants) is distinct from "moisturizing" (sealing it in via emollients/occlusives), and that oil-free products can still clog pores if they contain comedogenic esters like isopropyl myristate. He also debunks the idea that topical collagen boosts the skin''s own collagen production, explaining collagen''s molecule is too large to absorb and instead functions as an occlusive. He then reads the ingredient lists of Neutrogena''s Hydro Boost Water Gel and a La Roche-Posay hydrating cleanser to demonstrate applying this
     framework.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Lotion vs. Cream Explained
+  creator: Dr. Onyeka Obioha-Lolagne, MD, FAAD (Dr. Onyeka Obioha)
+  creator_slug: onyeka-obiohalolagne
+  credential: Dermatologist
+  platform: TikTok
+  url: https://www.tiktok.com/@dr.obioha/video/7319228517504339242
+  posted: '2024-01-01'
+  related: []
+  thesis: Dermatologist Dr. Onyeka Obioha explains that lotions are water based while creams are oil based, so creams contain less water and more oil and are more effective at hydrating and nourishing the skin barrier. She recommends packing a fragrance free cream when traveling instead of using hotel-provided lotions, since fragrance can attract mosquito bites and thin, water-based lotions moisturize less effectively than creams
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

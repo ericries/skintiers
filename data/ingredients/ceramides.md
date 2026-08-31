@@ -48,6 +48,16 @@ videos:
   related: [skin-barrier-strengthening]
   thesis: Board-certified dermatologist Dr. Joyce Park walks through Korean skincare and makeup she bought at Olive Young in Korea. On the skincare side she highlights barrier-repair creams built on ceramides, cholesterol, and fatty acids to cut transepidermal water loss, a squalane cream for lighter daytime hydration on combination/oily skin, panthenol for soothing, and a black rice ampule as a gentle chemical exfoliant for sensitive skin. She also explains PA ratings (UVA protection grading) on a Korean SPF 50 sunscreen, and, on a colostrum-containing pore-defense ampule, notes lab studies suggest growth factors and wound-healing benefits but says human clinical research is still limited.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Respectfully…your skin doesn't need another active. It needs a strong
+  creator: Fatima Fahs
+  creator_slug: fatima-fahs
+  credential: Dermatologist (MD)
+  platform: TikTok
+  url: https://www.tiktok.com/@dermydoctor/video/7678046331214007565
+  posted: '2026-08-25'
+  related: [hyaluronic-acid, panthenol, skin-barrier-strengthening]
+  thesis: 'Dr. Fatima Fahs, a dermatologist, explains that sudden skin burning, tightness after moisturizing, flakiness, oiliness, or unexplained breakouts usually signal a damaged skin barrier rather than newly sensitive skin. She compares the barrier to a brick wall, with skin cells as the bricks and lipids as the mortar, and notes that cracks let water escape and irritants in, increasing inflammation. Her takeaway: the healthiest skin isn''t the skin with the most products, it''s the skin with the strongest barrier'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

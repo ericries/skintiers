@@ -222,6 +222,16 @@ videos:
   related: [anti-aging-perimenopause]
   thesis: 'Dr. Jenny Liu, a board-certified dermatologist, explains that skin biology (collagen production, cell turnover, sebum, and barrier function) shifts meaningfully each decade, so a routine that worked at 25 needs to change by 35, 45, and 55. She lays out a constant foundation for every age (daily SPF 30+, gentle cleansing, and moisturizer), then walks through what to add or swap per decade: preventive vitamin C and eventually retinoids in the 20s, more retinoid/exfoliation and consideration of in-office resurfacing in the 30s, addressing laxity with treatments like skin-tightening devices, Botox, and chemical peels starting in the 40s, and in the 50s adjusting for the collagen and barrier loss that comes with menopause using richer, barrier-supportive product lines plus eye/neck creams. She frames the message as adjusting and layering in a few products over time rather than overhauling the routine every ten years.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: 'Med Spa Overfilling: A Dermatologist''s Warning'
+  creator: Fatima Fahs
+  creator_slug: fatima-fahs
+  credential: Dermatologist (MD)
+  platform: TikTok
+  url: https://www.tiktok.com/@dermydoctor/video/7678322579274304781
+  posted: '2026-08-26'
+  related: []
+  thesis: Dermatologist Dr. Fatima Fahs warns that with more med spas in the US than McDonald's, she frequently sees patients who have been overfilled or over-injected because the provider did not want to say no to more revenue. She urges patients to pause before any injectable or cosmetic procedure, resist pressure to proceed if hesitant, and get a second opinion, reminding viewers that facial procedures can go wrong in ways that are sometimes irreversible
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

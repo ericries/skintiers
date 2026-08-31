@@ -234,6 +234,16 @@ videos:
   related: [best-gentle-cleansers-sensitive-skin, best-cleansers-for-oily-acne-prone-skin]
   thesis: Board-certified dermatologist Dr. Brooke Jeffy explains that cleanser texture (foaming, gel, cream/lotion, oil/serum, balm) matters as much as ingredients when picking a cleanser. She says dry, sensitive, eczema, or rosacea-prone skin does best with cream, lotion, serum, or oil-type cleansers with little to no foam, while oily or acne-prone skin does best with gel or gentle foaming formulas; combination skin usually suits gel or low-foaming cleansers, and aging skin often benefits from cream or serum cleansers focused on hydration. Her key takeaway is that a tight, "squeaky clean," or tingling feeling after washing means the cleanser is too harsh, not a sign it's working well.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Respectfully…your skin doesn't need another active. It needs a strong
+  creator: Fatima Fahs
+  creator_slug: fatima-fahs
+  credential: Dermatologist (MD)
+  platform: TikTok
+  url: https://www.tiktok.com/@dermydoctor/video/7678046331214007565
+  posted: '2026-08-25'
+  related: [hyaluronic-acid, panthenol, skin-barrier-strengthening]
+  thesis: 'Dr. Fatima Fahs, a dermatologist, explains that sudden skin burning, tightness after moisturizing, flakiness, oiliness, or unexplained breakouts usually signal a damaged skin barrier rather than newly sensitive skin. She compares the barrier to a brick wall, with skin cells as the bricks and lipids as the mortar, and notes that cracks let water escape and irritants in, increasing inflammation. Her takeaway: the healthiest skin isn''t the skin with the most products, it''s the skin with the strongest barrier'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

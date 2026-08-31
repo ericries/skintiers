@@ -38,6 +38,16 @@ videos:
   related: [acne]
   thesis: Cosmetic chemists Victoria Fu and Gloria Lu of Chemist Confessions explain hypochlorous acid, the ingredient behind a wave of acne testimonials and viral skin-soothing buzz. They note that its strongest evidence is for wound healing, such as diabetic foot ulcers, while its efficacy for everyday skincare and acne is still poorly understood and rests largely on testimonials. They also examine its reputation for instability, finding that although hypochlorous acid degrades quickly in general, some well-formulated versions stayed around 95 percent intact after ten days.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Respectfully…your skin doesn't need another active. It needs a strong
+  creator: Fatima Fahs
+  creator_slug: fatima-fahs
+  credential: Dermatologist (MD)
+  platform: TikTok
+  url: https://www.tiktok.com/@dermydoctor/video/7678046331214007565
+  posted: '2026-08-25'
+  related: [hyaluronic-acid, panthenol, skin-barrier-strengthening]
+  thesis: 'Dr. Fatima Fahs, a dermatologist, explains that sudden skin burning, tightness after moisturizing, flakiness, oiliness, or unexplained breakouts usually signal a damaged skin barrier rather than newly sensitive skin. She compares the barrier to a brick wall, with skin cells as the bricks and lipids as the mortar, and notes that cracks let water escape and irritants in, increasing inflammation. Her takeaway: the healthiest skin isn''t the skin with the most products, it''s the skin with the strongest barrier'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

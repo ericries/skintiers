@@ -118,6 +118,16 @@ videos:
   related: []
   thesis: Board-certified dermatologist Dr. Neera Nathan reacts to viral skincare trends and explains which ones actually hold up. She says zinc oxide diaper rash cream applied at night acts as a skin protectant and anti-inflammatory that helps repair a damaged moisture barrier. She calls glycolic acid a versatile AHA useful for exfoliation, collagen boosting, evening pigmentation, and treating ingrown hairs or dark elbows when used one to three times a week. She notes viral collagen face masks work mainly as humectants for temporary plumping rather than by boosting the skin's own collagen production, and highlights combining azelaic acid in the morning with tretinoin at night as a long-standing dermatologist combo for smoothing texture, fading hyperpigmentation, and reducing wrinkles.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: 'Dr. Onyeka Obioha: The 3-Step Skincare Routine Framework (Cleanse, Treat, Protect)'
+  creator: Dr. Onyeka Obioha-Lolagne, MD, FAAD (Dr. Onyeka Obioha)
+  creator_slug: onyeka-obiohalolagne
+  credential: Dermatologist
+  platform: TikTok
+  url: https://www.tiktok.com/@dr.obioha/video/7339766161955048750
+  posted: '2024-02-26'
+  related: [hyperpigmentation, acne]
+  thesis: 'Dermatologist Dr. Onyeka Obioha explains that every skincare routine boils down to three steps: cleanse, treat, and protect. She uses her own routine as an example, treating her acne and hyperpigmentation at night with a topical retinoid (tretinoin) alternated with an exfoliating acid, and in the morning treating with an antioxidant before protecting with sunscreen and moisturizer. She emphasizes the treatment step should target your specific skin concern and will vary by skin type'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
