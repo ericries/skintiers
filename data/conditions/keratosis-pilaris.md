@@ -86,7 +86,9 @@ videos:
 
 ---
 
-Keratosis pilaris is a common, benign skin condition in which small, rough plugs of keratin form inside hair follicles, giving the skin a stippled, bumpy texture that some call chicken skin.[^statpearls] It shows up most on the outer upper arms, thighs, cheeks, and buttocks.[^poskitt][^statpearls] The plugging is a follicular keratinization problem rather than the inflamed, bacteria-driven comedones of [[acne]], and StatPearls lists acne vulgaris among the look-alikes clinicians rule out when diagnosing it.[^statpearls] It runs in families in a meaningful share of cases, is linked to dry skin and atopic conditions, and is medically harmless.[^poskitt][^statpearls]
+Keratosis pilaris is a common, benign skin condition in which small, rough plugs of keratin form inside hair follicles, giving the skin a stippled, bumpy texture that some call chicken skin.[^statpearls] It shows up most on the outer upper arms, thighs, cheeks, and buttocks.[^poskitt][^statpearls] The plugging is a follicular keratinization problem rather than the inflamed, bacteria-driven comedones of [[acne]], and StatPearls lists acne vulgaris among the look-alikes clinicians rule out when diagnosing it.[^statpearls] It runs in families in a meaningful share of cases, is linked to [[dry-skin|dry skin]] and atopic conditions, and is medically harmless.[^poskitt][^statpearls]
+
+**The bottom line:** there is no cure and no single best treatment, but the two best-tested options, lactic acid and salicylic acid, both cut visible bumps by half or more in the one controlled trial that compared treatments head to head. Everything else on this page is maintenance, not a fix.
 
 ## How to know you have this
 
@@ -110,7 +112,7 @@ The best-controlled comparison is a split-side trial in 50 patients who complete
 
 [[urea]] is both a humectant and, at higher concentrations, a keratolytic, and a small open-label trial of a 20% urea cream found a statistically significant improvement in skin texture after one week and four weeks of once-daily use, with high participant satisfaction and no significant adverse events.[^mccormick] That trial had no comparison group, so it shows improvement against baseline rather than against a vehicle or another treatment.[^mccormick] [[glycolic-acid]] has the least applicable evidence of the acids here: the one trial used a much higher, professionally applied concentration (50% or 70%) than a retail leave-on product, in an uncontrolled single-arm design, and while treated papules cleared progressively over 80 days, a five-year follow-up in the patients who could be reassessed found no significant difference from baseline in papule count, pigmentation, or redness.[^tian]
 
-[[adapalene]] and [[tretinoin]] work by normalizing follicular shedding, the same mechanism thought to drive the keratin plugging in keratosis pilaris, and a clinical review lists topical retinoids as a step-up option after keratolytics.[^kodali] But neither has a controlled keratosis pilaris trial behind it; the supporting evidence is case reports of a related topical retinoid, 0.01% tazarotene, applied nightly, in which lesions were reported to fade within two weeks and resolve within four to eight.[^statpearls]
+[[adapalene]] and [[tretinoin]], both [[retinoids]], work by normalizing follicular shedding, the same mechanism thought to drive the keratin plugging in keratosis pilaris, and a clinical review lists topical retinoids as a step-up option after keratolytics.[^kodali] But neither has a controlled keratosis pilaris trial behind it; the supporting evidence is case reports of a related topical retinoid, 0.01% tazarotene, applied nightly, in which lesions were reported to fade within two weeks and resolve within four to eight.[^statpearls]
 
 ## Honest limits
 
@@ -122,7 +124,7 @@ The clinical picture, prevalence, and natural history come from two convergent s
 
 ## See Also
 
-[[acne]], [[atopic-dermatitis]], [[moisturizing]], [[lactic-acid]], [[salicylic-acid]], [[urea]], [[glycolic-acid]], [[adapalene]], [[tretinoin]], [[exfoliating-acids-by-strength]]
+[[dry-skin]], [[atopic-dermatitis]], [[moisturizing]], [[lactic-acid]], [[salicylic-acid]], [[urea]], [[retinoids]], [[exfoliating-acids-by-strength]], [[skin-barrier-repair]]
 
 ## Sources
 

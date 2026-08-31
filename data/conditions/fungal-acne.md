@@ -48,7 +48,9 @@ videos:
 
 ---
 
-"Fungal acne" is not acne. The name is popular shorthand for Malassezia (formerly Pityrosporum) folliculitis, an itchy eruption caused by overgrowth of the Malassezia yeast that normally lives on skin, inside hair follicles, rather than the bacterial, comedone-driven process behind [[acne]].[^saunte] It produces monomorphic, 2 to 4 mm itchy papules and papulopustules, most often on the chest, back, upper arms, neck, and face, and StatPearls describes a characteristic "cape-like distribution over the patient's shoulders, back, and neck."[^saunte][^statpearls] It is routinely mistaken for acne or bacterial folliculitis, and it does not respond to the antibiotics that treat ordinary acne because those drugs do not target yeast; StatPearls specifically flags clinical suspicion in patients diagnosed with acne "that has failed to respond or even worsened, after antibiotic treatment," and broad-spectrum antibiotic use is itself listed among the condition's predisposing factors.[^statpearls][^saunte]
+"Fungal acne" is not acne, and treating it like acne will not clear it. The name is popular shorthand for Malassezia (formerly Pityrosporum) folliculitis, an itchy eruption caused by overgrowth of the Malassezia yeast that normally lives on skin, inside hair follicles, rather than the bacterial, comedone-driven process behind [[acne]].[^saunte] Because the cause is a yeast, the fix is an antifungal, not a standard acne active, and the clearest tell is bumps that will not budge, or even worsen, on antibiotics.
+
+It produces monomorphic (uniform-looking), 2 to 4 mm itchy papules and papulopustules, most often on the chest, back, upper arms, neck, and face, and StatPearls describes a characteristic "cape-like distribution over the patient's shoulders, back, and neck."[^saunte][^statpearls] It is routinely mistaken for acne or bacterial folliculitis, and it does not respond to the antibiotics that treat ordinary acne because those drugs do not target yeast; StatPearls specifically flags clinical suspicion in patients diagnosed with acne "that has failed to respond or even worsened, after antibiotic treatment," and broad-spectrum antibiotic use is itself listed among the condition's predisposing factors.[^statpearls][^saunte]
 
 ## How to know you have this
 
@@ -64,7 +66,7 @@ These are the features clinicians use to recognize Malassezia folliculitis. They
 
 ## Management
 
-Because the driver is yeast rather than bacteria or clogged pores, the treatments with real evidence behind them are antifungal. Topical options with reported benefit include azole antifungals, selenium sulfide applied once daily for three days and then weekly, and propylene glycol 50% applied twice daily.[^saunte] For cases that do not clear topically, systemic treatment is used: itraconazole 100 to 200 mg daily for one to four weeks has been reported with a clinical effect of 69 to 100%, and fluconazole at the same dose and duration with a clinical effect of 80%.[^saunte][^statpearls] StatPearls notes itraconazole has more supporting evidence, but "fluconazole is often the treatment of choice secondary to its better side effect profile."[^statpearls] A 2023 position statement from the European Academy of Dermatology and Venereology's Mycology Task Force built a treatment algorithm around confirming the diagnosis first, with separate pathways for patients who are immunocompetent, immunocompromised, or have impaired liver function.[^henning]
+Because the driver is yeast rather than bacteria or clogged pores, the treatments with real evidence behind them are antifungal. Topical options with reported benefit include azole antifungals such as [[ketoconazole]], selenium sulfide applied once daily for three days and then weekly, and propylene glycol 50% applied twice daily.[^saunte] For cases that do not clear topically, systemic treatment is used: itraconazole 100 to 200 mg daily for one to four weeks has been reported with a clinical effect of 69 to 100%, and fluconazole at the same dose and duration with a clinical effect of 80%.[^saunte][^statpearls] StatPearls notes itraconazole has more supporting evidence, but "fluconazole is often the treatment of choice secondary to its better side effect profile."[^statpearls] A 2023 position statement from the European Academy of Dermatology and Venereology's Mycology Task Force built a treatment algorithm around confirming the diagnosis first, with separate pathways for patients who are immunocompetent, immunocompromised, or have impaired liver function.[^henning]
 
 Recurrence is common once treatment stops. Saunte and colleagues report that clinicians use maintenance therapy, weekly topical or monthly oral antifungals, to prevent it.[^saunte] Standard acne antibiotics do not treat the underlying yeast, and broad-spectrum antibiotic use is itself one of the condition's listed predisposing factors, alongside heat, sweating, and occlusion.[^saunte]
 
@@ -76,7 +78,7 @@ The clinical picture, risk factors, and topical and systemic treatment regimens 
 
 ## See Also
 
-[[acne]], [[oily-skin]], [[benzoyl-peroxide]]
+[[acne]], [[oily-skin]], [[ketoconazole]], [[benzoyl-peroxide]], [[seborrheic-dermatitis]], [[rosacea]], [[salicylic-acid]], [[sensitive-skin]]
 
 ## Sources
 

@@ -51,9 +51,9 @@ videos:
 
 ---
 
-Ceramides are the major lipid constituent of the stratum corneum, the skin's outer barrier layer, and a common physiologic-lipid ingredient in barrier-repair moisturizers.
+Ceramides are fatty molecules that make up most of the stratum corneum, the outermost layer of skin that acts as the body's water-loss barrier. They show up in barrier-repair moisturizers as a "physiologic lipid," meaning a fat the skin already makes and uses, rather than a synthetic active.
 
-Ceramides are real structural lipids of the skin barrier, and eczema-prone skin is measurably short of them.[^imokawa][^dinardo] That makes putting ceramides back a physiologically reasonable idea, and ceramide moisturizers do move measured barrier numbers such as water loss and hydration.[^spada] The gap is between that measured barrier effect and a proven clinical edge: in the one randomized trial cited here, a ceramide regimen beat an inactive base on barrier measurements but not on eczema severity,[^spada] and the strong clinical evidence for reduced eczema flares belongs to moisturizing as a category, not to ceramides specifically. This profile grades each use separately.
+Ceramides are real structural lipids of the skin barrier, and skin affected by [[atopic-dermatitis|eczema]] is measurably short of them.[^imokawa][^dinardo] That makes putting ceramides back a physiologically reasonable idea, and ceramide moisturizers do move measured barrier numbers such as water loss and hydration.[^spada] The gap is between that measured barrier effect and a proven clinical edge: in the one randomized trial cited here, a ceramide regimen beat an inactive base on barrier measurements but not on eczema severity,[^spada] and the strong clinical evidence for reduced eczema flares belongs to [[moisturizing]] as a category, not to ceramides specifically. This profile grades each use separately.
 
 > Ceramides are a genuine barrier lipid that atopic skin is depleted in, and ceramide moisturizers improve measured barrier function.[^imokawa][^dinardo][^spada] What has not been shown is that adding ceramides beats a plainer, cheaper moisturizer for how skin looks or for eczema severity: in a double-blind randomized trial a ceramide cream lowered transepidermal water loss but did not reduce eczema severity more than a matched base without it (EASI, P=.7804).[^spada]
 
@@ -114,7 +114,7 @@ This section is quarantined and discounted; treat everything here as unproven or
 
 ## See Also
 
-[[cholesterol]] [[phytosphingosine]] [[niacinamide]] [[moisturizing]] [[skin-barrier-repair]] [[skin-barrier-strengthening]] [[petrolatum]] [[glycerin]] [[hyaluronic-acid]] [[colloidal-oatmeal]]
+[[atopic-dermatitis]] [[dry-skin]] [[cholesterol]] [[phytosphingosine]] [[niacinamide]] [[moisturizing]] [[skin-barrier-repair]] [[skin-barrier-strengthening]] [[petrolatum]]
 
 ## Sources
 

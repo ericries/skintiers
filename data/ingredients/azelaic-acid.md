@@ -191,22 +191,22 @@ videos:
 
 ---
 
-Azelaic acid is a saturated dicarboxylic acid used topically at 15% (gel/foam) and 20% (cream), FDA-approved for rosacea (15% gel) and inflammatory acne (20% cream); azelaic acid was first approved by the FDA in 1995.[^4][^8] Its evidence base is unusually good for a dermatologic topical, but the grade depends entirely on **what you are using it for**, and each use is graded separately below.
+Azelaic acid is a naturally occurring acid used topically at 15% (gel/foam) and 20% (cream). It is FDA-approved for two specific uses, [[rosacea]] (15% gel) and inflammatory [[acne]] (20% cream), and was first approved by the FDA in 1995.[^4][^8] Its evidence base is unusually good for a dermatologic topical, but the grade depends entirely on **what you are using it for**, and each use is graded separately below.
 
 ## The Rubric
 
 Grades differ by indication. Framing below is relative and names comparators.
 
-**Rosacea (papulopustular)**
+**Rosacea (papulopustular, the red-bumps type)**
 - **Effect size: notable.** Head-to-head trials put it at least on par with, and on several endpoints better than, the standard topical it is measured against. In an independent 251-patient RCT, azelaic acid 15% gel cut inflammatory lesions −72.7% vs −55.8% for metronidazole 0.75% gel (P<.001).[^2] "Notable: comparable to or better than metronidazole 0.75%, the long-standing first-line topical."
 - **Evidence quality: solid.** Multiple RCTs, a Cochrane systematic review that graded azelaic-acid-vs-placebo evidence "high-quality," and FDA approval all converge.[^1][^2][^3][^4] Short of "gold-standard" only because the largest head-to-head comparisons are single-comparator, not networks of replicated trials against every alternative.
 
-**Melasma**
-- **Effect size: modest to notable, and comparator-dependent.** Superior to hydroquinone 2% (73% vs 19% good-to-excellent in a 155-patient RCT),[^5] and a 6-RCT / 673-patient meta-analysis favored it over hydroquinone overall (MASI mean difference -1.23; 95% CI -2.05 to -0.40; P=0.004).[^6] But against the stronger hydroquinone 4%, trials show roughly equivalence, not superiority.[^1] "Notable vs hydroquinone 2%; closer to a tie vs hydroquinone 4%."
+**[[melasma|Melasma]]** (a patchy form of [[hyperpigmentation]])
+- **Effect size: modest to notable, and comparator-dependent.** Superior to [[hydroquinone]] 2% (73% vs 19% good-to-excellent in a 155-patient RCT),[^5] and a 6-RCT / 673-patient meta-analysis favored it over hydroquinone overall (MASI mean difference -1.23; 95% CI -2.05 to -0.40; P=0.004).[^6] But against the stronger hydroquinone 4%, trials show roughly equivalence, not superiority.[^1] "Notable vs hydroquinone 2%; closer to a tie vs hydroquinone 4%."
 - **Evidence quality: mixed.** The favorable trials are real RCTs but mostly older, smaller, and heterogeneous in comparator strength; the supporting meta-analysis itself calls for larger, longer studies.[^1][^6]
 
 **Acne (mild to moderate)**
-- **Effect size: modest.** More effective than vehicle across trials, and equivalent to tretinoin 0.05% for comedonal acne with fewer local side effects; helpful but not a standout versus retinoids or benzoyl peroxide.[^1][^7] "Modest: roughly comparable to tretinoin 0.05%, better tolerated."
+- **Effect size: modest.** More effective than vehicle across trials, and equivalent to [[tretinoin]] 0.05% for comedonal acne with fewer local side effects; helpful but not a standout versus retinoids or [[benzoyl-peroxide]].[^1][^7] "Modest: roughly comparable to tretinoin 0.05%, better tolerated."
 - **Evidence quality: solid.** A systematic review pooling 16 acne RCTs, an independent comparative RCT, and FDA approval all support the modest-efficacy verdict.[^1][^7][^8]
 
 **Skin aging / "anti-aging"**
@@ -215,11 +215,11 @@ Grades differ by indication. Framing below is relative and names comparators.
 
 ## What We Actually Know
 
-Azelaic acid has genuine, independently replicated efficacy for inflammatory rosacea, where it matches or beats the usual first-line topical (metronidazole 0.75%), and for lightening melasma, where it beats hydroquinone 2% and roughly ties the stronger 4% strength.[^1][^2][^5][^6] For acne it is a legitimate but middle-of-the-pack option, comparable to tretinoin 0.05% and better tolerated.[^1][^7] There is no controlled evidence that it does anything for skin aging; a systematic review looking for such trials found none.[^1]
+Azelaic acid has genuine, independently replicated efficacy for inflammatory [[rosacea]], where it matches or beats the usual first-line topical (metronidazole 0.75%), and for lightening [[melasma]], where it beats [[hydroquinone]] 2% and roughly ties the stronger 4% strength.[^1][^2][^5][^6] For [[acne]] it is a legitimate but middle-of-the-pack option, comparable to [[tretinoin]] 0.05% and better tolerated.[^1][^7] There is no controlled evidence that it does anything for skin aging; a systematic review looking for such trials found none.[^1]
 
 ## How It Works
 
-Azelaic acid is a naturally occurring C9 dicarboxylic acid with several mechanisms mapped to its different uses. In rosacea, a mechanistic study showed it directly inhibits kallikrein-5 (KLK5) in cultured keratinocytes and reduces gene expression of KLK5 and cathelicidin; treated patients showed reductions in cathelicidin and KLK5 messenger RNA, and patients with high baseline serine protease activity showed a statistically significant reduction in that activity, the innate-immune/protease cascade implicated in rosacea inflammation.[^9] In acne, the FDA label attributes its action to antimicrobial activity against *Propionibacterium acnes* (now *Cutibacterium acnes*) and *Staphylococcus epidermidis*, "attributable to inhibition of microbial cellular protein synthesis."[^8] In hyperpigmentation, it is understood to act preferentially on hyperactive/abnormal melanocytes; the melasma effect is demonstrated clinically in the trials below even where the precise pathway is less fully characterized.[^5][^6]
+Azelaic acid is a naturally occurring C9 dicarboxylic acid (a chain-shaped acid with an acid group at each end) with several mechanisms mapped to its different uses. In rosacea, a mechanistic study showed it directly inhibits kallikrein-5 (KLK5) in cultured keratinocytes, or skin cells, and reduces gene expression of KLK5 and cathelicidin; treated patients showed reductions in cathelicidin and KLK5 messenger RNA, and patients with high baseline serine protease activity showed a statistically significant reduction in that activity, the innate-immune/protease cascade implicated in rosacea inflammation.[^9] In acne, the FDA label attributes its action to antimicrobial activity against *Propionibacterium acnes* (now *Cutibacterium acnes*) and *Staphylococcus epidermidis*, "attributable to inhibition of microbial cellular protein synthesis."[^8] In [[hyperpigmentation]], it is understood to act preferentially on hyperactive/abnormal melanocytes, the pigment-producing cells; the melasma effect is demonstrated clinically in the trials below even where the precise pathway is less fully characterized.[^5][^6]
 
 ## The Evidence
 
@@ -237,7 +237,7 @@ Primary clinical evidence, by use:
 
 ## Uses
 
-Well-supported: inflammatory (papulopustular) rosacea, where it is a reasonable first-line topical comparable to or better than metronidazole 0.75%; and melasma / facial hyperpigmentation, where it competes with hydroquinone and is often chosen to avoid hydroquinone's ochronosis risk. Supported but middle-tier: mild-to-moderate acne, comparable to tretinoin 0.05% and useful for people who cannot tolerate a retinoid, and for the post-inflammatory hyperpigmentation that acne leaves behind. Not supported by controlled evidence: general "anti-aging," wrinkle reduction, or skin rejuvenation.
+Well-supported: inflammatory (papulopustular) [[rosacea]], where it is a reasonable first-line topical comparable to or better than metronidazole 0.75%; and [[melasma]] / facial [[hyperpigmentation]], where it competes with [[hydroquinone]] and is often chosen to avoid hydroquinone's ochronosis (skin-darkening) risk. Supported but middle-tier: mild-to-moderate [[acne]], comparable to [[tretinoin]] 0.05% and useful for people who cannot tolerate a retinoid, and for the post-inflammatory hyperpigmentation that acne leaves behind. Not supported by controlled evidence: general "anti-aging," wrinkle reduction, or skin rejuvenation.
 
 ## Common Marketing Claims
 
@@ -247,6 +247,17 @@ This section is quarantined and discounted; treat everything here as unproven un
 - **"Brightens / evens skin tone" (general).** The pigment evidence is specifically for *melasma* and acne-related post-inflammatory hyperpigmentation.[^5][^6] Generic "glow/brightening" claims for otherwise-even skin are extrapolation, not tested.
 - **"Gentle exfoliant / like an AHA/BHA."** Azelaic acid is a dicarboxylic acid, not a hydroxy acid; its demonstrated mechanisms are anti-protease/antimicrobial/melanocyte-directed, not stratum-corneum exfoliation.[^8][^9] Marketing that lumps it with glycolic/salicylic acid mischaracterizes it.
 - **"Kills acne bacteria" as the headline benefit.** Antimicrobial activity against *C. acnes* is on the FDA label, but clinical acne efficacy is only modest and comparable to tretinoin, not a bacteria-eliminating cure.[^7][^8]
+
+## See Also
+
+- [[rosacea]]: the condition azelaic acid is FDA-approved to treat at 15%
+- [[melasma]]: the pigmentation condition where it competes with hydroquinone
+- [[hyperpigmentation]]: the broader category covering melasma and post-acne marks
+- [[acne]]: the other FDA-approved use, at 20%
+- [[hydroquinone]]: the stronger comparator it beats at 2% and roughly ties at 4%
+- [[tretinoin]]: the retinoid it matches for comedonal acne and is often layered with
+- [[benzoyl-peroxide]]: a drying active best used cautiously alongside azelaic acid
+- [[niacinamide]]: a common pairing for barrier support and pigmentation
 
 ## Sources
 

@@ -80,9 +80,9 @@ videos:
 
 ---
 
-Retinol is the alcohol form of vitamin A and the most-studied cosmetic [[retinoids|retinoid]] sold over the counter, sitting two enzymatic steps from the receptor-active acid that prescription retinoids deliver directly.
+Retinol is the alcohol form of vitamin A, sold over the counter in countless anti-aging serums and creams. It is the most-studied cosmetic [[retinoids|retinoid]] available without a prescription, but the skin has to convert it through two chemical steps before it becomes the receptor-active acid that prescription retinoids deliver directly.
 
-The vitamin A pathway runs retinyl ester to retinol to [[retinaldehyde]] to retinoic acid ([[tretinoin]]), and each arrow is an oxidation the skin must perform.[^kang] Retinol is a precursor: it does nothing until the skin converts it, first to retinaldehyde and then to the active acid, which is the molecule prescription trials actually tested. That extra distance from the endpoint is why retinol is milder than the prescription retinoids and why its controlled evidence, though real, is thinner and less replicated than tretinoin's. Its own strongest data are vehicle-controlled trials in aging skin, so this profile grades that use and treats acne as a class-level extrapolation.
+That conversion path is: retinyl ester to retinol to [[retinaldehyde]] to retinoic acid, which is the prescription drug [[tretinoin]]. Each arrow is an oxidation step the skin must perform on its own.[^kang] Retinol itself does nothing until the skin converts it, first to retinaldehyde and then to the active acid, the molecule prescription trials actually tested. That extra distance from the active form is why retinol works more gently than prescription retinoids, and why its controlled evidence, though real, is thinner and less replicated than tretinoin's. Retinol's own strongest data are vehicle-controlled trials in aging skin, so this profile grades that use on its own evidence and treats acne as a class-level extrapolation, not a retinol-specific finding.
 
 > Retinol has genuine vehicle-controlled trial evidence for improving fine wrinkles and pigment in aging skin, backed by human studies showing it raises collagen and lowers collagen-degrading enzymes.[^kafi][^randhawa][^varani] It works through the same pathway as prescription [[tretinoin]] but as a two-step precursor at smaller magnitude, and no cited trial shows it matches the prescription drug.[^kong]
 
@@ -94,7 +94,7 @@ Grades differ by use. Framing below is relative and names comparators.
 - **Effect size: modest.** Two independent vehicle-controlled trials show real but gradual improvement over months. In naturally aged (sun-protected) skin, 0.4% retinol beat its vehicle on fine wrinkling, with a change of -1.64 (95% CI, -2.06 to -1.22) versus -0.08 for vehicle (95% CI, -0.17 to 0.01; P<.001).[^kafi] In photodamaged facial skin, a 0.1% stabilized retinol improved crow's feet fine lines by 44% and mottled pigmentation by 84% at week 52 against vehicle.[^randhawa] The effect is weaker and slower than prescription [[tretinoin]], the receptor-active acid these formulas only approximate; retinol sits two oxidation steps from that acid, versus one step for [[retinaldehyde]], and it carries more controlled evidence than the [[retinyl-esters]], whose single anti-aging trial was negative. "Modest: measurable fine-wrinkle and pigment improvement, the most-studied over-the-counter retinoid, milder than prescription tretinoin and unproven against it."
 - **Evidence quality: solid (for an over-the-counter retinoid).** Two vehicle-controlled RCTs in different populations (intrinsic aging and photodamage), a retinol-versus-retinoic-acid comparison, and two mechanistic human studies converge.[^kafi][^randhawa][^kong][^varani][^kang] Short of the prescription retinoids' gold-standard because no cited trial pits retinol head to head against tretinoin, the cohorts are modest, and several endpoints are ordinal wrinkle scores or small biopsy subsets.
 
-**Acne (off-label, class-level)**
+**[[acne|Acne]] (off-label, class-level)**
 - **Effect size: not established for retinol specifically.** Retinol is not an FDA-approved acne drug, and this profile cites no retinol-specific controlled acne trial. The acne retinoid evidence is for the prescription and over-the-counter drug retinoids: [[tretinoin]], [[adapalene]], and their peers, covered on [[retinoids]]. As a precursor on the same pathway retinol may share the mechanism, but any acne use is extrapolation from the class rather than from retinol's own trials cited here. "Off-label and class-level: the acne case rests on the prescription retinoids, not on retinol-specific evidence."
 
 ## What We Actually Know
@@ -119,7 +119,7 @@ Primary clinical evidence:
 
 ## Uses
 
-Well-supported: fine wrinkles, texture, and mottled pigment in aging skin, where retinol is the most-studied over-the-counter retinoid, with vehicle-controlled improvement in both intrinsically aged and photodamaged skin, milder and slower than prescription [[tretinoin]] and not shown to equal it.[^kafi][^randhawa][^kong] Not established from retinol's own trials: acne, which rests on the prescription retinoids and [[adapalene]] rather than on retinol; see [[retinoids]]. As with the whole class, local irritation (dryness, redness, scaling) is the main practical limit, though the controlled data indicate retinol irritates less than the retinoic acid it converts to.[^kang][^kong]
+Well-supported: fine wrinkles, texture, and mottled pigment (see [[hyperpigmentation]]) in aging skin, where retinol is the most-studied over-the-counter retinoid, with vehicle-controlled improvement in both intrinsically aged and photodamaged skin, milder and slower than prescription [[tretinoin]] and not shown to equal it.[^kafi][^randhawa][^kong] Not established from retinol's own trials: [[acne]], which rests on the prescription retinoids and [[adapalene]] rather than on retinol; see [[retinoids]]. As with the whole class, local irritation (dryness, redness, scaling) is the main practical limit, though the controlled data indicate retinol irritates less than the retinoic acid it converts to.[^kang][^kong]
 
 ## Common Marketing Claims
 
@@ -132,7 +132,7 @@ This section is quarantined and discounted; treat everything here as unproven or
 
 ## See Also
 
-[[retinoids]] [[tretinoin]] [[retinaldehyde]] [[retinyl-esters]] [[adapalene]] [[bakuchiol]] [[niacinamide]] [[ceramides]] [[sunscreen-uv-filters]]
+[[retinoids]] [[tretinoin]] [[retinaldehyde]] [[retinyl-esters]] [[adapalene]] [[bakuchiol]] [[niacinamide]] [[hyperpigmentation]] [[sunscreen-uv-filters]]
 
 ## Sources
 

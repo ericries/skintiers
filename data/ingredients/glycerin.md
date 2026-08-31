@@ -21,9 +21,9 @@ videos:
 
 ---
 
-Glycerin (glycerol) is a small trihydroxy-alcohol humectant that has been added to skin preparations for more than two centuries, and at 20 to 45 percent it is a recognized over-the-counter skin protectant active ingredient under the US FDA monograph.[^cfr347][^hara]
+Glycerin (glycerol) is a humectant, an ingredient that draws water into the skin and holds it there. It is one of the most common humectants in ordinary moisturizers, and it has been added to skin preparations for more than two centuries. At a higher concentration, 20 to 45 percent, it is also a recognized over-the-counter skin protectant active ingredient under the US FDA monograph.[^cfr347][^hara]
 
-Below the drug-monograph concentration, glycerin is one of the most common humectants in moisturizers, where it draws and holds water in the outer skin. Its core health effect, raising the water content of the stratum corneum and supporting barrier function, is well replicated across a systematic review, a placebo-controlled trial, and mechanistic work in an aquaporin-3 mouse model.[^hara][^breternitz][^lindh] What is weaker is the step from that biophysical gain to measurable disease improvement: in the one controlled atopic-dermatitis trial, glycerin's hydration and barrier gains did not beat vehicle on clinical severity scores, and a systematic review rated glycerin trials as more prone to bias than urea trials.[^breternitz][^lindh]
+Below that drug-monograph concentration, glycerin's job in a moisturizer is to raise the water content of the outer skin layer (the stratum corneum) and support barrier function. That core effect is well replicated across a systematic review, a placebo-controlled trial, and mechanistic work in an aquaporin-3 mouse model.[^hara][^breternitz][^lindh] What is weaker is the step from that biophysical gain to measurable disease improvement: in the one controlled [[atopic-dermatitis]] trial, glycerin's hydration and barrier gains did not beat vehicle on clinical severity scores, and a systematic review rated glycerin trials as more prone to bias than [[urea]] trials.[^breternitz][^lindh]
 
 > Glycerin reliably increases stratum corneum water content and helps restore barrier function, an effect shown in human, animal, and in-vitro studies.[^hara][^breternitz][^lindh][^rawlings] It is a well-evidenced humectant rather than a treatment: in controlled atopic-dermatitis data the extra hydration did not translate into a symptom-score advantage over vehicle, and a systematic review judged its trials weaker than urea's.[^breternitz][^lindh]
 
@@ -86,7 +86,7 @@ This section is quarantined and discounted; treat everything here as unproven or
 
 ## See Also
 
-[[hyaluronic-acid]] [[petrolatum]] [[ceramides]] [[dimethicone]] [[niacinamide]] [[colloidal-oatmeal]] [[moisturizing]] [[skin-barrier-repair]]
+[[hyaluronic-acid]] [[petrolatum]] [[urea]] [[ceramides]] [[dimethicone]] [[niacinamide]] [[moisturizing]] [[skin-barrier-repair]] [[atopic-dermatitis]]
 
 ## Sources
 

@@ -53,7 +53,7 @@ videos:
 
 ---
 
-Psoriasis is "a chronic autoimmune-mediated inflammatory skin disorder" driven by "increased keratinocyte proliferation, abnormalities in the immune system, and abnormalities in the epidermal barrier."[^intjpharm] It typically shows as well-defined plaques topped with silvery scale, and it is distinct from the [[seborrheic-dermatitis]] and [[atopic-dermatitis]] it is often confused with. It is a chronic, relapsing disease that is managed rather than cured, and moderate-to-severe cases belong with a dermatologist.
+Psoriasis is a long-term immune condition that makes the skin produce new cells (keratinocytes) faster than it can shed them, so they pile up as thick, scaly patches. Medically, it is "a chronic autoimmune-mediated inflammatory skin disorder" driven by "increased keratinocyte proliferation, abnormalities in the immune system, and abnormalities in the epidermal barrier."[^intjpharm] It typically shows as well-defined plaques topped with silvery scale, and it is distinct from the [[seborrheic-dermatitis]] and [[atopic-dermatitis]] it is often confused with. It is a chronic, relapsing disease that is managed rather than cured, and moderate-to-severe cases belong with a dermatologist.
 
 > Psoriasis is a genuine immune-mediated disease, not a cosmetic complaint, so its real treatments are prescription-led. The first-line topicals are prescription corticosteroids and vitamin D analogs (plus newer nonsteroidals like roflumilast and tapinarof), and moderate-to-severe disease is treated with phototherapy or systemic and biologic drugs under a dermatologist, which sit outside the scope of over-the-counter skincare. The OTC actives a skincare site can speak to, coal tar and salicylic acid, are real but secondary: coal tar helps scaling, salicylic acid only lifts it.
 
@@ -79,7 +79,7 @@ The two claims this hub rests on are both drawn from recent secondary literature
 
 ## See Also
 
-[[coal-tar]], [[salicylic-acid]], [[seborrheic-dermatitis]], [[atopic-dermatitis]], [[pimecrolimus]].
+[[coal-tar]], [[salicylic-acid]], [[calcipotriene]], [[tapinarof]], [[roflumilast]], [[topical-corticosteroids]], [[seborrheic-dermatitis]], [[atopic-dermatitis]], [[pimecrolimus]].
 
 ## Sources
 

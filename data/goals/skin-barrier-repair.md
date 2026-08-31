@@ -237,18 +237,20 @@ videos:
 
 ---
 
-A disrupted skin barrier is a damaged stratum corneum, the skin's outermost layer, which normally works like a brick wall: flattened skin cells are the bricks and a mix of fatty molecules is the mortar between them. Elias describes that lipid mortar as an "approximately 1:1:1 molar ratio of ceramides (Cer), cholesterol, and nonessential fatty acids," where "all three lipids are required to form the lamellar structures that regulate barrier function."[^elias] When over-exfoliation, retinoid or acid irritation, over-washing, harsh weather, or an eczema flare strips or damages that mortar, the wall leaks: water escapes faster and irritants get in more easily. This page ranks what actually helps a barrier that is *already* disrupted recover, from highest to lowest demonstrated impact. Recovery is mostly about stopping whatever is damaging the skin and supporting the mortar as it re-forms, not about buying one special product. For keeping a healthy barrier resilient in the first place, the sibling maintenance list covers what holds up over the long run: [[skin-barrier-strengthening]].
+A disrupted skin barrier means the outer layer of skin, the stratum corneum, has stopped doing its job of holding water in and irritants out. That outer layer normally works like a brick wall: flattened skin cells are the bricks and a mix of fatty molecules is the mortar between them. Elias describes that lipid mortar as an "approximately 1:1:1 molar ratio of ceramides (Cer), cholesterol, and nonessential fatty acids," where "all three lipids are required to form the lamellar structures that regulate barrier function."[^elias] When over-exfoliation, retinoid or acid irritation, over-washing, harsh weather, or an eczema flare strips or damages that mortar, the wall leaks: water escapes faster and irritants get in more easily.
+
+**The bottom line:** the fastest, best-evidenced fix is stopping whatever is damaging the skin and giving it plain, boring support (occlusion, moisturizer, gentle cleansing) while the mortar re-forms on its own. This page ranks what actually helps a barrier that is *already* disrupted recover, from highest to lowest demonstrated impact, not what is marketed hardest as "barrier repair." For keeping an already-healthy barrier resilient in the first place, see the sibling list: [[skin-barrier-strengthening]].
 
 ## How to tell your barrier is disrupted
 
-These are the features clinicians associate with a compromised barrier. They are for recognition, not self-diagnosis, and several overlap with ordinary dry skin or with conditions like eczema and rosacea that only a clinician can diagnose.
+These are the features clinicians associate with a compromised barrier. They are for recognition, not self-diagnosis, and several overlap with ordinary dry skin or with conditions like [[atopic-dermatitis|eczema]] and [[rosacea]] that only a clinician can diagnose.
 
 - **New or increased tightness**, as if the skin is being pulled, especially after cleansing.
 - **Stinging or burning from products that used to feel fine**, including plain moisturizer, water, or a serum tolerated for months. This new reactivity is one of the more recognizable shifts.
 - **Redness and visible irritation** in areas that were calm before.
 - **Flaking, roughness, or peeling**, sometimes in patches where an active was applied.
-- **Dryness that will not quench**, where moisturizer helps briefly but the skin feels parched again quickly.
-- **Increased sensitivity generally**, so the skin overreacts to weather, wind, and products it used to shrug off.
+- **Dryness that will not quench**, where moisturizer helps briefly but the skin feels parched again quickly. This overlaps with ordinary [[dry-skin]], which a clinician distinguishes from barrier damage.
+- **Increased sensitivity generally**, so the skin overreacts to weather, wind, and products it used to shrug off, the same overreaction seen in [[sensitive-skin]].
 - **Measurably raised transepidermal water loss (TEWL)**, the water that evaporates through the skin. Clinicians measure it with a probe as a marker of barrier integrity: Alexander and colleagues describe TEWL as "the most widely used objective measurement for assessing the barrier function of skin," including in "skin diseases that are associated with skin barrier dysfunction, such as atopic dermatitis."[^tewl] A person cannot feel their own TEWL number, but tightness, stinging, and slow-to-quench dryness are the everyday version of the same leak.
 
 > Most barrier recovery is not bought. The barrier is self-repairing: once the damage stops, the lipid mortar re-forms and water loss falls back toward normal on its own.[^grubauer] StatPearls notes that "the majority of cases of contact dermatitis are self-limited and managed with simple supportive measures."[^contactderm] The highest-impact move is stopping the insult; occlusion and a plain ceramide-and-humectant moisturizer then support the skin while it heals. The products marketed hardest as "barrier repair complexes" mostly ride on that same, ordinary moisturizer evidence, and a few can make an angry barrier worse.
@@ -336,7 +338,7 @@ This is an educational summary, not medical advice. A barrier that is not recove
 
 ## See Also
 
-[[skin-barrier-strengthening]], [[moisturizing]], [[petrolatum]], [[ceramides]], [[glycerin]], [[hyaluronic-acid]], [[colloidal-oatmeal]], [[centella-asiatica]], [[niacinamide]], [[cholesterol]], [[phytosphingosine]], [[cerave-moisturizing-cream]], [[van-zuuren-2017-emollients-moisturisers-eczema]]
+[[skin-barrier-strengthening]], [[moisturizing]], [[petrolatum]], [[ceramides]], [[atopic-dermatitis]], [[dry-skin]], [[sensitive-skin]], [[cerave-moisturizing-cream]]
 
 ## Sources
 

@@ -70,9 +70,9 @@ videos:
 
 ---
 
-Hyaluronic acid is a large sugar molecule (a polysaccharide) found throughout the human body, including the skin and soft tissue, where it binds and holds water, and in skincare it is used topically as a humectant in serums and moisturizers.[^voigt][^papakon]
+Hyaluronic acid is a large sugar molecule (a polysaccharide) found throughout the human body, including the skin and soft tissue, where it binds and holds water. In skincare it is used topically as a [[glycerin|humectant]], an ingredient that draws water into the skin's outer layer, in serums and moisturizers.[^voigt][^papakon] Bottom line: it reliably improves a measured hydration reading, but the deep "1000 times its weight in water" and "anti-aging" claims outrun the data, and most of that hydration effect happens on the surface, not deep in the skin.
 
-The strongest controlled evidence for a medical outcome from hyaluronic acid is not for the cosmetic serum at all: it is for hyaluronic-acid wound dressings and derivatives, where a meta-analysis of randomized trials found faster healing of several wound types.[^voigt] The topical cosmetic use is a different question. There the evidence is consistent for one thing, improving a measured skin-hydration reading, and thinner and more cosmetic for the rest. A practical catch runs through all of it: only lower-molecular-weight hyaluronic acid crosses the outermost skin layer, while the high-molecular-weight hyaluronic acid used in many products stays on the surface.[^essendoubi][^pavicic] So this profile grades the topical hydration use, the topical wrinkle-appearance use, and the separate wound-healing use apart from one another.
+The strongest controlled evidence for a medical outcome from hyaluronic acid is not for the cosmetic serum at all: it is for hyaluronic-acid wound dressings and derivatives, where a meta-analysis of randomized trials found faster healing of several wound types.[^voigt] The topical cosmetic use is a different question. There the evidence is consistent for one thing, improving a measured skin-hydration reading, and thinner and more cosmetic for the rest. A practical catch runs through all of it: only lower-molecular-weight hyaluronic acid crosses the outermost skin layer (the [[skin-barrier-repair|stratum corneum]]), while the high-molecular-weight hyaluronic acid used in many products stays on the surface.[^essendoubi][^pavicic] So this profile grades the topical hydration use, the topical wrinkle-appearance use, and the separate wound-healing use apart from one another.
 
 > As a topical humectant, hyaluronic acid reliably raises a skin-hydration measurement in placebo-controlled testing, and lower-molecular-weight versions have reduced the depth of fine eye wrinkles in small trials; the water-binding is real, but the high-molecular-weight hyaluronic acid in many serums does not penetrate past the stratum corneum, and the anti-wrinkle data are small and rest on cosmetic-instrument endpoints.[^pavicic][^jegasothy][^essendoubi] Its best-evidenced medical use, faster wound healing, is for hyaluronic-acid wound products, a separate category from the cosmetic serum.[^voigt]
 
@@ -127,7 +127,7 @@ This section is quarantined and discounted; treat everything here as unproven or
 
 ## See Also
 
-[[glycerin]] [[niacinamide]] [[ceramides]] [[petrolatum]] [[retinoids]]
+[[glycerin]] [[niacinamide]] [[ceramides]] [[petrolatum]] [[retinoids]] [[tretinoin]] [[dry-skin]] [[moisturizing]] [[skin-barrier-repair]]
 
 ## Sources
 

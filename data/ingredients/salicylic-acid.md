@@ -51,9 +51,9 @@ videos:
 
 ---
 
-Salicylic acid is a lipophilic beta-hydroxy acid used topically as a nonprescription acne active at 0.5% to 2%, as a keratolytic wart remover at 12% to 40%, and at roughly 20% to 30% for in-office chemical peels.[^cfr-acne][^cfr-wart][^arif]
+Salicylic acid is a common acne-fighting ingredient in cleansers, toners, and wart removers. It is a lipophilic (oil-soluble) beta-hydroxy acid, or BHA, used topically as a nonprescription [[acne]] active at 0.5% to 2%, as a keratolytic (skin-softening, dead-cell-dissolving) wart remover at 12% to 40%, and at roughly 20% to 30% for in-office chemical peels.[^cfr-acne][^cfr-wart][^arif]
 
-It is the oil-soluble hydroxy acid, which lets it penetrate the sebum-filled pore rather than staying on the surface, and that is why it turns up in so many acne cleansers and toners. It sits in the US OTC drug monograph twice: as an acne active at 0.5% to 2% and as a wart remover at 12% to 40%.[^cfr-acne][^cfr-wart] Its evidence base is uneven across those uses. The largest controlled evidence is for wart removal, where a Cochrane review of 85 trials found it clears warts significantly more often than placebo.[^warts] For acne it is a genuine, guideline-recognized option that the American Academy of Dermatology recommends conditionally, but the controlled trials behind it are small and low-certainty, and dermatology guidelines rank benzoyl peroxide and topical retinoids above it.[^aad][^cochrane]
+Being oil-soluble lets it penetrate the sebum-filled pore rather than staying on the surface, which is why it turns up in so many acne cleansers and toners. It sits in the US OTC drug monograph twice: as an acne active at 0.5% to 2% and as a wart remover at 12% to 40%.[^cfr-acne][^cfr-wart] Its evidence base is uneven across those uses. The largest controlled evidence is for wart removal, where a Cochrane review of 85 trials found it clears warts significantly more often than placebo.[^warts] For acne it is a genuine, guideline-recognized option that the American Academy of Dermatology recommends conditionally, but the controlled trials behind it are small and low-certainty, and dermatology guidelines rank [[benzoyl-peroxide]] and topical [[retinoids]] above it.[^aad][^cochrane]
 
 > Salicylic acid has its strongest controlled evidence as a wart treatment (it beat placebo for clearance, RR 1.56, 95% CI 1.20 to 2.03) and is a legitimate but second-tier acne active: the American Academy of Dermatology recommends it only conditionally, while strongly recommending benzoyl peroxide and topical retinoids, and Cochrane rated the acne trials low quality.[^warts][^aad][^cochrane]
 
@@ -75,7 +75,7 @@ Grades differ by use. Framing below is relative and names comparators.
 
 ## What We Actually Know
 
-Salicylic acid's strongest controlled evidence is as a wart treatment: a Cochrane review of 85 trials found it clears warts significantly more often than placebo (RR 1.56, 95% CI 1.20 to 2.03), roughly matches cryotherapy, and adds to it.[^warts] For acne it is a real but second-tier active. It is on the US OTC acne monograph at 0.5% to 2%, the 2024 American Academy of Dermatology guideline gives it a conditional recommendation, and the one head-to-head trial Cochrane could pool put it level with [[tretinoin]] (RR 1.00, 95% CI 0.92 to 1.09), but Cochrane rated the acne evidence low to very low quality and guidelines rank [[benzoyl-peroxide]] and topical [[retinoids]] above it.[^cfr-acne][^aad][^cochrane] As an in-office peel it performs about the same as other superficial acne peels.[^peels] Systemic toxicity (salicylism) is rare from topical use but documented, particularly when high-concentration preparations are applied to large areas.[^salicylism]
+Salicylic acid's strongest controlled evidence is as a wart treatment: a Cochrane review of 85 trials found it clears warts significantly more often than placebo (RR 1.56, 95% CI 1.20 to 2.03), roughly matches cryotherapy (freezing), and adds to it.[^warts] For acne it is a real but second-tier active. It is on the US OTC acne monograph at 0.5% to 2%, the 2024 American Academy of Dermatology guideline gives it a conditional recommendation, and the one head-to-head trial Cochrane could pool put it level with [[tretinoin]] (RR 1.00, 95% CI 0.92 to 1.09), but Cochrane rated the acne evidence low to very low quality and guidelines rank [[benzoyl-peroxide]] and topical [[retinoids]] above it.[^cfr-acne][^aad][^cochrane] As an in-office peel it performs about the same as other superficial acne peels.[^peels] Systemic toxicity (salicylism, salicylic acid poisoning) is rare from topical use but documented, particularly when high-concentration preparations are applied to large areas.[^salicylism]
 
 ## How It Works
 
@@ -110,7 +110,7 @@ This section is quarantined and discounted; treat everything here as unproven or
 
 ## See Also
 
-[[benzoyl-peroxide]] [[tretinoin]] [[adapalene]] [[azelaic-acid]] [[retinoids]] [[niacinamide]] [[acne]]
+[[acne]] [[oily-skin]] [[blackheads-clogged-pores]] [[benzoyl-peroxide]] [[tretinoin]] [[adapalene]] [[azelaic-acid]] [[glycolic-acid]] [[niacinamide]]
 
 ## Sources
 
