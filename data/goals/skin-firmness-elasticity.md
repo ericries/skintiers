@@ -34,6 +34,18 @@ tier_list:
   title: Skin firmness and elasticity by evidence
 type: goal
 updated: '2026-08-30'
+videos:
+- title: As a Derm, This is My Favorite Skin Treatment for Firmer Skin | Dr. Sam Ellis
+  creator: Dr. Sam Ellis
+  creator_slug: samantha-ellis
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=ZSaXdiHMuPw
+  posted: '2026-08-07'
+  related: [acne-scars, enlarged-pores]
+  thesis: Dr. Sam Ellis, a board-certified dermatologist, gives a comprehensive guide to microneedling, a procedure that uses tiny needles to create micro-injuries that stimulate collagen and elastin production. She explains it helps fine lines, texture, and enlarged pores, is safe for all skin tones since it uses no heat, and should be avoided with active acne, open sores or active cold sores, flaring eczema or psoriasis, or true keloid scars. She contrasts heatless traditional microneedling with radiofrequency microneedling (which adds heat for a more robust but not skin-tightening effect, and works best on deeper skin tones with an experienced provider), notes that adding platelet-rich plasma has the clearest evidence for improving acne scar results specifically, and cautions that at-home microneedling is far more superficial and less predictable than in-office treatment.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Firmness and elasticity come from the dermis, the layer beneath the visible surface. Collagen (mainly type I and III) gives skin its structural strength; elastic fibers, made of elastin and fibrillin microfibrils, allow it to stretch and recoil[^2]. Both weaken with age, and years of UV exposure add more damage on top: "aging and chronic sun exposure can weaken the dermis," and chronic UV radiation damages elastic fibers through solar elastosis[^2]. DermNet describes the same UV process as a "multi-hit model" that deposits a "disorganised, elastic-fibre rich matrix"[^1]. The honest framing: topical actives can measurably improve firmness and elasticity at the skin's surface, but they cannot lift or tighten deeper sagging caused by loss of underlying fat pads or bone, which is a structural problem addressed by procedures, not creams[^1].

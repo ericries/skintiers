@@ -458,6 +458,16 @@ videos:
   related: [zinc-oxide, titanium-dioxide, anti-aging]
   thesis: 'In this sunscreen explainer, board-certified dermatologist Dr. Whitney Bowe teams up with cosmetic chemist Ramon Pagan to break down how sunscreen actually works. They correct a common myth: both mineral and chemical sunscreens work mainly by absorbing UV radiation and releasing it as a small amount of heat, with mineral filters scattering only about 5 percent of it, rather than simply reflecting rays like a mirror. Bowe also stresses that the SPF number reflects only UVB protection, so broad-spectrum coverage matters for the UVA rays that penetrate deeper and break down collagen, and that the best sunscreen is the one you will actually wear every day.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: This law might be making skin cancer worse
+  creator: Michelle Wong
+  creator_slug: michelle-wong
+  credential: Cosmetic chemist, PhD
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=31ENG-PKqlM
+  posted: '2026-08-30'
+  related: [sun-damage-photoaging]
+  thesis: Cosmetic chemist Michelle Wong, PhD, explains how Australia's 2022 "testimonial ban" on therapeutic goods, meant to stop influencers from making misleading health claims, has backfired for sunscreen reviews. Because creators can no longer describe their own experience, they instead repeat brand marketing claims, so genuinely negative but useful feedback (like stinging or white cast) disappears from reviews even though sunscreen use is low-risk and its benefits (a one-third drop in melanoma with daily use) are well established. Drawing on her survey of 2,008 people, interviews with other creators, and a report co-authored with health-messaging researcher Dr. Vanessa Bowden, she argues the ban makes Australian sunscreen reviews more biased, not less, and makes it harder to counter sunscreen misinformation.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 name: Sunscreen (UV filters)
 slug: sunscreen-uv-filters
 status: published
