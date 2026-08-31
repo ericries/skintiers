@@ -3,6 +3,10 @@ analyzed: '2026-08-30'
 assurance: opus
 brand: EltaMD
 category: Sunscreens
+images:
+- file: eltamd-uv-elements-tinted-mineral-sunscreen-spf-44-wayback.jpg
+  source: EltaMD (Wayback Machine archive)
+  source_url: https://web.archive.org/web/20250319014314/https://eltamd.com/cdn/shop/products/B079YXK3L8_UVElements_Hero_540x.jpg?v=1675795819
 comparator: other tinted mineral facial sunscreens, and EltaMD's own chemical-mineral
   hybrid tinted sunscreens like [[eltamd-uv-daily-tinted-broad-spectrum-spf-40]]
 grades:

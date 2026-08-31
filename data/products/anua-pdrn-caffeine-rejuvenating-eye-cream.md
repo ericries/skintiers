@@ -3,6 +3,10 @@ analyzed: '2026-08-30'
 assurance: opus
 brand: Anua
 category: Moisturizers
+images:
+- file: anua-pdrn-caffeine-rejuvenating-eye-cream-incidecoder.jpg
+  source: incidecoder
+  source_url: https://incidecoder.com/products/anua-pdrn-caffeine-rejuvenating-eye-cream
 comparator: other PDRN and caffeine eye-area products, such as [[medicube-pdrn-pink-collagen-exosome-shot-serum]]
   and [[the-ordinary-caffeine-solution-5-egcg]]
 grades:

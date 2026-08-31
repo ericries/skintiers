@@ -3,6 +3,7 @@ analyzed: '2026-08-30'
 assurance: opus
 brand: Novartis
 category: Treatments
+image_unresolvable: 'Rx drug, no incidecoder listing; the sole DailyMed listing (repackager Physicians Total Care) has only a barcode/lot-number label sheet, not a product photo; WebMD, CVS, Walgreens, and RxList pages carried no extractable real product image'
 comparator: milder and slower-acting than [[tacrolimus-topical]] ointment, the other
   topical calcineurin inhibitor
 grades:

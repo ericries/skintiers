@@ -3,6 +3,10 @@ analyzed: '2026-08-30'
 assurance: opus
 brand: DermaHarmony
 category: Cleansers
+images:
+- file: dermaharmony-2-pyrithione-zinc-bar-soap-dermaharmony.jpg
+  source: DermaHarmony
+  source_url: https://www.dermaharmony.com/products/2-zinc-pyrithione-znp-soap
 comparator: other [[zinc-pyrithione|pyrithione zinc]] wash-off antifungals for [[seborrheic-dermatitis]]
   and dandruff
 grades:

@@ -3,6 +3,10 @@ analyzed: '2026-08-30'
 assurance: opus
 brand: EltaMD
 category: Sunscreens
+images:
+- file: eltamd-uv-daily-tinted-broad-spectrum-spf-40-incidecoder.jpg
+  source: incidecoder
+  source_url: https://incidecoder.com/products/eltamd-uv-daily-tinted-broad-spectrum-spf-40
 comparator: other broad-spectrum tinted daily facial sunscreens, including mineral-only
   tinted options
 grades:
