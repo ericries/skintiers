@@ -13,7 +13,7 @@ tier_list:
     lesser extent red (PIE); true atrophic scars (icepick, rolling, boxcar) are treated
     with in-office procedures such as subcision, microneedling, lasers, and fillers,
     which sit outside this site's topical scope. The single best move for all of them
-    is preventing new scars by treating active [[acne]] early.
+    is preventing new scars by treating active acne early.
   items:
   - note: The best-evidenced topical here. Retinoids modestly improve the look of
       mild atrophic scarring and speed the fading of post-acne marks by driving cell

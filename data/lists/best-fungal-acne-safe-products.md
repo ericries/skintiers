@@ -5,7 +5,7 @@ name: Best Fungal-Acne (Malassezia) Safe Products by Evidence
 slug: best-fungal-acne-safe-products
 status: published
 tier_list:
-  by: whether a product actually kills or suppresses the Malassezia yeast behind [[fungal-acne]]
+  by: whether a product actually kills or suppresses the Malassezia yeast behind fungal acne
     (an antifungal active, evidenced strongest to weakest) versus merely not feeding
     it (a leave-on humectant with no added oils, fatty-acid esters, or polysorbates);
     the antifungals are ranked first because they are the only category with real

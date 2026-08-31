@@ -14,7 +14,7 @@ tier_list:
     with or without benzoyl peroxide and salicylic acid as an alternative, with wash-off
     benzoyl peroxide a practical way to cover a large area; moderate to severe or
     scarring truncal acne is an indication for oral therapy under a clinician, covered
-    on [[acne]].
+    on acne.
   items:
   - note: A fixed combination of the retinoid adapalene with benzoyl peroxide, FDA
       approved for acne vulgaris and the most complete single topical for inflammatory

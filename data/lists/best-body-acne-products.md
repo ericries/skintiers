@@ -7,8 +7,8 @@ slug: best-body-acne-products
 status: published
 tier_list:
   by: how well-evidenced each product's active is for acne, reusing the ingredient-
-    and condition-level rankings on [[body-acne]], [[acne]], [[adapalene]], [[benzoyl-peroxide]],
-    and [[salicylic-acid]] rather than a head-to-head trial of these finished formulas
+    and condition-level rankings on body acne, acne, adapalene, benzoyl peroxide,
+    and salicylic acid rather than a head-to-head trial of these finished formulas
   items:
   - epiduo-forte-adapalene-benzoyl-peroxide-gel
   - differin-gel-adapalene

@@ -9,7 +9,7 @@ tier_list:
   by: potency, not evidence; ranked from prescription-adjacent adapalene down through
     retinaldehyde, disclosed-percentage encapsulated retinols, and finally the gentlest
     low-dose formulas and retinyl-ester options, reusing the conversion ladder on
-    [[retinoids]]
+    retinoids
   items:
   - differin-gel-adapalene
   - la-roche-posay-effaclar-adapalene-gel-0-1

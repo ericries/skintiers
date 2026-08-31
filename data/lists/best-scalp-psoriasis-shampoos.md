@@ -6,7 +6,7 @@ slug: best-scalp-psoriasis-shampoos
 status: published
 tier_list:
   by: strength of the evidence for each shampoo's medicated active, reusing the ingredient-level
-    rankings on [[anti-dandruff-seborrheic-dermatitis-treatments-by-evidence]]; topical
+    rankings on anti dandruff seborrheic dermatitis treatments by evidence; topical
     antifungals (ketoconazole, ciclopirox, selenium sulfide) rank above pyrithione
     zinc, which ranks above coal tar
   items:

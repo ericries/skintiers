@@ -3,7 +3,7 @@ analyzed: '2026-08-30'
 assurance: opus
 brand: Murad
 category: Retinoids
-comparator: other [[retinaldehyde]] and [[retinoids]] options
+comparator: other retinaldehyde and retinoids options
 grades:
 - effect: modest
   evidence: preliminary
@@ -15,8 +15,7 @@ grades:
     FAQ answer), and its "clinically proven to dramatically lift + sculpt" claim is
     brand marketing copy with no published, controlled trial, sample size, or method
     disclosed'
-  use: For sagging, deep-set wrinkles, and reduced elasticity in [[anti-aging|photoaged
-    skin]] (cosmetic)
+  use: For sagging, deep-set wrinkles, and reduced elasticity in photoaged skin (cosmetic)
 key_actives:
 - retinaldehyde
 name: Murad Resurgence Retinal ReSculpt Overnight Treatment

@@ -6,7 +6,7 @@ slug: best-benzoyl-peroxide-products
 status: published
 tier_list:
   by: concentration, formulation (leave-on vs rinse-off), and how well tolerated each
-    product is likely to be, reusing the ingredient-level evidence on [[benzoyl-peroxide]]
+    product is likely to be, reusing the ingredient-level evidence on benzoyl peroxide
     rather than testing these finished formulas head to head
   items:
   - epiduo-adapalene-benzoyl-peroxide-gel
