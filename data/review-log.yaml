@@ -4146,6 +4146,15 @@ grubauer-1989-tewl-barrier-recovery-signal:
     '
   score: 10
   verdict: publish
+hair-loss-thinning:
+  last_reviewed: '2026-08-30'
+  note: 'NEW HUB (condition, edge of scope). Opus critic (93): honest EMPTY tier_list (no OTC product
+    qualifies, minoxidil has no page yet - named in prose without a fake slug). DermNet + minoxidil RCT
+    (PMID 12196747) verbatim. Honest: minoxidil is a medication needing indefinite use; biotin/"hair growth"
+    shampoos debunked; Rx+procedures out of scope; STRONG disclaimer (patterned/sudden loss needs a derm).
+    Links [[pcos]]/[[ketoconazole]]. No dashes. Opus critic inline (workflow pipeline); assurance opus.'
+  score: 9
+  verdict: publish
 haruharu-wonder-black-rice-hyaluronic-toner:
   last_reviewed: '2026-08-16'
   note: Drain wave 4. Replaced fabricated quote with accurate label-contradiction framing, INCI 27->28,
@@ -4236,6 +4245,15 @@ horimukai-2014-moisturizer-neonates-atopic-dermatitis-prevention:
 
     '
   score: 10
+  verdict: publish
+hormonal-acne:
+  last_reviewed: '2026-08-30'
+  note: 'NEW HUB (condition). Androgen-driven jawline/chin acne, adult women, [[pcos]]-linked. Opus critic
+    (93): all 4 slugs + DermNet/Cochrane/SAFA verbatim; REMOVED an unsupported "enlarged pores" claim
+    mis-attributed to DermNet. Honest: topicals treat the follicle not the androgen; hormone-balancing
+    topicals/DIM/seed-cycling debunked; persistent cases need a prescriber. Routes [[acne]]/[[pcos]].
+    Disclaimer. No dashes. Opus critic inline (workflow pipeline); assurance opus.'
+  score: 9
   verdict: publish
 houttuynia-cordata:
   last_reviewed: '2026-08-08'
@@ -7156,6 +7174,24 @@ piroctone-olamine:
     main-loop critic (subagent cap hit); assurance opus.'
   score: 9
   verdict: publish
+pityriasis-versicolor:
+  last_reviewed: '2026-08-30'
+  note: 'NEW HUB (condition). Malassezia trunk discoloration (lighter/darker patches). Opus critic (93):
+    all 5 antifungal slugs + DermNet/Gupta 2015 verbatim; FIXED a blocking error (ciclopirox mislabeled
+    as azole - it is a hydroxypyridone). Honest: clearing the yeast != color returning (takes months,
+    not failure); relapse up to 80%/2yr means maintenance. Routes [[fungal-acne]]/[[seborrheic-dermatitis]].
+    Disclaimer. No dashes. Opus critic inline (workflow pipeline); assurance opus.'
+  score: 9
+  verdict: publish
+poikiloderma-of-civatte:
+  last_reviewed: '2026-08-30'
+  note: 'NEW HUB (condition). Sun-induced red-brown neck/chest mottling sparing under-chin. Opus critic
+    (9): all 3 slugs + DermNet verbatim vs cache incl "disappointing"/"irreversible"; added differential-dx
+    disclaimer (lupus/dermatomyositis mimics). HONEST: no cream clears it, sunscreen only prevents worsening,
+    laser/IPL is the real out-of-scope treatment. Routes [[neck-chest-decolletage-care]]/[[hyperpigmentation]].
+    Main-loop: AI-ese reworded. No dashes. Opus critic inline (workflow pipeline); assurance opus.'
+  score: 9
+  verdict: publish
 polydeoxyribonucleotide-pdrn:
   last_reviewed: '2026-08-15'
   note: 'INGREDIENT cron (Sonnet draft). PDRN / "salmon DNA" - a heavily hyped ingredient. Dual rubric:
@@ -8761,6 +8797,15 @@ sulfur:
 
     '
   score: 10
+  verdict: publish
+sun-damage-photoaging:
+  last_reviewed: '2026-08-30'
+  note: 'NEW HUB (condition). Cumulative UV damage. Opus critic (9): all 5 slugs + Hughes 2013 sunscreen-aging
+    RCT (24% less aging, verbatim vs eutils PMID 23732711) + DermNet solar-elastosis/actinic-keratosis
+    verbatim vs cache. MEDICAL: actinic keratosis routed to derm. Honest: prevention>>repair, no topical
+    reverses solar elastosis. Overlaps [[anti-aging]] (linked out). Main-loop: Hughes URL. No dashes.
+    Opus critic inline (workflow pipeline); assurance opus.'
+  score: 9
   verdict: publish
 sunscreen-uv-filters:
   last_reviewed: '2026-07-28'

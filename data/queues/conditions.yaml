@@ -107,7 +107,7 @@
 - name: Sun damage & photoaging
   type: condition
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: 'discover_hubs: 2 mentions across the video archive; no condition hub yet'
 - name: Enlarged pores
@@ -119,13 +119,13 @@
 - name: Hormonal acne
   type: condition
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: 'discover_hubs: 2 mentions across the video archive; no condition hub yet'
 - name: Hair loss & thinning
   type: condition
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: 'discover_hubs: 2 mentions across the video archive; no condition hub yet'
 - name: Post-inflammatory erythema (PIE), red acne marks
@@ -137,13 +137,13 @@
 - name: Poikiloderma of Civatte (sun-induced neck and chest redness/pigment)
   type: condition
   priority: 5
-  status: pending
+  status: done
   discovered_from: neck-chest-decolletage-care
   source: https://pubmed.ncbi.nlm.nih.gov/34889036/
 - name: Pityriasis (tinea) versicolor (Malassezia discoloration)
   type: condition
   priority: 5
-  status: pending
+  status: done
   discovered_from: propylene-glycol
   source: https://pubmed.ncbi.nlm.nih.gov/8312142/
 - name: Vitiligo - autoimmune depigmentation; Opzelura (ruxolitinib) is FDA-approved for it; needs a hub
