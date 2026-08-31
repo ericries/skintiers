@@ -83,6 +83,16 @@ videos:
   related: [azelaic-acid, rosacea, acne]
   thesis: Board-certified dermatologist Dr. Dustin Portela breaks down why he considers azelaic acid one of the most versatile ingredients in his practice, using it to treat acne, rosacea, melasma, and post-inflammatory hyperpigmentation in the same patients. He walks through the four mechanisms behind the ingredient, including its antibacterial and anti-inflammatory effects, and explains why he considers it one of the few topical options he is comfortable recommending during pregnancy.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: 'WORMS? ON MY FACE??? #dermreacts  #skincare  #dermatologist #dermangelo'
+  creator: Dr. Angelo Landriscina (DermAngelo)
+  creator_slug: angelo-landriscina
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=2PcEEEkdGaU
+  posted: '2026-08-30'
+  related: [rosacea, soolantra-ivermectin-1-cream, ivermectin-topical]
+  thesis: Dr. Angelo Landriscina, a board-certified dermatologist, explains that the tiny creatures living in everyone's pores are not worms but Demodex folliculorum mites, which feed on dead skin cells and migrate across the skin at night. He notes they are normal residents of human skin, but they can cause problems such as blepharitis (eyelid inflammation), full-on Demodex folliculitis, and a role in rosacea, though the exact mechanism of that rosacea link is not fully clear. He adds that when Demodex mites do cause problems, effective treatments exist.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

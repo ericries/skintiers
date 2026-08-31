@@ -40,6 +40,18 @@ slug: tower-28-sos-daily-rescue-facial-spray
 status: published
 type: product
 updated: '2026-08-15'
+videos:
+- title: Dermatologist's Top Sephora Fall Sale Picks 2025 | Skincare, SPF, Makeup & Haircare Must-Haves
+  creator: Dr. Joyce Park (Tea with MD)
+  creator_slug: joyce-park
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=Max9p5NGANI
+  posted: '2025-10-31'
+  related: [hypochlorous-acid, ceramides, hyaluronic-acid, isdin-eryfotona-ageless-tinted-mineral-spf-50]
+  thesis: Dr. Joyce Park, a board-certified dermatologist, features the Tower 28 SOS Daily Rescue Facial Spray as one of her holy-grail picks in her Sephora fall sale roundup. She explains its hypochlorous acid is a purified, stabilized version of a molecule the body's own immune cells naturally produce to fight bacteria and calm irritation, distinct from the dilute bleach used in bleach baths for conditions like eczema. She discloses she sits on Tower 28's medical advisory board and recommends the spray for post-workout use and for reactive skin during acne or rosacea flares.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Tower 28's SOS Daily Rescue Facial Spray (also labeled "SOS Rescue Spray" or "SOS (Save. Our. Skin.)") is a three-ingredient hypochlorous acid (HOCl) toner spray, sold in a 120 mL / 4 fl oz Standard size for $28.00, alongside Jumbo and Travel sizes.[^1]

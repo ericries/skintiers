@@ -58,6 +58,27 @@ videos:
   related: [ascorbic-acid-vitamin-c]
   thesis: "Board-certified dermatologist Dr. Dustin Portela explains that L-ascorbic acid is the most researched and potent form of topical vitamin C but is unstable and can oxidize (turning a serum brown), while derivatives like magnesium ascorbyl phosphate, sodium ascorbyl phosphate, and ascorbyl glucoside are gentler, more stable options better suited to beginners. He advises applying vitamin C in the morning before sunscreen, avoiding layering it with AHA or BHA exfoliants, and says early glow shows up in 1 to 4 weeks, more visible brightening and fading of dark spots by 6 to 12 weeks, and the biggest improvements in firmness and pigmentation after 3 to 6 months of consistent use."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: '@Kindofstephen Instagram Live: April 15th, 2018'
+  creator: Stephen Alain Ko (KindofStephen)
+  creator_slug: stephen-alain-ko
+  credential: Skincare educator
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=NqsvS-xm05k
+  posted: '2018-04-28'
+  related: [salicylic-acid]
+  thesis: In this 2018 Instagram Live Q&A, cosmetic chemist Stephen Alain Ko (KindofStephen) answers viewer skincare questions on the fly. On vitamin C, he explains that ascorbic acid is unstable in water and discusses his own formulation testing to stabilize it, then addresses a viewer question by noting that studies show it reduces erythema and hyperpigmentation and can increase collagen production in already photo-damaged skin, that once-daily morning use under sunscreen is reasonable for high-strength formulas, and that a "reservoir effect" means skin levels stay elevated even if you skip a day or two. He also fields a question on salicylic acid in cleansers, explaining that it is only slightly water-soluble (not oil-loving in the way people assume), that cleanser contact time still helps via physical rubbing, and that a study found it worked as well as glycolic acid for clearing closed comedones. He additionally cautions that SLS/SLES harshness depends on the full formulation, not the
+    ingredient alone, and that an ingredient list can't reveal concentrations or a compound's actual function in a given product.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: '@Kindofstephen Instagram Live: March 30th, 2018'
+  creator: Stephen Alain Ko (KindofStephen)
+  creator_slug: stephen-alain-ko
+  credential: Skincare educator
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=0nbbOyUdTzA
+  posted: '2018-04-01'
+  related: [acne, avobenzone, tretinoin, retinoids, azelaic-acid, rosacea]
+  thesis: In this nearly two hour Instagram Live Q&A, skincare educator and formulator Stephen Alain Ko (KindofStephen) answers viewer questions across a wide range of skincare topics. On sunscreen, he explains why "next-gen" UV filters like Tinosorb are approved in Europe and Asia but not routinely in the US and Canada due to regulatory differences, and cites a Johnson & Johnson presentation at the American Academy of Dermatology describing a 21.6% zinc oxide mineral sunscreen with a UVA protection factor around 31 to 32, notably higher than the 15 to 22 typical of mineral sunscreens. He also breaks down the difference between sodium hyaluronate and hydrolyzed hyaluronic acid by molecular weight, discusses vitamin C derivatives versus L-ascorbic acid as the still-unbeaten gold standard, and weighs in on benzoyl peroxide's efficacy and oxidative tradeoffs for acne, an LED mask study he criticizes for lacking a control group, and niacinamide combined with tretinoin for acne and hyperpigmentation.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

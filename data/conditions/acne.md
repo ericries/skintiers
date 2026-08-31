@@ -336,6 +336,27 @@ videos:
     for standard treatment.
   title: Top 5 Dermatologist-Approved Natural Acne Remedies
   url: https://www.youtube.com/watch?v=1BaBKjrpyT0
+- title: Can Eating More Fiber Improve Your Skin? | Dermatologist Explains
+  creator: Andrea Suarez (Dr Dray)
+  creator_slug: andrea-suarez-dr-dray
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=FzrowYqQnnE
+  posted: '2026-08-27'
+  related: []
+  thesis: 'Board-certified dermatologist Dr. Andrea Suarez (Dr Dray) explains the gut-skin axis: dietary fiber that reaches the colon is fermented by gut bacteria into short-chain fatty acids (like butyrate), which can reduce inflammatory mediators such as IL-6 and TNF-alpha and support the skin barrier. She reviews evidence for fiber and inflammatory skin conditions including atopic dermatitis and psoriasis, noting most of this comes from observational and animal studies rather than large human trials, so fiber should not replace prescribed treatment. For acne, she highlights fiber''s role in lowering the glycemic load of the diet, which is linked to less insulin-driven breakout activity, and she gives practical guidance on safely increasing fiber intake (start slow with lentils, prioritize whole foods over fiber-fortified processed foods, and drink enough water to avoid GI discomfort).'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Is the future of treating ACNE with a NEEDLE? Derm explains the ACNE VACCINE
+  creator: Dr. Scott Walter
+  creator_slug: scott-walter
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=-ym1b77ZJFM
+  posted: '2024-09-05'
+  related: [benzoyl-peroxide]
+  thesis: Dr. Scott Walter, a board-certified dermatologist, describes two experimental acne treatments in development that would not require daily topicals or pills. The first is an mRNA vaccine targeting the P. acnes bacterium implicated in acne pathogenesis, which has completed phase one trials with results pending. The second is a once-weekly face mask made from the freshwater sponge Spongilla lacustris, which has shown significant acne improvement with few side effects in phase two trials. He frames both as promising options for patients who struggle with daily treatment compliance, though neither is yet available.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Acne vulgaris is the most common skin condition treated by dermatologists, driven by a mix of follicular hyperkeratinization, sebum, *Cutibacterium acnes*, and inflammation. Graded skeptically against controlled evidence for **topical skincare**, the best-studied over-the-counter and prescription topicals produce **modest** lesion reductions, the gap between the "best" and "second-best" topical is often smaller than the marketing implies, and the single largest evidence base for these treatments is rated moderate to very low certainty.[^1][^2]

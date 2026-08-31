@@ -18,6 +18,17 @@ videos:
   thesis: "Board-certified dermatologist Dr. Dustin Portela makes the case for mandelic acid as a gentler alternative for people who find glycolic acid too irritating, explaining that its larger molecule size slows how deeply it penetrates the skin. He compares specific over the counter mandelic acid products at low, mid, and premium price points and walks through how to introduce the acid into a routine that already includes retinol or other actives without overwhelming the skin barrier."
   related: ["glycolic-acid", "salicylic-acid", "hyperpigmentation", "acne"]
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: idk how to feel about this routine ... (Reacting To Sienna Spiro)
+  creator: Hyram Yarbro (Skincare by Hyram)
+  creator_slug: hyram
+  credential: Skincare educator (not a dermatologist or cosmetic chemist)
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=f4LcP_MZ0o4
+  posted: '2026-08-16'
+  related: [niacinamide]
+  thesis: Hyram, a skincare educator, reacts to singer Sienna Spiro's skincare routine and flags that her Sofie Pavitz Mandelic Clearing Serum (8% mandelic acid) is being used in what looks like a daytime routine, explaining that exfoliating acids perform best and are safest used at night rather than during the day so skin is not left more sun-sensitive. He also praises a niacinamide facial spray in her routine as a well-formulated, minimal-irritant product, and separately warns that a $79 squalane serum with no listed preservative may not be shelf-stable. He concludes the routine is formulated reasonably but very expensive relative to comparable options.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Mandelic acid is an alpha-hydroxy acid (AHA) with a larger molecule than glycolic acid, which places it on the slower-penetrating, gentler side of the exfoliating-acid strength axis alongside [[lactic-acid]]; see [[exfoliating-acids-by-strength]] for how it lines up against the rest of the family. Its clinical evidence is thinner than glycolic or lactic acid's: almost every controlled trial is a small in-office peel study, most from Indian dermatology departments, testing [[acne]] or [[hyperpigmentation]] rather than daily leave-on use.

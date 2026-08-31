@@ -172,6 +172,17 @@ videos:
     foundation.
   title: The Longevity Serums Worth Buying (And The Scams)
   url: https://www.youtube.com/watch?v=jMC07PlUMSk
+- title: Don’t Believe the Noise About Facelifts Replacing Filler  -  Here’s What Your Face Actually Needs
+  creator: Dr. Shereene Idriss
+  creator_slug: shereene-idriss
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=LcmzsfvjWVY
+  posted: '2026-08-15'
+  related: [retinoids]
+  thesis: 'Board-certified dermatologist Dr. Shereene Idriss explains that facial aging involves three separate layers, bone structure, fat/collagen volume, and skin, and that a facelift only addresses the skin layer by removing excess skin and repositioning fat, not restoring lost bone or volume. She cites a 30-year study finding deep-plane facelifts last an average of 10.9 years, and argues most people chasing surgery too early (in their 30s) are being sold fear by social media. She lays out a decade-by-decade plan: focus on skin care, retinoids, and sun protection in your 30s, conservative in-office collagen-stimulating and filler treatments in your 40s, and only consider surgery once skin laxity itself, not bone or fat loss, is the main problem.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 "Anti-aging" is a marketing umbrella, not a single outcome. Skin aging is several distinct changes at once: collagen and elastin breaking down (wrinkles, loss of firmness and elasticity) and pigment and tone shifting, driven largely by cumulative sun exposure. This page is health-first: it ranks interventions by how much they protect and rebuild skin structure in actual studies, not by how heavily they are sold or how much they smooth appearance in the short term. It is organized in tiers from highest to lowest demonstrated impact, and it links each topical to its own profile. Around menopause a faster, hormonally-driven loss stacks on top of this sun-driven aging; that component has its own large lever and is covered on [[anti-aging-perimenopause]].

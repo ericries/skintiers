@@ -128,6 +128,26 @@ videos:
   related: [hyperpigmentation, melasma]
   thesis: Board-certified dermatologist Dr. Davin Lim explains azelaic acid, a naturally occurring acid, and how useful it is for pigmentary conditions such as melasma and post-inflammatory hyperpigmentation. He covers what it is, the concentrations used, the side effects, and how effective it actually is for pigment.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Dermatologist Answers Your Skincare Questions | AmLactin, Fraxel, Sunscreen & KP
+  creator: Andrea Suarez (Dr Dray)
+  creator_slug: andrea-suarez-dr-dray
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=YIQdXvlvmgA
+  posted: '2026-08-29'
+  related: [hydroquinone]
+  thesis: 'Board-certified dermatologist Dr. Andrea Suarez (Dr Dray) explains why she recommends 12%+ ammonium lactate (AmLactin) over at-home glycolic acid for dermal thickening: she cites two clinical studies showing 12% lactic acid produced both epidermal and dermal thickening (versus epidermal-only at 5%), and a second study where 12% ammonium lactate offset dermal atrophy caused by the potent steroid clobetasol. She notes in-office glycolic acid peels are actually superior for dermal effects, but at-home glycolic acid strengths are too heterogeneous and generally too weak to reliably reach the dermis the way 12% ammonium lactate does. In shorter Q&A segments she also covers Fraxel versus Laser Genesis laser risks, sunscreen application on sweaty/wet skin, and using urea and azelaic acid for keratosis pilaris.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: The Azelaic Acid Fight, Settled (and What It Changes About Your Tretinoin) | Dr. Shereene Idriss
+  creator: Dr. Shereene Idriss
+  creator_slug: shereene-idriss
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=7GnI-zU5B_Y
+  posted: '2026-08-29'
+  related: [tretinoin, the-ordinary-azelaic-acid-suspension-10, the-ordinary-azelaic-acid-suspension-10]
+  thesis: 'Dr. Shereene Idriss, a board-certified dermatologist, breaks down the summer''s internet controversy over azelaic acid by explaining there are three forms sold under that name: the original free/suspended form (like The Ordinary''s), a pH-raised ionized form that dissolves for a more elegant texture, and potassium azeloyl diglycinate, a derivative that isn''t azelaic acid at all despite sometimes being mislabeled as a percentage of it. She argues the ionized form still works based on a 2012 formulation study, so the real controversy should have centered on brands mislabeling the derivative as azelaic acid, not on ionization reducing efficacy. She also covers common tolerability complaints (itch, "barrier damage," purging, and inconsistent generic prescriptions) and gives a practical schedule for layering azelaic acid with tretinoin or retinol, including applying free-form azelaic acid on damp skin before the retinoid.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

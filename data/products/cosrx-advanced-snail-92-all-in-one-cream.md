@@ -50,6 +50,18 @@ slug: cosrx-advanced-snail-92-all-in-one-cream
 status: published
 type: product
 updated: '2026-08-23'
+videos:
+- title: Script Replatforming, Sympathy For Beauty Addicts & Worst TikTok Skincare Trends
+  creator: Dr. Muneeb Shah (DermDoctor)
+  creator_slug: muneeb-shah
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=X4BFWm03WdM
+  posted: '2024-10-29'
+  related: [skin-barrier-repair]
+  thesis: In this Doctorly Unhinged podcast episode, board-certified dermatologist Dr. Muneeb Shah names COSRX's Advanced Snail 92 All-In-One Cream as his current favorite moisturizer, calling it an underrated lightweight gel-cream and distinguishing it from the brand's more popular Advanced Snail 96 Mucin Power Essence, which he says functions more like a hydrating hyaluronic-acid serum rather than a true moisturizer. He specifically says the All-In-One Cream is a "hero" for an irritated or damaged skin barrier, such as from retinoid dermatitis. He and co-host Dr. Sam Maxfield then react to a Huffington Post roundup of TikTok skincare trends, rejecting DIY at-home Botox/filler injections, BB glow microneedling with foundation pigment, and daily antibacterial soap as a facial cleanser as unsafe or unnecessary, while saying a deliberate "morning shed" routine and occasional ice rolling are not harmful when done thoughtfully.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 COSRX Advanced Snail 92 All-in-One Cream is a South Korean leave-on gel-cream whose ingredient list opens with snail secretion filtrate, which COSRX states makes up 92 percent of the formula, sold in 50g and 100g sizes (a 200g size is discontinued).[^1]

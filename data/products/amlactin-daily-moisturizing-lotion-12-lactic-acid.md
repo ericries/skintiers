@@ -48,6 +48,18 @@ slug: amlactin-daily-moisturizing-lotion-12-lactic-acid
 status: published
 type: product
 updated: '2026-08-16'
+videos:
+- title: Dermatologist Answers Your Skincare Questions | AmLactin, Fraxel, Sunscreen & KP
+  creator: Andrea Suarez (Dr Dray)
+  creator_slug: andrea-suarez-dr-dray
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=YIQdXvlvmgA
+  posted: '2026-08-29'
+  related: [hydroquinone]
+  thesis: 'Board-certified dermatologist Dr. Andrea Suarez (Dr Dray) explains why she recommends 12%+ ammonium lactate (AmLactin) over at-home glycolic acid for dermal thickening: she cites two clinical studies showing 12% lactic acid produced both epidermal and dermal thickening (versus epidermal-only at 5%), and a second study where 12% ammonium lactate offset dermal atrophy caused by the potent steroid clobetasol. She notes in-office glycolic acid peels are actually superior for dermal effects, but at-home glycolic acid strengths are too heterogeneous and generally too weak to reliably reach the dermis the way 12% ammonium lactate does. In shorter Q&A segments she also covers Fraxel versus Laser Genesis laser risks, sunscreen application on sweaty/wet skin, and using urea and azelaic acid for keratosis pilaris.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 AmLactin's flagship 12% lactic acid body lotion, long sold as "AmLactin Daily Moisturizing Lotion," is now listed on the brand's own site as "Daily Nourish Lotion with 12% Lactic Acid," the same sizes (7.9, 14.1, and 20 oz) and the same core active, ammonium lactate, the salt form of lactic acid, at a declared 12%.[^1] AmLactin's own page notes it "recently upgraded" its formulations, so buyers may still encounter older packaging under the earlier name with the ingredient list on the physical box taking precedence.[^1]

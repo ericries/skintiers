@@ -6,6 +6,18 @@ slug: argireline-acetyl-hexapeptide-8
 status: published
 type: ingredient
 updated: '2026-08-08'
+videos:
+- title: '“Botox in a bottle” #dermreacts #skincare #dermatologist #dermangelo'
+  creator: Dr. Angelo Landriscina (DermAngelo)
+  creator_slug: angelo-landriscina
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=VfdJ15jN5cM
+  posted: '2026-08-30'
+  related: []
+  thesis: Board-certified dermatologist Dr. Angelo Landriscina (DermAngelo) reacts to a viral claim calling argireline "Botox in a bottle." He explains argireline is a peptide modeled after botulinum toxin's mechanism, but says its actual studied effects are things like increased hydration and skin elasticity, not muscle relaxation, since the peptide molecule cannot penetrate down to the muscle the way injected Botox does. He pushes back on the tightening sensation some claim comes from the peptide, suggesting it's more likely from the moisturizer applied after, and notes the "Botox in a bottle" framing is often used to drive affiliate sales.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Argireline is the trademarked name for acetyl hexapeptide-8 (Ac-EEMQRR-NH2), a synthetic six-amino-acid peptide added to leave-on serums and marketed as a needle-free "topical Botox" that relaxes expression lines. Its developers reported it interferes with the same nerve-signaling machinery botulinum toxin blocks, but an independent US government toxicology study found almost none of the peptide gets past the skin's outer layer, leaving that neuromuscular mechanism largely unconfirmed even as small trials report a modest reduction in surface wrinkle depth.

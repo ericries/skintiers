@@ -87,6 +87,27 @@ videos:
     options.
   title: 'Eczema Treatment: What''s New in 2026? | Dermatologist Explains'
   url: https://www.youtube.com/watch?v=E8jpYRmSd9k
+- title: Your Diet Could Be Making Your Skin Inflammation Worse
+  creator: Andrea Suarez (Dr Dray)
+  creator_slug: andrea-suarez-dr-dray
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=kwdfMqF6SSk
+  posted: '2026-08-25'
+  related: [psoriasis, rosacea, acne]
+  thesis: Board-certified dermatologist Dr. Andrea Suarez (Dr Dray) explains how diet can worsen chronic inflammatory skin conditions like eczema, psoriasis, and hidradenitis suppurativa, while stressing that diet changes rarely replace medical treatment. She highlights that high-sodium diets (mostly from ultra-processed foods, not table salt) accumulate in skin and activate IL-17 inflammatory pathways, citing a JAMA Dermatology study linking higher sodium excretion to increased eczema risk, flares, and severity. She also discusses small studies showing weight loss and Mediterranean-style eating patterns are associated with reduced hidradenitis suppurativa severity, and recommends a whole-food, vegetable- and legume-rich diet while cautioning that anecdotal "diet cured my disease" claims may reflect misdiagnosis rather than true cure.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Can Eating More Fiber Improve Your Skin? | Dermatologist Explains
+  creator: Andrea Suarez (Dr Dray)
+  creator_slug: andrea-suarez-dr-dray
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=FzrowYqQnnE
+  posted: '2026-08-27'
+  related: []
+  thesis: 'Board-certified dermatologist Dr. Andrea Suarez (Dr Dray) explains the gut-skin axis: dietary fiber that reaches the colon is fermented by gut bacteria into short-chain fatty acids (like butyrate), which can reduce inflammatory mediators such as IL-6 and TNF-alpha and support the skin barrier. She reviews evidence for fiber and inflammatory skin conditions including atopic dermatitis and psoriasis, noting most of this comes from observational and animal studies rather than large human trials, so fiber should not replace prescribed treatment. For acne, she highlights fiber''s role in lowering the glycemic load of the diet, which is linked to less insulin-driven breakout activity, and she gives practical guidance on safely increasing fiber intake (start slow with lentils, prioritize whole foods over fiber-fortified processed foods, and drink enough water to avoid GI discomfort).'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Atopic dermatitis, the form of eczema meant when people say "eczema" without qualification, is a chronic, intensely itchy inflammatory skin disease that relapses and remits over years and has no cure, where treatment "at best achieves symptom control rather than cure."[^nutten2015] The American Academy of Dermatology guideline describes it as "a chronic, pruritic inflammatory dermatosis that affects up to 25% of children and 2% to 3% of adults."[^eichenfield2014] Among **topical skincare** options for atopic dermatitis, the intervention with the strongest evidence is plain moisturizing, which reduces flares and the amount of prescription steroid needed rather than clearing the disease, and no moisturizer has been shown to beat another.[^cochrane2017]

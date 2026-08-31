@@ -28,6 +28,26 @@ videos:
   related: [skin-barrier-repair]
   thesis: Cosmetic chemists Victoria Fu and Gloria Lu of Chemist Confessions revisit ceramides to answer common listener questions, including whether ceramides are only worth using on a compromised or damaged skin barrier. They talk through what ceramides actually do for the skin barrier and how to think about which type or product is worth reaching for.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Dermatologist Blind Reacts to Hailey Bieber's Skincare Routine
+  creator: Dr. Joyce Park (Tea with MD)
+  creator_slug: joyce-park
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=jOTljTisVWE
+  posted: '2025-12-05'
+  related: [avobenzone]
+  thesis: Board-certified dermatologist Dr. Joyce Park (Tea with MD) reacts to a Vogue video of Hailey Bieber's morning routine, breaking down the ingredients in each Rhode product as Bieber applies them. She spends the most time on ectoin, calling it a "wonderful humectant" that helps skin hold onto water and repair the skin barrier, and notes it was popularized in Korean skincare years before showing up in US products like Rhode's Glazing Mist. She also explains that the routine's ceramide trio (ceramide MP, AP, EOP) helps hold skin cells together, and flags that Bieber's Isdin sunscreen uses Tinosorb S and avobenzone, filters offering broad photostable UV coverage that are common in Europe but not FDA-approved in the US.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: 'K-Beauty Obsessions: A Dermatologist''s Olive Young Haul (Part 1)'
+  creator: Dr. Joyce Park (Tea with MD)
+  creator_slug: joyce-park
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=r8LDQJad6k0
+  posted: '2026-01-17'
+  related: [skin-barrier-strengthening]
+  thesis: Board-certified dermatologist Dr. Joyce Park walks through Korean skincare and makeup she bought at Olive Young in Korea. On the skincare side she highlights barrier-repair creams built on ceramides, cholesterol, and fatty acids to cut transepidermal water loss, a squalane cream for lighter daytime hydration on combination/oily skin, panthenol for soothing, and a black rice ampule as a gentle chemical exfoliant for sensitive skin. She also explains PA ratings (UVA protection grading) on a Korean SPF 50 sunscreen, and, on a colostrum-containing pore-defense ampule, notes lab studies suggest growth factors and wound-healing benefits but says human clinical research is still limited.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

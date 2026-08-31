@@ -468,6 +468,16 @@ videos:
   related: [sun-damage-photoaging]
   thesis: Cosmetic chemist Michelle Wong, PhD, explains how Australia's 2022 "testimonial ban" on therapeutic goods, meant to stop influencers from making misleading health claims, has backfired for sunscreen reviews. Because creators can no longer describe their own experience, they instead repeat brand marketing claims, so genuinely negative but useful feedback (like stinging or white cast) disappears from reviews even though sunscreen use is low-risk and its benefits (a one-third drop in melanoma with daily use) are well established. Drawing on her survey of 2,008 people, interviews with other creators, and a report co-authored with health-messaging researcher Dr. Vanessa Bowden, she argues the ban makes Australian sunscreen reviews more biased, not less, and makes it harder to counter sunscreen misinformation.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: The Burning Truth | Cloudy with a Chance of Sunburn?
+  creator: Dr. Whitney Bowe
+  creator_slug: whitney-bowe
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=4wQjTg43myw
+  posted: '2026-06-10'
+  related: [sun-damage-photoaging, melasma, hyperpigmentation]
+  thesis: Board-certified dermatologist Dr. Whitney Bowe hosts this myth-busting explainer on UV exposure, joined by science educator Steve Spangler and other dermatologists. Using a home demonstration with UV-reactive beads, they show that clouds do not block UV rays (clouds are water droplets with gaps UV passes through, so sunburn is still possible on cloudy days), and that windows and umbrellas reduce but do not fully block UV. The video also debunks the idea that darker skin's melanin fully protects against UV damage, notes that snow can reflect 80 to 90 percent of UV back onto skin, and clarifies that a high UV index signals stronger radiation risk rather than better tanning conditions. The consistent takeaway is that daily sunscreen is needed regardless of clouds, shade, or skin tone.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 name: Sunscreen (UV filters)
 slug: sunscreen-uv-filters
 status: published

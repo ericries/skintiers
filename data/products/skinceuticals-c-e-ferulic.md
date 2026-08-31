@@ -56,6 +56,18 @@ key_actives:
 - ascorbic-acid-vitamin-c
 - tocopherol
 - ferulic-acid
+videos:
+- title: DERMATOLOGISTS MORNING SKINCARE ROUTINE | ultimate guide to glowy, healthy skin
+  creator: Dr Aamna Adel
+  creator_slug: aamna-adel
+  credential: Consultant dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=Grd7ZZHCXi8
+  posted: '2023-09-24'
+  related: [vitamin-c, ceramides, hyaluronic-acid, peptides, bioderma-sensibio-h2o-micellar-water]
+  thesis: Consultant dermatologist Dr Aamna Adel walks through her personal morning skincare routine, explaining her reasoning at each step. She often skips morning cleansing (relying on a splash of water or a micellar water) because her eczema-prone skin dries out easily, then applies SkinCeuticals C E Ferulic vitamin C serum, noting it pairs vitamin C with vitamin E for antioxidant protection and to help stimulate collagen, and stressing it should go on dry, not damp, skin since vitamin C can be irritating. She layers hydrating hyaluronic acid toner and a ceramide-capsule moisturizer to support the skin barrier, extends her routine to the neck, and finishes with a generous two-finger-length application of sunscreen, explaining that thicker or irritating actives like retinoids and vitamin C should not be applied to damp skin while gentler hydrating products absorb better on damp skin.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 SkinCeuticals C E Ferulic is a leave-on morning vitamin C serum, a fixed blend of 15% L-ascorbic acid (pure vitamin C), 1% alpha-tocopherol (vitamin E), and 0.5% ferulic acid in a low-pH base.[^1]

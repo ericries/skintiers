@@ -21,6 +21,19 @@ tier_list:
   title: Korean sunscreens by evidence
 type: list
 updated: '2026-08-30'
+videos:
+- title: '#188) Let''s talk Kbeauty with Charlotte Cho! | Chemist Confessions Podcasts @sokoglam'
+  creator: Chemist Confessions (Victoria Fu and Gloria Lu)
+  creator_slug: victoria-fu
+  credential: Cosmetic chemists
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=SysrE5ChRJg
+  posted: '2026-08-26'
+  related: []
+  thesis: 'Cosmetic chemists Victoria Fu and Gloria Lu of Chemist Confessions interview Charlotte Cho, founder of Soko Glam and the K-beauty brand Then I Met You, about the state of Korean skincare. Cho explains that toner and essence are largely interchangeable, brand-defined category names, that snail mucin has endured as an ingredient because it hydrates without heaviness (not just because of TikTok trends), and that recent US sunscreen filter crackdowns forced Korean brands to reformulate hero sunscreens while still performing well. In a rapid-fire "worth the hype" segment, the hosts and Cho give informal verdicts on several trending ingredients: exosomes (not yet, evidence still pending), PDRN (potentially yes but highly dependent on brand and sourcing, since claims of "PDRN" vary widely in quality), NAD+ (unproven, not yet in her routine), topical glutathione (yes, though injectable/ingestible glutathione is viewed skeptically), and Volufiline (skeptical of viral filler-like marketing
+    claims but reporting personal results using it in a snail-mucin/Volufiline/azelaic eye cream over a 12-week testing period).'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Korean sunscreens are popular for a real reason: many use modern UVA filters, like Tinosorb M, Uvinul A Plus, and Mexoryl, that are not in the current US OTC sunscreen monograph (bemotrizinol, Tinosorb S, was added only in June 2026), and the textures tend to be lighter than US chemical or mineral formulas. The honest caveat applies to every product on this list: SPF and PA ratings here are set by Korea's MFDS testing standard, not the FDA's, so the labeled number is a regulatory claim from a different testing system, not an FDA-verified one. The category case for broad-spectrum protection itself, and how PA and the various filters compare, is on [[sunscreen-uv-filters]].

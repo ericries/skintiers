@@ -204,6 +204,26 @@ videos:
   related: [houttuynia-cordata, beta-glucan, centella-asiatica]
   thesis: Board-certified dermatologist Dr. Dustin Portela explains how to repair a compromised skin barrier and warns that over-exfoliating is a common cause of the damage he sees in clinic, using a brick-wall analogy in which skin cells are the bricks and the lipids between them are the mortar. He walks through three trending barrier-support ingredients, heartleaf (Houttuynia cordata), beta-glucan, and ectoin, comparing them to the better-known centella (cica) and noting each calms and reinforces the barrier a different way. His core advice is to strip a damaged routine back to gentle repair rather than piling on more active ingredients.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: 'K-Beauty Obsessions: A Dermatologist''s Olive Young Haul (Part 1)'
+  creator: Dr. Joyce Park (Tea with MD)
+  creator_slug: joyce-park
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=r8LDQJad6k0
+  posted: '2026-01-17'
+  related: [skin-barrier-strengthening]
+  thesis: Board-certified dermatologist Dr. Joyce Park walks through Korean skincare and makeup she bought at Olive Young in Korea. On the skincare side she highlights barrier-repair creams built on ceramides, cholesterol, and fatty acids to cut transepidermal water loss, a squalane cream for lighter daytime hydration on combination/oily skin, panthenol for soothing, and a black rice ampule as a gentle chemical exfoliant for sensitive skin. She also explains PA ratings (UVA protection grading) on a Korean SPF 50 sunscreen, and, on a colostrum-containing pore-defense ampule, notes lab studies suggest growth factors and wound-healing benefits but says human clinical research is still limited.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Dr. Whitney Bowe on Good Morning America - Exposing Common Causes of Skin Inflammation
+  creator: Dr. Whitney Bowe
+  creator_slug: whitney-bowe
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=HrLdcki4LpY
+  posted: '2025-07-14'
+  related: [retinoids, sensitive-skin]
+  thesis: Board-certified dermatologist Dr. Whitney Bowe joins Good Morning America to explain that skin inflammation happens when immune cells release chemicals that increase blood flow and trigger cellular repair, causing redness, swelling, and discoloration. She notes that active ingredients like retinoids can trigger this inflammation if introduced too fast, which is why she developed her skin cycling method of slowly phasing in actives. She also explains phytophotodermatitis, nicknamed "margarita burn," where citrus, celery, or parsley juice on the skin combined with sun exposure causes burns or lingering post-inflammatory hyperpigmentation, and recommends rinsing exposed skin and applying sunscreen. Her overall advice for inflamed, barrier-damaged skin is to simplify to a gentle cleanser, moisturizer, and sunscreen, optionally layering in a soothing serum formulated for sensitive or post-procedure skin.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

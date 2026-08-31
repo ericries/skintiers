@@ -28,6 +28,26 @@ videos:
   related: [acne]
   thesis: Board-certified dermatologist Dr. Dustin Portela addresses headlines claiming that CeraVe and other benzoyl peroxide acne products cause cancer because benzoyl peroxide can degrade into benzene, a known carcinogen. He explains that the alarming numbers came from an independent lab's thermal-degradation study that heated the products to extreme temperatures, and relays the point that people do not store acne products in a hot car for weeks on end, so the headline figures do not reflect normal use. He urges perspective rather than panic over the benzene headlines.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Plans For Season Three, Loreal Class-Action Lawsuit Over Benzene & Jeuveau Targeting Millennials [Doctorly Unhinged ]
+  creator: Dr. Muneeb Shah (DermDoctor)
+  creator_slug: muneeb-shah
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=4nCA02zc1sI
+  posted: '2025-02-11'
+  related: [acne]
+  thesis: Board-certified dermatologists Dr. Muneeb Shah and Dr. Andrea Suarez (Doctorly Unhinged podcast) discuss the class-action lawsuit filed against L'Oreal brands over benzene contamination in benzoyl peroxide products, following lab testing by Valisure that found benzene forms as a breakdown product of benzoyl peroxide. They note that dermatology researcher John Barbieri has said no link between benzoyl peroxide and cancer has been established, that the FDA still lists benzoyl peroxide as generally recognized as safe and effective on the acne monograph, and that they personally remain in a "watch and wait" stance rather than telling patients to stop using it. They also cover neuromodulator brand Jeuveau's new $49/month subscription program (Club Evolus) offering injections every 90 days, discussing the business rationale and their concerns about reduced provider autonomy and whether a fixed 20-unit, 90-day schedule fits every patient.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: '@Kindofstephen Instagram Live: March 30th, 2018'
+  creator: Stephen Alain Ko (KindofStephen)
+  creator_slug: stephen-alain-ko
+  credential: Skincare educator
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=0nbbOyUdTzA
+  posted: '2018-04-01'
+  related: [acne, avobenzone, tretinoin, retinoids, azelaic-acid, rosacea]
+  thesis: In this nearly two hour Instagram Live Q&A, skincare educator and formulator Stephen Alain Ko (KindofStephen) answers viewer questions across a wide range of skincare topics. On sunscreen, he explains why "next-gen" UV filters like Tinosorb are approved in Europe and Asia but not routinely in the US and Canada due to regulatory differences, and cites a Johnson & Johnson presentation at the American Academy of Dermatology describing a 21.6% zinc oxide mineral sunscreen with a UVA protection factor around 31 to 32, notably higher than the 15 to 22 typical of mineral sunscreens. He also breaks down the difference between sodium hyaluronate and hydrolyzed hyaluronic acid by molecular weight, discusses vitamin C derivatives versus L-ascorbic acid as the still-unbeaten gold standard, and weighs in on benzoyl peroxide's efficacy and oxidative tradeoffs for acne, an LED mask study he criticizes for lacking a control group, and niacinamide combined with tretinoin for acne and hyperpigmentation.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

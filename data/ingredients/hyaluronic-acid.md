@@ -27,6 +27,26 @@ videos:
   related: [glass-skin]
   thesis: "Consultant dermatologist Dr Aamna Adel reviews the viral Korean overnight hydrogel collagen mask, explaining that its collagen molecule is too large to be absorbed into skin and will not stimulate the body's own collagen production, contrary to brand claims about pores and elasticity. She notes the mask's real benefit is hydration from its low molecular weight collagen and hyaluronic acid content, and advises against it for active acne or very sensitive skin due to the irritation risk from prolonged occlusion."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: What the heck is Thermal Water?
+  creator: Dr. Adeline Kikam (Brown Skin Derm)
+  creator_slug: adeline-kikam
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=b75zNhCzlTA
+  posted: '2023-02-18'
+  related: [avene, la-roche-posay]
+  thesis: Dr. Adeline Kikam, a board-certified dermatologist, explains that thermal spring water is mineral-rich spring water (containing trace elements like selenium) that has anti-inflammatory, soothing, and pH-balancing effects, making it useful for sensitive, dry, or barrier-compromised skin. She describes misting it on damp skin before applying hyaluronic acid, explaining that hyaluronic acid should never be applied to truly dry skin because it will pull moisture from deeper skin layers instead of the air, which can worsen dryness. She also uses it to keep skin misted during flights and before moisturizing after a shower, citing Avène and La Roche-Posay as the thermal water brands she personally relies on.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: '@Kindofstephen Instagram Live: March 30th, 2018'
+  creator: Stephen Alain Ko (KindofStephen)
+  creator_slug: stephen-alain-ko
+  credential: Skincare educator
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=0nbbOyUdTzA
+  posted: '2018-04-01'
+  related: [acne, avobenzone, tretinoin, retinoids, azelaic-acid, rosacea]
+  thesis: In this nearly two hour Instagram Live Q&A, skincare educator and formulator Stephen Alain Ko (KindofStephen) answers viewer questions across a wide range of skincare topics. On sunscreen, he explains why "next-gen" UV filters like Tinosorb are approved in Europe and Asia but not routinely in the US and Canada due to regulatory differences, and cites a Johnson & Johnson presentation at the American Academy of Dermatology describing a 21.6% zinc oxide mineral sunscreen with a UVA protection factor around 31 to 32, notably higher than the 15 to 22 typical of mineral sunscreens. He also breaks down the difference between sodium hyaluronate and hydrolyzed hyaluronic acid by molecular weight, discusses vitamin C derivatives versus L-ascorbic acid as the still-unbeaten gold standard, and weighs in on benzoyl peroxide's efficacy and oxidative tradeoffs for acne, an LED mask study he criticizes for lacking a control group, and niacinamide combined with tretinoin for acne and hyperpigmentation.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

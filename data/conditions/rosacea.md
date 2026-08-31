@@ -88,6 +88,16 @@ videos:
   related: [rosacea-erythematotelangiectatic, sunscreen-uv-filters]
   thesis: 'Board-certified dermatologist Andrea Suarez (Dr Dray) answers a viewer who quit drinking but still has persistent facial redness, using it to explain alcohol as a rosacea trigger. She describes how rosacea can progress from alcohol-triggered flushing to fixed facial redness that does not resolve on its own, and outlines what helps that fixed redness: light-based devices such as intense pulsed light or pulse dye laser, the topical vasoconstrictor brimonidine for temporary improvement, plus daily sunscreen and gentle moisturizers, since UV exposure and an impaired skin barrier worsen rosacea.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: 6 Skin, Hair & Nail Signs You Should NEVER Ignore (From a Dermatologist) | Dr. Shereene Idriss
+  creator: Dr. Shereene Idriss
+  creator_slug: shereene-idriss
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=yH5oGKMBAcQ
+  posted: '2026-08-08'
+  related: [hair-loss-thinning]
+  thesis: 'Board-certified dermatologist Dr. Shereene Idriss walks through six skin, hair, and nail changes that can signal an underlying systemic condition rather than a skincare problem: jawline acne paired with new coarse facial hair or scalp thinning that can point to PMOS/PCOS and elevated androgens; a sudden smooth round bald patch that may be alopecia areata; a butterfly-shaped facial rash that spares the nasolabial folds and worsens after sun exposure, which can indicate lupus rather than rosacea; yellow eyelid plaques (xanthelasma) that warrant a cholesterol check; horizontal grooves across multiple nails (Beau''s lines) reflecting a past physical stressor; and dark, velvety skin at the neck or underarms (acanthosis nigricans) as an early insulin-resistance warning sign. She stresses these are cues to see a doctor and get appropriate bloodwork rather than self-diagnose, and that topical skincare cannot fix the underlying hormonal, autoimmune, or metabolic causes.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

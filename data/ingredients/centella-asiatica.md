@@ -7,6 +7,18 @@ tier: weak
 status: published
 type: ingredient
 updated: '2026-07-28'
+videos:
+- title: 'Best Way to Reduce Scars #skincare #skintips and'
+  creator: Dr. Adeline Kikam (Brown Skin Derm)
+  creator_slug: adeline-kikam
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=wh_GATsmzUw
+  posted: '2026-05-06'
+  related: []
+  thesis: 'Dr. Adeline Kikam, a board-certified dermatologist (Brown Skin Derm), explains that plumping and hydrating the skin can improve the appearance of scars as well as fine lines and wrinkles. Reacting to a clip of someone using a Korean centella ampoule or capsule containing glycerin, tranexamic acid, and centella asiatica, she breaks down each ingredient''s role: centella supports the skin barrier, glycerin plumps and hydrates, and tranexamic acid helps even skin tone. She concludes that this overall improvement in skin texture and tone is what makes scars and fine lines look less noticeable, rather than any single ingredient erasing them directly.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Centella asiatica is a tropical medicinal herb whose active pentacyclic triterpenes (asiaticoside, madecassoside, asiatic acid, and madecassic acid) are used topically for wound healing and, in modern cosmetics, in the soothing creams often labelled "cica."[^bylka]

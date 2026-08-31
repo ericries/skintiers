@@ -7,6 +7,18 @@ tier: weak
 status: published
 type: ingredient
 updated: '2026-08-08'
+videos:
+- title: 'K-Beauty Obsessions: A Dermatologist''s Olive Young Haul (Part 1)'
+  creator: Dr. Joyce Park (Tea with MD)
+  creator_slug: joyce-park
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=r8LDQJad6k0
+  posted: '2026-01-17'
+  related: [skin-barrier-strengthening]
+  thesis: Board-certified dermatologist Dr. Joyce Park walks through Korean skincare and makeup she bought at Olive Young in Korea. On the skincare side she highlights barrier-repair creams built on ceramides, cholesterol, and fatty acids to cut transepidermal water loss, a squalane cream for lighter daytime hydration on combination/oily skin, panthenol for soothing, and a black rice ampule as a gentle chemical exfoliant for sensitive skin. She also explains PA ratings (UVA protection grading) on a Korean SPF 50 sunscreen, and, on a colostrum-containing pore-defense ampule, notes lab studies suggest growth factors and wound-healing benefits but says human clinical research is still limited.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Squalane is the fully saturated, hydrogenated form of squalene, a hydrocarbon that makes up about 13% of human sebum.[^kim] Because it is chemically identical in structure to a lipid the skin already produces, minus the carbon-carbon double bonds that squalene carries, it is used almost entirely as an emollient and occlusive moisturizing ingredient rather than a treatment active, and the Cosmetic Ingredient Review's Expert Panel has concluded that "Squalane and Squalene are safe as cosmetic ingredients in the practices of use and concentration as described in this report."[^cir]

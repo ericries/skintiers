@@ -29,6 +29,28 @@ tier_list:
   title: Over-the-counter psoriasis topicals by evidence
 type: condition
 updated: '2026-08-30'
+videos:
+- title: Can Eating More Fiber Improve Your Skin? | Dermatologist Explains
+  creator: Andrea Suarez (Dr Dray)
+  creator_slug: andrea-suarez-dr-dray
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=FzrowYqQnnE
+  posted: '2026-08-27'
+  related: []
+  thesis: 'Board-certified dermatologist Dr. Andrea Suarez (Dr Dray) explains the gut-skin axis: dietary fiber that reaches the colon is fermented by gut bacteria into short-chain fatty acids (like butyrate), which can reduce inflammatory mediators such as IL-6 and TNF-alpha and support the skin barrier. She reviews evidence for fiber and inflammatory skin conditions including atopic dermatitis and psoriasis, noting most of this comes from observational and animal studies rather than large human trials, so fiber should not replace prescribed treatment. For acne, she highlights fiber''s role in lowering the glycemic load of the diet, which is linked to less insulin-driven breakout activity, and she gives practical guidance on safely increasing fiber intake (start slow with lentils, prioritize whole foods over fiber-fortified processed foods, and drink enough water to avoid GI discomfort).'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Can Ozempic & Wegovy Improve Your Skin? Skin Benefits of GLP-1s
+  creator: Andrea Suarez (Dr Dray)
+  creator_slug: andrea-suarez-dr-dray
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=vESsyr2i6iA
+  posted: '2026-08-28'
+  related: []
+  thesis: Board-certified dermatologist Dr. Andrea Suarez (Dr Dray) explains emerging research on GLP-1 medications like semaglutide and tirzepatide as potential treatments for inflammatory skin diseases, particularly psoriasis. She cites the TOGETHER PSO phase 3b trial, where adding tirzepatide to guselkumab produced complete psoriasis clearance in 27.1% of patients versus 5.8% on guselkumab alone, with some patients clearing even without hitting weight-loss targets, suggesting a weight-independent anti-inflammatory effect. She also covers weaker retrospective evidence for hidradenitis suppurativa and psoriatic arthritis, and stresses these drugs are not a replacement for standard psoriasis treatment, carry real side effects (GI issues, nutritional deficiencies, a thyroid tumor black-box warning), and are best considered when a patient already has a metabolic indication like obesity.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Psoriasis is "a chronic autoimmune-mediated inflammatory skin disorder" driven by "increased keratinocyte proliferation, abnormalities in the immune system, and abnormalities in the epidermal barrier."[^intjpharm] It typically shows as well-defined plaques topped with silvery scale, and it is distinct from the [[seborrheic-dermatitis]] and [[atopic-dermatitis]] it is often confused with. It is a chronic, relapsing disease that is managed rather than cured, and moderate-to-severe cases belong with a dermatologist.

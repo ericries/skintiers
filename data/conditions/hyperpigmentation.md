@@ -440,6 +440,17 @@ videos:
     under a dermoscope.
   title: 'Freckles vs sun spots: what''s the difference?'
   url: https://www.tiktok.com/@dermydoctor/video/7677570515090918670
+- title: 7 Skin Signs That Could Reveal a Health Problem | Dermatologist Explains
+  creator: Andrea Suarez (Dr Dray)
+  creator_slug: andrea-suarez-dr-dray
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=QKDlc1r8fQk
+  posted: '2026-08-26'
+  related: []
+  thesis: Dr. Andrea Suarez (Dr Dray), a board-certified dermatologist, walks through seven skin, nail, and eye findings that can signal internal disease rather than being purely cosmetic. She explains that dark, velvety thickened patches on the neck, underarms, or hands (acanthosis nigricans) are a warning sign of insulin resistance, not dirt or hyperpigmentation, and that people often mistakenly try scrubbing or vitamin C serums on them. She also covers yellow eyelid bumps (xanthoma) as a clue to lipid problems, yellowing of the eyes as jaundice, clubbed fingertips as a sign of lung or heart disease, a purplish heliotrope rash with knuckle bumps as dermatomyositis, spoon-shaped nails (koilonychia) as a marker of iron deficiency, and unexplained full-body itching as a possible sign of blood, kidney, thyroid, or liver disease. She stresses these are clues, not diagnoses, and that any of them should be evaluated by a healthcare provider rather than self-treated.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Hyperpigmentation is a darkening of the skin caused by excess melanin, and its common facial forms are melasma, post-inflammatory hyperpigmentation, and pigmentation driven by sun exposure.[^handel][^davis] The color change is usually the only symptom, the skin stays flat and is neither itchy nor sore, and the same person can have more than one form at once. Among the topical options with controlled evidence, photoprotection is the foundation with the strongest support, the depigmenting creams are real but modest, and without ongoing sun protection the pigment tends to come back.[^liu][^castanedo][^delrosario]

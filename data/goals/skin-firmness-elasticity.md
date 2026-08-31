@@ -45,6 +45,26 @@ videos:
   related: [acne-scars, enlarged-pores]
   thesis: Dr. Sam Ellis, a board-certified dermatologist, gives a comprehensive guide to microneedling, a procedure that uses tiny needles to create micro-injuries that stimulate collagen and elastin production. She explains it helps fine lines, texture, and enlarged pores, is safe for all skin tones since it uses no heat, and should be avoided with active acne, open sores or active cold sores, flaring eczema or psoriasis, or true keloid scars. She contrasts heatless traditional microneedling with radiofrequency microneedling (which adds heat for a more robust but not skin-tightening effect, and works best on deeper skin tones with an experienced provider), notes that adding platelet-rich plasma has the clearest evidence for improving acne scar results specifically, and cautions that at-home microneedling is far more superficial and less predictable than in-office treatment.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: 'Microneedling: What Needle Size Is the Best?'
+  creator: Dr. Davin Lim
+  creator_slug: davin-lim
+  credential: Board-certified dermatologist (Australia)
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=_nwNcSF4Nfc
+  posted: '2025-05-10'
+  related: [acne-scars, enlarged-pores]
+  thesis: Dr. Davin Lim, a board-certified dermatologist, explains how microneedling (collagen induction therapy) works and which needle depth suits which goal. He says 0.25mm needles are for superficial use on delicate areas like around the eyes and mainly boost product absorption; 0.5mm needles, used every one to two weeks on the face and neck, penetrate deeper to stimulate collagen and help fine lines, mild acne scarring, and enlarged pores; and 1mm needles, used every four to six weeks, are more intensive and target pigmentation, larger pores, and superficial scarring. He also covers common side effects (redness, swelling, dryness, irritation), rarer risks (infection, scarring, pigment changes), and says microneedling may not suit active acne, rosacea, sensitive skin, eczema, or people prone to keloid scarring.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: The Biggest Beauty SCAMS & Fails of 2026...So Far
+  creator: James Welsh
+  creator_slug: james-welsh
+  credential: Skincare content creator (NOT a dermatologist or cosmetic chemist)
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=RQpqD2N5c1Y
+  posted: '2026-08-14'
+  related: [blackheads-clogged-pores, best-acne-spot-treatments]
+  thesis: James Welsh, a skincare content creator, reviews what he sees as the worst skincare marketing trends of 2026 so far. He argues TikTok Shop affiliate marketing (naming Dr. Medelin's peel gel, which he explains is a normal chemical exfoliant whose "gunk" is just product, not extracted pore debris) exaggerates ordinary formulas into miracle claims. He also examines moisturizing balm sticks (Medicube's PDRN/collagen/peptide balm) being falsely marketed as instant wrinkle-erasers when the visible change is just from moisturizing, and a plumping serum (from "Kills") whose real clinical data on cheek sagging in GLP-1 users he says is being overstated into an "Ozempic face" cure. He concludes that the underlying products are often fine, but affiliate-driven marketing has made reasonable skincare claims feel insufficient, pushing brands and creators toward misleading demonstrations.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

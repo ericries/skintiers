@@ -58,6 +58,27 @@ videos:
   related: []
   thesis: Board-certified dermatologist Dr Dray explains PDRN (polydeoxyribonucleotide), the trending ingredient that shows up on skincare labels as sodium DNA and is typically isolated from salmon or trout milt. Reviewing the Anua PDRN Caffeine Rejuvenating Eye Cream (about 20 dollars at Ulta) as her example, she is skeptical of the hype, noting that the buzz around injected PDRN does not automatically carry over to what a leave-on topical can deliver.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: '#188) Let''s talk Kbeauty with Charlotte Cho! | Chemist Confessions Podcasts @sokoglam'
+  creator: Chemist Confessions (Victoria Fu and Gloria Lu)
+  creator_slug: victoria-fu
+  credential: Cosmetic chemists
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=SysrE5ChRJg
+  posted: '2026-08-26'
+  related: []
+  thesis: 'Cosmetic chemists Victoria Fu and Gloria Lu of Chemist Confessions interview Charlotte Cho, founder of Soko Glam and the K-beauty brand Then I Met You, about the state of Korean skincare. Cho explains that toner and essence are largely interchangeable, brand-defined category names, that snail mucin has endured as an ingredient because it hydrates without heaviness (not just because of TikTok trends), and that recent US sunscreen filter crackdowns forced Korean brands to reformulate hero sunscreens while still performing well. In a rapid-fire "worth the hype" segment, the hosts and Cho give informal verdicts on several trending ingredients: exosomes (not yet, evidence still pending), PDRN (potentially yes but highly dependent on brand and sourcing, since claims of "PDRN" vary widely in quality), NAD+ (unproven, not yet in her routine), topical glutathione (yes, though injectable/ingestible glutathione is viewed skeptically), and Volufiline (skeptical of viral filler-like marketing
+    claims but reporting personal results using it in a snail-mucin/Volufiline/azelaic eye cream over a 12-week testing period).'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Does PDRN Really Do Anything?
+  creator: Hyram Yarbro (Skincare by Hyram)
+  creator_slug: hyram
+  credential: Skincare educator (not a dermatologist or cosmetic chemist)
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=wrmkqe2rK5g
+  posted: '2026-08-07'
+  related: []
+  thesis: Skincare educator Hyram traces PDRN (polydeoxyribonucleotide) from its 1980s Italian origin as a wound-healing extract to its rise as a Korean injectable skin booster, then explains that topical PDRN in skincare products has much less research behind it than injectable PDRN, with unclear skin absorption and no data comparable to well-studied actives like retinoids, vitamin C, or sunscreen. He concludes PDRN can be a worthwhile bonus ingredient in an otherwise well-formulated product, but there is not enough evidence to justify buying or adding a product specifically because it contains PDRN.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

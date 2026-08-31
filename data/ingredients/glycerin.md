@@ -7,6 +7,18 @@ slug: glycerin
 status: published
 type: ingredient
 updated: '2026-07-28'
+videos:
+- title: 'Best Way to Reduce Scars #skincare #skintips and'
+  creator: Dr. Adeline Kikam (Brown Skin Derm)
+  creator_slug: adeline-kikam
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=wh_GATsmzUw
+  posted: '2026-05-06'
+  related: []
+  thesis: 'Dr. Adeline Kikam, a board-certified dermatologist (Brown Skin Derm), explains that plumping and hydrating the skin can improve the appearance of scars as well as fine lines and wrinkles. Reacting to a clip of someone using a Korean centella ampoule or capsule containing glycerin, tranexamic acid, and centella asiatica, she breaks down each ingredient''s role: centella supports the skin barrier, glycerin plumps and hydrates, and tranexamic acid helps even skin tone. She concludes that this overall improvement in skin texture and tone is what makes scars and fine lines look less noticeable, rather than any single ingredient erasing them directly.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Glycerin (glycerol) is a small trihydroxy-alcohol humectant that has been added to skin preparations for more than two centuries, and at 20 to 45 percent it is a recognized over-the-counter skin protectant active ingredient under the US FDA monograph.[^cfr347][^hara]

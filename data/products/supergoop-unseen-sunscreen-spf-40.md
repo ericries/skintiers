@@ -32,6 +32,18 @@ slug: supergoop-unseen-sunscreen-spf-40
 status: published
 type: product
 updated: '2026-08-07'
+videos:
+- title: His skin care routine is... somethin else whew
+  creator: Hyram Yarbro (Skincare by Hyram)
+  creator_slug: hyram
+  credential: Skincare educator (not a dermatologist or cosmetic chemist)
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=O5YCzj2AD3c
+  posted: '2026-08-02'
+  related: []
+  thesis: Hyram (Skincare educator, not a dermatologist or chemist) reacts to Nick Jonas's celebrity skincare routine, critiquing each product's price versus formulation quality. On Nick Jonas's use of Supergoop Unseen Sunscreen, Hyram says he is not personally a fan because he finds some of the chemical filters in that formula potentially irritating and sensitizing, and he recommends lightweight Korean alternatives (Numbuzin Clear Filter SPF 50 or Hada Labo Wonder Black Rice SPF 50) instead, while acknowledging that the best sunscreen is whichever one a person will actually use consistently. He also flags that Nick Jonas's multi-blade razor and light shaving-cream lather could aggravate razor burn, recommending more lather and a single-blade razor for people prone to it, and concludes that while the overall routine's ingredients and formulation philosophy are sound, the price points are excessive.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Supergoop! Unseen Sunscreen SPF 40 is a clear, gel-like face sunscreen built entirely on organic (chemical) UV filters, formulated to leave no visible cast and to double as a makeup primer.[^1]

@@ -57,6 +57,16 @@ videos:
   related: [retinoids, tretinoin, hyperpigmentation]
   thesis: Board-certified dermatologist Dr. Davin Lim explains retinol, an over-the-counter vitamin A preparation he counts among his go-to anti-aging ingredients for wrinkles, photodamage, and pore appearance, and how it helps with pigmentation. He also contrasts it with prescription-strength tretinoin.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: What Those Lumps and Bumps on Your Skin Really Are (Doctor Explains)
+  creator: Dr. Dustin Portela
+  creator_slug: dustin-portela
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=_h6n6SAEl0I
+  posted: '2026-08-02'
+  related: [salicylic-acid, glycolic-acid, urea]
+  thesis: 'Dr. Dustin Portela, a board-certified dermatologist, explains seven common benign skin growths he sees daily in clinic: seborrheic keratoses, warts, sebaceous hyperplasia, skin tags, milia, cherry angiomas, and venous lakes. He covers why each forms and how it is treated, and stresses that none of them are cancerous or turn into cancer. On milia specifically, he explains they are fully enclosed under the skin (unlike whiteheads, which connect to a follicle with a natural opening), so they cannot be popped at home; he removes them in-office with a needle or 11-blade and recommends a topical retinol to help prevent new ones from forming, since occlusive products like slugging without proper cleansing can also make people more prone to them.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

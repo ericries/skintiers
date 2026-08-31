@@ -19,6 +19,18 @@ tier_list:
   title: Drugstore and budget dupes by evidence
 type: list
 updated: '2026-08-30'
+videos:
+- title: This Entire Skincare Routine Cost Less Than One Sephora Product
+  creator: Dr. Dustin Portela
+  creator_slug: dustin-portela
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=o1wF1Z6aW4g
+  posted: '2026-08-16'
+  related: []
+  thesis: Board-certified dermatologist Dr. Dustin Portela visits a dollar store to see whether he can assemble a complete four-step skincare routine, cleanser, active serum, moisturizer, and sunscreen, for under $10. He picks a hydrating jelly cleanser, a multi-active "power serum" with niacinamide, retinol, and peptides, a hyaluronic-acid moisturizer, and a 19% zinc oxide mineral sunscreen, spending $9.81 total, then tests all four at home. He reports the cleanser, serum, and moisturizer felt pleasant and fragrance-free with no irritation, though he cannot judge long-term efficacy from a single use, while the mineral sunscreen left a noticeable white cast and he suggests buying a drugstore chemical or hybrid sunscreen instead if a dollar store lacks good options. His conclusion is that a basic effective routine does not require expensive products, since most active ingredients are inexpensive to produce.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 A "dupe" only earns the name when it discloses the same active at the same strength as the product it is copying, ideally at a matching pH for pH-dependent actives like L-ascorbic acid. Marketing copy calling something "clinically equivalent" is not evidence; a printed label percentage and a measured pH are. This list pairs pricier, better-studied products already on the site with cheaper alternatives, ranked by how completely each cheaper option discloses a real match, not by how loudly it claims to be one.

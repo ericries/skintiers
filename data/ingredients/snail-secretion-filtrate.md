@@ -7,6 +7,18 @@ tier: weak
 status: published
 type: ingredient
 updated: '2026-07-28'
+videos:
+- title: 'Me getting called out for being a "crusty b*tch" #dermreacts #skincare #dermatologist #dermangelo'
+  creator: Dr. Angelo Landriscina (DermAngelo)
+  creator_slug: angelo-landriscina
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=nvhiA4hi8lQ
+  posted: '2026-08-29'
+  related: [neck-chest-decolletage-care]
+  thesis: Board-certified dermatologist Dr. Angelo Landriscina (DermAngelo) reacts in real time to another creator's skincare routine, correcting or confirming each step. He says wiping your face with a towel does not cause wrinkles ("according to the data"), doubts that applying serum specifically to damp versus dry skin matters much, and says he does not buy into the snail mucin hype since there are other hydrating ingredients that do not require "traumatizing snails." He also endorses washing hands before touching your face, using your index finger for more control when applying product, and not skipping SPF on the neck, décolletage, and lips.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Snail secretion filtrate, sold on cosmetic labels as "snail mucin," is the filtered mucus of land snails, and nearly all of its controlled research is on one patented extract, the secretion of the mollusk *Cryptomphalus aspersa* (SCA), rather than on the high-percentage mucin essences popular in K-beauty.

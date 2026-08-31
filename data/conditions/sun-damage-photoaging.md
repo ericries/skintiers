@@ -37,6 +37,29 @@ tier_list:
   title: Sun damage and photoaging treatments by evidence
 type: condition
 updated: '2026-08-30'
+videos:
+- title: 'Dermatologist explains Solar Purpura (Purple Bruising on the Arms): How can you PREVENT & TREAT IT?'
+  creator: Dr. Scott Walter
+  creator_slug: scott-walter
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=Clg8vBSQGXo
+  posted: '2024-08-29'
+  related: [vitamin-k-topical]
+  thesis: Dr. Scott Walter, a board-certified dermatologist, explains solar purpura (also called actinic or senile purpura), the dark bruise-like patches that appear on the arms and hands of older adults with a lifetime of sun exposure. He describes how chronic UV exposure damages the dermis's elastic fibers, converting them into disorganized "solar elastosis" material and thinning the skin, which leaves the underlying blood vessels far more prone to rupture and bruising from minor trauma. He notes that once solar purpura has developed the underlying skin damage cannot be reversed, so daily sunscreen or protective clothing on the forearms and hands is the key prevention, while existing bruises can be helped to fade faster with ingredients like arnica or vitamin K, mentioning an over-the-counter product called Dermend as one he recommends.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: The Burning Truth | Tan Lies
+  creator: Dr. Whitney Bowe
+  creator_slug: whitney-bowe
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=mMYm6ec9mT8
+  posted: '2026-05-20'
+  related: [sunscreen-uv-filters, anti-aging]
+  thesis: Board-certified dermatologist Dr. Whitney Bowe debunks common tanning myths (a "base tan" protects skin, not burning means you're fine, tanning bed use is safer, tanning clears acne) alongside her teenage daughter and guest contributors including a melanoma survivor. She explains that any tan is itself a sign of DNA damage and cellular injury, since melanocytes only pump out more melanin as an emergency stress response once UV rays have already penetrated the skin; UVA (breaks down collagen, ages skin) and UVB (causes burning) both contribute even without a visible burn. She notes tanning bed users have three times the melanoma risk because modern beds emit intense UVA plus enough UVB to damage cells without necessarily burning, and that tanning does not clear acne but instead triggers oxidative stress that can worsen breakouts long-term. She closes by demonstrating a daytime routine (cleanser, vitamin C serum, then daily sunscreen as the single most important step) to protect
+    and improve skin without sun exposure.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Photoaging is the skin change caused by cumulative ultraviolet exposure layered on top of ordinary chronological aging, and its hallmark tissue change is solar elastosis: skin that "appears yellow and thickened as a result of abnormal elastic tissue accumulation, due to chronic sun damage on ageing skin."[^elastosis] It shows up as fine lines, coarse wrinkles, rough leathery texture, mottled brown pigment, sallowness, visible broken vessels (telangiectasia), and loss of firmness (laxity). The honest framing: prevention works far better than any repair product, and no topical reverses the underlying dermal damage.

@@ -40,6 +40,18 @@ tier_list:
   title: Erythematotelangiectatic rosacea treatments by evidence
 type: condition
 updated: '2026-08-18'
+videos:
+- title: 'WTH ARE LASERS??? #skincare #dermatologist #dermangelo #lasers'
+  creator: Dr. Angelo Landriscina (DermAngelo)
+  creator_slug: angelo-landriscina
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=-cmxfYaJ57I
+  posted: '2026-08-03'
+  related: [melasma]
+  thesis: 'Board-certified dermatologist Dr. Angelo Landriscina (DermAngelo) explains how dermatologists choose one laser over another. He shows that a laser needs a target chromophore in skin, and that oxyhemoglobin, melanin, and water each have their own absorption curve across the wavelength spectrum: vascular lasers target oxyhemoglobin to treat blood vessels, telangiectasias, and rosacea; melanin-targeting lasers treat melasma, dark spots, and hair; and long-wavelength resurfacing lasers target water in the skin''s upper layers. He also explains that longer wavelengths generally penetrate deeper, which is why laser hair removal in skin of color uses a deeper-penetrating wavelength (like Alexandrite) to bypass melanin-rich basal epidermis and reach the hair bulb in the dermis, while resurfacing lasers, despite their long wavelengths, are absorbed so heavily by superficial water that they can''t penetrate as deep.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Erythematotelangiectatic rosacea (ETR), often called "type 1" rosacea, is the redness-and-vessels form of the disease: persistent flushing and central-facial redness, visible small blood vessels (telangiectasia), and a face that stings, burns, and reacts easily, but without the acne-like papules and pustules of the inflammatory type. For the redness and the vessels, the realistic non-prescription levers are topical skincare and in-office light devices, and the evidence for them is limited. The two prescription drugs approved specifically for the persistent redness, brimonidine and oxymetazoline, reduce it only temporarily and, in the registration trials, only a minority of patients reached the strict success threshold; the visible vessels themselves respond to lasers rather than to any cream, on weaker evidence than the drugs; and the anti-inflammatory topicals that carry Cochrane certainty (azelaic acid, ivermectin, metronidazole) were graded for the papules and pustules of the other subtype, not for type 1's fixed erythema or telangiectasia.

@@ -7,6 +7,19 @@ status: published
 tier: weak
 type: ingredient
 updated: '2026-08-30'
+videos:
+- title: '#188) Let''s talk Kbeauty with Charlotte Cho! | Chemist Confessions Podcasts @sokoglam'
+  creator: Chemist Confessions (Victoria Fu and Gloria Lu)
+  creator_slug: victoria-fu
+  credential: Cosmetic chemists
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=SysrE5ChRJg
+  posted: '2026-08-26'
+  related: []
+  thesis: 'Cosmetic chemists Victoria Fu and Gloria Lu of Chemist Confessions interview Charlotte Cho, founder of Soko Glam and the K-beauty brand Then I Met You, about the state of Korean skincare. Cho explains that toner and essence are largely interchangeable, brand-defined category names, that snail mucin has endured as an ingredient because it hydrates without heaviness (not just because of TikTok trends), and that recent US sunscreen filter crackdowns forced Korean brands to reformulate hero sunscreens while still performing well. In a rapid-fire "worth the hype" segment, the hosts and Cho give informal verdicts on several trending ingredients: exosomes (not yet, evidence still pending), PDRN (potentially yes but highly dependent on brand and sourcing, since claims of "PDRN" vary widely in quality), NAD+ (unproven, not yet in her routine), topical glutathione (yes, though injectable/ingestible glutathione is viewed skeptically), and Volufiline (skeptical of viral filler-like marketing
+    claims but reporting personal results using it in a snail-mucin/Volufiline/azelaic eye cream over a 12-week testing period).'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Exosomes are nanoscale (roughly 30 to 150 nm) extracellular vesicles that cells naturally shed, carrying cargo (proteins, lipids, RNA) that can influence nearby or distant cells; skincare and aesthetics marketing has adopted "exosome" as an umbrella term for serums containing vesicles harvested from mesenchymal stem cells (often umbilical cord or adipose-derived), platelets, or plants, sold loose or paired with microneedling and lasers for "regeneration" and anti-aging.[^ponnikorn][^knauer] A 2026 scoping review of the human clinical literature found only 18 studies on topical exosomes for skin rejuvenation across the entire published record, concluding that "human studies on topical exosomes remain scarce, with much of the current evidence on exosomes extrapolated from preclinical models."[^knauer] A companion dermatology scoping review of exosome-based therapies broadly, beyond topical use, found 17 human studies from 2020 to 2025, mostly cohort studies and case series rather than controlled trials, and stated plainly that "the clinical landscape and its safety remain undefined, despite commercial availability."[^wang] That gap between marketing enthusiasm and controlled human evidence is the central fact about this ingredient category.

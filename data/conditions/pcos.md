@@ -33,6 +33,18 @@ tier_list:
   title: Topical actives for PCOS-related acne, by evidence
 type: condition
 updated: '2026-08-10'
+videos:
+- title: 6 Skin, Hair & Nail Signs You Should NEVER Ignore (From a Dermatologist) | Dr. Shereene Idriss
+  creator: Dr. Shereene Idriss
+  creator_slug: shereene-idriss
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=yH5oGKMBAcQ
+  posted: '2026-08-08'
+  related: [hair-loss-thinning]
+  thesis: 'Board-certified dermatologist Dr. Shereene Idriss walks through six skin, hair, and nail changes that can signal an underlying systemic condition rather than a skincare problem: jawline acne paired with new coarse facial hair or scalp thinning that can point to PMOS/PCOS and elevated androgens; a sudden smooth round bald patch that may be alopecia areata; a butterfly-shaped facial rash that spares the nasolabial folds and worsens after sun exposure, which can indicate lupus rather than rosacea; yellow eyelid plaques (xanthelasma) that warrant a cholesterol check; horizontal grooves across multiple nails (Beau''s lines) reflecting a past physical stressor; and dark, velvety skin at the neck or underarms (acanthosis nigricans) as an early insulin-resistance warning sign. She stresses these are cues to see a doctor and get appropriate bloodwork rather than self-diagnose, and that topical skincare cannot fix the underlying hormonal, autoimmune, or metabolic causes.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Polycystic ovary syndrome (PCOS) is a common hormonal condition in which excess androgens drive a recognizable set of skin and hair changes, the most prominent being a distinctive, hormonally patterned acne.[^3][^4][^5] Estimates of how many reproductive-age women are affected vary with the diagnostic criteria used: a 2025 narrative review put it at "affecting 5%-10% of reproductive-aged women," while a StatPearls survey of the literature found reported prevalence "ranges between 5% and 26%, depending on the diagnostic criteria applied."[^4][^2] This page focuses on the skin: what PCOS-related acne looks like, how it differs mechanically from ordinary clogged-pore acne, and which topical actives the evidence actually supports for each pattern.

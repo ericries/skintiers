@@ -73,6 +73,16 @@ videos:
   related: [hyperpigmentation, acne, urea, salicylic-acid, retinol, glycolic-acid, lactic-acid, benzoyl-peroxide]
   thesis: "Cosmetic chemist Michelle Wong (Lab Muffin) shares science-based tips for treating keratosis pilaris (KP), the harmless but rough \"chicken skin\" bumps caused by keratin plugging hair follicles, recommending consistent chemical exfoliation with ingredients like urea, salicylic acid, glycolic acid, and lactic acid, plus physical exfoliation with tools like Turkish exfoliating mitts. She notes that urea, found in products like a 25% urea heel balm, works as both an exfoliant and a humectant moisturizer, and that salicylic acid may be a safer choice than alpha hydroxy acids for sun-exposed body skin since it doesn't increase photosensitivity the way AHAs do even after rinsing off. She also covers using body retinol products for fading post-inflammatory dark marks left by KP and ingrown hairs, referencing an EU safety assessment that led to lower recommended retinol concentrations in body products."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: Dermatologist Answers Your Skincare Questions | AmLactin, Fraxel, Sunscreen & KP
+  creator: Andrea Suarez (Dr Dray)
+  creator_slug: andrea-suarez-dr-dray
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=YIQdXvlvmgA
+  posted: '2026-08-29'
+  related: [hydroquinone]
+  thesis: 'Board-certified dermatologist Dr. Andrea Suarez (Dr Dray) explains why she recommends 12%+ ammonium lactate (AmLactin) over at-home glycolic acid for dermal thickening: she cites two clinical studies showing 12% lactic acid produced both epidermal and dermal thickening (versus epidermal-only at 5%), and a second study where 12% ammonium lactate offset dermal atrophy caused by the potent steroid clobetasol. She notes in-office glycolic acid peels are actually superior for dermal effects, but at-home glycolic acid strengths are too heterogeneous and generally too weak to reliably reach the dermis the way 12% ammonium lactate does. In shorter Q&A segments she also covers Fraxel versus Laser Genesis laser risks, sunscreen application on sweaty/wet skin, and using urea and azelaic acid for keratosis pilaris.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

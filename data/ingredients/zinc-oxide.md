@@ -17,6 +17,17 @@ videos:
   related: [avobenzone]
   thesis: "Board-certified dermatologist Dr. Whitney Bowe recommends zinc oxide mineral sunscreen for patients with a suspected sunscreen allergy, because zinc oxide is soothing, has anti-inflammatory properties (the same reason it is used in diaper creams), and will not itself cause an allergy. She notes the tradeoffs: mineral-only formulas can leave a white cast, especially on deeper skin tones, and some zinc oxide formulations can be drying, so she pairs them with a hydrating routine."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: '@Kindofstephen Instagram Live: March 30th, 2018'
+  creator: Stephen Alain Ko (KindofStephen)
+  creator_slug: stephen-alain-ko
+  credential: Skincare educator
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=0nbbOyUdTzA
+  posted: '2018-04-01'
+  related: [acne, avobenzone, tretinoin, retinoids, azelaic-acid, rosacea]
+  thesis: In this nearly two hour Instagram Live Q&A, skincare educator and formulator Stephen Alain Ko (KindofStephen) answers viewer questions across a wide range of skincare topics. On sunscreen, he explains why "next-gen" UV filters like Tinosorb are approved in Europe and Asia but not routinely in the US and Canada due to regulatory differences, and cites a Johnson & Johnson presentation at the American Academy of Dermatology describing a 21.6% zinc oxide mineral sunscreen with a UVA protection factor around 31 to 32, notably higher than the 15 to 22 typical of mineral sunscreens. He also breaks down the difference between sodium hyaluronate and hydrolyzed hyaluronic acid by molecular weight, discusses vitamin C derivatives versus L-ascorbic acid as the still-unbeaten gold standard, and weighs in on benzoyl peroxide's efficacy and oxidative tradeoffs for acne, an LED mask study he criticizes for lacking a control group, and niacinamide combined with tretinoin for acne and hyperpigmentation.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Zinc oxide is an inorganic (mineral) sunscreen filter that absorbs ultraviolet radiation across both UVB and UVA, and one of only two UV filters the US FDA proposed classifying as safe and effective in its 2019 sunscreen review.[^fda][^schneider]

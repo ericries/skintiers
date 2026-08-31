@@ -47,6 +47,17 @@ videos:
   related: [zinc-oxide, dimethicone]
   thesis: "Cosmetic chemist Javon Ford says La Roche-Posay Cicaplast Baume B5 is essentially a fancier diaper rash cream, since both rely on a skin protectant, dimethicone in Cicaplast versus roughly 40% zinc oxide in generic diaper creams. He notes generic diaper cream can work as a cheaper substitute for Cicaplast but leaves a heavier white cast than any sunscreen and often contains cod liver oil and lanolin, which can clog pores on acne-prone facial skin, so he cautions checking the ingredient list before swapping."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: Cicaplast Alternatives
+  creator: Dr. Joyce Park (Tea with MD)
+  creator_slug: joyce-park
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=KthqYRfRJtw
+  posted: '2026-08-27'
+  related: []
+  thesis: Dermatologist Dr. Joyce Park (Tea with MD) says she does not pair La Roche-Posay Cicaplast Baume B5 with tretinoin and azelaic acid ("the holy trinity") and instead recommends lighter barrier-repair alternatives. She names the Aestura gel cream as a lightweight summer option, an Aveeno oat-based gel cream for soothing irritation when starting a retinoid, and calls out Avene Cicalfate and the Tower 28 SOS recovery cream as other good picks.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 La Roche-Posay Cicaplast Baume B5 (sold in the US as "Cicaplast Balm Vitamin B5 Soothing Therapeutic Cream for Dry & Irritated Skin") is a fragrance-free, multi-use balm labeled with 5% panthenol plus shea butter, glycerin, and madecassoside, positioned for cracked, chapped, or irritated skin on the face, body, and hands.[^1]

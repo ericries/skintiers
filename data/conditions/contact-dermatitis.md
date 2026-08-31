@@ -25,6 +25,18 @@ tier_list:
   title: Skincare adjuncts for contact dermatitis by evidence
 type: condition
 updated: '2026-08-23'
+videos:
+- title: The Deodorant That DESTROYED Peoples Skin?! The Billie Deodorant Lawsuit - When Beauty Turns Ugly
+  creator: James Welsh
+  creator_slug: james-welsh
+  credential: Skincare content creator (NOT a dermatologist or cosmetic chemist)
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=PldbB2Dbcko
+  posted: '2026-08-23'
+  related: []
+  thesis: Skincare content creator James Welsh recaps the 2025 class action lawsuit against Billie's All Day deodorant, in which consumers alleged chemical burns, rashes, peeling skin, and blistering after use, and explains that the suit was voluntarily dismissed with prejudice before reaching court, so the claims were never proven. He walks through why armpits are prone to irritation (warmth, moisture, friction, shaving micro-cuts, bacterial acids) and argues the likeliest culprits are fragrance-driven allergic or irritant contact dermatitis, or irritant contact dermatitis from the formula as a whole (citing magnesium hydroxide, coconut oil, shea butter, and microcrystalline wax as possible contributors), rather than the baking soda or aluminium the brand deliberately excluded. He stresses this is not an allergic reaction diagnosis but repeated-exposure irritation, and that Billie has made no public statement or formula change since the complaints began.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Contact dermatitis is a group of eczematous skin reactions caused by direct contact with a causative substance, split mainly into irritant contact dermatitis (skin damage from a substance that would irritate anyone with enough exposure) and allergic contact dermatitis (a delayed immune reaction to a specific allergen in someone who has become sensitized to it).[^dermnet-cd] It is "the most common cause of occupational skin disease," especially among cleaners, healthcare workers, food handlers, and hairdressers.[^dermnet-cd]

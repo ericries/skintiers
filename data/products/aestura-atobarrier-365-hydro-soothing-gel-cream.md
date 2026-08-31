@@ -41,6 +41,18 @@ slug: aestura-atobarrier-365-hydro-soothing-gel-cream
 status: published
 type: product
 updated: '2026-08-08'
+videos:
+- title: Cicaplast Alternatives
+  creator: Dr. Joyce Park (Tea with MD)
+  creator_slug: joyce-park
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=KthqYRfRJtw
+  posted: '2026-08-27'
+  related: []
+  thesis: Dermatologist Dr. Joyce Park (Tea with MD) says she does not pair La Roche-Posay Cicaplast Baume B5 with tretinoin and azelaic acid ("the holy trinity") and instead recommends lighter barrier-repair alternatives. She names the Aestura gel cream as a lightweight summer option, an Aveeno oat-based gel cream for soothing irritation when starting a retinoid, and calls out Avene Cicalfate and the Tower 28 SOS recovery cream as other good picks.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Aestura Atobarrier 365 Hydro Soothing Gel Cream is a light-textured, gel-cream moisturizer from [[aestura|Aestura]]'s Atobarrier 365 line, sold in a 60 ml / 2.02 oz size and marketed for instant cooling and quick hydration in sensitive skin.[^aestura][^target]

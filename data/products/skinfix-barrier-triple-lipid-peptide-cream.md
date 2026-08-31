@@ -44,6 +44,18 @@ slug: skinfix-barrier-triple-lipid-peptide-cream
 status: published
 type: product
 updated: '2026-08-08'
+videos:
+- title: Dermatologist's Top Sephora Fall Sale Picks 2025 | Skincare, SPF, Makeup & Haircare Must-Haves
+  creator: Dr. Joyce Park (Tea with MD)
+  creator_slug: joyce-park
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=Max9p5NGANI
+  posted: '2025-10-31'
+  related: [hypochlorous-acid, ceramides, hyaluronic-acid, isdin-eryfotona-ageless-tinted-mineral-spf-50]
+  thesis: Dr. Joyce Park, a board-certified dermatologist, features the Tower 28 SOS Daily Rescue Facial Spray as one of her holy-grail picks in her Sephora fall sale roundup. She explains its hypochlorous acid is a purified, stabilized version of a molecule the body's own immune cells naturally produce to fight bacteria and calm irritation, distinct from the dilute bleach used in bleach baths for conditions like eczema. She discloses she sits on Tower 28's medical advisory board and recommends the spray for post-workout use and for reactive skin during acne or rosacea flares.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Triple Lipid-Peptide Cream is a face moisturizer from [[skinfix|Skinfix]] built around what the brand calls a "3% Triple Lipid Complex" of ceramides, phytosterols, and fatty acids, plus a "3% Peptide Solution" of hydrolyzed rice protein, sold in 1.7 oz, 0.5 oz, and 3.3 oz sizes.[^skinfix]

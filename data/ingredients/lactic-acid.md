@@ -7,6 +7,18 @@ tier: mid
 status: published
 type: ingredient
 updated: '2026-08-08'
+videos:
+- title: Dermatologist Answers Your Skincare Questions | AmLactin, Fraxel, Sunscreen & KP
+  creator: Andrea Suarez (Dr Dray)
+  creator_slug: andrea-suarez-dr-dray
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=YIQdXvlvmgA
+  posted: '2026-08-29'
+  related: [hydroquinone]
+  thesis: 'Board-certified dermatologist Dr. Andrea Suarez (Dr Dray) explains why she recommends 12%+ ammonium lactate (AmLactin) over at-home glycolic acid for dermal thickening: she cites two clinical studies showing 12% lactic acid produced both epidermal and dermal thickening (versus epidermal-only at 5%), and a second study where 12% ammonium lactate offset dermal atrophy caused by the potent steroid clobetasol. She notes in-office glycolic acid peels are actually superior for dermal effects, but at-home glycolic acid strengths are too heterogeneous and generally too weak to reliably reach the dermis the way 12% ammonium lactate does. In shorter Q&A segments she also covers Fraxel versus Laser Genesis laser risks, sunscreen application on sweaty/wet skin, and using urea and azelaic acid for keratosis pilaris.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Lactic acid is an alpha-hydroxy acid (AHA) used in leave-on skincare at concentrations that have been tested from 5% to 12%; its l-form is the one a review whose lead author is a retired FDA scientist describes as carrying the "optimal biologic activity."[^kornhauser] It shares its evidence base with the smaller AHA [[glycolic-acid]]: the trial most often cited for leave-on AHA creams tested an 8% lactic acid cream head to head against an 8% glycolic acid cream, not lactic acid alone, and the two performed about the same.[^stiller]

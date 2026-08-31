@@ -31,6 +31,16 @@ videos:
   related: [hyperpigmentation, acne, rosacea]
   thesis: 'Australian board-certified dermatologist Dr Davin Lim explains how niacinamide (vitamin B3) helps with pigmentation. He describes it working through several roles: reducing inflammation, which is useful in acne and rosacea and which curbs the post-inflammatory hyperpigmentation (the dark marks) that acne can leave behind, and supporting the skin barrier, since a compromised barrier itself drives both inflammation and pigmentation.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: '@Kindofstephen Instagram Live: March 30th, 2018'
+  creator: Stephen Alain Ko (KindofStephen)
+  creator_slug: stephen-alain-ko
+  credential: Skincare educator
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=0nbbOyUdTzA
+  posted: '2018-04-01'
+  related: [acne, avobenzone, tretinoin, retinoids, azelaic-acid, rosacea]
+  thesis: In this nearly two hour Instagram Live Q&A, skincare educator and formulator Stephen Alain Ko (KindofStephen) answers viewer questions across a wide range of skincare topics. On sunscreen, he explains why "next-gen" UV filters like Tinosorb are approved in Europe and Asia but not routinely in the US and Canada due to regulatory differences, and cites a Johnson & Johnson presentation at the American Academy of Dermatology describing a 21.6% zinc oxide mineral sunscreen with a UVA protection factor around 31 to 32, notably higher than the 15 to 22 typical of mineral sunscreens. He also breaks down the difference between sodium hyaluronate and hydrolyzed hyaluronic acid by molecular weight, discusses vitamin C derivatives versus L-ascorbic acid as the still-unbeaten gold standard, and weighs in on benzoyl peroxide's efficacy and oxidative tradeoffs for acne, an LED mask study he criticizes for lacking a control group, and niacinamide combined with tretinoin for acne and hyperpigmentation.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 name: Niacinamide
 slug: niacinamide
 tier: mid

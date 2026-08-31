@@ -34,6 +34,18 @@ videos:
     skin feels dry or itchy.
   title: If your eczema keeps flaring, there may be more than one trigger
   url: https://www.tiktok.com/@dr.iferodney/video/7667674410001698062
+- title: Chemist Breaks Down CONFUSING Skincare Ingredient Labels
+  creator: Javon Ford
+  creator_slug: javon-ford
+  credential: Cosmetic chemist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=RQEmrTLJOag
+  posted: '2019-09-29'
+  related: [glycerin, hyaluronic-acid, dimethicone, best-moisturizing-ingredients-ranked]
+  thesis: 'Cosmetic chemist Javon Ford explains that most skincare products (toners, moisturizers, serums) are built from three functional ingredient categories: humectants (water-binders like glycerin, propylene glycol, and hyaluronic acid), emollients (moisturizing oils, butters, silicones, and esters that add slip), and occlusives (barrier-formers like petrolatum, mineral oil, and large-molecule polymers that seal water in). He clarifies that "hydrating" (adding water via humectants) is distinct from "moisturizing" (sealing it in via emollients/occlusives), and that oil-free products can still clog pores if they contain comedogenic esters like isopropyl myristate. He also debunks the idea that topical collagen boosts the skin''s own collagen production, explaining collagen''s molecule is too large to absorb and instead functions as an occlusive. He then reads the ingredient lists of Neutrogena''s Hydro Boost Water Gel and a La Roche-Posay hydrating cleanser to demonstrate applying this
+    framework.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Moisturizing is one of the best-evidenced interventions in dermatology for eczema and barrier-impaired skin. A Cochrane review found that keeping such skin hydrated and occluded reduces eczema flares and spares topical corticosteroids [^1]. Two mechanisms do the work: slowing water loss at the surface and binding water there.
