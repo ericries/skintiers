@@ -31,11 +31,11 @@ This ranks medicated shampoos on the site for scalp psoriasis and seborrheic der
 
 Ranked by the strength of evidence behind each shampoo's active, most-evidenced first.
 
-**[[loprox-ciclopirox-shampoo|Loprox (Ciclopirox 1% Shampoo)]].** Prescription hydroxypyridone antifungal; a Cochrane review found it comparable to ketoconazole for seborrheic dermatitis, detailed on [[ciclopirox]].
+**[[loprox-ciclopirox-shampoo|Loprox (Ciclopirox 1% Shampoo)]].** Prescription hydroxypyridone antifungal; a Cochrane review found it comparable to ketoconazole for seborrheic dermatitis, detailed on [[ciclopirox]].[^ciclopirox-cochrane]
 
-**[[nizoral-anti-dandruff-shampoo-ketoconazole-1|Nizoral Anti-Dandruff Shampoo (ketoconazole 1%)]].** The best-evidenced over-the-counter antifungal shampoo; a Cochrane review found ketoconazole 2% cut the risk of failed clearance by 31% versus placebo, and 1% is the OTC strength, per [[ketoconazole]].
+**[[nizoral-anti-dandruff-shampoo-ketoconazole-1|Nizoral Anti-Dandruff Shampoo (ketoconazole 1%)]].** The best-evidenced over-the-counter antifungal shampoo; a Cochrane review found ketoconazole 2% cut the risk of failed clearance by 31% versus placebo, and 1% is the OTC strength, per [[ketoconazole]].[^ketoconazole-cochrane]
 
-**[[selsun-blue-selenium-sulfide-shampoo|Selsun Blue Selenium Sulfide 1% Anti-Dandruff Shampoo]].** A 2026 randomized, double-blind trial found a 0.6% selenium disulfide shampoo statistically matched 2% ketoconazole on dandruff and seborrheic dermatitis, per [[selenium-sulfide]].
+**[[selsun-blue-selenium-sulfide-shampoo|Selsun Blue Selenium Sulfide 1% Anti-Dandruff Shampoo]].** A 2026 randomized, double-blind trial found a 0.6% selenium disulfide shampoo statistically matched 2% ketoconazole on dandruff and seborrheic dermatitis, per [[selenium-sulfide]].[^selenium-2026]
 
 **[[head-shoulders-clinical-strength-dandruff-defense-selenium-sulfide|Head & Shoulders Clinical Strength Dandruff Defense (selenium sulfide)]].** Same selenium sulfide active as above in a mass-market clinical-strength formula.
 
