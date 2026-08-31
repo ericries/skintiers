@@ -33,7 +33,9 @@ type: condition
 updated: '2026-08-30'
 ---
 
-Oily skin (seborrhea) is the everyday name for skin that produces more sebum than average, which Sakuma and Maibach describe as oversized sebaceous glands that "produce excessive amounts of sebum giving the appearance of shiny and greasy skin."[^sakuma] It is a skin type and a cosmetic complaint rather than a disease, though the same excess sebum feeds acne and seborrhoeic dermatitis. There are two things people mean by "controlling oil": actually reducing how much sebum the glands make (a change in skin biology), and mopping up or hiding the oil already on the surface (appearance only). Only one intervention, oral isotretinoin, durably lowers production, and it is a prescription drug used for acne, not for oiliness alone; almost everything sold for oily skin works on the surface.[^landthaler][^endly][^draelos]
+Oily skin (the clinical term is seborrhea) is skin that produces more sebum, the oily secretion of the skin's oil glands, than average. Sakuma and Maibach describe it as oversized sebaceous glands that "produce excessive amounts of sebum giving the appearance of shiny and greasy skin."[^sakuma] It is a skin type and a cosmetic complaint rather than a disease, though the same excess sebum feeds [[acne]] and [[seborrheic-dermatitis|seborrhoeic dermatitis]].
+
+**The bottom line:** most products sold for oily skin only hide or absorb oil that is already on the surface; they do not change how much oil the glands make. Only one intervention, oral isotretinoin, durably lowers actual production, and it is a prescription acne drug, not a treatment for oiliness on its own.[^landthaler][^endly][^draelos] Below, the treatments that touch real sebum output are separated from the ones that just improve how skin looks and feels.
 
 **Medical disclaimer.** This is educational content, not medical advice, and it does not diagnose or treat any individual. Oily skin itself is not dangerous, but persistent oiliness with inflammatory bumps can be acne, and greasy, flaking, itchy patches on the scalp, brows, or sides of the nose can be seborrhoeic dermatitis, both of which a board-certified dermatologist can evaluate and treat. Several of the interventions named below (oral isotretinoin, spironolactone, and combined oral contraceptives) are prescription drugs used off-label or on-label for related conditions; they require a prescriber, carry their own risks and monitoring, and are named here so readers know they exist. Nothing here should be used to delay appropriate medical care.
 
@@ -47,11 +49,11 @@ These are the features clinicians and cosmetic scientists associate with oily sk
 - **The blotting-paper test.** Pressing a tissue or blotting paper to the T-zone and lifting away visible oil is the informal version of what dermatologists measure with instruments; the Sebumeter and similar devices put a number on the same surface sebum.[^endly]
 - **A measurable threshold.** Endly and Miller report that when "sebum production exceeds 1.5mg/10cm² every three hours, it is considered excessive" and defines seborrhea, roughly one and a half times the normal adult rate.[^endly]
 
-Oiliness is a spectrum, it changes with heat, humidity, hormones, and age, and the same face is often oily in the T-zone and normal or dry on the cheeks ("combination" skin).[^sakuma] None of these signs on its own means a medical problem; they describe a skin type, and persistent bumps, flaking, or irritation alongside the oil are what warrant a clinician's assessment.
+Oiliness is a spectrum, it changes with heat, humidity, hormones, and age, and the same face is often oily in the T-zone and normal or [[dry-skin|dry]] on the cheeks ("combination" skin).[^sakuma] None of these signs on its own means a medical problem; they describe a skin type, and persistent bumps, flaking, or irritation alongside the oil are what warrant a clinician's assessment.
 
 ## What Oily Skin Is
 
-Sebum is the oily secretion of the sebaceous glands, which sit alongside hair follicles across the face and scalp and empty their contents (an entire cell's worth of lipids at a time) into the pore. Sakuma and Maibach's overview frames oily skin as the visible result when those glands are oversized and overproductive.[^sakuma] Sebum coats the skin surface, and while excess is a cosmetic nuisance, the same lipids contribute to the skin's water barrier, which is one reason aggressively removing all surface oil has trade-offs.[^sakuma]
+Sebum is the oily secretion of the sebaceous glands, which sit alongside hair follicles across the face and scalp and empty their contents (an entire cell's worth of lipids at a time) into the pore. Sakuma and Maibach's overview frames oily skin as the visible result when those glands are oversized and overproductive.[^sakuma] Sebum coats the skin surface, and while excess is a cosmetic nuisance, the same lipids contribute to the skin's [[skin-barrier-repair|water barrier]], which is one reason aggressively removing all surface oil has trade-offs.[^sakuma]
 
 The main driver of sebum output is hormonal. Sebaceous glands carry androgen receptors, and androgens (testosterone and its more potent skin metabolite dihydrotestosterone) stimulate the sebocytes to proliferate and make lipids, which is why oiliness rises at puberty and why men, with higher testosterone, tend to have higher sebum output than women.[^endly][^zouboulis] The acne literature calls this androgen-driven excess "hyperseborrhoea (that is, increased sebum production)," one of the core mechanisms Zouboulis and colleagues place at the start of acne.[^zouboulis] On top of hormones, Sakuma and Maibach note that skin oiliness varies with genetics, age (it falls after the sebaceous glands' peak in early adulthood and drops further after menopause), sex, ethnicity, and hot, humid climates, which raise sebum output and the sensation of greasiness.[^sakuma]
 
@@ -110,7 +112,7 @@ K-beauty routines aimed at oily and combination skin lean on light textures and 
 
 - Actives: [[niacinamide]], [[retinoids]], [[salicylic-acid]], [[azelaic-acid]].
 - Products and lists: [[differin-adapalene-0-1-gel]], [[the-ordinary-niacinamide-10-zinc-1]], [[paulas-choice-skin-perfecting-2-bha]], and the roundups on [[best-cleansers-for-oily-acne-prone-skin]], [[best-salicylic-acid-bha-products]], and [[best-benzoyl-peroxide-products]].
-- Related concerns: [[acne]], [[blackheads-clogged-pores]], [[enlarged-pores]], [[body-acne]], [[fungal-acne]].
+- Related concerns: [[acne]], [[seborrheic-dermatitis]], [[blackheads-clogged-pores]], [[enlarged-pores]], [[body-acne]], [[fungal-acne]], [[dry-skin]].
 
 ## Sources
 

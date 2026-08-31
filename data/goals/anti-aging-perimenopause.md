@@ -32,7 +32,7 @@ videos:
   url: https://www.youtube.com/watch?v=sGqERq0xBxc
 ---
 
-Skin aging speeds up around menopause. As estrogen falls, skin loses collagen and elasticity faster than sun exposure alone explains, and much of the visible change tracks estrogen status rather than chronological age. Skin collagen declines "between 1-2% per year after the menopause," and the loss correlates with years since menopause, not birthday.[^brincat87] This page covers the levers specific to that hormonal component. The general, sun-driven half of aging, and the sunscreen-and-retinoid foundation that does most of the work, is ranked on [[anti-aging]]; this page is about what is different when the driver is hormonal.
+Skin aging speeds up around menopause, when the ovaries stop producing estrogen. As estrogen falls, skin loses collagen (the protein scaffold that keeps skin firm) and elasticity faster than sun exposure alone explains, and much of the visible change tracks estrogen status rather than chronological age. Skin collagen declines "between 1-2% per year after the menopause," and the loss correlates with years since menopause, not birthday.[^brincat87] This page covers the levers specific to that hormonal component. The general, sun-driven half of aging, and the sunscreen-and-retinoid foundation that does most of the work, is ranked on [[anti-aging]]; this page is about what is different when the driver is hormonal.
 
 > The single largest lever on the menopause-driven part of aging is hormonal, but that is a whole-body medical decision made with a clinician for menopausal health generally, never a skincare purchase, with better skin as a bonus rather than a reason to start. Topical prescription estrogen shows a local collagen signal on mixed, small-trial evidence. Over-the-counter "estrogen-like" creams are a separate, underpowered category and should not be read into those prescription results. The daily sunscreen and retinoid foundation from [[anti-aging]] still applies and still does most of the work.
 
@@ -56,7 +56,7 @@ In 59 perimenopausal women, six months of prescription topical estrogen (estradi
 
 ## The foundation still applies
 
-Nothing here replaces the basics. Daily broad-spectrum sunscreen and a retinoid remain the highest-evidence anti-aging steps for menopausal skin as much as for any other, and barrier-supporting moisturizers matter more as skin dries and thins with the drop in estrogen. Those steps, the modest adjuncts below them, and the heavily promoted categories to treat with caution, are ranked on [[anti-aging]].
+Nothing here replaces the basics. Daily broad-spectrum [[sunscreen-uv-filters|sunscreen]] and a retinoid remain the highest-evidence anti-aging steps for menopausal skin as much as for any other, and [[skin-barrier-repair|barrier-supporting moisturizers]] matter more as skin dries and thins with the drop in estrogen. Those steps, the modest adjuncts below them, and the heavily promoted categories to treat with caution, are ranked on [[anti-aging]].
 
 ## What this page is not
 
@@ -64,7 +64,7 @@ This is an educational summary, not medical advice. The hormonal options depend 
 
 ## See Also
 
-[[anti-aging]], [[tretinoin]], [[retinoids]], [[moisturizing]], [[niacinamide]]
+[[anti-aging]], [[tretinoin]], [[retinoids]], [[retinol]], [[moisturizing]], [[skin-barrier-repair]], [[niacinamide]], [[melasma]], [[dry-skin]]
 
 ## Sources
 

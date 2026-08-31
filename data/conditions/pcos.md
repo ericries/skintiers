@@ -47,7 +47,7 @@ videos:
 
 ---
 
-Polycystic ovary syndrome (PCOS) is a common hormonal condition in which excess androgens drive a recognizable set of skin and hair changes, the most prominent being a distinctive, hormonally patterned acne.[^3][^4][^5] Estimates of how many reproductive-age women are affected vary with the diagnostic criteria used: a 2025 narrative review put it at "affecting 5%-10% of reproductive-aged women," while a StatPearls survey of the literature found reported prevalence "ranges between 5% and 26%, depending on the diagnostic criteria applied."[^4][^2] This page focuses on the skin: what PCOS-related acne looks like, how it differs mechanically from ordinary clogged-pore acne, and which topical actives the evidence actually supports for each pattern.
+Polycystic ovary syndrome (PCOS) is a common hormonal condition in which excess androgens (male-pattern hormones present in everyone, just usually at lower levels) drive a recognizable set of skin and hair changes, the most prominent being a distinctive, hormonally patterned acne.[^3][^4][^5] Estimates of how many reproductive-age women are affected vary with the diagnostic criteria used: a 2025 narrative review put it at "affecting 5%-10% of reproductive-aged women," while a StatPearls survey of the literature found reported prevalence "ranges between 5% and 26%, depending on the diagnostic criteria applied."[^4][^2] The skeptical bottom line: topical skincare can meaningfully help the clogged-pore part of PCOS acne, but it cannot lower androgen levels or sebum output, so the deep jawline cysts often need a prescriber, not a serum. This page focuses on the skin: what PCOS-related acne looks like, how it differs mechanically from ordinary clogged-pore [[acne]], and which topical actives the evidence actually supports for each pattern.
 
 ## How to know you have this
 
@@ -67,7 +67,7 @@ The central distinction for PCOS-related skin is that "acne" covers two differen
 
 **Comedonal (clogged-pore) acne** starts as a mechanical problem: dead skin cells and sebum plug the follicle, forming the open comedones (blackheads) and closed comedones (whiteheads) that define ordinary acne, sometimes followed by bacterial overgrowth and inflammation once a follicle is blocked. The full mechanism and its graded topical treatments are covered on [[acne]].
 
-**Hormonal or cystic acne** starts upstream, with the androgen excess itself. A 2025 review of the mechanism explains that insulin resistance, common in PCOS, "augments ovarian/adrenal androgen synthesis and lowers sex hormone-binding globulin levels, increasing free testosterone and sebum production," while "IGF-1 signaling further amplifies sebogenesis and follicular hyperkeratinization."[^5] In practice this produces the deep, tender nodules concentrated on the jawline, chin, and lower face described above, rather than a face full of surface blackheads.[^3][^4]
+**Hormonal or cystic acne**, covered in general on [[hormonal-acne]], starts upstream, with the androgen excess itself. A 2025 review of the mechanism explains that insulin resistance, common in PCOS, "augments ovarian/adrenal androgen synthesis and lowers sex hormone-binding globulin levels, increasing free testosterone and sebum production," while "IGF-1 signaling further amplifies sebogenesis and follicular hyperkeratinization" (more oil-gland activity and thicker pore linings).[^5] In practice this produces the deep, tender nodules concentrated on the jawline, chin, and lower face described above, rather than a face full of surface blackheads.[^3][^4]
 
 That mechanistic difference is why the two patterns respond differently to treatment. A topical retinoid or acid can unclog a follicle or kill surface bacteria, but it does not lower how much androgen reaches the sebaceous gland or how much sebum the gland makes; only oral isotretinoin and hormonal therapy have been shown to durably reduce sebum production itself, detailed on [[oily-skin]]. Topical skincare therefore tends to help the comedonal component of PCOS-related acne more reliably than it helps the deep hormonal nodules, where the evidence-backed treatments for the driver itself are systemic.
 
@@ -91,7 +91,7 @@ Both act by reducing circulating or effective androgen exposure at the follicle,
 
 ## See Also
 
-[[acne]], [[oily-skin]], [[azelaic-acid]], [[adapalene]], [[tretinoin]], [[salicylic-acid]], [[benzoyl-peroxide]], [[retinoids]], [[santer-2023-safa-spironolactone-acne]], [[arowojolu-2012-cochrane-coc-acne]]
+[[acne]], [[hormonal-acne]], [[oily-skin]], [[azelaic-acid]], [[adapalene]], [[tretinoin]], [[salicylic-acid]], [[benzoyl-peroxide]], [[retinoids]], [[santer-2023-safa-spironolactone-acne]], [[arowojolu-2012-cochrane-coc-acne]]
 
 ## Sources
 

@@ -58,25 +58,36 @@ videos:
 
 ---
 
-"Acne scars" is really three different things, and they need different responses. Only one of them is a true, permanent scar, and it is the one topicals cannot fix.
+"Acne scars" is really three different things that get lumped under one name, and they need different responses. Only one of them is a true, permanent scar, and it is the one that creams and serums cannot fix. **Bottom line:** the flat brown or red marks left after a breakout usually fade on their own or respond to topicals like [[azelaic-acid]], but true pitted scars need an in-office procedure, not a product.
 
 ## How to know you have this
 
 - **Atrophic scars (true scars).** Permanent depressions from lost collagen, classified by dermatologists into icepick, rolling, and boxcar types; a 2019 review "divided atrophic acne scars into icepick, rolling, and boxcar scars."[^boen] These are textural, they do not fade on their own, and topicals do little for established ones.
 - **Post-inflammatory hyperpigmentation (PIH).** Flat brown or tan marks left after a breakout, common in medium-to-deep skin tones. This is not a scar and it is treatable; it has its own pathogenesis and management as an entity.[^elbuluk] The treatments live on [[hyperpigmentation]] and [[brightening]].
-- **Post-inflammatory erythema (PIE).** Flat pink or red marks from residual inflammation and dilated vessels, most visible in lighter skin. Also not a true scar; it typically fades over months, faster with diligent sun protection, and persistent cases are treated with vascular (pulsed-dye) lasers rather than creams.
+- **Post-inflammatory erythema (PIE).** Flat pink or red marks from residual inflammation and dilated vessels, most visible in lighter skin. Also not a true scar; it typically fades over months, faster with diligent [[sunscreen-uv-filters|sun protection]], and persistent cases are treated with vascular (pulsed-dye) lasers rather than creams.
 
 ## What actually works
 
 **Atrophic scars need procedures, not creams.** The 2019 review lists the evidence-based options plainly: "Therapies for acne scarring included surgical modalities, such as subcision, and punch excision and elevation, injectable fillers, chemical peels, dermabrasion, microneedling, and energy-based devices."[^boen] All of these are in-office procedures that sit outside this site's topical scope. The one topical with a genuine (if modest) role is a retinoid, which can slightly improve mild atrophic scarring over months; it is graded in the tier list above and detailed on [[tretinoin]].
 
-**The flat marks are what topicals can help.** Brown PIH is handled exactly like other hyperpigmentation, with azelaic acid, tranexamic acid, niacinamide, vitamin C, and retinoids ranked on [[hyperpigmentation]] and [[brightening]]; this page does not repeat that evidence. Red PIE mostly needs time plus sun protection, since ultraviolet exposure prolongs both PIE and PIH.
+**The flat marks are what topicals can help.** Brown PIH is handled exactly like other hyperpigmentation, with [[azelaic-acid]], [[tranexamic-acid]], [[niacinamide]], vitamin C, and retinoids ranked on [[hyperpigmentation]] and [[brightening]]; this page does not repeat that evidence. Red PIE mostly needs time plus sun protection, since ultraviolet exposure prolongs both PIE and PIH.
 
 **Prevention beats treatment.** Because true scars are permanent, the highest-value step is treating active [[acne]] early and well, before inflammation leaves marks or scars behind. A changing or unusually deep scar is a reason to see a dermatologist.
 
 ## The Evidence
 
 The evidence splits by scar type and mostly lives on other pages. For atrophic scars, the controlled data is for procedures, catalogued in the 2019 classification-based review, not for topicals.[^boen] For the flat marks, the PIH evidence and per-active grading are on [[hyperpigmentation]] and [[brightening]], and acne-induced PIH is established as its own distinct entity in a 2021 review.[^elbuluk] This page's job is to sort the three problems and route each to the right treatment rather than re-run those trials.
+
+## See Also
+
+- [[acne]]: treating active breakouts early is the best way to prevent new scars and marks
+- [[hyperpigmentation]]: full evidence and product ranking for the brown PIH marks
+- [[brightening]]: the fading-focused goal page that pairs with hyperpigmentation
+- [[tretinoin]] and [[retinoids]]: the one topical class with a genuine, if modest, role on atrophic scars
+- [[azelaic-acid]]: well-tolerated topical for post-acne brown marks
+- [[tranexamic-acid]]: pigment-fading active used alongside azelaic acid and niacinamide
+- [[niacinamide]]: gentle add-on for post-acne discoloration
+- [[sunscreen-uv-filters]]: daily protection that keeps both PIH and PIE from lingering
 
 ## Sources
 

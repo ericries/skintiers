@@ -109,7 +109,9 @@ videos:
   url: https://www.tiktok.com/@dr.sheila_derm/video/7669094389951532318
 ---
 
-The skin barrier is the outermost layer of the skin, the stratum corneum. The usual way to picture it is a brick wall: flattened dead cells (corneocytes) are the bricks, and a matrix of fats between them is the mortar. That mortar is a specific mix of three lipids, ceramides, cholesterol, and free fatty acids, stacked in layered sheets. Peter Elias, who worked out much of this model, states that "all three lipids are required to form the lamellar structures that regulate barrier function."[^elias] The wall has one main job: hold water in and keep irritants out. Researchers score how well it is doing by measuring transepidermal water loss (TEWL), the rate at which water escapes through the skin. A healthy barrier loses little; a damaged one loses more, which is why TEWL is the standard readout for barrier function. This page is about the preventive side, keeping a healthy barrier strong, and it ranks the interventions by how much they actually do that, best-evidenced first. Rebuilding a barrier that is already disrupted (by eczema, over-exfoliation, or harsh weather) is a related but separate job, where moisturization has strong evidence; that companion list is [[skin-barrier-repair]].
+The skin barrier is the outermost layer of skin, the stratum corneum. It is the thing that keeps water in and irritants out, and this page ranks what actually helps keep a healthy barrier strong, best-evidenced first.
+
+The usual way to picture the barrier is a brick wall: flattened dead cells (corneocytes) are the bricks, and a matrix of fats between them is the mortar. That mortar is a specific mix of three lipids, ceramides, cholesterol, and free fatty acids, stacked in layered sheets. Peter Elias, who worked out much of this model, states that "all three lipids are required to form the lamellar structures that regulate barrier function."[^elias] Researchers score how well the wall is holding up by measuring transepidermal water loss (TEWL), the rate at which water escapes through the skin. A healthy barrier loses little; a damaged one loses more, which is why TEWL is the standard readout for barrier function. This page is about the preventive side, keeping an already-healthy barrier strong. Rebuilding a barrier that is already disrupted, whether by [[atopic-dermatitis|eczema]], over-exfoliation, or harsh weather, is a related but separate job, where moisturization has strong evidence; that companion list is [[skin-barrier-repair]].
 
 > Most of what keeps a healthy barrier strong is cheap and unglamorous. The best-evidenced step by far is regular moisturization, and its strongest single component is a plain occlusive such as [[petrolatum]], which cuts water loss dramatically. Gentle, low-pH cleansing and daily sun protection defend the barrier you already have. A couple of adjuncts (niacinamide, physiologic barrier lipids) add a real but smaller increment. Most "barrier repair" serums, "microbiome" claims, and premium barrier creams are sold well above what the evidence shows, and a healthy barrier largely maintains itself.
 
@@ -186,7 +188,7 @@ This is an educational summary, not medical advice, and it covers a healthy, int
 
 ## See Also
 
-[[moisturizing]], [[skin-barrier-repair]], [[petrolatum]], [[dimethicone]], [[glycerin]], [[hyaluronic-acid]], [[ceramides]], [[cholesterol]], [[phytosphingosine]], [[niacinamide]], [[colloidal-oatmeal]], [[sunscreen-uv-filters]], [[probiotics]], [[van-zuuren-2017-emollients-moisturisers-eczema]]
+[[skin-barrier-repair]], [[moisturizing]], [[petrolatum]], [[ceramides]], [[hyaluronic-acid]], [[niacinamide]], [[sunscreen-uv-filters]], [[atopic-dermatitis]], [[dry-skin]]
 
 ## Sources
 

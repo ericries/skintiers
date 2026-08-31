@@ -72,7 +72,9 @@ videos:
 
 ---
 
-Photoaging is the skin change caused by cumulative ultraviolet exposure layered on top of ordinary chronological aging, and its hallmark tissue change is solar elastosis: skin that "appears yellow and thickened as a result of abnormal elastic tissue accumulation, due to chronic sun damage on ageing skin."[^elastosis] It shows up as fine lines, coarse wrinkles, rough leathery texture, mottled brown pigment, sallowness, visible broken vessels (telangiectasia), and loss of firmness (laxity). The honest framing: prevention works far better than any repair product, and no topical reverses the underlying dermal damage.
+Photoaging is the skin change caused by cumulative ultraviolet (UV) exposure, layered on top of ordinary chronological aging. It shows up as fine lines, coarse wrinkles, rough leathery texture, mottled brown pigment, sallowness, visible broken blood vessels (telangiectasia), and loss of firmness (laxity). Its hallmark tissue change is solar elastosis: skin that "appears yellow and thickened as a result of abnormal elastic tissue accumulation, due to chronic sun damage on ageing skin."[^elastosis]
+
+> Prevention works far better than any repair product, and no topical reverses the underlying dermal damage that has already happened.
 
 ## How to know you have this
 
@@ -86,7 +88,7 @@ Ultraviolet radiation breaks down collagen and elastin fibers in the dermis; the
 
 ## What actually works
 
-Prevention is the highest-value intervention: daily broad-spectrum sunscreen ([[sunscreen-uv-filters]]) measurably slows the appearance of new photoaging, and DermNet's own treatment discussion for solar elastosis leads with sun protection and smoking cessation before any cosmetic option.[^elastosis] For repairing texture and fine lines on skin that is already photoaged, [[retinoids]] (tretinoin) has the deepest trial base. [[ascorbic-acid-vitamin-c]] and [[glycolic-acid]] have real but more modest evidence for surface texture and tone. The mottled brown pigment of photoaging (solar lentigines) is its own evidence question, covered on [[hyperpigmentation]]. DermNet also lists topical retinoids, imiquimod, tacrolimus, and estrogen among treatments explored for solar elastosis specifically, "although these have variable efficacy reported."[^elastosis] This page and [[anti-aging]] cover related ground; [[anti-aging]] is the broader goal hub for aging skin generally, while this page is specifically about UV-driven damage.
+Prevention is the highest-value intervention: daily broad-spectrum sunscreen ([[sunscreen-uv-filters]]) measurably slows the appearance of new photoaging, and DermNet's own treatment discussion for solar elastosis leads with sun protection and smoking cessation before any cosmetic option.[^elastosis] For repairing texture and fine lines on skin that is already photoaged, [[retinoids]], specifically prescription [[tretinoin]], has the deepest trial base. [[ascorbic-acid-vitamin-c]] and [[glycolic-acid]] have real but more modest evidence for surface texture and tone. The mottled brown pigment of photoaging (solar lentigines) is its own evidence question, covered on [[hyperpigmentation]]. DermNet also lists topical retinoids, imiquimod, tacrolimus, and estrogen among treatments explored for solar elastosis specifically, "although these have variable efficacy reported."[^elastosis] This page and [[anti-aging]] cover related ground; [[anti-aging]] is the broader goal hub for aging skin generally, while this page is specifically about UV-driven damage.
 
 Procedures that address deeper elastosis and wrinkling, such as laser resurfacing, chemical peels, dermal fillers, and botulinum toxin, are listed by DermNet as cosmetic options for solar elastosis but sit outside topical skincare and outside this site's current scope.[^elastosis]
 
@@ -104,6 +106,9 @@ For repair, tretinoin's evidence base is the deepest among topicals, with replic
 
 - [[sunscreen-uv-filters]] for the prevention evidence and filter-by-filter detail.
 - [[retinoids]] for the repair evidence across prescription and over-the-counter forms.
+- [[tretinoin]] for the specific prescription retinoid with the deepest trial base for photoaging.
+- [[ascorbic-acid-vitamin-c]] for the antioxidant with modest evidence for texture and fine lines.
+- [[glycolic-acid]] for the exfoliant that improves surface roughness and mottled pigment.
 - [[hyperpigmentation]] for the mottled pigment (solar lentigines) that photoaging causes.
 - [[anti-aging]] for the broader aging-skin goal hub, including non-UV aging factors.
 

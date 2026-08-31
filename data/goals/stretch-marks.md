@@ -57,11 +57,23 @@ videos:
 
 Stretch marks (striae distensae) are bands of thinned, scarred skin that form when skin is stretched faster than it can adapt, as in pregnancy, growth spurts, or rapid weight change. They start red or purple (striae rubrae) and fade to pale, slightly sunken lines (striae albae) over months to years. They are a cosmetic concern rather than a medical problem, and they are notoriously resistant to treatment.
 
+> No cream reliably prevents or erases stretch marks. A [[tretinoin|retinoid]] has the best evidence, but only for early red marks, and it cannot be used in pregnancy, which is when most stretch marks form. Once marks turn white and settled, in-office procedures such as lasers and microneedling outperform anything topical.
+
 ## The Evidence
 
 The honest bottom line comes from a 2016 review of topical striae management: "there is no topical formulation which is shown to be most effective," and the field has few strong trials.[^udin] In that review, tretinoin used therapeutically showed "varying results," while cocoa butter and olive oil "did not demonstrate any effect," and a separate double-blind, placebo-controlled trial confirmed cocoa butter did no better than placebo at preventing pregnancy stretch marks.[^udin][^osman]
 
 Two practical points follow. Early red striae respond better than old white ones, so anything worth trying is worth trying early. And the treatments most likely to help established marks are in-office procedures such as fractional lasers and microneedling, which sit outside this site's topical scope. Other creams promoted for prevention, including [[centella-asiatica]] and [[hyaluronic-acid]] formulas, lack the evidence to rank against the options below, where even the top entry is a modest, narrow effect and the most famous product is the one a trial showed does not work.
+
+## See Also
+
+- [[tretinoin]], the retinoid with the best (though narrow) evidence for early red stretch marks
+- [[retinoids]], the broader ingredient class tretinoin belongs to
+- [[centella-asiatica]], a soothing extract often marketed for scars and stretch marks
+- [[hyaluronic-acid]], a hydrating ingredient promoted for prevention but unproven
+- [[skin-barrier-repair]], the general goal keeping skin hydrated during rapid growth or pregnancy supports
+- [[dry-skin]], a related goal since well-moisturized skin is thought to stretch more resiliently
+- [[anti-aging]], another goal where retinoids are the best-evidenced topical
 
 ## Sources
 

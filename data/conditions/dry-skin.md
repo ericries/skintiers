@@ -65,11 +65,11 @@ videos:
 
 ---
 
-Dry skin, medically xerosis (also xeroderma or asteatosis), "refers to skin that feels dry to touch," occurring "when the skin is lacking moisture in the outer horny cell layer (stratum corneum)," which results in visible cracking of the surface.[^dermnet] It is one of the most treatable complaints in skincare: the fix is not exotic, it is applying enough of the right kind of moisturizer, consistently, while removing whatever is stripping the barrier in the first place.
+Dry skin, medically called xerosis (also xeroderma or asteatosis), "refers to skin that feels dry to touch," occurring "when the skin is lacking moisture in the outer horny cell layer (stratum corneum)," which results in visible cracking of the surface.[^dermnet] The bottom line: this is one of the most treatable complaints in skincare, and the fix is not exotic. It is [[moisturizing|applying enough of the right kind of moisturizer]], consistently, while removing whatever is stripping the [[skin-barrier-repair|skin barrier]] in the first place.
 
 ## How to know you have this
 
-Dry skin looks dull with a rough, scaly quality, and the skin becomes less pliable and can crack; when severe, it may become inflamed and fissured.[^dermnet] Any site can be affected, but the shins are hit more than anywhere else.[^dermnet] "Nearly everyone" over 60 has dry skin, and it is commonly seen alongside atopic dermatitis and in the roughly 20 inherited ichthyosis conditions that begin in early childhood, so a family history or an onset in childhood points toward those rather than ordinary environmental dryness.[^dermnet] If a dry patch becomes persistently itchy, that can mean a form of eczema has developed on top of it, such as asteatotic eczema ("eczema craquelé") in older people or a dry, discoid pattern from over-washing; that itch-plus-dryness picture, especially with no visible rash in an older adult, is sometimes called "winter itch" or chronic pruritus of the elderly.[^dermnet]
+Dry skin looks dull with a rough, scaly quality, and the skin becomes less pliable and can crack; when severe, it may become inflamed and fissured.[^dermnet] Any site can be affected, but the shins are hit more than anywhere else.[^dermnet] "Nearly everyone" over 60 has dry skin, and it is commonly seen alongside [[atopic-dermatitis|atopic dermatitis (eczema)]] and in the roughly 20 inherited ichthyosis conditions that begin in early childhood, so a family history or an onset in childhood points toward those rather than ordinary environmental dryness.[^dermnet] If a dry patch becomes persistently itchy, that can mean a form of eczema has developed on top of it, such as asteatotic eczema ("eczema craquelé") in older people or a dry, discoid pattern from over-washing; that itch-plus-dryness picture, especially with no visible rash in an older adult, is sometimes called "winter itch" or chronic pruritus of the elderly.[^dermnet]
 
 ## What is happening in the skin
 
@@ -91,6 +91,8 @@ DermNet's clinical reference summary, the anchor source for this page, sets out 
 
 - [[moisturizing]] for the full ranked list of moisturizing ingredients, and [[skin-barrier-repair]] for barrier mechanism and repair.
 - [[petrolatum]], [[mineral-oil]], [[glycerin]], [[hyaluronic-acid]], [[urea]], [[lactic-acid]], and [[ammonium-lactate]] for the individual treatment evidence.
+- [[atopic-dermatitis]] when dryness turns into an itchy, inflamed rash, and [[keratosis-pilaris]] for the rough, bumpy variant that shows up on arms and thighs.
+- [[cerave-moisturizing-cream]] as an example of the plain, thick emollient this page recommends.
 
 ## Sources
 

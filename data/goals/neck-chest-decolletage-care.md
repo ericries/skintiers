@@ -42,12 +42,12 @@ type: goal
 updated: '2026-08-27'
 ---
 
-The neck and chest (décolletage) age the same way the face does, through cumulative sun exposure, but they are thinner-skinned, more often left out of sun protection and skincare, and quicker to show crepiness, horizontal lines, and mottled red-brown pigment. The good news is that nothing new is needed: the actives that work on facial photoaging work here too, applied more gently.
+The neck and chest (décolletage) age the same way the face does: sun exposure over years causes wrinkles, crepey texture, and mottled pigment. They just tend to get skipped when people apply sunscreen and treatments to their face, and the skin there is thinner, so damage shows up faster and treatments need to be gentler. The bottom line: no new ingredients are needed here. The same actives that work on facial photoaging work on the neck and chest, just applied more carefully.
 
 ## Two things that make this area different
 
-- **It is thinner and more reactive.** Neck and chest skin has fewer oil glands and a more delicate barrier than the face, so strong retinoids and acids sting and flake more easily here. The fix is the same active at a lower strength or frequency, not a different ingredient.
-- **Fixed sun damage here has a name, and it needs a laser.** Chronic sun exposure produces poikiloderma of Civatte, a red-brown mottled discoloration with fine visible vessels across the sides of the neck and upper chest, characteristically sparing the shaded skin under the chin. There is "no standard treatment guideline," and the treatments studied for it are in-office lasers, not topicals, which sit outside this site's scope.[^sarac] Daily sun protection is what prevents it and keeps it from worsening.
+- **It is thinner and more reactive.** Neck and chest skin has fewer oil glands and a more delicate [[skin-barrier-repair|skin barrier]] than the face, so strong retinoids and acids sting and flake more easily here, especially on [[sensitive-skin]]. The fix is the same active at a lower strength or frequency, not a different ingredient.
+- **Fixed sun damage here has a name, and creams will not fix it.** Chronic sun exposure can produce poikiloderma of Civatte: a red-brown mottled discoloration with fine visible vessels across the sides of the neck and upper chest, characteristically sparing the shaded skin under the chin. There is "no standard treatment guideline," and the treatments studied for it are in-office lasers, not topicals, which sit outside this site's scope.[^sarac] Daily sun protection is what prevents it and keeps it from worsening.
 
 ## The Evidence
 
@@ -61,7 +61,7 @@ The evidence for the individual actives lives on their own pages and on [[anti-a
 
 ## See Also
 
-[[anti-aging]], [[retinoids]], [[sunscreen-uv-filters]], [[lactic-acid]], [[ascorbic-acid-vitamin-c]], [[brightening]], [[hyperpigmentation]]
+[[anti-aging]], [[retinoids]], [[sunscreen-uv-filters]], [[lactic-acid]], [[ascorbic-acid-vitamin-c]], [[brightening]], [[hyperpigmentation]], [[sensitive-skin]], [[skin-barrier-repair]]
 
 ## Sources
 

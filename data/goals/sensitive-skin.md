@@ -30,7 +30,7 @@ type: goal
 updated: '2026-08-30'
 ---
 
-"Sensitive skin is a lay term rather than a medical diagnosis," DermNet notes, generally describing "skin with reduced tolerance to the application of cosmetics and personal care products."[^dermnet] It is remarkably common self-report: "approximately 50% of women and 40% of men may report having sensitive skin."[^dermnet] The honest framing is that this label describes a symptom pattern, often a barrier-function and reactivity issue, and not a diagnosis on its own; a real cause should be looked for and, where found, treated as itself.
+"Sensitive skin" is not a medical diagnosis. DermNet describes it as a lay term for "skin with reduced tolerance to the application of cosmetics and personal care products."[^dermnet] It is a remarkably common self-report: "approximately 50% of women and 40% of men may report having sensitive skin."[^dermnet] The skeptical bottom line: this label describes a symptom pattern, often a [[skin-barrier-repair|damaged skin barrier]] plus reactivity, not a single treatable disease. A real underlying cause should be looked for and, where found, treated directly rather than papered over with more "gentle" products.
 
 ## How to know you have this
 
@@ -38,7 +38,7 @@ Sensitive skin shows up as subjective symptoms (stinging, itching, burning) and/
 
 ## What is actually going on
 
-DermNet lists the recognized medical causes behind a "sensitive skin" complaint: irritant contact dermatitis, allergic contact dermatitis, contact urticaria, [[rosacea]], physical urticaria and dermographism, aquagenic pruritus, plain dry skin, [[atopic-dermatitis|eczema/dermatitis]] of any type, photodermatoses, and rarer causes like cutaneous mastocytosis.[^dermnet] The most common of these is irritant contact dermatitis (see [[contact-dermatitis]]), "an inflammatory response of the skin to (an) externally applied agent(s) or factor(s) without requiring prior sensitisation," meaning it is not an allergy.[^dermnet] Two forms show no visible rash at all: subjective/sensory irritation, where lactic acid and propylene glycol in cosmetics are common triggers of pure stinging and burning with no biopsy-visible inflammation, and non-erythematous irritation, where inflammation is present on biopsy despite no visible rash, often from ingredients like cocamidopropyl betaine.[^dermnet] Any form of eczema also predisposes to sensitive skin, since a disturbed barrier lets external irritants penetrate more easily and a second problem, like contact dermatitis to a product being used to treat the eczema, can be layered on top and overlooked.[^dermnet] Rosacea specifically can present as skin that suddenly stops tolerating a skincare product used uneventfully for years.[^dermnet]
+DermNet lists the recognized medical causes behind a "sensitive skin" complaint: irritant contact dermatitis, allergic contact dermatitis, contact urticaria, [[rosacea]], physical urticaria and dermographism, aquagenic pruritus, plain [[dry-skin]], [[atopic-dermatitis|eczema/dermatitis]] of any type, photodermatoses, and rarer causes like cutaneous mastocytosis.[^dermnet] The most common of these is irritant contact dermatitis (see [[contact-dermatitis]]), "an inflammatory response of the skin to (an) externally applied agent(s) or factor(s) without requiring prior sensitisation," meaning it is not an allergy.[^dermnet] Two forms show no visible rash at all: subjective/sensory irritation, where lactic acid and propylene glycol in cosmetics are common triggers of pure stinging and burning with no biopsy-visible inflammation, and non-erythematous irritation, where inflammation is present on biopsy despite no visible rash, often from ingredients like cocamidopropyl betaine.[^dermnet] Any form of eczema also predisposes to sensitive skin, since a disturbed barrier lets external irritants penetrate more easily and a second problem, like contact dermatitis to a product being used to treat the eczema, can be layered on top and overlooked.[^dermnet] Rosacea specifically can present as skin that suddenly stops tolerating a skincare product used uneventfully for years.[^dermnet]
 
 ## What actually works
 
@@ -59,6 +59,7 @@ DermNet's clinical reference summary anchors the causes and diagnostic categorie
 - [[skin-barrier-repair]] and [[moisturizing]] for the barrier-support approach that does most of the work here.
 - [[rosacea]] and [[atopic-dermatitis]] for the two most common diagnosable conditions that present as "sensitive skin."
 - [[contact-dermatitis]] for irritant and allergic contact dermatitis, the single most common cause behind the complaint.
+- [[dry-skin]] for plain dryness on its own, one of the simpler causes on the list above.
 - [[niacinamide]] for the soothing, barrier-supportive active.
 
 ## Sources
