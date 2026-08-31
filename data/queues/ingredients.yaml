@@ -947,7 +947,7 @@
 - name: Coal tar
   type: ingredient
   priority: 3
-  status: pending
+  status: done
   discovered_from: 'CONDITION cron (seb-derm/psoriasis): traditional anti-dandruff/scalp keratolytic-antifungal; DermNet lists
     it'
   source: https://dailymed.nlm.nih.gov/
