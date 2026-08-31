@@ -994,6 +994,14 @@ benzoyl-peroxide:
     claim removed). lint/verify/style clean. Escalated: 3rd primary for the no-resistance claim.'
   score: 8
   verdict: publish
+best-acne-spot-treatments:
+  last_reviewed: '2026-08-30'
+  note: 'LIST wave5. Best-of acne spot treatments. Opus critic (9): 3 slugs resolve, SA %s verbatim. Honest:
+    BPO best-evidenced (no on-site leave-on BPO spot gel yet, disclosed), SA milder, hydrocolloid patches
+    only help open lesions. Routes [[acne]]. No dashes. Opus critic inline (workflow pipeline); assurance
+    opus.'
+  score: 9
+  verdict: publish
 best-aha-exfoliant-products:
   last_reviewed: '2026-08-30'
   note: 'LIST wave3. Best-of AHA exfoliants. Opus critic (89): 8 slugs resolve, Stiller 1996 (8651713)/Smith
@@ -1034,6 +1042,14 @@ best-body-anti-aging-products:
     resolve; FIXED a ranking inversion (disclosed matched-dose actives now outrank undisclosed/below-range).
     Main-loop: not-just reworded, brand sources cached. No dashes. Opus critic inline (workflow pipeline);
     assurance opus.'
+  score: 9
+  verdict: publish
+best-centella-cica-products:
+  last_reviewed: '2026-08-30'
+  note: 'LIST wave5. Best-of centella/cica products. Opus critic (9): 7 slugs resolve; FIXED a Purito
+    ordering inversion (its centella sits near preservatives; BOJ centella is headline). Honest: centella
+    has real soothing evidence, better than most botanicals. Routes [[centella-asiatica]]. No dashes.
+    Opus critic inline (workflow pipeline); assurance opus.'
   score: 9
   verdict: publish
 best-ceramide-moisturizers:
@@ -1099,6 +1115,13 @@ best-face-moisturizers-by-evidence:
     inline (workflow pipeline); assurance opus.'
   score: 9
   verdict: publish
+best-facial-toners-by-evidence:
+  last_reviewed: '2026-08-30'
+  note: 'LIST wave5. Best-of facial toners. Opus critic (9): 8 slugs resolve. Honest: modern toners are
+    optional hydrating/actives steps not astringent strippers; a toner is only as good as its contents.
+    Main-loop: not-just reworded. No dashes. Opus critic inline (workflow pipeline); assurance opus.'
+  score: 9
+  verdict: publish
 best-fungal-acne-safe-products:
   last_reviewed: '2026-08-30'
   note: 'LIST wave3. Best-of fungal-acne-safe products. Opus critic (9): 9 slugs resolve, Cochrane (25933684)/Saunte
@@ -1161,6 +1184,14 @@ best-hydroquinone-free-brightening-products:
     industry-funded, azelaic independent). No dashes. Opus critic inline (workflow pipeline); assurance
     opus.'
   score: 9
+  verdict: publish
+best-korean-sunscreens:
+  last_reviewed: '2026-08-30'
+  note: 'LIST wave5. Best-of Korean sunscreens. Opus critic (88): 10 slugs resolve, CR stat + filter systems
+    verbatim; FIXED a Tinosorb-S monograph error (added to US OTC June 2026). Honest caveat: Korean SPF
+    not FDA-verified. Routes [[sunscreen-uv-filters]]. Main-loop: CR URL + AI-ese. No dashes. Opus critic
+    inline (workflow pipeline); assurance opus.'
+  score: 8
   verdict: publish
 best-mandelic-acid-products:
   last_reviewed: '2026-08-30'
@@ -1235,6 +1266,14 @@ best-products-dark-spots-hyperpigmentation:
     2018 oral TXA melasma RCT PMID 28987494) reused from verified pages; removed a mis-attributed ''beat
     HQ 2%'' stat (linked out to [[azelaic-acid]] instead). No dashes. Sonnet draft + own lint/verify/style
     check per list-cron flow.'
+  score: 9
+  verdict: publish
+best-products-for-irritated-skin:
+  last_reviewed: '2026-08-30'
+  note: 'LIST wave5. Best-of barrier-repair/soothing products for irritated skin. Opus critic (9): 10
+    slugs resolve, panthenol (Camargo 2011)/petrolatum verbatim; anchored orphaned footnotes. Honest:
+    STOP actives + simple ceramide/humectant/occlusive. Routes [[skin-barrier-repair]]/[[sensitive-skin]].
+    No dashes. Opus critic inline (workflow pipeline); assurance opus.'
   score: 9
   verdict: publish
 best-retinol-products-by-strength:
