@@ -515,9 +515,23 @@ Graded against controlled evidence, and framed relative to named comparators. Th
 
 Across these, the practical convergence is consistent: sun exposure (UV and visible light) drives the pigment, photoprotection is the one step that both treats and prevents relapse, and the depigmenting drugs produce modest gains that fade if the light exposure and, for melasma, the underlying tendency are not managed.[^liu][^castanedo][^delrosario][^handel]
 
+## A Practical Routine, and the Products That Deliver It
+
+The order of operations matters more than any single hero product: protect first, then layer one or two tyrosinase inhibitors, and give it months.
+
+- **Sun protection is the treatment, not an add-on.** Daily broad-spectrum sunscreen prevents new pigment and protects every other step; for melasma and darker skin, a tinted (iron-oxide) sunscreen adds visible-light protection that clear formulas lack. Filters are on [[sunscreen-uv-filters]], the visible-light case on [[iron-oxides]], and tinted mineral picks on [[best-mineral-sunscreens-by-evidence]].
+- **A first-line brightener.** Prescription [[hydroquinone]] is the benchmark; the strongest non-hydroquinone options are [[azelaic-acid]] and [[thiamidol]] (which matched hydroquinone in a trial), with [[tranexamic-acid]] especially for melasma. Hydroquinone-free product picks are on [[best-hydroquinone-free-brightening-products]], tranexamic acid on [[best-tranexamic-acid-products]], and the overall best-of on [[best-products-dark-spots-hyperpigmentation]].
+- **A retinoid at night** speeds cell turnover and helps other actives work, though it can irritate and irritation itself can darken deeper skin; forms are on [[retinoids]].
+- **Gentle exfoliation, optional.** A mild acid ([[mandelic-acid]] is the lowest-irritation choice for sensitive or darker skin, see [[best-mandelic-acid-products]]) can help, but over-exfoliation causes the very inflammation that drives pigment.
+- **Match the target to the color.** Brown pigment responds to the above; flat red marks after acne are vascular, not melanin, and are covered on [[post-inflammatory-erythema]] (melanin-brighteners are the wrong tool there). The umbrella view is on [[even-skin-tone]].
+
+Expect months, not weeks, and treat the cause: fading marks while new acne or unprotected sun exposure keeps forming them is why so many people feel stuck.
+
 ## See Also
 
-[[hydroquinone]], [[tranexamic-acid]], [[azelaic-acid]], [[niacinamide]], [[ascorbic-acid-vitamin-c]], [[tretinoin]], [[sunscreen-uv-filters]], [[acne]], [[anti-aging]]
+- Actives: [[hydroquinone]], [[azelaic-acid]], [[thiamidol]], [[tranexamic-acid]], [[niacinamide]], [[ascorbic-acid-vitamin-c]], [[retinoids]], [[kojic-acid]], [[arbutin]], [[malassezin]], [[iron-oxides]].
+- Best-of product lists: [[best-products-dark-spots-hyperpigmentation]], [[best-hydroquinone-free-brightening-products]], [[best-tranexamic-acid-products]], [[best-mandelic-acid-products]].
+- Related concerns: [[melasma]], [[brightening]], [[post-inflammatory-erythema]], [[even-skin-tone]], [[dark-circles]], [[acne]], [[anti-aging]].
 
 ## Sources
 

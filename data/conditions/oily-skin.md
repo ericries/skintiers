@@ -30,7 +30,7 @@ tier_list:
     tier: weak
   title: Oily-skin actives by evidence
 type: condition
-updated: '2026-08-15'
+updated: '2026-08-30'
 ---
 
 Oily skin (seborrhea) is the everyday name for skin that produces more sebum than average, which Sakuma and Maibach describe as oversized sebaceous glands that "produce excessive amounts of sebum giving the appearance of shiny and greasy skin."[^sakuma] It is a skin type and a cosmetic complaint rather than a disease, though the same excess sebum feeds acne and seborrhoeic dermatitis. There are two things people mean by "controlling oil": actually reducing how much sebum the glands make (a change in skin biology), and mopping up or hiding the oil already on the surface (appearance only). Only one intervention, oral isotretinoin, durably lowers production, and it is a prescription drug used for acne, not for oiliness alone; almost everything sold for oily skin works on the surface.[^landthaler][^endly][^draelos]
@@ -108,7 +108,9 @@ K-beauty routines aimed at oily and combination skin lean on light textures and 
 
 ## See Also
 
-[[acne]], [[niacinamide]], [[retinoids]], [[salicylic-acid]], [[azelaic-acid]], [[differin-adapalene-0-1-gel]], [[the-ordinary-niacinamide-10-zinc-1]], [[paulas-choice-skin-perfecting-2-bha]]
+- Actives: [[niacinamide]], [[retinoids]], [[salicylic-acid]], [[azelaic-acid]].
+- Products and lists: [[differin-adapalene-0-1-gel]], [[the-ordinary-niacinamide-10-zinc-1]], [[paulas-choice-skin-perfecting-2-bha]], and the roundups on [[best-cleansers-for-oily-acne-prone-skin]], [[best-salicylic-acid-bha-products]], and [[best-benzoyl-peroxide-products]].
+- Related concerns: [[acne]], [[blackheads-clogged-pores]], [[enlarged-pores]], [[body-acne]], [[fungal-acne]].
 
 ## Sources
 
