@@ -1689,25 +1689,25 @@
 - name: Medik8 Liquid Peptides
   type: product
   priority: 4
-  status: pending
+  status: done
   discovered_from: PERSON cron (Alexis Stephens; multi-peptide serum)
   source: https://www.medik8.com/
 - name: Nizoral Anti-Dandruff Shampoo 2% (prescription)
   type: product
   priority: 3
-  status: pending
+  status: done
   discovered_from: 'LIST cron: the 2% Rx strength of the ketoconazole shampoo (site has the 1% OTC); Cochrane shows 2% > 1%'
   source: https://dailymed.nlm.nih.gov/
 - name: Emepelle Serum (Biopelle, MEP-based)
   type: product
   priority: 4
-  status: pending
+  status: done
   discovered_from: anti-aging-perimenopause
   source: https://www.youtube.com/watch?v=sGqERq0xBxc
 - name: Cetaphil Daily Oil-Free Facial Moisturizer SPF 35
   type: product
   priority: 4
-  status: pending
+  status: done
   discovered_from: cetaphil-daily-facial-moisturizer-spf-50
   source: DailyMed FDA label setid f5eb347f-0d46-4de6-8f3f-9010327678ed (avobenzone 2.8%, homosalate 9.5%, octisalate 4.8%,
     octocrylene) - the modern avobenzone-based sibling; useful contrast to the SPF 50's legacy oxybenzone set
@@ -1878,7 +1878,7 @@
 - name: Mederma Quick Dry Oil (stretch mark oil)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: mederma-stretch-marks-therapy
   source: Mederma's stretch-mark oil sibling to the therapy cream; brand product page; ties to stretch-marks cluster
 - name: Head & Shoulders Clinical Strength Dandruff Defense Sensitive Scalp (selenium sulfide)
@@ -1955,7 +1955,7 @@
 - name: DermaHarmony 2% Pyrithione Zinc Bar Soap
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: vanicream-z-bar-pyrithione-zinc
   source: Another OTC 2% pyrithione zinc cleansing bar for seb-derm/fungal acne; DailyMed-labeled; complements the zinc-pyrithione
     set

@@ -2084,6 +2084,13 @@ cetaphil-daily-facial-moisturizer-spf-50:
     critic agent unavailable (cap); verified in the Opus main loop; assurance sonnet.'
   score: 9
   verdict: publish
+cetaphil-daily-oil-free-facial-moisturizer-spf-35:
+  last_reviewed: '2026-08-30'
+  note: 'PRODUCT wave7. OTC SPF 35 oil-free moisturizer. Opus critic (93): actives/inactives/uses + brand
+    claims verbatim vs DailyMed SPL f5eb347f + cetaphil.com; fixed 24-hours quote. Links [[sunscreen-uv-filters]]/[[oily-skin]].
+    No dashes. Opus critic inline (workflow pipeline); assurance opus.'
+  score: 9
+  verdict: publish
 cetaphil-gentle-foaming-cleanser:
   last_reviewed: '2026-08-08'
   note: 'Opus focused review verified all product-specific facts against cached Cetaphil brand page and
@@ -2689,6 +2696,14 @@ deo-2013-kojic-acid-combinations-rct:
     '
   score: 10
   verdict: publish
+dermaharmony-2-pyrithione-zinc-bar-soap:
+  last_reviewed: '2026-08-30'
+  note: 'PRODUCT wave7. OTC pyrithione zinc 2% bar soap. Opus critic (93): actives/inactives/NDC/price
+    verbatim vs DailyMed + brand + 21 CFR 358.710; added [^cfr] footnote for the monograph range quote.
+    Body use for seb-derm/[[fungal-acne]]. OUT to [[zinc-pyrithione]]. No dashes. Opus critic inline (workflow
+    pipeline); assurance opus.'
+  score: 9
+  verdict: publish
 desai-2025-thiamidol-formulations-facial-hyperpigmentation-pmid-41329151:
   last_reviewed: '2026-08-30'
   note: 'STUDY wave. Thiamidol serum vs regimen for facial hyperpigmentation, n=90, 12wk. All figures
@@ -3194,6 +3209,16 @@ eltamd-uv-physical-tinted-mineral-spf-41:
     actives/quotes/price verbatim vs DailyMed SPL + eltamd.com; fixed broken sibling wikilink + restored
     label typo "ethylkhexyl stearate" verbatim. Links [[sunscreen-uv-filters]]/[[iron-oxides]]. No dashes.
     Opus critic inline (workflow pipeline); assurance opus.'
+  score: 8
+  verdict: publish
+emepelle-serum-mep:
+  last_reviewed: '2026-08-30'
+  note: 'PRODUCT wave7. Cosmetic MEP (methyl estradiolpropanoate) serum for perimenopausal skin, $175.
+    Opus critic (8) FIXED a false thesis (draft claimed MEP has ZERO literature; critic found 4 papers
+    incl. a vehicle-controlled RCT Draelos PMID 30500138 + Grade-C review, rewrote whole Evidence section).
+    Skeptical: novel ingredient, industry-linked, combination studies. OUT to [[anti-aging-perimenopause]].
+    Main-loop: meta/in-house reworded, incidecoder->inline. No dashes. Opus critic inline (workflow pipeline);
+    assurance opus.'
   score: 8
   verdict: publish
 emrosi-minocycline-extended-release:
@@ -5480,6 +5505,15 @@ mederma-advanced-scar-gel:
     (workflow pipeline); assurance opus.
   score: 9
   verdict: publish
+mederma-quick-dry-oil:
+  last_reviewed: '2026-08-30'
+  note: 'PRODUCT wave7. Cosmetic 32-oil scar/stretch-mark blend. Opus critic (8): INCI/claims verbatim;
+    FIXED an Evidence mischaracterization (removed false silicone-beats-it-head-to-head claim; onion extract
+    beats nothing but no-treatment). Skeptical: emollient, weak scar/striae evidence. OUT to [[allium-cepa-onion-extract]]/[[stretch-marks]].
+    Sibling [[mederma-advanced-scar-gel]]. incidecoder->inline. No dashes. Opus critic inline (workflow
+    pipeline); assurance opus.'
+  score: 8
+  verdict: publish
 mederma-stretch-marks-therapy:
   last_reviewed: '2026-08-22'
   note: 'PRODUCT cron (stretch-marks cluster). Composition + all brand claims verified VERBATIM against
@@ -5603,6 +5637,14 @@ medik8-crystal-retinal-6:
     at assurance=sonnet (force); sources Opus-re-verified.'
   score: 8
   verdict: revise-then-fixed
+medik8-liquid-peptides:
+  last_reviewed: '2026-08-30'
+  note: 'PRODUCT wave7. Cosmetic 10-peptide serum. Opus critic (92): INCI verbatim vs incidecoder + brand
+    quotes/SKU verbatim vs medik8.com. Peptide evidence OUT to [[peptides]] (thin, no trial of serum).
+    Main-loop: dropped GBP price (USD-only price check), incidecoder footnote->inline. No dashes. Opus
+    critic inline (workflow pipeline); assurance opus.'
+  score: 9
+  verdict: publish
 melasma:
   last_reviewed: '2026-08-10'
   note: 'Melasma condition hub (visible-light protection first; graded topical actives + honest relapse/procedure
@@ -6341,6 +6383,14 @@ nizoral-anti-dandruff-shampoo-ketoconazole-1:
     + linked. Gates clean; force-published.'
   score: 8
   verdict: revise-then-fixed
+nizoral-anti-dandruff-shampoo-ketoconazole-2:
+  last_reviewed: '2026-08-30'
+  note: 'PRODUCT wave7. Rx ketoconazole 2% shampoo (site had 1% OTC). Opus critic (93): label quotes/trial
+    stats + Cochrane 2%>1% (RR 0.55) verbatim vs DailyMed. FDA-labeled for tinea versicolor; seb-derm
+    is off-label (honest). Sibling [[nizoral-anti-dandruff-shampoo-ketoconazole-1]]. Main-loop: not-just
+    reworded. No dashes. Opus critic inline (workflow pipeline); assurance opus.'
+  score: 9
+  verdict: publish
 nukaly-2026-oral-topical-peptides-skin-aging-meta-analysis:
   last_reviewed: '2026-08-19'
   note: 'Study cron: compact structured meta-analysis page. Every quote + stat verified VERBATIM against
