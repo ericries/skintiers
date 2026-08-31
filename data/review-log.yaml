@@ -1059,6 +1059,22 @@ best-ceramide-moisturizers:
     '
   score: 9
   verdict: self-reviewed
+best-cerave-products:
+  last_reviewed: '2026-08-30'
+  note: 'LIST wave4. CeraVe brand roundup. Opus critic (91): all 17 slugs resolve, DailyMed actives verbatim;
+    FIXED a blocking urea error (SA Body Lotion has ammonium lactate not urea, split into 2 accurate entries).
+    Honest first-line-vs-adjunct. Routes [[moisturizing]]/[[ceramides]]. No dashes. Opus critic inline
+    (workflow pipeline); assurance opus.'
+  score: 9
+  verdict: publish
+best-cleansers-for-oily-acne-prone-skin:
+  last_reviewed: '2026-08-30'
+  note: 'LIST wave4. Best-of oily/acne cleansers. Opus critic (9): 7 slugs resolve, FDA monograph ranges
+    verified. Honest: cleansing does not treat acne alone; medicated washes short-contact so leave-on
+    matters more. Routes [[oily-skin]]/[[acne]]. Main-loop: leverage->reworded. No dashes. Opus critic
+    inline (workflow pipeline); assurance opus.'
+  score: 9
+  verdict: publish
 best-eczema-moisturizers-by-evidence:
   last_reviewed: '2026-08-30'
   note: 'LIST wave2. Best-of eczema moisturizers. Opus critic (9): all 9 slugs resolve, Cochrane (PMID
@@ -1130,12 +1146,28 @@ best-hyaluronic-acid-products:
     Routes [[hyaluronic-acid]]. No dashes. Opus critic inline (workflow pipeline); assurance opus.'
   score: 9
   verdict: publish
+best-hydrating-serums-for-dry-skin:
+  last_reviewed: '2026-08-30'
+  note: 'LIST wave4. Best-of hydrating serums for dry skin. Opus critic (9): 6 slugs resolve, product
+    claims verbatim; brand-run figures flagged uncontrolled. Honest: humectant needs occlusive on top.
+    Routes [[dry-skin]]/[[hyaluronic-acid]]. Main-loop: in-house reworded. No dashes. Opus critic inline
+    (workflow pipeline); assurance opus.'
+  score: 9
+  verdict: publish
 best-hydroquinone-free-brightening-products:
   last_reviewed: '2026-08-30'
   note: 'LIST wave. Best-of hydroquinone-free brightening products. Opus critic (9): all 13 product slugs
     resolve, thiamidol PMID 30825454 verbatim; fixed a thiamidol-vs-azelaic evidence contradiction (thiamidol
     industry-funded, azelaic independent). No dashes. Opus critic inline (workflow pipeline); assurance
     opus.'
+  score: 9
+  verdict: publish
+best-mandelic-acid-products:
+  last_reviewed: '2026-08-30'
+  note: 'LIST wave4. Best-of mandelic acid products. Opus critic (9): 2 slugs resolve, Malviya 2025 (41051381)
+    verbatim; fixed wrong author initial + invented title. Honest: gentler AHA for sensitive/darker skin,
+    thinner isolated evidence. Routes [[mandelic-acid]]. Main-loop: malviya URL. No dashes. Opus critic
+    inline (workflow pipeline); assurance opus.'
   score: 9
   verdict: publish
 best-mineral-sunscreens-by-evidence:
@@ -1257,6 +1289,14 @@ best-sunscreens-daily-wear:
     '
   score: 9
   verdict: self-reviewed
+best-tranexamic-acid-products:
+  last_reviewed: '2026-08-30'
+  note: 'LIST wave4. Best-of topical TXA products for melasma. Opus critic (92): 7 slugs resolve, Del
+    Rosario 2018 (28987494) 49% vs 18% verbatim; removed stray </content> tag. Honest: oral TXA strongest,
+    topical less. Routes [[tranexamic-acid]]/[[melasma]]. Main-loop: 3 footnote URLs. No dashes. Opus
+    critic inline (workflow pipeline); assurance opus.'
+  score: 9
+  verdict: publish
 best-vitamin-c-serums:
   last_reviewed: '2026-08-03'
   note: 'Best-of list filled (daily list cron; Sonnet draft + my own check, no Opus critic per the curatorial
@@ -1300,6 +1340,14 @@ best-vitamin-c-serums-by-evidence:
     2005/Murray 2008 verbatim vs eutils. Honest: L-ascorbic gold-standard (CE Ferulic + dupes) top, derivatives
     bottom. Routes [[ascorbic-acid-vitamin-c]]. No dashes. Opus critic inline (workflow pipeline); assurance
     opus.'
+  score: 9
+  verdict: publish
+best-vitamin-e-products:
+  last_reviewed: '2026-08-30'
+  note: 'LIST wave4. Best-of vitamin E products. Opus critic (9): 6 slugs resolve, Keen/Murray/Lin verbatim
+    vs PMC+eutils; SWAPPED Trader Joe/Timeless order to match disclosed-CEFer criterion. Honest: E weak
+    solo, valuable w/vitamin C. Routes [[tocopherol]]. No dashes. Opus critic inline (workflow pipeline);
+    assurance opus.'
   score: 9
   verdict: publish
 beta-glucan:
@@ -1433,6 +1481,14 @@ black-girl-sunscreen-spf-30:
     '
   score: 9
   verdict: revise-then-published
+blackheads-clogged-pores:
+  last_reviewed: '2026-08-30'
+  note: 'NEW HUB (goal). Open comedones. Opus critic (9): all 5 slugs + DermNet/StatPearls/JAMA(15304471)/adapalene(17567301)
+    verbatim; added disclaimer. HONEST: blackheads are oxidized sebum NOT dirt (scrubbing/pore strips/detox
+    debunked), retinoids the real fix, weeks-to-months. tier_list [[retinoids]]/[[salicylic-acid]]/[[adapalene]]/[[azelaic-acid]]/[[benzoyl-peroxide]].
+    No dashes. Opus critic inline (workflow pipeline); assurance opus.'
+  score: 9
+  verdict: publish
 bleicher-1987-metronidazole-0-75-gel-vehicle-controlled-rosacea-rct:
   last_reviewed: '2026-08-08'
   note: 'Opus re-fetched PubMed PMID 2953312 and confirmed every quoted phrase is verbatim and every number
@@ -1605,6 +1661,14 @@ caudalie-vinopure-acne-serum:
     list misread as concentration order; removed unsourced rename + added-conversion; added omitted sunflower
     oil.'
   score: 5
+  verdict: publish
+cellulite:
+  last_reviewed: '2026-08-30'
+  note: 'NEW HUB (condition). Opus critic (9): both slugs + DermNet verbatim; added disclaimer. HONEST
+    skeptical: cellulite is a NORMAL structural feature of female fat, not a disease/toxin; NO cream/massage/detox
+    removes it; procedures modest+temporary. tier_list [[caffeine]] (transient)/[[retinoids]] (thin).
+    No dashes. Opus critic inline (workflow pipeline); assurance opus.'
+  score: 9
   verdict: publish
 centella-asiatica:
   last_reviewed: '2026-07-28'
@@ -3293,6 +3357,14 @@ eucerin-roughness-relief-lotion:
     '
   score: 9
   verdict: revise-then-published
+even-skin-tone:
+  last_reviewed: '2026-08-30'
+  note: 'NEW HUB (goal, DISCOVERY). Umbrella routing brown ([[hyperpigmentation]]/[[melasma]]) vs red
+    ([[post-inflammatory-erythema]]) vs dullness. Opus critic (9): all slugs resolve. HONEST: identify
+    WHICH unevenness since treatments differ; sun protection underlies all. tier_list [[sunscreen-uv-filters]]/[[retinoids]]/[[niacinamide]]/[[azelaic-acid]]/[[ascorbic-acid-vitamin-c]].
+    No dashes. Opus critic inline (workflow pipeline); assurance opus.'
+  score: 9
+  verdict: publish
 exfoliating-acids-by-strength:
   last_reviewed: '2026-08-11'
   note: 'Exfoliating Acids by Strength tier list (LIST cron, inline curatorial, Phase B new ladder family).
@@ -3438,6 +3510,15 @@ ezerskaia-2017-optical-measurement-of-skin-gloss:
 
     '
   score: 10
+  verdict: publish
+facial-redness-relief:
+  last_reviewed: '2026-08-30'
+  note: 'NEW HUB (goal). General facial redness. Opus critic (9): all slugs + DermNet/azelaic(Elewski
+    56/42 P=.02)/Cochrane verbatim; fixed bare [[sunscreen]] link, AI-ese, misattributed footnote, added
+    disclaimer. HONEST: redness is a SYMPTOM, find cause ([[rosacea]]/[[seborrheic-dermatitis]]/[[atopic-dermatitis]]);
+    vessels=laser/brimonidine out of scope. No dashes. Opus critic inline (workflow pipeline); assurance
+    opus.'
+  score: 9
   verdict: publish
 farris-2026-beyond-efficacy-0-6-selenium-disulfide-shampoo-matches-2-k:
   last_reviewed: '2026-08-08'
@@ -7024,6 +7105,15 @@ polysilicone-15:
     (force) since no fresh publish verdict, though sources are Opus-re-verified.'
   score: 8
   verdict: revise-then-fixed
+post-inflammatory-erythema:
+  last_reviewed: '2026-08-30'
+  note: 'NEW HUB (condition). PIE = flat RED marks after acne (vascular), distinct from brown PIH. Opus
+    critic (9): all 5 slugs + DermNet + Lopez (42234395) verbatim; added disclaimer. HONEST: self-fades
+    over months w/sun protection, topicals modest, red not brown so melanin-brighteners wrong target,
+    persistent = laser. tier_list [[sunscreen-uv-filters]]/[[niacinamide]]/[[azelaic-acid]]/[[retinoids]].
+    No dashes. Opus critic inline (workflow pipeline); assurance opus.'
+  score: 9
+  verdict: publish
 pramoxine-hydrochloride:
   last_reviewed: '2026-08-23'
   note: 'PARALLEL wave3: Sonnet draft + Opus critic REVISE (7); fixed: added the required ## The Evidence
@@ -8080,6 +8170,14 @@ skin-barrier-strengthening:
     (colloidal-oatmeal/dimethicone kept moderate rather than the page''s looser Tier-1 grouping); probiotics
     (overhyped) excluded. No new claims; all 10 slugs resolve; gates clean.'
   score: 8
+  verdict: publish
+skin-firmness-elasticity:
+  last_reviewed: '2026-08-30'
+  note: 'NEW HUB (goal). Opus critic (95): all 4 slugs + wikilinks resolve. HONEST: topicals modestly
+    firm the SURFACE but cannot lift deeper structural sagging (fat-pad/bone loss = procedures); tightening
+    creams overpromise. tier_list [[sunscreen-uv-filters]]/[[retinoids]]/[[ascorbic-acid-vitamin-c]]/[[peptides]].
+    Links OUT to [[anti-aging]]. No dashes. Opus critic inline (workflow pipeline); assurance opus.'
+  score: 9
   verdict: publish
 skin1004:
   last_reviewed: '2026-08-08'
