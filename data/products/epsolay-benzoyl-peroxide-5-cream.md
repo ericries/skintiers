@@ -3,6 +3,10 @@ analyzed: '2026-08-30'
 assurance: opus
 brand: Galderma
 category: Treatments
+images:
+- file: epsolay-benzoyl-peroxide-5-cream-incidecoder.jpg
+  source: incidecoder
+  source_url: https://incidecoder.com/products/epsolay-benzoyl-peroxide-cream-5
 comparator: the first FDA-approved [[benzoyl-peroxide]] formulation for [[rosacea-papulopustular|rosacea]],
   via silica microencapsulation that slow-releases the drug instead of applying it
   unencapsulated

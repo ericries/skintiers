@@ -3,6 +3,10 @@ analyzed: '2026-08-30'
 assurance: opus
 brand: Bausch Health (Loprox brand discontinued; sold generically)
 category: Treatments
+image_unresolvable: 'Rx-only, discontinued brand now sold only as generic; no incidecoder
+  page; DailyMed label page has no product photos; not stocked with photos at major
+  retailers (Walmart/Amazon) since it requires a prescription; GoodRx/drugs.com/WebMD
+  pages returned no usable product image (blocked or generic logo only)'
 comparator: other prescription antifungal shampoos for [[seborrheic-dermatitis]]
 grades:
 - effect: notable

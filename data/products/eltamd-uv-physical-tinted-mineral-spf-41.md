@@ -3,6 +3,10 @@ analyzed: '2026-08-30'
 assurance: opus
 brand: EltaMD
 category: Sunscreens
+images:
+- file: eltamd-uv-physical-tinted-mineral-spf-41-incidecoder.jpg
+  source: incidecoder
+  source_url: https://incidecoder.com/products/eltamd-uv-physical-broad-spectrum-spf-41
 comparator: other tinted mineral facial sunscreens, and EltaMD's own chemical-mineral
   hybrid tinted sunscreens like [[eltamd-uv-daily-tinted-broad-spectrum-spf-40]]
 grades:

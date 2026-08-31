@@ -3,6 +3,10 @@ analyzed: '2026-08-30'
 assurance: opus
 brand: Head & Shoulders
 category: Treatments
+images:
+- file: head-shoulders-clinical-strength-dandruff-defense-sensitive-scalp-selenium-sulfide-walmart.jpg
+  source: Walmart
+  source_url: https://www.walmart.com/ip/Head-Shoulders-Clinical-Dandruff-Defense-Sensitive-Shampoo-13-5oz/891485742
 grades:
 - effect: notable
   evidence: established

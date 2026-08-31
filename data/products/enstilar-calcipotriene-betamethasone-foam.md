@@ -3,6 +3,9 @@ analyzed: '2026-08-30'
 assurance: opus
 brand: LEO Pharma
 category: Treatments
+image_unresolvable: 'Rx foam; no incidecoder page; DailyMed label page has no product
+  photos (structure/logo images only); brand site enstilar.com is a JS-SPA with no
+  clean og:image or product photo, only the LEO Pharma logo asset'
 comparator: the strongest fixed-combination topical regimen for [[psoriasis]]
 grades:
 - effect: notable
