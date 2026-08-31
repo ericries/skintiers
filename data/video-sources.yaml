@@ -272,7 +272,7 @@
   channel: https://www.tiktok.com/@ranellamd
   product_recs: restricted
   conflict: null
-  last_pulled: '2026-08-26'
+  last_pulled: '2026-08-30'
 - name: Fatima Fahs
   creator_slug: fatima-fahs
   credential: Dermatologist (MD)
@@ -346,7 +346,7 @@
   channel: https://www.tiktok.com/@dr.sheila_derm
   product_recs: restricted
   conflict: Self-describes as a "Key Opinion Leader for industry beauty companies" (per her own practice bio) and most sampled TikTok videos e; no YouTube; TikTok/IG intake
-  last_pulled: '2026-08-16'
+  last_pulled: '2026-08-30'
 - name: Dr Thivi Maruthappu
   creator_slug: thivi-maruthappu
   credential: Consultant dermatologist
@@ -420,7 +420,7 @@
   channel: https://www.tiktok.com/@dr.iferodney
   product_recs: restricted
   conflict: Founder & CEO of own hair-care brand, BLCK Hair Care (@blckhaircare), promoted in her Instagram bio — a product-formulation/owners
-  last_pulled: '2026-08-16'
+  last_pulled: '2026-08-30'
 - name: Dr. Chris Tomassian
   creator_slug: chris-tomassian
   credential: Board-certified dermatologist
@@ -428,7 +428,7 @@
   channel: https://www.tiktok.com/@dr.tomassian
   product_recs: ok
   conflict: Bio includes a business/booking contact email suggesting managed brand partnerships; no confirmed own-brand line or affiliate stor
-  last_pulled: '2026-08-16'
+  last_pulled: '2026-08-30'
 - name: Dr. Neera Nathan
   creator_slug: neera-nathan
   backfill_cursor: 0

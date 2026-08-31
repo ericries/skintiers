@@ -48,6 +48,16 @@ videos:
   related: []
   thesis: 'Board-certified dermatologist Dr. Neera Nathan explains that the small persistent bumps many people see on the chin and nose are not pimples or milia but sebaceous filaments, normal pore structures that cannot be eliminated but can be minimized. She offers three derm-approved approaches: a sulfur mask left on 10 minutes to break down debris and reduce surface oiliness, a salicylic acid cleanser to exfoliate and cut sebum without stripping the skin barrier, and a pea-sized amount of adapalene gel, which she says is unmatched over-the-counter for keeping pores clear and appearing smaller.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Dr. Sheila Farhang explains why back acne hurts and how to treat it
+  creator: Dr. Sheila Farhang (dr.sheila_derm)
+  creator_slug: sheila-farhang
+  credential: Board-certified dermatologist
+  platform: TikTok
+  url: https://www.tiktok.com/@dr.sheila_derm/video/7676886999835430174
+  posted: '2026-08-22'
+  related: [acne, sheila-farhang]
+  thesis: 'Board-certified dermatologist Dr. Sheila Farhang explains why back acne (bacne) is more painful than facial acne: the skin on the back is thicker and oilier with larger follicles, so clogged pores trap inflammation deep in the skin with little room to expand. She recommends a benzoyl peroxide wash from the neck down to reduce bacteria, a salicylic acid spray to cut oil clogging pores, and a chemical exfoliant to boost cell turnover and help fade scars, and notes that large or scarring lesions may need an in-office cortisone injection or other medical treatment from a dermatologist'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

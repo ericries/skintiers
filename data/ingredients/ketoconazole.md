@@ -7,6 +7,18 @@ status: published
 tier: good
 type: ingredient
 updated: '2026-08-19'
+videos:
+- title: 5 ingredients that are worth it from a dermatologist
+  creator: Dr. Chris Tomassian
+  creator_slug: chris-tomassian
+  credential: Board-certified dermatologist
+  platform: TikTok
+  url: https://www.tiktok.com/@dr.tomassian/video/7679209722293144846
+  posted: '2026-08-28'
+  related: [hyperpigmentation, body-acne, folliculitis, fungal-acne, hair-loss-thinning]
+  thesis: 'Dr. Chris Tomassian, a board-certified dermatologist, names five skincare ingredients he considers worth using: hydroquinone for dark spots, tretinoin as the long-term gold standard for anti-aging despite causing irritation and dryness, hypochlorous acid for body acne and scalp folliculitis, vitamin C for an instant glow plus collagen support and dark spot fading, and ketoconazole for dandruff, fungal acne, and hormonal hair loss. He gives a one-line reason for each rather than detailed instructions'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Ketoconazole is an azole antifungal, sold in medicated shampoos and creams over the counter at 1% and by prescription at 2%, whose best-evidenced use is clearing the flaking, scaling, and itch of dandruff and seborrhoeic dermatitis by suppressing the scalp yeast Malassezia.[^cochrane][^label]

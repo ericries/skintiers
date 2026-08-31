@@ -34,6 +34,18 @@ tier_list:
   title: What actually calms redness (once you know the cause)
 type: goal
 updated: '2026-08-30'
+videos:
+- title: How lasers work on skin, not just hair removal
+  creator: Dr. Ife Rodney (@driferodney)
+  creator_slug: ife-rodney
+  credential: Board-certified dermatologist
+  platform: TikTok
+  url: https://www.tiktok.com/@dr.iferodney/video/7678436584059882765
+  posted: '2026-08-26'
+  related: [poikiloderma-of-civatte]
+  thesis: Dr. Ife Rodney, a board-certified dermatologist, breaks down the mechanism behind laser treatments. She explains that lasers target specific pigments, brown melanin in laser hair removal heats and destroys the follicle, while red pigment in blood vessels absorbs laser energy to seal off unwanted vessels for redness. She cautions that a laser must be tuned to avoid absorption by normal surface skin pigment, since mismatched targeting can cause burning and discoloration, especially in brown and darker skin types
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 "Facial redness" is not one condition, it's a symptom, and the cause determines what actually helps. In someone with recurring centrofacial flushing and visible blood vessels, the cause is likely [[rosacea]] and specifically its erythematotelangiectatic form ([[rosacea-erythematotelangiectatic]]). In someone with flaky, salmon-pink patches around the nose, brows, and hairline, it's more likely [[seborrheic-dermatitis]]. Itchy, dry, ill-defined redness points to [[atopic-dermatitis]] or a reaction to a specific product ([[contact-dermatitis]]). And redness that flares with new products, weather, or over-exfoliation without a clear rash pattern is often just a barrier problem: see [[sensitive-skin]]. A single sunburn is its own transient cause and resolves with time and sun avoidance, not with the treatments below.

@@ -49,6 +49,18 @@ tier_list:
   title: Topical options for back and chest acne, by evidence
 type: condition
 updated: '2026-08-26'
+videos:
+- title: Dr. Sheila Farhang explains why back acne hurts and how to treat it
+  creator: Dr. Sheila Farhang (dr.sheila_derm)
+  creator_slug: sheila-farhang
+  credential: Board-certified dermatologist
+  platform: TikTok
+  url: https://www.tiktok.com/@dr.sheila_derm/video/7676886999835430174
+  posted: '2026-08-22'
+  related: [acne, sheila-farhang]
+  thesis: 'Board-certified dermatologist Dr. Sheila Farhang explains why back acne (bacne) is more painful than facial acne: the skin on the back is thicker and oilier with larger follicles, so clogged pores trap inflammation deep in the skin with little room to expand. She recommends a benzoyl peroxide wash from the neck down to reduce bacteria, a salicylic acid spray to cut oil clogging pores, and a chemical exfoliant to boost cell turnover and help fade scars, and notes that large or scarring lesions may need an in-office cortisone injection or other medical treatment from a dermatologist'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Body acne, most often on the back and chest, is ordinary [[acne]] appearing on the trunk rather than a separate disease. StatPearls notes that acne occurs "on the affected individuals' face, neck, chest, upper back, and upper arm areas, where large, hormonally responsive sebaceous glands are abundant," so the trunk is affected for the same reason the face is.[^statpearls] The mechanism is identical: the same four processes, "Increased sebum production (seborrhea), Follicular hyperkeratinization, *C acnes*... Inflammation," drive lesions wherever they form, and the full evidence and grading live on [[acne]] and are not repeated here.[^statpearls]

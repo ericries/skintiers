@@ -77,6 +77,16 @@ videos:
   related: [tretinoin]
   thesis: Board-certified dermatologist Dr. Jenny Liu reacts to seven viral TikTok skincare trends and rates each. She says snail mucin (like COSRX's) is a mild, essentially upgraded hyaluronic acid serum with only preliminary efficacy data, not a must-have; beef tallow as moisturizer she avoids entirely, noting its fatty-acid profile resembles sebum and can worsen acne, plus raw tallow can go rancid or harbor bacteria; and liquid chlorophyll drops have little supporting data and aren't worth the money, with supplements generally carrying under-recognized liver-injury and drug-interaction risks. She endorses skin cycling and fermented-ingredient toners/essences (citing SK-II's Pitera essence) as legitimate but optional, and says a daily vitamin C serum in the morning plus a topical retinoid at night covers the majority of what most patients need for aging, texture, and tone, cautioning that not all vitamin C serums are equally effective.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Skincare for those with no time
+  creator: Dr. Chris Tomassian
+  creator_slug: chris-tomassian
+  credential: Board-certified dermatologist
+  platform: TikTok
+  url: https://www.tiktok.com/@dr.tomassian/video/7678836627141070094
+  posted: '2026-08-27'
+  related: []
+  thesis: 'Board-certified dermatologist Dr. Chris Tomassian, a new dad with almost no time, shares a stripped-down routine: in the morning just splash water, apply an antioxidant like vitamin C serum, then a moisturizer-sunscreen combo, under a minute total. At night, cleanse for about 30 seconds, apply a retinol, retinal, or retinoid, then moisturize, under 90 seconds. He frames it as focusing on the ingredients with the biggest proven benefit and staying consistent rather than doing an elaborate routine'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

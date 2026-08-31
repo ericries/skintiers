@@ -188,6 +188,16 @@ videos:
   related: []
   thesis: Board-certified dermatologist Dr. Neera Nathan reacts to viral skincare trends and explains which ones actually hold up. She says zinc oxide diaper rash cream applied at night acts as a skin protectant and anti-inflammatory that helps repair a damaged moisture barrier. She calls glycolic acid a versatile AHA useful for exfoliation, collagen boosting, evening pigmentation, and treating ingrown hairs or dark elbows when used one to three times a week. She notes viral collagen face masks work mainly as humectants for temporary plumping rather than by boosting the skin's own collagen production, and highlights combining azelaic acid in the morning with tretinoin at night as a long-standing dermatologist combo for smoothing texture, fading hyperpigmentation, and reducing wrinkles.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Why Fair, "Transparent" Skin Ages Faster
+  creator: Dr. Sheila Farhang (dr.sheila_derm)
+  creator_slug: sheila-farhang
+  credential: Board-certified dermatologist
+  platform: TikTok
+  url: https://www.tiktok.com/@dr.sheila_derm/video/7678510728621460767
+  posted: '2026-08-27'
+  related: [sun-damage-photoaging, facial-redness-relief, anti-aging]
+  thesis: Board-certified dermatologist Dr. Sheila Farhang explains that when skin looks transparent enough to see blood vessels, it is because lighter skin types have less melanin, the natural camouflage that hides redness, inflammation, and vessels. She notes lighter skin has less built-in UV protection and tends to break down, thin, and wrinkle faster over time, so she recommends daily SPF, antioxidants, azelaic acid for redness, and says lasers can be a game changer
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

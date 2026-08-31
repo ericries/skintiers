@@ -68,6 +68,16 @@ videos:
   related: []
   thesis: 'Board-certified dermatologist Dr. Neera Nathan explains that the small persistent bumps many people see on the chin and nose are not pimples or milia but sebaceous filaments, normal pore structures that cannot be eliminated but can be minimized. She offers three derm-approved approaches: a sulfur mask left on 10 minutes to break down debris and reduce surface oiliness, a salicylic acid cleanser to exfoliate and cut sebum without stripping the skin barrier, and a pea-sized amount of adapalene gel, which she says is unmatched over-the-counter for keeping pores clear and appearing smaller.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Best OTC acne treatment before seeing a dermatologist
+  creator: Dr. Chris Tomassian
+  creator_slug: chris-tomassian
+  credential: Board-certified dermatologist
+  platform: TikTok
+  url: https://www.tiktok.com/@dr.tomassian/video/7678837805790940429
+  posted: '2026-08-27'
+  related: []
+  thesis: Board-certified dermatologist Dr. Chris Tomassian names adapalene combined with benzoyl peroxide as what he considers the best and most effective over-the-counter acne treatment. He notes this combination was previously prescription-only and is now available over the counter, and explains adapalene treats and helps prevent new pimples while paired with benzoyl peroxide. He recommends it as a good option to try before seeing a dermatologist for those who can't get an appointment yet
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

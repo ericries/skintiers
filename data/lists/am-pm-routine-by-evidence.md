@@ -27,6 +27,16 @@ videos:
   related: [skin-barrier-strengthening]
   thesis: 'Board-certified dermatologist Dr. Brooke Jeffy explains why rinsing with water alone is not enough to cleanse the face: sunscreen, sebum, and other oil-based products need a cleanser because water and oil do not mix, and leftover residue can drive inflammation that contributes to acne, eczema, rosacea, and premature aging. She recommends a nightly double cleanse (an oil-based remover like micellar water or a cleansing balm to lift off sunscreen and makeup, followed by a water-based cleanser) since nighttime cleansing is non-negotiable, while morning cleansing is optional for dry or sensitive skin but recommended for oily or acne-prone skin. She also warns that over-cleansing (scrubbing multiple times a day) is just as damaging to the skin barrier as under-cleansing or skipping the nightly wash.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Skincare for those with no time
+  creator: Dr. Chris Tomassian
+  creator_slug: chris-tomassian
+  credential: Board-certified dermatologist
+  platform: TikTok
+  url: https://www.tiktok.com/@dr.tomassian/video/7678836627141070094
+  posted: '2026-08-27'
+  related: []
+  thesis: 'Board-certified dermatologist Dr. Chris Tomassian, a new dad with almost no time, shares a stripped-down routine: in the morning just splash water, apply an antioxidant like vitamin C serum, then a moisturizer-sunscreen combo, under a minute total. At night, cleanse for about 30 seconds, apply a retinol, retinal, or retinoid, then moisturize, under 90 seconds. He frames it as focusing on the ingredients with the biggest proven benefit and staying consistent rather than doing an elaborate routine'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

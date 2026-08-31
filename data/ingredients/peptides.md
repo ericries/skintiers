@@ -87,6 +87,16 @@ videos:
   related: []
   thesis: 'Dr. Heather Woolery-Lloyd, a board-certified dermatologist, explains marine spicules: microscopic needle-like structures harvested from sponges that create a controlled micro-injury in skin, forming temporary pathways thought to boost penetration of actives like peptides and PDRN before the spicules shed away. She notes spicule products typically start at 0.1 to 1 percent concentration to limit irritation, and that experts advise against pairing them with aggressive treatments like retinoids or strong acne medications to avoid over-exfoliation'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Dr. Sheila Farhang explains copper peptides (GHK-Cu) for skin
+  creator: Dr. Sheila Farhang (dr.sheila_derm)
+  creator_slug: sheila-farhang
+  credential: Board-certified dermatologist
+  platform: TikTok
+  url: https://www.tiktok.com/@dr.sheila_derm/video/7677769908943375647
+  posted: '2026-08-25'
+  related: []
+  thesis: Dr. Sheila Farhang, a board-certified dermatologist, explains that GHK-Cu (copper peptides) support wound healing and collagen production and can be added on top of a basic routine of sunscreen, weekly exfoliant, vitamin C in the morning, and a retinoid at night. She describes peptides broadly as signaling molecules that boost collagen, increase hydration, and improve the skin barrier, and says they have a long history of use in dermatology
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

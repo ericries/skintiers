@@ -47,6 +47,16 @@ videos:
   related: [the-ordinary-multi-peptide-copper-peptides-serum, niod-copper-amino-isolate-serum-3-1-1]
   thesis: Cosmetic chemists Victoria Fu and Gloria Lu of Chemist Confessions test and compare five copper peptide serums, including The Ordinary's, as a follow-up to their science deep dive on the ingredient. They are openly skeptical of the eye-catching 200 to 400 percent hydration-boost figures some brands cite, question what those numbers actually mean, and coach viewers to scan ingredient lists for named peptides like GHK to judge a product rather than trusting headline claims.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Dr. Sheila Farhang explains copper peptides (GHK-Cu) for skin
+  creator: Dr. Sheila Farhang (dr.sheila_derm)
+  creator_slug: sheila-farhang
+  credential: Board-certified dermatologist
+  platform: TikTok
+  url: https://www.tiktok.com/@dr.sheila_derm/video/7677769908943375647
+  posted: '2026-08-25'
+  related: []
+  thesis: Dr. Sheila Farhang, a board-certified dermatologist, explains that GHK-Cu (copper peptides) support wound healing and collagen production and can be added on top of a basic routine of sunscreen, weekly exfoliant, vitamin C in the morning, and a retinoid at night. She describes peptides broadly as signaling molecules that boost collagen, increase hydration, and improve the skin barrier, and says they have a long history of use in dermatology
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

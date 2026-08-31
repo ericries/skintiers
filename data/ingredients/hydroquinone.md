@@ -67,6 +67,16 @@ videos:
   related: [rosacea]
   thesis: Board-certified dermatologist Dr. Lindsey Zubritsky lists five effective skincare ingredients that are prescription-only, explaining why each requires a doctor. She names tretinoin as the gold standard for acne, fine lines, and photoaging; prescription-strength azelaic acid for rosacea, perioral dermatitis, and post-breakout dark or red marks; hydroquinone for stubborn hyperpigmentation and melasma; topical ivermectin for rosacea linked to skin mites; and eflornithine to slow excess facial hair growth. She notes these aren't sold over the counter because a prescriber needs to confirm the ingredient is right for a patient's skin.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: 5 ingredients that are worth it from a dermatologist
+  creator: Dr. Chris Tomassian
+  creator_slug: chris-tomassian
+  credential: Board-certified dermatologist
+  platform: TikTok
+  url: https://www.tiktok.com/@dr.tomassian/video/7679209722293144846
+  posted: '2026-08-28'
+  related: [hyperpigmentation, body-acne, folliculitis, fungal-acne, hair-loss-thinning]
+  thesis: 'Dr. Chris Tomassian, a board-certified dermatologist, names five skincare ingredients he considers worth using: hydroquinone for dark spots, tretinoin as the long-term gold standard for anti-aging despite causing irritation and dryness, hypochlorous acid for body acne and scalp folliculitis, vitamin C for an instant glow plus collagen support and dark spot fading, and ketoconazole for dandruff, fungal acne, and hormonal hair loss. He gives a one-line reason for each rather than detailed instructions'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

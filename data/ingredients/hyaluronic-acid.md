@@ -67,6 +67,16 @@ videos:
   related: [cerave, vanicream, the-ordinary, roc]
   thesis: 'Board-certified dermatologist Dr. Jenny Liu explains that stretch marks (striae) are essentially scars formed when skin is stretched faster than it can adapt, and that the stage matters most: red/purple "striae rubra" respond much better to intervention than old white "striae alba," which can only be made less visible, never erased. She ranks 0.1% tretinoin for 12 weeks as the best topical for red stretch marks specifically, notes centella asiatica and hyaluronic-acid-based moisturizers have the better evidence for prevention (especially in pregnancy), and says lactic acid lotion (AmLactin), silicone sheets, and massage oils have weaker but plausible support. She concludes in-office procedures (pulsed dye laser/IPL for redness, then microneedling, RF microneedling, or fractional CO2 resurfacing over 3-5+ sessions) give the best clinical results, and that prevention (managing weight gain, keeping skin hydrated) beats treatment overall.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: 'Dr. Ife Rodney: Hyaluronic Acid Serums Hydrate but Do Not Fix Wrinkles'
+  creator: Dr. Ife Rodney (@driferodney)
+  creator_slug: ife-rodney
+  credential: Board-certified dermatologist
+  platform: TikTok
+  url: https://www.tiktok.com/@dr.iferodney/video/7675478710237039902
+  posted: '2026-08-18'
+  related: []
+  thesis: Board-certified dermatologist Dr. Ife Rodney explains that her favorite hyaluronic acid serum, which also contains green tea polyphenols, does a good job moisturizing, hydrating, and plumping skin when used nightly. She clarifies that it does not permanently or long-term reduce fine lines, wrinkles, or uneven skin texture, and that microneedling or radiofrequency microneedling is what is needed for those changes
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

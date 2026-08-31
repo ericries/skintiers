@@ -50,6 +50,18 @@ slug: epiduo-adapalene-benzoyl-peroxide-gel
 status: published
 type: product
 updated: '2026-08-08'
+videos:
+- title: Best OTC acne treatment before seeing a dermatologist
+  creator: Dr. Chris Tomassian
+  creator_slug: chris-tomassian
+  credential: Board-certified dermatologist
+  platform: TikTok
+  url: https://www.tiktok.com/@dr.tomassian/video/7678837805790940429
+  posted: '2026-08-27'
+  related: []
+  thesis: Board-certified dermatologist Dr. Chris Tomassian names adapalene combined with benzoyl peroxide as what he considers the best and most effective over-the-counter acne treatment. He notes this combination was previously prescription-only and is now available over the counter, and explains adapalene treats and helps prevent new pimples while paired with benzoyl peroxide. He recommends it as a good option to try before seeing a dermatologist for those who can't get an appointment yet
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Epiduo is a fixed-dose gel combining [[adapalene]] 0.1%, a synthetic [[retinoids|retinoid]], with [[benzoyl-peroxide|benzoyl peroxide]] 2.5% in a single once-daily application, FDA-labeled as "indicated for the topical treatment of acne vulgaris in patients 12 years of age and older."[^epiduo-rx]

@@ -58,6 +58,26 @@ videos:
   related: [skin-barrier-repair]
   thesis: Board-certified dermatologist Dr. Daniel Sugai runs through several skincare facts worth knowing. He explains benzoyl peroxide is still a good ingredient despite recent controversy, but warns not to store it in high heat (like a hot car) or use it expired, since heat can break it down into benzene. He clarifies that tretinoin does not thin skin; it thickens the deeper collagen layers while the visible peeling is just the stratum corneum adjusting to faster cell turnover, not damage. He also notes people do not need to overspend on expensive barrier repair creams, recommending affordable options like Avene Cicalfate, La Roche-Posay Cicaplast Baume B5, or plain Vaseline when skin is compromised.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Dr. Sheila Farhang explains why back acne hurts and how to treat it
+  creator: Dr. Sheila Farhang (dr.sheila_derm)
+  creator_slug: sheila-farhang
+  credential: Board-certified dermatologist
+  platform: TikTok
+  url: https://www.tiktok.com/@dr.sheila_derm/video/7676886999835430174
+  posted: '2026-08-22'
+  related: [acne, sheila-farhang]
+  thesis: 'Board-certified dermatologist Dr. Sheila Farhang explains why back acne (bacne) is more painful than facial acne: the skin on the back is thicker and oilier with larger follicles, so clogged pores trap inflammation deep in the skin with little room to expand. She recommends a benzoyl peroxide wash from the neck down to reduce bacteria, a salicylic acid spray to cut oil clogging pores, and a chemical exfoliant to boost cell turnover and help fade scars, and notes that large or scarring lesions may need an in-office cortisone injection or other medical treatment from a dermatologist'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Best OTC acne treatment before seeing a dermatologist
+  creator: Dr. Chris Tomassian
+  creator_slug: chris-tomassian
+  credential: Board-certified dermatologist
+  platform: TikTok
+  url: https://www.tiktok.com/@dr.tomassian/video/7678837805790940429
+  posted: '2026-08-27'
+  related: []
+  thesis: Board-certified dermatologist Dr. Chris Tomassian names adapalene combined with benzoyl peroxide as what he considers the best and most effective over-the-counter acne treatment. He notes this combination was previously prescription-only and is now available over the counter, and explains adapalene treats and helps prevent new pimples while paired with benzoyl peroxide. He recommends it as a good option to try before seeing a dermatologist for those who can't get an appointment yet
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

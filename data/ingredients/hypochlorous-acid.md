@@ -48,6 +48,16 @@ videos:
   related: [hyaluronic-acid, panthenol, skin-barrier-strengthening]
   thesis: 'Dr. Fatima Fahs, a dermatologist, explains that sudden skin burning, tightness after moisturizing, flakiness, oiliness, or unexplained breakouts usually signal a damaged skin barrier rather than newly sensitive skin. She compares the barrier to a brick wall, with skin cells as the bricks and lipids as the mortar, and notes that cracks let water escape and irritants in, increasing inflammation. Her takeaway: the healthiest skin isn''t the skin with the most products, it''s the skin with the strongest barrier'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: 5 ingredients that are worth it from a dermatologist
+  creator: Dr. Chris Tomassian
+  creator_slug: chris-tomassian
+  credential: Board-certified dermatologist
+  platform: TikTok
+  url: https://www.tiktok.com/@dr.tomassian/video/7679209722293144846
+  posted: '2026-08-28'
+  related: [hyperpigmentation, body-acne, folliculitis, fungal-acne, hair-loss-thinning]
+  thesis: 'Dr. Chris Tomassian, a board-certified dermatologist, names five skincare ingredients he considers worth using: hydroquinone for dark spots, tretinoin as the long-term gold standard for anti-aging despite causing irritation and dryness, hypochlorous acid for body acne and scalp folliculitis, vitamin C for an instant glow plus collagen support and dark spot fading, and ketoconazole for dandruff, fungal acne, and hormonal hair loss. He gives a one-line reason for each rather than detailed instructions'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

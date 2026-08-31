@@ -519,6 +519,16 @@ videos:
   related: [zinc-oxide, sun-damage-photoaging]
   thesis: Cosmetic scientist Jen Novakovich hosts a roundtable with Michelle Wong, Hannah, and formulator Brian to unpack Australia's 2025 sunscreen SPF-testing scandal, in which a Choice magazine test found a sunscreen labeling SPF 50+ actually tested at SPF 4, triggering a wave of recalls tied to lab Princeton Consumer Research. The panel explains that interlab SPF variability can run 15 to 18 percent even without fraud, that "pass or fail" framing misrepresents SPF testing, and that labs consistently delivering unusually high or cheap results are a red flag for fraud, as happened with AMA Labs in an earlier scandal. They stress that brands bear responsibility for auditing their testing labs, that reapplication and behavioral sun protection (shade, clothing, timing) matter as much as the SPF number itself, and that consumers should not panic since most tested Australian sunscreens still delivered 80 percent or more of their labeled protection.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: 5 Skincare and Beauty Myths a Dermatologist Debunks
+  creator: Dr. Sheila Farhang (dr.sheila_derm)
+  creator_slug: sheila-farhang
+  credential: Board-certified dermatologist
+  platform: TikTok
+  url: https://www.tiktok.com/@dr.sheila_derm/video/7678140411264716062
+  posted: '2026-08-26'
+  related: []
+  thesis: 'Board-certified dermatologist Dr. Sheila Farhang debunks five common beauty myths: that biotin regrows hair (she says most people are not biotin deficient and high doses can cause acne or disrupt thyroid levels), that fragrance-free and unscented are the same thing (unscented products can still contain masking fragrances), that a high SPF number lets you skip reapplying sunscreen, and that a tingling sensation means a skincare product is working (she says it likely signals irritation instead). She recommends SPF 30 for the face, SPF 50 for the body when outdoors, and reapplying every two hours'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 name: Sunscreen (UV filters)
 slug: sunscreen-uv-filters
 status: published
