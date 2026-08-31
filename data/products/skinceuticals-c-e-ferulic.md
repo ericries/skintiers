@@ -86,7 +86,7 @@ SkinCeuticals C E Ferulic is a leave-on morning vitamin C serum, a fixed blend o
 
 ## Summary
 
-C E Ferulic is a morning antioxidant serum. Its job is to sit under sunscreen and neutralize the free radicals that everyday UV and pollution generate, a protective, health-oriented role rather than a quick cosmetic fix. The active doing the work is [[ascorbic-acid-vitamin-c|L-ascorbic acid]], the pure and best-studied form of vitamin C: a well-evidenced antioxidant that also helps even out tone and supports collagen, mapped with the other forms on [[vitamin-c]]. What sets this product apart is the delivery rather than a special active. It is one of the oldest and most-studied vitamin C formulas, a fixed 15% vitamin C, 1% vitamin E, and 0.5% ferulic acid blend that [the published photoprotection studies](#the-evidence) actually tested.
+C E Ferulic is a morning antioxidant serum. Its job is to sit under [[sunscreen-uv-filters|sunscreen]] and neutralize the free radicals that everyday UV and pollution generate, a protective, health-oriented role rather than a quick cosmetic fix. The active doing the work is [[ascorbic-acid-vitamin-c|L-ascorbic acid]], the pure and best-studied form of vitamin C: a well-evidenced antioxidant that also helps even out tone (a [[brightening]] effect) and supports collagen, mapped with the other forms on [[vitamin-c]]. What sets this product apart is the delivery rather than a special active. It is one of the oldest and most-studied vitamin C formulas, a fixed 15% vitamin C, 1% vitamin E, and 0.5% ferulic acid blend that [the published photoprotection studies](#the-evidence) actually tested.
 
 Wirecutter describes applying a vitamin C serum "every morning" and "after cleansing and before moisturizer and sunscreen."[^9] The antioxidant is meant to work alongside daily sunscreen rather than in place of it: the antioxidant and the UV filter do different jobs, so the serum is meant to help sunscreen work harder while the sunscreen blocks the rays. The brightening and firming benefits are gradual, building over months of consistent use.
 
@@ -96,7 +96,7 @@ The product-specific studies, with their honest limits, are in [The Evidence](#t
 
 ## The Evidence
 
-Topical L-ascorbic acid is a well-studied antioxidant with characterized roles as a collagen-synthesis cofactor and, paired with vitamin E, in defending skin against oxidative UV damage; the vitamin C forms and how well each is evidenced are mapped on [[vitamin-c]], and the reference form's profile is [[ascorbic-acid-vitamin-c]]. What is specific to this product is the ferulic-acid-stabilized combination of vitamins C and E and the photoprotection studies behind it.
+Topical L-ascorbic acid is a well-studied antioxidant with characterized roles as a collagen-synthesis cofactor and, paired with vitamin E, in defending skin against oxidative [[sun-damage-photoaging|UV damage]]; the vitamin C forms and how well each is evidenced are mapped on [[vitamin-c]], and the reference form's profile is [[ascorbic-acid-vitamin-c]]. What is specific to this product is the ferulic-acid-stabilized combination of vitamins C and E and the photoprotection studies behind it.
 
 Pinnell 2001 established the formulation rules the product follows. In percutaneous absorption studies, "L-ascorbic acid must be formulated at pH levels less than 3.5 to enter the skin," the maximal concentration for optimal absorption was 20%, tissue levels were saturated after three daily applications, and the tissue half-life was about 4 days.[^2]
 
@@ -144,7 +144,7 @@ Because it is expensive, several third-party reviews name lower-cost vitamin C s
 
 ## See Also
 
-[[timeless-20-vitamin-c-e-ferulic-serum]], [[prequel-lucent-c-vitamin-c-serum]], [[beauty-of-joseon-light-on-serum-centella-vita-c]], [[ascorbic-acid-vitamin-c]], [[vitamin-c]].
+[[timeless-20-vitamin-c-e-ferulic-serum]], [[trader-joes-nourish-vitamins-c-e-facial-serum]], [[maelove-the-glow-maker]], [[prequel-lucent-c-vitamin-c-serum]], [[beauty-of-joseon-light-on-serum-centella-vita-c]], [[best-vitamin-c-serums]], [[ascorbic-acid-vitamin-c]], [[vitamin-c]], [[sun-damage-photoaging]].
 
 ## Where to Buy
 

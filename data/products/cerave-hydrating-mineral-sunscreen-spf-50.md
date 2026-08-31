@@ -48,7 +48,7 @@ CeraVe Hydrating Mineral Sunscreen SPF 50 is a mineral (zinc oxide and titanium 
 
 Hydrating Mineral Sunscreen SPF 50 is a facial sunscreen from CeraVe, a US skincare brand built around ceramide-based barrier repair and owned by L'Oreal.[^1] Its core purpose is the same as any sunscreen's: broad-spectrum UV protection is the best-evidenced way to slow photoaging and lower the risk of sun-related skin cancer, a case with randomized-trial support set out on [[sunscreen-uv-filters]].
 
-What distinguishes it from a plainer sunscreen is the filter choice and the added skin-barrier ingredients rather than a novel protection mechanism. Per its FDA drug label on DailyMed, the actives are titanium dioxide 9% and zinc oxide 7%, a 100% mineral filter set rated Broad Spectrum SPF 50.[^2] Both filters are physically opaque mineral particles rather than the organic (chemical) filters, like avobenzone, that make up most other US sunscreens; [[zinc-oxide]] and [[titanium-dioxide]] each have their own evidence and comparator pages, linked above and in [What's In It](#whats-in-it). The formula also lists niacinamide, three ceramides (Ceramide NP, Ceramide AP, Ceramide EOP), and sodium hyaluronate on its FDA-filed inactive-ingredient list, ingredients aimed at hydration and the skin barrier rather than UV protection.[^2]
+What distinguishes it from a plainer sunscreen is the filter choice and the added skin-barrier ingredients rather than a novel protection mechanism. Per its FDA drug label on DailyMed, the actives are titanium dioxide 9% and zinc oxide 7%, a 100% mineral filter set rated Broad Spectrum SPF 50.[^2] Both filters are physically opaque mineral particles rather than the organic (chemical) filters, like avobenzone, that make up most other US sunscreens; [[zinc-oxide]] and [[titanium-dioxide]] each have their own evidence and comparator pages, linked above and in [What's In It](#whats-in-it). The formula also lists [[niacinamide]], three [[ceramides]] (Ceramide NP, Ceramide AP, Ceramide EOP), and sodium hyaluronate ([[hyaluronic-acid|hyaluronic acid]]) on its FDA-filed inactive-ingredient list, ingredients aimed at hydration and the skin barrier rather than UV protection.[^2]
 
 CeraVe's own product page carries a quote from a named dermatologist recommending mineral sunscreens generally and describing the CeraVe Hydrating Sunscreen line's ceramide/niacinamide/hyaluronic-acid blend, brand-sourced marketing content rather than an independent product review ([quarantined under Common Marketing Claims](#common-marketing-claims)).[^1] No independent, product-specific study of this exact formula was located; the graded evidence above rests on the filter composition and category-level UV-filter evidence, not a trial of this SKU.
 
@@ -86,6 +86,18 @@ Label and marketing terms not established by the graded evidence above:
 - **"I recommend mineral sunscreens like the CeraVe Hydrating Sunscreen line, as they are safe for all skin types. CeraVe sunscreens have a blend of ceramides, niacinamide, and hyaluronic acid to keep skin hydrated and protected."** Attributed on CeraVe's own product page to Dr. Jenny Liu, described there as a board-certified dermatologist. This is brand-published marketing content, not an independent review, and is not evidence for the product's UV protection or barrier effect beyond the graded filter composition above.[^1]
 - **"Recommended by the Skin Cancer Foundation" / Skin Cancer Foundation Daily Use Seal of Approval and National Eczema Association Seal of Acceptance.** Third-party seal claims stated on CeraVe's product page; not independently verified against the awarding organizations for this profile.[^1]
 - **Hawaii-compliant, oxybenzone-free.** A composition point about which filters are absent (the formula contains no oxybenzone), not an efficacy claim.[^1]
+
+## See Also
+
+- [[sunscreen-uv-filters]]: the full case for daily broad-spectrum sunscreen and how mineral filters compare to chemical ones
+- [[zinc-oxide]]: the photostable UVA filter this product relies on
+- [[titanium-dioxide]]: the UVB/short-UVA filter that pairs with it
+- [[niacinamide]]: the barrier-support active layered on top of the sunscreen
+- [[ceramides]]: the lipids in the base that support barrier repair
+- [[hyaluronic-acid]]: the humectant behind the "hydrating" claim
+- [[sun-damage-photoaging]]: the condition daily sunscreen use is meant to prevent
+- [[skin-barrier-repair]]: the goal the ceramide/niacinamide/hyaluronic-acid blend targets
+- [[best-sunscreens-daily-wear]]: how this product stacks up against other daily sunscreens
 
 ## Where to Buy
 

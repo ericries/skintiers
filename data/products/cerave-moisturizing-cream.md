@@ -96,7 +96,13 @@ CeraVe labels the product non-comedogenic and allergy-tested.[^3] These are manu
 
 ## See Also
 
-Similar fragrance-free barrier moisturizers: [[la-roche-posay-toleriane]], [[cetaphil-moisturizing-cream]], [[petrolatum]].
+- [[moisturizing]], the general case for why keeping skin moisturized helps
+- [[skin-barrier-repair]], the goal this cream is built around
+- [[dry-skin]] and [[atopic-dermatitis]] (eczema), the conditions it targets
+- [[sensitive-skin]], the other main use case
+- [[la-roche-posay-toleriane]] and [[cetaphil-moisturizing-cream]], similar fragrance-free barrier moisturizers
+- [[ceramides]] and [[hyaluronic-acid]], its key actives
+- [[petrolatum]], the occlusive base
 
 ## Common Marketing Claims
 

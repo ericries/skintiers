@@ -73,7 +73,7 @@ videos:
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 ---
 
-Beauty of Joseon Relief Sun: Rice + Probiotics is a lightweight Korean daily chemical sunscreen, 50 ml, rated SPF50+ PA++++, built entirely on modern organic UV filters that are standard in Korea and the EU but sit outside the current US OTC sunscreen monograph.[^1][^2]
+Beauty of Joseon Relief Sun: Rice + Probiotics is a lightweight Korean daily chemical sunscreen, 50 ml, rated SPF50+ PA++++ (PA is the Korean/EU scale for UVA protection, graded PA+ through PA++++), built entirely on modern organic UV filters that are standard in Korea and the EU but sit outside the current US OTC sunscreen monograph.[^1][^2]
 
 > A daily broad-spectrum sunscreen, and broad-spectrum protection is the best-evidenced way to lower photoaging and sun-related skin-cancer risk. Its distinction is the UVA side of that protection: it pairs a high SPF (a UVB rating) with PA++++ and two modern UVA filters, and an independent Consumer Reports lab test scored both its UVA and UVB protection at the top of the scale, above the older US-filter sunscreens it competes with. Beauty editors praise it as weightless with no white cast, though a blind sensory panel was more reserved. The SPF and UVA filter science is set out on [[sunscreen-uv-filters]].[^7][^8]
 
@@ -136,7 +136,9 @@ Label and marketing terms not established by the graded UV evidence above:
 
 ## See Also
 
-Similar broad-spectrum sunscreens: [[la-roche-posay-anthelios-melt-in-milk-spf-60]], [[eltamd-uv-clear-spf-46]], [[sunscreen-uv-filters]].
+Similar broad-spectrum sunscreens: [[la-roche-posay-anthelios-melt-in-milk-spf-60]], [[eltamd-uv-clear-spf-46]], [[round-lab-birch-juice-moisturizing-sun-spf-50]], [[beauty-of-joseon-aqua-fresh-sun-serum]].
+
+Background and related topics: [[sunscreen-uv-filters]], [[sun-damage-photoaging]], [[niacinamide]], [[best-sunscreens-daily-wear]].
 
 ## Where to Buy
 

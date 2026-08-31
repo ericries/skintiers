@@ -36,7 +36,9 @@ key_actives:
 - tretinoin
 ---
 
-Tretinoin 0.025% cream is generic prescription tretinoin, all-trans retinoic acid, formulated at 0.025% by weight in a hydrophilic cream base. It is the entry strength of a product sold under brand names such as Retin-A and Avita and as unbranded generics, and it is prescription-only.[^7] This profile grades the **product at this specific strength**, not the molecule in the abstract: for the active-ingredient mechanism and the full body of tretinoin trial evidence, see [[tretinoin]]. The one thing worth knowing before anything else is counterintuitive: 0.025% is not the "weak" tretinoin. In the head-to-head trial that matters, it matched the 0.1% strength for photoaging while irritating far less, which makes it the efficiency sweet spot, not a starter dose you are meant to graduate out of.[^1]
+Tretinoin 0.025% cream is generic prescription tretinoin, all-trans retinoic acid, formulated at 0.025% by weight in a hydrophilic cream base. It is the entry strength of a product sold under brand names such as Retin-A and Avita and as unbranded generics, and it is prescription-only.[^7] It is FDA-approved to treat [[acne]] and is also used off-label for [[sun-damage-photoaging|photoaging]], the fine wrinkles and mottled pigment caused by sun exposure over time. This profile grades the **product at this specific strength**, not the molecule in the abstract: for the active-ingredient mechanism and the full body of tretinoin trial evidence, see [[tretinoin]].
+
+> 0.025% is not the "weak" tretinoin you graduate out of. In the head-to-head trial that matters, it matched the stronger 0.1% strength for photoaging while irritating far less, making it the efficiency sweet spot.[^1] For acne, its labeled use, it is a legitimate first-line topical, though the solo effect is modest and it works best paired with [[benzoyl-peroxide]]. It does not reverse aging or erase wrinkles, by the manufacturer's own label.
 
 ## Summary
 
@@ -107,6 +109,17 @@ This section is quarantined and discounted; treat everything here as unproven un
 - **vs [[adapalene]].** Comparable efficacy, adapalene better tolerated. In a 409-patient RCT, adapalene 0.1% gel was equivalent to tretinoin 0.05% cream on acne lesion counts and global improvement, and significantly better tolerated.[^6]
 - **vs [[azelaic-acid]].** Comparable for comedonal acne; azelaic acid is the gentler, non-prescription-strength alternative for people who cannot tolerate a retinoid (see that profile for its own grades).
 - **vs OTC [[retinol]].** Retinol is a precursor the skin must enzymatically convert to reach retinoic acid, and it is *not* the molecule the landmark tretinoin RCTs tested, so equivalence claims extrapolate beyond the graded evidence. The honest caveat: direct head-to-head data is limited and mixed rather than a clean win for tretinoin. The most on-point independent trial, a 12-week split-face RCT (48 subjects) comparing 1.0% retinol cream against 0.025% tretinoin cream (alongside a third product), was designed around tolerability and does not establish that retinol underperforms tretinoin on efficacy at these strengths.[^8] Claims that OTC retinol clearly beats or clearly loses to 0.025% tretinoin both overstate what the controlled data support.
+
+## See Also
+
+- [[tretinoin]], the active ingredient's full mechanism and trial evidence across all strengths
+- [[acne]], the condition this strength is FDA-approved to treat
+- [[sun-damage-photoaging]], the off-label use covered by the strength-comparison and meta-analysis evidence above
+- [[retinol]], the OTC precursor compared against this product in the tolerability trial
+- [[adapalene]], the OTC/Rx retinoid found equivalent in efficacy and better tolerated
+- [[azelaic-acid]], the gentler, non-retinoid alternative for people who cannot tolerate tretinoin
+- [[benzoyl-peroxide]], the combination partner that raises the acne effect size
+- [[anti-aging]], the broader goal this product's off-label use falls under
 
 ## Sources
 

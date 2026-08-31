@@ -52,13 +52,13 @@ key_actives:
 - niacinamide
 ---
 
-The Ordinary Niacinamide 10% + Zinc 1% is a low-cost, water-based serum that pairs 10% niacinamide (vitamin B3) with 1% zinc PCA, sold in a 30 ml or 60 ml dropper bottle and marketed for oily and blemish-prone skin.[^1]
+The Ordinary Niacinamide 10% + Zinc 1% is a low-cost, water-based serum that pairs 10% [[niacinamide]] (vitamin B3) with 1% [[zinc-pca|zinc PCA]], sold in a 30 ml or 60 ml dropper bottle and marketed for [[oily-skin|oily]] and blemish-prone skin.[^1]
 
 > A very cheap niacinamide serum. Topical niacinamide is well tolerated and has modest evidence, much of it from small or manufacturer-run trials, for supporting the skin barrier, lightening facial hyperpigmentation, and mild inflammatory acne; that health-oriented case sits on [[niacinamide]]. The strength on the label is higher than the 2% to 5% used in those trials, and the cosmetic chemists at Chemist Confessions say the extra brings no proven benefit and can raise the risk of irritation. At about $6 for 30 ml it is one of the cheapest niacinamide serums sold.[^1][^3]
 
 ## Summary
 
-The Ordinary Niacinamide 10% + Zinc 1% is a lightweight, fragrance-free serum built around [[niacinamide]], a form of vitamin B3, and aimed at oily and blemish-prone skin. Its health-oriented uses come from the niacinamide: topical niacinamide is well tolerated and has modest evidence, much of it from small or manufacturer-run studies, for supporting the skin barrier and lowering water loss in dry skin, for lightening facial hyperpigmentation, and for mild inflammatory acne. That general case, with its primary trials and their limits, is set out on [[niacinamide]]. The zinc is 1% zinc PCA, a zinc salt the brand includes for oil control.
+The Ordinary Niacinamide 10% + Zinc 1% is a lightweight, fragrance-free serum built around niacinamide, a form of vitamin B3, and aimed at oily and blemish-prone skin. Its health-oriented uses come from the niacinamide: topical niacinamide is well tolerated and has modest evidence, much of it from small or manufacturer-run studies, for supporting the [[skin-barrier-repair|skin barrier]] and lowering water loss in [[dry-skin|dry skin]], for lightening facial [[hyperpigmentation]], and for mild inflammatory [[acne]]. That general case, with its primary trials and their limits, is set out on [[niacinamide]]. The zinc is 1% zinc PCA, a zinc salt the brand includes for oil control.
 
 What makes the product stand out is not a special active but the price and the strength printed on the label. It is one of the cheapest niacinamide serums sold, and it uses a 10% concentration that helped make 10% look like the default. The trials behind niacinamide's benefits used less. The cosmetic chemists at Chemist Confessions write that "niacinamide is actually clinically tested at 2% to 5%," that to strengthen the barrier "you only need 2%" and to improve tone "you only need 4%," and that "higher doses will always increase the risk of skin irritation." They trace the 10% norm to this product, noting that "niacinamide really hit superstardom level with the Ordinary's 10% Niacinamide serum."[^3][^4]
 
@@ -96,7 +96,7 @@ Label and marketing terms not established by the graded evidence above:
 
 ## See Also
 
-[[the-ordinary-azelaic-acid-suspension-10]], [[the-ordinary-multi-peptide-ha-serum]], [[niacinamide]].
+[[niacinamide]], [[zinc-pca]], [[the-ordinary-azelaic-acid-suspension-10]], [[the-ordinary-multi-peptide-ha-serum]], [[hyperpigmentation]], [[acne]], [[oily-skin]], [[skin-barrier-repair]], [[best-products-dark-spots-hyperpigmentation]].
 
 ## Where to Buy
 

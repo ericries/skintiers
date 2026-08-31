@@ -79,7 +79,7 @@ Differin Gel is an over-the-counter acne treatment whose only active ingredient 
 
 ## Summary
 
-Differin Gel is a genuine acne medicine sold without a prescription. Its active, [[adapalene]] 0.1%, is a topical [[retinoids|retinoid]] that treats acne, a medical skin condition; Joshua Zeichner of Mount Sinai told Allure that retinoids "help reduce inflammation in the skin and prevent cells from sticking together within the follicle, which then blocks the pores."[^allure] What makes it unusual on a drugstore shelf is regulatory, not cosmetic: in 2016 it became the first topical retinoid the FDA cleared for over-the-counter sale, and it is the same molecule at the same strength as the prescription Differin approved in 1996, [carried over from that prescription record rather than retested](#the-evidence).[^review][^letter] It is a real FDA-approved acne drug, not a cosmetic product borrowing the word "retinol."
+Differin Gel is a genuine acne medicine sold without a prescription. Its active, [[adapalene]] 0.1%, is a topical [[retinoids|retinoid]] that treats [[acne]], a medical skin condition; Joshua Zeichner of Mount Sinai told Allure that retinoids "help reduce inflammation in the skin and prevent cells from sticking together within the follicle, which then blocks the pores."[^allure] What makes it unusual on a drugstore shelf is regulatory, not cosmetic: in 2016 it became the first topical retinoid the FDA cleared for over-the-counter sale, and it is the same molecule at the same strength as the prescription Differin approved in 1996, [carried over from that prescription record rather than retested](#the-evidence).[^review][^letter] It is a real FDA-approved acne drug, not a cosmetic product borrowing the word "retinol."
 
 Dermatologists treat topical retinoids as a first-line acne option. Zeichner told Allure that "topical retinoids are prescribed for almost all patients in the office," and the board-certified dermatologist Mona Gohara, quoted by NBC Select, calls retinoids like adapalene "the gold standard" for "treating acne for all ages."[^allure][^nbc] Allure, which gave Differin Gel a Best of Beauty award, calls it "one of the best over-the-counter treatments for acne," and NBC Select names it the best overall drugstore acne treatment for teens, with board-certified dermatologist Samer Jaber recommending people "start using Differin gel at bedtime."[^allure][^nbc]
 
@@ -115,7 +115,7 @@ The gel's only active is adapalene. It contains no benzoyl peroxide and no added
 
 ## See Also
 
-Related retinoid and acne pages: [[adapalene]], [[retinoids]], [[tretinoin-0-025-cream]], [[benzoyl-peroxide]].
+[[adapalene]], [[retinoids]], [[acne]], [[tretinoin-0-025-cream]], [[benzoyl-peroxide]], [[anti-aging]], [[best-acne-spot-treatments]], [[best-retinol-products-by-strength]].
 
 ## Common Marketing Claims
 

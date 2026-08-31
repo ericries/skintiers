@@ -37,13 +37,13 @@ key_actives:
 - niacinamide
 ---
 
-Anua Nano Retinol 0.3% + Niacin Renewing Serum is a 30 ml water-based leave-on serum whose ingredient list pairs retinol, declared at 0.3%, with niacinamide in a base of humectants, plant extracts, and a single ceramide.[^anua]
+Anua Nano Retinol 0.3% + Niacin Renewing Serum is a 30 ml water-based leave-on serum for [[anti-aging|photoaging]] (fine lines and skin texture). Its ingredient list pairs [[retinol]], declared at 0.3%, with [[niacinamide]] in a base of humectants, plant extracts, and a single ceramide.[^anua]
 
 > Whether topical retinol improves aged skin is covered on [[retinol]] and [[retinoids]]. No trial tests this exact serum. Its retinol is declared at 0.3% and sits low in the ingredient order, and like all over-the-counter retinol it is milder than prescription tretinoin, because retinol has to be converted through two enzymatic steps before it can act.[^anua][^zasada][^huang] The higher-placed active is niacinamide, which has its own evidence for tone and fine lines.[^bissett]
 
 ## Summary
 
-Anua Nano Retinol 0.3% + Niacin Renewing Serum pairs two evidenced actives, retinol and niacinamide, in a single water-based leave-on serum aimed at the same photoaging concerns as other over-the-counter retinol products.[^anua] At the category level, topical retinol has controlled trial evidence for increasing skin's own collagen-building activity (procollagen I and glycosaminoglycan), a measurable change in skin biology, and for improving fine-wrinkle appearance scores, a cosmetic effect; that evidence is set out in full on [[retinol]] and [[retinoids]] and summarized with its source study in [the evidence](#the-evidence).[^kafi] No published trial tests this exact serum. Its own retinol is declared at 0.3% and sits low in the ingredient order, at the lower end of the concentrations used by comparator over-the-counter retinol serums such as The Ordinary Retinol 0.5% in Squalane and CeraVe Resurfacing Retinol Serum, and like every over-the-counter retinol it remains milder than prescription tretinoin, because retinol needs two enzymatic conversion steps in the skin before it becomes active.[^anua][^zasada][^huang]
+Anua Nano Retinol 0.3% + Niacin Renewing Serum pairs two evidenced actives, retinol and niacinamide, in a single water-based leave-on serum aimed at the same photoaging concerns as other over-the-counter retinol products.[^anua] At the category level, topical retinol has controlled trial evidence for increasing skin's own collagen-building activity (procollagen I and glycosaminoglycan), a measurable change in skin biology, and for improving fine-wrinkle appearance scores, a cosmetic effect; that evidence is set out in full on [[retinol]] and [[retinoids]] and summarized with its source study in [the evidence](#the-evidence).[^kafi] No published trial tests this exact serum. Its own retinol is declared at 0.3% and sits low in the ingredient order, at the lower end of the concentrations used by comparator over-the-counter retinol serums such as The Ordinary Retinol 0.5% in Squalane and [[cerave-resurfacing-retinol-serum|CeraVe Resurfacing Retinol Serum]], and like every over-the-counter retinol it remains milder than prescription tretinoin, because retinol needs two enzymatic conversion steps in the skin before it becomes active.[^anua][^zasada][^huang]
 
 What sets this serum apart from a plain retinol product is niacinamide, third on the ingredient list.[^anua] A double-blind, industry-run trial of niacinamide at a similar concentration reported, after 12 weeks, reduced fine lines and wrinkles, fewer hyperpigmented spots, less redness, and less sallowness, a cosmetic improvement in tone and texture rather than a measured health endpoint; see [the evidence](#the-evidence) for the study and [[niacinamide]] for the broader ingredient-level case.[^bissett]
 
@@ -86,7 +86,15 @@ The manufacturer's ingredient list contains no free salicylic acid or beta-hydro
 
 ## See Also
 
-Related retinoid and active pages: [[retinol]], [[retinoids]], [[niacinamide]].
+- [[retinol]]
+- [[retinoids]]
+- [[niacinamide]]
+- [[anti-aging]]
+- [[sun-damage-photoaging]]
+- [[cerave-resurfacing-retinol-serum|CeraVe Resurfacing Retinol Serum]]
+- [[the-inkey-list-retinol-serum|The Inkey List Retinol Serum]]
+- [[best-retinol-products-by-strength|Best Retinol Products by Strength]]
+- [[best-niacinamide-products|Best Niacinamide Products]]
 
 ## Common Marketing Claims
 

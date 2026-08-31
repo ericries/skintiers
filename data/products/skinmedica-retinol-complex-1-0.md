@@ -73,7 +73,7 @@ The evidence that retinol, as an ingredient, improves aging skin is real: vehicl
 
 NYT Wirecutter, which tested 35 over-the-counter retinoid products with brand names concealed, named this serum "best for mature skin," writing that it "softened and smoothed lines without irritating skin," and that its retinol is encapsulated, which the outlet says "may account for its slower release, along with less ruddiness and irritation."[^wirecutter] Wirecutter also flagged it as "our most expensive pick," at just under $100 per fluid ounce for the top tier, and pointed out that seven of the ingredients in its much cheaper "best value" pick, the [[trader-joes-retinol-night-serum|Trader Joe's Retinol Night Serum]] (about $10, 0.3% retinol, in-store only), overlap with this serum's own ingredient list.[^wirecutter]
 
-The rest of the formula pairs retinol with niacinamide, positioned sixth on the ingredient list, ahead of several ingredients typically used under 1%, though its own concentration is likewise undisclosed, plus a peptide, a barrier ceramide, and antioxidants, [listed in full below](#whats-in-it).[^skinmedica][^dermstore] The manufacturer's own usage directions call for one pump in the evening after cleansing and toning, starting at twice a week and building up to nightly use, with daily SPF 30-or-higher during use.[^skinmedica][^dermstore]
+The rest of the formula pairs retinol with [[niacinamide]], positioned sixth on the ingredient list, ahead of several ingredients typically used under 1%, though its own concentration is likewise undisclosed, plus a peptide, a barrier ceramide, and antioxidants, [listed in full below](#whats-in-it).[^skinmedica][^dermstore] The manufacturer's own usage directions call for one pump in the evening after cleansing and toning, starting at twice a week and building up to nightly use, with daily SPF 30-or-higher during use.[^skinmedica][^dermstore]
 
 ## The Evidence
 
@@ -121,7 +121,7 @@ Label and marketing claims not established by the product-specific evidence abov
 
 ## See Also
 
-[[retinol]], [[retinoids]], [[differin-adapalene-0-1-gel]], [[tretinoin-0-025-cream]], [[anua-nano-retinol-0-3-niacin-renewing-serum]], [[trader-joes-retinol-night-serum]].
+[[retinol]], [[retinoids]], [[anti-aging]], [[sun-damage-photoaging]], [[differin-adapalene-0-1-gel]], [[tretinoin-0-025-cream]], [[anua-nano-retinol-0-3-niacin-renewing-serum]], [[trader-joes-retinol-night-serum]].
 
 ## Where to Buy
 

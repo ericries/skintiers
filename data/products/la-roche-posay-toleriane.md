@@ -26,7 +26,7 @@ updated: '2026-07-28'
 
 La Roche-Posay Toleriane Double Repair Face Moisturizer is a fragrance-free face cream. On the manufacturer's current US ingredient list it is led by water, glycerin, squalane, and dimethicone, with niacinamide and ceramide NP (ceramide-3) as its named barrier actives.[^1]
 
-> Moisturizing has strong evidence for barrier-impaired skin (see [[moisturizing]]): a Cochrane review of 77 randomized trials found most moisturizers help, but "did not find reliable evidence that one moisturiser is better than another."[^2] A separate trial of a different ceramide cream improved a barrier measurement but reduced eczema no more than a plain vehicle.[^3]
+> Moisturizing has strong evidence for barrier-impaired skin (see [[moisturizing]]): a Cochrane review of 77 randomized trials found most moisturizers help, but "did not find reliable evidence that one moisturiser is better than another."[^2] A separate trial of a different ceramide cream improved a barrier measurement but reduced [[atopic-dermatitis|eczema]] no more than a plain vehicle.[^3]
 
 ## Summary
 
@@ -65,7 +65,7 @@ Not in the formula: no petrolatum (unlike [[cerave-moisturizing-cream]]), no add
 
 ## See Also
 
-Similar fragrance-free barrier moisturizers: [[cerave-moisturizing-cream]], [[cetaphil-moisturizing-cream]], [[ceramides]], [[niacinamide]], [[moisturizing]].
+Similar fragrance-free barrier moisturizers: [[cerave-moisturizing-cream]], [[cetaphil-moisturizing-cream]]. Background on the actives and the skin they target: [[ceramides]], [[niacinamide]], [[moisturizing]], [[skin-barrier-repair]], [[atopic-dermatitis|eczema]], [[dry-skin]], [[sensitive-skin]].
 
 ## Common Marketing Claims
 

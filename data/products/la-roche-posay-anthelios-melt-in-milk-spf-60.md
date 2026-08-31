@@ -27,9 +27,9 @@ type: product
 updated: '2026-07-27'
 ---
 
-La Roche-Posay Anthelios Melt-in Milk is a fragrance-free chemical sunscreen lotion for face and body, rated Broad Spectrum SPF 60 and water resistant for 80 minutes, with the UV filters avobenzone 3%, homosalate 10%, octisalate 5%, and octocrylene 7%.[^1]
+La Roche-Posay Anthelios Melt-in Milk is a fragrance-free chemical sunscreen lotion for daily face and body use, rated Broad Spectrum SPF 60 and water resistant for 80 minutes, with the UV filters avobenzone 3%, homosalate 10%, octisalate 5%, and octocrylene 7%.[^1]
 
-> This product pairs a high UVB rating (FDA Broad Spectrum SPF 60, water resistant 80 minutes) with UVA protection that rests on avobenzone, the older US UVA filter.[^1] Its sunburn (UVB) protection is strong; its photoaging (UVA) protection is more limited than modern-filter sunscreens built on Tinosorb or Mexoryl that are standard in the EU, Korea, and Australia.[^2] Regular use of a broad-spectrum sunscreen has randomized-trial support for slowing photoaging and reducing some skin cancers; how SPF, UVA, and the filter set fit together is covered on [[sunscreen-uv-filters]].
+> This product pairs a high UVB rating (FDA Broad Spectrum SPF 60, water resistant 80 minutes) with UVA protection that rests on avobenzone, the older US UVA filter.[^1] Its sunburn (UVB) protection is strong; its [[sun-damage-photoaging|photoaging]] (UVA) protection is more limited than modern-filter sunscreens built on Tinosorb or Mexoryl that are standard in the EU, Korea, and Australia.[^2] Regular use of a broad-spectrum sunscreen has randomized-trial support for slowing photoaging and reducing some skin cancers; how SPF, UVA, and the filter set fit together is covered on [[sunscreen-uv-filters]].
 
 ## Summary
 
@@ -78,7 +78,12 @@ Label and marketing terms not established by the graded evidence above:
 
 ## See Also
 
-Similar broad-spectrum sunscreens: [[neutrogena-ultra-sheer-dry-touch-spf-70]], [[cerave-hydrating-mineral-sunscreen-spf-30-face]], [[sunscreen-uv-filters]].
+- [[sunscreen-uv-filters]] for how SPF, UVA, and filter chemistry fit together
+- [[neutrogena-ultra-sheer-dry-touch-spf-70]] and [[cerave-hydrating-mineral-sunscreen-spf-30-face]], other broad-spectrum sunscreens on the site
+- [[best-sunscreens-daily-wear]], the site's ranked sunscreen list
+- [[sun-damage-photoaging]], the condition this product's UVA protection addresses
+- [[zinc-oxide]] and [[titanium-dioxide]], the mineral filters used in higher-UVA-rated alternatives
+- [[anti-aging]], the broader goal daily sunscreen use supports
 
 ## Where to Buy
 
