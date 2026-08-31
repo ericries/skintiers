@@ -22,17 +22,17 @@ videos:
 
 ---
 
-Petrolatum (petroleum jelly; USP white petrolatum) is a purified semisolid mixture of hydrocarbons and the reference occlusive against which every other moisturizing agent is measured. Its core function, slowing water loss across the skin barrier, is one of the better-established facts in dermatology, but "well-established occlusive" and "does everything a moisturizer ad claims" are different statements, so this profile grades each use separately.
+Petrolatum (petroleum jelly; USP white petrolatum, the base of products like Vaseline) is a purified, semisolid mixture of hydrocarbons. It is an occlusive: a substance that sits on the skin and physically blocks water from evaporating, and it is the benchmark other [[skin-barrier-repair|barrier-support]] and [[moisturizing|moisturizing]] ingredients get compared against. That water-loss-slowing function is one of the better-established facts in dermatology. But "well-established occlusive" and "does everything a moisturizer ad claims" are different statements, so this profile grades each use separately.
 
 ## The Rubric
 
-Grades differ by use. Framing below is relative and names comparators.
+Petrolatum does not deserve one single grade because it is used for several different jobs. Each use below is graded separately, from strongest evidence to weakest. Framing below is relative and names comparators.
 
 **Barrier occlusion / reducing transepidermal water loss (TEWL)**
 - **Effect size: strong.** Petrolatum is the benchmark occlusive, the substance other occlusives are rated against, not a peer among them. A mechanistic human study confirmed it genuinely occludes yet still permeates the stratum corneum.[^2] A widely-cited secondary reference puts it at "reducing water loss through the epidermis by nearly 99%."[^4] "Strong: the reference occlusive; lanolin, dimethicone and plant oils are the weaker comparators. Caveat: the ~99% figure comes from a secondary source; the primary evidence secures the qualitative ranking as the most effective occlusive."
 - **Evidence quality: solid.** The occlusive/barrier function itself is demonstrated in a primary human experiment[^2] and underwrites decades of regulatory and clinical use. Short of "gold-standard" because the headline quantitative number (~99%) traces to review literature,[^4] a secondary source; the primary evidence secures the qualitative ranking as the most effective occlusive.
 
-**Eczema / dry-skin management (as an emollient/moisturizer)**
+**Eczema ([[atopic-dermatitis]]) / [[dry-skin|dry-skin]] management (as an emollient/moisturizer)**
 - **Effect size: modest (petrolatum-specific), notable (moisturizers as a class).** The strong clinical evidence is category-level: moisturizers in general reduce eczema flares and spare topical steroids.[^1] The notable effect belongs to moisturizers as a class; petrolatum is a plain, cheap, fragrance-free member, so the *petrolatum-specific* grade is tempered down. "Modest for petrolatum specifically; the notable effect belongs to 'moisturizers generally,' of which petrolatum is one unglamorous example."
 - **Evidence quality: solid (category-level).** A Cochrane systematic review of 77 RCTs / 6,603 participants anchors the moisturizer-class evidence.[^1] Downgraded from gold-standard for petrolatum because that evidence is about the category, not petrolatum-versus-comparator trials.
 
@@ -46,7 +46,7 @@ Grades differ by use. Framing below is relative and names comparators.
 
 ## What We Actually Know
 
-Petrolatum is the reference occlusive: it slows transepidermal water loss more effectively than lighter agents, and a primary human study showed it does so while *permeating* the stratum corneum rather than merely sitting on top of it.[^2][^4] As an emollient it fits the Cochrane moisturizer evidence (moisturizers reduce eczema flares and let people use less topical steroid), but that evidence is about moisturizers as a category, not petrolatum head-to-heads.[^1] For clean post-surgical wounds, one large RCT found plain petrolatum as good as antibiotic ointment at preventing infection, with the trial authors reporting minimal allergy risk.[^3] On safety, a national regulatory risk assessment concluded that for cosmetic-grade (highly refined) product, "no health risks are to be expected" from skin application.[^5]
+Petrolatum is the reference occlusive: it slows transepidermal water loss (TEWL, the technical term for how fast moisture evaporates through the skin) more effectively than lighter agents, and a primary human study showed it does so while *permeating* the stratum corneum (the skin's outermost layer) rather than merely sitting on top of it.[^2][^4] As an emollient it fits the Cochrane moisturizer evidence (moisturizers reduce eczema flares and let people use less topical steroid), but that evidence is about moisturizers as a category, not petrolatum head-to-heads.[^1] For clean post-surgical wounds, one large RCT found plain petrolatum as good as antibiotic ointment at preventing infection, with the trial authors reporting minimal allergy risk.[^3] On safety, a national regulatory risk assessment concluded that for cosmetic-grade (highly refined) product, "no health risks are to be expected" from skin application.[^5]
 
 ## How It Works
 
@@ -66,7 +66,7 @@ Primary and authoritative evidence, by use:
 
 ## Uses
 
-Well-supported: as an occlusive to reduce transepidermal water loss and as a plain emollient in dry-skin and eczema care (inheriting the moisturizer-class evidence), where its being cheap, fragrance-free and low-allergen is a genuine advantage. Well-supported and often overlooked: clean post-procedure wound care, where one large RCT makes it a reasonable default over antibiotic ointment (which carries allergy risk and antibiotic-stewardship downsides). Reasonable by mechanism: "slugging" (a nightly occlusive layer) to trap water and support barrier recovery, consistent with the barrier-recovery finding,[^2] though not itself the subject of the trials cited here. Not supported by controlled evidence: anti-aging, wrinkle reduction, "skin repair" beyond barrier support, or any benefit requiring active pharmacology petrolatum does not have.
+Well-supported: as an occlusive to reduce transepidermal water loss and as a plain emollient in [[dry-skin|dry-skin]] and eczema care (inheriting the moisturizer-class evidence), where its being cheap, fragrance-free and low-allergen is a genuine advantage. Well-supported and often overlooked: clean post-procedure wound care, where one large RCT makes it a reasonable default over antibiotic ointment (which carries allergy risk and antibiotic-stewardship downsides). Reasonable by mechanism: "slugging" (a nightly occlusive layer applied as the last step of a routine) to trap water and support barrier recovery, consistent with the barrier-recovery finding,[^2] though not itself the subject of the trials cited here. Not supported by controlled evidence: [[anti-aging|anti-aging]], wrinkle reduction, "skin repair" beyond barrier support, or any benefit requiring active pharmacology petrolatum does not have.
 
 ## Common Marketing Claims
 
@@ -76,6 +76,18 @@ This section is quarantined and discounted; treat everything here as unproven or
 - **"Suffocates the skin / can't breathe."** Directly contradicted by the primary mechanistic study: petrolatum "neither forms nor acts like an epicutaneous impermeable membrane" and permits normal barrier recovery.[^2] Discounted.
 - **"Clogs pores / comedogenic."** Overstated as a blanket claim. Its occlusivity drives the fear, but the mechanistic study found petrolatum permeates the stratum corneum rather than forming a suffocating film,[^2] and it is documented as safe on healing surgical wounds.[^3] Discounted.
 - **"Slugging fixes everything / repairs and rejuvenates skin."** Occlusion and barrier support are real and mechanism-consistent,[^2] but there is no controlled evidence that petrolatum reverses aging, remodels dermis, or does anything beyond trapping water. The barrier-repair benefit is your own skin healing under an occlusive layer, not the petrolatum doing active repair. Discount the "everything" and "rejuvenates" overreach.
+
+## See Also
+
+- [[dry-skin]] - the condition petrolatum's emollient use is most relevant to
+- [[atopic-dermatitis]] - eczema, where the Cochrane moisturizer evidence applies
+- [[skin-barrier-repair]] - the broader goal petrolatum's occlusion serves
+- [[moisturizing]] - the goal hub petrolatum sits under as the reference occlusive
+- [[ceramides]] - a barrier-support ingredient with a different, non-occlusive mechanism
+- [[glycerin]] - a humectant often paired with occlusives like petrolatum
+- [[hyaluronic-acid]] - another humectant commonly layered under an occlusive
+- [[cerave-moisturizing-cream]] - a product that combines petrolatum-style occlusion with ceramides
+- [[sensitive-skin]] - a use case where petrolatum's low-allergen profile is an advantage
 
 ## Sources
 

@@ -102,13 +102,13 @@ videos:
 
 ---
 
-Vitamin C on a skincare label can mean several different molecules. The reference form is L-ascorbic acid, the pure unmodified vitamin and the only form the skin can use without first converting it. Because L-ascorbic acid is unstable in water and oxidizes readily, formulators also use a set of chemically modified derivatives (the ascorbyl phosphates, ascorbyl glucoside, an ethylated form, and lipid-soluble esters) that are more stable but must be converted back to ascorbic acid in or on the skin to do the same work. The forms are not interchangeable: they differ in how many conversion steps separate them from ascorbic acid, and in how much controlled human evidence stands behind each. This hub maps the family by conversion pathway, by form, and by strength of evidence, and links to the full profile for the reference form, [[ascorbic-acid-vitamin-c]].
+"Vitamin C" on a skincare label is not one ingredient, it is a family of related molecules. The reference form is L-ascorbic acid, the pure, unmodified vitamin and the only form skin can use directly, without first converting it into something else. L-ascorbic acid breaks down quickly in water and air, so formulators also sell a set of chemically modified derivatives (the ascorbyl phosphates, ascorbyl glucoside, an ethylated form, and lipid-soluble esters) that sit longer on a shelf but have to be converted back into ascorbic acid by the skin before they can do the same work. The forms are not interchangeable: they differ in how many conversion steps separate them from ascorbic acid, and in how much controlled human evidence stands behind each. This hub maps the family by conversion pathway, by form, and by strength of evidence, and links to the full profile for the reference form, [[ascorbic-acid-vitamin-c]].
 
 > The vitamin C forms share one active endpoint, L-ascorbic acid, but the evidence behind them is uneven. L-ascorbic acid is the reference benchmark and the only form biologically active without conversion; Pinnell and colleagues worked out the low-pH, high-concentration formulation it needs to reach the skin. The derivatives were built to solve its instability, but Pullar, Carr and Vissers' review reports that the phosphate forms convert to ascorbic acid slowly and are poorly absorbed, and that conversion of the lipid-soluble esters is in doubt. Most derivatives carry far less controlled human efficacy data than L-ascorbic acid.
 
 ## The Conversion Pathway
 
-The skin uses vitamin C as ascorbic acid. Pullar, Carr and Vissers state that "it is only when pH levels are below 4 and vitamin C is present as ascorbic acid that some penetration occurs."[^pullar] In that form the vitamin acts as a cofactor for collagen synthesis and as an antioxidant: the same review describes vitamin C as "a co-factor for the proline and lysine hydroxylases that stabilise the collagen molecule tertiary structure," one that "also promotes collagen gene expression."[^pullar]
+The skin uses vitamin C as ascorbic acid. Pullar, Carr and Vissers state that "it is only when pH levels are below 4 and vitamin C is present as ascorbic acid that some penetration occurs."[^pullar] In that form the vitamin acts as a cofactor (a helper molecule an enzyme needs to work) for collagen synthesis and as an antioxidant: the same review describes vitamin C as "a co-factor for the proline and lysine hydroxylases that stabilise the collagen molecule tertiary structure," one that "also promotes collagen gene expression."[^pullar]
 
 Every other form is a modified version that has to shed its modifying group and become ascorbic acid before it can do this. The chain runs:
 
@@ -168,7 +168,7 @@ Treat everything here as unproven or overstated unless it appears in The Evidenc
 
 ## See Also
 
-[[ascorbic-acid-vitamin-c]], [[niacinamide]], [[tocopherol]], [[sunscreen-uv-filters]], [[skinceuticals-c-e-ferulic]], [[prequel-lucent-c-vitamin-c-serum]], [[beauty-of-joseon-light-on-serum-centella-vita-c]]
+[[ascorbic-acid-vitamin-c]], [[hyperpigmentation]], [[brightening]], [[niacinamide]], [[tocopherol]], [[ferulic-acid]], [[sunscreen-uv-filters]], [[skinceuticals-c-e-ferulic]], [[prequel-lucent-c-vitamin-c-serum]]
 
 ## Sources
 

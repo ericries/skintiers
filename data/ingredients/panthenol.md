@@ -21,7 +21,7 @@ videos:
 
 ---
 
-Panthenol (provitamin B5, also formulated as its more penetrant precursor dexpanthenol) is a humectant and skin-conditioning ingredient used across cleansers, moisturizers, and after-sun and wound-care products. Proksch and Nissen describe it as "converted in tissues to pantothenic acid, a component of coenzyme A," the cofactor that "catalyses early steps in the synthesis of fatty acids and sphingolipids which are of crucial importance for stratum corneum lipid bilayers and cell membrane integrity."[^proksch] Its best-supported role is soothing and short-term barrier/wound recovery, not a treatment active in its own right.
+Panthenol, also called provitamin B5, is a soothing, water-binding ingredient (a [[moisturizing|humectant]]) used in cleansers, moisturizers, and after-sun and wound-care products. It is also formulated as dexpanthenol, a more penetrant precursor form used in the same way. The bottom line: panthenol is a solid supporting ingredient for calming irritated skin and helping it hold water, not a standalone treatment active. Proksch and Nissen describe it as "converted in tissues to pantothenic acid, a component of coenzyme A," the cofactor that "catalyses early steps in the synthesis of fatty acids and sphingolipids which are of crucial importance for stratum corneum lipid bilayers and cell membrane integrity."[^proksch] Its best-supported role is soothing and short-term [[skin-barrier-repair|barrier]]/wound recovery.
 
 > Topical dexpanthenol has controlled-trial support for speeding barrier recovery, easing irritation, and modestly accelerating minor wound and post-procedure healing, though a notable share of that evidence is manufacturer-linked: the main clinical review is co-authored by Bayer Consumer Care employees, and Bayer owns the original Bepanthen dexpanthenol brand.[^anniversary] Its cosmetic use as a humectant that lowers water loss is supported by one dose-ranging trial at 1% and 5%.[^camargo] Anti-aging or wrinkle claims are not supported by controlled evidence; panthenol functions as a supporting soothing/hydrating ingredient, best paired with better-evidenced actives such as [[niacinamide]] rather than used as a treatment on its own.
 
@@ -40,7 +40,7 @@ No controlled trial in the sources above tests panthenol or dexpanthenol against
 
 ## How It Works
 
-Dexpanthenol is "converted in tissues to pantothenic acid, a component of coenzyme A," and that coenzyme "catalyses early steps in the synthesis of fatty acids and sphingolipids which are of crucial importance for stratum corneum lipid bilayers and cell membrane integrity."[^proksch] Ebner and colleagues describe it as "the stable alcoholic analog of pantothenic acid," whose topical use "is based on good skin penetration and high local concentrations."[^ebner] As a small, water-binding molecule it also acts directly as a humectant, which is the more immediate mechanism behind its measured reduction in transepidermal water loss at cosmetic concentrations.[^camargo]
+Dexpanthenol is "converted in tissues to pantothenic acid, a component of coenzyme A," and that coenzyme "catalyses early steps in the synthesis of fatty acids and sphingolipids which are of crucial importance for stratum corneum lipid bilayers and cell membrane integrity."[^proksch] Ebner and colleagues describe it as "the stable alcoholic analog of pantothenic acid," whose topical use "is based on good skin penetration and high local concentrations."[^ebner] As a small, water-binding molecule it also acts directly as a humectant, which is the more immediate mechanism behind its measured reduction in transepidermal water loss (moisture escaping through the skin) at cosmetic concentrations.[^camargo]
 
 ## The Evidence
 
@@ -59,7 +59,7 @@ Dexpanthenol is "converted in tissues to pantothenic acid, a component of coenzy
 
 ## See Also
 
-[[niacinamide]] [[ceramides]] [[moisturizing]] [[atopic-dermatitis]]
+[[niacinamide]] [[ceramides]] [[moisturizing]] [[atopic-dermatitis]] [[skin-barrier-repair]] [[sensitive-skin]] [[dry-skin]] [[hyaluronic-acid]]
 
 ## Sources
 

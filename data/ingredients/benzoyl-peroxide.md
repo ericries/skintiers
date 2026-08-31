@@ -61,7 +61,9 @@ videos:
 
 ---
 
-Benzoyl peroxide (BPO) is a topical oxidizing agent that releases reactive oxygen radicals, killing *Cutibacterium acnes* (formerly *Propionibacterium acnes*) on contact.[^3][^4] It is sold both over-the-counter and by prescription, and it is one of the oldest and most universally recommended first-line acne treatments. It has a distinctive property: no bacterial resistance to it has been documented, and it suppresses the emergence of antibiotic resistance when co-formulated with a topical antibiotic.[^4][^5] By GRADE, the certainty of its efficacy evidence is low, and its clinical effect is modest.[^1]
+Benzoyl peroxide (BPO) is a topical [[acne]] treatment sold both over-the-counter and by prescription. It works by releasing reactive oxygen radicals that kill *Cutibacterium acnes* (formerly *Propionibacterium acnes*) on contact.[^3][^4] It is one of the oldest and most widely recommended first-line acne treatments, and it has a distinctive property: no bacterial resistance to it has been documented, and it suppresses the emergence of antibiotic resistance when co-formulated with a topical antibiotic.[^4][^5]
+
+**The bottom line:** BPO reliably beats a plain vehicle for acne, but only by a modest margin, and head-to-head it is statistically no better than [[adapalene]] or topical clindamycin. By GRADE, the certainty of its efficacy evidence is low, and its clinical effect is modest.[^1] It earns its place mainly as a cheap, resistance-proof base to combine with other actives, not as a standout on its own.
 
 ## The Rubric
 
@@ -73,7 +75,7 @@ Grades are per use. Framing below is relative and names comparators.
 
 ## What We Actually Know
 
-BPO reliably outperforms vehicle for mild-to-moderate acne, but by a modest margin, and in direct comparison it is statistically no better (and no worse) than adapalene or topical clindamycin.[^1] Combination products (BPO plus a retinoid, or BPO plus an antibiotic) clearly outperform BPO alone.[^2] Its distinctive property is its resistance profile: as a non-specific oxidizer it kills *C. acnes* by a mechanism antibiotics cannot select against, no resistance to BPO has been documented, and co-formulating it with clindamycin prevents the resistance that clindamycin alone would drive.[^4][^5] The main cost is irritation: withdrawals for adverse effects run at roughly twice the placebo rate.[^1] By GRADE, that large body of evidence is rated low-certainty.[^1]
+BPO reliably outperforms vehicle (the inactive base cream or gel used as a control in trials) for mild-to-moderate acne, but by a modest margin, and in direct comparison it is statistically no better (and no worse) than adapalene or topical clindamycin.[^1] Combination products (BPO plus a [[retinoids|retinoid]], or BPO plus an antibiotic) clearly outperform BPO alone.[^2] Its distinctive property is its resistance profile: as a non-specific oxidizer it kills *C. acnes* by a mechanism antibiotics cannot select against, no resistance to BPO has been documented, and co-formulating it with clindamycin prevents the resistance that clindamycin alone would drive.[^4][^5] The main cost is irritation: withdrawals for adverse effects run at roughly twice the placebo rate.[^1] By GRADE, that large body of evidence is rated low-certainty.[^1]
 
 ## How It Works
 
@@ -95,7 +97,7 @@ Primary clinical evidence:
 
 ## Uses
 
-Well-supported: mild-to-moderate acne vulgaris, where BPO is an inexpensive, resistance-proof first-line topical whose effect is modest and no greater than adapalene or topical clindamycin, on low-certainty evidence.[^1] It is also used as the base of a combination, pairing BPO with a topical antibiotic to suppress resistance, or with a retinoid for greater efficacy than either alone.[^2][^5]
+Well-supported: mild-to-moderate acne vulgaris, where BPO is an inexpensive, resistance-proof first-line topical whose effect is modest and no greater than [[adapalene]] (e.g. [[differin-adapalene-0-1-gel|Differin Gel]]) or topical clindamycin, on low-certainty evidence.[^1] It is also used as the base of a combination, pairing BPO with a topical antibiotic to suppress resistance, or with a retinoid for greater efficacy than either alone.[^2][^5]
 
 ## Common Marketing Claims
 
@@ -104,6 +106,17 @@ Treat everything here as unproven or overstated unless it appears in The Evidenc
 - **"Higher strength = better / stronger clears faster."** In a head-to-head RCT, 5% BPO reduced inflammatory lesions 75.0% versus 72.7% for 2.5%, a 2.3-point difference, while both far exceeded placebo (41.7%).[^6] Discounted.
 - **"Kills acne-causing bacteria as a headline cure."** BPO is bactericidal against *C. acnes* in vitro,[^4] but the clinical effect is only modest (RR 1.27 vs placebo) and no better than adapalene or clindamycin, one of which is not antibacterial.[^1] Discounted.
 - **"Spot treatment clears blemishes overnight."** The trials that establish BPO's effect run 10 to 12 weeks,[^1][^6] and the label states that improvement is most likely during the first four weeks of use.[^3] Discounted.
+
+## See Also
+
+- [[acne]], the condition BPO treats
+- [[adapalene]], the topical retinoid BPO ties with head-to-head
+- [[differin-adapalene-0-1-gel]], an adapalene product often paired with BPO
+- [[retinoids]], the drug class BPO is commonly combined with
+- [[tretinoin]], another retinoid frequently layered with BPO
+- [[azelaic-acid]], a gentler mid-tier alternative for acne
+- [[salicylic-acid]], another over-the-counter acne exfoliant
+- [[skin-barrier-repair]], managing the irritation BPO can cause
 
 ## Sources
 

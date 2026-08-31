@@ -80,7 +80,7 @@ videos:
 
 ---
 
-Cosmetic peptides are short chains of amino acids added to skincare, usually to signal collagen production, relax expression lines, or carry trace metals, and marketed mainly as anti-aging actives whose measured effect on the look of aging is modest and mostly preliminary. Because the evidence differs sharply by the type of peptide, this profile grades them by class rather than as one ingredient.
+Cosmetic peptides are short chains of amino acids added to skincare products. Depending on the type, they are meant to signal collagen production, relax expression lines, or carry trace metals into the skin. They are marketed mainly as [[anti-aging]] actives, but their measured effect on the look of aging is modest and mostly preliminary. Because the evidence differs sharply by the type of peptide, this profile grades them by class rather than treating "peptides" as one ingredient.
 
 > Peptides are well-tolerated skincare ingredients with a modest, mostly preliminary effect on the appearance of aging. A 2026 systematic review and meta-analysis of 19 randomized trials (1,341 participants) found peptides improved hydration and brightness and had only a small pooled effect on wrinkles, and that this wrinkle benefit was "largely driven by oral polypeptides" rather than topical ones.[^nukaly] The endpoints that have been measured (wrinkle depth, fine lines, elasticity, brightness) are cosmetic, and dermatology reviews place topical peptides in the mid-tier "cosmeceutical" band below prescription [[tretinoin]], described as the clinical "gold standard."[^griffiths] A separate systematic review of collagen-stimulating peptides found the clinical literature "sparse" and mostly not placebo-controlled.[^michalek]
 
@@ -96,7 +96,7 @@ Peptides are not one ingredient, and their evidence differs by class. Framing be
 - **Effect size: minimal to modest, cosmetic.** These are marketed to relax the muscle contractions behind expression lines. In the developers' original study a 10% emulsion of the hexapeptide "reduced wrinkle depth up to 30% upon 30 days treatment" in women volunteers, with a lab-demonstrated inhibition of neurotransmitter release.[^blanesmira] An independent randomized study (n=24, 60 days) reported "the antiwrinkle activity of acetyl hexapeptide-3" and a significant fall in transepidermal water loss.[^raikou] Delivery is the weak point: a 2025 review found the peptide "faces limited permeability through the lipophilic stratum corneum," and its ability to reach neuromuscular junctions "remains uncertain."[^zdrada] "Minimal to modest and cosmetic: a topical is not comparable to injected botulinum toxin, and the peptide's own review flags that it may not reach the muscles it targets."[^zdrada]
 - **Evidence quality: preliminary.** The supportive human trials are small, several are run by the peptide's developers, and the leading review concludes the mechanism "remain[s] incompletely understood."[^zdrada][^blanesmira]
 
-**Carrier peptides (copper tripeptide-1 / GHK-Cu, "copper peptide")**
+**Carrier peptides ([[copper-peptides|copper tripeptide-1 / GHK-Cu]], "copper peptide")**
 - **Effect size: not established in independent cosmetic trials; laboratory and wound-healing evidence for skin-matrix synthesis.** GHK-Cu carries copper into cells and, in the lab, "increases collagen, elastin, and glycosaminoglycan synthesis, as well as supports the function of dermal fibroblasts," with a long record in tissue repair.[^pickart] Most of that rests on cell, animal, and gene-expression work rather than controlled trials of a leave-on cosmetic, and its principal reviews are by Loren Pickart, who discovered the peptide.[^pickart] "Promising in the lab for collagen and wound repair, but the human cosmetic anti-aging case rests on experimental and discoverer-authored evidence, not independent trials."[^pickart]
 - **Evidence quality: anecdotal to preliminary for cosmetic anti-aging; experimental for mechanism.**
 
@@ -106,7 +106,13 @@ Peptides are not one ingredient, and their evidence differs by class. Framing be
 
 ## What We Actually Know
 
-Peptides are short chains of amino acids used in cosmetics in several distinct roles. Gorouhi and Maibach group topical peptides into four types: signal peptides, enzyme-inhibitor peptides, neurotransmitter-inhibitor peptides, and carrier peptides.[^gorouhi] The best-supported statements about them are cautious ones. They are well tolerated, and the pooled evidence shows a small effect on the appearance of aging: a 2026 systematic review and meta-analysis of 19 RCTs (1,341 participants) found significant improvement in hydration and brightness and a modest pooled effect on wrinkle reduction (mean difference 0.27, p=0.04), with that wrinkle benefit "largely driven by oral polypeptides" (mean difference 1.5, p=0.01) rather than topical formulations, and inconsistent effects on elasticity and density.[^nukaly] The most-cited single topical trial, of the signal peptide pal-KTTKS, found a significant but small reduction in fine lines versus placebo in a manufacturer-run split-face study.[^robinson] The wider clinical literature for collagen-stimulating peptides is thin: one systematic review found only 6 of 15 identified studies were placebo-controlled and called the evidence "sparse."[^michalek] Dermatology reviews of topical anti-aging treatments place peptides in the middle "cosmeceutical" tier, below prescription [[tretinoin]], which Griffiths and colleagues describe as the clinical "gold standard."[^griffiths] The endpoints measured across this work (wrinkle depth, fine lines, elasticity, brightness) are cosmetic; the one recurring health-adjacent signal is a reduction in transepidermal water loss reported for acetyl hexapeptide-3, a barrier measure.[^raikou]
+Peptides are short chains of amino acids used in cosmetics in several distinct roles. Gorouhi and Maibach group topical peptides into four types: signal peptides, enzyme-inhibitor peptides, neurotransmitter-inhibitor peptides, and carrier peptides.[^gorouhi] The best-supported statements about them are cautious ones.
+
+They are well tolerated, and the pooled evidence shows a small effect on the appearance of aging: a 2026 systematic review and meta-analysis of 19 RCTs (1,341 participants) found significant improvement in hydration and brightness and a modest pooled effect on wrinkle reduction (mean difference 0.27, p=0.04), with that wrinkle benefit "largely driven by oral polypeptides" (mean difference 1.5, p=0.01) rather than topical formulations, and inconsistent effects on elasticity and density.[^nukaly]
+
+The most-cited single topical trial, of the signal peptide pal-KTTKS, found a significant but small reduction in fine lines versus placebo in a manufacturer-run split-face study.[^robinson] The wider clinical literature for collagen-stimulating peptides is thin: one systematic review found only 6 of 15 identified studies were placebo-controlled and called the evidence "sparse."[^michalek] Dermatology reviews of topical anti-aging treatments place peptides in the middle "cosmeceutical" tier, below prescription [[tretinoin]], which Griffiths and colleagues describe as the clinical "gold standard."[^griffiths]
+
+The endpoints measured across this work (wrinkle depth, fine lines, elasticity, brightness) are cosmetic; the one recurring health-adjacent signal is a reduction in transepidermal water loss (moisture escaping through the skin's barrier, a measure of [[skin-barrier-repair|barrier function]]) reported for acetyl hexapeptide-3.[^raikou]
 
 ## How It Works
 
@@ -158,7 +164,7 @@ This section is quarantined and discounted; treat everything here as unproven or
 
 ## See Also
 
-[[tretinoin]], [[retinoids]], [[niacinamide]], [[hyaluronic-acid]], [[anti-aging]], [[cosrx-6-peptide-skin-booster-serum]], [[the-ordinary-multi-peptide-ha-serum]], [[the-ordinary-multi-peptide-copper-peptides-serum]].
+[[tretinoin]], [[retinoids]], [[copper-peptides]], [[niacinamide]], [[hyaluronic-acid]], [[anti-aging]], [[cosrx-6-peptide-skin-booster-serum]], [[the-ordinary-multi-peptide-ha-serum]], [[the-ordinary-multi-peptide-copper-peptides-serum]].
 
 ## Sources
 

@@ -41,7 +41,7 @@ videos:
 
 ---
 
-Centella asiatica is a tropical medicinal herb whose active pentacyclic triterpenes (asiaticoside, madecassoside, asiatic acid, and madecassic acid) are used topically for wound healing and, in modern cosmetics, in the soothing creams often labelled "cica."[^bylka]
+Centella asiatica, also called gotu kola, is a tropical medicinal herb applied topically for wound healing. Its active compounds are four pentacyclic triterpenes (asiaticoside, madecassoside, asiatic acid, and madecassic acid), and in modern cosmetics the same extract shows up in soothing creams often labelled "cica."[^bylka]
 
 The plant has a long traditional record for small wounds, burns, and scars, and a 2014 dermatology overview describes that literature as focused on "improvement of the healing process of small wounds, hypertrophic scars and burns."[^bylka] The best-characterized part of the story is mechanistic: its triterpenes stimulate collagen and connective-tissue synthesis in cultured skin cells, and the extract has anti-inflammatory activity in the lab.[^lu][^bonte][^whsr] The controlled clinical record is much thinner than the marketing implies. A systematic review of Centella for wound healing found only four clinical trials and could not pool them, the one human anti-aging trial paired it with vitamin C so its own effect cannot be isolated, and the current Cochrane review found no high-quality evidence that Centella-containing creams prevent stretch marks.[^whsr][^haftek][^cochrane12]
 
@@ -49,7 +49,7 @@ The plant has a long traditional record for small wounds, burns, and scars, and 
 
 ## What It Is and How It Works
 
-Centella asiatica (also called gotu kola) is a herbaceous plant whose topical activity is attributed to four triterpene compounds. The 2014 dermatology overview states that "the active compounds include pentacyclic triterpenes," naming asiaticoside, madecassoside, asiatic acid, and madecassic acid.[^bylka] Cosmetic extracts standardized to these triterpenes are the form used in most "cica" products.
+Centella asiatica is a herbaceous plant whose topical activity is attributed to those four triterpene compounds. The 2014 dermatology overview states that "the active compounds include pentacyclic triterpenes," naming asiaticoside, madecassoside, asiatic acid, and madecassic acid.[^bylka] Cosmetic extracts standardized to these triterpenes are the form used in most "cica" products.
 
 The most reproducible mechanism is stimulation of dermal collagen. Using cultured human fibroblasts, one study reported that asiaticoside at 30 micrograms per mL significantly upregulated 54 genes tied to cell proliferation and extracellular-matrix synthesis, including those "encoding type I and type III collagen proteins," with matching increases at the messenger-RNA and protein level.[^lu] An earlier ELISA study of cultured human fibroblasts found that both asiaticoside and madecassoside raised type I collagen secretion by roughly 25 to 30%, and that only madecassoside significantly increased type III collagen (this study was run at a cosmetics-industry laboratory, LVMH Recherche).[^bonte] Synthesizing the preclinical literature, the 2022 wound-healing systematic review attributes the plant's effect to stimulation of "collagen I, Fibroblast Growth Factor (FGF) and Vascular Endothelial Growth Factor (VEGF)" and to an anti-inflammatory action seen as reductions in IL-1β, IL-6, TNFα, PGE2, and COX-2 in laboratory models.[^whsr] These are the health-relevant biological signals, but they are largely in vitro and animal findings, not human outcomes.
 
@@ -61,7 +61,7 @@ Primary clinical evidence, by use, separated from the preclinical mechanism abov
 
 **Photoaging (cosmetic).** A randomized, double-blind study of 20 women applied a formula of 5% vitamin C plus 0.1% madecassoside to photoaged skin for six months and reported "significant improvement of the clinical score for deep and superficial wrinkles," suppleness, firmness, and hydration, with structural remodelling of the dermal elastic-fibre network on histology; "two-thirds of the subjects showed an improvement."[^haftek] Because vitamin C, a well-studied antioxidant with its own evidence for photoaging (see [[ascorbic-acid-vitamin-c]]), was in the same product, the madecassoside contribution cannot be separated out. The endpoints are cosmetic (wrinkle appearance and firmness), and prescription [[tretinoin]] and the broader [[retinoids]] class carry far stronger controlled anti-aging evidence.
 
-**Stretch marks (striae gravidarum).** The 2012 Cochrane review of topical preparations for preventing stretch marks pooled trials of creams that included Centella-containing formulas and found no significant difference versus placebo or no treatment (average RR 0.74; 95% CI 0.53 to 1.03; five trials, 474 women), concluding there was "no high-quality evidence to support the use of any of the topical preparations."[^cochrane12] An earlier Cochrane review had included a single 100-woman trial of a cream containing Centella asiatica, alpha-tocopherol, and collagen-elastin hydrolysates that reduced stretch marks (OR 0.41; 95% CI 0.17 to 0.99), but only in women "who had previously suffered stretch marks in pregnancy," with no benefit for general use.[^cochrane00] A separate dermatology review of stretch-mark prevention likewise found only "limited evidence that centella" may help.[^korgavkar]
+**[[stretch-marks|Stretch marks]] (striae gravidarum).** The 2012 Cochrane review of topical preparations for preventing stretch marks pooled trials of creams that included Centella-containing formulas and found no significant difference versus placebo or no treatment (average RR 0.74; 95% CI 0.53 to 1.03; five trials, 474 women), concluding there was "no high-quality evidence to support the use of any of the topical preparations."[^cochrane12] An earlier Cochrane review had included a single 100-woman trial of a cream containing Centella asiatica, alpha-tocopherol, and collagen-elastin hydrolysates that reduced stretch marks (OR 0.41; 95% CI 0.17 to 0.99), but only in women "who had previously suffered stretch marks in pregnancy," with no benefit for general use.[^cochrane00] A separate dermatology review of stretch-mark prevention likewise found only "limited evidence that centella" may help.[^korgavkar]
 
 **Tolerability.** The plant is generally well tolerated topically, but it is not inert: a 2024 report documented allergic contact dermatitis to Centella asiatica extract in two patients, and the dermatology overview also notes potential adverse effects.[^acd][^bylka]
 
@@ -96,7 +96,7 @@ This section is quarantined and discounted; treat everything here as unproven or
 
 ## See Also
 
-[[niacinamide]] [[colloidal-oatmeal]] [[ceramides]] [[ascorbic-acid-vitamin-c]] [[skin-barrier-repair]] [[rosacea]]
+[[niacinamide]] [[colloidal-oatmeal]] [[ceramides]] [[ascorbic-acid-vitamin-c]] [[skin-barrier-repair]] [[tretinoin]] [[stretch-marks]] [[rosacea]]
 
 ## Sources
 

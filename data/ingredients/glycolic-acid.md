@@ -70,9 +70,9 @@ type: ingredient
 updated: '2026-07-28'
 ---
 
-Glycolic acid is the lowest-molecular-weight alpha-hydroxy acid (AHA), a small organic acid originally derived from sugar cane and used to loosen and shed the outer layer of skin in both leave-on cosmetics and higher-strength chemical peels.[^kornhauser]
+Glycolic acid is the smallest alpha-hydroxy acid (AHA), a plant-derived acid (originally from sugar cane) used to loosen and shed the skin's outer layer of dead cells. It shows up in everyday leave-on products and in stronger, dermatologist-applied chemical peels.[^kornhauser] The short version: the evidence for it is real but modest, it is roughly interchangeable with other superficial acid peels rather than a standout, and it comes with a clear downside, temporary extra sun sensitivity.
 
-AHAs are a family of water-soluble acids that includes glycolic acid (from sugar cane), lactic acid, citric, malic, tartaric, and mandelic acid; glycolic is the smallest of them and the one most used in skincare.[^kornhauser] At low, single-digit strengths they act mainly at the surface, weakening the bonds between dead surface cells so the outer layer sheds, and the controlled trials behind them tested creams at around 8% to 10%.[^stiller][^kaidbey] At the higher strengths used for in-office peels (20% to 30% in one melasma trial) the effect reaches deeper.[^hurley] In the United States, AHAs in cosmetics are regulated as cosmetics rather than drugs, so no FDA efficacy review sits behind them; the best-documented health effect of glycolic acid is a downside, that it can make skin more sensitive to ultraviolet light.[^kaidbey][^kornhauser]
+AHAs are a family of water-soluble acids that includes glycolic acid (from sugar cane), [[lactic-acid]], citric, malic, tartaric, and mandelic acid; glycolic is the smallest of them and the one most used in skincare.[^kornhauser] At low, single-digit strengths they act mainly at the surface, weakening the bonds between dead surface cells so the outer layer sheds, and the controlled trials behind them tested creams at around 8% to 10%.[^stiller][^kaidbey] At the higher strengths used for in-office peels (20% to 30% in one melasma trial) the effect reaches deeper.[^hurley] In the United States, AHAs in cosmetics are regulated as cosmetics rather than drugs, so no FDA efficacy review sits behind them; the best-documented health effect of glycolic acid is a downside, that it can make skin more sensitive to ultraviolet light.[^kaidbey][^kornhauser]
 
 > Glycolic acid and the other AHAs are chemical exfoliants with modest evidence. A small pilot study found long-term topical AHA increased skin thickness and dermal collagen, and a vehicle-controlled trial found 8% glycolic and lactic creams "modestly useful" against photodamage.[^ditre][^stiller] As peels they perform about as well as other superficial peels for acne and added nothing to hydroquinone for melasma.[^cochrane][^hurley] The clearest health finding is unfavorable: in a randomized double-blind study, 10% glycolic acid increased the skin's sensitivity to UV light, and the effect reversed within a week of stopping.[^kaidbey]
 
@@ -89,7 +89,7 @@ Grades differ by use, and are framed relative to named comparators. Sun sensitiv
 - **Evidence quality: weak.** The peel comparison rests on a single small study that Cochrane rated low quality, and the review concluded that outside its azelaic-acid comparisons "the quality of evidence was low or very low."[^cochrane]
 
 **Melasma and hyperpigmentation (glycolic peels added to hydroquinone)**
-- **Effect size: none demonstrated as an add-on.** In a split-face RCT of 21 women, everyone used 4% hydroquinone and daily sunscreen, and one side also received 20% to 30% glycolic peels every two weeks; both sides improved versus baseline (P<.001), but adding the peels made "no significant difference" over hydroquinone alone (P=.75).[^hurley] Hydroquinone, the comparator that carried the effect here, is a well-studied skin-lightening agent covered on [[hydroquinone]]. "No demonstrated benefit beyond hydroquinone; the pigment improvement in the trial came from hydroquinone, not the peels."
+- **Effect size: none demonstrated as an add-on.** In a split-face RCT of 21 women with [[melasma]], everyone used 4% hydroquinone and daily sunscreen, and one side also received 20% to 30% glycolic peels every two weeks; both sides improved versus baseline (P<.001), but adding the peels made "no significant difference" over hydroquinone alone (P=.75).[^hurley] Hydroquinone, the comparator that carried the effect here, is a well-studied skin-lightening agent covered on [[hydroquinone]]. "No demonstrated benefit beyond hydroquinone; the pigment improvement in the trial came from hydroquinone, not the peels."
 - **Evidence quality: weak.** A single small split-face RCT (n=21) for the add-on question.[^hurley]
 
 **Sun sensitivity (a safety axis, not an efficacy grade)**
@@ -126,13 +126,13 @@ Supported but modest: improving the look of photodamaged, rough, or sallow skin,
 This section is quarantined and discounted; treat everything here as unproven or overstated unless it appears in The Evidence above.
 
 - **"Boosts collagen and reverses aging."** The collagen and skin-thickness findings come from one small pilot study without reported statistics, and the controlled RCT that followed judged the same class of creams only "modestly useful" against photodamage.[^ditre][^stiller] Topical retinoids carry larger and more replicated anti-aging evidence; see [[retinoids]].
-- **"Fades dark spots and melasma."** The one RCT of glycolic peels for melasma added them to hydroquinone and found they "did not enhance the hypopigmenting effect of hydroquinone treatment alone" (P=.75); the pigment improvement came from the hydroquinone.[^hurley]
+- **"Fades dark spots and melasma."** ([[hyperpigmentation]]) The one RCT of glycolic peels for melasma added them to hydroquinone and found they "did not enhance the hypopigmenting effect of hydroquinone treatment alone" (P=.75); the pigment improvement came from the hydroquinone.[^hurley]
 - **"A gentle daily exfoliant for glowing skin."** Glow and radiance are cosmetic appearance claims, not the endpoints the trials measured, and the best-documented health effect of daily use is increased UV sensitivity: 10% glycolic acid raised sunburn-cell formation and lowered the minimal erythema dose in a randomized study.[^kaidbey][^stiller]
 - **"Natural fruit acid, so it is mild and sun-safe."** The opposite is documented for the sun: a randomized double-blind study found glycolic acid "sensitizes the skin to the damaging effects of UV light," reversing within a week of stopping.[^kaidbey]
 
 ## See Also
 
-[[salicylic-acid]] [[retinoids]] [[tretinoin]] [[azelaic-acid]] [[hydroquinone]] [[niacinamide]] [[sunscreen-uv-filters]]
+[[salicylic-acid]] [[lactic-acid]] [[retinoids]] [[tretinoin]] [[azelaic-acid]] [[hydroquinone]] [[melasma]] [[hyperpigmentation]] [[sunscreen-uv-filters]]
 
 ## Sources
 

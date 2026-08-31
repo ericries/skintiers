@@ -19,7 +19,7 @@ videos:
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 ---
 
-Avobenzone (INCI butyl methoxydibenzoylmethane) is an organic sunscreen filter and the main ultraviolet-A filter in United States over-the-counter sunscreens, absorbing across the UVA band but breaking down in sunlight unless a co-filter holds it stable.[^beasley][^akintilo] It is a dedicated UVA filter, not a UVB one, so it contributes little to a product's SPF and is combined with UVB filters such as [[octinoxate]], octisalate, homosalate, and octocrylene; SPF is a UVB metric and UVA is a separate axis, both explained on [[sunscreen-uv-filters]]. Regular broad-spectrum sunscreen use is one of the few skincare practices with randomized-trial support for slowing photoaging and reducing melanoma and squamous-cell tumor burden, and avobenzone is the UVA component of that protection in most older US formulas; the health benefit is established for the practice, not for avobenzone in isolation, and lives on [[sunscreen-uv-filters]].[^beasley][^akintilo] Two questions shape how it is graded: how well it actually covers UVA once photodegradation is accounted for, and what its measured systemic absorption means.
+Avobenzone (INCI butyl methoxydibenzoylmethane) is the ingredient that does most of the UVA-blocking work in US sunscreens, the kind of ultraviolet light most linked to wrinkles and deeper skin damage. It is an organic (chemical, not mineral) sunscreen filter and the main UVA filter in United States over-the-counter sunscreens, absorbing across the UVA band but breaking down in sunlight unless a co-filter holds it stable.[^beasley][^akintilo] It is a dedicated UVA filter, not a UVB one, so it contributes little to a product's SPF and is combined with UVB filters such as [[octinoxate]], [[octisalate]], [[homosalate]], and [[octocrylene]]; SPF is a UVB metric and UVA is a separate axis, both explained on [[sunscreen-uv-filters]]. Regular broad-spectrum sunscreen use is one of the few skincare practices with randomized-trial support for slowing photoaging and reducing melanoma and squamous-cell tumor burden, and avobenzone is the UVA component of that protection in most older US formulas; the health benefit is established for the practice, not for avobenzone in isolation, and lives on [[sunscreen-uv-filters]].[^beasley][^akintilo] Two questions shape how it is graded: how well it actually covers UVA once photodegradation is accounted for, and what its measured systemic absorption means.
 
 > Avobenzone is the primary UVA filter in US over-the-counter sunscreens and, at its 3% maximum, covers the long-wave UVA that mineral filters attenuate less, but it degrades under sunlight unless a co-filter such as octocrylene stabilizes it, and maximal-use trials show it is absorbed into plasma above the FDA's safety-testing threshold, an absorption the agency has asked for more data on and that the trial authors have not linked to any harm.[^beasley][^akintilo][^matta2019][^matta2020][^fda2019]
 
@@ -68,7 +68,7 @@ This section is quarantined and discounted; treat everything here as unproven or
 
 ## See Also
 
-[[sunscreen-uv-filters]] [[zinc-oxide]] [[octinoxate]]
+[[sunscreen-uv-filters]] [[zinc-oxide]] [[titanium-dioxide]] [[octinoxate]] [[octocrylene]] [[octisalate]] [[homosalate]] [[anti-aging]]
 
 ## Sources
 

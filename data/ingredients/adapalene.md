@@ -71,7 +71,11 @@ videos:
 
 ---
 
-Adapalene is a synthetic third-generation [[retinoids|retinoid]] and the active ingredient in Differin, first approved by the FDA as a prescription acne drug in 1996 and later sold over the counter. Skincare retinoids sit on a conversion pathway: a retinyl ester is converted to [[retinol]], retinol to retinaldehyde, and retinaldehyde to retinoic acid, the only form that binds the skin's retinoic acid receptors directly. Adapalene sits off that chain. Like [[tretinoin]] (which is retinoic acid itself) and the other synthetic prescription retinoids [[tazarotene]] and [[trifarotene]], it acts on the receptors directly rather than being converted from retinol, and the FDA label describes it as "a naphthoic acid derivative with retinoid-like properties" that "binds to specific retinoic acid nuclear receptors."[^epiduo] Two secondary reviews describe that receptor activity as selective for the beta and gamma retinoic acid receptors rather than binding all three subtypes broadly.[^statpearls][^cosio] Its controlled evidence is for acne, so this profile grades that use and treats photoaging as an off-label, class-level extrapolation.
+Adapalene is a synthetic third-generation [[retinoids|retinoid]], sold under the brand name Differin, that treats [[acne]]. It was first approved by the FDA as a prescription acne drug in 1996 and is now also sold over the counter at the same 0.1% strength.
+
+> **Bottom line:** Adapalene is a solid, well-tolerated acne treatment that lands level with benzoyl peroxide and tretinoin in head-to-head trials rather than beating them, and it is better tolerated than tretinoin. Its use for anti-aging is off-label and rests on the retinoid class in general, not on adapalene-specific trials.
+
+Most retinoids sit on a conversion pathway: a retinyl ester is converted to [[retinol]], retinol to retinaldehyde, and retinaldehyde to retinoic acid, the only form that binds the skin's retinoic acid receptors directly. Adapalene sits off that chain. Like [[tretinoin]] (which is retinoic acid itself) and the other synthetic prescription retinoids [[tazarotene]] and [[trifarotene]], it acts on the receptors directly rather than being converted from retinol, and the FDA label describes it as "a naphthoic acid derivative with retinoid-like properties" that "binds to specific retinoic acid nuclear receptors."[^epiduo] Two secondary reviews describe that receptor activity as selective for the beta and gamma retinoic acid receptors rather than binding all three subtypes broadly.[^statpearls][^cosio] Its controlled evidence is for acne, so this profile grades that use and treats photoaging as an off-label, class-level extrapolation.
 
 ## The Rubric
 
@@ -90,7 +94,9 @@ Adapalene is a synthetic retinoid with FDA-approved evidence for acne. In head-t
 
 ## How It Works
 
-Adapalene is a receptor agonist that needs no metabolic conversion, not a form the skin must oxidize from retinol. The FDA label for the Epiduo combination states that "adapalene binds to specific retinoic acid nuclear receptors but does not bind to cytosolic receptor protein," and, as the label is careful to add, "the significance of these findings with regard to the mechanism of action of adapalene for the treatment of acne is unknown."[^epiduo] The label identifies it as a synthetic retinoid and "a naphthoic acid derivative with retinoid-like properties."[^epiduo] Where the FDA label describes receptor binding in general terms, two secondary reviews describe the selectivity more precisely: StatPearls states that "adapalene and tazarotene have higher specificity for RAR-gamma and RAR-beta and do not interact with RXRs," and the Cosio review likewise describes adapalene as selective for the beta and gamma RARs over the alpha isoform.[^statpearls][^cosio] This is the same receptor-selective design used by [[tazarotene]], and it differs from [[tretinoin]], which is the active acid itself and binds the receptor family without that beta/gamma selectivity. StatPearls also notes adapalene "is an active metabolite and therefore requires no metabolic conversion," which places it off the retinol-to-retinaldehyde-to-acid chain that the [[retinoids]] hub describes, and reports that it is more photostable than tretinoin, which is part of why it can be co-formulated with benzoyl peroxide.[^statpearls]
+Adapalene is a receptor agonist that needs no metabolic conversion, not a form the skin must oxidize from retinol. The FDA label for the Epiduo combination states that "adapalene binds to specific retinoic acid nuclear receptors but does not bind to cytosolic receptor protein," and, as the label is careful to add, "the significance of these findings with regard to the mechanism of action of adapalene for the treatment of acne is unknown."[^epiduo] The label identifies it as a synthetic retinoid and "a naphthoic acid derivative with retinoid-like properties."[^epiduo]
+
+Where the FDA label describes receptor binding in general terms, two secondary reviews describe the selectivity more precisely: StatPearls states that "adapalene and tazarotene have higher specificity for RAR-gamma and RAR-beta and do not interact with RXRs," and the Cosio review likewise describes adapalene as selective for the beta and gamma RARs over the alpha isoform.[^statpearls][^cosio] This is the same receptor-selective design used by [[tazarotene]], and it differs from [[tretinoin]], which is the active acid itself and binds the receptor family without that beta/gamma selectivity. StatPearls also notes adapalene "is an active metabolite and therefore requires no metabolic conversion," which places it off the retinol-to-retinaldehyde-to-acid chain that the [[retinoids]] hub describes, and reports that it is more photostable than tretinoin, which is part of why it can be co-formulated with [[benzoyl-peroxide]].[^statpearls]
 
 ## The Evidence
 
@@ -115,6 +121,17 @@ This section is quarantined and discounted; treat everything here as unproven or
 - **"Gentler than tretinoin, so it is the retinoid for sensitive skin."** Partly grounded. The pooled comparative meta-analysis did find adapalene better tolerated than tretinoin at every evaluation point while matching it on lesion reduction.[^cunliffe] But "gentle" is relative to another retinoid, not absolute: the label still lists dryness, erythema, scaling, and stinging as expected local reactions.[^epiduo] It is a better-tolerated retinoid, not a non-irritating one.
 - **"Now over the counter, so it is weaker than prescription retinoids."** The OTC adapalene 0.1% gel is the same molecule at the same strength as the original prescription gel; over-the-counter is a regulatory status, not a lower potency.[^differin-otc][^statpearls] The claim inverts to overreach in the other direction too: OTC adapalene 0.1% is not equivalent to higher-strength prescription formulations or to tretinoin's separate anti-aging evidence.
 - **"Clears acne better than benzoyl peroxide."** Not supported. The Cochrane review found "little to no difference between BPO and adapalene" for participant-reported improvement (RR 0.99, 95% CI 0.90 to 1.10, low-certainty).[^cochrane-bpo] The evidence points to equivalence, not superiority.
+
+## See Also
+
+- [[acne]], the condition adapalene is FDA-approved to treat
+- [[retinoids]], the class hub covering the conversion pathway and other retinoids
+- [[tretinoin]], the prescription retinoid adapalene is most often compared against
+- [[tazarotene]], another receptor-selective synthetic retinoid
+- [[benzoyl-peroxide]], the other first-line acne active, co-formulated with adapalene in Epiduo
+- [[azelaic-acid]], a gentler alternative topical acne option
+- [[differin-adapalene-0-1-gel]], the original OTC adapalene 0.1% product
+- [[la-roche-posay-effaclar-adapalene-gel-0-1]], an alternative OTC adapalene 0.1% product
 
 ## Sources
 
