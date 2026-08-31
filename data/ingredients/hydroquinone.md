@@ -3,6 +3,7 @@ analyzed: '2026-07-28'
 assurance: opus
 name: Hydroquinone
 slug: hydroquinone
+tier: good
 status: published
 type: ingredient
 updated: '2026-07-28'

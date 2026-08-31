@@ -3,6 +3,7 @@ analyzed: '2026-07-28'
 assurance: opus
 name: Zinc oxide
 slug: zinc-oxide
+tier: good
 status: published
 type: ingredient
 updated: '2026-07-28'
