@@ -21,11 +21,13 @@ type: list
 updated: '2026-08-30'
 ---
 
-This ranks on-site facial cleansers suited to oily and acne-prone skin. The honest framing first: a cleanser's job is to remove oil, sweat, sunscreen and surface debris without stripping the barrier into compensatory oil production. That is worth doing, but cleansing does not treat acne by itself, see [[acne]] and [[oily-skin]]. Even a cleanser with a real acne active in it, benzoyl peroxide or salicylic acid, only touches skin for the one to two minutes it is massaged in before rinsing, far less contact time than the leave-on gels and creams those actives were actually studied in (see [[benzoyl-peroxide]] and [[salicylic-acid]]). Treat a medicated wash as a mild assist to a leave-on routine, not a replacement for one.
+This ranks on-site facial cleansers suited to [[oily-skin]] and [[acne|acne-prone skin]]. It ranks by whether the formula carries a real, evidence-backed acne active, [[benzoyl-peroxide]] or [[salicylic-acid]], at a meaningful labeled strength, then by how well it cleans oily skin without over-stripping it. Plain non-medicated washes rank below the medicated ones, but a well-tolerated gentle cleanser used daily still beats a stronger wash that gets skipped.
+
+A cleanser's job is to remove oil, sweat, sunscreen and surface debris without stripping the [[skin-barrier-repair|barrier]] into compensatory oil production. That is worth doing, but cleansing does not treat acne by itself.
+
+> Even a cleanser with a real acne active in it only touches skin for the one to two minutes it is massaged in before rinsing, far less contact time than the leave-on gels and creams those actives were actually studied in. Treat a medicated wash as a mild assist to a leave-on routine, not a replacement for one.
 
 ## The tier list
-
-Ranked by whether the formula carries a real acne active at a meaningful labeled strength, then by how well it cleans oily skin without over-stripping it.
 
 **[[panoxyl-acne-foaming-wash-benzoyl-peroxide-10|PanOxyl Acne Foaming Wash Benzoyl Peroxide 10%]].** Maximum OTC benzoyl peroxide strength in a rinse-off foaming wash. Higher concentrations are not meaningfully more effective than lower ones, only more irritating, so the strength here buys tolerance headroom more than extra clearance.
 
@@ -41,7 +43,17 @@ Ranked by whether the formula carries a real acne active at a meaningful labeled
 
 **[[tower-28-sos-daily-balancing-gel-cleanser|Tower 28 SOS Daily Balancing Gel Cleanser]].** Another mild, sulfate-free gel cleanser (decyl glucoside based); the barrier ingredients in the formula are rinsed off before they can do much, so the case here is the gentle wash itself, not the extras.
 
-None of these clear acne on their own. If breakouts are more than occasional, the more effective move is a leave-on benzoyl peroxide, salicylic acid, or retinoid product, not a stronger wash.
+None of these clear acne on their own. If breakouts are more than occasional, the more effective move is a leave-on benzoyl peroxide, salicylic acid, or [[retinoids|retinoid]] product, not a stronger wash.
+
+## See Also
+
+- [[acne]]
+- [[oily-skin]]
+- [[benzoyl-peroxide]]
+- [[salicylic-acid]]
+- [[retinoids]]
+- [[skin-barrier-repair]]
+- [[fungal-acne]]
 
 ## Sources
 

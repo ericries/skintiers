@@ -99,6 +99,18 @@ The tier list above orders them on this same axis of penetration and strength; t
 - **[[gluconolactone-pha]] (very gentle, for sensitive skin).** A polyhydroxy acid whose larger molecule penetrates slowly, so it exfoliates gently and adds a humectant effect; a good choice when even lactic acid is too much.
 - **[[lactobionic-acid]] (gentlest, thinnest evidence).** A bionic acid, larger still, so the gentlest of the group; its controlled evidence is mostly for hydration and tolerability rather than exfoliation, so pick it for sensitivity, not for strength.
 
+## See Also
+
+- [[acne]] for how salicylic acid's oil solubility fits an acne routine
+- [[hyperpigmentation]] for exfoliation's role in evening tone
+- [[brightening]] as the goal page these acids most often serve
+- [[melasma]] where acids are used with caution alongside other treatments
+- [[oily-skin]] for why salicylic acid is the usual pick here
+- [[sensitive-skin]] for why PHAs and mandelic acid are the safer starting points
+- [[dry-skin]] where humectant acids like lactic and PHA matter most
+- [[sun-damage-photoaging]] for glycolic acid's best-evidenced use case
+- [[skin-barrier-repair]] for balancing exfoliation against barrier health
+
 ## Sources
 
 Each acid's evidence and citations live on its own page: [[glycolic-acid]], [[salicylic-acid]], [[lactic-acid]], [[mandelic-acid]], [[gluconolactone-pha]], [[lactobionic-acid]]. Related: [[acne]] for the pore-clogging use of salicylic acid, and [[brightening]] and [[hyperpigmentation]] for exfoliation's role in evening tone.

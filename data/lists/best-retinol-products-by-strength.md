@@ -45,13 +45,37 @@ type: list
 updated: '2026-08-30'
 ---
 
-This ranks over-the-counter retinoid products by potency, not by evidence quality. The [[retinoids]] page lays out the conversion logic this ladder follows: prescription-strength adapalene and retinaldehyde convert to skin cell activity fastest, disclosed-percentage retinol needs enzymatic conversion first and is milder at any given number, and retinyl esters (granactive retinoid, retinyl palmitate) are the mildest, slowest-converting rung. A high number on a retinol label is not automatically stronger than a low number on a retinaldehyde or adapalene label; the molecule matters as much as the percentage. Strength is also not the same as "better": more potent formulas mean more irritation risk, and the right rung depends on tolerance, not ambition.
+This ranks over-the-counter [[retinoids]] products by potency, not by evidence quality. Potency here means how fast and how directly a molecule converts to active retinoic acid in skin, not which product works best for any one person.
+
+The [[retinoids]] page lays out the conversion logic this ladder follows. Prescription-strength [[adapalene]] and [[retinaldehyde]] convert to skin cell activity fastest. Disclosed-percentage [[retinol]] needs an extra enzymatic conversion step first and is milder at any given number. Retinyl esters such as granactive retinoid and [[retinyl-palmitate|retinyl palmitate]] are the mildest, slowest-converting rung.
+
+A high number on a retinol label is not automatically stronger than a low number on a retinaldehyde or adapalene label; the molecule matters as much as the percentage.
+
+> Strength is not the same as "better." More potent formulas carry more irritation risk, and the right rung depends on tolerance, not ambition.
 
 ## The tier list
 
-At the top are the two adapalene gels, chemically closest to prescription retinoids and OTC in the US since 2016. Next comes retinaldehyde (retinal), one conversion step from active retinoic acid and generally better tolerated than adapalene at comparable potency, ranked here by the strongest disclosed concentration downward: Medik8's Crystal Retinal line (10, 6, 3), Avène's 0.1% RetrinAL, then Murad, Youth To The People, and Beauty of Joseon's lower-dose or undisclosed retinaldehyde formulas. After that come retinol products with a disclosed percentage, from SkinMedica's 1.0 and SkinCeuticals' 0.5% down through the common 0.3% and 0.1% tier and the encapsulated formulas that print a delivery-system claim but no percentage. The bottom rung covers products built for gentleness or for body use rather than facial potency, plus The Ordinary's granactive retinoid (an ester, not retinol) and Necessaire's and Cocokind's low-dose or undisclosed-percentage formulas.
+At the top are the two [[adapalene]] gels, [[differin-gel-adapalene|Differin Gel]] and [[la-roche-posay-effaclar-adapalene-gel-0-1|La Roche-Posay Effaclar Adapalene Gel 0.1%]], chemically closest to prescription retinoids and available OTC in the US since 2016.
 
-Several widely-sold products, including CeraVe's two retinol serums and Naturium's Retinol Complex Serum, do not print a percentage anywhere on the packaging or ingredient list; they are placed by formulation cues (encapsulation claims, product positioning) rather than a verified number, and that gap is called out on their own pages.
+Next comes [[retinaldehyde]] (retinal), one conversion step from active retinoic acid and generally better tolerated than adapalene at comparable potency. This rung is ranked by the strongest disclosed concentration downward: [[medik8-crystal-retinal-10|Medik8's Crystal Retinal]] line (10, 6, 3), Avène's 0.1% RetrinAL, then Murad, Youth To The People, and Beauty of Joseon's lower-dose or undisclosed retinaldehyde formulas.
+
+After that come [[retinol]] products with a disclosed percentage, from SkinMedica's 1.0 and [[skinceuticals-retinol-0-5-refining-night-cream|SkinCeuticals' 0.5%]] down through the common 0.3% and 0.1% tier and the encapsulated formulas that print a delivery-system claim but no percentage.
+
+The bottom rung covers products built for gentleness or for body use rather than facial potency, plus [[the-ordinary-granactive-retinoid-2-emulsion|The Ordinary's granactive retinoid]] (an ester, not retinol) and Necessaire's and Cocokind's low-dose or undisclosed-percentage formulas.
+
+Several widely-sold products, including [[cerave-skin-renewing-retinol-serum|CeraVe's two retinol serums]] and [[naturium-retinol-complex-serum|Naturium's Retinol Complex Serum]], do not print a percentage anywhere on the packaging or ingredient list. They are placed by formulation cues (encapsulation claims, product positioning) rather than a verified number, and that gap is called out on their own pages.
+
+## See Also
+
+- [[retinoids]]
+- [[retinol]]
+- [[retinaldehyde]]
+- [[adapalene]]
+- [[tretinoin]]
+- [[anti-aging]]
+- [[sun-damage-photoaging]]
+- [[sensitive-skin]]
+- [[skin-barrier-repair]]
 
 ## Sources
 

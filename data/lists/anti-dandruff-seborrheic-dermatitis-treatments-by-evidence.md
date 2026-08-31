@@ -60,13 +60,29 @@ type: list
 updated: '2026-08-30'
 ---
 
-Dandruff and seborrheic dermatitis are the same condition at different severities: an inflammatory response to the Malassezia yeast that lives on everyone's skin, covered on [[seborrheic-dermatitis]] (and, on the trunk and face as itchy bumps, on [[fungal-acne]]). It is managed, not cured, so treatment is used in courses and repeated when it relapses.
+This list ranks the treatments for dandruff and [[seborrheic-dermatitis]] by the strength of the evidence behind them. Both are the same condition at different severities: an inflammatory response to the Malassezia yeast that lives on everyone's skin (on the trunk and face, the same yeast can also produce itchy bumps covered on [[fungal-acne]]). It is managed, not cured, so treatment is used in courses and repeated when it relapses.
 
-The treatments that work reduce the yeast, so topical antifungals are first-line. Ketoconazole is the reference: a Cochrane review found ketoconazole 2% cut the risk of failed clearance by 31% (risk ratio 0.69) versus placebo,[^cochrane] and a 2026 randomized trial found a 0.6% selenium disulfide shampoo statistically matched 2% ketoconazole.[^farris] Ranked by how well the evidence holds up, ketoconazole and selenium sulfide lead, pyrithione zinc is a solid established option, and salicylic acid or a facial calcineurin inhibitor round out the adjuncts. The products on the site for each are linked in the tier list below.
+The treatments that work reduce the yeast itself, so topical antifungals earn the top tier and are ranked first-line. Everything else on this list is an adjunct: it calms symptoms or clears scale but does not directly target Malassezia, so it sits lower regardless of how well it works for its narrower job.
+
+Ketoconazole is the reference antifungal. A Cochrane review found ketoconazole 2% cut the risk of failed clearance by 31% (risk ratio 0.69) versus placebo,[^cochrane] and a 2026 randomized trial found a 0.6% selenium disulfide shampoo statistically matched 2% ketoconazole.[^farris] Ranked by how well the evidence holds up: ketoconazole, selenium sulfide, and ciclopirox lead as genuinely first-line antifungals; pyrithione zinc and piroctone olamine are solid established options with thinner head-to-head data; and a calcineurin inhibitor or [[salicylic-acid]] round out the adjuncts, which calm inflammation or lift scale rather than reduce the yeast. The product on the site for each active is linked in its note below.
+
+> None of these cure the underlying yeast overgrowth. Relapse after stopping treatment is normal, not treatment failure, and long-term control usually means an ongoing maintenance routine rather than a one-time fix.
 
 ## The tier list
 
 Each active is graded on the strength of its evidence against Malassezia; the note names the product to reach for and where its evidence is set out in full.
+
+## See Also
+
+- [[seborrheic-dermatitis]] - the condition this list treats, with the full evidence writeup for each active
+- [[fungal-acne]] - the same Malassezia yeast causing itchy trunk and facial bumps rather than flaking
+- [[ketoconazole]] - the top-tier reference antifungal, with the Cochrane numbers in full
+- [[ciclopirox]] - the other first-line antifungal, comparable to ketoconazole in trials
+- [[piroctone-olamine]] - the "fungal-acne-safe" antifungal used in leave-on products
+- [[pimecrolimus]] - the calcineurin inhibitor used for facial seborrheic dermatitis
+- [[salicylic-acid]] - the keratolytic adjunct for lifting scale
+- [[oily-skin]] - a condition Malassezia thrives on and that often co-occurs with dandruff
+- [[dry-skin]] - the flaking overlap that can be mistaken for dandruff
 
 ## Sources
 

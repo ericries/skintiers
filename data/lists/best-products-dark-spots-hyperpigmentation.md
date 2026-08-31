@@ -25,15 +25,17 @@ type: list
 updated: '2026-08-27'
 ---
 
-This ranks finished over-the-counter products for fading dark spots and hyperpigmentation by the strength of evidence behind their main brightening active, reusing the ingredient-level rankings on [[brightening]], [[melasma]], and [[hyperpigmentation]] rather than testing these formulas head to head. Two things come first: none of these bleach skin below its natural tone, and every one of them underperforms without daily sunscreen, because ultraviolet and visible light keep re-triggering the pigment; the sunscreen case is on [[sunscreen-uv-filters]] and [[brightening]].
+This ranks finished over-the-counter products for fading dark spots and [[hyperpigmentation]] by the strength of evidence behind their main brightening active. The ranking reuses the ingredient-level evidence rankings on [[brightening]], [[melasma]], and [[hyperpigmentation]], so a product's position here comes from how well-studied its active ingredient is, not from a head-to-head trial of these finished formulas.
+
+Two things apply across the whole list. None of these bleach skin below its natural tone. And every one of them underperforms without daily sunscreen, because ultraviolet and visible light keep re-triggering the pigment; the sunscreen case is on [[sunscreen-uv-filters]] and [[brightening]].
 
 > The order tracks the active, not the marketing. Azelaic acid and tranexamic acid are the best-evidenced topical brighteners here; niacinamide is a solid, gentle add-on; cysteamine and arbutin sit lower on the evidence. For single-active deep dives, see the [[best-azelaic-acid-products]], [[best-vitamin-c-serums]], and [[best-niacinamide-products]] lists.
 
 ## Best-evidenced actives: azelaic acid and tranexamic acid
 
-**[[skinceuticals-discoloration-defense|SkinCeuticals Discoloration Defense]].** Stacks three evidence-backed brighteners in one serum, tranexamic acid, kojic acid, and niacinamide, which is why it sits at the top here; the tranexamic acid evidence is on [[tranexamic-acid]] and [[brightening]].[^txa]
+**[[skinceuticals-discoloration-defense|SkinCeuticals Discoloration Defense]].** Stacks three evidence-backed brighteners in one serum: [[tranexamic-acid]], [[kojic-acid]], and [[niacinamide]]. That combination is why it sits at the top here; the tranexamic acid evidence is on [[tranexamic-acid]] and [[brightening]].[^txa]
 
-**[[cos-de-baha-az20-azelaic-acid-20-serum|Cos De BAHA AZ20 Azelaic Acid 20% Cream]].** Labeled 20% azelaic acid, matching the prescription cream (AZELEX) strength behind azelaic acid's controlled melasma evidence.[^azelex] The trial detail and how it compares to hydroquinone are on [[azelaic-acid]].
+**[[cos-de-baha-az20-azelaic-acid-20-serum|Cos De BAHA AZ20 Azelaic Acid 20% Cream]].** Labeled 20% [[azelaic-acid]], matching the prescription cream (AZELEX) strength behind azelaic acid's controlled melasma evidence.[^azelex] The trial detail and how it compares to [[hydroquinone]] are on [[azelaic-acid]].
 
 **[[anua-azelaic-acid-serum|Anua Azelaic Acid 10% Serum]].** Labeled 10%, half the studied cream strength, so a gentler, lower-dose way into the same active.[^azelex]
 
@@ -47,13 +49,25 @@ This ranks finished over-the-counter products for fading dark spots and hyperpig
 
 **[[la-roche-posay-mela-b3-serum|La Roche-Posay Mela B3 Serum]].** Built on niacinamide plus the brand's newer Melasyl active; niacinamide is a well-tolerated pigment-transfer blocker with moderate evidence, detailed on [[niacinamide]].
 
-**[[cyspera-intensive-cysteamine-cream|Cyspera Intensive Cysteamine Cream]].** A dedicated cysteamine depigmenting cream marketed as a hydroquinone alternative; cysteamine has some head-to-head trials against hydroquinone but a smaller, less consistent evidence base, covered on [[cysteamine]].
+**[[cyspera-intensive-cysteamine-cream|Cyspera Intensive Cysteamine Cream]].** A dedicated cysteamine depigmenting cream marketed as a [[hydroquinone]] alternative; cysteamine has some head-to-head trials against hydroquinone but a smaller, less consistent evidence base, covered on [[cysteamine]].
 
 **[[naturium-alpha-arbutin-serum-2|Naturium Alpha Arbutin Serum]].** Alpha-arbutin, a hydroquinone-related compound with only preliminary independent evidence; a gentle option that ranks below the actives above, per [[arbutin]].
 
 **[[the-ordinary-alpha-arbutin-2-ha|The Ordinary Alpha Arbutin + HA]].** The same alpha-arbutin active in a low-cost, widely available serum with hyaluronic acid; the same preliminary evidence caveat applies, per [[arbutin]].
 
 None of these work fast: the trials behind their actives run 8 to 12 weeks or longer, and a changing, asymmetric, or newly appeared dark spot is a reason to see a dermatologist rather than reach for an over-the-counter serum. Nothing here is medical advice.
+
+## See Also
+
+- [[hyperpigmentation]]
+- [[melasma]]
+- [[brightening]]
+- [[sunscreen-uv-filters]]
+- [[azelaic-acid]]
+- [[tranexamic-acid]]
+- [[niacinamide]]
+- [[hydroquinone]]
+- [[sun-damage-photoaging]]
 
 ## Sources
 

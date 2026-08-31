@@ -31,13 +31,35 @@ type: list
 updated: '2026-08-30'
 ---
 
-There is no proof that one face moisturizer beats another. The evidence for moisturizing, laid out on [[moisturizing]], is a class effect: an occlusive to slow transepidermal water loss (petrolatum is the best-evidenced, cutting water loss by "nearly 99%" per StatPearls[^2]), a humectant to bind water (glycerin, hyaluronic acid), and optionally ceramides to mirror the skin's own barrier lipids. A Cochrane review found this combination reduces eczema flares and steroid use versus no moisturizer at all[^1], but no trial has shown that a pricier or more elaborate cream beats a basic one. So this list is not ranked by outcome data that does not exist. It is ranked by how completely a formula covers the occlusive-plus-humectant job, how fragrance-free and barrier-friendly it is, and by price, with the honest caveat that several products near the bottom are perfectly good moisturizers that just cost more for the same class of ingredients.
+This list ranks 16 face moisturizers. There is no proof that one beats another in a head-to-head trial, so ranking is not based on outcome data that does not exist.
+
+Instead, each product is scored on how completely its formula covers the two jobs an evidence-backed [[moisturizing|moisturizer]] actually does: an occlusive to slow transepidermal water loss, and a humectant to bind water, ideally with barrier lipids added too. Tolerability for daily face use also counts. A product that nails all three, and is fragrance-free and cheap per ounce, ranks higher than one that only covers part of the job or costs more for the same ingredients.
+
+The underlying evidence is a class effect, not a brand effect. [[petrolatum|Petrolatum]] is the best-evidenced occlusive, cutting water loss by "nearly 99%" per StatPearls[^2]. [[glycerin|Glycerin]] and [[hyaluronic-acid|hyaluronic acid]] are the standard humectants. [[ceramides|Ceramides]] are optional but useful because they mirror the skin's own barrier lipids. A Cochrane review found this occlusive-plus-humectant combination reduces eczema flares and steroid use compared with no moisturizer at all[^1], but no trial has shown that a pricier or more elaborate cream outperforms a basic one.
+
+> The honest caveat: several products near the bottom of this list are perfectly good moisturizers. They rank lower only because they cost more for the same class of ingredients, or because they cover a narrower job (hydration for oily skin, say, rather than full barrier repair).
 
 ## The tier list
 
-The top tier is the boring, well-stocked drugstore standard: ceramides plus a humectant plus an occlusive, fragrance-free, cheap per ounce. Mid-tier swaps in extras (peptides, snail mucin, richer occlusives) that don't change the underlying mechanism. The bottom includes lighter gel-creams better suited to oily or combination skin than to barrier repair, and one premium cream whose price is not backed by any evidence of superior moisturizing.
+The top tier is the boring, well-stocked drugstore standard: ceramides plus a humectant plus an occlusive, fragrance-free, cheap per ounce. Products here include [[cerave-moisturizing-cream|CeraVe Moisturizing Cream]], [[vanicream-moisturizing-cream|Vanicream Moisturizing Cream]], [[vanicream-daily-facial-moisturizer|Vanicream Daily Facial Moisturizer]], and [[cetaphil-moisturizing-cream|Cetaphil Moisturizing Cream]].
 
-Two goal pages carry the deeper mechanism and eczema-specific evidence: [[moisturizing]] for the ingredient-level ranking, and [[skin-barrier-repair]] for barrier-impaired skin specifically.
+Mid-tier swaps in extras, peptides, snail mucin, or richer occlusives, that don't change the underlying mechanism. This is where formulas like [[dr-jart-ceramidin-cream|Dr. Jart+ Ceramidin Cream]], [[skinfix-barrier-triple-lipid-peptide-cream|Skinfix Barrier+ Triple Lipid-Peptide Cream]], and [[eucerin-advanced-repair-cream|Eucerin Advanced Repair Cream]] sit.
+
+The bottom includes lighter gel-creams, such as [[neutrogena-hydro-boost-gel-cream-fragrance-free|Neutrogena Hydro Boost Gel-Cream]] and [[torriden-dive-in-low-molecular-hyaluronic-acid-cream|Torriden Dive-In Low Molecular Hyaluronic Acid Cream]], that are better suited to [[oily-skin|oily]] or combination skin than to barrier repair. It also includes one premium cream, [[augustinus-bader-the-rich-cream|Augustinus Bader The Rich Cream]], whose price is not backed by any evidence of superior moisturizing.
+
+Two goal pages carry the deeper mechanism and eczema-specific evidence: [[moisturizing]] for the ingredient-level ranking, and [[skin-barrier-repair]] for [[atopic-dermatitis|barrier-impaired skin]] specifically.
+
+## See Also
+
+- [[moisturizing]]
+- [[skin-barrier-repair]]
+- [[ceramides]]
+- [[hyaluronic-acid]]
+- [[glycerin]]
+- [[petrolatum]]
+- [[dry-skin]]
+- [[sensitive-skin]]
+- [[atopic-dermatitis]]
 
 ## Sources
 

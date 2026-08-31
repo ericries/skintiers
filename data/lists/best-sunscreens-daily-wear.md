@@ -26,7 +26,9 @@ type: list
 updated: '2026-08-08'
 ---
 
-Compares the site's daily-wear facial sunscreens by the UVB and UVA grades already established on each product's own page. Broad-spectrum protection is the best-evidenced way to slow photoaging and lower skin-cancer risk, the case set out on [[sunscreen-uv-filters]]. The strongest entries here pair a high UVB rating with genuine UVA coverage, from either a modern organic filter set or a high mineral load, and each entry says plainly whether that rating is FDA-tested or a foreign label claim.
+This list ranks the site's daily-wear facial sunscreens against each other using the UVB and UVA grades already established on each product's own page. Broad-spectrum protection, blocking both UVB and UVA, is the best-evidenced way to slow [[sun-damage-photoaging|photoaging]] and lower skin-cancer risk, the case set out on [[sunscreen-uv-filters]].
+
+Ranking method: the strongest entries pair a high UVB rating with genuine UVA coverage, earned either through a modern organic filter set (like Tinosorb) or a high mineral load ([[zinc-oxide]] and [[titanium-dioxide]]). Each entry also states plainly whether that rating comes from FDA testing or a foreign label claim, since the two are not directly comparable.
 
 > The two Korean sunscreens built on modern organic filters, [[beauty-of-joseon-relief-sun-rice-probiotics-spf50]] and [[isntree-hyaluronic-acid-watery-sun-gel-spf-50]], carry the strongest UVA grades on this list, and Beauty of Joseon is the only product here with an independent lab test (Consumer Reports) behind those numbers. Among the FDA-tested US options, the high-load mineral formulas and Neutrogena's heavily stabilized avobenzone outscore the plainer avobenzone-only sets on UVA. Two Dr.G- and Supergoop-branded pages are kept as discontinued reference entries rather than ranked, since neither formula is currently sold.
 
@@ -63,6 +65,17 @@ Compares the site's daily-wear facial sunscreens by the UVB and UVA grades alrea
 ## Discontinued reference entries
 
 [[supergoop-unseen-sunscreen-spf-40]] and [[dr-g-baby-mild-up-sun]] remain on the site as reference pages only, not ranked above. Supergoop's own site no longer sells the SPF 40 formula, replacing it with a reformulated SPF 50 version, and Dr.G's current sunscreen lineup no longer includes Baby Mild Up Sun.
+
+## See Also
+
+- [[sunscreen-uv-filters]]
+- [[sun-damage-photoaging]]
+- [[zinc-oxide]]
+- [[titanium-dioxide]]
+- [[sensitive-skin]]
+- [[oily-skin]]
+- [[dry-skin]]
+- [[moisturizing]]
 
 ## Sources
 

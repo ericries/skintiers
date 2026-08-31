@@ -26,7 +26,9 @@ type: list
 updated: '2026-08-30'
 ---
 
-The evidence for topical vitamin C, covered on [[ascorbic-acid-vitamin-c]], is built almost entirely on one form and one formulation: L-ascorbic acid at a low pH (below 3.5, per Pinnell's absorption studies)[^pinnell] so it can actually penetrate skin, ideally stabilized with vitamin E and ferulic acid, the exact 15%/1%/0.5% combination that produced measured photoprotection in Lin 2005 and Murray 2008.[^lin][^murray] This list ranks finished serums by how closely they match that studied formula, not by a head-to-head trial of each product. Most stable-derivative serums (sodium ascorbyl phosphate, ascorbyl glucoside, THD ascorbate, 3-O-ethyl ascorbic acid) are gentler and easier to formulate, but the conversion-to-ascorbic-acid and skin-penetration evidence behind them is thinner, so they sit lower here even when well-tolerated.
+This list ranks finished vitamin C serums, most useful for [[brightening]] and [[hyperpigmentation]] concerns and as an add-on antioxidant layer under sunscreen for [[sun-damage-photoaging|sun-damage prevention]]. The evidence for topical vitamin C, covered on [[ascorbic-acid-vitamin-c]], is built almost entirely on one form and one formulation: L-ascorbic acid at a low pH (below 3.5, per Pinnell's absorption studies)[^pinnell] so it can actually penetrate skin, ideally stabilized with vitamin E and ferulic acid. That exact 15%/1%/0.5% combination produced measured photoprotection in Lin 2005 and Murray 2008.[^lin][^murray]
+
+The ranking method: each serum is scored by how closely it matches that studied formula, not by a head-to-head trial of each product. A serum earns a higher tier for disclosing L-ascorbic acid at or near 15%, a low pH, and named percentages of vitamin E and ferulic acid. It sits lower for using an undisclosed concentration, for omitting the stabilizers, or for relying on a gentler derivative (sodium ascorbyl phosphate, ascorbyl glucoside, THD ascorbate, 3-O-ethyl ascorbic acid) whose conversion-to-ascorbic-acid and skin-penetration evidence is thinner, even when the derivative is well tolerated.
 
 > Only one serum on this list, SkinCeuticals C E Ferulic, has itself been tested in a published trial. The rest are ranked by how completely their disclosed active, concentration, and pH match that studied L-ascorbic acid formula, or, for the derivative serums at the bottom, by how far they diverge from it.
 
@@ -57,6 +59,18 @@ The evidence for topical vitamin C, covered on [[ascorbic-acid-vitamin-c]], is b
 **[[the-ordinary-ascorbyl-glucoside-solution-12|The Ordinary Ascorbyl Glucoside Solution 12%]].** A derivative-only formula; ex vivo skin explants show conversion to ascorbic acid and a matching antioxidant effect, but no living-human trial of this derivative exists, the thinnest evidence base on this list.
 
 Vitamin C serums oxidize with air and light exposure regardless of tier; darkening color is a sign to stop using the product. None of this substitutes for daily sunscreen, covered on [[sunscreen-uv-filters]]. Nothing here is medical advice.
+
+## See Also
+
+- [[ascorbic-acid-vitamin-c]]
+- [[sunscreen-uv-filters]]
+- [[hyperpigmentation]]
+- [[melasma]]
+- [[brightening]]
+- [[sun-damage-photoaging]]
+- [[niacinamide]]
+- [[anti-aging]]
+- [[sensitive-skin]]
 
 ## Sources
 
