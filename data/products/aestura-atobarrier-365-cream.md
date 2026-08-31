@@ -37,17 +37,17 @@ type: product
 updated: '2026-08-07'
 ---
 
-Aestura Atobarrier 365 Cream is a Korean moisturizer built around encapsulated ceramide, sold in 45 ml and 80 ml sizes for dry, sensitive, and compromised-barrier skin.[^aestura]
+Aestura Atobarrier 365 Cream is a Korean moisturizer built around encapsulated ceramide, sold in 45 ml and 80 ml sizes for [[dry-skin|dry]], [[sensitive-skin|sensitive]], and compromised-barrier skin.[^aestura]
 
 > A ceramide moisturizer aimed at dry and sensitive skin, built on the same physiologic-lipid idea as CeraVe or La Roche-Posay Toleriane: ceramide moisturizers reliably move barrier measurements like water loss, but the closest controlled trial found no advantage over a plain base on eczema severity itself, the general case set out on [[ceramides]]. No independent trial tests this exact cream; the brand's own barrier and hydration figures come from a single uncontrolled, brand-commissioned test.[^aestura]
 
 ## Summary
 
-Aestura Atobarrier 365 Cream is a rich, fragrance-light cream from the South Korean brand [[aestura|Aestura]], positioned for dry, sensitive, and eczema-prone skin.[^aestura] Its health-relevant case rests on [[ceramides]], the barrier lipids that eczema-prone skin is measurably short of: ceramide moisturizers move barrier measurements such as water loss, but the one randomized trial of a ceramide cream on that page found no advantage over a matched base for eczema severity itself. That general evidence, with its numbers and limits, is set out on [[ceramides]] and applies to the moisturizing category more broadly on [[moisturizing]].
+Aestura Atobarrier 365 Cream is a rich, fragrance-light cream from the South Korean brand [[aestura|Aestura]], positioned for dry, sensitive, and [[atopic-dermatitis|eczema-prone]] skin.[^aestura] Its health-relevant case rests on [[ceramides]], the barrier lipids that eczema-prone skin is measurably short of: ceramide moisturizers move barrier measurements such as water loss, but the one randomized trial of a ceramide cream on that page found no advantage over a matched base for eczema severity itself. That general evidence, with its numbers and limits, is set out on [[ceramides]] and applies to the moisturizing category more broadly on [[moisturizing]].
 
 What sets this formula apart from a plainer moisturizer is its ingredient list rather than a proven product-specific edge. Alongside [[ceramides|ceramide NP]], the declared ingredient list includes cholesterol and four free fatty acids (stearic, palmitic, arachidic, and oleic acid), the same three lipid classes, ceramides, cholesterol, and fatty acids, that Elias describes as the barrier's "approximately 1:1:1 molar ratio" on [[ceramides]]. The brand encapsulates the ceramide in what it calls capsules visible in the cream, a delivery claim examined in [Common Marketing Claims](#common-marketing-claims). No published, independent trial tests this exact cream; the brand cites its own uncontrolled, single-arm test of 32 women, which is not the kind of evidence that supports a grade and is reported, quarantined, under [Common Marketing Claims](#common-marketing-claims) rather than folded into the case above.
 
-The formula also carries a small amount of [[niacinamide]], and the brand states it contains less than 1% synthetic fragrance, a consideration for fragrance-avoidant [[atopic-dermatitis|eczema-prone]] skin ([see Tolerability](#tolerability)).[^aestura] Target lists the 2.70 oz (about 80 ml) size at $42.99, discounted from a $48.00 regular price, as of 2026-08-07 ([see Where to Buy](#where-to-buy)).[^target]
+The formula also carries a small amount of [[niacinamide]], and the brand states it contains less than 1% synthetic fragrance, a consideration for fragrance-avoidant, eczema-prone skin ([see Tolerability](#tolerability)).[^aestura] Target lists the 2.70 oz (about 80 ml) size at $42.99, discounted from a $48.00 regular price, as of 2026-08-07 ([see Where to Buy](#where-to-buy)).[^target]
 
 ## The Evidence
 
@@ -86,7 +86,7 @@ Label and marketing claims not established by the graded evidence above:
 
 ## See Also
 
-[[cerave-moisturizing-cream]], [[la-roche-posay-toleriane]], [[cetaphil-moisturizing-cream]], [[ceramides]], [[moisturizing]], [[atopic-dermatitis]].
+[[cerave-moisturizing-cream]], [[la-roche-posay-toleriane]], [[cetaphil-moisturizing-cream]], [[ceramides]], [[moisturizing]], [[atopic-dermatitis]], [[skin-barrier-repair]], [[dry-skin]], [[sensitive-skin]].
 
 ## Where to Buy
 

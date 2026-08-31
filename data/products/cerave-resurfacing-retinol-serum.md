@@ -60,15 +60,15 @@ updated: '2026-08-07'
 
 CeraVe Resurfacing Retinol Serum is a 1 fl oz leave-on facial serum containing encapsulated retinol, three ceramides, niacinamide, and licorice root extract, sold for $21.99 direct from the manufacturer and $16.49 on Target (regularly $18.69).[^1][^2]
 
-> A cheap, fragrance-free encapsulated-retinol serum built on CeraVe's familiar ceramide-and-niacinamide base, and marketed specifically for post-acne marks and pore appearance rather than wrinkles.[^1][^2] Topical retinol's texture and pigmentation benefits are well established at the category level, covered on [[retinol]] and [[retinoids]], but CeraVe does not print a retinol percentage anywhere on the packaging or ingredient list, so there is no way to know whether this serum's dose matches the concentrations those category trials actually tested, [the honest limitation set out under The Evidence](#the-evidence).[^1][^2]
+> **Bottom line:** a cheap, fragrance-free serum with encapsulated [[retinol]] plus CeraVe's familiar ceramide-and-niacinamide base, marketed for [[acne|post-acne marks]] and pore appearance rather than wrinkles.[^1][^2] Topical retinol's texture and pigmentation benefits are well established at the category level, covered on [[retinol]] and [[retinoids]], but CeraVe does not print a retinol percentage anywhere on the packaging or ingredient list, so there is no way to know whether this serum's dose matches the concentrations those category trials actually tested, [the honest limitation set out under The Evidence](#the-evidence).[^1][^2]
 
 ## Summary
 
 CeraVe Resurfacing Retinol Serum is a 1 fl oz serum priced at $21.99 on CeraVe's own site and $16.49 on Target (regularly $18.69), among the cheaper entries in the retinoid category.[^1][^2] The manufacturer markets it around "encapsulated retinol to help resurface your skin," saying it "helps smooth your skin's texture by reducing the appearance of post-acne marks" and helps with "minimizing the look of pores," a narrower, texture-and-mark-focused pitch than the anti-wrinkle marketing on some other retinol products; Target's listing corroborates the same "post-acne marks and pores" positioning independently.[^1][^2]
 
-The labeled active is [[retinol]] itself, not a milder retinyl ester, and retinol is a well-studied over-the-counter precursor with vehicle-controlled trial evidence for improving fine wrinkles and pigment, [set out in full on [[retinol]] and [[retinoids]]](#the-evidence). What CeraVe does not do is disclose how much: the ingredient list names "retinol" with no accompanying percentage, and none appears anywhere on the manufacturer's product page, so the serum's actual dose relative to the concentrations tested in the category trials is unknown, [detailed under The Evidence](#the-evidence).
+The labeled active is [[retinol]] itself, not a milder retinyl ester, and retinol is a well-studied over-the-counter precursor with vehicle-controlled trial evidence for improving fine wrinkles and pigment in [[sun-damage-photoaging|photoaged skin]], [set out in full on [[retinol]] and [[retinoids]]](#the-evidence). What CeraVe does not do is disclose how much: the ingredient list names "retinol" with no accompanying percentage, and none appears anywhere on the manufacturer's product page, so the serum's actual dose relative to the concentrations tested in the category trials is unknown, [detailed under The Evidence](#the-evidence).
 
-Around the retinol, the formula carries CeraVe's familiar barrier base: three [[ceramides]] (NP, AP, EOP), the fatty molecules that make up part of the skin's own barrier, and [[niacinamide]], a form of vitamin B3 with its own modest evidence for barrier support, positioned fifth on the ingredient list, ahead of the ceramides and the retinol itself. The formula also contains dipotassium glycyrrhizate, a licorice-root-derived compound the brand markets as a skin-brightening ingredient, and is free of added fragrance, confirmed independently by both the manufacturer and Target's listing.[^1][^2]
+Around the retinol, the formula carries CeraVe's familiar [[skin-barrier-repair|barrier support]] base: three [[ceramides]] (NP, AP, EOP), the fatty molecules that make up part of the skin's own barrier, and [[niacinamide]], a form of vitamin B3 with its own modest evidence for barrier support, positioned fifth on the ingredient list, ahead of the ceramides and the retinol itself. The formula also contains dipotassium glycyrrhizate, a licorice-root-derived compound the brand markets as a skin-brightening ingredient, and is free of added fragrance, confirmed independently by both the manufacturer and Target's listing.[^1][^2]
 
 The manufacturer's own directions call for applying the serum "evenly to face daily," for evening use, avoiding the eye and lip area, with sunscreen while using the product.[^1]
 
@@ -117,7 +117,7 @@ Label and marketing terms not established by the graded evidence above:
 
 ## See Also
 
-[[retinol]], [[retinoids]], [[ceramides]], [[niacinamide]], [[skinmedica-retinol-complex-1-0]], [[trader-joes-retinol-night-serum]], [[the-inkey-list-retinol-serum]].
+[[retinol]], [[retinoids]], [[ceramides]], [[niacinamide]], [[skin-barrier-repair]], [[sun-damage-photoaging]], [[skinmedica-retinol-complex-1-0]], [[trader-joes-retinol-night-serum]], [[the-inkey-list-retinol-serum]].
 
 ## Where to Buy
 

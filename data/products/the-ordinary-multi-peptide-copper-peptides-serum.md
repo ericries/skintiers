@@ -36,17 +36,21 @@ videos:
 
 ---
 
-The Ordinary Multi-Peptide + Copper Peptides 1% Serum is a water-based leave-on serum whose ingredient list is led by glycerin and a blend of peptides, including copper tripeptide-1 (GHK-Cu), acetyl hexapeptide-8, and the palmitoyl peptides of Matrixyl 3000, in a hyaluronic acid and amino-acid base.[^1]
+The Ordinary Multi-Peptide + Copper Peptides 1% Serum is a water-based leave-on serum for [[anti-aging|fine lines and firmness]], whose ingredient list is led by [[glycerin]] and a blend of [[peptides]], including [[copper-peptides|copper tripeptide-1 (GHK-Cu)]], acetyl hexapeptide-8, and the palmitoyl peptides of Matrixyl 3000, in a [[hyaluronic-acid]] and amino-acid base.[^1]
 
 > Whether peptides applied to skin do anything is covered on [[peptides]]. The ingredient that distinguishes this serum from a peptide serum without copper is copper tripeptide-1 (GHK-Cu). The one randomized human trial of a topical GHK-Cu product found no objective benefit over its control for redness, wrinkles, or skin quality, only higher patient-reported satisfaction.[^2] A 2024 review adds that clinical studies of topical GHK are surprisingly absent despite its wide cosmetic use.[^3]
 
 ## Summary
 
-Multi-Peptide + Copper Peptides 1% Serum is a water-based leave-on serum built around a blend of peptides, led by copper tripeptide-1 (GHK-Cu) alongside signal peptides such as Matrixyl 3000 and Argirelox, in a hyaluronic-acid and amino-acid base ([what's in it](#whats-in-it)). The Ordinary markets it with an "advanced age-supporting serum" positioning, with copper peptides described as improving fine lines and supporting elasticity, smoothness, and firmness ([common marketing claims](#common-marketing-claims)).
+Multi-Peptide + Copper Peptides 1% Serum is a water-based leave-on serum built around a blend of [[peptides]], led by copper tripeptide-1 (GHK-Cu) alongside signal peptides such as Matrixyl 3000 and Argirelox, in a hyaluronic-acid and amino-acid base ([what's in it](#whats-in-it)). The Ordinary markets it with an "advanced age-supporting serum" positioning, with copper peptides described as improving fine lines and supporting [[skin-firmness-elasticity|elasticity, smoothness, and firmness]] ([common marketing claims](#common-marketing-claims)).
 
-The one randomized human trial of a topical GHK-Cu product tested a health-adjacent outcome alongside cosmetic ones, and found neither. Miller 2006 applied a copper-peptide complex to skin recovering from CO2 laser resurfacing and found no significant difference from control in how fast post-procedure redness resolved, and no objective difference in wrinkles or skin quality; the copper-peptide side scored better only on a patient satisfaction questionnaire, a subjective rather than objective measure ([the evidence](#the-evidence)). A 2024 review of topical GHK found a similar gap at the category level: despite wide cosmetic use, clinical trials of GHK-Cu are largely absent, and the peptide's high water solubility is flagged as a delivery challenge for getting it through the skin ([the evidence](#the-evidence)).
+The one randomized human trial of a topical GHK-Cu product tested a health-adjacent outcome alongside cosmetic ones, and found neither. Miller 2006 applied a copper-peptide complex to skin recovering from CO2 laser resurfacing and found no significant difference from control in how fast post-procedure redness resolved, and no objective difference in wrinkles or skin quality; the copper-peptide side scored better only on a patient satisfaction questionnaire, a subjective rather than objective measure ([the evidence](#the-evidence)).
 
-The mechanistic case sometimes made for copper peptides, that GHK-Cu drives collagen, elastin, and blood-vessel growth, rests on laboratory and animal work compiled by review authors affiliated with a company that sells GHK-Cu products, not on a trial of a finished serum like this one ([the evidence](#the-evidence)). Whether peptides applied to skin change its structure at all is the broader question covered on [[peptides]]; this serum's own evidence base is thin on both counts graded in the frontmatter: minimal effect and preliminary evidence for the anti-aging use generally, against comparators like Buffet and Niod Copper Amino Isolate Serum, and the same minimal effect and preliminary evidence for the copper-peptide addition specifically, against a multi-peptide serum without copper.
+A 2024 review of topical GHK found a similar gap at the category level: despite wide cosmetic use, clinical trials of GHK-Cu are largely absent, and the peptide's high water solubility is flagged as a delivery challenge for getting it through the skin ([the evidence](#the-evidence)).
+
+The mechanistic case sometimes made for copper peptides, that GHK-Cu drives collagen, elastin, and blood-vessel growth, rests on laboratory and animal work compiled by review authors affiliated with a company that sells GHK-Cu products, not on a trial of a finished serum like this one ([the evidence](#the-evidence)).
+
+Whether peptides applied to skin change its structure at all is the broader question covered on [[peptides]]; this serum's own evidence base is thin on both counts graded in the frontmatter: minimal effect and preliminary evidence for the [[anti-aging]] use generally, against comparators like Buffet and Niod Copper Amino Isolate Serum, and the same minimal effect and preliminary evidence for the copper-peptide addition specifically, against a multi-peptide serum without copper.
 
 Composition-wise, the formula contains no vitamin C, no niacinamide, and no exfoliating acids or retinoids, and The Ordinary's own directions state to avoid combining it with other direct acids, retinoids, or strong antioxidants like vitamin C ([what's in it](#whats-in-it)).
 
@@ -83,7 +87,7 @@ Humectants and soothing agents:
 
 Base, texture, and preservative system: water, lactococcus ferment lysate, hydroxypropyl cyclodextrin, butylene glycol and pentylene glycol, acacia senegal gum, xanthan gum and carbomer (thickeners), polysorbate 20 and dimethyl isosorbide (solubilizers), citric acid and sodium hydroxide (pH adjusters), sodium chloride, and the preservatives sodium benzoate, caprylyl glycol, ethylhexylglycerin, phenoxyethanol, and chlorphenesin.[^1]
 
-The formula contains no vitamin C, no niacinamide, and no exfoliating acids or retinoids. The Ordinary recommends "avoiding the use of" this serum "with other direct acids, retinoids, or strong antioxidants like vitamin C."[^1]
+The formula contains no [[ascorbic-acid-vitamin-c|vitamin C]], no [[niacinamide]], and no exfoliating acids or [[retinoids]]. The Ordinary recommends "avoiding the use of" this serum "with other direct acids, retinoids, or strong antioxidants like vitamin C."[^1]
 
 ## Common Marketing Claims
 
@@ -95,7 +99,14 @@ Label and marketing terms not established by the graded evidence above:
 
 ## See Also
 
-Similar peptide serums: [[the-ordinary-multi-peptide-ha-serum]], [[peptides]].
+- [[the-ordinary-multi-peptide-ha-serum]], a similar Ordinary peptide serum without copper
+- [[peptides]], the broader question of whether topical peptides do anything
+- [[copper-peptides]], the ingredient specific to this serum
+- [[anti-aging]], the goal this product is marketed against
+- [[skin-firmness-elasticity]], the specific marketed benefit
+- [[retinoids]], the better-evidenced anti-aging category this serum is meant to avoid combining with
+- [[ascorbic-acid-vitamin-c]], another active this serum is meant to avoid combining with
+- [[hyaluronic-acid]], the humectant base this serum is built on
 
 ## Where to Buy
 

@@ -51,9 +51,11 @@ The Ordinary Azelaic Acid Suspension 10% is a silicone-based leave-on cream that
 
 ## Summary
 
-The Ordinary Azelaic Acid Suspension 10% is a leave-on cream built around [[azelaic-acid|azelaic acid]], a dicarboxylic acid with real health uses in dermatology. At prescription strength azelaic acid matches or beats metronidazole for papulopustular rosacea, treats mild inflammatory acne, and competes with hydroquinone for melasma and post-acne dark spots; that case, and its strengths and limits, is set out on [[azelaic-acid]]. Those uses were established with a 15% prescription gel (FINACEA) and a 20% prescription cream (AZELEX).[^2][^3] This product carries a labeled 10%, below those studied strengths, and the same strength as [[anua-azelaic-acid-serum|Anua's]] and [[paulas-choice-boost-10-azelaic-acid-booster|Paula's Choice's]] 10% azelaic products.[^1]
+The Ordinary Azelaic Acid Suspension 10% is a leave-on cream built around [[azelaic-acid|azelaic acid]], a dicarboxylic acid with real health uses in dermatology. At prescription strength azelaic acid matches or beats metronidazole for papulopustular [[rosacea]], treats mild inflammatory [[acne]], and competes with hydroquinone for [[melasma]] and post-acne dark spots ([[hyperpigmentation]]); that case, and its strengths and limits, is set out on [[azelaic-acid]]. Those uses were established with a 15% prescription gel (FINACEA) and a 20% prescription cream (AZELEX).[^2][^3] This product carries a labeled 10%, below those studied strengths, and the same strength as [[anua-azelaic-acid-serum|Anua's]] and [[paulas-choice-boost-10-azelaic-acid-booster|Paula's Choice's]] 10% azelaic products.[^1]
 
-Two things follow, and both matter. The evidence that a 10% cosmetic does as much as the 15-20% prescription strengths [is thin](#the-evidence), so its product-specific effect is inferred from the ingredient rather than demonstrated at this concentration. But if the goal is to try azelaic acid, this is an unusually cheap and accessible way to get it, and it is well tolerated by the reviewers who have written it up. Aesthetic doctor Rachel Ho rates it 3.5 out of 5, says it "suffices as a nice multi-tasking moisturiser" that "dries quickly to leave a smooth and matt texture which I really liked," and frames the concentration honestly: for lower strengths like this one "there's not much research available yet," so it is "a nice starter for anyone who wishes to try out azelaic acid before moving onto a higher concentration."[^4] Allure lists it among its best budget picks from the brand, in a round-up vouched for by board-certified dermatologists.[^5]
+Two things follow, and both matter. The evidence that a 10% cosmetic does as much as the 15-20% prescription strengths [is thin](#the-evidence), so its product-specific effect is inferred from the ingredient rather than demonstrated at this concentration.
+
+But if the goal is to try azelaic acid, this is an unusually cheap and accessible way to get it, and it is well tolerated by the reviewers who have written it up. Aesthetic doctor Rachel Ho rates it 3.5 out of 5, says it "suffices as a nice multi-tasking moisturiser" that "dries quickly to leave a smooth and matt texture which I really liked," and frames the concentration honestly: for lower strengths like this one "there's not much research available yet," so it is "a nice starter for anyone who wishes to try out azelaic acid before moving onto a higher concentration."[^4] Allure lists it among its best budget picks from the brand, in a round-up vouched for by board-certified dermatologists.[^5]
 
 It is inexpensive: the manufacturer's page lists the 30 ml tube at about $12 ([see Where to Buy](#where-to-buy), accessed 2026-07-28), which is part of why it is a common first azelaic acid. The manufacturer's "brightening formulation" and "high concentration" language is separated out under [Common Marketing Claims](#common-marketing-claims).
 
@@ -88,7 +90,15 @@ Label and marketing claims not established by a trial of this product:
 
 ## See Also
 
-Other azelaic acid options: [[anua-azelaic-acid-serum]], [[cos-de-baha-az20-azelaic-acid-20-serum]], [[paulas-choice-boost-10-azelaic-acid-booster]], [[azelaic-acid]].
+- [[azelaic-acid]] (the ingredient case: strengths, evidence, and limits)
+- [[anua-azelaic-acid-serum]] (same 10% labeled strength)
+- [[paulas-choice-boost-10-azelaic-acid-booster]] (same 10% labeled strength)
+- [[cos-de-baha-az20-azelaic-acid-20-serum]] (a higher-strength 20% option)
+- [[acne]]
+- [[rosacea]]
+- [[melasma]]
+- [[hyperpigmentation]]
+- [[best-products-dark-spots-hyperpigmentation]]
 
 ## Where to Buy
 

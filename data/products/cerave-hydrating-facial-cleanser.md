@@ -53,7 +53,7 @@ type: product
 updated: '2026-07-28'
 ---
 
-CeraVe Hydrating Facial Cleanser is a fragrance-free, non-foaming cream cleanser for normal to dry skin whose ingredient list includes glycerin, three ceramides (ceramide NP, AP, EOP), and hyaluronic acid as sodium hyaluronate.[^1]
+CeraVe Hydrating Facial Cleanser is a fragrance-free, non-foaming cream cleanser for normal to [[dry-skin|dry skin]] whose ingredient list includes [[glycerin]], three [[ceramides]] (ceramide NP, AP, EOP), and [[hyaluronic-acid|hyaluronic acid]] as sodium hyaluronate.[^1]
 
 > A cheap, fragrance-free, non-foaming cleanser for normal to dry skin. A cleanser's health-relevant job is to remove dirt, oil, and makeup without stripping the skin barrier, and this is a low-surfactant, non-stripping wash that also leaves ceramides, hyaluronic acid, and glycerin behind. Dermatologists quoted in the press recommend it for dry and sensitive skin, and it holds the National Eczema Association seal. No trial isolates this exact cleanser; the well-evidenced case is for leave-on moisturizing of barrier-impaired skin, set out on [[moisturizing]].[^4][^6]
 
@@ -101,7 +101,7 @@ CeraVe labels the product non-comedogenic and developed with dermatologists.[^1]
 
 ## See Also
 
-[[cerave-moisturizing-cream]], [[la-roche-posay-toleriane]], [[cetaphil-moisturizing-cream]], [[ceramides]], [[hyaluronic-acid]], [[moisturizing]].
+[[cerave-moisturizing-cream]], [[la-roche-posay-toleriane]], [[cetaphil-moisturizing-cream]], [[ceramides]], [[hyaluronic-acid]], [[moisturizing]], [[dry-skin]], [[sensitive-skin]], [[best-gentle-cleansers-sensitive-skin]].
 
 ## Common Marketing Claims
 

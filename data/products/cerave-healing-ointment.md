@@ -68,15 +68,17 @@ videos:
 
 ---
 
-CeraVe Healing Ointment is a fragrance-free, lanolin-free skin-protectant ointment built around petrolatum, with ceramides and hyaluronic acid added, sold as an over-the-counter drug product with an FDA Drug Facts label.[^1][^2]
+CeraVe Healing Ointment is a fragrance-free, lanolin-free skin-protectant ointment for [[dry-skin|chafed, chapped, or cracked skin]], built around [[petrolatum]] with [[ceramides]] and [[hyaluronic-acid]] added on top. It is sold as an over-the-counter drug product with an FDA Drug Facts label.[^1][^2]
 
-> A petrolatum ointment, the reference occlusive for slowing water loss, with ceramides NP/AP/EOP and hyaluronic acid added on top; petrolatum's occlusive and barrier evidence is well established and covered on [[petrolatum]], while the added ceramides and hyaluronic acid have not been shown to beat a plainer occlusive-plus-humectant product on clinical outcomes, only on measured barrier readings (see [[ceramides]] and [[hyaluronic-acid]]). CeraVe markets it as providing "a protective barrier for up to eight hours"[^1] and Target's listing states it is "Approved by the National Eczema Association."[^2] CeraVe's own site lists it at $20.99; Target lists a 3 oz size at $10.29 ($3.43/oz).[^1][^2]
+> **Bottom line:** this is a petrolatum ointment, the reference occlusive for slowing water loss, with ceramides NP/AP/EOP and hyaluronic acid added. Petrolatum's occlusive and barrier evidence is well established and covered on [[petrolatum]]. The added ceramides and hyaluronic acid have not been shown to beat a plainer occlusive-plus-humectant product on clinical outcomes, only on measured barrier readings (see [[ceramides]] and [[hyaluronic-acid]]). CeraVe markets it as providing "a protective barrier for up to eight hours"[^1] and Target's listing states it is "Approved by the National Eczema Association."[^2] CeraVe's own site lists it at $20.99; Target lists a 3 oz size at $10.29 ($3.43/oz).[^1][^2]
 
 ## Summary
 
-CeraVe Healing Ointment is an over-the-counter skin-protectant ointment for chafed, chapped, or cracked skin, formulated "without potential irritants, like lanolin, dyes, preservatives, or fragrance," per CeraVe.[^1] Its main job is the same one shared by any petrolatum-based ointment: occluding the skin surface to slow water loss. The Drug Facts panel lists petrolatum as the active ingredient, at 46.5% on CeraVe's own product page[^1] and 49.5% on Target's listing for the 3 oz size[^2]; petrolatum is the reference occlusive against which other moisturizing agents are measured, covered on [[petrolatum]].
+CeraVe Healing Ointment is an over-the-counter skin-protectant ointment for chafed, chapped, or cracked skin, formulated "without potential irritants, like lanolin, dyes, preservatives, or fragrance," per CeraVe.[^1] Its main job is the same one shared by any petrolatum-based ointment: occluding the skin surface to slow water loss, the core mechanism behind [[skin-barrier-repair]]. The Drug Facts panel lists petrolatum as the active ingredient, at 46.5% on CeraVe's own product page[^1] and 49.5% on Target's listing for the 3 oz size[^2]; petrolatum is the reference occlusive against which other moisturizing agents are measured, covered on [[petrolatum]].
 
-What distinguishes this from a jar of plain white petrolatum is the addition of three ceramides (ceramide NP, AP, and EOP) and hyaluronic acid, both declared on the ingredient list without a stated percentage.[^1][^2] Ceramides are a barrier lipid that eczema-prone skin is measurably short of, and ceramide moisturizers move measured barrier readings, but have not been shown to outperform a plainer occlusive-and-humectant moisturizer on eczema severity; that evidence is set out on [[ceramides]]. Hyaluronic acid is a well-evidenced humectant for raising measured skin hydration; that evidence is set out on [[hyaluronic-acid]]. CeraVe markets the product as providing "a protective barrier for up to eight hours" and suitable "for all skin types, including sensitive and eczema-prone skin."[^1] Target's listing separately states it is "Approved by the National Eczema Association" and lists it as FSA/HSA eligible.[^2]
+What distinguishes this from a jar of plain white petrolatum is the addition of three ceramides (ceramide NP, AP, and EOP) and hyaluronic acid, both declared on the ingredient list without a stated percentage.[^1][^2] Ceramides are a barrier lipid that skin prone to [[atopic-dermatitis|eczema]] is measurably short of, and ceramide moisturizers move measured barrier readings, but have not been shown to outperform a plainer occlusive-and-humectant moisturizer on eczema severity; that evidence is set out on [[ceramides]]. Hyaluronic acid is a well-evidenced humectant for raising measured skin hydration; that evidence is set out on [[hyaluronic-acid]].
+
+CeraVe markets the product as providing "a protective barrier for up to eight hours" and suitable "for all skin types, including sensitive and eczema-prone skin."[^1] Target's listing separately states it is "Approved by the National Eczema Association" and lists it as FSA/HSA eligible.[^2]
 
 No published trial of this exact ointment is cited here (see [The Evidence](#the-evidence)). CeraVe's own site lists it at $20.99; Target lists a 3 oz size at $10.29, or $3.43 per ounce ([see Where to Buy](#where-to-buy), accessed 2026-08-08).
 
@@ -115,7 +117,7 @@ Claims from CeraVe's product page and Target's listing not established by the gr
 
 ## See Also
 
-[[cerave-moisturizing-cream]], [[cerave-skin-renewing-night-cream]], [[vanicream-moisturizing-cream]].
+[[cerave-moisturizing-cream]], [[cerave-skin-renewing-night-cream]], [[vanicream-moisturizing-cream]], [[petrolatum]], [[ceramides]], [[hyaluronic-acid]], [[dry-skin]], [[atopic-dermatitis]], [[skin-barrier-repair]].
 
 ## Where to Buy
 

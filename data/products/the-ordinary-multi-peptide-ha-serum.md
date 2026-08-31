@@ -98,7 +98,7 @@ The formula contains no [[retinoids]], no vitamin C ([[ascorbic-acid-vitamin-c]]
 
 ## See Also
 
-[[the-ordinary-multi-peptide-copper-peptides-serum]], [[peptides]], [[retinoids]].
+[[the-ordinary-multi-peptide-copper-peptides-serum]], [[peptides]], [[retinoids]], [[hyaluronic-acid]], [[glycerin]], [[anti-aging]], [[moisturizing]].
 
 ## Common Marketing Claims
 

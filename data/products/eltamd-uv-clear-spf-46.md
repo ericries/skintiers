@@ -51,7 +51,7 @@ EltaMD UV Clear is an oil-free, fragrance-free face sunscreen lotion rated Broad
 
 ## Summary
 
-UV Clear is a daily facial sunscreen from EltaMD, a US brand widely sold through dermatology offices. It is a light mineral lotion made for everyday facial use and is popular with people who have sensitive, acne-prone, or rosacea-prone skin, and it is often worn under makeup. Its core purpose is health rather than cosmetics: broad-spectrum protection against UV is the single best-evidenced way to reduce photoaging and lower the risk of sun-related skin cancer, a case with randomized-trial support that is set out on [[sunscreen-uv-filters]].
+UV Clear is a daily facial sunscreen from EltaMD, a US brand widely sold through dermatology offices. It is a light mineral lotion made for everyday facial use and is popular with people who have [[sensitive-skin|sensitive]], [[acne|acne-prone]], or [[rosacea|rosacea-prone]] skin, and it is often worn under makeup. Its core purpose is health rather than cosmetics: broad-spectrum protection against UV is the single best-evidenced way to reduce photoaging and lower the risk of sun-related skin cancer, a case with randomized-trial support that is set out on [[sunscreen-uv-filters]].
 
 What sets it apart from a plainer sunscreen is its all-mineral filter system and its extras. The only sun filter that covers UVA here is [[zinc-oxide]] at 9%, a photostable mineral filter, so the formula avoids the organic (chemical) filters some sensitive skin reacts to, and it is oil-free, fragrance-free, and carries niacinamide ([the filter breakdown is in The Evidence](#the-evidence)).[^1][^5] It is a longtime dermatologist favorite: Allure titled its review "Why Dermatologists Love the EltaMD UV Clear," and quoted board-certified Miami dermatologist Christopher O'Connell saying "My favorite sunscreen is EltaMD Clear," which he calls "a clear zinc-oxide sunscreen that also contains niacinamide to help give the skin a glow."[^6]
 
@@ -103,7 +103,14 @@ Label and marketing terms not established by the graded evidence above:
 
 ## See Also
 
-Similar broad-spectrum sunscreens: [[la-roche-posay-anthelios-melt-in-milk-spf-60]], [[beauty-of-joseon-relief-sun-rice-probiotics-spf50]], [[sunscreen-uv-filters]].
+- [[sunscreen-uv-filters]], the SPF/UVA science behind this grade
+- [[best-sunscreens-daily-wear]], a broader roundup of everyday sunscreens
+- [[la-roche-posay-anthelios-melt-in-milk-spf-60]], a higher-SPF mineral/chemical alternative
+- [[beauty-of-joseon-relief-sun-rice-probiotics-spf50]], a lighter budget alternative
+- [[zinc-oxide]], the mineral filter that supplies this product's UVA coverage
+- [[niacinamide]], the added ingredient behind the "calm skin" marketing
+- [[rosacea]], one of the skin types this product is marketed toward
+- [[acne]], the other skin type this product is marketed toward
 
 ## Where to Buy
 

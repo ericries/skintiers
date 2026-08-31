@@ -59,13 +59,13 @@ key_actives:
 - ferulic-acid
 ---
 
-Timeless 20% Vitamin C + E Ferulic Acid Serum is a leave-on morning vitamin C serum built around 20% L-ascorbic acid with vitamin E and ferulic acid, sold at a small fraction of the price of SkinCeuticals C E Ferulic, the antioxidant combination it is widely compared against.[^1][^2][^4]
+Timeless 20% Vitamin C + E Ferulic Acid Serum is a leave-on morning [[vitamin-c|vitamin C]] serum built around 20% [[ascorbic-acid-vitamin-c|L-ascorbic acid]] with [[tocopherol|vitamin E]] and [[ferulic-acid]], sold at a small fraction of the price of [[skinceuticals-c-e-ferulic|SkinCeuticals C E Ferulic]], the antioxidant combination it is widely compared against.[^1][^2][^4]
 
 > A daily antioxidant serum priced at about $28 for a 1 oz bottle, well under a fifth of the SkinCeuticals list price. It states 20% L-ascorbic acid, above the 15% the reference formula was clinically tested at, plus vitamin E and ferulic acid at percentages the manufacturer does not disclose; an independent dupe-list report puts each at about 1%. No clinical trial has tested this product itself, so the case for it rests on that partial formula match rather than product-specific data. The one product-specific check available, a formulator-run stability test, found it degrades and sputters faster than some peer dupes, though the testers still passed it. NYT Wirecutter names it its budget pick, calling it "an affordable option with proven ingredients." The antioxidant evidence behind the category sits on [[vitamin-c]], and the studied original it is compared against is [[skinceuticals-c-e-ferulic]].[^1][^2][^3][^4]
 
 ## Summary
 
-Timeless 20% Vitamin C + E Ferulic Acid Serum is a morning antioxidant serum aimed at the same job as SkinCeuticals C E Ferulic: sitting under sunscreen to help neutralize everyday UV and pollution damage, alongside a gradual brightening effect. The active doing that work is [[ascorbic-acid-vitamin-c|L-ascorbic acid]], the pure and best-studied form of vitamin C, mapped along with the other forms on [[vitamin-c]]. What distinguishes this product is not the active but the price: at about $28 it lists at well under a fifth of the SkinCeuticals price, while sharing the same three core actives, L-ascorbic acid, vitamin E, and ferulic acid, that the reference formula is built on.[^1]
+Timeless 20% Vitamin C + E Ferulic Acid Serum is a morning antioxidant serum aimed at the same job as SkinCeuticals C E Ferulic: sitting under sunscreen to help neutralize everyday UV and pollution damage linked to [[sun-damage-photoaging|photoaging]], alongside a gradual [[brightening]] effect. The active doing that work is [[ascorbic-acid-vitamin-c|L-ascorbic acid]], the pure and best-studied form of vitamin C, mapped along with the other forms on [[vitamin-c]]. What distinguishes this product is not the active but the price: at about $28 it lists at well under a fifth of the SkinCeuticals price, while sharing the same three core actives, L-ascorbic acid, vitamin E, and ferulic acid, that the reference formula is built on.[^1]
 
 The manufacturer states the serum is formulated at 20% L-ascorbic acid, "enhanced with Vitamin E & Ferulic Acid," in an opaque glass pump bottle.[^1] That concentration is higher than the 15% SkinCeuticals uses and [the studies behind that reference formula tested](#the-evidence); high-strength L-ascorbic acid can sting or irritate at the low pH these serums need, a general property of the ingredient covered on [[ascorbic-acid-vitamin-c]]. Neither the manufacturer's page nor the matching Amazon listing discloses exact percentages for the vitamin E or ferulic acid; an independent dupe-list report states them at about 1% each and gives a pH of 2.4, which would put the vitamin E close to the reference formula's 1% but the ferulic acid at roughly double the reference formula's 0.5%, though that figure comes from a blogger's own account rather than a manufacturer disclosure.[^1][^2]
 
@@ -110,7 +110,7 @@ Label and marketing language not established by the graded evidence above:
 
 ## See Also
 
-[[skinceuticals-c-e-ferulic]], [[maelove-the-glow-maker]], [[trader-joes-nourish-vitamins-c-e-facial-serum]], [[ascorbic-acid-vitamin-c]], [[vitamin-c]].
+[[skinceuticals-c-e-ferulic]], [[maelove-the-glow-maker]], [[trader-joes-nourish-vitamins-c-e-facial-serum]], [[ascorbic-acid-vitamin-c]], [[vitamin-c]], [[best-vitamin-c-serums]], [[brightening]], [[sun-damage-photoaging]], [[best-sunscreens-daily-wear]].
 
 ## Where to Buy
 

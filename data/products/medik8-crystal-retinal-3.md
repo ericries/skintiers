@@ -56,9 +56,9 @@ type: product
 updated: '2026-08-03'
 ---
 
-Medik8 Crystal Retinal 3 is a 30 ml (1 fl. oz.) leave-on night serum whose active is encapsulated retinaldehyde at 0.03%, the second-lowest rung of a six-strength Crystal Retinal ladder that runs from 0.01% to 0.24%, priced at $66.00 as sold by [[medik8]], Amazon, and Dermstore.[^wirecutter][^dermstore]
+Medik8 Crystal Retinal 3 is a 30 ml (1 fl. oz.) leave-on night serum whose active is encapsulated retinaldehyde at 0.03%, aimed at [[sun-damage-photoaging|photoaging]] (fine lines, texture), the second-lowest rung of a six-strength Crystal Retinal ladder that runs from 0.01% to 0.24%, priced at $66.00 as sold by [[medik8]], Amazon, and Dermstore.[^wirecutter][^dermstore]
 
-> Retinaldehyde sits one enzymatic step from the receptor-active acid, closer than retinol's two steps, and NYT Wirecutter, which tested 35 over-the-counter retinoid products with brand names concealed, calls it "considered to be the most effective retinoid sold over the counter," naming this serum its "Best for adjustable potency" pick.[^wirecutter] No published trial tests this exact serum; its case rests on the category-level evidence for retinaldehyde, covered on [[retinaldehyde]] and [[retinoids]], and on a six-strength ladder that lets a user move up in dose without switching formulas.[^wirecutter][^dermstore] Like every over-the-counter retinoid it remains milder than prescription [[tretinoin]].
+> Retinaldehyde sits one enzymatic step from the receptor-active acid, closer than [[retinol]]'s two steps, and NYT Wirecutter, which tested 35 over-the-counter retinoid products with brand names concealed, calls it "considered to be the most effective retinoid sold over the counter," naming this serum its "Best for adjustable potency" pick.[^wirecutter] No published trial tests this exact serum; its case rests on the category-level evidence for retinaldehyde, covered on [[retinaldehyde]] and [[retinoids]], and on a six-strength ladder that lets a user move up in dose without switching formulas.[^wirecutter][^dermstore] Like every over-the-counter retinoid it remains milder than prescription [[tretinoin]].
 
 ## Summary
 
@@ -116,7 +116,7 @@ Label and marketing claims not established by the product-specific evidence abov
 
 ## See Also
 
-[[retinaldehyde]], [[retinoids]], [[skinmedica-retinol-complex-1-0]], [[trader-joes-retinol-night-serum]], [[anua-nano-retinol-0-3-niacin-renewing-serum]], [[differin-adapalene-0-1-gel]], [[tretinoin-0-025-cream]].
+[[retinaldehyde]], [[retinoids]], [[sun-damage-photoaging]], [[anti-aging]], [[skinmedica-retinol-complex-1-0]], [[trader-joes-retinol-night-serum]], [[anua-nano-retinol-0-3-niacin-renewing-serum]], [[differin-adapalene-0-1-gel]], [[tretinoin-0-025-cream]].
 
 ## Where to Buy
 

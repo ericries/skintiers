@@ -50,7 +50,9 @@ Cetaphil Moisturizing Cream is a fragrance-free cream moisturizer whose current 
 
 ## Summary
 
-Cetaphil Moisturizing Cream is a fragrance-free cream made for dry, very dry, and sensitive skin. Like other basic moisturizers, its main job is a health one: slowing the water skin loses through its surface and helping a dry or damaged barrier hold onto moisture, the general case set out on [[moisturizing]]. It does that with an occlusive ([[petrolatum]]) and a humectant ([[glycerin]]), plus panthenol (pro-vitamin B5) and [[niacinamide]] (vitamin B3) as added barrier-supporting ingredients on the current US label.[^1] [What's In It](#whats-in-it) shows a plain moisturizer without [[ceramides]]: unlike [[cerave-moisturizing-cream]], which adds three ceramides and a slow-release "MVE" delivery system, this formula names no ceramides, a composition difference rather than a verdict on which performs better.[^1][^6] The soft, smooth feel it leaves on application is a secondary, cosmetic benefit rather than the point.
+Cetaphil Moisturizing Cream is a fragrance-free cream made for [[dry-skin|dry, very dry, and sensitive skin]]. Like other basic moisturizers, its main job is a health one: slowing the water skin loses through its surface and helping a dry or damaged barrier hold onto moisture, the general case set out on [[moisturizing]]. It does that with an occlusive ([[petrolatum]]) and a humectant ([[glycerin]]), plus panthenol (pro-vitamin B5) and [[niacinamide]] (vitamin B3) as added barrier-supporting ingredients on the current US label.[^1]
+
+[What's In It](#whats-in-it) shows a plain moisturizer without [[ceramides]]: unlike [[cerave-moisturizing-cream]], which adds three ceramides and a slow-release "MVE" delivery system, this formula names no ceramides, a composition difference rather than a verdict on which performs better.[^1][^6] The soft, smooth feel it leaves on application is a secondary, cosmetic benefit rather than the point.
 
 Two small, product-specific trials exist, with different designs and different results. A within-patient trial that added this cream, applied three times a day, to a topical corticosteroid found participants preferred the combined side over the corticosteroid alone 96% of the time and rated it "marked to excellent improvement" more often (70% vs 55%), though the trial was unblinded to patients and was rated high risk of bias (Hanifin 1998, [in The Evidence](#the-evidence)).[^5] A separate small trial of the cream alone, tested alongside three other over-the-counter moisturizers, found it significantly improved skin's water-holding capacity (capacitance) but did not significantly change water loss (TEWL), and the trial was underpowered (Leshem 2020, [in The Evidence](#the-evidence)).[^4] The broader, better-evidenced case that keeping dry and barrier-impaired skin moisturized reduces flares and spares topical steroids belongs to moisturizing as a category and is set out on [[moisturizing]].
 
@@ -58,7 +60,7 @@ The cream carries the National Eczema Association's Seal of Acceptance, a progra
 
 ## The Evidence
 
-Keeping dry, barrier-impaired, and eczema-prone skin moisturized reduces flares and spares topical corticosteroids, one of dermatology's better-evidenced routines; that general case, including the roles of occlusives, humectants, and barrier lipids such as ceramides, is set out on [[moisturizing]]. What is specific to this product is narrower, and comes from two small trials with different designs.
+Keeping dry, barrier-impaired, and [[atopic-dermatitis|eczema]]-prone skin moisturized reduces flares and spares topical corticosteroids, one of dermatology's better-evidenced routines; that general case, including the roles of occlusives, humectants, and barrier lipids such as ceramides, is set out on [[moisturizing]]. What is specific to this product is narrower, and comes from two small trials with different designs.
 
 Hanifin 1998, described in a later systematic evaluation of the Cetaphil trial evidence, was a 3-week, within-patient (split-body), investigator-blind trial in 80 adults with mild to moderate eczema (78 completed). One side of the body received desonide 0.05% lotion twice daily plus Cetaphil Moisturizing Cream three times daily; the other side received the corticosteroid alone. Participants preferred the combined side 96% of the time versus 4% for the corticosteroid alone, and investigators rated the combined side "marked to excellent improvement" more often than the corticosteroid-alone side (70% vs 55%, P<0.01). Adverse-event reports were lower on the combined side by the end of the trial. The reviewing paper classified the trial as high risk of bias because, unlike the investigators, patients were not blinded to which side got the extra cream.[^5]
 
@@ -98,7 +100,7 @@ Label and marketing claims not established by the product-specific evidence abov
 
 ## See Also
 
-[[cerave-moisturizing-cream]], [[la-roche-posay-toleriane]], [[petrolatum]], [[glycerin]].
+[[cerave-moisturizing-cream]], [[la-roche-posay-toleriane]], [[moisturizing]], [[atopic-dermatitis]], [[dry-skin]], [[skin-barrier-repair]], [[ceramides]], [[best-gentle-cleansers-sensitive-skin]].
 
 ## Where to Buy
 
