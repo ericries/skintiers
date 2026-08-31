@@ -5,7 +5,7 @@ name: Acne
 slug: acne
 status: published
 tier_list:
-  by: strength of the evidence for treating acne — several of these are clinically
+  by: strength of the evidence for treating acne; several of these are clinically
     similar, so the tiers track evidence certainty, not effect size alone
   items:
   - note: First-line topical retinoid; solid, FDA-approved (Rx and OTC), well tolerated.
@@ -391,6 +391,24 @@ Quarantined and discounted. Treat everything here as unsupported unless it appea
 **Strength does not equal speed (Kawashima 2017).** A 12-week, placebo-controlled RCT reported median inflammatory-lesion reductions of 72.7% (2.5% BPO) and 75.0% (5% BPO) versus 41.7% (placebo) - the two strengths near-identical to each other (a 2.3-point gap), both far above placebo.[^6]
 
 Across these, three methodologically independent syntheses converge on the headline - the network meta-analysis (ranking), the Cochrane review (combinations beat monotherapy; monotherapies are interchangeable), and the constituent head-to-head RCTs (adapalene about equal to tretinoin; salicylic acid about equal to adapalene) - while noting they draw on much of the same underlying trial evidence.[^1][^2][^3][^4]
+
+## A Practical Routine, and the Products That Deliver It
+
+A simple, evidence-led routine beats a large one; adult acne especially responds to consistency, not intensity. Build it in this order and add one active at a time.
+
+- **Cleanse gently, twice a day.** A bland or mildly foaming cleanser is enough; the treatment happens with the leave-on actives, not the wash. Options are ranked on [[best-cleansers-for-oily-acne-prone-skin]] (for example [[cerave-foaming-facial-cleanser|CeraVe Foaming]]). Scrubbing and stripping make acne worse, not better.
+- **The core active: a retinoid at night.** This is the backbone of the best-evidenced regimen. Over-the-counter [[differin-adapalene-0-1-gel|adapalene 0.1% (Differin)]] is the gentler default and equals prescription [[tretinoin]] head-to-head; start two or three nights a week and build up. Full potency ladder on [[retinoids]].
+- **Add benzoyl peroxide.** Pairing [[benzoyl-peroxide]] with the retinoid is the strongest topical combination in the evidence, and it prevents antibiotic resistance. A wash is a low-irritation way to use it ([[panoxyl-acne-foaming-wash-benzoyl-peroxide-10|PanOxyl 10%]] or the gentler [[panoxyl-acne-creamy-wash-benzoyl-peroxide-4|4%]]); products are ranked on [[best-benzoyl-peroxide-products]]. Lower percentages work about as well with less irritation.
+- **Spot treatments and patches, honestly.** For the occasional flare, see [[best-acne-spot-treatments]]; hydrocolloid patches protect an open lesion but do nothing for a closed or deep one.
+- **Moisturize and protect.** A bland moisturizer ([[best-face-moisturizers-by-evidence]]) offsets retinoid and benzoyl-peroxide dryness, and daily [[sunscreen-uv-filters|sunscreen]] limits the brown marks ([[hyperpigmentation]]) and red marks ([[post-inflammatory-erythema]]) that acne leaves behind.
+- **Body and back acne** follow the same biology and are covered, with product picks, on [[body-acne]] and [[best-body-acne-products]].
+- **Know when to escalate.** Widespread, scarring, cystic, or stubborn acne warrants a dermatologist and possibly oral therapy (antibiotics, hormonal treatment, or isotretinoin); topical [[dapsone-topical]] and prescription retinoids are also options a prescriber can add. This page is educational, not medical advice.
+
+## See Also
+
+- Actives: [[retinoids]], [[benzoyl-peroxide]], [[adapalene]], [[tretinoin]], [[salicylic-acid]], [[azelaic-acid]], [[dapsone-topical]].
+- Best-of product lists: [[best-benzoyl-peroxide-products]], [[best-acne-spot-treatments]], [[best-cleansers-for-oily-acne-prone-skin]], [[best-body-acne-products]], [[best-salicylic-acid-bha-products]].
+- Related concerns: [[blackheads-clogged-pores]], [[oily-skin]], [[body-acne]], [[fungal-acne]] (looks like acne but is a yeast), [[acne-scars]], [[post-inflammatory-erythema]] (the red marks left behind), and [[hyperpigmentation]] (the brown ones).
 
 ## Sources
 
