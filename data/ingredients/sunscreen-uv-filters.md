@@ -478,6 +478,47 @@ videos:
   related: [sun-damage-photoaging, melasma, hyperpigmentation]
   thesis: Board-certified dermatologist Dr. Whitney Bowe hosts this myth-busting explainer on UV exposure, joined by science educator Steve Spangler and other dermatologists. Using a home demonstration with UV-reactive beads, they show that clouds do not block UV rays (clouds are water droplets with gaps UV passes through, so sunburn is still possible on cloudy days), and that windows and umbrellas reduce but do not fully block UV. The video also debunks the idea that darker skin's melanin fully protects against UV damage, notes that snow can reflect 80 to 90 percent of UV back onto skin, and clarifies that a high UV index signals stronger radiation risk rather than better tanning conditions. The consistent takeaway is that daily sunscreen is needed regardless of clouds, shade, or skin tone.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Things I wish I knew sooner as a dermatologist
+  creator: Dr. Daniel Sugai
+  creator_slug: daniel-sugai
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=XFIXoWL_LtI
+  posted: '2026-08-24'
+  related: []
+  thesis: 'Board-certified dermatologist Dr. Daniel Sugai shares tips he wishes he had known sooner. He explains that hyaluronic acid serum gives instant plumping and glow, good before an event, while vitamin C serum works more gradually as an antioxidant that fights free-radical damage from pollution and sunlight, improving fine lines, texture, and brightness over time; he wishes he had started vitamin C earlier in his 30s. He advises applying the less stable vitamin C serum first, then hyaluronic acid, then moisturizer and sunscreen (thinnest to thickest). He also stresses that not all sunscreens are equal for melasma and hyperpigmentation: a tinted sunscreen containing iron oxides is needed to block visible light, and he says patients whose melasma keeps worsening despite using sunscreen often turn out to be using one without iron oxides.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Beauty has a misinformation problem - A case study on environmental claims. Presentation recording.
+  creator: Jen Novakovich (The Eco Well)
+  creator_slug: jen-novakovich
+  credential: Cosmetic scientist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=Ii1I5REdC3A
+  posted: '2025-12-09'
+  related: [zinc-oxide, titanium-dioxide]
+  thesis: In this conference talk, cosmetic scientist Jen Novakovich (The Eco Well) explains how misinformation spreads in beauty through habit loops and biases toward simple, negative information, and walks through a case study on environmental claims. She argues consumers have been misled into believing mineral sunscreens are safer than chemical ones despite data showing otherwise, noting blind testing shows consumers actually prefer chemical sunscreen formulas and that lower liking could reduce sunscreen use and adequate application. She also covers how outlier studies (like the 2016 coral-bleaching paper) get outsized media attention, how upcycled ingredients are not automatically greener without life-cycle evidence, and urges brands and consumers to ask for evidence behind sustainability and safety claims rather than accept simple buzzwords.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: When Beauty Testing Goes Wrong, Who's Responsible? ROUNDTABLE with Avril Love and Rania Ibrahim PhD
+  creator: Jen Novakovich (The Eco Well)
+  creator_slug: jen-novakovich
+  credential: Cosmetic scientist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=WPaj-hGGU_o
+  posted: '2025-12-03'
+  related: []
+  thesis: Cosmetic scientist Jen Novakovich (The Eco Well) hosts a roundtable with cosmetics attorney Avril Love and clinical testing lab owner Dr. Rania Ibrahim to discuss who is responsible when personal care product testing fails, prompted by the sunscreen testing scandal where products showed huge SPF discrepancies (e.g., a marketed SPF 50 testing at SPF 4) after fraud was uncovered at a testing lab. Love explains that brands remain legally responsible for the safety and efficacy claims on their products even when a third-party lab commits fraud, since consumers can sue brands directly over label claims. Ibrahim emphasizes that brands should vet their testing labs and consultants rigorously (auditing partners, checking track records) rather than assuming outside vetting is trustworthy, while acknowledging that thorough vetting is expensive and can still fail. Both guests advise consumers to judge brand credibility by visible signals, such as whether marketing claims and ingredient lists
+    follow labeling rules, arguing that brands sloppy about easy-to-verify things like claims language are more likely to have cut corners elsewhere too.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Sunscreen Gate Roundtable, Raw Video Podcast
+  creator: Jen Novakovich (The Eco Well)
+  creator_slug: jen-novakovich
+  credential: Cosmetic scientist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=4QtSpEEsSFc
+  posted: '2025-10-16'
+  related: [zinc-oxide, sun-damage-photoaging]
+  thesis: Cosmetic scientist Jen Novakovich hosts a roundtable with Michelle Wong, Hannah, and formulator Brian to unpack Australia's 2025 sunscreen SPF-testing scandal, in which a Choice magazine test found a sunscreen labeling SPF 50+ actually tested at SPF 4, triggering a wave of recalls tied to lab Princeton Consumer Research. The panel explains that interlab SPF variability can run 15 to 18 percent even without fraud, that "pass or fail" framing misrepresents SPF testing, and that labs consistently delivering unusually high or cheap results are a red flag for fraud, as happened with AMA Labs in an earlier scandal. They stress that brands bear responsibility for auditing their testing labs, that reapplication and behavioral sun protection (shade, clothing, timing) matter as much as the SPF number itself, and that consumers should not panic since most tested Australian sunscreens still delivered 80 percent or more of their labeled protection.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 name: Sunscreen (UV filters)
 slug: sunscreen-uv-filters
 status: published

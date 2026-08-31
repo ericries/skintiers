@@ -57,6 +57,16 @@ videos:
   related: [hyperpigmentation]
   thesis: "Dr. Chris Tomassian, a board-certified dermatologist, recommends hydroquinone-based creams, obtained through a dermatologist or an online pharmacy, as the most effective at-home option for treating dark spots, noting that use needs to be cycled with breaks. He adds that pairing hydroquinone with an in-office laser such as IPL or Pico for fair skin, or Fraxel for darker skin, gives the best results for stubborn dark spots."
   note: "Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship."
+- title: 5 Skincare Ingredients You Cannot Buy At The Drugstore | Dermatologist Explains
+  creator: Dr. Lindsey Zubritsky (DermGuru)
+  creator_slug: lindsey-zubritsky
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=5x0oSHcAUA4
+  posted: '2026-08-18'
+  related: [rosacea]
+  thesis: Board-certified dermatologist Dr. Lindsey Zubritsky lists five effective skincare ingredients that are prescription-only, explaining why each requires a doctor. She names tretinoin as the gold standard for acne, fine lines, and photoaging; prescription-strength azelaic acid for rosacea, perioral dermatitis, and post-breakout dark or red marks; hydroquinone for stubborn hyperpigmentation and melasma; topical ivermectin for rosacea linked to skin mites; and eflornithine to slow excess facial hair growth. She notes these aren't sold over the counter because a prescriber needs to confirm the ingredient is right for a patient's skin.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

@@ -7,6 +7,18 @@ status: published
 tier: mid
 type: ingredient
 updated: '2026-08-30'
+videos:
+- title: Things I wish I knew sooner as a dermatologist
+  creator: Dr. Daniel Sugai
+  creator_slug: daniel-sugai
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=XFIXoWL_LtI
+  posted: '2026-08-24'
+  related: []
+  thesis: 'Board-certified dermatologist Dr. Daniel Sugai shares tips he wishes he had known sooner. He explains that hyaluronic acid serum gives instant plumping and glow, good before an event, while vitamin C serum works more gradually as an antioxidant that fights free-radical damage from pollution and sunlight, improving fine lines, texture, and brightness over time; he wishes he had started vitamin C earlier in his 30s. He advises applying the less stable vitamin C serum first, then hyaluronic acid, then moisturizer and sunscreen (thinnest to thickest). He also stresses that not all sunscreens are equal for melasma and hyperpigmentation: a tinted sunscreen containing iron oxides is needed to block visible light, and he says patients whose melasma keeps worsening despite using sunscreen often turn out to be using one without iron oxides.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Iron oxides (INCI CI 77491 red, CI 77492 yellow, CI 77499 black; chemically red is ferric oxide Fe2O3 and black is Fe3O4) are mineral pigments blended into tinted mineral [[sunscreen-uv-filters]] at roughly 1% to 5% to match skin tone and reduce the white cast of zinc oxide and titanium dioxide.[^pubchem-fe2o3][^pubchem-fe3o4][^lyons] Beyond cosmetics, iron oxides physically absorb visible light (400 to 700 nm), a wavelength band ordinary UV-only sunscreens do not block, and the one randomized trial isolating this in melasma patients found an iron-oxide-containing sunscreen modestly outperformed a UV-only sunscreen as an adjunct to hydroquinone.[^castanedo][^lyons]

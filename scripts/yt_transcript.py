@@ -92,6 +92,12 @@ def parse_vtt(text):
 
 
 def _run(args):
+    # Optionally pass browser cookies to yt-dlp to clear YouTube's rate-limit /
+    # bot-detection (HTTP 429 "Sign in to confirm you're not a bot"). Set
+    # YTDLP_COOKIES_FROM_BROWSER=chrome (or firefox/safari/...) to enable.
+    cb = os.environ.get("YTDLP_COOKIES_FROM_BROWSER")
+    if cb and args and args[0] == "yt-dlp":
+        args = [args[0], "--cookies-from-browser", cb] + args[1:]
     return subprocess.run(args, capture_output=True, text=True, timeout=120)
 
 

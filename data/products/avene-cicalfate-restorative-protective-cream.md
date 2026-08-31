@@ -46,6 +46,16 @@ videos:
   related: []
   thesis: Dermatologist Dr. Joyce Park (Tea with MD) says she does not pair La Roche-Posay Cicaplast Baume B5 with tretinoin and azelaic acid ("the holy trinity") and instead recommends lighter barrier-repair alternatives. She names the Aestura gel cream as a lightweight summer option, an Aveeno oat-based gel cream for soothing irritation when starting a retinoid, and calls out Avene Cicalfate and the Tower 28 SOS recovery cream as other good picks.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Skincare Things Worth Knowing
+  creator: Dr. Daniel Sugai
+  creator_slug: daniel-sugai
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=DvbRlQA0sZM
+  posted: '2026-08-25'
+  related: [skin-barrier-repair]
+  thesis: Board-certified dermatologist Dr. Daniel Sugai runs through several skincare facts worth knowing. He explains benzoyl peroxide is still a good ingredient despite recent controversy, but warns not to store it in high heat (like a hot car) or use it expired, since heat can break it down into benzene. He clarifies that tretinoin does not thin skin; it thickens the deeper collagen layers while the visible peeling is just the stratum corneum adjusting to faster cell turnover, not damage. He also notes people do not need to overspend on expensive barrier repair creams, recommending affordable options like Avene Cicalfate, La Roche-Posay Cicaplast Baume B5, or plain Vaseline when skin is compromised.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

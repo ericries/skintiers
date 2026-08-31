@@ -25,6 +25,18 @@ slug: soolantra-ivermectin-1-cream
 status: published
 type: product
 updated: '2026-08-05'
+videos:
+- title: 5 Skincare Ingredients You Cannot Buy At The Drugstore | Dermatologist Explains
+  creator: Dr. Lindsey Zubritsky (DermGuru)
+  creator_slug: lindsey-zubritsky
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=5x0oSHcAUA4
+  posted: '2026-08-18'
+  related: [rosacea]
+  thesis: Board-certified dermatologist Dr. Lindsey Zubritsky lists five effective skincare ingredients that are prescription-only, explaining why each requires a doctor. She names tretinoin as the gold standard for acne, fine lines, and photoaging; prescription-strength azelaic acid for rosacea, perioral dermatitis, and post-breakout dark or red marks; hydroquinone for stubborn hyperpigmentation and melasma; topical ivermectin for rosacea linked to skin mites; and eflornithine to slow excess facial hair growth. She notes these aren't sold over the counter because a prescriber needs to confirm the ingredient is right for a patient's skin.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Soolantra (ivermectin) Cream, 1% is a prescription-only topical drug made by Galderma, applied once daily to the face to treat the inflammatory lesions, papules and pustules, of rosacea.[^dailymed] It is not a cosmetic product: the FDA-approved indication is limited to that inflammatory-lesion pattern, and the drug's own label states plainly that the mechanism by which it works is unknown.[^dailymed]

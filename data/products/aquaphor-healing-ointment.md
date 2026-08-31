@@ -23,6 +23,18 @@ slug: aquaphor-healing-ointment
 status: published
 type: product
 updated: '2026-08-23'
+videos:
+- title: Aquaphor Hacks to Glow Up
+  creator: Dr. Daniel Sugai
+  creator_slug: daniel-sugai
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=Og7eLVAFx5Y
+  posted: '2026-08-26'
+  related: [petrolatum]
+  thesis: Board-certified dermatologist Dr. Daniel Sugai runs through different Aquaphor petrolatum formats and how to use each one. He recommends the Healing Balm Stick for mess-free reapplication on chapped lips or for "slugging responsibly" over the cheekbones for a subtle glow, but flags it contains beeswax so those with a beeswax sensitivity should stick with the plain tube ointment instead. He also covers the classic tube for lips (to avoid dipping fingers into a tub), the Aquaphor ointment body spray for covering larger dry areas like cracked heels under a sock, and the Aquaphor foot masks, framing all of them as different delivery formats for the same barrier-repair petrolatum base.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Aquaphor Healing Ointment is an over-the-counter skin-protectant ointment made by Beiersdorf Inc. under the FDA's Skin Protectant OTC monograph (M016), with petrolatum 41% as its sole active ingredient.[^1]

@@ -136,6 +136,16 @@ videos:
   related: [hyaluronic-acid, caffeine, bakuchiol, peptides, glycerin]
   thesis: Dr. Adeline Kikam, a board-certified dermatologist (Brown Skin Derm), explains how to apply skincare products around the delicate eye area without worsening problems like dark circles. She recommends matching products to the concern (hyaluronic acid and glycerin for dryness, caffeine for puffiness, sunscreen/retinoids/bakuchiol/peptides for fine lines and laxity), cleansing before application, using about half a pea-sized amount, and applying gently with the ring finger in a semi-circle of dots along the orbital rim rather than pulling the skin. She notes retinoids are best used at night, sunscreen and caffeine products by day, and that hydrating products can be used either time.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: 'Why A Derm NEVER Uses Lash Serums | #shorts #skincare |'
+  creator: Dr. Lindsey Zubritsky (DermGuru)
+  creator_slug: lindsey-zubritsky
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=m3qeyiYpp2Q
+  posted: '2026-08-28'
+  related: []
+  thesis: Board-certified dermatologist Dr. Lindsey Zubritsky (DermGuru) explains why she avoids eyelash growth serums that contain prostaglandins or prostaglandin analogs. She says these ingredients can darken the under-eye area or lash line, change eye color (especially in light or green eyes), cause peri-orbital fat loss around the eyes that may not be reversible, and trigger allergic contact dermatitis or irritation. She recommends choosing a prostaglandin-free lash serum, such as one built on peptides, instead.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

@@ -51,6 +51,18 @@ slug: la-roche-posay-toleriane-hydrating-gentle-cleanser
 status: published
 type: product
 updated: '2026-07-28'
+videos:
+- title: How to get glassy skin
+  creator: Dr. Daniel Sugai
+  creator_slug: daniel-sugai
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=JbHkw7Bz4mg
+  posted: '2026-08-28'
+  related: [hyaluronic-acid, retinol, retinaldehyde, tretinoin]
+  thesis: 'Board-certified dermatologist Dr. Daniel Sugai lays out a four-step routine for "glassy skin": a barrier-friendly cleanser (La Roche-Posay Toleriane Hydrating for dry/sensitive skin, or their Purifying Foaming Cleanser for combination/oily skin), a hyaluronic acid serum applied to the forehead and crow''s feet to temporarily plump skin by drawing in moisture, a moisturizer plus daytime SPF, and a nighttime retinol, retinaldehyde, or prescription tretinoin (pea-sized amount) followed by moisturizer. He explains retinoids improve tone and texture with smoother skin appearing after a few months of consistent use.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 La Roche-Posay Toleriane Hydrating Gentle Cleanser is a fragrance-free, low-foaming milky cream cleanser for normal to dry, sensitive skin, whose manufacturer ingredient list is led by water, glycerin, and a mild coco-betaine surfactant and includes ceramide NP (ceramide-3), niacinamide, and panthenol.[^1]

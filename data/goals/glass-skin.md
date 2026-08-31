@@ -24,6 +24,17 @@ videos:
   title: 'Derm finds out: How long do the results last from the viral Korean collagen
     mask?'
   url: https://www.youtube.com/watch?v=7q5awcqlW4o
+- title: How to get glassy skin
+  creator: Dr. Daniel Sugai
+  creator_slug: daniel-sugai
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=JbHkw7Bz4mg
+  posted: '2026-08-28'
+  related: [hyaluronic-acid, retinol, retinaldehyde, tretinoin]
+  thesis: 'Board-certified dermatologist Dr. Daniel Sugai lays out a four-step routine for "glassy skin": a barrier-friendly cleanser (La Roche-Posay Toleriane Hydrating for dry/sensitive skin, or their Purifying Foaming Cleanser for combination/oily skin), a hyaluronic acid serum applied to the forehead and crow''s feet to temporarily plump skin by drawing in moisture, a moisturizer plus daytime SPF, and a nighttime retinol, retinaldehyde, or prescription tretinoin (pea-sized amount) followed by moisturizer. He explains retinoids improve tone and texture with smoother skin appearing after a few months of consistent use.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 "Glass skin" is a K-beauty social-media aesthetic, not a medical condition or a single product outcome. The name describes a look: skin that appears poreless, smooth, even-toned, and luminous, like a pane of glass. In a 2025 Pediatric Dermatology review, Goff and Stein describe the trend as one that "involves applying numerous exfoliating products and serums over the top of one another to achieve a smooth, shiny surface without the appearance of pores or texture, an impossible goal."[^1] "Glass skin" has no clinical definition and no trials of its own. What can be examined is the look broken into parts: how much of it is surface optics, and which of its components have evidence behind them. Those components live on their own pages, linked below.

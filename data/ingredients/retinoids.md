@@ -122,6 +122,26 @@ videos:
   related: []
   thesis: Board-certified dermatologist Dr. Sam Bunting debunks six common myths about retinoids, the vitamin A derivatives she calls the gold standard of anti-aging skincare. She argues that a lot of the retinoid information circulating on social media is inaccurate and discourages people from adopting what she considers one of the most valuable steps in a routine, and she walks through the misconceptions so viewers can use retinoids correctly rather than avoid them.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Chats with C with Aesthetic Doctor and K-Beauty Expert, Dr. Christine Hall | Caroline Hirons
+  creator: Caroline Hirons
+  creator_slug: caroline-hirons
+  credential: Esthetician and skincare author (NOT a dermatologist or cosmetic chemist)
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=VcHUtijrUjM
+  posted: '2026-06-15'
+  related: [polydeoxyribonucleotide-pdrn]
+  thesis: In this chat-style interview, skincare author Caroline Hirons talks with aesthetic doctor Dr. Christine Hall, who explains that retinoids are the most evidence-based skincare ingredient and one of the few that actually penetrate the skin barrier to stimulate collagen, but warns that applying them on damp skin increases absorption and side effects without added benefit, so skin should be dry first. Dr. Hall also discusses her clinic practice, saying SPF and skincare basics come before any injectable, that Botox remains the most common and best-value treatment she offers, and that microneedling can help acne scarring, pigmentation, fine lines and pores. On K-beauty, she explains that the widely cited "10 to 15 step Korean routine" was actually invented by a Western marketing team and that some brands marketed as authentic K-beauty, like Beauty of Joseon, are made for Western buyers rather than being major Korean domestic brands.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Should you stop the retinol sandwich method?
+  creator: Dr. Daniel Sugai
+  creator_slug: daniel-sugai
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=WaMp2eswyQs
+  posted: '2026-08-28'
+  related: [retinol]
+  thesis: Board-certified dermatologist Dr. Daniel Sugai examines a viral ex vivo study that some claimed proves the "retinoid sandwich" method (moisturizer, then tretinoin, then moisturizer) blocks tretinoin from working. He explains the study used skin explants from a single patient treated with 0.1% retinol or 0.025% tretinoin, and only measured two short-term biomarker genes (HB-EGF and HAS3), not acne clearance, wrinkle reduction, or any long-term clinical outcome. He concludes the full sandwich reduced expression of those two genes compared to tretinoin alone, but that this shows attenuation of a molecular signal, not chemical neutralization or a loss of real-world efficacy, and he still recommends sandwiching for patients starting retinoids, those with sensitive skin, or during dry winter months to improve tolerability and adherence.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 name: Retinoids
 slug: retinoids
 status: published

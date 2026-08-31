@@ -356,6 +356,16 @@ videos:
   related: [benzoyl-peroxide]
   thesis: Dr. Scott Walter, a board-certified dermatologist, describes two experimental acne treatments in development that would not require daily topicals or pills. The first is an mRNA vaccine targeting the P. acnes bacterium implicated in acne pathogenesis, which has completed phase one trials with results pending. The second is a once-weekly face mask made from the freshwater sponge Spongilla lacustris, which has shown significant acne improvement with few side effects in phase two trials. He frames both as promising options for patients who struggle with daily treatment compliance, though neither is yet available.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: How to manage clogged pores
+  creator: Dr. Daniel Sugai
+  creator_slug: daniel-sugai
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=3ERdIaNqdYc
+  posted: '2026-08-30'
+  related: [niacinamide, differin-adapalene-0-1-gel, la-roche-posay-effaclar-adapalene-gel-0-1]
+  thesis: 'Board-certified dermatologist Dr. Daniel Sugai explains clogged pores as a form of comedonal acne (whiteheads and blackheads, common on the forehead) and lays out his prevention approach: never sleep in makeup or without cleansing, use a lipid-soluble salicylic acid (BHA) product regularly to help clear pores, and add a retinoid since he says retinoids are not all the same. He recommends over-the-counter adapalene (Differin or La Roche-Posay) applied pea-size to the whole face, or a prescription tretinoin from a dermatologist for stronger cases, noting both work well on inflammatory acne and clogged pores. He also advises a lightweight sunscreen containing niacinamide, explaining that sun exposure can dilate pores and make them more clogged and enlarged over time.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

@@ -58,6 +58,36 @@ videos:
   related: [salicylic-acid, glycolic-acid, urea]
   thesis: 'Dr. Dustin Portela, a board-certified dermatologist, explains seven common benign skin growths he sees daily in clinic: seborrheic keratoses, warts, sebaceous hyperplasia, skin tags, milia, cherry angiomas, and venous lakes. He covers why each forms and how it is treated, and stresses that none of them are cancerous or turn into cancer. On milia specifically, he explains they are fully enclosed under the skin (unlike whiteheads, which connect to a follicle with a natural opening), so they cannot be popped at home; he removes them in-office with a needle or 11-blade and recommends a topical retinol to help prevent new ones from forming, since occlusive products like slugging without proper cleansing can also make people more prone to them.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: 5 Skincare Ingredients You Cannot Buy At The Drugstore | Dermatologist Explains
+  creator: Dr. Lindsey Zubritsky (DermGuru)
+  creator_slug: lindsey-zubritsky
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=5x0oSHcAUA4
+  posted: '2026-08-18'
+  related: [rosacea]
+  thesis: Board-certified dermatologist Dr. Lindsey Zubritsky lists five effective skincare ingredients that are prescription-only, explaining why each requires a doctor. She names tretinoin as the gold standard for acne, fine lines, and photoaging; prescription-strength azelaic acid for rosacea, perioral dermatitis, and post-breakout dark or red marks; hydroquinone for stubborn hyperpigmentation and melasma; topical ivermectin for rosacea linked to skin mites; and eflornithine to slow excess facial hair growth. She notes these aren't sold over the counter because a prescriber needs to confirm the ingredient is right for a patient's skin.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Should you stop the retinol sandwich method?
+  creator: Dr. Daniel Sugai
+  creator_slug: daniel-sugai
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=WaMp2eswyQs
+  posted: '2026-08-28'
+  related: [retinol]
+  thesis: Board-certified dermatologist Dr. Daniel Sugai examines a viral ex vivo study that some claimed proves the "retinoid sandwich" method (moisturizer, then tretinoin, then moisturizer) blocks tretinoin from working. He explains the study used skin explants from a single patient treated with 0.1% retinol or 0.025% tretinoin, and only measured two short-term biomarker genes (HB-EGF and HAS3), not acne clearance, wrinkle reduction, or any long-term clinical outcome. He concludes the full sandwich reduced expression of those two genes compared to tretinoin alone, but that this shows attenuation of a molecular signal, not chemical neutralization or a loss of real-world efficacy, and he still recommends sandwiching for patients starting retinoids, those with sensitive skin, or during dry winter months to improve tolerability and adherence.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Skincare Things Worth Knowing
+  creator: Dr. Daniel Sugai
+  creator_slug: daniel-sugai
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=DvbRlQA0sZM
+  posted: '2026-08-25'
+  related: [skin-barrier-repair]
+  thesis: Board-certified dermatologist Dr. Daniel Sugai runs through several skincare facts worth knowing. He explains benzoyl peroxide is still a good ingredient despite recent controversy, but warns not to store it in high heat (like a hot car) or use it expired, since heat can break it down into benzene. He clarifies that tretinoin does not thin skin; it thickens the deeper collagen layers while the visible peeling is just the stratum corneum adjusting to faster cell turnover, not damage. He also notes people do not need to overspend on expensive barrier repair creams, recommending affordable options like Avene Cicalfate, La Roche-Posay Cicaplast Baume B5, or plain Vaseline when skin is compromised.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

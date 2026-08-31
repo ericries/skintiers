@@ -1,19 +1,3 @@
-# Vetted creator roster for video-card harvesting.
-# last_pulled: a date = already mined at least once (re-mining finds NEW videos via
-# the video_id dedup guard); null = never mined.
-# tier: HIGH = credentialed derm/chemist. MED = non-credentialed educator.
-# product_recs (user, 2026-08-14): CREDIBILITY, not credential, gates whether a
-#   creator's NON-SPONSORED product-recommendation videos are eligible for the Feed.
-#   'ok' = this creator is credibility-vetted (their advice is generally science-aligned,
-#   judged from reviewed content), so their non-sponsored product picks ARE fine. tier HIGH
-#   (derm/chemist) implies product_recs ok. Absent on a MED creator = education/how-to only
-#   for now, until we have reviewed enough of their content to vet them. A vetted creator's
-#   "favorites / products I love" multi-product video is fine too (embed on the most relevant
-#   page, use related: for the others). For EVERY creator, regardless of this flag: the
-#   transcript sponsorship scan is MANDATORY, sponsored/affiliate/gifted videos are always
-#   rejected, an own-brand conflict still means skip videos mainly promoting their own
-#   products, and a creator who monetizes picks via an affiliate storefront (see Kristin
-#   Leite) has their favorites/picks treated as effectively paid, so skip those.
 - name: Michelle Wong (Lab Muffin)
   creator_slug: michelle-wong
   flagship: true
@@ -79,8 +63,7 @@
   credential: Beauty product developer and skincare educator (NOT a dermatologist or cosmetic chemist)
   tier: MED
   channel: https://www.tiktok.com/@kristingl
-  conflict: runs an Amazon affiliate storefront and does sponsored posts - strongly prefer educational
-    / how-to / ingredient-explainer videos; be very cautious with any product recommendation
+  conflict: runs an Amazon affiliate storefront and does sponsored posts - strongly prefer educational / how-to / ingredient-explainer videos; be very cautious with any product recommendation
   last_pulled: '2026-08-20'
 - name: Ella (@your.estie.ella)
   creator_slug: your-estie-ella
@@ -88,9 +71,7 @@
   tier: MED
   channel: https://www.tiktok.com/@your.estie.ella
   product_recs: ok
-  conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned)
-    - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan
-    and reject any sponsored/affiliate/gifted video
+  conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan and reject any sponsored/affiliate/gifted video
   last_pulled: '2026-08-20'
 - name: Dr. Shereene Idriss
   creator_slug: shereene-idriss
@@ -140,32 +121,28 @@
   credential: Licensed medical esthetician (NOT a dermatologist or cosmetic chemist)
   tier: MED
   channel: https://www.youtube.com/@cassandrabankson/videos
-  conflict: non-credentialed educator - educational content only, never treat picks as endorsements, never
-    use sponsored videos
+  conflict: non-credentialed educator - educational content only, never treat picks as endorsements, never use sponsored videos
   last_pulled: '2026-08-30'
 - name: Hyram (Skincare by Hyram)
   creator_slug: hyram
   credential: Skincare educator (NOT a dermatologist or cosmetic chemist)
   tier: MED
   channel: https://www.youtube.com/@Hyram/videos
-  conflict: has an own-brand line (Selfless) and does sponsorships - educational content only, never treat
-    picks as endorsements, never use sponsored videos
+  conflict: has an own-brand line (Selfless) and does sponsorships - educational content only, never treat picks as endorsements, never use sponsored videos
   last_pulled: '2026-08-30'
 - name: James Welsh
   creator_slug: james-welsh
   credential: Skincare content creator (NOT a dermatologist or cosmetic chemist)
   tier: MED
   channel: https://www.youtube.com/@JamesWelsh/videos
-  conflict: does sponsorships - educational content only, never treat picks as endorsements, never use
-    sponsored videos
+  conflict: does sponsorships - educational content only, never treat picks as endorsements, never use sponsored videos
   last_pulled: '2026-08-30'
 - name: Gothamista
   creator_slug: gothamista
   credential: Skincare content creator (NOT a dermatologist or cosmetic chemist)
   tier: MED
   channel: https://www.youtube.com/@gothamista/videos
-  conflict: does sponsorships - educational content only, never treat picks as endorsements, never use
-    sponsored videos
+  conflict: does sponsorships - educational content only, never treat picks as endorsements, never use sponsored videos
   last_pulled: '2026-08-30'
 - name: Dr Emma Wedgeworth
   creator_slug: emma-wedgeworth
@@ -173,9 +150,7 @@
   tier: MED
   channel: https://www.instagram.com/dremwedgeworth
   product_recs: ok
-  conflict: Unspecified/undisclosed brand partnerships per her own bio ('frequently works with leading
-    brands and the media'); no own-brand product line; no YouTube; transcript-verified cards pending an
-    IG/TikTok solution
+  conflict: Unspecified/undisclosed brand partnerships per her own bio ('frequently works with leading brands and the media'); no own-brand product line; no YouTube; transcript-verified cards pending an IG/TikTok solution
   last_pulled: '2026-08-16'
 - name: Dr. Adeline Kikam (Brown Skin Derm)
   creator_slug: adeline-kikam
@@ -183,8 +158,7 @@
   tier: MED
   channel: https://www.youtube.com/@brownskinderm
   product_recs: restricted
-  conflict: 'Affiliate storefronts (ShopMy + Amazon Shop via linktree), recurring #AD sponsored posts,
-    a branded discount-code partnership (LivSo), and c'
+  conflict: 'Affiliate storefronts (ShopMy + Amazon Shop via linktree), recurring #AD sponsored posts, a branded discount-code partnership (LivSo), and c'
   last_pulled: '2026-08-30'
 - name: Dr. Joyce Park (Tea with MD)
   creator_slug: joyce-park
@@ -193,8 +167,7 @@
   tier: HIGH
   channel: https://www.youtube.com/@TeawithMD
   product_recs: restricted
-  conflict: ShopMy affiliate storefront linked in nearly every video ('My Holy Grail Products'); own hair-care
-    brand Kerativ Hair (she is Founder/CEO);
+  conflict: ShopMy affiliate storefront linked in nearly every video ('My Holy Grail Products'); own hair-care brand Kerativ Hair (she is Founder/CEO);
   last_pulled: '2026-08-30'
 - name: Stephen Alain Ko (KindofStephen)
   creator_slug: stephen-alain-ko
@@ -204,8 +177,7 @@
   tier: MED
   channel: https://www.youtube.com/@kindofstephen
   product_recs: ok
-  conflict: No affiliate storefront or own-brand line found; occasionally discloses paid/employer formulation
-    work on specific ingredient categories (e.
+  conflict: No affiliate storefront or own-brand line found; occasionally discloses paid/employer formulation work on specific ingredient categories (e.
   last_pulled: '2026-08-30'
 - name: Dr. Angelo Landriscina (DermAngelo)
   creator_slug: angelo-landriscina
@@ -214,8 +186,7 @@
   tier: HIGH
   channel: https://www.youtube.com/@DermAngelo
   product_recs: restricted
-  conflict: Own-brand UPF sun-protective clothing line, SOUL-A (wearsoula.com / @wearsoula), founded and
-    promoted by him — apparel, not topical skincare
+  conflict: Own-brand UPF sun-protective clothing line, SOUL-A (wearsoula.com / @wearsoula), founded and promoted by him — apparel, not topical skincare
   last_pulled: '2026-08-30'
 - name: Dr Aamna Adel
   creator_slug: aamna-adel
@@ -224,8 +195,7 @@
   tier: HIGH
   channel: https://www.youtube.com/@DrAamnaAdel
   product_recs: restricted
-  conflict: Founder of own-brand haircare line (Rhute); TikTok Shop affiliate/product storefront; recurring
-    disclosed sponsored posts (No7, La Roche Pos
+  conflict: Founder of own-brand haircare line (Rhute); TikTok Shop affiliate/product storefront; recurring disclosed sponsored posts (No7, La Roche Pos
   last_pulled: '2026-08-30'
 - name: Esther Olu (The Melanin Chemist)
   creator_slug: esther-olu
@@ -233,9 +203,7 @@
   tier: MED
   channel: PENDING - no YouTube, IG/TikTok only
   product_recs: ok
-  conflict: 'Occasional disclosed #AD brand partnerships (e.g. a Dieux Skin sponsored post, Aug 2026);
-    no own-brand line or affiliate storefront found.; no YouTube; transcript-verified cards pending an
-    IG/TikTok solution'
+  conflict: 'Occasional disclosed #AD brand partnerships (e.g. a Dieux Skin sponsored post, Aug 2026); no own-brand line or affiliate storefront found.; no YouTube; transcript-verified cards pending an IG/TikTok solution'
   last_pulled: '2026-08-16'
 - name: Dr. Lindsey Zubritsky (DermGuru)
   creator_slug: lindsey-zubritsky
@@ -244,18 +212,16 @@
   tier: HIGH
   channel: https://www.youtube.com/@drlindseyzubritsky
   product_recs: restricted
-  conflict: Active paid spokesperson for RoC Skincare (on-air brand deal w/ discount code) + Cetaphil-sponsored
-    content + 'all' detergent partnership; a
-  last_pulled: '2026-08-23'
+  conflict: Active paid spokesperson for RoC Skincare (on-air brand deal w/ discount code) + Cetaphil-sponsored content + 'all' detergent partnership; a
+  last_pulled: '2026-08-30'
 - name: Caroline Hirons
   creator_slug: caroline-hirons
   credential: Esthetician and skincare author (NOT a dermatologist or cosmetic chemist)
   tier: MED
   channel: https://www.youtube.com/channel/UCyzKg_t3tPv8Aa_7JL2xXZA
   product_recs: restricted
-  conflict: Founder of own-brand skincare line (Skin Rocks); recent upload mix is dominated by PR-gifted
-    product unboxings and empties (haul-adjacent fo
-  last_pulled: '2026-08-23'
+  conflict: Founder of own-brand skincare line (Skin Rocks); recent upload mix is dominated by PR-gifted product unboxings and empties (haul-adjacent fo
+  last_pulled: '2026-08-30'
 - name: Dr. Daniel Sugai
   creator_slug: daniel-sugai
   backfill_cursor: 0
@@ -263,9 +229,8 @@
   tier: HIGH
   channel: https://www.youtube.com/@danielsugaimd
   product_recs: restricted
-  conflict: Chief Medical Officer of hair-growth-serum brand REYUS; advisory-board member of Bubble Skincare;
-    periodic disclosed paid brand partnerships
-  last_pulled: '2026-08-23'
+  conflict: Chief Medical Officer of hair-growth-serum brand REYUS; advisory-board member of Bubble Skincare; periodic disclosed paid brand partnerships
+  last_pulled: '2026-08-30'
 - name: Jen Novakovich (The Eco Well)
   creator_slug: jen-novakovich
   backfill_cursor: 0
@@ -273,18 +238,16 @@
   tier: HIGH
   channel: https://www.youtube.com/@TheEcoWell
   product_recs: ok
-  conflict: Runs a paid cosmetics-industry consulting/science-communication practice (BeautySciComm, e-summits,
-    mentorship cohorts) and is Patreon-suppo
-  last_pulled: '2026-08-23'
+  conflict: Runs a paid cosmetics-industry consulting/science-communication practice (BeautySciComm, e-summits, mentorship cohorts) and is Patreon-suppo
+  last_pulled: '2026-08-30'
 - name: Dr. Usama Syed
   creator_slug: usama-syed
   credential: Board-certified dermatologist
   tier: MED
   channel: https://www.youtube.com/c/DrUsamaSyed/videos
   product_recs: restricted
-  conflict: Affiliate product links in video descriptions; actively promotes his own paid $30/mo teledermatology
-    subscription (FutureClinic, formerly Li
-  last_pulled: '2026-08-23'
+  conflict: Affiliate product links in video descriptions; actively promotes his own paid $30/mo teledermatology subscription (FutureClinic, formerly Li
+  last_pulled: '2026-08-30'
 - name: Dr. Alexis Stephens
   creator_slug: alexis-stephens
   backfill_cursor: 0
@@ -292,9 +255,8 @@
   tier: HIGH
   channel: https://www.youtube.com/@DrAlexisStephens
   product_recs: restricted
-  conflict: Recurring paid partnerships (Dermatica affiliate code "DRALEXIS" on multiple videos, La Roche-Posay
-    branded partner content, SkinBetter Scie
-  last_pulled: '2026-08-23'
+  conflict: Recurring paid partnerships (Dermatica affiliate code "DRALEXIS" on multiple videos, La Roche-Posay branded partner content, SkinBetter Scie
+  last_pulled: '2026-08-30'
 - name: ''
   creator_slug: mamina-turegano
   credential: ''
@@ -325,8 +287,7 @@
   tier: MED
   channel: https://www.tiktok.com/@skindoctoks
   product_recs: restricted
-  conflict: 'Past paid brand-consultant roles: Kiehl''s (''NEW US Consulting Dermatologist'', ~5yr-old
-    campaign) and Clinique Derm Pro spokesperso; no YouTube; TikTok/IG intake'
+  conflict: 'Past paid brand-consultant roles: Kiehl''s (''NEW US Consulting Dermatologist'', ~5yr-old campaign) and Clinique Derm Pro spokesperso; no YouTube; TikTok/IG intake'
   last_pulled: '2026-08-17'
 - name: Dr. Geeta Yadav
   creator_slug: geeta-yadav
@@ -334,8 +295,7 @@
   tier: HIGH
   channel: PENDING - no YouTube; TikTok/IG intake
   product_recs: restricted
-  conflict: Kenvue/Cetaphil brand partnership + Gillette Venus product link + a MikMak commerce link on
-    her linktree (dandruff shampoo); no pe; no YouTube; TikTok/IG intake
+  conflict: Kenvue/Cetaphil brand partnership + Gillette Venus product link + a MikMak commerce link on her linktree (dandruff shampoo); no pe; no YouTube; TikTok/IG intake
   last_pulled: '2026-08-16'
 - name: Dr. Caroline Robinson
   creator_slug: caroline-robinson
@@ -344,17 +304,15 @@
   tier: HIGH
   channel: https://www.youtube.com/@crobinsonmd
   product_recs: restricted
-  conflict: Affiliate storefront (shopmy.us collections linked in nearly every video description) plus
-    her own practice's e-commerce "Tone Sho
-  last_pulled: '2026-08-23'
+  conflict: Affiliate storefront (shopmy.us collections linked in nearly every video description) plus her own practice's e-commerce "Tone Sho
+  last_pulled: '2026-08-30'
 - name: Hannah English (@ms_hannah_e / Hannah Collingwood English)
   creator_slug: hannah-english
   credential: Skincare educator
   tier: HIGH
   channel: https://www.tiktok.com/@hannahcollingwoodenglish
   product_recs: restricted
-  conflict: Co-developed/formulated the Tbh Skincare 'Rebound' Serum and Toner (product-formulation partnership)
-    — her endorsement of that spe; no YouTube; TikTok/IG intake
+  conflict: Co-developed/formulated the Tbh Skincare 'Rebound' Serum and Toner (product-formulation partnership) — her endorsement of that spe; no YouTube; TikTok/IG intake
   last_pulled: '2026-08-16'
 - name: Dr. Jenny Liu (Jenny Liu, MD, FAAD)
   creator_slug: jenny-liu
@@ -363,17 +321,15 @@
   tier: HIGH
   channel: https://www.youtube.com/@dr.jennyliu
   product_recs: restricted
-  conflict: Runs an Amazon affiliate storefront (amazon.com/shop/derm.talk); recurring disclosed paid
-    brand partnerships (Shiseido, SkinCeutic
-  last_pulled: '2026-08-23'
+  conflict: Runs an Amazon affiliate storefront (amazon.com/shop/derm.talk); recurring disclosed paid brand partnerships (Shiseido, SkinCeutic
+  last_pulled: '2026-08-30'
 - name: Dr. Justine Kluk
   creator_slug: justine-kluk
   credential: Consultant dermatologist
   tier: MED
   channel: https://www.instagram.com/drjustinekluk
   product_recs: ok
-  conflict: none identified beyond standard promotion of her own paid clinic consultations (service, not
-    product, business); no YouTube; TikTok/IG intake
+  conflict: none identified beyond standard promotion of her own paid clinic consultations (service, not product, business); no YouTube; TikTok/IG intake
   last_pulled: '2026-08-17'
 - name: Dr. Karan Lal
   creator_slug: karan-lal
@@ -381,8 +337,7 @@
   tier: MED
   channel: PENDING - no YouTube; TikTok/IG intake
   product_recs: restricted
-  conflict: Runs a ShopMy affiliate storefront (12+ curated product lists spanning most major skin-concern
-    categories) that monetizes his pick; no YouTube; TikTok/IG intake
+  conflict: Runs a ShopMy affiliate storefront (12+ curated product lists spanning most major skin-concern categories) that monetizes his pick; no YouTube; TikTok/IG intake
   last_pulled: '2026-08-17'
 - name: Dr. Sheila Farhang (dr.sheila_derm)
   creator_slug: sheila-farhang
@@ -390,8 +345,7 @@
   tier: HIGH
   channel: https://www.tiktok.com/@dr.sheila_derm
   product_recs: restricted
-  conflict: Self-describes as a "Key Opinion Leader for industry beauty companies" (per her own practice
-    bio) and most sampled TikTok videos e; no YouTube; TikTok/IG intake
+  conflict: Self-describes as a "Key Opinion Leader for industry beauty companies" (per her own practice bio) and most sampled TikTok videos e; no YouTube; TikTok/IG intake
   last_pulled: '2026-08-16'
 - name: Dr Thivi Maruthappu
   creator_slug: thivi-maruthappu
@@ -399,8 +353,7 @@
   tier: HIGH
   channel: https://www.instagram.com/drthivimaru
   product_recs: restricted
-  conflict: Occasional sponsored/brand-partnered content (#AD Instagram posts; a paid partnership talk
-    with Galderma) creates a mild COI on sp; no YouTube; TikTok/IG intake
+  conflict: Occasional sponsored/brand-partnered content (#AD Instagram posts; a paid partnership talk with Galderma) creates a mild COI on sp; no YouTube; TikTok/IG intake
   last_pulled: '2026-08-16'
 - name: Dr. Angela Lamb
   creator_slug: angela-lamb
@@ -408,20 +361,16 @@
   tier: HIGH
   channel: https://www.tiktok.com/@gohealio
   product_recs: ok
-  conflict: None found. No own-brand skincare line and no personal affiliate storefront identified; only
-    a possible loose tie-in via an Instag
+  conflict: None found. No own-brand skincare line and no personal affiliate storefront identified; only a possible loose tie-in via an Instag
   last_pulled: '2026-08-17'
 - name: Nkem Ugonabo, MD, MPH (Dr. Ugonabo)
   creator_slug: nkem-ugonabo
   credential: Skincare educator
   tier: HIGH
   channel: ''
-  channel_broken: '2026-08-19: @dr.ugonabo 404s on YouTube; no verified channel found (web-search budget
-    exhausted, no own cards to infer from). Likely TikTok. Do not pull until re-pinned to a resolving
-    URL.'
+  channel_broken: '2026-08-19: @dr.ugonabo 404s on YouTube; no verified channel found (web-search budget exhausted, no own cards to infer from). Likely TikTok. Do not pull until re-pinned to a resolving URL.'
   product_recs: restricted
-  conflict: Periodic disclosed sponsored brand-partner content (Clinique '#AD', SkinCeuticals '#skinceuticalspartner');
-    no own-brand product l
+  conflict: Periodic disclosed sponsored brand-partner content (Clinique '#AD', SkinCeuticals '#skinceuticalspartner'); no own-brand product l
   last_pulled: '2026-08-16'
 - name: Dr. Shari Marchbein
   creator_slug: shari-marchbein
@@ -429,8 +378,7 @@
   tier: HIGH
   channel: https://www.tiktok.com/@drsharimarchbein
   product_recs: restricted
-  conflict: Recurring rotating consumer-brand partnerships visible in IG story highlights (Colorescience,
-    Vaseline-HUED, Ponds, St Ives, and o
+  conflict: Recurring rotating consumer-brand partnerships visible in IG story highlights (Colorescience, Vaseline-HUED, Ponds, St Ives, and o
   last_pulled: '2026-08-16'
 - name: Dr. Onyeka Obioha-Lolagne, MD, FAAD (Dr. Onyeka Obioha)
   creator_slug: onyeka-obiohalolagne
@@ -438,8 +386,7 @@
   tier: HIGH
   channel: https://www.tiktok.com/@dr.obioha
   product_recs: restricted
-  conflict: Runs an in-house 'Apothecary' and 'Shop' tied to Boutik Dermatology (her own practice's product
-    line) — treat any product endorsem
+  conflict: Runs an in-house 'Apothecary' and 'Shop' tied to Boutik Dermatology (her own practice's product line) — treat any product endorsem
   last_pulled: '2026-08-16'
 - name: Dr. Heather Woolery-Lloyd (drheathermd)
   creator_slug: heather-woolerylloyd
@@ -447,8 +394,7 @@
   tier: HIGH
   channel: https://www.tiktok.com/@drheathermd
   product_recs: restricted
-  conflict: Paid Chief Medical Advisor to Nutrafol (hair-growth supplement brand); bio links a stan.store
-    link-in-bio storefront (possible aff
+  conflict: Paid Chief Medical Advisor to Nutrafol (hair-growth supplement brand); bio links a stan.store link-in-bio storefront (possible aff
   last_pulled: '2026-08-16'
 - name: Dr. Brooke Jeffy (Brooke Jeffy, MD)
   creator_slug: brooke-jeffy
@@ -457,17 +403,15 @@
   tier: HIGH
   channel: https://www.youtube.com/@brookejeffymd
   product_recs: restricted
-  conflict: Founder of own-brand tween/teen skincare line BTWN (meetbtwn.com), which she actively promotes
-    on all three platforms; also co-hos
-  last_pulled: '2026-08-23'
+  conflict: Founder of own-brand tween/teen skincare line BTWN (meetbtwn.com), which she actively promotes on all three platforms; also co-hos
+  last_pulled: '2026-08-30'
 - name: Dr Zainab Laftah
   creator_slug: zainab-laftah
   credential: Consultant dermatologist
   tier: MED
   channel: PENDING - TikTok/IG
   product_recs: restricted
-  conflict: 'Frequent paid/branded partnerships dominate her recent grid: repeated ''W-Expert'' collabs
-    with W_Wellness (promoting Vida Glow/Wild'
+  conflict: 'Frequent paid/branded partnerships dominate her recent grid: repeated ''W-Expert'' collabs with W_Wellness (promoting Vida Glow/Wild'
   last_pulled: '2026-08-17'
 - name: Dr. Ife Rodney (@driferodney)
   creator_slug: ife-rodney
@@ -475,8 +419,7 @@
   tier: MED
   channel: https://www.tiktok.com/@dr.iferodney
   product_recs: restricted
-  conflict: Founder & CEO of own hair-care brand, BLCK Hair Care (@blckhaircare), promoted in her Instagram
-    bio — a product-formulation/owners
+  conflict: Founder & CEO of own hair-care brand, BLCK Hair Care (@blckhaircare), promoted in her Instagram bio — a product-formulation/owners
   last_pulled: '2026-08-16'
 - name: Dr. Chris Tomassian
   creator_slug: chris-tomassian
@@ -484,8 +427,7 @@
   tier: MED
   channel: https://www.tiktok.com/@dr.tomassian
   product_recs: ok
-  conflict: Bio includes a business/booking contact email suggesting managed brand partnerships; no confirmed
-    own-brand line or affiliate stor
+  conflict: Bio includes a business/booking contact email suggesting managed brand partnerships; no confirmed own-brand line or affiliate stor
   last_pulled: '2026-08-16'
 - name: Dr. Neera Nathan
   creator_slug: neera-nathan
@@ -494,17 +436,15 @@
   tier: HIGH
   channel: https://www.youtube.com/@dermatologysurgeon
   product_recs: restricted
-  conflict: Runs a "Shop my Favorites" affiliate storefront (linktr.ee/dermatologysurgeon) that monetizes
-    her product picks; no own-brand prod
-  last_pulled: '2026-08-23'
+  conflict: Runs a "Shop my Favorites" affiliate storefront (linktr.ee/dermatologysurgeon) that monetizes her product picks; no own-brand prod
+  last_pulled: '2026-08-30'
 - name: Dr. Aegean Chan
   creator_slug: aegean-chan
   credential: Board-certified dermatologist
   tier: HIGH
   channel: https://www.tiktok.com/@draegeanchan
   product_recs: restricted
-  conflict: Founder/owner of active postpartum skincare brand "More Than Nine" (cleanser, exfoliator,
-    moisturizer, balm) — an ongoing own-bran
+  conflict: Founder/owner of active postpartum skincare brand "More Than Nine" (cleanser, exfoliator, moisturizer, balm) — an ongoing own-bran
   last_pulled: '2026-08-16'
 - name: Jenn Lexi (@jennlexi_)
   creator_slug: jennlexi
@@ -512,7 +452,5 @@
   tier: MED
   channel: https://www.tiktok.com/@jennlexi_
   product_recs: restricted
-  conflict: 'Runs #ad sponsored posts (e.g. TruSkin) and Target skincare hauls/reviews; prefer her educational
-    ingredient-category and barrier-repair explainers, and treat product recommendations as effectively
-    promotional (skip).'
+  conflict: 'Runs #ad sponsored posts (e.g. TruSkin) and Target skincare hauls/reviews; prefer her educational ingredient-category and barrier-repair explainers, and treat product recommendations as effectively promotional (skip).'
   last_pulled: '2026-08-19'

@@ -67,6 +67,26 @@ videos:
   related: []
   thesis: Melasma is a common pigmentary disorder causing symmetric light to dark patches on the face, usually starting in the 30s and 40s, and worsened by sun exposure and high estrogen states. Dermatologist Dr. Scott Walter (board-certified dermatologist) highlights a small study out of India in which seven melasma patients took 3 mg of oral melatonin daily plus daily sunscreen for 12 weeks, with every patient showing improvement in their melasma score. He notes melatonin may act as an antioxidant and help regulate hormone imbalances tied to melasma, but frames this as an early, small finding pending larger studies rather than an established treatment.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Why This Melasma Routine Will Not Work | Dermatologist Reacts
+  creator: Dr. Lindsey Zubritsky (DermGuru)
+  creator_slug: lindsey-zubritsky
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=HQ8G8JNjGW8
+  posted: '2026-08-25'
+  related: []
+  thesis: Dr. Lindsey Zubritsky, a board-certified dermatologist, explains why over-the-counter brightening serums often fail to control melasma. She describes melasma as a chronic, complex pigment condition driven by overactive pigment-producing cells and influenced by UV exposure, visible light, heat, hormones, and inflammation, which is why it is stubborn and tends to recur. She stresses that daily SPF is non-negotiable for controlling melasma, and that some effective treatments are prescription-only and cannot be bought over the counter.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Things I wish I knew sooner as a dermatologist
+  creator: Dr. Daniel Sugai
+  creator_slug: daniel-sugai
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=XFIXoWL_LtI
+  posted: '2026-08-24'
+  related: []
+  thesis: 'Board-certified dermatologist Dr. Daniel Sugai shares tips he wishes he had known sooner. He explains that hyaluronic acid serum gives instant plumping and glow, good before an event, while vitamin C serum works more gradually as an antioxidant that fights free-radical damage from pollution and sunlight, improving fine lines, texture, and brightness over time; he wishes he had started vitamin C earlier in his 30s. He advises applying the less stable vitamin C serum first, then hyaluronic acid, then moisturizer and sunscreen (thinnest to thickest). He also stresses that not all sunscreens are equal for melasma and hyperpigmentation: a tinted sunscreen containing iron oxides is needed to block visible light, and he says patients whose melasma keeps worsening despite using sunscreen often turn out to be using one without iron oxides.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

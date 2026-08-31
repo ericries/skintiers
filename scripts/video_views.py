@@ -14,15 +14,19 @@ Usage:
 Output columns: views  upload_date(YYYY-MM-DD)  verdict  id  title
 """
 import argparse
+import os
 import subprocess
 import sys
 
 
 def fetch(vid):
     url = f"https://www.youtube.com/watch?v={vid}"
+    # Optional browser cookies clear YouTube's 429 / bot-detection block.
+    cb = os.environ.get("YTDLP_COOKIES_FROM_BROWSER")
+    cookie_args = ["--cookies-from-browser", cb] if cb else []
     try:
         out = subprocess.run(
-            ["yt-dlp", "--skip-download", "--no-warnings",
+            ["yt-dlp", *cookie_args, "--skip-download", "--no-warnings",
              "--print", "%(view_count)s\t%(upload_date)s\t%(title)s", url],
             capture_output=True, text=True, timeout=60)
         line = (out.stdout or "").strip().splitlines()

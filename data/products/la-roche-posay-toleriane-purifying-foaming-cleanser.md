@@ -45,6 +45,18 @@ slug: la-roche-posay-toleriane-purifying-foaming-cleanser
 status: published
 type: product
 updated: '2026-08-07'
+videos:
+- title: How to get glassy skin
+  creator: Dr. Daniel Sugai
+  creator_slug: daniel-sugai
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=JbHkw7Bz4mg
+  posted: '2026-08-28'
+  related: [hyaluronic-acid, retinol, retinaldehyde, tretinoin]
+  thesis: 'Board-certified dermatologist Dr. Daniel Sugai lays out a four-step routine for "glassy skin": a barrier-friendly cleanser (La Roche-Posay Toleriane Hydrating for dry/sensitive skin, or their Purifying Foaming Cleanser for combination/oily skin), a hyaluronic acid serum applied to the forehead and crow''s feet to temporarily plump skin by drawing in moisture, a moisturizer plus daytime SPF, and a nighttime retinol, retinaldehyde, or prescription tretinoin (pea-sized amount) followed by moisturizer. He explains retinoids improve tone and texture with smoother skin appearing after a few months of consistent use.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 La Roche-Posay Toleriane Purifying Foaming Cleanser is a rinse-off foaming face wash for normal to oily, sensitive skin, formulated with the brand's prebiotic thermal spring water, niacinamide, and ceramide-3.[^lrp]

@@ -148,6 +148,16 @@ videos:
   related: [tretinoin, the-ordinary-azelaic-acid-suspension-10, the-ordinary-azelaic-acid-suspension-10]
   thesis: 'Dr. Shereene Idriss, a board-certified dermatologist, breaks down the summer''s internet controversy over azelaic acid by explaining there are three forms sold under that name: the original free/suspended form (like The Ordinary''s), a pH-raised ionized form that dissolves for a more elegant texture, and potassium azeloyl diglycinate, a derivative that isn''t azelaic acid at all despite sometimes being mislabeled as a percentage of it. She argues the ionized form still works based on a 2012 formulation study, so the real controversy should have centered on brands mislabeling the derivative as azelaic acid, not on ionization reducing efficacy. She also covers common tolerability complaints (itch, "barrier damage," purging, and inconsistent generic prescriptions) and gives a practical schedule for layering azelaic acid with tretinoin or retinol, including applying free-form azelaic acid on damp skin before the retinoid.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: 5 Skincare Ingredients You Cannot Buy At The Drugstore | Dermatologist Explains
+  creator: Dr. Lindsey Zubritsky (DermGuru)
+  creator_slug: lindsey-zubritsky
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=5x0oSHcAUA4
+  posted: '2026-08-18'
+  related: [rosacea]
+  thesis: Board-certified dermatologist Dr. Lindsey Zubritsky lists five effective skincare ingredients that are prescription-only, explaining why each requires a doctor. She names tretinoin as the gold standard for acne, fine lines, and photoaging; prescription-strength azelaic acid for rosacea, perioral dermatitis, and post-breakout dark or red marks; hydroquinone for stubborn hyperpigmentation and melasma; topical ivermectin for rosacea linked to skin mites; and eflornithine to slow excess facial hair growth. She notes these aren't sold over the counter because a prescriber needs to confirm the ingredient is right for a patient's skin.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
