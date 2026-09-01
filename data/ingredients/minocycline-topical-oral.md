@@ -3,6 +3,7 @@ analyzed: '2026-08-08'
 assurance: opus
 name: Minocycline (topical foam and oral)
 slug: minocycline-topical-oral
+tier: mid
 status: published
 type: ingredient
 updated: '2026-08-08'

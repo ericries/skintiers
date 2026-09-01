@@ -2270,3 +2270,25 @@
   status: pending
   discovered_from: null
   source: null
+- name: Eucrisa (crisaborole 2% ointment) - FDA-approved topical PDE4 inhibitor for
+    mild-to-moderate atopic dermatitis, the subject of the crisaborole page (Pfizer)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null
+- name: Amzeeq (minocycline 4% topical foam / FMX101) - FDA-approved topical minocycline
+    for acne, the topical product graded on the minocycline page (Journey Medical)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null
+- name: BenzaClin (clindamycin 1% / benzoyl peroxide 5% topical gel) - the fixed clindamycin+BPO
+    combination the clindamycin page cites as stronger than clindamycin monotherapy
+    (Bausch)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null

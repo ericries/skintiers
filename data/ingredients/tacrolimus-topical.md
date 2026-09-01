@@ -3,6 +3,7 @@ analyzed: '2026-08-08'
 assurance: opus
 name: Tacrolimus (topical calcineurin inhibitor, Protopic)
 slug: tacrolimus-topical
+tier: good
 status: published
 type: ingredient
 updated: '2026-08-08'

@@ -3,6 +3,7 @@ analyzed: '2026-08-08'
 assurance: opus
 name: Crisaborole (topical PDE4 inhibitor, Eucrisa)
 slug: crisaborole
+tier: mid
 status: published
 type: ingredient
 updated: '2026-08-08'

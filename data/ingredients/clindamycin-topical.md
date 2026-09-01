@@ -3,6 +3,7 @@ analyzed: '2026-08-08'
 assurance: sonnet
 name: Clindamycin (topical, for acne)
 slug: clindamycin-topical
+tier: mid
 status: published
 type: ingredient
 updated: '2026-08-08'
