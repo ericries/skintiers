@@ -3,6 +3,10 @@ analyzed: '2026-08-30'
 assurance: opus
 brand: Mayne Pharma
 category: Treatments
+images:
+- file: sorilux-calcipotriene-foam-dailymed.jpg
+  source: DailyMed (FDA label carton image, Mayne Pharma)
+  source_url: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=51f208d0-7b3f-44cc-8bed-92fa3d2e7bbe
 comparator: other first-line prescription topicals for plaque psoriasis, ranked on
   [[psoriasis]]
 grades:

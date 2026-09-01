@@ -3,6 +3,7 @@ analyzed: '2026-08-30'
 assurance: opus
 brand: Astellas Pharma
 category: Treatments
+image_unresolvable: 'Rx tacrolimus; no incidecoder page, brand/drugs.com blocked, and the only DailyMed media is a repackager barcode dispensing label (text + barcode), not a product photo'
 comparator: the more potent sibling of [[elidel-pimecrolimus-cream]], the other topical
   calcineurin inhibitor
 grades:

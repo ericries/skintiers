@@ -4,6 +4,10 @@ assurance: opus
 brand: SkinMedica
 category: Serums
 comparator: other hydroquinone-free multi-active brightening serums
+images:
+- file: skinmedica-lytera-2-pigment-correcting-serum-beautysense.jpg
+  source: Beautysense.ca (authorized SkinMedica retailer)
+  source_url: https://beautysense.ca/skinmedica-lyteratm-2-0-pigment-correcting-serum.html
 grades:
 - effect: modest
   evidence: preliminary
