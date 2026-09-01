@@ -3,6 +3,10 @@ analyzed: '2026-08-30'
 assurance: opus
 brand: Incyte
 category: Treatments
+images:
+- file: opzelura-ruxolitinib-cream-brand.webp
+  source: OPZELURA (opzelura.com)
+  source_url: https://www.opzelura.com/
 grades:
 - effect: notable
   evidence: established

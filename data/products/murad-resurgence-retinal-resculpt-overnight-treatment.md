@@ -3,6 +3,10 @@ analyzed: '2026-08-30'
 assurance: opus
 brand: Murad
 category: Retinoids
+images:
+- file: murad-resurgence-retinal-resculpt-overnight-treatment-brand.png
+  source: Murad
+  source_url: https://www.murad.com/products/retinal-resculpt-overnight-treatment
 comparator: other retinaldehyde and retinoids options
 grades:
 - effect: modest

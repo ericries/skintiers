@@ -3,6 +3,10 @@ analyzed: '2026-08-30'
 assurance: opus
 brand: Mesoestetic
 category: Sunscreens
+images:
+- file: mesoestetic-mesoprotech-melan-130-pigment-control-facethefuture.jpg
+  source: Face the Future
+  source_url: https://us.facethefuture.store/products/mesoestetic-mesoprotech-melan-spf-130-pigment-control
 comparator: other tinted very-high-SPF sunscreens marketed for melasma and pigmentation,
   like [[eltamd-uv-elements-tinted-mineral-sunscreen-spf-44]] and [[isdin-eryfotona-ageless-tinted-mineral-spf-50]]
 grades:

@@ -3,6 +3,10 @@ analyzed: '2026-08-30'
 assurance: opus
 brand: Nizoral
 category: Treatments
+images:
+- file: nizoral-anti-dandruff-shampoo-ketoconazole-2-padagis.png
+  source: Padagis
+  source_url: https://www.padagis.com/product/ketoconazole-shampoo-2/
 grades:
 - effect: notable
   evidence: established

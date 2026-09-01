@@ -3,6 +3,10 @@ analyzed: '2026-08-30'
 assurance: opus
 brand: MG217
 category: Treatments
+images:
+- file: mg217-medicated-coal-tar-ointment-brand.webp
+  source: Pharmacal (Wisconsin Pharmacal Company)
+  source_url: https://pharmacalway.com/skin-products/coal-tar-ointment/
 grades:
 - effect: modest
   evidence: established
