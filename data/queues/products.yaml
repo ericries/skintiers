@@ -2292,3 +2292,24 @@
   status: pending
   discovered_from: null
   source: null
+- name: COSRX Full Fit Propolis Light Ampoule (83% propolis extract) - flagship propolis
+    serum, grounded in the propolis ingredient page (COSRX)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null
+- name: 'Beauty of Joseon Glow Deep Serum: Rice + Alpha Arbutin - popular propolis-and-rice
+    brightening serum grounded in the propolis page'
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null
+- name: Mad Hippie Vitamin C Serum - contains sodium ascorbyl phosphate, a real product
+    for the SAP ingredient page's best-supported (acne) use
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null

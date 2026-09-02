@@ -3,6 +3,7 @@ analyzed: '2026-08-08'
 assurance: sonnet
 name: Licorice root extract (glabridin / dipotassium glycyrrhizate)
 slug: licorice-root-extract
+tier: weak
 status: published
 type: ingredient
 updated: '2026-08-08'

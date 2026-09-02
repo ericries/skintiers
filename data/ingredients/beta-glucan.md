@@ -3,6 +3,7 @@ analyzed: '2026-08-08'
 assurance: sonnet
 name: Beta-glucan
 slug: beta-glucan
+tier: weak
 status: published
 type: ingredient
 updated: '2026-08-08'
