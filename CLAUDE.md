@@ -1,6 +1,21 @@
-# Project Not Yet Bootstrapped
+# SkinTiers
 
-This is a fresh project directory modeled on Seedlist.com's patterns for building an accurate, LLM-researched, statically-generated knowledge site. The topic for this instance is **skincare** (brands, products, ingredients, formulators, dermatologists) unless the user says otherwise.
+An evidence-first skincare knowledge site (data-as-git markdown -> build.py -> GitHub Pages). Core value: product reviews + evidence tier lists, backed by ingredient evidence.
+
+## Operational: cron fleet health (CHECK ONCE PER DAY from the main session)
+
+The site is maintained by a fleet of ~17 session crons defined in `data/cron-roster.yaml`. Session crons die when the Claude session exits and auto-expire after 7 days. A **meta-cron watchdog** (`[SkinTiers cron watchdog]`, runs 7:19 AM) reconciles the roster against `CronList` daily and re-creates any missing content/producer cron. But a cron cannot resurrect ITSELF once dead, so:
+
+**Once per day, the MAIN SESSION must verify the watchdog is alive.** Do this early in the day (or on the first substantive turn if it has not been done today):
+1. `CronList` (load the tool via ToolSearch "select:CronCreate" if needed).
+2. If NO entry's prompt contains `[SkinTiers cron watchdog]`, re-create it: run `.venv/bin/python scripts/cron_watchdog.py`, then `CronCreate` with cron `19 7 * * *` and prompt = the exact contents of `research-cache/cron-prompts/cron-watchdog.txt`.
+3. That is all — the watchdog handles the other 16. Do not re-create the whole fleet by hand unless the watchdog itself is also being rebuilt from scratch.
+
+Adding/removing a standard cron = edit `data/cron-roster.yaml` (the watchdog picks it up next run). The watchdog matches by the `[SkinTiers ...]` header, so keep headers unique + stable.
+
+---
+
+This project is modeled on Seedlist.com's patterns for an accurate, LLM-researched, statically-generated knowledge site. The topic is **skincare** (brands, products, ingredients, formulators, dermatologists).
 
 **Before doing anything, read the meta docs.**
 
