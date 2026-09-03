@@ -2005,7 +2005,7 @@
 - name: MG217 Medicated Tar Shampoo (coal tar)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: neutrogena-tgel-therapeutic-shampoo-coal-tar
   source: Common OTC coal tar shampoo/psoriasis line; DailyMed-labeled; complements
     MG217 coal tar ointment already queued
@@ -2308,6 +2308,14 @@
   source: null
 - name: Mad Hippie Vitamin C Serum - contains sodium ascorbyl phosphate, a real product
     for the SAP ingredient page's best-supported (acne) use
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null
+- name: Neutrogena T/Sal Therapeutic Shampoo (salicylic acid 3%) - OTC scalp keratolytic
+    for psoriasis/seborrheic dermatitis scale, peer to the coal-tar and ketoconazole
+    scalp shampoos already on the site
   type: product
   priority: 5
   status: pending
