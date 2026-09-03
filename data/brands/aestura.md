@@ -5,7 +5,7 @@ name: Aestura
 slug: aestura
 status: published
 type: brand
-updated: '2026-08-09'
+updated: '2026-09-03'
 ---
 
 Aestura is a South Korean dermocosmetic brand built around ceramide-based moisturizers for sensitive and compromised skin barriers, sold under its ATOBARRIER365 line.[^1] Aestura's own international site is copyrighted to Amorepacific, the South Korean beauty conglomerate that also owns Laneige, Sulwhasoo and Innisfree.[^1]
@@ -17,6 +17,7 @@ Aestura is a South Korean dermocosmetic brand built around ceramide-based moistu
 - [[aestura-atobarrier-365-cream-mist]]
 - [[aestura-atobarrier-365-hydro-cera-ha-ampoule]]
 - [[aestura-atobarrier-365-hydro-soothing-gel-cream]]
+- [[aestura-derma-uv365-barrier-hydro-mineral-sunscreen]]
 
 ## Sources
 
