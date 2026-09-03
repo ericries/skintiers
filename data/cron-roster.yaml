@@ -32,15 +32,15 @@ _fill_template: |
   TOKEN DISCIPLINE: bound research hard (stop at the few sources you actually need). For brand/person (lean, low-risk) do the draft INLINE in the main loop — do NOT spawn a subagent. For product/ingredient/study/list, ONE Sonnet subagent may draft; keep its prompt tight and its fetches few.
 
   STEP 1: fill ONE page — prefer an existing {type} stub, else the next queued item
-  (`.venv/bin/python scripts/sk queue-next --type {type}`); if neither exists, skip STEP 1 (do not invent
-  work). CURATE-DON'T-SKIP EXCEPTION for condition / goal / list ONLY (user 2026-08-25): these are curatorial
-  hubs, so when there is no stub AND the queue is empty, do NOT skip. Instead MAINTAIN one existing {type} hub:
-  pick a published {type} page whose tier_list is missing recently-published graded products/ingredients that
-  genuinely belong on it (grep data/products + data/ingredients for pages published since the hub's `updated`
-  date that fit its topic), and add those items to the existing tier_list block (keep the tier_list schema and
-  tiers; link to the pages that already exist; concise, NO padding, do not re-explain what those pages own).
-  This keeps the evidence tier lists current as the catalog grows. Bump the hub's `updated` date. (product /
-  ingredient / study / brand / person still skip on an empty queue - they are not curatorial hubs.)
+  (`.venv/bin/python scripts/sk queue-next --type {type}`). If BOTH are absent (no stub, empty queue), DO NOT
+  skip idly — an empty queue is the normal steady state of a mature site, not "nothing to do" (user 2026-09-03).
+  Instead run `.venv/bin/python scripts/site_health.py --type {type}`: it returns ONE grounded, bounded, self-
+  clearing MAINTENANCE task for an EXISTING page (a missing `tier:`, a stale price, a tier_list that omits pages
+  now linking to it, an unlinked brand product), or prints `NONE`. If it returns a task, DO exactly that one task
+  — follow its ACTION line literally, KEEP TOKEN USE LOW, operate only on the named page, add nothing gratuitous
+  (gate to the REAL gap; when in doubt leave it out) — then commit + push and STOP. Only if it prints `NONE` do
+  you skip this tick. (This supersedes the old CURATE-DON'T-SKIP behavior and applies it, deterministically, to
+  every type; person/study have no maintenance lane and will print NONE.)
   Follow docs/writing-guide.md + docs/anti-ai-ese.md, SCALED to the scope above.
   FETCHING (product/ingredient composition, price, INCI, claims): FIRST try `.venv/bin/python scripts/inci_lookup.py "<product name>"` - incidecoder is server-side rendered, so this returns the full ordered INCI + real front-photo URL in one cheap HTTP call and caches it (no Apify needed). It also accepts `--slug <incidecoder-slug>` and `--photo` (photo URL only). Use it for the INCI + photo; you still need the BRAND page for price + marketing claims (incidecoder carries neither). If it prints MISS, then try `curl -sL -A "Mozilla/5.0" <url>`.
   If it returns only a JS-SPA shell or a bot-block (Cloudflare/"Robot or human?", empty title, no INCI/price),
