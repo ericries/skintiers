@@ -3,6 +3,7 @@ analyzed: '2026-08-16'
 assurance: sonnet
 name: Acetyl zingerone
 slug: acetyl-zingerone
+tier: weak
 status: published
 type: ingredient
 updated: '2026-08-16'
