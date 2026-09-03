@@ -222,3 +222,38 @@
   discovered_from: heather-woolerylloyd
   source: Board-certified dermatologist, 4 on-site cards, no person page; verify via
     NPI; disclose affiliate product links
+- name: Dr. Jenny Liu (Jenny Liu, MD, FAAD) - board-certified dermatologist, creator_slug
+    jenny-liu, 35 video cards on the site, YouTube @dr.jennyliu
+  type: person
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null
+- name: Dr. Joyce Park (Tea with MD) - board-certified dermatologist, creator_slug
+    joyce-park, 14 video cards on the site, YouTube @TeawithMD
+  type: person
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null
+- name: Dr. Caroline Robinson - board-certified dermatologist, creator_slug caroline-robinson,
+    14 video cards on the site, YouTube @crobinsonmd
+  type: person
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null
+- name: Dr. Neera Nathan - board-certified dermatologist, creator_slug neera-nathan,
+    13 video cards on the site, YouTube @dermatologysurgeon
+  type: person
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null
+- name: Dr. Chris Tomassian - board-certified dermatologist, creator_slug chris-tomassian,
+    14 video cards on the site, TikTok @dr.tomassian
+  type: person
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null
