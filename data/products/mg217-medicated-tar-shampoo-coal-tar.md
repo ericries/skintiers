@@ -3,6 +3,10 @@ analyzed: '2026-09-03'
 assurance: opus
 brand: MG217
 category: Treatments
+images:
+- file: mg217-medicated-tar-shampoo-coal-tar-dailymed.jpg
+  source: DailyMed
+  source_url: https://dailymed.nlm.nih.gov/dailymed/image.cfm?name=8oz+carton.jpg&setid=7cafb511-0ab7-f3b4-e053-2991aa0a2e0b&type=img
 grades:
 - effect: modest
   evidence: established

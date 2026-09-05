@@ -21,7 +21,10 @@ grades:
     the underlying barrier defect; see [[atopic-dermatitis|eczema]] for the actual
     eczema treatment evidence, which this soap does not substitute for'
   use: Eczema-prone skin, adjunct cleansing (health)
-images: []
+images:
+- file: noble-formula-2-pyrithione-zinc-bar-soap-brand.png
+  source: Noble Formula
+  source_url: https://nobleformula.com/products/nf-original-emu-bar-soap
 key_actives:
 - zinc-pyrithione
 name: Noble Formula 2% Pyrithione Zinc Bar Soap
