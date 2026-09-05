@@ -10440,3 +10440,8 @@ kircik-2025-clindamycin-adapalene-benzoyl-peroxide-cab-gel-acne-by-age:
   score: 8
   verdict: publish
   note: 'Compact study page. Opus critic re-verified every figure verbatim vs re-fetched PubMed abstract (PMID 41329145): treatment success 50.6%/49.0% vs 15.7%/20.6% vehicle, >70% lesion reduction, n=515/142, NCT ids, phases; arithmetic 2.4-3.2x confirmed; post hoc/vehicle-comparator/12wk caveats accurate. No fixes needed. lint/verify/style clean.'
+jenny-liu:
+  last_reviewed: '2026-09-05'
+  score: 8
+  verdict: publish
+  note: Lean person discovery card. Credential (board-certified dermatologist, assistant professor of dermatology, University of Minnesota Medical School) quoted verbatim from Healthgrades physician-contributor bio, cached (Apify-fetched; curl bot-blocked). 47 words, no unverified claims, links to her public channels. lint/verify/style clean.
