@@ -24,72 +24,84 @@
   priority: 5
   status: done
   discovered_from: planned
-  source: 'Exfoliating acids ranked by strength/irritation (glycolic, lactic, mandelic, salicylic); a forms-of-one-family
-    ladder candidate (set tier_list.ladder: true) to drive the evidence box on AHA/BHA product pages'
+  source: 'Exfoliating acids ranked by strength/irritation (glycolic, lactic, mandelic,
+    salicylic); a forms-of-one-family ladder candidate (set tier_list.ladder: true)
+    to drive the evidence box on AHA/BHA product pages'
 - name: Peptides by evidence
   type: list
   priority: 4
   status: done
   discovered_from: exfoliating-acids-by-strength
-  source: 'Phase B ladder (roadmap): rank the peptide TYPES the site profiles - copper peptides, signal/matrix peptides (Matrixyl),
-    and the neuropeptide argireline - by strength of clinical evidence, with tier_list.ladder:true so it lights up the evidence
-    box across peptide pages the way the acids/retinoid/vitamin-C ladders do. Complements the existing best-peptide-serums
-    (products) list. Grounds: [[copper-peptides]], [[argireline-acetyl-hexapeptide-8]], [[peptides]].'
+  source: 'Phase B ladder (roadmap): rank the peptide TYPES the site profiles - copper
+    peptides, signal/matrix peptides (Matrixyl), and the neuropeptide argireline -
+    by strength of clinical evidence, with tier_list.ladder:true so it lights up the
+    evidence box across peptide pages the way the acids/retinoid/vitamin-C ladders
+    do. Complements the existing best-peptide-serums (products) list. Grounds: [[copper-peptides]],
+    [[argireline-acetyl-hexapeptide-8]], [[peptides]].'
 - name: Humectants vs occlusives vs emollients
   type: list
   priority: 5
   status: done
   discovered_from: best-moisturizing-ingredients-ranked
-  source: 'Phase B mechanism map (roadmap ''humectants-vs-occlusives''): group the moisturizer ingredient classes by HOW they
-    work - humectants that draw water in ([[glycerin]], [[hyaluronic-acid]], [[urea]], [[panthenol]]) vs occlusives/emollients
-    that seal it in ([[petrolatum]], [[squalane]], [[dimethicone]]). A mechanism split, NOT a strength ladder (no ladder:true),
-    so it doesn''t repeat the cross-ingredient-ranking bug.'
+  source: 'Phase B mechanism map (roadmap ''humectants-vs-occlusives''): group the
+    moisturizer ingredient classes by HOW they work - humectants that draw water in
+    ([[glycerin]], [[hyaluronic-acid]], [[urea]], [[panthenol]]) vs occlusives/emollients
+    that seal it in ([[petrolatum]], [[squalane]], [[dimethicone]]). A mechanism split,
+    NOT a strength ladder (no ladder:true), so it doesn''t repeat the cross-ingredient-ranking
+    bug.'
 - name: 'best-ceramide-moisturizers: add CeraVe Daily Moisturizing Lotion'
   type: list
   priority: 5
   status: done
   discovered_from: null
-  source: 'CURATORIAL: the newly-published cerave-daily-moisturizing-lotion (3 ceramides NP/AP/EOP + HA) belongs on the best-ceramide-moisturizers
-    tier list alongside the CeraVe Cream/PM and Dr Jart Ceramidin entries. Add it at the appropriate tier at next list cron.'
+  source: 'CURATORIAL: the newly-published cerave-daily-moisturizing-lotion (3 ceramides
+    NP/AP/EOP + HA) belongs on the best-ceramide-moisturizers tier list alongside
+    the CeraVe Cream/PM and Dr Jart Ceramidin entries. Add it at the appropriate tier
+    at next list cron.'
 - name: 'build.py: add ''Exfoliants'' to PRODUCT_CATEGORY_ORDER'
   type: list
   priority: 5
   status: done
   discovered_from: null
-  source: 'TOOLING (critic-flagged): category ''Exfoliants'' (used by both The Ordinary acid products) is missing from PRODUCT_CATEGORY_ORDER
-    in build.py, so they fall into the ''Other'' index bucket. Add ''Exfoliants'' to the order list at an appropriate position.
-    Not a content task - a small build.py fix.'
+  source: 'TOOLING (critic-flagged): category ''Exfoliants'' (used by both The Ordinary
+    acid products) is missing from PRODUCT_CATEGORY_ORDER in build.py, so they fall
+    into the ''Other'' index bucket. Add ''Exfoliants'' to the order list at an appropriate
+    position. Not a content task - a small build.py fix.'
 - name: 'best-ceramide-moisturizers: consider LRP Lipikar Balm AP+M'
   type: list
   priority: 6
   status: done
   discovered_from: null
-  source: 'CURATORIAL (with a caveat): LRP Lipikar Balm AP+M has Ceramide NP on its US label but NONE on LRP''s own Middle
-    East panel - a regional-formula split. If added to the ceramide list, state that caveat; it may be better framed as a
-    niacinamide+microbiome barrier balm than a ceramide product. Judgment call at next list cron.'
+  source: 'CURATORIAL (with a caveat): LRP Lipikar Balm AP+M has Ceramide NP on its
+    US label but NONE on LRP''s own Middle East panel - a regional-formula split.
+    If added to the ceramide list, state that caveat; it may be better framed as a
+    niacinamide+microbiome barrier balm than a ceramide product. Judgment call at
+    next list cron.'
 - name: Anti-dandruff and seborrheic dermatitis treatments by evidence
   type: list
   priority: 3
   status: done
   discovered_from: null
-  source: 'Curatorial tier list over EXISTING pages: [[nizoral-anti-dandruff-shampoo-ketoconazole-1]], [[selsun-blue-selenium-sulfide-shampoo]],
-    [[selsun-blue-itchy-dry-scalp-pyrithione-zinc]] + ingredient tiers (ketoconazole best, selenium sulfide/pyrithione zinc)
-    + the [[seborrheic-dermatitis]] tier_list + the Farris 2026 RCT; ranks the Malassezia-active antifungals by strength of
-    evidence'
+  source: 'Curatorial tier list over EXISTING pages: [[nizoral-anti-dandruff-shampoo-ketoconazole-1]],
+    [[selsun-blue-selenium-sulfide-shampoo]], [[selsun-blue-itchy-dry-scalp-pyrithione-zinc]]
+    + ingredient tiers (ketoconazole best, selenium sulfide/pyrithione zinc) + the
+    [[seborrheic-dermatitis]] tier_list + the Farris 2026 RCT; ranks the Malassezia-active
+    antifungals by strength of evidence'
 - name: Best gentle eczema and sensitive-skin moisturizers (product best-of)
   type: list
   priority: 5
   status: done
   discovered_from: atopic-dermatitis
-  source: Product-focused best-of ranking the actual eczema moisturizers on the site (Eucerin, Aveeno, CeraVe, Vanicream)
-    by evidence/role - distinct from the atopic-dermatitis hub's ingredient tier_list; build once enough products exist
+  source: Product-focused best-of ranking the actual eczema moisturizers on the site
+    (Eucerin, Aveeno, CeraVe, Vanicream) by evidence/role - distinct from the atopic-dermatitis
+    hub's ingredient tier_list; build once enough products exist
 - name: Best peptide serums by evidence
   type: list
   priority: 5
   status: done
   discovered_from: paulas-choice-peptide-booster
-  source: 'CROSS-FEED: a best-of/tier list this product + The Ordinary Argireline + Multi-Peptide serums belong on; no peptide-serum
-    list exists yet'
+  source: 'CROSS-FEED: a best-of/tier list this product + The Ordinary Argireline
+    + Multi-Peptide serums belong on; no peptide-serum list exists yet'
 - name: Best products for dark spots / hyperpigmentation
   type: list
   priority: 5
@@ -132,34 +144,47 @@
   status: done
   discovered_from: null
   source: 'discover_hubs: 2 mentions across the video archive; no list hub yet'
-- name: Best under-eye / dark-circle products by evidence (caffeine, vitamin K, retinoids, brightening actives)
+- name: Best under-eye / dark-circle products by evidence (caffeine, vitamin K, retinoids,
+    brightening actives)
   type: list
   priority: 5
   status: done
   discovered_from: null
   source: null
-- name: Psoriasis topical treatments by evidence (steroids, vit-D analogs calcipotriene, tapinarof, roflumilast, coal tar)
+- name: Psoriasis topical treatments by evidence (steroids, vit-D analogs calcipotriene,
+    tapinarof, roflumilast, coal tar)
   type: list
   priority: 5
   status: done
   discovered_from: null
   source: null
-- name: Perioral (periorificial) dermatitis treatments by evidence (stop topical steroids, topical metronidazole/azelaic,
-    oral tetracyclines)
+- name: Perioral (periorificial) dermatitis treatments by evidence (stop topical steroids,
+    topical metronidazole/azelaic, oral tetracyclines)
   type: list
   priority: 5
   status: done
   discovered_from: null
   source: null
-- name: Rosacea (papulopustular) treatments by evidence (azelaic acid, ivermectin, metronidazole, doxycycline, BPO, minocycline)
+- name: Rosacea (papulopustular) treatments by evidence (azelaic acid, ivermectin,
+    metronidazole, doxycycline, BPO, minocycline)
   type: list
   priority: 5
   status: done
   discovered_from: null
   source: null
-- name: Best body retinol / body anti-aging products by evidence (Necessaire, Gold Bond, AmLactin)
+- name: Best body retinol / body anti-aging products by evidence (Necessaire, Gold
+    Bond, AmLactin)
   type: list
   priority: 5
   status: done
+  discovered_from: null
+  source: null
+- name: Best pyrithione zinc cleansers for seborrheic dermatitis and dandruff-prone
+    skin - grounded in 3 existing 2% ZnP bars on the site (Noble Formula, Vanicream
+    Z-Bar, DermaHarmony); a body/face counterpart to the shampoo-focused anti-dandruff
+    evidence list
+  type: list
+  priority: 5
+  status: pending
   discovered_from: null
   source: null
