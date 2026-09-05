@@ -10445,3 +10445,8 @@ jenny-liu:
   score: 8
   verdict: publish
   note: Lean person discovery card. Credential (board-certified dermatologist, assistant professor of dermatology, University of Minnesota Medical School) quoted verbatim from Healthgrades physician-contributor bio, cached (Apify-fetched; curl bot-blocked). 47 words, no unverified claims, links to her public channels. lint/verify/style clean.
+best-pyrithione-zinc-cleansers-seborrheic-dermatitis:
+  last_reviewed: '2026-09-05'
+  score: 8
+  verdict: publish
+  note: Curatorial best-of ranking the 3 on-site 2% pyrithione zinc cleansing bars; ZnP evidence links out to [[zinc-pyrithione]]. Load-bearing claim (Vanicream Z-Bar FDA Drug Facts registered vs the two cosmetic bars) cited to DailyMed (durable primary). No head-to-head invented. lint/verify/style clean.
