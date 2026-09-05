@@ -10450,3 +10450,8 @@ best-pyrithione-zinc-cleansers-seborrheic-dermatitis:
   score: 8
   verdict: publish
   note: Curatorial best-of ranking the 3 on-site 2% pyrithione zinc cleansing bars; ZnP evidence links out to [[zinc-pyrithione]]. Load-bearing claim (Vanicream Z-Bar FDA Drug Facts registered vs the two cosmetic bars) cited to DailyMed (durable primary). No head-to-head invented. lint/verify/style clean.
+tri-luma-hydroquinone-tretinoin-fluocinolone:
+  last_reviewed: '2026-09-05'
+  score: 9
+  verdict: publish
+  note: 'Rx melasma triple-combo. Opus critic re-verified every figure verbatim vs live DailyMed SPL (setid a35fa709): 3 actives+%, indication, ochronosis/HPA/not-for-maintenance warnings, both 8-week trials (Tri-Luma 38%/13% success vs dual-combo comparators, 641 subjects, success=severity score 0), adverse rates - no drift. Removed GoodRx price (aggregator, bot-blocked); fixed 2 AI-ese phrasings. Short-term-only/ochronosis/recurrence/sunscreen skeptical spine intact; ingredient evidence linked out.'
