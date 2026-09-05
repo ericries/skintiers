@@ -10435,3 +10435,8 @@ noble-formula-2-pyrithione-zinc-bar-soap:
   score: 8
   verdict: publish
   note: '2% pyrithione zinc + ingredient list + price verified verbatim vs cached brand page; identity resolved to the flagship Emu Oil 2% variant (6 same-priced bases flagged). Opus critic caught+removed a fabricated ''ZnP is an FDA anti-psoriasis monograph active'' claim (monograph psoriasis actives are coal tar + salicylic acid only; ZnP is anti-dandruff/seb-derm), removed an Amazon-as-evidence verify ERROR, softened a regulatory-loaded phrase. Central honest distinction: no DailyMed label for this product unlike the Vanicream sibling. Grades modest/preliminary, ZnP evidence linked out. lint/verify/style clean.'
+kircik-2025-clindamycin-adapalene-benzoyl-peroxide-cab-gel-acne-by-age:
+  last_reviewed: '2026-09-05'
+  score: 8
+  verdict: publish
+  note: 'Compact study page. Opus critic re-verified every figure verbatim vs re-fetched PubMed abstract (PMID 41329145): treatment success 50.6%/49.0% vs 15.7%/20.6% vehicle, >70% lesion reduction, n=515/142, NCT ids, phases; arithmetic 2.4-3.2x confirmed; post hoc/vehicle-comparator/12wk caveats accurate. No fixes needed. lint/verify/style clean.'

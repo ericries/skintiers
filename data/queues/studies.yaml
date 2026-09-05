@@ -463,14 +463,14 @@
     Dermatologic Conditions:  (PMID 41499108)'
   type: study
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41499108/
 - name: 'Lipner 2026 Topical Efinaconazole 10% for Onychomycosis: Pooled Phase 3 Analysis
     in White, Black, and  (PMID 41493257)'
   type: study
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41493257/
 - name: Taylor 2026 Clinical Evaluation of a Thiamidol-Based Regimen With SPF Compared
@@ -505,7 +505,7 @@
     lentigo maligna treatment: Con (PMID 41421462)'
   type: study
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41421462/
 - name: 'Morrow 2026 Impact of weight-loss interventions on psoriasis severity: A
@@ -553,7 +553,7 @@
     Gel for Moderate-to-Seve (PMID 41329145)
   type: study
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41329145/
 - name: 'Wang 2026 Ivarmacitinib ointment in treatment of adults with mild-to-moderate

@@ -2329,3 +2329,11 @@
   status: pending
   discovered_from: null
   source: null
+- name: Cabtreo (clindamycin phosphate 1.2% / adapalene 0.15% / benzoyl peroxide 3.1%
+    gel) - the first FDA-approved fixed triple-combination acne gel, the CAB product
+    studied in Kircik 2025 (Ortho Dermatologics)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: kircik-2025-clindamycin-adapalene-benzoyl-peroxide-cab-gel-acne-by-age
+  source: null
