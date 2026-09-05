@@ -2068,7 +2068,7 @@
 - name: Noble Formula 2% Pyrithione Zinc Bar Soap
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: vanicream-z-bar-pyrithione-zinc
   source: Popular OTC pyrithione zinc bar (with argan oil) for psoriasis/seb-derm;
     DailyMed-labeled

@@ -10430,3 +10430,8 @@ dandruff:
   score: 8
   verdict: publish
   note: Lean discovery hub. One load-bearing DermNet quote verified verbatim vs cache (dandruff = uninflamed scalp form of seb-derm); Opus critic confirmed framing + fixed Nizoral -2->-1 (Rx tinea product not dandruff-labeled); tiers aligned to the canonical anti-dandruff evidence list; biology/evidence linked out to seb-derm. No fabricated stats. lint/verify/style clean.
+noble-formula-2-pyrithione-zinc-bar-soap:
+  last_reviewed: '2026-09-05'
+  score: 8
+  verdict: publish
+  note: '2% pyrithione zinc + ingredient list + price verified verbatim vs cached brand page; identity resolved to the flagship Emu Oil 2% variant (6 same-priced bases flagged). Opus critic caught+removed a fabricated ''ZnP is an FDA anti-psoriasis monograph active'' claim (monograph psoriasis actives are coal tar + salicylic acid only; ZnP is anti-dandruff/seb-derm), removed an Amazon-as-evidence verify ERROR, softened a regulatory-loaded phrase. Central honest distinction: no DailyMed label for this product unlike the Vanicream sibling. Grades modest/preliminary, ZnP evidence linked out. lint/verify/style clean.'
