@@ -3,6 +3,7 @@ analyzed: '2026-08-08'
 assurance: opus
 name: Baobab seed oil
 slug: baobab-seed-oil
+tier: weak
 status: published
 type: ingredient
 updated: '2026-08-08'
