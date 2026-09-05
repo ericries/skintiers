@@ -2321,3 +2321,11 @@
   status: pending
   discovered_from: null
   source: null
+- name: Head and Shoulders Classic Clean Anti-Dandruff Shampoo (pyrithione zinc 1%)
+    - the archetypal drugstore zinc-pyrithione dandruff shampoo, named on the dandruff
+    hub; no page yet
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null

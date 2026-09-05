@@ -165,6 +165,6 @@
     warrants its own hub or a seb-derm redirect
   type: condition
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: null

@@ -10425,3 +10425,8 @@ mg217-medicated-tar-shampoo-coal-tar:
   score: 9
   verdict: publish
   note: Coal tar 3% verified vs DailyMed SPL 7cafb511-0ab7-f3b4-e053-2991aa0a2e0b; Opus profile-reviewer fixed 4 verbatim quote/attribution defects (Prop65 warning, Directions, Stop-use, marketing claim) against raw SPL HTML; product-identity 0.5% vs 3% flagged honestly and drug-facts tied to the specific SPL; price omitted (no citable source). lint/verify/style clean.
+dandruff:
+  last_reviewed: '2026-09-05'
+  score: 8
+  verdict: publish
+  note: Lean discovery hub. One load-bearing DermNet quote verified verbatim vs cache (dandruff = uninflamed scalp form of seb-derm); Opus critic confirmed framing + fixed Nizoral -2->-1 (Rx tinea product not dandruff-labeled); tiers aligned to the canonical anti-dandruff evidence list; biology/evidence linked out to seb-derm. No fabricated stats. lint/verify/style clean.
