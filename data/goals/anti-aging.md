@@ -232,6 +232,16 @@ videos:
   related: []
   thesis: Dermatologist Dr. Fatima Fahs warns that with more med spas in the US than McDonald's, she frequently sees patients who have been overfilled or over-injected because the provider did not want to say no to more revenue. She urges patients to pause before any injectable or cosmetic procedure, resist pressure to proceed if hesitant, and get a second opinion, reminding viewers that facial procedures can go wrong in ways that are sometimes irreversible
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: How to protect and stimulate collagen
+  creator: Dr. Michelle Henry
+  creator_slug: michelle-henry-md-faad
+  credential: Board-certified dermatologist
+  platform: TikTok
+  url: https://www.tiktok.com/@skindoctoks/video/7624632290739621133
+  posted: '2026-04-03'
+  related: [peptides, sunscreen-uv-filters]
+  thesis: Board-certified dermatologist Dr. Michelle Henry explains how to protect and stimulate the skin's collagen for anti-aging. She stresses daily sunscreen (SPF 30, or SPF 50 outdoors over an hour), and notes that creams labeled collagen do little because the collagen molecule is too large to penetrate skin, so what works are peptides or collagen peptides small enough to get in and signal the skin to make more collagen. She adds that diet matters, pointing to lean meats, bone broth, and fish for amino acids and citrus as a cofactor the body needs to build collagen.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
