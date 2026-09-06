@@ -9,6 +9,12 @@ tier_list:
     studies, and use as a reference option), not a raw efficacy ranking in isolation;
     each note names the role and how it compares to hydroquinone
   items:
+  - note: The non-negotiable foundation of melasma control, since both UV and visible
+      light drive the pigment. A tinted, iron-oxide-containing broad-spectrum sunscreen
+      is what blocks visible light; without daily use every other active fades and
+      the melasma recurs.
+    slug: sunscreen-uv-filters
+    tier: strong
   - note: The long-standing reference depigmenting drug. Monotherapy is modest and
       ranks low in one head-to-head efficacy ranking, but the FDA-approved fixed triple-combination
       form (paired with a retinoid and a corticosteroid) is the strongest-performing
@@ -45,7 +51,7 @@ tier_list:
     tier: minimal
   title: Topical actives for melasma, by evidence
 type: condition
-updated: '2026-08-10'
+updated: '2026-09-06'
 videos:
 - title: "If you have melasma, you need to know this!"
   creator: ""
