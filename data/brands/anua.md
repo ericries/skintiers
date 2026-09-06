@@ -5,7 +5,7 @@ name: Anua
 slug: anua
 status: published
 type: brand
-updated: '2026-08-09'
+updated: '2026-09-06'
 ---
 
 Anua is a South Korean skincare brand that describes itself as "Gentle yet Effective Korean Skincare" on its own US site.[^1]
@@ -18,6 +18,7 @@ Anua is a South Korean skincare brand that describes itself as "Gentle yet Effec
 - [[anua-azelaic-acid-serum]]: a serum labeled 10% azelaic acid, matching The Ordinary's 10% and below the 15-20% used in azelaic acid's rosacea and acne trials.
 - [[anua-niacinamide-10-tranexamic-acid-4-serum]]: a serum labeled 10% niacinamide and 4% tranexamic acid.
 - [[anua-nano-retinol-0-3-niacin-renewing-serum]]: a retinol serum labeled 0.3% retinol with niacinamide, positioned against other OTC retinol serums.
+- [[anua-pdrn-caffeine-rejuvenating-eye-cream]]: an eye-area moisturizer built around PDRN (labeled sodium DNA) and caffeine.
 
 ## Sources
 
