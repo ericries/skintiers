@@ -13,9 +13,11 @@ tier_list:
   - ceramides
   - dimethicone
   - colloidal-oatmeal
+  - argan-oil
+  - allantoin
   title: Moisturizing ingredients by evidence
 type: goal
-updated: '2026-08-05'
+updated: '2026-09-06'
 videos:
 - creator: ''
   creator_slug: ife-rodney
