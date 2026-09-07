@@ -22,6 +22,10 @@ grades:
     with larger reductions in inflammatory and non-inflammatory lesion counts (class
     evidence on the tazarotene page)'
   use: For acne vulgaris, its FDA-approved use (health)
+images:
+- file: arazlo-tazarotene-0-045-lotion-dailymed.jpg
+  source: DailyMed
+  source_url: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d941ff25-c221-4a55-8012-0dcf3bbcbbd1
 key_actives:
 - tazarotene
 name: Arazlo (tazarotene 0.045% lotion)

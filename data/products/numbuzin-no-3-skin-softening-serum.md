@@ -19,7 +19,10 @@ grades:
     ahead of the base solvents), but independent evidence for either ferment in isolation
     is thin to weak; no cited trial isolates this product''s specific ferment combination'
   use: Skin texture and complexion from fermented actives (cosmetic)
-images: []
+images:
+- file: numbuzin-no-3-skin-softening-serum-incidecoder.jpg
+  source: incidecoder
+  source_url: https://incidecoder.com/products/numbuzin-no-3-skin-softening-serum
 key_actives:
 - niacinamide
 - bifida-ferment-lysate

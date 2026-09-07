@@ -27,7 +27,10 @@ grades:
     evidence, mostly studied for retinol-like antiaging and antioxidant effects at
     higher, product-specific concentrations, is on [[bakuchiol]]
   use: Bakuchiol as an antioxidant/"restorative" addition (cosmetic)
-images: []
+images:
+- file: byoma-moisturizing-rich-cream-incidecoder.jpg
+  source: incidecoder
+  source_url: https://incidecoder.com/products/byoma-moisturising-rich-cream
 key_actives:
 - ceramides
 - cholesterol

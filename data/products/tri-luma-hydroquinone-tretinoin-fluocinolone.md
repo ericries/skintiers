@@ -15,6 +15,10 @@ grades:
     its own atrophy/telangiectasia and HPA-axis risks'
   use: For the short-term treatment of moderate to severe melasma of the face, alongside
     sun avoidance and sunscreen (health, FDA-approved)
+images:
+- file: tri-luma-hydroquinone-tretinoin-fluocinolone-dailymed.jpg
+  source: DailyMed
+  source_url: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a35fa709-5eb5-4429-b38f-f1e0019bf0ee
 key_actives:
 - hydroquinone
 - tretinoin
