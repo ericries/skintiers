@@ -2267,7 +2267,7 @@
     plaque psoriasis, named on the tazarotene page
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: null
 - name: Eucrisa (crisaborole 2% ointment) - FDA-approved topical PDE4 inhibitor for
@@ -2344,4 +2344,12 @@
   priority: 5
   status: pending
   discovered_from: arazlo-tazarotene-0-045-lotion
+  source: null
+- name: Duobrii (halobetasol propionate 0.01% / tazarotene 0.045% lotion) - FDA-approved
+    fixed combination of a corticosteroid and tazarotene for plaque psoriasis, the
+    same tazarotene active as Tazorac/Arazlo paired with a steroid (Bausch/Ortho Dermatologics)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: tazorac-tazarotene-gel-cream
   source: null
