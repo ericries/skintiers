@@ -450,6 +450,16 @@ videos:
   related: []
   thesis: Dr. Andrea Suarez (Dr Dray), a board-certified dermatologist, walks through seven skin, nail, and eye findings that can signal internal disease rather than being purely cosmetic. She explains that dark, velvety thickened patches on the neck, underarms, or hands (acanthosis nigricans) are a warning sign of insulin resistance, not dirt or hyperpigmentation, and that people often mistakenly try scrubbing or vitamin C serums on them. She also covers yellow eyelid bumps (xanthoma) as a clue to lipid problems, yellowing of the eyes as jaundice, clubbed fingertips as a sign of lung or heart disease, a purplish heliotrope rash with knuckle bumps as dermatomyositis, spoon-shaped nails (koilonychia) as a marker of iron deficiency, and unexplained full-body itching as a possible sign of blood, kidney, thyroid, or liver disease. She stresses these are clues, not diagnoses, and that any of them should be evaluated by a healthcare provider rather than self-treated.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: How a Dermatologist Decides Between Lasers and Skincare for Dark Spots, Redness, and Texture
+  creator: Dr. Shereene Idriss
+  creator_slug: shereene-idriss
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=AkMplhqKyNE
+  posted: '2026-09-05'
+  related: [melasma, facial-redness-relief, rosacea, sun-damage-photoaging]
+  thesis: Board-certified dermatologist Dr. Shereene Idriss offers a framework for deciding between in-office lasers and at-home skincare for dark spots, redness, and texture. She explains that every laser ultimately targets just one of three things, red, brown, or water, so before paying for an expensive laser package a patient should ask which of the three it treats, and consider whether a much cheaper topical could address the same concern. She organizes the decision into three lanes, starting with brown spots (pigmentation), and walks through where skincare can substitute for a procedure and where it cannot.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
