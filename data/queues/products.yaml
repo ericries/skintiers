@@ -2260,7 +2260,7 @@
     RCT program cited on the tazarotene page
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: null
 - name: Tazorac (tazarotene 0.1% / 0.05% gel and cream) - FDA-approved for acne and
@@ -2336,4 +2336,12 @@
   priority: 5
   status: pending
   discovered_from: kircik-2025-clindamycin-adapalene-benzoyl-peroxide-cab-gel-acne-by-age
+  source: null
+- name: Tazorac (tazarotene 0.05% / 0.1% gel and cream) - the older tazarotene brand,
+    FDA-approved for acne AND plaque psoriasis, the higher-concentration sibling to
+    Arazlo; named on the tazarotene page
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: arazlo-tazarotene-0-045-lotion
   source: null

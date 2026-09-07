@@ -1095,3 +1095,11 @@
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/42696337/
+- name: 'Tanghetti 2020 Tazarotene 0.045% Lotion for Moderate-to-Severe Acne: two
+    phase 3 RCTs (PMID 32549090, J Drugs Dermatol) - peer-reviewed publication of
+    the Arazlo registration trials'
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: arazlo-tazarotene-0-045-lotion
+  source: null

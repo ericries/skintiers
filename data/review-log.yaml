@@ -10455,3 +10455,8 @@ tri-luma-hydroquinone-tretinoin-fluocinolone:
   score: 9
   verdict: publish
   note: 'Rx melasma triple-combo. Opus critic re-verified every figure verbatim vs live DailyMed SPL (setid a35fa709): 3 actives+%, indication, ochronosis/HPA/not-for-maintenance warnings, both 8-week trials (Tri-Luma 38%/13% success vs dual-combo comparators, 641 subjects, success=severity score 0), adverse rates - no drift. Removed GoodRx price (aggregator, bot-blocked); fixed 2 AI-ese phrasings. Short-term-only/ochronosis/recurrence/sunscreen skeptical spine intact; ingredient evidence linked out.'
+arazlo-tazarotene-0-045-lotion:
+  last_reviewed: '2026-09-06'
+  score: 9
+  verdict: publish
+  note: 'Rx tazarotene 0.045% acne lotion. Opus critic re-verified every figure byte-for-byte vs live DailyMed SPL (setid d941ff25): active 0.045%, indication age 9+, both phase-3 success rates (25.5/13, 29.6/17.3) + lesion reductions, adverse rates, inactive list, pregnancy contraindication verbatim. Fixed a ''roughly double'' imprecision (trial 2 = 1.71x) + trimmed duplicated stats. No aggregator price. Class evidence linked out to tazarotene/retinoids. lint/verify/style clean.'
