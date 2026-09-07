@@ -188,3 +188,15 @@
   status: done
   discovered_from: null
   source: null
+- name: Best eye creams
+  type: list
+  priority: 5
+  status: done
+  discovered_from: null
+  source: 'discover_hubs: 5 mentions across the video archive; no list hub yet'
+- name: Best hydrating / hyaluronic serums
+  type: list
+  priority: 5
+  status: done
+  discovered_from: null
+  source: 'discover_hubs: 4 mentions across the video archive; no list hub yet'
