@@ -22,6 +22,12 @@ tier_list:
       treatment for cystic acne.
     slug: azelaic-acid
     tier: strong
+  - note: The one topical here that acts on the androgen pathway driving PCOS acne,
+      a prescription anti-androgen ([[winlevi-clascoterone-1-cream|Winlevi]]) that blocks
+      androgen receptors in the skin. Modest effect on solid but new evidence; it does
+      not replace the systemic hormonal treatments a prescriber weighs.
+    slug: clascoterone
+    tier: moderate
   - note: Antimicrobial, not comedolytic; targets inflamed, pus-filled lesions rather
       than the follicular plugging behind comedones.
     slug: benzoyl-peroxide
@@ -32,7 +38,7 @@ tier_list:
     tier: moderate
   title: Topical actives for PCOS-related acne, by evidence
 type: condition
-updated: '2026-08-10'
+updated: '2026-09-08'
 videos:
 - title: 6 Skin, Hair & Nail Signs You Should NEVER Ignore (From a Dermatologist) | Dr. Shereene Idriss
   creator: Dr. Shereene Idriss
