@@ -10465,3 +10465,8 @@ tazorac-tazarotene-gel-cream:
   score: 9
   verdict: publish
   note: 'Rx tazarotene 0.05%/0.1% gel+cream for acne AND plaque psoriasis. Opus critic re-fetched both DailyMed SPLs (gel 4e4e4b81, cream 021744d1) and caught a load-bearing D2 error: acne trial figures were scrambled (active/vehicle swapped within trials) - fixed to 38%/18% active vs 20%/10% vehicle; also restored an omitted second psoriasis trial (18/25 vs 10). Verified indications (only 0.1% acne-indicated; gel psoriasis up to 20% BSA, cream no BSA qualifier), Almirall labeler, pregnancy contraindication, adverse rates, inactives verbatim; removed 2 em-dashes in footnotes. No aggregator price. Class evidence linked out. lint/verify/style clean.'
+fluocinolone-acetonide:
+  last_reviewed: '2026-09-08'
+  score: 8
+  verdict: publish
+  note: 'Individual topical corticosteroid ingredient (class member). Opus critic verified vs live DailyMed Synalar labels: indication verbatim (with a real DailyMed ''corticosteriod'' typo preserved [sic]), strengths 0.01%/0.025% (dropped unverifiable 0.2%), potency Class IV-VI per StatPearls (not overstated). tier good, matches class page + betamethasone sibling + own rubric. Class mechanism/atrophy/HPA linked out to topical-corticosteroids; melasma use linked to Tri-Luma. Added required Evidence section + melasma citation. Dash-free incl footnotes. lint/verify/style clean.'
