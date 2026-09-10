@@ -6,8 +6,10 @@ slug: keratosis-pilaris
 status: published
 tier_list:
   by: how well each treatment's own keratosis pilaris trial evidence holds up, not
-    exfoliation strength; every option here is management, not a cure, and the evidence
-    base across all of them is small
+    exfoliation strength; the actives are graded on that evidence, and the products
+    below each inherit the grade of the active they deliver (not a product-specific
+    trial). Every option here is management, not a cure, and the evidence base across
+    all of them is small
   items:
   - note: The best-tested option. In a split-side, assessor-blinded trial, 10% lactic
       acid outperformed 5% salicylic acid head to head (66% vs 52% reduction in papules,
@@ -20,10 +22,36 @@ tier_list:
       reaches the sebum around the follicle.
     slug: salicylic-acid
     tier: moderate
+  - note: A body lotion delivering 12% lactic acid as ammonium lactate, the exact class
+      of over-the-counter form named in the lactic acid trial above; graded by that
+      active's evidence, not its own keratosis pilaris trial.
+    slug: amlactin-daily-moisturizing-lotion-12-lactic-acid
+    tier: moderate
+  - note: Pairs ammonium lactate (the salt of lactic acid) with salicylic acid, the
+      site's two best-tested keratosis pilaris actives, in a ceramide base marketed
+      for rough and bumpy skin.
+    slug: cerave-sa-body-lotion-for-rough-and-bumpy-skin
+    tier: moderate
+  - note: Another ammonium-lactate-plus-salicylic-acid body cream aimed at rough, bumpy
+      skin; carries the same two moderate-tier actives.
+    slug: gold-bond-rough-and-bumpy-daily-skin-therapy
+    tier: moderate
+  - note: A leave-on body treatment delivering 2% salicylic acid, the second-best-tested
+      active here, in a lightweight vehicle for larger areas.
+    slug: paulas-choice-weightless-body-treatment-2-bha
+    tier: moderate
   - note: A 20% urea cream significantly improved skin texture in a small, open-label
       trial with no comparison group; urea's broader humectant and keratolytic evidence
       is on its own page.
     slug: urea
+    tier: minimal
+  - note: A ceramide cream whose one declared active is 10% urea, a humectant-keratolytic
+      whose keratosis pilaris evidence is minimal; a barrier-friendly way to deliver it.
+    slug: cerave-sa-smoothing-cream
+    tier: minimal
+  - note: A urea-based body lotion; urea is the humectant-keratolytic with only minimal
+      keratosis pilaris trial evidence.
+    slug: eucerin-roughness-relief-lotion
     tier: minimal
   - note: A single uncontrolled trial used a much higher, professionally applied concentration
       (50-70%) than a retail leave-on product; papule counts improved short-term but
@@ -41,7 +69,7 @@ tier_list:
     tier: minimal
   title: Topical treatments for keratosis pilaris, by evidence
 type: condition
-updated: '2026-08-11'
+updated: '2026-09-10'
 videos:
 - title: "How to Get Rid of Textured, Bumpy, Rough Skin | Keratosis Pilaris"
   creator: ""
