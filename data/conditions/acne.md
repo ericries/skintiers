@@ -396,6 +396,16 @@ videos:
   related: [hyperpigmentation, salicylic-acid, benzoyl-peroxide, adapalene, tretinoin, azelaic-acid, tranexamic-acid, niacinamide]
   thesis: 'Board-certified dermatologist Dr. Jenny Liu argues that the common skincare goals of clear skin, faded acne marks, and a glowing complexion should not be pursued all at once. She lays out a treatment order: first stop active acne (salicylic acid, benzoyl peroxide, adapalene, or prescription tretinoin), then address existing pigmentation (retinoids, azelaic acid, tranexamic acid, niacinamide), and only after that focus on glow, which she says is mostly just a healthy skin barrier plus consistent sunscreen use. Her main point is that people commonly waste money on glow serums while still actively breaking out, when the biggest mistake is skipping the acne-first step, and that following this sequence can realistically show results within about 6 months.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: What even IS acne and how does it form?
+  creator: Jenn Lexi
+  creator_slug: jennlexi
+  credential: Licensed esthetician
+  platform: TikTok
+  url: https://www.tiktok.com/@jennlexi_/video/7681489584898805005
+  posted: '2026-09-04'
+  related: [salicylic-acid, retinoids]
+  thesis: 'Esthetician Jenn Lexi walks through how acne forms as a perfect storm: sebaceous glands producing extra sebum, plus a follicular problem she calls follicular hyperkeratinization where dead skin cells fail to shed normally and clump together, plugging the pore. She explains that an open plug oxidizes into a blackhead and a closed one becomes a whitehead, and that the low-oxygen clogged environment lets C. acnes bacteria multiply and trigger the inflammation behind a red, painful pimple. She stresses that oily skin and acne-prone skin are not the same thing.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

@@ -2353,3 +2353,11 @@
   status: pending
   discovered_from: tazorac-tazarotene-gel-cream
   source: null
+- name: Synalar (fluocinolone acetonide 0.01% / 0.025% cream, ointment, solution)
+    - the flagship fluocinolone acetonide brand, a low-to-medium potency Rx topical
+    corticosteroid for corticosteroid-responsive dermatoses (Medimetriks)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: fluocinolone-acetonide
+  source: null

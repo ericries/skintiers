@@ -152,6 +152,16 @@ videos:
   related: [hyperpigmentation, acne]
   thesis: 'Dermatologist Dr. Onyeka Obioha explains that every skincare routine boils down to three steps: cleanse, treat, and protect. She uses her own routine as an example, treating her acne and hyperpigmentation at night with a topical retinoid (tretinoin) alternated with an exfoliating acid, and in the morning treating with an antioxidant before protecting with sunscreen and moisturizer. She emphasizes the treatment step should target your specific skin concern and will vary by skin type'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: What are the different retinoids?
+  creator: Jenn Lexi
+  creator_slug: jennlexi
+  credential: Licensed esthetician
+  platform: TikTok
+  url: https://www.tiktok.com/@jennlexi_/video/7677790691883322638
+  posted: '2026-08-25'
+  related: [tretinoin, adapalene, acne, anti-aging]
+  thesis: 'Esthetician Jenn Lexi frames retinoids as an umbrella running from gentlest to harshest: retinyl esters are mildest, then retinol, with prescription tretinoin (retinoic acid) the strongest and over-the-counter adapalene a milder relative. She explains that gentler forms work by converting through several chemical steps on the skin (ester to retinol to retinoic acid), so the slower conversion is what makes them less irritating. She warns against jumping straight from retinol to tretinoin and recommends easing in on a spaced schedule, starting once every seven days and shortening the gap only as the skin tolerates it.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 name: Retinoids
 slug: retinoids
 status: published
