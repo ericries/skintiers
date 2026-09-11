@@ -2,6 +2,10 @@
 analyzed: '2026-09-07'
 assurance: opus
 category: Retinoids
+images:
+- file: tazorac-tazarotene-gel-cream-dailymed.jpg
+  source: DailyMed (FDA prescribing information carton)
+  source_url: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4e4e4b81-420e-4492-8a74-80b692a80057
 evidence_levels:
   active: tazarotene
   active_note: a prescription third-generation, receptor-selective retinoid pro-drug
