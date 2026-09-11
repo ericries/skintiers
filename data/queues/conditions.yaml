@@ -174,3 +174,11 @@
   status: done
   discovered_from: null
   source: 'discover_hubs: 2 mentions across the video archive; no condition hub yet'
+- name: Melasma in pregnancy (chloasma / mask of pregnancy) - hormone-driven facial
+    hyperpigmentation where the first-line brighteners (hydroquinone, retinoids) are
+    pregnancy-contraindicated, leaving azelaic acid + strict photoprotection
+  type: condition
+  priority: 5
+  status: pending
+  discovered_from: pregnancy-safe-skincare
+  source: null

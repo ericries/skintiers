@@ -72,7 +72,7 @@
 - name: Pregnancy-safe skincare
   type: goal
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: 'discover_hubs: 4 mentions across the video archive; no goal hub yet'
 - name: Reducing facial redness

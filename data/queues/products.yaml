@@ -2361,3 +2361,11 @@
   status: pending
   discovered_from: fluocinolone-acetonide
   source: null
+- name: The Ordinary Azelaic Acid Suspension 10% - a widely-recommended pregnancy-compatible
+    brightening/anti-acne active (azelaic acid), commonly cited for melasma and rosacea
+    in pregnancy
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: pregnancy-safe-skincare
+  source: null

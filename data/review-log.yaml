@@ -10470,3 +10470,8 @@ fluocinolone-acetonide:
   score: 8
   verdict: publish
   note: 'Individual topical corticosteroid ingredient (class member). Opus critic verified vs live DailyMed Synalar labels: indication verbatim (with a real DailyMed ''corticosteriod'' typo preserved [sic]), strengths 0.01%/0.025% (dropped unverifiable 0.2%), potency Class IV-VI per StatPearls (not overstated). tier good, matches class page + betamethasone sibling + own rubric. Class mechanism/atrophy/HPA linked out to topical-corticosteroids; melasma use linked to Tri-Luma. Added required Evidence section + melasma citation. Dash-free incl footnotes. lint/verify/style clean.'
+pregnancy-safe-skincare:
+  last_reviewed: '2026-09-10'
+  score: 8
+  verdict: publish
+  note: 'New goal hub: pregnancy-safe skincare, a SAFETY-classification tier_list (safe/caution/avoid), not efficacy. Opus critic re-verified every classification verbatim vs 3 PMC reviews (Bozzo 2011, Trivedi 2017, Ly 2023): hydroquinone 35-45% absorption/avoid, retinoids avoid (2 prospective studies n=96/106 no raised malformation; tazarotene FDA Cat X per Ly), salicylic/BPO/chemical-filters caution, azelaic 4-8%/glycolic/lactic + mineral filters safe. Critic fixed one unsupported lactic-acid claim. niacinamide/vitC/HA deliberately OMITTED (no pregnancy source) and named as such. Mandatory medical disclaimer present. Dash-free; lint/verify/style clean.'
