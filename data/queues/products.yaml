@@ -2289,7 +2289,7 @@
     (Bausch)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: null
 - name: COSRX Full Fit Propolis Light Ampoule (83% propolis extract) - flagship propolis
@@ -2376,4 +2376,12 @@
   priority: 5
   status: done
   discovered_from: eucrisa-crisaborole-2-ointment
+  source: null
+- name: Onexton (clindamycin 1.2% / benzoyl peroxide 3.75% gel) - a newer once-daily
+    fixed clindamycin-BPO combination at lower BPO strength, a comparator to BenzaClin
+    (Bausch)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: benzaclin-clindamycin-benzoyl-peroxide-gel
   source: null
