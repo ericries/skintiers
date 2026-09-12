@@ -67,7 +67,13 @@ def all_pages(*dirs):
 def tier_list_slugs(fm):
     tl = fm.get("tier_list") or {}
     items = tl.get("items") or []
-    return {it.get("slug") for it in items if isinstance(it, dict) and it.get("slug")}
+    out = set()
+    for it in items:
+        if isinstance(it, dict) and it.get("slug"):
+            out.add(it["slug"])
+        elif isinstance(it, str) and it:
+            out.add(it)  # flat-string tier_list items (best-of lists, some goal hubs)
+    return out
 
 
 def wikilinks(text):
