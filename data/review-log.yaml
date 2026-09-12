@@ -10475,3 +10475,8 @@ pregnancy-safe-skincare:
   score: 8
   verdict: publish
   note: 'New goal hub: pregnancy-safe skincare, a SAFETY-classification tier_list (safe/caution/avoid), not efficacy. Opus critic re-verified every classification verbatim vs 3 PMC reviews (Bozzo 2011, Trivedi 2017, Ly 2023): hydroquinone 35-45% absorption/avoid, retinoids avoid (2 prospective studies n=96/106 no raised malformation; tazarotene FDA Cat X per Ly), salicylic/BPO/chemical-filters caution, azelaic 4-8%/glycolic/lactic + mineral filters safe. Critic fixed one unsupported lactic-acid claim. niacinamide/vitC/HA deliberately OMITTED (no pregnancy source) and named as such. Mandatory medical disclaimer present. Dash-free; lint/verify/style clean.'
+eucrisa-crisaborole-2-ointment:
+  last_reviewed: '2026-09-11'
+  score: 8
+  verdict: publish
+  note: 'Rx product: Eucrisa crisaborole 2% ointment, non-steroidal PDE4 inhibitor for mild-to-moderate AD. Opus critic re-verified all label facts verbatim vs DailyMed (setid 609b77de...): indication (patients 3 months+), both trials'' ISGA success (32.8% vs 25.4%; 31.4% vs 18.0% at Day 29), app-site pain 4% vs 1%, full composition. Skeptical verdict (modest edge over vehicle, burning common). Price omitted (Rx; no aggregator). Critic migrated legacy ## The Rubric to grades: frontmatter (build.py routine-dashboard needs it) + sourced the age-floor-expansion claim to FDA Drugs@FDA. General mechanism linked to crisaborole/atopic-dermatitis. DailyMed carton image eyeballed (genuine Pfizer die-line). Dash-free; lint/style clean.'

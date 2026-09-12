@@ -2274,7 +2274,7 @@
     mild-to-moderate atopic dermatitis, the subject of the crisaborole page (Pfizer)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: null
 - name: Amzeeq (minocycline 4% topical foam / FMX101) - FDA-approved topical minocycline
@@ -2368,4 +2368,12 @@
   priority: 5
   status: pending
   discovered_from: pregnancy-safe-skincare
+  source: null
+- name: Zoryve (roflumilast) cream 0.3% - topical PDE4 inhibitor for plaque psoriasis
+    and (0.15%) atopic dermatitis, a newer once-daily steroid-free competitor to Eucrisa
+    (Arcutis)
+  type: product
+  priority: 5
+  status: done
+  discovered_from: eucrisa-crisaborole-2-ointment
   source: null
