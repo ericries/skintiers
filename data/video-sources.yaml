@@ -40,7 +40,7 @@
   tier: HIGH
   channel: https://www.youtube.com/@dermdoctor/videos
   conflict: runs an affiliate storefront - be cautious treating product picks as unbiased endorsements
-  last_pulled: '2026-08-30'
+  last_pulled: '2026-09-12'
 - name: Dr. Dustin Portela
   creator_slug: dustin-portela
   flagship: true
