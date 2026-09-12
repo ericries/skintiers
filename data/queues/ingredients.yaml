@@ -1384,3 +1384,12 @@
   status: done
   discovered_from: tri-luma-hydroquinone-tretinoin-fluocinolone
   source: null
+- name: Isotretinoin (oral retinoid, brand Accutane/Absorica) - the systemic retinoid
+    that dramatically shrinks sebaceous gland output for severe/recalcitrant acne;
+    a major high-search topic the site has NO page for (surfaced repeatedly in creator
+    videos on managing Accutane skin dryness)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null
