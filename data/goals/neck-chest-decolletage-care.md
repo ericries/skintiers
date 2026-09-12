@@ -40,6 +40,18 @@ tier_list:
   title: Neck and chest care by evidence
 type: goal
 updated: '2026-08-27'
+videos:
+- title: Can You Use Retinoids on Your Neck?
+  creator: Andrea Suarez (Dr Dray)
+  creator_slug: andrea-suarez-dr-dray
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=Z9W1W3X4BZA
+  posted: '2026-09-08'
+  related: [retinoids, tretinoin, adapalene, tazarotene, anti-aging]
+  thesis: Board-certified dermatologist Dr. Andrea Suarez (Dr Dray) explains that skin is not uniform across the body, and the neck in particular has thin, delicate skin with fewer oil glands, which is why retinoids (prescription tretinoin, tazarotene, or trifarotene, over-the-counter adapalene, or cosmetic retinol and retinaldehyde) are more likely to cause a dry, itchy, flaky reaction there than on the face. She says you can use them on the neck but should introduce them far more conservatively than on the face, starting at a lower frequency and building up slowly. She adds that even after ten years of facial retinoid use, applying them to her own neck still tends to backfire.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 The neck and chest (décolletage) age the same way the face does: sun exposure over years causes wrinkles, crepey texture, and mottled pigment. They just tend to get skipped when people apply sunscreen and treatments to their face, and the skin there is thinner, so damage shows up faster and treatments need to be gentler. The bottom line: no new ingredients are needed here. The same actives that work on facial photoaging work on the neck and chest, just applied more carefully.

@@ -58,6 +58,16 @@ videos:
   related: [acne, sheila-farhang]
   thesis: 'Board-certified dermatologist Dr. Sheila Farhang explains why back acne (bacne) is more painful than facial acne: the skin on the back is thicker and oilier with larger follicles, so clogged pores trap inflammation deep in the skin with little room to expand. She recommends a benzoyl peroxide wash from the neck down to reduce bacteria, a salicylic acid spray to cut oil clogging pores, and a chemical exfoliant to boost cell turnover and help fade scars, and notes that large or scarring lesions may need an in-office cortisone injection or other medical treatment from a dermatologist'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Do Salicylic Acid Cleansers Actually Work?
+  creator: Andrea Suarez (Dr Dray)
+  creator_slug: andrea-suarez-dr-dray
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=9QdcZWQObDY
+  posted: '2026-09-05'
+  related: [keratosis-pilaris, acne]
+  thesis: Board-certified dermatologist Dr. Andrea Suarez (Dr Dray) pushes back on the idea that a salicylic acid cleanser is useless because it rinses off in under a minute, explaining a formulation process called coacervation that deposits active ingredients onto the skin as the rest of the product and oil and debris wash away. She says a salicylic acid cleanser genuinely helps with blackheads, whiteheads, rough skin texture, and keratosis pilaris, and is milder and better tolerated than a leave-on salicylic acid, though results come more slowly. She notes salicylic acid body washes are especially useful for acne on the trunk.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
