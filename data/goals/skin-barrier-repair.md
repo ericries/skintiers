@@ -7,7 +7,9 @@ status: published
 tier_list:
   by: how well each supports rebuilding a disrupted skin barrier, structuring this
     page's own Tier 1 to Tier 2 ranking; occlusion and humectancy plus the physiological
-    barrier lipids do the most work, and time drives the underlying recovery
+    barrier lipids do the most work, and time drives the underlying recovery. The
+    finished products below each inherit the tier of the ranked active they deliver
+    (an occlusive or a ceramide-and-humectant base, not a product-specific barrier trial)
   items:
   - note: The most occlusive foundation, cutting transepidermal water loss more than
       any other common ingredient and buying the barrier time to re-form its own lipids.
@@ -45,9 +47,33 @@ tier_list:
       a modest adjunct, not a barrier-rebuilding foundation.
     slug: centella-asiatica
     tier: moderate
+  - note: The site's faithful example of the Tier 1 ceramide-and-humectant moisturizer,
+      pairing ceramides with glycerin and hyaluronic acid in a petrolatum-containing base.
+    slug: cerave-moisturizing-cream
+    tier: strong
+  - note: A petrolatum-based skin-protectant ointment, delivering the strongest occlusive
+      here to cut water loss while the barrier re-forms.
+    slug: cerave-healing-ointment
+    tier: strong
+  - note: A ceramide-focused barrier moisturizer, delivering the physiological barrier
+      lipids that rebuild the lipid matrix.
+    slug: aestura-atobarrier-365-cream
+    tier: strong
+  - note: A ceramide-and-niacinamide moisturizer, combining the barrier lipids with the
+      lipid-synthesis adjunct in one leave-on cream.
+    slug: la-roche-posay-toleriane
+    tier: strong
+  - note: A plain fragrance-free humectant cream moisturizer; a solid basic emollient
+      without the ceramide punch of the strong-tier creams.
+    slug: cetaphil-moisturizing-cream
+    tier: moderate
+  - note: A panthenol-based barrier-repair balm; panthenol has real if modest evidence
+      for speeding barrier repair and calming redness after an irritant insult.
+    slug: la-roche-posay-cicaplast-baume-b5
+    tier: moderate
   title: Barrier-repair ingredients by evidence
 type: goal
-updated: '2026-08-17'
+updated: '2026-09-11'
 videos:
 - creator: Kristin Leite
   creator_slug: kristin-leite
