@@ -10480,3 +10480,8 @@ eucrisa-crisaborole-2-ointment:
   score: 8
   verdict: publish
   note: 'Rx product: Eucrisa crisaborole 2% ointment, non-steroidal PDE4 inhibitor for mild-to-moderate AD. Opus critic re-verified all label facts verbatim vs DailyMed (setid 609b77de...): indication (patients 3 months+), both trials'' ISGA success (32.8% vs 25.4%; 31.4% vs 18.0% at Day 29), app-site pain 4% vs 1%, full composition. Skeptical verdict (modest edge over vehicle, burning common). Price omitted (Rx; no aggregator). Critic migrated legacy ## The Rubric to grades: frontmatter (build.py routine-dashboard needs it) + sourced the age-floor-expansion claim to FDA Drugs@FDA. General mechanism linked to crisaborole/atopic-dermatitis. DailyMed carton image eyeballed (genuine Pfizer die-line). Dash-free; lint/style clean.'
+amzeeq-minocycline-4-topical-foam:
+  last_reviewed: '2026-09-12'
+  score: 8
+  verdict: publish
+  note: 'Rx product: Amzeeq minocycline 4% topical foam (FMX101), first topical minocycline for moderate-to-severe inflammatory acne (age 9+). Opus critic re-verified all 3 phase-3 trials verbatim vs DailyMed (setid cc251492...): lesion-count reduction significant in all 3 but IGA co-primary only clearly beat vehicle in 1 of 3 (Study1 CI crosses zero, Study2 touches). Critic downgraded evidence solid->mixed to match that record + sibling minocycline products (Zilxi/Emrosi established w/ 2-2), and re-sourced a misattributed ''first/Foamix'' claim (not in the label) to FDA NDA letter + Foamix announcement. Headache 3% vs 2%; low systemic Cmax. Price omitted (Rx). Genuine branded carton image eyeballed. Dash-free; lint/verify/style clean.'
