@@ -10550,3 +10550,13 @@ aczone-dapsone-7-5-gel:
   score: 8
   verdict: publish
   note: 'Rx: dapsone 7.5% once-daily gel, non-antibiotic non-retinoid topical acne option. Fable draft, Opus critic verified ALL numbers verbatim vs DailyMed setid 22058b7d: composition (distinct from older 5% BID), indication age 9+, both trials GAAS 30 vs 21%, lesion reductions, G6PD/methemoglobinemia language, adverse rates. Standout skeptical calibration: 9-point GAAS gap but <2 extra inflammatory lesions vs vehicle, stated repeatedly. Critic fixed the indication quote (restored ''a sulfone'' clause). grades modest/moderate. Genuine Almirall carton image. Price omitted (generics noted). Dash-free; lint/verify/style clean.'
+rhofade-oxymetazoline-1-cream:
+  last_reviewed: '2026-09-13'
+  score: 8
+  verdict: publish
+  note: 'Rx: oxymetazoline 1% cream (Rhofade) for persistent facial erythema of rosacea. Fable draft (corrected manufacturer to Mayne + endpoint timing), Opus critic verified all 16 trial cells verbatim vs DailyMed setid 34298db6, composition, adverse rates. Critic caught+fixed a rebound stat (2.2/1.1%) falsely attributed to the label (belongs to Kircik trial on the ingredient page) + a vague Mirvaso comparison. Skeptical: only a minority hit the strict composite endpoint, effect lasts hours, nothing for vessels. grades modest/solid. Genuine carton image. Price omitted. Dash-free; lint/verify/style clean.'
+sodium-sulfacetamide:
+  last_reviewed: '2026-09-13'
+  score: 8
+  verdict: publish
+  note: 'Ingredient: sodium sulfacetamide, older Rx sulfonamide topical antibiotic (10%, often w/ 5% sulfur) for acne/rosacea/seb-derm. Fable draft, Opus critic verified vs 3 DailyMed SPLs: mechanism verbatim, per-label indications (acne anchored to Klaron; plain wash is seb-derm not acne), sulfa contraindication, SJS/lupus warnings. Critic fixed a warning misattributed to Klaron + a heading implying the wash treats acne. tier:weak (no vehicle-controlled monotherapy trial; dated 1950s use; Torok combo trial can''t isolate it; Cochrane endorses metronidazole/azelaic/ivermectin/brimonidine instead). Dash-free; lint/verify/style clean.'
