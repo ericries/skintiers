@@ -10495,3 +10495,28 @@ benzaclin-clindamycin-benzoyl-peroxide-gel:
   score: 8
   verdict: publish
   note: 'Rx product: BenzaClin clindamycin 1% + BPO 5% gel. Opus critic verified all trial numbers verbatim vs DailyMed (setid c1adf643...): Study1 combo 46% vs BPO 32% vs clinda 16% vs vehicle -3%; Study2 63/53/45/42%. Skeptical framing confirmed: combo crushes clinda-alone but edge over cheap OTC BPO-alone is modest (~10-14pts; vehicle hit 42% in Study2), generics cheaper. grades modest/moderate. Critic fixed a packaging error (6g jars per the NDC, not 50g pump - leftover kit artwork). Dry skin 12% vs 6%. Price omitted (Rx). No image (rejected repackager barcode label). General actives linked out. Dash-free; lint/verify/style clean.'
+synalar-fluocinolone-acetonide:
+  last_reviewed: '2026-09-13'
+  score: 8
+  verdict: publish
+  note: 'Rx product: Synalar (fluocinolone acetonide 0.025% cream/ointment, 0.01% solution), low-to-medium potency corticosteroid. Fable draft (corrected a strength error in the brief), Opus critic verified ALL facts verbatim vs 3 DailyMed labels: indication with the real ''corticosteriod'' [sic] typo, column-major adverse-reaction ordering, composition, manufacturer (no invented Biopelle), no branded 0.01% cream. grades effect notable/evidence established, resting on class evidence linked to fluocinolone-acetonide + topical-corticosteroids. Genuine Medimetriks carton image (eyeballed). Price omitted (Rx; generics noted). Dash-free; lint/verify/style clean.'
+cabtreo-clindamycin-adapalene-benzoyl-peroxide-gel:
+  last_reviewed: '2026-09-13'
+  score: 8
+  verdict: publish
+  note: 'Rx: first fixed TRIPLE-combo acne gel (clinda 1.2%/adapalene 0.15%/BPO 3.1%). Main-loop Opus (me) re-verified ALL numbers vs DailyMed setid 9468da0f: indication (age 12+), composition, both trials'' EGSS success (49.6 vs 24.9; 50.5 vs 20.5) + lesion reductions, app-site pain 13.6 vs 0.8. Skeptical: beats vehicle but NO head-to-head vs cheaper dual combo, so framed as convenience/adherence not proven-superior. grades modest-to-moderate/moderate. Genuine carton image. Price omitted. Dash-free; lint clean.'
+neutrogena-tsal-therapeutic-shampoo:
+  last_reviewed: '2026-09-13'
+  score: 8
+  verdict: publish
+  note: 'OTC salicylic acid 3% scalp shampoo. Fable draft, Opus critic verified vs DailyMed setid 54707f0f: active 3%, the purpose-vs-use psoriasis discrepancy (carton/purpose name psoriasis, USE statement omits it - page states this honestly, no psoriasis-treatment claim), 11 inactives verbatim, brand claims quarantined vs cache. Critic fixed a where-to-buy disclaimer. grades modest/established (descales, does not treat Malassezia or modify psoriasis). incidecoder photo eyeballed. Price omitted. Dash-free; lint clean.'
+duobrii-halobetasol-tazarotene-lotion:
+  last_reviewed: '2026-09-13'
+  score: 8
+  verdict: publish
+  note: 'Rx: halobetasol 0.01% + tazarotene 0.045% lotion for plaque psoriasis. Opus critic verified all facts vs DailyMed setid b3f0cdc0: composition, adults-only indication, pregnancy contraindication, Trial1 36% vs 7% + Trial2 45% vs 13% Week8 success, adverse rates. Critic caught + fixed a citation misattribution (steroid-sparing rationale re-sourced from DailyMed to Skin Therapy Letter verbatim + cached). grades notable/solid, skeptical (majority still not clear). Genuine carton image. Price omitted. Dash-free; lint/verify/style clean.'
+onexton-clindamycin-benzoyl-peroxide-gel:
+  last_reviewed: '2026-09-13'
+  score: 8
+  verdict: publish
+  note: 'Rx: clindamycin 1.2% + BPO 3.75% once-daily gel. Main-loop Opus (me) re-verified ALL numbers vs DailyMed setid 697e760a: composition, indication age 12+, EGSS 29 vs 15, 2-grade 35 vs 17, inflammatory 16.3 vs 8.2, non-inflammatory 19.2 vs 9.6, adverse 0.4%. Skeptical: single trial no BPO-alone arm, edge over cheap OTC BPO modest, generics cheaper; cross-links BenzaClin. grades modest/moderate. Genuine carton image. Price omitted. Dash-free; lint clean.'
