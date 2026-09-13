@@ -10540,3 +10540,13 @@ cosrx-full-fit-propolis-light-ampoule:
   score: 7
   verdict: publish
   note: 'K-beauty propolis serum (83.3% brand-declared). Fable draft, Opus critic verified INCI/price vs cached brand page + evidence vs PubMed. Skeptical: propolis''s only replicated human evidence is cold sores (GH 2002 0.5% vs aciclovir), NOT glow/anti-aging (lab data only); documented contact allergen; framed as a humectant serum. grades cosmetic modest/preliminary + health minimal/anecdotal. Fixed a cold-sore citation (de Groot->Jautova 2019 primary, matching the propolis page). incidecoder photo eyeballed. Dash-free; lint clean.'
+mad-hippie-vitamin-c-serum:
+  last_reviewed: '2026-09-13'
+  score: 8
+  verdict: publish
+  note: 'OTC vitamin C serum on sodium ascorbyl phosphate (SAP), a DERIVATIVE not L-ascorbic acid. Fable draft, Opus critic verified INCI/price vs cached brand page + 3 reused SAP primaries (Woolery-Lloyd 2010, Ruamrak 2009, Geesin 1993). Skeptical: SAP inactive-as-applied (animal-only conversion data), no vehicle-controlled human trial for brightening/wrinkles; best evidence is acne at 5% (undisclosed conc here); N=34 brand study flagged unpublished. Critic fixed category (discoverability), downgraded cosmetic grade to minimal/anecdotal (aklief precedent), replaced uncited value-judgments with comparator-anchored facts. Caught tocotrienol-not-tocopherol. incidecoder photo eyeballed. Dash-free; lint clean.'
+aczone-dapsone-7-5-gel:
+  last_reviewed: '2026-09-13'
+  score: 8
+  verdict: publish
+  note: 'Rx: dapsone 7.5% once-daily gel, non-antibiotic non-retinoid topical acne option. Fable draft, Opus critic verified ALL numbers verbatim vs DailyMed setid 22058b7d: composition (distinct from older 5% BID), indication age 9+, both trials GAAS 30 vs 21%, lesion reductions, G6PD/methemoglobinemia language, adverse rates. Standout skeptical calibration: 9-point GAAS gap but <2 extra inflammatory lesions vs vehicle, stated repeatedly. Critic fixed the indication quote (restored ''a sulfone'' clause). grades modest/moderate. Genuine Almirall carton image. Price omitted (generics noted). Dash-free; lint/verify/style clean.'
