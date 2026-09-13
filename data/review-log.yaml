@@ -10520,3 +10520,23 @@ onexton-clindamycin-benzoyl-peroxide-gel:
   score: 8
   verdict: publish
   note: 'Rx: clindamycin 1.2% + BPO 3.75% once-daily gel. Main-loop Opus (me) re-verified ALL numbers vs DailyMed setid 697e760a: composition, indication age 12+, EGSS 29 vs 15, 2-grade 35 vs 17, inflammatory 16.3 vs 8.2, non-inflammatory 19.2 vs 9.6, adverse 0.4%. Skeptical: single trial no BPO-alone arm, edge over cheap OTC BPO modest, generics cheaper; cross-links BenzaClin. grades modest/moderate. Genuine carton image. Price omitted. Dash-free; lint clean.'
+isotretinoin:
+  last_reviewed: '2026-09-13'
+  score: 9
+  verdict: publish
+  note: 'Ingredient: oral isotretinoin (Absorica/Accutane), the most effective acne drug. Opus critic: 10/10 all dimensions, every quote/stat re-verified verbatim vs DailyMed + PubMed (Costa 2018 Cochrane efficacy nuance, Huang 2017/Tan 2024 depression, Yu 2023 IBD, Layton 2009/Rademaker 2016 dose). tier:best explicitly scoped to EFFICACY; teratogenicity/iPLEDGE not softened; depression/IBD balanced (no established causal link, warnings remain). Critic fixed 2 anti-ai-ese meta lines. Dash-free; lint/verify/style clean.'
+melasma-in-pregnancy:
+  last_reviewed: '2026-09-13'
+  score: 8
+  verdict: publish
+  note: 'Condition hub: chloasma/mask of pregnancy. Opus critic verified all classifications vs 3 PMC reviews (Zhao 2024 postpartum-fade + iron-oxide photoprotection, Ly 2023 azelaic safe all trimesters, Bozzo 2011 hydroquinone 35-45%/retinoids avoid). Critic caught+fixed an isotretinoin-teratogen claim misattributed to Bozzo (re-sourced to DailyMed). tier_list first-line/avoid; niacinamide/vitC omitted (no pregnancy source). Links out to melasma + pregnancy-safe-skincare. Mandatory disclaimer. Dash-free; lint/verify/style clean.'
+head-and-shoulders-classic-clean-anti-dandruff-shampoo:
+  last_reviewed: '2026-09-13'
+  score: 8
+  verdict: publish
+  note: 'OTC pyrithione zinc 1% antidandruff shampoo. Fable draft, Opus critic verified vs DailyMed setid f28a55cf: active, USE verbatim (DANDRUFF ONLY, no seb-derm on label - page flags honestly), 15 inactives, brand-vs-label HydraZinc reformulation discrepancy. Critic caught+fixed FABRICATED package sizes (no 2.95L exists; real range 10mL-1.28L per packaging.json). Targets Malassezia (unlike keratolytic); manages not cures. grades notable/established. incidecoder photo eyeballed. Dash-free; lint clean.'
+cosrx-full-fit-propolis-light-ampoule:
+  last_reviewed: '2026-09-13'
+  score: 7
+  verdict: publish
+  note: 'K-beauty propolis serum (83.3% brand-declared). Fable draft, Opus critic verified INCI/price vs cached brand page + evidence vs PubMed. Skeptical: propolis''s only replicated human evidence is cold sores (GH 2002 0.5% vs aciclovir), NOT glow/anti-aging (lab data only); documented contact allergen; framed as a humectant serum. grades cosmetic modest/preliminary + health minimal/anecdotal. Fixed a cold-sore citation (de Groot->Jautova 2019 primary, matching the propolis page). incidecoder photo eyeballed. Dash-free; lint clean.'

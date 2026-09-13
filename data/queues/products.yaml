@@ -2232,7 +2232,7 @@
     in the propolis ingredient page (COSRX)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: null
 - name: 'Beauty of Joseon Glow Deep Serum: Rice + Alpha Arbutin - popular propolis-and-rice brightening
@@ -2260,7 +2260,7 @@
     zinc-pyrithione dandruff shampoo, named on the dandruff hub; no page yet
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: null
 - name: Cabtreo (clindamycin phosphate 1.2% / adapalene 0.15% / benzoyl peroxide 3.1% gel) - the first
