@@ -22,10 +22,20 @@ tier_list:
       redness, so it manages rather than cures the erythema.
     slug: brimonidine
     tier: moderate
+  - note: The branded prescription brimonidine 0.33 percent gel, the delivery form of
+      the vasoconstrictor above; graded on that brimonidine evidence, same transient
+      effect and rebound-redness caveat.
+    slug: mirvaso-brimonidine-gel
+    tier: moderate
   - note: Reduces the background inflammation that drives redness, with reasonable
       rosacea evidence; better studied for the bumps of the papulopustular subtype
       but still a useful anti-redness topical here.
     slug: azelaic-acid
+    tier: moderate
+  - note: The branded prescription azelaic acid 15 percent gel, the delivery form of
+      the azelaic acid above; graded on that active's anti-redness evidence, not a
+      separate trial.
+    slug: finacea-azelaic-acid-15-gel
     tier: moderate
   - note: The classic rosacea topical gives a modest reduction in redness for this
       subtype, more so when some inflammatory bumps are also present; the evidence
@@ -39,7 +49,7 @@ tier_list:
     tier: weak
   title: Erythematotelangiectatic rosacea treatments by evidence
 type: condition
-updated: '2026-08-18'
+updated: '2026-09-13'
 videos:
 - title: 'WTH ARE LASERS??? #skincare #dermatologist #dermangelo #lasers'
   creator: Dr. Angelo Landriscina (DermAngelo)
