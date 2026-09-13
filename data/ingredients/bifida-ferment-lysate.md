@@ -4,8 +4,9 @@ assurance: sonnet
 name: Bifida ferment lysate
 slug: bifida-ferment-lysate
 status: published
+tier: weak
 type: ingredient
-updated: '2026-08-08'
+updated: '2026-09-13'
 ---
 
 Bifida ferment lysate (BFL) is a postbiotic, the broken-down byproduct of fermenting *Bifidobacterium* rather than a live probiotic, and it is best known as the ingredient behind Estee Lauder's "bio-ferment" Advanced Night Repair franchise; the broader distinction between live probiotics and dead-cell ferments/lysates is covered on [[probiotics]]. Independent, ingredient-specific evidence for it is thin: one in vitro cell-culture study and one trial of a multi-active combination product where BFL's own contribution cannot be isolated.

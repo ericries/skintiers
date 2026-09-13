@@ -5,7 +5,7 @@ name: Beauty of Joseon
 slug: beauty-of-joseon
 status: published
 type: brand
-updated: '2026-07-28'
+updated: '2026-09-13'
 ---
 
 Beauty of Joseon is a South Korean skincare brand built around a "hanbang" (traditional Korean herbal medicine) positioning, sold internationally by the privately held company Goodai Global Inc.[^1][^2]
@@ -34,6 +34,8 @@ The brand's official store groups its products into sunscreens, cleansers, exfol
 
 - [[beauty-of-joseon-relief-sun-rice-probiotics-spf50]]: the brand's imported Korean daily sunscreen, SPF50+ PA++++, built on modern organic UV filters, with strong independently tested UVA and UVB protection.
 - [[beauty-of-joseon-light-on-serum-centella-vita-c]]: a lightweight serum whose vitamin C is the water-stable derivative 3-O-ethyl ascorbic acid, paired with centella asiatica extract.
+- [[beauty-of-joseon-aqua-fresh-sun-serum]]: a lightweight chemical daily sunscreen, SPF50+ PA++++, in the Relief Sun line.
+- [[beauty-of-joseon-revive-eye-serum-ginseng-retinal]]: an under-eye serum pairing panthenol and ginseng with retinal (a retinoid).
 
 ## Sources
 
