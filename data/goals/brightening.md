@@ -42,6 +42,15 @@ tier_list:
       yet independently replicated.
     slug: 4-butylresorcinol
     tier: moderate
+  - note: Another resorcinol tyrosinase inhibitor; in a split-body trial 1% hexylresorcinol
+      ran about even with 2% hydroquinone, a real but modest and single-study case.
+    slug: hexylresorcinol
+    tier: moderate
+  - note: A resorcinol brightener (isobutylamido thiazolyl resorcinol) that is an
+      exceptionally potent tyrosinase inhibitor in vitro with vehicle-controlled melasma
+      trials behind it, though the trials are manufacturer-run rather than independent.
+    slug: thiamidol
+    tier: moderate
   - note: Tyrosinase-inhibiting brightener, usually a combination-formula add-on.
       Real but comparatively modest evidence; ranks below hydroquinone, azelaic acid,
       and tranexamic acid on pooled effect size.
@@ -60,7 +69,7 @@ tier_list:
     tier: minimal
   title: Topical actives that even skin tone, by evidence
 type: goal
-updated: '2026-08-26'
+updated: '2026-09-13'
 ---
 
 "Brightening" and "even skin tone" are marketing umbrella terms for more than one problem, and the problems need different fixes. Nothing on this page bleaches skin lighter than its own natural tone, and none of it works fast: the trials behind these actives typically run 8 to 12 weeks or longer, and none produce a lasting result without daily sun protection underneath.
@@ -92,7 +101,7 @@ The grades in the tier list above reuse the evidence already established on each
 ## Sources
 
 [^fda2006]: Food and Drug Administration. Skin Bleaching Drug Products For Over-the-Counter Human Use; Proposed Rule. Federal Register, 2006;71(167):51146 (August 29, 2006), document E6-14263. https://www.federalregister.gov/documents/2006/08/29/E6-14263/skin-bleaching-drug-products-for-over-the-counter-human-use-proposed-rule (accessed 2026-08-10)
-[^triluma]: TRI-LUMA (fluocinolone acetonide, hydroquinone, and tretinoin) Cream — FDA prescribing information (DailyMed), Galderma Laboratories. https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a35fa709-5eb5-4429-b38f-f1e0019bf0ee (accessed 2026-07-28)
+[^triluma]: TRI-LUMA (fluocinolone acetonide, hydroquinone, and tretinoin) Cream, FDA prescribing information (DailyMed), Galderma Laboratories. https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a35fa709-5eb5-4429-b38f-f1e0019bf0ee (accessed 2026-07-28)
 
 [^castanedo]: Castanedo-Cazares JP, Hernandez-Blanco D, Carlos-Ortega B, Fuentes-Ahumada C, Torres-Álvarez B. Near-visible light and UV photoprotection in the treatment of melasma: a double-blind randomized trial. Photodermatology, Photoimmunology & Photomedicine, 2014;30(1):35-42. https://pubmed.ncbi.nlm.nih.gov/24313385/ (accessed 2026-08-10)
 [^delrosario]: Del Rosario E, Florez-Pollack S, Zapata L Jr, Hernandez K, Tovar-Garza A, Rodrigues M, Hynan LS, Pandya AG. Randomized, placebo-controlled, double-blind study of oral tranexamic acid in the treatment of moderate-to-severe melasma. Journal of the American Academy of Dermatology, 2018;78(2):363-369. https://pubmed.ncbi.nlm.nih.gov/28987494/ (accessed 2026-08-10)
