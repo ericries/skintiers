@@ -198,6 +198,16 @@ videos:
   related: [sun-damage-photoaging, facial-redness-relief, anti-aging]
   thesis: Board-certified dermatologist Dr. Sheila Farhang explains that when skin looks transparent enough to see blood vessels, it is because lighter skin types have less melanin, the natural camouflage that hides redness, inflammation, and vessels. She notes lighter skin has less built-in UV protection and tends to break down, thin, and wrinkle faster over time, so she recommends daily SPF, antioxidants, azelaic acid for redness, and says lasers can be a game changer
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Do not give up on azelaic acid too soon
+  creator: Ella
+  creator_slug: your-estie-ella
+  credential: Licensed esthetician
+  platform: TikTok
+  url: https://www.tiktok.com/@your.estie.ella/video/7684331407728069902
+  posted: '2026-09-11'
+  related: [acne, hyperpigmentation]
+  thesis: Licensed esthetician Ella explains that azelaic acid helps several concerns at once (acne, texture, redness, and pigmentation) and is gentle and easy to work into a routine, but its benefits arrive on different timelines. The calming of redness and inflammation shows up soonest, often within the first couple of weeks, while acne regulation takes roughly six to twelve weeks and pigmentation fading takes about two months or longer. Her point is that people often quit azelaic acid before its slower benefits have had time to appear.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
@@ -274,9 +284,9 @@ This section is quarantined and discounted; treat everything here as unproven un
 [^1]: King S, Campbell J, Rowe R, Daly M-L, Moncrieff G, Maybury C. A systematic review to evaluate the efficacy of azelaic acid in the management of acne, rosacea, melasma and skin aging. Journal of Cosmetic Dermatology, 2023;22(10):2650-2662. https://pubmed.ncbi.nlm.nih.gov/37550898/ (accessed 2026-07-26)
 [^2]: Elewski BE, Fleischer AB Jr, Pariser DM. A comparison of 15% azelaic acid gel and 0.75% metronidazole gel in the topical treatment of papulopustular rosacea: results of a randomized trial. Archives of Dermatology, 2003;139(11):1444-1450. https://pubmed.ncbi.nlm.nih.gov/14623704/ (accessed 2026-07-26)
 [^3]: van Zuuren EJ, Fedorowicz Z. Interventions for rosacea: abridged updated Cochrane systematic review including GRADE assessments. British Journal of Dermatology, 2015. https://pubmed.ncbi.nlm.nih.gov/26099423/ (accessed 2026-07-26)
-[^4]: FINACEA (azelaic acid) Gel, 15% — FDA prescribing information (DailyMed), initial U.S. approval 1995. https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9f40cd45-58a6-4376-9220-84bfe7d7e358 (accessed 2026-07-26)
+[^4]: FINACEA (azelaic acid) Gel, 15%, FDA prescribing information (DailyMed), initial U.S. approval 1995. https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9f40cd45-58a6-4376-9220-84bfe7d7e358 (accessed 2026-07-26)
 [^5]: Verallo-Rowell VM, Verallo V, Graupe K, Lopez-Villafuerte L, Garcia-Lopez M. Double-blind comparison of azelaic acid and hydroquinone in the treatment of melasma. Acta Dermato-Venereologica Supplementum (Stockh), 1989. https://pubmed.ncbi.nlm.nih.gov/2528260/ (accessed 2026-07-26)
 [^6]: Albzea W, AlRashidi R, Alkandari D, et al. Azelaic Acid Versus Hydroquinone for Managing Patients With Melasma: Systematic Review and Meta-Analysis of Randomized Controlled Trials. Cureus, 2023. https://pmc.ncbi.nlm.nih.gov/articles/PMC10339666/ (accessed 2026-07-26)
 [^7]: Katsambas A, Graupe K, Stratigos J. Clinical studies of 20% azelaic acid cream in the treatment of acne vulgaris. Comparison with vehicle and topical tretinoin. Acta Dermato-Venereologica, 1989;69(Suppl 143):35-39. https://www.medicaljournals.se/acta/content/abstract/10.2340/000155551433539 (accessed 2026-07-26)
-[^8]: AZELEX (azelaic acid) Cream, 20% — FDA prescribing information (DailyMed), initial U.S. approval 1995. https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ebdfcaf7-b5d6-47e1-be87-ccaba4b97e75 (accessed 2026-07-26)
+[^8]: AZELEX (azelaic acid) Cream, 20%, FDA prescribing information (DailyMed), initial U.S. approval 1995. https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ebdfcaf7-b5d6-47e1-be87-ccaba4b97e75 (accessed 2026-07-26)
 [^9]: Coda AB, Hata T, Miller J, et al. Cathelicidin, kallikrein 5, and serine protease activity is inhibited during treatment of rosacea with azelaic acid 15% gel. Journal of the American Academy of Dermatology, 2013;69(4):570-577. https://pubmed.ncbi.nlm.nih.gov/23871720/ (accessed 2026-07-26)

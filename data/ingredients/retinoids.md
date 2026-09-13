@@ -162,6 +162,16 @@ videos:
   related: [tretinoin, adapalene, acne, anti-aging]
   thesis: 'Esthetician Jenn Lexi frames retinoids as an umbrella running from gentlest to harshest: retinyl esters are mildest, then retinol, with prescription tretinoin (retinoic acid) the strongest and over-the-counter adapalene a milder relative. She explains that gentler forms work by converting through several chemical steps on the skin (ester to retinol to retinoic acid), so the slower conversion is what makes them less irritating. She warns against jumping straight from retinol to tretinoin and recommends easing in on a spaced schedule, starting once every seven days and shortening the gap only as the skin tolerates it.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Realistic timelines for retinoids (skincare takes time)
+  creator: Ella
+  creator_slug: your-estie-ella
+  credential: Licensed esthetician
+  platform: TikTok
+  url: https://www.tiktok.com/@your.estie.ella/video/7683218947277180174
+  posted: '2026-09-08'
+  related: [tretinoin, retinaldehyde, adapalene, acne]
+  thesis: Licensed esthetician Ella pushes back on marketing that promises fast results, arguing that a realistic improvement from a single skincare product is closer to 20 percent and that people quit too soon. For any retinoid, she says results take about three months, with the first two months being the adjustment phase (often called retinization or the retinoid uglies), acne starting to slow and skin regulating around the three-to-four-month mark, and pigmentation taking six to eight months of consistent use. Her message is that realistic expectations are what let people stick with an effective routine.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 name: Retinoids
 slug: retinoids
 status: published
@@ -276,7 +286,7 @@ Treat everything here as unproven or overstated unless it appears in The Evidenc
 [^saurat]: Saurat JH, Didierjean L, Masgrau E, et al. Topical retinaldehyde on human skin: biologic effects and tolerance. Journal of Investigative Dermatology, 1994;103(6):770-774. https://pubmed.ncbi.nlm.nih.gov/7798613/ (accessed 2026-07-27)
 [^zasada]: Zasada M, Budzisz E. Retinoids: active molecules influencing skin structure formation in cosmetic and dermatological treatments. Postepy Dermatologii i Alergologii (Advances in Dermatology and Allergology), 2019;36(4):392-397. https://pmc.ncbi.nlm.nih.gov/articles/PMC6791161/ (accessed 2026-07-27)
 [^cosio]: Cosio T, Di Prete M, Gaziano R, et al. Trifarotene: A Current Review and Perspectives in Dermatology. Biomedicines, 2021;9(3):237. https://pmc.ncbi.nlm.nih.gov/articles/PMC7996910/ (accessed 2026-07-27) [Secondary review, cited for the first-through-fourth-generation retinoid classification; not a primary trial.]
-[^adapalene-otc]: Adapalene Gel 0.1% (Neutrogena Evenly Clear Retinoid) — over-the-counter Drug Facts label (DailyMed). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3f9b75cf-75aa-9012-e063-6294a90a6469 (accessed 2026-07-27)
+[^adapalene-otc]: Adapalene Gel 0.1% (Neutrogena Evenly Clear Retinoid), over-the-counter Drug Facts label (DailyMed). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3f9b75cf-75aa-9012-e063-6294a90a6469 (accessed 2026-07-27)
 [^huang]: Huang H-Y, Lee LT-J. Tretinoin for photodamaged facial skin: systematic review and meta-analysis of randomized controlled trials. Dermatology Practical & Conceptual, 2025. https://dpcj.org/index.php/dpc/article/view/5172 (accessed 2026-07-27)
 [^mavranezouli]: Mavranezouli I, Daly CH, Welton NJ, et al. A systematic review and network meta-analysis of topical pharmacological, oral pharmacological, physical and combined treatments for acne vulgaris. British Journal of Dermatology, 2022;187(5):639-649. https://pmc.ncbi.nlm.nih.gov/articles/PMC9804728/ (accessed 2026-07-27)
 [^tan]: Tan J, Thiboutot D, Popp G, et al. Randomized phase 3 evaluation of trifarotene 50 ug/g cream treatment of moderate facial and truncal acne. Journal of the American Academy of Dermatology, 2019;80(6):1691-1699. https://www.jaad.org/article/S0190-9622(19)30335-4/fulltext (accessed 2026-07-27)
