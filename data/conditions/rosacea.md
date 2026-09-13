@@ -6,7 +6,9 @@ slug: rosacea
 status: published
 tier_list:
   by: strength of the evidence for treating rosacea; most first-line rosacea treatments
-    are prescription, and daily sun protection plus trigger avoidance are foundational
+    are prescription, and daily sun protection plus trigger avoidance are foundational.
+    The branded prescription products below each deliver a ranked active and are graded
+    on that active's evidence, not a separate trial
   items:
   - note: Sun exposure is one of the most common rosacea triggers, so daily broad-spectrum
       sunscreen is foundational for reducing flares; it manages a major trigger rather
@@ -47,9 +49,37 @@ tier_list:
       treats the disease.
     slug: niacinamide
     tier: weak
+  - note: A prescription alpha-agonist topical (Rhofade) that, like brimonidine, temporarily
+      constricts vessels to reduce the persistent facial redness of rosacea; a same-class
+      alternative with the same transient-effect limitation.
+    slug: oxymetazoline-topical
+    tier: moderate
+  - note: The branded prescription form of topical metronidazole 1%, the long-standing
+      first-line topical; graded on the metronidazole evidence above.
+    slug: metrogel-metronidazole-1-gel
+    tier: moderate
+  - note: The branded prescription brimonidine 0.33% gel for facial redness; delivers the
+      brimonidine active above, with the same rebound-flushing caveat.
+    slug: mirvaso-brimonidine-gel
+    tier: moderate
+  - note: Microencapsulated benzoyl peroxide 5% cream, FDA-approved for papulopustular
+      rosacea on the strength of two phase 3 vehicle-controlled trials; a newer option
+      that made BPO tolerable enough for rosacea skin.
+    slug: epsolay-benzoyl-peroxide-5-cream
+    tier: moderate
+  - note: Topical minocycline 1.5% foam (FMX103), FDA-approved for papulopustular rosacea
+      with phase 3 vehicle-controlled evidence; a topical route to a tetracycline-class
+      antibiotic.
+    slug: zilxi-minocycline-foam
+    tier: moderate
+  - note: Oral minocycline extended-release 40 mg (DFD-29), FDA-approved in 2024 for
+      papulopustular rosacea, which beat both vehicle and oral doxycycline in its phase 3
+      trials; a systemic option alongside sub-antimicrobial doxycycline.
+    slug: emrosi-minocycline-extended-release
+    tier: moderate
   title: Rosacea treatments by evidence
 type: condition
-updated: '2026-08-15'
+updated: '2026-09-13'
 videos:
 - creator: ''
   creator_slug: usama-syed
