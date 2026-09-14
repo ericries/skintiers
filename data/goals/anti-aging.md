@@ -242,6 +242,16 @@ videos:
   related: [peptides, sunscreen-uv-filters]
   thesis: Board-certified dermatologist Dr. Michelle Henry explains how to protect and stimulate the skin's collagen for anti-aging. She stresses daily sunscreen (SPF 30, or SPF 50 outdoors over an hour), and notes that creams labeled collagen do little because the collagen molecule is too large to penetrate skin, so what works are peptides or collagen peptides small enough to get in and signal the skin to make more collagen. She adds that diet matters, pointing to lean meats, bone broth, and fish for amino acids and citrus as a cofactor the body needs to build collagen.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: UV damage is still the number one cause of skin aging
+  creator: Dr. Aegean Chan
+  creator_slug: aegean-chan
+  credential: Board-certified dermatologist
+  platform: TikTok
+  url: https://www.tiktok.com/@draegeanchan/video/7684001723794443551
+  posted: '2026-09-10'
+  related: [sunscreen-uv-filters, retinoids]
+  thesis: 'Board-certified dermatologist Dr. Aegean Chan explains that UV damage is, in her view, the number one driver of skin aging: chronic sun exposure degrades collagen and elastic fibers, producing the change dermatologists call solar elastosis, which she describes as mushy collagen. She uses that as a skeptical yardstick for skincare marketing, asking whether any cream could realistically reverse 50 years of accumulated UV damage, and concludes there is no magic solution.'
+  note: Verified from the clip's TikTok subtitles (read in full); no sponsorship.
 
 ---
 
