@@ -4,7 +4,7 @@ name: Black Girl Sunscreen
 slug: black-girl-sunscreen
 status: published
 type: brand
-updated: '2026-08-13'
+updated: '2026-09-14'
 ---
 
 Black Girl Sunscreen is a US suncare brand that makes chemical sunscreens formulated to blend into deeper skin tones without a white cast. The brand says it was founded in 2016 by Shontay Lundy, who started it after struggling to find a sunscreen that did not leave a visible cast on melanin-rich skin.[^1]
@@ -12,6 +12,7 @@ Black Girl Sunscreen is a US suncare brand that makes chemical sunscreens formul
 Products profiled here so far:
 
 - [[black-girl-sunscreen-spf-30]]: its flagship Broad Spectrum SPF 30 chemical sunscreen (avobenzone, homosalate, octisalate, octocrylene), with the UV-protection evidence graded on its own page and the filter science on [[sunscreen-uv-filters]].
+- [[black-girl-sunscreen-make-it-matte-spf-45]]: a mattifying broad-spectrum SPF 45 chemical sunscreen from the same line, graded on its own page.
 
 ## Sources
 
