@@ -26,6 +26,12 @@ tier_list:
       replication. See [[tasmannia-lanceolata-extract]].
     slug: tasmannia-lanceolata-extract
     tier: weak
+  - note: The most heavily marketed prevention ingredient, but the 2012 Cochrane review
+      of centella-containing creams found no high-quality evidence they prevent stretch
+      marks; only a subgroup of women with prior pregnancy striae showed a signal.
+      See [[centella-asiatica]].
+    slug: centella-asiatica
+    tier: weak
   - note: Cocoa butter, the classic stretch-mark product. A double-blind, placebo-controlled
       trial found it did no better than placebo at preventing pregnancy stretch marks
       (45.1% versus 48.8%), and the 2016 review found cocoa butter "did not demonstrate
@@ -38,9 +44,14 @@ tier_list:
       2016 review found showed no effect. See [[bio-oil-skincare-oil]].
     slug: bio-oil-skincare-oil
     tier: minimal
+  - note: A branded stretch-mark cream built on Cepalin (onion) extract, hyaluronic
+      acid, and centella; none of those has strong controlled evidence for preventing
+      or erasing striae, so it grades minimal on its own page. See [[mederma-stretch-marks-therapy]].
+    slug: mederma-stretch-marks-therapy
+    tier: minimal
   title: Topical stretch-mark treatments by evidence
 type: goal
-updated: '2026-08-26'
+updated: '2026-09-13'
 videos:
 - title: Stretch Marks   Can You Actually Get Rid of Them? A Dermatologist Answers Honestly | Dr. Jenny Liu
   creator: Dr. Jenny Liu (Jenny Liu, MD, FAAD)
