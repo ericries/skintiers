@@ -10580,3 +10580,8 @@ jackson-2026-astragalus-membranaceus-antiaging-review:
   score: 8
   verdict: publish
   note: 'Study: Jackson 2026 systematic review of Astragalus membranaceus for anti-aging (JDD 2026;25(1):88-92, PMID 41493245). Drafted inline (compact study infra), Opus critic verified all 5 quoted phrases verbatim against 3 independent fetches (PubMed/efetch/JDD) + citation metadata exact. Central honesty point confirmed: the abstract reports NO n/effect-sizes/p-values, so the page states "no quantified pooled figures reported" and fabricates nothing; framed as preclinical-weighted, unproven in humans, echoing the authors own call for RCTs. Dash-free; lint/verify/style clean.'
+caroline-robinson:
+  last_reviewed: '2026-09-14'
+  score: 8
+  verdict: publish
+  note: 'Person (discovery card, no Opus critic per person flow): Dr. Caroline Robinson, MD FAAD, board-certified dermatologist, founder/CEO of Tone Dermatology (Chicago), skin-of-color focus. Credential independently verified (tonedermatology.com founder story + Practo MD/FAAD + Black Derm Directory); verbatim bio quote cached from tonedermatology.com/about-tone (non-primary, source_cache). 123 words, links to her 6 carded topics. Disclosure: ShopMy affiliate + Tone Shop e-commerce -> product picks flagged promotional (roster product_recs restricted). Dash-free; lint/style clean; verify WARN is the expected non-primary-domain flag (cached).'
