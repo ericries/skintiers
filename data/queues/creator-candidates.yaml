@@ -23,8 +23,7 @@
   - melasma
   - sunscreen
   status: rejected
-  reject_reason: Brand-owned channel (Isomers Skincare house line), not an independent
-    educator; product recs = own inventory.
+  reject_reason: Brand-owned channel (Isomers Skincare house line), not an independent educator; product recs = own inventory.
 - name: The Budget Dermatologist
   channel_url: https://www.youtube.com/channel/UCDc2wFMXTSApCa4UwDrdz_Q
   hits: 3
@@ -47,20 +46,23 @@
   topics:
   - hyaluronic acid
   - salicylic acid
-  status: pending
+  status: rejected
+  reject_reason: Cosmetic-formulation training institute (sells courses); formulator-facing livestreams (how to formulate emulsions/balms, source ingredients), not consumer skincare-evidence content that maps to site pages.
 - name: April Basi
   channel_url: https://www.youtube.com/channel/UCoggt1MMgHRaDZtFYY-2TMg
   hits: 2
   topics:
   - benzoyl peroxide
   - melasma
-  status: pending
+  status: rejected
+  reject_reason: General lifestyle/beauty vlogger (girl-math/first-date, H Mart hauls, hair-product reviews); not a skincare-science creator.
 - name: The Skincare Engineer
   channel_url: https://www.youtube.com/channel/UCkPv5aRcNNC_rHL0sJxhViQ
   hits: 1
   topics:
   - niacinamide
-  status: pending
+  status: rejected
+  reject_reason: Creator (Laura) self-identifies on-camera as a chemical engineering STUDENT and future cosmetic founder, but the channel brands her as a 'cosmetic chemist' (overstated credential); thin 2-video catalog; future own-brand conflict. Content is accurate but the credential bar and trajectory are not met.
 - name: Luisa Fanzani
   channel_url: https://www.youtube.com/channel/UC3NJnOSNC-dhB3lyU4IFDSA
   hits: 1
@@ -79,8 +81,7 @@
   topics:
   - salicylic acid
   status: rejected
-  reject_reason: Brand-owned channel (Sandra Lee / SLMD house line); product recs
-    = own inventory, not independent.
+  reject_reason: Brand-owned channel (Sandra Lee / SLMD house line); product recs = own inventory, not independent.
 - name: Skin Chemist
   channel_url: https://www.youtube.com/channel/UCMPpJnaJCveK1d0xlXhxTLw
   hits: 1
@@ -259,4 +260,28 @@
   topics:
   - referral
   discovered_via: 'referral: 6RbOuBv0aMk'
+  status: pending
+- name: Skin Deep MDs
+  channel_url: https://www.youtube.com/channel/UCQP_jiwa-H9KuRi5M0FZOhA
+  hits: 1
+  topics:
+  - retinoids
+  status: pending
+- name: The Contoured Chemist
+  channel_url: https://www.youtube.com/channel/UCCIZUizc9JQE9QAeRfBaltA
+  hits: 1
+  topics:
+  - rosacea
+  status: pending
+- name: U.S. Dermatology Partners
+  channel_url: https://www.youtube.com/channel/UCf27Z_D2lZpYPCQx8gynxgg
+  hits: 1
+  topics:
+  - melasma
+  status: pending
+- name: Your Cosmetic Chemist
+  channel_url: https://www.youtube.com/channel/UCioc-gLsHMyoIIJzxjBSOjQ
+  hits: 1
+  topics:
+  - hyaluronic acid
   status: pending
