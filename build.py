@@ -695,8 +695,12 @@ def tier_list_view(profile, by_slug):
         rows.sort(key=lambda r: (-r["segs"], r["order"]))
         label = label_overrides.get(key) or _TIER_LABEL_BY_KEY.get(key, "Unrated")
         tiers.append({"key": key, "label": label, "items": rows})
-    return {"title": tl.get("title") or "", "by": tl.get("by") or "",
-            "caption": tl.get("caption") or "",
+    # `by`/`caption` are short editorial phrases that naturally reference other
+    # pages; linkify their [[xrefs]] like item notes so they never reach the
+    # reader as raw brackets (the render bug the smoke test caught here).
+    return {"title": tl.get("title") or "",
+            "by": render_inline(tl.get("by") or "", published, slug_to_name),
+            "caption": render_inline(tl.get("caption") or "", published, slug_to_name),
             "tiers": tiers, "missing": missing}
 
 

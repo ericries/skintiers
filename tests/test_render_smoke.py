@@ -45,12 +45,22 @@ def _content_pages(out):
             yield f
 
 
+# An intended xref is `[[slug]]`/`[[slug|alias]]`, and page slugs are kebab-case
+# starting with a lowercase letter. linkify_xrefs turns even an UNRESOLVED such
+# xref into plain text (never raw brackets), so a surviving `[[<letter>` in HTML
+# means a field was not linkified at all - the real bug. `[[` followed by `(` or
+# a digit is legitimate IUPAC chemical nomenclature (e.g. `2-[[(2S)-...`), not an
+# xref, so it is not flagged.
+_UNRESOLVED_XREF = re.compile(r"\[\[[a-z]")
+
+
 def test_no_unresolved_xref_survives_into_html(rendered_site):
     offenders = []
     for f in _content_pages(rendered_site):
         html = pathlib.Path(f).read_text()
-        i = html.find("[[")
-        if i != -1:
+        m = _UNRESOLVED_XREF.search(html)
+        if m:
+            i = m.start()
             offenders.append(f"{os.path.basename(f)}: ...{html[max(0, i-40):i+40]}...")
     assert not offenders, (
         "unresolved [[xref]] rendered as raw text (should be a link or |alias):\n"
