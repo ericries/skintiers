@@ -20,6 +20,10 @@ grades:
     the brand. General actives on [[clindamycin-topical]] and [[benzoyl-peroxide]]'
   use: For the topical treatment of acne vulgaris, its FDA-approved indication, in
     patients 12 years of age and older (health)
+images:
+- file: benzaclin-clindamycin-benzoyl-peroxide-gel-dailymed.jpg
+  source: DailyMed
+  source_url: https://dailymed.nlm.nih.gov/dailymed/image.cfm?name=6062.jpg&setid=c1adf643-ee59-4251-bbf8-49f54265f833&type=img
 key_actives:
 - clindamycin-topical
 - benzoyl-peroxide
