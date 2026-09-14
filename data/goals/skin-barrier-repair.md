@@ -270,6 +270,16 @@ videos:
   related: [hyaluronic-acid, panthenol, skin-barrier-strengthening]
   thesis: 'Dr. Fatima Fahs, a dermatologist, explains that sudden skin burning, tightness after moisturizing, flakiness, oiliness, or unexplained breakouts usually signal a damaged skin barrier rather than newly sensitive skin. She compares the barrier to a brick wall, with skin cells as the bricks and lipids as the mortar, and notes that cracks let water escape and irritants in, increasing inflammation. Her takeaway: the healthiest skin isn''t the skin with the most products, it''s the skin with the strongest barrier'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Your Skin Barrier Is Damaged. Now What?
+  creator: Andrea Suarez (Dr Dray)
+  creator_slug: andrea-suarez-dr-dray
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=-TR0sfGzoY0
+  posted: '2026-09-11'
+  related: [ceramides, colloidal-oatmeal, glycerin, zinc-oxide, dry-skin]
+  thesis: Board-certified dermatologist Dr. Dray explains what a damaged skin barrier needs and where barrier creams and balms fit in, pointing out they are useful well beyond eczema and diaper rash, including for cold weather and anyone with a compromised barrier. She favors simple, fragrance-free formulas that rely on occlusion plus soothing and hydrating ingredients such as colloidal oatmeal, zinc oxide, glycerin, shea butter, and ceramides, and stresses protecting irritated skin rather than over-treating it while it recovers.
+  note: Verified from the video transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
