@@ -2395,7 +2395,7 @@
 - name: Plexion (sodium sulfacetamide 10% / sulfur 5% cleanser)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: klaron-sodium-sulfacetamide-10-lotion
   source: sodium sulfacetamide/sulfur combination class referenced on the Klaron page
     as 'more heavily studied'; verify identity vs DailyMed at build
