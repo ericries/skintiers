@@ -12,7 +12,7 @@
   - sunscreen
   - tretinoin
   - vitamin C serum
-  status: pending
+  status: added
 - name: Isomers Skincare
   channel_url: https://www.youtube.com/channel/UCishx5LBR8dSAzj5GVWy1Zw
   hits: 6
@@ -22,7 +22,8 @@
   - hyperpigmentation
   - melasma
   - sunscreen
-  status: pending
+  status: rejected
+  reject_reason: Brand-owned channel (Isomers Skincare house line), not an independent educator; product recs = own inventory.
 - name: The Budget Dermatologist
   channel_url: https://www.youtube.com/channel/UCDc2wFMXTSApCa4UwDrdz_Q
   hits: 3
@@ -30,7 +31,7 @@
   - fungal acne
   - retinoids
   - tretinoin
-  status: pending
+  status: added
 - name: Dr. Aleksandra Brown DO, FAAD
   channel_url: https://www.youtube.com/channel/UC52c6a0gfbhuVCdHYZQAzuQ
   hits: 3
@@ -38,7 +39,7 @@
   - fungal acne
   - niacinamide
   - sunscreen
-  status: pending
+  status: added
 - name: The Institute of Personal Care Science
   channel_url: https://www.youtube.com/channel/UCczaVLd160LPFdn9E8hrYxA
   hits: 3
@@ -76,7 +77,8 @@
   hits: 1
   topics:
   - salicylic acid
-  status: pending
+  status: rejected
+  reject_reason: Brand-owned channel (Sandra Lee / SLMD house line); product recs = own inventory, not independent.
 - name: Skin Chemist
   channel_url: https://www.youtube.com/channel/UCMPpJnaJCveK1d0xlXhxTLw
   hits: 1
@@ -100,7 +102,7 @@
   hits: 1
   topics:
   - benzoyl peroxide
-  status: pending
+  status: added
 - name: Dr. Sarah Sheu
   channel_url: https://www.youtube.com/channel/UCt81dX_POSILzje8ICIRGHQ
   hits: 1
@@ -168,4 +170,77 @@
   topics:
   - referral
   discovered_via: 'referral: mpfOVDGzKXw'
+  status: pending
+- name: DrAmirKaram
+  channel_url: https://www.youtube.com/channel/UCXSWRM1E7gENmv0jC6gBOXw
+  hits: 2
+  topics:
+  - hyaluronic acid
+  - niacinamide
+  status: pending
+- name: MakingCosmetics
+  channel_url: https://www.youtube.com/channel/UCnQyAMGY71dAkwNWqvzpKaA
+  hits: 1
+  topics:
+  - vitamin C serum
+  status: pending
+- name: Balcones Dermatology and Aesthetics
+  channel_url: https://www.youtube.com/channel/UCRurEHzRhdMB0fJVD-w6GPw
+  hits: 1
+  topics:
+  - benzoyl peroxide
+  status: pending
+- name: Cosmetic Pharmacist
+  channel_url: https://www.youtube.com/channel/UCEyjx1tj0a7NhUMBlCoMzTg
+  hits: 1
+  topics:
+  - benzoyl peroxide
+  status: pending
+- name: BIOSSANCE
+  channel_url: https://www.youtube.com/channel/UCP9OYSjsvKCxJU5ydrGuTlw
+  hits: 1
+  topics:
+  - sunscreen
+  status: pending
+- name: TLC
+  channel_url: https://www.youtube.com/channel/UCqf2gzmKtH3PaAbt-qgFFsw
+  hits: 1
+  topics:
+  - rosacea
+  status: pending
+- name: Liah Yoo
+  channel_url: https://www.youtube.com/channel/UC3y1VNzSbMVIUlKC2ErEVZw
+  hits: 1
+  topics:
+  - fungal acne
+  status: pending
+- name: Facedecor
+  channel_url: https://www.youtube.com/channel/UCKdBtXW9UwpxoVxI8u9VS0w
+  hits: 1
+  topics:
+  - fungal acne
+  status: pending
+- name: VICHYCANADA
+  channel_url: https://www.youtube.com/channel/UCbv5R4-sta484Y9hpPNGCTQ
+  hits: 1
+  topics:
+  - skin barrier
+  status: pending
+- name: Synergie Skin
+  channel_url: https://www.youtube.com/channel/UCvVqgorrBJouf5v3fktQLng
+  hits: 1
+  topics:
+  - skin barrier
+  status: pending
+- name: Cleveland Clinic
+  channel_url: https://www.youtube.com/channel/UCxyiSz4m161Z6frOsFxJpgw
+  hits: 1
+  topics:
+  - hyaluronic acid
+  status: pending
+- name: Humblebee & Me
+  channel_url: https://www.youtube.com/channel/UCPoQhwWKXuOv-Ffif98PFNg
+  hits: 1
+  topics:
+  - hyaluronic acid
   status: pending
