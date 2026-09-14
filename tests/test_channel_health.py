@@ -1,6 +1,7 @@
 """The channel-health partition must route each roster entry correctly:
-YouTube channels get network-checked, `channel_broken` entries are muted (not
-re-flagged every run), and non-YouTube channels are skipped.
+YouTube and TikTok channels get network-checked (TikTok with browser cookies),
+`channel_broken` entries are muted (not re-flagged every run), and
+Instagram/other channels are skipped.
 """
 import importlib.machinery
 import importlib.util
@@ -30,7 +31,8 @@ def test_partition_routes_each_kind():
          "channel_broken": "renamed"},
         {"creator_slug": "nochan-e"},
     ]
-    to_check, muted, non_youtube = ch.partition(roster)
-    assert [c["creator_slug"] for c in to_check] == ["yt-a"]
+    youtube, tiktok, muted, other = ch.partition(roster)
+    assert [c["creator_slug"] for c in youtube] == ["yt-a"]
+    assert [c["creator_slug"] for c in tiktok] == ["tiktok-b"]
     assert sorted(c["creator_slug"] for c in muted) == ["broken-c", "broken-d"]
-    assert sorted(c["creator_slug"] for c in non_youtube) == ["nochan-e", "tiktok-b"]
+    assert [c["creator_slug"] for c in other] == ["nochan-e"]
