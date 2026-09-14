@@ -596,7 +596,8 @@
   conflict: Recurring paid partnerships (Dermatica affiliate code "DRALEXIS" on multiple videos, La Roche-Posay branded partner content, SkinBetter Scie
   posted: ''
   feed_rank: 2
-  status: pending
+  status: skipped
+  skip_reason: sponsored (Medik8 partnership disclosed in-video)
 - id: ZMGm5PmWzF0
   title: 'Microneedling: What you need to know, from a dermatologist and Skin of color Expert'
   creator: Dr. Alexis Stephens
@@ -2676,7 +2677,8 @@
   conflict: Runs an Amazon affiliate storefront (amazon.com/shop/derm.talk); recurring disclosed paid brand partnerships (Shiseido, SkinCeutic
   posted: ''
   feed_rank: 2
-  status: pending
+  status: skipped
+  skip_reason: sponsored by Clarins (in-video sponsor read + product tie-in)
 - id: wYWEDChnYVk
   title: The Reedle Shot Myth Everyone Gets Wrong | Dermatologist Explains Spicules
   creator: Dr. Jenny Liu (Jenny Liu, MD, FAAD)
