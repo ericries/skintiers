@@ -470,6 +470,16 @@ videos:
   related: [anua-azelaic-acid-serum, retinoids]
   thesis: Board-certified dermatologist and Harvard/Brigham Mohs surgeon Dr. Abigail Waldman explains how to start using azelaic acid, a naturally occurring acid that treats acne, post-acne redness and dark spots, and rosacea by fighting acne-causing bacteria and blocking the pigment-producing enzyme tyrosinase. She covers when to apply it in a routine, safe combinations with retinoids and prescription acne treatments, expected mild side effects, and notes it is one of the few actives considered safe during pregnancy and breastfeeding. She recommends starting once daily and increasing to twice daily as tolerated, with results from over-the-counter 10% formulas taking up to 8 to 12 weeks.
   note: Verified from the video transcript (yt-dlp, read in full); no sponsorship disclosure (recommends Anua 10% by personal preference).
+- title: 'Dermatologist: My Exact Hyperpigmentation Routine (melasma, PIH)'
+  creator: Dr. Sarah Sheu
+  creator_slug: dr-sarah-sheu
+  credential: Board-certified dermatologist (Northwestern MD, Stanford residency); Medical Director of Dermatology, Valley Medical Center, Seattle WA
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=6RbOuBv0aMk
+  posted: '2026-08-29'
+  related: [melasma, tranexamic-acid, hydroquinone, azelaic-acid, niacinamide, sunscreen-uv-filters, thiamidol]
+  thesis: 'Board-certified dermatologist Dr. Sarah Sheu lays out a three-tier system for hyperpigmentation (sunspots, melasma, and post-inflammatory dark spots). Her foundation is not brightening serums but sun and visible-light protection: because visible and blue light also drive pigment and clear sunscreens do not block it, she relies on tinted products containing iron oxides and pigmentary titanium dioxide, or Avene sunscreens with the Tinosorb filter. For actives she favors newer patented ingredients whose clinical studies were run on the exact marketed product (Thiamidol in Eucerin, Melasyl in La Roche-Posay), is skeptical of ingredient claims extrapolated from other formulations, avoids long-term hydroquinone over rebound and ochronosis risk, and reserves oral tranexamic acid, peels, and lasers as a higher-risk last tier.'
+  note: Verified from the video transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

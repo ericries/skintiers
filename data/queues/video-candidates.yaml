@@ -3469,7 +3469,8 @@
   conflict: null
   posted: ''
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: sponsored (title self-identifies as Clarins ad)
 - id: HViQVEobv88
   title: 'New K-Beauty finds: PDRN, TECA, lip tint and more (AD)'
   creator: Michelle Wong (Lab Muffin)

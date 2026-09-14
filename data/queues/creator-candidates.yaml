@@ -23,7 +23,8 @@
   - melasma
   - sunscreen
   status: rejected
-  reject_reason: Brand-owned channel (Isomers Skincare house line), not an independent educator; product recs = own inventory.
+  reject_reason: Brand-owned channel (Isomers Skincare house line), not an independent
+    educator; product recs = own inventory.
 - name: The Budget Dermatologist
   channel_url: https://www.youtube.com/channel/UCDc2wFMXTSApCa4UwDrdz_Q
   hits: 3
@@ -78,7 +79,8 @@
   topics:
   - salicylic acid
   status: rejected
-  reject_reason: Brand-owned channel (Sandra Lee / SLMD house line); product recs = own inventory, not independent.
+  reject_reason: Brand-owned channel (Sandra Lee / SLMD house line); product recs
+    = own inventory, not independent.
 - name: Skin Chemist
   channel_url: https://www.youtube.com/channel/UCMPpJnaJCveK1d0xlXhxTLw
   hits: 1
@@ -243,4 +245,18 @@
   hits: 1
   topics:
   - hyaluronic acid
+  status: pending
+- name: BeiersdorfChannel
+  channel_url: https://www.youtube.com/@BeiersdorfChannel
+  hits: 1
+  topics:
+  - referral
+  discovered_via: 'referral: 6RbOuBv0aMk'
+  status: pending
+- name: SmashboxCosmetics
+  channel_url: https://www.youtube.com/@SmashboxCosmetics
+  hits: 1
+  topics:
+  - referral
+  discovered_via: 'referral: 6RbOuBv0aMk'
   status: pending
