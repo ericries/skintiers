@@ -10585,3 +10585,8 @@ caroline-robinson:
   score: 8
   verdict: publish
   note: 'Person (discovery card, no Opus critic per person flow): Dr. Caroline Robinson, MD FAAD, board-certified dermatologist, founder/CEO of Tone Dermatology (Chicago), skin-of-color focus. Credential independently verified (tonedermatology.com founder story + Practo MD/FAAD + Black Derm Directory); verbatim bio quote cached from tonedermatology.com/about-tone (non-primary, source_cache). 123 words, links to her 6 carded topics. Disclosure: ShopMy affiliate + Tone Shop e-commerce -> product picks flagged promotional (roster product_recs restricted). Dash-free; lint/style clean; verify WARN is the expected non-primary-domain flag (cached).'
+best-acne-products-by-evidence:
+  last_reviewed: '2026-09-14'
+  score: 8
+  verdict: publish
+  note: 'List (curatorial best-of): ranks 16 on-site acne PRODUCTS by the evidence behind their labeled active, auto-tiered from each product own page grade (entity_tier), NOT a head-to-head formula trial (stated explicitly). Distinct from the acne hub which ranks ACTIVES. Every item slug verified to exist; ordering follows the site established active tiers (retinoids/BPO combos strong; azelaic/salicylic moderate; sulfacetamide/sulfur weak). Sources point to per-product + active pages per list convention. Dash-free; lint/verify/style clean.'
