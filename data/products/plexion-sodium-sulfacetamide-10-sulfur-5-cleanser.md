@@ -5,7 +5,7 @@ category: Treatments
 grades:
 - effect: modest
   evidence: weak
-  note: 'health: the FDA label states this product "is indicated for use in the
+  note: 'health: the DailyMed label states this product "is indicated for use in the
     topical control of acne vulgaris, acne rosacea and seborrheic dermatitis,"
     but the only real comparative trial behind that indication tested the
     sodium sulfacetamide 10%/sulfur 5% combination for rosacea against
@@ -18,18 +18,18 @@ grades:
     counts and erythema, at some cost in tolerability (health)
 - effect: not quantifiable from modern controlled data
   evidence: weak
-  note: 'health: the same FDA indication also covers acne vulgaris and
+  note: 'health: the same label indication also covers acne vulgaris and
     seborrheic dermatitis, but no vehicle-controlled trial of this
     sulfacetamide/sulfur cleanser for either condition is retrievable;
     historical use dating to the 1950s and a small uncontrolled case series
     of a related foam formulation are the clinical data behind that part of
     the label, per [[sodium-sulfacetamide]] and [[sulfur]]'
-  use: For acne vulgaris and seborrheic dermatitis, per the FDA label, though
+  use: For acne vulgaris and seborrheic dermatitis, per the DailyMed label, though
     the supporting clinical data for those two indications is historical and
     uncontrolled rather than trial-based (health)
 images:
 - file: plexion-sodium-sulfacetamide-10-sulfur-5-cleanser-dailymed.jpg
-  source: DailyMed (FDA prescribing information carton)
+  source: DailyMed (prescribing information carton)
   source_url: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=41365fd6-0865-fa55-e063-6294a90a8353
 key_actives:
 - sodium-sulfacetamide
@@ -41,9 +41,9 @@ type: product
 updated: '2026-09-14'
 ---
 
-Plexion Cleanser is a prescription wash-off combination of two older antibacterial and keratolytic actives, manufactured for Cintex Services, LLC of Dallas, TX, and FDA-approved as follows: "This product is indicated for use in the topical control of acne vulgaris, acne rosacea and seborrheic dermatitis."[^dailymed] The carton and label state the active concentrations as 9.8% sodium sulfacetamide and 4.8% sulfur (98 mg and 48 mg per gram, respectively); the product is commonly marketed under the round numbers "10%" and "5%," which is the naming this page's slug follows, but the FDA label itself prints 9.8%/4.8%.[^dailymed] Plexion also exists as cleansing cloths, a lotion, and a cream; this page covers the wash-off Cleanser specifically, and those are separate SKUs with their own DailyMed listings, not interchangeable with this one.[^dailymed-cloth]
+Plexion Cleanser is a prescription wash-off combination of two older antibacterial and keratolytic actives, manufactured for Cintex Services, LLC of Dallas, TX. Its DailyMed listing is filed as an unapproved drug (SPL marketing category "unapproved drug other"), not an FDA-approved one; the manufacturer's label states it "is indicated for use in the topical control of acne vulgaris, acne rosacea and seborrheic dermatitis."[^dailymed] The carton and label state the active concentrations as 9.8% sodium sulfacetamide and 4.8% sulfur (98 mg and 48 mg per gram, respectively); the product is commonly marketed under the round numbers "10%" and "5%," which is the naming this page's slug follows, but the DailyMed label itself prints 9.8%/4.8%.[^dailymed] Plexion also exists as cleansing cloths, a lotion, and a cream; this page covers the wash-off Cleanser specifically, and those are separate SKUs with their own DailyMed listings, not interchangeable with this one.[^dailymed-cloth]
 
-> Plexion Cleanser carries a genuine three-condition FDA indication, but the trial evidence behind it is thin and unevenly distributed. Only rosacea has a real randomized comparator trial, and even that trial tested the sulfacetamide/sulfur combination against metronidazole with no vehicle arm, so it cannot cleanly credit either active on its own. Acne vulgaris and seborrheic dermatitis ride on the same label with essentially no controlled trial of their own. The full ingredient-level evidence, including why this combination now sits behind metronidazole, azelaic acid, and ivermectin for rosacea and behind benzoyl peroxide, retinoids, and azelaic acid for acne, lives on [[sodium-sulfacetamide]] and [[sulfur]] and is not re-derived here. See [[rosacea]] and [[acne]] for the broader conditions.
+> Plexion Cleanser carries a genuine three-condition label indication, but the trial evidence behind it is thin and unevenly distributed. Only rosacea has a real randomized comparator trial, and even that trial tested the sulfacetamide/sulfur combination against metronidazole with no vehicle arm, so it cannot cleanly credit either active on its own. Acne vulgaris and seborrheic dermatitis ride on the same label with essentially no controlled trial of their own. The full ingredient-level evidence, including why this combination now sits behind metronidazole, azelaic acid, and ivermectin for rosacea and behind benzoyl peroxide, retinoids, and azelaic acid for acne, lives on [[sodium-sulfacetamide]] and [[sulfur]] and is not re-derived here. See [[rosacea]] and [[acne]] for the broader conditions.
 
 ## Summary
 
@@ -59,7 +59,7 @@ The label itself reports no trial data for the Cleanser specifically; it states 
 
 For acne vulgaris and seborrheic dermatitis, the case is weaker still: [[sodium-sulfacetamide|the combination's use for those two conditions rests on decades of clinical tradition and a small uncontrolled case series of a related foam formulation, not a modern vehicle-controlled trial]], a fuller account best read there rather than repeated here. A 2015 Cochrane review of 106 rosacea trials found usable pooled efficacy data only for metronidazole, azelaic acid, ivermectin, and brimonidine among topicals; sodium sulfacetamide/sulfur does not appear among the treatments its main results endorse.[^cochrane]
 
-> **Bottom line.** Plexion Cleanser carries a real three-condition FDA indication, but only rosacea has a randomized trial behind the combination, and that trial tested a cream (not this cleanser) against an active comparator with no vehicle arm.[^dailymed][^torok] Acne vulgaris and seborrheic dermatitis ride on the same label with essentially no controlled trial data of their own. Approach it as an older, second-line option behind modern first-line actives for each condition, not as a proven leader for any of the three.
+> **Bottom line.** Plexion Cleanser carries a real three-condition label indication, but only rosacea has a randomized trial behind the combination, and that trial tested a cream (not this cleanser) against an active comparator with no vehicle arm.[^dailymed][^torok] Acne vulgaris and seborrheic dermatitis ride on the same label with essentially no controlled trial data of their own. Approach it as an older, second-line option behind modern first-line actives for each condition, not as a proven leader for any of the three.
 
 ## Warnings
 
@@ -69,7 +69,7 @@ The label further warns that "nonsusceptible organisms, including fungi, may pro
 
 ## What's In It
 
-The active and inactive ingredients as declared on the FDA-approved prescribing information.[^dailymed]
+The active and inactive ingredients as declared on the DailyMed prescribing information.[^dailymed]
 
 Active:
 
@@ -80,7 +80,7 @@ Inactive ingredients: benzyl alcohol, cetyl alcohol, fragrance, glyceryl stearat
 
 ## Common Marketing Claims
 
-- **"Treats acne, rosacea, and seborrheic dermatitis in one product."** The FDA indication does span all three, so the claim is technically accurate.[^dailymed] But an indication is not an evidence grade: the controlled-trial support behind it is a single comparator trial in rosacea (using a cream, not this cleanser, and with no vehicle arm) plus historical usage for acne and seborrheic dermatitis.[^dailymed][^torok]
+- **"Treats acne, rosacea, and seborrheic dermatitis in one product."** The label indication does span all three, so the claim is technically accurate.[^dailymed] But an indication is not an evidence grade: the controlled-trial support behind it is a single comparator trial in rosacea (using a cream, not this cleanser, and with no vehicle arm) plus historical usage for acne and seborrheic dermatitis.[^dailymed][^torok]
 - **A gentle, non-antibiotic option.** Sodium sulfacetamide is a sulfonamide antibacterial, not an antibiotic in the acne-specific-antibiotic class (clindamycin, doxycycline), which is a fair distinction, but it still carries antibacterial-class risks, including the sulfonamide hypersensitivity contraindication and the Stevens-Johnson-syndrome and lupus warnings above.[^dailymed]
 
 ## See Also

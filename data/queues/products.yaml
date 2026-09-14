@@ -2402,7 +2402,7 @@
 - name: Avar (sodium sulfacetamide 10% / sulfur 5%)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: klaron-sodium-sulfacetamide-10-lotion
   source: sodium sulfacetamide/sulfur combination product in the same class as Klaron;
     verify identity vs DailyMed at build
@@ -2413,3 +2413,11 @@
   discovered_from: hyperpigmentation
   source: 'Dr. Sarah Sheu hyperpigmentation video (6RbOuBv0aMk): her primary Thiamidol
     brightening serum; clinical studies on the exact product'
+- name: Rosac Cream (sodium sulfacetamide 10% / sulfur 5% with sunscreens)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: avar-sodium-sulfacetamide-10-sulfur-5
+  source: the specific branded cream tested in the Torok 2005 rosacea RCT (Stiefel);
+    the only sulfacetamide/sulfur product with a real comparator trial; verify DailyMed
+    at build
