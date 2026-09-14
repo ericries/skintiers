@@ -140,7 +140,8 @@
   conflict: Some videos carry disclosed brand sponsorships (e.g. La Roche-Posay Effaclar BPO); no own product line or heavy affiliate storefront. Scan each video at ingest.
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: sponsored by FSA Store (sent Colorescience product)
 - id: eRpKXfpC1mA
   title: Dermatologist Explains The Best Moisturizers For 2026 (not what you think)
   creator: Dr. Abigail Waldman (Dr. Abby)

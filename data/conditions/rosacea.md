@@ -158,6 +158,16 @@ videos:
   related: [anua-azelaic-acid-serum, retinoids]
   thesis: Board-certified dermatologist and Harvard/Brigham Mohs surgeon Dr. Abigail Waldman explains how to start using azelaic acid, a naturally occurring acid that treats acne, post-acne redness and dark spots, and rosacea by fighting acne-causing bacteria and blocking the pigment-producing enzyme tyrosinase. She covers when to apply it in a routine, safe combinations with retinoids and prescription acne treatments, expected mild side effects, and notes it is one of the few actives considered safe during pregnancy and breastfeeding. She recommends starting once daily and increasing to twice daily as tolerated, with results from over-the-counter 10% formulas taking up to 8 to 12 weeks.
   note: Verified from the video transcript (yt-dlp, read in full); no sponsorship disclosure (recommends Anua 10% by personal preference).
+- title: Can Gut Bacteria Cause Rosacea? | Dermatologist explains
+  creator: John Barbieri, MD
+  creator_slug: john-barbieri-md
+  credential: Board-certified dermatologist, Associate Professor of Dermatology at Harvard Medical School; co-chair of the AAD Acne Guidelines Work Group
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=wQ0TAWhiHRw
+  posted: '2026-08-01'
+  related: []
+  thesis: Board-certified dermatologist Dr. John Barbieri breaks down a study asking whether rosacea can start in the gut, specifically whether small intestinal bacterial overgrowth (SIBO) drives it in some people. He explains the trial found SIBO in about 40 percent of rosacea patients versus about 5 percent of controls, and that a 10 day course of the antibiotic rifaximin cleared the SIBO in roughly 90 percent and improved or fully cleared rosacea in most of those treated, with benefits lasting 9 months or more, while patients without SIBO saw no benefit. He cautions that the breath test yields false positives, the trial was unblinded and not yet replicated, and rifaximin carries real antibiotic risks, so testing and treatment should be targeted to rosacea patients who also have gut symptoms rather than used broadly.
+  note: Verified from the video transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
