@@ -20,7 +20,7 @@ A phase 3, investigator-blinded, randomized, parallel-group trial (ATTRACT) in m
 
 **Effect size / interpretation:** Ivermectin produced roughly 9 percentage points greater mean reduction in inflammatory lesion counts than metronidazole (83.0% vs. 73.7%) and a roughly 9.5-point higher rate of clear/almost-clear IGA outcomes (84.9% vs. 75.4%), both p<0.001; the abstract also states adverse-event incidence was comparable between groups and local tolerability favored ivermectin, but gives no numeric AE rates.[^1]
 
-**Applicability + key limitation:** Generalizes to adults with moderate-to-severe papulopustular [[rosacea]] treated for 16 weeks; supports [[ivermectin]] over [[metronidazole]] as topical therapy in this population. Key limitation: investigator-blinded rather than double-blind design (assessors, not necessarily patients, were masked), and only the PubMed abstract was accessed, not the full British Journal of Dermatology text, so methodological details (e.g. randomization ratio, exact AE rates, statistical handling beyond LOCF) could not be verified.[^1]
+**Applicability + key limitation:** Generalizes to adults with moderate-to-severe papulopustular [[rosacea]] treated for 16 weeks; supports [[ivermectin-topical|ivermectin]] over [[metronidazole]] as topical therapy in this population. Key limitation: investigator-blinded rather than double-blind design (assessors, not necessarily patients, were masked), and only the PubMed abstract was accessed, not the full British Journal of Dermatology text, so methodological details (e.g. randomization ratio, exact AE rates, statistical handling beyond LOCF) could not be verified.[^1]
 
 ## Sources
 

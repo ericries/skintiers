@@ -10590,3 +10590,8 @@ best-acne-products-by-evidence:
   score: 8
   verdict: publish
   note: 'List (curatorial best-of): ranks 16 on-site acne PRODUCTS by the evidence behind their labeled active, auto-tiered from each product own page grade (entity_tier), NOT a head-to-head formula trial (stated explicitly). Distinct from the acne hub which ranks ACTIVES. Every item slug verified to exist; ordering follows the site established active tiers (retinoids/BPO combos strong; azelaic/salicylic moderate; sulfacetamide/sulfur weak). Sources point to per-product + active pages per list convention. Dash-free; lint/verify/style clean.'
+astragalus-membranaceus:
+  last_reviewed: '2026-09-14'
+  score: 7
+  verdict: publish
+  note: 'Ingredient (tier: weak botanical). Sonnet draft, Opus critic returned REVISE: it caught that the draft FABRICATED the composition of a cited hard-to-fetch study (Alt 2022, MDPI: claimed cycloastragenol + biopeptide complex + other antioxidants; real product is astragaloside IV + cross-linked HA) and mischaracterized its design. Fix: I independently WebFetched the Alt PDF (text corrupted, could not cleanly verify/cache the formulation), so per when-in-doubt-leave-it-out I DROPPED the Alt citation entirely and rested the page on the verified on-site Jackson 2026 systematic review ([[jackson-2026-astragalus-membranaceus-antiaging-review]]). Also fixed a straight-quote comparator line. Remaining content is Jackson-anchored (critic verified verbatim). tier: weak (preclinical-weighted, no isolated-ingredient human RCT). Assurance sonnet (fixed by removal, not re-dispatched). Dash-free; lint/verify/style clean. See [[rx-unapproved-drug-check]]-style discipline: verify or omit.'
