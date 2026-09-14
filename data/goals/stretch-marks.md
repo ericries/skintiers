@@ -74,7 +74,7 @@ Stretch marks (striae distensae) are bands of thinned, scarred skin that form wh
 
 The honest bottom line comes from a 2016 review of topical striae management: "there is no topical formulation which is shown to be most effective," and the field has few strong trials.[^udin] In that review, tretinoin used therapeutically showed "varying results," while cocoa butter and olive oil "did not demonstrate any effect," and a separate double-blind, placebo-controlled trial confirmed cocoa butter did no better than placebo at preventing pregnancy stretch marks.[^udin][^osman]
 
-Two practical points follow. Early red striae respond better than old white ones, so anything worth trying is worth trying early. And the treatments most likely to help established marks are in-office procedures such as fractional lasers and microneedling, which sit outside this site's topical scope. Other creams promoted for prevention, including [[centella-asiatica]] and [[hyaluronic-acid]] formulas, lack the evidence to rank against the options below, where even the top entry is a modest, narrow effect and the most famous product is the one a trial showed does not work.
+Two practical points follow. Early red striae respond better than old white ones, so anything worth trying is worth trying early. And the treatments most likely to help established marks are in-office procedures such as fractional lasers and microneedling, which sit outside this site's topical scope. [[hyaluronic-acid]] formulas are also promoted for prevention but lack the evidence to rank, and even the graded options below top out at a modest, narrow effect while the most famous product is the one a trial showed does not work.
 
 ## See Also
 
