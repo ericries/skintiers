@@ -13,6 +13,11 @@ those three disagree with this document, this document wins and the code is the 
 The scores are a **summary of the graded products in a routine, not a clinical trial of the
 routine as a whole.** Say so when you present them.
 
+**Contents:** [Inputs](#inputs) · [Step 1: per-product effect](#step-1--per-product-effect-strength-04) ·
+[Step 2: strength label](#step-2--routine-strength-label) · [Step 3: actives](#step-3--actives-covered) ·
+[Step 4: sunscreen](#step-4--sunscreen-coverage) · [Step 5: notable actives absent](#step-5--notable-actives-not-present-informational) ·
+[Worked example](#worked-example) · [Builder-only signals](#builder-only-analysis-signals-evidence-grouping--flags)
+
 ---
 
 ## Inputs
