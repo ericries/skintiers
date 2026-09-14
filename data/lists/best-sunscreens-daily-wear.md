@@ -24,6 +24,18 @@ tier_list:
   title: Daily sunscreens by evidence
 type: list
 updated: '2026-08-08'
+videos:
+- title: The Only Sunscreen Guide You Need | Dermatologist Recommendations
+  creator: Dr. Sarah Sheu
+  creator_slug: dr-sarah-sheu
+  credential: Board-certified dermatologist (Northwestern MD, Stanford residency); Medical Director of Dermatology, Valley Medical Center, Seattle WA
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=IVIDgkJ7UOA
+  posted: '2026-07-11'
+  related: [zinc-oxide, titanium-dioxide, anti-aging]
+  thesis: Board-certified dermatologist Dr. Sarah Sheu walks through how she actually picks sunscreens for her own skin and her patients, covering face, mineral-only, high-intensity-sun, body, and kids formulas. She explains the difference between true mineral filters (zinc oxide, titanium dioxide only) and hybrid sunscreens that use inactive ingredients like butyl octyl salicylate to boost SPF, why proper application amount matters more than lab SPF numbers, and why the newly FDA-approved filter Tinosorb S is a meaningful upgrade for US sunscreens because it covers UVA and UVB and is photostable. She closes by stressing that consistent daily wear plus physical protection like hats and UPF clothing matters more than which specific product you choose.
+  note: Verified from the video transcript (yt-dlp, read in full); no sponsor read in the transcript, brand picks discussed with explicit pros and cons. The Tinosorb S / bemotrizinol US-approval claim was independently confirmed (FDA approval June 2026).
+
 ---
 
 This list ranks the site's daily-wear facial sunscreens against each other using the UVB and UVA grades already established on each product's own page. Broad-spectrum protection, blocking both UVB and UVA, is the best-evidenced way to slow [[sun-damage-photoaging|photoaging]] and lower skin-cancer risk, the case set out on [[sunscreen-uv-filters]].

@@ -218,6 +218,16 @@ videos:
   related: [retinoids, niacinamide]
   thesis: Board-certified dermatologists Dr. Muneeb Shah and Dr. Luke Maxfield of Doctorly break down the viral social media trend of pairing tretinoin (or other retinoids) with azelaic acid for so-called glass skin. They explain tretinoin speeds cell turnover, boosts collagen, and reduces acne and pigment by acting on retinoic acid receptors, while azelaic acid works through separate mechanisms, lowering tyrosinase activity and inflammation to calm rosacea, redness, and dark marks, making the two ingredients complementary rather than redundant. They note there is no formal clinical safety data on combining them, but say the combination is generally well tolerated if layered thinner product first or split between morning and night for sensitive skin. Their conclusion is that tretinoin plus azelaic acid plus daily sunscreen covers most of what a skincare routine needs to achieve.
   note: Verified from the video transcript (yt-dlp, read in full). Sponsored by Zocdoc (unrelated doctor-finder, disclosed mid-roll). The creator also teased an unreleased own-brand azelaic acid product and a tretinoin telehealth venture, so his specific product picks are not treated as recommendations; this card reflects ingredient mechanism only.
+- title: 'How to use Azelaic acid for Beginners: Dermatologist guide'
+  creator: Dr. Abigail Waldman (Dr. Abby)
+  creator_slug: abigail-waldman
+  credential: Abigail H. Waldman, MD, FAAD; Associate Professor of Dermatology at Harvard Medical School; Director of the Mohs and Dermatologic Surgery Center at Brigham and Women's Hospital
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=mRYMysEjhWs
+  posted: '2026-02-11'
+  related: [anua-azelaic-acid-serum, retinoids]
+  thesis: Board-certified dermatologist and Harvard/Brigham Mohs surgeon Dr. Abigail Waldman explains how to start using azelaic acid, a naturally occurring acid that treats acne, post-acne redness and dark spots, and rosacea by fighting acne-causing bacteria and blocking the pigment-producing enzyme tyrosinase. She covers when to apply it in a routine, safe combinations with retinoids and prescription acne treatments, expected mild side effects, and notes it is one of the few actives considered safe during pregnancy and breastfeeding. She recommends starting once daily and increasing to twice daily as tolerated, with results from over-the-counter 10% formulas taking up to 8 to 12 weeks.
+  note: Verified from the video transcript (yt-dlp, read in full); no sponsorship disclosure (recommends Anua 10% by personal preference).
 
 ---
 

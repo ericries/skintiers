@@ -148,6 +148,16 @@ videos:
   related: [azelaic-acid, metronidazole, brimonidine]
   thesis: Board-certified dermatologist Dr. John Barbieri lays out a comprehensive, phenotype-based approach to treating rosacea in 2026, starting with sunscreen and moisturizer as foundational skincare and then matching treatments to specific features rather than old subtypes. He covers antimicrobial options like azelaic acid, ivermectin, metronidazole and encapsulated benzoyl peroxide for bumps, alpha agonists like brimonidine and oxymetazoline plus laser for redness and flushing, oral antibiotics and isotretinoin for severe or phymatous disease, and newer options like beta blockers, SSRIs and CGRP inhibitors for flushing tied to neurovascular reactivity.
   note: Verified from the video transcript (yt-dlp, read in full); no sponsorship.
+- title: 'How to use Azelaic acid for Beginners: Dermatologist guide'
+  creator: Dr. Abigail Waldman (Dr. Abby)
+  creator_slug: abigail-waldman
+  credential: Abigail H. Waldman, MD, FAAD; Associate Professor of Dermatology at Harvard Medical School; Director of the Mohs and Dermatologic Surgery Center at Brigham and Women's Hospital
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=mRYMysEjhWs
+  posted: '2026-02-11'
+  related: [anua-azelaic-acid-serum, retinoids]
+  thesis: Board-certified dermatologist and Harvard/Brigham Mohs surgeon Dr. Abigail Waldman explains how to start using azelaic acid, a naturally occurring acid that treats acne, post-acne redness and dark spots, and rosacea by fighting acne-causing bacteria and blocking the pigment-producing enzyme tyrosinase. She covers when to apply it in a routine, safe combinations with retinoids and prescription acne treatments, expected mild side effects, and notes it is one of the few actives considered safe during pregnancy and breastfeeding. She recommends starting once daily and increasing to twice daily as tolerated, with results from over-the-counter 10% formulas taking up to 8 to 12 weeks.
+  note: Verified from the video transcript (yt-dlp, read in full); no sponsorship disclosure (recommends Anua 10% by personal preference).
 
 ---
 

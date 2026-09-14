@@ -93,6 +93,16 @@ videos:
   related: []
   thesis: 'Board-certified dermatologist Dr. Daniel Sugai shares tips he wishes he had known sooner. He explains that hyaluronic acid serum gives instant plumping and glow, good before an event, while vitamin C serum works more gradually as an antioxidant that fights free-radical damage from pollution and sunlight, improving fine lines, texture, and brightness over time; he wishes he had started vitamin C earlier in his 30s. He advises applying the less stable vitamin C serum first, then hyaluronic acid, then moisturizer and sunscreen (thinnest to thickest). He also stresses that not all sunscreens are equal for melasma and hyperpigmentation: a tinted sunscreen containing iron oxides is needed to block visible light, and he says patients whose melasma keeps worsening despite using sunscreen often turn out to be using one without iron oxides.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: How to Get Rid of Melasma
+  creator: Tanya Kormeili, MD, FAAD
+  creator_slug: tanya-kormeili-md
+  credential: Board-certified dermatologist (ABD), FAAD, Clinical Professor of Dermatology at UCLA David Geffen School of Medicine
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=8nrCHe763O4
+  posted: '2025-09-03'
+  related: [sunscreen-uv-filters, hyperpigmentation]
+  thesis: Board-certified dermatologist and UCLA clinical professor Dr. Tanya Kormeili explains melasma, patchy facial pigmentation linked to hormonal changes and UV exposure that can affect anyone, not just pregnant women. She argues effective treatment starts with strict sun protection, since melasma-prone skin is highly light sensitive, then layers in pigment-reducing ingredients (both prescription and botanical) and gentle exfoliation via at-home acids or in-office chemical peels. She cautions that IPL and BBL lasers often worsen melasma within a year and should only be used as a last resort after other treatments are exhausted.
+  note: Verified from the video transcript (yt-dlp, read in full); no sponsorship and no product or own-brand mention (treatments discussed as categories only). Creator runs an own-brand practice storefront, so this card reflects treatment categories, not product picks.
 
 ---
 

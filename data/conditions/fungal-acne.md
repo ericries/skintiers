@@ -45,6 +45,16 @@ videos:
   related: [vitamin-c, retinol, retinoids, salicylic-acid, sulfur, glycolic-acid, lactic-acid]
   thesis: "Board certified dermatologist Dr. Lindsey Zubritsky (DermGuru) runs through quick, condition specific fixes in this short: ketoconazole for fungal acne, salicylic acid and sulfur for sebaceous filaments, vitamin C and retinol for dark circles, retinoids for milia, caffeine and green tea for puffy under eyes, and lactic acid plus glycolic acid for skin congestion. For fungal acne specifically, she names the antifungal ketoconazole rather than a standard acne active as her recommended treatment."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
+- title: Fungal Acne | Why does it happen | How to treat
+  creator: Dr. Aanchal MD
+  creator_slug: dr-aanchal-md
+  credential: Dr. Aanchal Panth, MD Dermatology (AIIMS New Delhi); consultant dermatologist, Surat, India
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=-oHzrbvAyXM
+  posted: '2022-09-01'
+  related: [zinc-pyrithione, ketoconazole, salicylic-acid, seborrheic-dermatitis, acne]
+  thesis: Dermatologist Dr. Aanchal Panth explains fungal acne (Malassezia folliculitis), a yeast-driven condition often mistaken for regular acne. She describes how steroids, immunosuppressants, long-term antibiotics, seborrheic dermatitis, and hot humid climates let the yeast Malassezia overgrow in hair follicles, and how to tell it apart from acne vulgaris by its uniform small bumps with no blackheads or whiteheads. Treatment categories covered include oral antifungals (fluconazole, itraconazole, ketoconazole), topical antifungals (ketoconazole, zinc pyrithione, ciclopirox), salicylic acid, and sulfur lotion, alongside lifestyle steps like avoiding hair oil and synthetic fabric and showering promptly after sweating.
+  note: Verified from the video transcript (yt-dlp, read in full); no sponsorship or affiliate mention (treatments discussed as categories only). Creator maintains an affiliate storefront, so this card reflects treatment categories, not product picks.
 
 ---
 

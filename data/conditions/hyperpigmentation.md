@@ -460,6 +460,16 @@ videos:
   related: [melasma, facial-redness-relief, rosacea, sun-damage-photoaging]
   thesis: Board-certified dermatologist Dr. Shereene Idriss offers a framework for deciding between in-office lasers and at-home skincare for dark spots, redness, and texture. She explains that every laser ultimately targets just one of three things, red, brown, or water, so before paying for an expensive laser package a patient should ask which of the three it treats, and consider whether a much cheaper topical could address the same concern. She organizes the decision into three lanes, starting with brown spots (pigmentation), and walks through where skincare can substitute for a procedure and where it cannot.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: 'How to use Azelaic acid for Beginners: Dermatologist guide'
+  creator: Dr. Abigail Waldman (Dr. Abby)
+  creator_slug: abigail-waldman
+  credential: Abigail H. Waldman, MD, FAAD; Associate Professor of Dermatology at Harvard Medical School; Director of the Mohs and Dermatologic Surgery Center at Brigham and Women's Hospital
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=mRYMysEjhWs
+  posted: '2026-02-11'
+  related: [anua-azelaic-acid-serum, retinoids]
+  thesis: Board-certified dermatologist and Harvard/Brigham Mohs surgeon Dr. Abigail Waldman explains how to start using azelaic acid, a naturally occurring acid that treats acne, post-acne redness and dark spots, and rosacea by fighting acne-causing bacteria and blocking the pigment-producing enzyme tyrosinase. She covers when to apply it in a routine, safe combinations with retinoids and prescription acne treatments, expected mild side effects, and notes it is one of the few actives considered safe during pregnancy and breastfeeding. She recommends starting once daily and increasing to twice daily as tolerated, with results from over-the-counter 10% formulas taking up to 8 to 12 weeks.
+  note: Verified from the video transcript (yt-dlp, read in full); no sponsorship disclosure (recommends Anua 10% by personal preference).
 
 ---
 
