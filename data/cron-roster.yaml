@@ -170,14 +170,18 @@ crons:
   - cron: "37 9 * * 1"
     label: channel-health
     prompt: |
-      [SkinTiers channel health] Run exactly: `.venv/bin/python scripts/channel_health.py`. It flags roster
-      YouTube channels that no longer resolve (creators rename channels, silently 404ing the URL so pulls
-      return empty). KEEP TOKEN USE MINIMAL. If it reports 0 broken, stop (nothing to do; do not commit).
-      If it reports BROKEN channels: for each, find the real channel with `yt-dlp "ytsearch3:<name> dermatologist"`
-      (or the creator's actual platform) and re-pin data/video-sources.yaml to the stable /channel/UC... URL
-      (SURGICAL one-line edit; never yaml.dump the file). If you CANNOT verify a real channel, do NOT guess:
-      set that entry's channel to '' and add a `channel_broken:` line dated today explaining, so pulls skip it
-      and this check mutes it. Commit + push only if you changed the roster. One-line summary of what was re-pinned or muted.
+      [SkinTiers channel health] Run exactly: `.venv/bin/python scripts/channel_health.py` (it reads Chrome
+      cookies for the TikTok checks; pass --skip-tiktok only if cookies are unavailable). It flags roster
+      channels that no longer resolve: YouTube channels that 404 after a rename, AND TikTok handles that
+      return HTTP 200 but yt-dlp cannot list ("Unable to extract secondary user ID" / "no videos posted") -
+      a silent dead-end that jams the TikTok rotation (this bit us on @gohealio and @drsharimarchbein).
+      KEEP TOKEN USE MINIMAL. If it reports 0 broken, stop (nothing to do; do not commit).
+      For BROKEN YouTube channels: find the real channel with `yt-dlp "ytsearch3:<name> dermatologist"` and
+      re-pin data/video-sources.yaml to the stable /channel/UC... URL (SURGICAL one-line edit; never yaml.dump).
+      For UN-PULLABLE TikTok handles: check once whether the creator renamed their @handle; if you find the
+      live one, re-pin it. If you cannot verify a working channel (YouTube or TikTok), do NOT guess - set that
+      entry's channel to '' and add a `channel_broken:` line dated today explaining, so pulls skip it and this
+      check mutes it going forward. Commit + push only if you changed the roster. One-line summary of what was re-pinned or muted.
   - cron: "41 6 * * 1"
     label: hub-discovery
     prompt: |

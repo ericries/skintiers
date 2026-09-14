@@ -69,8 +69,9 @@ def main(argv=None):
         return 0
 
     if args.mode == "pull":
-        # oldest (or null) last_pulled on the requested platform; ties: file order
-        pool = [r for r in rows if _platform(r) == args.platform]
+        # oldest (or null) last_pulled on the requested platform; ties: file order.
+        # channel_broken entries are muted (dead/un-pullable handles) so they do not jam the rotation.
+        pool = [r for r in rows if _platform(r) == args.platform and not r.get("channel_broken")]
         pick = sorted(pool, key=lambda r: (r.get("last_pulled") or ""))
         if not pick:
             print("none")
@@ -80,7 +81,7 @@ def main(argv=None):
 
     # backfill: smallest backfill_cursor among flagship (or all HIGH with --all-high)
     pool = [r for r in yt if (r.get("tier") == "HIGH" if args.all_high else r.get("flagship"))]
-    pool = [r for r in pool if r.get("backfill_cursor") is not None]
+    pool = [r for r in pool if r.get("backfill_cursor") is not None and not r.get("channel_broken")]
     if not pool:
         print("none")
         return 0

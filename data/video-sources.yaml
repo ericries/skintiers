@@ -360,6 +360,7 @@
   credential: Board-certified dermatologist
   tier: HIGH
   channel: https://www.tiktok.com/@gohealio
+  channel_broken: '2026-09-13: TikTok @gohealio resolves but yt-dlp cannot list it (Unable to extract secondary user ID); un-pullable here, flagged by channel-health. Retry if a personal @handle surfaces or yt-dlp fixes the extractor.'
   product_recs: ok
   conflict: None found. No own-brand skincare line and no personal affiliate storefront identified; only a possible loose tie-in via an Instag
   last_pulled: '2026-09-08'
@@ -377,6 +378,7 @@
   credential: Dermatologist
   tier: HIGH
   channel: https://www.tiktok.com/@drsharimarchbein
+  channel_broken: '2026-09-13: TikTok @drsharimarchbein reports no videos posted (inactive or renamed); nothing to pull, flagged by channel-health.'
   product_recs: restricted
   conflict: Recurring rotating consumer-brand partnerships visible in IG story highlights (Colorescience, Vaseline-HUED, Ponds, St Ives, and o
   last_pulled: '2026-09-03'
