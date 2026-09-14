@@ -406,6 +406,16 @@ videos:
   related: [salicylic-acid, retinoids]
   thesis: 'Esthetician Jenn Lexi walks through how acne forms as a perfect storm: sebaceous glands producing extra sebum, plus a follicular problem she calls follicular hyperkeratinization where dead skin cells fail to shed normally and clump together, plugging the pore. She explains that an open plug oxidizes into a blackhead and a closed one becomes a whitehead, and that the low-oxygen clogged environment lets C. acnes bacteria multiply and trigger the inflammation behind a red, painful pimple. She stresses that oily skin and acne-prone skin are not the same thing.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: 'How to Treat Acne in 2026: Skincare, Prescriptions, Diet & More | Dermatologist explains'
+  creator: John Barbieri, MD
+  creator_slug: john-barbieri-md
+  credential: Board-certified dermatologist, Associate Professor of Dermatology at Harvard Medical School; Director of the Advanced Acne Therapeutics Clinic at Brigham and Women's Hospital; co-chair of the AAD Acne Guidelines Work Group
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=f5oBdZAbRhQ
+  posted: '2026-05-02'
+  related: [benzoyl-peroxide, adapalene, isotretinoin, azelaic-acid, salicylic-acid, clascoterone, retinoids, hormonal-acne]
+  thesis: Board-certified dermatologist Dr. John Barbieri, a Harvard Medical School acne specialist, lays out his full 2026 treatment ladder for acne, from barrier-supportive skincare and OTC actives (salicylic acid, benzoyl peroxide, azelaic acid, adapalene) through prescription options like topical clascoterone, oral antibiotics, hormonal therapy (combined oral contraceptives plus spironolactone), and isotretinoin. He also covers acne-focused procedures such as 1726nm lasers for active acne and resurfacing for scars and marks, plus diet levers (low glycemic index eating, vitamin D, zinc, omega-3s, vitamin B5) with weaker or mixed evidence on dairy and chocolate. The video closes by assembling these into simple morning/evening regimens tiered by acne severity, emphasizing multimodal combination therapy over any single product.
+  note: Verified from the video transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

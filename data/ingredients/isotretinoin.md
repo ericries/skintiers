@@ -7,6 +7,18 @@ status: published
 tier: best
 type: ingredient
 updated: '2026-09-13'
+videos:
+- title: Can topical isotretinoin replace oral isotretinoin (Accutane)? | Dermatologist explains
+  creator: John Barbieri, MD
+  creator_slug: john-barbieri-md
+  credential: Board-certified dermatologist, Associate Professor of Dermatology at Harvard Medical School; co-chair of the AAD Acne Guidelines Work Group
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=jvuhQ3ZMsfs
+  posted: '2026-06-29'
+  related: [tretinoin, acne, benzoyl-peroxide]
+  thesis: Board-certified dermatologist Dr. John Barbieri reviews the clinical trial evidence on topical isotretinoin for acne, comparing it against vehicle, tretinoin, benzoyl peroxide, and adapalene in several randomized controlled trials. He finds topical isotretinoin works about as well as other single-agent topical acne treatments but not better, and concludes it is unlikely to replace oral isotretinoin (Accutane) because it cannot penetrate deeply enough to shrink the sebaceous glands and produce the durable remission seen with the oral drug.
+  note: Verified from the video transcript (yt-dlp, read in full); no sponsorship (creator discloses no financial relationship).
+
 ---
 
 Isotretinoin is an oral prescription retinoid (brand names Absorica, Claravis, Myorisan, and the now-discontinued original Accutane) for severe [[acne]] that will not respond to anything else. It is not part of the topical [[retinoids]] family covered on this site under [[tretinoin]]; it is a systemic drug, taken by mouth, that shrinks the oil glands themselves rather than being applied to skin. The FDA label reserves it for "severe recalcitrant nodular acne in non-pregnant patients 12 years of age and older with multiple inflammatory nodules with a diameter of 5 mm or greater," and specifically for patients "who are unresponsive to conventional therapy, including systemic antibiotics."[^dailymed]

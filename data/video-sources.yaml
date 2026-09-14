@@ -463,6 +463,7 @@
   channel: https://www.youtube.com/channel/UCHCZnC9akNA9pBP7aJGNKdg
   conflict: Muneeb Shah runs own skincare brand (Remedy Science) and Scriptable Rx venture featured on the channel
   product_recs: restricted
+  last_pulled: '2026-09-13'
 - name: John Barbieri, MD
   creator_slug: john-barbieri-md
   credential: Board-certified dermatologist, Associate Professor of Dermatology at Harvard Medical School, Director of the Advanced Acne Therapeutics Clinic at Brigham and Women's Hospital, co-chair of the AAD Acne Guidelines Work Group
@@ -470,6 +471,7 @@
   channel: https://www.youtube.com/channel/UCm0RvvD6gfywapkgOt3bFCA
   conflict: null
   product_recs: ok
+  last_pulled: '2026-09-13'
 - name: Dr. Aleksandra Brown, DO, FAAD
   creator_slug: aleksandra-brown
   credential: Board-certified dermatologist (DO, FAOCD, FAAD), practicing at River Ridge Dermatology / HCA Virginia (LewisGale), Blacksburg VA
@@ -477,6 +479,7 @@
   channel: https://www.youtube.com/channel/UC52c6a0gfbhuVCdHYZQAzuQ
   conflict: null
   product_recs: ok
+  last_pulled: '2026-09-13'
 - name: Dr. Maren Locke (The Budget Dermatologist)
   creator_slug: maren-locke
   credential: Board-certified dermatologist and fellowship-trained Mohs surgeon; founder/director of Carlyle Dermatology (Ocala, FL)
@@ -484,3 +487,4 @@
   channel: https://www.youtube.com/channel/UCDc2wFMXTSApCa4UwDrdz_Q
   conflict: Runs extensive Amazon Associates and ShopMy affiliate storefronts, monetizing nearly every product mentioned across videos
   product_recs: restricted
+  last_pulled: '2026-09-13'

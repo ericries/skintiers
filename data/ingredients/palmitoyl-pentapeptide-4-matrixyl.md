@@ -6,6 +6,18 @@ slug: palmitoyl-pentapeptide-4-matrixyl
 status: published
 type: ingredient
 updated: '2026-08-17'
+videos:
+- title: 'Matrixyl vs Copper Peptides vs Argireline: A Dermatologist''s Guide for Your 40s'
+  creator: Dr. Aleksandra Brown, DO, FAAD
+  creator_slug: aleksandra-brown
+  credential: Board-certified dermatologist (DO, FAOCD, FAAD), River Ridge Dermatology / HCA Virginia, Blacksburg VA
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=t9I8vVpZjxc
+  posted: '2026-08-30'
+  related: [palmitoyl-tripeptide-1, retinoids, anti-aging]
+  thesis: 'Board certified dermatologist Dr. Aleksandra Brown explains that peptides are an "upgrade," not a foundation, meant only for people already consistent with sunscreen, vitamin C, and a retinoid, then compares three peptide classes for people in their 40s and up: signal peptides like Matrixyl/Matrixyl 3000 (palmitoyl tripeptide 1) that prompt fibroblasts to make more collagen and have the most placebo controlled human data, carrier peptides like copper peptides/GHK Cu that deliver copper to support collagen and elastin repair, and neurotransmitter inhibiting Argireline (acetyl hexapeptide 8) that softens expression lines but works nowhere near as strongly as Botox. She ranks copper peptide as her top single pick for 40s collagen support, flags that copper peptides and L ascorbic acid vitamin C should be kept apart at different times of day, and says the evidence on combining copper peptides with vitamin C derivatives is still unsettled.'
+  note: Verified from the video transcript (yt-dlp, read in full); no sponsorship or paid partnership.
+
 ---
 
 Palmitoyl pentapeptide-4, better known by its trade name Matrixyl, is the synthetic lipopeptide pal-KTTKS: a five-amino-acid fragment of type I procollagen with a fatty palmitoyl tail attached, added to leave-on anti-aging products as a "signal peptide" intended to prompt skin cells to make more collagen. Its human evidence rests almost entirely on one manufacturer-run, placebo-controlled facial trial that found a statistically significant improvement in the look of fine lines; the rest of the record is laboratory work and supplier data.

@@ -119,6 +119,16 @@ videos:
   related: [hyperpigmentation, body-acne, folliculitis, fungal-acne, hair-loss-thinning]
   thesis: 'Dr. Chris Tomassian, a board-certified dermatologist, names five skincare ingredients he considers worth using: hydroquinone for dark spots, tretinoin as the long-term gold standard for anti-aging despite causing irritation and dryness, hypochlorous acid for body acne and scalp folliculitis, vitamin C for an instant glow plus collagen support and dark spot fading, and ketoconazole for dandruff, fungal acne, and hormonal hair loss. He gives a one-line reason for each rather than detailed instructions'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Trader Joe's vs. SkinCeuticals Vitamin C | Dermatologists Compare
+  creator: Doctorly
+  creator_slug: doctorly
+  credential: Dr. Muneeb Shah, DO and Dr. Luke Maxfield, DO, both board-certified dermatologists
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=Pxf7cuCL8cM
+  posted: '2026-08-18'
+  related: [ascorbic-acid-vitamin-c, ferulic-acid, brightening]
+  thesis: Board-certified dermatologists Dr. Muneeb Shah and Dr. Luke Maxfield of Doctorly compare a low-cost Trader Joe's vitamin C serum against the far more expensive SkinCeuticals CE Ferulic serum after SkinCeuticals' original patent on the formulation expired. They find both serums use matching concentrations of the same three actives that define the CE Ferulic benchmark, L-ascorbic acid, ferulic acid, and vitamin E, with only minor differences in inactive ingredients like solubilizers and added oils. Their core argument is that a vitamin C serum's effectiveness comes from getting the concentration, pH, and antioxidant combination right, not from brand name or price, so a formulation matching those parameters can plausibly deliver similar benefits even when it is not an identical copy.
+  note: Verified from the video transcript (yt-dlp, read in full). Contains an unrelated mid-roll ad for Whoop (a wearable service, not a skincare product or the hosts' own brand); no own-brand promotion found in this video. Card reflects formulation science, not a buy verdict.
 
 ---
 

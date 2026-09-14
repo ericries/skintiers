@@ -97,6 +97,16 @@ videos:
   related: []
   thesis: Dr. Sheila Farhang, a board-certified dermatologist, explains that GHK-Cu (copper peptides) support wound healing and collagen production and can be added on top of a basic routine of sunscreen, weekly exfoliant, vitamin C in the morning, and a retinoid at night. She describes peptides broadly as signaling molecules that boost collagen, increase hydration, and improve the skin barrier, and says they have a long history of use in dermatology
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: 'Matrixyl vs Copper Peptides vs Argireline: A Dermatologist''s Guide for Your 40s'
+  creator: Dr. Aleksandra Brown, DO, FAAD
+  creator_slug: aleksandra-brown
+  credential: Board-certified dermatologist (DO, FAOCD, FAAD), River Ridge Dermatology / HCA Virginia, Blacksburg VA
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=t9I8vVpZjxc
+  posted: '2026-08-30'
+  related: [palmitoyl-tripeptide-1, retinoids, anti-aging]
+  thesis: 'Board certified dermatologist Dr. Aleksandra Brown explains that peptides are an "upgrade," not a foundation, meant only for people already consistent with sunscreen, vitamin C, and a retinoid, then compares three peptide classes for people in their 40s and up: signal peptides like Matrixyl/Matrixyl 3000 (palmitoyl tripeptide 1) that prompt fibroblasts to make more collagen and have the most placebo controlled human data, carrier peptides like copper peptides/GHK Cu that deliver copper to support collagen and elastin repair, and neurotransmitter inhibiting Argireline (acetyl hexapeptide 8) that softens expression lines but works nowhere near as strongly as Botox. She ranks copper peptide as her top single pick for 40s collagen support, flags that copper peptides and L ascorbic acid vitamin C should be kept apart at different times of day, and says the evidence on combining copper peptides with vitamin C derivatives is still unsettled.'
+  note: Verified from the video transcript (yt-dlp, read in full); no sponsorship or paid partnership.
 
 ---
 

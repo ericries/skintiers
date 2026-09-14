@@ -208,6 +208,16 @@ videos:
   related: [acne, hyperpigmentation]
   thesis: Licensed esthetician Ella explains that azelaic acid helps several concerns at once (acne, texture, redness, and pigmentation) and is gentle and easy to work into a routine, but its benefits arrive on different timelines. The calming of redness and inflammation shows up soonest, often within the first couple of weeks, while acne regulation takes roughly six to twelve weeks and pigmentation fading takes about two months or longer. Her point is that people often quit azelaic acid before its slower benefits have had time to appear.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: GLASS SKIN? The TRUTH About the Viral Tretinoin & Azelaic Acid Routine
+  creator: Doctorly
+  creator_slug: doctorly
+  credential: Dr. Muneeb Shah, DO and Dr. Luke Maxfield, DO, both board-certified dermatologists
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=L80JEx7ovhM
+  posted: '2026-09-07'
+  related: [retinoids, niacinamide]
+  thesis: Board-certified dermatologists Dr. Muneeb Shah and Dr. Luke Maxfield of Doctorly break down the viral social media trend of pairing tretinoin (or other retinoids) with azelaic acid for so-called glass skin. They explain tretinoin speeds cell turnover, boosts collagen, and reduces acne and pigment by acting on retinoic acid receptors, while azelaic acid works through separate mechanisms, lowering tyrosinase activity and inflammation to calm rosacea, redness, and dark marks, making the two ingredients complementary rather than redundant. They note there is no formal clinical safety data on combining them, but say the combination is generally well tolerated if layered thinner product first or split between morning and night for sensitive skin. Their conclusion is that tretinoin plus azelaic acid plus daily sunscreen covers most of what a skincare routine needs to achieve.
+  note: Verified from the video transcript (yt-dlp, read in full). Sponsored by Zocdoc (unrelated doctor-finder, disclosed mid-roll). The creator also teased an unreleased own-brand azelaic acid product and a tretinoin telehealth venture, so his specific product picks are not treated as recommendations; this card reflects ingredient mechanism only.
 
 ---
 

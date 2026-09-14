@@ -138,6 +138,16 @@ videos:
   related: [rosacea-erythematotelangiectatic, rosacea-papulopustular]
   thesis: 'Dermatologist Jenny Liu, MD, FAAD explains that many people who think they have sensitive skin actually have rosacea and are treating the wrong condition. She breaks rosacea into four types: type 1 is redness and flushing with visible blood vessels; type 2 is mistaken for acne, presenting as small red bumps and pustules on the central face that do not respond to acne treatments; type 3 is skin thickening around the nose and chin from sebaceous gland overgrowth; and type 4 is ocular rosacea, causing eye burning, dryness, watery eyes, and styes. She notes people often have more than one type at once, and treatment differs by type: type 1 responds best to lasers like Vbeam or IPL, while type 2 responds best to topicals like sulfur, ivermectin, and metronidazole cream, with combination treatment common for overlapping types.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: 'How to Treat Rosacea in 2026: Skincare, Prescriptions, Procedures & More (Dermatologist Guide)'
+  creator: John Barbieri, MD
+  creator_slug: john-barbieri-md
+  credential: Board-certified dermatologist, Associate Professor of Dermatology at Harvard Medical School; co-chair of the AAD Acne Guidelines Work Group
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=aUOgXdS1tAM
+  posted: '2026-09-05'
+  related: [azelaic-acid, metronidazole, brimonidine]
+  thesis: Board-certified dermatologist Dr. John Barbieri lays out a comprehensive, phenotype-based approach to treating rosacea in 2026, starting with sunscreen and moisturizer as foundational skincare and then matching treatments to specific features rather than old subtypes. He covers antimicrobial options like azelaic acid, ivermectin, metronidazole and encapsulated benzoyl peroxide for bumps, alpha agonists like brimonidine and oxymetazoline plus laser for redness and flushing, oral antibiotics and isotretinoin for severe or phymatous disease, and newer options like beta blockers, SSRIs and CGRP inhibitors for flushing tied to neurovascular reactivity.
+  note: Verified from the video transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

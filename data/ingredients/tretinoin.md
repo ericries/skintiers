@@ -138,6 +138,26 @@ videos:
   related: [hyperpigmentation, body-acne, folliculitis, fungal-acne, hair-loss-thinning]
   thesis: 'Dr. Chris Tomassian, a board-certified dermatologist, names five skincare ingredients he considers worth using: hydroquinone for dark spots, tretinoin as the long-term gold standard for anti-aging despite causing irritation and dryness, hypochlorous acid for body acne and scalp folliculitis, vitamin C for an instant glow plus collagen support and dark spot fading, and ketoconazole for dandruff, fungal acne, and hormonal hair loss. He gives a one-line reason for each rather than detailed instructions'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: GLASS SKIN? The TRUTH About the Viral Tretinoin & Azelaic Acid Routine
+  creator: Doctorly
+  creator_slug: doctorly
+  credential: Dr. Muneeb Shah, DO and Dr. Luke Maxfield, DO, both board-certified dermatologists
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=L80JEx7ovhM
+  posted: '2026-09-07'
+  related: [retinoids, niacinamide]
+  thesis: Board-certified dermatologists Dr. Muneeb Shah and Dr. Luke Maxfield of Doctorly break down the viral social media trend of pairing tretinoin (or other retinoids) with azelaic acid for so-called glass skin. They explain tretinoin speeds cell turnover, boosts collagen, and reduces acne and pigment by acting on retinoic acid receptors, while azelaic acid works through separate mechanisms, lowering tyrosinase activity and inflammation to calm rosacea, redness, and dark marks, making the two ingredients complementary rather than redundant. They note there is no formal clinical safety data on combining them, but say the combination is generally well tolerated if layered thinner product first or split between morning and night for sensitive skin. Their conclusion is that tretinoin plus azelaic acid plus daily sunscreen covers most of what a skincare routine needs to achieve.
+  note: Verified from the video transcript (yt-dlp, read in full). Sponsored by Zocdoc (unrelated doctor-finder, disclosed mid-roll). The creator also teased an unreleased own-brand azelaic acid product and a tretinoin telehealth venture, so his specific product picks are not treated as recommendations; this card reflects ingredient mechanism only.
+- title: Why Your Tretinoin Is NOT Working (And How to Fix It) | Derm Explains
+  creator: Dr. Maren Locke (The Budget Dermatologist)
+  creator_slug: maren-locke
+  credential: Board-certified dermatologist and fellowship-trained Mohs surgeon; founder of Carlyle Dermatology (Ocala, FL)
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=BhXGBlUhF4U
+  posted: '2026-05-08'
+  related: [retinoids]
+  thesis: 'Board-certified dermatologist Dr. Maren Locke explains why tretinoin often seems to stop working and how to fix it: retinoid dermatitis (irritation that blocks progress, often solved by stepping down to a gentler over-the-counter retinol or retinaldehyde that converts to retinoic acid on the skin), unrealistic timeline expectations (visible anti-aging results take 3 to 12 months, following an initial 1 to 4 week purging phase), and skipping daily SPF 30+ sunscreen, since tretinoin increases UV penetration into treated skin and undermines results without sun protection. She closes with a gentle reset routine: repair the skin barrier first, reintroduce a retinoid just once a week on dry skin, and gradually build up to 4 to 5 nights per week paired with moisturizer.'
+  note: Verified from the video transcript (yt-dlp, read in full). No paid sponsorship; the creator runs an Amazon/ShopMy affiliate storefront, so her specific product picks are not treated as recommendations. Card reflects correct-use mechanism only.
 
 ---
 
@@ -204,7 +224,7 @@ This section is quarantined and discounted; treat everything here as unproven un
 [^1]: Griffiths CEM, Kang S, Ellis CN, et al. Two concentrations of topical tretinoin (retinoic acid) cause similar improvement of photoaging but different degrees of irritation: a double-blind, vehicle-controlled comparison of 0.1% and 0.025% tretinoin creams. Archives of Dermatology, 1995;131(9):1037-1044. https://jamanetwork.com/journals/jamadermatology/article-abstract/557092 (accessed 2026-07-27)
 [^2]: Weiss JS, Ellis CN, Headington JT, Tincoff T, Hamilton TA, Voorhees JJ. Topical tretinoin improves photoaged skin. A double-blind vehicle-controlled study. JAMA, 1988;259(4):527-532. https://pubmed.ncbi.nlm.nih.gov/3336176/ (accessed 2026-07-27)
 [^3]: Huang H-Y, Lee LT-J. Tretinoin for photodamaged facial skin: systematic review and meta-analysis of randomized controlled trials. Dermatology Practical & Conceptual, 2025. https://dpcj.org/index.php/dpc/article/view/5172 (accessed 2026-07-27)
-[^4]: RENOVA (tretinoin) Cream, 0.02% — FDA prescribing information (DailyMed). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9f0a0e8d-1051-48a4-80c5-1bd260dd9c36 (accessed 2026-07-27)
+[^4]: RENOVA (tretinoin) Cream, 0.02%, FDA prescribing information (DailyMed). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9f0a0e8d-1051-48a4-80c5-1bd260dd9c36 (accessed 2026-07-27)
 [^5]: Mavranezouli I, Daly CH, Welton NJ, et al. A systematic review and network meta-analysis of topical pharmacological, oral pharmacological, physical and combined treatments for acne vulgaris. British Journal of Dermatology, 2022;187(5):639-649. https://pmc.ncbi.nlm.nih.gov/articles/PMC9804728/ (accessed 2026-07-27)
 [^6]: Cunliffe WJ, Danby FW, Dunlap F, Gold MH, Gratton D, Greenspan A. Randomised, controlled trial of the efficacy and safety of adapalene gel 0.1% and tretinoin cream 0.05% in patients with acne vulgaris. European Journal of Dermatology, 2002;12(4):350-354. https://pubmed.ncbi.nlm.nih.gov/12095880/ (accessed 2026-07-27)
-[^7]: ALTRENO (tretinoin) Lotion, 0.05% — FDA prescribing information (DailyMed). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1412aba5-71aa-4cce-8db4-c189bed1852c (accessed 2026-07-27)
+[^7]: ALTRENO (tretinoin) Lotion, 0.05%, FDA prescribing information (DailyMed). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1412aba5-71aa-4cce-8db4-c189bed1852c (accessed 2026-07-27)
