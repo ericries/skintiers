@@ -2768,19 +2768,6 @@
   posted: ''
   feed_rank: 11
   status: pending
-- id: wQ0TAWhiHRw
-  title: Can Gut Bacteria Cause Rosacea? | Dermatologist explains
-  creator: John Barbieri, MD
-  creator_slug: john-barbieri-md
-  credential: Board-certified dermatologist, Associate Professor of Dermatology at Harvard Medical School, Director of the Advanced Acne Therapeutics Clinic at Brigham and Women's Hospital, co-chair of the AAD Acne Guidelines Work Group
-  channel: https://www.youtube.com/channel/UCm0RvvD6gfywapkgOt3bFCA
-  platform: YouTube
-  tier: HIGH
-  product_recs: ok
-  conflict: null
-  posted: ''
-  feed_rank: 1
-  status: pending
 - id: mHMIOuECdyQ
   title: When Does It Make Sense to Microdose Accutane (Isotretinoin)? | Dermatologist Explains
   creator: John Barbieri, MD
@@ -4236,4 +4223,17 @@
   conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan and reject any sponsored/affiliate/gifted video
   posted: '2026-09-11'
   feed_rank: 4
+  status: pending
+- id: 6QTlyJ55jgU
+  title: Reviewing dermatologist created sunscreen  | chosen by Dr. Renita
+  creator: Dr. Aanchal MD
+  creator_slug: dr-aanchal-md
+  credential: Dr. Aanchal Panth, MD Dermatology, Venereology and Leprosy (AIIMS New Delhi), MBBS (Manipal); consultant dermatologist, Surat, India; IADVL member
+  channel: https://www.youtube.com/channel/UCMTl80jTQwGkO335HoVf0ig
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Maintains a Nykaa curated affiliate storefront; treat specific product picks as commercially incentivized (educational/mechanism content is fine).
+  posted: ''
+  feed_rank: 8
   status: pending
