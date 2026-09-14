@@ -10560,3 +10560,8 @@ sodium-sulfacetamide:
   score: 8
   verdict: publish
   note: 'Ingredient: sodium sulfacetamide, older Rx sulfonamide topical antibiotic (10%, often w/ 5% sulfur) for acne/rosacea/seb-derm. Fable draft, Opus critic verified vs 3 DailyMed SPLs: mechanism verbatim, per-label indications (acne anchored to Klaron; plain wash is seb-derm not acne), sulfa contraindication, SJS/lupus warnings. Critic fixed a warning misattributed to Klaron + a heading implying the wash treats acne. tier:weak (no vehicle-controlled monotherapy trial; dated 1950s use; Torok combo trial can''t isolate it; Cochrane endorses metronidazole/azelaic/ivermectin/brimonidine instead). Dash-free; lint/verify/style clean.'
+klaron-sodium-sulfacetamide-10-lotion:
+  last_reviewed: '2026-09-13'
+  score: 8
+  verdict: publish
+  note: 'Product (Rx): Klaron sodium sulfacetamide 10% lotion (Bausch), sulfacetamide MONOTHERAPY for acne vulgaris. Sonnet draft, Opus critic re-verified every quote/stat verbatim vs DailyMed setid 66ab38ea (indication, twice-daily dosing, Woods-Fildes/PABA mechanism, sulfonamide+metabisulfite warnings, <2% adverse, 0.08-0.33% PK, NDC) plus a generic ANDA label (Padagis). grades evidence:weak (label carries NO efficacy data; no vehicle-controlled monotherapy RCT retrievable), links to [[sodium-sulfacetamide]] rather than inventing trials. Critic fixed 3 trivial writing-guide items (Where-to-Buy disclaimer, marketing-claims process-narration, a comma-splice). Genuine DailyMed carton photo self-hosted. Price omitted (Rx, no durable source; goodrx/drugs.com forbidden). Dash-free; lint/verify/style clean.'
