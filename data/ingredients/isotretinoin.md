@@ -18,6 +18,16 @@ videos:
   related: [tretinoin, acne, benzoyl-peroxide]
   thesis: Board-certified dermatologist Dr. John Barbieri reviews the clinical trial evidence on topical isotretinoin for acne, comparing it against vehicle, tretinoin, benzoyl peroxide, and adapalene in several randomized controlled trials. He finds topical isotretinoin works about as well as other single-agent topical acne treatments but not better, and concludes it is unlikely to replace oral isotretinoin (Accutane) because it cannot penetrate deeply enough to shrink the sebaceous glands and produce the durable remission seen with the oral drug.
   note: Verified from the video transcript (yt-dlp, read in full); no sponsorship (creator discloses no financial relationship).
+- title: When Does It Make Sense to Microdose Accutane (Isotretinoin)? | Dermatologist Explains
+  creator: John Barbieri, MD
+  creator_slug: john-barbieri-md
+  credential: Board-certified dermatologist, Associate Professor of Dermatology at Harvard Medical School; co-chair of the AAD Acne Guidelines Work Group
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=mHMIOuECdyQ
+  posted: '2026-06-06'
+  related: [acne, retinoids]
+  thesis: Board-certified dermatologist Dr. John Barbieri explains microdosing of isotretinoin (Accutane), meaning very low, intermittent doses such as 10 to 20 mg two or three times a week rather than the traditional roughly 1 mg per kilogram per day taken to a cumulative target over 6 to 12 months. He notes the appeal is that most isotretinoin side effects are dose-dependent, so lower doses can mean fewer side effects, which suits milder or maintenance cases and people who cannot tolerate standard dosing. He also covers common mistakes and misconceptions, including that the lower cumulative dose of microdosing is a tradeoff that may not match the durable, long-term remission a full standard course is known for.
+  note: Verified from the video transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
