@@ -10,7 +10,8 @@
   conflict: Founder of own-brand haircare line (Rhute); TikTok Shop affiliate/product storefront; recurring disclosed sponsored posts (No7, La Roche Pos
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'REJECT (sponsorship gate): affiliate laser-cap links (Hairmax/iRestore/Capillus) + personalized discount code DRAAMNA + own-brand Rhute links = product-sales push, not clean educational; product_recs=restricted creator. Medical AGA content itself sound.'
 - id: ZM_2ypYsgIY
   title: 5 Affordable Hair Products That ACTUALLY Work | Dermatologist Explains
   creator: Dr Aamna Adel
@@ -689,7 +690,8 @@
   conflict: null
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'SKIP (weak single-topic fit for a card): 16-min, ~13-topic Q&A where the minimalist-routine point is one buried 2-min segment (5:59); not a self-contained single-topic card per the card standard. Note: creator now also runs Amazon/LTK affiliate storefronts + YouTube commission product-tags (roster has her product_recs=None). BETTER CANDIDATE to vet next: Dr Dray dedicated explainer ''Why a 2-Step Skincare Routine Beats 10 Products'' (~2mo old) -> ideal for minimalist-routine goal page.'
 - id: t_BYOQcaGOE
   title: Do Lymphatic Face Brushes Actually Work? Dermatologist Q&A
   creator: Andrea Suarez (Dr Dray)
