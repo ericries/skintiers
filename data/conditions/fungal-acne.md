@@ -19,6 +19,17 @@ tier_list:
       in seborrheic dermatitis rather than fungal acne specifically.
     slug: ketoconazole
     tier: strong
+  - note: A topical antifungal wash named in the Malassezia-folliculitis treatment
+      literature as a reported-benefit option (applied once daily for three days,
+      then weekly, per Saunte), sitting below the azole antifungals but with a real
+      clinical-use trail; background on [[selenium-sulfide]].
+    slug: selenium-sulfide
+    tier: moderate
+  - note: Propylene glycol 50% applied twice daily is listed as a reported-benefit
+      topical option in the same review, though its anti-Malassezia evidence trail
+      is thin and dated; see [[propylene-glycol]].
+    slug: propylene-glycol
+    tier: weak
   - note: An in vitro study exposed *Malassezia furfur*, *M. restricta*, and *M.
       globosa* to benzoyl peroxide (0.25-2 mmol/L, 1 hour) and found viable fungal
       counts markedly decreased, with electron microscopy showing destroyed *M.
@@ -33,7 +44,7 @@ tier_list:
     cases; standard acne antibiotics do not treat Malassezia and broad-spectrum
     antibiotic use is itself a listed risk factor for the condition.
 type: condition
-updated: '2026-08-21'
+updated: '2026-09-15'
 videos:
 - title: "Solutions For Common Skin Concerns — From A Derm"
   creator: ""
