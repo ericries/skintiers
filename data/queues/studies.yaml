@@ -448,7 +448,7 @@
 - name: 'Queille-Roussel 2026 Rapid and Visible Efficacy of a Dermocosmetic in Acne Patients With Fair Skin Phototypes:  (PMID 41487026)'
   type: study
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41487026/
 - name: 'Guitera 2026 A cost comparison of radiotherapy and topical imiquimod for lentigo maligna treatment: Con (PMID 41421462)'
