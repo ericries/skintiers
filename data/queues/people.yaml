@@ -235,7 +235,7 @@
 - name: Dr. Neera Nathan - board-certified dermatologist, creator_slug neera-nathan, 13 video cards on the site, YouTube @dermatologysurgeon
   type: person
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: null
 - name: Dr. Chris Tomassian - board-certified dermatologist, creator_slug chris-tomassian, 14 video cards on the site, TikTok @dr.tomassian
