@@ -167,7 +167,8 @@
   conflict: Some videos carry disclosed brand sponsorships (e.g. La Roche-Posay Effaclar BPO); no own product line or heavy affiliate storefront. Scan each video at ingest.
   posted: ''
   feed_rank: 3
-  status: pending
+  status: skipped
+  skip_reason: sponsored (La Roche-Posay Effaclar BPO partnership, flagged at creator vetting)
 - id: 4QPfylhCDMo
   title: Dermatologist Explains Product’s I'd NEVER Let My Family Use (not what you think)
   creator: Dr. Abigail Waldman (Dr. Abby)
@@ -3667,7 +3668,8 @@
   conflict: founder of the Prequel skincare brand - skip videos mainly promoting her own products
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: own-brand promo (Prequel Multi-Acid Milk Peel wipes; Dr Sam Ellis founds Prequel)
 - id: Mo5Van_gcLI
   title: Products I Would NEVER buy at Sephora as a Derm | Dr. Sam Ellis
   creator: Dr. Sam Ellis
