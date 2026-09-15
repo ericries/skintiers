@@ -10620,3 +10620,8 @@ neera-nathan:
   score: 8
   verdict: publish
   note: 'Person (discovery card): Dr. Neera Nathan, MD MSHS, board-certified dermatologist + Mohs surgeon (MGH + Lahey; Harvard-trained/HMS faculty; Harvard Health contributor). Credential independently verified across Harvard Health author page + US News + Healthgrades + LinkedIn; verbatim bio quote cached from health.harvard.edu (non-primary, source_cache). 130 words; roster creator with 13 video cards, links her 10 carded topics. Disclosure: ShopMy Favorites affiliate -> picks flagged promotional (product_recs restricted). Dash-free; lint/style clean; verify WARN = expected non-primary (cached).'
+resorcinol:
+  last_reviewed: '2026-09-15'
+  score: 9
+  verdict: publish
+  note: 'Ingredient (tier: weak). Sonnet draft, Opus critic verified all 7 sources against primaries (FDA OTC monograph M006 letter-perfect: resorcinol recognized ONLY with sulfur, never standalone; Boer 2010 PMID 19549239 + Molinelli 2022 PMID 35278025 HS studies verbatim, framed as open/retrospective no-placebo; Yeung 1983 percutaneous absorption; Welsch 2008 thyroid case-reports-vs-negative-animal nuance; Cassano peel toxicology; ijpgderma review [cached]). Critic REVISE, fixed: restored a clipped time-qualifier in the Yeung quote, DROPPED an unverifiable urinary-range parenthetical (paywalled, not in abstract), and a mild->mild-to-moderate consistency tweak. tier:weak (no modern controlled trial isolates it; BPO/retinoids/azelaic named as better-evidenced; real safety caveats stated with precision). Dash-free; lint/verify/style clean (2 WARNs = cached non-primaries). Updated HS hub back-link to [[resorcinol]].'
