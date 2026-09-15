@@ -250,3 +250,10 @@
   discovered_from: mederma-stretch-marks-therapy
   source: Brand behind Mederma Stretch Marks Therapy + onion-extract scar gels (Advanced
     Scar Gel, Scar Cream PM, Quick Dry Oil); links its products already on site
+- name: Tatcha
+  type: brand
+  priority: 5
+  status: pending
+  discovered_from: tatcha-the-water-cream
+  source: 2 Tatcha products now on site (The Water Cream + Indigo Overnight Repair
+    queued); warrants a lean brand hub

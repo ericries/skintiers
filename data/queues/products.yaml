@@ -2431,7 +2431,14 @@
 - name: Tatcha The Water Cream
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: moisturizing
   source: named as a moisturizer example in Dr. Abigail Waldman's 2026 moisturizer-framework
     video (eRpKXfpC1mA)
+- name: Tatcha The Dewy Skin Cream
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: tatcha-the-water-cream
+  source: Tatcha's own direct comparison product to The Water Cream (richer cream
+    for dry skin), per tatcha.com
