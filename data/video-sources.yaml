@@ -503,7 +503,7 @@
   channel: https://www.youtube.com/channel/UCNI5Bp59r_SFle-ObBG3H4Q
   conflict: Some videos carry disclosed brand sponsorships (e.g. La Roche-Posay Effaclar BPO); no own product line or heavy affiliate storefront. Scan each video at ingest.
   product_recs: ok
-  last_pulled: '2026-09-13'
+  last_pulled: '2026-09-14'
 - name: Tanya Kormeili, MD, FAAD
   creator_slug: tanya-kormeili-md
   credential: Board-certified dermatologist (American Board of Dermatology), FAAD, Clinical Professor of Dermatology at UCLA David Geffen School of Medicine; MD UCLA, residency UC Irvine

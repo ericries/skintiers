@@ -47,6 +47,18 @@ slug: cerave-moisturizing-cream
 status: published
 type: product
 updated: '2026-07-28'
+videos:
+- title: Dermatologist Explains The Best Moisturizers For 2026 (not what you think)
+  creator: Dr. Abigail Waldman (Dr. Abby)
+  creator_slug: abigail-waldman
+  credential: Abigail H. Waldman, MD, FAAD; Associate Professor of Dermatology at Harvard Medical School; Director of the Mohs and Dermatologic Surgery Center at Brigham and Women's Hospital
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=eRpKXfpC1mA
+  posted: '2026-06-20'
+  related: [ceramides, hyaluronic-acid, petrolatum, skin-barrier-repair]
+  thesis: Board-certified dermatologist and Harvard/Brigham Mohs surgeon Dr. Abigail Waldman argues the best moisturizer is not the most popular one or the one labeled for your skin type, but the one matched to how dry or dehydrated your skin is right now. She walks through skin-barrier structure to distinguish humectants that pull in water (like the hyaluronic acid in La Roche-Posay formulas), the ceramides that repair the barrier (as in CeraVe Moisturizing Cream), and heavy occlusives like petrolatum (Vaseline, Aquaphor, CeraVe Healing Ointment) for very compromised skin, plus lighter mattifying options (La Roche-Posay Effaclar Mat) for oily skin. Her takeaway is to choose by your skin's current dryness and barrier state rather than by marketing.
+  note: Verified from the video transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 CeraVe Moisturizing Cream is a fragrance-free cream whose ingredient list includes petrolatum, glycerin, three ceramides (ceramide NP, AP, EOP), and hyaluronic acid (as sodium hyaluronate), sold inexpensively in a tub or pump.[^3]

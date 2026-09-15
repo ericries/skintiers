@@ -65,6 +65,16 @@ videos:
   related: [tacrolimus-topical]
   thesis: Board-certified dermatologist Dr. Usama Syed explains that chapped lips (cheilitis) have several distinct causes, most commonly dry winter air combined with mouth breathing from a blocked nose, but also lip-product allergens (like beeswax and peppermint oil in some balms), eczema, actinic cheilitis from chronic sun damage, and infections. He explains that dehydration is rarely the real cause and that lip scrubs make the problem worse by further damaging an already compromised skin barrier. His main recommendations are a plain occlusive ointment (Vaseline, or alternatives like Aquaphor or CeraVe Healing Ointment) applied several times daily and especially before bed, a humidifier to add moisture to the air, and stopping lip-licking, which he says worsens dryness via digestive enzymes in saliva; for the minority of cases that do not improve he mentions dermatologist-prescribed options like tacrolimus ointment.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Dermatologist Explains The Best Moisturizers For 2026 (not what you think)
+  creator: Dr. Abigail Waldman (Dr. Abby)
+  creator_slug: abigail-waldman
+  credential: Abigail H. Waldman, MD, FAAD; Associate Professor of Dermatology at Harvard Medical School; Director of the Mohs and Dermatologic Surgery Center at Brigham and Women's Hospital
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=eRpKXfpC1mA
+  posted: '2026-06-20'
+  related: [ceramides, hyaluronic-acid, petrolatum, skin-barrier-repair]
+  thesis: Board-certified dermatologist and Harvard/Brigham Mohs surgeon Dr. Abigail Waldman argues the best moisturizer is not the most popular one or the one labeled for your skin type, but the one matched to how dry or dehydrated your skin is right now. She walks through skin-barrier structure to distinguish humectants that pull in water (like the hyaluronic acid in La Roche-Posay formulas), the ceramides that repair the barrier (as in CeraVe Moisturizing Cream), and heavy occlusives like petrolatum (Vaseline, Aquaphor, CeraVe Healing Ointment) for very compromised skin, plus lighter mattifying options (La Roche-Posay Effaclar Mat) for oily skin. Her takeaway is to choose by your skin's current dryness and barrier state rather than by marketing.
+  note: Verified from the video transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
