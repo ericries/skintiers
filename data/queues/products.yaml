@@ -2180,6 +2180,7 @@
 - name: Rosac Cream (sodium sulfacetamide 10% / sulfur 5% with sunscreens)
   type: product
   priority: 5
-  status: pending
+  status: skipped
   discovered_from: avar-sodium-sulfacetamide-10-sulfur-5
   source: the specific branded cream tested in the Torok 2005 rosacea RCT (Stiefel); the only sulfacetamide/sulfur product with a real comparator trial; verify DailyMed at build
+  resolution: Discontinued (no current DailyMed label; inci MISS). The Torok 2005 RCT evidence it anchors is already documented on [[plexion...]], [[avar...]], [[sodium-sulfacetamide]], [[sulfur]]; a standalone page for a discontinued 4th sulfacetamide/sulfur product is redundant + out of current-product scope.

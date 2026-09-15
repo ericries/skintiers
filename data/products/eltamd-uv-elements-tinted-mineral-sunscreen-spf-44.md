@@ -3,6 +3,7 @@ analyzed: '2026-08-30'
 assurance: opus
 brand: EltaMD
 category: Sunscreens
+discontinued: true
 images:
 - file: eltamd-uv-elements-tinted-mineral-sunscreen-spf-44-wayback.jpg
   source: EltaMD (Wayback Machine archive)

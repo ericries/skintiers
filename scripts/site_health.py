@@ -107,8 +107,8 @@ def check_product_stale_price(days=120):
     cands = []
     for f in sorted(glob.glob("data/products/*.md")):
         fm, body, raw = load(f)
-        if not published(fm):
-            continue
+        if not published(fm) or fm.get("discontinued"):
+            continue  # discontinued products carry an archived price on purpose; do not re-flag
         d = newest_as_of(raw)
         if d:
             y, mo, da = map(int, d.split("-"))
