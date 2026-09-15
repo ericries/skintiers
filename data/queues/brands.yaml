@@ -88,7 +88,7 @@
   status: done
   discovered_from: null
   source: null
-- name: "Av\xE8ne"
+- name: Avène
   type: brand
   priority: 6
   status: done
@@ -219,41 +219,34 @@
   priority: 5
   status: done
   discovered_from: product-gap
-  source: Founded 2016 by Shontay Lundy; has Black Girl Sunscreen SPF 30 on the site,
-    no brand page yet
+  source: Founded 2016 by Shontay Lundy; has Black Girl Sunscreen SPF 30 on the site, no brand page yet
 - name: Torriden
   type: brand
   priority: 5
   status: done
   discovered_from: null
-  source: 'Korean skincare brand with a product already on the site (torriden-dive-in-low-molecular-hyaluronic-acid-serum)
-    but no brand page - a brand-page gap to fill. Its job: link to that HA serum.
-    Sourceable via torriden.com / Korean retailers.'
+  source: 'Korean skincare brand with a product already on the site (torriden-dive-in-low-molecular-hyaluronic-acid-serum) but no brand page - a brand-page gap to fill. Its job: link to that HA serum. Sourceable via torriden.com / Korean retailers.'
 - name: Tower 28
   type: brand
   priority: 4
   status: done
-  discovered_from: 'BRAND cron: has tower-28-sos-daily-rescue-facial-spray on site
-    but no brand page'
+  discovered_from: 'BRAND cron: has tower-28-sos-daily-rescue-facial-spray on site but no brand page'
   source: https://tower28beauty.com/
 - name: Murad
   type: brand
   priority: 3
   status: done
-  discovered_from: 'BRAND cron: has murad-rapid-dark-spot-correcting-serum on site
-    but no brand page'
+  discovered_from: 'BRAND cron: has murad-rapid-dark-spot-correcting-serum on site but no brand page'
   source: https://www.murad.com/
 - name: Mederma
   type: brand
   priority: 5
   status: done
   discovered_from: mederma-stretch-marks-therapy
-  source: Brand behind Mederma Stretch Marks Therapy + onion-extract scar gels (Advanced
-    Scar Gel, Scar Cream PM, Quick Dry Oil); links its products already on site
+  source: Brand behind Mederma Stretch Marks Therapy + onion-extract scar gels (Advanced Scar Gel, Scar Cream PM, Quick Dry Oil); links its products already on site
 - name: Tatcha
   type: brand
   priority: 5
-  status: pending
+  status: done
   discovered_from: tatcha-the-water-cream
-  source: 2 Tatcha products now on site (The Water Cream + Indigo Overnight Repair
-    queued); warrants a lean brand hub
+  source: 2 Tatcha products now on site (The Water Cream + Indigo Overnight Repair queued); warrants a lean brand hub
