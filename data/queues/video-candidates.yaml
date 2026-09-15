@@ -4122,7 +4122,8 @@
   conflict: sell a small own-brand product line - skip own-brand promos
   posted: ''
   feed_rank: 2
-  status: pending
+  status: skipped
+  skip_reason: own-brand promo (Chemist Confessions Double Play Retinal); creator conflict says skip own-brand promos
 - id: x0-bRLmjqgA
   title: Reviewing 5 Soko Glam Sunscreens! | Chemist Confessions @Soko Glam
   creator: Chemist Confessions (Victoria Fu and Gloria Lu)
