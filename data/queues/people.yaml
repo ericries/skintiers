@@ -153,13 +153,15 @@
   priority: 5
   status: done
   discovered_from: video-cards
-  source: Board-certified dermatologist (Australia); has a transcript-verified glycolic-acid video card on the site
+  source: Board-certified dermatologist (Australia); has a transcript-verified glycolic-acid
+    video card on the site
 - name: Dr. Scott Walter
   type: person
   priority: 5
   status: done
   discovered_from: video-cards
-  source: Board-certified dermatologist; has transcript-verified Korean-sunscreen video cards on the site
+  source: Board-certified dermatologist; has transcript-verified Korean-sunscreen
+    video cards on the site
 - name: Lindsey Zubritsky (dermatologist, DermGuru)
   type: person
   priority: 5
@@ -177,7 +179,9 @@
   priority: 2
   status: done
   discovered_from: null
-  source: NPI has NO dermatologist match (she is Toronto-based, not in the US registry); verify via the Ontario CPSO public register (doctors.cpso.on.ca) when web access is available. Deprioritized until then so she does not block the person queue.
+  source: NPI has NO dermatologist match (she is Toronto-based, not in the US registry);
+    verify via the Ontario CPSO public register (doctors.cpso.on.ca) when web access
+    is available. Deprioritized until then so she does not block the person queue.
 - name: Angelo Landriscina (dermatologist)
   type: person
   priority: 5
@@ -195,52 +199,61 @@
   priority: 3
   status: done
   discovered_from: heather-woolerylloyd
-  source: 'Cosmetic chemist with 4 transcript-verified on-site video cards but no person page; disclose occasional #AD partnerships'
+  source: 'Cosmetic chemist with 4 transcript-verified on-site video cards but no
+    person page; disclose occasional #AD partnerships'
 - name: Dr. Sheila Farhang (dr.sheila_derm)
   type: person
   priority: 4
   status: done
   discovered_from: heather-woolerylloyd
-  source: Board-certified dermatologist (HIGH), 3 on-site cards, no person page; verify via NPI; self-describes as KOL
+  source: Board-certified dermatologist (HIGH), 3 on-site cards, no person page; verify
+    via NPI; self-describes as KOL
 - name: Dr. Onyeka Obioha-Lolagne, MD, FAAD
   type: person
   priority: 4
   status: done
   discovered_from: heather-woolerylloyd
-  source: Board-certified dermatologist (HIGH), 3 on-site cards, no person page; verify via NPI; disclose own Apothecary/Shop
+  source: Board-certified dermatologist (HIGH), 3 on-site cards, no person page; verify
+    via NPI; disclose own Apothecary/Shop
 - name: Dr. Usama Syed
   type: person
   priority: 5
   status: done
   discovered_from: heather-woolerylloyd
-  source: Board-certified dermatologist, 4 on-site cards, no person page; verify via NPI; disclose affiliate product links
-- name: Dr. Jenny Liu (Jenny Liu, MD, FAAD) - board-certified dermatologist, creator_slug jenny-liu, 35 video cards on the site, YouTube @dr.jennyliu
+  source: Board-certified dermatologist, 4 on-site cards, no person page; verify via
+    NPI; disclose affiliate product links
+- name: Dr. Jenny Liu (Jenny Liu, MD, FAAD) - board-certified dermatologist, creator_slug
+    jenny-liu, 35 video cards on the site, YouTube @dr.jennyliu
   type: person
   priority: 5
   status: done
   discovered_from: null
   source: null
-- name: Dr. Joyce Park (Tea with MD) - board-certified dermatologist, creator_slug joyce-park, 14 video cards on the site, YouTube @TeawithMD
+- name: Dr. Joyce Park (Tea with MD) - board-certified dermatologist, creator_slug
+    joyce-park, 14 video cards on the site, YouTube @TeawithMD
   type: person
   priority: 5
   status: done
   discovered_from: null
   source: null
-- name: Dr. Caroline Robinson - board-certified dermatologist, creator_slug caroline-robinson, 14 video cards on the site, YouTube @crobinsonmd
+- name: Dr. Caroline Robinson - board-certified dermatologist, creator_slug caroline-robinson,
+    14 video cards on the site, YouTube @crobinsonmd
   type: person
   priority: 5
   status: done
   discovered_from: null
   source: null
-- name: Dr. Neera Nathan - board-certified dermatologist, creator_slug neera-nathan, 13 video cards on the site, YouTube @dermatologysurgeon
+- name: Dr. Neera Nathan - board-certified dermatologist, creator_slug neera-nathan,
+    13 video cards on the site, YouTube @dermatologysurgeon
   type: person
   priority: 5
   status: done
   discovered_from: null
   source: null
-- name: Dr. Chris Tomassian - board-certified dermatologist, creator_slug chris-tomassian, 14 video cards on the site, TikTok @dr.tomassian
+- name: Dr. Chris Tomassian - board-certified dermatologist, creator_slug chris-tomassian,
+    14 video cards on the site, TikTok @dr.tomassian
   type: person
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: null
