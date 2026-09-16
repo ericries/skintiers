@@ -74,6 +74,16 @@ videos:
   related: []
   thesis: Board-certified dermatologist Dr Sam Ellis explains perioral dermatitis, a persistent red rash that appears around the mouth. She walks through what the condition is, what causes it, and the treatment options she finds effective, to help viewers recognize and address it rather than mistake it for ordinary acne or irritation.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: 'Perioral Dermatitis: The Rash Skincare May Be Making Worse'
+  creator: Dr. Shereene Idriss
+  creator_slug: shereene-idriss
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=Fcfi9R_Pt5A
+  posted: '2026-09-12'
+  related: [rosacea, acne, azelaic-acid, metronidazole]
+  thesis: 'Board-certified dermatologist Dr. Shereene Idriss explains perioral dermatitis, a rash of tiny uniform pink bumps that cluster around the mouth (and sometimes the eyes) and characteristically spare the lip border, which distinguishes it from acne (no blackheads or whiteheads) and rosacea. Her central message is that treating it like acne makes it worse: exfoliating acids, retinoids, heavy occlusive creams, topical steroids, and even fluoride toothpaste and thick diaper-rash cream during an active flare can all aggravate it, so the fix is to strip the routine back to a gentle cleanser and, if needed, minimal moisturizer, and otherwise leave the skin alone for one to two weeks. She adds that mild cases often clear on their own, but persistent, recurring, or painful perioral dermatitis warrants a dermatologist, who may prescribe a topical or a low-dose oral antibiotic such as doxycycline or minocycline used for its anti-inflammatory effect rather than to treat an infection.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
