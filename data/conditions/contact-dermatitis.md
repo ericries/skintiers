@@ -22,9 +22,18 @@ tier_list:
       here do not include a contact-dermatitis-specific quantified trial for it.
     slug: pimecrolimus
     tier: weak
+  - note: Not a treatment but a concrete example of the allergen-avoidance mainstay
+      this ladder is built around. Coco-glucoside is a mild surfactant that is also
+      an increasingly documented alkyl-glucoside contact allergen (a North American
+      Contact Dermatitis Group registry found 2.0% of patch-tested patients positive),
+      and it appears disproportionately in products marketed as gentle or
+      hypoallergenic, so identifying and avoiding it is part of managing allergic
+      contact dermatitis in sensitized people. Background on [[coco-glucoside]].
+    slug: coco-glucoside
+    tier: avoid
   title: Skincare adjuncts for contact dermatitis by evidence
 type: condition
-updated: '2026-08-23'
+updated: '2026-09-16'
 videos:
 - title: The Deodorant That DESTROYED Peoples Skin?! The Billie Deodorant Lawsuit - When Beauty Turns Ugly
   creator: James Welsh
