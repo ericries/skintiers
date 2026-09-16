@@ -7,6 +7,18 @@ status: published
 tier: good
 type: ingredient
 updated: '2026-08-30'
+videos:
+- title: 'Thiamidol: a hydroquinone alternative for hyperpigmentation and melasma'
+  creator: Dr. Alexis Stephens
+  creator_slug: alexis-stephens
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=Sn_Y59aGjcw
+  posted: '2023-11-05'
+  related: [hydroquinone, melasma, hyperpigmentation, tranexamic-acid, niacinamide, resorcinol]
+  thesis: Board-certified dermatologist Dr. Alexis Stephens explains thiamidol (isobutylamido thiazolyl resorcinol), a synthetic tyrosinase inhibitor that blocks the enzyme skin uses to make melanin, positioning it as an over-the-counter alternative to prescription hydroquinone for fading hyperpigmentation and melasma. She cites clinical studies led in South Africa reporting that pigmentation began to fade after about two weeks and that roughly 90 percent of users showed marked improvement by three months, with minimal stinging or irritation. She cautions that no single ingredient is a cure, that thiamidol currently appears mainly in Eucerin's line (some versions contain fragrance), and that consistent sun protection remains essential.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Thiamidol (INCI name isobutylamido thiazolyl resorcinol, chemically N-[4-(2,4-dihydroxyphenyl)-1,3-thiazol-2-yl]-2-methylpropanamide) is a resorcinyl-thiazole tyrosinase inhibitor developed by Beiersdorf and sold in Eucerin brightening products, typically formulated at 0.1% to 0.2%.[^pubchem][^mann2018][^systematic] It was discovered by screening 50,000 compounds against recombinant human tyrosinase rather than the mushroom enzyme most older inhibitors were tested against, and it emerged as by far the most potent hit in that screen; a large, vehicle-controlled 200-subject RCT and a split-face trial against hydroquinone have since replicated meaningful clinical benefit, though nearly all published human data still traces back to Beiersdorf funding or co-authorship.[^mann2018][^lekhavat][^arrowitz]
