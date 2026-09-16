@@ -1110,3 +1110,10 @@
   status: pending
   discovered_from: fungal-acne
   source: https://pubmed.ncbi.nlm.nih.gov/33369759/
+- name: Visan 2026 A Systematic Review of the Clinical Impact of GLP-1 Receptor Agonists
+    in Hidradenitis Supp (PMID 42295612)
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://pubmed.ncbi.nlm.nih.gov/42295612/
