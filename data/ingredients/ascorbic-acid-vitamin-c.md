@@ -42,6 +42,16 @@ videos:
   related: [vitamin-c, ferulic-acid, tocopherol, anti-aging]
   thesis: Board-certified dermatologist Andrea Suarez (Dr Dray) examines whether a topical vitamin C serum is actually necessary. She explains that vitamin C works mainly as an antioxidant, one important part of the skin's antioxidant defense system but not the only one, and scrutinizes whether the clinical data justifies the high price of many serums. She frames vitamin C as a potentially helpful addition rather than an automatic must-have step.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: A dermatologist's honest thoughts on a cheap vitamin C dupe
+  creator: Dr. Fatima Fahs
+  creator_slug: fatima-fahs
+  credential: Dermatologist (MD)
+  platform: TikTok
+  url: https://www.tiktok.com/@dermydoctor/video/7680539595578019086
+  posted: '2026-09-01'
+  related: [ferulic-acid, vitamin-c, sunscreen-uv-filters]
+  thesis: 'Dermatologist Dr. Fatima Fahs points out that the most-studied form of topical vitamin C is a specific combination, 15% L-ascorbic acid with 1% vitamin E (alpha tocopherol) and 0.5% ferulic acid, and that this triple-antioxidant formula has been shown to boost skin luminosity and improve how well sunscreen protects the skin. Her practical takeaway is that this is about the formulation rather than the price or brand: she notes that an inexpensive drugstore serum listing the exact same 15% ascorbic acid, 1% tocopherol, and 0.5% ferulic acid combination offers the same well-studied formula as a far pricier viral serum, so you do not need to spend a lot to get it.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 name: Ascorbic acid (vitamin C)
 slug: ascorbic-acid-vitamin-c
 tier: mid
