@@ -30,6 +30,17 @@ videos:
   title: Do these skincare trends actually work? Encapsulation, derivatives, microbiome,
     menopause
   url: https://www.youtube.com/watch?v=sGqERq0xBxc
+- title: How Perimenopause Changes Your Skin (And What to Do)
+  creator: Dr. Dustin Portela
+  creator_slug: dustin-portela
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=6ufx8i4mSrE
+  posted: '2026-09-13'
+  related: [retinoids, sunscreen-uv-filters, ascorbic-acid-vitamin-c, anti-aging, neck-chest-decolletage-care]
+  thesis: 'Board-certified dermatologist Dr. Dustin Portela, in conversation with dermatologist Dr. Mary Alice Mina, explains how perimenopause and menopause change the skin as falling estrogen drives a sharp loss of collagen and new skin laxity; they cite losing up to about 30 percent of skin collagen in the roughly five years around menopause, versus about 1 percent a year after age 30. Their practical takeaway is that the highest-value routine stays simple: daily sun protection first, then a retinol or prescription retinoid to support collagen, and an antioxidant such as vitamin C, with more expensive add-ons giving diminishing returns. They also stress that sleep, diet, and stress management meaningfully affect how skin ages.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Skin aging speeds up around menopause, when the ovaries stop producing estrogen. As estrogen falls, skin loses collagen (the protein scaffold that keeps skin firm) and elasticity faster than sun exposure alone explains, and much of the visible change tracks estrogen status rather than chronological age. Skin collagen declines "between 1-2% per year after the menopause," and the loss correlates with years since menopause, not birthday.[^brincat87] This page covers the levers specific to that hormonal component. The general, sun-driven half of aging, and the sunscreen-and-retinoid foundation that does most of the work, is ranked on [[anti-aging]]; this page is about what is different when the driver is hormonal.

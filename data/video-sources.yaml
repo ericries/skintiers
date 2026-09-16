@@ -49,7 +49,7 @@
   tier: HIGH
   channel: https://www.youtube.com/channel/UCC9iFyuXhE3Epr-rJsFiK3Q/videos
   conflict: null
-  last_pulled: '2026-08-30'
+  last_pulled: '2026-09-16'
 - name: Javon Ford
   creator_slug: javon-ford
   backfill_cursor: 15
