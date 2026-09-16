@@ -526,7 +526,7 @@
     Alcea sulphurea Extract on A (PMID 41347526)
   type: study
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41347526/
 - name: 'Roster 2026 Menopause and Common Dermatoses: A Systematic Review (PMID 41331233)'

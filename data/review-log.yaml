@@ -10635,3 +10635,8 @@ tatcha:
   score: 8
   verdict: publish
   note: 'Brand (lean discovery hub, no critic per brand flow): Tatcha, US prestige skincare brand, founder Vicky Tsai (verified verbatim from the brand Our Story page, cached; Japanese-ritual/Hadasei-3 positioning attributed as the brand own claims, not fact). Did NOT state a brand-founding year - the page 2010 is the Tatcha Institute, not the brand, so left it out. 124 words, links its 3 on-site products (Water Cream, Dewy Skin Cream, Indigo Overnight Repair). Dash-free; lint/verify/style clean (verify WARN = expected cached non-primary).'
+salimi-2025-bentonite-alcea-facial-mask-acne-rct:
+  last_reviewed: '2026-09-16'
+  score: 9
+  verdict: publish
+  note: 'Opus profile-reviewer verified all abstract quotes/numbers verbatim (TLC 55.45%, ASI 66.33%, 43.3% vs 3.3%, n=60, 76.7% female) and returned REVISE with 4 full-text findings from PMC12679517; ALL 4 applied and independently re-verified against the PMC HTML: (1) placebo was a GEL not a mask; (2) three recruiting sites, not single-center; (3) added the authors'' incomplete-blinding limitation (mask vs gel, biases the satisfaction outcome); (4) added the age-adjustment caveat: baseline age imbalance p=0.002, age-adjusted between-group NOT significant (TLC p=0.063, ASI p=0.203) vs unadjusted (p=0.018, p=0.038); within-group changes were p<0.001. Compact agent-facing format kept; footnote now cites PMC full text for the full-text-derived details.'
