@@ -280,6 +280,16 @@ videos:
   related: [ceramides, colloidal-oatmeal, glycerin, zinc-oxide, dry-skin]
   thesis: Board-certified dermatologist Dr. Dray explains what a damaged skin barrier needs and where barrier creams and balms fit in, pointing out they are useful well beyond eczema and diaper rash, including for cold weather and anyone with a compromised barrier. She favors simple, fragrance-free formulas that rely on occlusion plus soothing and hydrating ingredients such as colloidal oatmeal, zinc oxide, glycerin, shea butter, and ceramides, and stresses protecting irritated skin rather than over-treating it while it recovers.
   note: Verified from the video transcript (yt-dlp, read in full); no sponsorship.
+- title: How to take care of your skin barrier
+  creator: Dr. Ranella Hirsch
+  creator_slug: ranella-hirsch
+  credential: Board-certified dermatologist (MD, FAAD)
+  platform: TikTok
+  url: https://www.tiktok.com/@ranellamd/video/7179246795917118762
+  posted: '2022-12-20'
+  related: [sensitive-skin, dry-skin, moisturizing]
+  thesis: 'Board-certified dermatologist Dr. Ranella Hirsch explains skin barrier care with a simple analogy: a healthy skin barrier is like your front door, which quietly keeps out what you do not want and holds in what you need without you having to fuss over it. Her point is that a well-functioning barrier should not need constant intervention, so if every couple of weeks you are doing something that seriously damages it, such as over-exfoliating, that is a sign you are overdoing your routine rather than helping it.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
