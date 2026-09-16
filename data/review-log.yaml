@@ -10650,3 +10650,8 @@ best-neck-and-chest-products-by-evidence:
   score: 8
   verdict: publish
   note: 'Best-of list (curatorial, no Opus critic per list flow; own lint/verify/style + spot-verify). Ranks 4 on-site neck/chest products by the evidenced active they deliver: Necessaire 0.1% retinol > Cocokind 0.05% retinol (value) > Gold Bond (retinol, undisclosed %) > StriVectin (peptide/niacin ester, not a retinoid, priciest). All prices/percentages drawn verbatim from the products'' own verified pages. Intro makes clear sunscreen is the true first step (links neck-chest hub). Dash-free; gates clean.'
+itraconazole:
+  last_reviewed: '2026-09-16'
+  score: 9
+  verdict: publish
+  note: 'Opus critic re-fetched both sources (DailyMed SPORANOX label + Saunte 2020) and verified every quote/stat/indication/tier as EXACT; verdict revise on 2 narrow D2 fixes, both applied + independently re-verified against the SPL XML: (1) added onychomycosis denominators (toenail n=110 of 214; fingernail n=37 of 73); (2) decoupled the hepatotoxicity clauses (label states two separate ''some of these cases'' populations, not one). tier: mid well-earned (one FDA-approved indication w/ moderate cure rates + two off-label review-level uses, systemic-only w/ boxed warning). Scoped to dermatologic use, prescription-only flagged, links out to fungal-acne/ketoconazole.'

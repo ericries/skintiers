@@ -1410,7 +1410,7 @@
 - name: Itraconazole
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: fungal-acne
   source: https://pmc.ncbi.nlm.nih.gov/articles/PMC7098993/
 - name: Fluconazole
@@ -1425,3 +1425,9 @@
   status: pending
   discovered_from: salimi-2025-bentonite-alcea-facial-mask-acne-rct
   source: https://pubmed.ncbi.nlm.nih.gov/41347526/
+- name: Terbinafine
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: itraconazole
+  source: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a4d555fa-787c-40fb-bb7d-b0d4f7318fd0
