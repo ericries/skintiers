@@ -194,3 +194,10 @@
   status: done
   discovered_from: roster-2026-menopause-common-dermatoses-systematic-review
   source: https://pubmed.ncbi.nlm.nih.gov/41331233/
+- name: Melanoma (skin cancer)
+  type: condition
+  priority: 5
+  status: pending
+  discovered_from: sunscreen-uv-filters
+  source: sunscreen-uv-filters prevention coverage + ABCDE recognition; grounded gap
+    (no skin-cancer hub despite heavy sunscreen coverage)
