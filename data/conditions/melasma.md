@@ -103,6 +103,16 @@ videos:
   related: [sunscreen-uv-filters, hyperpigmentation]
   thesis: Board-certified dermatologist and UCLA clinical professor Dr. Tanya Kormeili explains melasma, patchy facial pigmentation linked to hormonal changes and UV exposure that can affect anyone, not just pregnant women. She argues effective treatment starts with strict sun protection, since melasma-prone skin is highly light sensitive, then layers in pigment-reducing ingredients (both prescription and botanical) and gentle exfoliation via at-home acids or in-office chemical peels. She cautions that IPL and BBL lasers often worsen melasma within a year and should only be used as a last resort after other treatments are exhausted.
   note: Verified from the video transcript (yt-dlp, read in full); no sponsorship and no product or own-brand mention (treatments discussed as categories only). Creator runs an own-brand practice storefront, so this card reflects treatment categories, not product picks.
+- title: How to Prevent and Treat Sun-Induced Pigmentation
+  creator: Dr. Davin Lim
+  creator_slug: davin-lim
+  credential: Board-certified dermatologist (Australia)
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=vU9XccWySgA
+  posted: '2025-03-04'
+  related: [hyperpigmentation, sunscreen-uv-filters, tranexamic-acid, hydroquinone, arbutin, kojic-acid]
+  thesis: 'Board-certified dermatologist Dr. Davin Lim explains what drives sun-induced pigmentation and melasma, describing pigmentation as the result of three interacting factors: genetics, sun exposure, and hormones. He notes that both ultraviolet and visible light stimulate the skin''s melanocytes to make more pigment, and that melasma, sometimes called the mask of pregnancy, is hormonally influenced; by his account roughly 50 to 60 percent of pregnancy-related cases settle on their own while 40 to 50 percent persist and need treatment. For persistent pigment he describes the dermatologist''s toolkit as daily sunscreen plus tyrosinase-inhibiting anti-pigment creams, oral tablets that reduce the blood supply feeding pigment cells such as tranexamic acid, and in-clinic lasers and chemical peels.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
