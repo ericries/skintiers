@@ -1888,19 +1888,6 @@
   posted: ''
   feed_rank: 7
   status: pending
-- id: 6ufx8i4mSrE
-  title: How Perimenopause Changes Your Skin (And What to Do)
-  creator: Dr. Dustin Portela
-  creator_slug: dustin-portela
-  credential: Board-certified dermatologist
-  channel: https://www.youtube.com/channel/UCC9iFyuXhE3Epr-rJsFiK3Q/videos
-  platform: YouTube
-  tier: HIGH
-  product_recs: null
-  conflict: null
-  posted: ''
-  feed_rank: 0
-  status: pending
 - id: DNLvE97JNHI
   title: 'Healthcare Changes: What You Should Know Before It’s Too Late'
   creator: Dr. Dustin Portela
@@ -3815,19 +3802,6 @@
   posted: '2026-09-04'
   feed_rank: 5
   status: pending
-- id: Fcfi9R_Pt5A
-  title: 'Perioral Dermatitis: The Rash Skincare May Be Making Worse | Dr. Shereene Idriss'
-  creator: Dr. Shereene Idriss
-  creator_slug: shereene-idriss
-  credential: Board-certified dermatologist
-  channel: https://www.youtube.com/@ShereeneIdriss/videos
-  platform: YouTube
-  tier: HIGH
-  product_recs: null
-  conflict: runs the PillowtalkDerm brand - skip videos mainly promoting her own products
-  posted: ''
-  feed_rank: 0
-  status: pending
 - id: ReH0Ep21HQU
   title: 'HRT & Perimenopause in Your 40s: When to Start, What to Take & What Matters | A Doctor’s Guide'
   creator: Dr. Shereene Idriss
@@ -4855,4 +4829,186 @@
   conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan and reject any sponsored/affiliate/gifted video
   posted: '2026-09-15'
   feed_rank: 1
+  status: pending
+- id: jf3SZ-HIv8g
+  title: 'how it started vs how its going #dermatologist #haircarebrand #haircare #hairgrowth #rhute'
+  creator: Dr Aamna Adel
+  creator_slug: aamna-adel
+  credential: Consultant dermatologist
+  channel: https://www.youtube.com/@DrAamnaAdel
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Founder of own-brand haircare line (Rhute); TikTok Shop affiliate/product storefront; recurring disclosed sponsored posts (No7, La Roche Pos
+  posted: ''
+  feed_rank: 6
+  status: pending
+- id: 5x92AjTT_os
+  title: 'Know this before you get eyelash extensions or fake lashes 👀 #eyelashextensions #demodex'
+  creator: Dr. Abigail Waldman (Dr. Abby)
+  creator_slug: abigail-waldman
+  credential: Abigail H. Waldman, MD, FAAD; Associate Professor of Dermatology at Harvard Medical School; Director of the Mohs and Dermatologic Surgery Center at Brigham and Women's Hospital / Dana-Farber Brigham Cancer Center
+  channel: https://www.youtube.com/channel/UCNI5Bp59r_SFle-ObBG3H4Q
+  platform: YouTube
+  tier: HIGH
+  product_recs: ok
+  conflict: Some videos carry disclosed brand sponsorships (e.g. La Roche-Posay Effaclar BPO); no own product line or heavy affiliate storefront. Scan each video at ingest.
+  posted: ''
+  feed_rank: 7
+  status: pending
+- id: '7686240387345812750'
+  title: If you need more reasons to go to bed earlier, here are some more you...
+  creator: Dr. Aegean Chan
+  creator_slug: aegean-chan
+  credential: Board-certified dermatologist
+  channel: https://www.tiktok.com/@draegeanchan
+  platform: TikTok
+  tier: HIGH
+  product_recs: restricted
+  conflict: Founder/owner of active postpartum skincare brand "More Than Nine" (cleanser, exfoliator, moisturizer, balm) — an ongoing own-bran
+  posted: '2026-09-16'
+  feed_rank: 0
+  status: pending
+- id: 7dCfx3rGhVI
+  title: 2 Types of Hair Loss You Need to Know
+  creator: Dr. Aleksandra Brown, DO, FAAD
+  creator_slug: aleksandra-brown
+  credential: Board-certified dermatologist (DO, FAOCD, FAAD), practicing at River Ridge Dermatology / HCA Virginia (LewisGale), Blacksburg VA
+  channel: https://www.youtube.com/channel/UC52c6a0gfbhuVCdHYZQAzuQ
+  platform: YouTube
+  tier: HIGH
+  product_recs: ok
+  conflict: null
+  posted: ''
+  feed_rank: 6
+  status: pending
+- id: JeaGLweEinQ
+  title: Does Spironolactone Lower Libido? A Dermatologist Explains
+  creator: Andrea Suarez (Dr Dray)
+  creator_slug: andrea-suarez-dr-dray
+  credential: Board-certified dermatologist
+  channel: https://www.youtube.com/@DrDrayzday/videos
+  platform: YouTube
+  tier: HIGH
+  product_recs: null
+  conflict: null
+  posted: ''
+  feed_rank: 0
+  status: pending
+- id: WAggviR1Zfs
+  title: 2026 Viral Skincare Report Card
+  creator: Dr. Daniel Sugai
+  creator_slug: daniel-sugai
+  credential: Board-certified dermatologist
+  channel: https://www.youtube.com/@danielsugaimd
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Chief Medical Officer of hair-growth-serum brand REYUS; advisory-board member of Bubble Skincare; periodic disclosed paid brand partnerships
+  posted: ''
+  feed_rank: 6
+  status: pending
+- id: '7686262994690477326'
+  title: Not all exfoliating acids do the same thing 👀 Glycolic acid and salic...
+  creator: Dr. Ife Rodney (@driferodney)
+  creator_slug: ife-rodney
+  credential: Board-certified dermatologist
+  channel: https://www.tiktok.com/@dr.iferodney
+  platform: TikTok
+  tier: MED
+  product_recs: restricted
+  conflict: Founder & CEO of own hair-care brand, BLCK Hair Care (@blckhaircare), promoted in her Instagram bio — a product-formulation/owners
+  posted: '2026-09-16'
+  feed_rank: 0
+  status: pending
+- id: nvjFO8hRuIU
+  title: '#skincare #cosmeticdermatology #skincareroutine #skincaretips #tretinoin #azelaicacid'
+  creator: Dr. Jenny Liu (Jenny Liu, MD, FAAD)
+  creator_slug: jenny-liu
+  credential: Board-certified dermatologist
+  channel: https://www.youtube.com/@dr.jennyliu
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Runs an Amazon affiliate storefront (amazon.com/shop/derm.talk); recurring disclosed paid brand partnerships (Shiseido, SkinCeutic
+  posted: ''
+  feed_rank: 6
+  status: pending
+- id: -BCu0Qvm6F4
+  title: Skin Benefits of Azelaic Acid
+  creator: Dr. Joyce Park (Tea with MD)
+  creator_slug: joyce-park
+  credential: Board-certified dermatologist
+  channel: https://www.youtube.com/@TeawithMD
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: ShopMy affiliate storefront linked in nearly every video ('My Holy Grail Products'); own hair-care brand Kerativ Hair (she is Founder/CEO);
+  posted: ''
+  feed_rank: 6
+  status: pending
+- id: '7686222323841584398'
+  title: Are you actually wasting your money on PDRN products? Explained by a ...
+  creator: Kristin Leite (kristingl)
+  creator_slug: kristin-leite
+  credential: Beauty product developer and skincare educator (NOT a dermatologist or cosmetic chemist)
+  channel: https://www.tiktok.com/@kristingl
+  platform: TikTok
+  tier: MED
+  product_recs: null
+  conflict: runs an Amazon affiliate storefront and does sponsored posts - strongly prefer educational / how-to / ingredient-explainer videos; be very cautious with any product recommendation
+  posted: '2026-09-16'
+  feed_rank: 0
+  status: pending
+- id: b_gXGbt9Oy0
+  title: 'I do NOT add azelaic acid to routines to treat wrinkles…but I DO add it in these scenarios:'
+  creator: Dr. Maren Locke (The Budget Dermatologist)
+  creator_slug: maren-locke
+  credential: Board-certified dermatologist and fellowship-trained Mohs surgeon; founder/director of Carlyle Dermatology (Ocala, FL)
+  channel: https://www.youtube.com/channel/UCDc2wFMXTSApCa4UwDrdz_Q
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Runs extensive Amazon Associates and ShopMy affiliate storefronts, monetizing nearly every product mentioned across videos
+  posted: ''
+  feed_rank: 6
+  status: pending
+- id: c7u_fK6VNWM
+  title: 'skincare pairings from a derm #skincare'
+  creator: Dr. Neera Nathan
+  creator_slug: neera-nathan
+  credential: Board-certified dermatologist
+  channel: https://www.youtube.com/@dermatologysurgeon
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Runs a "Shop my Favorites" affiliate storefront (linktr.ee/dermatologysurgeon) that monetizes her product picks; no own-brand prod
+  posted: ''
+  feed_rank: 0
+  status: pending
+- id: P04Co49xKlw
+  title: When you have to charge your client 💔
+  creator: Tanya Kormeili, MD, FAAD
+  creator_slug: tanya-kormeili-md
+  credential: Board-certified dermatologist (American Board of Dermatology), FAAD, Clinical Professor of Dermatology at UCLA David Geffen School of Medicine; MD UCLA, residency UC Irvine
+  channel: https://www.youtube.com/channel/UCRK0TPthymHl44WeA0nZ6Mw
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Runs an own-brand practice storefront (Derm Rejuvenation Institute, Shopify); treat specific product picks as commercially incentivized.
+  posted: ''
+  feed_rank: 6
+  status: pending
+- id: '7686196103024299278'
+  title: Will this replace your retinoid? Of course not. Will it help you see ...
+  creator: Ella (@your.estie.ella)
+  creator_slug: your-estie-ella
+  credential: Licensed esthetician (NOT a dermatologist or cosmetic chemist)
+  channel: https://www.tiktok.com/@your.estie.ella
+  platform: TikTok
+  tier: MED
+  product_recs: ok
+  conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan and reject any sponsored/affiliate/gifted video
+  posted: '2026-09-16'
+  feed_rank: 0
   status: pending
