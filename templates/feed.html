@@ -14,8 +14,8 @@
     {% for v in cards %}
     {% set emb = video_embed(v.url) %}
     <div class="vid">
-      <div class="vid-head"><a class="vid-title" href="{{ v.url }}" rel="nofollow noopener" target="_blank">{{ v.title }}</a>{% if v.platform %}<span class="vid-plat">{{ v.platform }}</span>{% endif %}</div>
-      <div class="vid-by">{% if v.posted %}<span class="vid-date">{{ v.posted }}</span> &middot; {% endif %}{% if v.creator_slug %}<a href="{{ v.creator_slug }}.html">{{ v.creator }}</a>{% else %}{{ v.creator }}{% endif %}{% if v.credential %} &middot; {{ v.credential }}{% endif %}{% if v.sponsored %} &middot; <span class="vid-ad">sponsored post</span>{% endif %}</div>
+      <div class="vid-head"><a class="vid-title" href="{{ v.url }}" rel="nofollow noopener" target="_blank">{{ v.title }}</a>{% if v.platform %}<span class="vid-plat">{{ v.platform }}</span>{% endif %}{% if v.page_slug %} <a class="vid-permalink" href="{{ v.page_slug }}.html">Video page</a>{% endif %}</div>
+      <div class="vid-by">{% if v.posted %}<span class="vid-date">{{ v.posted }}</span> &middot; {% endif %}{% set ch = creator_href(v.creator_slug) %}{% if ch %}<a href="{{ ch }}">{{ v.creator }}</a>{% else %}{{ v.creator }}{% endif %}{% if v.credential %} &middot; {{ v.credential }}{% endif %}{% if v.sponsored %} &middot; <span class="vid-ad">sponsored post</span>{% endif %}</div>
       {% if emb and emb.kind == 'youtube' %}<div class="vid-embed"><iframe src="{{ emb.src }}" title="{{ v.title }}" loading="lazy" frameborder="0" allow="accelerometer; encrypted-media; picture-in-picture; web-share" allowfullscreen></iframe></div>
       {% elif emb and emb.kind == 'tiktok' %}<blockquote class="tiktok-embed" cite="{{ emb.cite }}" data-video-id="{{ emb.id }}"><section><a href="{{ emb.cite }}" target="_blank" rel="noopener">{{ v.title }}</a></section></blockquote>
       {% endif %}

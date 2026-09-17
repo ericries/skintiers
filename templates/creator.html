@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block title %}{{ feed.name }} — videos — SkinTiers{% endblock %}
+{% block content %}
+<article class="creator-page">
+  <div class="kicker"><span class="type-tag">Creator</span></div>
+  <div class="masthead">
+    <div>
+      <h1>{{ feed.name }}</h1>
+      <p class="standfirst">{% if feed.credential %}{{ feed.credential }} &middot; {% endif %}{{ feed.videos|length }} video{{ 's' if feed.videos|length != 1 else '' }} cited on this site, newest first.{% if person_slug %} <a href="{{ person_slug }}.html">About {{ feed.name }} &rarr;</a>{% endif %}</p>
+    </div>
+  </div>
+
+  <section class="vids feed">
+    {% for v in feed.videos %}
+    <div class="vid">
+      <div class="vid-head"><a class="vid-title" href="{{ v.page_slug }}.html">{{ v.title }}</a>{% if v.platform %}<span class="vid-plat">{{ v.platform }}</span>{% endif %}</div>
+      <div class="vid-by">{% if v.posted %}<span class="vid-date">{{ v.posted }}</span>{% endif %}{% if v.sponsored %} &middot; <span class="vid-ad">sponsored post</span>{% endif %}</div>
+      {% if v.thesis %}<p class="vid-thesis">{{ v.thesis }}</p>{% endif %}
+      {% if v.on %}<div class="vid-on">Featured on {% for o in v.on %}<a href="{{ o.slug }}.html">{{ o.name }}</a>{% if not loop.last %}, {% endif %}{% endfor %}</div>{% endif %}
+    </div>
+    {% endfor %}
+  </section>
+</article>
+{% endblock %}

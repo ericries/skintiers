@@ -316,6 +316,76 @@ def video_embed(url):
     return None
 
 
+def video_key(url):
+    """A stable identity for a video across the pages that cite it: `kind:id` when
+    the URL is an embeddable YouTube/TikTok link, else the URL itself. Two cards
+    with the same key are the same video (de-duplicated into one video page)."""
+    emb = video_embed(url) or {}
+    return f"{emb.get('kind')}:{emb.get('id')}" if emb.get("id") else url
+
+
+def _slugify(text, maxlen=80):
+    """A URL-safe, SEO-friendly slug from free text: lowercased, every run of
+    non-alphanumerics collapsed to a single hyphen, trimmed, and capped at a word
+    boundary near maxlen so the URL stays readable."""
+    s = re.sub(r"[^a-z0-9]+", "-", (text or "").lower()).strip("-")
+    if len(s) > maxlen:
+        s = s[:maxlen].rsplit("-", 1)[0].strip("-") or s[:maxlen].strip("-")
+    return s or "video"
+
+
+def assign_video_page_slugs(cards, reserved=()):
+    """Give each de-duplicated video card a stable, human-readable page slug of the
+    form `video-<title-slug>`. The `video-` prefix namespaces these pages away from
+    the site's entity slugs (a video titled "Retinol" must not clobber the retinol
+    ingredient page). Video-vs-video collisions are resolved deterministically by
+    appending the creator slug, then a numeric suffix. Mutates each card with
+    `page_slug` and returns {video_key: page_slug} for template link lookups."""
+    used = set(reserved)
+    key_to_slug = {}
+    for c in cards:
+        base = "video-" + _slugify(c.get("title") or c.get("creator") or "video")
+        slug = base
+        if slug in used:
+            cs = c.get("creator_slug")
+            cand = f"{base}-{_slugify(cs)}" if cs else base
+            slug = cand
+            n = 2
+            while slug in used:
+                slug = f"{cand}-{n}"
+                n += 1
+        used.add(slug)
+        c["page_slug"] = slug
+        key_to_slug[c.get("_key", video_key(c.get("url")))] = slug
+    return key_to_slug
+
+
+def build_creator_feeds(cards):
+    """Group the de-duplicated video cards into per-creator feeds, newest-first by
+    the video's own posting date (undated cards last). Annotate each card with its
+    neighbours in that creator's feed (`feed_newer`, the next more-recent video;
+    `feed_older`, the next older one) and `creator_feed_slug`. Returns
+    {creator_slug: {slug, feed_slug, name, credential, videos:[cards]}}."""
+    feeds = {}
+    for c in cards:
+        cs = c.get("creator_slug")
+        if cs:
+            feeds.setdefault(cs, []).append(c)
+    out = {}
+    for cs, lst in feeds.items():
+        lst.sort(key=lambda c: (c.get("posted") or "", c.get("page_slug") or ""),
+                 reverse=True)
+        for i, c in enumerate(lst):
+            c["feed_newer"] = lst[i - 1] if i > 0 else None
+            c["feed_older"] = lst[i + 1] if i + 1 < len(lst) else None
+            c["creator_feed_slug"] = f"{cs}-videos"
+        name = next((c.get("creator") for c in lst if c.get("creator")), cs)
+        cred = next((c.get("credential") for c in lst if c.get("credential")), None)
+        out[cs] = {"slug": cs, "feed_slug": f"{cs}-videos", "name": name,
+                   "credential": cred, "videos": lst}
+    return out
+
+
 def grades_view_for(metadata, published_slugs=None, slug_to_name=None):
     """Build the dossier view rows from a `grades:` frontmatter list.
 
@@ -1135,8 +1205,7 @@ def build_video_feed(profiles):
             url = v.get("url")
             if not url:
                 continue
-            emb = video_embed(url) or {}
-            key = f"{emb.get('kind')}:{emb.get('id')}" if emb.get("id") else url
+            key = video_key(url)
             on = {"slug": p["slug"], "name": p.metadata.get("name")}
             rel = {str(s).strip() for s in (v.get("related") or [])}
             if key in by_key:
@@ -1145,7 +1214,8 @@ def build_video_feed(profiles):
                     by_key[key]["on"].append(on)
                 by_key[key]["_rel"] |= rel
             else:
-                by_key[key] = {**v, "on": [on], "posted": v.get("posted"), "_rel": rel}
+                by_key[key] = {**v, "_key": key, "on": [on],
+                               "posted": v.get("posted"), "_rel": rel}
                 order.append(key)
     # Resolve each card's related slugs to {slug, name}: published pages only, and
     # never a page the card is already embedded on (that is already in `on`).
@@ -1511,6 +1581,27 @@ def build():
 
     potency_rank_index = build_potency_rank_index(profiles, by_slug)
 
+    # Video pages: every cited video gets its own URL-addressable page, and every
+    # creator gets a chronological feed page. Computed BEFORE the profile loop so
+    # each entity page's video cards can permalink to the video's own page.
+    feed_cards = build_video_feed(profiles)
+    video_key_to_slug = assign_video_page_slugs(feed_cards, reserved=slugs)
+    creator_feeds = build_creator_feeds(feed_cards)
+    person_slugs = {p["slug"] for p in profiles
+                    if p.get("type") == "person" and p.get("status") == "published"}
+
+    def video_href(v):
+        s = video_key_to_slug.get(video_key(v.get("url"))) if v and v.get("url") else None
+        return f"{s}.html" if s else None
+
+    def creator_href(cs):
+        if not cs:
+            return None
+        return f"{cs}.html" if cs in person_slugs else f"{cs}-videos.html"
+
+    env.globals["video_href"] = video_href
+    env.globals["creator_href"] = creator_href
+
     for p in profiles:
         linked = sklib.linkify_xrefs(p.content, slugs, names)
         body = sklib.render_markdown(linked)
@@ -1667,13 +1758,35 @@ def build():
     (out / "feed.json").write_text(render_json_feed(recent))
 
     # The Feed: every expert-video card on the site, one place, newest-first by the
-    # video's own posting date. Maintained automatically on every build.
-    feed_cards = build_video_feed(profiles)
+    # video's own posting date (feed_cards + slugs + creator feeds were built above).
     (out / "feed.html").write_text(env.get_template("feed.html").render(
         cards=feed_cards,
         n_dated=sum(1 for c in feed_cards if c.get("posted")),
         needs_tiktok_js=any((video_embed(c.get("url")) or {}).get("kind") == "tiktok"
                             for c in feed_cards)))
+
+    # One URL-addressable page per video: the embed, the pages it is featured on and
+    # related to, its neighbours in the creator's feed, and a link to that feed.
+    video_tmpl = env.get_template("video.html")
+    for v in feed_cards:
+        cs = v.get("creator_slug")
+        (out / f"{v['page_slug']}.html").write_text(video_tmpl.render(
+            v=v,
+            page_url=f"{SITE_URL}/{v['page_slug']}.html",
+            page_desc=_plain_excerpt(v.get("thesis") or ""),
+            person_slug=cs if cs in person_slugs else None,
+            needs_tiktok_js=(video_embed(v.get("url")) or {}).get("kind") == "tiktok"))
+
+    # One chronological feed page per creator (keyed by creator_slug), linking each
+    # video's own page. Person pages, where they exist, link here and vice versa.
+    creator_tmpl = env.get_template("creator.html")
+    for cs, feed in creator_feeds.items():
+        (out / f"{feed['feed_slug']}.html").write_text(creator_tmpl.render(
+            feed=feed,
+            page_url=f"{SITE_URL}/{feed['feed_slug']}.html",
+            page_desc=f"Every video from {feed['name']} cited on SkinTiers.",
+            person_slug=cs if cs in person_slugs else None,
+            needs_tiktok_js=False))
 
     # Phase E: agent-native access layer. The "For Agents" page + the installable skill
     # bundle. Left UNLINKED from the nav/footer on purpose (integrator decides launch).

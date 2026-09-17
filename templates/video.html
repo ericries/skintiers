@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% block title %}{{ v.title }} — {{ v.creator }} — SkinTiers{% endblock %}
+{% block content %}
+<article class="video-page">
+  <div class="kicker"><span class="type-tag">Video</span>{% if v.platform %} <span class="type-of">{{ v.platform }}</span>{% endif %}</div>
+  <div class="masthead">
+    <div>
+      <h1>{{ v.title }}</h1>
+      <p class="standfirst vid-by">{% if v.posted %}<span class="vid-date">{{ v.posted }}</span> &middot; {% endif %}<a href="{{ v.creator_feed_slug }}.html">{{ v.creator }}</a>{% if v.credential %} &middot; {{ v.credential }}{% endif %}{% if v.sponsored %} &middot; <span class="vid-ad">sponsored post</span>{% endif %}</p>
+    </div>
+  </div>
+
+  {% set emb = video_embed(v.url) %}
+  {% if emb and emb.kind == 'youtube' %}<div class="vid-embed"><iframe src="{{ emb.src }}" title="{{ v.title }}" loading="lazy" frameborder="0" allow="accelerometer; encrypted-media; picture-in-picture; web-share" allowfullscreen></iframe></div>
+  {% elif emb and emb.kind == 'tiktok' %}<blockquote class="tiktok-embed" cite="{{ emb.cite }}" data-video-id="{{ emb.id }}"><section><a href="{{ emb.cite }}" target="_blank" rel="noopener">{{ v.title }}</a></section></blockquote>
+  {% endif %}
+  {% if v.url %}<p class="vid-src"><a href="{{ v.url }}" rel="nofollow noopener" target="_blank">Watch on {{ v.platform or 'the original source' }}</a></p>{% endif %}
+
+  {% if v.thesis %}<p class="vid-thesis">{{ v.thesis }}</p>{% endif %}
+  {% if v.note %}<p class="vid-note">{{ v.note }}</p>{% endif %}
+
+  {% if v.on or v.related %}
+  <section class="vid-links">
+    {% if v.on %}<div class="vid-featured"><h2>Featured on</h2><ul>{% for o in v.on %}<li><a href="{{ o.slug }}.html">{{ o.name }}</a></li>{% endfor %}</ul></div>{% endif %}
+    {% if v.related %}<div class="vid-also"><h2>Also about</h2><ul>{% for o in v.related %}<li><a href="{{ o.slug }}.html">{{ o.name }}</a></li>{% endfor %}</ul></div>{% endif %}
+  </section>
+  {% endif %}
+
+  {% if v.feed_older or v.feed_newer %}
+  <nav class="vid-neighbours">
+    {% if v.feed_older %}<a class="vid-prev" href="{{ v.feed_older.page_slug }}.html"><span class="nl">Previous from {{ v.creator }}</span><span class="nt">&larr; {{ v.feed_older.title }}</span></a>{% endif %}
+    {% if v.feed_newer %}<a class="vid-next" href="{{ v.feed_newer.page_slug }}.html"><span class="nl">Next from {{ v.creator }}</span><span class="nt">{{ v.feed_newer.title }} &rarr;</span></a>{% endif %}
+  </nav>
+  {% endif %}
+
+  <p class="vid-more"><a href="{{ v.creator_feed_slug }}.html">More from {{ v.creator }}</a>{% if person_slug %} &middot; <a href="{{ person_slug }}.html">About {{ v.creator }}</a>{% endif %} &middot; <a href="feed.html">All videos</a></p>
+</article>
+{% if needs_tiktok_js %}<script async src="https://www.tiktok.com/embed.js"></script>{% endif %}
+{% endblock %}

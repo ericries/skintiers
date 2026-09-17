@@ -198,9 +198,11 @@
     <h2>On short-form video</h2>
     {% for v in videos %}
     {% set emb = video_embed(v.url) %}
+    {% set vh = video_href(v) %}
+    {% set ch = creator_href(v.creator_slug) %}
     <div class="vid">
-      <div class="vid-head"><a class="vid-title" href="{{ v.url }}" rel="nofollow noopener" target="_blank">{{ v.title }}</a>{% if v.platform %}<span class="vid-plat">{{ v.platform }}</span>{% endif %}</div>
-      <div class="vid-by">{% if v.creator_slug %}<a href="{{ v.creator_slug }}.html">{{ v.creator }}</a>{% else %}{{ v.creator }}{% endif %}{% if v.credential %} &middot; {{ v.credential }}{% endif %}{% if v.sponsored %} &middot; <span class="vid-ad">sponsored post</span>{% endif %}</div>
+      <div class="vid-head"><a class="vid-title" href="{{ v.url }}" rel="nofollow noopener" target="_blank">{{ v.title }}</a>{% if v.platform %}<span class="vid-plat">{{ v.platform }}</span>{% endif %}{% if vh %} <a class="vid-permalink" href="{{ vh }}">Video page</a>{% endif %}</div>
+      <div class="vid-by">{% if ch %}<a href="{{ ch }}">{{ v.creator }}</a>{% else %}{{ v.creator }}{% endif %}{% if v.credential %} &middot; {{ v.credential }}{% endif %}{% if v.sponsored %} &middot; <span class="vid-ad">sponsored post</span>{% endif %}</div>
       {% if emb and emb.kind == 'youtube' %}<div class="vid-embed"><iframe src="{{ emb.src }}" title="{{ v.title }}" loading="lazy" frameborder="0" allow="accelerometer; encrypted-media; picture-in-picture; web-share" allowfullscreen></iframe></div>
       {% elif emb and emb.kind == 'tiktok' %}<blockquote class="tiktok-embed" cite="{{ emb.cite }}" data-video-id="{{ emb.id }}"><section><a href="{{ emb.cite }}" target="_blank" rel="noopener">{{ v.title }}</a></section></blockquote>
       {% endif %}
@@ -217,8 +219,9 @@
     <p class="vids-note">Videos of theirs cited on the site, each checked against its own transcript before use.</p>
     {% for v in creator_videos %}
     {% set emb = video_embed(v.url) %}
+    {% set vh = video_href(v) %}
     <div class="vid">
-      <div class="vid-head"><a class="vid-title" href="{{ v.url }}" rel="nofollow noopener" target="_blank">{{ v.title }}</a>{% if v.platform %}<span class="vid-plat">{{ v.platform }}</span>{% endif %}</div>
+      <div class="vid-head"><a class="vid-title" href="{{ v.url }}" rel="nofollow noopener" target="_blank">{{ v.title }}</a>{% if v.platform %}<span class="vid-plat">{{ v.platform }}</span>{% endif %}{% if vh %} <a class="vid-permalink" href="{{ vh }}">Video page</a>{% endif %}</div>
       {% if emb and emb.kind == 'youtube' %}<div class="vid-embed"><iframe src="{{ emb.src }}" title="{{ v.title }}" loading="lazy" frameborder="0" allow="accelerometer; encrypted-media; picture-in-picture; web-share" allowfullscreen></iframe></div>
       {% elif emb and emb.kind == 'tiktok' %}<blockquote class="tiktok-embed" cite="{{ emb.cite }}" data-video-id="{{ emb.id }}"><section><a href="{{ emb.cite }}" target="_blank" rel="noopener">{{ v.title }}</a></section></blockquote>
       {% endif %}
