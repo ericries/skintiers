@@ -10680,3 +10680,8 @@ the-ordinary-sulfur-10-powder-to-cream-concentrate:
   score: 9
   verdict: publish
   note: 'Opus critic verified price ($9.90/5g), the full 14-item INCI, the Torok 2005 stats (80% vs 72% P=.04, n=152, 7/75 poor tolerance, correctly flagged as ROSACEA + combination not standalone acne), and the Cochrane ''uncertain about the effects of sulfur'' quote, all byte-accurate vs cached source + PubMed. Verdict revise on 4 fixes, all applied: misquoted ''visible results in under 1 hour'' -> verbatim ''to reduce size and redness in under 1 hour''; ''13 inactive'' -> 14; removed two ''no X found'' hedges; dropped a non-source comma in the colloidal-sulfur quote. Honest: modest/uncertain-graded active, no product-specific trial, grade rests on [[sulfur]]. Note: drafter died on API error mid-run but had completed the page + image + cache.'
+frontal-fibrosing-alopecia:
+  last_reviewed: '2026-09-17'
+  score: 9
+  verdict: publish
+  note: 'Opus critic re-fetched both sources (StatPearls NBK519001 + Roster 2026 full text via PMC) and verified every quote byte-verbatim and every stat (0.2-2 cm/yr progression, ''most patients'' eyebrow loss, ''strongest and most consistent'' postmenopausal association) exact. Verdict PUBLISH, no defects. Sunscreen link framed exactly right: an UNPROVEN proposed trigger, explicitly not an established cause, pre-empting the misreading. Drug classes (5-ARIs, corticosteroids, calcineurin inhibitors, hydroxychloroquine) named for orientation only, contested efficacy percentages deliberately omitted, honest that scarring is permanent. Narrow medical hub per the HS precedent; correctly NO tier_list.'

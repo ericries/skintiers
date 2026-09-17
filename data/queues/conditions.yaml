@@ -191,6 +191,6 @@
 - name: Frontal fibrosing alopecia
   type: condition
   priority: 5
-  status: pending
+  status: done
   discovered_from: roster-2026-menopause-common-dermatoses-systematic-review
   source: https://pubmed.ncbi.nlm.nih.gov/41331233/
