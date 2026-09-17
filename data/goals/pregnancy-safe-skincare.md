@@ -78,6 +78,18 @@ tier_list:
   title: Common skincare actives by pregnancy-safety consensus
 type: goal
 updated: '2026-09-11'
+videos:
+- title: Pregnant and Confused About Your Skincare Routine? A Dermatologist Explains
+  creator: Dr. Jenny Liu
+  creator_slug: jenny-liu
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=yFOvYbsidlk
+  posted: '2026-06-11'
+  related: [melasma, hyperpigmentation, retinoids, tretinoin, hydroquinone, salicylic-acid, adapalene, isotretinoin]
+  thesis: Board-certified dermatologist Dr. Jenny Liu walks through how to adjust a skincare routine during pregnancy, sorting ingredients into what to avoid, what to use only in limitation, and what is safe to apply freely. She says the two ingredients to avoid with near-certainty are topical retinoids (including prescription tretinoin and tazarotene, over-the-counter adapalene, and retinol or retinaldehyde) and hydroquinone, because oral retinoids like isotretinoin are known to cause birth defects and hydroquinone lacks good pregnancy safety data and can irritate. She notes that salicylic acid is best avoided in high concentrations or all-over body use, though low-strength (2% or less) spot treatment or occasional facial toning is generally considered fine, and she frames pregnancy-related melasma, which she says affects roughly 70% of expecting mothers, as a hormonal change to manage gently rather than treat aggressively.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Pregnancy-safe skincare means choosing actives with a reassuring safety profile during pregnancy, favoring ones with low systemic absorption or a long track record, over ones tied to birth-defect case reports or high absorption into the bloodstream. Direct evidence is thin because controlled trials in pregnant women are largely unethical to run, so most of this guidance is precautionary rather than proven.

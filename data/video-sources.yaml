@@ -316,7 +316,7 @@
   last_pulled: '2026-09-17'
 - name: Dr. Jenny Liu (Jenny Liu, MD, FAAD)
   creator_slug: jenny-liu
-  backfill_cursor: 0
+  backfill_cursor: 15
   credential: Board-certified dermatologist
   tier: HIGH
   channel: https://www.youtube.com/@dr.jennyliu
