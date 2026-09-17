@@ -4,6 +4,9 @@ assurance: opus
 name: Neck and Chest (Décolletage) Care
 slug: neck-chest-decolletage-care
 status: published
+tier_list_reviewed:
+- necessaire-the-body-retinol
+- strivectin-tl-advanced-tightening-neck-cream
 tier_list:
   by: strength of the evidence for improving photoaged neck and chest skin, reusing
     the anti-aging ingredient rankings because the actives are the same ones used

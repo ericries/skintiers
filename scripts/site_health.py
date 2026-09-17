@@ -142,12 +142,17 @@ def check_hub_behind(hub_type, hub_dir):
     for updated, f, fm, raw in hubs:
         hs = slug_of(fm, f)
         have = tier_list_slugs(fm)
+        # Slugs the maintainer has DELIBERATELY reviewed and excluded from this
+        # hub's tier_list (e.g. products that link an actives-by-evidence hub but
+        # cannot join an actives ranking). Suppresses the recurring false-flag
+        # without polluting the tier_list; genuinely-new candidates still surface.
+        reviewed = set(fm.get("tier_list_reviewed") or [])
         missing = []
         for cf, cfm, cbody, craw in catalog:
             if not published(cfm):
                 continue
             cs = slug_of(cfm, cf)
-            if cs in have:
+            if cs in have or cs in reviewed:
                 continue
             if hs in wikilinks(craw):  # the candidate links to this hub
                 missing.append(cs)
