@@ -70,7 +70,7 @@ The tinted, iron-oxide component is a separate and more modest claim. Iron oxide
 
 ## See Also
 
-[[sunscreen-uv-filters]], [[zinc-oxide]], [[titanium-dioxide]], [[iron-oxides]], [[melasma]], [[hyperpigmentation]], [[eltamd-uv-elements-tinted-mineral-sunscreen-spf-44]], [[eltamd-uv-aox-elements-tinted-mineral-spf-50]], [[eltamd-uv-daily-tinted-broad-spectrum-spf-40]], [[eltamd-uv-clear-broad-spectrum-spf-46]].
+[[sunscreen-uv-filters]], [[zinc-oxide]], [[titanium-dioxide]], [[iron-oxides]], [[melasma]], [[hyperpigmentation]], [[eltamd-uv-elements-tinted-mineral-sunscreen-spf-44]], [[eltamd-uv-aox-elements-tinted-mineral-spf-50]], [[eltamd-uv-daily-tinted-broad-spectrum-spf-40]], [[eltamd-uv-clear-spf-46]].
 
 ## Where to Buy
 

@@ -81,7 +81,7 @@ The tinted, iron-oxide component is a separate and more modest claim. Unlike UVA
 
 ## See Also
 
-[[sunscreen-uv-filters]], [[zinc-oxide]], [[octinoxate]], [[hyaluronic-acid]], [[melasma]], [[hyperpigmentation]], [[eltamd-uv-clear-broad-spectrum-spf-46]], [[eltamd-uv-aox-elements-tinted-mineral-spf-50]].
+[[sunscreen-uv-filters]], [[zinc-oxide]], [[octinoxate]], [[hyaluronic-acid]], [[melasma]], [[hyperpigmentation]], [[eltamd-uv-clear-spf-46]], [[eltamd-uv-aox-elements-tinted-mineral-spf-50]].
 
 ## Where to Buy
 

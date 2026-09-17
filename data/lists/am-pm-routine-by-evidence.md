@@ -10,7 +10,7 @@ tier_list:
   items:
   - cerave-hydrating-facial-cleanser
   - la-roche-posay-pure-vitamin-c-12-serum
-  - eltamd-uv-clear-broad-spectrum-spf-46
+  - eltamd-uv-clear-spf-46
   - differin-adapalene-gel-0-1
   - cerave-daily-moisturizing-lotion
   title: A simple AM/PM routine, product by product
@@ -54,7 +54,7 @@ Five products, five steps, in the order to build them:
 
 **[[la-roche-posay-pure-vitamin-c-12-serum|La Roche-Posay Pure Vitamin C12 Serum]].** Optional AM add-on after cleansing. Vitamin C (ascorbic acid) has real but modest evidence for brightening and antioxidant support; the strength case and how to judge stability are on [[ascorbic-acid-vitamin-c]]. Skip it before you have the first two steps dialed in.
 
-**[[eltamd-uv-clear-broad-spectrum-spf-46|EltaMD UV Clear Broad-Spectrum SPF 46]].** The last AM step, every day, rain or shine. This is the step with the strongest long-term evidence in the whole routine.[^nambour]
+**[[eltamd-uv-clear-spf-46|EltaMD UV Clear Broad-Spectrum SPF 46]].** The last AM step, every day, rain or shine. This is the step with the strongest long-term evidence in the whole routine.[^nambour]
 
 **[[differin-adapalene-gel-0-1|Differin Gel (adapalene 0.1%)]].** The one active in this routine, used PM only. An over-the-counter adapalene retinoid whose Drug Facts label lists it as an acne treatment, and the entry point most people tolerate better than prescription tretinoin.[^adapalene] Introduce it after cleanser and before moisturizer, a few nights a week at first.
 

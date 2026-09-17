@@ -5,6 +5,9 @@ kind: best-of
 name: The Best Daily-Wear Sunscreens on the Site
 slug: best-sunscreens-daily-wear
 status: published
+tier_list_reviewed:
+- sunscreen-uv-filters
+- timeless-20-vitamin-c-e-ferulic-serum
 tier_list:
   by: overall evidence for protection and the product's stated skin benefits
   items:
