@@ -10670,3 +10670,8 @@ adeline-kikam:
   score: 8
   verdict: publish
   note: 'Person discovery card (lean, no critic per person flow). Credential VERIFIED from 2 sources: board-certified dermatologist (DO, MSc, FAAD), founder of Brown Skin Derm + Skinclusive Dermatology (Houston TX); LinkedIn + practice welcome post, cached. ~120 words; grounded intake for a heavily-carded creator (13 video cards on-site, no page). Links her pigmentation/skin-of-color topics; honestly flags ShopMy/Amazon affiliate + sponsored/discount-code conflict (product_recs=restricted). Dash-free; lint/verify/style clean (verify WARN=cached non-primary).'
+fluconazole:
+  last_reviewed: '2026-09-17'
+  score: 9
+  verdict: publish
+  note: 'Opus critic re-fetched all 3 sources and verified every quote/number verbatim (80% Malassezia figure vs itraconazole 69-100%; StatPearls ''treatment of choice... better side effect profile'' line; CYP/QT/pregnancy safety language); off-label framing correct throughout. Verdict revise on ONE precision fix (applied both places): cryptococcal meningitis was grouped under ''systemic Candida infections'' (different genus) and mucosal candidiasis mislabeled ''systemic'' -> reworded to separate Candida (vaginal/oral/esophageal/candidemia) from cryptococcal meningitis. tier: mid consistent with itraconazole precedent (off-label skin uses, review-level, systemic-only).'
