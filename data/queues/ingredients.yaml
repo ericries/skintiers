@@ -1443,3 +1443,9 @@
   status: pending
   discovered_from: dove-sensitive-skin-beauty-bar
   source: https://incidecoder.com/ingredients/sodium-lauroyl-isethionate
+- name: L-carnitine (levocarnitine, topical)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: the-ordinary-sulfur-10-powder-to-cream-concentrate
+  source: https://theordinary.com/en-us/sulfur-10-powder-to-cream-concentrate-100708.html

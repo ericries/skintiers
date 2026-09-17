@@ -10675,3 +10675,8 @@ fluconazole:
   score: 9
   verdict: publish
   note: 'Opus critic re-fetched all 3 sources and verified every quote/number verbatim (80% Malassezia figure vs itraconazole 69-100%; StatPearls ''treatment of choice... better side effect profile'' line; CYP/QT/pregnancy safety language); off-label framing correct throughout. Verdict revise on ONE precision fix (applied both places): cryptococcal meningitis was grouped under ''systemic Candida infections'' (different genus) and mucosal candidiasis mislabeled ''systemic'' -> reworded to separate Candida (vaginal/oral/esophageal/candidemia) from cryptococcal meningitis. tier: mid consistent with itraconazole precedent (off-label skin uses, review-level, systemic-only).'
+the-ordinary-sulfur-10-powder-to-cream-concentrate:
+  last_reviewed: '2026-09-17'
+  score: 9
+  verdict: publish
+  note: 'Opus critic verified price ($9.90/5g), the full 14-item INCI, the Torok 2005 stats (80% vs 72% P=.04, n=152, 7/75 poor tolerance, correctly flagged as ROSACEA + combination not standalone acne), and the Cochrane ''uncertain about the effects of sulfur'' quote, all byte-accurate vs cached source + PubMed. Verdict revise on 4 fixes, all applied: misquoted ''visible results in under 1 hour'' -> verbatim ''to reduce size and redness in under 1 hour''; ''13 inactive'' -> 14; removed two ''no X found'' hedges; dropped a non-source comma in the colloidal-sulfur quote. Honest: modest/uncertain-graded active, no product-specific trial, grade rests on [[sulfur]]. Note: drafter died on API error mid-run but had completed the page + image + cache.'
