@@ -10665,3 +10665,8 @@ roster-2026-menopause-common-dermatoses-systematic-review:
   score: 9
   verdict: publish
   note: 'Opus critic re-verified every quote/number/condition-outcome pairing EXACT against PubMed abstract + PMC full text (PMC12860752): n=40, PRISMA search dates, the 5 verbatim quotes, and all pairings (alopecia strongest; acne/rosacea improved; psoriasis worsened; melasma mixed; HS inconsistent; MHT->FFA+rosacea). Confirmed ''no pooled effect sizes'' matches full text (''meta-analysis was not feasible''). Verdict revise on ONE fix: added missing [[psoriasis]] cross-link. Compact agent-facing format, no padding.'
+adeline-kikam:
+  last_reviewed: '2026-09-17'
+  score: 8
+  verdict: publish
+  note: 'Person discovery card (lean, no critic per person flow). Credential VERIFIED from 2 sources: board-certified dermatologist (DO, MSc, FAAD), founder of Brown Skin Derm + Skinclusive Dermatology (Houston TX); LinkedIn + practice welcome post, cached. ~120 words; grounded intake for a heavily-carded creator (13 video cards on-site, no page). Links her pigmentation/skin-of-color topics; honestly flags ShopMy/Amazon affiliate + sponsored/discount-code conflict (product_recs=restricted). Dash-free; lint/verify/style clean (verify WARN=cached non-primary).'
