@@ -10655,3 +10655,8 @@ itraconazole:
   score: 9
   verdict: publish
   note: 'Opus critic re-fetched both sources (DailyMed SPORANOX label + Saunte 2020) and verified every quote/stat/indication/tier as EXACT; verdict revise on 2 narrow D2 fixes, both applied + independently re-verified against the SPL XML: (1) added onychomycosis denominators (toenail n=110 of 214; fingernail n=37 of 73); (2) decoupled the hepatotoxicity clauses (label states two separate ''some of these cases'' populations, not one). tier: mid well-earned (one FDA-approved indication w/ moderate cure rates + two off-label review-level uses, systemic-only w/ boxed warning). Scoped to dermatologic use, prescription-only flagged, links out to fungal-acne/ketoconazole.'
+dove-sensitive-skin-beauty-bar:
+  last_reviewed: '2026-09-17'
+  score: 9
+  verdict: publish
+  note: 'Opus critic verified price (Target $12.99/8pk ~$1.62/bar + Walmart $12.97, exact to the cent) and the full 14-item INCI (1:1 vs Dove''s cached current ''plant based'' list, sodium oleate/laurate not tallow) against the local cache; evidence honesty clean (no product-specific trial claimed). Returned revise on ONE load-bearing misquote: ''doesn''t dry skin like ordinary soap can'' -> fixed to the verbatim cached bullet ''doesn''t dry skin like soap can'' in both places; also hedged standfirst ''hypoallergenic'' -> ''marketed as hypoallergenic''. Syndet-soap hybrid framing accurate; cocamidopropyl-betaine allergen caveat well-calibrated.'
