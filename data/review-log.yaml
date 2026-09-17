@@ -10660,3 +10660,8 @@ dove-sensitive-skin-beauty-bar:
   score: 9
   verdict: publish
   note: 'Opus critic verified price (Target $12.99/8pk ~$1.62/bar + Walmart $12.97, exact to the cent) and the full 14-item INCI (1:1 vs Dove''s cached current ''plant based'' list, sodium oleate/laurate not tallow) against the local cache; evidence honesty clean (no product-specific trial claimed). Returned revise on ONE load-bearing misquote: ''doesn''t dry skin like ordinary soap can'' -> fixed to the verbatim cached bullet ''doesn''t dry skin like soap can'' in both places; also hedged standfirst ''hypoallergenic'' -> ''marketed as hypoallergenic''. Syndet-soap hybrid framing accurate; cocamidopropyl-betaine allergen caveat well-calibrated.'
+roster-2026-menopause-common-dermatoses-systematic-review:
+  last_reviewed: '2026-09-17'
+  score: 9
+  verdict: publish
+  note: 'Opus critic re-verified every quote/number/condition-outcome pairing EXACT against PubMed abstract + PMC full text (PMC12860752): n=40, PRISMA search dates, the 5 verbatim quotes, and all pairings (alopecia strongest; acne/rosacea improved; psoriasis worsened; melasma mixed; HS inconsistent; MHT->FFA+rosacea). Confirmed ''no pooled effect sizes'' matches full text (''meta-analysis was not feasible''). Verdict revise on ONE fix: added missing [[psoriasis]] cross-link. Compact agent-facing format, no padding.'
