@@ -300,3 +300,10 @@
   - referral
   discovered_via: 'referral: eRpKXfpC1mA'
   status: pending
+- name: drsamanthabunting
+  channel_url: https://www.youtube.com/@drsamanthabunting
+  hits: 1
+  topics:
+  - referral
+  discovered_via: 'referral: ombQvS1pPfg'
+  status: pending

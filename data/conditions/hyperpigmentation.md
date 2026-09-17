@@ -480,6 +480,16 @@ videos:
   related: [melasma, tranexamic-acid, hydroquinone, azelaic-acid, niacinamide, sunscreen-uv-filters, thiamidol]
   thesis: 'Board-certified dermatologist Dr. Sarah Sheu lays out a three-tier system for hyperpigmentation (sunspots, melasma, and post-inflammatory dark spots). Her foundation is not brightening serums but sun and visible-light protection: because visible and blue light also drive pigment and clear sunscreens do not block it, she relies on tinted products containing iron oxides and pigmentary titanium dioxide, or Avene sunscreens with the Tinosorb filter. For actives she favors newer patented ingredients whose clinical studies were run on the exact marketed product (Thiamidol in Eucerin, Melasyl in La Roche-Posay), is skeptical of ingredient claims extrapolated from other formulations, avoids long-term hydroquinone over rebound and ochronosis risk, and reserves oral tranexamic acid, peels, and lasers as a higher-risk last tier.'
   note: Verified from the video transcript (yt-dlp, read in full); no sponsorship.
+- title: 'Hyperpigmentation and Sensitive Skin: Why Most Treatments Cause Irritation'
+  creator: Dr. Sam Bunting
+  creator_slug: sam-bunting
+  credential: Board-certified dermatologist (UK)
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=ombQvS1pPfg
+  posted: '2026-04-28'
+  related: [azelaic-acid, niacinamide, hydroquinone, arbutin, kojic-acid, melasma, sensitive-skin]
+  thesis: 'Board-certified dermatologist Dr. Sam Bunting explains why treating hyperpigmentation on sensitive or darker skin so often backfires: pigment cells (melanocytes) respond to inflammation as a threat, so an irritating treatment can drive the very pigment it is meant to clear, especially in deeper skin tones where the response is stronger and longer-lasting. Her approach is to favor actives that both suppress pigment and calm rather than provoke inflammation, singling out azelaic acid (which inhibits the tyrosinase enzyme, targets overactive melanocytes, and speeds turnover of already-pigmented cells) and niacinamide (which interferes with the transfer of melanin parcels while supporting the skin barrier). She adds that gentler alternatives to harsh options, such as arbutin in place of hydroquinone or kojic dipalmitate in place of kojic acid, can treat pigmentation with less of the irritation that stalls progress.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
