@@ -197,7 +197,19 @@
 - name: Melanoma (skin cancer)
   type: condition
   priority: 5
-  status: pending
+  status: done
   discovered_from: sunscreen-uv-filters
   source: sunscreen-uv-filters prevention coverage + ABCDE recognition; grounded gap
     (no skin-cancer hub despite heavy sunscreen coverage)
+- name: Basal cell carcinoma
+  type: condition
+  priority: 5
+  status: pending
+  discovered_from: melanoma
+  source: https://www.cancer.gov/types/skin
+- name: Squamous cell carcinoma
+  type: condition
+  priority: 5
+  status: pending
+  discovered_from: melanoma
+  source: https://www.cancer.gov/types/skin

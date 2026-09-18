@@ -10714,3 +10714,16 @@ la-roche-posay-effaclar-clay-mask:
      only. Applied the D6 redundancy trim (dropped a 4th restatement of 'no controlled evidence'); accepted single
     -source photo gallery (Escentual CDN image not fetchable from cache; one correctly-attributed incidecoder phot
     o). Force-published at assurance=sonnet.
+melanoma:
+  last_reviewed: '2026-09-18'
+  score: 9
+  verdict: publish
+  note: |-
+    Opus critic re-verified all footnote quotes byte-for-byte against cached NCI (cancer.gov Melanoma PDQ) and AAD
+     (ABCDEs) sources: melanoma definition, invade/spread wording, full risk-factor list, 'Surgery... primary trea
+    tment', every ABCDE letter, and 'highly treatable' all verbatim. MEDICAL SAFETY PASS: no treatment advice, no 
+    product recommended, no self-manage/delay-care language, explicit direction to a board-certified dermatologist
+    , disclaimer present, NO tier_list/grades/OTC tiers (correct for a cancer hub). First pass verdict revise on 2
+     body-vs-source paraphrase drifts (sunburn 'severe'->'many'; ABCDE 6mm nuance) + minor attribution/link-summar
+    y polish; all 5 fixes applied and re-verified. Prevention correctly routes to [[sunscreen-uv-filters]] (which 
+    owns the Green 2011 RCT) without overclaiming. Final VERDICT publish.
