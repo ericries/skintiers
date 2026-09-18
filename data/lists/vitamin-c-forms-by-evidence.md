@@ -37,8 +37,10 @@ tier_list:
     tier: minimal
     note: No human trial isolates it, its conversion to vitamin C in skin is undemonstrated, and an in-vitro study reported it worsened UVB damage in skin cells.
   title: Vitamin C forms, by conversion needed and evidence
+tier_list_reviewed:
+- mad-hippie-vitamin-c-serum
 type: list
-updated: '2026-08-09'
+updated: '2026-09-18'
 ---
 
 Compares the vitamin C forms this site profiles on the factors that actually differ between them, rather than by a single verdict. Every form shares one active endpoint, L-ascorbic acid, but they part ways on four things: whether the molecule works as applied or must be converted to L-ascorbic acid on the skin, how stable it is in the bottle, its usable pH and how likely it is to sting, and how much controlled human evidence stands behind it. The full mechanism and the per-form citations live on the hub, [[vitamin-c]]; this page maps the family that hub describes.
