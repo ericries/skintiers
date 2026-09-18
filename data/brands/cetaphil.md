@@ -5,7 +5,7 @@ name: Cetaphil
 slug: cetaphil
 status: published
 type: brand
-updated: '2026-07-31'
+updated: '2026-09-18'
 ---
 
 Cetaphil is a mass-market brand of fragrance-free cleansers and moisturizers positioned for sensitive, dry, and reactive skin, sold in more than 70 countries and currently owned by the Swiss dermatology company Galderma.[^1][^4][^6]
@@ -34,6 +34,10 @@ Cetaphil's own site describes its current range as spanning "cleansers, moisturi
 
 - [[cetaphil-gentle-skin-cleanser]]: the brand's original 1947 formula, now a low-foaming, non-alkaline cream cleanser for normal to dry and sensitive skin.
 - [[cetaphil-moisturizing-cream]]: the brand's fragrance-free glycerin-and-petrolatum cream moisturizer for dry and sensitive skin.
+- [[cetaphil-daily-facial-moisturizer-spf-50]]: a daily facial moisturizer with SPF 50 sun protection.
+- [[cetaphil-daily-oil-free-facial-moisturizer-spf-35]]: an oil-free daily facial moisturizer with SPF 35.
+- [[cetaphil-sheer-mineral-sunscreen-spf-50]]: the brand's mineral (inorganic-filter) facial sunscreen at SPF 50.
+- [[cetaphil-sheer-mineral-sunscreen-stick-spf-50]]: the stick-format version of its mineral sunscreen at SPF 50.
 
 ## See Also
 
