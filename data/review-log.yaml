@@ -10690,3 +10690,8 @@ anua-rice-70-moisturizing-milk:
   score: 9
   verdict: publish
   note: 'Opus critic re-derived all 51 INCI positions via inci_lookup and matched EVERY position claim exactly (rice bran water 1st, niacinamide 5th, ceramides/HA 30-51), verified price ($20 anua/$19 stylevana, 150ml) and identity (Rice 70 INTENSIVE Moisturizing Milk, SKU AA000209) against cache, and confirmed 3 marketing quotes verbatim + niacinamide framing matches the ingredient page. Verdict revise on ONE non-verbatim quoted fragment in the Summary (''after 4 weeks'' vs source ''after 4-weeks use'') -> reworded to an unquoted paraphrase (verbatim quote remains in Common Marketing Claims). Also fixed the house-rule incidecoder-as-footnote verify ERROR (INCI now attributed inline). Honest: modest moisturizer, no product trial, grade rests on [[moisturizing]]+[[niacinamide]].'
+wang-2026-ivarmacitinib-ointment-atopic-dermatitis-phase-iii-rct:
+  last_reviewed: '2026-09-18'
+  score: 9
+  verdict: publish
+  note: 'Opus critic re-fetched PubMed and verified every quote verbatim + every number exact (IGA 21.3/10.6 P=0.02, 26.2/10.6 P=0.001; EASI75 42.6/17.9, 45.1/17.9 both P<0.001; 27pp math; 48h pruritus; n~122/122/123; 27 China sites). Verdict PUBLISH. Honest framing confirmed: most patients did NOT reach EASI 75, single-country trial, investigational drug not settled/approved. Applied the optional TEAE-precision nicety (raw 42.6/56.6/52.0% vs ''comparable'').'

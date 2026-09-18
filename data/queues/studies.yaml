@@ -560,7 +560,7 @@
     atopic dermatitis: pha (PMID 41317338)'
   type: study
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41317338/
 - name: 'Monteil 2025 Enhancing Facial Rejuvenation Outcomes With a Novel Retinaldehyde-Based
