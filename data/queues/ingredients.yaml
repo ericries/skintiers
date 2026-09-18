@@ -1456,3 +1456,10 @@
   discovered_from: acne
   source: Dr. Neera Nathan viral clip (2.7M views) + a major OTC acne category with
     no page yet
+- name: PDRN (polydeoxyribonucleotide, topical)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: acne
+  source: Trending K-beauty active (Hyram 'Does PDRN really do anything?' + on-site
+    anua-pdrn products reference it); no page yet
