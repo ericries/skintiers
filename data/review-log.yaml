@@ -10695,3 +10695,8 @@ wang-2026-ivarmacitinib-ointment-atopic-dermatitis-phase-iii-rct:
   score: 9
   verdict: publish
   note: 'Opus critic re-fetched PubMed and verified every quote verbatim + every number exact (IGA 21.3/10.6 P=0.02, 26.2/10.6 P=0.001; EASI75 42.6/17.9, 45.1/17.9 both P<0.001; 27pp math; 48h pruritus; n~122/122/123; 27 China sites). Verdict PUBLISH. Honest framing confirmed: most patients did NOT reach EASI 75, single-country trial, investigational drug not settled/approved. Applied the optional TEAE-precision nicety (raw 42.6/56.6/52.0% vs ''comparable'').'
+bentonite:
+  last_reviewed: '2026-09-18'
+  score: 9
+  verdict: publish
+  note: "Opus critic re-fetched all 3 primaries and matched EVERY load-bearing statistic verbatim: Zhang 2023 (PMC10626287) oiliness 68.97% immediate p<0.001, weekly 24.26/24.22/29.90%, comedones 46.44/65.77%, TEWL 20.41%, n=75/60 completers, single-arm L'Oreal-run on a named multi-ingredient LRP Effaclar mask (not bentonite isolated); Zafar 2024 review framing (in vitro/animal/preliminary, larger RCTs needed) faithful; Salimi 2025 on-site RCT characterization (add-on to azithromycin, lost significance after age adjustment, unblinded, combined with Alcea sulphurea) matches. tier: weak confirmed correct. VERDICT publish (9.5/10, zero mismatches). Applied 2 minor polish fixes: split the INCI over-attribution off [^zafar], and replaced editorial 'obscure' with the factual 'no independent corroborating trials'."

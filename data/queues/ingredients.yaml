@@ -1422,7 +1422,7 @@
 - name: Bentonite (clay)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: salimi-2025-bentonite-alcea-facial-mask-acne-rct
   source: https://pubmed.ncbi.nlm.nih.gov/41347526/
 - name: Terbinafine
@@ -1463,3 +1463,9 @@
   discovered_from: acne
   source: Trending K-beauty active (Hyram 'Does PDRN really do anything?' + on-site
     anua-pdrn products reference it); no page yet
+- name: Kaolin (clay)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: bentonite
+  source: https://pubmed.ncbi.nlm.nih.gov/39438324/
