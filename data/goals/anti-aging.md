@@ -4,6 +4,12 @@ assurance: opus
 name: Anti-aging
 slug: anti-aging
 status: published
+tier_list_reviewed:
+- acetyl-octapeptide-3
+- argireline-acetyl-hexapeptide-8
+- avobenzone
+- argan-oil
+- anua-nano-retinol-0-3-niacin-renewing-serum
 tier_list:
   by: strength of the evidence for topical anti-aging skincare; sun protection is
     the foundation every active builds on, and prescription retinoids plus in-office
@@ -49,9 +55,22 @@ tier_list:
       Evidence on [[green-tea-egcg]].
     slug: green-tea-egcg
     tier: weak
+  - note: A widely used topical anti-wrinkle active whose own evidence for smoothing
+      fine lines is weak and rests on small studies; see [[adenosine]].
+    slug: adenosine
+    tier: weak
+  - note: An antioxidant botanical (astragaloside IV) with only early, weak anti-aging
+      evidence, largely a single review rather than controlled facial trials; see
+      [[astragalus-membranaceus]].
+    slug: astragalus-membranaceus
+    tier: weak
+  - note: An antioxidant and anti-glycation dipeptide whose topical anti-aging evidence
+      is weak and largely preclinical; see [[carnosine]].
+    slug: carnosine
+    tier: weak
   title: Topical anti-aging actives by evidence
 type: goal
-updated: '2026-08-30'
+updated: '2026-09-17'
 videos:
 - creator: Dr. Sam Ellis
   creator_slug: samantha-ellis
