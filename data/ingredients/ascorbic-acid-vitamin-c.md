@@ -52,6 +52,16 @@ videos:
   related: [ferulic-acid, vitamin-c, sunscreen-uv-filters]
   thesis: 'Dermatologist Dr. Fatima Fahs points out that the most-studied form of topical vitamin C is a specific combination, 15% L-ascorbic acid with 1% vitamin E (alpha tocopherol) and 0.5% ferulic acid, and that this triple-antioxidant formula has been shown to boost skin luminosity and improve how well sunscreen protects the skin. Her practical takeaway is that this is about the formulation rather than the price or brand: she notes that an inexpensive drugstore serum listing the exact same 15% ascorbic acid, 1% tocopherol, and 0.5% ferulic acid combination offers the same well-studied formula as a far pricier viral serum, so you do not need to spend a lot to get it.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: 'Vitamin C: a dermatologist explains the benefits, forms, and how to use it'
+  creator: Dr. Whitney Bowe
+  creator_slug: whitney-bowe
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=lr-5jIX2vhk
+  posted: '2023-07-20'
+  related: [vitamin-c, ferulic-acid, sunscreen-uv-filters, hyperpigmentation, melasma]
+  thesis: 'Board-certified dermatologist Dr. Whitney Bowe explains how topical vitamin C works and how its forms differ. She describes three benefits, that it neutralizes free radicals and amplifies a sunscreen''s protection, brightens dark spots by inhibiting the tyrosinase enzyme, and supports collagen production as an enzyme cofactor, and walks through the main forms: L-ascorbic acid is the most-studied active form but is unstable and must be formulated at a low pH (under 3.5) at roughly 8 to 20 percent, which can sting sensitive skin, while newer derivatives such as tetrahexyldecyl ascorbate (lipid-loving) and 3-O-ethyl ascorbic acid (water-loving) were developed to be more stable. Her practical tips: buy L-ascorbic acid in opaque, airless packaging, use it up quickly, and watch for a yellow or brown color shift as a sign it is oxidizing and losing potency.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 name: Ascorbic acid (vitamin C)
 slug: ascorbic-acid-vitamin-c
 tier: mid
