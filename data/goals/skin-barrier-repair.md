@@ -167,7 +167,7 @@ videos:
   title: 'Winter Skincare Swaps: How to Transition Your Routine for Dry, Cold Weather'
   url: https://www.youtube.com/watch?v=u557TRHEsaM
 - creator: ''
-  creator_slug: onyeka-obiohalolagne
+  creator_slug: onyeka-obioha-lolagne
   credential: ''
   note: Verified from the video's TikTok transcript (yt-dlp captions, read in full);
     no sponsorship.

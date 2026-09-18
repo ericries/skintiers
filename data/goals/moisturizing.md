@@ -49,7 +49,7 @@ videos:
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 - title: Lotion vs. Cream Explained
   creator: Dr. Onyeka Obioha-Lolagne, MD, FAAD (Dr. Onyeka Obioha)
-  creator_slug: onyeka-obiohalolagne
+  creator_slug: onyeka-obioha-lolagne
   credential: Dermatologist
   platform: TikTok
   url: https://www.tiktok.com/@dr.obioha/video/7319228517504339242

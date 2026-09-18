@@ -75,7 +75,7 @@ videos:
   url: https://www.youtube.com/watch?v=AGVZfO3rhQU
 - title: 'Dry scalp: are your oils causing more harm than good?'
   creator: Dr. Onyeka Obioha-Lolagne, MD, FAAD (Dr. Onyeka Obioha)
-  creator_slug: onyeka-obiohalolagne
+  creator_slug: onyeka-obioha-lolagne
   credential: Dermatologist
   platform: TikTok
   url: https://www.tiktok.com/@dr.obioha/video/7325630499693628715

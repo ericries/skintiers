@@ -200,7 +200,7 @@ videos:
   title: How to treat each of the 4 types of acne
   url: https://www.tiktok.com/@dr.sheila_derm/video/7667388983848078623
 - creator: ''
-  creator_slug: onyeka-obiohalolagne
+  creator_slug: onyeka-obioha-lolagne
   credential: ''
   note: Verified from the video's TikTok transcript (yt-dlp captions, read in full);
     no sponsorship.
