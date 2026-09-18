@@ -10700,3 +10700,17 @@ bentonite:
   score: 9
   verdict: publish
   note: "Opus critic re-fetched all 3 primaries and matched EVERY load-bearing statistic verbatim: Zhang 2023 (PMC10626287) oiliness 68.97% immediate p<0.001, weekly 24.26/24.22/29.90%, comedones 46.44/65.77%, TEWL 20.41%, n=75/60 completers, single-arm L'Oreal-run on a named multi-ingredient LRP Effaclar mask (not bentonite isolated); Zafar 2024 review framing (in vitro/animal/preliminary, larger RCTs needed) faithful; Salimi 2025 on-site RCT characterization (add-on to azithromycin, lost significance after age adjustment, unblinded, combined with Alcea sulphurea) matches. tier: weak confirmed correct. VERDICT publish (9.5/10, zero mismatches). Applied 2 minor polish fixes: split the INCI over-attribution off [^zafar], and replaced editorial 'obscure' with the factual 'no independent corroborating trials'."
+la-roche-posay-effaclar-clay-mask:
+  last_reviewed: '2026-09-18'
+  score: 9
+  verdict: revise
+  note: |-
+    Opus critic verified ALL load-bearing facts against cache/incidecoder: price $27.00/100ml exact (Escentual cac
+    he), 3 brand quotes verbatim, INCI 20/20 exact match (kaolin+Argilla/Mag-Al-silicate lead; the CI77891/Titaniu
+    m Dioxide duplication is genuinely in the source list), product identity honestly handled (Effaclar Clay Mask 
+    = Sebo-Controlling Mask = the exact SKU in the L'Oreal-run Zhang 2023 single-arm study, per bentonite page). E
+    vidence honesty confirmed: no independent controlled trial asserted, no acne overclaim, Salimi RCT correctly f
+    lagged as a DIFFERENT product. VERDICT revise (light) with ZERO accuracy defects; open items were completeness
+     only. Applied the D6 redundancy trim (dropped a 4th restatement of 'no controlled evidence'); accepted single
+    -source photo gallery (Escentual CDN image not fetchable from cache; one correctly-attributed incidecoder phot
+    o). Force-published at assurance=sonnet.
