@@ -68,6 +68,16 @@ videos:
   related: [keratosis-pilaris, acne]
   thesis: Board-certified dermatologist Dr. Andrea Suarez (Dr Dray) pushes back on the idea that a salicylic acid cleanser is useless because it rinses off in under a minute, explaining a formulation process called coacervation that deposits active ingredients onto the skin as the rest of the product and oil and debris wash away. She says a salicylic acid cleanser genuinely helps with blackheads, whiteheads, rough skin texture, and keratosis pilaris, and is milder and better tolerated than a leave-on salicylic acid, though results come more slowly. She notes salicylic acid body washes are especially useful for acne on the trunk.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Glycolic acid or salicylic acid? A concern-by-concern guide
+  creator: Dr. Neera Nathan
+  creator_slug: neera-nathan
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=CnavKy2BsU4
+  posted: '2026-09-01'
+  related: [glycolic-acid, enlarged-pores, hormonal-acne, keratosis-pilaris]
+  thesis: Board-certified dermatologist Dr. Neera Nathan gives a quick guide to choosing between salicylic acid and glycolic acid by skin concern. In her rundown, salicylic acid is the pick for large pores, hormonal acne, and blackheads, while glycolic acid is the pick for body odor, ingrown hairs, dark spots, calloused heels, and crepey skin.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

@@ -1449,3 +1449,10 @@
   status: pending
   discovered_from: the-ordinary-sulfur-10-powder-to-cream-concentrate
   source: https://theordinary.com/en-us/sulfur-10-powder-to-cream-concentrate-100708.html
+- name: Hydrocolloid (pimple patches)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: acne
+  source: Dr. Neera Nathan viral clip (2.7M views) + a major OTC acne category with
+    no page yet
