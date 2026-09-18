@@ -10685,3 +10685,8 @@ frontal-fibrosing-alopecia:
   score: 9
   verdict: publish
   note: 'Opus critic re-fetched both sources (StatPearls NBK519001 + Roster 2026 full text via PMC) and verified every quote byte-verbatim and every stat (0.2-2 cm/yr progression, ''most patients'' eyebrow loss, ''strongest and most consistent'' postmenopausal association) exact. Verdict PUBLISH, no defects. Sunscreen link framed exactly right: an UNPROVEN proposed trigger, explicitly not an established cause, pre-empting the misreading. Drug classes (5-ARIs, corticosteroids, calcineurin inhibitors, hydroxychloroquine) named for orientation only, contested efficacy percentages deliberately omitted, honest that scarring is permanent. Narrow medical hub per the HS precedent; correctly NO tier_list.'
+anua-rice-70-moisturizing-milk:
+  last_reviewed: '2026-09-17'
+  score: 9
+  verdict: publish
+  note: 'Opus critic re-derived all 51 INCI positions via inci_lookup and matched EVERY position claim exactly (rice bran water 1st, niacinamide 5th, ceramides/HA 30-51), verified price ($20 anua/$19 stylevana, 150ml) and identity (Rice 70 INTENSIVE Moisturizing Milk, SKU AA000209) against cache, and confirmed 3 marketing quotes verbatim + niacinamide framing matches the ingredient page. Verdict revise on ONE non-verbatim quoted fragment in the Summary (''after 4 weeks'' vs source ''after 4-weeks use'') -> reworded to an unquoted paraphrase (verbatim quote remains in Common Marketing Claims). Also fixed the house-rule incidecoder-as-footnote verify ERROR (INCI now attributed inline). Honest: modest moisturizer, no product trial, grade rests on [[moisturizing]]+[[niacinamide]].'
