@@ -28,13 +28,13 @@ updated: '2026-08-30'
 videos: []
 ---
 
-Mederma Advanced Scar Gel is an 11-ingredient leave-on topical gel from [[mederma|Mederma]] built around Cepalin, the brand's trademarked name for Allium cepa (onion) bulb extract, alongside panthenol and sodium hyaluronate as humectants; the brand markets it as its flagship scar treatment in 0.70oz (20g) and 1.76oz (50g) sizes.[^incidecoder][^mederma] Onion extract gel has real but modest trial support against no treatment, and a larger body of comparative evidence finds it does no better than other topical scar treatments while causing more irritation, [detailed under The Evidence](#the-evidence).[^draelos][^yuan]
+Mederma Advanced Scar Gel is an 11-ingredient leave-on topical gel from [[mederma|Mederma]] built around Cepalin, the brand's trademarked name for Allium cepa (onion) bulb extract, alongside panthenol and sodium hyaluronate as humectants; the brand markets it as its flagship scar treatment in 0.70oz (20g) and 1.76oz (50g) sizes.[^mederma] Onion extract gel has real but modest trial support against no treatment, and a larger body of comparative evidence finds it does no better than other topical scar treatments while causing more irritation, [detailed under The Evidence](#the-evidence).[^draelos][^yuan]
 
 > **Bottom line.** The onion extract in this gel has one small positive trial against doing nothing, but head-to-head evidence says it is not better than other topical scar treatments and it irritates skin more often than they do. It is not disease-modifying for true (atrophic or hypertrophic) scarring, which in-office procedures treat far more reliably.[^draelos][^yuan][^cochrane]
 
 ## Summary
 
-The full ingredient list, declared on incidecoder's product page, is short: Water (Purified), PEG-200, Alcohol, Xanthan Gum, Allium Cepa (Onion) Bulb Extract, Lecithin, Methylparaben, Sorbic Acid, [[panthenol|Panthenol]], Sodium Hyaluronate, and Fragrance.[^incidecoder] The named active driving the brand's marketing is Cepalin, its trademarked onion bulb extract, present alongside [[panthenol]] and sodium hyaluronate as supporting, non-graded humectant base ingredients.[^mederma][^incidecoder]
+The full ingredient list, declared on incidecoder's product page, is short: Water (Purified), PEG-200, Alcohol, Xanthan Gum, Allium Cepa (Onion) Bulb Extract, Lecithin, Methylparaben, Sorbic Acid, [[panthenol|Panthenol]], Sodium Hyaluronate, and Fragrance. The named active driving the brand's marketing is Cepalin, its trademarked onion bulb extract, present alongside [[panthenol]] and sodium hyaluronate as supporting, non-graded humectant base ingredients.[^mederma]
 
 This is a cosmetic scar gel, not an FDA-approved drug: it carries no monograph active ingredient and makes no disease claim on its own label copy beyond "reduce the overall appearance of scars." The distinction matters because the underlying scar tissue itself, whether atrophic, hypertrophic, or keloid, is not remodeled by any topical in a way supported by strong trial evidence; what onion extract gel has shown, at best, is a cosmetic softening of color and texture on the skin surface.[^draelos]
 
@@ -48,7 +48,7 @@ That single positive result sits inside a larger, less favorable picture. A 2021
 
 ## What's In It
 
-The declared ingredient list (INCI), from incidecoder's product page.[^incidecoder]
+The declared ingredient list (INCI), from incidecoder's product page.
 
 - Water (Purified), the base
 - PEG-200, a humectant/solvent
@@ -77,7 +77,6 @@ The declared ingredient list (INCI), from incidecoder's product page.[^incidecod
 
 ## Sources
 
-[^incidecoder]: incidecoder. "Mederma Advanced Scar Gel ingredients (Explained)," product ingredient page listing 11 ingredients: "Water (Purified), PEG-200, Alcohol, Xanthan Gum, Allium Cepa (Onion) Bulb Extract, Lecithin, Methylparaben, Sorbic Acid, Panthenol, Sodium Hyaluronate, Fragrance." https://incidecoder.com/products/mederma-advanced-scar-gel (accessed 2026-08-30).
 [^mederma]: Mederma. "Mederma Advanced Scar Gel," official product page, listing sizes "0.70oz (20g) / 1.76oz (50g)"; stating "It contains Cepalin® botanical extract, for old and new scars"; marketing copy "CLINICALLY SHOWN to visibly reduce the overall appearance of scars caused by a variety of reasons," "Unique Triple Action Formula penetrates beneath the skin surface to seal in moisture, renew cells and aid formation of collagen," and "#1 Recommended Brand: Mederma is the #1 recommended brand of scar treatments." https://www.mederma.com/product/mederma-advanced-scar-gel/ (accessed 2026-08-30).
 [^draelos]: Draelos ZD. "The ability of onion extract gel to improve the cosmetic appearance of postsurgical scars." J Cosmet Dermatol. 2008 Jun;7(2):101-4. 60 subjects with symmetrical seborrheic keratosis excisions on the upper chest; onion extract gel-treated sites showed "significantly improved scar softness, redness, texture, and global appearance at the excision site at study weeks 4, 6, and 10 as assessed by the blinded investigator" versus untreated sites. PMID: 18482012. https://pubmed.ncbi.nlm.nih.gov/18482012/ (accessed 2026-08-30).
 [^yuan]: Yuan X, Shen J, Chen L, Wang L, Yan Q, Zhang J. "Onion extract gel is not better than other topical treatments in scar management: A meta-analysis from randomised controlled trails." Int Wound J. 2021 Jun;18(3):396-409. Meta-analysis of 13 RCTs; "no differences were detected between OE gel and other commonly used topical treatments assessed by investigators (P = .56) and patients (P = .39)"; "OE gel increased the incidence of total adverse effects compared with no treatment (P < .0001) and other treatments (P = .008)... and increased the incidence of dropping out caused by intolerance of treatments (P = .0002)." PMID: 33372412. https://pubmed.ncbi.nlm.nih.gov/33372412/ (accessed 2026-08-30).
