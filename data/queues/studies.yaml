@@ -1117,3 +1117,10 @@
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/42295612/
+- name: "Stein 2026 Durability of response to icotrokinra in adults\_with moderate-to-severe\
+    \ plaque psoriasis:  (PMID 42397072)"
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://pubmed.ncbi.nlm.nih.gov/42397072/
