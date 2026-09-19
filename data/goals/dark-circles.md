@@ -34,9 +34,20 @@ tier_list:
       data of its own. See [[azelaic-acid]].
     slug: azelaic-acid
     tier: weak
+  - note: Targets the vascular and puffiness component rather than pigment; it can
+      transiently de-puff but has no isolated-ingredient dark-circle trial. See [[caffeine]].
+    slug: caffeine
+    tier: weak
+  - note: Widely sold for under-eye circles, but the dark-circle use is an extrapolation
+      from post-procedure bruising data, with no controlled dark-circle trial. See
+      [[vitamin-k-topical]].
+    slug: vitamin-k-topical
+    tier: weak
   title: Topical actives for under-eye dark circles by evidence
+tier_list_reviewed:
+- anua-pdrn-caffeine-rejuvenating-eye-cream
 type: goal
-updated: '2026-08-30'
+updated: '2026-09-18'
 videos:
 - creator: Dr. Sam Bunting
   creator_slug: sam-bunting
