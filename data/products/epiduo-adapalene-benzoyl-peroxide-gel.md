@@ -98,7 +98,7 @@ Marketing copy not established by the product-specific evidence above, drawn fro
 
 ## See Also
 
-[[differin-adapalene-gel-0-1]], [[la-roche-posay-effaclar-adapalene-gel-0-1]], [[panoxyl-acne-foaming-wash-benzoyl-peroxide-10]], [[adapalene]], [[benzoyl-peroxide]].
+[[differin-adapalene-0-1-gel]], [[la-roche-posay-effaclar-adapalene-gel-0-1]], [[panoxyl-acne-foaming-wash-benzoyl-peroxide-10]], [[adapalene]], [[benzoyl-peroxide]].
 
 ## Where to Buy
 

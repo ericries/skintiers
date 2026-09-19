@@ -84,7 +84,7 @@ No brand marketing page was reviewed for this product; the claims below come fro
 
 ## See Also
 
-[[minocycline-topical-oral]], [[acne]], [[zilxi-minocycline-foam|Zilxi (minocycline 1.5% topical foam)]], [[emrosi-minocycline-extended-release|Emrosi (minocycline extended-release)]], [[differin-gel-adapalene]], [[epsolay-benzoyl-peroxide-5-cream]].
+[[minocycline-topical-oral]], [[acne]], [[zilxi-minocycline-foam|Zilxi (minocycline 1.5% topical foam)]], [[emrosi-minocycline-extended-release|Emrosi (minocycline extended-release)]], [[differin-adapalene-0-1-gel]], [[epsolay-benzoyl-peroxide-5-cream]].
 
 ## Where to Buy
 

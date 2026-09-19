@@ -11,7 +11,7 @@ tier_list:
     low-dose formulas and retinyl-ester options, reusing the conversion ladder on
     retinoids
   items:
-  - differin-gel-adapalene
+  - differin-adapalene-0-1-gel
   - la-roche-posay-effaclar-adapalene-gel-0-1
   - medik8-crystal-retinal-10
   - medik8-crystal-retinal-6
@@ -55,7 +55,7 @@ A high number on a retinol label is not automatically stronger than a low number
 
 ## The tier list
 
-At the top are the two [[adapalene]] gels, [[differin-gel-adapalene|Differin Gel]] and [[la-roche-posay-effaclar-adapalene-gel-0-1|La Roche-Posay Effaclar Adapalene Gel 0.1%]], chemically closest to prescription retinoids and available OTC in the US since 2016.
+At the top are the two [[adapalene]] gels, [[differin-adapalene-0-1-gel|Differin Gel]] and [[la-roche-posay-effaclar-adapalene-gel-0-1|La Roche-Posay Effaclar Adapalene Gel 0.1%]], chemically closest to prescription retinoids and available OTC in the US since 2016.
 
 Next comes [[retinaldehyde]] (retinal), one conversion step from active retinoic acid and generally better tolerated than adapalene at comparable potency. This rung is ranked by the strongest disclosed concentration downward: [[medik8-crystal-retinal-10|Medik8's Crystal Retinal]] line (10, 6, 3), Avène's 0.1% RetrinAL, then Murad, Youth To The People, and Beauty of Joseon's lower-dose or undisclosed retinaldehyde formulas.
 

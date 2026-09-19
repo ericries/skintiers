@@ -75,7 +75,7 @@ Inactive ingredients, per the same label: "acrylamide/sodium acryloyldimethyltau
 
 ## See Also
 
-[[epiduo-adapalene-benzoyl-peroxide-gel]], [[differin-adapalene-gel-0-1]], [[adapalene]], [[benzoyl-peroxide]], [[galderma]].
+[[epiduo-adapalene-benzoyl-peroxide-gel]], [[differin-adapalene-0-1-gel]], [[adapalene]], [[benzoyl-peroxide]], [[galderma]].
 
 ## Where to Buy
 

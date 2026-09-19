@@ -12,7 +12,7 @@ Galderma is a Swiss dermatology company operating across injectable aesthetics, 
 
 ## Products reviewed here
 
-- [[differin-adapalene-gel-0-1|Differin Gel 0.1%]] (adapalene 0.1%): the first topical retinoid the FDA cleared for over-the-counter acne treatment.
+- [[differin-adapalene-0-1-gel|Differin Gel 0.1%]] (adapalene 0.1%): the first topical retinoid the FDA cleared for over-the-counter acne treatment.
 - [[differin-gel-0-3-adapalene|Differin Gel 0.3%]] (adapalene 0.3%): the prescription-strength adapalene gel for acne.
 - [[epiduo-adapalene-benzoyl-peroxide-gel|Epiduo]] (adapalene 0.1% / benzoyl peroxide 2.5%): a combination acne gel.
 - [[soolantra-ivermectin-1-cream|Soolantra]] (ivermectin 1% cream): a prescription rosacea treatment.

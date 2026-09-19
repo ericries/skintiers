@@ -469,7 +469,7 @@
   status: done
   discovered_from: adapalene
   source: null
-  note: published as differin-adapalene-gel-0-1
+  note: published as differin-adapalene-0-1-gel
 - name: CeraVe Healing Ointment
   type: product
   priority: 7
@@ -2096,7 +2096,7 @@
   type: product
   priority: 5
   status: done
-  discovered_from: differin-gel-adapalene
+  discovered_from: differin-adapalene-0-1-gel
   source: Galderma Rx combo (adapalene + BPO) seen on DailyMed; common next-step acne
     prescription
 - name: Eucerin Anti-Pigment Dual Serum (thiamidol)

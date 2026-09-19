@@ -13,7 +13,7 @@ Differin is an [[adapalene]]-based acne treatment brand made by Galderma Laborat
 ## Products reviewed here
 
 - : the over-the-counter switch of the original prescription gel.
-- [[differin-adapalene-gel-0-1|Differin Gel 0.1%]]: adapalene 0.1% gel for acne.
+- [[differin-adapalene-0-1-gel|Differin Gel 0.1%]]: adapalene 0.1% gel for acne.
 - [[differin-gel-0-3-adapalene|Differin Gel 0.3%]]: the prescription-strength adapalene gel.
 - [[epiduo-adapalene-benzoyl-peroxide-gel|Epiduo]] (also sold as Differin Epiduo OTC): adapalene 0.1% / benzoyl peroxide 2.5% combination gel.
 

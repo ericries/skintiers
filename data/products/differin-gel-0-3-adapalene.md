@@ -23,7 +23,7 @@ grades:
 - effect: modest to notable
   evidence: solid
   note: Adapalene is an FDA-approved topical retinoid for acne vulgaris; this label
-    is the 0.3% prescription strength, three times the OTC 0.1% concentration ([[differin-adapalene-gel-0-1]]).
+    is the 0.3% prescription strength, three times the OTC 0.1% concentration ([[differin-adapalene-0-1-gel]]).
     The grade reflects the ingredient-level evidence for adapalene in general ([[adapalene]]);
     no independently fetchable trial of this exact 0.3% product was located, so it
     is graded as a higher-strength, prescription delivery of the proven active rather
@@ -38,13 +38,13 @@ type: product
 updated: '2026-08-08'
 ---
 
-Differin Gel, 0.3% is a once-daily, prescription-only [[adapalene]] gel for acne vulgaris, marketed by Galderma at three times the concentration of the over-the-counter [[differin-adapalene-gel-0-1|Differin Gel 0.1%]].[^fda] This profile grades the product at this specific strength; for the molecule's mechanism and the ingredient-level [[acne]] evidence, see [[adapalene]].
+Differin Gel, 0.3% is a once-daily, prescription-only [[adapalene]] gel for acne vulgaris, marketed by Galderma at three times the concentration of the over-the-counter [[differin-adapalene-0-1-gel|Differin Gel 0.1%]].[^fda] This profile grades the product at this specific strength; for the molecule's mechanism and the ingredient-level [[acne]] evidence, see [[adapalene]].
 
 > Differin Gel, 0.3% delivers the same synthetic retinoid sold over the counter at 0.1%, at three times the concentration, in an FDA-approved prescription formulation for acne vulgaris in patients 12 and older.[^fda] No independently fetchable trial of this exact 0.3% product was located, so the grade below rests on the general adapalene evidence ([[adapalene]]) rather than a dedicated trial of this specific gel.
 
 ## Summary
 
-Differin Gel, 0.3% is the higher-strength, prescription version of Differin: the FDA label states it "is a retinoid, indicated for the topical treatment of acne vulgaris in patients 12 years of age and older."[^fda] It differs from the [[differin-adapalene-gel-0-1|OTC Differin Gel 0.1%]] only in concentration, three times higher, and in its prescription-only status; it is the same [[adapalene]] molecule the FDA first approved as a prescription acne drug and later cleared for OTC sale at 0.1%.[^fda]
+Differin Gel, 0.3% is the higher-strength, prescription version of Differin: the FDA label states it "is a retinoid, indicated for the topical treatment of acne vulgaris in patients 12 years of age and older."[^fda] It differs from the [[differin-adapalene-0-1-gel|OTC Differin Gel 0.1%]] only in concentration, three times higher, and in its prescription-only status; it is the same [[adapalene]] molecule the FDA first approved as a prescription acne drug and later cleared for OTC sale at 0.1%.[^fda]
 
 The FDA label's own directions describe once-daily application in the evening: "Wash affected areas gently with a non-medicated soap. Apply a thin film of DIFFERIN Gel to the entire face and any other affected areas of the skin once daily in the evening."[^fda] The most frequently reported adverse reactions (occurring in 1% or more of patients) were "erythema, scaling, dryness, and/or burning/stinging."[^fda]
 
@@ -60,7 +60,7 @@ Inactive ingredients, per the same label: carbomer 940, edetate disodium, methyl
 
 ## See Also
 
-[[adapalene]], [[retinoids]], [[acne]], [[differin-adapalene-gel-0-1]], [[tretinoin-0-025-cream]]
+[[adapalene]], [[retinoids]], [[acne]], [[differin-adapalene-0-1-gel]], [[tretinoin-0-025-cream]]
 
 ## Where to Buy
 

@@ -30,7 +30,7 @@ updated: '2026-09-13'
 
 Aczone is prescription dapsone 7.5% topical gel, distributed by Almirall, LLC (the brand was developed under Allergan) and FDA-approved as follows: "ACZONE (dapsone) Gel, 7.5%, is indicated for the topical treatment of acne vulgaris in patients 9 years of age and older."[^dailymed] This page covers the once-daily 7.5% strength; an older 5% Aczone gel, applied twice daily, is a separate product with its own label.[^dailymed-5]
 
-> A genuine third path for topical acne treatment: dapsone is a sulfone, so Aczone is neither an antibiotic like [[clindamycin-topical|clindamycin]] nor a retinoid like [[differin-gel-adapalene|adapalene]], which makes it a real option for patients who cannot tolerate those classes, and a pooled analysis suggesting women respond better than men is covered on [[dapsone-topical]]. But be clear-eyed about the size of the win: in both of its phase 3 trials, 30% of Aczone patients reached clear-or-almost-clear versus 21% on the inert vehicle gel, and the added inflammatory-lesion reduction over vehicle was fewer than 2 lesions. A useful niche drug, not a first-line powerhouse. The broader condition is [[acne]].
+> A genuine third path for topical acne treatment: dapsone is a sulfone, so Aczone is neither an antibiotic like [[clindamycin-topical|clindamycin]] nor a retinoid like [[differin-adapalene-0-1-gel|adapalene]], which makes it a real option for patients who cannot tolerate those classes, and a pooled analysis suggesting women respond better than men is covered on [[dapsone-topical]]. But be clear-eyed about the size of the win: in both of its phase 3 trials, 30% of Aczone patients reached clear-or-almost-clear versus 21% on the inert vehicle gel, and the added inflammatory-lesion reduction over vehicle was fewer than 2 lesions. A useful niche drug, not a first-line powerhouse. The broader condition is [[acne]].
 
 ## Summary
 
@@ -85,7 +85,7 @@ No brand marketing page was reviewed for this product; the claims below come fro
 
 ## See Also
 
-[[dapsone-topical]], [[acne]], [[winlevi-clascoterone-1-cream|Winlevi (clascoterone 1% cream)]] (the other non-antibiotic, non-retinoid Rx topical), [[amzeeq-minocycline-4-topical-foam|Amzeeq (minocycline 4% foam)]], [[onexton-clindamycin-benzoyl-peroxide-gel|Onexton (clindamycin/benzoyl peroxide gel)]], [[differin-gel-adapalene]].
+[[dapsone-topical]], [[acne]], [[winlevi-clascoterone-1-cream|Winlevi (clascoterone 1% cream)]] (the other non-antibiotic, non-retinoid Rx topical), [[amzeeq-minocycline-4-topical-foam|Amzeeq (minocycline 4% foam)]], [[onexton-clindamycin-benzoyl-peroxide-gel|Onexton (clindamycin/benzoyl peroxide gel)]], [[differin-adapalene-0-1-gel]].
 
 ## Where to Buy
 

@@ -11,7 +11,7 @@ tier_list:
     and salicylic acid rather than a head-to-head trial of these finished formulas
   items:
   - epiduo-forte-adapalene-benzoyl-peroxide-gel
-  - differin-gel-adapalene
+  - differin-adapalene-0-1-gel
   - panoxyl-acne-foaming-wash-benzoyl-peroxide-10
   - panoxyl-acne-creamy-wash-benzoyl-peroxide-4
   - paulas-choice-clear-back-body-acne-spray

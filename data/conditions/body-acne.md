@@ -24,8 +24,8 @@ tier_list:
     tier: solid
   - note: Adapalene 0.1% alone, a first-line topical retinoid with an established
       acne record, a practical leave-on for defined patches of back or chest acne.
-      Detailed on [[differin-gel-adapalene]] and [[adapalene]].
-    slug: differin-gel-adapalene
+      Detailed on [[differin-adapalene-0-1-gel]] and [[adapalene]].
+    slug: differin-adapalene-0-1-gel
     tier: solid
   - note: The antimicrobial core active behind most body-acne products. Wash-off formats
       make it practical to cover the whole back and chest, though the short-contact
