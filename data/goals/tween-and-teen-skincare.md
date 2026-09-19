@@ -62,7 +62,17 @@ The foundation is a gentle, fragrance-free cleanser used once or twice a day. Th
 
 A medicated acne wash is a step-up, not a starting point. If plain gentle cleansing plus patience does not keep the blackheads in check after a few weeks, a rinse-off with [[salicylic-acid]] can help with comedones, and a [[benzoyl-peroxide]] wash is the move once inflamed pimples appear rather than just blackheads. Both can be drying, so they are added deliberately, not stacked from day one. The broader treatment ladder for acne, including leave-on options, is on [[acne]].
 
-A few things matter as much as the cleanser. Washing more than twice a day tends to worsen irritation rather than clear skin, and scrubbing harder does the same. Skip the elaborate multi-step routines and anti-aging actives marketed to kids online; retinol, vitamin C, and exfoliating-acid serums are not needed at this age and mostly add cost and irritation risk. A light, oil-free moisturizer is worth adding if the skin feels tight or a wash is drying (see [[moisturizing]]), and daily sunscreen is the one genuine long-term habit worth building early (the filters and how they work are on [[sunscreen-uv-filters]]). For the wider case that a short routine beats a long one, see [[minimalist-routine]].
+A few things matter as much as the cleanser. Washing more than twice a day tends to worsen irritation rather than clear skin, and scrubbing harder does the same. Skip the elaborate multi-step routines and anti-aging actives marketed to kids online; retinol, vitamin C, and exfoliating-acid serums are not needed at this age and mostly add cost and irritation risk. Daily sunscreen is the one genuine long-term habit worth building early (the filters and how they work are on [[sunscreen-uv-filters]]), and the morning picks below fold that together with a light moisturizer. For the wider case that a short routine beats a long one, see [[minimalist-routine]].
+
+## Morning moisturizer and sunscreen
+
+For oily, comedone-prone skin the whole morning after-cleanser step can be a single product: a light, oil-free moisturizer with sunscreen built in. That covers both the moisturizing and the daily sun protection without a heavy separate cream.
+
+- **[[cetaphil-daily-oil-free-facial-moisturizer-spf-35|Cetaphil Daily Oil-Free Facial Moisturizer SPF 35]]** is the straightforward default: an oil-free, matte-finish daily lotion with broad-spectrum SPF 35, labeled for all skin types. The "oil-free" and "matte" positioning is the brand's own cosmetic claim; the health case for daily broad-spectrum sunscreen is category-level and set out on [[sunscreen-uv-filters]].
+- **[[vanicream-facial-moisturizer-spf-30|Vanicream Facial Moisturizer SPF 30]]** is a gentler option for sensitive skin or skin that reacts to chemical filters: it is a moisturizer with a mineral (zinc oxide) SPF 30.
+- For anyone who would rather use a dedicated sunscreen than a moisturizer-plus-SPF, **[[cerave-hydrating-mineral-sunscreen-spf-30-face|CeraVe Hydrating Mineral Sunscreen SPF 30]]** is a mineral (titanium dioxide and zinc oxide) option for the sun-protection step.
+
+At night, a plain light moisturizer is only needed if the skin feels tight or a wash is drying; the general moisturizing case is on [[moisturizing]].
 
 The advice here is the same whether the tween is a boy or a girl. See a dermatologist if breakouts become inflamed, painful, cystic, or widespread, or if they are causing distress; early acne is very treatable, and a doctor can add prescription options well beyond what a cleanser can do.
 
