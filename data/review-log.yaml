@@ -10727,3 +10727,17 @@ melanoma:
      body-vs-source paraphrase drifts (sunburn 'severe'->'many'; ABCDE 6mm nuance) + minor attribution/link-summar
     y polish; all 5 fixes applied and re-verified. Prevention correctly routes to [[sunscreen-uv-filters]] (which 
     owns the Green 2011 RCT) without overclaiming. Final VERDICT publish.
+tween-and-teen-skincare:
+  last_reviewed: '2026-09-18'
+  score: 9
+  verdict: publish
+  note: |-
+    User-requested page: first cleanser/first routine for a tween or young teen entering puberty with early blackh
+    eads. Routing GOAL hub with a 7-item cleanser tier_list (gentle first-choice -> optional medicated step-up). O
+    pus critic: MEDICAL SAFETY PASS (no product promised to clear acne; gentle-first default; SA/BP framed as opti
+    onal step-ups not starting points; retinol/vitamin C/acids excluded for the age; derm referral for inflamed/pa
+    inful/cystic/widespread). Comedo-definition claim verbatim-cited to StatPearls NBK459173 and consistent with [
+    [blackheads-clogged-pores]]. First pass verdict revise on 1 Important (COSRX Low pH carries tea tree oil + bet
+    aine salicylate BHA, not a plain gentle first-cleanser for a minor -> REMOVED from list) + 3 minors (BP bleach
+    ing claim routed to [[benzoyl-peroxide]]; two imperatives reframed non-instructional). All fixed and re-verifi
+    ed. Final VERDICT publish. sex-neutral.
