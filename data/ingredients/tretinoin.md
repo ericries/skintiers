@@ -158,6 +158,16 @@ videos:
   related: [retinoids]
   thesis: 'Board-certified dermatologist Dr. Maren Locke explains why tretinoin often seems to stop working and how to fix it: retinoid dermatitis (irritation that blocks progress, often solved by stepping down to a gentler over-the-counter retinol or retinaldehyde that converts to retinoic acid on the skin), unrealistic timeline expectations (visible anti-aging results take 3 to 12 months, following an initial 1 to 4 week purging phase), and skipping daily SPF 30+ sunscreen, since tretinoin increases UV penetration into treated skin and undermines results without sun protection. She closes with a gentle reset routine: repair the skin barrier first, reintroduce a retinoid just once a week on dry skin, and gradually build up to 4 to 5 nights per week paired with moisturizer.'
   note: Verified from the video transcript (yt-dlp, read in full). No paid sponsorship; the creator runs an Amazon/ShopMy affiliate storefront, so her specific product picks are not treated as recommendations. Card reflects correct-use mechanism only.
+- title: 'How to use tretinoin like a dermatologist: strength, ramp-up, and application'
+  creator: Dr. Sam Ellis
+  creator_slug: samantha-ellis
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=MT4DrMVbotE
+  posted: '2026-04-03'
+  related: [retinoids, tazarotene, retinaldehyde, acne, anti-aging]
+  thesis: 'Board-certified dermatologist Dr. Sam Ellis lays out a dermatologist''s method for starting tretinoin, the prescription vitamin A derivative, with minimal irritation: begin at the lowest 0.025% strength (which she notes matches 0.1% for anti-aging, with higher strengths reserved for acne) and ramp up slowly from about two nights a week. She advises applying a pea-sized amount to clean, dry skin, always following with moisturizer and using the sandwich method for sensitive skin, and adding no other actives until tretinoin is tolerated consistently. She also distinguishes true purging, which resolves within roughly six to eight weeks, from irritation-driven breakouts that mean you should back off.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

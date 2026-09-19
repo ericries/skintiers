@@ -129,6 +129,16 @@ videos:
   related: [ascorbic-acid-vitamin-c, ferulic-acid, brightening]
   thesis: Board-certified dermatologists Dr. Muneeb Shah and Dr. Luke Maxfield of Doctorly compare a low-cost Trader Joe's vitamin C serum against the far more expensive SkinCeuticals CE Ferulic serum after SkinCeuticals' original patent on the formulation expired. They find both serums use matching concentrations of the same three actives that define the CE Ferulic benchmark, L-ascorbic acid, ferulic acid, and vitamin E, with only minor differences in inactive ingredients like solubilizers and added oils. Their core argument is that a vitamin C serum's effectiveness comes from getting the concentration, pH, and antioxidant combination right, not from brand name or price, so a formulation matching those parameters can plausibly deliver similar benefits even when it is not an identical copy.
   note: Verified from the video transcript (yt-dlp, read in full). Contains an unrelated mid-roll ad for Whoop (a wearable service, not a skincare product or the hosts' own brand); no own-brand promotion found in this video. Card reflects formulation science, not a buy verdict.
+- title: Four alternatives to topical vitamin C for antioxidant and brightening benefits
+  creator: Dr. Sam Ellis
+  creator_slug: samantha-ellis
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=pEn6fIL51Dk
+  posted: '2026-04-17'
+  related: [niacinamide, coenzyme-q10, hyperpigmentation, anti-aging]
+  thesis: 'Board-certified dermatologist Dr. Sam Ellis explains that topical vitamin C is valued for antioxidant protection and for brightening the skin by inhibiting the pigment-making enzyme tyrosinase, but that people who find it irritating or unstable can get similar antioxidant and tone-evening benefits from other ingredients. She recommends four alternatives: niacinamide (vitamin B3, which also strengthens the skin barrier and reduces pigment by blocking melanin transfer rather than its production), resveratrol, coenzyme Q10, and green tea polyphenols. She notes these can also be layered with vitamin C for enhanced results rather than only replacing it.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
