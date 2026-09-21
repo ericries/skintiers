@@ -2475,7 +2475,7 @@
 - name: La Roche-Posay Effaclar Mat Mattifying Moisturizer
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: la-roche-posay-effaclar-clay-mask
   source: https://incidecoder.com/products/la-roche-posay-effaclar-mat
 - name: Estee Lauder Advanced Night Repair Serum
