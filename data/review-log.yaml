@@ -10748,3 +10748,19 @@ dr-sarah-sheu:
   score: 9
   verdict: publish
   note: 'LEAN person discovery card (97 words). Credential verified from her OWN YouTube channel description (self-describes as board-certified dermatologist posting budget skincare education), cached. Links her 9 carded pages (sunscreen/hyperpigmentation + budget staples). Korean-brand consulting relationship disclosed (product_recs ok). No unverified specific claims (dropped roster-only residency/employer details lacking a fetched source). lint/style clean, verify WARN youtube-noncached expected. Force-published, no critic (person-page rule).'
+terbinafine:
+  last_reviewed: '2026-09-21'
+  score: 9
+  verdict: publish
+  note: |-
+    Opus critic re-fetched all 4 durable primaries and verbatim-verified every load-bearing stat/quote: Cochrane P
+    MID 28707751 (clinical cure RR 6.00 CI 3.96-9.08, mycological RR 4.53 CI 2.47-8.33, 8 studies/1006 participant
+    s each; 48 trials/10,200; high-quality vs placebo, moderate-quality vs azoles) EXACT; DailyMed oral tablet (sq
+    ualene-epoxidase mechanism, KOH/culture/biopsy indication, Candida in-vitro-only caveat, hepatotoxicity 'liver
+     failure... transplant or death', taste/smell disturbance, SJS/DRESS) verbatim; Lamisil AT cream 'cures most' 
+    quotes verbatim; Saunte 2020 'terbinafine 1% cream, but not oral... effective' verbatim. Skeptical spine corre
+    ct: bounded to DERMATOPHYTES, explicitly does NOT treat Malassezia (fungal acne/tinea versicolor/seb-derm -> r
+    outed to [[ketoconazole]]); Candida quarantined as in-vitro; refused to fabricate a topical cure %. tier: good
+     justified (strong onychomycosis Cochrane evidence; topical tinea rests on label only; narrow spectrum caps be
+    low top). First-pass verdict revise on 2 nits (uncited 'first-line topical' -> softened to 'OTC-labeled topica
+    l treatment'; 'cure most' -> 'cures most' label match); both fixed and re-verified. Final VERDICT publish.
