@@ -23,8 +23,8 @@
   - melasma
   - sunscreen
   status: rejected
-  reject_reason: Brand-owned channel (Isomers Skincare house line), not an independent
-    educator; product recs = own inventory.
+  reject_reason: Brand-owned channel (Isomers Skincare house line), not an independent educator; product
+    recs = own inventory.
 - name: The Budget Dermatologist
   channel_url: https://www.youtube.com/channel/UCDc2wFMXTSApCa4UwDrdz_Q
   hits: 3
@@ -48,9 +48,9 @@
   - hyaluronic acid
   - salicylic acid
   status: rejected
-  reject_reason: Cosmetic-formulation training institute (sells courses); formulator-facing
-    livestreams (how to formulate emulsions/balms, source ingredients), not consumer
-    skincare-evidence content that maps to site pages.
+  reject_reason: Cosmetic-formulation training institute (sells courses); formulator-facing livestreams
+    (how to formulate emulsions/balms, source ingredients), not consumer skincare-evidence content that
+    maps to site pages.
 - name: April Basi
   channel_url: https://www.youtube.com/channel/UCoggt1MMgHRaDZtFYY-2TMg
   hits: 2
@@ -58,18 +58,18 @@
   - benzoyl peroxide
   - melasma
   status: rejected
-  reject_reason: General lifestyle/beauty vlogger (girl-math/first-date, H Mart hauls,
-    hair-product reviews); not a skincare-science creator.
+  reject_reason: General lifestyle/beauty vlogger (girl-math/first-date, H Mart hauls, hair-product reviews);
+    not a skincare-science creator.
 - name: The Skincare Engineer
   channel_url: https://www.youtube.com/channel/UCkPv5aRcNNC_rHL0sJxhViQ
   hits: 1
   topics:
   - niacinamide
   status: rejected
-  reject_reason: Creator (Laura) self-identifies on-camera as a chemical engineering
-    STUDENT and future cosmetic founder, but the channel brands her as a 'cosmetic
-    chemist' (overstated credential); thin 2-video catalog; future own-brand conflict.
-    Content is accurate but the credential bar and trajectory are not met.
+  reject_reason: Creator (Laura) self-identifies on-camera as a chemical engineering STUDENT and future
+    cosmetic founder, but the channel brands her as a 'cosmetic chemist' (overstated credential); thin
+    2-video catalog; future own-brand conflict. Content is accurate but the credential bar and trajectory
+    are not met.
 - name: Luisa Fanzani
   channel_url: https://www.youtube.com/channel/UC3NJnOSNC-dhB3lyU4IFDSA
   hits: 1
@@ -88,8 +88,8 @@
   topics:
   - salicylic acid
   status: rejected
-  reject_reason: Brand-owned channel (Sandra Lee / SLMD house line); product recs
-    = own inventory, not independent.
+  reject_reason: Brand-owned channel (Sandra Lee / SLMD house line); product recs = own inventory, not
+    independent.
 - name: Skin Chemist
   channel_url: https://www.youtube.com/channel/UCMPpJnaJCveK1d0xlXhxTLw
   hits: 1
@@ -125,7 +125,7 @@
   hits: 1
   topics:
   - rosacea
-  status: pending
+  status: added
 - name: The Skin Explained
   channel_url: https://www.youtube.com/channel/UCUujx1fqOO9tHuVYqBPU4fg
   hits: 1
@@ -188,7 +188,9 @@
   topics:
   - hyaluronic acid
   - niacinamide
-  status: pending
+  status: rejected
+  reason: Facial plastic surgeon; channel dominated by surgery/injectables (facelifts, fillers, Sculptra,
+    Botox) outside topical-skincare scope, plus own-brand KaramMD line
 - name: MakingCosmetics
   channel_url: https://www.youtube.com/channel/UCnQyAMGY71dAkwNWqvzpKaA
   hits: 1
@@ -313,4 +315,28 @@
   topics:
   - referral
   discovered_via: 'referral: ejnuKJAjoIY'
+  status: pending
+- name: Dr. Danny Guo
+  channel_url: https://www.youtube.com/channel/UCoJvgRhMLueMGbR98oGyLbg
+  hits: 1
+  topics:
+  - vitamin C serum
+  status: pending
+- name: Integrated Aesthetics and Dr. Melissa Chiang
+  channel_url: NA
+  hits: 1
+  topics:
+  - benzoyl peroxide
+  status: pending
+- name: Mixed Makeup
+  channel_url: https://www.youtube.com/channel/UC28FD2v19VZFryIjpvGIFLw
+  hits: 1
+  topics:
+  - hyperpigmentation
+  status: pending
+- name: Alfa Chemistry
+  channel_url: https://www.youtube.com/channel/UC5K-tqBMgfUrZZ1Zh_Ip4pg
+  hits: 1
+  topics:
+  - hyaluronic acid
   status: pending

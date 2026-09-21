@@ -520,3 +520,10 @@
   conflict: Maintains a Nykaa curated affiliate storefront; treat specific product picks as commercially incentivized (educational/mechanism content is fine).
   product_recs: restricted
   last_pulled: '2026-09-13'
+- name: Dr. Neal Schultz (DermTV)
+  creator_slug: neal-schultz
+  credential: Dermatologist, host of DermTV.com
+  tier: HIGH
+  channel: https://www.youtube.com/channel/UCWl7rIYGLnCwVpuO1DmrEUQ
+  conflict: Own-brand skincare line BeautyRx by Dr. Schultz (beautyrx.com); treat product picks as commercially incentivized. Channel largely inactive since ~2014, useful mainly for evergreen back-catalog (backfill).
+  product_recs: restricted
