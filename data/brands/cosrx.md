@@ -5,7 +5,7 @@ name: COSRX
 slug: cosrx
 status: published
 type: brand
-updated: '2026-07-31'
+updated: '2026-09-21'
 ---
 
 COSRX is a South Korean skincare brand built around short, minimalist ingredient lists centered on one or two named actives; the South Korean beauty conglomerate Amorepacific has been its majority owner since a 2023 stake purchase that brought its holding to 93.2%.[^1][^2][^3]
@@ -26,6 +26,11 @@ COSRX's own site lists its best-known products, including the Advanced Snail 96 
 
 - [[cosrx-6-peptide-skin-booster-serum]]: a six-peptide leave-on booster serum led by acetyl hexapeptide-8 and copper tripeptide-1 (GHK-Cu), with niacinamide in a humectant base.
 - [[cosrx-oil-free-ultra-moisturizing-lotion-birch-sap]]: a lightweight, oil-free lotion built on birch sap in place of most of the water, positioned for oily and combination skin.
+- [[cosrx-low-ph-good-morning-gel-cleanser]]: the brand's well-known mild, low-pH daily gel cleanser.
+- [[cosrx-aha-bha-clarifying-treatment-toner]]: an AHA/BHA exfoliating treatment toner.
+- [[cosrx-niacinamide-15-serum]]: a high-strength 15% niacinamide serum.
+- [[cosrx-the-retinol-0-1-cream]]: an entry-level 0.1% retinol cream.
+- [[cosrx-full-fit-propolis-light-ampoule]]: a propolis-based lightweight hydrating ampoule.
 
 ## Sources
 
