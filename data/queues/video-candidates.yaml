@@ -299,7 +299,8 @@
   conflict: 'Affiliate storefronts (ShopMy + Amazon Shop via linktree), recurring #AD sponsored posts, a branded discount-code partnership (LivSo), and c'
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: multi-topic hair-trends (relaxers/alopecia/tape-ins), affiliate conflict, no single-topic skincare page match
 - id: ckA3Ty8hqTM
   title: Body Care Recs by A Dermatologist
   creator: Dr. Adeline Kikam (Brown Skin Derm)
@@ -744,7 +745,8 @@
   conflict: Own-brand UPF sun-protective clothing line, SOUL-A (wearsoula.com / @wearsoula), founded and promoted by him — apparel, not topical skincare
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: hair-method reaction, hashtag-stuffed short, no matching skincare page
 - id: _Oc4F0vPdUk
   title: 'I’m 37! #dermangelo '
   creator: Dr. Angelo Landriscina (DermAngelo)
@@ -939,7 +941,8 @@
   conflict: Founder of own-brand skincare line (Skin Rocks); recent upload mix is dominated by PR-gifted product unboxings and empties (haul-adjacent fo
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: brand-founder interview (Chats with C), not single-topic education
 - id: JfUxqfmFx9g
   title: August Empties | Caroline Hirons
   creator: Caroline Hirons
@@ -1121,7 +1124,8 @@
   conflict: non-credentialed educator - educational content only, never treat picks as endorsements, never use sponsored videos
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'LED face masks: no on-site LED/device page + device-brand promotional framing'
 - id: csCdlDhAgso
   title: The 3 Types Of Facial Puffiness & How To Treat It Like An Esthetician
   creator: Cassandra Bankson
@@ -1641,7 +1645,8 @@
   conflict: Maintains a Nykaa curated affiliate storefront; treat specific product picks as commercially incentivized (educational/mechanism content is fine).
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: interview format (Ft. Dr Renita Rajan), vague multi-topic, no single-topic page match
 - id: S1OsXwIm2oI
   title: Dandruff | causes & treatment | best antidandruff shampoos
   creator: Dr. Aanchal MD
@@ -1992,7 +1997,8 @@
   conflict: does sponsorships - educational content only, never treat picks as endorsements, never use sponsored videos
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: Korean pharmacy haul, non-credentialed creator, not single-topic education
 - id: spuYALu5yac
   title: 'My Slow-Aging Body Routine : Neck-to-Toe Essentials'
   creator: Gothamista
@@ -2187,7 +2193,8 @@
   conflict: has an own-brand line (Selfless) and does sponsorships - educational content only, never treat picks as endorsements, never use sponsored videos
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: celebrity routine reaction, non-credentialed, own-brand conflict
 - id: HTVhnahxInY
   title: Inde Navarrette- I'm Obsessed With Your Skin Care Routine 😍
   creator: Hyram (Skincare by Hyram)
@@ -2304,7 +2311,8 @@
   conflict: does sponsorships - educational content only, never treat picks as endorsements, never use sponsored videos
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: celebrity sunscreen-brand news commentary, non-credentialed, no matching page
 - id: kNkPmbbTcv8
   title: The Acne Brand Celebrities Pretended To Love - The Downfall Of Acne Brand Proactiv
   creator: James Welsh

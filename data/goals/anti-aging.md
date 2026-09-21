@@ -281,6 +281,16 @@ videos:
   related: [retinoids, vitamin-c, sunscreen-uv-filters, peptides, niacinamide, dark-circles]
   thesis: 'Board-certified dermatologist Dr. Aleksandra Brown compares the flagship luxury lines from Lancome and Estee Lauder and concludes their signature serums, eye creams, and moisturizers are built on gentle supporting ingredients like bifida ferment, peptides, and niacinamide rather than heavy-lifting actives. She argues the high prices mostly buy elegant textures, packaging, and ritual rather than superior results, since the same supporting ingredients show up in far cheaper formulas. Her bottom line for slowing visible aging at any budget is three proven workhorses: a retinoid at night, vitamin C in the morning, and daily sunscreen.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: 'Collagen banking: a dermatologist on slowing collagen loss before wrinkles show'
+  creator: Dr. Jenny Liu
+  creator_slug: jenny-liu
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=8Ye-VLrydkE
+  posted: '2026-09-10'
+  related: [retinoids, tretinoin, vitamin-c, peptides, sunscreen-uv-filters, copper-peptides, palmitoyl-pentapeptide-4-matrixyl, retinol]
+  thesis: 'Board-certified dermatologist Dr. Jenny Liu explains collagen banking, the idea that because skin loses roughly 1% of its collagen per year starting in the mid-20s (and much more in early menopause), it is worth stimulating and preserving collagen early rather than waiting for visible wrinkles. She frames a consistent at-home routine as the foundation, built on the best-evidenced actives: a topical retinoid (tretinoin or a tolerated retinol) used long-term, a vitamin C antioxidant serum, collagen-signaling peptides such as Matrixyl or copper peptides, and daily sunscreen, and stresses that lifestyle habits (sleep, diet, not smoking, sun avoidance) can make or break the results. She presents in-office procedures like microneedling and biostimulatory fillers as complements to that routine rather than replacements, noting collagen banking is a long-term methodology, not any single miracle product or treatment.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
