@@ -1469,3 +1469,9 @@
   status: pending
   discovered_from: bentonite
   source: https://pubmed.ncbi.nlm.nih.gov/39438324/
+- name: Haritaki (Terminalia chebula) fruit extract
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: monteil-2025-retinaldehyde-niacinamide-cream-post-procedure-rejuvenation-rct
+  source: https://pubmed.ncbi.nlm.nih.gov/41312593/
