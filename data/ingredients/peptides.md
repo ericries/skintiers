@@ -107,6 +107,16 @@ videos:
   related: [palmitoyl-tripeptide-1, retinoids, anti-aging]
   thesis: 'Board certified dermatologist Dr. Aleksandra Brown explains that peptides are an "upgrade," not a foundation, meant only for people already consistent with sunscreen, vitamin C, and a retinoid, then compares three peptide classes for people in their 40s and up: signal peptides like Matrixyl/Matrixyl 3000 (palmitoyl tripeptide 1) that prompt fibroblasts to make more collagen and have the most placebo controlled human data, carrier peptides like copper peptides/GHK Cu that deliver copper to support collagen and elastin repair, and neurotransmitter inhibiting Argireline (acetyl hexapeptide 8) that softens expression lines but works nowhere near as strongly as Botox. She ranks copper peptide as her top single pick for 40s collagen support, flags that copper peptides and L ascorbic acid vitamin C should be kept apart at different times of day, and says the evidence on combining copper peptides with vitamin C derivatives is still unsettled.'
   note: Verified from the video transcript (yt-dlp, read in full); no sponsorship or paid partnership.
+- title: A dermatologist reviews 4 viral K-beauty best sellers (collagen products and sunscreens)
+  creator: Dr. Daniel Sugai
+  creator_slug: daniel-sugai
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=dLEq7FzGSi8
+  posted: '2026-09-12'
+  related: [sunscreen-uv-filters, round-lab-birch-juice-moisturizing-sun-spf-50, anti-aging, niacinamide]
+  thesis: Board-certified dermatologist Dr. Daniel Sugai reviews four viral K-beauty best sellers. He explains that the two Medicube collagen products (a Triple Collagen Serum and a Collagen Jelly Cream) use hydrolyzed collagen, which gives temporary hydration and a glassy, light-reflecting glow but is not a signal peptide and cannot penetrate to the dermis to rebuild lost collagen the way a retinoid can, so their firming effect is short-term surface plumping rather than structural change. He rates the two chemical-filter K-beauty sunscreens (SKIN1004 Hyalu-Cica Water-Fit Sun Serum and Round Lab Birch Juice) as solid lightweight, no-white-cast options for oily or acne-prone skin, while cautioning that the Round Lab formula contains essential oils that can irritate some people and that neither is tinted, so those with melasma should choose an iron-oxide tinted sunscreen instead.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

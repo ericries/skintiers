@@ -230,7 +230,7 @@
   channel: https://www.youtube.com/@danielsugaimd
   product_recs: restricted
   conflict: Chief Medical Officer of hair-growth-serum brand REYUS; advisory-board member of Bubble Skincare; periodic disclosed paid brand partnerships
-  last_pulled: '2026-08-30'
+  last_pulled: '2026-09-21'
 - name: Jen Novakovich (The Eco Well)
   creator_slug: jen-novakovich
   backfill_cursor: 15

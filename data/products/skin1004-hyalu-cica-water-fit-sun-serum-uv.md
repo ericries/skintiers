@@ -74,6 +74,16 @@ videos:
   related: [zinc-oxide]
   thesis: 'In this roundup, board-certified dermatologist Dr. Scott Walter shares his top five favorite Korean sunscreens and explains why he reaches for them for daily facial use: Korea allows newer UV filters such as Tinosorb S, Tinosorb M, and Uvinul A Plus that the US FDA has not approved since 1999, which he says makes for lighter, more wearable formulas with stronger UVA protection. His five picks are the Skin1004 Hyalu-Cica Water-Fit Sun Serum (which he likes for acne-prone skin), the Beauty of Joseon Relief Sun and its newer lighter Aqua Fresh version, the Round Lab Birch Juice Moisturizing Sun, and the AESTURA Derma UV365 Barrier Hydro mineral sunscreen for people who prefer a zinc-oxide physical filter. He adds that US sunscreens still protect effectively, but he simply prefers these formulas for everyday wear.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: A dermatologist reviews 4 viral K-beauty best sellers (collagen products and sunscreens)
+  creator: Dr. Daniel Sugai
+  creator_slug: daniel-sugai
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=dLEq7FzGSi8
+  posted: '2026-09-12'
+  related: [sunscreen-uv-filters, round-lab-birch-juice-moisturizing-sun-spf-50, anti-aging, niacinamide]
+  thesis: Board-certified dermatologist Dr. Daniel Sugai reviews four viral K-beauty best sellers. He explains that the two Medicube collagen products (a Triple Collagen Serum and a Collagen Jelly Cream) use hydrolyzed collagen, which gives temporary hydration and a glassy, light-reflecting glow but is not a signal peptide and cannot penetrate to the dermis to rebuild lost collagen the way a retinoid can, so their firming effect is short-term surface plumping rather than structural change. He rates the two chemical-filter K-beauty sunscreens (SKIN1004 Hyalu-Cica Water-Fit Sun Serum and Round Lab Birch Juice) as solid lightweight, no-white-cast options for oily or acne-prone skin, while cautioning that the Round Lab formula contains essential oils that can irritate some people and that neither is tinted, so those with melasma should choose an iron-oxide tinted sunscreen instead.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

@@ -2490,3 +2490,15 @@
   status: pending
   discovered_from: anti-aging
   source: Dr. Aleksandra Brown - Lancome vs Estee Lauder (video, ejnuKJAjoIY)
+- name: Medicube Triple Collagen Serum
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: peptides
+  source: Dr. Daniel Sugai - 4 Viral K-Beauty Best Sellers (video, dLEq7FzGSi8)
+- name: Medicube Collagen Jelly Cream
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: peptides
+  source: Dr. Daniel Sugai - 4 Viral K-Beauty Best Sellers (video, dLEq7FzGSi8)
