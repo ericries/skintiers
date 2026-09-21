@@ -53,8 +53,15 @@ tier_list:
     strong: Oil-soluble, works into pores
     top: Strongest, deepest-penetrating
   title: Exfoliating acids by strength
+tier_list_reviewed:
+- cerave-sa-body-lotion-for-rough-and-bumpy-skin
+- cerave-sa-smoothing-cream
+- eucerin-roughness-relief-lotion
+- gold-bond-rough-and-bumpy-daily-skin-therapy
+- naturium-mandelic-topical-acid-12
+- the-ordinary-mandelic-acid-10-ha
 type: list
-updated: '2026-08-13'
+updated: '2026-09-21'
 videos:
 - title: "The TIKTOK DIY 30% Chemical Peel….GONE WRONG"
   creator: James Welsh
