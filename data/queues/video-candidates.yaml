@@ -546,7 +546,8 @@
   conflict: Recurring paid partnerships (Dermatica affiliate code "DRALEXIS" on multiple videos, La Roche-Posay branded partner content, SkinBetter Scie
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: embedded scripted La Roche-Posay Mela B3 branded segment (co-host product Q&A); roster flags LRP partner content
 - id: bkWqPy9k2cM
   title: Top 10 Dermatologist-Approved Summer Essentials
   creator: Dr. Alexis Stephens

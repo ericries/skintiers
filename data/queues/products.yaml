@@ -2478,3 +2478,15 @@
   status: pending
   discovered_from: la-roche-posay-effaclar-clay-mask
   source: https://incidecoder.com/products/la-roche-posay-effaclar-mat
+- name: Estee Lauder Advanced Night Repair Serum
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: anti-aging
+  source: Dr. Aleksandra Brown - Lancome vs Estee Lauder (video, ejnuKJAjoIY)
+- name: Lancome Advanced Genifique Serum
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: anti-aging
+  source: Dr. Aleksandra Brown - Lancome vs Estee Lauder (video, ejnuKJAjoIY)

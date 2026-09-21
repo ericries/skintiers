@@ -271,6 +271,16 @@ videos:
   related: [sunscreen-uv-filters, retinoids]
   thesis: 'Board-certified dermatologist Dr. Aegean Chan explains that UV damage is, in her view, the number one driver of skin aging: chronic sun exposure degrades collagen and elastic fibers, producing the change dermatologists call solar elastosis, which she describes as mushy collagen. She uses that as a skeptical yardstick for skincare marketing, asking whether any cream could realistically reverse 50 years of accumulated UV damage, and concludes there is no magic solution.'
   note: Verified from the clip's TikTok subtitles (read in full); no sponsorship.
+- title: 'Lancome vs Estee Lauder: what luxury skincare actually buys you'
+  creator: Dr. Aleksandra Brown
+  creator_slug: aleksandra-brown
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=ejnuKJAjoIY
+  posted: '2026-09-13'
+  related: [retinoids, vitamin-c, sunscreen-uv-filters, peptides, niacinamide, dark-circles]
+  thesis: 'Board-certified dermatologist Dr. Aleksandra Brown compares the flagship luxury lines from Lancome and Estee Lauder and concludes their signature serums, eye creams, and moisturizers are built on gentle supporting ingredients like bifida ferment, peptides, and niacinamide rather than heavy-lifting actives. She argues the high prices mostly buy elegant textures, packaging, and ritual rather than superior results, since the same supporting ingredients show up in far cheaper formulas. Her bottom line for slowing visible aging at any budget is three proven workhorses: a retinoid at night, vitamin C in the morning, and daily sunscreen.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
