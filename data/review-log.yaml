@@ -10779,3 +10779,17 @@ estee-lauder-advanced-night-repair-serum:
     l). Applied: dropped an uncited size lineup (D1 blocker), corrected 'identical to brand list' (brand adds pine
     ne), elided an em-dash-to-comma quote substitution to an honest ellipsis, softened 50mL to '~50 mL'. Force-pub
     lished at assurance=sonnet.
+basal-cell-carcinoma:
+  last_reviewed: '2026-09-21'
+  score: 10
+  verdict: publish
+  note: |-
+    Opus critic verified all quotes verbatim vs NCI Skin Cancer PDQ (cancer.gov, live) + cached AAD BCC page: 'mos
+    t common type of skin cancer', 'may spread to tissues around the cancer, but usually does not spread', 'rarely
+     spreads', full risk-factor list, 'people of all skin colors can get skin cancer', Simple excision/Mohs; AAD w
+    arning-sign list + lighter/darker skin-tone descriptions + 'bleed, crust over, and break open' + board-certifi
+    ed-dermatologist advice all verbatim. MEDICAL SAFETY PASS: no treatment/product advice, physician-diagnosed/tr
+    eated, derm referral for new/changing/non-healing spot, explicit do-not-delay, no tier_list. Not understated (
+    rarely metastasizes BUT locally destructive). 10/10, VERDICT publish. Applied 1 nuance fix: bounded the sunscr
+    een clause (RCT signal clearest for SCC/melanoma, not BCC-specific) and moved [^nci] to the risk-factor half. 
+    Disclaimer-before-recognition kept consistent with melanoma.md.

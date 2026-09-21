@@ -204,7 +204,7 @@
 - name: Basal cell carcinoma
   type: condition
   priority: 5
-  status: pending
+  status: done
   discovered_from: melanoma
   source: https://www.cancer.gov/types/skin
 - name: Squamous cell carcinoma
