@@ -430,7 +430,7 @@
   channel: https://www.tiktok.com/@dr.tomassian
   product_recs: ok
   conflict: Bio includes a business/booking contact email suggesting managed brand partnerships; no confirmed own-brand line or affiliate stor
-  last_pulled: '2026-08-30'
+  last_pulled: '2026-09-21'
 - name: Dr. Neera Nathan
   creator_slug: neera-nathan
   backfill_cursor: 15

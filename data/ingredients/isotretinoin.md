@@ -28,6 +28,16 @@ videos:
   related: [acne, retinoids]
   thesis: Board-certified dermatologist Dr. John Barbieri explains microdosing of isotretinoin (Accutane), meaning very low, intermittent doses such as 10 to 20 mg two or three times a week rather than the traditional roughly 1 mg per kilogram per day taken to a cumulative target over 6 to 12 months. He notes the appeal is that most isotretinoin side effects are dose-dependent, so lower doses can mean fewer side effects, which suits milder or maintenance cases and people who cannot tolerate standard dosing. He also covers common mistakes and misconceptions, including that the lower cumulative dose of microdosing is a tradeoff that may not match the durable, long-term remission a full standard course is known for.
   note: Verified from the video transcript (yt-dlp, read in full); no sponsorship.
+- title: A dermatologist on when to consider starting isotretinoin (Accutane)
+  creator: Dr. Chris Tomassian
+  creator_slug: chris-tomassian
+  credential: Board-certified dermatologist
+  platform: TikTok
+  url: https://www.tiktok.com/@dr.tomassian/video/7675178545009741070
+  posted: '2026-08-18'
+  related: [acne, hormonal-acne]
+  thesis: 'Board-certified dermatologist Dr. Chris Tomassian outlines when a patient might consider starting isotretinoin (Accutane): when acne is not controlled by topical treatments and oral antibiotics, when there is severe cystic acne that is causing scarring, or when hormonal acne is not well controlled by birth control pills or spironolactone. He says that in his clinical experience the medication is generally well tolerated and that its side effects are often overstated.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
