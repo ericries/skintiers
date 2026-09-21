@@ -2481,7 +2481,7 @@
 - name: Estee Lauder Advanced Night Repair Serum
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: anti-aging
   source: Dr. Aleksandra Brown - Lancome vs Estee Lauder (video, ejnuKJAjoIY)
 - name: Lancome Advanced Genifique Serum
