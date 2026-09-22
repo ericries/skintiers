@@ -2338,7 +2338,8 @@
   conflict: null
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'off-topic: ''From Bugs to Beat'' is not a skincare topic'
 - id: jOjg-vx3o-I
   title: Green Beauty Night Panel Discussion 2020
   creator: Jen Novakovich (The Eco Well)
@@ -4254,7 +4255,8 @@
   conflict: Muneeb Shah runs own skincare brand (Remedy Science) and Scriptable Rx venture featured on the channel
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'own-brand promo: plugs Remedy Rich Cream (his brand) + YesStyle retailer callout in a favorites retrospective'
 - id: sH4HjxzDiS0
   title: Dandruff Myths busted |  hair loss, hair oil, antidandruff shampoo
   creator: Dr. Aanchal MD

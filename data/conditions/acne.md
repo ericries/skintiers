@@ -416,6 +416,16 @@ videos:
   related: [benzoyl-peroxide, adapalene, isotretinoin, azelaic-acid, salicylic-acid, clascoterone, retinoids, hormonal-acne]
   thesis: Board-certified dermatologist Dr. John Barbieri, a Harvard Medical School acne specialist, lays out his full 2026 treatment ladder for acne, from barrier-supportive skincare and OTC actives (salicylic acid, benzoyl peroxide, azelaic acid, adapalene) through prescription options like topical clascoterone, oral antibiotics, hormonal therapy (combined oral contraceptives plus spironolactone), and isotretinoin. He also covers acne-focused procedures such as 1726nm lasers for active acne and resurfacing for scars and marks, plus diet levers (low glycemic index eating, vitamin D, zinc, omega-3s, vitamin B5) with weaker or mixed evidence on dairy and chocolate. The video closes by assembling these into simple morning/evening regimens tiered by acne severity, emphasizing multimodal combination therapy over any single product.
   note: Verified from the video transcript (yt-dlp, read in full); no sponsorship.
+- title: Dietary Supplements Causing Hair Loss & Acne? A Dermatologist Explains
+  creator: Andrea Suarez (Dr Dray)
+  creator_slug: andrea-suarez-dr-dray
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=8v2pbK3w-hM
+  posted: '2026-09-15'
+  related: [hormonal-acne, oily-skin]
+  thesis: 'Board-certified dermatologist Dr Dray (Andrea Suarez) explains how certain dietary supplements can affect the skin, with acne as a focus. Her central example is whey protein: she describes an association between whey protein and acne flares that is biologically plausible because whey raises IGF-1 and insulin, hormones that signal the oil glands to produce more sebum, while stressing that association does not prove causation. She keeps the discussion measured, treating the evidence as genuinely uncertain rather than framing any supplement as a guaranteed acne trigger.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
