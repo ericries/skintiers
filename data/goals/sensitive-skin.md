@@ -28,6 +28,18 @@ tier_list:
   title: Approaches for sensitive, reactive skin by evidence
 type: goal
 updated: '2026-08-30'
+videos:
+- title: A Dermatologist's Top 10 Tips to Treat Sensitive Skin
+  creator: Dr. Whitney Bowe
+  creator_slug: whitney-bowe
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=s1XcTFKe2Xw
+  posted: '2021-03-17'
+  related: [skin-barrier-repair]
+  thesis: 'Board-certified dermatologist Dr. Whitney Bowe gives ten practical tips for managing sensitive skin. Her core advice is to simplify and avoid common irritants: skip fragrances (both natural and synthetic) in leave-on products, avoid harsh astringent ingredients in toners, and avoid harsh sulfates like SLS and SLES in cleansers, while protecting the skin barrier rather than over-washing. She notes that tightness after cleansing, along with redness and blotchiness, can be a sign that skin is sensitive.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 "Sensitive skin" is not a medical diagnosis. DermNet describes it as a lay term for "skin with reduced tolerance to the application of cosmetics and personal care products."[^dermnet] It is a remarkably common self-report: "approximately 50% of women and 40% of men may report having sensitive skin."[^dermnet] The skeptical bottom line: this label describes a symptom pattern, often a [[skin-barrier-repair|damaged skin barrier]] plus reactivity, not a single treatable disease. A real underlying cause should be looked for and, where found, treated directly rather than papered over with more "gentle" products.
