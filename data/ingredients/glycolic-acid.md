@@ -62,6 +62,16 @@ videos:
   related: []
   thesis: Board-certified dermatologist Dr. Neera Nathan reacts to viral skincare trends and explains which ones actually hold up. She says zinc oxide diaper rash cream applied at night acts as a skin protectant and anti-inflammatory that helps repair a damaged moisture barrier. She calls glycolic acid a versatile AHA useful for exfoliation, collagen boosting, evening pigmentation, and treating ingrown hairs or dark elbows when used one to three times a week. She notes viral collagen face masks work mainly as humectants for temporary plumping rather than by boosting the skin's own collagen production, and highlights combining azelaic acid in the morning with tretinoin at night as a long-standing dermatologist combo for smoothing texture, fading hyperpigmentation, and reducing wrinkles.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: How to add glycolic acid to an anti-aging routine, and how to start
+  creator: Dr. Maren Locke
+  creator_slug: maren-locke
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=iF2QyodMH4o
+  posted: '2026-07-03'
+  related: [anti-aging, hyperpigmentation, lactic-acid, mandelic-acid, exfoliating-acids-by-strength, sunscreen-uv-filters]
+  thesis: Board-certified dermatologist Dr. Maren Locke (The Budget Dermatologist) explains why glycolic acid is a core anti-aging active and how to add it to a routine. As the smallest alpha hydroxy acid molecule it penetrates deeper than other AHAs, so beyond surface exfoliation (smoother texture, brighter tone, faded dark spots) it can reach the dermis and help stimulate collagen, at the cost of being more likely to sting or irritate sensitive skin. She advises starting low and slow, in a rinse-off cleanser or a 5% or lower leave-on used only once or twice a week as the sole active on those nights, always pairing acids with daily sunscreen, and switching to the gentler larger molecules lactic acid or mandelic acid for anyone who cannot tolerate glycolic.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 name: Glycolic acid
 slug: glycolic-acid
 tier: mid
