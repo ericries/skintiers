@@ -1434,7 +1434,7 @@
 - name: lauryl glucoside
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: contact-dermatitis
   source: https://pubmed.ncbi.nlm.nih.gov/32323704/
 - name: Sodium Lauroyl Isethionate
@@ -1497,3 +1497,25 @@
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41296263/
+- name: Coco-betaine, mild amphoteric co-surfactant common in sensitive-skin cleansers
+    (relative of cocamidopropyl betaine; sometimes a contact allergen)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://pubmed.ncbi.nlm.nih.gov/27775979/
+- name: Sodium cocoyl isethionate, mild anionic surfactant used in syndet cleansing
+    bars (e.g. Dove) as a gentler alternative to soap
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://incidecoder.com/ingredients/sodium-cocoyl-isethionate
+- name: 'Lauryl glucoside sister: caprylyl/capryl glucoside, alkyl polyglucoside co-surfactant
+    and solubilizer; emergent contact allergen in the same family (Loranger 2017 PMID
+    27775979)'
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://pubmed.ncbi.nlm.nih.gov/27775979/

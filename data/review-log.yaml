@@ -10856,3 +10856,8 @@ ronnstad-2026-jak-inhibitors-atopic-dermatitis-real-world-meta-analysis:
   score: 9
   verdict: revise-then-fixed
   note: 'Opus profile-reviewer re-fetched PubMed 41296263 (E-utilities efetch): every statistic verified verbatim (63 studies; 517/574/2779 patients; EASI-75/90 at 16 wk 75%/38%, 51%/24%, 83%/55%; acne/HSV 21%/2%, 8%/6%, 15%/6%; 100mg abrocitinib/30mg upadacitinib highest; search cutoff 3 Jan 2025; July 2026 erratum) and both footnote result-sentence quotes character-for-character identical. Verdict revise: cut one unsupported ''mirrors RCT ordering'' clause (rephrased to the cited ''similar to trials at highest doses'' conclusion). Footnote ellipses legitimately mark omitted parenthetical dose-distribution breakdowns; ''Ronnstad'' is house ASCII convention.'
+lauryl-glucoside:
+  last_reviewed: '2026-09-22'
+  score: 10
+  verdict: publish
+  note: 'Opus profile-reviewer re-fetched all 4 primary PubMed sources (Alfalah 27775973, Loranger 27775979, Martinez 28766797, Soriano 33090453): every quoted phrase verbatim-verified, journal/volume/pages confirmed exact, no fabricated stats (page cites zero percentages, correctly declining to infer a prevalence number from Soriano''s title). tier: weak honest (no active skin benefit; cleansing mildness graded as a formulation property; real contact-allergy caveat). Modeled on published decyl-glucoside sibling. Verdict publish.'
