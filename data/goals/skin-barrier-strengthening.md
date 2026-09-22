@@ -107,6 +107,17 @@ videos:
     reacts more strongly to friction and pressure.
   title: 'Dermatographism: when your skin ''writes'' when scratched'
   url: https://www.tiktok.com/@dr.sheila_derm/video/7669094389951532318
+- title: How often should you really wash your face? A dermatologist explains
+  creator: Dr. Andrea Suarez (Dr Dray)
+  creator_slug: andrea-suarez-dr-dray
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=4qDefRSO6Mg
+  posted: '2026-09-14'
+  related: [oily-skin, seborrheic-dermatitis, acne, retinoids, isotretinoin, skin-barrier-repair]
+  thesis: Board-certified dermatologist Dr. Andrea Suarez (Dr Dray) explains how often you actually need to wash your face and why over-cleansing backfires. She notes that cleansing once a day is the non-negotiable minimum, to remove sunscreen, makeup, sweat, and oxidized sebum that would otherwise irritate the skin, but that each wash also strips some barrier lipids and drives water loss, so washing twice a day mainly suits oily, acne-prone, or seborrheic-dermatitis skin, while dry or sensitive skin, or skin adjusting to a retinoid or isotretinoin, often does better cleansing only once. She also debunks the idea that you must rinse off a nighttime moisturizer, petroleum jelly, or retinoid in the morning, since a retinoid has already bound its receptors and washing will not undo it, and warns that a squeaky-clean feeling is a sign of a stripped barrier.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 The skin barrier is the outermost layer of skin, the stratum corneum. It is the thing that keeps water in and irritants out, and this page ranks what actually helps keep a healthy barrier strong, best-evidenced first.

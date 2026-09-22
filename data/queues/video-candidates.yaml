@@ -3406,7 +3406,8 @@
   conflict: Runs a "Shop my Favorites" affiliate storefront (linktr.ee/dermatologysurgeon) that monetizes her product picks; no own-brand prod
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: product-rec-heavy 64s stitch reel with brand plug (Marencia); restricted product_recs, picks not surfaceable
 - id: knWILsebOtM
   title: '10/10 shaving hacks 👌🏾 stitch with heidipatterson5 #skincare'
   creator: Dr. Neera Nathan
