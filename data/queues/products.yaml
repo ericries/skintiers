@@ -2487,7 +2487,7 @@
 - name: Lancome Advanced Genifique Serum
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: anti-aging
   source: Dr. Aleksandra Brown - Lancome vs Estee Lauder (video, ejnuKJAjoIY)
 - name: Medicube Triple Collagen Serum
