@@ -77,6 +77,16 @@ videos:
   related: [niacinamide, retinol, vitamin-c, hyaluronic-acid]
   thesis: 'Dr. Jenny Liu, a board-certified dermatologist, explains "Ozempic face": the hollowing, sagging, and skin-quality changes seen in patients on GLP-1 medications who lose weight rapidly, especially older patients and those with low protein intake. She says risk can be reduced with slower weight loss, adequate protein, daily sunscreen, a tolerable retinoid, vitamin C, and a barrier-supporting moisturizer with niacinamide or collagen-supporting peptides, plus optional microcurrent devices or LED masks for mild laxity. For patients who already have facial hollowing or sagging, she discusses in-office options (biostimulatory fillers like Sculptra, hyaluronic acid fillers, and energy-based skin-tightening devices) and separately covers GLP-1-related hair shedding (telogen effluvium), for which she recommends nutrition, minoxidil, and seeing a dermatologist if severe.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: 'Is the updated CE Ferulic worth the $$$$? (Chemist Confessions Podcast #189)'
+  creator: Chemist Confessions (Victoria Fu and Gloria Lu)
+  creator_slug: victoria-fu
+  credential: Cosmetic chemists
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=mXXM8FQ24kU
+  posted: '2026-09-10'
+  related: [ascorbic-acid-vitamin-c, vitamin-c, ferulic-acid]
+  thesis: Cosmetic chemists Victoria Fu and Gloria Lu of Chemist Confessions do a science deep dive on the reformulated SkinCeuticals C E Ferulic vitamin C serum. They first revisit why L-ascorbic acid (pure vitamin C) is one of the very few skincare antioxidants with genuine supporting data, tracing it to the original Duke University lab research that validated it as a true antioxidant. They then examine the two ingredients SkinCeuticals added in the update, carnosine and a dandelion root extract, and are openly skeptical of the dandelion extract, noting the brand shows no published evidence behind its claimed anti-pollution benefit.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

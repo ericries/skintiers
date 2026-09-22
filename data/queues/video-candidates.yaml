@@ -4267,7 +4267,8 @@
   conflict: Maintains a Nykaa curated affiliate storefront; treat specific product picks as commercially incentivized (educational/mechanism content is fine).
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: no English transcript available
 - id: '7685741625930173709'
   title: This is a judgement free zone. Okay?? 🫠
   creator: Fatima Fahs
