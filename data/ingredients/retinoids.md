@@ -172,6 +172,16 @@ videos:
   related: [tretinoin, retinaldehyde, adapalene, acne]
   thesis: Licensed esthetician Ella pushes back on marketing that promises fast results, arguing that a realistic improvement from a single skincare product is closer to 20 percent and that people quit too soon. For any retinoid, she says results take about three months, with the first two months being the adjustment phase (often called retinization or the retinoid uglies), acne starting to slow and skin regulating around the three-to-four-month mark, and pigmentation taking six to eight months of consistent use. Her message is that realistic expectations are what let people stick with an effective routine.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: What are the different retinoids? Adapalene, tretinoin, retinaldehyde, tazarotene
+  creator: Jenn Lexi
+  creator_slug: jennlexi
+  credential: Licensed esthetician
+  platform: TikTok
+  url: https://www.tiktok.com/@jennlexi_/video/7678525765293493517
+  posted: '2026-08-27'
+  related: [tretinoin, adapalene, retinaldehyde, tazarotene, retinol, acne, anti-aging]
+  thesis: Licensed esthetician Jenn Lexi explains the retinoid family and who benefits from it. She distinguishes over-the-counter options like adapalene, which is effective for acne without a prescription, and gentler retinaldehyde from the prescription retinoic acids tretinoin and tazarotene, which are stronger because they do not need to be converted in the skin to become active. She notes retinoids suit people with acne or anti-aging goals, working by increasing skin cell turnover to clear the plug of dead cells and oil inside a pore, and cautions that the small whiteheads seen early on are normal purging, whereas redness and inflamed breakouts signal a damaged barrier rather than a normal retinoid reaction.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 name: Retinoids
 slug: retinoids
 status: published
