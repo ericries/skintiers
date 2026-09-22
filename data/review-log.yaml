@@ -10861,3 +10861,8 @@ lauryl-glucoside:
   score: 10
   verdict: publish
   note: 'Opus profile-reviewer re-fetched all 4 primary PubMed sources (Alfalah 27775973, Loranger 27775979, Martinez 28766797, Soriano 33090453): every quoted phrase verbatim-verified, journal/volume/pages confirmed exact, no fabricated stats (page cites zero percentages, correctly declining to infer a prevalence number from Soriano''s title). tier: weak honest (no active skin benefit; cleansing mildness graded as a formulation property; real contact-allergy caveat). Modeled on published decyl-glucoside sibling. Verdict publish.'
+squamous-cell-carcinoma:
+  last_reviewed: '2026-09-22'
+  score: 10
+  verdict: publish
+  note: 'Opus profile-reviewer verified every quote verbatim vs NCI Skin Cancer Treatment PDQ (durable .gov, live curl) and AAD SCC page (via local cache research-cache/web/56c41935758735e9.md): all appearance/color/location/risk-factor lists and the ''grow deep and spread'' + ''cannot turn into melanoma'' claims exact. Comparative BCC<SCC<melanoma spread ordering is a fair double-cited synthesis, not overstated. No fabricated stats. Modeled on published BCC sibling; 3 verify WARNs (cancer.gov/aad.org allowlist + no The Evidence section) are the accepted cancer-hub state. Verdict publish; added NCI surgery anchor per critic Minor.'

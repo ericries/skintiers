@@ -1519,3 +1519,10 @@
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/27775979/
+- name: Fluorouracil (5-FU, Efudex) topical chemotherapy cream, prescription field
+    treatment for actinic keratosis / superficial nonmelanoma skin cancer (NCI PDQ)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://www.cancer.gov/types/skin/patient/skin-treatment-pdq
