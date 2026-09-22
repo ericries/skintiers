@@ -574,14 +574,14 @@
     and Patient Management Strategie (PMID 41307186)'
   type: study
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41307186/
 - name: "R\xF8nnstad 2026 Real-World Evidence of Effectiveness and Safety of Abrocitinib,\
     \ Baricitinib and Upadacitin (PMID 41296263)"
   type: study
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41296263/
 - name: Jalian 2025 Enhancing Outcomes of Procedure Pairing With Next Generation Regenerating

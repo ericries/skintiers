@@ -10851,3 +10851,8 @@ medicube-collagen-jelly-cream:
     d quote 5 to the cache-backed 'The formula is dermatologist tested' phrasing, de-instructed + cited the bottom
      line, un-truncated the hydration quote. Skipped the optional peptides-card edit (videos: block not hand-edita
     ble; product page already cites Sugai directly). Force-published at assurance=sonnet.
+ronnstad-2026-jak-inhibitors-atopic-dermatitis-real-world-meta-analysis:
+  last_reviewed: '2026-09-22'
+  score: 9
+  verdict: revise-then-fixed
+  note: 'Opus profile-reviewer re-fetched PubMed 41296263 (E-utilities efetch): every statistic verified verbatim (63 studies; 517/574/2779 patients; EASI-75/90 at 16 wk 75%/38%, 51%/24%, 83%/55%; acne/HSV 21%/2%, 8%/6%, 15%/6%; 100mg abrocitinib/30mg upadacitinib highest; search cutoff 3 Jan 2025; July 2026 erratum) and both footnote result-sentence quotes character-for-character identical. Verdict revise: cut one unsupported ''mirrors RCT ordering'' clause (rephrased to the cited ''similar to trials at highest doses'' conclusion). Footnote ellipses legitimately mark omitted parenthetical dose-distribution breakdowns; ''Ronnstad'' is house ASCII convention.'

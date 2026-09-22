@@ -1481,3 +1481,19 @@
   status: pending
   discovered_from: terbinafine
   source: https://pubmed.ncbi.nlm.nih.gov/28707751/
+- name: Upadacitinib (Rinvoq), oral JAK1 inhibitor for moderate-to-severe atopic dermatitis
+    (highest real-world EASI-75/90 of the three oral JAKi in Ronnstad 2026 PMID 41296263;
+    FDA-approved)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://pubmed.ncbi.nlm.nih.gov/41296263/
+- name: Abrocitinib (Cibinqo), oral JAK1 inhibitor for atopic dermatitis (Ronnstad
+    2026 real-world meta-analysis PMID 41296263; acne is a notable dose-related adverse
+    event)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://pubmed.ncbi.nlm.nih.gov/41296263/
