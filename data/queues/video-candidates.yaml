@@ -405,19 +405,6 @@
   posted: '2026-09-03'
   feed_rank: 5
   status: pending
-- id: ejnuKJAjoIY
-  title: I Ranked Lancôme vs. Estée Lauder’s Bestselling Skincare
-  creator: Dr. Aleksandra Brown, DO, FAAD
-  creator_slug: aleksandra-brown
-  credential: Board-certified dermatologist (DO, FAOCD, FAAD), practicing at River Ridge Dermatology / HCA Virginia (LewisGale), Blacksburg VA
-  channel: https://www.youtube.com/channel/UC52c6a0gfbhuVCdHYZQAzuQ
-  platform: YouTube
-  tier: HIGH
-  product_recs: ok
-  conflict: null
-  posted: ''
-  feed_rank: 0
-  status: pending
 - id: -HieMKKdAPs
   title: How to Use Peptides in Your 40s | Dermatologist Guide
   creator: Dr. Aleksandra Brown, DO, FAAD
@@ -1216,19 +1203,6 @@
   conflict: Bio includes a business/booking contact email suggesting managed brand partnerships; no confirmed own-brand line or affiliate stor
   posted: '2026-09-04'
   feed_rank: 2
-  status: pending
-- id: dLEq7FzGSi8
-  title: I Tried 4 Viral K-Beauty Best Sellers—Here’s What’s Actually Worth Buying
-  creator: Dr. Daniel Sugai
-  creator_slug: daniel-sugai
-  credential: Board-certified dermatologist
-  channel: https://www.youtube.com/@danielsugaimd
-  platform: YouTube
-  tier: HIGH
-  product_recs: restricted
-  conflict: Chief Medical Officer of hair-growth-serum brand REYUS; advisory-board member of Bubble Skincare; periodic disclosed paid brand partnerships
-  posted: ''
-  feed_rank: 0
   status: pending
 - id: UFD6Pse_2o0
   title: The Best Morning & Night Skincare Routine for Mature, Dry Skin
@@ -2573,19 +2547,6 @@
   posted: '2026-09-06'
   feed_rank: 5
   status: pending
-- id: 8Ye-VLrydkE
-  title: You're Losing 1% of Your Collagen Every Year — Here's How to Slow It Down | Dr. Jenny Liu
-  creator: Dr. Jenny Liu (Jenny Liu, MD, FAAD)
-  creator_slug: jenny-liu
-  credential: Board-certified dermatologist
-  channel: https://www.youtube.com/@dr.jennyliu
-  platform: YouTube
-  tier: HIGH
-  product_recs: restricted
-  conflict: Runs an Amazon affiliate storefront (amazon.com/shop/derm.talk); recurring disclosed paid brand partnerships (Shiseido, SkinCeutic
-  posted: ''
-  feed_rank: 0
-  status: pending
 - id: aCK_2ZZiib0
   title: 7 Ways to Use Vaseline (Petrolatum) That Dermatologists Actually Recommend | Dr. Jenny Liu
   creator: Dr. Jenny Liu (Jenny Liu, MD, FAAD)
@@ -3145,19 +3106,6 @@
   conflict: null
   posted: '2026-08-28'
   feed_rank: 5
-  status: pending
-- id: iF2QyodMH4o
-  title: How To Incorporate Glycolic Acid Into Your Anti-aging Routine! + Budget Product Recommendations
-  creator: Dr. Maren Locke (The Budget Dermatologist)
-  creator_slug: maren-locke
-  credential: Board-certified dermatologist and fellowship-trained Mohs surgeon; founder/director of Carlyle Dermatology (Ocala, FL)
-  channel: https://www.youtube.com/channel/UCDc2wFMXTSApCa4UwDrdz_Q
-  platform: YouTube
-  tier: HIGH
-  product_recs: restricted
-  conflict: Runs extensive Amazon Associates and ShopMy affiliate storefronts, monetizing nearly every product mentioned across videos
-  posted: ''
-  feed_rank: 0
   status: pending
 - id: nVBemOpNLIg
   title: BEST OF AMAZON PRIME DAY SKINCARE 2026! | THE BUDGET DERM REVIEWS
@@ -6203,4 +6151,342 @@
   conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan and reject any sponsored/affiliate/gifted video
   posted: '2026-09-18'
   feed_rank: 5
+  status: pending
+- id: i60ztTCTwIU
+  title: 'dermatologist spends £50 in boots on haircare #dermatologist #haircare #productrecommendation'
+  creator: Dr Aamna Adel
+  creator_slug: aamna-adel
+  credential: Consultant dermatologist
+  channel: https://www.youtube.com/@DrAamnaAdel
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Founder of own-brand haircare line (Rhute); TikTok Shop affiliate/product storefront; recurring disclosed sponsored posts (No7, La Roche Pos
+  posted: ''
+  feed_rank: 6
+  status: pending
+- id: xpl78be47WY
+  title: 'Squamous Cell Carcinoma: Early Warning Signs'
+  creator: Dr. Aleksandra Brown, DO, FAAD
+  creator_slug: aleksandra-brown
+  credential: Board-certified dermatologist (DO, FAOCD, FAAD), practicing at River Ridge Dermatology / HCA Virginia (LewisGale), Blacksburg VA
+  channel: https://www.youtube.com/channel/UC52c6a0gfbhuVCdHYZQAzuQ
+  platform: YouTube
+  tier: HIGH
+  product_recs: ok
+  conflict: null
+  posted: ''
+  feed_rank: 6
+  status: pending
+- id: 1GKGxLHqOE8
+  title: 'Dermatologist Shops Sam’s Club Skincare: What’s Worth Buying?'
+  creator: Andrea Suarez (Dr Dray)
+  creator_slug: andrea-suarez-dr-dray
+  credential: Board-certified dermatologist
+  channel: https://www.youtube.com/@DrDrayzday/videos
+  platform: YouTube
+  tier: HIGH
+  product_recs: null
+  conflict: null
+  posted: ''
+  feed_rank: 0
+  status: pending
+- id: MHaLx80tOvk
+  title: 'That’s not how you do that #dermreacts  #skincare  #dermatologist #dermangelo'
+  creator: Dr. Angelo Landriscina (DermAngelo)
+  creator_slug: angelo-landriscina
+  credential: Board-certified dermatologist
+  channel: https://www.youtube.com/@DermAngelo
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Own-brand UPF sun-protective clothing line, SOUL-A (wearsoula.com / @wearsoula), founded and promoted by him — apparel, not topical skincare
+  posted: ''
+  feed_rank: 6
+  status: pending
+- id: KOecr6tO3IQ
+  title: 'This is insanity #dermreacts  #skincare  #dermatologist #dermangelo'
+  creator: Dr. Angelo Landriscina (DermAngelo)
+  creator_slug: angelo-landriscina
+  credential: Board-certified dermatologist
+  channel: https://www.youtube.com/@DermAngelo
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Own-brand UPF sun-protective clothing line, SOUL-A (wearsoula.com / @wearsoula), founded and promoted by him — apparel, not topical skincare
+  posted: ''
+  feed_rank: 7
+  status: pending
+- id: '7688203624266190094'
+  title: 'Stupid or not? #skincare #insurance #doctor #healthcare '
+  creator: Dr. Chris Tomassian
+  creator_slug: chris-tomassian
+  credential: Board-certified dermatologist
+  channel: https://www.tiktok.com/@dr.tomassian
+  platform: TikTok
+  tier: MED
+  product_recs: ok
+  conflict: Bio includes a business/booking contact email suggesting managed brand partnerships; no confirmed own-brand line or affiliate stor
+  posted: '2026-09-22'
+  feed_rank: 0
+  status: pending
+- id: swqAdZr62W4
+  title: Skin Recomp Hacks
+  creator: Dr. Daniel Sugai
+  creator_slug: daniel-sugai
+  credential: Board-certified dermatologist
+  channel: https://www.youtube.com/@danielsugaimd
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Chief Medical Officer of hair-growth-serum brand REYUS; advisory-board member of Bubble Skincare; periodic disclosed paid brand partnerships
+  posted: ''
+  feed_rank: 6
+  status: pending
+- id: '7687968071545310478'
+  title: 'Something I see every fall: people either overhauling their entire ro...'
+  creator: Fatima Fahs
+  creator_slug: fatima-fahs
+  credential: Dermatologist (MD)
+  channel: https://www.tiktok.com/@dermydoctor
+  platform: TikTok
+  tier: HIGH
+  product_recs: restricted
+  conflict: null
+  posted: '2026-09-21'
+  feed_rank: 0
+  status: pending
+- id: '7688127425686818068'
+  title: merit have new shades! this is new the merit lip liner in bauhaus, de...
+  creator: Hannah English (@ms_hannah_e / Hannah Collingwood English)
+  creator_slug: hannah-english
+  credential: Skincare educator
+  channel: https://www.tiktok.com/@hannahcollingwoodenglish
+  platform: TikTok
+  tier: HIGH
+  product_recs: restricted
+  conflict: Co-developed/formulated the Tbh Skincare 'Rebound' Serum and Toner (product-formulation partnership) — her endorsement of that spe; no YouTube; TikTok/IG intake
+  posted: '2026-09-21'
+  feed_rank: 0
+  status: pending
+- id: '7688020768579521805'
+  title: 'Day 4 part 2: what is dehydrated skin? #dehydratedskin #dryskin #dehy...'
+  creator: Jenn Lexi (@jennlexi_)
+  creator_slug: jennlexi
+  credential: Esthetician (self-identified); not a dermatologist or cosmetic chemist
+  channel: https://www.tiktok.com/@jennlexi_
+  platform: TikTok
+  tier: MED
+  product_recs: restricted
+  conflict: 'Runs #ad sponsored posts (e.g. TruSkin) and Target skincare hauls/reviews; prefer her educational ingredient-category and barrier-repair explainers, and treat product recommendations as effectively promotional (skip).'
+  posted: '2026-09-21'
+  feed_rank: 0
+  status: pending
+- id: JyAU3HidvWc
+  title: '#skincare #cosmeticdermatology #skincareroutine #skincaretips #retinol #dermatologist #tretinoin'
+  creator: Dr. Jenny Liu (Jenny Liu, MD, FAAD)
+  creator_slug: jenny-liu
+  credential: Board-certified dermatologist
+  channel: https://www.youtube.com/@dr.jennyliu
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Runs an Amazon affiliate storefront (amazon.com/shop/derm.talk); recurring disclosed paid brand partnerships (Shiseido, SkinCeutic
+  posted: ''
+  feed_rank: 6
+  status: pending
+- id: 71aD8K1lj-s
+  title: How to Layer Azelaic Acid, Tretinoin, and Cicaplast
+  creator: Dr. Joyce Park (Tea with MD)
+  creator_slug: joyce-park
+  credential: Board-certified dermatologist
+  channel: https://www.youtube.com/@TeawithMD
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: ShopMy affiliate storefront linked in nearly every video ('My Holy Grail Products'); own hair-care brand Kerativ Hair (she is Founder/CEO);
+  posted: ''
+  feed_rank: 6
+  status: pending
+- id: '7688064716144430349'
+  title: Drop your thoughts on the new @KraveBeauty cream below! I’m intrigued...
+  creator: Kristin Leite (kristingl)
+  creator_slug: kristin-leite
+  credential: Beauty product developer and skincare educator (NOT a dermatologist or cosmetic chemist)
+  channel: https://www.tiktok.com/@kristingl
+  platform: TikTok
+  tier: MED
+  product_recs: null
+  conflict: runs an Amazon affiliate storefront and does sponsored posts - strongly prefer educational / how-to / ingredient-explainer videos; be very cautious with any product recommendation
+  posted: '2026-09-21'
+  feed_rank: 0
+  status: pending
+- id: g6bxuosUPNE
+  title: 'Derm Hacks I LOVE — | #shorts #skincare |'
+  creator: Dr. Lindsey Zubritsky (DermGuru)
+  creator_slug: lindsey-zubritsky
+  credential: Board-certified dermatologist
+  channel: https://www.youtube.com/@drlindseyzubritsky
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Active paid spokesperson for RoC Skincare (on-air brand deal w/ discount code) + Cetaphil-sponsored content + 'all' detergent partnership; a
+  posted: ''
+  feed_rank: 1
+  status: pending
+- id: jxQSoRPio4Y
+  title: Here are my favorite alternatives to diaper rash cream that will fix your skin while you sleep!!
+  creator: Dr. Maren Locke (The Budget Dermatologist)
+  creator_slug: maren-locke
+  credential: Board-certified dermatologist and fellowship-trained Mohs surgeon; founder/director of Carlyle Dermatology (Ocala, FL)
+  channel: https://www.youtube.com/channel/UCDc2wFMXTSApCa4UwDrdz_Q
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Runs extensive Amazon Associates and ShopMy affiliate storefronts, monetizing nearly every product mentioned across videos
+  posted: ''
+  feed_rank: 6
+  status: pending
+- id: TOAhyz5mWro
+  title: 'How to Treat Dirt Tattoos [DermTV.com Epi #566]'
+  creator: Dr. Neal Schultz (DermTV)
+  creator_slug: neal-schultz
+  credential: Dermatologist, host of DermTV.com
+  channel: https://www.youtube.com/channel/UCWl7rIYGLnCwVpuO1DmrEUQ
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Own-brand skincare line BeautyRx by Dr. Schultz (beautyrx.com); treat product picks as commercially incentivized. Channel largely inactive since ~2014, useful mainly for evergreen back-catalog (backfill).
+  posted: ''
+  feed_rank: 0
+  status: pending
+- id: h1ciu7bQVn4
+  title: 'DermTV Viewer Questions - November 2014 [DermTV.com Epi #565]'
+  creator: Dr. Neal Schultz (DermTV)
+  creator_slug: neal-schultz
+  credential: Dermatologist, host of DermTV.com
+  channel: https://www.youtube.com/channel/UCWl7rIYGLnCwVpuO1DmrEUQ
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Own-brand skincare line BeautyRx by Dr. Schultz (beautyrx.com); treat product picks as commercially incentivized. Channel largely inactive since ~2014, useful mainly for evergreen back-catalog (backfill).
+  posted: ''
+  feed_rank: 1
+  status: pending
+- id: 6SK4WxOXKHE
+  title: 'How to Treat Acne During Pregnancy [DermTV.com Epi #564]'
+  creator: Dr. Neal Schultz (DermTV)
+  creator_slug: neal-schultz
+  credential: Dermatologist, host of DermTV.com
+  channel: https://www.youtube.com/channel/UCWl7rIYGLnCwVpuO1DmrEUQ
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Own-brand skincare line BeautyRx by Dr. Schultz (beautyrx.com); treat product picks as commercially incentivized. Channel largely inactive since ~2014, useful mainly for evergreen back-catalog (backfill).
+  posted: ''
+  feed_rank: 2
+  status: pending
+- id: k8BOSOFsSqk
+  title: 'What Causes Acne Scars [DermTV.com Epi #563]'
+  creator: Dr. Neal Schultz (DermTV)
+  creator_slug: neal-schultz
+  credential: Dermatologist, host of DermTV.com
+  channel: https://www.youtube.com/channel/UCWl7rIYGLnCwVpuO1DmrEUQ
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Own-brand skincare line BeautyRx by Dr. Schultz (beautyrx.com); treat product picks as commercially incentivized. Channel largely inactive since ~2014, useful mainly for evergreen back-catalog (backfill).
+  posted: ''
+  feed_rank: 3
+  status: pending
+- id: MqNkw_fBCQ0
+  title: 'The Progressive Peel [DermTV.com Epi #562]'
+  creator: Dr. Neal Schultz (DermTV)
+  creator_slug: neal-schultz
+  credential: Dermatologist, host of DermTV.com
+  channel: https://www.youtube.com/channel/UCWl7rIYGLnCwVpuO1DmrEUQ
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Own-brand skincare line BeautyRx by Dr. Schultz (beautyrx.com); treat product picks as commercially incentivized. Channel largely inactive since ~2014, useful mainly for evergreen back-catalog (backfill).
+  posted: ''
+  feed_rank: 4
+  status: pending
+- id: 7dXNZNON61w
+  title: 'Do You Need to Wear Sunscreen in an Airplane [DermTV.com Epi #561]'
+  creator: Dr. Neal Schultz (DermTV)
+  creator_slug: neal-schultz
+  credential: Dermatologist, host of DermTV.com
+  channel: https://www.youtube.com/channel/UCWl7rIYGLnCwVpuO1DmrEUQ
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Own-brand skincare line BeautyRx by Dr. Schultz (beautyrx.com); treat product picks as commercially incentivized. Channel largely inactive since ~2014, useful mainly for evergreen back-catalog (backfill).
+  posted: ''
+  feed_rank: 5
+  status: pending
+- id: 58mOSOMn72g
+  title: 'skincare made simple #skincare'
+  creator: Dr. Neera Nathan
+  creator_slug: neera-nathan
+  credential: Board-certified dermatologist
+  channel: https://www.youtube.com/@dermatologysurgeon
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Runs a "Shop my Favorites" affiliate storefront (linktr.ee/dermatologysurgeon) that monetizes her product picks; no own-brand prod
+  posted: ''
+  feed_rank: 0
+  status: pending
+- id: '7688159444894584094'
+  title: 🖇️ Comment TONIGHT for the newsletter on how to get glass skin I had ...
+  creator: Dr. Sheila Farhang (dr.sheila_derm)
+  creator_slug: sheila-farhang
+  credential: Board-certified dermatologist
+  channel: https://www.tiktok.com/@dr.sheila_derm
+  platform: TikTok
+  tier: HIGH
+  product_recs: restricted
+  conflict: Self-describes as a "Key Opinion Leader for industry beauty companies" (per her own practice bio) and most sampled TikTok videos e; no YouTube; TikTok/IG intake
+  posted: '2026-09-22'
+  feed_rank: 0
+  status: pending
+- id: '7688099341780733197'
+  title: 'Korean hair care is absolutely next on my list to try!  #targetbeauty...'
+  creator: Ella (@your.estie.ella)
+  creator_slug: your-estie-ella
+  credential: Licensed esthetician (NOT a dermatologist or cosmetic chemist)
+  channel: https://www.tiktok.com/@your.estie.ella
+  platform: TikTok
+  tier: MED
+  product_recs: ok
+  conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan and reject any sponsored/affiliate/gifted video
+  posted: '2026-09-21'
+  feed_rank: 0
+  status: pending
+- id: '7688039240214547726'
+  title: Moved in 4 days ago so we still have a waaaays to go but let me know ...
+  creator: Ella (@your.estie.ella)
+  creator_slug: your-estie-ella
+  credential: Licensed esthetician (NOT a dermatologist or cosmetic chemist)
+  channel: https://www.tiktok.com/@your.estie.ella
+  platform: TikTok
+  tier: MED
+  product_recs: ok
+  conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan and reject any sponsored/affiliate/gifted video
+  posted: '2026-09-21'
+  feed_rank: 1
+  status: pending
+- id: '7687967336615120142'
+  title: 'Well that was….interesting 🤨 #oilcleanser #doublecleansing #cloggedpo...'
+  creator: Ella (@your.estie.ella)
+  creator_slug: your-estie-ella
+  credential: Licensed esthetician (NOT a dermatologist or cosmetic chemist)
+  channel: https://www.tiktok.com/@your.estie.ella
+  platform: TikTok
+  tier: MED
+  product_recs: ok
+  conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan and reject any sponsored/affiliate/gifted video
+  posted: '2026-09-21'
+  feed_rank: 2
   status: pending
