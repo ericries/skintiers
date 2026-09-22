@@ -6,6 +6,18 @@ slug: mens-skincare-routine
 status: published
 type: goal
 updated: '2026-09-21'
+videos:
+- title: A dermatologist's simple beginner nighttime routine for a man
+  creator: Dr. Shereene Idriss
+  creator_slug: shereene-idriss
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=rjJljmedNQM
+  posted: '2026-05-23'
+  related: [seborrheic-dermatitis, ketoconazole, retinol, retinoids, acne, oily-skin, sunscreen-uv-filters]
+  thesis: 'Board-certified dermatologist Dr. Shereene Idriss walks her husband through a simple beginner nighttime routine for a man with oily, acne-prone skin and facial seborrheic dermatitis. She keeps it to three steps: a medicated cleanser (she treats his facial seborrheic dermatitis with a ketoconazole antifungal wash), a beginner-strength retinol applied as a pea-sized amount at night while avoiding the eyes and the corners of the mouth, and a light moisturizer, followed by daily sunscreen the next morning. She stresses that consistency, not the number of products, is what makes a men''s routine actually work.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 There is very little that is biologically special about "men's skincare." A 2018 review of male versus female skin found that hydration, transepidermal water loss, sebum, microcirculation, pigmentation, and thickness are generally higher in men, while skin pH is higher in women.[^skin] So a man's facial skin is on average oilier and slightly thicker, which nudges toward lighter, oil-tolerant textures, but the ingredients that actually work are the same regardless of sex. Products marketed "for men" are typically conventional formulas differentiated mainly by scent and packaging rather than by ingredient.
