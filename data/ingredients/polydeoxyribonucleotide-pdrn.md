@@ -89,6 +89,16 @@ videos:
   related: []
   thesis: 'Dr. Heather Woolery-Lloyd, a board-certified dermatologist, explains marine spicules: microscopic needle-like structures harvested from sponges that create a controlled micro-injury in skin, forming temporary pathways thought to boost penetration of actives like peptides and PDRN before the spicules shed away. She notes spicule products typically start at 0.1 to 1 percent concentration to limit irritation, and that experts advise against pairing them with aggressive treatments like retinoids or strong acne medications to avoid over-exfoliation'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Are you actually wasting your money on PDRN products?
+  creator: Kristin Leite (kristingl)
+  creator_slug: kristin-leite
+  credential: Beauty product developer and skincare educator (not a dermatologist or cosmetic chemist)
+  platform: TikTok
+  url: https://www.tiktok.com/@kristingl/video/7686222323841584398
+  posted: '2026-09-16'
+  related: [panthenol, centella-asiatica, medicube-pdrn-pink-collagen-exosome-shot-serum, anua-pdrn-caffeine-rejuvenating-eye-cream]
+  thesis: 'Beauty product developer Kristin Leite (not a dermatologist or cosmetic chemist) makes a practical formulation point about PDRN (polydeoxyribonucleotide) products. Using a Dr. Althea PDRN cream and a Heveblue salmon-care ampoule as examples, she argues that even someone skeptical of PDRN is not wasting their money, because these formulas are built on base ingredients that work on their own: panthenol, a form of vitamin B that hydrates and supports the skin barrier, and centella water, which soothes and hydrates. Her takeaway is to judge a product as a whole formula rather than by a single hero ingredient.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
