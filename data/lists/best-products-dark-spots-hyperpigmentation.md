@@ -13,16 +13,18 @@ tier_list:
   - skinceuticals-discoloration-defense
   - cos-de-baha-az20-azelaic-acid-20-serum
   - anua-azelaic-acid-serum
+  - the-ordinary-azelaic-acid-suspension-10
   - good-molecules-discoloration-correcting-serum
   - anua-niacinamide-10-tranexamic-acid-4-serum
   - murad-rapid-dark-spot-correcting-serum
   - la-roche-posay-mela-b3-serum
+  - the-ordinary-niacinamide-10-zinc-1
   - cyspera-intensive-cysteamine-cream
   - naturium-alpha-arbutin-serum-2
   - the-ordinary-alpha-arbutin-2-ha
   title: Dark-spot and hyperpigmentation products by evidence
 type: list
-updated: '2026-08-27'
+updated: '2026-09-22'
 ---
 
 This ranks finished over-the-counter products for fading dark spots and [[hyperpigmentation]] by the strength of evidence behind their main brightening active. The ranking reuses the ingredient-level evidence rankings on [[brightening]], [[melasma]], and [[hyperpigmentation]], so a product's position here comes from how well-studied its active ingredient is, not from a head-to-head trial of these finished formulas.
@@ -39,6 +41,8 @@ Two things apply across the whole list. None of these bleach skin below its natu
 
 **[[anua-azelaic-acid-serum|Anua Azelaic Acid 10% Serum]].** Labeled 10%, half the studied cream strength, so a gentler, lower-dose way into the same active.[^azelex]
 
+**[[the-ordinary-azelaic-acid-suspension-10|The Ordinary Azelaic Acid Suspension 10%]].** The same 10% azelaic acid at about $12, one of the cheapest ways into the active, still below the studied 15-20% prescription strengths.[^azelex]
+
 **[[good-molecules-discoloration-correcting-serum|Good Molecules Discoloration Correcting Serum]].** Pairs tranexamic acid with niacinamide, an inexpensive combination of two evidence-backed brighteners; oral tranexamic acid roughly halved melasma severity in a placebo-controlled trial, and the topical form is used the same way.[^txa]
 
 **[[anua-niacinamide-10-tranexamic-acid-4-serum|Anua Niacinamide 10% + TXA 4% Serum]].** The same tranexamic-plus-niacinamide pairing with added arbutin, at declared 10% and 4%.[^txa]
@@ -48,6 +52,8 @@ Two things apply across the whole list. None of these bleach skin below its natu
 ## Newer or lower-evidence actives
 
 **[[la-roche-posay-mela-b3-serum|La Roche-Posay Mela B3 Serum]].** Built on niacinamide plus the brand's newer Melasyl active; niacinamide is a well-tolerated pigment-transfer blocker with moderate evidence, detailed on [[niacinamide]].
+
+**[[the-ordinary-niacinamide-10-zinc-1|The Ordinary Niacinamide + Zinc serum]].** A very cheap plain niacinamide serum; niacinamide is a moderate, gentle pigment-transfer blocker (see [[niacinamide]]), which makes this a low-cost add-on rather than a lead brightening active.
 
 **[[cyspera-intensive-cysteamine-cream|Cyspera Intensive Cysteamine Cream]].** A dedicated cysteamine depigmenting cream marketed as a [[hydroquinone]] alternative; cysteamine has some head-to-head trials against hydroquinone but a smaller, less consistent evidence base, covered on [[cysteamine]].
 
