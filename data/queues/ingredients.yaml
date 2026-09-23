@@ -1440,7 +1440,7 @@
 - name: Sodium Lauroyl Isethionate
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: dove-sensitive-skin-beauty-bar
   source: https://incidecoder.com/ingredients/sodium-lauroyl-isethionate
 - name: L-carnitine (levocarnitine, topical)
@@ -1541,3 +1541,17 @@
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41277505/
+- name: Disodium laureth sulfosuccinate, mild anionic co-surfactant (sulfosuccinate
+    class) common in gentle sulfate-free cleansers, often paired with isethionates
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://pubmed.ncbi.nlm.nih.gov/14728695/
+- name: Sodium isethionate, the isethionate salt itself, used as a mild cleansing
+    aid / pH buffer in syndet bars (relative of sodium lauroyl/cocoyl isethionate)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://pubmed.ncbi.nlm.nih.gov/14728695/
