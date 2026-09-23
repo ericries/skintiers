@@ -102,7 +102,15 @@
 - name: Cleansing (how often to wash your face)
   type: goal
   priority: 5
-  status: pending
+  status: done
   discovered_from: skin-barrier-strengthening
   source: Dr Dray face-washing video (4qDefRSO6Mg); recurring cleansing-frequency
     topic with no on-site hub
+- name: 'Double cleansing (oil cleanser then water-based cleanser), the K-beauty two-step
+    method: is it necessary or just for heavy makeup/sunscreen days? Evidence-skeptical
+    hub linking to how-often-to-wash-your-face + cleanser lists'
+  type: goal
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://www.aad.org/public/everyday-care/skin-care-basics/care/face-washing-101

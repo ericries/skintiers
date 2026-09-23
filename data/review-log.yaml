@@ -10866,3 +10866,8 @@ squamous-cell-carcinoma:
   score: 10
   verdict: publish
   note: 'Opus profile-reviewer verified every quote verbatim vs NCI Skin Cancer Treatment PDQ (durable .gov, live curl) and AAD SCC page (via local cache research-cache/web/56c41935758735e9.md): all appearance/color/location/risk-factor lists and the ''grow deep and spread'' + ''cannot turn into melanoma'' claims exact. Comparative BCC<SCC<melanoma spread ordering is a fair double-cited synthesis, not overstated. No fabricated stats. Modeled on published BCC sibling; 3 verify WARNs (cancer.gov/aad.org allowlist + no The Evidence section) are the accepted cancer-hub state. Verdict publish; added NCI surgery anchor per critic Minor.'
+how-often-to-wash-your-face:
+  last_reviewed: '2026-09-22'
+  score: 9
+  verdict: revise-then-fixed
+  note: 'Opus profile-reviewer verified every quote verbatim vs Choi 2006 RCT (PMID 17014635, live efetch) and AAD Face Washing 101 (via local cache 7b83b1b585d9025f.md): all quotes byte-for-byte, journal/pages exact, no fabricated stats. Verdict revise: one Important framing fix (intro implied over-washing FREQUENCY strips the barrier, in tension with the cited RCT''s ''excessive face washing may not be as culpable as previously thought''); reworded to attribute barrier-stripping to scrubbing + harsh/high-pH cleansers, not frequency. aad.org non-durable but cached per policy.'
