@@ -2509,3 +2509,24 @@
   status: done
   discovered_from: null
   source: https://incidecoder.com/products/vanicream-gentle-facial-cleanser
+- name: La Roche-Posay Toleriane Double Repair Face Moisturizer (ceramide-3 + niacinamide
+    + glycerin + prebiotic thermal water; very popular derm-recommended daily moisturizer)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://incidecoder.com/products/la-roche-posay-toleriane-double-repair-face-moisturizer
+- name: Paula's Choice Skin Perfecting 2% BHA Liquid Exfoliant (the iconic 2% salicylic
+    acid leave-on exfoliant for blackheads/congestion)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://incidecoder.com/products/paula-s-choice-skin-perfecting-2-bha-liquid-exfoliant
+- name: The INKEY List Oat Cleansing Balm (oil-to-milk cleansing balm with oat/colloidal
+    oatmeal for makeup+sunscreen removal, gentle first-cleanse option)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://incidecoder.com/products/the-inkey-list-oat-cleansing-balm
