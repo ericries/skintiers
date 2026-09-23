@@ -50,6 +50,17 @@ tier_list:
       targeting the yeast.
     slug: pimecrolimus
     tier: moderate
+  - note: Climbazole, an azole antifungal related to ketoconazole, used in anti-dandruff
+      shampoos and leave-on "fungal-acne-safe" products; it reduces Malassezia but its
+      isolated evidence is thinner than the first-line antifungals (see [[climbazole]]).
+    slug: climbazole
+    tier: moderate
+  - note: Coal tar, a long-established over-the-counter antidandruff agent (the active
+      in [[neutrogena-tgel-therapeutic-shampoo-coal-tar|Neutrogena T/Gel]]) that slows
+      skin-cell turnover and eases scaling and itch rather than directly targeting the
+      yeast, so an adjunct rather than a stand-alone antifungal (see [[coal-tar]]).
+    slug: coal-tar
+    tier: moderate
   - note: A keratolytic that lifts scale so antifungals can reach the skin. It addresses
       the flaking, not the underlying yeast, so it is an adjunct rather than a stand-alone
       treatment.
@@ -57,7 +68,7 @@ tier_list:
     tier: weak
   title: Anti-dandruff and seborrheic dermatitis treatments by evidence
 type: list
-updated: '2026-08-30'
+updated: '2026-09-23'
 ---
 
 This list ranks the treatments for dandruff and [[seborrheic-dermatitis]] by the strength of the evidence behind them. Both are the same condition at different severities: an inflammatory response to the Malassezia yeast that lives on everyone's skin (on the trunk and face, the same yeast can also produce itchy bumps covered on [[fungal-acne]]). It is managed, not cured, so treatment is used in courses and repeated when it relapses.
