@@ -79,6 +79,16 @@ videos:
   related: [sunscreen-uv-filters]
   thesis: Dr. Heather Woolery-Lloyd, a board certified dermatologist, explains that the FDA has withdrawn its 2015 proposal that would have banned indoor tanning for anyone under 18 and required signed risk consent forms at tanning salons, after weighing over 8,000 public comments on personal choice and small-business burden. She notes the American Academy of Dermatology opposed the withdrawal, citing data that tanning before age 20 raises melanoma risk by 47 percent, and cites a 2025 Northwestern and UCSF study finding indoor tanning causes more severe DNA damage in skin cells than natural aging in non-tanners twice their age
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: UV damage is still the number one cause of skin aging
+  creator: Dr. Aegean Chan
+  creator_slug: aegean-chan
+  credential: Board-certified dermatologist
+  platform: TikTok
+  url: https://www.tiktok.com/@draegeanchan/video/7684001723794443551
+  posted: '2026-09-10'
+  related: [sunscreen-uv-filters, anti-aging]
+  thesis: Board-certified dermatologist Dr. Aegean Chan explains that UV damage is, in her view, the number one driver of skin aging. She describes how chronic sun exposure degrades the skin's collagen and elastic fibers, producing a change dermatologists call solar elastosis, which she nicknames mushy collagen. Her skeptical takeaway is to judge anti-aging product claims against that reality, asking whether any cream could truly reverse decades of accumulated UV damage.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
