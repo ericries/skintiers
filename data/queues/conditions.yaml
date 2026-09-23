@@ -239,3 +239,11 @@
   status: pending
   discovered_from: null
   source: https://www.cancer.gov/types/skin/patient/skin-treatment-pdq
+- name: Chronic hand eczema (CHE), common occupational skin condition distinct from
+    atopic dermatitis; ~10% global prevalence, higher in women; newer treatments delgocitinib
+    (topical JAK) and alitretinoin (oral) (Gupta 2025 NMA PMID 41277505)
+  type: condition
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://pubmed.ncbi.nlm.nih.gov/41277505/

@@ -10871,3 +10871,8 @@ how-often-to-wash-your-face:
   score: 9
   verdict: revise-then-fixed
   note: 'Opus profile-reviewer verified every quote verbatim vs Choi 2006 RCT (PMID 17014635, live efetch) and AAD Face Washing 101 (via local cache 7b83b1b585d9025f.md): all quotes byte-for-byte, journal/pages exact, no fabricated stats. Verdict revise: one Important framing fix (intro implied over-washing FREQUENCY strips the barrier, in tension with the cited RCT''s ''excessive face washing may not be as culpable as previously thought''); reworded to attribute barrier-stripping to scrubbing + harsh/high-pH cleansers, not frequency. aad.org non-durable but cached per policy.'
+gupta-2025-hand-eczema-monotherapies-network-meta-analysis:
+  last_reviewed: '2026-09-23'
+  score: 9
+  verdict: revise-then-fixed
+  note: 'Opus profile-reviewer verified every statistic verbatim vs PMC12641463 full text + PubMed abstract: 5 studies/10 comparators, delgocitinib 8 mg/g SUCRA winner, MDs vs alitretinoin (12wk 24.65 [9.05,40.07]; 16wk 21.56 [2.16,41.09]), dupilumab 23.06 losing significance after adjustment, FDA delgocitinib 20mg/g July 25 2025, design + all limitations exact. Verdict revise: fixed comparator list to enumerate all three ARQ-252 arms (was summing to 9 not 10) and dropped an unsourced contact-dermatitis overlap clause not in the cited paper.'

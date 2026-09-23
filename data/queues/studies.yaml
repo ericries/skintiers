@@ -588,14 +588,14 @@
     Skin Nectar With (PMID 41293824)
   type: study
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41293824/
 - name: 'Gupta 2025 Comparative Efficacy of Monotherapies for Chronic Hand Eczema:
     A Network Meta-Analysis Stu (PMID 41277505)'
   type: study
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41277505/
 - name: Malekan 2026 Efficacy and safety of baricitinib versus azathioprine, both

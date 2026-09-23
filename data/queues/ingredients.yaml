@@ -1526,3 +1526,18 @@
   status: pending
   discovered_from: null
   source: https://www.cancer.gov/types/skin/patient/skin-treatment-pdq
+- name: Delgocitinib (Anzupgo, topical pan-JAK inhibitor cream), FDA-approved July
+    2025 for chronic hand eczema; ranked most efficacious monotherapy in Gupta 2025
+    NMA (PMID 41277505)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://pubmed.ncbi.nlm.nih.gov/41277505/
+- name: Alitretinoin (oral 9-cis-retinoic acid, Toctino), systemic retinoid FDA/EMA-approved
+    for severe chronic hand eczema
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://pubmed.ncbi.nlm.nih.gov/41277505/
