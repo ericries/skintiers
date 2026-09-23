@@ -5,7 +5,7 @@ name: Eucerin
 slug: eucerin
 status: published
 type: brand
-updated: '2026-08-08'
+updated: '2026-09-23'
 videos:
 - title: Why Do Beauty Brand KEEP DOING THIS?! The Lies Of Anti-Ageing Skincare
   creator: James Welsh
@@ -35,6 +35,10 @@ Eucerin is a dermocosmetic skincare brand owned by the German consumer-goods com
 ## Products reviewed here
 
 - [[eucerin-advanced-repair-cream]]: a urea-and-ceramide barrier moisturizer for very dry or barrier-impaired skin.
+- [[eucerin-anti-pigment-dual-serum|Eucerin Anti-Pigment Dual Serum]]
+- [[eucerin-roughness-relief-lotion|Eucerin Roughness Relief Lotion]]
+- [[eucerin-eczema-relief-cream|Eucerin Eczema Relief Cream]]
+- [[eucerin-original-healing-cream|Eucerin Original Healing Cream]]
 
 ## Sources
 
