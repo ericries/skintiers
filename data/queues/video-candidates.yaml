@@ -5638,7 +5638,8 @@
   conflict: Chief Medical Officer of hair-growth-serum brand REYUS; advisory-board member of Bubble Skincare; periodic disclosed paid brand partnerships
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: vague viral-skincare reaction roundup, not single-topic; brand conflicts
 - id: SIuBnycRzB8
   title: Dermatologist Explains Cicaplast Balm Benefits
   creator: Dr. Daniel Sugai
@@ -5677,7 +5678,8 @@
   conflict: Muneeb Shah runs own skincare brand (Remedy Science) and Scriptable Rx venture featured on the channel
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: no English transcript available
 - id: -pnBdfW6OiQ
   title: 5 things you must know !
   creator: Dr. Aanchal MD
@@ -5729,7 +5731,8 @@
   conflict: null
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'off-core: GLP-1 weight-loss hair loss (not skincare)'
 - id: '7686867010508164366'
   title: Okay besties, listen up. Your skin just spent all summer dealing with...
   creator: Fatima Fahs
@@ -5755,7 +5758,8 @@
   conflict: does sponsorships - educational content only, never treat picks as endorsements, never use sponsored videos
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: Shiseido brand-featured routine (sponsored creator); not educational single-topic
 - id: '7687882409265679637'
   title: ad| yeah that hair product is good, but does it fit into my routine? ...
   creator: Hannah English (@ms_hannah_e / Hannah Collingwood English)
@@ -5820,7 +5824,8 @@
   conflict: does sponsorships - educational content only, never treat picks as endorsements, never use sponsored videos
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: multi-topic beauty-news roundup, not single-topic
 - id: 2Oli5k5Dtqc
   title: '#skincare #skincareroutine #skincaretips #tretinoin #azelaicacid #dermatologist'
   creator: Dr. Jenny Liu (Jenny Liu, MD, FAAD)
@@ -5963,7 +5968,8 @@
   conflict: Runs a "Shop my Favorites" affiliate storefront (linktr.ee/dermatologysurgeon) that monetizes her product picks; no own-brand prod
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'off-core: minoxidil hair growth + affiliate storefront'
 - id: f8JAsd3XBXY
   title: Your Face Is Losing Volume. Here’s What Actually Works in 2026 to Stop Jowls
   creator: Dr. Sam Ellis
@@ -5976,7 +5982,8 @@
   conflict: founder of the Prequel skincare brand - skip videos mainly promoting her own products
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: no English transcript available
 - id: '7687277491223907614'
   title: 🖇️ Comment HAIR for my favorite hair regrowth products One of the mos...
   creator: Dr. Sheila Farhang (dr.sheila_derm)
@@ -6015,7 +6022,8 @@
   conflict: runs the PillowtalkDerm brand - skip videos mainly promoting her own products
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: makeup-prep how-to (off-core) + own-brand PillowtalkDerm conflict
 - id: R3-kdMzbaVg
   title: 'When a patient wants to be diagnosed over the phone 📞 '
   creator: Tanya Kormeili, MD, FAAD
