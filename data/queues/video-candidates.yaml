@@ -24,7 +24,8 @@
   conflict: Founder of own-brand haircare line (Rhute); TikTok Shop affiliate/product storefront; recurring disclosed sponsored posts (No7, La Roche Pos
   posted: ''
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: off-core hair products + own-brand/affiliate conflict
 - id: 67jJ08loGuM
   title: 'Decoding the VIRAL La Roche Posay EFFACLAR skincare range: a dermatologists guide | ad | DrAdelTwins'
   creator: Dr Aamna Adel
@@ -6166,7 +6167,8 @@
   conflict: null
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: Sam's Club shopping haul, multi-product roundup not single-topic
 - id: MHaLx80tOvk
   title: 'That’s not how you do that #dermreacts  #skincare  #dermatologist #dermangelo'
   creator: Dr. Angelo Landriscina (DermAngelo)
@@ -6335,7 +6337,8 @@
   conflict: Own-brand skincare line BeautyRx by Dr. Schultz (beautyrx.com); treat product picks as commercially incentivized. Channel largely inactive since ~2014, useful mainly for evergreen back-catalog (backfill).
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'off-topic: traumatic ''dirt tattoos'', no matching page'
 - id: h1ciu7bQVn4
   title: 'DermTV Viewer Questions - November 2014 [DermTV.com Epi #565]'
   creator: Dr. Neal Schultz (DermTV)
@@ -6413,7 +6416,8 @@
   conflict: Runs a "Shop my Favorites" affiliate storefront (linktr.ee/dermatologysurgeon) that monetizes her product picks; no own-brand prod
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'vague #skincare short + affiliate storefront'
 - id: '7688159444894584094'
   title: 🖇️ Comment TONIGHT for the newsletter on how to get glass skin I had ...
   creator: Dr. Sheila Farhang (dr.sheila_derm)
@@ -6517,7 +6521,8 @@
   conflict: null
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: no English transcript available
 - id: -DrMSPsl_k0
   title: 'Full of sh*t #dermreacts  #skincare  #dermatologist #dermangelo    '
   creator: Dr. Angelo Landriscina (DermAngelo)
@@ -6530,7 +6535,8 @@
   conflict: Own-brand UPF sun-protective clothing line, SOUL-A (wearsoula.com / @wearsoula), founded and promoted by him — apparel, not topical skincare
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: vague hashtag reaction short (#dermreacts)
 - id: DougJgcH4Xk
   title: 'French Sunscreen Haul #skincare #dermangelo #dermatologist #sunscreen '
   creator: Dr. Angelo Landriscina (DermAngelo)
@@ -6608,7 +6614,8 @@
   conflict: Muneeb Shah runs own skincare brand (Remedy Science) and Scriptable Rx venture featured on the channel
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: own-brand product launch (Remedy 15% azelaic serum, Muneeb Shah's brand)
 - id: '7688354989521112333'
   title: 'UGH sorry, I''m just a girl. 🤷🏻‍♀️ #metrodetroit #michigandermatologis...'
   creator: Fatima Fahs
@@ -6738,7 +6745,8 @@
   conflict: has an own-brand line (Dr Sam's) - skip own-brand promos
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: multi-topic opinion roundup, not single-topic
 - id: '7688545820404403470'
   title: Trader Joe's skincare and haircare has been going viral for a while n...
   creator: Dr. Sheila Farhang (dr.sheila_derm)
