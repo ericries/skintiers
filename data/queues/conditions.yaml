@@ -216,7 +216,7 @@
 - name: Athlete's foot (tinea pedis)
   type: condition
   priority: 5
-  status: pending
+  status: done
   discovered_from: terbinafine
   source: https://dailymed.nlm.nih.gov/
 - name: Onychomycosis (nail fungus)

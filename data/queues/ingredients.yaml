@@ -1555,3 +1555,25 @@
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/14728695/
+- name: Clotrimazole, OTC topical azole antifungal for athlete's foot, ringworm, and
+    yeast infections (azoles cut treatment failure to RR 0.30 vs placebo in Crawford
+    2007 Cochrane review)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://pubmed.ncbi.nlm.nih.gov/17636672/
+- name: Tolnaftate, OTC topical thiocarbamate antifungal for athlete's foot (Tinactin);
+    RR 0.19 vs placebo in Crawford 2007 Cochrane review
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://pubmed.ncbi.nlm.nih.gov/17636672/
+- name: Butenafine, OTC topical benzylamine (allylamine-like) antifungal for athlete's
+    foot (Lotrimin Ultra); RR 0.33 vs placebo in Crawford 2007 Cochrane review
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://pubmed.ncbi.nlm.nih.gov/17636672/

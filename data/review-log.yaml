@@ -10881,3 +10881,8 @@ sodium-lauroyl-isethionate:
   score: 9
   verdict: revise-then-fixed
   note: 'Opus profile-reviewer verified all 3 quotes verbatim vs Ananthapadmanabhan 2004 (PMID 14728695, live efetch): harsh-surfactant-damage, ''especially mild'', and pH-10/SC-5.5 quotes exact; citation + Unilever affiliation confirmed. Verdict revise: deleted an uncited allergen-absence claim (omit-empty; no source screens SLI) and softened ''isethionate class'' to ''mild-surfactant class generally'' (the review never names isethionates). tier: weak honest, no active benefit. Single durable primary appropriate for a cleansing-base ingredient.'
+athletes-foot:
+  last_reviewed: '2026-09-23'
+  score: 9
+  verdict: revise-then-fixed
+  note: 'Opus profile-reviewer verified every quote + statistic verbatim vs Crawford 2007 Cochrane CD001434 (PMID 17636672): description quotes, 67/144 trials, RRs (allylamines 0.33, azoles 0.30, ciclopiroxolamine 0.27), head-to-head RR 0.63 favouring allylamines, and OTC conclusion all exact; tier_list class attributions correct. Verdict revise (1 Critical): body prose wrongly grouped ciclopirox under ''azole antifungals'' (it is a hydroxypyridone) - fixed to name the classes correctly; added ciclopirox wider-CI rationale for its lower tier.'
