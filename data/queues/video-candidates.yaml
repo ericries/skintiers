@@ -4967,7 +4967,8 @@
   conflict: null
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: gel manicures/nails, no matching site page
 - id: sFQOnbE78zk
   title: 'Foot Parmesan #dermreacts  #skincare  #dermatologist #dermangelo'
   creator: Dr. Angelo Landriscina (DermAngelo)
@@ -5110,7 +5111,8 @@
   conflict: Maintains a Nykaa curated affiliate storefront; treat specific product picks as commercially incentivized (educational/mechanism content is fine).
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: off-topic gynaecology (safe sex, UTI, STI)
 - id: '7686514107427704078'
   title: 'Nothing a little lotion can''t fix. 😉 #michigandermatologist #dermydoc...'
   creator: Fatima Fahs
@@ -5188,7 +5190,8 @@
   conflict: Runs an Amazon affiliate storefront (amazon.com/shop/derm.talk); recurring disclosed paid brand partnerships (Shiseido, SkinCeutic
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: hair care (off-core) + affiliate storefront/sponsored partnerships
 - id: CH0h0sPy5WQ
   title: What Really Happens to Your Face As You Age | Dermatologist Explains
   creator: Dr. Joyce Park (Tea with MD)
@@ -5292,7 +5295,8 @@
   conflict: sell a small own-brand product line - skip own-brand promos
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: no English transcript available
 - id: '7686648188261928206'
   title: One more chance on September 18th!! @Murad Skincare @Ulta Beauty  @Li...
   creator: Ella (@your.estie.ella)
@@ -5344,7 +5348,8 @@
   conflict: Founder of own-brand haircare line (Rhute); TikTok Shop affiliate/product storefront; recurring disclosed sponsored posts (No7, La Roche Pos
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: vague viral-hack reaction roundup; own-brand haircare + TikTok Shop affiliate + sponsored
 - id: EXIFoaOuMWo
   title: 'dermatologist explains what''s normal or not with concerns #dermatologist #haircare #skincare'
   creator: Dr Aamna Adel
@@ -5422,7 +5427,8 @@
   conflict: null
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: vague multi-topic reaction roundup, not single-topic
 - id: i3ngRKzvc0Q
   title: Hills I'll Die On as a Dermatologist
   creator: Dr. Aleksandra Brown, DO, FAAD
@@ -5461,7 +5467,8 @@
   conflict: null
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: keloid scars, no matching site page (acne-scars is distinct)
 - id: EbC6oTVlkAM
   title: Does Salicylic Acid Cause Purging? Dermatologist Q&A
   creator: Andrea Suarez (Dr Dray)
@@ -5500,7 +5507,8 @@
   conflict: Own-brand UPF sun-protective clothing line, SOUL-A (wearsoula.com / @wearsoula), founded and promoted by him — apparel, not topical skincare
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: vague hashtag-stuffed short (#dermreacts)
 - id: H9WWEwgUeAw
   title: 'SO SATISFYING!!! #dermreacts  #skincare  #dermatologist #dermangelo    '
   creator: Dr. Angelo Landriscina (DermAngelo)
