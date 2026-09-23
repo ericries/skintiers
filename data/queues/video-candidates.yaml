@@ -2769,7 +2769,8 @@
   conflict: ShopMy affiliate storefront linked in nearly every video ('My Holy Grail Products'); own hair-care brand Kerativ Hair (she is Founder/CEO);
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: AAD conference vlog, not single-topic; ShopMy affiliate + own-brand conflict
 - id: Pzbg8YiKfSs
   title: 'Inside AAD with CHANEL Beauty: A Derm’s Behind-the-Scenes'
   creator: Dr. Joyce Park (Tea with MD)
@@ -2951,7 +2952,8 @@
   conflict: Active paid spokesperson for RoC Skincare (on-air brand deal w/ discount code) + Cetaphil-sponsored content + 'all' detergent partnership; a
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: vague podcast title; RoC paid spokesperson conflict
 - id: 22iaWfJguhg
   title: '#larocheposaypartner Be honest...who got this right? 👀 ⁠@LaRochePosayUSA'
   creator: Dr. Lindsey Zubritsky (DermGuru)
@@ -3786,7 +3788,8 @@
   conflict: Runs an own-brand practice storefront (Derm Rejuvenation Institute, Shopify); treat specific product picks as commercially incentivized.
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: menopause hair-loss topic (not core skincare) + own-brand storefront
 - id: 7JUbdrPQ6fc
   title: Menopause Essentials – Secret to Better Sex with Dr. Tanya Kormeili
   creator: Tanya Kormeili, MD, FAAD
@@ -3942,7 +3945,8 @@
   conflict: Affiliate product links in video descriptions; actively promotes his own paid $30/mo teledermatology subscription (FutureClinic, formerly Li
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: own-product promo + paid teledermatology subscription plug
 - id: mXXM8FQ24kU
   title: '#189) Is the updated CE Ferulic worth the $$$$? | Chemist Confessions Podcasts'
   creator: Chemist Confessions (Victoria Fu and Gloria Lu)
@@ -4400,7 +4404,8 @@
   conflict: Runs a "Shop my Favorites" affiliate storefront (linktr.ee/dermatologysurgeon) that monetizes her product picks; no own-brand prod
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'vague #skincare short + affiliate storefront (picks effectively paid)'
 - id: '7685760015180893454'
   title: I’m not saying these are all terrible products….but it is bad marketi...
   creator: Ella (@your.estie.ella)
@@ -4738,7 +4743,8 @@
   conflict: Runs a "Shop my Favorites" affiliate storefront (linktr.ee/dermatologysurgeon) that monetizes her product picks; no own-brand prod
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: viral-trend-rating stitch, not single-topic; affiliate storefront
 - id: '7685933672389741855'
   title: 🖇️ Comment SKIN for my FULL guide to the right skincare for skin long...
   creator: Dr. Sheila Farhang (dr.sheila_derm)
@@ -4842,7 +4848,8 @@
   conflict: null
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: no English transcript available
 - id: WAggviR1Zfs
   title: 2026 Viral Skincare Report Card
   creator: Dr. Daniel Sugai
@@ -4933,7 +4940,8 @@
   conflict: Runs a "Shop my Favorites" affiliate storefront (linktr.ee/dermatologysurgeon) that monetizes her product picks; no own-brand prod
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'vague #skincare short + affiliate storefront (picks effectively paid)'
 - id: P04Co49xKlw
   title: When you have to charge your client 💔
   creator: Tanya Kormeili, MD, FAAD
