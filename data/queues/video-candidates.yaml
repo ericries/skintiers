@@ -1642,7 +1642,8 @@
   conflict: Maintains a Nykaa curated affiliate storefront; treat specific product picks as commercially incentivized (educational/mechanism content is fine).
   posted: ''
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: no English transcript available
 - id: m8cNCvMByNw
   title: When does drinking become an addiction | How much alcohol is too much Ft. Psychiatrist Dr.Sood
   creator: Dr. Aanchal MD
@@ -1876,7 +1877,8 @@
   conflict: null
   posted: ''
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: 'off-topic: healthcare policy, not skincare'
 - id: oXZvYJl9VTU
   title: You're Buying the Wrong Eye Cream (Dermatologist WARNING)
   creator: Dr. Dustin Portela
@@ -1994,7 +1996,8 @@
   conflict: does sponsorships - educational content only, never treat picks as endorsements, never use sponsored videos
   posted: ''
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: multi-product body routine + sponsorships
 - id: DyAGwKdb_kY
   title: Targeting Expression Lines - The Slow-Aging Peptide Formulas That Work
   creator: Gothamista
@@ -2190,7 +2193,8 @@
   conflict: has an own-brand line (Selfless) and does sponsorships - educational content only, never treat picks as endorsements, never use sponsored videos
   posted: ''
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: celebrity routine feature, own-brand + sponsorships
 - id: v2IBIBN6IT0
   title: Underrated Korean Skin Care You Need To Try
   creator: Hyram (Skincare by Hyram)
@@ -2308,7 +2312,8 @@
   conflict: does sponsorships - educational content only, never treat picks as endorsements, never use sponsored videos
   posted: ''
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: brand-history commentary (Proactiv), not single-topic educational; no matching page
 - id: 3yyA-5uP9wI
   title: The BEST And WORST Week Of Neutrogena's Life
   creator: James Welsh
@@ -6871,7 +6876,8 @@
   conflict: null
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: multi-product empties/repurchase roundup, no single-topic page
 - id: 2d-N_IUUwHk
   title: 'Infinite pimple pop #dermreacts  #skincare  #dermatologist #dermangelo'
   creator: Dr. Angelo Landriscina (DermAngelo)
@@ -6949,7 +6955,8 @@
   conflict: Maintains a Nykaa curated affiliate storefront; treat specific product picks as commercially incentivized (educational/mechanism content is fine).
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: inner-thigh darkening, weak page match; channel lacks English transcripts
 - id: '7688708549794467086'
   title: “My skin just looks so…dull all of a sudden?” I hear this from patien...
   creator: Fatima Fahs
@@ -7079,7 +7086,8 @@
   conflict: Runs a "Shop my Favorites" affiliate storefront (linktr.ee/dermatologysurgeon) that monetizes her product picks; no own-brand prod
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: off-core hair wash-day routine + affiliate storefront
 - id: UFdpbJmH20E
   title: First time shadowing a Doctor 😭
   creator: Tanya Kormeili, MD, FAAD
