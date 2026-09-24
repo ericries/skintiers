@@ -10901,3 +10901,8 @@ paulas-choice-skin-perfecting-2-bha-liquid-exfoliant:
   score: 9
   verdict: revise-then-fixed
   note: 'Opus critic verified price ($37/118ml Dermstore cache), brand claim quotes (Paula''s Choice cache, verbatim), and full INCI (salicylic acid 4th, fragrance-free) vs incidecoder. Verdict revise: (1) grade used off-vocabulary evidence:''established'' (renders weakest-tier) + overgraded/blended use -> changed to effect:modest/evidence:mixed, narrowed use to comedonal acne (dropped ''texture'', a quarantined cosmetic claim), added comparator note (level w/ tretinoin in Cochrane; BPO+retinoids ranked above); (2) softened bottom-line comparative overclaim. Also fixed the site-wide render bug: added ''established''->ev-solid alias in build.py EVIDENCE_MAP (49 pages were badging weakest-tier).'
+malekan-2026-baricitinib-vs-azathioprine-atopic-dermatitis-rct:
+  last_reviewed: '2026-09-24'
+  score: 9
+  verdict: publish
+  note: 'Opus critic verified every stat verbatim vs Br J Dermatol 2026 abstract (PMID 41239194): design (single-centre open-label RCT, n=40, 12wk, NCT05969730), EASI-75 65% vs 15% (diff 50%, CI 23.9-76.1, P=0.002), SCORAD-75 55% vs 15%, mean EASI 5.60 vs 12.61 (Cohen d -0.93), safety all exact. Framing correctly bounds safety to 12wk and flags open-label/small-n limits. No fabrication. Verdict publish.'

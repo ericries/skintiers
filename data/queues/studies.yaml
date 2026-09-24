@@ -602,7 +602,7 @@
     combined with topical cortico (PMID 41239194)
   type: study
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41239194/
 - name: Kim 2026 Efficacy and Safety of Dupilumab in Adults with Prurigo Nodularis

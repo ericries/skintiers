@@ -1577,3 +1577,11 @@
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/17636672/
+- name: Azathioprine, conventional oral immunosuppressant used off-label/systemically
+    for moderate-to-severe atopic dermatitis (comparator in Malekan 2026 RCT PMID
+    41239194; underperformed baricitinib)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://pubmed.ncbi.nlm.nih.gov/41239194/
