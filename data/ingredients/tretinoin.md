@@ -168,6 +168,16 @@ videos:
   related: [retinoids, tazarotene, retinaldehyde, acne, anti-aging]
   thesis: 'Board-certified dermatologist Dr. Sam Ellis lays out a dermatologist''s method for starting tretinoin, the prescription vitamin A derivative, with minimal irritation: begin at the lowest 0.025% strength (which she notes matches 0.1% for anti-aging, with higher strengths reserved for acne) and ramp up slowly from about two nights a week. She advises applying a pea-sized amount to clean, dry skin, always following with moisturizer and using the sandwich method for sensitive skin, and adding no other actives until tretinoin is tolerated consistently. She also distinguishes true purging, which resolves within roughly six to eight weeks, from irritation-driven breakouts that mean you should back off.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: 'How to choose a tretinoin strength: start low and slow'
+  creator: Dr. Mamina Turegano
+  creator_slug: mamina-turegano
+  credential: Board-certified dermatologist
+  platform: TikTok
+  url: https://www.tiktok.com/@dr.mamina/video/7686910374834228510
+  posted: '2026-09-18'
+  related: [retinoids, hydroquinone, azelaic-acid, niacinamide]
+  thesis: 'Board-certified dermatologist Dr. Mamina Turegano explains how she picks a tretinoin strength, and argues the strength is not the first question to ask. The real question is what you are treating: someone with dry or sensitive skin or new to tretinoin might start at 0.025 percent, or even an over-the-counter retinol first, and tretinoin can be compounded with other ingredients such as azelaic acid or hydroquinone for acne and pigmentation, or niacinamide, depending on the goal. Her takeaway is to look at the whole formula and the right treatment for your skin rather than chasing the highest tretinoin percentage.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
