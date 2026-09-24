@@ -2520,7 +2520,7 @@
     acid leave-on exfoliant for blackheads/congestion)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://incidecoder.com/products/paula-s-choice-skin-perfecting-2-bha-liquid-exfoliant
 - name: The INKEY List Oat Cleansing Balm (oil-to-milk cleansing balm with oat/colloidal
@@ -2552,3 +2552,10 @@
   status: pending
   discovered_from: null
   source: https://incidecoder.com/products/la-roche-posay-toleriane-double-repair-uv-spf-30
+- name: Paula's Choice Skin Perfecting 8% AHA Gel Exfoliant (glycolic acid leave-on,
+    the AHA sibling of the 2% BHA)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://incidecoder.com/products/paula-s-choice-skin-perfecting-8-aha-gel-exfoliant

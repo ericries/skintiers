@@ -262,6 +262,11 @@ EVIDENCE_MAP = {
     "mixed": ("ev-mixed", "Mixed"),
     "solid": ("ev-solid", "Solid"),
     "gold-standard": ("ev-gold", "Gold-standard"),
+    # Legacy alias: ~49 older product pages used the off-vocabulary word
+    # "established"; render it as solid (its plain meaning) instead of falling
+    # through to the weakest-tier (ev-anec) badge color. A per-page audit to
+    # move these to a canonical tier is queued separately.
+    "established": ("ev-solid", "Established"),
 }
 
 _LEADING_P_RE = re.compile(r"\s*<p>(.*?)</p>(.*)", re.DOTALL)

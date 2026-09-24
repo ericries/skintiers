@@ -114,3 +114,11 @@
   status: done
   discovered_from: null
   source: https://www.aad.org/public/everyday-care/skin-care-basics/care/face-washing-101
+- name: 'Blackheads, comedones, and congestion (open vs closed comedones): what actually
+    clears them (salicylic acid/BHA, retinoids, avoid pore strips), skeptical hub
+    linking to salicylic-acid + acne'
+  type: goal
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://www.dermstore.com/p/paula-s-choice-skin-perfecting-2-bha-liquid-exfoliant-118ml/11174178/

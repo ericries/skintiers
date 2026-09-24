@@ -10896,3 +10896,8 @@ la-roche-posay-toleriane-double-repair-face-moisturizer:
   score: 9
   verdict: publish
   note: 'Opus profile-reviewer verified price ($25.99 reg / $19.49 sale, 3.38 oz) and full INCI (glycerin 2nd, niacinamide 5th, ceramide NP 9th, tocopherol last) byte-for-byte vs the Apify-captured Ulta render (scratchpad); all paraphrased brand claims faithful and quarantined. Textbook aggregator handling: Ulta inline-attributed, never footnoted, never quoted (no cache needed). Ingredient tiers (glycerin strong, niacinamide mid) match linked pages. Verdict publish; optional D3 grade-split declined (note discloses each tier).'
+paulas-choice-skin-perfecting-2-bha-liquid-exfoliant:
+  last_reviewed: '2026-09-24'
+  score: 9
+  verdict: revise-then-fixed
+  note: 'Opus critic verified price ($37/118ml Dermstore cache), brand claim quotes (Paula''s Choice cache, verbatim), and full INCI (salicylic acid 4th, fragrance-free) vs incidecoder. Verdict revise: (1) grade used off-vocabulary evidence:''established'' (renders weakest-tier) + overgraded/blended use -> changed to effect:modest/evidence:mixed, narrowed use to comedonal acne (dropped ''texture'', a quarantined cosmetic claim), added comparator note (level w/ tretinoin in Cochrane; BPO+retinoids ranked above); (2) softened bottom-line comparative overclaim. Also fixed the site-wide render bug: added ''established''->ev-solid alias in build.py EVIDENCE_MAP (49 pages were badging weakest-tier).'
