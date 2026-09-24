@@ -418,7 +418,8 @@
   conflict: null
   posted: ''
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: no English transcript available
 - id: Ux2YmcoQcak
   title: You're Using These 7 Skincare Products Wrong | Dermatologist Explains
   creator: Dr. Aleksandra Brown, DO, FAAD
@@ -549,7 +550,8 @@
   conflict: Recurring paid partnerships (Dermatica affiliate code "DRALEXIS" on multiple videos, La Roche-Posay branded partner content, SkinBetter Scie
   posted: ''
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: multi-product roundup + paid partnerships (Dermatica code)
 - id: 7G_3NBL7G04
   title: 'Resveratrol: The Non-Vitamin C Antioxidant for Brighter Skin!'
   creator: Dr. Alexis Stephens
@@ -694,7 +696,8 @@
   conflict: null
   posted: ''
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: lymphatic face brushes (facial tools), no matching site page
 - id: aHkGocuzaxE
   title: 'Dollar Tree Skincare: What’s Worth It? | Dermatologist Reviews'
   creator: Andrea Suarez (Dr Dray)
@@ -943,7 +946,8 @@
   conflict: Founder of own-brand skincare line (Skin Rocks); recent upload mix is dominated by PR-gifted product unboxings and empties (haul-adjacent fo
   posted: ''
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: empties haul + own-brand (Skin Rocks)
 - id: sAHcgJ-wcCc
   title: What's New In Beauty - June PR Unboxing | Caroline Hirons
   creator: Caroline Hirons
@@ -1126,7 +1130,8 @@
   conflict: non-credentialed educator - educational content only, never treat picks as endorsements, never use sponsored videos
   posted: ''
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: facial puffiness overview, no matching page (dark-circles is a distinct concern)
 - id: WVRBOxXT4cA
   title: 'Esthetician Reacts: Do Full Body Red LED Panels Work? Get Nerdy With Me (LED Medical Studies)!!'
   creator: Cassandra Bankson
@@ -1217,7 +1222,8 @@
   conflict: Chief Medical Officer of hair-growth-serum brand REYUS; advisory-board member of Bubble Skincare; periodic disclosed paid brand partnerships
   posted: ''
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: multi-product routine roundup + brand conflict (REYUS CMO)
 - id: dXP8l20p8qM
   title: ' Six Skincare Upgrades That Actually Make a Difference in 2026'
   creator: Dr. Daniel Sugai
@@ -1360,7 +1366,8 @@
   conflict: null
   posted: ''
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: LED device + hair growth (procedure/device, later-phase scope), no page
 - id: BaGJU4fbiVI
   title: Using SkinCeuticals RGN-6 in Your Post-Laser Routine
   creator: Dr. Davin Lim
@@ -1412,7 +1419,8 @@
   conflict: Muneeb Shah runs own skincare brand (Remedy Science) and Scriptable Rx venture featured on the channel
   posted: ''
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: anti-aging devices (laser/LED/microcurrent, later-phase) + own-brand conflict
 - id: cGw20h6usvo
   title: You're Spending WAY Too Much on Skincare
   creator: Doctorly
