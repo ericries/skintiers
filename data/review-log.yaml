@@ -10916,3 +10916,8 @@ the-inkey-list-oat-cleansing-balm:
   score: 9
   verdict: revise-then-fixed
   note: 'Opus critic verified price ($17/150ml) + brand claims vs theinkeylist.com cache (0ebb3a9ea6ec5e52) and full 19-ingredient INCI vs incidecoder; reformulation discrepancy (brand 5% vs decoded 3.0% oat oil) handled honestly. Verdict revise (all Important, no Critical): (1-2) fixed quote fidelity - ''12hr hydration'' verbatim + unquoted compressed ''100%/30s'' fragments; (3) added single-small-study caveat to the removal grade note; (4) added a 2nd retailer photo (Ulta). Removal function grounded in double-cleansing/Chen 2020, brand figures quarantined.'
+onychomycosis:
+  last_reviewed: '2026-09-24'
+  score: 9
+  verdict: revise-then-fixed
+  note: 'Opus critic verified every stat verbatim vs Kreijkamp-Kaspers 2017 (PMID 28707751): 48 studies/10200, terbinafine RR 6.00 vs placebo, azoles RR 22.18, terbinafine-vs-azoles head-to-head RR 0.82 (probably more effective); + Crawford 2007 ciclopirox ''poor cure rates'' verbatim. Tier ranking correctly uses the head-to-head, not the misleading placebo RRs. Verdict revise: fixed one spliced quote in The Evidence (made ''traditionally topical treatments...'' verbatim) + softened subungual attribution to the study population + ''histological examination of a nail clipping''. No fabrication.'

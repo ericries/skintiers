@@ -222,7 +222,7 @@
 - name: Onychomycosis (nail fungus)
   type: condition
   priority: 5
-  status: pending
+  status: done
   discovered_from: terbinafine
   source: https://pubmed.ncbi.nlm.nih.gov/28707751/
 - name: Pseudofolliculitis barbae (razor bumps)

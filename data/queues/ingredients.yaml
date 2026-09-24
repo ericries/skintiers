@@ -1600,3 +1600,18 @@
   status: pending
   discovered_from: null
   source: https://incidecoder.com/ingredients/prunus-amygdalus-dulcis-sweet-almond-oil
+- name: Efinaconazole (Jublia), topical triazole nail solution FDA-approved for toenail
+    onychomycosis; a newer topical with better nail penetration than older lacquers
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://pubmed.ncbi.nlm.nih.gov/28707751/
+- name: Amorolfine (Loceryl/Curanail), topical antifungal nail lacquer; Cochrane (Crawford
+    2007) noted it 'might be substantially more effective' than ciclopirox for nails
+    but needs more research
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://pubmed.ncbi.nlm.nih.gov/17636672/
