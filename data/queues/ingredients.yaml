@@ -1593,3 +1593,10 @@
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41879202/
+- name: Sweet almond oil (Prunus amygdalus dulcis), emollient plant oil common as
+    the base of cleansing balms and facial oils; occlusive/emollient, minor skin benefit
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://incidecoder.com/ingredients/prunus-amygdalus-dulcis-sweet-almond-oil

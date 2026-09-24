@@ -213,3 +213,11 @@
   discovered_from: neck-chest-decolletage-care
   source: 'neck-chest-decolletage-care hub + on-site products: strivectin-tl-advanced-tightening-neck-cream,
     necessaire-the-body-retinol'
+- name: 'Best cleansing balms and oil cleansers (first-step double-cleanse): what
+    to look for (emulsifiers that rinse clean, removes waterproof SPF/makeup); links
+    double-cleansing + the balm/oil products on-site'
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://data/goals/double-cleansing.md

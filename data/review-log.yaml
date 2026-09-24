@@ -10911,3 +10911,8 @@ l-carnitine:
   score: 9
   verdict: publish
   note: Opus critic verified all quotes/numbers verbatim vs Peirano 2012 (PMID 22360332, 2% L-carnitine 3wk significantly cut sebum vs vehicle; Beiersdorf-run, disclosed) + Chow 2026 systematic review (PMID 41879202, 59/420 studies, topical 1-5% reduces sebum/acne/PIH/cellulite 'particularly when combined', 'further trials needed', no COI). tier:weak well-calibrated (below niacinamide/BPO 'mid'). No overstatement; acne/PIH/cellulite correctly flagged combination-confounded. Verdict publish; added 'undisclosed concentration' clarifier for the Sulfur product mention.
+the-inkey-list-oat-cleansing-balm:
+  last_reviewed: '2026-09-24'
+  score: 9
+  verdict: revise-then-fixed
+  note: 'Opus critic verified price ($17/150ml) + brand claims vs theinkeylist.com cache (0ebb3a9ea6ec5e52) and full 19-ingredient INCI vs incidecoder; reformulation discrepancy (brand 5% vs decoded 3.0% oat oil) handled honestly. Verdict revise (all Important, no Critical): (1-2) fixed quote fidelity - ''12hr hydration'' verbatim + unquoted compressed ''100%/30s'' fragments; (3) added single-small-study caveat to the removal grade note; (4) added a 2nd retailer photo (Ulta). Removal function grounded in double-cleansing/Chen 2020, brand figures quarantined.'
