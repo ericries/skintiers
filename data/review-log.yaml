@@ -10886,3 +10886,8 @@ athletes-foot:
   score: 9
   verdict: revise-then-fixed
   note: 'Opus profile-reviewer verified every quote + statistic verbatim vs Crawford 2007 Cochrane CD001434 (PMID 17636672): description quotes, 67/144 trials, RRs (allylamines 0.33, azoles 0.30, ciclopiroxolamine 0.27), head-to-head RR 0.63 favouring allylamines, and OTC conclusion all exact; tier_list class attributions correct. Verdict revise (1 Critical): body prose wrongly grouped ciclopirox under ''azole antifungals'' (it is a hydroxypyridone) - fixed to name the classes correctly; added ciclopirox wider-CI rationale for its lower tier.'
+double-cleansing:
+  last_reviewed: '2026-09-23'
+  score: 9
+  verdict: revise-then-fixed
+  note: 'Opus profile-reviewer verified every statistic verbatim vs Chen 2020 (PMID 31157512): 20 participants VISIA; non-waterproof residue water 54.0/cleanser 15.6/oil 13.4/control 9.9; waterproof water 59.3/cleanser 36.8/oil 5.8/control 3.2; 8-vs-1 dry-skin AEs; conclusion all exact. Verdict revise (1 Critical): ''long-wearing makeup'' was stated with the same certainty as the sunscreen claim but the study tested ONLY sunscreen - narrowed the load-bearing claim to water-resistant sunscreen and hedged makeup as an untested extension; also dropped uncited K/J-origin attribution.'
