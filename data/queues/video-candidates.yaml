@@ -3981,7 +3981,8 @@
   conflict: sell a small own-brand product line - skip own-brand promos
   posted: ''
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: own-brand promo (Pink/Blank Slate) + Soko Glam retailer collaboration
 - id: rs75l5p3LYk
   title: How much RETINOL should you apply?
   creator: Chemist Confessions (Victoria Fu and Gloria Lu)
@@ -4687,7 +4688,8 @@
   conflict: Active paid spokesperson for RoC Skincare (on-air brand deal w/ discount code) + Cetaphil-sponsored content + 'all' detergent partnership; a
   posted: ''
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: 'drugstore-picks #short + RoC paid-spokesperson conflict'
 - id: '7685832786258709791'
   title: A little Palm Springs + a whole lot of conversations about skin, heal...
   creator: ''
@@ -5252,7 +5254,8 @@
   conflict: Active paid spokesperson for RoC Skincare (on-air brand deal w/ discount code) + Cetaphil-sponsored content + 'all' detergent partnership; a
   posted: ''
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: 'vague #short ''easy skin fixes'' + RoC paid-spokesperson conflict'
 - id: '7686549888280071454'
   title: With summer coming to an end, now is the time to book that appointmen...
   creator: ''
@@ -5503,7 +5506,8 @@
   conflict: null
   posted: ''
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: no English transcript available
 - id: NEhoD-6m4BY
   title: Does Your Skin Get Used to Retinol? The Truth About Skincare “Resistance”
   creator: Andrea Suarez (Dr Dray)
@@ -5543,7 +5547,8 @@
   conflict: Own-brand UPF sun-protective clothing line, SOUL-A (wearsoula.com / @wearsoula), founded and promoted by him — apparel, not topical skincare
   posted: ''
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: vague reaction short (#dermreacts SO SATISFYING)
 - id: 27ySuntA8mA
   title: 'LOADS OF EXTRACTIONS!!! #dermreacts  #skincare  #dermatologist #dermangelo'
   creator: Dr. Angelo Landriscina (DermAngelo)
@@ -6332,7 +6337,8 @@
   conflict: Active paid spokesperson for RoC Skincare (on-air brand deal w/ discount code) + Cetaphil-sponsored content + 'all' detergent partnership; a
   posted: ''
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: 'vague #short ''derm hacks'' + RoC paid-spokesperson conflict'
 - id: jxQSoRPio4Y
   title: Here are my favorite alternatives to diaper rash cream that will fix your skin while you sleep!!
   creator: Dr. Maren Locke (The Budget Dermatologist)
@@ -6372,7 +6378,8 @@
   conflict: Own-brand skincare line BeautyRx by Dr. Schultz (beautyrx.com); treat product picks as commercially incentivized. Channel largely inactive since ~2014, useful mainly for evergreen back-catalog (backfill).
   posted: ''
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: 2014 viewer-questions grab-bag, multi-topic + own-brand (BeautyRx)
 - id: 6SK4WxOXKHE
   title: 'How to Treat Acne During Pregnancy [DermTV.com Epi #564]'
   creator: Dr. Neal Schultz (DermTV)
@@ -6570,7 +6577,8 @@
   conflict: Own-brand UPF sun-protective clothing line, SOUL-A (wearsoula.com / @wearsoula), founded and promoted by him — apparel, not topical skincare
   posted: ''
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: French sunscreen haul, multi-product + own-brand apparel promo
 - id: Kz2ywBv3qi8
   title: 'DO NOT EAT!!! #dermreacts  #skincare  #dermatologist #dermangelo'
   creator: Dr. Angelo Landriscina (DermAngelo)
