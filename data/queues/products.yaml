@@ -2559,3 +2559,10 @@
   status: pending
   discovered_from: null
   source: https://incidecoder.com/products/paula-s-choice-skin-perfecting-8-aha-gel-exfoliant
+- name: "The Ordinary Niacinamide 10% + Zinc 1% (very cheap oily-skin/sebum serum)\
+    \ \u2014 check if already on-site before drafting"
+  type: product
+  priority: 5
+  status: done
+  discovered_from: null
+  source: https://incidecoder.com/products/the-ordinary-niacinamide-10-zinc-1

@@ -1446,7 +1446,7 @@
 - name: L-carnitine (levocarnitine, topical)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: the-ordinary-sulfur-10-powder-to-cream-concentrate
   source: https://theordinary.com/en-us/sulfur-10-powder-to-cream-concentrate-100708.html
 - name: Hydrocolloid (pimple patches)
@@ -1585,3 +1585,11 @@
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41239194/
+- name: Licochalcone A (from licorice root), anti-inflammatory/antioxidant active
+    in oily-skin and rosacea formulas; pairs with L-carnitine for sebum control (Chow
+    2026 review PMID 41879202)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://pubmed.ncbi.nlm.nih.gov/41879202/

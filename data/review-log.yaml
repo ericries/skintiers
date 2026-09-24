@@ -10906,3 +10906,8 @@ malekan-2026-baricitinib-vs-azathioprine-atopic-dermatitis-rct:
   score: 9
   verdict: publish
   note: 'Opus critic verified every stat verbatim vs Br J Dermatol 2026 abstract (PMID 41239194): design (single-centre open-label RCT, n=40, 12wk, NCT05969730), EASI-75 65% vs 15% (diff 50%, CI 23.9-76.1, P=0.002), SCORAD-75 55% vs 15%, mean EASI 5.60 vs 12.61 (Cohen d -0.93), safety all exact. Framing correctly bounds safety to 12wk and flags open-label/small-n limits. No fabrication. Verdict publish.'
+l-carnitine:
+  last_reviewed: '2026-09-24'
+  score: 9
+  verdict: publish
+  note: Opus critic verified all quotes/numbers verbatim vs Peirano 2012 (PMID 22360332, 2% L-carnitine 3wk significantly cut sebum vs vehicle; Beiersdorf-run, disclosed) + Chow 2026 systematic review (PMID 41879202, 59/420 studies, topical 1-5% reduces sebum/acne/PIH/cellulite 'particularly when combined', 'further trials needed', no COI). tier:weak well-calibrated (below niacinamide/BPO 'mid'). No overstatement; acne/PIH/cellulite correctly flagged combination-confounded. Verdict publish; added 'undisclosed concentration' clarifier for the Sulfur product mention.
