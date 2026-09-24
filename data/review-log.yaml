@@ -10891,3 +10891,8 @@ double-cleansing:
   score: 9
   verdict: revise-then-fixed
   note: 'Opus profile-reviewer verified every statistic verbatim vs Chen 2020 (PMID 31157512): 20 participants VISIA; non-waterproof residue water 54.0/cleanser 15.6/oil 13.4/control 9.9; waterproof water 59.3/cleanser 36.8/oil 5.8/control 3.2; 8-vs-1 dry-skin AEs; conclusion all exact. Verdict revise (1 Critical): ''long-wearing makeup'' was stated with the same certainty as the sunscreen claim but the study tested ONLY sunscreen - narrowed the load-bearing claim to water-resistant sunscreen and hedged makeup as an untested extension; also dropped uncited K/J-origin attribution.'
+la-roche-posay-toleriane-double-repair-face-moisturizer:
+  last_reviewed: '2026-09-24'
+  score: 9
+  verdict: publish
+  note: 'Opus profile-reviewer verified price ($25.99 reg / $19.49 sale, 3.38 oz) and full INCI (glycerin 2nd, niacinamide 5th, ceramide NP 9th, tocopherol last) byte-for-byte vs the Apify-captured Ulta render (scratchpad); all paraphrased brand claims faithful and quarantined. Textbook aggregator handling: Ulta inline-attributed, never footnoted, never quoted (no cache needed). Ingredient tiers (glycerin strong, niacinamide mid) match linked pages. Verdict publish; optional D3 grade-split declined (note discloses each tier).'

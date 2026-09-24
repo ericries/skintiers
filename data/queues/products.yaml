@@ -2513,7 +2513,7 @@
     + glycerin + prebiotic thermal water; very popular derm-recommended daily moisturizer)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://incidecoder.com/products/la-roche-posay-toleriane-double-repair-face-moisturizer
 - name: Paula's Choice Skin Perfecting 2% BHA Liquid Exfoliant (the iconic 2% salicylic
@@ -2544,3 +2544,11 @@
   status: pending
   discovered_from: null
   source: https://incidecoder.com/products/banila-co-clean-it-zero-cleansing-balm-original
+- name: 'La Roche-Posay Toleriane Double Repair UV SPF 30 Face Moisturizer (the SPF
+    version of Toleriane Double Repair: same ceramide/niacinamide/glycerin barrier
+    base plus broad-spectrum SPF 30)'
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://incidecoder.com/products/la-roche-posay-toleriane-double-repair-uv-spf-30
