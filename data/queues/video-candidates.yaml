@@ -2574,7 +2574,8 @@
   conflict: Runs an Amazon affiliate storefront (amazon.com/shop/derm.talk); recurring disclosed paid brand partnerships (Shiseido, SkinCeutic
   posted: ''
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: no English transcript available
 - id: Cf0wItXKXgA
   title: Why Your Eye Cream Isn’t Fixing Your Dark Circles | Dermatologist Explains
   creator: Dr. Jenny Liu (Jenny Liu, MD, FAAD)
@@ -2797,7 +2798,8 @@
   conflict: ShopMy affiliate storefront linked in nearly every video ('My Holy Grail Products'); own hair-care brand Kerativ Hair (she is Founder/CEO);
   posted: ''
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: brand event vlog (Chanel/AAD) + affiliate, not single-topic educational
 - id: BRBo_vhkMXw
   title: How to Get Fuller, Thicker-Looking Hair | Dermatologist Tips
   creator: Dr. Joyce Park (Tea with MD)
@@ -2980,7 +2982,8 @@
   conflict: Active paid spokesperson for RoC Skincare (on-air brand deal w/ discount code) + Cetaphil-sponsored content + 'all' detergent partnership; a
   posted: ''
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: sponsored (#larocheposaypartner)
 - id: _-C5MIVPmI4
   title: 'Glass Hair Routine — From A Derm | #shorts #skincare |'
   creator: Dr. Lindsey Zubritsky (DermGuru)
@@ -3136,7 +3139,8 @@
   conflict: Runs extensive Amazon Associates and ShopMy affiliate storefronts, monetizing nearly every product mentioned across videos
   posted: ''
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: Amazon Prime Day affiliate haul
 - id: w2LaZuj59S0
   title: $10 vs. $185 Vitamin C Serum | Can It Replace SkinCeuticals CE Ferulic?
   creator: Dr. Maren Locke (The Budget Dermatologist)
@@ -3437,7 +3441,8 @@
   conflict: Runs a "Shop my Favorites" affiliate storefront (linktr.ee/dermatologysurgeon) that monetizes her product picks; no own-brand prod
   posted: ''
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: shaving-hacks stitch short + affiliate storefront
 - id: kZFZ-EDOMXo
   title: 'skincare cheat sheet from a derm! #skincare'
   creator: Dr. Neera Nathan
@@ -3633,7 +3638,8 @@
   conflict: founder of the Prequel skincare brand - skip videos mainly promoting her own products
   posted: ''
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: multi-product anti-recommendation roundup + own-brand (Prequel)
 - id: BLXQNvc-vBU
   title: What I Eat, How I Train + the Only 2 Supplements I Take | Aging Well
   creator: Dr. Sam Ellis
@@ -3685,7 +3691,8 @@
   conflict: null
   posted: ''
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: '''disney rash'' hashtag clip, no matching site page'
 - id: '7684680581380132127'
   title: 🖇️ Comment PRODUCTS for all of my derm-approved skincare, beauty, and...
   creator: Dr. Sheila Farhang (dr.sheila_derm)
@@ -3816,7 +3823,8 @@
   conflict: Runs an own-brand practice storefront (Derm Rejuvenation Institute, Shopify); treat specific product picks as commercially incentivized.
   posted: ''
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: off-topic menopause/sexual health + own-brand storefront
 - id: TZhvwf1dzrM
   title: Menopause Essentials – The Real Reason Your Skin Is Aging Faster with Dr. Tanya Kormeili
   creator: Tanya Kormeili, MD, FAAD
