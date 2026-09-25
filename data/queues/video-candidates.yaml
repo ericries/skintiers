@@ -1134,7 +1134,8 @@
   conflict: non-credentialed educator - educational content only, never treat picks as endorsements, never use sponsored videos
   posted: ''
   feed_rank: 2
-  status: pending
+  status: skipped
+  skip_reason: 'red-light/LED panel topic: no LED or light-therapy page on site'
 - id: 7a_ZLoHvC-A
   title: Why Your Body Shape Will Never Be Good Enough
   creator: Cassandra Bankson
@@ -1226,7 +1227,8 @@
   conflict: Chief Medical Officer of hair-growth-serum brand REYUS; advisory-board member of Bubble Skincare; periodic disclosed paid brand partnerships
   posted: ''
   feed_rank: 2
-  status: pending
+  status: skipped
+  skip_reason: vague multi-item roundup (Six Skincare Upgrades), not single-topic
 - id: Y5nP7bndCvE
   title: Salmon DNA Skincare - A Dermatologist Reviews PDRN
   creator: Dr. Daniel Sugai
@@ -1370,7 +1372,8 @@
   conflict: null
   posted: ''
   feed_rank: 2
-  status: pending
+  status: skipped
+  skip_reason: 'SkinCeuticals RGN-6 / post-laser: no matching product or laser page on site'
 - id: Dfz2P8hey4Q
   title: 'Red Light Therapy: An Adjunct to Minoxidil | Dr Davin Lim'
   creator: Dr. Davin Lim
@@ -1423,7 +1426,8 @@
   conflict: Muneeb Shah runs own skincare brand (Remedy Science) and Scriptable Rx venture featured on the channel
   posted: ''
   feed_rank: 2
-  status: pending
+  status: skipped
+  skip_reason: vague budget roundup + own-brand (Remedy Science) channel context, not single-topic
 - id: SAoCUNyE18Y
   title: We Put Dermatology Residents to the Test for $60,000 | Introducing Doctorly Games
   creator: Doctorly
@@ -1646,7 +1650,8 @@
   conflict: Maintains a Nykaa curated affiliate storefront; treat specific product picks as commercially incentivized (educational/mechanism content is fine).
   posted: ''
   feed_rank: 2
-  status: pending
+  status: skipped
+  skip_reason: off-topic (alcohol addiction), no skincare page
 - id: WvP9ZglTp5k
   title: Simple & effective Anti Aging routine | Best serums, moisturisers, sunscreens
   creator: Dr. Aanchal MD
@@ -1802,7 +1807,8 @@
   conflict: Advises Korean skincare brands entering the US market on clinical communication (consulting relationship, disclosed on her site); reviewed content was cross-brand and unsponsored. Scan each video at ingest.
   posted: ''
   feed_rank: 2
-  status: pending
+  status: skipped
+  skip_reason: dollar-store dupes roundup, not single-topic
 - id: XqN1XHK0Stc
   title: 'Dermatologist: Your Microneedles Are Gross. Here’s How to Clean Them.'
   creator: Dr. Sarah Sheu
@@ -1881,7 +1887,8 @@
   conflict: null
   posted: ''
   feed_rank: 2
-  status: pending
+  status: skipped
+  skip_reason: sponsored (Clarins Double Serum Eye paid partnership mid-video)
 - id: '7684261559320792333'
   title: Turns out the secret to aging naturally isn't doing nothing, it's sta...
   creator: Fatima Fahs
@@ -2000,7 +2007,8 @@
   conflict: does sponsorships - educational content only, never treat picks as endorsements, never use sponsored videos
   posted: ''
   feed_rank: 2
-  status: pending
+  status: skipped
+  skip_reason: MED creator (does sponsorships, product_recs none) peptide-formulas picks roundup, not eligible (educational-only)
 - id: SC8RmzGXVGQ
   title: My Shibui J-Beauty Morning Ritual with Shiseido All-Time Faves
   creator: Gothamista
