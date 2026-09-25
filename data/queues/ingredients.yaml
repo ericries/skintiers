@@ -1638,3 +1638,11 @@
   status: pending
   discovered_from: null
   source: https://incidecoder.com/ingredients/olea-europaea-fruit-oil
+- name: Ethylhexyl palmitate, lightweight emollient ester widely used as the cleansing
+    oil base in cleansing balms and as an emollient/solvent; cosmetic, no active skin
+    benefit
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://incidecoder.com/ingredients/ethylhexyl-palmitate

@@ -10931,3 +10931,8 @@ dhc-deep-cleansing-oil:
   score: 9
   verdict: revise-then-fixed
   note: 'Opus critic verified price ($31.50/200ml, SKU 300) + brand claim vs dhccare.com cache (eaa71f7c79fcd184, verbatim) and full 8-ingredient INCI vs incidecoder (olive oil 1st, sorbeth-30 emulsifier 3rd). Verdict revise (all Important, no Critical): (1) fixed ''Leaves''->''leaving'' misquote; (2) made ''solid'' evidence reasoning explicit (basic oil-dissolves-oil mechanism + single small study, consistent w/ INKEY balm); (3) replaced uncited ''many people'' generalization with the double-cleanse routine description. Removal grounded in double-cleansing/Chen 2020; 1-step/no-residue claims quarantined.'
+banila-co-clean-it-zero-cleansing-balm-original:
+  last_reviewed: '2026-09-25'
+  score: 9
+  verdict: revise-then-fixed
+  note: 'Opus critic verified price ($21/100ml; $8 correctly ID''d as 25ml mini) + all brand-marketing quotes + full 21-ingredient INCI (fragrance 11th, acerola ''vitamin C'' 18th) byte-for-byte vs banilausa.com cache (07e8c5bd7582964a). Grading consistent w/ INKEY/DHC sibling cleansing pages (Chen 2020, single-study caveat explicit). Verdict revise: restored dropped ''skin'' in the Zero Balance quote, dropped uncited ''viral'' from the opening neutral sentence, moved ''a'' outside a spliced quote for verbatim fidelity. Fragrance + trace-acerola-vitamin-C flagged. 2 photos.'
