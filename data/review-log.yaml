@@ -10956,3 +10956,8 @@ paulas-choice-skin-perfecting-8-aha-gel-exfoliant:
   score: 9
   verdict: revise-then-fixed
   note: 'Opus critic verified INCI verbatim (15, glycolic 2nd) + price/quotes vs Dermstore cache (b9da415c). KEY FIX: downgraded evidence solid->mixed to match linked glycolic-acid page''s own graded verdict (modest/mixed; Stiller RCT + weak tone evidence); tempered ''even tone'' throughout; removed [^dermstore] misattributed to ''best-studied AHAs'' science claim; fixed misquote ''Reveals''->''revealing''; removed reader-instructions (''Choose''/''pick it''); dropped untraceable ''(100 mL)'' (cache says 3.3 fl oz only). $34 RRP used, sold-out $17 sale excluded.'
+pseudofolliculitis-barbae:
+  last_reviewed: '2026-09-25'
+  score: 9
+  verdict: revise-then-fixed
+  note: 'Opus critic verified both Dalia 2023 + Nussbaum 2019 quotes verbatim vs efetch. Verdict revise on grading: downgraded 3 keratolytic tiers good(''Strong'')->mid(''Moderate'') since abstracts support only a class-level ''keratolytics are the mainstay'' claim, not per-active RCT grades; by/caption frame them as comparably-evidenced mainstays with per-active evidence on the linked pages. Also removed uncited ''not shaving resolves it'', uncited folliculitis-mechanism aside, and boilerplate disclaimer. Laser framed as ''potential/emerging'' per source.'

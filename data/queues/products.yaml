@@ -2629,3 +2629,11 @@
   status: pending
   discovered_from: null
   source: null
+- name: 'Tend Skin The Skin Care Solution (classic post-shave liquid for razor bumps
+    and ingrown hairs, aspirin/isopropyl-alcohol based; grounded on the pseudofolliculitis-barbae
+    hub; source: incidecoder + brand page)'
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null

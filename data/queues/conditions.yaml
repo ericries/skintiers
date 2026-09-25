@@ -255,3 +255,10 @@
   status: pending
   discovered_from: null
   source: null
+- name: 'Ingrown hairs (hairs curling back into the skin; overlaps with but distinct
+    from pseudofolliculitis barbae; source: PFB treatment reviews)'
+  type: condition
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null

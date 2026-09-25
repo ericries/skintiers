@@ -122,3 +122,11 @@
   status: done
   discovered_from: null
   source: https://www.dermstore.com/p/paula-s-choice-skin-perfecting-2-bha-liquid-exfoliant-118ml/11174178/
+- name: 'Laser hair removal for razor bumps and unwanted hair (the emerging long-term
+    option for pseudofolliculitis barbae per Dalia 2023; reduces the hair that causes
+    the problem; source: Dalia 2023 Clin Exp Dermatol PMID 36840647)'
+  type: goal
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null
