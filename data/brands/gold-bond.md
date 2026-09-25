@@ -4,7 +4,7 @@ name: Gold Bond
 slug: gold-bond
 status: published
 type: brand
-updated: '2026-08-12'
+updated: '2026-09-25'
 ---
 
 Gold Bond is a US drugstore body-care brand whose lotions and creams are marketed for dry, rough, and bumpy skin.[^gb] It sits in the same affordable body-exfoliant and moisturizer aisle as [[cerave]] and [[eucerin]].
@@ -12,6 +12,8 @@ Gold Bond is a US drugstore body-care brand whose lotions and creams are markete
 Products profiled here so far:
 
 - [[gold-bond-rough-and-bumpy-daily-skin-therapy]]: its keratosis-pilaris-marketed three-acid (salicylic + gluconolactone + ammonium lactate) exfoliating body cream, one of the graded options on [[keratosis-pilaris]].
+- [[gold-bond-age-renew-retinol-overnight-body-lotion]]: a drugstore overnight body and face lotion built around stabilized [[retinoids|retinol]].
+- [[gold-bond-healing-hand-cream]]: a fragrance-containing occlusive-and-humectant hand cream.
 
 ## Sources
 
