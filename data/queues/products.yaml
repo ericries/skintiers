@@ -2556,7 +2556,7 @@
     the AHA sibling of the 2% BHA)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://incidecoder.com/products/paula-s-choice-skin-perfecting-8-aha-gel-exfoliant
 - name: "The Ordinary Niacinamide 10% + Zinc 1% (very cheap oily-skin/sebum serum)\
@@ -2608,6 +2608,22 @@
 - name: 'Farmacy Green Clean Makeup Removing Cleansing Balm (papaya/oil-to-milk cleansing
     balm; first-cleanse category; belongs on best-cleansing-balms-oil-cleansers; source:
     incidecoder + Farmacy brand page)'
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null
+- name: 'The Ordinary Glycolic Acid 7% Exfoliating Toning Solution (budget glycolic
+    acid leave-on toner, a direct AHA competitor to Paula''s Choice 8% AHA Gel; source:
+    incidecoder + The Ordinary brand page)'
+  type: product
+  priority: 5
+  status: done
+  discovered_from: null
+  source: null
+- name: 'Paula''s Choice Skin Perfecting 25% AHA + 2% BHA Exfoliant Peel (higher-strength
+    at-home glycolic/salicylic peel, the step-up from the 8% AHA gel; source: incidecoder
+    + Paula''s Choice brand page)'
   type: product
   priority: 5
   status: pending

@@ -221,3 +221,11 @@
   status: done
   discovered_from: null
   source: https://data/goals/double-cleansing.md
+- name: 'Best AHA exfoliants (glycolic and lactic acid) by evidence: leave-on acids
+    for texture, tone, and photoaging; would host Paula''s Choice 8% AHA Gel + The
+    Ordinary glycolic/lactic; links glycolic-acid + lactic-acid'
+  type: list
+  priority: 5
+  status: done
+  discovered_from: null
+  source: null

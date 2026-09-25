@@ -10951,3 +10951,8 @@ best-cleansing-balms-oil-cleansers:
   score: 8
   verdict: publish
   note: Curatorial list over 3 already-verified on-site products (INKEY oat balm $17/150mL, DHC oil $31.50/200mL, Banila Clean It Zero $21/100mL). Removal evidence linked out to double-cleansing (Chen 2020), not re-argued; ranked on fragrance/format/price since no product-specific trial separates them (honest class-level framing). Prices spot-checked vs product-page frontmatter. Own-check (lists have no Opus critic); lint/verify/style clean.
+paulas-choice-skin-perfecting-8-aha-gel-exfoliant:
+  last_reviewed: '2026-09-25'
+  score: 9
+  verdict: revise-then-fixed
+  note: 'Opus critic verified INCI verbatim (15, glycolic 2nd) + price/quotes vs Dermstore cache (b9da415c). KEY FIX: downgraded evidence solid->mixed to match linked glycolic-acid page''s own graded verdict (modest/mixed; Stiller RCT + weak tone evidence); tempered ''even tone'' throughout; removed [^dermstore] misattributed to ''best-studied AHAs'' science claim; fixed misquote ''Reveals''->''revealing''; removed reader-instructions (''Choose''/''pick it''); dropped untraceable ''(100 mL)'' (cache says 3.3 fl oz only). $34 RRP used, sold-out $17 sale excluded.'
