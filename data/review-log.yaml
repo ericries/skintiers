@@ -10921,3 +10921,8 @@ onychomycosis:
   score: 9
   verdict: revise-then-fixed
   note: 'Opus critic verified every stat verbatim vs Kreijkamp-Kaspers 2017 (PMID 28707751): 48 studies/10200, terbinafine RR 6.00 vs placebo, azoles RR 22.18, terbinafine-vs-azoles head-to-head RR 0.82 (probably more effective); + Crawford 2007 ciclopirox ''poor cure rates'' verbatim. Tier ranking correctly uses the head-to-head, not the misleading placebo RRs. Verdict revise: fixed one spliced quote in The Evidence (made ''traditionally topical treatments...'' verbatim) + softened subungual attribution to the study population + ''histological examination of a nail clipping''. No fabrication.'
+blackheads-comedones-congestion:
+  last_reviewed: '2026-09-24'
+  score: 9
+  verdict: revise-then-fixed
+  note: 'Opus critic verified vs Reynolds 2024 AAD acne guideline (PMID 38300170): strong-rec quote (BPO/retinoids/topical abx/doxycycline) verbatim; tier grades map to guideline strong/conditional split; BPO per-goal downgrade to moderate explicitly reasoned; skeptical claims (dirt myth, sebaceous filaments, pore strips, detox masks) all accurate; comedone definitions correct; no fabricated stats. Verdict revise: fixed one non-verbatim conditional-rec footnote quote (restored ''as well as for oral minocycline, sarecycline...'' + dropped stray bracket). Now verbatim.'
