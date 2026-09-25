@@ -2549,7 +2549,7 @@
     base plus broad-spectrum SPF 30)'
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://incidecoder.com/products/la-roche-posay-toleriane-double-repair-uv-spf-30
 - name: Paula's Choice Skin Perfecting 8% AHA Gel Exfoliant (glycolic acid leave-on,
@@ -2573,3 +2573,19 @@
   status: pending
   discovered_from: null
   source: https://banilausa.com/collections/clean-it-zero
+- name: 'CeraVe AM Facial Moisturizing Lotion SPF 30 (the archetypal ceramide + niacinamide
+    daily facial moisturizer with a chemical broad-spectrum SPF 30; direct competitor
+    to LRP Toleriane Double Repair UV; source: incidecoder + CeraVe brand page)'
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null
+- name: 'EltaMD UV Clear Broad-Spectrum SPF 46 (widely dermatologist-recommended facial
+    sunscreen with niacinamide; zinc-oxide-based; a mineral-hybrid alternative to
+    LRP Toleriane Double Repair UV SPF 30; source: incidecoder + EltaMD brand page)'
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null

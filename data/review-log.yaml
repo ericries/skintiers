@@ -10936,3 +10936,8 @@ banila-co-clean-it-zero-cleansing-balm-original:
   score: 9
   verdict: revise-then-fixed
   note: 'Opus critic verified price ($21/100ml; $8 correctly ID''d as 25ml mini) + all brand-marketing quotes + full 21-ingredient INCI (fragrance 11th, acerola ''vitamin C'' 18th) byte-for-byte vs banilausa.com cache (07e8c5bd7582964a). Grading consistent w/ INKEY/DHC sibling cleansing pages (Chen 2020, single-study caveat explicit). Verdict revise: restored dropped ''skin'' in the Zero Balance quote, dropped uncited ''viral'' from the opening neutral sentence, moved ''a'' outside a spliced quote for verbatim fidelity. Fragrance + trace-acerola-vitamin-C flagged. 2 photos.'
+la-roche-posay-toleriane-double-repair-uv-spf-30:
+  last_reviewed: '2026-09-25'
+  score: 9
+  verdict: revise-then-fixed
+  note: 'Opus critic verified actives %/full INCI verbatim vs incidecoder and price/claims vs cache (cc15428ac4f066b2). Verdict revise: (1) de-quoted ''broad spectrum SPF 30'' (not verbatim in source); (2) re-sourced price to sibling''s prose ## Sources pattern (manufacturer listing, cache-backed, no bare-homepage footnote); (3) added UVA/older-US-filter honesty clause (avobenzone stabilized by octocrylene, narrower than Tinosorb/Mexoryl abroad) per sunscreen house rule; (4) removed editorial ''sensible pick''/''strong option''; (5) attributed reapplication to sunscreen-uv-filters; (6) filled key_actives. Evidence linked out, not re-argued.'
