@@ -1131,3 +1131,17 @@
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/42054473/
+- name: Krebs 2026 Large-scale meta-analysis of infection risk with JAK-STAT inhibitors
+    in 29,000 patients (PMID 42187316)
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://pubmed.ncbi.nlm.nih.gov/42187316/
+- name: Gupta 2026 Deep and disseminated dermatophytosis in immunocompromised populations-A
+    systematic review (PMID 41104791)
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://pubmed.ncbi.nlm.nih.gov/41104791/
