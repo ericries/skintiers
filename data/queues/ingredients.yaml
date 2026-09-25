@@ -1646,3 +1646,11 @@
   status: pending
   discovered_from: null
   source: https://incidecoder.com/ingredients/ethylhexyl-palmitate
+- name: 'Dupilumab (injectable anti-IL-4Ra monoclonal antibody biologic; approved
+    for atopic dermatitis and prurigo nodularis; prescription systemic treatment,
+    not topical; source: Kim 2026 LIBERTY-PN PMID 41219577)'
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null

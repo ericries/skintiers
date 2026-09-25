@@ -10941,3 +10941,8 @@ la-roche-posay-toleriane-double-repair-uv-spf-30:
   score: 9
   verdict: revise-then-fixed
   note: 'Opus critic verified actives %/full INCI verbatim vs incidecoder and price/claims vs cache (cc15428ac4f066b2). Verdict revise: (1) de-quoted ''broad spectrum SPF 30'' (not verbatim in source); (2) re-sourced price to sibling''s prose ## Sources pattern (manufacturer listing, cache-backed, no bare-homepage footnote); (3) added UVA/older-US-filter honesty clause (avobenzone stabilized by octocrylene, narrower than Tinosorb/Mexoryl abroad) per sunscreen house rule; (4) removed editorial ''sensible pick''/''strong option''; (5) attributed reapplication to sunscreen-uv-filters; (6) filled key_actives. Evidence linked out, not re-argued.'
+kim-2026-dupilumab-prurigo-nodularis-atopic-subgroup:
+  last_reviewed: '2026-09-25'
+  score: 10
+  verdict: publish
+  note: 'Opus critic verified all statistics + quotes verbatim vs NCBI efetch (PMID 41219577): n=311 (153/158, atopic-split 67/86 and 68/90); itch 58.2/20.6 & 59.3/17.8; clear-skin 52.2/16.2 & 41.9/17.8; concomitant 37.3/7.4 & 33.7/10.0; all P-values exact; citation Am J Clin Dermatol 2026;27(1):167-180 correct. Effect-size ''38-42 pp'' arithmetically accurate, not overclaimed. Subgroup-not-powered + Sanofi/Regeneron funding + 24wk caveats fair; dupilumab framed as injectable Rx biologic. Verdict publish; applied quote-ellipsis polish.'

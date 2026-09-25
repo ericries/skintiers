@@ -609,7 +609,7 @@
     with or Without Atopic C (PMID 41219577)
   type: study
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41219577/
 - name: "Gooderham 2026 Efficacy of up to 4\u2009years of tralokinumab in adults with\
