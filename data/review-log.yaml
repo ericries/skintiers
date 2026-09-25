@@ -10946,3 +10946,8 @@ kim-2026-dupilumab-prurigo-nodularis-atopic-subgroup:
   score: 10
   verdict: publish
   note: 'Opus critic verified all statistics + quotes verbatim vs NCBI efetch (PMID 41219577): n=311 (153/158, atopic-split 67/86 and 68/90); itch 58.2/20.6 & 59.3/17.8; clear-skin 52.2/16.2 & 41.9/17.8; concomitant 37.3/7.4 & 33.7/10.0; all P-values exact; citation Am J Clin Dermatol 2026;27(1):167-180 correct. Effect-size ''38-42 pp'' arithmetically accurate, not overclaimed. Subgroup-not-powered + Sanofi/Regeneron funding + 24wk caveats fair; dupilumab framed as injectable Rx biologic. Verdict publish; applied quote-ellipsis polish.'
+best-cleansing-balms-oil-cleansers:
+  last_reviewed: '2026-09-25'
+  score: 8
+  verdict: publish
+  note: Curatorial list over 3 already-verified on-site products (INKEY oat balm $17/150mL, DHC oil $31.50/200mL, Banila Clean It Zero $21/100mL). Removal evidence linked out to double-cleansing (Chen 2020), not re-argued; ranked on fragrance/format/price since no product-specific trial separates them (honest class-level framing). Prices spot-checked vs product-page frontmatter. Own-check (lists have no Opus critic); lint/verify/style clean.

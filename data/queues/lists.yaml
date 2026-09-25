@@ -218,6 +218,6 @@
     double-cleansing + the balm/oil products on-site'
   type: list
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://data/goals/double-cleansing.md

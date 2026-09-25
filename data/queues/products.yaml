@@ -2589,3 +2589,27 @@
   status: pending
   discovered_from: null
   source: null
+- name: 'Clinique Take The Day Off Cleansing Balm (fragrance-free oil-to-milk cleansing
+    balm, a widely recommended first-cleanse balm; belongs on best-cleansing-balms-oil-cleansers;
+    source: incidecoder + Clinique brand page)'
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null
+- name: 'Heimish All Clean Balm (popular K-beauty sherbet cleansing balm for the first
+    cleanse; belongs on best-cleansing-balms-oil-cleansers; source: incidecoder +
+    brand page)'
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null
+- name: 'Farmacy Green Clean Makeup Removing Cleansing Balm (papaya/oil-to-milk cleansing
+    balm; first-cleanse category; belongs on best-cleansing-balms-oil-cleansers; source:
+    incidecoder + Farmacy brand page)'
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null
