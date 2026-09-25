@@ -841,7 +841,8 @@
   conflict: Founder of own-brand tween/teen skincare line BTWN (meetbtwn.com), which she actively promotes on all three platforms; also co-hos
   posted: ''
   feed_rank: 2
-  status: pending
+  status: skipped
+  skip_reason: own-brand (BTWN) promo + vague product-rating vlog, not single-topic
 - id: _ni8fV6a2hQ
   title: 'Would one of these be a horror story for you? #skincaretrends'
   creator: Dr. Brooke Jeffy (Brooke Jeffy, MD)
@@ -947,7 +948,8 @@
   conflict: Founder of own-brand skincare line (Skin Rocks); recent upload mix is dominated by PR-gifted product unboxings and empties (haul-adjacent fo
   posted: ''
   feed_rank: 2
-  status: pending
+  status: skipped
+  skip_reason: PR-gifted unboxing haul, not single-topic educational
 - id: 2AmMB_Q4AhI
   title: May Empties | Caroline Hirons
   creator: Caroline Hirons
@@ -1077,7 +1079,8 @@
   conflict: Affiliate storefront (shopmy.us collections linked in nearly every video description) plus her own practice's e-commerce "Tone Sho
   posted: ''
   feed_rank: 2
-  status: pending
+  status: skipped
+  skip_reason: no genuine transcript (only 16 words of on-screen overlay pointing to affiliate list)
 - id: W9ITdf6VgkY
   title: Why You Always Look Tired
   creator: Dr. Caroline Robinson
@@ -7181,7 +7184,8 @@
   conflict: null
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: invalid/placeholder video id (Airtable rec-* not a YouTube id); no transcript
 - id: EW-y5o-WNzs
   title: 'Your barrier SUPER BOOSTED! #CeraVePartner #skincare #dermatologist #dermangelo @CeraVe  @Target'
   creator: Dr. Angelo Landriscina (DermAngelo)
@@ -7246,7 +7250,8 @@
   conflict: Maintains a Nykaa curated affiliate storefront; treat specific product picks as commercially incentivized (educational/mechanism content is fine).
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: off-topic (parenting/child mental health), no skincare page
 - id: TSZiOy9Q2jk
   title: Must know about skin!
   creator: Dr. Aanchal MD
@@ -7272,7 +7277,8 @@
   conflict: null
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: no transcript; Reedle Shot spicule product has no matching page
 - id: '7689084565352172813'
   title: If you fell victim to one of those neck wrap contraptions promising t...
   creator: Fatima Fahs
@@ -7324,7 +7330,8 @@
   conflict: Runs an Amazon affiliate storefront (amazon.com/shop/derm.talk); recurring disclosed paid brand partnerships (Shiseido, SkinCeutic
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: vague multi-brand C-beauty roundup, not single-topic + affiliate/paid-partnership conflict
 - id: eWUckmDHxMk
   title: 'Derm Reacts: Is Sleeping With Wet Hair Bad for Your Scalp?'
   creator: Dr. Joyce Park (Tea with MD)
@@ -7389,7 +7396,8 @@
   conflict: has an own-brand line (Dr Sam's) - skip own-brand promos
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: own-brand promo (Dr Sam's FLAWLESS launch)
 - id: '7689272709083090206'
   title: 🖇️ Comment DPP to watch this episode of Dr. Pimple Popper Dr. Sandra ...
   creator: Dr. Sheila Farhang (dr.sheila_derm)
