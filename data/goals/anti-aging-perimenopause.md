@@ -40,6 +40,16 @@ videos:
   related: [retinoids, sunscreen-uv-filters, ascorbic-acid-vitamin-c, anti-aging, neck-chest-decolletage-care]
   thesis: 'Board-certified dermatologist Dr. Dustin Portela, in conversation with dermatologist Dr. Mary Alice Mina, explains how perimenopause and menopause change the skin as falling estrogen drives a sharp loss of collagen and new skin laxity; they cite losing up to about 30 percent of skin collagen in the roughly five years around menopause, versus about 1 percent a year after age 30. Their practical takeaway is that the highest-value routine stays simple: daily sun protection first, then a retinol or prescription retinoid to support collagen, and an antioxidant such as vitamin C, with more expensive add-ons giving diminishing returns. They also stress that sleep, diet, and stress management meaningfully affect how skin ages.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: 'Menopause and why skin ages faster: the estrogen-collagen connection'
+  creator: Tanya Kormeili, MD
+  creator_slug: tanya-kormeili-md
+  credential: Board-certified dermatologist (FAAD), Clinical Professor of Dermatology, UCLA
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=TZhvwf1dzrM
+  posted: '2025-11-14'
+  related: [anti-aging, retinoids, peptides]
+  thesis: 'Board-certified dermatologist Dr. Tanya Kormeili explains why skin ages faster around perimenopause and menopause: the decline in estrogen removes a key stimulus for the skin to make collagen and elastin, so skin becomes thinner, more wrinkled, and less firm. She frames collagen as something you can keep building rather than only lose, through daily sun protection and, working with a dermatologist, collagen-stimulating options such as retinoids, peptides, lasers, and biostimulatory procedures.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
