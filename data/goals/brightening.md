@@ -70,6 +70,18 @@ tier_list:
   title: Topical actives that even skin tone, by evidence
 type: goal
 updated: '2026-09-13'
+videos:
+- title: Why skin looks duller in fall, and how exfoliation helps
+  creator: Fatima Fahs
+  creator_slug: fatima-fahs
+  credential: Dermatologist (MD)
+  platform: TikTok
+  url: https://www.tiktok.com/@dermydoctor/video/7688708549794467086
+  posted: '2026-09-23'
+  related: [glycolic-acid, lactic-acid, salicylic-acid]
+  thesis: 'Dermatologist Dr. Fatima Fahs explains why skin often looks duller heading into fall: natural exfoliation and skin cell turnover slow down in cooler weather, so dead cells build up at the surface. She suggests adding a chemical exfoliant a few nights a week, used in the evening so skin has time to recover overnight, to keep cell turnover regular and leave skin looking smoother and brighter over the colder months.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 "Brightening" and "even skin tone" are marketing umbrella terms for more than one problem, and the problems need different fixes. Nothing on this page bleaches skin lighter than its own natural tone, and none of it works fast: the trials behind these actives typically run 8 to 12 weeks or longer, and none produce a lasting result without daily sun protection underneath.
