@@ -37,6 +37,16 @@ videos:
   related: []
   thesis: 'Board-certified dermatologist Dr. Chris Tomassian, a new dad with almost no time, shares a stripped-down routine: in the morning just splash water, apply an antioxidant like vitamin C serum, then a moisturizer-sunscreen combo, under a minute total. At night, cleanse for about 30 seconds, apply a retinol, retinal, or retinoid, then moisturize, under 90 seconds. He frames it as focusing on the ingredients with the biggest proven benefit and staying consistent rather than doing an elaborate routine'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: A dermatologist's most science-backed skincare routine (2026)
+  creator: Dr. Abigail Waldman (Dr. Abby)
+  creator_slug: abigail-waldman
+  credential: Board-certified dermatologist, Harvard Medical School
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=WyBkBpXrkKM
+  posted: '2026-05-22'
+  related: [double-cleansing, retinoids, sunscreen-uv-filters, vitamin-c, minimalist-routine, how-often-to-wash-your-face]
+  thesis: 'Harvard academic dermatologist Dr. Abigail Waldman lays out a step-by-step, science-backed skincare routine as a method rather than a product list. She walks through the order: a cleanser (with an optional oil or balm double cleanse for makeup or heavy oil), an optional exfoliating toner, serums grouped by job (an antioxidant like vitamin C in the morning, dark-spot correctors, peptides, and hydrating serums), moisturizer, and sunscreen in the morning, with retinoids and chemical exfoliants singled out as the two high-reward actives to introduce slowly and never overuse. Her core message is to understand when and why to use each product you already own rather than buying more.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
