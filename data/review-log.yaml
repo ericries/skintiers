@@ -10926,3 +10926,8 @@ blackheads-comedones-congestion:
   score: 9
   verdict: revise-then-fixed
   note: 'Opus critic verified vs Reynolds 2024 AAD acne guideline (PMID 38300170): strong-rec quote (BPO/retinoids/topical abx/doxycycline) verbatim; tier grades map to guideline strong/conditional split; BPO per-goal downgrade to moderate explicitly reasoned; skeptical claims (dirt myth, sebaceous filaments, pore strips, detox masks) all accurate; comedone definitions correct; no fabricated stats. Verdict revise: fixed one non-verbatim conditional-rec footnote quote (restored ''as well as for oral minocycline, sarecycline...'' + dropped stray bracket). Now verbatim.'
+dhc-deep-cleansing-oil:
+  last_reviewed: '2026-09-24'
+  score: 9
+  verdict: revise-then-fixed
+  note: 'Opus critic verified price ($31.50/200ml, SKU 300) + brand claim vs dhccare.com cache (eaa71f7c79fcd184, verbatim) and full 8-ingredient INCI vs incidecoder (olive oil 1st, sorbeth-30 emulsifier 3rd). Verdict revise (all Important, no Critical): (1) fixed ''Leaves''->''leaving'' misquote; (2) made ''solid'' evidence reasoning explicit (basic oil-dissolves-oil mechanism + single small study, consistent w/ INKEY balm); (3) replaced uncited ''many people'' generalization with the double-cleanse routine description. Removal grounded in double-cleansing/Chen 2020; 1-step/no-residue claims quarantined.'

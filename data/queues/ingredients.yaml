@@ -1623,3 +1623,18 @@
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/38300170/
+- name: Stearyl glycyrrhetinate (licorice-derived, glycyrrhetinic acid ester), a soothing/anti-inflammatory
+    cosmetic ingredient common in sensitive-skin and cleansing formulas
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://incidecoder.com/ingredients/stearyl-glycyrrhetinate
+- name: Olive oil (Olea europaea fruit oil), emollient plant oil used as the base
+    of cleansing oils and facial oils; oleic-acid-rich (can be comedogenic/barrier-disruptive
+    for some), minor direct skin benefit
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://incidecoder.com/ingredients/olea-europaea-fruit-oil
