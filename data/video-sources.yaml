@@ -233,7 +233,7 @@
   last_pulled: '2026-09-21'
 - name: Jen Novakovich (The Eco Well)
   creator_slug: jen-novakovich
-  backfill_cursor: 15
+  backfill_cursor: 30
   credential: Cosmetic scientist
   tier: HIGH
   channel: https://www.youtube.com/@TheEcoWell
