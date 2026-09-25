@@ -2205,7 +2205,8 @@
   conflict: has an own-brand line (Selfless) and does sponsorships - educational content only, never treat picks as endorsements, never use sponsored videos
   posted: ''
   feed_rank: 2
-  status: pending
+  status: skipped
+  skip_reason: MED creator (own-brand Selfless + sponsorships) vague K-beauty picks roundup, not eligible
 - id: bM0JmNqMFjM
   title: How You Can Quit Nicotine for Good (Vapes + Zyn)
   creator: Hyram (Skincare by Hyram)
@@ -2324,7 +2325,8 @@
   conflict: does sponsorships - educational content only, never treat picks as endorsements, never use sponsored videos
   posted: ''
   feed_rank: 2
-  status: pending
+  status: skipped
+  skip_reason: MED creator Neutrogena news commentary, not single-topic educational
 - id: SYjSeY0_quI
   title: The Best Anti-Ageing Skincare… Without the Anti-Ageing BS
   creator: James Welsh
@@ -2994,7 +2996,8 @@
   conflict: Active paid spokesperson for RoC Skincare (on-air brand deal w/ discount code) + Cetaphil-sponsored content + 'all' detergent partnership; a
   posted: ''
   feed_rank: 2
-  status: pending
+  status: skipped
+  skip_reason: Shorts, hair routine (not skin topic); heavy paid-spokesperson conflict
 - id: BcyikMvqPks
   title: 'How To Tell If Your Skin Needs A Boost — @CeraVe #CeraVePartner'
   creator: Dr. Lindsey Zubritsky (DermGuru)
@@ -3151,7 +3154,8 @@
   conflict: Runs extensive Amazon Associates and ShopMy affiliate storefronts, monetizing nearly every product mentioned across videos
   posted: ''
   feed_rank: 2
-  status: pending
+  status: skipped
+  skip_reason: affiliate-monetized product comparison (picks effectively paid)
 - id: QPyT7NbdHnA
   title: 'Red Light Therapy Q&A: Melasma, Skin Cancer, Tretinoin, Eye Safety & More'
   creator: Dr. Maren Locke (The Budget Dermatologist)
@@ -3399,7 +3403,8 @@
   conflict: runs an affiliate storefront - be cautious treating product picks as unbiased endorsements
   posted: ''
   feed_rank: 2
-  status: pending
+  status: skipped
+  skip_reason: news/vlog roundup (resolutions, devices, bans), not single-topic
 - id: 8lpUfKW4N5w
   title: Daylight Savings, Pamela Anderson Makeup-Free, CeraVe Hair Care & Buy Now Pay Later Plastic Surgery
   creator: Dr. Muneeb Shah (DermDoctor)
@@ -3453,7 +3458,8 @@
   conflict: Runs a "Shop my Favorites" affiliate storefront (linktr.ee/dermatologysurgeon) that monetizes her product picks; no own-brand prod
   posted: ''
   feed_rank: 2
-  status: pending
+  status: skipped
+  skip_reason: vague Shorts 'cheat sheet', not single-topic; affiliate storefront
 - id: jB1Db_LwnuY
   title: 'bad, good & great skincare for each skin concern #skincare'
   creator: Dr. Neera Nathan
@@ -3650,7 +3656,8 @@
   conflict: founder of the Prequel skincare brand - skip videos mainly promoting her own products
   posted: ''
   feed_rank: 2
-  status: pending
+  status: skipped
+  skip_reason: diet/supplements/fitness vlog, off-topic for topical skincare + own-brand
 - id: pafNVTgsy5A
   title: Korean Makeup I Can't Stop Talking About as a Dermatologist | Dr. Sam Ellis
   creator: Dr. Sam Ellis
