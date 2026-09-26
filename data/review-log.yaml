@@ -7554,3 +7554,8 @@ hydrocolloid:
   score: 9
   verdict: revise-then-fixed
   note: 'Opus critic verified every quote/stat vs PMID 16688374 (Chao 2006) + 40004874 (Nguyen 2025): exact match; tier weak honest (already floor). Single revise: page called Chao the ''only controlled acne trial'' but Nguyen''s own Table 1 lists a second (Kosmoski 2024, unpublished JAAD abstract). Fixed both instances to ''only peer-reviewed, published controlled acne trial'' + noted the unpublished abstract under existing [^nguyen].'
+hero-cosmetics:
+  last_reviewed: '2026-09-26'
+  score: 8
+  verdict: publish
+  note: Lean brand discovery aid. Identity + line-up + 'Empowering Acne Prone Skin' positioning from herocosmetics.us (cached 888459ae23abec30), attributed as brand's own. Founder omitted (not verified from a primary source this pass). Links [[hydrocolloid]]; Mighty Patch products queued. lint/verify/style clean.

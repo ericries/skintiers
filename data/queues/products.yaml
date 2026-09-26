@@ -2667,3 +2667,10 @@
   status: pending
   discovered_from: hydrocolloid
   source: https://incidecoder.com/products/starface-hydro-stars
+- name: Hero Cosmetics Superlight Sunscreen SPF 30 (facial sunscreen positioned for
+    acne-prone skin; Hero Cosmetics; grounds the hero-cosmetics brand page)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: hero-cosmetics
+  source: https://www.herocosmetics.us/
