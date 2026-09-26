@@ -7554,3 +7554,8 @@ gooderham-2026-tralokinumab-4-year-atopic-dermatitis:
   score: 10
   verdict: publish
   note: 'Opus profile-reviewer re-verified every statistic and all four verbatim quotes against PMID 41217071 (and funding/COI against full text PMC13109762): exact match. Framing correctly flags uncontrolled open-label extension, no comparator, responder-enriched subgroup. Verdict publish.'
+hydrocolloid:
+  last_reviewed: '2026-09-26'
+  score: 9
+  verdict: revise-then-fixed
+  note: 'Opus critic verified every quote/stat vs PMID 16688374 (Chao 2006) + 40004874 (Nguyen 2025): exact match; tier weak honest (already floor). Single revise: page called Chao the ''only controlled acne trial'' but Nguyen''s own Table 1 lists a second (Kosmoski 2024, unpublished JAAD abstract). Fixed both instances to ''only peer-reviewed, published controlled acne trial'' + noted the unpublished abstract under existing [^nguyen].'
