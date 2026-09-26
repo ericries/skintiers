@@ -2570,7 +2570,7 @@
     \ variant) \u2014 the oily/acne-prone version of the viral cleansing balm"
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://banilausa.com/collections/clean-it-zero
 - name: 'CeraVe AM Facial Moisturizing Lotion SPF 30 (the archetypal ceramide + niacinamide

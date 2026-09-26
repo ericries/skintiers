@@ -1654,3 +1654,19 @@
   status: pending
   discovered_from: null
   source: null
+- name: 'Tea tree oil (Melaleuca alternifolia) (essential oil with leave-on evidence
+    for mild-to-moderate acne; a key active in the Clean It Zero Tea-Tree EX balm
+    and common in oily-skin products; source: acne RCTs / Cochrane)'
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null
+- name: 'Gluconolactone (polyhydroxy acid / PHA; gentler exfoliant than AHAs, used
+    in oily/sensitive-skin products incl. the Clean It Zero Tea-Tree EX balm; source:
+    PHA literature)'
+  type: ingredient
+  priority: 5
+  status: done
+  discovered_from: null
+  source: null
