@@ -10976,3 +10976,8 @@ cerave-am-facial-moisturizing-lotion-spf-30:
   score: 9
   verdict: revise-then-fixed
   note: 'Opus critic REVISE (price rested on ambiguous now-404 Target SKU; marketing quotes mis-attributed; uncited value words). Fixed: dropped hard price for relative-below-Toleriane-UV claim, consolidated to one cached Target footnote quoting only Target-supported copy, removed Amazon-only quotes and ''sensible/inexpensive/strong-value'' wording, incidecoder kept as inline attribution not footnote. INCI/actives verbatim-correct.'
+gooderham-2026-tralokinumab-4-year-atopic-dermatitis:
+  last_reviewed: '2026-09-26'
+  score: 10
+  verdict: publish
+  note: 'Opus profile-reviewer re-verified every statistic and all four verbatim quotes against PMID 41217071 (and funding/COI against full text PMC13109762): exact match. Framing correctly flags uncontrolled open-label extension, no comparator, responder-enriched subgroup. Verdict publish.'

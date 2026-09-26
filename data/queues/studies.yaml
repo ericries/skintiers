@@ -616,7 +616,7 @@
     \ moderate-to-severe atopic dermati (PMID 41217071)"
   type: study
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41217071/
 - name: Sollitto 2025 A Systematic Review of Platelet-Rich Plasma Versus Platelet-Rich

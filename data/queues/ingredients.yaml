@@ -1678,3 +1678,19 @@
   status: pending
   discovered_from: null
   source: null
+- name: 'Tralokinumab (Adbry/Adtralza; anti-IL-13 injectable biologic for moderate-to-severe
+    atopic dermatitis; active page to anchor the AD hub and the Gooderham 2026 + related
+    studies; source: PMID 41217071)'
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: gooderham-2026-tralokinumab-4-year-atopic-dermatitis
+  source: https://pubmed.ncbi.nlm.nih.gov/41217071/
+- name: 'Dupilumab (Dupixent; anti-IL-4Ralpha injectable biologic for atopic dermatitis
+    and prurigo nodularis; active page to anchor the AD hub and the Kim 2026 subgroup
+    study; source: PMID 41219577)'
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: gooderham-2026-tralokinumab-4-year-atopic-dermatitis
+  source: https://pubmed.ncbi.nlm.nih.gov/41219577/
