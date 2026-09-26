@@ -2637,3 +2637,11 @@
   status: pending
   discovered_from: null
   source: null
+- name: 'Braun Silk-expert Pro 5 IPL (popular at-home intense-pulsed-light hair removal
+    device; the home-IPL category the laser-hair-removal hub flags as separate and
+    less-studied than in-office lasers; source: brand page + reputable reviews)'
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null

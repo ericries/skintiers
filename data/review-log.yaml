@@ -10961,3 +10961,8 @@ pseudofolliculitis-barbae:
   score: 9
   verdict: revise-then-fixed
   note: 'Opus critic verified both Dalia 2023 + Nussbaum 2019 quotes verbatim vs efetch. Verdict revise on grading: downgraded 3 keratolytic tiers good(''Strong'')->mid(''Moderate'') since abstracts support only a class-level ''keratolytics are the mainstay'' claim, not per-active RCT grades; by/caption frame them as comparably-evidenced mainstays with per-active evidence on the linked pages. Also removed uncited ''not shaving resolves it'', uncited folliculitis-mechanism aside, and boilerplate disclaimer. Laser framed as ''potential/emerging'' per source.'
+laser-hair-removal:
+  last_reviewed: '2026-09-25'
+  score: 9
+  verdict: revise-then-fixed
+  note: 'Opus critic verified all Cochrane (PMID 17054211) + Dalia (36840647) quotes verbatim; skeptical spine sound (~50% short-term alexandrite/diode, long-term not documented, no permanence overclaim). Verdict revise: removed 3 uncited claims exceeding the abstracts (device-by-skin-tone mechanism, ''over the longer run in practice'', home-IPL less-studied comparison) and softened ''the one option''->''the option''. Now every claim traces to a cited abstract.'
