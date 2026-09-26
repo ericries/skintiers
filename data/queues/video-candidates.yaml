@@ -1247,7 +1247,8 @@
   conflict: Chief Medical Officer of hair-growth-serum brand REYUS; advisory-board member of Bubble Skincare; periodic disclosed paid brand partnerships
   posted: ''
   feed_rank: 3
-  status: pending
+  status: skipped
+  skip_reason: no PDRN/polynucleotide page on site to embed on
 - id: VWgPj3cAZe0
   title: 12 Nail Changes You Shouldn’t Ignore | Dermatologist Explains
   creator: Dr. Daniel Sugai
@@ -1392,7 +1393,8 @@
   conflict: null
   posted: ''
   feed_rank: 3
-  status: pending
+  status: skipped
+  skip_reason: no red-light-therapy/minoxidil page; hair-loss focus
 - id: JkWqeKMQRIU
   title: How to Get Microneedling Benefits Without the Needles
   creator: Dr. Davin Lim
@@ -1446,7 +1448,8 @@
   conflict: Muneeb Shah runs own skincare brand (Remedy Science) and Scriptable Rx venture featured on the channel
   posted: ''
   feed_rank: 3
-  status: pending
+  status: skipped
+  skip_reason: Doctorly Games show promo, not education
 - id: 5tg1tBAL16Q
   title: Why Your Face Looks TIRED and How to Fix It | Dermatologists Explain
   creator: Doctorly
@@ -1670,7 +1673,8 @@
   conflict: Maintains a Nykaa curated affiliate storefront; treat specific product picks as commercially incentivized (educational/mechanism content is fine).
   posted: ''
   feed_rank: 3
-  status: pending
+  status: skipped
+  skip_reason: affiliate-storefront (Nykaa) picks/routine video; incentivized
 - id: RI3j1JUf9Lg
   title: Answering most googled hair loss questions | hair oil, shampoo, serum for hair loss
   creator: Dr. Aanchal MD
@@ -2027,7 +2031,8 @@
   conflict: does sponsorships - educational content only, never treat picks as endorsements, never use sponsored videos
   posted: ''
   feed_rank: 3
-  status: pending
+  status: skipped
+  skip_reason: MED-tier favorites + sponsorships; ineligible for picks
 - id: oqRBwiKAfDs
   title: My Heatwave Survival Must-Haves!
   creator: Gothamista
@@ -7537,7 +7542,8 @@
   conflict: Founder of own-brand skincare line (Skin Rocks); recent upload mix is dominated by PR-gifted product unboxings and empties (haul-adjacent fo
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: interview/chat (Sophie Ellis-Bextor), not single-topic skincare education
 - id: '7689708059354074382'
   title: 'Worlds is the way '
   creator: Dr. Chris Tomassian
@@ -7693,7 +7699,8 @@
   conflict: Runs a "Shop my Favorites" affiliate storefront (linktr.ee/dermatologysurgeon) that monetizes her product picks; no own-brand prod
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: affiliate-storefront picks video (Trader Joe's routine); picks effectively paid
 - id: gw9_YuvRU0k
   title: 'is minoxidil for life? @hairlossresearcher rbridgitte7 #hairgrowth'
   creator: Dr. Neera Nathan
