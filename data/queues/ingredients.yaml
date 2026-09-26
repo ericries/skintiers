@@ -1670,3 +1670,11 @@
   status: done
   discovered_from: null
   source: null
+- name: 'Menthyl anthranilate (Meradimate) (older US-approved UVA sunscreen filter,
+    used in CeraVe AM SPF 30; weaker/narrower UVA absorber than modern filters; source:
+    sunscreen filter references)'
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null

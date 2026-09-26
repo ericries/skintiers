@@ -10971,3 +10971,8 @@ banila-co-clean-it-zero-pore-clarifying-cleansing-balm:
   score: 9
   verdict: revise-then-fixed
   note: 'Opus critic verified price $22/100mL + brand claim verbatim vs cache (debd6e5), full 22-ingredient INCI verbatim vs incidecoder Tea-Tree EX page (tea tree 10th, fragrance 11th, capryloyl salicylic/salicylic acid/gluconolactone/4-terpineol confirmed). Identity resolved: Tea-Tree EX Pore Clarifying, not the different no-tea-tree ''Purifying'' page. Grade notable/solid consistent w/ Original (removal per double-cleansing). Verdict revise on voice: removed ''worse pick''/''do not expect''/''you massage''/''where to be skeptical'' (inform-don''t-instruct). Pore/sebum claims quarantined as rinse-off marketing.'
+cerave-am-facial-moisturizing-lotion-spf-30:
+  last_reviewed: '2026-09-26'
+  score: 9
+  verdict: revise-then-fixed
+  note: 'Opus critic REVISE (price rested on ambiguous now-404 Target SKU; marketing quotes mis-attributed; uncited value words). Fixed: dropped hard price for relative-below-Toleriane-UV claim, consolidated to one cached Target footnote quoting only Target-supported copy, removed Amazon-only quotes and ''sensible/inexpensive/strong-value'' wording, incidecoder kept as inline attribution not footnote. INCI/actives verbatim-correct.'
