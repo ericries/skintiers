@@ -38,7 +38,8 @@
   conflict: Founder of own-brand haircare line (Rhute); TikTok Shop affiliate/product storefront; recurring disclosed sponsored posts (No7, La Roche Pos
   posted: ''
   feed_rank: 3
-  status: pending
+  status: skipped
+  skip_reason: explicitly sponsored ('| ad |' in title, La Roche-Posay Effaclar)
 - id: VnBRUt21Gys
   title: Is Micellar Water Better Than Dry Shampoo For Greasy Hair?! Dermatologist explains | DrAdelTwins
   creator: Dr Aamna Adel
@@ -419,7 +420,8 @@
   conflict: null
   posted: ''
   feed_rank: 3
-  status: pending
+  status: skipped
+  skip_reason: multi-product roundup (7 products), not single-topic
 - id: 5sBZNh5mhMc
   title: 'The Best and Worst of Neutrogena: A Dermatologist''s Honest Take'
   creator: Dr. Aleksandra Brown, DO, FAAD
@@ -565,7 +567,8 @@
   conflict: Recurring paid partnerships (Dermatica affiliate code "DRALEXIS" on multiple videos, La Roche-Posay branded partner content, SkinBetter Scie
   posted: ''
   feed_rank: 3
-  status: pending
+  status: skipped
+  skip_reason: microneedling (no on-site page) + affiliate-code conflict
 - id: 1bE6rhP2uXs
   title: Dermatologist's Favorite Facial Skincare Products of 2023| Hyperpigmentation and Antiaging Edition
   creator: Dr. Alexis Stephens
@@ -697,7 +700,8 @@
   conflict: null
   posted: ''
   feed_rank: 3
-  status: pending
+  status: skipped
+  skip_reason: dollar-store product roundup, not single-topic
 - id: b2A1t1VBk84
   title: Can Your Diet Make Your Skin Age Faster? A Dermatologist Explains
   creator: Andrea Suarez (Dr Dray)
@@ -855,7 +859,8 @@
   conflict: Founder of own-brand tween/teen skincare line BTWN (meetbtwn.com), which she actively promotes on all three platforms; also co-hos
   posted: ''
   feed_rank: 3
-  status: pending
+  status: skipped
+  skip_reason: vague skincare-trends clip + own-brand (BTWN), not single-topic
 - id: -XXStBcUKWU
   title: No From Me
   creator: Dr. Brooke Jeffy (Brooke Jeffy, MD)
@@ -1148,7 +1153,8 @@
   conflict: non-credentialed educator - educational content only, never treat picks as endorsements, never use sponsored videos
   posted: ''
   feed_rank: 3
-  status: pending
+  status: skipped
+  skip_reason: off-topic (body image), no skincare page
 - id: cId2-n9MMzY
   title: 'Guess The Price Challenge + NEW KITTENS: Amazon Prime Day BEST & WORST Skincare / Wellness Deals'
   creator: Cassandra Bankson
@@ -5525,7 +5531,8 @@
   conflict: null
   posted: ''
   feed_rank: 2
-  status: pending
+  status: skipped
+  skip_reason: no English transcript available (too new for captions)
 - id: obS-wrpLXWI
   title: 'Forever young facial #dermreacts  #skincare  #dermatologist #dermangelo'
   creator: Dr. Angelo Landriscina (DermAngelo)
@@ -6384,7 +6391,8 @@
   conflict: Own-brand skincare line BeautyRx by Dr. Schultz (beautyrx.com); treat product picks as commercially incentivized. Channel largely inactive since ~2014, useful mainly for evergreen back-catalog (backfill).
   posted: ''
   feed_rank: 2
-  status: pending
+  status: skipped
+  skip_reason: no genuine transcript (10-word fragment)
 - id: k8BOSOFsSqk
   title: 'What Causes Acne Scars [DermTV.com Epi #563]'
   creator: Dr. Neal Schultz (DermTV)
