@@ -13,16 +13,17 @@ tier_list:
   - cetaphil-gentle-skin-cleanser
   - la-roche-posay-toleriane-hydrating-gentle-cleanser
   - tower-28-sos-daily-balancing-gel-cleanser
+  - dove-sensitive-skin-beauty-bar
   title: Gentle cleansers by evidence
 type: list
-updated: '2026-09-15'
+updated: '2026-09-26'
 ---
 
-This list ranks five fragrance-free cleansers for [[sensitive-skin|sensitive]] or barrier-impaired skin. A cleanser's health-relevant job is narrow: lift dirt, oil, and makeup without stripping the [[skin-barrier-repair|skin barrier]]. Every fragrance-free, low-surfactant wash on the site earns roughly the same grade for that job, a modest effect on mixed evidence versus a harsher, high-foaming or high-pH cleanser. So the ranking below does not turn on that shared grade; it turns on formulation and fit, explained in the methodology note just below.
+This list ranks six fragrance-free cleansers for [[sensitive-skin|sensitive]] or barrier-impaired skin: five liquid or cream facial washes and one bar. A cleanser's health-relevant job is narrow: lift dirt, oil, and makeup without stripping the [[skin-barrier-repair|skin barrier]]. Every fragrance-free, low-surfactant wash on the site earns roughly the same grade for that job, a modest effect on mixed evidence versus a harsher, high-foaming or high-pH cleanser. So the ranking below does not turn on that shared grade; it turns on formulation and fit, explained in the methodology note just below.
 
 The better-evidenced work for [[dry-skin|dry]], sensitive, and barrier-impaired skin happens after rinsing, in a leave-on moisturizer. That case is set out on [[moisturizing]] and, for [[atopic-dermatitis]] specifically, where a Cochrane review of 77 trials found moisturizing reduces flares and spares topical corticosteroids and no single moisturizer beats another. Two of the five cleansers below also carry [[ceramides]], the barrier lipids eczema-prone skin runs short of, but a rinse-off wash can only leave a trace behind; the closest controlled test of a ceramide wash improved a barrier measurement without reducing eczema severity more than a plain vehicle.
 
-> Any of the five cleansers below is a sound, gentle choice; none is shown to clean or protect the barrier better than the others. The ranking here turns on formulation and fit rather than hype: fragrance-free status, foaming versus non-foaming, what barrier ingredients are left behind, and price. Four are non-foaming or low-foaming washes built for dry and sensitive skin; the fifth foams and is built for oily skin.
+> The five liquid washes below are all sound, gentle choices; none is shown to clean or protect the barrier better than the others. The ranking here turns on formulation and fit rather than hype: fragrance-free status, foaming versus non-foaming, what barrier ingredients are left behind, and price. Four are non-foaming or low-foaming washes built for dry and sensitive skin; the fifth foams and is built for oily skin. A sixth option, a fragrance-free bar, is a step down in gentleness and is covered last.
 
 ## Non-foaming and low-foaming cleansers for dry, sensitive, and barrier-impaired skin
 
@@ -35,6 +36,10 @@ The better-evidenced work for [[dry-skin|dry]], sensitive, and barrier-impaired 
 ## A foaming cleanser for oily and combination skin
 
 [[cerave-foaming-facial-cleanser|CeraVe Foaming Facial Cleanser]] carries the same core grade for gentle, non-stripping cleansing, and the same niacinamide-plus-ceramide-and-hyaluronic-acid formula as its Hydrating sibling, but it foams and is built for normal to [[oily-skin|oily]] rather than dry or barrier-impaired skin. Quoted in NewBeauty, New York dermatologist Julia Tzu recommends it: "I love this cleanser because it's gentle to my skin but effectively removes the dirt and oils so that my face feels clean." At $15.99 it is priced the same as CeraVe Hydrating. It belongs on this list as the sulfate-free, fragrance-free option for reactive skin that runs oily rather than dry, not as a substitute for the three non-foaming washes above on classically dry or barrier-impaired skin.
+
+## A bar-format option
+
+[[dove-sensitive-skin-beauty-bar|Dove Sensitive Skin Beauty Bar]] is the one bar here and the most caveated pick. Its lead surfactant, sodium lauroyl isethionate, is a mild lower-pH syndet, but the formula also carries true soap salts (sodium oleate, stearate, and laurate) and [[cocamidopropyl-betaine|cocamidopropyl betaine]], a foam-booster that is a recognized cleanser allergen in a sensitized minority, so it is a syndet-soap hybrid rather than a pure gentle wash. No trial isolates it, so its grade rests on that surfactant chemistry. At about $1.62 a bar it is the cheapest option here, and a reasonable fragrance-free choice for face, body, and hands if a bar format is preferred, with the allergen caveat for reactive skin.
 
 ## See Also
 
