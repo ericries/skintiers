@@ -1694,3 +1694,18 @@
   status: pending
   discovered_from: gooderham-2026-tralokinumab-4-year-atopic-dermatitis
   source: https://pubmed.ncbi.nlm.nih.gov/41219577/
+- name: Topical 5-fluorouracil (Efudex/Carac; prescription topical chemotherapy for
+    actinic keratosis and some skin cancers; NCI-listed AK field therapy; physician-managed,
+    not OTC)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: actinic-keratosis
+  source: https://www.cancer.gov/types/skin/hp/skin-treatment-pdq
+- name: Imiquimod (Aldara/Zyclara; prescription topical immune-response modifier for
+    actinic keratosis and superficial BCC; NCI-listed AK topical agent)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: actinic-keratosis
+  source: https://www.cancer.gov/types/skin/hp/skin-treatment-pdq

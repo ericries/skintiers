@@ -228,7 +228,7 @@
 - name: Pseudofolliculitis barbae (razor bumps)
   type: condition
   priority: 5
-  status: pending
+  status: done
   discovered_from: mens-skincare-routine
   source: shaving section of mens-skincare-routine goal hub
 - name: Actinic keratosis, rough scaly precancerous sun-damage growth that can progress
@@ -236,7 +236,7 @@
     hub, prevention link-out to sunscreen
   type: condition
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://www.cancer.gov/types/skin/patient/skin-treatment-pdq
 - name: Chronic hand eczema (CHE), common occupational skin condition distinct from
@@ -262,3 +262,11 @@
   status: pending
   discovered_from: null
   source: null
+- name: Basal cell carcinoma (most common skin cancer; nonmelanoma; NCI Skin Cancer
+    Treatment PDQ) - physician-managed hub, sibling to squamous-cell-carcinoma, prevention
+    link-out to sunscreen
+  type: condition
+  priority: 5
+  status: pending
+  discovered_from: actinic-keratosis
+  source: https://www.cancer.gov/types/skin/hp/skin-treatment-pdq

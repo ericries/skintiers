@@ -7559,3 +7559,8 @@ hero-cosmetics:
   score: 8
   verdict: publish
   note: Lean brand discovery aid. Identity + line-up + 'Empowering Acne Prone Skin' positioning from herocosmetics.us (cached 888459ae23abec30), attributed as brand's own. Founder omitted (not verified from a primary source this pass). Links [[hydrocolloid]]; Mighty Patch products queued. lint/verify/style clean.
+actinic-keratosis:
+  last_reviewed: '2026-09-26'
+  score: 9
+  verdict: revise-then-fixed
+  note: 'Opus critic: 4/4 quotes verbatim vs cached NCI PDQ, framing honest (non-alarmist, physician-managed, prevention-only skincare role, grades nothing). Two accuracy fixes applied + verified against cache: (1) cryosurgery is in NCI''s BCC section not AK; replaced with the actual AK list (topical fluorouracil/imiquimod/diclofenac/ingenol mebutate, chemical peels, surgery, PDT, laser) in body+footnote; (2) cut uncited topical-retinoid-for-AK sentence + dropped retinoids from See Also.'
