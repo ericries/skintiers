@@ -2594,7 +2594,7 @@
     source: incidecoder + Clinique brand page)'
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: null
 - name: 'Heimish All Clean Balm (popular K-beauty sherbet cleansing balm for the first
@@ -2674,3 +2674,10 @@
   status: pending
   discovered_from: hero-cosmetics
   source: https://www.herocosmetics.us/
+- name: Clinique Take The Day Off Cleansing Oil (liquid oil-cleanser sibling of the
+    Take The Day Off balm; first-cleanse makeup/sunscreen removal; belongs on best-cleansing-balms-oil-cleansers)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: clinique-take-the-day-off-cleansing-balm
+  source: https://incidecoder.com/products/clinique-take-the-day-off-cleansing-oil

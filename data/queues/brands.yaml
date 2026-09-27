@@ -264,3 +264,11 @@
   status: done
   discovered_from: hydrocolloid
   source: https://www.herocosmetics.us/
+- name: Clinique (dermatologist-founded Estee Lauder-owned brand; fragrance-free/allergy-tested
+    positioning; discovery aid to link its products, e.g. Take The Day Off Cleansing
+    Balm, already on site)
+  type: brand
+  priority: 5
+  status: pending
+  discovered_from: clinique-take-the-day-off-cleansing-balm
+  source: https://www.clinique.com/

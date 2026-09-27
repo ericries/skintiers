@@ -7564,3 +7564,8 @@ actinic-keratosis:
   score: 9
   verdict: revise-then-fixed
   note: 'Opus critic: 4/4 quotes verbatim vs cached NCI PDQ, framing honest (non-alarmist, physician-managed, prevention-only skincare role, grades nothing). Two accuracy fixes applied + verified against cache: (1) cryosurgery is in NCI''s BCC section not AK; replaced with the actual AK list (topical fluorouracil/imiquimod/diclofenac/ingenol mebutate, chemical peels, surgery, PDT, laser) in body+footnote; (2) cut uncited topical-retinoid-for-AK sentence + dropped retinoids from See Also.'
+clinique-take-the-day-off-cleansing-balm:
+  last_reviewed: '2026-09-26'
+  score: 9
+  verdict: revise-then-fixed
+  note: 'Opus critic: price ($44/3.8oz + $15/1oz + $58/6.7oz), INCI order, and fragrance-free differentiator all verified vs cached clinique.com; double-cleansing linked out, no efficacy overclaim, no aggregator footnote. Single revise: a Common-Marketing-Claims quote spliced two non-adjacent Clinique bullets; replaced with two contiguous verbatim phrases (avoiding the source''s em dash) and added both to the footnote enumeration.'
