@@ -2613,7 +2613,8 @@
   conflict: Runs an Amazon affiliate storefront (amazon.com/shop/derm.talk); recurring disclosed paid brand partnerships (Shiseido, SkinCeutic
   posted: ''
   feed_rank: 3
-  status: pending
+  status: skipped
+  skip_reason: spicules/Reedle Shot myth; no matching page on site
 - id: shE6M5dCRNM
   title: '#skincare #cosmeticdermatology #skincareroutine #skincaretips # #dermatologist #tretinoin'
   creator: Dr. Jenny Liu (Jenny Liu, MD, FAAD)
@@ -3021,7 +3022,8 @@
   conflict: Active paid spokesperson for RoC Skincare (on-air brand deal w/ discount code) + Cetaphil-sponsored content + 'all' detergent partnership; a
   posted: ''
   feed_rank: 3
-  status: pending
+  status: skipped
+  skip_reason: sponsored (#CeraVePartner branded content)
 - id: 0YIFLP7pJAA
   title: 'How To Avoid Filler Face — From A Derm | #shorts #skincare |'
   creator: Dr. Lindsey Zubritsky (DermGuru)
@@ -3179,7 +3181,8 @@
   conflict: Runs extensive Amazon Associates and ShopMy affiliate storefronts, monetizing nearly every product mentioned across videos
   posted: ''
   feed_rank: 3
-  status: pending
+  status: skipped
+  skip_reason: red-light-therapy Q&A; no red-light page + multi-topic
 - id: SyiR1hH4BTA
   title: The Truth About Alix Earle’s Reale Actives Skincare ( + Best Budget Dupes)
   creator: Dr. Maren Locke (The Budget Dermatologist)
@@ -3388,7 +3391,8 @@
   conflict: null
   posted: ''
   feed_rank: 3
-  status: pending
+  status: skipped
+  skip_reason: sponsored (title marked (AD)); PDRN/TECA topics have no page
 - id: GBTdWi_2DD0
   title: Innovative new beauty favourites (Nooance AD)
   creator: Michelle Wong (Lab Muffin)
@@ -3428,7 +3432,8 @@
   conflict: runs an affiliate storefront - be cautious treating product picks as unbiased endorsements
   posted: ''
   feed_rank: 3
-  status: pending
+  status: skipped
+  skip_reason: grab-bag news vlog, not single-topic education
 - id: TZbg1Z5pWG8
   title: 'how to lighten dark armpits! stitch with @Jina The Gorgeous #skincare'
   creator: Dr. Neera Nathan
@@ -3483,7 +3488,8 @@
   conflict: Runs a "Shop my Favorites" affiliate storefront (linktr.ee/dermatologysurgeon) that monetizes her product picks; no own-brand prod
   posted: ''
   feed_rank: 3
-  status: pending
+  status: skipped
+  skip_reason: affiliate-storefront tiered product picks (effectively paid)
 - id: geezwFau1LA
   title: 'rating Korean sunscreens! #skincare'
   creator: Dr. Neera Nathan
@@ -3799,7 +3805,8 @@
   conflict: runs the PillowtalkDerm brand - skip videos mainly promoting her own products
   posted: ''
   feed_rank: 3
-  status: pending
+  status: skipped
+  skip_reason: HRT/perimenopause systemic hormone therapy; deferred non-topical scope
 - id: W8Ca90PO1Bc
   title: Manufacturing safety — Kylie tie up your hair please.
   creator: Stephen Alain Ko (KindofStephen)
