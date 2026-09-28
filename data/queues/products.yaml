@@ -2610,7 +2610,7 @@
     incidecoder + Farmacy brand page)'
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: null
 - name: 'The Ordinary Glycolic Acid 7% Exfoliating Toning Solution (budget glycolic
@@ -2681,3 +2681,11 @@
   status: pending
   discovered_from: clinique-take-the-day-off-cleansing-balm
   source: https://incidecoder.com/products/clinique-take-the-day-off-cleansing-oil
+- name: Farmacy Green Clean Fragrance-Free Cleansing Balm (fragrance-free variant
+    of the Green Clean balm, for reactive skin; contrasts with the fragranced original;
+    Farmacy)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: farmacy-green-clean-makeup-removing-cleansing-balm
+  source: https://www.farmacybeauty.com/

@@ -279,3 +279,10 @@
   status: pending
   discovered_from: heimish-all-clean-balm
   source: https://heimish.us/
+- name: Farmacy (US 'farm-to-face' clean-beauty brand; Sephora mainstay known for
+    the Green Clean cleansing balm; discovery aid to link its products on site)
+  type: brand
+  priority: 5
+  status: pending
+  discovered_from: farmacy-green-clean-makeup-removing-cleansing-balm
+  source: https://www.farmacybeauty.com/

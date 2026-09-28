@@ -7584,3 +7584,8 @@ pdrn:
   score: 10
   verdict: publish
   note: Opus critic verified all quotes verbatim (3 cross-checked vs PMC full text) + every study detail across 4 PubMed sources; framing correctly quarantines injectable/wound evidence from topical-on-intact-skin claims (its strongest dimension), tier:weak justified (no vehicle-controlled trial of ordinary topical PDRN on intact skin; Park 2025 states MW+anionic charge restrict penetration; Ye trial is a proprietary 850kDa fraction vs retinol by industry authors). Verdict publish.
+farmacy-green-clean-makeup-removing-cleansing-balm:
+  last_reviewed: '2026-09-28'
+  score: 9
+  verdict: revise-then-fixed
+  note: 'Opus critic verified price ($36/100mL), INCI order (33), the ''99% removal'' claim quarantined as brand marketing, SKU-name honesty (''Original Green Clean''), and fragrance caveat vs cached farmacybeauty.com. Two fixes applied: super-greens blend is moringa/holy basil/ARUGULA (not papaya, which is separate) in 2 paraphrases; and papaya is position 7/33 (not ''well down'' the list). Em-dash in source quote kept as comma per no-em-dash style rule.'
