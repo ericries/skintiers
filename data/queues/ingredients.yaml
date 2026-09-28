@@ -1459,7 +1459,7 @@
 - name: PDRN (polydeoxyribonucleotide, topical)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: acne
   source: Trending K-beauty active (Hyram 'Does PDRN really do anything?' + on-site
     anua-pdrn products reference it); no page yet

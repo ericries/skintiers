@@ -1,0 +1,58 @@
+---
+analyzed: '2026-09-28'
+assurance: opus
+name: PDRN (polydeoxyribonucleotide)
+slug: pdrn
+status: published
+tier: weak
+type: ingredient
+updated: '2026-09-28'
+---
+
+PDRN, or polydeoxyribonucleotide, is a mixture of short DNA fragments, usually purified from salmon or trout sperm, injected in clinic as a "skin booster" and increasingly sold in leave-on Korean-beauty serums marketed as "salmon DNA."
+
+> PDRN's clinical track record is built on getting the molecule under the skin, by injection or into an open wound, not on rubbing it onto intact skin. A review of injectable PDRN describes it as a purified DNA-fragment complex that binds an adenosine receptor and "facilitates tissue repair," with established use in degenerative joints and diabetic foot ulcers.[^rho] A separate 2025 study of topical PDRN states plainly that "its topical use is limited by its high molecular weight and anionic charge, which restrict skin penetration," and had to chemically re-engineer the molecule just to improve uptake in cell culture.[^park] The one identified clinical test of a passively applied (non-injected, non-microneedled) topical PDRN product used a specially modified, delivery-optimized fragment on the thin skin around the eyes, not a general serum on ordinary facial skin, and industry researchers who tested a standard topical PDRN formula needed microneedling, not simple application, to see an effect in an animal model.[^ye][^kim]
+
+## The Rubric
+
+**Topical, leave-on serum on intact skin (cosmetic anti-aging, hydration, "regeneration" claims)**
+- **Effect size: thin.** Only one identified randomized clinical comparison tested a topical PDRN product applied passively (no injection, no microneedling) to human skin. It used a proprietary "medium-length" PDRN preparation designed for skin delivery, formulated as a 0.1% eye cream, in a split-face design against 0.1% retinol (not a plain vehicle) over 28 days on periocular skin, and was run by a research team affiliated with a cosmetic-ingredient company.[^ye] It reported "approximately two-fold greater improvements in periocular wrinkles, dermal thickness, density, and eye bag parameters compared with retinol,"[^ye] which speaks to that one engineered formula on eye-area skin against an active comparator, not to a typical off-the-shelf DNA-fragment serum applied to the face generally.
+- **Evidence quality: weak.** No vehicle-controlled, independently replicated trial of an ordinary topical PDRN serum on intact skin was found. The same paper that reports the eye-cream result also states that standard PDRN's "mechanism and delivery... remain insufficiently defined" when applied topically.[^ye] A 2025 study built specifically to solve PDRN's skin-penetration problem never got past cell culture, and its authors state outright that PDRN's "high molecular weight and anionic charge... restrict skin penetration."[^park] And when a different lab tested a topical PDRN mixture for photoaging and pigmentation, they delivered it through the skin barrier with a microneedling device rather than applying it passively, and did so in an animal model, not in people.[^kim]
+
+## What We Actually Know
+
+PDRN is a mixture of deoxyribonucleotide polymer fragments, "with chain lengths ranging from 50 to 2,000 base pairs, primarily derived from Oncorhynchus mykiss (salmon trout) or Oncorhynchus keta (chum salmon) sperm DNA."[^rho] Its clinical use has been built almost entirely around getting the material under or into damaged tissue: intradermal injection as one of several materials marketed as "skin boosters," and topical or injected use on open wounds. A review of injectable skin boosters describes PDRN acting through a specific receptor, stating it "acts as a selective adenosine A2A receptor in medicine and facilitates tissue repair, and anti-inflammatory effects, and has been applied in treating degenerative joints and diabetic foot ulcers."[^rho] That evidence base does not automatically transfer to a leave-on serum massaged onto intact facial skin: none of it involves passive topical application, and the delivery problem for that route is a live, unsolved research question rather than a settled fact. A 2025 pharmaceutics study built specifically to address it states that PDRN's "topical use is limited by its high molecular weight and anionic charge, which restrict skin penetration," and required plasma treatment to shrink and de-charge the molecule before it showed improved uptake, in cell culture rather than in human skin.[^park]
+
+## How It Works
+
+In injectable and wound contexts, PDRN's proposed mechanism runs through adenosine A2A receptor activation, which is linked to tissue-repair and anti-inflammatory signaling.[^rho] That mechanism was characterized in tissue that the material reaches directly, by injection or in an open wound bed, where the stratum corneum is not a barrier. On intact skin, the same DNA fragments face the penetration problem common to large, hydrophilic macromolecules: a 2025 study attempting to adapt PDRN for topical use attributes its poor uptake to "its high molecular weight and anionic charge,"[^park] and could only improve cellular uptake after using plasma treatment to shrink the molecule's size and neutralize its charge, a modification tested in vitro, not as a finished topical product.[^park] Separately, a study that tested a topical liquid mixture of PDRN, vitamin C, and niacinamide for photoaging and pigmentation delivered it using a microneedling therapy system, which creates microchannels through the stratum corneum, rather than applying it to intact skin, and did so in a UV-B-irradiated animal model.[^kim] The one study that reported a clinical benefit from passively applied topical PDRN used a specially prepared "medium-length" 850-kilodalton fraction and measured its movement into skin with confocal Raman spectroscopy, reporting "time-dependent distribution of PDRN-associated signal into viable epidermal regions" in a reconstructed epidermal model plus supporting ex vivo and pilot in vivo work, alongside stating that topical PDRN's "mechanism and delivery... remain insufficiently defined" in general.[^ye]
+
+## The Evidence
+
+The injectable/wound side of PDRN's evidence base is reviewed, not tested first-hand here: a 2024 review of injectable skin boosters in aesthetic dermatology covers PDRN among "various biological materials" used to address "dullness, dehydration, and loss of elasticity," describing its composition, its adenosine-receptor mechanism, and clinical use "in treating degenerative joints and diabetic foot ulcers."[^rho] That is a summary of the injected/medical literature, cited here to establish what the real evidence base covers, not a claim about topical skincare.
+
+For the topical, intact-skin route, the picture is thin. A 2026 study designed and tested a "medium-length PDRN preparation (PDRN-850K)" specifically engineered for skin delivery, examining its signaling pathways in cultured fibroblasts, its penetration by Raman spectroscopy, its effect on UV-irradiated ex vivo human skin, and, clinically, a randomized, double-blind, split-face study of a 0.1% PDRN-850K eye cream against 0.1% retinol over 28 days.[^ye] The authors report the eye cream "achieved approximately two-fold greater improvements in periocular wrinkles, dermal thickness, density, and eye bag parameters compared with retinol, with good tolerability."[^ye] The study was conducted by researchers affiliated with cosmetic-ingredient and dermatology-evaluation institutes in China, tested one proprietary, delivery-optimized PDRN fraction rather than a generic DNA-fragment extract, compared it against an active ingredient rather than a plain vehicle, and covered only the thin periocular skin over 28 days.[^ye] A separate 2025 study built specifically to solve PDRN's topical delivery problem never reached a human or even an animal skin test: it reports that untreated PDRN's "high molecular weight and anionic charge... restrict skin penetration," and that plasma-treating the molecule to shrink it and reduce its charge "improved uptake and markedly increased cell migration activity" in cell culture.[^park] And a 2022 study that tested a topical PDRN, vitamin C, and niacinamide mixture against UV-B-induced photoaging and pigmentation did not apply it passively at all; it delivered the formula "via a microneedling therapy system" in a UV-B-irradiated animal model, a route that physically breaches the skin barrier the same way an injection would.[^kim]
+
+No vehicle-controlled, independently replicated human trial of an unmodified, passively applied topical PDRN serum on intact skin was found.
+
+## Uses
+
+The evidence base that exists for PDRN, tissue repair and anti-inflammatory activity via adenosine A2A signaling, chronic wound and diabetic foot ulcer care, and cosmetic "skin booster" use, covers injected or wound-bed delivery, where the material reaches living tissue directly.[^rho] For a topical, leave-on serum on intact skin, the identified evidence is limited to one industry-affiliated clinical study of a specially engineered PDRN fraction as an eye cream against retinol,[^ye] plus in vitro delivery-engineering work[^park] and an animal study that needed microneedling to get the formula through the skin barrier at all.[^kim]
+
+## Common Marketing Claims
+
+This section is quarantined and discounted; treat everything here as unproven or overstated unless it appears in The Evidence above.
+
+- **"Salmon DNA repairs and regenerates skin."** Brands selling topical PDRN serums borrow "repair" and "regeneration" language from PDRN's injectable and wound-care literature, where the material reaches tissue directly.[^rho] Whether a leave-on serum delivers intact PDRN through unbroken skin at all is the open question a 2025 study set out to solve and could not fully answer outside cell culture.[^park]
+- **"Works like a skin booster injection, without the needle."** The clinical evidence for PDRN skin boosters is injectable.[^rho] The one topical clinical study identified used a proprietary, chemically distinct PDRN preparation and an active retinol comparator, on eye-area skin only, not a general claim that any topical PDRN serum matches an injection.[^ye]
+
+## See Also
+
+[[hyaluronic-acid]] [[niacinamide]] [[anti-aging]] [[skin-barrier-repair]]
+
+## Sources
+
+[^rho]: Rho NK, Kim HS, Kim SY, Lee W. Injectable "Skin Boosters" in Aging Skin Rejuvenation: A Current Overview. Archives of Plastic Surgery, 2024;51(6):528-541. https://pmc.ncbi.nlm.nih.gov/articles/PMC11560330/ (accessed 2026-09-28)
+[^park]: Park SJ, Lee DH, Yoon KB, Kim A, Jung CY, Kim ST, Brito S, Bin BH. Plasma-Engineered PDRN: Surface Charge Neutralization and Nanosizing Enhance Uptake and Regeneration Potential. Pharmaceutics, 2025;17(9):1136. https://pubmed.ncbi.nlm.nih.gov/41012473/ (accessed 2026-09-28)
+[^ye]: Ye R, Wang Q, Du L, Li L, Hu F. Topical medium-length PDRN enhances dermal extracellular matrix repair in photodamaged skin via PI3K-Akt/TGF-beta-regulated pathways. PLoS One, 2026;21(7):e0350905. https://pubmed.ncbi.nlm.nih.gov/42430369/ (accessed 2026-09-28)
+[^kim]: Kim HM, Byun KA, Oh S, Yang JY, Park HJ, Chung MS, Son KH, Byun K. A Mixture of Topical Forms of Polydeoxyribonucleotide, Vitamin C, and Niacinamide Attenuated Skin Pigmentation and Increased Skin Elasticity by Modulating Nuclear Factor Erythroid 2-like 2. Molecules, 2022;27(4):1276. https://pmc.ncbi.nlm.nih.gov/articles/PMC8879610/ (accessed 2026-09-28)
