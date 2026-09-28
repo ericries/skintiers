@@ -7589,3 +7589,8 @@ farmacy-green-clean-makeup-removing-cleansing-balm:
   score: 9
   verdict: revise-then-fixed
   note: 'Opus critic verified price ($36/100mL), INCI order (33), the ''99% removal'' claim quarantined as brand marketing, SKU-name honesty (''Original Green Clean''), and fragrance caveat vs cached farmacybeauty.com. Two fixes applied: super-greens blend is moringa/holy basil/ARUGULA (not papaya, which is separate) in 2 paraphrases; and papaya is position 7/33 (not ''well down'' the list). Em-dash in source quote kept as comma per no-em-dash style rule.'
+clinique:
+  last_reviewed: '2026-09-28'
+  score: 8
+  verdict: publish
+  note: Lean brand discovery aid. Positioning ('Dermatologist guided solutions. Allergy tested. 100% fragrance free') verified verbatim on clinique.com + cached (5749efde67762a7d), attributed as brand's own. Estee Lauder-owned, 1968. Links the on-site TTDO balm. lint/verify/style clean.
