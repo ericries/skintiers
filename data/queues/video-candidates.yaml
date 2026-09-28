@@ -7798,7 +7798,8 @@
   conflict: Founder of own-brand haircare line (Rhute); TikTok Shop affiliate/product storefront; recurring disclosed sponsored posts (No7, La Roche Pos
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: hair-damage topic (no page); own-brand haircare conflict (Rhute)
 - id: y0ZEYZwFUnM
   title: 'hair growth combinations that work better together #dermatologist #hairgrowth'
   creator: Dr Aamna Adel
@@ -7824,7 +7825,8 @@
   conflict: null
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: brand-vs-brand product comparison (Prequel/Remedy); no matching page
 - id: ihA0qocxC5w
   title: Hills I'll Die On as a Dermatologist | Part 2
   creator: Dr. Aleksandra Brown, DO, FAAD
@@ -7941,7 +7943,8 @@
   conflict: Founder of own-brand skincare line (Skin Rocks); recent upload mix is dominated by PR-gifted product unboxings and empties (haul-adjacent fo
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: interview/chat (Sophie Ellis-Bextor); not single-topic education
 - id: '7690332728255974670'
   title: 'Retinol and Azelaic acid….#skincare #dermatologist #azelaicacid #reti...'
   creator: Dr. Chris Tomassian
@@ -8045,7 +8048,8 @@
   conflict: Advises Korean skincare brands entering the US market on clinical communication (consulting relationship, disclosed on her site); reviewed content was cross-brand and unsponsored. Scan each video at ingest.
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: oral collagen supplement; deferred non-topical scope, no page
 - id: '7690361680789769492'
   title: anti blush trend? or a beige blush option if you have pale, cool tone...
   creator: Hannah English (@ms_hannah_e / Hannah Collingwood English)
@@ -8084,7 +8088,8 @@
   conflict: has an own-brand line (Selfless) and does sponsorships - educational content only, never treat picks as endorsements, never use sponsored videos
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: reaction/routine-critique video; not single-topic education
 - id: '7690331731999739149'
   title: 'Recap of my skincare journey and the 6 things that helped! #skincarej...'
   creator: Jenn Lexi (@jennlexi_)
