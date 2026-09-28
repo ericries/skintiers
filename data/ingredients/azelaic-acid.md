@@ -228,6 +228,16 @@ videos:
   related: [anua-azelaic-acid-serum, retinoids]
   thesis: Board-certified dermatologist and Harvard/Brigham Mohs surgeon Dr. Abigail Waldman explains how to start using azelaic acid, a naturally occurring acid that treats acne, post-acne redness and dark spots, and rosacea by fighting acne-causing bacteria and blocking the pigment-producing enzyme tyrosinase. She covers when to apply it in a routine, safe combinations with retinoids and prescription acne treatments, expected mild side effects, and notes it is one of the few actives considered safe during pregnancy and breastfeeding. She recommends starting once daily and increasing to twice daily as tolerated, with results from over-the-counter 10% formulas taking up to 8 to 12 weeks.
   note: Verified from the video transcript (yt-dlp, read in full); no sponsorship disclosure (recommends Anua 10% by personal preference).
+- title: 'Azelaic acid and retinol: can you use them together?'
+  creator: Dr. Chris Tomassian
+  creator_slug: chris-tomassian
+  credential: Board-certified dermatologist
+  platform: TikTok
+  url: https://www.tiktok.com/@dr.tomassian/video/7690332728255974670
+  posted: '2026-09-27'
+  related: [retinoids]
+  thesis: 'Board-certified dermatologist Dr. Chris Tomassian addresses whether azelaic acid and retinol can be used together, and his answer is yes: the two can be layered in the same routine. For people with sensitive or easily irritated skin, he suggests splitting them instead, applying azelaic acid in the morning and retinol at night to reduce irritation.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
