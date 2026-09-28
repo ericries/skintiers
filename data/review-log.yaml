@@ -7594,3 +7594,8 @@ clinique:
   score: 8
   verdict: publish
   note: Lean brand discovery aid. Positioning ('Dermatologist guided solutions. Allergy tested. 100% fragrance free') verified verbatim on clinique.com + cached (5749efde67762a7d), attributed as brand's own. Estee Lauder-owned, 1968. Links the on-site TTDO balm. lint/verify/style clean.
+chronic-hand-eczema:
+  last_reviewed: '2026-09-28'
+  score: 9
+  verdict: revise-then-fixed
+  note: 'Opus critic verified all quotes verbatim + every detail vs PMID 41277505; confirmed NO fabricated ranking/SUCRA/effect number/prevalence, distinct-from-AD framing correct, barrier-care linked out (not claimed as Gupta finding), Rx treatments labeled physician-managed. One fix: dropped uncited ''topical JAK inhibitor'' clause riding under [^gupta].'

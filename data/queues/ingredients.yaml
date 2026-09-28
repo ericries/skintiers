@@ -1709,3 +1709,17 @@
   status: pending
   discovered_from: actinic-keratosis
   source: https://www.cancer.gov/types/skin/hp/skin-treatment-pdq
+- name: Delgocitinib (Anzupgo; topical pan-JAK inhibitor cream, FDA/EMA-approved for
+    chronic hand eczema; prescription, anchors the chronic-hand-eczema hub)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: chronic-hand-eczema
+  source: https://pubmed.ncbi.nlm.nih.gov/41277505/
+- name: Alitretinoin (oral 9-cis-retinoic acid; FDA/EMA-approved systemic treatment
+    for severe chronic hand eczema; prescription, physician-managed)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: chronic-hand-eczema
+  source: https://pubmed.ncbi.nlm.nih.gov/41277505/
