@@ -272,3 +272,10 @@
   status: pending
   discovered_from: clinique-take-the-day-off-cleansing-balm
   source: https://www.clinique.com/
+- name: Heimish (Korean skincare brand; known for the All Clean Balm cleansing balm;
+    discovery aid to link its products already on site)
+  type: brand
+  priority: 5
+  status: pending
+  discovered_from: heimish-all-clean-balm
+  source: https://heimish.us/
