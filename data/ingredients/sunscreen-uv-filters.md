@@ -549,6 +549,16 @@ videos:
   related: [bemotrizinol]
   thesis: Board-certified dermatologist Dr. Heather Woolery-Lloyd explains that the US FDA has proposed allowing bemotrizinol, an oil-soluble UV filter also sold as Tinosorb S or Parsol Shield that absorbs both UVA and UVB, as an over-the-counter sunscreen ingredient. She notes it has been used for years in Europe and Asia, was approved in Europe in 2000, and that the FDA's review found strong UV protection, minimal systemic absorption, and low irritation risk. If finalized, it would be the first new US sunscreen filter approved since 1999.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Does sunscreen really cause cancer? Let's find out
+  creator: Michelle Wong (Lab Muffin)
+  creator_slug: michelle-wong
+  credential: Cosmetic chemist, PhD
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=QRYQIUn6Fyk
+  posted: '2026-09-27'
+  related: [actinic-keratosis, squamous-cell-carcinoma]
+  thesis: 'Cosmetic chemist Michelle Wong (Lab Muffin) debunks the viral claim that sunscreen causes skin cancer, explaining that the observational studies behind it are confounded by indication: fair-skinned, sun-damaged people both use more sunscreen and get more skin cancer, so the correlation is not causation. She points to the Nambour trial, a randomized controlled trial of about 1,600 people in which the daily-sunscreen group had fewer squamous cell carcinomas, fewer actinic keratoses, and thinner melanomas over four and a half years. She also walks through and dismisses the benzene, coral-reef, vitamin D, and retinyl palmitate scares as misused data or negligible in practice.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 name: Sunscreen (UV filters)
 slug: sunscreen-uv-filters
 status: published

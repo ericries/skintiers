@@ -2689,3 +2689,10 @@
   status: pending
   discovered_from: farmacy-green-clean-makeup-removing-cleansing-balm
   source: https://www.farmacybeauty.com/
+- name: Clinique Dramatically Different Moisturizing Lotion+ (Clinique's iconic 'yellow'
+    fragrance-free daily moisturizer; anchors the Clinique brand page)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: clinique
+  source: https://incidecoder.com/products/clinique-dramatically-different-moisturizing-lotion

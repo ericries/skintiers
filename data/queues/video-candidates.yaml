@@ -3819,7 +3819,8 @@
   conflict: No affiliate storefront or own-brand line found; occasionally discloses paid/employer formulation work on specific ingredient categories (e.
   posted: ''
   feed_rank: 3
-  status: pending
+  status: skipped
+  skip_reason: commentary on a manufacturing-hygiene incident; not single-topic ingredient/condition education, no matching page
 - id: TFla3znxkLA
   title: Menopause Essentials – Before You Lose More Hair…with Dr. Tanya Kormeili
   creator: Tanya Kormeili, MD, FAAD
@@ -8180,7 +8181,8 @@
   conflict: Runs a "Shop my Favorites" affiliate storefront (linktr.ee/dermatologysurgeon) that monetizes her product picks; no own-brand prod
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: affiliate-storefront product-rating picks (Dollar Tree); effectively paid
 - id: '7689878869699988766'
   title: 🖇️ Comment BEAUTY for the FULL derm-approved skincare & beauty routin...
   creator: Dr. Sheila Farhang (dr.sheila_derm)
