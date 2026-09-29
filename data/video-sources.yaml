@@ -400,7 +400,7 @@
   last_pulled: '2026-09-18'
 - name: Dr. Brooke Jeffy (Brooke Jeffy, MD)
   creator_slug: brooke-jeffy
-  backfill_cursor: 15
+  backfill_cursor: 30
   credential: Board-certified dermatologist
   tier: HIGH
   channel: https://www.youtube.com/@brookejeffymd
