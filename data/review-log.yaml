@@ -7609,3 +7609,8 @@ tend-skin-the-skin-care-solution:
   score: 10
   verdict: publish
   note: Opus critic re-fetched incidecoder INCI (7 ingredients, isopropyl alcohol lead, acetylsalicylic acid active) + verified price ($19.99/4oz + 3 sizes) and marketing quote vs cached tendskin.com. Evidence grade modest/mixed aligned to pseudofolliculitis-barbae hub (salicylate keratolytic = mid mainstay, shaving-change foundational), no product-specific trial claimed; alcohol/salicylate safety framing factual+non-prescriptive. Verdict publish.
+braun-silk-expert-pro-5-ipl:
+  last_reviewed: '2026-09-29'
+  score: 9
+  verdict: revise-then-fixed
+  note: 'Opus critic: price/grade/marketing-quarantine/evidence-frame solid, but flagged citation-integrity drift (several claims footnoted to ^braun not in the cached page). Fixed by cutting all unsupported claims: contraindications list, ''20 watts/2.08 flashes'', ''skin tones I to V'', ''Skin Health Alliance/independent dermatologists''; corrected modes (normal/sensitive/extra sensitive, was balanced/power), sensor (SensoAdapt), and quotes (''2 year of smooth skin at home'', ''Dermatologically and gynecologically approved'') to cache-verbatim. ''Permanent''/95% claims stay quarantined + countered vs Cochrane. Effect modest/evidence weak.'

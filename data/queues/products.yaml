@@ -2642,7 +2642,7 @@
     less-studied than in-office lasers; source: brand page + reputable reviews)'
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: null
 - name: COSRX Acne Pimple Master Patch (the archetypal plain-hydrocolloid pimple patch;
@@ -2696,3 +2696,10 @@
   status: pending
   discovered_from: clinique
   source: https://incidecoder.com/products/clinique-dramatically-different-moisturizing-lotion
+- name: Philips Lumea IPL (the market-leading competing at-home IPL hair-removal device;
+    rounds out the home-IPL device category the laser-hair-removal hub covers)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: braun-silk-expert-pro-5-ipl
+  source: https://www.usa.philips.com/c-m-pe/ipl-hair-removal
