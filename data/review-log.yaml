@@ -7619,3 +7619,8 @@ chen-2026-denifanstat-phase2-acne:
   score: 9
   verdict: revise-then-fixed
   note: 'Opus critic verified all quotes + stats verbatim vs PMID 41186280; praised the mixed-efficacy framing (hit lesion counts, MISSED IGA responder p=0.336, foregrounded in title+intro+limitation) and the investigational-oral/industry-sponsored caveats. One numeric fix: TEAE low end 47.7% (50mg) not 48.9%. Corrected.'
+kaolin:
+  last_reviewed: '2026-09-29'
+  score: 9
+  verdict: revise-then-fixed
+  note: 'Opus critic: all CIR stats/quotes verbatim vs cache (787 uses, 16% face, particle sizes, HRIPT), Zhang cited existence-only (link to bentonite), tier:weak honest, ''detox'' quarantined. One citation-fidelity fix: the kaolin-gauze-hemostasis claim (x2) was cited to [^cir] but not in the CIR doc; added [^gauze] (PMID 31828170, verified real kaolin-dressing RCT) and reattributed both, matched source wording ''dressings''.'
