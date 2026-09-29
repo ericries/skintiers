@@ -7599,3 +7599,8 @@ chronic-hand-eczema:
   score: 9
   verdict: revise-then-fixed
   note: 'Opus critic verified all quotes verbatim + every detail vs PMID 41277505; confirmed NO fabricated ranking/SUCRA/effect number/prevalence, distinct-from-AD framing correct, barrier-care linked out (not claimed as Gupta finding), Rx treatments labeled physician-managed. One fix: dropped uncited ''topical JAK inhibitor'' clause riding under [^gupta].'
+paulas-choice-skin-perfecting-25-aha-2-bha-exfoliant-peel:
+  last_reviewed: '2026-09-28'
+  score: 10
+  verdict: publish
+  note: 'Opus critic verified price ($39.20) + all 4 marketing quotes verbatim vs cached paulaschoice.com, INCI order (26), and crucially the evidence-grade discipline: evidence:mixed matches the glycolic-acid page (and <= salicylic-acid), no product-specific trial claimed, concentration framed as an irritation trade-off not superior efficacy. Non-prescriptive voice, colorants not called SPF. Verdict publish.'
