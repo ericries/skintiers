@@ -3861,7 +3861,8 @@
   conflict: Runs an own-brand practice storefront (Derm Rejuvenation Institute, Shopify); treat specific product picks as commercially incentivized.
   posted: ''
   feed_rank: 3
-  status: pending
+  status: skipped
+  skip_reason: menopause vitamins/supplements; deferred non-topical scope, no matching page; own-brand storefront
 - id: tD0icT3L2U0
   title: What Men Get WRONG About Skincare! | Dermatologist Secrets!
   creator: Tanya Kormeili, MD, FAAD
@@ -7722,7 +7723,8 @@
   conflict: Runs a "Shop my Favorites" affiliate storefront (linktr.ee/dermatologysurgeon) that monetizes her product picks; no own-brand prod
   posted: ''
   feed_rank: 3
-  status: pending
+  status: skipped
+  skip_reason: minoxidil/hair growth; no page + affiliate storefront picks
 - id: '7689510696026983710'
   title: 🖇️ Comment NEWSLETTER to join my weekly newsletter with all things sk...
   creator: Dr. Sheila Farhang (dr.sheila_derm)

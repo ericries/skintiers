@@ -55,6 +55,16 @@ videos:
   related: []
   thesis: 'Dr. Adeline Kikam, a board-certified dermatologist (Brown Skin Derm), explains that plumping and hydrating the skin can improve the appearance of scars as well as fine lines and wrinkles. Reacting to a clip of someone using a Korean centella ampoule or capsule containing glycerin, tranexamic acid, and centella asiatica, she breaks down each ingredient''s role: centella supports the skin barrier, glycerin plumps and hydrates, and tranexamic acid helps even skin tone. She concludes that this overall improvement in skin texture and tone is what makes scars and fine lines look less noticeable, rather than any single ingredient erasing them directly.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: What Causes Acne Scars
+  creator: Dr. Neal Schultz (DermTV)
+  creator_slug: neal-schultz
+  credential: Dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=k8BOSOFsSqk
+  posted: '2014-10-24'
+  related: [acne]
+  thesis: 'Dermatologist Dr. Neal Schultz explains what actually causes acne scars: inflammatory acne lesions like deep pimples and cysts damage the dermis, and when an inflamed pore ruptures, pus leaks into surrounding tissue and destroys healthy dermal collagen. The body then repairs that damage imperfectly with fibrous scar tissue. He describes the two resulting patterns: atrophic scars (depressed below the skin, in ice-pick, boxcar, or crater shapes) when too little collagen is made, and raised hypertrophic scars when too much is made, which are common on the trunk but rare on the face.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
