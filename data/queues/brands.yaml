@@ -286,3 +286,10 @@
   status: pending
   discovered_from: farmacy-green-clean-makeup-removing-cleansing-balm
   source: https://www.farmacybeauty.com/
+- name: Tend Skin (single-focus post-shave brand; maker of The Skin Care Solution
+    for razor bumps/ingrown hairs; discovery aid to link its product on site)
+  type: brand
+  priority: 5
+  status: pending
+  discovered_from: tend-skin-the-skin-care-solution
+  source: https://www.tendskin.com/

@@ -2634,7 +2634,7 @@
     hub; source: incidecoder + brand page)'
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: null
 - name: 'Braun Silk-expert Pro 5 IPL (popular at-home intense-pulsed-light hair removal
