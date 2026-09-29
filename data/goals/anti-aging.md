@@ -291,6 +291,16 @@ videos:
   related: [retinoids, tretinoin, vitamin-c, peptides, sunscreen-uv-filters, copper-peptides, palmitoyl-pentapeptide-4-matrixyl, retinol]
   thesis: 'Board-certified dermatologist Dr. Jenny Liu explains collagen banking, the idea that because skin loses roughly 1% of its collagen per year starting in the mid-20s (and much more in early menopause), it is worth stimulating and preserving collagen early rather than waiting for visible wrinkles. She frames a consistent at-home routine as the foundation, built on the best-evidenced actives: a topical retinoid (tretinoin or a tolerated retinol) used long-term, a vitamin C antioxidant serum, collagen-signaling peptides such as Matrixyl or copper peptides, and daily sunscreen, and stresses that lifestyle habits (sleep, diet, not smoking, sun avoidance) can make or break the results. She presents in-office procedures like microneedling and biostimulatory fillers as complements to that routine rather than replacements, noting collagen banking is a long-term methodology, not any single miracle product or treatment.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Can your diet make your skin age faster?
+  creator: Andrea Suarez (Dr Dray)
+  creator_slug: andrea-suarez-dr-dray
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=b2A1t1VBk84
+  posted: '2026-09-09'
+  related: []
+  thesis: 'Board-certified dermatologist Dr Dray explains how diet ties into skin aging: dietary sugars can react with skin proteins in a process called glycation, forming advanced glycation end products (AGEs) that damage collagen and elastin over time, so the idea that sugar ages skin has a real biological basis. She cautions against overreacting to it, noting whole fruit (with its fiber and antioxidants) is not the problem that sugary processed foods are, and that a pattern rich in a variety of vegetables, fruit, legumes, and whole grains supplies antioxidants that help skin defend against damage. Her practical emphasis is cooking your own meals and limiting processed and charred red meats, which are high in AGEs, rather than fearfully cutting out single foods.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

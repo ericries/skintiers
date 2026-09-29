@@ -581,7 +581,8 @@
   conflict: Recurring paid partnerships (Dermatica affiliate code "DRALEXIS" on multiple videos, La Roche-Posay branded partner content, SkinBetter Scie
   posted: ''
   feed_rank: 4
-  status: pending
+  status: skipped
+  skip_reason: favorites/picks video (2023 faves); affiliate conflict (Dermatica/LRP/SkinBetter), picks effectively paid
 - id: UACo81FiPXs
   title: How to Boost Collagen and Erase Wrinkles | Evidence Based
   creator: Dr. Alexis Stephens
@@ -741,7 +742,8 @@
   conflict: Own-brand UPF sun-protective clothing line, SOUL-A (wearsoula.com / @wearsoula), founded and promoted by him — apparel, not topical skincare
   posted: ''
   feed_rank: 4
-  status: pending
+  status: skipped
+  skip_reason: 'personal #shorts clip (''I''m 37!''), not single-topic education'
 - id: G5mZ87eu5xU
   title: 'My makeup looks like WHAT?!!?  #dermreacts  #makeup  #dermatologist #dermangelo    '
   creator: Dr. Angelo Landriscina (DermAngelo)
