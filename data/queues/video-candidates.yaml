@@ -7413,7 +7413,8 @@
   conflict: Self-describes as a "Key Opinion Leader for industry beauty companies" (per her own practice bio) and most sampled TikTok videos e; no YouTube; TikTok/IG intake
   posted: '2026-09-25'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: Dr Pimple Popper crossover promo, not education
 - id: '7689101184455593230'
   title: Just because they’re all azelaic acid that doesn’t mean they’re all g...
   creator: Ella (@your.estie.ella)
@@ -7465,7 +7466,8 @@
   conflict: Founder/owner of active postpartum skincare brand "More Than Nine" (cleanser, exfoliator, moisturizer, balm) — an ongoing own-bran
   posted: '2026-09-25'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: personal/true-crime musing (Lindsay Clancy), not skincare education; own-brand creator
 - id: HpSP0fQMpRI
   title: 'SKINCARE INGREDIENTS: WHAT TO MIX & WHAT TO SEPARATE'
   creator: Dr. Aleksandra Brown, DO, FAAD
@@ -8167,7 +8169,8 @@
   conflict: Self-describes as a "Key Opinion Leader for industry beauty companies" (per her own practice bio) and most sampled TikTok videos e; no YouTube; TikTok/IG intake
   posted: '2026-09-26'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: product-funnel lead magnet ('Comment BEAUTY for derm-approved products'); KOL/incentivized picks
 - id: nVRFpcXf5cg
   title: Copper Peptides Causing Skin Problems? Here’s What’s Actually Happening | Derm Explains
   creator: Dr. Shereene Idriss
@@ -8340,7 +8343,8 @@
   conflict: 'Runs #ad sponsored posts (e.g. TruSkin) and Target skincare hauls/reviews; prefer her educational ingredient-category and barrier-repair explainers, and treat product recommendations as effectively promotional (skip).'
   posted: '2026-09-29'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'no caption; sponsored creator (TruSkin #ad), picks promotional'
 - id: NkKb8q1rVEs
   title: '#skincare #acnemarks  #skincareroutine #acnescars #dermatologist #skincaretips'
   creator: Dr. Jenny Liu (Jenny Liu, MD, FAAD)
@@ -8460,7 +8464,8 @@
   conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan and reject any sponsored/affiliate/gifted video
   posted: '2026-09-28'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: single-product eye-patch favorite tagging a brand (likely gifted); no transcript to verify
 - id: '7690553065732148493'
   title: Additional treatments like Salicylic Acid, Benzoyl Peroxide, and/or A...
   creator: Ella (@your.estie.ella)

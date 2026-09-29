@@ -300,6 +300,16 @@ videos:
   related: [skin-barrier-strengthening, moisturizing]
   thesis: 'Dermatologist Dr. Fatima Fahs explains what the skin barrier actually is: the skin''s first line of defense against the outside world, acting like a shield that keeps irritants out and moisture in. When the barrier is compromised, skin becomes more prone to irritants getting in and to water escaping, a process she calls transepidermal water loss. Her point is that preserving a healthy skin barrier is what keeps skin both hydrated and protected.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Burning does not mean it is working
+  creator: Dr. Fatima Fahs
+  creator_slug: fatima-fahs
+  credential: Board-certified dermatologist
+  platform: TikTok
+  url: https://www.tiktok.com/@dermydoctor/video/7689465351624609038
+  posted: '2026-09-25'
+  related: [glycolic-acid, salicylic-acid]
+  thesis: 'Dermatologist Dr. Fatima Fahs pushes back on the belief that a skincare product stinging means it is working better: if a product, especially an exfoliant, causes intense burning rather than a mild tingle, it is probably too strong for the skin. She explains that overdoing actives compromises the skin barrier, which then becomes more prone to irritation, breakouts, and visible texture. Her broader point is that more products is not better, and dermatologists often improve patients'' skin by removing steps rather than adding them.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
