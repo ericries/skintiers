@@ -31,6 +31,18 @@ tier_list:
   title: Oily-skin actives by evidence
 type: condition
 updated: '2026-08-30'
+videos:
+- title: Oily but dehydrated skin, explained
+  creator: Dr. Jenny Liu
+  creator_slug: jenny-liu
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=bHnahCxFeDs
+  posted: '2026-03-01'
+  related: [dry-skin, hyaluronic-acid, moisturizing]
+  thesis: Board-certified dermatologist Dr. Jenny Liu explains that oily skin can still be dehydrated, because oil and water are not the same thing and higher oil production does not protect the skin from water loss. She frames dehydration as a temporary status that any skin type can develop, distinct from dry skin as a type, and the idea behind the trending Korean 'soobooji' term for skin that is oily yet lacks water. Her takeaway is that oily, dehydrated skin needs water-based hydration rather than only oil control.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Oily skin (the clinical term is seborrhea) is skin that produces more sebum, the oily secretion of the skin's oil glands, than average. Sakuma and Maibach describe it as oversized sebaceous glands that "produce excessive amounts of sebum giving the appearance of shiny and greasy skin."[^sakuma] It is a skin type and a cosmetic complaint rather than a disease, though the same excess sebum feeds [[acne]] and [[seborrheic-dermatitis|seborrhoeic dermatitis]].
