@@ -630,7 +630,7 @@
     double-blind, placebo-cont (PMID 41186280)'
   type: study
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41186280/
 - name: Yao 2025 Efficacy of Cosmetic Debridement and Suture With Recombinant Human

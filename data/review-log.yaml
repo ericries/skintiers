@@ -7614,3 +7614,8 @@ braun-silk-expert-pro-5-ipl:
   score: 9
   verdict: revise-then-fixed
   note: 'Opus critic: price/grade/marketing-quarantine/evidence-frame solid, but flagged citation-integrity drift (several claims footnoted to ^braun not in the cached page). Fixed by cutting all unsupported claims: contraindications list, ''20 watts/2.08 flashes'', ''skin tones I to V'', ''Skin Health Alliance/independent dermatologists''; corrected modes (normal/sensitive/extra sensitive, was balanced/power), sensor (SensoAdapt), and quotes (''2 year of smooth skin at home'', ''Dermatologically and gynecologically approved'') to cache-verbatim. ''Permanent''/95% claims stay quarantined + countered vs Cochrane. Effect modest/evidence weak.'
+chen-2026-denifanstat-phase2-acne:
+  last_reviewed: '2026-09-29'
+  score: 9
+  verdict: revise-then-fixed
+  note: 'Opus critic verified all quotes + stats verbatim vs PMID 41186280; praised the mixed-efficacy framing (hit lesion counts, MISSED IGA responder p=0.336, foregrounded in title+intro+limitation) and the investigational-oral/industry-sponsored caveats. One numeric fix: TEAE low end 47.7% (50mg) not 48.9%. Corrected.'

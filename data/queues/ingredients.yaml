@@ -1723,3 +1723,11 @@
   status: pending
   discovered_from: chronic-hand-eczema
   source: https://pubmed.ncbi.nlm.nih.gov/41277505/
+- name: Denifanstat (oral fatty-acid-synthase (FASN) inhibitor; investigational systemic
+    acne drug, first-in-class; Phase 2 signal on lesion counts but missed IGA endpoint;
+    developer Ascletis; anchors the acne hub + Chen 2026 study)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: chen-2026-denifanstat-phase2-acne
+  source: https://pubmed.ncbi.nlm.nih.gov/41186280/
