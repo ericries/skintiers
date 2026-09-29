@@ -2703,3 +2703,10 @@
   status: pending
   discovered_from: braun-silk-expert-pro-5-ipl
   source: https://www.usa.philips.com/c-m-pe/ipl-hair-removal
+- name: Heimish Watermax Moisture Gel Cream (Heimish's hydrating gel moisturizer;
+    rounds out the Heimish brand page beyond the All Clean Balm)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: heimish
+  source: https://heimish.us/

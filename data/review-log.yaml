@@ -7629,3 +7629,8 @@ cosrx-acne-pimple-master-patch:
   score: 9
   verdict: revise-then-fixed
   note: 'Opus critic: price ($6.99/24) + INCI order + marketing quotes byte-accurate vs cached cosrx.com; grade (modest/weak) a textbook match to hydrocolloid, no efficacy overclaim, incidecoder inline-only. Fixes: trimmed the re-derived hydrocolloid trial detail (removing an uncited on-page ''a few studies'' quote) to a deferring sentence; cut two uncited editorial judgments (''archetypal version'', ''well-made, inexpensive''), replaced the latter with the cited $6.99 price.'
+heimish:
+  last_reviewed: '2026-09-29'
+  score: 8
+  verdict: publish
+  note: Lean brand discovery aid (Korean brand known for All Clean Balm). Factual identity only; no unverified founder. Links the on-site All Clean Balm. heimish.us cached. lint/verify/style clean.

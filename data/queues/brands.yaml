@@ -276,7 +276,7 @@
     discovery aid to link its products already on site)
   type: brand
   priority: 5
-  status: pending
+  status: done
   discovered_from: heimish-all-clean-balm
   source: https://heimish.us/
 - name: Farmacy (US 'farm-to-face' clean-beauty brand; Sephora mainstay known for
