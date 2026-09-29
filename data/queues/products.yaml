@@ -2650,7 +2650,7 @@
     for the hydrocolloid ingredient page)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: hydrocolloid
   source: https://incidecoder.com/products/cosrx-acne-pimple-master-patch
 - name: Hero Cosmetics Mighty Patch Original (best-selling US hydrocolloid acne patch;

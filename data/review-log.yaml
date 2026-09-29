@@ -7624,3 +7624,8 @@ kaolin:
   score: 9
   verdict: revise-then-fixed
   note: 'Opus critic: all CIR stats/quotes verbatim vs cache (787 uses, 16% face, particle sizes, HRIPT), Zhang cited existence-only (link to bentonite), tier:weak honest, ''detox'' quarantined. One citation-fidelity fix: the kaolin-gauze-hemostasis claim (x2) was cited to [^cir] but not in the CIR doc; added [^gauze] (PMID 31828170, verified real kaolin-dressing RCT) and reattributed both, matched source wording ''dressings''.'
+cosrx-acne-pimple-master-patch:
+  last_reviewed: '2026-09-29'
+  score: 9
+  verdict: revise-then-fixed
+  note: 'Opus critic: price ($6.99/24) + INCI order + marketing quotes byte-accurate vs cached cosrx.com; grade (modest/weak) a textbook match to hydrocolloid, no efficacy overclaim, incidecoder inline-only. Fixes: trimmed the re-derived hydrocolloid trial detail (removing an uncited on-page ''a few studies'' quote) to a deferring sentence; cut two uncited editorial judgments (''archetypal version'', ''well-made, inexpensive''), replaced the latter with the cited $6.99 price.'

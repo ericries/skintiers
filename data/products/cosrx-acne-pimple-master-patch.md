@@ -6,11 +6,11 @@ category: Treatments
 grades:
 - effect: modest
   evidence: weak
-  note: a plain hydrocolloid patch with no added active (no salicylic acid, tea
-    tree, or benzoyl peroxide); its entire job is the hydrocolloid material's job,
-    covered on [[hydrocolloid]], absorbing fluid from and shielding an already-open
-    or surfaced pustule, resting on a single small pilot trial, with no evidence
-    for closed comedones, cystic lesions, or preventing breakouts
+  note: a plain hydrocolloid patch with no added active (no salicylic acid, tea tree,
+    or benzoyl peroxide); its entire job is the hydrocolloid material's job, covered
+    on [[hydrocolloid]], absorbing fluid from and shielding an already-open or surfaced
+    pustule, resting on a single small pilot trial, with no evidence for closed comedones,
+    cystic lesions, or preventing breakouts
   use: Spot cover for an already-open pustule (adjunctive, short-term)
 images:
 - file: cosrx-acne-pimple-master-patch-incidecoder.jpg
@@ -25,12 +25,12 @@ price:
   size: 24 patches
   source: ^cosrx
 slug: cosrx-acne-pimple-master-patch
-status: draft
+status: published
 type: product
 updated: '2026-09-29'
 ---
 
-The COSRX Acne Pimple Master Patch is a plain [[hydrocolloid]] pimple patch, the archetypal version of the format sold across Korean and Western skincare: a set of adhesive dots in three sizes, no added active ingredient. COSRX's own store lists the 24-patch pack (9 large, 5 medium, 10 small) at $6.99.[^cosrx]
+The COSRX Acne Pimple Master Patch is a plain [[hydrocolloid]] pimple patch: a set of adhesive dots in three sizes, with no added active ingredient. COSRX's own store lists the 24-patch pack (9 large, 5 medium, 10 small) at $6.99.[^cosrx]
 
 > This is hydrocolloid and nothing else: no salicylic acid, tea tree, or benzoyl peroxide. Its evidence is exactly the material's evidence on [[hydrocolloid]], modest in effect and weak in quality: a single small pilot trial found it absorbs fluid from and shields an already-open or surfaced pustule faster than a plain adhesive over three to seven days. It does nothing for a closed comedone, a cystic lesion under the skin, or preventing the next breakout, and being plain hydrocolloid, it cannot outperform that material's own ceiling.
 
@@ -40,11 +40,11 @@ COSRX markets the patch for "quick acne healing overnight" and describes it as p
 
 ## The Evidence
 
-There is no trial of this specific product. What is known is the evidence for the material itself, set out in full on [[hydrocolloid]]: a 20-patient pilot trial found a hydrocolloid dressing reduced the severity and inflammation of already-present, surfaced pustules faster than a plain adhesive control over three to seven days, and blocked most UVB light reaching the spot. That trial did not test closed comedones, cystic or nodular lesions, or whether the dressing prevents new breakouts, and a 2025 review of hydrocolloid's dermatology uses still counts only "a few studies" on acne. Because this product adds no active ingredient beyond the hydrocolloid base, it cannot exceed what that material has shown; the grade here matches [[hydrocolloid]]'s rubric exactly.
+There is no trial of this specific product. Because it adds no active ingredient beyond the hydrocolloid base, its evidence is simply the material's own, modest in effect and weak in quality, set out in full on [[hydrocolloid]]: it absorbs fluid from and shields an already-open or surfaced pustule, on the strength of a single small pilot trial, and does nothing for closed comedones, cystic lesions, or preventing new breakouts. It cannot exceed what that material has shown, so the grade here matches [[hydrocolloid]]'s rubric exactly.
 
 Two effects are plausible but were not what the trial measured: the patch is a physical barrier that can keep fingers off the spot, and its opaque white dot flags the area, both practical conveniences rather than treatment effects.
 
-> **Bottom line.** A well-made, inexpensive version of a plain hydrocolloid patch. It absorbs and shields an already-open pustule, on evidence that is modest and narrow (a single small trial, short-term, surfaced lesions only). It is not a treatment for acne itself and does nothing for the closed or deep lesions covered on [[acne]] and [[blackheads-comedones-congestion]].
+> **Bottom line.** A plain hydrocolloid patch (24 for $6.99).[^cosrx] It absorbs and shields an already-open pustule, on evidence that is modest and narrow (a single small trial, short-term, surfaced lesions only). It is not a treatment for acne itself and does nothing for the closed or deep lesions covered on [[acne]] and [[blackheads-comedones-congestion]].
 
 ## What's In It
 
