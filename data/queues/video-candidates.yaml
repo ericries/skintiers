@@ -8281,7 +8281,8 @@
   conflict: Bio includes a business/booking contact email suggesting managed brand partnerships; no confirmed own-brand line or affiliate stor
   posted: '2026-09-29'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: favorites/picks video ('must haves from Elm'), product-picks not single-topic education
 - id: 4QF4MAbIzE0
   title: Hair loss treatments to buy or skip
   creator: Dr. Daniel Sugai
@@ -8320,7 +8321,8 @@
   conflict: Co-developed/formulated the Tbh Skincare 'Rebound' Serum and Toner (product-formulation partnership) — her endorsement of that spe; no YouTube; TikTok/IG intake
   posted: '2026-09-28'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: Merit makeup favorites; product-formulation conflict, not single-topic skincare education
 - id: '7690788123197869326'
   title: ''
   creator: Jenn Lexi (@jennlexi_)
@@ -8372,7 +8374,8 @@
   conflict: runs an Amazon affiliate storefront and does sponsored posts - strongly prefer educational / how-to / ingredient-explainer videos; be very cautious with any product recommendation
   posted: '2026-09-28'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: product-layering picks (Klairs); Kristin Leite affiliate storefront = effectively paid
 - id: IydzcyIoaL0
   title: '4 Things I Would NEVER Do To My Hair — As A Derm | #shorts #skincare |'
   creator: Dr. Lindsey Zubritsky (DermGuru)
@@ -8399,7 +8402,8 @@
   conflict: null
   posted: '2026-09-28'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: hair-products favorites; hair topic + picks, no matching page
 - id: R6MytVyWfgQ
   title: Current favorite lip combo from @Fenty Beauty By Rihanna
   creator: Dr. Maren Locke (The Budget Dermatologist)

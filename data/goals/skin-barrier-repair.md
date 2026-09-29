@@ -290,6 +290,16 @@ videos:
   related: [sensitive-skin, dry-skin, moisturizing]
   thesis: 'Board-certified dermatologist Dr. Ranella Hirsch explains skin barrier care with a simple analogy: a healthy skin barrier is like your front door, which quietly keeps out what you do not want and holds in what you need without you having to fuss over it. Her point is that a well-functioning barrier should not need constant intervention, so if every couple of weeks you are doing something that seriously damages it, such as over-exfoliating, that is a sign you are overdoing your routine rather than helping it.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: What is the skin barrier?
+  creator: Dr. Fatima Fahs
+  creator_slug: fatima-fahs
+  credential: Board-certified dermatologist
+  platform: TikTok
+  url: https://www.tiktok.com/@dermydoctor/video/7690573990192057614
+  posted: '2026-09-28'
+  related: [skin-barrier-strengthening, moisturizing]
+  thesis: 'Dermatologist Dr. Fatima Fahs explains what the skin barrier actually is: the skin''s first line of defense against the outside world, acting like a shield that keeps irritants out and moisture in. When the barrier is compromised, skin becomes more prone to irritants getting in and to water escaping, a process she calls transepidermal water loss. Her point is that preserving a healthy skin barrier is what keeps skin both hydrated and protected.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
