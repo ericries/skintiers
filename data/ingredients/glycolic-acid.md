@@ -72,6 +72,16 @@ videos:
   related: [anti-aging, hyperpigmentation, lactic-acid, mandelic-acid, exfoliating-acids-by-strength, sunscreen-uv-filters]
   thesis: Board-certified dermatologist Dr. Maren Locke (The Budget Dermatologist) explains why glycolic acid is a core anti-aging active and how to add it to a routine. As the smallest alpha hydroxy acid molecule it penetrates deeper than other AHAs, so beyond surface exfoliation (smoother texture, brighter tone, faded dark spots) it can reach the dermis and help stimulate collagen, at the cost of being more likely to sting or irritate sensitive skin. She advises starting low and slow, in a rinse-off cleanser or a 5% or lower leave-on used only once or twice a week as the sole active on those nights, always pairing acids with daily sunscreen, and switching to the gentler larger molecules lactic acid or mandelic acid for anyone who cannot tolerate glycolic.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: The chemical-exfoliant overuse trap (from a dermatologist)
+  creator: Dr. Abigail Waldman
+  creator_slug: abigail-waldman
+  credential: Board-certified dermatologist, Harvard Medical School
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=4QPfylhCDMo
+  posted: '2026-04-27'
+  related: [salicylic-acid, skin-barrier-repair, rosacea]
+  thesis: Harvard dermatologist Dr. Abigail Waldman warns that glycolic acid and other AHA and BHA chemical exfoliants, while effective for smoothing texture and evening tone, are easy to overuse to the point of a damaged skin barrier. She advises most people exfoliate only once or twice a week and read labels for glycolic, lactic, salicylic, or mandelic acid in the top ingredients so they do not unknowingly stack several exfoliating products at once. Redness, tight or dry skin, stinging, or new breakouts are her signs to stop and switch to a barrier cream, with eczema-, sensitive-, and rosacea-prone skin most at risk.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 name: Glycolic acid
 slug: glycolic-acid
 tier: mid
