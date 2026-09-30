@@ -559,6 +559,16 @@ videos:
   related: [actinic-keratosis, squamous-cell-carcinoma]
   thesis: 'Cosmetic chemist Michelle Wong (Lab Muffin) debunks the viral claim that sunscreen causes skin cancer, explaining that the observational studies behind it are confounded by indication: fair-skinned, sun-damaged people both use more sunscreen and get more skin cancer, so the correlation is not causation. She points to the Nambour trial, a randomized controlled trial of about 1,600 people in which the daily-sunscreen group had fewer squamous cell carcinomas, fewer actinic keratoses, and thinner melanomas over four and a half years. She also walks through and dismisses the benzene, coral-reef, vitamin D, and retinyl palmitate scares as misused data or negligible in practice.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Chemical sunscreen is not evil
+  creator: Dr. Aegean Chan
+  creator_slug: aegean-chan
+  credential: Board-certified dermatologist
+  platform: TikTok
+  url: https://www.tiktok.com/@draegeanchan/video/7691140955633749278
+  posted: '2026-09-30'
+  related: [sun-damage-photoaging]
+  thesis: Board-certified dermatologist Dr. Aegean Chan addresses whether chemical sunscreens are safe to use during pregnancy. She says there is no evidence that chemical sunscreens used in pregnancy harm the baby, that these filters have been in use for decades, and that she used them throughout her own pregnancy. Her practical takeaway is that because UV exposure raises skin cancer risk, a pregnant person should use whatever sunscreen they will actually apply consistently, mineral or chemical.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 name: Sunscreen (UV filters)
 slug: sunscreen-uv-filters
 status: published
