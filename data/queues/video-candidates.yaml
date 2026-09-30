@@ -159,19 +159,6 @@
   feed_rank: 3
   status: skipped
   skip_reason: sponsored (La Roche-Posay Effaclar BPO partnership, flagged at creator vetting)
-- id: 4QPfylhCDMo
-  title: Dermatologist Explains Product’s I'd NEVER Let My Family Use (not what you think)
-  creator: Dr. Abigail Waldman (Dr. Abby)
-  creator_slug: abigail-waldman
-  credential: Abigail H. Waldman, MD, FAAD; Associate Professor of Dermatology at Harvard Medical School; Director of the Mohs and Dermatologic Surgery Center at Brigham and Women's Hospital / Dana-Farber Brigham Cancer Center
-  channel: https://www.youtube.com/channel/UCNI5Bp59r_SFle-ObBG3H4Q
-  platform: YouTube
-  tier: HIGH
-  product_recs: ok
-  conflict: Some videos carry disclosed brand sponsorships (e.g. La Roche-Posay Effaclar BPO); no own product line or heavy affiliate storefront. Scan each video at ingest.
-  posted: ''
-  feed_rank: 4
-  status: pending
 - id: yJ4_IUmdBlM
   title: You’re Applying Minoxidil WRONG! Start Doing This Instead (Dermatologist Explains)
   creator: Dr. Abigail Waldman (Dr. Abby)
@@ -703,19 +690,6 @@
   feed_rank: 3
   status: skipped
   skip_reason: dollar-store product roundup, not single-topic
-- id: b2A1t1VBk84
-  title: Can Your Diet Make Your Skin Age Faster? A Dermatologist Explains
-  creator: Andrea Suarez (Dr Dray)
-  creator_slug: andrea-suarez-dr-dray
-  credential: Board-certified dermatologist
-  channel: https://www.youtube.com/@DrDrayzday/videos
-  platform: YouTube
-  tier: HIGH
-  product_recs: null
-  conflict: null
-  posted: ''
-  feed_rank: 4
-  status: pending
 - id: YKUhJi2852I
   title: 'Derm rates “The Abbey Yung Method” #hair #haircare  #dermatologist #dermangelo    '
   creator: Dr. Angelo Landriscina (DermAngelo)
@@ -7590,19 +7564,6 @@
   posted: ''
   feed_rank: 8
   status: pending
-- id: '7689465351624609038'
-  title: 'I’ve said it before, and I’ll say it again: your 10-step routine is p...'
-  creator: Fatima Fahs
-  creator_slug: fatima-fahs
-  credential: Dermatologist (MD)
-  channel: https://www.tiktok.com/@dermydoctor
-  platform: TikTok
-  tier: HIGH
-  product_recs: restricted
-  conflict: null
-  posted: '2026-09-25'
-  feed_rank: 0
-  status: pending
 - id: '7689619056906816799'
   title: Wondering what over the counter options you have? Swipe through for a...
   creator: Dr. Ife Rodney (@driferodney)
@@ -8307,19 +8268,6 @@
   posted: ''
   feed_rank: 6
   status: pending
-- id: '7690573990192057614'
-  title: I think a lot of people hear "protect your skin barrier" and assume t...
-  creator: Fatima Fahs
-  creator_slug: fatima-fahs
-  credential: Dermatologist (MD)
-  channel: https://www.tiktok.com/@dermydoctor
-  platform: TikTok
-  tier: HIGH
-  product_recs: restricted
-  conflict: null
-  posted: '2026-09-28'
-  feed_rank: 0
-  status: pending
 - id: '7690714303371939093'
   title: do you have any Merit favourites? I hope I didn’t forget anything! An...
   creator: Hannah English (@ms_hannah_e / Hannah Collingwood English)
@@ -8481,4 +8429,329 @@
   conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan and reject any sponsored/affiliate/gifted video
   posted: '2026-09-28'
   feed_rank: 1
+  status: pending
+- id: '7691140955633749278'
+  title: Chemical sunscreen is not evil. Over the past 3 years, I’ve seen more...
+  creator: Dr. Aegean Chan
+  creator_slug: aegean-chan
+  credential: Board-certified dermatologist
+  channel: https://www.tiktok.com/@draegeanchan
+  platform: TikTok
+  tier: HIGH
+  product_recs: restricted
+  conflict: Founder/owner of active postpartum skincare brand "More Than Nine" (cleanser, exfoliator, moisturizer, balm) — an ongoing own-bran
+  posted: '2026-09-30'
+  feed_rank: 0
+  status: pending
+- id: 5bLIr_DuqGw
+  title: 'Dermatologist Rates Viral Skincare Hacks: Part 2'
+  creator: Dr. Aleksandra Brown, DO, FAAD
+  creator_slug: aleksandra-brown
+  credential: Board-certified dermatologist (DO, FAOCD, FAAD), practicing at River Ridge Dermatology / HCA Virginia (LewisGale), Blacksburg VA
+  channel: https://www.youtube.com/channel/UC52c6a0gfbhuVCdHYZQAzuQ
+  platform: YouTube
+  tier: HIGH
+  product_recs: ok
+  conflict: null
+  posted: ''
+  feed_rank: 6
+  status: pending
+- id: 8874sh9CXkk
+  title: 'Dengue Fever Symptoms: Rash, Petechiae & Warning Signs'
+  creator: Andrea Suarez (Dr Dray)
+  creator_slug: andrea-suarez-dr-dray
+  credential: Board-certified dermatologist
+  channel: https://www.youtube.com/@DrDrayzday/videos
+  platform: YouTube
+  tier: HIGH
+  product_recs: null
+  conflict: null
+  posted: ''
+  feed_rank: 0
+  status: pending
+- id: WlPVkh_t91E
+  title: 'THEY MUST BE STOPPED! #dermreacts  #skincare  #dermatologist #dermangelo'
+  creator: Dr. Angelo Landriscina (DermAngelo)
+  creator_slug: angelo-landriscina
+  credential: Board-certified dermatologist
+  channel: https://www.youtube.com/@DermAngelo
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Own-brand UPF sun-protective clothing line, SOUL-A (wearsoula.com / @wearsoula), founded and promoted by him — apparel, not topical skincare
+  posted: ''
+  feed_rank: 6
+  status: pending
+- id: A8eK5ZleXRg
+  title: 'This is just dumb… #dermreacts  #skincare  #dermatologist #dermangelo'
+  creator: Dr. Angelo Landriscina (DermAngelo)
+  creator_slug: angelo-landriscina
+  credential: Board-certified dermatologist
+  channel: https://www.youtube.com/@DermAngelo
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Own-brand UPF sun-protective clothing line, SOUL-A (wearsoula.com / @wearsoula), founded and promoted by him — apparel, not topical skincare
+  posted: ''
+  feed_rank: 7
+  status: pending
+- id: lTTRMN-liTs
+  title: 'DON’T DO IT!!! #dermreacts  #skincare  #dermatologist #dermangelo'
+  creator: Dr. Angelo Landriscina (DermAngelo)
+  creator_slug: angelo-landriscina
+  credential: Board-certified dermatologist
+  channel: https://www.youtube.com/@DermAngelo
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Own-brand UPF sun-protective clothing line, SOUL-A (wearsoula.com / @wearsoula), founded and promoted by him — apparel, not topical skincare
+  posted: ''
+  feed_rank: 8
+  status: pending
+- id: auc9341LH-4
+  title: 'Why bleach baths work #dermreacts  #skincare  #dermatologist #dermangelo  #reactionvideo'
+  creator: Dr. Angelo Landriscina (DermAngelo)
+  creator_slug: angelo-landriscina
+  credential: Board-certified dermatologist
+  channel: https://www.youtube.com/@DermAngelo
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Own-brand UPF sun-protective clothing line, SOUL-A (wearsoula.com / @wearsoula), founded and promoted by him — apparel, not topical skincare
+  posted: ''
+  feed_rank: 9
+  status: pending
+- id: ZAvf9wPcH_c
+  title: 'Truth about Accutane #dermreacts  #skincare  #dermatologist #dermangelo'
+  creator: Dr. Angelo Landriscina (DermAngelo)
+  creator_slug: angelo-landriscina
+  credential: Board-certified dermatologist
+  channel: https://www.youtube.com/@DermAngelo
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Own-brand UPF sun-protective clothing line, SOUL-A (wearsoula.com / @wearsoula), founded and promoted by him — apparel, not topical skincare
+  posted: ''
+  feed_rank: 10
+  status: pending
+- id: wVBn3YfE_i4
+  title: 'Tretinoin vs Tazarotene: which one wins for acne and anti-aging?'
+  creator: Dr. Daniel Sugai
+  creator_slug: daniel-sugai
+  credential: Board-certified dermatologist
+  channel: https://www.youtube.com/@danielsugaimd
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Chief Medical Officer of hair-growth-serum brand REYUS; advisory-board member of Bubble Skincare; periodic disclosed paid brand partnerships
+  posted: ''
+  feed_rank: 6
+  status: pending
+- id: -e-QDrj3u1Y
+  title: Stop hair fall immediately | dermatologist suggests
+  creator: Dr. Aanchal MD
+  creator_slug: dr-aanchal-md
+  credential: Dr. Aanchal Panth, MD Dermatology, Venereology and Leprosy (AIIMS New Delhi), MBBS (Manipal); consultant dermatologist, Surat, India; IADVL member
+  channel: https://www.youtube.com/channel/UCMTl80jTQwGkO335HoVf0ig
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Maintains a Nykaa curated affiliate storefront; treat specific product picks as commercially incentivized (educational/mechanism content is fine).
+  posted: ''
+  feed_rank: 0
+  status: pending
+- id: CNXskdRtXCE
+  title: 'What is the right order to apply Skincare products? Dermatologist Explain #skincareproducts'
+  creator: Dr. Aanchal MD
+  creator_slug: dr-aanchal-md
+  credential: Dr. Aanchal Panth, MD Dermatology, Venereology and Leprosy (AIIMS New Delhi), MBBS (Manipal); consultant dermatologist, Surat, India; IADVL member
+  channel: https://www.youtube.com/channel/UCMTl80jTQwGkO335HoVf0ig
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Maintains a Nykaa curated affiliate storefront; treat specific product picks as commercially incentivized (educational/mechanism content is fine).
+  posted: ''
+  feed_rank: 8
+  status: pending
+- id: '7690945988566977805'
+  title: You can call me whenever you want 😉
+  creator: Fatima Fahs
+  creator_slug: fatima-fahs
+  credential: Dermatologist (MD)
+  channel: https://www.tiktok.com/@dermydoctor
+  platform: TikTok
+  tier: HIGH
+  product_recs: restricted
+  conflict: null
+  posted: '2026-09-29'
+  feed_rank: 0
+  status: pending
+- id: 6JI3wBR6hd4
+  title: 'My Autumn Ritual Box: 54% OFF Korean Skincare! DON''T MISS OUT'
+  creator: Gothamista
+  creator_slug: gothamista
+  credential: Skincare content creator (NOT a dermatologist or cosmetic chemist)
+  channel: https://www.youtube.com/@gothamista/videos
+  platform: YouTube
+  tier: MED
+  product_recs: null
+  conflict: does sponsorships - educational content only, never treat picks as endorsements, never use sponsored videos
+  posted: ''
+  feed_rank: 0
+  status: pending
+- id: '7691155368424017172'
+  title: i love being right
+  creator: Hannah English (@ms_hannah_e / Hannah Collingwood English)
+  creator_slug: hannah-english
+  credential: Skincare educator
+  channel: https://www.tiktok.com/@hannahcollingwoodenglish
+  platform: TikTok
+  tier: HIGH
+  product_recs: restricted
+  conflict: Co-developed/formulated the Tbh Skincare 'Rebound' Serum and Toner (product-formulation partnership) — her endorsement of that spe; no YouTube; TikTok/IG intake
+  posted: '2026-09-30'
+  feed_rank: 0
+  status: pending
+- id: '7691021308993293599'
+  title: Have you heard microneedling is just for your face? Let us clarify th...
+  creator: Dr. Ife Rodney (@driferodney)
+  creator_slug: ife-rodney
+  credential: Board-certified dermatologist
+  channel: https://www.tiktok.com/@dr.iferodney
+  platform: TikTok
+  tier: MED
+  product_recs: restricted
+  conflict: Founder & CEO of own hair-care brand, BLCK Hair Care (@blckhaircare), promoted in her Instagram bio — a product-formulation/owners
+  posted: '2026-09-29'
+  feed_rank: 0
+  status: pending
+- id: '7690787242461187342'
+  title: 'The anti-aging ingredient pyramid  #rejuall #pdrncopperpeptides #copp...'
+  creator: Jenn Lexi (@jennlexi_)
+  creator_slug: jennlexi
+  credential: Esthetician (self-identified); not a dermatologist or cosmetic chemist
+  channel: https://www.tiktok.com/@jennlexi_
+  platform: TikTok
+  tier: MED
+  product_recs: restricted
+  conflict: 'Runs #ad sponsored posts (e.g. TruSkin) and Target skincare hauls/reviews; prefer her educational ingredient-category and barrier-repair explainers, and treat product recommendations as effectively promotional (skip).'
+  posted: '2026-09-29'
+  feed_rank: 0
+  status: pending
+- id: rGUb_YJWiVc
+  title: '#skincare #skincareroutine #skincaretips #dermatologist #cloggedpores #acnetreatment'
+  creator: Dr. Jenny Liu (Jenny Liu, MD, FAAD)
+  creator_slug: jenny-liu
+  credential: Board-certified dermatologist
+  channel: https://www.youtube.com/@dr.jennyliu
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Runs an Amazon affiliate storefront (amazon.com/shop/derm.talk); recurring disclosed paid brand partnerships (Shiseido, SkinCeutic
+  posted: ''
+  feed_rank: 6
+  status: pending
+- id: '7690987162719997198'
+  title: 'Oily skin is not what it seems #kbeauty #koreanskincare #oilyskin #sk...'
+  creator: Kristin Leite (kristingl)
+  creator_slug: kristin-leite
+  credential: Beauty product developer and skincare educator (NOT a dermatologist or cosmetic chemist)
+  channel: https://www.tiktok.com/@kristingl
+  platform: TikTok
+  tier: MED
+  product_recs: null
+  conflict: runs an Amazon affiliate storefront and does sponsored posts - strongly prefer educational / how-to / ingredient-explainer videos; be very cautious with any product recommendation
+  posted: '2026-09-29'
+  feed_rank: 0
+  status: pending
+- id: cJeOnMoj1R4
+  title: It’s a no for me
+  creator: Dr. Maren Locke (The Budget Dermatologist)
+  creator_slug: maren-locke
+  credential: Board-certified dermatologist and fellowship-trained Mohs surgeon; founder/director of Carlyle Dermatology (Ocala, FL)
+  channel: https://www.youtube.com/channel/UCDc2wFMXTSApCa4UwDrdz_Q
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Runs extensive Amazon Associates and ShopMy affiliate storefronts, monetizing nearly every product mentioned across videos
+  posted: ''
+  feed_rank: 6
+  status: pending
+- id: Ix_f5D1uZas
+  title: Should you SPEND or SAVE on a Peptide Eye Cream!
+  creator: Dr. Maren Locke (The Budget Dermatologist)
+  creator_slug: maren-locke
+  credential: Board-certified dermatologist and fellowship-trained Mohs surgeon; founder/director of Carlyle Dermatology (Ocala, FL)
+  channel: https://www.youtube.com/channel/UCDc2wFMXTSApCa4UwDrdz_Q
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Runs extensive Amazon Associates and ShopMy affiliate storefronts, monetizing nearly every product mentioned across videos
+  posted: ''
+  feed_rank: 7
+  status: pending
+- id: Jmsh6sdRGQw
+  title: 'bad, good & great skincare for each skin concern #skincare'
+  creator: Dr. Neera Nathan
+  creator_slug: neera-nathan
+  credential: Board-certified dermatologist
+  channel: https://www.youtube.com/@dermatologysurgeon
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Runs a "Shop my Favorites" affiliate storefront (linktr.ee/dermatologysurgeon) that monetizes her product picks; no own-brand prod
+  posted: ''
+  feed_rank: 0
+  status: pending
+- id: t3EjYcXymbk
+  title: Focus on school they said 💀
+  creator: Tanya Kormeili, MD, FAAD
+  creator_slug: tanya-kormeili-md
+  credential: Board-certified dermatologist (American Board of Dermatology), FAAD, Clinical Professor of Dermatology at UCLA David Geffen School of Medicine; MD UCLA, residency UC Irvine
+  channel: https://www.youtube.com/channel/UCRK0TPthymHl44WeA0nZ6Mw
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Runs an own-brand practice storefront (Derm Rejuvenation Institute, Shopify); treat specific product picks as commercially incentivized.
+  posted: ''
+  feed_rank: 6
+  status: pending
+- id: GNkekHdkqs4
+  title: When you are shadowing a doctor 😭
+  creator: Tanya Kormeili, MD, FAAD
+  creator_slug: tanya-kormeili-md
+  credential: Board-certified dermatologist (American Board of Dermatology), FAAD, Clinical Professor of Dermatology at UCLA David Geffen School of Medicine; MD UCLA, residency UC Irvine
+  channel: https://www.youtube.com/channel/UCRK0TPthymHl44WeA0nZ6Mw
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Runs an own-brand practice storefront (Derm Rejuvenation Institute, Shopify); treat specific product picks as commercially incentivized.
+  posted: ''
+  feed_rank: 7
+  status: pending
+- id: w4g342-ta4Q
+  title: When you look at your coworkers 🫣
+  creator: Tanya Kormeili, MD, FAAD
+  creator_slug: tanya-kormeili-md
+  credential: Board-certified dermatologist (American Board of Dermatology), FAAD, Clinical Professor of Dermatology at UCLA David Geffen School of Medicine; MD UCLA, residency UC Irvine
+  channel: https://www.youtube.com/channel/UCRK0TPthymHl44WeA0nZ6Mw
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Runs an own-brand practice storefront (Derm Rejuvenation Institute, Shopify); treat specific product picks as commercially incentivized.
+  posted: ''
+  feed_rank: 8
+  status: pending
+- id: '7690938128185478414'
+  title: We know we shouldn’t pick at our skin but it’s good to have a plan wh...
+  creator: Ella (@your.estie.ella)
+  creator_slug: your-estie-ella
+  credential: Licensed esthetician (NOT a dermatologist or cosmetic chemist)
+  channel: https://www.tiktok.com/@your.estie.ella
+  platform: TikTok
+  tier: MED
+  product_recs: ok
+  conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan and reject any sponsored/affiliate/gifted video
+  posted: '2026-09-29'
+  feed_rank: 0
   status: pending
