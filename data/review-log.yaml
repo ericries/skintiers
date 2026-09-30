@@ -7649,3 +7649,8 @@ starface-hydro-star:
   score: 6
   verdict: revise
   note: 'Opus critic: verbatim quotes/price/''100% hydrocolloid'' confirmed vs cache; grade byte-identical to COSRX/Mighty Patch siblings. 5 fixes applied: added asterisk disclosure (''23-subject study over 5 days'', doesn''t match 6h headline); corrected false ''no incidecoder page'' (page exists, sole INCI Hydrocolloid, now cited inline as corroborator); un-trimmed alt-text + ''absorb gunk'' quotes; rewrote ''Big Yellow'' compact claim to brand wording.'
+yao-2025-rhegf-maxillofacial-trauma-meta-analysis:
+  last_reviewed: '2026-09-30'
+  score: 9
+  verdict: publish
+  note: 'Opus critic: all stats verbatim vs PubMed (OR=6.62 CI 3.14-13.92; MD=-2.69 CI -3.10 to -2.29; VSS/POSAS 6mo; IL-6/TNF-a p<0.05; conclusion exact). Abstract omits study-count/total-n; surgical-adjunct framing correct.'
