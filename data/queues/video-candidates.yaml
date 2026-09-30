@@ -1692,7 +1692,8 @@
   conflict: Maintains a Nykaa curated affiliate storefront; treat specific product picks as commercially incentivized (educational/mechanism content is fine).
   posted: ''
   feed_rank: 4
-  status: pending
+  status: skipped
+  skip_reason: hair-loss Q&A (hair oil/shampoo/serum); no page + affiliate-storefront picks
 - id: Czfwxy1pPxs
   title: 'What are the best treatments available in India to treat pigmentation Ft. Dr Geetanjali Shetty #skin'
   creator: Dr. Aanchal MD
@@ -1836,7 +1837,8 @@
   conflict: Advises Korean skincare brands entering the US market on clinical communication (consulting relationship, disclosed on her site); reviewed content was cross-brand and unsponsored. Scan each video at ingest.
   posted: ''
   feed_rank: 4
-  status: pending
+  status: skipped
+  skip_reason: microneedling-device cleaning; no microneedling page on site
 - id: VsNF20Uhyd4
   title: 'Dermatologist: Before You Buy an At-Home Laser Hair Removal Device, Watch This'
   creator: Dr. Sarah Sheu
@@ -2050,7 +2052,8 @@
   conflict: does sponsorships - educational content only, never treat picks as endorsements, never use sponsored videos
   posted: ''
   feed_rank: 4
-  status: pending
+  status: skipped
+  skip_reason: heatwave must-haves favorites/haul; MED creator, sponsorships, not single-topic education
 - id: h3iFE8q917E
   title: 'LED vs Laser Masks : Which One Fits Your Skin?'
   creator: Gothamista
