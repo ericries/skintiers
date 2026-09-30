@@ -7664,3 +7664,8 @@ hero-cosmetics-superlight-sunscreen-spf-30:
   score: 6
   verdict: revise
   note: 'Opus critic: quotes/price verbatim vs cache, grades fair. Applied all fixes: added DailyMed FDA label [^fda] as primary source for zinc oxide 17.53% + Broad Spectrum SPF 30 + uses (re-anchored standfirst/summary/evidence/bottom-line); fixed ''Clinically tested & non-irritating'' verbatim (&); softened own-voice ''suits acne-prone skin'' to composition-only; linked reef-safe aside to sunscreen-uv-filters; tightened UVB grade note; added comparator frontmatter.'
+ingrown-hairs:
+  last_reviewed: '2026-09-30'
+  score: 8
+  verdict: revise
+  note: 'Opus critic: all 4 Dalia 2023 quotes verbatim, honest PFB-routing, tier_list matches sibling PFB page. Fixed 2 uncited claims: dropped unsourced self-resolution/infection-scarring causal claim + bare ''do not dig it out'' imperative (kept supportable ''change hair removal'' framing); added Nussbaum 2019 citation for the curly/coarse-hair risk factor.'

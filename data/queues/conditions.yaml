@@ -259,7 +259,7 @@
     from pseudofolliculitis barbae; source: PFB treatment reviews)'
   type: condition
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: null
 - name: Basal cell carcinoma (most common skin cancer; nonmelanoma; NCI Skin Cancer
