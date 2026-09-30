@@ -42,6 +42,16 @@ videos:
   related: [dry-skin, hyaluronic-acid, moisturizing]
   thesis: Board-certified dermatologist Dr. Jenny Liu explains that oily skin can still be dehydrated, because oil and water are not the same thing and higher oil production does not protect the skin from water loss. She frames dehydration as a temporary status that any skin type can develop, distinct from dry skin as a type, and the idea behind the trending Korean 'soobooji' term for skin that is oily yet lacks water. Her takeaway is that oily, dehydrated skin needs water-based hydration rather than only oil control.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Oily skin is not what it seems
+  creator: Kristin Leite
+  creator_slug: kristin-leite
+  credential: Beauty product developer and skincare educator (not a dermatologist or cosmetic chemist)
+  platform: TikTok
+  url: https://www.tiktok.com/@kristingl/video/7690987162719997198
+  posted: '2026-09-29'
+  related: [moisturizing, hyaluronic-acid]
+  thesis: 'Skincare educator Kristin Leite explains that oily skin does not necessarily need only super-lightweight products. Her point is that oily skin still needs a balance of hydration (water content) and moisture (oil content), and that the right textures depend on the person and the climate: she reaches for gel creams in humid New York summers but thicker creams in dry winters. The practical takeaway is not to box oily skin into a lightweight-only routine, especially if that approach is not working.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
