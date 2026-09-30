@@ -433,7 +433,7 @@
   last_pulled: '2026-09-28'
 - name: Dr. Neera Nathan
   creator_slug: neera-nathan
-  backfill_cursor: 15
+  backfill_cursor: 30
   credential: Board-certified dermatologist
   tier: HIGH
   channel: https://www.youtube.com/@dermatologysurgeon

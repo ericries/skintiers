@@ -7,6 +7,18 @@ status: published
 tier: weak
 type: ingredient
 updated: '2026-09-26'
+videos:
+- title: Pimple patches are just hydrocolloid pads
+  creator: Dr. Neera Nathan
+  creator_slug: neera-nathan
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=X5DAUauyYMM
+  posted: '2026-08-27'
+  related: [acne, cosrx-acne-pimple-master-patch, blackheads-comedones-congestion]
+  thesis: Board-certified dermatologist Dr. Neera Nathan explains that acne pimple patches are simply small hydrocolloid pads, the same wound-dressing material sold far more cheaply by the roll or in bulk packs in the pharmacy wound-care aisle. Her tip is to buy plain hydrocolloid pads or tape and cut them to size for a pimple rather than paying a large markup for branded patches, since it is the same material. She describes applying the hydrocolloid to a surfaced pimple, blister, or bug bite to help it heal.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Hydrocolloid is a gel-forming wound-dressing material, developed for chronic wounds, blisters, and pressure ulcers, that skincare sells as the adhesive sticker known as a pimple patch or acne patch.
