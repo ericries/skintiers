@@ -7654,3 +7654,8 @@ yao-2025-rhegf-maxillofacial-trauma-meta-analysis:
   score: 9
   verdict: publish
   note: 'Opus critic: all stats verbatim vs PubMed (OR=6.62 CI 3.14-13.92; MD=-2.69 CI -3.10 to -2.29; VSS/POSAS 6mo; IL-6/TNF-a p<0.05; conclusion exact). Abstract omits study-count/total-n; surgical-adjunct framing correct.'
+terminalia-chebula:
+  last_reviewed: '2026-09-30'
+  score: 7
+  verdict: revise
+  note: 'Opus critic: both PubMed quotes byte-exact, no fabrication, tier:weak earned (in-vitro Liang + mouse Majed, no human trial). Applied all 5 fixes: added vitamin-c/niacinamide comparator to rubric, cited opening sentence to Liang, softened skin-penetration inference to what sources support, merged redundant What-We-Know into The Evidence, dropped ''in this search'' phrasing.'
