@@ -7639,3 +7639,8 @@ prurigo-nodularis:
   score: 10
   verdict: publish
   note: 'Opus critic: all Kim quotes verbatim vs PMID 41219577, disease framing correct (physician-managed, dupilumab first approved, efficacy numbers kept OFF-hub and linked to the study page), skincare bounded to supportive. Applied its one citation-scope nicety: moved [^kim] to cover only the quoted claim, not the appended MOA description.'
+hero-cosmetics-mighty-patch-original:
+  last_reviewed: '2026-09-29'
+  score: 9
+  verdict: revise-then-fixed
+  note: 'Opus critic: price ($12.99/36) + all quotes verbatim vs cached herocosmetics.us, INCI (single ''Hydrocolloid'', no actives) accurate, grade a textbook match to hydrocolloid (weak), incidecoder inline-only, marketing quarantined. One fix: standfirst stated ''best-selling'' as house-voice fact; reattributed to Hero''s own ''#1 best-selling acne patch'' claim.'
