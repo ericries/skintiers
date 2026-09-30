@@ -8468,7 +8468,8 @@
   conflict: null
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: dengue fever rash/petechiae; off-topic infectious-disease, no page
 - id: WlPVkh_t91E
   title: 'THEY MUST BE STOPPED! #dermreacts  #skincare  #dermatologist #dermangelo'
   creator: Dr. Angelo Landriscina (DermAngelo)
@@ -8559,7 +8560,8 @@
   conflict: Maintains a Nykaa curated affiliate storefront; treat specific product picks as commercially incentivized (educational/mechanism content is fine).
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: hair-fall remedy; no hair-loss page + affiliate storefront picks
 - id: CNXskdRtXCE
   title: 'What is the right order to apply Skincare products? Dermatologist Explain #skincareproducts'
   creator: Dr. Aanchal MD
@@ -8598,7 +8600,8 @@
   conflict: does sponsorships - educational content only, never treat picks as endorsements, never use sponsored videos
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: Autumn Ritual Box 54% off; sponsored Korean-skincare promo haul
 - id: '7691155368424017172'
   title: i love being right
   creator: Hannah English (@ms_hannah_e / Hannah Collingwood English)
@@ -8702,7 +8705,8 @@
   conflict: Runs a "Shop my Favorites" affiliate storefront (linktr.ee/dermatologysurgeon) that monetizes her product picks; no own-brand prod
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: concern-by-concern picks roundup; monetized via affiliate storefront, treat picks as paid
 - id: t3EjYcXymbk
   title: Focus on school they said 💀
   creator: Tanya Kormeili, MD, FAAD
