@@ -7644,3 +7644,8 @@ hero-cosmetics-mighty-patch-original:
   score: 9
   verdict: revise-then-fixed
   note: 'Opus critic: price ($12.99/36) + all quotes verbatim vs cached herocosmetics.us, INCI (single ''Hydrocolloid'', no actives) accurate, grade a textbook match to hydrocolloid (weak), incidecoder inline-only, marketing quarantined. One fix: standfirst stated ''best-selling'' as house-voice fact; reattributed to Hero''s own ''#1 best-selling acne patch'' claim.'
+starface-hydro-star:
+  last_reviewed: '2026-09-30'
+  score: 6
+  verdict: revise
+  note: 'Opus critic: verbatim quotes/price/''100% hydrocolloid'' confirmed vs cache; grade byte-identical to COSRX/Mighty Patch siblings. 5 fixes applied: added asterisk disclosure (''23-subject study over 5 days'', doesn''t match 6h headline); corrected false ''no incidecoder page'' (page exists, sole INCI Hydrocolloid, now cited inline as corroborator); un-trimmed alt-text + ''absorb gunk'' quotes; rewrote ''Big Yellow'' compact claim to brand wording.'

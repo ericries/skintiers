@@ -2212,7 +2212,8 @@
   conflict: has an own-brand line (Selfless) and does sponsorships - educational content only, never treat picks as endorsements, never use sponsored videos
   posted: ''
   feed_rank: 4
-  status: pending
+  status: skipped
+  skip_reason: quitting nicotine/vapes/Zyn; off-topic (not skincare), no matching page
 - id: '7684416041555954957'
   title: Social media gives you trends. Your dermatologist gives you a treatme...
   creator: Dr. Ife Rodney (@driferodney)
