@@ -7674,3 +7674,8 @@ clinique-take-the-day-off-cleansing-oil:
   score: 7
   verdict: revise
   note: 'Opus critic: all quotes/price/INCI verbatim vs cache, grade mirrors balm sibling. Fixed: dropped unverified ''(200 ml)'' conversion (cache says only 6.7 fl oz); gave incidecoder-discontinued note its own checkable inline pointer instead of orphan [^clinique]; added ''Free From: Fragrance, Parabens, Phthalates'' corroboration (verified in cache) for parity with balm; ''PEG-type''->''PEG- and PPG-type''.'
+farmacy-green-clean-fragrance-free-cleansing-balm:
+  last_reviewed: '2026-10-01'
+  score: 8
+  verdict: revise
+  note: 'Opus critic: all quotes/price(100ml 3.4oz=$39)/18-ingredient INCI verbatim vs cache, no fragrance confirmed, 99% claim correctly quarantined as brand clinical-test not independent trial, grade matches sibling. Fixed 2 editorializing phrases (a genuine plus->a plausible benefit; dropped ''version to choose''/''pick it'' instruction for factual framing).'

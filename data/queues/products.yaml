@@ -2686,7 +2686,7 @@
     Farmacy)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: farmacy-green-clean-makeup-removing-cleansing-balm
   source: https://www.farmacybeauty.com/
 - name: Clinique Dramatically Different Moisturizing Lotion+ (Clinique's iconic 'yellow'
@@ -2724,3 +2724,10 @@
   discovered_from: clinique-take-the-day-off-cleansing-oil
   source: Clinique Take The Day Off line sibling; water-based micellar makeup remover,
     a distinct first-cleanse format from the oil/balm
+- name: Farmacy Honeymoon Glow AHA Resurfacing Night Serum
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: farmacy-green-clean-fragrance-free-cleansing-balm
+  source: Farmacy catalog (brand now on-site); popular AHA/BHA resurfacing serum,
+    grounds glycolic/lactic-acid evidence
