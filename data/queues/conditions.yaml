@@ -270,3 +270,10 @@
   status: pending
   discovered_from: actinic-keratosis
   source: https://www.cancer.gov/types/skin/hp/skin-treatment-pdq
+- name: Tinea capitis (scalp ringworm)
+  type: condition
+  priority: 5
+  status: pending
+  discovered_from: griseofulvin
+  source: Griseofulvin + terbinafine ingredient pages both treat tinea capitis; no
+    scalp-ringworm condition hub exists yet

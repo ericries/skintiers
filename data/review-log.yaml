@@ -7689,3 +7689,8 @@ layton-2026-acne-quality-of-life-burden-systematic-review:
   score: 8
   verdict: publish
   note: 'Opus critic unavailable (session 200-agent cap); main-loop self-verify: all quoted strings verbatim vs PubMed abstract (101 studies, emotional/psychological domains, adults/females/severe, 2014-2024, Europe/N America). Framed as burden evidence not a treatment test; limitations (heterogeneity, no pooled estimate, geo/language scope, 2 Sanofi authors) accurate. Links acne.'
+griseofulvin:
+  last_reviewed: '2026-10-01'
+  score: 8
+  verdict: publish
+  note: 'Opus critic unavailable (session 200-agent cap); main-loop self-verify: all meta-analysis stats verbatim vs PubMed (OR 1.22 CI 0.785-1.919; Trichophyton 1.616 CI 1.274-2.051; Microsporum 0.408 CI 0.254-0.656; 7 RCTs/2163) + mechanism/indication verbatim vs DailyMed FDA label. tier:good consistent with terbinafine/ketoconazole; framed as oral Rx antifungal not skincare, no Malassezia claim.'
