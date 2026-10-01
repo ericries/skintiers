@@ -7694,3 +7694,8 @@ griseofulvin:
   score: 8
   verdict: publish
   note: 'Opus critic unavailable (session 200-agent cap); main-loop self-verify: all meta-analysis stats verbatim vs PubMed (OR 1.22 CI 0.785-1.919; Trichophyton 1.616 CI 1.274-2.051; Microsporum 0.408 CI 0.254-0.656; 7 RCTs/2163) + mechanism/indication verbatim vs DailyMed FDA label. tier:good consistent with terbinafine/ketoconazole; framed as oral Rx antifungal not skincare, no Malassezia claim.'
+philips-lumea-ipl-9000-series:
+  last_reviewed: '2026-10-01'
+  score: 7
+  verdict: revise
+  note: 'Opus critic unavailable (session 200-agent cap); main-loop self-verify: Philips meta-claim (''clinically proven up to 5 years smooth-feeling skin*'', 4 attachments) verbatim vs cache; Cochrane 50%/no-long-term quotes verbatim vs PubMed 17054211. Grade modest/weak mirrors Braun sibling, routes to laser-hair-removal, brand clinical claim quarantined. Price omitted (Philips SPA exposed none; not fabricated); image_unresolvable (no rendered product image).'
