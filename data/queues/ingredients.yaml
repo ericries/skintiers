@@ -1731,3 +1731,10 @@
   status: pending
   discovered_from: chen-2026-denifanstat-phase2-acne
   source: https://pubmed.ncbi.nlm.nih.gov/41186280/
+- name: Lanolin
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: clinique-dramatically-different-moisturizing-lotion-plus
+  source: DDML+ INCI (lanolin alcohol); a classic occlusive emollient and a standard
+    patch-test contact allergen, worth an evidence page
