@@ -7669,3 +7669,8 @@ ingrown-hairs:
   score: 8
   verdict: revise
   note: 'Opus critic: all 4 Dalia 2023 quotes verbatim, honest PFB-routing, tier_list matches sibling PFB page. Fixed 2 uncited claims: dropped unsourced self-resolution/infection-scarring causal claim + bare ''do not dig it out'' imperative (kept supportable ''change hair removal'' framing); added Nussbaum 2019 citation for the curly/coarse-hair risk factor.'
+clinique-take-the-day-off-cleansing-oil:
+  last_reviewed: '2026-09-30'
+  score: 7
+  verdict: revise
+  note: 'Opus critic: all quotes/price/INCI verbatim vs cache, grade mirrors balm sibling. Fixed: dropped unverified ''(200 ml)'' conversion (cache says only 6.7 fl oz); gave incidecoder-discontinued note its own checkable inline pointer instead of orphan [^clinique]; added ''Free From: Fragrance, Parabens, Phthalates'' corroboration (verified in cache) for parity with balm; ''PEG-type''->''PEG- and PPG-type''.'

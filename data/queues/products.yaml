@@ -2678,7 +2678,7 @@
     Take The Day Off balm; first-cleanse makeup/sunscreen removal; belongs on best-cleansing-balms-oil-cleansers)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: clinique-take-the-day-off-cleansing-balm
   source: https://incidecoder.com/products/clinique-take-the-day-off-cleansing-oil
 - name: Farmacy Green Clean Fragrance-Free Cleansing Balm (fragrance-free variant
@@ -2717,3 +2717,10 @@
   discovered_from: ingrown-hairs
   source: Ingrown-hairs hub; popular OTC ingrown-hair concentrate (salicylic/glycolic/tea
     tree) in the same keratolytic category as Tend Skin
+- name: Clinique Take The Day Off Micellar Cleansing Jelly
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: clinique-take-the-day-off-cleansing-oil
+  source: Clinique Take The Day Off line sibling; water-based micellar makeup remover,
+    a distinct first-cleanse format from the oil/balm
