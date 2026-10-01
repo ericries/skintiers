@@ -8609,7 +8609,8 @@
   conflict: Co-developed/formulated the Tbh Skincare 'Rebound' Serum and Toner (product-formulation partnership) — her endorsement of that spe; no YouTube; TikTok/IG intake
   posted: '2026-09-30'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: vague 'i love being right' clip, no single-topic skincare subject
 - id: '7691021308993293599'
   title: Have you heard microneedling is just for your face? Let us clarify th...
   creator: Dr. Ife Rodney (@driferodney)
@@ -8779,7 +8780,8 @@
   conflict: Founder/owner of active postpartum skincare brand "More Than Nine" (cleanser, exfoliator, moisturizer, balm) — an ongoing own-bran
   posted: '2026-09-30'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: MuthaLife collab/motherhood vlog, not single-topic education
 - id: vznooQnQoZM
   title: Best Vitamin C for Your Skin Type
   creator: Dr. Aleksandra Brown, DO, FAAD
@@ -8884,7 +8886,8 @@
   conflict: null
   posted: '2026-09-30'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: heat damage/split ends; haircare, no matching page
 - id: '7691507705898388756'
   title: finally filmed and edited with this palette and wowwwww 😭🙌🏻😭🙌🏻😭🙌🏻😭🙌🏻 ...
   creator: Hannah English (@ms_hannah_e / Hannah Collingwood English)
@@ -8897,7 +8900,8 @@
   conflict: Co-developed/formulated the Tbh Skincare 'Rebound' Serum and Toner (product-formulation partnership) — her endorsement of that spe; no YouTube; TikTok/IG intake
   posted: '2026-10-01'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: makeup palette clip, emoji-stuffed, not single-topic skincare
 - id: '7691455402248113428'
   title: ad| Ever wondered about the science of Advanced Night Repair? I could...
   creator: Hannah English (@ms_hannah_e / Hannah Collingwood English)
@@ -8923,7 +8927,8 @@
   conflict: Founder & CEO of own hair-care brand, BLCK Hair Care (@blckhaircare), promoted in her Instagram bio — a product-formulation/owners
   posted: '2026-09-30'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: vague 'trust the experts' skin+hair clip, no single-topic subject; MED + own hair brand
 - id: mpF1C4f-fEA
   title: The Disturbing Rise of “Tanmaxxing” And Why Gen Z is OBSESSED
   creator: James Welsh
@@ -8962,7 +8967,8 @@
   conflict: runs an Amazon affiliate storefront and does sponsored posts - strongly prefer educational / how-to / ingredient-explainer videos; be very cautious with any product recommendation
   posted: '2026-09-30'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: '''my daily routine, I own hundreds of products'' picks video; affiliate-storefront creator, picks effectively paid'
 - id: '7691334151940689165'
   title: In my practice, these are the best combo of ingredients that I’ve see...
   creator: ''
