@@ -3865,7 +3865,8 @@
   conflict: Runs an own-brand practice storefront (Derm Rejuvenation Institute, Shopify); treat specific product picks as commercially incentivized.
   posted: ''
   feed_rank: 4
-  status: pending
+  status: skipped
+  skip_reason: men's skincare but pivots to own-practice pitch (medical-grade/procedures/'put together a program'); no substantive single-topic education, no named actives
 - id: 2Cm_6IqvtIQ
   title: Everything You Need to Know About Chemical Peels
   creator: Tanya Kormeili, MD, FAAD
@@ -4011,7 +4012,8 @@
   conflict: sell a small own-brand product line - skip own-brand promos
   posted: ''
   feed_rank: 4
-  status: pending
+  status: skipped
+  skip_reason: Soko Glam 5-sunscreen roundup with '@Soko Glam' collaboration tag; brand collab, + own-brand creator
 - id: jHuuvPYdnC0
   title: Our products are now available @Soko Glam !
   creator: Chemist Confessions (Victoria Fu and Gloria Lu)
