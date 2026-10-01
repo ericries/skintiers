@@ -3181,7 +3181,8 @@
   conflict: Runs extensive Amazon Associates and ShopMy affiliate storefronts, monetizing nearly every product mentioned across videos
   posted: ''
   feed_rank: 4
-  status: pending
+  status: skipped
+  skip_reason: Alix Earle Reale Actives + budget-dupes roundup; extensive Amazon/ShopMy affiliate monetization on nearly every pick
 - id: cy7rphquFis
   title: I Tested Skin Barrier Repair Products in Extreme Dryness…Here’s What Actually Worked!
   creator: Dr. Maren Locke (The Budget Dermatologist)
@@ -3488,7 +3489,8 @@
   conflict: Runs a "Shop my Favorites" affiliate storefront (linktr.ee/dermatologysurgeon) that monetizes her product picks; no own-brand prod
   posted: ''
   feed_rank: 4
-  status: pending
+  status: skipped
+  skip_reason: Korean-sunscreen ratings roundup; picks monetized via 'Shop my Favorites' affiliate storefront
 - id: o_OCGDzD8lk
   title: 'diaper rash cream on your face? #skincare stitch with glowwithlyss'
   creator: Dr. Neera Nathan
@@ -3605,7 +3607,8 @@
   conflict: has an own-brand line (Dr Sam's) - skip own-brand promos
   posted: ''
   feed_rank: 4
-  status: pending
+  status: skipped
+  skip_reason: 'own-brand launch: entirely promotes Dr Sam''s Flawless Body Cleanser'
 - id: 5xALFP27VRM
   title: Wake Up to Better Skin - My Exact Night Routine | Dr Sam Bunting
   creator: Dr. Sam Bunting
