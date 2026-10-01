@@ -4039,7 +4039,8 @@
   conflict: has an own-brand line - skip own-brand promos
   posted: ''
   feed_rank: 4
-  status: pending
+  status: skipped
+  skip_reason: '''The Burning Truth'' trailer; promotional/own-brand, not single-topic education'
 - id: '7685104330969500941'
   title: 'NOT an ad ✨ just a review 😘 #hpt6 #antiagingroutine #skinbarrier #cre...'
   creator: Ella (@your.estie.ella)
@@ -6398,7 +6399,8 @@
   conflict: Own-brand skincare line BeautyRx by Dr. Schultz (beautyrx.com); treat product picks as commercially incentivized. Channel largely inactive since ~2014, useful mainly for evergreen back-catalog (backfill).
   posted: ''
   feed_rank: 4
-  status: pending
+  status: skipped
+  skip_reason: The Progressive Peel is his own-brand BeautyRx product; own-brand promo
 - id: 7dXNZNON61w
   title: 'Do You Need to Wear Sunscreen in an Airplane [DermTV.com Epi #561]'
   creator: Dr. Neal Schultz (DermTV)
