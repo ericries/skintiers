@@ -9025,7 +9025,8 @@
   conflict: Self-describes as a "Key Opinion Leader for industry beauty companies" (per her own practice bio) and most sampled TikTok videos e; no YouTube; TikTok/IG intake
   posted: '2026-09-30'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: vague 'PSA for women' clip, no single-topic skincare subject; KOL-for-brands conflict
 - id: '7691360635581402382'
   title: 5 years ago I was diagnosed with postpartum depression & anxiety…a mo...
   creator: Ella (@your.estie.ella)
@@ -9038,4 +9039,5 @@
   conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan and reject any sponsored/affiliate/gifted video
   posted: '2026-09-30'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: personal postpartum depression/anxiety story, not skincare education

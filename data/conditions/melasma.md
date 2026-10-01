@@ -113,6 +113,16 @@ videos:
   related: [hyperpigmentation, sunscreen-uv-filters, tranexamic-acid, hydroquinone, arbutin, kojic-acid]
   thesis: 'Board-certified dermatologist Dr. Davin Lim explains what drives sun-induced pigmentation and melasma, describing pigmentation as the result of three interacting factors: genetics, sun exposure, and hormones. He notes that both ultraviolet and visible light stimulate the skin''s melanocytes to make more pigment, and that melasma, sometimes called the mask of pregnancy, is hormonally influenced; by his account roughly 50 to 60 percent of pregnancy-related cases settle on their own while 40 to 50 percent persist and need treatment. For persistent pigment he describes the dermatologist''s toolkit as daily sunscreen plus tyrosinase-inhibiting anti-pigment creams, oral tablets that reduce the blood supply feeding pigment cells such as tranexamic acid, and in-clinic lasers and chemical peels.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: The best combo of ingredients for stubborn dark spots
+  creator: Dr. Mamina Turegano
+  creator_slug: mamina-turegano
+  credential: Board-certified dermatologist
+  platform: TikTok
+  url: https://www.tiktok.com/@dr.mamina/video/7691334151940689165
+  posted: '2026-09-30'
+  related: [hyperpigmentation, hydroquinone, tretinoin, glycolic-acid, tranexamic-acid, kojic-acid]
+  thesis: 'Dermatologist Dr. Mamina Turegano explains the ingredient combination she uses for stubborn melasma and dark spots: hydroquinone to shut down excess melanin at the source, tretinoin to speed cell turnover so pigment clears and other actives penetrate deeper, and an exfoliant such as glycolic acid to clear pigmented cells at the surface. She notes hydroquinone must be used in breaks rather than indefinitely, and that non-hydroquinone options such as tranexamic acid or kojic acid paired with tretinoin can substitute. Her point is that treating dark spots works best as a combination of ingredients doing different jobs, not any single product.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
