@@ -3676,7 +3676,8 @@
   conflict: founder of the Prequel skincare brand - skip videos mainly promoting her own products
   posted: ''
   feed_rank: 4
-  status: pending
+  status: skipped
+  skip_reason: Korean makeup favorites roundup; makeup not skincare + own-brand Prequel conflict
 - id: KLK3TRLrG6c
   title: Introducing Prequel's NEW Multi-Quench Gel Cream Moisturizer | Dr. Sam Ellis
   creator: Dr. Sam Ellis
@@ -8817,7 +8818,8 @@
   conflict: Own-brand UPF sun-protective clothing line, SOUL-A (wearsoula.com / @wearsoula), founded and promoted by him — apparel, not topical skincare
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: '#shorts filler-dissolving clip; Shorts format, no filler page on site'
 - id: ayUoN5wSVtE
   title: 'Hate this genre #dermreacts  #skincare  #dermatologist #dermangelo'
   creator: Dr. Angelo Landriscina (DermAngelo)
@@ -8999,7 +9001,8 @@
   conflict: Runs a "Shop my Favorites" affiliate storefront (linktr.ee/dermatologysurgeon) that monetizes her product picks; no own-brand prod
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: Trader Joe's haircare rating; off-topic (haircare) + affiliate-storefront picks
 - id: '7691127892641664286'
   title: Ok but seriously, this is a PSA for the women who think they will com...
   creator: Dr. Sheila Farhang (dr.sheila_derm)

@@ -89,6 +89,16 @@ videos:
   related: [sunscreen-uv-filters, anti-aging]
   thesis: Board-certified dermatologist Dr. Aegean Chan explains that UV damage is, in her view, the number one driver of skin aging. She describes how chronic sun exposure degrades the skin's collagen and elastic fibers, producing a change dermatologists call solar elastosis, which she nicknames mushy collagen. Her skeptical takeaway is to judge anti-aging product claims against that reality, asking whether any cream could truly reverse decades of accumulated UV damage.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: The disturbing rise of tanmaxxing
+  creator: James Welsh
+  creator_slug: james-welsh
+  credential: Skincare content creator (not a dermatologist or cosmetic chemist)
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=mpF1C4f-fEA
+  posted: '2026-09-30'
+  related: [sunscreen-uv-filters, anti-aging]
+  thesis: Skincare educator James Welsh breaks down tanmaxxing, a social-media trend of deliberately maximizing a tan through sun exposure, tanning beds, and unregulated melanotan tanning products. He argues the trend is driven by misinformation, including overstated vitamin D claims, and warns that these practices raise skin cancer risk and drive premature aging such as wrinkles and collagen loss, because UV exposure is the cause. His takeaway is that a maximized tan is UV damage, not a sign of health.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

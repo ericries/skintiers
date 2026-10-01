@@ -345,3 +345,10 @@
   topics:
   - hyaluronic acid
   status: pending
+- name: JaymesPlays1
+  channel_url: https://www.youtube.com/@JaymesPlays1
+  hits: 1
+  topics:
+  - referral
+  discovered_via: 'referral: https://www.youtube.com/watch?v=mpF1C4f-fEA'
+  status: pending
