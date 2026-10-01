@@ -7375,10 +7375,10 @@ estee-lauder-advanced-night-repair-serum:
   note: "Opus critic verified ALL load-bearing facts vs cached esteelauder.com: price $135/1.7oz exact, all brand quote\ns verbatim (headline, 60M-peptide-variations, Nobel-circadian, clinical figures +128% moisture/148w-1app, -14%\n fine lines/+10% elasticity/26w-12h, 91% rested/543w-3wk, 72h hydration, FAQ 'does not contain Retinol'), INCI\n 43/43 exact (bifida ferment lysate 2nd; NO retinoid, NO vitamin C confirmed). Skeptical spine EXEMPLARY: bran\nd clinical figures quarantined as unpublished/small-n/short-follow-up (not relayed as fact); ferments/peptides\n framed as modest supporting ingredients; no-retinoid/no-vitamin-C stated in lede+summary+evidence+bottom-line\n; bifida evidence synced to [[bifida-ferment-lysate]] page, not overstated. VERDICT revise (7/10, zero Critica\nl). Applied: dropped an uncited size lineup (D1 blocker), corrected 'identical to brand list' (brand adds pine\nne), elided an em-dash-to-comma quote substitution to an honest ellipsis, softened 50mL to '~50 mL'.\
     \ Force-pub\nlished at assurance=sonnet."
 basal-cell-carcinoma:
-  last_reviewed: '2026-09-21'
-  score: 10
+  last_reviewed: '2026-10-01'
+  score: 8
   verdict: publish
-  note: "Opus critic verified all quotes verbatim vs NCI Skin Cancer PDQ (cancer.gov, live) + cached AAD BCC page: 'mos\nt common type of skin cancer', 'may spread to tissues around the cancer, but usually does not spread', 'rarely\n spreads', full risk-factor list, 'people of all skin colors can get skin cancer', Simple excision/Mohs; AAD w\narning-sign list + lighter/darker skin-tone descriptions + 'bleed, crust over, and break open' + board-certifi\ned-dermatologist advice all verbatim. MEDICAL SAFETY PASS: no treatment/product advice, physician-diagnosed/tr\neated, derm referral for new/changing/non-healing spot, explicit do-not-delay, no tier_list. Not understated (\nrarely metastasizes BUT locally destructive). 10/10, VERDICT publish. Applied 1 nuance fix: bounded the sunscr\neen clause (RCT signal clearest for SCC/melanoma, not BCC-specific) and moved [^nci] to the risk-factor half. \nDisclaimer-before-recognition kept consistent with melanoma.md."
+  note: 'Opus critic unavailable (session 200-agent cap); main-loop self-verify: all AAD quotes verbatim vs cache fe1eeca8 (fixed a misquote: ''shiny, raised''->''firm, raised, round growth that''s shiny and pink or red''); NCI PDQ quotes reused verbatim from squamous-cell-carcinoma sibling (cancer.gov primary). Physician-managed framing mirrors SCC hub, prevention routed to sunscreen; no tier_list (no skincare actives to grade). assurance:sonnet.'
 mens-skincare-routine:
   last_reviewed: '2026-09-21'
   score: 9
