@@ -584,7 +584,8 @@
   conflict: Recurring paid partnerships (Dermatica affiliate code "DRALEXIS" on multiple videos, La Roche-Posay branded partner content, SkinBetter Scie
   posted: ''
   feed_rank: 5
-  status: pending
+  status: skipped
+  skip_reason: collagen-supplement promo with overstated 'proven effective' efficacy + 'highly recommend/details below' CTA (affiliate-conflicted creator); ingestible supplements off-core + overstated claims
 - id: E14yJVDP8bM
   title: 4 Signs Your Scalp Is Aging
   creator: Dr. Alexis Stephens
