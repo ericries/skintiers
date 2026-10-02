@@ -426,6 +426,16 @@ videos:
   related: [hormonal-acne, oily-skin]
   thesis: 'Board-certified dermatologist Dr Dray (Andrea Suarez) explains how certain dietary supplements can affect the skin, with acne as a focus. Her central example is whey protein: she describes an association between whey protein and acne flares that is biologically plausible because whey raises IGF-1 and insulin, hormones that signal the oil glands to produce more sebum, while stressing that association does not prove causation. She keeps the discussion measured, treating the evidence as genuinely uncertain rather than framing any supplement as a guaranteed acne trigger.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Consistency really is that important
+  creator: Ella
+  creator_slug: your-estie-ella
+  credential: Licensed esthetician (not a dermatologist or cosmetic chemist)
+  platform: TikTok
+  url: https://www.tiktok.com/@your.estie.ella/video/7691869902717586701
+  posted: '2026-10-02'
+  related: [blackheads-comedones-congestion]
+  thesis: Licensed esthetician Ella explains that acne is a cycle, so treating it only when new spots appear is why it does not fully clear. She describes how a breakout forms (a pore clogs, acne bacteria flood it, inflammation follows, and it can progress to a cystic lesion) and argues that consistently treating the whole cycle rather than spot-treating flare-ups is what clears acne-prone skin. She also stresses building a simple base routine of cleanser, moisturizer, and sunscreen and giving it time to work.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
