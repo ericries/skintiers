@@ -50,6 +50,16 @@ videos:
   related: [anti-aging, retinoids, peptides]
   thesis: 'Board-certified dermatologist Dr. Tanya Kormeili explains why skin ages faster around perimenopause and menopause: the decline in estrogen removes a key stimulus for the skin to make collagen and elastin, so skin becomes thinner, more wrinkled, and less firm. She frames collagen as something you can keep building rather than only lose, through daily sun protection and, working with a dermatologist, collagen-stimulating options such as retinoids, peptides, lasers, and biostimulatory procedures.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Perimenopause is changing your skin
+  creator: Dr. Shereene Idriss
+  creator_slug: shereene-idriss
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=gi310RYORzM
+  posted: '2026-01-17'
+  related: [anti-aging, skin-barrier-repair]
+  thesis: 'Board-certified dermatologist Dr. Shereene Idriss explains why skin can seem to change abruptly in the early 40s: perimenopause, the hormonal transition that can begin up to ten years before menopause. She stresses that the driver is hormonal instability and fluctuation, not simply hormone loss, and that because skin relies on hormonal signaling for hydration, barrier function, collagen production, and inflammation control, the instability shows up as dryness, pigment changes, breakouts, and redness, often all at once. Her guidance is to respond with a calm, consistent plan rather than panic, trend-chasing, or over-treatment.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
