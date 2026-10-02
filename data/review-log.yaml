@@ -7719,3 +7719,8 @@ upadacitinib:
   score: 8
   verdict: publish
   note: 'Opus critic unavailable (session 200-agent cap); main-loop self-verify: Ronnstad EASI-75/90 (83%/55% upadacitinib, 75%/38% abro, 51%/24% bari) + AE figures + ''few studies reported serious AEs'' verbatim vs PubMed; boxed warning + refractory-AD indication + combination caution verbatim vs DailyMed Rinvoq label. tier:good (large efficacy, 2nd-line Rx, boxed-warning safety). Routes AD to hub. assurance:sonnet.'
+tinea-capitis:
+  last_reviewed: '2026-10-02'
+  score: 8
+  verdict: publish
+  note: 'Opus critic unavailable (session 200-agent cap); main-loop self-verify: all Gupta 2018 quotes verbatim vs PubMed (most common childhood cutaneous fungal infection; complete cure 72%/92%; species split; 1.0% discontinuation; T. tonsurans; hairbrush sampling) + Tey 2011 species quotes verbatim (reused from griseofulvin). Physician-managed oral-antifungal framing, routes to griseofulvin/terbinafine; no tier_list (prescription systemic care). assurance:sonnet.'

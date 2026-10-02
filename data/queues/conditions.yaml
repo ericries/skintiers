@@ -273,7 +273,7 @@
 - name: Tinea capitis (scalp ringworm)
   type: condition
   priority: 5
-  status: pending
+  status: done
   discovered_from: griseofulvin
   source: Griseofulvin + terbinafine ingredient pages both treat tinea capitis; no
     scalp-ringworm condition hub exists yet
