@@ -296,7 +296,7 @@
 - name: Starface
   type: brand
   priority: 5
-  status: pending
+  status: done
   discovered_from: starface-hydro-star
   source: Starface Hydro-Star product page (brand of the star-shaped hydrocolloid
     patch; links its products)
