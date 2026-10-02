@@ -7714,3 +7714,8 @@ peng-2025-dermal-absorption-cosmeceuticals-permeation-review:
   score: 8
   verdict: publish
   note: 'Opus critic unavailable (session 200-agent cap); main-loop self-verify: all quoted strings verbatim vs PubMed abstract (low transdermal efficiency, non-invasive/invasive method list, conclusion, 12.8% CAGR, $35,327.5M by 2030). Framed as a qualitative methods review (no efficacy ranking, commercial framing) not a trial; links encapsulated-retinol + epidermal-growth-factor. assurance:sonnet.'
+upadacitinib:
+  last_reviewed: '2026-10-02'
+  score: 8
+  verdict: publish
+  note: 'Opus critic unavailable (session 200-agent cap); main-loop self-verify: Ronnstad EASI-75/90 (83%/55% upadacitinib, 75%/38% abro, 51%/24% bari) + AE figures + ''few studies reported serious AEs'' verbatim vs PubMed; boxed warning + refractory-AD indication + combination caution verbatim vs DailyMed Rinvoq label. tier:good (large efficacy, 2nd-line Rx, boxed-warning safety). Routes AD to hub. assurance:sonnet.'

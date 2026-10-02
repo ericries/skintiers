@@ -1486,7 +1486,7 @@
     FDA-approved)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41296263/
 - name: Abrocitinib (Cibinqo), oral JAK1 inhibitor for atopic dermatitis (Ronnstad
@@ -1738,3 +1738,17 @@
   discovered_from: clinique-dramatically-different-moisturizing-lotion-plus
   source: DDML+ INCI (lanolin alcohol); a classic occlusive emollient and a standard
     patch-test contact allergen, worth an evidence page
+- name: Abrocitinib (Cibinqo)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: upadacitinib
+  source: Ronnstad 2026 meta-analysis (PMID 41296263); oral JAK1 inhibitor for atopic
+    dermatitis, sibling to upadacitinib
+- name: Baricitinib (Olumiant)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: upadacitinib
+  source: Ronnstad 2026 meta-analysis (PMID 41296263); oral JAK1/2 inhibitor used
+    for atopic dermatitis, sibling to upadacitinib
