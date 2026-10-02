@@ -2707,7 +2707,7 @@
     rounds out the Heimish brand page beyond the All Clean Balm)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: heimish
   source: https://heimish.us/
 - name: Fur Ingrown Concentrate
