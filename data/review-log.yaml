@@ -7709,3 +7709,8 @@ fur-ingrown-concentrate:
   score: 7
   verdict: revise
   note: 'Opus critic unavailable (session 200-agent cap); main-loop self-verify: claim ''smooths skin, & helps prevent future irritation'' + price $34 verbatim vs cache 79e1ce27; INCI verbatim vs incidecoder. KEY: it''s an oil blend with NO keratolytic -> graded effect:weak/evidence:weak, corrected my earlier queue note that wrongly assumed salicylic/glycolic; essential-oil (tea tree/lavender/clary sage) sensitization caveat flagged; routes real evidence to ingrown-hairs. assurance:sonnet.'
+peng-2025-dermal-absorption-cosmeceuticals-permeation-review:
+  last_reviewed: '2026-10-02'
+  score: 8
+  verdict: publish
+  note: 'Opus critic unavailable (session 200-agent cap); main-loop self-verify: all quoted strings verbatim vs PubMed abstract (low transdermal efficiency, non-invasive/invasive method list, conclusion, 12.8% CAGR, $35,327.5M by 2030). Framed as a qualitative methods review (no efficacy ranking, commercial framing) not a trial; links encapsulated-retinol + epidermal-growth-factor. assurance:sonnet.'
