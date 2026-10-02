@@ -9147,7 +9147,8 @@
   conflict: Maintains a Nykaa curated affiliate storefront; treat specific product picks as commercially incentivized (educational/mechanism content is fine).
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: multi-topic beauty-standards/aging collab discussion (Ft. Dr Mikki); not single-topic; affiliate-storefront creator
 - id: 37H--isNdyc
   title: Should you remove facial hair in a child?
   creator: Dr. Aanchal MD
