@@ -2713,7 +2713,7 @@
 - name: Fur Ingrown Concentrate
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: ingrown-hairs
   source: Ingrown-hairs hub; popular OTC ingrown-hair concentrate (salicylic/glycolic/tea
     tree) in the same keratolytic category as Tend Skin

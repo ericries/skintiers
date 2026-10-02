@@ -7704,3 +7704,8 @@ heimish-watermelon-moisture-soothing-gel-cream:
   score: 7
   verdict: revise
   note: 'Opus critic unavailable (session 200-agent cap); main-loop self-verify: INCI + ''restore the hydrolipidic balance'' + ''Moisturizing & Cooling & Soothing'' + price $23.80/110ml all verbatim vs cache 5f14c217. Queue name ''Watermax'' was a garble; verified real product is Watermelon Moisture Soothing Gel Cream (heimish.us). Grade notable/solid routes to moisturizing; watermelon + cooling/soothing quarantined as marketing. assurance:sonnet.'
+fur-ingrown-concentrate:
+  last_reviewed: '2026-10-02'
+  score: 7
+  verdict: revise
+  note: 'Opus critic unavailable (session 200-agent cap); main-loop self-verify: claim ''smooths skin, & helps prevent future irritation'' + price $34 verbatim vs cache 79e1ce27; INCI verbatim vs incidecoder. KEY: it''s an oil blend with NO keratolytic -> graded effect:weak/evidence:weak, corrected my earlier queue note that wrongly assumed salicylic/glycolic; essential-oil (tea tree/lavender/clary sage) sensitization caveat flagged; routes real evidence to ingrown-hairs. assurance:sonnet.'
