@@ -52,7 +52,8 @@
   conflict: Founder of own-brand haircare line (Rhute); TikTok Shop affiliate/product storefront; recurring disclosed sponsored posts (No7, La Roche Pos
   posted: ''
   feed_rank: 5
-  status: pending
+  status: skipped
+  skip_reason: micellar water vs dry shampoo for greasy hair; haircare, no matching page; own-brand+affiliate creator
 - id: wwVXaNX96-o
   title: 'comments I would make on your hair from my burner account #dermatologist #unfiltered #haircare'
   creator: Dr Aamna Adel
@@ -171,7 +172,8 @@
   conflict: Some videos carry disclosed brand sponsorships (e.g. La Roche-Posay Effaclar BPO); no own product line or heavy affiliate storefront. Scan each video at ingest.
   posted: ''
   feed_rank: 5
-  status: pending
+  status: skipped
+  skip_reason: minoxidil application (hair loss); no minoxidil/hair-loss page on site
 - id: R1SD-3qeBJ4
   title: Dr. Abby is live!
   creator: Dr. Abigail Waldman (Dr. Abby)
