@@ -7724,3 +7724,8 @@ tinea-capitis:
   score: 8
   verdict: publish
   note: 'Opus critic unavailable (session 200-agent cap); main-loop self-verify: all Gupta 2018 quotes verbatim vs PubMed (most common childhood cutaneous fungal infection; complete cure 72%/92%; species split; 1.0% discontinuation; T. tonsurans; hairbrush sampling) + Tey 2011 species quotes verbatim (reused from griseofulvin). Physician-managed oral-antifungal framing, routes to griseofulvin/terbinafine; no tier_list (prescription systemic care). assurance:sonnet.'
+farmacy-honey-glow-17-resurfacing-acid-serum:
+  last_reviewed: '2026-10-02'
+  score: 7
+  verdict: revise
+  note: 'Opus critic unavailable (session 200-agent cap); main-loop self-verify: claim + full INCI (glycolic 2nd, lactic, willow bark) + price $60/30ml verbatim vs cache c27e71f3. KEY honesty: ''BHA'' is willow bark not true salicylic acid (flagged); ''clinically proven fine-line/pore'' quarantined as brand testing; honey/propolis/royal-jelly branding noted as low-evidence. Rebrand noted (Honeymoon Glow -> Honey Glow 17%). effect notable/evidence solid routes to glycolic/lactic. assurance:sonnet.'

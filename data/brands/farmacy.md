@@ -12,6 +12,8 @@ Farmacy is a US skincare brand that describes itself as "a clean + cruelty-free 
 Products profiled here so far:
 
 - [[farmacy-green-clean-makeup-removing-cleansing-balm]]: the brand's signature oil-to-milk cleansing balm and first-cleanse makeup remover, graded on [[best-cleansing-balms-oil-cleansers]].
+- [[farmacy-green-clean-fragrance-free-cleansing-balm]]: the fragrance-free version of the Green Clean balm, for reactive skin.
+- [[farmacy-honey-glow-17-resurfacing-acid-serum]]: a glycolic-acid-led AHA resurfacing night serum (formerly Honeymoon Glow).
 
 ## Sources
 

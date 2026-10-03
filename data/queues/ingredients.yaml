@@ -1752,3 +1752,10 @@
   discovered_from: upadacitinib
   source: Ronnstad 2026 meta-analysis (PMID 41296263); oral JAK1/2 inhibitor used
     for atopic dermatitis, sibling to upadacitinib
+- name: Willow Bark Extract (Salix Alba)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: farmacy-honey-glow-17-resurfacing-acid-serum
+  source: Farmacy Honey Glow INCI; a natural salicin source marketed as a gentle 'natural
+    BHA', worth a skeptical evidence page vs salicylic acid
