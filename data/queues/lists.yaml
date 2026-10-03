@@ -229,3 +229,11 @@
   status: done
   discovered_from: null
   source: null
+- name: Systemic treatments for atopic dermatitis by evidence (oral JAK inhibitors
+    abrocitinib/upadacitinib/baricitinib vs biologics; EASI-75/90 clearance ranking
+    from Ronnstad 2026 PMID 41296263)
+  type: list
+  priority: 4
+  status: pending
+  discovered_from: null
+  source: null

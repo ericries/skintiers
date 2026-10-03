@@ -1494,7 +1494,7 @@
     event)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41296263/
 - name: Coco-betaine, mild amphoteric co-surfactant common in sensitive-skin cleansers
@@ -1741,7 +1741,7 @@
 - name: Abrocitinib (Cibinqo)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: upadacitinib
   source: Ronnstad 2026 meta-analysis (PMID 41296263); oral JAK1 inhibitor for atopic
     dermatitis, sibling to upadacitinib
