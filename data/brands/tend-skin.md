@@ -12,6 +12,7 @@ Tend Skin (The Tend Skin Company) is a single-focus US brand best known for one 
 Products profiled here so far:
 
 - [[tend-skin-the-skin-care-solution]]: the brand's signature leave-on liquid, whose active is acetylsalicylic acid (aspirin); graded as a keratolytic option for [[pseudofolliculitis-barbae]] (razor bumps) and [[ingrown-hairs]].
+- [[tend-skin-air-shave-gel]]: the brand's clear shaving-lubricant gel, a shave-prep aid rather than a treatment.
 
 ## Sources
 

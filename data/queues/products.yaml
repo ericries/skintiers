@@ -2734,7 +2734,7 @@
 - name: Tend Skin Air Shave Gel
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: tend-skin
   source: Tend Skin brand page; the company's shave gel, a second product in its razor-bump/ingrown-hair
     line
