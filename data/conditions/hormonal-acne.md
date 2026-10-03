@@ -43,6 +43,16 @@ videos:
   related: [hair-loss-thinning]
   thesis: 'Board-certified dermatologist Dr. Shereene Idriss walks through six skin, hair, and nail changes that can signal an underlying systemic condition rather than a skincare problem: jawline acne paired with new coarse facial hair or scalp thinning that can point to PMOS/PCOS and elevated androgens; a sudden smooth round bald patch that may be alopecia areata; a butterfly-shaped facial rash that spares the nasolabial folds and worsens after sun exposure, which can indicate lupus rather than rosacea; yellow eyelid plaques (xanthelasma) that warrant a cholesterol check; horizontal grooves across multiple nails (Beau''s lines) reflecting a past physical stressor; and dark, velvety skin at the neck or underarms (acanthosis nigricans) as an early insulin-resistance warning sign. She stresses these are cues to see a doctor and get appropriate bloodwork rather than self-diagnose, and that topical skincare cannot fix the underlying hormonal, autoimmune, or metabolic causes.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Midlife acne in your 30s and 40s is real
+  creator: Dr. Aegean Chan
+  creator_slug: aegean-chan
+  credential: Board-certified dermatologist
+  platform: TikTok
+  url: https://www.tiktok.com/@draegeanchan/video/7692151980298390815
+  posted: '2026-10-02'
+  related: [acne, adapalene, retinoids]
+  thesis: 'Board-certified dermatologist Dr. Aegean Chan shares that she developed sudden jawline acne at 42 after decades clear, and explains that this midlife acne is common in women and is typically hormonal, which the jawline distribution points to. Her plan is the standard approach: get consistent again with a topical retinoid (she uses Differin, an adapalene) three to four times a week, and if that does not help over two to three months, consider the prescription spironolactone, which targets hormonal acne. Her message is that midlife hormonal acne is real and treatable, not something to just suffer through.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
