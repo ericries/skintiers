@@ -9465,7 +9465,8 @@
   conflict: does sponsorships - educational content only, never treat picks as endorsements, never use sponsored videos
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: '''are wrinkles back in fashion / strategic wrinkles'' trend-commentary vlog, not single-topic skincare education'
 - id: GCPy2MGN3Rs
   title: A Skin Cancer 101. ROUNDTABLE
   creator: Jen Novakovich (The Eco Well)
