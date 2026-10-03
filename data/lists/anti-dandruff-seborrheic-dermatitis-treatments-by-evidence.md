@@ -26,6 +26,9 @@ tier_list:
       found a 0.6% selenium disulfide shampoo statistically matched 2% ketoconazole
       on dandruff and seborrheic dermatitis (see [[farris-2026-beyond-efficacy-0-6-selenium-disulfide-shampoo-matches-2-k]]).
       Its highest-quality data is scalp seborrheic dermatitis, not fungal acne specifically.
+      On-site at 1% in [[selsun-blue-selenium-sulfide-shampoo|Selsun Blue]] and [[head-shoulders-clinical-strength-dandruff-defense-selenium-sulfide|Head
+      & Shoulders Clinical Strength]] (plus a [[head-shoulders-clinical-strength-dandruff-defense-sensitive-scalp-selenium-sulfide|sensitive-scalp
+      version]]).
     slug: selsun-blue-selenium-sulfide-shampoo
     tier: strong
   - note: Ciclopirox (ciclopirox olamine), a hydroxypyridone antifungal. A Cochrane
@@ -36,13 +39,16 @@ tier_list:
     tier: strong
   - note: Pyrithione zinc, the Head & Shoulders active. A long-established over-the-counter
       antidandruff antifungal used the same way as the others, but with thinner recent
-      head-to-head evidence on this site than ketoconazole or selenium sulfide.
+      head-to-head evidence on this site than ketoconazole or selenium sulfide. On-site
+      in [[selsun-blue-itchy-dry-scalp-pyrithione-zinc|Selsun Blue]] and, for the face/body,
+      the [[noble-formula-2-pyrithione-zinc-bar-soap|Noble Formula 2% bar soap]].
     slug: selsun-blue-itchy-dry-scalp-pyrithione-zinc
     tier: moderate
   - note: Piroctone olamine (Octopirox), an anti-Malassezia antifungal used in shampoos
       and leave-on "fungal-acne-safe" products. In a manufacturer head-to-head it
       roughly matched pyrithione zinc for dandruff, but its isolated evidence is limited
-      and industry-weighted; see [[piroctone-olamine]].
+      and industry-weighted; see [[piroctone-olamine]]. On-site in [[ducray-kelual-ds-cream|Ducray
+      Kelual DS cream]], which pairs it with [[ciclopirox]] for facial seborrheic dermatitis.
     slug: piroctone-olamine
     tier: moderate
   - note: A topical calcineurin inhibitor, a steroid-sparing option for facial seborrheic
@@ -58,7 +64,10 @@ tier_list:
   - note: Coal tar, a long-established over-the-counter antidandruff agent (the active
       in [[neutrogena-tgel-therapeutic-shampoo-coal-tar|Neutrogena T/Gel]]) that slows
       skin-cell turnover and eases scaling and itch rather than directly targeting the
-      yeast, so an adjunct rather than a stand-alone antifungal (see [[coal-tar]]).
+      yeast, so an adjunct rather than a stand-alone antifungal (see [[coal-tar]]). On-site
+      at coal tar 0.5% in [[neutrogena-tgel-therapeutic-shampoo-coal-tar|T/Gel Therapeutic]]
+      and double-strength (1%) in [[neutrogena-tgel-extra-strength-therapeutic-shampoo|T/Gel
+      Extra Strength]].
     slug: coal-tar
     tier: moderate
   - note: A keratolytic that lifts scale so antifungals can reach the skin. It addresses
@@ -68,7 +77,7 @@ tier_list:
     tier: weak
   title: Anti-dandruff and seborrheic dermatitis treatments by evidence
 type: list
-updated: '2026-09-23'
+updated: '2026-10-03'
 ---
 
 This list ranks the treatments for dandruff and [[seborrheic-dermatitis]] by the strength of the evidence behind them. Both are the same condition at different severities: an inflammatory response to the Malassezia yeast that lives on everyone's skin (on the trunk and face, the same yeast can also produce itchy bumps covered on [[fungal-acne]]). It is managed, not cured, so treatment is used in courses and repeated when it relapses.

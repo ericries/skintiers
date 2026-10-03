@@ -7739,3 +7739,10 @@ li-2025-vagus-nerve-stimulation-erythematotelangiectatic-rosacea-rct:
   score: 8
   verdict: publish
   note: 'Opus critic unavailable (session 200-agent cap); main-loop self-verify: all stats verbatim vs PubMed (n=72/93.1% female; CEA 1.56 vs 2.47 MD -0.92 CI -1.3 to -0.53 P<.001; anxiety -5.42; AEs 5.6%/8.3%; 30Hz/200us). Framed as device/neuromodulation RCT not skincare; limitations (single-center, n=72, 3wk, clinician-rated CEA, erratum noted) accurate; links rosacea. assurance:sonnet.'
+- slug: anti-dandruff-seborrheic-dermatitis-treatments-by-evidence
+  type: list
+  date: '2026-10-03'
+  verdict: publish
+  score: 8
+  reviewer: self (main-loop; Opus critic unavailable, session 200-agent cap)
+  note: Maintenance tick (site_health). List is by-active, by-evidence; 5 flagged product pages are instances of already-ranked actives, so NOT added as duplicate rows. Instead extended existing notes to point to the on-site products (selenium sulfide -> Head & Shoulders Clinical Strength + sensitive-scalp; pyrithione zinc -> Noble Formula bar; coal tar -> T/Gel Extra Strength; piroctone olamine -> Ducray Kelual DS). No new facts; product slugs/strengths verified against each product page. lint/verify/style clean.
