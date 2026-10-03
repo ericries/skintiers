@@ -9425,7 +9425,8 @@
   conflict: Muneeb Shah runs own skincare brand (Remedy Science) and Scriptable Rx venture featured on the channel
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: '''8 hygiene hacks'' multi-topic listicle, not single-topic; Doctorly own-brand channel (Remedy Science)'
 - id: '7692052098162199821'
   title: Whatever you put on your skin in the days after a treatment matters j...
   creator: Fatima Fahs
