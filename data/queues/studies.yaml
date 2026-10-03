@@ -658,7 +658,7 @@
     Ro (PMID 41060641)
   type: study
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41060641/
 - name: Kircik 2025 Ruxolitinib Cream Versus Triamcinolone Cream in Adults With Mild
