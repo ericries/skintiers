@@ -1040,11 +1040,10 @@ bleicher-1987-metronidazole-0-75-gel-vehicle-controlled-rosacea-rct:
   score: 10
   verdict: publish
 body-acne:
-  last_reviewed: '2026-08-26'
-  note: 'CONDITION cron (health claims). Lean curatorial hub: links OUT to [[acne]] for mechanism/evidence, adds a tier_list of body-appropriate topical options that already have pages (epiduo-forte/differin/benzoyl-peroxide/salicylic-acid/panoxyl wash/cln-bodywash). All 6 quoted strings verified VERBATIM vs StatPearls Acne Vulgaris (NBK459173, durable primary, no cache): affected sites ''face, neck, chest, upper back, and upper arm areas, where large, hormonally responsive sebaceous glands are abundant''; four pathogenic events (sebum/hyperkeratinization/C acnes/inflammation); topical retinoids ''tretinoin, tazarotene, adapalene, and trifarotene''; salicylic acid ''as an alternative to topical retinoids for individuals who are unable to tolerate or obtain them''; isotretinoin ''severe recalcitrant nodular acne associated with scarring''. Only legitimate ellipsis elisions. No em/en-dashes. No invented stats; no product claimed proven for truncal acne beyond its own page. Distinguished from
-    [[fungal-acne]] and [[keratosis-pilaris]]. Inline main-loop critic (subagent cap hit); assurance opus.'
-  score: 9
+  last_reviewed: '2026-10-03'
+  score: 8
   verdict: publish
+  note: Maintenance tick (site_health); Opus critic unavailable (session 200-agent cap), main-loop self-check. Added the one flagged on-site product (paulas-choice-clear-back-body-acne-spray, leave-on 2% salicylic acid spray for the trunk) to the existing tier_list at tier moderate, matching the salicylic-acid active already ranked moderate; 1-sentence note, no body rewrite. lint/verify/style clean.
 brightening:
   last_reviewed: '2026-08-10'
   note: 'Brightening / even skin tone GOAL hub. Daily GOAL cron (Sonnet draft + Opus critic). Routes the "even

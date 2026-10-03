@@ -37,6 +37,11 @@ tier_list:
       than inflammatory lesions. Evidence on [[salicylic-acid]].
     slug: salicylic-acid
     tier: moderate
+  - note: A leave-on 2% salicylic acid spray built to reach the back and chest, the
+      spray format making it practical for covering the trunk; it delivers the same
+      alternative-to-retinoids active graded just above. Graded on [[paulas-choice-clear-back-body-acne-spray]].
+    slug: paulas-choice-clear-back-body-acne-spray
+    tier: moderate
   - note: A 4% benzoyl peroxide creamy wash used as a short-contact wash, a pragmatic
       way to treat the large surface area of the back and chest; the wash-off format
       is why it ranks below leave-on options. Graded on [[panoxyl-acne-creamy-wash-benzoyl-peroxide-4]].
@@ -48,7 +53,7 @@ tier_list:
     tier: preliminary
   title: Topical options for back and chest acne, by evidence
 type: condition
-updated: '2026-08-26'
+updated: '2026-10-03'
 videos:
 - title: Dr. Sheila Farhang explains why back acne hurts and how to treat it
   creator: Dr. Sheila Farhang (dr.sheila_derm)
