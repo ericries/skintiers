@@ -62,7 +62,7 @@ Label and marketing terms attributed to the brand:
 
 ## See Also
 
-[[ingrown-hairs]] [[pseudofolliculitis-barbae]] [[tend-skin-the-skin-care-solution]] [[folliculitis]] [[salicylic-acid]] [[retinoids]]
+[[fur]] [[ingrown-hairs]] [[pseudofolliculitis-barbae]] [[tend-skin-the-skin-care-solution]] [[folliculitis]] [[salicylic-acid]] [[retinoids]]
 
 ## Where to Buy
 

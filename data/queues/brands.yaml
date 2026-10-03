@@ -303,7 +303,7 @@
 - name: Fur
   type: brand
   priority: 5
-  status: pending
+  status: done
   discovered_from: fur-ingrown-concentrate
   source: Fur Ingrown Concentrate product; body/pubic-care brand, discovery aid to
     link its products
