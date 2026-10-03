@@ -9203,7 +9203,8 @@
   conflict: Co-developed/formulated the Tbh Skincare 'Rebound' Serum and Toner (product-formulation partnership) — her endorsement of that spe; no YouTube; TikTok/IG intake
   posted: '2026-10-02'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: makeup (blush), not a skincare topic
 - id: 59iyPDDYI7Y
   title: '#skincare #cosmeticdermatology #skincareroutine #skincaretips #dermatologist'
   creator: Dr. Jenny Liu (Jenny Liu, MD, FAAD)
@@ -9399,7 +9400,8 @@
   conflict: Bio includes a business/booking contact email suggesting managed brand partnerships; no confirmed own-brand line or affiliate stor
   posted: '2026-10-02'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: vague reaction clip, no single skincare topic
 - id: 4I4lvfNUZz4
   title: Should you stop wearing sunglasses?
   creator: Dr. Daniel Sugai
@@ -9452,7 +9454,8 @@
   conflict: Co-developed/formulated the Tbh Skincare 'Rebound' Serum and Toner (product-formulation partnership) — her endorsement of that spe; no YouTube; TikTok/IG intake
   posted: '2026-10-02'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: makeup (bronzer), not a skincare topic
 - id: zrRTwRULNGc
   title: Are wrinkles actually back in fashion?! What Are Strategic Wrinkles?
   creator: James Welsh
@@ -9531,7 +9534,8 @@
   conflict: runs an Amazon affiliate storefront and does sponsored posts - strongly prefer educational / how-to / ingredient-explainer videos; be very cautious with any product recommendation
   posted: '2026-10-02'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: affiliate-monetized creator product-maxxing rec (effectively paid)
 - id: '7692240756265766175'
   title: 'They just asked me to scan my boarding pass… '
   creator: ''
@@ -9544,7 +9548,8 @@
   conflict: null
   posted: '2026-10-03'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: off-topic (travel/boarding pass), not skincare
 - id: '7692088505706532110'
   title: Microscopic needles in your skincare sounds…questionable. 😂 But hear ...
   creator: ''

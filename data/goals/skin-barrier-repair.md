@@ -310,6 +310,16 @@ videos:
   related: [glycolic-acid, salicylic-acid]
   thesis: 'Dermatologist Dr. Fatima Fahs pushes back on the belief that a skincare product stinging means it is working better: if a product, especially an exfoliant, causes intense burning rather than a mild tingle, it is probably too strong for the skin. She explains that overdoing actives compromises the skin barrier, which then becomes more prone to irritation, breakouts, and visible texture. Her broader point is that more products is not better, and dermatologists often improve patients'' skin by removing steps rather than adding them.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Why gentle cleansing matters after a cosmetic procedure
+  creator: Fatima Fahs
+  creator_slug: fatima-fahs
+  credential: Dermatologist (MD)
+  platform: TikTok
+  url: https://www.tiktok.com/@dermydoctor/video/7692052098162199821
+  posted: '2026-10-02'
+  related: [sensitive-skin, best-gentle-cleansers-sensitive-skin, double-cleansing]
+  thesis: 'Dermatologist Fatima Fahs explains that in the days after an in-office procedure such as microneedling, a chemical peel, or a resurfacing laser, the cleanser you reach for matters: she recommends a gentle, non-irritating, non-stripping cleanser rather than a stripping one, which on freshly resurfaced skin she calls a recipe for disaster. The clip is about cleanser choice as post-procedure aftercare, and does not name a specific product.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

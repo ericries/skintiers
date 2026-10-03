@@ -359,3 +359,10 @@
   - referral
   discovered_via: 'referral: https://www.tiktok.com/@dr.mamina/video/7691334151940689165'
   status: pending
+- name: avene
+  channel_url: https://www.youtube.com/@avene
+  hits: 1
+  topics:
+  - referral
+  discovered_via: 'referral: https://www.tiktok.com/@dermydoctor/video/7692052098162199821'
+  status: pending
