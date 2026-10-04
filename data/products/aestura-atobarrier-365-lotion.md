@@ -29,7 +29,7 @@ name: Aestura Atobarrier 365 Lotion
 slug: aestura-atobarrier-365-lotion
 status: published
 type: product
-updated: '2026-08-08'
+updated: '2026-10-04'
 ---
 
 Aestura Atobarrier 365 Lotion is a lighter, pump-dispensed counterpart to [[aestura-atobarrier-365-cream|Aestura Atobarrier 365 Cream]], a Korean ceramide moisturizer sold in 90 ml and 150 ml sizes for dry and sensitive skin.[^aestura]
@@ -69,7 +69,7 @@ The formula contains no parabens, formaldehyde or formaldehyde-releasing agents,
 
 ## Tolerability
 
-The brand states the lotion underwent a 48-hour dermatologist-supervised patch test, a non-comedogenic assessment on 20 acne-prone or sensitive-skin participants over 4 weeks, and a sensitive-skin panel test over 4 weeks.[^aestura] These are brand-reported test programs rather than independently published outcomes. The formula is not fragrance-free: the brand states it contains less than 1% synthetic fragrance, a consideration for fragrance-avoidant or reactive skin.
+The brand states the lotion underwent a 48-hour dermatologist-supervised patch test, a non-comedogenic assessment on 20 acne-prone or sensitive-skin participants over 4 weeks, and a sensitive-skin panel test over 4 weeks.[^aestura] These are brand-reported test programs rather than independently published outcomes. The fragrance status is genuinely unresolved. The brand places the phrase inside its own "free of" list and states the formula "contains less than one percent synthetic fragrance," while the declared ingredient list names no Fragrance or Parfum.[^aestura] A "less than 1%" ceiling is compatible with none at all, so this is recorded as the brand's ambiguous claim rather than evidence that fragrance is present; equally, the list alone does not prove every fragrance-related ingredient is absent. Fragrance-avoidant or reactive skin should treat it as undetermined and patch test.
 
 ## Common Marketing Claims
 

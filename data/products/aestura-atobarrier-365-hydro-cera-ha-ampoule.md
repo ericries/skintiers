@@ -31,7 +31,7 @@ name: Aestura Atobarrier 365 Hydro Cera-HA Ampoule
 slug: aestura-atobarrier-365-hydro-cera-ha-ampoule
 status: published
 type: product
-updated: '2026-08-08'
+updated: '2026-10-04'
 ---
 
 Aestura Atobarrier 365 Hydro Cera-HA Ampoule, sold by the brand internationally as the ATOBARRIER365 Hydro Cera-HA Serum, is a 30 ml Korean hydrating serum built on ceramide, hyaluronic acid, and niacinamide, the lightest-format entry in the Atobarrier 365 line alongside the [[aestura-atobarrier-365-cream|Cream]] and [[aestura-atobarrier-365-lotion|Lotion]].[^aestura]
@@ -72,7 +72,7 @@ The formula contains no parabens, formaldehyde or formaldehyde-releasing agents,
 
 ## Tolerability
 
-The brand describes the ampoule as dermatologist-tested, non-comedogenic tested, and sensitive-skin panel tested, without stating participant counts or durations for those programs on the product page.[^aestura] These are brand-reported test programs rather than independently published outcomes. The formula is not fragrance-free: the brand states it contains less than 1% synthetic fragrance, a consideration for fragrance-avoidant or reactive skin.[^aestura]
+The brand describes the ampoule as dermatologist-tested, non-comedogenic tested, and sensitive-skin panel tested, without stating participant counts or durations for those programs on the product page.[^aestura] These are brand-reported test programs rather than independently published outcomes. The fragrance status is genuinely unresolved. The brand places the phrase inside its own "free of" list and states the formula "contains less than one percent synthetic fragrance," while the declared ingredient list names no Fragrance or Parfum.[^aestura] A "less than 1%" ceiling is compatible with none at all, so this is recorded as the brand's ambiguous claim rather than evidence that fragrance is present; equally, the list alone does not prove every fragrance-related ingredient is absent. Fragrance-avoidant or reactive skin should treat it as undetermined and patch test.
 
 The brand's own usage directions state the ampoule is meant to be applied "onto clean skin AM & PM, after toner and before moisturizer," with gentle massage for absorption.[^aestura]
 

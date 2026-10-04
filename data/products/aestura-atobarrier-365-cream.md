@@ -34,7 +34,7 @@ price:
 slug: aestura-atobarrier-365-cream
 status: published
 type: product
-updated: '2026-08-07'
+updated: '2026-10-04'
 ---
 
 Aestura Atobarrier 365 Cream is a Korean moisturizer built around encapsulated ceramide, sold in 45 ml and 80 ml sizes for [[dry-skin|dry]], [[sensitive-skin|sensitive]], and compromised-barrier skin.[^aestura]
@@ -43,7 +43,7 @@ Aestura Atobarrier 365 Cream is a Korean moisturizer built around encapsulated c
 
 ## Summary
 
-Aestura Atobarrier 365 Cream is a rich, fragrance-light cream from the South Korean brand [[aestura|Aestura]], positioned for dry, sensitive, and [[atopic-dermatitis|eczema-prone]] skin.[^aestura] Its health-relevant case rests on [[ceramides]], the barrier lipids that eczema-prone skin is measurably short of: ceramide moisturizers move barrier measurements such as water loss, but the one randomized trial of a ceramide cream on that page found no advantage over a matched base for eczema severity itself. That general evidence, with its numbers and limits, is set out on [[ceramides]] and applies to the moisturizing category more broadly on [[moisturizing]].
+Aestura Atobarrier 365 Cream is a rich cream from the South Korean brand [[aestura|Aestura]], positioned for dry, sensitive, and [[atopic-dermatitis|eczema-prone]] skin.[^aestura] Its health-relevant case rests on [[ceramides]], the barrier lipids that eczema-prone skin is measurably short of: ceramide moisturizers move barrier measurements such as water loss, but the one randomized trial of a ceramide cream on that page found no advantage over a matched base for eczema severity itself. That general evidence, with its numbers and limits, is set out on [[ceramides]] and applies to the moisturizing category more broadly on [[moisturizing]].
 
 What sets this formula apart from a plainer moisturizer is its ingredient list rather than a proven product-specific edge. Alongside [[ceramides|ceramide NP]], the declared ingredient list includes cholesterol and four free fatty acids (stearic, palmitic, arachidic, and oleic acid), the same three lipid classes, ceramides, cholesterol, and fatty acids, that Elias describes as the barrier's "approximately 1:1:1 molar ratio" on [[ceramides]]. The brand encapsulates the ceramide in what it calls capsules visible in the cream, a delivery claim examined in [Common Marketing Claims](#common-marketing-claims). No published, independent trial tests this exact cream; the brand cites its own uncontrolled, single-arm test of 32 women, which is not the kind of evidence that supports a grade and is reported, quarantined, under [Common Marketing Claims](#common-marketing-claims) rather than folded into the case above.
 
@@ -74,7 +74,7 @@ The formula contains no parabens, formaldehyde or formaldehyde-releasing agents,
 
 ## Tolerability
 
-The brand states the cream underwent a 48-hour dermatologist-supervised patch test, a non-comedogenic assessment on 20 acne-prone or sensitive-skin participants over 4 weeks, and a sensitive-skin panel test over 4 weeks.[^aestura] These are brand-reported test programs rather than independently published outcomes. The formula is not fragrance-free: the brand states it contains less than 1% synthetic fragrance, a consideration for fragrance-avoidant or reactive skin.[^aestura]
+The brand states the cream underwent a 48-hour dermatologist-supervised patch test, a non-comedogenic assessment on 20 acne-prone or sensitive-skin participants over 4 weeks, and a sensitive-skin panel test over 4 weeks.[^aestura] These are brand-reported test programs rather than independently published outcomes. The fragrance status is genuinely unresolved. The brand's wording places the phrase inside its own "free of" list, reading "FREE of parabens, formaldehydes... triclosan, and contains less than one percent synthetic fragrance," and the declared ingredient list names no Fragrance or Parfum.[^aestura] A "less than 1%" ceiling is compatible with none at all, so this is recorded as the brand's ambiguous claim rather than evidence that fragrance is present; equally, the list alone does not prove every fragrance-related ingredient is absent. Fragrance-avoidant or reactive skin should treat it as undetermined and patch test.
 
 ## Common Marketing Claims
 

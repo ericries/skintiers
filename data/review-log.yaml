@@ -86,20 +86,10 @@ aestura:
   score: 8
   verdict: self-reviewed
 aestura-atobarrier-365-cream:
-  last_reviewed: '2026-08-07'
-  note: 'Aestura Atobarrier 365 Cream (link-out; on [[ceramides]], [[moisturizing]], [[atopic-dermatitis]]). Wave-5
-
-    queue drain. Ceramide barrier cream: INCI confirms Ceramide NP + cholesterol + four free fatty acids (the
-
-    1:1:1 barrier-lipid triad), graded on category-level ceramide evidence (no independent trial of this exact
-
-    cream). Critic verified INCI, price, fragrance status, all quotes; efficacy routed out. REVISE fixed
-
-    (surgical). assurance=sonnet. lint clean.
-
-    '
-  score: 9
-  verdict: revise-then-fixed
+  last_reviewed: '2026-10-04'
+  score: 8
+  verdict: publish
+  note: 'Fragrance-inference fix from external agent feedback (feedback/2026-10-04_11-33-20). All four Aestura pages asserted "The formula is not fragrance-free" as fact, inferred from the brand line "contains less than one percent synthetic fragrance". That is invalid: a <1% CEILING is compatible with zero. Verified in cache b2b6b6dbfc5853ae (Cream) that the phrase appears only inside the brand OWN "FREE of ..." list, and that no Fragrance/Parfum appears in any of the four declared INCI lists. Rewrote to record the brand quote and the ingredient-list observation separately, state the status as undetermined, and decline BOTH directions (not asserting presence, not claiming proof of absence); advise patch testing. Also dropped the unattributed "fragrance-light" characterization in the Cream lead. Deliberately did NOT touch gold-bond-healing-hand-cream, nivea-creme, or weleda-skin-food, which use the same phrase correctly because fragrance/parfum IS in their declared INCI. lint/style clean.'
 aestura-atobarrier-365-cream-mist:
   last_reviewed: '2026-08-08'
   note: 'Opus focused-verify of DRAFT aestura-atobarrier-365-cream-mist against the two cached sources (brand int.aestura.com key 03b94437bffb323d; Target key 23c9d422c8bb214b): INCI order/contents, <1% synthetic fragrance status, $35.99/4.05 fl oz price+size, and all six quoted phrases confirmed verbatim; the "10,000 ppm ceramide" marketing stat is properly quarantined (not asserted) and grades route general evidence out with no imported trial numbers. No fabrication found. Verdict revise for two surgical fixes only: the "in order" INCI header is contradicted by the function-grouped bullets, and the 4.05 fl oz size on line 35 is mis-attributed to the brand rather than Target.
@@ -108,26 +98,20 @@ aestura-atobarrier-365-cream-mist:
   score: 9
   verdict: revise-then-fixed
 aestura-atobarrier-365-hydro-cera-ha-ampoule:
-  last_reviewed: '2026-08-08'
-  note: 'Opus focused review of Aestura Atobarrier 365 Hydro Cera-HA Ampoule (link-out product page) verified all product-specific facts against the cached brand source (int.aestura.com): name, 30 ml size, full 42-item INCI, <1% synthetic fragrance, ''free of'' list, verbatim usage quote, and the 31-woman 2024 brand test with all stats correctly quarantined under Common Marketing Claims; grades route general ceramide/HA evidence out with no imported trial numbers. Two fixable composition errors: niacinamide''s position is described as ''ahead of water-glycerin-butylene glycol'' (reversed — those three precede it), and the ingredient count is stated as 41 when the source lists 42. Verdict: revise.
-
-    '
-  score: 9
-  verdict: revise-then-fixed
+  last_reviewed: '2026-10-04'
+  score: 8
+  verdict: publish
+  note: 'Fragrance-inference fix from external agent feedback (feedback/2026-10-04_11-33-20). All four Aestura pages asserted "The formula is not fragrance-free" as fact, inferred from the brand line "contains less than one percent synthetic fragrance". That is invalid: a <1% CEILING is compatible with zero. Verified in cache b2b6b6dbfc5853ae (Cream) that the phrase appears only inside the brand OWN "FREE of ..." list, and that no Fragrance/Parfum appears in any of the four declared INCI lists. Rewrote to record the brand quote and the ingredient-list observation separately, state the status as undetermined, and decline BOTH directions (not asserting presence, not claiming proof of absence); advise patch testing. Also dropped the unattributed "fragrance-light" characterization in the Cream lead. Deliberately did NOT touch gold-bond-healing-hand-cream, nivea-creme, or weleda-skin-food, which use the same phrase correctly because fragrance/parfum IS in their declared INCI. lint/style clean.'
 aestura-atobarrier-365-hydro-soothing-gel-cream:
-  last_reviewed: '2026-08-08'
-  note: 'Focused Opus review of Aestura Atobarrier 365 Hydro Soothing (Gel) Cream draft: verified full 42-ingredient INCI, fragrance (<1% synthetic), free-of list, 60ml/2.02oz size, Target $47.99 price (attributed+dated 2026-08-07), and all quoted marketing/test claims against cached brand + Target sources; re-fetched the brand page to confirm the ''ceramide capsule'' and ''gel cream'' quotes verbatim and updated the cache. Verdict revise: the ''no ceramide / only two of three lipids'' thesis driving both grades ignores Hydroxypropyl Bispalmitamide MEA (a pseudoceramide in the INCI), the quoted phrase ''3 key components'' is non-verbatim (''three key components''), and ''step 4'' routine positioning is not attested.
-
-    '
-  score: 9
-  verdict: revise-then-fixed
+  last_reviewed: '2026-10-04'
+  score: 8
+  verdict: publish
+  note: 'Fragrance-inference fix from external agent feedback (feedback/2026-10-04_11-33-20). All four Aestura pages asserted "The formula is not fragrance-free" as fact, inferred from the brand line "contains less than one percent synthetic fragrance". That is invalid: a <1% CEILING is compatible with zero. Verified in cache b2b6b6dbfc5853ae (Cream) that the phrase appears only inside the brand OWN "FREE of ..." list, and that no Fragrance/Parfum appears in any of the four declared INCI lists. Rewrote to record the brand quote and the ingredient-list observation separately, state the status as undetermined, and decline BOTH directions (not asserting presence, not claiming proof of absence); advise patch testing. Also dropped the unattributed "fragrance-light" characterization in the Cream lead. Deliberately did NOT touch gold-bond-healing-hand-cream, nivea-creme, or weleda-skin-food, which use the same phrase correctly because fragrance/parfum IS in their declared INCI. lint/style clean.'
 aestura-atobarrier-365-lotion:
-  last_reviewed: '2026-08-08'
-  note: 'Opus focused review of aestura-atobarrier-365-lotion (link-out product page) against the cached Aestura brand page (research-cache/web, key ec734d1d65afec4e). Verified full INCI (all 38 ingredients match, none invented), fragrance status (''<1% synthetic fragrance''), 90/150 ml sizes (no price asserted or in source), every quoted marketing figure verbatim, grades routing general ceramide evidence out to [[ceramides]] with no imported trial numbers, and all brand stats correctly quarantined under Common Marketing Claims. Verdict: revise — niacinamide is wrongly characterized as a brand-described ''small concentration'' (source is silent and INCI order contradicts it), and the two-tests-to-claims mapping is stated as fact when the cache does not support the mapping; both fixable without re-verifying efficacy.
-
-    '
-  score: 9
-  verdict: revise-then-fixed
+  last_reviewed: '2026-10-04'
+  score: 8
+  verdict: publish
+  note: 'Fragrance-inference fix from external agent feedback (feedback/2026-10-04_11-33-20). All four Aestura pages asserted "The formula is not fragrance-free" as fact, inferred from the brand line "contains less than one percent synthetic fragrance". That is invalid: a <1% CEILING is compatible with zero. Verified in cache b2b6b6dbfc5853ae (Cream) that the phrase appears only inside the brand OWN "FREE of ..." list, and that no Fragrance/Parfum appears in any of the four declared INCI lists. Rewrote to record the brand quote and the ingredient-list observation separately, state the status as undetermined, and decline BOTH directions (not asserting presence, not claiming proof of absence); advise patch testing. Also dropped the unattributed "fragrance-light" characterization in the Cream lead. Deliberately did NOT touch gold-bond-healing-hand-cream, nivea-creme, or weleda-skin-food, which use the same phrase correctly because fragrance/parfum IS in their declared INCI. lint/style clean.'
 aestura-derma-uv365-barrier-hydro-mineral-sunscreen:
   last_reviewed: '2026-08-16'
   note: Drain wave 4. Critic revise->fixed. Gates clean; force-published.
