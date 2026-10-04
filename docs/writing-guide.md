@@ -64,8 +64,12 @@ Rigor is not exhaustiveness. Honesty is not announcing every absence. Concision 
    0.05% under the molecule's older name, cortexolone 17alpha-propionate. An older drug name, a
    development code, or an unindexed journal can hide a trial, so scope every absence claim to
    what was actually checked. `sk style` flags the unhedged form. The same discipline applies to
-   composition: a "less than 1%" ceiling does not establish presence, and an ingredient missing
-   from `key_actives` is not absent from the formula.
+   composition. Three ways we have got this wrong: a "less than 1%" ceiling does not establish
+   presence (the Aestura pages read it as proof of added fragrance when no INCI listed any); an
+   ingredient missing from `key_actives` is not absent from the formula; and when a brand
+   publishes no ingredient list at all, the composition is **unknown**, not confirmed free of
+   anything (the Tend Skin Air Shave Gel page asserted "no keratolytic" and "no full INCI
+   available" in the same breath). Say what is disclosed, and mark the rest unverified.
 
 ## Product page. Purpose: how does THIS product compare to others in its category?
 Answer that, with cited facts, and let the reader decide. Include a section only if it has

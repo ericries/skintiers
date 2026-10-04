@@ -9,8 +9,10 @@ grades:
   note: a clear shaving-lubricant gel, not a treatment; a better glide and a visible
     see-through gel can make for a cleaner, less irritating shave, which is the "change
     how you shave" foundation that the razor-bump and ingrown-hair evidence favors
-    (see [[pseudofolliculitis-barbae]]), but there is no trial of this gel, and it
-    contains no keratolytic active. Brand lubricity and stubble claims are quarantined.
+    (see [[pseudofolliculitis-barbae]]). There is no trial of this gel and no disclosed
+    keratolytic active, but the brand publishes no ingredient list for it either, so the
+    composition is unverified rather than confirmed acid-free. Brand lubricity and
+    stubble claims are quarantined.
   use: Shaving lubricant for a closer, lower-irritation shave (cosmetic)
 images:
 - file: tend-skin-air-shave-gel-tendskin.jpg
@@ -27,12 +29,12 @@ price:
 slug: tend-skin-air-shave-gel
 status: published
 type: product
-updated: '2026-10-03'
+updated: '2026-10-04'
 ---
 
 The Tend Skin Air Shave Gel is a clear shaving gel from [[tend-skin]], a companion to the brand's leave-on [[tend-skin-the-skin-care-solution]]. It is a shave-prep lubricant, not a treatment. Tend Skin lists the 8 oz tube at $14.99.[^tend]
 
-> This is a shaving lubricant, not a razor-bump treatment. A see-through gel that glides well can help you shave more cleanly and with less irritation, and shaving technique is the foundation the razor-bump and ingrown-hair evidence actually rests on (see [[pseudofolliculitis-barbae]] and [[ingrown-hairs]]). But there is no trial of this specific gel, and it contains no keratolytic (no exfoliating acid), so it does not treat razor bumps the way the leave-on actives do. Use it as a shave aid, not as a fix.
+> This is a shaving lubricant, not a razor-bump treatment. A see-through gel that glides well can help you shave more cleanly and with less irritation, and shaving technique is the foundation the razor-bump and ingrown-hair evidence actually rests on (see [[pseudofolliculitis-barbae]] and [[ingrown-hairs]]). But there is no trial of this specific gel, and the brand neither claims nor discloses a keratolytic (an exfoliating acid) in it, unlike its own leave-on solution, whose acetylsalicylic acid is stated on the label. Because Tend Skin publishes no ingredient list for this gel, treat its composition as unverified rather than confirmed acid-free; either way there is no disclosed active on which to credit it with treating razor bumps. Use it as a shave aid, not as a fix.
 
 ## Summary
 
@@ -42,7 +44,7 @@ Tend Skin markets the Air Shave Gel as a "clear shave gel that preserves blade s
 
 There is no published trial of this specific product, and it is a shaving lubricant rather than a treatment, so it has no efficacy evidence of its own to weigh. Where it can plausibly help is indirect: a clear gel lets you see exactly where you are shaving, and good lubricity reduces the drag and nicks that aggravate [[pseudofolliculitis-barbae]] (razor bumps). That connects to the one well-supported foundation for razor bumps and ingrown hairs, changing how you shave, which is covered on [[pseudofolliculitis-barbae]] and [[ingrown-hairs]]. It is a shave-quality improvement, not a demonstrated reduction in bumps.
 
-Unlike the brand's leave-on [[tend-skin-the-skin-care-solution]] (whose active is acetylsalicylic acid, a keratolytic), this gel carries no exfoliating acid or other acne/ingrown-hair active, so it does nothing to shed the skin around the follicle. Tend Skin does not list a full INCI on the accessed page, so no composition claims are made here beyond its being a clear, water-based shave gel.
+The brand's leave-on [[tend-skin-the-skin-care-solution]] names its active on the label, acetylsalicylic acid, a keratolytic. This gel names none, and Tend Skin does not list a full INCI for it on the accessed page, so its composition is unknown rather than verified acid-free. What follows from that is narrow but real: with no disclosed exfoliating acid or other acne and ingrown-hair active, there is nothing here on which to credit it with shedding the skin around the follicle, and the brand itself markets it only as a lubricant. Absence of a published ingredient list is not proof that an ingredient is absent, so no composition claim is made here beyond its being a clear, water-based shave gel.
 
 ## Common Marketing Claims
 
