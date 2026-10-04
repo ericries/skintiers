@@ -1480,26 +1480,11 @@ cir-amorphous-silica-safety-assessment-burnett-2025:
   score: 10
   verdict: publish
 clascoterone:
-  last_reviewed: '2026-08-11'
-  note: 'Clascoterone (Winlevi), first-in-class TOPICAL androgen-receptor inhibitor for acne. Daily INGREDIENT
-
-    cron (Sonnet draft + Opus critic). Critic re-verified all 5 primaries verbatim ("cleanest source-fidelity
-
-    result on a first pass"): Hebert 2020 JAMA Derm two RCTs (N=1440; IGA success 18.4% vs 9.0% and 20.3% vs
-
-    6.5%, P<.001), WINLEVI FDA label (mechanism "unknown", HPA-axis signal 1/20 + 2/22 reversible),
-
-    Dhillon/Kircik reviews, AAD 2024 (conditional rec), Libecco 2026 correctly discounted as a same-cohort
-
-    re-slice. Honest: no PCOS-population trial (mechanistic [[pcos]] link only), no head-to-head vs
-
-    tretinoin/adapalene, HPA-axis disclosed with exact numbers, Rx-only + under-12 gap. Verdict revise: fixed
-
-    one footnote misattribution (four-ring-backbone fact -> [^kircik] not [^dhillon]). assurance=sonnet.
-
-    '
+  last_reviewed: '2026-10-04'
   score: 9
-  verdict: revise-then-published
+  verdict: publish
+  note: 'False absence-of-evidence fix from external agent feedback (feedback/2026-10-04_11-48-56). The pages asserted in SEVEN places that no head-to-head trial compares clascoterone with the established topical retinoids. Trifu 2011 (PMID 21428978, Br J Dermatol) IS such a trial: a randomized, double-blind pilot of cortexolone 17alpha-propionate (CB-03-01) 1% vs placebo (n=15) vs tretinoin 0.05% (n=32) in 77 men, once nightly, 8 weeks. Verified verbatim against the PubMed abstract and added as [^trifu]. Crucially did NOT flip to the opposite overclaim: the reported P values (TLC 0.0017, ILC 0.0134, ASI 0.0090) are vs PLACEBO, and the abstract reports no statistical test against the tretinoin arm, so "clinically more effective than comparator" is described rather than demonstrated; all seven sites now say a small pilot comparison exists but does not establish superiority. Recorded the historical aliases (cortexolone 17alpha-propionate, CB-03-01) so older trials are findable under the modern
+    name. Lesson adopted: prefer "no study cited here" over "no study exists". Also fixed pre-existing em-dashes in Sources footnotes that sk style does not scan.'
 climbazole:
   last_reviewed: '2026-08-30'
   note: INGREDIENT wave3. Imidazole antidandruff antifungal. tier:weak honest (no vehicle-controlled solo-climbazole RCT; best-controlled trial = NEGATIVE for climbazole combo vs Potentiated ZPT, Schwartz P&G). All 6 abstracts verbatim vs eutils + PubChem CID 37907. Opus critic fixed significance overclaim + broken [[dandruff]] link. Main-loop removed dangling [^cavana] ref + AI-ese. tier:weak. Opus critic inline (workflow pipeline); assurance opus.
@@ -2839,7 +2824,7 @@ hormonal-acne:
   last_reviewed: '2026-10-04'
   score: 9
   verdict: publish
-  note: 'Cross-profile contradiction fix prompted by external agent feedback (feedback/2026-10-04_11-18-09). The hub asserted in FIVE places that no topical addresses the androgen signal (tier_list by:, intro, what-is-happening, what-actually-works, whats-overhyped) while the site already had clascoterone.md + winlevi-clascoterone-1-cream.md, an FDA-approved TOPICAL androgen-receptor inhibitor. Corrected all five; added clascoterone to tier_list at tier moderate, matching its own page (modest effect, AAD conditional). Deliberately NOT overclaimed: noted its Phase 3 trials were general acne vulgaris not a hormonal-acne population, and avoided asserting an unverified absence of head-to-head data. All added claims traced to clascoterone.md (FDA label + AAD + Hebert). lint/style clean.'
+  note: 'Second pass after external feedback (feedback/2026-10-04_11-48-56) critiqued my own earlier wording: "the only topical shown to act on the receptor" overlooked investigational/compounded topical antiandrogens (narrowed to "the only topical APPROVED to act on the androgen receptor"), and framing receptor action vs follicular action as anatomically separate was wrong since clascoterone acts within the same pilosebaceous unit (rewritten as a different mechanism at the same site). First pass fixed five statements denying topical antiandrogens exist; see the earlier entry.'
 houttuynia-cordata:
   last_reviewed: '2026-08-08'
   note: 'Opus verification: re-fetched all three cited PubMed primaries (Yang 2024 CIMB 47(1):18; Huang 2025 IJBM 314:144264; Sangthong 2025 Sci Rep 15:37263). Every statistic (all Sangthong IC50/FRAP/concentration/stability values) and all quoted phrases verified verbatim EXCEPT one: the Yang quote \"clear away...eliminate...drain pus\" is de-conjugated from the source''s \"clears away...eliminates...drains pus.\" Evidence is honestly represented (no human topical trial, all uses graded preliminary/not-established, popular claims flagged not graded, COIs accurate); verdict revise for the single non-verbatim quote fix.
@@ -6830,10 +6815,11 @@ williams-2018-spf100-vs-spf50-sunburn-rct:
   score: 9
   verdict: publish
 winlevi-clascoterone-1-cream:
-  last_reviewed: '2026-08-16'
-  note: Drain wave 6 (Rx clascoterone 1%). Deleted fabricated truncal-dosing detail, corrected grade to label's 12+ CI stats (IGA 18.8 vs 8.7; 20.9 vs 6.6), added Hebert/Dhillon sources. Gates clean; force-published.
-  score: 8
-  verdict: revise-then-fixed
+  last_reviewed: '2026-10-04'
+  score: 9
+  verdict: publish
+  note: 'False absence-of-evidence fix from external agent feedback (feedback/2026-10-04_11-48-56). The pages asserted in SEVEN places that no head-to-head trial compares clascoterone with the established topical retinoids. Trifu 2011 (PMID 21428978, Br J Dermatol) IS such a trial: a randomized, double-blind pilot of cortexolone 17alpha-propionate (CB-03-01) 1% vs placebo (n=15) vs tretinoin 0.05% (n=32) in 77 men, once nightly, 8 weeks. Verified verbatim against the PubMed abstract and added as [^trifu]. Crucially did NOT flip to the opposite overclaim: the reported P values (TLC 0.0017, ILC 0.0134, ASI 0.0090) are vs PLACEBO, and the abstract reports no statistical test against the tretinoin arm, so "clinically more effective than comparator" is described rather than demonstrated; all seven sites now say a small pilot comparison exists but does not establish superiority. Recorded the historical aliases (cortexolone 17alpha-propionate, CB-03-01) so older trials are findable under the modern
+    name. Lesson adopted: prefer "no study cited here" over "no study exists". Also fixed pre-existing em-dashes in Sources footnotes that sk style does not scan.'
 wu-2026-advances-in-the-treatment-of-striae-distensae-pmid-41560402:
   last_reviewed: '2026-08-08'
   note: 'Opus re-fetched PMID 41560402 abstract via WebFetch and verified every quoted phrase verbatim (56% incidence, PRISMA + PubMed/Web of Science/Scopus search, the 2010-2025 prioritization sentence, the "Efficacious treatments include..." list, and the 1565 nm NAFL / PRP-combination sentences). The lone numeric figure (56% incidence) is genuinely present; the page correctly asserts no effect sizes/response rates/p-values/study count and discloses abstract-only access, with design/population/comparator matching the source. Verdict: publish.
