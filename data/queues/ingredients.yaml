@@ -1501,7 +1501,7 @@
     (relative of cocamidopropyl betaine; sometimes a contact allergen)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/27775979/
 - name: Sodium cocoyl isethionate, mild anionic surfactant used in syndet cleansing
@@ -1802,3 +1802,19 @@
   discovered_from: best-ingrown-hair-razor-bump-treatments
   source: Dalia 2023 PFB review (PMID 36840647) lists antibiotics among current PFB
     treatments; the ingrown-hairs/PFB hubs grade keratolytics but no antibiotic
+- name: Lauramidopropyl betaine
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: coco-betaine
+  source: Named in the Iijima 2026 patch-test panel (PMID 41488827) alongside coco
+    betaine and cocamidopropyl betaine; a third related betaine co-surfactant with
+    no page, so the three cannot currently be distinguished on site
+- name: Clobetasol propionate (topical corticosteroid)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: coco-betaine
+  source: The shampoo active in Iijima 2026 (PMID 41488827); a potent topical corticosteroid
+    with no page, and the site currently has no entry for the corticosteroid class
+    that PFB and seborrheic-dermatitis reviews list among treatments
