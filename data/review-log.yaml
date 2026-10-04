@@ -237,10 +237,11 @@ anti-aging:
   score: 9
   verdict: publish
 anti-aging-perimenopause:
-  last_reviewed: '2026-07-29'
-  note: 'New child page carved from the critic-cleared anti-aging page: the two hormonal tiers (systemic hormone therapy + topical estrogen) with their 4 primaries (brincat87, maheux, sumino, schmidt), all verbatim-unchanged from the verified parent. Brackets HRT/topical estrogen as context, not as linked object pages (per the non-topical "later phase, don''t link" scope rule). Links back to [[anti-aging]] for the foundation. Footnote integrity verified; lint+verify+style+voice clean.'
+  last_reviewed: '2026-10-04'
   score: 9
   verdict: publish
+  note: 'Overclaim + evidence-balance fix from external agent feedback (flagged in BOTH feedback/2026-10-04_11-18-09 and .../12-00-05). (1) The page asserted hormonal treatment is the "single largest lever" with "Effect: Large" whose effect sizes "rival the sunscreen-and-retinoid foundation", while itself disclosing small/uncontrolled studies (a 12-person elasticity study with no placebo arm) measured off the face. No head-to-head exists, so the comparative ranking was unsupported; softened to a mechanism claim and an explicit statement that the comparison cannot be ranked from what is cited. (2) The topical-estrogen section called the facial evidence "mixed" while presenting only the positive Schmidt result. Added Rittie 2008 (PMID 18794456), verified verbatim: vehicle-controlled, 70 volunteers, estradiol raised collagen in sun-protected hip skin but "no significant changes ... after 2-week estradiol treatment of photoaged forearm or face skin" despite confirmed penetration. Noted its own
+    limits (2 weeks, biochemical endpoints, mean age 75) rather than treating it as a refutation. (3) Calibrated Schmidt against PubMed 8876303: the authors say "preclimacteric" not perimenopausal, the collagen finding rests on biopsies from 10 of 59, and "only those of PRL had increased significantly", so prolactin did move. Also flagged that estriol/estradiol/estrone are not interchangeable.'
 anti-dandruff-seborrheic-dermatitis-treatments-by-evidence:
   last_reviewed: '2026-10-03'
   score: 8
@@ -2547,10 +2548,10 @@ geeta-yadav:
   score: 9
   verdict: publish
 genistein:
-  last_reviewed: '2026-08-30'
-  note: 'INGREDIENT wave. Soy isoflavone/phytoestrogen, topical photoaging. tier:weak honest. All 5 study footnotes verbatim vs eutils (Moraes 19450919, Na Takuathung 36835861, Tang 35209841, Huang 18761396, Wei 14608119) + PubChem CID 5280961. Marketing section deflates estrogen-alternative framing. Opus critic: no fixes needed, all verbatim matched. tier:weak. Opus critic inline (workflow pipeline); assurance opus.'
+  last_reviewed: '2026-10-04'
   score: 8
   verdict: publish
+  note: 'Misattribution fix from external agent feedback (feedback/2026-10-04_12-00-05). The page called Moraes 2009 a trial of "isolated genistein" in four places and graded genistein on it. Verified vs PubMed PMID 19450919: the intervention was "G2-isoflavones 40% (genistein 4%, n=18)", i.e. a blend in which genistein is 4%, compared against 17-beta-estradiol 0.01% with NO vehicle arm. Rewrote the rubric heading, evidence heading, intro and italic summary to attribute the result to the isoflavone preparation, and stated plainly that no cited trial isolates genistein itself. Grades unchanged (tier weak was already correct); the fix is attribution, not magnitude.'
 ghadially-1992-petrolatum-stratum-corneum:
   last_reviewed: '2026-08-08'
   note: 'Opus re-fetched PubMed 1564142 and verified all three verbatim quotes ("VPJ accelerated, rather than impeded, barrier recovery"; "VPJ was present within the interstices at all levels of the SC, where it replaced intercellular bilayers"; the epicutaneous-membrane conclusion) match the abstract exactly, and confirmed the abstract contains no n, TEWL values, percentages, p-values, dose, or duration — all of which the page correctly discloses as absent while claiming no fabricated effect size. Design (acetone disruption, VPJ vs untreated, ruthenium tetroxide/tracer localization), population, and comparator match the abstract; abstract-only access is disclosed and link-out discipline is respected. Verdict: publish.
