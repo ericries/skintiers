@@ -39,9 +39,27 @@ tier_list:
       topicals above.
     slug: sulfur
     tier: weak
+  - note: Microencapsulated benzoyl peroxide 5%, FDA approved specifically for the
+      inflammatory papules and pustules of rosacea; the encapsulation is what makes a
+      normally irritating acne active tolerable on rosacea-prone skin. Graded on
+      [[epsolay-benzoyl-peroxide-5-cream]].
+    slug: epsolay-benzoyl-peroxide-5-cream
+    tier: strong
+  - note: Extended-release oral minocycline, FDA approved for the inflammatory lesions
+      of rosacea, giving a second oral option alongside subantimicrobial doxycycline.
+      Graded on [[emrosi-minocycline-extended-release]].
+    slug: emrosi-minocycline-extended-release
+    tier: strong
   title: Papulopustular rosacea treatments by evidence
+tier_list_reviewed:
+- finacea-azelaic-acid-15-gel
+- soolantra-ivermectin-1-cream
+- metrogel-metronidazole-1-gel
+- oracea-doxycycline-40-mg
+- brimonidine
+- mirvaso-brimonidine-gel
 type: condition
-updated: '2026-08-27'
+updated: '2026-10-05'
 videos:
 - title: Rosacea and the Link with Demodex Mites
   creator: Dr. Scott Walter

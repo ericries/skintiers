@@ -5343,11 +5343,11 @@ rosacea-friendly-routine:
   score: 8
   verdict: self-reviewed
 rosacea-papulopustular:
-  last_reviewed: '2026-08-27'
-  note: 'CONDITION deep-dive UPGRADE (user request: ''best imaginable'' PPR hub). Evidence spine unchanged (already Opus-verified: Cochrane van Zuuren 2015 anchor + ivermectin/azelaic/metronidazole/doxycycline/minocycline RCTs + Yamasaki cathelicidin/KLK5 + Demodex meta-analysis, 15 primary sources). ADDED: (1) 4 transcript-verified board-certified-derm VIDEOS reusing their already-verified theses (Scott Walter/Demodex, Usama Syed/best-treatments, Dr Dray/alcohol-trigger, Dustin Portela/azelaic); (2) a product-anchored PRACTICAL ROUTINE linking real on-site products (Cetaphil/Prequel/Tower28 cleansers; Soolantra/MetroGel + The Ordinary/Paula''s OTC azelaic; LRP Rosaliac; Cetaphil Redness SPF40 + EltaMD UV Clear; Mirvaso adjunct; avoid BPO/exfoliants/retinoids) grounded ONLY in already-cited facts, no new external stats; (3) enriched See Also. ACCURACY FIX: corrected EltaMD UV Clear mislabel (it is zinc oxide + octinoxate HYBRID, verified vs its page, not pure mineral). No dashes; lint/verify/style
-    clean. Queued 4 Rx treatment products (Finacea/Oracea/Epsolay/Zilxi). Inline critic (subagent cap hit); assurance opus.'
-  score: 10
+  last_reviewed: '2026-10-05'
+  score: 9
   verdict: publish
+  note: 'Maintenance tick (site_health, 9 candidates) with a REAL content gap found. Added 2: epsolay-benzoyl-peroxide-5-cream and emrosi-minocycline-extended-release, both tier strong, because each is effect notable / evidence established and each use: field reads literally "For the inflammatory lesions (papules and pustules) of rosacea in adults", i.e. exactly this hub scope, AND their actives (microencapsulated benzoyl peroxide, extended-release minocycline) were NOT already ranked, so they are additive rather than duplicative. Marked 6 reviewed-and-excluded: finacea/soolantra/metrogel/oracea are branded products of actives the list ALREADY ranks (azelaic acid, ivermectin, metronidazole, subantimicrobial doxycycline), so adding them would duplicate rows; brimonidine and mirvaso-brimonidine-gel are FDA approved for "persistent (nontransient) facial erythema of rosacea", i.e. redness rather than the papulopustular lesions this hub grades, so they are out of scope (verified from the brimonidine
+    page quoting the FDA indication). lint/verify/style clean; flag self-cleared.'
 rosacea-papulopustular-treatments-by-evidence:
   last_reviewed: '2026-08-30'
   note: 'LIST wave. Graded papulopustular rosacea treatments. Opus critic (93): all 7 item slugs resolve, 3 stats verbatim vs eutils (Elewski 2003, Taieb 2015, Husein-ElAhmed 2021). Honest ranking (azelaic/ivermectin head-to-head winners top, metronidazole first-line-but-weaker, minocyclines moderate). Main-loop: not-just reworded. No dashes. Opus critic inline (workflow pipeline); assurance opus.'
