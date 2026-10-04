@@ -37,3 +37,22 @@ def test_clean_body_has_no_voice_warnings():
 def test_check_style_includes_voice_warnings():
     # sk style must surface voice violations too
     assert any("self-reference" in w for w in sklib.check_style("SkinTiers is great."))
+
+
+def test_flags_absolute_absence_of_evidence_claims():
+    # Regression: clascoterone.md asserted "no head-to-head trial exists" while
+    # Trifu 2011 (PMID 21428978) compared it with tretinoin 0.05%. A universal
+    # existence claim about the literature is unverifiable; the hedged form
+    # ("no trial cited here") is what the site can actually stand behind.
+    assert any("absence" in w for w in sklib.check_voice("No head-to-head trial exists."))
+    assert any("absence" in w for w in sklib.check_voice("no trial exists against tretinoin"))
+    assert any("absence" in w for w in sklib.check_voice("No independent study exists."))
+    assert any("absence" in w for w in sklib.check_voice("No randomized trials exist for this active."))
+
+
+def test_does_not_flag_scoped_absence_claims():
+    # These are the correct, defensible forms and must stay clean.
+    assert sklib.check_voice("No trial cited here compares the two actives.") == []
+    assert sklib.check_voice("There is no published trial of this specific cream.") == []
+    assert sklib.check_voice("This profile has no head-to-head trial against tretinoin.") == []
+    assert sklib.check_voice("No product-specific trial was found.") == []

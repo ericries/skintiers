@@ -32,7 +32,7 @@ tier_list:
     tier: caution
   - note: Only about 5 percent of topical benzoyl peroxide is absorbed and it is rapidly
       broken down and excreted, so limited use is widely considered acceptable in
-      pregnancy, though no dedicated human pregnancy trials exist, only absorption
+      pregnancy, though no dedicated human pregnancy trials are cited here, only absorption
       data.
     slug: benzoyl-peroxide
     tier: caution

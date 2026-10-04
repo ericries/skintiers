@@ -57,6 +57,15 @@ Rigor is not exhaustiveness. Honesty is not announcing every absence. Concision 
    limits our liability.
 3. **No AI-ese.** Plain human prose. No em dashes, no LLM stock phrases, no rule-of-three, no
    negative parallelism. See `docs/anti-ai-ese.md`.
+4. **Never claim a universal negative about the literature.** Write "no trial cited here" or
+   "no published trial of this product", never "no trial exists". We cannot search all of the
+   literature, and we have been wrong: `clascoterone.md` asserted that no head-to-head trial
+   against a retinoid existed, while Trifu 2011 (PMID 21428978) had compared it with tretinoin
+   0.05% under the molecule's older name, cortexolone 17alpha-propionate. An older drug name, a
+   development code, or an unindexed journal can hide a trial, so scope every absence claim to
+   what was actually checked. `sk style` flags the unhedged form. The same discipline applies to
+   composition: a "less than 1%" ceiling does not establish presence, and an ingredient missing
+   from `key_actives` is not absent from the formula.
 
 ## Product page. Purpose: how does THIS product compare to others in its category?
 Answer that, with cited facts, and let the reader decide. Include a section only if it has

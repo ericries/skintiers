@@ -31,7 +31,7 @@ grades:
   evidence: anecdotal
   note: 'health: zinc gluconate is included (concentration not disclosed by the brand),
     and the manufacturer''s own uncontrolled study is the only product-specific data
-    found; no page-level ingredient evidence exists yet for topical zinc gluconate
+    found; no page-level ingredient evidence is cited here yet for topical zinc gluconate
     at cosmetic concentrations'
   use: Sebum control and soothing from zinc gluconate (health)
 key_actives:

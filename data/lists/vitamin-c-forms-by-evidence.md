@@ -32,7 +32,7 @@ tier_list:
     note: Oil-soluble and stable; the one trial with a THD-only arm showed that arm did not improve wrinkles. Its penetration reputation traces to a computer model. Ascorbyl tetraisopalmitate is the same molecule.
   - slug: 3-o-ethyl-ascorbic-acid
     tier: minimal
-    note: Penetrates human skin well in ex-vivo testing, but no controlled human efficacy trial exists and its conversion to vitamin C in skin is not demonstrated.
+    note: Penetrates human skin well in ex-vivo testing, but no controlled human efficacy trial is cited here and its conversion to vitamin C in skin is not demonstrated.
   - slug: ascorbyl-palmitate
     tier: minimal
     note: No human trial isolates it, its conversion to vitamin C in skin is undemonstrated, and an in-vitro study reported it worsened UVB damage in skin cells.
@@ -71,7 +71,7 @@ The two phosphate salts are stable near neutral pH and gentler than L-ascorbic a
 
 ## On-skin conversion unproven
 
-These three are grouped by a shared gap: none has controlled human evidence isolating it, and for each, the step of converting to L-ascorbic acid in living skin is unproven. [[tetrahexyldecyl-ascorbate|Tetrahexyldecyl ascorbate]] is oil-soluble and stable and penetrates well in models, but its widely repeated penetration claim comes from a computer simulation, and the one trial with a THD-only arm found that arm did not improve wrinkles, with the benefit tracking to a co-ingredient (ascorbyl tetraisopalmitate is the same molecule under another name). [[3-o-ethyl-ascorbic-acid|3-O-ethyl ascorbic acid]] permeates ex-vivo human skin well and is very stable, but no controlled human efficacy trial exists and its conversion to vitamin C in skin is not demonstrated. [[ascorbyl-palmitate|Ascorbyl palmitate]] has no trial isolating it, an undemonstrated in-skin conversion, and an in-vitro report that it promoted UVB-induced damage in skin cells.
+These three are grouped by a shared gap: none has controlled human evidence isolating it, and for each, the step of converting to L-ascorbic acid in living skin is unproven. [[tetrahexyldecyl-ascorbate|Tetrahexyldecyl ascorbate]] is oil-soluble and stable and penetrates well in models, but its widely repeated penetration claim comes from a computer simulation, and the one trial with a THD-only arm found that arm did not improve wrinkles, with the benefit tracking to a co-ingredient (ascorbyl tetraisopalmitate is the same molecule under another name). [[3-o-ethyl-ascorbic-acid|3-O-ethyl ascorbic acid]] permeates ex-vivo human skin well and is very stable, but no controlled human efficacy trial is cited here and its conversion to vitamin C in skin is not demonstrated. [[ascorbyl-palmitate|Ascorbyl palmitate]] has no trial isolating it, an undemonstrated in-skin conversion, and an in-vitro report that it promoted UVB-induced damage in skin cells.
 
 ## Sources
 

@@ -21,7 +21,7 @@ grades:
 - effect: minimal
   evidence: preliminary
   note: 'cosmetic (appearance): niacinamide is present for texture and tone-evening;
-    concentration is not disclosed and no product-specific trial exists (general evidence
+    concentration is not disclosed and no product-specific trial is cited here (general evidence
     on [[niacinamide]])'
   use: Skin tone and texture from niacinamide (cosmetic)
 key_actives:
@@ -59,7 +59,7 @@ No published trial was found that tests this product or its exact formula; the g
 
 Salicylic acid's evidence as a topical acne active is set out on [[salicylic-acid]]: it is an FDA OTC-recognized active at 0.5% to 2%, with a genuine but second-tier case, the American Academy of Dermatology recommends it only conditionally, and the one randomized controlled comparison Cochrane could pool found it performed no better than [[tretinoin]] on participants' global improvement rating.[^1] This product uses 0.5%, the lowest concentration in the approved range, whereas the comparator product, [[paulas-choice-skin-perfecting-2-bha|Paula's Choice Skin Perfecting 2% BHA Liquid Exfoliant]], uses 2%, the top of the range. Neither product has its own published trial; the difference between them is concentration within the same evidenced active, not a difference in evidence base.
 
-Niacinamide's general evidence, on [[niacinamide]], supports a modest cosmetic effect on skin tone and texture; this product does not disclose a concentration for it, and no product-specific trial exists.
+Niacinamide's general evidence, on [[niacinamide]], supports a modest cosmetic effect on skin tone and texture; this product does not disclose a concentration for it, and no product-specific trial is cited here.
 
 > **Bottom line.** This serum delivers the FDA's own acne active at the low end of its approved range, an active the American Academy of Dermatology recommends only conditionally and ranks below benzoyl peroxide and topical retinoids. No trial isolates this product; its 43-volunteer satisfaction survey is not a controlled comparison.[^1]
 

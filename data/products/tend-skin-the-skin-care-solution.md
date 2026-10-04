@@ -49,7 +49,7 @@ Topical salicylates are a keratolytic mainstay treatment reviews cite for razor 
 
 Isopropyl alcohol leads the ingredient list. Isopropyl-alcohol-based products are astringent and drying, and can sting on freshly shaved, waxed, or otherwise broken skin, a property of the formula rather than a study finding. Because the active is a salicylate, it is also relevant to anyone with a salicylate or aspirin sensitivity.
 
-> **Bottom line.** A salicylate keratolytic (the same mid-tier mainstay category graded on [[pseudofolliculitis-barbae]]) delivered in a mostly isopropyl-alcohol liquid; no product-specific trial exists, and the alcohol base is a real tradeoff on freshly shaved or broken skin.
+> **Bottom line.** A salicylate keratolytic (the same mid-tier mainstay category graded on [[pseudofolliculitis-barbae]]) delivered in a mostly isopropyl-alcohol liquid; no product-specific trial is cited here, and the alcohol base is a real tradeoff on freshly shaved or broken skin.
 
 ## What's In It
 

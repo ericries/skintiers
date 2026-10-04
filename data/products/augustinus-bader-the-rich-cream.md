@@ -62,7 +62,7 @@ TFC8 is the ingredient the brand's marketing rests on most heavily, and it is th
 
 The brand's own clinical claims, a 37% reduction in forehead wrinkles, a 54% reduction in crow's feet, a 92% improvement in firmness, and a 2.45x improvement in hydration, come from a single 4-week study of 30 participants described on the product page, with no link to a published trial, no stated control arm, and no peer review.[^1]
 
-> **Bottom line.** No independent trial exists for this specific cream. Its hydration and barrier grade rests on the general, modest evidence for its emollient and humectant ingredients; its anti-aging grade rests on an undisclosed proprietary complex and two peptides with thin, mostly preliminary category evidence, backed only by the brand's own unpublished study.[^1]
+> **Bottom line.** No independent trial is cited here for this specific cream. Its hydration and barrier grade rests on the general, modest evidence for its emollient and humectant ingredients; its anti-aging grade rests on an undisclosed proprietary complex and two peptides with thin, mostly preliminary category evidence, backed only by the brand's own unpublished study.[^1]
 
 ## What's In It
 

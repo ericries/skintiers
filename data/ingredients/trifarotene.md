@@ -45,7 +45,7 @@ Primary clinical evidence:
 
 ## Uses
 
-Well-supported: moderate acne vulgaris on the face and, distinctively, on the trunk, in patients from age 9, where two phase 3 trials establish a modest benefit over vehicle.[^1][^2] Not established by controlled evidence: superiority over older retinoids such as [[adapalene]], [[tretinoin]], or [[tazarotene]] (no head-to-head trial exists), photoaging or wrinkle reduction (untested), or any use beyond acne. As with all retinoids, tolerability (dryness, redness, scaling) is the main practical limit, and trifarotene is a prescription drug.[^1][^2]
+Well-supported: moderate acne vulgaris on the face and, distinctively, on the trunk, in patients from age 9, where two phase 3 trials establish a modest benefit over vehicle.[^1][^2] Not established by controlled evidence: superiority over older retinoids such as [[adapalene]], [[tretinoin]], or [[tazarotene]] (no head-to-head trial is cited here), photoaging or wrinkle reduction (untested), or any use beyond acne. As with all retinoids, tolerability (dryness, redness, scaling) is the main practical limit, and trifarotene is a prescription drug.[^1][^2]
 
 ## Common Marketing Claims
 

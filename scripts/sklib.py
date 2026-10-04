@@ -435,6 +435,15 @@ _VOICE_PATTERNS = [
      "self-referential meta ('first ... on the site')"),
     (re.compile(r"in-house", re.I),
      "process meta ('in-house' / 'assembled in-house')"),
+    # A universal claim about the whole literature is unverifiable, and we have
+    # been wrong: clascoterone.md said "no head-to-head trial exists" while Trifu
+    # 2011 (PMID 21428978) compared it with tretinoin 0.05% under the molecule's
+    # older name. Only the unambiguous existence form is flagged; scoped phrasing
+    # ("no trial cited here", "no published trial of this cream") stays clean.
+    (re.compile(r"\bno\b[^.]{0,60}?\b(?:trial|study|studies|evidence)s?\s+(?:exists?|exist)\b", re.I),
+     "absolute absence-of-evidence claim ('no trial exists'); scope it to what was "
+     "checked, e.g. 'no trial cited here' or 'no published trial of this product', "
+     "since an older name or an unindexed journal can hide one"),
 ]
 
 

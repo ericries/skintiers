@@ -21,10 +21,10 @@ Topical vitamin K1 (phytonadione, INCI name Phytonadione; also formulated as vit
 
 **Preventing bruising before a procedure, topical**
 - **Effect size: none demonstrated.** The Shah 2002 trial specifically tested 2 weeks of pretreatment before laser and found "no significant difference in bruising as compared to placebo" on the pretreated side.[^shah] Pretreatment is the claim most commonly marketed ("apply before your filler appointment"), and it is the arm that failed.
-- **Evidence quality: one negative RCT arm; no positive trial exists for prevention.**[^shah]
+- **Evidence quality: one negative RCT arm; no positive trial is cited here for prevention.**[^shah]
 
 **Under-eye dark circles, topical (general cosmetic use, not tied to a procedure)**
-- **Effect size: unquantifiable, no isolated-ingredient trial exists.** A PubMed search for controlled trials of topical vitamin K specifically for periorbital dark circles returns no clinical trial results; the only dark-circle RCTs found test unrelated interventions (carboxytherapy, lasers, mesotherapy, injectable fillers, other topical actives), and a 2026 review of vitamin K in dermatology lists post-laser purpura and cetuximab-dermatitis prevention as its topical dermatologic applications, not dark circles.[^review] The dark-circle marketing claim rests on extrapolation from the bruising-resolution data (dark circles are sometimes attributed partly to visible subdermal blood vessels/hemosiderin) rather than on any trial that measured dark circles as an endpoint.
+- **Effect size: unquantifiable, no isolated-ingredient trial is cited here.** A PubMed search for controlled trials of topical vitamin K specifically for periorbital dark circles returns no clinical trial results; the only dark-circle RCTs found test unrelated interventions (carboxytherapy, lasers, mesotherapy, injectable fillers, other topical actives), and a 2026 review of vitamin K in dermatology lists post-laser purpura and cetuximab-dermatitis prevention as its topical dermatologic applications, not dark circles.[^review] The dark-circle marketing claim rests on extrapolation from the bruising-resolution data (dark circles are sometimes attributed partly to visible subdermal blood vessels/hemosiderin) rather than on any trial that measured dark circles as an endpoint.
 - **Evidence quality: none for this specific use.** No controlled trial identified.
 
 ## How It Works
