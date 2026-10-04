@@ -11,9 +11,9 @@ tier_list:
   items:
   - skinceuticals-c-e-ferulic
   - trader-joes-nourish-vitamins-c-e-facial-serum
-  - prequel-lucent-c-vitamin-c-serum
   - maelove-the-glow-maker
   - paulas-choice-c15-super-booster
+  - prequel-lucent-c-vitamin-c-serum
   - la-roche-posay-pure-vitamin-c-12-serum
   - timeless-20-vitamin-c-e-ferulic-serum
   - skinceuticals-phloretin-cf
@@ -23,7 +23,7 @@ tier_list:
   - the-ordinary-ascorbyl-glucoside-solution-12
   title: Vitamin C serums by evidence
 type: list
-updated: '2026-08-30'
+updated: '2026-10-04'
 ---
 
 This list ranks finished vitamin C serums, most useful for [[brightening]] and [[hyperpigmentation]] concerns and as an add-on antioxidant layer under sunscreen for [[sun-damage-photoaging|sun-damage prevention]]. The evidence for topical vitamin C, covered on [[ascorbic-acid-vitamin-c]], is built almost entirely on one form and one formulation: L-ascorbic acid at a low pH (below 3.5, per Pinnell's absorption studies)[^pinnell] so it can actually penetrate skin, ideally stabilized with vitamin E and ferulic acid. That exact 15%/1%/0.5% combination produced measured photoprotection in Lin 2005 and Murray 2008.[^lin][^murray]
@@ -38,11 +38,11 @@ The ranking method: each serum is scored by how closely it matches that studied 
 
 **[[trader-joes-nourish-vitamins-c-e-facial-serum|Trader Joe's Nourish Vitamins C + E + Hyaluronic Acid Facial Serum]].** A roughly $10 dupe that discloses the same 15% L-ascorbic acid, 1% alpha-tocopherol, 0.5% ferulic acid combination on its label, the fullest percentage match to the reference formula among the budget options here.
 
-**[[prequel-lucent-c-vitamin-c-serum|Prequel Lucent-C Brightening Vitamin C Serum]].** 15% L-ascorbic acid delivered at pH 3.2, inside the low-pH range Pinnell found necessary for skin penetration, plus vitamin E, though the manufacturer does not disclose the vitamin E or ferulic acid percentages the way SkinCeuticals does.
-
 **[[maelove-the-glow-maker|Maelove The Glow Maker]].** 15% L-ascorbic acid the manufacturer states matches the stabilizing vitamin E and ferulic acid combination behind SkinCeuticals C E Ferulic, without disclosing exact percentages; a formulator-run accelerated stability test is the only product-specific data available.
 
 **[[paulas-choice-c15-super-booster|Paula's Choice C15 Super Booster]].** Discloses 15% L-ascorbic acid paired with vitamin E and ferulic acid by name, but not by percentage, so the match to the studied combination is directional rather than exact.
+
+**[[prequel-lucent-c-vitamin-c-serum|Prequel Lucent-C Brightening Vitamin C Serum]].** 15% L-ascorbic acid delivered at pH 3.2, inside the low-pH range Pinnell found necessary for skin penetration, and it includes ferulic acid. It contains no vitamin E, using ergothioneine and niacinamide in its place, so it matches only part of the studied three-antioxidant combination: the pure L-ascorbic acid at the right pH, but not the vitamin C plus vitamin E plus ferulic acid formula that Lin 2005 and Murray 2008 actually tested.
 
 **[[la-roche-posay-pure-vitamin-c-12-serum|La Roche-Posay Pure Vitamin C12 Serum]].** A genuinely high, well-dosed 12% L-ascorbic acid alone, without the vitamin E or ferulic acid that stabilize the reference formula and boost its measured photoprotection; pure L-ascorbic acid is also the least stable vitamin C form and this bottle is not sold as airless or light-blocking.
 

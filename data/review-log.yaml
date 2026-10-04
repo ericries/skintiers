@@ -932,10 +932,10 @@ best-vitamin-c-serums:
   score: 8
   verdict: self-reviewed
 best-vitamin-c-serums-by-evidence:
-  last_reviewed: '2026-08-30'
-  note: 'LIST wave2. Best-of vitamin C serums. Opus critic (93): all 12 slugs resolve, Pinnell 2001/Lin 2005/Murray 2008 verbatim vs eutils. Honest: L-ascorbic gold-standard (CE Ferulic + dupes) top, derivatives bottom. Routes [[ascorbic-acid-vitamin-c]]. No dashes. Opus critic inline (workflow pipeline); assurance opus.'
-  score: 9
+  last_reviewed: '2026-10-04'
+  score: 8
   verdict: publish
+  note: 'Factual fix from external agent feedback (feedback/2026-10-04_11-25-14). The list claimed Prequel Lucent-C contains "plus vitamin E"; the product page states five times that it contains ferulic acid but NO vitamin E (no tocopherol in its declared INCI), and its whole evidence argument rests on that absence. Corrected to state it has ferulic acid but no vitamin E (ergothioneine + niacinamide in its place) and that the Lin 2005/Murray 2008 C+E+ferulic formula therefore does not describe it. Moved it below the two serums carrying both stabilizers in items:/prose per the list own stated method. NOTE: rendered tier grouping is driven by each product page grades:, not by items: order, so source order and visual tier can differ; prose deliberately avoids asserting a relative rank. Also declined to add a feedback-sourced claim that Prequel advises against use on rosacea/eczema/psoriasis - unverifiable locally (no cache, not on our product page), left out per when-in-doubt-leave-it-out.'
 best-vitamin-e-products:
   last_reviewed: '2026-08-30'
   note: 'LIST wave4. Best-of vitamin E products. Opus critic (9): 6 slugs resolve, Keen/Murray/Lin verbatim vs PMC+eutils; SWAPPED Trader Joe/Timeless order to match disclosed-CEFer criterion. Honest: E weak solo, valuable w/vitamin C. Routes [[tocopherol]]. No dashes. Opus critic inline (workflow pipeline); assurance opus.'
