@@ -51,10 +51,10 @@ acne:
   score: 9
   verdict: publish
 acne-scars:
-  last_reviewed: '2026-08-27'
-  note: 'CONDITION cron (health claims). Lean hub separating 3 things called ''acne scars'': atrophic (true scars, PROCEDURAL - out of topical scope), PIH (routed to [[hyperpigmentation]]/[[brightening]]), PIE (time + sun + PDL laser). Both quotes verified VERBATIM vs NCBI eutils: Boen 2019 (Dermatol Surg, PMID 30856634) ''divided atrophic acne scars into icepick, rolling, and boxcar scars'' + ''Therapies for acne scarring included surgical modalities, such as subcision, and punch excision and elevation, injectable fillers, chemical peels, dermabrasion, microneedling, and energy-based devices''; Elbuluk 2021 (Am J Clin Dermatol, PMID 34468934) title/framing PIH as distinct entity. Honest tier_list caps topicals (tretinoin moderate, azelaic moderate, niacinamide minimal) w/ caption stating procedures lead for atrophic + prevention via early [[acne]] tx. No PIH re-explanation (links out). No dashes. Inline main-loop critic (subagent cap hit); assurance opus.'
+  last_reviewed: '2026-10-04'
   score: 9
   verdict: publish
+  note: 'Maintenance tick (site_health). Flagged 3 candidates as missing from the tier_list; after checking each, NONE genuinely belongs, so the tier_list is unchanged and all three are recorded in tier_list_reviewed instead. Reasons: the list is explicitly scoped to FLAT post-acne marks (pigment, mildly texture) and excludes true atrophic scars; mederma-quick-dry-oil is a STRETCH-MARK product; mederma-advanced-scar-gel is for new/existing scars (effect minimal/evidence weak) and links this hub only via its comparator: field, not as a post-acne-marks product; allium-cepa-onion-extract is tier:weak with evidence specific to surgical/post-op scars that is consistently NEGATIVE versus petrolatum, so adding it would transfer evidence across indications. Used the purpose-built tier_list_reviewed field so the false flag self-clears without polluting the ranking (verified: the next site_health call advances to a different hub). lint/verify/style clean.'
 adam-friedman:
   last_reviewed: '2026-08-08'
   note: 'Lean person discovery-aid (Sonnet-only). Honest credential + linked on-site studies/products.

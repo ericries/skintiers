@@ -32,8 +32,12 @@ tier_list:
     slug: niacinamide
     tier: minimal
   title: Topical options for post-acne marks, by evidence
+tier_list_reviewed:
+- allium-cepa-onion-extract
+- mederma-advanced-scar-gel
+- mederma-quick-dry-oil
 type: condition
-updated: '2026-08-27'
+updated: '2026-10-04'
 videos:
 - title: Which Microneedling Device Is The Best? Derm Recommendations
   creator: Dr. Davin Lim
