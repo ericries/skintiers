@@ -8151,19 +8151,6 @@
   feed_rank: 0
   status: skipped
   skip_reason: product-funnel lead magnet ('Comment BEAUTY for derm-approved products'); KOL/incentivized picks
-- id: nVRFpcXf5cg
-  title: Copper Peptides Causing Skin Problems? Here’s What’s Actually Happening | Derm Explains
-  creator: Dr. Shereene Idriss
-  creator_slug: shereene-idriss
-  credential: Board-certified dermatologist
-  channel: https://www.youtube.com/@ShereeneIdriss/videos
-  platform: YouTube
-  tier: HIGH
-  product_recs: null
-  conflict: runs the PillowtalkDerm brand - skip videos mainly promoting her own products
-  posted: ''
-  feed_rank: 0
-  status: pending
 - id: '7690292234532474125'
   title: 'This is what all my videos would sound like without voiceovers 🎧✨ #ov...'
   creator: Ella (@your.estie.ella)
@@ -9310,19 +9297,6 @@
   posted: ''
   feed_rank: 7
   status: pending
-- id: '7692151980298390815'
-  title: If you’re getting random pimples in your 30s & 40s, I can confirm tha...
-  creator: Dr. Aegean Chan
-  creator_slug: aegean-chan
-  credential: Board-certified dermatologist
-  channel: https://www.tiktok.com/@draegeanchan
-  platform: TikTok
-  tier: HIGH
-  product_recs: restricted
-  conflict: Founder/owner of active postpartum skincare brand "More Than Nine" (cleanser, exfoliator, moisturizer, balm) — an ongoing own-bran
-  posted: '2026-10-02'
-  feed_rank: 0
-  status: pending
 - id: gn_GEpGo_zk
   title: '#1 Skin Longevity Product'
   creator: Dr. Aleksandra Brown, DO, FAAD
@@ -9429,19 +9403,6 @@
   feed_rank: 0
   status: skipped
   skip_reason: '''8 hygiene hacks'' multi-topic listicle, not single-topic; Doctorly own-brand channel (Remedy Science)'
-- id: '7692052098162199821'
-  title: Whatever you put on your skin in the days after a treatment matters j...
-  creator: Fatima Fahs
-  creator_slug: fatima-fahs
-  credential: Dermatologist (MD)
-  channel: https://www.tiktok.com/@dermydoctor
-  platform: TikTok
-  tier: HIGH
-  product_recs: restricted
-  conflict: null
-  posted: '2026-10-02'
-  feed_rank: 0
-  status: pending
 - id: '7692215727729757460'
   title: 'a case for bronzer on pale skin: I find it’s all about balance! Too c...'
   creator: Hannah English (@ms_hannah_e / Hannah Collingwood English)
@@ -9614,4 +9575,199 @@
   conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan and reject any sponsored/affiliate/gifted video
   posted: '2026-10-02'
   feed_rank: 0
+  status: pending
+- id: Md6LQ4a7wV0
+  title: 'things I''d never touch again based on research #dermatologist #skincareroutine'
+  creator: Dr Aamna Adel
+  creator_slug: aamna-adel
+  credential: Consultant dermatologist
+  channel: https://www.youtube.com/@DrAamnaAdel
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Founder of own-brand haircare line (Rhute); TikTok Shop affiliate/product storefront; recurring disclosed sponsored posts (No7, La Roche Pos
+  posted: ''
+  feed_rank: 6
+  status: pending
+- id: ecoR3GjrTZY
+  title: Derm Rates Eye Creams for Dark Circles
+  creator: Dr. Aleksandra Brown, DO, FAAD
+  creator_slug: aleksandra-brown
+  credential: Board-certified dermatologist (DO, FAOCD, FAAD), practicing at River Ridge Dermatology / HCA Virginia (LewisGale), Blacksburg VA
+  channel: https://www.youtube.com/channel/UC52c6a0gfbhuVCdHYZQAzuQ
+  platform: YouTube
+  tier: HIGH
+  product_recs: ok
+  conflict: null
+  posted: ''
+  feed_rank: 6
+  status: pending
+- id: ionyOpS0UmA
+  title: 'Glycolic Acid vs. Lactic Acid: Which Is Better for Dark Spots?'
+  creator: Andrea Suarez (Dr Dray)
+  creator_slug: andrea-suarez-dr-dray
+  credential: Board-certified dermatologist
+  channel: https://www.youtube.com/@DrDrayzday/videos
+  platform: YouTube
+  tier: HIGH
+  product_recs: null
+  conflict: null
+  posted: ''
+  feed_rank: 0
+  status: pending
+- id: rimvYMCeX2E
+  title: 'That’s not gonna work. #dermreacts  #hair  #dermatologist #dermangelo'
+  creator: Dr. Angelo Landriscina (DermAngelo)
+  creator_slug: angelo-landriscina
+  credential: Board-certified dermatologist
+  channel: https://www.youtube.com/@DermAngelo
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Own-brand UPF sun-protective clothing line, SOUL-A (wearsoula.com / @wearsoula), founded and promoted by him — apparel, not topical skincare
+  posted: ''
+  feed_rank: 6
+  status: pending
+- id: U-AM--Y5K5A
+  title: '“First thing I do in Paris” #dermreacts  #skincare  #dermatologist #dermangelo  #reactionvideo'
+  creator: Dr. Angelo Landriscina (DermAngelo)
+  creator_slug: angelo-landriscina
+  credential: Board-certified dermatologist
+  channel: https://www.youtube.com/@DermAngelo
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Own-brand UPF sun-protective clothing line, SOUL-A (wearsoula.com / @wearsoula), founded and promoted by him — apparel, not topical skincare
+  posted: ''
+  feed_rank: 7
+  status: pending
+- id: NwbyosLUmE8
+  title: Best Affordable Skincare Routine Over 50 | Dermatologist’s Morning & Night Picks
+  creator: Dr. Daniel Sugai
+  creator_slug: daniel-sugai
+  credential: Board-certified dermatologist
+  channel: https://www.youtube.com/@danielsugaimd
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Chief Medical Officer of hair-growth-serum brand REYUS; advisory-board member of Bubble Skincare; periodic disclosed paid brand partnerships
+  posted: ''
+  feed_rank: 0
+  status: pending
+- id: pWmADLptLRE
+  title: Every Day. All day.
+  creator: Doctorly
+  creator_slug: doctorly
+  credential: Dr. Muneeb Shah, DO & Dr. Luke Maxfield, DO - both board-certified dermatologists
+  channel: https://www.youtube.com/channel/UCHCZnC9akNA9pBP7aJGNKdg
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Muneeb Shah runs own skincare brand (Remedy Science) and Scriptable Rx venture featured on the channel
+  posted: ''
+  feed_rank: 12
+  status: pending
+- id: AraxlpThaF8
+  title: '#skincare #cosmeticdermatology #skincareroutine #skincaretips #dermatologist #azelaicacid'
+  creator: Dr. Jenny Liu (Jenny Liu, MD, FAAD)
+  creator_slug: jenny-liu
+  credential: Board-certified dermatologist
+  channel: https://www.youtube.com/@dr.jennyliu
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Runs an Amazon affiliate storefront (amazon.com/shop/derm.talk); recurring disclosed paid brand partnerships (Shiseido, SkinCeutic
+  posted: ''
+  feed_rank: 6
+  status: pending
+- id: Q6CcxuAGbb8
+  title: Nearly Half of “Mineral” Sunscreens Had Hidden Chemical Filters
+  creator: John Barbieri, MD
+  creator_slug: john-barbieri-md
+  credential: Board-certified dermatologist, Associate Professor of Dermatology at Harvard Medical School, Director of the Advanced Acne Therapeutics Clinic at Brigham and Women's Hospital, co-chair of the AAD Acne Guidelines Work Group
+  channel: https://www.youtube.com/channel/UCm0RvvD6gfywapkgOt3bFCA
+  platform: YouTube
+  tier: HIGH
+  product_recs: ok
+  conflict: null
+  posted: ''
+  feed_rank: 0
+  status: pending
+- id: '7692457016907877646'
+  title: Guys, there’s no drama. My first impressions on the eye masks that br...
+  creator: Kristin Leite (kristingl)
+  creator_slug: kristin-leite
+  credential: Beauty product developer and skincare educator (NOT a dermatologist or cosmetic chemist)
+  channel: https://www.tiktok.com/@kristingl
+  platform: TikTok
+  tier: MED
+  product_recs: null
+  conflict: runs an Amazon affiliate storefront and does sponsored posts - strongly prefer educational / how-to / ingredient-explainer videos; be very cautious with any product recommendation
+  posted: '2026-10-03'
+  feed_rank: 0
+  status: pending
+- id: 4ILFKmvsQh4
+  title: 'correct way to use glycolic acid stitch with Leanne_page #skincare'
+  creator: Dr. Neera Nathan
+  creator_slug: neera-nathan
+  credential: Board-certified dermatologist
+  channel: https://www.youtube.com/@dermatologysurgeon
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Runs a "Shop my Favorites" affiliate storefront (linktr.ee/dermatologysurgeon) that monetizes her product picks; no own-brand prod
+  posted: ''
+  feed_rank: 0
+  status: pending
+- id: '7692472327040224542'
+  title: 🖇️ Comment PRODUCTS for all of my derm-approved skincare, beauty, and...
+  creator: Dr. Sheila Farhang (dr.sheila_derm)
+  creator_slug: sheila-farhang
+  credential: Board-certified dermatologist
+  channel: https://www.tiktok.com/@dr.sheila_derm
+  platform: TikTok
+  tier: HIGH
+  product_recs: restricted
+  conflict: Self-describes as a "Key Opinion Leader for industry beauty companies" (per her own practice bio) and most sampled TikTok videos e; no YouTube; TikTok/IG intake
+  posted: '2026-10-03'
+  feed_rank: 0
+  status: pending
+- id: OBaAH6vwPUU
+  title: 3 Ways I Prevent Post-Menopause Skin Issues + What Really Helps Elasticity After 50
+  creator: Dr. Shereene Idriss
+  creator_slug: shereene-idriss
+  credential: Board-certified dermatologist
+  channel: https://www.youtube.com/@ShereeneIdriss/videos
+  platform: YouTube
+  tier: HIGH
+  product_recs: null
+  conflict: runs the PillowtalkDerm brand - skip videos mainly promoting her own products
+  posted: ''
+  feed_rank: 0
+  status: pending
+- id: '7692551509359283469'
+  title: These products are not all terrible but I definitely wouldn’t use the...
+  creator: Ella (@your.estie.ella)
+  creator_slug: your-estie-ella
+  credential: Licensed esthetician (NOT a dermatologist or cosmetic chemist)
+  channel: https://www.tiktok.com/@your.estie.ella
+  platform: TikTok
+  tier: MED
+  product_recs: ok
+  conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan and reject any sponsored/affiliate/gifted video
+  posted: '2026-10-03'
+  feed_rank: 0
+  status: pending
+- id: '7692446434984987917'
+  title: Your cleanser is there to keep your skin clean. Moisturizer is for ke...
+  creator: Ella (@your.estie.ella)
+  creator_slug: your-estie-ella
+  credential: Licensed esthetician (NOT a dermatologist or cosmetic chemist)
+  channel: https://www.tiktok.com/@your.estie.ella
+  platform: TikTok
+  tier: MED
+  product_recs: ok
+  conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan and reject any sponsored/affiliate/gifted video
+  posted: '2026-10-03'
+  feed_rank: 1
   status: pending
