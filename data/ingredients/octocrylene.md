@@ -3,9 +3,10 @@ analyzed: '2026-07-28'
 assurance: opus
 name: Octocrylene
 slug: octocrylene
+tier: mid
 status: published
 type: ingredient
-updated: '2026-07-28'
+updated: '2026-10-05'
 ---
 
 Octocrylene (INCI octocrylene) is an organic sunscreen filter that absorbs ultraviolet-B and short-wave ultraviolet-A, and it is used in United States and European sunscreens both as a filter in its own right and as a photostabilizer that slows the breakdown of the ultraviolet-A filter avobenzone.[^degroot][^fda2019][^chaudhuri] Its absorption is concentrated in UVB (about 290 to 320 nm) and the adjacent UVA II band (about 320 to 340 nm), and it covers little of the long-wave UVA I above 340 nm, so it contributes mainly to SPF, a UVB metric, and adds only narrow short-wave UVA coverage; SPF and the separate UVA axis are explained on [[sunscreen-uv-filters]].[^degroot][^cfr352] Regular broad-spectrum sunscreen use is one of the few skincare practices with randomized-trial support for slowing photoaging and reducing skin-cancer burden, and octocrylene is one component of the older US filter set that delivers that protection; the health benefit is established for the practice, not for octocrylene alone, and lives on [[sunscreen-uv-filters]]. Three questions shape how it is graded: how much of the spectrum it actually covers, what its measured systemic absorption and its slow degradation to benzophenone mean, and its record as a cause of photoallergic contact dermatitis.

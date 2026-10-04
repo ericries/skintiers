@@ -3,9 +3,10 @@ analyzed: '2026-08-23'
 assurance: opus
 name: Tris-Biphenyl Triazine (Tinosorb A2B)
 slug: tris-biphenyl-triazine-tinosorb-a2b
+tier: mid
 status: published
 type: ingredient
-updated: '2026-08-23'
+updated: '2026-10-05'
 ---
 
 Tris-biphenyl triazine (TBPT, INCI name Tris-Biphenyl Triazine, CAS 31274-51-8, sold under the BASF trade name Tinosorb A2B) is an organic ultraviolet filter formulated as an aqueous dispersion of nanoparticles rather than dissolved in the oil phase like most organic filters.[^pubchem][^naumov] It was the first new filter added to Annex VI of EU Cosmetics Regulation (EC) No. 1223/2009, the list of UV filters permitted in cosmetic products, since that regulation took effect in July 2013.[^couteau]

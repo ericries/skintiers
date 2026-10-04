@@ -51,8 +51,11 @@ tier_list:
     slug: colloidal-oatmeal
     tier: moderate
   title: Barrier-strengthening ingredients by evidence
+tier_list_reviewed:
+- la-roche-posay-toleriane-double-repair-face-moisturizer
+- sodium-lauroyl-isethionate
 type: goal
-updated: '2026-08-18'
+updated: '2026-10-05'
 videos:
 - creator: ''
   creator_slug: ranella-hirsch

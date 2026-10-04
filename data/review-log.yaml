@@ -962,10 +962,10 @@ bioderma-sensibio-h2o-micellar-water:
   score: 9
   verdict: publish
 bisoctrizole:
-  last_reviewed: '2026-07-28'
-  note: Bisoctrizole / Tinosorb M (drain revise, resolved). Critic verified all journal/FDA/EU sources verbatim; the only blocker was 4 Akintilo JDD quotes it couldn't re-fetch (paywalled) - these are the SAME quotes already verified against full text on [[sunscreen-uv-filters]] (footnote so annotated) and the substance (modern UVA filter standard abroad, outside the US monograph, bemotrizinol added 2026 not bisoctrizole) is independently corroborated by the verified FDA rules + Herzog/Hojerova. lint/style/verify clean.
-  score: 9
+  last_reviewed: '2026-10-05'
+  score: 8
   verdict: publish
+  note: site_health tier backfill. tier:good assigned from the page own rubric (effect notable UVA-I coverage, evidence solid for spectral/photostability characterization with the health payoff inherited from sunscreen practice rather than filter-specific), consistent with all four sibling filters already graded good (zinc-oxide, avobenzone, bemotrizinol, titanium-dioxide). No prose changed.
 bissett-2005-niacinamide-aging-facial-skin-split-face-rct:
   last_reviewed: '2026-08-20'
   note: 'STUDY cron: compact niacinamide split-face RCT page. Every quote/figure verified VERBATIM against the real PubMed record via NCBI E-utilities (PMID 16029679): ''significant skin appearance improvement effects'', ''reductions in fine lines and wrinkles, hyperpigmented spots, red blotchiness, and skin sallowness (yellowing)'', N=50, 5% niacinamide split-face vs vehicle, 12 wk, double-blind left-right randomized, elasticity via cutometry. Honest framing surfaced: all 3 authors are P&G employees (COI), 50 white women only, and the ABSTRACT gives no effect-size numbers (only ''significant''). Consistent with niacinamide''s ''mid'' ingredient tier. Opus critic agent unavailable (200-agent cap); verified in the Opus main loop.'
@@ -1823,34 +1823,10 @@ dhs-tar-gel-shampoo:
   score: 9
   verdict: publish
 diethylamino-hydroxybenzoyl-hexyl-benzoate:
-  last_reviewed: '2026-08-04'
-  note: 'Ingredient page filled (daily ingredient cron; Sonnet draft + Opus profile-reviewer critic). DHHB /
-
-    Uvinul A Plus, an organic UVA-I sunscreen filter. Critic re-verified all quotes verbatim against BASF TDS,
-
-    Kawakami 2017 (EJPS), EUR-Lex Directive 2008/123/EC, SCCS/1678/25 (2025), and both FDA Federal Register
-
-    docs (incl. confirming the real June 2026 final order adds only bemotrizinol) - all exact. Verdict REVISE
-
-    on 5 items, all fixed in main loop: (1) deleted an orphan quoted-but-uncited synthesis sentence; (2) added
-
-    a THIRD independent primary (SCCP/1166/08) for the ~356 nm peak - I re-fetched the PDF myself and confirmed
-
-    the spectrum peak labelled 355.89 nm on page 8; (3) dropped the under-supported "since 2005" date (not
-
-    verbatim in a fetchable source), leaning on the verified 2008 directive; (4) reworded "formulations
-
-    containing only DHHB" -> "the tested DHHB-containing formulations" to match Kawakami''s actual wording;
-
-    (5) removed a bare uncited avobenzone/TiO2 comparative. BASF''s "only photostable organic UVA-I absorber"
-
-    correctly quarantined as a marketing claim; regulatory authorization kept separate from efficacy. Not
-
-    FDA-approved (absent from US sunscreens) stated plainly. lint+verify+style clean.
-
-    '
-  score: 9
-  verdict: revise-then-fixed
+  last_reviewed: '2026-10-05'
+  score: 8
+  verdict: publish
+  note: site_health tier backfill. tier:good assigned from the page own rubric (effect notable dedicated UVA-I coverage, evidence solid for its own spectral/photostability characterization). Not bulk-guessed; each rubric read individually. No prose changed.
 differin:
   last_reviewed: '2026-08-08'
   note: 'Lean brand discovery-aid (Sonnet-only). What-it-is + sourced ownership + linked on-site products.
@@ -2168,10 +2144,10 @@ erythromycin-topical:
   score: 7
   verdict: publish
 ethylhexyl-triazone:
-  last_reviewed: '2026-07-28'
-  note: 'Cross-queue parallel drain (draft+critic). sk lint = clean, sk style = clean style, sk verify = only the expected advisory that eur-lex is off the primary allowlist (a regulator, valid primary). I re-fetched all 11 sources and confirmed every quote verbatim and every statistic exact and correctly directioned: Baker 2017 (all five quotes incl. "ultrafast internal conversion" and "enabling multiple absorption and recovery cycles, as one would anticipate from a highly efficient filter"); Tsuchiya 2015 ("intersystem crossing to the T1 state", "did not exhibit significantly antioxidative properties by quenching singlet oxygen"); Couteau 2007 efficacy scores (octyltriazone 7.80, homosalate 4.33, octisalate 3.12, bisoctrizole 3.68, 4-MBC 4.22, octocrylene 10.41, octinoxate 10.42, iscotrizi'
-  score: 9
+  last_reviewed: '2026-10-05'
+  score: 8
   verdict: publish
+  note: site_health tier backfill. tier:good assigned from the page own rubric (effect notable, evidence solid for spectral classification and in vitro efficacy). Not bulk-guessed; each rubric read individually. No prose changed.
 eucerin:
   last_reviewed: '2026-08-08'
   note: 'Lean brand discovery-aid page (daily-drain, Sonnet-only, no Opus critic per roster). <=180 words: what it
@@ -2957,12 +2933,10 @@ iron-oxides:
   score: 9
   verdict: publish
 iscotrizinol:
-  last_reviewed: '2026-08-08'
-  note: 'iscotrizinol (draft): re-fetched all six cited sources. All Couteau efficacy numbers (12.58/10.41/10.42/15.14/20.0, and octyltriazone=ethylhexyl triazone 7.80), all three Tsuchiya quotes, the Symrise 310nm/10%/photostable quotes, Kim''s Iscotrizinol/"recent UV filter" wording, CosIng Annex VI entry 17 (CAS 154702-15-5, 10%), and the CFR 16-actives list verify verbatim. Evidence is honestly framed (UVB-only, no clinical/DNA trial, marketing superlative quarantined). Verdict revise: the quoted phrase "specifically a UVB filter" (lines 18, 43) is fabricated — not in the Symrise source — and the Kim citation pagination (63(3):167-183) is wrong (PubMed: 63(2):103-17); both are surgical fixes with the underlying claims intact.
-
-    '
-  score: 9
-  verdict: revise-then-fixed
+  last_reviewed: '2026-10-05'
+  score: 8
+  verdict: publish
+  note: 'site_health tier backfill. tier:good assigned from the page own rubric (prose rubric: UVB efficacy independently measured in an 18-filter in vitro comparison, ranking above octocrylene; no filter-specific clinical trial, health benefit inherited). Not bulk-guessed; each rubric read individually. No prose changed.'
 isdin:
   last_reviewed: '2026-08-17'
   note: 'BRAND cron (lean inline card, no critic). ISDIN discovery roll-up: Spanish dermatological skincare brand; links its 2 site products (Eryfotona tinted SPF 50, Melatonik serum), marketing attributed as brand''s own. Grounded backlog (2 products, no brand page). Gates clean; force-published.'
@@ -4333,10 +4307,10 @@ octisalate:
   score: 9
   verdict: publish
 octocrylene:
-  last_reviewed: '2026-07-28'
-  note: 'Sunscreen filter (drain revise, resolved). Critic verified 6/7 sources verbatim; the one blocker was an octocrylene-endocrine claim mis-attributed to the FDA rule (found there on oxybenzone, not octocrylene). Fixed: dropped the FDA endocrine attribution and the unverifiable ''None of these 10'' verbatim quote; the endocrine concern now attaches only to benzophenone via the verified Downs 2021 (whose ''endocrine disruptor'' characterization is noted as disputed). lint/style/verify clean.'
-  score: 9
+  last_reviewed: '2026-10-05'
+  score: 8
   verdict: publish
+  note: 'site_health tier backfill. tier:mid assigned from the page own rubric: effect "modest as a standalone filter, useful as a photostabilizer", evidence solid for characterization. Modest effect maps to mid, below the notable-effect filters graded good. No prose changed.'
 oily-skin:
   last_reviewed: '2026-07-28'
   note: 'Oily-skin condition page (user request; anchor for the sebum theme). Opens with the layperson ''How to know you have this'' (midday shine/T-zone, makeup sliding, blotting test), cited. Cleanly separates HEALTH (durable sebum-production reduction: isotretinoin ~88-90% drop with partial recovery; anti-androgens/COC per Katz; retinoids honestly hedged ''yet to exclusively illustrate... sebosuppressive''; niacinamide; azelaic/salicylic) from COSMETIC surface/matte options, stating only isotretinoin durably lowers production; includes green-tea EGCG (Detudom) and K-beauty angle. Critic re-fetched all 10 sources verbatim/exact; applied 2 voice fixes (removed a self-reference + a quarantine-imperative). lint/style/verify clean.'
@@ -4849,11 +4823,10 @@ polyglutamic-acid:
   score: 7
   verdict: publish
 polysilicone-15:
-  last_reviewed: '2026-08-14'
-  note: 'INGREDIENT cron (Sonnet draft + Opus profile-reviewer critic). Polysilicone-15 (Parsol SLX), an EU-authorized UVB co-filter NOT in the US FDA monograph. Critic re-verified EVERY quote/stat cache-first and found them all verbatim-accurate (incl. the 312 nm peak, which it confirmed by reading the SCCS PDF chart image, and the full Couteau ranking via Europe PMC when PubMed bot-walled). Verdict was REVISE on 3 Important items, all fixed: (1) "weaker-to-middle" overstated its Couteau rank (actually 5th-weakest of 18 = bottom quartile), reworded to "lower" in all 4 places; (2) added the CosIng detail-record URL backing the "functions" quote to [^cosing]; (3) softened an uncited "never submitted to US framework" inference to "a listing gap, not a stated safety finding". SKIPPED the critic''s Minor #4 (meta-commentary in the Rubric framing) as a FALSE POSITIVE: the model page octisalate.md (opus-assured, published) uses the identical two-axis framing, so the drafter correctly followed
-    house pattern. Sources SCCS/1346/10, CosIng Annex VI, 21 CFR 352.10, Couteau 2007; non-primary EU sources cached. Published at assurance=sonnet (force) since no fresh publish verdict, though sources are Opus-re-verified.'
+  last_reviewed: '2026-10-05'
   score: 8
-  verdict: revise-then-fixed
+  verdict: publish
+  note: 'site_health tier backfill. tier:weak assigned from the page own rubric: effect "minimal to modest", evidence solid only for chemistry/regulatory/spectral characterization. Graded conservatively at the minimal end since it is a weak standalone UVB contributor. No prose changed.'
 post-inflammatory-erythema:
   last_reviewed: '2026-08-30'
   note: 'NEW HUB (condition). PIE = flat RED marks after acne (vascular), distinct from brown PIH. Opus critic (9): all 5 slugs + DermNet + Lopez (42234395) verbatim; added disclaimer. HONEST: self-fades over months w/sun protection, topicals modest, red not brown so melanin-brighteners wrong target, persistent = laser. tier_list [[sunscreen-uv-filters]]/[[niacinamide]]/[[azelaic-acid]]/[[retinoids]]. No dashes. Opus critic inline (workflow pipeline); assurance opus.'
@@ -5589,10 +5562,10 @@ skin-barrier-repair:
   score: 8
   verdict: publish
 skin-barrier-strengthening:
-  last_reviewed: '2026-08-18'
-  note: 'GOAL cron (inline tier_list, no fresh critic). Structured skin-barrier-strengthening''s own prose Tier 1-2 ranking: petrolatum/glycerin/hyaluronic-acid/ceramides/sunscreen (strong), dimethicone/niacinamide/cholesterol/phytosphingosine/colloidal-oatmeal (moderate). Graded CONSISTENTLY with the skin-barrier-repair tier_list to avoid cross-page conflict (colloidal-oatmeal/dimethicone kept moderate rather than the page''s looser Tier-1 grouping); probiotics (overhyped) excluded. No new claims; all 10 slugs resolve; gates clean.'
-  score: 8
+  last_reviewed: '2026-10-05'
+  score: 9
   verdict: publish
+  note: 'Recurring site_health false flag CLEARED properly via tier_list_reviewed (previously declined on the merits but left unrecorded, so it re-fired). Neither candidate belongs: the tier_list is titled "Barrier-strengthening INGREDIENTS by evidence" and all 11 items are ingredients, while la-roche-posay-toleriane-double-repair-face-moisturizer is a PRODUCT whose actives (ceramides, niacinamide, glycerin, dimethicone) are already ranked; and sodium-lauroyl-isethionate is a mild cleansing surfactant whose own page says its relevance is mildness and it is "not an ingredient that treats skin", i.e. barrier-SPARING rather than barrier-strengthening. tier_list unchanged.'
 skin-firmness-elasticity:
   last_reviewed: '2026-08-30'
   note: 'NEW HUB (goal). Opus critic (95): all 4 slugs + wikilinks resolve. HONEST: topicals modestly firm the SURFACE but cannot lift deeper structural sagging (fat-pad/bone loss = procedures); tightening creams overpromise. tier_list [[sunscreen-uv-filters]]/[[retinoids]]/[[ascorbic-acid-vitamin-c]]/[[peptides]]. Links OUT to [[anti-aging]]. No dashes. Opus critic inline (workflow pipeline); assurance opus.'
@@ -6536,10 +6509,10 @@ trifarotene:
   score: 9
   verdict: publish
 tris-biphenyl-triazine-tinosorb-a2b:
-  last_reviewed: '2026-08-23'
-  note: 'PARALLEL wave4: Sonnet+Opus critic verdict publish. Verified vs sources.'
-  score: 9
+  last_reviewed: '2026-10-05'
+  score: 8
   verdict: publish
+  note: 'site_health tier backfill. tier:mid, NOT good: the page grades effect notable but flags "Evidence quality: mixed independence" and a second use supported by "one independent formulation study plus one analytical-methods paper", so the notable effect is demoted one step for thin/vendor-weighted evidence per the house tier rule. No prose changed.'
 twyneo-tretinoin-benzoyl-peroxide-cream:
   last_reviewed: '2026-08-16'
   note: Drain wave 5 (Rx tretinoin 0.1%/BPO 3%). Critic revise->fixed. Gates clean; force-published.
@@ -7560,10 +7533,10 @@ farmacy-green-clean-makeup-removing-cleansing-balm:
   verdict: revise-then-fixed
   note: 'Opus critic verified price ($36/100mL), INCI order (33), the ''99% removal'' claim quarantined as brand marketing, SKU-name honesty (''Original Green Clean''), and fragrance caveat vs cached farmacybeauty.com. Two fixes applied: super-greens blend is moringa/holy basil/ARUGULA (not papaya, which is separate) in 2 paraphrases; and papaya is position 7/33 (not ''well down'' the list). Em-dash in source quote kept as comma per no-em-dash style rule.'
 clinique:
-  last_reviewed: '2026-09-28'
+  last_reviewed: '2026-10-05'
   score: 8
   verdict: publish
-  note: Lean brand discovery aid. Positioning ('Dermatologist guided solutions. Allergy tested. 100% fragrance free') verified verbatim on clinique.com + cached (5749efde67762a7d), attributed as brand's own. Estee Lauder-owned, 1968. Links the on-site TTDO balm. lint/verify/style clean.
+  note: 'Maintenance: linked the two now-published Clinique products (take-the-day-off-cleansing-oil, dramatically-different-moisturizing-lotion-plus) from the brand page in the existing one-line-each format. Lean brand scope, no essay.'
 chronic-hand-eczema:
   last_reviewed: '2026-09-28'
   score: 9

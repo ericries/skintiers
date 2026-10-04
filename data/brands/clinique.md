@@ -4,7 +4,7 @@ name: Clinique
 slug: clinique
 status: published
 type: brand
-updated: '2026-09-28'
+updated: '2026-10-05'
 ---
 
 Clinique is a US skincare and cosmetics brand owned by the Estée Lauder Companies, launched in 1968 as a dermatologist-guided line. It positions itself around "dermatologist guided solutions" that are "allergy tested" and "100% fragrance free," a fragrance-free stance that is relevant for sensitive and reactive skin (attributed to the brand's own marketing).[^clinique]
@@ -12,6 +12,8 @@ Clinique is a US skincare and cosmetics brand owned by the Estée Lauder Compani
 Products profiled here so far:
 
 - [[clinique-take-the-day-off-cleansing-balm]]: its fragrance-free oil-to-balm first cleanser, one of the options on [[best-cleansing-balms-oil-cleansers]] and the fragrance-free contrast to fragranced balms like [[banila-co-clean-it-zero-cleansing-balm-original]].
+- [[clinique-take-the-day-off-cleansing-oil]]: the oil version of the same first-cleanse step, alongside the balm above.
+- [[clinique-dramatically-different-moisturizing-lotion-plus]]: the brand's long-running occlusive-and-humectant moisturizer, with lanolin and dye caveats on its page.
 
 ## Sources
 

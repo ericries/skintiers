@@ -3,9 +3,10 @@ analyzed: '2026-08-14'
 assurance: sonnet
 name: Polysilicone-15
 slug: polysilicone-15
+tier: weak
 status: published
 type: ingredient
-updated: '2026-08-14'
+updated: '2026-10-05'
 ---
 
 Polysilicone-15 (INCI Polysilicone-15; chemical names dimethicodiethylbenzalmalonate and benzylidene malonate polysiloxane; sold by DSM as Parsol SLX) is an organic ultraviolet-B sunscreen filter authorized in the European Union at up to 10% but absent from the United States over-the-counter sunscreen monograph, which does not list it among its permitted actives.[^cosing][^sccs][^ecfr] It is built on a polysiloxane (silicone) backbone of roughly 60 repeating silicon-oxygen units carrying pendant benzylidene-malonate ester groups that do the UV absorbing; the European Commission's own absorption-spectrum data for the compound show a single peak centered at 312 nm, inside the ultraviolet-B band (roughly 290 to 320 nm), with the curve already back near baseline by 360 nm, well short of reaching deep into the ultraviolet-A band (320 to 400 nm), so it functions as a UVB co-filter rather than a broad-spectrum filter on its own.[^sccs] Regular broad-spectrum sunscreen use has randomized-trial support for slowing photoaging and reducing skin-cancer burden, and polysilicone-15 supplies part of the UVB share of that protection in the non-US products that contain it; the health benefit belongs to the practice and the whole formula, not to this filter in isolation, and is documented on [[sunscreen-uv-filters]]. Two questions shape how it is graded: how much protection a secondary UVB co-filter actually contributes, and what its large polymer size means for skin penetration.[^couteau][^sccs]

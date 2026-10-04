@@ -3,9 +3,10 @@ analyzed: '2026-08-04'
 assurance: sonnet
 name: Diethylamino Hydroxybenzoyl Hexyl Benzoate
 slug: diethylamino-hydroxybenzoyl-hexyl-benzoate
+tier: good
 status: published
 type: ingredient
-updated: '2026-08-04'
+updated: '2026-10-05'
 ---
 
 Diethylamino Hydroxybenzoyl Hexyl Benzoate (INCI), sold by BASF under the trade name Uvinul A Plus and commonly abbreviated DHHB, is a synthetic organic ultraviolet filter dedicated to the long-wave UVA-I band, with an absorption peak at 354 nm.[^basftds][^kawakami] It is oil-soluble and is positioned in the peer-reviewed literature as an alternative to [[avobenzone]], the older UVA filter it is most often compared with: one laboratory study describes DHHB's "high absorption in the UVA range (peak at 354 nm) and good photostability" as making it "an interesting alternative to AVO."[^kawakami] That same independent study found DHHB itself photostable across the formulations it tested, but found no photostabilizing effect when DHHB was combined with avobenzone, contrary to how the pairing is sometimes marketed.[^kawakami] DHHB is an authorised UV filter in the European Union, entry 28 of Annex VI to the Cosmetics Regulation, at a maximum concentration of 10%; the manufacturer's own regulatory listing shows the same 10% ceiling registered across Switzerland, India, Taiwan, Korea, Japan, China, Australia, and Mexico, with no entry for the United States or Canada.[^eu2008][^basftds] It is not among the ingredients addressed by the US FDA's sunscreen monograph process and so is absent from sunscreens sold in the US.[^fda2019][^fda2026] Regular broad-spectrum sunscreen use is one of the few skincare practices with randomized-trial support for slowing photoaging and reducing skin-cancer burden; that benefit belongs to the practice of regular use, documented on [[sunscreen-uv-filters]], not to DHHB in isolation.

@@ -3,9 +3,10 @@ analyzed: '2026-07-28'
 assurance: opus
 name: Bisoctrizole
 slug: bisoctrizole
+tier: good
 status: published
 type: ingredient
-updated: '2026-07-28'
+updated: '2026-10-05'
 ---
 
 Bisoctrizole (INCI methylene bis-benzotriazolyl tetramethylbutylphenol, sold as Tinosorb M) is an organic ultraviolet filter that absorbs across both the ultraviolet-B and ultraviolet-A bands and, unlike most organic filters, is manufactured as microfine particles that stay largely on the skin surface rather than penetrating it.[^latha][^herzog][^durand] It covers UVB (about 290 to 320 nm) and both UVA II (about 320 to 340 nm) and UVA I (about 340 to 400 nm), spanning roughly 280 to 400 nm, which makes it one of the few single filters that is broad-spectrum on its own; SPF is a UVB metric and UVA is a separate axis, both explained on [[sunscreen-uv-filters]].[^latha] It is photostable, which separates it from [[avobenzone]], the main UVA filter in older US sunscreens, whose absorbance falls under sunlight unless a co-filter holds it stable.[^hojerova][^akintilo] Regular broad-spectrum sunscreen use is one of the few skincare practices with randomized-trial support for slowing photoaging and reducing melanoma and squamous-cell tumor burden, and bisoctrizole is one of the filters delivering that protection where it is sold; the health benefit is established for the practice of regular use, not for bisoctrizole in isolation, and is documented on [[sunscreen-uv-filters]].[^latha] Its regulatory position is split: it is an authorised UV filter in the European Union at up to 10%, and is found in European, Asian, and South American sunscreens, but it is not in the United States OTC sunscreen monograph, so it is absent from sunscreens sold in the US.[^eu2000][^akintilo][^fda2019][^fda2026]

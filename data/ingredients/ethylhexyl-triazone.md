@@ -3,9 +3,10 @@ analyzed: '2026-07-28'
 assurance: opus
 name: Ethylhexyl triazone
 slug: ethylhexyl-triazone
+tier: good
 status: published
 type: ingredient
-updated: '2026-07-28'
+updated: '2026-10-05'
 ---
 
 Ethylhexyl triazone (INCI ethylhexyl triazone; also called octyl triazone, and sold by BASF as Uvinul T 150) is an organic ultraviolet-B sunscreen filter authorized in the European Union at up to 5% but not part of the United States over-the-counter sunscreen monograph, where the FDA has said the available data are insufficient to classify it.[^eu][^fda2015][^latha] It absorbs in the ultraviolet-B band (roughly 290 to 320 nm), the wavelengths that cause sunburn and most of the DNA photodamage behind keratinocyte skin cancers, and it adds little coverage of ultraviolet-A (320 to 400 nm), so it is combined with dedicated UVA filters such as [[avobenzone]] or [[zinc-oxide]] rather than used alone; SPF is a UVB metric and UVA is a separate axis, both explained on [[sunscreen-uv-filters]].[^baker][^tsuchiya] Regular broad-spectrum sunscreen use has randomized-trial support for slowing photoaging and reducing melanoma and squamous-cell tumor burden, and ethylhexyl triazone supplies the UVB half of that protection in the non-US products that contain it; the health benefit is established for the practice, not for this filter in isolation, and is documented on [[sunscreen-uv-filters]].[^baker] Two questions shape how it is graded: how effectively it absorbs UVB and how photostable it is, and what its unusually large molecule means for skin penetration and systemic safety.[^couteau][^scalia]

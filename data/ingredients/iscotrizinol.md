@@ -3,9 +3,10 @@ analyzed: '2026-08-08'
 assurance: sonnet
 name: Diethylhexyl butamido triazone (Iscotrizinol)
 slug: iscotrizinol
+tier: good
 status: published
 type: ingredient
-updated: '2026-08-08'
+updated: '2026-10-05'
 ---
 
 Diethylhexyl butamido triazone (INCI; USAN Iscotrizinol) is an organic ultraviolet-B sunscreen filter sold under trade names including Uvasorb HEB (3V Sigma) and Neo Heliopan 310 (Symrise), authorized in the European Union at up to 10% and reported as approved up to that same 10% ceiling in Mercosur, ASEAN and China.[^cosing][^symrise] It is a triazine derivative that absorbs mainly in the UVB band, with an absorption peak near 310 nm from its three chromophore groups,[^symrise] the wavelengths chiefly responsible for sunburn and the DNA photodamage behind keratinocyte skin cancers, a mechanism explained on [[sunscreen-uv-filters]]. It does not appear among the 16 active ingredients in the current US over-the-counter sunscreen monograph, so it is not found in US-made sunscreens.[^cfr]
