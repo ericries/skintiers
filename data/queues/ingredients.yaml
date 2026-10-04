@@ -1780,3 +1780,25 @@
   discovered_from: rocio-2025-dermocosmetic-b3-mercaptonicotinyl-glycine-melasma-rct
   source: Rocio 2025 melasma RCT (PMID 41036635); novel cosmetic pigment-reducing
     active paired with niacinamide in a Vichy dermocosmetic serum
+- name: Eflornithine (Vaniqa 13.9% cream)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: best-ingrown-hair-razor-bump-treatments
+  source: FDA label via DailyMed setid a2c3d206-b893-4f65-a2f6-c11fa9a0e486; topical
+    ornithine decarboxylase inhibitor that slows unwanted facial hair growth, a distinct
+    non-antiandrogen mechanism; adverse events must be read against the vehicle arm
+- name: Calcium thioglycolate (chemical depilatory active)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: best-ingrown-hair-razor-bump-treatments
+  source: Dalia 2023 PFB treatment review (PMID 36840647) lists chemical depilatories
+    among current treatments; no page covers the depilatory active
+- name: Topical clindamycin for pseudofolliculitis barbae
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: best-ingrown-hair-razor-bump-treatments
+  source: Dalia 2023 PFB review (PMID 36840647) lists antibiotics among current PFB
+    treatments; the ingrown-hairs/PFB hubs grade keratolytics but no antibiotic
