@@ -7748,3 +7748,8 @@ fur:
   score: 7
   verdict: publish
   note: Lean brand discovery aid (<=180 words). Self-description quotes ("daily pubic hair and skin care", "natural ingredients", "softer pubic hair", "fewer ingrown hairs") verified verbatim vs cache 75e94b79 (furyou.com/pages/about, unknown-class, soft WARN). Founder omitted - not verifiable from the fetched SSR page, left out per when-in-doubt-leave-it-out. Links the one on-site product fur-ingrown-concentrate. No critic (brand). lint/style clean.
+fur-ingrown-eliminator-serum:
+  last_reviewed: '2026-10-03'
+  score: 8
+  verdict: publish
+  note: 'Product. Opus critic unavailable (session 200-agent cap); main-loop self-verify. INCI (23) from inci_lookup/incidecoder: lactic acid 5th, phytic acid 6th, willow bark 3rd, witch hazel 2nd; lavender/clary sage oils + linalool/limonene/geraniol present. Price $37.00/50ml standard (10ml travel rollerball also) + all 4 marketing quotes verified verbatim vs cache bfb1bc45 (furyou.com, unknown-class, soft WARN). Grade effect modest/evidence weak: has real keratolytic acids (unlike the oil Concentrate) but undisclosed strengths, no product trial, fragrance-sensitizer caveat. assurance sonnet.'

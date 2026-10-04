@@ -1759,3 +1759,17 @@
   discovered_from: farmacy-honey-glow-17-resurfacing-acid-serum
   source: Farmacy Honey Glow INCI; a natural salicin source marketed as a gentle 'natural
     BHA', worth a skeptical evidence page vs salicylic acid
+- name: Witch Hazel (Hamamelis virginiana extract)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: fur-ingrown-eliminator-serum
+  source: Fur Ingrown Eliminator Serum INCI (incidecoder); common astringent in toners/post-shave
+    products
+- name: Phytic Acid
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: fur-ingrown-eliminator-serum
+  source: Fur Ingrown Eliminator Serum INCI (incidecoder); mild chelating/exfoliating
+    acid used in AHA/peel formulas
