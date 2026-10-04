@@ -7753,3 +7753,8 @@ fur-ingrown-eliminator-serum:
   score: 8
   verdict: publish
   note: 'Product. Opus critic unavailable (session 200-agent cap); main-loop self-verify. INCI (23) from inci_lookup/incidecoder: lactic acid 5th, phytic acid 6th, willow bark 3rd, witch hazel 2nd; lavender/clary sage oils + linalool/limonene/geraniol present. Price $37.00/50ml standard (10ml travel rollerball also) + all 4 marketing quotes verified verbatim vs cache bfb1bc45 (furyou.com, unknown-class, soft WARN). Grade effect modest/evidence weak: has real keratolytic acids (unlike the oil Concentrate) but undisclosed strengths, no product trial, fragrance-sensitizer caveat. assurance sonnet.'
+fur-ingrown-microdart-patch:
+  last_reviewed: '2026-10-04'
+  score: 8
+  verdict: publish
+  note: 'Product. Opus critic unavailable (session 200-agent cap); main-loop self-verify. Dissolving-microneedle patch; brand ingredient list (Sodium Hyaluronate matrix + CICA + Dipotassium Glycyrrhizate + Salicylic Acid) and all marketing quotes (soothe bumps/reduces redness; made for sensitive areas; penetrate deeper than any topical) + prices $17/6pk, $32/12pk verified verbatim vs cache 3a6b0a16 (furyou.com, unknown-class, soft WARN). incidecoder 3-item list was incomplete/wrong; used brand full list. Grade effect modest/evidence weak: delivers real keratolytic (salicylic acid) via microneedle, best-matched of Fur three, but undisclosed %, no product trial, unproven penetration claim, spot-treat not preventive. assurance sonnet.'

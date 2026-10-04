@@ -2747,6 +2747,6 @@
 - name: Fur Ingrown Microdart Patch
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: fur
   source: Fur brand store (furyou.com/products/ingrown-microdart-patch)

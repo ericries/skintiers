@@ -13,6 +13,7 @@ Products profiled here so far:
 
 - [[fur-ingrown-concentrate]]: the brand's botanical oil concentrate marketed for ingrown hairs in sensitive areas; graded as a conditioning oil rather than a keratolytic treatment, with the evidence-based approach set out on [[ingrown-hairs]].
 - [[fur-ingrown-eliminator-serum]]: the brand's leave-on serum for ingrown hairs, which (unlike the oil) contains exfoliating acids (lactic acid and willow bark), the keratolytic mechanism the condition's evidence supports.
+- [[fur-ingrown-microdart-patch]]: a dissolving-microneedle spot patch that delivers salicylic acid into an individual ingrown bump, the brand's most evidence-aligned mechanism for ingrowns.
 
 ## Sources
 

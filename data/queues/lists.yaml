@@ -237,3 +237,11 @@
   status: pending
   discovered_from: null
   source: null
+- name: 'Best ingrown-hair and razor-bump treatments by evidence (keratolytics: salicylic
+    acid, lactic acid, retinoids; products Tend Skin + Fur serum/patch; grounded in
+    ingrown-hairs/pseudofolliculitis-barbae hubs)'
+  type: list
+  priority: 4
+  status: pending
+  discovered_from: null
+  source: null
