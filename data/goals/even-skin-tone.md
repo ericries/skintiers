@@ -37,8 +37,10 @@ tier_list:
     slug: ascorbic-acid-vitamin-c
     tier: moderate
   title: Cross-cutting actives for an even tone
+tier_list_reviewed:
+- paulas-choice-skin-perfecting-8-aha-gel-exfoliant
 type: goal
-updated: '2026-08-30'
+updated: '2026-10-05'
 ---
 
 "Even skin tone" is not one problem. It covers at least three different things happening in the skin, and they call for different treatments: brown patches of excess pigment ([[hyperpigmentation]], often [[melasma]]), flat pink or red marks left behind after a spot or inflammation heals (post-inflammatory erythema, most visible in lighter skin and covered under [[acne-scars]]), and a general dull or uneven texture that is mostly a byproduct of sun damage and slowed cell turnover. A landmark review on post-inflammatory hyperpigmentation notes it "is a common sequelae of inflammatory dermatoses that tends to affect darker skinned patients with greater frequency and severity."[^davis] Melasma, meanwhile, is increasingly understood as photoaging rather than a purely hormonal condition: "melasma might be a photoaging skin disorder affecting genetically predisposed individuals."[^passeron] That shared photoaging mechanism is why sun protection sits underneath every branch of this goal.

@@ -5,7 +5,7 @@ name: COSRX
 slug: cosrx
 status: published
 type: brand
-updated: '2026-09-21'
+updated: '2026-10-05'
 ---
 
 COSRX is a South Korean skincare brand built around short, minimalist ingredient lists centered on one or two named actives; the South Korean beauty conglomerate Amorepacific has been its majority owner since a 2023 stake purchase that brought its holding to 93.2%.[^1][^2][^3]
@@ -31,6 +31,7 @@ COSRX's own site lists its best-known products, including the Advanced Snail 96 
 - [[cosrx-niacinamide-15-serum]]: a high-strength 15% niacinamide serum.
 - [[cosrx-the-retinol-0-1-cream]]: an entry-level 0.1% retinol cream.
 - [[cosrx-full-fit-propolis-light-ampoule]]: a propolis-based lightweight hydrating ampoule.
+- [[cosrx-acne-pimple-master-patch]]: its hydrocolloid pimple patches.
 
 ## Sources
 

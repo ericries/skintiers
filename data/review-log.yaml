@@ -1570,10 +1570,10 @@ cos-de-baha-az20-azelaic-acid-20-serum:
   score: 9
   verdict: publish
 cosrx:
-  last_reviewed: '2026-07-31'
-  note: Brand roll-up filled (daily brand cron; Sonnet draft + self-check, no Opus critic; assurance=sonnet). Korean minimalist skincare brand. Founding 2013 triple-corroborated (COSRX About page + Amorepacific release + TheIndustry.beauty); Amorepacific majority ownership (93.2%, 2023) from PR Newswire + BeautyMatter. Hero products named with composition but NO efficacy claims; marketing language attributed/quoted not asserted. Cross-links its 2 covered products + [[snail-secretion-filtrate]]. lint+verify+style+voice clean; footnotes intact (verify WARNs are corporate/trade domains).
+  last_reviewed: '2026-10-05'
   score: 8
-  verdict: self-reviewed
+  verdict: publish
+  note: 'Maintenance: linked the one now-published COSRX product (cosrx-acne-pimple-master-patch) in the existing one-line-each format. Lean brand scope, no essay.'
 cosrx-6-peptide-skin-booster-serum:
   last_reviewed: '2026-07-28'
   note: 'Reworked to the new standard AND to fix a category-vs-product conflation (the old page evaluated only the weak peptide category and never credited the product, no price/value, buried copper peptide). Now states BOTH verdicts: category = topical peptide anti-aging evidence weak/preliminary (linked [[peptides]]); product = a broad, fragrance-free, INEXPENSIVE peptide serum (6 peptides + niacinamide + humectant base; ~$25/150 mL, one of the cheapest ways to try a big peptide blend incl. copper peptide). GHK-Cu given fair top-billing (Pickart & Margolina 2018 verbatim) but honestly hedged (mostly cell/animal/gene-expression work; leading reviews by GHK''s discoverer) - not oversold. Editorial credibility attributed to quoted Allure (value/glow praise) + Chemist Confessions (category skepticism). Grades honest (fine lines minimal/preliminary, hydration modest/solid); product-value verdict in Summary prose, no invented GHK-Cu grade. Critic publish clean; orchestrator independently re-verified
@@ -2215,10 +2215,10 @@ eucerin-roughness-relief-lotion:
   score: 9
   verdict: revise-then-published
 even-skin-tone:
-  last_reviewed: '2026-08-30'
-  note: 'NEW HUB (goal, DISCOVERY). Umbrella routing brown ([[hyperpigmentation]]/[[melasma]]) vs red ([[post-inflammatory-erythema]]) vs dullness. Opus critic (9): all slugs resolve. HONEST: identify WHICH unevenness since treatments differ; sun protection underlies all. tier_list [[sunscreen-uv-filters]]/[[retinoids]]/[[niacinamide]]/[[azelaic-acid]]/[[ascorbic-acid-vitamin-c]]. No dashes. Opus critic inline (workflow pipeline); assurance opus.'
-  score: 9
+  last_reviewed: '2026-10-05'
+  score: 8
   verdict: publish
+  note: 'Maintenance false flag cleared via tier_list_reviewed. The tier_list is scoped "how well each ACTIVE is supported" and every item is an active (sunscreen filters, retinoids, azelaic acid, niacinamide, ascorbic acid); paulas-choice-skin-perfecting-8-aha-gel-exfoliant is a PRODUCT, so it cannot join an actives ranking. Noted separately: this hub ranks no AHA/glycolic active at all (0 matches), which is a genuine content gap for an even-skin-tone hub and is worth adding as an ACTIVE later rather than smuggling it in as a product. tier_list unchanged.'
 exfoliating-acids-by-strength:
   last_reviewed: '2026-08-11'
   note: 'Exfoliating Acids by Strength tier list (LIST cron, inline curatorial, Phase B new ladder family).
