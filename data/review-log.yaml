@@ -1151,10 +1151,10 @@ ceramides:
   score: 9
   verdict: publish
 cerave:
-  last_reviewed: '2026-07-28'
-  note: 'First BRAND page (gated type, kept DRAFT pending user sign-off). Neutral cited roll-up: L''Oreal acquisition (announced Jan 2017 / completed March 2017; $1.3B cash for CeraVe+AcneFree+AMBI TOGETHER) triple-cited to Valeant SEC 8-K + 10-K + L''Oreal annual report, all verbatim (source typo preserved); Valeant->Bausch Health via SEC EDGAR entity record. Positioning/tech (''developed with dermatologists'', ceramides, MVE) quarantined as brand claims, efficacy deferred to product page; founding year omitted (unverified). No quality judgment on the brand. Critic 10/10; dropped one uncited ''mass-market'' descriptor. Enabling tooling: GATED_TYPES lint/verify support + .sec.gov allowlist (114 tests pass). Benign brand/L''Oreal-URL verify warnings are quarantined/corroborating use.'
-  score: 10
+  last_reviewed: '2026-10-04'
+  score: 8
   verdict: publish
+  note: 'Maintenance tick (site_health): linked the one now-published CeraVe product missing from the brand page, cerave-am-facial-moisturizing-lotion-spf-30, placed next to its PM counterpart so the AM/PM pair reads together. Link only, no essay, per the LEAN brand scope. Bumped updated. lint/style clean; verify WARN is the usual cerave.com brand-domain soft warning. No other content touched.'
 cerave-acne-control-gel:
   last_reviewed: '2026-08-23'
   note: 'PARALLEL WORKFLOW fill: Sonnet draft + parallel Opus critic verdict REVISE (score 8). Critic-flagged defect FIXED in Opus main loop: added a quarantined ## Common Marketing Claims section for the 3 brand quotes. Re-gated clean; published.'

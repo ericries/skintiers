@@ -5,7 +5,7 @@ name: CeraVe
 slug: cerave
 status: published
 type: brand
-updated: '2026-09-17'
+updated: '2026-10-04'
 ---
 
 CeraVe is a United States skincare brand whose products are built around ceramides, and it has been owned by the French cosmetics company L'Oreal since 2017.[^1][^2][^3]
@@ -38,6 +38,7 @@ Each product's real composition, price, and honest evidence grade are on its own
 
 - [[cerave-moisturizing-cream]]
 - [[cerave-daily-moisturizing-lotion]]
+- [[cerave-am-facial-moisturizing-lotion-spf-30]]
 - [[cerave-pm-facial-moisturizing-lotion]]
 - [[cerave-skin-renewing-night-cream]]
 - [[cerave-hydrating-facial-cleanser]]
