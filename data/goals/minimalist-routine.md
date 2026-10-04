@@ -6,6 +6,18 @@ slug: minimalist-routine
 status: published
 type: goal
 updated: '2026-09-14'
+videos:
+- title: 'Simple Skincare Saves Skin: stop changing your routine so often'
+  creator: Ella
+  creator_slug: your-estie-ella
+  credential: Licensed esthetician
+  platform: TikTok
+  url: https://www.tiktok.com/@your.estie.ella/video/7692084916233784589
+  posted: '2026-10-02'
+  related: [retinoids, azelaic-acid, vitamin-c, peptides, acne, hyperpigmentation, anti-aging, am-pm-routine-by-evidence, skin-barrier-repair]
+  thesis: 'Licensed esthetician Ella (@your.estie.ella) argues that the biggest skincare mistake is changing your routine too often, because results take time: she says acne needs a minimum of about three months, pigmentation roughly six to eight months, and visible wrinkle reduction closer to eight to twelve months. Her case for a simple, consistent routine is a daily cleanser, moisturizer, and sunscreen, a retinoid four to six nights a week, and azelaic acid in the morning for acne and pigmentation, with an optional peptide serum for aging or vitamin C for dullness. The core message is that a good routine is boring and consistency beats chasing trendy new products.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 For most people, a short routine done consistently beats a long one done inconsistently, and the evidence backs only a handful of steps as essential. The rest, the serums, the ten-step layering, the weekly *treatments*, is optional at best and irritating at worst. The small evidence-essential core is below, with the few additions worth making only if a specific goal calls for them.
