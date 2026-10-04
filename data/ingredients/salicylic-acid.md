@@ -78,6 +78,16 @@ videos:
   related: [glycolic-acid, enlarged-pores, hormonal-acne, keratosis-pilaris]
   thesis: Board-certified dermatologist Dr. Neera Nathan gives a quick guide to choosing between salicylic acid and glycolic acid by skin concern. In her rundown, salicylic acid is the pick for large pores, hormonal acne, and blackheads, while glycolic acid is the pick for body odor, ingrown hairs, dark spots, calloused heels, and crepey skin.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Why a bundled four-product acne routine can double up on the same acid
+  creator: Ella
+  creator_slug: your-estie-ella
+  credential: Licensed esthetician
+  platform: TikTok
+  url: https://www.tiktok.com/@your.estie.ella/video/7692551509359283469
+  posted: '2026-10-03'
+  related: [acne, azelaic-acid, minimalist-routine, retinoids]
+  thesis: 'Licensed esthetician Ella (@your.estie.ella) walks an Ulta shelf and criticizes the marketing on a bundle sold as four products, one complete acne care routine. Her objection is to the bundling rather than the products: following it as a routine would have you using salicylic acid in the cleanser plus a separate 2% salicylic acid treatment, so the same acid twice, which she treats as redundant rather than more effective. She says she likes several of the products individually, including one that is calming rather than active, and the point is that a marketed complete routine is not automatically a well-built one.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

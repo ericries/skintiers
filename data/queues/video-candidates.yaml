@@ -9243,7 +9243,8 @@
   conflict: null
   posted: '2026-10-01'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: diet/nutrition podcast fragment; no diet page on site, not self-contained, transcript garbled on key claim
 - id: zjB5H5Iww2I
   title: Sunscreen of the day!!
   creator: Dr. Maren Locke (The Budget Dermatologist)
@@ -9562,7 +9563,8 @@
   conflict: Self-describes as a "Key Opinion Leader for industry beauty companies" (per her own practice bio) and most sampled TikTok videos e; no YouTube; TikTok/IG intake
   posted: '2026-10-02'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: comment-PRODUCTS funnel post, not single-topic educational
 - id: '7692084916233784589'
   title: 'Simple Skincare Saves Skin #acneproneskin #skincareexplained #over30s...'
   creator: Ella (@your.estie.ella)
@@ -9705,7 +9707,8 @@
   conflict: runs an Amazon affiliate storefront and does sponsored posts - strongly prefer educational / how-to / ingredient-explainer videos; be very cautious with any product recommendation
   posted: '2026-10-03'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: affiliate-storefront creator product first-impressions (effectively paid)
 - id: 4ILFKmvsQh4
   title: 'correct way to use glycolic acid stitch with Leanne_page #skincare'
   creator: Dr. Neera Nathan
@@ -9731,7 +9734,8 @@
   conflict: Self-describes as a "Key Opinion Leader for industry beauty companies" (per her own practice bio) and most sampled TikTok videos e; no YouTube; TikTok/IG intake
   posted: '2026-10-03'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: comment-PRODUCTS funnel post, not single-topic educational
 - id: OBaAH6vwPUU
   title: 3 Ways I Prevent Post-Menopause Skin Issues + What Really Helps Elasticity After 50
   creator: Dr. Shereene Idriss
