@@ -2852,10 +2852,10 @@ horimukai-2014-moisturizer-neonates-atopic-dermatitis-prevention:
   score: 10
   verdict: publish
 hormonal-acne:
-  last_reviewed: '2026-08-30'
-  note: 'NEW HUB (condition). Androgen-driven jawline/chin acne, adult women, [[pcos]]-linked. Opus critic (93): all 4 slugs + DermNet/Cochrane/SAFA verbatim; REMOVED an unsupported "enlarged pores" claim mis-attributed to DermNet. Honest: topicals treat the follicle not the androgen; hormone-balancing topicals/DIM/seed-cycling debunked; persistent cases need a prescriber. Routes [[acne]]/[[pcos]]. Disclaimer. No dashes. Opus critic inline (workflow pipeline); assurance opus.'
+  last_reviewed: '2026-10-04'
   score: 9
   verdict: publish
+  note: 'Cross-profile contradiction fix prompted by external agent feedback (feedback/2026-10-04_11-18-09). The hub asserted in FIVE places that no topical addresses the androgen signal (tier_list by:, intro, what-is-happening, what-actually-works, whats-overhyped) while the site already had clascoterone.md + winlevi-clascoterone-1-cream.md, an FDA-approved TOPICAL androgen-receptor inhibitor. Corrected all five; added clascoterone to tier_list at tier moderate, matching its own page (modest effect, AAD conditional). Deliberately NOT overclaimed: noted its Phase 3 trials were general acne vulgaris not a hormonal-acne population, and avoided asserting an unverified absence of head-to-head data. All added claims traced to clascoterone.md (FDA label + AAD + Hebert). lint/style clean.'
 houttuynia-cordata:
   last_reviewed: '2026-08-08'
   note: 'Opus verification: re-fetched all three cited PubMed primaries (Yang 2024 CIMB 47(1):18; Huang 2025 IJBM 314:144264; Sangthong 2025 Sci Rep 15:37263). Every statistic (all Sangthong IC50/FRAP/concentration/stability values) and all quoted phrases verified verbatim EXCEPT one: the Yang quote \"clear away...eliminate...drain pus\" is de-conjugated from the source''s \"clears away...eliminates...drains pus.\" Evidence is honestly represented (no human topical trial, all uses graded preliminary/not-established, popular claims flagged not graded, COIs accurate); verdict revise for the single non-verbatim quote fix.

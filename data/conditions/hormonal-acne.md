@@ -5,10 +5,11 @@ name: Hormonal acne
 slug: hormonal-acne
 status: published
 tier_list:
-  by: strength of the evidence for the topical actives; the treatments that actually
-    address the hormonal driver (combined oral contraceptives, spironolactone) are
-    prescription-only and out of topical scope, so they are discussed in prose rather
-    than tiered here
+  by: strength of the evidence for the topical actives. Most of them treat the follicle
+    rather than the androgen signal; the exception is clascoterone, a prescription
+    topical androgen-receptor inhibitor, which is tiered here. The systemic
+    hormone-targeting options (combined oral contraceptives, spironolactone) are
+    prescription and not topical, so they are discussed in prose rather than tiered
   items:
   - note: First-line topical retinoid class and the best-evidenced acne active overall;
       works on the comedones and inflammation but does nothing to the androgen signal
@@ -29,9 +30,17 @@ tier_list:
       adjunct for surface texture, not for deep hormonal papules. Evidence on [[salicylic-acid]].
     slug: salicylic-acid
     tier: moderate
+  - note: The one topical that acts on the androgen signal itself, a prescription
+      androgen-receptor inhibitor (Winlevi 1% cream). Its two Phase 3 trials were in
+      general acne vulgaris, not a hormonal-acne population, and the AAD guideline
+      gives it a conditional recommendation, so it is a real mechanistic fit worth
+      raising with a prescriber rather than a proven substitute for oral options.
+      Evidence on [[clascoterone]] and [[winlevi-clascoterone-1-cream]].
+    slug: clascoterone
+    tier: moderate
   title: Hormonal acne topicals by evidence
 type: condition
-updated: '2026-08-30'
+updated: '2026-10-04'
 videos:
 - title: 6 Skin, Hair & Nail Signs You Should NEVER Ignore (From a Dermatologist) | Dr. Shereene Idriss
   creator: Dr. Shereene Idriss
@@ -56,7 +65,7 @@ videos:
 
 ---
 
-Hormonal acne is not a distinct diagnosis in dermatology texts; it is a clinical pattern of common acne, [[acne|acne vulgaris]], in which androgen sensitivity in the skin drives the disease. DermNet notes that adult acne "can be predominantly inflammatory," with "premenstrual flares" common and inflammatory lesions "common on the jawline and neck."[^dermnet-adult] Hormonal factors "may be important including pregnancy, [[pcos|polycystic ovarian disease]] and medicines (including supplements) with male hormone activity."[^dermnet-adult] The honest framing: topicals treat the follicle, not the androgen signal, so persistent hormonal acne is often a job for a prescriber rather than a skincare routine.
+Hormonal acne is not a distinct diagnosis in dermatology texts; it is a clinical pattern of common acne, [[acne|acne vulgaris]], in which androgen sensitivity in the skin drives the disease. DermNet notes that adult acne "can be predominantly inflammatory," with "premenstrual flares" common and inflammatory lesions "common on the jawline and neck."[^dermnet-adult] Hormonal factors "may be important including pregnancy, [[pcos|polycystic ovarian disease]] and medicines (including supplements) with male hormone activity."[^dermnet-adult] The honest framing: almost every topical treats the follicle rather than the androgen signal, so persistent hormonal acne is often a job for a prescriber rather than a skincare routine. The one topical exception is also a prescription, [[clascoterone]] (Winlevi), which blocks the androgen receptor in the skin itself.
 
 ## How to know you have this
 
@@ -64,17 +73,19 @@ The pattern is deeper, tender papules and nodules concentrated along the jawline
 
 ## What is happening in the skin
 
-Androgens (testosterone and its more potent skin metabolite dihydrotestosterone) act on androgen receptors in the sebaceous gland and hair follicle to increase sebum production and comedone formation.[^dermnet-antiandrogen] This can happen with androgen levels that are technically normal on bloodwork; it is often about the skin's sensitivity to circulating androgens rather than an excess of the hormone itself. That is why the levers that work are ones that either block the receptor or reduce androgen production systemically, not ones applied to the skin's surface.
+Androgens (testosterone and its more potent skin metabolite dihydrotestosterone) act on androgen receptors in the sebaceous gland and hair follicle to increase sebum production and comedone formation.[^dermnet-antiandrogen] This can happen with androgen levels that are technically normal on bloodwork; it is often about the skin's sensitivity to circulating androgens rather than an excess of the hormone itself. That is why the levers that work are ones that block the receptor or reduce androgen production, whether systemically (combined oral contraceptives, spironolactone) or, in the one topical case, at the receptor in the skin itself ([[clascoterone]]). What does not work is anything that merely sits on the surface claiming to rebalance hormones.
 
 ## What actually works
 
-The topical actives here are the same ones ranked for [[acne]] in general: [[retinoids]], [[azelaic-acid]], [[benzoyl-peroxide]], and [[salicylic-acid]] all treat the follicular plugging and inflammation, and they are tiered below by the same evidence standard used across the site. None of them address the androgen driver.
+The topical actives here are the same ones ranked for [[acne]] in general: [[retinoids]], [[azelaic-acid]], [[benzoyl-peroxide]], and [[salicylic-acid]] all treat the follicular plugging and inflammation, and they are tiered below by the same evidence standard used across the site. None of those four address the androgen driver.
 
-The treatments that actually target the hormonal mechanism are prescription and out of topical scope for this site: combined oral contraceptives and spironolactone. Both work systemically. Combined oral contraceptives reduce ovarian androgen production and increase sex hormone binding globulin, which lowers free testosterone; a Cochrane review of 31 trials (12,579 participants) found that in every placebo-controlled comparison with usable data, "COCs reduced acne lesion counts, severity grades and self-assessed acne compared to placebo."[^cochrane-cocp] Spironolactone works differently, by blocking the androgen receptor directly in the sebaceous gland;[^dermnet-antiandrogen] the SAFA trial, a randomized, placebo-controlled trial in 410 adult women with persistent facial acne, found spironolactone improved quality-of-life scores and investigator-assessed treatment success over placebo, with the gap widening from week 12 to week 24.[^safa] Neither is a cream fix: both require a prescriber, both take months to show effect, and combined oral contraceptives carry contraindications (smoking, migraine with aura, clotting risk) that a prescriber has to screen for.[^dermnet-antiandrogen]
+One topical does: [[clascoterone]], the active in [[winlevi-clascoterone-1-cream|Winlevi 1% cream]], is a prescription androgen-receptor inhibitor that blocks the receptor directly in the skin, the only FDA-approved topical acne drug that works on the hormonal mechanism rather than the follicle. Two things keep it honest here. Its two foundational Phase 3 trials enrolled general acne vulgaris patients rather than a defined hormonal-acne population, so its benefit in this specific pattern is inferred from mechanism rather than demonstrated; and it has not been shown to match the systemic options below, so it is not an established substitute for them. The 2024 AAD guideline gives it a conditional recommendation. The numbers are on [[clascoterone]].
+
+The treatments with the strongest evidence for targeting the hormonal mechanism remain systemic prescriptions: combined oral contraceptives and spironolactone. Combined oral contraceptives reduce ovarian androgen production and increase sex hormone binding globulin, which lowers free testosterone; a Cochrane review of 31 trials (12,579 participants) found that in every placebo-controlled comparison with usable data, "COCs reduced acne lesion counts, severity grades and self-assessed acne compared to placebo."[^cochrane-cocp] Spironolactone works differently, by blocking the androgen receptor directly in the sebaceous gland;[^dermnet-antiandrogen] the SAFA trial, a randomized, placebo-controlled trial in 410 adult women with persistent facial acne, found spironolactone improved quality-of-life scores and investigator-assessed treatment success over placebo, with the gap widening from week 12 to week 24.[^safa] Neither is a cream fix: both require a prescriber, both take months to show effect, and combined oral contraceptives carry contraindications (smoking, migraine with aura, clotting risk) that a prescriber has to screen for.[^dermnet-antiandrogen]
 
 ## What's overhyped
 
-No topical, however "hormone-balancing" its marketing claims to be, changes circulating androgen levels or receptor sensitivity in the skin. Adaptogens, seed cycling, and DIM supplements are not established acne treatments. A jawline breakout pattern is a legitimate signal to see a prescriber about oral options, not a reason to add another serum.
+No over-the-counter topical, however "hormone-balancing" its marketing claims to be, changes circulating androgen levels or androgen-receptor activity in the skin. The only topical shown to act on the receptor is the prescription drug [[clascoterone]], and no cosmetic product shares that mechanism. Adaptogens, seed cycling, and DIM supplements are not established acne treatments. A jawline breakout pattern is a legitimate signal to see a prescriber about oral options, not a reason to add another serum.
 
 ## The Evidence
 
@@ -89,6 +100,7 @@ This is not medical advice. Combined oral contraceptives and spironolactone are 
 - [[acne]] for the full topical treatment tier list this page draws from.
 - [[pcos]] for the hormonal condition most associated with this acne pattern.
 - [[retinoids]], [[azelaic-acid]], [[benzoyl-peroxide]], and [[salicylic-acid]] for the individual topical actives.
+- [[clascoterone]] and [[winlevi-clascoterone-1-cream]] for the one topical that targets the androgen receptor rather than the follicle.
 
 ## Sources
 
