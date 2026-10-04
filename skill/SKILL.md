@@ -74,6 +74,26 @@ The exact, build-generated list lives in `endpoints.json` (shipped alongside thi
 
 Cite the reader-facing version, `<site>/<slug>.html`.
 
+### Working from a local checkout
+
+If you have the repo on disk, prefer it over the network, and note three things:
+
+- **`data/` is the source of truth. `_site/` and the JSON catalogs are generated** and can
+  lag `data/` until the next `build.py`. When they disagree, `data/` wins.
+- **Verify a cited source from the local cache before re-fetching it:**
+  `.venv/bin/python -B scripts/source_cache.py get '<exact-source-url>'`
+  The cache is keyed by a hash of the exact URL, so it needs the footnote's URL verbatim.
+  It stores only non-primary sources (brand and retailer pages); durable primaries
+  (PubMed, DailyMed, `.gov`) are deliberately never cached because they re-fetch cleanly,
+  so a cache miss on those is **not** a missing source.
+- **The prose can start far below the YAML.** Some pages carry 200+ frontmatter lines
+  (mostly `videos:` cards) before the body. Read past the closing `---` before concluding
+  a page lacks evidence discussion, and note that a transcript-derived video `thesis:` in
+  frontmatter is expert commentary, not a controlled trial.
+
+Read the local profile and follow its `[[slug]]` links and footnotes before any external
+lookup. Re-verifying a fact that is already on the page is the most common failure mode.
+
 ## Reading a page: the fields that matter
 
 Every page opens with a YAML block between `---` fences. The load-bearing fields:
@@ -84,6 +104,12 @@ Every page opens with a YAML block between `---` fences. The load-bearing fields
   a `use` tagged `(health)`/`(cosmetic)`, and a `note`. **The `note` is usually the most
   important part**; it carries the caveats and the claim-vs-reality reasoning.
 - `key_actives:` (products): the ingredient slugs the author declared as the actives.
+  **This is not an ingredient list.** It is a short editorial selection, and the catalog's
+  `a:` field is the same selection. An ingredient's absence from `key_actives` is **not**
+  evidence it is absent from the formula, and the presence of a family name ("peptides")
+  does not tell you which specific molecules are in it. For any composition question
+  ("does this contain copper peptides / Matrixyl / tocopherol?"), read the product page's
+  full declared INCI section, which lists every ingredient in label order.
 - `tier:` (some ingredient/list pages): an explicit evidence tier when grading is in prose.
 - `comparator`: what a grade is measured against (grades are always relative).
 
