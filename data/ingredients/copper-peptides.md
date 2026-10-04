@@ -67,6 +67,16 @@ videos:
   related: [palmitoyl-tripeptide-1, retinoids, anti-aging]
   thesis: 'Board certified dermatologist Dr. Aleksandra Brown explains that peptides are an "upgrade," not a foundation, meant only for people already consistent with sunscreen, vitamin C, and a retinoid, then compares three peptide classes for people in their 40s and up: signal peptides like Matrixyl/Matrixyl 3000 (palmitoyl tripeptide 1) that prompt fibroblasts to make more collagen and have the most placebo controlled human data, carrier peptides like copper peptides/GHK Cu that deliver copper to support collagen and elastin repair, and neurotransmitter inhibiting Argireline (acetyl hexapeptide 8) that softens expression lines but works nowhere near as strongly as Botox. She ranks copper peptide as her top single pick for 40s collagen support, flags that copper peptides and L ascorbic acid vitamin C should be kept apart at different times of day, and says the evidence on combining copper peptides with vitamin C derivatives is still unsettled.'
   note: Verified from the video transcript (yt-dlp, read in full); no sponsorship or paid partnership.
+- title: Copper Peptides Causing Skin Problems? What's Actually Happening
+  creator: Dr. Shereene Idriss
+  creator_slug: shereene-idriss
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=nVRFpcXf5cg
+  posted: '2026-09-26'
+  related: [vitamin-c, benzoyl-peroxide, azelaic-acid, retinoids]
+  thesis: Board-certified dermatologist Dr. Shereene Idriss explains that most bad reactions people blame on copper peptides (GHK-Cu) are usually not a true copper allergy, which she says is rare, but come from layering, an already-irritated skin barrier, or other actives in the same bottle. She advises separating pure L-ascorbic acid vitamin C and benzoyl peroxide from copper peptides (azelaic acid is fine to pair), adding only one new active at a time, and reading the full ingredient list rather than trusting the front of the bottle. She also cautions that injectable GHK-Cu is not FDA approved and has tested contaminated, and concludes copper peptides are neither a scam nor magic while retinoids remain the better-evidenced option.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
