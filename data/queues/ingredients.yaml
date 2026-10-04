@@ -1773,3 +1773,10 @@
   discovered_from: fur-ingrown-eliminator-serum
   source: Fur Ingrown Eliminator Serum INCI (incidecoder); mild chelating/exfoliating
     acid used in AHA/peel formulas
+- name: 2-Mercaptonicotinyl Glycine
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: rocio-2025-dermocosmetic-b3-mercaptonicotinyl-glycine-melasma-rct
+  source: Rocio 2025 melasma RCT (PMID 41036635); novel cosmetic pigment-reducing
+    active paired with niacinamide in a Vichy dermocosmetic serum
