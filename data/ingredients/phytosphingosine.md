@@ -3,9 +3,10 @@ analyzed: '2026-07-27'
 assurance: opus
 name: Phytosphingosine
 slug: phytosphingosine
+tier: weak
 status: published
 type: ingredient
-updated: '2026-07-27'
+updated: '2026-10-05'
 ---
 
 Phytosphingosine (INCI Phytosphingosine) is a free sphingoid base that occurs naturally in the stratum corneum, both on its own and as part of the backbone of [[ceramides]]. Pavicic and colleagues describe it as "a lipid occurring naturally in the stratum corneum," and report that it has antimicrobial and anti-inflammatory activity in laboratory and clinical tests of acne.[^1] It is used in some barrier and blemish-oriented formulations as a cosmetic active.

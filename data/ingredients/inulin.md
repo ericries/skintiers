@@ -3,9 +3,10 @@ analyzed: '2026-08-08'
 assurance: opus
 name: Inulin
 slug: inulin
+tier: weak
 status: published
 type: ingredient
-updated: '2026-08-08'
+updated: '2026-10-05'
 ---
 
 Inulin is a chicory-root-derived plant fiber, a class of molecules researchers call inulin-type fructans, marketed on ingredient lists as a "prebiotic" that feeds beneficial skin or gut bacteria rather than acting on the skin itself; the general probiotic/prebiotic/postbiotic distinction, and why most "probiotic" skincare contains no live bacteria, is covered on [[probiotics]].[^krupakozak] As a topical ingredient it is new and thinly studied: the only human data come from one uncontrolled, manufacturer-funded acne trial, and the strongest controlled science on inulin and skin runs through the gut, in mice, not through a jar of moisturizer.

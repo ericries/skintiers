@@ -3,9 +3,10 @@ analyzed: '2026-08-08'
 assurance: sonnet
 name: Oxymetazoline (topical, Rhofade)
 slug: oxymetazoline-topical
+tier: mid
 status: published
 type: ingredient
-updated: '2026-08-08'
+updated: '2026-10-05'
 ---
 
 Oxymetazoline hydrochloride cream 1% (brand name Rhofade) is a prescription alpha1A-adrenoceptor agonist FDA-approved for the topical treatment of persistent facial erythema associated with [[rosacea]] in adults; it works as a vasoconstrictor rather than a treatment for the disease itself.[^label][^patel] Two identically designed phase 3 trials found it produced a statistically significant but numerically modest reduction in redness within hours of application, with the benefit not extending to the inflammatory bumps and pustules of rosacea.

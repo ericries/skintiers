@@ -3,9 +3,10 @@ analyzed: '2026-07-27'
 assurance: opus
 name: Retinyl Retinoate
 slug: retinyl-retinoate
+tier: weak
 status: published
 type: ingredient
-updated: '2026-07-27'
+updated: '2026-10-05'
 ---
 
 Retinyl retinoate (INCI Retinyl Retinoate) is a synthetic vitamin A derivative made by joining [[retinol]] and retinoic acid into a single ester, developed in Korea as a cosmetic [[retinoids|retinoid]]. Its originators describe it as an ester of all-trans retinoic acid (RA) and all-trans retinol, designed to have reduced toxicity due to blocking of the carboxyl end group of RA and higher skin regeneration activity than retinol.[^bjd] The synthesis paper reports it was made "with a condensing reaction between retinol and retinoic acid to improve the photo-stability," and showed "enhanced thermal stability and decreased photosensitivity, and exhibited decreased cell toxicity compared to that of retinol" in laboratory testing.[^synth] The composition and its use for wrinkles are covered by a patent assigned to the Korean cosmetics company Enprani Co. Ltd.[^patent]

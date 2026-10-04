@@ -3,9 +3,10 @@ analyzed: '2026-08-10'
 assurance: sonnet
 name: Melasyl (2-mercaptonicotinoyl glycine)
 slug: melasyl
+tier: weak
 status: published
 type: ingredient
-updated: '2026-08-10'
+updated: '2026-10-05'
 ---
 
 Melasyl is L'Oreal's trade name for 2-mercaptonicotinoyl glycine (2-MNG), a synthetic small molecule discovered and developed inside the company's own research division; L'Oreal Research and Innovation scientists first described the compound and its mechanism in a 2024 paper in Pigment Cell Melanoma Research.[^sextius] It is marketed for facial hyperpigmentation, including in La Roche-Posay's Mela B3 range and [[la-roche-posay-mela-b3-serum]].

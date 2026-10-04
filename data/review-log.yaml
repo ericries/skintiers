@@ -2916,12 +2916,10 @@ innisfree-no-sebum-mineral-powder:
   score: 9
   verdict: publish
 inulin:
-  last_reviewed: '2026-08-08'
-  note: 'Opus verification: re-fetched all six cited primaries (afzal PMC12529085, yoshida 37762500, woolerylloyd 36239004, talens PMC13084527, wu 11376968, krupakozak PMC13107836) and confirmed every quoted phrase is verbatim and every statistic (36.0/34.5/35.9% P<0.0001, 5,633-fold C. acnes, 856-fold S. epidermidis, 5- to 15-fold transfollicular transport, 15 g/day 8-week protocol) is present in-source. Funding/conflict disclosures (Burt''s Bees, Sivamani consulting) and the thin-evidence framing are accurate; topical inulin is correctly presented as unproven with mouse/oral and expert-opinion data kept distinct. Verdict: publish.
-
-    '
-  score: 10
+  last_reviewed: '2026-10-05'
+  score: 8
   verdict: publish
+  note: site_health tier backfill. tier:weak read from the page OWN bolded rubric verdict (effect "reported as large, but uninterpretable"; evidence "preliminary and industry-funded"). Not bulk-assigned. No prose changed; this only expresses the existing verdict structurally for entity_tier.
 iope-stem-3-clinical-recovery-serum:
   last_reviewed: '2026-08-16'
   note: Drain wave (Sonnet draft, Opus critic). Fixed 3 verify ERRORs (embedded PubMed URLs), INCI 31->32, softened niacinamide ~2% attribution, centella grade mechanism-only. Gates clean; force-published assurance=sonnet.
@@ -3790,28 +3788,10 @@ melasma:
   score: 9
   verdict: revise-then-published
 melasyl:
-  last_reviewed: '2026-08-10'
-  note: 'Melasyl (2-mercaptonicotinoyl glycine), L''Oreal-proprietary pigment active. Daily INGREDIENT cron
-
-    (Sonnet draft + Opus profile-reviewer). KEY finding: real peer-reviewed literature EXISTS (6 PubMed
-
-    studies incl. 2 RCTs) but every one is L''Oreal/LRP-authored, CRO-run, or COI-disclosed-consultant. Critic
-
-    re-fetched all PMIDs, verified every quote/stat/author-affiliation verbatim. The two hardest calls made
-
-    correctly: the hydroquinone non-inferiority RCT tested the FINISHED Mela B3 serum (Melasyl + 10%
-
-    niacinamide) so cannot isolate Melasyl; only de Dormael isolates 2-MNG vs vehicle (UV-darkening
-
-    PREVENTION, not treating existing spots). Applied 4 mechanical fixes: completed passeron COI (named CRO
-
-    employees), restored (p<0.05) on Demessant quote, deleted an uncited comparative clause. assurance=sonnet.
-
-    Follow-up (task #51): reconcile la-roche-posay-mela-b3-serum which still says "no independent trial".
-
-    '
-  score: 9
-  verdict: revise-then-published
+  last_reviewed: '2026-10-05'
+  score: 8
+  verdict: publish
+  note: site_health tier backfill. tier:weak read from the page OWN bolded rubric verdict (effect "preliminary, and not cleanly isolated from other actives"; evidence "preliminary"). Not bulk-assigned. No prose changed; this only expresses the existing verdict structurally for entity_tier.
 melissa-k-levin:
   last_reviewed: '2026-08-08'
   note: 'Lean person discovery-aid (Sonnet-only). Honest credential + linked on-site studies/products/videos.
@@ -4377,12 +4357,10 @@ oxybenzone:
   score: 9
   verdict: publish
 oxymetazoline-topical:
-  last_reviewed: '2026-08-08'
-  note: 'Opus verification of oxymetazoline-topical: re-fetched both REVEAL trials (PubMed 29320594, 29537447), the RHOFADE DailyMed label, and all three brimonidine case reports (25780983, 24742853, 24438976); every quoted phrase is verbatim and every stat (patient counts, demographics, composite-success percentages, adverse-reaction table, discontinuation/rebound rates, p-values) checks out against a cited source, and efficacy is honestly framed as modest/transient with popular claims rebutted. Verdict: revise — the per-timepoint success percentages should also cite [^label] (they are in the label''s Clinical Studies table, not the Kircik abstract) and the Routt citation issue number should be 70(2), not 70(3); no fabricated or unverifiable numbers.
-
-    '
-  score: 9
-  verdict: revise-then-fixed
+  last_reviewed: '2026-10-05'
+  score: 8
+  verdict: publish
+  note: site_health tier backfill. tier:mid read from the page OWN bolded rubric verdict (effect "modest and transient"; evidence "solid but narrow"). Not bulk-assigned. No prose changed; this only expresses the existing verdict structurally for entity_tier.
 palmer-2006-filaggrin-atopic-dermatitis:
   last_reviewed: '2026-08-08'
   note: 'Opus re-fetched PubMed 16550169 and verified every quoted phrase is verbatim in the abstract and that both numbers used (~9% European carrier frequency) are genuinely present; the page correctly discloses abstract-only access and asserts no OR/RR/p-value (none exist in the abstract), matching design/population/comparator to the source. Link-out discipline respected (no imported general ingredient evidence). Verdict: publish.
@@ -4784,10 +4762,10 @@ phloretin:
   score: 9
   verdict: revise-then-fixed
 phytosphingosine:
-  last_reviewed: '2026-07-27'
-  note: ingredient draft; critic flagged 2 paraphrases-in-quotes, both fixed ("a lipid occurring naturally in the stratum corneum" verbatim; dropped non-verbatim "significant" from ultrastructural damage). Pavicic 2007 + Fischer 2013; acne signal graded preliminary (single study). lint/verify/style clean.
+  last_reviewed: '2026-10-05'
   score: 8
   verdict: publish
+  note: site_health tier backfill. tier:weak read from the page OWN bolded rubric verdict (effect "present as a natural component"; evidence at "mechanism level" only, no demonstrated visible benefit). Not bulk-assigned. No prose changed; this only expresses the existing verdict structurally for entity_tier.
 pimecrolimus:
   last_reviewed: '2026-08-08'
   note: 'Opus verification: re-fetched all five cited primaries (Eichenfield 2002 PMID 11907497, Wahn 2002 PMID 12093983, Paller 2005 PMID 15858471, Margolis 2015 PMID 25692459, and the openFDA pimecrolimus label). Every quoted phrase is verbatim and every statistic (403/713/1,065/650 patients; flare-free and steroid-sparing percentages; head-to-head success rates and P-values; PEER 7,457 children / 26,792 person-years / SIRs 1.2, 2.9, 2.0; FDA boxed warning and infant AE rates) checks out; efficacy is honestly graded as weaker than tacrolimus and the malignancy signal is not overstated. Verdict revise: one surgical fix needed — disclose that the load-bearing Margolis/PEER malignancy study was a manufacturer-linked (Valeant co-author), FDA-mandated postmarketing registry.
@@ -5239,10 +5217,10 @@ retinyl-palmitate:
   score: 8
   verdict: publish
 retinyl-retinoate:
-  last_reviewed: '2026-07-27'
-  note: critic revise->fixed (de-quoted 4 paywalled BJD quotes to paraphrase; tolerability notable->modest); all trials share authors/trace to Enprani patent holder, no independent replication, graded preliminary.
+  last_reviewed: '2026-10-05'
   score: 8
   verdict: publish
+  note: site_health tier backfill. tier:weak read from the page OWN bolded rubric verdict (effect "modest" on "preliminary" evidence, demoted one segment per the house thin-evidence rule). Not bulk-assigned. No prose changed; this only expresses the existing verdict structurally for entity_tier.
 richard-fitzpatrick-dermatologist-skinmedica-co-founder:
   last_reviewed: '2026-08-08'
   note: 'Lean person discovery-aid (Sonnet-only). Honest credential + linked on-site studies/products/videos.
