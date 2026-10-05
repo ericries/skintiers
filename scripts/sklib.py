@@ -1186,6 +1186,18 @@ def review_verdict(data_dir, slug):
     return entry.get("verdict")
 
 
+def review_entry(data_dir, slug):
+    """The full review-log entry for slug (dict), or {} if absent. Callers that
+    need to know WHO reviewed (critic vs main-loop self-verify) use this rather
+    than review_verdict, which only reports the pass/fail."""
+    path = pathlib.Path(data_dir) / "review-log.yaml"
+    if not path.exists():
+        return {}
+    data = _yaml.safe_load(path.read_text()) or {}
+    entry = data.get(slug)
+    return entry if isinstance(entry, dict) else {}
+
+
 def queue_resolve(data_dir, name, type=None):
     """Mark items named `name` as done. If `type` is given, act only on that
     type's file; otherwise search all queue files. Returns True if anything

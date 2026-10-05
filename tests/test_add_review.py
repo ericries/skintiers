@@ -71,3 +71,25 @@ def test_add_review_replaces_repeat_slug_in_place(tmp_path, monkeypatch):
     data = yaml.safe_load((tmp_path / "review-log.yaml").read_text())
     assert len(data) == 1  # replaced, not duplicated
     assert data["s"]["verdict"] == "publish" and data["s"]["note"] == "new"
+
+
+def test_publish_does_not_grant_opus_for_a_self_verified_review(tmp_path, monkeypatch):
+    """`verdict: publish` alone used to earn assurance:opus, even when the review
+    was a main-loop self-verify because no Opus critic was available. That claimed
+    an assurance the page had not earned and needed a manual downgrade after every
+    publish. An entry that names itself self-verified must not earn opus."""
+    import importlib.util, pathlib as _pl
+    _p = _pl.Path(__file__).resolve().parents[1] / "scripts" / "sk"
+    _spec = importlib.util.spec_from_loader("sk_cli", importlib.machinery.SourceFileLoader("sk_cli", str(_p)))
+    sk = importlib.util.module_from_spec(_spec)
+    _spec.loader.exec_module(sk)
+
+    # critic-backed type + a genuine critic review -> earns opus
+    assert sk._publish_assurance("ingredient", "publish") == "opus"
+    # ...but a self-verified review must not
+    assert sk._publish_assurance("ingredient", "publish",
+                                 reviewer="self (main-loop; Opus critic unavailable)") is None
+    assert sk._publish_assurance("ingredient", "publish",
+                                 note="Opus critic unavailable (session cap); self-verify") is None
+    # non-critic types never earned it anyway
+    assert sk._publish_assurance("brand", "publish") is None

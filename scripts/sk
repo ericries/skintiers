@@ -108,13 +108,30 @@ def _set_and_build(slug, status, mark_analyzed=False):
     return cmd_build(None)
 
 
-def _publish_assurance(page_type, verdict):
+# A review that says so in its own reviewer/note text was done in the main loop
+# because no Opus critic was available. It is still a real review, but it does not
+# earn `assurance: opus`, which asserts that an independent critic re-verified every
+# quote against its source. Claiming it anyway forced a manual downgrade after every
+# publish (5+ times in one day) and, worse, overstated the page's assurance.
+_SELF_VERIFIED_SIGNS = ("self (", "self-verify", "self verify", "main-loop",
+                        "main loop", "critic unavailable", "no critic")
+
+
+def _looks_self_verified(reviewer, note):
+    blob = f"{reviewer or ''} {note or ''}".lower()
+    return any(s in blob for s in _SELF_VERIFIED_SIGNS)
+
+
+def _publish_assurance(page_type, verdict, reviewer=None, note=None):
     """The assurance level a passing review earns at publish, or None to leave the
     page's declared assurance untouched. Only critic-backed types (sklib.CRITIC_TYPES)
-    earn 'opus'; check_profile lints the same rule so the two cannot drift."""
-    if verdict == "publish" and page_type in sklib.CRITIC_TYPES:
-        return "opus"
-    return None
+    earn 'opus', and only when the review was not a main-loop self-verify;
+    check_profile lints the same type rule so the two cannot drift."""
+    if verdict != "publish" or page_type not in sklib.CRITIC_TYPES:
+        return None
+    if _looks_self_verified(reviewer, note):
+        return None
+    return "opus"
 
 
 def cmd_publish(args):
@@ -131,7 +148,10 @@ def cmd_publish(args):
     if path is not None:
         import frontmatter
         page_type = frontmatter.load(path).metadata.get("type")
-        level = _publish_assurance(page_type, verdict)
+        _entry = sklib.review_entry(sklib.DATA_DIR, args.slug)
+        level = _publish_assurance(page_type, verdict,
+                                   reviewer=_entry.get("reviewer"),
+                                   note=_entry.get("note"))
         if level:
             # A passing critic review means the sources were independently re-verified.
             sklib.set_assurance(path, level)
