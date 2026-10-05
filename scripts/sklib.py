@@ -1227,3 +1227,82 @@ def profile_counts(data_dir, type):
         if status in counts:
             counts[status] += 1
     return counts
+
+# --- name -> file resolution -------------------------------------------------
+# An agent knows a product by its marketed name; this repo is organised by slug,
+# and the two often differ ("Anua Azelaic Acid 10% Hyaluron Redness Soothing
+# Serum" lives at anua-azelaic-acid-serum.md). Without a resolver, agents grep
+# the tree, which is slow, misses aliases, and was observed failing on real
+# lookups (AZ15, TIRTIR). `sk find` is the deterministic answer.
+
+def _norm(s):
+    """lowercase, drop everything but alphanumerics: 'AZ-20 Serum' -> 'az20serum'."""
+    return re.sub(r"[^a-z0-9]+", "", (s or "").lower())
+
+
+def _tokens(s):
+    return [w for w in re.split(r"[^a-z0-9]+", (s or "").lower()) if w]
+
+
+def find_entities(query, data_dir=None, typ=None, limit=10):
+    """Resolve a human/marketed name to the page(s) that could be it.
+
+    Returns a ranked list of {slug, name, type, path, brand, score, why}, best
+    first. Scoring is deterministic and explainable rather than fuzzy, so an agent
+    can tell an exact hit (100) from a guess (<80) and decide whether to trust it:
+
+      100 exact slug            95 exact name            92 exact alias
+       90 normalised name/alias equality
+       80 every query token present (brand match adds confidence)
+       60..79 most tokens present, scaled by coverage
+
+    Searches name, slug, brand and the optional `aliases:` list, so regional and
+    version names ("AZ15") resolve without the caller knowing the slug.
+    """
+    data_dir = pathlib.Path(data_dir or DATA_DIR)
+    q_norm, q_tokens = _norm(query), _tokens(query)
+    if not q_tokens:
+        return []
+    out = []
+    for md in sorted(data_dir.glob("*/*.md")):
+        try:
+            post = frontmatter.load(md)
+        except Exception:
+            continue
+        ptype = post.get("type")
+        if typ and ptype != typ:
+            continue
+        slug = post.get("slug") or md.stem
+        name = post.get("name") or slug
+        brand = post.get("brand") or ""
+        aliases = [str(a) for a in (post.get("aliases") or [])]
+
+        score, why = 0, ""
+        if query.strip().lower() == slug.lower():
+            score, why = 100, "exact slug"
+        elif query.strip().lower() == str(name).lower():
+            score, why = 95, "exact name"
+        elif any(query.strip().lower() == a.lower() for a in aliases):
+            score, why = 92, "exact alias"
+        elif q_norm and q_norm in (_norm(name), _norm(slug)) or \
+                any(q_norm == _norm(a) for a in aliases):
+            score, why = 90, "normalised name match"
+        else:
+            hay_tokens = set(_tokens(name)) | set(_tokens(slug)) | set(_tokens(brand))
+            for a in aliases:
+                hay_tokens |= set(_tokens(a))
+            hay_norm = _norm(name) + " " + _norm(slug) + " " + " ".join(_norm(a) for a in aliases)
+            hit = sum(1 for tk in q_tokens
+                      if tk in hay_tokens or (len(tk) > 2 and tk in hay_norm))
+            if hit == len(q_tokens):
+                score = 80 + (3 if _norm(brand) and _norm(brand) in q_norm else 0)
+                why = "all query terms present"
+            elif hit:
+                score = int(60 + 19 * (hit / len(q_tokens)))
+                why = f"{hit} of {len(q_tokens)} terms present"
+        if score:
+            out.append({"slug": slug, "name": str(name), "type": ptype,
+                        "path": str(md), "brand": str(brand) or None,
+                        "score": score, "why": why})
+    out.sort(key=lambda r: (-r["score"], len(r["name"]), r["slug"]))
+    return out[:limit]

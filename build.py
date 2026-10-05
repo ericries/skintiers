@@ -1429,7 +1429,130 @@ AGENT_ENDPOINTS = [
      "desc": "Pre-computed dashboards for the site's curated routine pages."},
     {"path": "feed.json", "desc": "Recently added/updated pages (JSON Feed 1.1)."},
     {"path": "feed.xml", "desc": "Recently added/updated pages (RSS 2.0)."},
+    {"path": "lookup.json",
+     "desc": "Name to slug index: resolve a marketed product or ingredient name to its "
+             "page in one fetch (normalise to lowercase a-z0-9 and look up `names`). "
+             "Use this INSTEAD of guessing URLs."},
 ]
+
+
+def build_lookup_index(profiles):
+    """A compact name -> slug index so a remote agent resolves a marketed product
+    name in ONE fetch instead of guessing URLs or crawling.
+
+    The local equivalent is `sk find`. This exists because the same lookup failure
+    was observed from agents reading the published site: they know "COS de BAHA
+    AZ15" and need the slug. Keys are normalised (lowercase, alphanumerics only) so
+    punctuation, percent signs and spacing do not matter."""
+    def norm(s):
+        return re.sub(r"[^a-z0-9]+", "", (s or "").lower())
+
+    names, by_type, brands = {}, {}, {}
+    for p in profiles:
+        if p.get("status") != "published":
+            continue
+        slug, typ = p["slug"], p.get("type")
+        name = p.metadata.get("name") or slug
+        by_type.setdefault(typ, []).append(slug)
+        for key in {norm(name), norm(slug)} | {norm(a) for a in (p.metadata.get("aliases") or [])}:
+            if key:
+                names.setdefault(key, slug)
+        b = p.metadata.get("brand")
+        if b:
+            brands.setdefault(norm(b), {"name": b, "slugs": []})["slugs"].append(slug)
+    return {
+        "note": ("name -> slug index. Normalise your query the same way (lowercase, "
+                 "keep only a-z0-9) and look it up in `names`. Page URL is "
+                 "<site>/<slug>.html; raw markdown is <raw>data/<type>/<slug>.md. "
+                 "A miss here means the name is not indexed, NOT that the site lacks "
+                 "the product: fall back to `by_brand` or the type lists."),
+        "site_url": SITE_URL, "raw_base": RAW_BASE,
+        "counts": {k: len(v) for k, v in sorted(by_type.items())},
+        "names": dict(sorted(names.items())),
+        "by_brand": dict(sorted(brands.items())),
+        "by_type": {k: sorted(v) for k, v in sorted(by_type.items())},
+    }
+
+
+def render_llms_txt(profiles, type_counts):
+    """llms.txt: the emerging convention for telling an LLM agent, in markdown, what
+    a site holds and how to read it correctly (llmstxt.org). H1 is the only required
+    section; a blockquote summary and H2 link sections follow.
+
+    This one deliberately front-loads the two things an agent gets wrong here: that
+    effect size and evidence quality are separate axes, and that `key_actives` is a
+    selected index rather than an ingredient list. Those cost real accuracy when
+    missed, so they belong above the link lists, not buried in the skill file."""
+    lines = [
+        "# SkinTiers",
+        "",
+        "> An evidence-first skincare directory: product reviews and evidence tier lists "
+        "backed by ingredient evidence. Every page is markdown with structured YAML "
+        "frontmatter and inline citations to primary sources. Read-only and educational, "
+        "not medical advice.",
+        "",
+        "Two things to get right before quoting anything here:",
+        "",
+        "- **Effect size and evidence quality are separate axes and must never be "
+        "collapsed.** A large effect on preliminary evidence is not a small effect proven "
+        "in good trials. Graded uses are also tagged `(health)` or `(cosmetic)`; never let "
+        "a cosmetic claim borrow a health claim's credibility.",
+        "- **`key_actives` is a short editorial index, not an ingredient list.** An "
+        "ingredient missing from it is **not** absent from the formula. For composition "
+        "questions read the product page's full declared INCI section.",
+        "",
+        "`status: published` means editorially released, not independently verified; "
+        "follow a claim's footnote to its source when it matters.",
+        "",
+        "## Resolving a product name (do this first)",
+        "",
+        f"- [lookup.json]({SITE_URL}/lookup.json): normalised name to slug index. "
+        "Fetch once, normalise your query to lowercase a-z0-9, look it up in `names`. "
+        "A miss means the name is not indexed, **not** that the site lacks the product.",
+        "- In a local checkout: `scripts/sk find \"<marketed name>\"` returns ranked "
+        "file paths with explainable scores. Do not grep the tree.",
+        "",
+        "## Start here",
+        "",
+        f"- [Agent skill and reading contract]({SITE_URL}/skill/SKILL.md): how to read a "
+        "page, the grading axes, and task recipes. Read this first.",
+        f"- [For agents]({SITE_URL}/for-agents.html): plain-language orientation.",
+        f"- [Method]({SITE_URL}/method.html): how pages are graded and how videos are vetted.",
+        f"- [Routine strength spec]({SITE_URL}/skill/routine-strength-spec.md): the exact "
+        "algorithm, plus what its number is and is not.",
+        "",
+        "## Machine-readable endpoints",
+        "",
+    ]
+    for e in AGENT_ENDPOINTS:
+        lines.append(f"- [{e['path']}]({SITE_URL}/{e['path']}): {e['desc']}")
+    lines += [
+        f"- [sitemap.xml]({SITE_URL}/sitemap.xml): every crawlable page with its last-modified date.",
+        f"- [endpoints.json]({SITE_URL}/skill/endpoints.json): the build-generated endpoint list. "
+        "Trust this over any hand-written table.",
+        "",
+        "## Browse by type",
+        "",
+    ]
+    for typ, label in (("product", "products"), ("ingredient", "ingredients"),
+                       ("condition", "conditions"), ("goal", "goals"),
+                       ("list", "lists"), ("study", "studies"),
+                       ("person", "people"), ("brand", "brands")):
+        n = type_counts.get(typ) or 0
+        if n:
+            lines.append(f"- [{label.title()}]({SITE_URL}/{label}.html): {n} pages.")
+    lines += [
+        f"- [Video feed]({SITE_URL}/feed.html): every transcript-verified expert video, "
+        "newest first, filterable by creator and platform.",
+        "",
+        "## Optional",
+        "",
+        f"- Raw markdown: `{RAW_BASE}data/<type>/<slug>.md`. Cite the reader-facing "
+        f"`{SITE_URL}/<slug>.html` instead.",
+        f"- [Installable skill bundle]({SITE_URL}/skintiers-skill.zip).",
+        "",
+    ]
+    return "\n".join(lines)
 
 
 def render_for_agents(env):
@@ -1982,6 +2105,13 @@ def build():
         _sm.add((f"{SITE_URL}/{f.name}", _pub_updated.get(name, "")))
     (out / "sitemap.xml").write_text(render_sitemap(_sm))
     (out / "robots.txt").write_text(render_robots())
+    _tc = {}
+    for p in profiles:
+        if p.get("status") == "published":
+            _tc[p.get("type")] = _tc.get(p.get("type"), 0) + 1
+    (out / "llms.txt").write_text(render_llms_txt(profiles, _tc))
+    (out / "lookup.json").write_text(
+        json.dumps(build_lookup_index(profiles), separators=(",", ":")))
 
     print(f"built {len(profiles)} profiles -> {out}")
     # Ship-live backstop: a committed page the critic cleared ('publish') but that

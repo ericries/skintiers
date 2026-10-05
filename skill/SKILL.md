@@ -58,6 +58,33 @@ is "the site doesn't know" (see the house rules).
    are completely different claims and conflating them is a failure, not caution.
 5. **Educational, not medical advice.** For medical concerns, tell the user to see a dermatologist.
 
+## Finding a page by name (do this first)
+
+You will usually be given a **marketed product name**, and this repo is organised by
+**slug**, which is often shorter or differently worded ("Anua Azelaic Acid 10% Hyaluron
+Redness Soothing Serum" lives at `anua-azelaic-acid-serum`). Do not grep the tree and do
+not guess a URL. Resolve the name:
+
+**Local checkout:**
+
+```
+.venv/bin/python scripts/sk find "COS de BAHA AZ15"      # ranked, with file paths
+.venv/bin/python scripts/sk find "cerave am lotion" --json
+.venv/bin/python scripts/sk find "azelaic" --type ingredient
+```
+
+Scores are deterministic so you can tell a hit from a guess: `100` exact slug, `95` exact
+name, `92` exact alias, `90` normalised match, `80+` every query term present, `60-79`
+partial. Treat anything under `80` as unconfirmed.
+
+**Over HTTP:** fetch [`lookup.json`](https://ericries.github.io/skintiers/lookup.json) once.
+Normalise your query to lowercase `a-z0-9` only, then look it up in `names` to get the slug;
+`by_brand` and `by_type` are the fallbacks. Page is `<site>/<slug>.html`.
+
+**A miss means the name is not indexed, not that the product is absent from the site.**
+Say "I could not resolve that name here" rather than "SkinTiers does not cover it", and try
+the brand plus the active ("anua azelaic") or a shorter query.
+
 ## Where the data lives
 
 **Which source to read first depends on where you are.** If you have the repo on

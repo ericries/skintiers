@@ -1197,3 +1197,27 @@ def test_absence_is_reported_as_not_indexed_not_as_does_not_contain(tmp_path):
     tmpl = (_pl.Path(__file__).resolve().parents[1] / "templates" / "routines_index.html").read_text()
     assert "Does not contain" not in tmpl
     assert "Not listed" in tmpl
+
+
+def test_emits_llms_txt_following_the_spec(tmp_path):
+    """llms.txt is the emerging convention for telling an LLM agent what a site
+    holds and how to read it. Spec: H1 required, optional blockquote summary,
+    then H2 sections of markdown links."""
+    data = tmp_path / "data"
+    out = tmp_path / "_site"
+    _write(data / "ingredients", "niacinamide", "published", "ingredient")
+    _write(data / "products", "serum", "published", "product")
+    env = {**os.environ, "SK_DATA": str(data), "SK_OUTPUT": str(out)}
+    r = subprocess.run([sys.executable, str(ROOT / "build.py")], env=env,
+                       capture_output=True, text=True)
+    assert r.returncode == 0, r.stderr
+    txt = (out / "llms.txt").read_text()
+    assert txt.startswith("# SkinTiers")        # H1 is the only required section
+    assert "\n> " in txt                         # blockquote summary
+    assert "## " in txt                          # H2 link sections
+    assert "routine-catalog.json" in txt         # machine-readable endpoints listed
+    assert "skill/SKILL.md" in txt               # the agent contract is discoverable
+    assert "sitemap.xml" in txt
+    # it must carry the two traps an agent most needs to know up front
+    assert "key_actives" in txt
+    assert "effect" in txt and "evidence" in txt
