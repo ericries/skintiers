@@ -2,18 +2,18 @@
 
 An evidence-first skincare knowledge base: product reviews and evidence tier lists, backed by ingredient evidence. Authored as markdown in `data/`, built by `build.py` into a static site at <https://ericries.github.io/skintiers>.
 
-**Status: live.** 464 profiles, maintained daily by a fleet of scheduled agent jobs.
+**Status: live.** 931 profiles, maintained daily by a fleet of scheduled agent jobs.
 
 | type | count | what it holds |
 |---|---|---|
-| `data/products/` | 0 | Product reviews, each with graded uses, full declared INCI, and price |
-| `data/ingredients/` | 186 | The evidence base per active, with an explicit `tier:` on many |
-| `data/studies/` | 129 | Compact structured study records (design, n, result, limitation) |
+| `data/products/` | 359 | Product reviews, each with graded uses, full declared INCI, and price |
+| `data/ingredients/` | 191 | The evidence base per active, with an explicit `tier:` on many |
+| `data/studies/` | 130 | Compact structured study records (design, n, result, limitation) |
 | `data/brands/` | 67 | Lean discovery pages that link to a brand's products |
 | `data/people/` | 60 | Lean creator/expert pages |
-| `data/lists/` | 4 | Best-of and tier lists |
-| `data/conditions/` | 9 | Condition hubs with topic tier lists |
-| `data/goals/` | 8 | Goal hubs (anti-aging, barrier repair, routines) |
+| `data/lists/` | 57 | Best-of and tier lists |
+| `data/conditions/` | 43 | Condition hubs with topic tier lists |
+| `data/goals/` | 24 | Goal hubs (anti-aging, barrier repair, routines) |
 
 ## Agents: start here
 
