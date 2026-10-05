@@ -2762,7 +2762,7 @@
 - name: COS de BAHA AZ15 Azelaic Acid 15% Serum
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: azelaic-acid
   source: 'Documented coverage gap, flagged twice in external agent feedback (2026-10-04_11-14-45,
     2026-10-04_21-09-08). Brand pages: https://cosdebahaofficial.com/products/az15
