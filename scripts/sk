@@ -315,6 +315,25 @@ def _insert_video_block(path, block):
     return "ok"
 
 
+def _page_has_video(path, vid):
+    """True only if an existing `videos:` CARD already carries this video id.
+
+    Deliberately not a whole-file substring test: a page that cites the video
+    in its prose or ## Sources (the strongest signal it belongs there) must
+    still be cardable. Falls back to the substring check only if the
+    frontmatter will not parse, so a malformed page errs toward dedup.
+    """
+    import frontmatter
+    try:
+        cards = frontmatter.load(str(path)).metadata.get("videos") or []
+    except Exception:
+        return vid in path.read_text()
+    for c in cards:
+        if isinstance(c, dict) and vid in f"{c.get('url', '')}{c.get('id', '')}":
+            return True
+    return False
+
+
 def cmd_add_video(args):
     """Insert a `videos:` card into one or more pages' frontmatter SAFELY.
 
@@ -371,7 +390,7 @@ def cmd_add_video(args):
                            sort_keys=False, width=1000).rstrip("\n")
     carded, dup = [], []
     for s in targets:
-        if vid in paths[s].read_text():
+        if _page_has_video(paths[s], vid):
             dup.append(s)
             continue
         res = _insert_video_block(paths[s], block)

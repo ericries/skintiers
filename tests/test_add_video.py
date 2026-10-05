@@ -72,6 +72,29 @@ def test_add_video_dedups_by_id(tmp_path, monkeypatch):
     assert len(post.metadata["videos"]) == 1
 
 
+def test_add_video_id_cited_in_body_is_not_a_dup(tmp_path, monkeypatch):
+    """A page that CITES a video in its prose/Sources must still be cardable.
+
+    Dedup used to be a whole-file substring test, so writing a footnote like
+    `https://www.youtube.com/watch?v=abc123XYZ00` into ## Sources made the page
+    permanently un-cardable for that video: exactly backwards, since citing a
+    video is the strongest signal it belongs on the page. Dedup must look only
+    at the existing `videos:` cards.
+    """
+    monkeypatch.setattr(sklib, "DATA_DIR", tmp_path)
+    _page(tmp_path, "ingredients", "cyperus")
+    p = tmp_path / "ingredients" / "cyperus.md"
+    p.write_text(p.read_text() + "\n## Sources\n\n[^lm]: Transcript. "
+                 "https://www.youtube.com/watch?v=abc123XYZ00 (accessed 2026-10-05)\n")
+    sk = _load_sk()
+    assert sk.cmd_add_video(_args("cyperus")) == 0
+    post = frontmatter.load(p)
+    assert len(post.metadata.get("videos", [])) == 1  # citation did not block the card
+    # and a genuine second attempt is still deduped
+    assert sk.cmd_add_video(_args("cyperus", title="other")) == 0
+    assert len(frontmatter.load(p).metadata["videos"]) == 1
+
+
 def test_add_video_drops_unknown_related(tmp_path, monkeypatch):
     monkeypatch.setattr(sklib, "DATA_DIR", tmp_path)
     _page(tmp_path, "ingredients", "vitamin-c")
