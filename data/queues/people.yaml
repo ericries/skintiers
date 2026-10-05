@@ -257,3 +257,42 @@
   status: done
   discovered_from: null
   source: null
+- name: Dr. Abigail Waldman (Dr. Abby)
+  type: person
+  priority: 5
+  status: pending
+  discovered_from: feed
+  source: 'Roster creator (video-sources.yaml, tier HIGH, credential verified at vetting:
+    Abigail H. Waldman, MD, FAAD); 8 videos already carded on site. Person page =
+    lean discovery card linking those videos; credential must be taken from the roster
+    entry, not restated beyond it.'
+- name: Jen Novakovich (The Eco Well)
+  type: person
+  priority: 5
+  status: pending
+  discovered_from: feed
+  source: 'Roster creator (tier HIGH, cosmetic scientist); 7 videos carded. NOTE the
+    roster conflict: runs a paid cosmetics-industry consulting/science-communication
+    practice and is Patreon-supported, so disclose that on the page.'
+- name: Dr. Aleksandra Brown, DO, FAAD
+  type: person
+  priority: 5
+  status: pending
+  discovered_from: feed
+  source: Roster creator (tier HIGH, board-certified dermatologist DO/FAOCD per vetting);
+    7 videos carded.
+- name: John Barbieri, MD
+  type: person
+  priority: 5
+  status: pending
+  discovered_from: feed
+  source: Roster creator (tier HIGH, board-certified dermatologist, academic affiliation
+    recorded at vetting); 5 videos carded. A research-active derm, so the card should
+    link his videos rather than characterise his publications.
+- name: Dr. Aegean Chan
+  type: person
+  priority: 5
+  status: pending
+  discovered_from: feed
+  source: Roster creator (tier HIGH, board-certified dermatologist); 5 videos carded
+    including the midlife-hormonal-acne TikTok on hormonal-acne.
