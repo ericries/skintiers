@@ -25,6 +25,14 @@ tier_list:
       soothing active layered onto barrier support rather than a stand-alone fix.
     slug: niacinamide
     tier: moderate
+  - note: An FDA-recognised skin protectant with randomised-trial support for relieving
+      itch and improving the barrier in mild-to-moderate eczema, which makes it the
+      best-evidenced soothing active here rather than just a calming claim. It is an
+      anti-itch emollient and barrier aid, not a substitute for a corticosteroid in a
+      flare, and its strongest trials were industry-funded. Evidence on
+      [[colloidal-oatmeal]].
+    slug: colloidal-oatmeal
+    tier: moderate
   - note: Marketed as a soothing peptide for reactive skin, and listed here as a
       cautionary entry rather than a recommendation, because the comparative evidence
       on [[acetyl-dipeptide-1-cetyl-ester]] went against it. It had no effect on the
