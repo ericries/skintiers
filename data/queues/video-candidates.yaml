@@ -8632,7 +8632,8 @@
   conflict: 'Runs #ad sponsored posts (e.g. TruSkin) and Target skincare hauls/reviews; prefer her educational ingredient-category and barrier-repair explainers, and treat product recommendations as effectively promotional (skip).'
   posted: '2026-09-29'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'caption carries brand hashtags #rejuall #pdrncopperpeptides; roster flags creator for #ad posts and says treat product recs as promotional'
 - id: rGUb_YJWiVc
   title: '#skincare #skincareroutine #skincaretips #dermatologist #cloggedpores #acnetreatment'
   creator: Dr. Jenny Liu (Jenny Liu, MD, FAAD)
@@ -8737,7 +8738,8 @@
   conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan and reject any sponsored/affiliate/gifted video
   posted: '2026-09-29'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: '9-product routine clip featuring Rejuall PDRN copper peptides; no disclosure, but Rejuall/PDRN appears across multiple rostered creators'' pending clips at once (jennlexi hashtags #rejuall and is flagged for #ad posts), so treated as probable undisclosed seeding'
 - id: 1lj9RiKV_SM
   title: 'the best way to apply tretinoin #dermatologist #tretinoin'
   creator: Dr Aamna Adel
@@ -9974,7 +9976,8 @@
   conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan and reject any sponsored/affiliate/gifted video
   posted: '2026-10-04'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: poll clip ('should we test X or Y'), not single-topic education
 - id: '7692797526822358286'
   title: Bonus treatments like these are absolutely the key to seeing results ...
   creator: Ella (@your.estie.ella)
