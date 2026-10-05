@@ -1,222 +1,269 @@
-# Canonical roster of the standard SkinTiers session crons. The daily watchdog cron
-# reads this and re-creates (via CronCreate) any roster entry not currently present in
-# CronList, so the fleet survives the 7-day session-cron expiry as long as the session
-# lives. Session crons die when Claude exits; this cannot make them durable across that.
-#
-# Each entry: `cron` (5-field, local time) + `prompt`. The type-fill prompts share one
-# template (below); the watchdog recreates them verbatim, substituting {TYPE}/{type}/
-# {CRITIC}/{PUBLISH} from each entry.
-#
-# DESIGN NOTE (2026-08-05, from user feedback): page types are NOT equal. The core
-# value is product reviews + evidence tier lists, backed by ingredient evidence.
-# Brand/person pages are DISCOVERY AIDS (short, link-heavy). Study pages are AGENT-FACING
-# infrastructure (compact structured facts for routine analysis), not reader essays.
-# The template enforces per-type scope + token discipline so effort concentrates on the
-# catalog and tiers, not on verbose supporting prose. Every content queue is touched daily
-# (product 4x/day); brand/person stay LEAN + Sonnet-only (inline draft, no Opus critic) so
-# a daily cadence there is cheap. Prefer Sonnet wherever appropriate; reserve the Opus
-# critic for the numeric health-claim verification on product/ingredient/study pages.
+_fill_template: '[SkinTiers daily fill: {TYPE}] Do ONE small bounded batch for the {TYPE} type ONLY, then stop. KEEP TOKEN USE LOW.
 
-_fill_template: |
-  [SkinTiers daily fill: {TYPE}] Do ONE small bounded batch for the {TYPE} type ONLY, then stop. KEEP TOKEN USE LOW.
 
   PURPOSE & SCOPE (this decides how much to write — obey it):
-  - The site's CORE VALUE is product reviews + evidence tier lists, backed by ingredient evidence. Concentrate effort there.
-  - product / ingredient: CORE. Write the full standard page (product-page standard / prose "## The Rubric"). Worth the depth and the Opus critic. FOR INGREDIENT PAGES: also set a top-level evidence `tier:` frontmatter field (one of best/good/mid/weak) that reflects the page's OWN rubric verdict for a visible skin benefit (best=top-evidenced, good=strong, mid=moderate, weak=minimal/thin). This is the same grade the prose already argues, expressed structurally so the routine builder can group the ingredient by evidence (entity_tier reads it). Do NOT invent a tier; it must match the rubric you wrote/verified. If you only touch an already-published ingredient page that lacks `tier:`, add it from its existing rubric.
+
+  - The site''s CORE VALUE is product reviews + evidence tier lists, backed by ingredient evidence. Concentrate effort there.
+
+  - product / ingredient: CORE. Write the full standard page (product-page standard / prose "## The Rubric"). Worth the depth and the Opus critic. FOR INGREDIENT PAGES: also set a top-level evidence `tier:` frontmatter field (one of best/good/mid/weak) that reflects the page''s OWN rubric verdict for a visible skin benefit (best=top-evidenced, good=strong, mid=moderate, weak=minimal/thin). This is the same grade the prose already argues, expressed structurally so the routine builder can group the ingredient by evidence (entity_tier reads it). Do NOT invent a tier; it must match the rubric you wrote/verified. If you only touch an already-published ingredient page that lacks `tier:`, add it from its existing rubric.
+
   - list: CORE (best-of / tier lists / routines). Curatorial over pages that ALREADY exist; keep any tier_list block; be concise, no padding.
+
   - condition / goal: hubs that drive DISCOVERY and host topic tier lists. Keep prose tight; PREFER adding/maintaining a tier_list of the graded items over a long essay.
-  - brand: DISCOVERY AID ONLY. LEAN, <=180 words: what it is, founder in one line, and a linked list of its products/ingredients ALREADY on the site. NO founding-history or positioning essay. Attribute any brand claim as the brand's own. Its job is to link to products.
+
+  - brand: DISCOVERY AID ONLY. LEAN, <=180 words: what it is, founder in one line, and a linked list of its products/ingredients ALREADY on the site. NO founding-history or positioning essay. Attribute any brand claim as the brand''s own. Its job is to link to products.
+
   - person: DISCOVERY AID ONLY. LEAN, <=150 words: who they are, an honest credential, and the products/videos they point to (linked). NO biography essay. Never state an unverified claim about a living person.
-  - study: AGENT-FACING INFRASTRUCTURE for routine analysis, NOT a reader essay. COMPACT + structured: one line on what it tested; design/population/n; intervention vs comparator; the PRIMARY result with the numbers; effect size; who it generalizes to; the one key limitation. Do NOT re-tell the ingredient's general story — link out.
+
+  - study: AGENT-FACING INFRASTRUCTURE for routine analysis, NOT a reader essay. COMPACT + structured: one line on what it tested; design/population/n; intervention vs comparator; the PRIMARY result with the numbers; effect size; who it generalizes to; the one key limitation. Do NOT re-tell the ingredient''s general story — link out.
+
   NEVER re-explain what another page already owns — link out in ONE clause. Redundant prose is the enemy of this site.
+
   TOKEN DISCIPLINE: bound research hard (stop at the few sources you actually need). For brand/person (lean, low-risk) do the draft INLINE in the main loop — do NOT spawn a subagent. For product/ingredient/study/list, ONE Sonnet subagent may draft; keep its prompt tight and its fetches few.
 
+
   STEP 1: fill ONE page — prefer an existing {type} stub, else the next queued item
+
   (`.venv/bin/python scripts/sk queue-next --type {type}`). If BOTH are absent (no stub, empty queue), DO NOT
+
   skip idly — an empty queue is the normal steady state of a mature site, not "nothing to do" (user 2026-09-03).
+
   Instead run `.venv/bin/python scripts/site_health.py --type {type}`: it returns ONE grounded, bounded, self-
+
   clearing MAINTENANCE task for an EXISTING page (a missing `tier:`, a stale price, a tier_list that omits pages
+
   now linking to it, an unlinked brand product), or prints `NONE`. If it returns a task, DO exactly that one task
+
   — follow its ACTION line literally, KEEP TOKEN USE LOW, operate only on the named page, add nothing gratuitous
+
   (gate to the REAL gap; when in doubt leave it out) — then commit + push and STOP. Only if it prints `NONE` do
-  you skip this tick. (This supersedes the old CURATE-DON'T-SKIP behavior and applies it, deterministically, to
+
+  you skip this tick. (This supersedes the old CURATE-DON''T-SKIP behavior and applies it, deterministically, to
+
   every type; person/study have no maintenance lane and will print NONE.)
+
   Follow docs/writing-guide.md + docs/anti-ai-ese.md, SCALED to the scope above.
+
   FETCHING (product/ingredient composition, price, INCI, claims): FIRST try `.venv/bin/python scripts/inci_lookup.py "<product name>"` - incidecoder is server-side rendered, so this returns the full ordered INCI + real front-photo URL in one cheap HTTP call and caches it (no Apify needed). It also accepts `--slug <incidecoder-slug>` and `--photo` (photo URL only). Use it for the INCI + photo; you still need the BRAND page for price + marketing claims (incidecoder carries neither). If it prints MISS, then try `curl -sL -A "Mozilla/5.0" <url>`.
+
   If it returns only a JS-SPA shell or a bot-block (Cloudflare/"Robot or human?", empty title, no INCI/price),
+
   use the Apify browser instead: ToolSearch "select:mcp__apify__apify--rag-web-browser,mcp__apify__get-dataset-items",
+
   then call apify--rag-web-browser with {query: <product URL> OR search keywords, maxResults:1-2, outputFormats:["markdown"], waitSecs:45}
+
   and read the result via get-dataset-items {datasetId, fields:"metadata.title,metadata.url,markdown", clean:true}.
-  It renders JS AND does Google Search (so it also finds the right product URL when web-search is exhausted). Amazon still bot-blocks it; prefer brand sites + reputable reviews. If the item's identity is uncertain/garbled, resolve it via this search before drafting; do NOT draft from an unverified name.
+
+  It renders JS AND does Google Search (so it also finds the right product URL when web-search is exhausted). Amazon still bot-blocks it; prefer brand sites + reputable reviews. If the item''s identity is uncertain/garbled, resolve it via this search before drafting; do NOT draft from an unverified name.
+
   SOURCE CACHING: for every source you CITE whose domain is NOT a durable primary (the ones sk verify flags
-  "verify manually", i.e. sklib classify_domain=='unknown'), pipe the fetched text (or the Apify markdown) to
+
+  "verify manually", i.e. sklib classify_domain==''unknown''), pipe the fetched text (or the Apify markdown) to
+
   `python scripts/source_cache.py put <url>` right after fetching it, so it can be verified later even if the
+
   live site blocks a re-fetch. A load-bearing verbatim quote from such a source REQUIRES a cache entry.
+
   {CRITIC}. The critic MUST verify cited non-primary sources against the local cache first
+
   (`python scripts/source_cache.py get <url>`), live-fetching only on a cache miss. Keep status:draft during
+
   work; publish only once sk lint+verify+style are clean {PUBLISH}. Record the review in data/review-log.yaml.
+
   STEP 2 (main loop, no subagent): add 2-5 REAL grounded candidates (name + source) to OTHER type queues via
+
   `sk queue-add` — bias toward PRODUCTS and INGREDIENTS (the catalog), since brand/person/study exist mainly to
+
   surface those. CROSS-FEED THE DISCOVERY QUEUES so they do not starve (user 2026-08-25): whenever the page you
+
   just shipped genuinely surfaces a DISCOVERY entity that has NO page yet, queue it too (in addition to the
+
   product/ingredient candidates) — a skin condition or goal the product treats but the site has no hub for
+
   (`--type condition`/`--type goal`), a best-of / tier list the product clearly belongs on that does not exist
+
   yet (`--type list`), or a credible expert/creator named on the page without a person page (`--type person`).
+
   Only queue discovery entities that are genuinely grounded in the shipped page; do NOT invent hubs. Then commit
+
   the shipped page, build, and push (git pull --rebase then push if rejected).
-  One-line summary. (What's New is auto-derived from each page's `updated` date - do NOT run `sk log`.)
 
+  One-line summary. (What''s New is auto-derived from each page''s `updated` date - do NOT run `sk log`.)
+
+  '
 crons:
-  # META-CRON (watchdog): does no content work; only restores any missing fleet cron.
-  # The watchdog re-creates the 16 content crons; the MAIN SESSION re-creates the
-  # watchdog itself once/day (a cron cannot resurrect itself once dead). See CLAUDE.md
-  # "Operational: cron fleet health".
-  - cron: "19 7 * * *"
-    label: cron-watchdog
-    prompt: |
-      [SkinTiers cron watchdog] META-CRON. Do ONLY this: keep the cron fleet whole. NO content work, NO commit. KEEP TOKEN USE MINIMAL.
-      1. Run `.venv/bin/python scripts/cron_watchdog.py`. It expands data/cron-roster.yaml into research-cache/cron-prompts/<name>.txt and prints a MANIFEST, one line per intended cron: `NAME<TAB>CRON<TAB>HEADER<TAB>FILE` (HEADER is the text inside the leading [SkinTiers ...] bracket). The manifest INCLUDES this watchdog itself.
-      2. Ensure the cron tools are loaded: ToolSearch "select:CronCreate" then get the current jobs with CronList.
-      3. For each manifest line whose HEADER does NOT already appear in a current CronList entry's prompt, CronCreate it with cron=<CRON> and prompt = the EXACT contents of <FILE> (Read the file first). Skip any HEADER already present - never create a duplicate.
-      4. Report ONE line: "cron fleet: X/Y present; created: <names or none>". Do not touch data/ or git.
-  - cron: "41 */6 * * *"
-    type: product
-    critic: "Because products make health/efficacy claims, one Opus profile-reviewer critic MUST re-verify every quote/stat/price/composition figure against the REAL source before publish"
-    publish: "and the critic returns verdict publish (else --force publishes at assurance=sonnet)"
-  - cron: "9 9 * * *"
-    type: study
-    critic: "Because studies make health claims, one Opus profile-reviewer critic MUST re-verify every quote and statistic against the REAL source (the PubMed URL) before publish. Keep the page COMPACT + structured (see scope) — the critic checks the numbers, it is not a license to pad"
-    publish: "and the critic returns verdict publish"
-  - cron: "31 12 * * *"
-    type: ingredient
-    critic: "Because ingredients make health/efficacy claims, one Opus profile-reviewer critic MUST re-verify every quote and statistic against the REAL source before publish"
-    publish: "and the critic returns verdict publish"
-  - cron: "29 15 * * *"
-    type: condition
-    critic: "Because conditions make health claims, one Opus profile-reviewer critic MUST re-verify every quote and statistic against the REAL source before publish"
-    publish: "and the critic returns verdict publish"
-  - cron: "37 16 * * *"
-    type: goal
-    critic: "Because goals make health/efficacy claims, one Opus profile-reviewer critic MUST re-verify every quote and statistic against the REAL source before publish"
-    publish: "and the critic returns verdict publish"
-  - cron: "17 10 * * *"
-    type: person
-    critic: "LEAN discovery card (see scope), drafted INLINE (no subagent). A Sonnet-quality draft + your own lint/verify/style check is enough — do NOT spawn an Opus critic. Never state an unverified claim about a living person"
-    publish: "(person pages have no critic verdict; use --force after your own check)"
-  - cron: "43 13 * * *"
-    type: brand
-    critic: "LEAN discovery roll-up (see scope), drafted INLINE (no subagent). A short draft + your own check is enough — do NOT spawn an Opus critic. Attribute brand marketing claims as the brand's own, not fact"
-    publish: "(brand pages have no critic verdict; use --force after your own check)"
-  - cron: "23 11 * * *"
-    type: list
-    critic: "Lists are curatorial but cite health claims: a Sonnet draft + your own check; spot-verify any load-bearing stat against its source"
-    publish: "(use --force after your own check)"
-  - cron: "43 1,7,13,19 * * *"
-    label: video-pull
-    prompt: |
-      [SkinTiers daily video pull] Do ONE small bounded batch, then stop. KEEP TOKEN USE LOW; MAIN-LOOP work only (no subagents). Add a few of ONE vetted expert's recent, NON-SPONSORED, transcript-verified videos as embedded videos: cards on the most relevant existing pages. This runs several times a day to keep the Feed page fresh.
+- cron: 19 7 * * *
+  label: cron-watchdog
+  prompt: '[SkinTiers cron watchdog] META-CRON. Do ONLY this: keep the cron fleet whole. NO content work, NO commit. KEEP TOKEN USE MINIMAL.
 
-      STEP 1 - Get target videos, FRESHEST-FIRST. PRIMARY source is the daily-scan queue: run `.venv/bin/python scripts/video_scan.py --list-pending 8 --platform youtube`. The [SkinTiers video scan] cron sweeps EVERY creator once a day and fills data/queues/video-candidates.yaml with newly-detected uploads; this prints the freshest un-ingested ones as TSV field=value lines, each ALREADY carrying the creator's name, creator_slug, credential, channel, tier, product_recs, and conflict (so you need not re-read the roster). Work from the TOP (freshest). If it prints NOTHING (empty queue), fall back to the rotation: `.venv/bin/python scripts/roster_next.py pull` returns the oldest-last_pulled YouTube creator (TSV line), then list its uploads with `yt-dlp --flat-playlist --playlist-end 15 --no-warnings --print "%(id)s\t%(title)s" <channel>`. (Non-YouTube creators: `roster_next.py noyt`.)
-      STEP 2 - From those candidates choose UP TO 3 whose TITLE is about a topic the site already has a page for: a named product, an ingredient/topic (retinoids, niacinamide, vitamin C, azelaic/salicylic/glycolic acid, sunscreen/SPF, ceramides, hyaluronic acid, peptides), OR a skin CONDITION or GOAL the site covers (rosacea, melasma, acne, anti-aging). Skip vague vlogs, GRWM, Shorts-style hashtag-stuffed clips, and any #ad/sponsored title. PRODUCT-REC and FAVORITES videos (a "which product(s) I like and why"): eligible when the creator is credibility-vetted - tier HIGH (derm/chemist) OR product_recs: ok in the roster. CREDIBILITY, not credential, is the gate (user 2026-08-14): a vetted creator's non-sponsored single-product rec OR multi-product favorites video is fine (embed on the most relevant page, use related: for the others). For a MED creator WITHOUT product_recs: ok, still prefer educational/how-to. Always: reject sponsored/affiliate/gifted (STEP 3b); a creator who monetizes picks via an affiliate storefront (e.g. Kristin Leite) has favorites/picks treated as effectively paid, so skip those; and never relay an overstated efficacy claim as fact even from a vetted creator.
-      STEP 3 - For EACH chosen video (STOP after at most 3 cards):
-        a. `.venv/bin/python scripts/yt_transcript.py <id>`. No transcript -> skip.
-        b. MANDATORY sponsorship scan of the transcript (sponsor, sponsored, #ad, paid partnership, "thank you <brand> for sponsoring", gifted, "brought to you by", "use my code", affiliate callouts). ANY present -> REJECT. Reject brand-channel uploads. If you REJECT a candidate that came from the scan queue (sponsored, own-brand promo, not single-topic, or no matching page), mark it so it is not re-listed tomorrow: `.venv/bin/python scripts/video_scan.py --resolve <id> --reason "<short why>"`. (Successfully-carded videos need no resolve; the next daily scan auto-prunes them once they are on a page.)
-        c. READ the transcript; it must be genuine education/how-to/which-product-they-like. If the creator has an own-brand conflict and the video mainly promotes their own product, skip.
-        d. Pick the MOST relevant EXISTING page to EMBED the card on (where it renders in full): a specific product page, else the ingredient/topic page, else a condition or goal hub page the video is about (data/products, data/ingredients, data/conditions, data/goals). No relevant page -> SKIP (do not create pages).
-        e. Get the ORIGINAL upload date as 'YYYY-MM-DD' (`yt-dlp --skip-download --no-warnings --print "%(upload_date)s" <url>` reformatted; this is what orders the Feed page).
-        f. Insert the card with the helper (it handles dedup by id, YAML escaping, related-slug validation, and em/en-dash rejection - do NOT hand-write the videos: block):
-          `.venv/bin/python scripts/sk add-video <embed-slug> --id <id> --title "..." --creator "<name>" --creator-slug <slug> --credential "<from roster>" --platform YouTube --posted YYYY-MM-DD --thesis "..." --related "slug1,slug2"`
-          Dedup is PER-PAGE: if it prints "dup: <id> already on <page>", that page already had it (fine) and the others still got it. The THESIS is 2-3 sentences GROUNDED IN THE TRANSCRIPT (only what they actually said, never fabricate a number/claim) and MUST be SELF-CONTAINED for a lay reader who does not know this creator or video: (1) name the product/ingredient/topic explicitly as the subject, never a bare "this"/"it"; (2) introduce the creator with their credential on first mention (e.g. "cosmetic chemist Michelle Wong", "dermatologist Dr Dray"); (3) read clearly on its own. No em/en-dashes; no site self-reference.
-          `--related` is a comma-separated list of the slugs of EVERY OTHER existing page the video is genuinely about, beyond the pages you embedded it on (the ingredient AND the condition/goal); the helper silently drops any that don't resolve, so it is fine to list your best guesses. Omit `--related` if there are none. For a YouTube video the helper derives the url from --id; for any non-YouTube platform pass `--platform <name> --url <full-url>` explicitly.
-        g. ROUNDUP / FAVORITES videos ("N X tested", "best/favorite X for Y", "products I like/use", "shelfie") get FULL enumeration (user 2026-08-24). From the TRANSCRIPT, list every product the creator actually NAMES or discusses (NEVER a product you only infer from a brand family or that the auto-captions do not clearly name - the accuracy rule beats completeness; when a caption garbles a brand, resolve it or drop it, do not guess). Then: (i) EMBED the full card on the ingredient/topic hub as <embed-slug> AND on EVERY named product that ALREADY has a page, in ONE call: `sk add-video <hub-slug> --also <prod-slug1>,<prod-slug2>,... --id <id> ...` (per-page dedup; the Feed collapses them into one entry listing all pages). (ii) For every clearly-named product WITHOUT a page, `.venv/bin/python scripts/sk queue-add "<Brand Product Name>" --type product --from <embed-slug> --source "<creator> - <video title> (video, <id>)"` so it gets built later. A non-roundup single-topic video keeps the single-page + `--related` pattern.
-      STEP 4 - Advance rotation with the safe helper: `.venv/bin/python scripts/sk roster-set <creator_slug> --last-pulled <today YYYY-MM-DD>` for EACH creator you carded a video from (queue path may span several creators), or for the single fallback creator you pulled (even if 0 cards added). Do NOT hand-edit video-sources.yaml with a line-search python heredoc (it silently fails past a long multi-line conflict: field, leaving the creator perpetually 'oldest').
-      STEP 4b - REFERRAL MINING (user 2026-08-25): for the video(s) you just carded, run `.venv/bin/python scripts/mine_referrals.py <id-or-url-1> <id-2> ...` - it harvests POSITIVE creator references (collab @handles / channel links in the description, endorsing spoken shout-outs in the transcript), drops self + already-rostered, and appends the rest to data/queues/creator-candidates.yaml for the weekly creator-vetting cron. Best-effort; if 0, fine.
-      STEP 5 - `.venv/bin/python scripts/sk lint <slug>` + `sk style <slug>` on each touched page (fix issues), `.venv/bin/python build.py`, `.venv/bin/python scripts/sk log "..."` a What's New line naming the creator + what was added, commit and push (git pull --rebase then push if rejected). One-line summary: creator + cards added (page + video), or "none found" with why.
-  - cron: "13 3,11,19 * * *"
-    label: product-images
-    prompt: |
-      [SkinTiers product images] Populate real product photos for products that lack them. Do ONE bounded batch then stop. KEEP TOKEN USE MODERATE.
+    1. Run `.venv/bin/python scripts/cron_watchdog.py`. It expands data/cron-roster.yaml into research-cache/cron-prompts/<name>.txt and prints a MANIFEST, one line per intended cron: `NAME<TAB>CRON<TAB>HEADER<TAB>FILE` (HEADER is the text inside the leading [SkinTiers ...] bracket). The manifest INCLUDES this watchdog itself.
 
-      STEP 1: list up to 5 products with NO images AND not already marked unresolvable:
-      `for f in data/products/*.md; do grep -qE "^(images|image_unresolvable):" "$f" || basename "$f" .md; done | head -5`
-      If none, stop (nothing to do). (Products with `image_unresolvable:` were already exhaustively tried; do not re-litigate them.)
+    2. Ensure the cron tools are loaded: ToolSearch "select:CronCreate" then get the current jobs with CronList.
 
-      STEP 2: spawn ONE Sonnet subagent (effort medium) to handle exactly those 5 products. For EACH product it must:
-        a. Read the product page for its real brand + retailer URLs (the footnote source URLs and Where-to-Buy links already on the page are the best leads).
-        b. FIRST try `.venv/bin/python scripts/inci_lookup.py --photo "<product name>"` (incidecoder front photo, one HTTP call - the highest-hit-rate source; verify it is THIS exact product/variant/strength via the page title, not a different SKU). Only if it MISSes, fetch a brand or major-retailer product page and extract a REAL photo URL (og:image or main product image). It must be the product itself, NOT a logo, banner, model shot, or unrelated image. If nothing clean is found after both, add `image_unresolvable: '<reason>'` to the frontmatter (after category:) so it is not retried, and SKIP. Never guess or fabricate an image.
-        c. Self-host it: `curl -sL "<url>" -o static/images/<slug>-<source>.jpg` then VERIFY it is a real image (`file static/images/<slug>-<source>.jpg` reports image data AND size > 3KB). If it is HTML/an error page/too small, delete it and skip.
-        d. Add an images: block to the frontmatter (after the category: or brand: line) with file/source/source_url per the site convention (reference data/products/cosrx-the-retinol-0-1-cream.md). 1-2 genuine product photos max. Attribute the source honestly.
-        e. Run `.venv/bin/python scripts/sk lint <slug>` and fix issues.
-      STEP 3 (main loop): `.venv/bin/python build.py`; confirm each touched product now renders its photo (`grep -c 'img src="images/<slug>' _site/<slug>.html` returns >=1; the product gallery class is `photo-rail` and the rendered image path prefix is `images/`, NOT `static/images/` and NOT `thumb`). Commit (`git add data/products static/images && git commit -m "images: real product photos for N products (image cron)"`) and push (git pull --rebase then push if rejected). One-line summary: which products got images, which were skipped and why. Do NOT draft or change any other page content.
-  - cron: "47 8 * * *"
-    label: pubmed-ingest
-    prompt: |
-      [SkinTiers PubMed ingest] Run exactly: `.venv/bin/python scripts/ingest_pubmed.py`. It auto-adds new
-      high-quality dermatology studies to the study queue (dedup by PMID). If data/queues/studies.yaml
-      changed, commit and push it. KEEP TOKEN USE MINIMAL: run the script, commit if changed, stop.
-  - cron: "27 4,16 * * *"
-    label: video-backfill
-    prompt: |
-      [SkinTiers video backfill] Back-catalog sweep for ONE flagship creator. MAIN-LOOP work only (no subagents). KEEP TOKEN USE MODERATE. This walks the deep evergreen catalog of the highest-quality creators, complementing the recent-uploads video-pull. See docs/video-backfill-process.md.
+    3. For each manifest line whose HEADER does NOT already appear in a current CronList entry''s prompt, CronCreate it with cron=<CRON> and prompt = the EXACT contents of <FILE> (Read the file first). Skip any HEADER already present - never create a duplicate.
 
-      STEP 1 - Run `.venv/bin/python scripts/roster_next.py backfill --all-high` - it returns the HIGH-tier YouTube creator with the SMALLEST `backfill_cursor` (TSV field=value line), covering all HIGH-tier back catalogs, not just the original 7 flagship. Note its name, creator_slug, credential, channel, backfill_cursor (call it C), and any own-brand conflict.
-      STEP 2 - List the next OLDER slice: `yt-dlp --flat-playlist --playlist-start $((C+1)) --playlist-end $((C+15)) --no-warnings --print "%(id)s\t%(title)s" <channel>`. If it returns FEWER than 15 rows, the catalog is nearly exhausted at that depth (fine). From the slice pick the TITLE candidates that are a single-topic match to an EXISTING site page (a named product, an ingredient/topic, or a condition/goal the site covers). Skip vague vlogs/GRWM/hauls/favorites/pure product-roundups and any #ad/sponsored title. Evergreen educational content is exactly the target here.
-      STEP 2b - POPULARITY RANK (user 2026-08-25): the point of backfill is older-but-HIGHLY-RATED videos, so do not just take them in listing order. Run `.venv/bin/python scripts/video_views.py --min-views 30000 <candidate-id-1> <candidate-id-2> ...` on the title-matched candidates (bounded - only the few matches, ~2s each). It prints them sorted by view_count desc with a PASS/LOW verdict. Prefer the HIGHEST-viewed candidates, and SKIP any marked LOW (a low-signal old upload below the 30k floor) unless it is the only match for a page that has no video at all. Then take UP TO 3, highest-viewed first.
-      STEP 2c - DEMAND-DRIVEN FALLBACK (user 2026-08-25): if STEP 2/2b yields NO usable card (all dup / off-topic / LOW views), do not just advance the cursor empty. Run `.venv/bin/python scripts/video_gaps.py --limit 40` (published pages with ZERO video cards, core types first) and pick ONE gap page whose topic matches THIS creator's expertise. Search their own catalog for it: `yt-dlp "ytsearch8:<gap topic> <creator name>" --flat-playlist --no-warnings --print "%(id)s\t%(channel)s\t%(title)s"`, keep only rows whose channel is THIS creator, and if one is a clean single-topic evergreen match, run it through the popularity check (STEP 2b) and the STEP 3 pipeline and card it on the gap page. This fills pages that need a video instead of adding yet another card to an already-covered topic. Still advance the cursor by the slice.
-      STEP 3 - For EACH chosen video (STOP after at most 3 cards): (a) `.venv/bin/python scripts/yt_transcript.py <id>` -> no transcript, skip. (b) MANDATORY sponsorship scan of the transcript (sponsor, sponsored, #ad, paid partnership, gifted, "use my code", affiliate, "brought to you by") -> ANY present, reject; if the creator has an own-brand line and the video mainly promotes it, skip. (c) attach_to = the single most relevant EXISTING page (verify the file exists under data/{ingredients,conditions,goals,products}); none -> skip (do not invent pages). (d) upload date via `yt-dlp --skip-download --no-warnings --print "%(upload_date)s" <url>` reformatted to 'YYYY-MM-DD' (older dates are expected and correct - the Feed orders by real upload date). (e) insert the card with the helper (it handles dedup by id, YAML escaping, related-slug validation, and em/en-dash rejection - do NOT hand-write the videos: block): `.venv/bin/python scripts/sk add-video <attach_to> --id <id> --title "..." --creator "<name>" --creator-slug <slug> --credential "<from roster>" --platform YouTube --posted YYYY-MM-DD --thesis "..." --related "slug1,slug2"`. If it prints "dup: ...", the id was already carded - skip it. THESIS is 2-3 sentences, SELF-CONTAINED: name the product/ingredient/topic explicitly, introduce the creator with credential on first mention, grounded ONLY in the transcript, NO em/en-dashes, no site self-reference. `--related` = comma-separated slugs of EVERY OTHER existing page the video is about (the helper drops any that don't resolve); omit if none.
-      STEP 4 - Advance this creator's backfill_cursor to C+15 (or the true end reached if the slice was short) with the safe helper: `.venv/bin/python scripts/sk roster-set <creator_slug> --backfill-cursor <N>`. It edits surgically (preserving the comment header) and validates; do NOT hand-edit the YAML.
-      STEP 4b - REFERRAL MINING (user 2026-08-25): for any video you carded, run `.venv/bin/python scripts/mine_referrals.py <id-or-url> ...` to harvest positive creator references from its description/transcript into data/queues/creator-candidates.yaml (self + already-rostered dropped). Best-effort; skip if 0 cards.
-      STEP 5 - `.venv/bin/python scripts/sk lint <slug>` + `sk style <slug>` on each touched page (fix issues), `.venv/bin/python build.py`, then commit and push (git pull --rebase then push if rejected). One-line summary: creator + slice range + cards added (page + video + related) + new cursor, or "none found in slice" with why.
-  - cron: "37 9 * * 1"
-    label: channel-health
-    prompt: |
-      [SkinTiers channel health] Run exactly: `.venv/bin/python scripts/channel_health.py` (it reads Chrome
-      cookies for the TikTok checks; pass --skip-tiktok only if cookies are unavailable). It flags roster
-      channels that no longer resolve: YouTube channels that 404 after a rename, AND TikTok handles that
-      return HTTP 200 but yt-dlp cannot list ("Unable to extract secondary user ID" / "no videos posted") -
-      a silent dead-end that jams the TikTok rotation (this bit us on @gohealio and @drsharimarchbein).
-      KEEP TOKEN USE MINIMAL. If it reports 0 broken, stop (nothing to do; do not commit).
-      For BROKEN YouTube channels: find the real channel with `yt-dlp "ytsearch3:<name> dermatologist"` and
-      re-pin data/video-sources.yaml to the stable /channel/UC... URL (SURGICAL one-line edit; never yaml.dump).
-      For UN-PULLABLE TikTok handles: check once whether the creator renamed their @handle; if you find the
-      live one, re-pin it. If you cannot verify a working channel (YouTube or TikTok), do NOT guess - set that
-      entry's channel to '' and add a `channel_broken:` line dated today explaining, so pulls skip it and this
-      check mutes it going forward. Commit + push only if you changed the roster. One-line summary of what was re-pinned or muted.
-  - cron: "41 6 * * 1"
-    label: hub-discovery
-    prompt: |
-      [SkinTiers hub discovery] Run exactly: `.venv/bin/python scripts/discover_hubs.py`. It mines the video-transcript archive (research-cache/transcripts + carded titles) for recurring condition/goal/list topics that have NO page yet and appends the ones above the frequency floor to the type queues (dedup vs existing pages + queue). This keeps the discovery hubs (conditions/goals/lists) filled so those daily crons have work (user 2026-08-26). KEEP TOKEN USE MINIMAL: run the script; if data/queues/{conditions,goals,lists}.yaml changed, commit + push; stop. Do not fill pages here.
-  - cron: "17 8 * * 1"
-    label: creator-vetting
-    prompt: |
-      [SkinTiers creator vetting] Weekly: vet ONE new creator candidate and promote it to the roster if it passes. MAIN-LOOP work only (no subagents). KEEP TOKEN USE MODERATE. This is the producer that keeps the video roster growing (user 2026-08-25).
+    4. Report ONE line: "cron fleet: X/Y present; created: <names or none>". Do not touch data/ or git.
 
-      STEP 0 - Refresh candidates: `.venv/bin/python scripts/discover_creators.py --per 4` mines the site's core topics ("<topic> dermatologist"/"cosmetic chemist"), dedups vs the roster (UC id, @handle, name), and appends fresh channels to data/queues/creator-candidates.yaml ranked by cross-topic `hits`. Bounded but can take a few minutes.
-      STEP 1 - Pick the highest-`hits` candidate whose status is pending (or missing) in data/queues/creator-candidates.yaml. Note its name + channel_url.
-      STEP 2 - VET it (rubric in docs/creator-expansion-plan.md; CREDIBILITY not credential is the gate, user 2026-08-14):
-        a. Reject if it is NOT a skincare-science creator: brand/retailer channels ("X Skincare", "X Cosmetics"), general beauty/GRWM vloggers, or naturopath/pseudoscience channels are all REJECT.
-        b. Identify the person + credential HONESTLY. Never state an unverified claim about a living person: a "board-certified dermatologist" claim must be supported by the channel's own stated credentials (About page / video). Cosmetic chemist -> a real formulation/chemistry background. If you cannot verify a real credential, tier MED at most, or reject.
-        c. Skim 1-2 of the channel's videos (`yt-dlp --flat-playlist --playlist-end 8 ... <channel>` then one `scripts/yt_transcript.py <id>`) to confirm an evidence-based, science-aligned track record with no rampant misinformation.
-        d. Note conflicts: own-brand line, affiliate storefront (favorites treated as effectively paid), sponsor-heavy. Set product_recs "ok"/"restricted"/empty accordingly.
-      STEP 3 - If it PASSES: `.venv/bin/python scripts/roster_add.py --name "..." --creator-slug <slug> --credential "<honest, verified>" --tier HIGH|MED --channel <channel_url> --conflict "<or empty>" --product-recs "<ok|restricted|empty>"`. Then, in data/queues/creator-candidates.yaml, set that candidate's status to `added` (load/set/dump is fine - the candidates file has no comment header). If it FAILS: set its status to `rejected` with a short `reason:` and do NOT add it to the roster.
-      STEP 4 - Commit + push (roster + candidates file). One-line summary: candidate + verdict (added as TIER, or rejected: reason).
-  - cron: "51 2,14 * * *"
-    label: tiktok-pull
-    prompt: |
-      [SkinTiers TikTok pull] Do ONE small bounded batch, then stop. KEEP TOKEN USE LOW; MAIN-LOOP work only (no subagents). Same job as the YouTube video pull but for the roster's TikTok creators, which the YouTube pull cannot process. Add a few of ONE vetted TikTok creator's recent, NON-SPONSORED, transcript-verified clips as video cards on the most relevant existing pages.
+    '
+- cron: 41 */6 * * *
+  type: product
+  critic: Because products make health/efficacy claims, one Opus profile-reviewer critic MUST re-verify every quote/stat/price/composition figure against the REAL source before publish
+  publish: and the critic returns verdict publish (else --force publishes at assurance=sonnet)
+- cron: 9 9 * * *
+  type: study
+  critic: Because studies make health claims, one Opus profile-reviewer critic MUST re-verify every quote and statistic against the REAL source (the PubMed URL) before publish. Keep the page COMPACT + structured (see scope) — the critic checks the numbers, it is not a license to pad
+  publish: and the critic returns verdict publish
+- cron: 31 12 * * *
+  type: ingredient
+  critic: Because ingredients make health/efficacy claims, one Opus profile-reviewer critic MUST re-verify every quote and statistic against the REAL source before publish
+  publish: and the critic returns verdict publish
+- cron: 29 15 * * *
+  type: condition
+  critic: Because conditions make health claims, one Opus profile-reviewer critic MUST re-verify every quote and statistic against the REAL source before publish
+  publish: and the critic returns verdict publish
+- cron: 37 16 * * *
+  type: goal
+  critic: Because goals make health/efficacy claims, one Opus profile-reviewer critic MUST re-verify every quote and statistic against the REAL source before publish
+  publish: and the critic returns verdict publish
+- cron: 17 10 * * *
+  label: fill-person
+  prompt: '[SkinTiers daily fill: PERSON] Read docs/cron-playbook.md and service the PERSON tick against it. KEEP TOKEN USE LOW.
 
-      STEP 0 - Cookies: TikTok fetches REQUIRE browser cookies (else HTTP 429 / bot-block). Prefix every yt-dlp AND yt_transcript.py/video_views.py call with `YTDLP_COOKIES_FROM_BROWSER=chrome` (the scripts honor this env var). Run ONE creator only, serially (do not fan out), to stay under TikTok's rate limit.
-      STEP 1 - Get target clips, FRESHEST-FIRST. PRIMARY source is the daily-scan queue: `YTDLP_COOKIES_FROM_BROWSER=chrome .venv/bin/python scripts/video_scan.py --list-pending 6 --platform tiktok` (the [SkinTiers video scan] cron sweeps TikTok creators too; each line already carries name/creator_slug/credential/tier/channel/conflict/product_recs). Work from the TOP. If it prints NOTHING, fall back to the rotation: `.venv/bin/python scripts/roster_next.py pull --platform tiktok` returns the oldest-last_pulled TikTok creator (TSV field=value), then list its clips per STEP 2. If you REJECT a queued clip at STEP 3, mark it handled so it is not re-listed: `.venv/bin/python scripts/video_scan.py --resolve <id> --reason "<short why>"`.
-      STEP 2 - List recent clips: `YTDLP_COOKIES_FROM_BROWSER=chrome yt-dlp --flat-playlist --playlist-end 15 --no-warnings --print "%(id)s\t%(duration)s\t%(title)s" <channel>` (for TikTok the title IS the caption). TikTok is short-form: skip clips under ~25s (too thin for a thesis). Choose UP TO 3 whose caption is a single-topic match to a topic the site already has a page for (a named product, an ingredient/topic, or a condition/goal). Skip vague day-in-the-life / trend clips, makeup tutorials, and any caption with #ad, "link in bio", ShopMy, "code", or affiliate/gifted language.
-      STEP 3 - For EACH chosen clip (STOP after at most 3 cards): build the full URL `https://www.tiktok.com/@<handle>/video/<id>`. (a) `YTDLP_COOKIES_FROM_BROWSER=chrome .venv/bin/python scripts/yt_transcript.py "<url>"` - it fetches TikTok VTT subtitles; NO transcript -> skip (do not cite a clip you cannot read). (b) MANDATORY sponsorship scan of the transcript AND the caption (sponsor, sponsored, #ad, paid partnership, gifted, "use my code", affiliate, "link in bio", ShopMy) -> ANY present, REJECT. TikTok affiliate monetization is common: a creator who sends picks to an affiliate storefront has picks treated as effectively paid - skip those. (c) READ the transcript; it must be genuine education/how-to. If the creator has an own-brand line and the clip mainly promotes it, skip. (d) attach_to = the single most relevant EXISTING page (verify the file exists under data/{products,ingredients,conditions,goals}); none -> skip. (e) upload date: `YTDLP_COOKIES_FROM_BROWSER=chrome yt-dlp --skip-download --no-warnings --print "%(upload_date)s" "<url>"` reformatted to YYYY-MM-DD. (f) card it (STRIP emoji + #hashtags from the title first): `.venv/bin/python scripts/sk add-video <attach_to> --id <id> --title "<short clean caption>" --creator "<name>" --creator-slug <slug> --credential "<from roster>" --platform TikTok --url "<full tiktok url>" --posted YYYY-MM-DD --thesis "..." --related "slug1,slug2"`. THESIS 2-3 sentences, SELF-CONTAINED, grounded ONLY in the transcript, name the subject + introduce the creator with credential, NO em/en-dashes, NO emoji, no site self-reference. If it prints "dup: ...", skip that clip.
-      STEP 4 - Advance rotation (even if 0 cards): `.venv/bin/python scripts/sk roster-set <creator_slug> --last-pulled <today YYYY-MM-DD>`.
-      STEP 4b - REFERRAL MINING: for any clip you carded, run `.venv/bin/python scripts/mine_referrals.py "<full tiktok url>" ...` to harvest positive creator references into data/queues/creator-candidates.yaml (best-effort).
-      STEP 5 - `.venv/bin/python scripts/sk lint <slug>` + `sk style <slug>` on each touched page, `.venv/bin/python build.py`, `.venv/bin/python scripts/sk log "..."` a What's New line, commit and push (git pull --rebase then push if rejected). One-line summary: creator + cards added (page + clip), or "none found" with why.
-  - cron: "37 0 * * *"
-    label: video-scan
-    prompt: |
-      [SkinTiers video scan] DETECT every creator's newest uploads, cheaply, so the freshest content is always queued for ingestion. MAIN-LOOP ONLY, no subagents, KEEP TOKEN USE MINIMAL - this is a metadata sweep, NOT ingestion. Runs once daily, ahead of the video-pull firings.
 
-      STEP 1 - Run exactly: `YTDLP_COOKIES_FROM_BROWSER=chrome .venv/bin/python scripts/video_scan.py --scan --per 6`. It lists each pullable roster creator's most recent uploads (yt-dlp flat metadata only - NO transcript download, NO LLM), diffs them against every video already carded on the site AND against the pending queue, prunes any queued video that has since been carded, and appends the genuinely-new uploads to data/queues/video-candidates.yaml (YouTube at full concurrency, TikTok at low concurrency with cookies). Instagram/other and channel_broken entries are skipped by design.
-      STEP 2 - Do NOT ingest here (the video-pull and TikTok-pull crons drain the queue freshest-first, with the mandatory transcript + sponsorship scan). Commit and push data/queues/video-candidates.yaml (git pull --rebase then push if rejected). Optionally `.venv/bin/python scripts/sk log "..."` a one-line What's New only if the run added a notably large batch.
-      STEP 3 - One-line summary: channels scanned + new videos added + pending-queue size. If many channels are unreachable, say so (the weekly [SkinTiers channel health] cron fixes broken handles; do not chase them here).
+    The playbook holds the shared standing instructions (purpose and scope, STEP 1 queue-then-maintenance-lane, fetching order, source caching, STEP 2 cross-feed, the finish checklist). Read it once per session; it is the quality backbone, not optional.
+
+
+    Resolve any named product with `scripts/sk find "<name>"` and any composition question with `scripts/sk inci "<ingredient>"`. Do not grep the tree.
+
+
+    Type-specific for PERSON: LEAN discovery card, <=150 words: who they are, an honest credential, and the products/videos they point to (linked). No biography essay. NEVER state an unverified claim about a living person. No Opus critic for this type; do your own lint + verify + style check, then publish with --force and leave `assurance: sonnet`.
+
+
+    Do ONE small bounded batch, then stop. One-line summary.
+
+    '
+- cron: 43 13 * * *
+  label: fill-brand
+  prompt: '[SkinTiers daily fill: BRAND] Read docs/cron-playbook.md and service the BRAND tick against it. KEEP TOKEN USE LOW.
+
+
+    The playbook holds the shared standing instructions (purpose and scope, STEP 1 queue-then-maintenance-lane, fetching order, source caching, STEP 2 cross-feed, the finish checklist). Read it once per session; it is the quality backbone, not optional.
+
+
+    Resolve any named product with `scripts/sk find "<name>"` and any composition question with `scripts/sk inci "<ingredient>"`. Do not grep the tree.
+
+
+    Type-specific for BRAND: LEAN discovery roll-up, <=180 words: what the brand is, founder in one line if verifiable, and a linked list of its products/ingredients ALREADY on the site. No founding-history or positioning essay. Attribute every brand claim as the brand''s own. No Opus critic for this type; do your own lint + verify + style check, then publish with --force and leave `assurance: sonnet`.
+
+
+    Do ONE small bounded batch, then stop. One-line summary.
+
+    '
+- cron: 23 11 * * *
+  type: list
+  critic: 'Lists are curatorial but cite health claims: a Sonnet draft + your own check; spot-verify any load-bearing stat against its source'
+  publish: (use --force after your own check)
+- cron: 43 1,7,13,19 * * *
+  label: video-pull
+  prompt: "[SkinTiers daily video pull] Do ONE small bounded batch, then stop. KEEP TOKEN USE LOW; MAIN-LOOP work only (no subagents). Add a few of ONE vetted expert's recent, NON-SPONSORED, transcript-verified videos as embedded videos: cards on the most relevant existing pages. This runs several times a day to keep the Feed page fresh.\n\nSTEP 1 - Get target videos, FRESHEST-FIRST. PRIMARY source is the daily-scan queue: run `.venv/bin/python scripts/video_scan.py --list-pending 8 --platform youtube`. The [SkinTiers video scan] cron sweeps EVERY creator once a day and fills data/queues/video-candidates.yaml with newly-detected uploads; this prints the freshest un-ingested ones as TSV field=value lines, each ALREADY carrying the creator's name, creator_slug, credential, channel, tier, product_recs, and conflict (so you need not re-read the roster). Work from the TOP (freshest). If it prints NOTHING (empty queue), fall back to the rotation: `.venv/bin/python scripts/roster_next.py pull` returns the oldest-last_pulled YouTube creator (TSV line), then list its uploads with `yt-dlp --flat-playlist --playlist-end 15 --no-warnings --print \"%(id)s\\t%(title)s\" <channel>`. (Non-YouTube creators: `roster_next.py noyt`.)\nSTEP 2 - From those candidates choose UP TO 3 whose TITLE is about a topic the site already has a page for: a named product, an ingredient/topic (retinoids, niacinamide, vitamin C, azelaic/salicylic/glycolic acid, sunscreen/SPF, ceramides, hyaluronic acid, peptides), OR a skin CONDITION or GOAL the site covers (rosacea, melasma, acne, anti-aging). Skip vague vlogs, GRWM, Shorts-style hashtag-stuffed clips, and any #ad/sponsored title. PRODUCT-REC and FAVORITES videos (a \"which product(s) I like and why\"): eligible when the creator is credibility-vetted - tier HIGH (derm/chemist) OR product_recs: ok in the roster. CREDIBILITY, not credential, is the gate (user 2026-08-14): a vetted creator's non-sponsored single-product rec OR multi-product favorites video is fine (embed on the most relevant page, use related: for the others). For a MED creator WITHOUT product_recs: ok, still prefer educational/how-to. Always: reject sponsored/affiliate/gifted (STEP 3b); a creator who monetizes picks via an affiliate storefront (e.g. Kristin Leite) has favorites/picks treated as effectively paid, so skip those; and never relay an overstated efficacy claim as fact even from a vetted creator.\nSTEP 3 - For EACH chosen video (STOP after at most 3 cards):\n  a. `.venv/bin/python scripts/yt_transcript.py <id>`. No transcript -> skip.\n  b. MANDATORY sponsorship scan of the transcript (sponsor, sponsored, #ad, paid partnership, \"thank you <brand> for sponsoring\", gifted, \"brought to you by\", \"use my code\", affiliate callouts). ANY present -> REJECT. Reject brand-channel uploads. If you REJECT a candidate that came from the scan queue (sponsored, own-brand promo, not single-topic, or no matching page), mark it so it is not re-listed tomorrow: `.venv/bin/python scripts/video_scan.py --resolve <id> --reason \"<short why>\"`. (Successfully-carded videos need no resolve; the next daily scan auto-prunes them once they are on a page.)\n  c. READ the transcript; it must be genuine education/how-to/which-product-they-like. If the creator has an own-brand conflict and the video mainly promotes their own product, skip.\n  d. Pick the MOST relevant EXISTING page to EMBED the card on (where it renders in full): a specific product page, else the ingredient/topic page, else a condition or goal hub page the video is about (data/products, data/ingredients, data/conditions, data/goals). No relevant page -> SKIP (do not create pages).\n  e. Get the ORIGINAL upload date as 'YYYY-MM-DD' (`yt-dlp --skip-download --no-warnings --print \"%(upload_date)s\" <url>` reformatted; this is what orders the Feed page).\n  f. Insert the card with the helper (it handles dedup by id, YAML escaping, related-slug validation, and em/en-dash rejection - do NOT hand-write the videos: block):\n    `.venv/bin/python scripts/sk add-video <embed-slug> --id <id> --title \"...\" --creator \"<name>\" --creator-slug <slug> --credential \"<from roster>\" --platform YouTube --posted YYYY-MM-DD --thesis \"...\" --related \"slug1,slug2\"`\n    Dedup is PER-PAGE: if it prints \"dup: <id> already on <page>\", that page already had it (fine) and the others still got it. The THESIS is 2-3 sentences GROUNDED IN THE TRANSCRIPT (only what they actually said, never fabricate a number/claim) and MUST be SELF-CONTAINED for a lay reader who does not know this creator or video: (1) name the product/ingredient/topic explicitly as the subject, never a bare \"this\"/\"it\"; (2) introduce the creator with their credential on first mention (e.g. \"cosmetic chemist Michelle Wong\", \"dermatologist Dr Dray\"); (3) read clearly on its own. No em/en-dashes; no site self-reference.\n    `--related` is a comma-separated list of the slugs of EVERY OTHER existing page the video is genuinely about, beyond the pages you embedded it on (the ingredient AND the condition/goal); the helper silently drops any that don't resolve, so it is fine to list your best guesses. Omit `--related` if there are none. For a YouTube video the helper derives the url from --id; for any non-YouTube platform pass `--platform <name> --url <full-url>` explicitly.\n  g. ROUNDUP / FAVORITES videos (\"N X tested\", \"best/favorite X for Y\", \"products I like/use\", \"shelfie\") get FULL enumeration (user 2026-08-24). From the TRANSCRIPT, list every product the creator actually NAMES or discusses (NEVER a product you only infer from a brand family or that the auto-captions do not clearly name - the accuracy rule beats completeness; when a caption garbles a brand, resolve it or drop it, do not guess). Then: (i) EMBED the full card on the ingredient/topic hub as <embed-slug> AND on EVERY named product that ALREADY has a page, in ONE call: `sk add-video <hub-slug> --also <prod-slug1>,<prod-slug2>,... --id <id> ...` (per-page dedup; the Feed collapses them into one entry listing all pages). (ii) For every clearly-named product WITHOUT a page, `.venv/bin/python scripts/sk queue-add \"<Brand Product Name>\" --type product --from <embed-slug> --source \"<creator> - <video title> (video, <id>)\"` so it gets built later. A non-roundup single-topic video keeps the single-page + `--related` pattern.\nSTEP 4 - Advance rotation with the safe helper: `.venv/bin/python scripts/sk roster-set <creator_slug> --last-pulled <today YYYY-MM-DD>` for EACH creator you carded a video from (queue path may span several creators), or for the single fallback creator you pulled (even if 0 cards added). Do NOT hand-edit video-sources.yaml with a line-search python heredoc (it silently fails past a long multi-line conflict: field, leaving the creator perpetually 'oldest').\nSTEP 4b - REFERRAL MINING (user 2026-08-25): for the video(s) you just carded, run `.venv/bin/python scripts/mine_referrals.py <id-or-url-1> <id-2> ...` - it harvests POSITIVE creator references (collab @handles / channel links in the description, endorsing spoken shout-outs in the transcript), drops self + already-rostered, and appends the rest to data/queues/creator-candidates.yaml for the weekly creator-vetting cron. Best-effort; if 0, fine.\nSTEP 5 - `.venv/bin/python scripts/sk lint <slug>` + `sk style <slug>` on each touched page (fix issues), `.venv/bin/python build.py`, `.venv/bin/python scripts/sk log \"...\"` a What's New line naming the creator + what was added, commit and push (git pull --rebase then push if rejected). One-line summary: creator + cards added (page + video), or \"none found\" with why.\n"
+- cron: 13 3,11,19 * * *
+  label: product-images
+  prompt: "[SkinTiers product images] Populate real product photos for products that lack them. Do ONE bounded batch then stop. KEEP TOKEN USE MODERATE.\n\nSTEP 1: list up to 5 products with NO images AND not already marked unresolvable:\n`for f in data/products/*.md; do grep -qE \"^(images|image_unresolvable):\" \"$f\" || basename \"$f\" .md; done | head -5`\nIf none, stop (nothing to do). (Products with `image_unresolvable:` were already exhaustively tried; do not re-litigate them.)\n\nSTEP 2: spawn ONE Sonnet subagent (effort medium) to handle exactly those 5 products. For EACH product it must:\n  a. Read the product page for its real brand + retailer URLs (the footnote source URLs and Where-to-Buy links already on the page are the best leads).\n  b. FIRST try `.venv/bin/python scripts/inci_lookup.py --photo \"<product name>\"` (incidecoder front photo, one HTTP call - the highest-hit-rate source; verify it is THIS exact product/variant/strength via the page title, not a different SKU). Only if it MISSes, fetch a brand or major-retailer product page and extract a REAL photo URL (og:image or main product image). It must be the product itself, NOT a logo, banner, model shot, or unrelated image. If nothing clean is found after both, add `image_unresolvable: '<reason>'` to the frontmatter (after category:) so it is not retried, and SKIP. Never guess or fabricate an image.\n  c. Self-host it: `curl -sL \"<url>\" -o static/images/<slug>-<source>.jpg` then VERIFY it is a real image (`file static/images/<slug>-<source>.jpg` reports image data AND size > 3KB). If it is HTML/an error page/too small, delete it and skip.\n  d. Add an images: block to the frontmatter (after the category: or brand: line) with file/source/source_url per the site convention (reference data/products/cosrx-the-retinol-0-1-cream.md). 1-2 genuine product photos max. Attribute the source honestly.\n  e. Run `.venv/bin/python scripts/sk lint <slug>` and fix issues.\nSTEP 3 (main loop): `.venv/bin/python build.py`; confirm each touched product now renders its photo (`grep -c 'img src=\"images/<slug>' _site/<slug>.html` returns >=1; the product gallery class is `photo-rail` and the rendered image path prefix is `images/`, NOT `static/images/` and NOT `thumb`). Commit (`git add data/products static/images && git commit -m \"images: real product photos for N products (image cron)\"`) and push (git pull --rebase then push if rejected). One-line summary: which products got images, which were skipped and why. Do NOT draft or change any other page content.\n"
+- cron: 47 8 * * *
+  label: pubmed-ingest
+  prompt: '[SkinTiers PubMed ingest] Run exactly: `.venv/bin/python scripts/ingest_pubmed.py`. It auto-adds new
+
+    high-quality dermatology studies to the study queue (dedup by PMID). If data/queues/studies.yaml
+
+    changed, commit and push it. KEEP TOKEN USE MINIMAL: run the script, commit if changed, stop.
+
+    '
+- cron: 27 4,16 * * *
+  label: video-backfill
+  prompt: '[SkinTiers video backfill] Back-catalog sweep for ONE flagship creator. MAIN-LOOP work only (no subagents). KEEP TOKEN USE MODERATE. This walks the deep evergreen catalog of the highest-quality creators, complementing the recent-uploads video-pull. See docs/video-backfill-process.md.
+
+
+    STEP 1 - Run `.venv/bin/python scripts/roster_next.py backfill --all-high` - it returns the HIGH-tier YouTube creator with the SMALLEST `backfill_cursor` (TSV field=value line), covering all HIGH-tier back catalogs, not just the original 7 flagship. Note its name, creator_slug, credential, channel, backfill_cursor (call it C), and any own-brand conflict.
+
+    STEP 2 - List the next OLDER slice: `yt-dlp --flat-playlist --playlist-start $((C+1)) --playlist-end $((C+15)) --no-warnings --print "%(id)s\t%(title)s" <channel>`. If it returns FEWER than 15 rows, the catalog is nearly exhausted at that depth (fine). From the slice pick the TITLE candidates that are a single-topic match to an EXISTING site page (a named product, an ingredient/topic, or a condition/goal the site covers). Skip vague vlogs/GRWM/hauls/favorites/pure product-roundups and any #ad/sponsored title. Evergreen educational content is exactly the target here.
+
+    STEP 2b - POPULARITY RANK (user 2026-08-25): the point of backfill is older-but-HIGHLY-RATED videos, so do not just take them in listing order. Run `.venv/bin/python scripts/video_views.py --min-views 30000 <candidate-id-1> <candidate-id-2> ...` on the title-matched candidates (bounded - only the few matches, ~2s each). It prints them sorted by view_count desc with a PASS/LOW verdict. Prefer the HIGHEST-viewed candidates, and SKIP any marked LOW (a low-signal old upload below the 30k floor) unless it is the only match for a page that has no video at all. Then take UP TO 3, highest-viewed first.
+
+    STEP 2c - DEMAND-DRIVEN FALLBACK (user 2026-08-25): if STEP 2/2b yields NO usable card (all dup / off-topic / LOW views), do not just advance the cursor empty. Run `.venv/bin/python scripts/video_gaps.py --limit 40` (published pages with ZERO video cards, core types first) and pick ONE gap page whose topic matches THIS creator''s expertise. Search their own catalog for it: `yt-dlp "ytsearch8:<gap topic> <creator name>" --flat-playlist --no-warnings --print "%(id)s\t%(channel)s\t%(title)s"`, keep only rows whose channel is THIS creator, and if one is a clean single-topic evergreen match, run it through the popularity check (STEP 2b) and the STEP 3 pipeline and card it on the gap page. This fills pages that need a video instead of adding yet another card to an already-covered topic. Still advance the cursor by the slice.
+
+    STEP 3 - For EACH chosen video (STOP after at most 3 cards): (a) `.venv/bin/python scripts/yt_transcript.py <id>` -> no transcript, skip. (b) MANDATORY sponsorship scan of the transcript (sponsor, sponsored, #ad, paid partnership, gifted, "use my code", affiliate, "brought to you by") -> ANY present, reject; if the creator has an own-brand line and the video mainly promotes it, skip. (c) attach_to = the single most relevant EXISTING page (verify the file exists under data/{ingredients,conditions,goals,products}); none -> skip (do not invent pages). (d) upload date via `yt-dlp --skip-download --no-warnings --print "%(upload_date)s" <url>` reformatted to ''YYYY-MM-DD'' (older dates are expected and correct - the Feed orders by real upload date). (e) insert the card with the helper (it handles dedup by id, YAML escaping, related-slug validation, and em/en-dash rejection - do NOT hand-write the videos: block): `.venv/bin/python scripts/sk add-video <attach_to> --id <id> --title "..." --creator "<name>" --creator-slug <slug> --credential "<from roster>" --platform YouTube --posted YYYY-MM-DD --thesis "..." --related "slug1,slug2"`. If it prints "dup: ...", the id was already carded - skip it. THESIS is 2-3 sentences, SELF-CONTAINED: name the product/ingredient/topic explicitly, introduce the creator with credential on first mention, grounded ONLY in the transcript, NO em/en-dashes, no site self-reference. `--related` = comma-separated slugs of EVERY OTHER existing page the video is about (the helper drops any that don''t resolve); omit if none.
+
+    STEP 4 - Advance this creator''s backfill_cursor to C+15 (or the true end reached if the slice was short) with the safe helper: `.venv/bin/python scripts/sk roster-set <creator_slug> --backfill-cursor <N>`. It edits surgically (preserving the comment header) and validates; do NOT hand-edit the YAML.
+
+    STEP 4b - REFERRAL MINING (user 2026-08-25): for any video you carded, run `.venv/bin/python scripts/mine_referrals.py <id-or-url> ...` to harvest positive creator references from its description/transcript into data/queues/creator-candidates.yaml (self + already-rostered dropped). Best-effort; skip if 0 cards.
+
+    STEP 5 - `.venv/bin/python scripts/sk lint <slug>` + `sk style <slug>` on each touched page (fix issues), `.venv/bin/python build.py`, then commit and push (git pull --rebase then push if rejected). One-line summary: creator + slice range + cards added (page + video + related) + new cursor, or "none found in slice" with why.
+
+    '
+- cron: 37 9 * * 1
+  label: channel-health
+  prompt: '[SkinTiers channel health] Run exactly: `.venv/bin/python scripts/channel_health.py` (it reads Chrome
+
+    cookies for the TikTok checks; pass --skip-tiktok only if cookies are unavailable). It flags roster
+
+    channels that no longer resolve: YouTube channels that 404 after a rename, AND TikTok handles that
+
+    return HTTP 200 but yt-dlp cannot list ("Unable to extract secondary user ID" / "no videos posted") -
+
+    a silent dead-end that jams the TikTok rotation (this bit us on @gohealio and @drsharimarchbein).
+
+    KEEP TOKEN USE MINIMAL. If it reports 0 broken, stop (nothing to do; do not commit).
+
+    For BROKEN YouTube channels: find the real channel with `yt-dlp "ytsearch3:<name> dermatologist"` and
+
+    re-pin data/video-sources.yaml to the stable /channel/UC... URL (SURGICAL one-line edit; never yaml.dump).
+
+    For UN-PULLABLE TikTok handles: check once whether the creator renamed their @handle; if you find the
+
+    live one, re-pin it. If you cannot verify a working channel (YouTube or TikTok), do NOT guess - set that
+
+    entry''s channel to '''' and add a `channel_broken:` line dated today explaining, so pulls skip it and this
+
+    check mutes it going forward. Commit + push only if you changed the roster. One-line summary of what was re-pinned or muted.
+
+    '
+- cron: 41 6 * * 1
+  label: hub-discovery
+  prompt: '[SkinTiers hub discovery] Run exactly: `.venv/bin/python scripts/discover_hubs.py`. It mines the video-transcript archive (research-cache/transcripts + carded titles) for recurring condition/goal/list topics that have NO page yet and appends the ones above the frequency floor to the type queues (dedup vs existing pages + queue). This keeps the discovery hubs (conditions/goals/lists) filled so those daily crons have work (user 2026-08-26). KEEP TOKEN USE MINIMAL: run the script; if data/queues/{conditions,goals,lists}.yaml changed, commit + push; stop. Do not fill pages here.
+
+    '
+- cron: 17 8 * * 1
+  label: creator-vetting
+  prompt: "[SkinTiers creator vetting] Weekly: vet ONE new creator candidate and promote it to the roster if it passes. MAIN-LOOP work only (no subagents). KEEP TOKEN USE MODERATE. This is the producer that keeps the video roster growing (user 2026-08-25).\n\nSTEP 0 - Refresh candidates: `.venv/bin/python scripts/discover_creators.py --per 4` mines the site's core topics (\"<topic> dermatologist\"/\"cosmetic chemist\"), dedups vs the roster (UC id, @handle, name), and appends fresh channels to data/queues/creator-candidates.yaml ranked by cross-topic `hits`. Bounded but can take a few minutes.\nSTEP 1 - Pick the highest-`hits` candidate whose status is pending (or missing) in data/queues/creator-candidates.yaml. Note its name + channel_url.\nSTEP 2 - VET it (rubric in docs/creator-expansion-plan.md; CREDIBILITY not credential is the gate, user 2026-08-14):\n  a. Reject if it is NOT a skincare-science creator: brand/retailer channels (\"X Skincare\", \"X Cosmetics\"), general beauty/GRWM vloggers, or naturopath/pseudoscience channels are all REJECT.\n  b. Identify the person + credential HONESTLY. Never state an unverified claim about a living person: a \"board-certified dermatologist\" claim must be supported by the channel's own stated credentials (About page / video). Cosmetic chemist -> a real formulation/chemistry background. If you cannot verify a real credential, tier MED at most, or reject.\n  c. Skim 1-2 of the channel's videos (`yt-dlp --flat-playlist --playlist-end 8 ... <channel>` then one `scripts/yt_transcript.py <id>`) to confirm an evidence-based, science-aligned track record with no rampant misinformation.\n  d. Note conflicts: own-brand line, affiliate storefront (favorites treated as effectively paid), sponsor-heavy. Set product_recs \"ok\"/\"restricted\"/empty accordingly.\nSTEP 3 - If it PASSES: `.venv/bin/python scripts/roster_add.py --name \"...\" --creator-slug <slug> --credential \"<honest, verified>\" --tier HIGH|MED --channel <channel_url> --conflict \"<or empty>\" --product-recs \"<ok|restricted|empty>\"`. Then, in data/queues/creator-candidates.yaml, set that candidate's status to `added` (load/set/dump is fine - the candidates file has no comment header). If it FAILS: set its status to `rejected` with a short `reason:` and do NOT add it to the roster.\nSTEP 4 - Commit + push (roster + candidates file). One-line summary: candidate + verdict (added as TIER, or rejected: reason).\n"
+- cron: 51 2,14 * * *
+  label: tiktok-pull
+  prompt: '[SkinTiers TikTok pull] Do ONE small bounded batch, then stop. KEEP TOKEN USE LOW; MAIN-LOOP work only (no subagents). Same job as the YouTube video pull but for the roster''s TikTok creators, which the YouTube pull cannot process. Add a few of ONE vetted TikTok creator''s recent, NON-SPONSORED, transcript-verified clips as video cards on the most relevant existing pages.
+
+
+    STEP 0 - Cookies: TikTok fetches REQUIRE browser cookies (else HTTP 429 / bot-block). Prefix every yt-dlp AND yt_transcript.py/video_views.py call with `YTDLP_COOKIES_FROM_BROWSER=chrome` (the scripts honor this env var). Run ONE creator only, serially (do not fan out), to stay under TikTok''s rate limit.
+
+    STEP 1 - Get target clips, FRESHEST-FIRST. PRIMARY source is the daily-scan queue: `YTDLP_COOKIES_FROM_BROWSER=chrome .venv/bin/python scripts/video_scan.py --list-pending 6 --platform tiktok` (the [SkinTiers video scan] cron sweeps TikTok creators too; each line already carries name/creator_slug/credential/tier/channel/conflict/product_recs). Work from the TOP. If it prints NOTHING, fall back to the rotation: `.venv/bin/python scripts/roster_next.py pull --platform tiktok` returns the oldest-last_pulled TikTok creator (TSV field=value), then list its clips per STEP 2. If you REJECT a queued clip at STEP 3, mark it handled so it is not re-listed: `.venv/bin/python scripts/video_scan.py --resolve <id> --reason "<short why>"`.
+
+    STEP 2 - List recent clips: `YTDLP_COOKIES_FROM_BROWSER=chrome yt-dlp --flat-playlist --playlist-end 15 --no-warnings --print "%(id)s\t%(duration)s\t%(title)s" <channel>` (for TikTok the title IS the caption). TikTok is short-form: skip clips under ~25s (too thin for a thesis). Choose UP TO 3 whose caption is a single-topic match to a topic the site already has a page for (a named product, an ingredient/topic, or a condition/goal). Skip vague day-in-the-life / trend clips, makeup tutorials, and any caption with #ad, "link in bio", ShopMy, "code", or affiliate/gifted language.
+
+    STEP 3 - For EACH chosen clip (STOP after at most 3 cards): build the full URL `https://www.tiktok.com/@<handle>/video/<id>`. (a) `YTDLP_COOKIES_FROM_BROWSER=chrome .venv/bin/python scripts/yt_transcript.py "<url>"` - it fetches TikTok VTT subtitles; NO transcript -> skip (do not cite a clip you cannot read). (b) MANDATORY sponsorship scan of the transcript AND the caption (sponsor, sponsored, #ad, paid partnership, gifted, "use my code", affiliate, "link in bio", ShopMy) -> ANY present, REJECT. TikTok affiliate monetization is common: a creator who sends picks to an affiliate storefront has picks treated as effectively paid - skip those. (c) READ the transcript; it must be genuine education/how-to. If the creator has an own-brand line and the clip mainly promotes it, skip. (d) attach_to = the single most relevant EXISTING page (verify the file exists under data/{products,ingredients,conditions,goals}); none -> skip. (e) upload date: `YTDLP_COOKIES_FROM_BROWSER=chrome yt-dlp --skip-download --no-warnings --print "%(upload_date)s" "<url>"` reformatted to YYYY-MM-DD. (f) card it (STRIP emoji + #hashtags from the title first): `.venv/bin/python scripts/sk add-video <attach_to> --id <id> --title "<short clean caption>" --creator "<name>" --creator-slug <slug> --credential "<from roster>" --platform TikTok --url "<full tiktok url>" --posted YYYY-MM-DD --thesis "..." --related "slug1,slug2"`. THESIS 2-3 sentences, SELF-CONTAINED, grounded ONLY in the transcript, name the subject + introduce the creator with credential, NO em/en-dashes, NO emoji, no site self-reference. If it prints "dup: ...", skip that clip.
+
+    STEP 4 - Advance rotation (even if 0 cards): `.venv/bin/python scripts/sk roster-set <creator_slug> --last-pulled <today YYYY-MM-DD>`.
+
+    STEP 4b - REFERRAL MINING: for any clip you carded, run `.venv/bin/python scripts/mine_referrals.py "<full tiktok url>" ...` to harvest positive creator references into data/queues/creator-candidates.yaml (best-effort).
+
+    STEP 5 - `.venv/bin/python scripts/sk lint <slug>` + `sk style <slug>` on each touched page, `.venv/bin/python build.py`, `.venv/bin/python scripts/sk log "..."` a What''s New line, commit and push (git pull --rebase then push if rejected). One-line summary: creator + cards added (page + clip), or "none found" with why.
+
+    '
+- cron: 37 0 * * *
+  label: video-scan
+  prompt: '[SkinTiers video scan] DETECT every creator''s newest uploads, cheaply, so the freshest content is always queued for ingestion. MAIN-LOOP ONLY, no subagents, KEEP TOKEN USE MINIMAL - this is a metadata sweep, NOT ingestion. Runs once daily, ahead of the video-pull firings.
+
+
+    STEP 1 - Run exactly: `YTDLP_COOKIES_FROM_BROWSER=chrome .venv/bin/python scripts/video_scan.py --scan --per 6`. It lists each pullable roster creator''s most recent uploads (yt-dlp flat metadata only - NO transcript download, NO LLM), diffs them against every video already carded on the site AND against the pending queue, prunes any queued video that has since been carded, and appends the genuinely-new uploads to data/queues/video-candidates.yaml (YouTube at full concurrency, TikTok at low concurrency with cookies). Instagram/other and channel_broken entries are skipped by design.
+
+    STEP 2 - Do NOT ingest here (the video-pull and TikTok-pull crons drain the queue freshest-first, with the mandatory transcript + sponsorship scan). Commit and push data/queues/video-candidates.yaml (git pull --rebase then push if rejected). Optionally `.venv/bin/python scripts/sk log "..."` a one-line What''s New only if the run added a notably large batch.
+
+    STEP 3 - One-line summary: channels scanned + new videos added + pending-queue size. If many channels are unreachable, say so (the weekly [SkinTiers channel health] cron fixes broken handles; do not chase them here).
+
+    '
