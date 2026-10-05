@@ -9565,19 +9565,6 @@
   feed_rank: 0
   status: skipped
   skip_reason: comment-PRODUCTS funnel post, not single-topic educational
-- id: '7692084916233784589'
-  title: 'Simple Skincare Saves Skin #acneproneskin #skincareexplained #over30s...'
-  creator: Ella (@your.estie.ella)
-  creator_slug: your-estie-ella
-  credential: Licensed esthetician (NOT a dermatologist or cosmetic chemist)
-  channel: https://www.tiktok.com/@your.estie.ella
-  platform: TikTok
-  tier: MED
-  product_recs: ok
-  conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan and reject any sponsored/affiliate/gifted video
-  posted: '2026-10-02'
-  feed_rank: 0
-  status: pending
 - id: Md6LQ4a7wV0
   title: 'things I''d never touch again based on research #dermatologist #skincareroutine'
   creator: Dr Aamna Adel
@@ -9749,19 +9736,6 @@
   posted: ''
   feed_rank: 0
   status: pending
-- id: '7692551509359283469'
-  title: These products are not all terrible but I definitely wouldn’t use the...
-  creator: Ella (@your.estie.ella)
-  creator_slug: your-estie-ella
-  credential: Licensed esthetician (NOT a dermatologist or cosmetic chemist)
-  channel: https://www.tiktok.com/@your.estie.ella
-  platform: TikTok
-  tier: MED
-  product_recs: ok
-  conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan and reject any sponsored/affiliate/gifted video
-  posted: '2026-10-03'
-  feed_rank: 0
-  status: pending
 - id: '7692446434984987917'
   title: Your cleanser is there to keep your skin clean. Moisturizer is for ke...
   creator: Ella (@your.estie.ella)
@@ -9773,5 +9747,239 @@
   product_recs: ok
   conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan and reject any sponsored/affiliate/gifted video
   posted: '2026-10-03'
+  feed_rank: 1
+  status: pending
+- id: mb78S9NQ9zc
+  title: Everything you need to know about IPL Hair Removal | Dermatologist Explains | AD
+  creator: Dr Aamna Adel
+  creator_slug: aamna-adel
+  credential: Consultant dermatologist
+  channel: https://www.youtube.com/@DrAamnaAdel
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Founder of own-brand haircare line (Rhute); TikTok Shop affiliate/product storefront; recurring disclosed sponsored posts (No7, La Roche Pos
+  posted: ''
+  feed_rank: 0
+  status: pending
+- id: Y-ZpRAOF3pM
+  title: 'Glycolic Acid From Head to Toe: What a Dermatologist Actually Uses It For'
+  creator: Dr. Aleksandra Brown, DO, FAAD
+  creator_slug: aleksandra-brown
+  credential: Board-certified dermatologist (DO, FAOCD, FAAD), practicing at River Ridge Dermatology / HCA Virginia (LewisGale), Blacksburg VA
+  channel: https://www.youtube.com/channel/UC52c6a0gfbhuVCdHYZQAzuQ
+  platform: YouTube
+  tier: HIGH
+  product_recs: ok
+  conflict: null
+  posted: ''
+  feed_rank: 0
+  status: pending
+- id: ZQRjOlA-gjY
+  title: 'Collagen Peptides vs. Gelatin: Which Is Better for Skin?'
+  creator: Andrea Suarez (Dr Dray)
+  creator_slug: andrea-suarez-dr-dray
+  credential: Board-certified dermatologist
+  channel: https://www.youtube.com/@DrDrayzday/videos
+  platform: YouTube
+  tier: HIGH
+  product_recs: null
+  conflict: null
+  posted: ''
+  feed_rank: 0
+  status: pending
+- id: zUQG5tc76sI
+  title: 'This is BS!!! #dermreacts  #skincare  #dermatologist #dermangelo'
+  creator: Dr. Angelo Landriscina (DermAngelo)
+  creator_slug: angelo-landriscina
+  credential: Board-certified dermatologist
+  channel: https://www.youtube.com/@DermAngelo
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Own-brand UPF sun-protective clothing line, SOUL-A (wearsoula.com / @wearsoula), founded and promoted by him — apparel, not topical skincare
+  posted: ''
+  feed_rank: 6
+  status: pending
+- id: W6EOvPFfhPE
+  title: 'Nipple cream as lip balm. #dermreacts  #skincare  #dermatologist #dermangelo'
+  creator: Dr. Angelo Landriscina (DermAngelo)
+  creator_slug: angelo-landriscina
+  credential: Board-certified dermatologist
+  channel: https://www.youtube.com/@DermAngelo
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Own-brand UPF sun-protective clothing line, SOUL-A (wearsoula.com / @wearsoula), founded and promoted by him — apparel, not topical skincare
+  posted: ''
+  feed_rank: 7
+  status: pending
+- id: rHVKl_QRDmM
+  title: '“Watch them come out!” #dermreacts  #skincare  #dermatologist #dermangelo'
+  creator: Dr. Angelo Landriscina (DermAngelo)
+  creator_slug: angelo-landriscina
+  credential: Board-certified dermatologist
+  channel: https://www.youtube.com/@DermAngelo
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Own-brand UPF sun-protective clothing line, SOUL-A (wearsoula.com / @wearsoula), founded and promoted by him — apparel, not topical skincare
+  posted: ''
+  feed_rank: 8
+  status: pending
+- id: YS2OaiRXMi0
+  title: 'Robot makes baby lunch. #dermreacts  #food   #dermatologist #dermangelo  #reactionvideo'
+  creator: Dr. Angelo Landriscina (DermAngelo)
+  creator_slug: angelo-landriscina
+  credential: Board-certified dermatologist
+  channel: https://www.youtube.com/@DermAngelo
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Own-brand UPF sun-protective clothing line, SOUL-A (wearsoula.com / @wearsoula), founded and promoted by him — apparel, not topical skincare
+  posted: ''
+  feed_rank: 9
+  status: pending
+- id: hKPie2zUkaE
+  title: '“You hate sticky skincare” #dermreacts  #skincare  #dermatologist #dermangelo'
+  creator: Dr. Angelo Landriscina (DermAngelo)
+  creator_slug: angelo-landriscina
+  credential: Board-certified dermatologist
+  channel: https://www.youtube.com/@DermAngelo
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Own-brand UPF sun-protective clothing line, SOUL-A (wearsoula.com / @wearsoula), founded and promoted by him — apparel, not topical skincare
+  posted: ''
+  feed_rank: 10
+  status: pending
+- id: gvUCS56vaUM
+  title: Are Cold Sores Contagious?
+  creator: Dr. Daniel Sugai
+  creator_slug: daniel-sugai
+  credential: Board-certified dermatologist
+  channel: https://www.youtube.com/@danielsugaimd
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Chief Medical Officer of hair-growth-serum brand REYUS; advisory-board member of Bubble Skincare; periodic disclosed paid brand partnerships
+  posted: ''
+  feed_rank: 6
+  status: pending
+- id: D1eRs2BKu9k
+  title: Neutrogena’s NEW BEMT Sunscreen
+  creator: Doctorly
+  creator_slug: doctorly
+  credential: Dr. Muneeb Shah, DO & Dr. Luke Maxfield, DO - both board-certified dermatologists
+  channel: https://www.youtube.com/channel/UCHCZnC9akNA9pBP7aJGNKdg
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Muneeb Shah runs own skincare brand (Remedy Science) and Scriptable Rx venture featured on the channel
+  posted: ''
+  feed_rank: 12
+  status: pending
+- id: CKD81l8_iHU
+  title: IT'S A LIE
+  creator: Dr. Dustin Portela
+  creator_slug: dustin-portela
+  credential: Board-certified dermatologist
+  channel: https://www.youtube.com/channel/UCC9iFyuXhE3Epr-rJsFiK3Q/videos
+  platform: YouTube
+  tier: HIGH
+  product_recs: null
+  conflict: null
+  posted: ''
+  feed_rank: 0
+  status: pending
+- id: '7692933785930714388'
+  title: ad| Huge uncovered deck? Huge hole in the sun safety protocol! The ch...
+  creator: Hannah English (@ms_hannah_e / Hannah Collingwood English)
+  creator_slug: hannah-english
+  credential: Skincare educator
+  channel: https://www.tiktok.com/@hannahcollingwoodenglish
+  platform: TikTok
+  tier: HIGH
+  product_recs: restricted
+  conflict: Co-developed/formulated the Tbh Skincare 'Rebound' Serum and Toner (product-formulation partnership) — her endorsement of that spe; no YouTube; TikTok/IG intake
+  posted: '2026-10-04'
+  feed_rank: 0
+  status: pending
+- id: '7692942888921074957'
+  title: 'creams I’d recommend based on your skin type #cream #barriercream #mo...'
+  creator: Jenn Lexi (@jennlexi_)
+  creator_slug: jennlexi
+  credential: Esthetician (self-identified); not a dermatologist or cosmetic chemist
+  channel: https://www.tiktok.com/@jennlexi_
+  platform: TikTok
+  tier: MED
+  product_recs: restricted
+  conflict: 'Runs #ad sponsored posts (e.g. TruSkin) and Target skincare hauls/reviews; prefer her educational ingredient-category and barrier-repair explainers, and treat product recommendations as effectively promotional (skip).'
+  posted: '2026-10-04'
+  feed_rank: 0
+  status: pending
+- id: Q8qgz358hQE
+  title: '#skincare #cosmeticdermatology #hyperpigmentation #melasma #dermatologist'
+  creator: Dr. Jenny Liu (Jenny Liu, MD, FAAD)
+  creator_slug: jenny-liu
+  credential: Board-certified dermatologist
+  channel: https://www.youtube.com/@dr.jennyliu
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Runs an Amazon affiliate storefront (amazon.com/shop/derm.talk); recurring disclosed paid brand partnerships (Shiseido, SkinCeutic
+  posted: ''
+  feed_rank: 6
+  status: pending
+- id: '7692819952348302605'
+  title: Remember, the type of Vitamin C is just as important as the concentra...
+  creator: Kristin Leite (kristingl)
+  creator_slug: kristin-leite
+  credential: Beauty product developer and skincare educator (NOT a dermatologist or cosmetic chemist)
+  channel: https://www.tiktok.com/@kristingl
+  platform: TikTok
+  tier: MED
+  product_recs: null
+  conflict: runs an Amazon affiliate storefront and does sponsored posts - strongly prefer educational / how-to / ingredient-explainer videos; be very cautious with any product recommendation
+  posted: '2026-10-04'
+  feed_rank: 0
+  status: pending
+- id: dzhWnXrQRKc
+  title: 'remember… #skincare @Aylen Park'
+  creator: Dr. Neera Nathan
+  creator_slug: neera-nathan
+  credential: Board-certified dermatologist
+  channel: https://www.youtube.com/@dermatologysurgeon
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Runs a "Shop my Favorites" affiliate storefront (linktr.ee/dermatologysurgeon) that monetizes her product picks; no own-brand prod
+  posted: ''
+  feed_rank: 0
+  status: pending
+- id: '7692816503858564365'
+  title: Should we test the @KraveBeauty Mochi Barrier Cream or the @Ultra Vio...
+  creator: Ella (@your.estie.ella)
+  creator_slug: your-estie-ella
+  credential: Licensed esthetician (NOT a dermatologist or cosmetic chemist)
+  channel: https://www.tiktok.com/@your.estie.ella
+  platform: TikTok
+  tier: MED
+  product_recs: ok
+  conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan and reject any sponsored/affiliate/gifted video
+  posted: '2026-10-04'
+  feed_rank: 0
+  status: pending
+- id: '7692797526822358286'
+  title: Bonus treatments like these are absolutely the key to seeing results ...
+  creator: Ella (@your.estie.ella)
+  creator_slug: your-estie-ella
+  credential: Licensed esthetician (NOT a dermatologist or cosmetic chemist)
+  channel: https://www.tiktok.com/@your.estie.ella
+  platform: TikTok
+  tier: MED
+  product_recs: ok
+  conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan and reject any sponsored/affiliate/gifted video
+  posted: '2026-10-04'
   feed_rank: 1
   status: pending
