@@ -14,6 +14,7 @@
   {% if page_url %}<meta property="og:url" content="{{ page_url }}"><link rel="canonical" href="{{ page_url }}">{% endif %}
   <meta property="og:image" content="{{ og_image | default('https://ericries.github.io/skintiers/og/_default.png', true) }}">
   <meta name="twitter:card" content="summary_large_image">
+  {% if jsonld %}<script type="application/ld+json">{{ jsonld | safe }}</script>{% endif %}
   <link rel="alternate" type="application/rss+xml" title="SkinTiers — What's New" href="feed.xml">
   <link rel="alternate" type="application/json" title="SkinTiers — What's New" href="feed.json">
   <script>

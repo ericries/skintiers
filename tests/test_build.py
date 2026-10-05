@@ -1062,3 +1062,40 @@ def test_feed_related_links_every_appropriate_page(tmp_path):
     assert 'href="ghost-slug.html"' not in html
     # retinol (the embedded page) is not duplicated into the related list
     assert html.count('href="retinol.html"') == 1
+
+
+def test_build_emits_sitemap_and_robots(tmp_path):
+    # 1400+ pages with no crawl map is the site's biggest SEO gap.
+    data = tmp_path / "data"
+    out = tmp_path / "_site"
+    _write(data / "ingredients", "niacinamide", "published", "ingredient")
+    _write(data / "products", "serum", "draft", "product")
+    env = {**os.environ, "SK_DATA": str(data), "SK_OUTPUT": str(out)}
+    r = subprocess.run([sys.executable, str(ROOT / "build.py")], env=env,
+                       capture_output=True, text=True)
+    assert r.returncode == 0, r.stderr
+
+    sm = (out / "sitemap.xml").read_text()
+    assert sm.startswith("<?xml")
+    assert "<urlset" in sm
+    assert "niacinamide.html</loc>" in sm       # published page is listed
+    assert "serum.html</loc>" not in sm        # draft must NOT be advertised to crawlers
+    assert "<lastmod>2026-07-26</lastmod>" in sm   # uses the page's own updated date
+
+    rb = (out / "robots.txt").read_text()
+    assert "Sitemap:" in rb
+    assert "sitemap.xml" in rb
+
+
+def test_profile_and_video_pages_carry_jsonld(tmp_path):
+    # Structured data is what makes rich results possible; there was none.
+    data = tmp_path / "data"
+    out = tmp_path / "_site"
+    _write(data / "ingredients", "niacinamide", "published", "ingredient")
+    env = {**os.environ, "SK_DATA": str(data), "SK_OUTPUT": str(out)}
+    r = subprocess.run([sys.executable, str(ROOT / "build.py")], env=env,
+                       capture_output=True, text=True)
+    assert r.returncode == 0, r.stderr
+    html = (out / "niacinamide.html").read_text()
+    assert 'application/ld+json' in html
+    assert '"@type": "Article"' in html or '"@type":"Article"' in html

@@ -1,5 +1,18 @@
 {% extends "base.html" %}
-{% block title %}Feed — SkinTiers{% endblock %}
+{% block title %}Feed — SkinTiers<script>
+  document.addEventListener('click', function (e) {
+    var b = e.target.closest && e.target.closest('.vid-facade');
+    if (!b) return;
+    var f = document.createElement('iframe');
+    f.src = b.dataset.embed + '?autoplay=1';
+    f.title = b.getAttribute('aria-label') || 'Video';
+    f.setAttribute('frameborder', '0');
+    f.setAttribute('allowfullscreen', '');
+    f.setAttribute('allow', 'accelerometer; autoplay; encrypted-media; picture-in-picture; web-share');
+    b.replaceWith(f);
+  });
+</script>
+{% endblock %}
 {% block content %}
 <article>
   <div class="kicker"><span class="type-tag">Feed</span></div>
@@ -16,8 +29,8 @@
     <div class="vid">
       <div class="vid-head"><a class="vid-title" href="{{ v.url }}" rel="nofollow noopener" target="_blank">{{ v.title }}</a>{% if v.platform %}<span class="vid-plat">{{ v.platform }}</span>{% endif %}{% if v.page_slug %} <a class="vid-permalink" href="{{ v.page_slug }}.html">Video page</a>{% endif %}</div>
       <div class="vid-by">{% if v.posted %}<span class="vid-date">{{ v.posted }}</span> &middot; {% endif %}{% set ch = creator_href(v.creator_slug) %}{% if ch %}<a href="{{ ch }}">{{ v.creator }}</a>{% else %}{{ v.creator }}{% endif %}{% if v.credential %} &middot; {{ v.credential }}{% endif %}{% if v.sponsored %} &middot; <span class="vid-ad">sponsored post</span>{% endif %}</div>
-      {% if emb and emb.kind == 'youtube' %}<div class="vid-embed"><iframe src="{{ emb.src }}" title="{{ v.title }}" loading="lazy" frameborder="0" allow="accelerometer; encrypted-media; picture-in-picture; web-share" allowfullscreen></iframe></div>
-      {% elif emb and emb.kind == 'tiktok' %}<blockquote class="tiktok-embed" cite="{{ emb.cite }}" data-video-id="{{ emb.id }}"><section><a href="{{ emb.cite }}" target="_blank" rel="noopener">{{ v.title }}</a></section></blockquote>
+      {% if emb and emb.kind == 'youtube' %}<div class="vid-embed"><button class="vid-facade" type="button" data-embed="{{ emb.src }}" aria-label="Play video: {{ v.title }}"><img src="https://i.ytimg.com/vi/{{ emb.id }}/hqdefault.jpg" alt="" width="480" height="360" loading="lazy" decoding="async"><span class="vid-play" aria-hidden="true"></span></button></div>
+      {% elif emb and emb.kind == 'tiktok' %}<p class="vid-tt"><a href="{{ emb.cite }}" rel="nofollow noopener" target="_blank">Watch on TikTok</a>{% if v.page_slug %} or on its <a href="{{ v.page_slug }}.html">video page</a>{% endif %}</p>
       {% endif %}
       {% if v.thesis %}<p class="vid-thesis">{{ v.thesis }}</p>{% endif %}
       {% if v.note %}<p class="vid-note">{{ v.note }}</p>{% endif %}
@@ -29,5 +42,4 @@
   <p class="feed-foot">{{ cards|length - n_dated }} card{{ 's' if (cards|length - n_dated) != 1 else '' }} without a resolvable original post date are shown last.</p>
   {% endif %}
 </article>
-{% if needs_tiktok_js %}<script async src="https://www.tiktok.com/embed.js"></script>{% endif %}
 {% endblock %}

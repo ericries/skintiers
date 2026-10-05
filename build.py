@@ -1544,6 +1544,66 @@ ASSURANCE_TIPS = {
 }
 
 
+def render_sitemap(entries):
+    """XML sitemap for every PUBLISHED, crawlable page. Draft/stub profiles are
+    deliberately omitted: they render as link targets but must not be advertised
+    to crawlers as site content."""
+    rows = []
+    for loc, lastmod in sorted(entries):
+        row = f"  <url><loc>{_htmllib.escape(loc)}</loc>"
+        if lastmod:
+            row += f"<lastmod>{lastmod}</lastmod>"
+        rows.append(row + "</url>")
+    return ('<?xml version="1.0" encoding="UTF-8"?>\n'
+            '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+            + "\n".join(rows) + "\n</urlset>\n")
+
+
+def render_robots():
+    return ("User-agent: *\n"
+            "Allow: /\n"
+            f"Sitemap: {SITE_URL}/sitemap.xml\n")
+
+
+def jsonld_article(profile, page_url, desc):
+    """Article structured data for a profile page. Uses dateModified from the
+    page's own `updated`, and credits the site as publisher."""
+    import json as _json
+    d = {"@context": "https://schema.org", "@type": "Article",
+         "headline": profile.get("name") or profile.get("slug"),
+         "url": page_url, "mainEntityOfPage": page_url,
+         "publisher": {"@type": "Organization", "name": "SkinTiers"}}
+    if desc:
+        d["description"] = desc
+    if profile.get("updated"):
+        d["dateModified"] = str(profile["updated"])
+    if profile.get("analyzed"):
+        d["datePublished"] = str(profile["analyzed"])
+    return _json.dumps(d, indent=None)
+
+
+def jsonld_video(v, page_url, desc):
+    """VideoObject structured data for a video page: the single biggest rich-result
+    opportunity on the site, since every card already carries a real posting date,
+    a creator and a transcript-grounded thesis."""
+    import json as _json
+    emb = video_embed(v.get("url")) or {}
+    d = {"@context": "https://schema.org", "@type": "VideoObject",
+         "name": v.get("title") or "", "url": page_url}
+    if desc:
+        d["description"] = desc
+    if v.get("posted"):
+        d["uploadDate"] = str(v["posted"])
+    if emb.get("kind") == "youtube" and emb.get("id"):
+        d["thumbnailUrl"] = f"https://i.ytimg.com/vi/{emb['id']}/hqdefault.jpg"
+        d["embedUrl"] = emb["src"]
+    if v.get("url"):
+        d["contentUrl"] = v["url"]
+    if v.get("creator"):
+        d["author"] = {"@type": "Person", "name": v["creator"]}
+    return _json.dumps(d, indent=None)
+
+
 def build():
     env = Environment(loader=FileSystemLoader(str(sklib.TEMPLATES_DIR)), autoescape=True)
     env.globals["assurance_tip"] = lambda level: ASSURANCE_TIPS.get(level, "")
@@ -1654,6 +1714,8 @@ def build():
             page_desc=_plain_excerpt(standfirst),
             og_image=f"{SITE_URL}/og/{p['slug']}.png",
             og_type="article",
+            jsonld=jsonld_article(p.metadata, f"{SITE_URL}/{p['slug']}.html",
+                                  _plain_excerpt(standfirst)),
             standfirst=standfirst,
             body_main=body_main,
             sources_html=sources_html,
@@ -1779,6 +1841,8 @@ def build():
             v=v,
             page_url=f"{SITE_URL}/{v['page_slug']}.html",
             page_desc=_plain_excerpt(v.get("thesis") or ""),
+            jsonld=jsonld_video(v, f"{SITE_URL}/{v['page_slug']}.html",
+                                _plain_excerpt(v.get("thesis") or "")),
             person_slug=cs if cs in person_slugs else None,
             needs_tiktok_js=(video_embed(v.get("url")) or {}).get("kind") == "tiktok"))
 
@@ -1805,6 +1869,22 @@ def build():
         images = sklib.STATIC_DIR / "images"
         if images.is_dir():
             shutil.copytree(images, out / "images", dirs_exist_ok=True)
+    # Crawl map. Profiles contribute their own `updated` as <lastmod>; generated
+    # hubs (listings, feed, video and creator pages) are listed without one.
+    _sm = set()
+    _drafted_slugs = {p["slug"] for p in profiles if p.get("status") != "published"}
+    _pub_updated = {p["slug"]: str(p.get("updated") or "")
+                    for p in profiles if p.get("status") == "published"}
+    for f in sorted(out.glob("*.html")):
+        name = f.stem
+        if name == "404":
+            continue
+        if name in _drafted_slugs:
+            continue
+        _sm.add((f"{SITE_URL}/{f.name}", _pub_updated.get(name, "")))
+    (out / "sitemap.xml").write_text(render_sitemap(_sm))
+    (out / "robots.txt").write_text(render_robots())
+
     print(f"built {len(profiles)} profiles -> {out}")
     # Ship-live backstop: a committed page the critic cleared ('publish') but that
     # is still status:draft never reaches the site. Warn loudly (in CI logs too) so
