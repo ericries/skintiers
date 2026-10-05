@@ -3,6 +3,13 @@ analyzed: '2026-10-05'
 assurance: sonnet
 brand: Cos De BAHA
 category: Treatments
+images:
+- file: cos-de-baha-az15-azelaic-acid-15-serum-brand.jpg
+  source: Cos De BAHA (official store)
+  source_url: https://cosdebahaofficial.com/products/az15
+- file: cos-de-baha-az15-azelaic-acid-15-serum-brand-texture.jpg
+  source: Cos De BAHA (official store)
+  source_url: https://cosdebahaofficial.com/products/az15
 comparator: other over-the-counter azelaic acid products graded on [[best-azelaic-acid-products]],
   and the prescription azelaic gel on [[finacea-azelaic-acid-15-gel]]
 grades:
