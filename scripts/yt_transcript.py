@@ -91,6 +91,26 @@ def parse_vtt(text):
     return re.sub(r"\s+", " ", " ".join(lines)).strip()
 
 
+class RateLimited(RuntimeError):
+    """yt-dlp was rate-limited or bot-blocked (HTTP 429 / "Sign in to confirm").
+
+    Distinct from "this video has no captions": a rate-limited probe tells us
+    NOTHING about whether captions exist, so it must never be cached as a
+    negative. Caching it was a real bug: a single throttled afternoon poisoned
+    the cache for every later run, which then spent calls re-verifying a false
+    negative."""
+
+
+_RATE_LIMIT_SIGNS = ("http error 429", "too many requests",
+                     "sign in to confirm", "confirm you\u2019re not a bot",
+                     "confirm you're not a bot")
+
+
+def _is_rate_limited(stderr):
+    s = (stderr or "").lower()
+    return any(sign in s for sign in _RATE_LIMIT_SIGNS)
+
+
 def _run(args):
     # Optionally pass browser cookies to yt-dlp to clear YouTube's rate-limit /
     # bot-detection (HTTP 429 "Sign in to confirm you're not a bot"). Set
@@ -123,13 +143,17 @@ def _download_subs(url, langs, auto, workdir):
     """Ask yt-dlp for one caption file (json3 preferred, VTT fallback); return
     (path, ext) or (None, None). Covers YouTube (json3) and TikTok (vtt)."""
     flag = "--write-auto-subs" if auto else "--write-subs"
-    _run(["yt-dlp", "--skip-download", "--no-warnings", flag,
-          "--sub-langs", langs, "--sub-format", "json3/vtt/best",
-          "-o", os.path.join(workdir, "%(id)s.%(ext)s"), url])
+    proc = _run(["yt-dlp", "--skip-download", "--no-warnings", flag,
+                 "--sub-langs", langs, "--sub-format", "json3/vtt/best",
+                 "-o", os.path.join(workdir, "%(id)s.%(ext)s"), url])
     for ext in ("json3", "vtt"):
         files = sorted(glob.glob(os.path.join(workdir, f"*.{ext}")))
         if files:
             return files[0], ext
+    # No file. Only now does stderr matter: distinguish "throttled, unknown" from
+    # "genuinely has no captions", because only the latter is safe to cache.
+    if _is_rate_limited(getattr(proc, "stderr", "")):
+        raise RateLimited((proc.stderr or "").strip().splitlines()[-1][:200])
     return None, None
 
 
@@ -157,18 +181,25 @@ def fetch_transcript(url, refresh=False):
             return {**json.load(f), "cached": True}
 
     meta = video_meta(url)
-    with tempfile.TemporaryDirectory() as d:
-        # Prefer creator-provided subs; fall back to auto-captions.
-        path, ext = _download_subs(url, _MANUAL_LANGS, auto=False, workdir=d)
-        source = "manual"
-        if not path:
-            path, ext = _download_subs(url, _AUTO_LANGS, auto=True, workdir=d)
-            source = "auto"
-        if not path:
-            result = {**meta, "has_transcript": False, "source": None, "text": ""}
-        else:
-            text = _parse_sub_file(path, ext)
-            result = {**meta, "has_transcript": bool(text), "source": source, "text": text}
+    try:
+        with tempfile.TemporaryDirectory() as d:
+            # Prefer creator-provided subs; fall back to auto-captions.
+            path, ext = _download_subs(url, _MANUAL_LANGS, auto=False, workdir=d)
+            source = "manual"
+            if not path:
+                path, ext = _download_subs(url, _AUTO_LANGS, auto=True, workdir=d)
+                source = "auto"
+            if not path:
+                result = {**meta, "has_transcript": False, "source": None, "text": ""}
+            else:
+                text = _parse_sub_file(path, ext)
+                result = {**meta, "has_transcript": bool(text), "source": source,
+                          "text": text}
+    except RateLimited as e:
+        # Deliberately NOT cached, and flagged so a caller can stop after one call
+        # instead of probing every candidate in the batch.
+        return {**meta, "has_transcript": False, "source": None, "text": "",
+                "rate_limited": True, "error": str(e), "cached": False}
 
     if vid:  # write to the verbatim cache (json canonical + txt for reading)
         TRANSCRIPT_CACHE.mkdir(parents=True, exist_ok=True)
@@ -192,6 +223,14 @@ def main(argv=None):
         return 0
     print(f"{result['title']}  [{result['channel'] or result['uploader']}]")
     print(f"{result['url']}  ({result['duration']}s){'  [cached]' if result.get('cached') else ''}")
+    if result.get("rate_limited"):
+        # Exit 2, not 1: the platform throttled us, so this says nothing about
+        # whether captions exist. Nothing was cached. A batch should STOP here
+        # rather than probe its remaining candidates and collect false negatives.
+        print("\nRATE LIMITED by the platform (not cached, caption status unknown)."
+              "\nStop this batch and retry later; do not mark the video as "
+              "transcript-less.\n" + (result.get("error") or ""))
+        return 2
     if not result["has_transcript"]:
         print("\nNO ENGLISH TRANSCRIPT AVAILABLE — do not cite this video.")
         return 1

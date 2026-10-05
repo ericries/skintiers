@@ -82,3 +82,26 @@ def test_video_id_tiktok_and_generic():
     h = yt_transcript.video_id("https://example.com/some/video")
     assert h and h.startswith("url-")
     assert yt_transcript.video_id("https://example.com/some/video") == h  # stable
+
+
+def test_rate_limit_is_distinguished_from_absent_captions(monkeypatch, tmp_path):
+    """A 429 and 'this video has no captions' both used to yield has_transcript:
+    False, and the negative was CACHED, so every later tick re-read a false
+    negative and burned calls re-verifying it. They must be distinct, and a
+    rate-limited result must never be cached."""
+    import importlib
+    monkeypatch.setenv("SK_RESEARCH_CACHE", str(tmp_path))
+    yt = importlib.reload(importlib.import_module("yt_transcript"))
+
+    monkeypatch.setattr(yt, "video_meta", lambda url: {
+        "id": "vid123", "title": "T", "uploader": "U", "channel": "C",
+        "duration": 60, "url": url, "posted": "2026-01-01"})
+    # yt-dlp fails with YouTube's rate-limit signature
+    monkeypatch.setattr(yt, "_download_subs",
+                        lambda *a, **k: (_ for _ in ()).throw(yt.RateLimited("HTTP Error 429")))
+
+    r = yt.fetch_transcript("https://www.youtube.com/watch?v=vid123")
+    assert r.get("rate_limited") is True
+    assert r.get("has_transcript") is False
+    assert not (tmp_path / "transcripts" / "vid123.json").exists(), \
+        "a rate-limited probe must not be cached as a negative"
