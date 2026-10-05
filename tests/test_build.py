@@ -1221,3 +1221,24 @@ def test_emits_llms_txt_following_the_spec(tmp_path):
     # it must carry the two traps an agent most needs to know up front
     assert "key_actives" in txt
     assert "effect" in txt and "evidence" in txt
+
+
+def test_public_conflict_strips_internal_operator_directives():
+    """Roster `conflict:` strings are written for the maintaining agent and often
+    end in an instruction ("... - skip videos mainly promoting her own products").
+    The disclosure belongs on the public page; the instruction does not."""
+    import importlib, sys as _sys, pathlib as _pl
+    _sys.path.insert(0, str(_pl.Path(__file__).resolve().parents[1]))
+    build = importlib.import_module("build")
+    f = build.public_conflict
+    assert f("founder of the Prequel skincare brand - skip videos mainly promoting her own products") \
+        == "Founder of the Prequel skincare brand."
+    assert f("runs an affiliate storefront - be cautious treating product picks as unbiased endorsements") \
+        == "Runs an affiliate storefront."
+    # no directive: kept whole, just tidied
+    assert f("Recurring paid partnerships with several brands") \
+        == "Recurring paid partnerships with several brands."
+    # a legitimate hyphenated clause must survive
+    assert "Chief Medical Officer" in f(
+        "Chief Medical Officer of hair-growth-serum brand REYUS; advisory-board member of Bubble Skincare")
+    assert f("") == "" and f(None) == ""

@@ -66,7 +66,7 @@
       {% if creator_video_count %} {{ creator_video_count }} video{{ 's' if creator_video_count != 1 }} from this creator {{ 'are' if creator_video_count != 1 else 'is' }} cited here.{% endif %}
     </p>
     {% if creator_meta.conflict %}
-    <p class="vid-conflict"><span class="vid-conflict-label">Disclosed conflicts</span> {{ creator_meta.conflict }}</p>
+    <p class="vid-conflict"><span class="vid-conflict-label">Disclosed conflicts</span> {{ public_conflict(creator_meta.conflict) }}</p>
     {% endif %}
     {% if creator_meta.product_recs == 'restricted' or creator_meta.product_recs == 'None' %}
     <p class="vid-conflict-note">Because of that, this creator's product picks are not treated as independent recommendations here; only their educational explanation is.</p>

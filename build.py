@@ -1731,6 +1731,28 @@ def jsonld_video(v, page_url, desc):
     return _json.dumps(d, indent=None)
 
 
+# Roster `conflict:` strings are authored for the maintaining agent, so many end in
+# an instruction to it ("... - skip videos mainly promoting her own products"). The
+# DISCLOSURE is exactly what a reader should see; the INSTRUCTION is internal process
+# language and leaked onto public person pages until this filter existed.
+_OPERATOR_DIRECTIVE = re.compile(
+    r"^(skip|prefer|strongly prefer|be very cautious|be cautious|treat|still run|"
+    r"do not|don't|avoid|use)\b", re.I)
+
+
+def public_conflict(text):
+    """The reader-facing part of a roster conflict note: disclosure kept, operator
+    instructions dropped, trailing punctuation normalised to a single period."""
+    if not text:
+        return ""
+    parts = [s.strip() for s in str(text).split(" - ")]
+    kept = [p for p in parts if p and not _OPERATOR_DIRECTIVE.match(p)]
+    out = " - ".join(kept).strip(" ;,.")
+    if not out:
+        return ""
+    return out[0].upper() + out[1:] + "."
+
+
 def load_creator_roster():
     """creator_slug -> {name, credential, tier, conflict, channel, product_recs}
     from data/video-sources.yaml.
@@ -1866,6 +1888,7 @@ def build():
 
     env.globals["video_href"] = video_href
     env.globals["creator_href"] = creator_href
+    env.globals["public_conflict"] = public_conflict
 
     for p in profiles:
         linked = sklib.linkify_xrefs(p.content, slugs, names)
@@ -1908,8 +1931,20 @@ def build():
         cvids = creator_videos.get(p["slug"], []) if p.get("type") == "person" else []
         render_og_image(out / "og", p["slug"], p.metadata.get("name") or p["slug"],
                         _TYPE_SINGULAR.get(p.get("type"), (p.get("type") or "").title()))
+        _ptype = p.get("type")
+        _plural = {"product": "products", "ingredient": "ingredients",
+                   "condition": "conditions", "goal": "goals", "list": "lists",
+                   "study": "studies", "person": "people", "brand": "brands"}.get(_ptype)
+        _pcrumbs = [("SkinTiers", "index.html")]
+        if _plural:
+            _pcrumbs.append((_plural.title(), f"{_plural}.html"))
         html = env.get_template("profile.html").render(
             profile=p.metadata,
+            breadcrumbs=_pcrumbs,
+            jsonld_extra=jsonld_breadcrumb(
+                [(n, f"{SITE_URL}/{h}") for n, h in _pcrumbs]
+                + [(p.metadata.get("name") or p["slug"], f"{SITE_URL}/{p['slug']}.html")]),
+            creator_meta=(creator_roster.get(p["slug"]) or {}) if _ptype == "person" else {},
             page_url=f"{SITE_URL}/{p['slug']}.html",
             page_desc=_plain_excerpt(standfirst),
             og_image=f"{SITE_URL}/og/{p['slug']}.png",

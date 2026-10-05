@@ -24,7 +24,7 @@
       {% if creator_meta.tier == 'HIGH' %} Vetted as a high-credibility source, so their non-sponsored product recommendations are usable as well as their explanations.{% elif creator_meta.tier == 'MED' %} Vetted as a mid-tier source, so product recommendations get extra scrutiny and educational content is preferred.{% endif %}
     </p>
     {% if creator_meta.conflict %}
-    <p class="vid-conflict"><span class="vid-conflict-label">Disclosed conflicts</span> {{ creator_meta.conflict }}</p>
+    <p class="vid-conflict"><span class="vid-conflict-label">Disclosed conflicts</span> {{ public_conflict(creator_meta.conflict) }}</p>
     {% endif %}
     {% if creator_meta.product_recs == 'restricted' or creator_meta.product_recs == 'None' %}
     <p class="vid-conflict-note">Their product picks are not treated as independent recommendations here; only their educational explanation is.</p>

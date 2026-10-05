@@ -2,6 +2,14 @@
 {% block title %}{{ profile.name }} — SkinTiers{% endblock %}
 {% block content %}
 <article>
+  {% if breadcrumbs %}
+  <nav class="crumbs" aria-label="Breadcrumb">
+    <ol>
+      {% for name, href in breadcrumbs %}<li><a href="{{ href }}">{{ name }}</a></li>{% endfor %}
+      <li aria-current="page">{{ (profile.name or profile.slug)|truncate(44, true, '...') }}</li>
+    </ol>
+  </nav>
+  {% endif %}
   <div class="kicker">
     <a class="type-tag" href="{{ type_href }}">{{ profile.type | capitalize }}</a>
     <span class="status status-{{ profile.status }}">{{ profile.status }}</span>
@@ -18,6 +26,22 @@
     <h1>{{ profile.name }}</h1>
     {% if standfirst %}<p class="standfirst">{{ standfirst | safe }}</p>{% endif %}
   </div>
+
+  {% if creator_meta.conflict or creator_meta.tier %}
+  <div class="vid-creator">
+    <p class="vid-creator-line">
+      {% if creator_meta.credential %}<strong>{{ creator_meta.credential }}</strong>.{% endif %}
+      {% if creator_meta.tier == 'HIGH' %} Vetted as a high-credibility source, so their non-sponsored product recommendations are usable here as well as their explanations.{% elif creator_meta.tier == 'MED' %} Vetted as a mid-tier source, so product recommendations get extra scrutiny and educational content is preferred.{% endif %}
+    </p>
+    {% if creator_meta.conflict %}
+    <p class="vid-conflict"><span class="vid-conflict-label">Disclosed conflicts</span> {{ public_conflict(creator_meta.conflict) }}</p>
+    {% endif %}
+    {% if creator_meta.product_recs == 'restricted' or creator_meta.product_recs == 'None' %}
+    <p class="vid-conflict-note">Their product picks are not treated as independent recommendations here; only their educational explanation is.</p>
+    {% endif %}
+    <p class="vid-more"><a href="{{ profile.slug }}-videos.html">Every video from {{ profile.name }} cited here</a> &middot; <a href="method.html">How videos are vetted</a></p>
+  </div>
+  {% endif %}
 
   {% if evidence_levels %}
   <section class="evlevels" aria-label="How strong is the evidence">
