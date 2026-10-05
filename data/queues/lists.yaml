@@ -245,3 +245,10 @@
   status: done
   discovered_from: null
   source: null
+- name: Best gentle cleansers for sensitive skin by evidence (syndet vs soap vs sulfate)
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: sodium-cocoyl-isethionate
+  source: Grounded in Tupker 1999 PMID 10385334 irritancy ranking; site has cetaphil-gentle-skin-cleanser,
+    vanicream-z-bar, coco-betaine, cocamidopropyl-betaine

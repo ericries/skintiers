@@ -1508,7 +1508,7 @@
     bars (e.g. Dove) as a gentler alternative to soap
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://incidecoder.com/ingredients/sodium-cocoyl-isethionate
 - name: 'Lauryl glucoside sister: caprylyl/capryl glucoside, alkyl polyglucoside co-surfactant
@@ -1837,3 +1837,17 @@
   status: pending
   discovered_from: systemic-atopic-dermatitis-treatments-by-evidence
   source: IL-13 biologic for atopic dermatitis; in NMA PMID 41919337
+- name: Sodium Lauryl Sulfate (SLS)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: sodium-cocoyl-isethionate
+  source: The reference irritant in Tupker 1999 PMID 10385334 and Ghosh 2007 PMID
+    17598025; referenced by name on sodium-cocoyl-isethionate but has no page
+- name: Disodium Lauryl Sulfosuccinate
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: sodium-cocoyl-isethionate
+  source: Mildest of the four anionic detergents ranked in Tupker 1999 PMID 10385334,
+    milder than SCI

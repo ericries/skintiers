@@ -7726,3 +7726,13 @@ systemic-atopic-dermatitis-treatments-by-evidence:
   score: 8
   verdict: publish
   note: 'Main-loop self-verify. All 22 quotes machine-checked verbatim (0 unverified) against a freshly fetched PMID 41919337 abstract plus the already-verified on-site Ronnstad study page and the two JAK drug pages. Scoped the list honestly: tier_list slugs must be published pages, so only upadacitinib and abrocitinib are graded; baricitinib, dupilumab and the IL-13 biologics are recorded in tier_list_reviewed and named in prose so the incompleteness is explicit rather than implied. Refused to rank JAK real-world percentages against biologic trial percentages on one axis. Frontmatter rewritten via yaml.safe_dump after the recurring hand-written colon-space YAML break.'
+tirtir-azelaic-acid-12-serum:
+  last_reviewed: '2026-10-05'
+  score: 8
+  verdict: publish
+  note: Main-loop self-verify (no Opus critic; standing no-subagent instruction). All 21 quotes machine-checked verbatim against the cached brand JSON with HTML tags stripped, 0 unverified; fixed four inexact quotes found that way (missing trademark symbol, a slash-joined bullet list, a lowercased phrase, and two of my own hypotheticals that read as quotes). Caught and removed an incidecoder footnote (aggregator; inline attribution only per site rule) and recited the INCI positions to the brand page. Graded mixed not solid because 12% sits BELOW the 15/20% trial range, a wider transfer gap than the sibling 15% serums.
+sodium-cocoyl-isethionate:
+  last_reviewed: '2026-10-05'
+  score: 8
+  verdict: publish
+  note: 'Main-loop self-verify (no critic; standing no-subagent instruction). 17 quotes machine-checked verbatim against freshly fetched PMID 17598025 + 10385334 abstracts; the one elided quote had both halves confirmed present. Corrected my own overcount (''all four rankings'' -> ''both stated rank orders'') and removed a dead [[sodium-lauryl-sulfate]] link. tier: mid, matching the rubric: no skin benefit of its own, but real human comparative irritancy data plus a mechanistic study, which places it above coco-betaine (weak, two case reports). Headline finding kept honest: SCI beats SLS in every model but ties with plain soap under the repeated-open test the authors call most realistic, and was not the mildest detergent tested.'
