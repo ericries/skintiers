@@ -668,10 +668,10 @@ best-aha-exfoliant-products:
   score: 9
   verdict: publish
 best-azelaic-acid-products:
-  last_reviewed: '2026-07-31'
-  note: List stub filled (daily list cron; Sonnet draft + orchestrator self-check, no Opus critic per the low-risk-type protocol; assurance=sonnet). Ranks the 3 PUBLISHED azelaic products by labeled strength vs the studied prescription doses (Cos De BAHA 20% = AZELEX strength top tier; Anua 10% + The Ordinary 10% milder tier); excluded the Paula's Choice stub. Health uses (rosacea/acne/melasma) separated from cosmetic marketing; states no product-specific trials exist and 20% is a label claim not an assayed figure. Sources are the FDA DailyMed labels + Verallo-Rowell melasma RCT already used on the linked pages. lint+verify+style+voice clean; footnotes intact.
+  last_reviewed: '2026-10-05'
   score: 8
-  verdict: self-reviewed
+  verdict: publish
+  note: 'Absence-claim fix from external agent feedback (feedback/2026-10-04_21-09-08). The list asserted "No cosmetic azelaic acid product has been tested in its own clinical trial", which quantifies over an entire market and cannot be verified. Rescoped to what was actually searched: none of the products ranked here has a trial of its own, none was identified in the evidence reviewed, and that is explicitly a statement about what was found rather than proof none exists. Also added a narrow category-wide lint rule (sklib.check_category_absence) so this phrasing class is caught in future; it exempts correctly-scoped forms, verified against the two sibling lists that say "no product here" and "no product in this tier".'
 best-benzoyl-peroxide-products:
   last_reviewed: '2026-08-30'
   note: 'LIST wave2. Best-of BPO acne products. Opus critic (9): all 6 slugs resolve, Twyneo (PMID 37356627)/Kawashima (28295516) verbatim; attached 2 orphaned footnotes. Retinoid+BPO combos top, 10% wash last (irritation w/o added efficacy). Main-loop: kawashima URL + AI-ese. No dashes. Opus critic inline (workflow pipeline); assurance opus.'

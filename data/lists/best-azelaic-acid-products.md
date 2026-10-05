@@ -6,7 +6,7 @@ name: The Best Azelaic Acid Products (by Concentration and Evidence)
 slug: best-azelaic-acid-products
 status: published
 type: list
-updated: '2026-07-31'
+updated: '2026-10-05'
 tier_list:
   title: "Azelaic acid products by evidence"
   by: "overall evidence for the product's stated skin benefits"
@@ -18,7 +18,7 @@ tier_list:
 
 Azelaic acid has controlled evidence for papulopustular rosacea, inflammatory acne, and melasma, established at prescription strengths: a 15% gel (FINACEA) and a 20% cream (AZELEX); see [[azelaic-acid]].[^1][^2]
 
-> No cosmetic azelaic acid product has been tested in its own clinical trial. The order below reflects how closely each product's labeled strength matches the doses behind azelaic acid's rosacea, acne, and melasma evidence, not a head-to-head comparison of these three formulas.
+> None of the cosmetic azelaic acid products ranked here has a trial of its own, and no such trial was identified in the evidence reviewed for this page. That is a statement about what was found, not proof that none exists anywhere. The order below reflects how closely each product's labeled strength matches the doses behind azelaic acid's rosacea, acne, and melasma evidence, not a head-to-head comparison of these three formulas.
 
 ## Labeled 20%: matches the studied cream strength
 

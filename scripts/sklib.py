@@ -447,6 +447,36 @@ _VOICE_PATTERNS = [
 ]
 
 
+
+# The category-wide cousin of the absence rule. "No published trial has tested this
+# exact cream" is checkable: one product, one literature search. "No cosmetic azelaic
+# acid PRODUCT has been tested in its own clinical trial" quantifies over an entire
+# market and cannot be verified; the azelaic best-of list asserted exactly that.
+# Scoped versions ("no product HERE", "no product IN THIS TIER") are fine, so the
+# scope test is done per sentence in Python: a negative lookahead with a variable
+# lazy prefix backtracks into always succeeding, which silently disabled the rule.
+_CATEGORY_ABSENCE = re.compile(
+    r"\bno\b[^.]{0,40}?\b(?:product|products|cosmetic|cosmetics|formulation|"
+    r"formulations|brand|brands)\b[^.]{0,40}?(?:has|have)\b[^.]{0,30}?"
+    r"(?:been tested|its own)\b[^.]{0,25}?(?:trial|study)", re.I)
+_ABSENCE_SCOPED = re.compile(
+    r"\b(here|in this|on this|ranked|listed|below|above|in the evidence reviewed|"
+    r"identified)\b", re.I)
+
+
+def check_category_absence(content):
+    """One WARNING if any sentence makes an unscoped category-wide absence claim."""
+    body = _style_body(content)
+    for sentence in re.split(r"(?<=[.!?])\s+", body):
+        if _CATEGORY_ABSENCE.search(sentence) and not _ABSENCE_SCOPED.search(sentence):
+            return ["category-wide absence claim ('no cosmetic X product has been "
+                    "tested'); this quantifies over a whole market and cannot be "
+                    "verified. Scope it to the search actually done, e.g. 'none of "
+                    "the products ranked here has a trial of its own' or 'no such "
+                    "trial was identified in the evidence reviewed'"]
+    return []
+
+
 def check_voice(content):
     """Advisory house-voice warnings for a markdown body (excludes ## Sources).
 
@@ -459,6 +489,7 @@ def check_voice(content):
     for pat, msg in _VOICE_PATTERNS:
         if pat.search(body):
             warnings.append(msg)
+    warnings += check_category_absence(content)
     return warnings
 
 
