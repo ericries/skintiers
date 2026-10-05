@@ -1099,3 +1099,31 @@ def test_profile_and_video_pages_carry_jsonld(tmp_path):
     html = (out / "niacinamide.html").read_text()
     assert 'application/ld+json' in html
     assert '"@type": "Article"' in html or '"@type":"Article"' in html
+
+
+def test_feed_has_filter_controls_and_facades(tmp_path):
+    # The Feed is the site's one firehose page; without filtering it is a wall,
+    # and with eager iframes it is unusable on mobile.
+    data = tmp_path / "data"
+    out = tmp_path / "_site"
+    d = data / "ingredients"
+    d.mkdir(parents=True, exist_ok=True)
+    (d / "niacinamide.md").write_text(
+        "---\nname: Niacinamide\nslug: niacinamide\ntype: ingredient\n"
+        "status: published\nupdated: 2026-07-26\nanalyzed: 2026-07-26\n"
+        "videos:\n"
+        "- title: A talk\n  creator: Dr Test\n  creator_slug: dr-test\n"
+        "  credential: Dermatologist\n  platform: YouTube\n"
+        "  url: https://www.youtube.com/watch?v=abc12345678\n"
+        "  posted: '2026-07-01'\n  thesis: A grounded thesis.\n"
+        "---\n\nBody.\n")
+    env = {**os.environ, "SK_DATA": str(data), "SK_OUTPUT": str(out)}
+    r = subprocess.run([sys.executable, str(ROOT / "build.py")], env=env,
+                       capture_output=True, text=True)
+    assert r.returncode == 0, r.stderr
+    feed = (out / "feed.html").read_text()
+    assert 'id="feed-q"' in feed                 # free-text filter
+    assert 'id="feed-creator"' in feed           # creator filter
+    assert 'data-creator="dr-test"' in feed      # cards are filterable
+    assert "vid-facade" in feed                  # click-to-play, not an eager iframe
+    assert "<iframe" not in feed

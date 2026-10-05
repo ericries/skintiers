@@ -11,6 +11,36 @@
     f.setAttribute('allow', 'accelerometer; autoplay; encrypted-media; picture-in-picture; web-share');
     b.replaceWith(f);
   });
+
+  (function () {
+    var q = document.getElementById('feed-q'),
+        cs = document.getElementById('feed-creator'),
+        ps = document.getElementById('feed-plat'),
+        list = document.getElementById('feed-list'),
+        out = document.getElementById('feed-count');
+    if (!q || !list) return;
+    var cards = Array.prototype.slice.call(list.querySelectorAll('.vid'));
+    cards.forEach(function (c) { c.dataset.hay = (c.textContent || '').toLowerCase(); });
+    function apply() {
+      var term = q.value.trim().toLowerCase(),
+          cv = cs.value, pv = ps.value, shown = 0;
+      cards.forEach(function (c) {
+        var ok = (!cv || c.dataset.creator === cv) &&
+                 (!pv || c.dataset.plat === pv) &&
+                 (!term || c.dataset.hay.indexOf(term) !== -1);
+        c.hidden = !ok;
+        if (ok) shown++;
+      });
+      out.textContent = shown === cards.length
+        ? cards.length + ' videos'
+        : 'Showing ' + shown + ' of ' + cards.length + ' videos';
+    }
+    [q, cs, ps].forEach(function (el) {
+      el.addEventListener('input', apply);
+      el.addEventListener('change', apply);
+    });
+    apply();
+  })();
 </script>
 {% endblock %}
 {% block content %}
@@ -23,10 +53,23 @@
     </div>
   </div>
 
-  <section class="vids feed">
+  <form class="feed-filter" role="search" aria-label="Filter the feed" onsubmit="return false">
+    <input id="feed-q" type="search" placeholder="Filter by topic, creator or claim" aria-label="Filter by topic, creator or claim" autocomplete="off">
+    <select id="feed-creator" aria-label="Filter by creator">
+      <option value="">All creators</option>
+      {% for c in cards|map(attribute='creator_slug')|select|unique|sort %}<option value="{{ c }}">{{ c.replace('-', ' ')|title }}</option>{% endfor %}
+    </select>
+    <select id="feed-plat" aria-label="Filter by platform">
+      <option value="">All platforms</option>
+      {% for pl in cards|map(attribute='platform')|select|unique|sort %}<option value="{{ pl }}">{{ pl }}</option>{% endfor %}
+    </select>
+    <p class="feed-count" id="feed-count" aria-live="polite"></p>
+  </form>
+
+  <section class="vids feed" id="feed-list">
     {% for v in cards %}
     {% set emb = video_embed(v.url) %}
-    <div class="vid">
+    <div class="vid" data-creator="{{ v.creator_slug or '' }}" data-plat="{{ v.platform or '' }}">
       <div class="vid-head"><a class="vid-title" href="{{ v.url }}" rel="nofollow noopener" target="_blank">{{ v.title }}</a>{% if v.platform %}<span class="vid-plat">{{ v.platform }}</span>{% endif %}{% if v.page_slug %} <a class="vid-permalink" href="{{ v.page_slug }}.html">Video page</a>{% endif %}</div>
       <div class="vid-by">{% if v.posted %}<span class="vid-date">{{ v.posted }}</span> &middot; {% endif %}{% set ch = creator_href(v.creator_slug) %}{% if ch %}<a href="{{ ch }}">{{ v.creator }}</a>{% else %}{{ v.creator }}{% endif %}{% if v.credential %} &middot; {{ v.credential }}{% endif %}{% if v.sponsored %} &middot; <span class="vid-ad">sponsored post</span>{% endif %}</div>
       {% if emb and emb.kind == 'youtube' %}<div class="vid-embed"><button class="vid-facade" type="button" data-embed="{{ emb.src }}" aria-label="Play video: {{ v.title }}"><img src="https://i.ytimg.com/vi/{{ emb.id }}/hqdefault.jpg" alt="" width="480" height="360" loading="lazy" decoding="async"><span class="vid-play" aria-hidden="true"></span></button></div>
