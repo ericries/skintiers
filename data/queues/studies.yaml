@@ -1152,3 +1152,10 @@
   discovered_from: upadacitinib
   source: PMID 41296263 Am J Clin Dermatol; already cited on upadacitinib, grounds
     abrocitinib/baricitinib too
+- name: 'Xiong 2026: network meta-analysis of targeted systemic therapies for moderate-to-severe
+    atopic dermatitis (33 phase 3-4 RCTs, 16334 participants; PMID 41919337)'
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: systemic-atopic-dermatitis-treatments-by-evidence
+  source: https://pubmed.ncbi.nlm.nih.gov/41919337/

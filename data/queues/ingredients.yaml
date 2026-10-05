@@ -1818,3 +1818,22 @@
   source: The shampoo active in Iijima 2026 (PMID 41488827); a potent topical corticosteroid
     with no page, and the site currently has no entry for the corticosteroid class
     that PFB and seborrheic-dermatitis reviews list among treatments
+- name: Dupilumab (Dupixent)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: systemic-atopic-dermatitis-treatments-by-evidence
+  source: Both JAK FDA labels defer to biologics; named in NMA PMID 41919337. Biggest
+    coverage gap on this list.
+- name: Lebrikizumab (Ebglyss)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: systemic-atopic-dermatitis-treatments-by-evidence
+  source: IL-13 biologic for atopic dermatitis; in NMA PMID 41919337
+- name: Tralokinumab (Adbry)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: systemic-atopic-dermatitis-treatments-by-evidence
+  source: IL-13 biologic for atopic dermatitis; in NMA PMID 41919337
