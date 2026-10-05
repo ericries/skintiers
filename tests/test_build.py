@@ -343,7 +343,9 @@ def test_routine_dashboard_aggregates_from_products(tmp_path):
     treat = cat["p"][code_of["treatment"]]
     assert treat["t"] == "top" and set(treat["a"]) == {"azelaic-acid", "niacinamide"}
     assert cat["i"]["niacinamide"]["n"] == "Niacinamide"
-    assert [n[0] for n in cat["notable"]] == ["Retinoid", "Vitamin C", "Niacinamide", "Exfoliant"]
+    # "or alternative" because the family includes bakuchiol, which is not a retinoid
+    assert [n[0] for n in cat["notable"]] == ["Retinoid or alternative", "Vitamin C",
+                                              "Niacinamide", "Exfoliant"]
     # the registry was written under the tmp data dir, NOT the real one
     assert (data / "routine-codes.yaml").exists()
     # routines index surfaces the dashboard as a card
@@ -353,7 +355,8 @@ def test_routine_dashboard_aggregates_from_products(tmp_path):
     my = (out / "myroutine.html").read_text()
     assert "Open this routine in the builder" in my
     assert 'href="r1/a02/p1"' in my
-    assert "Retinoid" in rj["absent"]                    # common actives the routine lacks
+    # "not listed in indexed actives", not "does not contain": key_actives is an index
+    assert "Retinoid or alternative" in rj["absent"]
     assert "Niacinamide" not in rj["absent"]             # present -> not listed
     assert rj["serves_slugs"] == ["acne"]
     # rendered dashboard
@@ -362,7 +365,7 @@ def test_routine_dashboard_aggregates_from_products(tmp_path):
     assert "Moderate" in html                            # composite strength word rendered
     assert "how well it works" in html
     assert 'class="rd-x"' in html                        # x2 badge on the layered active
-    assert "Does not contain" in html                    # absent row present
+    assert "Not in indexed actives" in html                    # absent row present
     assert "rd-chip-absent" in html
     assert 'href="azelaic-acid.html"' in html            # active-ingredient chip links out
     assert 'href="acne.html"' in html                    # "good for" chip
@@ -1175,3 +1178,22 @@ def test_video_pages_are_definitive_and_disclose_creator_conflicts(tmp_path):
     creator = (out / "dr-test-videos.html").read_text()
     assert "Founder of an own-brand skincare line" in creator
     assert 'class="crumbs"' in creator
+
+
+def test_absence_is_reported_as_not_indexed_not_as_does_not_contain(tmp_path):
+    """key_actives is a selected editorial index, not a full ingredient
+    declaration, so a routine dashboard must not claim a product "does not
+    contain" something on the strength of that index alone. It must also not
+    report bakuchiol as a retinoid: bakuchiol.md says it is not a vitamin A
+    derivative and sits nowhere on the retinoid pathway."""
+    import importlib, sys as _sys, pathlib as _pl
+    _sys.path.insert(0, str(_pl.Path(__file__).resolve().parents[1]))
+    build = importlib.import_module("build")
+    labels = [name for name, _ in build._NOTABLE_ACTIVES]
+    assert "Retinoid" not in labels, \
+        "a family containing bakuchiol must not be labelled plain 'Retinoid'"
+    assert any("alternative" in l.lower() for l in labels)
+    # the user-facing phrasing must scope the claim to the index
+    tmpl = (_pl.Path(__file__).resolve().parents[1] / "templates" / "routines_index.html").read_text()
+    assert "Does not contain" not in tmpl
+    assert "Not listed" in tmpl

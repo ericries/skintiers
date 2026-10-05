@@ -49,13 +49,22 @@ is "the site doesn't know" (see the house rules).
    not a small effect proven in good trials. Never collapse the two axes into one verdict.
 3. **Cite the page, or don't assert it.** Every load-bearing claim links to its SkinTiers
    page (or the primary source that page cites). Give the URL.
-4. **When in doubt, leave it out.** If the data doesn't cover it, say so. Do not backfill gaps
-   with general knowledge dressed up as SkinTiers' position.
+4. **Disclose the gap; don't silently omit the option.** Never backfill gaps with general
+   knowledge dressed up as SkinTiers' position. But "leave it out" means *don't assert it*,
+   not *don't mention it*: for a question that asks what the options are, name the relevant
+   options you considered and say which are not covered here and which you are not
+   recommending, and why. Silently dropping a real option reads as "this does not exist".
+   Keep **"not covered by SkinTiers"** distinct from **"not supported by evidence"**: they
+   are completely different claims and conflating them is a failure, not caution.
 5. **Educational, not medical advice.** For medical concerns, tell the user to see a dermatologist.
 
 ## Where the data lives
 
-**Fetch the JSON first.** It is small and pre-derived, so it is the fastest input:
+**Which source to read first depends on where you are.** If you have the repo on
+disk, read the authored markdown in `data/` first and treat the JSON as a derived
+index that can lag (see "Working from a local checkout" below). If you are reading the
+live site over HTTP, start with the JSON: it is small and pre-derived, so it is the
+fastest input.
 
 | endpoint (`<site>/<name>`) | what it is |
 |---|---|
@@ -98,8 +107,13 @@ lookup. Re-verifying a fact that is already on the page is the most common failu
 
 Every page opens with a YAML block between `---` fences. The load-bearing fields:
 
-- `status` is `published`, `stub`, or `draft`. **Trust `published`.** A `stub` has basic facts
-  but may lack grades; treat `draft` as unsettled and don't quote it as the site's position.
+- `status` is `published`, `stub`, or `draft`. **`published` means editorially released,
+  not independently verified true.** Quote `published` pages as the site's position; a
+  `stub` has basic facts but may lack grades; treat `draft` as unsettled and don't quote it.
+  Publication state and evidence confidence are separate axes: errors have been found and
+  corrected on published pages, so where a claim matters, follow its footnote to the source
+  rather than trusting it because the page shipped. `assurance:` is the better confidence
+  signal (`opus` = an independent critic re-checked every quote; `sonnet` = single pass).
 - `grades:` (products, some ingredients): a list of rows, each with `effect`, `evidence`,
   a `use` tagged `(health)`/`(cosmetic)`, and a `note`. **The `note` is usually the most
   important part**; it carries the caveats and the claim-vs-reality reasoning.
@@ -122,8 +136,11 @@ SkinTiers grades on two independent axes. Always report both; never collapse the
 - **Evidence quality**: how much to trust it:
   `anecdotal` < `preliminary` < `mixed` < `solid` < `gold-standard`.
 
-**Tiers** (on tier-list / ladder pages) collapse the best *health* grade into one bucket,
-demoting a segment for thin (`anecdotal`/`preliminary`) evidence:
+**Tiers** are an *editorial composite*, and the one deliberate exception to rule 2 above.
+A tier collapses the best *health* grade into one bucket, demoting a segment for thin
+(`anecdotal`/`preliminary`) evidence. Because it folds the two axes together, a tier is a
+navigation and ranking convenience, never a measured clinical ranking: when a tier is
+load-bearing in your answer, report the underlying effect and evidence too.
 `best` (top-evidenced) > `good` > `mid` > `weak`.
 
 ## Task recipes
@@ -137,8 +154,31 @@ Match each named product to a SkinTiers page (search the catalog by name/brand; 
 product you can't find rather than inventing a grade), then run the strength algorithm and
 present: strength label → actives covered → sunscreen → what's missing, each linked.
 
-**The algorithm is specified exactly in `routine-strength-spec.md` (shipped alongside this
-file), follow it, don't approximate.** In brief: per graded product, effect (0-4) = its best
+**Read the strength label correctly, and say what it is.** It is a *descriptive average of
+this site's editorial effect ratings for the products you listed*. It is **not** a measure of
+how well the routine suits the person asking, and it must never be optimised toward. Four
+consequences to state rather than hide:
+
+- **A useful product can lower the number.** Adding a well-chosen gentle cleanser rated
+  `minimal` drags the mean down. That is an artefact of averaging, not evidence the routine
+  got worse. Never tell someone to drop a product because it lowers the score.
+- **It rewards product mix, not added benefit.** A redundant high-rated product raises the
+  average without solving an unmet concern.
+- **The inputs are not commensurate.** One product's best grade may be for acne, another's
+  for moisturisation, against different comparators and populations. Averaging those ordinal
+  labels does not produce an interpretable effect size, and the gaps between `minimal`,
+  `modest`, `notable` and `strong` are an editorial convention, not measured units.
+- **Evidence quality is excluded from it by design**, so a high score can rest on
+  preliminary evidence. Report evidence quality separately, as rule 2 requires.
+
+So lead the answer with what the person actually needs: whether their stated concerns are
+covered, what their current baseline already does, what a change would add on top of it,
+tolerability, and how applicable the evidence is to them. Frequency, amount, rinse-off versus
+leave-on, and adherence are not in the score at all, so raise them yourself when they matter.
+
+**The algorithm is specified exactly in `routine-strength-spec.md`: follow it, don't
+approximate.** Path depends on where you are reading: in the installed skill bundle it sits
+beside this file; in a source checkout it is at `docs/routine-strength-spec.md`. In brief: per graded product, effect (0-4) = its best
 `(health)` grade's segments; routine strength = the mean across *distinct graded* products
 (`≥3` Strong · `≥2.25` Solid · `≥1.5` Moderate · else Light); ungraded products are **excluded,
 not scored 0**; actives = union of `key_actives`; sunscreen = are any actives UV filters

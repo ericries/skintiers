@@ -1,5 +1,17 @@
 # Routine strength spec (canonical)
 
+> **Two things this number is not.** It is a descriptive average of editorial effect
+> ratings for the products named, so (a) it is **not** a measure of how well a routine
+> suits a person, and adding a useful low-rated product (a gentle cleanser) lowers it
+> without making the routine worse; and (b) absence reported from `key_actives` means
+> **not listed in the indexed actives**, not "the formula does not contain it", because
+> `key_actives` is a selected editorial index rather than a full ingredient declaration.
+> Report absence as unknown when only the index was available.
+>
+> The "Retinoid or alternative" family below deliberately includes bakuchiol for
+> navigation. Bakuchiol is **not** a vitamin A derivative and is not on the retinoid
+> conversion pathway, so never report a bakuchiol-only routine as containing a retinoid.
+
 **This is the single source of truth for how SkinTiers scores a routine.** The browser
 Routine Builder (`assets/routine-builder.js`, function `computeDashboard`) and the build-time
 rollup (`build.py`, function `routine_summary`) both implement this algorithm, and the
@@ -108,7 +120,7 @@ The notable families (label → member slugs), from `_NOTABLE_ACTIVES` in `build
 
 | label       | member slugs |
 |-------------|--------------|
-| Retinoid    | retinol, retinaldehyde, adapalene, tretinoin, retinyl-esters, retinyl-retinoate, bakuchiol |
+| Retinoid or alternative | retinol, retinaldehyde, adapalene, tretinoin, retinyl-esters, retinyl-retinoate, bakuchiol |
 | Vitamin C   | ascorbic-acid-vitamin-c, vitamin-c |
 | Niacinamide | niacinamide |
 | Exfoliant   | salicylic-acid, glycolic-acid, lactic-acid, mandelic-acid |

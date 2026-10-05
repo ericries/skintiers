@@ -20,7 +20,7 @@
         {% if r.coverage %}<span>Sun: {{ r.coverage }}</span>{% endif %}
       </div>
       {% if r.serves %}<p class="ri-for">For {{ r.serves|join(', ') }}</p>{% endif %}
-      {% if r.absent %}<p class="ri-absent">Does not contain: {{ r.absent|join(', ') }}</p>{% endif %}
+      {% if r.absent %}<p class="ri-absent">Not listed in its indexed actives: {{ r.absent|join(', ') }}</p>{% endif %}
     </div>
   </li>
   {% endfor %}

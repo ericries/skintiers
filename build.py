@@ -584,8 +584,12 @@ _ROUTINE_TIERS = (
 # contain. Kept deliberately short (only ingredients a general reader would
 # recognize and might look for) so the line stays neutral, not a checklist.
 _NOTABLE_ACTIVES = (
-    ("Retinoid", {"retinol", "retinaldehyde", "adapalene", "tretinoin",
-                  "retinyl-esters", "retinyl-retinoate", "bakuchiol"}),
+    # "or alternative" because this set includes bakuchiol, which is NOT a vitamin A
+    # derivative and sits nowhere on the retinoid conversion pathway (see
+    # data/ingredients/bakuchiol.md). Grouping it here is a navigation convenience;
+    # the label must never assert molecular identity or equivalent efficacy.
+    ("Retinoid or alternative", {"retinol", "retinaldehyde", "adapalene", "tretinoin",
+                                 "retinyl-esters", "retinyl-retinoate", "bakuchiol"}),
     ("Vitamin C", {"ascorbic-acid-vitamin-c", "vitamin-c"}),
     ("Niacinamide", {"niacinamide"}),
     ("Exfoliant", {"salicylic-acid", "glycolic-acid", "lactic-acid", "mandelic-acid"}),
