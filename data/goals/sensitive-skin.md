@@ -25,9 +25,25 @@ tier_list:
       soothing active layered onto barrier support rather than a stand-alone fix.
     slug: niacinamide
     tier: moderate
+  - note: Marketed as a soothing peptide for reactive skin, and listed here as a
+      cautionary entry rather than a recommendation, because the comparative evidence
+      on [[acetyl-dipeptide-1-cetyl-ester]] went against it. It had no effect on the
+      TRPV1 pain receptor in vitro, and produced significantly less reduction in
+      capsaicin-induced burning than a comparator in a split-face trial in women with
+      sensitive skin.
+    slug: acetyl-dipeptide-1-cetyl-ester
+    tier: weak
   title: Approaches for sensitive, reactive skin by evidence
+tier_list_reviewed:
+- aestura-atobarrier-365-cream
+- cerave-hydrating-facial-cleanser
+- cerave-moisturizing-cream
+- coco-betaine
+- dove-sensitive-skin-beauty-bar
+- eltamd-uv-clear-spf-46
+- la-roche-posay-toleriane
 type: goal
-updated: '2026-08-30'
+updated: '2026-10-05'
 videos:
 - title: A Dermatologist's Top 10 Tips to Treat Sensitive Skin
   creator: Dr. Whitney Bowe
