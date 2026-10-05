@@ -19,6 +19,7 @@ Usage:
   python scripts/discover_hubs.py --min 2    # change the frequency floor
 """
 import argparse
+import os
 import glob
 import pathlib
 import re
@@ -87,9 +88,27 @@ def corpus():
     return "\n".join(parts).lower()
 
 
-def _exists(t, slug):
+def _exists(t, slug, name=None):
+    """Does a page already cover this candidate?
+
+    Exact-slug matching alone was not enough and produced a recurring false
+    positive: the candidate slug `neck-chest-care` kept re-firing weekly because
+    the real page is `neck-chest-decolletage-care.md`. So also resolve the human
+    name through the entity resolver and treat a confident hit (>=80, meaning every
+    query term is present) as already covered."""
     d = {"condition": "conditions", "goal": "goals", "list": "lists"}[t]
-    return (ROOT / "data" / d / f"{slug}.md").exists()
+    if (ROOT / "data" / d / f"{slug}.md").exists():
+        return True
+    if name:
+        try:
+            sys.path.insert(0, os.path.join(ROOT, "scripts"))
+            import sklib
+            hits = sklib.find_entities(name, os.path.join(ROOT, "data"), typ=t, limit=1)
+            if hits and hits[0]["score"] >= 80:
+                return True
+        except Exception:
+            pass
+    return False
 
 
 def _queued(t):
@@ -110,7 +129,7 @@ def main(argv=None):
         hits = sum(len(re.findall(p, text)) for p in pats)
         if hits < args.min:
             continue
-        if _exists(t, slug):
+        if _exists(t, slug, name):
             continue
         if slug in queued[t] or name.lower() in queued[t]:
             continue

@@ -74,3 +74,14 @@ def test_aliases_are_searchable(tmp_path):
         aliases=["AZ15", "15% Azelaic Acid High Strength Serum"])
     hits = sklib.find_entities("AZ15", d)
     assert hits and hits[0]["slug"] == "some-product"
+
+
+def test_find_entities_resolves_a_near_slug_for_hub_dedup(tmp_path):
+    """discover_hubs.py deduped candidates by EXACT slug, so its 'neck-chest-care'
+    candidate kept re-firing even though data/goals/neck-chest-decolletage-care.md
+    exists. A resolver lookup on the human name has to find it."""
+    d = tmp_path / "data"
+    _mk(d, "goals", "neck-chest-decolletage-care", "Neck and Chest (Décolletage) Care")
+    hits = sklib.find_entities("Neck & chest (décolletage) care", d, typ="goal")
+    assert hits and hits[0]["slug"] == "neck-chest-decolletage-care"
+    assert hits[0]["score"] >= 80
