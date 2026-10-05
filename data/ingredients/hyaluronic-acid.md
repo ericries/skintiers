@@ -14,6 +14,7 @@ videos:
   credential: Cosmetic chemist, PhD
   platform: YouTube
   url: https://www.youtube.com/watch?v=c5ujp0KftnE
+  duration: 1132
   posted: '2026-03-04'
   thesis: "The widely repeated claim that hyaluronic acid holds 1,000 times its weight in water (or 6 litres per gram) traces back to an unreferenced 'fun fact' in a Cosmetic Ingredient Review safety assessment's introduction, not to actual data, according to cosmetic chemist Michelle Wong (PhD). A 2024 paper that tried to verify the claim experimentally found no detectable binding at that scale and calculated that hyaluronic acid actually holds roughly 40 to 85 percent of its own weight in water. Wong also notes that The Ordinary's own clinical test found its hyaluronic acid serum worked about the same on damp versus dry skin, since hydrogen bonding only acts over very short distances."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship, and the video explicitly says so."
@@ -23,6 +24,7 @@ videos:
   credential: ""
   platform: YouTube
   url: https://www.youtube.com/watch?v=k09F-ZHctGg
+  duration: 888
   posted: '2024-08-04'
   related: [glass-skin]
   thesis: "Consultant dermatologist Dr Aamna Adel reviews the viral Korean overnight hydrogel collagen mask, explaining that its collagen molecule is too large to be absorbed into skin and will not stimulate the body's own collagen production, contrary to brand claims about pores and elasticity. She notes the mask's real benefit is hydration from its low molecular weight collagen and hyaluronic acid content, and advises against it for active acne or very sensitive skin due to the irritation risk from prolonged occlusion."
@@ -33,6 +35,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=b75zNhCzlTA
+  duration: 300
   posted: '2023-02-18'
   related: [avene, la-roche-posay]
   thesis: Dr. Adeline Kikam, a board-certified dermatologist, explains that thermal spring water is mineral-rich spring water (containing trace elements like selenium) that has anti-inflammatory, soothing, and pH-balancing effects, making it useful for sensitive, dry, or barrier-compromised skin. She describes misting it on damp skin before applying hyaluronic acid, explaining that hyaluronic acid should never be applied to truly dry skin because it will pull moisture from deeper skin layers instead of the air, which can worsen dryness. She also uses it to keep skin misted during flights and before moisturizing after a shower, citing Avène and La Roche-Posay as the thermal water brands she personally relies on.
@@ -43,6 +46,7 @@ videos:
   credential: Skincare educator
   platform: YouTube
   url: https://www.youtube.com/watch?v=0nbbOyUdTzA
+  duration: 6999
   posted: '2018-04-01'
   related: [acne, avobenzone, tretinoin, retinoids, azelaic-acid, rosacea]
   thesis: In this nearly two hour Instagram Live Q&A, skincare educator and formulator Stephen Alain Ko (KindofStephen) answers viewer questions across a wide range of skincare topics. On sunscreen, he explains why "next-gen" UV filters like Tinosorb are approved in Europe and Asia but not routinely in the US and Canada due to regulatory differences, and cites a Johnson & Johnson presentation at the American Academy of Dermatology describing a 21.6% zinc oxide mineral sunscreen with a UVA protection factor around 31 to 32, notably higher than the 15 to 22 typical of mineral sunscreens. He also breaks down the difference between sodium hyaluronate and hydrolyzed hyaluronic acid by molecular weight, discusses vitamin C derivatives versus L-ascorbic acid as the still-unbeaten gold standard, and weighs in on benzoyl peroxide's efficacy and oxidative tradeoffs for acne, an LED mask study he criticizes for lacking a control group, and niacinamide combined with tretinoin for acne and hyperpigmentation.
@@ -53,6 +57,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=XFIXoWL_LtI
+  duration: 90
   posted: '2026-08-24'
   related: []
   thesis: 'Board-certified dermatologist Dr. Daniel Sugai shares tips he wishes he had known sooner. He explains that hyaluronic acid serum gives instant plumping and glow, good before an event, while vitamin C serum works more gradually as an antioxidant that fights free-radical damage from pollution and sunlight, improving fine lines, texture, and brightness over time; he wishes he had started vitamin C earlier in his 30s. He advises applying the less stable vitamin C serum first, then hyaluronic acid, then moisturizer and sunscreen (thinnest to thickest). He also stresses that not all sunscreens are equal for melasma and hyperpigmentation: a tinted sunscreen containing iron oxides is needed to block visible light, and he says patients whose melasma keeps worsening despite using sunscreen often turn out to be using one without iron oxides.'
@@ -63,6 +68,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=gAQoQmzBT-s
+  duration: 1044
   posted: '2026-08-13'
   related: [cerave, vanicream, the-ordinary, roc]
   thesis: 'Board-certified dermatologist Dr. Jenny Liu explains that stretch marks (striae) are essentially scars formed when skin is stretched faster than it can adapt, and that the stage matters most: red/purple "striae rubra" respond much better to intervention than old white "striae alba," which can only be made less visible, never erased. She ranks 0.1% tretinoin for 12 weeks as the best topical for red stretch marks specifically, notes centella asiatica and hyaluronic-acid-based moisturizers have the better evidence for prevention (especially in pregnancy), and says lactic acid lotion (AmLactin), silicone sheets, and massage oils have weaker but plausible support. She concludes in-office procedures (pulsed dye laser/IPL for redness, then microneedling, RF microneedling, or fractional CO2 resurfacing over 3-5+ sessions) give the best clinical results, and that prevention (managing weight gain, keeping skin hydrated) beats treatment overall.'
@@ -73,6 +79,7 @@ videos:
   credential: Board-certified dermatologist
   platform: TikTok
   url: https://www.tiktok.com/@dr.iferodney/video/7675478710237039902
+  duration: 27
   posted: '2026-08-18'
   related: []
   thesis: Board-certified dermatologist Dr. Ife Rodney explains that her favorite hyaluronic acid serum, which also contains green tea polyphenols, does a good job moisturizing, hydrating, and plumping skin when used nightly. She clarifies that it does not permanently or long-term reduce fine lines, wrinkles, or uneven skin texture, and that microneedling or radiofrequency microneedling is what is needed for those changes

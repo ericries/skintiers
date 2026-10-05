@@ -23,6 +23,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=X5DAUauyYMM
+  duration: 39
   posted: '2026-08-27'
   related: [acne]
   thesis: Board-certified dermatologist Dr. Neera Nathan explains that pimple patches are just tiny hydrocolloid pads sold at a markup, since a pack of 36 small patches can cost about $17. She recommends buying hydrocolloid pads or hydrocolloid tape from the wound care aisle instead, which gives far more material for less money. She notes you can cut the tape or pads to the exact size needed and apply them to pimples, blisters, or bug bites to help them heal faster with less scarring.

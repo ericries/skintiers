@@ -45,6 +45,7 @@ videos:
   credential: Board-certified dermatologist (Australia)
   platform: YouTube
   url: https://www.youtube.com/watch?v=iUYQ6GBMPu0
+  duration: 566
   posted: '2026-04-10'
   related: []
   thesis: Dr. Davin Lim, a board-certified dermatologist and scar specialist, compares four types of at-home microneedling devices (stampers, automated pens, microinfusion devices, and rollers) for treating acne scars and texture. He recommends the Banisher 3.0 stamping device as the safest option for home use, citing its reusable sterilizable heads, gold-plated needles, and a 0.5mm depth sweet spot that stimulates collagen while minimizing trauma and post-inflammatory hyperpigmentation risk. He cautions against automated pens for home use due to laceration risk from dragging, and rates derma rollers lowest for safety because their angled needle entry increases skin trauma compared to vertical stamping.
@@ -55,6 +56,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=wh_GATsmzUw
+  duration: 47
   posted: '2026-05-06'
   related: []
   thesis: 'Dr. Adeline Kikam, a board-certified dermatologist (Brown Skin Derm), explains that plumping and hydrating the skin can improve the appearance of scars as well as fine lines and wrinkles. Reacting to a clip of someone using a Korean centella ampoule or capsule containing glycerin, tranexamic acid, and centella asiatica, she breaks down each ingredient''s role: centella supports the skin barrier, glycerin plumps and hydrates, and tranexamic acid helps even skin tone. She concludes that this overall improvement in skin texture and tone is what makes scars and fine lines look less noticeable, rather than any single ingredient erasing them directly.'
@@ -65,6 +67,7 @@ videos:
   credential: Dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=k8BOSOFsSqk
+  duration: 203
   posted: '2014-10-24'
   related: [acne]
   thesis: 'Dermatologist Dr. Neal Schultz explains what actually causes acne scars: inflammatory acne lesions like deep pimples and cysts damage the dermis, and when an inflamed pore ruptures, pus leaks into surrounding tissue and destroys healthy dermal collagen. The body then repairs that damage imperfectly with fibrous scar tissue. He describes the two resulting patterns: atrophic scars (depressed below the skin, in ice-pick, boxcar, or crater shapes) when too little collagen is made, and raised hypertrophic scars when too much is made, which are common on the trunk but rare on the face.'

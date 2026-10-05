@@ -57,6 +57,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=-cmxfYaJ57I
+  duration: 180
   posted: '2026-08-03'
   related: [melasma]
   thesis: 'Board-certified dermatologist Dr. Angelo Landriscina (DermAngelo) explains how dermatologists choose one laser over another. He shows that a laser needs a target chromophore in skin, and that oxyhemoglobin, melanin, and water each have their own absorption curve across the wavelength spectrum: vascular lasers target oxyhemoglobin to treat blood vessels, telangiectasias, and rosacea; melanin-targeting lasers treat melasma, dark spots, and hair; and long-wavelength resurfacing lasers target water in the skin''s upper layers. He also explains that longer wavelengths generally penetrate deeper, which is why laser hair removal in skin of color uses a deeper-penetrating wavelength (like Alexandrite) to bypass melanin-rich basal epidermis and reach the hair bulb in the dermis, while resurfacing lasers, despite their long wavelengths, are absorbed so heavily by superficial water that they can''t penetrate as deep.'

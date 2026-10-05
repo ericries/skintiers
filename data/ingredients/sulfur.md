@@ -14,6 +14,7 @@ videos:
   credential: ""
   platform: YouTube
   url: https://www.youtube.com/watch?v=FWRgQLdHPeQ
+  duration: 47
   posted: '2026-05-15'
   related: [acne, rosacea, perioral-dermatitis]
   thesis: "Board-certified dermatologist Dr. Lindsey Zubritsky (DermGuru) makes the case for sulfur as an underused, multipurpose skincare ingredient. She describes it as an antimicrobial and gentle exfoliant that clears texture and unclogs pores, useful as a spot treatment for breakouts and acne-prone comedones, and notes it can help calm inflammation and redness in conditions like rosacea and perioral dermatitis (which she says she personally has). She also suggests an overnight sulfur mask to help minimize sebaceous filaments on the nose, while noting the ingredient can have a sulfurous smell."
@@ -24,6 +25,7 @@ videos:
   credential: licensed esthetician
   platform: TikTok
   url: https://www.tiktok.com/@your.estie.ella/video/7675034450698292493
+  duration: 141
   posted: '2026-08-17'
   related: [acne, skin-barrier-repair]
   thesis: 'Licensed esthetician Ella gives after-care advice for skin you picked at overnight, with a nuanced take on sulfur: apply sulfur only if you still feel congestion under the skin in that spot, and be careful because sulfur is not always the best choice over an open wound. Her broader message is to resist piling on new or viral products while the skin heals, keep to the products your skin already knows, and ice the area to calm inflammation, since healing takes time no matter what you add.'
@@ -34,6 +36,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=sjqs8gBjiAM
+  duration: 58
   posted: '2026-08-17'
   related: []
   thesis: 'Board-certified dermatologist Dr. Neera Nathan explains that the small persistent bumps many people see on the chin and nose are not pimples or milia but sebaceous filaments, normal pore structures that cannot be eliminated but can be minimized. She offers three derm-approved approaches: a sulfur mask left on 10 minutes to break down debris and reduce surface oiliness, a salicylic acid cleanser to exfoliate and cut sebum without stripping the skin barrier, and a pea-sized amount of adapalene gel, which she says is unmatched over-the-counter for keeping pores clear and appearing smaller.'

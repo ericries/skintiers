@@ -85,6 +85,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=yFOvYbsidlk
+  duration: 1752
   posted: '2026-06-11'
   related: [melasma, hyperpigmentation, retinoids, tretinoin, hydroquinone, salicylic-acid, adapalene, isotretinoin]
   thesis: Board-certified dermatologist Dr. Jenny Liu walks through how to adjust a skincare routine during pregnancy, sorting ingredients into what to avoid, what to use only in limitation, and what is safe to apply freely. She says the two ingredients to avoid with near-certainty are topical retinoids (including prescription tretinoin and tazarotene, over-the-counter adapalene, and retinol or retinaldehyde) and hydroquinone, because oral retinoids like isotretinoin are known to cause birth defects and hydroquinone lacks good pregnancy safety data and can irritate. She notes that salicylic acid is best avoided in high concentrations or all-over body use, though low-strength (2% or less) spot treatment or occasional facial toning is generally considered fine, and she frames pregnancy-related melasma, which she says affects roughly 70% of expecting mothers, as a hormonal change to manage gently rather than treat aggressively.

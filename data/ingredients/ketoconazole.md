@@ -14,6 +14,7 @@ videos:
   credential: Board-certified dermatologist
   platform: TikTok
   url: https://www.tiktok.com/@dr.tomassian/video/7679209722293144846
+  duration: 48
   posted: '2026-08-28'
   related: [hyperpigmentation, body-acne, folliculitis, fungal-acne, hair-loss-thinning]
   thesis: 'Dr. Chris Tomassian, a board-certified dermatologist, names five skincare ingredients he considers worth using: hydroquinone for dark spots, tretinoin as the long-term gold standard for anti-aging despite causing irritation and dryness, hypochlorous acid for body acne and scalp folliculitis, vitamin C for an instant glow plus collagen support and dark spot fading, and ketoconazole for dandruff, fungal acne, and hormonal hair loss. He gives a one-line reason for each rather than detailed instructions'

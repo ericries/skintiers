@@ -14,6 +14,7 @@ videos:
   credential: "Board-certified dermatologist"
   platform: YouTube
   url: https://www.youtube.com/watch?v=F24UvKBOf_k
+  duration: 532
   posted: '2026-02-07'
   thesis: "Board-certified dermatologist Dr. Shereene Idriss groups eight cosmetic peptides by the skin concern each targets: acetyl tetrapeptide-40 for barrier support and inflammation, palmitoyl tripeptide-1 with palmitoyl tetrapeptide-7 together for collagen signaling and preservation, oligopeptide-1 for long-term texture and skin repair, hexapeptide-2 for pigment regulation, acetyl hexapeptide-8 (Argireline) as a temporary 'Botox in a bottle' softener of expression lines that she says is not worth spending much money on, palmitoyl hexapeptide-52 for environmentally stressed skin, and palmitoyl tripeptide-38 for lip texture and fullness."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
@@ -23,6 +24,7 @@ videos:
   credential: "Licensed esthetician"
   platform: TikTok
   url: https://www.tiktok.com/@your.estie.ella/video/7671707845510941966
+  duration: 180
   posted: '2026-08-08'
   thesis: "Licensed esthetician Ella (@your.estie.ella) sets expectations for peptide serums in an anti-aging routine: a peptide serum is not an all-in-one anti-aging product, and without a daily sunscreen and a good retinoid she says you are unlikely to see much from it, because peptides cannot match what a retinoid does on fine lines and wrinkles. She frames the realistic benefits of peptides as overall brightening, smoother texture, and a more youthful appearance, and says results build over roughly eight to twelve months of continued use rather than within three."
   related: [retinoids, sunscreen-uv-filters, anti-aging]
@@ -33,6 +35,7 @@ videos:
   credential: "Licensed esthetician"
   platform: TikTok
   url: https://www.tiktok.com/@your.estie.ella/video/7671668004354018574
+  duration: 167
   posted: '2026-08-08'
   thesis: "Licensed esthetician Ella (@your.estie.ella) recommends copper peptide serums for different skin types and budgets: the InnBeauty Project Elastic Skin Peptide as an all-round pick she has used for years, Biossance Squalane and Copper Peptides for dry or compromised skin because the added squalane brings extra hydration and barrier support, the more affordable Remedy Skin copper peptides for normal-to-oily skin, and multi-peptide options from Medik8 and Geek and Gorgeous. She frames copper peptides as a barrier-support and brightening adjunct rather than a single best product, and stresses the right choice depends on your own skin."
   related: [medik8, squalane, anti-aging, skin-barrier-repair]
@@ -43,6 +46,7 @@ videos:
   credential: ""
   platform: YouTube
   url: https://www.youtube.com/watch?v=_tdqQ7t4CHc
+  duration: 492
   posted: '2022-07-04'
   related: [copper-peptides, argireline-acetyl-hexapeptide-8, hyaluronic-acid, vitamin-c, retinol]
   thesis: "Board-certified dermatologist Dr. Alexis Stephens breaks peptides down into five functional categories for skincare: signaling peptides (like matrixyl/pentapeptide-4) that stimulate collagen, elastin, or hyaluronic acid; neurotransmitter-inhibiting peptides such as argireline (acetyl hexapeptide-8) that softly reduce facial muscle movement; carrier peptides like copper peptides that transport trace elements into the skin; enzyme-inhibiting peptides that curb tyrosinase for brightening; and antimicrobial peptides. She advises choosing a peptide-containing product for the specific benefit you want rather than assuming all peptides do the same thing, and stresses that peptides should supplement, not replace, a daily vitamin C and nighttime retinoid."
@@ -53,6 +57,7 @@ videos:
   credential: ""
   platform: YouTube
   url: https://www.youtube.com/watch?v=WyWDBJIm6wY
+  duration: 773
   posted: '2026-02-01'
   related: [copper-peptides]
   thesis: "Board-certified dermatologist Dr. Dustin Portela breaks down skincare peptides and says copper peptides, specifically GHK-Cu, have the strongest evidence, helping deliver copper to skin cells to support collagen and elastin production and wound healing, while so-called \"Botox in a bottle\" neurotransmitter peptides likely cannot penetrate deep enough to meaningfully relax facial muscles. He recommends starting with copper peptides for at least three months if you try peptides at all, but says most people get 90 percent of their results from a basic retinol, vitamin C, and sunscreen routine, with peptides as an optional extra rather than a foundation."
@@ -63,6 +68,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=bQvrFrhUets
+  duration: 910
   posted: '2026-08-20'
   related: [palmitoyl-pentapeptide-4-matrixyl, copper-peptides, anti-aging]
   thesis: Board-certified dermatologist Andrea Suarez (Dr Dray) explains which skincare peptides actually work. She describes collagen-signaling peptides such as Matrixyl (palmitoyl pentapeptide-4), designed to tell skin fibroblasts to build collagen, but notes the core limitation that peptides struggle to penetrate the skin in meaningful amounts, so the firmness improvements seen in topical studies are modest. She separately warns that injectable peptides sold direct-to-consumer without clinician oversight have no clinical evidence or quality control and have caused serious adverse outcomes.
@@ -73,6 +79,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=oNhnH5Ezyn0
+  duration: 796
   posted: '2026-01-26'
   related: [rosacea-papulopustular, acne, pityriasis-versicolor, best-azelaic-acid-products, best-niacinamide-products, best-peptide-serums]
   thesis: Board-certified dermatologist Dr. Caroline Robinson gives a thumbs up/down verdict on several 2026 skincare trends. She explains azelaic acid started as the compound behind tinea versicolor's skin-lightening rash before becoming a prescription and OTC treatment for rosacea (15%) and acne-related hyperpigmentation (20% for acne, 10% OTC), calling it a thumbs up. She says niacinamide controls oil at 2%, helps hyperpigmentation at 4 to 5%, but risks irritation at the popular 10% level, so lower doses are the "sweet spot." She endorses red light masks as adjuncts to in-office treatments (checking wavelength and device-specific studies matters) and peptides as a helpful but non-foundational addition after retinoids and sunscreen, dismisses at-home chemical peels as unsafe versus in-office ones, and gives multi-step (6 to 7 product) TikTok routines a thumbs down, arguing cleansing, exfoliating, and moisturizing can be done well in 3 to 4 steps.
@@ -83,6 +90,7 @@ videos:
   credential: Board-certified dermatologist
   platform: TikTok
   url: https://www.tiktok.com/@drheathermd/video/7645401636201893134
+  duration: 65
   posted: '2026-05-29'
   related: []
   thesis: 'Dr. Heather Woolery-Lloyd, a board-certified dermatologist, explains marine spicules: microscopic needle-like structures harvested from sponges that create a controlled micro-injury in skin, forming temporary pathways thought to boost penetration of actives like peptides and PDRN before the spicules shed away. She notes spicule products typically start at 0.1 to 1 percent concentration to limit irritation, and that experts advise against pairing them with aggressive treatments like retinoids or strong acne medications to avoid over-exfoliation'
@@ -93,6 +101,7 @@ videos:
   credential: Board-certified dermatologist
   platform: TikTok
   url: https://www.tiktok.com/@dr.sheila_derm/video/7677769908943375647
+  duration: 57
   posted: '2026-08-25'
   related: []
   thesis: Dr. Sheila Farhang, a board-certified dermatologist, explains that GHK-Cu (copper peptides) support wound healing and collagen production and can be added on top of a basic routine of sunscreen, weekly exfoliant, vitamin C in the morning, and a retinoid at night. She describes peptides broadly as signaling molecules that boost collagen, increase hydration, and improve the skin barrier, and says they have a long history of use in dermatology
@@ -103,6 +112,7 @@ videos:
   credential: Board-certified dermatologist (DO, FAOCD, FAAD), River Ridge Dermatology / HCA Virginia, Blacksburg VA
   platform: YouTube
   url: https://www.youtube.com/watch?v=t9I8vVpZjxc
+  duration: 991
   posted: '2026-08-30'
   related: [palmitoyl-tripeptide-1, retinoids, anti-aging]
   thesis: 'Board certified dermatologist Dr. Aleksandra Brown explains that peptides are an "upgrade," not a foundation, meant only for people already consistent with sunscreen, vitamin C, and a retinoid, then compares three peptide classes for people in their 40s and up: signal peptides like Matrixyl/Matrixyl 3000 (palmitoyl tripeptide 1) that prompt fibroblasts to make more collagen and have the most placebo controlled human data, carrier peptides like copper peptides/GHK Cu that deliver copper to support collagen and elastin repair, and neurotransmitter inhibiting Argireline (acetyl hexapeptide 8) that softens expression lines but works nowhere near as strongly as Botox. She ranks copper peptide as her top single pick for 40s collagen support, flags that copper peptides and L ascorbic acid vitamin C should be kept apart at different times of day, and says the evidence on combining copper peptides with vitamin C derivatives is still unsettled.'
@@ -113,6 +123,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=dLEq7FzGSi8
+  duration: 792
   posted: '2026-09-12'
   related: [sunscreen-uv-filters, round-lab-birch-juice-moisturizing-sun-spf-50, anti-aging, niacinamide]
   thesis: Board-certified dermatologist Dr. Daniel Sugai reviews four viral K-beauty best sellers. He explains that the two Medicube collagen products (a Triple Collagen Serum and a Collagen Jelly Cream) use hydrolyzed collagen, which gives temporary hydration and a glassy, light-reflecting glow but is not a signal peptide and cannot penetrate to the dermis to rebuild lost collagen the way a retinoid can, so their firming effect is short-term surface plumping rather than structural change. He rates the two chemical-filter K-beauty sunscreens (SKIN1004 Hyalu-Cica Water-Fit Sun Serum and Round Lab Birch Juice) as solid lightweight, no-white-cast options for oily or acne-prone skin, while cautioning that the Round Lab formula contains essential oils that can irritate some people and that neither is tinted, so those with melasma should choose an iron-oxide tinted sunscreen instead.

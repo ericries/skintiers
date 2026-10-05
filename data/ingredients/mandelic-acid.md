@@ -14,6 +14,7 @@ videos:
   credential: "Board-certified dermatologist"
   platform: YouTube
   url: https://www.youtube.com/watch?v=ErjbMerzz7A
+  duration: 757
   posted: '2026-06-21'
   thesis: "Board-certified dermatologist Dr. Dustin Portela makes the case for mandelic acid as a gentler alternative for people who find glycolic acid too irritating, explaining that its larger molecule size slows how deeply it penetrates the skin. He compares specific over the counter mandelic acid products at low, mid, and premium price points and walks through how to introduce the acid into a routine that already includes retinol or other actives without overwhelming the skin barrier."
   related: ["glycolic-acid", "salicylic-acid", "hyperpigmentation", "acne"]
@@ -24,6 +25,7 @@ videos:
   credential: Skincare educator (not a dermatologist or cosmetic chemist)
   platform: YouTube
   url: https://www.youtube.com/watch?v=f4LcP_MZ0o4
+  duration: 1378
   posted: '2026-08-16'
   related: [niacinamide]
   thesis: Hyram, a skincare educator, reacts to singer Sienna Spiro's skincare routine and flags that her Sofie Pavitz Mandelic Clearing Serum (8% mandelic acid) is being used in what looks like a daytime routine, explaining that exfoliating acids perform best and are safest used at night rather than during the day so skin is not left more sun-sensitive. He also praises a niacinamide facial spray in her routine as a well-formulated, minimal-irritant product, and separately warns that a $79 squalane serum with no listed preservative may not be shelf-stable. He concludes the routine is formulated reasonably but very expensive relative to comparable options.

@@ -92,6 +92,7 @@ videos:
     with prescription hydroquinone available in-office for more resistant cases.
   title: Fade Scars FAST (and for real)
   url: https://www.youtube.com/watch?v=dTSPCPjyMss
+  duration: 659
 - creator: Victoria Fu and Gloria Lu (Chemist Confessions)
   creator_slug: victoria-fu
   credential: Cosmetic chemists
@@ -112,6 +113,7 @@ videos:
     habit and wants an extra edge.
   title: Are iron oxides a MUST for hyperpigmentation?
   url: https://www.youtube.com/watch?v=Ih4ecC2me8w
+  duration: 2606
 - creator: Andrea Suarez (Dr Dray)
   creator_slug: andrea-suarez-dr-dray
   credential: Board-certified dermatologist
@@ -136,6 +138,7 @@ videos:
     the visible light that also worsens hyperpigmentation.
   title: Why Your Hyperpigmentation Won't Go Away | Dermatologist Explains
   url: https://www.youtube.com/watch?v=DYqU1VIR3pw
+  duration: 1199
 - creator: Dr. Shereene Idriss
   creator_slug: shereene-idriss
   credential: Board-certified dermatologist
@@ -157,6 +160,7 @@ videos:
     since unprotected skin lets old sun damage reawaken and new damage form.
   title: The Truth About Hidden Sun Damage, From a Dermatologist
   url: https://www.youtube.com/watch?v=PH_dizReTU8
+  duration: 927
 - creator: Michelle Wong
   creator_slug: michelle-wong
   credential: Cosmetic chemist, PhD
@@ -183,6 +187,7 @@ videos:
     skin effectively in topical products.
   title: How to Treat Dark Spots and Hyperpigmentation
   url: https://www.youtube.com/watch?v=z2T20iZBEUc
+  duration: 1129
 - creator: Dr. Adeline Kikam
   creator_slug: adeline-kikam
   credential: Board-certified dermatologist
@@ -203,6 +208,7 @@ videos:
     underlying cause comes first.
   title: 'Dark Inner Thighs: Causes & Treatment'
   url: https://www.youtube.com/watch?v=ghoLg47eD1U
+  duration: 773
 - creator: ''
   creator_slug: usama-syed
   credential: ''
@@ -220,6 +226,7 @@ videos:
     dark spots regardless of the underlying cause.
   title: What Causes Dark Spots On Skin?
   url: https://www.youtube.com/watch?v=Ea6D1vxbdhk
+  duration: 341
 - creator: ''
   creator_slug: lindsey-zubritsky
   credential: ''
@@ -243,6 +250,7 @@ videos:
     is essential, since skipping it undermines every other treatment.
   title: Derm Rates Skincare For Dark Spots
   url: https://www.youtube.com/watch?v=zqhWwSRoOMU
+  duration: 49
 - creator: ''
   creator_slug: daniel-sugai
   credential: ''
@@ -261,6 +269,7 @@ videos:
     three to four months, is needed before improvement is visible.
   title: How to ACTUALLY Fix Dark Spots (Dermatologist No-BS Guide)
   url: https://www.youtube.com/watch?v=ri4VQ79mNPY
+  duration: 769
 - creator: ''
   creator_slug: emma-wedgeworth
   credential: ''
@@ -343,6 +352,7 @@ videos:
     treatment alongside strict sun protection.
   title: 'How to Prevent & Treat Sun-Induced Pigmentation: Dermatologist Tips'
   url: https://www.youtube.com/watch?v=vU9XccWySgA
+  duration: 429
 - creator: Dr. Dustin Portela
   creator_slug: dustin-portela
   credential: Board-certified dermatologist
@@ -368,6 +378,7 @@ videos:
     not a quick fix.
   title: Stop Buying Dark Spot Removers Until You Watch This
   url: https://www.youtube.com/watch?v=M-tG_msV1KE
+  duration: 1095
 - creator: Dr. Davin Lim
   creator_slug: davin-lim
   credential: Board-certified dermatologist (Australia)
@@ -386,6 +397,7 @@ videos:
     typical courses of three to six sessions spaced two to four weeks apart.
   title: How do Dermatologists FIX Pigmentation? (PIH)
   url: https://www.youtube.com/watch?v=gD1RbEPw03M
+  duration: 288
 - creator: Dr. Alexis Stephens
   creator_slug: alexis-stephens
   credential: Board-certified dermatologist
@@ -405,6 +417,7 @@ videos:
     that consistent daily sun protection remains essential alongside it.
   title: 'Hydroquinone Alternative: THIAMIDOL Fades Hyperpigmentation & Melasma'
   url: https://www.youtube.com/watch?v=Sn_Y59aGjcw
+  duration: 300
 - creator: Dr. Jenny Liu (Jenny Liu, MD, FAAD)
   creator_slug: jenny-liu
   credential: Board-certified dermatologist
@@ -421,6 +434,7 @@ videos:
   title: Dark Spots Won't Fade? Here's What You're Missing (Derm Explains) | Dr. Jenny
     Liu
   url: https://www.youtube.com/watch?v=tho0X8AB-To
+  duration: 1485
 - creator: Fatima Fahs
   creator_slug: fatima-fahs
   credential: Dermatologist (MD)
@@ -440,12 +454,14 @@ videos:
     under a dermoscope.
   title: 'Freckles vs sun spots: what''s the difference?'
   url: https://www.tiktok.com/@dermydoctor/video/7677570515090918670
+  duration: 52
 - title: 7 Skin Signs That Could Reveal a Health Problem | Dermatologist Explains
   creator: Andrea Suarez (Dr Dray)
   creator_slug: andrea-suarez-dr-dray
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=QKDlc1r8fQk
+  duration: 965
   posted: '2026-08-26'
   related: []
   thesis: Dr. Andrea Suarez (Dr Dray), a board-certified dermatologist, walks through seven skin, nail, and eye findings that can signal internal disease rather than being purely cosmetic. She explains that dark, velvety thickened patches on the neck, underarms, or hands (acanthosis nigricans) are a warning sign of insulin resistance, not dirt or hyperpigmentation, and that people often mistakenly try scrubbing or vitamin C serums on them. She also covers yellow eyelid bumps (xanthoma) as a clue to lipid problems, yellowing of the eyes as jaundice, clubbed fingertips as a sign of lung or heart disease, a purplish heliotrope rash with knuckle bumps as dermatomyositis, spoon-shaped nails (koilonychia) as a marker of iron deficiency, and unexplained full-body itching as a possible sign of blood, kidney, thyroid, or liver disease. She stresses these are clues, not diagnoses, and that any of them should be evaluated by a healthcare provider rather than self-treated.
@@ -456,6 +472,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=AkMplhqKyNE
+  duration: 1107
   posted: '2026-09-05'
   related: [melasma, facial-redness-relief, rosacea, sun-damage-photoaging]
   thesis: Board-certified dermatologist Dr. Shereene Idriss offers a framework for deciding between in-office lasers and at-home skincare for dark spots, redness, and texture. She explains that every laser ultimately targets just one of three things, red, brown, or water, so before paying for an expensive laser package a patient should ask which of the three it treats, and consider whether a much cheaper topical could address the same concern. She organizes the decision into three lanes, starting with brown spots (pigmentation), and walks through where skincare can substitute for a procedure and where it cannot.
@@ -466,6 +483,7 @@ videos:
   credential: Abigail H. Waldman, MD, FAAD; Associate Professor of Dermatology at Harvard Medical School; Director of the Mohs and Dermatologic Surgery Center at Brigham and Women's Hospital
   platform: YouTube
   url: https://www.youtube.com/watch?v=mRYMysEjhWs
+  duration: 502
   posted: '2026-02-11'
   related: [anua-azelaic-acid-serum, retinoids]
   thesis: Board-certified dermatologist and Harvard/Brigham Mohs surgeon Dr. Abigail Waldman explains how to start using azelaic acid, a naturally occurring acid that treats acne, post-acne redness and dark spots, and rosacea by fighting acne-causing bacteria and blocking the pigment-producing enzyme tyrosinase. She covers when to apply it in a routine, safe combinations with retinoids and prescription acne treatments, expected mild side effects, and notes it is one of the few actives considered safe during pregnancy and breastfeeding. She recommends starting once daily and increasing to twice daily as tolerated, with results from over-the-counter 10% formulas taking up to 8 to 12 weeks.
@@ -476,6 +494,7 @@ videos:
   credential: Board-certified dermatologist (Northwestern MD, Stanford residency); Medical Director of Dermatology, Valley Medical Center, Seattle WA
   platform: YouTube
   url: https://www.youtube.com/watch?v=6RbOuBv0aMk
+  duration: 851
   posted: '2026-08-29'
   related: [melasma, tranexamic-acid, hydroquinone, azelaic-acid, niacinamide, sunscreen-uv-filters, thiamidol]
   thesis: 'Board-certified dermatologist Dr. Sarah Sheu lays out a three-tier system for hyperpigmentation (sunspots, melasma, and post-inflammatory dark spots). Her foundation is not brightening serums but sun and visible-light protection: because visible and blue light also drive pigment and clear sunscreens do not block it, she relies on tinted products containing iron oxides and pigmentary titanium dioxide, or Avene sunscreens with the Tinosorb filter. For actives she favors newer patented ingredients whose clinical studies were run on the exact marketed product (Thiamidol in Eucerin, Melasyl in La Roche-Posay), is skeptical of ingredient claims extrapolated from other formulations, avoids long-term hydroquinone over rebound and ochronosis risk, and reserves oral tranexamic acid, peels, and lasers as a higher-risk last tier.'
@@ -486,6 +505,7 @@ videos:
   credential: Board-certified dermatologist (UK)
   platform: YouTube
   url: https://www.youtube.com/watch?v=ombQvS1pPfg
+  duration: 343
   posted: '2026-04-28'
   related: [azelaic-acid, niacinamide, hydroquinone, arbutin, kojic-acid, melasma, sensitive-skin]
   thesis: 'Board-certified dermatologist Dr. Sam Bunting explains why treating hyperpigmentation on sensitive or darker skin so often backfires: pigment cells (melanocytes) respond to inflammation as a threat, so an irritating treatment can drive the very pigment it is meant to clear, especially in deeper skin tones where the response is stronger and longer-lasting. Her approach is to favor actives that both suppress pigment and calm rather than provoke inflammation, singling out azelaic acid (which inhibits the tyrosinase enzyme, targets overactive melanocytes, and speeds turnover of already-pigmented cells) and niacinamide (which interferes with the transfer of melanin parcels while supporting the skin barrier). She adds that gentler alternatives to harsh options, such as arbutin in place of hydroquinone or kojic dipalmitate in place of kojic acid, can treat pigmentation with less of the irritation that stalls progress.'

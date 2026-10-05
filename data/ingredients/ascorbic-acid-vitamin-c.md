@@ -8,6 +8,7 @@ videos:
   credential: Cosmetic chemist, PhD
   platform: TikTok
   url: https://www.tiktok.com/@labmuffinbeautyscience/video/7178297870498483457
+  duration: 40
   posted: '2022-12-18'
   related: [vitamin-c]
   thesis: "Cosmetic chemist Michelle Wong, PhD, explains that a serum's pH alone does not tell you whether its vitamin C works. The 'below pH 3.5' rule comes from a study of a simple water-based ascorbic acid solution, where the low pH was the only thing helping the vitamin C penetrate, but more complex modern formulas use penetration enhancers beyond pH, so a home pH reading is not a reliable test of a serum."
@@ -18,6 +19,7 @@ videos:
   credential: Board-certified dermatologist (UK)
   platform: YouTube
   url: https://www.youtube.com/watch?v=gWFxLAYaTp4
+  duration: 379
   posted: '2026-04-26'
   related: [azelaic-acid, hydroquinone, arbutin, niacinamide, hyperpigmentation]
   thesis: "Board-certified dermatologist Dr. Sam Bunting (UK) explains that vitamin C is a genuinely useful antioxidant that slows melanin production, but pigmentation forms through nine pathways across three stages, triggers, the tyrosinase enzyme, and melanin delivery and removal, so vitamin C alone only touches part of the process. She says people using vitamin C and sunscreen still need targeted actives like azelaic acid, hydroquinone, arbutin, or niacinamide to address the other pigmentation checkpoints."
@@ -38,6 +40,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=WQrwaOFMEzc
+  duration: 1104
   posted: '2026-08-17'
   related: [vitamin-c, ferulic-acid, tocopherol, anti-aging]
   thesis: Board-certified dermatologist Andrea Suarez (Dr Dray) examines whether a topical vitamin C serum is actually necessary. She explains that vitamin C works mainly as an antioxidant, one important part of the skin's antioxidant defense system but not the only one, and scrutinizes whether the clinical data justifies the high price of many serums. She frames vitamin C as a potentially helpful addition rather than an automatic must-have step.
@@ -48,6 +51,7 @@ videos:
   credential: Dermatologist (MD)
   platform: TikTok
   url: https://www.tiktok.com/@dermydoctor/video/7680539595578019086
+  duration: 68
   posted: '2026-09-01'
   related: [ferulic-acid, vitamin-c, sunscreen-uv-filters]
   thesis: 'Dermatologist Dr. Fatima Fahs points out that the most-studied form of topical vitamin C is a specific combination, 15% L-ascorbic acid with 1% vitamin E (alpha tocopherol) and 0.5% ferulic acid, and that this triple-antioxidant formula has been shown to boost skin luminosity and improve how well sunscreen protects the skin. Her practical takeaway is that this is about the formulation rather than the price or brand: she notes that an inexpensive drugstore serum listing the exact same 15% ascorbic acid, 1% tocopherol, and 0.5% ferulic acid combination offers the same well-studied formula as a far pricier viral serum, so you do not need to spend a lot to get it.'
@@ -58,6 +62,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=lr-5jIX2vhk
+  duration: 749
   posted: '2023-07-20'
   related: [vitamin-c, ferulic-acid, sunscreen-uv-filters, hyperpigmentation, melasma]
   thesis: 'Board-certified dermatologist Dr. Whitney Bowe explains how topical vitamin C works and how its forms differ. She describes three benefits, that it neutralizes free radicals and amplifies a sunscreen''s protection, brightens dark spots by inhibiting the tyrosinase enzyme, and supports collagen production as an enzyme cofactor, and walks through the main forms: L-ascorbic acid is the most-studied active form but is unstable and must be formulated at a low pH (under 3.5) at roughly 8 to 20 percent, which can sting sensitive skin, while newer derivatives such as tetrahexyldecyl ascorbate (lipid-loving) and 3-O-ethyl ascorbic acid (water-loving) were developed to be more stable. Her practical tips: buy L-ascorbic acid in opaque, airless packaging, use it up quickly, and watch for a yellow or brown color shift as a sign it is oxidizing and losing potency.'

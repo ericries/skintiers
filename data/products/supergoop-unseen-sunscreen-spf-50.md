@@ -44,6 +44,7 @@ videos:
   credential: Skincare educator (not a dermatologist or cosmetic chemist)
   platform: YouTube
   url: https://www.youtube.com/watch?v=O5YCzj2AD3c
+  duration: 1429
   posted: '2026-08-02'
   related: []
   thesis: Hyram (Skincare educator, not a dermatologist or chemist) reacts to Nick Jonas's celebrity skincare routine, critiquing each product's price versus formulation quality. On Nick Jonas's use of Supergoop Unseen Sunscreen, Hyram says he is not personally a fan because he finds some of the chemical filters in that formula potentially irritating and sensitizing, and he recommends lightweight Korean alternatives (Numbuzin Clear Filter SPF 50 or Hada Labo Wonder Black Rice SPF 50) instead, while acknowledging that the best sunscreen is whichever one a person will actually use consistently. He also flags that Nick Jonas's multi-blade razor and light shaving-cream lather could aggravate razor burn, recommending more lather and a single-blade razor for people prone to it, and concludes that while the overall routine's ingredients and formulation philosophy are sound, the price points are excessive.

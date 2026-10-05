@@ -14,6 +14,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=r8LDQJad6k0
+  duration: 868
   posted: '2026-01-17'
   related: [skin-barrier-strengthening]
   thesis: Board-certified dermatologist Dr. Joyce Park walks through Korean skincare and makeup she bought at Olive Young in Korea. On the skincare side she highlights barrier-repair creams built on ceramides, cholesterol, and fatty acids to cut transepidermal water loss, a squalane cream for lighter daytime hydration on combination/oily skin, panthenol for soothing, and a black rice ampule as a gentle chemical exfoliant for sensitive skin. She also explains PA ratings (UVA protection grading) on a Korean SPF 50 sunscreen, and, on a colostrum-containing pore-defense ampule, notes lab studies suggest growth factors and wound-healing benefits but says human clinical research is still limited.

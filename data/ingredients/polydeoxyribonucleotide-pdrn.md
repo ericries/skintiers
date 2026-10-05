@@ -24,6 +24,7 @@ videos:
   credential: ""
   platform: YouTube
   url: https://www.youtube.com/watch?v=E0lH6oDlPyM
+  duration: 2101
   posted: '2026-05-06'
   related: [niacinamide, iope-stem-3-clinical-recovery-serum]
   thesis: "Cosmetic chemists Chemist Confessions (Victoria Fu and Gloria Lu) reviewed five Korean-beauty PDRN products: numbuzin's PDRN glow-boosting toner, Mediheal's PDRN Lifting Serum, Dr. Leegeehaam's PDRN rejuvenating cream, Rejuran's Turnover Ampoule, and IOPE's Stem 3 Clinical Recovery Serum. They highlighted IOPE's split-face study, which compared the topical product on one side of subjects' faces against an actual salmon-derived PDRN injection on the other, as by far the most useful data in the category. They ultimately recommended IOPE as their pick for pore size and hydration results, while cautioning that most of the other products used low or diluted PDRN concentrations with vague marketing claims that made it hard to draw firm conclusions about efficacy."
@@ -34,6 +35,7 @@ videos:
   credential: "Cosmetic chemists"
   platform: YouTube
   url: https://www.youtube.com/watch?v=lrmLKfFBpIk
+  duration: 578
   posted: '2025-12-15'
   related: []
   thesis: "Cosmetic chemists Chemist Confessions (Victoria Fu and Gloria Lu) dig into the science of PDRN (polydeoxyribonucleotide) in skincare, noting the ingredient has its roots in in-office treatments like injectable Rejuran and microneedling rather than at-home topicals. They explain that separating the in-office evidence from what a leave-on topical can actually do is difficult, and that the in-office side in particular is a wild west of strong benefit claims with unclear sourcing, so consumers should be cautious about extrapolating dramatic results to over-the-counter PDRN serums."
@@ -44,6 +46,7 @@ videos:
   credential: Cosmetic chemists
   platform: YouTube
   url: https://www.youtube.com/watch?v=2kv1r2rPje4
+  duration: 2354
   posted: '2026-04-22'
   related: [anti-aging, peptides]
   thesis: Cosmetic chemists Victoria Fu and Gloria Lu of Chemist Confessions assess whether PDRN (polydeoxyribonucleotide), a DNA fragment commonly sourced from salmon sperm or trout, is a longevity breakthrough or marketing hype in skincare. They note that the most impressive evidence comes from PDRN injected into wounds such as diabetic foot ulcers rather than from topical skincare use, and that studies on topical PDRN are sparse. They treat the topical hype with skepticism while finding the underlying DNA-fragment concept more logically grounded than plant-derived exosome claims.
@@ -54,6 +57,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=bktMjB3Ke2o
+  duration: 1151
   posted: '2026-08-24'
   related: []
   thesis: Board-certified dermatologist Dr Dray explains PDRN (polydeoxyribonucleotide), the trending ingredient that shows up on skincare labels as sodium DNA and is typically isolated from salmon or trout milt. Reviewing the Anua PDRN Caffeine Rejuvenating Eye Cream (about 20 dollars at Ulta) as her example, she is skeptical of the hype, noting that the buzz around injected PDRN does not automatically carry over to what a leave-on topical can deliver.
@@ -64,6 +68,7 @@ videos:
   credential: Cosmetic chemists
   platform: YouTube
   url: https://www.youtube.com/watch?v=SysrE5ChRJg
+  duration: 2968
   posted: '2026-08-26'
   related: []
   thesis: 'Cosmetic chemists Victoria Fu and Gloria Lu of Chemist Confessions interview Charlotte Cho, founder of Soko Glam and the K-beauty brand Then I Met You, about the state of Korean skincare. Cho explains that toner and essence are largely interchangeable, brand-defined category names, that snail mucin has endured as an ingredient because it hydrates without heaviness (not just because of TikTok trends), and that recent US sunscreen filter crackdowns forced Korean brands to reformulate hero sunscreens while still performing well. In a rapid-fire "worth the hype" segment, the hosts and Cho give informal verdicts on several trending ingredients: exosomes (not yet, evidence still pending), PDRN (potentially yes but highly dependent on brand and sourcing, since claims of "PDRN" vary widely in quality), NAD+ (unproven, not yet in her routine), topical glutathione (yes, though injectable/ingestible glutathione is viewed skeptically), and Volufiline (skeptical of viral filler-like marketing
@@ -75,6 +80,7 @@ videos:
   credential: Skincare educator (not a dermatologist or cosmetic chemist)
   platform: YouTube
   url: https://www.youtube.com/watch?v=wrmkqe2rK5g
+  duration: 1448
   posted: '2026-08-07'
   related: []
   thesis: Skincare educator Hyram traces PDRN (polydeoxyribonucleotide) from its 1980s Italian origin as a wound-healing extract to its rise as a Korean injectable skin booster, then explains that topical PDRN in skincare products has much less research behind it than injectable PDRN, with unclear skin absorption and no data comparable to well-studied actives like retinoids, vitamin C, or sunscreen. He concludes PDRN can be a worthwhile bonus ingredient in an otherwise well-formulated product, but there is not enough evidence to justify buying or adding a product specifically because it contains PDRN.
@@ -85,6 +91,7 @@ videos:
   credential: Board-certified dermatologist
   platform: TikTok
   url: https://www.tiktok.com/@drheathermd/video/7645401636201893134
+  duration: 65
   posted: '2026-05-29'
   related: []
   thesis: 'Dr. Heather Woolery-Lloyd, a board-certified dermatologist, explains marine spicules: microscopic needle-like structures harvested from sponges that create a controlled micro-injury in skin, forming temporary pathways thought to boost penetration of actives like peptides and PDRN before the spicules shed away. She notes spicule products typically start at 0.1 to 1 percent concentration to limit irritation, and that experts advise against pairing them with aggressive treatments like retinoids or strong acne medications to avoid over-exfoliation'
@@ -95,6 +102,7 @@ videos:
   credential: Beauty product developer and skincare educator (not a dermatologist or cosmetic chemist)
   platform: TikTok
   url: https://www.tiktok.com/@kristingl/video/7686222323841584398
+  duration: 56
   posted: '2026-09-16'
   related: [panthenol, centella-asiatica, medicube-pdrn-pink-collagen-exosome-shot-serum, anua-pdrn-caffeine-rejuvenating-eye-cream]
   thesis: 'Beauty product developer Kristin Leite (not a dermatologist or cosmetic chemist) makes a practical formulation point about PDRN (polydeoxyribonucleotide) products. Using a Dr. Althea PDRN cream and a Heveblue salmon-care ampoule as examples, she argues that even someone skeptical of PDRN is not wasting their money, because these formulas are built on base ingredients that work on their own: panthenol, a form of vitamin B that hydrates and supports the skin barrier, and centella water, which soothes and hydrates. Her takeaway is to judge a product as a whole formula rather than by a single hero ingredient.'

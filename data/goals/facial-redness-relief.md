@@ -41,6 +41,7 @@ videos:
   credential: Board-certified dermatologist
   platform: TikTok
   url: https://www.tiktok.com/@dr.iferodney/video/7678436584059882765
+  duration: 41
   posted: '2026-08-26'
   related: [poikiloderma-of-civatte]
   thesis: Dr. Ife Rodney, a board-certified dermatologist, breaks down the mechanism behind laser treatments. She explains that lasers target specific pigments, brown melanin in laser hair removal heats and destroys the follicle, while red pigment in blood vessels absorbs laser energy to seal off unwanted vessels for redness. She cautions that a laser must be tuned to avoid absorption by normal surface skin pigment, since mismatched targeting can cause burning and discoloration, especially in brown and darker skin types

@@ -94,6 +94,7 @@ videos:
   title: Skincare Companies Don't Want You to Know This (Dermatologist's Anti-Aging
     Guide)
   url: https://www.youtube.com/watch?v=u2RBcVQZVyU
+  duration: 696
 - creator: ''
   creator_slug: mamina-turegano
   credential: ''
@@ -129,6 +130,7 @@ videos:
     targeting mitochondrial dysfunction and cellular senescence in skin cells.'
   title: How To Stop Skin Sagging + Slow Ageing - It's Not All About Collagen
   url: https://www.youtube.com/watch?v=Xq8nuUQdvMM
+  duration: 477
 - creator: Javon Ford
   creator_slug: javon-ford
   credential: Cosmetic chemist
@@ -145,6 +147,7 @@ videos:
     makes it more necessary than historical comparisons suggest.
   title: The Most Effective Anti-Aging Products (As Backed by Research)
   url: https://www.youtube.com/watch?v=WAkznrGVrPw
+  duration: 562
 - creator: Dr. Sam Ellis
   creator_slug: samantha-ellis
   credential: Board-certified dermatologist
@@ -170,6 +173,7 @@ videos:
     add.
   title: Science-Backed Skincare Dupes Saving My Patients Thousands
   url: https://www.youtube.com/watch?v=MGQfH7lQPNU
+  duration: 593
 - creator: Dr. Dustin Portela
   creator_slug: dustin-portela
   credential: Board-certified dermatologist
@@ -191,12 +195,14 @@ videos:
     foundation.
   title: The Longevity Serums Worth Buying (And The Scams)
   url: https://www.youtube.com/watch?v=jMC07PlUMSk
+  duration: 609
 - title: Don’t Believe the Noise About Facelifts Replacing Filler  -  Here’s What Your Face Actually Needs
   creator: Dr. Shereene Idriss
   creator_slug: shereene-idriss
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=LcmzsfvjWVY
+  duration: 747
   posted: '2026-08-15'
   related: [retinoids]
   thesis: 'Board-certified dermatologist Dr. Shereene Idriss explains that facial aging involves three separate layers, bone structure, fat/collagen volume, and skin, and that a facelift only addresses the skin layer by removing excess skin and repositioning fat, not restoring lost bone or volume. She cites a 30-year study finding deep-plane facelifts last an average of 10.9 years, and argues most people chasing surgery too early (in their 30s) are being sold fear by social media. She lays out a decade-by-decade plan: focus on skin care, retinoids, and sun protection in your 30s, conservative in-office collagen-stimulating and filler treatments in your 40s, and only consider surgery once skin laxity itself, not bone or fat loss, is the main problem.'
@@ -207,6 +213,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=4L2cCOmdg7A
+  duration: 881
   posted: '2023-06-27'
   related: [acne]
   thesis: Board-certified dermatologist Dr. Usama Syed explains the science behind red light therapy (photobiomodulation), citing a placebo-controlled split-face trial showing increased collagen, elastic fibers, and fibroblast activity with red/near-infrared LED light, plus a 107-person RCT where combined red and blue light outperformed benzoyl peroxide for acne. He then compares commercial at-home devices against the clinical-trial power output (105 mW/cm2 from the medical-grade Omnilux used in the anti-aging study), finding the Solawave wand's 40-45 mW/cm2 output and 7-LED design far weaker and its before-and-after photos misleading (inconsistent lighting, angles, and expressions). He concludes red light devices have real evidence for anti-aging and acne, but recommends higher-powered full-face LED masks like SpectraLite Faceware Pro or Omnilux Contour Face over handheld wands like Solawave.
@@ -217,6 +224,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=Lbgv3HB4BTE
+  duration: 1253
   posted: '2025-10-17'
   related: [retinoids, vitamin-c, sunscreen-uv-filters]
   thesis: Dr. Caroline Robinson, a board-certified cosmetic dermatologist, walks through a "roadmap" of anti-aging treatments ordered from least to most invasive. She argues a foundational routine of daily sunscreen, a topical retinoid, and an antioxidant like vitamin C should come first, since most visible aging traces back to collagen breakdown that starts in your 20s. From there she ranks skin-quality treatments (medical-grade microneedling as her top pick, chemical peels, laser, and skin boosters), then injectables (Botox for muscle movement, filler for volume loss using her "sink or sag" test, generally not before age 25), energy-based treatments (RF and ultrasound for subtle tightening, LED as a "nice to have"), and surgery as a last resort, urging a less-is-more, natural-looking approach throughout.
@@ -227,6 +235,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=inETd97YArQ
+  duration: 51
   posted: '2026-05-04'
   related: [dark-circles]
   thesis: Board-certified dermatologist Dr. Caroline Robinson explains her sequencing approach for lines around the eyes, including crow's feet and under-eye lines caused by volume loss or structural change. She says she treats skin quality, structure, and pigment first, since under-eye lines often improve on their own with microneedling, skin tightening, or filler. Only after that does she address remaining lines with neurotoxin (Botox), and she notes this sequencing typically reduces how much line correction is ultimately needed.
@@ -237,6 +246,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=87FtOO1RDnM
+  duration: 1776
   posted: '2026-08-06'
   related: [anti-aging-perimenopause]
   thesis: 'Dr. Jenny Liu, a board-certified dermatologist, explains that skin biology (collagen production, cell turnover, sebum, and barrier function) shifts meaningfully each decade, so a routine that worked at 25 needs to change by 35, 45, and 55. She lays out a constant foundation for every age (daily SPF 30+, gentle cleansing, and moisturizer), then walks through what to add or swap per decade: preventive vitamin C and eventually retinoids in the 20s, more retinoid/exfoliation and consideration of in-office resurfacing in the 30s, addressing laxity with treatments like skin-tightening devices, Botox, and chemical peels starting in the 40s, and in the 50s adjusting for the collagen and barrier loss that comes with menopause using richer, barrier-supportive product lines plus eye/neck creams. She frames the message as adjusting and layering in a few products over time rather than overhauling the routine every ten years.'
@@ -247,6 +257,7 @@ videos:
   credential: Dermatologist (MD)
   platform: TikTok
   url: https://www.tiktok.com/@dermydoctor/video/7678322579274304781
+  duration: 70
   posted: '2026-08-26'
   related: []
   thesis: Dermatologist Dr. Fatima Fahs warns that with more med spas in the US than McDonald's, she frequently sees patients who have been overfilled or over-injected because the provider did not want to say no to more revenue. She urges patients to pause before any injectable or cosmetic procedure, resist pressure to proceed if hesitant, and get a second opinion, reminding viewers that facial procedures can go wrong in ways that are sometimes irreversible
@@ -257,6 +268,7 @@ videos:
   credential: Board-certified dermatologist
   platform: TikTok
   url: https://www.tiktok.com/@skindoctoks/video/7624632290739621133
+  duration: 64
   posted: '2026-04-03'
   related: [peptides, sunscreen-uv-filters]
   thesis: Board-certified dermatologist Dr. Michelle Henry explains how to protect and stimulate the skin's collagen for anti-aging. She stresses daily sunscreen (SPF 30, or SPF 50 outdoors over an hour), and notes that creams labeled collagen do little because the collagen molecule is too large to penetrate skin, so what works are peptides or collagen peptides small enough to get in and signal the skin to make more collagen. She adds that diet matters, pointing to lean meats, bone broth, and fish for amino acids and citrus as a cofactor the body needs to build collagen.
@@ -267,6 +279,7 @@ videos:
   credential: Board-certified dermatologist
   platform: TikTok
   url: https://www.tiktok.com/@draegeanchan/video/7684001723794443551
+  duration: 32
   posted: '2026-09-10'
   related: [sunscreen-uv-filters, retinoids]
   thesis: 'Board-certified dermatologist Dr. Aegean Chan explains that UV damage is, in her view, the number one driver of skin aging: chronic sun exposure degrades collagen and elastic fibers, producing the change dermatologists call solar elastosis, which she describes as mushy collagen. She uses that as a skeptical yardstick for skincare marketing, asking whether any cream could realistically reverse 50 years of accumulated UV damage, and concludes there is no magic solution.'
@@ -277,6 +290,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=ejnuKJAjoIY
+  duration: 896
   posted: '2026-09-13'
   related: [retinoids, vitamin-c, sunscreen-uv-filters, peptides, niacinamide, dark-circles]
   thesis: 'Board-certified dermatologist Dr. Aleksandra Brown compares the flagship luxury lines from Lancome and Estee Lauder and concludes their signature serums, eye creams, and moisturizers are built on gentle supporting ingredients like bifida ferment, peptides, and niacinamide rather than heavy-lifting actives. She argues the high prices mostly buy elegant textures, packaging, and ritual rather than superior results, since the same supporting ingredients show up in far cheaper formulas. Her bottom line for slowing visible aging at any budget is three proven workhorses: a retinoid at night, vitamin C in the morning, and daily sunscreen.'
@@ -287,6 +301,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=8Ye-VLrydkE
+  duration: 1442
   posted: '2026-09-10'
   related: [retinoids, tretinoin, vitamin-c, peptides, sunscreen-uv-filters, copper-peptides, palmitoyl-pentapeptide-4-matrixyl, retinol]
   thesis: 'Board-certified dermatologist Dr. Jenny Liu explains collagen banking, the idea that because skin loses roughly 1% of its collagen per year starting in the mid-20s (and much more in early menopause), it is worth stimulating and preserving collagen early rather than waiting for visible wrinkles. She frames a consistent at-home routine as the foundation, built on the best-evidenced actives: a topical retinoid (tretinoin or a tolerated retinol) used long-term, a vitamin C antioxidant serum, collagen-signaling peptides such as Matrixyl or copper peptides, and daily sunscreen, and stresses that lifestyle habits (sleep, diet, not smoking, sun avoidance) can make or break the results. She presents in-office procedures like microneedling and biostimulatory fillers as complements to that routine rather than replacements, noting collagen banking is a long-term methodology, not any single miracle product or treatment.'
@@ -297,6 +312,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=b2A1t1VBk84
+  duration: 1256
   posted: '2026-09-09'
   related: []
   thesis: 'Board-certified dermatologist Dr Dray explains how diet ties into skin aging: dietary sugars can react with skin proteins in a process called glycation, forming advanced glycation end products (AGEs) that damage collagen and elastin over time, so the idea that sugar ages skin has a real biological basis. She cautions against overreacting to it, noting whole fruit (with its fiber and antioxidants) is not the problem that sugary processed foods are, and that a pattern rich in a variety of vegetables, fruit, legumes, and whole grains supplies antioxidants that help skin defend against damage. Her practical emphasis is cooking your own meals and limiting processed and charred red meats, which are high in AGEs, rather than fearfully cutting out single foods.'

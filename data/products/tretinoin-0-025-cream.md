@@ -23,6 +23,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=MT4DrMVbotE
+  duration: 1301
   posted: '2026-04-03'
   related: [tretinoin]
   thesis: "Board-certified dermatologist Dr. Sam Ellis says almost everyone should start tretinoin at the lowest strength, 0.025% cream, and let the skin acclimate, or 'retinize,' rather than starting high, which just causes needless irritation. She recommends using a pea-sized amount for the whole face, beginning around twice a week and building up gradually, and holding off on other exfoliating actives until the tretinoin has settled in."

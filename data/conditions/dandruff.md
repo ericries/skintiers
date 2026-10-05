@@ -47,6 +47,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=AGVZfO3rhQU
+  duration: 403
   posted: '2024-11-22'
   related: [seborrheic-dermatitis, selenium-sulfide, ketoconazole, salicylic-acid]
   thesis: 'Board-certified dermatologist Dr. Joyce Park explains that dandruff is the scalp form of seborrheic dermatitis, an inflammatory scaly condition of oil-rich areas (scalp, eyebrows, sides of the nose, chest) thought to be driven by Malassezia yeast and worsened by stress. She lays out an over-the-counter-first treatment ladder: rotate antifungal or anti-inflammatory shampoos with different actives (pyrithione zinc, selenium sulfide, ketoconazole) and a salicylic acid shampoo to lift flakes, leaving each on for three to five minutes, and for facial involvement a short course of over-the-counter hydrocortisone mixed with an antifungal cream. She notes prescription options like ketoconazole at higher strength or non-steroid calcineurin inhibitors only if the drugstore ladder fails.'

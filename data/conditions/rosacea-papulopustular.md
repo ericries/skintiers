@@ -67,6 +67,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=05ysCxb8gxg
+  duration: 75
   posted: '2024-03-26'
   related: [rosacea, ivermectin-topical, soolantra-ivermectin-1-cream]
   thesis: Board-certified dermatologist Dr Scott Walter explains the suspected link between rosacea and Demodex, the microscopic mites that live in the pores of everyone's face and feed on skin oil and dead cells. He points out that these mites are normal and present on all of us but are thought to play a role in the common inflammatory condition rosacea, which is part of why an anti-mite topical like ivermectin helps, and shows how he sampled his own skin overnight using tape.
@@ -77,6 +78,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=iDgHqa_MI0Q
+  duration: 655
   posted: '2023-08-23'
   related: [azelaic-acid, sunscreen-uv-filters, rosacea]
   thesis: 'Board-certified dermatologist Dr. Usama Syed walks through rosacea treatment in tiers: lifestyle changes (physical sunscreen with zinc or titanium, avoiding spicy food, cold weather, and other flare triggers), over-the-counter options, prescription creams, and procedures. He singles out azelaic acid as a standout ingredient for rosacea because it is anti-inflammatory, reduces redness, and is safe in pregnancy, and warns against physical or chemical exfoliants, benzoyl peroxide, and unmodified retinoids since they can irritate rosacea-prone skin.'
@@ -87,6 +89,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=SMVvY1QAavY
+  duration: 1126
   posted: '2026-07-18'
   related: [rosacea-erythematotelangiectatic, brimonidine, sunscreen-uv-filters]
   thesis: 'Board-certified dermatologist Andrea Suarez (Dr Dray) answers a viewer who quit drinking but still has persistent facial redness, using it to explain alcohol as a rosacea trigger. She describes how rosacea can progress from alcohol-triggered flushing to fixed facial redness that does not resolve on its own, and outlines what helps that fixed redness: light-based devices such as intense pulsed light or pulsed-dye laser, the topical vasoconstrictor brimonidine for temporary improvement, plus daily sunscreen and gentle moisturizers, since UV exposure and an impaired skin barrier worsen rosacea.'
@@ -97,6 +100,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=erSEdS4hnSc
+  duration: 667
   posted: '2026-04-19'
   related: [azelaic-acid, rosacea, acne]
   thesis: Board-certified dermatologist Dr. Dustin Portela breaks down why he considers azelaic acid one of the most versatile ingredients in his practice, using it to treat acne, rosacea, melasma, and post-inflammatory hyperpigmentation in the same patients. He walks through the four mechanisms behind the ingredient, including its antibacterial and anti-inflammatory effects, and explains why he considers it one of the few topical options he is comfortable recommending during pregnancy.
@@ -107,6 +111,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=2PcEEEkdGaU
+  duration: 56
   posted: '2026-08-30'
   related: [rosacea, soolantra-ivermectin-1-cream, ivermectin-topical]
   thesis: Dr. Angelo Landriscina, a board-certified dermatologist, explains that the tiny creatures living in everyone's pores are not worms but Demodex folliculorum mites, which feed on dead skin cells and migrate across the skin at night. He notes they are normal residents of human skin, but they can cause problems such as blepharitis (eyelid inflammation), full-on Demodex folliculitis, and a role in rosacea, though the exact mechanism of that rosacea link is not fully clear. He adds that when Demodex mites do cause problems, effective treatments exist.

@@ -35,6 +35,7 @@ videos:
   credential: Cosmetic chemist
   platform: TikTok
   url: https://www.tiktok.com/@javonford16/video/7635837533212953869
+  duration: 47
   posted: '2026-05-04'
   related: [retinol]
   thesis: "Cosmetic chemist Javon Ford warns against DIY-mixing raw retinol into a body lotion at home, because retinol is already hard to stabilize and an open-air container will not preserve it, calling the practice wasteful rather than money-saving when cheaper pre-formulated retinol body creams like this one already exist."

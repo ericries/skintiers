@@ -34,6 +34,7 @@ videos:
   credential: Board-certified dermatologist (Northwestern MD, Stanford residency); Medical Director of Dermatology, Valley Medical Center, Seattle WA
   platform: YouTube
   url: https://www.youtube.com/watch?v=IVIDgkJ7UOA
+  duration: 913
   posted: '2026-07-11'
   related: [zinc-oxide, titanium-dioxide, anti-aging]
   thesis: Board-certified dermatologist Dr. Sarah Sheu walks through how she actually picks sunscreens for her own skin and her patients, covering face, mineral-only, high-intensity-sun, body, and kids formulas. She explains the difference between true mineral filters (zinc oxide, titanium dioxide only) and hybrid sunscreens that use inactive ingredients like butyl octyl salicylate to boost SPF, why proper application amount matters more than lab SPF numbers, and why the newly FDA-approved filter Tinosorb S is a meaningful upgrade for US sunscreens because it covers UVA and UVB and is photostable. She closes by stressing that consistent daily wear plus physical protection like hats and UPF clothing matters more than which specific product you choose.

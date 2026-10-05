@@ -14,6 +14,7 @@ videos:
   credential: "Board-certified dermatologist"
   platform: YouTube
   url: https://www.youtube.com/watch?v=qlGhez_uw94
+  duration: 609
   posted: '2026-02-28'
   related: [acne, rosacea]
   thesis: "In a rundown of ingredients for the look of large pores, board-certified dermatologist Dr. Shereene Idriss recommends salicylic acid for oil-prone, acne-prone skin because it is oil-loving and gets pulled into oil-clogged pores where it helps clear the buildup, calling it a good option for blackheads and clogged pores. She cautions that salicylic acid can be inflammatory and irritating on rosacea-prone skin, making it a double-edged sword for reactive skin types."
@@ -24,6 +25,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=3ERdIaNqdYc
+  duration: 90
   posted: '2026-08-30'
   related: [niacinamide, differin-adapalene-0-1-gel, la-roche-posay-effaclar-adapalene-gel-0-1]
   thesis: 'Board-certified dermatologist Dr. Daniel Sugai explains clogged pores as a form of comedonal acne (whiteheads and blackheads, common on the forehead) and lays out his prevention approach: never sleep in makeup or without cleansing, use a lipid-soluble salicylic acid (BHA) product regularly to help clear pores, and add a retinoid since he says retinoids are not all the same. He recommends over-the-counter adapalene (Differin or La Roche-Posay) applied pea-size to the whole face, or a prescription tretinoin from a dermatologist for stronger cases, noting both work well on inflammatory acne and clogged pores. He also advises a lightweight sunscreen containing niacinamide, explaining that sun exposure can dilate pores and make them more clogged and enlarged over time.'
@@ -34,6 +36,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=coUHJ-vt5F8
+  duration: 56
   posted: '2026-08-24'
   related: [la-roche-posay-cicaplast-baume-b5, blackheads-clogged-pores]
   thesis: Board-certified dermatologist Dr. Jenny Liu outlines a six-step routine to reduce the appearance of sebaceous filaments (the natural oil-duct openings around the nose and cheeks often mistaken for blackheads). She recommends a gentle cleanser (double cleansing if wearing makeup), nightly adapalene (Differin) for cell turnover, a salicylic acid exfoliant a few times a week to clear pores of sebum, consistent moisturizing to keep the skin barrier healthy, and a weekly clay mask for very oily skin to pull out excess oil. She notes moisturizer doesn't directly clear filaments but supports skin turnover, which is why some people credit products like Cicaplast with improvement.
@@ -44,6 +47,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=sjqs8gBjiAM
+  duration: 58
   posted: '2026-08-17'
   related: []
   thesis: 'Board-certified dermatologist Dr. Neera Nathan explains that the small persistent bumps many people see on the chin and nose are not pimples or milia but sebaceous filaments, normal pore structures that cannot be eliminated but can be minimized. She offers three derm-approved approaches: a sulfur mask left on 10 minutes to break down debris and reduce surface oiliness, a salicylic acid cleanser to exfoliate and cut sebum without stripping the skin barrier, and a pea-sized amount of adapalene gel, which she says is unmatched over-the-counter for keeping pores clear and appearing smaller.'
@@ -54,6 +58,7 @@ videos:
   credential: Board-certified dermatologist
   platform: TikTok
   url: https://www.tiktok.com/@dr.sheila_derm/video/7676886999835430174
+  duration: 49
   posted: '2026-08-22'
   related: [acne, sheila-farhang]
   thesis: 'Board-certified dermatologist Dr. Sheila Farhang explains why back acne (bacne) is more painful than facial acne: the skin on the back is thicker and oilier with larger follicles, so clogged pores trap inflammation deep in the skin with little room to expand. She recommends a benzoyl peroxide wash from the neck down to reduce bacteria, a salicylic acid spray to cut oil clogging pores, and a chemical exfoliant to boost cell turnover and help fade scars, and notes that large or scarring lesions may need an in-office cortisone injection or other medical treatment from a dermatologist'
@@ -64,6 +69,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=9QdcZWQObDY
+  duration: 846
   posted: '2026-09-05'
   related: [keratosis-pilaris, acne]
   thesis: Board-certified dermatologist Dr. Andrea Suarez (Dr Dray) pushes back on the idea that a salicylic acid cleanser is useless because it rinses off in under a minute, explaining a formulation process called coacervation that deposits active ingredients onto the skin as the rest of the product and oil and debris wash away. She says a salicylic acid cleanser genuinely helps with blackheads, whiteheads, rough skin texture, and keratosis pilaris, and is milder and better tolerated than a leave-on salicylic acid, though results come more slowly. She notes salicylic acid body washes are especially useful for acne on the trunk.
@@ -74,6 +80,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=CnavKy2BsU4
+  duration: 19
   posted: '2026-09-01'
   related: [glycolic-acid, enlarged-pores, hormonal-acne, keratosis-pilaris]
   thesis: Board-certified dermatologist Dr. Neera Nathan gives a quick guide to choosing between salicylic acid and glycolic acid by skin concern. In her rundown, salicylic acid is the pick for large pores, hormonal acne, and blackheads, while glycolic acid is the pick for body odor, ingrown hairs, dark spots, calloused heels, and crepey skin.
@@ -84,6 +91,7 @@ videos:
   credential: Licensed esthetician
   platform: TikTok
   url: https://www.tiktok.com/@your.estie.ella/video/7692551509359283469
+  duration: 178
   posted: '2026-10-03'
   related: [acne, azelaic-acid, minimalist-routine, retinoids]
   thesis: 'Licensed esthetician Ella (@your.estie.ella) walks an Ulta shelf and criticizes the marketing on a bundle sold as four products, one complete acne care routine. Her objection is to the bundling rather than the products: following it as a routine would have you using salicylic acid in the cleanser plus a separate 2% salicylic acid treatment, so the same acid twice, which she treats as redundant rather than more effective. She says she likes several of the products individually, including one that is calming rather than active, and the point is that a marketed complete routine is not automatically a well-built one.'

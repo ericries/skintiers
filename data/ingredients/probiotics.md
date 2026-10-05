@@ -13,6 +13,7 @@ videos:
   credential: ""
   platform: TikTok
   url: https://www.tiktok.com/@drheathermd/video/7563884756690128183
+  duration: 78
   posted: '2025-10-22'
   related: [inulin]
   thesis: "Dr. Heather Woolery-Lloyd, a board-certified dermatologist, clarifies the differences between prebiotics, probiotics, postbiotics, and synbiotics in skincare. She explains prebiotics like inulin feed beneficial skin bacteria, while true live probiotic bacteria are rarely formulated into cosmetics; postbiotics are the beneficial metabolites bacteria produce and deliver benefits without live organisms. Synbiotics combine prebiotics and probiotics in one product but run into the same live-bacteria formulation limitation."

@@ -18,6 +18,7 @@ videos:
   credential: Cosmetic chemists
   platform: YouTube
   url: https://www.youtube.com/watch?v=1XaMAFDY36I
+  duration: 1948
   posted: '2026-08-06'
   thesis: "Cosmetic chemists Victoria Fu and Gloria Lu, who run the channel Chemist Confessions, distill years of testing sunscreens into practical takeaways for choosing and using sunscreen. They keep returning to application amount, since most people underapply, offering a two-finger or roughly quarter-teaspoon guide for the face as a rough calibration, and they argue reapplication should be judged by time and activity rather than by the SPF number. They also stress that a sunscreen's texture and feel matter, because a formula you enjoy is one you will actually apply enough of and reapply."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship disclosed. Cosmetic chemists; an educational summary of how to choose and apply sunscreen, not a promotion of their own line."
@@ -27,6 +28,7 @@ videos:
   credential: Cosmetic chemist, PhD
   platform: YouTube
   url: https://www.youtube.com/watch?v=wATBG1X7HX4
+  duration: 3293
   posted: '2026-05-23'
   thesis: "Cosmetic chemist Michelle Wong, PhD, debunks popular sunscreen myths, focusing on the claim that mineral (physical) sunscreens are inherently superior. She argues the ideas that mineral filters protect better against blue light, or against UVA because they block all wavelengths, are not supported, and that some of these claims trace back to a single flawed paper."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship. A longer companion to her mineral-sunscreen short above."
@@ -36,6 +38,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=BVnGrOMfeRM
+  duration: 1405
   posted: '2026-08-02'
   thesis: "Board-certified dermatologist Andrea Suarez (Dr. Dray), asked whether chemical sunscreen filters get into the bloodstream and affect hormone levels, confirms these ingredients can be detected in blood after application, including days later, but says that has never been shown to cause harm to human health. She notes the studies linking these filters to hormone disruption used very high systemic doses in small animals, far above real topical exposure, and that the filters have decades of human use without evidence of endocrine harm."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
@@ -45,6 +48,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=i3IQCX0wRko
+  duration: 1332
   posted: '2026-07-26'
   thesis: "Board-certified dermatologist Andrea Suarez (Dr. Dray) says current research does not show that wearing sunscreen lowers vitamin D levels, while flagging that most of these studies were done on beachgoers and have not tested very high-SPF products specifically. She also questions the broader vitamin D deficiency narrative itself, arguing that lowered lab thresholds plus confounders like obesity and chronic inflammation (vitamin D behaves as a negative acute-phase reactant) have inflated how many people get labeled deficient."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
@@ -54,6 +58,7 @@ videos:
   credential: "Cosmetic chemist, PhD"
   platform: YouTube
   url: https://www.youtube.com/watch?v=VmNxyhN8ZxI
+  duration: 1593
   posted: '2025-05-24'
   thesis: "Sunscreen UV filters and the safety claims made against them are the subject of this video from Michelle Wong, a cosmetic chemist with a PhD, who fact-checks a viral video from a self-described toxicologist attacking chemical and mineral sunscreen ingredients. Wong walks through the actual toxicology literature on retinyl palmitate, zinc oxide nanoparticles, and chemical filters like oxybenzone and octinoxate, showing that several of the cited studies do not support the claims being made and that a homemade DIY sunscreen recommended in the original video would likely test at only around SPF 6. She argues that checking a broad scientific consensus, rather than a single study or a single expert, is the more reliable way to evaluate sunscreen safety claims."
   related: ["zinc-oxide", "avobenzone", "octinoxate", "homosalate", "octisalate", "retinyl-esters"]
@@ -64,6 +69,7 @@ videos:
   credential: "Cosmetic chemists"
   platform: YouTube
   url: https://www.youtube.com/watch?v=lrdVLpnZyLs
+  duration: 3407
   posted: '2026-06-25'
   thesis: "Cosmetic chemists Victoria Fu and Gloria Lu of Chemist Confessions explain what actually separates a sunscreen people keep using from one that ends up abandoned, covering how fast a formula sets, whether its finish stays comfortable over hours of wear, and how well it holds up to sweat, rubbing, and face-touching. Drawing on their own multi-year sunscreen testing, they single out La Roche-Posay's Anthelios UV Mune 400 as setting unusually fast and encouraging generous reapplication, while also naming Beauty of Joseon's Relief Sun and Round Lab's Birch Juice sunscreen as broadly tolerated, easy starting points. They also push back on the idea that labels like oil-free reliably predict comfort for acne-prone or oily skin."
   related: ["la-roche-posay-anthelios-uvmune-400-spf-50", "beauty-of-joseon-relief-sun-rice-probiotics-spf50", "round-lab-birch-juice-moisturizing-sun-spf-50"]
@@ -74,6 +80,7 @@ videos:
   credential: "Licensed esthetician"
   platform: YouTube
   url: https://www.youtube.com/watch?v=sAlaTROAY5U
+  duration: 620
   posted: '2024-07-26'
   thesis: "Licensed esthetician Cassandra Bankson reacts to L'Oreal's viral commercial comparing unprotected skin to toasted bread, explaining that a toaster produces heat rather than the UVA and UVB radiation the sun emits, so the demonstration does not reflect how sunscreen actually works. She clarifies that sunscreen functions by absorbing or blocking UV rays before they can damage skin cell DNA, the same DNA damage that drives skin cancer, and that the bread in the ad browned unevenly because wet bread resists toasting until its moisture evaporates, not because of any protective effect. The video critiques misleading skincare marketing while delivering an accurate explanation of how UV radiation and sunscreen protection work."
   related: ["best-sunscreens-daily-wear"]
@@ -84,6 +91,7 @@ videos:
   credential: "Board-certified dermatologist"
   platform: YouTube
   url: https://www.youtube.com/watch?v=9vBSYuj9CVA
+  duration: 614
   posted: '2026-06-07'
   thesis: "Board-certified dermatologist Dr. Dustin Portela walks through five sunscreen myths spreading on social media, including the claims that sunscreen causes melanoma, blocks vitamin D, and contains toxic chemical ingredients. He explains that historical melanoma rate increases track with rising sun exposure and tanning-bed use rather than sunscreen adoption, that a suntan itself only offers roughly SPF 3 to 4 worth of protection, and that the FDA's 2019 study on chemical filter absorption found the filters can enter the bloodstream but showed no evidence of harm. He argues that consistent broad-spectrum SPF 30 or higher remains the best-supported prevention tool."
   related: ["zinc-oxide", "titanium-dioxide"]
@@ -94,6 +102,7 @@ videos:
   credential: ""
   platform: YouTube
   url: https://www.youtube.com/watch?v=a8tvfhu3Lj0
+  duration: 374
   posted: '2026-06-28'
   related: []
   thesis: "Board-certified dermatologist Dr. Angelo Landriscina (DermAngelo) reacts to a carnivore-diet creator's claim that cutting seed oils and animal fat-only eating stopped her sunburns, let her tan almost immediately, and meant she could quit sunscreen. He counters that tanning itself is a sign of UV damage even without burning, and that itchy sun rashes some people get can be polymorphous light eruption, which tends to \"harden\" and become less reactive with repeated sun exposure regardless of diet, so he does not think dropping sunscreen is a good strategy for anyone. He also flags the video's bone broth \"beauty food\" claim, noting only hydrolyzed collagen (not bone broth) has any early supporting data for skin hydration."
@@ -104,6 +113,7 @@ videos:
   credential: ""
   platform: YouTube
   url: https://www.youtube.com/watch?v=5M507sXhcmg
+  duration: 617
   posted: '2020-02-22'
   related: []
   thesis: "Skincare educator Stephen Alain Ko (KindofStephen) explains that most people apply far less sunscreen than the 2 milligrams per square centimeter standard used in official SPF testing, which can cut real-world protection roughly in half or more. He shows a DIY method using a sheet mask to measure your face's actual surface area (folding it, measuring width and height, and applying the oval area formula) to calculate a personalized sunscreen dose in milliliters, rather than relying on generic estimates like the \"quarter teaspoon\" rule."
@@ -114,6 +124,7 @@ videos:
   credential: ""
   platform: YouTube
   url: https://www.youtube.com/watch?v=hSnqMHuUhns
+  duration: 316
   posted: '2026-03-17'
   related: []
   thesis: "Board-certified dermatologist Dr. Angelo Landriscina (DermAngelo) fact-checks a viral social media claim that a \"new study\" proves sun exposure advice and the skin cancer link have all been wrong. He shows the source is actually a 2024 BJD opinion piece by Richard Weller arguing UV is not the major driver of melanoma mortality specifically in white UK populations, and walks through why its correlational data (reduced all-cause mortality, vitamin D links, rising melanoma incidence without rising mortality) does not prove sun exposure is safe, noting confounders like wealth, overdiagnosis, and better melanoma treatment, and that the piece says nothing about basal cell or squamous cell carcinoma, the more common skin cancers."
@@ -124,6 +135,7 @@ videos:
   credential: ""
   platform: YouTube
   url: https://www.youtube.com/watch?v=ykvc8GS6Qmc
+  duration: 1375
   posted: '2026-05-14'
   related: [zinc-oxide, titanium-dioxide, avobenzone]
   thesis: "Cosmetic scientist Jen Novakovich (The Eco Well) traces how cosmetics misinformation snowballs, using the 2015 \"reef safe\" sunscreen panic as a case study: a widely criticized coral-bleaching study led brands and NGOs to promote mineral filters as environmentally superior, even though the same mineral filters cause bleaching at the same extreme test doses and blind testing shows consumers prefer chemical filters, meaning fear-driven mineral-only choices can mean under-application, more white cast avoidance, and potentially less sun protection. She argues the same fear-marketing cycle (SLS-free, paraben-free claims, EWG's Skin Deep database) rewards sensational, unvetted claims over accurate science communication."
@@ -134,6 +146,7 @@ videos:
   credential: ""
   platform: YouTube
   url: https://www.youtube.com/watch?v=pnQcCw1muRE
+  duration: 782
   posted: '2023-07-21'
   related: [hyperpigmentation, melasma, eltamd-uv-clear-spf-46, la-roche-posay-anthelios-uvmune-400-spf-50]
   thesis: "Board-certified dermatologist Dr. Alexis Stephens runs through ten common sunscreen mistakes, including underestimating the SPF 7 to 10 natural protection of melanin-rich skin, applying too little product (she recommends two to three finger-lengths for the face and neck), skipping daily and cloudy-day use, forgetting to reapply every two hours during direct sun exposure, and using expired sunscreen or improperly storing it outside its original packaging. She stresses matching sunscreen texture and filter type (mineral vs. chemical) to skin type and concern, since a sunscreen you dislike wearing will not get worn consistently, and flags visible-light and UVA protection as especially relevant for hyperpigmentation and melasma."
@@ -144,6 +157,7 @@ videos:
   credential: ""
   platform: YouTube
   url: https://www.youtube.com/watch?v=DU7DijoSfNo
+  duration: 151
   posted: '2024-10-02'
   related: []
   thesis: "Board-certified dermatologist Dr. Joyce Park (Tea with MD) explains why she prefers Asian (Japanese and Korean) sunscreens over most US options: the FDA has not approved a new UV filter since the 1990s, leaving Americans with filters like avobenzone (unstable, needs pairing with octocrylene) and oxybenzone (fallen out of favor), while countries like Japan and Korea use newer filters with broader, more stable UVA coverage and less white cast. She notes the 2014 Sunscreen Innovation Act was meant to speed up FDA approval but has not led to meaningfully faster filter approvals, and that Asian sunscreen formulas tend to feel more cosmetically elegant, like a moisturizer, encouraging more consistent daily use."
@@ -154,6 +168,7 @@ videos:
   credential: ""
   platform: YouTube
   url: https://www.youtube.com/watch?v=npsEAr_ONPo
+  duration: 243
   posted: '2025-07-07'
   related: []
   thesis: "Board-certified dermatologist Dr. Angelo Landriscina (DermAngelo) reviews five more sunscreens as part of his annual SPF roundup series, covering both chemical and mineral formulas. He notes that chemical (organic) sunscreen filters can still work well for sensitive skin, pointing to a hydrating chemical formula with colloidal oatmeal as a good option for reactive skin, and contrasts several moisturizing chemical formulas against a mineral option that left a white cast."
@@ -164,6 +179,7 @@ videos:
   credential: ""
   platform: YouTube
   url: https://www.youtube.com/watch?v=lJKqyC7axDU
+  duration: 394
   posted: '2025-06-22'
   related: []
   thesis: "Board-certified dermatologist Dr. Angelo Landriscina (DermAngelo) reviews five more sunscreens in his ongoing SPF series, discussing mineral, chemical, and hybrid (mixed mineral/chemical) formulas. He explains why zinc oxide mineral sunscreens will generally leave some white cast on non-pale skin regardless of marketing claims, and highlights the tradeoffs of tinted mineral sunscreens versus lighter chemical or hybrid options for daily wear."
@@ -234,6 +250,7 @@ videos:
   credential: "Board-certified dermatologist"
   platform: YouTube
   url: https://www.youtube.com/watch?v=qzSgM_6lw3M
+  duration: 645
   posted: '2025-09-17'
   related: [zinc-oxide, titanium-dioxide, avobenzone, hyperpigmentation]
   thesis: "Board-certified dermatologist Dr. Caroline Robinson explains how sunscreen filters work, recommending a minimum SPF 30 (about 97% UVB protection) and noting SPF 50 as a reasonable ceiling since higher SPFs add little extra benefit. She distinguishes mineral filters (zinc oxide, titanium dioxide) from chemical filters like avobenzone, says she favors mineral sunscreens for sensitive, eczema-prone, or acne-prone skin, and notes that consistent sunscreen use alone has repeatedly been shown to help improve hyperpigmentation and uneven skin tone in deeper skin tones."
@@ -314,6 +331,7 @@ videos:
   credential: ""
   platform: YouTube
   url: https://www.youtube.com/watch?v=dCjwOEnRwQI
+  duration: 2062
   posted: '2026-05-31'
   related: []
   thesis: "Skincare educator James Welsh recaps a UK parliamentary inquiry into skin cancer that he was invited to speak at, and uses it to debunk common sunscreen myths spread by wellness influencers, including claims that sunscreen causes cancer, that oxybenzone disrupts hormones at real-world doses, and that oils like raspberry seed or carrot seed oil act as natural sunscreens. He cites inquiry findings that UV radiation is a WHO group one carcinogen, that around 86 to 90 percent of skin cancers are preventable, and that only about 4 percent of dermatology content online is created or verified by actual dermatologists. The video argues that daily sunscreen use remains essential despite online fearmongering."
@@ -324,6 +342,7 @@ videos:
   credential: ""
   platform: YouTube
   url: https://www.youtube.com/watch?v=X2ZfxXo9XZk
+  duration: 2807
   posted: '2026-06-04'
   related: [avene-mineral-ultra-light-spf-50]
   thesis: "Cosmetic chemists Chemist Confessions (Victoria Fu and Gloria Lu) tested five tinted sunscreens as part of their 2026 sunscreen testing series: Merit's The Uniform tinted mineral SPF 45, La Roche-Posay's tinted UV Mune 400, Avene's anti-pigmentation SPF 50+, Bloom Effects' Dew Drops tinted mineral sunscreen, and Eucerin's Tinted Age Defense with hyaluronic acid. They grouped the products by coverage level, from sheer to high coverage, finding that Merit gave foundation-like coverage but transferred heavily onto clothing, while Eucerin's formula went on thick and left a tacky residue on the hands. For people who just want a touch of iron-oxide pigment without real coverage, they recommended the tinted UV Mune or EltaMD UV Clear as easier, lower-maintenance options."
@@ -334,6 +353,7 @@ videos:
   credential: "Board-certified dermatologist"
   platform: YouTube
   url: https://www.youtube.com/watch?v=JgjFGkt5Gfw
+  duration: 1278
   posted: '2026-07-23'
   related: []
   thesis: "Board-certified dermatologist Andrea Suarez (Dr Dray) explains that sunscreen was never meant as a sole means of sun protection and walks through complementary strategies, including UPF clothing and emerging UV-blocking adhesive patches. She notes UPF clothing avoids sunscreen's biggest real-world failure of under-application and rub-off, while UV patches show promising lab data but lack large clinical trials and still leave most of the face uncovered, so her practical recommendation remains layering sunscreen with a hat, UPF clothing, shade, and sunglasses."
@@ -344,6 +364,7 @@ videos:
   credential: "Cosmetic chemists"
   platform: YouTube
   url: https://www.youtube.com/watch?v=hjiGvwvb11M
+  duration: 973
   posted: '2025-12-22'
   related: [bemotrizinol]
   thesis: "Cosmetic chemists Chemist Confessions interview US Senator Maggie Hassan about a new law that changes how the FDA approves sunscreen ingredients, the reason Americans have had no new UV filter approved since the 1990s while Europe and Asia use newer ones. Senator Hassan explains the bill lets manufacturers rely on real-world evidence from other countries rather than requiring lengthy animal and clinical testing, giving the FDA about a year to update its rules, and she notes the FDA has just begun looking at approving a new filter called bemotrizinol. The chemists stay cautiously optimistic, stressing that any new filters still have to prove they meet their labeled protection."
@@ -354,6 +375,7 @@ videos:
   credential: "Board-certified dermatologist"
   platform: YouTube
   url: https://www.youtube.com/watch?v=In8HvTJn_1Y
+  duration: 677
   posted: '2026-05-27'
   related: []
   thesis: "Board-certified dermatologist Whitney Bowe puts viral DIY sunscreen recipes, including tallow-based mixtures, to the test to see whether homemade sun protection actually works. She demonstrates that these recipes let UV pass through to the skin and do not provide reliable protection, and as a melanoma survivor she says she would not use them, concluding that people should rely on sunscreens that have actually been tested for their SPF rather than gambling on online recipes."
@@ -364,6 +386,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=QC-ritxlyHo
+  duration: 876
   posted: '2026-07-19'
   related: []
   thesis: Board-certified dermatologist Andrea Suarez (Dr Dray) answers whether sunscreen degrades if left in a hot car. She explains that extreme heat can degrade sunscreen, so she does not recommend storing it in a hot car, but manufacturers heat-stabilize the actives and ship under temperature-controlled conditions. She notes a 2021 study that independently tested sunscreens at temperature extremes and found they stayed largely effective, so the bigger risk is a bottle you leave baking in a car, not one in transit.
@@ -374,6 +397,7 @@ videos:
   credential: Board-certified dermatologist (UK)
   platform: YouTube
   url: https://www.youtube.com/watch?v=aMaOQoZXxQY
+  duration: 518
   posted: '2023-07-20'
   related: []
   thesis: 'Board-certified dermatologist Dr. Sam Bunting runs through the ten sunscreen mistakes she sees most often and how to fix them. The first and most common is under-dosing: she notes the average person applies only about a quarter to a half of the amount needed to reach the SPF printed on the pack, so she emphasizes learning what the correct dose actually looks like for the face.'
@@ -384,6 +408,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=4YTSiRZh2dM
+  duration: 17
   posted: '2026-06-04'
   related: []
   thesis: 'Dr. Adeline Kikam, a board-certified dermatologist (Brown Skin Derm), gives a brief tiered breakdown of sunscreen shopping criteria: a good sunscreen is broad-spectrum SPF 30 or above, a better one adds antioxidants, and the best also includes iron oxides and peptides. It is a short, self-contained checklist for evaluating sunscreen formulas by ingredient content rather than brand.'
@@ -394,6 +419,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=wF_oFhBVGPA
+  duration: 705
   posted: '2026-07-18'
   related: [niacinamide, hyperpigmentation, acne, melasma]
   thesis: Board-certified dermatologist Dr. Daniel Sugai reviews sunscreen picks for 2026, covering mineral and chemical UV filter options for acne-prone skin, hyperpigmentation, and sensitive skin, and reiterates the core guidance of broad-spectrum SPF 30 or higher with reapplication every 1 to 2 hours outdoors. He explains why UVA exposure occurs even indoors near windows or while driving and why daily sunscreen use matters regardless of visible sun exposure. He discloses he is exploring a potential advisory-board role with Bubble Skincare while mentioning one of their tinted sunscreen products.
@@ -404,6 +430,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=gK26oFnkqR0
+  duration: 37
   posted: '2026-05-04'
   related: []
   thesis: 'Dermatologist Dr. Brooke Jeffy, MD debunks three common sunscreen myths: that mineral sunscreen is inherently safer than chemical sunscreen, that chemical filters absorb into the bloodstream and cause harm, and that chemical sunscreens destroy coral reefs. She notes both mineral and chemical sunscreens are FDA regulated, that there is no clinical evidence of bloodstream harm from chemical filters, and that reef-damage research is limited and inconclusive. Her takeaway is that skin type matters more than formula type, and the best sunscreen is the one a person will actually wear consistently.'
@@ -414,6 +441,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=-BEwevuTJIM
+  duration: 618
   posted: '2026-07-04'
   related: [melasma, hyperpigmentation, niacinamide, acne]
   thesis: Board-certified dermatologist Dr. Daniel Sugai explains why tinted sunscreens containing iron oxide matter for people with melasma, post-acne marks, or hyperpigmentation, since visible light (not just UVA and UVB) can worsen these conditions even with diligent use of a non-tinted sunscreen. He compares tint-matching and formulation differences across several drugstore and prestige tinted sunscreen brands and notes that all mineral formulas are gentler for pediatric and sensitive skin use. He mentions a Bubble Skincare tinted sunscreen as an affordable teen option, describing it as his daughter's favorite brand.
@@ -424,6 +452,7 @@ videos:
   credential: Cosmetic chemist, PhD
   platform: YouTube
   url: https://www.youtube.com/watch?v=9Ttg-QliIAE
+  duration: 2085
   posted: '2023-06-26'
   related: []
   thesis: Cosmetic chemist Michelle Wong of Lab Muffin Beauty Science, who holds a chemistry PhD, works through sunscreen myths spread by trusted media outlets, explaining what the news articles get wrong about sunscreen and what you should do instead. She notes she has previously debunked claims that sunscreens are toxic or that you can safely make your own, and here targets the subtler, harder-to-spot bad advice.
@@ -434,6 +463,7 @@ videos:
   credential: Cosmetic chemist, PhD
   platform: YouTube
   url: https://www.youtube.com/watch?v=rDZGu68c5sU
+  duration: 505
   posted: '2023-03-13'
   related: []
   thesis: Cosmetic chemist Michelle Wong of Lab Muffin Beauty Science, a chemistry PhD, ran her own experiments on sunscreen sticks to figure out how they should be used and says she was shocked by the results. She explains that although sticks are convenient for reapplying without getting sunscreen all over your hands, how you apply one strongly affects whether you actually get the protection stated on the label.
@@ -444,6 +474,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=TftRd5FmQHU
+  duration: 327
   posted: '2025-01-03'
   related: [zinc-oxide]
   thesis: 'In this roundup, board-certified dermatologist Dr. Scott Walter shares his top five favorite Korean sunscreens and explains why he reaches for them for daily facial use: Korea allows newer UV filters such as Tinosorb S, Tinosorb M, and Uvinul A Plus that the US FDA has not approved since 1999, which he says makes for lighter, more wearable formulas with stronger UVA protection. His five picks are the Skin1004 Hyalu-Cica Water-Fit Sun Serum (which he likes for acne-prone skin), the Beauty of Joseon Relief Sun and its newer lighter Aqua Fresh version, the Round Lab Birch Juice Moisturizing Sun, and the AESTURA Derma UV365 Barrier Hydro mineral sunscreen for people who prefer a zinc-oxide physical filter. He adds that US sunscreens still protect effectively, but he simply prefers these formulas for everyday wear.'
@@ -454,6 +485,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=mpfOVDGzKXw
+  duration: 655
   posted: '2026-06-03'
   related: [zinc-oxide, titanium-dioxide, anti-aging]
   thesis: 'In this sunscreen explainer, board-certified dermatologist Dr. Whitney Bowe teams up with cosmetic chemist Ramon Pagan to break down how sunscreen actually works. They correct a common myth: both mineral and chemical sunscreens work mainly by absorbing UV radiation and releasing it as a small amount of heat, with mineral filters scattering only about 5 percent of it, rather than simply reflecting rays like a mirror. Bowe also stresses that the SPF number reflects only UVB protection, so broad-spectrum coverage matters for the UVA rays that penetrate deeper and break down collagen, and that the best sunscreen is the one you will actually wear every day.'
@@ -464,6 +496,7 @@ videos:
   credential: Cosmetic chemist, PhD
   platform: YouTube
   url: https://www.youtube.com/watch?v=31ENG-PKqlM
+  duration: 1131
   posted: '2026-08-30'
   related: [sun-damage-photoaging]
   thesis: Cosmetic chemist Michelle Wong, PhD, explains how Australia's 2022 "testimonial ban" on therapeutic goods, meant to stop influencers from making misleading health claims, has backfired for sunscreen reviews. Because creators can no longer describe their own experience, they instead repeat brand marketing claims, so genuinely negative but useful feedback (like stinging or white cast) disappears from reviews even though sunscreen use is low-risk and its benefits (a one-third drop in melanoma with daily use) are well established. Drawing on her survey of 2,008 people, interviews with other creators, and a report co-authored with health-messaging researcher Dr. Vanessa Bowden, she argues the ban makes Australian sunscreen reviews more biased, not less, and makes it harder to counter sunscreen misinformation.
@@ -474,6 +507,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=4wQjTg43myw
+  duration: 476
   posted: '2026-06-10'
   related: [sun-damage-photoaging, melasma, hyperpigmentation]
   thesis: Board-certified dermatologist Dr. Whitney Bowe hosts this myth-busting explainer on UV exposure, joined by science educator Steve Spangler and other dermatologists. Using a home demonstration with UV-reactive beads, they show that clouds do not block UV rays (clouds are water droplets with gaps UV passes through, so sunburn is still possible on cloudy days), and that windows and umbrellas reduce but do not fully block UV. The video also debunks the idea that darker skin's melanin fully protects against UV damage, notes that snow can reflect 80 to 90 percent of UV back onto skin, and clarifies that a high UV index signals stronger radiation risk rather than better tanning conditions. The consistent takeaway is that daily sunscreen is needed regardless of clouds, shade, or skin tone.
@@ -484,6 +518,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=XFIXoWL_LtI
+  duration: 90
   posted: '2026-08-24'
   related: []
   thesis: 'Board-certified dermatologist Dr. Daniel Sugai shares tips he wishes he had known sooner. He explains that hyaluronic acid serum gives instant plumping and glow, good before an event, while vitamin C serum works more gradually as an antioxidant that fights free-radical damage from pollution and sunlight, improving fine lines, texture, and brightness over time; he wishes he had started vitamin C earlier in his 30s. He advises applying the less stable vitamin C serum first, then hyaluronic acid, then moisturizer and sunscreen (thinnest to thickest). He also stresses that not all sunscreens are equal for melasma and hyperpigmentation: a tinted sunscreen containing iron oxides is needed to block visible light, and he says patients whose melasma keeps worsening despite using sunscreen often turn out to be using one without iron oxides.'
@@ -494,6 +529,7 @@ videos:
   credential: Cosmetic scientist
   platform: YouTube
   url: https://www.youtube.com/watch?v=Ii1I5REdC3A
+  duration: 1330
   posted: '2025-12-09'
   related: [zinc-oxide, titanium-dioxide]
   thesis: In this conference talk, cosmetic scientist Jen Novakovich (The Eco Well) explains how misinformation spreads in beauty through habit loops and biases toward simple, negative information, and walks through a case study on environmental claims. She argues consumers have been misled into believing mineral sunscreens are safer than chemical ones despite data showing otherwise, noting blind testing shows consumers actually prefer chemical sunscreen formulas and that lower liking could reduce sunscreen use and adequate application. She also covers how outlier studies (like the 2016 coral-bleaching paper) get outsized media attention, how upcycled ingredients are not automatically greener without life-cycle evidence, and urges brands and consumers to ask for evidence behind sustainability and safety claims rather than accept simple buzzwords.
@@ -504,6 +540,7 @@ videos:
   credential: Cosmetic scientist
   platform: YouTube
   url: https://www.youtube.com/watch?v=WPaj-hGGU_o
+  duration: 4772
   posted: '2025-12-03'
   related: []
   thesis: Cosmetic scientist Jen Novakovich (The Eco Well) hosts a roundtable with cosmetics attorney Avril Love and clinical testing lab owner Dr. Rania Ibrahim to discuss who is responsible when personal care product testing fails, prompted by the sunscreen testing scandal where products showed huge SPF discrepancies (e.g., a marketed SPF 50 testing at SPF 4) after fraud was uncovered at a testing lab. Love explains that brands remain legally responsible for the safety and efficacy claims on their products even when a third-party lab commits fraud, since consumers can sue brands directly over label claims. Ibrahim emphasizes that brands should vet their testing labs and consultants rigorously (auditing partners, checking track records) rather than assuming outside vetting is trustworthy, while acknowledging that thorough vetting is expensive and can still fail. Both guests advise consumers to judge brand credibility by visible signals, such as whether marketing claims and ingredient lists
@@ -515,6 +552,7 @@ videos:
   credential: Cosmetic scientist
   platform: YouTube
   url: https://www.youtube.com/watch?v=4QtSpEEsSFc
+  duration: 4932
   posted: '2025-10-16'
   related: [zinc-oxide, sun-damage-photoaging]
   thesis: Cosmetic scientist Jen Novakovich hosts a roundtable with Michelle Wong, Hannah, and formulator Brian to unpack Australia's 2025 sunscreen SPF-testing scandal, in which a Choice magazine test found a sunscreen labeling SPF 50+ actually tested at SPF 4, triggering a wave of recalls tied to lab Princeton Consumer Research. The panel explains that interlab SPF variability can run 15 to 18 percent even without fraud, that "pass or fail" framing misrepresents SPF testing, and that labs consistently delivering unusually high or cheap results are a red flag for fraud, as happened with AMA Labs in an earlier scandal. They stress that brands bear responsibility for auditing their testing labs, that reapplication and behavioral sun protection (shade, clothing, timing) matter as much as the SPF number itself, and that consumers should not panic since most tested Australian sunscreens still delivered 80 percent or more of their labeled protection.
@@ -525,6 +563,7 @@ videos:
   credential: Board-certified dermatologist
   platform: TikTok
   url: https://www.tiktok.com/@dr.sheila_derm/video/7678140411264716062
+  duration: 50
   posted: '2026-08-26'
   related: []
   thesis: 'Board-certified dermatologist Dr. Sheila Farhang debunks five common beauty myths: that biotin regrows hair (she says most people are not biotin deficient and high doses can cause acne or disrupt thyroid levels), that fragrance-free and unscented are the same thing (unscented products can still contain masking fragrances), that a high SPF number lets you skip reapplying sunscreen, and that a tingling sensation means a skincare product is working (she says it likely signals irritation instead). She recommends SPF 30 for the face, SPF 50 for the body when outdoors, and reapplying every two hours'
@@ -535,6 +574,7 @@ videos:
   credential: Board-certified dermatologist (Northwestern MD, Stanford residency); Medical Director of Dermatology, Valley Medical Center, Seattle WA
   platform: YouTube
   url: https://www.youtube.com/watch?v=IVIDgkJ7UOA
+  duration: 913
   posted: '2026-07-11'
   related: [zinc-oxide, titanium-dioxide, anti-aging]
   thesis: Board-certified dermatologist Dr. Sarah Sheu walks through how she actually picks sunscreens for her own skin and her patients, covering face, mineral-only, high-intensity-sun, body, and kids formulas. She explains the difference between true mineral filters (zinc oxide, titanium dioxide only) and hybrid sunscreens that use inactive ingredients like butyl octyl salicylate to boost SPF, why proper application amount matters more than lab SPF numbers, and why the newly FDA-approved filter Tinosorb S is a meaningful upgrade for US sunscreens because it covers UVA and UVB and is photostable. She closes by stressing that consistent daily wear plus physical protection like hats and UPF clothing matters more than which specific product you choose.
@@ -545,6 +585,7 @@ videos:
   credential: Board-certified dermatologist
   platform: TikTok
   url: https://www.tiktok.com/@drheathermd/video/7596032062348381495
+  duration: 76
   posted: '2026-01-16'
   related: [bemotrizinol]
   thesis: Board-certified dermatologist Dr. Heather Woolery-Lloyd explains that the US FDA has proposed allowing bemotrizinol, an oil-soluble UV filter also sold as Tinosorb S or Parsol Shield that absorbs both UVA and UVB, as an over-the-counter sunscreen ingredient. She notes it has been used for years in Europe and Asia, was approved in Europe in 2000, and that the FDA's review found strong UV protection, minimal systemic absorption, and low irritation risk. If finalized, it would be the first new US sunscreen filter approved since 1999.
@@ -555,6 +596,7 @@ videos:
   credential: Cosmetic chemist, PhD
   platform: YouTube
   url: https://www.youtube.com/watch?v=QRYQIUn6Fyk
+  duration: 1528
   posted: '2026-09-27'
   related: [actinic-keratosis, squamous-cell-carcinoma]
   thesis: 'Cosmetic chemist Michelle Wong (Lab Muffin) debunks the viral claim that sunscreen causes skin cancer, explaining that the observational studies behind it are confounded by indication: fair-skinned, sun-damaged people both use more sunscreen and get more skin cancer, so the correlation is not causation. She points to the Nambour trial, a randomized controlled trial of about 1,600 people in which the daily-sunscreen group had fewer squamous cell carcinomas, fewer actinic keratoses, and thinner melanomas over four and a half years. She also walks through and dismisses the benzene, coral-reef, vitamin D, and retinyl palmitate scares as misused data or negligible in practice.'
@@ -565,6 +607,7 @@ videos:
   credential: Board-certified dermatologist
   platform: TikTok
   url: https://www.tiktok.com/@draegeanchan/video/7691140955633749278
+  duration: 24
   posted: '2026-09-30'
   related: [sun-damage-photoaging]
   thesis: Board-certified dermatologist Dr. Aegean Chan addresses whether chemical sunscreens are safe to use during pregnancy. She says there is no evidence that chemical sunscreens used in pregnancy harm the baby, that these filters have been in use for decades, and that she used them throughout her own pregnancy. Her practical takeaway is that because UV exposure raises skin cancer risk, a pregnant person should use whatever sunscreen they will actually apply consistently, mineral or chemical.

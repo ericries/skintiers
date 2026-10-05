@@ -14,6 +14,7 @@ videos:
   credential: Cosmetic chemist
   platform: TikTok
   url: https://www.tiktok.com/@javonford16/video/7635837533212953869
+  duration: 47
   posted: '2026-05-04'
   related: [hydroxypinacolone-retinoate]
   thesis: "Cosmetic chemist Javon Ford warns against DIY-mixing raw retinol into a body lotion, because retinol is already hard to stabilize and an open-air container will not preserve it, calling the practice wasteful rather than money-saving when cheaper pre-formulated retinol body creams already exist. He also clarifies that The Ordinary's Granactive Retinoid is an ester of retinol, not retinol itself, so it still works but more slowly."
@@ -24,6 +25,7 @@ videos:
   credential: Licensed medical esthetician
   platform: YouTube
   url: https://www.youtube.com/watch?v=dKeDDERpy-U
+  duration: 755
   posted: '2024-06-21'
   thesis: "Esthetician Cassandra Bankson describes a common way beginners make retinol and other topical retinoids backfire: using far more than a pea-sized amount, applying it to wet skin, and then sealing it under an occlusive like petroleum jelly (slugging), all of which drive the active to penetrate more deeply and can trigger redness, flaking, and painful irritation. She advises starting low and slow, a pea-sized amount a couple of times a week, and notes that putting the occlusive on first, as a buffer under the retinoid, gives a gentler, slower release for people still building tolerance."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship. Licensed esthetician, not a dermatologist or chemist; used for general how-to-use education, not product endorsement."
@@ -33,6 +35,7 @@ videos:
   credential: "Board-certified dermatologist"
   platform: YouTube
   url: https://www.youtube.com/watch?v=dCEdTMY-3KU
+  duration: 973
   posted: '2026-08-09'
   thesis: "Board-certified dermatologist Dr. Dustin Portela explains why retinol often stops producing visible results: it is not the active molecule itself but two conversion steps away from retinoic acid, the form that binds skin cell receptors, and much of that conversion is lost along the way. He offers a two question framework for deciding whether to move from over the counter retinol to prescription tretinoin, based on current results and skin sensitivity, and warns against the popular sandwich method, which he says research shows blunts the treatment's effect."
   related: ["tretinoin", "retinaldehyde", "acne"]
@@ -43,6 +46,7 @@ videos:
   credential: "Cosmetic chemist, PhD"
   platform: YouTube
   url: https://www.youtube.com/watch?v=e6Z5Vr7uSiA
+  duration: 1001
   posted: '2023-11-06'
   thesis: "Cosmetic chemist Michelle Wong addresses why peer-reviewed clinical trials on retinol are scarce compared with prescription retinoids, tracing it to a decades-old drug-versus-cosmetic regulatory split and companies' weaker financial incentive to fund and publish cosmetic research. She argues that once mechanism-of-action studies, cell and tissue evidence, and retinol's known skin conversion into tretinoin are considered together, the case that retinol works is convincing even without abundant high-quality clinical trials."
   related: ["tretinoin", "retinoids"]
@@ -53,6 +57,7 @@ videos:
   credential: Board-certified dermatologist (Australia)
   platform: YouTube
   url: https://www.youtube.com/watch?v=0ehPg16IljA
+  duration: 204
   posted: '2024-03-21'
   related: [retinoids, tretinoin, hyperpigmentation]
   thesis: Board-certified dermatologist Dr. Davin Lim explains retinol, an over-the-counter vitamin A preparation he counts among his go-to anti-aging ingredients for wrinkles, photodamage, and pore appearance, and how it helps with pigmentation. He also contrasts it with prescription-strength tretinoin.
@@ -63,6 +68,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=_h6n6SAEl0I
+  duration: 1371
   posted: '2026-08-02'
   related: [salicylic-acid, glycolic-acid, urea]
   thesis: 'Dr. Dustin Portela, a board-certified dermatologist, explains seven common benign skin growths he sees daily in clinic: seborrheic keratoses, warts, sebaceous hyperplasia, skin tags, milia, cherry angiomas, and venous lakes. He covers why each forms and how it is treated, and stresses that none of them are cancerous or turn into cancer. On milia specifically, he explains they are fully enclosed under the skin (unlike whiteheads, which connect to a follicle with a natural opening), so they cannot be popped at home; he removes them in-office with a needle or 11-blade and recommends a topical retinol to help prevent new ones from forming, since occlusive products like slugging without proper cleansing can also make people more prone to them.'
@@ -73,6 +79,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=rXQgrehNCas
+  duration: 990
   posted: '2026-07-16'
   related: [tretinoin]
   thesis: Board-certified dermatologist Dr. Jenny Liu reacts to seven viral TikTok skincare trends and rates each. She says snail mucin (like COSRX's) is a mild, essentially upgraded hyaluronic acid serum with only preliminary efficacy data, not a must-have; beef tallow as moisturizer she avoids entirely, noting its fatty-acid profile resembles sebum and can worsen acne, plus raw tallow can go rancid or harbor bacteria; and liquid chlorophyll drops have little supporting data and aren't worth the money, with supplements generally carrying under-recognized liver-injury and drug-interaction risks. She endorses skin cycling and fermented-ingredient toners/essences (citing SK-II's Pitera essence) as legitimate but optional, and says a daily vitamin C serum in the morning plus a topical retinoid at night covers the majority of what most patients need for aging, texture, and tone, cautioning that not all vitamin C serums are equally effective.
@@ -83,6 +90,7 @@ videos:
   credential: Board-certified dermatologist
   platform: TikTok
   url: https://www.tiktok.com/@dr.tomassian/video/7678836627141070094
+  duration: 48
   posted: '2026-08-27'
   related: []
   thesis: 'Board-certified dermatologist Dr. Chris Tomassian, a new dad with almost no time, shares a stripped-down routine: in the morning just splash water, apply an antioxidant like vitamin C serum, then a moisturizer-sunscreen combo, under a minute total. At night, cleanse for about 30 seconds, apply a retinol, retinal, or retinoid, then moisturize, under 90 seconds. He frames it as focusing on the ingredients with the biggest proven benefit and staying consistent rather than doing an elaborate routine'

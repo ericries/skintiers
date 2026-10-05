@@ -50,6 +50,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=Z9W1W3X4BZA
+  duration: 1065
   posted: '2026-09-08'
   related: [retinoids, tretinoin, adapalene, tazarotene, anti-aging]
   thesis: Board-certified dermatologist Dr. Andrea Suarez (Dr Dray) explains that skin is not uniform across the body, and the neck in particular has thin, delicate skin with fewer oil glands, which is why retinoids (prescription tretinoin, tazarotene, or trifarotene, over-the-counter adapalene, or cosmetic retinol and retinaldehyde) are more likely to cause a dry, itchy, flaky reaction there than on the face. She says you can use them on the neck but should introduce them far more conservatively than on the face, starting at a lower frequency and building up slowly. She adds that even after ten years of facial retinoid use, applying them to her own neck still tends to backfire.

@@ -14,6 +14,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=b8XQgEXH4Vo
+  duration: 613
   posted: '2023-06-17'
   related: [tranexamic-acid, hyperpigmentation, melasma]
   thesis: "Dermatologist Dr. Whitney Bowe calls hydroquinone the gold standard tyrosinase inhibitor for blocking pigment production, and says it really works, but she does not recommend using it except under the close supervision of a dermatologist. Used incorrectly, she says hydroquinone can cause exogenous ochronosis, irreversible brown spots that become refractory to treatment, so anyone going down the hydroquinone route should have a dermatologist checking their skin every couple of months."
@@ -24,6 +25,7 @@ videos:
   credential: "Board-certified dermatologist"
   platform: YouTube
   url: https://www.youtube.com/watch?v=-HdzW2aiuD0
+  duration: 1238
   posted: '2026-04-18'
   related: [tretinoin, hyperpigmentation, melasma]
   thesis: "Dermatologist Dr. Shereene Idriss calls hydroquinone the gold-standard topical for hyperpigmentation and melasma, with over 70 years of clinical use, and explains it works by blocking tyrosinase, the enzyme that converts tyrosine into melanin. She says she prescribes hydroquinone at 4 to 6 percent and never above 8 percent, cycles patients about a month or two on and then off to avoid exogenous ochronosis, requires daily sunscreen alongside it, and warns against buying it outside a pharmacy because black-market versions are sometimes laced with mercury."
@@ -34,6 +36,7 @@ videos:
   credential: "Board-certified dermatologist"
   platform: YouTube
   url: https://www.youtube.com/watch?v=-HdzW2aiuD0
+  duration: 1238
   posted: '2026-04-18'
   thesis: "Board-certified dermatologist Dr. Shereene Idriss explains how she uses two prescription anti-aging treatments together, hydroquinone and tretinoin. She describes hydroquinone as a tyrosinase-blocking pigment treatment that evens skin tone, used in cycles of roughly one to two months on and then off to avoid a rare side effect called exogenous ochronosis, and tretinoin as a retinoid that speeds cell turnover and stimulates collagen. She stresses layering them on a weekly rather than daily plan, applying the prescriptions after cleansing and before serums and moisturizer, and treats daily sunscreen as non-negotiable to protect the results."
   related: ["tretinoin", "anti-aging", "melasma", "hyperpigmentation", "retinoids"]
@@ -44,6 +47,7 @@ videos:
   credential: ""
   platform: TikTok
   url: https://www.tiktok.com/@dr.mamina/video/7674821792577408286
+  duration: 49
   posted: '2026-08-16'
   related: [rosacea, retinoids]
   thesis: "Dr. Mamina Turegano, a board-certified dermatologist, argues that fear of certain prescription skincare treatments is often disproportionate to the evidence. She says most rosacea is undertreated rather than overtreated, that hydroquinone gets more fear than the evidence supports when it is used appropriately, and that tretinoin is both over-feared and under-prescribed. She advises sticking with a current routine if a condition is mild and improving, but seeing a dermatologist if it keeps recurring, worsens, or causes scarring or persistent pain and itching."
@@ -64,6 +68,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=5x0oSHcAUA4
+  duration: 59
   posted: '2026-08-18'
   related: [rosacea]
   thesis: Board-certified dermatologist Dr. Lindsey Zubritsky lists five effective skincare ingredients that are prescription-only, explaining why each requires a doctor. She names tretinoin as the gold standard for acne, fine lines, and photoaging; prescription-strength azelaic acid for rosacea, perioral dermatitis, and post-breakout dark or red marks; hydroquinone for stubborn hyperpigmentation and melasma; topical ivermectin for rosacea linked to skin mites; and eflornithine to slow excess facial hair growth. She notes these aren't sold over the counter because a prescriber needs to confirm the ingredient is right for a patient's skin.
@@ -74,6 +79,7 @@ videos:
   credential: Board-certified dermatologist
   platform: TikTok
   url: https://www.tiktok.com/@dr.tomassian/video/7679209722293144846
+  duration: 48
   posted: '2026-08-28'
   related: [hyperpigmentation, body-acne, folliculitis, fungal-acne, hair-loss-thinning]
   thesis: 'Dr. Chris Tomassian, a board-certified dermatologist, names five skincare ingredients he considers worth using: hydroquinone for dark spots, tretinoin as the long-term gold standard for anti-aging despite causing irritation and dryness, hypochlorous acid for body acne and scalp folliculitis, vitamin C for an instant glow plus collagen support and dark spot fading, and ketoconazole for dandruff, fungal acne, and hormonal hair loss. He gives a one-line reason for each rather than detailed instructions'

@@ -14,6 +14,7 @@ videos:
   credential: Cosmetic chemists
   platform: YouTube
   url: https://www.youtube.com/watch?v=r95YJoxZQ-I
+  duration: 1448
   posted: '2026-03-25'
   related: [hydroquinone, hyperpigmentation]
   thesis: "Ranking hyperpigmentation actives after a multi-episode series, cosmetic chemists Victoria Fu and Gloria Lu of Chemist Confessions place 20% azelaic acid in their top tier alongside 4% hydroquinone, citing its long track record and data specifically in darker skin tones. They rank 10% azelaic acid a tier lower, arguing most 10% products lean on the 20% research without their own evidence and function better as a supporting 'sidekick' than a stand-alone treatment."
@@ -24,6 +25,7 @@ videos:
   credential: Board-certified dermatologist (UK)
   platform: YouTube
   url: https://www.youtube.com/watch?v=ombQvS1pPfg
+  duration: 343
   posted: '2026-04-28'
   related: [niacinamide, hyperpigmentation]
   thesis: "For pigmentation in sensitive or darker skin, UK board-certified dermatologist Dr. Sam Bunting favors azelaic acid because it works through several mechanisms at once: competitive inhibition of tyrosinase, selective targeting of overactive melanocytes, downregulating melanocyte mitochondrial energy, and speeding cell turnover to shed existing pigment, all without the irritation that itself can trigger more melanin production. She pairs azelaic acid with niacinamide, which blocks delivery of melanin parcels to skin cells while also supporting the barrier via ceramide production."
@@ -34,6 +36,7 @@ videos:
   credential: "Board-certified dermatologist"
   platform: YouTube
   url: https://www.youtube.com/watch?v=erSEdS4hnSc
+  duration: 667
   posted: '2026-04-19'
   thesis: "Board-certified dermatologist Dr. Dustin Portela breaks down why he considers azelaic acid one of the most versatile ingredients in his practice, using it to treat acne, rosacea, melasma, and post-inflammatory hyperpigmentation in the same patients. He walks through the four mechanisms behind the ingredient, including its antibacterial and anti-inflammatory effects, and explains why he considers it one of the few topical options he is comfortable recommending during pregnancy."
   related: ["rosacea", "acne", "melasma", "hyperpigmentation", "niacinamide"]
@@ -44,6 +47,7 @@ videos:
   credential: ""
   platform: YouTube
   url: https://www.youtube.com/watch?v=t_w1BTQI7T0
+  duration: 641
   posted: '2020-08-18'
   related: [hyperpigmentation, melasma, acne, rosacea]
   thesis: "Board-certified dermatologist Dr. Alexis Stephens explains why azelaic acid is her go-to ingredient for hyperpigmentation, describing it as a tyrosinase inhibitor that curbs overactive melanin production while also being bactericidal against acne-causing bacteria, keratolytic, and anti-inflammatory, which makes it useful for melasma, post-inflammatory hyperpigmentation, acne, and rosacea. She says it is not photosensitizing so she applies it in the morning, notes it is safe during pregnancy and nursing, and states that at 20 percent (prescription-strength) it is comparably effective to hydroquinone for treating hyperpigmentation and melasma, while over-the-counter versions are available from brands like The Ordinary, Paula's Choice, and Glytone."
@@ -74,6 +78,7 @@ videos:
   credential: ""
   platform: YouTube
   url: https://www.youtube.com/watch?v=-Jt3gczy_4o
+  duration: 447
   posted: '2025-07-31'
   related: []
   thesis: "Board-certified dermatologist Dr. Sam Bunting walks through a morning skincare routine and highlights azelaic acid as a key ingredient for tackling redness, clogged pores, and blemishes, noting it can be found in products like The Ordinary's 10% Azelaic Acid Suspension or Paula's Choice's azelaic acid booster in addition to her own brand's serum. She also covers cleansing, antioxidant serums, hydration with barrier-supporting ingredients like ceramides and niacinamide, and finishes with guidance on properly applying sunscreen using the correct amount and distribution."
@@ -84,6 +89,7 @@ videos:
   credential: ""
   platform: YouTube
   url: https://www.youtube.com/watch?v=oyQl5MU3pRQ
+  duration: 1115
   posted: '2026-08-16'
   related: [benzoyl-peroxide]
   thesis: "Board-certified dermatologist Andrea Suarez (Dr Dray) explains that azelaic acid, whether over-the-counter at 10% or prescription strength (15-20%, such as Finacea), can be combined with other skincare ingredients as long as the combination is tolerated. She cautions that azelaic acid can be drying and irritating on its own, so pairing it with dapsone is generally fine, but combining it with benzoyl peroxide (also notoriously drying) may push some people into excess dryness and irritation."
@@ -94,6 +100,7 @@ videos:
   credential: ""
   platform: YouTube
   url: https://www.youtube.com/watch?v=tpdULfR0Org
+  duration: 2334
   posted: '2026-01-28'
   related: [hyperpigmentation, anua-azelaic-acid-serum, kojic-acid]
   thesis: "Cosmetic chemists Chemist Confessions (Victoria Fu and Gloria Lu) tested three Korean-beauty azelaic acid serums against each other: Anua's Azelaic Acid 10 Hyaluron Redness Soothing Serum, Purito's Azelaic Acid 10 with Kojic Acid and Tea Tree serum, and Medicube's Azelaic Acid Exosome Shot Serum. They found Purito's marketing misleading, since its 10 percent tea tree claim turned out to refer to tea tree leaf water rather than the clinically studied tea tree essential oil, and they questioned Medicube's very low 0.01 percent azelaic acid concentration despite its intense, prickly application experience. They favored Anua for its non-stinging texture and for being the only one of the three with its own consumer testing, while cautioning that at these over-the-counter 10 percent concentrations, none of the products should be relied on as a primary fix for hyperpigmentation."
@@ -104,6 +111,7 @@ videos:
   credential: Consultant dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=wXiQo7rINoU
+  duration: 62
   posted: '2026-08-13'
   related: [acne, hyperpigmentation, rosacea]
   thesis: Dr Aamna Adel, a consultant dermatologist, explains that azelaic acid is one of her favorite ingredients for acne, hyperpigmentation, and rosacea. She notes mild tingling can happen when starting out, especially at higher strengths like 15%, but serious burning suggests another active (retinoids or exfoliating acids) may be the real culprit rather than the azelaic acid itself. She recommends starting with a small amount a few times a week on dry skin followed by moisturizer, or using a moisturizer as a buffer first for sensitive skin.
@@ -114,6 +122,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=2TvlqY0bjf0
+  duration: 31
   posted: '2026-02-23'
   related: [rosacea, acne]
   thesis: Board-certified dermatologist Dr. Caroline Robinson gives a quick rundown of azelaic acid concentrations, noting she typically prescribes 15% for rosacea and 20% for acne patients, while over-the-counter formulations are usually around 10% and can still help calm redness and hyperpigmentation. She gives azelaic acid an overall thumbs up as a treatment option.
@@ -124,6 +133,7 @@ videos:
   credential: Board-certified dermatologist (Australia)
   platform: YouTube
   url: https://www.youtube.com/watch?v=gILZWIHqlBk
+  duration: 311
   posted: '2024-03-30'
   related: [hyperpigmentation, melasma]
   thesis: Board-certified dermatologist Dr. Davin Lim explains azelaic acid, a naturally occurring acid, and how useful it is for pigmentary conditions such as melasma and post-inflammatory hyperpigmentation. He covers what it is, the concentrations used, the side effects, and how effective it actually is for pigment.
@@ -134,6 +144,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=YIQdXvlvmgA
+  duration: 988
   posted: '2026-08-29'
   related: [hydroquinone]
   thesis: 'Board-certified dermatologist Dr. Andrea Suarez (Dr Dray) explains why she recommends 12%+ ammonium lactate (AmLactin) over at-home glycolic acid for dermal thickening: she cites two clinical studies showing 12% lactic acid produced both epidermal and dermal thickening (versus epidermal-only at 5%), and a second study where 12% ammonium lactate offset dermal atrophy caused by the potent steroid clobetasol. She notes in-office glycolic acid peels are actually superior for dermal effects, but at-home glycolic acid strengths are too heterogeneous and generally too weak to reliably reach the dermis the way 12% ammonium lactate does. In shorter Q&A segments she also covers Fraxel versus Laser Genesis laser risks, sunscreen application on sweaty/wet skin, and using urea and azelaic acid for keratosis pilaris.'
@@ -144,6 +155,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=7GnI-zU5B_Y
+  duration: 808
   posted: '2026-08-29'
   related: [tretinoin, the-ordinary-azelaic-acid-suspension-10, the-ordinary-azelaic-acid-suspension-10]
   thesis: 'Dr. Shereene Idriss, a board-certified dermatologist, breaks down the summer''s internet controversy over azelaic acid by explaining there are three forms sold under that name: the original free/suspended form (like The Ordinary''s), a pH-raised ionized form that dissolves for a more elegant texture, and potassium azeloyl diglycinate, a derivative that isn''t azelaic acid at all despite sometimes being mislabeled as a percentage of it. She argues the ionized form still works based on a 2012 formulation study, so the real controversy should have centered on brands mislabeling the derivative as azelaic acid, not on ionization reducing efficacy. She also covers common tolerability complaints (itch, "barrier damage," purging, and inconsistent generic prescriptions) and gives a practical schedule for layering azelaic acid with tretinoin or retinol, including applying free-form azelaic acid on damp skin before the retinoid.'
@@ -154,6 +166,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=5x0oSHcAUA4
+  duration: 59
   posted: '2026-08-18'
   related: [rosacea]
   thesis: Board-certified dermatologist Dr. Lindsey Zubritsky lists five effective skincare ingredients that are prescription-only, explaining why each requires a doctor. She names tretinoin as the gold standard for acne, fine lines, and photoaging; prescription-strength azelaic acid for rosacea, perioral dermatitis, and post-breakout dark or red marks; hydroquinone for stubborn hyperpigmentation and melasma; topical ivermectin for rosacea linked to skin mites; and eflornithine to slow excess facial hair growth. She notes these aren't sold over the counter because a prescriber needs to confirm the ingredient is right for a patient's skin.
@@ -164,6 +177,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=oNhnH5Ezyn0
+  duration: 796
   posted: '2026-01-26'
   related: [rosacea-papulopustular, acne, pityriasis-versicolor, best-azelaic-acid-products, best-niacinamide-products, best-peptide-serums]
   thesis: Board-certified dermatologist Dr. Caroline Robinson gives a thumbs up/down verdict on several 2026 skincare trends. She explains azelaic acid started as the compound behind tinea versicolor's skin-lightening rash before becoming a prescription and OTC treatment for rosacea (15%) and acne-related hyperpigmentation (20% for acne, 10% OTC), calling it a thumbs up. She says niacinamide controls oil at 2%, helps hyperpigmentation at 4 to 5%, but risks irritation at the popular 10% level, so lower doses are the "sweet spot." She endorses red light masks as adjuncts to in-office treatments (checking wavelength and device-specific studies matters) and peptides as a helpful but non-foundational addition after retinoids and sunscreen, dismisses at-home chemical peels as unsafe versus in-office ones, and gives multi-step (6 to 7 product) TikTok routines a thumbs down, arguing cleansing, exfoliating, and moisturizing can be done well in 3 to 4 steps.
@@ -174,6 +188,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=mctaZsSEKEU
+  duration: 45
   posted: '2026-08-23'
   related: []
   thesis: Board-certified dermatologist Dr. Jenny Liu explains why glycolic acid is the "missing piece" when combined with tretinoin and azelaic acid. She says tretinoin builds collagen and speeds cell turnover while azelaic acid helps with redness, acne, and pigmentation, but neither gives an immediate smooth, polished look; glycolic acid dissolves the dead skin on the surface so the effects of the other two actives can show, producing a next-day "wow" effect. She warns against layering all three every night, recommending glycolic acid only two nights a week since an inflamed skin barrier undermines glowing skin.
@@ -184,6 +199,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=BqI2_Q3heXI
+  duration: 115
   posted: '2026-08-16'
   related: []
   thesis: Board-certified dermatologist Dr. Neera Nathan reacts to viral skincare trends and explains which ones actually hold up. She says zinc oxide diaper rash cream applied at night acts as a skin protectant and anti-inflammatory that helps repair a damaged moisture barrier. She calls glycolic acid a versatile AHA useful for exfoliation, collagen boosting, evening pigmentation, and treating ingrown hairs or dark elbows when used one to three times a week. She notes viral collagen face masks work mainly as humectants for temporary plumping rather than by boosting the skin's own collagen production, and highlights combining azelaic acid in the morning with tretinoin at night as a long-standing dermatologist combo for smoothing texture, fading hyperpigmentation, and reducing wrinkles.
@@ -194,6 +210,7 @@ videos:
   credential: Board-certified dermatologist
   platform: TikTok
   url: https://www.tiktok.com/@dr.sheila_derm/video/7678510728621460767
+  duration: 39
   posted: '2026-08-27'
   related: [sun-damage-photoaging, facial-redness-relief, anti-aging]
   thesis: Board-certified dermatologist Dr. Sheila Farhang explains that when skin looks transparent enough to see blood vessels, it is because lighter skin types have less melanin, the natural camouflage that hides redness, inflammation, and vessels. She notes lighter skin has less built-in UV protection and tends to break down, thin, and wrinkle faster over time, so she recommends daily SPF, antioxidants, azelaic acid for redness, and says lasers can be a game changer
@@ -204,6 +221,7 @@ videos:
   credential: Licensed esthetician
   platform: TikTok
   url: https://www.tiktok.com/@your.estie.ella/video/7684331407728069902
+  duration: 60
   posted: '2026-09-11'
   related: [acne, hyperpigmentation]
   thesis: Licensed esthetician Ella explains that azelaic acid helps several concerns at once (acne, texture, redness, and pigmentation) and is gentle and easy to work into a routine, but its benefits arrive on different timelines. The calming of redness and inflammation shows up soonest, often within the first couple of weeks, while acne regulation takes roughly six to twelve weeks and pigmentation fading takes about two months or longer. Her point is that people often quit azelaic acid before its slower benefits have had time to appear.
@@ -214,6 +232,7 @@ videos:
   credential: Dr. Muneeb Shah, DO and Dr. Luke Maxfield, DO, both board-certified dermatologists
   platform: YouTube
   url: https://www.youtube.com/watch?v=L80JEx7ovhM
+  duration: 830
   posted: '2026-09-07'
   related: [retinoids, niacinamide]
   thesis: Board-certified dermatologists Dr. Muneeb Shah and Dr. Luke Maxfield of Doctorly break down the viral social media trend of pairing tretinoin (or other retinoids) with azelaic acid for so-called glass skin. They explain tretinoin speeds cell turnover, boosts collagen, and reduces acne and pigment by acting on retinoic acid receptors, while azelaic acid works through separate mechanisms, lowering tyrosinase activity and inflammation to calm rosacea, redness, and dark marks, making the two ingredients complementary rather than redundant. They note there is no formal clinical safety data on combining them, but say the combination is generally well tolerated if layered thinner product first or split between morning and night for sensitive skin. Their conclusion is that tretinoin plus azelaic acid plus daily sunscreen covers most of what a skincare routine needs to achieve.
@@ -224,6 +243,7 @@ videos:
   credential: Abigail H. Waldman, MD, FAAD; Associate Professor of Dermatology at Harvard Medical School; Director of the Mohs and Dermatologic Surgery Center at Brigham and Women's Hospital
   platform: YouTube
   url: https://www.youtube.com/watch?v=mRYMysEjhWs
+  duration: 502
   posted: '2026-02-11'
   related: [anua-azelaic-acid-serum, retinoids]
   thesis: Board-certified dermatologist and Harvard/Brigham Mohs surgeon Dr. Abigail Waldman explains how to start using azelaic acid, a naturally occurring acid that treats acne, post-acne redness and dark spots, and rosacea by fighting acne-causing bacteria and blocking the pigment-producing enzyme tyrosinase. She covers when to apply it in a routine, safe combinations with retinoids and prescription acne treatments, expected mild side effects, and notes it is one of the few actives considered safe during pregnancy and breastfeeding. She recommends starting once daily and increasing to twice daily as tolerated, with results from over-the-counter 10% formulas taking up to 8 to 12 weeks.
@@ -234,6 +254,7 @@ videos:
   credential: Board-certified dermatologist
   platform: TikTok
   url: https://www.tiktok.com/@dr.tomassian/video/7690332728255974670
+  duration: 14
   posted: '2026-09-27'
   related: [retinoids]
   thesis: 'Board-certified dermatologist Dr. Chris Tomassian addresses whether azelaic acid and retinol can be used together, and his answer is yes: the two can be layered in the same routine. For people with sensitive or easily irritated skin, he suggests splitting them instead, applying azelaic acid in the morning and retinol at night to reduce irritation.'

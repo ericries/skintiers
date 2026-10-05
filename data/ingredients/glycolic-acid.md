@@ -8,6 +8,7 @@ videos:
   credential: Board-certified dermatologist (Australia)
   platform: YouTube
   url: https://www.youtube.com/watch?v=dAZeFdwyIOs
+  duration: 398
   posted: '2024-06-07'
   related: [melasma]
   thesis: "For melasma, Australian board-certified dermatologist Dr. Davin Lim uses glycolic acid only as an in-office peel, stepping up concentration from about 20% toward 70%, and only combined with sunscreen and pigment inhibitors, never as a standalone treatment; he notes a series of glycolic peels can improve melasma by up to 40 to 50% in some studies. For at-home use of glycolic acid, he recommends staying in a 5 to 10% range building to about 15%, left on a maximum of 3 minutes and neutralized at the first sign of redness or stinging, because unlike self-neutralizing acids such as retinoic or salicylic acid, glycolic acid must be actively neutralized and is one of the more common causes of at-home peel mishaps."
@@ -28,6 +29,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=-ks8YlDWhUY
+  duration: 78
   posted: '2026-08-23'
   related: []
   thesis: Dr. Neera Nathan, a board-certified dermatologist, explains how to use glycolic acid safely on different body areas. She recommends 7% glycolic acid on armpits only one to two times per week to avoid irritation and darkening, two to three times per week on the body for ingrown hairs and breakouts, three to four times per week on chest, arms, or legs for crepey skin (alternating with a body retinol), and daily use is reserved for calluses on the soles followed by urea cream or Aquaphor.
@@ -38,6 +40,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=mctaZsSEKEU
+  duration: 45
   posted: '2026-08-23'
   related: []
   thesis: Board-certified dermatologist Dr. Jenny Liu explains why glycolic acid is the "missing piece" when combined with tretinoin and azelaic acid. She says tretinoin builds collagen and speeds cell turnover while azelaic acid helps with redness, acne, and pigmentation, but neither gives an immediate smooth, polished look; glycolic acid dissolves the dead skin on the surface so the effects of the other two actives can show, producing a next-day "wow" effect. She warns against layering all three every night, recommending glycolic acid only two nights a week since an inflamed skin barrier undermines glowing skin.
@@ -48,6 +51,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=pk5_rveYLZE
+  duration: 40
   posted: '2026-08-30'
   related: []
   thesis: 'Reacting to a viewer''s leg-shaving hack, board-certified dermatologist Dr. Jenny Liu confirms that hair conditioner works as a shaving cream (it adds slip and cuts friction) and that men''s razors are often sharper and easier to maneuver. She then adds her own upgrades: shave at the end of a shower once hair has softened, always use a fresh blade since dull blades cause more irritation and ingrown hairs, shave with the grain if you''re prone to razor bumps, moisturize immediately after, and use an AHA-based moisturizer two to three times a week to reduce dead skin buildup.'
@@ -58,6 +62,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=BqI2_Q3heXI
+  duration: 115
   posted: '2026-08-16'
   related: []
   thesis: Board-certified dermatologist Dr. Neera Nathan reacts to viral skincare trends and explains which ones actually hold up. She says zinc oxide diaper rash cream applied at night acts as a skin protectant and anti-inflammatory that helps repair a damaged moisture barrier. She calls glycolic acid a versatile AHA useful for exfoliation, collagen boosting, evening pigmentation, and treating ingrown hairs or dark elbows when used one to three times a week. She notes viral collagen face masks work mainly as humectants for temporary plumping rather than by boosting the skin's own collagen production, and highlights combining azelaic acid in the morning with tretinoin at night as a long-standing dermatologist combo for smoothing texture, fading hyperpigmentation, and reducing wrinkles.
@@ -68,6 +73,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=iF2QyodMH4o
+  duration: 835
   posted: '2026-07-03'
   related: [anti-aging, hyperpigmentation, lactic-acid, mandelic-acid, exfoliating-acids-by-strength, sunscreen-uv-filters]
   thesis: Board-certified dermatologist Dr. Maren Locke (The Budget Dermatologist) explains why glycolic acid is a core anti-aging active and how to add it to a routine. As the smallest alpha hydroxy acid molecule it penetrates deeper than other AHAs, so beyond surface exfoliation (smoother texture, brighter tone, faded dark spots) it can reach the dermis and help stimulate collagen, at the cost of being more likely to sting or irritate sensitive skin. She advises starting low and slow, in a rinse-off cleanser or a 5% or lower leave-on used only once or twice a week as the sole active on those nights, always pairing acids with daily sunscreen, and switching to the gentler larger molecules lactic acid or mandelic acid for anyone who cannot tolerate glycolic.
@@ -78,6 +84,7 @@ videos:
   credential: Board-certified dermatologist, Harvard Medical School
   platform: YouTube
   url: https://www.youtube.com/watch?v=4QPfylhCDMo
+  duration: 894
   posted: '2026-04-27'
   related: [salicylic-acid, skin-barrier-repair, rosacea]
   thesis: Harvard dermatologist Dr. Abigail Waldman warns that glycolic acid and other AHA and BHA chemical exfoliants, while effective for smoothing texture and evening tone, are easy to overuse to the point of a damaged skin barrier. She advises most people exfoliate only once or twice a week and read labels for glycolic, lactic, salicylic, or mandelic acid in the top ingredients so they do not unknowingly stack several exfoliating products at once. Redness, tight or dry skin, stinging, or new breakouts are her signs to stop and switch to a barrier cream, with eczema-, sensitive-, and rosacea-prone skin most at risk.

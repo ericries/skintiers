@@ -14,6 +14,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=XFIXoWL_LtI
+  duration: 90
   posted: '2026-08-24'
   related: []
   thesis: 'Board-certified dermatologist Dr. Daniel Sugai shares tips he wishes he had known sooner. He explains that hyaluronic acid serum gives instant plumping and glow, good before an event, while vitamin C serum works more gradually as an antioxidant that fights free-radical damage from pollution and sunlight, improving fine lines, texture, and brightness over time; he wishes he had started vitamin C earlier in his 30s. He advises applying the less stable vitamin C serum first, then hyaluronic acid, then moisturizer and sunscreen (thinnest to thickest). He also stresses that not all sunscreens are equal for melasma and hyperpigmentation: a tinted sunscreen containing iron oxides is needed to block visible light, and he says patients whose melasma keeps worsening despite using sunscreen often turn out to be using one without iron oxides.'

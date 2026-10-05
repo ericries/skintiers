@@ -14,6 +14,7 @@ videos:
   credential: ""
   platform: YouTube
   url: https://www.youtube.com/watch?v=l30kQh-VdwI
+  duration: 1303
   posted: '2026-08-15'
   related: [tretinoin]
   thesis: "Board-certified dermatologist Andrea Suarez (Dr Dray) discusses whether adapalene is evidence-based for anti-aging compared to tretinoin, noting that research on adapalene for this use is far more limited than for tretinoin (the established gold-standard retinoid), largely because adapalene is newer and less studied. She points out that the available small studies used 0.3% adapalene versus 0.05% tretinoin and found adapalene not inferior, with biopsy-confirmed improvements in collagen production, and that she recommends adapalene mainly because it tends to be less irritating than tretinoin and is available over the counter in the US at 0.1% strength."
@@ -24,6 +25,7 @@ videos:
   credential: Cosmetic chemist, PhD
   platform: YouTube
   url: https://www.youtube.com/watch?v=KbeopWc_xLE
+  duration: 1076
   posted: '2023-12-29'
   related: [tretinoin, retinoids, differin-adapalene-0-1-gel, acne]
   thesis: Cosmetic chemist Michelle Wong (Lab Muffin), who holds a PhD, compares the prescription retinoid tretinoin with adapalene, sold over the counter as Differin, across acne, wrinkles, and pigmentation. She explains that tretinoin has by far the most clinical evidence and works for all the standard retinoid goals, while adapalene is more photostable and often less irritating and is approved for acne. She cautions that head-to-head studies in which tretinoin appears to lose to a newer retinoid are often industry-funded, so they should be read with that bias in mind.
@@ -34,6 +36,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=DprHVOUpvaM
+  duration: 1346
   posted: '2026-08-23'
   related: [retinoids, retinol]
   thesis: In this skincare Q&A, board-certified dermatologist Andrea Suarez (Dr Dray) answers a viewer question about whether adapalene, a topical retinoid, can cause facial fat loss. She explains that adapalene, like retinol and tretinoin, does not cause facial fat loss, and that people often mistake normal age-related volume loss for a skincare side effect simply because the two coincide in timing. She notes that lost facial volume can only be restored with filler placed where it is wanted, not by any topical.
@@ -44,6 +47,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=3ERdIaNqdYc
+  duration: 90
   posted: '2026-08-30'
   related: [niacinamide, differin-adapalene-0-1-gel, la-roche-posay-effaclar-adapalene-gel-0-1]
   thesis: 'Board-certified dermatologist Dr. Daniel Sugai explains clogged pores as a form of comedonal acne (whiteheads and blackheads, common on the forehead) and lays out his prevention approach: never sleep in makeup or without cleansing, use a lipid-soluble salicylic acid (BHA) product regularly to help clear pores, and add a retinoid since he says retinoids are not all the same. He recommends over-the-counter adapalene (Differin or La Roche-Posay) applied pea-size to the whole face, or a prescription tretinoin from a dermatologist for stronger cases, noting both work well on inflammatory acne and clogged pores. He also advises a lightweight sunscreen containing niacinamide, explaining that sun exposure can dilate pores and make them more clogged and enlarged over time.'
@@ -54,6 +58,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=coUHJ-vt5F8
+  duration: 56
   posted: '2026-08-24'
   related: [la-roche-posay-cicaplast-baume-b5, blackheads-clogged-pores]
   thesis: Board-certified dermatologist Dr. Jenny Liu outlines a six-step routine to reduce the appearance of sebaceous filaments (the natural oil-duct openings around the nose and cheeks often mistaken for blackheads). She recommends a gentle cleanser (double cleansing if wearing makeup), nightly adapalene (Differin) for cell turnover, a salicylic acid exfoliant a few times a week to clear pores of sebum, consistent moisturizing to keep the skin barrier healthy, and a weekly clay mask for very oily skin to pull out excess oil. She notes moisturizer doesn't directly clear filaments but supports skin turnover, which is why some people credit products like Cicaplast with improvement.
@@ -64,6 +69,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=sjqs8gBjiAM
+  duration: 58
   posted: '2026-08-17'
   related: []
   thesis: 'Board-certified dermatologist Dr. Neera Nathan explains that the small persistent bumps many people see on the chin and nose are not pimples or milia but sebaceous filaments, normal pore structures that cannot be eliminated but can be minimized. She offers three derm-approved approaches: a sulfur mask left on 10 minutes to break down debris and reduce surface oiliness, a salicylic acid cleanser to exfoliate and cut sebum without stripping the skin barrier, and a pea-sized amount of adapalene gel, which she says is unmatched over-the-counter for keeping pores clear and appearing smaller.'
@@ -74,6 +80,7 @@ videos:
   credential: Board-certified dermatologist
   platform: TikTok
   url: https://www.tiktok.com/@dr.tomassian/video/7678837805790940429
+  duration: 29
   posted: '2026-08-27'
   related: []
   thesis: Board-certified dermatologist Dr. Chris Tomassian names adapalene combined with benzoyl peroxide as what he considers the best and most effective over-the-counter acne treatment. He notes this combination was previously prescription-only and is now available over the counter, and explains adapalene treats and helps prevent new pimples while paired with benzoyl peroxide. He recommends it as a good option to try before seeing a dermatologist for those who can't get an appointment yet

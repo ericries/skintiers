@@ -8,6 +8,7 @@ videos:
   credential: Cosmetic chemists
   platform: YouTube
   url: https://www.youtube.com/watch?v=xcOUyHgeITQ
+  duration: 263
   posted: '2024-03-20'
   thesis: "Cosmetic chemists Victoria Fu and Gloria Lu of Chemist Confessions say niacinamide's useful concentration is about 2 to 5%, and that a popular 10% serum does not give twice the benefit of a 5% one. Because niacinamide is stacked across so many products, cleansers, serums, and moisturizers, the doses add up, and layering several niacinamide products can tip into irritation and redness; they add that mixing your own niacinamide from powder is pointless and easy to overdose."
   note: "Verified from the video's transcript (yt-dlp, read in full). Two cosmetic chemists; educational content. They briefly and openly note their own serum contains 5%; the concentration and layering guidance stands on its own."
@@ -17,6 +18,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=pEn6fIL51Dk
+  duration: 660
   posted: '2026-04-17'
   related: [vitamin-c]
   thesis: "Board-certified dermatologist Dr. Sam Ellis says that for patients whose skin does not tolerate vitamin C, niacinamide is the alternative she recommends most, since it is also an antioxidant but additionally strengthens the skin barrier, is anti-inflammatory, helps with oil control, and brightens by blocking pigment transfer rather than pigment production. She says niacinamide is most studied at 2 to 5%, though the benefit does not clearly top out at 5%, and she favors it especially for acne-prone or oily skin."
@@ -27,6 +29,7 @@ videos:
   credential: Board-certified dermatologist (Australia)
   platform: YouTube
   url: https://www.youtube.com/watch?v=OOTon1kux88
+  duration: 166
   posted: '2024-04-26'
   related: [hyperpigmentation, acne, rosacea]
   thesis: 'Australian board-certified dermatologist Dr Davin Lim explains how niacinamide (vitamin B3) helps with pigmentation. He describes it working through several roles: reducing inflammation, which is useful in acne and rosacea and which curbs the post-inflammatory hyperpigmentation (the dark marks) that acne can leave behind, and supporting the skin barrier, since a compromised barrier itself drives both inflammation and pigmentation.'
@@ -37,6 +40,7 @@ videos:
   credential: Skincare educator
   platform: YouTube
   url: https://www.youtube.com/watch?v=0nbbOyUdTzA
+  duration: 6999
   posted: '2018-04-01'
   related: [acne, avobenzone, tretinoin, retinoids, azelaic-acid, rosacea]
   thesis: In this nearly two hour Instagram Live Q&A, skincare educator and formulator Stephen Alain Ko (KindofStephen) answers viewer questions across a wide range of skincare topics. On sunscreen, he explains why "next-gen" UV filters like Tinosorb are approved in Europe and Asia but not routinely in the US and Canada due to regulatory differences, and cites a Johnson & Johnson presentation at the American Academy of Dermatology describing a 21.6% zinc oxide mineral sunscreen with a UVA protection factor around 31 to 32, notably higher than the 15 to 22 typical of mineral sunscreens. He also breaks down the difference between sodium hyaluronate and hydrolyzed hyaluronic acid by molecular weight, discusses vitamin C derivatives versus L-ascorbic acid as the still-unbeaten gold standard, and weighs in on benzoyl peroxide's efficacy and oxidative tradeoffs for acne, an LED mask study he criticizes for lacking a control group, and niacinamide combined with tretinoin for acne and hyperpigmentation.
@@ -47,6 +51,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=oNhnH5Ezyn0
+  duration: 796
   posted: '2026-01-26'
   related: [rosacea-papulopustular, acne, pityriasis-versicolor, best-azelaic-acid-products, best-niacinamide-products, best-peptide-serums]
   thesis: Board-certified dermatologist Dr. Caroline Robinson gives a thumbs up/down verdict on several 2026 skincare trends. She explains azelaic acid started as the compound behind tinea versicolor's skin-lightening rash before becoming a prescription and OTC treatment for rosacea (15%) and acne-related hyperpigmentation (20% for acne, 10% OTC), calling it a thumbs up. She says niacinamide controls oil at 2%, helps hyperpigmentation at 4 to 5%, but risks irritation at the popular 10% level, so lower doses are the "sweet spot." She endorses red light masks as adjuncts to in-office treatments (checking wavelength and device-specific studies matters) and peptides as a helpful but non-foundational addition after retinoids and sunscreen, dismisses at-home chemical peels as unsafe versus in-office ones, and gives multi-step (6 to 7 product) TikTok routines a thumbs down, arguing cleansing, exfoliating, and moisturizing can be done well in 3 to 4 steps.

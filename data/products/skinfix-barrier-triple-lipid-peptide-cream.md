@@ -51,6 +51,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=Max9p5NGANI
+  duration: 930
   posted: '2025-10-31'
   related: [hypochlorous-acid, ceramides, hyaluronic-acid, isdin-eryfotona-ageless-tinted-mineral-spf-50]
   thesis: Dr. Joyce Park, a board-certified dermatologist, features the Tower 28 SOS Daily Rescue Facial Spray as one of her holy-grail picks in her Sephora fall sale roundup. She explains its hypochlorous acid is a purified, stabilized version of a molecule the body's own immune cells naturally produce to fight bacteria and calm irritation, distinct from the dilute bleach used in bleach baths for conditions like eczema. She discloses she sits on Tower 28's medical advisory board and recommends the spray for post-workout use and for reactive skin during acne or rosacea flares.

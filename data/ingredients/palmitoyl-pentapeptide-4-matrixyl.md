@@ -13,6 +13,7 @@ videos:
   credential: Board-certified dermatologist (DO, FAOCD, FAAD), River Ridge Dermatology / HCA Virginia, Blacksburg VA
   platform: YouTube
   url: https://www.youtube.com/watch?v=t9I8vVpZjxc
+  duration: 991
   posted: '2026-08-30'
   related: [palmitoyl-tripeptide-1, retinoids, anti-aging]
   thesis: 'Board certified dermatologist Dr. Aleksandra Brown explains that peptides are an "upgrade," not a foundation, meant only for people already consistent with sunscreen, vitamin C, and a retinoid, then compares three peptide classes for people in their 40s and up: signal peptides like Matrixyl/Matrixyl 3000 (palmitoyl tripeptide 1) that prompt fibroblasts to make more collagen and have the most placebo controlled human data, carrier peptides like copper peptides/GHK Cu that deliver copper to support collagen and elastin repair, and neurotransmitter inhibiting Argireline (acetyl hexapeptide 8) that softens expression lines but works nowhere near as strongly as Botox. She ranks copper peptide as her top single pick for 40s collagen support, flags that copper peptides and L ascorbic acid vitamin C should be kept apart at different times of day, and says the evidence on combining copper peptides with vitamin C derivatives is still unsettled.'

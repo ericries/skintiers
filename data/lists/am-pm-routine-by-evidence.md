@@ -23,6 +23,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=gSM41KbLPgw
+  duration: 401
   posted: '2026-01-02'
   related: [skin-barrier-strengthening]
   thesis: 'Board-certified dermatologist Dr. Brooke Jeffy explains why rinsing with water alone is not enough to cleanse the face: sunscreen, sebum, and other oil-based products need a cleanser because water and oil do not mix, and leftover residue can drive inflammation that contributes to acne, eczema, rosacea, and premature aging. She recommends a nightly double cleanse (an oil-based remover like micellar water or a cleansing balm to lift off sunscreen and makeup, followed by a water-based cleanser) since nighttime cleansing is non-negotiable, while morning cleansing is optional for dry or sensitive skin but recommended for oily or acne-prone skin. She also warns that over-cleansing (scrubbing multiple times a day) is just as damaging to the skin barrier as under-cleansing or skipping the nightly wash.'
@@ -33,6 +34,7 @@ videos:
   credential: Board-certified dermatologist
   platform: TikTok
   url: https://www.tiktok.com/@dr.tomassian/video/7678836627141070094
+  duration: 48
   posted: '2026-08-27'
   related: []
   thesis: 'Board-certified dermatologist Dr. Chris Tomassian, a new dad with almost no time, shares a stripped-down routine: in the morning just splash water, apply an antioxidant like vitamin C serum, then a moisturizer-sunscreen combo, under a minute total. At night, cleanse for about 30 seconds, apply a retinol, retinal, or retinoid, then moisturize, under 90 seconds. He frames it as focusing on the ingredients with the biggest proven benefit and staying consistent rather than doing an elaborate routine'
@@ -43,6 +45,7 @@ videos:
   credential: Board-certified dermatologist, Harvard Medical School
   platform: YouTube
   url: https://www.youtube.com/watch?v=WyBkBpXrkKM
+  duration: 1499
   posted: '2026-05-22'
   related: [double-cleansing, retinoids, sunscreen-uv-filters, vitamin-c, minimalist-routine, how-often-to-wash-your-face]
   thesis: 'Harvard academic dermatologist Dr. Abigail Waldman lays out a step-by-step, science-backed skincare routine as a method rather than a product list. She walks through the order: a cleanser (with an optional oil or balm double cleanse for makeup or heavy oil), an optional exfoliating toner, serums grouped by job (an antioxidant like vitamin C in the morning, dark-spot correctors, peptides, and hydrating serums), moisturizer, and sunscreen in the morning, with retinoids and chemical exfoliants singled out as the two high-reward actives to introduce slowly and never overuse. Her core message is to understand when and why to use each product you already own rather than buying more.'

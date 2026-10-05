@@ -14,6 +14,7 @@ videos:
   credential: Board-certified dermatologist, Associate Professor of Dermatology at Harvard Medical School; co-chair of the AAD Acne Guidelines Work Group
   platform: YouTube
   url: https://www.youtube.com/watch?v=jvuhQ3ZMsfs
+  duration: 469
   posted: '2026-06-29'
   related: [tretinoin, acne, benzoyl-peroxide]
   thesis: Board-certified dermatologist Dr. John Barbieri reviews the clinical trial evidence on topical isotretinoin for acne, comparing it against vehicle, tretinoin, benzoyl peroxide, and adapalene in several randomized controlled trials. He finds topical isotretinoin works about as well as other single-agent topical acne treatments but not better, and concludes it is unlikely to replace oral isotretinoin (Accutane) because it cannot penetrate deeply enough to shrink the sebaceous glands and produce the durable remission seen with the oral drug.
@@ -24,6 +25,7 @@ videos:
   credential: Board-certified dermatologist, Associate Professor of Dermatology at Harvard Medical School; co-chair of the AAD Acne Guidelines Work Group
   platform: YouTube
   url: https://www.youtube.com/watch?v=mHMIOuECdyQ
+  duration: 544
   posted: '2026-06-06'
   related: [acne, retinoids]
   thesis: Board-certified dermatologist Dr. John Barbieri explains microdosing of isotretinoin (Accutane), meaning very low, intermittent doses such as 10 to 20 mg two or three times a week rather than the traditional roughly 1 mg per kilogram per day taken to a cumulative target over 6 to 12 months. He notes the appeal is that most isotretinoin side effects are dose-dependent, so lower doses can mean fewer side effects, which suits milder or maintenance cases and people who cannot tolerate standard dosing. He also covers common mistakes and misconceptions, including that the lower cumulative dose of microdosing is a tradeoff that may not match the durable, long-term remission a full standard course is known for.
@@ -34,6 +36,7 @@ videos:
   credential: Board-certified dermatologist
   platform: TikTok
   url: https://www.tiktok.com/@dr.tomassian/video/7675178545009741070
+  duration: 32
   posted: '2026-08-18'
   related: [acne, hormonal-acne]
   thesis: 'Board-certified dermatologist Dr. Chris Tomassian outlines when a patient might consider starting isotretinoin (Accutane): when acne is not controlled by topical treatments and oral antibiotics, when there is severe cystic acne that is causing scarring, or when hormonal acne is not well controlled by birth control pills or spironolactone. He says that in his clinical experience the medication is generally well tolerated and that its side effects are often overstated.'

@@ -30,12 +30,14 @@ videos:
   title: Do these skincare trends actually work? Encapsulation, derivatives, microbiome,
     menopause
   url: https://www.youtube.com/watch?v=sGqERq0xBxc
+  duration: 1275
 - title: How Perimenopause Changes Your Skin (And What to Do)
   creator: Dr. Dustin Portela
   creator_slug: dustin-portela
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=6ufx8i4mSrE
+  duration: 633
   posted: '2026-09-13'
   related: [retinoids, sunscreen-uv-filters, ascorbic-acid-vitamin-c, anti-aging, neck-chest-decolletage-care]
   thesis: 'Board-certified dermatologist Dr. Dustin Portela, in conversation with dermatologist Dr. Mary Alice Mina, explains how perimenopause and menopause change the skin as falling estrogen drives a sharp loss of collagen and new skin laxity; they cite losing up to about 30 percent of skin collagen in the roughly five years around menopause, versus about 1 percent a year after age 30. Their practical takeaway is that the highest-value routine stays simple: daily sun protection first, then a retinol or prescription retinoid to support collagen, and an antioxidant such as vitamin C, with more expensive add-ons giving diminishing returns. They also stress that sleep, diet, and stress management meaningfully affect how skin ages.'
@@ -46,6 +48,7 @@ videos:
   credential: Board-certified dermatologist (FAAD), Clinical Professor of Dermatology, UCLA
   platform: YouTube
   url: https://www.youtube.com/watch?v=TZhvwf1dzrM
+  duration: 290
   posted: '2025-11-14'
   related: [anti-aging, retinoids, peptides]
   thesis: 'Board-certified dermatologist Dr. Tanya Kormeili explains why skin ages faster around perimenopause and menopause: the decline in estrogen removes a key stimulus for the skin to make collagen and elastin, so skin becomes thinner, more wrinkled, and less firm. She frames collagen as something you can keep building rather than only lose, through daily sun protection and, working with a dermatologist, collagen-stimulating options such as retinoids, peptides, lasers, and biostimulatory procedures.'
@@ -56,6 +59,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=gi310RYORzM
+  duration: 643
   posted: '2026-01-17'
   related: [anti-aging, skin-barrier-repair]
   thesis: 'Board-certified dermatologist Dr. Shereene Idriss explains why skin can seem to change abruptly in the early 40s: perimenopause, the hormonal transition that can begin up to ten years before menopause. She stresses that the driver is hormonal instability and fluctuation, not simply hormone loss, and that because skin relies on hormonal signaling for hydration, barrier function, collagen production, and inflammation control, the instability shows up as dryness, pigment changes, breakouts, and redness, often all at once. Her guidance is to respond with a calm, consistent plan rather than panic, trend-chasing, or over-treatment.'

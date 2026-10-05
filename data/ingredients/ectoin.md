@@ -14,6 +14,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=o0iux-4otds
+  duration: 684
   posted: '2026-05-24'
   related: [ceramides, niacinamide, retinoids, sunscreen-uv-filters, skin-barrier-repair, hyaluronic-acid]
   thesis: Dr. Dustin Portela, a board-certified dermatologist, explains that ectoin is a compound derived from extremophile bacteria that stabilizes cell membranes rather than simply adding or sealing in moisture, and that it has two decades of peer-reviewed clinical research behind it in Europe, including studies in atopic dermatitis comparing it to mild topical corticosteroids. He cautions that the clinical benefits were shown at concentrations of roughly 0.5 to 5 percent, and that many newly launched US products do not disclose their ectoin concentration, which likely falls below the studied therapeutic range. He recommends it as a layering ingredient alongside ceramides, beta glucan, retinoids, and sunscreen rather than as a replacement for a foundational routine.
@@ -24,6 +25,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=jOTljTisVWE
+  duration: 1042
   posted: '2025-12-05'
   related: [avobenzone]
   thesis: Board-certified dermatologist Dr. Joyce Park (Tea with MD) reacts to a Vogue video of Hailey Bieber's morning routine, breaking down the ingredients in each Rhode product as Bieber applies them. She spends the most time on ectoin, calling it a "wonderful humectant" that helps skin hold onto water and repair the skin barrier, and notes it was popularized in Korean skincare years before showing up in US products like Rhode's Glazing Mist. She also explains that the routine's ceramide trio (ceramide MP, AP, EOP) helps hold skin cells together, and flags that Bieber's Isdin sunscreen uses Tinosorb S and avobenzone, filters offering broad photostable UV coverage that are common in Europe but not FDA-approved in the US.

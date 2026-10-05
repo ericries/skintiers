@@ -14,6 +14,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=Sn_Y59aGjcw
+  duration: 300
   posted: '2023-11-05'
   related: [hydroquinone, melasma, hyperpigmentation, tranexamic-acid, niacinamide, resorcinol]
   thesis: Board-certified dermatologist Dr. Alexis Stephens explains thiamidol (isobutylamido thiazolyl resorcinol), a synthetic tyrosinase inhibitor that blocks the enzyme skin uses to make melanin, positioning it as an over-the-counter alternative to prescription hydroquinone for fading hyperpigmentation and melasma. She cites clinical studies led in South Africa reporting that pigmentation began to fade after about two weeks and that roughly 90 percent of users showed marked improvement by three months, with minimal stinging or irritation. She cautions that no single ingredient is a cure, that thiamidol currently appears mainly in Eucerin's line (some versions contain fragrance), and that consistent sun protection remains essential.

@@ -77,6 +77,7 @@ videos:
   credential: Dermatologist (MD)
   platform: TikTok
   url: https://www.tiktok.com/@dermydoctor/video/7688708549794467086
+  duration: 37
   posted: '2026-09-23'
   related: [glycolic-acid, lactic-acid, salicylic-acid]
   thesis: 'Dermatologist Dr. Fatima Fahs explains why skin often looks duller heading into fall: natural exfoliation and skin cell turnover slow down in cooler weather, so dead cells build up at the surface. She suggests adding a chemical exfoliant a few nights a week, used in the evening so skin has time to recover overnight, to keep cell turnover regular and leave skin looking smoother and brighter over the colder months.'

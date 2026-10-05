@@ -67,6 +67,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=rCIvhfEbD00
+  duration: 1103
   posted: '2026-09-12'
   related: [petrolatum, ceramides, glycolic-acid, adapalene, retinoids, sulfur, sunscreen-uv-filters]
   thesis: Board-certified dermatologist Dr. Sarah Sheu rounds up her favorite affordable skincare, everything under 20 dollars and personally tested, spanning dollar-store finds, dermatologist staples, and targeted treatments. Her standout picks include plain Vaseline (petrolatum) as a barrier-repair workhorse, CeraVe Moisturizing Cream for its ceramide, cholesterol, and fatty-acid barrier mix, The Ordinary's Glycolic Acid 7% toning solution for texture and dark spots, over-the-counter adapalene 0.1% (Differin) as one of the best budget acne retinoids, and Beauty of Joseon's Revive Eye Serum as a gentle starter retinal. She is candid about the limits, noting that very cheap products rarely have clinical studies of their own, and she frames barrier basics and consistent use as mattering more than price.

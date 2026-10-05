@@ -48,6 +48,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=KthqYRfRJtw
+  duration: 43
   posted: '2026-08-27'
   related: []
   thesis: Dermatologist Dr. Joyce Park (Tea with MD) says she does not pair La Roche-Posay Cicaplast Baume B5 with tretinoin and azelaic acid ("the holy trinity") and instead recommends lighter barrier-repair alternatives. She names the Aestura gel cream as a lightweight summer option, an Aveeno oat-based gel cream for soothing irritation when starting a retinoid, and calls out Avene Cicalfate and the Tower 28 SOS recovery cream as other good picks.

@@ -14,6 +14,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=0sxHRZPDvss
+  duration: 1298
   posted: '2026-08-08'
   related: [retinol]
   thesis: "Answering a question on retinol versus retinaldehyde (retinal), board-certified dermatologist Andrea Suarez (Dr Dray) explains both are cosmetic forms of vitamin A that the skin has to convert toward the active form, with retinaldehyde needing one conversion step and retinol needing two. She says there is no good evidence that fewer conversion steps makes retinaldehyde more effective, and that from her own experience testing many retinols and retinaldehydes, staying consistent with whichever one is tolerated and affordable matters more than which molecule is chosen."
@@ -24,6 +25,7 @@ videos:
   credential: Cosmetic chemists
   platform: YouTube
   url: https://www.youtube.com/watch?v=OgE4NPoRAmU
+  duration: 2004
   posted: '2026-04-08'
   related: [medik8, prequel]
   thesis: "Testing retinaldehyde products from Krave Beauty (0.05%), Prequel (0.1%), and a Korean spicule shot (0.1%), and discussing (but not themselves testing) Medik8 Crystal Retinal 6, cosmetic chemists Victoria Fu and Gloria Lu of Chemist Confessions found that texture and stability, not just percentage, drove their real-world experience with retinaldehyde: several formulas showed visible discoloration or degraded quickly once opened, and encapsulation or physical-particle stabilization mattered more than raw concentration. They singled out Medik8's marketing claim that retinaldehyde works 'up to 11 times faster' than retinol as misleading, since the cited paper is an early in-vitro study on isolated metabolism, not a test of the actual finished formula."
@@ -34,6 +36,7 @@ videos:
   credential: ""
   platform: YouTube
   url: https://www.youtube.com/watch?v=1NA2mD7IhXw
+  duration: 890
   posted: '2024-05-01'
   related: [medik8-crystal-retinal-3, youth-to-the-people-retinal-niacinamide-serum]
   thesis: "Medical esthetician Cassandra Bankson runs a personal weeks-long trial of The Ordinary's Retinal 0.2% Emulsion, an over-the-counter retinaldehyde product, applying it to acne scarring and sebaceous filaments on her chest and face. She reports no retinization or irritation during the trial and describes a visible reduction in sebaceous filaments and brighter, more even skin tone, while noting the blackhead-like texture in one area did not improve. She also compares it informally to pricier retinal products, saying she found it more effective for her than the Youth To The People retinal serum but less effective than Medik8's Crystal Retinal."

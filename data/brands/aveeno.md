@@ -13,6 +13,7 @@ videos:
   credential: Board-certified dermatologist (DO, FAOCD, FAAD), River Ridge Dermatology / HCA Virginia, Blacksburg VA
   platform: YouTube
   url: https://www.youtube.com/watch?v=v5fVYX-qhIY
+  duration: 889
   posted: '2026-08-16'
   related: [colloidal-oatmeal, ceramides, urea, niacinamide, dry-skin, skin-barrier-repair]
   thesis: Board-certified dermatologist Dr. Aleksandra Brown compares Aveeno and Eucerin across body lotion, eczema cream, keratosis-pilaris-type rough skin, and face care, arguing the two drugstore lines are built on different philosophies rather than being interchangeable. Aveeno centers on colloidal oatmeal to soothe itchy, sensitive skin, while Eucerin leans on ceramides and urea to actively repair dry, rough, or flaky skin. She recommends Aveeno for normal-to-dry, itchy, or reactive skin, and Eucerin for truly dry, rough, cracked, or bump-prone skin, noting both eczema creams share the same 1 percent colloidal oatmeal active but differ in supporting ingredients (ceramides in Aveeno vs licochalcone A in Eucerin).

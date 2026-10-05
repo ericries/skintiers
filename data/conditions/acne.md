@@ -55,6 +55,7 @@ videos:
     since breakouts take time to settle.'
   title: What to do (and what not to do) during an active acne breakout
   url: https://www.tiktok.com/@your.estie.ella/video/7672370181460512014
+  duration: 114
 - creator: Dr. Sam Bunting
   creator_slug: sam-bunting
   credential: Board-certified dermatologist
@@ -80,6 +81,7 @@ videos:
     acne responds to consistency rather than intensity.'
   title: How to Fix Adult Acne Without Drying Out Your Skin (30s, 40s, Beyond)
   url: https://www.youtube.com/watch?v=dyzK718tnNI
+  duration: 967
 - creator: ''
   creator_slug: adeline-kikam
   credential: ''
@@ -99,6 +101,7 @@ videos:
   title: Body Acne Treatment | Get rid of Body Acne | Derm Guide for Body Acne and
     blemishes
   url: https://www.youtube.com/watch?v=Efdvq8ptkmA
+  duration: 770
 - creator: ''
   creator_slug: usama-syed
   credential: ''
@@ -121,6 +124,7 @@ videos:
     and isotretinoin (Accutane) for more severe cases.
   title: 99% Overlook These Effective Acne Treatments – 2025 Guide
   url: https://www.youtube.com/watch?v=y5d_iIgH3Pc
+  duration: 934
 - creator: ''
   creator_slug: lindsey-zubritsky
   credential: ''
@@ -140,6 +144,7 @@ videos:
     scrubbing acne-prone skin.
   title: 3 Ways To Fix Bacne — From A Derm
   url: https://www.youtube.com/watch?v=OMwRjoDwJ5M
+  duration: 54
 - creator: ''
   creator_slug: angelo-landriscina
   credential: ''
@@ -156,6 +161,7 @@ videos:
     selenium and acne does not establish selenium as a therapeutic target.
   title: Will Brazil nuts cure your acne?
   url: https://www.youtube.com/watch?v=trlgLsWAYsY
+  duration: 359
 - creator: ''
   creator_slug: emma-wedgeworth
   credential: ''
@@ -215,6 +221,7 @@ videos:
     a general label-reading tip for anyone managing acne-prone skin.
   title: 3 common skincare ingredients that cause acne
   url: https://www.tiktok.com/@dr.obioha/video/7339236743608274222
+  duration: 32
 - creator: ''
   creator_slug: heather-woolerylloyd
   credential: ''
@@ -251,6 +258,7 @@ videos:
     is not to let fear of purging delay treating acne for a single day longer.
   title: 'Acne Purging: What It Is and How to Manage It'
   url: https://www.youtube.com/watch?v=1T_3APXXtDw
+  duration: 677
 - creator: Ella
   creator_slug: your-estie-ella
   credential: licensed esthetician
@@ -268,6 +276,7 @@ videos:
     the skin barrier with gentle, soothing ingredients lets the marks fade faster.
   title: Post-Acne Marks Heal by Calming, Not Scrubbing
   url: https://www.tiktok.com/@your.estie.ella/video/7675730527655038221
+  duration: 49
 - creator: Dr. Scott Walter
   creator_slug: scott-walter
   credential: Board-certified dermatologist
@@ -282,6 +291,7 @@ videos:
     the menstrual cycle, often in the days just before it.'
   title: How to Tell If You Have Hormonal Acne
   url: https://www.youtube.com/watch?v=jamDLBRGfEc
+  duration: 72
 - creator: Dr. Sam Bunting
   creator_slug: sam-bunting
   credential: Board-certified dermatologist (UK)
@@ -302,6 +312,7 @@ videos:
     to appear.
   title: The Acne Mistake Almost EVERYONE Makes - Why Your Acne Isn't Improving
   url: https://www.youtube.com/watch?v=IGLdq7kgTdI
+  duration: 211
 - creator: Dr. Scott Walter
   creator_slug: scott-walter
   credential: Board-certified dermatologist
@@ -320,6 +331,7 @@ videos:
   title: 'Spongilla Lacustris: How this freshwater sponge may change how we treat
     ACNE! #acne #research'
   url: https://www.youtube.com/watch?v=rVf-EA20svI
+  duration: 88
 - creator: Dr. Davin Lim
   creator_slug: davin-lim
   credential: Board-certified dermatologist (Australia)
@@ -336,12 +348,14 @@ videos:
     for standard treatment.
   title: Top 5 Dermatologist-Approved Natural Acne Remedies
   url: https://www.youtube.com/watch?v=1BaBKjrpyT0
+  duration: 463
 - title: Can Eating More Fiber Improve Your Skin? | Dermatologist Explains
   creator: Andrea Suarez (Dr Dray)
   creator_slug: andrea-suarez-dr-dray
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=FzrowYqQnnE
+  duration: 1244
   posted: '2026-08-27'
   related: []
   thesis: 'Board-certified dermatologist Dr. Andrea Suarez (Dr Dray) explains the gut-skin axis: dietary fiber that reaches the colon is fermented by gut bacteria into short-chain fatty acids (like butyrate), which can reduce inflammatory mediators such as IL-6 and TNF-alpha and support the skin barrier. She reviews evidence for fiber and inflammatory skin conditions including atopic dermatitis and psoriasis, noting most of this comes from observational and animal studies rather than large human trials, so fiber should not replace prescribed treatment. For acne, she highlights fiber''s role in lowering the glycemic load of the diet, which is linked to less insulin-driven breakout activity, and she gives practical guidance on safely increasing fiber intake (start slow with lentils, prioritize whole foods over fiber-fortified processed foods, and drink enough water to avoid GI discomfort).'
@@ -352,6 +366,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=-ym1b77ZJFM
+  duration: 75
   posted: '2024-09-05'
   related: [benzoyl-peroxide]
   thesis: Dr. Scott Walter, a board-certified dermatologist, describes two experimental acne treatments in development that would not require daily topicals or pills. The first is an mRNA vaccine targeting the P. acnes bacterium implicated in acne pathogenesis, which has completed phase one trials with results pending. The second is a once-weekly face mask made from the freshwater sponge Spongilla lacustris, which has shown significant acne improvement with few side effects in phase two trials. He frames both as promising options for patients who struggle with daily treatment compliance, though neither is yet available.
@@ -362,6 +377,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=3ERdIaNqdYc
+  duration: 90
   posted: '2026-08-30'
   related: [niacinamide, differin-adapalene-0-1-gel, la-roche-posay-effaclar-adapalene-gel-0-1]
   thesis: 'Board-certified dermatologist Dr. Daniel Sugai explains clogged pores as a form of comedonal acne (whiteheads and blackheads, common on the forehead) and lays out his prevention approach: never sleep in makeup or without cleansing, use a lipid-soluble salicylic acid (BHA) product regularly to help clear pores, and add a retinoid since he says retinoids are not all the same. He recommends over-the-counter adapalene (Differin or La Roche-Posay) applied pea-size to the whole face, or a prescription tretinoin from a dermatologist for stronger cases, noting both work well on inflammatory acne and clogged pores. He also advises a lightweight sunscreen containing niacinamide, explaining that sun exposure can dilate pores and make them more clogged and enlarged over time.'
@@ -372,6 +388,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=BCNCiZ0R6uU
+  duration: 646
   posted: '2023-10-30'
   related: [skin-barrier-repair, retinol, salicylic-acid, niacinamide, sulfur, hydroquinone, benzoyl-peroxide]
   thesis: Board-certified dermatologist Dr. Alexis Stephens answers rapid-fire skincare questions from passersby in a Central Park street Q&A. She names the top three acne mistakes as quitting products too soon, layering too many products at once, and skipping sunscreen, and stresses that even oily, acne-prone skin still needs a moisturizer to protect the skin barrier. She also clarifies that "skin purging" only happens with products that increase cell turnover (not every reaction is a purge), that hydroquinone should be used under a doctor's guidance with breaks rather than long-term abuse, and that steroid-injection-related skin atrophy or hypopigmentation is usually temporary and treatable with saline. She addresses sunscreen for melanin-rich skin (SPF 30+ and broad spectrum for UVA, not just the SPF number), recommends salicylic acid and niacinamide for oily skin and sulfur for seborrheic dermatitis, and warns against DIY fixes like using toothpaste or baking soda on skin.
@@ -382,6 +399,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=IKKi_vBNy5Q
+  duration: 62
   posted: '2025-11-03'
   related: []
   thesis: Board-certified dermatologist Dr. Alexis Stephens runs through the "Accutane survival kit" she gives her isotretinoin patients for acne. She explains that dryness is expected everywhere on the body (not a matter of if but when and how severe), and recommends Vaseline for lips (with hydrocortisone if irritation gets worse), eye drops for dry eyes, nasal spray for a dry nose, SPF for the face and lips to prevent discoloration, gentle fragrance-free cleansers for underarms/face/body, and pausing waxing, threading, and laser hair removal while skin is extra dry. She also notes antihistamines like Claritin can help reduce the itching and "purge" that tend to happen early in treatment.
@@ -392,6 +410,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=zwwaoe_TZlE
+  duration: 55
   posted: '2026-08-22'
   related: [hyperpigmentation, salicylic-acid, benzoyl-peroxide, adapalene, tretinoin, azelaic-acid, tranexamic-acid, niacinamide]
   thesis: 'Board-certified dermatologist Dr. Jenny Liu argues that the common skincare goals of clear skin, faded acne marks, and a glowing complexion should not be pursued all at once. She lays out a treatment order: first stop active acne (salicylic acid, benzoyl peroxide, adapalene, or prescription tretinoin), then address existing pigmentation (retinoids, azelaic acid, tranexamic acid, niacinamide), and only after that focus on glow, which she says is mostly just a healthy skin barrier plus consistent sunscreen use. Her main point is that people commonly waste money on glow serums while still actively breaking out, when the biggest mistake is skipping the acne-first step, and that following this sequence can realistically show results within about 6 months.'
@@ -402,6 +421,7 @@ videos:
   credential: Licensed esthetician
   platform: TikTok
   url: https://www.tiktok.com/@jennlexi_/video/7681489584898805005
+  duration: 166
   posted: '2026-09-04'
   related: [salicylic-acid, retinoids]
   thesis: 'Esthetician Jenn Lexi walks through how acne forms as a perfect storm: sebaceous glands producing extra sebum, plus a follicular problem she calls follicular hyperkeratinization where dead skin cells fail to shed normally and clump together, plugging the pore. She explains that an open plug oxidizes into a blackhead and a closed one becomes a whitehead, and that the low-oxygen clogged environment lets C. acnes bacteria multiply and trigger the inflammation behind a red, painful pimple. She stresses that oily skin and acne-prone skin are not the same thing.'
@@ -412,6 +432,7 @@ videos:
   credential: Board-certified dermatologist, Associate Professor of Dermatology at Harvard Medical School; Director of the Advanced Acne Therapeutics Clinic at Brigham and Women's Hospital; co-chair of the AAD Acne Guidelines Work Group
   platform: YouTube
   url: https://www.youtube.com/watch?v=f5oBdZAbRhQ
+  duration: 1833
   posted: '2026-05-02'
   related: [benzoyl-peroxide, adapalene, isotretinoin, azelaic-acid, salicylic-acid, clascoterone, retinoids, hormonal-acne]
   thesis: Board-certified dermatologist Dr. John Barbieri, a Harvard Medical School acne specialist, lays out his full 2026 treatment ladder for acne, from barrier-supportive skincare and OTC actives (salicylic acid, benzoyl peroxide, azelaic acid, adapalene) through prescription options like topical clascoterone, oral antibiotics, hormonal therapy (combined oral contraceptives plus spironolactone), and isotretinoin. He also covers acne-focused procedures such as 1726nm lasers for active acne and resurfacing for scars and marks, plus diet levers (low glycemic index eating, vitamin D, zinc, omega-3s, vitamin B5) with weaker or mixed evidence on dairy and chocolate. The video closes by assembling these into simple morning/evening regimens tiered by acne severity, emphasizing multimodal combination therapy over any single product.
@@ -422,6 +443,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=8v2pbK3w-hM
+  duration: 1093
   posted: '2026-09-15'
   related: [hormonal-acne, oily-skin]
   thesis: 'Board-certified dermatologist Dr Dray (Andrea Suarez) explains how certain dietary supplements can affect the skin, with acne as a focus. Her central example is whey protein: she describes an association between whey protein and acne flares that is biologically plausible because whey raises IGF-1 and insulin, hormones that signal the oil glands to produce more sebum, while stressing that association does not prove causation. She keeps the discussion measured, treating the evidence as genuinely uncertain rather than framing any supplement as a guaranteed acne trigger.'
@@ -432,6 +454,7 @@ videos:
   credential: Licensed esthetician (not a dermatologist or cosmetic chemist)
   platform: TikTok
   url: https://www.tiktok.com/@your.estie.ella/video/7691869902717586701
+  duration: 269
   posted: '2026-10-02'
   related: [blackheads-comedones-congestion]
   thesis: Licensed esthetician Ella explains that acne is a cycle, so treating it only when new spots appear is why it does not fully clear. She describes how a breakout forms (a pore clogs, acne bacteria flood it, inflammation follows, and it can progress to a cystic lesion) and argues that consistently treating the whole cycle rather than spot-treating flare-ups is what clears acne-prone skin. She also stresses building a simple base routine of cleanser, moisturizer, and sunscreen and giving it time to work.

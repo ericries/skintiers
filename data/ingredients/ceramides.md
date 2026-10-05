@@ -14,6 +14,7 @@ videos:
   credential: Cosmetic chemists
   platform: YouTube
   url: https://www.youtube.com/watch?v=qEOXEisx8lY
+  duration: 2871
   posted: '2025-11-03'
   related: [skin-barrier-repair, cholesterol, phytosphingosine]
   thesis: Cosmetic chemists Victoria Fu and Gloria Lu of Chemist Confessions break down what ceramides actually are in skincare. They explain that ceramide is not a single ingredient like niacinamide but a whole class of lipid molecules, each built by bonding a fatty acid to a sphingosine and named by types such as N, A, and E, and that the skin barrier relies on specific ceramide types and ratios that formulators try to mimic. The episode accompanies their review of ten barrier creams, using the chemistry to explain what the ceramides in those products are doing.
@@ -24,6 +25,7 @@ videos:
   credential: Cosmetic chemists
   platform: YouTube
   url: https://www.youtube.com/watch?v=Zs5ZlHjNndA
+  duration: 2434
   posted: '2025-04-07'
   related: [skin-barrier-repair]
   thesis: Cosmetic chemists Victoria Fu and Gloria Lu of Chemist Confessions revisit ceramides to answer common listener questions, including whether ceramides are only worth using on a compromised or damaged skin barrier. They talk through what ceramides actually do for the skin barrier and how to think about which type or product is worth reaching for.
@@ -34,6 +36,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=jOTljTisVWE
+  duration: 1042
   posted: '2025-12-05'
   related: [avobenzone]
   thesis: Board-certified dermatologist Dr. Joyce Park (Tea with MD) reacts to a Vogue video of Hailey Bieber's morning routine, breaking down the ingredients in each Rhode product as Bieber applies them. She spends the most time on ectoin, calling it a "wonderful humectant" that helps skin hold onto water and repair the skin barrier, and notes it was popularized in Korean skincare years before showing up in US products like Rhode's Glazing Mist. She also explains that the routine's ceramide trio (ceramide MP, AP, EOP) helps hold skin cells together, and flags that Bieber's Isdin sunscreen uses Tinosorb S and avobenzone, filters offering broad photostable UV coverage that are common in Europe but not FDA-approved in the US.
@@ -44,6 +47,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=r8LDQJad6k0
+  duration: 868
   posted: '2026-01-17'
   related: [skin-barrier-strengthening]
   thesis: Board-certified dermatologist Dr. Joyce Park walks through Korean skincare and makeup she bought at Olive Young in Korea. On the skincare side she highlights barrier-repair creams built on ceramides, cholesterol, and fatty acids to cut transepidermal water loss, a squalane cream for lighter daytime hydration on combination/oily skin, panthenol for soothing, and a black rice ampule as a gentle chemical exfoliant for sensitive skin. She also explains PA ratings (UVA protection grading) on a Korean SPF 50 sunscreen, and, on a colostrum-containing pore-defense ampule, notes lab studies suggest growth factors and wound-healing benefits but says human clinical research is still limited.
@@ -54,6 +58,7 @@ videos:
   credential: Dermatologist (MD)
   platform: TikTok
   url: https://www.tiktok.com/@dermydoctor/video/7678046331214007565
+  duration: 55
   posted: '2026-08-25'
   related: [hyaluronic-acid, panthenol, skin-barrier-strengthening]
   thesis: 'Dr. Fatima Fahs, a dermatologist, explains that sudden skin burning, tightness after moisturizing, flakiness, oiliness, or unexplained breakouts usually signal a damaged skin barrier rather than newly sensitive skin. She compares the barrier to a brick wall, with skin cells as the bricks and lipids as the mortar, and notes that cracks let water escape and irritants in, increasing inflammation. Her takeaway: the healthiest skin isn''t the skin with the most products, it''s the skin with the strongest barrier'

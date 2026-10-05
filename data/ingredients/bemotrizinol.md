@@ -14,6 +14,7 @@ videos:
   credential: ""
   platform: TikTok
   url: https://www.tiktok.com/@drheathermd/video/7596032062348381495
+  duration: 76
   posted: '2026-01-16'
   related: [sunscreen-uv-filters]
   thesis: "Dr. Heather Woolery-Lloyd, a board-certified dermatologist, explains that the FDA has proposed approving bemotrizinol as a new over-the-counter sunscreen active ingredient in the US, the first such approval since 1999. Bemotrizinol (sold abroad as Tinosorb S) is an oil-soluble filter that absorbs both UVA and UVB rays and has been used safely in Europe and Asia since 2000. She notes the FDA's review found it provides strong UV protection with minimal systemic absorption and low irritation risk."

@@ -29,6 +29,7 @@ videos:
   credential: Cosmetic chemists
   platform: YouTube
   url: https://www.youtube.com/watch?v=WCPIouF2LPQ
+  duration: 2197
   posted: '2026-08-17'
   related: []
   thesis: Cosmetic chemists Victoria Fu and Gloria Lu of Chemist Confessions test and compare five copper peptide serums, including The Ordinary's, as a follow-up to their science deep dive on the ingredient. They are openly skeptical of the eye-catching 200 to 400 percent hydration-boost figures some brands cite, question what those numbers actually mean, and coach viewers to scan ingredient lists for named peptides like GHK to judge a product rather than trusting headline claims.

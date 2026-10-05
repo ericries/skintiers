@@ -13,6 +13,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=rjJljmedNQM
+  duration: 614
   posted: '2026-05-23'
   related: [seborrheic-dermatitis, ketoconazole, retinol, retinoids, acne, oily-skin, sunscreen-uv-filters]
   thesis: 'Board-certified dermatologist Dr. Shereene Idriss walks her husband through a simple beginner nighttime routine for a man with oily, acne-prone skin and facial seborrheic dermatitis. She keeps it to three steps: a medicated cleanser (she treats his facial seborrheic dermatitis with a ketoconazole antifungal wash), a beginner-strength retinol applied as a pea-sized amount at night while avoiding the eyes and the corners of the mouth, and a light moisturizer, followed by daily sunscreen the next morning. She stresses that consistency, not the number of products, is what makes a men''s routine actually work.'

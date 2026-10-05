@@ -1709,6 +1709,19 @@ def jsonld_article(profile, page_url, desc):
     return _json.dumps(d, indent=None)
 
 
+def _iso8601_duration(secs):
+    """Seconds -> ISO 8601 (PT#M#S), the format Google's VideoObject expects."""
+    try:
+        s = int(float(secs))
+    except (TypeError, ValueError):
+        return None
+    if s <= 0:
+        return None
+    h, rem = divmod(s, 3600)
+    m, sec = divmod(rem, 60)
+    return "PT" + (f"{h}H" if h else "") + (f"{m}M" if m else "") + (f"{sec}S" if sec else "")
+
+
 def jsonld_video(v, page_url, desc):
     """VideoObject structured data for a video page: the single biggest rich-result
     opportunity on the site, since every card already carries a real posting date,
@@ -1728,6 +1741,9 @@ def jsonld_video(v, page_url, desc):
         d["contentUrl"] = v["url"]
     if v.get("creator"):
         d["author"] = {"@type": "Person", "name": v["creator"]}
+    _dur = _iso8601_duration(v.get("duration"))
+    if _dur:
+        d["duration"] = _dur
     return _json.dumps(d, indent=None)
 
 

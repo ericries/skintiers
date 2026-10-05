@@ -14,6 +14,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=YuHLRmJMUzI
+  duration: 1584
   posted: '2026-08-01'
   related: [copper-peptides, hyperpigmentation]
   thesis: "Asked whether copper peptides beat vitamin C for hyperpigmentation, board-certified dermatologist Andrea Suarez (Dr Dray) says no: topical vitamin C, particularly ascorbic acid, has a lot more evidence behind it than copper peptides, even though ascorbic acid has real formulation and penetration challenges. She adds that even the non-ascorbic-acid vitamin C derivatives are still a better bet than copper peptides, because they act as antioxidants at the skin surface, which can help hyperpigmentation."
@@ -24,6 +25,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=lr-5jIX2vhk
+  duration: 749
   posted: '2023-07-20'
   related: [tetrahexyldecyl-ascorbate, ascorbic-acid-vitamin-c]
   thesis: "Board-certified dermatologist Dr. Whitney Bowe gives three reasons she recommends a daily vitamin C serum: sunscreen only blocks about 55% of free radicals, so a vitamin C antioxidant layered underneath can mop up the rest; vitamin C blocks the tyrosinase enzyme in the pigment pathway, helping brighten dark spots; and it acts as a cofactor for the two enzymes that link collagen strands together in the dermis. She also explains why L-ascorbic acid is unstable, broken down by heat, high pH, air, and sunlight, and must be formulated below pH 3.5 to penetrate skin, which is why some newer derivatives were developed as more stable alternatives."
@@ -34,6 +36,7 @@ videos:
   credential: "Board-certified dermatologist"
   platform: YouTube
   url: https://www.youtube.com/watch?v=--B7iuGlD4s
+  duration: 627
   posted: '2023-11-09'
   thesis: "Board-certified dermatologist Dr. Whitney Bowe reviews a lineup of vitamin C serums built on different forms of the ingredient: L-ascorbic acid in SkinCeuticals C E Ferulic and Phloretin CF, tetrahexyldecyl ascorbate in SkinBetter Science Alto Defense Serum, and a blend of tetrahexyldecyl ascorbate with 3-O-ethyl ascorbic acid in her own Dr. Whitney Bowe Beauty AA-C serum. She explains that L-ascorbic acid is the most studied form but is unstable and can irritate sensitive or acne-prone skin, that ferulic acid is commonly added to stabilize L-ascorbic acid formulations, and that a Murad vitamin C serum combining the ingredient with glycolic and lactic acid can increase sun sensitivity, so she recommends easing in gradually and prioritizing daily sunscreen."
   related: ["ascorbic-acid-vitamin-c", "tetrahexyldecyl-ascorbate", "3-o-ethyl-ascorbic-acid", "ferulic-acid", "glycolic-acid", "lactic-acid", "skinceuticals-c-e-ferulic"]
@@ -44,6 +47,7 @@ videos:
   credential: ""
   platform: YouTube
   url: https://www.youtube.com/watch?v=HaRDOYm8ctk
+  duration: 593
   posted: '2026-05-02'
   related: [naturium-vitamin-c-complex-serum, timeless-20-vitamin-c-e-ferulic-serum, maelove-the-glow-maker, roc-retinol-correxion-deep-wrinkle-night-cream]
   thesis: "Board-certified dermatologist Dr. Daniel Sugai explains that L-ascorbic acid is the most well-studied active form of vitamin C but is unstable to light, heat, and pH, so formulation matters as much as listed concentration when choosing a serum. He recommends applying vitamin C in the morning before sunscreen to help neutralize free radical damage, and notes it can take up to six months of consistent use to see meaningful improvement in dark spots and skin brightness."
@@ -54,6 +58,7 @@ videos:
   credential: ""
   platform: YouTube
   url: https://www.youtube.com/watch?v=T8yxDm6ZgVs
+  duration: 886
   posted: '2025-10-26'
   related: [ascorbic-acid-vitamin-c]
   thesis: "Board-certified dermatologist Dr. Dustin Portela explains that L-ascorbic acid is the most researched and potent form of topical vitamin C but is unstable and can oxidize (turning a serum brown), while derivatives like magnesium ascorbyl phosphate, sodium ascorbyl phosphate, and ascorbyl glucoside are gentler, more stable options better suited to beginners. He advises applying vitamin C in the morning before sunscreen, avoiding layering it with AHA or BHA exfoliants, and says early glow shows up in 1 to 4 weeks, more visible brightening and fading of dark spots by 6 to 12 weeks, and the biggest improvements in firmness and pigmentation after 3 to 6 months of consistent use."
@@ -64,6 +69,7 @@ videos:
   credential: Skincare educator
   platform: YouTube
   url: https://www.youtube.com/watch?v=NqsvS-xm05k
+  duration: 1510
   posted: '2018-04-28'
   related: [salicylic-acid]
   thesis: In this 2018 Instagram Live Q&A, cosmetic chemist Stephen Alain Ko (KindofStephen) answers viewer skincare questions on the fly. On vitamin C, he explains that ascorbic acid is unstable in water and discusses his own formulation testing to stabilize it, then addresses a viewer question by noting that studies show it reduces erythema and hyperpigmentation and can increase collagen production in already photo-damaged skin, that once-daily morning use under sunscreen is reasonable for high-strength formulas, and that a "reservoir effect" means skin levels stay elevated even if you skip a day or two. He also fields a question on salicylic acid in cleansers, explaining that it is only slightly water-soluble (not oil-loving in the way people assume), that cleanser contact time still helps via physical rubbing, and that a study found it worked as well as glycolic acid for clearing closed comedones. He additionally cautions that SLS/SLES harshness depends on the full formulation, not the
@@ -75,6 +81,7 @@ videos:
   credential: Skincare educator
   platform: YouTube
   url: https://www.youtube.com/watch?v=0nbbOyUdTzA
+  duration: 6999
   posted: '2018-04-01'
   related: [acne, avobenzone, tretinoin, retinoids, azelaic-acid, rosacea]
   thesis: In this nearly two hour Instagram Live Q&A, skincare educator and formulator Stephen Alain Ko (KindofStephen) answers viewer questions across a wide range of skincare topics. On sunscreen, he explains why "next-gen" UV filters like Tinosorb are approved in Europe and Asia but not routinely in the US and Canada due to regulatory differences, and cites a Johnson & Johnson presentation at the American Academy of Dermatology describing a 21.6% zinc oxide mineral sunscreen with a UVA protection factor around 31 to 32, notably higher than the 15 to 22 typical of mineral sunscreens. He also breaks down the difference between sodium hyaluronate and hydrolyzed hyaluronic acid by molecular weight, discusses vitamin C derivatives versus L-ascorbic acid as the still-unbeaten gold standard, and weighs in on benzoyl peroxide's efficacy and oxidative tradeoffs for acne, an LED mask study he criticizes for lacking a control group, and niacinamide combined with tretinoin for acne and hyperpigmentation.
@@ -85,6 +92,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=XFIXoWL_LtI
+  duration: 90
   posted: '2026-08-24'
   related: []
   thesis: 'Board-certified dermatologist Dr. Daniel Sugai shares tips he wishes he had known sooner. He explains that hyaluronic acid serum gives instant plumping and glow, good before an event, while vitamin C serum works more gradually as an antioxidant that fights free-radical damage from pollution and sunlight, improving fine lines, texture, and brightness over time; he wishes he had started vitamin C earlier in his 30s. He advises applying the less stable vitamin C serum first, then hyaluronic acid, then moisturizer and sunscreen (thinnest to thickest). He also stresses that not all sunscreens are equal for melasma and hyperpigmentation: a tinted sunscreen containing iron oxides is needed to block visible light, and he says patients whose melasma keeps worsening despite using sunscreen often turn out to be using one without iron oxides.'
@@ -95,6 +103,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=rXQgrehNCas
+  duration: 990
   posted: '2026-07-16'
   related: [tretinoin]
   thesis: Board-certified dermatologist Dr. Jenny Liu reacts to seven viral TikTok skincare trends and rates each. She says snail mucin (like COSRX's) is a mild, essentially upgraded hyaluronic acid serum with only preliminary efficacy data, not a must-have; beef tallow as moisturizer she avoids entirely, noting its fatty-acid profile resembles sebum and can worsen acne, plus raw tallow can go rancid or harbor bacteria; and liquid chlorophyll drops have little supporting data and aren't worth the money, with supplements generally carrying under-recognized liver-injury and drug-interaction risks. She endorses skin cycling and fermented-ingredient toners/essences (citing SK-II's Pitera essence) as legitimate but optional, and says a daily vitamin C serum in the morning plus a topical retinoid at night covers the majority of what most patients need for aging, texture, and tone, cautioning that not all vitamin C serums are equally effective.
@@ -105,6 +114,7 @@ videos:
   credential: Board-certified dermatologist
   platform: TikTok
   url: https://www.tiktok.com/@dr.tomassian/video/7678836627141070094
+  duration: 48
   posted: '2026-08-27'
   related: []
   thesis: 'Board-certified dermatologist Dr. Chris Tomassian, a new dad with almost no time, shares a stripped-down routine: in the morning just splash water, apply an antioxidant like vitamin C serum, then a moisturizer-sunscreen combo, under a minute total. At night, cleanse for about 30 seconds, apply a retinol, retinal, or retinoid, then moisturize, under 90 seconds. He frames it as focusing on the ingredients with the biggest proven benefit and staying consistent rather than doing an elaborate routine'
@@ -115,6 +125,7 @@ videos:
   credential: Board-certified dermatologist
   platform: TikTok
   url: https://www.tiktok.com/@dr.tomassian/video/7679209722293144846
+  duration: 48
   posted: '2026-08-28'
   related: [hyperpigmentation, body-acne, folliculitis, fungal-acne, hair-loss-thinning]
   thesis: 'Dr. Chris Tomassian, a board-certified dermatologist, names five skincare ingredients he considers worth using: hydroquinone for dark spots, tretinoin as the long-term gold standard for anti-aging despite causing irritation and dryness, hypochlorous acid for body acne and scalp folliculitis, vitamin C for an instant glow plus collagen support and dark spot fading, and ketoconazole for dandruff, fungal acne, and hormonal hair loss. He gives a one-line reason for each rather than detailed instructions'
@@ -125,6 +136,7 @@ videos:
   credential: Dr. Muneeb Shah, DO and Dr. Luke Maxfield, DO, both board-certified dermatologists
   platform: YouTube
   url: https://www.youtube.com/watch?v=Pxf7cuCL8cM
+  duration: 933
   posted: '2026-08-18'
   related: [ascorbic-acid-vitamin-c, ferulic-acid, brightening]
   thesis: Board-certified dermatologists Dr. Muneeb Shah and Dr. Luke Maxfield of Doctorly compare a low-cost Trader Joe's vitamin C serum against the far more expensive SkinCeuticals CE Ferulic serum after SkinCeuticals' original patent on the formulation expired. They find both serums use matching concentrations of the same three actives that define the CE Ferulic benchmark, L-ascorbic acid, ferulic acid, and vitamin E, with only minor differences in inactive ingredients like solubilizers and added oils. Their core argument is that a vitamin C serum's effectiveness comes from getting the concentration, pH, and antioxidant combination right, not from brand name or price, so a formulation matching those parameters can plausibly deliver similar benefits even when it is not an identical copy.
@@ -135,6 +147,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=pEn6fIL51Dk
+  duration: 660
   posted: '2026-04-17'
   related: [niacinamide, coenzyme-q10, hyperpigmentation, anti-aging]
   thesis: 'Board-certified dermatologist Dr. Sam Ellis explains that topical vitamin C is valued for antioxidant protection and for brightening the skin by inhibiting the pigment-making enzyme tyrosinase, but that people who find it irritating or unstable can get similar antioxidant and tone-evening benefits from other ingredients. She recommends four alternatives: niacinamide (vitamin B3, which also strengthens the skin barrier and reduces pigment by blocking melanin transfer rather than its production), resveratrol, coenzyme Q10, and green tea polyphenols. She notes these can also be layered with vitamin C for enhanced results rather than only replacing it.'

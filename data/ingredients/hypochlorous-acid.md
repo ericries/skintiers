@@ -14,6 +14,7 @@ videos:
   credential: Cosmetic chemist
   platform: TikTok
   url: https://www.tiktok.com/@javonford16/video/7638978796485414157
+  duration: 46
   posted: '2026-05-12'
   related: [prequel]
   thesis: "Cosmetic chemist Javon Ford says hypochlorous acid sprays like Tower 28's SOS Spray and Prequel's spray are functionally the same formula, because HOCl is made through electrolysis of saltwater, so any major deviation destabilizes it, and both list only water, sodium chloride, and hypochlorous acid. He notes differences in listed ingredient order among brands don't indicate a different formula, since ingredients under 1% can be listed in any order, so he says to use whichever brand is preferred."
@@ -24,6 +25,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=2xNfzaAqx5A
+  duration: 3396
   posted: '2024-07-02'
   related: [differin-adapalene-0-1-gel, paulas-choice-skin-perfecting-2-bha]
   thesis: "Board-certified dermatologist Dr. Muneeb Shah calls hypochlorous acid a leave-on sanitizer that the body naturally produces during the immune system's oxidative burst, useful as a bacteria-killing spray for acne mechanica (mask or helmet-related breakouts) and for disinfecting makeup brushes and beauty blenders. He says people with normal, healthy skin likely will not benefit and could even disrupt their skin microbiome by killing normal bacteria, and that hypochlorous acid is cheap to formulate, so there is no need to overspend on a specific brand."
@@ -34,6 +36,7 @@ videos:
   credential: Cosmetic chemists
   platform: YouTube
   url: https://www.youtube.com/watch?v=mPNVP12zxUg
+  duration: 3425
   posted: '2025-08-27'
   related: [acne]
   thesis: Cosmetic chemists Victoria Fu and Gloria Lu of Chemist Confessions explain hypochlorous acid, the ingredient behind a wave of acne testimonials and viral skin-soothing buzz. They note that its strongest evidence is for wound healing, such as diabetic foot ulcers, while its efficacy for everyday skincare and acne is still poorly understood and rests largely on testimonials. They also examine its reputation for instability, finding that although hypochlorous acid degrades quickly in general, some well-formulated versions stayed around 95 percent intact after ten days.
@@ -44,6 +47,7 @@ videos:
   credential: Dermatologist (MD)
   platform: TikTok
   url: https://www.tiktok.com/@dermydoctor/video/7678046331214007565
+  duration: 55
   posted: '2026-08-25'
   related: [hyaluronic-acid, panthenol, skin-barrier-strengthening]
   thesis: 'Dr. Fatima Fahs, a dermatologist, explains that sudden skin burning, tightness after moisturizing, flakiness, oiliness, or unexplained breakouts usually signal a damaged skin barrier rather than newly sensitive skin. She compares the barrier to a brick wall, with skin cells as the bricks and lipids as the mortar, and notes that cracks let water escape and irritants in, increasing inflammation. Her takeaway: the healthiest skin isn''t the skin with the most products, it''s the skin with the strongest barrier'
@@ -54,6 +58,7 @@ videos:
   credential: Board-certified dermatologist
   platform: TikTok
   url: https://www.tiktok.com/@dr.tomassian/video/7679209722293144846
+  duration: 48
   posted: '2026-08-28'
   related: [hyperpigmentation, body-acne, folliculitis, fungal-acne, hair-loss-thinning]
   thesis: 'Dr. Chris Tomassian, a board-certified dermatologist, names five skincare ingredients he considers worth using: hydroquinone for dark spots, tretinoin as the long-term gold standard for anti-aging despite causing irritation and dryness, hypochlorous acid for body acne and scalp folliculitis, vitamin C for an instant glow plus collagen support and dark spot fading, and ketoconazole for dandruff, fungal acne, and hormonal hair loss. He gives a one-line reason for each rather than detailed instructions'

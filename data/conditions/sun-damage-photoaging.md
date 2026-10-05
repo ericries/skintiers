@@ -44,6 +44,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=Clg8vBSQGXo
+  duration: 107
   posted: '2024-08-29'
   related: [vitamin-k-topical]
   thesis: Dr. Scott Walter, a board-certified dermatologist, explains solar purpura (also called actinic or senile purpura), the dark bruise-like patches that appear on the arms and hands of older adults with a lifetime of sun exposure. He describes how chronic UV exposure damages the dermis's elastic fibers, converting them into disorganized "solar elastosis" material and thinning the skin, which leaves the underlying blood vessels far more prone to rupture and bruising from minor trauma. He notes that once solar purpura has developed the underlying skin damage cannot be reversed, so daily sunscreen or protective clothing on the forearms and hands is the key prevention, while existing bruises can be helped to fade faster with ingredients like arnica or vitamin K, mentioning an over-the-counter product called Dermend as one he recommends.
@@ -54,6 +55,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=mMYm6ec9mT8
+  duration: 656
   posted: '2026-05-20'
   related: [sunscreen-uv-filters, anti-aging]
   thesis: Board-certified dermatologist Dr. Whitney Bowe debunks common tanning myths (a "base tan" protects skin, not burning means you're fine, tanning bed use is safer, tanning clears acne) alongside her teenage daughter and guest contributors including a melanoma survivor. She explains that any tan is itself a sign of DNA damage and cellular injury, since melanocytes only pump out more melanin as an emergency stress response once UV rays have already penetrated the skin; UVA (breaks down collagen, ages skin) and UVB (causes burning) both contribute even without a visible burn. She notes tanning bed users have three times the melanoma risk because modern beds emit intense UVA plus enough UVB to damage cells without necessarily burning, and that tanning does not clear acne but instead triggers oxidative stress that can worsen breakouts long-term. She closes by demonstrating a daytime routine (cleanser, vitamin C serum, then daily sunscreen as the single most important step) to protect
@@ -65,6 +67,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=VVHaU9qu4c4
+  duration: 790
   posted: '2026-07-09'
   related: [melasma, tretinoin, glycolic-acid, salicylic-acid, ascorbic-acid-vitamin-c, vitamin-c, seborrheic-dermatitis, pityriasis-versicolor]
   thesis: Board-certified dermatologist Dr. Jenny Liu explains why a winter skincare routine needs specific summer swaps rather than a full overhaul. She recommends lighter, less occlusive moisturizers, a higher-SPF water-resistant sunscreen, and double cleansing at night (an oil or balm cleanser first) to remove sunscreen buildup that can worsen breakouts. She advises cutting back on AHA exfoliants like glycolic or lactic acid (which increase sun-burn risk) or switching to a BHA, but says tretinoin does not need to be reduced since it does not raise burn risk. She also covers storing and choosing vitamin C serums to protect against summer-worsened melasma, and swapping in an anti-dandruff shampoo/body wash to manage summer flares of seborrheic dermatitis and tinea versicolor.
@@ -75,6 +78,7 @@ videos:
   credential: Board-certified dermatologist
   platform: TikTok
   url: https://www.tiktok.com/@drheathermd/video/7644220802027490574
+  duration: 81
   posted: '2026-05-26'
   related: [sunscreen-uv-filters]
   thesis: Dr. Heather Woolery-Lloyd, a board certified dermatologist, explains that the FDA has withdrawn its 2015 proposal that would have banned indoor tanning for anyone under 18 and required signed risk consent forms at tanning salons, after weighing over 8,000 public comments on personal choice and small-business burden. She notes the American Academy of Dermatology opposed the withdrawal, citing data that tanning before age 20 raises melanoma risk by 47 percent, and cites a 2025 Northwestern and UCSF study finding indoor tanning causes more severe DNA damage in skin cells than natural aging in non-tanners twice their age
@@ -85,6 +89,7 @@ videos:
   credential: Board-certified dermatologist
   platform: TikTok
   url: https://www.tiktok.com/@draegeanchan/video/7684001723794443551
+  duration: 32
   posted: '2026-09-10'
   related: [sunscreen-uv-filters, anti-aging]
   thesis: Board-certified dermatologist Dr. Aegean Chan explains that UV damage is, in her view, the number one driver of skin aging. She describes how chronic sun exposure degrades the skin's collagen and elastic fibers, producing a change dermatologists call solar elastosis, which she nicknames mushy collagen. Her skeptical takeaway is to judge anti-aging product claims against that reality, asking whether any cream could truly reverse decades of accumulated UV damage.
@@ -95,6 +100,7 @@ videos:
   credential: Skincare content creator (not a dermatologist or cosmetic chemist)
   platform: YouTube
   url: https://www.youtube.com/watch?v=mpF1C4f-fEA
+  duration: 1565
   posted: '2026-09-30'
   related: [sunscreen-uv-filters, anti-aging]
   thesis: Skincare educator James Welsh breaks down tanmaxxing, a social-media trend of deliberately maximizing a tan through sun exposure, tanning beds, and unregulated melanotan tanning products. He argues the trend is driven by misinformation, including overstated vitamin D claims, and warns that these practices raise skin cancer risk and drive premature aging such as wrinkles and collagen loss, because UV exposure is the cause. His takeaway is that a maximized tan is UV damage, not a sign of health.

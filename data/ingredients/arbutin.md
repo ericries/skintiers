@@ -14,6 +14,7 @@ videos:
   credential: ""
   platform: YouTube
   url: https://www.youtube.com/watch?v=tMmOJ8YR6l8
+  duration: 1789
   posted: '2026-02-12'
   related: [hyperpigmentation, niacinamide, hydroquinone, the-ordinary-alpha-arbutin-2-ha, beauty-of-joseon-glow-deep-serum-rice-alpha-arbutin]
   thesis: "Cosmetic chemists Chemist Confessions (Victoria Fu and Gloria Lu) reviewed five affordable arbutin products for skin brightening: COSRX's Alpha Arbutin 2% Discoloration Care, Beauty of Joseon's alpha arbutin serum, The Ordinary's Alpha Arbutin 2% + HA, Nurium's alpha arbutin serum, and TooWoom's 7% RB10 with tranexamic acid cream. They singled out COSRX for having done the most consumer testing of the group, though they mocked some of its claims (like improving inner and outer melanin) as vague marketing, and flagged TooWoom's high 7 percent arbutin figure as coming with no supporting data or clear brand background. Their final picks were COSRX and The Ordinary, while stressing that arbutin, a weaker relative of hydroquinone, is not strong enough on its own to be a workhorse for hyperpigmentation and works best paired with other actives."

@@ -14,6 +14,7 @@ videos:
   credential: Cosmetic chemists
   platform: YouTube
   url: https://www.youtube.com/watch?v=SysrE5ChRJg
+  duration: 2968
   posted: '2026-08-26'
   related: []
   thesis: 'Cosmetic chemists Victoria Fu and Gloria Lu of Chemist Confessions interview Charlotte Cho, founder of Soko Glam and the K-beauty brand Then I Met You, about the state of Korean skincare. Cho explains that toner and essence are largely interchangeable, brand-defined category names, that snail mucin has endured as an ingredient because it hydrates without heaviness (not just because of TikTok trends), and that recent US sunscreen filter crackdowns forced Korean brands to reformulate hero sunscreens while still performing well. In a rapid-fire "worth the hype" segment, the hosts and Cho give informal verdicts on several trending ingredients: exosomes (not yet, evidence still pending), PDRN (potentially yes but highly dependent on brand and sourcing, since claims of "PDRN" vary widely in quality), NAD+ (unproven, not yet in her routine), topical glutathione (yes, though injectable/ingestible glutathione is viewed skeptically), and Volufiline (skeptical of viral filler-like marketing

@@ -63,6 +63,7 @@ videos:
   credential: Consultant dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=Grd7ZZHCXi8
+  duration: 811
   posted: '2023-09-24'
   related: [vitamin-c, ceramides, hyaluronic-acid, peptides, bioderma-sensibio-h2o-micellar-water]
   thesis: Consultant dermatologist Dr Aamna Adel walks through her personal morning skincare routine, explaining her reasoning at each step. She often skips morning cleansing (relying on a splash of water or a micellar water) because her eczema-prone skin dries out easily, then applies SkinCeuticals C E Ferulic vitamin C serum, noting it pairs vitamin C with vitamin E for antioxidant protection and to help stimulate collagen, and stressing it should go on dry, not damp, skin since vitamin C can be irritating. She layers hydrating hyaluronic acid toner and a ceramide-capsule moisturizer to support the skin barrier, extends her routine to the neck, and finishes with a generous two-finger-length application of sunscreen, explaining that thicker or irritating actives like retinoids and vitamin C should not be applied to damp skin while gentler hydrating products absorb better on damp skin.
@@ -73,6 +74,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=PffIcp5zFxA
+  duration: 1039
   posted: '2026-07-23'
   related: [niacinamide, retinol, vitamin-c, hyaluronic-acid]
   thesis: 'Dr. Jenny Liu, a board-certified dermatologist, explains "Ozempic face": the hollowing, sagging, and skin-quality changes seen in patients on GLP-1 medications who lose weight rapidly, especially older patients and those with low protein intake. She says risk can be reduced with slower weight loss, adequate protein, daily sunscreen, a tolerable retinoid, vitamin C, and a barrier-supporting moisturizer with niacinamide or collagen-supporting peptides, plus optional microcurrent devices or LED masks for mild laxity. For patients who already have facial hollowing or sagging, she discusses in-office options (biostimulatory fillers like Sculptra, hyaluronic acid fillers, and energy-based skin-tightening devices) and separately covers GLP-1-related hair shedding (telogen effluvium), for which she recommends nutrition, minoxidil, and seeing a dermatologist if severe.'
@@ -83,6 +85,7 @@ videos:
   credential: Cosmetic chemists
   platform: YouTube
   url: https://www.youtube.com/watch?v=mXXM8FQ24kU
+  duration: 2618
   posted: '2026-09-10'
   related: [ascorbic-acid-vitamin-c, vitamin-c, ferulic-acid]
   thesis: Cosmetic chemists Victoria Fu and Gloria Lu of Chemist Confessions do a science deep dive on the reformulated SkinCeuticals C E Ferulic vitamin C serum. They first revisit why L-ascorbic acid (pure vitamin C) is one of the very few skincare antioxidants with genuine supporting data, tracing it to the original Duke University lab research that validated it as a true antioxidant. They then examine the two ingredients SkinCeuticals added in the update, carnosine and a dandelion root extract, and are openly skeptical of the dandelion extract, noting the brand shows no published evidence behind its claimed anti-pollution benefit.

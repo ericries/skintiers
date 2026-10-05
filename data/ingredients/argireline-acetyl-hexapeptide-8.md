@@ -14,6 +14,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=VfdJ15jN5cM
+  duration: 81
   posted: '2026-08-30'
   related: []
   thesis: Board-certified dermatologist Dr. Angelo Landriscina (DermAngelo) reacts to a viral claim calling argireline "Botox in a bottle." He explains argireline is a peptide modeled after botulinum toxin's mechanism, but says its actual studied effects are things like increased hydration and skin elasticity, not muscle relaxation, since the peptide molecule cannot penetrate down to the muscle the way injected Botox does. He pushes back on the tightening sensation some claim comes from the peptide, suggesting it's more likely from the moisturizer applied after, and notes the "Botox in a bottle" framing is often used to drive affiliate sales.
@@ -24,6 +25,7 @@ videos:
   credential: Board-certified dermatologist (DO, FAOCD, FAAD), River Ridge Dermatology / HCA Virginia, Blacksburg VA
   platform: YouTube
   url: https://www.youtube.com/watch?v=t9I8vVpZjxc
+  duration: 991
   posted: '2026-08-30'
   related: [palmitoyl-tripeptide-1, retinoids, anti-aging]
   thesis: 'Board certified dermatologist Dr. Aleksandra Brown explains that peptides are an "upgrade," not a foundation, meant only for people already consistent with sunscreen, vitamin C, and a retinoid, then compares three peptide classes for people in their 40s and up: signal peptides like Matrixyl/Matrixyl 3000 (palmitoyl tripeptide 1) that prompt fibroblasts to make more collagen and have the most placebo controlled human data, carrier peptides like copper peptides/GHK Cu that deliver copper to support collagen and elastin repair, and neurotransmitter inhibiting Argireline (acetyl hexapeptide 8) that softens expression lines but works nowhere near as strongly as Botox. She ranks copper peptide as her top single pick for 40s collagen support, flags that copper peptides and L ascorbic acid vitamin C should be kept apart at different times of day, and says the evidence on combining copper peptides with vitamin C derivatives is still unsettled.'

@@ -69,6 +69,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=5dnO5JKbm5w
+  duration: 61
   posted: '2024-07-17'
   related: []
   thesis: Melasma is a common pigmentary disorder causing symmetric light to dark patches on the face, usually starting in the 30s and 40s, and worsened by sun exposure and high estrogen states. Dermatologist Dr. Scott Walter (board-certified dermatologist) highlights a small study out of India in which seven melasma patients took 3 mg of oral melatonin daily plus daily sunscreen for 12 weeks, with every patient showing improvement in their melasma score. He notes melatonin may act as an antioxidant and help regulate hormone imbalances tied to melasma, but frames this as an early, small finding pending larger studies rather than an established treatment.
@@ -79,6 +80,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=HQ8G8JNjGW8
+  duration: 73
   posted: '2026-08-25'
   related: []
   thesis: Dr. Lindsey Zubritsky, a board-certified dermatologist, explains why over-the-counter brightening serums often fail to control melasma. She describes melasma as a chronic, complex pigment condition driven by overactive pigment-producing cells and influenced by UV exposure, visible light, heat, hormones, and inflammation, which is why it is stubborn and tends to recur. She stresses that daily SPF is non-negotiable for controlling melasma, and that some effective treatments are prescription-only and cannot be bought over the counter.
@@ -89,6 +91,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=XFIXoWL_LtI
+  duration: 90
   posted: '2026-08-24'
   related: []
   thesis: 'Board-certified dermatologist Dr. Daniel Sugai shares tips he wishes he had known sooner. He explains that hyaluronic acid serum gives instant plumping and glow, good before an event, while vitamin C serum works more gradually as an antioxidant that fights free-radical damage from pollution and sunlight, improving fine lines, texture, and brightness over time; he wishes he had started vitamin C earlier in his 30s. He advises applying the less stable vitamin C serum first, then hyaluronic acid, then moisturizer and sunscreen (thinnest to thickest). He also stresses that not all sunscreens are equal for melasma and hyperpigmentation: a tinted sunscreen containing iron oxides is needed to block visible light, and he says patients whose melasma keeps worsening despite using sunscreen often turn out to be using one without iron oxides.'
@@ -99,6 +102,7 @@ videos:
   credential: Board-certified dermatologist (ABD), FAAD, Clinical Professor of Dermatology at UCLA David Geffen School of Medicine
   platform: YouTube
   url: https://www.youtube.com/watch?v=8nrCHe763O4
+  duration: 174
   posted: '2025-09-03'
   related: [sunscreen-uv-filters, hyperpigmentation]
   thesis: Board-certified dermatologist and UCLA clinical professor Dr. Tanya Kormeili explains melasma, patchy facial pigmentation linked to hormonal changes and UV exposure that can affect anyone, not just pregnant women. She argues effective treatment starts with strict sun protection, since melasma-prone skin is highly light sensitive, then layers in pigment-reducing ingredients (both prescription and botanical) and gentle exfoliation via at-home acids or in-office chemical peels. She cautions that IPL and BBL lasers often worsen melasma within a year and should only be used as a last resort after other treatments are exhausted.
@@ -109,6 +113,7 @@ videos:
   credential: Board-certified dermatologist (Australia)
   platform: YouTube
   url: https://www.youtube.com/watch?v=vU9XccWySgA
+  duration: 429
   posted: '2025-03-04'
   related: [hyperpigmentation, sunscreen-uv-filters, tranexamic-acid, hydroquinone, arbutin, kojic-acid]
   thesis: 'Board-certified dermatologist Dr. Davin Lim explains what drives sun-induced pigmentation and melasma, describing pigmentation as the result of three interacting factors: genetics, sun exposure, and hormones. He notes that both ultraviolet and visible light stimulate the skin''s melanocytes to make more pigment, and that melasma, sometimes called the mask of pregnancy, is hormonally influenced; by his account roughly 50 to 60 percent of pregnancy-related cases settle on their own while 40 to 50 percent persist and need treatment. For persistent pigment he describes the dermatologist''s toolkit as daily sunscreen plus tyrosinase-inhibiting anti-pigment creams, oral tablets that reduce the blood supply feeding pigment cells such as tranexamic acid, and in-clinic lasers and chemical peels.'
@@ -119,6 +124,7 @@ videos:
   credential: Board-certified dermatologist
   platform: TikTok
   url: https://www.tiktok.com/@dr.mamina/video/7691334151940689165
+  duration: 57
   posted: '2026-09-30'
   related: [hyperpigmentation, hydroquinone, tretinoin, glycolic-acid, tranexamic-acid, kojic-acid]
   thesis: 'Dermatologist Dr. Mamina Turegano explains the ingredient combination she uses for stubborn melasma and dark spots: hydroquinone to shut down excess melanin at the source, tretinoin to speed cell turnover so pigment clears and other actives penetrate deeper, and an exfoliant such as glycolic acid to clear pigmented cells at the surface. She notes hydroquinone must be used in breaks rather than indefinitely, and that non-hydroquinone options such as tranexamic acid or kojic acid paired with tretinoin can substitute. Her point is that treating dark spots works best as a combination of ingredients doing different jobs, not any single product.'

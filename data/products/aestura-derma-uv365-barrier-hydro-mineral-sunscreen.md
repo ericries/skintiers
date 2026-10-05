@@ -64,6 +64,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=TftRd5FmQHU
+  duration: 327
   posted: '2025-01-03'
   related: [zinc-oxide]
   thesis: 'In this roundup, board-certified dermatologist Dr. Scott Walter shares his top five favorite Korean sunscreens and explains why he reaches for them for daily facial use: Korea allows newer UV filters such as Tinosorb S, Tinosorb M, and Uvinul A Plus that the US FDA has not approved since 1999, which he says makes for lighter, more wearable formulas with stronger UVA protection. His five picks are the Skin1004 Hyalu-Cica Water-Fit Sun Serum (which he likes for acne-prone skin), the Beauty of Joseon Relief Sun and its newer lighter Aqua Fresh version, the Round Lab Birch Juice Moisturizing Sun, and the AESTURA Derma UV365 Barrier Hydro mineral sunscreen for people who prefer a zinc-oxide physical filter. He adds that US sunscreens still protect effectively, but he simply prefers these formulas for everyday wear.'

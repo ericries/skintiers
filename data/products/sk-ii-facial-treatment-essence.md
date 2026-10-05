@@ -53,6 +53,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=rXQgrehNCas
+  duration: 990
   posted: '2026-07-16'
   related: [tretinoin]
   thesis: Board-certified dermatologist Dr. Jenny Liu reacts to seven viral TikTok skincare trends and rates each. She says snail mucin (like COSRX's) is a mild, essentially upgraded hyaluronic acid serum with only preliminary efficacy data, not a must-have; beef tallow as moisturizer she avoids entirely, noting its fatty-acid profile resembles sebum and can worsen acne, plus raw tallow can go rancid or harbor bacteria; and liquid chlorophyll drops have little supporting data and aren't worth the money, with supplements generally carrying under-recognized liver-injury and drug-interaction risks. She endorses skin cycling and fermented-ingredient toners/essences (citing SK-II's Pitera essence) as legitimate but optional, and says a daily vitamin C serum in the morning plus a topical retinoid at night covers the majority of what most patients need for aging, texture, and tone, cautioning that not all vitamin C serums are equally effective.

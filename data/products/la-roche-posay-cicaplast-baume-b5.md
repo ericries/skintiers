@@ -43,6 +43,7 @@ videos:
   credential: Cosmetic chemist
   platform: TikTok
   url: https://www.tiktok.com/@javonford16/video/7624001716882607373
+  duration: 51
   posted: '2026-04-02'
   related: [zinc-oxide, dimethicone]
   thesis: "Cosmetic chemist Javon Ford says La Roche-Posay Cicaplast Baume B5 is essentially a fancier diaper rash cream, since both rely on a skin protectant, dimethicone in Cicaplast versus roughly 40% zinc oxide in generic diaper creams. He notes generic diaper cream can work as a cheaper substitute for Cicaplast but leaves a heavier white cast than any sunscreen and often contains cod liver oil and lanolin, which can clog pores on acne-prone facial skin, so he cautions checking the ingredient list before swapping."
@@ -53,6 +54,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=KthqYRfRJtw
+  duration: 43
   posted: '2026-08-27'
   related: []
   thesis: Dermatologist Dr. Joyce Park (Tea with MD) says she does not pair La Roche-Posay Cicaplast Baume B5 with tretinoin and azelaic acid ("the holy trinity") and instead recommends lighter barrier-repair alternatives. She names the Aestura gel cream as a lightweight summer option, an Aveeno oat-based gel cream for soothing irritation when starting a retinoid, and calls out Avene Cicalfate and the Tower 28 SOS recovery cream as other good picks.
@@ -63,6 +65,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=DvbRlQA0sZM
+  duration: 95
   posted: '2026-08-25'
   related: [skin-barrier-repair]
   thesis: Board-certified dermatologist Dr. Daniel Sugai runs through several skincare facts worth knowing. He explains benzoyl peroxide is still a good ingredient despite recent controversy, but warns not to store it in high heat (like a hot car) or use it expired, since heat can break it down into benzene. He clarifies that tretinoin does not thin skin; it thickens the deeper collagen layers while the visible peeling is just the stratum corneum adjusting to faster cell turnover, not damage. He also notes people do not need to overspend on expensive barrier repair creams, recommending affordable options like Avene Cicalfate, La Roche-Posay Cicaplast Baume B5, or plain Vaseline when skin is compromised.

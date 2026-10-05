@@ -8,6 +8,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=sPBrWZlHamc
+  duration: 1038
   posted: '2021-05-12'
   related: [tretinoin, adapalene, acne]
   thesis: "Dermatologist Dr. Sam Ellis explains that prescription retinoids, part of the broader retinoid family, like tretinoin, are already in the active retinoic-acid form, so they skip the conversion steps that over-the-counter retinol and retinaldehyde need; that makes them stronger and faster to work but likelier to cause early redness, dryness, and peeling. For acne, she starts patients on the prescription retinoid adapalene, because it is effective and better tolerated."
@@ -18,6 +19,7 @@ videos:
   credential: Board-certified dermatologist (UK)
   platform: YouTube
   url: https://www.youtube.com/watch?v=mkYhHlCuABc
+  duration: 371
   posted: '2025-02-27'
   related: [retinol, retinaldehyde, adapalene, tretinoin, hydroxypinacolone-retinoate]
   thesis: "Dermatologist Dr. Sam Bunting argues patients overcomplicate retinoid strength: any given retinoid only needs about three rungs on the ladder (a low, middle, and top dose), not the many strengths brands now sell. She gives the dose ranges she uses across the retinoid family (retinol 0.1 to 1%, retinaldehyde 0.1%, granactive retinoid 2 to 5%, adapalene 0.1 to 0.3%, tretinoin 0.025 to 0.1%) and recommends buffering, applying moisturizer before the retinoid, to reduce irritation while building tolerance."
@@ -28,6 +30,7 @@ videos:
   credential: "Board-certified dermatologist"
   platform: YouTube
   url: https://www.youtube.com/watch?v=8rmIw-F7mNc
+  duration: 1174
   posted: '2026-08-12'
   thesis: "Board-certified dermatologist Andrea Suarez (Dr Dray) compares the two cosmetic forms of topical vitamin A, retinol and retinaldehyde, explaining that retinol needs two conversion steps in the skin to become active while retinaldehyde needs only one, but she stresses there is no good evidence that this makes retinaldehyde stronger or more effective than retinol, since consistent long-term use of either produces similar results. She notes both forms are gentler but slower acting than prescription retinoids such as tretinoin or adapalene, and recommends starting a few nights a week before working up to nightly use, always paired with daytime sunscreen, since sun protection is what preserves any anti-aging benefit."
   related: ["retinol", "retinaldehyde", "tretinoin", "adapalene"]
@@ -38,6 +41,7 @@ videos:
   credential: "Cosmetic chemist, PhD"
   platform: YouTube
   url: https://www.youtube.com/watch?v=FdDbglHKh8w
+  duration: 1066
   posted: '2023-12-21'
   thesis: "Cosmetic chemist Michelle Wong compares prescription drug retinoids like tretinoin and adapalene against cosmetic retinoids like retinol, explaining that drug retinoids benefit from regulatory testing that guarantees the final formula's efficacy, stability, and accurate labeling, advantages cosmetic retinoids generally lack. She argues cosmetic retinoids offer more flexible, better-tolerated formulas and a self-limiting conversion pathway to tretinoin that makes overuse less punishing, and cautions that compounded prescription blends from telederm companies often lose the stability and efficacy testing of both categories without gaining much in return."
   related: ["tretinoin", "adapalene", "retinol"]
@@ -48,6 +52,7 @@ videos:
   credential: ""
   platform: YouTube
   url: https://www.youtube.com/watch?v=Xxb6EIKpS3s
+  duration: 847
   posted: '2021-07-27'
   related: [differin-adapalene-0-1-gel, la-roche-posay-effaclar-adapalene-gel-0-1, neutrogena-rapid-wrinkle-repair-retinol-serum, acne, hyperpigmentation, anti-aging]
   thesis: "Board-certified dermatologist Dr. Usama Syed explains that retinoids, the umbrella term for vitamin A derivatives like retinol, retinaldehyde, and prescription retinoic acids, boost collagen and elastic fiber formation (citing a biopsy study comparing topical retinoid use to placebo), disperse pigment clusters to fade dark spots, reduce sebum to help acne, and can even prompt early skin cancer cells to die or differentiate. He warns retinoids are unsafe in pregnancy and commonly cause dryness and peeling at first, so he advises starting low (every other night, a pea-sized amount mixed with moisturizer) and going slow, and names adapalene 0.1% gel (Differin, or the La Roche-Posay version) as his top over-the-counter pick, with Neutrogena's retinol serum as a gentler alternative."
@@ -58,6 +63,7 @@ videos:
   credential: ""
   platform: YouTube
   url: https://www.youtube.com/watch?v=CHKd5MSx7Uc
+  duration: 560
   posted: '2022-05-22'
   related: [retinol, tretinoin]
   thesis: "Board-certified dermatologist Dr. Adeline Kikam (Brown Skin Derm) demonstrates two ways to apply topical retinoids (including retinol and prescription tretinoin) while minimizing irritation: the sandwich method, where the retinoid is layered between a hydrating serum and a moisturizer applied before and after it, and the short contact method, where the retinoid is left on for a few minutes before being rinsed off like a mask. She emphasizes using only a pea sized amount, prepping skin with a gentle cleanser and hydrating serum first, and following with a rich moisturizer to keep the routine tolerable enough to use consistently."
@@ -68,6 +74,7 @@ videos:
   credential: ""
   platform: YouTube
   url: https://www.youtube.com/watch?v=cI_PufUSyUM
+  duration: 559
   posted: '2026-05-16'
   related: [retinol, tretinoin, olay-regenerist-retinol24-night-serum, la-roche-posay-retinol-b3-serum]
   thesis: "Board-certified dermatologist Dr. Daniel Sugai explains that people with sensitive skin should not jump straight into prescription tretinoin, since that often causes irritation within the first three weeks and leads them to quit. He recommends starting with over-the-counter retinol, progressing to a retinaldehyde once tolerated, and only then moving to prescription tretinoin, applying two to three times a week at first, always moisturizing afterward, and wearing sunscreen daily while using a retinoid."
@@ -88,6 +95,7 @@ videos:
   credential: "Board-certified dermatologist"
   platform: YouTube
   url: https://www.youtube.com/watch?v=R9ZVgFSixMk
+  duration: 1386
   posted: '2025-10-23'
   related: [tretinoin, retinol, acne, melasma]
   thesis: "Board-certified dermatologist Dr. Jenny Liu addresses common myths about topical retinoids (the vitamin A derivative category that includes prescription tretinoin, adapalene, and tazarotene, plus over-the-counter retinol and retinaldehyde). She explains that retinoids do not age skin faster or thin it (biopsy evidence shows they actually thicken skin and compact the stratum corneum), do not need to be paused in summer as long as sunscreen is worn, can be combined with vitamin C, and take at least 6 weeks to 3 to 6 months to show visible results because they work by boosting collagen production and normalizing skin cell turnover."
@@ -98,6 +106,7 @@ videos:
   credential: ""
   platform: TikTok
   url: https://www.tiktok.com/@dr.obioha/video/7307128425330887979
+  duration: 40
   posted: '2023-11-30'
   related: [retinol]
   thesis: "Board-certified dermatologist Dr. Onyeka Obioha demonstrates proper application technique for retinol and retinoid products, topical forms of vitamin A she calls a skincare holy grail. She recommends a pea-sized amount distributed across the forehead, cheeks, and chin, applied carefully near but not too close to the eyes. Her key tip is that if the product feels like too much was applied, it likely was, since the correct amount should feel like barely enough."
@@ -118,6 +127,7 @@ videos:
   credential: Board-certified dermatologist (UK)
   platform: YouTube
   url: https://www.youtube.com/watch?v=ffR4becBUb0
+  duration: 921
   posted: '2023-11-30'
   related: []
   thesis: Board-certified dermatologist Dr. Sam Bunting debunks six common myths about retinoids, the vitamin A derivatives she calls the gold standard of anti-aging skincare. She argues that a lot of the retinoid information circulating on social media is inaccurate and discourages people from adopting what she considers one of the most valuable steps in a routine, and she walks through the misconceptions so viewers can use retinoids correctly rather than avoid them.
@@ -128,6 +138,7 @@ videos:
   credential: Esthetician and skincare author (NOT a dermatologist or cosmetic chemist)
   platform: YouTube
   url: https://www.youtube.com/watch?v=VcHUtijrUjM
+  duration: 1350
   posted: '2026-06-15'
   related: [polydeoxyribonucleotide-pdrn]
   thesis: In this chat-style interview, skincare author Caroline Hirons talks with aesthetic doctor Dr. Christine Hall, who explains that retinoids are the most evidence-based skincare ingredient and one of the few that actually penetrate the skin barrier to stimulate collagen, but warns that applying them on damp skin increases absorption and side effects without added benefit, so skin should be dry first. Dr. Hall also discusses her clinic practice, saying SPF and skincare basics come before any injectable, that Botox remains the most common and best-value treatment she offers, and that microneedling can help acne scarring, pigmentation, fine lines and pores. On K-beauty, she explains that the widely cited "10 to 15 step Korean routine" was actually invented by a Western marketing team and that some brands marketed as authentic K-beauty, like Beauty of Joseon, are made for Western buyers rather than being major Korean domestic brands.
@@ -138,6 +149,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=WaMp2eswyQs
+  duration: 173
   posted: '2026-08-28'
   related: [retinol]
   thesis: Board-certified dermatologist Dr. Daniel Sugai examines a viral ex vivo study that some claimed proves the "retinoid sandwich" method (moisturizer, then tretinoin, then moisturizer) blocks tretinoin from working. He explains the study used skin explants from a single patient treated with 0.1% retinol or 0.025% tretinoin, and only measured two short-term biomarker genes (HB-EGF and HAS3), not acne clearance, wrinkle reduction, or any long-term clinical outcome. He concludes the full sandwich reduced expression of those two genes compared to tretinoin alone, but that this shows attenuation of a molecular signal, not chemical neutralization or a loss of real-world efficacy, and he still recommends sandwiching for patients starting retinoids, those with sensitive skin, or during dry winter months to improve tolerability and adherence.
@@ -148,6 +160,7 @@ videos:
   credential: Dermatologist
   platform: TikTok
   url: https://www.tiktok.com/@dr.obioha/video/7339766161955048750
+  duration: 80
   posted: '2024-02-26'
   related: [hyperpigmentation, acne]
   thesis: 'Dermatologist Dr. Onyeka Obioha explains that every skincare routine boils down to three steps: cleanse, treat, and protect. She uses her own routine as an example, treating her acne and hyperpigmentation at night with a topical retinoid (tretinoin) alternated with an exfoliating acid, and in the morning treating with an antioxidant before protecting with sunscreen and moisturizer. She emphasizes the treatment step should target your specific skin concern and will vary by skin type'
@@ -158,6 +171,7 @@ videos:
   credential: Licensed esthetician
   platform: TikTok
   url: https://www.tiktok.com/@jennlexi_/video/7677790691883322638
+  duration: 166
   posted: '2026-08-25'
   related: [tretinoin, adapalene, acne, anti-aging]
   thesis: 'Esthetician Jenn Lexi frames retinoids as an umbrella running from gentlest to harshest: retinyl esters are mildest, then retinol, with prescription tretinoin (retinoic acid) the strongest and over-the-counter adapalene a milder relative. She explains that gentler forms work by converting through several chemical steps on the skin (ester to retinol to retinoic acid), so the slower conversion is what makes them less irritating. She warns against jumping straight from retinol to tretinoin and recommends easing in on a spaced schedule, starting once every seven days and shortening the gap only as the skin tolerates it.'
@@ -168,6 +182,7 @@ videos:
   credential: Licensed esthetician
   platform: TikTok
   url: https://www.tiktok.com/@your.estie.ella/video/7683218947277180174
+  duration: 109
   posted: '2026-09-08'
   related: [tretinoin, retinaldehyde, adapalene, acne]
   thesis: Licensed esthetician Ella pushes back on marketing that promises fast results, arguing that a realistic improvement from a single skincare product is closer to 20 percent and that people quit too soon. For any retinoid, she says results take about three months, with the first two months being the adjustment phase (often called retinization or the retinoid uglies), acne starting to slow and skin regulating around the three-to-four-month mark, and pigmentation taking six to eight months of consistent use. Her message is that realistic expectations are what let people stick with an effective routine.
@@ -178,6 +193,7 @@ videos:
   credential: Licensed esthetician
   platform: TikTok
   url: https://www.tiktok.com/@jennlexi_/video/7678525765293493517
+  duration: 120
   posted: '2026-08-27'
   related: [tretinoin, adapalene, retinaldehyde, tazarotene, retinol, acne, anti-aging]
   thesis: Licensed esthetician Jenn Lexi explains the retinoid family and who benefits from it. She distinguishes over-the-counter options like adapalene, which is effective for acne without a prescription, and gentler retinaldehyde from the prescription retinoic acids tretinoin and tazarotene, which are stronger because they do not need to be converted in the skin to become active. She notes retinoids suit people with acne or anti-aging goals, working by increasing skin cell turnover to clear the plug of dead cells and oil inside a pore, and cautions that the small whiteheads seen early on are normal purging, whereas redness and inflamed breakouts signal a damaged barrier rather than a normal retinoid reaction.

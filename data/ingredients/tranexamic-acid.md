@@ -14,6 +14,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=b8XQgEXH4Vo
+  duration: 613
   posted: '2023-06-17'
   related: [hydroquinone, melasma]
   thesis: "Board-certified dermatologist Dr. Whitney Bowe describes tranexamic acid as an ingredient near and dear to her because she prescribes it as an oral pill to some patients with treatment-resistant, stubborn melasma who are good candidates for it, and says she finds it can be very effective both orally and, in certain cases, when formulated well topically. She groups tranexamic acid among the ingredients that block the tyrosinase step of pigment production."
@@ -24,6 +25,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=wh_GATsmzUw
+  duration: 47
   posted: '2026-05-06'
   related: []
   thesis: 'Dr. Adeline Kikam, a board-certified dermatologist (Brown Skin Derm), explains that plumping and hydrating the skin can improve the appearance of scars as well as fine lines and wrinkles. Reacting to a clip of someone using a Korean centella ampoule or capsule containing glycerin, tranexamic acid, and centella asiatica, she breaks down each ingredient''s role: centella supports the skin barrier, glycerin plumps and hydrates, and tranexamic acid helps even skin tone. She concludes that this overall improvement in skin texture and tone is what makes scars and fine lines look less noticeable, rather than any single ingredient erasing them directly.'

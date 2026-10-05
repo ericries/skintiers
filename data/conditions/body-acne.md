@@ -61,6 +61,7 @@ videos:
   credential: Board-certified dermatologist
   platform: TikTok
   url: https://www.tiktok.com/@dr.sheila_derm/video/7676886999835430174
+  duration: 49
   posted: '2026-08-22'
   related: [acne, sheila-farhang]
   thesis: 'Board-certified dermatologist Dr. Sheila Farhang explains why back acne (bacne) is more painful than facial acne: the skin on the back is thicker and oilier with larger follicles, so clogged pores trap inflammation deep in the skin with little room to expand. She recommends a benzoyl peroxide wash from the neck down to reduce bacteria, a salicylic acid spray to cut oil clogging pores, and a chemical exfoliant to boost cell turnover and help fade scars, and notes that large or scarring lesions may need an in-office cortisone injection or other medical treatment from a dermatologist'

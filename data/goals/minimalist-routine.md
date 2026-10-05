@@ -13,6 +13,7 @@ videos:
   credential: Licensed esthetician
   platform: TikTok
   url: https://www.tiktok.com/@your.estie.ella/video/7692084916233784589
+  duration: 108
   posted: '2026-10-02'
   related: [retinoids, azelaic-acid, vitamin-c, peptides, acne, hyperpigmentation, anti-aging, am-pm-routine-by-evidence, skin-barrier-repair]
   thesis: 'Licensed esthetician Ella (@your.estie.ella) argues that the biggest skincare mistake is changing your routine too often, because results take time: she says acne needs a minimum of about three months, pigmentation roughly six to eight months, and visible wrinkle reduction closer to eight to twelve months. Her case for a simple, consistent routine is a daily cleanser, moisturizer, and sunscreen, a retinoid four to six nights a week, and azelaic acid in the morning for acne and pigmentation, with an optional peptide serum for aging or vitamin C for dullness. The core message is that a good routine is boring and consistency beats chasing trendy new products.'

@@ -56,6 +56,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=N0y4zFwmrXc
+  duration: 87
   posted: '2024-06-10'
   related: []
   thesis: Board-certified dermatologist Dr Scott Walter reviews the viral Korean Biodance Bio-Collagen Real Deep Mask by measuring his skin's hydration with a corneometer before and after wearing it, rather than relying on impressions. He records his skin as dehydrated beforehand (about 12% on the device) after a long flight from Korea, and notes the mask is meant to be left on for several hours, taking a science-based look at whether the hype holds up.

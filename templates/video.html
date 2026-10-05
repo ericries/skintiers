@@ -35,6 +35,7 @@
   <ul class="vid-prov">
     <li><strong>Transcript</strong>: the summary above is written from the video's own transcript, read in full, not from its title or description.</li>
     <li><strong>Sponsorship</strong>: {% if v.sponsored %}this video carries a paid or gifted disclosure, so its product recommendations are treated as advertising.{% else %}the transcript was scanned for sponsorship, affiliate and gifted-product language, and none was found.{% endif %}</li>
+    {% if v.duration %}<li><strong>Length</strong>: {{ (v.duration // 60) }}m {{ (v.duration % 60) }}s.</li>{% endif %}
     {% if v.posted %}<li><strong>Posted</strong>: {{ v.posted }} on {{ v.platform or 'its original platform' }}. Claims in older videos can be overtaken by newer evidence.</li>{% endif %}
     {% if v.note %}<li><strong>Note</strong>: {{ v.note }}</li>{% endif %}
     <li>A video is expert commentary, not a controlled trial. Where it touches a graded topic, the page it links to carries the actual evidence.</li>

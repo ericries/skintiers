@@ -14,6 +14,7 @@ videos:
   credential: "Board-certified dermatologist"
   platform: YouTube
   url: https://www.youtube.com/watch?v=-HdzW2aiuD0
+  duration: 1238
   posted: '2026-04-18'
   related: [hydroquinone, anti-aging]
   thesis: "Board-certified dermatologist Dr. Shereene Idriss frames tretinoin as the collagen half of her two-prescription anti-aging pairing, saying it speeds up the cell turnover that slows as skin ages and stimulates collagen production, and calling it the most powerful topical anti-aging ingredient, with no over-the-counter option matching its track record. She recommends building consistency with an over-the-counter retinol first, then starting a prescription retinoid such as tretinoin at one to two nights a week and increasing gradually, and not pairing it on the same night as an exfoliating treatment until tolerance is established."
@@ -24,6 +25,7 @@ videos:
   credential: Skincare educator (not a dermatologist or cosmetic chemist)
   platform: YouTube
   url: https://www.youtube.com/watch?v=3dFUYg-67ag
+  duration: 1536
   posted: '2026-07-19'
   related: [retinol, adapalene]
   thesis: "Skincare educator Hyram Yarbro (Skincare by Hyram), who states he is not a dermatologist or chemist and that his tips do not override a prescriber's advice, shares consensus how-to-use guidance for prescription tretinoin from years of his own use: build up gradually by starting with over-the-counter retinol or adapalene before tretinoin, expect an 8 to 12 week purging period of dryness and irritation, and pair it with a rich moisturizer. For sensitive skin he suggests applying moisturizer as a base first and the tretinoin over the top to buffer its strength, and he warns against mixing tretinoin into a moisturizer or adding other active ingredients until months into use."
@@ -34,6 +36,7 @@ videos:
   credential: ""
   platform: YouTube
   url: https://www.youtube.com/watch?v=NN9XEzy-WSo
+  duration: 31
   posted: '2026-06-02'
   related: []
   thesis: "Board-certified dermatologist Dr. Lindsey Zubritsky (DermGuru) walks through the correct application technique for tretinoin, a prescription retinoid: apply it to fully dry skin, protect the nose, lips, and eye area with petroleum jelly, use only a pea-sized amount spread evenly over the face and down the neck, and finish by moisturizing again using the 'sandwich method' (moisturizer, tretinoin, moisturizer) to reduce irritation. She notes applying moisturizer before tretinoin first is optional."
@@ -44,6 +47,7 @@ videos:
   credential: Board-certified dermatologist (Australia)
   platform: YouTube
   url: https://www.youtube.com/watch?v=G8hiEpfx2g8
+  duration: 204
   posted: '2024-04-06'
   related: [retinoids, hyperpigmentation, melasma]
   thesis: Board-certified dermatologist Dr. Davin Lim explains tretinoin, a first-generation prescription retinoid and vitamin A analog traditionally used for anti-aging, and how well it works for pigmentation. He places it within the broader class of prescription retinoids available as creams or tablets and walks through how it acts on pigment.
@@ -54,6 +58,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=_h6n6SAEl0I
+  duration: 1371
   posted: '2026-08-02'
   related: [salicylic-acid, glycolic-acid, urea]
   thesis: 'Dr. Dustin Portela, a board-certified dermatologist, explains seven common benign skin growths he sees daily in clinic: seborrheic keratoses, warts, sebaceous hyperplasia, skin tags, milia, cherry angiomas, and venous lakes. He covers why each forms and how it is treated, and stresses that none of them are cancerous or turn into cancer. On milia specifically, he explains they are fully enclosed under the skin (unlike whiteheads, which connect to a follicle with a natural opening), so they cannot be popped at home; he removes them in-office with a needle or 11-blade and recommends a topical retinol to help prevent new ones from forming, since occlusive products like slugging without proper cleansing can also make people more prone to them.'
@@ -64,6 +69,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=5x0oSHcAUA4
+  duration: 59
   posted: '2026-08-18'
   related: [rosacea]
   thesis: Board-certified dermatologist Dr. Lindsey Zubritsky lists five effective skincare ingredients that are prescription-only, explaining why each requires a doctor. She names tretinoin as the gold standard for acne, fine lines, and photoaging; prescription-strength azelaic acid for rosacea, perioral dermatitis, and post-breakout dark or red marks; hydroquinone for stubborn hyperpigmentation and melasma; topical ivermectin for rosacea linked to skin mites; and eflornithine to slow excess facial hair growth. She notes these aren't sold over the counter because a prescriber needs to confirm the ingredient is right for a patient's skin.
@@ -74,6 +80,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=WaMp2eswyQs
+  duration: 173
   posted: '2026-08-28'
   related: [retinol]
   thesis: Board-certified dermatologist Dr. Daniel Sugai examines a viral ex vivo study that some claimed proves the "retinoid sandwich" method (moisturizer, then tretinoin, then moisturizer) blocks tretinoin from working. He explains the study used skin explants from a single patient treated with 0.1% retinol or 0.025% tretinoin, and only measured two short-term biomarker genes (HB-EGF and HAS3), not acne clearance, wrinkle reduction, or any long-term clinical outcome. He concludes the full sandwich reduced expression of those two genes compared to tretinoin alone, but that this shows attenuation of a molecular signal, not chemical neutralization or a loss of real-world efficacy, and he still recommends sandwiching for patients starting retinoids, those with sensitive skin, or during dry winter months to improve tolerability and adherence.
@@ -84,6 +91,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=DvbRlQA0sZM
+  duration: 95
   posted: '2026-08-25'
   related: [skin-barrier-repair]
   thesis: Board-certified dermatologist Dr. Daniel Sugai runs through several skincare facts worth knowing. He explains benzoyl peroxide is still a good ingredient despite recent controversy, but warns not to store it in high heat (like a hot car) or use it expired, since heat can break it down into benzene. He clarifies that tretinoin does not thin skin; it thickens the deeper collagen layers while the visible peeling is just the stratum corneum adjusting to faster cell turnover, not damage. He also notes people do not need to overspend on expensive barrier repair creams, recommending affordable options like Avene Cicalfate, La Roche-Posay Cicaplast Baume B5, or plain Vaseline when skin is compromised.
@@ -94,6 +102,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=mctaZsSEKEU
+  duration: 45
   posted: '2026-08-23'
   related: []
   thesis: Board-certified dermatologist Dr. Jenny Liu explains why glycolic acid is the "missing piece" when combined with tretinoin and azelaic acid. She says tretinoin builds collagen and speeds cell turnover while azelaic acid helps with redness, acne, and pigmentation, but neither gives an immediate smooth, polished look; glycolic acid dissolves the dead skin on the surface so the effects of the other two actives can show, producing a next-day "wow" effect. She warns against layering all three every night, recommending glycolic acid only two nights a week since an inflamed skin barrier undermines glowing skin.
@@ -104,6 +113,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=gAQoQmzBT-s
+  duration: 1044
   posted: '2026-08-13'
   related: [cerave, vanicream, the-ordinary, roc]
   thesis: 'Board-certified dermatologist Dr. Jenny Liu explains that stretch marks (striae) are essentially scars formed when skin is stretched faster than it can adapt, and that the stage matters most: red/purple "striae rubra" respond much better to intervention than old white "striae alba," which can only be made less visible, never erased. She ranks 0.1% tretinoin for 12 weeks as the best topical for red stretch marks specifically, notes centella asiatica and hyaluronic-acid-based moisturizers have the better evidence for prevention (especially in pregnancy), and says lactic acid lotion (AmLactin), silicone sheets, and massage oils have weaker but plausible support. She concludes in-office procedures (pulsed dye laser/IPL for redness, then microneedling, RF microneedling, or fractional CO2 resurfacing over 3-5+ sessions) give the best clinical results, and that prevention (managing weight gain, keeping skin hydrated) beats treatment overall.'
@@ -114,6 +124,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=BqI2_Q3heXI
+  duration: 115
   posted: '2026-08-16'
   related: []
   thesis: Board-certified dermatologist Dr. Neera Nathan reacts to viral skincare trends and explains which ones actually hold up. She says zinc oxide diaper rash cream applied at night acts as a skin protectant and anti-inflammatory that helps repair a damaged moisture barrier. She calls glycolic acid a versatile AHA useful for exfoliation, collagen boosting, evening pigmentation, and treating ingrown hairs or dark elbows when used one to three times a week. She notes viral collagen face masks work mainly as humectants for temporary plumping rather than by boosting the skin's own collagen production, and highlights combining azelaic acid in the morning with tretinoin at night as a long-standing dermatologist combo for smoothing texture, fading hyperpigmentation, and reducing wrinkles.
@@ -124,6 +135,7 @@ videos:
   credential: Dermatologist
   platform: TikTok
   url: https://www.tiktok.com/@dr.obioha/video/7339766161955048750
+  duration: 80
   posted: '2024-02-26'
   related: [hyperpigmentation, acne]
   thesis: 'Dermatologist Dr. Onyeka Obioha explains that every skincare routine boils down to three steps: cleanse, treat, and protect. She uses her own routine as an example, treating her acne and hyperpigmentation at night with a topical retinoid (tretinoin) alternated with an exfoliating acid, and in the morning treating with an antioxidant before protecting with sunscreen and moisturizer. She emphasizes the treatment step should target your specific skin concern and will vary by skin type'
@@ -134,6 +146,7 @@ videos:
   credential: Board-certified dermatologist
   platform: TikTok
   url: https://www.tiktok.com/@dr.tomassian/video/7679209722293144846
+  duration: 48
   posted: '2026-08-28'
   related: [hyperpigmentation, body-acne, folliculitis, fungal-acne, hair-loss-thinning]
   thesis: 'Dr. Chris Tomassian, a board-certified dermatologist, names five skincare ingredients he considers worth using: hydroquinone for dark spots, tretinoin as the long-term gold standard for anti-aging despite causing irritation and dryness, hypochlorous acid for body acne and scalp folliculitis, vitamin C for an instant glow plus collagen support and dark spot fading, and ketoconazole for dandruff, fungal acne, and hormonal hair loss. He gives a one-line reason for each rather than detailed instructions'
@@ -144,6 +157,7 @@ videos:
   credential: Dr. Muneeb Shah, DO and Dr. Luke Maxfield, DO, both board-certified dermatologists
   platform: YouTube
   url: https://www.youtube.com/watch?v=L80JEx7ovhM
+  duration: 830
   posted: '2026-09-07'
   related: [retinoids, niacinamide]
   thesis: Board-certified dermatologists Dr. Muneeb Shah and Dr. Luke Maxfield of Doctorly break down the viral social media trend of pairing tretinoin (or other retinoids) with azelaic acid for so-called glass skin. They explain tretinoin speeds cell turnover, boosts collagen, and reduces acne and pigment by acting on retinoic acid receptors, while azelaic acid works through separate mechanisms, lowering tyrosinase activity and inflammation to calm rosacea, redness, and dark marks, making the two ingredients complementary rather than redundant. They note there is no formal clinical safety data on combining them, but say the combination is generally well tolerated if layered thinner product first or split between morning and night for sensitive skin. Their conclusion is that tretinoin plus azelaic acid plus daily sunscreen covers most of what a skincare routine needs to achieve.
@@ -154,6 +168,7 @@ videos:
   credential: Board-certified dermatologist and fellowship-trained Mohs surgeon; founder of Carlyle Dermatology (Ocala, FL)
   platform: YouTube
   url: https://www.youtube.com/watch?v=BhXGBlUhF4U
+  duration: 513
   posted: '2026-05-08'
   related: [retinoids]
   thesis: 'Board-certified dermatologist Dr. Maren Locke explains why tretinoin often seems to stop working and how to fix it: retinoid dermatitis (irritation that blocks progress, often solved by stepping down to a gentler over-the-counter retinol or retinaldehyde that converts to retinoic acid on the skin), unrealistic timeline expectations (visible anti-aging results take 3 to 12 months, following an initial 1 to 4 week purging phase), and skipping daily SPF 30+ sunscreen, since tretinoin increases UV penetration into treated skin and undermines results without sun protection. She closes with a gentle reset routine: repair the skin barrier first, reintroduce a retinoid just once a week on dry skin, and gradually build up to 4 to 5 nights per week paired with moisturizer.'
@@ -164,6 +179,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=MT4DrMVbotE
+  duration: 1301
   posted: '2026-04-03'
   related: [retinoids, tazarotene, retinaldehyde, acne, anti-aging]
   thesis: 'Board-certified dermatologist Dr. Sam Ellis lays out a dermatologist''s method for starting tretinoin, the prescription vitamin A derivative, with minimal irritation: begin at the lowest 0.025% strength (which she notes matches 0.1% for anti-aging, with higher strengths reserved for acne) and ramp up slowly from about two nights a week. She advises applying a pea-sized amount to clean, dry skin, always following with moisturizer and using the sandwich method for sensitive skin, and adding no other actives until tretinoin is tolerated consistently. She also distinguishes true purging, which resolves within roughly six to eight weeks, from irritation-driven breakouts that mean you should back off.'
@@ -174,6 +190,7 @@ videos:
   credential: Board-certified dermatologist
   platform: TikTok
   url: https://www.tiktok.com/@dr.mamina/video/7686910374834228510
+  duration: 45
   posted: '2026-09-18'
   related: [retinoids, hydroquinone, azelaic-acid, niacinamide]
   thesis: 'Board-certified dermatologist Dr. Mamina Turegano explains how she picks a tretinoin strength, and argues the strength is not the first question to ask. The real question is what you are treating: someone with dry or sensitive skin or new to tretinoin might start at 0.025 percent, or even an over-the-counter retinol first, and tretinoin can be compounded with other ingredients such as azelaic acid or hydroquinone for acne and pigmentation, or niacinamide, depending on the goal. Her takeaway is to look at the whole formula and the right treatment for your skin rather than chasing the highest tretinoin percentage.'
@@ -184,6 +201,7 @@ videos:
   credential: Licensed esthetician (not a dermatologist or cosmetic chemist)
   platform: TikTok
   url: https://www.tiktok.com/@jennlexi_/video/7691887094171602190
+  duration: 166
   posted: '20261002'
   related: [retinoids]
   thesis: Licensed esthetician Jenn Lexi argues that tretinoin itself usually is not ruining people's skin, but the way they use it is. Because tretinoin is now easy to get through online pharmacies, she says people often reach for the highest strength expecting faster results, get badly irritated, and then write the retinoid off as something their skin hates. Her practical takeaway is that the irritation is usually a misuse problem, so tretinoin should be used conservatively rather than at the harshest strength available.

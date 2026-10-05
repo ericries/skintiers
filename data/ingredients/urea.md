@@ -14,6 +14,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=YIQdXvlvmgA
+  duration: 988
   posted: '2026-08-29'
   related: [hydroquinone]
   thesis: 'Board-certified dermatologist Dr. Andrea Suarez (Dr Dray) explains why she recommends 12%+ ammonium lactate (AmLactin) over at-home glycolic acid for dermal thickening: she cites two clinical studies showing 12% lactic acid produced both epidermal and dermal thickening (versus epidermal-only at 5%), and a second study where 12% ammonium lactate offset dermal atrophy caused by the potent steroid clobetasol. She notes in-office glycolic acid peels are actually superior for dermal effects, but at-home glycolic acid strengths are too heterogeneous and generally too weak to reliably reach the dermis the way 12% ammonium lactate does. In shorter Q&A segments she also covers Fraxel versus Laser Genesis laser risks, sunscreen application on sweaty/wet skin, and using urea and azelaic acid for keratosis pilaris.'
@@ -24,6 +25,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=fDWp216xFIo
+  duration: 52
   posted: '2026-05-13'
   related: []
   thesis: Dr. Adeline Kikam, a board-certified dermatologist known as Brown Skin Derm, explains ichthyosis vulgaris, a condition caused by a defect in filaggrin, a protein important for retaining moisture in the skin barrier and for normal skin shedding. She says this defect causes the skin to not turn over or shed properly, producing a fish-scale or cracked appearance that heavy moisturizing alone does not fix. She explains that moisturizers containing keratolytic ingredients like urea can help soften the scale and reduce dryness, but notes there is no cure for the condition.

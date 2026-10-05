@@ -14,6 +14,7 @@ videos:
   credential: Cosmetic chemists
   platform: YouTube
   url: https://www.youtube.com/watch?v=X9wfbFIUIJg
+  duration: 2588
   posted: '2025-07-01'
   related: [ascorbic-acid-vitamin-c, vitamin-c]
   thesis: Cosmetic chemists Victoria Fu and Gloria Lu of Chemist Confessions tackle vitamin C derivatives one at a time, starting with 3-O-ethyl ascorbic acid, a common non-ascorbic-acid form of vitamin C. Answering listener questions, they weigh whether it is a worthwhile stand-in for pure ascorbic acid and set realistic expectations for what these derivatives can and cannot deliver.

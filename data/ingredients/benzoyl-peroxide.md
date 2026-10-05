@@ -14,6 +14,7 @@ videos:
   credential: ""
   platform: YouTube
   url: https://www.youtube.com/watch?v=QeHkL6DLWeg
+  duration: 595
   posted: '2026-06-27'
   related: []
   thesis: "Board-certified dermatologist Dr. Daniel Sugai addresses viral claims that benzoyl peroxide acne products, including CeraVe's, degrade into the carcinogen benzene, pointing out that CeraVe was not on the FDA's recall list after its follow-up study found more than 90% of tested products had undetectable or very low benzene levels. He cites retrospective clinical studies finding no association between benzoyl peroxide use and increased cancer risk or elevated blood benzene, while still advising patients to store products at room temperature away from heat and direct sunlight and to avoid using expired benzoyl peroxide."
@@ -24,6 +25,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=h4vIyvnk4xU
+  duration: 1146
   posted: '2026-06-14'
   related: [acne]
   thesis: Board-certified dermatologist Dr. Dustin Portela addresses headlines claiming that CeraVe and other benzoyl peroxide acne products cause cancer because benzoyl peroxide can degrade into benzene, a known carcinogen. He explains that the alarming numbers came from an independent lab's thermal-degradation study that heated the products to extreme temperatures, and relays the point that people do not store acne products in a hot car for weeks on end, so the headline figures do not reflect normal use. He urges perspective rather than panic over the benzene headlines.
@@ -34,6 +36,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=4nCA02zc1sI
+  duration: 2184
   posted: '2025-02-11'
   related: [acne]
   thesis: Board-certified dermatologists Dr. Muneeb Shah and Dr. Andrea Suarez (Doctorly Unhinged podcast) discuss the class-action lawsuit filed against L'Oreal brands over benzene contamination in benzoyl peroxide products, following lab testing by Valisure that found benzene forms as a breakdown product of benzoyl peroxide. They note that dermatology researcher John Barbieri has said no link between benzoyl peroxide and cancer has been established, that the FDA still lists benzoyl peroxide as generally recognized as safe and effective on the acne monograph, and that they personally remain in a "watch and wait" stance rather than telling patients to stop using it. They also cover neuromodulator brand Jeuveau's new $49/month subscription program (Club Evolus) offering injections every 90 days, discussing the business rationale and their concerns about reduced provider autonomy and whether a fixed 20-unit, 90-day schedule fits every patient.
@@ -44,6 +47,7 @@ videos:
   credential: Skincare educator
   platform: YouTube
   url: https://www.youtube.com/watch?v=0nbbOyUdTzA
+  duration: 6999
   posted: '2018-04-01'
   related: [acne, avobenzone, tretinoin, retinoids, azelaic-acid, rosacea]
   thesis: In this nearly two hour Instagram Live Q&A, skincare educator and formulator Stephen Alain Ko (KindofStephen) answers viewer questions across a wide range of skincare topics. On sunscreen, he explains why "next-gen" UV filters like Tinosorb are approved in Europe and Asia but not routinely in the US and Canada due to regulatory differences, and cites a Johnson & Johnson presentation at the American Academy of Dermatology describing a 21.6% zinc oxide mineral sunscreen with a UVA protection factor around 31 to 32, notably higher than the 15 to 22 typical of mineral sunscreens. He also breaks down the difference between sodium hyaluronate and hydrolyzed hyaluronic acid by molecular weight, discusses vitamin C derivatives versus L-ascorbic acid as the still-unbeaten gold standard, and weighs in on benzoyl peroxide's efficacy and oxidative tradeoffs for acne, an LED mask study he criticizes for lacking a control group, and niacinamide combined with tretinoin for acne and hyperpigmentation.
@@ -54,6 +58,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=DvbRlQA0sZM
+  duration: 95
   posted: '2026-08-25'
   related: [skin-barrier-repair]
   thesis: Board-certified dermatologist Dr. Daniel Sugai runs through several skincare facts worth knowing. He explains benzoyl peroxide is still a good ingredient despite recent controversy, but warns not to store it in high heat (like a hot car) or use it expired, since heat can break it down into benzene. He clarifies that tretinoin does not thin skin; it thickens the deeper collagen layers while the visible peeling is just the stratum corneum adjusting to faster cell turnover, not damage. He also notes people do not need to overspend on expensive barrier repair creams, recommending affordable options like Avene Cicalfate, La Roche-Posay Cicaplast Baume B5, or plain Vaseline when skin is compromised.
@@ -64,6 +69,7 @@ videos:
   credential: Board-certified dermatologist
   platform: TikTok
   url: https://www.tiktok.com/@dr.sheila_derm/video/7676886999835430174
+  duration: 49
   posted: '2026-08-22'
   related: [acne, sheila-farhang]
   thesis: 'Board-certified dermatologist Dr. Sheila Farhang explains why back acne (bacne) is more painful than facial acne: the skin on the back is thicker and oilier with larger follicles, so clogged pores trap inflammation deep in the skin with little room to expand. She recommends a benzoyl peroxide wash from the neck down to reduce bacteria, a salicylic acid spray to cut oil clogging pores, and a chemical exfoliant to boost cell turnover and help fade scars, and notes that large or scarring lesions may need an in-office cortisone injection or other medical treatment from a dermatologist'
@@ -74,6 +80,7 @@ videos:
   credential: Board-certified dermatologist
   platform: TikTok
   url: https://www.tiktok.com/@dr.tomassian/video/7678837805790940429
+  duration: 29
   posted: '2026-08-27'
   related: []
   thesis: Board-certified dermatologist Dr. Chris Tomassian names adapalene combined with benzoyl peroxide as what he considers the best and most effective over-the-counter acne treatment. He notes this combination was previously prescription-only and is now available over the counter, and explains adapalene treats and helps prevent new pimples while paired with benzoyl peroxide. He recommends it as a good option to try before seeing a dermatologist for those who can't get an appointment yet

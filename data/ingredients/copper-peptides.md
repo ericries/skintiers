@@ -14,6 +14,7 @@ videos:
   credential: Licensed esthetician (not a dermatologist or cosmetic chemist)
   platform: TikTok
   url: https://www.tiktok.com/@your.estie.ella/video/7670531715860876557
+  duration: 127
   posted: '2026-08-05'
   thesis: "Licensed esthetician Ella walks through how to fit a copper-peptide serum into an existing routine, framing copper peptides as a useful add-on for anti-aging and barrier support rather than an all-in-one treatment that needs months of patience before results show. Her practical guidance is that copper peptides layer fine with most products, and the only pairings to space out are retinoids and the active form of vitamin C (ascorbic acid, not the derivatives), where she suggests waiting ten to fifteen minutes between applying those and the copper peptides; she says copper peptides can be used morning and night."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship, no brand mentions or product picks. Presented as a non-credentialed esthetician's practical how-to, not established clinical fact."
@@ -23,6 +24,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=YuHLRmJMUzI
+  duration: 1584
   posted: '2026-08-01'
   related: [vitamin-c, hyperpigmentation]
   thesis: "Answering a viewer question in a weekend Q&A, board-certified dermatologist Andrea Suarez (Dr. Dray) says copper is involved in the enzyme tyrosinase, so there is a theoretical reason copper peptides could help hyperpigmentation, but no good clinical research shows they actually work for it. She says topical vitamin C, especially ascorbic acid, has a lot more evidence behind it for hyperpigmentation, and that even the non-ascorbic-acid vitamin C derivatives are still a better bet than copper peptides because they act as surface antioxidants."
@@ -33,6 +35,7 @@ videos:
   credential: "Cosmetic chemists"
   platform: YouTube
   url: https://www.youtube.com/watch?v=KeIk6B7AUEM
+  duration: 2265
   posted: '2026-08-14'
   thesis: "Cosmetic chemists Victoria Fu and Gloria Lu of Chemist Confessions take a hard look at copper peptides, the copper-binding tripeptide known by the shorthand GHK-Cu that is often marketed as a collagen booster. They walk through permeation research showing the molecule struggles to get past the skin's outer layer and note that the clinical evidence behind topical copper peptides is thin, resting mostly on a handful of old, hard-to-access studies that get recycled across marketing copy. Their conclusion is that copper peptides have a compelling backstory but are not a must-have, so people already curious about them can experiment without expecting dramatic results."
   related: ["peptides"]
@@ -43,6 +46,7 @@ videos:
   credential: Cosmetic chemists
   platform: YouTube
   url: https://www.youtube.com/watch?v=WCPIouF2LPQ
+  duration: 2197
   posted: '2026-08-17'
   related: [the-ordinary-multi-peptide-copper-peptides-serum, niod-copper-amino-isolate-serum-3-1-1]
   thesis: Cosmetic chemists Victoria Fu and Gloria Lu of Chemist Confessions test and compare five copper peptide serums, including The Ordinary's, as a follow-up to their science deep dive on the ingredient. They are openly skeptical of the eye-catching 200 to 400 percent hydration-boost figures some brands cite, question what those numbers actually mean, and coach viewers to scan ingredient lists for named peptides like GHK to judge a product rather than trusting headline claims.
@@ -53,6 +57,7 @@ videos:
   credential: Board-certified dermatologist
   platform: TikTok
   url: https://www.tiktok.com/@dr.sheila_derm/video/7677769908943375647
+  duration: 57
   posted: '2026-08-25'
   related: []
   thesis: Dr. Sheila Farhang, a board-certified dermatologist, explains that GHK-Cu (copper peptides) support wound healing and collagen production and can be added on top of a basic routine of sunscreen, weekly exfoliant, vitamin C in the morning, and a retinoid at night. She describes peptides broadly as signaling molecules that boost collagen, increase hydration, and improve the skin barrier, and says they have a long history of use in dermatology
@@ -63,6 +68,7 @@ videos:
   credential: Board-certified dermatologist (DO, FAOCD, FAAD), River Ridge Dermatology / HCA Virginia, Blacksburg VA
   platform: YouTube
   url: https://www.youtube.com/watch?v=t9I8vVpZjxc
+  duration: 991
   posted: '2026-08-30'
   related: [palmitoyl-tripeptide-1, retinoids, anti-aging]
   thesis: 'Board certified dermatologist Dr. Aleksandra Brown explains that peptides are an "upgrade," not a foundation, meant only for people already consistent with sunscreen, vitamin C, and a retinoid, then compares three peptide classes for people in their 40s and up: signal peptides like Matrixyl/Matrixyl 3000 (palmitoyl tripeptide 1) that prompt fibroblasts to make more collagen and have the most placebo controlled human data, carrier peptides like copper peptides/GHK Cu that deliver copper to support collagen and elastin repair, and neurotransmitter inhibiting Argireline (acetyl hexapeptide 8) that softens expression lines but works nowhere near as strongly as Botox. She ranks copper peptide as her top single pick for 40s collagen support, flags that copper peptides and L ascorbic acid vitamin C should be kept apart at different times of day, and says the evidence on combining copper peptides with vitamin C derivatives is still unsettled.'
@@ -73,6 +79,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=nVRFpcXf5cg
+  duration: 920
   posted: '2026-09-26'
   related: [vitamin-c, benzoyl-peroxide, azelaic-acid, retinoids]
   thesis: Board-certified dermatologist Dr. Shereene Idriss explains that most bad reactions people blame on copper peptides (GHK-Cu) are usually not a true copper allergy, which she says is rare, but come from layering, an already-irritated skin barrier, or other actives in the same bottle. She advises separating pure L-ascorbic acid vitamin C and benzoyl peroxide from copper peptides (azelaic acid is fine to pair), adding only one new active at a time, and reading the full ingredient list rather than trusting the front of the bottle. She also cautions that injectable GHK-Cu is not FDA approved and has tested contaminated, and concludes copper peptides are neither a scam nor magic while retinoids remain the better-evidenced option.

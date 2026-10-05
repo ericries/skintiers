@@ -14,6 +14,7 @@ videos:
   credential: Board-certified dermatologist
   platform: YouTube
   url: https://www.youtube.com/watch?v=LMh-0_6i8xI
+  duration: 1515
   posted: '2023-01-28'
   related: [retinoids, caffeine]
   thesis: Board-certified dermatologist Dr. Adeline Kikam (Brown Skin Derm), joined by hairstylist Oakley, reviews 2022 TikTok trends and says which should stay in 2022. On slugging, she says she is not against it, explains it is meant to lock in moisture with an occlusive like petroleum jelly (or shea butter, jojoba oil) at night, recommends washing off excess oil with a salicylic acid cleanser first if skin is oily and always starting from a clean, makeup-free face to avoid trapping dirt. On skin cycling, she says she has no problem with the concept of rotating exfoliant/retinoid/recovery nights, but cautions that for people with mature skin, fine lines, wrinkles, or melasma, applying retinoids only once every four days is too infrequent for aggressive results and recommends about three to four times a week instead. She also rejects using hemorrhoid cream (phenylephrine) under the eyes as unsafe for that sensitive area and instead recommends caffeine, cold coffee grounds, tea bags, or

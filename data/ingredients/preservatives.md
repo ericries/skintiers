@@ -13,6 +13,7 @@ videos:
   credential: Cosmetic scientist
   platform: YouTube
   url: https://www.youtube.com/watch?v=HhXcbamdMHI
+  duration: 163
   posted: '2026-05-31'
   related: []
   thesis: Jen Novakovich, a cosmetic scientist at The Eco Well, explains that formaldehyde-donor preservatives like DMDM hydantoin used in rinse-off products such as shampoo are not the same as adding pure formaldehyde, and that dose and exposure determine risk. She notes these preservatives release only small, slow, controlled amounts of formaldehyde comparable to what naturally occurs in a pear or in exhaled breath, and that risk assessments on DMDM hydantoin at the US regulatory limit of 1% found a wide margin of safety. She argues that under-preserving a product carries its own real public health risk from microbial contamination, and that conflating these preservatives with formaldehyde itself has fueled misinformed lawsuits and state-level bans.
