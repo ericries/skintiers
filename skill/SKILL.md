@@ -85,6 +85,35 @@ Normalise your query to lowercase `a-z0-9` only, then look it up in `names` to g
 Say "I could not resolve that name here" rather than "SkinTiers does not cover it", and try
 the brand plus the active ("anua azelaic") or a shorter query.
 
+## Composition questions ("does X contain Y?")
+
+**Do not answer these from `key_actives` or from a slug search.** Declared ingredient
+lists use INCI names, not slugs, so slug-based tools give false negatives: searching
+`copper-peptides` misses COSRX The 6 Peptide Skin Booster even though its page names
+copper tripeptide-1 six times. Search the ingredient TEXT instead:
+
+```
+.venv/bin/python scripts/sk inci "copper tripeptide"     # which products mention it
+.venv/bin/python scripts/sk inci "tocopherol" --json
+```
+
+Matching ignores case, punctuation and spacing, so `palmitoyl-tripeptide-1`,
+`Palmitoyl Tripeptide-1` and `PALMITOYL tripeptide 1` are the same query. The snippet
+is returned deliberately: **a mention is not a declaration**, so read the page's own
+ingredient section before concluding the molecule is in the formula.
+
+Three distinct answers, and they must not be collapsed:
+
+- **Present**: named in the page's declared ingredient list.
+- **Absent from the declared formula**: the page publishes a full INCI and it is not
+  in it.
+- **Unknown**: only `key_actives` is available, or the brand publishes no ingredient
+  list (which happens, and the page says so). Report unknown rather than absent.
+
+For "which products contain active X" where X *is* a site ingredient slug, use
+`scripts/products_with.py <slug> [<slug>...]`, which matches `key_actives` and
+`[[xref]]` mentions. Prefer `sk inci` when the question is about a specific molecule.
+
 ## Where the data lives
 
 **Which source to read first depends on where you are.** If you have the repo on

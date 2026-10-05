@@ -162,6 +162,31 @@ def cmd_find(args):
     return 0
 
 
+def cmd_inci(args):
+    """Search declared ingredient TEXT across product pages. Use for composition
+    questions ("does X contain copper peptides?"), where key_actives and slug-based
+    search give false negatives because labels use INCI names."""
+    hits = sklib.search_inci(args.term, typ=None if args.all_types else "product",
+                             limit=args.limit)
+    if args.json:
+        print(json.dumps(hits, indent=2))
+        return 0 if hits else 1
+    if not hits:
+        print(f"no page text matches {args.term!r}.\nThat means it is not MENTIONED "
+              f"on any indexed page, which is weaker than 'not in the formula': a page "
+              f"may not publish a full INCI at all. Check the product page's own "
+              f"ingredient section before saying a formula lacks it.", file=sys.stderr)
+        return 1
+    print(f"{len(hits)} page(s) mention {args.term!r}:")
+    for h in hits:
+        print(f"  {h['slug']}")
+        print(f"    {h['name']}")
+        print(f"    ...{h['snippet']}...")
+    print("\nA mention is not a declaration. Read the page's ingredient section to "
+          "confirm it is in the formula rather than discussed in prose.", file=sys.stderr)
+    return 0
+
+
 def cmd_publish(args):
     verdict = sklib.review_verdict(sklib.DATA_DIR, args.slug)
     if verdict != "publish" and not getattr(args, "force", False):
@@ -548,6 +573,12 @@ def main(argv=None):
     p_find.add_argument("--limit", type=int, default=10)
     p_find.add_argument("--json", action="store_true", help="machine-readable output")
     p_find.set_defaults(func=cmd_find)
+    p_inci = sub.add_parser("inci", help="search declared ingredient text (composition questions)")
+    p_inci.add_argument("term", help="an INCI name or fragment, e.g. 'copper tripeptide'")
+    p_inci.add_argument("--all-types", action="store_true", help="search every page type")
+    p_inci.add_argument("--limit", type=int, default=40)
+    p_inci.add_argument("--json", action="store_true")
+    p_inci.set_defaults(func=cmd_inci)
     p_pub = sub.add_parser("publish")
     p_pub.add_argument("slug")
     p_pub.add_argument("--force", action="store_true")

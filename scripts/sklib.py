@@ -1337,3 +1337,55 @@ def find_entities(query, data_dir=None, typ=None, limit=10):
                         "score": score, "why": why})
     out.sort(key=lambda r: (-r["score"], len(r["name"]), r["slug"]))
     return out[:limit]
+
+def search_inci(term, data_dir=None, typ="product", limit=40):
+    """Products whose page TEXT contains `term`, for composition questions.
+
+    Why this exists separately from products_with.py: that tool matches an
+    ingredient SLUG (via key_actives or an [[xref]]), so it missed COSRX 6 Peptide
+    Skin Booster for "copper-peptides" even though the page names copper
+    tripeptide-1 six times. An agent asking "does this contain copper peptides" got
+    a false negative. Declared ingredient lists use INCI names, not slugs, so
+    composition search has to be textual.
+
+    Matching ignores case, punctuation and spacing, so "PALMITOYL tripeptide 1",
+    "palmitoyl-tripeptide-1" and "Palmitoyl Tripeptide-1" all match.
+
+    Returns [{slug, name, type, path, snippet}]. A hit is a MENTION, not proof of a
+    declaration: the snippet is returned so the caller reads the context rather than
+    trusting the match.
+    """
+    data_dir = pathlib.Path(data_dir or DATA_DIR)
+    needle = re.sub(r"[^a-z0-9]+", "", (term or "").lower())
+    if not needle:
+        return []
+    out = []
+    for md in sorted(data_dir.glob("*/*.md")):
+        try:
+            post = frontmatter.load(md)
+        except Exception:
+            continue
+        if typ and post.get("type") != typ:
+            continue
+        if post.get("status") != "published":
+            continue
+        body = post.content
+        flat = re.sub(r"[^a-z0-9]+", "", body.lower())
+        i = flat.find(needle)
+        if i < 0:
+            continue
+        # map the flattened hit back to a readable snippet in the original text
+        keep, pos = [], 0
+        for ch in body:
+            if re.match(r"[a-z0-9]", ch.lower()):
+                keep.append(pos)
+            pos += 1
+        start = keep[i] if i < len(keep) else 0
+        end = keep[min(i + len(needle), len(keep) - 1)] if keep else 0
+        out.append({"slug": post.get("slug") or md.stem,
+                    "name": str(post.get("name") or md.stem),
+                    "type": post.get("type"), "path": str(md),
+                    "snippet": body[max(0, start - 60):end + 60].replace("\n", " ").strip()})
+        if len(out) >= limit:
+            break
+    return out

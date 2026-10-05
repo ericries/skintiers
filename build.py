@@ -1511,6 +1511,10 @@ def render_llms_txt(profiles, type_counts):
         "A miss means the name is not indexed, **not** that the site lacks the product.",
         "- In a local checkout: `scripts/sk find \"<marketed name>\"` returns ranked "
         "file paths with explainable scores. Do not grep the tree.",
+        "- For a composition question, `scripts/sk inci \"copper tripeptide\"` searches "
+        "declared ingredient TEXT. Slug-based search gives false negatives here, because "
+        "labels use INCI names. A mention is not a declaration, and 'not mentioned' is "
+        "weaker than 'not in the formula'.",
         "",
         "## Start here",
         "",
