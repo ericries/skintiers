@@ -2759,3 +2759,46 @@
     My Gold Standard Retinoids After 10 Years in Practice' (video JHbkWLw0SDc, 3.9M
     views, no sponsorship markers in transcript); a retinoid-plus-AHA product the
     site has no page for, so the video currently has nowhere to attach
+- name: COS de BAHA AZ15 Azelaic Acid 15% Serum
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: azelaic-acid
+  source: 'Documented coverage gap, flagged twice in external agent feedback (2026-10-04_11-14-45,
+    2026-10-04_21-09-08). Brand pages: https://cosdebahaofficial.com/products/az15
+    and https://www.cosdebaha.com/products/15-azelaic-acid-high-strength-serum-with-msm-for-acne-hyperpigmentation-skin-clarity-30ml
+    . Reported label: 15% azelaic acid + 1% MSM; supporting ingredients panthenol,
+    ceramide NP, hyaluronate, hydrolyzed HA, centella/madecassoside, allantoin, a
+    licorice-derived ingredient, sodium hydroxide for pH. VERIFY all of this against
+    the brand page before drafting. Note the sibling AZ20 page assigns solid acne
+    evidence by borrowing a prescription formulation at the same concentration; do
+    NOT repeat that, matching Finacea''s percentage does not establish equivalence.'
+- name: TIRTIR Azelaic Acid 12% Serum
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: azelaic-acid
+  source: 'Documented coverage gap from external agent feedback (2026-10-04_21-09-08).
+    Brand page: https://tirtir.global/collections/serum-ampoule/products/azelaic-acid-12-serum
+    . Reported label: 12% azelaic acid; supporting blend panthenol, ceramide NP, zinc
+    PCA, tocopherol, betaine, HA copolymer, sodium hydroxide. Brand advertises quantified
+    hydration/redness improvements WITHOUT sufficient design, population, comparator
+    or duration to appraise, so quarantine those as manufacturer test claims. VERIFY
+    the INCI against the brand page before drafting.'
+- name: Anua Heartleaf Pore Control Cleansing Oil
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: anua-heartleaf-77-soothing-toner
+  source: Flagged as a missing exact-product record in external agent feedback (2026-10-04_11-25-14);
+    a cache text hit for the name was a different Anua Rice Milk page, not this formula.
+    Resolve identity via inci_lookup or the brand page before drafting.
+- name: Anua Peach 70% Niacinamide Serum
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: niacinamide
+  source: Flagged as a missing exact-product record in external agent feedback (2026-10-04_11-25-14),
+    written there as 'Peach 70 Niacinamide Serum'. CONFIRM the exact marketed name
+    and brand (likely Anua) via inci_lookup/Apify before drafting; do not draft from
+    the abbreviated name.
