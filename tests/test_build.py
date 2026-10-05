@@ -1127,3 +1127,51 @@ def test_feed_has_filter_controls_and_facades(tmp_path):
     assert 'data-creator="dr-test"' in feed      # cards are filterable
     assert "vid-facade" in feed                  # click-to-play, not an eager iframe
     assert "<iframe" not in feed
+
+
+def test_video_pages_are_definitive_and_disclose_creator_conflicts(tmp_path):
+    """A video page must stand alone as the best page on its topic: breadcrumbs,
+    provenance, the creator's vetting tier AND disclosed conflicts, their other
+    videos, other videos on the same topics, and BreadcrumbList structured data.
+    The conflict disclosure is the point: citing a creator without saying what they
+    stand to gain is the failure mode this guards against."""
+    data = tmp_path / "data"
+    out = tmp_path / "_site"
+    d = data / "ingredients"
+    d.mkdir(parents=True, exist_ok=True)
+    def vid(vid_id, title, posted):
+        return ("- title: " + title + "\n"
+                "  creator: Dr Test\n  creator_slug: dr-test\n"
+                "  credential: Board-certified dermatologist\n  platform: YouTube\n"
+                f"  url: https://www.youtube.com/watch?v={vid_id}\n"
+                f"  posted: '{posted}'\n  thesis: A transcript-grounded thesis.\n")
+    (d / "niacinamide.md").write_text(
+        "---\nname: Niacinamide\nslug: niacinamide\ntype: ingredient\n"
+        "status: published\nupdated: 2026-07-26\nanalyzed: 2026-07-26\nvideos:\n"
+        + vid("aaaaaaaaaaa", "First talk", "2026-07-01")
+        + vid("bbbbbbbbbbb", "Second talk", "2026-06-01")
+        + "---\n\nBody.\n")
+    # roster supplies the vetting tier and the conflict disclosure
+    (data / "video-sources.yaml").write_text(
+        "- name: Dr Test\n  creator_slug: dr-test\n"
+        "  credential: Board-certified dermatologist\n  tier: MED\n"
+        "  channel: https://www.youtube.com/@drtest\n  product_recs: restricted\n"
+        "  conflict: Founder of an own-brand skincare line\n")
+    env = {**os.environ, "SK_DATA": str(data), "SK_OUTPUT": str(out)}
+    r = subprocess.run([sys.executable, str(ROOT / "build.py")], env=env,
+                       capture_output=True, text=True)
+    assert r.returncode == 0, r.stderr
+
+    page = next(p for p in out.glob("video-first-talk*.html"))
+    html = page.read_text()
+    assert 'class="crumbs"' in html                       # breadcrumbs for humans
+    assert '"@type": "BreadcrumbList"' in html            # ...and for crawlers
+    assert "How this was checked" in html                 # provenance block
+    assert "Founder of an own-brand skincare line" in html  # conflict surfaced
+    assert "mid-tier source" in html                      # vetting tier explained
+    assert "Second talk" in html                          # sibling video linked
+    assert "dr-test-videos.html" in html                  # creator feed linked
+
+    creator = (out / "dr-test-videos.html").read_text()
+    assert "Founder of an own-brand skincare line" in creator
+    assert 'class="crumbs"' in creator

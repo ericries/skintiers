@@ -200,6 +200,27 @@ sup a{font-family:var(--mono);font-size:.66em;border:none;padding:0 1px}
 .vid-facade:hover .vid-play,.vid-facade:focus-visible .vid-play{background:#c00}
 .vid-facade:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
 .vid-tt{margin:10px 0 4px;font-family:var(--mono);font-size:12px}
+/* --- definitive video / creator pages --- */
+.crumbs{margin:0 0 10px}
+.crumbs ol{list-style:none;display:flex;flex-wrap:wrap;gap:6px;margin:0;padding:0;font-family:var(--mono);font-size:11px;letter-spacing:.04em;color:var(--faint)}
+.crumbs li+li::before{content:"/";margin-right:6px;color:var(--rule-strong)}
+.crumbs [aria-current]{color:var(--muted)}
+.vid-h{font-size:15px;letter-spacing:.01em;margin:26px 0 8px;padding-bottom:5px;border-bottom:1px solid var(--rule)}
+.vid-prov{margin:0;padding-left:18px;font-size:13.5px;color:var(--muted)}
+.vid-prov li{margin:4px 0}
+.vid-prov strong{color:inherit}
+.vid-rel{list-style:none;margin:0;padding:0}
+.vid-rel li{padding:7px 0;border-bottom:1px solid var(--rule)}
+.vid-rel li:last-child{border-bottom:0}
+.vid-rel a{font-size:14.5px;font-weight:600}
+.vid-rel-by{display:block;font-family:var(--mono);font-size:11px;letter-spacing:.03em;color:var(--faint);margin-top:2px}
+.vid-creator{border:1px solid var(--rule-strong);border-left:3px solid var(--accent);border-radius:5px;background:var(--card);padding:12px 14px}
+.vid-creator-line{margin:0;font-size:14px}
+.vid-conflict{margin:8px 0 0;font-size:13px;color:var(--muted)}
+.vid-conflict-label{display:inline-block;font-family:var(--mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--tier-mid);border:1px solid var(--rule-strong);border-radius:3px;padding:1px 6px;margin-right:6px}
+.vid-conflict-note{margin:6px 0 0;font-size:12.5px;color:var(--faint);font-style:italic}
+.vid-creator .vid-more{margin:10px 0 0}
+@media (max-width:560px){.vid-h{margin-top:20px}}
 .feed-filter{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:14px 0 6px;padding:10px 12px;border:1px solid var(--rule-strong);border-radius:6px;background:var(--card)}
 .feed-filter input[type=search]{flex:1 1 240px;min-width:0;font:inherit;font-size:14px;padding:7px 10px;border:1px solid var(--rule-strong);border-radius:4px;background:var(--bg);color:inherit}
 .feed-filter select{font:inherit;font-size:13px;padding:7px 8px;border:1px solid var(--rule-strong);border-radius:4px;background:var(--bg);color:inherit;max-width:190px}

@@ -1604,6 +1604,77 @@ def jsonld_video(v, page_url, desc):
     return _json.dumps(d, indent=None)
 
 
+def load_creator_roster():
+    """creator_slug -> {name, credential, tier, conflict, channel, product_recs}
+    from data/video-sources.yaml.
+
+    The roster is the only place that records a creator's vetting tier and their
+    disclosed conflicts (own brands, affiliate storefronts, paid partnerships).
+    Surfacing that next to their videos is the honest version of citing a creator:
+    the reader sees who is talking and what they stand to gain, rather than a bare
+    name. 53 of 64 rostered creators carry a conflict note."""
+    import yaml as _yaml
+    path = sklib.DATA_DIR / "video-sources.yaml"
+    if not path.exists():
+        return {}
+    raw = _yaml.safe_load(path.read_text()) or []
+    items = raw if isinstance(raw, list) else (raw.get("sources") or raw.get("creators") or [])
+    out = {}
+    for c in items:
+        if not isinstance(c, dict):
+            continue
+        cs = c.get("creator_slug")
+        if not cs:
+            continue
+        out[cs] = {k: c.get(k) for k in
+                   ("name", "credential", "tier", "conflict", "channel", "product_recs")}
+    return out
+
+
+def related_videos_by_topic(cards, limit=6):
+    """page_slug -> [other cards that share at least one topic page with it].
+
+    Two videos are related when they are cited on, or flagged as relevant to, the
+    same profile. This is what turns a video page from an orphan embed into a hub:
+    from "copper peptides" you can reach every other vetted video on copper
+    peptides. Ranked by how many topics are shared, then by recency, so the most
+    closely-related video comes first."""
+    topics_of = {}
+    for c in cards:
+        ps = c.get("page_slug")
+        if not ps:
+            continue
+        topics_of[ps] = {o["slug"] for o in (c.get("on") or [])} | \
+                        {o["slug"] for o in (c.get("related") or [])}
+    by_slug = {c["page_slug"]: c for c in cards if c.get("page_slug")}
+    out = {}
+    for ps, mine in topics_of.items():
+        if not mine:
+            out[ps] = []
+            continue
+        scored = []
+        for other, theirs in topics_of.items():
+            if other == ps:
+                continue
+            shared = mine & theirs
+            if shared:
+                scored.append((len(shared), by_slug[other].get("posted") or "", other))
+        scored.sort(reverse=True)
+        out[ps] = [by_slug[o] for _, _, o in scored[:limit]]
+    return out
+
+
+def jsonld_breadcrumb(trail):
+    """BreadcrumbList structured data from [(name, url), ...]."""
+    import json as _json
+    return _json.dumps({
+        "@context": "https://schema.org", "@type": "BreadcrumbList",
+        "itemListElement": [
+            {"@type": "ListItem", "position": i + 1, "name": n, "item": u}
+            for i, (n, u) in enumerate(trail)
+        ]}, indent=None)
+
+
 def build():
     env = Environment(loader=FileSystemLoader(str(sklib.TEMPLATES_DIR)), autoescape=True)
     env.globals["assurance_tip"] = lambda level: ASSURANCE_TIPS.get(level, "")
@@ -1652,6 +1723,8 @@ def build():
     feed_cards = build_video_feed(profiles)
     video_key_to_slug = assign_video_page_slugs(feed_cards, reserved=slugs)
     creator_feeds = build_creator_feeds(feed_cards)
+    creator_roster = load_creator_roster()
+    related_vids = related_videos_by_topic(feed_cards)
     person_slugs = {p["slug"] for p in profiles
                     if p.get("type") == "person" and p.get("status") == "published"}
 
@@ -1837,12 +1910,27 @@ def build():
     video_tmpl = env.get_template("video.html")
     for v in feed_cards:
         cs = v.get("creator_slug")
+        _vurl = f"{SITE_URL}/{v['page_slug']}.html"
+        _cmeta = creator_roster.get(cs) or {}
+        _feed = creator_feeds.get(cs) or {}
+        _siblings = [s for s in (_feed.get("videos") or [])
+                     if s.get("page_slug") != v.get("page_slug")][:5]
+        _crumbs = [("SkinTiers", "index.html"), ("Videos", "feed.html")]
+        if _feed.get("feed_slug"):
+            _crumbs.append((v.get("creator") or cs, f"{_feed['feed_slug']}.html"))
+        _trail = [(n, f"{SITE_URL}/{h}") for n, h in _crumbs]
         (out / f"{v['page_slug']}.html").write_text(video_tmpl.render(
             v=v,
-            page_url=f"{SITE_URL}/{v['page_slug']}.html",
+            page_url=_vurl,
             page_desc=_plain_excerpt(v.get("thesis") or ""),
-            jsonld=jsonld_video(v, f"{SITE_URL}/{v['page_slug']}.html",
-                                _plain_excerpt(v.get("thesis") or "")),
+            jsonld=jsonld_video(v, _vurl, _plain_excerpt(v.get("thesis") or "")),
+            jsonld_extra=jsonld_breadcrumb(_trail + [(v.get("title") or "Video", _vurl)]),
+            breadcrumbs=_crumbs,
+            creator_meta=_cmeta,
+            creator_video_count=len(_feed.get("videos") or []),
+            siblings=_siblings,
+            topic_videos=related_vids.get(v.get("page_slug")) or [],
+            type_of=_TYPE_SINGULAR,
             person_slug=cs if cs in person_slugs else None,
             needs_tiktok_js=(video_embed(v.get("url")) or {}).get("kind") == "tiktok"))
 
@@ -1850,10 +1938,16 @@ def build():
     # video's own page. Person pages, where they exist, link here and vice versa.
     creator_tmpl = env.get_template("creator.html")
     for cs, feed in creator_feeds.items():
+        _curl = f"{SITE_URL}/{feed['feed_slug']}.html"
+        _ccrumbs = [("SkinTiers", "index.html"), ("Videos", "feed.html")]
+        _ctrail = [(n, f"{SITE_URL}/{h}") for n, h in _ccrumbs] + [(feed["name"], _curl)]
         (out / f"{feed['feed_slug']}.html").write_text(creator_tmpl.render(
             feed=feed,
-            page_url=f"{SITE_URL}/{feed['feed_slug']}.html",
+            page_url=_curl,
             page_desc=f"Every video from {feed['name']} cited on SkinTiers.",
+            creator_meta=creator_roster.get(cs) or {},
+            breadcrumbs=_ccrumbs,
+            jsonld_extra=jsonld_breadcrumb(_ctrail),
             person_slug=cs if cs in person_slugs else None,
             needs_tiktok_js=False))
 

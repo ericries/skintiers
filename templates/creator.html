@@ -2,7 +2,15 @@
 {% block title %}{{ feed.name }} — videos — SkinTiers{% endblock %}
 {% block content %}
 <article class="creator-page">
-  <div class="kicker"><span class="type-tag">Creator</span></div>
+  {% if breadcrumbs %}
+  <nav class="crumbs" aria-label="Breadcrumb">
+    <ol>
+      {% for name, href in breadcrumbs %}<li><a href="{{ href }}">{{ name }}</a></li>{% endfor %}
+      <li aria-current="page">{{ feed.name }}</li>
+    </ol>
+  </nav>
+  {% endif %}
+  <div class="kicker"><span class="type-tag">Creator</span>{% if creator_meta.tier %} <span class="type-of">{{ 'vetted high-credibility' if creator_meta.tier == 'HIGH' else 'vetted, mid-tier' }}</span>{% endif %}</div>
   <div class="masthead">
     <div>
       <h1>{{ feed.name }}</h1>
@@ -10,6 +18,25 @@
     </div>
   </div>
 
+  <div class="vid-creator">
+    <p class="vid-creator-line">
+      {% if feed.credential or creator_meta.credential %}<strong>{{ feed.credential or creator_meta.credential }}</strong>.{% endif %}
+      {% if creator_meta.tier == 'HIGH' %} Vetted as a high-credibility source, so their non-sponsored product recommendations are usable as well as their explanations.{% elif creator_meta.tier == 'MED' %} Vetted as a mid-tier source, so product recommendations get extra scrutiny and educational content is preferred.{% endif %}
+    </p>
+    {% if creator_meta.conflict %}
+    <p class="vid-conflict"><span class="vid-conflict-label">Disclosed conflicts</span> {{ creator_meta.conflict }}</p>
+    {% endif %}
+    {% if creator_meta.product_recs == 'restricted' or creator_meta.product_recs == 'None' %}
+    <p class="vid-conflict-note">Their product picks are not treated as independent recommendations here; only their educational explanation is.</p>
+    {% endif %}
+    <p class="vid-more">
+      {% if person_slug %}<a href="{{ person_slug }}.html">Profile of {{ feed.name }}</a> &middot; {% endif %}
+      {% if creator_meta.channel %}<a href="{{ creator_meta.channel }}" rel="nofollow noopener" target="_blank">Their channel</a> &middot; {% endif %}
+      <a href="method.html">How videos are vetted</a>
+    </p>
+  </div>
+
+  <h2 class="vid-h">Every video from {{ feed.name }} cited here</h2>
   <section class="vids feed">
     {% for v in feed.videos %}
     <div class="vid">
@@ -20,5 +47,6 @@
     </div>
     {% endfor %}
   </section>
+  <p class="vid-more"><a href="feed.html">Browse every vetted video</a> &middot; <a href="people.html">All creators</a></p>
 </article>
 {% endblock %}
