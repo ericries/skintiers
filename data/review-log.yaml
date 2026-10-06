@@ -7741,3 +7741,8 @@ perez-bootello-2025-medipso-mediterranean-diet-psoriasis-rct:
   score: 8
   verdict: publish
   note: 'Main-loop self-verify (no critic; standing no-subagent instruction). All 15 quotes machine-checked verbatim against the freshly fetched PMID 40991259 abstract, 0 unverified after replacing one elided quote with the full sentence. Key limitation foregrounded rather than buried: the arms differ by more than diet, since the intervention got dietitian supervision, materials and free weekly olive oil while controls got unsupervised advice, so the trial cannot separate the diet from the support and provided food. Author pharmaceutical disclosures noted.'
+abigail-waldman:
+  last_reviewed: '2026-10-06'
+  score: 8
+  verdict: publish
+  note: Main-loop self-verify (person pages take no critic). 85 words, within the 150 scope. Credential independently verified against the CMS NPI registry (NPI 1598054926, MD, primary Dermatology taxonomy plus Mohs and dermatopathology, active MA license 265614, Boston); taxonomy-filtered search returned exactly one match. DELIBERATELY did NOT repeat the roster's 'Associate Professor at Harvard Medical School' and 'Director of the Mohs and Dermatologic Surgery Center at Brigham and Women's' claims, which NPI does not corroborate and which were not independently checked. Her disclosed brand sponsorships are stated plainly.

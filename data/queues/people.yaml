@@ -260,7 +260,7 @@
 - name: Dr. Abigail Waldman (Dr. Abby)
   type: person
   priority: 5
-  status: pending
+  status: done
   discovered_from: feed
   source: 'Roster creator (video-sources.yaml, tier HIGH, credential verified at vetting:
     Abigail H. Waldman, MD, FAAD); 8 videos already carded on site. Person page =
