@@ -277,3 +277,10 @@
   discovered_from: griseofulvin
   source: Griseofulvin + terbinafine ingredient pages both treat tinea capitis; no
     scalp-ringworm condition hub exists yet
+- name: Phytophotodermatitis (lime/margarita burn)
+  type: condition
+  priority: 5
+  status: pending
+  discovered_from: body-acne
+  source: Dr. Sam Ellis video JWgs2fHYyz8; furanocoumarins plus UV, leaves long-lasting
+    dark marks in melanin-rich skin

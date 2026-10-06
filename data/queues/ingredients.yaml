@@ -1851,3 +1851,10 @@
   discovered_from: sodium-cocoyl-isethionate
   source: Mildest of the four anionic detergents ranked in Tupker 1999 PMID 10385334,
     milder than SCI
+- name: Chlorhexidine (Hibiclens)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: body-acne
+  source: Dr. Sam Ellis video JWgs2fHYyz8 warns against facial use (toxic to eyes/middle
+    ear) despite social-media body-acne/body-odour hacks; no page here
