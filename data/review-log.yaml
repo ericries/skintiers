@@ -248,14 +248,10 @@ anti-dandruff-seborrheic-dermatitis-treatments-by-evidence:
   verdict: publish
   note: Maintenance tick (site_health); Opus critic unavailable (session 200-agent cap), main-loop self-verify. List is by-active, by-evidence; the 5 flagged product pages are instances of already-ranked actives, so NOT added as duplicate rows; instead extended existing notes to point to the on-site products (selenium sulfide -> Head & Shoulders Clinical Strength + sensitive-scalp; pyrithione zinc -> Noble Formula bar; coal tar -> T/Gel Extra Strength; piroctone olamine -> Ducray Kelual DS). No new facts; slugs/strengths verified vs each product page. lint/verify/style clean.
 anua:
-  last_reviewed: '2026-08-08'
-  note: 'Lean brand discovery-aid (Sonnet-only). What-it-is + sourced ownership + linked on-site products.
-
-    assurance=sonnet. lint/style clean.
-
-    '
+  last_reviewed: '2026-10-06'
   score: 8
-  verdict: self-reviewed
+  verdict: publish
+  note: 'Main-loop self-verify (brand pages take no critic). site_health maintenance: linked the newly published cleansing oil. 172 words, inside the 180 brand scope. The one-line description notes heartleaf sits far down that product''s list rather than at the 77% of the toners above it, so the brand page does not imply the line is uniform. Verified the flag self-clears.'
 anua-azelaic-acid-serum:
   last_reviewed: '2026-07-29'
   note: 'Added summary-first "## Summary" (Sonnet draft + Opus critic; model split). Summary synthesizes the page''s already-cited content, no new claims; each load-bearing line links to its in-page anchor/footnote; health vs cosmetic separated. Opus critic checked for overstatement: CLEAN, no overstatement.'
