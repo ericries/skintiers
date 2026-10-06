@@ -1878,3 +1878,10 @@
   status: pending
   discovered_from: caprylyl-capryl-glucoside
   source: Fifth alkyl glucoside in the Bhoyrul 2019 PMID 30460735 panel; no page here
+- name: Psoralens (furanocoumarins)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: phytophotodermatitis
+  source: The causative compound class in phytophotodermatitis (Life 2024 PMID 39202761);
+    also used therapeutically in PUVA. No page here

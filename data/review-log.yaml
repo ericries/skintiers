@@ -7752,3 +7752,8 @@ caprylyl-capryl-glucoside:
   score: 8
   verdict: publish
   note: 'Main-loop self-verify (no critic; standing no-subagent instruction). All 16 quotes machine-checked verbatim against freshly fetched PMID 30460735 + 27775979, 0 unverified after expanding one elided quote to its full sentence (the elided part was the DENOMINATOR, which the page''s own caveat depends on). CORRECTED the queue item''s framing: it called this an ''emergent contact allergen in the same family'', but Loranger attributes the published cases mostly to lauryl and decyl glucoside, and Bhoyrul reports no per-agent rate for caprylyl/capryl. Page says guilty by family association, a real signal and a thin one. Flagged that the 1.04% denominator is patients already referred for suspected ACD, not general population. tier weak, consistent with decyl/lauryl glucoside and coco-betaine.'
+phytophotodermatitis:
+  last_reviewed: '2026-10-06'
+  score: 8
+  verdict: publish
+  note: 'Main-loop self-verify (no critic; standing no-subagent instruction). All 28 quotes machine-checked verbatim against freshly fetched PMID 39202761 + 38400817, 0 unverified. Removed one unsourced timing claim (''appears a day or two after exposure'') that neither cited paper supports, and de-quoted a nickname that was my own phrasing. DELIBERATELY published NO treatment tier_list: the Life 2024 review says only ''topical and systemic therapies'' with no graded regimen in the record, so a ranking would have been invented. The child-protection finding is presented in BOTH directions, including the three cases where a dermatitis label masked real abuse, so the page cannot be read as a reason to dismiss a safeguarding concern.'

@@ -280,7 +280,7 @@
 - name: Phytophotodermatitis (lime/margarita burn)
   type: condition
   priority: 5
-  status: pending
+  status: done
   discovered_from: body-acne
   source: Dr. Sam Ellis video JWgs2fHYyz8; furanocoumarins plus UV, leaves long-lasting
     dark marks in melanin-rich skin
@@ -294,3 +294,10 @@
     and rostered derms post about it regularly. A Chris Tomassian TikTok rating hair-loss
     treatments had nowhere to attach. Queued as a proposal, not a commitment to expand
     scope.'
+- name: Giant hogweed (Heracleum mantegazzianum) skin burns
+  type: condition
+  priority: 5
+  status: pending
+  discovered_from: phytophotodermatitis
+  source: Named in Life 2024 PMID 39202761 as a leading phototoxic plant; a public-health-relevant
+    sub-case with no page
