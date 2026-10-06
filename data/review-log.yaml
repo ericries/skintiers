@@ -7751,3 +7751,8 @@ anua-heartleaf-pore-control-cleansing-oil:
   score: 8
   verdict: publish
   note: 'Main-loop self-verify (no Opus critic; standing no-subagent instruction). All 18 quotes machine-checked verbatim against the cached Skin Cupid listing with tags stripped, 0 unverified after fixing three capitalisation mismatches. Caught and removed an incidecoder FOOTNOTE (aggregator, inline attribution only) for the second time in two product pages, then found a subtler error of my own: three citations pointed at the retailer footnote for INCI-derived claims the retailer listing does not contain. Re-anchored each footnote to the retailer''s actual words. Brand''s own store exposed no page for this SKU and Olive Young bot-blocked both curl and Apify, so price is reported as a range rather than a figure.'
+caprylyl-capryl-glucoside:
+  last_reviewed: '2026-10-06'
+  score: 8
+  verdict: publish
+  note: 'Main-loop self-verify (no critic; standing no-subagent instruction). All 16 quotes machine-checked verbatim against freshly fetched PMID 30460735 + 27775979, 0 unverified after expanding one elided quote to its full sentence (the elided part was the DENOMINATOR, which the page''s own caveat depends on). CORRECTED the queue item''s framing: it called this an ''emergent contact allergen in the same family'', but Loranger attributes the published cases mostly to lauryl and decyl glucoside, and Bhoyrul reports no per-agent rate for caprylyl/capryl. Page says guilty by family association, a real signal and a thin one. Flagged that the 1.04% denominator is patients already referred for suspected ACD, not general population. tier weak, consistent with decyl/lauryl glucoside and coco-betaine.'

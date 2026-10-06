@@ -1516,7 +1516,7 @@
     27775979)'
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/27775979/
 - name: Fluorouracil (5-FU, Efudex) topical chemotherapy cream, prescription field
@@ -1872,3 +1872,9 @@
   discovered_from: anua-heartleaf-pore-control-cleansing-oil
   source: Fragrance is declared 6th in a product marketed for redness-prone skin;
     the site flags fragrance placement repeatedly but has no page owning the evidence
+- name: Cetearyl glucoside
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: caprylyl-capryl-glucoside
+  source: Fifth alkyl glucoside in the Bhoyrul 2019 PMID 30460735 panel; no page here

@@ -1159,3 +1159,10 @@
   status: pending
   discovered_from: systemic-atopic-dermatitis-treatments-by-evidence
   source: https://pubmed.ncbi.nlm.nih.gov/41919337/
+- name: 'Bhoyrul 2019: patch testing with alkyl glucosides, concomitant reactions
+    common but not ubiquitous (5775 patients, PMID 30460735)'
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: caprylyl-capryl-glucoside
+  source: https://pubmed.ncbi.nlm.nih.gov/30460735/
