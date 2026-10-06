@@ -7746,3 +7746,8 @@ abigail-waldman:
   score: 8
   verdict: publish
   note: Main-loop self-verify (person pages take no critic). 85 words, within the 150 scope. Credential independently verified against the CMS NPI registry (NPI 1598054926, MD, primary Dermatology taxonomy plus Mohs and dermatopathology, active MA license 265614, Boston); taxonomy-filtered search returned exactly one match. DELIBERATELY did NOT repeat the roster's 'Associate Professor at Harvard Medical School' and 'Director of the Mohs and Dermatologic Surgery Center at Brigham and Women's' claims, which NPI does not corroborate and which were not independently checked. Her disclosed brand sponsorships are stated plainly.
+anua-heartleaf-pore-control-cleansing-oil:
+  last_reviewed: '2026-10-06'
+  score: 8
+  verdict: publish
+  note: 'Main-loop self-verify (no Opus critic; standing no-subagent instruction). All 18 quotes machine-checked verbatim against the cached Skin Cupid listing with tags stripped, 0 unverified after fixing three capitalisation mismatches. Caught and removed an incidecoder FOOTNOTE (aggregator, inline attribution only) for the second time in two product pages, then found a subtler error of my own: three citations pointed at the retailer footnote for INCI-derived claims the retailer listing does not contain. Re-anchored each footnote to the retailer''s actual words. Brand''s own store exposed no page for this SKU and Olive Young bot-blocked both curl and Apify, so price is reported as a range rather than a figure.'

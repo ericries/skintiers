@@ -2788,7 +2788,7 @@
 - name: Anua Heartleaf Pore Control Cleansing Oil
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: anua-heartleaf-77-soothing-toner
   source: Flagged as a missing exact-product record in external agent feedback (2026-10-04_11-25-14);
     a cache text hit for the name was a different Anua Rice Milk page, not this formula.
