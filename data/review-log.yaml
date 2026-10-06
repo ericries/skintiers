@@ -747,10 +747,10 @@ best-fungal-acne-safe-products:
   score: 9
   verdict: publish
 best-gentle-cleansers-sensitive-skin:
-  last_reviewed: '2026-09-26'
-  score: 9
+  last_reviewed: '2026-10-06'
+  score: 8
   verdict: publish
-  note: 'LIST maintenance (site_health): added dove-sensitive-skin-beauty-bar to the tier_list as the caveated bar-format option (syndet-soap hybrid + cocamidopropyl-betaine allergen), honestly positioned a step below the five pure washes; intro ''five''->''six'', callout adjusted, one concise prose paragraph linking out. Skipped cetaphil-moisturizing-cream (a moisturizer) and cocamidopropyl-betaine (an ingredient) as not rankable cleansers. Facts (surfactant chemistry, ~$1.62/bar) owned by the bar''s own page. lint/verify/style clean.'
+  note: 'Main-loop self-verify. Queued list item was a DUPLICATE of this existing page, so no new page was created; resolved the queue item and made the one real curatorial fix instead. Added a one-clause link from the Cetaphil entry to sodium-cocoyl-isethionate (its single syndet surfactant, per the product page) plus a See Also entry. Deliberately did NOT link SCI from the Dove entry: Dove''s surfactant is sodium LAUROYL isethionate, a different molecule, and conflating the two is the exact substitute-confusion error the coco-betaine page warns about. No prose re-explaining the surfactant evidence, which the ingredient page owns.'
 best-glass-skin-products:
   last_reviewed: '2026-08-09'
   note: 'Curatorial tier list (daily LIST cron style; Sonnet draft + own lint/verify/style, no Opus critic).
