@@ -10016,7 +10016,8 @@
   conflict: Founder/owner of active postpartum skincare brand "More Than Nine" (cleanser, exfoliator, moisturizer, balm) — an ongoing own-bran
   posted: '2026-10-05'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: no English transcript available; cannot cite a clip we cannot read
 - id: a9U2WRIG5e4
   title: Is the Retinoid Sandwich Method Dead?
   creator: Dr. Aleksandra Brown, DO, FAAD
@@ -10133,7 +10134,8 @@
   conflict: Bio includes a business/booking contact email suggesting managed brand partnerships; no confirmed own-brand line or affiliate stor
   posted: '2026-10-06'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'hair-loss treatments: site has NO hair-loss, alopecia, minoxidil or finasteride page to attach to; queued a hair-loss hub instead'
 - id: RwW5EB7xuUo
   title: Setting Expectations with Topical Minoxidil for Hair Loss
   creator: Dr. Daniel Sugai
@@ -10159,7 +10161,8 @@
   conflict: null
   posted: '2026-10-05'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'toner explainer: site has no toner page to attach to'
 - id: '7693412193668271381'
   title: what would we call this? Mauve blush? Cool toned blush? Muted cool to...
   creator: Hannah English (@ms_hannah_e / Hannah Collingwood English)
@@ -10172,7 +10175,8 @@
   conflict: Co-developed/formulated the Tbh Skincare 'Rebound' Serum and Toner (product-formulation partnership) — her endorsement of that spe; no YouTube; TikTok/IG intake
   posted: '2026-10-06'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: makeup/blush shade content, not skincare
 - id: '7693311513402084628'
   title: here’s what’s exciting enough to buy in asian beauty this month 🧪 som...
   creator: Hannah English (@ms_hannah_e / Hannah Collingwood English)
@@ -10263,7 +10267,8 @@
   conflict: null
   posted: '2026-10-06'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: comment-to-DM product-list funnel ('Comment PM for the full list of products I use'); creator is product_recs restricted, so picks are treated as effectively promotional
 - id: 7XVTcHsRvys
   title: '10/10 hacks for hidradenitis suppurativa, stitch with @Mott | HS Content Creator #hidradenitissuppurativa'
   creator: Dr. Neera Nathan
@@ -10289,7 +10294,8 @@
   conflict: Self-describes as a "Key Opinion Leader for industry beauty companies" (per her own practice bio) and most sampled TikTok videos e; no YouTube; TikTok/IG intake
   posted: '2026-10-06'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: comment-to-DM product-list funnel ('Comment BEAUTY for the FULL derm-approved skincare & beauty routine'); creator is product_recs restricted
 - id: '7693281219399716109'
   title: 'Treat the cycle not the pimple  #acnemarks #acneproneskin #skincareex...'
   creator: Ella (@your.estie.ella)
