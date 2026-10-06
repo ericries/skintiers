@@ -38,7 +38,7 @@ The better-evidenced work for [[dry-skin|dry]], sensitive, and barrier-impaired 
 
 ## A bar-format option
 
-[[dove-sensitive-skin-beauty-bar|Dove Sensitive Skin Beauty Bar]] is the one bar here and the most caveated pick. Its lead surfactant, sodium lauroyl isethionate, is a mild lower-pH syndet, but the formula also carries true soap salts (sodium oleate, stearate, and laurate) and [[cocamidopropyl-betaine|cocamidopropyl betaine]], a foam-booster that is a recognized cleanser allergen in a sensitized minority, so it is a syndet-soap hybrid rather than a pure gentle wash. No trial isolates it, so its grade rests on that surfactant chemistry. At about $1.62 a bar it is the cheapest option here, and a reasonable fragrance-free choice for face, body, and hands if a bar format is preferred, with the allergen caveat for reactive skin.
+[[dove-sensitive-skin-beauty-bar|Dove Sensitive Skin Beauty Bar]] is the one bar here and the most caveated pick. Its lead surfactant, [[sodium-lauroyl-isethionate|sodium lauroyl isethionate]], is a mild lower-pH syndet (a different molecule from the sodium cocoyl isethionate in Cetaphil, despite the near-identical name), but the formula also carries true soap salts (sodium oleate, stearate, and laurate) and [[cocamidopropyl-betaine|cocamidopropyl betaine]], a foam-booster that is a recognized cleanser allergen in a sensitized minority, so it is a syndet-soap hybrid rather than a pure gentle wash. No trial isolates it, so its grade rests on that surfactant chemistry. At about $1.62 a bar it is the cheapest option here, and a reasonable fragrance-free choice for face, body, and hands if a bar format is preferred, with the allergen caveat for reactive skin.
 
 ## See Also
 
@@ -49,6 +49,7 @@ The better-evidenced work for [[dry-skin|dry]], sensitive, and barrier-impaired 
 - [[moisturizing]]
 - [[ceramides]]
 - [[sodium-cocoyl-isethionate]]
+- [[sodium-lauroyl-isethionate]]
 - [[niacinamide]]
 - [[oily-skin]]
 - [[rosacea]]
