@@ -7736,3 +7736,8 @@ sodium-cocoyl-isethionate:
   score: 8
   verdict: publish
   note: 'Main-loop self-verify (no critic; standing no-subagent instruction). 17 quotes machine-checked verbatim against freshly fetched PMID 17598025 + 10385334 abstracts; the one elided quote had both halves confirmed present. Corrected my own overcount (''all four rankings'' -> ''both stated rank orders'') and removed a dead [[sodium-lauryl-sulfate]] link. tier: mid, matching the rubric: no skin benefit of its own, but real human comparative irritancy data plus a mechanistic study, which places it above coco-betaine (weak, two case reports). Headline finding kept honest: SCI beats SLS in every model but ties with plain soap under the repeated-open test the authors call most realistic, and was not the mildest detergent tested.'
+perez-bootello-2025-medipso-mediterranean-diet-psoriasis-rct:
+  last_reviewed: '2026-10-06'
+  score: 8
+  verdict: publish
+  note: 'Main-loop self-verify (no critic; standing no-subagent instruction). All 15 quotes machine-checked verbatim against the freshly fetched PMID 40991259 abstract, 0 unverified after replacing one elided quote with the full sentence. Key limitation foregrounded rather than buried: the arms differ by more than diet, since the intervention got dietitian supervision, materials and free weekly olive oil while controls got unsupervised advice, so the trial cannot separate the diet from the support and provided food. Author pharmaceutical disclosures noted.'

@@ -130,3 +130,10 @@
   status: done
   discovered_from: null
   source: null
+- name: 'Diet and skin: what the controlled evidence actually supports'
+  type: goal
+  priority: 5
+  status: pending
+  discovered_from: perez-bootello-2025-medipso-mediterranean-diet-psoriasis-rct
+  source: MEDIPSO RCT PMID 40991259 is the site's first diet-intervention trial; no
+    diet hub exists to host it
