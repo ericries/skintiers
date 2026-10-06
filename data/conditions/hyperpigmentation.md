@@ -510,6 +510,16 @@ videos:
   related: [azelaic-acid, niacinamide, hydroquinone, arbutin, kojic-acid, melasma, sensitive-skin]
   thesis: 'Board-certified dermatologist Dr. Sam Bunting explains why treating hyperpigmentation on sensitive or darker skin so often backfires: pigment cells (melanocytes) respond to inflammation as a threat, so an irritating treatment can drive the very pigment it is meant to clear, especially in deeper skin tones where the response is stronger and longer-lasting. Her approach is to favor actives that both suppress pigment and calm rather than provoke inflammation, singling out azelaic acid (which inhibits the tyrosinase enzyme, targets overactive melanocytes, and speeds turnover of already-pigmented cells) and niacinamide (which interferes with the transfer of melanin parcels while supporting the skin barrier). She adds that gentler alternatives to harsh options, such as arbutin in place of hydroquinone or kojic dipalmitate in place of kojic acid, can treat pigmentation with less of the irritation that stalls progress.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: How to Treat Body Hyperpigmentation
+  creator: Dr. Alexis Stephens
+  creator_slug: alexis-stephens
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=kHICge42a2E
+  posted: '2021-12-19'
+  related: [melasma, retinol, post-inflammatory-erythema, body-acne]
+  thesis: Board-certified dermatologist Dr. Alexis Stephens explains why hyperpigmentation on the body is harder to shift than the same problem on the face, and why face products often underperform there. Her reasoning is that body skin is thicker and its cells turn over more slowly, so she argues it generally needs higher percentages of actives at a lower pH to penetrate, introduced gradually to avoid the irritation that itself drives more pigment. She groups the approach into three categories, pigment inhibitors, exfoliants and cell regulators such as retinol, and recommends gentler polyhydroxy acids on thin or intimate areas. She also flags that darkening in body folds, such as the back of the neck or underarms, can reflect insulin resistance, thyroid disease or other medical causes, and advises seeing a doctor about those rather than treating them cosmetically.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

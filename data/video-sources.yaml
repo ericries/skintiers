@@ -250,7 +250,7 @@
   last_pulled: '2026-08-30'
 - name: Dr. Alexis Stephens
   creator_slug: alexis-stephens
-  backfill_cursor: 30
+  backfill_cursor: 45
   credential: Board-certified dermatologist
   tier: HIGH
   channel: https://www.youtube.com/@DrAlexisStephens
