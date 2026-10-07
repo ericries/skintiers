@@ -11,13 +11,13 @@ tier_list:
   - some-by-mi-yuja-niacin-serum
   - the-ordinary-niacinamide-10-zinc-1
   - good-molecules-niacinamide-serum
+  - anua-peach-70-niacinamide-serum
   - youth-to-the-people-retinal-niacinamide-serum
   - anua-nano-retinol-0-3-niacin-renewing-serum
   title: Niacinamide products by evidence
 type: list
-updated: '2026-08-07'
+updated: '2026-10-07'
 ---
-
 This list ranks five niacinamide serums by how well their disclosed concentration and formula line up with the evidence for the ingredient itself. Topical niacinamide has modest evidence, most of it from small or manufacturer-run trials at 2% to 5%, for supporting the [[skin-barrier-repair|skin barrier]], evening facial [[hyperpigmentation]], and mild inflammatory [[acne]], the case set out on [[niacinamide]].
 
 Every serum below carries niacinamide as its headline or co-headline active. Three use it plain at 10%, twice the top of that tested range; two pair it with a retinoid, where part of the case for using the product rests on the retinoid rather than the niacinamide. Health-oriented uses (barrier, pigment, acne) are weighed ahead of cosmetic pore- and glow-positioning, and a combination product's case for its retinoid is kept separate from its case for niacinamide.
@@ -31,6 +31,10 @@ Every serum below carries niacinamide as its headline or co-headline active. Thr
 ## Plain, low-cost 10% niacinamide serums
 
 [[the-ordinary-niacinamide-10-zinc-1|The Ordinary Niacinamide 10% + Zinc 1%]] and [[good-molecules-niacinamide-serum|Good Molecules Niacinamide Serum]] carry an identical set of grades: modest effect on preliminary-to-mixed evidence for barrier support, hyperpigmentation, and mild acne, and a minimal-effect, preliminary cosmetic grade for their own pore- and oil-control marketing. Both are fragrance-free, water-based 10% niacinamide serums priced at about $6 for 30 ml, above the 2% to 5% concentration actually used in the trials behind that evidence, a gap the cosmetic chemists at Chemist Confessions tie in part to this exact Ordinary product's popularity. The Ordinary adds 1% zinc PCA for oil control, an addition with no established independent contribution; Good Molecules omits it, using a shorter nine-ingredient list instead. Neither formula is shown to outperform the other.
+
+## A niacinamide serum whose headline number is not the niacinamide
+
+[[anua-peach-70-niacinamide-serum|Anua Peach 70% Niacinamide Serum]] declares niacinamide third of 44 ingredients, which supports a real amount, but the brand publishes no niacinamide percentage at all: the 70% belongs to the peach fruit extract leading the list, and the bottle itself reads "PEACH 70 + NIACIN". That makes it the one product here whose dose cannot be checked against the 2% to 5% actually tested on [[niacinamide]], so it is listed below the serums that disclose a figure rather than ranked against them. About $22 for 30 ml, with fragrance declared last.
 
 ## Niacinamide paired with a retinoid
 

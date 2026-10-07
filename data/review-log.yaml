@@ -796,26 +796,10 @@ best-moisturizing-ingredients-ranked:
   score: 9
   verdict: self-reviewed
 best-niacinamide-products:
-  last_reviewed: '2026-08-07'
-  note: 'The Best Niacinamide Products (best-of LIST; curatorial, references only already-published pages). Daily LIST
-
-    cron: single Sonnet draft + own lint/verify/style (no Opus critic — curatorial, references verified pages,
-
-    low new-claim risk). Ranks the site''s 5 dedicated niacinamide serums evidence-first (health uses over
-
-    cosmetic): Some By Mi Yuja Niacin (10% + trial-backed oil-reduction case via [[niacinamide-sebum-studies]])
-
-    > The Ordinary 10%+Zinc = Good Molecules 10% (tied, plain ~$6, dose above tested range) > YTTP Retinal+
-
-    Niacinamide (5%, within tested range but case leans on undisclosed retinal) > Anua Nano Retinol+Niacin
-
-    (undisclosed niacinamide %, paired with weaker-evidenced retinol). No new claims; niacinamide evidence routed
-
-    to [[niacinamide]]. assurance=sonnet. lint+verify+style clean.
-
-    '
-  score: 9
-  verdict: self-reviewed
+  last_reviewed: '2026-10-07'
+  score: 8
+  verdict: publish
+  note: 'Main-loop self-verify. site_health maintenance: added the Anua Peach 70% serum shipped this morning. This list uses the FLAT-SLUG tier_list schema with no per-item notes, so the explanation had to go in the prose, which is where this list carries all its content; one tight section added, no other section touched. Placed BELOW the serums that disclose a concentration rather than ranked against them, because its niacinamide percentage is undisclosed and so cannot be checked against the 2-5% actually tested. The ''PEACH 70 + NIACIN'' label quote was verified from the product photograph on its own page, not re-derived here.'
 best-peptide-serums:
   last_reviewed: '2026-08-26'
   note: 'LIST cron (curate). Cross-fed "Best peptide serums by evidence" was a DUP of the existing best-peptide-serums list -> resolved as dup, curated the existing list instead. Added 5 recently-published peptide SERUMS to the tier_list + concise prose, ranked by evidence: Paula Choice Multi-Peptide Booster (most peptide-dense, top), Naturium Multi-Peptide, Allies of Skin (broad blends); NIOD Copper Amino Isolate (copper section); The Ordinary Argireline (new single-peptide section, bottom - weakest evidence). Moisturizers/creams (PC plumping moisturizer, Naturium moisturizer, Skinfix, NIOD HA) excluded - list is SERUMS. Fixed "three serums" intro references. All facts from the already-verified product/ingredient pages linked out. Sonnet-quality curate; my own lint/verify/style all clean.'
