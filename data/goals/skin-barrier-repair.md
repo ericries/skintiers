@@ -334,6 +334,16 @@ videos:
   related: [sensitive-skin, best-gentle-cleansers-sensitive-skin, double-cleansing]
   thesis: 'Dermatologist Fatima Fahs explains that in the days after an in-office procedure such as microneedling, a chemical peel, or a resurfacing laser, the cleanser you reach for matters: she recommends a gentle, non-irritating, non-stripping cleanser rather than a stripping one, which on freshly resurfaced skin she calls a recipe for disaster. The clip is about cleanser choice as post-procedure aftercare, and does not name a specific product.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Damaged Skin Barrier? Here's How to Repair It Fast
+  creator: Dr. Jenny Liu
+  creator_slug: jenny-liu
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=mwMzmJiv-Fs
+  posted: '2026-01-15'
+  related: [ceramides, sensitive-skin, moisturizing, hyperpigmentation]
+  thesis: Board-certified dermatologist Dr. Jenny Liu explains what the skin barrier actually is and why repairing it comes before anything else. She describes the stratum corneum as brick and mortar, where the bricks are flattened keratinocytes and the mortar is the lipid layer of ceramides, triglycerides and fatty acids, which is why barrier products lean on lipids rather than on actives. She also makes a point about hydration that is easy to miss, that the enzymes which handle natural exfoliation only work at a certain moisture level, so very dry skin stops shedding properly and looks flaky and dull as a result. Her argument for prioritising the barrier is that inflammation from irritated skin drives pigmentation, worsens acne and ages skin faster, so dark spots and fine lines cannot be treated effectively while the barrier is compromised. Causes she separates into internal ones such as genetics and hormones, and external ones such as weather and over-treatment.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
