@@ -301,3 +301,10 @@
   discovered_from: phytophotodermatitis
   source: Named in Life 2024 PMID 39202761 as a leading phototoxic plant; a public-health-relevant
     sub-case with no page
+- name: 'Skin cancer basics: what a dermatologist checks for'
+  type: condition
+  priority: 5
+  status: pending
+  discovered_from: fluorouracil-topical
+  source: This drug is approved for superficial basal cell carcinoma and the site
+    has no skin-cancer hub; actinic-keratosis exists but BCC has nowhere to live

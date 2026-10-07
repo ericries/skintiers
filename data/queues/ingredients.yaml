@@ -1523,7 +1523,7 @@
     treatment for actinic keratosis / superficial nonmelanoma skin cancer (NCI PDQ)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://www.cancer.gov/types/skin/patient/skin-treatment-pdq
 - name: Delgocitinib (Anzupgo, topical pan-JAK inhibitor cream), FDA-approved July
@@ -1957,3 +1957,10 @@
   discovered_from: la-roche-posay-effaclar-duo-acne-treatment-bpo-lha
   source: The actual INCI name of La Roche-Posay's LHA, declared here; distinct from
     salicylic acid and from the already-queued generic 'lipohydroxy acid' entry
+- name: Imiquimod (Aldara, Zyclara)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: fluorouracil-topical
+  source: The other prescription topical field treatment for actinic keratosis, named
+    twice on the actinic-keratosis page with no page of its own

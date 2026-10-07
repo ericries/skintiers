@@ -7776,3 +7776,8 @@ la-roche-posay-effaclar-duo-acne-treatment-bpo-lha:
   score: 8
   verdict: publish
   note: 'Main-loop self-verify (no Opus critic; standing no-subagent instruction). 13 quotes verbatim-verified against the DailyMed SPL, 0 unverified. The verbatim checker caught me quoting ''dual action'' as the product''s marketing when the SPL contains no such phrase and the brand page 403s; removed that attribution entirely rather than source it from a search snippet. DISCONTINUATION CLAIM NOT ASSERTED: I queued this item flagged ''reportedly discontinued'', but DailyMed shows a live SPL with a 2012 start, NO marketing end date, and a Dec 2023 update, so the page reports availability as unresolved and explains both sides. Marked image_unresolvable rather than attach an incidecoder photo I could not confirm was this SKU and not the neighbouring spot treatment.'
+fluorouracil-topical:
+  last_reviewed: '2026-10-07'
+  score: 8
+  verdict: publish
+  note: 'Main-loop self-verify (no Opus critic; standing no-subagent instruction). 26 quotes verbatim-verified against the DailyMed SPL, 0 unverified after fixing a capitalised quote and de-quoting the SPL title (which comes from the API index, not the HTML page, same issue as Effaclar BPO). tier: good, matching the rubric: FDA-approved via ANDA for actinic keratosis, which is a far higher bar than anything cosmetic here, but the page cites the LABEL rather than the trial literature and says so, so it is not graded best. Led with the counterintuitive safety point that the alarming inflammatory reaction IS the treatment working, since stopping early is the common failure. Pregnancy contraindication and DPD deficiency given their own section.'
