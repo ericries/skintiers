@@ -1928,3 +1928,10 @@
   discovered_from: la-roche-posay-effaclar-bpo
   source: La Roche-Posay's signature exfoliant across the Effaclar line and a salicylic
     acid derivative; no page here
+- name: Ciclosporin (cyclosporine) for atopic dermatitis
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: warren-2025-advantage-lebrikizumab-ciclosporin-refractory-atopic-dermatitis-rct
+  source: The comparator this trial's population had already failed; a long-standing
+    systemic for severe AD with real toxicity limits. No page here
