@@ -1921,3 +1921,10 @@
   source: The first-line hair-loss treatment named in this Tomassian clip and discussed
     12 times on hair-loss-thinning, but it has NO page of its own; the hub cannot
     link it
+- name: Lipohydroxy acid (LHA)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: la-roche-posay-effaclar-bpo
+  source: La Roche-Posay's signature exfoliant across the Effaclar line and a salicylic
+    acid derivative; no page here

@@ -2812,8 +2812,17 @@
 - name: La Roche-Posay Effaclar Duo+ BPO
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: abigail-waldman
   source: Named in the roster conflict note as a disclosed sponsorship subject in
     her videos; benzoyl peroxide product, site has benzoyl-peroxide and best-benzoyl-peroxide-products
     but not this SKU
+- name: La Roche-Posay Effaclar Duo Dual Action Acne Treatment (benzoyl peroxide +
+    LHA)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: la-roche-posay-effaclar-bpo
+  source: The OLDER BPO+lipohydroxy-acid spot treatment, distinct from both Effaclar
+    BPO and the salicylic Duo+M; official site reportedly lists it discontinued, so
+    verify status before drafting
