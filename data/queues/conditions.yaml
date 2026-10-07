@@ -287,7 +287,7 @@
 - name: Hair loss (androgenetic alopecia) treatments by evidence
   type: condition
   priority: 5
-  status: pending
+  status: done
   discovered_from: best-gentle-cleansers-sensitive-skin
   source: 'SCOPE QUESTION for the user: the site has ZERO hair-loss coverage (no hair-loss,
     alopecia, minoxidil or finasteride page), yet it already covers scalp conditions

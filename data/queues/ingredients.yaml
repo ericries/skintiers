@@ -1885,3 +1885,10 @@
   discovered_from: phytophotodermatitis
   source: The causative compound class in phytophotodermatitis (Life 2024 PMID 39202761);
     also used therapeutically in PUVA. No page here
+- name: Oral collagen supplements
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: diet-and-skin
+  source: The biggest ingestible-skincare category by sales with its own RCT literature;
+    this hub covers ingestibles but has no collagen page to link

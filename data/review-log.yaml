@@ -7757,3 +7757,8 @@ phytophotodermatitis:
   score: 8
   verdict: publish
   note: 'Main-loop self-verify (no critic; standing no-subagent instruction). All 28 quotes machine-checked verbatim against freshly fetched PMID 39202761 + 38400817, 0 unverified. Removed one unsourced timing claim (''appears a day or two after exposure'') that neither cited paper supports, and de-quoted a nickname that was my own phrasing. DELIBERATELY published NO treatment tier_list: the Life 2024 review says only ''topical and systemic therapies'' with no graded regimen in the record, so a ranking would have been invented. The child-protection finding is presented in BOTH directions, including the three cases where a dermatitis label masked real abuse, so the page cannot be read as a reason to dismiss a safeguarding concern.'
+diet-and-skin:
+  last_reviewed: '2026-10-06'
+  score: 8
+  verdict: publish
+  note: 'Main-loop self-verify (no critic; standing no-subagent instruction). Only 3 direct quotes, all from MEDIPSO and all verbatim-verified against the fetched abstract. The other three studies are characterised and LINKED rather than re-quoted, since their verified records already live on this site, and each footnote says so explicitly. Published NO tier_list and said why: the site grades ingredients and products, not diets, so ranking dietary interventions would be invented. Key editorial call: the Mediterranean-diet RCT and the weight-loss meta-analysis are presented as NOT independent lines of evidence, since weight change plausibly drives both, with the meta-analysis flagged as the more conservative estimate.'
