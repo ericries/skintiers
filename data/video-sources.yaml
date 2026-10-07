@@ -9,7 +9,7 @@
   last_pulled: '2026-09-28'
 - name: Dr. Sam Ellis
   creator_slug: samantha-ellis
-  backfill_cursor: 45
+  backfill_cursor: 60
   credential: Board-certified dermatologist
   tier: HIGH
   channel: https://www.youtube.com/@drsamellis/videos

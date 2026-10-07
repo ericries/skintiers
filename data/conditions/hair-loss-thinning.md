@@ -101,6 +101,16 @@ videos:
   related: [sunscreen-uv-filters, retinoids, tretinoin, acne, hyperpigmentation]
   thesis: 'Board-certified dermatologist Dr. Chris Tomassian answers four common questions in the register of a friend rather than a clinician. On hair loss his advice is sequenced: if you are shedding, see your regular doctor for basic blood work first to rule out an underlying cause, and only once that comes back normal start minoxidil. He is similarly direct on the other three, saying cysts should never be popped because they will scar and whiteheads should be left alone, that daily sunscreen is not optional if you are treating dark spots or ageing, and that prescription tretinoin is his first choice among retinoids with over-the-counter retinol as the fallback. No product brands are named anywhere in the clip.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Minoxidil Hacks for Faster, Long Lasting Results
+  creator: Dr. Sam Ellis
+  creator_slug: samantha-ellis
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=vpK-ptQ5n0Y
+  posted: '2025-09-19'
+  related: [frontal-fibrosing-alopecia, tinea-capitis]
+  thesis: 'Board-certified dermatologist Dr. Sam Ellis, who says she specialises in hair loss within dermatology, walks through how to get better results from minoxidil, which she describes as the only FDA-approved topical treatment for male and female pattern hair loss and available over the counter as a foam or liquid. Her main practical point is about strength: drugstores stock both 5% and 2%, the 2% has classically been the version approved for women, but she argues 5% works better and is safe in both men and women, so buying the 2% means paying more for less. She explains the 2% exists because raising the strength carries a small risk of unwanted facial hair growth, while noting that this can happen at 2% as well. She also says packaging on some 5% products reads as not for women, and that in her clinical view it is fine for women. She opens by flagging that not all hair loss is pattern hair loss and that anyone unsure should be assessed by a physician who specialises in it.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
