@@ -624,6 +624,17 @@ videos:
     and sunscreen and giving it time to work.
   title: Consistency really is that important
   url: https://www.tiktok.com/@your.estie.ella/video/7691869902717586701
+- title: Treat the cycle not the pimple
+  creator: Ella (@your.estie.ella)
+  creator_slug: your-estie-ella
+  credential: Licensed esthetician (not a dermatologist or cosmetic chemist)
+  platform: TikTok
+  url: https://www.tiktok.com/@your.estie.ella/video/7693281219399716109
+  posted: '2026-10-05'
+  related: [azelaic-acid, retinoids, acne-scars, hyperpigmentation, skin-barrier-repair]
+  thesis: 'Licensed esthetician Ella argues that acne is a skin-regulation problem rather than a dirtiness problem, and that treating only the spots you can see never interrupts the process producing them. Her central point is timing: comedones take weeks to form, so a breakout that appears overnight was already developing and merely became visible when something irritated the skin, which is why reaching for exfoliants at the first sight of a spot treats the symptom and not the cycle. She recommends a dull consistent routine built on the two actives she considers genuinely regulating, azelaic acid in the morning and a retinoid on as many nights as the skin tolerates, and she adds that in her view acne is manageable rather than curable. She also says every evening routine should include hydration and barrier support, describing that as her own philosophy rather than a rule. No products or brands are named in the clip.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 Acne is the most common skin condition dermatologists treat: dead skin cells and oil clog a pore, bacteria (*Cutibacterium acnes*) multiply inside it, and the follicle becomes inflamed. Graded skeptically against controlled evidence for **topical skincare** (creams and gels applied to the skin, as opposed to pills), the best-studied over-the-counter and prescription topicals produce **modest** lesion reductions, the gap between the "best" and "second-best" topical is often smaller than the marketing implies, and the single largest evidence base for these treatments is rated moderate to very low certainty.[^1][^2]
 

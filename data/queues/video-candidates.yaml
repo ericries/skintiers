@@ -8619,7 +8619,8 @@
   conflict: Founder & CEO of own hair-care brand, BLCK Hair Care (@blckhaircare), promoted in her Instagram bio — a product-formulation/owners
   posted: '2026-09-29'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: microneedling clip; no microneedling page on the site to attach to, and creator has an own-brand conflict with product_recs restricted
 - id: '7690787242461187342'
   title: 'The anti-aging ingredient pyramid  #rejuall #pdrncopperpeptides #copp...'
   creator: Jenn Lexi (@jennlexi_)
@@ -10228,7 +10229,8 @@
   conflict: runs an Amazon affiliate storefront and does sponsored posts - strongly prefer educational / how-to / ingredient-explainer videos; be very cautious with any product recommendation
   posted: '2026-10-05'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: Kristin Leite azelaic comparison; same affiliate-storefront rule, picks treated as effectively paid despite the strong topic match
 - id: QAIAYdDru_8
   title: 'Shoutout to ​⁠@Anua_Global ​⁠for this ENTIRE line of barrier creams! #anuapartner #sensitiveskin'
   creator: Dr. Lindsey Zubritsky (DermGuru)
@@ -10558,7 +10560,8 @@
   conflict: runs an Amazon affiliate storefront and does sponsored posts - strongly prefer educational / how-to / ingredient-explainer videos; be very cautious with any product recommendation
   posted: '2026-10-06'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: Kristin Leite picks/comparison clip; she monetizes picks via an affiliate storefront, so favorites and comparisons are treated as effectively paid (standing rule)
 - id: LcX7n2xb0s0
   title: 'Is azelaic acid worth the hype? #skincare Stitch with ya.mirr'
   creator: Dr. Neera Nathan
