@@ -2796,7 +2796,7 @@
 - name: Anua Peach 70% Niacinamide Serum
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: niacinamide
   source: Flagged as a missing exact-product record in external agent feedback (2026-10-04_11-25-14),
     written there as 'Peach 70 Niacinamide Serum'. CONFIRM the exact marketed name

@@ -1892,3 +1892,10 @@
   discovered_from: diet-and-skin
   source: The biggest ingestible-skincare category by sales with its own RCT literature;
     this hub covers ingestibles but has no collagen page to link
+- name: Betaine salicylate
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: anua-peach-70-niacinamide-serum
+  source: Salicylic acid derivative common in K-beauty (declared 26th here); no page,
+    and the salicylic-acid page does not own it

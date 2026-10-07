@@ -7762,3 +7762,8 @@ diet-and-skin:
   score: 8
   verdict: publish
   note: 'Main-loop self-verify (no critic; standing no-subagent instruction). Only 3 direct quotes, all from MEDIPSO and all verbatim-verified against the fetched abstract. The other three studies are characterised and LINKED rather than re-quoted, since their verified records already live on this site, and each footnote says so explicitly. Published NO tier_list and said why: the site grades ingredients and products, not diets, so ranking dietary interventions would be invented. Key editorial call: the Mediterranean-diet RCT and the weight-loss meta-analysis are presented as NOT independent lines of evidence, since weight change plausibly drives both, with the meta-analysis flagged as the more conservative estimate.'
+anua-peach-70-niacinamide-serum:
+  last_reviewed: '2026-10-06'
+  score: 8
+  verdict: publish
+  note: 'Main-loop self-verify (no Opus critic; standing no-subagent instruction). 11 quotes verbatim-verified against the cached brand page, 0 unverified after moving a period outside a quotation mark; the label quotes were read directly off the brand''s own product photograph, which I viewed. RESOLVED A GARBLED QUEUE NAME before drafting: incidecoder MISSed all slug variants, so identity was confirmed via search and the brand''s own store. KEY FINDING: the brand publishes 70% for the PEACH extract and NO niacinamide percentage anywhere; the bottle reads ''PEACH 70 + NIACIN'', which is clearer than the US web listing''s product name. Graded evidence mixed for the undisclosed concentration, explicitly not for doubt about niacinamide, which is declared 3rd of 44.'
