@@ -39,6 +39,19 @@ slug: remedy-15-azelaic-acid-complex-serum
 status: published
 type: product
 updated: '2026-10-07'
+videos:
+- title: 'REMEDY 15% Azelaic Acid Review: Is It Really 15%?'
+  creator: Andrea Suarez (Dr Dray)
+  creator_slug: andrea-suarez-dr-dray
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=RtnlMdbZW4k
+  posted: '2026-09-30'
+  related: [azelaic-acid, rosacea, hyperpigmentation, acne, best-azelaic-acid-products]
+  thesis: Board-certified dermatologist Dr Dray reviews REMEDY's 15% Azelaic Acid Complex serum and opens by separating the number from the ingredient, saying the label says 15% azelaic acid complex but the product is 10% azelaic acid plus 5% of a derivative called potassium azeloyl diglycinate. She states that cosmetic azelaic acid in the United States tops out around 10%, while the prescription strengths that have actually been shown to treat acne, rosacea, hyperpigmentation and melasma are 15% to 20%, so a cosmetic serum can claim to improve the look of uneven tone but should not be relied on to treat those conditions. On the derivative she points to a Journal of Dermatologic Treatment study of a 5% potassium azeloyl diglycinate cream used twice daily for 12 weeks in people with rosacea, which reported less stinging and burning but had no placebo or vehicle control, compared patients only against their own baseline, and enrolled people already treated with azelaic acid or metronidazole.
+    Her verdict is that the serum is a reasonable 10% azelaic acid product at about , that there is no head-to-head data showing the added derivative beats 10% azelaic alone, and that she personally prefers a cheaper comparable serum without it.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 REMEDY's 15% Azelaic Acid Complex Advanced Clarifying Serum is a 1 fl oz solubilised azelaic serum from REMEDY SCIENCE, the brand founded by dermatologist Dr. Muneeb Shah.[^brand] It sits alongside the other over-the-counter options on [[best-azelaic-acid-products]].
