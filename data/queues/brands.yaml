@@ -310,7 +310,7 @@
 - name: REMEDY Science
   type: brand
   priority: 5
-  status: pending
+  status: done
   discovered_from: remedy-15-azelaic-acid-complex-serum
   source: Dermatologist-founded brand (Dr. Muneeb Shah, a vetted creator here); first
     REMEDY product on the site, no brand page yet

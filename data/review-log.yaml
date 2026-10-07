@@ -7781,3 +7781,8 @@ fluorouracil-topical:
   score: 8
   verdict: publish
   note: 'Main-loop self-verify (no Opus critic; standing no-subagent instruction). 26 quotes verbatim-verified against the DailyMed SPL, 0 unverified after fixing a capitalised quote and de-quoting the SPL title (which comes from the API index, not the HTML page, same issue as Effaclar BPO). tier: good, matching the rubric: FDA-approved via ANDA for actinic keratosis, which is a far higher bar than anything cosmetic here, but the page cites the LABEL rather than the trial literature and says so, so it is not graded best. Led with the counterintuitive safety point that the alarming inflammatory reaction IS the treatment working, since stopping early is the common failure. Pregnancy contraindication and DPD deficiency given their own section.'
+remedy-science:
+  last_reviewed: '2026-10-07'
+  score: 8
+  verdict: publish
+  note: 'Main-loop self-verify (brand pages take no critic). 125 words, inside the 180 scope. All 7 quotes verbatim-verified against the already-cached brand page, no new fetch needed. Founder is stated because the brand''s OWN page title names him, and every positioning phrase is attributed as the brand''s claim rather than repeated as fact. Flagged the own-brand relationship explicitly: the founder is a vetted creator on this site, so his recommendations of these products are own-brand, and the card links his person page.'

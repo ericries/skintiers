@@ -2826,3 +2826,17 @@
   source: The OLDER BPO+lipohydroxy-acid spot treatment, distinct from both Effaclar
     BPO and the salicylic Duo+M; official site reportedly lists it discontinued, so
     verify status before drafting
+- name: REMEDY Copper Peptide Firming Serum (GHK-Cu)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: remedy-science
+  source: Listed on the REMEDY store product index (handle copper-peptide-firming-serum-ghkcu);
+    the site has a copper-peptides page but no REMEDY product for it
+- name: REMEDY Dark Circle Reducing Advanced Eye Cream
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: remedy-science
+  source: Listed on the REMEDY store product index (handle dark-circle-reducing-advanced-eye-cream);
+    the site has a dark-circles goal hub
