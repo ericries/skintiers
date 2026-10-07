@@ -1899,3 +1899,17 @@
   discovered_from: anua-peach-70-niacinamide-serum
   source: Salicylic acid derivative common in K-beauty (declared 26th here); no page,
     and the salicylic-acid page does not own it
+- name: Potassium Azeloyl Diglycinate
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: remedy-15-azelaic-acid-complex-serum
+  source: Water-soluble azelaic acid derivative, 5% here and increasingly used as
+    an azelaic substitute; no page, and the azelaic-acid page does not own it
+- name: Ethoxydiglycol
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: remedy-15-azelaic-acid-complex-serum
+  source: Solvent declared 3rd here; the reason poorly-soluble azelaic acid can be
+    formulated clear rather than gritty. No page
