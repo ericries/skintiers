@@ -1935,3 +1935,18 @@
   discovered_from: warren-2025-advantage-lebrikizumab-ciclosporin-refractory-atopic-dermatitis-rct
   source: The comparator this trial's population had already failed; a long-standing
     systemic for severe AD with real toxicity limits. No page here
+- name: DMDM hydantoin (formaldehyde-donor preservative)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: jen-novakovich
+  source: Subject of a Jen Novakovich video already carded on preservatives; a high-scare,
+    low-coverage ingredient the site discusses but has no page for
+- name: Phenoxyethanol
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: jen-novakovich
+  source: The most widely used cosmetic preservative, declared on many products already
+    profiled here (incl. REMEDY azelaic, Anua peach); the preservatives hub cannot
+    link it
