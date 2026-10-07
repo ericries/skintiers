@@ -10121,7 +10121,8 @@
   conflict: Bio includes a business/booking contact email suggesting managed brand partnerships; no confirmed own-brand line or affiliate stor
   posted: '2026-10-06'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: '15s clip, below the ~25s floor, AND no English transcript. NB: yesterday''s resolve reason (''no hair-loss page'') was WRONG, hair-loss-thinning exists; this is the correct reason'
 - id: RwW5EB7xuUo
   title: Setting Expectations with Topical Minoxidil for Hair Loss
   creator: Dr. Daniel Sugai
@@ -10346,7 +10347,8 @@
   conflict: Founder/owner of active postpartum skincare brand "More Than Nine" (cleanser, exfoliator, moisturizer, balm) — an ongoing own-bran
   posted: '2026-10-06'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: promotes the creator's OWN brand (More Than Nine) by name; own-brand promo
 - id: ApVEFhbI0rw
   title: Perimenopause + Tretinoin? Protect Your Skin Barrier
   creator: Dr. Aleksandra Brown, DO, FAAD
@@ -10437,7 +10439,8 @@
   conflict: Bio includes a business/booking contact email suggesting managed brand partnerships; no confirmed own-brand line or affiliate stor
   posted: '2026-10-07'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 17s clip, below the ~25s floor for a grounded thesis
 - id: '7693655867094338829'
   title: 'We still got some great ones in my opinion 🙌🙌 #skincare #suncare #sun...'
   creator: Dr. Chris Tomassian
@@ -10502,7 +10505,8 @@
   conflict: null
   posted: '2026-10-06'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: vague non-educational caption, no single topic
 - id: '7693189383083543821'
   title: Let’s stop chasing viral skin care products, and over complicating it...
   creator: Jenn Lexi (@jennlexi_)
@@ -10580,7 +10584,8 @@
   conflict: Self-describes as a "Key Opinion Leader for industry beauty companies" (per her own practice bio) and most sampled TikTok videos e; no YouTube; TikTok/IG intake
   posted: '2026-10-07'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: comment-to-DM newsletter funnel caption; creator is product_recs restricted
 - id: '7693731862346206477'
   title: Barrier focused morning skincare  @KraveBeauty @anua_global @Remedy S...
   creator: Ella (@your.estie.ella)
@@ -10593,7 +10598,8 @@
   conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan and reject any sponsored/affiliate/gifted video
   posted: '2026-10-07'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: routine clip tagging three brands in the caption (@KraveBeauty @anua_global @R...), treated as effectively promotional
 - id: '7693645483234888974'
   title: Would love to see a full mask/sheet mask @olive young section in @Sep...
   creator: Ella (@your.estie.ella)

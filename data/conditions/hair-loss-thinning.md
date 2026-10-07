@@ -91,6 +91,16 @@ videos:
   related: []
   thesis: Board-certified dermatologist Dr. Usama Syed explains low-dose oral minoxidil, a tablet form of the decades-old topical hair loss drug, repurposed off-label at much lower doses than its original blood-pressure use. He argues it outperforms topical minoxidil because it delivers more active drug to the hair follicle via the bloodstream, cites early clinical data mainly in male and female pattern hair loss, and details common side effects (excess body hair growth in about one in five patients, mild heart rate increase, and leg swelling/water weight in a subset). He stresses it is not FDA-approved for hair loss, is prescription-only, and states he has no financial stake in any oral minoxidil company or virtual-visit service.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Answering your questions as your dermatologist friend
+  creator: Dr. Chris Tomassian
+  creator_slug: chris-tomassian
+  credential: Board-certified dermatologist
+  platform: TikTok
+  url: https://www.tiktok.com/@dr.tomassian/video/7690325408301993230
+  posted: '2026-09-27'
+  related: [sunscreen-uv-filters, retinoids, tretinoin, acne, hyperpigmentation]
+  thesis: 'Board-certified dermatologist Dr. Chris Tomassian answers four common questions in the register of a friend rather than a clinician. On hair loss his advice is sequenced: if you are shedding, see your regular doctor for basic blood work first to rule out an underlying cause, and only once that comes back normal start minoxidil. He is similarly direct on the other three, saying cysts should never be popped because they will scar and whiteheads should be left alone, that daily sunscreen is not optional if you are treating dark spots or ageing, and that prescription tretinoin is his first choice among retinoids with over-the-counter retinol as the fallback. No product brands are named anywhere in the clip.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

@@ -1913,3 +1913,11 @@
   discovered_from: remedy-15-azelaic-acid-complex-serum
   source: Solvent declared 3rd here; the reason poorly-soluble azelaic acid can be
     formulated clear rather than gritty. No page
+- name: Minoxidil (topical)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: hair-loss-thinning
+  source: The first-line hair-loss treatment named in this Tomassian clip and discussed
+    12 times on hair-loss-thinning, but it has NO page of its own; the hub cannot
+    link it
