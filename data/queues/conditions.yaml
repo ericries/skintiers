@@ -297,7 +297,7 @@
 - name: Giant hogweed (Heracleum mantegazzianum) skin burns
   type: condition
   priority: 5
-  status: pending
+  status: done
   discovered_from: phytophotodermatitis
   source: Named in Life 2024 PMID 39202761 as a leading phototoxic plant; a public-health-relevant
     sub-case with no page
@@ -316,3 +316,11 @@
   source: 'A Dr. Ife Rodney TikTok on microneedling had nowhere to attach; the site
     covers acne-scars and skin-firmness-elasticity but has no microneedling page.
     SCOPE NOTE: this is a procedure, which the site has historically deferred'
+- name: Wild parsnip (Pastinaca sativa) burns
+  type: condition
+  priority: 5
+  status: pending
+  discovered_from: giant-hogweed-burns
+  source: Named alongside hogweed in Life 2024 PMID 39202761 as a leading phototoxic
+    plant; common in North American roadsides. Check for duplication against phytophotodermatitis
+    before drafting, as hogweed was checked

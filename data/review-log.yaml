@@ -7786,3 +7786,8 @@ remedy-science:
   score: 8
   verdict: publish
   note: 'Main-loop self-verify (brand pages take no critic). 125 words, inside the 180 scope. All 7 quotes verbatim-verified against the already-cached brand page, no new fetch needed. Founder is stated because the brand''s OWN page title names him, and every positioning phrase is attributed as the brand''s claim rather than repeated as fact. Flagged the own-brand relationship explicitly: the founder is a vetted creator on this site, so his recommendations of these products are own-brand, and the card links his person page.'
+giant-hogweed-burns:
+  last_reviewed: '2026-10-07'
+  score: 8
+  verdict: publish
+  note: 'Main-loop self-verify (no critic; standing no-subagent instruction). 23 quotes verbatim-verified against freshly fetched PMID 35100530 + 26489718, 0 unverified. DUPLICATION CHECK FIRST: I queued this myself from phytophotodermatitis, so before drafting I checked whether it was a near-duplicate. It is not: hogweed has its own literature with genuinely distinct content (full-thickness burns and necrosis vs lime burn''s pigment marks, plus occupational exposure data from 1563 forestry workers), which is what justified a separate page. The 18-to-24-hour onset is flagged on BOTH pages as coming from a single case report, not a population estimate.'

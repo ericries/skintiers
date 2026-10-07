@@ -1,6 +1,4 @@
 ---
-analyzed: '2026-10-06'
-assurance: sonnet
 aliases:
 - Phytophotodermatitis
 - margarita burn
@@ -9,26 +7,27 @@ aliases:
 - lime disease
 - strimmer rash
 - berloque dermatitis
+analyzed: '2026-10-06'
+assurance: sonnet
 name: Phytophotodermatitis (margarita burn)
 slug: phytophotodermatitis
 status: published
 type: condition
-updated: '2026-10-06'
+updated: '2026-10-07'
 ---
-
 Phytophotodermatitis is the burn-like rash you get when certain plant juices land on skin that then sees sunlight. It is "a non-immunologic skin reaction triggered by certain plants followed by exposure to ultraviolet radiation emitted by sunlight".[^life] The nickname margarita burn comes from its most common modern cause: squeezing limes outdoors.
 
 > **The one thing to understand: this is not an allergy.** It is a phototoxic chemical reaction, so it does not require a sensitised immune system and can happen to anyone given enough plant juice and enough sun. That also means avoiding it is purely mechanical, which is wash it off and cover up, rather than anything a product can do. The rash itself fades; the **brown marks it leaves behind are the part that lasts months**, and those are treated as [[hyperpigmentation]], not as an ongoing burn.
 
 ## How to know you have this
 
-The shape is the strongest clue. Because the reaction only happens where plant juice actually touched skin and then met sunlight, the rash reproduces the splash, the drip, the streak or the handprint, with sharp irregular borders rather than the diffuse, symmetrical spread of eczema. Redness and burning come first, sometimes with fluid blisters and swelling, and brown marks follow as the inflammation settles.[^life] A dermatologist confirms it from that history and appearance; the 2024 review notes "patch testing, Wood's lamp examination, or skin biopsy" among the approaches used in diagnosis, though patch testing is for excluding an allergic cause rather than proving this one.[^life]
+The shape is the strongest clue. Because the reaction only happens where plant juice actually touched skin and then met sunlight, the rash reproduces the splash, the drip, the streak or the handprint, with sharp irregular borders rather than the diffuse, symmetrical spread of eczema. Redness and burning come first, sometimes with fluid blisters and swelling, and brown marks follow as the inflammation settles.[^life] The reaction is also delayed rather than immediate: in a reported case of the most severe form, giant hogweed, a blistering rash developed 18 to 24 hours after the exposure, which is why people often fail to connect it to what they did the day before.[^hogweed] A dermatologist confirms it from that history and appearance; the 2024 review notes "patch testing, Wood's lamp examination, or skin biopsy" among the approaches used in diagnosis, though patch testing is for excluding an allergic cause rather than proving this one.[^life]
 
 ## What Causes It
 
 The culprits are furanocoumarins (psoralens), plant compounds that become reactive under UV light. The mechanism is "the interaction between plant-derived photosensitizing compounds (e.g., furanocoumarins and psoralens) and ultraviolet light leading to skin damage (e.g., erythema, fluid blisters, edema, and hyperpigmentation)".[^life]
 
-A 2024 review names the plant families worth recognising as "Apiaceae, Rutaceae, and Moraceae", and the specific offenders as "Heracleum mantegazzianum, Ruta graveolens, Ficus carica, and Pastinaca sativa", that is giant hogweed, rue, fig and wild parsnip, adding that "limes containing furocoumarin have been linked to lime-induced photodermatitis".[^life] In practice that covers bartending and cooking with citrus, gardening and strimming near hogweed or parsnip, and handling figs or rue.
+A 2024 review names the plant families worth recognising as "Apiaceae, Rutaceae, and Moraceae", and the specific offenders as "Heracleum mantegazzianum, Ruta graveolens, Ficus carica, and Pastinaca sativa", that is giant hogweed (the most severe of them, covered on [[giant-hogweed-burns]]), rue, fig and wild parsnip, adding that "limes containing furocoumarin have been linked to lime-induced photodermatitis".[^life] In practice that covers bartending and cooking with citrus, gardening and strimming near hogweed or parsnip, and handling figs or rue.
 
 ## The Misdiagnosis That Matters
 
@@ -50,10 +49,12 @@ The review is equally clear about the opposite error: "Three patients initially 
 
 ## See Also
 
-[[hyperpigmentation]] [[contact-dermatitis]] [[post-inflammatory-erythema]] [[melasma]] [[topical-corticosteroids]] [[sunscreen-uv-filters]] [[azelaic-acid]] [[niacinamide]] [[tranexamic-acid]] [[hydroquinone]] [[sensitive-skin]]
+[[giant-hogweed-burns]] [[hyperpigmentation]] [[contact-dermatitis]] [[post-inflammatory-erythema]] [[melasma]] [[topical-corticosteroids]] [[sunscreen-uv-filters]] [[azelaic-acid]] [[niacinamide]] [[tranexamic-acid]] [[hydroquinone]] [[sensitive-skin]]
 
 ## Sources
 
 [^life]: Grosu Dumitrescu C, Jîjie AR, Manea HC, et al. "New Insights Concerning Phytophotodermatitis Induced by Phototoxic Plants." Life (Basel). 2024 Aug 16;14(8):1019. doi: 10.3390/life14081019. Quotes used: "a non-immunologic skin reaction triggered by certain plants followed by exposure to ultraviolet radiation emitted by sunlight"; "the interaction between plant-derived photosensitizing compounds (e.g., furanocoumarins and psoralens) and ultraviolet light leading to skin damage (e.g., erythema, fluid blisters, edema, and hyperpigmentation)"; "Apiaceae, Rutaceae, and Moraceae"; "Heracleum mantegazzianum, Ruta graveolens, Ficus carica, and Pastinaca sativa"; "limes containing furocoumarin have been linked to lime-induced photodermatitis"; "adequate clothing (e.g., long-sleeved garments and gloves)"; "topical and systemic therapies". The authors declare no conflicts of interest. PubMed records an erratum (Life (Basel). 2025 Feb 21;15(3):337). https://pubmed.ncbi.nlm.nih.gov/39202761/ (accessed 2026-10-06)
 
 [^king]: King A, Pope E. "Dermatitis versus nonaccidental trauma: A systematic review of initial pediatric misdiagnoses." Pediatr Dermatol. 2024 Mar-Apr;41(2):215-220. doi: 10.1111/pde.15556. Quotes used: "Pediatric dermatitis and nonaccidental trauma (NAT) may have overlapping cutaneous presentations, posing a risk of misdiagnosis and subsequent emotional distress and further harm."; "This review included 21 case reports or series encompassing 29 patients. Among 26 patients initially investigated as NAT (26.9% involving Child Protective Services), final diagnoses included irritant contact dermatitis (53.8%), phytophotodermatitis (30.8%), allergic contact dermatitis (7.7%), perianal infectious dermatitis (3.8%), and atopic dermatitis (3.8%). Three patients initially diagnosed with nontraumatic dermatitis were later found to be victims of physical (2/3; 66.7%) or sexual abuse (1/3; 33.3%)."; "Effective history-taking and physical examinations should encompass a history of laxative use, contact with furocoumarin-containing plants/fruit, parallel family/peer cutaneous presentations, caregiver involvement, financial burden, patient discomfort, birthmark assessment, and lesions aligning with diaper borders or toilet seats."; "Limitations of this review include potential underreporting and the inclusion of low-quality study designs and evidence." https://pubmed.ncbi.nlm.nih.gov/38400817/ (accessed 2026-10-06)
+
+[^hogweed]: Flanagan KE, Blankenship K, Houk L. "Botanical Briefs: Phytophotodermatitis Caused by Giant Hogweed (Heracleum mantegazzianum)." Cutis. 2021 Nov;108(5):251-253. doi: 10.12788/cutis.0389. Quote used: "We report the case of a 27-year-old man who presented with a blistering rash on the neck and arms that developed 18 to 24 hours after trimming giant hogweed plants without photoprotection." This onset window is from a single reported case, not a population estimate; full appraisal on [[giant-hogweed-burns]]. https://pubmed.ncbi.nlm.nih.gov/35100530/ (accessed 2026-10-07)
