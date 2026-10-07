@@ -7771,3 +7771,8 @@ jen-novakovich:
   score: 8
   verdict: publish
   note: 'Main-loop self-verify (person pages take no critic). 129 words, inside the 150 scope. All 4 real quotes verbatim-verified against the cached source. CREDENTIAL HANDLING: unlike a physician there is no licensing registry for cosmetic scientists, so her credential is quoted from her OWN professional site and cited explicitly as a self-description rather than as independent verification. Her paid industry relationship is stated plainly on the card (a decade of consulting including CLAIMS DEVELOPMENT for beauty brands, plus Patreon support), since the site evaluates brand claims and a reader weighing her commentary should know it.'
+la-roche-posay-effaclar-duo-acne-treatment-bpo-lha:
+  last_reviewed: '2026-10-07'
+  score: 8
+  verdict: publish
+  note: 'Main-loop self-verify (no Opus critic; standing no-subagent instruction). 13 quotes verbatim-verified against the DailyMed SPL, 0 unverified. The verbatim checker caught me quoting ''dual action'' as the product''s marketing when the SPL contains no such phrase and the brand page 403s; removed that attribution entirely rather than source it from a search snippet. DISCONTINUATION CLAIM NOT ASSERTED: I queued this item flagged ''reportedly discontinued'', but DailyMed shows a live SPL with a 2012 start, NO marketing end date, and a Dec 2023 update, so the page reports availability as unresolved and explains both sides. Marked image_unresolvable rather than attach an incidecoder photo I could not confirm was this SKU and not the neighbouring spot treatment.'

@@ -1950,3 +1950,10 @@
   source: The most widely used cosmetic preservative, declared on many products already
     profiled here (incl. REMEDY azelaic, Anua peach); the preservatives hub cannot
     link it
+- name: Capryloyl salicylic acid
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: la-roche-posay-effaclar-duo-acne-treatment-bpo-lha
+  source: The actual INCI name of La Roche-Posay's LHA, declared here; distinct from
+    salicylic acid and from the already-queued generic 'lipohydroxy acid' entry
