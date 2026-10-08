@@ -5,7 +5,7 @@ name: La Roche-Posay
 slug: la-roche-posay
 status: published
 type: brand
-updated: '2026-07-28'
+updated: '2026-10-08'
 ---
 
 La Roche-Posay is a French dermatological skincare brand built around the thermal spring water of the town of La Roche-Posay, and it has been part of the French cosmetics company L'Oreal since 1989.[^1][^2]
@@ -30,8 +30,15 @@ L'Oreal groups La Roche-Posay's ranges under dermatological skincare, spanning s
 
 ## Products reviewed here
 
-- [[la-roche-posay-anthelios-melt-in-milk-spf-60]]: the brand's Broad Spectrum SPF 60 chemical sunscreen for face and body, with strong UVB and older-filter UVA protection.
-- [[la-roche-posay-toleriane]]: the brand's fragrance-free Toleriane Double Repair face moisturizer, with ceramide NP and niacinamide.
+**Sunscreens.** [[la-roche-posay-anthelios-melt-in-milk-spf-60|Anthelios Melt-in Milk SPF 60]], [[la-roche-posay-anthelios-mineral-tinted-spf-50|Anthelios Mineral Tinted SPF 50]], [[la-roche-posay-anthelios-uvmune-400-spf-50|Anthelios UVMune 400 SPF50+]].
+
+**Moisturizers and barrier repair.** [[la-roche-posay-toleriane|Toleriane Double Repair Face Moisturizer]], [[la-roche-posay-toleriane-double-repair-uv-spf-30|Toleriane Double Repair UV SPF 30]], [[la-roche-posay-cicaplast-baume-b5|Cicaplast Baume B5]], [[la-roche-posay-lipikar-balm-ap-m|Lipikar Balm AP+M]], [[la-roche-posay-effaclar-mat|Effaclar Mat Mattifying Moisturizer]].
+
+**Cleansers.** [[la-roche-posay-toleriane-hydrating-gentle-cleanser|Toleriane Hydrating Gentle Cleanser]], [[la-roche-posay-toleriane-purifying-foaming-cleanser|Toleriane Purifying Foaming Cleanser]], [[la-roche-posay-effaclar-micro-peeling-purifying-gel-cleanser|Effaclar Micro-Peeling Purifying Gel Cleanser]], [[la-roche-posay-lipikar-syndet-ap-body-wash|Lipikar Syndet AP+ Body Wash]].
+
+**Acne treatments (Effaclar).** [[la-roche-posay-effaclar-adapalene-gel-0-1|Effaclar Adapalene Gel 0.1%]], [[la-roche-posay-effaclar-bpo|Effaclar BPO (benzoyl peroxide 5.5%)]], [[la-roche-posay-effaclar-duo-acne-treatment-bpo-lha|Effaclar Duo Acne Treatment (benzoyl peroxide 5.5% with LHA)]], [[la-roche-posay-effaclar-duo|Effaclar Duo+]], [[la-roche-posay-effaclar-clay-mask|Effaclar Clay Mask]]. Products in this range share the Effaclar Duo name without sharing a formula, so check which one you are buying.
+
+**Serums and targeted treatments.** [[la-roche-posay-mela-b3-serum|Mela B3 Serum]], [[la-roche-posay-pure-vitamin-c-12-serum|Pure Vitamin C12 Serum]], [[la-roche-posay-retinol-b3-serum|Retinol B3 Serum]], [[la-roche-posay-hyalu-b5-hyaluronic-acid-serum|Hyalu B5 Pure Hyaluronic Acid Serum]], [[la-roche-posay-rosaliac-ar-intense-serum|Rosaliac AR Intense Serum]].
 
 ## Sources
 
