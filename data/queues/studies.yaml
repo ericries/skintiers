@@ -700,7 +700,7 @@
     to Another Topical Cr (PMID 40984677)
   type: study
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/40984677/
 - name: 'Zhang 2026 Efficacy and safety of pumecitinib 3% gel in treating mild-to-moderate
@@ -721,7 +721,7 @@
     appendicectomy for suspect (PMID 40970433)
   type: study
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/40970433/
 - name: Du 2025 A Split-Face Randomized Study on the Efficacy of a Platinum-Liposome-Based
@@ -742,7 +742,7 @@
     the open-label randomize (PMID 40927943)'
   type: study
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/40927943/
 - name: Heidary 2025 Randomized Clinical Trial on the Efficacy of Oral Tranexamic

@@ -1971,3 +1971,12 @@
   discovered_from: remedy-dark-circle-reducing-eye-cream
   source: Declared 15th here and widely marketed as a topical antioxidant; no page
     on this site
+- name: Vitamin D (oral, skin and sun-exposure context)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: tran-2025-sun-d-sunscreen-vitamin-d
+  source: 'Tran 2025 Sun-D RCT (PMID 40927943) found routine SPF 50+ lowers 25(OH)D
+    vs discretionary use and says regular users may need supplementation. NOTE: oral/non-topical,
+    so it belongs to the deferred non-topical phase (see anti-aging scope policy),
+    not the current topical catalog.'

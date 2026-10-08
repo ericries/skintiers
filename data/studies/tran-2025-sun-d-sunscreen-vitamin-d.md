@@ -1,0 +1,32 @@
+---
+analyzed: '2026-10-08'
+assurance: sonnet
+name: 'Effect of daily sunscreen application on vitamin D: findings from the open-label
+  randomized controlled Sun-D Trial'
+slug: tran-2025-sun-d-sunscreen-vitamin-d
+status: published
+type: study
+updated: '2026-10-08'
+---
+
+An Australian randomized trial (639 participants) testing whether a year of routine SPF 50+ sunscreen use lowers blood vitamin D. It is the first trial to test the high-SPF products that current sun-protection advice actually recommends, and it found a small but consistent reduction.[^1]
+
+**Design:** Population-based open-label randomized controlled trial in Australia, running approximately one year. Randomization was 1:1 using "stratified, computer-generated permuted block randomization". 25(OH)D, the standard blood marker of vitamin D status, was measured at baseline (winter/spring 2022) and again at the end of summer and winter 2023. Sample and data analysis were "performed blind to randomization group". Registered as ACTRN12621001752853.[^1]
+
+**Population / n:** 639 randomized between 30 June and 29 November 2022 (intervention 319, control 320); 628 analysed (intervention 312, control 316) after excluding 11 participants with no post-baseline measurement. Adults aged 18 to 70 "who were not routinely using sunscreen or taking vitamin D supplements". Median age 52 (interquartile range 40 to 64); 415 (66.1%) identified as female, 210 (33.4%) as male, and 3 (0.5%) used another term.[^1]
+
+**Intervention / comparator:** Routine application of SPF 50+ sunscreen on days the UV index was forecast to reach 3 or higher, versus "discretionary sunscreen use". The comparator matters for reading the result: this tests routine high-SPF use against usual practice, not against no sunscreen at all.[^1]
+
+**Primary result (change in 25(OH)D from baseline):** Both groups rose from their winter baseline; the sunscreen group rose less. Adjusted mean differences from baseline were 1.6 nmol/L in the intervention group and 6.8 nmol/L in the control group, giving a between-group treatment effect of -5.2 nmol/L (95% CI -7.2 to -3.2). Baseline concentrations were balanced (intervention 63.5 nmol/L, SD 21.9; control 62.1 nmol/L, SD 22.8). Treatment effects were "consistent across almost all subgroups", with analysis stratified by baseline 25(OH)D, residential UV radiation zone, skin exposure, and personal UV exposure.[^1]
+
+**Exploratory outcome:** Vitamin D deficiency, defined as 25(OH)D below 50 nmol/L, in the final sample was 139/304 (45.7%) in the intervention group versus 115/312 (36.9%) in the control group, a prevalence ratio of 1.33 (95% CI 1.14 to 1.55). The abstract identifies this as an exploratory outcome rather than the primary one, so it reads as a signal worth following rather than a measured trial endpoint.[^1]
+
+**Effect size / interpretation:** Small in absolute terms and consistent in direction. The authors' conclusion, verbatim: "Routinely applying high SPF sunscreen results in lower 25(OH)D concentrations than would be seen with discretionary sunscreen use. Regular sunscreen users may need vitamin D supplementation."[^1] Note what the numbers do and do not say: neither group's vitamin D fell over the year, so the finding is a smaller seasonal rise rather than a decline.
+
+**Why this trial updates the site's evidence:** [[neale-2019-sunscreen-vitamin-d]], from substantially the same research group, concluded there was "little evidence that sunscreen decreases 25(OH)D concentration when used in real-life settings" while flagging that no trial had tested the high-SPF sunscreens now widely recommended. This trial is that missing test, and it points the other way. The practical reading is not to use less sunscreen, whose case is on [[sunscreen-uv-filters]], but that routine high-SPF users may need to get vitamin D from supplements or diet instead of from sun exposure.
+
+**Applicability + key limitation:** Applies to adults in a high-UV setting who were not already routine sunscreen users or supplement takers, a selected group that plausibly had the most room to change. The key limitation is the open-label design paired with a discretionary-use control: participants knew their assignment, and controls were not sunscreen-free, so the estimate is routine SPF 50+ against usual Australian practice. Only the PubMed abstract was accessed, not the full paper, so adherence, adverse events, and per-protocol analyses could not be verified here.
+
+## Sources
+
+[^1]: Tran V, Duarte Romero BL, Andersen H, Clarke M, Collins LG, Dawson T, Hartel G, Lefevre JG, Lucas RM, McLeod DSA, Milne RL, Sinclair C, Whiteman DC, Waterhouse M, Neale RE. "Effect of daily sunscreen application on vitamin D: findings from the open-label randomized controlled Sun-D Trial." British Journal of Dermatology. 2025 Nov 18;193(6):1128-1137. doi: 10.1093/bjd/ljaf310. PMID 40927943. PMCID PMC12455026. Quotes and figures used: "Sunscreen reduces vitamin D production in experimental studies. It is uncertain whether this translates to real-world settings."; "stratified, computer-generated permuted block randomization"; "who were not routinely using sunscreen or taking vitamin D supplements"; "discretionary sunscreen use"; "Sample and data analysis were performed blind to randomization group."; "we randomized 639 participants (intervention, n = 319; control, n = 320)"; "628 participants were analysed [intervention, n = 312; control, n = 316; median age 52 years (interquartile range 40-64)]"; "415 (66.1%) identified as female, 210 (33.4%) as male and 3 (0.5%) used another term"; "intervention 63.5 (21.9) nmol L-1; control 62.1 (22.8) nmol L-1"; "Adjusted mean differences from baseline were 1.6 nmol L-1 (intervention) and 6.8 nmol L-1 (control) [between-group treatment effect -5.2 nmol L-1, 95% confidence interval (CI) -7.2 to -3.2]"; "Treatment effects were consistent across almost all subgroups."; "Vitamin D deficiency (final sample) was higher in the intervention (n = 139/304; 45.7%) than in the control group (n = 115/312; 36.9%) (prevalence ratio 1.33, 95% CI 1.14-1.55)"; "Routinely applying high SPF sunscreen results in lower 25(OH)D concentrations than would be seen with discretionary sunscreen use. Regular sunscreen users may need vitamin D supplementation." The deficiency outcome is described in the Methods as an exploratory outcome. https://pubmed.ncbi.nlm.nih.gov/40927943/ (accessed 2026-10-08)
