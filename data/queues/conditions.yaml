@@ -324,3 +324,11 @@
   source: Named alongside hogweed in Life 2024 PMID 39202761 as a leading phototoxic
     plant; common in North American roadsides. Check for duplication against phytophotodermatitis
     before drafting, as hogweed was checked
+- name: Eczema herpeticum
+  type: condition
+  priority: 5
+  status: pending
+  discovered_from: delgocitinib
+  source: 'Named in the Anzupgo SPL warning: ''Eczema herpeticum was observed in a
+    subject treated topically with ANZUPGO'' (DailyMed setid a59bf36e-6f04-4b47-b385-8040c95f040c);
+    no hub exists'

@@ -1531,7 +1531,7 @@
     NMA (PMID 41277505)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41277505/
 - name: Alitretinoin (oral 9-cis-retinoic acid, Toctino), systemic retinoid FDA/EMA-approved
@@ -1980,3 +1980,11 @@
     vs discretionary use and says regular users may need supplementation. NOTE: oral/non-topical,
     so it belongs to the deferred non-topical phase (see anti-aging scope policy),
     not the current topical catalog.'
+- name: Ruxolitinib cream (Opzelura, topical selective JAK1/JAK2 inhibitor)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: delgocitinib
+  source: The other FDA-approved topical JAK inhibitor; delgocitinib is pan-JAK (JAK1/2/3+TYK2)
+    per its DailyMed label, so the selective-vs-pan contrast needs the comparison
+    page

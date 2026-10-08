@@ -3325,6 +3325,21 @@ decyl-glucoside:
     critic; assurance sonnet.'
   score: 9
   verdict: publish
+delgocitinib:
+  assurance: sonnet
+  date: '2026-10-08'
+  notes: 'All 24 quoted strings verified verbatim against the live DailyMed SPL (setid a59bf36e-6f04-4b47-b385-8040c95f040c);
+    one capitalisation slip found and corrected before publish. Marketing category confirmed NDA/NDA219155
+    (a real FDA approval, not an unapproved-drug SPL), marketing start 07/24/2025. Every Table
+    1 figure traced to the label. Confirmed the label carries NO boxed warning and contraindications
+    "None", and said so explicitly because the oral JAK class warnings do not apply. tier: good
+    reflects the rubric as written: gold-standard evidence (two vehicle-controlled RCTs, n=960,
+    full NDA) with only a modest clearance effect (20%/29% vs 10%/7%). The between-trial disagreement
+    on the primary endpoint (10 vs 22 point difference) is stated rather than averaged away. The
+    remaining verify WARN (no quarantined marketing-claims section) appears identically on the
+    published fluorouracil-topical page and is the standard soft flag for Rx pages with no brand
+    claims.'
+  reviewer: main-loop self-verification
 deo-2013-kojic-acid-combinations-rct:
   last_reviewed: '2026-08-08'
   note: 'Opus re-fetched PMID 23918998; both quoted sentences ("The clinical efficacy of group
