@@ -13,11 +13,13 @@ tier_list:
   - twyneo-tretinoin-benzoyl-peroxide-cream
   - epiduo-forte-adapalene-benzoyl-peroxide-gel
   - epsolay-benzoyl-peroxide-5-cream
+  - la-roche-posay-effaclar-bpo
+  - la-roche-posay-effaclar-duo-acne-treatment-bpo-lha
   - panoxyl-acne-creamy-wash-benzoyl-peroxide-4
   - panoxyl-acne-foaming-wash-benzoyl-peroxide-10
   title: Benzoyl peroxide products by evidence
 type: list
-updated: '2026-08-30'
+updated: '2026-10-08'
 ---
 
 This ranks on-site benzoyl peroxide (BPO) products for acne. The active itself is only modestly effective and only mixed-to-low-certainty by evidence, on par with adapalene or topical clindamycin rather than a standout;[^cochrane] the full case is on [[benzoyl-peroxide]] and the disease context is on [[acne]]. Higher BPO concentrations are not meaningfully more effective than lower ones, just more irritating, so this list favors combination products with independent trial data and lower-strength or encapsulated formulations over plain high-percentage BPO.
@@ -31,6 +33,10 @@ This ranks on-site benzoyl peroxide (BPO) products for acne. The active itself i
 **[[epiduo-forte-adapalene-benzoyl-peroxide-gel|Epiduo Forte (adapalene 0.3% / benzoyl peroxide 2.5%)]].** The stronger-adapalene version of Epiduo, same 2.5% BPO and same FDA-indicated combination, for acne that didn't respond enough to the original strength.
 
 **[[epsolay-benzoyl-peroxide-5-cream|Epsolay (Benzoyl Peroxide 5% Cream)]].** Not an acne product (it's FDA-approved for rosacea), included here because it's the only on-site product built to reduce BPO's signature irritation: silica microencapsulation slow-releases the drug instead of applying it unencapsulated, and its own trials show a real effect on rosacea's inflammatory lesions.
+
+**[[la-roche-posay-effaclar-bpo|La Roche-Posay Effaclar BPO (benzoyl peroxide 5.5%)]].** A plain leave-on cream with a single active, so the benzoyl peroxide trial evidence transfers to it more directly than to the rinse-off washes below; it ranks here rather than higher because 5.5% sits at the top of a range where extra strength buys irritation more than efficacy, and no trial of this finished product is cited.
+
+**[[la-roche-posay-effaclar-duo-acne-treatment-bpo-lha|La Roche-Posay Effaclar Duo Acne Treatment (benzoyl peroxide 5.5% with LHA)]].** The same 5.5% leave-on benzoyl peroxide with the brand's lipohydroxy acid added among the **inactive** ingredients, which is why it sits just below the single-active version: nothing cited shows the pair outperforms benzoyl peroxide on its own.
 
 **[[panoxyl-acne-creamy-wash-benzoyl-peroxide-4|PanOxyl Acne Creamy Wash Benzoyl Peroxide 4%]].** A rinse-off wash, so it gets less skin contact time than the leave-on gels the BPO trial evidence was built on, but the 4% strength fits the pattern that lower concentrations match higher ones in efficacy with less irritation.
 

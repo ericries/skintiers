@@ -1339,13 +1339,17 @@ best-azelaic-acid-products:
   score: 8
   verdict: publish
 best-benzoyl-peroxide-products:
-  last_reviewed: '2026-08-30'
-  note: 'LIST wave2. Best-of BPO acne products. Opus critic (9): all 6 slugs resolve, Twyneo (PMID
-    37356627)/Kawashima (28295516) verbatim; attached 2 orphaned footnotes. Retinoid+BPO combos
-    top, 10% wash last (irritation w/o added efficacy). Main-loop: kawashima URL + AI-ese. No
-    dashes. Opus critic inline (workflow pipeline); assurance opus.'
-  score: 9
-  verdict: publish
+  assurance: sonnet
+  date: '2026-10-08'
+  notes: 'site_health maintenance task: added the two 5.5% BPO La Roche-Posay products that link
+    this hub but were absent from its tier_list. Placement judged against the list''s own stated
+    criteria, not by name: both are plain leave-on single-strength BPO with no finished-product
+    trial cited, so they rank below the FDA-indicated retinoid combinations and below encapsulated
+    Epsolay, but above the PanOxyl rinse-off washes because the BPO trial evidence was built on
+    leave-on formulations. Strengths (5.5%), leave-on form, and the LHA being an INACTIVE ingredient
+    all re-read from the two product pages, which cite DailyMed. No new facts introduced; no body
+    rewrite beyond the two inserted entries. lint/verify/style clean, no em or en dashes.'
+  reviewer: main-loop self-verification
 best-body-acne-products:
   last_reviewed: '2026-08-30'
   note: 'LIST wave2. Best-of body acne products. Opus critic (95): all 6 slugs resolve, StatPearls
