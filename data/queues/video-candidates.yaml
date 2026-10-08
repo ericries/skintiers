@@ -7923,19 +7923,6 @@
   feed_rank: 0
   status: skipped
   skip_reason: interview/chat (Sophie Ellis-Bextor); not single-topic education
-- id: '7690325408301993230'
-  title: 'Just saying it like we’re friends #skincare #dermatologist #honestder...'
-  creator: Dr. Chris Tomassian
-  creator_slug: chris-tomassian
-  credential: Board-certified dermatologist
-  channel: https://www.tiktok.com/@dr.tomassian
-  platform: TikTok
-  tier: MED
-  product_recs: ok
-  conflict: Bio includes a business/booking contact email suggesting managed brand partnerships; no confirmed own-brand line or affiliate stor
-  posted: '2026-09-27'
-  feed_rank: 1
-  status: pending
 - id: '7690309128761117965'
   title: 'Current morning routine for that insane skin glow! #skincare #glowing...'
   creator: Dr. Chris Tomassian
@@ -8793,19 +8780,6 @@
   conflict: null
   posted: ''
   feed_rank: 6
-  status: pending
-- id: RtnlMdbZW4k
-  title: 'REMEDY 15% Azelaic Acid Review: Is It Really 15%?'
-  creator: Andrea Suarez (Dr Dray)
-  creator_slug: andrea-suarez-dr-dray
-  credential: Board-certified dermatologist
-  channel: https://www.youtube.com/@DrDrayzday/videos
-  platform: YouTube
-  tier: HIGH
-  product_recs: null
-  conflict: null
-  posted: ''
-  feed_rank: 0
   status: pending
 - id: PVxPVO3vKq8
   title: '“Fillers don’t dissolve” #dermreacts  #skincare  #dermatologist #dermangelo    '
@@ -10285,19 +10259,6 @@
   feed_rank: 0
   status: skipped
   skip_reason: comment-to-DM product-list funnel ('Comment BEAUTY for the FULL derm-approved skincare & beauty routine'); creator is product_recs restricted
-- id: '7693281219399716109'
-  title: 'Treat the cycle not the pimple  #acnemarks #acneproneskin #skincareex...'
-  creator: Ella (@your.estie.ella)
-  creator_slug: your-estie-ella
-  credential: Licensed esthetician (NOT a dermatologist or cosmetic chemist)
-  channel: https://www.tiktok.com/@your.estie.ella
-  platform: TikTok
-  tier: MED
-  product_recs: ok
-  conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan and reject any sponsored/affiliate/gifted video
-  posted: '2026-10-05'
-  feed_rank: 0
-  status: pending
 - id: '7693188195063794957'
   title: Cleanser • Moisturizer • Sunscreen  @Bubble Skincare @Peach Slices @d...
   creator: Ella (@your.estie.ella)
@@ -10627,5 +10588,278 @@
   product_recs: ok
   conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan and reject any sponsored/affiliate/gifted video
   posted: '2026-10-06'
+  feed_rank: 2
+  status: pending
+- id: _nf5ycLaOpI
+  title: 'undupeable products that can''t be replaced #dermatologist #undupeable'
+  creator: Dr Aamna Adel
+  creator_slug: aamna-adel
+  credential: Consultant dermatologist
+  channel: https://www.youtube.com/@DrAamnaAdel
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Founder of own-brand haircare line (Rhute); TikTok Shop affiliate/product storefront; recurring disclosed sponsored posts (No7, La Roche Pos
+  posted: ''
+  feed_rank: 6
+  status: pending
+- id: '7694090275911699725'
+  title: Transitioning into motherhood was not easy for me, and I only have st...
+  creator: Dr. Aegean Chan
+  creator_slug: aegean-chan
+  credential: Board-certified dermatologist
+  channel: https://www.tiktok.com/@draegeanchan
+  platform: TikTok
+  tier: HIGH
+  product_recs: restricted
+  conflict: Founder/owner of active postpartum skincare brand "More Than Nine" (cleanser, exfoliator, moisturizer, balm) — an ongoing own-bran
+  posted: '2026-10-08'
+  feed_rank: 0
+  status: pending
+- id: H5bfHQpnfUk
+  title: Ways to Use Glycolic Acid
+  creator: Dr. Aleksandra Brown, DO, FAAD
+  creator_slug: aleksandra-brown
+  credential: Board-certified dermatologist (DO, FAOCD, FAAD), practicing at River Ridge Dermatology / HCA Virginia (LewisGale), Blacksburg VA
+  channel: https://www.youtube.com/channel/UC52c6a0gfbhuVCdHYZQAzuQ
+  platform: YouTube
+  tier: HIGH
+  product_recs: ok
+  conflict: null
+  posted: ''
+  feed_rank: 6
+  status: pending
+- id: nGQggX1qajM
+  title: GLP-1s & Nail Detachment? New Study Reveals a Surprising Side Effect
+  creator: Andrea Suarez (Dr Dray)
+  creator_slug: andrea-suarez-dr-dray
+  credential: Board-certified dermatologist
+  channel: https://www.youtube.com/@DrDrayzday/videos
+  platform: YouTube
+  tier: HIGH
+  product_recs: null
+  conflict: null
+  posted: ''
+  feed_rank: 0
+  status: pending
+- id: 9zWHGqX3aFg
+  title: 'Hygiene Olympics #dermreacts  #skincare  #dermatologist #dermangelo    '
+  creator: Dr. Angelo Landriscina (DermAngelo)
+  creator_slug: angelo-landriscina
+  credential: Board-certified dermatologist
+  channel: https://www.youtube.com/@DermAngelo
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Own-brand UPF sun-protective clothing line, SOUL-A (wearsoula.com / @wearsoula), founded and promoted by him — apparel, not topical skincare
+  posted: ''
+  feed_rank: 0
+  status: pending
+- id: DlT-7TFSqFw
+  title: 'This is fake #dermreacts  #skincare  #dermatologist #dermangelo    '
+  creator: Dr. Angelo Landriscina (DermAngelo)
+  creator_slug: angelo-landriscina
+  credential: Board-certified dermatologist
+  channel: https://www.youtube.com/@DermAngelo
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Own-brand UPF sun-protective clothing line, SOUL-A (wearsoula.com / @wearsoula), founded and promoted by him — apparel, not topical skincare
+  posted: ''
+  feed_rank: 1
+  status: pending
+- id: h9HhtBka9E4
+  title: 'I’m sorry but this is awful #dermreacts  #skincare  #dermatologist #dermangelo'
+  creator: Dr. Angelo Landriscina (DermAngelo)
+  creator_slug: angelo-landriscina
+  credential: Board-certified dermatologist
+  channel: https://www.youtube.com/@DermAngelo
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Own-brand UPF sun-protective clothing line, SOUL-A (wearsoula.com / @wearsoula), founded and promoted by him — apparel, not topical skincare
+  posted: ''
+  feed_rank: 6
+  status: pending
+- id: Yz3ABzj144I
+  title: 'You should know this… #health #doctor  #skincare  #dermatologist #dermangelo'
+  creator: Dr. Angelo Landriscina (DermAngelo)
+  creator_slug: angelo-landriscina
+  credential: Board-certified dermatologist
+  channel: https://www.youtube.com/@DermAngelo
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Own-brand UPF sun-protective clothing line, SOUL-A (wearsoula.com / @wearsoula), founded and promoted by him — apparel, not topical skincare
+  posted: ''
+  feed_rank: 7
+  status: pending
+- id: '7694099857665002765'
+  title: 'If you your pores to look smaller follow these steps! #skincare #derm...'
+  creator: Dr. Chris Tomassian
+  creator_slug: chris-tomassian
+  credential: Board-certified dermatologist
+  channel: https://www.tiktok.com/@dr.tomassian
+  platform: TikTok
+  tier: MED
+  product_recs: ok
+  conflict: Bio includes a business/booking contact email suggesting managed brand partnerships; no confirmed own-brand line or affiliate stor
+  posted: '2026-10-08'
+  feed_rank: 0
+  status: pending
+- id: wcFALeoZ9uk
+  title: Amazon Skincare Picks from a Dermatologist
+  creator: Dr. Daniel Sugai
+  creator_slug: daniel-sugai
+  credential: Board-certified dermatologist
+  channel: https://www.youtube.com/@danielsugaimd
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Chief Medical Officer of hair-growth-serum brand REYUS; advisory-board member of Bubble Skincare; periodic disclosed paid brand partnerships
+  posted: ''
+  feed_rank: 6
+  status: pending
+- id: SiD04dUH45k
+  title: What parents get WRONG about kids | fever, food, screen time, sleep Ft. Pediatrician Dr. Ravi Malik.
+  creator: Dr. Aanchal MD
+  creator_slug: dr-aanchal-md
+  credential: Dr. Aanchal Panth, MD Dermatology, Venereology and Leprosy (AIIMS New Delhi), MBBS (Manipal); consultant dermatologist, Surat, India; IADVL member
+  channel: https://www.youtube.com/channel/UCMTl80jTQwGkO335HoVf0ig
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Maintains a Nykaa curated affiliate storefront; treat specific product picks as commercially incentivized (educational/mechanism content is fine).
+  posted: ''
+  feed_rank: 0
+  status: pending
+- id: '7693899829029735693'
+  title: Yep, say it louder for the ones in the back. The reason your skin is ...
+  creator: Fatima Fahs
+  creator_slug: fatima-fahs
+  credential: Dermatologist (MD)
+  channel: https://www.tiktok.com/@dermydoctor
+  platform: TikTok
+  tier: HIGH
+  product_recs: restricted
+  conflict: null
+  posted: '2026-10-07'
+  feed_rank: 0
+  status: pending
+- id: '7694087267714862349'
+  title: A flashlight and a UV camera might change how you think about sunscre...
+  creator: Jenn Lexi (@jennlexi_)
+  creator_slug: jennlexi
+  credential: Esthetician (self-identified); not a dermatologist or cosmetic chemist
+  channel: https://www.tiktok.com/@jennlexi_
+  platform: TikTok
+  tier: MED
+  product_recs: restricted
+  conflict: 'Runs #ad sponsored posts (e.g. TruSkin) and Target skincare hauls/reviews; prefer her educational ingredient-category and barrier-repair explainers, and treat product recommendations as effectively promotional (skip).'
+  posted: '2026-10-08'
+  feed_rank: 0
+  status: pending
+- id: '7694024489503411470'
+  title: 'The ingredient you should know about for breakouts👀 #magicmolecule #b...'
+  creator: Jenn Lexi (@jennlexi_)
+  creator_slug: jennlexi
+  credential: Esthetician (self-identified); not a dermatologist or cosmetic chemist
+  channel: https://www.tiktok.com/@jennlexi_
+  platform: TikTok
+  tier: MED
+  product_recs: restricted
+  conflict: 'Runs #ad sponsored posts (e.g. TruSkin) and Target skincare hauls/reviews; prefer her educational ingredient-category and barrier-repair explainers, and treat product recommendations as effectively promotional (skip).'
+  posted: '2026-10-07'
+  feed_rank: 1
+  status: pending
+- id: k7LEwdYOazU
+  title: '#skincare #cosmeticdermatology #asianskincare #asianhaircare #kbeauty dermatologist'
+  creator: Dr. Jenny Liu (Jenny Liu, MD, FAAD)
+  creator_slug: jenny-liu
+  credential: Board-certified dermatologist
+  channel: https://www.youtube.com/@dr.jennyliu
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Runs an Amazon affiliate storefront (amazon.com/shop/derm.talk); recurring disclosed paid brand partnerships (Shiseido, SkinCeutic
+  posted: ''
+  feed_rank: 6
+  status: pending
+- id: '7693954694552587534'
+  title: NEW UNRELEASED (in the US) SKIN1004 cream first impressions. What do ...
+  creator: Kristin Leite (kristingl)
+  creator_slug: kristin-leite
+  credential: Beauty product developer and skincare educator (NOT a dermatologist or cosmetic chemist)
+  channel: https://www.tiktok.com/@kristingl
+  platform: TikTok
+  tier: MED
+  product_recs: null
+  conflict: runs an Amazon affiliate storefront and does sponsored posts - strongly prefer educational / how-to / ingredient-explainer videos; be very cautious with any product recommendation
+  posted: '2026-10-07'
+  feed_rank: 0
+  status: pending
+- id: '7693960096027643167'
+  title: If you watched my travel stories, you already know 😂  Full story time...
+  creator: ''
+  creator_slug: mamina-turegano
+  credential: ''
+  channel: https://www.tiktok.com/@dr.mamina
+  platform: TikTok
+  tier: MED
+  product_recs: restricted
+  conflict: null
+  posted: '2026-10-07'
+  feed_rank: 0
+  status: pending
+- id: CB15GOjnAR4
+  title: '10/10 glycolic acid hacks from a derm #skincare'
+  creator: Dr. Neera Nathan
+  creator_slug: neera-nathan
+  credential: Board-certified dermatologist
+  channel: https://www.youtube.com/@dermatologysurgeon
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Runs a "Shop my Favorites" affiliate storefront (linktr.ee/dermatologysurgeon) that monetizes her product picks; no own-brand prod
+  posted: ''
+  feed_rank: 0
+  status: pending
+- id: '7694023806645505294'
+  title: 'I love a simply, glowy routine ✨ Products used: @Remedy Science Azela...'
+  creator: Ella (@your.estie.ella)
+  creator_slug: your-estie-ella
+  credential: Licensed esthetician (NOT a dermatologist or cosmetic chemist)
+  channel: https://www.tiktok.com/@your.estie.ella
+  platform: TikTok
+  tier: MED
+  product_recs: ok
+  conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan and reject any sponsored/affiliate/gifted video
+  posted: '2026-10-07'
+  feed_rank: 0
+  status: pending
+- id: '7693957010697489678'
+  title: 'Esthetician tip: clean your pores gently, no squeezing.  Get ILSO on,...'
+  creator: Ella (@your.estie.ella)
+  creator_slug: your-estie-ella
+  credential: Licensed esthetician (NOT a dermatologist or cosmetic chemist)
+  channel: https://www.tiktok.com/@your.estie.ella
+  platform: TikTok
+  tier: MED
+  product_recs: ok
+  conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan and reject any sponsored/affiliate/gifted video
+  posted: '2026-10-07'
+  feed_rank: 1
+  status: pending
+- id: '7693894746208537869'
+  title: 'Don’t trust all the marketing you see! 👀 #acneproneskin #undereye #sk...'
+  creator: Ella (@your.estie.ella)
+  creator_slug: your-estie-ella
+  credential: Licensed esthetician (NOT a dermatologist or cosmetic chemist)
+  channel: https://www.tiktok.com/@your.estie.ella
+  platform: TikTok
+  tier: MED
+  product_recs: ok
+  conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan and reject any sponsored/affiliate/gifted video
+  posted: '2026-10-07'
   feed_rank: 2
   status: pending
