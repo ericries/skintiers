@@ -7,36 +7,40 @@ status: published
 tier_list:
   by: evidence for clearing and preventing comedones
   items:
-  - note: The best-evidenced comedolytic. A JAMA review of 29 randomized trials found
-      topical retinoids "reduce the number of comedones and inflammatory lesions in
-      the range of 40% to 70%," and they're "the mainstay of therapy in patients with
-      comedones only." See [[retinoids]].
+  - note: The best-evidenced comedolytic. A JAMA review of 29 randomized trials found topical
+      retinoids "reduce the number of comedones and inflammatory lesions in the range of 40% to
+      70%," and they're "the mainstay of therapy in patients with comedones only." See [[retinoids]].
     slug: retinoids
     tier: strong
-  - note: A prescription retinoid; a randomized, vehicle-controlled trial found adapalene
-      0.1% gel produced a significantly greater drop in microcomedone count than vehicle
-      over 12 weeks of maintenance use. See [[adapalene]].
+  - note: A prescription retinoid; a randomized, vehicle-controlled trial found adapalene 0.1%
+      gel produced a significantly greater drop in microcomedone count than vehicle over 12 weeks
+      of maintenance use. See [[adapalene]].
     slug: adapalene
     tier: strong
-  - note: A lipophilic BHA that penetrates the sebum-filled follicle rather than sitting
-      on the skin surface like most acids. DermNet lists it among the standard comedolytics
-      for comedonal acne. See [[salicylic-acid]].
+  - note: A lipophilic BHA that penetrates the sebum-filled follicle rather than sitting on the
+      skin surface like most acids. DermNet lists it among the standard comedolytics for comedonal
+      acne. See [[salicylic-acid]].
     slug: salicylic-acid
     tier: solid
-  - note: DermNet lists azelaic acid among standard topical agents for comedonal acne;
-      it's gentler than retinoids and doubles as a pigmentation treatment. See [[azelaic-acid]].
+  - note: DermNet lists azelaic acid among standard topical agents for comedonal acne; it's gentler
+      than retinoids and doubles as a pigmentation treatment. See [[azelaic-acid]].
     slug: azelaic-acid
     tier: moderate
-  - note: Reduces the C. acnes and free fatty acids that feed comedone formation,
-      but it isn't itself a comedolytic in the way retinoids are. DermNet lists it
-      as a standard topical agent for comedonal acne. See [[benzoyl-peroxide]].
+  - note: Reduces the C. acnes and free fatty acids that feed comedone formation, but it isn't
+      itself a comedolytic in the way retinoids are. DermNet lists it as a standard topical agent
+      for comedonal acne. See [[benzoyl-peroxide]].
     slug: benzoyl-peroxide
     tier: moderate
   title: Actives for blackheads and clogged pores
+tier_list_reviewed:
+- 'anua-heartleaf-pore-control-cleansing-oil (reviewed and excluded: its own page grades it effect
+  NONE on anecdotal evidence for removing sebaceous filaments or controlling pores. It links this
+  hub because that page cites the hub to explain why the sebaceous-filament claim does not hold,
+  not because it is a contender. Adding it would place a product with no graded effect alongside
+  the retinoids above it)'
 type: goal
-updated: '2026-08-30'
+updated: '2026-10-07'
 ---
-
 A blackhead is an open comedo: a hair follicle plugged with keratin (skin cell debris) and sebum, its opening dilated enough to expose the plug to air. It is not trapped dirt. StatPearls describes the mechanism directly: "Oxidized lipids and melanin within the comedo contribute to its characteristic dark black color."[^1] A closed comedo (whitehead) is the same plug under an intact skin surface, so it stays white. Neither responds to scrubbing the way dirt does, because there's no dirt to scrub out.
 
 ## How comedones form

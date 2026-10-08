@@ -993,10 +993,10 @@ black-girl-sunscreen-spf-30:
   score: 9
   verdict: revise-then-published
 blackheads-clogged-pores:
-  last_reviewed: '2026-08-30'
-  note: 'NEW HUB (goal). Open comedones. Opus critic (9): all 5 slugs + DermNet/StatPearls/JAMA(15304471)/adapalene(17567301) verbatim; added disclaimer. HONEST: blackheads are oxidized sebum NOT dirt (scrubbing/pore strips/detox debunked), retinoids the real fix, weeks-to-months. tier_list [[retinoids]]/[[salicylic-acid]]/[[adapalene]]/[[azelaic-acid]]/[[benzoyl-peroxide]]. No dashes. Opus critic inline (workflow pipeline); assurance opus.'
-  score: 9
+  last_reviewed: '2026-10-07'
+  score: 8
   verdict: publish
+  note: Main-loop self-verify. site_health maintenance, and the correct outcome was to EXCLUDE rather than add. The flagged candidate (Anua heartleaf cleansing oil) is graded effect NONE on anecdotal evidence for pore control on its own page; it links this hub only because that page cites the hub to debunk the sebaceous-filament claim. Adding it would have placed a zero-effect product alongside retinoids and adapalene at strong. Recorded in tier_list_reviewed with the reason so the flag self-clears instead of re-firing forever, per the playbook rule. tier_list items unchanged at 5. Verified self-clearing.
 bleicher-1987-metronidazole-0-75-gel-vehicle-controlled-rosacea-rct:
   last_reviewed: '2026-08-08'
   note: 'Opus re-fetched PubMed PMID 2953312 and confirmed every quoted phrase is verbatim and every number (n=40, 2 dropouts, 0.75% gel BID, 36.7/48.5/65.1 vs 14.9 at 3/6/9 wk) is genuinely in the abstract; design, population, and comparator match. Abstract-only access is disclosed, no p-value is asserted (correctly flagged absent), and the ~4.4x figure is transparent arithmetic of the two reported percentages. Verdict: publish.
