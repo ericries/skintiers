@@ -2836,7 +2836,7 @@
 - name: REMEDY Dark Circle Reducing Advanced Eye Cream
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: remedy-science
   source: Listed on the REMEDY store product index (handle dark-circle-reducing-advanced-eye-cream);
     the site has a dark-circles goal hub

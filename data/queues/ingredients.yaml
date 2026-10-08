@@ -1964,3 +1964,10 @@
   discovered_from: fluorouracil-topical
   source: The other prescription topical field treatment for actinic keratosis, named
     twice on the actinic-keratosis page with no page of its own
+- name: Resveratrol (topical)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: remedy-dark-circle-reducing-eye-cream
+  source: Declared 15th here and widely marketed as a topical antioxidant; no page
+    on this site
