@@ -10615,7 +10615,8 @@
   conflict: Founder/owner of active postpartum skincare brand "More Than Nine" (cleanser, exfoliator, moisturizer, balm) — an ongoing own-bran
   posted: '2026-10-08'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'own-brand/personal: aegean-chan postpartum motherhood narrative, not a single-topic skincare explainer'
 - id: H5bfHQpnfUk
   title: Ways to Use Glycolic Acid
   creator: Dr. Aleksandra Brown, DO, FAAD
@@ -10706,7 +10707,8 @@
   conflict: Bio includes a business/booking contact email suggesting managed brand partnerships; no confirmed own-brand line or affiliate stor
   posted: '2026-10-08'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 15s, below the ~25s minimum; Tomassian's catalog is almost entirely sub-25s clips
 - id: wcFALeoZ9uk
   title: Amazon Skincare Picks from a Dermatologist
   creator: Dr. Daniel Sugai
@@ -10745,7 +10747,8 @@
   conflict: null
   posted: '2026-10-07'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'promotional: single-brand SEEN product endorsement (''the entire line from Seen''), not an educational explainer'
 - id: '7694087267714862349'
   title: A flashlight and a UV camera might change how you think about sunscre...
   creator: Jenn Lexi (@jennlexi_)
@@ -10758,7 +10761,8 @@
   conflict: 'Runs #ad sponsored posts (e.g. TruSkin) and Target skincare hauls/reviews; prefer her educational ingredient-category and barrier-repair explainers, and treat product recommendations as effectively promotional (skip).'
   posted: '2026-10-08'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 217s but NO English transcript available (manual or auto) - not citable
 - id: '7694024489503411470'
   title: 'The ingredient you should know about for breakouts👀 #magicmolecule #b...'
   creator: Jenn Lexi (@jennlexi_)
@@ -10797,7 +10801,8 @@
   conflict: runs an Amazon affiliate storefront and does sponsored posts - strongly prefer educational / how-to / ingredient-explainer videos; be very cautious with any product recommendation
   posted: '2026-10-07'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: Kristin Leite product first-impression; her picks are treated as effectively paid (affiliate storefront)
 - id: '7693960096027643167'
   title: If you watched my travel stories, you already know 😂  Full story time...
   creator: ''
@@ -10810,7 +10815,8 @@
   conflict: null
   posted: '2026-10-07'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: personal travel-stories follow-up, no identifiable single skincare topic
 - id: CB15GOjnAR4
   title: '10/10 glycolic acid hacks from a derm #skincare'
   creator: Dr. Neera Nathan
