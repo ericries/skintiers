@@ -7486,7 +7486,8 @@
   conflict: null
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: no captions exist (cached has_transcript:false); not citable
 - id: Z3ZQwue3icc
   title: 'WILD BATHROOM #dermreacts  #skincare  #dermatologist #dermangelo'
   creator: Dr. Angelo Landriscina (DermAngelo)
@@ -9303,7 +9304,8 @@
   conflict: null
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: no captions exist (cached has_transcript:false); not citable
 - id: U8ab2uTIX_A
   title: 'botox gone wrong #dermreacts  #skincare  #dermatologist #dermangelo'
   creator: Dr. Angelo Landriscina (DermAngelo)
