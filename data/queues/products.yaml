@@ -2829,7 +2829,7 @@
 - name: REMEDY Copper Peptide Firming Serum (GHK-Cu)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: remedy-science
   source: Listed on the REMEDY store product index (handle copper-peptide-firming-serum-ghkcu);
     the site has a copper-peptides page but no REMEDY product for it

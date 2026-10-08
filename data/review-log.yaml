@@ -7791,3 +7791,8 @@ giant-hogweed-burns:
   score: 8
   verdict: publish
   note: 'Main-loop self-verify (no critic; standing no-subagent instruction). 23 quotes verbatim-verified against freshly fetched PMID 35100530 + 26489718, 0 unverified. DUPLICATION CHECK FIRST: I queued this myself from phytophotodermatitis, so before drafting I checked whether it was a near-duplicate. It is not: hogweed has its own literature with genuinely distinct content (full-thickness burns and necrosis vs lime burn''s pigment marks, plus occupational exposure data from 1563 forestry workers), which is what justified a separate page. The 18-to-24-hour onset is flagged on BOTH pages as coming from a single case report, not a population estimate.'
+remedy-copper-peptide-complex-firming-serum:
+  last_reviewed: '2026-10-07'
+  score: 8
+  verdict: publish
+  note: 'Main-loop self-verify (no Opus critic; standing no-subagent instruction). 16 quotes verbatim-verified against the cached brand page, 0 unverified after fixing two partial quotes of mine. Also stopped myself silently ''correcting'' the brand''s ''Isopentyliol'' to the standard INCI spelling in prose; the page now reports their spelling as theirs. KEY STRUCTURAL FINDING: the ingredient list runs close to ALPHABETICAL from roughly position 11, the conventional signal for the 1% line, so tail positions carry no concentration information. That cuts both ways and the page says so. Also flagged the brand''s own asymmetry: three third-party studies published for its azelaic serum, none for this one.'
