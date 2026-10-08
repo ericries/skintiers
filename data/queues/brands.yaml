@@ -317,7 +317,7 @@
 - name: Lancome
   type: brand
   priority: 5
-  status: pending
+  status: done
   discovered_from: aleksandra-brown
   source: Dr. Aleksandra Brown comparison video (ejnuKJAjoIY); lancome-advanced-genifique-serum
     has a page but the brand hub does not

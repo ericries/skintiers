@@ -6422,6 +6422,18 @@ lactobionic-acid:
     '
   score: 9
   verdict: revise-then-published
+lancome:
+  assurance: sonnet
+  date: '2026-10-08'
+  notes: 'Lean brand roll-up, 148 words (cap 180). Division placement and the accented spelling
+    verified against the cached L''Oreal "Our Global Brands Portfolio" page (research-cache/web/e634e6af8e0e33f0.md);
+    every brand named in the Luxe list was checked present in the cache. NO founder asserted:
+    lancome-usa.com returns a Cloudflare interstitial and loreal.com/en/luxe/lancome/ 404s, so
+    no primary source was reachable and the page says so rather than repeating a widely-circulated
+    but unsourced claim. Product figures (price, size, grades) re-read from lancome-advanced-genifique-serum.
+    The loreal.com verify WARN is the expected soft flag for an unknown-class domain, mitigated
+    by the cache entry.'
+  reviewer: main-loop self-verification
 lancome-advanced-genifique-serum:
   last_reviewed: '2026-09-21'
   note: 'Opus critic verified ALL load-bearing facts vs cached lancome-usa.com: price $220/3.4oz-100mL
