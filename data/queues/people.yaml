@@ -277,7 +277,7 @@
 - name: Dr. Aleksandra Brown, DO, FAAD
   type: person
   priority: 5
-  status: pending
+  status: done
   discovered_from: feed
   source: Roster creator (tier HIGH, board-certified dermatologist DO/FAOCD per vetting);
     7 videos carded.

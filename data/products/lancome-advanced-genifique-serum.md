@@ -42,6 +42,18 @@ slug: lancome-advanced-genifique-serum
 status: published
 type: product
 updated: '2026-09-21'
+videos:
+- title: 'Lancome vs Estee Lauder: what luxury skincare actually buys you'
+  creator: Dr. Aleksandra Brown
+  creator_slug: aleksandra-brown
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=ejnuKJAjoIY
+  posted: '2026-09-13'
+  related: [anti-aging, retinoids, vitamin-c, sunscreen-uv-filters, peptides, niacinamide]
+  thesis: 'Board-certified dermatologist Dr. Aleksandra Brown compares the flagship luxury lines from Lancome and Estee Lauder and concludes their signature serums, eye creams, and moisturizers are built on gentle supporting ingredients like bifida ferment, peptides, and niacinamide rather than heavy-lifting actives. She argues the high prices mostly buy elegant textures, packaging, and ritual rather than superior results, since the same supporting ingredients show up in far cheaper formulas. Her bottom line for slowing visible aging at any budget is three proven workhorses: a retinoid at night, vitamin C in the morning, and daily sunscreen.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Advanced Genifique is Lancome's long-running, best-selling luxury serum, led by bifida ferment lysate (10% "Bifidus Prebiotic," by the brand's own disclosure) alongside ascorbyl glucoside (branded "Vitamin Cg"), sodium hyaluronate, and adenosine, in a base that carries alcohol denat and fragrance.[^lancome] It costs $220.00 for the single available size, 3.4 oz / 100 mL, on the brand's own site.[^lancome]

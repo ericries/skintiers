@@ -314,3 +314,17 @@
   discovered_from: remedy-15-azelaic-acid-complex-serum
   source: Dermatologist-founded brand (Dr. Muneeb Shah, a vetted creator here); first
     REMEDY product on the site, no brand page yet
+- name: Lancome
+  type: brand
+  priority: 5
+  status: pending
+  discovered_from: aleksandra-brown
+  source: Dr. Aleksandra Brown comparison video (ejnuKJAjoIY); lancome-advanced-genifique-serum
+    has a page but the brand hub does not
+- name: Estee Lauder
+  type: brand
+  priority: 5
+  status: pending
+  discovered_from: aleksandra-brown
+  source: Dr. Aleksandra Brown comparison video (ejnuKJAjoIY); estee-lauder-advanced-night-repair-serum
+    has a page but the brand hub does not
