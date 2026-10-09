@@ -152,6 +152,16 @@ videos:
   related: [niacinamide, coenzyme-q10, hyperpigmentation, anti-aging]
   thesis: 'Board-certified dermatologist Dr. Sam Ellis explains that topical vitamin C is valued for antioxidant protection and for brightening the skin by inhibiting the pigment-making enzyme tyrosinase, but that people who find it irritating or unstable can get similar antioxidant and tone-evening benefits from other ingredients. She recommends four alternatives: niacinamide (vitamin B3, which also strengthens the skin barrier and reduces pigment by blocking melanin transfer rather than its production), resveratrol, coenzyme Q10, and green tea polyphenols. She notes these can also be layered with vitamin C for enhanced results rather than only replacing it.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Do You Actually Need Vitamin C Serum? A Dermatologist Explains
+  creator: Andrea Suarez (Dr Dray)
+  creator_slug: andrea-suarez-dr-dray
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=WQrwaOFMEzc
+  posted: '2026-08-17'
+  related: [sunscreen-uv-filters, retinoids, niacinamide, hyperpigmentation, anti-aging, skinceuticals-c-e-ferulic]
+  thesis: Board-certified dermatologist Andrea Suarez (Dr Dray) works through whether a vitamin C serum is actually necessary and concludes it is not a must-have for everyone. Asked what the most evidence-based topicals are for anti-aging, pigmentation and sun damage, she puts sunscreen first and a topical retinoid second, and says she does not routinely use vitamin C herself. She presents ascorbic acid as a sensible antioxidant option for people who do not tolerate retinoids or niacinamide, and notes that the serums actually used in clinical studies, such as SkinCeuticals C E Ferulic, run roughly 100 to 120 dollars a bottle with no good evidence that they are truly superior to cheaper alternatives.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
