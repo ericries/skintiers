@@ -1538,7 +1538,7 @@
     for severe chronic hand eczema
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41277505/
 - name: Disodium laureth sulfosuccinate, mild anionic co-surfactant (sulfosuccinate

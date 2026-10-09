@@ -48,7 +48,7 @@ This ranks the chronic hand eczema treatments that have pages here. The conditio
 
 **[[tacrolimus-topical|Tacrolimus (topical calcineurin inhibitor)]].** The steroid-sparing option, useful where repeated steroid use is a problem. Same evidentiary position as corticosteroids here, resting on general eczema trials rather than hand-specific ones.
 
-**Not ranked, and worth knowing about.** Oral alitretinoin 30 mg daily is the other treatment approved for CHE by the FDA and EMA, and subcutaneous dupilumab and PUVA also appeared in the network.[^gupta] None has a page here yet, so none is graded; they are systemic, physician-managed treatments rather than skincare.
+**Not ranked, and worth knowing about.** The Gupta authors describe oral alitretinoin 30 mg daily as the other treatment "approved by the Food and Drug Administration (FDA) and European Medicines Agency (EMA) for the treatment of CHE".[^gupta] On the FDA side that does not hold up: DailyMed lists no oral alitretinoin product at all, only topical Panretin gel for an unrelated indication, as set out on [[alitretinoin]]. Treat oral alitretinoin as a real option in some countries but not a US-prescribable one. Subcutaneous dupilumab and PUVA also appeared in the network and have no pages here, so neither is graded; both are systemic, physician-managed treatments rather than skincare.
 
 **Medical note.** This is educational content, not a substitute for a clinician. Every graded option except moisturizers is prescription-only, and persistent hand eczema with cracking, pain, or a workplace cause behind it needs a real assessment.
 
