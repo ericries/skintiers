@@ -1988,3 +1988,11 @@
   source: The other FDA-approved topical JAK inhibitor; delgocitinib is pan-JAK (JAK1/2/3+TYK2)
     per its DailyMed label, so the selective-vs-pan contrast needs the comparison
     page
+- name: Alitretinoin (oral, 9-cis-retinoic acid, Toctino)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: best-chronic-hand-eczema-treatments
+  source: The OTHER treatment approved by FDA and EMA for chronic hand eczema alongside
+    delgocitinib, per Gupta 2025 NMA (PMID 41277505); oral systemic, so it belongs
+    to the deferred non-topical phase but the CHE tier list names it ungraded

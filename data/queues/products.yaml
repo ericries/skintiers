@@ -2840,3 +2840,11 @@
   discovered_from: remedy-science
   source: Listed on the REMEDY store product index (handle dark-circle-reducing-advanced-eye-cream);
     the site has a dark-circles goal hub
+- name: Pimecrolimus 1% cream (Elidel)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: best-chronic-hand-eczema-treatments
+  source: Named in Gupta 2025 full text (PMC12641463) as a CHE-studied calcineurin
+    inhibitor (Bauer et al., 8-week HECSI); the pimecrolimus ingredient page exists
+    and chronic-hand-eczema links it, but no product page does

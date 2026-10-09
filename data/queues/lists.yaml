@@ -255,7 +255,7 @@
 - name: Best Chronic Hand Eczema Treatments (by Evidence)
   type: list
   priority: 5
-  status: pending
+  status: done
   discovered_from: delgocitinib
   source: chronic-hand-eczema has NO tier_list, yet delgocitinib, topical-corticosteroids
     and tacrolimus-topical all have pages and Gupta 2025 NMA ranks them (PMID 41277505)
