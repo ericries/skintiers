@@ -284,7 +284,7 @@
 - name: John Barbieri, MD
   type: person
   priority: 5
-  status: pending
+  status: done
   discovered_from: feed
   source: Roster creator (tier HIGH, board-certified dermatologist, academic affiliation
     recorded at vetting); 5 videos carded. A research-active derm, so the card should
