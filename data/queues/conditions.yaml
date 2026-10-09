@@ -304,7 +304,7 @@
 - name: 'Skin cancer basics: what a dermatologist checks for'
   type: condition
   priority: 5
-  status: pending
+  status: done
   discovered_from: fluorouracil-topical
   source: This drug is approved for superficial basal cell carcinoma and the site
     has no skin-cancer hub; actinic-keratosis exists but BCC has nowhere to live
@@ -332,3 +332,11 @@
   source: 'Named in the Anzupgo SPL warning: ''Eczema herpeticum was observed in a
     subject treated topically with ANZUPGO'' (DailyMed setid a59bf36e-6f04-4b47-b385-8040c95f040c);
     no hub exists'
+- name: Keratinocyte carcinoma (umbrella term for BCC and SCC)
+  type: condition
+  priority: 5
+  status: pending
+  discovered_from: skin-cancer-screening
+  source: The term the NCI PDQ uses throughout for BCC+SCC combined (5.4M cases in
+    2012); the site has separate basal-cell-carcinoma and squamous-cell-carcinoma
+    pages but no page explaining the umbrella term readers will meet in the literature

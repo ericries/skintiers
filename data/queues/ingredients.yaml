@@ -1996,3 +1996,12 @@
   source: The OTHER treatment approved by FDA and EMA for chronic hand eczema alongside
     delgocitinib, per Gupta 2025 NMA (PMID 41277505); oral systemic, so it belongs
     to the deferred non-topical phase but the CHE tier list names it ungraded
+- name: Dermoscopy
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: skin-cancer-screening
+  source: 'NCI Skin Cancer Screening PDQ has an ''Accuracy of Making a Clinical Diagnosis
+    of Melanoma'' section; dermoscopy is the standard adjunct to naked-eye examination
+    and has no page here. NOTE: a technique, not a topical - check type fit before
+    drafting'
