@@ -2843,7 +2843,7 @@
 - name: Pimecrolimus 1% cream (Elidel)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: best-chronic-hand-eczema-treatments
   source: Named in Gupta 2025 full text (PMC12641463) as a CHE-studied calcineurin
     inhibitor (Bauer et al., 8-week HECSI); the pimecrolimus ingredient page exists

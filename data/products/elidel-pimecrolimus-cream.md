@@ -25,7 +25,7 @@ name: Elidel (Pimecrolimus 1% Cream)
 slug: elidel-pimecrolimus-cream
 status: published
 type: product
-updated: '2026-08-30'
+updated: '2026-10-09'
 videos: []
 ---
 
@@ -59,7 +59,7 @@ The boxed warning states: "Although a causal relationship has not been establish
 
 ## See Also
 
-[[pimecrolimus]] [[tacrolimus-topical]] [[atopic-dermatitis]]
+[[pimecrolimus]] [[tacrolimus-topical]] [[atopic-dermatitis]] [[chronic-hand-eczema]] [[best-chronic-hand-eczema-treatments]]
 
 ## Where to Buy
 
