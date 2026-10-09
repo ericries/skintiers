@@ -707,7 +707,7 @@
     atopic dermatitis:  (PMID 40973120)'
   type: study
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/40973120/
 - name: Thanawala 2025 Efficacy and Safety of an Oral Low-Dose Water-Dispersible Turmeric
