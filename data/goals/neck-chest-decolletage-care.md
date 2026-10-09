@@ -55,6 +55,16 @@ videos:
   related: [retinoids, tretinoin, adapalene, tazarotene, anti-aging]
   thesis: Board-certified dermatologist Dr. Andrea Suarez (Dr Dray) explains that skin is not uniform across the body, and the neck in particular has thin, delicate skin with fewer oil glands, which is why retinoids (prescription tretinoin, tazarotene, or trifarotene, over-the-counter adapalene, or cosmetic retinol and retinaldehyde) are more likely to cause a dry, itchy, flaky reaction there than on the face. She says you can use them on the neck but should introduce them far more conservatively than on the face, starting at a lower frequency and building up slowly. She adds that even after ten years of facial retinoid use, applying them to her own neck still tends to backfire.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: The skin on your neck, chest, and hands is thinner than the skin on your face
+  creator: Fatima Fahs
+  creator_slug: fatima-fahs
+  credential: Dermatologist (MD)
+  platform: TikTok
+  url: https://www.tiktok.com/@dermydoctor/video/7694625374474407181
+  posted: '2026-10-09'
+  related: [anti-aging, moisturizing]
+  thesis: Dermatologist Fatima Fahs makes the case for treating the neck, chest and hands as part of a skincare routine rather than an afterthought, saying they are among the first places to show age and usually the last that people care for. She notes that patients come to her wanting these areas addressed once the skin already looks creped and leathery, at which point the options she describes are procedural, including laser resurfacing and biostimulatory fillers. Her practical advice is simply to drag whatever is already in the routine downward onto those areas, naming a cleanser, an exfoliant, a moisturizer, or an antioxidant-rich body oil, so the areas never fall that far behind.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

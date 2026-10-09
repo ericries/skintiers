@@ -10929,7 +10929,8 @@
   conflict: Founder/owner of active postpartum skincare brand "More Than Nine" (cleanser, exfoliator, moisturizer, balm) — an ongoing own-bran
   posted: '2026-10-08'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: personal narrative about the creator's own wrinkles, not a single-topic explainer
 - id: 5WRmgIQe6z0
   title: 'EADV: 95% of Viral "Glass Skin" videos are Misleading'
   creator: Dr. Aleksandra Brown, DO, FAAD
@@ -11020,7 +11021,8 @@
   conflict: Bio includes a business/booking contact email suggesting managed brand partnerships; no confirmed own-brand line or affiliate stor
   posted: '2026-10-09'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: vague before/after framing, no single identifiable topic
 - id: oA-GJp57P6M
   title: Affordable Skincare Routine for Teenagers
   creator: Dr. Daniel Sugai
@@ -11098,7 +11100,8 @@
   conflict: 'Runs #ad sponsored posts (e.g. TruSkin) and Target skincare hauls/reviews; prefer her educational ingredient-category and barrier-repair explainers, and treat product recommendations as effectively promotional (skip).'
   posted: '2026-10-09'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: vague clickbait caption, no single identifiable topic
 - id: '7694385582616743182'
   title: A 2021 study found that sunscreen coverage decreased over time, with ...
   creator: Jenn Lexi (@jennlexi_)
@@ -11176,7 +11179,8 @@
   conflict: Self-describes as a "Key Opinion Leader for industry beauty companies" (per her own practice bio) and most sampled TikTok videos e; no YouTube; TikTok/IG intake
   posted: '2026-10-09'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: comment-to-DM funnel ('Comment DPP to watch'), a standing exclusion
 - id: thc_uSsMoeQ
   title: '#191) Decoding Peptides with DECIEM''s Rita Silva: What Does the Science Say? | Chemist Confessions'
   creator: Chemist Confessions (Victoria Fu and Gloria Lu)
@@ -11202,7 +11206,8 @@
   conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan and reject any sponsored/affiliate/gifted video
   posted: '2026-10-09'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: promotional haul with tagged brand handles (@byoma @method)
 - id: '7694424488779271437'
   title: What category should we do next?? @bareMinerals @METHODIQ @COVERGIRL ...
   creator: Ella (@your.estie.ella)
