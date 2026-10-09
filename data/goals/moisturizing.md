@@ -12,67 +12,106 @@ tier_list:
   - hyaluronic-acid
   - ceramides
   - dimethicone
+  - mineral-oil
+  - urea
+  - panthenol
   - colloidal-oatmeal
+  - shea-butter
   - argan-oil
+  - squalane
   - allantoin
   title: Moisturizing ingredients by evidence
+tier_list_reviewed:
+- abrocitinib
+- aestura-atobarrier-365-cream
+- aestura-atobarrier-365-cream-mist
+- aestura-atobarrier-365-hydro-cera-ha-ampoule
+- aestura-atobarrier-365-hydro-soothing-gel-cream
+- aestura-atobarrier-365-lotion
+- anua-heartleaf-77-soothing-toner
+- anua-rice-70-moisturizing-milk
 type: goal
-updated: '2026-09-06'
+updated: '2026-10-08'
 videos:
 - creator: ''
   creator_slug: ife-rodney
   credential: ''
-  note: Verified from the video's TikTok transcript (yt-dlp captions, read in full);
-    no sponsorship.
+  note: Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship.
   platform: TikTok
   posted: '2026-07-28'
   related:
   - skin-barrier-repair
-  thesis: Dr. Ife Rodney, a board-certified dermatologist, explains that eczema flares
-    can have more than one trigger because a disrupted skin barrier leaves skin more
-    prone to dryness, inflammation, and allergic reactions to fragrances and dyes
-    in detergents, lotions, and soaps. She recommends a bland, fragrance-free moisturizer
-    applied within three minutes of showering and reapplied throughout the day whenever
-    skin feels dry or itchy.
+  thesis: Dr. Ife Rodney, a board-certified dermatologist, explains that eczema flares can have
+    more than one trigger because a disrupted skin barrier leaves skin more prone to dryness,
+    inflammation, and allergic reactions to fragrances and dyes in detergents, lotions, and soaps.
+    She recommends a bland, fragrance-free moisturizer applied within three minutes of showering
+    and reapplied throughout the day whenever skin feels dry or itchy.
   title: If your eczema keeps flaring, there may be more than one trigger
   url: https://www.tiktok.com/@dr.iferodney/video/7667674410001698062
-- title: Chemist Breaks Down CONFUSING Skincare Ingredient Labels
-  creator: Javon Ford
+- creator: Javon Ford
   creator_slug: javon-ford
   credential: Cosmetic chemist
-  platform: YouTube
-  url: https://www.youtube.com/watch?v=RQEmrTLJOag
   duration: 428
-  posted: '2019-09-29'
-  related: [glycerin, hyaluronic-acid, dimethicone, best-moisturizing-ingredients-ranked]
-  thesis: 'Cosmetic chemist Javon Ford explains that most skincare products (toners, moisturizers, serums) are built from three functional ingredient categories: humectants (water-binders like glycerin, propylene glycol, and hyaluronic acid), emollients (moisturizing oils, butters, silicones, and esters that add slip), and occlusives (barrier-formers like petrolatum, mineral oil, and large-molecule polymers that seal water in). He clarifies that "hydrating" (adding water via humectants) is distinct from "moisturizing" (sealing it in via emollients/occlusives), and that oil-free products can still clog pores if they contain comedogenic esters like isopropyl myristate. He also debunks the idea that topical collagen boosts the skin''s own collagen production, explaining collagen''s molecule is too large to absorb and instead functions as an occlusive. He then reads the ingredient lists of Neutrogena''s Hydro Boost Water Gel and a La Roche-Posay hydrating cleanser to demonstrate applying this
-    framework.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
-- title: Lotion vs. Cream Explained
-  creator: Dr. Onyeka Obioha-Lolagne, MD, FAAD (Dr. Onyeka Obioha)
+  platform: YouTube
+  posted: '2019-09-29'
+  related:
+  - glycerin
+  - hyaluronic-acid
+  - dimethicone
+  - best-moisturizing-ingredients-ranked
+  thesis: 'Cosmetic chemist Javon Ford explains that most skincare products (toners, moisturizers,
+    serums) are built from three functional ingredient categories: humectants (water-binders like
+    glycerin, propylene glycol, and hyaluronic acid), emollients (moisturizing oils, butters,
+    silicones, and esters that add slip), and occlusives (barrier-formers like petrolatum, mineral
+    oil, and large-molecule polymers that seal water in). He clarifies that "hydrating" (adding
+    water via humectants) is distinct from "moisturizing" (sealing it in via emollients/occlusives),
+    and that oil-free products can still clog pores if they contain comedogenic esters like isopropyl
+    myristate. He also debunks the idea that topical collagen boosts the skin''s own collagen
+    production, explaining collagen''s molecule is too large to absorb and instead functions as
+    an occlusive. He then reads the ingredient lists of Neutrogena''s Hydro Boost Water Gel and
+    a La Roche-Posay hydrating cleanser to demonstrate applying this framework.'
+  title: Chemist Breaks Down CONFUSING Skincare Ingredient Labels
+  url: https://www.youtube.com/watch?v=RQEmrTLJOag
+- creator: Dr. Onyeka Obioha-Lolagne, MD, FAAD (Dr. Onyeka Obioha)
   creator_slug: onyeka-obioha-lolagne
   credential: Dermatologist
-  platform: TikTok
-  url: https://www.tiktok.com/@dr.obioha/video/7319228517504339242
   duration: 64
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+  platform: TikTok
   posted: '2024-01-01'
   related: []
-  thesis: Dermatologist Dr. Onyeka Obioha explains that lotions are water based while creams are oil based, so creams contain less water and more oil and are more effective at hydrating and nourishing the skin barrier. She recommends packing a fragrance free cream when traveling instead of using hotel-provided lotions, since fragrance can attract mosquito bites and thin, water-based lotions moisturize less effectively than creams
-  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
-- title: Dermatologist Explains The Best Moisturizers For 2026 (not what you think)
-  creator: Dr. Abigail Waldman (Dr. Abby)
+  thesis: Dermatologist Dr. Onyeka Obioha explains that lotions are water based while creams are
+    oil based, so creams contain less water and more oil and are more effective at hydrating and
+    nourishing the skin barrier. She recommends packing a fragrance free cream when traveling
+    instead of using hotel-provided lotions, since fragrance can attract mosquito bites and thin,
+    water-based lotions moisturize less effectively than creams
+  title: Lotion vs. Cream Explained
+  url: https://www.tiktok.com/@dr.obioha/video/7319228517504339242
+- creator: Dr. Abigail Waldman (Dr. Abby)
   creator_slug: abigail-waldman
-  credential: Abigail H. Waldman, MD, FAAD; Associate Professor of Dermatology at Harvard Medical School; Director of the Mohs and Dermatologic Surgery Center at Brigham and Women's Hospital
-  platform: YouTube
-  url: https://www.youtube.com/watch?v=eRpKXfpC1mA
+  credential: Abigail H. Waldman, MD, FAAD; Associate Professor of Dermatology at Harvard Medical
+    School; Director of the Mohs and Dermatologic Surgery Center at Brigham and Women's Hospital
   duration: 1431
-  posted: '2026-06-20'
-  related: [ceramides, hyaluronic-acid, petrolatum, skin-barrier-repair]
-  thesis: Board-certified dermatologist and Harvard/Brigham Mohs surgeon Dr. Abigail Waldman argues the best moisturizer is not the most popular one or the one labeled for your skin type, but the one matched to how dry or dehydrated your skin is right now. She walks through skin-barrier structure to distinguish humectants that pull in water (like the hyaluronic acid in La Roche-Posay formulas), the ceramides that repair the barrier (as in CeraVe Moisturizing Cream), and heavy occlusives like petrolatum (Vaseline, Aquaphor, CeraVe Healing Ointment) for very compromised skin, plus lighter mattifying options (La Roche-Posay Effaclar Mat) for oily skin. Her takeaway is to choose by your skin's current dryness and barrier state rather than by marketing.
   note: Verified from the video transcript (yt-dlp, read in full); no sponsorship.
-
+  platform: YouTube
+  posted: '2026-06-20'
+  related:
+  - ceramides
+  - hyaluronic-acid
+  - petrolatum
+  - skin-barrier-repair
+  thesis: Board-certified dermatologist and Harvard/Brigham Mohs surgeon Dr. Abigail Waldman argues
+    the best moisturizer is not the most popular one or the one labeled for your skin type, but
+    the one matched to how dry or dehydrated your skin is right now. She walks through skin-barrier
+    structure to distinguish humectants that pull in water (like the hyaluronic acid in La Roche-Posay
+    formulas), the ceramides that repair the barrier (as in CeraVe Moisturizing Cream), and heavy
+    occlusives like petrolatum (Vaseline, Aquaphor, CeraVe Healing Ointment) for very compromised
+    skin, plus lighter mattifying options (La Roche-Posay Effaclar Mat) for oily skin. Her takeaway
+    is to choose by your skin's current dryness and barrier state rather than by marketing.
+  title: Dermatologist Explains The Best Moisturizers For 2026 (not what you think)
+  url: https://www.youtube.com/watch?v=eRpKXfpC1mA
 ---
-
 Moisturizing means applying a product that slows water loss from skin and adds water back to it. It is one of the best-evidenced interventions in dermatology, especially for eczema (also called [[atopic-dermatitis]]) and other barrier-impaired skin. A Cochrane review found that keeping such skin hydrated and occluded (sealed against water loss) reduces eczema flares and spares topical corticosteroids [^1]. Two mechanisms do the work: slowing water loss at the surface, and binding water there.
 
 ## The Evidence
