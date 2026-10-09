@@ -6,7 +6,7 @@ slug: tretinoin
 status: published
 tier: top
 type: ingredient
-updated: '2026-07-27'
+updated: '2026-10-09'
 videos:
 - title: "How to Layer Anti-aging Prescriptions (Tretinoin & Hydroquinone)"
   creator: "Dr. Shereene Idriss"
@@ -227,7 +227,7 @@ Grades differ by indication. Framing below is relative and names comparators.
 
 ## What We Actually Know
 
-Tretinoin has independently replicated, vehicle-controlled evidence for improving photoaged skin: in the foundational JAMA trial every one of 30 patients improved on tretinoin-treated skin and not on vehicle-treated skin, and a 2025 meta-analysis of 8 RCTs (1,361 patients) confirmed significant improvement in both fine and coarse wrinkles versus vehicle.[^2][^3] It is also a bona fide first-line topical for mild-to-moderate acne, though as monotherapy its effect is modest and it is bettered by combining it with benzoyl peroxide.[^5] Two honest limits sit alongside these strengths. First, the benefit is partial and slow rather than restorative. The manufacturer's own low-strength label states in capital letters that the product does not eliminate wrinkles or reverse photoaging.[^4] Second, benefits scale with irritation: the higher 0.1% concentration is no more effective than 0.025% for photoaging but is significantly more irritating.[^1]
+Tretinoin has independently replicated, vehicle-controlled evidence for improving photoaged skin: in the foundational JAMA trial every one of 30 patients improved on tretinoin-treated skin and not on vehicle-treated skin, and a 2025 meta-analysis of 8 RCTs (1,361 patients) confirmed significant improvement in both fine and coarse wrinkles versus vehicle.[^2][^3] It is also a bona fide first-line topical for mild-to-moderate acne, though as monotherapy its effect is modest and it is bettered by combining it with benzoyl peroxide.[^5] Two honest limits sit alongside these strengths. First, the benefit is partial and slow rather than restorative. The manufacturer's own low-strength label states in capital letters that the product does not eliminate wrinkles or reverse photoaging.[^4] Second, more irritation does not buy more benefit: in a double-blind vehicle-controlled comparison, 0.1% tretinoin was no more effective than 0.025% for photoaging while being significantly more irritating.[^1] That holds for photoaging at those two strengths, and is not a general rule about every strength or every use.
 
 ## How It Works
 
