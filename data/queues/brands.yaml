@@ -324,7 +324,7 @@
 - name: Estee Lauder
   type: brand
   priority: 5
-  status: pending
+  status: done
   discovered_from: aleksandra-brown
   source: Dr. Aleksandra Brown comparison video (ejnuKJAjoIY); estee-lauder-advanced-night-repair-serum
     has a page but the brand hub does not
