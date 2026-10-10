@@ -20,6 +20,16 @@ videos:
   thesis: Board-certified dermatologist Dr. Adeline Kikam (Brown Skin Derm), joined by hairstylist Oakley, reviews 2022 TikTok trends and says which should stay in 2022. On slugging, she says she is not against it, explains it is meant to lock in moisture with an occlusive like petroleum jelly (or shea butter, jojoba oil) at night, recommends washing off excess oil with a salicylic acid cleanser first if skin is oily and always starting from a clean, makeup-free face to avoid trapping dirt. On skin cycling, she says she has no problem with the concept of rotating exfoliant/retinoid/recovery nights, but cautions that for people with mature skin, fine lines, wrinkles, or melasma, applying retinoids only once every four days is too infrequent for aggressive results and recommends about three to four times a week instead. She also rejects using hemorrhoid cream (phenylephrine) under the eyes as unsafe for that sensitive area and instead recommends caffeine, cold coffee grounds, tea bags, or
     chilled cucumbers for de-puffing, and calls vabbing, period facials, and perineum sunning unscientific and not recommended.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: 'Dermatologist WARNING: Stop Using Vaseline on Your Face Until You Watch This'
+  creator: Dr. Dustin Portela
+  creator_slug: dustin-portela
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=ohpyEN1IQhU
+  posted: '2025-11-02'
+  related: [glass-skin, skin-barrier-repair, moisturizing, acne, atopic-dermatitis, milia]
+  thesis: 'Board-certified dermatologist Dr. Dustin Portela explains what petroleum jelly does and does not do when used for slugging, the trend of applying a thin layer as the last step at night. His central point is that petroleum jelly is strictly an occlusive and contains no humectants such as glycerin or urea, so it does not add water to skin; it traps water already there, which he says studies show can reduce water loss by up to 99%. He describes seeing patients with milia, bacterial infections and deep cystic acne from doing it wrong, and sorts candidates accordingly: reasonable for dry skin that is not acne prone, for cold dry winters, and alongside eczema care with a doctor''s guidance, but a poor idea if you are treating acne, since active ingredients get trapped underneath. He also rejects the online claim that cosmetic petroleum jelly carries a cancer risk from aromatic hydrocarbons.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
