@@ -1,23 +1,24 @@
 ---
 analyzed: '2026-09-17'
 assurance: opus
+brand: Anua
 category: Moisturizers
 comparator: other lightweight Korean milky lotions
 grades:
 - effect: minimal
   evidence: preliminary
-  note: 'health: general topical niacinamide evidence for skin barrier support and
-    lower water loss is set out on [[niacinamide]]; this milk pairs it with five ceramide
-    types, hyaluronic acid, cholesterol, and phytosphingosine, but those barrier lipids
-    all sit in the bottom third of a 51-ingredient list and no trial tests this formula'
+  note: 'health: general topical niacinamide evidence for skin barrier support and lower water
+    loss is set out on [[niacinamide]]; this milk pairs it with five ceramide types, hyaluronic
+    acid, cholesterol, and phytosphingosine, but those barrier lipids all sit in the bottom third
+    of a 51-ingredient list and no trial tests this formula'
   use: Skin barrier support and hydration (health)
 - effect: minimal
   evidence: preliminary
-  note: 'cosmetic: niacinamide sits fifth on the ingredient list with no declared
-    concentration; niacinamide''s evidenced pigment effect on [[niacinamide]] is for
-    facial hyperpigmentation specifically, not the generic glow this lotion markets,
-    the rice bran water base and separate rice extract have no cited trial, and the
-    brand''s own "101.688%" glow figure discloses no method or sample size'
+  note: 'cosmetic: niacinamide sits fifth on the ingredient list with no declared concentration;
+    niacinamide''s evidenced pigment effect on [[niacinamide]] is for facial hyperpigmentation
+    specifically, not the generic glow this lotion markets, the rice bran water base and separate
+    rice extract have no cited trial, and the brand''s own "101.688%" glow figure discloses no
+    method or sample size'
   use: Glow and "glass skin" appearance (cosmetic)
 images:
 - file: anua-rice-70-moisturizing-milk-anua.jpg
@@ -43,7 +44,7 @@ price:
 slug: anua-rice-70-moisturizing-milk
 status: published
 type: product
-updated: '2026-09-17'
+updated: '2026-10-10'
 ---
 
 Anua Rice 70 Intensive Moisturizing Milk is a lightweight, fragrance-marketed Korean lotion built on a rice bran water base, carrying niacinamide fifth on a 51-ingredient list alongside five ceramide types, hyaluronic acid, and squalane, sold in a 150 ml bottle for $19 to $20.[^anua][^stylevana]
