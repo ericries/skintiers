@@ -50,6 +50,16 @@ videos:
   related: [double-cleansing, retinoids, sunscreen-uv-filters, vitamin-c, minimalist-routine, how-often-to-wash-your-face]
   thesis: 'Harvard academic dermatologist Dr. Abigail Waldman lays out a step-by-step, science-backed skincare routine as a method rather than a product list. She walks through the order: a cleanser (with an optional oil or balm double cleanse for makeup or heavy oil), an optional exfoliating toner, serums grouped by job (an antioxidant like vitamin C in the morning, dark-spot correctors, peptides, and hydrating serums), moisturizer, and sunscreen in the morning, with retinoids and chemical exfoliants singled out as the two high-reward actives to introduce slowly and never overuse. Her core message is to understand when and why to use each product you already own rather than buying more.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Keep your treatments consistent for real results
+  creator: Ella
+  creator_slug: your-estie-ella
+  credential: Licensed esthetician (NOT a dermatologist or cosmetic chemist)
+  platform: TikTok
+  url: https://www.tiktok.com/@your.estie.ella/video/7694716736137891085
+  posted: '2026-10-09'
+  related: [minimalist-routine, acne, hyperpigmentation, anti-aging]
+  thesis: 'Licensed esthetician Ella argues against rotating the products you actually expect results from, and corrects a specific belief while doing it: she says it is a myth that skin gets used to a product. Her explanation is that what changes is the skin rather than its tolerance, through ageing, a move to a different environment, or a shift in hormones, so a routine needs adjusting when life changes rather than on a schedule. Her practical point is that the products aimed at the three slow targets she names, acne, pigmentation and ageing, should stay in place long enough to work, because no real change in skin happens overnight.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

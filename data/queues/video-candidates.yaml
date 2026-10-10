@@ -11127,7 +11127,8 @@
   conflict: runs an Amazon affiliate storefront and does sponsored posts - strongly prefer educational / how-to / ingredient-explainer videos; be very cautious with any product recommendation
   posted: '2026-10-08'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: Kristin Leite comparison treated as effectively paid (affiliate storefront)
 - id: GGj5jPns6TQ
   title: 'Want to improve skin tone below the neck? Try @cerave Brightening Vitamin C Lotion #ceravepartner'
   creator: Dr. Neera Nathan
@@ -11272,7 +11273,8 @@
   conflict: Founder/owner of active postpartum skincare brand "More Than Nine" (cleanser, exfoliator, moisturizer, balm) — an ongoing own-bran
   posted: '2026-10-09'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: personal mom-of-3 narrative from a creator with an active own-brand postpartum line; not a single-topic explainer
 - id: Qorh_VfLTRo
   title: Derm Rates Peptide Serums
   creator: Dr. Aleksandra Brown, DO, FAAD
@@ -11428,7 +11430,8 @@
   conflict: runs an Amazon affiliate storefront and does sponsored posts - strongly prefer educational / how-to / ingredient-explainer videos; be very cautious with any product recommendation
   posted: '2026-10-09'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: Kristin Leite comparison/picks treated as effectively paid (affiliate storefront)
 - id: '7694775705518869790'
   title: Name a better feeling 😂
   creator: ''
@@ -11441,7 +11444,8 @@
   conflict: null
   posted: '2026-10-09'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: caption names no topic ('Name a better feeling')
 - id: '7694704322122239263'
   title: 🖇️ Comment BOTOX for the full list on botox “alternatives” While ther...
   creator: Dr. Sheila Farhang (dr.sheila_derm)
@@ -11454,7 +11458,8 @@
   conflict: Self-describes as a "Key Opinion Leader for industry beauty companies" (per her own practice bio) and most sampled TikTok videos e; no YouTube; TikTok/IG intake
   posted: '2026-10-09'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: comment-to-DM funnel ('Comment BOTOX for the full list'), a standing exclusion
 - id: '7694716736137891085'
   title: 'Keep your treatments consistent for real results!! '
   creator: Ella (@your.estie.ella)
