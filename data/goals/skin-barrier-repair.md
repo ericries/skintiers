@@ -5,80 +5,94 @@ name: Repairing a disrupted skin barrier
 slug: skin-barrier-repair
 status: published
 tier_list:
-  by: how well each supports rebuilding a disrupted skin barrier, structuring this
-    page's own Tier 1 to Tier 2 ranking; occlusion and humectancy plus the physiological
-    barrier lipids do the most work, and time drives the underlying recovery. The
-    finished products below each inherit the tier of the ranked active they deliver
-    (an occlusive or a ceramide-and-humectant base, not a product-specific barrier trial)
+  by: how well each supports rebuilding a disrupted skin barrier, structuring this page's own
+    Tier 1 to Tier 2 ranking; occlusion and humectancy plus the physiological barrier lipids do
+    the most work, and time drives the underlying recovery. The finished products below each inherit
+    the tier of the ranked active they deliver (an occlusive or a ceramide-and-humectant base,
+    not a product-specific barrier trial)
   items:
-  - note: The most occlusive foundation, cutting transepidermal water loss more than
-      any other common ingredient and buying the barrier time to re-form its own lipids.
+  - note: The most occlusive foundation, cutting transepidermal water loss more than any other
+      common ingredient and buying the barrier time to re-form its own lipids.
     slug: petrolatum
     tier: strong
-  - note: A well-studied humectant that draws and holds water in the stratum corneum;
-      a core part of the supportive foundation, especially sealed under an occlusive.
+  - note: A well-studied humectant that draws and holds water in the stratum corneum; a core part
+      of the supportive foundation, especially sealed under an occlusive.
     slug: glycerin
     tier: strong
-  - note: A humectant that raises surface hydration and helps narrow the water-loss
-      gradient; works best layered under an occlusive rather than on its own.
+  - note: A humectant that raises surface hydration and helps narrow the water-loss gradient;
+      works best layered under an occlusive rather than on its own.
     slug: hyaluronic-acid
     tier: strong
-  - note: A core barrier lipid; replenishing ceramides (ideally with cholesterol and
-      fatty acids) helps rebuild the lipid matrix the barrier is made of.
+  - note: A core barrier lipid; replenishing ceramides (ideally with cholesterol and fatty acids)
+      helps rebuild the lipid matrix the barrier is made of.
     slug: ceramides
     tier: strong
-  - note: Soothing and mildly barrier-supportive with reasonable evidence for irritated
-      and eczema-prone skin; a reliable adjunct rather than the foundation.
+  - note: Soothing and mildly barrier-supportive with reasonable evidence for irritated and eczema-prone
+      skin; a reliable adjunct rather than the foundation.
     slug: colloidal-oatmeal
     tier: moderate
-  - note: Supports barrier lipid synthesis and lowers water loss at around 2 to 5
-      percent; a reliable adjunct that complements the occlusive and humectant base.
+  - note: Supports barrier lipid synthesis and lowers water loss at around 2 to 5 percent; a reliable
+      adjunct that complements the occlusive and humectant base.
     slug: niacinamide
     tier: moderate
-  - note: One of the three physiological barrier lipids; most useful alongside ceramides
-      and free fatty acids in a balanced ratio rather than alone.
+  - note: One of the three physiological barrier lipids; most useful alongside ceramides and free
+      fatty acids in a balanced ratio rather than alone.
     slug: cholesterol
     tier: moderate
-  - note: A sphingoid-base lipid that feeds into ceramide production; a smaller supportive
-      lever within a barrier-repair formula.
+  - note: A sphingoid-base lipid that feeds into ceramide production; a smaller supportive lever
+      within a barrier-repair formula.
     slug: phytosphingosine
     tier: moderate
-  - note: Cica extract with soothing and antioxidant support for compromised skin;
-      a modest adjunct, not a barrier-rebuilding foundation.
+  - note: Cica extract with soothing and antioxidant support for compromised skin; a modest adjunct,
+      not a barrier-rebuilding foundation.
     slug: centella-asiatica
     tier: moderate
-  - note: The site's faithful example of the Tier 1 ceramide-and-humectant moisturizer,
-      pairing ceramides with glycerin and hyaluronic acid in a petrolatum-containing base.
+  - note: Its own page puts its best-supported role as soothing and short-term barrier and wound
+      recovery, which is exactly this list, though it is an adjunct inside a moisturizer rather
+      than a stand-alone repair agent.
+    slug: panthenol
+    tier: moderate
+  - note: The site's faithful example of the Tier 1 ceramide-and-humectant moisturizer, pairing
+      ceramides with glycerin and hyaluronic acid in a petrolatum-containing base.
     slug: cerave-moisturizing-cream
     tier: strong
-  - note: A petrolatum-based skin-protectant ointment, delivering the strongest occlusive
-      here to cut water loss while the barrier re-forms.
+  - note: A petrolatum-based skin-protectant ointment, delivering the strongest occlusive here
+      to cut water loss while the barrier re-forms.
     slug: cerave-healing-ointment
     tier: strong
-  - note: A ceramide-focused barrier moisturizer, delivering the physiological barrier
-      lipids that rebuild the lipid matrix.
+  - note: A ceramide-focused barrier moisturizer, delivering the physiological barrier lipids
+      that rebuild the lipid matrix.
     slug: aestura-atobarrier-365-cream
     tier: strong
-  - note: A ceramide-and-niacinamide moisturizer, combining the barrier lipids with the
-      lipid-synthesis adjunct in one leave-on cream.
+  - note: A ceramide-and-niacinamide moisturizer, combining the barrier lipids with the lipid-synthesis
+      adjunct in one leave-on cream.
     slug: la-roche-posay-toleriane
     tier: strong
-  - note: A plain fragrance-free humectant cream moisturizer; a solid basic emollient
-      without the ceramide punch of the strong-tier creams.
+  - note: A plain fragrance-free humectant cream moisturizer; a solid basic emollient without
+      the ceramide punch of the strong-tier creams.
     slug: cetaphil-moisturizing-cream
     tier: moderate
-  - note: A panthenol-based barrier-repair balm; panthenol has real if modest evidence
-      for speeding barrier repair and calming redness after an irritant insult.
+  - note: A panthenol-based barrier-repair balm; panthenol has real if modest evidence for speeding
+      barrier repair and calming redness after an irritant insult.
     slug: la-roche-posay-cicaplast-baume-b5
     tier: moderate
   title: Barrier-repair ingredients by evidence
+tier_list_reviewed:
+- benzoyl-peroxide
+- cerave-hydrating-mineral-sunscreen-spf-50
+- cerave-resurfacing-retinol-serum
+- cetaphil-gentle-skin-cleanser
+- madecassoside
+- pdrn
+- peptides
 type: goal
-updated: '2026-09-11'
+updated: '2026-10-09'
 videos:
 - creator: Kristin Leite
   creator_slug: kristin-leite
-  credential: Beauty product developer and skincare educator (NOT a dermatologist
-    or cosmetic chemist)
+  credential: Beauty product developer and skincare educator (NOT a dermatologist or cosmetic
+    chemist)
+  duration: 65
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
   platform: TikTok
   posted: '2026-08-04'
@@ -89,42 +103,40 @@ videos:
   - ceramides
   - panthenol
   - houttuynia-cordata
-  thesis: 'Beauty product developer Kristin Leite (not a dermatologist or chemist)
-    explains that skin barrier repair products all work differently even when they
-    are marketed the same way, so the goal is finding the ingredient that suits you.
-    She walks through several barrier-supporting ingredients and what each does: EGF
-    as a signalling protein that tells skin to repair itself, centella (with alternatives
-    like heartleaf or mugwort) to calm redness and inflammation, ceramides for moisture
-    and hydration retention, and panthenol to reduce water loss through the skin.
-    Her takeaway is that everyone benefits from barrier care, not only people with
-    dry or acne-prone skin.'
+  thesis: 'Beauty product developer Kristin Leite (not a dermatologist or chemist) explains that
+    skin barrier repair products all work differently even when they are marketed the same way,
+    so the goal is finding the ingredient that suits you. She walks through several barrier-supporting
+    ingredients and what each does: EGF as a signalling protein that tells skin to repair itself,
+    centella (with alternatives like heartleaf or mugwort) to calm redness and inflammation, ceramides
+    for moisture and hydration retention, and panthenol to reduce water loss through the skin.
+    Her takeaway is that everyone benefits from barrier care, not only people with dry or acne-prone
+    skin.'
   title: The truth about skin barrier repair
   url: https://www.tiktok.com/@kristingl/video/7670192887124086030
-  duration: 65
 - creator: Dr. Sam Ellis
   creator_slug: samantha-ellis
   credential: Board-certified dermatologist
+  duration: 601
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
   platform: YouTube
   posted: '2026-03-13'
   related:
   - atopic-dermatitis
   - rosacea
-  thesis: Board-certified dermatologist Dr. Sam Ellis gives her verdict on the viral
-    caveman method of quitting skincare and even face-washing entirely, saying the
-    idea that skipping cleansing is naturally healthier is not supported by evidence
-    since oil, sweat, dead skin cells, and bacteria build up without it. She says
-    a short break from an overloaded routine can let an irritated barrier calm down,
-    but recommends replacing the caveman method with a minimal routine, a gentle cleanser
-    and a bland moisturizer without active ingredients, rather than stopping skincare
-    altogether, and cautions that people with eczema, rosacea, or seborrheic dermatitis
+  thesis: Board-certified dermatologist Dr. Sam Ellis gives her verdict on the viral caveman method
+    of quitting skincare and even face-washing entirely, saying the idea that skipping cleansing
+    is naturally healthier is not supported by evidence since oil, sweat, dead skin cells, and
+    bacteria build up without it. She says a short break from an overloaded routine can let an
+    irritated barrier calm down, but recommends replacing the caveman method with a minimal routine,
+    a gentle cleanser and a bland moisturizer without active ingredients, rather than stopping
+    skincare altogether, and cautions that people with eczema, rosacea, or seborrheic dermatitis
     should not try it at all.
   title: When Should You STOP Washing Your Face? Dermatologist Verdict
   url: https://www.youtube.com/watch?v=uOBx0QK3qmM
-  duration: 601
 - creator: ''
   creator_slug: null
   credential: ''
+  duration: 748
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
   platform: YouTube
   posted: '2024-10-04'
@@ -132,20 +144,19 @@ videos:
   - retinol
   - vitamin-c
   - sunscreen-uv-filters
-  thesis: Board-certified dermatologist Dr. Joyce Park (Tea with MD) walks through
-    how to build a basic AM/PM skincare routine, warning that using too many products
-    can damage the skin barrier and cause redness and irritation. She covers ordering
-    actives (treatment step, vitamin C, moisturizer, sunscreen), introduces the "sandwich
-    method" (moisturizer, then retinoid, then moisturizer) for easing sensitive or
-    dry skin into retinoids to reduce retinoid dermatitis, and recommends a "skin
-    diet" (stripping back to basics, then reintroducing one product every few days)
-    to identify what is causing irritation.
+  thesis: Board-certified dermatologist Dr. Joyce Park (Tea with MD) walks through how to build
+    a basic AM/PM skincare routine, warning that using too many products can damage the skin barrier
+    and cause redness and irritation. She covers ordering actives (treatment step, vitamin C,
+    moisturizer, sunscreen), introduces the "sandwich method" (moisturizer, then retinoid, then
+    moisturizer) for easing sensitive or dry skin into retinoids to reduce retinoid dermatitis,
+    and recommends a "skin diet" (stripping back to basics, then reintroducing one product every
+    few days) to identify what is causing irritation.
   title: Building A Skincare Routine For All Skin Types | Dr. Joyce Park
   url: https://www.youtube.com/watch?v=KAyTvaTaS7o
-  duration: 748
 - creator: ''
   creator_slug: null
   credential: ''
+  duration: 501
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
   platform: YouTube
   posted: '2025-11-21'
@@ -156,54 +167,48 @@ videos:
   - la-roche-posay-toleriane-hydrating-gentle-cleanser
   - skinfix-barrier-triple-lipid-peptide-cream
   - skin-barrier-strengthening
-  thesis: 'Board-certified dermatologist Dr. Joyce Park (Tea with MD) walks through
-    three seasonal swaps to protect the skin barrier as cold air and indoor heating
-    set in: switching from foaming cleansers to gentle, non-foaming ones with niacinamide,
-    ceramides, glycerin, and hyaluronic acid (she names La Roche-Posay Toleriane Hydrating
-    Gentle Cleanser and CeraVe Hydrating Cleanser), moving from gel moisturizers to
-    richer ceramide creams like SkinCeuticals Triple Lipid Restore or the budget alternative
-    Skinfix Triple Lipid Peptide Cream, and continuing daily sunscreen (favoring mineral
-    formulas for flare-prone rosacea or eczema skin) since UV exposure and skin cancer
-    risk persist through winter. She frames the routine as layering hydration in stages
-    rather than swapping one product for another, and does not cite any specific published
-    study.'
+  thesis: 'Board-certified dermatologist Dr. Joyce Park (Tea with MD) walks through three seasonal
+    swaps to protect the skin barrier as cold air and indoor heating set in: switching from foaming
+    cleansers to gentle, non-foaming ones with niacinamide, ceramides, glycerin, and hyaluronic
+    acid (she names La Roche-Posay Toleriane Hydrating Gentle Cleanser and CeraVe Hydrating Cleanser),
+    moving from gel moisturizers to richer ceramide creams like SkinCeuticals Triple Lipid Restore
+    or the budget alternative Skinfix Triple Lipid Peptide Cream, and continuing daily sunscreen
+    (favoring mineral formulas for flare-prone rosacea or eczema skin) since UV exposure and skin
+    cancer risk persist through winter. She frames the routine as layering hydration in stages
+    rather than swapping one product for another, and does not cite any specific published study.'
   title: 'Winter Skincare Swaps: How to Transition Your Routine for Dry, Cold Weather'
   url: https://www.youtube.com/watch?v=u557TRHEsaM
-  duration: 501
 - creator: ''
   creator_slug: onyeka-obioha-lolagne
   credential: ''
-  note: Verified from the video's TikTok transcript (yt-dlp captions, read in full);
-    no sponsorship.
+  note: Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship.
   platform: TikTok
   posted: '2023-10-12'
   related:
   - ceramides
   - atopic-dermatitis
-  thesis: Board-certified dermatologist Dr. Onyeka Obioha explains that the skin's
-    moisture barrier, made up of ceramides, fatty acids, and lipids, protects against
-    the external environment and unwanted bacteria. She describes how a compromised
-    barrier leads to transepidermal water loss, dryness, and can worsen inflammatory
-    conditions like eczema, causing redness, itching, and increased infection risk.
-    She notes that plain oils without ceramides or fatty acids sit on top of the skin
-    and do nothing to actually restore the barrier, so it matters to know whether
+  thesis: Board-certified dermatologist Dr. Onyeka Obioha explains that the skin's moisture barrier,
+    made up of ceramides, fatty acids, and lipids, protects against the external environment and
+    unwanted bacteria. She describes how a compromised barrier leads to transepidermal water loss,
+    dryness, and can worsen inflammatory conditions like eczema, causing redness, itching, and
+    increased infection risk. She notes that plain oils without ceramides or fatty acids sit on
+    top of the skin and do nothing to actually restore the barrier, so it matters to know whether
     a product truly supports the moisture barrier or only feels like it does.
   title: '#barrierrepair #moisturebarrier #skincareroutine'
   url: https://www.tiktok.com/@dr.obioha/video/7288898312877493547
 - creator: ''
   creator_slug: ife-rodney
   credential: ''
-  note: Verified from the video's TikTok transcript (yt-dlp captions, read in full);
-    no sponsorship.
+  note: Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship.
   platform: TikTok
   posted: '2026-07-29'
   related:
   - moisturizing
-  thesis: Dr. Ife Rodney, a board-certified dermatologist, explains that moisturizing
-    alone is not enough to manage eczema and that reinforcing the skin's protective
-    barrier also requires avoiding hot showers and fragranced or dyed products that
-    can trigger flares. She recommends patting (not fully drying) skin after showering
-    and massaging in a bland, gentle moisturizer within three minutes of getting out.
+  thesis: Dr. Ife Rodney, a board-certified dermatologist, explains that moisturizing alone is
+    not enough to manage eczema and that reinforcing the skin's protective barrier also requires
+    avoiding hot showers and fragranced or dyed products that can trigger flares. She recommends
+    patting (not fully drying) skin after showering and massaging in a bland, gentle moisturizer
+    within three minutes of getting out.
   title: If all you've been told for eczema is moisturize
   url: https://www.tiktok.com/@dr.iferodney/video/7668026486355414302
 - creator: Jenn Lexi
@@ -215,136 +220,231 @@ videos:
   related:
   - skin-barrier-strengthening
   - retinoids
-  thesis: 'Esthetician Jenn Lexi explains what a damaged skin barrier actually is
-    and how it heals, using a brick-wall analogy: when the barrier breaks down from
-    over-exfoliation, too-high retinoid percentages, or under-moisturizing, the skin
-    loses water and lets irritants in, turning red, inflamed, and breakout-prone.
-    She notes the skin shifts into repair mode on its own within about a day and can
-    recover over a couple of weeks, but only if you stop the habits that caused the
-    damage; otherwise acute damage becomes chronic inflammation.'
+  thesis: 'Esthetician Jenn Lexi explains what a damaged skin barrier actually is and how it heals,
+    using a brick-wall analogy: when the barrier breaks down from over-exfoliation, too-high retinoid
+    percentages, or under-moisturizing, the skin loses water and lets irritants in, turning red,
+    inflamed, and breakout-prone. She notes the skin shifts into repair mode on its own within
+    about a day and can recover over a couple of weeks, but only if you stop the habits that caused
+    the damage; otherwise acute damage becomes chronic inflammation.'
   title: What is a damaged skin barrier and how do you fix it? (Part 1)
   url: https://www.tiktok.com/@jennlexi_/video/7665901016860118285
-- title: 'Stop Over-Exfoliating: Do This Barrier Repair Routine Instead'
-  creator: Dr. Dustin Portela
+- creator: Dr. Dustin Portela
   creator_slug: dustin-portela
   credential: Board-certified dermatologist
-  platform: YouTube
-  url: https://www.youtube.com/watch?v=rbH4F5MQuyE
   duration: 835
-  posted: '2026-07-12'
-  related: [houttuynia-cordata, beta-glucan, centella-asiatica]
-  thesis: Board-certified dermatologist Dr. Dustin Portela explains how to repair a compromised skin barrier and warns that over-exfoliating is a common cause of the damage he sees in clinic, using a brick-wall analogy in which skin cells are the bricks and the lipids between them are the mortar. He walks through three trending barrier-support ingredients, heartleaf (Houttuynia cordata), beta-glucan, and ectoin, comparing them to the better-known centella (cica) and noting each calms and reinforces the barrier a different way. His core advice is to strip a damaged routine back to gentle repair rather than piling on more active ingredients.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
-- title: 'K-Beauty Obsessions: A Dermatologist''s Olive Young Haul (Part 1)'
-  creator: Dr. Joyce Park (Tea with MD)
+  platform: YouTube
+  posted: '2026-07-12'
+  related:
+  - houttuynia-cordata
+  - beta-glucan
+  - centella-asiatica
+  thesis: Board-certified dermatologist Dr. Dustin Portela explains how to repair a compromised
+    skin barrier and warns that over-exfoliating is a common cause of the damage he sees in clinic,
+    using a brick-wall analogy in which skin cells are the bricks and the lipids between them
+    are the mortar. He walks through three trending barrier-support ingredients, heartleaf (Houttuynia
+    cordata), beta-glucan, and ectoin, comparing them to the better-known centella (cica) and
+    noting each calms and reinforces the barrier a different way. His core advice is to strip
+    a damaged routine back to gentle repair rather than piling on more active ingredients.
+  title: 'Stop Over-Exfoliating: Do This Barrier Repair Routine Instead'
+  url: https://www.youtube.com/watch?v=rbH4F5MQuyE
+- creator: Dr. Joyce Park (Tea with MD)
   creator_slug: joyce-park
   credential: Board-certified dermatologist
-  platform: YouTube
-  url: https://www.youtube.com/watch?v=r8LDQJad6k0
   duration: 868
-  posted: '2026-01-17'
-  related: [skin-barrier-strengthening]
-  thesis: Board-certified dermatologist Dr. Joyce Park walks through Korean skincare and makeup she bought at Olive Young in Korea. On the skincare side she highlights barrier-repair creams built on ceramides, cholesterol, and fatty acids to cut transepidermal water loss, a squalane cream for lighter daytime hydration on combination/oily skin, panthenol for soothing, and a black rice ampule as a gentle chemical exfoliant for sensitive skin. She also explains PA ratings (UVA protection grading) on a Korean SPF 50 sunscreen, and, on a colostrum-containing pore-defense ampule, notes lab studies suggest growth factors and wound-healing benefits but says human clinical research is still limited.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
-- title: Dr. Whitney Bowe on Good Morning America - Exposing Common Causes of Skin Inflammation
-  creator: Dr. Whitney Bowe
+  platform: YouTube
+  posted: '2026-01-17'
+  related:
+  - skin-barrier-strengthening
+  thesis: Board-certified dermatologist Dr. Joyce Park walks through Korean skincare and makeup
+    she bought at Olive Young in Korea. On the skincare side she highlights barrier-repair creams
+    built on ceramides, cholesterol, and fatty acids to cut transepidermal water loss, a squalane
+    cream for lighter daytime hydration on combination/oily skin, panthenol for soothing, and
+    a black rice ampule as a gentle chemical exfoliant for sensitive skin. She also explains PA
+    ratings (UVA protection grading) on a Korean SPF 50 sunscreen, and, on a colostrum-containing
+    pore-defense ampule, notes lab studies suggest growth factors and wound-healing benefits but
+    says human clinical research is still limited.
+  title: 'K-Beauty Obsessions: A Dermatologist''s Olive Young Haul (Part 1)'
+  url: https://www.youtube.com/watch?v=r8LDQJad6k0
+- creator: Dr. Whitney Bowe
   creator_slug: whitney-bowe
   credential: Board-certified dermatologist
-  platform: YouTube
-  url: https://www.youtube.com/watch?v=HrLdcki4LpY
   duration: 216
-  posted: '2025-07-14'
-  related: [retinoids, sensitive-skin]
-  thesis: Board-certified dermatologist Dr. Whitney Bowe joins Good Morning America to explain that skin inflammation happens when immune cells release chemicals that increase blood flow and trigger cellular repair, causing redness, swelling, and discoloration. She notes that active ingredients like retinoids can trigger this inflammation if introduced too fast, which is why she developed her skin cycling method of slowly phasing in actives. She also explains phytophotodermatitis, nicknamed "margarita burn," where citrus, celery, or parsley juice on the skin combined with sun exposure causes burns or lingering post-inflammatory hyperpigmentation, and recommends rinsing exposed skin and applying sunscreen. Her overall advice for inflamed, barrier-damaged skin is to simplify to a gentle cleanser, moisturizer, and sunscreen, optionally layering in a soothing serum formulated for sensitive or post-procedure skin.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
-- title: The texture of your cleanser is probably wrong
-  creator: Dr. Brooke Jeffy (Brooke Jeffy, MD)
+  platform: YouTube
+  posted: '2025-07-14'
+  related:
+  - retinoids
+  - sensitive-skin
+  thesis: Board-certified dermatologist Dr. Whitney Bowe joins Good Morning America to explain
+    that skin inflammation happens when immune cells release chemicals that increase blood flow
+    and trigger cellular repair, causing redness, swelling, and discoloration. She notes that
+    active ingredients like retinoids can trigger this inflammation if introduced too fast, which
+    is why she developed her skin cycling method of slowly phasing in actives. She also explains
+    phytophotodermatitis, nicknamed "margarita burn," where citrus, celery, or parsley juice on
+    the skin combined with sun exposure causes burns or lingering post-inflammatory hyperpigmentation,
+    and recommends rinsing exposed skin and applying sunscreen. Her overall advice for inflamed,
+    barrier-damaged skin is to simplify to a gentle cleanser, moisturizer, and sunscreen, optionally
+    layering in a soothing serum formulated for sensitive or post-procedure skin.
+  title: Dr. Whitney Bowe on Good Morning America - Exposing Common Causes of Skin Inflammation
+  url: https://www.youtube.com/watch?v=HrLdcki4LpY
+- creator: Dr. Brooke Jeffy (Brooke Jeffy, MD)
   creator_slug: brooke-jeffy
   credential: Board-certified dermatologist
-  platform: YouTube
-  url: https://www.youtube.com/watch?v=8krqZ4Wmz1Y
   duration: 401
-  posted: '2026-01-13'
-  related: [best-gentle-cleansers-sensitive-skin, best-cleansers-for-oily-acne-prone-skin]
-  thesis: Board-certified dermatologist Dr. Brooke Jeffy explains that cleanser texture (foaming, gel, cream/lotion, oil/serum, balm) matters as much as ingredients when picking a cleanser. She says dry, sensitive, eczema, or rosacea-prone skin does best with cream, lotion, serum, or oil-type cleansers with little to no foam, while oily or acne-prone skin does best with gel or gentle foaming formulas; combination skin usually suits gel or low-foaming cleansers, and aging skin often benefits from cream or serum cleansers focused on hydration. Her key takeaway is that a tight, "squeaky clean," or tingling feeling after washing means the cleanser is too harsh, not a sign it's working well.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
-- title: Respectfully…your skin doesn't need another active. It needs a strong
-  creator: Fatima Fahs
+  platform: YouTube
+  posted: '2026-01-13'
+  related:
+  - best-gentle-cleansers-sensitive-skin
+  - best-cleansers-for-oily-acne-prone-skin
+  thesis: Board-certified dermatologist Dr. Brooke Jeffy explains that cleanser texture (foaming,
+    gel, cream/lotion, oil/serum, balm) matters as much as ingredients when picking a cleanser.
+    She says dry, sensitive, eczema, or rosacea-prone skin does best with cream, lotion, serum,
+    or oil-type cleansers with little to no foam, while oily or acne-prone skin does best with
+    gel or gentle foaming formulas; combination skin usually suits gel or low-foaming cleansers,
+    and aging skin often benefits from cream or serum cleansers focused on hydration. Her key
+    takeaway is that a tight, "squeaky clean," or tingling feeling after washing means the cleanser
+    is too harsh, not a sign it's working well.
+  title: The texture of your cleanser is probably wrong
+  url: https://www.youtube.com/watch?v=8krqZ4Wmz1Y
+- creator: Fatima Fahs
   creator_slug: fatima-fahs
   credential: Dermatologist (MD)
-  platform: TikTok
-  url: https://www.tiktok.com/@dermydoctor/video/7678046331214007565
   duration: 55
-  posted: '2026-08-25'
-  related: [hyaluronic-acid, panthenol, skin-barrier-strengthening]
-  thesis: 'Dr. Fatima Fahs, a dermatologist, explains that sudden skin burning, tightness after moisturizing, flakiness, oiliness, or unexplained breakouts usually signal a damaged skin barrier rather than newly sensitive skin. She compares the barrier to a brick wall, with skin cells as the bricks and lipids as the mortar, and notes that cracks let water escape and irritants in, increasing inflammation. Her takeaway: the healthiest skin isn''t the skin with the most products, it''s the skin with the strongest barrier'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
-- title: Your Skin Barrier Is Damaged. Now What?
-  creator: Andrea Suarez (Dr Dray)
+  platform: TikTok
+  posted: '2026-08-25'
+  related:
+  - hyaluronic-acid
+  - panthenol
+  - skin-barrier-strengthening
+  thesis: 'Dr. Fatima Fahs, a dermatologist, explains that sudden skin burning, tightness after
+    moisturizing, flakiness, oiliness, or unexplained breakouts usually signal a damaged skin
+    barrier rather than newly sensitive skin. She compares the barrier to a brick wall, with skin
+    cells as the bricks and lipids as the mortar, and notes that cracks let water escape and irritants
+    in, increasing inflammation. Her takeaway: the healthiest skin isn''t the skin with the most
+    products, it''s the skin with the strongest barrier'
+  title: Respectfully…your skin doesn't need another active. It needs a strong
+  url: https://www.tiktok.com/@dermydoctor/video/7678046331214007565
+- creator: Andrea Suarez (Dr Dray)
   creator_slug: andrea-suarez-dr-dray
   credential: Board-certified dermatologist
-  platform: YouTube
-  url: https://www.youtube.com/watch?v=-TR0sfGzoY0
   duration: 1207
-  posted: '2026-09-11'
-  related: [ceramides, colloidal-oatmeal, glycerin, zinc-oxide, dry-skin]
-  thesis: Board-certified dermatologist Dr. Dray explains what a damaged skin barrier needs and where barrier creams and balms fit in, pointing out they are useful well beyond eczema and diaper rash, including for cold weather and anyone with a compromised barrier. She favors simple, fragrance-free formulas that rely on occlusion plus soothing and hydrating ingredients such as colloidal oatmeal, zinc oxide, glycerin, shea butter, and ceramides, and stresses protecting irritated skin rather than over-treating it while it recovers.
   note: Verified from the video transcript (yt-dlp, read in full); no sponsorship.
-- title: How to take care of your skin barrier
-  creator: Dr. Ranella Hirsch
+  platform: YouTube
+  posted: '2026-09-11'
+  related:
+  - ceramides
+  - colloidal-oatmeal
+  - glycerin
+  - zinc-oxide
+  - dry-skin
+  thesis: Board-certified dermatologist Dr. Dray explains what a damaged skin barrier needs and
+    where barrier creams and balms fit in, pointing out they are useful well beyond eczema and
+    diaper rash, including for cold weather and anyone with a compromised barrier. She favors
+    simple, fragrance-free formulas that rely on occlusion plus soothing and hydrating ingredients
+    such as colloidal oatmeal, zinc oxide, glycerin, shea butter, and ceramides, and stresses
+    protecting irritated skin rather than over-treating it while it recovers.
+  title: Your Skin Barrier Is Damaged. Now What?
+  url: https://www.youtube.com/watch?v=-TR0sfGzoY0
+- creator: Dr. Ranella Hirsch
   creator_slug: ranella-hirsch
   credential: Board-certified dermatologist (MD, FAAD)
-  platform: TikTok
-  url: https://www.tiktok.com/@ranellamd/video/7179246795917118762
   duration: 29
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+  platform: TikTok
   posted: '2022-12-20'
-  related: [sensitive-skin, dry-skin, moisturizing]
-  thesis: 'Board-certified dermatologist Dr. Ranella Hirsch explains skin barrier care with a simple analogy: a healthy skin barrier is like your front door, which quietly keeps out what you do not want and holds in what you need without you having to fuss over it. Her point is that a well-functioning barrier should not need constant intervention, so if every couple of weeks you are doing something that seriously damages it, such as over-exfoliating, that is a sign you are overdoing your routine rather than helping it.'
-  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
-- title: What is the skin barrier?
-  creator: Dr. Fatima Fahs
+  related:
+  - sensitive-skin
+  - dry-skin
+  - moisturizing
+  thesis: 'Board-certified dermatologist Dr. Ranella Hirsch explains skin barrier care with a
+    simple analogy: a healthy skin barrier is like your front door, which quietly keeps out what
+    you do not want and holds in what you need without you having to fuss over it. Her point is
+    that a well-functioning barrier should not need constant intervention, so if every couple
+    of weeks you are doing something that seriously damages it, such as over-exfoliating, that
+    is a sign you are overdoing your routine rather than helping it.'
+  title: How to take care of your skin barrier
+  url: https://www.tiktok.com/@ranellamd/video/7179246795917118762
+- creator: Dr. Fatima Fahs
   creator_slug: fatima-fahs
   credential: Board-certified dermatologist
-  platform: TikTok
-  url: https://www.tiktok.com/@dermydoctor/video/7690573990192057614
   duration: 43
-  posted: '2026-09-28'
-  related: [skin-barrier-strengthening, moisturizing]
-  thesis: 'Dermatologist Dr. Fatima Fahs explains what the skin barrier actually is: the skin''s first line of defense against the outside world, acting like a shield that keeps irritants out and moisture in. When the barrier is compromised, skin becomes more prone to irritants getting in and to water escaping, a process she calls transepidermal water loss. Her point is that preserving a healthy skin barrier is what keeps skin both hydrated and protected.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
-- title: Burning does not mean it is working
-  creator: Dr. Fatima Fahs
+  platform: TikTok
+  posted: '2026-09-28'
+  related:
+  - skin-barrier-strengthening
+  - moisturizing
+  thesis: 'Dermatologist Dr. Fatima Fahs explains what the skin barrier actually is: the skin''s
+    first line of defense against the outside world, acting like a shield that keeps irritants
+    out and moisture in. When the barrier is compromised, skin becomes more prone to irritants
+    getting in and to water escaping, a process she calls transepidermal water loss. Her point
+    is that preserving a healthy skin barrier is what keeps skin both hydrated and protected.'
+  title: What is the skin barrier?
+  url: https://www.tiktok.com/@dermydoctor/video/7690573990192057614
+- creator: Dr. Fatima Fahs
   creator_slug: fatima-fahs
   credential: Board-certified dermatologist
-  platform: TikTok
-  url: https://www.tiktok.com/@dermydoctor/video/7689465351624609038
   duration: 51
-  posted: '2026-09-25'
-  related: [glycolic-acid, salicylic-acid]
-  thesis: 'Dermatologist Dr. Fatima Fahs pushes back on the belief that a skincare product stinging means it is working better: if a product, especially an exfoliant, causes intense burning rather than a mild tingle, it is probably too strong for the skin. She explains that overdoing actives compromises the skin barrier, which then becomes more prone to irritation, breakouts, and visible texture. Her broader point is that more products is not better, and dermatologists often improve patients'' skin by removing steps rather than adding them.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
-- title: Why gentle cleansing matters after a cosmetic procedure
-  creator: Fatima Fahs
+  platform: TikTok
+  posted: '2026-09-25'
+  related:
+  - glycolic-acid
+  - salicylic-acid
+  thesis: 'Dermatologist Dr. Fatima Fahs pushes back on the belief that a skincare product stinging
+    means it is working better: if a product, especially an exfoliant, causes intense burning
+    rather than a mild tingle, it is probably too strong for the skin. She explains that overdoing
+    actives compromises the skin barrier, which then becomes more prone to irritation, breakouts,
+    and visible texture. Her broader point is that more products is not better, and dermatologists
+    often improve patients'' skin by removing steps rather than adding them.'
+  title: Burning does not mean it is working
+  url: https://www.tiktok.com/@dermydoctor/video/7689465351624609038
+- creator: Fatima Fahs
   creator_slug: fatima-fahs
   credential: Dermatologist (MD)
-  platform: TikTok
-  url: https://www.tiktok.com/@dermydoctor/video/7692052098162199821
   duration: 26
-  posted: '2026-10-02'
-  related: [sensitive-skin, best-gentle-cleansers-sensitive-skin, double-cleansing]
-  thesis: 'Dermatologist Fatima Fahs explains that in the days after an in-office procedure such as microneedling, a chemical peel, or a resurfacing laser, the cleanser you reach for matters: she recommends a gentle, non-irritating, non-stripping cleanser rather than a stripping one, which on freshly resurfaced skin she calls a recipe for disaster. The clip is about cleanser choice as post-procedure aftercare, and does not name a specific product.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
-- title: Damaged Skin Barrier? Here's How to Repair It Fast
-  creator: Dr. Jenny Liu
+  platform: TikTok
+  posted: '2026-10-02'
+  related:
+  - sensitive-skin
+  - best-gentle-cleansers-sensitive-skin
+  - double-cleansing
+  thesis: 'Dermatologist Fatima Fahs explains that in the days after an in-office procedure such
+    as microneedling, a chemical peel, or a resurfacing laser, the cleanser you reach for matters:
+    she recommends a gentle, non-irritating, non-stripping cleanser rather than a stripping one,
+    which on freshly resurfaced skin she calls a recipe for disaster. The clip is about cleanser
+    choice as post-procedure aftercare, and does not name a specific product.'
+  title: Why gentle cleansing matters after a cosmetic procedure
+  url: https://www.tiktok.com/@dermydoctor/video/7692052098162199821
+- creator: Dr. Jenny Liu
   creator_slug: jenny-liu
   credential: Board-certified dermatologist
-  platform: YouTube
-  url: https://www.youtube.com/watch?v=mwMzmJiv-Fs
-  posted: '2026-01-15'
-  related: [ceramides, sensitive-skin, moisturizing, hyperpigmentation]
-  thesis: Board-certified dermatologist Dr. Jenny Liu explains what the skin barrier actually is and why repairing it comes before anything else. She describes the stratum corneum as brick and mortar, where the bricks are flattened keratinocytes and the mortar is the lipid layer of ceramides, triglycerides and fatty acids, which is why barrier products lean on lipids rather than on actives. She also makes a point about hydration that is easy to miss, that the enzymes which handle natural exfoliation only work at a certain moisture level, so very dry skin stops shedding properly and looks flaky and dull as a result. Her argument for prioritising the barrier is that inflammation from irritated skin drives pigmentation, worsens acne and ages skin faster, so dark spots and fine lines cannot be treated effectively while the barrier is compromised. Causes she separates into internal ones such as genetics and hormones, and external ones such as weather and over-treatment.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
-
+  platform: YouTube
+  posted: '2026-01-15'
+  related:
+  - ceramides
+  - sensitive-skin
+  - moisturizing
+  - hyperpigmentation
+  thesis: Board-certified dermatologist Dr. Jenny Liu explains what the skin barrier actually
+    is and why repairing it comes before anything else. She describes the stratum corneum as brick
+    and mortar, where the bricks are flattened keratinocytes and the mortar is the lipid layer
+    of ceramides, triglycerides and fatty acids, which is why barrier products lean on lipids
+    rather than on actives. She also makes a point about hydration that is easy to miss, that
+    the enzymes which handle natural exfoliation only work at a certain moisture level, so very
+    dry skin stops shedding properly and looks flaky and dull as a result. Her argument for prioritising
+    the barrier is that inflammation from irritated skin drives pigmentation, worsens acne and
+    ages skin faster, so dark spots and fine lines cannot be treated effectively while the barrier
+    is compromised. Causes she separates into internal ones such as genetics and hormones, and
+    external ones such as weather and over-treatment.
+  title: Damaged Skin Barrier? Here's How to Repair It Fast
+  url: https://www.youtube.com/watch?v=mwMzmJiv-Fs
 ---
 
 A disrupted skin barrier means the outer layer of skin, the stratum corneum, has stopped doing its job of holding water in and irritants out. That outer layer normally works like a brick wall: flattened skin cells are the bricks and a mix of fatty molecules is the mortar between them. Elias describes that lipid mortar as an "approximately 1:1:1 molar ratio of ceramides (Cer), cholesterol, and nonessential fatty acids," where "all three lipids are required to form the lamellar structures that regulate barrier function."[^elias] When over-exfoliation, retinoid or acid irritation, over-washing, harsh weather, or an eczema flare strips or damages that mortar, the wall leaks: water escapes faster and irritants get in more easily.
