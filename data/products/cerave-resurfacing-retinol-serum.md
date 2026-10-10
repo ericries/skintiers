@@ -56,6 +56,19 @@ slug: cerave-resurfacing-retinol-serum
 status: published
 type: product
 updated: '2026-08-07'
+videos:
+- title: 'Cut or Keep: The Secrets to Fixing Your Dark Spots'
+  creator: Dr. Daniel Sugai
+  creator_slug: daniel-sugai
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=m2rrcQLJgc0
+  posted: '2026-09-26'
+  related: [melasma, hyperpigmentation, niacinamide, azelaic-acid, retinoids, tretinoin, sunscreen-uv-filters, vitamin-c]
+  thesis: 'Board-certified dermatologist Dr. Daniel Sugai sorts dark-spot treatments into keep and cut, settling on a final four of hydroquinone, tinted sunscreen, retinoids and chemical peels. He calls hydroquinone the most powerful consistent option and a tyrosinase inhibitor, but spends most of that segment on its limits: he prescribes 4 to 8 percent, warns against the 12 percent products patients buy abroad without supervision, and explains that using it without breaks can cause paradoxical darkening and ochronosis, alongside contact dermatitis and a pale halo if applied imprecisely. His notable cut is Melasyl in La Roche-Posay''s Mela B3 serum, where he says the published evidence he saw was all internal company studies and compared well against hydroquinone, yet neither he nor his patients were impressed in practice, leaving him unsure whether the formulation or the ingredient is at fault and whether the paired niacinamide does the work. He also cuts high-strength niacinamide serums
+    as an irritation risk, saying 2 to 6 percent is enough and that 10 to 20 percent formulations cause contact dermatitis he sees regularly, and cuts lasers for melasma over rebound risk while preferring chemical peels there. Azelaic acid he calls a supporting actor for dark spots rather than a main character, and overhyped in the viral tretinoin pairing.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 CeraVe Resurfacing Retinol Serum is a 1 fl oz leave-on facial serum containing encapsulated retinol, three ceramides, niacinamide, and licorice root extract, sold for $21.99 direct from the manufacturer and $16.49 on Target (regularly $18.69).[^1][^2]
