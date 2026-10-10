@@ -5,114 +5,138 @@ name: Atopic dermatitis (eczema)
 slug: atopic-dermatitis
 status: published
 tier_list:
-  by: strength of the evidence for OTC topical skincare in atopic dermatitis; prescription
-    anti-inflammatories (topical corticosteroids and calcineurin inhibitors) are the
-    first-line treatment for active flares and sit above every option here
+  by: strength of the evidence for OTC topical skincare in atopic dermatitis; prescription anti-inflammatories
+    (topical corticosteroids and calcineurin inhibitors) are the first-line treatment for active
+    flares and sit above every option here
   items:
-  - note: 'The best-evidenced topical measure: a Cochrane review found regular moisturizer
-      use reduces flares and the amount of prescription steroid needed, with no one
-      moisturizer shown to beat another.'
+  - note: 'The best-evidenced topical measure: a Cochrane review found regular moisturizer use
+      reduces flares and the amount of prescription steroid needed, with no one moisturizer shown
+      to beat another.'
     slug: moisturizing
     tier: strong
-  - note: An FDA skin-protectant monograph active for eczema itch; a randomized trial
-      of a 1% cream was non-inferior to a prescription barrier cream, and a second
-      manufacturer trial cut EASI and Atopic Dermatitis Severity Index scores by 51%
-      and 54% at 14 days, though both trials were manufacturer-funded. A directional
-      severity signal, unlike ceramides below, but still adjunctive to moisturizing.
+  - note: An FDA skin-protectant monograph active for eczema itch; a randomized trial of a 1%
+      cream was non-inferior to a prescription barrier cream, and a second manufacturer trial
+      cut EASI and Atopic Dermatitis Severity Index scores by 51% and 54% at 14 days, though both
+      trials were manufacturer-funded. A directional severity signal, unlike ceramides below,
+      but still adjunctive to moisturizing.
     slug: colloidal-oatmeal
     tier: moderate
-  - note: Barrier lipids atopic skin is short of; adding them moves water-loss measures,
-      but the one randomized trial found no advantage over a matched base on eczema
-      severity itself, so the incremental benefit beyond a plain emollient is weak.
+  - note: Barrier lipids atopic skin is short of; adding them moves water-loss measures, but the
+      one randomized trial found no advantage over a matched base on eczema severity itself, so
+      the incremental benefit beyond a plain emollient is weak.
     slug: ceramides
     tier: weak
-  - note: Preliminary evidence for raising the skin's own ceramide production and
-      lowering water loss in dry skin generally (no atopic-dermatitis-specific trial);
-      an adjunct inside a moisturizer, not a stand-alone atopic-dermatitis therapy.
+  - note: Preliminary evidence for raising the skin's own ceramide production and lowering water
+      loss in dry skin generally (no atopic-dermatitis-specific trial); an adjunct inside a moisturizer,
+      not a stand-alone atopic-dermatitis therapy.
     slug: niacinamide
     tier: weak
   title: Topical skincare for atopic dermatitis by evidence
+tier_list_reviewed:
+- abrocitinib
+- aestura-atobarrier-365-cream
+- aestura-atobarrier-365-hydro-cera-ha-ampoule
+- aestura-atobarrier-365-hydro-soothing-gel-cream
+- aestura-atobarrier-365-lotion
+- aveeno-calm-restore-oat-gentle-cleanser
+- aveeno-eczema-therapy-daily-moisturizing-cream
+- aveeno-eczema-therapy-itch-relief-balm
 type: condition
-updated: '2026-08-30'
+updated: '2026-10-10'
 videos:
 - creator: Dr. Scott Walter
   creator_slug: scott-walter
   credential: Board-certified dermatologist
+  duration: 127
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
   platform: YouTube
   posted: '2025-10-14'
-  thesis: 'Board-certified dermatologist Dr. Scott Walter runs through three newer
-    non-steroidal prescription creams for eczema (atopic dermatitis): tapinarof (Vtama),
-    ruxolitinib (Opzelura), and roflumilast (Zoryve), explaining that they calm the
-    inflammation of eczema through different mechanisms than steroids do. He notes
-    topical steroids remain effective but that incorrect long-term use can cause skin
-    thinning, discoloration, or a withdrawal reaction, which is part of why some patients
-    look for alternatives. He cautions that because these options are new to market
-    they can be expensive and often require insurance prior authorization.'
+  thesis: 'Board-certified dermatologist Dr. Scott Walter runs through three newer non-steroidal
+    prescription creams for eczema (atopic dermatitis): tapinarof (Vtama), ruxolitinib (Opzelura),
+    and roflumilast (Zoryve), explaining that they calm the inflammation of eczema through different
+    mechanisms than steroids do. He notes topical steroids remain effective but that incorrect
+    long-term use can cause skin thinning, discoloration, or a withdrawal reaction, which is part
+    of why some patients look for alternatives. He cautions that because these options are new
+    to market they can be expensive and often require insurance prior authorization.'
   title: 'Derm explains new NO-STEROID Eczema Creams: Vtama, Opzelura and Zoryve'
   url: https://www.youtube.com/watch?v=KaPdhHj32u4
-  duration: 127
 - creator: ''
   creator_slug: usama-syed
   credential: ''
+  duration: 436
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
   platform: YouTube
   posted: '2022-04-14'
   related: []
-  thesis: Board-certified dermatologist Dr. Usama Syed explains that eczema results
-    from an impaired skin barrier that lets moisture escape, and walks through treatment
-    tiers starting with moisturizers, humidifiers, and shorter cooler showers, then
-    topical steroids ranging from over-the-counter hydrocortisone to prescription-strength
-    options, non-steroid creams like tacrolimus and crisaborole ointments, and phototherapy.
-    He also covers the biologic dupilumab, given as an at-home injection every two
-    weeks for more severe eczema, and newer oral JAK inhibitor medications for resistant
+  thesis: Board-certified dermatologist Dr. Usama Syed explains that eczema results from an impaired
+    skin barrier that lets moisture escape, and walks through treatment tiers starting with moisturizers,
+    humidifiers, and shorter cooler showers, then topical steroids ranging from over-the-counter
+    hydrocortisone to prescription-strength options, non-steroid creams like tacrolimus and crisaborole
+    ointments, and phototherapy. He also covers the biologic dupilumab, given as an at-home injection
+    every two weeks for more severe eczema, and newer oral JAK inhibitor medications for resistant
     cases.
   title: How To Treat Eczema (Dermatologist Explains)
   url: https://www.youtube.com/watch?v=f_sMpdifzVc
-  duration: 436
 - creator: ''
   creator_slug: andrea-suarez-dr-dray
   credential: ''
+  duration: 964
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
   platform: YouTube
   posted: '2026-07-24'
   related: []
-  thesis: Board-certified dermatologist Andrea Suarez (Dr Dray), who also has atopic
-    dermatitis herself, reviews what is new in eczema (atopic dermatitis) treatment
-    in 2026, covering barrier dysfunction, immune overactivity involving interleukin
-    4, 13, and 31, genetics, and the skin microbiome as underlying causes. She walks
-    through newer targeted therapies including biologics like dupilumab, tralokinumab,
-    lebrikizumab, and the itch-targeting nemolizumab, oral JAK inhibitors such as
-    baricitinib and upadacitinib, and newer topicals like ruxolitinib cream, tapinarof,
-    and roflumilast, while emphasizing that consistent fragrance-free moisturizing
-    and gentle bathing habits remain a mainstay of management alongside these newer
-    options.
+  thesis: Board-certified dermatologist Andrea Suarez (Dr Dray), who also has atopic dermatitis
+    herself, reviews what is new in eczema (atopic dermatitis) treatment in 2026, covering barrier
+    dysfunction, immune overactivity involving interleukin 4, 13, and 31, genetics, and the skin
+    microbiome as underlying causes. She walks through newer targeted therapies including biologics
+    like dupilumab, tralokinumab, lebrikizumab, and the itch-targeting nemolizumab, oral JAK inhibitors
+    such as baricitinib and upadacitinib, and newer topicals like ruxolitinib cream, tapinarof,
+    and roflumilast, while emphasizing that consistent fragrance-free moisturizing and gentle
+    bathing habits remain a mainstay of management alongside these newer options.
   title: 'Eczema Treatment: What''s New in 2026? | Dermatologist Explains'
   url: https://www.youtube.com/watch?v=E8jpYRmSd9k
-  duration: 964
-- title: Your Diet Could Be Making Your Skin Inflammation Worse
-  creator: Andrea Suarez (Dr Dray)
+- creator: Andrea Suarez (Dr Dray)
   creator_slug: andrea-suarez-dr-dray
   credential: Board-certified dermatologist
-  platform: YouTube
-  url: https://www.youtube.com/watch?v=kwdfMqF6SSk
   duration: 1250
-  posted: '2026-08-25'
-  related: [psoriasis, rosacea, acne]
-  thesis: Board-certified dermatologist Dr. Andrea Suarez (Dr Dray) explains how diet can worsen chronic inflammatory skin conditions like eczema, psoriasis, and hidradenitis suppurativa, while stressing that diet changes rarely replace medical treatment. She highlights that high-sodium diets (mostly from ultra-processed foods, not table salt) accumulate in skin and activate IL-17 inflammatory pathways, citing a JAMA Dermatology study linking higher sodium excretion to increased eczema risk, flares, and severity. She also discusses small studies showing weight loss and Mediterranean-style eating patterns are associated with reduced hidradenitis suppurativa severity, and recommends a whole-food, vegetable- and legume-rich diet while cautioning that anecdotal "diet cured my disease" claims may reflect misdiagnosis rather than true cure.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
-- title: Can Eating More Fiber Improve Your Skin? | Dermatologist Explains
-  creator: Andrea Suarez (Dr Dray)
+  platform: YouTube
+  posted: '2026-08-25'
+  related:
+  - psoriasis
+  - rosacea
+  - acne
+  thesis: Board-certified dermatologist Dr. Andrea Suarez (Dr Dray) explains how diet can worsen
+    chronic inflammatory skin conditions like eczema, psoriasis, and hidradenitis suppurativa,
+    while stressing that diet changes rarely replace medical treatment. She highlights that high-sodium
+    diets (mostly from ultra-processed foods, not table salt) accumulate in skin and activate
+    IL-17 inflammatory pathways, citing a JAMA Dermatology study linking higher sodium excretion
+    to increased eczema risk, flares, and severity. She also discusses small studies showing weight
+    loss and Mediterranean-style eating patterns are associated with reduced hidradenitis suppurativa
+    severity, and recommends a whole-food, vegetable- and legume-rich diet while cautioning that
+    anecdotal "diet cured my disease" claims may reflect misdiagnosis rather than true cure.
+  title: Your Diet Could Be Making Your Skin Inflammation Worse
+  url: https://www.youtube.com/watch?v=kwdfMqF6SSk
+- creator: Andrea Suarez (Dr Dray)
   creator_slug: andrea-suarez-dr-dray
   credential: Board-certified dermatologist
-  platform: YouTube
-  url: https://www.youtube.com/watch?v=FzrowYqQnnE
   duration: 1244
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+  platform: YouTube
   posted: '2026-08-27'
   related: []
-  thesis: 'Board-certified dermatologist Dr. Andrea Suarez (Dr Dray) explains the gut-skin axis: dietary fiber that reaches the colon is fermented by gut bacteria into short-chain fatty acids (like butyrate), which can reduce inflammatory mediators such as IL-6 and TNF-alpha and support the skin barrier. She reviews evidence for fiber and inflammatory skin conditions including atopic dermatitis and psoriasis, noting most of this comes from observational and animal studies rather than large human trials, so fiber should not replace prescribed treatment. For acne, she highlights fiber''s role in lowering the glycemic load of the diet, which is linked to less insulin-driven breakout activity, and she gives practical guidance on safely increasing fiber intake (start slow with lentils, prioritize whole foods over fiber-fortified processed foods, and drink enough water to avoid GI discomfort).'
-  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
-
+  thesis: 'Board-certified dermatologist Dr. Andrea Suarez (Dr Dray) explains the gut-skin axis:
+    dietary fiber that reaches the colon is fermented by gut bacteria into short-chain fatty acids
+    (like butyrate), which can reduce inflammatory mediators such as IL-6 and TNF-alpha and support
+    the skin barrier. She reviews evidence for fiber and inflammatory skin conditions including
+    atopic dermatitis and psoriasis, noting most of this comes from observational and animal studies
+    rather than large human trials, so fiber should not replace prescribed treatment. For acne,
+    she highlights fiber''s role in lowering the glycemic load of the diet, which is linked to
+    less insulin-driven breakout activity, and she gives practical guidance on safely increasing
+    fiber intake (start slow with lentils, prioritize whole foods over fiber-fortified processed
+    foods, and drink enough water to avoid GI discomfort).'
+  title: Can Eating More Fiber Improve Your Skin? | Dermatologist Explains
+  url: https://www.youtube.com/watch?v=FzrowYqQnnE
 ---
 
 Atopic dermatitis, the form of eczema meant when people say "eczema" without qualification, is a chronic, intensely itchy inflammatory skin disease that relapses and remits over years and has no cure, where treatment "at best achieves symptom control rather than cure."[^nutten2015] The American Academy of Dermatology guideline describes it as "a chronic, pruritic inflammatory dermatosis that affects up to 25% of children and 2% to 3% of adults."[^eichenfield2014]

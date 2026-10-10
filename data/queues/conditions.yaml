@@ -311,7 +311,7 @@
 - name: Microneedling (at-home and in-office)
   type: condition
   priority: 5
-  status: pending
+  status: done
   discovered_from: acne
   source: 'A Dr. Ife Rodney TikTok on microneedling had nowhere to attach; the site
     covers acne-scars and skin-firmness-elasticity but has no microneedling page.

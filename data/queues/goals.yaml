@@ -137,3 +137,12 @@
   discovered_from: perez-bootello-2025-medipso-mediterranean-diet-psoriasis-rct
   source: MEDIPSO RCT PMID 40991259 is the site's first diet-intervention trial; no
     diet hub exists to host it
+- name: Microneedling (at-home and in-office)
+  type: goal
+  priority: 5
+  status: pending
+  discovered_from: acne
+  source: 'Re-routed from the CONDITION queue, which was a type mismatch: microneedling
+    is a procedure, not a condition. Precedent is data/goals/laser-hair-removal.md,
+    so procedures are modelled as GOAL pages on this site. Originally surfaced from
+    the acne hub.'
