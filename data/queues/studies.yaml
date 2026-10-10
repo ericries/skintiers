@@ -714,7 +714,7 @@
     Extract Capsule on Faci (PMID 40971325)
   type: study
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/40971325/
 - name: Irfan 2025 Single-incision versus conventional multi-incision laparoscopic

@@ -1,0 +1,29 @@
+---
+analyzed: '2026-10-10'
+assurance: sonnet
+name: 'Efficacy and Safety of an Oral Low-Dose Water-Dispersible Turmeric Extract
+  Capsule on Facial Skin Health in Healthy Women: A Randomized, Double-Blind, Placebo-Controlled
+  Trial'
+slug: thanawala-2025-oral-turmeric-extract-facial-skin-health
+status: published
+type: study
+updated: '2026-10-10'
+---
+
+A 60-day placebo-controlled trial (90 completers) of a 250 mg oral turmeric extract capsule in healthy women aged 18 to 40, measuring one pre-marked facial blemish plus hydration, water loss and gloss. Every author is affiliated with the product's manufacturers or the contract research organisation, and the two manufacturers hold the paper's copyright.[^1]
+
+**Design:** Double-blind, randomized, placebo-controlled trial over 60 days, registered as CTRI/2024/06/068637. Participants were randomized to the test capsule or placebo once daily.[^1]
+
+**Population / n:** 96 enrolled, 90 completed (45 per arm). Women aged 18 to 40 "with one identified facial blemish". This is a **healthy-cosmetic** population, not people with a diagnosed skin condition; the paper frames the gap it addresses as turmeric's "potential to improve skin health in healthy individuals".[^1]
+
+**Intervention / comparator:** WDTE60N, described as an orally administered low-dose water-dispersible turmeric extract "containing 60% natural curcuminoids", at 250 mg once daily, versus a placebo capsule.[^1]
+
+**Primary result (and what the abstract withholds):** The treated group showed "significantly greater reductions in Antera 3D imaging readings for blemish from baseline compared to placebo starting from day 30 (p = 0.036) onwards to day 60 (p = 0.001)", with blemish-scale scores also improving at day 30 (p = 0.024) and day 60 (p = 0.001). From day 15 the capsule "significantly improved skin hydration and gloss while significantly reducing TEWL (p = 0.001)".[^1] **The abstract reports p-values without a single effect size**: no means, no differences, no confidence intervals. So it is not possible to say from this record whether any change was large enough to see.
+
+**Effect size / interpretation:** Not assessable. A p-value answers whether a difference is unlikely to be chance, not whether it is big enough to matter, and nothing here supplies the magnitude. Note also the endpoint: a single pre-marked blemish measured by imaging, which is a narrow proxy for the "facial skin health" of the title.
+
+**Applicability + key limitation:** Applies at most to healthy women 18 to 40 taking a specific branded extract for two months. The limitation that governs everything else is **sponsorship**. Two authors are employees of Nutriventia Private Limited and one "also has ownership interests"; two more are employees of Laila Nutraceuticals; the fifth was the study's co-investigator.[^1] The copyright line reads "© 2025 Nutriventia Limited and Laila Nutra Private Limited".[^1] The stated conclusion, that the capsule is "a promising cosmeceutical agent", is the manufacturers' own characterisation of their own product. Independent replication is what would make this persuasive, and this site has no turmeric or curcumin ingredient page because that independent evidence has not been assessed here. General context on ingestibles and skin is on [[diet-and-skin]].
+
+## Sources
+
+[^1]: Thanawala S, Shah R, Alluri KV, Bhupathiraju K, Salvi A. "Efficacy and Safety of an Oral Low-Dose Water-Dispersible Turmeric Extract Capsule on Facial Skin Health in Healthy Women: A Randomized, Double-Blind, Placebo-Controlled Trial." Journal of Cosmetic Dermatology. 2025 Sep;24(9):e70462. doi: 10.1111/jocd.70462. PMID 40971325. PMCID PMC12448269. Quotes and figures used: "The role of turmeric extract (oral and topical) has been studied in the management of various skin disorders, but its potential to improve skin health in healthy individuals remains largely unexplored."; "water-dispersible turmeric extract containing 60% natural curcuminoids (WDTE60N)"; "women (18-40 years) with one identified facial blemish were randomized to receive WDTE60N (250 mg) or a placebo capsule once daily for 60 days"; "Of 96 participants enrolled, 90 (WDTE60N, n = 45; placebo, n = 45) completed the study."; "The WDTE60N group showed significantly greater reductions in Antera 3D imaging readings for blemish from baseline compared to placebo starting from day 30 (p = 0.036) onwards to day 60 (p = 0.001)."; "Significant improvement from baseline in blemish scale score on day 30 (p = 0.024) and day 60 (p = 0.001) was observed in the WDTE60N group than in the placebo group."; "From day 15 onward, the WDTE60N administration significantly improved skin hydration and gloss while significantly reducing TEWL (p = 0.001)."; "WDTE60N was well tolerated with no major adverse events."; "This study provides clinical evidence supporting WDTE60N as a promising cosmeceutical agent."; "CTRI number: CTRI/2024/06/068637". Affiliations recorded in the paper: authors 1 and 2 at "Nutriventia Private Limited, Mumbai, India", authors 3 and 4 at "Laila Nutraceuticals, Vijayawada, India", author 5 at "Clinical Aesthetics and Investigative Management Service Pvt. Ltd., Mumbai, India". The conflict-of-interest statement records that two authors "are employees of Nutriventia Private Limited", that one "also has ownership interests", that two others "are employees of Laila Nutraceuticals, India", and that the fifth "was the co-investigator in this study". The copyright line reads "© 2025 Nutriventia Limited and Laila Nutra Private Limited". Only the PubMed abstract and its structured metadata were accessed, not the full paper, so no effect sizes, dropout reasons, or per-outcome adverse-event detail could be verified; the absence of effect sizes noted on this page is an absence from the abstract. https://pubmed.ncbi.nlm.nih.gov/40971325/ (accessed 2026-10-10)
