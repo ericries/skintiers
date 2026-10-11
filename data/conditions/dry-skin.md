@@ -5,65 +5,84 @@ name: Dry Skin (Xerosis)
 slug: dry-skin
 status: published
 tier_list:
-  by: strength of evidence as a treatment for xerosis; moisturizing the barrier is
-    the mainstay, and within that, occlusives and humectants have the most direct
-    support
+  by: strength of evidence as a treatment for xerosis; moisturizing the barrier is the mainstay,
+    and within that, occlusives and humectants have the most direct support
   items:
-  - note: The foundation of treatment for dry skin; DermNet calls moisturizers/emollients
-      "the mainstay of treatment" and a Cochrane review found they cut eczema flares
-      versus no moisturizer (risk ratio 0.40). Full ranked list at [[moisturizing]].
+  - note: The foundation of treatment for dry skin; DermNet calls moisturizers/emollients "the
+      mainstay of treatment" and a Cochrane review found they cut eczema flares versus no moisturizer
+      (risk ratio 0.40). Full ranked list at [[moisturizing]].
     slug: moisturizing
     tier: strong
-  - note: The most effective occlusive by mechanism, slowing transepidermal water
-      loss by nearly 99% per StatPearls; it seals in water already in the skin rather
-      than adding any itself. Evidence on [[petrolatum]].
+  - note: The most effective occlusive by mechanism, slowing transepidermal water loss by nearly
+      99% per StatPearls; it seals in water already in the skin rather than adding any itself.
+      Evidence on [[petrolatum]].
     slug: petrolatum
     tier: strong
-  - note: A classic humectant that binds water in the stratum corneum and is a mainstay
-      ingredient in dry-skin moisturizers. Evidence on [[glycerin]].
+  - note: A classic humectant that binds water in the stratum corneum and is a mainstay ingredient
+      in dry-skin moisturizers. Evidence on [[glycerin]].
     slug: glycerin
     tier: strong
-  - note: Both a humectant and, at higher concentrations, a mild keratolytic that
-      lifts retained scale, which is why it is DermNet's specific example of a helpful
-      moisturizer ingredient for dry skin. Evidence on [[urea]].
+  - note: Both a humectant and, at higher concentrations, a mild keratolytic that lifts retained
+      scale, which is why it is DermNet's specific example of a helpful moisturizer ingredient
+      for dry skin. Evidence on [[urea]].
     slug: urea
     tier: strong
-  - note: A humectant with strong water-binding capacity in formulation, though thinner
-      dedicated evidence specifically for xerosis than for other uses. Evidence on
-      [[hyaluronic-acid]].
+  - note: Barrier lipids that dry and atopic skin is measurably short of, and a ceramide cream
+      does lower transepidermal water loss. Graded moderate rather than strong because its own
+      page records that it did not beat a matched base without ceramides on severity, so the advantage
+      over a plainer moisturizer is unproven.
+    slug: ceramides
+    tier: moderate
+  - note: A humectant with strong water-binding capacity in formulation, though thinner dedicated
+      evidence specifically for xerosis than for other uses. Evidence on [[hyaluronic-acid]].
     slug: hyaluronic-acid
     tier: moderate
-  - note: An older, cheap occlusive that works by the same barrier-sealing mechanism
-      as petrolatum, with somewhat less formulation and evidence attention on this
-      site. Evidence on [[mineral-oil]].
+  - note: An older, cheap occlusive that works by the same barrier-sealing mechanism as petrolatum,
+      with somewhat less formulation and evidence attention on this site. Evidence on [[mineral-oil]].
     slug: mineral-oil
     tier: moderate
-  - note: An alpha hydroxy acid that both humectant-binds water and exfoliates built-up
-      scale, useful for rough, flaky, or scaly dry skin rather than plain dryness.
-      Evidence on [[lactic-acid]].
+  - note: An alpha hydroxy acid that both humectant-binds water and exfoliates built-up scale,
+      useful for rough, flaky, or scaly dry skin rather than plain dryness. Evidence on [[lactic-acid]].
     slug: lactic-acid
     tier: moderate
-  - note: The lactic acid salt used in prescription-strength lotions for very rough,
-      scaly skin (including keratosis pilaris and ichthyosis); a targeted keratolytic-humectant
-      rather than an everyday moisturizer step. Evidence on [[ammonium-lactate]].
+  - note: The lactic acid salt used in prescription-strength lotions for very rough, scaly skin
+      (including keratosis pilaris and ichthyosis); a targeted keratolytic-humectant rather than
+      an everyday moisturizer step. Evidence on [[ammonium-lactate]].
     slug: ammonium-lactate
     tier: moderate
   title: Dry skin (xerosis) treatments by evidence
+tier_list_reviewed:
+- aestura-atobarrier-365-cream
+- cerave-healing-ointment
+- cerave-hydrating-facial-cleanser
+- cerave-moisturizing-cream
+- cetaphil-moisturizing-cream
+- clinique-dramatically-different-moisturizing-lotion-plus
+- heimish-watermelon-moisture-soothing-gel-cream
 type: condition
-updated: '2026-08-30'
+updated: '2026-10-11'
 videos:
-- title: Why Your Lips Are ALWAYS Dry (Dermatologist)
-  creator: Dr. Usama Syed
+- creator: Dr. Usama Syed
   creator_slug: usama-syed
   credential: Board-certified dermatologist
-  platform: YouTube
-  url: https://www.youtube.com/watch?v=l5YQOwGbDAk
   duration: 640
-  posted: '2024-03-12'
-  related: [tacrolimus-topical]
-  thesis: Board-certified dermatologist Dr. Usama Syed explains that chapped lips (cheilitis) have several distinct causes, most commonly dry winter air combined with mouth breathing from a blocked nose, but also lip-product allergens (like beeswax and peppermint oil in some balms), eczema, actinic cheilitis from chronic sun damage, and infections. He explains that dehydration is rarely the real cause and that lip scrubs make the problem worse by further damaging an already compromised skin barrier. His main recommendations are a plain occlusive ointment (Vaseline, or alternatives like Aquaphor or CeraVe Healing Ointment) applied several times daily and especially before bed, a humidifier to add moisture to the air, and stopping lip-licking, which he says worsens dryness via digestive enzymes in saliva; for the minority of cases that do not improve he mentions dermatologist-prescribed options like tacrolimus ointment.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
-
+  platform: YouTube
+  posted: '2024-03-12'
+  related:
+  - tacrolimus-topical
+  thesis: Board-certified dermatologist Dr. Usama Syed explains that chapped lips (cheilitis)
+    have several distinct causes, most commonly dry winter air combined with mouth breathing from
+    a blocked nose, but also lip-product allergens (like beeswax and peppermint oil in some balms),
+    eczema, actinic cheilitis from chronic sun damage, and infections. He explains that dehydration
+    is rarely the real cause and that lip scrubs make the problem worse by further damaging an
+    already compromised skin barrier. His main recommendations are a plain occlusive ointment
+    (Vaseline, or alternatives like Aquaphor or CeraVe Healing Ointment) applied several times
+    daily and especially before bed, a humidifier to add moisture to the air, and stopping lip-licking,
+    which he says worsens dryness via digestive enzymes in saliva; for the minority of cases that
+    do not improve he mentions dermatologist-prescribed options like tacrolimus ointment.
+  title: Why Your Lips Are ALWAYS Dry (Dermatologist)
+  url: https://www.youtube.com/watch?v=l5YQOwGbDAk
 ---
 
 Dry skin, medically called xerosis (also xeroderma or asteatosis), "refers to skin that feels dry to touch," occurring "when the skin is lacking moisture in the outer horny cell layer (stratum corneum)," which results in visible cracking of the surface.[^dermnet] The bottom line: this is one of the most treatable complaints in skincare, and the fix is not exotic. It is [[moisturizing|applying enough of the right kind of moisturizer]], consistently, while removing whatever is stripping the [[skin-barrier-repair|skin barrier]] in the first place.
