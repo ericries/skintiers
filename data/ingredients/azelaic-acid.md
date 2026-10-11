@@ -259,6 +259,16 @@ videos:
   related: [retinoids]
   thesis: 'Board-certified dermatologist Dr. Chris Tomassian addresses whether azelaic acid and retinol can be used together, and his answer is yes: the two can be layered in the same routine. For people with sensitive or easily irritated skin, he suggests splitting them instead, applying azelaic acid in the morning and retinol at night to reduce irritation.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: 'How To Use Azelaic Acid: 4 Mistakes To Avoid For Best Results'
+  creator: Dr. Sam Bunting
+  creator_slug: sam-bunting
+  credential: Board-certified dermatologist (UK)
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=Fg_DokEEmag
+  posted: '2023-03-09'
+  related: [acne, benzoyl-peroxide, retinoids, glycolic-acid, rosacea]
+  thesis: 'Board-certified dermatologist Dr. Sam Bunting sets out four ways people get azelaic acid wrong, and the practical content is mostly about expectations rather than product choice. She argues it needs daily consistent use rather than dabbing on individual blemishes, that starting carefully still matters even though azelaic acid is more forgiving than a retinoid, and that early stinging is normal, happens in almost everyone, and tends to fade with persistent use. On purging she says a flurry of new blemishes in blemish-prone areas is expected while the clogging process corrects, and advises dropping to alternate or every third day rather than stopping. Her last and, she says, most important point is layering: use it alone in the evening at first, and keep it well clear of benzoyl peroxide, since the two together can cause considerable irritation, so put azelaic acid at night and benzoyl peroxide in the morning if you want both.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
