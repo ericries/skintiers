@@ -5,30 +5,37 @@ name: Best Acne Spot Treatments by Evidence
 slug: best-acne-spot-treatments
 status: published
 tier_list:
-  by: strength of the labeled active's acne evidence (concentration within the FDA
-    OTC monograph range, and where that active ranks against benzoyl peroxide and
-    retinoids), not a head-to-head trial of these finished formulas
+  by: strength of the labeled active's acne evidence (concentration within the FDA OTC monograph
+    range, and where that active ranks against benzoyl peroxide and retinoids), not a head-to-head
+    trial of these finished formulas
   items:
   - cerave-acne-control-gel
   - paulas-choice-clear-back-body-acne-spray
   - la-roche-posay-effaclar-duo
   - the-ordinary-sulfur-10-powder-to-cream-concentrate
   title: Acne spot treatments by evidence
+tier_list_reviewed:
+- differin-adapalene-0-1-gel
 type: list
-updated: '2026-09-24'
+updated: '2026-10-11'
 videos:
-- title: 'stop wasting money on pimple patches! Stitch with mishel.archive #skincare'
-  creator: Dr. Neera Nathan
+- creator: Dr. Neera Nathan
   creator_slug: neera-nathan
   credential: Board-certified dermatologist
-  platform: YouTube
-  url: https://www.youtube.com/watch?v=X5DAUauyYMM
   duration: 39
-  posted: '2026-08-27'
-  related: [acne]
-  thesis: Board-certified dermatologist Dr. Neera Nathan explains that pimple patches are just tiny hydrocolloid pads sold at a markup, since a pack of 36 small patches can cost about $17. She recommends buying hydrocolloid pads or hydrocolloid tape from the wound care aisle instead, which gives far more material for less money. She notes you can cut the tape or pads to the exact size needed and apply them to pimples, blisters, or bug bites to help them heal faster with less scarring.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
-
+  platform: YouTube
+  posted: '2026-08-27'
+  related:
+  - acne
+  thesis: Board-certified dermatologist Dr. Neera Nathan explains that pimple patches are just
+    tiny hydrocolloid pads sold at a markup, since a pack of 36 small patches can cost about $17.
+    She recommends buying hydrocolloid pads or hydrocolloid tape from the wound care aisle instead,
+    which gives far more material for less money. She notes you can cut the tape or pads to the
+    exact size needed and apply them to pimples, blisters, or bug bites to help them heal faster
+    with less scarring.
+  title: 'stop wasting money on pimple patches! Stitch with mishel.archive #skincare'
+  url: https://www.youtube.com/watch?v=X5DAUauyYMM
 ---
 
 This ranks on-site leave-on [[acne]] spot treatments. The ranking method: each product is scored by the strength of evidence behind its labeled active ingredient, specifically its concentration within the FDA OTC acne monograph range and how that active ranks against benzoyl peroxide and retinoids in dermatology guidelines. It is not a head-to-head trial of these finished formulas against each other.
