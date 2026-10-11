@@ -140,9 +140,27 @@
 - name: Microneedling (at-home and in-office)
   type: goal
   priority: 5
-  status: pending
+  status: done
   discovered_from: acne
   source: 'Re-routed from the CONDITION queue, which was a type mismatch: microneedling
     is a procedure, not a condition. Precedent is data/goals/laser-hair-removal.md,
     so procedures are modelled as GOAL pages on this site. Originally surfaced from
     the acne hub.'
+- name: Subcision (for atrophic acne scars)
+  type: goal
+  priority: 5
+  status: pending
+  discovered_from: microneedling
+  source: 'Named in Gupta-style NMAs as part of the best-performing combination for
+    atrophic acne scars: ''Fractional CO2 laser combined with subcision or PRP showed
+    the most consistent benefits'' (PMID 42429955). A procedure, so a GOAL page per
+    the laser-hair-removal precedent; no page exists'
+- name: Home-use LED light therapy devices (blue, red, blue-red)
+  type: goal
+  priority: 5
+  status: pending
+  discovered_from: microneedling
+  source: The GRADE-assessed home-device review (PMID 42545315) rates blue and blue-red
+    LED at Level B with Grade I recommendation for acne, in direct contrast to home
+    microneedling at Level D; the site has no LED page despite two IPL device product
+    pages existing
