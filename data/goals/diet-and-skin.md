@@ -12,6 +12,19 @@ slug: diet-and-skin
 status: published
 type: goal
 updated: '2026-10-06'
+videos:
+- title: Can Healing Your Gut Really Transform Your Skin? Dermatologist Explains Gut Health
+  creator: Dr. Shereene Idriss
+  creator_slug: shereene-idriss
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=73R4J0uCcPM
+  posted: '2025-09-13'
+  related: [acne, atopic-dermatitis, rosacea, psoriasis]
+  thesis: 'Board-certified dermatologist Dr. Shereene Idriss works through what randomised trials actually show about the gut and the skin, and the useful part is how unevenly the evidence falls across conditions. For acne she cites a 12-week trial of Lactobacillus rhamnosus SP1 showing improvement and a larger 2024 multistrain trial beating placebo, but sets against them a 2011 South Korean fermented-milk study that improved severity only modestly with no statistical difference from control, and a 2022 systematic review concluding the evidence remains low because study quality was moderate and results conflicted. For eczema she draws the sharpest line: an LGG probiotic halved the risk of eczema by age 2 in children, which she calls powerful prevention, while treating established eczema with probiotics is very inconsistent, and she says moisturizers plus medications do all the heavy lifting. Her most dramatic example is rosacea with small intestinal bacterial overgrowth, where a 10-day course
+    of the non-absorbable antibiotic rifaximin cleared skin while placebo patients barely changed until they received the real drug.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 What you eat, and what you swallow in capsule form, marketed as a route to better skin. This hub covers only what controlled trials on this site actually tested; the topical side of every condition named here lives on its own page.

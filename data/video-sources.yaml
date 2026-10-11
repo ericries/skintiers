@@ -52,7 +52,7 @@
   last_pulled: '2026-09-16'
 - name: Javon Ford
   creator_slug: javon-ford
-  backfill_cursor: 45
+  backfill_cursor: 9999
   credential: Cosmetic chemist
   tier: HIGH
   channel: https://www.youtube.com/@javonford16/videos
@@ -75,7 +75,7 @@
   last_pulled: '2026-10-10'
 - name: Dr. Shereene Idriss
   creator_slug: shereene-idriss
-  backfill_cursor: 45
+  backfill_cursor: 60
   credential: Board-certified dermatologist
   tier: HIGH
   channel: https://www.youtube.com/@ShereeneIdriss/videos
