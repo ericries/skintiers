@@ -149,7 +149,7 @@
 - name: Subcision (for atrophic acne scars)
   type: goal
   priority: 5
-  status: pending
+  status: done
   discovered_from: microneedling
   source: 'Named in Gupta-style NMAs as part of the best-performing combination for
     atrophic acne scars: ''Fractional CO2 laser combined with subcision or PRP showed
@@ -164,3 +164,21 @@
     LED at Level B with Grade I recommendation for acne, in direct contrast to home
     microneedling at Level D; the site has no LED page despite two IPL device product
     pages existing
+- name: Platelet-rich plasma (PRP) for acne scars
+  type: goal
+  priority: 5
+  status: pending
+  discovered_from: subcision
+  source: Named in PMID 42429955 as part of the most consistent combination for atrophic
+    acne scars ('Fractional CO2 laser combined with subcision or PRP'); a procedure,
+    so GOAL per the laser-hair-removal precedent. No page exists, and both microneedling
+    and subcision now reference it as an ungraded comparator
+- name: Fractional CO2 laser resurfacing
+  type: goal
+  priority: 5
+  status: pending
+  discovered_from: subcision
+  source: The comparator that outperformed needling in PMID 42771826 and anchors the
+    best combination in PMID 42429955. Three pages now (microneedling, subcision,
+    acne-scars) reference lasers as an ungraded comparator, which is the biggest single
+    gap in the scar-treatment cluster
