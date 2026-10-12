@@ -1560,7 +1560,7 @@
     2007 Cochrane review)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/17636672/
 - name: Tolnaftate, OTC topical thiocarbamate antifungal for athlete's foot (Tinactin);
@@ -2005,3 +2005,20 @@
     of Melanoma'' section; dermoscopy is the standard adjunct to naked-eye examination
     and has no page here. NOTE: a technique, not a topical - check type fit before
     drafting'
+- name: Tolnaftate (OTC topical antifungal)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: clotrimazole
+  source: Crawford 2007 Cochrane (PMID 17636672) gives tolnaftate the LOWEST treatment-failure
+    risk ratio of any topical tested, RR 0.19 (95% CI 0.08 to 0.44) vs placebo, better
+    than azoles at 0.30 and allylamines at 0.33. No page exists despite being the
+    best-performing agent in that comparison
+- name: Miconazole nitrate (OTC topical azole antifungal)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: clotrimazole
+  source: The active in most Lotrimin AF products per the DailyMed SPL index (Jock
+    Itch powder, Antifungal powder), despite the brand being associated with clotrimazole.
+    No page exists; the clotrimazole page flags the naming trap but cannot grade miconazole

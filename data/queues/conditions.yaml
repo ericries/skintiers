@@ -340,3 +340,11 @@
   source: The term the NCI PDQ uses throughout for BCC+SCC combined (5.4M cases in
     2012); the site has separate basal-cell-carcinoma and squamous-cell-carcinoma
     pages but no page explaining the umbrella term readers will meet in the literature
+- name: Ringworm (tinea corporis)
+  type: condition
+  priority: 5
+  status: pending
+  discovered_from: clotrimazole
+  source: The actual labelled indication of clotrimazole 1% ('cures most ringworm',
+    Bayer SPL b584e17f). The site has athletes-foot and fungal-acne hubs but no page
+    for body ringworm, so the ingredient page has no condition hub to route to
