@@ -182,3 +182,9 @@
     best combination in PMID 42429955. Three pages now (microneedling, subcision,
     acne-scars) reference lasers as an ungraded comparator, which is the biggest single
     gap in the scar-treatment cluster
+- name: Smoothing skin texture
+  type: goal
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: 'discover_hubs: 2 mentions across the video archive; no goal hub yet'

@@ -6971,7 +6971,8 @@
   conflict: Co-developed/formulated the Tbh Skincare 'Rebound' Serum and Toner (product-formulation partnership) — her endorsement of that spe; no YouTube; TikTok/IG intake
   posted: '2026-09-24'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: caption begins 'ad|' - explicit paid-ad disclosure by the creator
 - id: '7688882028946803988'
   title: lightweight peptide kbeauty spf try on and a quick chat about water r...
   creator: Hannah English (@ms_hannah_e / Hannah Collingwood English)
@@ -7102,7 +7103,8 @@
   conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan and reject any sponsored/affiliate/gifted video
   posted: '2026-09-24'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: off-topic personal content (restaurant/toys), not skincare
 - id: '7688736975192395021'
   title: 'So much newness!!  @Each & Every @Fur You Body Care @dpHUE @target  #...'
   creator: Ella (@your.estie.ella)
@@ -7141,7 +7143,8 @@
   conflict: Founder/owner of active postpartum skincare brand "More Than Nine" (cleanser, exfoliator, moisturizer, balm) — an ongoing own-bran
   posted: '2026-09-24'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: vague 'JUST A GOOD HANG' framing from a creator with an active own-brand line; no single topic
 - id: EbeAAwXupag
   title: This Serum Supports Your Skin Barrier + Targets Early Aging
   creator: Dr. Aleksandra Brown, DO, FAAD
@@ -7220,7 +7223,8 @@
   conflict: Bio includes a business/booking contact email suggesting managed brand partnerships; no confirmed own-brand line or affiliate stor
   posted: '2026-09-24'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 23s, below the ~25s floor (Tomassian's catalog is almost entirely sub-25s)
 - id: RUVm3yQxu9w
   title: Dermatologist Explains Canker Sores!
   creator: Dr. Daniel Sugai
@@ -7287,7 +7291,8 @@
   conflict: null
   posted: '2026-09-24'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 23s, below the ~25s floor
 - id: '7689149854618094878'
   title: Not every lump or bump is something to worry about but every new or c...
   creator: Dr. Ife Rodney (@driferodney)
@@ -7300,7 +7305,8 @@
   conflict: Founder & CEO of own hair-care brand, BLCK Hair Care (@blckhaircare), promoted in her Instagram bio — a product-formulation/owners
   posted: '2026-09-24'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 15s, well below the ~25s floor
 - id: ENh34lytjBU
   title: THIS SUNDAY! If you’re someone wanting to find truth in beauty, this event is for you!
   creator: Jen Novakovich (The Eco Well)
@@ -11687,3 +11693,42 @@
   feed_rank: 0
   status: skipped
   skip_reason: no English transcript available (60s vitamin C clip); not citable
+- id: 2bB4rw_Wy2A
+  title: Can Powder Sunscreen Really Protect Your Skin? | Dermatologist
+  creator: Andrea Suarez (Dr Dray)
+  creator_slug: andrea-suarez-dr-dray
+  credential: Board-certified dermatologist
+  channel: https://www.youtube.com/@DrDrayzday/videos
+  platform: YouTube
+  tier: HIGH
+  product_recs: null
+  conflict: null
+  posted: ''
+  feed_rank: 0
+  status: pending
+- id: xaJeBodWz2Y
+  title: The ONLY 3-Step Acne Routine You Need (2026 Dermatologist Guide)
+  creator: Dr. Dustin Portela
+  creator_slug: dustin-portela
+  credential: Board-certified dermatologist
+  channel: https://www.youtube.com/channel/UCC9iFyuXhE3Epr-rJsFiK3Q/videos
+  platform: YouTube
+  tier: HIGH
+  product_recs: null
+  conflict: null
+  posted: ''
+  feed_rank: 0
+  status: pending
+- id: 6UWYYNACpsE
+  title: Are We Already OVER These Viral Eye Patches? Why Is EVERY Beauty Brand Launching the Same Product?
+  creator: James Welsh
+  creator_slug: james-welsh
+  credential: Skincare content creator (NOT a dermatologist or cosmetic chemist)
+  channel: https://www.youtube.com/@JamesWelsh/videos
+  platform: YouTube
+  tier: MED
+  product_recs: null
+  conflict: does sponsorships - educational content only, never treat picks as endorsements, never use sponsored videos
+  posted: ''
+  feed_rank: 0
+  status: pending
