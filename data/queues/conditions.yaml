@@ -327,7 +327,7 @@
 - name: Eczema herpeticum
   type: condition
   priority: 5
-  status: pending
+  status: done
   discovered_from: delgocitinib
   source: 'Named in the Anzupgo SPL warning: ''Eczema herpeticum was observed in a
     subject treated topically with ANZUPGO'' (DailyMed setid a59bf36e-6f04-4b47-b385-8040c95f040c);
@@ -348,3 +348,12 @@
   source: The actual labelled indication of clotrimazole 1% ('cures most ringworm',
     Bayer SPL b584e17f). The site has athletes-foot and fungal-acne hubs but no page
     for body ringworm, so the ingredient page has no condition hub to route to
+- name: Molluscum contagiosum
+  type: condition
+  priority: 5
+  status: pending
+  discovered_from: eczema-herpeticum
+  source: 'A co-occurring viral skin infection in the cited case (PMID 42647319: the
+    child ''had a recent AD flare, molluscum contagiosum''), and PMID 42802835 reports
+    eczema molluscatum, its eczema-spread analogue, in an AD patient on upadacitinib.
+    No page exists'

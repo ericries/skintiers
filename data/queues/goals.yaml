@@ -188,3 +188,12 @@
   status: pending
   discovered_from: null
   source: 'discover_hubs: 2 mentions across the video archive; no goal hub yet'
+- name: Lip care (chapped lips, lip barrier, plumping claims)
+  type: goal
+  priority: 5
+  status: pending
+  discovered_from: microneedling
+  source: 'Dermatologist Mamina Turegano (TikTok 7689251140923362590, 102s) corrects
+    a real myth: a burning sensation from lip-plumping products is irritation, not
+    plumping, and leaves lips dry and irritated. The site has NO lip-care page, so
+    that clip and any lip content has nowhere to attach'

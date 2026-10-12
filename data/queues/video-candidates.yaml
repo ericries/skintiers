@@ -6509,7 +6509,8 @@
   conflict: Founder/owner of active postpartum skincare brand "More Than Nine" (cleanser, exfoliator, moisturizer, balm) — an ongoing own-bran
   posted: '2026-09-23'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: off-topic ('MINIVANS ARE HOT'), not skincare
 - id: DhEhyGLtVI4
   title: Derm Rates Viral Skincare Trends
   creator: Dr. Aleksandra Brown, DO, FAAD
@@ -6656,7 +6657,8 @@
   conflict: Co-developed/formulated the Tbh Skincare 'Rebound' Serum and Toner (product-formulation partnership) — her endorsement of that spe; no YouTube; TikTok/IG intake
   posted: '2026-09-23'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: off-topic ('this is mom, bye'), no skincare content
 - id: '7688272308095569173'
   title: '@Clare Carroll did it again! #hairtransition '
   creator: Hannah English (@ms_hannah_e / Hannah Collingwood English)
@@ -6774,7 +6776,8 @@
   conflict: Self-describes as a "Key Opinion Leader for industry beauty companies" (per her own practice bio) and most sampled TikTok videos e; no YouTube; TikTok/IG intake
   posted: '2026-09-23'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: Trader Joe's skincare and haircare haul; product-roundup format
 - id: '7688495409378970893'
   title: Just because they’re both Azelaic Acid that doesn’t mean they’re the ...
   creator: Ella (@your.estie.ella)
@@ -7359,7 +7362,8 @@
   conflict: runs an Amazon affiliate storefront and does sponsored posts - strongly prefer educational / how-to / ingredient-explainer videos; be very cautious with any product recommendation
   posted: '2026-09-24'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: Kristin Leite 'new cleansing oil alert' treated as effectively paid (affiliate storefront)
 - id: '7689251140923362590'
   title: Say it with me, a burning sensation is NOT plumping your lips! 👏🏻 Man...
   creator: ''
@@ -7372,7 +7376,8 @@
   conflict: null
   posted: '2026-09-24'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: good 102s myth-correction (burning is not plumping) but the subject is LIP-plumping products and the site has no lip-care page; queued the gap rather than inventing a hub
 - id: Bh0SFs96ges
   title: Below are my list of favorite sunscreens to get you started!
   creator: Dr. Maren Locke (The Budget Dermatologist)

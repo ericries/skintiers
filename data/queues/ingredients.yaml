@@ -2022,3 +2022,12 @@
   source: The active in most Lotrimin AF products per the DailyMed SPL index (Jock
     Itch powder, Antifungal powder), despite the brand being associated with clotrimazole.
     No page exists; the clotrimazole page flags the naming trap but cannot grade miconazole
+- name: Acyclovir (oral/topical antiviral)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: eczema-herpeticum
+  source: 'The treatment for eczema herpeticum: PMID 42647319 states ''Current recommendations
+    emphasize immediate systemic acyclovir based on clinical suspicion, without awaiting
+    laboratory confirmation''. No page exists, so the condition hub names its own
+    treatment with nothing to link'
