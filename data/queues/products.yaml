@@ -2848,3 +2848,24 @@
   source: Named in Gupta 2025 full text (PMC12641463) as a CHE-studied calcineurin
     inhibitor (Bauer et al., 8-week HECSI); the pimecrolimus ingredient page exists
     and chronic-hand-eczema links it, but no product page does
+- name: reVive Light Therapy Wrinkle and Acne LED Device
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: home-led-light-therapy
+  source: 'FDA 510(k) K223482, applicant LED Technologies Inc., decision date 2022-12-21,
+    via the openFDA device/510k API (device_name light AND acne). Most recent cleared
+    home LED device in that search, so the best-documented product anchor for home-led-light-therapy,
+    which grades home blue/blue-red LED at GRADE Level B (PMID 42545315). BEFORE DRAFTING:
+    verify the 510(k) record and current availability; do NOT treat clearance as an
+    efficacy claim, since 510(k) is substantial-equivalence, not efficacy.'
+- name: Neutrogena Light Therapy Acne Mask+
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: home-led-light-therapy
+  source: 'FDA 510(k) K180847, applicant Johnson & Johnson Consumer Inc., decision
+    date 2018-06-19, via the openFDA device/510k API. BEFORE DRAFTING: verify current
+    market and recall status independently. An eye-safety withdrawal is widely reported
+    but was NOT verified here; if the product is withdrawn that is itself the story
+    and must be sourced to the FDA or the company, never to retailer or press summaries.'

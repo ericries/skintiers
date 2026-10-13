@@ -158,7 +158,7 @@
 - name: Home-use LED light therapy devices (blue, red, blue-red)
   type: goal
   priority: 5
-  status: pending
+  status: done
   discovered_from: microneedling
   source: The GRADE-assessed home-device review (PMID 42545315) rates blue and blue-red
     LED at Level B with Grade I recommendation for acne, in direct contrast to home

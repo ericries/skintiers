@@ -259,3 +259,18 @@
   discovered_from: delgocitinib
   source: chronic-hand-eczema has NO tier_list, yet delgocitinib, topical-corticosteroids
     and tacrolimus-topical all have pages and Gupta 2025 NMA ranks them (PMID 41277505)
+- name: Home-use skincare devices ranked by evidence
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: home-led-light-therapy
+  source: 'PMID 42545315, already cited on home-led-light-therapy and microneedling,
+    grades six home-device modalities on ONE axis: home fractional nonablative lasers
+    Level A for rejuvenation; LED and radiofrequency Level B; blue and blue-red LED
+    Level B with a Grade I recommendation for acne; red LED and light-heat energy
+    Level C for acne; home microneedling Level D and associated with infectious complications;
+    home IPL and heat-based devices Level D and not recommended. A single-source single-axis
+    ladder, the tier_list shape this site handles best. Two rows already have pages
+    (home-led-light-therapy, microneedling); Fractional CO2 laser resurfacing is already
+    pending in the goal queue, so build this AFTER that page exists or flag the missing
+    rows in prose.'

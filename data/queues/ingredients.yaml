@@ -2031,3 +2031,29 @@
     emphasize immediate systemic acyclovir based on clinical suspicion, without awaiting
     laboratory confirmation''. No page exists, so the condition hub names its own
     treatment with nothing to link'
+- name: Aminolevulinic acid (ALA), topical photodynamic therapy
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: home-led-light-therapy
+  source: 'PMID 41980895 (2026 PRISMA phototherapy review) credits ALA-PDT with superior,
+    durable efficacy in moderate-to-severe acne via sebocyte apoptosis and downregulated
+    lipogenesis, the one strong efficacy claim in that review and it belongs to a
+    clinic drug rather than a home mask. PMID 27670126 (Cochrane 2016) adds dose-response:
+    20% ALA beat 10% (RR 1.22, 95% CI 1.05-1.42) and 5% (RR 1.47, 95% CI 1.19-1.81)
+    but not 15% (RR 1.05, 95% CI 0.96-1.15); NNTB 6 and 4. Has a US label (Levulan
+    Kerastick): check DailyMed for marketing category and whether the acne use is
+    on-label before grading.'
+- name: Methyl aminolevulinate (MAL), topical photodynamic therapy
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: home-led-light-therapy
+  source: 'The comparator in the ONE pooled result in PMID 27670126 (Cochrane 2016):
+    MAL-PDT activated by red light was no different to placebo cream plus red light
+    on inflamed lesion counts, MD -2.85 (95% CI -7.51 to 1.81), 3 RCTs, 360 participants,
+    rated MODERATE quality. A rare moderate-quality null in this literature, so a
+    clean skeptical ingredient page. Design point reused from home-led-light-therapy:
+    both arms got red light, so the trial isolates the drug. Also compared to adapalene
+    with no clinically significant effects. Check DailyMed for a current US label
+    (Metvixia).'
