@@ -2851,7 +2851,7 @@
 - name: reVive Light Therapy Wrinkle and Acne LED Device
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: home-led-light-therapy
   source: 'FDA 510(k) K223482, applicant LED Technologies Inc., decision date 2022-12-21,
     via the openFDA device/510k API (device_name light AND acne). Most recent cleared
@@ -2869,3 +2869,26 @@
     market and recall status independently. An eye-safety withdrawal is widely reported
     but was NOT verified here; if the product is withdrawn that is itself the story
     and must be sourced to the FDA or the company, never to retailer or press summaries.'
+- name: reVive Light Therapy Essentials (LED Technologies)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: revive-light-therapy-wrinkle-and-acne-led-device
+  source: 'The two PREDICATE devices named in the K223482 clearance: FDA 510(k) K210965
+    and K210968, both LED Technologies, Inc., both titled The reVive Light Therapy
+    Essentials. These are what the newer device was judged substantially equivalent
+    TO, so they are the units that carry whatever original clearance basis exists
+    for this product line. Pull both 510(k) PDFs from accessdata.fda.gov and check
+    whether EITHER contains clinical data, since K223482 contains none. If neither
+    does, that is a publishable finding about the whole line.'
+- name: FOREO ESPADA Acne-Clearing Blue Light Pen
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: revive-light-therapy-wrinkle-and-acne-led-device
+  source: 'FDA 510(k) K162450, applicant Foreo, Inc., decision date 2016-11-30, via
+    the openFDA device/510k API (device_name light AND acne). A blue-light-only home
+    acne device from a far better-known brand, which makes it the natural comparison
+    for the reVive page: the GRADE review (PMID 42545315) grades blue LED and blue-red
+    LED at Level B but red-only at Level C, so a blue-only device sits in the better-evidenced
+    group. Verify the 510(k), the indications, and current retail price before drafting.'

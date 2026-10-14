@@ -274,3 +274,19 @@
     (home-led-light-therapy, microneedling); Fractional CO2 laser resurfacing is already
     pending in the goal queue, so build this AFTER that page exists or flag the missing
     rows in prose.'
+- name: What FDA approval, clearance and OTC monograph actually mean in skincare
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: revive-light-therapy-wrinkle-and-acne-led-device
+  source: 'A reference ladder the site keeps needing and does not have. Three distinct
+    regulatory statuses already appear across published pages, each meaning something
+    different and each routinely marketed as if it meant efficacy: (1) 510(k) SUBSTANTIAL
+    EQUIVALENCE for devices, documented on revive-light-therapy-wrinkle-and-acne-led-device,
+    where the FDA letter itself says clearance does not mean the agency determined
+    compliance with other requirements of the Act; (2) OTC MONOGRAPH, e.g. clotrimazole
+    under citation M005, where the active is accepted without trials of that product;
+    (3) NDA APPROVAL, e.g. delgocitinib under NDA219155, which does require efficacy
+    data. A fourth, unapproved drug other, is recorded in memory for older sulfacetamide/sulfur
+    products. Each tier can be sourced to a primary FDA document already cited on
+    an existing page, so this is assembly, not new research.'

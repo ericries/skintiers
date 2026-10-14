@@ -9308,6 +9308,36 @@ retinyl-retinoate:
     No prose changed; this only expresses the existing verdict structurally for entity_tier.
   score: 8
   verdict: publish
+revive-light-therapy-wrinkle-and-acne-led-device:
+  last_reviewed: '2026-10-13'
+  note: 'Sourced primarily from the FULL FDA 510(k) clearance package for K223482 (clearance letter, Indications
+    for Use form FDA 3881, and the 510(k) Summary), read page by page from the PDF, plus the openFDA device/510k
+    and device/classification API records, plus PMID 42545315 for category evidence. CENTRAL FINDING:
+    the clearance contains NO clinical efficacy study. It is a Special 510(k) whose two predicates are
+    the company''s OWN earlier devices (K210965, K210968) and whose stated only modification is ''the
+    updated software and associated hardware''; the entire testing section is software validation. So
+    ''FDA cleared'' for this device means equivalent to the maker''s previous unit, and the page says
+    so plainly, using the FDA''s own sentence that clearance ''does not mean that FDA has made a determination
+    that your device complies with other requirements of the Act''. BALANCE: the page is not merely negative.
+    The acne mode''s 415nm plus 630nm is exactly the blue-red pairing that the GRADE review placed at
+    Level B with a Grade I recommendation, the best grade in that review''s acne section, and red alone
+    (which this device does NOT rely on for acne) is the configuration that fell to Level C. That is stated
+    as a genuine point in the device''s favour, while making clear the grade belongs to the modality and
+    not to this box. PRICE DELIBERATELY ABSENT: the brand domain revivelighttherapy.com is now a parked
+    Polish loan-ad page (fetched 2026-10-13), and Amazon bot-blocks, so no price or current model was
+    confirmed. Rather than guess, the page states in bold that no price is given because none was verified.
+    QUOTE DISCIPLINE: a first verbatim pass caught a real error, a quote rendered as ''we have determined''
+    where the letter reads ''and have determined''; corrected to a contiguous substring. A nested-quote
+    rendering of the FDA software-guidance title was also restructured so no quotation marks are altered
+    inside a verbatim quote. Final pass: 0 real mismatches across 48 quotes, the 19 flags being the known
+    adjacent-quote regex artifact. Two en-dashes originating INSIDE verbatim predicate strings were removed
+    by restructuring so the dash falls outside the quotation rather than by silently editing the quote.
+    ALSO RECORDED: the 510(k) Summary is itself headed ''K223842'', a digit transposition of the correct
+    K223482, noted so a reader searching the FDA database can find it. And the 7 cm2 treatment window
+    with 3-minute contact placement is surfaced as a form-factor rubric row, since buyers routinely picture
+    a full-face mask. Absence claims are scoped to the documents consulted, never asserted universally.'
+  score: 8
+  verdict: publish
 rhofade-oxymetazoline-1-cream:
   last_reviewed: '2026-09-13'
   note: 'Rx: oxymetazoline 1% cream (Rhofade) for persistent facial erythema of rosacea. Fable draft (corrected
