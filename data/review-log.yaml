@@ -8560,6 +8560,37 @@ pityriasis-versicolor:
     Disclaimer. No dashes. Opus critic inline (workflow pipeline); assurance opus.'
   score: 9
   verdict: publish
+platelet-rich-plasma-acne-scars:
+  last_reviewed: '2026-10-13'
+  note: 'Three sources that disagree productively: PMID 41081097 (PeerJ 2025 Bayesian NMA, 68 RCTs, 4480
+    patients, PROSPERO-registered), PMID 42014607 (2026 PRP-plus-ablative-fractional-CO2 systematic review,
+    17 studies, n=420) and PMID 39110247 (2024 microneedling-centred NMA, 24 studies, 1546 participants).
+    CENTRAL DISCIPLINE: the headline number is strong (laser+PRP ranked best on ECCA, SUCRA 98.4%) and
+    the page refuses to stop there. The SAME analysis ranks laser+filler best on the other scar scale
+    (GBS) and laser+chemical-peels best on satisfaction, so three outcomes give three different winners,
+    which is what a SUCRA ranking looks like when comparisons are close. And the microneedling-centred
+    NMA has microneedling+chemical-peels BEATING microneedling+PRP, so the winning add-on moves with the
+    base procedure. Conclusion the page actually argues: PRP reliably improves whatever it is added to,
+    never works alone, and is one of several worthwhile add-ons rather than the one to insist on. NO EFFECT
+    SIZE ASSERTED: SUCRA is a ranking statistic, not an effect size, and the page says so; none of the
+    three abstracts reports a pooled absolute effect. STANDARDISATION PROBLEM surfaced as its own point:
+    PRP preparation (double-spin, topical 47% vs intradermal 59%) and laser settings (10 to 30 W) vary
+    so much that two clinics can both advertise laser with PRP and deliver different treatments; there
+    is no single product to grade. TWO INDEPENDENT NULLS kept: neither analysis found any treatment reduced
+    erythema or PIH risk, stated as two sources agreeing rather than one. SCOPE CAVEAT recorded in the
+    footnote: the PRP-specific review covers acne, traumatic AND burn scars together, not acne scarring
+    alone. ERROR CAUGHT IN REVIEW: I had cited PMID 39110247 with the wrong title (''a systematic review
+    and network meta-analysis'' instead of the real ''a network meta-analysis of randomized controlled
+    trials'') and with no authors; corrected to Li H, Jia B, Zhang X with volume 316(8):505. Verbatim
+    pass then clean at 43 quotes, the single flag being my own scare-quoted phrase ''laser with PRP'',
+    not a source quote. One quote was deliberately PARAPHRASED rather than quoted because the source renders
+    ''botulinum toxin-A'' with a non-standard hyphen character; the footnote records that choice. No tier_list,
+    stated with the specific reason (ablative fractional CO2, fillers and chemical peels have no graded
+    pages yet), consistent with microneedling and subcision. ALSO FIXED, outside the new page: data/conditions/acne-scars.md
+    linked to ZERO procedure pages despite procedures being the main treatment for atrophic scars; added
+    microneedling, subcision and this page to its See Also so the three are not orphaned.'
+  score: 8
+  verdict: publish
 plexion-sodium-sulfacetamide-10-sulfur-5-cleanser:
   last_reviewed: '2026-09-14'
   note: 'Product (Rx): Plexion Cleanser (sodium sulfacetamide + sulfur combination), Cintex Services.

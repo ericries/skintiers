@@ -290,3 +290,17 @@
     data. A fourth, unapproved drug other, is recorded in memory for older sulfacetamide/sulfur
     products. Each tier can be sourced to a primary FDA document already cited on
     an existing page, so this is assembly, not new research.'
+- name: Acne scar procedures ranked by evidence
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: platelet-rich-plasma-acne-scars
+  source: 'Now buildable: three procedure pages exist (microneedling, subcision, platelet-rich-plasma-acne-scars)
+    and Fractional CO2 laser resurfacing is already pending in the goal queue. FOUR
+    pages on this site now each carry a separate note explaining why they cannot host
+    a ranking, which is the signal that the ranking belongs in one list. Spine is
+    PMID 41081097 (68 RCTs, 4480 patients): laser+PRP best on ECCA (SUCRA 98.4%),
+    laser+filler best on GBS (72.1%), laser+chemical peels best on satisfaction (89.6%),
+    microneedling most tolerable for pain (72.6%), and no treatment reduced erythema
+    or PIH risk. Build AFTER the fractional CO2 page, and make the by: axis name WHICH
+    outcome scale is being ranked, since the winner changes with the scale.'

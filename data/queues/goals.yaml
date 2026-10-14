@@ -167,7 +167,7 @@
 - name: Platelet-rich plasma (PRP) for acne scars
   type: goal
   priority: 5
-  status: pending
+  status: done
   discovered_from: subcision
   source: Named in PMID 42429955 as part of the most consistent combination for atrophic
     acne scars ('Fractional CO2 laser combined with subcision or PRP'); a procedure,
@@ -197,3 +197,16 @@
     a real myth: a burning sensation from lip-plumping products is irritation, not
     plumping, and leaves lips dry and irritated. The site has NO lip-care page, so
     that clip and any lip content has nowhere to attach'
+- name: Chemical peels for acne scars and texture
+  type: goal
+  priority: 5
+  status: pending
+  discovered_from: platelet-rich-plasma-acne-scars
+  source: 'The add-on that actually WON in two of the three analyses behind platelet-rich-plasma-acne-scars,
+    and the site has no page for it. PMID 39110247 (24 studies, 1546 participants):
+    microneedling combined with chemical peels gave the best results on degree of
+    improvement, patient satisfaction AND treatment efficacy, beating microneedling
+    with PRP and PRP alone. PMID 41081097: laser plus chemical peels ranked best in
+    patient satisfaction (SUCRA 89.6%). Chemical peels are also far cheaper and more
+    widely available than laser or PRP, so this is a high-value gap. Resolve which
+    peel agents and depths the trials used before grading.'

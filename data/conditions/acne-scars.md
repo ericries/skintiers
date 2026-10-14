@@ -105,6 +105,9 @@ The evidence splits by scar type and mostly lives on other pages. For atrophic s
 - [[tranexamic-acid]]: pigment-fading active used alongside azelaic acid and niacinamide
 - [[niacinamide]]: gentle add-on for post-acne discoloration
 - [[sunscreen-uv-filters]]: daily protection that keeps both PIH and PIE from lingering
+- [[microneedling]]: the needling procedure for atrophic scars, with its home-device evidence graded separately
+- [[subcision]]: for tethered rolling scars specifically, where the stand-alone evidence is thinner than its popularity
+- [[platelet-rich-plasma-acne-scars]]: the add-on that ranks best alongside laser on one scar scale, and not on the others
 
 ## Sources
 

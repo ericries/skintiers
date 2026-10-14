@@ -2057,3 +2057,27 @@
     both arms got red light, so the trial isolates the drug. Also compared to adapalene
     with no clinically significant effects. Check DailyMed for a current US label
     (Metvixia).'
+- name: Trichloroacetic acid (TCA)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: platelet-rich-plasma-acne-scars
+  source: The workhorse peel agent behind the chemical-peel results above, and the
+    agent in the CROSS technique for ice-pick acne scars. Grounded in the chemical-peel
+    arms of PMID 39110247 and PMID 41081097. Site has azelaic, glycolic, lactic, mandelic
+    and salicylic acid pages but no TCA page, which is the gap that stops the acne-scar
+    procedure comparison from being written in ingredient terms. Check DailyMed and
+    the FDA for any US drug listing, since TCA peels are largely practitioner-applied
+    rather than OTC products, and grade accordingly.
+- name: Hyaluronic acid dermal filler for atrophic scars
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: platelet-rich-plasma-acne-scars
+  source: Filler injection ranked BEST on the Goodman and Baron Scale in PMID 41081097
+    (laser + filler injection, SUCRA 72.1%), which is one of the three different winners
+    that page documents. The site has a hyaluronic-acid page for topical use, but
+    injectable filler for scar volume is a different intervention with different evidence
+    and should not be conflated with the topical humectant. Verify which filler products
+    the trials used and check FDA device/PMA records, since dermal fillers are regulated
+    as devices rather than drugs.
