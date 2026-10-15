@@ -2081,3 +2081,15 @@
     and should not be conflated with the topical humectant. Verify which filler products
     the trials used and check FDA device/PMA records, since dermal fillers are regulated
     as devices rather than drugs.
+- name: Erbium:YAG and erbium-glass fractional lasers
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: fractional-co2-laser-resurfacing
+  source: The direct comparator in PMID 42720808 and the only procedure in the acne-scar
+    set with no page. Erbium had a lower chance of >50% response than CO2 (RR 0.69,
+    95% CI 0.49-0.97) but the advantage vanished in the randomized-only analysis (RR
+    0.76, 95% CI 0.54-1.08), while CO2 cost more pain (MD 1.86) and 3.67 more days
+    of downtime. Erbium is therefore the less-painful option with an unproven efficacy
+    gap, which is a genuinely useful page. Needed before the acne-scar procedures
+    list can be complete.

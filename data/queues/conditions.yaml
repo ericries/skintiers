@@ -357,3 +357,15 @@
     child ''had a recent AD flare, molluscum contagiosum''), and PMID 42802835 reports
     eczema molluscatum, its eczema-spread analogue, in an AD patient on upadacitinib.
     No page exists'
+- name: Atrophic acne scar subtypes (ice pick, boxcar, rolling)
+  type: condition
+  priority: 5
+  status: pending
+  discovered_from: fractional-co2-laser-resurfacing
+  source: 'Every source behind the procedure pages conditions its advice on scar TYPE:
+    PMID 42429955 says selection ''should consider scar type, Fitzpatrick skin phototype,
+    downtime, pain, adverse-effect risk, and patient preference'', and subcision applies
+    only to tethered rolling scars. The site has acne-scars as a hub but no page distinguishing
+    the three atrophic subtypes, which is the first question a reader actually needs
+    answered before any of microneedling, subcision, PRP or fractional-co2-laser-resurfacing
+    applies to them.'

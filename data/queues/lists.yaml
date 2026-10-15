@@ -304,3 +304,17 @@
     microneedling most tolerable for pain (72.6%), and no treatment reduced erythema
     or PIH risk. Build AFTER the fractional CO2 page, and make the by: axis name WHICH
     outcome scale is being ranked, since the winner changes with the scale.'
+- name: Acne scar treatments ranked by downtime and pain
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: fractional-co2-laser-resurfacing
+  source: 'A second axis the evidence actually supports and the planned efficacy list
+    will not cover. PMID 42720808 gives hard comparative numbers for tolerability
+    where efficacy is uncertain: CO2 vs erbium pain MD 1.86 (95% CI 1.33-2.39) and
+    downtime MD 3.67 days (95% CI 1.90-5.44), both excluding the null, while the efficacy
+    advantage does not survive the randomized-only analysis. PMID 41081097 adds that
+    microneedling ranked most tolerable for pain (SUCRA 72.6%), and PMID 42771826
+    that needling may offer better tolerability and pigment safety than ablative lasers.
+    For many readers downtime is the deciding variable, and it is the better-evidenced
+    one.'
