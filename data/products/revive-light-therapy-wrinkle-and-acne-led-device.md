@@ -29,11 +29,18 @@ grades:
     offers 605nm, 630nm, 660nm and 880nm, and no source consulted reports what those
     wavelengths achieved on this device'
   use: Treatment of wrinkles (FDA-cleared indication)
+image_unresolvable: FDA-cleared device K223482 has no confirmable current retail SKU.
+  incidecoder MISS (device, no INCI). Brand is trading at ledtechnologies.com but
+  its current reVive line carries no product under this cleared name; the only Essentials-named
+  product is Essentials Acne, a blue-light acne spot treatment matching the ACNE-ONLY
+  predicate K210968, not this dual wrinkle-and-acne device. Using its photo would
+  be a different SKU. revivelighttherapy.com is parked; Amazon bot-blocks. Re-probe
+  only if a product appears under the cleared name.
 name: reVive Light Therapy Wrinkle and Acne LED Device
 slug: revive-light-therapy-wrinkle-and-acne-led-device
 status: published
 type: product
-updated: '2026-10-13'
+updated: '2026-10-14'
 ---
 
 The reVive Light Therapy Wrinkle and Acne LED Device is a small over-the-counter LED unit from LED Technologies, Inc. of Largo, Florida, cleared by the FDA in December 2022 under 510(k) number K223482. Its cleared indication, quoted in full from the FDA's own Indications for Use form, is that it "is intended for treatment of wrinkles and mild to moderate inflammatory acne".[^fda] The device category and its evidence are on [[home-led-light-therapy]].
@@ -82,7 +89,13 @@ No brand marketing copy could be retrieved for this page, because the brand doma
 
 ## Where to Buy
 
-**No price is stated on this page because none was verified.** The brand domain revivelighttherapy.com no longer serves the brand; a fetch on 2026-10-13 returned an unrelated parked page in Polish. A search surfaced an Amazon listing for a reVive Light Therapy product, but Amazon blocks automated retrieval, so neither the price nor the exact model on sale was confirmed. Treat current availability as something to check directly before planning around this specific model.
+**No price is stated on this page because none was verified, and the cleared device does not map cleanly onto anything currently sold.**
+
+The manufacturer is trading. LED Technologies, Inc., the applicant named on the clearance, sells reVive Light Therapy products at ledtechnologies.com, which returned a live storefront when fetched on 2026-10-14. It is the separate domain revivelighttherapy.com that no longer serves the brand; that one returned an unrelated parked page in Polish.
+
+What could not be confirmed is this device. The current reVive skincare line is built around the Lux Collection plus two spot treatments, and the only product carrying the predicate's "Essentials" name is **Essentials Acne**, described on the brand's own site as a blue-light acne spot treatment. That matches the acne-only predicate rather than the dual wrinkle-and-acne device cleared under K223482, whose wrinkle mode adds 605nm, 660nm and 880nm.[^fda] No current product was found under the cleared device's name.
+
+So treat the clearance as evidence about a device, not as a guide to what is on sale. If you are buying, match the product's own stated wavelengths and indication against the clearance above rather than trusting the brand name alone.
 
 ## See Also
 
