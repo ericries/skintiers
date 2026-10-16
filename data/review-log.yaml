@@ -7569,6 +7569,33 @@ neutrogena-hydro-boost-water-gel:
     '
   score: 9
   verdict: revise-then-fixed
+neutrogena-light-therapy-acne-mask-plus:
+  last_reviewed: '2026-10-16'
+  note: 'Drafted from the full K180847 510(k) package (letter, Indications for Use form, 510(k) Summary
+    with Table 1) plus the openFDA device/510k record, and PMID 42545315 for category evidence. 23 quotes
+    verbatim, 0 mismatches; wikilinks clean; lint, verify, style clean. ZERO Apify spend; everything came
+    from free primary FDA endpoints. THE QUEUE ENTRY ASKED FOR A RECALL CHECK AND THE ANSWER IS AN HONEST
+    ''CANNOT CONFIRM''. An eye-safety withdrawal of this mask is widely reported. Three primary checks
+    were run: openFDA device/recall and device/enforcement by product description AND by recalling firm
+    (no match), openFDA device/registrationlisting for K180847 (no record), and neutrogena.com product
+    URLs (404). The page therefore does NOT assert a recall, and states explicitly that absence from those
+    databases is not evidence nothing happened, because a voluntary market withdrawal by a company need
+    not be an FDA-classified recall. It also flags that the 404 check is weaker than the API ones because
+    those URLs were constructed rather than followed from a live index. Readers with a safety question
+    are pointed to the manufacturer and the FDA rather than to this page. SAME STRUCTURAL FINDING AS THE
+    REVIVE DEVICE but by a different route: this is a TRADITIONAL 510(k) against a THIRD PARTY''s predicate
+    (Pulsaderm Acne Mask 28, K170111), not a Special 510(k) against the maker''s own earlier unit. That
+    is a slightly stronger comparison and the page says so, while keeping the point that equivalence is
+    not efficacy. Performance Data is explicitly BENCH testing: ''The bench performance tests demonstrated
+    that the Light Therapy Acne Mask + is as safe, and as effective as the predicate device.'' No human
+    acne trial in the file. BALANCE: blue 425-450nm plus red 620-640nm is the Level B / Grade I blue-red
+    configuration, stated as a genuine point in the device''s favour, with the grade attributed to the
+    modality not the mask. image_unresolvable set with the discontinuation reasoning rather than risking
+    a press image or wrong SKU. No price, since none was verified and the product appears off-market.
+    Useful concrete contrast added: full-face 10-minute mask vs the reVive unit''s 7 cm2 contact spot
+    window.'
+  score: 8
+  verdict: publish
 neutrogena-rapid-wrinkle-repair-retinol-serum:
   last_reviewed: '2026-08-08'
   note: 'Opus focused product-fact review against cached Target source (research-cache/web/3abdb963c2d8960a.md):

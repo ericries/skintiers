@@ -346,3 +346,18 @@
     The only head-to-head evidence in the review is allylamines vs azoles, RR 0.63
     favouring allylamines. So the by: axis should be head-to-head evidence first,
     with the placebo pools shown but explicitly labelled as non-comparable.'
+- name: What FDA clearance does and does not prove for skincare devices
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: neutrogena-light-therapy-acne-mask-plus
+  source: 'The site now has THREE worked examples of the same gap and no page explaining
+    it: revive-light-therapy-wrinkle-and-acne-led-device (Special 510(k), only change
+    was software, testing section is software validation), neutrogena-light-therapy-acne-mask-plus
+    (Traditional 510(k) against a third party predicate, Performance Data is BENCH
+    testing), and home-use-skincare-devices-by-evidence which has to warn that a clearance
+    is not an evidence grade. Primary quotes already transcribed on those pages, including
+    the FDA''s own sentence that clearance ''does not mean that FDA has made a determination
+    that your device complies with other requirements of the Act''. This overlaps
+    the already-queued ''What FDA approval, clearance and OTC monograph actually mean
+    in skincare''; MERGE them rather than building both.'

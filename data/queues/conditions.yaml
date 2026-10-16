@@ -381,3 +381,18 @@
     is the indication both labels lead with. Note the evidence asymmetry worth building
     the page on: Crawford 2007 covers the FOOT only, so the body-ringworm indication
     rests on the monograph rather than on that pooled trial evidence.'
+- name: Blue light and eye safety in home skincare devices
+  type: condition
+  priority: 5
+  status: pending
+  discovered_from: neutrogena-light-therapy-acne-mask-plus
+  source: 'Grounded in a gap the Neutrogena page had to leave open. Its K180847 summary
+    cites consensus standards including a collateral standard for non-laser light
+    sources and one for the home healthcare environment, and the reVive K223482 summary
+    separately claims its optics ''limit light scattering and exposure to the eyes''
+    and that it ''has gone through all the clinical testing for eye safety''. Two
+    cleared home LED devices both treat ocular exposure as the safety question, and
+    the site has no page on it. STRICT SOURCING REQUIRED: build only from FDA clearance
+    documents and standards bodies. Do NOT assert or repeat the widely-reported Neutrogena
+    eye-safety withdrawal, which could not be confirmed in openFDA recall, enforcement
+    or registration data on 2026-10-16.'

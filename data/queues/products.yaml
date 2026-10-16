@@ -2862,7 +2862,7 @@
 - name: Neutrogena Light Therapy Acne Mask+
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: home-led-light-therapy
   source: 'FDA 510(k) K180847, applicant Johnson & Johnson Consumer Inc., decision
     date 2018-06-19, via the openFDA device/510k API. BEFORE DRAFTING: verify current
@@ -2915,3 +2915,15 @@
     is the label's PREVENTION claim and its separate prevention dose. incidecoder
     will likely MISS (OTC drug, not a cosmetic), so try DailyMed media for a photo
     before anything metered.
+- name: Pulsaderm Acne Mask 28
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: neutrogena-light-therapy-acne-mask-plus
+  source: 'The PREDICATE device for Neutrogena''s K180847: FDA 510(k) K170111, named
+    verbatim in that summary as ''Pulsaderm Acne Mask 28 (K170111)''. Everything the
+    Neutrogena mask''s clearance asserts rests on equivalence to THIS device, so whether
+    K170111 itself contains any clinical data is the open question the Neutrogena
+    page leaves. Pull the K170111 PDF from accessdata.fda.gov (free, primary). If
+    it is also bench-only, that is a publishable finding about the whole home-LED-mask
+    clearance chain. Predicate wavelengths already recorded: Blue 440+/-5nm, Red 630+/-5nm.'
