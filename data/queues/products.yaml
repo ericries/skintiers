@@ -2927,3 +2927,27 @@
     page leaves. Pull the K170111 PDF from accessdata.fda.gov (free, primary). If
     it is also bench-only, that is a publishable finding about the whole home-LED-mask
     clearance chain. Predicate wavelengths already recorded: Blue 440+/-5nm, Red 630+/-5nm.'
+- name: reVive Light Therapy poof! Acne Treatment
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: revive-light-therapy
+  source: 'A current reVive skincare product listed on the manufacturer''s own storefront
+    (ledtechnologies.com, cached research-cache/web/0d21cfea2a599fd0.md, fetched 2026-10-16)
+    at /product/revive-light-therapy-poof-acne-treatment/. In scope as an acne light
+    device. BEFORE DRAFTING resolve its FDA 510(k) via the free openFDA device/510k
+    API rather than any metered call, exactly as K223482 and K180847 were resolved;
+    if no clearance record matches, say so rather than assuming one. Note the reVive
+    line''s pattern so far: the cleared device names and the retail names do not correspond.'
+- name: reVive Light Therapy Glo, Lux Collection
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: revive-light-therapy
+  source: Current reVive product listed on the manufacturer's storefront (ledtechnologies.com,
+    cached 2026-10-16) at /product/revive-glo-lux-collection/. The Lux Collection
+    is the line the brand currently leads with, so it is the most commercially relevant
+    reVive product the site does not cover. Resolve the 510(k) and the emitted wavelengths
+    from openFDA/accessdata before drafting; the home-use-skincare-devices-by-evidence
+    ladder turns on whether a device is blue-red (Level B) or red-only (Level C),
+    so wavelengths are the fact that decides the grade.

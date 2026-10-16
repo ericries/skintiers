@@ -9416,6 +9416,26 @@ retinyl-retinoate:
     No prose changed; this only expresses the existing verdict structurally for entity_tier.
   score: 8
   verdict: publish
+revive-light-therapy:
+  last_reviewed: '2026-10-16'
+  note: 'Lean brand discovery card, 166 words against the 180 cap. No critic for brand type; own lint,
+    verify and style check, published with --force at assurance sonnet per the playbook. NO FOUNDER ASSERTED.
+    The playbook says founder in one line IF VERIFIABLE, and nothing in the FDA record or the brand''s
+    own site established one, so the line is simply absent rather than guessed. Same discipline as the
+    Lancome and Estee Lauder brand pages. Sources are the openFDA/accessdata 510(k) record for K223482
+    (primary, gives the legal entity and Largo FL address) and the brand''s own storefront, which was
+    CACHED to research-cache/web before quoting, as the non-primary rule requires. sk verify''s ''not
+    on primary allowlist'' warning for ledtechnologies.com is expected and is answered by that cache entry.
+    Verbatim check against the cache passed for the load-bearing site quote; the 3 flagged strings are
+    FDA-record quotes attributed to the [^fda] footnote rather than to the site, plus one scare-quoted
+    phrase of my own. ATTRIBUTION HANDLED: the brand headlines itself ''Medical Grade LED Light Skin Therapy''.
+    That is quoted AS the brand''s wording, immediately followed by the fact that ''medical grade'' is
+    not an FDA category and that the clearance behind the profiled device contains no clinical efficacy
+    study. CARRIES THE DOMAIN TRAP so a reader does not conclude the brand is gone: revivelighttherapy.com
+    is parked, ledtechnologies.com is live, and no current product carries the cleared device''s name,
+    so the page tells readers to match wavelengths and indication rather than brand name.'
+  score: 8
+  verdict: publish
 revive-light-therapy-wrinkle-and-acne-led-device:
   last_reviewed: '2026-10-13'
   note: 'Sourced primarily from the FULL FDA 510(k) clearance package for K223482 (clearance letter, Indications

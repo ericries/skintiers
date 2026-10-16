@@ -331,7 +331,7 @@
 - name: reVive Light Therapy (LED Technologies, Inc.)
   type: brand
   priority: 5
-  status: pending
+  status: done
   discovered_from: revive-light-therapy-wrinkle-and-acne-led-device
   source: 'Applicant of record on FDA 510(k) K223482, K210965 and K210968: Led Technologies,
     Inc., 12821 Starkey Rd., Suite 4900, Largo, FL 33773. The site now has a product
