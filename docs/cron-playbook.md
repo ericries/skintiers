@@ -33,6 +33,7 @@ TOKEN DISCIPLINE: bound research hard (stop at the few sources you actually need
 Prefer an existing stub of your type, else the next queued item
 (`.venv/bin/python scripts/sk queue-next --type <TYPE>`). If BOTH are absent, DO NOT
 skip idly — an empty queue is the normal steady state of a mature site, not "nothing to do" (user 2026-09-03).
+Instead run `.venv/bin/python scripts/site_health.py --type <TYPE>`: it returns ONE grounded, bounded, self-
 clearing MAINTENANCE task for an EXISTING page (a missing `tier:`, a stale price, a tier_list that omits pages
 now linking to it, an unlinked brand product), or prints `NONE`. If it returns a task, DO exactly that one task
 — follow its ACTION line literally, KEEP TOKEN USE LOW, operate only on the named page, add nothing gratuitous
@@ -51,11 +52,27 @@ false positives re-fired for weeks.)
 ## Fetching composition, price, INCI and claims
 
 FETCHING (product/ingredient composition, price, INCI, claims): FIRST try `.venv/bin/python scripts/inci_lookup.py "<product name>"` - incidecoder is server-side rendered, so this returns the full ordered INCI + real front-photo URL in one cheap HTTP call and caches it (no Apify needed). It also accepts `--slug <incidecoder-slug>` and `--photo` (photo URL only). Use it for the INCI + photo; you still need the BRAND page for price + marketing claims (incidecoder carries neither). If it prints MISS, then try `curl -sL -A "Mozilla/5.0" <url>`.
-If it returns only a JS-SPA shell or a bot-block (Cloudflare/"Robot or human?", empty title, no INCI/price),
-use the Apify browser instead: ToolSearch "select:mcp__apify__apify--rag-web-browser,mcp__apify__get-dataset-items",
-then call apify--rag-web-browser with {query: <product URL> OR search keywords, maxResults:1-2, outputFormats:["markdown"], waitSecs:45}
-and read the result via get-dataset-items {datasetId, fields:"metadata.title,metadata.url,markdown", clean:true}.
-It renders JS AND does Google Search (so it also finds the right product URL when web-search is exhausted). Amazon still bot-blocks it; prefer brand sites + reputable reviews. If the item's identity is uncertain/garbled, resolve it via this search before drafting; do NOT draft from an unverified name.
+If it returns only a JS-SPA shell or a bot-block (Cloudflare/"Robot or human?", empty title, no INCI/price):
+APIFY IS THE LAST RESORT AND IT IS METERED. It is the only paid service this project uses, and the account
+reached 50% of its monthly limit mid-cycle in 2026-10 with no record of what the spend bought. Gate EVERY call:
+1. `.venv/bin/python scripts/apify_gate.py check "<url-or-query>"`. Exit 1 means DO NOT CALL. Ship the page
+   without that field and say so plainly, which is always an acceptable outcome ("when in doubt, LEAVE IT
+   OUT"; 127 of 369 product pages already carry no price). NEVER work around a DENY by rephrasing to dodge
+   the check.
+2. On ALLOW: ToolSearch "select:mcp__apify__apify--web-fetch,mcp__apify__apify--rag-web-browser,mcp__apify__get-dataset-items".
+   KNOWN URL -> use apify--web-fetch (cheap: no Google, no browser fan-out). Use apify--rag-web-browser ONLY
+   for genuine discovery when the URL is unknown, with {query: ..., maxResults:1, outputFormats:["markdown"],
+   waitSecs:45}. maxResults:1, never 2 or 3, since each extra result is another full browser page load.
+   Read results via get-dataset-items {datasetId, fields:"metadata.title,metadata.url,markdown", clean:true};
+   ALWAYS pass fields= and clean:true or the response envelope alone burns thousands of tokens.
+3. ONE attempt per item, ever. If it misses, mark the field unresolvable and move on. The gate enforces this.
+4. Immediately after the call, whatever the outcome:
+   `.venv/bin/python scripts/apify_gate.py log "<url-or-query>" --cu <computeUnits from the run result> --used yes|no`
+   Not optional. Without it nobody can tell a call that paid off from one that did not.
+Amazon and other known bot-blockers are refused by the gate. Prefer brand sites, primary regulatory sources
+(openFDA, DailyMed, accessdata.fda.gov) and reputable reviews. If the identity of the item is uncertain or
+garbled, resolve it from a free source first; do NOT draft from an unverified name, and do NOT spend an
+Apify call merely to confirm a name.
 
 ---
 
@@ -65,7 +82,9 @@ SOURCE CACHING: for every source you CITE whose domain is NOT a durable primary 
 "verify manually", i.e. sklib classify_domain=='unknown'), pipe the fetched text (or the Apify markdown) to
 `python scripts/source_cache.py put <url>` right after fetching it, so it can be verified later even if the
 live site blocks a re-fetch. A load-bearing verbatim quote from such a source REQUIRES a cache entry.
+The critic MUST verify cited non-primary sources against the local cache first
 (`python scripts/source_cache.py get <url>`), live-fetching only on a cache miss. Keep status:draft during
+work; publish only once sk lint+verify+style are clean.
 
 ---
 
