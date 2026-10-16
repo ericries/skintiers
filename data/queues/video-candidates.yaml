@@ -2044,7 +2044,8 @@
   conflict: does sponsorships - educational content only, never treat picks as endorsements, never use sponsored videos
   posted: ''
   feed_rank: 5
-  status: pending
+  status: skipped
+  skip_reason: 'explicit paid partnership: ''This video is partnered with JOOVV''s'' plus a viewer discount deal'
 - id: '7685171686328569108'
   title: because sometimes you want a non orange blush that’s not a hot pink o...
   creator: Hannah English (@ms_hannah_e / Hannah Collingwood English)
@@ -6790,7 +6791,8 @@
   conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan and reject any sponsored/affiliate/gifted video
   posted: '2026-09-22'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'launch-day review of two seeded products: both launched 2026-09-22 yet she had tested one for ~3 weeks; pre-release access is materially gifting'
 - id: '7688447637736934670'
   title: My 9 year old loves to play dress-up and sometimes that includes blue...
   creator: Ella (@your.estie.ella)
