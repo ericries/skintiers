@@ -9680,7 +9680,8 @@
   conflict: Runs a "Shop my Favorites" affiliate storefront (linktr.ee/dermatologysurgeon) that monetizes her product picks; no own-brand prod
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: short-form stitch collab with hashtags, not single-topic long-form; creator also monetizes picks via affiliate storefront
 - id: '7692472327040224542'
   title: 🖇️ Comment PRODUCTS for all of my derm-approved skincare, beauty, and...
   creator: Dr. Sheila Farhang (dr.sheila_derm)
@@ -9733,7 +9734,8 @@
   conflict: Founder of own-brand haircare line (Rhute); TikTok Shop affiliate/product storefront; recurring disclosed sponsored posts (No7, La Roche Pos
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: title ends in | AD; sponsored, rejected per the mandatory sponsorship gate
 - id: Y-ZpRAOF3pM
   title: 'Glycolic Acid From Head to Toe: What a Dermatologist Actually Uses It For'
   creator: Dr. Aleksandra Brown, DO, FAAD
