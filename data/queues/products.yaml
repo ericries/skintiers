@@ -2892,3 +2892,13 @@
     for the reVive page: the GRADE review (PMID 42545315) grades blue LED and blue-red
     LED at Level B but red-only at Level C, so a blue-only device sits in the better-evidenced
     group. Verify the 510(k), the indications, and current retail price before drafting.'
+- name: NuFACE or comparable FDA-cleared home microcurrent/RF device
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: home-use-skincare-devices-by-evidence
+  source: 'A concrete product anchor for the Level B radiofrequency rung of home-use-skincare-devices-by-evidence.
+    IDENTITY NOT YET RESOLVED: do not draft from this name. Resolve a real cleared
+    device first via the openFDA device/510k API (free, primary) rather than spending
+    an Apify call, the same route that produced the reVive device page from K223482.
+    Reject the candidate outright if no 510(k) record matches.'

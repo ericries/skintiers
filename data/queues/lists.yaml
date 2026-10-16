@@ -262,7 +262,7 @@
 - name: Home-use skincare devices ranked by evidence
   type: list
   priority: 5
-  status: pending
+  status: done
   discovered_from: home-led-light-therapy
   source: 'PMID 42545315, already cited on home-led-light-therapy and microneedling,
     grades six home-device modalities on ONE axis: home fractional nonablative lasers
@@ -318,3 +318,17 @@
     that needling may offer better tolerability and pigment safety than ablative lasers.
     For many readers downtime is the deciding variable, and it is the better-evidenced
     one.'
+- name: Hair removal devices by evidence (IPL vs laser, home vs clinic)
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: home-use-skincare-devices-by-evidence
+  source: 'Grounded in a distinction home-use-skincare-devices-by-evidence had to
+    draw explicitly: PMID 42545315 grades home IPL Level D and ''not recommended''
+    FOR ACNE, but the site''s two IPL product pages (braun-silk-expert-pro-5-ipl,
+    philips-lumea-ipl-9000-series) are HAIR REMOVAL devices judged on a completely
+    different question. That collision is live on the site right now and a reader
+    could easily carry the acne verdict across. laser-hair-removal exists as a goal
+    hub but there is no ranked list putting the two home IPL products against clinic
+    laser on their OWN evidence. Needs a hair-removal-specific evidence source; do
+    NOT reuse PMID 42545315, which covers acne and rejuvenation only.'

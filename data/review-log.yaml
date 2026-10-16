@@ -5094,6 +5094,29 @@ home-led-light-therapy:
     since neither review pools one.'
   score: 8
   verdict: publish
+home-use-skincare-devices-by-evidence:
+  last_reviewed: '2026-10-16'
+  note: 'Single-source single-axis ladder from PMID 42545315 (2026 GRADE scoping review of home-use devices).
+    All 16 quotes verbatim against the cached abstract; wikilinks clean; lint, verify, style clean. kind:
+    best-of (lint requires it). NOT REDUNDANT with home-led-light-therapy, which was the risk. That page
+    asks what LED is good FOR; this page asks which DEVICE CATEGORY is worth buying, which the site had
+    no answer to. Prose links out rather than re-explaining, per the no-redundancy rule. TIER_LIST IS
+    HONESTLY THIN: only two of the six graded modalities have pages, so the tier_list carries home-led-light-therapy
+    (good, Level B) and microneedling (weak, Level D with stated harms), and the caption says outright
+    that the full ladder is in the prose. tier_labels name the GRADE level directly so the axis cannot
+    be misread as a general quality ranking. Notably the BEST-graded modality, home fractional nonablative
+    lasers at Level A, has no page at all and the page says so rather than quietly omitting it. TWO TRAPS
+    the page exists to prevent. (1) The review''s Level D ''not recommended'' IPL verdict is for IPL against
+    ACNE, while this site''s two IPL product pages (Braun Silk-expert, Philips Lumea) are HAIR REMOVAL
+    devices judged on a different question; conflating them would have been a serious error, so it is
+    called out explicitly and routed to laser-hair-removal. (2) The Level A grade is for home NONABLATIVE
+    lasers and does NOT transfer to the in-office ablative procedure on fractional-co2-laser-resurfacing;
+    stated in the Level A bullet itself. Also records that an FDA clearance is not an evidence grade,
+    pointing at revive-light-therapy-wrinkle-and-acne-led-device whose clearance file contains no efficacy
+    study. NO EFFECT SIZE ANYWHERE: a scoping review grades bodies of evidence and pools nothing, so the
+    page says explicitly that it cannot tell you how much improvement to expect.'
+  score: 8
+  verdict: publish
 homosalate:
   last_reviewed: '2026-07-28'
   note: 'Cross-queue parallel drain (draft+critic). Ran sk lint (clean), sk style (clean), sk verify (only

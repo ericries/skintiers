@@ -210,3 +210,27 @@
     patient satisfaction (SUCRA 89.6%). Chemical peels are also far cheaper and more
     widely available than laser or PRP, so this is a high-value gap. Resolve which
     peel agents and depths the trials used before grading.'
+- name: Home-use fractional nonablative laser devices
+  type: goal
+  priority: 5
+  status: pending
+  discovered_from: home-use-skincare-devices-by-evidence
+  source: 'The HIGHEST-graded home device modality in PMID 42545315 and the only Level
+    A row on home-use-skincare-devices-by-evidence, described as showing ''high-quality
+    evidence (Level A) with consistent clinical improvement'' for facial rejuvenation.
+    The site cannot currently point a reader at the best-evidenced thing the review
+    found, which is the single largest gap in that ladder. MUST be kept distinct from
+    fractional-co2-laser-resurfacing: nonablative home device vs in-office ablative
+    procedure, different wavelength class, power and setting; the Level A grade does
+    not transfer. Resolve which specific home devices the review''s underlying studies
+    used before grading.'
+- name: Home radiofrequency skin-tightening devices
+  type: goal
+  priority: 5
+  status: pending
+  discovered_from: home-use-skincare-devices-by-evidence
+  source: Graded Level B for facial rejuvenation alongside LED in PMID 42545315, and
+    named in the review's conclusion among the modalities that 'demonstrate the most
+    favorable balance of efficacy and safety'. One of the six rungs on home-use-skincare-devices-by-evidence
+    with no page. Check whether any FDA 510(k) cleared home RF devices exist via the
+    openFDA device/510k API before drafting, as was done for the reVive LED device.
