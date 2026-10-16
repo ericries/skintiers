@@ -974,7 +974,8 @@
   conflict: Founder of own-brand skincare line (Skin Rocks); recent upload mix is dominated by PR-gifted product unboxings and empties (haul-adjacent fo
   posted: ''
   feed_rank: 6
-  status: pending
+  status: skipped
+  skip_reason: sponsorship disclosures present in transcript (sponsor/sponsored/sent me)
 - id: X0FLOxsdUUY
   title: If you're feeling mum guilt then watch this!
   creator: Caroline Hirons
@@ -1256,7 +1257,8 @@
   conflict: Chief Medical Officer of hair-growth-serum brand REYUS; advisory-board member of Bubble Skincare; periodic disclosed paid brand partnerships
   posted: ''
   feed_rank: 5
-  status: pending
+  status: skipped
+  skip_reason: explicit paid partnership with La Roche-Posay, stated twice in the transcript
 - id: neJuCreiliI
   title: How to glow up your skin in the morning
   creator: Dr. Daniel Sugai
@@ -2471,7 +2473,8 @@
   conflict: Runs a paid cosmetics-industry consulting/science-communication practice (BeautySciComm, e-summits, mentorship cohorts) and is Patreon-suppo
   posted: ''
   feed_rank: 13
-  status: pending
+  status: skipped
+  skip_reason: '''brought to you by'' sponsorship marker, and topic (anti-plastic movement / science literacy) has no matching site page'
 - id: ikFT5R49S24
   title: What it really takes to launch a beauty product (the right way)
   creator: Jen Novakovich (The Eco Well)
