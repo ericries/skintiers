@@ -2902,3 +2902,16 @@
     device first via the openFDA device/510k API (free, primary) rather than spending
     an Apify call, the same route that produced the reVive device page from K223482.
     Reject the candidate outright if no 510(k) record matches.'
+- name: Tinactin Antifungal Cream (tolnaftate 1%)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: tolnaftate
+  source: The canonical tolnaftate product, Bayer HealthCare LLC, DailyMed SPL setid
+    c3b715a9-233a-401a-ba60-f78c1ddf1ded, OTC Monograph M005, NDC 11523-1190-1 (15
+    g) and -2 (30 g), marketing start 09/23/1993. Full Drug Facts and inactive ingredients
+    already transcribed on the tolnaftate ingredient page, so the product page is
+    mostly assembly. The distinguishing angle versus the existing clotrimazole coverage
+    is the label's PREVENTION claim and its separate prevention dose. incidecoder
+    will likely MISS (OTC drug, not a cosmetic), so try DailyMed media for a photo
+    before anything metered.

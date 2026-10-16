@@ -332,3 +332,17 @@
     hub but there is no ranked list putting the two home IPL products against clinic
     laser on their OWN evidence. Needs a hair-removal-specific evidence source; do
     NOT reuse PMID 42545315, which covers acne and rejuvenation only.'
+- name: OTC antifungals ranked by evidence
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: tolnaftate
+  source: 'Now buildable: terbinafine, clotrimazole, ketoconazole and tolnaftate all
+    have pages, and Crawford 2007 Cochrane (PMID 17636672) supplies ONE axis across
+    all of them. The list must be built to defuse rather than repeat the trap the
+    tolnaftate page identifies: the placebo-controlled pooled RRs (allylamines 0.33,
+    azoles 0.30, ciclopiroxolamine 0.27, tolnaftate 0.19, butenafine 0.33, undecanoates
+    0.29) are SEPARATE pools and ranking by them is an indirect-comparison fallacy.
+    The only head-to-head evidence in the review is allylamines vs azoles, RR 0.63
+    favouring allylamines. So the by: axis should be head-to-head evidence first,
+    with the placebo pools shown but explicitly labelled as non-comparable.'

@@ -369,3 +369,15 @@
     the three atrophic subtypes, which is the first question a reader actually needs
     answered before any of microneedling, subcision, PRP or fractional-co2-laser-resurfacing
     applies to them.'
+- name: Tinea corporis (ringworm of the body)
+  type: condition
+  priority: 5
+  status: pending
+  discovered_from: tolnaftate
+  source: 'Named as a distinct indication on BOTH OTC antifungal labels the site now
+    carries: the Tinactin label covers ''ringworm (tinea corporis)'' and the Bayer
+    clotrimazole label says it ''cures most ringworm''. The site has athletes-foot
+    (tinea pedis) as a condition hub but nothing for body ringworm, even though it
+    is the indication both labels lead with. Note the evidence asymmetry worth building
+    the page on: Crawford 2007 covers the FOOT only, so the body-ringworm indication
+    rests on the monograph rather than on that pooled trial evidence.'

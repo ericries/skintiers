@@ -1567,7 +1567,7 @@
     RR 0.19 vs placebo in Crawford 2007 Cochrane review
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/17636672/
 - name: Butenafine, OTC topical benzylamine (allylamine-like) antifungal for athlete's
@@ -2093,3 +2093,14 @@
     of downtime. Erbium is therefore the less-painful option with an unproven efficacy
     gap, which is a genuinely useful page. Needed before the acne-scar procedures
     list can be complete.
+- name: Ciclopirox olamine, topical hydroxypyridone antifungal
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: tolnaftate
+  source: 'The one remaining drug class in the Crawford 2007 Cochrane placebo-controlled
+    table (PMID 17636672) with no page: ''ciclopiroxolamine RR 0.27 (95% CI 0.11 to
+    0.66)''. Needed to complete the OTC-antifungals list queued alongside this. Unlike
+    tolnaftate and the azoles it is prescription in the US in several forms (shampoo,
+    nail lacquer), so check DailyMed for marketing category before grading, and apply
+    the Rx unapproved-drug check: confirm NDA vs monograph rather than assuming approval.'

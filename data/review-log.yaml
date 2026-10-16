@@ -11372,6 +11372,30 @@ tocopherol:
     no skin-cancer effect). lint/verify/style clean.
   score: 9
   verdict: publish
+tolnaftate:
+  last_reviewed: '2026-10-16'
+  note: 'tier good, matching clotrimazole. Sources: Bayer TINACTIN CREAM DailyMed SPL (OTC Monograph M005,
+    NDC 11523-1190) and Crawford 2007 Cochrane (PMID 17636672), the latter already verified verbatim for
+    the clotrimazole page. 40 quotes checked; the 2 flags are verbatim from the DailyMed SPL INDEX rather
+    than the label HTML, confirmed against the index listing pulled this session. Wikilinks clean. CENTRAL
+    SKEPTICAL POINT, and the reason this page earns its place: tolnaftate has the LOWEST risk ratio in
+    the Cochrane placebo-controlled table (RR 0.19, 95% CI 0.08-0.44) versus azoles 0.30 and allylamines
+    0.33, which reads as ''tolnaftate is the best''. It is not. Those are SEPARATE placebo-controlled
+    pools, not a head-to-head, so comparing them directly is the indirect-comparison fallacy; tolnaftate''s
+    interval is also the widest of the group, implying few or small trials; and the review''s ONE genuine
+    head-to-head (11 trials, RR 0.63 favouring allylamines) did not include tolnaftate at all. The page
+    leads with this and still routes foot infections to terbinafine. WHAT GENUINELY DISTINGUISHES IT from
+    the azoles is the PREVENTION claim: the label carries ''helps prevent most athlete''s foot with daily
+    use'' plus a separate lighter prevention dose. That is a real monograph permission and clotrimazole
+    has no equivalent. But the Cochrane review covers TREATMENT, not prophylaxis, so the rubric row grades
+    the effect size as ''not established by any source cited here'' and asserts no prevention rate. CONSUMER
+    TRAP RECORDED: the same DailyMed index carrying this label also lists tolnaftate products marketed
+    for NAILS, including a ''NAIL FUNGUS CARE LIQUID'', while the canonical Bayer label for the same active
+    says it ''is not effective on the scalp or nails''. Noted as the mirror image of the clotrimazole
+    trap, where one brand family spans several different actives. Marketing-claims section added after
+    sk verify flagged its absence; each label claim is recorded with what does and does not support it.'
+  score: 8
+  verdict: publish
 topical-corticosteroids:
   last_reviewed: '2026-08-30'
   note: 'INGREDIENT wave5. CLASS OVERVIEW (potency ladder I-VII), first-line topical anti-inflammatory.
