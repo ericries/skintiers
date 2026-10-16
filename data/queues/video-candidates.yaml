@@ -12978,7 +12978,8 @@
   conflict: null
   posted: '2026-10-15'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: no English transcript available, and flat metadata reports 5s duration (below the ~25s floor)
 - id: '7697038823330516237'
   title: 'Day 5: What is a damaged skin barrier? part 1 #skinbarrier #damagedba...'
   creator: Jenn Lexi (@jennlexi_)
@@ -12991,7 +12992,8 @@
   conflict: 'Runs #ad sponsored posts (e.g. TruSkin) and Target skincare hauls/reviews; prefer her educational ingredient-category and barrier-repair explainers, and treat product recommendations as effectively promotional (skip).'
   posted: '2026-10-15'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: unmarked product plug mid-explainer (Beauty Secrets nail glue); creator's roster conflict flags her product recs as effectively promotional
 - id: '7696734731185999118'
   title: Understanding the why behind what you’re doing can make a HUGE differ...
   creator: Jenn Lexi (@jennlexi_)
