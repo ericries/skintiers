@@ -234,3 +234,17 @@
     favorable balance of efficacy and safety'. One of the six rungs on home-use-skincare-devices-by-evidence
     with no page. Check whether any FDA 510(k) cleared home RF devices exist via the
     openFDA device/510k API before drafting, as was done for the reVive LED device.
+- name: Mohs micrographic surgery
+  type: goal
+  priority: 5
+  status: pending
+  discovered_from: keratinocyte-carcinoma
+  source: 'Listed by NCI PDQ as a treatment option for localized BCC and SCC, and
+    the procedure specifically indicated where margins matter most. Grounded directly
+    in the PDQ fact already on keratinocyte-carcinoma: high-risk recurrence sites
+    are ''the central face (e.g., periorbital region, eyelids, nasolabial fold, or
+    nose-cheek angle), postauricular region, pinna, ear canal, forehead, and scalp'',
+    and the morpheaform BCC subtype is hard to treat conventionally because of ''indistinct
+    clinical tumor margins''. That is the case for margin-controlled excision in one
+    sentence. The site covers subcision, microneedling and fractional CO2 as procedure
+    pages, so the format exists.'

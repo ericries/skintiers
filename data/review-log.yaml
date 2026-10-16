@@ -5666,6 +5666,33 @@ kelly-dobos:
     '
   score: 8
   verdict: self-reviewed
+keratinocyte-carcinoma:
+  last_reviewed: '2026-10-16'
+  note: 'Single primary source: NCI PDQ ''Skin Cancer Treatment'', Health Professional Version, update
+    date 05/12/2025, fetched and CACHED to research-cache/web before quoting (sk verify''s not-on-allowlist
+    warning for cancer.gov is answered by that cache entry). 33 quotes, 0 real mismatches after two corrections;
+    wikilinks clean; lint and style clean. ERROR CAUGHT AND FIXED TWICE: I first quoted the high-risk
+    recurrence sites as ''periorbital region, eyelids, nasolabial folds''. The source says ''nasolabial
+    fold'', singular, inside a longer parenthetical. Corrected in the body, and then the verbatim re-check
+    caught that the footnote''s Quotes-used list still carried the wrong string, which was corrected too.
+    Worth noting the pattern: fixing a body quote without fixing its footnote copy leaves a silent inaccuracy
+    that only a second pass finds. SAFETY-FIRST STRUCTURE, like eczema-herpeticum. The bottom line states
+    that treatment is clinical and the only part skincare touches is prevention, and that nothing on the
+    page is a product recommendation. The required ''How to know you have this'' section deliberately
+    answers ''you do not, not reliably'': the PDQ is written for clinicians and offers no consumer checklist,
+    and the morpheaform BCC subtype ''typically appears as a scar-like, firm plaque'' with ''indistinct
+    clinical tumor margins'', so a mirror cannot settle it. The practical rule given is behavioural (changes,
+    bleeds, does not heal) rather than visual. BEST FACT ON THE PAGE is also its most honest: NCI says
+    the incidence ''cannot be estimated precisely because reporting to cancer registries is not required'',
+    and the 3.3 million figure for 2012 is an extrapolation from Medicare fee-for-service BILLING data,
+    which exceeds the ~2 million of all other cancers combined. The page presents that as an estimate
+    from billing rather than a measured incidence. TERMINOLOGY DIVERGENCE RECORDED: the treatment PDQ
+    says ''nonmelanoma skin cancers'' while the screening PDQ cited on skin-cancer-screening says keratinocyte
+    carcinoma, for the same pair. No tier_list, stated with the reason: every listed option is a clinical
+    procedure or prescription drug with no graded page here, and ranking cancer treatments is outside
+    what this site can responsibly do.'
+  score: 8
+  verdict: publish
 keratosis-pilaris:
   last_reviewed: '2026-08-11'
   note: 'Keratosis pilaris condition hub (KP, "chicken skin"). Daily CONDITION cron (Sonnet draft + Opus

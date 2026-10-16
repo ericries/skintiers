@@ -2104,3 +2104,27 @@
     tolnaftate and the azoles it is prescription in the US in several forms (shampoo,
     nail lacquer), so check DailyMed for marketing category before grading, and apply
     the Rx unapproved-drug check: confirm NDA vs monograph rather than assuming approval.'
+- name: Topical fluorouracil (5-FU)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: keratinocyte-carcinoma
+  source: 'Named by NCI PDQ Skin Cancer Treatment as a treatment option for localized
+    basal cell carcinoma, alongside surgery, Mohs, radiation, curettage and electrodesiccation,
+    cryosurgery, PDT and CO2 laser. One of only TWO topical creams on that list, which
+    is exactly why it needs an ingredient page: readers encounter it as ''a cream''
+    and the site should make clear it is a prescription cancer treatment chosen and
+    monitored by a clinician, not a skincare active. Also used for actinic keratosis,
+    which already has a page. Get the label from DailyMed and apply the Rx check:
+    confirm NDA vs monograph rather than assuming approval.'
+- name: Imiquimod topical
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: keratinocyte-carcinoma
+  source: 'The other topical on NCI PDQ''s localized-BCC treatment list (Skin Cancer
+    Treatment PDQ, Health Professional Version). Same rationale as fluorouracil: it
+    is a prescription immune-response modifier for a cancer and for actinic keratosis,
+    dispensed as a cream, and the site has no page distinguishing it from cosmetic
+    actives. DailyMed for the label and marketing category; note any boxed warning
+    and the local skin-reaction profile, which is the practical difference from 5-FU.'

@@ -335,7 +335,7 @@
 - name: Keratinocyte carcinoma (umbrella term for BCC and SCC)
   type: condition
   priority: 5
-  status: pending
+  status: done
   discovered_from: skin-cancer-screening
   source: The term the NCI PDQ uses throughout for BCC+SCC combined (5.4M cases in
     2012); the site has separate basal-cell-carcinoma and squamous-cell-carcinoma
