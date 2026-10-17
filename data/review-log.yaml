@@ -1941,6 +1941,31 @@ brimonidine:
     '
   score: 9
   verdict: revise-then-fixed
+butenafine:
+  last_reviewed: '2026-10-17'
+  note: 'tier good. Sources: Bayer LOTRIMIN ULTRA ATHLETES FOOT DailyMed SPL and Crawford 2007 Cochrane
+    (PMID 17636672, already verbatim-verified for clotrimazole and tolnaftate). 37 quotes verbatim, 0
+    mismatches; lint, verify, style, wikilinks clean. HEADLINE FINDING, and it lands the day the regulatory
+    ladder shipped: butenafine''s marketing category is NDA, application NDA021307, with Marketing Status
+    ''New Drug Application''. It is NOT an OTC monograph drug. So it sits on the TOP rung of fda-approved-vs-cleared-skincare
+    while clotrimazole and tolnaftate sit a rung below under monograph M005, and two of the three are
+    sold under the SAME Lotrimin brand in the same aisle. That is the single most concrete vindication
+    of that list''s axis so far, and it was found by reading the SPL rather than assuming OTC implies
+    monograph. SECOND FINDING, rare and worth preserving: the label''s Uses section volunteers a limitation.
+    After ''cures most athlete''s foot between the toes'' it states ''Effectiveness on the bottom or sides
+    of foot is unknown.'' An OTC carton declining to claim the moccasin-type presentation is unusual,
+    and the page gives it its own rubric row graded as unknown rather than weak, because a stated absence
+    is not a weak result. PRACTICAL EDGE CAPTURED: the interdigital direction allows twice daily for ONE
+    WEEK, against the four-week courses on clotrimazole and tolnaftate, with jock itch and ringworm on
+    a separate two-week schedule. Course length matters because antifungal courses get abandoned. THE
+    INDIRECT-COMPARISON TRAP IS RE-STATED rather than repeated at length: butenafine''s RR 0.33 cannot
+    be read against tolnaftate''s 0.19 or azoles'' 0.30 because those are separate placebo-controlled
+    pools, and butenafine does not appear in the one head-to-head the review reports. The full treatment
+    stays on tolnaftate and this page links out. Also records that Bayer publishes FOUR separate Lotrimin
+    Ultra SPLs for this one active, compounding the brand trap already documented on clotrimazole where
+    the Lotrimin family spans several actives.'
+  score: 9
+  verdict: publish
 byoma-moisturizing-rich-cream:
   last_reviewed: '2026-08-23'
   note: 'PARALLEL WORKFLOW wave2: Sonnet draft + parallel Opus critic verdict REVISE (8); critic-flagged

@@ -2992,3 +2992,17 @@
     so it is the highest-value unfilled rung. Resolve a real cleared device from the
     openFDA device/510k API (free, primary) BEFORE drafting; do not assume a brand
     name. Reject outright if no 510(k) matches.
+- name: Lotrimin Ultra Athlete's Foot Cream (butenafine 1%)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: butenafine
+  source: 'The canonical butenafine product: Bayer HealthCare LLC, DailyMed setid
+    e258c4ac-53ef-4a99-b732-4985f890b938, marketing category NDA021307, NDC 11523-4338,
+    marketing start 2002-02-22, label updated 2025-12-05. Full Drug Facts and inactive
+    ingredients are already transcribed on the butenafine ingredient page, so this
+    is mostly assembly. The distinguishing angle versus the site''s other OTC antifungal
+    products: it is FDA-APPROVED under an NDA rather than monograph-accepted, AND
+    its label volunteers that effectiveness on the bottom or sides of the foot is
+    unknown. incidecoder will likely MISS (OTC drug, not a cosmetic); try DailyMed
+    media for a photo before anything metered.'
