@@ -13106,7 +13106,8 @@
   conflict: Self-describes as a "Key Opinion Leader for industry beauty companies" (per her own practice bio) and most sampled TikTok videos e; no YouTube; TikTok/IG intake
   posted: '2026-10-16'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: comment-bait lead magnet (Comment LONGEVITY for my guide), not single-topic education
 - id: '7696917484347198733'
   title: Well….I’m not sure I’d truly call this a hydrating cleanser 🙃 I’m goi...
   creator: Ella (@your.estie.ella)
@@ -13145,7 +13146,8 @@
   conflict: Founder/owner of active postpartum skincare brand "More Than Nine" (cleanser, exfoliator, moisturizer, balm) — an ongoing own-bran
   posted: '2026-10-16'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: vague open Q&A, no single topic, and creator has an active own-brand line
 - id: Ighxb_2Oz7g
   title: Derm Rates Viral Skincare Trends Part 3
   creator: Dr. Aleksandra Brown, DO, FAAD
@@ -13314,7 +13316,8 @@
   conflict: runs an Amazon affiliate storefront and does sponsored posts - strongly prefer educational / how-to / ingredient-explainer videos; be very cautious with any product recommendation
   posted: '2026-10-16'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: product promo (Has anyone tried this cream) from a creator with an Amazon affiliate storefront
 - id: 3IcirLRUE_Y
   title: 'Is it an acne scar? Red marks vs dark spots vs true scars | #shorts #acnescars'
   creator: Dr. Lindsey Zubritsky (DermGuru)
@@ -13353,7 +13356,8 @@
   conflict: 'Past paid brand-consultant roles: Kiehl''s (''NEW US Consulting Dermatologist'', ~5yr-old campaign) and Clinique Derm Pro spokesperso; no YouTube; TikTok/IG intake'
   posted: '2026-10-17'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'vague #onthisday trend repost, not single-topic'
 - id: mLepRd6XWPw
   title: 'dermatologist rates Trader Joe’s skincare #skincare #vitaminc'
   creator: Dr. Neera Nathan

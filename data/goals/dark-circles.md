@@ -241,6 +241,16 @@ videos:
   related: [vitamin-c, retinoids, peptides]
   thesis: Dermatologist Dr. Jenny Liu explains that dark circles need to be identified as vascular versus pigmented before treating them. She notes that a purple-blue tone usually comes from blood vessels showing through thin under-eye skin (vascular), while brown tones come from melanin (pigmented), and that vitamin C works well on pigmented dark circles by blocking melanin production but is much less effective on vascular ones. For vascular or thin-skin cases she recommends sunscreen to prevent collagen breakdown, retinoids, peptides, and vitamin C to thicken the skin over time, and for significant hollowing or thinning, in-office procedures like PRF, microneedling, laser, or carefully placed HA filler.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Why your under eyes are dark, and the multiple causes behind it
+  creator: Fatima Fahs
+  creator_slug: fatima-fahs
+  credential: Dermatologist (MD)
+  platform: TikTok
+  url: https://www.tiktok.com/@dermydoctor/video/7697250001159818510
+  posted: '2026-10-16'
+  related: [retinol, sunscreen-uv-filters, atopic-dermatitis, hyperpigmentation]
+  thesis: Dermatologist Fatima Fahs explains that dark under-eye circles rarely have a single cause, and walks through genetics, uncontrolled allergies, eczema-prone skin with visible blood vessels, and age-related thinning as separate contributors that frequently overlap. She notes that a bluish or reddish hue visible when the lid skin is pulled down can point to a vascular component, which a clinician might address with an in-office vascular laser rather than a topical. Her practical advice is daily sunscreen under the eyes and a nighttime retinol, while stressing that working out which combination applies to you is a job for a dermatologist rather than another eye cream.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
