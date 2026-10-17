@@ -423,7 +423,8 @@
   conflict: null
   posted: ''
   feed_rank: 5
-  status: pending
+  status: skipped
+  skip_reason: no captions available (cached negative predates the 2026-10-15 rate-limit window, so it is a genuine result); cannot cite a video that cannot be read
 - id: ZzHXz4AwHxw
   title: What You Should Know About Seborrheic Keratoses
   creator: Dr. Aleksandra Brown, DO, FAAD
@@ -866,7 +867,8 @@
   conflict: Founder of own-brand tween/teen skincare line BTWN (meetbtwn.com), which she actively promotes on all three platforms; also co-hos
   posted: ''
   feed_rank: 6
-  status: pending
+  status: skipped
+  skip_reason: no captions available (cached negative predates the 2026-10-15 rate-limit window, so it is a genuine result); cannot cite a video that cannot be read
 - id: HCb9hRG0lx8
   title: Why I Chose a Mineral SPF for BTWN
   creator: Dr. Brooke Jeffy (Brooke Jeffy, MD)
@@ -3082,7 +3084,8 @@
   conflict: null
   posted: '2026-09-08'
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: no captions available (cached negative predates the 2026-10-15 rate-limit window, so it is a genuine result); cannot cite a video that cannot be read
 - id: '7681346071053864222'
   title: Who’s been here since 2020?! 🍌 What started as a simple video of my m...
   creator: ''
@@ -3550,7 +3553,8 @@
   conflict: null
   posted: '2022-12-12'
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: no captions available (cached negative predates the 2026-10-15 rate-limit window, so it is a genuine result); cannot cite a video that cannot be read
 - id: '7173712484312878379'
   title: '👩🏻‍⚕️ Botox for Hair Loss?   #dermatology #dermatologynews #hairloss ...'
   creator: Ranella Hirsch
@@ -3563,7 +3567,8 @@
   conflict: null
   posted: '2022-12-05'
   feed_rank: 2
-  status: pending
+  status: skipped
+  skip_reason: no captions available (cached negative predates the 2026-10-15 rate-limit window, so it is a genuine result); cannot cite a video that cannot be read
 - id: '7169227469730581806'
   title: '#thanksgiving #thanksgivingrecipes #thanksgivingfoods  #skincare #ski...'
   creator: Ranella Hirsch
@@ -3589,7 +3594,8 @@
   conflict: null
   posted: '2022-11-17'
   feed_rank: 4
-  status: pending
+  status: skipped
+  skip_reason: no captions available (cached negative predates the 2026-10-15 rate-limit window, so it is a genuine result); cannot cite a video that cannot be read
 - id: '7165161577350483242'
   title: '🥊Debunking: INDOOR TANNING ☀️Ultraviolet (UV) radiation is KNOWN huma...'
   creator: Ranella Hirsch
@@ -3602,7 +3608,8 @@
   conflict: null
   posted: '2022-11-12'
   feed_rank: 5
-  status: pending
+  status: skipped
+  skip_reason: no captions available (cached negative predates the 2026-10-15 rate-limit window, so it is a genuine result); cannot cite a video that cannot be read
 - id: t9G6LMigZLE
   title: The Acid Body Wash You Didn’t Know You Needed | Keratosis Pilaris, Ingrown Hairs + Body Acne
   creator: Dr. Sam Bunting
@@ -7866,7 +7873,8 @@
   conflict: null
   posted: ''
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: no captions available (cached negative predates the 2026-10-15 rate-limit window, so it is a genuine result); cannot cite a video that cannot be read
 - id: MKaeOOa3WL4
   title: 'Realistic Morning Routine #dermreacts  #skincare  #dermatologist #dermangelo'
   creator: Dr. Angelo Landriscina (DermAngelo)
@@ -11320,7 +11328,8 @@
   conflict: Own-brand UPF sun-protective clothing line, SOUL-A (wearsoula.com / @wearsoula), founded and promoted by him — apparel, not topical skincare
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: title declares (Sponsored)
 - id: TpL-8Acuhtc
   title: 'You have to work to be this dumb #dermreacts  #skincare  #dermatologist #dermangelo'
   creator: Dr. Angelo Landriscina (DermAngelo)
