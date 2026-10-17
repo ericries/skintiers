@@ -4227,6 +4227,33 @@ fatima-fahs:
     skin-barrier-strengthening). Gates clean; force-published.'
   score: 8
   verdict: publish
+fda-approved-vs-cleared-skincare:
+  last_reviewed: '2026-10-17'
+  note: 'MERGED the two overlapping queue entries I had created (''What FDA approval, clearance and OTC
+    monograph actually mean'' and ''What FDA clearance does and does not prove for devices''); both resolved.
+    PURE ASSEMBLY, zero new fetches: every regulatory status is established by a primary document already
+    transcribed and verified on a linked page. 10 quotes checked; the 2 flags are NuFACE clearance strings
+    verified earlier this session and present verbatim on that page. Lint, verify, style, wikilinks clean.
+    THE AXIS IS NOVEL FOR THIS SITE and genuinely useful: how much evidence the FDA required before a
+    product could be sold, which is NOT the same as whether it works. Four rungs, each with a real worked
+    example already on the site: NDA approval (delgocitinib NDA219155, efficacy trials required), OTC
+    Monograph (clotrimazole and tolnaftate under M005, active accepted but the product untested), 510(k)
+    clearance (the device pages, no efficacy study in any of their files), and ''unapproved drug other''
+    code C73627 (Avar, never FDA-assessed at all). THE CAPTION LEADS WITH THE DISCLAIMER IN CAPS because
+    this tier_list is the most misreadable one on the site: it ranks regulatory scrutiny, and tolnaftate
+    sits on the monograph rung WITH randomised placebo-controlled evidence while a cleared device may
+    have none. The prose says the two axes come apart constantly and tells readers to judge evidence separately
+    on each linked page. WITHIN-RUNG VARIATION captured too, which is the subtlety a four-rung ladder
+    would otherwise hide: three 510(k) devices share rung three but differ enormously in disclosure (FOREO
+    filed a STATEMENT and publishes nothing; NuFACE published a Summary headed NON-CLINICAL; reVive Essentials
+    publishes nonclinical conclusions across three generations of its own predicates). The FDA''s own
+    sentence does the heaviest lifting and is quoted directly from a clearance letter: issuance of a substantial
+    equivalence determination ''does not mean that FDA has made a determination'' of compliance, plus
+    the reminder that labeling ''must be truthful and not misleading''. Closes with a DIY section naming
+    the two free registries so a reader can check any product themselves, which is the most durable thing
+    this page can offer.'
+  score: 9
+  verdict: publish
 ferulic-acid:
   last_reviewed: '2026-07-28'
   note: 'Ingredient page drafted + critic-gated in the parallel drain. '
