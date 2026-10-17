@@ -2905,7 +2905,7 @@
 - name: Tinactin Antifungal Cream (tolnaftate 1%)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: tolnaftate
   source: The canonical tolnaftate product, Bayer HealthCare LLC, DailyMed SPL setid
     c3b715a9-233a-401a-ba60-f78c1ddf1ded, OTC Monograph M005, NDC 11523-1190-1 (15
@@ -3006,3 +3006,17 @@
     its label volunteers that effectiveness on the bottom or sides of the foot is
     unknown. incidecoder will likely MISS (OTC drug, not a cosmetic); try DailyMed
     media for a photo before anything metered.'
+- name: Lotrimin AF Antifungal Cream (clotrimazole 1%)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: tinactin-antifungal-cream
+  source: 'The clotrimazole counterpart to tinactin-antifungal-cream, completing the
+    OTC antifungal product set alongside the queued Lotrimin Ultra (butenafine). Bayer
+    SPL setid b584e17f-ed43-43bd-b643-dfa48edd78c6, OTC Monograph M005, NDC 11523-6549,
+    12 g tube; full Drug Facts and inactive ingredients already transcribed on the
+    clotrimazole ingredient page. CHECK FOR A DAILYMED CARTON IMAGE FIRST: the Tinactin
+    SPL published one at image.cfm?name=...&setid=..., which gave a primary-source
+    product photo with no metered call, and the same route is likely to work here.
+    Angle: it is the azole the Cochrane head-to-head puts BEHIND allylamines, and
+    it carries no prevention claim.'

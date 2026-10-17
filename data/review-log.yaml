@@ -11567,6 +11567,29 @@ timeless-skin-care:
     '
   score: 8
   verdict: self-reviewed
+tinactin-antifungal-cream:
+  last_reviewed: '2026-10-17'
+  note: 'Assembly from the Bayer TINACTIN SPL, re-fetched and re-verified rather than copied from the
+    tolnaftate page. 30 quotes, 0 real mismatches after one correction; lint, verify, style, wikilinks
+    clean; photo renders. ZERO Apify spend. ERROR CAUGHT BY THE VERBATIM CHECK, and it is the instructive
+    kind: I had written the warning as ''children under 2 years of age unless directed by a doctor'',
+    which is the CLOTRIMAZOLE label''s wording. Tinactin actually reads ''Do not use on children under
+    2 years of age except under the advice and supervision of a doctor.'' Two Bayer OTC antifungal labels
+    with near-identical structure, and I carried phrasing across from the page I wrote days earlier. Corrected
+    in body and footnote. This is the argument for re-fetching the source even when a sibling page already
+    quotes it. PHOTO FROM A PRIMARY SOURCE: the carton image is published inside the SPL itself (image.cfm?name=Tinactin+AF+Cream+15g+Carton.jpg),
+    so it is the FDA label''s own photograph rather than a retailer shot. incidecoder MISSed as predicted
+    for an OTC drug. Worth reusing this route for other DailyMed-sourced products before anything metered.
+    THE DISTINGUISHING ANGLE, as the queue note specified, is PREVENTION: the label carries ''helps prevent
+    most athlete''s foot with daily use'' plus a separate lighter dosing schedule, which clotrimazole
+    has no equivalent of. Graded minimal/preliminary with the note stating in terms that this means UNQUANTIFIED
+    rather than small, since Crawford 2007 covers treatment not prophylaxis. THREE-TIER COMPARISON MADE
+    CONCRETE: this product is OTC Monograph M005, clotrimazole is M005, butenafine is NDA-approved, all
+    three in the same pharmacy aisle. The page states that and routes to fda-approved-vs-cleared-skincare,
+    which is the payoff of shipping that list two ticks ago. No price: the SPL carries none and no retailer
+    figure was verified, so package sizes (15 g and 30 g with their NDCs) are given instead.'
+  score: 9
+  verdict: publish
 tinea-capitis:
   last_reviewed: '2026-10-02'
   note: 'Opus critic unavailable (session 200-agent cap); main-loop self-verify: all Gupta 2018 quotes

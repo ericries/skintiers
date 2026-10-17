@@ -2168,3 +2168,15 @@
     from the sulfur combinations, so verify each SPL''s marketing category on DailyMed
     separately rather than assuming the whole class is unapproved. Memory already
     records that older sulfacetamide/sulfur combos are category C73627.'
+- name: Chlorocresol (preservative)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: tinactin-antifungal-cream
+  source: Declared inactive ingredient in the Tinactin cream base and a recognised
+    contact allergen, which makes it the practical reason an apparent antifungal treatment
+    failure may actually be a reaction to the vehicle. The site has no page on it
+    and no page on preservative contact allergy generally. Grounded directly in the
+    transcribed inactive-ingredient list on tinactin-antifungal-cream. Build from
+    dermatology contact-allergy sources (patch-test series literature); do NOT overstate
+    prevalence, and keep it clearly separate from the active's efficacy story on tolnaftate.
