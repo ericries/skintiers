@@ -366,3 +366,17 @@
     rather than a Statement, which is the opposite of FOREO and means the testing
     basis is actually readable. Live storefront at mynuface.com answers a plain curl;
     cache before quoting.'
+- name: Proya Cosmetics
+  type: brand
+  priority: 5
+  status: pending
+  discovered_from: wang-2025-encorelane-sensitive-skin
+  source: 'Chinese cosmetics company whose Research & Innovation Center authored the
+    Encorelane paper (PMID 40952030) in full, and which owns that proprietary blend.
+    Relevant as a DISCOVERY aid because the site now cites a study authored entirely
+    by its staff, and a reader should be able to see who that is. Keep it lean per
+    the brand standard and attribute every claim as the brand''s own. IMPORTANT: the
+    brand card must not repeat the Encorelane efficacy claims; link to wang-2025-encorelane-sensitive-skin,
+    which already records that the paper reports no effect sizes and declares no conflicts
+    despite all-employee authorship. Verify the corporate entity and any products
+    on the site before writing; do not draft from the study affiliation line alone.'

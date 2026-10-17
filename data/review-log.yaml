@@ -12230,6 +12230,32 @@ walsh-2016-antibiotic-resistance-acne:
     '
   score: 10
   verdict: publish
+wang-2025-encorelane-sensitive-skin:
+  last_reviewed: '2026-10-17'
+  note: 'Compact agent-facing study record, 710 words, written to the study scope (what it tested / design
+    and n / intervention vs comparator / primary result / effect size / generalizes to / one key limitation).
+    15 quotes verbatim against the PubMed abstract, 0 mismatches; lint, verify, style, wikilinks clean.
+    THE KEY LIMITATION IS A REPORTING FAILURE, and it is the reason the page exists in this shape. ALL
+    SEVEN authors carry the single affiliation ''Research & Innovation Center, Proya Cosmetics Co. Ltd,
+    Hangzhou, China''; Encorelane is that company''s proprietary blend; and the declaration reads ''The
+    authors declare no conflicts of interest''. Sponsor authorship is common and does not make a result
+    wrong, which the page says. Declaring NONE while every author works for the owner of the ingredient
+    is a different thing, and the page names it as the reason to treat this as a manufacturer''s internal
+    evaluation rather than independent evidence. NO EFFECT SIZE ANYWHERE, which is the second reason this
+    cannot be cited numerically. The abstract gives direction and p<0.05 for TEWL, R2, F4 and crow''s
+    feet wrinkles, with no magnitudes, no confidence intervals and no baseline-to-endpoint values. The
+    page states that a reader cannot tell whether the change is cosmetically meaningful or merely detectable
+    in 23 people. Same pattern as the Thanawala and Du sponsor-authored pages already on the site. IN
+    VITRO AND IN VIVO KEPT APART: the cytokine and collagen findings are cell culture under SLS irritation
+    and UV provocation, and the page says they are not human findings. The clinical half is a 6-week double-blind
+    half-face placebo-controlled design, which is genuinely sound at n=23, and the page credits the design
+    while refusing the numbers. USAGE INSTRUCTION MADE EXPLICIT because this is agent-facing infrastructure:
+    background only, do not grade any ingredient from it, do not quote a magnitude, and none of the three
+    blend components (saccharide isomerate, ribose, fructooligosaccharides) should get a page on the strength
+    of this paper alone. That last line is deliberate: the obvious cross-feed from a study like this is
+    three new ingredient pages, and that would be exactly the wrong move.'
+  score: 8
+  verdict: publish
 wang-2026-comprehensive-evaluation-of-body-lotion-in-alleviating-xeros:
   last_reviewed: '2026-08-08'
   note: 'Opus re-fetched PubMed abstract PMID 41622615 (two WebFetch passes): both direct quotes are verbatim

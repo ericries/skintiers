@@ -2142,3 +2142,16 @@
     to report rather than a gap to paper over. The cleared indication language is
     already transcribed on nuface-trinity-microcurrent-device: stimulation for cosmetic
     use, not treatment.'
+- name: Saccharide isomerate
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: wang-2025-encorelane-sensitive-skin
+  source: 'A long-established humectant (commercially Pentavitin) that appears widely
+    in moisturisers and is the first-named component of the Encorelane blend. QUEUED
+    ON ITS OWN MERITS, NOT ON THE ENCORELANE PAPER: that study is all-Proya-authored
+    with an undeclared conflict and reports no effect sizes, so it must NOT be the
+    evidence base for this page. Search PubMed for independent trials of saccharide
+    isomerate itself (corneometry, TEWL) and grade from those, or grade weak and say
+    the independent evidence is thin. Related hubs already exist: sensitive-skin,
+    skin-barrier-repair.'

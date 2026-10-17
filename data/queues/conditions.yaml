@@ -396,3 +396,17 @@
     documents and standards bodies. Do NOT assert or repeat the widely-reported Neutrogena
     eye-safety withdrawal, which could not be confirmed in openFDA recall, enforcement
     or registration data on 2026-10-16.'
+- name: 'Sensitive skin: what the label means and what it does not'
+  type: condition
+  priority: 5
+  status: pending
+  discovered_from: wang-2025-encorelane-sensitive-skin
+  source: 'The site has a sensitive-skin page, but this study surfaces a definitional
+    problem worth its own treatment: subjects were ''sensitive-skin subjects'' by
+    self-identification, and the in vitro arm models sensitivity by irritating a 3D
+    epidermal culture with sodium lauryl sulfate. Those are two very different constructs,
+    and cosmetic trials routinely slide between them. A page on how sensitive skin
+    is actually defined and measured (self-report, lactic acid sting test, SLS provocation,
+    capsaicin) would let every future sensitive-skin claim on the site be read against
+    a real definition. Check whether this belongs as a section on the existing sensitive-skin
+    page before creating a separate hub.'
