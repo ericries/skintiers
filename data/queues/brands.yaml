@@ -343,7 +343,7 @@
 - name: FOREO
   type: brand
   priority: 5
-  status: pending
+  status: done
   discovered_from: foreo-espada-blue-light-pen
   source: 'Applicant of record on 10 FDA 510(k) clearances per openFDA (ESPADA K162450,
     BEAR K200803, BEAR 2 Body K232242, PEACH 2 K231977, Luna 4 plus K241102, and five

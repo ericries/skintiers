@@ -4424,6 +4424,25 @@ folliculitis:
     pipeline); assurance opus.'
   score: 9
   verdict: publish
+foreo:
+  last_reviewed: '2026-10-17'
+  note: 'Lean brand discovery card, 177 words against the 180 cap. No critic for brand type; own lint,
+    verify and style check, published --force at assurance sonnet per the playbook. ZERO Apify spend.
+    NO FOUNDER NAMED, and the footnote says so explicitly rather than leaving the omission ambiguous.
+    The playbook asks for a founder IF verifiable; FOREO''s is widely reported but I verified nothing,
+    so the line is absent. Same discipline as Lancome, Estee Lauder and reVive. THE CARD EARNS ITS PLACE
+    ON ONE STRUCTURAL FACT, re-verified fresh this tick rather than carried over from the ESPADA page:
+    an applicant-wide openFDA query returns 10 clearances, 8 filed as 510(k) STATEMENTS and 2 as Summaries
+    (Luna 4 plus K241102, FAQ 302 K242747). A Statement certifies the company will supply safety and effectiveness
+    information on request; a Summary publishes it. So for eight of ten FOREO devices the public FDA file
+    gives the indication and essentially nothing else. FRAMED AS DISCLOSURE, NOT SAFETY, in those words,
+    because the distinction matters and the card is lean enough that a careless phrasing would dominate
+    it. Contrasted with NuFACE, whose maker publishes a Summary every time, and routed to fda-approved-vs-cleared-skincare
+    for what each status proves. Device lines (ESPADA, LUNA, BEAR, PEACH, FAQ) are read from openFDA device_name
+    fields rather than from marketing copy. foreo.com cached before quoting its homepage title; verified
+    present in cache. Links to the one FOREO product the site carries, which is the card''s actual job.'
+  score: 8
+  verdict: publish
 foreo-espada-blue-light-pen:
   last_reviewed: '2026-10-17'
   note: 'Sources: K162450 clearance package from accessdata, openFDA device/510k (record plus an applicant-wide

@@ -3020,3 +3020,16 @@
     product photo with no metered call, and the same route is likely to work here.
     Angle: it is the azole the Cochrane head-to-head puts BEHIND allylamines, and
     it carries no prevention claim.'
+- name: FOREO LUNA 4 plus cleansing device
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: foreo
+  source: 'One of only TWO FOREO clearances filed as a 510(k) SUMMARY rather than
+    a Statement: K241102, decision 2024-08-20, per the openFDA applicant query on
+    the foreo brand card. That makes it, with FAQ 302 (K242747), one of the two FOREO
+    devices whose public FDA file may actually describe predicate and testing. Worth
+    building specifically BECAUSE of that: it is the test of whether FOREO''s disclosure
+    pattern changes what can be said about a device. Pull the K241102 PDF from accessdata.fda.gov
+    (free, primary) and compare what it discloses against the ESPADA Statement, which
+    names no predicate, no wavelength and no testing at all.'
