@@ -58,8 +58,8 @@ tier_list:
       first-line topical; graded on the metronidazole evidence above.
     slug: metrogel-metronidazole-1-gel
     tier: moderate
-  - note: The branded prescription brimonidine 0.33% gel for facial redness; delivers the
-      brimonidine active above, with the same rebound-flushing caveat.
+  - note: The branded prescription brimonidine 0.33% gel for facial redness; delivers
+      the brimonidine active above, with the same rebound-flushing caveat.
     slug: mirvaso-brimonidine-gel
     tier: moderate
   - note: Microencapsulated benzoyl peroxide 5% cream, FDA-approved for papulopustular
@@ -67,14 +67,14 @@ tier_list:
       that made BPO tolerable enough for rosacea skin.
     slug: epsolay-benzoyl-peroxide-5-cream
     tier: moderate
-  - note: Topical minocycline 1.5% foam (FMX103), FDA-approved for papulopustular rosacea
-      with phase 3 vehicle-controlled evidence; a topical route to a tetracycline-class
+  - note: Topical minocycline 1.5% foam (FMX103), FDA-approved for papulopustular
+      rosacea with phase 3 vehicle-controlled evidence; a topical route to a tetracycline-class
       antibiotic.
     slug: zilxi-minocycline-foam
     tier: moderate
   - note: Oral minocycline extended-release 40 mg (DFD-29), FDA-approved in 2024 for
-      papulopustular rosacea, which beat both vehicle and oral doxycycline in its phase 3
-      trials; a systemic option alongside sub-antimicrobial doxycycline.
+      papulopustular rosacea, which beat both vehicle and oral doxycycline in its
+      phase 3 trials; a systemic option alongside sub-antimicrobial doxycycline.
     slug: emrosi-minocycline-extended-release
     tier: moderate
   title: Rosacea treatments by evidence
@@ -84,6 +84,7 @@ videos:
 - creator: ''
   creator_slug: usama-syed
   credential: ''
+  duration: 655
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
   platform: YouTube
   posted: '2023-08-23'
@@ -98,85 +99,158 @@ videos:
     peroxide, and unmodified retinoids since they can irritate rosacea-prone skin.'
   title: Struggling with Rosacea? Here Are the Best Treatments for 2025
   url: https://www.youtube.com/watch?v=iDgHqa_MI0Q
-  duration: 655
-- title: Rosacea and the Link with Demodex Mites
-  creator: Dr. Scott Walter
+- creator: Dr. Scott Walter
   creator_slug: scott-walter
   credential: Board-certified dermatologist
-  platform: YouTube
-  url: https://www.youtube.com/watch?v=05ysCxb8gxg
   duration: 75
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+  platform: YouTube
   posted: '2024-03-26'
   related: []
-  thesis: Board-certified dermatologist Dr Scott Walter explains the suspected link between rosacea and Demodex, the microscopic mites that live in the pores of everyone's face and feed on skin oil and dead cells. He points out that these mites are normal and present on all of us, but are thought to play a role in the common inflammatory condition rosacea, and shows how he sampled his own overnight using tape.
-  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
-- title: Will Facial Redness Go Away After You Quit Drinking? Dermatologist Explains
-  creator: Andrea Suarez (Dr Dray)
+  thesis: Board-certified dermatologist Dr Scott Walter explains the suspected link
+    between rosacea and Demodex, the microscopic mites that live in the pores of everyone's
+    face and feed on skin oil and dead cells. He points out that these mites are normal
+    and present on all of us, but are thought to play a role in the common inflammatory
+    condition rosacea, and shows how he sampled his own overnight using tape.
+  title: Rosacea and the Link with Demodex Mites
+  url: https://www.youtube.com/watch?v=05ysCxb8gxg
+- creator: Andrea Suarez (Dr Dray)
   creator_slug: andrea-suarez-dr-dray
   credential: Board-certified dermatologist
-  platform: YouTube
-  url: https://www.youtube.com/watch?v=SMVvY1QAavY
   duration: 1126
-  posted: '2026-07-18'
-  related: [rosacea-erythematotelangiectatic, sunscreen-uv-filters]
-  thesis: 'Board-certified dermatologist Andrea Suarez (Dr Dray) answers a viewer who quit drinking but still has persistent facial redness, using it to explain alcohol as a rosacea trigger. She describes how rosacea can progress from alcohol-triggered flushing to fixed facial redness that does not resolve on its own, and outlines what helps that fixed redness: light-based devices such as intense pulsed light or pulse dye laser, the topical vasoconstrictor brimonidine for temporary improvement, plus daily sunscreen and gentle moisturizers, since UV exposure and an impaired skin barrier worsen rosacea.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
-- title: 6 Skin, Hair & Nail Signs You Should NEVER Ignore (From a Dermatologist) | Dr. Shereene Idriss
-  creator: Dr. Shereene Idriss
+  platform: YouTube
+  posted: '2026-07-18'
+  related:
+  - rosacea-erythematotelangiectatic
+  - sunscreen-uv-filters
+  thesis: 'Board-certified dermatologist Andrea Suarez (Dr Dray) answers a viewer
+    who quit drinking but still has persistent facial redness, using it to explain
+    alcohol as a rosacea trigger. She describes how rosacea can progress from alcohol-triggered
+    flushing to fixed facial redness that does not resolve on its own, and outlines
+    what helps that fixed redness: light-based devices such as intense pulsed light
+    or pulse dye laser, the topical vasoconstrictor brimonidine for temporary improvement,
+    plus daily sunscreen and gentle moisturizers, since UV exposure and an impaired
+    skin barrier worsen rosacea.'
+  title: Will Facial Redness Go Away After You Quit Drinking? Dermatologist Explains
+  url: https://www.youtube.com/watch?v=SMVvY1QAavY
+- creator: Dr. Shereene Idriss
   creator_slug: shereene-idriss
   credential: Board-certified dermatologist
-  platform: YouTube
-  url: https://www.youtube.com/watch?v=yH5oGKMBAcQ
   duration: 857
-  posted: '2026-08-08'
-  related: [hair-loss-thinning]
-  thesis: 'Board-certified dermatologist Dr. Shereene Idriss walks through six skin, hair, and nail changes that can signal an underlying systemic condition rather than a skincare problem: jawline acne paired with new coarse facial hair or scalp thinning that can point to PMOS/PCOS and elevated androgens; a sudden smooth round bald patch that may be alopecia areata; a butterfly-shaped facial rash that spares the nasolabial folds and worsens after sun exposure, which can indicate lupus rather than rosacea; yellow eyelid plaques (xanthelasma) that warrant a cholesterol check; horizontal grooves across multiple nails (Beau''s lines) reflecting a past physical stressor; and dark, velvety skin at the neck or underarms (acanthosis nigricans) as an early insulin-resistance warning sign. She stresses these are cues to see a doctor and get appropriate bloodwork rather than self-diagnose, and that topical skincare cannot fix the underlying hormonal, autoimmune, or metabolic causes.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
-- title: '#rosacea #rosaceatreatment #skincare #cosmeticdermatology #dermatologist #skincaretips'
-  creator: Dr. Jenny Liu (Jenny Liu, MD, FAAD)
+  platform: YouTube
+  posted: '2026-08-08'
+  related:
+  - hair-loss-thinning
+  thesis: 'Board-certified dermatologist Dr. Shereene Idriss walks through six skin,
+    hair, and nail changes that can signal an underlying systemic condition rather
+    than a skincare problem: jawline acne paired with new coarse facial hair or scalp
+    thinning that can point to PMOS/PCOS and elevated androgens; a sudden smooth round
+    bald patch that may be alopecia areata; a butterfly-shaped facial rash that spares
+    the nasolabial folds and worsens after sun exposure, which can indicate lupus
+    rather than rosacea; yellow eyelid plaques (xanthelasma) that warrant a cholesterol
+    check; horizontal grooves across multiple nails (Beau''s lines) reflecting a past
+    physical stressor; and dark, velvety skin at the neck or underarms (acanthosis
+    nigricans) as an early insulin-resistance warning sign. She stresses these are
+    cues to see a doctor and get appropriate bloodwork rather than self-diagnose,
+    and that topical skincare cannot fix the underlying hormonal, autoimmune, or metabolic
+    causes.'
+  title: 6 Skin, Hair & Nail Signs You Should NEVER Ignore (From a Dermatologist)
+    | Dr. Shereene Idriss
+  url: https://www.youtube.com/watch?v=yH5oGKMBAcQ
+- creator: Dr. Jenny Liu (Jenny Liu, MD, FAAD)
   creator_slug: jenny-liu
   credential: Board-certified dermatologist
-  platform: YouTube
-  url: https://www.youtube.com/watch?v=k_SFxS9hBZM
   duration: 57
-  posted: '2026-08-29'
-  related: [rosacea-erythematotelangiectatic, rosacea-papulopustular]
-  thesis: 'Dermatologist Jenny Liu, MD, FAAD explains that many people who think they have sensitive skin actually have rosacea and are treating the wrong condition. She breaks rosacea into four types: type 1 is redness and flushing with visible blood vessels; type 2 is mistaken for acne, presenting as small red bumps and pustules on the central face that do not respond to acne treatments; type 3 is skin thickening around the nose and chin from sebaceous gland overgrowth; and type 4 is ocular rosacea, causing eye burning, dryness, watery eyes, and styes. She notes people often have more than one type at once, and treatment differs by type: type 1 responds best to lasers like Vbeam or IPL, while type 2 responds best to topicals like sulfur, ivermectin, and metronidazole cream, with combination treatment common for overlapping types.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
-- title: 'How to Treat Rosacea in 2026: Skincare, Prescriptions, Procedures & More (Dermatologist Guide)'
-  creator: John Barbieri, MD
-  creator_slug: john-barbieri-md
-  credential: Board-certified dermatologist, Associate Professor of Dermatology at Harvard Medical School; co-chair of the AAD Acne Guidelines Work Group
   platform: YouTube
-  url: https://www.youtube.com/watch?v=aUOgXdS1tAM
+  posted: '2026-08-29'
+  related:
+  - rosacea-erythematotelangiectatic
+  - rosacea-papulopustular
+  thesis: 'Dermatologist Jenny Liu, MD, FAAD explains that many people who think they
+    have sensitive skin actually have rosacea and are treating the wrong condition.
+    She breaks rosacea into four types: type 1 is redness and flushing with visible
+    blood vessels; type 2 is mistaken for acne, presenting as small red bumps and
+    pustules on the central face that do not respond to acne treatments; type 3 is
+    skin thickening around the nose and chin from sebaceous gland overgrowth; and
+    type 4 is ocular rosacea, causing eye burning, dryness, watery eyes, and styes.
+    She notes people often have more than one type at once, and treatment differs
+    by type: type 1 responds best to lasers like Vbeam or IPL, while type 2 responds
+    best to topicals like sulfur, ivermectin, and metronidazole cream, with combination
+    treatment common for overlapping types.'
+  title: '#rosacea #rosaceatreatment #skincare #cosmeticdermatology #dermatologist
+    #skincaretips'
+  url: https://www.youtube.com/watch?v=k_SFxS9hBZM
+- creator: John Barbieri, MD
+  creator_slug: john-barbieri-md
+  credential: Dermatologist, Department of Dermatology, Brigham and Women's Hospital
   duration: 947
-  posted: '2026-09-05'
-  related: [azelaic-acid, metronidazole, brimonidine]
-  thesis: Board-certified dermatologist Dr. John Barbieri lays out a comprehensive, phenotype-based approach to treating rosacea in 2026, starting with sunscreen and moisturizer as foundational skincare and then matching treatments to specific features rather than old subtypes. He covers antimicrobial options like azelaic acid, ivermectin, metronidazole and encapsulated benzoyl peroxide for bumps, alpha agonists like brimonidine and oxymetazoline plus laser for redness and flushing, oral antibiotics and isotretinoin for severe or phymatous disease, and newer options like beta blockers, SSRIs and CGRP inhibitors for flushing tied to neurovascular reactivity.
   note: Verified from the video transcript (yt-dlp, read in full); no sponsorship.
-- title: 'How to use Azelaic acid for Beginners: Dermatologist guide'
-  creator: Dr. Abigail Waldman (Dr. Abby)
+  platform: YouTube
+  posted: '2026-09-05'
+  related:
+  - azelaic-acid
+  - metronidazole
+  - brimonidine
+  thesis: Board-certified dermatologist Dr. John Barbieri lays out a comprehensive,
+    phenotype-based approach to treating rosacea in 2026, starting with sunscreen
+    and moisturizer as foundational skincare and then matching treatments to specific
+    features rather than old subtypes. He covers antimicrobial options like azelaic
+    acid, ivermectin, metronidazole and encapsulated benzoyl peroxide for bumps, alpha
+    agonists like brimonidine and oxymetazoline plus laser for redness and flushing,
+    oral antibiotics and isotretinoin for severe or phymatous disease, and newer options
+    like beta blockers, SSRIs and CGRP inhibitors for flushing tied to neurovascular
+    reactivity.
+  title: 'How to Treat Rosacea in 2026: Skincare, Prescriptions, Procedures & More
+    (Dermatologist Guide)'
+  url: https://www.youtube.com/watch?v=aUOgXdS1tAM
+- creator: Dr. Abigail Waldman (Dr. Abby)
   creator_slug: abigail-waldman
-  credential: Abigail H. Waldman, MD, FAAD; Associate Professor of Dermatology at Harvard Medical School; Director of the Mohs and Dermatologic Surgery Center at Brigham and Women's Hospital
-  platform: YouTube
-  url: https://www.youtube.com/watch?v=mRYMysEjhWs
+  credential: Abigail H. Waldman, MD, FAAD; Associate Professor of Dermatology at
+    Harvard Medical School; Director of the Mohs and Dermatologic Surgery Center at
+    Brigham and Women's Hospital
   duration: 502
-  posted: '2026-02-11'
-  related: [anua-azelaic-acid-serum, retinoids]
-  thesis: Board-certified dermatologist and Harvard/Brigham Mohs surgeon Dr. Abigail Waldman explains how to start using azelaic acid, a naturally occurring acid that treats acne, post-acne redness and dark spots, and rosacea by fighting acne-causing bacteria and blocking the pigment-producing enzyme tyrosinase. She covers when to apply it in a routine, safe combinations with retinoids and prescription acne treatments, expected mild side effects, and notes it is one of the few actives considered safe during pregnancy and breastfeeding. She recommends starting once daily and increasing to twice daily as tolerated, with results from over-the-counter 10% formulas taking up to 8 to 12 weeks.
-  note: Verified from the video transcript (yt-dlp, read in full); no sponsorship disclosure (recommends Anua 10% by personal preference).
-- title: Can Gut Bacteria Cause Rosacea? | Dermatologist explains
-  creator: John Barbieri, MD
-  creator_slug: john-barbieri-md
-  credential: Board-certified dermatologist, Associate Professor of Dermatology at Harvard Medical School; co-chair of the AAD Acne Guidelines Work Group
+  note: Verified from the video transcript (yt-dlp, read in full); no sponsorship
+    disclosure (recommends Anua 10% by personal preference).
   platform: YouTube
-  url: https://www.youtube.com/watch?v=wQ0TAWhiHRw
+  posted: '2026-02-11'
+  related:
+  - anua-azelaic-acid-serum
+  - retinoids
+  thesis: Board-certified dermatologist and Harvard/Brigham Mohs surgeon Dr. Abigail
+    Waldman explains how to start using azelaic acid, a naturally occurring acid that
+    treats acne, post-acne redness and dark spots, and rosacea by fighting acne-causing
+    bacteria and blocking the pigment-producing enzyme tyrosinase. She covers when
+    to apply it in a routine, safe combinations with retinoids and prescription acne
+    treatments, expected mild side effects, and notes it is one of the few actives
+    considered safe during pregnancy and breastfeeding. She recommends starting once
+    daily and increasing to twice daily as tolerated, with results from over-the-counter
+    10% formulas taking up to 8 to 12 weeks.
+  title: 'How to use Azelaic acid for Beginners: Dermatologist guide'
+  url: https://www.youtube.com/watch?v=mRYMysEjhWs
+- creator: John Barbieri, MD
+  creator_slug: john-barbieri-md
+  credential: Dermatologist, Department of Dermatology, Brigham and Women's Hospital
   duration: 602
+  note: Verified from the video transcript (yt-dlp, read in full); no sponsorship.
+  platform: YouTube
   posted: '2026-08-01'
   related: []
-  thesis: Board-certified dermatologist Dr. John Barbieri breaks down a study asking whether rosacea can start in the gut, specifically whether small intestinal bacterial overgrowth (SIBO) drives it in some people. He explains the trial found SIBO in about 40 percent of rosacea patients versus about 5 percent of controls, and that a 10 day course of the antibiotic rifaximin cleared the SIBO in roughly 90 percent and improved or fully cleared rosacea in most of those treated, with benefits lasting 9 months or more, while patients without SIBO saw no benefit. He cautions that the breath test yields false positives, the trial was unblinded and not yet replicated, and rifaximin carries real antibiotic risks, so testing and treatment should be targeted to rosacea patients who also have gut symptoms rather than used broadly.
-  note: Verified from the video transcript (yt-dlp, read in full); no sponsorship.
-
+  thesis: Board-certified dermatologist Dr. John Barbieri breaks down a study asking
+    whether rosacea can start in the gut, specifically whether small intestinal bacterial
+    overgrowth (SIBO) drives it in some people. He explains the trial found SIBO in
+    about 40 percent of rosacea patients versus about 5 percent of controls, and that
+    a 10 day course of the antibiotic rifaximin cleared the SIBO in roughly 90 percent
+    and improved or fully cleared rosacea in most of those treated, with benefits
+    lasting 9 months or more, while patients without SIBO saw no benefit. He cautions
+    that the breath test yields false positives, the trial was unblinded and not yet
+    replicated, and rifaximin carries real antibiotic risks, so testing and treatment
+    should be targeted to rosacea patients who also have gut symptoms rather than
+    used broadly.
+  title: Can Gut Bacteria Cause Rosacea? | Dermatologist explains
+  url: https://www.youtube.com/watch?v=wQ0TAWhiHRw
 ---
 
 Rosacea is a chronic inflammatory condition of the central face, described in the Cochrane systematic review as "a common chronic skin condition affecting the face" whose features include flushing, persistent redness, visible blood vessels, and inflammatory bumps.[^cochrane2015] It relapses and remits over years, it clusters on the cheeks, nose, chin, and forehead, and it has no cure.
