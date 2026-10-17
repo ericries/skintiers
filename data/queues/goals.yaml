@@ -185,7 +185,7 @@
 - name: Smoothing skin texture
   type: goal
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: 'discover_hubs: 2 mentions across the video archive; no goal hub yet'
 - name: Lip care (chapped lips, lip barrier, plumping claims)
@@ -248,3 +248,16 @@
     clinical tumor margins''. That is the case for margin-controlled excision in one
     sentence. The site covers subcision, microneedling and fractional CO2 as procedure
     pages, so the format exists.'
+- name: Thickened or scaly skin patches (hyperkeratosis)
+  type: goal
+  priority: 5
+  status: pending
+  discovered_from: smoothing-skin-texture
+  source: The one texture problem the smoothing-skin-texture hub routes AWAY from
+    without having anywhere to send it. That page's medical note tells readers that
+    scaly patches fixed in one spot are worth showing a dermatologist rather than
+    exfoliating harder, and keratosis-pilaris covers only the upper-arm case. The
+    site has urea and ammonium-lactate as graded keratolytics with no condition hub
+    tying them to thickened skin. Build from dermatology references on hyperkeratosis;
+    keep actinic-keratosis strictly separate, since that one is a precursor lesion
+    covered under keratinocyte-carcinoma.

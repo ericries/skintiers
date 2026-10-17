@@ -10343,6 +10343,31 @@ skinmedica-tns-advanced-serum:
     '
   score: 10
   verdict: publish
+smoothing-skin-texture:
+  last_reviewed: '2026-10-16'
+  note: 'Purely CURATORIAL routing hub, 11-row tier_list, 434 words of prose. Lint, verify, style clean;
+    wikilinks clean; all 11 tier_list rows render. REDUNDANCY WAS THE MAIN RISK and drove the design.
+    The site already has exfoliating-acids-by-strength and retinoids-by-potency-ranked, which rank WITHIN
+    a category. This hub ranks ACROSS categories, which is the question neither answers: which category
+    to reach for at all. The caption says that explicitly and links both ladders rather than re-ranking
+    their contents. NO NEW EFFICACY CLAIM IS MADE, and the Sources section says so outright instead of
+    padding with citations. Every tier is the ingredient page''s OWN evidence grade via entity_tier, with
+    NO per-item overrides, precisely so the page does not invent texture-specific grades it cannot support.
+    Where a grade was earned in another indication the row note says so (adapalene graded on acne; niacinamide
+    graded on barrier and pigment, with an explicit warning to expect less than the marketing implies).
+    SOFTENED DURING DRAFTING: an earlier line claimed keratolytics work ''within days'' and retinoids
+    take ''weeks''. That is a timing claim with no source behind it, so it was rewritten as a purely mechanistic
+    contrast (keratolytics act on the dead surface layer, retinoids change cell turnover) and the Sources
+    section records that no timeline is claimed. DISAMBIGUATION is the other half of the page''s job:
+    ''texture'' gets used for four different problems, so the opener routes pores to enlarged-pores, bumps
+    on arms to keratosis-pilaris, indentations to acne-scars and lines to anti-aging, which stops the
+    hub absorbing traffic it cannot serve. Irritation is named as the real constraint with the route to
+    skin-barrier-repair. SEPARATE FINDING, acted on: this tick surfaced that the tier vocabulary is genuinely
+    inconsistent across ingredient pages (tretinoin ''top'', adapalene ''strong'', retinol ''moderate''
+    versus canonical best/good/mid/weak elsewhere). _TIER_ALIASES maps them so rendering is correct, but
+    the data is mixed.'
+  score: 8
+  verdict: publish
 snail-secretion-filtrate:
   last_reviewed: '2026-07-28'
   note: 'Ingredient page drafted + critic-gated in the parallel drain. '

@@ -361,3 +361,16 @@
     that your device complies with other requirements of the Act''. This overlaps
     the already-queued ''What FDA approval, clearance and OTC monograph actually mean
     in skincare''; MERGE them rather than building both.'
+- name: 'Keratolytics compared: urea, lactic acid and salicylic acid'
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: smoothing-skin-texture
+  source: 'The category that smoothing-skin-texture singles out as the fast route
+    for roughness, and the one with no list of its own. All three actives already
+    have graded pages (urea mid, ammonium-lactate good, salicylic-acid good), so this
+    is assembly rather than new research. The distinguishing axis the hub already
+    states: urea is keratolytic at high strengths and humectant at low ones, so CONCENTRATION
+    decides what it does, which is exactly the kind of thing a strength ladder should
+    make visible. Distinct from exfoliating-acids-by-strength, which ranks AHAs/BHA
+    by penetration rather than by keratolytic action.'

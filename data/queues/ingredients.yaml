@@ -2096,7 +2096,7 @@
 - name: Ciclopirox olamine, topical hydroxypyridone antifungal
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: tolnaftate
   source: 'The one remaining drug class in the Crawford 2007 Cochrane placebo-controlled
     table (PMID 17636672) with no page: ''ciclopiroxolamine RR 0.27 (95% CI 0.11 to
@@ -2107,7 +2107,7 @@
 - name: Topical fluorouracil (5-FU)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: keratinocyte-carcinoma
   source: 'Named by NCI PDQ Skin Cancer Treatment as a treatment option for localized
     basal cell carcinoma, alongside surgery, Mohs, radiation, curettage and electrodesiccation,
