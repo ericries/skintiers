@@ -9463,6 +9463,32 @@ revive-light-therapy:
     so the page tells readers to match wavelengths and indication rather than brand name.'
   score: 8
   verdict: publish
+revive-light-therapy-essentials:
+  last_reviewed: '2026-10-16'
+  note: 'Both predicate 510(k) packages pulled from accessdata (K210965 wrinkles, K210968 acne). 29 quotes
+    verbatim, 0 mismatches; wikilinks clean; lint and style clean. ZERO Apify spend, all free FDA primary.
+    THIS ANSWERS THE QUESTION THE QUEUE ENTRY ASKED, and the answer is better than hoped. The queue note
+    said: check whether EITHER predicate contains clinical data, since K223482 contains none, and if neither
+    does that is a publishable finding about the whole line. Neither does. Both summaries state that testing
+    ''included functional performance testing, software validation, testing, and user safety testing''
+    and that ''The conclusions drawn from nonclinical tests demonstrate that the device is safe, as effective,
+    and performs as well as the legally marketed devices''. NONCLINICAL is the manufacturer''s own word,
+    and it is the most useful word in either document. AND THE CHAIN GOES FURTHER THAN EXPECTED. These
+    two predicates are themselves equivalent to three MORE LED Technologies devices: K210968 to K180447,
+    and K210965 to K171390 (dpl II Panel) and K180445. So the 2022 device rests on these two, which rest
+    on three earlier ones, and every predicate at every step is the same company''s own product. Three
+    generations of substantial equivalence, entirely nonclinical, never leaving the manufacturer. The
+    page lays the chain out explicitly because that is the single most useful thing it can tell a reader
+    who sees ''FDA cleared'' on a box. BALANCE KEPT: the acne configuration is 630nm red plus 415nm blue,
+    the blue-red pairing graded Level B with a Grade I recommendation, stated as a genuine point in its
+    favour with the grade attributed to the modality. New detail captured: 605nm is AMBER, which the 2022
+    summary''s wavelength table did not say. ONE NAME, TWO CLEARED CONFIGURATIONS, which is why image_unresolvable
+    is set rather than picking a photo: any single image risks depicting the wrong cleared device, and
+    only an Essentials Acne product appears in the current range. No price, none verified. Three en-dashes
+    originating INSIDE verbatim predicate strings were removed by restructuring so the dash falls outside
+    the quotation, never by editing a quote. Same fix as on the 2022 device page.'
+  score: 9
+  verdict: publish
 revive-light-therapy-wrinkle-and-acne-led-device:
   last_reviewed: '2026-10-13'
   note: 'Sourced primarily from the FULL FDA 510(k) clearance package for K223482 (clearance letter, Indications

@@ -2872,7 +2872,7 @@
 - name: reVive Light Therapy Essentials (LED Technologies)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: revive-light-therapy-wrinkle-and-acne-led-device
   source: 'The two PREDICATE devices named in the K223482 clearance: FDA 510(k) K210965
     and K210968, both LED Technologies, Inc., both titled The reVive Light Therapy
@@ -2951,3 +2951,16 @@
     from openFDA/accessdata before drafting; the home-use-skincare-devices-by-evidence
     ladder turns on whether a device is blue-red (Level B) or red-only (Level C),
     so wavelengths are the fact that decides the grade.
+- name: reVive Light Therapy LED Cleansing System
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: revive-light-therapy-essentials
+  source: 'The device at the ROOT of the reVive clearance chain, and the last unexamined
+    link. FDA 510(k) K180445 and K180447 (LED Technologies, Inc.), both named as predicates
+    in the Essentials clearances; K210968 names K180447 as its primary predicate.
+    The chain so far: K223482 rests on K210965/K210968, which rest on K180445/K180447
+    and K171390. If this one is ALSO nonclinical, the whole line traces to no clinical
+    data at any generation, which completes the finding on revive-light-therapy-essentials.
+    Pull both PDFs from accessdata.fda.gov pdf18/ (free, primary). Note it is a CLEANSING
+    device, so its indication may differ from the acne/wrinkle ones.'

@@ -1166,3 +1166,16 @@
   status: pending
   discovered_from: caprylyl-capryl-glucoside
   source: https://pubmed.ncbi.nlm.nih.gov/30460735/
+- name: 'Barbaric 2016 Cochrane: light therapies for acne'
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: revive-light-therapy-essentials
+  source: 'PMID 27670126, CD007917. Already quoted and verbatim-verified on home-led-light-therapy,
+    and now the countervailing evidence behind FIVE device pages (home-led-light-therapy,
+    home-use-skincare-devices-by-evidence, revive-light-therapy-wrinkle-and-acne-led-device,
+    neutrogena-light-therapy-acne-mask-plus, revive-light-therapy-essentials). A compact
+    study page would let all five link to the numbers instead of re-describing them:
+    71 RCTs, 4211 participants, median 31 participants per trial, two thirds industry-sponsored,
+    fewer than half assessed past 8 weeks, and the pooled MAL-PDT null (MD -2.85,
+    95% CI -7.51 to 1.81) whose both arms received red light.'
