@@ -343,7 +343,7 @@
 - name: Ringworm (tinea corporis)
   type: condition
   priority: 5
-  status: pending
+  status: done
   discovered_from: clotrimazole
   source: The actual labelled indication of clotrimazole 1% ('cures most ringworm',
     Bayer SPL b584e17f). The site has athletes-foot and fungal-acne hubs but no page
@@ -372,7 +372,7 @@
 - name: Tinea corporis (ringworm of the body)
   type: condition
   priority: 5
-  status: pending
+  status: done
   discovered_from: tolnaftate
   source: 'Named as a distinct indication on BOTH OTC antifungal labels the site now
     carries: the Tinactin label covers ''ringworm (tinea corporis)'' and the Bayer
@@ -423,3 +423,16 @@
     distinction decides whether an OTC cream is even the right purchase. Crawford
     2007 covers the foot broadly; check whether it or a newer review reports outcomes
     by distribution before grading.'
+- name: Tinea cruris (jock itch)
+  type: condition
+  priority: 5
+  status: pending
+  discovered_from: tinea-corporis-ringworm
+  source: 'The third body-site tinea named alongside corporis and pedis in PMID 41118183,
+    which groups them as the ones that ''generally respond to inexpensive topical
+    antifungal agents''. The site now has athletes-foot (pedis), tinea-capitis and
+    tinea-corporis-ringworm, leaving cruris as the obvious gap. THREE OTC labels already
+    transcribed on this site carry an explicit jock-itch indication with their own
+    dosing: butenafine (once daily, 2 weeks), plus the Lotrimin and Tinactin jock-itch
+    SPLs which are SEPARATE setids from the ones already cited. Pull those SPLs rather
+    than assuming the body-ringworm directions transfer.'

@@ -2180,3 +2180,16 @@
     transcribed inactive-ingredient list on tinactin-antifungal-cream. Build from
     dermatology contact-allergy sources (patch-test series literature); do NOT overstate
     prevalence, and keep it clearly separate from the active's efficacy story on tolnaftate.
+- name: Combination antifungal-corticosteroid topicals (e.g. clotrimazole-betamethasone)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: tinea-corporis-ringworm
+  source: 'PMID 41118183 names these specifically as the thing to AVOID: ''Antifungal
+    stewardship, including avoiding the use of combination antifungal-corticosteroids,
+    should be emphasized to optimize outcomes and help prevent resistance.'' The site
+    has clotrimazole and betamethasone-dipropionate as separate graded pages and nothing
+    on the combination, which is widely prescribed and is the single most common way
+    ringworm gets worse. A page whose verdict is ''do not use this for suspected tinea''
+    is genuinely useful. Get the DailyMed SPL for the combination product and check
+    its own labelled warnings.'

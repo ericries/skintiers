@@ -11618,6 +11618,33 @@ tinea-capitis:
     no tier_list (prescription systemic care). assurance:sonnet.'
   score: 8
   verdict: publish
+tinea-corporis-ringworm:
+  last_reviewed: '2026-10-17'
+  note: 'Resolved BOTH duplicate queue entries I had created (from clotrimazole and from butenafine).
+    Sources: PMID 41118183 (2025 Am Fam Physician, authors include the CDC Mycotic Diseases Branch) and
+    PMID 32742295 (2020 Drugs in Context narrative review). 32 quotes, 0 real mismatches after two corrections;
+    lint, verify, style, wikilinks clean; 4/4 tier rows render. CDC WAS BOT-BLOCKED (403 on two ringworm
+    URLs) and I did NOT reach for Apify. Went to PubMed instead, which is free and gives better evidence
+    for this site anyway, and the 2025 review turns out to be co-authored by CDC''s own mycology branch.
+    The gate''s purpose is served by not needing the gate. TWO QUOTING FAULTS CAUGHT BY THE VERBATIM CHECK,
+    both mine, both the subtle kind: (1) I had truncated a parenthetical mid-way, quoting ''...resemble
+    tinea infections (eg, tinea corporis can be confused with eczema)'' where the source continues inside
+    the same parens; rewritten so the quote ends cleanly and the example is paraphrased. (2) I had written
+    ''generally respond[s]'' with a bracketed inflection, which is a normal editorial convention but means
+    the string is not verbatim; restructured so the quote matches the source exactly. SAFETY FRAMING IS
+    THE POINT OF THE PAGE: diagnosis by eye is unreliable and tinea corporis is confused with eczema,
+    which are treated in OPPOSITE directions. That leads to the practical warning the 2025 review states
+    as antifungal stewardship: avoid combination antifungal-corticosteroids. A steroid settles the itch
+    while the infection continues, which is also why the page routes to topical-corticosteroids as a thing
+    NOT to reach for here. Emerging resistant tinea is recorded as the reason to stop self-treating a
+    non-responding rash. HONEST ABOUT THIS SITE''S OWN EVIDENCE GAP: the Crawford Cochrane pooled data
+    quoted across the antifungal pages covers the FOOT. The ringworm indications come from labels and
+    these two reviews, not from that pooled data, and the page says so and routes to fda-approved-vs-cleared-skincare.
+    tier_list by LABEL indication and course length rather than by efficacy, with the caption stating
+    that all four carry a ringworm indication so it is not a ranking of whether they work. The useful
+    differences surfaced are course length (butenafine 2 weeks vs 4) and regulatory status.'
+  score: 9
+  verdict: publish
 tirtir-azelaic-acid-12-serum:
   last_reviewed: '2026-10-05'
   note: Main-loop self-verify (no Opus critic; standing no-subagent instruction). All 21 quotes machine-checked
