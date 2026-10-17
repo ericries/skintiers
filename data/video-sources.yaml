@@ -156,7 +156,7 @@
   creator_slug: adeline-kikam
   credential: Board-certified dermatologist
   tier: MED
-  channel: https://www.youtube.com/@brownskinderm
+  channel: https://www.youtube.com/@brownskinderm/videos
   product_recs: restricted
   conflict: 'Affiliate storefronts (ShopMy + Amazon Shop via linktree), recurring #AD sponsored posts, a branded discount-code partnership (LivSo), and c'
   last_pulled: '2026-08-30'
@@ -165,7 +165,7 @@
   backfill_cursor: 52
   credential: Board-certified dermatologist
   tier: HIGH
-  channel: https://www.youtube.com/@TeawithMD
+  channel: https://www.youtube.com/@TeawithMD/videos
   product_recs: restricted
   conflict: ShopMy affiliate storefront linked in nearly every video ('My Holy Grail Products'); own hair-care brand Kerativ Hair (she is Founder/CEO);
   last_pulled: '2026-08-30'
@@ -175,7 +175,7 @@
   backfill_cursor: 15
   credential: Skincare educator
   tier: MED
-  channel: https://www.youtube.com/@kindofstephen
+  channel: https://www.youtube.com/@kindofstephen/videos
   product_recs: ok
   conflict: No affiliate storefront or own-brand line found; occasionally discloses paid/employer formulation work on specific ingredient categories (e.
   last_pulled: '2026-08-30'
@@ -184,7 +184,7 @@
   backfill_cursor: 45
   credential: Board-certified dermatologist
   tier: HIGH
-  channel: https://www.youtube.com/@DermAngelo
+  channel: https://www.youtube.com/@DermAngelo/videos
   product_recs: restricted
   conflict: Own-brand UPF sun-protective clothing line, SOUL-A (wearsoula.com / @wearsoula), founded and promoted by him — apparel, not topical skincare
   last_pulled: '2026-08-30'
@@ -193,7 +193,7 @@
   backfill_cursor: 45
   credential: Consultant dermatologist
   tier: HIGH
-  channel: https://www.youtube.com/@DrAamnaAdel
+  channel: https://www.youtube.com/@DrAamnaAdel/videos
   product_recs: restricted
   conflict: Founder of own-brand haircare line (Rhute); TikTok Shop affiliate/product storefront; recurring disclosed sponsored posts (No7, La Roche Pos
   last_pulled: '2026-08-30'
@@ -210,7 +210,7 @@
   backfill_cursor: 45
   credential: Board-certified dermatologist
   tier: HIGH
-  channel: https://www.youtube.com/@drlindseyzubritsky
+  channel: https://www.youtube.com/@drlindseyzubritsky/videos
   product_recs: restricted
   conflict: Active paid spokesperson for RoC Skincare (on-air brand deal w/ discount code) + Cetaphil-sponsored content + 'all' detergent partnership; a
   last_pulled: '2026-08-30'
@@ -218,7 +218,7 @@
   creator_slug: caroline-hirons
   credential: Esthetician and skincare author (NOT a dermatologist or cosmetic chemist)
   tier: MED
-  channel: https://www.youtube.com/channel/UCyzKg_t3tPv8Aa_7JL2xXZA
+  channel: https://www.youtube.com/channel/UCyzKg_t3tPv8Aa_7JL2xXZA/videos
   product_recs: restricted
   conflict: Founder of own-brand skincare line (Skin Rocks); recent upload mix is dominated by PR-gifted product unboxings and empties (haul-adjacent fo
   last_pulled: '2026-08-30'
@@ -227,7 +227,7 @@
   backfill_cursor: 45
   credential: Board-certified dermatologist
   tier: HIGH
-  channel: https://www.youtube.com/@danielsugaimd
+  channel: https://www.youtube.com/@danielsugaimd/videos
   product_recs: restricted
   conflict: Chief Medical Officer of hair-growth-serum brand REYUS; advisory-board member of Bubble Skincare; periodic disclosed paid brand partnerships
   last_pulled: '2026-10-10'
@@ -236,7 +236,7 @@
   backfill_cursor: 45
   credential: Cosmetic scientist
   tier: HIGH
-  channel: https://www.youtube.com/@TheEcoWell
+  channel: https://www.youtube.com/@TheEcoWell/videos
   product_recs: ok
   conflict: Runs a paid cosmetics-industry consulting/science-communication practice (BeautySciComm, e-summits, mentorship cohorts) and is Patreon-suppo
   last_pulled: '2026-08-30'
@@ -253,7 +253,7 @@
   backfill_cursor: 45
   credential: Board-certified dermatologist
   tier: HIGH
-  channel: https://www.youtube.com/@DrAlexisStephens
+  channel: https://www.youtube.com/@DrAlexisStephens/videos
   product_recs: restricted
   conflict: Recurring paid partnerships (Dermatica affiliate code "DRALEXIS" on multiple videos, La Roche-Posay branded partner content, SkinBetter Scie
   last_pulled: '2026-08-30'
@@ -302,7 +302,7 @@
   backfill_cursor: 9999
   credential: Board-certified dermatologist
   tier: HIGH
-  channel: https://www.youtube.com/@crobinsonmd
+  channel: https://www.youtube.com/@crobinsonmd/videos
   product_recs: restricted
   conflict: Affiliate storefront (shopmy.us collections linked in nearly every video description) plus her own practice's e-commerce "Tone Sho
   last_pulled: '2026-08-30'
@@ -319,7 +319,7 @@
   backfill_cursor: 45
   credential: Board-certified dermatologist
   tier: HIGH
-  channel: https://www.youtube.com/@dr.jennyliu
+  channel: https://www.youtube.com/@dr.jennyliu/videos
   product_recs: restricted
   conflict: Runs an Amazon affiliate storefront (amazon.com/shop/derm.talk); recurring disclosed paid brand partnerships (Shiseido, SkinCeutic
   last_pulled: '2026-09-21'
@@ -403,7 +403,7 @@
   backfill_cursor: 9999
   credential: Board-certified dermatologist
   tier: HIGH
-  channel: https://www.youtube.com/@brookejeffymd
+  channel: https://www.youtube.com/@brookejeffymd/videos
   product_recs: restricted
   conflict: Founder of own-brand tween/teen skincare line BTWN (meetbtwn.com), which she actively promotes on all three platforms; also co-hos
   last_pulled: '2026-08-30'
@@ -436,7 +436,7 @@
   backfill_cursor: 9999
   credential: Board-certified dermatologist
   tier: HIGH
-  channel: https://www.youtube.com/@dermatologysurgeon
+  channel: https://www.youtube.com/@dermatologysurgeon/videos
   product_recs: restricted
   conflict: Runs a "Shop my Favorites" affiliate storefront (linktr.ee/dermatologysurgeon) that monetizes her product picks; no own-brand prod
   last_pulled: '2026-08-30'
@@ -460,7 +460,7 @@
   creator_slug: doctorly
   credential: Dr. Muneeb Shah, DO & Dr. Luke Maxfield, DO - both board-certified dermatologists
   tier: HIGH
-  channel: https://www.youtube.com/channel/UCHCZnC9akNA9pBP7aJGNKdg
+  channel: https://www.youtube.com/channel/UCHCZnC9akNA9pBP7aJGNKdg/videos
   conflict: Muneeb Shah runs own skincare brand (Remedy Science) and Scriptable Rx venture featured on the channel
   product_recs: restricted
   last_pulled: '2026-09-13'
@@ -468,7 +468,7 @@
   creator_slug: john-barbieri-md
   credential: Dermatologist, Department of Dermatology, Brigham and Women's Hospital
   tier: HIGH
-  channel: https://www.youtube.com/channel/UCm0RvvD6gfywapkgOt3bFCA
+  channel: https://www.youtube.com/channel/UCm0RvvD6gfywapkgOt3bFCA/videos
   conflict: null
   product_recs: ok
   last_pulled: '2026-09-14'
@@ -476,7 +476,7 @@
   creator_slug: aleksandra-brown
   credential: Board-certified dermatologist (DO, FAOCD, FAAD), practicing at River Ridge Dermatology / HCA Virginia (LewisGale), Blacksburg VA
   tier: HIGH
-  channel: https://www.youtube.com/channel/UC52c6a0gfbhuVCdHYZQAzuQ
+  channel: https://www.youtube.com/channel/UC52c6a0gfbhuVCdHYZQAzuQ/videos
   conflict: null
   product_recs: ok
   last_pulled: '2026-09-21'
@@ -484,7 +484,7 @@
   creator_slug: maren-locke
   credential: Board-certified dermatologist and fellowship-trained Mohs surgeon; founder/director of Carlyle Dermatology (Ocala, FL)
   tier: HIGH
-  channel: https://www.youtube.com/channel/UCDc2wFMXTSApCa4UwDrdz_Q
+  channel: https://www.youtube.com/channel/UCDc2wFMXTSApCa4UwDrdz_Q/videos
   conflict: Runs extensive Amazon Associates and ShopMy affiliate storefronts, monetizing nearly every product mentioned across videos
   product_recs: restricted
   last_pulled: '2026-09-21'
@@ -492,7 +492,7 @@
   creator_slug: dr-sarah-sheu
   credential: Board-certified dermatologist, MD (Northwestern Feinberg), Stanford dermatology residency (chief resident); Medical Director of Dermatology, Valley Medical Center, Seattle WA
   tier: HIGH
-  channel: https://www.youtube.com/channel/UCt81dX_POSILzje8ICIRGHQ
+  channel: https://www.youtube.com/channel/UCt81dX_POSILzje8ICIRGHQ/videos
   conflict: Advises Korean skincare brands entering the US market on clinical communication (consulting relationship, disclosed on her site); reviewed content was cross-brand and unsponsored. Scan each video at ingest.
   product_recs: ok
   last_pulled: '2026-09-17'
@@ -500,7 +500,7 @@
   creator_slug: abigail-waldman
   credential: Abigail H. Waldman, MD, FAAD; Associate Professor of Dermatology at Harvard Medical School; Director of the Mohs and Dermatologic Surgery Center at Brigham and Women's Hospital / Dana-Farber Brigham Cancer Center
   tier: HIGH
-  channel: https://www.youtube.com/channel/UCNI5Bp59r_SFle-ObBG3H4Q
+  channel: https://www.youtube.com/channel/UCNI5Bp59r_SFle-ObBG3H4Q/videos
   conflict: Some videos carry disclosed brand sponsorships (e.g. La Roche-Posay Effaclar BPO); no own product line or heavy affiliate storefront. Scan each video at ingest.
   product_recs: ok
   last_pulled: '2026-09-29'
@@ -508,7 +508,7 @@
   creator_slug: tanya-kormeili-md
   credential: Board-certified dermatologist (American Board of Dermatology), FAAD, Clinical Professor of Dermatology at UCLA David Geffen School of Medicine; MD UCLA, residency UC Irvine
   tier: HIGH
-  channel: https://www.youtube.com/channel/UCRK0TPthymHl44WeA0nZ6Mw
+  channel: https://www.youtube.com/channel/UCRK0TPthymHl44WeA0nZ6Mw/videos
   conflict: Runs an own-brand practice storefront (Derm Rejuvenation Institute, Shopify); treat specific product picks as commercially incentivized.
   product_recs: restricted
   last_pulled: '2026-09-25'
@@ -516,7 +516,7 @@
   creator_slug: dr-aanchal-md
   credential: Dr. Aanchal Panth, MD Dermatology, Venereology and Leprosy (AIIMS New Delhi), MBBS (Manipal); consultant dermatologist, Surat, India; IADVL member
   tier: HIGH
-  channel: https://www.youtube.com/channel/UCMTl80jTQwGkO335HoVf0ig
+  channel: https://www.youtube.com/channel/UCMTl80jTQwGkO335HoVf0ig/videos
   conflict: Maintains a Nykaa curated affiliate storefront; treat specific product picks as commercially incentivized (educational/mechanism content is fine).
   product_recs: restricted
   last_pulled: '2026-09-13'
@@ -524,6 +524,6 @@
   creator_slug: neal-schultz
   credential: Dermatologist, host of DermTV.com
   tier: HIGH
-  channel: https://www.youtube.com/channel/UCWl7rIYGLnCwVpuO1DmrEUQ
+  channel: https://www.youtube.com/channel/UCWl7rIYGLnCwVpuO1DmrEUQ/videos
   conflict: Own-brand skincare line BeautyRx by Dr. Schultz (beautyrx.com); treat product picks as commercially incentivized. Channel largely inactive since ~2014, useful mainly for evergreen back-catalog (backfill).
   product_recs: restricted
