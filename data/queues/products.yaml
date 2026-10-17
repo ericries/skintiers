@@ -2895,7 +2895,7 @@
 - name: NuFACE or comparable FDA-cleared home microcurrent/RF device
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: home-use-skincare-devices-by-evidence
   source: 'A concrete product anchor for the Level B radiofrequency rung of home-use-skincare-devices-by-evidence.
     IDENTITY NOT YET RESOLVED: do not draft from this name. Resolve a real cleared
@@ -2978,3 +2978,17 @@
     so it is the one FOREO device whose public file may actually describe predicate
     and testing. Start there, and resolve which retail product each K-number corresponds
     to before writing.'
+- name: FDA-cleared home RADIOFREQUENCY device (identity unresolved)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: nuface-trinity-microcurrent-device
+  source: RE-QUEUED CORRECTLY. My earlier entry said 'microcurrent/RF' and was filled
+    by NuFACE, which is microcurrent. Checking PMID 42545315 showed the word microcurrent
+    appears ZERO times in it, so NuFACE does NOT fill the radiofrequency rung and
+    that rung on home-use-skincare-devices-by-evidence is STILL EMPTY. Radiofrequency
+    is graded Level B for facial rejuvenation alongside LED and is named in the review's
+    conclusion among the modalities with the most favourable efficacy-safety balance,
+    so it is the highest-value unfilled rung. Resolve a real cleared device from the
+    openFDA device/510k API (free, primary) BEFORE drafting; do not assume a brand
+    name. Reject outright if no 510(k) matches.

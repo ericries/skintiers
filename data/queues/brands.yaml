@@ -353,3 +353,16 @@
     Summaries, so for most FOREO devices the public FDA record contains the indication
     and nothing about predicate, wavelength or testing. Live storefront at foreo.com
     answers a plain curl; cache before quoting.'
+- name: NuFACE (Carol Cole Company)
+  type: brand
+  priority: 5
+  status: pending
+  discovered_from: nuface-trinity-microcurrent-device
+  source: 'Applicant of record on at least 7 FDA 510(k) clearances per openFDA (K072260,
+    K133823, K161654, K171588, K181008, K201680, K201906), covering NuFACE, NuFACE
+    Mini, Trinity, Trinity ELE Plus and the NuBODY body device. The site now has a
+    NuFACE product page with no brand page behind it. The one structural fact worth
+    carrying in the lean card: EVERY one of those clearances publishes a 510(k) Summary
+    rather than a Statement, which is the opposite of FOREO and means the testing
+    basis is actually readable. Live storefront at mynuface.com answers a plain curl;
+    cache before quoting.'

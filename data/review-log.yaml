@@ -7833,6 +7833,33 @@ noble-formula-2-pyrithione-zinc-bar-soap:
     clean.'
   score: 8
   verdict: publish
+nuface-trinity-microcurrent-device:
+  last_reviewed: '2026-10-17'
+  note: 'Sources: K181008 clearance package (a real 510(k) SUMMARY, so the testing is readable), openFDA
+    queried by device name and applicant, the brand''s own TRINITY+ page CACHED before quoting, and PMID
+    42545315 cited only for WHICH MODALITIES IT COVERS. 36 quotes; 3 flags are verbatim from LED clearances
+    and this tick''s openFDA output, verified earlier, just not in the 3-file corpus. Lint, verify, style,
+    wikilinks clean. ZERO Apify spend; the free path found the real product URL again. THE QUEUE ENTRY
+    WAS MY OWN AND IT WAS WRONG, which the page corrects. I queued this as a product anchor for the Level
+    B RADIOFREQUENCY rung and wrote ''microcurrent/RF'' as though they were one category. They are not.
+    NuFACE is microcurrent, and checking the GRADE review found the word microcurrent appears ZERO times
+    in it: the review names seven modalities (fractional nonablative lasers, LED, radiofrequency, microneedling,
+    IPL, heat-based, light-heat energy) and microcurrent is not one. So this device does NOT fill the
+    RF rung, has no rung at all, and that is the page''s headline finding. The RF rung is still empty
+    and has been re-queued accurately. SHARPEST CONSUMER FINDING: the cleared indication is ''intended
+    for facial and neck stimulation and is indicated for over-the-counter cosmetic use''. Stimulation,
+    cosmetic use. NOT lifting, toning, or treating wrinkles or laxity. That is materially narrower than
+    the LED devices here, which are cleared for ''the treatment of wrinkles'' or ''mild to moderate inflammatory
+    acne'', and the page draws that comparison explicitly because it is the clearest way to show what
+    a clearance does and does not buy. GRADE HONESTY: effect minimal with evidence anecdotal, and BOTH
+    the frontmatter note and the rubric row say in terms that this is ABSENCE of graded evidence rather
+    than a measured small effect. CREDIT WHERE DUE: every Carol Cole clearance returned by openFDA carries
+    a Summary, the opposite of FOREO''s 8-of-10 Statements, and the page says so. It is precisely because
+    they publish that this page can report the testing was headed NON-CLINICAL. Successor hedged rather
+    than assumed: documented device is the 2018 Trinity, what is sold is TRINITY+ at a verified $395.00,
+    and K201906 (Trinity ELE Plus) may or may not be that SKU; the page says it does not assume so.'
+  score: 9
+  verdict: publish
 nukaly-2026-oral-topical-peptides-skin-aging-meta-analysis:
   last_reviewed: '2026-08-19'
   note: 'Study cron: compact structured meta-analysis page. Every quote + stat verified VERBATIM against

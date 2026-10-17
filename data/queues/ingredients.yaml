@@ -2128,3 +2128,17 @@
     dispensed as a cream, and the site has no page distinguishing it from cosmetic
     actives. DailyMed for the label and marketing category; note any boxed warning
     and the local skin-reaction profile, which is the practical difference from 5-FU.'
+- name: Microcurrent (facial electrical stimulation)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: nuface-trinity-microcurrent-device
+  source: 'A whole home-device modality the site now profiles a product for but has
+    no topic page on, and which the GRADE review behind the device ladder does NOT
+    cover (the word microcurrent appears zero times in PMID 42545315). That gap is
+    itself the page: a popular category sitting outside the best available evidence
+    synthesis. Search PubMed for microcurrent / electrical muscle stimulation trials
+    in facial skin specifically, and treat the ABSENCE in the GRADE review as a finding
+    to report rather than a gap to paper over. The cleared indication language is
+    already transcribed on nuface-trinity-microcurrent-device: stimulation for cosmetic
+    use, not treatment.'
