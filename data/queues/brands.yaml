@@ -340,3 +340,16 @@
     page in Polish, so establish the brand''s current status from the FDA registration
     records and any live retail listing before writing, and do not assume the brand
     is still trading.'
+- name: FOREO
+  type: brand
+  priority: 5
+  status: pending
+  discovered_from: foreo-espada-blue-light-pen
+  source: 'Applicant of record on 10 FDA 510(k) clearances per openFDA (ESPADA K162450,
+    BEAR K200803, BEAR 2 Body K232242, PEACH 2 K231977, Luna 4 plus K241102, and five
+    FAQ LED devices K222012/K240378/K240616/K242747/K253683). The site now has a FOREO
+    product page with no brand page behind it. The lean card should carry the one
+    structural fact a shopper needs: 8 of those 10 are 510(k) STATEMENTS rather than
+    Summaries, so for most FOREO devices the public FDA record contains the indication
+    and nothing about predicate, wavelength or testing. Live storefront at foreo.com
+    answers a plain curl; cache before quoting.'

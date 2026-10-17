@@ -2884,7 +2884,7 @@
 - name: FOREO ESPADA Acne-Clearing Blue Light Pen
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: revive-light-therapy-wrinkle-and-acne-led-device
   source: 'FDA 510(k) K162450, applicant Foreo, Inc., decision date 2016-11-30, via
     the openFDA device/510k API (device_name light AND acne). A blue-light-only home
@@ -2964,3 +2964,17 @@
     data at any generation, which completes the finding on revive-light-therapy-essentials.
     Pull both PDFs from accessdata.fda.gov pdf18/ (free, primary). Note it is a CLEANSING
     device, so its indication may differ from the acne/wrinkle ones.'
+- name: FOREO FAQ LED face mask
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: foreo-espada-blue-light-pen
+  source: 'FOREO''s LED MASK line, covering FIVE separate clearances in the openFDA
+    applicant query run for the ESPADA page: K222012 (FAQ 101), K240378 (FAQ 201,
+    FAQ 202), K240616 (FAQ 102), K242747 (FAQ 302), K253683 (FAQ LED Panel, Dual LED
+    Panel). Directly relevant to home-led-light-therapy because a full-face LED mask
+    is the form factor readers actually picture. IMPORTANT before drafting: K242747
+    is one of only TWO FOREO clearances filed as a SUMMARY rather than a Statement,
+    so it is the one FOREO device whose public file may actually describe predicate
+    and testing. Start there, and resolve which retail product each K-number corresponds
+    to before writing.'

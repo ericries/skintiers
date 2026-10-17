@@ -4372,6 +4372,36 @@ folliculitis:
     pipeline); assurance opus.'
   score: 9
   verdict: publish
+foreo-espada-blue-light-pen:
+  last_reviewed: '2026-10-17'
+  note: 'Sources: K162450 clearance package from accessdata, openFDA device/510k (record plus an applicant-wide
+    query), and FOREO''s own ESPADA collection page, CACHED before quoting. 25 quotes, 0 real mismatches
+    (the single flag is my own scare-quoted phrase). Lint, verify, style, wikilinks clean. ZERO Apify
+    spend: foreo.com answered a plain curl once I stopped guessing URLs and read the real paths off the
+    homepage, which is exactly the free-path-first behaviour the gate is meant to produce. THE DISTINCTIVE
+    FINDING IS DISCLOSURE, not efficacy. This clearance is a 510(k) STATEMENT rather than a Summary (openFDA
+    statement_or_summary field, confirmed by the downloaded package containing only the letter and the
+    Indications for Use form). Under the Statement route the submitter certifies it will supply safety
+    and effectiveness information on request instead of publishing it, so the public file names NO predicate,
+    NO wavelength and NO testing. That makes this the least informative public record of the three home
+    LED devices now on the site, and the page says so by direct comparison: reVive publishes software
+    validation, reVive Essentials publishes nonclinical, this publishes nothing. NOT A ONE-OFF: an applicant-wide
+    openFDA query returned 10 FOREO clearances of which 8 are Statements, so minimal disclosure is house
+    practice. Recorded as a database fact, not as an accusation. BRAND CLAIM HANDLED CAREFULLY. FOREO
+    describes ESPADA 2 as ''an FDA-cleared medical device clinically proven to treat and heal acne-prone
+    skin''. The page separates the two claims: clearance is substantial equivalence, and ''clinically
+    proven'' is a trial-evidence claim that this clearance cannot evidence because the Statement route
+    publishes no testing. It explicitly allows that the company may hold such studies, and says only that
+    the public record does not show them. PRODUCT-VERSUS-CLEARANCE MISMATCH stated with the right hedge:
+    the cleared device is the 2016 ESPADA pen, what is sold is ESPADA 2 at a verified $169.00 (schema.org
+    markup on the cached brand page), and no clearance naming ESPADA 2 was returned. The page notes that
+    a modification need not require a new submission, so this is NOT presented as an irregularity, and
+    notes that openFDA search is by indexed field so a differently-spelled applicant could be missed.
+    BALANCE: 415nm is in the Level B blue range, credited as a point in its favour, with the wavelength
+    attributed to the brand because the FDA file contains none. image_unresolvable set since a current
+    photo would depict ESPADA 2 rather than the cleared device.'
+  score: 9
+  verdict: publish
 fowler-2013-brimonidine-gel-phase-3-rosacea-erythema-rct:
   last_reviewed: '2026-08-08'
   note: 'Opus re-fetched PubMed abstract PMID 23839181: all three quoted phrases (efficacy 12-hours/days
