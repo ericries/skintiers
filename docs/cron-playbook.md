@@ -82,8 +82,11 @@ SOURCE CACHING: for every source you CITE whose domain is NOT a durable primary 
 "verify manually", i.e. sklib classify_domain=='unknown'), pipe the fetched text (or the Apify markdown) to
 `python scripts/source_cache.py put <url>` right after fetching it, so it can be verified later even if the
 live site blocks a re-fetch. A load-bearing verbatim quote from such a source REQUIRES a cache entry.
-The critic MUST verify cited non-primary sources against the local cache first
-(`python scripts/source_cache.py get <url>`), live-fetching only on a cache miss. Keep status:draft during
+The critic MUST verify cited non-primary sources against the local cache first,
+using `python scripts/source_cache.py get <url> --text` for QUOTES (it strips markup, so a
+quote that spans an HTML tag still matches; without --text a correct quote reads as a
+mismatch) and plain `get <url>` when checking a figure that lives inside a script block,
+such as a schema.org price. Live-fetch only on a cache miss. Keep status:draft during
 work; publish only once sk lint+verify+style are clean.
 
 ---

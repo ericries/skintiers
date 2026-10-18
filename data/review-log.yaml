@@ -12859,4 +12859,30 @@ revive-light-therapy-lux-spot:
     loop, assurance sonnet, force-published. Also corrected data/brands/revive-light-therapy.md, which
     said the live storefront was ledtechnologies.com alone; revive-light-therapy.com is a second live
     domain serving the product photography, and the brand page now records the retail-name drift too.'
+revive-light-therapy-lux-glo:
+  last_reviewed: '2026-10-18'
+  note: 'The queue note asked for the wavelengths first, because the home-device ladder turns on blue-red
+    (Level B) vs red-only (Level C). Answered: the brand states "Red, infrared, amber, and blue light" with
+    a "Primary wavelength range" of 415 to 880 nm, so blue plus red is present and the Level B pairing
+    applies. No per-color peak is published, which the page says plainly rather than inferring one.
+    Clearance: as the queue note predicted, none of the 15 LED Technologies 510(k) records is named Lux.
+    THE REAL FINDING is the two percentages on the page. 97.4% and 100% both resolve to one asterisk whose
+    entire disclosure is "Consumer study of participants ages" 39 to 66 plus "Individual results may vary."
+    No n, no control, no measure beyond self-report. Worse, the 100% figure sits under an anti-acne label
+    while the participants were 39 to 66, an age band in which inflammatory acne is uncommon. Also noted
+    the wording escalation within one page: the product text says "clinically tested" (modality-scoped and
+    defensible, same as Lux Spot) while the line-level copy says "clinically proven LED wavelengths with
+    higher optical output energy", with no output figure anywhere. Price $79.00 verified from the displayed
+    string AND the page structured data (7900 cents, USD); sibling prices from the brand own comparison
+    table. 32 quoted strings verified verbatim against the local cache; 3 reported misses were the known
+    adjacent-quote artifact plus the Cloudflare title observed directly. ZERO Apify spend. ledtechnologies.com
+    Cloudflare-challenged this product URL, so everything was read from revive-light-therapy.com, the second
+    live domain discovered on the Lux Spot page; the page discloses that. Self-verified in the main loop,
+    assurance sonnet, force-published.
+    TOOLING FIX this tick: source_cache.py stored raw HTML while its own docstring promised TEXT, so a quote
+    spanning a tag ("97.4%</p><p>saw visible improvement") failed verification against the cache. That is a
+    false-negative generator pointed straight at the critics step, and it would make a correct quote look
+    wrong. Added `get <url> --text`, which strips markup and collapses whitespace while preserving any
+    ld+json block, and pointed the playbook at it. Verified: all four spot-checked quotes now match with a
+    plain grep where they previously returned zero.'
 

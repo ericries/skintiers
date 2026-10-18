@@ -19,11 +19,14 @@ you merely browse. Lives in gitignored research-cache/web/. Text only (no assets
 
 CLI:
     <fetched text on stdin> | python scripts/source_cache.py put <url>
-    python scripts/source_cache.py get <url>     # prints cached text, exit 1 on miss
+    python scripts/source_cache.py get <url>            # exact cached bytes
+    python scripts/source_cache.py get <url> --text     # VERIFY QUOTES WITH THIS:
+        # strips markup so a quote that spans tags still matches; keeps ld+json
     python scripts/source_cache.py gc            # prune cache files no page cites
 """
 import glob
 import hashlib
+import html as _html
 import pathlib
 import re
 import sys
@@ -64,9 +67,42 @@ def put(url, content, cache_dir=None):
     return f
 
 
-def get(url, cache_dir=None):
+def as_text(content):
+    """Render a cached HTML page down to the visible text a quote was read from.
+
+    A cache entry is often raw HTML, and markup interleaves the prose: the phrase
+    "97.4% saw visible improvement" is stored as "97.4%</p><p>saw visible...".
+    A critic checking a verbatim quote against the raw bytes therefore gets a FALSE
+    NEGATIVE and may "correct" an accurate quote. Script and style bodies go, but
+    any application/ld+json block is KEPT, because structured product data (price,
+    currency, variant name) is cited from it and lives nowhere else on the page."""
+    if not content:
+        return ""
+    if not re.search(r"<\s*(html|!doctype html|div|p|body)\b", content, re.I):
+        return content  # already plain text; leave it exactly as cached
+    keep = re.findall(
+        r"<script[^>]*type=[\"']application/ld\+json[\"'][^>]*>(.*?)</script>",
+        content, flags=re.S | re.I)
+    body = re.sub(r"<script.*?</script>|<style.*?</style>", " ", content,
+                  flags=re.S | re.I)
+    body = _html.unescape(re.sub(r"<[^>]+>", " ", body))
+    # Collapse ALL whitespace runs, not just spaces. A removed tag often sat on its
+    # own line, so "97.4%</p>\n<p>saw" becomes "97.4% \n saw" and a grep for the
+    # real sentence still misses. Readability is not the job here; matching is.
+    body = re.sub(r"\s+", " ", body)
+    out = body.strip()
+    if keep:
+        out += "\n\n<!-- preserved application/ld+json blocks -->\n" + "\n".join(
+            k.strip() for k in keep)
+    return out
+
+
+def get(url, cache_dir=None, text=False):
     f = path_for(url, cache_dir)
-    return f.read_text() if f.exists() else None
+    if not f.exists():
+        return None
+    c = f.read_text()
+    return as_text(c) if text else c
 
 
 def cited_urls(data_dir=None):
@@ -99,7 +135,7 @@ if __name__ == "__main__":
         print(f"cached -> {f.relative_to(sklib.ROOT)}" if f
               else f"skip (re-fetchable or non-citable domain, not cached): {sys.argv[2]}")
     elif cmd == "get" and len(sys.argv) > 2:
-        c = get(sys.argv[2])
+        c = get(sys.argv[2], text="--text" in sys.argv[3:])
         if c is None:
             print("MISS (no cache for this url)", file=sys.stderr)
             sys.exit(1)
@@ -109,6 +145,7 @@ if __name__ == "__main__":
         print(f"pruned {len(removed)} orphan cache file(s)"
               + (": " + ", ".join(removed) if removed else ""))
     else:
-        print("usage: source_cache.py put <url> (text on stdin) | get <url> | gc",
+        print("usage: source_cache.py put <url> (text on stdin) | "
+              "get <url> [--text] | gc",
               file=sys.stderr)
         sys.exit(2)

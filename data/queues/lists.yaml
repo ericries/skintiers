@@ -396,3 +396,15 @@
     and each is graded against the SAME 2026 GRADE review finding, which separates
     blue-only from blue-plus-red. Curatorial only, over pages that already exist;
     the wavelength split is the organizing axis, not a new evidence claim.
+- name: Home LED devices by what the brand actually proves, not what it claims
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: revive-light-therapy-lux-glo
+  source: 'Five home-LED product pages now exist (revive-light-therapy-lux-glo, revive-light-therapy-lux-spot,
+    revive-light-therapy-essentials, neutrogena-light-therapy-acne-mask-plus, pulsaderm-acne-mask-28,
+    foreo-espada-blue-light-pen) and each one was graded against the SAME modality
+    evidence while differing sharply in DISCLOSURE: 510(k) Summary vs Statement, nonclinical-only
+    test files, and consumer-perception percentages with no n. Curatorial only, over
+    pages that already exist; the axis is what each firm published, which no current
+    list captures.'
