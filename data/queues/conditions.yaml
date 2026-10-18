@@ -450,3 +450,14 @@
     thing on the lip-care page and currently only gets a paragraph there. The review
     also notes ''Optimal treatment has not been established yet'', so the page must
     NOT imply a settled treatment hierarchy.'
+- name: Rolling acne scars (tethered scars treated by subcision)
+  type: condition
+  priority: 5
+  status: pending
+  discovered_from: acne-scar-procedures-by-evidence
+  source: The new list had to note that the ECCA and Goodman and Baron severity scales
+    do not isolate tethered rolling scars, which is exactly why subcision's rank cannot
+    be read off a severity ranking. acne-scars covers all three post-acne categories
+    at once; the rolling subtype is the one with a specific mechanism (fibrous tethers)
+    and a specific procedure. Only build it if the subtype genuinely has its own evidence;
+    otherwise strengthen the section on acne-scars instead.

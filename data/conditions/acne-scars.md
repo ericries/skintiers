@@ -108,6 +108,7 @@ The evidence splits by scar type and mostly lives on other pages. For atrophic s
 - [[microneedling]]: the needling procedure for atrophic scars, with its home-device evidence graded separately
 - [[subcision]]: for tethered rolling scars specifically, where the stand-alone evidence is thinner than its popularity
 - [[platelet-rich-plasma-acne-scars]]: the add-on that ranks best alongside laser on one scar scale, and not on the others
+- [[acne-scar-procedures-by-evidence]]: the procedures ranked side by side, where every top-ranked option turns out to be a laser combination
 
 ## Sources
 

@@ -293,7 +293,7 @@
 - name: Acne scar procedures ranked by evidence
   type: list
   priority: 5
-  status: pending
+  status: done
   discovered_from: platelet-rich-plasma-acne-scars
   source: 'Now buildable: three procedure pages exist (microneedling, subcision, platelet-rich-plasma-acne-scars)
     and Fractional CO2 laser resurfacing is already pending in the goal queue. FOUR

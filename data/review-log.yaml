@@ -12906,4 +12906,31 @@ heydari-2025-oral-vs-topical-tranexamic-acid-melasma:
     table and no thromboembolic screening, which is the safety question that matters for a systemic
     antifibrinolytic. ZERO Apify spend; PubMed and PMC only, both durable primaries, so no source caching
     was required. Self-verified in the main loop, assurance sonnet, force-published.'
+acne-scar-procedures-by-evidence:
+  last_reviewed: '2026-10-18'
+  note: 'Built the ranking four separate pages had each declined to host. Spine is PMID 41081097 (Wu 2025,
+    PeerJ, Bayesian NMA, 68 RCTs, 4,480 patients, PROSPERO CRD42024598780); all five figures in the queue
+    note verified verbatim against the PubMed abstract via efetch, 0 mismatches.
+    THE FINDING that organises the list: every top-ranked option is a COMBINATION built on laser, and no
+    monotherapy ranked best on any severity scale. So a reader looking for the single best procedure does
+    not get one from this evidence, and the list says so rather than promoting the strongest-sounding
+    component. Second finding: the ranks differ sharply in certainty. Laser plus PRP led ECCA at SUCRA
+    98.4%, but laser plus filler led the Goodman and Baron Scale at only 72.1%, which is weak separation
+    from the field; calling both best would flatten a real difference, so the notes state each SUCRA.
+    Third: nothing reduced erythema or post-inflammatory hyperpigmentation risk, which matters most in
+    deeper skin tones and is therefore NOT a basis for choosing between procedures.
+    RESTRAINT EXERCISED, deliberately. (a) The abstract names only the WINNER per outcome, so subcision
+    cannot be ranked from it either way; the page says that instead of inferring a low rank from silence.
+    (b) The abstract says laser without naming the modality, so the fractional-CO2 note explicitly declines
+    to claim that fractional CO2 is the laser that won. (c) The two combination winners involving chemical
+    peels and fillers could not be listed at all, because no such pages exist; both are now queued and the
+    gap is named in the review rather than hidden. Added one inbound link from the acne-scars hub.
+    ZERO Apify spend; PubMed only, a durable primary, so no source caching was required.
+    TOOLING FIX: the recurring YAML-colon bug hit a THIRD file today (a tier_list note containing
+    "COMBINATION: PRP"), and sk lint/style/verify responded with a ~60-frame PyYAML traceback whose only
+    useful line was the last one. Added _load_post(), which catches YAMLError and prints the problem, a
+    three-line window around the mark, and the fix. Proved it by reintroducing the real bug: four readable
+    lines, offending line first. Earlier today the same class broke data/queues/products.yaml (fixed with
+    sk queue-note) and would have broken the roster (fixed with JSON scalars in sk roster-set).
+    Self-verified in the main loop, assurance sonnet, force-published.'
 

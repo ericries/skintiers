@@ -4,6 +4,7 @@ import argparse
 import collections
 import os
 import json
+import pathlib
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -20,13 +21,50 @@ def cmd_status(args):
     return 0
 
 
+def _load_post(path, slug):
+    """frontmatter.load with a READABLE failure.
+
+    An unquoted plain scalar containing ": " turns a value into a nested mapping
+    and PyYAML raises "mapping values are not allowed here". Raw, that surfaces as
+    a ~60-frame traceback whose only useful line is buried at the bottom; it broke
+    three separate files in one day before the cause was obvious. Return the line,
+    the column, the offending text and the fix instead.
+    """
+    import frontmatter
+    import yaml as _y
+    try:
+        return frontmatter.load(path)
+    except _y.YAMLError as exc:
+        print(f"ERROR: {slug}: frontmatter YAML is invalid, so nothing was checked.",
+              file=sys.stderr)
+        mark = getattr(exc, "problem_mark", None)
+        problem = getattr(exc, "problem", str(exc))
+        print(f"  {problem}", file=sys.stderr)
+        if mark is not None:
+            # PyYAML's mark is relative to the frontmatter block and can land on the
+            # continuation line rather than the colon itself, so show a small window
+            # instead of claiming one exact line.
+            lines = pathlib.Path(path).read_text().split("\n")
+            lo = max(0, mark.line)          # file index of (frontmatter line - 1)
+            hi = min(len(lines), mark.line + 3)
+            print("  near:", file=sys.stderr)
+            for i in range(lo, hi):
+                print(f"    {i + 1}: {lines[i].strip()[:110]}", file=sys.stderr)
+        print("  Most often a value contains a colon followed by a space. Wrap that "
+              "value in single quotes (doubling any internal ones) or reword it.",
+              file=sys.stderr)
+        return None
+
+
 def cmd_lint(args):
     import frontmatter
     path = sklib.find_profile(sklib.DATA_DIR, args.slug)
     if path is None:
         print(f"not found: {args.slug}", file=sys.stderr)
         return 1
-    post = frontmatter.load(path)
+    post = _load_post(path, args.slug)
+    if post is None:
+        return 1
     errors, warnings = sklib.check_profile(post.metadata, post.content)
     warnings = warnings + sklib.check_required_sections(post.metadata, post.content)
     warnings = warnings + sklib.check_xrefs(post.content, sklib.known_slugs())
@@ -63,7 +101,9 @@ def cmd_verify(args):
     if path is None:
         print(f"not found: {args.slug}", file=sys.stderr)
         return 1
-    post = frontmatter.load(path)
+    post = _load_post(path, args.slug)
+    if post is None:
+        return 1
     errors, warnings = sklib.verify_profile(post.metadata, post.content)
     for e in errors:
         print(f"ERROR: {e}")
@@ -83,7 +123,9 @@ def cmd_style(args):
     if path is None:
         print(f"not found: {args.slug}", file=sys.stderr)
         return 1
-    post = frontmatter.load(path)
+    post = _load_post(path, args.slug)
+    if post is None:
+        return 1
     warnings = sklib.check_style(post.content)
     for w in warnings:
         print(f"WARN: {w}")

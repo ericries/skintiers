@@ -1190,3 +1190,15 @@
     topical TXA melasma RCT (terms: tranexamic acid melasma randomized vehicle-controlled)
     and prefer one reporting a between-group difference with a confidence interval.
     That is the study the tranexamic-acid page needs to justify its grade.'
+- name: Wu 2025 network meta-analysis of acne scar treatments (PMID 41081097)
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: acne-scar-procedures-by-evidence
+  source: https://pubmed.ncbi.nlm.nih.gov/41081097/ - the evidence spine for acne-scar-procedures-by-evidence
+    and now cited by it, but with no study page of its own. 68 RCTs, 4,480 patients,
+    Bayesian NMA, PROSPERO CRD42024598780, PeerJ 2025;13:e19938. The abstract names
+    only the top-ranked option per outcome, so a study page should read the PMC full
+    text (PMC12515001) to recover the FULL ranking table, the credible intervals,
+    and the risk-of-bias results. That is what would let the list state a rank for
+    subcision instead of declining to.

@@ -274,3 +274,23 @@
     and blue-red LED acne trials underpinning the Level B grade, and state plainly
     if those doses are not recoverable from the available abstracts rather than implying
     a comparison that cannot be made.'
+- name: Chemical peels for acne scars (the combination that won patient satisfaction)
+  type: goal
+  priority: 5
+  status: pending
+  discovered_from: acne-scar-procedures-by-evidence
+  source: PMID 41081097 ranks laser plus chemical peels BEST for patient satisfaction
+    at SUCRA 89.6%, and the site has no chemical-peel page at all, so the new acne-scar-procedures-by-evidence
+    list cannot include the satisfaction winner. That is the biggest hole in the list.
+    Grade the peel itself and the laser-plus-peel combination separately, and do not
+    let a satisfaction rank stand in for a severity rank.
+- name: Dermal filler injection for atrophic acne scars
+  type: goal
+  priority: 5
+  status: pending
+  discovered_from: acne-scar-procedures-by-evidence
+  source: 'PMID 41081097 ranks laser plus filler injection BEST on the Goodman and
+    Baron Scale, though at a weakly separated SUCRA of 72.1%. No filler page exists,
+    so the list is missing one of its two severity winners. Note the SUCRA caveat
+    when grading: 72.1% is compatible with several options being nearly as good, unlike
+    the 98.4% for laser plus PRP.'
