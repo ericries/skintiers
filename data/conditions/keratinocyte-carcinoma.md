@@ -16,6 +16,18 @@ slug: keratinocyte-carcinoma
 status: published
 type: condition
 updated: '2026-10-16'
+videos:
+- title: How UV Causes Cancer
+  creator: Dr. Angelo Landriscina (DermAngelo)
+  creator_slug: angelo-landriscina
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=srjyjMHp7HM
+  posted: '2025-05-13'
+  related: [squamous-cell-carcinoma, basal-cell-carcinoma, actinic-keratosis, melanoma, sun-damage-photoaging, sunscreen-uv-filters]
+  thesis: Board-certified dermatologist Dr. Angelo Landriscina explains how ultraviolet exposure causes skin cancer at the level of DNA. UV energy fuses two adjacent pyrimidine bases into a dimer, and when the enzymes that copy DNA reach that spot during cell division they can misread it, producing a silent, missense or nonsense mutation. He notes that most of this damage is repaired by excision repair, which is why routine sun exposure does not mutate everyone, and points to the inherited repair defect xeroderma pigmentosum as what happens when that system fails, describing children with the condition as having sun damage across the face and developing many skin cancers very young. The mutations that matter most, he says, are activating ones in proto-oncogenes, which drive cell division, and deactivating ones in the tumor suppressor genes that normally restrain it.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Keratinocyte carcinoma is the umbrella term for the two commonest skin cancers, basal cell carcinoma and squamous cell carcinoma. The National Cancer Institute's treatment summary states that "There are three main types of skin cancer: Basal cell carcinoma (BCC). Squamous cell carcinoma (SCC). Melanoma", and that "BCC and SCC are the most common forms of skin cancer and together are referred to as nonmelanoma skin cancers".[^pdq] The third type is on [[melanoma]], and whether to be screened at all is on [[skin-cancer-screening]].
