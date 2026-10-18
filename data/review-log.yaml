@@ -12933,4 +12933,36 @@ acne-scar-procedures-by-evidence:
     lines, offending line first. Earlier today the same class broke data/queues/products.yaml (fixed with
     sk queue-note) and would have broken the roster (fixed with JSON scalars in sk roster-set).
     Self-verified in the main loop, assurance sonnet, force-published.'
+azathioprine:
+  last_reviewed: '2026-10-18'
+  note: 'Full ingredient page for an ORAL systemic immunosuppressant, framed up front as not a skincare
+    ingredient. tier: mid, argued explicitly rather than asserted. Not weak, because one double-blind
+    placebo-controlled crossover trial (Berth-Jones 2002, PMID 12174106) found SASSAD down 26% vs 3% on
+    placebo; not good or best, because the effect is modest, 16 of 37 patients withdrew, and a 2026
+    head-to-head (PMID 41239194) had it reach EASI 75 in 15% against 65% for baricitinib.
+    THE REGULATORY FACT the page leads on: atopic dermatitis appears NOWHERE in the Imuran label
+    Indications section, which lists only renal transplant rejection and active rheumatoid arthritis, so
+    all dermatologic use is off-label. Boxed MALIGNANCY warning quoted verbatim, plus the TPMT/NUDT15
+    myelosuppression risk. All from DailyMed SPL, a durable primary.
+    I CAUGHT A FABRICATION IN MY OWN DRAFT. An earlier extraction truncated mid-sentence at "require
+    alte" and I completed it as "require alternate dosing". The label actually says "require alternative
+    therapy or dose modification". I had invented a plausible ending to a truncated quote, which is the
+    exact failure the three rules forbid, and only the verbatim check caught it. Corrected in BOTH the body
+    and the footnote, per the earlier lesson that fixing a body quote while leaving its footnote copy is a
+    silent inaccuracy. Final check: 31 quotes, 0 misses.
+    A SECOND BUG, in my verification, nearly buried the first. My ad-hoc checker ran an HTML tag-stripper
+    over PubMed PLAIN TEXT, where "P < 0.01" opens a bogus tag match that swallows everything to the next
+    ">". It reported 20 false mismatches, among which the one REAL error was hiding. A checker that cries
+    wolf is worse than none, because the instinct is then to trust the draft. Fixed the method and hardened
+    source_cache.as_text() with the same lesson: its tag regex now requires a tag to start with a letter,
+    slash, bang or question mark, so scientific prose survives. Added a regression test proving the
+    sentence survives and script bodies still go.
+    RESTRAINT: the 2024 living NMA (PMID 39018058, 97 trials, 24,679 patients) does not report
+    azathioprine''s rank in its abstract, so the page states no rank for it and says why. Its erratum was
+    not read, which the footnote discloses. The editorial on the 2026 trial (PMID 41467349) has no
+    abstract, so its content is not characterized. The azathioprine dose range in the 2026 abstract is
+    corrupted by the plain-text dash rendering, so no dose is quoted from that trial.
+    ZERO Apify spend; DailyMed and PubMed only. Self-verified in the main loop, assurance sonnet,
+    force-published. The no-marketing-claims-section WARN matches the existing convention on sibling Rx
+    ingredient pages such as upadacitinib, so it was left as is.'
 

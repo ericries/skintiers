@@ -85,7 +85,11 @@ def as_text(content):
         content, flags=re.S | re.I)
     body = re.sub(r"<script.*?</script>|<style.*?</style>", " ", content,
                   flags=re.S | re.I)
-    body = _html.unescape(re.sub(r"<[^>]+>", " ", body))
+    # Require a tag to start with a letter, /, ! or ? so that prose like
+    # "P < 0.01" is not read as the opening of a tag. The naive r"<[^>]+>"
+    # swallowed everything from that "<" to the next ">", which silently ate
+    # whole sentences and made 20 correct quotes look like mismatches.
+    body = _html.unescape(re.sub(r"</?[a-zA-Z!?][^>]*>", " ", body))
     # Collapse ALL whitespace runs, not just spaces. A removed tag often sat on its
     # own line, so "97.4%</p>\n<p>saw" becomes "97.4% \n saw" and a grep for the
     # real sentence still misses. Readability is not the job here; matching is.

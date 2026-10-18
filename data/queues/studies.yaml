@@ -1202,3 +1202,26 @@
     text (PMC12515001) to recover the FULL ranking table, the credible intervals,
     and the risk-of-bias results. That is what would let the list state a rank for
     subcision instead of declining to.
+- name: Berth-Jones 2002 placebo-controlled azathioprine crossover trial in severe
+    AD (PMID 12174106)
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: azathioprine
+  source: https://pubmed.ncbi.nlm.nih.gov/12174106/ - the ONLY double-blind placebo-controlled
+    trial of azathioprine in atopic dermatitis, and the sole reason that page is graded
+    mid rather than weak. SASSAD fell 26% vs 3% on placebo (P less than 0.01), but
+    16 of 37 withdrew. A study page should read the full text for the crossover analysis
+    and the per-period withdrawal pattern, since 43% attrition in a crossover design
+    threatens the estimate.
+- name: Malekan 2026 baricitinib vs azathioprine head-to-head RCT (PMID 41239194)
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: azathioprine
+  source: https://pubmed.ncbi.nlm.nih.gov/41239194/ - NCT05969730, single-centre OPEN-LABEL,
+    40 adults, 12 weeks. Cited by the azathioprine page for the 65% vs 15% EASI 75
+    gap. A study page should weigh the open-label design, which inflates apparent
+    gaps favouring the novel drug, and recover the azathioprine dose range (the PubMed
+    plain-text render corrupts its dash, so it must come from the full text). An editorial
+    comment exists at PMID 41467349 with no abstract; read it for the critique.

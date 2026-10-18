@@ -1582,7 +1582,7 @@
     41239194; underperformed baricitinib)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41239194/
 - name: Licochalcone A (from licorice root), anti-inflammatory/antioxidant active
@@ -2204,3 +2204,14 @@
     is a systemic antifibrinolytic with a different risk profile and needs its own
     graded treatment, or an explicit section on that page. Source the contraindications
     from a drug label (DailyMed), not from cosmetic-dermatology trials.
+- name: Baricitinib (oral JAK1/2 inhibitor) for atopic dermatitis
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: azathioprine
+  source: The drug that beat azathioprine 65% vs 15% on EASI 75 in PMID 41239194,
+    and the only arm of that trial with no page here. The site already covers upadacitinib
+    and abrocitinib, so baricitinib is the gap in the oral JAK set. Check its US regulatory
+    status for ATOPIC DERMATITIS specifically before grading, since approval differs
+    by region and the azathioprine page had to call dermatologic use off-label on
+    label evidence.
