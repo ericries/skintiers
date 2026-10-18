@@ -445,6 +445,17 @@ videos:
     external ones such as weather and over-treatment.
   title: Damaged Skin Barrier? Here's How to Repair It Fast
   url: https://www.youtube.com/watch?v=mwMzmJiv-Fs
+- title: 'Day 5: what is a damaged barrier? Part 2'
+  creator: Jenn Lexi (@jennlexi_)
+  creator_slug: jennlexi
+  credential: Esthetician (self-identified); not a dermatologist or cosmetic chemist
+  platform: TikTok
+  url: https://www.tiktok.com/@jennlexi_/video/7697038962950540558
+  posted: '2026-10-16'
+  related: [sensitive-skin, skin-barrier-strengthening, niacinamide]
+  thesis: Licensed esthetician Jenn Lexi describes how she recognizes a damaged skin barrier and what she does first. Her signs are a moisturizer that suddenly stings when it never used to, skin that gets red and looks inflamed or puffy easily, a tight feeling that can coexist with oiliness, and flaking or dullness. Her first move is to cut back to a gentle cleanser, a simple moisturizer and sunscreen, all fragrance free, and to pause actives meant to change the skin, naming chemical exfoliants, vitamin C and niacinamide; that pause-everything advice is her own clinical practice rather than a trial result, and she does not claim those actives caused the damage.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 A disrupted skin barrier means the outer layer of skin, the stratum corneum, has stopped doing its job of holding water in and irritants out. That outer layer normally works like a brick wall: flattened skin cells are the bricks and a mix of fatty molecules is the mortar between them. Elias describes that lipid mortar as an "approximately 1:1:1 molar ratio of ceramides (Cer), cholesterol, and nonessential fatty acids," where "all three lipids are required to form the lamellar structures that regulate barrier function."[^elias] When over-exfoliation, retinoid or acid irritation, over-washing, harsh weather, or an eczema flare strips or damages that mortar, the wall leaks: water escapes faster and irritants get in more easily.

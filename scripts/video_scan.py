@@ -229,10 +229,13 @@ def refresh_from_roster(entry, by_slug):
         return out
     out = dict(entry)
     for f in _ROSTER_FIELDS:
-        if f in c:
-            key = "creator" if f == "creator" else f
-            val = c.get("name") if f == "creator" else c.get(f)
-            out[key] = val
+        # the roster calls the display name `name`; the queue calls it `creator`
+        src_key = "name" if f == "creator" else f
+        if src_key in c:
+            out[f] = c.get(src_key)
+    if not (out.get("creator") or "").strip() or not (out.get("credential") or "").strip():
+        out["roster"] = ("INCOMPLETE - roster entry has a blank name or credential; "
+                         "resolve and fill data/video-sources.yaml before carding")
     return out
 
 

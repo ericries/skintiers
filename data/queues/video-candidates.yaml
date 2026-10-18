@@ -13440,7 +13440,8 @@
   conflict: Bio includes a business/booking contact email suggesting managed brand partnerships; no confirmed own-brand line or affiliate stor
   posted: '2026-10-17'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 16s clip, under the 25s floor, and no English transcript available
 - id: pkcu8P_WGDc
   title: 'How to Use Minoxidil: Results, Mistakes & Pet Safety'
   creator: Dr. Daniel Sugai
@@ -13466,7 +13467,8 @@
   conflict: runs an Amazon affiliate storefront and does sponsored posts - strongly prefer educational / how-to / ingredient-explainer videos; be very cautious with any product recommendation
   posted: '2026-10-17'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: Kristin Leite monetizes picks via an affiliate storefront, so product comparisons are treated as effectively paid per the standing rule
 - id: '7697670356454198558'
   title: 🖇️ Comment LONGEVITY for my guide on all things skin longevity Skinca...
   creator: Dr. Sheila Farhang (dr.sheila_derm)
@@ -13505,7 +13507,8 @@
   conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan and reject any sponsored/affiliate/gifted video
   posted: '2026-10-17'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: multi-brand routine clip whose caption tags the brands used and leads with a supplement sleep drink; not a single-topic match to an existing page
 - id: '7697644794327076110'
   title: Bemotrizinol is officially here in the States and I couldn’t be more ...
   creator: Ella (@your.estie.ella)
