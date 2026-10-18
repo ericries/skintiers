@@ -2193,3 +2193,14 @@
     ringworm gets worse. A page whose verdict is ''do not use this for suspected tinea''
     is genuinely useful. Get the DailyMed SPL for the combination product and check
     its own labelled warnings.'
+- name: Oral tranexamic acid for melasma (systemic route, dosing and thrombotic risk)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: heydari-2025-oral-vs-topical-tranexamic-acid-melasma
+  source: PMID 40923777 dosed oral TXA at 250 mg twice daily for 12 weeks and concluded
+    'low side effects' while reporting NO adverse-event table and no thromboembolic
+    screening. The existing tranexamic-acid page is topical-first; the oral route
+    is a systemic antifibrinolytic with a different risk profile and needs its own
+    graded treatment, or an explicit section on that page. Source the contraindications
+    from a drug label (DailyMed), not from cosmetic-dermatology trials.

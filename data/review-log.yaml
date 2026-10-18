@@ -12885,4 +12885,25 @@ revive-light-therapy-lux-glo:
     wrong. Added `get <url> --text`, which strips markup and collapses whitespace while preserving any
     ld+json block, and pointed the playbook at it. Verified: all four spot-checked quotes now match with a
     plain grep where they previously returned zero.'
+heydari-2025-oral-vs-topical-tranexamic-acid-melasma:
+  last_reviewed: '2026-10-18'
+  note: 'Compact study page per the study scope. All numbers taken from the PubMed abstract via efetch
+    (primary); 23 quoted strings verified verbatim, 0 substantive mismatches. TWO findings worth keeping.
+    (1) THE INFERENTIAL ERROR: the trial has 25 patients per arm, found MASI reductions of 58.86% oral vs
+    50.88% topical, and reports the difference as insignificant, which the authors read as the routes being
+    interchangeable. That is not what it shows. A trial this small cannot detect an 8-point gap, so
+    insignificant means undetermined, not equal; a non-inferiority claim needs a pre-specified margin and a
+    much larger n. The page says that plainly. Compounding it: there is NO placebo or vehicle arm, so
+    neither percentage can be separated from sun avoidance, seasonal change, regression to the mean, or the
+    cream base. (2) THE AUTHOR NAME IS WRONG IN THE PUBMED RECORD. The PubMed entry flagged an erratum with
+    no abstract text, so what changed was not stated. Resolved the erratum PMID properly via esearch on the
+    DOI (after a first attempt where I GUESSED two PMIDs and got an unrelated geriatrics paper, which is
+    exactly why guessing identifiers is not allowed), then read the correction full text from PMC: the
+    first author is Heydari, not Heidary, and the department is Clinical Pharmacy, not Pharmaceutics. NO
+    data was amended, so every figure stands. The page is slugged and cited as Heydari with Heidary kept as
+    an alias, since the live PubMed citation still shows the superseded spelling and anyone copying it
+    inherits the error. Also noted the abstract claims low side effects while reporting no adverse-event
+    table and no thromboembolic screening, which is the safety question that matters for a systemic
+    antifibrinolytic. ZERO Apify spend; PubMed and PMC only, both durable primaries, so no source caching
+    was required. Self-verified in the main loop, assurance sonnet, force-published.'
 

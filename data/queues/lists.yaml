@@ -408,3 +408,14 @@
     test files, and consumer-perception percentages with no n. Curatorial only, over
     pages that already exist; the axis is what each firm published, which no current
     list captures.'
+- name: Melasma treatments by evidence
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: heydari-2025-oral-vs-topical-tranexamic-acid-melasma
+  source: 'No melasma-specific tier list exists; the two nearest lists are best-products-dark-spots-hyperpigmentation
+    and best-hydroquinone-free-brightening-products, both of which are broader pigment
+    lists rather than melasma. Pages that already exist and would populate it: tranexamic-acid,
+    hydroquinone, cysteamine, azelaic-acid, melasma. Curatorial only. Melasma differs
+    from post-inflammatory pigment in relapse rate, which is the axis a melasma list
+    should grade on.'

@@ -749,7 +749,7 @@
     Acid Versus Topical Tranexami (PMID 40923777)
   type: study
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/40923777/
 - name: Karimi 2025 Neurocosmetic Post-Procedure Cream for Reducing Patient Discomfort
@@ -1179,3 +1179,14 @@
     71 RCTs, 4211 participants, median 31 participants per trial, two thirds industry-sponsored,
     fewer than half assessed past 8 weeks, and the pooled MAL-PDT null (MD -2.85,
     95% CI -7.51 to 1.81) whose both arms received red light.'
+- name: Placebo- or vehicle-controlled RCT of topical tranexamic acid for melasma
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: heydari-2025-oral-vs-topical-tranexamic-acid-melasma
+  source: 'The gap this page exposes. PMID 40923777 compares the two ROUTES with no
+    placebo or vehicle arm, so its 50.88% and 58.86% MASI reductions cannot be separated
+    from sun avoidance and regression to the mean. Search PubMed for a vehicle-controlled
+    topical TXA melasma RCT (terms: tranexamic acid melasma randomized vehicle-controlled)
+    and prefer one reporting a between-group difference with a confidence interval.
+    That is the study the tranexamic-acid page needs to justify its grade.'
