@@ -3191,3 +3191,29 @@
     explains. It is also the consumable that microcurrent devices require, so its
     cost is part of the real price of owning one. Resolve the INCI with scripts/inci_lookup.py
     and the cleared indication from the summary PDF.
+- name: YCANTH (cantharidin 0.7% topical solution)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: molluscum-contagiosum
+  source: 'FDA-APPROVED for molluscum in patients 2 years and older, Verrica Pharmaceuticals,
+    DailyMed setid 7c9bdeaa-9822-4c69-a719-ea4a8643f59c. The strongest numbers in
+    this condition: complete clearance at Day 84 of 46% vs 18% vehicle (diff 29%,
+    CI 19-38) and 54% vs 13% (diff 40%, CI 30-51) in its two trials, and cantharidin
+    0.7% also ranks second in the 2026 pediatric NMA (RR 3.25, SUCRA 81.2%). Note
+    for the page: it is CLINICIAN-APPLIED, so it is not a product a reader can buy
+    and use, and the label requires professional training before administration. Confirm
+    the marketing category is NDA before writing FDA-approved.'
+- name: ZELSUVMI (berdazimer topical gel 10.3%)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: molluscum-contagiosum
+  source: 'FDA-APPROVED for molluscum in patients 1 year and older, LNHC Inc, DailyMed
+    setid 76b17622-bdb9-41ea-b962-c2acc0df71f7. THE STORY IS ON ITS OWN LABEL: three
+    vehicle-controlled trials, and only ONE excluded no effect at week 12 (32.4 vs
+    19.7, diff 12.8, CI 7.1-18.6; then 30.0 vs 20.3, CI -0.04-18.4; then 26 vs 22,
+    CI -5-14). The newest and most convenient option has the weakest and least consistent
+    evidence. It is also the only at-home option of the two, which is why it will
+    be the one readers ask about. Confirm the marketing category is NDA before writing
+    FDA-approved.'

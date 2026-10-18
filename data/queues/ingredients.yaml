@@ -2215,3 +2215,15 @@
     status for ATOPIC DERMATITIS specifically before grading, since approval differs
     by region and the azathioprine page had to call dermatologic use off-label on
     label evidence.
+- name: Potassium hydroxide 10% (topical, for molluscum)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: molluscum-contagiosum
+  source: 'Third of the three replicated winners in the 2026 pediatric NMA (PMID 42360610):
+    RR 3.05, 95% CI 1.77-5.24, SUCRA 78.6%. No page exists, which is the only reason
+    it is missing from the molluscum tier list. The NMA specifically flags that it
+    ''demonstrated concentration-dependent efficacy and adverse events'', so the page
+    must grade strength against harm rather than treating higher percentages as better.
+    Source the caustic-burn risk from a regulatory or poison-control primary, not
+    from trial abstracts.'

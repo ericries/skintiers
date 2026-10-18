@@ -13015,4 +13015,33 @@ nuface:
     biography line.
     ZERO Apify spend; openFDA only, a durable primary, so no source caching required and sk verify is clean
     with no manual-verification warnings. Self-verified in the main loop, assurance sonnet, force-published.'
+molluscum-contagiosum:
+  last_reviewed: '2026-10-18'
+  note: 'Condition hub with a real tier_list, built entirely from free primaries (one PubMed abstract plus
+    two FDA labels). 23 quotes verified verbatim, 0 misses.
+    THE FINDING: the treatment ranked highest in the 2026 pediatric network meta-analysis is salicylic acid
+    plus lactic acid 16.7% (RR 3.16, SUCRA 86.0%), a cheap keratolytic combination, NOT either of the two
+    drugs the FDA approved for this condition. Second is cantharidin 0.7%, which is exactly YCANTH strength.
+    SECOND FINDING, read straight off the label: ZELSUVMI (berdazimer), the newest and only at-home option,
+    ran THREE vehicle-controlled trials and only ONE excluded no effect at week 12 (32.4 vs 19.7, CI 7.1 to
+    18.6; then 30.0 vs 20.3, CI -0.04 to 18.4; then 26 vs 22, CI -5 to 14). The convenient option has the
+    weakest and least consistent evidence, and that is on its own FDA label. By contrast YCANTH, which a
+    clinician applies, cleared placebo decisively in both of its trials (46 vs 18 and 54 vs 13).
+    THIRD: the vehicle arms are the context everything else should be read against. 19.7%, 20.3% and 22% of
+    children cleared on vehicle alone within 12 weeks, so a large share of any apparent success is clearance
+    that was going to happen anyway. The How-to-know section says plainly that waiting is a real option to
+    discuss with a clinician.
+    RESTRAINT: (a) the tier_list grades ONLY the two actives that have pages here and says so in its by:
+    axis, rather than inventing slugs for potassium hydroxide or the two branded drugs; both are queued.
+    (b) The NMA abstract reports no rank for berdazimer, so none is stated. (c) Its highest-ranked entries
+    overall were single-study and the analysis itself says they require validation, so they are excluded
+    from the list and only mentioned as unvalidated. (d) The How-to-know section deliberately does NOT give
+    self-diagnosis criteria beyond the obvious, because the labels carry no clinical description and I did
+    not have a dermatology primary for one; it routes to a clinician instead.
+    TOOLING PAYOFF: the YAML frontmatter broke once on the recurring colon bug ("placebo arms do: in the
+    berdazimer"), and the _load_post error handler added earlier today named the exact line and cause in
+    four lines instead of a 60-frame traceback. Fixed in one pass, then ran a pre-flight scan for other
+    colon-bearing values (0 found). Also caught one quote that dropped a trademark symbol from the ZELSUVMI
+    indication sentence; re-cut the quote to start after the trade name rather than silently altering label
+    text. ZERO Apify spend. Self-verified in the main loop, assurance sonnet, force-published.'
 

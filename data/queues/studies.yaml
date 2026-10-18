@@ -1225,3 +1225,15 @@
     gaps favouring the novel drug, and recover the azathioprine dose range (the PubMed
     plain-text render corrupts its dash, so it must come from the full text). An editorial
     comment exists at PMID 41467349 with no abstract; read it for the critique.
+- name: Campos 2026 pediatric molluscum treatment network meta-analysis (PMID 42360610)
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: molluscum-contagiosum
+  source: https://pubmed.ncbi.nlm.nih.gov/42360610/ - 18 controlled trials, 2377 children,
+    15 treatments, PROSPERO CRD420251040622, Paediatr Drugs 2026;28(4):359-372. The
+    evidence spine for the molluscum hub and its tier list. The abstract names only
+    the top three replicated treatments and does NOT report a rank for berdazimer,
+    so the hub states none; a study page should recover the FULL ranking table and
+    the single-study entries (Backhousia citriodora oil, Candida albicans antigen)
+    that ranked highest but are unvalidated.

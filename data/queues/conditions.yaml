@@ -351,7 +351,7 @@
 - name: Molluscum contagiosum
   type: condition
   priority: 5
-  status: pending
+  status: done
   discovered_from: eczema-herpeticum
   source: 'A co-occurring viral skin infection in the cited case (PMID 42647319: the
     child ''had a recent AD flare, molluscum contagiosum''), and PMID 42802835 reports
