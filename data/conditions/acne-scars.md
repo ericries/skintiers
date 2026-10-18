@@ -72,6 +72,16 @@ videos:
   related: [acne]
   thesis: 'Dermatologist Dr. Neal Schultz explains what actually causes acne scars: inflammatory acne lesions like deep pimples and cysts damage the dermis, and when an inflamed pore ruptures, pus leaks into surrounding tissue and destroys healthy dermal collagen. The body then repairs that damage imperfectly with fibrous scar tissue. He describes the two resulting patterns: atrophic scars (depressed below the skin, in ice-pick, boxcar, or crater shapes) when too little collagen is made, and raised hypertrophic scars when too much is made, which are common on the trunk but rare on the face.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Dermatologists that say they don't pop pimples are lying
+  creator: Dr. Aegean Chan
+  creator_slug: aegean-chan
+  credential: Board-certified dermatologist
+  platform: TikTok
+  url: https://www.tiktok.com/@draegeanchan/video/7696654170119572749
+  posted: '2026-10-14'
+  related: [acne, benzoyl-peroxide, hydrocolloid, best-acne-spot-treatments]
+  thesis: Board-certified dermatologist Dr. Aegean Chan admits she sometimes pops her own pimples and draws the line at where scarring starts. Repeated squeezing is the harmful part, she says, especially when nothing comes out because the bump is only inflammation, and that is the point at which you scar your skin. Her own approach for a pimple with a large whitehead that looks ready to burst is to open it gently with two cotton swabs, then apply a benzoyl peroxide spot treatment and a pimple patch; she frames this as practical self-restraint rather than a technique with trial evidence behind it.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

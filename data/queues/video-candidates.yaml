@@ -12208,7 +12208,8 @@
   conflict: null
   posted: '2026-10-14'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: caption promotes her own branded subscription box (@dermydocbox) with 'tap the link in my bio to grab yours'; own-brand funnel plus link-in-bio, even though the spoken transcript was clean education
 - id: '7696136615076416781'
   title: Just the essentials, obviously ✨️😅 What's the weirdest thing in your ...
   creator: Fatima Fahs
@@ -13084,7 +13085,8 @@
   conflict: null
   posted: '2026-10-15'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: no English transcript available (TikTok VTT absent); cannot cite a clip that cannot be read
 - id: rl8yUrY_jNI
   title: Cheap skincare hack👀 How to make a Bleach bath for improving eczema!
   creator: Dr. Maren Locke (The Budget Dermatologist)
