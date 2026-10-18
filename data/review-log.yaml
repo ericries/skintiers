@@ -6580,6 +6580,33 @@ lindsey-zubritsky:
     Links her 4 embedded video cards (sulfur, tretinoin, acne, hyperpigmentation). Gates clean; force-published.'
   score: 8
   verdict: publish
+lip-care:
+  last_reviewed: '2026-10-17'
+  note: 'Sources: PMID 38422211 (2024 Dermatitis, cheilitis diagnostic algorithm) and PMID 35242781 (2022
+    Frontiers in Medicine, actinic cheilitis). 25 quotes, 0 real mismatches after correction; lint, verify,
+    style, wikilinks clean; 7/7 tier rows render. ZERO Apify spend. THE SAFETY FINDING LEADS, and it is
+    the thing lip-balm marketing never mentions: actinic cheilitis is ''a precursor of malignancy or even
+    an in situ squamous cell carcinoma (SCC) of the lip, located most frequently on the lower lip'', with
+    malignant transformation that ''ranges from 10 to 30%'', and lip SCC described as ''one of the deadliest
+    non-melanoma skin cancers''. A persistently scaly lower lip is routed to a clinician, not to another
+    product, and the page links keratinocyte-carcinoma and actinic-keratosis. SECOND FINDING: the 2024
+    cheilitis review lists ''irritant and allergic contact dermatitis'' FIRST among causes, and notes
+    the causes are clinically hard to tell apart because they produce similar erythema and desquamation.
+    So the product itself is a leading candidate when a balm is not working, and the page says using more
+    of it is the one response the differential does not support. PLUMPING HANDLED BY REFUSING TO GUESS.
+    The queue item named plumping claims explicitly, and neither source evaluates them, so nothing is
+    graded. The page states the one relevant fact that IS sourced (irritant contact dermatitis is among
+    the commonest causes of lip inflammation) and explicitly leaves the inference about tingle-dependent
+    products to the reader rather than asserting a mechanism it cannot cite. tier_list GRADES ARE NOT
+    LIP-SPECIFIC and the caption says so twice over: every grade was earned on SKIN, no cited source tested
+    any of them on the vermilion lip. Same honesty pattern as smoothing-skin-texture. No per-item tier
+    overrides. TWO FIXES DURING REVIEW: the style linter caught defensive meta-commentary twice (rephrased
+    both), and the verbatim check caught that I had replaced the hyphen in the journal title ''Actinic
+    Cheilitis - From Risk Factors to Therapy'' with a comma to dodge the dash linter, which silently altered
+    a cited title. Restored to the source form; an ASCII hyphen is allowed, only em and en dashes are
+    not.'
+  score: 9
+  verdict: publish
 liu-2026-comparison-of-compound-lidocaine-cream-and-lidocaine-prilocai:
   last_reviewed: '2026-08-08'
   note: 'Opus re-fetched the abstract via Europe PMC (PubMed itself served a CAPTCHA) and verified every

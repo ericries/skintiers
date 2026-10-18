@@ -3033,3 +3033,15 @@
     pattern changes what can be said about a device. Pull the K241102 PDF from accessdata.fda.gov
     (free, primary) and compare what it discloses against the ESPADA Statement, which
     names no predicate, no wavelength and no testing at all.'
+- name: SPF lip balm (FDA-regulated sunscreen lip product)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: lip-care
+  source: The one lip product with a serious reason behind it, per the actinic cheilitis
+    risk factors on lip-care (chronic UV exposure heads the list). A lip balm carrying
+    an SPF claim is an OTC sunscreen drug, so it has a DailyMed SPL with a marketing
+    category and a monograph citation, exactly like the antifungals already profiled.
+    RESOLVE A SPECIFIC PRODUCT from DailyMed first (search drug_name for the active
+    plus lip) rather than drafting from a brand name, and check whether the SPL is
+    OTC Monograph or NDA. Free primary route, no metered call needed.

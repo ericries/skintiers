@@ -436,3 +436,17 @@
     dosing: butenafine (once daily, 2 weeks), plus the Lotrimin and Tinactin jock-itch
     SPLs which are SEPARATE setids from the ones already cited. Pull those SPLs rather
     than assuming the body-ringworm directions transfer.'
+- name: Actinic cheilitis (sun damage on the lip)
+  type: condition
+  priority: 5
+  status: pending
+  discovered_from: lip-care
+  source: 'Grounded in PMID 35242781, already transcribed on lip-care: ''a precursor
+    of malignancy or even an in situ squamous cell carcinoma (SCC) of the lip, located
+    most frequently on the lower lip'', malignant transformation ''ranges from 10
+    to 30%'', and lip SCC called ''one of the deadliest non-melanoma skin cancers''.
+    The site has actinic-keratosis for ordinary skin and keratinocyte-carcinoma for
+    the cancers, but nothing for the lip precursor, which is the single highest-stakes
+    thing on the lip-care page and currently only gets a paragraph there. The review
+    also notes ''Optimal treatment has not been established yet'', so the page must
+    NOT imply a settled treatment hierarchy.'
