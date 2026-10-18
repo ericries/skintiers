@@ -108,9 +108,13 @@ def get(url, cache_dir=None, text=False):
 def cited_urls(data_dir=None):
     dd = pathlib.Path(data_dir) if data_dir else sklib.DATA_DIR
     urls = set()
-    for f in glob.glob(str(dd / "**" / "*.md"), recursive=True):
-        for u in _URL_RE.findall(pathlib.Path(f).read_text(encoding="utf-8")):
-            urls.add(u.rstrip(".,);'\""))
+    # .yaml as well as .md: a source can back a non-page fact, e.g. the credential
+    # in data/video-sources.yaml that a video card prints verbatim. Globbing only
+    # *.md meant gc() pruned the sole evidence behind a claim about a real person.
+    for pattern in ("*.md", "*.yaml"):
+        for f in glob.glob(str(dd / "**" / pattern), recursive=True):
+            for u in _URL_RE.findall(pathlib.Path(f).read_text(encoding="utf-8")):
+                urls.add(u.rstrip(".,);'\""))
     return urls
 
 

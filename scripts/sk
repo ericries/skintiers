@@ -428,15 +428,35 @@ def cmd_roster_set(args):
         return 1
     end = next((j for j in range(slug_idx + 1, len(lines))
                 if lines[j].startswith("- name:")), len(lines))
+    import json
     updates = []
     if args.last_pulled is not None:
         updates.append(("last_pulled", f"'{args.last_pulled}'"))
     if args.backfill_cursor is not None:
         updates.append(("backfill_cursor", str(args.backfill_cursor)))
+    # name/credential are free text that can carry colons, commas and quotes, so
+    # they are emitted as JSON scalars (valid YAML double-quoted scalars) rather
+    # than interpolated raw. Blank entries for these two fields block the video
+    # pull: a card cannot name a creator or state a credential it does not have.
+    if args.name is not None:
+        updates.append(("name", json.dumps(args.name)))
+    if args.credential is not None:
+        updates.append(("credential", json.dumps(args.credential)))
     if not updates:
-        print("nothing to update (pass --last-pulled and/or --backfill-cursor)")
+        print("nothing to update (pass --last-pulled, --backfill-cursor, "
+              "--name and/or --credential)")
         return 1
     for field, value in updates:
+        if field == "name":
+            # the name line OPENS the entry ("- name: ..."), so it sits BEFORE
+            # creator_slug, outside the forward search window used below
+            idx = next((j for j in range(slug_idx, -1, -1)
+                        if lines[j].startswith("- name:")), None)
+            if idx is None:
+                print(f"ERROR: entry '{args.slug}' has no '- name:' line")
+                return 1
+            lines[idx] = f"- name: {value}"
+            continue
         idx = next((j for j in range(slug_idx + 1, end)
                     if lines[j].lstrip().startswith(f"{field}:")), None)
         if idx is None:
@@ -454,7 +474,10 @@ def cmd_roster_set(args):
     if entry is None or (args.last_pulled is not None
                          and str(entry.get("last_pulled")) != args.last_pulled) \
             or (args.backfill_cursor is not None
-                and entry.get("backfill_cursor") != args.backfill_cursor):
+                and entry.get("backfill_cursor") != args.backfill_cursor) \
+            or (args.name is not None and entry.get("name") != args.name) \
+            or (args.credential is not None
+                and entry.get("credential") != args.credential):
         print("ERROR: values did not round-trip; roster left unchanged")
         return 1
     path.write_text(new_text)
@@ -680,10 +703,14 @@ def main(argv=None):
     sub.add_parser("queue-migrate").set_defaults(func=cmd_queue_migrate)
     sub.add_parser("audit").set_defaults(func=cmd_audit)
     p_rs = sub.add_parser("roster-set",
-                          help="safely update a roster entry's last_pulled / backfill_cursor")
+                          help="safely update a roster entry's last_pulled / backfill_cursor / name / credential")
     p_rs.add_argument("slug", help="creator_slug of the video-sources.yaml entry")
     p_rs.add_argument("--last-pulled", dest="last_pulled", default=None, help="YYYY-MM-DD")
     p_rs.add_argument("--backfill-cursor", dest="backfill_cursor", type=int, default=None)
+    p_rs.add_argument("--name", default=None,
+                      help="creator display name (fills a blank roster entry)")
+    p_rs.add_argument("--credential", default=None,
+                      help="honest, sourced credential string used on video cards")
     p_rs.set_defaults(func=cmd_roster_set)
     p_log = sub.add_parser("log")
     p_log.add_argument("message")

@@ -257,9 +257,10 @@
   product_recs: restricted
   conflict: Recurring paid partnerships (Dermatica affiliate code "DRALEXIS" on multiple videos, La Roche-Posay branded partner content, SkinBetter Scie
   last_pulled: '2026-08-30'
-- name: ''
+- name: "Dr. Mamina Turegano"
   creator_slug: mamina-turegano
-  credential: ''
+  credential: "Board-certified in dermatology, internal medicine and dermatopathology; practices at Sanova Dermatology, Metairie, Louisiana"
+  credential_source: "https://sanovadermatology.com/providers/mamina-turegano-md (the practice's own provider page, fetched and cached 2026-10-18; states 'triple board-certified dermatologist, internist, and dermatopathologist' and board certifications 'Dermatology, Internal Medicine, Dermatopathology')"
   tier: MED
   channel: https://www.tiktok.com/@dr.mamina
   product_recs: restricted
