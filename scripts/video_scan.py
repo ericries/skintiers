@@ -197,6 +197,45 @@ def build_candidate(row, creator):
     }
 
 
+# Creator-derived fields are SNAPSHOTTED into the queue at scan time so the pull
+# cron need not re-read the roster. That snapshot goes stale: on 2026-10-18 the
+# queue still carried 31 entries with a long, unverified credential string that
+# had since been corrected in the roster, and the pull cron is told to card
+# straight from the queue line. Any creator fact must therefore be re-read from
+# the roster at LIST time; the roster is the single source of truth.
+_ROSTER_FIELDS = ("creator", "credential", "channel", "tier", "product_recs", "conflict")
+
+
+def roster_by_slug(roster=None):
+    if roster is None:
+        roster = yaml.safe_load(ROSTER.read_text(encoding="utf-8"))
+    out = {}
+    for c in (roster.get("creators") if isinstance(roster, dict) else roster) or []:
+        slug = c.get("creator_slug")
+        if slug:
+            out[slug] = c
+    return out
+
+
+def refresh_from_roster(entry, by_slug):
+    """Return `entry` with its creator fields overlaid from the live roster.
+
+    A creator missing from the roster (removed or renamed) keeps the snapshot and
+    is flagged, so a stale entry is visible rather than silently authoritative."""
+    c = by_slug.get(entry.get("creator_slug"))
+    if not c:
+        out = dict(entry)
+        out["roster"] = "MISSING - creator not in data/video-sources.yaml; verify before carding"
+        return out
+    out = dict(entry)
+    for f in _ROSTER_FIELDS:
+        if f in c:
+            key = "creator" if f == "creator" else f
+            val = c.get("name") if f == "creator" else c.get(f)
+            out[key] = val
+    return out
+
+
 def _pullable(roster, skip_tiktok):
     """Return (youtube, tiktok) lists of pullable, non-muted creators."""
     youtube, tiktok = [], []
@@ -342,10 +381,14 @@ def main(argv=None):
 
     if args.list_pending is not None:
         ingested = ingested_ids()
+        by_slug = roster_by_slug()
         for q in rank_pending(queue, ingested, args.platform)[:args.list_pending]:
-            print("\t".join(f"{k}={q.get(k)}" for k in
-                            ("id", "creator_slug", "creator", "credential", "channel",
-                             "platform", "tier", "product_recs", "posted", "title", "conflict")))
+            q = refresh_from_roster(q, by_slug)
+            keys = ("id", "creator_slug", "creator", "credential", "channel",
+                    "platform", "tier", "product_recs", "posted", "title", "conflict")
+            if q.get("roster"):
+                keys = keys + ("roster",)
+            print("\t".join(f"{k}={q.get(k)}" for k in keys))
     elif not args.scan:
         ap.error("nothing to do: pass --scan, --list-pending N, or --resolve ID")
     return 0
