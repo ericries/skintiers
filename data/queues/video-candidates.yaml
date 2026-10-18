@@ -9442,7 +9442,8 @@
   conflict: Runs a paid cosmetics-industry consulting/science-communication practice (BeautySciComm, e-summits, mentorship cohorts) and is Patreon-suppo
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 74-minute multi-speaker roundtable; the card format attributes one thesis to one named creator with one credential, which cannot fairly represent a panel whose co-speakers said much of the content
 - id: uehPQrpmeCs
   title: Expert Misinformation Online/Experts Correcting Experts? ROUNDTABLE
   creator: Jen Novakovich (The Eco Well)
