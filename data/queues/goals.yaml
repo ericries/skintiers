@@ -261,3 +261,16 @@
     tying them to thickened skin. Build from dermatology references on hyperkeratosis;
     keep actinic-keratosis strictly separate, since that one is a precursor lesion
     covered under keratinocyte-carcinoma.
+- name: 'LED dose: what J/cm2 and wavelength actually tell you'
+  type: goal
+  priority: 5
+  status: pending
+  discovered_from: pulsaderm-acne-mask-28
+  source: 'Pulsaderm K170111 is the first home LED clearance on this site to publish
+    energy per session (20.44 and 22.72 J/cm2) alongside wavelengths and a 30-treatment
+    course, and the GRADE review behind the whole device ladder (PMID 42545315) reports
+    NO dose at all. That mismatch is the page: consumers are given dose numbers they
+    cannot check against the evidence. Collect the dosing actually used in the blue
+    and blue-red LED acne trials underpinning the Level B grade, and state plainly
+    if those doses are not recoverable from the available abstracts rather than implying
+    a comparison that cannot be made.'

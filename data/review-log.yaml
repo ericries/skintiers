@@ -9296,6 +9296,30 @@ psoriasis-topical-treatments-by-evidence:
     pipeline); assurance opus.'
   score: 9
   verdict: publish
+pulsaderm-acne-mask-28:
+  last_reviewed: '2026-10-17'
+  note: 'Sources: K170111 clearance package (a real 510(k) Summary) and openFDA; PMID 42545315 for category
+    grade only. 27 quotes, 0 real mismatches (the single flag is my own scare-quoted phrase). Lint, verify,
+    style, wikilinks clean. ZERO Apify spend, all free FDA primary. ANSWERS THE QUEUE QUESTION: no, this
+    predicate holds no acne trial either, so the Neutrogena mask''s clearance rests on a device that was
+    never shown to clear acne. And the chain extends AGAIN, this time ACROSS companies: K170111 names
+    its own predicate as the Illumask Acne Light Therapy System K123999 from La Lumiere, LLC. Neutrogena
+    2018 rests on Pulsaderm 2017 rests on La Lumiere 2013. The reVive chain ran three generations INSIDE
+    one manufacturer; this one crosses three firms and reaches the same place. Illumask is now queued
+    to close the loop. THE SHARPEST DETAIL, and the reason this page is worth more than a dedup entry:
+    there IS a human study with IRB approval in this file, and it measured whether lay users could READ
+    THE LABELING and self-select. The section containing it is literally headed ''Non-clinical-testing''.
+    The page says in terms that a reader who hears ''IRB-approved study'' and pictures an acne trial is
+    picturing the wrong thing. That is a far more specific and more useful finding than the bench-testing
+    pattern on the other device pages. CREDIT GIVEN WHERE DUE: this clearance publishes more dosing detail
+    than any other home LED device on the site, with energy per session in J/cm2 (20.44 for the 28, 22.72
+    for the 37), diode counts, wavelengths and a defined 30-treatment course. It gets its own rubric row
+    as a DISCLOSURE point, with the explicit caveat that no source here establishes whether those doses
+    match the trials behind the Level B grade, and the [^home] footnote records that the GRADE review
+    reports no dose at all. image_unresolvable set because the clearance covers both the 28 and 37 variants
+    and a photo could depict the wrong SKU. No price, none verified.'
+  score: 9
+  verdict: publish
 purito:
   last_reviewed: '2026-08-08'
   note: 'Lean brand discovery-aid (Sonnet-only, no Opus critic per roster). What-it-is + sourced founder/ownership

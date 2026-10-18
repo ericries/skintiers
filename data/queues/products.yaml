@@ -2918,7 +2918,7 @@
 - name: Pulsaderm Acne Mask 28
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: neutrogena-light-therapy-acne-mask-plus
   source: 'The PREDICATE device for Neutrogena''s K180847: FDA 510(k) K170111, named
     verbatim in that summary as ''Pulsaderm Acne Mask 28 (K170111)''. Everything the
@@ -3045,3 +3045,17 @@
     RESOLVE A SPECIFIC PRODUCT from DailyMed first (search drug_name for the active
     plus lip) rather than drafting from a brand name, and check whether the SPL is
     OTC Monograph or NDA. Free primary route, no metered call needed.
+- name: Illumask Acne Light Therapy Mask (La Lumiere)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: pulsaderm-acne-mask-28
+  source: 'THE ROOT of the Neutrogena clearance chain and the last unread link. FDA
+    510(k) K123999, La Lumiere, LLC, decision 2013-08-28 per the openFDA device/510k
+    query already run. Named verbatim in the Pulsaderm K170111 summary as its predicate:
+    ''Illumask Acne Light Therapy System K123999 La Lumiere, LLC''. The chain so far:
+    Neutrogena K180847 rests on Pulsaderm K170111 rests on THIS. If K123999 is also
+    free of any acne trial, the entire Neutrogena lineage traces to no clinical efficacy
+    data at any generation across three companies, which is a finding about 510(k)
+    device clearance generally rather than about one brand. Pull the PDF from accessdata.fda.gov
+    pdf13/ (free, primary).'
