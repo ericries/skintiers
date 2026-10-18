@@ -80,7 +80,7 @@
   discovered_from: null
   source: null
   note: reconciled (robust)
-- name: Avène Mineral Ultra-Light SPF 50+
+- name: "Av\xE8ne Mineral Ultra-Light SPF 50+"
   type: product
   priority: 8
   status: done
@@ -2559,15 +2559,15 @@
   status: done
   discovered_from: null
   source: https://incidecoder.com/products/paula-s-choice-skin-perfecting-8-aha-gel-exfoliant
-- name: The Ordinary Niacinamide 10% + Zinc 1% (very cheap oily-skin/sebum serum)
-    — check if already on-site before drafting
+- name: "The Ordinary Niacinamide 10% + Zinc 1% (very cheap oily-skin/sebum serum)\
+    \ \u2014 check if already on-site before drafting"
   type: product
   priority: 5
   status: done
   discovered_from: null
   source: https://incidecoder.com/products/the-ordinary-niacinamide-10-zinc-1
-- name: Banila Co Clean It Zero Purifying Cleansing Balm (Tea-Tree EX / pore-clarifying
-    variant) — the oily/acne-prone version of the viral cleansing balm
+- name: "Banila Co Clean It Zero Purifying Cleansing Balm (Tea-Tree EX / pore-clarifying\
+    \ variant) \u2014 the oily/acne-prone version of the viral cleansing balm"
   type: product
   priority: 5
   status: done
@@ -2959,7 +2959,7 @@
 - name: reVive Light Therapy LED Cleansing System
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: revive-light-therapy-essentials
   source: 'The device at the ROOT of the reVive clearance chain, and the last unexamined
     link. FDA 510(k) K180445 and K180447 (LED Technologies, Inc.), both named as predicates
@@ -3100,11 +3100,17 @@
   priority: 5
   status: pending
   discovered_from: revive-light-therapy-lux-spot
-  source: The two Lux Collection members NOT already queued (the Glo entry covers
-    Glo). Both named in the reVive range navigation on ledtechnologies.com, cached
-    2026-10-16. Same caveat as the Glo entry, none of the 15 LED Technologies 510(k)
-    records is named Lux. Sonique appears to be a cleansing/sonic device rather than
-    a light device, so confirm which modality each one actually is before drafting.
+  source: "The two Lux Collection members NOT already queued (the Glo entry covers\
+    \ Glo). Both named in the reVive range navigation on ledtechnologies.com, cached\
+    \ 2026-10-16. Same caveat as the Glo entry, none of the 15 LED Technologies 510(k)\
+    \ records is named Lux. Sonique appears to be a cleansing/sonic device rather\
+    \ than a light device, so confirm which modality each one actually is before drafting.\
+    \ PRICES VERIFIED 2026-10-18 from the brand shop-all page (cached): Lux Clinical\
+    \ $199.00, Lux Soniqu\xE9 $199.00, Lux Soniqu\xE9 Mini $129.00. Note from the\
+    \ LED Cleansing System page: the cleared trade name 'LED Cleansing System' (K180445/K180447/K221430)\
+    \ no longer appears in the range while two Soniqu\xE9 cleansers do, so check whether\
+    \ a Soniqu\xE9 IS one of those clearances renamed. Do NOT assume it; that page\
+    \ explicitly declines the inference."
 - name: reVive Lux Clinical (handheld LED face device, $199)
   type: product
   priority: 5
@@ -3125,7 +3131,10 @@
     in the brand shop-all navigation (cached 2026-10-18). A PANEL rather than a handheld,
     which matters because the 2026 GRADE review treats full-face coverage differently
     from spot and glide devices; resolve the emitted wavelengths and the treatment
-    time before grading.
+    time before grading. PRICE VERIFIED 2026-10-18 at $399.00 from the brand shop-all
+    collection page (revive-light-therapy.com/collections/all, cached). It is the
+    most expensive device in the range, which makes it the one where a missing spec
+    sheet matters most.
 - name: reVive Lux Lip Care light therapy device
   type: product
   priority: 5
@@ -3135,4 +3144,18 @@
     brand shop-all navigation (cached 2026-10-18). The site already has a lip-care
     goal page with no device on it, so this is the one Lux product with an obvious
     existing home. Check whether ANY cleared indication or trial covers perioral LED
-    before granting it more than a minimal grade.
+    before granting it more than a minimal grade. PRICE VERIFIED 2026-10-18 at $99.00
+    from the brand shop-all collection page (revive-light-therapy.com/collections/all,
+    cached).
+- name: dpl Nuve (LED Technologies, K101382)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: revive-light-therapy-led-cleansing-system
+  source: 'The device the reVive LED Cleansing System borrows its biocompatibility
+    evidence from: K180445 states its skin-contact ABS housing is ''the identical
+    material as used in construction of predicate devices dpl Nuve and dpl II Panel'',
+    and the ABS testing was done on the dpl Nuve handle. Cleared 2010-11-09, 510(k)
+    Summary available. Pull accessdata.fda.gov/cdrh_docs/pdf10/K101382.pdf and report
+    its cleared indication and whether ITS conclusions are clinical or nonclinical.
+    This is the oldest link in the chain the site has reached.'

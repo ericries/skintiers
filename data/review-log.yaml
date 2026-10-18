@@ -12965,4 +12965,37 @@ azathioprine:
     ZERO Apify spend; DailyMed and PubMed only. Self-verified in the main loop, assurance sonnet,
     force-published. The no-marketing-claims-section WARN matches the existing convention on sibling Rx
     ingredient pages such as upadacitinib, so it was left as is.'
+revive-light-therapy-led-cleansing-system:
+  last_reviewed: '2026-10-18'
+  note: 'The queue item asked one question and it is now ANSWERED. Both 510(k) summaries were pulled from
+    accessdata and read in full (free, primary). K180445 and K180447 each state, in identical words, that
+    "The conclusions drawn from nonclinical tests demonstrate that the device is safe, as effective, and
+    performs as well as the legally marketed devices." That same sentence appears at every generation of
+    the chain the site has examined (K223482, then K210965/K210968, then these two), so the ENTIRE reVive
+    line traces to no clinical data at any level. That completes the finding opened on
+    revive-light-therapy-essentials.
+    Second finding, the same structure as Essentials: ONE trade name, TWO clearances, opposite purposes.
+    K180447 is acne (630nm red plus 415nm blue, product code OLP); K180445 is wrinkles (605nm amber, 630nm
+    red, 660nm red, 880nm infrared, no blue at all, product code OHS). The acne/wrinkle split is exactly
+    the fact that decides which GRADE row applies, and the box name cannot tell you which you have.
+    Two details worth keeping, both to the firm''s credit for publishing them: thermal testing shows the
+    device stays under 41C after 30 minutes of continuous use, 10 times the 3-minute treatment time; and a
+    self-selection study was explicitly NOT conducted because the box labeling matched the predicate, so
+    nobody tested whether a shopper could judge the device suitable for themselves. Biocompatibility is a
+    read-across from the dpl Nuve ABS handle, now queued as the oldest link in the chain.
+    ABSENCE CLAIM HANDLED CAREFULLY (the recurring error class): the shop-all page contains the string
+    "cleansing system" exactly once, and I checked the context before asserting anything. It is generic
+    category prose about "sonic cleansing systems", NOT a product name. So the page says no product tile
+    carries the cleared name, which is what was actually verified, and explicitly declines to claim a
+    Soniqué IS this device renamed.
+    TWO SELF-CORRECTIONS before publish. (a) I had invented a frontmatter key, price_unresolvable; no other
+    page uses it and no script reads it, so it was dead metadata inventing a convention. Removed; the point
+    lives in prose instead. (b) A quote looked truncated at "415nm" because the sentence spans a PDF page
+    break. Rather than patch around it I re-extracted without -layout, confirmed it continues "blue.", and
+    now quote the full sentence while disclosing the page break in the footnote. Final check: 31 quotes
+    verified against the two PDFs and the cached shop page, 0 substantive misses.
+    Cross-feed used the new sk queue-note to attach VERIFIED prices (Lux Panel 399, Lux Clinical 199, Lux
+    Soniqué 199, Soniqué Mini 129, Lux Lip Care 99) to items already queued, rather than adding duplicate
+    entries. ZERO Apify spend; FDA PDFs, openFDA and one brand page by curl. Self-verified in the main
+    loop, assurance sonnet, force-published.'
 
