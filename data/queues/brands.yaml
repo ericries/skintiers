@@ -356,7 +356,7 @@
 - name: NuFACE (Carol Cole Company)
   type: brand
   priority: 5
-  status: pending
+  status: done
   discovered_from: nuface-trinity-microcurrent-device
   source: 'Applicant of record on at least 7 FDA 510(k) clearances per openFDA (K072260,
     K133823, K161654, K171588, K181008, K201680, K201906), covering NuFACE, NuFACE

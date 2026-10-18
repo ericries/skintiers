@@ -12998,4 +12998,21 @@ revive-light-therapy-led-cleansing-system:
     Soniqué 199, Soniqué Mini 129, Lux Lip Care 99) to items already queued, rather than adding duplicate
     entries. ZERO Apify spend; FDA PDFs, openFDA and one brand page by curl. Self-verified in the main
     loop, assurance sonnet, force-published.'
+nuface:
+  last_reviewed: '2026-10-18'
+  note: 'Lean brand card, 131 words of body, inside the 180-word cap. Its job is to link to products and
+    to carry one structural fact, which it does.
+    CORRECTED THE QUEUE NOTE: it said NuFACE is applicant on "at least 7" clearances and listed 7 K-numbers.
+    The openFDA query returns 14, total reported 14, spanning 2007-11-27 to 2024-06-27. All 14 are 510(k)
+    Summaries, which confirms the structural point the queue asked for and strengthens it. Every K-number
+    and device name is enumerated in the footnote so the count is checkable rather than asserted.
+    DELIBERATELY OMITTED THE FOUNDER. The playbook allows a founder line "if verifiable" and the queue name
+    was "NuFACE (Carol Cole Company)". The only primary evidence I had was the openFDA applicant string,
+    which establishes a CORPORATE name, not that any individual founded the company. Rather than spend
+    fetches or assert it, the page states the verifiable fact (FDA applicant of record is the Carol Cole
+    Company, trading as NuFACE) and the footnote says explicitly that no claim is made about any
+    individual. The never-state-an-unverified-claim-about-a-living-person rule outranks a nice-to-have
+    biography line.
+    ZERO Apify spend; openFDA only, a durable primary, so no source caching required and sk verify is clean
+    with no manual-verification warnings. Self-verified in the main loop, assurance sonnet, force-published.'
 

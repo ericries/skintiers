@@ -3159,3 +3159,35 @@
     Summary available. Pull accessdata.fda.gov/cdrh_docs/pdf10/K101382.pdf and report
     its cleared indication and whether ITS conclusions are clinical or nonclinical.
     This is the oldest link in the chain the site has reached.'
+- name: NuFACE Mini / Mini+ microcurrent device (K133823, K191672)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: nuface
+  source: Two separate clearances for the Mini, 2014 and 2019, both 510(k) Summaries,
+    per openFDA applicant 'Carol Cole' (14 records, queried 2026-10-18). The cheapest
+    entry point to the brand and therefore the most-bought, with no page here. Read
+    BOTH summaries from accessdata (pdf13/K133823.pdf, pdf19/K191672.pdf) and report
+    whether either rests on clinical or nonclinical testing, the way the reVive pages
+    do.
+- name: NuBODY Skin Toning Device (K171588)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: nuface
+  source: openFDA record K171588, decision 2017-07-31, 510(k) Summary, applicant Carol
+    Cole Company Dba Nuface. A BODY microcurrent device, which is a distinct claim
+    from facial toning and has thinner evidence; the site has no body-device page.
+    Pull accessdata pdf17/K171588.pdf for the cleared indication before grading, and
+    do not carry over the facial evidence.
+- name: NuFACE Gel Primer (K161654)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: nuface
+  source: openFDA record K161654, decision 2016-12-30, 510(k) Summary. Notable because
+    it is a CONDUCTIVE GEL cleared as a device rather than sold as a cosmetic, which
+    makes it a good test of the FDA-cleared-vs-approved distinction the site already
+    explains. It is also the consumable that microcurrent devices require, so its
+    cost is part of the real price of owning one. Resolve the INCI with scripts/inci_lookup.py
+    and the cleared indication from the summary PDF.
