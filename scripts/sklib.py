@@ -1160,6 +1160,32 @@ def queue_add(data_dir, name, type, priority=5, discovered_from=None, source=Non
     return True
 
 
+def queue_note(data_dir, name, text, type=None, substring=False):
+    """Append a note to the `source` field of matching queue items.
+
+    Hand-editing a queue YAML to add a note has broken the file twice (a colon
+    inside the appended prose turns an unquoted plain scalar into a mapping).
+    This routes the edit through the same safe_load/safe_dump path queue_add
+    already uses, so quoting is the serializer's problem, not the author's.
+    Returns the list of names touched."""
+    types = [type] if type is not None else list(QUEUE_TYPES)
+    touched = []
+    for typ in types:
+        items = load_queue(data_dir, typ)
+        hit = False
+        for it in items:
+            n = it.get("name") or ""
+            match = (name.lower() in n.lower()) if substring else (n == name)
+            if match:
+                src = (it.get("source") or "").rstrip()
+                it["source"] = (src + " " + text).strip() if src else text
+                touched.append(n)
+                hit = True
+        if hit:
+            save_queue(data_dir, typ, items)
+    return touched
+
+
 def queue_next(data_dir, type):
     """Highest-priority PENDING item for a type, FIFO on ties, or None."""
     pending = [it for it in load_queue(data_dir, type) if it.get("status") == "pending"]

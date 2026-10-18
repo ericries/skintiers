@@ -496,6 +496,18 @@ def cmd_queue_resolve(args):
     return 0
 
 
+def cmd_queue_note(args):
+    sklib.migrate_queue(sklib.DATA_DIR)
+    names = sklib.queue_note(sklib.DATA_DIR, args.name, args.text, args.type,
+                             args.substring)
+    if not names:
+        print(f"not found: {args.name}")
+        return 1
+    for n in names:
+        print(f"noted: {n}")
+    return 0
+
+
 def cmd_queue_next(args):
     sklib.migrate_queue(sklib.DATA_DIR)
     item = sklib.queue_next(sklib.DATA_DIR, args.type)
@@ -651,6 +663,13 @@ def main(argv=None):
     p_qr.add_argument("name")
     p_qr.add_argument("--type", default=None, choices=_TYPES)
     p_qr.set_defaults(func=cmd_queue_resolve)
+    p_qnote = sub.add_parser("queue-note")
+    p_qnote.add_argument("name")
+    p_qnote.add_argument("--text", required=True)
+    p_qnote.add_argument("--type", default=None, choices=_TYPES)
+    p_qnote.add_argument("--substring", action="store_true",
+                         help="match any queue name CONTAINING name")
+    p_qnote.set_defaults(func=cmd_queue_note)
     p_qn = sub.add_parser("queue-next")
     p_qn.add_argument("--type", required=True, choices=_TYPES)
     p_qn.add_argument("--json", action="store_true")

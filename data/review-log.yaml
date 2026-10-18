@@ -12839,3 +12839,24 @@ zoryve-roflumilast-foam:
     No dashes. Opus critic inline (workflow pipeline); assurance opus.'
   score: 9
   verdict: publish
+revive-light-therapy-lux-spot:
+  last_reviewed: '2026-10-18'
+  note: 'The queue item was named "reVive Light Therapy poof! Acne Treatment" and its note said to resolve
+    the FDA 510(k) from the free openFDA API first and to say so plainly if no clearance matched. Both
+    halves resolved against the queue note. (1) IDENTITY: the poof! URL now serves a page titled Lux Spot,
+    the third reVive retail-name mismatch this site has hit, so the page ships under the verified name
+    with poof! kept as an alias. (2) CLEARANCE: openFDA returns 15 LED Technologies 510(k) records and
+    none is named Lux Spot or poof. dpl SpotLite (K183118) is the nearest spot-format device from the same
+    firm but identity CANNOT be confirmed, and the page says so instead of assuming it. Worth recording:
+    all 15 are 510(k) Summaries, not Statements, so this firm discloses what it submits (same as NuFACE,
+    opposite of FOREO at 8-of-10 Statements); the gap here is name-to-file matching, not withholding.
+    (3) CLAIM READING: the brand says "clinically tested blue and red LED light therapy", which attaches
+    to the MODALITY and not to the device. That is narrower than it sounds and defensible as written, and
+    the page credits it rather than treating it as a violation. Price $39.00 read from the page own
+    schema.org Product markup. 21 quoted strings checked against the local cache; the 3 non-matches are
+    a product name and two quotes from the PubMed GRADE review already verified on home-led-light-therapy.
+    ZERO Apify spend: brand page by plain curl, clearances by free openFDA. Self-verified in the main
+    loop, assurance sonnet, force-published. Also corrected data/brands/revive-light-therapy.md, which
+    said the live storefront was ledtechnologies.com alone; revive-light-therapy.com is a second live
+    domain serving the product photography, and the brand page now records the retail-name drift too.'
+

@@ -2930,7 +2930,7 @@
 - name: reVive Light Therapy poof! Acne Treatment
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: revive-light-therapy
   source: 'A current reVive skincare product listed on the manufacturer''s own storefront
     (ledtechnologies.com, cached research-cache/web/0d21cfea2a599fd0.md, fetched 2026-10-16)
@@ -2944,13 +2944,18 @@
   priority: 5
   status: pending
   discovered_from: revive-light-therapy
-  source: Current reVive product listed on the manufacturer's storefront (ledtechnologies.com,
+  source: 'Current reVive product listed on the manufacturer''s storefront (ledtechnologies.com,
     cached 2026-10-16) at /product/revive-glo-lux-collection/. The Lux Collection
     is the line the brand currently leads with, so it is the most commercially relevant
-    reVive product the site does not cover. Resolve the 510(k) and the emitted wavelengths
+    reVive product the site does not cover. NOTE added 2026-10-18 from the revive-light-therapy-lux-spot
+    page, an openFDA query of all 15 LED Technologies 510(k) records found NONE named
+    Lux, so expect no clearance to match this retail name; say so plainly rather than
+    attaching the nearest-sounding file. Resolve the 510(k) and the emitted wavelengths
     from openFDA/accessdata before drafting; the home-use-skincare-devices-by-evidence
     ladder turns on whether a device is blue-red (Level B) or red-only (Level C),
-    so wavelengths are the fact that decides the grade.
+    so wavelengths are the fact that decides the grade. Second note 2026-10-18: the
+    Lux Spot page confirms the brand runs a second live domain, revive-light-therapy.com,
+    alongside ledtechnologies.com; either may serve this product.'
 - name: reVive Light Therapy LED Cleansing System
   type: product
   priority: 5
@@ -3059,3 +3064,44 @@
     data at any generation across three companies, which is a finding about 510(k)
     device clearance generally rather than about one brand. Pull the PDF from accessdata.fda.gov
     pdf13/ (free, primary).'
+- name: dpl SpotLite (LED Technologies, K183118)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: revive-light-therapy-lux-spot
+  source: 'openFDA device/510k, applicant LED Technologies: K183118 dpl SpotLite,
+    decision 2019-02-07, 510(k) Summary available. The nearest cleared spot-format
+    LED device from the firm that sells Lux Spot. Pull the Summary PDF from accessdata.fda.gov/cdrh_docs/pdf18/K183118.pdf
+    and report its CLEARED INDICATION and whether its conclusions rest on clinical
+    or nonclinical testing. Do NOT assert it is Lux Spot under another name; the Lux
+    Spot page explicitly declines that inference and this page must not quietly make
+    it.'
+- name: dpl Faceware (LED Technologies, K183247)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: revive-light-therapy-lux-spot
+  source: 'openFDA device/510k, applicant LED Technologies: K183247 dpl Faceware,
+    decision 2019-03-14, Summary available. A full-face mask from the same firm, so
+    it is the direct in-house comparator to the Neutrogena and Pulsaderm masks already
+    graded here. accessdata.fda.gov/cdrh_docs/pdf18/K183247.pdf'
+- name: reVive Light Therapy Lux Collection (Clinical / Glo / Sonique)
+  type: product
+  priority: 5
+  status: done
+  discovered_from: revive-light-therapy-lux-spot
+  source: 'Named in the reVive range navigation on ledtechnologies.com (cached 2026-10-16
+    and 2026-10-18). BEFORE drafting, decide whether these are one product family
+    or three separate pages, and resolve each name against the 15 LED Technologies
+    510(k) records first: none of the 15 is named Lux, so expect the same name-to-file
+    gap the Lux Spot page documents.'
+- name: reVive Light Therapy Lux Clinical and Lux Sonique
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: revive-light-therapy-lux-spot
+  source: The two Lux Collection members NOT already queued (the Glo entry covers
+    Glo). Both named in the reVive range navigation on ledtechnologies.com, cached
+    2026-10-16. Same caveat as the Glo entry, none of the 15 LED Technologies 510(k)
+    records is named Lux. Sonique appears to be a cleansing/sonic device rather than
+    a light device, so confirm which modality each one actually is before drafting.

@@ -386,3 +386,13 @@
     the same conditions. A patient handed a prescription has no way to tell which
     is which. Every marketing category must be read from the product's own DailyMed
     SPL; do NOT infer status from the fact that something is prescription-only.
+- name: Blue light vs red light vs blue-plus-red for acne, by evidence
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: revive-light-therapy-lux-spot
+  source: Four acne LED pages now exist (revive-light-therapy-lux-spot, revive-light-therapy-essentials,
+    neutrogena-light-therapy-acne-mask-plus, pulsaderm-acne-mask-28, foreo-espada-blue-light-pen)
+    and each is graded against the SAME 2026 GRADE review finding, which separates
+    blue-only from blue-plus-red. Curatorial only, over pages that already exist;
+    the wavelength split is the organizing axis, not a new evidence claim.

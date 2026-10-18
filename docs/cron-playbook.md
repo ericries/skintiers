@@ -97,7 +97,7 @@ just shipped genuinely surfaces a DISCOVERY entity that has NO page yet, queue i
 product/ingredient candidates) — a skin condition or goal the product treats but the site has no hub for
 (`--type condition`/`--type goal`), a best-of / tier list the product clearly belongs on that does not exist
 yet (`--type list`), or a credible expert/creator named on the page without a person page (`--type person`).
-Only queue discovery entities that are genuinely grounded in the shipped page; do NOT invent hubs. Then commit
+Only queue discovery entities that are genuinely grounded in the shipped page; do NOT invent hubs. To add a note to an item ALREADY queued, use `sk queue-note "<name>" --type <TYPE> --text "..."` (`--substring` to match loosely) and never hand-edit a queue YAML: a colon in appended prose has silently broken data/queues/products.yaml twice. Then commit
 the shipped page, build, and push (git pull --rebase then push if rejected).
 
 ---
