@@ -3323,3 +3323,16 @@
     does, that completes the brand-confusion story; if it does NOT, that is a stronger
     finding and belongs on lotrimin-af-antifungal-cream and athletes-foot rather than
     as a new page. Do not assume either outcome.
+- name: Krave Beauty Matcha Hydrating Cleanser
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: your-estie-ella
+  source: Surfaced by a TikTok clip from the credibility-vetted esthetician Ella (@your.estie.ella,
+    id 7696917484347198733, 2026-10-15, 343s) whose caption says 'I'm not sure I'd
+    truly call this a hydrating cleanser' and that she will keep testing it. The clip
+    could NOT be carded because no page exists for the product, which is the gap this
+    entry fills. Resolve the INCI with scripts/inci_lookup.py and the price and claims
+    from the brand site. Her critique is a first-impression opinion, not evidence;
+    the page should be graded on composition and any real evidence, and may cite her
+    view as a creator opinion only after the sponsorship scan is re-run on the clip.

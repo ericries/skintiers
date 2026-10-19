@@ -12235,7 +12235,8 @@
   conflict: Co-developed/formulated the Tbh Skincare 'Rebound' Serum and Toner (product-formulation partnership) — her endorsement of that spe; no YouTube; TikTok/IG intake
   posted: '2026-10-13'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: shade-matching clip ('2 different shades for face and neck'), not a single-topic match to any existing page
 - id: '7696000357448551701'
   title: Replying to @Jenna 💙🆘🇺🇸 thank you so much! I ordered the saem jelly b...
   creator: Hannah English (@ms_hannah_e / Hannah Collingwood English)
@@ -12300,7 +12301,8 @@
   conflict: Founder & CEO of own hair-care brand, BLCK Hair Care (@blckhaircare), promoted in her Instagram bio — a product-formulation/owners
   posted: '2026-10-13'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: procedural montage of mole removals with no educational content and no matching page (the site has no mole or benign-nevus page)
 - id: tKcz13n4Bxg
   title: Why your seasonal skincare routine is a waste of money
   creator: James Welsh
@@ -12339,7 +12341,8 @@
   conflict: 'Runs #ad sponsored posts (e.g. TruSkin) and Target skincare hauls/reviews; prefer her educational ingredient-category and barrier-repair explainers, and treat product recommendations as effectively promotional (skip).'
   posted: '2026-10-13'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: '''skincare cheat sheet'' omnibus clip, multi-topic by design, so no single most-relevant page'
 - id: '7696235220420398350'
   title: The treatments I’m focusing on before my wedding👰🏻‍♀️💍#skincaretreatm...
   creator: Jenn Lexi (@jennlexi_)
@@ -12638,7 +12641,8 @@
   conflict: Self-describes as a "Key Opinion Leader for industry beauty companies" (per her own practice bio) and most sampled TikTok videos e; no YouTube; TikTok/IG intake
   posted: '2026-10-14'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: comment-POP funnel for the creator's own acne-clearing products; own-product lead magnet, not education
 - id: '7695952634997443870'
   title: 🖇️ Comment LONGEVITY for my FULL guide to the right skincare for skin...
   creator: Dr. Sheila Farhang (dr.sheila_derm)
@@ -12716,7 +12720,8 @@
   conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan and reject any sponsored/affiliate/gifted video
   posted: '2026-10-14'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'near-duplicate: this creator already has ''Do not give up on azelaic acid too soon'' on azelaic-acid (23 cards) and ''Realistic timelines for retinoids'' on retinoids (19 cards); this clip is the union of those two theses and would be a third restatement'
 - id: '7696280420635266318'
   title: Master your base and everything builds beautifully!! @dieux @Paula's ...
   creator: Ella (@your.estie.ella)
@@ -13113,7 +13118,8 @@
   conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan and reject any sponsored/affiliate/gifted video
   posted: '2026-10-15'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'no attachable page: the tested product (Krave Beauty Matcha Hydrating Cleanser) has no page here, and the caption @-tags five other brands as alternatives, so carding it would import five untested brand recommendations onto a generic hub. Queued the product instead'
 - id: Zn5p_WtSNv4
   title: 'different ways to use hypochlorous acid #dermatologist #hypochlorousacid'
   creator: Dr Aamna Adel
