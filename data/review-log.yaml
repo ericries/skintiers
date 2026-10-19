@@ -13221,4 +13221,34 @@ acne-scar-treatments-by-downtime-and-pain:
     was fine. Restored the full span. That is the same class as the earlier body-versus-footnote mismatch.
     Linked the efficacy list to this one. ZERO Apify spend; PubMed only. Self-verified in the main loop,
     assurance sonnet, force-published.'
+licochalcone-a:
+  last_reviewed: '2026-10-19'
+  note: 'THE QUEUE ITEM WAS MIS-SOURCED and I did not draft from it as written. It named licochalcone A as
+    the subject but cited PMID 41879202, which is a systematic review of L-CARNITINE. In that paper
+    licochalcone A appears exactly once, as a combination partner in the phrase "particularly when combined
+    with agents like licochalcone-A or salicylic acid". Drafting a licochalcone A rubric off an L-carnitine
+    review would have attributed another ingredient''s evidence to this one. I searched for a real
+    licochalcone A source instead and found PMID 41181588, a 2025 dermatology review of the compound, and
+    used the L-carnitine paper only for the narrow combination point it actually supports, saying so in
+    the footnote.
+    DUPLICATION CHECKED BEFORE WRITING. licorice-root-extract already exists at tier weak, so I read it
+    first: it is named for glabridin and dipotassium glycyrrhizate and does not mention licochalcone A at
+    all. Different constituent, different evidence base (redness rather than pigment), so a separate page
+    is not a re-explanation. Both pages now link to each other, and a maintenance item is queued asking
+    whether INCI labelling even lets a reader tell the constituents apart; if it does not, that absence
+    goes on both pages rather than spawning a third.
+    tier: weak, argued from the review''s OWN verdict rather than my impression: "current research is
+    limited by geographical bias, a lack of high-quality randomized controlled trials, and reliance on
+    preclinical models." The page quotes the optimistic sentence next to it ("Clinical studies have also
+    confirmed...") and notes it names no trial, no sample size and no effect size, so the two are presented
+    together instead of one being used to sell the other. weak here means thin clinical evidence, not
+    disproof, and the page says that.
+    ABSENCE CLAIM HANDLED CAREFULLY. sk inci returned no match for licochalcone across indexed pages, and
+    the tool itself warns that is weaker than "not in the formula". The page says no product here is KNOWN
+    to contain it and repeats the caveat that many product pages publish no full INCI, rather than claiming
+    the catalog lacks it.
+    No marketing copy was quoted because no brand page was fetched and no product on site carries it; the
+    quarantined section says so explicitly rather than being omitted. ZERO Apify spend; PubMed only. 18
+    quoted strings verified verbatim, 0 misses. Self-verified in the main loop, assurance sonnet,
+    force-published.'
 

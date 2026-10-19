@@ -48,6 +48,9 @@ Glabridin, one of licorice's flavonoid constituents, inhibited tyrosinase activi
 
 ## See Also
 
+- [[licochalcone-a]]: a different licorice constituent, the one used in anti-redness formulas, graded separately and also weak
+
+
 [[hydroquinone]] [[arbutin]] [[kojic-acid]] [[azelaic-acid]] [[niacinamide]]
 
 ## Sources

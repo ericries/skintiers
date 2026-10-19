@@ -1302,3 +1302,16 @@
     so none of those comparisons carries a pooled effect size; the page must say so
     and must not convert directional language into numbers. Mixed etiologies too (18
     of 27 studies are acne scars).'
+- name: Liu 2025 licochalcone A dermatology review (PMID 41181588)
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: licochalcone-a
+  source: 'https://pubmed.ncbi.nlm.nih.gov/41181588/ - the sole evidence spine for
+    the licochalcone-a page and the source of its weak tier, because the review itself
+    states that ''current research is limited by geographical bias, a lack of high-quality
+    randomized controlled trials, and reliance on preclinical models''. PMC full text
+    is OPEN (PMC12571894), so a study page can finally answer what the abstract will
+    not: which clinical studies it means when it says clinical studies have confirmed
+    reduced inflammatory lesions, and whether any of them report an n or an effect
+    size. That is the one thing that could move the tier.'

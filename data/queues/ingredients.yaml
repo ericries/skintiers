@@ -1590,7 +1590,7 @@
     2026 review PMID 41879202)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41879202/
 - name: Sweet almond oil (Prunus amygdalus dulcis), emollient plant oil common as
@@ -2251,3 +2251,16 @@
     for infrared as a modality, so every one of those pages has to argue the distinction
     from scratch. Grade what infrared alone and infrared-plus-red actually have behind
     them; do NOT let it inherit the blue-red acne grade.
+- name: 'Glycyrrhiza uralensis vs Glycyrrhiza glabra: which licorice species and which
+    constituent'
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: licochalcone-a
+  source: 'MAINTENANCE framing, not a new page unless it earns one: the site now has
+    licorice-root-extract (glabridin / dipotassium glycyrrhizate, tier weak) and licochalcone-a
+    (from Glycyrrhiza uralensis per PMID 41181588, tier weak), and a reader cannot
+    tell from an INCI line which constituent a ''licorice root extract'' entry actually
+    delivers. Resolve whether INCI labelling distinguishes the species and constituents
+    at all; if it does not, say so on BOTH pages rather than creating a third. That
+    absence would itself be the useful finding.'

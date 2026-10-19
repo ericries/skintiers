@@ -80,7 +80,7 @@
   discovered_from: null
   source: null
   note: reconciled (robust)
-- name: Avène Mineral Ultra-Light SPF 50+
+- name: "Av\xE8ne Mineral Ultra-Light SPF 50+"
   type: product
   priority: 8
   status: done
@@ -2559,15 +2559,15 @@
   status: done
   discovered_from: null
   source: https://incidecoder.com/products/paula-s-choice-skin-perfecting-8-aha-gel-exfoliant
-- name: The Ordinary Niacinamide 10% + Zinc 1% (very cheap oily-skin/sebum serum)
-    — check if already on-site before drafting
+- name: "The Ordinary Niacinamide 10% + Zinc 1% (very cheap oily-skin/sebum serum)\
+    \ \u2014 check if already on-site before drafting"
   type: product
   priority: 5
   status: done
   discovered_from: null
   source: https://incidecoder.com/products/the-ordinary-niacinamide-10-zinc-1
-- name: Banila Co Clean It Zero Purifying Cleansing Balm (Tea-Tree EX / pore-clarifying
-    variant) — the oily/acne-prone version of the viral cleansing balm
+- name: "Banila Co Clean It Zero Purifying Cleansing Balm (Tea-Tree EX / pore-clarifying\
+    \ variant) \u2014 the oily/acne-prone version of the viral cleansing balm"
   type: product
   priority: 5
   status: done
@@ -3106,17 +3106,17 @@
   priority: 5
   status: pending
   discovered_from: revive-light-therapy-lux-spot
-  source: 'The two Lux Collection members NOT already queued (the Glo entry covers
-    Glo). Both named in the reVive range navigation on ledtechnologies.com, cached
-    2026-10-16. Same caveat as the Glo entry, none of the 15 LED Technologies 510(k)
-    records is named Lux. Sonique appears to be a cleansing/sonic device rather than
-    a light device, so confirm which modality each one actually is before drafting.
-    PRICES VERIFIED 2026-10-18 from the brand shop-all page (cached): Lux Clinical
-    $199.00, Lux Soniqué $199.00, Lux Soniqué Mini $129.00. Note from the LED Cleansing
-    System page: the cleared trade name ''LED Cleansing System'' (K180445/K180447/K221430)
-    no longer appears in the range while two Soniqué cleansers do, so check whether
-    a Soniqué IS one of those clearances renamed. Do NOT assume it; that page explicitly
-    declines the inference.'
+  source: "The two Lux Collection members NOT already queued (the Glo entry covers\
+    \ Glo). Both named in the reVive range navigation on ledtechnologies.com, cached\
+    \ 2026-10-16. Same caveat as the Glo entry, none of the 15 LED Technologies 510(k)\
+    \ records is named Lux. Sonique appears to be a cleansing/sonic device rather\
+    \ than a light device, so confirm which modality each one actually is before drafting.\
+    \ PRICES VERIFIED 2026-10-18 from the brand shop-all page (cached): Lux Clinical\
+    \ $199.00, Lux Soniqu\xE9 $199.00, Lux Soniqu\xE9 Mini $129.00. Note from the\
+    \ LED Cleansing System page: the cleared trade name 'LED Cleansing System' (K180445/K180447/K221430)\
+    \ no longer appears in the range while two Soniqu\xE9 cleansers do, so check whether\
+    \ a Soniqu\xE9 IS one of those clearances renamed. Do NOT assume it; that page\
+    \ explicitly declines the inference."
 - name: reVive Lux Clinical (handheld LED face device, $199)
   type: product
   priority: 5
@@ -3297,3 +3297,15 @@
     asserted Cutera as the manufacturer, which the abstract does not state and I had
     not verified. The maker is UNRESOLVED and must come from openFDA or the device''s
     own labelling.'
+- name: Eucerin Redness Relief / Anti-Redness range (licochalcone A formulas)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: licochalcone-a
+  source: The new licochalcone-a page had to state that NO product on this site is
+    known to contain it, which is a catalog hole for an active with its own page.
+    Licochalcone A is the licorice fraction marketed in anti-redness lines. RESOLVE
+    THE IDENTITY FIRST from the brand's own site or an INCI listing (scripts/inci_lookup.py)
+    before drafting, and do not assume which SKUs in the range actually list it; the
+    page must name the product whose INCI you verified, not the range. Grade the product
+    against the licochalcone-a tier of weak rather than the brand's redness claims.
