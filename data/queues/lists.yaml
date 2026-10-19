@@ -438,3 +438,14 @@
     revive-light-therapy-lux-spot, revive-light-therapy-led-cleansing-system, neutrogena-light-therapy-acne-mask-plus,
     pulsaderm-acne-mask-28. Curatorial only; the axis is DISCLOSURE, which must not
     be presented as efficacy.'
+- name: Home radiofrequency devices by evidence
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: newa-skin-therapy-system
+  source: 'The RF rung on home-use-skincare-devices-by-evidence is now fillable and
+    the evidence splits cleanly, which is what makes a list worth building: NEWA came
+    in by De Novo with an FDA-reviewed clinical study (uncontrolled, 62 completers),
+    while the other 11 devices under product code PAY came in by 510(k) substantial
+    equivalence. Build only AFTER at least two more PAY device pages exist. The axis
+    is the regulatory pathway and what evidence each one actually required, not marketing.'

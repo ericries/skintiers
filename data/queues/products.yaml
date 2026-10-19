@@ -2986,7 +2986,7 @@
 - name: FDA-cleared home RADIOFREQUENCY device (identity unresolved)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: nuface-trinity-microcurrent-device
   source: RE-QUEUED CORRECTLY. My earlier entry said 'microcurrent/RF' and was filled
     by NuFACE, which is microcurrent. Checking PMID 42545315 showed the word microcurrent
@@ -3231,3 +3231,35 @@
     phototypes I to IV only, which excludes deeper phototypes. PDF at accessdata.fda.gov/cdrh_docs/pdf24/K242747.pdf;
     note its text layer garbles Roman numerals, so read severity grades from the image
     if quoting.'
+- name: Silk'n Titan Allways (home RF, K230013)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: newa-skin-therapy-system
+  source: openFDA product_code PAY, decision 2023-08-30, 510(k) Summary, applicant
+    Silk'N Beauty Ltd. One of 12 devices under the OTC radiofrequency classification
+    the NEWA De Novo created. Unlike NEWA it came in by 510(k) substantial equivalence,
+    so check whether its Summary rests on clinical or nonclinical testing; that contrast
+    with NEWA's De Novo clinical study is the point of the page. accessdata.fda.gov/cdrh_docs/pdf23/K230013.pdf
+- name: CurrentBody Skin RF (K232424)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: newa-skin-therapy-system
+  source: openFDA product_code PAY, decision 2024-03-06, 510(k) Summary, applicant
+    El Global Trade Ltd (same applicant as sensiLift K170499 and Sensilift Pro K250341).
+    CurrentBody is a widely marketed home-device brand with no page here at all. Pull
+    accessdata pdf23/K232424.pdf for the cleared indication and the testing basis,
+    and note that three devices under this code share one applicant, which is worth
+    stating plainly.
+- name: Pollogen STOP U / TriPollar (home RF, K182774, K203665, K220322)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: newa-skin-therapy-system
+  source: THREE separate clearances for the same STOP U device family under product
+    code PAY (2019-06-19, 2021-02-25, 2023-05-04), all 510(k) Summaries, applicant
+    Pollogen Ltd. Pollogen also holds Geneo X Elite twice under the same code. Resolve
+    which retail name (TriPollar STOP is the one consumers know) maps to which K-number
+    BEFORE drafting; this is the same retail-to-clearance naming gap documented on
+    the reVive and FOREO pages.

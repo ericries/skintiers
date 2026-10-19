@@ -13103,4 +13103,38 @@ foreo-faq-led-masks:
     Also linked the new page from the FOREO brand page. ZERO Apify spend; openFDA plus three FDA PDFs.
     18 substantive quotes verified verbatim, 0 misses. Self-verified in the main loop, assurance sonnet,
     force-published.'
+newa-skin-therapy-system:
+  last_reviewed: '2026-10-19'
+  note: 'The queue item was deliberately filed with identity UNRESOLVED and told me to resolve a real
+    cleared device from openFDA before drafting, rejecting outright if nothing matched. Resolved: searching
+    device_name for radiofrequency returned 55 records, all professional or surgical, so I went at it by
+    applicant and found DEN150005, the EndyMed NEWA. It is a DE NOVO, not a 510(k), and that is the finding.
+    WHY IT MATTERS: the De Novo created the entire category. New generic type "Electrosurgical device for
+    over-the-counter aesthetic use", new regulation 21 CFR 878.4420, Class II, product code PAY. Querying
+    that product code returns 12 devices, so this one grant is the regulatory ancestor of every home RF
+    device now sold, and it is the only one reviewed on its own clinical evidence rather than by
+    substantial equivalence. That fills the empty RF rung the queue note was chasing.
+    THE SKEPTICAL READ, which is the page''s core: the clinical study is real and FDA-reviewed, 69 enrolled
+    and 62 completing, three independent dermatologists scoring the Fitzpatrick Wrinkle Severity Scale,
+    95.16% success at four weeks and 100% at three months against a pre-specified 75% bar. But the words
+    sham, randomized, split-face, single-arm and open-label appear NOWHERE in the decision summary, which
+    describes only a prospective single-center study. There is no control arm. A one-grade photographic
+    threshold with no control is exactly the design that produces a 100% success rate, and the page says
+    so rather than reporting 100% as an achievement. Graded effect:modest, evidence:preliminary, while
+    acknowledging this is still the best-documented home device on the site.
+    Also surfaced and carried: the indication is adult WOMEN only and Fitzpatrick I to IV only, so deeper
+    skin tones are outside it; FDA added a follicular-burn warning after finding no facial-hair data; and
+    the category''s special controls require a label-comprehension and self-selection study, which this
+    device passed and which foreo-faq-led-masks explicitly did not conduct.
+    CORRECTED YESTERDAY''S FOREO PAGE. The PAY query showed K222012 (FAQ 101) and K240616 (FAQ 102) are
+    classified under the OTC RADIOFREQUENCY code, not an LED code, so calling the FAQ line "its LED range"
+    was wrong. Fixed with a new sourced footnote. Careful about the limit of the evidence: a product code
+    records the classification FDA assigned, so the page states those two are CLASSIFIED as OTC RF devices
+    and explicitly does NOT claim they contain no LEDs, since the Statement filings publish no emitter list.
+    TWO QUOTE DEFECTS CAUGHT BY THE CHECK: (a) I had put my own paraphrase in quotation marks, where it
+    read as a source quote; unquoted now. (b) A quoted regulation number omitted the section sign the PDF
+    prints, so it is reported rather than quoted. Also extended the verbatim normalizer to fold U+2010
+    HYPHEN, which FDA PDFs use in "Non-clinical" and which had made a faithful quote look like a mismatch.
+    Final: 30 substantive quotes verified, 0 misses. ZERO Apify spend; openFDA plus one FDA PDF. No price,
+    stated plainly. Self-verified in the main loop, assurance sonnet, force-published.'
 
