@@ -2264,3 +2264,16 @@
     delivers. Resolve whether INCI labelling distinguishes the species and constituents
     at all; if it does not, say so on BOTH pages rather than creating a third. That
     absence would itself be the useful finding.'
+- name: Basic fibroblast growth factor (bFGF) in post-procedure acne scar treatment
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: atrophic-acne-scar-subtypes
+  source: Ranked HIGHEST for ECCA score improvement in PMID 42429955 as part of MFR
+    + bFGF (microneedling fractional radiofrequency plus bFGF), out of 34 interventions
+    across 56 RCTs, yet the site has no page for it and the same abstract calls it
+    'promising but require further validation'. Grade it honestly as an adjunct with
+    one favourable NMA ranking and no standalone evidence reviewed here, NOT as a
+    top treatment. Note it is an injectable or post-procedure topical in a clinical
+    setting, not a consumer skincare ingredient, so set the scope the way the azathioprine
+    page does for a systemic drug.

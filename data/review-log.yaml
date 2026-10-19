@@ -13302,4 +13302,31 @@ proya:
     pages rather than this one case, and its note warns it must report only what each publication record
     shows rather than becoming a list of accusations. Saccharide isomerate was already queued.
     Self-verified in the main loop, assurance sonnet, force-published.'
+atrophic-acne-scar-subtypes:
+  last_reviewed: '2026-10-19'
+  note: 'The routing layer the acne-scar cluster was missing. 17 quotes verified verbatim across three
+    PubMed abstracts, 0 misses.
+    THE FINDING is structural and triple-sourced, which is why the page earns existing rather than being a
+    section on acne-scars. The classification system is the basis clinicians are told to select on: the
+    2026 NMA of 56 RCTs concludes "Treatment selection should consider scar type, Fitzpatrick skin
+    phototype, downtime, pain, adverse-effect risk, and patient preference." But the trials do not record
+    it. The 2019 review built AROUND the icepick/rolling/boxcar scheme reports that "the acne scar type was
+    frequently undefined, making comparison between them difficult", and the 2026 phenotype-focused review
+    found that "No included trial reported treatment effects by scar morphology". So the literature omits
+    the single variable it tells clinicians to use. The page says plainly that no ranking on this site is
+    subtype-specific, which is worth knowing before paying for a course of treatment.
+    I DID NOT WRITE A SELF-DIAGNOSIS GUIDE, and that was the main restraint. The obvious page here
+    describes icepick as narrow and deep, boxcar as wide with sharp edges, rolling as undulating. Those
+    descriptions are textbook, but NONE of the three sources publishes morphological criteria, and the
+    How-to-know section says so explicitly instead of supplying remembered definitions. It gives the reader
+    the question to ask a clinician instead. Writing confident clinical criteria from memory is exactly the
+    failure that produced the "require alternative therapy" fabrication earlier this week.
+    NO tier_list, deliberately, against the playbook preference. A per-subtype grading is precisely what
+    the evidence cannot support, and the page explains why rather than inventing buckets.
+    Only the mechanical claim about rolling scars and tethering is asserted, because subcision exists to
+    release tethers and that page already carries it; everything else routes out.
+    Also resolved the older narrower queue entry for rolling scars, which this supersedes, and linked the
+    page from the acne-scars hub. Cross-feed found the sharpest remaining gap: icepick is the subtype with
+    NO procedure page, so punch excision and elevation are queued. ZERO Apify spend; PubMed only.
+    Self-verified in the main loop, assurance sonnet, force-published.'
 

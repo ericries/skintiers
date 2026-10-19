@@ -119,6 +119,7 @@ The evidence splits by scar type and mostly lives on other pages. For atrophic s
 - [[subcision]]: for tethered rolling scars specifically, where the stand-alone evidence is thinner than its popularity
 - [[platelet-rich-plasma-acne-scars]]: the add-on that ranks best alongside laser on one scar scale, and not on the others
 - [[acne-scar-procedures-by-evidence]]: the procedures ranked side by side, where every top-ranked option turns out to be a laser combination
+- [[atrophic-acne-scar-subtypes]]: icepick, boxcar and rolling, why your subtype decides what is even possible, and why the trials do not record it
 
 ## Sources
 

@@ -1315,3 +1315,17 @@
     not: which clinical studies it means when it says clinical studies have confirmed
     reduced inflammatory lesions, and whether any of them report an n or an effect
     size. That is the one thing that could move the tier.'
+- name: Ou 2026 laser/microneedling/combination NMA for moderate-to-severe atrophic
+    acne scars (PMID 42429955)
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: atrophic-acne-scar-subtypes
+  source: 'https://pubmed.ncbi.nlm.nih.gov/42429955/ - the LARGEST acne-scar NMA the
+    site has found: 56 RCTs, 1488 patients, 34 interventions, Bayesian, GRADE, searched
+    to 2025-08-10. Worth a study page because it is now the THIRD analysis to name
+    a DIFFERENT top combination (MFR+bFGF on ECCA, CO2+subcision and CO2+PRP on Goodman-Baron
+    and satisfaction) against Wu 2025 (laser+PRP on ECCA) and Li 2024 (microneedling+chemical
+    peel). Three analyses, three winners, is the strongest argument yet for the Liu
+    2026 position that no dependable ranking exists. Recover the SUCRA table and the
+    sensitivity analyses, which the abstract says were sensitive to network connectivity.'

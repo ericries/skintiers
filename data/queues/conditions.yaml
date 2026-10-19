@@ -360,7 +360,7 @@
 - name: Atrophic acne scar subtypes (ice pick, boxcar, rolling)
   type: condition
   priority: 5
-  status: pending
+  status: done
   discovered_from: fractional-co2-laser-resurfacing
   source: 'Every source behind the procedure pages conditions its advice on scar TYPE:
     PMID 42429955 says selection ''should consider scar type, Fitzpatrick skin phototype,
@@ -453,7 +453,7 @@
 - name: Rolling acne scars (tethered scars treated by subcision)
   type: condition
   priority: 5
-  status: pending
+  status: done
   discovered_from: acne-scar-procedures-by-evidence
   source: The new list had to note that the ECCA and Goodman and Baron severity scales
     do not isolate tethered rolling scars, which is exactly why subcision's rank cannot

@@ -356,3 +356,16 @@
     while its efficacy edge did NOT survive the randomized-only analysis (RR 0.76,
     95% CI 0.54-1.08). Five studies, 130 analyzed participants, so flag the small
     n. Erbium is also the laser type named in PMID 40911753 for lower-eyelid work.'
+- name: Punch excision and punch elevation for icepick and boxcar scars
+  type: goal
+  priority: 5
+  status: pending
+  discovered_from: atrophic-acne-scar-subtypes
+  source: The gap the new subtype page exposes most sharply. Icepick scars are the
+    subtype with NO procedure page here, and the surgical options named in PMID 30856634
+    ('surgical modalities, such as subcision, and punch excision and elevation') are
+    the ones classically aimed at narrow deep scars. The site has subcision but nothing
+    on punch techniques. Source the technique and its evidence from a primary; expect
+    the evidence to be thin and say so, since PMID 30856634 itself reports few high-quality
+    studies and PMID 42745895 found no trial reporting results by scar morphology
+    at all.
