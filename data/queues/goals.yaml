@@ -317,3 +317,16 @@
     2026-10-19: nothing matches exfoliat* or cell-turnover under data/goals or data/ingredients.
     A hub should grade AHA vs BHA vs PHA vs LHA by evidence and state plainly that
     removing dead cells is not the same mechanism as increasing turnover.'
+- name: Aftercare and recovery following ablative laser resurfacing
+  type: goal
+  priority: 5
+  status: pending
+  discovered_from: karimi-2025-neurocosmetic-post-procedure-cream
+  source: 'The site has fractional-co2-laser-resurfacing for the procedure but nothing
+    on what to put on skin afterwards, which is the question patients actually ask
+    and the gap PMID 40911753 tried to address with an unnamed cream and no numbers.
+    Build it from real evidence: look for controlled trials of petrolatum or plain
+    occlusives versus branded post-procedure products, and state plainly if the controlled
+    evidence is thin, which the Karimi record suggests it is. petrolatum already has
+    a page. Do NOT cite PMID 40911753 as support for anything; the study page explains
+    why.'

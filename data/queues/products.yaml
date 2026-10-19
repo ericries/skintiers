@@ -80,7 +80,7 @@
   discovered_from: null
   source: null
   note: reconciled (robust)
-- name: "Av\xE8ne Mineral Ultra-Light SPF 50+"
+- name: Avène Mineral Ultra-Light SPF 50+
   type: product
   priority: 8
   status: done
@@ -2559,15 +2559,15 @@
   status: done
   discovered_from: null
   source: https://incidecoder.com/products/paula-s-choice-skin-perfecting-8-aha-gel-exfoliant
-- name: "The Ordinary Niacinamide 10% + Zinc 1% (very cheap oily-skin/sebum serum)\
-    \ \u2014 check if already on-site before drafting"
+- name: The Ordinary Niacinamide 10% + Zinc 1% (very cheap oily-skin/sebum serum)
+    — check if already on-site before drafting
   type: product
   priority: 5
   status: done
   discovered_from: null
   source: https://incidecoder.com/products/the-ordinary-niacinamide-10-zinc-1
-- name: "Banila Co Clean It Zero Purifying Cleansing Balm (Tea-Tree EX / pore-clarifying\
-    \ variant) \u2014 the oily/acne-prone version of the viral cleansing balm"
+- name: Banila Co Clean It Zero Purifying Cleansing Balm (Tea-Tree EX / pore-clarifying
+    variant) — the oily/acne-prone version of the viral cleansing balm
   type: product
   priority: 5
   status: done
@@ -3106,17 +3106,17 @@
   priority: 5
   status: pending
   discovered_from: revive-light-therapy-lux-spot
-  source: "The two Lux Collection members NOT already queued (the Glo entry covers\
-    \ Glo). Both named in the reVive range navigation on ledtechnologies.com, cached\
-    \ 2026-10-16. Same caveat as the Glo entry, none of the 15 LED Technologies 510(k)\
-    \ records is named Lux. Sonique appears to be a cleansing/sonic device rather\
-    \ than a light device, so confirm which modality each one actually is before drafting.\
-    \ PRICES VERIFIED 2026-10-18 from the brand shop-all page (cached): Lux Clinical\
-    \ $199.00, Lux Soniqu\xE9 $199.00, Lux Soniqu\xE9 Mini $129.00. Note from the\
-    \ LED Cleansing System page: the cleared trade name 'LED Cleansing System' (K180445/K180447/K221430)\
-    \ no longer appears in the range while two Soniqu\xE9 cleansers do, so check whether\
-    \ a Soniqu\xE9 IS one of those clearances renamed. Do NOT assume it; that page\
-    \ explicitly declines the inference."
+  source: 'The two Lux Collection members NOT already queued (the Glo entry covers
+    Glo). Both named in the reVive range navigation on ledtechnologies.com, cached
+    2026-10-16. Same caveat as the Glo entry, none of the 15 LED Technologies 510(k)
+    records is named Lux. Sonique appears to be a cleansing/sonic device rather than
+    a light device, so confirm which modality each one actually is before drafting.
+    PRICES VERIFIED 2026-10-18 from the brand shop-all page (cached): Lux Clinical
+    $199.00, Lux Soniqué $199.00, Lux Soniqué Mini $129.00. Note from the LED Cleansing
+    System page: the cleared trade name ''LED Cleansing System'' (K180445/K180447/K221430)
+    no longer appears in the range while two Soniqué cleansers do, so check whether
+    a Soniqué IS one of those clearances renamed. Do NOT assume it; that page explicitly
+    declines the inference.'
 - name: reVive Lux Clinical (handheld LED face device, $199)
   type: product
   priority: 5
@@ -3282,3 +3282,18 @@
     the label''s own scope admissions against Lotrimin Ultra''s ''Effectiveness on
     the bottom or sides of foot is unknown'', since that sentence is what made the
     Lotrimin page worth writing.'
+- name: Contour TRL (tunable erbium:YAG ablative resurfacing laser, manufacturer unresolved)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: karimi-2025-neurocosmetic-post-procedure-cream
+  source: 'The named device in PMID 40911753: ''Contour Tunable Resurfacing Laser
+    (TRL)'', described there as a fully ablative erbium:YAG used on the lower eyelid.
+    Resolve the manufacturer and the 510(k) record from the free openFDA device/510k
+    API BEFORE drafting; the abstract does not name the maker and this page must not
+    assume one. It would be the site''s first PROFESSIONAL (in-office) laser device
+    page, which is a different grading problem from the home devices already covered,
+    so set the scope deliberately. NAME CORRECTED 2026-10-19: this entry originally
+    asserted Cutera as the manufacturer, which the abstract does not state and I had
+    not verified. The maker is UNRESOLVED and must come from openFDA or the device''s
+    own labelling.'

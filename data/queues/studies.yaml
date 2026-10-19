@@ -756,7 +756,7 @@
     and Enhancing Lower Eye (PMID 40911753)
   type: study
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/40911753/
 - name: 'Amin 2025 Oral Hyaluronic Acid Supplement: Efficacy in Skin Hydration, Elasticity,
@@ -1264,3 +1264,14 @@
     recover the per-comparison effect sizes and credible intervals, since the abstract
     gives a ranking with no numbers attached, and should check whether any included
     trial names the peel agent and concentration (no abstract in this cluster does).
+- name: A properly reported RCT of post-ablative-laser topical aftercare
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: karimi-2025-neurocosmetic-post-procedure-cream
+  source: 'The gap PMID 40911753 exposes. Search PubMed for randomized trials of post-laser
+    topical aftercare that actually report n, allocation and a statistic (terms: ablative
+    laser resurfacing aftercare randomized erythema healing). PubMed indexes the Karimi
+    paper as a Randomized Controlled Trial while its abstract states no randomization,
+    no n and no p-value, so the aftercare question currently has no citable answer
+    on this site. Prefer a trial naming its comparator product or using plain petrolatum.'

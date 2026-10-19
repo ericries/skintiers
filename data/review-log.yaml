@@ -13162,4 +13162,34 @@ lotrimin-ultra-athletes-foot-cream:
     ALREADY queued, so the brand-confusion angle went on via sk queue-note instead of a second entry. Both
     the Lamisil and Lotrimin AF notes say to verify the C-code from the SPL rather than inferring approval
     status from this page. Self-verified in the main loop, assurance sonnet, force-published.'
+karimi-2025-neurocosmetic-post-procedure-cream:
+  last_reviewed: '2026-10-19'
+  note: 'An UNUSABLE study, recorded deliberately as such. The study scope demands design, n, intervention
+    vs comparator and the primary result WITH NUMBERS. This abstract supplies none of those, so no
+    compliant study page could be written from it and I wrote the negative record instead. That is the
+    useful artifact: without it, a later pass reading "reduced erythema better than the comparator after 3
+    days" could cite this as evidence.
+    WHAT IS ACTUALLY MISSING: no sample size, no age or skin-type distribution, no allocation or blinding,
+    no endpoint, no effect size, no confidence interval, no p-value. Both products are unnamed, the test
+    cream appearing only as "PPC" and the comparator only as "the commonly used anhydrous topical", so the
+    comparison cannot even be identified, let alone reproduced.
+    THE SHARPEST FINDING: PubMed indexes the publication type as Randomized Controlled Trial, while the
+    abstract never states that anyone was randomized and calls itself a pilot study. Anyone filtering
+    PubMed by publication type would pull this in as an RCT. The page leads on that gap.
+    THREE SUPPORTING CAUTIONS, all verifiable: the abstract states an aim of "improving patient retention",
+    a clinic business outcome rather than a clinical endpoint; "neurocosmetic" is marketing vocabulary, not
+    a pharmacological or regulatory class; and the PubMed record carries NO Affiliation elements and NO
+    CoiStatement element, with no PMC full text.
+    RESTRAINT ON THE SPONSORSHIP QUESTION: the author list looked to me like it might include industry
+    R&D staff, and I did NOT say so. PubMed records no affiliations, so sponsorship cannot be assessed
+    either way, and the page says exactly that rather than insinuating. The absences reported are absences
+    in the record as fetched, which the footnote states explicitly so they are not read as claims about the
+    paper''s contents.
+    SELF-CORRECTION in cross-feed: I queued the named laser as "Contour TRL (Cutera ...)", asserting a
+    manufacturer the abstract does not state and that I had not verified, in the very same entry whose note
+    says the maker must be resolved from openFDA first. Renamed to "manufacturer unresolved" with the
+    correction recorded in the entry. ZERO Apify spend; PubMed only. 20 quoted strings verified, the two
+    reported misses being the publication-type values which come from the XML record rather than the
+    abstract text and were confirmed there. Self-verified in the main loop, assurance sonnet,
+    force-published.'
 
