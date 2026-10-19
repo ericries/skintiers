@@ -461,3 +461,15 @@
     at once; the rolling subtype is the one with a specific mechanism (fibrous tethers)
     and a specific procedure. Only build it if the subtype genuinely has its own evidence;
     otherwise strengthen the section on acne-scars instead.
+- name: Androgenetic alopecia (pattern hair loss)
+  type: condition
+  priority: 5
+  status: pending
+  discovered_from: foreo-faq-led-masks
+  source: Surfaced because FAQ 302 (K242747) is cleared specifically 'to promote hair
+    growth in males with androgenetic alopecia' and the site has no hub for it, so
+    the FOREO page cannot route readers anywhere. Note the site also lacks a minoxidil
+    page (checked 2026-10-18), and several rostered dermatology creators have hair-loss
+    videos that currently have nowhere to attach. If hair is in scope this is the
+    entry point; if it is not, resolve this entry with that decision recorded so it
+    stops resurfacing.

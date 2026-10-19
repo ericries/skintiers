@@ -13073,4 +13073,34 @@ chemical-peels-acne-scars:
     page existed. That is no longer true, so it now links here. Leaving it would have been a silent
     inaccuracy of the same kind as correcting a body quote and not its footnote.
     ZERO Apify spend. Self-verified in the main loop, assurance sonnet, force-published.'
+foreo-faq-led-masks:
+  last_reviewed: '2026-10-18'
+  note: 'The queue note sent me to K242747 because it is one of only two FOREO clearances filed as a
+    Summary, expecting it to be the one FAQ file that describes predicate and testing for the LED mask
+    line. It IS the only readable FAQ file, and reading it produced a better finding than expected: the
+    FAQ 302 is a HAIR-GROWTH device for androgenetic alopecia, built on 20 laser diodes at 650 plus or
+    minus 10nm and 20 red LEDs, with predicates K210169 and HairMax LaserComb 41. Its own section 8 reads
+    "Clinical testing was considered not to be needed for this 510(k)". So the single FAQ device whose file
+    you can read is not a face mask, and it was cleared on nonclinical testing. Every FACIAL FAQ clearance
+    (K222012, K240378, K240616, K253683) is a Statement and publishes nothing about testing.
+    THE GRADE TURNS ON ONE WORD. K253683 cleared the acne mode as blue plus INFRARED. The pairing the 2026
+    GRADE review grades at Level B is blue plus RED. Infrared is not red, the review does not grade that
+    combination, and nothing else consulted does either, so the acne grade here is effect:minimal rather
+    than the modest the other blue-red devices on this site earned. A device cannot inherit a grade for a
+    combination it does not emit. This is the sharpest single distinction drawn in the device cluster so
+    far, and it came from reading the Indications sheet rather than the marketing.
+    CAREFUL HANDLING: (a) K222012 was also fetched and its text layer yielded NO extractable Indications
+    wording, so no indication is attributed to it; the quoted facial indication is attributed to K253683
+    alone rather than assumed to cover the whole line. (b) The FAQ 302 indication restricts use by
+    Hamilton-Norwood and Ludwig-Savin severity grades and to Fitzpatrick phototypes I to IV, but the PDF
+    text layer renders Roman numerals ambiguously ("Ila" for "IIa"), so those grades are reported in words
+    and NOT quoted verbatim, with the reason stated in the footnote. The phototype restriction is itself
+    worth surfacing: deeper phototypes are outside what that device was cleared for. (c) No price: the
+    brand URL tried returned a 404 and no metered call was spent hunting for another, which the page says
+    plainly. (d) Credit given for what the one open file does well, since it is a real engineering document
+    with named predicates and ISO/IEC testing; the criticism is that it is not a clinical result, which the
+    file itself states.
+    Also linked the new page from the FOREO brand page. ZERO Apify spend; openFDA plus three FDA PDFs.
+    18 substantive quotes verified verbatim, 0 misses. Self-verified in the main loop, assurance sonnet,
+    force-published.'
 

@@ -2239,3 +2239,15 @@
     approach the 2026 review says no pooled trial has tested. Grade it as a CLINICAL
     procedure agent, not a topical, and source the concentration and risk profile
     from a primary; do not carry over glycolic or salicylic topical evidence.
+- name: Infrared light (near-infrared, 800-900nm) in home skincare devices
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: foreo-faq-led-masks
+  source: The gap that decided a grade on this page. The 2026 GRADE review (PMID 42545315)
+    grades blue and blue-plus-RED for acne, but several cleared devices pair blue
+    with INFRARED instead (FOREO FAQ LED Panel K253683) or add 880nm infrared to red
+    (reVive Essentials, reVive LED Cleansing System K180445). The site has no page
+    for infrared as a modality, so every one of those pages has to argue the distinction
+    from scratch. Grade what infrared alone and infrared-plus-red actually have behind
+    them; do NOT let it inherit the blue-red acne grade.

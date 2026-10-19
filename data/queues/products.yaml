@@ -2972,7 +2972,7 @@
 - name: FOREO FAQ LED face mask
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: foreo-espada-blue-light-pen
   source: 'FOREO''s LED MASK line, covering FIVE separate clearances in the openFDA
     applicant query run for the ESPADA page: K222012 (FAQ 101), K240378 (FAQ 201,
@@ -3217,3 +3217,17 @@
     evidence. It is also the only at-home option of the two, which is why it will
     be the one readers ask about. Confirm the marketing category is NDA before writing
     FDA-approved.'
+- name: FOREO FAQ 302 hair-growth device (K242747)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: foreo-faq-led-masks
+  source: 'The ONLY FAQ clearance filed as a Summary, and it is a scalp device, not
+    a face mask. 20 laser diodes at 650 plus or minus 10nm and 20 red LEDs at 640-660nm;
+    predicates K210169 and HairMax LaserComb 41 (K142573); its own section 8 states
+    ''Clinical testing was considered not to be needed for this 510(k)''. Worth its
+    own page because the cleared indication is NARROW in a way buyers would not expect:
+    specific Hamilton-Norwood and Ludwig-Savin severity grades AND Fitzpatrick skin
+    phototypes I to IV only, which excludes deeper phototypes. PDF at accessdata.fda.gov/cdrh_docs/pdf24/K242747.pdf;
+    note its text layer garbles Roman numerals, so read severity grades from the image
+    if quoting.'

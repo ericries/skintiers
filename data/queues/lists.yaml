@@ -425,3 +425,16 @@
     hydroquinone, cysteamine, azelaic-acid, melasma. Curatorial only. Melasma differs
     from post-inflammatory pigment in relapse rate, which is the axis a melasma list
     should grade on.'
+- name: Home LED devices by whether you can read the clearance file
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: foreo-faq-led-masks
+  source: 'Now fully supported by real counts rather than impressions. FOREO: 8 of
+    10 clearances are Statements that publish nothing, and both Summaries are outside
+    its facial LED range. NuFACE: all 14 are Summaries. LED Technologies (reVive):
+    all 15 are Summaries. Pages that would populate it already exist: foreo-faq-led-masks,
+    foreo-espada-blue-light-pen, nuface-trinity-microcurrent-device, revive-light-therapy-lux-glo,
+    revive-light-therapy-lux-spot, revive-light-therapy-led-cleansing-system, neutrogena-light-therapy-acne-mask-plus,
+    pulsaderm-acne-mask-28. Curatorial only; the axis is DISCLOSURE, which must not
+    be presented as efficacy.'
