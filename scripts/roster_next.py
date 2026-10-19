@@ -81,11 +81,19 @@ def main(argv=None):
 
     # backfill: smallest backfill_cursor among flagship (or all HIGH with --all-high)
     pool = [r for r in yt if (r.get("tier") == "HIGH" if args.all_high else r.get("flagship"))]
-    pool = [r for r in pool if r.get("backfill_cursor") is not None and not r.get("channel_broken")]
+    # A MISSING backfill_cursor means "never swept", which is the HIGHEST priority,
+    # not a reason to exclude. Excluding it meant 9 of the 32 HIGH-tier YouTube
+    # creators could never be picked, while the cron re-selected creators whose
+    # cursor had already run past the end of their catalog and returned empty
+    # slices (observed 2026-10-18). Cursor 9999 is the sentinel for "catalog
+    # exhausted, stop selecting" (see docs/video-backfill-process.md).
+    pool = [r for r in pool
+            if not r.get("channel_broken")
+            and (r.get("backfill_cursor") or 0) < 9999]
     if not pool:
         print("none")
         return 0
-    pick = sorted(pool, key=lambda r: r.get("backfill_cursor"))
+    pick = sorted(pool, key=lambda r: (r.get("backfill_cursor") or 0))
     print(_fmt(pick[0]))
     return 0
 
