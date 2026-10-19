@@ -1237,3 +1237,30 @@
     so the hub states none; a study page should recover the FULL ranking table and
     the single-study entries (Backhousia citriodora oil, Candida albicans antigen)
     that ranked highest but are unvalidated.
+- name: Liu 2026 exploratory NMA of minimally invasive atrophic acne scar treatments
+    (PMID 42745895)
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: chemical-peels-acne-scars
+  source: https://pubmed.ncbi.nlm.nih.gov/42745895/ - the dissenting analysis, and
+    the most useful study page the acne-scar cluster could gain. It restricted itself
+    to records with verifiable source tables so its numbers could be reproduced, found
+    only 9 RCTs forming a sparse network, and concluded that 'a reliable treatment
+    ranking does not currently exist' with CINeMA confidence low or very low. PMC
+    full text is open (PMC13574651), so a study page can recover the full node list,
+    the P-scores, and the sensitivity analyses that flipped the top-ranked treatment.
+    It also discloses NOT searching Embase/CENTRAL/WoS/Scopus/registries, which must
+    be stated so it is not read as superseding the larger analyses.
+- name: Li 2024 microneedling-combination NMA for acne scars (PMID 39110247)
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: chemical-peels-acne-scars
+  source: https://pubmed.ncbi.nlm.nih.gov/39110247/ - 24 studies, 1546 participants,
+    Arch Dermatol Res 2024;316(8):505. The source of the headline that microneedling
+    plus chemical peels beats microneedling with PRP, hyaluronic acid or botulinum
+    toxin A. Cited by chemical-peels-acne-scars and acne-scars. A study page should
+    recover the per-comparison effect sizes and credible intervals, since the abstract
+    gives a ranking with no numbers attached, and should check whether any included
+    trial names the peel agent and concentration (no abstract in this cluster does).

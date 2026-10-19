@@ -200,7 +200,7 @@
 - name: Chemical peels for acne scars and texture
   type: goal
   priority: 5
-  status: pending
+  status: done
   discovered_from: platelet-rich-plasma-acne-scars
   source: 'The add-on that actually WON in two of the three analyses behind platelet-rich-plasma-acne-scars,
     and the site has no page for it. PMID 39110247 (24 studies, 1546 participants):
@@ -294,3 +294,14 @@
     so the list is missing one of its two severity winners. Note the SUCRA caveat
     when grading: 72.1% is compatible with several options being nearly as good, unlike
     the 98.4% for laser plus PRP.'
+- name: Jessner and combination peels for post-acne texture
+  type: goal
+  priority: 5
+  status: pending
+  discovered_from: chemical-peels-acne-scars
+  source: 'Grounded in the gap the new chemical-peels-acne-scars page names explicitly:
+    all three network meta-analyses treat ''chemical peel'' as a single node and none
+    states the agent or depth, so a reader cannot act on the finding. Only build this
+    if a primary source actually compares named peel formulations head to head; if
+    the literature genuinely does not support it, strengthen the agent-unknown section
+    on chemical-peels-acne-scars instead and resolve this entry with that note.'

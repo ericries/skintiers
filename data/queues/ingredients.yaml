@@ -2227,3 +2227,15 @@
     must grade strength against harm rather than treating higher percentages as better.
     Source the caustic-burn risk from a regulatory or poison-control primary, not
     from trial abstracts.'
+- name: Trichloroacetic acid (TCA), including the CROSS technique for icepick scars
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: chemical-peels-acne-scars
+  source: The peel agent most associated with acne-scar work and the one the site
+    completely lacks, which is why chemical-peels-acne-scars has to say the pooled
+    evidence names no agent. TCA CROSS (chemical reconstruction of skin scars) is
+    specifically a focal high-strength application for icepick scars, i.e. the phenotype-specific
+    approach the 2026 review says no pooled trial has tested. Grade it as a CLINICAL
+    procedure agent, not a topical, and source the concentration and risk profile
+    from a primary; do not carry over glycolic or salicylic topical evidence.
