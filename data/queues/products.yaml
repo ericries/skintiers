@@ -3000,7 +3000,7 @@
 - name: Lotrimin Ultra Athlete's Foot Cream (butenafine 1%)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: butenafine
   source: 'The canonical butenafine product: Bayer HealthCare LLC, DailyMed setid
     e258c4ac-53ef-4a99-b732-4985f890b938, marketing category NDA021307, NDC 11523-4338,
@@ -3024,7 +3024,13 @@
     SPL published one at image.cfm?name=...&setid=..., which gave a primary-source
     product photo with no metered call, and the same route is likely to work here.
     Angle: it is the azole the Cochrane head-to-head puts BEHIND allylamines, and
-    it carries no prevention claim.'
+    it carries no prevention claim. NOTE added 2026-10-19 from lotrimin-ultra-athletes-foot-cream.
+    The brand-confusion angle is grounded on the Lotrimin Ultra label itself, whose
+    display panel reads ''Lotrimin Ultra AF 4338''. Lotrimin Ultra is BUTENAFINE and
+    FDA-approved under NDA021307; Lotrimin AF is CLOTRIMAZOLE and probably a monograph
+    product. Same brand, same shelf, different active and different regulatory footing.
+    VERIFY the marketing-category C-code from the SPL before writing either word (C73594
+    is NDA, C73627 is unapproved drug other); do not infer it from the Ultra page.'
 - name: FOREO LUNA 4 plus cleansing device
   type: product
   priority: 5
@@ -3263,3 +3269,16 @@
     which retail name (TriPollar STOP is the one consumers know) maps to which K-number
     BEFORE drafting; this is the same retail-to-clearance naming gap documented on
     the reVive and FOREO pages.
+- name: Lamisil AT Antifungal Cream (terbinafine 1%)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: lotrimin-ultra-athletes-foot-cream
+  source: 'The other OTC antifungal in the same mechanistic family as butenafine,
+    and the terbinafine ingredient page already exists with no product behind it.
+    VERIFY the marketing category from the DailyMed SPL rather than assuming: the
+    Lotrimin Ultra page can say FDA-approved only because its SPL records code C73594
+    NDA with application NDA021307, and the same check must be done here. Also compare
+    the label''s own scope admissions against Lotrimin Ultra''s ''Effectiveness on
+    the bottom or sides of foot is unknown'', since that sentence is what made the
+    Lotrimin page worth writing.'

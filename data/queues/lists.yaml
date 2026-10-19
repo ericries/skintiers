@@ -449,3 +449,16 @@
     while the other 11 devices under product code PAY came in by 510(k) substantial
     equivalence. Build only AFTER at least two more PAY device pages exist. The axis
     is the regulatory pathway and what evidence each one actually required, not marketing.'
+- name: OTC antifungal creams by regulatory footing and labelled scope
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: lotrimin-ultra-athletes-foot-cream
+  source: 'A real axis the site can now populate: lotrimin-ultra-athletes-foot-cream
+    is FDA-APPROVED under NDA021307, while tinactin-antifungal-cream is an OTC monograph
+    tolnaftate product. Ingredient pages exist for butenafine, clotrimazole, terbinafine
+    and tolnaftate. The second column should be LABELLED SCOPE, not just approval:
+    Lotrimin Ultra volunteers that effectiveness on the bottom or sides of the foot
+    is unknown, and whether its competitors make the same admission is the comparison
+    a reader cannot currently make. Curatorial only; build after at least one more
+    antifungal product page exists.'

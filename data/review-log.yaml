@@ -13137,4 +13137,29 @@ newa-skin-therapy-system:
     HYPHEN, which FDA PDFs use in "Non-clinical" and which had made a faithful quote look like a mismatch.
     Final: 30 substantive quotes verified, 0 misses. ZERO Apify spend; openFDA plus one FDA PDF. No price,
     stated plainly. Self-verified in the main loop, assurance sonnet, force-published.'
+lotrimin-ultra-athletes-foot-cream:
+  last_reviewed: '2026-10-19'
+  note: 'The queue called this "mostly assembly" since the butenafine page already carries the Drug Facts,
+    and the page respects that by linking out rather than re-running the pharmacology. 36 substantive
+    quotes verified verbatim against the DailyMed SPL, 0 misses.
+    THE ANGLE, exactly as the queue predicted: this is genuinely FDA-APPROVED, not monograph-accepted. I
+    checked the SPL marketing-category code rather than trusting the queue note, per the standing rule, and
+    it reads C73594 displayName NDA with application NDA021307. So "FDA-approved" is earned here, which is
+    rare on this site.
+    THE BETTER FINDING is the label''s own admission. Immediately after "cures most athlete''s foot between
+    the toes" it says "Effectiveness on the bottom or sides of foot is unknown." A manufacturer volunteering
+    a gap in its own evidence, in the Uses section where buyers look, is worth more than any marketing
+    claim. The moccasin pattern is common, so the page grades that use as effect:none / evidence:anecdotal
+    and routes to a clinician rather than leaving a reader to assume coverage.
+    PACKAGE-SIZE TRAP AVOIDED. The printed display panel shows only the 12 g tube, but the structured
+    package quantities list 12 g, 15 g AND 30 g. The page takes the sizes from the structured listings and
+    the footnote states why, which is the lesson recorded from the earlier How-Supplied mistake.
+    PHOTO: the queue suggested DailyMed media before anything metered. Checked, and this SPL has an EMPTY
+    media list; inci_lookup then returned MISS, which is expected for an OTC drug rather than a cosmetic.
+    Marked image_unresolvable with both attempts named. ZERO Apify spend, no gate call needed.
+    Cross-feed: Lamisil AT and the regulatory-footing list added; a moccasin-pattern MAINTENANCE item filed
+    against the existing athletes-foot page rather than as a duplicate hub; and the Lotrimin AF entry was
+    ALREADY queued, so the brand-confusion angle went on via sk queue-note instead of a second entry. Both
+    the Lamisil and Lotrimin AF notes say to verify the C-code from the SPL rather than inferring approval
+    status from this page. Self-verified in the main loop, assurance sonnet, force-published.'
 
