@@ -23,8 +23,7 @@
   - melasma
   - sunscreen
   status: rejected
-  reject_reason: Brand-owned channel (Isomers Skincare house line), not an independent
-    educator; product recs = own inventory.
+  reject_reason: Brand-owned channel (Isomers Skincare house line), not an independent educator; product recs = own inventory.
 - name: The Budget Dermatologist
   channel_url: https://www.youtube.com/channel/UCDc2wFMXTSApCa4UwDrdz_Q
   hits: 3
@@ -48,9 +47,7 @@
   - hyaluronic acid
   - salicylic acid
   status: rejected
-  reject_reason: Cosmetic-formulation training institute (sells courses); formulator-facing
-    livestreams (how to formulate emulsions/balms, source ingredients), not consumer
-    skincare-evidence content that maps to site pages.
+  reject_reason: Cosmetic-formulation training institute (sells courses); formulator-facing livestreams (how to formulate emulsions/balms, source ingredients), not consumer skincare-evidence content that maps to site pages.
 - name: April Basi
   channel_url: https://www.youtube.com/channel/UCoggt1MMgHRaDZtFYY-2TMg
   hits: 2
@@ -58,18 +55,14 @@
   - benzoyl peroxide
   - melasma
   status: rejected
-  reject_reason: General lifestyle/beauty vlogger (girl-math/first-date, H Mart hauls,
-    hair-product reviews); not a skincare-science creator.
+  reject_reason: General lifestyle/beauty vlogger (girl-math/first-date, H Mart hauls, hair-product reviews); not a skincare-science creator.
 - name: The Skincare Engineer
   channel_url: https://www.youtube.com/channel/UCkPv5aRcNNC_rHL0sJxhViQ
   hits: 1
   topics:
   - niacinamide
   status: rejected
-  reject_reason: Creator (Laura) self-identifies on-camera as a chemical engineering
-    STUDENT and future cosmetic founder, but the channel brands her as a 'cosmetic
-    chemist' (overstated credential); thin 2-video catalog; future own-brand conflict.
-    Content is accurate but the credential bar and trajectory are not met.
+  reject_reason: Creator (Laura) self-identifies on-camera as a chemical engineering STUDENT and future cosmetic founder, but the channel brands her as a 'cosmetic chemist' (overstated credential); thin 2-video catalog; future own-brand conflict. Content is accurate but the credential bar and trajectory are not met.
 - name: Luisa Fanzani
   channel_url: https://www.youtube.com/channel/UC3NJnOSNC-dhB3lyU4IFDSA
   hits: 1
@@ -88,19 +81,14 @@
   topics:
   - salicylic acid
   status: rejected
-  reject_reason: Brand-owned channel (Sandra Lee / SLMD house line); product recs
-    = own inventory, not independent.
+  reject_reason: Brand-owned channel (Sandra Lee / SLMD house line); product recs = own inventory, not independent.
 - name: Skin Chemist
   channel_url: https://www.youtube.com/channel/UCMPpJnaJCveK1d0xlXhxTLw
   hits: 1
   topics:
   - salicylic acid
   status: rejected
-  reason: 'Not a credentialed chemist despite the name: 487 subscribers and a catalog
-    of emoji clickbait framed as hacks, magic and secrets (''Anti-Aging Magic?'',
-    ''Retinal Magic Exposed'', ''Tan Hack Everyone''s Obsessed With''). Consistent
-    with an affiliate or content-farm channel rather than a science-aligned educator.
-    No verifiable formulation or chemistry background found.'
+  reason: 'Not a credentialed chemist despite the name: 487 subscribers and a catalog of emoji clickbait framed as hacks, magic and secrets (''Anti-Aging Magic?'', ''Retinal Magic Exposed'', ''Tan Hack Everyone''s Obsessed With''). Consistent with an affiliate or content-farm channel rather than a science-aligned educator. No verifiable formulation or chemistry background found.'
 - name: Educated Mess
   channel_url: https://www.youtube.com/channel/UCS09mkJRnlBI_Yu0O2A3WKw
   hits: 1
@@ -137,10 +125,7 @@
   topics:
   - rosacea
   status: rejected
-  reason: 'Pseudoscience/misinformation: non-dermatologist "biologist" promoting a
-    personal "reversed my rosacea naturally" cure narrative and telling viewers to
-    replicate it; rosacea is chronic, not naturally reversible. Fails the credibility/no-misinformation
-    gate.'
+  reason: 'Pseudoscience/misinformation: non-dermatologist "biologist" promoting a personal "reversed my rosacea naturally" cure narrative and telling viewers to replicate it; rosacea is chronic, not naturally reversible. Fails the credibility/no-misinformation gate.'
 - name: Tanya Kormeili MD, Board Certified Dermatologist
   channel_url: https://www.youtube.com/channel/UCRK0TPthymHl44WeA0nZ6Mw
   hits: 1
@@ -153,14 +138,7 @@
   topics:
   - melasma
   status: rejected
-  reason: 'Real-seeming credential (channel presents him as a plastic surgeon) but
-    the catalog is celebrity-reaction and cosmetic-surgery entertainment, not evidence-based
-    skincare education: ''Doctor Reacts to MY FEET ARE KILLING ME'', ''Hammerhead
-    Feet'', ''Whose Facelift is Better? Kris Jenner or Denise Richards''. Titles also
-    overstate (''7 PROVEN Skin Hacks to Age in Reverse'', ''These Popular Peptides
-    Are DANGEROUS''), which is the overclaiming this site exists to counter. Own-brand
-    line is a further conflict. Credential not independently verified and the rejection
-    does not rest on it.'
+  reason: 'Real-seeming credential (channel presents him as a plastic surgeon) but the catalog is celebrity-reaction and cosmetic-surgery entertainment, not evidence-based skincare education: ''Doctor Reacts to MY FEET ARE KILLING ME'', ''Hammerhead Feet'', ''Whose Facelift is Better? Kris Jenner or Denise Richards''. Titles also overstate (''7 PROVEN Skin Hacks to Age in Reverse'', ''These Popular Peptides Are DANGEROUS''), which is the overclaiming this site exists to counter. Own-brand line is a further conflict. Credential not independently verified and the rejection does not rest on it.'
 - name: Dr. Aanchal MD
   channel_url: https://www.youtube.com/channel/UCMTl80jTQwGkO335HoVf0ig
   hits: 1
@@ -178,7 +156,8 @@
   hits: 1
   topics:
   - skin barrier
-  status: pending
+  status: rejected
+  reason: brand/retailer channel, not a skincare-science creator (STEP 2a)
 - name: Green Beauty Chemist - R & D Cosmetic Chemist
   channel_url: https://www.youtube.com/channel/UCLILyRkEkHoKqOwcKpUAJuA
   hits: 1
@@ -191,7 +170,8 @@
   topics:
   - referral
   discovered_via: 'referral: mpfOVDGzKXw'
-  status: pending
+  status: rejected
+  reason: brand/retailer channel, not a skincare-science creator (STEP 2a)
 - name: impactmelanoma9815
   channel_url: https://www.youtube.com/@impactmelanoma9815
   hits: 1
@@ -206,9 +186,7 @@
   - hyaluronic acid
   - niacinamide
   status: rejected
-  reason: Facial plastic surgeon; channel dominated by surgery/injectables (facelifts,
-    fillers, Sculptra, Botox) outside topical-skincare scope, plus own-brand KaramMD
-    line
+  reason: Facial plastic surgeon; channel dominated by surgery/injectables (facelifts, fillers, Sculptra, Botox) outside topical-skincare scope, plus own-brand KaramMD line
 - name: MakingCosmetics
   channel_url: https://www.youtube.com/channel/UCnQyAMGY71dAkwNWqvzpKaA
   hits: 1
@@ -393,3 +371,29 @@
   - referral
   discovered_via: 'referral: https://www.tiktok.com/@dermydoctor/video/7697250001159818510'
   status: pending
+- name: Breaking Beauty Podcast
+  channel_url: https://www.youtube.com/channel/UC4mNutK5gW6gkKKhMrvVa0A
+  hits: 1
+  topics:
+  - azelaic acid
+  status: pending
+- name: Dr. Laura Soong - Dermatologist
+  channel_url: https://www.youtube.com/channel/UCmc3iF83jLuk_VaqEaNMivQ
+  hits: 1
+  topics:
+  - benzoyl peroxide
+  status: added
+  reason: 'Vetted 2026-10-19: board-certified dermatologist per the channel''s own video descriptions and on-camera statement; full transcript read of the over-exfoliation video confirmed evidence-based content (barrier model, mechanical vs chemical exfoliation, AHA/BHA, skin cycling, when to see a derm) with no sponsorship, affiliate link or own-brand promotion. Added HIGH, product_recs restricted.'
+- name: Cosmetist
+  channel_url: https://www.youtube.com/channel/UC_2tylFmJ0ljhirwx6CEN1Q
+  hits: 1
+  topics:
+  - rosacea
+  status: pending
+- name: CBS Mornings
+  channel_url: https://www.youtube.com/channel/UC-SJ6nODDmufqBzPBwCvYvQ
+  hits: 1
+  topics:
+  - skin barrier
+  status: rejected
+  reason: general news programme, not a skincare-science creator (STEP 2a)
