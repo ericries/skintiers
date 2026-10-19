@@ -85,7 +85,7 @@ Not priced here. It is a widely stocked drugstore product sold under NDC 11523-4
 
 ## See Also
 
-[[butenafine]] [[athletes-foot]] [[tinea-corporis-ringworm]] [[tinea-capitis]] [[tinactin-antifungal-cream]] [[clotrimazole]] [[terbinafine]] [[tolnaftate]] [[fda-approved-vs-cleared-skincare]]
+[[butenafine]] [[athletes-foot]] [[tinea-corporis-ringworm]] [[tinea-capitis]] [[tinactin-antifungal-cream]] [[lotrimin-af-antifungal-cream]] [[clotrimazole]] [[terbinafine]] [[tolnaftate]] [[fda-approved-vs-cleared-skincare]]
 
 ## Sources
 

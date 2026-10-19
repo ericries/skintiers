@@ -3014,7 +3014,7 @@
 - name: Lotrimin AF Antifungal Cream (clotrimazole 1%)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: tinactin-antifungal-cream
   source: 'The clotrimazole counterpart to tinactin-antifungal-cream, completing the
     OTC antifungal product set alongside the queued Lotrimin Ultra (butenafine). Bayer
@@ -3309,3 +3309,17 @@
     before drafting, and do not assume which SKUs in the range actually list it; the
     page must name the product whose INCI you verified, not the range. Grade the product
     against the licochalcone-a tier of weak rather than the brand's redness claims.
+- name: Lotrimin AF Athlete's Foot Cream (the athlete's-foot-labelled clotrimazole
+    SKU, if it exists)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: lotrimin-af-antifungal-cream
+  source: RESOLVE WHETHER THIS EXISTS before drafting. The clotrimazole SKU at NDC
+    11523-6549 claims ONLY ringworm in its Uses section and its display panel is coded
+    'Lotrimin RW 6549', despite the AF brand name. Query DailyMed spls.json?drug_name=lotrimin
+    and enumerate every Bayer clotrimazole setid to find whether a separate athlete's-foot-labelled
+    clotrimazole SKU exists with a different NDC and a broader Uses section. If it
+    does, that completes the brand-confusion story; if it does NOT, that is a stronger
+    finding and belongs on lotrimin-af-antifungal-cream and athletes-foot rather than
+    as a new page. Do not assume either outcome.

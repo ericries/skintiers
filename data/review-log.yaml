@@ -13251,4 +13251,31 @@ licochalcone-a:
     quarantined section says so explicitly rather than being omitted. ZERO Apify spend; PubMed only. 18
     quoted strings verified verbatim, 0 misses. Self-verified in the main loop, assurance sonnet,
     force-published.'
+lotrimin-af-antifungal-cream:
+  last_reviewed: '2026-10-19'
+  note: 'The queue predicted a monograph-versus-NDA contrast and told me to verify the code rather than
+    infer it from the sibling page. Verified: the approval element records code C200263, displayName "OTC
+    Monograph Drug", application M005. So Lotrimin AF is NOT FDA-approved while its brandmate Lotrimin
+    Ultra is (C73594, NDA021307). Same brand, same shelf, and the names give no hint which.
+    THE FINDING I DID NOT EXPECT, and the better one: this SKU claims ONLY RINGWORM. Despite the AF in the
+    name, the Uses section lists "cures most ringworm" and nothing else, no athlete''s foot and no jock
+    itch, and the display panel is coded "Lotrimin RW 6549". A shopper reaching for an AF-branded tube can
+    buy a product that makes no athlete''s foot claim.
+    SCOPED CAREFULLY, because this is an absence claim about a product line. The page says the absence is
+    in the Uses section of THIS SPL at NDC 11523-6549 and that other SKUs in the line may be labelled
+    differently; it does not say Lotrimin AF never claims athlete''s foot. A queue item now asks whether a
+    separate athlete''s-foot-labelled clotrimazole SKU exists, explicitly instructing that a NEGATIVE
+    answer is the stronger finding and belongs on the existing pages rather than a new one.
+    Also carried from the label: it is not effective on scalp or nails (its own words), the course is four
+    weeks twice daily against the sibling''s one-week option, the stop rule is no improvement within four
+    weeks, and the age floor is 2 years against the sibling''s 12.
+    PHOTO: the queue hoped for a DailyMed carton image because the Tinactin SPL published one. This SPL''s
+    media list is EMPTY and incidecoder returned MISS, so image_unresolvable records both attempts and the
+    contrast with Tinactin. No metered call.
+    QUOTE DEFECTS CAUGHT: the display-panel quote omitted the registered-trademark symbol the label prints,
+    so it was not a contiguous source string; fixed. A second reported miss, "OTC Monograph Drug", turned
+    out to be a CHECKER artifact rather than a page defect: my tag-stripper deletes attribute values along
+    with tags, and that phrase lives in a displayName attribute. Confirmed present by grepping the SPL
+    directly. Worth remembering, since every DailyMed marketing-category check reads an attribute.
+    ZERO Apify spend. Self-verified in the main loop, assurance sonnet, force-published.'
 
