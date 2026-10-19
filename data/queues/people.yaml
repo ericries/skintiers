@@ -279,8 +279,11 @@
   priority: 5
   status: done
   discovered_from: feed
-  source: Roster creator (tier HIGH, board-certified dermatologist DO/FAOCD per vetting);
-    7 videos carded.
+  source: 'Roster creator (tier HIGH, board-certified dermatologist DO/FAOCD per vetting);
+    7 videos carded. NOTE 2026-10-19: she now has 9 carded videos on the site, the
+    largest remaining person-page gap. VERIFY the roster credential via the free NPI
+    registry Dermatology taxonomy rather than trusting the roster string, as the existing
+    derm cards here do.'
 - name: John Barbieri, MD
   type: person
   priority: 5
@@ -294,5 +297,19 @@
   priority: 5
   status: done
   discovered_from: feed
-  source: Roster creator (tier HIGH, board-certified dermatologist); 5 videos carded
-    including the midlife-hormonal-acne TikTok on hormonal-acne.
+  source: 'Roster creator (tier HIGH, board-certified dermatologist); 5 videos carded
+    including the midlife-hormonal-acne TikTok on hormonal-acne. NOTE 2026-10-19:
+    6 carded videos now. Verify via the NPI registry Dermatology taxonomy. The card
+    MUST disclose her own-brand conflict (postpartum line More Than Nine) recorded
+    in data/video-sources.yaml.'
+- name: Stephen Alain Ko (cosmetic chemist)
+  type: person
+  priority: 5
+  status: pending
+  discovered_from: your-estie-ella
+  source: 6 carded videos and no person page. A cosmetic chemist rather than a clinician,
+    so the NPI registry does not apply; verify the formulation/chemistry background
+    from his own published writing or professional listing and say plainly if it cannot
+    be independently verified, as the your-estie-ella card does for a self-stated
+    credential. The person type exists to route readers from a creator to the pages
+    their videos sit on, and 6 cards is enough to justify one.
