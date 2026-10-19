@@ -58,7 +58,7 @@ Four procedure pages on this site each carried a note explaining why they could 
 
 ## What the ranking does and does not tell you
 
-**It ranks combinations, not single procedures.** The three severity and satisfaction winners are laser plus platelet-rich plasma, laser plus filler injection, and laser plus chemical peels.[^nma] If you are choosing one thing to do, this analysis does not name it. The peel pairing now has its own page, where a third analysis disputes whether any of these rankings is dependable: [[chemical-peels-acne-scars]].
+**It ranks combinations, not single procedures.** The three severity and satisfaction winners are laser plus platelet-rich plasma, laser plus filler injection, and laser plus chemical peels.[^nma] If you are choosing one thing to do, this analysis does not name it. The peel pairing now has its own page, where a third analysis disputes whether any of these rankings is dependable: [[chemical-peels-acne-scars]]. And the same procedures ranked by what they cost you in pain and recovery days, where the evidence is in places firmer than it is for efficacy, are on [[acne-scar-treatments-by-downtime-and-pain]].
 
 **The confidence behind each rank varies a lot.** Laser plus PRP led the ECCA scale at a SUCRA of 98.4%, which is close to always-best across the simulated rankings. Laser plus filler led the Goodman and Baron Scale at 72.1%, which is a much weaker separation from the field; a rank that high is compatible with several other options being nearly as good.[^nma] Treating both as "best" flattens a real difference in certainty.
 

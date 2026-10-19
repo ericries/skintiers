@@ -1275,3 +1275,30 @@
     paper as a Randomized Controlled Trial while its abstract states no randomization,
     no n and no p-value, so the aftercare question currently has no citable answer
     on this site. Prefer a trial naming its comparator product or using plain petrolatum.'
+- name: Song 2026 fractional CO2 versus erbium laser meta-analysis for atrophic acne
+    scars (PMID 42720808)
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: acne-scar-treatments-by-downtime-and-pain
+  source: 'https://pubmed.ncbi.nlm.nih.gov/42720808/ - the spine of the new downtime-and-pain
+    list and the cleanest example on the site of a cost being better evidenced than
+    a benefit: CO2''s efficacy advantage over erbium collapses to RR 0.76 (95% CI
+    0.54-1.08) in the randomized-only sensitivity analysis while its pain and downtime
+    penalties both exclude the null. PMC full text is open (PMC13562242), so a study
+    page can recover the per-study data, the risk-of-bias assessment, and which 5
+    studies and 130 participants carry all of this.'
+- name: Almahzoum 2026 needling versus ablative fractional laser systematic review
+    (PMID 42771826)
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: acne-scar-treatments-by-downtime-and-pain
+  source: 'https://pubmed.ncbi.nlm.nih.gov/42771826/ - 27 studies, 1137 participants,
+    17 RCTs, PRISMA 2020, searched to 9 April 2026. Cited by the downtime list for
+    the finding that needling has shorter downtime, better tolerability and fewer
+    pigmentary adverse effects while ablative lasers suggest greater improvement.
+    CRITICAL for a study page: the synthesis is NARRATIVE because of heterogeneity,
+    so none of those comparisons carries a pooled effect size; the page must say so
+    and must not convert directional language into numbers. Mixed etiologies too (18
+    of 27 studies are acne scars).'

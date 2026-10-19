@@ -307,7 +307,7 @@
 - name: Acne scar treatments ranked by downtime and pain
   type: list
   priority: 5
-  status: pending
+  status: done
   discovered_from: fractional-co2-laser-resurfacing
   source: 'A second axis the evidence actually supports and the planned efficacy list
     will not cover. PMID 42720808 gives hard comparative numbers for tolerability

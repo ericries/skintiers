@@ -330,3 +330,29 @@
     evidence is thin, which the Karimi record suggests it is. petrolatum already has
     a page. Do NOT cite PMID 40911753 as support for anything; the study page explains
     why.'
+- name: Microneedling radiofrequency (RF microneedling) for acne scars
+  type: goal
+  priority: 5
+  status: pending
+  discovered_from: acne-scar-treatments-by-downtime-and-pain
+  source: THE MOST INTERESTING UNRESOLVED THREAD in the acne-scar cluster, and the
+    site has no page for it. PMID 42771826 (27 studies, 1137 participants) reports
+    that microneedling radiofrequency 'appeared to provide efficacy closer to that
+    of ablative lasers in several individual studies and demonstrated a more favorable
+    safety profile'. If that holds it breaks the potency-versus-tolerability tradeoff
+    the new downtime list is built on. Note the review synthesized NARRATIVELY, so
+    that statement carries no pooled number; a page must find the individual studies.
+    The site already has microneedling and newa-skin-therapy-system (home RF), so
+    the in-office RF-needling gap sits between them.
+- name: Erbium:YAG fractional laser resurfacing
+  type: goal
+  priority: 5
+  status: pending
+  discovered_from: acne-scar-treatments-by-downtime-and-pain
+  source: 'The comparator in PMID 42720808 and the only arm of that meta-analysis
+    with no page here, which is why the new downtime list can grade fractional CO2
+    but not its alternative. The numbers to carry: against erbium, CO2 had greater
+    pain (MD 1.86, 95% CI 1.33-2.39) and longer downtime (MD 3.67 days, 95% CI 1.90-5.44),
+    while its efficacy edge did NOT survive the randomized-only analysis (RR 0.76,
+    95% CI 0.54-1.08). Five studies, 130 analyzed participants, so flag the small
+    n. Erbium is also the laser type named in PMID 40911753 for lower-eyelid work.'
