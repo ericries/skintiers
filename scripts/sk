@@ -502,8 +502,15 @@ def cmd_roster_set(args):
         idx = next((j for j in range(slug_idx + 1, end)
                     if lines[j].lstrip().startswith(f"{field}:")), None)
         if idx is None:
-            print(f"ERROR: entry '{args.slug}' has no '{field}:' line to update")
-            return 1
+            # INSERT rather than fail. A creator who has never been pulled or swept
+            # simply has no such line, and until 2026-10-19 that made the field
+            # unsettable: the backfill fix that made never-swept creators selectable
+            # would then re-pick the same creator forever, because its progress could
+            # not be recorded. Insert directly after creator_slug, inside the entry.
+            indent = lines[slug_idx][:len(lines[slug_idx]) - len(lines[slug_idx].lstrip())]
+            lines.insert(slug_idx + 1, f"{indent}{field}: {value}")
+            end += 1
+            continue
         indent = lines[idx][:len(lines[idx]) - len(lines[idx].lstrip())]
         lines[idx] = f"{indent}{field}: {value}"
     new_text = "\n".join(lines)

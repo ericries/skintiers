@@ -1407,8 +1407,8 @@
   conflict: Muneeb Shah runs own skincare brand (Remedy Science) and Scriptable Rx venture featured on the channel
   posted: ''
   feed_rank: 1
-  status: skipped
-  skip_reason: anti-aging devices (laser/LED/microcurrent, later-phase) + own-brand conflict
+  status: pending
+  skip_reason: 'UN-SKIPPED 2026-10-19. The earlier reason was ''anti-aging devices (laser/LED/microcurrent, later-phase) + own-brand conflict''. The first half is now stale: the site has built a device cluster (home-led-light-therapy, home-use-skincare-devices-by-evidence, nuface-trinity-microcurrent-device, newa-skin-therapy-system, five reVive pages, two FOREO pages), so laser vs LED vs microcurrent is exactly the comparison those pages grade. The own-brand caution STANDS and must be settled from the transcript: skip only if it mainly promotes Remedy Science.'
 - id: cGw20h6usvo
   title: You're Spending WAY Too Much on Skincare
   creator: Doctorly
@@ -13671,3 +13671,17 @@
   posted: '2026-10-18'
   feed_rank: 0
   status: pending
+- creator: Doctorly
+  creator_slug: doctorly
+  credential: Dr. Muneeb Shah, DO & Dr. Luke Maxfield, DO - both board-certified dermatologists
+  channel: https://www.youtube.com/channel/UCHCZnC9akNA9pBP7aJGNKdg
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Muneeb Shah runs own skincare brand (Remedy Science) and Scriptable Rx venture featured on the channel
+  id: NhbB5p6WUKk
+  title: 'ITCHY FINGERS? Dyshidrotic Eczema: Causes, Treatment, and Prevention'
+  posted: '2026-08-03'
+  feed_rank: 1
+  status: pending
+  skip_reason: null
