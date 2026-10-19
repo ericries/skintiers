@@ -13278,4 +13278,28 @@ lotrimin-af-antifungal-cream:
     with tags, and that phrase lives in a displayName attribute. Confirmed present by grepping the SPL
     directly. Worth remembering, since every DailyMed marketing-category check reads an attribute.
     ZERO Apify spend. Self-verified in the main loop, assurance sonnet, force-published.'
+proya:
+  last_reviewed: '2026-10-19'
+  note: 'Lean brand card, 146 words of body, inside the 180 cap. Its purpose is narrow and the queue stated
+    it well: the site cites a study authored entirely by this company''s staff, so a reader meeting that
+    study should be able to see who the company is.
+    VERIFIED FROM A DURABLE PRIMARY rather than a corporate website. The PubMed XML record for PMID
+    40952030 contains seven Affiliation elements and ALL SEVEN read "Research & Innovation Center, Proya
+    Cosmetics Co. Ltd, Hangzhou, China." That single fact supports everything the card says about the
+    company, its location and its research unit, so no brand page was fetched and nothing about size,
+    history, ownership or revenue is claimed.
+    NO FOUNDER NAMED, consistently with the foreo and nuface cards: none was verified, and a brand card is
+    not worth an unverified claim about a person.
+    DUPLICATION CAUGHT AND TRIMMED. My first draft restated both the universal Proya affiliation AND the
+    paper''s no-conflict declaration, with my own framing. But wang-2025-encorelane-sensitive-skin already
+    owns that argument and puts it more strongly, calling the declaration a reporting failure. Repeating it
+    on the brand card would have been exactly the redundancy the playbook forbids, so the card now states
+    only the affiliation fact that IDENTIFIES the company and explicitly hands the conflict-of-interest
+    judgment to the study page. That cut it from 152 to 146 words and made it do one job.
+    Also linked the study page back to this card. ZERO Apify spend; one PubMed XML fetch. sk verify is
+    clean with no manual-verification warnings because the only source is PubMed.
+    Cross-feed: the manufacturer-authored-studies list is grounded in a pattern now visible across three
+    pages rather than this one case, and its note warns it must report only what each publication record
+    shows rather than becoming a list of accusations. Saccharide isomerate was already queued.
+    Self-verified in the main loop, assurance sonnet, force-published.'
 

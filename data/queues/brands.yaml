@@ -369,7 +369,7 @@
 - name: Proya Cosmetics
   type: brand
   priority: 5
-  status: pending
+  status: done
   discovered_from: wang-2025-encorelane-sensitive-skin
   source: 'Chinese cosmetics company whose Research & Innovation Center authored the
     Encorelane paper (PMID 40952030) in full, and which owns that proprietary blend.

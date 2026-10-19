@@ -481,3 +481,17 @@
     CHECK FIRST whether minimal-evidence-led-acne-routine already covers this; if
     it does, resolve this entry with that note rather than building a near-duplicate
     list.'
+- name: Manufacturer-authored cosmetic studies on this site, and how to read them
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: proya
+  source: 'GROUNDED in a pattern now documented across several pages rather than a
+    single case: wang-2025-encorelane-sensitive-skin (all seven authors at Proya''s
+    Research & Innovation Center, declaring no conflict), karimi-2025-neurocosmetic-post-procedure-cream
+    (no affiliations or COI statement recorded at all, PubMed-indexed as an RCT with
+    no n or statistic), and revive-light-therapy-lux-glo (uncontrolled consumer-perception
+    percentages with no sample size). Curatorial only, over pages that already exist.
+    The axis is WHO GENERATED THE EVIDENCE and what that does to its weight; it must
+    not become a list of accusations, and each entry should state only what the publication
+    record shows.'
