@@ -305,3 +305,15 @@
     if a primary source actually compares named peel formulations head to head; if
     the literature genuinely does not support it, strengthen the agent-unknown section
     on chemical-peels-acne-scars instead and resolve this entry with that note.'
+- name: 'Exfoliation: chemical versus physical, and how it differs from cell turnover'
+  type: goal
+  priority: 5
+  status: pending
+  discovered_from: retinoids
+  source: 'GENUINE GAP found while carding a TikTok clip: the site has salicylic-acid,
+    glycolic-acid, lactic-acid and mandelic-acid pages but NO hub for exfoliation
+    itself, so a clip whose whole point is the distinction between exfoliating acids
+    and retinoid-driven cell turnover had to be attached to retinoids instead. Checked
+    2026-10-19: nothing matches exfoliat* or cell-turnover under data/goals or data/ingredients.
+    A hub should grade AHA vs BHA vs PHA vs LHA by evidence and state plainly that
+    removing dead cells is not the same mechanism as increasing turnover.'

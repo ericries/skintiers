@@ -198,6 +198,16 @@ videos:
   related: [tretinoin, adapalene, retinaldehyde, tazarotene, retinol, acne, anti-aging]
   thesis: Licensed esthetician Jenn Lexi explains the retinoid family and who benefits from it. She distinguishes over-the-counter options like adapalene, which is effective for acne without a prescription, and gentler retinaldehyde from the prescription retinoic acids tretinoin and tazarotene, which are stronger because they do not need to be converted in the skin to become active. She notes retinoids suit people with acne or anti-aging goals, working by increasing skin cell turnover to clear the plug of dead cells and oil inside a pore, and cautions that the small whiteheads seen early on are normal purging, whereas redness and inflamed breakouts signal a damaged barrier rather than a normal retinoid reaction.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Exfoliation and cell turnover are not the same thing
+  creator: Kristin Leite (kristingl)
+  creator_slug: kristin-leite
+  credential: Beauty product developer and skincare educator (NOT a dermatologist or cosmetic chemist)
+  platform: TikTok
+  url: https://www.tiktok.com/@kristingl/video/7696567463344950542
+  posted: '2026-10-14'
+  related: [salicylic-acid, glycolic-acid, lactic-acid, mandelic-acid, tretinoin, adapalene]
+  thesis: 'Skincare educator Kristin Leite, a beauty product developer rather than a dermatologist or cosmetic chemist, separates two things that get conflated. Retinoids, she says, increase cell turnover, meaning new skin cells arrive faster, which is why the family is used for both aging and acne-prone skin. Exfoliating acids such as AHAs, BHAs, PHAs and LHAs do something different: they remove and unstick the dead top layer rather than creating new cells, so skin can feel smoother. She notes the two processes can be combined but advises sticking to one active at a time on sensitive skin. No products are named in the clip.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 name: Retinoids
 slug: retinoids
 status: published

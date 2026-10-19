@@ -687,6 +687,17 @@ videos:
     products or brands are named in the clip.'
   title: Treat the cycle not the pimple
   url: https://www.tiktok.com/@your.estie.ella/video/7693281219399716109
+- title: Base Routine + Azelaic Acid + Retinoid your skin can tolerate = managed acne
+  creator: Ella (@your.estie.ella)
+  creator_slug: your-estie-ella
+  credential: Licensed esthetician (NOT a dermatologist or cosmetic chemist)
+  platform: TikTok
+  url: https://www.tiktok.com/@your.estie.ella/video/7698009540612214030
+  posted: '2026-10-18'
+  related: [azelaic-acid, adapalene, retinoids, salicylic-acid, sunscreen-uv-filters]
+  thesis: 'Licensed esthetician Ella lays out a deliberately small acne routine: a gentle cleanser, a plain moisturizer and a daily sunscreen as the base, then azelaic acid every morning and a retinoid in the evening, phased in slowly over what she calls a three to six month journey up to four to six nights a week. She argues adapalene is a good choice for acne specifically and that tretinoin is not required, and she leaves exfoliation out for most people, suggesting a low-strength salicylic acid only for very oily skin. Two of her framings are her own emphasis rather than established fact: she says you cannot keep skin clear without daily sunscreen, and that nothing regulates acne better than azelaic acid plus a tolerated retinoid, which is stronger than the comparative evidence supports.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Acne is the most common skin condition dermatologists treat: dead skin cells and oil clog a pore, bacteria (*Cutibacterium acnes*) multiply inside it, and the follicle becomes inflamed. Graded skeptically against controlled evidence for **topical skincare** (creams and gels applied to the skin, as opposed to pills), the best-studied over-the-counter and prescription topicals produce **modest** lesion reductions, the gap between the "best" and "second-best" topical is often smaller than the marketing implies, and the single largest evidence base for these treatments is rated moderate to very low certainty.[^1][^2]
