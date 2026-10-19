@@ -20,6 +20,7 @@ import json
 import os
 import pathlib
 import re
+import time
 import subprocess
 import sys
 import tempfile
@@ -211,13 +212,61 @@ def fetch_transcript(url, refresh=False):
     return {**result, "cached": False}
 
 
+# --- YouTube-only rate-limit cooldown -------------------------------------
+# Observed 2026-10-18/19: YouTube caption fetch returned HTTP 429 on 6 of 7
+# attempts across 5 channels, while TikTok captions succeeded 3 of 3. The pull
+# cron fires 4x a day and each firing re-probed, which both wasted the tick and
+# plausibly extended the throttle window. On a 429 we now stamp a marker file
+# and short-circuit subsequent YOUTUBE fetches for a cooldown period, so the
+# fleet stops hammering an endpoint that has just refused it. TikTok and every
+# other platform are deliberately unaffected.
+_COOLDOWN_FILE = pathlib.Path(__file__).resolve().parent.parent / "research-cache" / "yt-429-cooldown"
+_COOLDOWN_SECONDS = int(os.environ.get("YT_429_COOLDOWN", "1800"))
+
+
+def _is_youtube(url: str) -> bool:
+    u = (url or "").lower()
+    return ("youtube.com" in u or "youtu.be" in u
+            or not ("tiktok.com" in u or "instagram.com" in u or u.startswith("http")))
+
+
+def _cooldown_remaining() -> int:
+    """Seconds left on the YouTube 429 cooldown, or 0 if none."""
+    try:
+        age = time.time() - _COOLDOWN_FILE.stat().st_mtime
+    except OSError:
+        return 0
+    return max(0, int(_COOLDOWN_SECONDS - age))
+
+
+def _mark_rate_limited() -> None:
+    try:
+        _COOLDOWN_FILE.parent.mkdir(parents=True, exist_ok=True)
+        _COOLDOWN_FILE.write_text("youtube 429\n", encoding="utf-8")
+    except OSError:
+        pass
+
+
 def main(argv=None):
     ap = argparse.ArgumentParser(description="Fetch a video transcript via yt-dlp (YouTube, TikTok, ...).")
     ap.add_argument("url", help="video URL, or a bare YouTube id")
     ap.add_argument("--json", action="store_true", help="emit JSON")
     ap.add_argument("--refresh", action="store_true", help="ignore the cache and re-fetch")
+    ap.add_argument("--ignore-cooldown", action="store_true",
+                    help="probe YouTube even if a recent 429 set the cooldown")
     args = ap.parse_args(argv)
+    if _is_youtube(args.url) and not args.ignore_cooldown:
+        left = _cooldown_remaining()
+        if left:
+            print(f"YOUTUBE RATE-LIMIT COOLDOWN ACTIVE: {left}s remaining.")
+            print("A recent fetch returned HTTP 429, so this probe was skipped rather "
+                  "than extending the throttle. Caption status is UNKNOWN; do not mark "
+                  "any video transcript-less. TikTok is unaffected. Override with "
+                  "--ignore-cooldown or YT_429_COOLDOWN=0.")
+            return 2
     result = fetch_transcript(args.url, refresh=args.refresh)
+    if result.get("rate_limited") and _is_youtube(args.url):
+        _mark_rate_limited()
     if args.json:
         print(json.dumps(result, ensure_ascii=False, indent=2))
         return 0
