@@ -13493,4 +13493,32 @@ hair-removal-devices-by-evidence:
     this week, which named line 16 and the cause on the first run. Fourth time that fix has paid off. Also
     cleared a style warning for defensive meta-commentary ("This page grades...").
     ZERO Apify spend; PubMed only. Self-verified in the main loop, assurance sonnet, force-published.'
+sweet-almond-oil:
+  last_reviewed: '2026-10-20'
+  note: 'tier: weak. The queue gave only an incidecoder URL, which is an aggregator and not citable as a
+    footnote here, so the page was built from two PubMed sources instead.
+    THE FINDING, and it is a species error waiting to happen. The one specific clinical claim people attach
+    to almond oil is stretch marks, and PMID 25255817 actually says "limited evidence that centella, and
+    possibly massage with BITTER almond oil, may prevent SG". Bitter almond is Prunus amygdalus amara;
+    sweet almond, the cosmetic ingredient, is Prunus amygdalus dulcis. Different plant. Had I skimmed I
+    would have written that almond oil has limited evidence for stretch marks, which would have been
+    wrong, so the page states the distinction in its lead quote block and the footnote records that it was
+    read from the review wording rather than inferred. The review also credits MASSAGE WITH the oil rather
+    than the oil alone, which the page preserves.
+    SECOND FINDING, the third instance of this pattern in a week. The only synthesis arguing sweet almond
+    oil is an ACTIVE ingredient is PMID 34957578, and PubMed lists the single affiliation for BOTH authors
+    as "Research & Development and Regulatory Affairs, Kneipp GmbH", a natural-cosmetics company, with no
+    conflict statement recorded. Its stated purpose is commercial in its own words, treating oils as
+    actives rather than natural claims because that "aids both innovation and development". And it concedes
+    "discrepancies in the literature and questionable study designs" while asserting the benefit anyway.
+    That concession is what sets the tier: the friendliest available source admits the evidence is poor.
+    This one is a NEW flavour of the manufacturer-authorship pattern, so I noted it onto the queued
+    unusable-studies list: unlike Karimi, Amin and Wang it is not missing data, it argues a commercial
+    conclusion the cited evidence does not support.
+    RESTRAINT: sweet almond is a tree nut and no source consulted quantifies topical reaction risk in
+    nut-allergic people, so the page gives no figure and routes to a clinician. Also caught myself putting
+    unsourced marketing phrases (nourishing, nutrient-rich) in quotation marks, where they would read as
+    sourced; reworded so no quote marks appear on wording I did not fetch.
+    Occlusion mechanics deliberately NOT re-explained; linked to mineral-oil and squalane. ZERO Apify
+    spend; PubMed only. Self-verified in the main loop, assurance sonnet, force-published.'
 

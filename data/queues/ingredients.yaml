@@ -1597,7 +1597,7 @@
     the base of cleansing balms and facial oils; occlusive/emollient, minor skin benefit
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://incidecoder.com/ingredients/prunus-amygdalus-dulcis-sweet-almond-oil
 - name: Efinaconazole (Jublia), topical triazole nail solution FDA-approved for toenail
@@ -2291,3 +2291,31 @@
     and revive-light-therapy-led-cleansing-system (880nm). Grade what NIR alone and
     NIR-plus-red actually have behind them; the 2026 GRADE review grades LED as a
     category and does not isolate NIR.'
+- name: Bitter almond oil (Prunus amygdalus amara) and the striae evidence that belongs
+    to it
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: sweet-almond-oil
+  source: THE SPECIES DISTINCTION the sweet-almond-oil page had to draw. PMID 25255817
+    (Br J Dermatol 2015) finds 'limited evidence that centella, and possibly massage
+    with bitter almond oil, may prevent SG and/or reduce their severity'. Bitter almond
+    is Prunus amygdalus amara, NOT the Prunus amygdalus dulcis sold in cosmetics,
+    so the one specific clinical claim people attach to 'almond oil' sits with a different
+    species. Build it only if bitter almond oil is actually used in marketed products;
+    if it is not, record that and strengthen the species note on sweet-almond-oil
+    and stretch-marks instead. Note the review credits MASSAGE WITH the oil, not the
+    oil alone.
+- name: Centella asiatica for stretch marks
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: sweet-almond-oil
+  source: 'The other half of the only positive finding in PMID 25255817: ''limited
+    evidence that centella, and possibly massage with bitter almond oil, may prevent
+    SG and/or reduce their severity''. Check whether the site already has a centella
+    page before drafting (it may, under centella-asiatica or cica). If it exists,
+    the task is to add the striae finding to it rather than create a duplicate, and
+    to carry the review''s own caveat that topical striae modalities ''generally lack
+    strong evidence from rigorous, well-designed, randomized controlled trials with
+    ample numbers of subjects''.'
