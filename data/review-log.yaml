@@ -13389,4 +13389,31 @@ foreo-luna-4-plus:
     says so before drawing the conclusion. ZERO Apify spend; one FDA PDF plus openFDA. 31 substantive
     quotes verified verbatim, 3 reported misses all the known adjacent-quote artifact. Self-verified in the
     main loop, assurance sonnet, force-published.'
+jack-black-intense-therapy-lip-balm-spf-25:
+  last_reviewed: '2026-10-20'
+  note: 'The queue asked me to resolve a specific SPF lip product from DailyMed before drafting and to check
+    the marketing category. Both done: 158 DailyMed results for lip balm sunscreen, picked the Jack Black
+    SPF 25 Black Tea and Blackberry SKU, and the approval element reads code C200263 "OTC Monograph Drug",
+    application M20. Monograph, not NDA.
+    THE FINDING IS A SET OF ABSENCES, and I verified them by searching the full SPL text rather than
+    inferring from what I happened to extract. The strings "broad", "water resist", "skin cancer", "aging",
+    "reapply" and "every 2 hours" occur ZERO times; "SPF" occurs twice, in the labelling rather than in the
+    Use statement. So the entire sunscreen promise is "Helps prevent sunburn and chapped lips." Under the US
+    monograph the skin-cancer and early-aging claim requires a broad-spectrum SPF 15 or higher designation,
+    and this label carries none. For a product queued BECAUSE chronic UV drives actinic damage on the lips,
+    that gap is the story.
+    SCOPED CAREFULLY so it is not an overclaim: the page says this is about what the LABEL claims, not a
+    measurement of spectral performance, and notes that avobenzone does absorb in the UVA range, so the
+    filters are not the problem. The missing item is the designation that would license the long-term claim.
+    SECOND FINDING worth having: it is a DUAL monograph product. Three actives across two purposes,
+    avobenzone 3.0% and octinoxate 7.5% as Sunscreen plus petrolatum 40.2% as Skin Protectant. The
+    chapped-lips half is the better-supported half, which inverts what the packaging emphasises.
+    RESTRAINT: octinoxate has drawn regulatory attention over absorption and environmental profile in some
+    jurisdictions. The page records the 7.5% figure and explicitly takes NO position on harm, because no
+    source consulted establishes one. Also scoped to this ONE flavour SKU, since Jack Black publishes other
+    flavours under separate setids.
+    ZERO Apify spend; DailyMed only. 17 substantive quotes verified; the 5 flagged by the checker were two
+    attribute-regex artifacts (confirmed directly in the approval element) and three deliberate ABSENCE
+    strings, which of course do not appear in the source because that is the point.
+    Self-verified in the main loop, assurance sonnet, force-published.'
 

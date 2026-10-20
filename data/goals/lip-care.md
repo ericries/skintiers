@@ -72,6 +72,10 @@ Lip care covers three different asks that get sold as one: lips that are chapped
 
 [[keratinocyte-carcinoma]] [[actinic-keratosis]] [[sunscreen-uv-filters]] [[petrolatum]] [[contact-dermatitis]] [[skin-barrier-repair]] [[perioral-dermatitis]]
 
+## See Also
+
+- [[jack-black-intense-therapy-lip-balm-spf-25]]: an SPF lip balm read off its FDA label, where the sunscreen claim stops at preventing sunburn and carries no broad-spectrum designation
+
 ## Sources
 
 [^cheil]: Narayanan D, Rogge M. "Cheilitis: A Diagnostic Algorithm and Review of Underlying Etiologies." Dermatitis. 2024 Sep-Oct;35(5):431-442. doi: 10.1089/derm.2023.0276. PMID 38422211. Department of Dermatology, McGovern Medical School, University of Texas Health Science Center, Houston. Quotes used: "Cheilitis, or inflammation of the lips, is a common reason for dermatologic consultation."; "There are many etiologies, including irritant and allergic contact dermatitis, atopic cheilitis, actinic cheilitis, infectious etiologies, nutritional deficiencies, drug-induced cheilitis, and rare etiologies, including granulomatous cheilitis, cheilitis glandularis, plasma cell cheilitis, lupus cheilitis, and exfoliative cheilitis."; "Distinguishing among the various etiologies of cheilitis is clinically difficult, as many causes may produce similar erythema and superficial desquamation of mucosal skin."; "patients report dryness, redness, irritation, burning, fissuring, and itch in many of the underlying causes"; "the specific etiology of cheilitis is often difficult to diagnose, requiring extensive testing and treatment trials". This is a narrative review and diagnostic algorithm; it reports no pooled estimate and none is asserted here, and it does not evaluate lip-plumping cosmetics. Only the PubMed abstract was accessed. https://pubmed.ncbi.nlm.nih.gov/38422211/ (accessed 2026-10-17)

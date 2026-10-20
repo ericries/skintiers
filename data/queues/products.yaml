@@ -3047,7 +3047,7 @@
 - name: SPF lip balm (FDA-regulated sunscreen lip product)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: lip-care
   source: The one lip product with a serious reason behind it, per the actinic cheilitis
     risk factors on lip-care (chronic UV exposure heads the list). A lip balm carrying
@@ -3388,3 +3388,15 @@
     it, and resolve the specific SKU. Same caveat as the Vanicream entry: the video''s
     own thesis is that front labels mislead, so a brand reputation for purity is exactly
     the kind of claim that needs checking against the ingredient list.'
+- name: Trader Joe's Sunscreen Lip Balm (avobenzone, homosalate, octisalate, octocrylene)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: jack-black-intense-therapy-lip-balm-spf-25
+  source: 'DailyMed setid 5a968416-0f4a-2115-e063-6294a90a20a7, manufacturer Weckerle
+    Cosmetics, a STICK rather than an ointment and a FOUR-filter formula against Jack
+    Black''s two. Worth building as the direct comparison: check whether its SPL carries
+    the broad-spectrum designation, water-resistance claim and reapplication interval
+    that the Jack Black SPL conspicuously lacks. If it does, that is a real difference
+    between two drugstore SPF lip balms that no shopper could see from the packaging.
+    Free DailyMed route, no metered call.'

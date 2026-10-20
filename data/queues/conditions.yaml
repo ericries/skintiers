@@ -492,3 +492,15 @@
     Ultra''s admission that effectiveness on the bottom or sides of the foot is unknown,
     athletes-foot now has two sourced reasons to tell readers to read the Uses section
     rather than the brand name.'
+- name: Actinic cheilitis
+  type: condition
+  priority: 5
+  status: pending
+  discovered_from: jack-black-intense-therapy-lip-balm-spf-25
+  source: The condition that motivates buying an SPF lip balm at all, and the site
+    has only lip-care. Chronic UV exposure heads its risk factors, and the new Jack
+    Black page had to state that the product's label makes NO skin-cancer or long-term-damage
+    claim, which leaves a reader with nowhere to learn what the actual risk is. It
+    is a premalignant lesion, so source it from a primary (PubMed or an NCI PDQ page)
+    and keep the see-a-clinician routing prominent; the lip-care page already flags
+    chronic UV as the leading risk factor.
