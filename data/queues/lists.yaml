@@ -523,3 +523,17 @@
     SPL text. DailyMed returns 158 results for lip balm sunscreen, so the label variation
     across cheap drugstore sticks is likely large and completely invisible on the
     shelf. Curatorial only; every claim must be read off an SPL, not off marketing.'
+- name: Study pages recorded as unusable, and what made them so
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: amin-2025-oral-hyaluronic-acid-meta-analysis
+  source: 'THREE study records now exist whose value is the defect they document rather
+    than the finding they report: karimi-2025-neurocosmetic-post-procedure-cream (PubMed-indexed
+    as an RCT with no n, no allocation and no statistic), amin-2025-oral-hyaluronic-acid-meta-analysis
+    (significance with no effect size, two-database search, three null outcomes narrated
+    as ''a general trend of improvement''), and wang-2025-encorelane-sensitive-skin
+    (every author employed by the ingredient''s owner, declaring no conflict). Curatorial
+    only, over pages that already exist. The axis is HOW a paper can look like evidence
+    without being usable, which is directly useful to a reader and to future ticks.
+    It must quote only what each publication record shows.'

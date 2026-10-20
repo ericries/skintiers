@@ -13416,4 +13416,31 @@ jack-black-intense-therapy-lip-balm-spf-25:
     attribute-regex artifacts (confirmed directly in the approval element) and three deliberate ABSENCE
     strings, which of course do not appear in the source because that is the point.
     Self-verified in the main loop, assurance sonnet, force-published.'
+amin-2025-oral-hyaluronic-acid-meta-analysis:
+  last_reviewed: '2026-10-20'
+  note: 'A meta-analysis of ORAL hyaluronic acid, recorded with cautions rather than as a finding. 17
+    substantive quotes verified verbatim; the 2 flagged misses were the PubMed publication-type values,
+    which come from the XML record rather than the abstract text and were confirmed there.
+    TWO DEFECTS, both quotable. (1) The abstract reports STATISTICAL SIGNIFICANCE with no effect size
+    anywhere: no standardized mean difference, no confidence interval, no participant count, for any
+    outcome. Direction without magnitude is not actionable for a reader deciding whether to take a
+    supplement, and the paper even refers to "the study''s limited sample size" without saying what it was.
+    (2) Three of six outcomes failed, and the abstract describes them as showing "a general trend of
+    improvement". That reads a direction into results the analysis could not distinguish from chance. The
+    page names that move explicitly and tells the reader to treat those three as undetermined, because
+    narrating a null as a near-positive is exactly the pattern a skeptical site exists to catch.
+    THIRD, FOUND BY ME rather than disclosed: the search covered "PubMed and Google Scholar" only. No
+    Embase, no Cochrane CENTRAL, no registries, and no statement that screening was duplicated. That is a
+    thin base for a meta-analysis and the page says so.
+    SCOPE BOUNDARY ENFORCED. This is ORAL hyaluronic acid and the site''s hyaluronic-acid page is topical.
+    The page opens by saying nothing here transfers, and I added a one-line pointer from the topical page
+    that names the distinction and carries the caution, because readers conflate the two and a bare link
+    would have implied endorsement.
+    RESTRAINT: the PubMed record carries NO affiliations and NO conflict statement, so funding cannot be
+    assessed either way; the page says that rather than insinuating. Same handling as the Karimi record.
+    SURFACED A RECURRING DECISION rather than re-deciding it silently for a third time: oral-supplement
+    content has now arrived three times and been handled three ways (recorded with cautions here, a
+    collagen video skipped for having no attachable page, and a standing note deferring non-topical
+    anti-aging to a later phase). Queued as a DECISION item for the user to settle, not an essay to draft.
+    ZERO Apify spend; PubMed only. Self-verified in the main loop, assurance sonnet, force-published.'
 

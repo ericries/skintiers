@@ -763,7 +763,7 @@
     and Wrinkle Depth (PMID 40911749)'
   type: study
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/40911749/
 - name: Draelos 2025 The Impact of an AGE-Inhibiting Moisturizer on Procedure Effectiveness
@@ -1387,3 +1387,16 @@
     which is currently sourced to a creator describing it. CRITICAL framing to preserve:
     he states there is NO evidence these filters are harmful and that the issue is
     label transparency, so a study page must not become a safety scare.'
+- name: A properly reported RCT of oral hyaluronic acid with effect sizes
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: amin-2025-oral-hyaluronic-acid-meta-analysis
+  source: 'The gap PMID 40911749 leaves. That meta-analysis pooled 7 RCTs but its
+    abstract reports NO standardized mean difference, confidence interval or participant
+    count for any outcome, so the direction is known and the magnitude is not. Search
+    PubMed for individual oral HA RCTs reporting hydration or elasticity with effect
+    sizes (terms: oral hyaluronic acid supplementation randomized placebo skin hydration
+    elasticity), and prefer one that states its n and its measurement instrument.
+    Only with a magnitude can the site say anything useful about whether an oral HA
+    supplement is worth taking.'

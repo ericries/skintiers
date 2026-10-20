@@ -146,6 +146,10 @@ This section is quarantined and discounted; treat everything here as unproven or
 
 [[glycerin]] [[niacinamide]] [[ceramides]] [[petrolatum]] [[retinoids]] [[tretinoin]] [[dry-skin]] [[moisturizing]] [[skin-barrier-repair]]
 
+## See Also
+
+- [[amin-2025-oral-hyaluronic-acid-meta-analysis]]: a meta-analysis of ORAL hyaluronic acid supplements, a separate question from anything on this page, recorded with the caution that it reports significance without any effect size
+
 ## Sources
 
 [^pavicic]: Pavicic T, Gauglitz GG, Lersch P, Schwach-Abdellaoui K, Malle B, Korting HC, Farwick M. Efficacy of cream-based novel formulations of hyaluronic acid of different molecular weights in anti-wrinkle treatment. Journal of Drugs in Dermatology, 2011;10(9):990-1000. https://pubmed.ncbi.nlm.nih.gov/22052267/ (accessed 2026-07-28)
