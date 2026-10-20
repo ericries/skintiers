@@ -23,6 +23,7 @@ FOREO is a Swedish-headquartered maker of home skincare and oral-care devices, t
 
 - [[foreo-espada-blue-light-pen]], cleared under 510(k) K162450
 - [[foreo-faq-led-masks]], the FAQ LED range across five clearances, where the one readable file turns out to be a hair-growth device
+- [[foreo-luna-4-plus]], cleared under K241102, the brand's other Summary filing, which discloses its predicates and states plainly that its testing was non-clinical
 
 **One structural fact worth knowing before you read any FOREO claim.**
 

@@ -2277,3 +2277,17 @@
     top treatment. Note it is an injectable or post-procedure topical in a clinical
     setting, not a consumer skincare ingredient, so set the scope the way the azathioprine
     page does for a systemic drug.
+- name: Near-infrared light (NIR, 830nm) in home devices
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: foreo-luna-4-plus
+  source: 'SECOND REQUEST for this gap, now with a specific wavelength and a stated
+    mechanism. K241102 emits ''NIR 830nm +/-10nm'' and says the purpose is ''elevating
+    tissue temperature in improving appearance of facial wrinkles'', i.e. heat rather
+    than photobiomodulation. An earlier queue entry asked for infrared generally after
+    foreo-faq-led-masks; this one pins it to 830nm with the maker''s own mechanism
+    statement. Devices affected: foreo-luna-4-plus, foreo-faq-led-masks, revive-light-therapy-essentials
+    and revive-light-therapy-led-cleansing-system (880nm). Grade what NIR alone and
+    NIR-plus-red actually have behind them; the 2026 GRADE review grades LED as a
+    category and does not isolate NIR.'

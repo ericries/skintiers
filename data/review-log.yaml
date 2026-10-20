@@ -13361,4 +13361,32 @@ home-fractional-nonablative-laser:
     where it belongs rather than a new page.
     ZERO Apify spend; PubMed, openFDA and one FDA PDF. Self-verified in the main loop, assurance sonnet,
     force-published.'
+foreo-luna-4-plus:
+  last_reviewed: '2026-10-19'
+  note: 'The queue set this up as a TEST and the test returned a clean answer. It asked whether FOREO
+    filing a 510(k) Summary rather than a Statement changes what can be said about a device. Answer: it
+    changes what a reader can VERIFY, not what the device has been shown to do. The file names three
+    predicates with product codes, gives exact wavelengths, lists the standards, and then heads its own
+    testing section "Non-Clinical Testing:". So disclosure and evidence are separate axes, which is worth
+    knowing for the whole device cluster: eight of ten FOREO clearances publish nothing, and the two that
+    publish turn out to publish a non-clinical basis.
+    THE FINDING a shopper can use: three functions, and the headline one has NO cleared claim. The
+    indications line calls it a "Near-Infrared Heated Cleansing Device" and then indicates only
+    "Microcurrent: indicated for facial stimulation" and "RED+NIR: indicated to treat periorbital
+    wrinkles". Cleansing is in the name and the description and nowhere in the indicated uses. The page
+    grades cleansing as not gradeable because there is no claim.
+    TWO MORE THINGS I GRADED ON RATHER THAN GLOSSED. (1) "facial stimulation" is not a skin outcome; it
+    describes the current, not the skin, so the microcurrent row is effect:none rather than a soft
+    positive. (2) PERIORBITAL ONLY, which is now the SECOND device this week whose wrinkle clearance stops
+    at the eye area (the Tria FANp was the first). That pattern became a queued list, because a reader
+    buying for facial rejuvenation may be buying a crow''s-feet device.
+    Also: no blue light at all (red 630nm and NIR 830nm), so nothing here touches the acne modality, and
+    the stated mechanism is "elevating tissue temperature", i.e. heat.
+    LINEAGE WORTH THE CROSS-LINK: its predicates include K201906, the NuFACE Trinity ELE Plus Pro, from the
+    firm whose 14 clearances are all Summaries. The microcurrent lineage runs through a device this site
+    already grades.
+    Credit given where due rather than only criticising: on this device FOREO showed its work, and the page
+    says so before drawing the conclusion. ZERO Apify spend; one FDA PDF plus openFDA. 31 substantive
+    quotes verified verbatim, 3 reported misses all the known adjacent-quote artifact. Self-verified in the
+    main loop, assurance sonnet, force-published.'
 

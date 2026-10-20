@@ -3034,7 +3034,7 @@
 - name: FOREO LUNA 4 plus cleansing device
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: foreo
   source: 'One of only TWO FOREO clearances filed as a 510(k) SUMMARY rather than
     a Statement: K241102, decision 2024-08-20, per the openFDA applicant query on
@@ -3352,3 +3352,16 @@
     and whether the product is still sold, because Tria''s last clearance was 2016.
     Note the file says only that ''Performance data was submitted'' without saying
     clinical or nonclinical.'
+- name: TheraFace LED (Theragun/Therabody, K212155)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: foreo-luna-4-plus
+  source: Named as a PREDICATE in the FOREO LUNA 4 plus Summary (K241102), with 510(k)
+    number K212155, manufacturer 'Theragun, Inc', product codes OHS, OLP and IRO.
+    Three codes means it was cleared across the LED wrinkle, blue-light acne and infrared
+    categories at once, which makes it the broadest multi-modality home device the
+    site has encountered and a natural comparison for the FOREO and NuFACE devices
+    already covered. Pull the K212155 file from accessdata and resolve whether it
+    is a Statement or a Summary before drafting, and check whether the retail name
+    TheraFace maps to that clearance.
