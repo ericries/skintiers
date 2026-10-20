@@ -1372,3 +1372,18 @@
     for any modality, and names no device. A study page should also recover which
     studies sit behind the Level A rating, which is the one thing every device page
     here has had to say it cannot determine.'
+- name: The mineral-sunscreen hidden-filter study (150 top Amazon sunscreens, nearly
+    half affected)
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: zinc-oxide
+  source: 'Described by dermatologist John Barbieri in video Q6CcxuAGbb8 (carded on
+    zinc-oxide): a study examined 150 of the top-selling sunscreens on Amazon and
+    found nearly half contained organic UV filters declared only in the INACTIVE ingredients,
+    because those molecules are regulated in the US as cosmetic ingredients rather
+    than as sunscreen actives. FIND THE PAPER and verify (PubMed terms: mineral sunscreen
+    hidden UV filter inactive ingredients labeling) before any page repeats the figure,
+    which is currently sourced to a creator describing it. CRITICAL framing to preserve:
+    he states there is NO evidence these filters are harmful and that the issue is
+    label transparency, so a study page must not become a safety scare.'

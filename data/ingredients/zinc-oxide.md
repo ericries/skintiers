@@ -41,6 +41,17 @@ videos:
   related: []
   thesis: Board-certified dermatologist Dr. Neera Nathan reacts to viral skincare trends and explains which ones actually hold up. She says zinc oxide diaper rash cream applied at night acts as a skin protectant and anti-inflammatory that helps repair a damaged moisture barrier. She calls glycolic acid a versatile AHA useful for exfoliation, collagen boosting, evening pigmentation, and treating ingrown hairs or dark elbows when used one to three times a week. She notes viral collagen face masks work mainly as humectants for temporary plumping rather than by boosting the skin's own collagen production, and highlights combining azelaic acid in the morning with tretinoin at night as a long-standing dermatologist combo for smoothing texture, fading hyperpigmentation, and reducing wrinkles.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Nearly half of mineral sunscreens had hidden chemical filters
+  creator: John Barbieri, MD
+  creator_slug: john-barbieri-md
+  credential: Dermatologist, Department of Dermatology, Brigham and Women's Hospital
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=Q6CcxuAGbb8
+  posted: '2026-10-03'
+  related: [sunscreen-uv-filters, titanium-dioxide, dimethicone, sensitive-skin, rosacea, acne]
+  thesis: 'Dermatologist John Barbieri explains why a sunscreen labelled mineral may not contain only zinc oxide and titanium dioxide. He describes a study of 150 top-selling sunscreens on Amazon in which nearly half contained organic UV filters that are regulated in the United States as cosmetic ingredients rather than as drugs, so they appear in the inactive ingredient list instead of the active one and the product can still look like a pure mineral formula on the front of the pack. His point is explicitly about transparency and not safety: he says there is no evidence these filters are dangerous, and that the problem is someone deliberately choosing a mineral sunscreen to avoid organic filters may be getting them anyway, which can also explain why a supposedly mineral product still irritates. His practical advice is to read the inactive ingredients rather than trusting the front label, and he separately says he looks for dimethicone, citing a randomized trial he describes as finding it
+    the ingredient most predictive of tolerability.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

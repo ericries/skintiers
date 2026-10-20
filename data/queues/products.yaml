@@ -3365,3 +3365,26 @@
     already covered. Pull the K212155 file from accessdata and resolve whether it
     is a Statement or a Summary before drafting, and check whether the retail name
     TheraFace maps to that clearance.
+- name: Vanicream Sunscreen (mineral, zinc and titanium only)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: zinc-oxide
+  source: One of two brands John Barbieri names in video Q6CcxuAGbb8 as tending NOT
+    to carry hidden organic filters, alongside COTZ. He makes the recommendation unpaid
+    and his roster records product_recs ok with no affiliate storefront, but VERIFY
+    THE INCI YOURSELF with scripts/inci_lookup.py rather than relying on his statement,
+    since the whole point of the video is that labels mislead. Resolve which specific
+    Vanicream SPF SKU you are grading, because he refers to the brand's mineral sunscreens
+    generally. The Vanicream brand has no page here yet either.
+- name: COTZ mineral sunscreen (contains only titanium and zinc)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: zinc-oxide
+  source: 'The other brand named in video Q6CcxuAGbb8 as tending not to carry hidden
+    organic filters; Barbieri notes the name is said to stand for ''contains only
+    titanium and zinc''. VERIFY that claim against an actual INCI listing before repeating
+    it, and resolve the specific SKU. Same caveat as the Vanicream entry: the video''s
+    own thesis is that front labels mislead, so a brand reputation for purity is exactly
+    the kind of claim that needs checking against the ingredient list.'
