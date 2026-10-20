@@ -3336,3 +3336,19 @@
     from the brand site. Her critique is a first-impression opinion, not evidence;
     the page should be graded on composition and any real evidence, and may cite her
     view as a creator opinion only after the sponsorship scan is re-run on the clip.
+- name: Tria FANp / Tria Age-Defying Laser (K141868, 1450 nm home fractional laser)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: home-fractional-nonablative-laser
+  source: 'The ONLY consumer fractional nonablative laser whose FDA file this site
+    has traced, and the device that should sit under the Level A modality grade. VERIFIED
+    from the K141868 Summary: product code ONG, predicate K130459 (Tria FAN System),
+    ''semiconductor diode laser system that delivers infrared light at a wavelength
+    of 1450 nm plus or minus 50 nm'', and the cleared indication is ONLY ''the treatment
+    of periorbital wrinkles (crow''s feet)''. Two things to resolve before drafting:
+    whether the retail name (Age-Defying Laser) maps to K141868 or K130459, since
+    the site has hit retail-to-clearance naming drift on every device line so far;
+    and whether the product is still sold, because Tria''s last clearance was 2016.
+    Note the file says only that ''Performance data was submitted'' without saying
+    clinical or nonclinical.'

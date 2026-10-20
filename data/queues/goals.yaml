@@ -213,7 +213,7 @@
 - name: Home-use fractional nonablative laser devices
   type: goal
   priority: 5
-  status: pending
+  status: done
   discovered_from: home-use-skincare-devices-by-evidence
   source: 'The HIGHEST-graded home device modality in PMID 42545315 and the only Level
     A row on home-use-skincare-devices-by-evidence, described as showing ''high-quality
@@ -382,3 +382,17 @@
     (jvuhQ3ZMsfs). The isotretinoin ingredient page exists; microdosing is a distinct
     regimen question with its own evidence. Source it from primary literature, NOT
     from the videos, then the videos can attach.'
+- name: 'Home microneedling devices: the infection risk the evidence actually flags'
+  type: goal
+  priority: 5
+  status: pending
+  discovered_from: home-fractional-nonablative-laser
+  source: 'The sharpest safety finding in PMID 42545315 and nothing on the site states
+    it: for facial rejuvenation, ''microneedling devices were supported by low-quality
+    evidence (Level D) and associated with infectious complications''. The microneedling
+    page covers the PROCEDURE and carries a dermatologist video recommending a home
+    stamping device, so the Level D plus infection finding needs to sit somewhere
+    a home-device shopper will see it. Decide whether this belongs as a section on
+    microneedling rather than a new page; if so, resolve this entry with that note.
+    Source the infection mechanism from a primary, not from the scoping review abstract,
+    which gives no detail.'

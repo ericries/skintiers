@@ -1358,3 +1358,17 @@
     against the specifications used in the trials. Locate the publication and verify;
     if it exists only as a conference abstract or is unpublished, say so and treat
     the video as the sole attribution.'
+- name: Raef 2026 scoping review of home dermatologic devices (PMID 42545315)
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: home-fractional-nonablative-laser
+  source: 'https://pubmed.ncbi.nlm.nih.gov/42545315/ - now cited by at least nine
+    pages on this site (home-use-skincare-devices-by-evidence, home-led-light-therapy,
+    home-fractional-nonablative-laser, newa-skin-therapy-system, foreo-faq-led-masks
+    and the reVive product pages) and it has no study page. It is the spine of the
+    whole device cluster, so its limitations deserve one place: it is a SCOPING review
+    that grades bodies of evidence rather than pooling them, reports no effect size
+    for any modality, and names no device. A study page should also recover which
+    studies sit behind the Level A rating, which is the one thing every device page
+    here has had to say it cannot determine.'

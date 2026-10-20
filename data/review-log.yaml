@@ -13329,4 +13329,36 @@ atrophic-acne-scar-subtypes:
     page from the acne-scars hub. Cross-feed found the sharpest remaining gap: icepick is the subtype with
     NO procedure page, so punch excision and elevation are queued. ZERO Apify spend; PubMed only.
     Self-verified in the main loop, assurance sonnet, force-published.'
+home-fractional-nonablative-laser:
+  last_reviewed: '2026-10-19'
+  note: 'Closed the largest hole in the device ladder: the Level A rung, which home-use-skincare-devices-by-
+    evidence had been pointing at with the words "No page here yet". 23 quotes verified verbatim, 0
+    substantive misses.
+    THE QUEUE ASKED ME to resolve which specific devices sit behind the Level A grade before grading. I
+    could not, and the page says so: the review names NO manufacturer, model or wavelength for any
+    modality. So instead of leaving the gap implicit I resolved what IS resolvable from primary sources and
+    found something better than expected.
+    THE FINDING: the grade and the cleared device do not describe the same thing. The modality grade is for
+    FACIAL REJUVENATION, but the only consumer fractional laser whose FDA file I could read, the Tria FANp
+    (K141868), is cleared for exactly one thing: "the treatment of periorbital wrinkles (crow''s feet)". A
+    1450 nm plus or minus 50 nm diode laser for the skin around the eyes. A reader shopping the top of the
+    ladder is buying a crow''s-feet device.
+    SECOND CAVEAT, stated rather than buried: the Level A label comes from a SCOPING review of PubMed with
+    GRADE applied afterwards, not from a meta-analysis. A scoping review maps a literature rather than
+    pooling it, so Level A produced this way is a weaker artifact than Level A with extractable effect
+    sizes. The page says that while still treating the review as the best overview available.
+    THIRD: product code ONG does not isolate home devices. It holds 35 clearances dominated by in-office
+    platforms (Fraxel, Clear and Brilliant, multiple CO2 systems), so the code cannot be used to find
+    consumer lasers, and a device sitting in it tells you nothing about home use.
+    NO tier_list, deliberately and for the second page in a row. Grading would require either home-laser
+    product pages that do not exist or treating the in-office CO2 page as a home device, which would be the
+    exact error the queue warned against. The page says why instead of inventing buckets.
+    STALE CLAIMS FIXED: home-use-skincare-devices-by-evidence said twice that this modality had no page.
+    Both now point here, one of them carrying the crow''s-feet catch so the ladder itself warns the reader.
+    Also surfaced a safety finding nothing on the site had stated: home microneedling is Level D for
+    rejuvenation AND "associated with infectious complications", which matters because the microneedling
+    page carries a dermatologist video recommending a home stamping device. Queued as a decision about
+    where it belongs rather than a new page.
+    ZERO Apify spend; PubMed, openFDA and one FDA PDF. Self-verified in the main loop, assurance sonnet,
+    force-published.'
 
