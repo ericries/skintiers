@@ -384,7 +384,7 @@
 - name: Blue light and eye safety in home skincare devices
   type: condition
   priority: 5
-  status: pending
+  status: done
   discovered_from: neutrogena-light-therapy-acne-mask-plus
   source: 'Grounded in a gap the Neutrogena page had to leave open. Its K180847 summary
     cites consensus standards including a collateral standard for non-laser light

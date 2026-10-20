@@ -436,3 +436,25 @@
     the risk profile from a primary and keep the clinician routing prominent. Note
     the 2013 review is now dated; look for newer guidance on Nd:YAG versus diode in
     Fitzpatrick IV to VI before grading.'
+- name: Blue light and eye safety in home skincare devices
+  type: goal
+  priority: 5
+  status: pending
+  discovered_from: neutrogena-light-therapy-acne-mask-plus
+  source: 'RE-TYPED from condition to goal on 2026-10-20. It was queued as a condition
+    but it is not one: a condition page must open with a ''How to know you have this''
+    section (enforced by sk lint), and device eye safety has no self-diagnosis. Filing
+    it as a goal keeps the lint contract honest instead of forcing an empty section.
+    ORIGINAL NOTE PRESERVED VERBATIM: Grounded in a gap the Neutrogena page had to
+    leave open. Its K180847 summary cites consensus standards including a collateral
+    standard for non-laser light sources and one for the home healthcare environment,
+    and the reVive K223482 summary separately claims its optics ''limit light scattering
+    and exposure to the eyes'' and that it ''has gone through all the clinical testing
+    for eye safety''. Two cleared home LED devices both treat ocular exposure as the
+    safety question, and the site has no page on it. STRICT SOURCING REQUIRED: build
+    only from FDA clearance documents and standards bodies. Do NOT assert or repeat
+    the widely-reported Neutrogena eye-safety withdrawal, which could not be confirmed
+    in openFDA recall, enforcement or registration data on 2026-10-16. ADDITIONAL
+    ANCHOR found since: the illuMask K123999 summary cites IEC 62471 photobiological
+    safety testing by name, which is the actual standard governing ocular exposure
+    from non-laser light sources, so three devices in the cluster now point at it.'

@@ -553,3 +553,19 @@
     not missing data; it argues a commercial conclusion the evidence it cites does
     not support. Also note the Town 2019 hair-removal review (PMID 30681170, three
     of seven authors at Philips Research).'
+- name: Ingrown hair and razor bump products by evidence
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: folliculitis
+  source: 'GROUNDED in a real gap found while clearing a folliculitis maintenance
+    flag. Three ingrown-hair PRODUCTS are published and link the folliculitis hub
+    but cannot join its tier_list, which grades bacterial versus fungal evidence:
+    fur-ingrown-concentrate, fur-ingrown-eliminator-serum and tend-skin-the-skin-care-solution
+    (its active is acetylsalicylic acid). Meanwhile ingrown-hairs and pseudofolliculitis-barbae
+    BOTH carry the identical tier_list of retinoids, glycolic-acid and salicylic-acid,
+    i.e. actives only, with no product graded on either. So three real products on
+    the site are currently ranked nowhere. Curatorial only, over pages that already
+    exist. ALSO WORTH DECIDING: ingrown-hairs and pseudofolliculitis-barbae have identical
+    tier_lists and may be duplicate hubs, which is a merge question for the user rather
+    than something to paper over.'

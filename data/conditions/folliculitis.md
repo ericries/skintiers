@@ -39,7 +39,11 @@ tier_list:
     tier: weak
   title: Folliculitis treatments by evidence
 type: condition
-updated: '2026-08-30'
+tier_list_reviewed:
+- fur-ingrown-concentrate
+- fur-ingrown-eliminator-serum
+- tend-skin-the-skin-care-solution
+updated: '2026-10-20'
 ---
 
 Folliculitis is "an inflamed hair follicle due to any cause," producing a tender red spot that often has a surface pustule; it can be superficial or deep and can affect anywhere there are hairs, including the chest, back, buttocks, arms, and legs.[^dermnet] It is not one disease. It is a shared pattern of follicle inflammation that different causes, most often bacterial or fungal infection, produce, and the right treatment depends entirely on which one is present.[^dermnet][^statpearls]
