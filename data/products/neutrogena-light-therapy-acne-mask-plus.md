@@ -73,6 +73,9 @@ A rechargeable full-face mask worn for a fixed session, "10 minutes/day", with "
 
 ## See Also
 
+- [[illumask-acne-light-therapy-mask]]: the device at the root of this clearance chain, and the ONLY one in it whose FDA file contains a clinical study; its blinded photo grading showed a 65.8% total lesion reduction at 8 weeks in an uncontrolled within-subject design
+
+
 [[home-led-light-therapy]] [[revive-light-therapy-wrinkle-and-acne-led-device]] [[acne]] [[benzoyl-peroxide]] [[adapalene]] [[home-use-skincare-devices-by-evidence]]
 
 ## Sources

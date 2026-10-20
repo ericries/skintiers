@@ -13521,4 +13521,37 @@ sweet-almond-oil:
     sourced; reworded so no quote marks appear on wording I did not fetch.
     Occlusion mechanics deliberately NOT re-explained; linked to mineral-oil and squalane. ZERO Apify
     spend; PubMed only. Self-verified in the main loop, assurance sonnet, force-published.'
+illumask-acne-light-therapy-mask:
+  last_reviewed: '2026-10-20'
+  note: 'THE QUEUE''S HYPOTHESIS WAS WRONG AND THE PAGE SAYS SO. It predicted that if K123999 also lacked
+    an acne trial, the whole Neutrogena lineage would trace to no clinical efficacy data across three
+    companies. It does not. K123999 contains a section headed "9. Clinical Summary" describing an
+    IRB-approved 12-week study, and it is the ONLY file in that chain that does. The real finding is
+    sharper than the predicted one: one small company ran one study in 2013, and Pulsaderm and then
+    Neutrogena inherited the clearance without repeating the work. A reader buying the Neutrogena mask is
+    relying on an uncontrolled 2013 study of a different company''s device.
+    I CORRECTED THE DOWNSTREAM CLAIM rather than leaving it. Both successor product pages now link here
+    with the correction, and I put a MATERIAL CORRECTION note on the queued disclosure list whose premise
+    assumed the chain was evidence-free. Leaving that queue entry as written would have had a future tick
+    publish the wrong generalisation.
+    THE SHARPEST NUMBER IS THE GAP BETWEEN TWO MEASUREMENTS OF THE SAME TRIAL. The investigator, counting
+    in person and unblinded, reported 82.8% inflammatory and 71.2% non-inflammatory lesion reduction at 8
+    weeks. Two independent doctors grading the SAME patients'' photographs blind and randomised reported
+    65.8% total reduction. The page carries both and says the blinded figure is the one to use, because an
+    unblinded assessor measuring their own trial is the classic inflation route.
+    DESIGN GRADED HONESTLY: sequential within-subject, same 30 patients, 4-week cleanser-only washout then
+    8 weeks of device, no sham, no randomisation of order, no p-value or confidence interval anywhere. The
+    washout does help, since lesions ROSE 3.13% during it, showing the group was not already improving.
+    It still cannot separate the device from eight more weeks of attention and routine.
+    CREDIT GIVEN: including all Fitzpatrick types is better than several newer devices on this site manage,
+    and the company ran a study at all rather than resting on bench testing. The criticism is of the design,
+    not its existence, and the page says that in the marketing-claims section.
+    TWO SMALL ACCURACY ITEMS. The FDA form prints the typo "Acnie" in the device name, quoted as printed
+    with a note. The file contradicts itself on treatment length, saying both "the last 9 weeks" and "the 8
+    week Treatment Period"; the page reports both and uses 8 where results attach. And the one alteration
+    made to any quoted wording, joining a line-break hyphenation of non-inflammatory, is disclosed in the
+    footnote. Also worth recording for future fetches: K123999 lives under accessdata pdf12, not pdf13,
+    despite its 2013 decision date; pdf13 returns a 404 HTML page that a careless pipeline would treat as a
+    PDF. ZERO Apify spend. 39 quotes checked. Self-verified in the main loop, assurance sonnet,
+    force-published.'
 

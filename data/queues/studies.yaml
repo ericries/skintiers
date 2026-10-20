@@ -1427,3 +1427,18 @@
     so. Search PubMed for a randomized or split-site comparison naming a consumer
     device (terms: home-use intense pulsed light versus laser hair removal randomized).
     If none exists, record that absence rather than leaving the gap implicit.'
+- name: The illuMask 2013 acne trial (inside K123999)
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: illumask-acne-light-therapy-mask
+  source: 'The ONLY clinical study in the entire Neutrogena acne-mask lineage, and
+    it exists only inside an FDA 510(k) Summary rather than as a published paper as
+    far as this site has established. Worth a study page because the numbers are being
+    inherited by two better-known products: 30 patients, same people, 4-week cleanser-only
+    washout then 8 weeks of device use, investigator in-person counts of 82.8% inflammatory
+    and 71.2% non-inflammatory lesion reduction, but blinded two-doctor photo grading
+    of only 65.8% total reduction at week 8, no p-value and no sham arm. FIRST search
+    PubMed for a published version (terms: illuMask OR ''blue and red light'' acne
+    home mask 2013 La Lumiere); if none exists, record that the data is FDA-file-only,
+    which is itself the finding.'

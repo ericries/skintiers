@@ -3059,7 +3059,7 @@
 - name: Illumask Acne Light Therapy Mask (La Lumiere)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: pulsaderm-acne-mask-28
   source: 'THE ROOT of the Neutrogena clearance chain and the last unread link. FDA
     510(k) K123999, La Lumiere, LLC, decision 2013-08-28 per the openFDA device/510k
@@ -3400,3 +3400,17 @@
     that the Jack Black SPL conspicuously lacks. If it does, that is a real difference
     between two drugstore SPF lip balms that no shopper could see from the packaging.
     Free DailyMed route, no metered call.'
+- name: Omnilux Clear-U Acne Treatment System (PhotoTherapeutics, K081307)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: illumask-acne-light-therapy-mask
+  source: 'The predicate BENEATH the illuMask, named verbatim in K123999 as ''Omnilux
+    Clear-U Acne Treatment System. Manufactured by PhotoTherapeutics, Ltd.'' with
+    number K081307, product code OLP. That makes it the fourth and deepest link in
+    the Neutrogena lineage: Neutrogena K180847 to Pulsaderm K170111 to illuMask K123999
+    to THIS. Pull it from accessdata (try pdf8 first, since K08 numbers sit there,
+    and note K123999 itself was filed under pdf12 not pdf13) and resolve whether it
+    is a Summary or a Statement and whether it too contains clinical data. Omnilux
+    is still a marketed brand, so this may also be a live product rather than only
+    a historical predicate.'

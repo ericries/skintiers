@@ -437,7 +437,14 @@
     foreo-espada-blue-light-pen, nuface-trinity-microcurrent-device, revive-light-therapy-lux-glo,
     revive-light-therapy-lux-spot, revive-light-therapy-led-cleansing-system, neutrogena-light-therapy-acne-mask-plus,
     pulsaderm-acne-mask-28. Curatorial only; the axis is DISCLOSURE, which must not
-    be presented as efficacy.'
+    be presented as efficacy. MATERIAL CORRECTION 2026-10-20, read before building.
+    The axis still holds but one premise was wrong: the Neutrogena lineage does NOT
+    trace to an absence of clinical data. illumask-acne-light-therapy-mask (K123999,
+    the root predicate) contains a full Clinical Summary with an IRB-approved 12-week
+    study, and it is the ONLY file in that chain that does. So the finding is sharper
+    than ''nobody tested these'': one small company tested once in 2013, and Pulsaderm
+    and Neutrogena inherited the clearance without repeating the work. Any list on
+    this axis must say that rather than implying the whole chain is evidence-free.'
 - name: Home radiofrequency devices by evidence
   type: list
   priority: 5

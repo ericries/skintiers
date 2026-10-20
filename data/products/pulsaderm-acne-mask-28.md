@@ -67,6 +67,9 @@ Class II devices using "Light Emitting Diodes to apply low power monochromatic a
 
 ## See Also
 
+- [[illumask-acne-light-therapy-mask]]: the device at the root of this clearance chain, and the ONLY one in it whose FDA file contains a clinical study; its blinded photo grading showed a 65.8% total lesion reduction at 8 weeks in an uncontrolled within-subject design
+
+
 [[neutrogena-light-therapy-acne-mask-plus]] [[home-led-light-therapy]] [[home-use-skincare-devices-by-evidence]] [[revive-light-therapy-essentials]] [[foreo-espada-blue-light-pen]] [[fda-approved-vs-cleared-skincare]] [[acne]]
 
 ## Sources
