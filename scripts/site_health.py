@@ -181,13 +181,21 @@ def check_brand_missing_product():
         if not bname:
             continue
         linked = wikilinks(braw)
+        # Slugs the maintainer has DELIBERATELY reviewed and excluded from this
+        # brand page's product list. Mirrors tier_list_reviewed above, and exists
+        # for the same reason: without it a candidate that must NOT be linked
+        # re-fires this check forever. The case that forced it (2026-10-20) was a
+        # DUPLICATE product page, where linking the second slug would list one
+        # product twice under two names; the duplication itself needs a human
+        # decision to delete or merge, which this flag cannot make.
+        reviewed = set(bfm.get("brand_products_reviewed") or [])
         missing = []
         for pf, pfm, pbody, praw in prods:
             if not published(pfm):
                 continue
             if (pfm.get("brand") or "").strip().lower() == bname.lower():
                 ps = slug_of(pfm, pf)
-                if ps not in linked:
+                if ps not in linked and ps not in reviewed:
                     missing.append(ps)
         if missing:
             return (

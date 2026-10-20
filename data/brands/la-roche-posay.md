@@ -5,7 +5,9 @@ name: La Roche-Posay
 slug: la-roche-posay
 status: published
 type: brand
-updated: '2026-10-08'
+brand_products_reviewed:
+- la-roche-posay-toleriane-double-repair-face-moisturizer
+updated: '2026-10-20'
 ---
 
 La Roche-Posay is a French dermatological skincare brand built around the thermal spring water of the town of La Roche-Posay, and it has been part of the French cosmetics company L'Oreal since 1989.[^1][^2]
