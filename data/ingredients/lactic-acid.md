@@ -30,6 +30,16 @@ videos:
   related: [cerave, vanicream, the-ordinary, roc]
   thesis: 'Board-certified dermatologist Dr. Jenny Liu explains that stretch marks (striae) are essentially scars formed when skin is stretched faster than it can adapt, and that the stage matters most: red/purple "striae rubra" respond much better to intervention than old white "striae alba," which can only be made less visible, never erased. She ranks 0.1% tretinoin for 12 weeks as the best topical for red stretch marks specifically, notes centella asiatica and hyaluronic-acid-based moisturizers have the better evidence for prevention (especially in pregnancy), and says lactic acid lotion (AmLactin), silicone sheets, and massage oils have weaker but plausible support. She concludes in-office procedures (pulsed dye laser/IPL for redness, then microneedling, RF microneedling, or fractional CO2 resurfacing over 3-5+ sessions) give the best clinical results, and that prevention (managing weight gain, keeping skin hydrated) beats treatment overall.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Glycolic acid vs lactic acid for dark spots (weekend Q and A)
+  creator: Andrea Suarez (Dr Dray)
+  creator_slug: andrea-suarez-dr-dray
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=ionyOpS0UmA
+  posted: '2026-10-03'
+  related: [glycolic-acid, ammonium-lactate, amlactin-daily-moisturizing-lotion-12-lactic-acid, hyperpigmentation, brightening]
+  thesis: 'Asked whether 12% glycolic acid or 12% lactic acid is better for frictional pigmentation and uneven tone, board-certified dermatologist Andrea Suarez answers that the two percentages cannot be compared directly because performance depends on the whole formulation. Her analogy is teaspoons of sugar in two different recipes: the same number can taste very different depending on what else is in the bowl. She says either acid can gradually soften frictional darkening such as on elbows and knees, and either can help uneven tone when the pigment sits in the epidermis, but that no topical addresses pigment in the dermis, and that results stall if the rubbing is not removed or the area keeps getting unprotected sun. This is one answer within a multi-topic weekend Q and A rather than a single-subject video.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
