@@ -456,7 +456,7 @@
   channel: https://www.tiktok.com/@jennlexi_
   product_recs: restricted
   conflict: 'Runs #ad sponsored posts (e.g. TruSkin) and Target skincare hauls/reviews; prefer her educational ingredient-category and barrier-repair explainers, and treat product recommendations as effectively promotional (skip).'
-  last_pulled: '2026-10-18'
+  last_pulled: '2026-10-20'
 - name: Doctorly
   creator_slug: doctorly
   backfill_cursor: 15

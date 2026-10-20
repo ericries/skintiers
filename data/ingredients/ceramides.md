@@ -63,6 +63,16 @@ videos:
   related: [hyaluronic-acid, panthenol, skin-barrier-strengthening]
   thesis: 'Dr. Fatima Fahs, a dermatologist, explains that sudden skin burning, tightness after moisturizing, flakiness, oiliness, or unexplained breakouts usually signal a damaged skin barrier rather than newly sensitive skin. She compares the barrier to a brick wall, with skin cells as the bricks and lipids as the mortar, and notes that cracks let water escape and irritants in, increasing inflammation. Her takeaway: the healthiest skin isn''t the skin with the most products, it''s the skin with the strongest barrier'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: How do you fix a damaged barrier, part 3
+  creator: Jenn Lexi (@jennlexi_)
+  creator_slug: jennlexi
+  credential: Esthetician (self-identified); not a dermatologist or cosmetic chemist
+  platform: TikTok
+  url: https://www.tiktok.com/@jennlexi_/video/7698553588624215310
+  posted: '2026-10-20'
+  related: [cholesterol, free-fatty-acids, skin-barrier-repair, glycerin, hyaluronic-acid, panthenol, beta-glucan]
+  thesis: 'Licensed esthetician Jenn Lexi argues that barrier repair comes down to ingredient categories rather than price, and makes one point worth carrying about ceramides specifically: a product containing ceramides is not automatically effective, and she recommends looking for ceramides together with cholesterol and fatty acids, the trio she describes as the cement between skin cells. She separates that from humectants such as glycerin, hyaluronic acid, beta glucan and panthenol, which draw water in, and notes that skin feeling hydrated does not mean the barrier has recovered, because that hydration can come and go unless something holds it in. She says she will cover three ingredient categories and the clip details two of them, and her trio recommendation is her own clinical practice rather than a trial result she cites.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

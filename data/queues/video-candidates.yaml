@@ -12576,7 +12576,8 @@
   conflict: 'Past paid brand-consultant roles: Kiehl''s (''NEW US Consulting Dermatologist'', ~5yr-old campaign) and Clinique Derm Pro spokesperso; no YouTube; TikTok/IG intake'
   posted: '2026-10-13'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: '''#onthisday'' repost with no stated topic; not a single-topic match to any page'
 - id: Bi0QjyJYkag
   title: 'rating skincare for strawberry skin, stitch with lionofgod888 #skincare'
   creator: Dr. Neera Nathan
@@ -13846,7 +13847,8 @@
   conflict: Self-describes as a "Key Opinion Leader for industry beauty companies" (per her own practice bio) and most sampled TikTok videos e; no YouTube; TikTok/IG intake
   posted: '2026-10-20'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: comment-SECRET waitlist funnel for the creator's own upcoming launch; fourth such lead magnet from her, all rejected
 - id: MpPrzjGV9bU
   title: 'Sheer Tint Color Correcting SPF | Derm & Rejuvenation Institute '
   creator: Tanya Kormeili, MD, FAAD
