@@ -1329,3 +1329,32 @@
     peel). Three analyses, three winners, is the strongest argument yet for the Liu
     2026 position that no dependable ranking exists. Recover the SUCRA table and the
     sensitivity analyses, which the abstract says were sensitive to network connectivity.'
+- name: Barbieri et al. systematic review of at-home LED devices for acne (6 RCTs,
+    200+ patients)
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: home-led-light-therapy
+  source: 'Described by its own author on camera (video 2No7WA7DYEI, carded on home-led-light-therapy):
+    six randomized controlled trials, over 200 people aged 12 to 50 with mild to moderate
+    acne, roughly 45% greater lesion improvement than control, two trials vs benzoyl
+    peroxide showing LED maybe slightly better, one trial showing red plus blue beat
+    blue alone. FIND THE PAPER on PubMed (author Barbieri JS, terms: light emitting
+    diode acne systematic review home) and verify every figure against the publication
+    rather than the video, because all of the above is currently sourced to a creator
+    describing his own work. This is the device-level evidence the whole home-LED
+    cluster on this site has been missing.'
+- name: Barbieri et al. market survey of at-home LED device specifications
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: home-led-light-therapy
+  source: 'The second study described in video 2No7WA7DYEI: the author says he and
+    colleagues catalogued devices from top retailers and search results, looked up
+    wavelengths, fluence and irradiance, and found ''incredible heterogeneity in the
+    market'' with NO correlation between cost and delivered power. That finding is
+    directly load-bearing for home-use-skincare-devices-by-evidence and for every
+    device page here, because it is the only source that compares real marketed devices
+    against the specifications used in the trials. Locate the publication and verify;
+    if it exists only as a conference abstract or is unpublished, say so and treat
+    the video as the sole attribution.'

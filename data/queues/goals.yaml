@@ -369,3 +369,16 @@
     the evidence to be thin and say so, since PMID 30856634 itself reports few high-quality
     studies and PMID 42745895 found no trial reporting results by scar morphology
     at all.
+- name: Microdosing isotretinoin (low-dose Accutane)
+  type: goal
+  priority: 5
+  status: pending
+  discovered_from: home-led-light-therapy
+  source: 'Grounded in the Barbieri back catalogue enumerated 2026-10-19, which contains
+    several single-topic isotretinoin explainers the site has no hub for: ''When Does
+    It Make Sense to Microdose Accutane (Isotretinoin)?'' (mHMIOuECdyQ), ''Why Acne
+    Comes Back After Accutane'' (Dwi5X24nKJo), ''How to avoid joint and muscle aches
+    from Accutane'' (2tLGldkDWyw) and ''Can topical isotretinoin replace oral isotretinoin?''
+    (jvuhQ3ZMsfs). The isotretinoin ingredient page exists; microdosing is a distinct
+    regimen question with its own evidence. Source it from primary literature, NOT
+    from the videos, then the videos can attach.'
