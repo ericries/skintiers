@@ -13443,4 +13443,26 @@ amin-2025-oral-hyaluronic-acid-meta-analysis:
     collagen video skipped for having no attachable page, and a standing note deferring non-topical
     anti-aging to a later phase). Queued as a DECISION item for the user to settle, not an essay to draft.
     ZERO Apify spend; PubMed only. Self-verified in the main loop, assurance sonnet, force-published.'
+stephen-alain-ko:
+  last_reviewed: '2026-10-20'
+  note: 'Lean person card, 138 words of body, inside the 150 cap. TWO CORRECTIONS TO THE QUEUE ITEM, both
+    found by checking rather than trusting it.
+    (1) THE QUEUE CALLED HIM A COSMETIC CHEMIST. The roster does not: it records "Skincare educator" at MED
+    tier. And his own site does not either. Its page title reads "I''m a skincare and cosmetic formulator",
+    which is what the card quotes. No chemistry degree, professional body registration or employer was
+    located, so the card presents the formulator description as HIS OWN statement and says plainly that he
+    is not a dermatologist. Writing "cosmetic chemist" because the queue said so would have been an
+    unverified claim about a living person, and the queue item itself was the only source for it.
+    (2) THE QUEUE SAID 6 CARDED VIDEOS. There are 6 CARD INSTANCES but only TWO distinct videos, both
+    recordings of 2018 Instagram Lives, spread across five ingredient pages. The card says two, not six.
+    An inflated count would have overstated how much of this site his work actually backs.
+    Also surfaced something no other person card has had to: these are the OLDEST creator recordings on the
+    site by a wide margin, and the card warns that they predate several reformulations of the products
+    discussed. That is a real caveat for a reader clicking a 2018 Instagram Live from an ingredient page.
+    Source cached (kindofstephen.com is unknown-class) and the self-description re-verified against the
+    local cache, so the single load-bearing quote survives even if the site changes. sk verify flags the
+    domain as non-primary, which is correct and expected.
+    ZERO Apify spend. Also noted the next gap: Aleksandra Brown at 9 carded videos, with an instruction to
+    verify via the NPI registry rather than the roster string. Self-verified in the main loop, assurance
+    sonnet, force-published.'
 

@@ -283,7 +283,9 @@
     7 videos carded. NOTE 2026-10-19: she now has 9 carded videos on the site, the
     largest remaining person-page gap. VERIFY the roster credential via the free NPI
     registry Dermatology taxonomy rather than trusting the roster string, as the existing
-    derm cards here do.'
+    derm cards here do. NOTE 2026-10-20: still the largest person-page gap at 9 carded
+    videos. Verify via the free NPI registry Dermatology taxonomy, as the 43 existing
+    dermatologist cards here do, rather than trusting the roster credential string.'
 - name: John Barbieri, MD
   type: person
   priority: 5
@@ -305,7 +307,7 @@
 - name: Stephen Alain Ko (cosmetic chemist)
   type: person
   priority: 5
-  status: pending
+  status: done
   discovered_from: your-estie-ella
   source: 6 carded videos and no person page. A cosmetic chemist rather than a clinician,
     so the NPI registry does not apply; verify the formulation/chemistry background
