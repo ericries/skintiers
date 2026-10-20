@@ -423,3 +423,16 @@
     it states the exclusion somewhere a reader and a future tick can both see. Right
     now each tick re-decides. Resolve this entry by recording whichever choice is
     made rather than by writing an essay.'
+- name: Light-based hair removal in deeper skin tones (Fitzpatrick IV to VI)
+  type: goal
+  priority: 5
+  status: pending
+  discovered_from: hair-removal-devices-by-evidence
+  source: 'The one actionable skin-tone finding on the new list, and the site has
+    no page for it: PMID 23332016 states that ''Because of its longer wavelength,
+    the Nd:YAG is the best laser system to use for pigmented skin.'' That is a wavelength-specific
+    recommendation pointing to an IN-OFFICE device, and neither home IPL product on
+    the site offers it. Burns and pigment change are the real risks here, so source
+    the risk profile from a primary and keep the clinician routing prominent. Note
+    the 2013 review is now dated; look for newer guidance on Nd:YAG versus diode in
+    Fitzpatrick IV to VI before grading.'

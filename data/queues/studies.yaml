@@ -1400,3 +1400,30 @@
     elasticity), and prefer one that states its n and its measurement instrument.
     Only with a magnitude can the site say anything useful about whether an oral HA
     supplement is worth taking.'
+- name: Town 2019 home-use light-based hair removal review (PMID 30681170)
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: hair-removal-devices-by-evidence
+  source: https://pubmed.ncbi.nlm.nih.gov/30681170/ - the home side of the new hair-removal
+    list and the clearest manufacturer-authorship case the site has after the Proya
+    paper. THREE of its seven authors are listed at Philips Research, PubMed records
+    NO conflict statement, and Philips makes one of the two home IPL devices the site
+    covers. It is also the source of the only durability figure available, 80% persistent
+    reduction one year after last treatment, for an UNNAMED commercially-available
+    appliance. A study page should recover which appliance, how many participants,
+    and whether the 80% comes from a trial in this review or is cited from elsewhere.
+    Belongs on the queued 'manufacturer-authored studies' list too.
+- name: A head-to-head trial of a named home IPL device against clinic laser
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: hair-removal-devices-by-evidence
+  source: 'The gap the new hair-removal list names explicitly. Neither source behind
+    it compares the two routes directly: the 2013 review covers professional devices
+    and says home-device research is still needed, and the 2019 review describes home
+    appliances without a clinic comparator. So the list''s ranking is a judgement
+    about evidence quality, NOT a measured difference in hair reduction, and it says
+    so. Search PubMed for a randomized or split-site comparison naming a consumer
+    device (terms: home-use intense pulsed light versus laser hair removal randomized).
+    If none exists, record that absence rather than leaving the gap implicit.'

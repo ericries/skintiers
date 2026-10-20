@@ -13465,4 +13465,32 @@ stephen-alain-ko:
     ZERO Apify spend. Also noted the next gap: Aleksandra Brown at 9 carded videos, with an instruction to
     verify via the NPI registry rather than the roster string. Self-verified in the main loop, assurance
     sonnet, force-published.'
+hair-removal-devices-by-evidence:
+  last_reviewed: '2026-10-20'
+  note: 'Built to fix a LIVE COLLISION the queue identified, and the collision is now fixed at both ends.
+    The device ladder grades home intense pulsed light at Level D and not recommended, but that verdict is
+    FOR ACNE from a review covering acne and rejuvenation only, while the two home IPL products on this site
+    are hair-removal devices. A reader could easily have carried the acne verdict across. The new list
+    opens by saying so, and I also added the caveat to the ladder itself so the warning sits where the
+    Level D line is read.
+    The queue forbade reusing PMID 42545315 and demanded a hair-specific source. Found two, one per side.
+    Professional: PMID 23332016 (Gan 2013) supports alexandrite, diode, Nd:YAG and IPL for long-term
+    removal and calls in-office devices a durable solution. Home: PMID 30681170 (Town 2019) reports
+    published efficacy and safety for home devices plus a catagen-induction mechanism at low fluence.
+    23 quotes verified verbatim, 0 misses.
+    THE FINDING THAT SET THE GRADES is authorship. The warm verdict on home devices comes from a review
+    with THREE of its seven authors listed at Philips Research, no conflict statement recorded, and Philips
+    manufactures one of the two home devices graded. Its only durability figure, 80% persistent reduction
+    at one year, is reported for an UNNAMED appliance. So both home devices sit at mid, and the page states
+    plainly that the 80% cannot be attached to either product and that none of this makes the figure wrong.
+    No allegation about the authors, just the publication record, same handling as the Proya card.
+    The clinic route takes best because its support is independent AND it carries the one actionable
+    skin-tone finding on the page: Nd:YAG for pigmented skin, which no home device offers.
+    HONEST ABOUT WHAT THE RANKING IS: neither source compares the routes directly, so the page says the
+    ordering is a judgement about evidence quality rather than a measured difference in hair reduction, and
+    queued the missing head-to-head.
+    FOUR COLON BUGS in one frontmatter, all caught instantly by the _load_post error handler added earlier
+    this week, which named line 16 and the cause on the first run. Fourth time that fix has paid off. Also
+    cleared a style warning for defensive meta-commentary ("This page grades...").
+    ZERO Apify spend; PubMed only. Self-verified in the main loop, assurance sonnet, force-published.'
 
