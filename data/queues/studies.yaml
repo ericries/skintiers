@@ -772,7 +772,28 @@
   priority: 5
   status: pending
   discovered_from: null
-  source: https://pubmed.ncbi.nlm.nih.gov/40911740/
+  source: 'https://pubmed.ncbi.nlm.nih.gov/40911740/ Research done 2026-10-21 but
+    the tick was superseded before drafting; do NOT re-fetch, just verify. J Drugs
+    Dermatol 2025 Sep 1;24(9):904-909, doi 10.36849/jdd.9201, indexed as a Randomized
+    Controlled Trial. Design single-site, randomized, split-face, double-blind, controlled;
+    n=42 female, Fitzpatrick I-VI; AGE-inhibitory moisturizer vs a BLAND moisturizer,
+    twice daily, 10 weeks total (14 days priming before the procedure plus 8 weeks
+    after), assessments at baseline and weeks 1, 2, 4, 8 on the modified Griffiths
+    scale plus VISIA imaging. FOUR THINGS THE PAGE MUST CARRY. (1) The abstract NEVER
+    NAMES THE PRODUCT, so this evidence cannot be attached to any product page. (2)
+    PROCEDURE IS CONFOUNDED WITH SKIN TYPE by design: Fitzpatrick I-II received RF
+    microneedling and III-VI received a glycolic acid peel, so ''works after RFMN''
+    cannot be separated from ''works in lighter skin'', and each stratum is only about
+    21 people. (3) The abstract reports NO effect sizes at all, only ''statistically
+    significant'' with P<0.05, so effect magnitude is unreportable. (4) Two different
+    claims must not be conflated: 5 attributes beat the control side at week 8, while
+    10 attributes improved versus BASELINE, which is a within-arm change and not a
+    controlled comparison. Also note PubMed records NO author affiliations and NO
+    conflict-of-interest statement for this paper, and no grant support; state that
+    as what the record shows and allege nothing. All-female sample, so no generalization
+    to men despite the conclusion''s ''women of all skin tones'' phrasing. Link out
+    to microneedling, glycolic-acid, anti-aging, skin-firmness-elasticity; the site
+    has NO advanced-glycation-end-products page.'
 - name: 'Irvine 2025 Efficacy and Safety of Upadacitinib in Patients With Moderate-to-Severe
     Atopic Dermatitis: (PMID 40900410)'
   type: study
