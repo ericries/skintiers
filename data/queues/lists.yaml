@@ -569,3 +569,16 @@
     exist. ALSO WORTH DECIDING: ingrown-hairs and pseudofolliculitis-barbae have identical
     tier_lists and may be duplicate hubs, which is a merge question for the user rather
     than something to paper over.'
+- name: Home LED devices sold for BODY acne (back and chest)
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: revive-light-therapy-lux-panel
+  source: 'Grounded in revive-light-therapy-lux-panel, shipped 2026-10-21, which is
+    the first device on the site sold for ''face, neck, chest, back, and more''. The
+    gap it exposes is real and currently unaddressed: the 2026 GRADE review (PMID
+    42545315) that supplies every LED grade here covers FACIAL acne and FACIAL rejuvenation,
+    so no graded evidence on this site covers back or chest LED treatment at all.
+    A short list would exist mainly to say that out loud and route readers to body-acne.
+    Do NOT build it until at least two body-positioned devices have pages; one item
+    is not a list.'

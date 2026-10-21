@@ -10377,6 +10377,24 @@ revive-light-therapy-lux-glo:
     markup and collapses whitespace while preserving any ld+json block, and pointed the playbook at it.
     Verified: all four spot-checked quotes now match with a plain grep where they previously returned
     zero.'
+revive-light-therapy-lux-panel:
+  assurance: sonnet
+  notes: 'All 43 quoted strings verified verbatim against the LOCAL CACHE of the brand product page (research-cache/web/baa6fd4709bf9f24.md)
+    plus the PMID 42545315 abstract; 0 mismatches. Price 399.00 USD taken from the page''s schema.org
+    Product block and cross-checked against the displayed ''Regular price $399.00''. WRITTEN DELIBERATELY
+    SHORT: the claim set is word-for-word identical to revive-light-therapy-lux-clinical, so this page
+    covers ONLY the differences (unquantified larger area, a body indication, goggles included) and links
+    out rather than re-arguing the name-to-clearance gap, the ''clinically tested'' modality wording and
+    the FDA-Approved collection heading, all three of which that page already sources. Absence claim string-checked:
+    the cached page contains NO treated-area measurement (zero hits for cm2, superscript cm2, or ''square'')
+    and no irradiance figure, which is the page''s main finding since treated area is the only thing the
+    extra $200 buys. Also noted that the Level B grade comes from FACIAL acne and rejuvenation trials,
+    so it does not cover the back and chest this unit is sold for. The goggles contrast (included here,
+    absent from the handheld the brand advertises for under-eye use) is sourced to the sibling page rather
+    than re-cited.'
+  reviewed: '2026-10-21'
+  reviewer: main-loop self-verification
+  verdict: publish
 revive-light-therapy-lux-spot:
   last_reviewed: '2026-10-18'
   note: 'The queue item was named "reVive Light Therapy poof! Acne Treatment" and its note said to resolve

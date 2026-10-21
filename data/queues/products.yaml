@@ -3131,7 +3131,7 @@
 - name: reVive Lux Panel Light Therapy device
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: revive-light-therapy-lux-glo
   source: Listed at https://revive-light-therapy.com/products/lux-panel-light-therapy
     in the brand shop-all navigation (cached 2026-10-18). A PANEL rather than a handheld,
@@ -3561,7 +3561,7 @@
 - name: reVive Light Therapy Lux Panel
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: 'Product handle lux-panel-light-therapy on the reVive storefront listing
     cached 2026-10-21 (research-cache/web/efa377180ba72fb8.md). A panel-format unit
@@ -3604,3 +3604,15 @@
     adipate, edetate disodium, water). Do NOT repeat the efficacy rubric; link out.
     Price is likely unresolvable for a prescription product and that is an acceptable
     outcome.'
+- name: Pulsaderm Acne Clearing Blue Light (body or large-area variants)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: revive-light-therapy-lux-panel
+  source: 'Surfaced by the body-area gap on revive-light-therapy-lux-panel (2026-10-21):
+    the site grades pulsaderm-acne-mask-28 for the face but has nothing covering large-area
+    or body-format blue light from any other maker, which makes the Lux Panel look
+    unique when it may not be. VERIFY FIRST from openFDA device/510k (product code
+    OLP) whether Pulsaderm or any other firm holds a clearance for a body or large-area
+    acne light, and drop this item if none exists rather than drafting a page around
+    a product that is not cleared for it.'
