@@ -8690,6 +8690,25 @@ osman-2008-cocoa-butter-for-prevention-of-striae-gravidarum-rct:
     sonnet.'
   score: 9
   verdict: publish
+otc-antifungals-by-evidence:
+  assurance: sonnet
+  notes: 'All 19 quoted strings verified verbatim against the re-fetched PMID 17636672 abstract; 0 mismatches.
+    Every one of the six placebo-controlled risk ratios and the head-to-head RR 0.63 (95% CI 0.42 to 0.94)
+    from 11 trials confirmed against the source, as were the nail findings and the 67-of-144-trials inclusion
+    count. DESIGN FOLLOWS THE QUEUE ITEM''S WARNING: the ranking axis is whether an agent was directly
+    COMPARED with another antifungal, NOT the placebo pools, because those are separate comparisons and
+    ranking them is an indirect-comparison fallacy; the pools are quoted in full in the prose and explicitly
+    labelled non-comparable, and the page notes that reading them naively reverses the head-to-head result.
+    Three deliberate exclusions, each explained on the page: selenium sulfide, zinc pyrithione and sulfur
+    are Malassezia-directed and string-checked as ZERO occurrences in the review (putting them in any
+    tier would imply this evidence rates them); ciclopirox is discussed in prose but kept out of the tier_list
+    because its availability without prescription varies by country and was not verified; and no per-agent
+    OTC-status claim is made anywhere. Currency caveat carried: 2007 review, searches ended January 2005
+    (confirmed, 2 occurrences). Did NOT re-explain the indirect-comparison trap, which the tolnaftate
+    page owns; linked out in one clause instead.'
+  reviewed: '2026-10-21'
+  reviewer: main-loop self-verification
+  verdict: publish
 oxybenzone:
   last_reviewed: '2026-08-20'
   note: 'INGREDIENT cron (dependency of the Cetaphil SPF 50 product page; oxybenzone was the first product

@@ -335,7 +335,7 @@
 - name: OTC antifungals ranked by evidence
   type: list
   priority: 5
-  status: pending
+  status: done
   discovered_from: tolnaftate
   source: 'Now buildable: terbinafine, clotrimazole, ketoconazole and tolnaftate all
     have pages, and Crawford 2007 Cochrane (PMID 17636672) supplies ONE axis across

@@ -2335,3 +2335,37 @@
     so they can over-exfoliate and are discouraged during an eczema flare. Treat all
     of that as HER claims, not findings; the trials she alludes to are unnamed and
     must be located.'
+- name: Amorolfine
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: otc-antifungals-by-evidence
+  source: 'Named in Crawford 2007 Cochrane (PMID 17636672), verified 2026-10-21, as
+    the one topical the review suggests may do better on NAILS: amorolfine ''might
+    be substantially more effective but more research is required'', against topical
+    ciclopiroxolamine which it says ''has poor cure rates''. The site covers onychomycosis
+    but has no amorolfine page. Resolve its regulatory status carefully before drafting:
+    it is not an FDA-approved topical in the US as far as this note knows, which is
+    exactly the kind of claim to verify against a primary source rather than assume.'
+- name: Undecylenic acid (undecanoates)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: otc-antifungals-by-evidence
+  source: 'One of the six agent groups pooled in Crawford 2007 Cochrane (PMID 17636672),
+    verified 2026-10-21: ''undecanoates RR 0.29 (95% CI 0.12 - 0.70)'' for treatment
+    failure versus placebo in fungal foot infection. A long-standing OTC antifungal
+    with no page here, so the otc-antifungals-by-evidence tier_list cannot include
+    it. Same discipline as the tolnaftate page: that placebo RR is NOT comparable
+    with the other pools and must not be used to rank it.'
+- name: Naftifine
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: otc-antifungals-by-evidence
+  source: The other allylamine alongside terbinafine, surfaced while building otc-antifungals-by-evidence
+    on 2026-10-21. Crawford 2007 Cochrane (PMID 17636672) pooled ALLYLAMINES as a
+    class, and that class is the only one with head-to-head evidence of superiority
+    (RR 0.63 vs azoles, 11 trials), so a naftifine page would inherit a class-level
+    result it does not individually own. Make that distinction explicit rather than
+    transferring the class grade to the molecule.
