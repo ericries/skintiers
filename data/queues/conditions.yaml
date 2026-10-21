@@ -504,3 +504,15 @@
     is a premalignant lesion, so source it from a primary (PubMed or an NCI PDQ page)
     and keep the see-a-clinician routing prominent; the lip-care page already flags
     chronic UV as the leading risk factor.
+- name: Dermatophytoma
+  type: condition
+  priority: 5
+  status: pending
+  discovered_from: efinaconazole
+  source: Named as an EXCLUSION criterion in both efinaconazole phase 3 trials on
+    the DailyMed label read 2026-10-21 ('without dermatophytomas or lunula (matrix)
+    involvement'), and the site has no page for it. It matters because it is one of
+    the two features that put a nail outside the population where the 17.8% complete-cure
+    figure applies, so a reader with a dermatophytoma is reading the wrong number.
+    Confirm the clinical definition from a primary dermatology source before drafting;
+    keep it tight and route treatment to onychomycosis.

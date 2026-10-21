@@ -1604,7 +1604,7 @@
     onychomycosis; a newer topical with better nail penetration than older lacquers
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/28707751/
 - name: Amorolfine (Loceryl/Curanail), topical antifungal nail lacquer; Cochrane (Crawford
@@ -2369,3 +2369,16 @@
     (RR 0.63 vs azoles, 11 trials), so a naftifine page would inherit a class-level
     result it does not individually own. Make that distinction explicit rather than
     transferring the class grade to the molecule.
+- name: Tavaborole (Kerydin), topical oxaborole for toenail onychomycosis
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: efinaconazole
+  source: 'The other topical approved in the US in the same era as efinaconazole for
+    toenail onychomycosis, surfaced while writing the efinaconazole page on 2026-10-21.
+    The site now has efinaconazole and ciclopirox but no tavaborole, leaving the modern
+    topical-nail picture incomplete. VERIFY FROM PRIMARY SOURCES FIRST, nothing about
+    it is asserted here: confirm it exists on DailyMed, confirm the marketing category
+    is NDA rather than ANDA, and take its complete-cure and mycologic-cure rates from
+    the label''s own trial table the way the efinaconazole page does. Expect a similarly
+    modest complete-cure rate; do not assume one.'

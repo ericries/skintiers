@@ -3589,3 +3589,18 @@
     the exact SKU and strength from DailyMed or the brand before drafting, since the
     Lamisil name spans cream, gel, spray and an oral prescription product, and the
     Cochrane evidence behind the ranking is for TOPICAL foot infection only.
+- name: Jublia (efinaconazole 10% topical solution)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: efinaconazole
+  source: 'DailyMed SPL 922d4d25-c530-11e1-9b21-0800200c9a66, read in full 2026-10-21
+    for the efinaconazole ingredient page. Marketing category NDA, initial US approval
+    2014, Bausch Health US LLC, with Kaken Pharmaceutical listed. The ingredient page
+    already carries the trial figures; a PRODUCT page adds the things it does not:
+    structured NDCs 0187-5400-04 (4 mL) and 0187-5400-08 (8 mL) with their active/completed
+    status, the integrated flow-through brush applicator, and the inactive list (alcohol,
+    anhydrous citric acid, BHT, C12-15 alkyl lactate, cyclomethicone, diisopropyl
+    adipate, edetate disodium, water). Do NOT repeat the efficacy rubric; link out.
+    Price is likely unresolvable for a prescription product and that is an acceptable
+    outcome.'

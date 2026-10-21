@@ -3856,6 +3856,23 @@ eczema-herpeticum:
     clinician rather than graded skincare.'
   score: 8
   verdict: publish
+efinaconazole:
+  assurance: sonnet
+  notes: 'All 63 quoted strings verified verbatim against the full DailyMed SPL XML (set id 922d4d25-c530-11e1-9b21-0800200c9a66)
+    fetched 2026-10-21; 0 genuine mismatches. Marketing category confirmed as NDA / NCI code C73594, so
+    ''FDA-approved'' is accurate here rather than the usual cleared-not-approved caveat. REFUSED THE QUEUE
+    ITEM''S OWN PREMISE: it described efinaconazole as having ''better nail penetration than older lacquers''.
+    String-checked the full label text and the words penetration, ciclopirox, lacquer, amorolfine and
+    superior occur ZERO times, and no head-to-head appears, so the claim is quarantined in the marketing
+    section as unsupported-by-this-source rather than inherited. tier: good matches the rubric as written,
+    strong replicated evidence paired with a modest absolute effect; NOT ''best'', which would overstate
+    a treatment whose complete-cure rate is about one in six. The percentage-point gaps (14.5 and 9.7)
+    and the 7-to-10 treat-for-one-extra-cure figure are labelled on the page as arithmetic done here on
+    label values, not label statements. Also carried: the trials EXCLUDED the hard cases (20-50% involvement
+    only, no dermatophytomas, no matrix involvement), so the headline rate does not describe severe nails.'
+  reviewed: '2026-10-21'
+  reviewer: main-loop self-verification
+  verdict: publish
 eichenfield-2026-identifying-the-most-relevant-eczema-area-and-severit:
   last_reviewed: '2026-08-08'
   note: 'Opus re-fetched PMID 41996013: both verbatim quotes match the abstract exactly (clean period-terminated
