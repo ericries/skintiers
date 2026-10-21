@@ -59,6 +59,16 @@ videos:
   related: [petrolatum, ceramides, glycolic-acid, adapalene, retinoids, sulfur, sunscreen-uv-filters]
   thesis: Board-certified dermatologist Dr. Sarah Sheu rounds up her favorite affordable skincare, everything under 20 dollars and personally tested, spanning dollar-store finds, dermatologist staples, and targeted treatments. Her standout picks include plain Vaseline (petrolatum) as a barrier-repair workhorse, CeraVe Moisturizing Cream for its ceramide, cholesterol, and fatty-acid barrier mix, The Ordinary's Glycolic Acid 7% toning solution for texture and dark spots, over-the-counter adapalene 0.1% (Differin) as one of the best budget acne retinoids, and Beauty of Joseon's Revive Eye Serum as a gentle starter retinal. She is candid about the limits, noting that very cheap products rarely have clinical studies of their own, and she frames barrier basics and consistent use as mattering more than price.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: 'Glycolic Acid From Head to Toe: What a Dermatologist Actually Uses It For'
+  creator: Dr. Aleksandra Brown, DO, FAAD
+  creator_slug: aleksandra-brown
+  credential: Board-certified dermatologist (DO, FAOCD, FAAD), practicing at River Ridge Dermatology / HCA Virginia (LewisGale), Blacksburg VA
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=Y-ZpRAOF3pM
+  posted: '2026-10-04'
+  related: [keratosis-pilaris, ingrown-hairs, body-acne, urea, lactic-acid, mandelic-acid, salicylic-acid, seborrheic-dermatitis, benzoyl-peroxide]
+  thesis: Dermatologist Dr. Aleksandra Brown walks through where she uses glycolic acid on the body, and argues the face may be the least interesting place for it. For the face she suggests once or twice a week rather than daily, says she would not layer it with a retinoid on the same night, and calls broad-spectrum SPF 30 or higher every morning non-negotiable because alpha hydroxy acids increase how easily skin burns. Her strongest uses are keratosis pilaris, rough elbows and knees and cracked heels, each paired with a urea cream, and she ranks glycolic acid DOWN for two popular uses, saying a salicylic acid or ketoconazole anti-dandruff shampoo beats it for a flaky oily scalp and that benzoyl peroxide is the better choice for inflamed back acne.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

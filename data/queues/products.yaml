@@ -3485,3 +3485,60 @@
     the OHS/OLP pair the rest of this firm''s catalog uses. The firm''s oldest clearance
     and the root of the family tree. Resolve what ILY is from the openFDA device/classification
     endpoint before drafting, and do not assume it is a wrinkle or acne indication.'
+- name: Prequel Multi-Aid Milk Peel
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: glycolic-acid
+  source: Dr. Aleksandra Brown - Glycolic Acid From Head to Toe (video, Y-ZpRAOF3pM,
+    2026-10-04). She describes it as roughly a 15% AHA blend containing glycolic plus
+    other exfoliating acids and enzymes, a thicker milky toner usable on face, KP,
+    elbows, knees and feet, in large bottles. The 15% figure is HER spoken description
+    and must be confirmed against the brand's own INCI and claims before it goes on
+    a page. Prequel already has a brand page here and one product page (Skin Utility
+    Gel).
+- name: Pixi Glow Tonic
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: glycolic-acid
+  source: 'Dr. Aleksandra Brown - Glycolic Acid From Head to Toe (video, Y-ZpRAOF3pM).
+    CAUTION: the auto-captions render the name as ''Pixlutonic contains 5% glycolic
+    acid''; Pixi Glow Tonic is the confident resolution (a well-known 5% glycolic
+    toner) but the NAME AND PERCENTAGE MUST BE CONFIRMED from the brand page or incidecoder
+    before drafting, not taken from this caption. She offers it as the lower-strength
+    starter option.'
+- name: La Roche-Posay Lipikar Urea 10
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: glycolic-acid
+  source: Dr. Aleksandra Brown - Glycolic Acid From Head to Toe (video, Y-ZpRAOF3pM).
+    Captions render it 'Larash Bale Lipicar URA 10'; resolves to La Roche-Posay Lipikar
+    Urea 10, which needs confirming against the brand page since the site's existing
+    Lipikar pages are the Balm AP+M and the Syndet AP+ wash, not a urea product. She
+    pairs 10% urea with glycolic acid for KP, elbows, knees and general rough body
+    skin, reserving 40% urea for thick heels. The urea ingredient page already exists.
+- name: Surface Deep underarm glycolic acid wipes and spray
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: glycolic-acid
+  source: Dr. Aleksandra Brown - Glycolic Acid From Head to Toe (video, Y-ZpRAOF3pM).
+    She names a brand she heard as 'Surface Deep' making low-percentage glycolic wipes
+    and a spray formulated for underarms, and says she has used both and preferred
+    the wipes. Confirm the brand name and the actual glycolic percentage from a primary
+    source first; her claim that lowering skin pH limits odor-causing bacteria is
+    a MECHANISM assertion with no study named and must not be relayed as an efficacy
+    finding.
+- name: Sunday Riley Good Genes
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: glycolic-acid
+  source: 'Dr. Aleksandra Brown - Glycolic Acid From Head to Toe (video, Y-ZpRAOF3pM).
+    CAUTION BEFORE DRAFTING: she calls it a ''glycolic acid treatment'' and recommends
+    reserving it for the face as a splurge serum, but Good Genes is widely sold as
+    a LACTIC acid treatment. Resolve the actual acid from the brand page or incidecoder
+    INCI before writing anything; do not inherit her attribution. The discrepancy
+    itself may be worth a line on the page.'

@@ -89,6 +89,16 @@ videos:
   related: [salicylic-acid, skin-barrier-repair, rosacea]
   thesis: Harvard dermatologist Dr. Abigail Waldman warns that glycolic acid and other AHA and BHA chemical exfoliants, while effective for smoothing texture and evening tone, are easy to overuse to the point of a damaged skin barrier. She advises most people exfoliate only once or twice a week and read labels for glycolic, lactic, salicylic, or mandelic acid in the top ingredients so they do not unknowingly stack several exfoliating products at once. Redness, tight or dry skin, stinging, or new breakouts are her signs to stop and switch to a barrier cream, with eczema-, sensitive-, and rosacea-prone skin most at risk.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: 'Glycolic Acid From Head to Toe: What a Dermatologist Actually Uses It For'
+  creator: Dr. Aleksandra Brown, DO, FAAD
+  creator_slug: aleksandra-brown
+  credential: Board-certified dermatologist (DO, FAOCD, FAAD), practicing at River Ridge Dermatology / HCA Virginia (LewisGale), Blacksburg VA
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=Y-ZpRAOF3pM
+  posted: '2026-10-04'
+  related: [keratosis-pilaris, ingrown-hairs, body-acne, urea, lactic-acid, mandelic-acid, salicylic-acid, seborrheic-dermatitis, benzoyl-peroxide]
+  thesis: Dermatologist Dr. Aleksandra Brown walks through where she uses glycolic acid on the body, and argues the face may be the least interesting place for it. For the face she suggests once or twice a week rather than daily, says she would not layer it with a retinoid on the same night, and calls broad-spectrum SPF 30 or higher every morning non-negotiable because alpha hydroxy acids increase how easily skin burns. Her strongest uses are keratosis pilaris, rough elbows and knees and cracked heels, each paired with a urea cream, and she ranks glycolic acid DOWN for two popular uses, saying a salicylic acid or ketoconazole anti-dandruff shampoo beats it for a flaky oily scalp and that benzoyl peroxide is the better choice for inflamed back acne.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 name: Glycolic acid
 slug: glycolic-acid
 tier: mid
