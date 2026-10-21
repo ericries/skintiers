@@ -6,6 +6,18 @@ slug: melanoma
 status: published
 type: condition
 updated: '2026-09-18'
+videos:
+- title: Is It A Mole or Melanoma? This Might Save Your Life!
+  creator: Dr. Maren Locke (The Budget Dermatologist)
+  creator_slug: maren-locke
+  credential: Board-certified dermatologist and fellowship-trained Mohs surgeon; founder/director of Carlyle Dermatology (Ocala, FL)
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=n2SQdsZBS5c
+  posted: '2022-03-25'
+  related: [skin-cancer-screening, sun-damage-photoaging, actinic-keratosis, basal-cell-carcinoma, squamous-cell-carcinoma]
+  thesis: 'Dermatologist Dr. Maren Locke, a fellowship-trained Mohs surgeon, walks through how to tell a normal mole from a melanoma. She teaches the ABCDE checklist, meaning asymmetry, border, color, diameter and evolution, along with the ugly duckling sign, which is the one mole that does not look like your others, and she stresses two things people commonly get wrong: melanoma is not always a dark brown or black spot and can be white, pink, red or nearly colorless, and most melanomas appear on normal skin rather than developing out of a mole that changed. She says a skin biopsy is the only way to diagnose melanoma, that patients are often the ones who find their own rather than the dermatologist, and that early detection is what makes it highly treatable.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Melanoma is a cancer that forms in melanocytes, the pigment-making cells in the skin, and it is the most serious common type of skin cancer because it is more likely than other skin cancers to invade nearby tissue and spread elsewhere in the body.[^nci] This is a medical disease diagnosed and treated by physicians, through surgery and, in more advanced cases, oncology-led treatment such as immunotherapy or targeted therapy, and it is entirely outside the scope of skincare products.[^nci]
