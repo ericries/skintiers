@@ -34,6 +34,18 @@ tier_list:
   title: Topical adjuncts for mild hidradenitis suppurativa, by evidence
 type: condition
 updated: '2026-09-14'
+videos:
+- title: Three at-home hacks for hidradenitis suppurativa
+  creator: Dr. Neera Nathan
+  creator_slug: neera-nathan
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=7XVTcHsRvys
+  posted: '2026-10-05'
+  related: [zinc-pyrithione, folliculitis, body-acne]
+  thesis: 'Dermatologist Dr. Neera Nathan starts by correcting what the painful armpit bumps of hidradenitis suppurativa are not, saying they are not pimples, not an infection and not contagious, but part of a common inflammatory condition. She then offers three things to try at home, framed as symptom relief rather than cures: using a pyrithione zinc dandruff shampoo as a body wash, which she describes as antimicrobial and anti-inflammatory and says can help heal bumps and reduce odor; an over-the-counter chlorhexidine surgical scrub to reduce bacteria, while avoiding the eyes and ears; and a do-it-yourself black tea compress applied for ten minutes to calm a painful boil. She is explicit about the limit of all three, saying that pus, worsening pain, or tunnels and scarring call for a board-certified dermatologist because in-office treatments and prescriptions can be life-changing.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Hidradenitis suppurativa (HS) is a chronic inflammatory disease, not an acne variant or a hygiene problem, that produces painful, recurrent nodules, abscesses, and sinus tracts (tunnels under the skin) in areas that carry apocrine sweat glands: the armpits, groin, genital and perineal skin, under the breasts, and the buttocks.[^nesbitt][^koumaki] It is a genuine medical disease, and it is primarily managed with systemic drugs and surgery, not skincare. This page covers only the narrow, limited role topical treatment plays for mild disease; it is not a substitute for a dermatologist.

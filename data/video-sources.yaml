@@ -32,7 +32,7 @@
   tier: HIGH
   channel: https://www.youtube.com/@DrDrayzday/videos
   conflict: null
-  last_pulled: '2026-10-20'
+  last_pulled: '2026-10-21'
 - name: Dr. Muneeb Shah (DermDoctor)
   creator_slug: muneeb-shah
   backfill_cursor: 9999
@@ -440,7 +440,7 @@
   channel: https://www.youtube.com/@dermatologysurgeon
   product_recs: restricted
   conflict: Runs a "Shop my Favorites" affiliate storefront (linktr.ee/dermatologysurgeon) that monetizes her product picks; no own-brand prod
-  last_pulled: '2026-08-30'
+  last_pulled: '2026-10-21'
 - name: Dr. Aegean Chan
   creator_slug: aegean-chan
   credential: Board-certified dermatologist

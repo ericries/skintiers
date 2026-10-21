@@ -9841,7 +9841,8 @@
   conflict: null
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: title 'IT'S A LIE' gives no topic; not a single-topic match to any page and cannot be shortlisted without spending a transcript fetch on a guess
 - id: '7692933785930714388'
   title: ad| Huge uncovered deck? Huge hole in the sun safety protocol! The ch...
   creator: Hannah English (@ms_hannah_e / Hannah Collingwood English)
@@ -9909,7 +9910,8 @@
   conflict: Runs a "Shop my Favorites" affiliate storefront (linktr.ee/dermatologysurgeon) that monetizes her product picks; no own-brand prod
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'Shorts-style clip (''remember... #skincare @Aylen Park''), no topic in the title and no page match'
 - id: '7692816503858564365'
   title: Should we test the @KraveBeauty Mochi Barrier Cream or the @Ultra Vio...
   creator: Ella (@your.estie.ella)
@@ -10002,7 +10004,8 @@
   conflict: Own-brand UPF sun-protective clothing line, SOUL-A (wearsoula.com / @wearsoula), founded and promoted by him — apparel, not topical skincare
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'hashtag-stuffed Shorts-style reaction clip (''Sunscreen Wars'' #dermreacts #skincare #dermatologist #dermangelo); not single-topic education'
 - id: q5ZdBRfzpz0
   title: 'Big blackhead removal #dermreacts  #skincare  #dermatologist #dermangelo'
   creator: Dr. Angelo Landriscina (DermAngelo)

@@ -34,6 +34,16 @@ videos:
   related: [green-tea-egcg, anti-aging, vitamin-c, retinoids]
   thesis: Dermatologist Dr. Mamina Turegano works through what food can and cannot do for skin. She says there is no evidence that eating carrots delivers meaningful retinoid activity the way topical tretinoin or retinol does, but points to human studies on lycopene in tomatoes for resistance to UV damage, on cocoa flavanols for elasticity and photoprotection, and on oral collagen peptides showing modest improvement in wrinkles, hydration and elasticity after about three months, while noting that much of that collagen research is industry backed. Her bottom line is that none of these foods replace sunscreen, retinoids and vitamin C serums, and that she would not rely on diet alone to improve skin.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: 'Collagen Peptides vs. Gelatin: Which Is Better for Skin?'
+  creator: Andrea Suarez (Dr Dray)
+  creator_slug: andrea-suarez-dr-dray
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=ZQRjOlA-gjY
+  posted: '2026-10-04'
+  related: [anti-aging, skin-firmness-elasticity]
+  thesis: 'Dermatologist Andrea Suarez, who posts as Dr Dray, answers whether eating gelatin is the same as taking a collagen peptide supplement, a claim that circulates because gelatin is far cheaper. She says the two are nutritionally similar but handled differently by the body: collagen peptides are already hydrolysed into fragments small enough to be absorbed intact and reach the skin, where their proposed mechanism is stimulating fibroblasts to make collagen, while gelatin consists of much larger chains the gut has to break down, so the concentrated dose of small intact peptides never arrives. She is careful about how far she takes it, calling the research on collagen peptides for skin moisture retention promising rather than settled, saying there is some evidence the absorption happens, and stating plainly that she does not recommend supplements and that people should talk to their own doctor.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
