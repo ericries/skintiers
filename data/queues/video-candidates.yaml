@@ -7001,19 +7001,6 @@
   posted: '2026-09-23'
   feed_rank: 1
   status: pending
-- id: '7688781720295951647'
-  title: Microneedling vs. RF Microneedling… what’s the difference? 👀 Both tre...
-  creator: Dr. Ife Rodney (@driferodney)
-  creator_slug: ife-rodney
-  credential: Board-certified dermatologist
-  channel: https://www.tiktok.com/@dr.iferodney
-  platform: TikTok
-  tier: MED
-  product_recs: restricted
-  conflict: Founder & CEO of own hair-care brand, BLCK Hair Care (@blckhaircare), promoted in her Instagram bio — a product-formulation/owners
-  posted: '2026-09-23'
-  feed_rank: 0
-  status: pending
 - id: '7688735393931480334'
   title: If you’re obsessed with skincare or even lost or overwhelmed, save th...
   creator: Jenn Lexi (@jennlexi_)
@@ -9576,19 +9563,6 @@
   conflict: null
   posted: ''
   feed_rank: 6
-  status: pending
-- id: ionyOpS0UmA
-  title: 'Glycolic Acid vs. Lactic Acid: Which Is Better for Dark Spots?'
-  creator: Andrea Suarez (Dr Dray)
-  creator_slug: andrea-suarez-dr-dray
-  credential: Board-certified dermatologist
-  channel: https://www.youtube.com/@DrDrayzday/videos
-  platform: YouTube
-  tier: HIGH
-  product_recs: null
-  conflict: null
-  posted: ''
-  feed_rank: 0
   status: pending
 - id: rimvYMCeX2E
   title: 'That’s not gonna work. #dermreacts  #hair  #dermatologist #dermangelo'
@@ -12512,19 +12486,6 @@
   posted: ''
   feed_rank: 2
   status: pending
-- id: '7696230227139251486'
-  title: 'Can you ACTUALLY eat your skincare? Stay to the end for my honest take. '
-  creator: ''
-  creator_slug: mamina-turegano
-  credential: ''
-  channel: https://www.tiktok.com/@dr.mamina
-  platform: TikTok
-  tier: MED
-  product_recs: restricted
-  conflict: null
-  posted: '2026-10-13'
-  feed_rank: 0
-  status: pending
 - id: cbtmb778ECw
   title: One sunscreen that makes multiple key plays! 🏈
   creator: Dr. Maren Locke (The Budget Dermatologist)
@@ -13720,19 +13681,6 @@
   feed_rank: 0
   status: skipped
   skip_reason: product endorsement tagging @Trinny London from a creator whose roster entry is product_recs=restricted; reads as a brand partnership and is not single-topic education
-- id: '7698553588624215310'
-  title: 'Day 5: how do you fix a damaged barrier part 3 #barrierdamage #damage...'
-  creator: Jenn Lexi (@jennlexi_)
-  creator_slug: jennlexi
-  credential: Esthetician (self-identified); not a dermatologist or cosmetic chemist
-  channel: https://www.tiktok.com/@jennlexi_
-  platform: TikTok
-  tier: MED
-  product_recs: restricted
-  conflict: 'Runs #ad sponsored posts (e.g. TruSkin) and Target skincare hauls/reviews; prefer her educational ingredient-category and barrier-repair explainers, and treat product recommendations as effectively promotional (skip).'
-  posted: '2026-10-20'
-  feed_rank: 0
-  status: pending
 - id: nCkr7B1GtnQ
   title: 'New Eczema Treatments Are Changing Lives: What You NEED to Know!'
   creator: Dr. Laura Soong
@@ -13876,4 +13824,199 @@
   conflict: sell a small own-brand product line - skip own-brand promos
   posted: ''
   feed_rank: 0
+  status: pending
+- id: '7698932150640430367'
+  title: Something’s got to give 🤷🏻‍♀️ There is no way you can do it all when ...
+  creator: Dr. Aegean Chan
+  creator_slug: aegean-chan
+  credential: Board-certified dermatologist
+  channel: https://www.tiktok.com/@draegeanchan
+  platform: TikTok
+  tier: HIGH
+  product_recs: restricted
+  conflict: Founder/owner of active postpartum skincare brand "More Than Nine" (cleanser, exfoliator, moisturizer, balm) — an ongoing own-bran
+  posted: '2026-10-21'
+  feed_rank: 0
+  status: pending
+- id: L-JQlQvtz_A
+  title: The Hidden Ingredient in Your Food That May Be Affecting Your Skin
+  creator: Andrea Suarez (Dr Dray)
+  creator_slug: andrea-suarez-dr-dray
+  credential: Board-certified dermatologist
+  channel: https://www.youtube.com/@DrDrayzday/videos
+  platform: YouTube
+  tier: HIGH
+  product_recs: null
+  conflict: null
+  posted: ''
+  feed_rank: 0
+  status: pending
+- id: 4MGEs5wCRZU
+  title: 'Minoxidil and Pets: What Cat & Dog Owners Need to Know'
+  creator: Dr. Brooke Jeffy (Brooke Jeffy, MD)
+  creator_slug: brooke-jeffy
+  credential: Board-certified dermatologist
+  channel: https://www.youtube.com/@brookejeffymd/videos
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Founder of own-brand tween/teen skincare line BTWN (meetbtwn.com), which she actively promotes on all three platforms; also co-hos
+  posted: ''
+  feed_rank: 0
+  status: pending
+- id: g8JLv5chopU
+  title: LA VLOG! - Caroline Hirons
+  creator: Caroline Hirons
+  creator_slug: caroline-hirons
+  credential: Esthetician and skincare author (NOT a dermatologist or cosmetic chemist)
+  channel: https://www.youtube.com/channel/UCyzKg_t3tPv8Aa_7JL2xXZA/videos
+  platform: YouTube
+  tier: MED
+  product_recs: restricted
+  conflict: Founder of own-brand skincare line (Skin Rocks); recent upload mix is dominated by PR-gifted product unboxings and empties (haul-adjacent fo
+  posted: ''
+  feed_rank: 0
+  status: pending
+- id: '7698737852359707917'
+  title: 'Say it with me: sunscreen is NOT a seasonal product. 👀 ☀️ I know it i...'
+  creator: Fatima Fahs
+  creator_slug: fatima-fahs
+  credential: Dermatologist (MD)
+  channel: https://www.tiktok.com/@dermydoctor
+  platform: TikTok
+  tier: HIGH
+  product_recs: restricted
+  conflict: null
+  posted: '2026-10-20'
+  feed_rank: 0
+  status: pending
+- id: '7698906368341855502'
+  title: I hate to brag, but I fear my bridesmaid proposals are going to be TO...
+  creator: Jenn Lexi (@jennlexi_)
+  creator_slug: jennlexi
+  credential: Esthetician (self-identified); not a dermatologist or cosmetic chemist
+  channel: https://www.tiktok.com/@jennlexi_
+  platform: TikTok
+  tier: MED
+  product_recs: restricted
+  conflict: 'Runs #ad sponsored posts (e.g. TruSkin) and Target skincare hauls/reviews; prefer her educational ingredient-category and barrier-repair explainers, and treat product recommendations as effectively promotional (skip).'
+  posted: '2026-10-21'
+  feed_rank: 0
+  status: pending
+- id: '7698563382797995278'
+  title: 'Day 5: how do you fix a damaged barrier part 4 #barrierdamage #damage...'
+  creator: Jenn Lexi (@jennlexi_)
+  creator_slug: jennlexi
+  credential: Esthetician (self-identified); not a dermatologist or cosmetic chemist
+  channel: https://www.tiktok.com/@jennlexi_
+  platform: TikTok
+  tier: MED
+  product_recs: restricted
+  conflict: 'Runs #ad sponsored posts (e.g. TruSkin) and Target skincare hauls/reviews; prefer her educational ingredient-category and barrier-repair explainers, and treat product recommendations as effectively promotional (skip).'
+  posted: '2026-10-20'
+  feed_rank: 1
+  status: pending
+- id: '7698790517760429326'
+  title: You wouldn’t believe which one contains more forms of Centella. SKIN1...
+  creator: Kristin Leite (kristingl)
+  creator_slug: kristin-leite
+  credential: Beauty product developer and skincare educator (NOT a dermatologist or cosmetic chemist)
+  channel: https://www.tiktok.com/@kristingl
+  platform: TikTok
+  tier: MED
+  product_recs: null
+  conflict: runs an Amazon affiliate storefront and does sponsored posts - strongly prefer educational / how-to / ingredient-explainer videos; be very cautious with any product recommendation
+  posted: '2026-10-20'
+  feed_rank: 0
+  status: pending
+- id: '7698448735059102989'
+  title: This was totally my fault because once again…I was overzealous with l...
+  creator: Kristin Leite (kristingl)
+  creator_slug: kristin-leite
+  credential: Beauty product developer and skincare educator (NOT a dermatologist or cosmetic chemist)
+  channel: https://www.tiktok.com/@kristingl
+  platform: TikTok
+  tier: MED
+  product_recs: null
+  conflict: runs an Amazon affiliate storefront and does sponsored posts - strongly prefer educational / how-to / ingredient-explainer videos; be very cautious with any product recommendation
+  posted: '2026-10-19'
+  feed_rank: 1
+  status: pending
+- id: IKAY1V_VRts
+  title: 'dollar tree skincare I will repurchase until I’m 90 👵🏾 #skincarehaul  stitch with shaytheshow_'
+  creator: Dr. Neera Nathan
+  creator_slug: neera-nathan
+  credential: Board-certified dermatologist
+  channel: https://www.youtube.com/@dermatologysurgeon
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Runs a "Shop my Favorites" affiliate storefront (linktr.ee/dermatologysurgeon) that monetizes her product picks; no own-brand prod
+  posted: ''
+  feed_rank: 0
+  status: pending
+- id: 7LHB4Zr2wdU
+  title: 'Regenerate Peptide Serum | Derm & Rejuvenation Institute '
+  creator: Tanya Kormeili, MD, FAAD
+  creator_slug: tanya-kormeili-md
+  credential: Board-certified dermatologist (American Board of Dermatology), FAAD, Clinical Professor of Dermatology at UCLA David Geffen School of Medicine; MD UCLA, residency UC Irvine
+  channel: https://www.youtube.com/channel/UCRK0TPthymHl44WeA0nZ6Mw/videos
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Runs an own-brand practice storefront (Derm Rejuvenation Institute, Shopify); treat specific product picks as commercially incentivized.
+  posted: ''
+  feed_rank: 0
+  status: pending
+- id: HdM3Gk459tA
+  title: 'Blemish Fighting Skin Corrective Pads | Derm & Rejuvenation Institute '
+  creator: Tanya Kormeili, MD, FAAD
+  creator_slug: tanya-kormeili-md
+  credential: Board-certified dermatologist (American Board of Dermatology), FAAD, Clinical Professor of Dermatology at UCLA David Geffen School of Medicine; MD UCLA, residency UC Irvine
+  channel: https://www.youtube.com/channel/UCRK0TPthymHl44WeA0nZ6Mw/videos
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Runs an own-brand practice storefront (Derm Rejuvenation Institute, Shopify); treat specific product picks as commercially incentivized.
+  posted: ''
+  feed_rank: 1
+  status: pending
+- id: GhRkjnSTccc
+  title: 'Recovery Serum | Derm & Rejuvenation Institute '
+  creator: Tanya Kormeili, MD, FAAD
+  creator_slug: tanya-kormeili-md
+  credential: Board-certified dermatologist (American Board of Dermatology), FAAD, Clinical Professor of Dermatology at UCLA David Geffen School of Medicine; MD UCLA, residency UC Irvine
+  channel: https://www.youtube.com/channel/UCRK0TPthymHl44WeA0nZ6Mw/videos
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Runs an own-brand practice storefront (Derm Rejuvenation Institute, Shopify); treat specific product picks as commercially incentivized.
+  posted: ''
+  feed_rank: 2
+  status: pending
+- id: '7698758466982137102'
+  title: 2 Steps when I don’t have time for 10 🙃 @Paula's Choice Youth Extendi...
+  creator: Ella (@your.estie.ella)
+  creator_slug: your-estie-ella
+  credential: Licensed esthetician (NOT a dermatologist or cosmetic chemist)
+  channel: https://www.tiktok.com/@your.estie.ella
+  platform: TikTok
+  tier: MED
+  product_recs: ok
+  conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan and reject any sponsored/affiliate/gifted video
+  posted: '2026-10-20'
+  feed_rank: 0
+  status: pending
+- id: '7698360923379076365'
+  title: Don’t wait until you can see it to treat it!! I’ve been doing this fo...
+  creator: Ella (@your.estie.ella)
+  creator_slug: your-estie-ella
+  credential: Licensed esthetician (NOT a dermatologist or cosmetic chemist)
+  channel: https://www.tiktok.com/@your.estie.ella
+  platform: TikTok
+  tier: MED
+  product_recs: ok
+  conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan and reject any sponsored/affiliate/gifted video
+  posted: '2026-10-19'
+  feed_rank: 1
   status: pending
