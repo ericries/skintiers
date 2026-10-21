@@ -227,7 +227,7 @@
 - name: Home radiofrequency skin-tightening devices
   type: goal
   priority: 5
-  status: pending
+  status: done
   discovered_from: home-use-skincare-devices-by-evidence
   source: Graded Level B for facial rejuvenation alongside LED in PMID 42545315, and
     named in the review's conclusion among the modalities that 'demonstrate the most

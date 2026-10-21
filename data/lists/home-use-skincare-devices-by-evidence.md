@@ -14,21 +14,31 @@ status: published
 tier_list:
   by: the GRADE evidence level a 2026 scoping review assigned to each home-use device
     modality for acne and facial rejuvenation
-  caption: 'Only the two modalities with pages on this site can be ranked here. The
-    full six-rung ladder, including the Level A home fractional nonablative lasers
-    that have no page yet, is in the prose below. Hair-removal devices are deliberately
-    absent: the review covers acne and rejuvenation only.'
+  caption: 'Four of the six rungs now have pages and can be ranked here. The full
+    ladder, including the two Level D acne rungs, is in the prose below. Hair-removal
+    devices are deliberately absent: the review covers acne and rejuvenation only.'
   items:
+  - note: Level A for facial rejuvenation with consistent clinical improvement, the
+      highest grade in the review. The catch sits on the page, where the one cleared
+      consumer device traceable here claims crow's feet rather than the face.
+    slug: home-fractional-nonablative-laser
+    tier: best
   - note: Level B for acne with a Grade I recommendation and favourable safety, the
       best grade any home acne device received, and Level B again for rejuvenation.
       Blue or blue-red; red alone drops to Level C.
     slug: home-led-light-therapy
+    tier: good
+  - note: Level B for facial rejuvenation, tied with LED. The one device in the category
+      with FDA-reviewed clinical data has it; the other eleven entered by substantial
+      equivalence, one of them stating outright that no clinical testing was done.
+    slug: home-radiofrequency-skin-tightening
     tier: good
   - note: Level D for rejuvenation, and the review pairs that grade with infectious
       complications. The only modality here whose grade comes with a stated harm.
     slug: microneedling
     tier: weak
   tier_labels:
+    best: High-quality evidence (GRADE Level A)
     good: Moderate evidence (GRADE Level B)
     weak: Low-quality evidence (GRADE Level D), with stated harms
 type: list
@@ -45,7 +55,7 @@ Quoting the review's own grades, best to worst, with the indication each grade w
 
 - **Level A, facial rejuvenation: home-use fractional nonablative lasers**, with "consistent clinical improvement".[^home] Now covered on [[home-fractional-nonablative-laser]], where the gap between the modality grade and the cleared device indication is set out. Note the word nonablative: this is NOT the in-office ablative procedure on [[fractional-co2-laser-resurfacing]], which is a different wavelength class, power and setting, and the Level A grade does not transfer to it.
 - **Level B, acne: blue and combination blue-red LED**, with favourable safety and a Grade I recommendation.[^home] The best-evidenced thing you can buy. See [[home-led-light-therapy]].
-- **Level B, facial rejuvenation: LED and radiofrequency devices**, moderate evidence.[^home] Radiofrequency has no page here.
+- **Level B, facial rejuvenation: LED and radiofrequency devices**, moderate evidence.[^home] Radiofrequency is now covered on [[home-radiofrequency-skin-tightening]], where the twelve devices FDA has classified in that category turn out to rest on a single uncontrolled study.
 - **Level C, acne: red LED alone and light-heat energy devices**, low-quality evidence but "minimal adverse events".[^home] Red-only is a step down from blue-red, which is the practical reason to check a mask's wavelengths rather than its marketing.
 - **Level D, facial rejuvenation: home microneedling**, and the review pairs that grade with "infectious complications".[^home] The procedure case is on [[microneedling]].
 - **Level D, acne: home intense pulsed light and heat-based devices**, "not recommended".[^home]

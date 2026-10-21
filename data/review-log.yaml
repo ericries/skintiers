@@ -114,6 +114,58 @@ acne:
     Model split: Sonnet draft + Opus critic + orchestrator source-verification.'
   score: 9
   verdict: publish
+acne-scar-procedures-by-evidence:
+  last_reviewed: '2026-10-18'
+  note: 'Built the ranking four separate pages had each declined to host. Spine is PMID 41081097 (Wu 2025,
+    PeerJ, Bayesian NMA, 68 RCTs, 4,480 patients, PROSPERO CRD42024598780); all five figures in the queue
+    note verified verbatim against the PubMed abstract via efetch, 0 mismatches. THE FINDING that organises
+    the list: every top-ranked option is a COMBINATION built on laser, and no monotherapy ranked best
+    on any severity scale. So a reader looking for the single best procedure does not get one from this
+    evidence, and the list says so rather than promoting the strongest-sounding component. Second finding:
+    the ranks differ sharply in certainty. Laser plus PRP led ECCA at SUCRA 98.4%, but laser plus filler
+    led the Goodman and Baron Scale at only 72.1%, which is weak separation from the field; calling both
+    best would flatten a real difference, so the notes state each SUCRA. Third: nothing reduced erythema
+    or post-inflammatory hyperpigmentation risk, which matters most in deeper skin tones and is therefore
+    NOT a basis for choosing between procedures. RESTRAINT EXERCISED, deliberately. (a) The abstract names
+    only the WINNER per outcome, so subcision cannot be ranked from it either way; the page says that
+    instead of inferring a low rank from silence. (b) The abstract says laser without naming the modality,
+    so the fractional-CO2 note explicitly declines to claim that fractional CO2 is the laser that won.
+    (c) The two combination winners involving chemical peels and fillers could not be listed at all, because
+    no such pages exist; both are now queued and the gap is named in the review rather than hidden. Added
+    one inbound link from the acne-scars hub. ZERO Apify spend; PubMed only, a durable primary, so no
+    source caching was required. TOOLING FIX: the recurring YAML-colon bug hit a THIRD file today (a tier_list
+    note containing "COMBINATION: PRP"), and sk lint/style/verify responded with a ~60-frame PyYAML traceback
+    whose only useful line was the last one. Added _load_post(), which catches YAMLError and prints the
+    problem, a three-line window around the mark, and the fix. Proved it by reintroducing the real bug:
+    four readable lines, offending line first. Earlier today the same class broke data/queues/products.yaml
+    (fixed with sk queue-note) and would have broken the roster (fixed with JSON scalars in sk roster-set).
+    Self-verified in the main loop, assurance sonnet, force-published.'
+acne-scar-treatments-by-downtime-and-pain:
+  last_reviewed: '2026-10-19'
+  note: 'A second axis over the same procedures as acne-scar-procedures-by-evidence, and the queue was
+    right that the evidence supports it. All figures verified verbatim against three PubMed abstracts;
+    24 quoted strings, 0 misses after one fix. THE FINDING, which is the reason this list earns its place:
+    for fractional CO2 versus erbium, the COST is better established than the BENEFIT. CO2 looked better
+    on efficacy (RR 0.69, 95% CI 0.49 to 0.97) but that advantage collapsed to RR 0.76 (95% CI 0.54 to
+    1.08) in the randomized-only sensitivity analysis, while its pain penalty (MD 1.86, CI 1.33 to 2.39)
+    and downtime penalty (MD 3.67 days, CI 1.90 to 5.44) both excluded the null. A reader choosing the
+    more aggressive laser is buying a reliable cost for a probable gain. That asymmetry is stated in the
+    caption rather than buried. HONEST THINNESS: only TWO procedures are graded, microneedling and fractional
+    CO2, because they are the only ones with both a page here and a tolerability finding in the cited
+    sources. chemical-peels, subcision and platelet-rich-plasma all have pages and NO pain or downtime
+    data in any of the three sources, so they are named in the prose as unranked rather than given a guessed
+    bucket. A two-item tier list is thinner than I would like, but padding it with ungraded entries would
+    misrepresent the evidence. The by: axis says so explicitly. SECOND HONEST LIMIT: the needling review
+    synthesized NARRATIVELY because of heterogeneity, so its tolerability conclusions carry no pooled
+    numbers. The page labels them directional instead of quoting them as measurements, and its queue entry
+    warns a future study page not to convert that language into numbers. Also declined to treat the null
+    pigmentation result as reassurance: on 130 participants, OR 1.75 (CI 0.67 to 4.57) is undetermined,
+    and the page says that, noting the needling review reached a different conclusion on pigment. QUOTE
+    DEFECT CAUGHT: a body quote truncated the source parenthesis before "; I²=45.9%)" and closed the bracket
+    itself, producing a string that is not contiguous in the source even though the footnote copy was
+    fine. Restored the full span. That is the same class as the earlier body-versus-footnote mismatch.
+    Linked the efficacy list to this one. ZERO Apify spend; PubMed only. Self-verified in the main loop,
+    assurance sonnet, force-published.'
 acne-scars:
   last_reviewed: '2026-10-04'
   note: 'Maintenance tick (site_health). Flagged 3 candidates as missing from the tier_list; after checking
@@ -413,6 +465,32 @@ am-pm-routine-by-evidence:
     footnote URL. No dashes. Opus critic inline (workflow pipeline); assurance sonnet.'
   score: 8
   verdict: publish
+amin-2025-oral-hyaluronic-acid-meta-analysis:
+  last_reviewed: '2026-10-20'
+  note: 'A meta-analysis of ORAL hyaluronic acid, recorded with cautions rather than as a finding. 17
+    substantive quotes verified verbatim; the 2 flagged misses were the PubMed publication-type values,
+    which come from the XML record rather than the abstract text and were confirmed there. TWO DEFECTS,
+    both quotable. (1) The abstract reports STATISTICAL SIGNIFICANCE with no effect size anywhere: no
+    standardized mean difference, no confidence interval, no participant count, for any outcome. Direction
+    without magnitude is not actionable for a reader deciding whether to take a supplement, and the paper
+    even refers to "the study''s limited sample size" without saying what it was. (2) Three of six outcomes
+    failed, and the abstract describes them as showing "a general trend of improvement". That reads a
+    direction into results the analysis could not distinguish from chance. The page names that move explicitly
+    and tells the reader to treat those three as undetermined, because narrating a null as a near-positive
+    is exactly the pattern a skeptical site exists to catch. THIRD, FOUND BY ME rather than disclosed:
+    the search covered "PubMed and Google Scholar" only. No Embase, no Cochrane CENTRAL, no registries,
+    and no statement that screening was duplicated. That is a thin base for a meta-analysis and the page
+    says so. SCOPE BOUNDARY ENFORCED. This is ORAL hyaluronic acid and the site''s hyaluronic-acid page
+    is topical. The page opens by saying nothing here transfers, and I added a one-line pointer from the
+    topical page that names the distinction and carries the caution, because readers conflate the two
+    and a bare link would have implied endorsement. RESTRAINT: the PubMed record carries NO affiliations
+    and NO conflict statement, so funding cannot be assessed either way; the page says that rather than
+    insinuating. Same handling as the Karimi record. SURFACED A RECURRING DECISION rather than re-deciding
+    it silently for a third time: oral-supplement content has now arrived three times and been handled
+    three ways (recorded with cautions here, a collagen video skipped for having no attachable page, and
+    a standing note deferring non-topical anti-aging to a later phase). Queued as a DECISION item for
+    the user to settle, not an essay to draft. ZERO Apify spend; PubMed only. Self-verified in the main
+    loop, assurance sonnet, force-published.'
 amit-pandya-melasma-specialist-dermatologist:
   last_reviewed: '2026-08-08'
   note: 'Lean person discovery-aid (Sonnet-only). Honest credential + linked on-site studies/products.
@@ -766,6 +844,32 @@ atopic-dermatitis:
     lint+style clean.'
   score: 10
   verdict: publish
+atrophic-acne-scar-subtypes:
+  last_reviewed: '2026-10-19'
+  note: 'The routing layer the acne-scar cluster was missing. 17 quotes verified verbatim across three
+    PubMed abstracts, 0 misses. THE FINDING is structural and triple-sourced, which is why the page earns
+    existing rather than being a section on acne-scars. The classification system is the basis clinicians
+    are told to select on: the 2026 NMA of 56 RCTs concludes "Treatment selection should consider scar
+    type, Fitzpatrick skin phototype, downtime, pain, adverse-effect risk, and patient preference." But
+    the trials do not record it. The 2019 review built AROUND the icepick/rolling/boxcar scheme reports
+    that "the acne scar type was frequently undefined, making comparison between them difficult", and
+    the 2026 phenotype-focused review found that "No included trial reported treatment effects by scar
+    morphology". So the literature omits the single variable it tells clinicians to use. The page says
+    plainly that no ranking on this site is subtype-specific, which is worth knowing before paying for
+    a course of treatment. I DID NOT WRITE A SELF-DIAGNOSIS GUIDE, and that was the main restraint. The
+    obvious page here describes icepick as narrow and deep, boxcar as wide with sharp edges, rolling as
+    undulating. Those descriptions are textbook, but NONE of the three sources publishes morphological
+    criteria, and the How-to-know section says so explicitly instead of supplying remembered definitions.
+    It gives the reader the question to ask a clinician instead. Writing confident clinical criteria from
+    memory is exactly the failure that produced the "require alternative therapy" fabrication earlier
+    this week. NO tier_list, deliberately, against the playbook preference. A per-subtype grading is precisely
+    what the evidence cannot support, and the page explains why rather than inventing buckets. Only the
+    mechanical claim about rolling scars and tethering is asserted, because subcision exists to release
+    tethers and that page already carries it; everything else routes out. Also resolved the older narrower
+    queue entry for rolling scars, which this supersedes, and linked the page from the acne-scars hub.
+    Cross-feed found the sharpest remaining gap: icepick is the subtype with NO procedure page, so punch
+    excision and elevation are queued. ZERO Apify spend; PubMed only. Self-verified in the main loop,
+    assurance sonnet, force-published.'
 augustinus-bader-the-rich-cream:
   last_reviewed: '2026-08-15'
   note: 'Drain-wave. Luxury cult moisturizer ("TFC8" proprietary complex). Critic REVISE; fixes applied
@@ -967,6 +1071,36 @@ avobenzone:
     Grades honest/global-context; health-vs-cosmetic separated. lint/style/verify clean.
   score: 9
   verdict: publish
+azathioprine:
+  last_reviewed: '2026-10-18'
+  note: 'Full ingredient page for an ORAL systemic immunosuppressant, framed up front as not a skincare
+    ingredient. tier: mid, argued explicitly rather than asserted. Not weak, because one double-blind
+    placebo-controlled crossover trial (Berth-Jones 2002, PMID 12174106) found SASSAD down 26% vs 3% on
+    placebo; not good or best, because the effect is modest, 16 of 37 patients withdrew, and a 2026 head-to-head
+    (PMID 41239194) had it reach EASI 75 in 15% against 65% for baricitinib. THE REGULATORY FACT the page
+    leads on: atopic dermatitis appears NOWHERE in the Imuran label Indications section, which lists only
+    renal transplant rejection and active rheumatoid arthritis, so all dermatologic use is off-label.
+    Boxed MALIGNANCY warning quoted verbatim, plus the TPMT/NUDT15 myelosuppression risk. All from DailyMed
+    SPL, a durable primary. I CAUGHT A FABRICATION IN MY OWN DRAFT. An earlier extraction truncated mid-sentence
+    at "require alte" and I completed it as "require alternate dosing". The label actually says "require
+    alternative therapy or dose modification". I had invented a plausible ending to a truncated quote,
+    which is the exact failure the three rules forbid, and only the verbatim check caught it. Corrected
+    in BOTH the body and the footnote, per the earlier lesson that fixing a body quote while leaving its
+    footnote copy is a silent inaccuracy. Final check: 31 quotes, 0 misses. A SECOND BUG, in my verification,
+    nearly buried the first. My ad-hoc checker ran an HTML tag-stripper over PubMed PLAIN TEXT, where
+    "P < 0.01" opens a bogus tag match that swallows everything to the next ">". It reported 20 false
+    mismatches, among which the one REAL error was hiding. A checker that cries wolf is worse than none,
+    because the instinct is then to trust the draft. Fixed the method and hardened source_cache.as_text()
+    with the same lesson: its tag regex now requires a tag to start with a letter, slash, bang or question
+    mark, so scientific prose survives. Added a regression test proving the sentence survives and script
+    bodies still go. RESTRAINT: the 2024 living NMA (PMID 39018058, 97 trials, 24,679 patients) does not
+    report azathioprine''s rank in its abstract, so the page states no rank for it and says why. Its erratum
+    was not read, which the footnote discloses. The editorial on the 2026 trial (PMID 41467349) has no
+    abstract, so its content is not characterized. The azathioprine dose range in the 2026 abstract is
+    corrupted by the plain-text dash rendering, so no dose is quoted from that trial. ZERO Apify spend;
+    DailyMed and PubMed only. Self-verified in the main loop, assurance sonnet, force-published. The no-marketing-claims-section
+    WARN matches the existing convention on sibling Rx ingredient pages such as upadacitinib, so it was
+    left as is.'
 azelaic-acid:
   last_reviewed: '2026-07-27'
   note: 'All 9 sources re-fetched; every body quote/stat verbatim-verified. 4 fixes applied (misdated
@@ -2556,6 +2690,34 @@ chaudhuri-bojanowski-2014-bakuchiol-retinol-like-compound:
     '
   score: 10
   verdict: publish
+chemical-peels-acne-scars:
+  last_reviewed: '2026-10-18'
+  note: 'Filled the gap the acne-scar-procedures-by-evidence list named as its own biggest hole. 25 quotes
+    verified verbatim against three PubMed abstracts, 0 misses. Built entirely from free primaries. THE
+    FINDING is a genuine disagreement in the literature, and the page leads on it rather than picking
+    the flattering side. Li 2024 (24 studies, 1546 participants) has microneedling plus chemical peels
+    best on degree of improvement, patient satisfaction AND treatment efficacy. Wu 2025 (68 RCTs, 4480
+    patients) has laser plus chemical peels best for patient satisfaction, SUCRA 89.6%. But Liu 2026,
+    which deliberately restricted itself to records with verifiable source tables so its numbers could
+    be reproduced, found only 9 RCTs in a sparse network, measured microneedling plus peel at SMD -0.14
+    with a CI of -1.34 to 1.07, and states outright that "a reliable treatment ranking does not currently
+    exist" with CINeMA confidence low or very low. The queue note had asked me to resolve which peel agents
+    and depths; the honest answer is that NONE of the three abstracts names an agent or a depth, so the
+    page says so instead of supplying a plausible acid. That is the question readers actually have. FAIRNESS
+    TO THE DISSENTER BOTH WAYS: Liu 2026 discloses that it did not search Embase, CENTRAL, Web of Science,
+    Scopus or the registries, so the page presents it as a reproducibility check on the larger analyses
+    rather than as superseding them. Quoting its blunt verdict without its own stated narrowness would
+    have been the mirror-image error of quoting the two optimistic rankings alone. Also carried: all three
+    analyses agree side effects did not differ significantly between treatments, which the page is careful
+    to distinguish from an absence of risk, since post-inflammatory hyperpigmentation after a peel matters
+    most in deeper skin tones. And Liu notes no included trial reported effects by scar morphology, so
+    the icepick/rolling/boxcar question is unanswered. tier_list grades the two PARTNER procedures that
+    have pages (microneedling, fractional CO2), with the by: axis naming the peel as the constant, and
+    both capped at good rather than best precisely because the ranking is disputed. The tier_labels string
+    says so. STALE CLAIM FIXED: acne-scar-procedures-by-evidence said the peel winner could not be listed
+    because no page existed. That is no longer true, so it now links here. Leaving it would have been
+    a silent inaccuracy of the same kind as correcting a body quote and not its footnote. ZERO Apify spend.
+    Self-verified in the main loop, assurance sonnet, force-published.'
 chemist-confessions:
   last_reviewed: '2026-08-08'
   note: 'Lean brand discovery-aid (Sonnet-only, no Opus critic per roster). What-it-is + sourced founder/ownership
@@ -4473,6 +4635,59 @@ foreo-espada-blue-light-pen:
     photo would depict ESPADA 2 rather than the cleared device.'
   score: 9
   verdict: publish
+foreo-faq-led-masks:
+  last_reviewed: '2026-10-18'
+  note: 'The queue note sent me to K242747 because it is one of only two FOREO clearances filed as a Summary,
+    expecting it to be the one FAQ file that describes predicate and testing for the LED mask line. It
+    IS the only readable FAQ file, and reading it produced a better finding than expected: the FAQ 302
+    is a HAIR-GROWTH device for androgenetic alopecia, built on 20 laser diodes at 650 plus or minus 10nm
+    and 20 red LEDs, with predicates K210169 and HairMax LaserComb 41. Its own section 8 reads "Clinical
+    testing was considered not to be needed for this 510(k)". So the single FAQ device whose file you
+    can read is not a face mask, and it was cleared on nonclinical testing. Every FACIAL FAQ clearance
+    (K222012, K240378, K240616, K253683) is a Statement and publishes nothing about testing. THE GRADE
+    TURNS ON ONE WORD. K253683 cleared the acne mode as blue plus INFRARED. The pairing the 2026 GRADE
+    review grades at Level B is blue plus RED. Infrared is not red, the review does not grade that combination,
+    and nothing else consulted does either, so the acne grade here is effect:minimal rather than the modest
+    the other blue-red devices on this site earned. A device cannot inherit a grade for a combination
+    it does not emit. This is the sharpest single distinction drawn in the device cluster so far, and
+    it came from reading the Indications sheet rather than the marketing. CAREFUL HANDLING: (a) K222012
+    was also fetched and its text layer yielded NO extractable Indications wording, so no indication is
+    attributed to it; the quoted facial indication is attributed to K253683 alone rather than assumed
+    to cover the whole line. (b) The FAQ 302 indication restricts use by Hamilton-Norwood and Ludwig-Savin
+    severity grades and to Fitzpatrick phototypes I to IV, but the PDF text layer renders Roman numerals
+    ambiguously ("Ila" for "IIa"), so those grades are reported in words and NOT quoted verbatim, with
+    the reason stated in the footnote. The phototype restriction is itself worth surfacing: deeper phototypes
+    are outside what that device was cleared for. (c) No price: the brand URL tried returned a 404 and
+    no metered call was spent hunting for another, which the page says plainly. (d) Credit given for what
+    the one open file does well, since it is a real engineering document with named predicates and ISO/IEC
+    testing; the criticism is that it is not a clinical result, which the file itself states. Also linked
+    the new page from the FOREO brand page. ZERO Apify spend; openFDA plus three FDA PDFs. 18 substantive
+    quotes verified verbatim, 0 misses. Self-verified in the main loop, assurance sonnet, force-published.'
+foreo-luna-4-plus:
+  last_reviewed: '2026-10-19'
+  note: 'The queue set this up as a TEST and the test returned a clean answer. It asked whether FOREO
+    filing a 510(k) Summary rather than a Statement changes what can be said about a device. Answer: it
+    changes what a reader can VERIFY, not what the device has been shown to do. The file names three predicates
+    with product codes, gives exact wavelengths, lists the standards, and then heads its own testing section
+    "Non-Clinical Testing:". So disclosure and evidence are separate axes, which is worth knowing for
+    the whole device cluster: eight of ten FOREO clearances publish nothing, and the two that publish
+    turn out to publish a non-clinical basis. THE FINDING a shopper can use: three functions, and the
+    headline one has NO cleared claim. The indications line calls it a "Near-Infrared Heated Cleansing
+    Device" and then indicates only "Microcurrent: indicated for facial stimulation" and "RED+NIR: indicated
+    to treat periorbital wrinkles". Cleansing is in the name and the description and nowhere in the indicated
+    uses. The page grades cleansing as not gradeable because there is no claim. TWO MORE THINGS I GRADED
+    ON RATHER THAN GLOSSED. (1) "facial stimulation" is not a skin outcome; it describes the current,
+    not the skin, so the microcurrent row is effect:none rather than a soft positive. (2) PERIORBITAL
+    ONLY, which is now the SECOND device this week whose wrinkle clearance stops at the eye area (the
+    Tria FANp was the first). That pattern became a queued list, because a reader buying for facial rejuvenation
+    may be buying a crow''s-feet device. Also: no blue light at all (red 630nm and NIR 830nm), so nothing
+    here touches the acne modality, and the stated mechanism is "elevating tissue temperature", i.e. heat.
+    LINEAGE WORTH THE CROSS-LINK: its predicates include K201906, the NuFACE Trinity ELE Plus Pro, from
+    the firm whose 14 clearances are all Summaries. The microcurrent lineage runs through a device this
+    site already grades. Credit given where due rather than only criticising: on this device FOREO showed
+    its work, and the page says so before drawing the conclusion. ZERO Apify spend; one FDA PDF plus openFDA.
+    31 substantive quotes verified verbatim, 3 reported misses all the known adjacent-quote artifact.
+    Self-verified in the main loop, assurance sonnet, force-published.'
 fowler-2013-brimonidine-gel-phase-3-rosacea-erythema-rct:
   last_reviewed: '2026-08-08'
   note: 'Opus re-fetched PubMed abstract PMID 23839181: all three quoted phrases (efficacy 12-hours/days
@@ -5027,6 +5242,32 @@ hair-loss-thinning:
     Links [[pcos]]/[[ketoconazole]]. No dashes. Opus critic inline (workflow pipeline); assurance opus.'
   score: 9
   verdict: publish
+hair-removal-devices-by-evidence:
+  last_reviewed: '2026-10-20'
+  note: 'Built to fix a LIVE COLLISION the queue identified, and the collision is now fixed at both ends.
+    The device ladder grades home intense pulsed light at Level D and not recommended, but that verdict
+    is FOR ACNE from a review covering acne and rejuvenation only, while the two home IPL products on
+    this site are hair-removal devices. A reader could easily have carried the acne verdict across. The
+    new list opens by saying so, and I also added the caveat to the ladder itself so the warning sits
+    where the Level D line is read. The queue forbade reusing PMID 42545315 and demanded a hair-specific
+    source. Found two, one per side. Professional: PMID 23332016 (Gan 2013) supports alexandrite, diode,
+    Nd:YAG and IPL for long-term removal and calls in-office devices a durable solution. Home: PMID 30681170
+    (Town 2019) reports published efficacy and safety for home devices plus a catagen-induction mechanism
+    at low fluence. 23 quotes verified verbatim, 0 misses. THE FINDING THAT SET THE GRADES is authorship.
+    The warm verdict on home devices comes from a review with THREE of its seven authors listed at Philips
+    Research, no conflict statement recorded, and Philips manufactures one of the two home devices graded.
+    Its only durability figure, 80% persistent reduction at one year, is reported for an UNNAMED appliance.
+    So both home devices sit at mid, and the page states plainly that the 80% cannot be attached to either
+    product and that none of this makes the figure wrong. No allegation about the authors, just the publication
+    record, same handling as the Proya card. The clinic route takes best because its support is independent
+    AND it carries the one actionable skin-tone finding on the page: Nd:YAG for pigmented skin, which
+    no home device offers. HONEST ABOUT WHAT THE RANKING IS: neither source compares the routes directly,
+    so the page says the ordering is a judgement about evidence quality rather than a measured difference
+    in hair reduction, and queued the missing head-to-head. FOUR COLON BUGS in one frontmatter, all caught
+    instantly by the _load_post error handler added earlier this week, which named line 16 and the cause
+    on the first run. Fourth time that fix has paid off. Also cleared a style warning for defensive meta-commentary
+    ("This page grades..."). ZERO Apify spend; PubMed only. Self-verified in the main loop, assurance
+    sonnet, force-published.'
 haruharu-wonder-black-rice-hyaluronic-toner:
   last_reviewed: '2026-08-16'
   note: Drain wave 4. Replaced fabricated quote with accurate label-contradiction framing, INCI 27->28,
@@ -5151,6 +5392,27 @@ hexylresorcinol:
     (combo-only). No dashes. Inline main-loop critic (classifier blocked subagent); assurance opus.'
   score: 9
   verdict: publish
+heydari-2025-oral-vs-topical-tranexamic-acid-melasma:
+  last_reviewed: '2026-10-18'
+  note: 'Compact study page per the study scope. All numbers taken from the PubMed abstract via efetch
+    (primary); 23 quoted strings verified verbatim, 0 substantive mismatches. TWO findings worth keeping.
+    (1) THE INFERENTIAL ERROR: the trial has 25 patients per arm, found MASI reductions of 58.86% oral
+    vs 50.88% topical, and reports the difference as insignificant, which the authors read as the routes
+    being interchangeable. That is not what it shows. A trial this small cannot detect an 8-point gap,
+    so insignificant means undetermined, not equal; a non-inferiority claim needs a pre-specified margin
+    and a much larger n. The page says that plainly. Compounding it: there is NO placebo or vehicle arm,
+    so neither percentage can be separated from sun avoidance, seasonal change, regression to the mean,
+    or the cream base. (2) THE AUTHOR NAME IS WRONG IN THE PUBMED RECORD. The PubMed entry flagged an
+    erratum with no abstract text, so what changed was not stated. Resolved the erratum PMID properly
+    via esearch on the DOI (after a first attempt where I GUESSED two PMIDs and got an unrelated geriatrics
+    paper, which is exactly why guessing identifiers is not allowed), then read the correction full text
+    from PMC: the first author is Heydari, not Heidary, and the department is Clinical Pharmacy, not Pharmaceutics.
+    NO data was amended, so every figure stands. The page is slugged and cited as Heydari with Heidary
+    kept as an alias, since the live PubMed citation still shows the superseded spelling and anyone copying
+    it inherits the error. Also noted the abstract claims low side effects while reporting no adverse-event
+    table and no thromboembolic screening, which is the safety question that matters for a systemic antifibrinolytic.
+    ZERO Apify spend; PubMed and PMC only, both durable primaries, so no source caching was required.
+    Self-verified in the main loop, assurance sonnet, force-published.'
 hidradenitis-suppurativa:
   last_reviewed: '2026-09-14'
   note: 'Condition hub. Sonnet draft, Opus critic verified every quote/stat verbatim vs re-fetched primaries
@@ -5164,6 +5426,34 @@ hidradenitis-suppurativa:
     into body. Dash-free; lint/verify/style clean. Cross-fed resorcinol.'
   score: 9
   verdict: publish
+home-fractional-nonablative-laser:
+  last_reviewed: '2026-10-19'
+  note: 'Closed the largest hole in the device ladder: the Level A rung, which home-use-skincare-devices-by-
+    evidence had been pointing at with the words "No page here yet". 23 quotes verified verbatim, 0 substantive
+    misses. THE QUEUE ASKED ME to resolve which specific devices sit behind the Level A grade before grading.
+    I could not, and the page says so: the review names NO manufacturer, model or wavelength for any modality.
+    So instead of leaving the gap implicit I resolved what IS resolvable from primary sources and found
+    something better than expected. THE FINDING: the grade and the cleared device do not describe the
+    same thing. The modality grade is for FACIAL REJUVENATION, but the only consumer fractional laser
+    whose FDA file I could read, the Tria FANp (K141868), is cleared for exactly one thing: "the treatment
+    of periorbital wrinkles (crow''s feet)". A 1450 nm plus or minus 50 nm diode laser for the skin around
+    the eyes. A reader shopping the top of the ladder is buying a crow''s-feet device. SECOND CAVEAT,
+    stated rather than buried: the Level A label comes from a SCOPING review of PubMed with GRADE applied
+    afterwards, not from a meta-analysis. A scoping review maps a literature rather than pooling it, so
+    Level A produced this way is a weaker artifact than Level A with extractable effect sizes. The page
+    says that while still treating the review as the best overview available. THIRD: product code ONG
+    does not isolate home devices. It holds 35 clearances dominated by in-office platforms (Fraxel, Clear
+    and Brilliant, multiple CO2 systems), so the code cannot be used to find consumer lasers, and a device
+    sitting in it tells you nothing about home use. NO tier_list, deliberately and for the second page
+    in a row. Grading would require either home-laser product pages that do not exist or treating the
+    in-office CO2 page as a home device, which would be the exact error the queue warned against. The
+    page says why instead of inventing buckets. STALE CLAIMS FIXED: home-use-skincare-devices-by-evidence
+    said twice that this modality had no page. Both now point here, one of them carrying the crow''s-feet
+    catch so the ladder itself warns the reader. Also surfaced a safety finding nothing on the site had
+    stated: home microneedling is Level D for rejuvenation AND "associated with infectious complications",
+    which matters because the microneedling page carries a dermatologist video recommending a home stamping
+    device. Queued as a decision about where it belongs rather than a new page. ZERO Apify spend; PubMed,
+    openFDA and one FDA PDF. Self-verified in the main loop, assurance sonnet, force-published.'
 home-led-light-therapy:
   last_reviewed: '2026-10-12'
   note: 'All 45 quotes verified verbatim against freshly-fetched abstracts for PMID 42545315 (2026 GRADE
@@ -5194,6 +5484,22 @@ home-led-light-therapy:
     IPL and heat devices. No wavelengths asserted, since no cited source gives them. No effect size asserted,
     since neither review pools one.'
   score: 8
+  verdict: publish
+home-radiofrequency-skin-tightening:
+  assurance: sonnet
+  notes: 'Every quoted string re-checked verbatim against three re-fetched primaries on 2026-10-20: DEN150005
+    decision summary (figures 95.16% (59/62), 100% (62/62), 69 enrolled, indication text), 510(k) Summary
+    K232424 (no-clinical-testing sentence, predicate K220322, both indication fields, porcine bench result),
+    and the PMID 42545315 abstract (both GRADE quotes). openFDA product_code PAY re-queried for the 12-record
+    count and the 10 Summary / 2 Statement split. One drafted claim was corrected before publish: an earlier
+    draft said tightening language was absent from the files, but K232424 gives the Common/Usual Name
+    as ''OTC device for skin tightening based on RF'', so the page now contrasts that name field with
+    the cleared wrinkle indication instead of asserting an absence. Absence claims that remain are scoped
+    to DEN150005 alone and were string-checked (tighten, laxity, sham, randomized, split-face). The porcine
+    quote is hyphenated across a line break in the original and the footnote discloses that it is quoted
+    rejoined.'
+  reviewed: '2026-10-20'
+  reviewer: main-loop self-verification
   verdict: publish
 home-use-skincare-devices-by-evidence:
   last_reviewed: '2026-10-16'
@@ -5401,6 +5707,37 @@ illiyoon-ceramide-ato-concentrate-cream:
     '
   score: 9
   verdict: revise-then-fixed
+illumask-acne-light-therapy-mask:
+  last_reviewed: '2026-10-20'
+  note: 'THE QUEUE''S HYPOTHESIS WAS WRONG AND THE PAGE SAYS SO. It predicted that if K123999 also lacked
+    an acne trial, the whole Neutrogena lineage would trace to no clinical efficacy data across three
+    companies. It does not. K123999 contains a section headed "9. Clinical Summary" describing an IRB-approved
+    12-week study, and it is the ONLY file in that chain that does. The real finding is sharper than the
+    predicted one: one small company ran one study in 2013, and Pulsaderm and then Neutrogena inherited
+    the clearance without repeating the work. A reader buying the Neutrogena mask is relying on an uncontrolled
+    2013 study of a different company''s device. I CORRECTED THE DOWNSTREAM CLAIM rather than leaving
+    it. Both successor product pages now link here with the correction, and I put a MATERIAL CORRECTION
+    note on the queued disclosure list whose premise assumed the chain was evidence-free. Leaving that
+    queue entry as written would have had a future tick publish the wrong generalisation. THE SHARPEST
+    NUMBER IS THE GAP BETWEEN TWO MEASUREMENTS OF THE SAME TRIAL. The investigator, counting in person
+    and unblinded, reported 82.8% inflammatory and 71.2% non-inflammatory lesion reduction at 8 weeks.
+    Two independent doctors grading the SAME patients'' photographs blind and randomised reported 65.8%
+    total reduction. The page carries both and says the blinded figure is the one to use, because an unblinded
+    assessor measuring their own trial is the classic inflation route. DESIGN GRADED HONESTLY: sequential
+    within-subject, same 30 patients, 4-week cleanser-only washout then 8 weeks of device, no sham, no
+    randomisation of order, no p-value or confidence interval anywhere. The washout does help, since lesions
+    ROSE 3.13% during it, showing the group was not already improving. It still cannot separate the device
+    from eight more weeks of attention and routine. CREDIT GIVEN: including all Fitzpatrick types is better
+    than several newer devices on this site manage, and the company ran a study at all rather than resting
+    on bench testing. The criticism is of the design, not its existence, and the page says that in the
+    marketing-claims section. TWO SMALL ACCURACY ITEMS. The FDA form prints the typo "Acnie" in the device
+    name, quoted as printed with a note. The file contradicts itself on treatment length, saying both
+    "the last 9 weeks" and "the 8 week Treatment Period"; the page reports both and uses 8 where results
+    attach. And the one alteration made to any quoted wording, joining a line-break hyphenation of non-inflammatory,
+    is disclosed in the footnote. Also worth recording for future fetches: K123999 lives under accessdata
+    pdf12, not pdf13, despite its 2013 decision date; pdf13 returns a 404 HTML page that a careless pipeline
+    would treat as a PDF. ZERO Apify spend. 39 quotes checked. Self-verified in the main loop, assurance
+    sonnet, force-published.'
 imokawa-1991-ceramide-deficiency-atopic-dermatitis:
   last_reviewed: '2026-08-08'
   note: 'Imokawa 1991 (J Invest Dermatol, PMID 2007790) — the founding study for the "ceramides are depleted
@@ -5616,6 +5953,31 @@ ivermectin-topical:
     '
   score: 9
   verdict: revise-then-fixed
+jack-black-intense-therapy-lip-balm-spf-25:
+  last_reviewed: '2026-10-20'
+  note: 'The queue asked me to resolve a specific SPF lip product from DailyMed before drafting and to
+    check the marketing category. Both done: 158 DailyMed results for lip balm sunscreen, picked the Jack
+    Black SPF 25 Black Tea and Blackberry SKU, and the approval element reads code C200263 "OTC Monograph
+    Drug", application M20. Monograph, not NDA. THE FINDING IS A SET OF ABSENCES, and I verified them
+    by searching the full SPL text rather than inferring from what I happened to extract. The strings
+    "broad", "water resist", "skin cancer", "aging", "reapply" and "every 2 hours" occur ZERO times; "SPF"
+    occurs twice, in the labelling rather than in the Use statement. So the entire sunscreen promise is
+    "Helps prevent sunburn and chapped lips." Under the US monograph the skin-cancer and early-aging claim
+    requires a broad-spectrum SPF 15 or higher designation, and this label carries none. For a product
+    queued BECAUSE chronic UV drives actinic damage on the lips, that gap is the story. SCOPED CAREFULLY
+    so it is not an overclaim: the page says this is about what the LABEL claims, not a measurement of
+    spectral performance, and notes that avobenzone does absorb in the UVA range, so the filters are not
+    the problem. The missing item is the designation that would license the long-term claim. SECOND FINDING
+    worth having: it is a DUAL monograph product. Three actives across two purposes, avobenzone 3.0% and
+    octinoxate 7.5% as Sunscreen plus petrolatum 40.2% as Skin Protectant. The chapped-lips half is the
+    better-supported half, which inverts what the packaging emphasises. RESTRAINT: octinoxate has drawn
+    regulatory attention over absorption and environmental profile in some jurisdictions. The page records
+    the 7.5% figure and explicitly takes NO position on harm, because no source consulted establishes
+    one. Also scoped to this ONE flavour SKU, since Jack Black publishes other flavours under separate
+    setids. ZERO Apify spend; DailyMed only. 17 substantive quotes verified; the 5 flagged by the checker
+    were two attribute-regex artifacts (confirmed directly in the approval element) and three deliberate
+    ABSENCE strings, which of course do not appear in the source because that is the point. Self-verified
+    in the main loop, assurance sonnet, force-published.'
 jackson-2026-astragalus-membranaceus-antiaging-review:
   last_reviewed: '2026-09-14'
   note: 'Study: Jackson 2026 systematic review of Astragalus membranaceus for anti-aging (JDD 2026;25(1):88-92,
@@ -5732,6 +6094,33 @@ kaolin:
     (PMID 31828170, verified real kaolin-dressing RCT) and reattributed both, matched source wording ''dressings''.'
   score: 9
   verdict: revise-then-fixed
+karimi-2025-neurocosmetic-post-procedure-cream:
+  last_reviewed: '2026-10-19'
+  note: 'An UNUSABLE study, recorded deliberately as such. The study scope demands design, n, intervention
+    vs comparator and the primary result WITH NUMBERS. This abstract supplies none of those, so no compliant
+    study page could be written from it and I wrote the negative record instead. That is the useful artifact:
+    without it, a later pass reading "reduced erythema better than the comparator after 3 days" could
+    cite this as evidence. WHAT IS ACTUALLY MISSING: no sample size, no age or skin-type distribution,
+    no allocation or blinding, no endpoint, no effect size, no confidence interval, no p-value. Both products
+    are unnamed, the test cream appearing only as "PPC" and the comparator only as "the commonly used
+    anhydrous topical", so the comparison cannot even be identified, let alone reproduced. THE SHARPEST
+    FINDING: PubMed indexes the publication type as Randomized Controlled Trial, while the abstract never
+    states that anyone was randomized and calls itself a pilot study. Anyone filtering PubMed by publication
+    type would pull this in as an RCT. The page leads on that gap. THREE SUPPORTING CAUTIONS, all verifiable:
+    the abstract states an aim of "improving patient retention", a clinic business outcome rather than
+    a clinical endpoint; "neurocosmetic" is marketing vocabulary, not a pharmacological or regulatory
+    class; and the PubMed record carries NO Affiliation elements and NO CoiStatement element, with no
+    PMC full text. RESTRAINT ON THE SPONSORSHIP QUESTION: the author list looked to me like it might include
+    industry R&D staff, and I did NOT say so. PubMed records no affiliations, so sponsorship cannot be
+    assessed either way, and the page says exactly that rather than insinuating. The absences reported
+    are absences in the record as fetched, which the footnote states explicitly so they are not read as
+    claims about the paper''s contents. SELF-CORRECTION in cross-feed: I queued the named laser as "Contour
+    TRL (Cutera ...)", asserting a manufacturer the abstract does not state and that I had not verified,
+    in the very same entry whose note says the maker must be resolved from openFDA first. Renamed to "manufacturer
+    unresolved" with the correction recorded in the entry. ZERO Apify spend; PubMed only. 20 quoted strings
+    verified, the two reported misses being the publication-type values which come from the XML record
+    rather than the abstract text and were confirmed there. Self-verified in the main loop, assurance
+    sonnet, force-published.'
 karrabi-2021-cysteamine-vs-kligman:
   last_reviewed: '2026-08-08'
   note: 'Opus re-fetched the PubMed abstract (PMID 32585079) and verified all three quotes verbatim (the
@@ -6482,6 +6871,33 @@ libecco-2026-efficacy-and-safety-of-clascoterone-cream-1-for-acne-are-:
     '
   score: 10
   verdict: publish
+licochalcone-a:
+  last_reviewed: '2026-10-19'
+  note: 'THE QUEUE ITEM WAS MIS-SOURCED and I did not draft from it as written. It named licochalcone
+    A as the subject but cited PMID 41879202, which is a systematic review of L-CARNITINE. In that paper
+    licochalcone A appears exactly once, as a combination partner in the phrase "particularly when combined
+    with agents like licochalcone-A or salicylic acid". Drafting a licochalcone A rubric off an L-carnitine
+    review would have attributed another ingredient''s evidence to this one. I searched for a real licochalcone
+    A source instead and found PMID 41181588, a 2025 dermatology review of the compound, and used the
+    L-carnitine paper only for the narrow combination point it actually supports, saying so in the footnote.
+    DUPLICATION CHECKED BEFORE WRITING. licorice-root-extract already exists at tier weak, so I read it
+    first: it is named for glabridin and dipotassium glycyrrhizate and does not mention licochalcone A
+    at all. Different constituent, different evidence base (redness rather than pigment), so a separate
+    page is not a re-explanation. Both pages now link to each other, and a maintenance item is queued
+    asking whether INCI labelling even lets a reader tell the constituents apart; if it does not, that
+    absence goes on both pages rather than spawning a third. tier: weak, argued from the review''s OWN
+    verdict rather than my impression: "current research is limited by geographical bias, a lack of high-quality
+    randomized controlled trials, and reliance on preclinical models." The page quotes the optimistic
+    sentence next to it ("Clinical studies have also confirmed...") and notes it names no trial, no sample
+    size and no effect size, so the two are presented together instead of one being used to sell the other.
+    weak here means thin clinical evidence, not disproof, and the page says that. ABSENCE CLAIM HANDLED
+    CAREFULLY. sk inci returned no match for licochalcone across indexed pages, and the tool itself warns
+    that is weaker than "not in the formula". The page says no product here is KNOWN to contain it and
+    repeats the caveat that many product pages publish no full INCI, rather than claiming the catalog
+    lacks it. No marketing copy was quoted because no brand page was fetched and no product on site carries
+    it; the quarantined section says so explicitly rather than being omitted. ZERO Apify spend; PubMed
+    only. 18 quoted strings verified verbatim, 0 misses. Self-verified in the main loop, assurance sonnet,
+    force-published.'
 licorice-root-extract:
   last_reviewed: '2026-08-08'
   note: 'Opus verification: re-fetched all three cited primaries (PubMed 9870547 Yokota, 14522625 Saeedi;
@@ -6655,6 +7071,56 @@ loreal-paris-revitalift-0-3-pure-retinol-serum:
     '
   score: 9
   verdict: revise-then-fixed
+lotrimin-af-antifungal-cream:
+  last_reviewed: '2026-10-19'
+  note: 'The queue predicted a monograph-versus-NDA contrast and told me to verify the code rather than
+    infer it from the sibling page. Verified: the approval element records code C200263, displayName "OTC
+    Monograph Drug", application M005. So Lotrimin AF is NOT FDA-approved while its brandmate Lotrimin
+    Ultra is (C73594, NDA021307). Same brand, same shelf, and the names give no hint which. THE FINDING
+    I DID NOT EXPECT, and the better one: this SKU claims ONLY RINGWORM. Despite the AF in the name, the
+    Uses section lists "cures most ringworm" and nothing else, no athlete''s foot and no jock itch, and
+    the display panel is coded "Lotrimin RW 6549". A shopper reaching for an AF-branded tube can buy a
+    product that makes no athlete''s foot claim. SCOPED CAREFULLY, because this is an absence claim about
+    a product line. The page says the absence is in the Uses section of THIS SPL at NDC 11523-6549 and
+    that other SKUs in the line may be labelled differently; it does not say Lotrimin AF never claims
+    athlete''s foot. A queue item now asks whether a separate athlete''s-foot-labelled clotrimazole SKU
+    exists, explicitly instructing that a NEGATIVE answer is the stronger finding and belongs on the existing
+    pages rather than a new one. Also carried from the label: it is not effective on scalp or nails (its
+    own words), the course is four weeks twice daily against the sibling''s one-week option, the stop
+    rule is no improvement within four weeks, and the age floor is 2 years against the sibling''s 12.
+    PHOTO: the queue hoped for a DailyMed carton image because the Tinactin SPL published one. This SPL''s
+    media list is EMPTY and incidecoder returned MISS, so image_unresolvable records both attempts and
+    the contrast with Tinactin. No metered call. QUOTE DEFECTS CAUGHT: the display-panel quote omitted
+    the registered-trademark symbol the label prints, so it was not a contiguous source string; fixed.
+    A second reported miss, "OTC Monograph Drug", turned out to be a CHECKER artifact rather than a page
+    defect: my tag-stripper deletes attribute values along with tags, and that phrase lives in a displayName
+    attribute. Confirmed present by grepping the SPL directly. Worth remembering, since every DailyMed
+    marketing-category check reads an attribute. ZERO Apify spend. Self-verified in the main loop, assurance
+    sonnet, force-published.'
+lotrimin-ultra-athletes-foot-cream:
+  last_reviewed: '2026-10-19'
+  note: 'The queue called this "mostly assembly" since the butenafine page already carries the Drug Facts,
+    and the page respects that by linking out rather than re-running the pharmacology. 36 substantive
+    quotes verified verbatim against the DailyMed SPL, 0 misses. THE ANGLE, exactly as the queue predicted:
+    this is genuinely FDA-APPROVED, not monograph-accepted. I checked the SPL marketing-category code
+    rather than trusting the queue note, per the standing rule, and it reads C73594 displayName NDA with
+    application NDA021307. So "FDA-approved" is earned here, which is rare on this site. THE BETTER FINDING
+    is the label''s own admission. Immediately after "cures most athlete''s foot between the toes" it
+    says "Effectiveness on the bottom or sides of foot is unknown." A manufacturer volunteering a gap
+    in its own evidence, in the Uses section where buyers look, is worth more than any marketing claim.
+    The moccasin pattern is common, so the page grades that use as effect:none / evidence:anecdotal and
+    routes to a clinician rather than leaving a reader to assume coverage. PACKAGE-SIZE TRAP AVOIDED.
+    The printed display panel shows only the 12 g tube, but the structured package quantities list 12
+    g, 15 g AND 30 g. The page takes the sizes from the structured listings and the footnote states why,
+    which is the lesson recorded from the earlier How-Supplied mistake. PHOTO: the queue suggested DailyMed
+    media before anything metered. Checked, and this SPL has an EMPTY media list; inci_lookup then returned
+    MISS, which is expected for an OTC drug rather than a cosmetic. Marked image_unresolvable with both
+    attempts named. ZERO Apify spend, no gate call needed. Cross-feed: Lamisil AT and the regulatory-footing
+    list added; a moccasin-pattern MAINTENANCE item filed against the existing athletes-foot page rather
+    than as a duplicate hub; and the Lotrimin AF entry was ALREADY queued, so the brand-confusion angle
+    went on via sk queue-note instead of a second entry. Both the Lamisil and Lotrimin AF notes say to
+    verify the C-code from the SPL rather than inferring approval status from this page. Self-verified
+    in the main loop, assurance sonnet, force-published.'
 loyal-2026-parallel-beam-vs-microfocused-ultrasound-arm-laxity-rct:
   last_reviewed: '2026-10-05'
   note: 'Study (device RCT). Opus critic unavailable (session 200-agent cap); main-loop verbatim self-verify,
@@ -7340,6 +7806,34 @@ moisturizing:
     claim cited to Spada); lint/verify/style clean
   score: 9
   verdict: publish
+molluscum-contagiosum:
+  last_reviewed: '2026-10-18'
+  note: 'Condition hub with a real tier_list, built entirely from free primaries (one PubMed abstract
+    plus two FDA labels). 23 quotes verified verbatim, 0 misses. THE FINDING: the treatment ranked highest
+    in the 2026 pediatric network meta-analysis is salicylic acid plus lactic acid 16.7% (RR 3.16, SUCRA
+    86.0%), a cheap keratolytic combination, NOT either of the two drugs the FDA approved for this condition.
+    Second is cantharidin 0.7%, which is exactly YCANTH strength. SECOND FINDING, read straight off the
+    label: ZELSUVMI (berdazimer), the newest and only at-home option, ran THREE vehicle-controlled trials
+    and only ONE excluded no effect at week 12 (32.4 vs 19.7, CI 7.1 to 18.6; then 30.0 vs 20.3, CI -0.04
+    to 18.4; then 26 vs 22, CI -5 to 14). The convenient option has the weakest and least consistent evidence,
+    and that is on its own FDA label. By contrast YCANTH, which a clinician applies, cleared placebo decisively
+    in both of its trials (46 vs 18 and 54 vs 13). THIRD: the vehicle arms are the context everything
+    else should be read against. 19.7%, 20.3% and 22% of children cleared on vehicle alone within 12 weeks,
+    so a large share of any apparent success is clearance that was going to happen anyway. The How-to-know
+    section says plainly that waiting is a real option to discuss with a clinician. RESTRAINT: (a) the
+    tier_list grades ONLY the two actives that have pages here and says so in its by: axis, rather than
+    inventing slugs for potassium hydroxide or the two branded drugs; both are queued. (b) The NMA abstract
+    reports no rank for berdazimer, so none is stated. (c) Its highest-ranked entries overall were single-study
+    and the analysis itself says they require validation, so they are excluded from the list and only
+    mentioned as unvalidated. (d) The How-to-know section deliberately does NOT give self-diagnosis criteria
+    beyond the obvious, because the labels carry no clinical description and I did not have a dermatology
+    primary for one; it routes to a clinician instead. TOOLING PAYOFF: the YAML frontmatter broke once
+    on the recurring colon bug ("placebo arms do: in the berdazimer"), and the _load_post error handler
+    added earlier today named the exact line and cause in four lines instead of a 60-frame traceback.
+    Fixed in one pass, then ran a pre-flight scan for other colon-bearing values (0 found). Also caught
+    one quote that dropped a trademark symbol from the ZELSUVMI indication sentence; re-cut the quote
+    to start after the trade name rather than silently altering label text. ZERO Apify spend. Self-verified
+    in the main loop, assurance sonnet, force-published.'
 monteil-2025-retinaldehyde-niacinamide-cream-post-procedure-rejuvenation-rct:
   last_reviewed: '2026-09-21'
   note: "Opus critic re-fetched PubMed (PMID 41312593, efetch) and verified the verbatim primary-result\
@@ -7838,6 +8332,40 @@ neutrogena-ultra-sheer-dry-touch-spf-70:
     '
   score: 10
   verdict: publish
+newa-skin-therapy-system:
+  last_reviewed: '2026-10-19'
+  note: 'The queue item was deliberately filed with identity UNRESOLVED and told me to resolve a real
+    cleared device from openFDA before drafting, rejecting outright if nothing matched. Resolved: searching
+    device_name for radiofrequency returned 55 records, all professional or surgical, so I went at it
+    by applicant and found DEN150005, the EndyMed NEWA. It is a DE NOVO, not a 510(k), and that is the
+    finding. WHY IT MATTERS: the De Novo created the entire category. New generic type "Electrosurgical
+    device for over-the-counter aesthetic use", new regulation 21 CFR 878.4420, Class II, product code
+    PAY. Querying that product code returns 12 devices, so this one grant is the regulatory ancestor of
+    every home RF device now sold, and it is the only one reviewed on its own clinical evidence rather
+    than by substantial equivalence. That fills the empty RF rung the queue note was chasing. THE SKEPTICAL
+    READ, which is the page''s core: the clinical study is real and FDA-reviewed, 69 enrolled and 62 completing,
+    three independent dermatologists scoring the Fitzpatrick Wrinkle Severity Scale, 95.16% success at
+    four weeks and 100% at three months against a pre-specified 75% bar. But the words sham, randomized,
+    split-face, single-arm and open-label appear NOWHERE in the decision summary, which describes only
+    a prospective single-center study. There is no control arm. A one-grade photographic threshold with
+    no control is exactly the design that produces a 100% success rate, and the page says so rather than
+    reporting 100% as an achievement. Graded effect:modest, evidence:preliminary, while acknowledging
+    this is still the best-documented home device on the site. Also surfaced and carried: the indication
+    is adult WOMEN only and Fitzpatrick I to IV only, so deeper skin tones are outside it; FDA added a
+    follicular-burn warning after finding no facial-hair data; and the category''s special controls require
+    a label-comprehension and self-selection study, which this device passed and which foreo-faq-led-masks
+    explicitly did not conduct. CORRECTED YESTERDAY''S FOREO PAGE. The PAY query showed K222012 (FAQ 101)
+    and K240616 (FAQ 102) are classified under the OTC RADIOFREQUENCY code, not an LED code, so calling
+    the FAQ line "its LED range" was wrong. Fixed with a new sourced footnote. Careful about the limit
+    of the evidence: a product code records the classification FDA assigned, so the page states those
+    two are CLASSIFIED as OTC RF devices and explicitly does NOT claim they contain no LEDs, since the
+    Statement filings publish no emitter list. TWO QUOTE DEFECTS CAUGHT BY THE CHECK: (a) I had put my
+    own paraphrase in quotation marks, where it read as a source quote; unquoted now. (b) A quoted regulation
+    number omitted the section sign the PDF prints, so it is reported rather than quoted. Also extended
+    the verbatim normalizer to fold U+2010 HYPHEN, which FDA PDFs use in "Non-clinical" and which had
+    made a faithful quote look like a mismatch. Final: 30 substantive quotes verified, 0 misses. ZERO
+    Apify spend; openFDA plus one FDA PDF. No price, stated plainly. Self-verified in the main loop, assurance
+    sonnet, force-published.'
 newman-2009-tio2-zno-nanoparticle-safety:
   last_reviewed: '2026-08-08'
   note: 'Re-fetched PubMed abstract (PMID 19646780) via WebFetch and verified: citation metadata (JAAD
@@ -7931,6 +8459,22 @@ noble-formula-2-pyrithione-zinc-bar-soap:
     clean.'
   score: 8
   verdict: publish
+nuface:
+  last_reviewed: '2026-10-18'
+  note: 'Lean brand card, 131 words of body, inside the 180-word cap. Its job is to link to products and
+    to carry one structural fact, which it does. CORRECTED THE QUEUE NOTE: it said NuFACE is applicant
+    on "at least 7" clearances and listed 7 K-numbers. The openFDA query returns 14, total reported 14,
+    spanning 2007-11-27 to 2024-06-27. All 14 are 510(k) Summaries, which confirms the structural point
+    the queue asked for and strengthens it. Every K-number and device name is enumerated in the footnote
+    so the count is checkable rather than asserted. DELIBERATELY OMITTED THE FOUNDER. The playbook allows
+    a founder line "if verifiable" and the queue name was "NuFACE (Carol Cole Company)". The only primary
+    evidence I had was the openFDA applicant string, which establishes a CORPORATE name, not that any
+    individual founded the company. Rather than spend fetches or assert it, the page states the verifiable
+    fact (FDA applicant of record is the Carol Cole Company, trading as NuFACE) and the footnote says
+    explicitly that no claim is made about any individual. The never-state-an-unverified-claim-about-a-living-person
+    rule outranks a nice-to-have biography line. ZERO Apify spend; openFDA only, a durable primary, so
+    no source caching required and sk verify is clean with no manual-verification warnings. Self-verified
+    in the main loop, assurance sonnet, force-published.'
 nuface-trinity-microcurrent-device:
   last_reviewed: '2026-10-17'
   note: 'Sources: K181008 clearance package (a real 510(k) SUMMARY, so the testing is readable), openFDA
@@ -9253,6 +9797,27 @@ protopic-tacrolimus-ointment:
     opus.'
   score: 9
   verdict: publish
+proya:
+  last_reviewed: '2026-10-19'
+  note: 'Lean brand card, 146 words of body, inside the 180 cap. Its purpose is narrow and the queue stated
+    it well: the site cites a study authored entirely by this company''s staff, so a reader meeting that
+    study should be able to see who the company is. VERIFIED FROM A DURABLE PRIMARY rather than a corporate
+    website. The PubMed XML record for PMID 40952030 contains seven Affiliation elements and ALL SEVEN
+    read "Research & Innovation Center, Proya Cosmetics Co. Ltd, Hangzhou, China." That single fact supports
+    everything the card says about the company, its location and its research unit, so no brand page was
+    fetched and nothing about size, history, ownership or revenue is claimed. NO FOUNDER NAMED, consistently
+    with the foreo and nuface cards: none was verified, and a brand card is not worth an unverified claim
+    about a person. DUPLICATION CAUGHT AND TRIMMED. My first draft restated both the universal Proya affiliation
+    AND the paper''s no-conflict declaration, with my own framing. But wang-2025-encorelane-sensitive-skin
+    already owns that argument and puts it more strongly, calling the declaration a reporting failure.
+    Repeating it on the brand card would have been exactly the redundancy the playbook forbids, so the
+    card now states only the affiliation fact that IDENTIFIES the company and explicitly hands the conflict-of-interest
+    judgment to the study page. That cut it from 152 to 146 words and made it do one job. Also linked
+    the study page back to this card. ZERO Apify spend; one PubMed XML fetch. sk verify is clean with
+    no manual-verification warnings because the only source is PubMed. Cross-feed: the manufacturer-authored-studies
+    list is grounded in a pattern now visible across three pages rather than this one case, and its note
+    warns it must report only what each publication record shows rather than becoming a list of accusations.
+    Saccharide isomerate was already queued. Self-verified in the main loop, assurance sonnet, force-published.'
 prurigo-nodularis:
   last_reviewed: '2026-09-29'
   note: 'Opus critic: all Kim quotes verbatim vs PMID 41219577, disease framing correct (physician-managed,
@@ -9668,6 +10233,83 @@ revive-light-therapy-essentials:
     the quotation, never by editing a quote. Same fix as on the 2022 device page.'
   score: 9
   verdict: publish
+revive-light-therapy-led-cleansing-system:
+  last_reviewed: '2026-10-18'
+  note: 'The queue item asked one question and it is now ANSWERED. Both 510(k) summaries were pulled from
+    accessdata and read in full (free, primary). K180445 and K180447 each state, in identical words, that
+    "The conclusions drawn from nonclinical tests demonstrate that the device is safe, as effective, and
+    performs as well as the legally marketed devices." That same sentence appears at every generation
+    of the chain the site has examined (K223482, then K210965/K210968, then these two), so the ENTIRE
+    reVive line traces to no clinical data at any level. That completes the finding opened on revive-light-therapy-essentials.
+    Second finding, the same structure as Essentials: ONE trade name, TWO clearances, opposite purposes.
+    K180447 is acne (630nm red plus 415nm blue, product code OLP); K180445 is wrinkles (605nm amber, 630nm
+    red, 660nm red, 880nm infrared, no blue at all, product code OHS). The acne/wrinkle split is exactly
+    the fact that decides which GRADE row applies, and the box name cannot tell you which you have. Two
+    details worth keeping, both to the firm''s credit for publishing them: thermal testing shows the device
+    stays under 41C after 30 minutes of continuous use, 10 times the 3-minute treatment time; and a self-selection
+    study was explicitly NOT conducted because the box labeling matched the predicate, so nobody tested
+    whether a shopper could judge the device suitable for themselves. Biocompatibility is a read-across
+    from the dpl Nuve ABS handle, now queued as the oldest link in the chain. ABSENCE CLAIM HANDLED CAREFULLY
+    (the recurring error class): the shop-all page contains the string "cleansing system" exactly once,
+    and I checked the context before asserting anything. It is generic category prose about "sonic cleansing
+    systems", NOT a product name. So the page says no product tile carries the cleared name, which is
+    what was actually verified, and explicitly declines to claim a Soniqué IS this device renamed. TWO
+    SELF-CORRECTIONS before publish. (a) I had invented a frontmatter key, price_unresolvable; no other
+    page uses it and no script reads it, so it was dead metadata inventing a convention. Removed; the
+    point lives in prose instead. (b) A quote looked truncated at "415nm" because the sentence spans a
+    PDF page break. Rather than patch around it I re-extracted without -layout, confirmed it continues
+    "blue.", and now quote the full sentence while disclosing the page break in the footnote. Final check:
+    31 quotes verified against the two PDFs and the cached shop page, 0 substantive misses. Cross-feed
+    used the new sk queue-note to attach VERIFIED prices (Lux Panel 399, Lux Clinical 199, Lux Soniqué
+    199, Soniqué Mini 129, Lux Lip Care 99) to items already queued, rather than adding duplicate entries.
+    ZERO Apify spend; FDA PDFs, openFDA and one brand page by curl. Self-verified in the main loop, assurance
+    sonnet, force-published.'
+revive-light-therapy-lux-glo:
+  last_reviewed: '2026-10-18'
+  note: 'The queue note asked for the wavelengths first, because the home-device ladder turns on blue-red
+    (Level B) vs red-only (Level C). Answered: the brand states "Red, infrared, amber, and blue light"
+    with a "Primary wavelength range" of 415 to 880 nm, so blue plus red is present and the Level B pairing
+    applies. No per-color peak is published, which the page says plainly rather than inferring one. Clearance:
+    as the queue note predicted, none of the 15 LED Technologies 510(k) records is named Lux. THE REAL
+    FINDING is the two percentages on the page. 97.4% and 100% both resolve to one asterisk whose entire
+    disclosure is "Consumer study of participants ages" 39 to 66 plus "Individual results may vary." No
+    n, no control, no measure beyond self-report. Worse, the 100% figure sits under an anti-acne label
+    while the participants were 39 to 66, an age band in which inflammatory acne is uncommon. Also noted
+    the wording escalation within one page: the product text says "clinically tested" (modality-scoped
+    and defensible, same as Lux Spot) while the line-level copy says "clinically proven LED wavelengths
+    with higher optical output energy", with no output figure anywhere. Price $79.00 verified from the
+    displayed string AND the page structured data (7900 cents, USD); sibling prices from the brand own
+    comparison table. 32 quoted strings verified verbatim against the local cache; 3 reported misses were
+    the known adjacent-quote artifact plus the Cloudflare title observed directly. ZERO Apify spend. ledtechnologies.com
+    Cloudflare-challenged this product URL, so everything was read from revive-light-therapy.com, the
+    second live domain discovered on the Lux Spot page; the page discloses that. Self-verified in the
+    main loop, assurance sonnet, force-published. TOOLING FIX this tick: source_cache.py stored raw HTML
+    while its own docstring promised TEXT, so a quote spanning a tag ("97.4%</p><p>saw visible improvement")
+    failed verification against the cache. That is a false-negative generator pointed straight at the
+    critics step, and it would make a correct quote look wrong. Added `get <url> --text`, which strips
+    markup and collapses whitespace while preserving any ld+json block, and pointed the playbook at it.
+    Verified: all four spot-checked quotes now match with a plain grep where they previously returned
+    zero.'
+revive-light-therapy-lux-spot:
+  last_reviewed: '2026-10-18'
+  note: 'The queue item was named "reVive Light Therapy poof! Acne Treatment" and its note said to resolve
+    the FDA 510(k) from the free openFDA API first and to say so plainly if no clearance matched. Both
+    halves resolved against the queue note. (1) IDENTITY: the poof! URL now serves a page titled Lux Spot,
+    the third reVive retail-name mismatch this site has hit, so the page ships under the verified name
+    with poof! kept as an alias. (2) CLEARANCE: openFDA returns 15 LED Technologies 510(k) records and
+    none is named Lux Spot or poof. dpl SpotLite (K183118) is the nearest spot-format device from the
+    same firm but identity CANNOT be confirmed, and the page says so instead of assuming it. Worth recording:
+    all 15 are 510(k) Summaries, not Statements, so this firm discloses what it submits (same as NuFACE,
+    opposite of FOREO at 8-of-10 Statements); the gap here is name-to-file matching, not withholding.
+    (3) CLAIM READING: the brand says "clinically tested blue and red LED light therapy", which attaches
+    to the MODALITY and not to the device. That is narrower than it sounds and defensible as written,
+    and the page credits it rather than treating it as a violation. Price $39.00 read from the page own
+    schema.org Product markup. 21 quoted strings checked against the local cache; the 3 non-matches are
+    a product name and two quotes from the PubMed GRADE review already verified on home-led-light-therapy.
+    ZERO Apify spend: brand page by plain curl, clearances by free openFDA. Self-verified in the main
+    loop, assurance sonnet, force-published. Also corrected data/brands/revive-light-therapy.md, which
+    said the live storefront was ledtechnologies.com alone; revive-light-therapy.com is a second live
+    domain serving the product photography, and the brand page now records the retail-name drift too.'
 revive-light-therapy-wrinkle-and-acne-led-device:
   last_reviewed: '2026-10-13'
   note: 'Sourced primarily from the FULL FDA 510(k) clearance package for K223482 (clearance letter, Indications
@@ -10845,6 +11487,26 @@ stein-gold-2019-topical-minocycline-foam:
     '
   score: 9
   verdict: revise-then-fixed
+stephen-alain-ko:
+  last_reviewed: '2026-10-20'
+  note: 'Lean person card, 138 words of body, inside the 150 cap. TWO CORRECTIONS TO THE QUEUE ITEM, both
+    found by checking rather than trusting it. (1) THE QUEUE CALLED HIM A COSMETIC CHEMIST. The roster
+    does not: it records "Skincare educator" at MED tier. And his own site does not either. Its page title
+    reads "I''m a skincare and cosmetic formulator", which is what the card quotes. No chemistry degree,
+    professional body registration or employer was located, so the card presents the formulator description
+    as HIS OWN statement and says plainly that he is not a dermatologist. Writing "cosmetic chemist" because
+    the queue said so would have been an unverified claim about a living person, and the queue item itself
+    was the only source for it. (2) THE QUEUE SAID 6 CARDED VIDEOS. There are 6 CARD INSTANCES but only
+    TWO distinct videos, both recordings of 2018 Instagram Lives, spread across five ingredient pages.
+    The card says two, not six. An inflated count would have overstated how much of this site his work
+    actually backs. Also surfaced something no other person card has had to: these are the OLDEST creator
+    recordings on the site by a wide margin, and the card warns that they predate several reformulations
+    of the products discussed. That is a real caveat for a reader clicking a 2018 Instagram Live from
+    an ingredient page. Source cached (kindofstephen.com is unknown-class) and the self-description re-verified
+    against the local cache, so the single load-bearing quote survives even if the site changes. sk verify
+    flags the domain as non-primary, which is correct and expected. ZERO Apify spend. Also noted the next
+    gap: Aleksandra Brown at 9 carded videos, with an instruction to verify via the NPI registry rather
+    than the roster string. Self-verified in the main loop, assurance sonnet, force-published.'
 stretch-marks:
   last_reviewed: '2026-08-21'
   note: 'GOAL cron: stretch-marks (striae) discovery hub, tight prose + a 3-item evidence tier_list (the
@@ -10980,6 +11642,32 @@ supergoop-unseen-sunscreen-spf-50:
     '
   score: 9
   verdict: revise-then-fixed
+sweet-almond-oil:
+  last_reviewed: '2026-10-20'
+  note: 'tier: weak. The queue gave only an incidecoder URL, which is an aggregator and not citable as
+    a footnote here, so the page was built from two PubMed sources instead. THE FINDING, and it is a species
+    error waiting to happen. The one specific clinical claim people attach to almond oil is stretch marks,
+    and PMID 25255817 actually says "limited evidence that centella, and possibly massage with BITTER
+    almond oil, may prevent SG". Bitter almond is Prunus amygdalus amara; sweet almond, the cosmetic ingredient,
+    is Prunus amygdalus dulcis. Different plant. Had I skimmed I would have written that almond oil has
+    limited evidence for stretch marks, which would have been wrong, so the page states the distinction
+    in its lead quote block and the footnote records that it was read from the review wording rather than
+    inferred. The review also credits MASSAGE WITH the oil rather than the oil alone, which the page preserves.
+    SECOND FINDING, the third instance of this pattern in a week. The only synthesis arguing sweet almond
+    oil is an ACTIVE ingredient is PMID 34957578, and PubMed lists the single affiliation for BOTH authors
+    as "Research & Development and Regulatory Affairs, Kneipp GmbH", a natural-cosmetics company, with
+    no conflict statement recorded. Its stated purpose is commercial in its own words, treating oils as
+    actives rather than natural claims because that "aids both innovation and development". And it concedes
+    "discrepancies in the literature and questionable study designs" while asserting the benefit anyway.
+    That concession is what sets the tier: the friendliest available source admits the evidence is poor.
+    This one is a NEW flavour of the manufacturer-authorship pattern, so I noted it onto the queued unusable-studies
+    list: unlike Karimi, Amin and Wang it is not missing data, it argues a commercial conclusion the cited
+    evidence does not support. RESTRAINT: sweet almond is a tree nut and no source consulted quantifies
+    topical reaction risk in nut-allergic people, so the page gives no figure and routes to a clinician.
+    Also caught myself putting unsourced marketing phrases (nourishing, nutrient-rich) in quotation marks,
+    where they would read as sourced; reworded so no quote marks appear on wording I did not fetch. Occlusion
+    mechanics deliberately NOT re-explained; linked to mineral-oil and squalane. ZERO Apify spend; PubMed
+    only. Self-verified in the main loop, assurance sonnet, force-published.'
 synalar-fluocinolone-acetonide:
   last_reviewed: '2026-09-13'
   note: 'Rx product: Synalar (fluocinolone acetonide 0.025% cream/ointment, 0.01% solution), low-to-medium
@@ -12839,719 +13527,3 @@ zoryve-roflumilast-foam:
     No dashes. Opus critic inline (workflow pipeline); assurance opus.'
   score: 9
   verdict: publish
-revive-light-therapy-lux-spot:
-  last_reviewed: '2026-10-18'
-  note: 'The queue item was named "reVive Light Therapy poof! Acne Treatment" and its note said to resolve
-    the FDA 510(k) from the free openFDA API first and to say so plainly if no clearance matched. Both
-    halves resolved against the queue note. (1) IDENTITY: the poof! URL now serves a page titled Lux Spot,
-    the third reVive retail-name mismatch this site has hit, so the page ships under the verified name
-    with poof! kept as an alias. (2) CLEARANCE: openFDA returns 15 LED Technologies 510(k) records and
-    none is named Lux Spot or poof. dpl SpotLite (K183118) is the nearest spot-format device from the same
-    firm but identity CANNOT be confirmed, and the page says so instead of assuming it. Worth recording:
-    all 15 are 510(k) Summaries, not Statements, so this firm discloses what it submits (same as NuFACE,
-    opposite of FOREO at 8-of-10 Statements); the gap here is name-to-file matching, not withholding.
-    (3) CLAIM READING: the brand says "clinically tested blue and red LED light therapy", which attaches
-    to the MODALITY and not to the device. That is narrower than it sounds and defensible as written, and
-    the page credits it rather than treating it as a violation. Price $39.00 read from the page own
-    schema.org Product markup. 21 quoted strings checked against the local cache; the 3 non-matches are
-    a product name and two quotes from the PubMed GRADE review already verified on home-led-light-therapy.
-    ZERO Apify spend: brand page by plain curl, clearances by free openFDA. Self-verified in the main
-    loop, assurance sonnet, force-published. Also corrected data/brands/revive-light-therapy.md, which
-    said the live storefront was ledtechnologies.com alone; revive-light-therapy.com is a second live
-    domain serving the product photography, and the brand page now records the retail-name drift too.'
-revive-light-therapy-lux-glo:
-  last_reviewed: '2026-10-18'
-  note: 'The queue note asked for the wavelengths first, because the home-device ladder turns on blue-red
-    (Level B) vs red-only (Level C). Answered: the brand states "Red, infrared, amber, and blue light" with
-    a "Primary wavelength range" of 415 to 880 nm, so blue plus red is present and the Level B pairing
-    applies. No per-color peak is published, which the page says plainly rather than inferring one.
-    Clearance: as the queue note predicted, none of the 15 LED Technologies 510(k) records is named Lux.
-    THE REAL FINDING is the two percentages on the page. 97.4% and 100% both resolve to one asterisk whose
-    entire disclosure is "Consumer study of participants ages" 39 to 66 plus "Individual results may vary."
-    No n, no control, no measure beyond self-report. Worse, the 100% figure sits under an anti-acne label
-    while the participants were 39 to 66, an age band in which inflammatory acne is uncommon. Also noted
-    the wording escalation within one page: the product text says "clinically tested" (modality-scoped and
-    defensible, same as Lux Spot) while the line-level copy says "clinically proven LED wavelengths with
-    higher optical output energy", with no output figure anywhere. Price $79.00 verified from the displayed
-    string AND the page structured data (7900 cents, USD); sibling prices from the brand own comparison
-    table. 32 quoted strings verified verbatim against the local cache; 3 reported misses were the known
-    adjacent-quote artifact plus the Cloudflare title observed directly. ZERO Apify spend. ledtechnologies.com
-    Cloudflare-challenged this product URL, so everything was read from revive-light-therapy.com, the second
-    live domain discovered on the Lux Spot page; the page discloses that. Self-verified in the main loop,
-    assurance sonnet, force-published.
-    TOOLING FIX this tick: source_cache.py stored raw HTML while its own docstring promised TEXT, so a quote
-    spanning a tag ("97.4%</p><p>saw visible improvement") failed verification against the cache. That is a
-    false-negative generator pointed straight at the critics step, and it would make a correct quote look
-    wrong. Added `get <url> --text`, which strips markup and collapses whitespace while preserving any
-    ld+json block, and pointed the playbook at it. Verified: all four spot-checked quotes now match with a
-    plain grep where they previously returned zero.'
-heydari-2025-oral-vs-topical-tranexamic-acid-melasma:
-  last_reviewed: '2026-10-18'
-  note: 'Compact study page per the study scope. All numbers taken from the PubMed abstract via efetch
-    (primary); 23 quoted strings verified verbatim, 0 substantive mismatches. TWO findings worth keeping.
-    (1) THE INFERENTIAL ERROR: the trial has 25 patients per arm, found MASI reductions of 58.86% oral vs
-    50.88% topical, and reports the difference as insignificant, which the authors read as the routes being
-    interchangeable. That is not what it shows. A trial this small cannot detect an 8-point gap, so
-    insignificant means undetermined, not equal; a non-inferiority claim needs a pre-specified margin and a
-    much larger n. The page says that plainly. Compounding it: there is NO placebo or vehicle arm, so
-    neither percentage can be separated from sun avoidance, seasonal change, regression to the mean, or the
-    cream base. (2) THE AUTHOR NAME IS WRONG IN THE PUBMED RECORD. The PubMed entry flagged an erratum with
-    no abstract text, so what changed was not stated. Resolved the erratum PMID properly via esearch on the
-    DOI (after a first attempt where I GUESSED two PMIDs and got an unrelated geriatrics paper, which is
-    exactly why guessing identifiers is not allowed), then read the correction full text from PMC: the
-    first author is Heydari, not Heidary, and the department is Clinical Pharmacy, not Pharmaceutics. NO
-    data was amended, so every figure stands. The page is slugged and cited as Heydari with Heidary kept as
-    an alias, since the live PubMed citation still shows the superseded spelling and anyone copying it
-    inherits the error. Also noted the abstract claims low side effects while reporting no adverse-event
-    table and no thromboembolic screening, which is the safety question that matters for a systemic
-    antifibrinolytic. ZERO Apify spend; PubMed and PMC only, both durable primaries, so no source caching
-    was required. Self-verified in the main loop, assurance sonnet, force-published.'
-acne-scar-procedures-by-evidence:
-  last_reviewed: '2026-10-18'
-  note: 'Built the ranking four separate pages had each declined to host. Spine is PMID 41081097 (Wu 2025,
-    PeerJ, Bayesian NMA, 68 RCTs, 4,480 patients, PROSPERO CRD42024598780); all five figures in the queue
-    note verified verbatim against the PubMed abstract via efetch, 0 mismatches.
-    THE FINDING that organises the list: every top-ranked option is a COMBINATION built on laser, and no
-    monotherapy ranked best on any severity scale. So a reader looking for the single best procedure does
-    not get one from this evidence, and the list says so rather than promoting the strongest-sounding
-    component. Second finding: the ranks differ sharply in certainty. Laser plus PRP led ECCA at SUCRA
-    98.4%, but laser plus filler led the Goodman and Baron Scale at only 72.1%, which is weak separation
-    from the field; calling both best would flatten a real difference, so the notes state each SUCRA.
-    Third: nothing reduced erythema or post-inflammatory hyperpigmentation risk, which matters most in
-    deeper skin tones and is therefore NOT a basis for choosing between procedures.
-    RESTRAINT EXERCISED, deliberately. (a) The abstract names only the WINNER per outcome, so subcision
-    cannot be ranked from it either way; the page says that instead of inferring a low rank from silence.
-    (b) The abstract says laser without naming the modality, so the fractional-CO2 note explicitly declines
-    to claim that fractional CO2 is the laser that won. (c) The two combination winners involving chemical
-    peels and fillers could not be listed at all, because no such pages exist; both are now queued and the
-    gap is named in the review rather than hidden. Added one inbound link from the acne-scars hub.
-    ZERO Apify spend; PubMed only, a durable primary, so no source caching was required.
-    TOOLING FIX: the recurring YAML-colon bug hit a THIRD file today (a tier_list note containing
-    "COMBINATION: PRP"), and sk lint/style/verify responded with a ~60-frame PyYAML traceback whose only
-    useful line was the last one. Added _load_post(), which catches YAMLError and prints the problem, a
-    three-line window around the mark, and the fix. Proved it by reintroducing the real bug: four readable
-    lines, offending line first. Earlier today the same class broke data/queues/products.yaml (fixed with
-    sk queue-note) and would have broken the roster (fixed with JSON scalars in sk roster-set).
-    Self-verified in the main loop, assurance sonnet, force-published.'
-azathioprine:
-  last_reviewed: '2026-10-18'
-  note: 'Full ingredient page for an ORAL systemic immunosuppressant, framed up front as not a skincare
-    ingredient. tier: mid, argued explicitly rather than asserted. Not weak, because one double-blind
-    placebo-controlled crossover trial (Berth-Jones 2002, PMID 12174106) found SASSAD down 26% vs 3% on
-    placebo; not good or best, because the effect is modest, 16 of 37 patients withdrew, and a 2026
-    head-to-head (PMID 41239194) had it reach EASI 75 in 15% against 65% for baricitinib.
-    THE REGULATORY FACT the page leads on: atopic dermatitis appears NOWHERE in the Imuran label
-    Indications section, which lists only renal transplant rejection and active rheumatoid arthritis, so
-    all dermatologic use is off-label. Boxed MALIGNANCY warning quoted verbatim, plus the TPMT/NUDT15
-    myelosuppression risk. All from DailyMed SPL, a durable primary.
-    I CAUGHT A FABRICATION IN MY OWN DRAFT. An earlier extraction truncated mid-sentence at "require
-    alte" and I completed it as "require alternate dosing". The label actually says "require alternative
-    therapy or dose modification". I had invented a plausible ending to a truncated quote, which is the
-    exact failure the three rules forbid, and only the verbatim check caught it. Corrected in BOTH the body
-    and the footnote, per the earlier lesson that fixing a body quote while leaving its footnote copy is a
-    silent inaccuracy. Final check: 31 quotes, 0 misses.
-    A SECOND BUG, in my verification, nearly buried the first. My ad-hoc checker ran an HTML tag-stripper
-    over PubMed PLAIN TEXT, where "P < 0.01" opens a bogus tag match that swallows everything to the next
-    ">". It reported 20 false mismatches, among which the one REAL error was hiding. A checker that cries
-    wolf is worse than none, because the instinct is then to trust the draft. Fixed the method and hardened
-    source_cache.as_text() with the same lesson: its tag regex now requires a tag to start with a letter,
-    slash, bang or question mark, so scientific prose survives. Added a regression test proving the
-    sentence survives and script bodies still go.
-    RESTRAINT: the 2024 living NMA (PMID 39018058, 97 trials, 24,679 patients) does not report
-    azathioprine''s rank in its abstract, so the page states no rank for it and says why. Its erratum was
-    not read, which the footnote discloses. The editorial on the 2026 trial (PMID 41467349) has no
-    abstract, so its content is not characterized. The azathioprine dose range in the 2026 abstract is
-    corrupted by the plain-text dash rendering, so no dose is quoted from that trial.
-    ZERO Apify spend; DailyMed and PubMed only. Self-verified in the main loop, assurance sonnet,
-    force-published. The no-marketing-claims-section WARN matches the existing convention on sibling Rx
-    ingredient pages such as upadacitinib, so it was left as is.'
-revive-light-therapy-led-cleansing-system:
-  last_reviewed: '2026-10-18'
-  note: 'The queue item asked one question and it is now ANSWERED. Both 510(k) summaries were pulled from
-    accessdata and read in full (free, primary). K180445 and K180447 each state, in identical words, that
-    "The conclusions drawn from nonclinical tests demonstrate that the device is safe, as effective, and
-    performs as well as the legally marketed devices." That same sentence appears at every generation of
-    the chain the site has examined (K223482, then K210965/K210968, then these two), so the ENTIRE reVive
-    line traces to no clinical data at any level. That completes the finding opened on
-    revive-light-therapy-essentials.
-    Second finding, the same structure as Essentials: ONE trade name, TWO clearances, opposite purposes.
-    K180447 is acne (630nm red plus 415nm blue, product code OLP); K180445 is wrinkles (605nm amber, 630nm
-    red, 660nm red, 880nm infrared, no blue at all, product code OHS). The acne/wrinkle split is exactly
-    the fact that decides which GRADE row applies, and the box name cannot tell you which you have.
-    Two details worth keeping, both to the firm''s credit for publishing them: thermal testing shows the
-    device stays under 41C after 30 minutes of continuous use, 10 times the 3-minute treatment time; and a
-    self-selection study was explicitly NOT conducted because the box labeling matched the predicate, so
-    nobody tested whether a shopper could judge the device suitable for themselves. Biocompatibility is a
-    read-across from the dpl Nuve ABS handle, now queued as the oldest link in the chain.
-    ABSENCE CLAIM HANDLED CAREFULLY (the recurring error class): the shop-all page contains the string
-    "cleansing system" exactly once, and I checked the context before asserting anything. It is generic
-    category prose about "sonic cleansing systems", NOT a product name. So the page says no product tile
-    carries the cleared name, which is what was actually verified, and explicitly declines to claim a
-    Soniqué IS this device renamed.
-    TWO SELF-CORRECTIONS before publish. (a) I had invented a frontmatter key, price_unresolvable; no other
-    page uses it and no script reads it, so it was dead metadata inventing a convention. Removed; the point
-    lives in prose instead. (b) A quote looked truncated at "415nm" because the sentence spans a PDF page
-    break. Rather than patch around it I re-extracted without -layout, confirmed it continues "blue.", and
-    now quote the full sentence while disclosing the page break in the footnote. Final check: 31 quotes
-    verified against the two PDFs and the cached shop page, 0 substantive misses.
-    Cross-feed used the new sk queue-note to attach VERIFIED prices (Lux Panel 399, Lux Clinical 199, Lux
-    Soniqué 199, Soniqué Mini 129, Lux Lip Care 99) to items already queued, rather than adding duplicate
-    entries. ZERO Apify spend; FDA PDFs, openFDA and one brand page by curl. Self-verified in the main
-    loop, assurance sonnet, force-published.'
-nuface:
-  last_reviewed: '2026-10-18'
-  note: 'Lean brand card, 131 words of body, inside the 180-word cap. Its job is to link to products and
-    to carry one structural fact, which it does.
-    CORRECTED THE QUEUE NOTE: it said NuFACE is applicant on "at least 7" clearances and listed 7 K-numbers.
-    The openFDA query returns 14, total reported 14, spanning 2007-11-27 to 2024-06-27. All 14 are 510(k)
-    Summaries, which confirms the structural point the queue asked for and strengthens it. Every K-number
-    and device name is enumerated in the footnote so the count is checkable rather than asserted.
-    DELIBERATELY OMITTED THE FOUNDER. The playbook allows a founder line "if verifiable" and the queue name
-    was "NuFACE (Carol Cole Company)". The only primary evidence I had was the openFDA applicant string,
-    which establishes a CORPORATE name, not that any individual founded the company. Rather than spend
-    fetches or assert it, the page states the verifiable fact (FDA applicant of record is the Carol Cole
-    Company, trading as NuFACE) and the footnote says explicitly that no claim is made about any
-    individual. The never-state-an-unverified-claim-about-a-living-person rule outranks a nice-to-have
-    biography line.
-    ZERO Apify spend; openFDA only, a durable primary, so no source caching required and sk verify is clean
-    with no manual-verification warnings. Self-verified in the main loop, assurance sonnet, force-published.'
-molluscum-contagiosum:
-  last_reviewed: '2026-10-18'
-  note: 'Condition hub with a real tier_list, built entirely from free primaries (one PubMed abstract plus
-    two FDA labels). 23 quotes verified verbatim, 0 misses.
-    THE FINDING: the treatment ranked highest in the 2026 pediatric network meta-analysis is salicylic acid
-    plus lactic acid 16.7% (RR 3.16, SUCRA 86.0%), a cheap keratolytic combination, NOT either of the two
-    drugs the FDA approved for this condition. Second is cantharidin 0.7%, which is exactly YCANTH strength.
-    SECOND FINDING, read straight off the label: ZELSUVMI (berdazimer), the newest and only at-home option,
-    ran THREE vehicle-controlled trials and only ONE excluded no effect at week 12 (32.4 vs 19.7, CI 7.1 to
-    18.6; then 30.0 vs 20.3, CI -0.04 to 18.4; then 26 vs 22, CI -5 to 14). The convenient option has the
-    weakest and least consistent evidence, and that is on its own FDA label. By contrast YCANTH, which a
-    clinician applies, cleared placebo decisively in both of its trials (46 vs 18 and 54 vs 13).
-    THIRD: the vehicle arms are the context everything else should be read against. 19.7%, 20.3% and 22% of
-    children cleared on vehicle alone within 12 weeks, so a large share of any apparent success is clearance
-    that was going to happen anyway. The How-to-know section says plainly that waiting is a real option to
-    discuss with a clinician.
-    RESTRAINT: (a) the tier_list grades ONLY the two actives that have pages here and says so in its by:
-    axis, rather than inventing slugs for potassium hydroxide or the two branded drugs; both are queued.
-    (b) The NMA abstract reports no rank for berdazimer, so none is stated. (c) Its highest-ranked entries
-    overall were single-study and the analysis itself says they require validation, so they are excluded
-    from the list and only mentioned as unvalidated. (d) The How-to-know section deliberately does NOT give
-    self-diagnosis criteria beyond the obvious, because the labels carry no clinical description and I did
-    not have a dermatology primary for one; it routes to a clinician instead.
-    TOOLING PAYOFF: the YAML frontmatter broke once on the recurring colon bug ("placebo arms do: in the
-    berdazimer"), and the _load_post error handler added earlier today named the exact line and cause in
-    four lines instead of a 60-frame traceback. Fixed in one pass, then ran a pre-flight scan for other
-    colon-bearing values (0 found). Also caught one quote that dropped a trademark symbol from the ZELSUVMI
-    indication sentence; re-cut the quote to start after the trade name rather than silently altering label
-    text. ZERO Apify spend. Self-verified in the main loop, assurance sonnet, force-published.'
-chemical-peels-acne-scars:
-  last_reviewed: '2026-10-18'
-  note: 'Filled the gap the acne-scar-procedures-by-evidence list named as its own biggest hole. 25 quotes
-    verified verbatim against three PubMed abstracts, 0 misses. Built entirely from free primaries.
-    THE FINDING is a genuine disagreement in the literature, and the page leads on it rather than picking
-    the flattering side. Li 2024 (24 studies, 1546 participants) has microneedling plus chemical peels best
-    on degree of improvement, patient satisfaction AND treatment efficacy. Wu 2025 (68 RCTs, 4480 patients)
-    has laser plus chemical peels best for patient satisfaction, SUCRA 89.6%. But Liu 2026, which
-    deliberately restricted itself to records with verifiable source tables so its numbers could be
-    reproduced, found only 9 RCTs in a sparse network, measured microneedling plus peel at SMD -0.14 with a
-    CI of -1.34 to 1.07, and states outright that "a reliable treatment ranking does not currently exist"
-    with CINeMA confidence low or very low. The queue note had asked me to resolve which peel agents and
-    depths; the honest answer is that NONE of the three abstracts names an agent or a depth, so the page
-    says so instead of supplying a plausible acid. That is the question readers actually have.
-    FAIRNESS TO THE DISSENTER BOTH WAYS: Liu 2026 discloses that it did not search Embase, CENTRAL, Web of
-    Science, Scopus or the registries, so the page presents it as a reproducibility check on the larger
-    analyses rather than as superseding them. Quoting its blunt verdict without its own stated narrowness
-    would have been the mirror-image error of quoting the two optimistic rankings alone.
-    Also carried: all three analyses agree side effects did not differ significantly between treatments,
-    which the page is careful to distinguish from an absence of risk, since post-inflammatory
-    hyperpigmentation after a peel matters most in deeper skin tones. And Liu notes no included trial
-    reported effects by scar morphology, so the icepick/rolling/boxcar question is unanswered.
-    tier_list grades the two PARTNER procedures that have pages (microneedling, fractional CO2), with the
-    by: axis naming the peel as the constant, and both capped at good rather than best precisely because
-    the ranking is disputed. The tier_labels string says so.
-    STALE CLAIM FIXED: acne-scar-procedures-by-evidence said the peel winner could not be listed because no
-    page existed. That is no longer true, so it now links here. Leaving it would have been a silent
-    inaccuracy of the same kind as correcting a body quote and not its footnote.
-    ZERO Apify spend. Self-verified in the main loop, assurance sonnet, force-published.'
-foreo-faq-led-masks:
-  last_reviewed: '2026-10-18'
-  note: 'The queue note sent me to K242747 because it is one of only two FOREO clearances filed as a
-    Summary, expecting it to be the one FAQ file that describes predicate and testing for the LED mask
-    line. It IS the only readable FAQ file, and reading it produced a better finding than expected: the
-    FAQ 302 is a HAIR-GROWTH device for androgenetic alopecia, built on 20 laser diodes at 650 plus or
-    minus 10nm and 20 red LEDs, with predicates K210169 and HairMax LaserComb 41. Its own section 8 reads
-    "Clinical testing was considered not to be needed for this 510(k)". So the single FAQ device whose file
-    you can read is not a face mask, and it was cleared on nonclinical testing. Every FACIAL FAQ clearance
-    (K222012, K240378, K240616, K253683) is a Statement and publishes nothing about testing.
-    THE GRADE TURNS ON ONE WORD. K253683 cleared the acne mode as blue plus INFRARED. The pairing the 2026
-    GRADE review grades at Level B is blue plus RED. Infrared is not red, the review does not grade that
-    combination, and nothing else consulted does either, so the acne grade here is effect:minimal rather
-    than the modest the other blue-red devices on this site earned. A device cannot inherit a grade for a
-    combination it does not emit. This is the sharpest single distinction drawn in the device cluster so
-    far, and it came from reading the Indications sheet rather than the marketing.
-    CAREFUL HANDLING: (a) K222012 was also fetched and its text layer yielded NO extractable Indications
-    wording, so no indication is attributed to it; the quoted facial indication is attributed to K253683
-    alone rather than assumed to cover the whole line. (b) The FAQ 302 indication restricts use by
-    Hamilton-Norwood and Ludwig-Savin severity grades and to Fitzpatrick phototypes I to IV, but the PDF
-    text layer renders Roman numerals ambiguously ("Ila" for "IIa"), so those grades are reported in words
-    and NOT quoted verbatim, with the reason stated in the footnote. The phototype restriction is itself
-    worth surfacing: deeper phototypes are outside what that device was cleared for. (c) No price: the
-    brand URL tried returned a 404 and no metered call was spent hunting for another, which the page says
-    plainly. (d) Credit given for what the one open file does well, since it is a real engineering document
-    with named predicates and ISO/IEC testing; the criticism is that it is not a clinical result, which the
-    file itself states.
-    Also linked the new page from the FOREO brand page. ZERO Apify spend; openFDA plus three FDA PDFs.
-    18 substantive quotes verified verbatim, 0 misses. Self-verified in the main loop, assurance sonnet,
-    force-published.'
-newa-skin-therapy-system:
-  last_reviewed: '2026-10-19'
-  note: 'The queue item was deliberately filed with identity UNRESOLVED and told me to resolve a real
-    cleared device from openFDA before drafting, rejecting outright if nothing matched. Resolved: searching
-    device_name for radiofrequency returned 55 records, all professional or surgical, so I went at it by
-    applicant and found DEN150005, the EndyMed NEWA. It is a DE NOVO, not a 510(k), and that is the finding.
-    WHY IT MATTERS: the De Novo created the entire category. New generic type "Electrosurgical device for
-    over-the-counter aesthetic use", new regulation 21 CFR 878.4420, Class II, product code PAY. Querying
-    that product code returns 12 devices, so this one grant is the regulatory ancestor of every home RF
-    device now sold, and it is the only one reviewed on its own clinical evidence rather than by
-    substantial equivalence. That fills the empty RF rung the queue note was chasing.
-    THE SKEPTICAL READ, which is the page''s core: the clinical study is real and FDA-reviewed, 69 enrolled
-    and 62 completing, three independent dermatologists scoring the Fitzpatrick Wrinkle Severity Scale,
-    95.16% success at four weeks and 100% at three months against a pre-specified 75% bar. But the words
-    sham, randomized, split-face, single-arm and open-label appear NOWHERE in the decision summary, which
-    describes only a prospective single-center study. There is no control arm. A one-grade photographic
-    threshold with no control is exactly the design that produces a 100% success rate, and the page says
-    so rather than reporting 100% as an achievement. Graded effect:modest, evidence:preliminary, while
-    acknowledging this is still the best-documented home device on the site.
-    Also surfaced and carried: the indication is adult WOMEN only and Fitzpatrick I to IV only, so deeper
-    skin tones are outside it; FDA added a follicular-burn warning after finding no facial-hair data; and
-    the category''s special controls require a label-comprehension and self-selection study, which this
-    device passed and which foreo-faq-led-masks explicitly did not conduct.
-    CORRECTED YESTERDAY''S FOREO PAGE. The PAY query showed K222012 (FAQ 101) and K240616 (FAQ 102) are
-    classified under the OTC RADIOFREQUENCY code, not an LED code, so calling the FAQ line "its LED range"
-    was wrong. Fixed with a new sourced footnote. Careful about the limit of the evidence: a product code
-    records the classification FDA assigned, so the page states those two are CLASSIFIED as OTC RF devices
-    and explicitly does NOT claim they contain no LEDs, since the Statement filings publish no emitter list.
-    TWO QUOTE DEFECTS CAUGHT BY THE CHECK: (a) I had put my own paraphrase in quotation marks, where it
-    read as a source quote; unquoted now. (b) A quoted regulation number omitted the section sign the PDF
-    prints, so it is reported rather than quoted. Also extended the verbatim normalizer to fold U+2010
-    HYPHEN, which FDA PDFs use in "Non-clinical" and which had made a faithful quote look like a mismatch.
-    Final: 30 substantive quotes verified, 0 misses. ZERO Apify spend; openFDA plus one FDA PDF. No price,
-    stated plainly. Self-verified in the main loop, assurance sonnet, force-published.'
-lotrimin-ultra-athletes-foot-cream:
-  last_reviewed: '2026-10-19'
-  note: 'The queue called this "mostly assembly" since the butenafine page already carries the Drug Facts,
-    and the page respects that by linking out rather than re-running the pharmacology. 36 substantive
-    quotes verified verbatim against the DailyMed SPL, 0 misses.
-    THE ANGLE, exactly as the queue predicted: this is genuinely FDA-APPROVED, not monograph-accepted. I
-    checked the SPL marketing-category code rather than trusting the queue note, per the standing rule, and
-    it reads C73594 displayName NDA with application NDA021307. So "FDA-approved" is earned here, which is
-    rare on this site.
-    THE BETTER FINDING is the label''s own admission. Immediately after "cures most athlete''s foot between
-    the toes" it says "Effectiveness on the bottom or sides of foot is unknown." A manufacturer volunteering
-    a gap in its own evidence, in the Uses section where buyers look, is worth more than any marketing
-    claim. The moccasin pattern is common, so the page grades that use as effect:none / evidence:anecdotal
-    and routes to a clinician rather than leaving a reader to assume coverage.
-    PACKAGE-SIZE TRAP AVOIDED. The printed display panel shows only the 12 g tube, but the structured
-    package quantities list 12 g, 15 g AND 30 g. The page takes the sizes from the structured listings and
-    the footnote states why, which is the lesson recorded from the earlier How-Supplied mistake.
-    PHOTO: the queue suggested DailyMed media before anything metered. Checked, and this SPL has an EMPTY
-    media list; inci_lookup then returned MISS, which is expected for an OTC drug rather than a cosmetic.
-    Marked image_unresolvable with both attempts named. ZERO Apify spend, no gate call needed.
-    Cross-feed: Lamisil AT and the regulatory-footing list added; a moccasin-pattern MAINTENANCE item filed
-    against the existing athletes-foot page rather than as a duplicate hub; and the Lotrimin AF entry was
-    ALREADY queued, so the brand-confusion angle went on via sk queue-note instead of a second entry. Both
-    the Lamisil and Lotrimin AF notes say to verify the C-code from the SPL rather than inferring approval
-    status from this page. Self-verified in the main loop, assurance sonnet, force-published.'
-karimi-2025-neurocosmetic-post-procedure-cream:
-  last_reviewed: '2026-10-19'
-  note: 'An UNUSABLE study, recorded deliberately as such. The study scope demands design, n, intervention
-    vs comparator and the primary result WITH NUMBERS. This abstract supplies none of those, so no
-    compliant study page could be written from it and I wrote the negative record instead. That is the
-    useful artifact: without it, a later pass reading "reduced erythema better than the comparator after 3
-    days" could cite this as evidence.
-    WHAT IS ACTUALLY MISSING: no sample size, no age or skin-type distribution, no allocation or blinding,
-    no endpoint, no effect size, no confidence interval, no p-value. Both products are unnamed, the test
-    cream appearing only as "PPC" and the comparator only as "the commonly used anhydrous topical", so the
-    comparison cannot even be identified, let alone reproduced.
-    THE SHARPEST FINDING: PubMed indexes the publication type as Randomized Controlled Trial, while the
-    abstract never states that anyone was randomized and calls itself a pilot study. Anyone filtering
-    PubMed by publication type would pull this in as an RCT. The page leads on that gap.
-    THREE SUPPORTING CAUTIONS, all verifiable: the abstract states an aim of "improving patient retention",
-    a clinic business outcome rather than a clinical endpoint; "neurocosmetic" is marketing vocabulary, not
-    a pharmacological or regulatory class; and the PubMed record carries NO Affiliation elements and NO
-    CoiStatement element, with no PMC full text.
-    RESTRAINT ON THE SPONSORSHIP QUESTION: the author list looked to me like it might include industry
-    R&D staff, and I did NOT say so. PubMed records no affiliations, so sponsorship cannot be assessed
-    either way, and the page says exactly that rather than insinuating. The absences reported are absences
-    in the record as fetched, which the footnote states explicitly so they are not read as claims about the
-    paper''s contents.
-    SELF-CORRECTION in cross-feed: I queued the named laser as "Contour TRL (Cutera ...)", asserting a
-    manufacturer the abstract does not state and that I had not verified, in the very same entry whose note
-    says the maker must be resolved from openFDA first. Renamed to "manufacturer unresolved" with the
-    correction recorded in the entry. ZERO Apify spend; PubMed only. 20 quoted strings verified, the two
-    reported misses being the publication-type values which come from the XML record rather than the
-    abstract text and were confirmed there. Self-verified in the main loop, assurance sonnet,
-    force-published.'
-acne-scar-treatments-by-downtime-and-pain:
-  last_reviewed: '2026-10-19'
-  note: 'A second axis over the same procedures as acne-scar-procedures-by-evidence, and the queue was right
-    that the evidence supports it. All figures verified verbatim against three PubMed abstracts; 24 quoted
-    strings, 0 misses after one fix.
-    THE FINDING, which is the reason this list earns its place: for fractional CO2 versus erbium, the COST
-    is better established than the BENEFIT. CO2 looked better on efficacy (RR 0.69, 95% CI 0.49 to 0.97)
-    but that advantage collapsed to RR 0.76 (95% CI 0.54 to 1.08) in the randomized-only sensitivity
-    analysis, while its pain penalty (MD 1.86, CI 1.33 to 2.39) and downtime penalty (MD 3.67 days, CI 1.90
-    to 5.44) both excluded the null. A reader choosing the more aggressive laser is buying a reliable cost
-    for a probable gain. That asymmetry is stated in the caption rather than buried.
-    HONEST THINNESS: only TWO procedures are graded, microneedling and fractional CO2, because they are the
-    only ones with both a page here and a tolerability finding in the cited sources. chemical-peels,
-    subcision and platelet-rich-plasma all have pages and NO pain or downtime data in any of the three
-    sources, so they are named in the prose as unranked rather than given a guessed bucket. A two-item tier
-    list is thinner than I would like, but padding it with ungraded entries would misrepresent the
-    evidence. The by: axis says so explicitly.
-    SECOND HONEST LIMIT: the needling review synthesized NARRATIVELY because of heterogeneity, so its
-    tolerability conclusions carry no pooled numbers. The page labels them directional instead of quoting
-    them as measurements, and its queue entry warns a future study page not to convert that language into
-    numbers.
-    Also declined to treat the null pigmentation result as reassurance: on 130 participants, OR 1.75 (CI
-    0.67 to 4.57) is undetermined, and the page says that, noting the needling review reached a different
-    conclusion on pigment.
-    QUOTE DEFECT CAUGHT: a body quote truncated the source parenthesis before "; I²=45.9%)" and closed the
-    bracket itself, producing a string that is not contiguous in the source even though the footnote copy
-    was fine. Restored the full span. That is the same class as the earlier body-versus-footnote mismatch.
-    Linked the efficacy list to this one. ZERO Apify spend; PubMed only. Self-verified in the main loop,
-    assurance sonnet, force-published.'
-licochalcone-a:
-  last_reviewed: '2026-10-19'
-  note: 'THE QUEUE ITEM WAS MIS-SOURCED and I did not draft from it as written. It named licochalcone A as
-    the subject but cited PMID 41879202, which is a systematic review of L-CARNITINE. In that paper
-    licochalcone A appears exactly once, as a combination partner in the phrase "particularly when combined
-    with agents like licochalcone-A or salicylic acid". Drafting a licochalcone A rubric off an L-carnitine
-    review would have attributed another ingredient''s evidence to this one. I searched for a real
-    licochalcone A source instead and found PMID 41181588, a 2025 dermatology review of the compound, and
-    used the L-carnitine paper only for the narrow combination point it actually supports, saying so in
-    the footnote.
-    DUPLICATION CHECKED BEFORE WRITING. licorice-root-extract already exists at tier weak, so I read it
-    first: it is named for glabridin and dipotassium glycyrrhizate and does not mention licochalcone A at
-    all. Different constituent, different evidence base (redness rather than pigment), so a separate page
-    is not a re-explanation. Both pages now link to each other, and a maintenance item is queued asking
-    whether INCI labelling even lets a reader tell the constituents apart; if it does not, that absence
-    goes on both pages rather than spawning a third.
-    tier: weak, argued from the review''s OWN verdict rather than my impression: "current research is
-    limited by geographical bias, a lack of high-quality randomized controlled trials, and reliance on
-    preclinical models." The page quotes the optimistic sentence next to it ("Clinical studies have also
-    confirmed...") and notes it names no trial, no sample size and no effect size, so the two are presented
-    together instead of one being used to sell the other. weak here means thin clinical evidence, not
-    disproof, and the page says that.
-    ABSENCE CLAIM HANDLED CAREFULLY. sk inci returned no match for licochalcone across indexed pages, and
-    the tool itself warns that is weaker than "not in the formula". The page says no product here is KNOWN
-    to contain it and repeats the caveat that many product pages publish no full INCI, rather than claiming
-    the catalog lacks it.
-    No marketing copy was quoted because no brand page was fetched and no product on site carries it; the
-    quarantined section says so explicitly rather than being omitted. ZERO Apify spend; PubMed only. 18
-    quoted strings verified verbatim, 0 misses. Self-verified in the main loop, assurance sonnet,
-    force-published.'
-lotrimin-af-antifungal-cream:
-  last_reviewed: '2026-10-19'
-  note: 'The queue predicted a monograph-versus-NDA contrast and told me to verify the code rather than
-    infer it from the sibling page. Verified: the approval element records code C200263, displayName "OTC
-    Monograph Drug", application M005. So Lotrimin AF is NOT FDA-approved while its brandmate Lotrimin
-    Ultra is (C73594, NDA021307). Same brand, same shelf, and the names give no hint which.
-    THE FINDING I DID NOT EXPECT, and the better one: this SKU claims ONLY RINGWORM. Despite the AF in the
-    name, the Uses section lists "cures most ringworm" and nothing else, no athlete''s foot and no jock
-    itch, and the display panel is coded "Lotrimin RW 6549". A shopper reaching for an AF-branded tube can
-    buy a product that makes no athlete''s foot claim.
-    SCOPED CAREFULLY, because this is an absence claim about a product line. The page says the absence is
-    in the Uses section of THIS SPL at NDC 11523-6549 and that other SKUs in the line may be labelled
-    differently; it does not say Lotrimin AF never claims athlete''s foot. A queue item now asks whether a
-    separate athlete''s-foot-labelled clotrimazole SKU exists, explicitly instructing that a NEGATIVE
-    answer is the stronger finding and belongs on the existing pages rather than a new one.
-    Also carried from the label: it is not effective on scalp or nails (its own words), the course is four
-    weeks twice daily against the sibling''s one-week option, the stop rule is no improvement within four
-    weeks, and the age floor is 2 years against the sibling''s 12.
-    PHOTO: the queue hoped for a DailyMed carton image because the Tinactin SPL published one. This SPL''s
-    media list is EMPTY and incidecoder returned MISS, so image_unresolvable records both attempts and the
-    contrast with Tinactin. No metered call.
-    QUOTE DEFECTS CAUGHT: the display-panel quote omitted the registered-trademark symbol the label prints,
-    so it was not a contiguous source string; fixed. A second reported miss, "OTC Monograph Drug", turned
-    out to be a CHECKER artifact rather than a page defect: my tag-stripper deletes attribute values along
-    with tags, and that phrase lives in a displayName attribute. Confirmed present by grepping the SPL
-    directly. Worth remembering, since every DailyMed marketing-category check reads an attribute.
-    ZERO Apify spend. Self-verified in the main loop, assurance sonnet, force-published.'
-proya:
-  last_reviewed: '2026-10-19'
-  note: 'Lean brand card, 146 words of body, inside the 180 cap. Its purpose is narrow and the queue stated
-    it well: the site cites a study authored entirely by this company''s staff, so a reader meeting that
-    study should be able to see who the company is.
-    VERIFIED FROM A DURABLE PRIMARY rather than a corporate website. The PubMed XML record for PMID
-    40952030 contains seven Affiliation elements and ALL SEVEN read "Research & Innovation Center, Proya
-    Cosmetics Co. Ltd, Hangzhou, China." That single fact supports everything the card says about the
-    company, its location and its research unit, so no brand page was fetched and nothing about size,
-    history, ownership or revenue is claimed.
-    NO FOUNDER NAMED, consistently with the foreo and nuface cards: none was verified, and a brand card is
-    not worth an unverified claim about a person.
-    DUPLICATION CAUGHT AND TRIMMED. My first draft restated both the universal Proya affiliation AND the
-    paper''s no-conflict declaration, with my own framing. But wang-2025-encorelane-sensitive-skin already
-    owns that argument and puts it more strongly, calling the declaration a reporting failure. Repeating it
-    on the brand card would have been exactly the redundancy the playbook forbids, so the card now states
-    only the affiliation fact that IDENTIFIES the company and explicitly hands the conflict-of-interest
-    judgment to the study page. That cut it from 152 to 146 words and made it do one job.
-    Also linked the study page back to this card. ZERO Apify spend; one PubMed XML fetch. sk verify is
-    clean with no manual-verification warnings because the only source is PubMed.
-    Cross-feed: the manufacturer-authored-studies list is grounded in a pattern now visible across three
-    pages rather than this one case, and its note warns it must report only what each publication record
-    shows rather than becoming a list of accusations. Saccharide isomerate was already queued.
-    Self-verified in the main loop, assurance sonnet, force-published.'
-atrophic-acne-scar-subtypes:
-  last_reviewed: '2026-10-19'
-  note: 'The routing layer the acne-scar cluster was missing. 17 quotes verified verbatim across three
-    PubMed abstracts, 0 misses.
-    THE FINDING is structural and triple-sourced, which is why the page earns existing rather than being a
-    section on acne-scars. The classification system is the basis clinicians are told to select on: the
-    2026 NMA of 56 RCTs concludes "Treatment selection should consider scar type, Fitzpatrick skin
-    phototype, downtime, pain, adverse-effect risk, and patient preference." But the trials do not record
-    it. The 2019 review built AROUND the icepick/rolling/boxcar scheme reports that "the acne scar type was
-    frequently undefined, making comparison between them difficult", and the 2026 phenotype-focused review
-    found that "No included trial reported treatment effects by scar morphology". So the literature omits
-    the single variable it tells clinicians to use. The page says plainly that no ranking on this site is
-    subtype-specific, which is worth knowing before paying for a course of treatment.
-    I DID NOT WRITE A SELF-DIAGNOSIS GUIDE, and that was the main restraint. The obvious page here
-    describes icepick as narrow and deep, boxcar as wide with sharp edges, rolling as undulating. Those
-    descriptions are textbook, but NONE of the three sources publishes morphological criteria, and the
-    How-to-know section says so explicitly instead of supplying remembered definitions. It gives the reader
-    the question to ask a clinician instead. Writing confident clinical criteria from memory is exactly the
-    failure that produced the "require alternative therapy" fabrication earlier this week.
-    NO tier_list, deliberately, against the playbook preference. A per-subtype grading is precisely what
-    the evidence cannot support, and the page explains why rather than inventing buckets.
-    Only the mechanical claim about rolling scars and tethering is asserted, because subcision exists to
-    release tethers and that page already carries it; everything else routes out.
-    Also resolved the older narrower queue entry for rolling scars, which this supersedes, and linked the
-    page from the acne-scars hub. Cross-feed found the sharpest remaining gap: icepick is the subtype with
-    NO procedure page, so punch excision and elevation are queued. ZERO Apify spend; PubMed only.
-    Self-verified in the main loop, assurance sonnet, force-published.'
-home-fractional-nonablative-laser:
-  last_reviewed: '2026-10-19'
-  note: 'Closed the largest hole in the device ladder: the Level A rung, which home-use-skincare-devices-by-
-    evidence had been pointing at with the words "No page here yet". 23 quotes verified verbatim, 0
-    substantive misses.
-    THE QUEUE ASKED ME to resolve which specific devices sit behind the Level A grade before grading. I
-    could not, and the page says so: the review names NO manufacturer, model or wavelength for any
-    modality. So instead of leaving the gap implicit I resolved what IS resolvable from primary sources and
-    found something better than expected.
-    THE FINDING: the grade and the cleared device do not describe the same thing. The modality grade is for
-    FACIAL REJUVENATION, but the only consumer fractional laser whose FDA file I could read, the Tria FANp
-    (K141868), is cleared for exactly one thing: "the treatment of periorbital wrinkles (crow''s feet)". A
-    1450 nm plus or minus 50 nm diode laser for the skin around the eyes. A reader shopping the top of the
-    ladder is buying a crow''s-feet device.
-    SECOND CAVEAT, stated rather than buried: the Level A label comes from a SCOPING review of PubMed with
-    GRADE applied afterwards, not from a meta-analysis. A scoping review maps a literature rather than
-    pooling it, so Level A produced this way is a weaker artifact than Level A with extractable effect
-    sizes. The page says that while still treating the review as the best overview available.
-    THIRD: product code ONG does not isolate home devices. It holds 35 clearances dominated by in-office
-    platforms (Fraxel, Clear and Brilliant, multiple CO2 systems), so the code cannot be used to find
-    consumer lasers, and a device sitting in it tells you nothing about home use.
-    NO tier_list, deliberately and for the second page in a row. Grading would require either home-laser
-    product pages that do not exist or treating the in-office CO2 page as a home device, which would be the
-    exact error the queue warned against. The page says why instead of inventing buckets.
-    STALE CLAIMS FIXED: home-use-skincare-devices-by-evidence said twice that this modality had no page.
-    Both now point here, one of them carrying the crow''s-feet catch so the ladder itself warns the reader.
-    Also surfaced a safety finding nothing on the site had stated: home microneedling is Level D for
-    rejuvenation AND "associated with infectious complications", which matters because the microneedling
-    page carries a dermatologist video recommending a home stamping device. Queued as a decision about
-    where it belongs rather than a new page.
-    ZERO Apify spend; PubMed, openFDA and one FDA PDF. Self-verified in the main loop, assurance sonnet,
-    force-published.'
-foreo-luna-4-plus:
-  last_reviewed: '2026-10-19'
-  note: 'The queue set this up as a TEST and the test returned a clean answer. It asked whether FOREO
-    filing a 510(k) Summary rather than a Statement changes what can be said about a device. Answer: it
-    changes what a reader can VERIFY, not what the device has been shown to do. The file names three
-    predicates with product codes, gives exact wavelengths, lists the standards, and then heads its own
-    testing section "Non-Clinical Testing:". So disclosure and evidence are separate axes, which is worth
-    knowing for the whole device cluster: eight of ten FOREO clearances publish nothing, and the two that
-    publish turn out to publish a non-clinical basis.
-    THE FINDING a shopper can use: three functions, and the headline one has NO cleared claim. The
-    indications line calls it a "Near-Infrared Heated Cleansing Device" and then indicates only
-    "Microcurrent: indicated for facial stimulation" and "RED+NIR: indicated to treat periorbital
-    wrinkles". Cleansing is in the name and the description and nowhere in the indicated uses. The page
-    grades cleansing as not gradeable because there is no claim.
-    TWO MORE THINGS I GRADED ON RATHER THAN GLOSSED. (1) "facial stimulation" is not a skin outcome; it
-    describes the current, not the skin, so the microcurrent row is effect:none rather than a soft
-    positive. (2) PERIORBITAL ONLY, which is now the SECOND device this week whose wrinkle clearance stops
-    at the eye area (the Tria FANp was the first). That pattern became a queued list, because a reader
-    buying for facial rejuvenation may be buying a crow''s-feet device.
-    Also: no blue light at all (red 630nm and NIR 830nm), so nothing here touches the acne modality, and
-    the stated mechanism is "elevating tissue temperature", i.e. heat.
-    LINEAGE WORTH THE CROSS-LINK: its predicates include K201906, the NuFACE Trinity ELE Plus Pro, from the
-    firm whose 14 clearances are all Summaries. The microcurrent lineage runs through a device this site
-    already grades.
-    Credit given where due rather than only criticising: on this device FOREO showed its work, and the page
-    says so before drawing the conclusion. ZERO Apify spend; one FDA PDF plus openFDA. 31 substantive
-    quotes verified verbatim, 3 reported misses all the known adjacent-quote artifact. Self-verified in the
-    main loop, assurance sonnet, force-published.'
-jack-black-intense-therapy-lip-balm-spf-25:
-  last_reviewed: '2026-10-20'
-  note: 'The queue asked me to resolve a specific SPF lip product from DailyMed before drafting and to check
-    the marketing category. Both done: 158 DailyMed results for lip balm sunscreen, picked the Jack Black
-    SPF 25 Black Tea and Blackberry SKU, and the approval element reads code C200263 "OTC Monograph Drug",
-    application M20. Monograph, not NDA.
-    THE FINDING IS A SET OF ABSENCES, and I verified them by searching the full SPL text rather than
-    inferring from what I happened to extract. The strings "broad", "water resist", "skin cancer", "aging",
-    "reapply" and "every 2 hours" occur ZERO times; "SPF" occurs twice, in the labelling rather than in the
-    Use statement. So the entire sunscreen promise is "Helps prevent sunburn and chapped lips." Under the US
-    monograph the skin-cancer and early-aging claim requires a broad-spectrum SPF 15 or higher designation,
-    and this label carries none. For a product queued BECAUSE chronic UV drives actinic damage on the lips,
-    that gap is the story.
-    SCOPED CAREFULLY so it is not an overclaim: the page says this is about what the LABEL claims, not a
-    measurement of spectral performance, and notes that avobenzone does absorb in the UVA range, so the
-    filters are not the problem. The missing item is the designation that would license the long-term claim.
-    SECOND FINDING worth having: it is a DUAL monograph product. Three actives across two purposes,
-    avobenzone 3.0% and octinoxate 7.5% as Sunscreen plus petrolatum 40.2% as Skin Protectant. The
-    chapped-lips half is the better-supported half, which inverts what the packaging emphasises.
-    RESTRAINT: octinoxate has drawn regulatory attention over absorption and environmental profile in some
-    jurisdictions. The page records the 7.5% figure and explicitly takes NO position on harm, because no
-    source consulted establishes one. Also scoped to this ONE flavour SKU, since Jack Black publishes other
-    flavours under separate setids.
-    ZERO Apify spend; DailyMed only. 17 substantive quotes verified; the 5 flagged by the checker were two
-    attribute-regex artifacts (confirmed directly in the approval element) and three deliberate ABSENCE
-    strings, which of course do not appear in the source because that is the point.
-    Self-verified in the main loop, assurance sonnet, force-published.'
-amin-2025-oral-hyaluronic-acid-meta-analysis:
-  last_reviewed: '2026-10-20'
-  note: 'A meta-analysis of ORAL hyaluronic acid, recorded with cautions rather than as a finding. 17
-    substantive quotes verified verbatim; the 2 flagged misses were the PubMed publication-type values,
-    which come from the XML record rather than the abstract text and were confirmed there.
-    TWO DEFECTS, both quotable. (1) The abstract reports STATISTICAL SIGNIFICANCE with no effect size
-    anywhere: no standardized mean difference, no confidence interval, no participant count, for any
-    outcome. Direction without magnitude is not actionable for a reader deciding whether to take a
-    supplement, and the paper even refers to "the study''s limited sample size" without saying what it was.
-    (2) Three of six outcomes failed, and the abstract describes them as showing "a general trend of
-    improvement". That reads a direction into results the analysis could not distinguish from chance. The
-    page names that move explicitly and tells the reader to treat those three as undetermined, because
-    narrating a null as a near-positive is exactly the pattern a skeptical site exists to catch.
-    THIRD, FOUND BY ME rather than disclosed: the search covered "PubMed and Google Scholar" only. No
-    Embase, no Cochrane CENTRAL, no registries, and no statement that screening was duplicated. That is a
-    thin base for a meta-analysis and the page says so.
-    SCOPE BOUNDARY ENFORCED. This is ORAL hyaluronic acid and the site''s hyaluronic-acid page is topical.
-    The page opens by saying nothing here transfers, and I added a one-line pointer from the topical page
-    that names the distinction and carries the caution, because readers conflate the two and a bare link
-    would have implied endorsement.
-    RESTRAINT: the PubMed record carries NO affiliations and NO conflict statement, so funding cannot be
-    assessed either way; the page says that rather than insinuating. Same handling as the Karimi record.
-    SURFACED A RECURRING DECISION rather than re-deciding it silently for a third time: oral-supplement
-    content has now arrived three times and been handled three ways (recorded with cautions here, a
-    collagen video skipped for having no attachable page, and a standing note deferring non-topical
-    anti-aging to a later phase). Queued as a DECISION item for the user to settle, not an essay to draft.
-    ZERO Apify spend; PubMed only. Self-verified in the main loop, assurance sonnet, force-published.'
-stephen-alain-ko:
-  last_reviewed: '2026-10-20'
-  note: 'Lean person card, 138 words of body, inside the 150 cap. TWO CORRECTIONS TO THE QUEUE ITEM, both
-    found by checking rather than trusting it.
-    (1) THE QUEUE CALLED HIM A COSMETIC CHEMIST. The roster does not: it records "Skincare educator" at MED
-    tier. And his own site does not either. Its page title reads "I''m a skincare and cosmetic formulator",
-    which is what the card quotes. No chemistry degree, professional body registration or employer was
-    located, so the card presents the formulator description as HIS OWN statement and says plainly that he
-    is not a dermatologist. Writing "cosmetic chemist" because the queue said so would have been an
-    unverified claim about a living person, and the queue item itself was the only source for it.
-    (2) THE QUEUE SAID 6 CARDED VIDEOS. There are 6 CARD INSTANCES but only TWO distinct videos, both
-    recordings of 2018 Instagram Lives, spread across five ingredient pages. The card says two, not six.
-    An inflated count would have overstated how much of this site his work actually backs.
-    Also surfaced something no other person card has had to: these are the OLDEST creator recordings on the
-    site by a wide margin, and the card warns that they predate several reformulations of the products
-    discussed. That is a real caveat for a reader clicking a 2018 Instagram Live from an ingredient page.
-    Source cached (kindofstephen.com is unknown-class) and the self-description re-verified against the
-    local cache, so the single load-bearing quote survives even if the site changes. sk verify flags the
-    domain as non-primary, which is correct and expected.
-    ZERO Apify spend. Also noted the next gap: Aleksandra Brown at 9 carded videos, with an instruction to
-    verify via the NPI registry rather than the roster string. Self-verified in the main loop, assurance
-    sonnet, force-published.'
-hair-removal-devices-by-evidence:
-  last_reviewed: '2026-10-20'
-  note: 'Built to fix a LIVE COLLISION the queue identified, and the collision is now fixed at both ends.
-    The device ladder grades home intense pulsed light at Level D and not recommended, but that verdict is
-    FOR ACNE from a review covering acne and rejuvenation only, while the two home IPL products on this site
-    are hair-removal devices. A reader could easily have carried the acne verdict across. The new list
-    opens by saying so, and I also added the caveat to the ladder itself so the warning sits where the
-    Level D line is read.
-    The queue forbade reusing PMID 42545315 and demanded a hair-specific source. Found two, one per side.
-    Professional: PMID 23332016 (Gan 2013) supports alexandrite, diode, Nd:YAG and IPL for long-term
-    removal and calls in-office devices a durable solution. Home: PMID 30681170 (Town 2019) reports
-    published efficacy and safety for home devices plus a catagen-induction mechanism at low fluence.
-    23 quotes verified verbatim, 0 misses.
-    THE FINDING THAT SET THE GRADES is authorship. The warm verdict on home devices comes from a review
-    with THREE of its seven authors listed at Philips Research, no conflict statement recorded, and Philips
-    manufactures one of the two home devices graded. Its only durability figure, 80% persistent reduction
-    at one year, is reported for an UNNAMED appliance. So both home devices sit at mid, and the page states
-    plainly that the 80% cannot be attached to either product and that none of this makes the figure wrong.
-    No allegation about the authors, just the publication record, same handling as the Proya card.
-    The clinic route takes best because its support is independent AND it carries the one actionable
-    skin-tone finding on the page: Nd:YAG for pigmented skin, which no home device offers.
-    HONEST ABOUT WHAT THE RANKING IS: neither source compares the routes directly, so the page says the
-    ordering is a judgement about evidence quality rather than a measured difference in hair reduction, and
-    queued the missing head-to-head.
-    FOUR COLON BUGS in one frontmatter, all caught instantly by the _load_post error handler added earlier
-    this week, which named line 16 and the cause on the first run. Fourth time that fix has paid off. Also
-    cleared a style warning for defensive meta-commentary ("This page grades...").
-    ZERO Apify spend; PubMed only. Self-verified in the main loop, assurance sonnet, force-published.'
-sweet-almond-oil:
-  last_reviewed: '2026-10-20'
-  note: 'tier: weak. The queue gave only an incidecoder URL, which is an aggregator and not citable as a
-    footnote here, so the page was built from two PubMed sources instead.
-    THE FINDING, and it is a species error waiting to happen. The one specific clinical claim people attach
-    to almond oil is stretch marks, and PMID 25255817 actually says "limited evidence that centella, and
-    possibly massage with BITTER almond oil, may prevent SG". Bitter almond is Prunus amygdalus amara;
-    sweet almond, the cosmetic ingredient, is Prunus amygdalus dulcis. Different plant. Had I skimmed I
-    would have written that almond oil has limited evidence for stretch marks, which would have been
-    wrong, so the page states the distinction in its lead quote block and the footnote records that it was
-    read from the review wording rather than inferred. The review also credits MASSAGE WITH the oil rather
-    than the oil alone, which the page preserves.
-    SECOND FINDING, the third instance of this pattern in a week. The only synthesis arguing sweet almond
-    oil is an ACTIVE ingredient is PMID 34957578, and PubMed lists the single affiliation for BOTH authors
-    as "Research & Development and Regulatory Affairs, Kneipp GmbH", a natural-cosmetics company, with no
-    conflict statement recorded. Its stated purpose is commercial in its own words, treating oils as
-    actives rather than natural claims because that "aids both innovation and development". And it concedes
-    "discrepancies in the literature and questionable study designs" while asserting the benefit anyway.
-    That concession is what sets the tier: the friendliest available source admits the evidence is poor.
-    This one is a NEW flavour of the manufacturer-authorship pattern, so I noted it onto the queued
-    unusable-studies list: unlike Karimi, Amin and Wang it is not missing data, it argues a commercial
-    conclusion the cited evidence does not support.
-    RESTRAINT: sweet almond is a tree nut and no source consulted quantifies topical reaction risk in
-    nut-allergic people, so the page gives no figure and routes to a clinician. Also caught myself putting
-    unsourced marketing phrases (nourishing, nutrient-rich) in quotation marks, where they would read as
-    sourced; reworded so no quote marks appear on wording I did not fetch.
-    Occlusion mechanics deliberately NOT re-explained; linked to mineral-oil and squalane. ZERO Apify
-    spend; PubMed only. Self-verified in the main loop, assurance sonnet, force-published.'
-illumask-acne-light-therapy-mask:
-  last_reviewed: '2026-10-20'
-  note: 'THE QUEUE''S HYPOTHESIS WAS WRONG AND THE PAGE SAYS SO. It predicted that if K123999 also lacked
-    an acne trial, the whole Neutrogena lineage would trace to no clinical efficacy data across three
-    companies. It does not. K123999 contains a section headed "9. Clinical Summary" describing an
-    IRB-approved 12-week study, and it is the ONLY file in that chain that does. The real finding is
-    sharper than the predicted one: one small company ran one study in 2013, and Pulsaderm and then
-    Neutrogena inherited the clearance without repeating the work. A reader buying the Neutrogena mask is
-    relying on an uncontrolled 2013 study of a different company''s device.
-    I CORRECTED THE DOWNSTREAM CLAIM rather than leaving it. Both successor product pages now link here
-    with the correction, and I put a MATERIAL CORRECTION note on the queued disclosure list whose premise
-    assumed the chain was evidence-free. Leaving that queue entry as written would have had a future tick
-    publish the wrong generalisation.
-    THE SHARPEST NUMBER IS THE GAP BETWEEN TWO MEASUREMENTS OF THE SAME TRIAL. The investigator, counting
-    in person and unblinded, reported 82.8% inflammatory and 71.2% non-inflammatory lesion reduction at 8
-    weeks. Two independent doctors grading the SAME patients'' photographs blind and randomised reported
-    65.8% total reduction. The page carries both and says the blinded figure is the one to use, because an
-    unblinded assessor measuring their own trial is the classic inflation route.
-    DESIGN GRADED HONESTLY: sequential within-subject, same 30 patients, 4-week cleanser-only washout then
-    8 weeks of device, no sham, no randomisation of order, no p-value or confidence interval anywhere. The
-    washout does help, since lesions ROSE 3.13% during it, showing the group was not already improving.
-    It still cannot separate the device from eight more weeks of attention and routine.
-    CREDIT GIVEN: including all Fitzpatrick types is better than several newer devices on this site manage,
-    and the company ran a study at all rather than resting on bench testing. The criticism is of the design,
-    not its existence, and the page says that in the marketing-claims section.
-    TWO SMALL ACCURACY ITEMS. The FDA form prints the typo "Acnie" in the device name, quoted as printed
-    with a note. The file contradicts itself on treatment length, saying both "the last 9 weeks" and "the 8
-    week Treatment Period"; the page reports both and uses 8 where results attach. And the one alteration
-    made to any quoted wording, joining a line-break hyphenation of non-inflammatory, is disclosed in the
-    footnote. Also worth recording for future fetches: K123999 lives under accessdata pdf12, not pdf13,
-    despite its 2013 decision date; pdf13 returns a 404 HTML page that a careless pipeline would treat as a
-    PDF. ZERO Apify spend. 39 quotes checked. Self-verified in the main loop, assurance sonnet,
-    force-published.'
-

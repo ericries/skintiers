@@ -3242,33 +3242,51 @@
   priority: 5
   status: pending
   discovered_from: newa-skin-therapy-system
-  source: openFDA product_code PAY, decision 2023-08-30, 510(k) Summary, applicant
-    Silk'N Beauty Ltd. One of 12 devices under the OTC radiofrequency classification
+  source: 'openFDA product_code PAY, decision 2023-08-30, 510(k) Summary, applicant
+    Silk''N Beauty Ltd. One of 12 devices under the OTC radiofrequency classification
     the NEWA De Novo created. Unlike NEWA it came in by 510(k) substantial equivalence,
     so check whether its Summary rests on clinical or nonclinical testing; that contrast
-    with NEWA's De Novo clinical study is the point of the page. accessdata.fda.gov/cdrh_docs/pdf23/K230013.pdf
+    with NEWA''s De Novo clinical study is the point of the page. accessdata.fda.gov/cdrh_docs/pdf23/K230013.pdf
+    2026-10-20, from home-radiofrequency-skin-tightening: confirmed in the openFDA
+    PAY query as statement_or_summary ''Summary'', so a readable file should exist
+    at accessdata.fda.gov/cdrh_docs/pdf23/K230013.pdf. Open question worth answering
+    on the page, does it state that no clinical testing was performed, as the sibling
+    K232424 does.'
 - name: CurrentBody Skin RF (K232424)
   type: product
   priority: 5
   status: pending
   discovered_from: newa-skin-therapy-system
-  source: openFDA product_code PAY, decision 2024-03-06, 510(k) Summary, applicant
+  source: 'openFDA product_code PAY, decision 2024-03-06, 510(k) Summary, applicant
     El Global Trade Ltd (same applicant as sensiLift K170499 and Sensilift Pro K250341).
     CurrentBody is a widely marketed home-device brand with no page here at all. Pull
     accessdata pdf23/K232424.pdf for the cleared indication and the testing basis,
     and note that three devices under this code share one applicant, which is worth
-    stating plainly.
+    stating plainly. 2026-10-20, from home-radiofrequency-skin-tightening: the K232424
+    Summary has now been READ IN FULL. Its CLINICAL PERFORMANCE DATA section is one
+    sentence, ''No clinical testing was performed with the subject device, as it is
+    substantially equivalent to the predicate device, and thus requires no additional
+    clinical data to prove its safety and efficacy.'' Evidence offered instead is
+    bench work including porcine belly skin thermal probes. Its Common/Usual Name
+    field reads ''OTC device for skin tightening based on RF'' while the cleared indication
+    covers mild to moderate facial wrinkles only, Fitzpatrick I-IV, ''adults''. FETCH
+    NOTE, the file is served from pdf23 and the pdf24 path returns a 404 HTML page.
+    Still needs a brand page for price.'
 - name: Pollogen STOP U / TriPollar (home RF, K182774, K203665, K220322)
   type: product
   priority: 5
   status: pending
   discovered_from: newa-skin-therapy-system
-  source: THREE separate clearances for the same STOP U device family under product
+  source: 'THREE separate clearances for the same STOP U device family under product
     code PAY (2019-06-19, 2021-02-25, 2023-05-04), all 510(k) Summaries, applicant
     Pollogen Ltd. Pollogen also holds Geneo X Elite twice under the same code. Resolve
     which retail name (TriPollar STOP is the one consumers know) maps to which K-number
     BEFORE drafting; this is the same retail-to-clearance naming gap documented on
-    the reVive and FOREO pages.
+    the reVive and FOREO pages. 2026-10-20, from home-radiofrequency-skin-tightening:
+    K220322 is now known to be the PREDICATE the CurrentBody Skin RF (K232424) was
+    cleared against, which makes it a load-bearing link in the equivalence chain the
+    whole 12-device home RF category rests on. Its file has not been read; check for
+    clinical versus bench data before drafting.'
 - name: Lamisil AT Antifungal Cream (terbinafine 1%)
   type: product
   priority: 5
