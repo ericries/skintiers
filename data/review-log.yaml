@@ -10295,6 +10295,26 @@ revive-light-therapy-led-cleansing-system:
     199, Soniqué Mini 129, Lux Lip Care 99) to items already queued, rather than adding duplicate entries.
     ZERO Apify spend; FDA PDFs, openFDA and one brand page by curl. Self-verified in the main loop, assurance
     sonnet, force-published.'
+revive-light-therapy-lux-clinical:
+  assurance: sonnet
+  notes: 'All 55 quoted strings verified verbatim against the LOCAL CACHE of three brand pages (product,
+    the fda-cleared collection, the all-products listing) plus the openFDA applicant query and the PMID
+    42545315 abstract; 0 mismatches. ONE ABSENCE CLAIM WAS CORRECTED BEFORE PUBLISH: the draft said no
+    irradiance figure appears on the product page, but a string search found 4 hits, all the same customer
+    review (duplicated in the markup) guessing ''maybe at least 50mW/cm2''. The claim is now scoped to
+    what the BRAND states, and the customer guess is reported as a buyer''s speculation, which strengthens
+    rather than weakens the dose finding. Central finding: the brand''s own collection page titled ''FDA
+    Approved LED Light Therapy Devices'' is served at /collections/fda-cleared with a nav label reading
+    ''FDA Cleared'', so it is reported as an inconsistency in the brand''s wording rather than a deliberate
+    claim. Declined the available inference that Lux Clinical IS K223482 under a retail name: the spec
+    profile corresponds closely but no clearance bears the Lux name and nothing establishes identity,
+    matching the stance of the Lux Spot page. Scope decision: the queue item bundled Lux Clinical with
+    Lux Sonique; the storefront shows Sonique is a CLEANSER line, so only Lux Clinical is covered here
+    and Sonique was re-queued separately. First page in this device family with a real price and a real
+    brand photo, because revive-light-therapy.com is readable while ledtechnologies.com is Cloudflare-walled.'
+  reviewed: '2026-10-21'
+  reviewer: main-loop self-verification
+  verdict: publish
 revive-light-therapy-lux-glo:
   last_reviewed: '2026-10-18'
   note: 'The queue note asked for the wavelengths first, because the home-device ladder turns on blue-red
