@@ -13842,7 +13842,8 @@
   conflict: Founder/owner of active postpartum skincare brand "More Than Nine" (cleanser, exfoliator, moisturizer, balm) — an ongoing own-bran
   posted: '2026-10-21'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: vague caption ('Something's got to give... There is no way you can do it all'), no topic and no page match
 - id: L-JQlQvtz_A
   title: The Hidden Ingredient in Your Food That May Be Affecting Your Skin
   creator: Andrea Suarez (Dr Dray)
@@ -13908,7 +13909,8 @@
   conflict: 'Runs #ad sponsored posts (e.g. TruSkin) and Target skincare hauls/reviews; prefer her educational ingredient-category and barrier-repair explainers, and treat product recommendations as effectively promotional (skip).'
   posted: '2026-10-21'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: off-topic ('I hate to brag, but I fear my bridesmaid proposals...'); not skincare education
 - id: '7698563382797995278'
   title: 'Day 5: how do you fix a damaged barrier part 4 #barrierdamage #damage...'
   creator: Jenn Lexi (@jennlexi_)

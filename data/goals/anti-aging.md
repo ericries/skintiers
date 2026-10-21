@@ -317,6 +317,16 @@ videos:
   related: []
   thesis: 'Board-certified dermatologist Dr Dray explains how diet ties into skin aging: dietary sugars can react with skin proteins in a process called glycation, forming advanced glycation end products (AGEs) that damage collagen and elastin over time, so the idea that sugar ages skin has a real biological basis. She cautions against overreacting to it, noting whole fruit (with its fiber and antioxidants) is not the problem that sugary processed foods are, and that a pattern rich in a variety of vegetables, fruit, legumes, and whole grains supplies antioxidants that help skin defend against damage. Her practical emphasis is cooking your own meals and limiting processed and charred red meats, which are high in AGEs, rather than fearfully cutting out single foods.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Do you need to worry about skin longevity? I'm not buying it.
+  creator: Dr. Aegean Chan
+  creator_slug: aegean-chan
+  credential: Board-certified dermatologist
+  platform: TikTok
+  url: https://www.tiktok.com/@draegeanchan/video/7688853543263948062
+  posted: '2026-09-23'
+  related: []
+  thesis: 'Dermatologist Dr. Aegean Chan pushes back on skin longevity, the marketing idea that a routine can slow the cellular aging of your skin. She says the science is far behind how confident the marketing claims are, and that the framing is a way for skincare companies to persuade people to keep using their products even when they are not seeing results. Her specific objection is the useful part: a compound may have been shown in a dish to reduce some biomarker associated with skin aging, and whether that changes how skin actually looks in the long term is, in her words, probably not something anyone knows.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
