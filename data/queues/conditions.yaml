@@ -399,7 +399,7 @@
 - name: 'Sensitive skin: what the label means and what it does not'
   type: condition
   priority: 5
-  status: pending
+  status: done
   discovered_from: wang-2025-encorelane-sensitive-skin
   source: 'The site has a sensitive-skin page, but this study surfaces a definitional
     problem worth its own treatment: subjects were ''sensitive-skin subjects'' by

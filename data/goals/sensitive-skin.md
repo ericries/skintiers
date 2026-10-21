@@ -1,6 +1,6 @@
 ---
-analyzed: '2026-08-30'
-assurance: opus
+analyzed: '2026-10-21'
+assurance: sonnet
 name: Sensitive Skin
 slug: sensitive-skin
 status: published
@@ -27,18 +27,16 @@ tier_list:
     tier: moderate
   - note: An FDA-recognised skin protectant with randomised-trial support for relieving
       itch and improving the barrier in mild-to-moderate eczema, which makes it the
-      best-evidenced soothing active here rather than just a calming claim. It is an
-      anti-itch emollient and barrier aid, not a substitute for a corticosteroid in a
-      flare, and its strongest trials were industry-funded. Evidence on
-      [[colloidal-oatmeal]].
+      best-evidenced soothing active here rather than just a calming claim. It is
+      an anti-itch emollient and barrier aid, not a substitute for a corticosteroid
+      in a flare, and its strongest trials were industry-funded. Evidence on [[colloidal-oatmeal]].
     slug: colloidal-oatmeal
     tier: moderate
-  - note: Marketed as a soothing peptide for reactive skin, and listed here as a
-      cautionary entry rather than a recommendation, because the comparative evidence
-      on [[acetyl-dipeptide-1-cetyl-ester]] went against it. It had no effect on the
-      TRPV1 pain receptor in vitro, and produced significantly less reduction in
-      capsaicin-induced burning than a comparator in a split-face trial in women with
-      sensitive skin.
+  - note: Marketed as a soothing peptide for reactive skin, and listed here as a cautionary
+      entry rather than a recommendation, because the comparative evidence on [[acetyl-dipeptide-1-cetyl-ester]]
+      went against it. It had no effect on the TRPV1 pain receptor in vitro, and produced
+      significantly less reduction in capsaicin-induced burning than a comparator
+      in a split-face trial in women with sensitive skin.
     slug: acetyl-dipeptide-1-cetyl-ester
     tier: weak
   title: Approaches for sensitive, reactive skin by evidence
@@ -51,20 +49,26 @@ tier_list_reviewed:
 - eltamd-uv-clear-spf-46
 - la-roche-posay-toleriane
 type: goal
-updated: '2026-10-05'
+updated: '2026-10-21'
 videos:
-- title: A Dermatologist's Top 10 Tips to Treat Sensitive Skin
-  creator: Dr. Whitney Bowe
+- creator: Dr. Whitney Bowe
   creator_slug: whitney-bowe
   credential: Board-certified dermatologist
-  platform: YouTube
-  url: https://www.youtube.com/watch?v=s1XcTFKe2Xw
   duration: 435
-  posted: '2021-03-17'
-  related: [skin-barrier-repair]
-  thesis: 'Board-certified dermatologist Dr. Whitney Bowe gives ten practical tips for managing sensitive skin. Her core advice is to simplify and avoid common irritants: skip fragrances (both natural and synthetic) in leave-on products, avoid harsh astringent ingredients in toners, and avoid harsh sulfates like SLS and SLES in cleansers, while protecting the skin barrier rather than over-washing. She notes that tightness after cleansing, along with redness and blotchiness, can be a sign that skin is sensitive.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
-
+  platform: YouTube
+  posted: '2021-03-17'
+  related:
+  - skin-barrier-repair
+  thesis: 'Board-certified dermatologist Dr. Whitney Bowe gives ten practical tips
+    for managing sensitive skin. Her core advice is to simplify and avoid common irritants:
+    skip fragrances (both natural and synthetic) in leave-on products, avoid harsh
+    astringent ingredients in toners, and avoid harsh sulfates like SLS and SLES in
+    cleansers, while protecting the skin barrier rather than over-washing. She notes
+    that tightness after cleansing, along with redness and blotchiness, can be a sign
+    that skin is sensitive.'
+  title: A Dermatologist's Top 10 Tips to Treat Sensitive Skin
+  url: https://www.youtube.com/watch?v=s1XcTFKe2Xw
 ---
 
 "Sensitive skin" is not a medical diagnosis. DermNet describes it as a lay term for "skin with reduced tolerance to the application of cosmetics and personal care products."[^dermnet] It is a remarkably common self-report: "approximately 50% of women and 40% of men may report having sensitive skin."[^dermnet] The skeptical bottom line: this label describes a symptom pattern, often a [[skin-barrier-repair|damaged skin barrier]] plus reactivity, not a single treatable disease. A real underlying cause should be looked for and, where found, treated directly rather than papered over with more "gentle" products.
@@ -72,6 +76,18 @@ videos:
 ## How to know you have this
 
 Sensitive skin shows up as subjective symptoms (stinging, itching, burning) and/or visible changes (redness, dryness, scaling, peeling, bumps, hives).[^dermnet] Complaints usually concentrate on the face, where products tolerated elsewhere on the body cause irritation; eyelids are especially reactive, and armpits, groin, and genitals can also be more sensitive because the skin there is thinner.[^dermnet]
+
+## What the label actually means
+
+**There is a formal definition, and it is built entirely out of sensations.** A special interest group of the International Forum for the Study of Itch reached one by Delphi consensus: "A syndrome defined by the occurrence of unpleasant sensations (stinging, burning, pain, pruritus, and tingling sensations) in response to stimuli that normally should not provoke such sensations. These unpleasant sensations cannot be explained by lesions attributable to any skin disease. The skin can appear normal or be accompanied by erythema. Sensitive skin can affect all body locations, especially the face".[^ifsi]
+
+Three things follow, and they change how every sensitive-skin product claim should be read.
+
+**It is defined by what you feel, not by what anyone can see.** The definition says outright that the skin can appear normal. So a product tested for visible redness has not been tested against the thing the word names.
+
+**It is a diagnosis of exclusion.** Sensations that *are* explained by a skin disease fall outside it, which is why [[rosacea]], [[atopic-dermatitis]] and [[contact-dermatitis]] need ruling out first rather than treating as flavours of sensitivity.
+
+**The consensus definition contains no test.** Nothing in it specifies a measurement, so when a trial calls its participants sensitive-skin subjects, the honest reading is self-report, which actually matches the definition. What does not match is modelling sensitivity by irritating a tissue culture with a detergent, a substitution documented on [[wang-2025-encorelane-sensitive-skin]]. Those are two different constructs and cosmetic trials slide between them freely.
 
 ## What is actually going on
 
@@ -102,5 +118,7 @@ DermNet's clinical reference summary anchors the causes and diagnostic categorie
 ## Sources
 
 [^dermnet]: DermNet (dermnetnz.org), "Sensitive skin" (clinical reference summary, Dr Delwyn Dyall-Smith FACD, Dermatologist, 2009). The definition, self-report prevalence, clinical features, the list of recognized medical causes, the irritant contact dermatitis mechanism and its subjective/sensory and non-erythematous subtypes, the rosacea skin-sensitivity presentation, the eczema-as-predisposing-factor point, and the treatment recommendations (avoidance, soap-free cleanser, non-irritating moisturizer, sun protection) are read from this page and cited as a clinical reference, not a primary trial; cached. https://dermnetnz.org/topics/sensitive-skin (accessed 2026-08-30)
+[^ifsi]: Misery L, Stander S, Szepietowski JC, Reich A, Wallengren J, Evers AW, Takamori K, Brenaut E, Le Gall-Ianotto C, Fluhr J, Berardesca E, Weisshaar E. "Definition of Sensitive Skin: An Expert Position Paper from the Special Interest Group on Sensitive Skin of the International Forum for the Study of Itch." Acta Dermato-Venereologica. 2017 Jan 4;97(1):4-6. doi: 10.2340/00015555-2397. PMID 26939643. The definition quoted on this page is reproduced in full and was verified verbatim against the abstract on 2026-10-21; the abstract states it was reached "Using the Delphi method", which is structured expert consensus rather than an experimental result, and that is how it is described here. Two absences are reported on this page as absences in this document, each checked by string search of the abstract on 2026-10-21: the quoted definition specifies no diagnostic test or measurement, and the words sting, lactic and capsaicin do not appear in the abstract at all, so no provocation method is attributed to this source. Only the PubMed abstract was accessed, not the full position paper, so any measurement discussion inside the paper itself was not read. https://pubmed.ncbi.nlm.nih.gov/26939643/ (accessed 2026-10-21)
+
 [^moisturizing]: See [[moisturizing]] for the full citation to van Zuuren EJ, Fedorowicz Z, Arents BWM. Emollients and moisturizers for eczema: abridged Cochrane systematic review including GRADE assessments. British Journal of Dermatology, 2017;177(5):1256-1271. https://pubmed.ncbi.nlm.nih.gov/28432721/
 [^contact-dermatitis]: See [[contact-dermatitis]] for the full citation to the 2018 Cochrane review of moisturizers and barrier creams for preventing occupational irritant hand dermatitis (9 RCTs, 2,888 workers). https://pubmed.ncbi.nlm.nih.gov/29708265/ (accessed 2026-08-30)

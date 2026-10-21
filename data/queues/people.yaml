@@ -315,3 +315,15 @@
     be independently verified, as the your-estie-ella card does for a self-stated
     credential. The person type exists to route readers from a creator to the pages
     their videos sit on, and 6 cards is enough to justify one.
+- name: Laurent Misery
+  type: person
+  priority: 5
+  status: pending
+  discovered_from: sensitive-skin
+  source: First author of the IFSI Special Interest Group expert position paper that
+    supplies the consensus definition of sensitive skin now quoted on the sensitive-skin
+    hub (PMID 26939643, Acta Derm Venereol 2017). PubMed records the affiliation as
+    the Department of Dermatology, University Hospital of Brest, France. LEAN discovery
+    card only, per person scope, and state nothing beyond what the publication record
+    shows; do not infer current roles or titles that are nine years old without re-verifying
+    from a primary source.

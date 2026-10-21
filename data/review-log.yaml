@@ -10839,29 +10839,22 @@ selsun-blue-selenium-sulfide-shampoo:
   score: 9
   verdict: publish
 sensitive-skin:
-  last_reviewed: '2026-10-05'
-  note: 'Maintenance tick (site_health, 12 candidates). The tier_list is titled "Approaches for sensitive,
-    reactive skin by evidence" and ranks APPROACHES (skin-barrier-repair, moisturizing, niacinamide),
-    so the 6 product candidates (aestura cream, both cerave, dove bar, eltamd, LRP toleriane) cannot join
-    it and are recorded in tier_list_reviewed. coco-betaine also excluded: it is a mild cleansing surfactant
-    whose own page says its relevance is mildness rather than any visible benefit, AND it is a documented
-    contact allergen, so for a sensitive-skin hub it is a caution rather than an approach. ADDED acetyl-dipeptide-1-cetyl-ester
-    at tier weak as an explicitly CAUTIONARY entry, not a recommendation, because its own page records
-    negative comparative evidence (no effect on TRPV1 in vitro; significantly LESS reduction in capsaicin-induced
-    burning than a comparator in a split-face trial in sensitive-skin women). GAPS NOTED but deliberately
-    not added, since neither was a flagged candidate and adding non-candidates exceeds the ACTION: colloidal-oatmeal
-    (tier mid, explicitly evidenced for reactive and eczema-prone skin and already carried on the barrier-strengthening
-    list) is a real omission from a sensitive-skin approaches ranking, and 4-t-butylcyclohexanol, the
-    comparator that BEAT acetyl dipeptide-1 in that trial, has no page at all. Both are worth adding as
-    approaches/actives later. Hit the recurring colon-space YAML scalar bug writing the note; rephrased.
-    FOLLOW-UP 2026-10-05: closed the gap flagged in the previous pass by adding colloidal-oatmeal at tier
-    moderate. It is the best-evidenced soothing active available here (FDA-recognised skin protectant,
-    randomised-trial support for itch and barrier in mild-to-moderate eczema, 1% cream on par with a prescription
-    barrier cream), and it was already carried on the barrier-strengthening list, so its absence from
-    a sensitive-skin approaches ranking was a real omission. Note keeps its own limits: an anti-itch emollient
-    rather than a corticosteroid substitute, strongest trials industry-funded. 4-t-butylcyclohexanol still
-    has no page and remains the open gap.'
-  score: 9
+  assurance: sonnet
+  notes: 'SECTION ADDED to an existing page rather than creating the queued page, because the queue item
+    itself said to check whether it belonged here and it did: ''Sensitive skin: what the label means and
+    what it does not'' would have been a near-duplicate of this hub, which is the fourth such pair risk
+    this week after Toleriane, ingrown-hairs/PFB and pdrn. Added ''What the label actually means'' carrying
+    the IFSI Special Interest Group Delphi consensus definition (PMID 26939643) verbatim-verified against
+    the abstract 2026-10-21, plus the three consequences that follow: it is defined by sensation not appearance
+    (the definition says the skin can appear normal), it is a diagnosis of exclusion, and it specifies
+    NO test. Absence claims string-checked in the abstract: test 0 hits, lactic 0, capsaicin 0, so no
+    provocation method is attributed to this source even though the queue item suggested covering them;
+    listing unsourced methods was declined. ASSURANCE DOWNGRADED opus -> sonnet: the pre-existing content
+    was Opus-reviewed on 2026-10-05, but the section added today was self-verified only, so leaving opus
+    would have been unearned for the page as it now stands. The xref-render lint caught a broken [[eczema-atopic-dermatitis]]
+    slug in my draft (correct slug is atopic-dermatitis) before publish.'
+  reviewed: '2026-10-21'
+  reviewer: main-loop self-verification
   verdict: publish
 shah-2026-a-randomized-controlled-trial-analyzing-the-likeability-usab:
   last_reviewed: '2026-08-08'

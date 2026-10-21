@@ -582,3 +582,18 @@
     A short list would exist mainly to say that out loud and route readers to body-acne.
     Do NOT build it until at least two body-positioned devices have pages; one item
     is not a list.'
+- name: How sensitive skin is measured in trials
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: sensitive-skin
+  source: 'Grounded in the ''What the label actually means'' section added to sensitive-skin
+    on 2026-10-21. The IFSI Delphi consensus definition (PMID 26939643) specifies
+    NO diagnostic test, which leaves every sensitive-skin product claim resting on
+    whatever the trial chose to do. DO NOT BUILD THIS FROM MEMORY: the methods commonly
+    named in this literature (lactic acid sting test, SLS provocation, capsaicin)
+    were deliberately NOT asserted on the hub because the IFSI abstract contains none
+    of them (string-checked: test 0 hits, lactic 0, capsaicin 0). Find and read primary
+    validation papers for each method first, and if the validation turns out to be
+    thin, that IS the finding. Would let every future sensitive-skin claim on the
+    site be read against a real definition.'
