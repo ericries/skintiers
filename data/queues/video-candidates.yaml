@@ -13704,7 +13704,8 @@
   conflict: null
   posted: '2026-10-19'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: diet/skin ground already covered better on diet-and-skin by Turegano 7696230227139251486 (which grades the evidence); Fahs's spoken claims (avocado plumping, omega-3 hydrating, berries boosting collagen) are mechanism assertions with no study named, so carding it would mean relaying unhedged efficacy claims
 - id: '7698550912507186453'
   title: 'not for nothing but it’s all I’ve worn since I got it: @Trinny London...'
   creator: Hannah English (@ms_hannah_e / Hannah Collingwood English)
@@ -13717,7 +13718,8 @@
   conflict: Co-developed/formulated the Tbh Skincare 'Rebound' Serum and Toner (product-formulation partnership) — her endorsement of that spe; no YouTube; TikTok/IG intake
   posted: '2026-10-20'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: product endorsement tagging @Trinny London from a creator whose roster entry is product_recs=restricted; reads as a brand partnership and is not single-topic education
 - id: '7698553588624215310'
   title: 'Day 5: how do you fix a damaged barrier part 3 #barrierdamage #damage...'
   creator: Jenn Lexi (@jennlexi_)

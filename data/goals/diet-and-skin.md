@@ -24,6 +24,16 @@ videos:
   thesis: 'Board-certified dermatologist Dr. Shereene Idriss works through what randomised trials actually show about the gut and the skin, and the useful part is how unevenly the evidence falls across conditions. For acne she cites a 12-week trial of Lactobacillus rhamnosus SP1 showing improvement and a larger 2024 multistrain trial beating placebo, but sets against them a 2011 South Korean fermented-milk study that improved severity only modestly with no statistical difference from control, and a 2022 systematic review concluding the evidence remains low because study quality was moderate and results conflicted. For eczema she draws the sharpest line: an LGG probiotic halved the risk of eczema by age 2 in children, which she calls powerful prevention, while treating established eczema with probiotics is very inconsistent, and she says moisturizers plus medications do all the heavy lifting. Her most dramatic example is rosacea with small intestinal bacterial overgrowth, where a 10-day course
     of the non-absorbable antibiotic rifaximin cleared skin while placebo patients barely changed until they received the real drug.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Can you ACTUALLY eat your skincare?
+  creator: Dr. Mamina Turegano
+  creator_slug: mamina-turegano
+  credential: Board-certified in dermatology, internal medicine and dermatopathology; practices at Sanova Dermatology, Metairie, Louisiana
+  platform: TikTok
+  url: https://www.tiktok.com/@dr.mamina/video/7696230227139251486
+  posted: '2026-10-13'
+  related: [green-tea-egcg, anti-aging, vitamin-c, retinoids]
+  thesis: Dermatologist Dr. Mamina Turegano works through what food can and cannot do for skin. She says there is no evidence that eating carrots delivers meaningful retinoid activity the way topical tretinoin or retinol does, but points to human studies on lycopene in tomatoes for resistance to UV damage, on cocoa flavanols for elasticity and photoprotection, and on oral collagen peptides showing modest improvement in wrinkles, hydration and elasticity after about three months, while noting that much of that collagen research is industry backed. Her bottom line is that none of these foods replace sunscreen, retinoids and vitamin C serums, and that she would not rely on diet alone to improve skin.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

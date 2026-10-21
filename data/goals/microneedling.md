@@ -14,6 +14,18 @@ slug: microneedling
 status: published
 type: goal
 updated: '2026-10-10'
+videos:
+- title: 'Microneedling vs. RF Microneedling: what''s the difference?'
+  creator: Dr. Ife Rodney
+  creator_slug: ife-rodney
+  credential: Board-certified dermatologist
+  platform: TikTok
+  url: https://www.tiktok.com/@dr.iferodney/video/7688781720295951647
+  posted: '2026-09-23'
+  related: [skin-firmness-elasticity, smoothing-skin-texture, enlarged-pores, acne-scar-procedures-by-evidence]
+  thesis: Dermatologist Dr. Ife Rodney compares microneedling with radiofrequency microneedling, two in-office procedures that both use fine needles to stimulate collagen. She describes plain microneedling as creating controlled micro-injuries that prompt the skin's own collagen production, which she suggests for texture, acne scars, pores and overall rejuvenation, while radiofrequency microneedling adds controlled heat deeper in the skin for a further layer of collagen remodeling, which she says can help when skin laxity or tightening is also a concern. She states there is no one-size-fits-all answer and that the right choice depends on the individual's skin and goals.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Microneedling creates controlled micro-injuries in skin to provoke a repair response, and its best-studied use is atrophic acne scarring. This page is about the procedure; the scars themselves are on [[acne-scars]] and the disease that causes them on [[acne]].
