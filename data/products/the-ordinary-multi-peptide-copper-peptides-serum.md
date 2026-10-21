@@ -34,6 +34,17 @@ videos:
   related: []
   thesis: Cosmetic chemists Victoria Fu and Gloria Lu of Chemist Confessions test and compare five copper peptide serums, including The Ordinary's, as a follow-up to their science deep dive on the ingredient. They are openly skeptical of the eye-catching 200 to 400 percent hydration-boost figures some brands cite, question what those numbers actually mean, and coach viewers to scan ingredient lists for named peptides like GHK to judge a product rather than trusting headline claims.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: 'Matrixyl vs copper peptides vs argireline: a dermatologist''s guide for your 40s'
+  creator: Dr. Aleksandra Brown, DO, FAAD
+  creator_slug: aleksandra-brown
+  credential: Board-certified dermatologist (DO, FAOCD, FAAD)
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=t9I8vVpZjxc
+  posted: '2026-08-30'
+  related: [copper-peptides, palmitoyl-pentapeptide-4-matrixyl, argireline-acetyl-hexapeptide-8, palmitoyl-tripeptide-1, palmitoyl-tetrapeptide-7, niod-copper-amino-isolate-serum-3-1-1, anti-aging, retinoids, vitamin-c]
+  thesis: 'Board-certified dermatologist Dr. Aleksandra Brown sorts peptides into categories and matches each to a concern: signal peptides such as Matrixyl for firmness, carrier peptides such as copper peptides (GHK-Cu) for collagen rebuilding, enzyme-inhibiting peptides that slow collagen breakdown, and neurotransmitter-inhibiting peptides such as argireline for expression lines. She is firm that peptides are an upgrade rather than a starting point, saying anyone not already consistent with morning sunscreen, vitamin C and a nightly retinoid is wasting money on them. Her picks are The Ordinary Matrixyl 10% plus HA at around 11 dollars, The Ordinary Multi-Peptide plus Copper Peptides 1% at around 32 dollars, the Remedy Copper Peptide Complex at around 33 dollars and the NIOD Copper Amino Isolate Serum at 93 dollars as the splurge, and she gives a money-saving tip to look for argireline or acetyl hexapeptide-8 on a cheap label rather than paying for it inside a pricier cream. Two of her
+    framings are her own view rather than cited results: that Matrixyl is the most studied peptide in skincare, and that if you add only one it should be a copper peptide. She also pushes back on the Botox in a bottle label for argireline, saying topical application will not match an injection.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
