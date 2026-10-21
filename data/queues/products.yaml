@@ -3085,7 +3085,7 @@
 - name: dpl Faceware (LED Technologies, K183247)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: revive-light-therapy-lux-spot
   source: 'openFDA device/510k, applicant LED Technologies: K183247 dpl Faceware,
     decision 2019-03-14, Summary available. A full-face mask from the same firm, so
@@ -3455,4 +3455,33 @@
     K171386, decision 2017-08-07, product code OHS (wrinkle), Summary available. accessdata.fda.gov/cdrh_docs/pdf17/K171386.pdf.
     Worth a page as a wrinkle-code counterpart to the acne-code dpl SpotLite from
     the same firm; report the wavelengths and whether any clinical data appears, and
-    do NOT assume it matches any reVive unit.'
+    do NOT assume it matches any reVive unit. 2026-10-21, from dpl-faceware: the K183247
+    comparison chart lists this device''s cleared indication as PERIORBITAL wrinkles,
+    meaning around the eyes only, not wrinkles generally. Treatment area 28 cm2, wavelengths
+    605/630/660/880nm (no blue), 3 minutes per treatment. Carry that narrowness into
+    the page; it is the same modality-grade-versus-cleared-indication gap documented
+    on home-fractional-nonablative-laser.'
+- name: dpl IIa Panel (LED Technologies, K180320)
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: null
+  source: 'Named as a PREDICATE in the K183247 dpl Faceware Summary read for dpl-faceware
+    on 2026-10-21, and the most load-bearing of the three: its chart entry shows it
+    ALREADY carried the identical dual indication for wrinkles and mild to moderate
+    inflammatory acne, so the Faceware''s breadth of claim traces to this device.
+    Cleared 2018-04-03, product code OHS, Summary available at accessdata.fda.gov/cdrh_docs/pdf18/K180320.pdf.
+    Also the largest treatment area in the family at 415 cm2 (vs 135.8 for the Faceware
+    wrinkle mode and 18.86 for the reVive Cleansing System). Check whether ITS file
+    contains any clinical data, since every LED Technologies file read so far states
+    its conclusions are nonclinical.'
+- name: DPL Therapy System (LED Technologies, K081570)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: 'openFDA applicant query for LED Technologies, re-run 2026-10-21: K081570,
+    decision 2008-11-07, Summary, product code ILY, which is a DIFFERENT code from
+    the OHS/OLP pair the rest of this firm''s catalog uses. The firm''s oldest clearance
+    and the root of the family tree. Resolve what ILY is from the openFDA device/classification
+    endpoint before drafting, and do not assume it is a wrinkle or acne indication.'

@@ -3590,6 +3590,22 @@ doxycycline-oral-subantimicrobial:
     assurance opus.'
   score: 9
   verdict: publish
+dpl-faceware:
+  assurance: sonnet
+  notes: 'All 28 quoted strings re-checked verbatim against the re-fetched K183247 letter plus Summary,
+    the openFDA applicant query, and the PMID 42545315 abstract; 0 genuine mismatches. The scan''s text
+    layer is dirty (605nm extracts as 60Snm, similar as ''sim ilar'', wrinkle as ''wrin kle''), so wavelengths,
+    treatment areas, the classification name and the mW/cm2 equivalence claim are REPORTED rather than
+    quoted, and the footnote says so. Absence claims string-checked: no numeric irradiance or dose value
+    anywhere (mW/cm2 occurs once, with no figure), sham 0 hits, randomized 0 hits. Declined one inference
+    the chart invites: three predicates with three different indications does NOT mean a broad claim was
+    assembled from narrow ones, because the dpl IIa Panel predicate already carried the identical dual
+    indication; the page says this explicitly rather than implying assembly. No price or photo: ledtechnologies.com
+    returned Cloudflare 403 on both 2026-10-20 and 2026-10-21 and no Apify call was made. Grades mirror
+    the same firm''s later dual-indication unit (acne modest, wrinkle minimal).'
+  reviewed: '2026-10-21'
+  reviewer: main-loop self-verification
+  verdict: publish
 dpl-spotlite:
   assurance: sonnet
   notes: 'All 36 quoted strings re-checked verbatim against the re-fetched K183118 letter plus 510(k)
