@@ -3590,6 +3590,21 @@ doxycycline-oral-subantimicrobial:
     assurance opus.'
   score: 9
   verdict: publish
+dpl-spotlite:
+  assurance: sonnet
+  notes: 'All 36 quoted strings re-checked verbatim against the re-fetched K183118 letter plus 510(k)
+    Summary, the openFDA device/510k records (K183118 and the 15-record applicant query), and the PMID
+    42545315 abstract. Absence claims string-checked in the full extracted PDF text: sham 0 hits, randomized
+    0 hits, and mW/cm2 occurs exactly once, in the comparison claim quoted on the page, so the no-dose-figure
+    finding holds. No price and no photo: ledtechnologies.com returned a Cloudflare 403 on 2026-10-20
+    and NO Apify call was made, since a guessed product URL would have burned the single permitted attempt
+    on a 2019 clearance whose retail availability is unknown. Honored the queue item''s explicit instruction
+    not to assert that this device is the Lux Spot under another name: the two are linked as separate
+    records and no identity is implied. Grades kept consistent with the sibling blue-red acne devices
+    (effect modest, evidence preliminary).'
+  reviewed: '2026-10-20'
+  reviewer: main-loop self-verification
+  verdict: publish
 dr-g:
   last_reviewed: '2026-08-08'
   note: 'Lean brand discovery-aid page (daily-drain, Sonnet-only, no Opus critic per roster). <=180 words:

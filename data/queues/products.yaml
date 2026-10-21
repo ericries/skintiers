@@ -3073,7 +3073,7 @@
 - name: dpl SpotLite (LED Technologies, K183118)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: revive-light-therapy-lux-spot
   source: 'openFDA device/510k, applicant LED Technologies: K183118 dpl SpotLite,
     decision 2019-02-07, 510(k) Summary available. The nearest cleared spot-format
@@ -3432,3 +3432,27 @@
     is a Summary or a Statement and whether it too contains clinical data. Omnilux
     is still a marketed brand, so this may also be a live product rather than only
     a historical predicate.'
+- name: dpl II Panel (LED Technologies, K171390)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: 'openFDA device/510k applicant query run for dpl-spotlite on 2026-10-20:
+    K171390, decision 2017-08-03, product code OHS (wrinkle), statement_or_summary
+    Summary. One of the 15 LED Technologies clearances, all of which are Summaries.
+    The dpl-branded panels are the half of this firm''s catalog with no coverage here,
+    while the reVive half has five pages. Fetch accessdata.fda.gov/cdrh_docs/pdf17/K171390.pdf
+    and report the cleared indication plus whether the conclusions rest on clinical
+    or nonclinical testing. Note the pattern already documented on dpl-spotlite: this
+    firm uses its own earlier devices as predicates, so check what the named predicate
+    is.'
+- name: dpl SpectraLite (LED Technologies, K171386)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: 'openFDA device/510k applicant query run for dpl-spotlite on 2026-10-20:
+    K171386, decision 2017-08-07, product code OHS (wrinkle), Summary available. accessdata.fda.gov/cdrh_docs/pdf17/K171386.pdf.
+    Worth a page as a wrinkle-code counterpart to the acne-code dpl SpotLite from
+    the same firm; report the wavelengths and whether any clinical data appears, and
+    do NOT assume it matches any reVive unit.'
