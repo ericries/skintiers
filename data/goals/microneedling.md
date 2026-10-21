@@ -25,6 +25,16 @@ videos:
   related: [skin-firmness-elasticity, smoothing-skin-texture, enlarged-pores, acne-scar-procedures-by-evidence]
   thesis: Dermatologist Dr. Ife Rodney compares microneedling with radiofrequency microneedling, two in-office procedures that both use fine needles to stimulate collagen. She describes plain microneedling as creating controlled micro-injuries that prompt the skin's own collagen production, which she suggests for texture, acne scars, pores and overall rejuvenation, while radiofrequency microneedling adds controlled heat deeper in the skin for a further layer of collagen remodeling, which she says can help when skin laxity or tightening is also a concern. She states there is no one-size-fits-all answer and that the right choice depends on the individual's skin and goals.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Are marine spicules the new DIY microneedling?
+  creator: Dr. Heather Woolery-Lloyd
+  creator_slug: heather-woolerylloyd
+  credential: Board-certified dermatologist
+  platform: TikTok
+  url: https://www.tiktok.com/@drheathermd/video/7645401636201893134
+  posted: '2026-05-29'
+  related: [peptides, pdrn]
+  thesis: Dermatologist Dr. Heather Woolery-Lloyd looks at marine spicules, microscopic needle-like structures harvested from marine sponges that are being marketed as a do-it-yourself alternative to microneedling. She keeps the mechanism claims hedged, saying spicules are thought to create pathways that let active ingredients penetrate deeper, that they stay embedded in the skin surface briefly before shedding, and that by creating a controlled micro-injury response they may signal the skin to increase collagen production and cell turnover. She adds that starting concentrations run between 0.1% and 1% to avoid excessive irritation, that the ingredient is often used to boost absorption of actives such as peptides and PDRN, and that experts warn against pairing spicule products with retinoids or strong acne medications.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

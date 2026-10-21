@@ -7430,7 +7430,8 @@
   conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan and reject any sponsored/affiliate/gifted video
   posted: '2026-09-24'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: no English transcript available from TikTok, so it cannot be transcript-verified; caption alone is not enough to cite a multi-product comparison
 - id: 4iu_fYauhz8
   title: 'why kérastase may not be working for you #dermatologist #hairloss'
   creator: Dr Aamna Adel
@@ -13889,7 +13890,8 @@
   conflict: null
   posted: '2026-10-20'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 6-second clip, far under the ~25s floor the TikTok-pull rule sets; caption is substantive but a 6s text-card has no spoken content to transcript-verify
 - id: '7698906368341855502'
   title: I hate to brag, but I fear my bridesmaid proposals are going to be TO...
   creator: Jenn Lexi (@jennlexi_)
@@ -14006,7 +14008,8 @@
   conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan and reject any sponsored/affiliate/gifted video
   posted: '2026-10-20'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: two brand @tags naming specific products (Paula's Choice SPF, Magic Molecule) in a 2-step routine clip; not single-topic education, and whether a commercial relationship exists cannot be established from the caption, so skipped under when-in-doubt-leave-it-out rather than alleging sponsorship
 - id: '7698360923379076365'
   title: Don’t wait until you can see it to treat it!! I’ve been doing this fo...
   creator: Ella (@your.estie.ella)
