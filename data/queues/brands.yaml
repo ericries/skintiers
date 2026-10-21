@@ -383,7 +383,7 @@
 - name: dpl (LED Technologies brand)
   type: brand
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: 'Grounded in dpl-spotlite, shipped 2026-10-20, which carries brand: dpl
     and has no brand page to link to. LED Technologies, Inc. of Greenwood Village,

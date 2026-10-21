@@ -9684,7 +9684,8 @@
   conflict: runs the PillowtalkDerm brand - skip videos mainly promoting her own products
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: SPONSORED. The transcript states 'this portion of the video is sponsored by' a named Korean skincare brand, and that segment carries the product claims including a 45-percent barrier-strength figure. The video also promotes her own PillowtalkDerm Major Fade Flash Mask ('this is literally why I made the Major Fade Flash Mask'), which her roster conflict says to skip. Mandatory sponsorship scan is absolute even though she discloses it clearly and the title looks purely educational
 - id: '7692446434984987917'
   title: Your cleanser is there to keep your skin clean. Moisturizer is for ke...
   creator: Ella (@your.estie.ella)
