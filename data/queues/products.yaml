@@ -3830,3 +3830,17 @@
     framing is her opinion and is deliberately absent from the card; grade the product
     on its INCI and any real evidence. Resolve the exact product name via inci_lookup,
     since 'Collagen Cleansing Oil' is taken from speech.
+- name: Lotrimin Ultra (butenafine 1% cream)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: athletes-foot
+  source: 'The best-known consumer butenafine product and the one whose label carries
+    the distribution limit now quoted on athletes-foot (DailyMed SPL read 2026-10-22):
+    ''cures most athlete''s foot between the toes. Effectiveness on the bottom or
+    sides of foot is unknown.'' That single sentence is the most purchase-relevant
+    thing on any OTC antifungal label the site has read, and no product page carries
+    it. CONFIRM which marketed SKU corresponds, since 21 butenafine SPLs exist under
+    various distributors and only one representative label was read; also note the
+    site already covers Lotrimin AF, which is clotrimazole, so keep the two distinct
+    rather than treating Lotrimin as one product.'

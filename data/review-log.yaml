@@ -846,15 +846,27 @@ astragalus-membranaceus:
   score: 7
   verdict: publish
 athletes-foot:
-  last_reviewed: '2026-09-23'
-  note: 'Opus profile-reviewer verified every quote + statistic verbatim vs Crawford 2007 Cochrane CD001434
-    (PMID 17636672): description quotes, 67/144 trials, RRs (allylamines 0.33, azoles 0.30, ciclopiroxolamine
-    0.27), head-to-head RR 0.63 favouring allylamines, and OTC conclusion all exact; tier_list class attributions
-    correct. Verdict revise (1 Critical): body prose wrongly grouped ciclopirox under ''azole antifungals''
-    (it is a hydroxypyridone) - fixed to name the classes correctly; added ciclopirox wider-CI rationale
-    for its lower tier.'
-  score: 9
-  verdict: revise-then-fixed
+  assurance: sonnet
+  notes: 'SECTION ADDED, queued page NOT created. The item was ''Moccasin-type tinea pedis'', which would
+    have been a subtype hub duplicating this one, the sixth such pair risk on this site. The distinction
+    was genuinely missing here though: string-checked, the page had ZERO occurrences of moccasin, interdigital
+    or subtype. Added ''Where on the foot it is changes what to buy'' from THREE DailyMed labels read
+    directly: butenafine limits its claim to ''between the toes'' and says effectiveness on the bottom
+    or sides is unknown; terbinafine claims tinea pedis generally but DOUBLES the course for the sole
+    and sides (1 week vs 2); clotrimazole claims generally and directs 4 weeks regardless. All 21 quoted
+    strings on the page verified against the three labels plus the Cochrane abstract. THE SKEPTICAL SYNTHESIS
+    is the point: these are not comparative findings. The Cochrane review the page''s grades rest on covers
+    the foot as a whole and never reports results by distribution (string-checked: zero hits for interdigital,
+    moccasin, plantar, sole or distribution), so the label differences record what each sponsor studied
+    and chose to claim. FIXED A PRE-EXISTING QUOTE DEFECT I did not write: the Cochrane quote ended ''...0.11
+    to 0.66).'' where the source has ''...0.11 to 0.66); tolnaftate RR 0.19...'', so a closing period
+    had been substituted for a semicolon, making a mid-sentence truncation read as the source''s own sentence
+    end. Figures were all correct; the punctuation was not. Now quoted without the false terminal period
+    and flagged as continuing. One representative label was read per drug (of 21, 116 and 374 DailyMed
+    matches), and each footnote says so rather than implying all were checked.'
+  reviewed: '2026-10-22'
+  reviewer: main-loop self-verification
+  verdict: publish
 atopic-dermatitis:
   last_reviewed: '2026-07-28'
   note: 'Held blocker cleared. Full-text verification (Group C workflow, independently spot-checked):

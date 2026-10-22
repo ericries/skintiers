@@ -2357,7 +2357,14 @@
     failure versus placebo in fungal foot infection. A long-standing OTC antifungal
     with no page here, so the otc-antifungals-by-evidence tier_list cannot include
     it. Same discipline as the tolnaftate page: that placebo RR is NOT comparable
-    with the other pools and must not be used to rank it.'
+    with the other pools and must not be used to rank it. 2026-10-22, second grounding
+    from athletes-foot: the full Cochrane sentence (PMID 17636672) reads on past ciclopiroxolamine
+    to ''tolnaftate RR 0.19 (95% CI 0.08 to 0.44); butenafine RR 0.33 (95% CI 0.24
+    to 0.45); undecanoates RR 0.29 (95% CI 0.12 - 0.70)''. Undecanoates are therefore
+    the only one of the six pooled agent groups in that review with no page here.
+    Remember the discipline from otc-antifungals-by-evidence: that RR is a SEPARATE
+    placebo-controlled pool and must not be used to rank undecylenic acid against
+    the other five.'
 - name: Naftifine
   type: ingredient
   priority: 5

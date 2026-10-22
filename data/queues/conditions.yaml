@@ -413,7 +413,7 @@
 - name: Moccasin-type tinea pedis (sole and sides of the foot)
   type: condition
   priority: 5
-  status: pending
+  status: done
   discovered_from: butenafine
   source: 'Grounded in a gap the butenafine label itself names: it claims to cure
     athlete''s foot BETWEEN THE TOES and then states ''Effectiveness on the bottom
