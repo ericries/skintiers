@@ -41,6 +41,18 @@ tier_list_reviewed:
 - paulas-choice-skin-perfecting-8-aha-gel-exfoliant
 type: goal
 updated: '2026-10-05'
+videos:
+- title: Is Thiamidol Worth It or Overhyped?
+  creator: Dr. Sarah Sheu
+  creator_slug: dr-sarah-sheu
+  credential: Board-certified dermatologist, MD (Northwestern Feinberg), Stanford dermatology residency (chief resident); Medical Director of Dermatology, Valley Medical Center, Seattle WA
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=7Ycbl86P2Jk
+  posted: '2026-03-28'
+  related: [thiamidol, melasma, hydroquinone, azelaic-acid, kojic-acid, arbutin]
+  thesis: 'Dermatologist Dr. Sarah Sheu reviews thiamidol, the over-the-counter pigment-blocking ingredient sold in Eucerin''s Radiant Tone line, and explains why earlier brightening ingredients so often disappointed: most were screened against tyrosinase taken from mushrooms rather than from humans, and the two versions of the enzyme are not structurally the same. On how well it works she gives numbers and refuses to oversell them, describing a placebo-controlled melasma study in which both groups began at a MASI score of 16, the placebo group fell by two points and the thiamidol group by four, and noting that scores crept back toward placebo once people stopped using it. Her sharpest criticism is aimed at the manufacturer''s own comparison against hydroquinone, which she says pitted a double layer of thiamidol applied twice daily against a single layer of hydroquinone once daily, a dosing mismatch she does not accept as a fair test.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 "Even skin tone" is not one problem. It covers at least three different things happening in the skin, and they call for different treatments: brown patches of excess pigment ([[hyperpigmentation]], often [[melasma]]), flat pink or red marks left behind after a spot or inflammation heals (post-inflammatory erythema, most visible in lighter skin and covered under [[acne-scars]]), and a general dull or uneven texture that is mostly a byproduct of sun damage and slowed cell turnover. A landmark review on post-inflammatory hyperpigmentation notes it "is a common sequelae of inflammatory dermatoses that tends to affect darker skinned patients with greater frequency and severity."[^davis] Melasma, meanwhile, is increasingly understood as photoaging rather than a purely hormonal condition: "melasma might be a photoaging skin disorder affecting genetically predisposed individuals."[^passeron] That shared photoaging mechanism is why sun protection sits underneath every branch of this goal.

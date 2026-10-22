@@ -495,6 +495,7 @@
   last_pulled: '2026-09-21'
 - name: Dr. Sarah Sheu
   creator_slug: dr-sarah-sheu
+  backfill_cursor: 15
   credential: Board-certified dermatologist, MD (Northwestern Feinberg), Stanford dermatology residency (chief resident); Medical Director of Dermatology, Valley Medical Center, Seattle WA
   tier: HIGH
   channel: https://www.youtube.com/channel/UCt81dX_POSILzje8ICIRGHQ/videos
