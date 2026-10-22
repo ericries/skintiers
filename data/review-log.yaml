@@ -3766,6 +3766,27 @@ draelos-2006-niacinamide-2-facial-sebum-production:
     '
   score: 10
   verdict: publish
+draelos-2025-age-inhibiting-moisturizer-procedure-effectiveness:
+  assurance: sonnet
+  notes: 'All 22 quoted strings RE-VERIFIED at publish time against a fresh fetch of the PMID 40911740
+    abstract, not against the research recorded in the queue note two days earlier; 0 unmatched. Kept
+    compact per the study scope (design, n, intervention, primary result, effect size, applicability,
+    one key limitation) with no re-telling of the AGE or glycolic-acid story. THREE absences string-checked
+    in the abstract: no product or brand name of ANY kind (0 hits), no numeric effect size on the modified
+    Griffiths scale, no mention of sponsorship; PubMed also records no author affiliations and no COI
+    statement, stated as the record rather than an allegation. Two interpretive cautions written into
+    the page: the 10-attributes-versus-baseline claim is a WITHIN-ARM change and must not be read as a
+    larger version of the 5-attributes-versus-control result; and procedure was assigned BY PHOTOTYPE
+    (I-II got RF microneedling, III-VI got the glycolic peel), so procedure and phototype effects are
+    confounded by design at roughly 21 per stratum. The key limitation chosen for this site''s purpose
+    is that the product is never named, so the evidence cannot be attached to anything purchasable, and
+    the authors'' own conclusion about ''women of all skin tones'' is noted as a category claim with one
+    unnamed member. STYLE ERROR CAUGHT BEFORE PUBLISH: I had put scare quotes around two of my own paraphrases;
+    quote marks here belong only on fetched wording. This is the second day running that the verbatim
+    check caught that same habit.'
+  reviewed: '2026-10-22'
+  reviewer: main-loop self-verification
+  verdict: publish
 draelos-2026-efficacy-tolerance-and-safety-of-a-novel-botanical-anti-i:
   last_reviewed: '2026-08-08'
   note: 'Opus re-fetched PubMed abstract PMID 42163060 and verified all figures (n=60; Wk8 erythema IGA

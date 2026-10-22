@@ -770,7 +770,7 @@
     (PMID 40911740)
   type: study
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: 'https://pubmed.ncbi.nlm.nih.gov/40911740/ Research done 2026-10-21 but
     the tick was superseded before drafting; do NOT re-fetch, just verify. J Drugs
@@ -1463,3 +1463,16 @@
     PubMed for a published version (terms: illuMask OR ''blue and red light'' acne
     home mask 2013 La Lumiere); if none exists, record that the data is FDA-file-only,
     which is itself the finding.'
+- name: Modified Griffiths scale
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: draelos-2025-age-inhibiting-moisturizer-procedure-effectiveness
+  source: The investigator scoring instrument behind the Draelos 2025 results (PMID
+    40911740) and behind a good deal of cosmetic-dermatology photo grading generally.
+    It matters because that study reports only that differences cleared P<0.05 with
+    NO point values, which is uninterpretable unless a reader knows the scale's range
+    and what one step on it looks like. An agent-facing page giving the scale's range,
+    anchors and validation would let every future Griffiths-scored claim on the site
+    be read properly. Find the original validation paper; do NOT describe the scale
+    from memory or from a trial that merely used it.
