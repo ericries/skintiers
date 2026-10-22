@@ -10395,6 +10395,27 @@ revive-light-therapy-lux-glo:
     markup and collapses whitespace while preserving any ld+json block, and pointed the playbook at it.
     Verified: all four spot-checked quotes now match with a plain grep where they previously returned
     zero.'
+revive-light-therapy-lux-lip-care:
+  assurance: sonnet
+  notes: 'All 49 quoted strings verified verbatim against the K172662 Summary (read in full), the cached
+    brand page, the openFDA applicant query and the PMID 42545315 abstract; 0 mismatches. BREAKTHROUGH
+    FOR THIS DEVICE CLUSTER: K172662 prints an Energy Level row the other filings omit, giving 67.7 mW/cm2
+    over 24 cm2 for the perioral device against 62.07, 70.16 and 61.59 mW/cm2 for three dpl predicates.
+    So the firm DOES report irradiance to FDA, which retroactively sharpens the dose-silence findings
+    on dpl-spotlite, dpl-faceware, lux-clinical and lux-panel from ''not disclosed here'' to ''disclosed
+    elsewhere by the same firm''. Those earlier absence claims were scoped to their own documents and
+    therefore remain correct. The page''s main finding is the unevidenced claim: ''Supports fuller-looking
+    lips and enhanced lip color'' has NO cleared indication behind it anywhere in the firm''s 15 records
+    (string-checked: zero lip or colour hits in the openFDA device names), while the nearest clearance
+    covers fine lines and an increase in circulation in the PERIORAL region, meaning around the mouth,
+    not the lips. Graded minimal/anecdotal on absence of evidence and the page says so explicitly rather
+    than implying disproof. DECLINED an available bridge: ''increase in circulation'' IS cleared and could
+    be argued toward lip colour; the brand does not make that argument and the page refuses to construct
+    it. Also declined asserting that the retail unit IS K172662 despite matching wavelengths, treatment
+    time and accessory, since no clearance is named Lux.'
+  reviewed: '2026-10-21'
+  reviewer: main-loop self-verification
+  verdict: publish
 revive-light-therapy-lux-panel:
   assurance: sonnet
   notes: 'All 43 quoted strings verified verbatim against the LOCAL CACHE of the brand product page (research-cache/web/baa6fd4709bf9f24.md)

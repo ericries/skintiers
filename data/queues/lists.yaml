@@ -597,3 +597,18 @@
     validation papers for each method first, and if the validation turns out to be
     thin, that IS the finding. Would let every future sensitive-skin claim on the
     site be read against a real definition.'
+- name: Home LED devices by published irradiance
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: revive-light-therapy-lux-lip-care
+  source: 'Grounded in the K172662 chart read 2026-10-21, which is the first filing
+    in this cluster to publish an Energy Level row: 67.7, 62.07, 70.16 and 61.59 mW/cm2
+    for four LED Technologies devices, with treatment areas of 24, 30, 415 and 28
+    cm2. Irradiance is the variable that decides whether an LED device does anything
+    and nearly every brand page omits it, so a list ranking covered devices by PUBLISHED
+    dose, with an explicit tier for ''does not disclose'', would be genuinely useful
+    and is not duplicated by home-use-skincare-devices-by-evidence (which ranks MODALITIES
+    by GRADE level). BUILD ONLY from numbers printed in a filing or on a brand page;
+    never estimate, and never infer a retail unit''s output from a similarly specced
+    clearance. Needs at least 3-4 devices with real figures first.'

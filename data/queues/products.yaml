@@ -3144,7 +3144,7 @@
 - name: reVive Lux Lip Care light therapy device
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: revive-light-therapy-lux-glo
   source: Listed at https://revive-light-therapy.com/products/lux-lip-care in the
     brand shop-all navigation (cached 2026-10-18). The site already has a lip-care
@@ -3572,7 +3572,7 @@
 - name: reVive Light Therapy Lux Lip Care
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: Product handle lux-lip-care on the reVive storefront listing cached 2026-10-21.
     An LED device aimed at the lip area, which is a distinct claim from the face devices
@@ -3616,3 +3616,27 @@
     OLP) whether Pulsaderm or any other firm holds a clearance for a body or large-area
     acne light, and drop this item if none exists rather than drafting a page around
     a product that is not cleared for it.'
+- name: reVive Perioral LED Light Therapy system (K172662)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: revive-light-therapy-lux-lip-care
+  source: 'FDA 510(k) Summary K172662 read IN FULL on 2026-10-21 for the Lux Lip Care
+    page, so the research is already done: cleared 2018-01-09, product codes OHS and
+    ILY, indication ''treatment fine lines and wrinkles, and increase in circulation
+    within the perioral region'' (missing word is the file''s own), four LEDs at 605/630/660/880nm,
+    24 cm2 treatment area, 67.7 mW/cm2, 3 minutes, predicates K141181 / K171390 /
+    K171386 all the firm''s own. Worth its own page because it is the CLEARED device
+    whose specs the retail Lux Lip Care matches, and because its chart is the only
+    one in this family that publishes irradiance. accessdata.fda.gov/cdrh_docs/pdf17/K172662.pdf.
+    Do NOT assert it is the Lux Lip Care renamed.'
+- name: dpl Nuve for Wrinkles (LED Technologies, K141181)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: revive-light-therapy-lux-lip-care
+  source: 'Named as a predicate in K172662, read 2026-10-21. Its irradiance is already
+    known from that chart: 62.07 mW/cm2 over a 30 cm2 treatment area, 605/630/660/880nm,
+    3 minutes. Cleared 2015-03-31, product code OHS, Summary available at accessdata.fda.gov/cdrh_docs/pdf15/K141181.pdf.
+    Distinct from the already-queued ''dpl Nuve (K101382)'', which is the earlier
+    2010 clearance under a different code; do not conflate the two.'
