@@ -65,6 +65,16 @@ videos:
   related: []
   thesis: 'Board-certified dermatologist Dr. Neera Nathan explains that the small persistent bumps many people see on the chin and nose are not pimples or milia but sebaceous filaments, normal pore structures that cannot be eliminated but can be minimized. She offers three derm-approved approaches: a sulfur mask left on 10 minutes to break down debris and reduce surface oiliness, a salicylic acid cleanser to exfoliate and cut sebum without stripping the skin barrier, and a pea-sized amount of adapalene gel, which she says is unmatched over-the-counter for keeping pores clear and appearing smaller.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Enlarged Pores? The Best In-Office Treatments (weekend Q&A)
+  creator: Andrea Suarez (Dr Dray)
+  creator_slug: andrea-suarez-dr-dray
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=U0cXvfQ8h60
+  posted: '2026-10-10'
+  related: [magnesium-ascorbyl-phosphate, sodium-ascorbyl-phosphate, ammonium-lactate, microneedling, fractional-co2-laser-resurfacing, sun-damage-photoaging, niacinamide]
+  thesis: In a weekend question-and-answer episode, dermatologist Andrea Suarez, who posts as Dr Dray, takes apart the widely repeated claim that vitamin C stays active in skin for 72 hours so you can apply it every second or third day. She points out the absorption studies behind it were done on pig skin, which she says is more accepting of water-loving ingredients like ascorbic acid and so can overestimate how much gets in, and that pigs can make their own vitamin C from glucose while humans cannot, and she notes the human clinical trials that showed collagen benefit applied it daily or twice daily, so there is no clinical data on the every-third-day schedule. Asked separately about the best in-office treatment for enlarged pores, she names radiofrequency microneedling and fractional laser, on the reasoning that both raise collagen production and so support the pore wall, which loses its dermal support with sun damage and age.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

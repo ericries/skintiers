@@ -3718,3 +3718,17 @@
     has its own FDA clearance under applicant Carol Cole Company (openFDA, product
     code NFO; the API returned 500 on 2026-10-21 so retry) or whether it is sold without
     one, and say which plainly.'
+- name: Dr. Dennis Gross Alpha Beta peel pads
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: vitamin-c
+  source: Discussed at length in Dr Dray's weekend Q&A carded 2026-10-10 (video U0cXvfQ8h60).
+    She describes the two-step pads as step one combining glycolic, lactic and salicylic
+    acid, and step two carrying antioxidants plus retinol, notes the universal version
+    she tried contains fragrance, puts the price at around ninety-something dollars,
+    and argues two CeraVe products (the acne control gel plus the acne control line's
+    retinol) do substantially the same job for much less. CONFIRM the exact SKU and
+    INCI via inci_lookup before drafting, since this brand sells several renditions
+    of the pads, and treat her CeraVe equivalence as HER comparison, not a tested
+    finding; she says explicitly that no non-industry study comparing the two exists.

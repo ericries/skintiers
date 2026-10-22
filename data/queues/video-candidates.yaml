@@ -10356,7 +10356,8 @@
   conflict: Muneeb Shah runs own skincare brand (Remedy Science) and Scriptable Rx venture featured on the channel
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: multi-topic by design (wrinkles, acne, dark spots and more), so there is no single most-relevant page to embed on, and the creator has an own-brand line; has sat at the top of the queue for four ticks without becoming eligible
 - id: qhau8dvectE
   title: Speed Review | Asaya, Celimax, CeraVe, Inde wild, Nivea roll on & more
   creator: Dr. Aanchal MD
@@ -10763,7 +10764,8 @@
   conflict: Runs a "Shop my Favorites" affiliate storefront (linktr.ee/dermatologysurgeon) that monetizes her product picks; no own-brand prod
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'Shorts-style hashtag clip (''10/10 glycolic acid hacks from a derm #skincare'') from a product_recs=restricted creator, aimed at a page that already carries nine cards including a full head-to-toe glycolic guide carded 2026-10-21'
 - id: '7694023806645505294'
   title: 'I love a simply, glowy routine ✨ Products used: @Remedy Science Azela...'
   creator: Ella (@your.estie.ella)
@@ -10989,7 +10991,8 @@
   conflict: does sponsorships - educational content only, never treat picks as endorsements, never use sponsored videos
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: multi-treatment clinic haul filmed abroad (Xerf, stem cell, scalp), not single-topic education, and the named treatments have no pages here
 - id: kIDGfCTXPTY
   title: 'EPR in Beauty: What you should know. ROUNDTABLE'
   creator: Jen Novakovich (The Eco Well)
@@ -11070,7 +11073,8 @@
   conflict: Runs a "Shop my Favorites" affiliate storefront (linktr.ee/dermatologysurgeon) that monetizes her product picks; no own-brand prod
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: product promotion with a brand @tag ('Try @cerave Brightening Vitamin C Lotion') from a creator who monetizes picks through an affiliate storefront; picks treated as effectively paid
 - id: YmMeB43lgEM
   title: 'rating viral skincare 👌🏾 stitch with dooobieberry #skincare'
   creator: Dr. Neera Nathan
@@ -11441,7 +11445,8 @@
   conflict: Own-brand UPF sun-protective clothing line, SOUL-A (wearsoula.com / @wearsoula), founded and promoted by him — apparel, not topical skincare
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'hashtag-stuffed Shorts-style reaction clip (#dermreacts #skincare #dermatologist #dermangelo #reactionvideo); not single-topic education'
 - id: LJ8DzvfMR68
   title: '“Acne Safe” foundation #dermreacts  #skincare  #dermatologist #dermangelo'
   creator: Dr. Angelo Landriscina (DermAngelo)

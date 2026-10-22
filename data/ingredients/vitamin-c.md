@@ -162,6 +162,16 @@ videos:
   related: [sunscreen-uv-filters, retinoids, niacinamide, hyperpigmentation, anti-aging, skinceuticals-c-e-ferulic]
   thesis: Board-certified dermatologist Andrea Suarez (Dr Dray) works through whether a vitamin C serum is actually necessary and concludes it is not a must-have for everyone. Asked what the most evidence-based topicals are for anti-aging, pigmentation and sun damage, she puts sunscreen first and a topical retinoid second, and says she does not routinely use vitamin C herself. She presents ascorbic acid as a sensible antioxidant option for people who do not tolerate retinoids or niacinamide, and notes that the serums actually used in clinical studies, such as SkinCeuticals C E Ferulic, run roughly 100 to 120 dollars a bottle with no good evidence that they are truly superior to cheaper alternatives.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Enlarged Pores? The Best In-Office Treatments (weekend Q&A)
+  creator: Andrea Suarez (Dr Dray)
+  creator_slug: andrea-suarez-dr-dray
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=U0cXvfQ8h60
+  posted: '2026-10-10'
+  related: [magnesium-ascorbyl-phosphate, sodium-ascorbyl-phosphate, ammonium-lactate, microneedling, fractional-co2-laser-resurfacing, sun-damage-photoaging, niacinamide]
+  thesis: In a weekend question-and-answer episode, dermatologist Andrea Suarez, who posts as Dr Dray, takes apart the widely repeated claim that vitamin C stays active in skin for 72 hours so you can apply it every second or third day. She points out the absorption studies behind it were done on pig skin, which she says is more accepting of water-loving ingredients like ascorbic acid and so can overestimate how much gets in, and that pigs can make their own vitamin C from glucose while humans cannot, and she notes the human clinical trials that showed collagen benefit applied it daily or twice daily, so there is no clinical data on the every-third-day schedule. Asked separately about the best in-office treatment for enlarged pores, she names radiofrequency microneedling and fractional laser, on the reasoning that both raise collagen production and so support the pore wall, which loses its dermal support with sun damage and age.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

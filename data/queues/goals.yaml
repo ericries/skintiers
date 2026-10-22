@@ -545,3 +545,17 @@
     classification, and route to the three existing pages. DO NOT create a fourth
     type page; this is a hub about the framework, and the site already has five near-duplicate
     page pairs from exactly this kind of drift.'
+- name: Sclerotherapy for spider veins
+  type: goal
+  priority: 5
+  status: pending
+  discovered_from: vitamin-c
+  source: Dr Dray answers a reader question on leg spider veins in the Q&A carded
+    2026-10-10 (video U0cXvfQ8h60), describing sclerotherapy as injecting a sclerosant
+    to clot off the vein so the body absorbs it, with compression stockings afterwards,
+    and noting that oral contraceptives, estrogen-based medications and pregnancy
+    can all make leg spider veins more common. The site has NO sclerotherapy or spider-veins
+    page and already covers several in-office procedures (subcision, PRP, microneedling,
+    Mohs, CO2 resurfacing), so this fits the existing set. Source the technique and
+    evidence from primary dermatology or vascular literature, not from her answer,
+    and keep the hormonal-risk point attributed until verified.
