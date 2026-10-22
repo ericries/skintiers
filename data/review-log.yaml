@@ -8626,6 +8626,30 @@ noble-formula-2-pyrithione-zinc-bar-soap:
     clean.'
   score: 8
   verdict: publish
+nubody-skin-toning-device:
+  assurance: sonnet
+  notes: 'All 61 quoted strings verified against four sources: the K171588 Summary read in full, the cached
+    brand page, a live openFDA k_number query, and the PMID 42545315 abstract. TABLE COLUMN ORDER WAS
+    CONFIRMED FROM THE HEADER before any paired figure was used, since the whole output comparison depends
+    on which column is the new device. FINDINGS: (1) the product is NAMED Skin Toning Device while its
+    cleared indication is body skin STIMULATION, so the claim is in the name; (2) a BODY device was cleared
+    against the firm''s own FACE device (NuFACE Plus, K103472), with the anatomic-site row changing from
+    Face to areas of the body other than the face; (3) unlike every LED filing in this run, this one PUBLISHES
+    its output, and the numbers show NuBODY at more than twice the predicate''s current and charge and
+    more than three times its maximum average power density (4.18 vs 1.12 mW/cm2) with equivalence resting
+    on bench testing alone. TWO FAIRNESS MOVES: the page notes the current DENSITY figures are close (0.468
+    vs 0.419 mA/cm2) so the two density measures diverge, and explicitly declines to offer a mechanism
+    reconciling them; and it credits the brand for appearance-register wording and for never using the
+    word cellulite (string-checked, 0 hits), which is restraint this category often lacks. No modality
+    grade borrowed: the GRADE review covers LED, RF, lasers, IPL, light-heat and microneedling but NOT
+    microcurrent, and the footnote cites it only for that absence. Price 399.00 from schema Offer markup,
+    flagged as a KIT price; a second 595.00 figure in the markup was noted and not used. Stimulation-versus-toning
+    and the pain-relief-regulation mismatch are both LINKED OUT to the sibling pages rather than re-argued.
+    Caught before publish: a case mismatch where I capitalised ''dimpled, crepey skin'' mid-sentence from
+    the source; third case-sensitivity catch in three days.'
+  reviewed: '2026-10-22'
+  reviewer: main-loop self-verification
+  verdict: publish
 nuface:
   last_reviewed: '2026-10-18'
   note: 'Lean brand card, 131 words of body, inside the 180-word cap. Its job is to link to products and

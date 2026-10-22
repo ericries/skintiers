@@ -3179,7 +3179,7 @@
 - name: NuBODY Skin Toning Device (K171588)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: nuface
   source: openFDA record K171588, decision 2017-07-31, 510(k) Summary, applicant Carol
     Cole Company Dba Nuface. A BODY microcurrent device, which is a distinct claim
@@ -3759,3 +3759,30 @@
     the current prescription and OTC versions match the 12% tested. AmLactin already
     has a page, so keep the two distinct and do not let either inherit the other's
     trials.
+- name: NuFACE Microcurrent Activator / Aqua Gel Activator
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: nubody-skin-toning-device
+  source: 'The conductive gel the brand instructs users to apply before every microcurrent
+    treatment, named on the NuBODY page cached 2026-10-22 (research-cache/web/cff8573fba3fd484.md)
+    and included in the $399 starter kit as ''Aqua Gel Activator 10 Oz''; the K191672
+    Mini filing separately states the device ''requires the use of a conductive gel
+    or medium during treatment''. It therefore sits in the required path for THREE
+    device pages here and has none of its own. Resolve its INCI via inci_lookup and
+    be precise about what it is for: conductivity is its job, so do not let any skin-benefit
+    claim on its label inherit the devices'' clearances.'
+- name: NuFACE Plus / NuFACE Trinity (K103472)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: nubody-skin-toning-device
+  source: 'The single predicate behind BOTH the NuBODY (K171588) and the 2014 Mini
+    (K133823), per filings read 2026-10-22 and 2026-10-21, and therefore the root
+    of this firm''s predicate chain the way K101382 is for LED Technologies. Its output
+    figures are already known from the NuBODY comparison table: 400 uA @ 500 ohm max
+    current, 24 uC net charge per pulse, 1.12 mW/cm2 max average power density, 0.419
+    mA/cm2 current density, 28 VDC, approx 8.3 Hz, two electrodes. CHECK FIRST whether
+    nuface-trinity-microcurrent-device already covers K103472; the 2019 Mini names
+    a DIFFERENT Trinity clearance (K181008), so there may be two distinct Trinity
+    filings and conflating them would be an error.'

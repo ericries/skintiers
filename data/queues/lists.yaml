@@ -612,3 +612,17 @@
     by GRADE level). BUILD ONLY from numbers printed in a filing or on a brand page;
     never estimate, and never infer a retail unit''s output from a similarly specced
     clearance. Needs at least 3-4 devices with real figures first.'
+- name: Do home body-contouring devices do anything?
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: nubody-skin-toning-device
+  source: 'Grounded in a real and now-repeated gap: the site has THREE body-positioned
+    device pages (nubody-skin-toning-device for microcurrent, revive-light-therapy-lux-panel
+    for LED on chest and back, plus the home-radiofrequency hub whose cleared indications
+    are facial only) and NO page that says what the evidence covers. The 2026 GRADE
+    review (PMID 42545315) grades FACIAL acne and FACIAL rejuvenation and does not
+    assess microcurrent at all, so for body treatment there is currently nothing to
+    inherit. A short list would exist to state that plainly and route to the device
+    pages. BUILD ONLY if a genuine body-outcome literature exists; if it does not,
+    that IS the finding and the page should be one screen long.'
