@@ -2382,3 +2382,15 @@
     is NDA rather than ANDA, and take its complete-cure and mycologic-cure rates from
     the label''s own trial table the way the efinaconazole page does. Expect a similarly
     modest complete-cure rate; do not assume one.'
+- name: Imiquimod 5% cream
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: mohs-micrographic-surgery
+  source: 'Named on mohs-micrographic-surgery (2026-10-21) as one of the topical options
+    for superficial BCC that the van Loo trial did NOT study, and the site has no
+    page for it. A genuine catalog gap: it is a prescription immune-response modifier
+    with FDA-approved indications, so DailyMed carries the label and its own trial
+    data, the same free-primary route used for efinaconazole. Grade it on its OWN
+    label evidence; do not transfer anything from the Mohs trial, which compared only
+    surgery with surgery. Confirm the marketing category is NDA before writing FDA-approved.'

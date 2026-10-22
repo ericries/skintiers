@@ -7848,6 +7848,24 @@ mirvaso-brimonidine-gel:
     '
   score: 10
   verdict: publish
+mohs-micrographic-surgery:
+  assurance: sonnet
+  notes: 'All 17 quoted strings verified verbatim against the re-fetched PMID 25262378 abstract; 0 mismatches.
+    The page''s spine is a distinction the source supports and popular summaries flatten: in high-risk
+    PRIMARY facial BCC the 10-year recurrence difference was 4.4% vs 12.2% at p=0.100, NOT significant,
+    while in RECURRENT facial BCC it was 3.9% vs 13.5% at p=0.023, significant. The page says so and explicitly
+    notes that the authors'' own interpretation sentence (''high risk facial BCC'') runs slightly ahead
+    of the primary-BCC p-value, while granting the direction is fair. Carried the most transferable finding:
+    56% of primary-BCC recurrences occurred more than 5 years after treatment, so every 5-year cure rate
+    understates lifetime recurrence. Author affiliations include two dedicated Mohs practices (MohsA Expertise
+    Centre, Mohsklinieken); recorded as publication record with no allegation, and the page notes it cuts
+    AGAINST interest here since the larger group returned a null result. PubMed records no COI statement
+    (string-checked). No tier_list, with the reason stated: the comparators (surgical excision, topicals)
+    have no pages, so there is nothing to rank; a comparison belongs on the cancer hubs. Only the abstract
+    was accessed, so cosmetic outcomes, adverse events and the cost analysis are explicitly disclaimed.'
+  reviewed: '2026-10-21'
+  reviewer: main-loop self-verification
+  verdict: publish
 moisturizing:
   last_reviewed: '2026-07-27'
   note: critic revise -> 3 items fixed (superlative scoped to eczema, 99% attributed to StatPearls, ceramide

@@ -237,7 +237,7 @@
 - name: Mohs micrographic surgery
   type: goal
   priority: 5
-  status: pending
+  status: done
   discovered_from: keratinocyte-carcinoma
   source: 'Listed by NCI PDQ as a treatment option for localized BCC and SCC, and
     the procedure specifically indicated where margins matter most. Grounded directly
@@ -473,3 +473,16 @@
     the category''s own framing, and do not assert that no evidence exists either.
     Her petri-dish-biomarker objection is the right spine; find the actual claims
     brands make and check what each rests on.'
+- name: Surgical excision (standard excision for skin cancer)
+  type: goal
+  priority: 5
+  status: pending
+  discovered_from: mohs-micrographic-surgery
+  source: 'The comparator arm in the van Loo 2014 trial (PMID 25262378) that the mohs-micrographic-surgery
+    page is built on, shipped 2026-10-21. It is described in that trial as the standard
+    treatment for BCC, and the site has NO page for it, which is why the Mohs page
+    carries no tier_list: there is nothing to rank against. Building it would let
+    a real treatment comparison live on keratinocyte-carcinoma. Use the SAME trial
+    as the spine and keep the p-values straight: 10-year recurrence 12.2% for excision
+    vs 4.4% for Mohs in high-risk PRIMARY facial BCC at p=0.100 (not significant),
+    and 13.5% vs 3.9% in RECURRENT facial BCC at p=0.023 (significant).'

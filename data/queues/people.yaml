@@ -327,3 +327,18 @@
     card only, per person scope, and state nothing beyond what the publication record
     shows; do not infer current roles or titles that are nine years old without re-verifying
     from a primary source.
+- name: Maren Locke (The Budget Dermatologist)
+  type: person
+  priority: 5
+  status: pending
+  discovered_from: mohs-micrographic-surgery
+  source: 'A fellowship-trained Mohs surgeon already on the creator roster, whose
+    melanoma explainer (959k views) is carded on the melanoma page, and who now has
+    a second topical anchor in mohs-micrographic-surgery. LEAN discovery card only,
+    per person scope. Credential as recorded on the roster: board-certified dermatologist
+    and fellowship-trained Mohs surgeon, founder/director of Carlyle Dermatology,
+    Ocala FL. IMPORTANT: her roster entry records extensive Amazon Associates and
+    ShopMy affiliate storefronts monetizing nearly every product mentioned, so the
+    card must point to her EDUCATIONAL videos and must not relay product picks. Verify
+    the credential from a primary source before publishing anything about a living
+    person.'
