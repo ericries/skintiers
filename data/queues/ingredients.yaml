@@ -2421,3 +2421,17 @@
     its trial data; grade it on that rather than on her one-line description, and
     be precise that it is injected by a clinician and is not a topical ingredient
     despite the type slot.
+- name: Spironolactone (oral, for acne and HS)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: hidradenitis-suppurativa
+  source: 'Named in the Waldman/Charrow HS expert guide carded 2026-10-22 (video xriri7WTcKo)
+    as the hormonal option for HS that behaves more like acne, alongside birth control.
+    The site has isotretinoin as an oral precedent but NO spironolactone page, despite
+    it being one of the most prescribed systemic acne treatments in women. Build it
+    from primary sources: it is an FDA-approved drug but NOT approved for acne, so
+    this is an off-label use and the page must say so plainly rather than implying
+    an acne indication exists. Check DailyMed for the actual approved indications
+    and the boxed or black-box warning history before writing anything, and do not
+    inherit the HS or acne framing from a video.'

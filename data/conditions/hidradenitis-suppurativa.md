@@ -45,6 +45,16 @@ videos:
   related: [zinc-pyrithione, folliculitis, body-acne]
   thesis: 'Dermatologist Dr. Neera Nathan starts by correcting what the painful armpit bumps of hidradenitis suppurativa are not, saying they are not pimples, not an infection and not contagious, but part of a common inflammatory condition. She then offers three things to try at home, framed as symptom relief rather than cures: using a pyrithione zinc dandruff shampoo as a body wash, which she describes as antimicrobial and anti-inflammatory and says can help heal bumps and reduce odor; an over-the-counter chlorhexidine surgical scrub to reduce bacteria, while avoiding the eyes and ears; and a do-it-yourself black tea compress applied for ten minutes to calm a painful boil. She is explicit about the limit of all three, saying that pus, worsening pain, or tunnels and scarring call for a board-certified dermatologist because in-office treatments and prescriptions can be life-changing.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: 'Hidradenitis suppurativa: Expert Guide'
+  creator: Dr. Abigail Waldman (Dr. Abby)
+  creator_slug: abigail-waldman
+  credential: Abigail H. Waldman, MD, FAAD; Associate Professor of Dermatology at Harvard Medical School; Director of the Mohs and Dermatologic Surgery Center at Brigham and Women's Hospital / Dana-Farber Brigham Cancer Center
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=xriri7WTcKo
+  posted: '2024-09-04'
+  related: [folliculitis, body-acne, acne]
+  thesis: 'Dermatologist Dr. Abigail Waldman interviews Dr. Alexandra Charrow, clinical director of the hidradenitis suppurativa clinic at Brigham and Women''s Hospital, on how the condition gets diagnosed and treated. Charrow says it takes about seven to ten years on average from first symptoms to diagnosis and that the diagnosis rests on a patient''s history rather than any test, which is why Waldman opens with a follower who spent eight years being told they had infections, were not clean enough, and should lose weight before coming back. On treatment Charrow separates two patterns: disease behaving more like Crohn''s tends to respond to Crohn''s-type treatment such as injected biologics, antibiotics and steroids, while disease behaving more like acne tends to respond to hormonal medication such as spironolactone or birth control plus specific washes, and she is clear that once there are tunnels and abscesses a cream cannot penetrate deep enough and systemic treatment is needed.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

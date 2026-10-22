@@ -504,6 +504,7 @@
   last_pulled: '2026-09-17'
 - name: Dr. Abigail Waldman (Dr. Abby)
   creator_slug: abigail-waldman
+  backfill_cursor: 15
   credential: Abigail H. Waldman, MD, FAAD; Associate Professor of Dermatology at Harvard Medical School; Director of the Mohs and Dermatologic Surgery Center at Brigham and Women's Hospital / Dana-Farber Brigham Cancer Center
   tier: HIGH
   channel: https://www.youtube.com/channel/UCNI5Bp59r_SFle-ObBG3H4Q/videos
