@@ -3806,3 +3806,27 @@
     testing basis is readable at accessdata. Expect the same pattern found on the
     Mini and NuBODY pages: bench comparison of electrical output against an earlier
     in-house device, with no clinical data; confirm rather than assume.'
+- name: SKIN1004 Madagascar Centella Light Cleansing Oil
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: double-cleansing
+  source: Named clearly in the Ella double-cleanse walkthrough carded 2026-10-21 (TikTok
+    7699218037475446030) as one of two oil cleansers she rates highest. Her superlative
+    is NOT relayed on the card and must not be inherited by the page. The site has
+    no oil-cleanser page at all despite double-cleansing now having a card about the
+    format, which is a real catalog gap. CONFIRM the exact SKU name via inci_lookup
+    before drafting; she said 'the skin 1 0 0 4 Light Cleansing Oil' and SKIN1004
+    sells several cleansing oils, so the Madagascar Centella Light Cleansing Oil in
+    this item name is a BEST GUESS and must be verified or corrected.
+- name: BIODANCE Collagen Cleansing Oil
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: double-cleansing
+  source: The other oil cleanser Ella names in the walkthrough carded 2026-10-21 (TikTok
+    7699218037475446030). BIODANCE already has one page here (biodance-bio-collagen-real-deep-mask),
+    so the brand is established but this product is not. Her 'best on the market'
+    framing is her opinion and is deliberately absent from the card; grade the product
+    on its INCI and any real evidence. Resolve the exact product name via inci_lookup,
+    since 'Collagen Cleansing Oil' is taken from speech.

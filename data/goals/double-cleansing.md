@@ -6,6 +6,18 @@ slug: double-cleansing
 status: published
 type: goal
 updated: '2026-09-23'
+videos:
+- title: Yes, double cleansing is beneficial. No, it is not always necessary
+  creator: Ella (@your.estie.ella)
+  creator_slug: your-estie-ella
+  credential: Licensed esthetician (NOT a dermatologist or cosmetic chemist); credibility-vetted for non-sponsored product opinions
+  platform: TikTok
+  url: https://www.tiktok.com/@your.estie.ella/video/7699218037475446030
+  posted: '2026-10-21'
+  related: [how-often-to-wash-your-face, oily-skin, acne, moisturizing]
+  thesis: Licensed esthetician Ella walks through an evening double cleanse in real time and frames it as beneficial rather than obligatory, arguing the oil or balm step is best thought of as a makeup remover because a cleanser alone is not always strong enough to lift makeup. She says people with oily or acne-prone skin can use an oil cleanser or balm, that one bad experience does not rule out the whole category because they are not all alike, and that what matters is finding one that rinses away cleanly plus a second water-based cleanser strong enough to leave no film. Her practical steps are to wash your hands first, apply the balm to dry skin, then add a little water and work it in until it turns milky, which is the emulsifying step that lets everything lift away, and her test for any cleanser is that skin should feel clean and comfortable afterwards rather than tight, red or coated.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Double cleansing is a two-step method of first using an oil-based cleanser or balm to dissolve makeup, sunscreen, and sebum, then following with a water-based cleanser to wash off the residue and everyday grime. The evidence-based bottom line is narrow: it is genuinely useful on days you wear water-resistant sunscreen, and unnecessary as a universal daily ritual.
