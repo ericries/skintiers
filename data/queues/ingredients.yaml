@@ -2434,7 +2434,16 @@
     this is an off-label use and the page must say so plainly rather than implying
     an acne indication exists. Check DailyMed for the actual approved indications
     and the boxed or black-box warning history before writing anything, and do not
-    inherit the HS or acne framing from a video.'
+    inherit the HS or acne framing from a video. 2026-10-22, from the Dr Dray Q&A
+    (video 2bB4rw_Wy2A): two clinically useful points to verify independently when
+    drafting. (1) TOPICAL spironolactone has been observed clinically to cause breast
+    tenderness, which she says is much less likely than with oral but still possible,
+    and she notes there are few studies on the topical form. (2) On monitoring, she
+    says routine potassium checks used to be standard but studies have since shown
+    they are not necessary in otherwise healthy patients taking spironolactone. Both
+    are HER statements and must be sourced to primary literature or a guideline before
+    they appear on a page, since they are dosing and monitoring claims about a prescription
+    drug.'
 - name: Microcurrent (facial microcurrent devices)
   type: ingredient
   priority: 5
@@ -2503,3 +2512,19 @@
     trial tested it on NAILS, where it failed; its skin evidence is a separate question
     and the Cochrane azole pool on otc-antifungals-by-evidence is about foot SKIN.
     Do not let the nail result contaminate the skin grade or vice versa.
+- name: Methoxeton carbamido (KT939) resorcinol derivative
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: sun-damage-photoaging
+  source: 'Dr Dray assesses it in the Q&A carded on sun-damage-photoaging 2026-10-11
+    (video 2bB4rw_Wy2A): a resorcinol derivative working by tyrosinase inhibition,
+    which she calls another variant of the same family as thiamidol. Her read, which
+    the page must treat as HER read and verify independently: most research is in
+    vitro, the dish data suggest it may be more potent than thiamidol, there are NO
+    clinical studies comparing the two, and one clinical study shows benefit for discoloration
+    and uneven tone with good tolerance. ''Promising, but the research is still very
+    preliminary.'' CAUTION: the name comes from an auto-caption as ''methoxeton carbamido''
+    and the code as KT939; RESOLVE THE REAL INCI NAME before drafting and drop this
+    item if it cannot be resolved. Pairs with the thiamidol card already on even-skin-tone,
+    where a dermatologist criticised the manufacturer''s dosing-asymmetry comparison.'

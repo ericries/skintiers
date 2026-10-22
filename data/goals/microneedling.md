@@ -35,6 +35,16 @@ videos:
   related: [peptides, pdrn]
   thesis: Dermatologist Dr. Heather Woolery-Lloyd looks at marine spicules, microscopic needle-like structures harvested from marine sponges that are being marketed as a do-it-yourself alternative to microneedling. She keeps the mechanism claims hedged, saying spicules are thought to create pathways that let active ingredients penetrate deeper, that they stay embedded in the skin surface briefly before shedding, and that by creating a controlled micro-injury response they may signal the skin to increase collagen production and cell turnover. She adds that starting concentrations run between 0.1% and 1% to avoid excessive irritation, that the ingredient is often used to boost absorption of actives such as peptides and PDRN, and that experts warn against pairing spicule products with retinoids or strong acne medications.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: 'At-Home Dermarolling vs. Professional Microneedling: Worth the Risk?'
+  creator: Dr. Brooke Jeffy
+  creator_slug: brooke-jeffy
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=Ffkv-wjINiY
+  posted: '2026-10-11'
+  related: [home-use-skincare-devices-by-evidence, melasma, atrophic-acne-scar-subtypes, skin-firmness-elasticity, smoothing-skin-texture]
+  thesis: Dermatologist Dr. Brooke Jeffy explains why a cheap at-home dermaroller is not a small version of professional microneedling. A roller's needles enter and exit at an angle and can drag, which she says risks small tears rather than the controlled pinpoint injuries intended, while a professional pen drives needles vertically at a depth the operator sets; consumer rollers around 0.2 to 0.25mm mostly disrupt the skin barrier and increase product penetration, whereas the studies showing collagen remodelling used depths often around 0.5mm and extending to 1, 1.5 or 2mm. Her central correction is that a superficial treatment repeated more often does not add up to a deeper controlled one, so you take the risk without the collagen benefit, and she warns specifically about reused devices that are cleaned rather than sterilised, citing published reports of unusual and hard-to-treat skin infections from at-home devices that penetrate the skin.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

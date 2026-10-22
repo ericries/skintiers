@@ -105,6 +105,16 @@ videos:
   related: [sunscreen-uv-filters, anti-aging]
   thesis: Skincare educator James Welsh breaks down tanmaxxing, a social-media trend of deliberately maximizing a tan through sun exposure, tanning beds, and unregulated melanotan tanning products. He argues the trend is driven by misinformation, including overstated vitamin D claims, and warns that these practices raise skin cancer risk and drive premature aging such as wrinkles and collagen loss, because UV exposure is the cause. His takeaway is that a maximized tan is UV damage, not a sign of health.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Can Powder Sunscreen Really Protect Your Skin? (weekend Q&A)
+  creator: Andrea Suarez (Dr Dray)
+  creator_slug: andrea-suarez-dr-dray
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=2bB4rw_Wy2A
+  posted: '2026-10-11'
+  related: [sunscreen-uv-filters, best-sunscreens-daily-wear, even-skin-tone, melasma]
+  thesis: Asked to review powder sunscreens, dermatologist Andrea Suarez, who posts as Dr Dray, says they are very unreliable for coverage because they do not lay down an even consistent layer, and that you would need a great deal of powder to reach the milligram per square centimetre dose the SPF number is based on. Her conclusion is not to rely on an SPF powder alone, though she does use them to mattify shine and finds they help a sunscreen stay in place, while being honest that the setting effect may be her imagination. In the same session she gives figures for UV umbrellas, saying a dedicated lab-tested one blocks 99 percent of UV and an ordinary black rain umbrella a good 70 to 90 percent, while a clear plastic one blocks little, and that none of them prevent burning from light scattered up off pavements, sand and water.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
