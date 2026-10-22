@@ -3156,7 +3156,7 @@
 - name: dpl Nuve (LED Technologies, K101382)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: revive-light-therapy-led-cleansing-system
   source: 'The device the reVive LED Cleansing System borrows its biocompatibility
     evidence from: K180445 states its skin-contact ABS housing is ''the identical
@@ -3679,3 +3679,29 @@
     allergy framing; do NOT present her point as a finding specific to this brand,
     since she says explicitly it is not a problem with EOS per se but with non-petrolatum
     lip balms generally.'
+- name: Omnilux New U (LED device)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: dpl-nuve
+  source: 'Named as a THIRD-PARTY predicate in K101382 (dpl Nuve, read in full 2026-10-22):
+    the file says the device is ''substantially equivalent in function and technology''
+    to ''the Omnilux New U for periorbital wrinkle treatment''. Omnilux is not an
+    LED Technologies product, which makes it the outside anchor the whole dpl/reVive
+    predicate chain eventually traces back to, and the site covers none of it. HIGH
+    VALUE because it breaks the LED coverage here out of a single manufacturer. Resolve
+    its own clearance from openFDA (note api.fda.gov was returning HTTP 500 on 2026-10-22,
+    so retry) and check whether Omnilux publishes irradiance, since that is the figure
+    this cluster keeps withholding.'
+- name: Tanda Clear / Tanda acne light device
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: dpl-nuve
+  source: 'The other THIRD-PARTY predicate named in K101382 (read 2026-10-22), described
+    there as the Tanda skin care product ''for treatment of acne''. CAUTION: the 2010
+    scan is degraded and names the Tanda product only generically, so the EXACT model
+    is NOT established by that document; resolve which Tanda device it was from openFDA
+    by applicant before drafting, and do not assume Tanda Clear. Like Omnilux, valuable
+    because it is a different manufacturer in the same blue-light acne category the
+    site currently covers only through one firm.'

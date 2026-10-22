@@ -486,3 +486,17 @@
     as the spine and keep the p-values straight: 10-year recurrence 12.2% for excision
     vs 4.4% for Mohs in high-risk PRIMARY facial BCC at p=0.100 (not significant),
     and 13.5% vs 3.9% in RECURRENT facial BCC at p=0.023 (significant).'
+- name: Periorbital wrinkles (crow's feet) as a treatment target
+  type: goal
+  priority: 5
+  status: pending
+  discovered_from: dpl-nuve
+  source: 'THREE separate device pages now turn on this distinction and the site has
+    no hub for it: dpl-nuve is cleared for PERIORBITAL wrinkles rather than facial
+    ones (K101382), home-fractional-nonablative-laser documents that the only cleared
+    OTC fractional laser claims periorbital wrinkles (crow''s feet) alone, and revive-light-therapy-lux-lip-care
+    covers a perioral clearance that readers confuse with it. A short hub would define
+    the periorbital region, explain why devices get cleared for it specifically (thin
+    skin, a small well-defined area, and proximity to the eye), and route to the device
+    pages. Note the site already has dark-circles and neck-chest-decolletage-care,
+    so keep the scope to lines around the eye and do not duplicate those.'

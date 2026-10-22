@@ -3606,6 +3606,28 @@ dpl-faceware:
   reviewed: '2026-10-21'
   reviewer: main-loop self-verification
   verdict: publish
+dpl-nuve:
+  assurance: sonnet
+  notes: '32 of 33 quoted strings verified verbatim against the re-read K101382 PDF; the one exception
+    is the openFDA device name ''DPL NUVE'', which could NOT be re-fetched at publish time because api.fda.gov
+    returned HTTP 500 on three attempts. That string was verified earlier in this session from the successful
+    15-record applicant query and is recorded here as verified-from-earlier-fetch rather than verified-at-publish.
+    TWO QUOTE ERRORS CAUGHT AND FIXED BEFORE PUBLISH: the equivalence sentence spans a PAGE BREAK in the
+    original, so quoting it whole failed the check and it is now quoted as two fragments with the break
+    disclosed; and the trade name was quoted as ''dpl Nuve'' when the scan renders the l as an i, so the
+    name is now reported rather than quoted. TWO FINDINGS THAT BREAK THIS FAMILY''S PATTERN: (1) the predicates
+    are OTHER COMPANIES'' devices, the Omnilux New U and a Tanda product, so the self-predication documented
+    on dpl-faceware is something the firm grew into rather than started with; (2) this is the only filing
+    in the family whose equivalence sentence says ''nonclinical and clinical'' tests, yet its own Test
+    Data section lists ONLY IEC/EN electrical standards and ISO 10993 biocompatibility, with no study,
+    population or result anywhere. The page says that asserting clinical testing without describing it
+    is WEAKER than a clean nonclinical statement, because it cannot be checked. Absence claims string-checked:
+    no mW/cm, irradiance, energy level, wavelength heading or treatment area anywhere, which contrasts
+    with the 2018 perioral filing that does print them. Scan damage disclosed in the footnote (Nilve/Ntive/Nflve,
+    dpi for dpl, wninkles).'
+  reviewed: '2026-10-22'
+  reviewer: main-loop self-verification
+  verdict: publish
 dpl-spotlite:
   assurance: sonnet
   notes: 'All 36 quoted strings re-checked verbatim against the re-fetched K183118 letter plus 510(k)
