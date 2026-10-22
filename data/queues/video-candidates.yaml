@@ -13988,7 +13988,8 @@
   conflict: Founder/owner of active postpartum skincare brand "More Than Nine" (cleanser, exfoliator, moisturizer, balm) — an ongoing own-bran
   posted: '2026-10-21'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: commentary about a named living person's postpartum appearance on a runway, from a creator whose own brand is postpartum skincare; not single-topic skin education and not something to relay about a real person
 - id: Y8E1jgWq8qA
   title: Does Creatine Cause Hair Loss? Can It Help Your Skin? | Dermatologist
   creator: Andrea Suarez (Dr Dray)
@@ -14040,7 +14041,8 @@
   conflict: Co-developed/formulated the Tbh Skincare 'Rebound' Serum and Toner (product-formulation partnership) — her endorsement of that spe; no YouTube; TikTok/IG intake
   posted: '2026-10-22'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: caption is just 'LOL'; no topic and no page match
 - id: '7699288568904043790'
   title: 'a very ordinary morning in a life #skincareroutine #morningroutine @O...'
   creator: Jenn Lexi (@jennlexi_)
@@ -14053,7 +14055,8 @@
   conflict: 'Runs #ad sponsored posts (e.g. TruSkin) and Target skincare hauls/reviews; prefer her educational ingredient-category and barrier-repair explainers, and treat product recommendations as effectively promotional (skip).'
   posted: '2026-10-22'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: morning-routine vlog with a brand @tag from a creator whose roster entry says to treat product recommendations as effectively promotional; not single-topic education
 - id: '7699206311027756301'
   title: And my number one physical exfoliant goes to… @Dr. G Peeling Gel I’ve...
   creator: Kristin Leite (kristingl)
@@ -14066,7 +14069,8 @@
   conflict: runs an Amazon affiliate storefront and does sponsored posts - strongly prefer educational / how-to / ingredient-explainer videos; be very cautious with any product recommendation
   posted: '2026-10-21'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: single-product pick with a brand @tag ('my number one physical exfoliant goes to') from a creator who monetizes picks through an Amazon affiliate storefront; picks treated as effectively paid
 - id: '7699174703377796383'
   title: 'Is your Botox no longer working? There may be a reason for that… #bot...'
   creator: Dr. Mamina Turegano
@@ -14079,7 +14083,8 @@
   conflict: null
   posted: '2026-10-21'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'no matching page: the site has no botox or botulinum toxin page, and injectables sit outside the topical scope currently covered'
 - id: k1yIpyN9ok8
   title: 'Revive Under eye And Redness Relief Cream | Derm & Rejuvenation Institute '
   creator: Tanya Kormeili, MD, FAAD

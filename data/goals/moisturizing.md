@@ -111,6 +111,17 @@ videos:
     is to choose by your skin's current dryness and barrier state rather than by marketing.
   title: Dermatologist Explains The Best Moisturizers For 2026 (not what you think)
   url: https://www.youtube.com/watch?v=eRpKXfpC1mA
+- title: Why your friend's holy grail moisturizer did nothing for you
+  creator: Fatima Fahs
+  creator_slug: fatima-fahs
+  credential: Dermatologist (MD)
+  platform: TikTok
+  url: https://www.tiktok.com/@dermydoctor/video/7699074851595668749
+  posted: '2026-10-21'
+  related: [dry-skin, oily-skin, sensitive-skin, how-often-to-wash-your-face, skin-barrier-repair]
+  thesis: 'Dermatologist Fatima Fahs gives a simple way to work out your own skin type before buying a moisturizer someone else swears by: wash your face in the morning and see how it feels thirty minutes later. Tight, dry and itchy points to dry skin; normal with a little oiliness in the centre points to combination; getting oily or blotchy again soon after washing points to oily. The most useful part is her caveat, that these are not specific scientific types and the point of sorting yourself into one is only to narrow product choices or adjust how often you use certain products so you do not end up irritated.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 Moisturizing means applying a product that slows water loss from skin and adds water back to it. It is one of the best-evidenced interventions in dermatology, especially for eczema (also called [[atopic-dermatitis]]) and other barrier-impaired skin. A Cochrane review found that keeping such skin hydrated and occluded (sealed against water loss) reduces eczema flares and spares topical corticosteroids [^1]. Two mechanisms do the work: slowing water loss at the surface, and binding water there.
 

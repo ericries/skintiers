@@ -529,3 +529,19 @@
     which covers OTC devices; this is the in-office procedure. The Rodney card''s
     auto-transcript inverts her comparison, so use her written caption or primary
     sources, not that transcript.'
+- name: Skin type (dry, combination, oily) and what the label does not mean
+  type: goal
+  priority: 5
+  status: pending
+  discovered_from: moisturizing
+  source: 'Grounded in the Fatima Fahs clip carded on moisturizing 2026-10-22 (TikTok
+    7699074851595668749), where a dermatologist gives the 30-minutes-after-washing
+    test for sorting yourself into dry, combination or oily AND then says plainly
+    that ''these are not specific scientific types''. The site has dry-skin, oily-skin
+    and sensitive-skin pages but NO hub for the type framework itself, so the single
+    most common question a reader brings (what is my skin type) has nowhere to land.
+    Build it the way sensitive-skin now handles its own label: state what the categories
+    are used for, state that they are a shopping heuristic rather than a measured
+    classification, and route to the three existing pages. DO NOT create a fourth
+    type page; this is a hub about the framework, and the site already has five near-duplicate
+    page pairs from exactly this kind of drift.'
