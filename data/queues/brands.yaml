@@ -395,7 +395,7 @@
 - name: Carol Cole Company (NuFACE manufacturer)
   type: brand
   priority: 5
-  status: pending
+  status: done
   discovered_from: nuface-mini-microcurrent-device
   source: The nuface brand page exists but is the consumer-facing name; Carol Cole
     Company dba NuFACE is the applicant on all 14 of its FDA records (openFDA applicant

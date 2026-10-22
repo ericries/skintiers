@@ -3191,12 +3191,19 @@
   priority: 5
   status: pending
   discovered_from: nuface
-  source: openFDA record K161654, decision 2016-12-30, 510(k) Summary. Notable because
+  source: 'openFDA record K161654, decision 2016-12-30, 510(k) Summary. Notable because
     it is a CONDUCTIVE GEL cleared as a device rather than sold as a cosmetic, which
     makes it a good test of the FDA-cleared-vs-approved distinction the site already
     explains. It is also the consumable that microcurrent devices require, so its
     cost is part of the real price of owning one. Resolve the INCI with scripts/inci_lookup.py
-    and the cleared indication from the summary PDF.
+    and the cleared indication from the summary PDF. 2026-10-22, from the nuface brand
+    page re-verification: this is K161654 (2016), one of the 14 Carol Cole clearances,
+    and it may be the same product as the separately queued NuFACE Microcurrent Activator
+    / Aqua Gel Activator under a different name. DO NOT ASSERT IDENTITY either way;
+    resolve it first, the way the Lux pages handle retail-versus-cleared name divergence.
+    Also worth explaining on the page why a conductive gel needed its own 510(k) at
+    all, and being precise that conductivity is its function so no skin-benefit claim
+    on its label inherits the devices'' clearances.'
 - name: YCANTH (cantharidin 0.7% topical solution)
   type: product
   priority: 5
@@ -3786,3 +3793,16 @@
     nuface-trinity-microcurrent-device already covers K103472; the 2019 Mini names
     a DIFFERENT Trinity clearance (K181008), so there may be two distinct Trinity
     filings and conflating them would be an error.'
+- name: NuFACE FIX / FIX+ Skin Toning Device (K182424, K240564)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: nuface
+  source: 'Two clearances in the 14-record Carol Cole inventory on the nuface brand
+    page (re-verified 2026-10-22): K182424 NuFACE FIX Skin Toning Device and K240564
+    NuFACE FIX+, the latter being the firm''s most recent clearance at 2024-06-27.
+    The FIX is also the item bundled free with the $250 MINI+ starter kit, which is
+    why the Mini page had to flag its price as a bundle. Both are Summaries so the
+    testing basis is readable at accessdata. Expect the same pattern found on the
+    Mini and NuBODY pages: bench comparison of electrical output against an earlier
+    in-house device, with no clinical data; confirm rather than assume.'

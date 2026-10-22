@@ -8651,21 +8651,25 @@ nubody-skin-toning-device:
   reviewer: main-loop self-verification
   verdict: publish
 nuface:
-  last_reviewed: '2026-10-18'
-  note: 'Lean brand card, 131 words of body, inside the 180-word cap. Its job is to link to products and
-    to carry one structural fact, which it does. CORRECTED THE QUEUE NOTE: it said NuFACE is applicant
-    on "at least 7" clearances and listed 7 K-numbers. The openFDA query returns 14, total reported 14,
-    spanning 2007-11-27 to 2024-06-27. All 14 are 510(k) Summaries, which confirms the structural point
-    the queue asked for and strengthens it. Every K-number and device name is enumerated in the footnote
-    so the count is checkable rather than asserted. DELIBERATELY OMITTED THE FOUNDER. The playbook allows
-    a founder line "if verifiable" and the queue name was "NuFACE (Carol Cole Company)". The only primary
-    evidence I had was the openFDA applicant string, which establishes a CORPORATE name, not that any
-    individual founded the company. Rather than spend fetches or assert it, the page states the verifiable
-    fact (FDA applicant of record is the Carol Cole Company, trading as NuFACE) and the footnote says
-    explicitly that no claim is made about any individual. The never-state-an-unverified-claim-about-a-living-person
-    rule outranks a nice-to-have biography line. ZERO Apify spend; openFDA only, a durable primary, so
-    no source caching required and sk verify is clean with no manual-verification warnings. Self-verified
-    in the main loop, assurance sonnet, force-published.'
+  assurance: sonnet
+  notes: 'DID NOT CREATE THE QUEUED PAGE. The item was ''Carol Cole Company (NuFACE manufacturer)'', and
+    my own queue note had instructed checking the existing nuface brand page first. It already carries
+    the corporate name, the trading-as relationship, all 14 clearances with the full device-name enumeration,
+    and the Summary-versus-Statement point, so a second brand page would have been a sixth near-duplicate
+    pair. Resolved the item and did the real work instead, which was that the page had gone STALE: its
+    ''On this site'' list named only the Trinity while nuface-mini-microcurrent-device and nubody-skin-toning-device
+    shipped on 2026-10-22. All three are now linked with one distinguishing clause each. ALSO FIXED A
+    LINK I BELIEVE WAS WRONG: the page previously said the Trinity was ''graded against the home-device
+    evidence on home-led-light-therapy'', but microcurrent is not LED, and the 2026 GRADE review does
+    not assess microcurrent at all. Replaced with an explicit statement that no graded modality evidence
+    on this site covers these devices, which is the honest position established on nubody-skin-toning-device
+    today. RE-VERIFIED the openFDA figures while editing (14 records, all Summary, 2007-11-27 to 2024-06-27,
+    all unchanged) and recorded the re-check date in the footnote rather than leaving a four-day-old access
+    date to carry new assertions. Trimmed to 183 words after my first draft pushed the body to 206, over
+    the <=180 brand scope.'
+  reviewed: '2026-10-22'
+  reviewer: main-loop self-verification
+  verdict: publish
 nuface-mini-microcurrent-device:
   assurance: sonnet
   notes: 'All 69 quoted strings verified verbatim against four sources: both 510(k) Summaries read in
