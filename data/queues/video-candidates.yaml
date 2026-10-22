@@ -10667,7 +10667,8 @@
   conflict: Maintains a Nykaa curated affiliate storefront; treat specific product picks as commercially incentivized (educational/mechanism content is fine).
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'off-topic: paediatric fever, food, screen time and sleep, not skincare'
 - id: '7693899829029735693'
   title: Yep, say it louder for the ones in the back. The reason your skin is ...
   creator: Fatima Fahs
@@ -10881,7 +10882,8 @@
   conflict: null
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'no matching page: plague skin findings are infectious disease and the site has no page for it; outside the site''s scope rather than a coverage gap'
 - id: rL8jJQlUHiU
   title: 'Cellulite cure??? #dermreacts  #skincare  #dermatologist #dermangelo'
   creator: Dr. Angelo Landriscina (DermAngelo)
@@ -10933,7 +10935,8 @@
   conflict: Founder of own-brand skincare line (Skin Rocks); recent upload mix is dominated by PR-gifted product unboxings and empties (haul-adjacent fo
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: diary vlog (September Diaries Part 1), not single-topic education
 - id: '7694474260961643789'
   title: 'Time + good products= Results '
   creator: Dr. Chris Tomassian
@@ -10999,7 +11002,8 @@
   conflict: Runs a paid cosmetics-industry consulting/science-communication practice (BeautySciComm, e-summits, mentorship cohorts) and is Patreon-suppo
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: topic is Extended Producer Responsibility packaging regulation; no matching page and outside the site's skin-evidence scope
 - id: '7694492683166944526'
   title: 'I bet you didn’t know this about your skin 👀 #dej #skinlayers #skinba...'
   creator: Jenn Lexi (@jennlexi_)

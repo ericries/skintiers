@@ -500,3 +500,32 @@
     skin, a small well-defined area, and proximity to the eye), and route to the device
     pages. Note the site already has dark-circles and neck-chest-decolletage-care,
     so keep the scope to lines around the eye and do not duplicate those.'
+- name: Micro-coring (skin tissue removal procedure)
+  type: goal
+  priority: 5
+  status: pending
+  discovered_from: skin-firmness-elasticity
+  source: 'Named by Dr. Brooke Jeffy in the crepey-skin explainer carded on skin-firmness-elasticity
+    2026-10-09 (video E1YXUAjcv9g): she describes it as removing columns of skin,
+    giving some immediate tightening plus collagen production from the controlled
+    injury over time, and says it is the one non-surgical option that can remove SMALL
+    amounts of excess skin where lasers and microneedling cannot. The site has no
+    page and covers microneedling, subcision, PRP and CO2 resurfacing, so this is
+    a real gap in the procedure set. Resolve it from primary sources before drafting:
+    micro-coring is FDA-cleared under a specific device (check openFDA, noting api.fda.gov
+    was 500ing on 2026-10-22) and find the trial evidence rather than relying on her
+    description.'
+- name: RF microneedling (radiofrequency microneedling)
+  type: goal
+  priority: 5
+  status: pending
+  discovered_from: skin-firmness-elasticity
+  source: 'Named by Dr. Brooke Jeffy (video E1YXUAjcv9g, 2026-10-09) among the energy-based
+    options that use heat to create controlled injury and stimulate remodeling. ALREADY
+    GROUNDED TWICE MORE on the site: Dr. Ife Rodney''s card on the microneedling page
+    compares plain versus RF microneedling, and the Draelos 2025 study queued under
+    studies used RF microneedling as one of its two procedure arms. Three independent
+    anchors and no page. Keep it DISTINCT from home-radiofrequency-skin-tightening,
+    which covers OTC devices; this is the in-office procedure. The Rodney card''s
+    auto-transcript inverts her comparison, so use her written caption or primary
+    sources, not that transcript.'

@@ -2408,3 +2408,16 @@
     allergens in personal care, and contact-dermatitis already exists to route to.
     Build it from primary allergy literature and regulatory restrictions, not from
     her video; her role here is only to show how visible the issue is on real shelves.'
+- name: Poly-L-lactic acid (Sculptra) biostimulatory injectable
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: skin-firmness-elasticity
+  source: Named by Dr. Brooke Jeffy in the crepey-skin video (E1YXUAjcv9g, carded
+    2026-10-09) as a biostimulatory injectable useful for improving collagen support
+    and skin quality. No page here, and the site already carries PRP for acne scars,
+    so a collagen-stimulator injectable fits the existing procedure coverage. It is
+    an FDA-approved injectable, so Drugs@FDA and DailyMed should carry the label and
+    its trial data; grade it on that rather than on her one-line description, and
+    be precise that it is injected by a clinician and is not a topical ingredient
+    despite the type slot.

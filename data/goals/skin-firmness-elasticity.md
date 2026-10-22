@@ -146,6 +146,17 @@ videos:
     before pterostilbene's effectiveness for skin rejuvenation is established
   title: 'Pterostilbene: An Emerging Topical Antioxidant'
   url: https://www.tiktok.com/@drheathermd/video/7672777478217256205
+- title: 'Crepey Skin: What Actually Works?'
+  creator: Dr. Brooke Jeffy
+  creator_slug: brooke-jeffy
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=E1YXUAjcv9g
+  posted: '2026-10-09'
+  related: [anti-aging, microneedling, fractional-co2-laser-resurfacing, neck-chest-decolletage-care, urea, lactic-acid, retinoids, moisturizing, sun-damage-photoaging, diet-and-skin]
+  thesis: 'Dermatologist Dr. Brooke Jeffy explains crepey skin, the thin crinkled texture that turns up on arms, thighs, knees, abdomen, chest, neck and hands, and opens by saying anything claiming to erase it is a lie. Her central point is that three different problems get lumped together and need separating: dry skin, which a good moisturizer can genuinely make look dramatically better; crepey skin, which involves loss and disorganisation of collagen and elastin within the skin itself; and loose skin, which is actual laxity or excess. She is blunt about where that leaves creams, saying hydration plumps the outer layers so fine lines show less but is mostly a temporary improvement in appearance rather than any kind of tightening, that a retinoid needs a minimum of twelve weeks before you judge it, and that past a certain point collagen stimulation cannot overcome excess skin, where surgery rather than a cream or a laser is what addresses the problem.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 Firmness and elasticity come from the dermis, the layer beneath the visible surface. Collagen (mainly type I and III) gives skin its structural strength; elastic fibers, made of elastin and fibrillin microfibrils, allow it to stretch and recoil[^2]. Both weaken with age, and years of UV exposure add more damage on top: "aging and chronic sun exposure can weaken the dermis," and chronic UV radiation damages elastic fibers through solar elastosis[^2]. DermNet describes the same UV process as a "multi-hit model" that deposits a "disorganised, elastic-fibre rich matrix"[^1]. The honest framing: topical actives can measurably improve firmness and elasticity at the skin's surface, but they cannot lift or tighten deeper sagging caused by loss of underlying fat pads or bone, which is a structural problem addressed by procedures, not creams[^1].
 
