@@ -364,7 +364,7 @@
 - name: 'Keratolytics compared: urea, lactic acid and salicylic acid'
   type: list
   priority: 5
-  status: pending
+  status: done
   discovered_from: smoothing-skin-texture
   source: 'The category that smoothing-skin-texture singles out as the fast route
     for roughness, and the one with no list of its own. All three actives already

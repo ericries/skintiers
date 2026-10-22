@@ -3732,3 +3732,30 @@
     INCI via inci_lookup before drafting, since this brand sells several renditions
     of the pads, and treat her CeraVe equivalence as HER comparison, not a tested
     finding; she says explicitly that no non-industry study comparing the two exists.
+- name: Kerasal (5% salicylic acid / 10% urea ointment)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: keratolytics-compared
+  source: 'The actual comparator product in Jennings 1998 (PMID 9680769), verified
+    2026-10-22 for keratolytics-compared: the trial applied ''5% salicylic acid and
+    10% urea ointment (Kerasal)'' to one foot against 12% ammonium lactate on the
+    other and found no statistically significant difference. The site has pages for
+    both its actives but none for the combination product that carries the head-to-head
+    data, which makes it a genuine catalog gap. Resolve the CURRENT formulation from
+    the brand or incidecoder before drafting, since the Kerasal name now spans several
+    products and the 1998 ointment may not be what is sold today; if the modern SKU
+    differs, say so plainly rather than attaching 1998 evidence to a 2026 tube.'
+- name: Lac-Hydrin (ammonium lactate 12% lotion)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: keratolytics-compared
+  source: The ammonium lactate product named in BOTH head-to-head trials behind keratolytics-compared
+    (Jennings 1998 PMID 9680769 names 'Lac-Hydrin'; Rogers 1989 PMID 2808786 tested
+    12% ammonium lactate lotion). The ingredient page ammonium-lactate already grades
+    the molecule and cites the DailyMed label for a generic; a PRODUCT page would
+    cover what that one cannot, namely which SKU carries the trial evidence and whether
+    the current prescription and OTC versions match the 12% tested. AmLactin already
+    has a page, so keep the two distinct and do not let either inherit the other's
+    trials.

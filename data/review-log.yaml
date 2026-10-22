@@ -6274,6 +6274,26 @@ keratinocyte-carcinoma:
     what this site can responsibly do.'
   score: 8
   verdict: publish
+keratolytics-compared:
+  assurance: sonnet
+  notes: 'All 11 quoted strings verified verbatim against freshly fetched abstracts for PMID 2808786 (Rogers
+    1989) and PMID 9680769 (Jennings 1998). The queue item called this ''assembly rather than new research'',
+    but spot-verifying the ammonium-lactate page''s head-to-head claim turned up a better thesis than
+    assembly: REAL head-to-head evidence exists in this category, and it says strength beats agent choice.
+    12% ammonium lactate significantly beat 5% lactic acid, while a PAIRED trial (one foot each) of 5%
+    salicylic acid plus 10% urea against 12% ammonium lactate found no statistically significant difference
+    between groups. So unlike otc-antifungals-by-evidence, this list did NOT have to refuse a ranking
+    for want of comparisons; instead it declines to rank by POTENCY because the comparisons show no difference,
+    and inherits each agent''s existing evidence tier rather than inventing one. THREE LIMITS WRITTEN
+    IN rather than left implicit: both trials are xerosis of body and feet, not facial texture; the Rogers
+    comparison differs in BOTH concentration and neutralisation so it does not isolate strength; and the
+    Jennings salicylic arm is a COMBINATION containing urea, so it does not show salicylic acid alone
+    matching ammonium lactate. Jennings attrition carried (70 enrolled, 54 at two weeks, 39 at four).
+    Neither abstract reports an effect size or P value and none is invented. YAML colon bug hit again
+    (eighth time), in a tier_list note; caught by lint and reworded.'
+  reviewed: '2026-10-22'
+  reviewer: main-loop self-verification
+  verdict: publish
 keratosis-pilaris:
   last_reviewed: '2026-08-11'
   note: 'Keratosis pilaris condition hub (KP, "chicken skin"). Daily CONDITION cron (Sonnet draft + Opus

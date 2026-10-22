@@ -516,3 +516,16 @@
     figure applies, so a reader with a dermatophytoma is reading the wrong number.
     Confirm the clinical definition from a primary dermatology source before drafting;
     keep it tight and route treatment to onychomycosis.
+- name: Xerosis (dry, scaly skin) as a clinical term
+  type: condition
+  priority: 5
+  status: pending
+  discovered_from: keratolytics-compared
+  source: 'The actual endpoint of every head-to-head keratolytic trial on keratolytics-compared,
+    and the term the FDA-approved ammonium lactate indication uses, yet the site has
+    only dry-skin as a lay-term page. CHECK FIRST whether dry-skin already covers
+    the clinical term adequately and resolve this item if it does, because a second
+    dry-skin page would be the sixth near-duplicate pair here. If it does not, the
+    useful content is narrow: what xerosis means clinically, that trials grade its
+    SEVERITY on scales the abstracts rarely explain, and that foot and body xerosis
+    is where the keratolytic evidence actually lives rather than the face.'
