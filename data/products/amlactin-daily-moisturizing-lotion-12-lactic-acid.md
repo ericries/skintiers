@@ -60,6 +60,16 @@ videos:
   related: [hydroquinone]
   thesis: 'Board-certified dermatologist Dr. Andrea Suarez (Dr Dray) explains why she recommends 12%+ ammonium lactate (AmLactin) over at-home glycolic acid for dermal thickening: she cites two clinical studies showing 12% lactic acid produced both epidermal and dermal thickening (versus epidermal-only at 5%), and a second study where 12% ammonium lactate offset dermal atrophy caused by the potent steroid clobetasol. She notes in-office glycolic acid peels are actually superior for dermal effects, but at-home glycolic acid strengths are too heterogeneous and generally too weak to reliably reach the dermis the way 12% ammonium lactate does. In shorter Q&A segments she also covers Fraxel versus Laser Genesis laser risks, sunscreen application on sweaty/wet skin, and using urea and azelaic acid for keratosis pilaris.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: 'Costco Skincare Finds: What''s Worth It?'
+  creator: Andrea Suarez (Dr Dray)
+  creator_slug: andrea-suarez-dr-dray
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=J45EyHkphu0
+  posted: '2026-10-05'
+  related: [lactic-acid, keratosis-pilaris, petrolatum, contact-dermatitis, lip-care, tretinoin]
+  thesis: Dermatologist Andrea Suarez, who posts as Dr Dray, walks the skincare aisle at Costco and says which items she rates and which she would pass on. Her strongest pick is AmLactin, the ammonium lactate lotion, which she calls one of the few products she can point to as showing biopsy-confirmed change rather than only surface smoothing, and which she says can reverse the dermal thinning that follows corticosteroid use, while adding that it can be irritating on the face and is excellent for keratosis pilaris. She also warns against a popular habit involving the Cetaphil Moisturizing Cream tub, squeezing a prescription retinoid into it to make a medicated moisturizer, which she says leaves the drug unevenly distributed so some skin gets concentrated hot spots and some gets none, and disrupts the preservative chemistry; throughout she checks labels for thiazolinone preservatives and, on lip balms, for flavourants, as common causes of contact allergy.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

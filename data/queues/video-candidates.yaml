@@ -9603,7 +9603,8 @@
   conflict: Chief Medical Officer of hair-growth-serum brand REYUS; advisory-board member of Bubble Skincare; periodic disclosed paid brand partnerships
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: product-picks routine video from a creator whose roster entry is product_recs=restricted and whose conflict is Chief Medical Officer of a brand plus a second brand advisory board; the roster restriction is the operative signal for picks content, and this has sat at the top of the queue for five ticks without becoming eligible
 - id: pWmADLptLRE
   title: Every Day. All day.
   creator: Doctorly
@@ -10339,7 +10340,8 @@
   conflict: null
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: Amazon Prime Big Deal Days deals roundup; a time-bound retail-event format rather than single-topic education, regardless of this creator having no affiliate relationships
 - id: fkIr2D9Smbo
   title: '“Acne Specialist” Advice #dermreacts  #skincare  #dermatologist #dermangelo    '
   creator: Dr. Angelo Landriscina (DermAngelo)
@@ -10352,7 +10354,8 @@
   conflict: Own-brand UPF sun-protective clothing line, SOUL-A (wearsoula.com / @wearsoula), founded and promoted by him — apparel, not topical skincare
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'hashtag-stuffed Shorts-style reaction clip (''Acne Specialist'' Advice #dermreacts #skincare #dermatologist #dermangelo); not single-topic education'
 - id: ZvNvPTPhbqQ
   title: 'Is this MY makeup artist??? #dermreacts  #skincare  #dermatologist #dermangelo'
   creator: Dr. Angelo Landriscina (DermAngelo)
@@ -10431,7 +10434,8 @@
   conflict: Maintains a Nykaa curated affiliate storefront; treat specific product picks as commercially incentivized (educational/mechanism content is fine).
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: multi-product speed review (Asaya, Celimax, CeraVe, Inde wild, Nivea and more) from a product_recs=restricted creator; roundup of picks rather than education
 - id: bAHqEbj-tiQ
   title: FAQ’s on retinol
   creator: Dr. Aanchal MD
@@ -10485,7 +10489,8 @@
   conflict: Runs an Amazon affiliate storefront (amazon.com/shop/derm.talk); recurring disclosed paid brand partnerships (Shiseido, SkinCeutic
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: Prime Day shopping-event framing ('Don't Buy K-Beauty on Prime Day Until You Watch This') from a product_recs=restricted creator; retail-event picks rather than single-topic education
 - id: HreUH1gzSSQ
   title: '#skincare #shaving #keratosispilaris #smoothskin #razorbumps #dermatologist'
   creator: Dr. Jenny Liu (Jenny Liu, MD, FAAD)
@@ -10525,7 +10530,8 @@
   conflict: Runs a "Shop my Favorites" affiliate storefront (linktr.ee/dermatologysurgeon) that monetizes her product picks; no own-brand prod
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: '39-second stitch with four independent problems: it states ''you can find 100% azelaic acid at the drugstore for under $10'', which is wrong (OTC is typically 10%) and cannot be resolved as a caption garble from a 39s auto-transcript; it makes an unevidenced superlative claim that no product fades post-acne marks, dark spots, hormonal acne and mild melasma ''like azelaic acid''; it recommends an unnamed ''viral Korean azelaic acid serum'' from a creator who monetizes picks via an affiliate storefront; and azelaic-acid already carries 24 video cards, so a 25th from a 39s clip adds nothing'
 - id: '7693727087735196959'
   title: 🖇️ Comment NEWSLETTER to join my newsletter all about skin longevity....
   creator: Dr. Sheila Farhang (dr.sheila_derm)
@@ -10632,7 +10638,8 @@
   conflict: null
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'no matching page: the site has no GLP-1, semaglutide, onycholysis or nail-changes page, and GLP-1 skin effects sit inside the non-topical anti-aging scope the user bracketed for a later phase, so the gap is intentional rather than an oversight. Revisit if that scope opens'
 - id: 9zWHGqX3aFg
   title: 'Hygiene Olympics #dermreacts  #skincare  #dermatologist #dermangelo    '
   creator: Dr. Angelo Landriscina (DermAngelo)
@@ -10645,7 +10652,8 @@
   conflict: Own-brand UPF sun-protective clothing line, SOUL-A (wearsoula.com / @wearsoula), founded and promoted by him — apparel, not topical skincare
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'hashtag-stuffed Shorts-style reaction clip (Hygiene Olympics #dermreacts); not single-topic education'
 - id: DlT-7TFSqFw
   title: 'This is fake #dermreacts  #skincare  #dermatologist #dermangelo    '
   creator: Dr. Angelo Landriscina (DermAngelo)

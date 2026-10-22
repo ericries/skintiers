@@ -3640,3 +3640,42 @@
     3 minutes. Cleared 2015-03-31, product code OHS, Summary available at accessdata.fda.gov/cdrh_docs/pdf15/K141181.pdf.
     Distinct from the already-queued ''dpl Nuve (K101382)'', which is the earlier
     2010 clearance under a different code; do not conflate the two.'
+- name: L'Oreal Paris Revitalift fragrance-free moisturizer
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: ammonium-lactate
+  source: Andrea Suarez (Dr Dray) - Costco Skincare Finds (video, J45EyHkphu0, 2026-10-05),
+    carded on ammonium-lactate. She describes a FRAGRANCE-FREE Revitalift at $37.99
+    containing caffeine and capryloyl salicylic acid, and warns that its 'pro-retinol'
+    is an ester acting as an antioxidant rather than retinol itself, so it does not
+    do what retinol does for wrinkles and collagen. DISTINCT from the existing loreal-paris-revitalift-0-3-pure-retinol-serum
+    page; do not conflate them. Resolve the exact SKU and its INCI from the brand
+    or incidecoder before drafting, since the Revitalift name spans many products,
+    and confirm the specific ester rather than taking it from an auto-caption.
+- name: Aveeno Skin Relief Body Wash (fragrance-free)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: ammonium-lactate
+  source: Named in Dr Dray's Costco walkthrough (video J45EyHkphu0, 2026-10-05) at
+    $14.99, described as fragrance-free and for sensitive skin. DISTINCT from the
+    existing aveeno-skin-relief-moisturizing-lotion page, which is the lotion; this
+    is the wash. The site has several Aveeno pages but no body wash, and a fragrance-free
+    wash is a genuinely useful entry for the sensitive-skin and eczema hubs. Confirm
+    the INCI via inci_lookup before drafting.
+- name: EOS Super Balm lip balm
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: ammonium-lactate
+  source: 'Named in Dr Dray''s Costco walkthrough (video J45EyHkphu0, 2026-10-05),
+    a 5-tube pack at $16.99, and she uses it to make a teaching point rather than
+    a recommendation: lip balms containing flavourants are a common cause of allergic
+    contact cheilitis, a DELAYED hypersensitivity appearing about 48 hours later,
+    which is why people fail to connect the balm to worsening lips and keep reapplying.
+    She names flavourant, propolis, castor oil and beeswax as culprits and says plain
+    petroleum jelly is the safest bet. Draft it as a lip-balm page that carries that
+    allergy framing; do NOT present her point as a finding specific to this brand,
+    since she says explicitly it is not a problem with EOS per se but with non-petrolatum
+    lip balms generally.'

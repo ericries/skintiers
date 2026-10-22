@@ -42,6 +42,18 @@ slug: cetaphil-moisturizing-cream
 status: published
 type: product
 updated: '2026-07-31'
+videos:
+- title: 'Costco Skincare Finds: What''s Worth It?'
+  creator: Andrea Suarez (Dr Dray)
+  creator_slug: andrea-suarez-dr-dray
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=J45EyHkphu0
+  posted: '2026-10-05'
+  related: [lactic-acid, keratosis-pilaris, petrolatum, contact-dermatitis, lip-care, tretinoin]
+  thesis: Dermatologist Andrea Suarez, who posts as Dr Dray, walks the skincare aisle at Costco and says which items she rates and which she would pass on. Her strongest pick is AmLactin, the ammonium lactate lotion, which she calls one of the few products she can point to as showing biopsy-confirmed change rather than only surface smoothing, and which she says can reverse the dermal thinning that follows corticosteroid use, while adding that it can be irritating on the face and is excellent for keratosis pilaris. She also warns against a popular habit involving the Cetaphil Moisturizing Cream tub, squeezing a prescription retinoid into it to make a medicated moisturizer, which she says leaves the drug unevenly distributed so some skin gets concentrated hot spots and some gets none, and disrupts the preservative chemistry; throughout she checks labels for thiazolinone preservatives and, on lip balms, for flavourants, as common causes of contact allergy.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Cetaphil Moisturizing Cream is a fragrance-free cream moisturizer whose current US ingredient list is led by water, glycerin, and petrolatum, with panthenol and niacinamide as added barrier ingredients; it does not contain ceramides.[^1]
