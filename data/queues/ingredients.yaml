@@ -1612,7 +1612,7 @@
     but needs more research
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/17636672/
 - name: "Sebaceous filaments vs blackheads (the normal grey nose dots that pore strips\
@@ -2489,3 +2489,17 @@
     its own design, and note that oral supplementation sits inside the non-topical
     scope the user bracketed for a later phase, so confirm the scope is open before
     building a full page.'
+- name: Miconazole (topical)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: amorolfine
+  source: The co-intervention in the Onycho Trial (PMID 38702077, verified 2026-10-22
+    for the amorolfine page), where once-daily miconazole 20 mg/g also produced ZERO
+    complete cures against two on placebo and was significantly worse than placebo
+    on mycological cure (OR 0.25, 95% CI 0.06 to 0.98, p=0.037) and clinical improvement
+    (OR 0.26, 95% CI 0.08 to 0.91, p=0.028). The site covers clotrimazole and ketoconazole
+    but not miconazole, which is one of the most widely sold OTC azoles. Note the
+    trial tested it on NAILS, where it failed; its skin evidence is a separate question
+    and the Cochrane azole pool on otc-antifungals-by-evidence is about foot SKIN.
+    Do not let the nail result contaminate the skin grade or vice versa.

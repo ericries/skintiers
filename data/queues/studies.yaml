@@ -1476,3 +1476,31 @@
     anchors and validation would let every future Griffiths-scored claim on the site
     be read properly. Find the original validation paper; do NOT describe the scale
     from memory or from a trial that merely used it.
+- name: 'Onycho Trial 2024: miconazole and amorolfine vs placebo for onychomycosis'
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: amorolfine
+  source: 'PMID 38702077, BMJ Open 2024;14(5):e081914, doi 10.1136/bmjopen-2023-081914,
+    PMCID PMC11086198, WHO ICTRP NL8193. Already read and verified at abstract level
+    on 2026-10-22 for the amorolfine ingredient page, so the structured study page
+    is assembly: randomised double-blind placebo-controlled 1:1:1, primary care Netherlands
+    Feb 2020 to Aug 2022, 193 recruited and 111 meeting criteria, mean age 51 (SD
+    13.1), 51% female, mean OSI 12.1 (SD 8.0), complete/clinical/mycological cure
+    at 6 months. Competing interests none declared. IT IS OPEN ACCESS (PMC11086198),
+    so unlike most study pages here the FULL TEXT can be read, which would supply
+    the per-arm numbers and the handling of the 82 excluded recruits that the abstract
+    does not give.'
+- name: Onychomycosis Severity Index (OSI)
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: amorolfine
+  source: 'The severity instrument the Onycho Trial used to characterise its population
+    (mean OSI 12.1, SD 8.0; PMID 38702077, read 2026-10-22). Same problem as the modified
+    Griffiths scale already queued: a trial reporting a mean score is uninterpretable
+    unless a reader knows the scale''s range and what a given score means clinically.
+    An agent-facing page giving OSI''s range, components and the mild/moderate/severe
+    cut-offs would let every onychomycosis trial on the site be read properly. Find
+    the original validation paper; do NOT describe the index from a trial that merely
+    used it.'

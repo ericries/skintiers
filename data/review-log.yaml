@@ -512,6 +512,28 @@ ammonium-lactate:
     AI-ese (''pivotal'',''not just''). Re-gated clean.'
   score: 8
   verdict: publish
+amorolfine:
+  assurance: sonnet
+  notes: 'All 25 quoted strings verified verbatim against freshly fetched sources (PMID 38702077 Onycho
+    Trial, PMID 17636672 Cochrane) plus the three US database responses. THE QUEUE ITEM''S PREMISE WAS
+    OVERTURNED, not inherited: it was queued because Cochrane 2007 said amorolfine ''might be substantially
+    more effective'' than ciclopirox for nails. The 2024 Onycho Trial (randomised, double-blind, placebo-controlled,
+    1:1:1, primary care, Leiden, competing interests none declared) found ZERO complete cures on amorolfine
+    against two on placebo, and amorolfine significantly WORSE than placebo on mycological cure (OR 0.23,
+    0.06-0.92, p=0.029) and clinical improvement (OR 0.25, 0.07-0.85, p=0.021). tier: weak follows the
+    rubric. TWO FAIRNESS MOVES: (1) the page states the strongest available defence, that the trial measured
+    at six months while Cochrane itself says nail topicals need daily application for at least a year
+    and amorolfine is weekly, so the endpoint may be too early; (2) it explicitly DECLINES the stronger
+    reading of the worse-than-placebo results, noting small numbers and intervals reaching 0.92 and sticking
+    to the authors'' own ''not effective'' rather than implying the lacquer makes fungus worse. US availability
+    established from THREE independent databases all returning nothing (DailyMed total_elements 0, openFDA
+    drug/label NOT_FOUND, openFDA drugsfda NOT_FOUND), reported as strong evidence of non-approval rather
+    than proof. Caught before publish: a case mismatch in the Cochrane quote (the abstract capitalises
+    ''There is some evidence that'', my quote lowercased it), fixed by starting the quote at the verified
+    fragment; plus two style flags, defensive meta-commentary and process language.'
+  reviewed: '2026-10-22'
+  reviewer: main-loop self-verification
+  verdict: publish
 amzeeq-minocycline-4-topical-foam:
   last_reviewed: '2026-09-12'
   note: 'Rx product: Amzeeq minocycline 4% topical foam (FMX101), first topical minocycline for moderate-to-severe
