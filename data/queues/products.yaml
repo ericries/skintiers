@@ -3168,7 +3168,7 @@
 - name: NuFACE Mini / Mini+ microcurrent device (K133823, K191672)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: nuface
   source: Two separate clearances for the Mini, 2014 and 2019, both 510(k) Summaries,
     per openFDA applicant 'Carol Cole' (14 records, queried 2026-10-18). The cheapest
@@ -3705,3 +3705,16 @@
     by applicant before drafting, and do not assume Tanda Clear. Like Omnilux, valuable
     because it is a different manufacturer in the same blue-light acne category the
     site currently covers only through one firm.'
+- name: NuFACE FIX MicroWand
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: nuface-mini-microcurrent-device
+  source: 'Bundled free with the MINI+ Starter Kit priced at $250.00 on the brand
+    page cached 2026-10-22 (research-cache/web/c5df4aede3633adb.md), and listed in
+    the brand''s own navigation as a separate product alongside TRINITY+, MINI+ and
+    NUBODY. It matters for pricing accuracy across this brand: the Mini page had to
+    flag its $250 as a BUNDLE price because of this item. Resolve whether the FIX
+    has its own FDA clearance under applicant Carol Cole Company (openFDA, product
+    code NFO; the API returned 500 on 2026-10-21 so retry) or whether it is sold without
+    one, and say which plainly.'

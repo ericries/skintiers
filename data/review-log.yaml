@@ -8563,6 +8563,30 @@ nuface:
     rule outranks a nice-to-have biography line. ZERO Apify spend; openFDA only, a durable primary, so
     no source caching required and sk verify is clean with no manual-verification warnings. Self-verified
     in the main loop, assurance sonnet, force-published.'
+nuface-mini-microcurrent-device:
+  assurance: sonnet
+  notes: 'All 69 quoted strings verified verbatim against four sources: both 510(k) Summaries read in
+    full (K133823 2014, K191672 2019), the cached brand page, and live openFDA k_number queries (the API
+    was back up after returning 500 on 2026-10-21). 0 unmatched. ONE STYLE ERROR CAUGHT BY THE CHECK:
+    I had written scare quotes around the word lifting in the lead, which is not fetched wording; the
+    site rule is that quote marks appear only on real source text, so it was reworded. FINDINGS NEW TO
+    THIS PAGE (the stimulation-versus-lifting argument is NOT repeated, the Trinity page owns it): (1)
+    the indication BROADENED between clearances, face only in 2014 to face and neck in 2019, with no outcome
+    measured in either file; (2) the 2014 filing states its equivalence determination is ''based on an
+    assessment of non-clinical performance'' and what it compared was purely electrical (waveform type
+    and shape, max voltage and current, tolerance, pulse width, frequency); (3) both clearances name the
+    firm''s OWN Trinity as predicate (K103472 then K181008); (4) the regulation is 21 CFR 882.5890, name
+    ''Transcutaneous Electrical Nerve Stimulator for Pain Relief'', with the 2019 table giving the classification
+    name as aesthetic purposes, a mismatch parallel to the LED-under-a-laser-regulation finding on dpl-spotlite;
+    (5) an efficacy claim sits INSIDE the 2014 filing (it ''has the ability to increase facial contour
+    and firm the skin and muscles'') a few paragraphs above the non-clinical sentence. Price 250.00 from
+    schema.org Offer markup, flagged on the page as a BUNDLE price since the product title says it includes
+    a free FIX MicroWand. Declined to assert the retail MINI+ is the cleared Mini Device despite close
+    overlap. The 2014 scan''s OCR damage (NuFACEO, 51 0(k), Transeutaneous) is disclosed and the regulation
+    name is sourced to the clean 2019 file instead.'
+  reviewed: '2026-10-22'
+  reviewer: main-loop self-verification
+  verdict: publish
 nuface-trinity-microcurrent-device:
   last_reviewed: '2026-10-17'
   note: 'Sources: K181008 clearance package (a real 510(k) SUMMARY, so the testing is readable), openFDA

@@ -2435,3 +2435,17 @@
     an acne indication exists. Check DailyMed for the actual approved indications
     and the boxed or black-box warning history before writing anything, and do not
     inherit the HS or acne framing from a video.'
+- name: Microcurrent (facial microcurrent devices)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: nuface-mini-microcurrent-device
+  source: 'The MODALITY behind three product pages now (nuface-trinity-microcurrent-device,
+    nuface-mini-microcurrent-device, and the NUBODY item queued earlier) with no page
+    of its own, so each product page has to carry the category argument itself. An
+    ingredient-slot page would hold it once and let the products link out, exactly
+    as home-led-light-therapy does for the LED cluster. CRITICAL: the 2026 GRADE scoping
+    review that grades home LED and RF (PMID 42545315) covers acne and facial rejuvenation
+    modalities and does NOT grade microcurrent, so do not borrow a Level from it.
+    Find microcurrent''s own literature and set tier: from that; if the evidence is
+    thin, weak is the honest answer.'

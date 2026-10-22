@@ -392,3 +392,15 @@
     LEAN discovery aid only, per the brand scope rule. Caution: the brand''s own domain
     returned a Cloudflare 403 on 2026-10-20, so brand copy may not be fetchable; the
     15 openFDA clearance records are a free substitute for the product inventory.'
+- name: Carol Cole Company (NuFACE manufacturer)
+  type: brand
+  priority: 5
+  status: pending
+  discovered_from: nuface-mini-microcurrent-device
+  source: The nuface brand page exists but is the consumer-facing name; Carol Cole
+    Company dba NuFACE is the applicant on all 14 of its FDA records (openFDA applicant
+    query, 2026-10-18 per an earlier queue note; k_number queries re-verified 2026-10-22).
+    Worth checking whether the existing nuface brand page already carries the corporate
+    name and the clearance inventory; if it does, resolve this item rather than creating
+    a second brand page, since five near-duplicate page pairs already exist on this
+    site. LEAN discovery aid only if built.
