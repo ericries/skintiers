@@ -318,7 +318,7 @@
 - name: Laurent Misery
   type: person
   priority: 5
-  status: pending
+  status: done
   discovered_from: sensitive-skin
   source: First author of the IFSI Special Interest Group expert position paper that
     supplies the consensus definition of sensitive skin now quoted on the sensitive-skin
@@ -370,3 +370,15 @@
     relationships can be taken from it. Verify every credential from a primary source
     (a medical board listing or her own practice site) before publishing a word, and
     state only what that source supports. LEAN discovery card per person scope.'
+- name: Esther Brenaut
+  type: person
+  priority: 5
+  status: pending
+  discovered_from: laurent-misery
+  source: 'Co-author on the IFSI sensitive-skin consensus paper (PMID 26939643) alongside
+    Laurent Misery, with the same Brest dermatology affiliation recorded on that paper.
+    Worth a card only if she turns out to be a substantive contributor to the sensitive-skin
+    literature in her own right; CHECK THAT FIRST with a PubMed author search and
+    drop this item if she is a single-paper co-author, because a person page per co-author
+    is not useful. Same living-person discipline as laurent-misery: verify any affiliation
+    from a RECENT record rather than the 2017 paper, and assert no rank or title.'

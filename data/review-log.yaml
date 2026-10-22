@@ -6898,6 +6898,22 @@ laser-hair-removal:
     option''. Now every claim traces to a cited abstract.'
   score: 9
   verdict: revise-then-fixed
+laurent-misery:
+  assurance: sonnet
+  notes: '117-word lean person card, all 4 quoted strings verified against the two PubMed records cited.
+    LIVING-PERSON DISCIPLINE: the only claims made are (a) his department and institution and (b) that
+    he is first author of the IFSI sensitive-skin consensus paper, both taken from PubMed records. My
+    own queue note warned that the 2017 affiliation was nine years old, so rather than restate it as current
+    I fetched his most recent indexed paper (PMID 42728529, October 2026) and confirmed the Brest affiliation
+    still holds; the page cites both and says the second is used only to establish currency. DELIBERATELY
+    OMITTED: a PubMed author-name search returned 350 papers, which would have made an impressive credential
+    line, but ''Misery L'' cannot be disambiguated from a name search alone so the count is not used.
+    No rank, title, editorial role or industry relationship is asserted, and the page states outright
+    that the publication record is the only source consulted. The consensus definition itself is NOT repeated
+    here; it is quoted in full on sensitive-skin and linked.'
+  reviewed: '2026-10-22'
+  reviewer: main-loop self-verification
+  verdict: publish
 lauryl-glucoside:
   last_reviewed: '2026-09-22'
   note: 'Opus profile-reviewer re-fetched all 4 primary PubMed sources (Alfalah 27775973, Loranger 27775979,

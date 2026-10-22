@@ -559,3 +559,15 @@
     Mohs, CO2 resurfacing), so this fits the existing set. Source the technique and
     evidence from primary dermatology or vascular literature, not from her answer,
     and keep the hormonal-risk point attributed until verified.
+- name: Phototherapy for atopic dermatitis
+  type: goal
+  priority: 5
+  status: pending
+  discovered_from: laurent-misery
+  source: 'The other half of PMID 42728529, Misery''s most recent indexed paper (title
+    read 2026-10-22, abstract NOT read). The site covers home LED and in-office lasers
+    extensively but has no page for medical phototherapy, which is a mainstream dermatology
+    treatment for eczema and psoriasis and is a real gap next to all the consumer-device
+    coverage. Build it from primary sources and keep it clearly distinct from the
+    home-LED pages: narrowband UVB in a clinic is not a red-light mask, and the site''s
+    existing device pages must not be allowed to borrow its evidence.'

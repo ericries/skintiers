@@ -2475,3 +2475,17 @@
     one trial we have does not name the product that supposedly inhibits them. Find
     the primary glycation literature; if the topical evidence is thin, weak is the
     honest tier.'
+- name: Oral vitamin D for atopic dermatitis
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: laurent-misery
+  source: 'Surfaced while dating Laurent Misery''s current affiliation (2026-10-22):
+    his most recent indexed paper is ''A New Phototherapy Regimen Coupled with Oral
+    Vitamin D Supplementation, for the Long-Term Control of Atopic Dermatitis'' (PMID
+    42728529, Dermatology and Therapy, October 2026). The site has an atopic-dermatitis
+    page but no vitamin D entry. NOTHING about that paper''s findings has been read;
+    only its title and author affiliation were. Fetch the abstract and grade it on
+    its own design, and note that oral supplementation sits inside the non-topical
+    scope the user bracketed for a later phase, so confirm the scope is open before
+    building a full page.'
