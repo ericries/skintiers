@@ -3917,3 +3917,11 @@
   discovered_from: foreo-faq-302
   source: named as the secondary predicate in the FAQ 302 510(k) Summary; the older
     laser comb the category is built on, with no page here
+- name: Clotrimazole 1% / betamethasone dipropionate 0.05% cream (Lotrisone)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: tinea-cruris-jock-itch
+  source: the combination antifungal-corticosteroid the 2025 AFP tinea review (PMID
+    41118183) explicitly advises avoiding; no page covers it and it is commonly prescribed
+    for groin rashes

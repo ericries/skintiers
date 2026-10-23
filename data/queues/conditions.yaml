@@ -426,7 +426,7 @@
 - name: Tinea cruris (jock itch)
   type: condition
   priority: 5
-  status: pending
+  status: done
   discovered_from: tinea-corporis-ringworm
   source: 'The third body-site tinea named alongside corporis and pedis in PMID 41118183,
     which groups them as the ones that ''generally respond to inexpensive topical
@@ -566,3 +566,18 @@
   source: Verrica states it is developing YCANTH (VP-102) for common warts; the site
     has no warts hub, and smoothing-skin-texture separately flags warts as a common
     cause of thickened skin with no page
+- name: Candidal intertrigo
+  type: condition
+  priority: 5
+  status: pending
+  discovered_from: tinea-cruris-jock-itch
+  source: named on the new jock itch page as one of the look-alikes occupying the
+    same skin folds; no hub exists, and the AFP review warns clinical diagnosis without
+    testing may be unreliable
+- name: Inverse psoriasis
+  type: condition
+  priority: 5
+  status: pending
+  discovered_from: tinea-cruris-jock-itch
+  source: named on the new jock itch page as a groin-fold look-alike for tinea cruris;
+    the site has a psoriasis hub but nothing on the inverse/flexural form

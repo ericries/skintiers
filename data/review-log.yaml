@@ -14108,3 +14108,32 @@ verrica-pharmaceuticals:
     assurance sonnet.'
   score: 9
   verdict: publish
+tinea-cruris-jock-itch:
+  last_reviewed: '2026-10-23'
+  note: 'CONDITION fill tick. Hub with a tier_list, per scope. The duplication risk
+    was high (athletes-foot and tinea-corporis-ringworm already own the general antifungal
+    evidence), so the page deliberately owns only what is groin-specific and links
+    out for the rest. The real finding, from three DailyMed labels re-fetched and read
+    at publish time: jock itch gets a SHORTER course than athlete''s foot on every
+    one of them. Terbinafine once daily for 1 week (vs twice daily 1-2 weeks on the
+    foot), butenafine once daily for 2 weeks (vs twice daily 1 week or once daily
+    4 weeks), clotrimazole twice daily for 2 weeks (vs 4 weeks). Also caught that
+    butenafine limits its ATHLETE''S FOOT claim to between the toes while putting
+    no limit on its jock itch claim. HONESTY ABOUT THE TIER_LIST: the grades are inherited
+    from a Cochrane review whose own title scopes it to "fungal infections of the skin
+    and nails of the foot", so the tier_list `by:` field says in so many words that
+    the tiers are inherited rather than earned in the groin, and a body section repeats
+    it rather than burying it in a footnote. The Cochrane footnote is cited ONLY to
+    identify the source and its scope, with its figures left on athletes-foot where
+    they belong. Butenafine graded good not strong because the foot review''s drug-class
+    grades do not clearly cover a benzylamine, and that reasoning is stated in its
+    note. Added the AFP stewardship line about avoiding combination antifungal-corticosteroids,
+    which lands hardest in the groin, and queued Lotrisone off the back of it. 28 quoted
+    strings checked character-exact; the 2 initially flagged were the Cochrane title,
+    verified directly against PubMed rather than assumed from the sibling page. Linked
+    the new hub from BOTH sibling tinea pages. Zero Apify spend; DailyMed and PubMed
+    only, both durable primaries needing no cache. lint/style/verify clean on all three
+    touched pages. Main-loop self-verification stood in for the Opus critic subagent
+    (standing instruction not to spawn agents); assurance sonnet.'
+  score: 9
+  verdict: publish

@@ -5,8 +5,8 @@ aliases:
 - ringworm of the body
 - body ringworm
 - dermatophyte infection
-analyzed: '2026-10-17'
-assurance: sonnet
+analyzed: '2026-10-23'
+assurance: opus
 name: Ringworm (Tinea Corporis)
 slug: tinea-corporis-ringworm
 status: published
@@ -42,7 +42,7 @@ tier_list:
   tier_labels:
     good: Carries a label indication for ringworm
 type: condition
-updated: '2026-10-17'
+updated: '2026-10-23'
 ---
 
 Ringworm of the body is a dermatophyte infection of the skin, and the name is a leftover from before anyone knew what caused it. A 2025 review co-authored by the CDC's Mycotic Diseases Branch puts it plainly: "Tinea infections (often called ringworm) are caused by dermatophyte fungi and classified by the body site involved".[^afp] The foot version is on [[athletes-foot]] and the scalp version, which behaves very differently, on [[tinea-capitis]].
@@ -69,7 +69,7 @@ The classic description is specific enough to be useful. A 2020 review describes
 
 ## See Also
 
-[[athletes-foot]] [[tinea-capitis]] [[clotrimazole]] [[tolnaftate]] [[butenafine]] [[terbinafine]] [[topical-corticosteroids]] [[fda-approved-vs-cleared-skincare]]
+[[athletes-foot]] [[tinea-cruris-jock-itch]] [[tinea-capitis]] [[clotrimazole]] [[tolnaftate]] [[butenafine]] [[terbinafine]] [[topical-corticosteroids]] [[fda-approved-vs-cleared-skincare]]
 
 ## Sources
 

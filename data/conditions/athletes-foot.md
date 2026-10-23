@@ -1,5 +1,5 @@
 ---
-analyzed: '2026-10-22'
+analyzed: '2026-10-23'
 assurance: sonnet
 name: Athlete's foot (tinea pedis)
 slug: athletes-foot
@@ -32,7 +32,7 @@ tier_list:
     tier: good
   title: Athlete's foot treatments by evidence
 type: condition
-updated: '2026-10-22'
+updated: '2026-10-23'
 ---
 
 Athlete's foot (tinea pedis) is a fungal infection of the feet that normally occurs in the outermost layer of the skin, and the skin between the toes is a frequent site, where it can cause pain and itchiness.[^cochrane] It is caused by dermatophyte fungi, the same group of organisms treated by [[terbinafine]], and it is managed with topical antifungals rather than skincare cosmetics.
@@ -55,7 +55,7 @@ The evidence base is a Cochrane review of 67 randomized trials of topical treatm
 
 ## See Also
 
-[[terbinafine]], [[ketoconazole]], [[ciclopirox]], [[fungal-acne]], [[seborrheic-dermatitis]].
+[[terbinafine]], [[ketoconazole]], [[ciclopirox]], [[tinea-cruris-jock-itch]], [[fungal-acne]], [[seborrheic-dermatitis]].
 
 ## Sources
 
