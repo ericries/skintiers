@@ -513,12 +513,13 @@
   last_pulled: '2026-09-29'
 - name: Tanya Kormeili, MD, FAAD
   creator_slug: tanya-kormeili-md
+  backfill_cursor: 30
   credential: Board-certified dermatologist (American Board of Dermatology), FAAD, Clinical Professor of Dermatology at UCLA David Geffen School of Medicine; MD UCLA, residency UC Irvine
   tier: HIGH
   channel: https://www.youtube.com/channel/UCRK0TPthymHl44WeA0nZ6Mw/videos
   conflict: Runs an own-brand practice storefront (Derm Rejuvenation Institute, Shopify); treat specific product picks as commercially incentivized.
   product_recs: restricted
-  last_pulled: '2026-09-25'
+  last_pulled: '2026-10-22'
 - name: Dr. Aanchal MD
   creator_slug: dr-aanchal-md
   credential: Dr. Aanchal Panth, MD Dermatology, Venereology and Leprosy (AIIMS New Delhi), MBBS (Manipal); consultant dermatologist, Surat, India; IADVL member

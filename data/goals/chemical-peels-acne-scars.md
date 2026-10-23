@@ -45,6 +45,18 @@ tier_list:
   title: Chemical-peel combinations for acne scars, by partner procedure
 type: goal
 updated: '2026-10-18'
+videos:
+- title: Everything You Need to Know About Chemical Peels
+  creator: Tanya Kormeili, MD, FAAD
+  creator_slug: tanya-kormeili-md
+  credential: Board-certified dermatologist (American Board of Dermatology), FAAD, Clinical Professor of Dermatology at UCLA David Geffen School of Medicine
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=2Cm_6IqvtIQ
+  posted: '2025-09-03'
+  related: [glycolic-acid, lactic-acid, salicylic-acid, melasma, even-skin-tone, exfoliating-acids-by-strength, smoothing-skin-texture]
+  thesis: 'Dermatologist Dr. Tanya Kormeili explains that chemical peel is a generic term covering wildly different treatments, comparing it to the word battery, where one may be a gentle acid that lightly exfoliates with no downtime and another removes the first and part of the second layer of skin and can require months of healing. On mechanism she describes skin cells as held together by tight junctions, with the acid chosen to break those bonds at a particular depth so the cells above shed. Her most useful caution concerns deeper skin tones: the junction between the first and second layers hosts the melanocytes that make pigment, so peeling aggressively there risks disrupting them and releasing pigment that can settle deeper or scatter, which is why she says peel choice has to be matched to the problem being treated, the skin type and the acceptable downtime rather than chosen by strength alone.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Chemical peels are the cheapest and most widely available of the acne-scar procedures, and in two separate network meta-analyses a peel combination came out on top.[^li][^wu] **Bottom line:** the pooled evidence favours pairing a peel with microneedling or laser rather than using either alone, but the most recent analysis says the literature is too thin to rank anything reliably, and none of it tells you which acid or what strength.[^liu] For the ranking across all procedures see [[acne-scar-procedures-by-evidence]]; for the scar types themselves see [[acne-scars]].
