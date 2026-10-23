@@ -18,6 +18,16 @@ videos:
   related: [lactic-acid, keratosis-pilaris, petrolatum, contact-dermatitis, lip-care, tretinoin]
   thesis: Dermatologist Andrea Suarez, who posts as Dr Dray, walks the skincare aisle at Costco and says which items she rates and which she would pass on. Her strongest pick is AmLactin, the ammonium lactate lotion, which she calls one of the few products she can point to as showing biopsy-confirmed change rather than only surface smoothing, and which she says can reverse the dermal thinning that follows corticosteroid use, while adding that it can be irritating on the face and is excellent for keratosis pilaris. She also warns against a popular habit involving the Cetaphil Moisturizing Cream tub, squeezing a prescription retinoid into it to make a medicated moisturizer, which she says leaves the drug unevenly distributed so some skin gets concentrated hot spots and some gets none, and disrupts the preservative chemistry; throughout she checks labels for thiazolinone preservatives and, on lip balms, for flavourants, as common causes of contact allergy.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: 'AmLactin vs. AlphaRet: Which Is Better for Anti-Aging? | Dermatologist Explains'
+  creator: Andrea Suarez (Dr Dray)
+  creator_slug: andrea-suarez-dr-dray
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=AoBnmetAJkI
+  posted: '2026-10-14'
+  related: [anti-aging, adapalene, tretinoin, lactic-acid, retinol, tazarotene]
+  thesis: Board-certified dermatologist Dr Dray compares skinbetter science AlphaRet Overnight Cream, built on the ethyl lactyl retinoate conjugate, against AmLactin 12% buffered ammonium lactate lotion for anti-aging. Her argument turns on what has been confirmed by biopsy. She says 12% buffered ammonium lactate has human data showing improved epidermal and dermal thickness, while ethyl lactyl retinoate has not been investigated with biopsy for dermal thickness, and that no published study compares AlphaRet either with and without the conjugate or against plain lactic acid. She puts AlphaRet at 145 dollars an ounce against a drugstore lotion she calls roughly a hundred times cheaper per ounce, says she does not recommend it routinely because she sees no evidence the price is warranted, and adds that anyone already using it and liking it should not throw it out
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

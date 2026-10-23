@@ -37,6 +37,18 @@ slug: skinbetter-science-alpharet-overnight-cream
 status: published
 type: product
 updated: '2026-10-04'
+videos:
+- title: 'AmLactin vs. AlphaRet: Which Is Better for Anti-Aging? | Dermatologist Explains'
+  creator: Andrea Suarez (Dr Dray)
+  creator_slug: andrea-suarez-dr-dray
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=AoBnmetAJkI
+  posted: '2026-10-14'
+  related: [anti-aging, adapalene, tretinoin, lactic-acid, retinol, tazarotene]
+  thesis: Board-certified dermatologist Dr Dray compares skinbetter science AlphaRet Overnight Cream, built on the ethyl lactyl retinoate conjugate, against AmLactin 12% buffered ammonium lactate lotion for anti-aging. Her argument turns on what has been confirmed by biopsy. She says 12% buffered ammonium lactate has human data showing improved epidermal and dermal thickness, while ethyl lactyl retinoate has not been investigated with biopsy for dermal thickness, and that no published study compares AlphaRet either with and without the conjugate or against plain lactic acid. She puts AlphaRet at 145 dollars an ounce against a drugstore lotion she calls roughly a hundred times cheaper per ounce, says she does not recommend it routinely because she sees no evidence the price is warranted, and adds that anyone already using it and liking it should not throw it out
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 AlphaRet Overnight Cream is skinbetter science's night cream built on AlphaRet, the brand's name for a retinoid molecule chemically joined to lactic acid. It is sold through physicians and authorised retailers rather than openly on shelves, and the 30 ml size carries no public list price: the retailer listing checked for this page required an account login to see it.[^skinlab]
