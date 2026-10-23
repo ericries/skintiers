@@ -2564,7 +2564,9 @@
   status: pending
   discovered_from: ycanth-cantharidin-topical-solution
   source: active ingredient of YCANTH (NDA212905); the DailyMed label states its mechanism
-    in molluscum is unknown and that it is a vesicant
+    in molluscum is unknown and that it is a vesicant Verrica is also developing the
+    same cantharidin product (VP-102) for common warts per its corporate site, so
+    the ingredient page should not treat molluscum as its only indication
 - name: Potassium hydroxide (topical, 10%)
   type: ingredient
   priority: 5

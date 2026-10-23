@@ -558,3 +558,11 @@
   source: mis-typed as an ingredient in the ingredient queue; it is a disambiguation
     section for the blackheads hub, not an ingredient. Normal grey nose dots that
     pore strips remove and that return, a common source of over-treatment
+- name: Common warts (verruca vulgaris)
+  type: condition
+  priority: 5
+  status: pending
+  discovered_from: verrica-pharmaceuticals
+  source: Verrica states it is developing YCANTH (VP-102) for common warts; the site
+    has no warts hub, and smoothing-skin-texture separately flags warts as a common
+    cause of thickened skin with no page

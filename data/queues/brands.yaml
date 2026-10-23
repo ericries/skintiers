@@ -407,7 +407,7 @@
 - name: Verrica Pharmaceuticals
   type: brand
   priority: 5
-  status: pending
+  status: done
   discovered_from: ycanth-cantharidin-topical-solution
   source: 'applicant of record for YCANTH (NDA212905); the new product page sets brand:
     Verrica Pharmaceuticals with no brand page to link to'

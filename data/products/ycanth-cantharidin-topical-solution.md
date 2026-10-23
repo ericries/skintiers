@@ -43,7 +43,7 @@ type: product
 updated: '2026-10-23'
 ---
 
-YCANTH is cantharidin 0.7% topical solution, FDA-approved under NDA 212905 and sold by Verrica Pharmaceuticals for molluscum contagiosum in patients 2 years and older.[^openfda][^spl] **Bottom line:** it works, the trials behind it are genuinely good, and it is not a product you can buy or apply. The carton says "FOR ADMINISTRATION BY A HEALTHCARE PROFESSIONAL ONLY", the label says a blister is the point, and the manufacturer added a bittering agent because swallowing it can kill.[^carton][^spl] How it compares with the other molluscum treatments is on [[molluscum-contagiosum]] and not repeated here.
+YCANTH is cantharidin 0.7% topical solution, FDA-approved under NDA 212905 and sold by [[verrica-pharmaceuticals|Verrica Pharmaceuticals]] for molluscum contagiosum in patients 2 years and older.[^openfda][^spl] **Bottom line:** it works, the trials behind it are genuinely good, and it is not a product you can buy or apply. The carton says "FOR ADMINISTRATION BY A HEALTHCARE PROFESSIONAL ONLY", the label says a blister is the point, and the manufacturer added a bittering agent because swallowing it can kill.[^carton][^spl] How it compares with the other molluscum treatments is on [[molluscum-contagiosum]] and not repeated here.
 
 > **Nobody knows why it works.** The label states plainly that "The mechanism of action of cantharidin in the treatment of molluscum contagiosum is unknown" and that "Cantharidin is a vesicant", a substance that raises blisters.[^spl] An approved drug with two positive phase 3 trials and no known mechanism is unusual, and it is the honest state of the evidence rather than a gap in this page.
 
