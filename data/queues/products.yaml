@@ -3901,3 +3901,12 @@
   discovered_from: prescription-acne-rosacea-topicals-by-regulatory-status
   source: BenzaClin NDA050756 is discontinued per Drugs@FDA, so the marketed form
     of this combination is generic or Onexton; no generic page exists
+- name: Banila Co Clean It Zero Tea-Tree EX Pore Clarifying Cleansing Balm price and
+    claims refresh
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: tea-tree-oil
+  source: the clearest on-site product declaring Melaleuca alternifolia; the new tea-tree-oil
+    page argues a rinse-off extract does not inherit the 5% leave-on gel evidence,
+    which that product page should state

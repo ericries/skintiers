@@ -1504,3 +1504,11 @@
     cut-offs would let every onychomycosis trial on the site be read properly. Find
     the original validation paper; do NOT describe the index from a trial that merely
     used it.'
+- name: Enshaieh 2007 5% tea tree oil gel in mild-to-moderate acne (PMID 17314442)
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: tea-tree-oil
+  source: the single 60-patient randomised double-blind placebo-controlled trial that
+    the entire Cochrane tea tree oil result rests on; worth its own structured study
+    page

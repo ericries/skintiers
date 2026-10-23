@@ -550,3 +550,11 @@
   discovered_from: null
   source: smoothing-skin-texture names seborrhoeic keratoses as a common cause of
     thickened skin with no page on this site
+- name: Sebaceous filaments vs blackheads section for the blackheads hub
+  type: condition
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: mis-typed as an ingredient in the ingredient queue; it is a disambiguation
+    section for the blackheads hub, not an ingredient. Normal grey nose dots that
+    pore strips remove and that return, a common source of over-treatment

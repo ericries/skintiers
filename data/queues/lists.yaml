@@ -634,3 +634,11 @@
   source: upadacitinib and abrocitinib both have ingredient pages and both are approved
     for moderate-to-severe AD, but nothing on the site ranks them against each other
     or against topical options
+- name: Essential oils in skincare, by evidence
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: tea-tree-oil
+  source: tea tree oil is the only essential oil on the site with a randomised acne
+    result, and Cochrane groups it with bee venom; nothing ranks essential oils against
+    each other

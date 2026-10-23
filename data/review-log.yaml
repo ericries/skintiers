@@ -14018,3 +14018,34 @@ maren-locke:
     self-verification (no critic for this type per the playbook); assurance sonnet.'
   score: 9
   verdict: publish
+tea-tree-oil:
+  last_reviewed: '2026-10-23'
+  note: 'INGREDIENT fill tick. tier: weak, matching the rubric: the entire acne case
+    is ONE 60-person trial (Enshaieh 2007) that Cochrane 2015 graded low quality of
+    evidence, plus one 124-patient single-blind comparator trial from 1990 (Bassett)
+    with no placebo arm and no published numbers. Both rubric rows graded modest/preliminary.
+    Three primary sources read via PubMed eutils; 26 quoted strings verified character-exact,
+    0 missing. Two honest points the page makes that a credulous version would miss:
+    (1) the trial reports "3.55 times and 5.75 times more effective than placebo"
+    while Cochrane reports MD -5.75 on the severity score, the same digits expressing
+    DIFFERENT quantities (ratio vs mean difference), and the page declines to reconcile
+    them; (2) the trials tested a leave-on 5% gel while the on-site products declaring
+    Melaleuca alternifolia (verified with `sk inci`, not grep) carry it as an extract
+    low in the list in rinse-off cleansers, so the evidence does not transfer.
+    CAUGHT AND FIXED my own defect, the SECOND instance today of the same error class:
+    the Common Marketing Claims section initially carried three INVENTED marketing
+    lines in quotation marks ("Clinically proven to treat acne", "Nature''s benzoyl
+    peroxide", "Gentle because it is natural") that no fetched source contained. The
+    character-exact check flagged all three. Rewrote them as unquoted claim-pattern
+    headings and added an explicit line saying no brand page was fetched for this ingredient,
+    rather than fabricating attributions. Also fixed two uncited-statistic lint warnings.
+    Allergy handled conservatively: cited a 2024 Contact Dermatitis product analysis
+    only for the narrow point that tea tree oil appears on a core allergen series,
+    and stated plainly that no prevalence figure was found rather than implying one.
+    Separately re-typed a mis-filed queue head (sebaceous filaments vs blackheads was
+    sitting in the INGREDIENT queue; it is a condition-hub section, moved to the condition
+    queue). Zero Apify spend. lint/style/verify clean. Main-loop self-verification stood
+    in for the Opus critic subagent (standing instruction not to spawn agents); assurance
+    sonnet.'
+  score: 8
+  verdict: publish

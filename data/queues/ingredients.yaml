@@ -1620,7 +1620,7 @@
     \ be an ingredient/topic explainer or fold into the blackheads hub"
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/38300170/
 - name: Stearyl glycyrrhetinate (licorice-derived, glycyrrhetinic acid ester), a soothing/anti-inflammatory
@@ -1659,7 +1659,7 @@
     and common in oily-skin products; source: acne RCTs / Cochrane)'
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: null
 - name: 'Gluconolactone (polyhydroxy acid / PHA; gentler exfoliant than AHAs, used
@@ -2602,3 +2602,11 @@
   source: both never-approved entries on this list (Avar and Plexion) are this same
     pairing; openFDA records marketing_category UNAPPROVED DRUG OTHER with no application
     number for each
+- name: Terpinen-4-ol
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: tea-tree-oil
+  source: the principal active constituent of Melaleuca alternifolia oil and the component
+    tea tree products are standardised on; no page covers it and the tea-tree-oil
+    page grades the whole oil
