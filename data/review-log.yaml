@@ -13913,3 +13913,32 @@ ycanth-cantharidin-topical-solution:
     assurance sonnet.'
   score: 9
   verdict: publish
+zelsuvmi-berdazimer-topical-gel:
+  last_reviewed: '2026-10-23'
+  note: 'PRODUCT fill tick. Berdazimer 10.3%, NDA217424 confirmed via openFDA. The
+    spine is a discrepancy inside the label itself: section 14 says "Efficacy was
+    demonstrated in Trials 1 and 2", but Table 2 shows Trial 2 primary-endpoint CI
+    running -0.04% to 18.4%, i.e. including zero, and Trial 3 at 26% vs 22% with CI
+    -5% to 14%. So one of three trials produced an unambiguous primary result, which
+    is what the mixed evidence grade records. Second rubric row notes the key SECONDARY
+    endpoint (Week 8) replicated in both trials where the primary did not, the reverse
+    of the usual pattern. Vehicle clearance 19.7/20.3/22% reported prominently because
+    molluscum self-resolves. Deliberately paired against [[ycanth-cantharidin-topical-solution]]
+    shipped yesterday: gentler (1.7% vs 0.6% severe TEAE, against cantharidin 97%
+    local-reaction rate) but far smaller treatment differences, and a daily 12-week
+    regimen instead of 4 clinician visits. IMAGE: marked image_unresolvable after
+    eyeballing all candidates. All four DailyMed media items are PREPRESS artwork
+    specifications (dimension callouts, bleed marks, "PRINT START at 1/8", pharmacode
+    direction arrows), not carton artwork like the YCANTH die-line; the brand og:image
+    is a lifestyle photo of a child with a logo overlay, carrying the site own "Not
+    actual patients." disclaimer. Neither qualifies under the product-photo rule.
+    Main-loop verification: 25 quoted strings checked character-exact; the only two
+    unmatched in a fetched file are an openFDA field value and a brand heading verified
+    in the cached page. FIXED before publish: a terminal period I had added inside a
+    brand-heading quote, and a loose "around 30% in every trial" replaced with the
+    actual 26% to 32.4% range. Brand page cached (research-cache/web/225d34de732df7d8.md).
+    Also linked both molluscum products from the hub See Also. Zero Apify spend. lint/style/verify
+    clean. Main-loop self-verification stood in for the Opus critic subagent (standing
+    instruction not to spawn agents); assurance sonnet.'
+  score: 9
+  verdict: publish

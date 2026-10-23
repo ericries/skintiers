@@ -2580,3 +2580,17 @@
   discovered_from: ycanth-cantharidin-topical-solution
   source: the colourant in the YCANTH formulation per its DailyMed inactive-ingredient
     list; also used topically in dermatology in its own right
+- name: Berdazimer sodium
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: zelsuvmi-berdazimer-topical-gel
+  source: active in ZELSUVMI (NDA217424); the DailyMed label calls it a nitric oxide
+    releasing agent whose mechanism in molluscum is unknown
+- name: Topical nitric oxide releasing agents
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: zelsuvmi-berdazimer-topical-gel
+  source: the mechanism class ZELSUVMI belongs to per its DailyMed label; no page
+    covers it and berdazimer is the first approved example in dermatology

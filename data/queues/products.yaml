@@ -3220,7 +3220,7 @@
 - name: ZELSUVMI (berdazimer topical gel 10.3%)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: molluscum-contagiosum
   source: 'FDA-APPROVED for molluscum in patients 1 year and older, LNHC Inc, DailyMed
     setid 76b17622-bdb9-41ea-b962-c2acc0df71f7. THE STORY IS ON ITS OWN LABEL: three
@@ -3868,7 +3868,7 @@
 - name: Zelsuvmi (berdazimer topical gel)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: ycanth-cantharidin-topical-solution
   source: the second FDA-approved molluscum drug, referenced alongside cantharidin
     on the molluscum-contagiosum hub; no page yet

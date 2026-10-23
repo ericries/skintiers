@@ -64,6 +64,8 @@ Molluscum contagiosum is a common viral skin infection of childhood that a 2026 
 ## See Also
 
 - [[salicylic-acid]] and [[lactic-acid]]: the two actives in the top-ranked replicated combination, graded above
+- [[ycanth-cantharidin-topical-solution]]: the clinician-applied cantharidin product, with the full trial table
+- [[zelsuvmi-berdazimer-topical-gel]]: the at-home berdazimer gel, whose three trials disagree
 - [[eczema-herpeticum]]: the page this one was surfaced from, where molluscum appears as a co-occurring infection
 - [[atopic-dermatitis]]: eczema and molluscum frequently coexist, and broken skin is how molluscum spreads
 - [[fda-approved-vs-cleared-skincare]]: why FDA approval, which both drugs here have, is a stronger claim than clearance
