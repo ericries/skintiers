@@ -13803,7 +13803,8 @@
   conflict: runs an Amazon affiliate storefront and does sponsored posts - strongly prefer educational / how-to / ingredient-explainer videos; be very cautious with any product recommendation
   posted: '2026-10-20'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: same affiliate-storefront creator; picks treated as effectively paid per house rule
 - id: '7698448735059102989'
   title: This was totally my fault because once again…I was overzealous with l...
   creator: Kristin Leite (kristingl)
@@ -14030,7 +14031,8 @@
   conflict: Founder/owner of active postpartum skincare brand "More Than Nine" (cleanser, exfoliator, moisturizer, balm) — an ongoing own-bran
   posted: '2026-10-22'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: dermal filler and breastfeeding; no filler page exists on the site to attach it to
 - id: 8sxgWOjt-Bg
   title: 'GLP-1 Medications and Vitamin B1 Deficiency: Warning Signs You Should Know'
   creator: Andrea Suarez (Dr Dray)
@@ -14124,7 +14126,8 @@
   conflict: 'Runs #ad sponsored posts (e.g. TruSkin) and Target skincare hauls/reviews; prefer her educational ingredient-category and barrier-repair explainers, and treat product recommendations as effectively promotional (skip).'
   posted: '2026-10-22'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 10 seconds, under the 25s floor and too thin for a thesis
 - id: ErzeP47avq0
   title: The Japanese Drugstore Products Worth Every Penny | Dr. Jenny Liu
   creator: Dr. Jenny Liu (Jenny Liu, MD, FAAD)
@@ -14150,7 +14153,8 @@
   conflict: runs an Amazon affiliate storefront and does sponsored posts - strongly prefer educational / how-to / ingredient-explainer videos; be very cautious with any product recommendation
   posted: '2026-10-22'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: single-product review from a creator who monetizes picks via an affiliate storefront; picks treated as effectively paid per house rule
 - id: '7699489507816590605'
   title: '#ISDINPartner You should definitely be getting more screen time… mean...'
   creator: Dr. Mamina Turegano
@@ -14163,7 +14167,8 @@
   conflict: null
   posted: '2026-10-22'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'caption carries #ISDINPartner and #ISDINMoreScreenTime, a disclosed paid partnership with ISDIN'
 - id: '7699662454720187662'
   title: 🖇️ Comment DOSE to shop Dose (of) Derm  Meet Dose (of) Derm 🥹 After a...
   creator: Dr. Sheila Farhang (dr.sheila_derm)
@@ -14216,4 +14221,5 @@
   conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan and reject any sponsored/affiliate/gifted video
   posted: '2026-10-22'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'caption carries #ad and #magicmoleculepartner, a disclosed paid partnership with Magic Molecule'
