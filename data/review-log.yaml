@@ -13884,3 +13884,32 @@ nuface-gel-primer:
     to spawn agents); assurance sonnet.'
   score: 9
   verdict: publish
+ycanth-cantharidin-topical-solution:
+  last_reviewed: '2026-10-23'
+  note: 'PRODUCT fill tick. Cantharidin 0.7%, NDA212905 confirmed via openFDA drug/label
+    (a real approval, not a marketed-unapproved SPL). Full DailyMed label read; the
+    page deliberately does NOT repeat the cross-treatment ranking the molluscum-contagiosum
+    hub already owns, and instead carries what the hub lacks: the four-timepoint clearance
+    table (Day 21/42/63/84 for both trials), the adverse-reaction severity breakdown,
+    the 97% local-skin-reaction rate, the 35% vs 21% early-removal figure, the toxicity
+    and flammability warnings, and the label admission that the mechanism is unknown.
+    Second rubric row grades SPEED separately and reports that Trial 2 Day 21 difference
+    was 3% with CI -1% to 8%, so that trial could not distinguish one application from
+    vehicle. Vehicle arms (18% and 13% at Day 84) reported prominently because molluscum
+    self-resolves. Main-loop verification: 35 quoted strings checked character-exact;
+    the only two not matched in a fetched text file are an openFDA field value and a
+    string read off the carton image, both verified at source. CAUGHT AND FIXED my own
+    worst defect: the Common Marketing Claims section initially carried two INVENTED
+    marketing quotes in quotation marks ("The first FDA-approved treatment for molluscum
+    contagiosum", "Clinically proven to clear lesions") that no fetched source contained.
+    Replaced by fetching and caching ycanth.com (research-cache/web/8509e3a23be1ee81.md)
+    and quoting three real brand claims plus the $0-copay offer. Also fixed a quote
+    starting mid-sentence ("were removed prior to...") and an unsupported "roughly half
+    the rate" characterisation of the vehicle adverse-reaction column. Image is the
+    DailyMed carton die-line (ycanth-19.jpg), eyeballed before use; the other 19 media
+    items are applicator schematics. Price deliberately omitted (clinician-administered
+    Rx, no shelf price). Zero Apify spend. lint/style/verify clean. Main-loop self-verification
+    stood in for the Opus critic subagent (standing instruction not to spawn agents);
+    assurance sonnet.'
+  score: 9
+  verdict: publish

@@ -3207,7 +3207,7 @@
 - name: YCANTH (cantharidin 0.7% topical solution)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: molluscum-contagiosum
   source: 'FDA-APPROVED for molluscum in patients 2 years and older, Verrica Pharmaceuticals,
     DailyMed setid 7c9bdeaa-9822-4c69-a719-ea4a8643f59c. The strongest numbers in
@@ -3865,3 +3865,10 @@
   discovered_from: acne
   source: Dr. Dustin Portela - The ONLY 3-Step Acne Routine You Need (video, xaJeBodWz2Y);
     sulfur spot treatment he names as his OTC pick
+- name: Zelsuvmi (berdazimer topical gel)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: ycanth-cantharidin-topical-solution
+  source: the second FDA-approved molluscum drug, referenced alongside cantharidin
+    on the molluscum-contagiosum hub; no page yet

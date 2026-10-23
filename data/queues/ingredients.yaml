@@ -2558,3 +2558,25 @@
   discovered_from: null
   source: second ingredient in the published INCI for both NuFACE conductive gels;
     a very common solvent/humectant across the product catalog with no page yet
+- name: Cantharidin
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: ycanth-cantharidin-topical-solution
+  source: active ingredient of YCANTH (NDA212905); the DailyMed label states its mechanism
+    in molluscum is unknown and that it is a vesicant
+- name: Potassium hydroxide (topical, 10%)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: ycanth-cantharidin-topical-solution
+  source: one of only three treatments that beat placebo in the 2026 pediatric molluscum
+    network meta-analysis (RR 3.05, SUCRA 78.6%); molluscum-contagiosum notes it has
+    no page here yet
+- name: Gentian violet
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: ycanth-cantharidin-topical-solution
+  source: the colourant in the YCANTH formulation per its DailyMed inactive-ingredient
+    list; also used topically in dermatology in its own right

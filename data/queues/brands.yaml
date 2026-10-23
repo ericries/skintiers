@@ -404,3 +404,10 @@
     name and the clearance inventory; if it does, resolve this item rather than creating
     a second brand page, since five near-duplicate page pairs already exist on this
     site. LEAN discovery aid only if built.
+- name: Verrica Pharmaceuticals
+  type: brand
+  priority: 5
+  status: pending
+  discovered_from: ycanth-cantharidin-topical-solution
+  source: 'applicant of record for YCANTH (NDA212905); the new product page sets brand:
+    Verrica Pharmaceuticals with no brand page to link to'
