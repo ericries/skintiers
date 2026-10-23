@@ -13966,3 +13966,55 @@ irvine-2025-upadacitinib-atopic-dermatitis-140-weeks:
     assurance sonnet.'
   score: 9
   verdict: publish
+prescription-acne-rosacea-topicals-by-regulatory-status:
+  last_reviewed: '2026-10-23'
+  note: 'LIST fill tick. Curatorial over product pages that already exist; applies
+    the four-rung framing from [[fda-approved-vs-cleared-skincare]] without re-explaining
+    it. Every regulatory status verified live against openFDA drug/ndc (marketing_category
+    + application_number) and, for the two brands absent from the active NDC directory,
+    drug/drugsfda. Findings worth naming: BenzaClin NDA050756 is listed Discontinued
+    in Drugs@FDA (approved but no longer marketed, a third category the hub does not
+    have); and TWO products are marketing_category "UNAPPROVED DRUG OTHER" with no
+    application number, Avar and Plexion, both sodium sulfacetamide/sulfur, which
+    is a pattern rather than a coincidence. Explicitly did NOT treat the empty NDC
+    result for BenzaClin/MetroGel as evidence of non-approval; resolved each against
+    Drugs@FDA instead. MY OWN ERROR, caught and fixed before the final publish: I
+    built the first draft by GUESSING slugs, which silently omitted winlevi-clascoterone-1-cream,
+    rhofade-oxymetazoline-1-cream, zilxi-minocycline-foam, onexton, plexion, differin-gel-0-3-adapalene,
+    tazorac and retin-a-micro, while the page claimed to cover EVERY such product.
+    queue-add rejected three of my cross-feed candidates with "skipped (page exists)",
+    which exposed it. Rebuilt the roster with `sk find` plus a scan of every product
+    page carrying both a prescription marker and an acne/rosacea indication, taking
+    the list from 15 entries to 23, and looked up the eight missing application numbers.
+    This is the failure mode [[agent-entity-resolution]] warns about. Strengths confirmed
+    where ambiguous: NDA021753 is adapalene 3 mg/g (the 0.3% Rx gel, not the OTC 0.1%),
+    Tazorac holds two NDAs (gel 020600, cream 021184). Oral drugs (Oracea, Emrosi)
+    deliberately out of scope since the list is topicals. No tier_list block: the hub
+    itself says regulatory status is not a quality ranking, so imposing best/good/mid/weak
+    tiers would mislead. Zero Apify spend, openFDA only (durable primary, no cache
+    needed). lint/style/verify clean, 0 broken xrefs. Main-loop self-verification;
+    assurance sonnet.'
+  score: 8
+  verdict: publish
+maren-locke:
+  last_reviewed: '2026-10-23'
+  note: 'PERSON fill tick. 113-word discovery card. Credential verified from TWO independent
+    sources before any claim: the practice site (name, "Board-Certified Dermatologist
+    in Ocala, FL", cached research-cache/web/618702293dd83fd6.md) and the federal NPI
+    registry (NPI 1912267667, credential M.D., single primary Dermatology taxonomy,
+    active Ohio licence 35.128012). REFUSED the roster credential in two places rather
+    than copying it: the roster calls her a "fellowship-trained Mohs surgeon" and "founder/director"
+    of the practice, and NEITHER is supported. Mohs appears only in the practice service
+    list, the NPI record carries no Mohs micrographic surgery taxonomy, and no source
+    states a fellowship or a founder role, so the page claims neither and the footnote
+    says so explicitly. Also disclosed rather than hid the registry/practice location
+    mismatch (NPI shows Cleveland OH, practice is Ocala FL) and declined to assert
+    the records describe the same current location. Board certification attributed
+    as the practice own statement, since a practice marketing site is not an independent
+    credentialing source. Affiliate conflict disclosed in the body (Amazon Associates
+    + ShopMy storefronts, picks treated as commercially incentivized, educational content
+    only). Links her three existing transcript-verified cards. Zero Apify spend. lint/style
+    clean; verify warns only on the non-primary practice domain, which is cached. Main-loop
+    self-verification (no critic for this type per the playbook); assurance sonnet.'
+  score: 9
+  verdict: publish

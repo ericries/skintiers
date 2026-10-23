@@ -3886,3 +3886,18 @@
   discovered_from: irvine-2025-upadacitinib-atopic-dermatitis-140-weeks
   source: the other oral JAK inhibitor approved for moderate-to-severe atopic dermatitis;
     abrocitinib has an ingredient page here but no product page
+- name: ZILXI (minocycline 1.5% topical foam)
+  type: product
+  priority: 5
+  status: done
+  discovered_from: prescription-acne-rosacea-topicals-by-regulatory-status
+  source: Rx topical minocycline foam for rosacea; the site covers its acne sibling
+    amzeeq-minocycline-4-topical-foam but has no Zilxi page, leaving a gap in this
+    regulatory-status list
+- name: Generic clindamycin 1% / benzoyl peroxide 5% gel
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: prescription-acne-rosacea-topicals-by-regulatory-status
+  source: BenzaClin NDA050756 is discontinued per Drugs@FDA, so the marketed form
+    of this combination is generic or Onexton; no generic page exists

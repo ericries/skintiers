@@ -2594,3 +2594,11 @@
   discovered_from: zelsuvmi-berdazimer-topical-gel
   source: the mechanism class ZELSUVMI belongs to per its DailyMed label; no page
     covers it and berdazimer is the first approved example in dermatology
+- name: Sodium sulfacetamide and sulfur combination topicals
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: prescription-acne-rosacea-topicals-by-regulatory-status
+  source: both never-approved entries on this list (Avar and Plexion) are this same
+    pairing; openFDA records marketing_category UNAPPROVED DRUG OTHER with no application
+    number for each

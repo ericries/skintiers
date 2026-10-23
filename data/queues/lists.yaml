@@ -377,7 +377,7 @@
 - name: Prescription acne and rosacea topicals by regulatory status
   type: list
   priority: 5
-  status: pending
+  status: done
   discovered_from: fda-approved-vs-cleared-skincare
   source: A natural second cut of the axis on fda-approved-vs-cleared-skincare, applied
     where it bites hardest. The site carries NDA-approved topicals (delgocitinib NDA219155,

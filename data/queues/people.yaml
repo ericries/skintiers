@@ -330,7 +330,7 @@
 - name: Maren Locke (The Budget Dermatologist)
   type: person
   priority: 5
-  status: pending
+  status: done
   discovered_from: mohs-micrographic-surgery
   source: 'A fellowship-trained Mohs surgeon already on the creator roster, whose
     melanoma explainer (959k views) is carded on the melanoma page, and who now has
