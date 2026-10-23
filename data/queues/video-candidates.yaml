@@ -14056,7 +14056,8 @@
   conflict: Bio includes a business/booking contact email suggesting managed brand partnerships; no confirmed own-brand line or affiliate stor
   posted: '2026-10-22'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 7 seconds and no English transcript available
 - id: OxKHKF5PAUg
   title: Biggest skin & hair care mistakes | What actually works with Dermatologist Dr. Geetanjali Shetty
   creator: Dr. Aanchal MD
@@ -14082,7 +14083,8 @@
   conflict: null
   posted: '2026-10-22'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: general laser-operator-training clip naming no modality, so no single matching page; also closes with a plug for the creator's own clinic
 - id: '7699738396779908372'
   title: AD | Do you have a foolproof skin combo for when you need things to j...
   creator: Hannah English (@ms_hannah_e / Hannah Collingwood English)
@@ -14095,7 +14097,8 @@
   conflict: Co-developed/formulated the Tbh Skincare 'Rebound' Serum and Toner (product-formulation partnership) — her endorsement of that spe; no YouTube; TikTok/IG intake
   posted: '2026-10-23'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: caption begins AD, a disclosed paid post
 - id: '7699616065772358933'
   title: i am aware I haven’t concealed the bruise next to the eyebrow thank u...
   creator: Hannah English (@ms_hannah_e / Hannah Collingwood English)
@@ -14173,7 +14176,8 @@
   conflict: Self-describes as a "Key Opinion Leader for industry beauty companies" (per her own practice bio) and most sampled TikTok videos e; no YouTube; TikTok/IG intake
   posted: '2026-10-23'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: shoppable promo for the creator's own Dose of Derm line (comment-to-shop)
 - id: _hxmXh8OoGY
   title: 'Ritual Toner | Derm & Rejuvenation Institute '
   creator: Tanya Kormeili, MD, FAAD

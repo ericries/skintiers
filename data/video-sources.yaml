@@ -281,7 +281,7 @@
   channel: https://www.tiktok.com/@dermydoctor
   product_recs: restricted
   conflict: null
-  last_pulled: '2026-10-22'
+  last_pulled: '2026-10-23'
 - name: Dr. Michelle Henry, MD FAAD
   creator_slug: michelle-henry-md-faad
   credential: Board-certified dermatologist
@@ -431,7 +431,7 @@
   channel: https://www.tiktok.com/@dr.tomassian
   product_recs: ok
   conflict: Bio includes a business/booking contact email suggesting managed brand partnerships; no confirmed own-brand line or affiliate stor
-  last_pulled: '2026-10-12'
+  last_pulled: '2026-10-23'
 - name: Dr. Neera Nathan
   creator_slug: neera-nathan
   backfill_cursor: 9999
