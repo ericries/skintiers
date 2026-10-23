@@ -14049,3 +14049,36 @@ tea-tree-oil:
     sonnet.'
   score: 8
   verdict: publish
+foreo-faq-302:
+  last_reviewed: '2026-10-23'
+  note: 'PRODUCT fill tick, K242747. DUPLICATION CHECK FIRST: the sibling page foreo-faq-led-masks
+    already quotes this file heavily (indication fragment, 20 laser diodes / 20 LED
+    beads, both predicates, the "Clinical testing was considered not to be needed"
+    line, ISO standards, the Fitzpatrick I-IV restriction). Wrote the standalone page
+    only for the genuine delta and linked out for the family-level disclosure argument
+    rather than repeating it. New here: the clearance letter regulation name is "Infrared
+    Lamp" (21 CFR 890.5500) while the product code OAP classification name is "Laser,
+    Comb, Hair", so a red-light scalp device is filed under an infrared-lamp regulation
+    inside a laser-comb category, the same naming-mismatch family as dpl-spotlite;
+    the FULL two-arm indication including the women arm at Ludwig-Savin I-II, which
+    the sibling page quotes only the male fragment of; and the FDA classification DEFINITION
+    for OAP describes males only, so the device indication is broader than the category
+    it sits in, which is the second rubric row. Also new: energy "<5mW" identical across
+    the device and both predicates, treatment area "Approx. 32cm2" vs "Approx. 40cm2"
+    for the HairMax, and "Unknown" for the primary predicate area. Followed the sibling
+    page precedent of NOT quoting the Roman numerals (the PDF text layer renders "Ila-V"
+    for "IIa-V" and "l-II" for "I-II"), reporting severity grades in words instead.
+    No price and no Common Marketing Claims quotes: three FOREO product-URL patterns
+    and the site search all 404ed, and rather than invent marketing copy (the error
+    I made twice earlier today) the section states plainly that none was reachable.
+    image_unresolvable set for the same reason. Zero Apify spend, no gate call needed
+    since no Apify attempt was made. 32 quoted strings checked character-exact; the
+    8 reported misses were all adjacent-quote capture artifacts beginning with punctuation
+    or space, the known false-positive class. Fixed one style defect pre-publish (defensive
+    "This page grades..." meta-commentary). Linked the new page from foreo-faq-led-masks.
+    Re-verified the FOREO clearance count: still 10, still 8 Statements, so the brand
+    page claim stands. lint/style/verify clean. Main-loop self-verification stood in
+    for the Opus critic subagent (standing instruction not to spawn agents); assurance
+    sonnet.'
+  score: 8
+  verdict: publish

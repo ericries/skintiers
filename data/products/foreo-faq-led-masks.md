@@ -12,7 +12,7 @@ aliases:
 - K240378
 - K240616
 - K253683
-analyzed: '2026-10-18'
+analyzed: '2026-10-23'
 assurance: sonnet
 brand: FOREO
 category: Devices
@@ -45,7 +45,7 @@ name: FOREO FAQ LED Masks
 slug: foreo-faq-led-masks
 status: published
 type: product
-updated: '2026-10-18'
+updated: '2026-10-23'
 ---
 
 FOREO's FAQ line spans five FDA clearances, and it is not purely an LED range: FAQ 101 and FAQ 102 are classified under product code PAY, the over-the-counter RADIOFREQUENCY classification created by the NEWA De Novo, not under an LED code.[^pay] **Bottom line:** not one of the facial masks publishes a word about how it was tested, the only FAQ file that does publish is for a **hair-growth** device, and that file says clinical testing was not needed.[^openfda][^k302] Category evidence is on [[home-led-light-therapy]].
@@ -67,7 +67,7 @@ Five clearances, and they do not all describe the same kind of device: FAQ 101 (
 - **Evidence quality: preliminary.** Same Statement filing, same absence of a public file.[^openfda]
 
 **Whether you can check the maker's work**
-- **Effect size: not applicable; a disclosure finding.** Eight of ten FOREO clearances publish nothing, and both Summaries are for devices outside the facial LED range: the FAQ 302 hair device and the Luna 4 plus.[^openfda] Compare [[nuface-trinity-microcurrent-device]], where all 14 of that firm's clearances are Summaries, and [[revive-light-therapy-lux-glo]], where all 15 are.
+- **Effect size: not applicable; a disclosure finding.** Eight of ten FOREO clearances publish nothing, and both Summaries are for devices outside the facial LED range: the FAQ 302 hair device, covered at [[foreo-faq-302]], and the Luna 4 plus.[^openfda] Compare [[nuface-trinity-microcurrent-device]], where all 14 of that firm's clearances are Summaries, and [[revive-light-therapy-lux-glo]], where all 15 are.
 - **Evidence quality: not applicable; read directly from the clearance records.**
 
 ## The Evidence

@@ -642,3 +642,11 @@
   source: tea tree oil is the only essential oil on the site with a randomised acne
     result, and Cochrane groups it with bee venom; nothing ranks essential oils against
     each other
+- name: Low-level laser and red-light devices for hair loss, by evidence
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: foreo-faq-302
+  source: the FAQ 302 page establishes that its own clearance carries no clinical
+    data; nothing on the site grades red-light scalp devices as a category, and hair-loss-thinning
+    covers only drugs

@@ -3233,7 +3233,7 @@
 - name: FOREO FAQ 302 hair-growth device (K242747)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: foreo-faq-led-masks
   source: 'The ONLY FAQ clearance filed as a Summary, and it is a scalp device, not
     a face mask. 20 laser diodes at 650 plus or minus 10nm and 20 red LEDs at 640-660nm;
@@ -3910,3 +3910,10 @@
   source: the clearest on-site product declaring Melaleuca alternifolia; the new tea-tree-oil
     page argues a rinse-off extract does not inherit the 5% leave-on gel evidence,
     which that product page should state
+- name: HairMax LaserComb 41 (K142573)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: foreo-faq-302
+  source: named as the secondary predicate in the FAQ 302 510(k) Summary; the older
+    laser comb the category is built on, with no page here

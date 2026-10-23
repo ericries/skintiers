@@ -2610,3 +2610,11 @@
   source: the principal active constituent of Melaleuca alternifolia oil and the component
     tea tree products are standardised on; no page covers it and the tea-tree-oil
     page grades the whole oil
+- name: Topical minoxidil (2% and 5%)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: foreo-faq-302
+  source: hair-loss-thinning discusses minoxidil repeatedly as the comparator with
+    real trial evidence, but no ingredient page grades it; needed before any hair-device
+    list can rank anything against it
