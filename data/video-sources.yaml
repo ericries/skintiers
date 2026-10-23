@@ -522,6 +522,7 @@
   last_pulled: '2026-10-22'
 - name: Dr. Aanchal MD
   creator_slug: dr-aanchal-md
+  backfill_cursor: 15
   credential: Dr. Aanchal Panth, MD Dermatology, Venereology and Leprosy (AIIMS New Delhi), MBBS (Manipal); consultant dermatologist, Surat, India; IADVL member
   tier: HIGH
   channel: https://www.youtube.com/channel/UCMTl80jTQwGkO335HoVf0ig/videos
