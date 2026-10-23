@@ -2535,3 +2535,26 @@
     and the code as KT939; RESOLVE THE REAL INCI NAME before drafting and drop this
     item if it cannot be resolved. Pairs with the thiamidol card already on even-skin-tone,
     where a dermatologist criticised the manufacturer''s dosing-asymmetry comparison.'
+- name: Magnesium sulfate
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: named as the conductive material in the K161654 510(k) Summary for the NuFACE
+    Gel Primer and declared in the published INCI for the NuFACE Hydrating Leave-On
+    Gel Primer
+- name: Tremella fuciformis sporocarp extract
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: appears in the published INCI for both NuFACE conductive gels (Leave-On
+    Gel Primer and Hydrating Aqua Gel); marketed as a hyaluronic acid alternative
+    humectant
+- name: Propanediol
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: second ingredient in the published INCI for both NuFACE conductive gels;
+    a very common solvent/humectant across the product catalog with no page yet

@@ -13847,3 +13847,40 @@ smoothing-skin-texture:
     new facts, so no new sources needed. Main-loop self-verification; assurance sonnet.'
   score: 8
   verdict: publish
+nuface-gel-primer:
+  last_reviewed: '2026-10-22'
+  note: 'PRODUCT fill tick, queue item "NuFACE Gel Primer (K161654)". Spine is the
+    510(k) Summary PDF read in full: the clearance is for an ELECTROCONDUCTIVE MEDIUM
+    (product code GYB, 21 CFR 882.1275, Class II, Neurology panel, signed out of the
+    Division of Neurological and Physical Medicine Devices), cleared indication is
+    one sentence about skin conductivity, predicate is Prizm Medical Thera-Cream K032239
+    (an electrotherapy cream used with garment electrodes), conductive salt magnesium
+    sulfate vs the predicate copper salts, and the Summary Conclusion claims equivalence
+    "in safety" ONLY where its own predicate-comparison heading promised "safety and
+    effectiveness". Brand page (cached research-cache/web/392eab324ad63582.md) says
+    both "FDA-approved" and "FDA CLEARED" about the same product and adds a depth claim
+    ("reach deep into the facial muscles") with no basis in the file. Of the 14 Carol
+    Cole clearances exactly one is GYB (verified by product-code listing). Main-loop
+    verification: all 48 quoted strings checked character-exact after NFC/dash/quote
+    folding and whitespace collapse, including a column-aware reconstruction of the
+    predicate-comparison TABLE cells (pdftotext -layout interleaves columns, so two
+    table quotes needed a fixed-width column slice to verify; boundary x=53..80). FIXED
+    4 of my own quote-boundary defects before publish: a terminal period substituted
+    for a comma ("down to the muscle."), and three bold claim headings where I had
+    capitalised or added a period to the brand wording ("FDA-approved.", "Helping the
+    microcurrent...", "Powered by IonPlex."). Also softened a mechanistic absolute
+    ("will not deliver current at all") to the Mini filing own quoted requirement,
+    and reworded the conductivity rubric line so the modest grade does not contradict
+    the note saying no magnitude is published. Identity NOT asserted: nothing NuFACE
+    sells is now called Gel Primer; price is given as the Aqua Gel Activator $35.00/1.69
+    oz and labelled as such, sizes differ from the file (2 and 5 fl. oz.), and the
+    published INCI lists diverge on the conductive salt (incidecoder, inline attribution
+    only, with the caveat that a cleared formula can change without a new submission).
+    Zero Apify spend: openFDA 510k + classification, accessdata PDF, brand Shopify
+    products.json and product page, inci_lookup. NOTE: accessdata.fda.gov PDFs now
+    return HTTP 404 to a default curl user agent and 200 with a browser UA. Two photos
+    added (brand silo + incidecoder front photo). lint/style/verify clean. Main-loop
+    self-verification stood in for the Opus critic subagent (standing instruction not
+    to spawn agents); assurance sonnet.'
+  score: 9
+  verdict: publish

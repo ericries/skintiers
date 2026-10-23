@@ -3189,7 +3189,7 @@
 - name: NuFACE Gel Primer (K161654)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: nuface
   source: 'openFDA record K161654, decision 2016-12-30, 510(k) Summary. Notable because
     it is a CONDUCTIVE GEL cleared as a device rather than sold as a cosmetic, which
@@ -3844,3 +3844,11 @@
     various distributors and only one representative label was read; also note the
     site already covers Lotrimin AF, which is clotrimazole, so keep the two distinct
     rather than treating Lotrimin as one product.'
+- name: NuFACE FIX Smooth Microcurrent Serum Activator with Peptides
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: 'mynuface.com products.json fetched 2026-10-22: $49.00 (0.5 oz) / $78.00
+    (1.0 oz) conductive serum activator; the peptide sibling of the Aqua Gel covered
+    on nuface-gel-primer'
