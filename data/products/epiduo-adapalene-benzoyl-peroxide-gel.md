@@ -62,6 +62,16 @@ videos:
   related: []
   thesis: Board-certified dermatologist Dr. Chris Tomassian names adapalene combined with benzoyl peroxide as what he considers the best and most effective over-the-counter acne treatment. He notes this combination was previously prescription-only and is now available over the counter, and explains adapalene treats and helps prevent new pimples while paired with benzoyl peroxide. He recommends it as a good option to try before seeing a dermatologist for those who can't get an appointment yet
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: The ONLY 3-Step Acne Routine You Need (2026 Dermatologist Guide)
+  creator: Dr. Dustin Portela
+  creator_slug: dustin-portela
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=xaJeBodWz2Y
+  posted: '2026-10-11'
+  related: [adapalene, benzoyl-peroxide, azelaic-acid, salicylic-acid, sulfur]
+  thesis: 'Board-certified dermatologist Dr. Dustin Portela builds a six-step over-the-counter acne routine around Epiduo, the adapalene 0.1% and benzoyl peroxide 2.5% gel that he says has just become available without a prescription for the first time, and he describes the pairing as addressing clogged pores, acne-causing bacteria and inflammation together. His main practical warning is to start every second or third night rather than nightly, because the people he sees begin with daily use, get irritated and quit, and to expect benzoyl peroxide to bleach fabric. For the morning he offers three alternatives depending on the skin: The Ordinary Azelaic Acid 10% Suspension for redness and post-acne dark marks, a sulfur spot treatment for occasional localized breakouts, and CeraVe Acne Control Gel at 2% salicylic acid for oily or congested skin, finishing with EltaMD UV Clear'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

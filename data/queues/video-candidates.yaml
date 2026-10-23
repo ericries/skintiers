@@ -11527,7 +11527,8 @@
   conflict: Chief Medical Officer of hair-growth-serum brand REYUS; advisory-board member of Bubble Skincare; periodic disclosed paid brand partnerships
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: Amazon picks video from a creator with product_recs restricted and multiple brand roles; treated as effectively affiliate
 - id: wTFfbmJxuSg
   title: 'Dermatologist: Anti-Aging Skincare Miracle or Marketing?'
   creator: Dr. Sarah Sheu
@@ -11594,7 +11595,8 @@
   conflict: Runs a "Shop my Favorites" affiliate storefront (linktr.ee/dermatologysurgeon) that monetizes her product picks; no own-brand prod
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: affiliate storefront creator; dollar-tree picks video treated as effectively paid per house rule
 - id: '7695071265643646238'
   title: 🖇️ Comment MAKEUP to get my full makeup routine that's skin longevity...
   creator: Dr. Sheila Farhang (dr.sheila_derm)
@@ -11621,7 +11623,8 @@
   conflict: runs the PillowtalkDerm brand - skip videos mainly promoting her own products
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: curly hair routine; no skincare page on the site matches
 - id: '7695055965682535694'
   title: No, you don’t need a vitamin c serum in your routine, but if you’re d...
   creator: Ella (@your.estie.ella)

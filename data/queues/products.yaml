@@ -3852,3 +3852,16 @@
   source: 'mynuface.com products.json fetched 2026-10-22: $49.00 (0.5 oz) / $78.00
     (1.0 oz) conductive serum activator; the peptide sibling of the Aqua Gel covered
     on nuface-gel-primer'
+- name: CeraVe Hydrating Cream-to-Foam Cleanser
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: acne
+  source: Dr. Dustin Portela - The ONLY 3-Step Acne Routine You Need (video, xaJeBodWz2Y)
+- name: Thayers Rapid Acne Spot Treatment
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: acne
+  source: Dr. Dustin Portela - The ONLY 3-Step Acne Routine You Need (video, xaJeBodWz2Y);
+    sulfur spot treatment he names as his OTC pick

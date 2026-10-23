@@ -43,6 +43,18 @@ type: product
 updated: '2026-07-28'
 key_actives:
 - azelaic-acid
+videos:
+- title: The ONLY 3-Step Acne Routine You Need (2026 Dermatologist Guide)
+  creator: Dr. Dustin Portela
+  creator_slug: dustin-portela
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=xaJeBodWz2Y
+  posted: '2026-10-11'
+  related: [adapalene, benzoyl-peroxide, azelaic-acid, salicylic-acid, sulfur]
+  thesis: 'Board-certified dermatologist Dr. Dustin Portela builds a six-step over-the-counter acne routine around Epiduo, the adapalene 0.1% and benzoyl peroxide 2.5% gel that he says has just become available without a prescription for the first time, and he describes the pairing as addressing clogged pores, acne-causing bacteria and inflammation together. His main practical warning is to start every second or third night rather than nightly, because the people he sees begin with daily use, get irritated and quit, and to expect benzoyl peroxide to bleach fabric. For the morning he offers three alternatives depending on the skin: The Ordinary Azelaic Acid 10% Suspension for redness and post-acne dark marks, a sulfur spot treatment for occasional localized breakouts, and CeraVe Acne Control Gel at 2% salicylic acid for oily or congested skin, finishing with EltaMD UV Clear'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 The Ordinary Azelaic Acid Suspension 10% is a silicone-based leave-on cream that lists azelaic acid as its fourth ingredient at a labeled 10%, sold inexpensively in a 30 ml or 100 ml tube.[^1]

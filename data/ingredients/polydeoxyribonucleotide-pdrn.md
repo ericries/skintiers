@@ -107,6 +107,16 @@ videos:
   related: [panthenol, centella-asiatica, medicube-pdrn-pink-collagen-exosome-shot-serum, anua-pdrn-caffeine-rejuvenating-eye-cream]
   thesis: 'Beauty product developer Kristin Leite (not a dermatologist or cosmetic chemist) makes a practical formulation point about PDRN (polydeoxyribonucleotide) products. Using a Dr. Althea PDRN cream and a Heveblue salmon-care ampoule as examples, she argues that even someone skeptical of PDRN is not wasting their money, because these formulas are built on base ingredients that work on their own: panthenol, a form of vitamin B that hydrates and supports the skin barrier, and centella water, which soothes and hydrates. Her takeaway is to judge a product as a whole formula rather than by a single hero ingredient.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: 'Dermatologist: is PDRN an Anti-Aging Miracle or Marketing?'
+  creator: Dr. Sarah Sheu
+  creator_slug: dr-sarah-sheu
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=wTFfbmJxuSg
+  posted: '2026-10-10'
+  related: [anti-aging, retinol]
+  thesis: Board-certified dermatologist Dr. Sarah Sheu reviews a new study of topical PDRN, the chopped-up salmon or plant DNA sold in anti-aging serums, and explains that her long-standing objection has been penetration, since DNA is large and negatively charged and so should struggle to get anywhere useful through skin. She credits the study for testing penetration directly rather than only showing before and after photos, then points out that PDRN reached the dermis in pig skin within 8 to 12 hours while in the single test on a living human forearm it was barely into the living epidermis at 24 hours, and that part of the 4-week wrinkle improvement could be temporary plumping from hydration. She also flags that several of the study authors are tied to Uniskin, a company selling the exact PDRN form tested, which she treats as a pink flag rather than a red one, and her own verdict is that she likes PDRN products as moisturizers but is not sure they do more than moisturize
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

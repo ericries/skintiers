@@ -697,6 +697,16 @@ videos:
   related: [azelaic-acid, adapalene, retinoids, salicylic-acid, sunscreen-uv-filters]
   thesis: 'Licensed esthetician Ella lays out a deliberately small acne routine: a gentle cleanser, a plain moisturizer and a daily sunscreen as the base, then azelaic acid every morning and a retinoid in the evening, phased in slowly over what she calls a three to six month journey up to four to six nights a week. She argues adapalene is a good choice for acne specifically and that tretinoin is not required, and she leaves exfoliation out for most people, suggesting a low-strength salicylic acid only for very oily skin. Two of her framings are her own emphasis rather than established fact: she says you cannot keep skin clear without daily sunscreen, and that nothing regulates acne better than azelaic acid plus a tolerated retinoid, which is stronger than the comparative evidence supports.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: The ONLY 3-Step Acne Routine You Need (2026 Dermatologist Guide)
+  creator: Dr. Dustin Portela
+  creator_slug: dustin-portela
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=xaJeBodWz2Y
+  posted: '2026-10-11'
+  related: [adapalene, benzoyl-peroxide, azelaic-acid, salicylic-acid, sulfur]
+  thesis: 'Board-certified dermatologist Dr. Dustin Portela builds a six-step over-the-counter acne routine around Epiduo, the adapalene 0.1% and benzoyl peroxide 2.5% gel that he says has just become available without a prescription for the first time, and he describes the pairing as addressing clogged pores, acne-causing bacteria and inflammation together. His main practical warning is to start every second or third night rather than nightly, because the people he sees begin with daily use, get irritated and quit, and to expect benzoyl peroxide to bleach fabric. For the morning he offers three alternatives depending on the skin: The Ordinary Azelaic Acid 10% Suspension for redness and post-acne dark marks, a sulfur spot treatment for occasional localized breakouts, and CeraVe Acne Control Gel at 2% salicylic acid for oily or congested skin, finishing with EltaMD UV Clear'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
