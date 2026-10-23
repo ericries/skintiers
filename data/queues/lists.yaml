@@ -626,3 +626,11 @@
     inherit. A short list would exist to state that plainly and route to the device
     pages. BUILD ONLY if a genuine body-outcome literature exists; if it does not,
     that IS the finding and the page should be one screen long.'
+- name: Oral JAK inhibitors for atopic dermatitis, compared
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: irvine-2025-upadacitinib-atopic-dermatitis-140-weeks
+  source: upadacitinib and abrocitinib both have ingredient pages and both are approved
+    for moderate-to-severe AD, but nothing on the site ranks them against each other
+    or against topical options

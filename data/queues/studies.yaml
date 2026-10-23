@@ -798,7 +798,7 @@
     Atopic Dermatitis: (PMID 40900410)'
   type: study
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/40900410/
 - name: Lee 2026 Comparison of a Single Treatment of Needleless Microsubcision With

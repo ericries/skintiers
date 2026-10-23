@@ -3872,3 +3872,17 @@
   discovered_from: ycanth-cantharidin-topical-solution
   source: the second FDA-approved molluscum drug, referenced alongside cantharidin
     on the molluscum-contagiosum hub; no page yet
+- name: RINVOQ (upadacitinib) oral tablets
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: irvine-2025-upadacitinib-atopic-dermatitis-140-weeks
+  source: the branded oral upadacitinib studied in Measure Up 1/2 and AD Up; the ingredient
+    page exists but no product page covers the marketed drug or its label warnings
+- name: CIBINQO (abrocitinib) oral tablets
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: irvine-2025-upadacitinib-atopic-dermatitis-140-weeks
+  source: the other oral JAK inhibitor approved for moderate-to-severe atopic dermatitis;
+    abrocitinib has an ingredient page here but no product page

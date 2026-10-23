@@ -1,0 +1,34 @@
+---
+aliases:
+- Irvine 2025 upadacitinib 140 weeks
+- Measure Up 1 and 2 week 140
+- AD Up week 140
+- upadacitinib long-term atopic dermatitis
+- PMID 40900410
+analyzed: '2026-10-23'
+assurance: sonnet
+name: 'Irvine 2025: upadacitinib in moderate-to-severe atopic dermatitis through 140
+  weeks'
+slug: irvine-2025-upadacitinib-atopic-dermatitis-140-weeks
+status: published
+type: study
+updated: '2026-10-23'
+---
+
+An interim analysis pooling three ongoing phase 3 trials of oral [[upadacitinib]] in moderate-to-severe [[atopic-dermatitis]], reporting how many patients still met skin and itch response thresholds at week 140.[^study]
+
+**Design:** three "ongoing, phase 3, randomized clinical trials": Measure Up 1 (NCT03569293), Measure Up 2 (NCT03607422) and AD Up (NCT03568318).[^study] "At baseline, patients were randomized 1:1:1 to receive once-daily UPA15, UPA30, or placebo alone (MeUp1/2) or with concomitant topical corticosteroids (AD Up)."[^study] Then the comparator disappears: "At week 16, patients initially randomized to placebo were rerandomized 1:1 to UPA15 or UPA30."[^study]
+
+**Population / n:** "A total of 2782 patients were randomized in MeUp1/2 or AD Up", adults and adolescents with moderate-to-severe AD.[^study] That is the baseline randomized total, not the number analysed at week 140, which the abstract does not give.
+
+**Intervention / comparator:** upadacitinib 15 mg or 30 mg once daily, as monotherapy in Measure Up 1 and 2 and with concomitant topical corticosteroids in AD Up.[^study] Beyond week 16 there is no comparator arm of any kind.
+
+**Primary result (verbatim figures):** "At week 140, EASI 75 was achieved by 85.5%/90.5% (UPA15/UPA30; integrated MeUp1/2) and 81.5%/90.0% (UPA15/UPA30; AD Up) of patients, and vIGA-AD 0/1 was achieved by 56.6%/64.4% (UPA15/UPA30; integrated MeUp1/2) and 52.0%/56.8% (UPA15/UPA30; AD Up) of patients."[^study] On itch, "Over 60% of patients across all three studies achieved ∆WP-NRS≥4 at week 140."[^study] On safety the abstract gives no numbers at all, only that "Pooled safety data across all three studies demonstrated safety profiles consistent with 16-week and 52-week analyses."[^study]
+
+**Effect size / interpretation:** No between-group effect size exists at week 140 and none should be inferred from these percentages. They are single-arm response rates, because every placebo patient was moved onto drug at week 16. The abstract reports no confidence intervals, no p-values and no denominators for the week-140 figures, and, checked by string search, never states how patients who stopped treatment were handled. That last absence decides how to read the numbers: an 85.5% EASI 75 among patients still on the drug at week 140 is a different claim from 85.5% of everyone randomized, and the abstract does not say which it is. Treat these as upper-bound persistence figures for people who stayed on treatment for nearly three years, not as the chance that a given patient starting upadacitinib reaches EASI 75.
+
+**Applicability + key limitation:** Generalises to adults and adolescents with moderate-to-severe atopic dermatitis who tolerated an oral JAK inhibitor well enough to remain on it. The key limitation for anyone trying to act on it is the one above: this is uncontrolled follow-up with unreported attrition, so it supports durability of response among continuers rather than long-term efficacy against an alternative. A second caution is provenance. "This study was funded by AbbVie Inc. (North Chicago, IL, USA)", and the declarations state that "CS, BMC, AG, YY, XW, GL, and HDT are full-time employees of AbbVie, and may hold AbbVie stock, stock options, and/or patents", a group that includes the named statistical analysis team.[^study] The authors' own conclusion, "robust, durable efficacy and a favorable safety profile through 140 weeks", is broader than an uncontrolled interim analysis with no published safety numbers can carry.[^study]
+
+## Sources
+
+[^study]: Irvine AD, Prajapati VH, Guttman-Yassky E, et al. "Efficacy and Safety of Upadacitinib in Patients With Moderate-to-Severe Atopic Dermatitis: Phase 3 Randomized Clinical Trial Results Through 140 Weeks." American Journal of Clinical Dermatology. 2025 Nov;26(6):1003-1016. doi: 10.1007/s40257-025-00975-3. Epub 2025 Sep 3. PMID 40900410. PMCID PMC12615543. Indexed for MEDLINE. Quotes used, each re-verified verbatim against the PubMed abstract at publish time on 2026-10-23: "Upadacitinib is an oral selective Janus kinase inhibitor approved to treat moderate-to-severe atopic dermatitis (AD) in adults and adolescents"; "ongoing, phase 3, randomized clinical trials"; "This interim analysis evaluated efficacy and safety through week 140."; "At baseline, patients were randomized 1:1:1 to receive once-daily UPA15, UPA30, or placebo alone (MeUp1/2) or with concomitant topical corticosteroids (AD Up)."; "At week 16, patients initially randomized to placebo were rerandomized 1:1 to UPA15 or UPA30."; "A total of 2782 patients were randomized in MeUp1/2 or AD Up."; "At week 140, EASI 75 was achieved by 85.5%/90.5% (UPA15/UPA30; integrated MeUp1/2) and 81.5%/90.0% (UPA15/UPA30; AD Up) of patients, and vIGA-AD 0/1 was achieved by 56.6%/64.4% (UPA15/UPA30; integrated MeUp1/2) and 52.0%/56.8% (UPA15/UPA30; AD Up) of patients."; "Over 60% of patients across all three studies achieved ∆WP-NRS≥4 at week 140."; "Pooled safety data across all three studies demonstrated safety profiles consistent with 16-week and 52-week analyses."; "robust, durable efficacy and a favorable safety profile through 140 weeks"; the funding statement "This study was funded by AbbVie Inc. (North Chicago, IL, USA)."; and the competing-interests line "CS, BMC, AG, YY, XW, GL, and HDT are full-time employees of AbbVie, and may hold AbbVie stock, stock options, and/or patents." Trial registrations NCT03569293, NCT03607422 and NCT03568318 are given in the abstract. Several absences are reported here as absences in this abstract, each checked by string search on 2026-10-23: it contains no confidence interval, no p-value, no week-140 denominator, no statement of how discontinuations or missing data were handled (no occurrence of imputation, non-responder, NRI, observed, completer, discontinu or withdraw), and no safety figure of any kind, including no mention of serious adverse events, malignancy, thrombosis or herpes zoster. Only the PubMed abstract was accessed, not the full article, so the week-140 analysis populations, the imputation method, the adverse-event rates and the per-trial tables were not read, and any of them may be reported in the paper itself. https://pubmed.ncbi.nlm.nih.gov/40900410/ (accessed 2026-10-23)

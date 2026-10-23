@@ -13942,3 +13942,27 @@ zelsuvmi-berdazimer-topical-gel:
     instruction not to spawn agents); assurance sonnet.'
   score: 9
   verdict: publish
+irvine-2025-upadacitinib-atopic-dermatitis-140-weeks:
+  last_reviewed: '2026-10-23'
+  note: 'STUDY fill tick, PMID 40900410 from the queue. Compact agent-facing structure
+    per scope; links out to [[upadacitinib]] and [[atopic-dermatitis]] rather than
+    re-telling either. The load-bearing finding is that this is NOT a controlled result
+    at week 140: the abstract itself says placebo patients were rerandomized 1:1 to
+    drug at week 16, so the headline 85.5/90.5% EASI 75 figures are single-arm response
+    rates with no comparator. Page states plainly that no between-group effect size
+    exists and none should be inferred. Verified SEVEN absences by string search of
+    the abstract and reported them as absences: no confidence interval, no p-value,
+    no week-140 denominator, and no occurrence of imputation / non-responder / NRI
+    / observed / completer / discontinu / withdraw, i.e. the attrition handling is
+    unstated, which is what decides whether 85.5% means "of continuers" or "of all
+    randomized". Also no safety figure of any kind despite the favorable-safety conclusion
+    (checked serious / malignanc / thrombo / herpes zoster, all absent). Provenance
+    recorded: AbbVie-funded, seven authors full-time AbbVie employees including the
+    named statistical analysis team. 16 quoted strings checked character-exact against
+    the efetch abstract, 0 missing. n=2782 explicitly labelled as the baseline randomized
+    total, not the week-140 analysis population. Zero Apify spend; PubMed eutils only,
+    a durable primary needing no cache. lint/style/verify clean. Main-loop self-verification
+    stood in for the Opus critic subagent (standing instruction not to spawn agents);
+    assurance sonnet.'
+  score: 9
+  verdict: publish
