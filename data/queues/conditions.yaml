@@ -529,3 +529,24 @@
     useful content is narrow: what xerosis means clinically, that trials grade its
     SEVERITY on scales the abstracts rarely explain, and that foot and body xerosis
     is where the keratolytic evidence actually lives rather than the face.'
+- name: Calluses and corns
+  type: condition
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: smoothing-skin-texture names calluses and corns as a common cause of thickened
+    skin with no page on this site
+- name: Warts (verruca)
+  type: condition
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: smoothing-skin-texture names warts as a common cause of thickened skin with
+    no page on this site
+- name: Seborrhoeic keratosis
+  type: condition
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: smoothing-skin-texture names seborrhoeic keratoses as a common cause of
+    thickened skin with no page on this site

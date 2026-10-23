@@ -8,8 +8,8 @@ aliases:
 - smooth skin
 - skin smoothing
 - bumpy skin texture
-analyzed: '2026-10-16'
-assurance: sonnet
+analyzed: '2026-10-22'
+assurance: opus
 name: Smoothing Skin Texture
 slug: smoothing-skin-texture
 status: published
@@ -62,7 +62,7 @@ tier_list:
       thin.
     slug: gluconolactone-pha
 type: goal
-updated: '2026-10-16'
+updated: '2026-10-22'
 ---
 
 "Texture" is the vaguest word in skincare marketing, which is why it is worth pinning down before spending anything. Here it means the surface feel and evenness of skin: roughness, flakiness, small bumps, a dull or uneven finish. It is not the same problem as the four things it gets sold alongside, and each of those has its own page.
@@ -71,12 +71,13 @@ updated: '2026-10-16'
 
 ## What You Probably Mean
 
-Four neighbouring problems get called texture, and picking the wrong hub wastes months.
+Five neighbouring problems get called texture, and picking the wrong hub wastes months.
 
 - **Rough, flaky, or bumpy to the touch.** This page. If the bumps are specifically on upper arms or thighs, go to [[keratosis-pilaris]].
 - **Visible pores.** A different mechanism and a different evidence base, on [[enlarged-pores]], with the blackhead case on [[blackheads-clogged-pores]].
 - **Indentations left by acne.** Scarring, which topicals barely touch, on [[acne-scars]].
 - **Lines and laxity.** Photoaging, on [[anti-aging]].
+- **One patch that is thick, scaly, and stays put.** Not this page, and not a reason to exfoliate harder. A fixed localised plaque can be [[psoriasis]], a patch of chronically rubbed and thickened [[atopic-dermatitis|eczema]], or ordinary localised [[dry-skin]]. A rough scaly spot on sun-exposed skin that will not clear needs [[actinic-keratosis]] ruled out by a clinician first, because that one is a precursor lesion rather than a cosmetic complaint. Calluses, corns, warts and seborrhoeic keratoses are the other common causes of thickened skin and have no pages here yet.
 
 ## The Evidence: How to Read the List
 
@@ -88,7 +89,7 @@ The tier on each row is that ingredient's own evidence grade from its page, not 
 
 ## See Also
 
-[[exfoliating-acids-by-strength]] [[retinoids-by-potency-ranked]] [[enlarged-pores]] [[keratosis-pilaris]] [[acne-scars]] [[anti-aging]] [[skin-barrier-repair]] [[blackheads-clogged-pores]]
+[[exfoliating-acids-by-strength]] [[keratolytics-compared]] [[retinoids-by-potency-ranked]] [[enlarged-pores]] [[keratosis-pilaris]] [[acne-scars]] [[anti-aging]] [[skin-barrier-repair]] [[blackheads-clogged-pores]]
 
 ## Sources
 

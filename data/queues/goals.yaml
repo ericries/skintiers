@@ -251,7 +251,7 @@
 - name: Thickened or scaly skin patches (hyperkeratosis)
   type: goal
   priority: 5
-  status: pending
+  status: done
   discovered_from: smoothing-skin-texture
   source: The one texture problem the smoothing-skin-texture hub routes AWAY from
     without having anywhere to send it. That page's medical note tells readers that

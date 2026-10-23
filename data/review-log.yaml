@@ -13829,3 +13829,21 @@ zoryve-roflumilast-foam:
     No dashes. Opus critic inline (workflow pipeline); assurance opus.'
   score: 9
   verdict: publish
+smoothing-skin-texture:
+  last_reviewed: '2026-10-22'
+  note: 'GOAL fill tick. Queue item was a standalone "Thickened or scaly skin patches
+    (hyperkeratosis)" hub; DECLINED to create it. Hyperkeratosis is a descriptive finding,
+    not a disease with its own review literature (PubMed review search returned only
+    adjacent topics: hidradenitis suppurativa, keratosis pilaris, nail disorders, onychomycosis),
+    so an authoritative differential assembled from fragments would be overreach. Three
+    of the commonest causes (calluses/corns, warts, seborrhoeic keratoses) have no pages
+    yet, while psoriasis/keratosis-pilaris/actinic-keratosis/dry-skin/atopic-dermatitis
+    do. Shipped instead as a fifth bullet in this hub own "What You Probably Mean"
+    disambiguation list, routing the fixed-plaque case to existing pages and flagging
+    actinic-keratosis as the one needing a clinician. The bullet asserts no efficacy
+    claim, consistent with this page footnote-free routing-hub design. Also added
+    [[keratolytics-compared]] to See Also and fixed an internal count ("Four" -> "Five"
+    neighbouring problems) that my own edit had broken. lint/style/verify clean; no
+    new facts, so no new sources needed. Main-loop self-verification; assurance sonnet.'
+  score: 8
+  verdict: publish
