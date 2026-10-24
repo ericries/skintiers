@@ -658,3 +658,11 @@
   source: the outcome scale behind the 1.39-point result in K230013 and the measure
     several home-device clearances report; nothing on the site explains what a one-point
     change on it means
+- name: Nitric oxide releasing agents in dermatology
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: lnhc-pelthos-therapeutics
+  source: LNHC's only approved product is the first nitric-oxide-releasing topical
+    for a skin disease; berdazimer sodium and the mechanism class are both queued
+    as ingredients but nothing ranks or groups them

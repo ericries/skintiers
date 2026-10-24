@@ -14299,3 +14299,26 @@ silkn-titan-allways:
     assurance sonnet.'
   score: 9
   verdict: publish
+lnhc-pelthos-therapeutics:
+  last_reviewed: '2026-10-24'
+  note: 'BRAND fill tick. 152-word roll-up, inside the 180-word cap. The one thing
+    worth getting right here is the DUAL IDENTITY: the queue item named "LNHC / Pelthos
+    Therapeutics" and the two names are genuinely used interchangeably by the company.
+    Rather than guess at the corporate relationship, the page reports exactly what
+    each source says and shows why they are the same operation: the brand site footer
+    states "Pelthos Therapeutics is a trademark and ZELSUVMI is a registered trademark
+    of LNHC, Inc.", and the site tells patients to report side effects "to Pelthos
+    Inc." on 1-855-330-7546, which is the SAME number the FDA prescribing information
+    gives for LNHC, Inc. That phone-number match is the corroboration, and it is stated
+    rather than asserted as a corporate fact. NO FOUNDER LINE: neither source names
+    one, and the footnote records that absence. Product roster verified against openFDA
+    by labeler_name (ZELSUVMI only, NDA217424) with the usual caveat that the directory
+    indexes currently listed products. Manufacturer (Orion Corporation, Orion Pharma,
+    Salo, Finland) read off the tube artwork filed with the SPL, and the footnote notes
+    that this item is a prepress specification rather than a product photograph, which
+    is also why the product page carries no image. 13 quoted strings checked character-exact,
+    0 misses. Linked the brand from the ZELSUVMI product page. Zero Apify spend. lint/style
+    clean; verify warns only on the cached zelsuvmi.com domain. No critic for this
+    type per the playbook; assurance sonnet.'
+  score: 9
+  verdict: publish

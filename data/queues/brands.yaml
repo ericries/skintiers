@@ -414,7 +414,7 @@
 - name: LNHC / Pelthos Therapeutics
   type: brand
   priority: 5
-  status: pending
+  status: done
   discovered_from: zelsuvmi-berdazimer-topical-gel
   source: 'labeler and applicant of record for ZELSUVMI; the new product page sets
     brand: LNHC with no brand page to link to'
@@ -433,3 +433,10 @@
   discovered_from: silkn-titan-allways
   source: 'the new product page sets brand: Silk''n with no brand page to link to;
     the firm holds at least two PAY-code clearances (K230013, K162784)'
+- name: Orion Corporation / Orion Pharma
+  type: brand
+  priority: 5
+  status: pending
+  discovered_from: lnhc-pelthos-therapeutics
+  source: named on the ZELSUVMI tube artwork filed with FDA as the contract manufacturer
+    (Salo, Finland); a manufacturer behind a product the site covers, with no page

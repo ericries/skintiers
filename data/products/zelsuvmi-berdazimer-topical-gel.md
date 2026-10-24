@@ -5,7 +5,7 @@ aliases:
 - berdazimer topical gel
 - berdazimer sodium 10.3%
 - NDA217424
-analyzed: '2026-10-23'
+analyzed: '2026-10-24'
 assurance: sonnet
 brand: LNHC
 category: Treatments
@@ -40,10 +40,10 @@ name: ZELSUVMI (berdazimer topical gel 10.3%)
 slug: zelsuvmi-berdazimer-topical-gel
 status: published
 type: product
-updated: '2026-10-23'
+updated: '2026-10-24'
 ---
 
-ZELSUVMI is berdazimer topical gel 10.3%, FDA-approved under NDA 217424 and the molluscum drug you mix and apply yourself.[^openfda][^spl] **Bottom line:** the convenience is real and the efficacy is thin. Its own label says "Efficacy was demonstrated in Trials 1 and 2", and reading the table behind that sentence shows one trial with a clearly positive primary result, a second whose confidence interval included zero, and a third that missed.[^spl] How molluscum treatments rank against each other is on [[molluscum-contagiosum]].
+ZELSUVMI is berdazimer topical gel 10.3%, FDA-approved under NDA 217424 by [[lnhc-pelthos-therapeutics|LNHC]] and the molluscum drug you mix and apply yourself.[^openfda][^spl] **Bottom line:** the convenience is real and the efficacy is thin. Its own label says "Efficacy was demonstrated in Trials 1 and 2", and reading the table behind that sentence shows one trial with a clearly positive primary result, a second whose confidence interval included zero, and a third that missed.[^spl] How molluscum treatments rank against each other is on [[molluscum-contagiosum]].
 
 > **Three trials, one unambiguous primary result.** Complete clearance at Week 12 was 32.4% against 19.7% on vehicle in Trial 1, a difference of 12.8% (95% CI 7.1% to 18.6%); 30.0% against 20.3% in Trial 2, a difference of 9.2% (95% CI -0.04% to 18.4%); and "In Trial 3, the complete clearance rates at Week 12 were 26% versus 22% for ZELSUVMI and vehicle, respectively, with 95% confidence interval (-5%, 14%)."[^spl] Two of those three intervals cross zero.
 
