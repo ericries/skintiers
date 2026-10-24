@@ -14323,7 +14323,8 @@
   conflict: null
   posted: '2026-10-23'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: no caption, placeholder title and no English transcript available
 - id: 5GE6-pHucFI
   title: 'best barrier cream for each skin type 🎥biancaagarzaa #skincare'
   creator: Dr. Neera Nathan
@@ -14349,7 +14350,8 @@
   conflict: Self-describes as a "Key Opinion Leader for industry beauty companies" (per her own practice bio) and most sampled TikTok videos e; no YouTube; TikTok/IG intake
   posted: '2026-10-23'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: own-brand launch promo for Dose (of) Derm with comment-to-shop callout
 - id: gB21TOPjv6Y
   title: 'Revival Stem Cell Moisturizing Cream | Derm & Rejuvenation Institute '
   creator: Tanya Kormeili, MD, FAAD

@@ -72,7 +72,7 @@
   channel: https://www.tiktok.com/@your.estie.ella
   product_recs: ok
   conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan and reject any sponsored/affiliate/gifted video
-  last_pulled: '2026-10-23'
+  last_pulled: '2026-10-24'
 - name: Dr. Shereene Idriss
   creator_slug: shereene-idriss
   backfill_cursor: 60
@@ -265,7 +265,7 @@
   channel: https://www.tiktok.com/@dr.mamina
   product_recs: restricted
   conflict: null
-  last_pulled: '2026-10-23'
+  last_pulled: '2026-10-24'
 - name: Ranella Hirsch
   creator_slug: ranella-hirsch
   credential: Board-certified dermatologist (MD, FAAD)
@@ -347,7 +347,7 @@
   channel: https://www.tiktok.com/@dr.sheila_derm
   product_recs: restricted
   conflict: Self-describes as a "Key Opinion Leader for industry beauty companies" (per her own practice bio) and most sampled TikTok videos e; no YouTube; TikTok/IG intake
-  last_pulled: '2026-09-26'
+  last_pulled: '2026-10-24'
 - name: Dr Thivi Maruthappu
   creator_slug: thivi-maruthappu
   credential: Consultant dermatologist

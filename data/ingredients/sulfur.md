@@ -41,6 +41,16 @@ videos:
   related: []
   thesis: 'Board-certified dermatologist Dr. Neera Nathan explains that the small persistent bumps many people see on the chin and nose are not pimples or milia but sebaceous filaments, normal pore structures that cannot be eliminated but can be minimized. She offers three derm-approved approaches: a sulfur mask left on 10 minutes to break down debris and reduce surface oiliness, a salicylic acid cleanser to exfoliate and cut sebum without stripping the skin barrier, and a pea-sized amount of adapalene gel, which she says is unmatched over-the-counter for keeping pores clear and appearing smaller.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: How I use a sulfur mask as a morning spot treatment
+  creator: Ella
+  creator_slug: your-estie-ella
+  credential: Licensed esthetician (not a dermatologist or cosmetic chemist)
+  platform: TikTok
+  url: https://www.tiktok.com/@your.estie.ella/video/7699895390161669389
+  posted: '2026-10-23'
+  related: [azelaic-acid, blackheads-clogged-pores, enlarged-pores, acne, salicylic-acid]
+  thesis: Licensed esthetician Ella demonstrates using a sulfur mask as a morning spot treatment rather than an all-over overnight one, applying it to the chin, nose and centre of the forehead for five minutes on clean, dry skin and rinsing with warm water on a soft cloth. Her stated principle is to treat a spot as soon as you can feel it rather than waiting for it to surface. She is also unusually clear that sebaceous filaments are a normal feature of skin rather than something to eliminate, saying they are not evil and are a natural part of your skin that treatments like this only keep managed, and she follows the mask with azelaic acid and finishes with sunscreen pressed rather than rubbed in
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
