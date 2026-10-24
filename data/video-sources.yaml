@@ -64,7 +64,7 @@
   tier: MED
   channel: https://www.tiktok.com/@kristingl
   conflict: runs an Amazon affiliate storefront and does sponsored posts - strongly prefer educational / how-to / ingredient-explainer videos; be very cautious with any product recommendation
-  last_pulled: '2026-10-23'
+  last_pulled: '2026-10-24'
 - name: Ella (@your.estie.ella)
   creator_slug: your-estie-ella
   credential: Licensed esthetician (NOT a dermatologist or cosmetic chemist)
@@ -281,7 +281,7 @@
   channel: https://www.tiktok.com/@dermydoctor
   product_recs: restricted
   conflict: null
-  last_pulled: '2026-10-23'
+  last_pulled: '2026-10-24'
 - name: Dr. Michelle Henry, MD FAAD
   creator_slug: michelle-henry-md-faad
   credential: Board-certified dermatologist
@@ -314,7 +314,7 @@
   channel: https://www.tiktok.com/@hannahcollingwoodenglish
   product_recs: restricted
   conflict: Co-developed/formulated the Tbh Skincare 'Rebound' Serum and Toner (product-formulation partnership) — her endorsement of that spe; no YouTube; TikTok/IG intake
-  last_pulled: '2026-09-25'
+  last_pulled: '2026-10-24'
 - name: Dr. Jenny Liu (Jenny Liu, MD, FAAD)
   creator_slug: jenny-liu
   backfill_cursor: 45
@@ -423,7 +423,7 @@
   channel: https://www.tiktok.com/@dr.iferodney
   product_recs: restricted
   conflict: Founder & CEO of own hair-care brand, BLCK Hair Care (@blckhaircare), promoted in her Instagram bio — a product-formulation/owners
-  last_pulled: '2026-10-20'
+  last_pulled: '2026-10-24'
 - name: Dr. Chris Tomassian
   creator_slug: chris-tomassian
   credential: Board-certified dermatologist
@@ -431,7 +431,7 @@
   channel: https://www.tiktok.com/@dr.tomassian
   product_recs: ok
   conflict: Bio includes a business/booking contact email suggesting managed brand partnerships; no confirmed own-brand line or affiliate stor
-  last_pulled: '2026-10-23'
+  last_pulled: '2026-10-24'
 - name: Dr. Neera Nathan
   creator_slug: neera-nathan
   backfill_cursor: 9999
@@ -448,7 +448,7 @@
   channel: https://www.tiktok.com/@draegeanchan
   product_recs: restricted
   conflict: Founder/owner of active postpartum skincare brand "More Than Nine" (cleanser, exfoliator, moisturizer, balm) — an ongoing own-bran
-  last_pulled: '2026-10-23'
+  last_pulled: '2026-10-24'
 - name: Jenn Lexi (@jennlexi_)
   creator_slug: jennlexi
   credential: Esthetician (self-identified); not a dermatologist or cosmetic chemist

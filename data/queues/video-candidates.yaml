@@ -14222,7 +14222,8 @@
   conflict: Founder/owner of active postpartum skincare brand "More Than Nine" (cleanser, exfoliator, moisturizer, balm) — an ongoing own-bran
   posted: '2026-10-23'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 10 seconds, under the 25s floor
 - id: 7le-f1qVdYQ
   title: Is Rabies Making a Comeback? Early Skin Symptoms You Should Never Ignore
   creator: Andrea Suarez (Dr Dray)
@@ -14248,7 +14249,8 @@
   conflict: Bio includes a business/booking contact email suggesting managed brand partnerships; no confirmed own-brand line or affiliate stor
   posted: '2026-10-24'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: trend clip (#vstrend), 23s and not about skincare; no matching page
 - id: '7699852464178154765'
   title: If you were also scrubbing your face raw as a teenager, I have good n...
   creator: Fatima Fahs
@@ -14261,7 +14263,8 @@
   conflict: null
   posted: '2026-10-23'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: caption tail links favourites to the creator's ShopMy affiliate storefront
 - id: '7699776456146029844'
   title: nothing cheers you up like a blush try on! so we’re trying on the pur...
   creator: Hannah English (@ms_hannah_e / Hannah Collingwood English)
@@ -14274,7 +14277,8 @@
   conflict: Co-developed/formulated the Tbh Skincare 'Rebound' Serum and Toner (product-formulation partnership) — her endorsement of that spe; no YouTube; TikTok/IG intake
   posted: '2026-10-23'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: makeup blush try-on, not skincare; no matching page
 - id: '7699955965818375454'
   title: Smooth legs aren’t only for summertime, and your face isn’t the only ...
   creator: Dr. Ife Rodney (@driferodney)
@@ -14287,7 +14291,8 @@
   conflict: Founder & CEO of own hair-care brand, BLCK Hair Care (@blckhaircare), promoted in her Instagram bio — a product-formulation/owners
   posted: '2026-10-23'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 7 seconds, under the 25s floor; caption is a booking promotion for the creator's own clinic
 - id: '7699898809370889485'
   title: Honey Glazed Skin → Strong Skin Barrier 🍯 @AXIS-Y Store US Triple PDR...
   creator: Kristin Leite (kristingl)
@@ -14300,7 +14305,8 @@
   conflict: runs an Amazon affiliate storefront and does sponsored posts - strongly prefer educational / how-to / ingredient-explainer videos; be very cautious with any product recommendation
   posted: '2026-10-23'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: affiliate-storefront creator; picks treated as effectively paid per house rule
 - id: '7699918874887687454'
   title: ''
   creator: Dr. Mamina Turegano
