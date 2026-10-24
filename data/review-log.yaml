@@ -14211,3 +14211,27 @@ alexandra-charrow:
     per the playbook; assurance sonnet.'
   score: 9
   verdict: publish
+led-colours-for-acne-by-evidence:
+  last_reviewed: '2026-10-24'
+  note: 'LIST fill tick. Curatorial over existing pages; explicitly defers the "is
+    home LED worth it" question to home-led-light-therapy and the specification question
+    to led-dose-j-per-cm2-and-wavelength rather than re-arguing either. THE KEY EDITORIAL
+    CALL: the queue asked to rank blue vs red vs blue-plus-red, three rungs, but the
+    2026 GRADE scoping review (PMID 42545315, abstract re-fetched and re-verified
+    at publish time) grades blue and blue-plus-red TOGETHER at Level B and puts red
+    alone at Level C. So the honest ranking has TWO rungs, and the page says in the
+    pull-quote that blue versus blue-plus-red is a question this evidence does not
+    answer. Refused to invent a third rung to match the queue wording. The practical
+    consequence is stated plainly: nothing supports paying more for a dual-colour
+    device over blue-only on acne grounds. Also recorded that the review groups red
+    LED with light-heat energy devices rather than grading it alone, which is why
+    LHE got cross-fed as a gap. Three counterweights kept: the Cochrane ceiling (71
+    studies, 4211 participants, median 31, two thirds industry-sponsored), colour
+    is not dose, and no source compares any LED colour against benzoyl peroxide or
+    adapalene. 14 quoted strings checked character-exact, 0 real misses. No tier_list
+    block: the two rungs ARE the ranking and best/good/mid/weak labels would imply
+    a finer resolution than the source supports. Linked from the LED hub. Zero Apify
+    spend; PubMed only. lint/style/verify clean, 0 broken xrefs, 898 words. Main-loop
+    self-verification per the list-type rule; assurance sonnet.'
+  score: 9
+  verdict: publish

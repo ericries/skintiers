@@ -9,7 +9,7 @@ aliases:
 - blue-red LED
 - at-home LED device
 - photobiomodulation at home
-analyzed: '2026-10-23'
+analyzed: '2026-10-24'
 assurance: opus
 name: Home LED Light Therapy
 slug: home-led-light-therapy
@@ -58,7 +58,7 @@ tier_list:
     mid: Only inferred from a broader endpoint
     weak: Real goal, but a different light is the one studied
 type: goal
-updated: '2026-10-23'
+updated: '2026-10-24'
 videos:
 - creator: John Barbieri, MD
   creator_slug: john-barbieri-md
@@ -114,7 +114,7 @@ Home LED light therapy means a wearable mask or handheld panel that shines colou
 
 ## See Also
 
-[[acne]] [[anti-aging]] [[led-dose-j-per-cm2-and-wavelength]] [[microneedling]] [[acne-scars]] [[post-inflammatory-erythema]] [[benzoyl-peroxide]] [[adapalene]] [[skin-firmness-elasticity]]
+[[acne]] [[anti-aging]] [[led-colours-for-acne-by-evidence]] [[led-dose-j-per-cm2-and-wavelength]] [[microneedling]] [[acne-scars]] [[post-inflammatory-erythema]] [[benzoyl-peroxide]] [[adapalene]] [[skin-firmness-elasticity]]
 
 ## Sources
 

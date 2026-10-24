@@ -3940,3 +3940,11 @@
   discovered_from: lee-2026-microsubcision-ha-vs-co2-pinhole-atrophic-acne-scars
   source: Lee 2026 uses hyaluronic acid as an injected scar filler, a use the topical
     hyaluronic-acid ingredient page explicitly does not cover
+- name: Blue-light LED face masks (full-face, acne)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: led-colours-for-acne-by-evidence
+  source: the GRADE review grades blue and blue-red LED at Level B for acne, but the
+    only blue-light devices with pages here are spot pens (Espada, Lux Spot); no full-face
+    blue or blue-red mask is covered
