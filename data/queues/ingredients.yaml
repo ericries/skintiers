@@ -1627,7 +1627,7 @@
     cosmetic ingredient common in sensitive-skin and cleansing formulas
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://incidecoder.com/ingredients/stearyl-glycyrrhetinate
 - name: Olive oil (Olea europaea fruit oil), emollient plant oil used as the base
@@ -2643,3 +2643,18 @@
   source: the organism blue light is said to act on per the 2026 PRISMA phototherapy
     review; the acne hub and several product pages name it but no page explains what
     it is or what reduces it
+- name: Biosaccharide gum-2
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: stearyl-glycyrrhetinate
+  source: the fourth active in both multi-ingredient creams studied for seborrhoeic
+    dermatitis and cradle cap (PMIDs 35330623, 33934474); labelled antifungal by the
+    authors and uncovered on the site
+- name: Hydroxyphenyl propamidobenzoic acid
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: stearyl-glycyrrhetinate
+  source: the fifth active in the ISDIN seborrhoeic dermatitis cream, present in the
+    methods of PMID 35330623 but missing from its own title; no page covers it

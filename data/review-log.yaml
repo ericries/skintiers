@@ -14235,3 +14235,30 @@ led-colours-for-acne-by-evidence:
     self-verification per the list-type rule; assurance sonnet.'
   score: 9
   verdict: publish
+stearyl-glycyrrhetinate:
+  last_reviewed: '2026-10-24'
+  note: 'INGREDIENT fill tick. tier: weak, matching the rubric. The finding is that
+    this ingredient has NEVER been tested on its own: the only two human studies naming
+    it (PMID 35330623, PMID 33934474) both evaluate the same family of multi-active
+    non-steroidal creams, one with FIVE actives and one with FOUR, and neither isolates
+    it. Both are uncontrolled before-and-after designs at n=20 and n=10. Three further
+    honest points the page makes: (1) the "anti-inflammatory" label attached to this
+    ingredient appears in a study AIMS sentence as a descriptor of intended role,
+    written before results, and the page says so rather than treating it as an outcome;
+    (2) the infant study treats cradle cap, which its own authors call "a benign and
+    self-limiting variant", making uncontrolled improvement close to uninterpretable;
+    (3) the adult study title names THREE ingredients while its methods list FIVE,
+    so title-readers would credit three actives for the work of five. Sponsorship
+    recorded in full: all five authors of the adult study declare ISDIN ties, two
+    as employees. Defers the general licorice story to licorice-root-extract rather
+    than re-telling it. Noted that the one on-site product declaring it (dhc-deep-cleansing-oil,
+    found via `sk inci` not grep) is a RINSE-OFF cleanser, which neither study addresses.
+    Common Marketing Claims written as unquoted claim patterns with an explicit line
+    saying no brand page was fetched, avoiding the fabricated-quote error I made twice
+    on 2026-10-23. 22 quoted strings checked character-exact, 0 real misses; reproduced
+    the source typo "statically" as published and flagged it. Zero Apify spend; PubMed
+    only. lint/style/verify clean, 0 broken xrefs. Main-loop self-verification stood
+    in for the Opus critic subagent (standing instruction not to spawn agents); assurance
+    sonnet.'
+  score: 9
+  verdict: publish

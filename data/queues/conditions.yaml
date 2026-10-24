@@ -581,3 +581,11 @@
   discovered_from: tinea-cruris-jock-itch
   source: named on the new jock itch page as a groin-fold look-alike for tinea cruris;
     the site has a psoriasis hub but nothing on the inverse/flexural form
+- name: Cradle cap (infantile seborrhoeic dermatitis)
+  type: condition
+  priority: 5
+  status: pending
+  discovered_from: stearyl-glycyrrhetinate
+  source: PMID 33934474 calls it a benign and self-limiting variant of seborrheic
+    dermatitis; the site has a seborrheic-dermatitis hub but nothing on the infant
+    form, which is where the self-limiting caveat matters most
