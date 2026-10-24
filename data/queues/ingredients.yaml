@@ -2658,3 +2658,11 @@
   discovered_from: stearyl-glycyrrhetinate
   source: the fifth active in the ISDIN seborrhoeic dermatitis cream, present in the
     methods of PMID 35330623 but missing from its own title; no page covers it
+- name: Diclofenac sodium 3% gel (topical)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: actinic-cheilitis
+  source: lowest clearance rate in the 2025 actinic cheilitis SR/MA (PCR 0.53, 95%
+    CI 0.41-0.66) and the one at-home-style topical in that comparison; no page covers
+    it

@@ -439,7 +439,7 @@
 - name: Actinic cheilitis (sun damage on the lip)
   type: condition
   priority: 5
-  status: pending
+  status: done
   discovered_from: lip-care
   source: 'Grounded in PMID 35242781, already transcribed on lip-care: ''a precursor
     of malignancy or even an in situ squamous cell carcinoma (SCC) of the lip, located

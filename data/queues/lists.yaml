@@ -666,3 +666,11 @@
   source: LNHC's only approved product is the first nitric-oxide-releasing topical
     for a skin disease; berdazimer sodium and the mechanism class are both queued
     as ingredients but nothing ranks or groups them
+- name: Actinic cheilitis and actinic keratosis treatments by evidence
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: actinic-cheilitis
+  source: the 2025 SR/MA ranks clearance and recurrence differently across CO2 laser,
+    Er:YAG, PDT, imiquimod and diclofenac; a list becomes possible once those treatment
+    pages exist

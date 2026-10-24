@@ -7,8 +7,8 @@ aliases:
 - dry lips
 - lip barrier
 - lip plumping
-analyzed: '2026-10-17'
-assurance: sonnet
+analyzed: '2026-10-24'
+assurance: opus
 name: Lip Care (Chapped Lips, Lip Barrier, Plumping Claims)
 slug: lip-care
 status: published
@@ -43,12 +43,12 @@ tier_list:
       on skin.
     slug: squalane
 type: goal
-updated: '2026-10-17'
+updated: '2026-10-24'
 ---
 
 Lip care covers three different asks that get sold as one: lips that are chapped and sore, lips you want to keep comfortable, and lips you want to look fuller. Only the first two have evidence on this page, and one of them has a serious tail risk that lip-balm marketing never mentions.
 
-> **A persistently dry, scaly lower lip in someone with a lot of sun exposure is not a balm problem.** It may be actinic cheilitis, which a 2022 review describes as "a precursor of malignancy or even an in situ squamous cell carcinoma (SCC) of the lip, located most frequently on the lower lip", with a rate of malignant transformation that "ranges from 10 to 30%".[^ac] The review calls lip SCC "one of the deadliest non-melanoma skin cancers".[^ac] If chapping on the lower lip has not resolved, that is a clinician visit, not another product.
+> **A persistently dry, scaly lower lip in someone with a lot of sun exposure is not a balm problem.** It may be actinic cheilitis, which a 2022 review describes as "a precursor of malignancy or even an in situ squamous cell carcinoma (SCC) of the lip, located most frequently on the lower lip", with a rate of malignant transformation that "ranges from 10 to 30%".[^ac] The review calls lip SCC "one of the deadliest non-melanoma skin cancers".[^ac] If chapping on the lower lip has not resolved, that is a clinician visit, not another product. What the treatments achieve once a clinician is involved is on [[actinic-cheilitis]].
 
 ## How to know what you have
 

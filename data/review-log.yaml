@@ -14322,3 +14322,31 @@ lnhc-pelthos-therapeutics:
     type per the playbook; assurance sonnet.'
   score: 9
   verdict: publish
+actinic-cheilitis:
+  last_reviewed: '2026-10-24'
+  note: 'CONDITION fill tick. Duplication checked first: lip-care ALREADY owns what
+    actinic cheilitis looks like, its risk factors, the 10-30% malignant transformation
+    figure and the prevention case, and it stops at "that is a clinician visit". So
+    this hub owns only the part lip-care stops at, TREATMENT, and links back rather
+    than restating. The "How to know you have this" section deliberately refuses to
+    re-describe the appearance and points to lip-care instead. Evidence is one 2025
+    PROSPERO-registered systematic review and meta-analysis (PMID 40868151, 36 studies,
+    614 participants for clearance and 430 for recurrence). The most useful finding,
+    stated as the lede of that section: the treatment with the HIGHEST clearance (CO2
+    laser, PCR 0.97) and the one with the LOWEST recurrence (imiquimod, PRR 0.00)
+    are NOT the same treatment. The critical caveat is given its own paragraph rather
+    than a footnote: the review pools clearance rates from UNCONTROLLED studies via
+    a generalized linear mixed model, so 0.97 is a single-arm pooled proportion and
+    not a head-to-head result, and the authors themselves say comparability was limited.
+    The one genuine randomised finding (Er:YAG-primed MAL-PDT vs MAL-PDT alone, OR
+    0.22, CI 0.06-0.82) is flagged as the firmest result on the page. Conflict named:
+    an author declares Biofrontera lecture honoraria, which matters next to a PDT
+    assessment. NO tier_list despite the type-scope preference, because NONE of the
+    five treatments has a page yet, so every row would be a broken xref; the gap is
+    stated in the body and all the missing pages were cross-fed instead. 12 quoted
+    strings checked character-exact, 0 misses, 0 broken xrefs. Linked from lip-care.
+    Zero Apify spend; PubMed only. lint/style/verify clean. Main-loop self-verification
+    stood in for the Opus critic subagent (standing instruction not to spawn agents);
+    assurance sonnet.'
+  score: 9
+  verdict: publish

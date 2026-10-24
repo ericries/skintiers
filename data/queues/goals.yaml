@@ -615,3 +615,11 @@
   discovered_from: led-colours-for-acne-by-evidence
   source: the GRADE review groups LHE devices with red LED at Level C; no page on
     the site covers the modality, which leaves that Level C grade half-explained
+- name: Photodynamic therapy (PDT) for precancerous skin
+  type: goal
+  priority: 5
+  status: pending
+  discovered_from: actinic-cheilitis
+  source: assessed throughout the 2025 actinic cheilitis SR/MA, including the one
+    genuine randomised finding (laser-primed MAL-PDT vs MAL-PDT alone, OR 0.22); no
+    hub covers the modality
