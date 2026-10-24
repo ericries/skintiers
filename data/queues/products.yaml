@@ -3925,3 +3925,11 @@
   source: the combination antifungal-corticosteroid the 2025 AFP tinea review (PMID
     41118183) explicitly advises avoiding; no page covers it and it is commonly prescribed
     for groin rashes
+- name: Omnilux Contour Face
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: led-dose-j-per-cm2-and-wavelength
+  source: named as a predicate on dpl-nuve and one of the few home LED brands that
+    publishes irradiance figures publicly; the dose page has no device example outside
+    the LED Technologies family

@@ -264,7 +264,7 @@
 - name: 'LED dose: what J/cm2 and wavelength actually tell you'
   type: goal
   priority: 5
-  status: pending
+  status: done
   discovered_from: pulsaderm-acne-mask-28
   source: 'Pulsaderm K170111 is the first home LED clearance on this site to publish
     energy per session (20.44 and 22.72 J/cm2) alongside wavelengths and a 30-treatment
@@ -586,3 +586,10 @@
     for umbrellas are the primary source to find. Keep it distinct from sunscreen
     pages; the point of the page is that shade is a supplement to sunscreen, which
     is exactly what she says.'
+- name: Red light therapy panels (full-body)
+  type: goal
+  priority: 5
+  status: pending
+  discovered_from: led-dose-j-per-cm2-and-wavelength
+  source: the dose page shows treatment area does not change J/cm2, which is exactly
+    the claim full-body panels are sold on; no hub covers them

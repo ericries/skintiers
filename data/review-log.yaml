@@ -14137,3 +14137,31 @@ tinea-cruris-jock-itch:
     (standing instruction not to spawn agents); assurance sonnet.'
   score: 9
   verdict: publish
+led-dose-j-per-cm2-and-wavelength:
+  last_reviewed: '2026-10-23'
+  note: 'GOAL fill tick. Duplication checked first: home-led-light-therapy owns the
+    EFFICACY question and, verified by string search, contains no occurrence of J/cm2,
+    mW/cm2, joule, irradiance, fluence or dose anywhere. So the dose/specification
+    question was a genuine gap, not a rewrite. The page teaches one unit conversion
+    (J/cm2 = mW/cm2 x seconds / 1000) and works it on the only clearance in the site
+    device coverage that publishes the inputs, K172662: 67.7 mW/cm2 at 3 minutes gives
+    about 12.2 J/cm2, and the three predecessors at 62.07, 70.16 and 61.59 mW/cm2
+    give 11.2, 12.6 and 11.1. Arithmetic re-run in python before publish and matches
+    to 2dp. Labelled explicitly as CALCULATED here, with the footnote stating the filing
+    prints the inputs and not the dose, so no manufacturer is credited with a J/cm2
+    claim it never made. The payoff finding: those four devices span 24 to 415 cm2,
+    a seventeen-fold area spread, yet land within about 1.5 J/cm2 of each other, so
+    a large panel is not a stronger panel. Also documents numbers that LOOK like specs
+    and are not: FOREO "<5mW" is power per emitter and cannot be converted, and one
+    Lux page carries only a customer guessing "maybe at least 50mW/cm2". CAUGHT AND
+    FIXED a real citation error pre-publish: the dpl-spotlite footnote initially carried
+    K133823/pdf13, which is the NuFACE Mini clearance, not the Spotlite one. Pulled
+    the correct URL from the source page (K183118/pdf18) and then HTTP-checked all
+    three accessdata URLs, all 200 with a browser UA. No tier_list: the page ranks
+    nothing by evidence and best/good/mid/weak labels would imply a quality ranking
+    it does not make. Linked from home-led-light-therapy. Zero Apify spend. lint/style
+    clean; verify warns only on the revivelighttherapy domain, which is cached on the
+    page that owns that finding. Main-loop self-verification stood in for the Opus
+    critic subagent (standing instruction not to spawn agents); assurance sonnet.'
+  score: 8
+  verdict: publish

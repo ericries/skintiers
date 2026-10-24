@@ -9,8 +9,8 @@ aliases:
 - blue-red LED
 - at-home LED device
 - photobiomodulation at home
-analyzed: '2026-10-12'
-assurance: sonnet
+analyzed: '2026-10-23'
+assurance: opus
 name: Home LED Light Therapy
 slug: home-led-light-therapy
 status: published
@@ -58,20 +58,38 @@ tier_list:
     mid: Only inferred from a broader endpoint
     weak: Real goal, but a different light is the one studied
 type: goal
-updated: '2026-10-12'
+updated: '2026-10-23'
 videos:
-- title: 'How well do home LED masks work for acne: evidence review by a dermatologist'
-  creator: John Barbieri, MD
+- creator: John Barbieri, MD
   creator_slug: john-barbieri-md
   credential: Dermatologist, Department of Dermatology, Brigham and Women's Hospital
-  platform: YouTube
-  url: https://www.youtube.com/watch?v=2No7WA7DYEI
-  posted: '2025-08-02'
-  related: [home-use-skincare-devices-by-evidence, acne, benzoyl-peroxide, foreo-faq-led-masks, revive-light-therapy-lux-glo, neutrogena-light-therapy-acne-mask-plus, pulsaderm-acne-mask-28, isotretinoin]
-  thesis: 'Dermatologist John Barbieri walks through a systematic review he and colleagues conducted on at-home LED devices for acne, which identified six randomized controlled trials covering more than 200 people aged 12 to 50 with mild to moderate acne. He reports roughly 45% greater improvement in lesions than the control condition, higher rates of reaching clear or almost clear skin, and mild side effects limited mostly to irritation and redness, placing the effect in his view on a par with a single topical medication rather than with oral treatments such as antibiotics or isotretinoin. He also describes a separate survey of devices actually on sale and reaches two conclusions a shopper can use: look for a device emitting both blue and red light, since one trial found the combination beat blue alone, and expect no relationship between price and output power. His closing caveat is the important one, that almost no device currently on the market has randomized trial data of its own, which
-    is why he declines to name a best one.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
-
+  platform: YouTube
+  posted: '2025-08-02'
+  related:
+  - home-use-skincare-devices-by-evidence
+  - acne
+  - benzoyl-peroxide
+  - foreo-faq-led-masks
+  - revive-light-therapy-lux-glo
+  - neutrogena-light-therapy-acne-mask-plus
+  - pulsaderm-acne-mask-28
+  - isotretinoin
+  thesis: 'Dermatologist John Barbieri walks through a systematic review he and colleagues
+    conducted on at-home LED devices for acne, which identified six randomized controlled
+    trials covering more than 200 people aged 12 to 50 with mild to moderate acne.
+    He reports roughly 45% greater improvement in lesions than the control condition,
+    higher rates of reaching clear or almost clear skin, and mild side effects limited
+    mostly to irritation and redness, placing the effect in his view on a par with
+    a single topical medication rather than with oral treatments such as antibiotics
+    or isotretinoin. He also describes a separate survey of devices actually on sale
+    and reaches two conclusions a shopper can use: look for a device emitting both
+    blue and red light, since one trial found the combination beat blue alone, and
+    expect no relationship between price and output power. His closing caveat is the
+    important one, that almost no device currently on the market has randomized trial
+    data of its own, which is why he declines to name a best one.'
+  title: 'How well do home LED masks work for acne: evidence review by a dermatologist'
+  url: https://www.youtube.com/watch?v=2No7WA7DYEI
 ---
 
 Home LED light therapy means a wearable mask or handheld panel that shines coloured light on the skin, usually blue, red, or the two combined. It is sold for acne and for ageing skin, and of all the gadget categories you can buy for home use it is the one that comes out of the evidence best. The disease is on [[acne]] and the ageing target on [[anti-aging]].
@@ -96,7 +114,7 @@ Home LED light therapy means a wearable mask or handheld panel that shines colou
 
 ## See Also
 
-[[acne]] [[anti-aging]] [[microneedling]] [[acne-scars]] [[post-inflammatory-erythema]] [[benzoyl-peroxide]] [[adapalene]] [[skin-firmness-elasticity]]
+[[acne]] [[anti-aging]] [[led-dose-j-per-cm2-and-wavelength]] [[microneedling]] [[acne-scars]] [[post-inflammatory-erythema]] [[benzoyl-peroxide]] [[adapalene]] [[skin-firmness-elasticity]]
 
 ## Sources
 
