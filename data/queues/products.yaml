@@ -3933,3 +3933,10 @@
   source: named as a predicate on dpl-nuve and one of the few home LED brands that
     publishes irradiance figures publicly; the dose page has no device example outside
     the LED Technologies family
+- name: Injectable hyaluronic acid fillers for atrophic scars
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: lee-2026-microsubcision-ha-vs-co2-pinhole-atrophic-acne-scars
+  source: Lee 2026 uses hyaluronic acid as an injected scar filler, a use the topical
+    hyaluronic-acid ingredient page explicitly does not cover

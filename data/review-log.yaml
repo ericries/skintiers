@@ -14165,3 +14165,29 @@ led-dose-j-per-cm2-and-wavelength:
     critic subagent (standing instruction not to spawn agents); assurance sonnet.'
   score: 8
   verdict: publish
+lee-2026-microsubcision-ha-vs-co2-pinhole-atrophic-acne-scars:
+  last_reviewed: '2026-10-24'
+  note: 'STUDY fill tick, PMID 40899732. Compact structured page per scope; links out
+    to acne-scars / fractional-co2-laser-resurfacing / microneedling / hyaluronic-acid
+    / post-inflammatory-erythema rather than re-telling any of them. The dominant
+    finding is an ABSENCE: the abstract reports NO sample size at all. Verified by
+    string search that it contains no occurrence of patient, subject, participant,
+    n =, N =, female, male, mean or Fitzpatrick, and no p-value, confidence interval
+    or percentage of any kind. A split-face randomised trial with an unstated denominator
+    cannot be weighed, and the page says so in the Population field rather than quietly
+    omitting it. Second honest point: the headline is a NULL result ("the differences
+    were not statistically significant"), and the page states explicitly that a non-significant
+    difference is an absence of demonstrated difference rather than evidence of equivalence,
+    and that without an n there is no way to tell whether the study could have detected
+    a real difference. Credited the authors for using "nonsignificant trend" in their
+    own conclusion, which is more careful than most, while still refusing to treat
+    a trend as a result. Histology and RCM findings reported as DESCRIBED rather than
+    compared, since no comparative statistic accompanies either. 11 quoted strings
+    checked character-exact, 0 real misses; noted in the footnote that the abstract
+    renders the CO2 subscript with a space, so the quote carries "CO 2" as published.
+    Fixed one style defect pre-publish (defensive "this page grades nothing" meta-commentary).
+    Zero Apify spend; PubMed eutils only, a durable primary needing no cache. lint/style/verify
+    clean, 0 broken xrefs, 733 words. Main-loop self-verification stood in for the
+    Opus critic subagent (standing instruction not to spawn agents); assurance sonnet.'
+  score: 9
+  verdict: publish

@@ -593,3 +593,18 @@
   discovered_from: led-dose-j-per-cm2-and-wavelength
   source: the dose page shows treatment area does not change J/cm2, which is exactly
     the claim full-body panels are sold on; no hub covers them
+- name: Needleless microsubcision (hyaluronic acid injector device)
+  type: goal
+  priority: 5
+  status: pending
+  discovered_from: lee-2026-microsubcision-ha-vs-co2-pinhole-atrophic-acne-scars
+  source: the intervention arm of Lee 2026 (PMID 40899732); a needle-free in-clinic
+    procedure for atrophic acne scars with no hub on the site, unlike its comparator
+    which is covered at fractional-co2-laser-resurfacing
+- name: Subcision for acne scars
+  type: goal
+  priority: 5
+  status: pending
+  discovered_from: lee-2026-microsubcision-ha-vs-co2-pinhole-atrophic-acne-scars
+  source: the conventional needle procedure that needleless microsubcision is named
+    against; acne-scars covers topicals and lasers but no page covers subcision itself
