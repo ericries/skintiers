@@ -963,7 +963,8 @@
   conflict: Founder of own-brand skincare line (Skin Rocks); recent upload mix is dominated by PR-gifted product unboxings and empties (haul-adjacent fo
   posted: ''
   feed_rank: 5
-  status: pending
+  status: skipped
+  skip_reason: shopping haul, not single-topic education
 - id: OwY7SfQvOsA
   title: Skincare Q & A
   creator: Caroline Hirons
@@ -1151,7 +1152,8 @@
   conflict: non-credentialed educator - educational content only, never treat picks as endorsements, never use sponsored videos
   posted: ''
   feed_rank: 5
-  status: pending
+  status: skipped
+  skip_reason: Amazon Prime Day price-challenge haul; affiliate-shaped and not single-topic
 - id: '7684364220804189453'
   title: 'I stand with these 🙌 #dermatologist #doctor #fyp '
   creator: Dr. Chris Tomassian
@@ -1833,7 +1835,8 @@
   conflict: Advises Korean skincare brands entering the US market on clinical communication (consulting relationship, disclosed on her site); reviewed content was cross-brand and unsponsored. Scan each video at ingest.
   posted: ''
   feed_rank: 5
-  status: pending
+  status: skipped
+  skip_reason: device supplied by the brand for testing ('the same brand asked me to test their newest device'), a gifted-product arrangement
 - id: hMGEPRFFKuQ
   title: '#collagen #collagenpeptides What happened after she took collagen supplements #dermatologist'
   creator: Dr. Sarah Sheu
@@ -4028,7 +4031,8 @@
   conflict: sell a small own-brand product line - skip own-brand promos
   posted: ''
   feed_rank: 5
-  status: pending
+  status: skipped
+  skip_reason: own-brand retail announcement (Chemist Confessions products at Soko Glam), not education
 - id: SqExZCgPCZE
   title: The Burning Truth | Trailer
   creator: Dr. Whitney Bowe

@@ -455,6 +455,16 @@ videos:
   related: [sensitive-skin, skin-barrier-strengthening, niacinamide]
   thesis: Licensed esthetician Jenn Lexi describes how she recognizes a damaged skin barrier and what she does first. Her signs are a moisturizer that suddenly stings when it never used to, skin that gets red and looks inflamed or puffy easily, a tight feeling that can coexist with oiliness, and flaking or dullness. Her first move is to cut back to a gentle cleanser, a simple moisturizer and sunscreen, all fragrance free, and to pause actives meant to change the skin, naming chemical exfoliants, vitamin C and niacinamide; that pause-everything advice is her own clinical practice rather than a trial result, and she does not claim those actives caused the damage.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Why Over Exfoliating Can Hurt Your Skin! - Dermatologist explains
+  creator: Dr. Laura Soong
+  creator_slug: laura-soong
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=U0q3s4_xqt8
+  posted: '2025-06-25'
+  related: [exfoliating-acids-by-strength, glycolic-acid, salicylic-acid, retinol, keratosis-pilaris, smoothing-skin-texture]
+  thesis: Board-certified dermatologist Dr. Laura Soong explains why over-exfoliating damages the skin barrier, describing the epidermis as a brick-and-mortar layer that keeps irritants out and water in, and which turns over on its own roughly every 28 days. She is hardest on mechanical exfoliation, saying dry brushing, loofahs, scrubby mitts and apricot scrubs vigorously disrupt that barrier and can set the stage for irritation, inflammation, itch and eczema, and that a gentle hydrating cleanser and your hands are enough. On chemical exfoliants such as glycolic or salicylic acid she is positive but conditional, warning against combining them with mechanical scrubbing or with retinol on the same day, and saying that redness, dryness, flaking, itch or burning means you are overdoing it and should stop and focus on barrier repair
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
