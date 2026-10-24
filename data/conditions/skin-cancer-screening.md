@@ -13,6 +13,18 @@ slug: skin-cancer-screening
 status: published
 type: condition
 updated: '2026-10-09'
+videos:
+- title: Skin Cancer Awareness | Dermatologist Dr. Kormeili
+  creator: Dr. Tanya Kormeili
+  creator_slug: tanya-kormeili-md
+  credential: Board-certified dermatologist (American Board of Dermatology), FAAD, Clinical Professor of Dermatology at UCLA David Geffen School of Medicine
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=E7wMX9WVv0k
+  posted: '2026-10-14'
+  related: [melanoma, actinic-keratosis, mohs-micrographic-surgery]
+  thesis: Board-certified dermatologist Dr. Tanya Kormeili argues that an annual skin check should be as routine as a dental cleaning, and says the message that everyone needs an annual evaluation has not been communicated well. She notes that every ethnic skin type is at risk for a different type of skin cancer, and that lifestyle, other medical conditions and the medications a person takes all place them in a different risk category. Her central point is that skin cancer diagnosed early is treatable and leaves a normal life expectancy, while melanoma that is missed can result in death
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 This is the entry point for skin cancer on this site, and a short account of what a routine whole-body skin check has and has not been shown to achieve. The individual diseases have their own pages: [[melanoma]], [[basal-cell-carcinoma]], [[squamous-cell-carcinoma]], and the precancer [[actinic-keratosis]].
