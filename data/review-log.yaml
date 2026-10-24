@@ -14262,3 +14262,40 @@ stearyl-glycyrrhetinate:
     sonnet.'
   score: 9
   verdict: publish
+silkn-titan-allways:
+  last_reviewed: '2026-10-24'
+  note: 'PRODUCT fill tick, K230013. The finding that matters: this device is the
+    EXCEPTION in product code PAY, because it ran and published its own clinical study
+    (32 adult women, twice weekly for 10 weeks plus 2 maintenance visits, average
+    reduction of 1.39 Fitzpatrick scores at 3-month follow-up, p<0.001, scored by
+    3 BLINDED evaluators) rather than resting on bench testing. Graded modest/preliminary,
+    not higher, because the comparison is baseline against follow-up with NO control
+    or sham arm, and the page says explicitly that blinded scoring controls who reads
+    the photographs rather than what untreated skin would have done. Also flagged
+    that the secondary claim ("improvement of at least 1 score ... for most patients")
+    never quantifies "most". CORRECTED AN EXISTING PAGE: home-radiofrequency-skin-tightening
+    said "The other eleven devices did not repeat it, and say so plainly", implying
+    none of the eleven submitted clinical data. That is now known to be wrong for
+    this one, so the hub was amended to "most say so plainly" and names the exception
+    with a link. Leaving a now-known-misleading claim standing would have been worse
+    than the edit. Other findings: regulation 21 CFR 878.4810 is the LASER surgical
+    instrument regulation, so an RF device is filed under a laser reg (same mismatch
+    family as dpl-spotlite and foreo-faq-302); dual product codes OHS+PAY; openFDA
+    indexes it under 878.4420 while the letter says 878.4810, and BOTH are reported
+    rather than reconciled. Identity NOT asserted: the brand sells it as "Titan MultiPlatform"
+    at $549 and the string "AllWays" appears nowhere in the retail page text, only
+    in the URL path, which the page states. Marketing gap documented: brand claims
+    "5 weeks" against a protocol running 10 weeks plus a 3-month follow-up, and sells
+    neck/decolletage plus age-spot fading, none of which is in the cleared indication
+    (facial wrinkles, adult women, Fitzpatrick I-IV). 39 quoted strings checked character-exact;
+    CAUGHT AND FIXED 4 of my own quote-boundary defects pre-publish, all the same
+    class as 2026-10-23: terminal periods added inside brand quotes and a capitalised
+    single-word scare quote ("Proven") that did not match the lowercase source. This
+    is the third occurrence of that class this week and the character check caught
+    it every time. image_unresolvable set (transform-endpoint og:image, and no photo
+    attributable to the clearance given the naming gap). Brand page cached (research-cache/web/e61d299aab7b2c5e.md).
+    Zero Apify spend. lint/style/verify clean on both touched pages. Main-loop self-verification
+    stood in for the Opus critic subagent (standing instruction not to spawn agents);
+    assurance sonnet.'
+  score: 9
+  verdict: publish

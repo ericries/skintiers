@@ -650,3 +650,11 @@
   source: the FAQ 302 page establishes that its own clearance carries no clinical
     data; nothing on the site grades red-light scalp devices as a category, and hair-loss-thinning
     covers only drugs
+- name: Fitzpatrick Wrinkle and Elastosis Scale
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: silkn-titan-allways
+  source: the outcome scale behind the 1.39-point result in K230013 and the measure
+    several home-device clearances report; nothing on the site explains what a one-point
+    change on it means

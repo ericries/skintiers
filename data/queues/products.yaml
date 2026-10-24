@@ -3247,7 +3247,7 @@
 - name: Silk'n Titan Allways (home RF, K230013)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: newa-skin-therapy-system
   source: 'openFDA product_code PAY, decision 2023-08-30, 510(k) Summary, applicant
     Silk''N Beauty Ltd. One of 12 devices under the OTC radiofrequency classification
@@ -3948,3 +3948,10 @@
   source: the GRADE review grades blue and blue-red LED at Level B for acne, but the
     only blue-light devices with pages here are spot pens (Espada, Lux Spot); no full-face
     blue or blue-red mask is covered
+- name: Silk'n HST (K162784, the predicate)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: silkn-titan-allways
+  source: the firm's own earlier device named as the single predicate in the K230013
+    Summary, with the same 1 MHz RF frequency; no page covers it
