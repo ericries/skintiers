@@ -2620,3 +2620,18 @@
   source: hair-loss-thinning discusses minoxidil repeatedly as the comparator with
     real trial evidence, but no ingredient page grades it; needed before any hair-device
     list can rank anything against it
+- name: Hidradenitis suppurativa biologics (adalimumab, secukinumab)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: alexandra-charrow
+  source: Charrow splits HS treatment into Crohn's-like disease responding to injected
+    biologics and acne-like disease responding to hormonal therapy; the HS hub names
+    biologics but no ingredient page grades any of them
+- name: Spironolactone (oral, for hormonal acne and HS)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: alexandra-charrow
+  source: named by Charrow as the hormonal option for acne-like HS; no page covers
+    it despite the site grading several topical acne actives

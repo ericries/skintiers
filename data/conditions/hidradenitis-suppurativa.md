@@ -1,61 +1,89 @@
 ---
-analyzed: '2026-09-14'
-assurance: sonnet
+analyzed: '2026-10-24'
+assurance: opus
 name: Hidradenitis suppurativa
 slug: hidradenitis-suppurativa
 status: published
 tier_list:
   by: strength of the evidence for the narrow, topical, adjunct role that this site
-    can honestly speak to. Hidradenitis suppurativa is primarily a medical and
-    surgical disease; the real mainstays (systemic antibiotics, hormonal therapy,
-    biologics, and surgery) sit above everything here and are named in the caption,
-    not ranked, because they belong with a dermatologist
+    can honestly speak to. Hidradenitis suppurativa is primarily a medical and surgical
+    disease; the real mainstays (systemic antibiotics, hormonal therapy, biologics,
+    and surgery) sit above everything here and are named in the caption, not ranked,
+    because they belong with a dermatologist
   caption: Hidradenitis suppurativa is a chronic inflammatory disease of nodules,
     abscesses, and sinus tracts, and its real treatments are prescription-led and
-    surgical, systemic antibiotics (doxycycline, or clindamycin plus rifampin),
-    hormonal therapy, biologics such as adalimumab and secukinumab, and procedures
-    from incision and drainage to wide excision. Topical treatment plays only a
-    limited adjunct role, and only in mild disease.
+    surgical, systemic antibiotics (doxycycline, or clindamycin plus rifampin), hormonal
+    therapy, biologics such as adalimumab and secukinumab, and procedures from incision
+    and drainage to wide excision. Topical treatment plays only a limited adjunct
+    role, and only in mild disease.
   items:
-  - note: The one topical with actual randomized-trial evidence for hidradenitis
-      suppurativa, a 1983 double-blind trial found it significantly better than
-      placebo for inflammatory abscesses. But that evidence is for mild (Hurley
-      stage I) disease only, on a single small trial, and it is a prescription
-      antibiotic used during flares rather than a treatment of the underlying
-      disease. Background on [[clindamycin-topical]].
+  - note: The one topical with actual randomized-trial evidence for hidradenitis suppurativa,
+      a 1983 double-blind trial found it significantly better than placebo for inflammatory
+      abscesses. But that evidence is for mild (Hurley stage I) disease only, on a
+      single small trial, and it is a prescription antibiotic used during flares rather
+      than a treatment of the underlying disease. Background on [[clindamycin-topical]].
     slug: clindamycin-topical
     tier: weak
   - note: A hygiene-adjunct antiseptic wash sometimes used alongside HS treatment
-      to reduce surface bacterial load; it has no dedicated hidradenitis
-      suppurativa trial evidence of its own, only its general antibacterial
-      profile covered on [[benzoyl-peroxide]].
+      to reduce surface bacterial load; it has no dedicated hidradenitis suppurativa
+      trial evidence of its own, only its general antibacterial profile covered on
+      [[benzoyl-peroxide]].
     slug: benzoyl-peroxide
     tier: minimal
   title: Topical adjuncts for mild hidradenitis suppurativa, by evidence
 type: condition
-updated: '2026-09-14'
+updated: '2026-10-24'
 videos:
-- title: Three at-home hacks for hidradenitis suppurativa
-  creator: Dr. Neera Nathan
+- creator: Dr. Neera Nathan
   creator_slug: neera-nathan
   credential: Board-certified dermatologist
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
   platform: YouTube
-  url: https://www.youtube.com/watch?v=7XVTcHsRvys
   posted: '2026-10-05'
-  related: [zinc-pyrithione, folliculitis, body-acne]
-  thesis: 'Dermatologist Dr. Neera Nathan starts by correcting what the painful armpit bumps of hidradenitis suppurativa are not, saying they are not pimples, not an infection and not contagious, but part of a common inflammatory condition. She then offers three things to try at home, framed as symptom relief rather than cures: using a pyrithione zinc dandruff shampoo as a body wash, which she describes as antimicrobial and anti-inflammatory and says can help heal bumps and reduce odor; an over-the-counter chlorhexidine surgical scrub to reduce bacteria, while avoiding the eyes and ears; and a do-it-yourself black tea compress applied for ten minutes to calm a painful boil. She is explicit about the limit of all three, saying that pus, worsening pain, or tunnels and scarring call for a board-certified dermatologist because in-office treatments and prescriptions can be life-changing.'
-  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
-- title: 'Hidradenitis suppurativa: Expert Guide'
-  creator: Dr. Abigail Waldman (Dr. Abby)
+  related:
+  - zinc-pyrithione
+  - folliculitis
+  - body-acne
+  thesis: 'Dermatologist Dr. Neera Nathan starts by correcting what the painful armpit
+    bumps of hidradenitis suppurativa are not, saying they are not pimples, not an
+    infection and not contagious, but part of a common inflammatory condition. She
+    then offers three things to try at home, framed as symptom relief rather than
+    cures: using a pyrithione zinc dandruff shampoo as a body wash, which she describes
+    as antimicrobial and anti-inflammatory and says can help heal bumps and reduce
+    odor; an over-the-counter chlorhexidine surgical scrub to reduce bacteria, while
+    avoiding the eyes and ears; and a do-it-yourself black tea compress applied for
+    ten minutes to calm a painful boil. She is explicit about the limit of all three,
+    saying that pus, worsening pain, or tunnels and scarring call for a board-certified
+    dermatologist because in-office treatments and prescriptions can be life-changing.'
+  title: Three at-home hacks for hidradenitis suppurativa
+  url: https://www.youtube.com/watch?v=7XVTcHsRvys
+- creator: Dr. Abigail Waldman (Dr. Abby)
   creator_slug: abigail-waldman
-  credential: Abigail H. Waldman, MD, FAAD; Associate Professor of Dermatology at Harvard Medical School; Director of the Mohs and Dermatologic Surgery Center at Brigham and Women's Hospital / Dana-Farber Brigham Cancer Center
-  platform: YouTube
-  url: https://www.youtube.com/watch?v=xriri7WTcKo
-  posted: '2024-09-04'
-  related: [folliculitis, body-acne, acne]
-  thesis: 'Dermatologist Dr. Abigail Waldman interviews Dr. Alexandra Charrow, clinical director of the hidradenitis suppurativa clinic at Brigham and Women''s Hospital, on how the condition gets diagnosed and treated. Charrow says it takes about seven to ten years on average from first symptoms to diagnosis and that the diagnosis rests on a patient''s history rather than any test, which is why Waldman opens with a follower who spent eight years being told they had infections, were not clean enough, and should lose weight before coming back. On treatment Charrow separates two patterns: disease behaving more like Crohn''s tends to respond to Crohn''s-type treatment such as injected biologics, antibiotics and steroids, while disease behaving more like acne tends to respond to hormonal medication such as spironolactone or birth control plus specific washes, and she is clear that once there are tunnels and abscesses a cream cannot penetrate deep enough and systemic treatment is needed.'
+  credential: Abigail H. Waldman, MD, FAAD; Associate Professor of Dermatology at
+    Harvard Medical School; Director of the Mohs and Dermatologic Surgery Center at
+    Brigham and Women's Hospital / Dana-Farber Brigham Cancer Center
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
-
+  platform: YouTube
+  posted: '2024-09-04'
+  related:
+  - folliculitis
+  - body-acne
+  - acne
+  thesis: 'Dermatologist Dr. Abigail Waldman interviews Dr. Alexandra Charrow, clinical
+    director of the hidradenitis suppurativa clinic at Brigham and Women''s Hospital,
+    on how the condition gets diagnosed and treated. Charrow says it takes about seven
+    to ten years on average from first symptoms to diagnosis and that the diagnosis
+    rests on a patient''s history rather than any test, which is why Waldman opens
+    with a follower who spent eight years being told they had infections, were not
+    clean enough, and should lose weight before coming back. On treatment Charrow
+    separates two patterns: disease behaving more like Crohn''s tends to respond to
+    Crohn''s-type treatment such as injected biologics, antibiotics and steroids,
+    while disease behaving more like acne tends to respond to hormonal medication
+    such as spironolactone or birth control plus specific washes, and she is clear
+    that once there are tunnels and abscesses a cream cannot penetrate deep enough
+    and systemic treatment is needed.'
+  title: 'Hidradenitis suppurativa: Expert Guide'
+  url: https://www.youtube.com/watch?v=xriri7WTcKo
 ---
 
 Hidradenitis suppurativa (HS) is a chronic inflammatory disease, not an acne variant or a hygiene problem, that produces painful, recurrent nodules, abscesses, and sinus tracts (tunnels under the skin) in areas that carry apocrine sweat glands: the armpits, groin, genital and perineal skin, under the breasts, and the buttocks.[^nesbitt][^koumaki] It is a genuine medical disease, and it is primarily managed with systemic drugs and surgery, not skincare. This page covers only the narrow, limited role topical treatment plays for mild disease; it is not a substitute for a dermatologist.
@@ -80,7 +108,7 @@ The clinical definition, typical lesion sites, and Hurley staging come from a 20
 
 ## See Also
 
-[[clindamycin-topical]], [[benzoyl-peroxide]], [[acne]], [[folliculitis]], [[body-acne]]
+[[clindamycin-topical]], [[benzoyl-peroxide]], [[acne]], [[folliculitis]], [[body-acne]], [[alexandra-charrow]]
 
 ## Sources
 
