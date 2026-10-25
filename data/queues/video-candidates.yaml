@@ -6652,7 +6652,8 @@
   conflict: null
   posted: '2026-09-22'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: Vague personal clip ('UGH sorry, I'm just a girl') with location hashtags and no skincare topic the site has a page for
 - id: '7688630771623660821'
   title: this is mom, bye
   creator: Hannah English (@ms_hannah_e / Hannah Collingwood English)
@@ -6692,7 +6693,8 @@
   conflict: Founder & CEO of own hair-care brand, BLCK Hair Care (@blckhaircare), promoted in her Instagram bio — a product-formulation/owners
   posted: '2026-09-22'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: Personal career narrative about being a Black woman in medicine; no skincare topic page matches, and creator has an own-brand haircare conflict
 - id: NI54RAgpByQ
   title: '#skincare #cosmeticdermatology #skincareroutine #skincaretips #sundamage #dermatologist'
   creator: Dr. Jenny Liu (Jenny Liu, MD, FAAD)
@@ -14397,7 +14399,8 @@
   conflict: runs an Amazon affiliate storefront and does sponsored posts - strongly prefer educational / how-to / ingredient-explainer videos; be very cautious with any product recommendation
   posted: '2026-10-24'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: Affiliate-storefront picks list (toner pad list with brand tags); this creator's picks are treated as effectively paid per her roster conflict, so skipped without fetching
 - id: '7700265313312591135'
   title: 🖇️ Comment MAKEUP to get my full makeup routine! As a skin longevity ...
   creator: Dr. Sheila Farhang (dr.sheila_derm)
@@ -14410,7 +14413,8 @@
   conflict: Self-describes as a "Key Opinion Leader for industry beauty companies" (per her own practice bio) and most sampled TikTok videos e; no YouTube; TikTok/IG intake
   posted: '2026-10-24'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: Makeup routine behind a comment-to-unlock engagement hook; makeup tutorials are excluded by STEP 2 and no skincare topic page matches
 - id: c6G0kjKQNGw
   title: What I’m Doing About My Own Under-Eyes as I Get Older | Dr. Idriss
   creator: Dr. Shereene Idriss

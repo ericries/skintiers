@@ -1134,6 +1134,17 @@ videos:
     product or filter in the clip
   title: I don't like mineral sunscreens, and I'm a dermatologist
   url: https://www.tiktok.com/@dr.tomassian/video/7700333720561028365
+- title: 'Yes, you still need sunscreen in the fall: testing the Bask Milky Mineral sunscreen'
+  creator: Ella (@your.estie.ella)
+  creator_slug: your-estie-ella
+  credential: Licensed esthetician (NOT a dermatologist or cosmetic chemist)
+  platform: TikTok
+  url: https://www.tiktok.com/@your.estie.ella/video/7700315937701989646
+  posted: '2026-10-24'
+  related: [zinc-oxide, titanium-dioxide, acne]
+  thesis: Licensed esthetician Ella tests the Bask Milky Mineral sunscreen, a zinc oxide and titanium dioxide formula, and says she will not use it on her own face because she is very acne prone and does not expect it to be friendly to clog prone skin. She finds the texture extremely thin, watery enough to drip and feel messy, and she can feel greasiness on her hands, though it absorbs well and feels silky once she works it in properly. Asked whether it earns the brand's claim of being the world's best feeling sunscreen she answers that she does not know, and she says not getting a sunburn is what actually matters, which she had not yet tested at the time of filming.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 "Sunscreen" is a **category**, not a single ingredient. It is a delivery vehicle for one or more UV filters, either mineral filters such as [[zinc-oxide]] and [[titanium-dioxide]], or organic (chemical) filters such as [[avobenzone]], octocrylene, and [[octinoxate]]. Each filter has its own absorption profile, stability, and safety questions, covered on that filter's own page. The category-level randomized evidence answers a narrower question than the shelf implies: **does regular sunscreen use work?**
