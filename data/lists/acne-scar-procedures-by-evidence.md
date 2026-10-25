@@ -64,7 +64,7 @@ Four procedure pages on this site each carried a note explaining why they could 
 
 **Nothing on this list protects your skin from the known risks.** The analysis found "no strong evidence suggesting a treatment reduced the risk of erythema nor post-inflammatory hyperpigmentation compared to the other treatments".[^nma] Those two outcomes matter most in deeper skin tones, and they are not a basis for choosing between these procedures.
 
-**Scope.** These are treatments for scars left by acne that has already happened. Treating active [[acne]] early is still the only thing that prevents new scars, and the flat brown or red marks that get called scars are handled on [[acne-scars]] and [[hyperpigmentation]].
+**Scope.** These are treatments for scars left by acne that has already happened. Treating active [[acne]] early is still the only thing that prevents new scars, and the flat brown or red marks that get called scars are handled on [[acne-scars]] and [[hyperpigmentation]]. For what an individual ablative resurfacing device does and does not publish about itself, see [[sciton-zoomscan]].
 
 ## Sources
 

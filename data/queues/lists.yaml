@@ -714,3 +714,15 @@
   status: pending
   discovered_from: null
   source: null
+- name: 'In-office resurfacing lasers by what the manufacturer publishes - extend
+    the disclosure framing from home-led-devices-by-what-the-file-publishes to professional
+    devices, where the gap is different: Sciton publishes unusually detailed hardware
+    specs (Er:YAG 2940 nm, 0-300 micron ablation, 0-130 micron coagulation) but no
+    clinical study, and markets handpiece names that appear nowhere in the 510(k)
+    device-name index. Grounded in sciton-zoomscan and pollogen-stop-u-tripollar,
+    which already exist. Source: sciton.com + openFDA device/510k'
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null

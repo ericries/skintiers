@@ -3310,7 +3310,7 @@
 - name: Contour TRL (tunable erbium:YAG ablative resurfacing laser, manufacturer unresolved)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: karimi-2025-neurocosmetic-post-procedure-cream
   source: 'The named device in PMID 40911753: ''Contour Tunable Resurfacing Laser
     (TRL)'', described there as a fully ablative erbium:YAG used on the lower eyelid.
@@ -3321,7 +3321,10 @@
     so set the scope deliberately. NAME CORRECTED 2026-10-19: this entry originally
     asserted Cutera as the manufacturer, which the abstract does not state and I had
     not verified. The maker is UNRESOLVED and must come from openFDA or the device''s
-    own labelling.'
+    own labelling. Manufacturer RESOLVED as Sciton, Inc. The product name is retired:
+    sciton.com/contour-trl/ now serves a page titled ZoomScan by Sciton, canonical
+    sciton.com/zoomscan-by-sciton/, with Contour and TRL absent from the body. Shipped
+    as sciton-zoomscan with Contour TRL as an alias.'
 - name: Eucerin Redness Relief / Anti-Redness range (licochalcone A formulas)
   type: product
   priority: 5
@@ -4022,6 +4025,28 @@
 - name: 'dpl SpectraLite (K171386, 510(k) Summary, LED Technologies Inc., cleared
     2017-08-07, product code OHS) - 28 cm2 predicate in the K172662 chart at 61.59
     mW/cm2. Source: openFDA device/510k + accessdata.fda.gov/cdrh_docs/pdf17/K171386.pdf'
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null
+- name: 'Sciton ProFractional (2940 nm ablative fractional erbium:YAG handpiece) -
+    listed by Sciton''s own site as a separate handpiece from ZoomScan and described
+    there as ''2940nm Ablative Fractional Laser''; fractional rather than full-field,
+    which is the distinction the acne-scar NMA literature actually tests. Its illustration
+    (Profractional.png) is the og:image Sciton serves on the ZoomScan page. Source:
+    sciton.com + openFDA applicant Sciton'
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null
+- name: 'Sciton HALO (hybrid fractional laser combining ablative and non-ablative
+    wavelengths in one pass) - the most heavily marketed Sciton treatment brand and
+    the natural comparator to sciton-zoomscan''s full-field ablative approach; listed
+    in Sciton''s own treatment menu. Check which platform clearance covers it, since
+    HALO does not appear in the 510(k) device-name index either. Source: sciton.com
+    + openFDA applicant Sciton'
   type: product
   priority: 5
   status: pending

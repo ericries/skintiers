@@ -481,3 +481,14 @@
   status: pending
   discovered_from: null
   source: null
+- name: 'Sciton, Inc. (Palo Alto, CA) - professional aesthetic laser maker holding
+    23 FDA 510(k) clearances, ALL filed as Summaries, under platform names (Image,
+    Profile, Joule, mJOULE, Contour Profile Laser) while marketing handpieces under
+    separate names that do not appear in the clearance index. The site now covers
+    sciton-zoomscan; a brand page would link it and anchor the platform-vs-handpiece
+    distinction. Source: openFDA device/510k applicant Sciton + sciton.com'
+  type: brand
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null

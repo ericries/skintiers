@@ -89,7 +89,7 @@ The tier on each row is that ingredient's own evidence grade from its page, not 
 
 ## See Also
 
-[[exfoliating-acids-by-strength]] [[keratolytics-compared]] [[retinoids-by-potency-ranked]] [[enlarged-pores]] [[keratosis-pilaris]] [[acne-scars]] [[anti-aging]] [[skin-barrier-repair]] [[blackheads-clogged-pores]]
+[[exfoliating-acids-by-strength]] [[keratolytics-compared]] [[retinoids-by-potency-ranked]] [[enlarged-pores]] [[keratosis-pilaris]] [[acne-scars]] [[sciton-zoomscan]] [[anti-aging]] [[skin-barrier-repair]] [[blackheads-clogged-pores]]
 
 ## Sources
 
