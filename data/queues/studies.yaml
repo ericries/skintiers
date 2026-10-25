@@ -1512,3 +1512,10 @@
   source: the single 60-patient randomised double-blind placebo-controlled trial that
     the entire Cochrane tea tree oil result rests on; worth its own structured study
     page
+- name: 'Yang 2026 Biologic therapies and psoriatic arthritis risk in psoriasis: A
+    systematic review and meta (PMID 42227826)'
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://pubmed.ncbi.nlm.nih.gov/42227826/
