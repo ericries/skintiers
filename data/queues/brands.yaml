@@ -440,3 +440,11 @@
   discovered_from: lnhc-pelthos-therapeutics
   source: named on the ZELSUVMI tube artwork filed with FDA as the contract manufacturer
     (Salo, Finland); a manufacturer behind a product the site covers, with no page
+- name: CurrentBody
+  type: brand
+  priority: 5
+  status: pending
+  discovered_from: currentbody-skin-rf
+  source: 'the new product page sets brand: CurrentBody with no brand page; the store
+    also sells LED face, neck, eye and hand masks and an RF microneedling device,
+    several of which are category gaps here'

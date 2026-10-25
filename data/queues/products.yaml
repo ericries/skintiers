@@ -3262,7 +3262,7 @@
 - name: CurrentBody Skin RF (K232424)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: newa-skin-therapy-system
   source: 'openFDA product_code PAY, decision 2024-03-06, 510(k) Summary, applicant
     El Global Trade Ltd (same applicant as sensiLift K170499 and Sensilift Pro K250341).
@@ -3955,3 +3955,26 @@
   discovered_from: silkn-titan-allways
   source: the firm's own earlier device named as the single predicate in the K230013
     Summary, with the same 1 MHz RF frequency; no page covers it
+- name: Pollogen STOP U Model UXV (K220322)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: currentbody-skin-rf
+  source: the named predicate for the CurrentBody Skin RF; Pollogen holds three PAY-code
+    clearances and is the device CurrentBody's thermal equivalence argument rests
+    on, with no page
+- name: CurrentBody Skin RF Microneedling Treatment
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: currentbody-skin-rf
+  source: listed at .99 in the same CurrentBody catalogue fetch; RF microneedling
+    is a distinct modality from the RF-only device and the site covers microneedling
+    but not the RF combination
+- name: CurrentBody Skin LED Neck and Decolletage Mask
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: currentbody-skin-rf
+  source: listed at .99-.99 in the same catalogue fetch; the site has a neck-and-chest
+    care hub and an LED hub but no LED neck device page

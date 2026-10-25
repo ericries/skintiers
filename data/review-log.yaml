@@ -14382,3 +14382,35 @@ dermal-fillers-for-acne-scars:
     assurance sonnet.'
   score: 9
   verdict: publish
+currentbody-skin-rf:
+  last_reviewed: '2026-10-24'
+  note: 'PRODUCT fill tick, K232424. Duplication checked: home-radiofrequency-skin-tightening
+    already quotes this clearance''s "No clinical testing was performed" line and
+    the porcine-skin result, so the product page cites both from the PRIMARY file
+    directly rather than via the hub, and adds what the hub lacks. The spine is a
+    contrast the hub could not draw: the clearance file says NO CLINICAL TESTING was
+    performed with this device, while the brand page headlines "89% seeing an improvement
+    in just 8 weeks" and repeats it as a skin-tightness/elasticity figure. Verified
+    by string search of the cached brand text that NO study, sample size, design,
+    duration detail or citation accompanies that 89% anywhere; the nearest supporting
+    phrase is the unattributed "clinically proven, science and dermatologist backed".
+    A percentage with no denominator on a device with no clinical testing is the page''s
+    central finding. Three further gaps documented: the product NAME, the brand copy
+    and FDA''s own Common/Usual Name all say "skin tightening" while the cleared indication
+    stops at mild-to-moderate facial WRINKLES in Fitzpatrick I-IV; the marketed treatment
+    areas include the NECK, outside a facial indication; and the predicate is another
+    company''s device (Pollogen STOP U, K220322), unlike silkn-titan-allways which
+    used its own. One thing credited honestly: the brand''s 104F temperature claim
+    MATCHES the file''s 40.5 +/- 0.5C ceiling, which is worth saying because it usually
+    does not. Also noted this letter''s regulation (878.4420) agrees with openFDA,
+    whereas the Silk''n letter said 878.4810 while openFDA indexed 878.4420. 31 quoted
+    strings checked character-exact; CAUGHT AND FIXED 3 quote-boundary defects pre-publish,
+    terminal periods added inside Common Marketing Claims headings. That is the FOURTH
+    occurrence of that exact class this week, always in the **"quote."** heading pattern;
+    the fix each time is to put the period outside the closing quote. image_unresolvable
+    set (brand images are on-model shots). Brand text cached (research-cache/web/6fe894c898accb5f.md).
+    Zero Apify spend; Shopify products.json + accessdata with a browser UA. lint/style/verify
+    clean on both touched pages. Main-loop self-verification stood in for the Opus
+    critic subagent (standing instruction not to spawn agents); assurance sonnet.'
+  score: 9
+  verdict: publish
