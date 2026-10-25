@@ -4052,3 +4052,23 @@
   status: pending
   discovered_from: null
   source: null
+- name: 'dpl II Panel and dpl IIa Panel (K171390 2017-08-03 and K180320 2018-04-03,
+    LED Technologies, both 510(k) Summaries, product code OHS) - the large-area dpl
+    panels, and the 415 cm2 II Panel is a named predicate in the K172662 chart at
+    70.16 mW/cm2. The dpl brand page lists 8 dpl-named clearances but the site covers
+    only 3 dpl products. Source: openFDA device/510k + accessdata.fda.gov/cdrh_docs/pdf17/K171390.pdf'
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null
+- name: 'dpl Therapy System (K081570, 2008-11-07, LED Technologies LLC, 510(k) Summary,
+    product code ILY) - the firm''s ORIGINAL clearance and the root of the dpl predicate
+    chain; note its product code ILY differs from the OHS code on every later dpl
+    device, which is worth checking against what the 2008 indication actually said.
+    Source: openFDA device/510k applicant LED Technologies'
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null

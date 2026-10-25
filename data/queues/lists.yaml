@@ -726,3 +726,13 @@
   status: pending
   discovered_from: null
   source: null
+- name: 'LED device makers by whether one company stands behind several brands - grounded
+    in the finding that dpl and reVive Light Therapy are ONE applicant (15 clearances,
+    all Summaries), which the site had presented as two separate companies until 2026-10-25.
+    Worth checking the same question for the Pulsaderm, FOREO and Silk''n ranges before
+    asserting a pattern. Source: openFDA device/510k applicant queries'
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null

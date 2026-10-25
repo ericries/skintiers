@@ -421,11 +421,20 @@
 - name: LED Technologies (dpl)
   type: brand
   priority: 5
-  status: pending
+  status: done
   discovered_from: led-dose-j-per-cm2-and-wavelength
-  source: the applicant of record whose K172662 filing is the only clearance in the
-    site's LED coverage that publishes irradiance; the dpl brand page exists but LED
-    Technologies as applicant is not linked from the dose page
+  source: 'the applicant of record whose K172662 filing is the only clearance in the
+    site''s LED coverage that publishes irradiance; the dpl brand page exists but
+    LED Technologies as applicant is not linked from the dose page NOT created as
+    a separate page: the entity is already covered by two brand pages that BOTH carry
+    ''LED Technologies'' as an alias, so a third would duplicate and split the aliases.
+    Serviced instead by fixing what those two pages were getting wrong. The one-company
+    fact (all 15 clearances under a single applicant) is now stated on both. The Colorado-vs-Florida
+    contradiction between them was a real conflict and is resolved from the primary
+    record: the applicant address moves across filings (Boulder CO, Coralville IA,
+    Greenwood Village CO, Largo FL), so both pages were right about the filings they
+    cited and wrong to state it undated. Also closed the product-linking gap: the
+    reVive page linked 1 of its 8 products, now 8; dpl linked 2 of 3, now 3.'
 - name: Silk'n
   type: brand
   priority: 5
