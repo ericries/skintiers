@@ -14504,3 +14504,26 @@ zirwas-2026-ruxolitinib-cream-chronic-hand-eczema:
     not to spawn agents); assurance sonnet.'
   score: 9
   verdict: publish
+zoe-draelos:
+  last_reviewed: '2026-10-25'
+  note: 'PERSON fill tick. 111-word discovery card, well inside the 150-word cap.
+    Credential verified against the federal NPI registry BEFORE any claim: NPI 1518940170,
+    M.D., active, primary taxonomy Dermatology with secondary taxonomies in dermatopathology,
+    procedural dermatology and pediatric dermatology, NC licence 31273, High Point
+    NC. DECLINED to state anything the registry does not record: no board certification,
+    no academic appointment, no publication count, and the footnote says explicitly
+    that the registry carries none of those so none is claimed. She is a clinical
+    investigator rather than a creator, so the card points to TRIALS rather than videos,
+    which is a departure from the usual person-page shape and is stated in the body
+    so a reader is not left looking for a channel. Four study pages on the site are
+    hers and are linked by slug; she is also noted as a co-author on rosacea trials
+    cited at ivermectin-topical and brimonidine. On funding: resisted generalising
+    about who sponsors her research, which would be an unverified claim about a living
+    person. Instead the card says funding and conflict statements live on each study
+    page from the paper''s own declaration, INCLUDING where a paper states none, which
+    is the accurate situation for the 2025 moisturizer paper. Linked the card back
+    from that study page. Zero Apify spend; NPI only, a durable primary needing no
+    cache. lint/style/verify clean on both pages. No critic for this type per the playbook;
+    assurance sonnet.'
+  score: 9
+  verdict: publish

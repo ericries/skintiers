@@ -4,17 +4,17 @@ aliases:
 - Draelos 2025 procedure effectiveness
 - AGE inhibitory moisturizer split-face study
 - PMID 40911740
-analyzed: '2026-10-22'
+analyzed: '2026-10-25'
 assurance: sonnet
 name: 'Draelos 2025: AGE-inhibiting moisturizer after RF microneedling or a glycolic
   peel'
 slug: draelos-2025-age-inhibiting-moisturizer-procedure-effectiveness
 status: published
 type: study
-updated: '2026-10-22'
+updated: '2026-10-25'
 ---
 
-A split-face trial of an unnamed "AGE inhibitory moisturizer" against a bland moisturizer on the other half of the same face, used after one in-office resurfacing procedure, reporting better investigator-scored appearance on the treated side at week 8.[^study]
+A split-face trial, by [[zoe-draelos|Zoe Draelos]], of an unnamed "AGE inhibitory moisturizer" against a bland moisturizer on the other half of the same face, used after one in-office resurfacing procedure, reporting better investigator-scored appearance on the treated side at week 8.[^study]
 
 **Design:** "single-site, randomized, split-face, double-blind, controlled study".[^study] Indexed by PubMed as a Randomized Controlled Trial. Split-face is the strength here: each subject is her own control.
 
