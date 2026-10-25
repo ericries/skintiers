@@ -53,6 +53,38 @@ this line). Do NOT "correct" it back to a real number; a
 new upload is Track 1's job, not Track 2's. A proper `backfill_done: true` flag
 would be clearer and is still unbuilt.
 
+## Deferred candidates: vetted, popularity-checked, blocked only on a transcript
+
+A second way a creator jams the selector: the slice yields genuinely good
+candidates, but YouTube's subtitle endpoint is returning HTTP 429, so they cannot
+be transcript-verified and therefore cannot be carded. Holding the cursor keeps
+them findable but re-selects the same creator every tick and the sweep stops
+making progress. Observed 2026-10-25: Neal Schultz was selected on four
+consecutive ticks at `backfill_cursor: None` for this reason.
+
+The fix is to record the candidates here, where they survive cursor advancement,
+and then advance the cursor normally. `video_scan.py --scan` cannot hold them:
+it only looks at each channel's most recent uploads, so deep back-catalog
+candidates never enter `video-candidates.yaml`. Do not hand-edit that queue.
+
+Note that only the subtitle endpoint is affected. `yt-dlp` metadata and
+`video_views.py` work normally during a 429, so vetting and the popularity check
+can be completed and recorded in advance; the transcript is the only missing
+input. When a transcript window reopens, card these from the list below and
+delete the rows. Run the mandatory sponsorship scan then, as always, since none
+of these has been read yet.
+
+**Dr. Neal Schultz (DermTV)**, `neal-schultz`, vetted 2026-10-25. Own-brand
+conflict is BeautyRx, so confirm each transcript is educational rather than a
+product pitch before carding. All three are 2014 evergreen uploads and all three
+PASS the 30k view floor.
+
+| views | id | title | attach to |
+|---|---|---|---|
+| 215,592 | `U3wv2xV1DmI` | A Spotty Rash: Tinea Versicolor [DermTV.com Epi #560] | `pityriasis-versicolor`, which has ZERO video cards |
+| 96,848 | `_eFzYS_V3qw` | What is the Best Type of Sunscreen [DermTV.com Epi #554] | `sunscreen-uv-filters` |
+| 33,064 | `H2q3aa9qWgM` | Can You Exfoliate Skin Around Your Eyes [DermTV.com Epi #555] | an eye-area or exfoliation page; confirm the best target at carding time |
+
 ## Cadence
 The `video-backfill` cron runs a sweep on the least-explored flagships a couple times a day,
 in parallel (workflow bypasses the session agent cap). Over weeks the cursors walk each
