@@ -1,5 +1,5 @@
 ---
-analyzed: '2026-10-18'
+analyzed: '2026-10-24'
 assurance: sonnet
 kind: best-of
 name: Acne Scar Procedures Ranked by Evidence
@@ -51,14 +51,14 @@ tier_list:
     mid: Ranked for comfort or not ranked; a reasonable option, not the severity winner
   title: Acne scar procedures, by what the network meta-analysis actually established
 type: list
-updated: '2026-10-18'
+updated: '2026-10-24'
 ---
 
 Four procedure pages on this site each carried a note explaining why they could not host a ranking of their own. This is that ranking, drawn from one 2025 Bayesian network meta-analysis of 68 randomized trials in 4,480 patients.[^nma] **Bottom line:** the winners are all laser-plus-something combinations, nothing beat the others on side-effect risk, and the procedure that wins on comfort is not the one that wins on scar reduction.
 
 ## What the ranking does and does not tell you
 
-**It ranks combinations, not single procedures.** The three severity and satisfaction winners are laser plus platelet-rich plasma, laser plus filler injection, and laser plus chemical peels.[^nma] If you are choosing one thing to do, this analysis does not name it. The peel pairing now has its own page, where a third analysis disputes whether any of these rankings is dependable: [[chemical-peels-acne-scars]]. And the same procedures ranked by what they cost you in pain and recovery days, where the evidence is in places firmer than it is for efficacy, are on [[acne-scar-treatments-by-downtime-and-pain]].
+**It ranks combinations, not single procedures.** The three severity and satisfaction winners are laser plus platelet-rich plasma, laser plus filler injection, and laser plus chemical peels.[^nma] If you are choosing one thing to do, this analysis does not name it. The peel pairing now has its own page, where a third analysis disputes whether any of these rankings is dependable: [[chemical-peels-acne-scars]]. The filler pairing has one too, at [[dermal-fillers-for-acne-scars]]. And the same procedures ranked by what they cost you in pain and recovery days, where the evidence is in places firmer than it is for efficacy, are on [[acne-scar-treatments-by-downtime-and-pain]].
 
 **The confidence behind each rank varies a lot.** Laser plus PRP led the ECCA scale at a SUCRA of 98.4%, which is close to always-best across the simulated rankings. Laser plus filler led the Goodman and Baron Scale at 72.1%, which is a much weaker separation from the field; a rank that high is compatible with several other options being nearly as good.[^nma] Treating both as "best" flattens a real difference in certainty.
 

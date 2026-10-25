@@ -14350,3 +14350,35 @@ actinic-cheilitis:
     assurance sonnet.'
   score: 9
   verdict: publish
+dermal-fillers-for-acne-scars:
+  last_reviewed: '2026-10-24'
+  note: 'GOAL fill tick. FIRST the queue head was STALE: "Chemical peels for acne
+    scars (the combination that won patient satisfaction)" is already covered by a
+    published 1205-word chemical-peels-acne-scars page that cites the 89.6% SUCRA
+    figure three times, and the source list already links to it saying "The peel pairing
+    now has its own page". Resolved it as satisfied rather than writing a duplicate,
+    then took the next item. The shipped page, dermal fillers for atrophic acne scars,
+    is a real gap (no filler page existed, which is also why a filler TikTok was rejected
+    earlier this week for having no target). The honest spine is a contrast between
+    two sources. The GOOD evidence is the 68-RCT Bayesian NMA, and it ranks laser
+    PLUS filler (SUCRA 72.1% on GBS), NOT filler alone, which the page says explicitly
+    and sets against the 98.4% that laser+PRP reached on a different scale. The filler-SPECIFIC
+    2026 systematic review (24 studies) reports NO statistics at all: verified by string
+    search that its abstract contains no meta-analysis, pooled, confidence interval,
+    p-value, odds, randomi, control, risk of bias or GRADE, and no numeric effect
+    size for any filler type. Its one efficacy sentence is "All filler types demonstrated
+    significant scar improvement." Two further separations the page makes: its "More
+    than 95% of patients develop persistent scarring" is a BACKGROUND framing claim
+    citing other literature, not a result of these 24 studies, and is reported rather
+    than adopted; and its conclusion language ("a promising alternative", "substantial
+    clinical promise") is flagged as promise rather than effect size, with the authors
+    noted as plastic surgeons declaring no conflicts. Useful practical fact kept: durability
+    runs 3-6 months to over 24, with CaHA, PCL and autologous fat/SVF at 6-plus. 17
+    quoted strings checked character-exact, 0 misses, 0 broken xrefs. Restructured
+    once pre-publish to satisfy the goal-type "The Evidence" section requirement and
+    removed the orphan heading that left behind. Linked from acne-scar-procedures-by-evidence.
+    Zero Apify spend; PubMed only. lint/style/verify clean. Main-loop self-verification
+    stood in for the Opus critic subagent (standing instruction not to spawn agents);
+    assurance sonnet.'
+  score: 9
+  verdict: publish

@@ -2666,3 +2666,18 @@
   source: lowest clearance rate in the 2025 actinic cheilitis SR/MA (PCR 0.53, 95%
     CI 0.41-0.66) and the one at-home-style topical in that comparison; no page covers
     it
+- name: Poly-L-lactic acid (PLLA) injectable collagen stimulator
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: dermal-fillers-for-acne-scars
+  source: one of the collagen-stimulator filler classes in the 2026 atrophic acne
+    scar review (PMID 41978687); no page covers it despite the site grading topical
+    collagen claims
+- name: Calcium hydroxylapatite (CaHA) filler
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: dermal-fillers-for-acne-scars
+  source: named in the 2026 filler review as one of three materials with 6-month-plus
+    durability for atrophic acne scars; no page
