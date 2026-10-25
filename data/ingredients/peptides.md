@@ -128,6 +128,16 @@ videos:
   related: [sunscreen-uv-filters, round-lab-birch-juice-moisturizing-sun-spf-50, anti-aging, niacinamide]
   thesis: Board-certified dermatologist Dr. Daniel Sugai reviews four viral K-beauty best sellers. He explains that the two Medicube collagen products (a Triple Collagen Serum and a Collagen Jelly Cream) use hydrolyzed collagen, which gives temporary hydration and a glassy, light-reflecting glow but is not a signal peptide and cannot penetrate to the dermis to rebuild lost collagen the way a retinoid can, so their firming effect is short-term surface plumping rather than structural change. He rates the two chemical-filter K-beauty sunscreens (SKIN1004 Hyalu-Cica Water-Fit Sun Serum and Round Lab Birch Juice) as solid lightweight, no-white-cast options for oily or acne-prone skin, while cautioning that the Round Lab formula contains essential oils that can irritate some people and that neither is tinted, so those with melasma should choose an iron-oxide tinted sunscreen instead.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: 'Decoding Peptides with DECIEM''s Rita Silva: What Does the Science Say?'
+  creator: Chemist Confessions (Victoria Fu and Gloria Lu)
+  creator_slug: victoria-fu
+  credential: Cosmetic chemists
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=thc_uSsMoeQ
+  posted: '2026-10-08'
+  related: [copper-peptides, argireline-acetyl-hexapeptide-8, palmitoyl-pentapeptide-4-matrixyl, anti-aging]
+  thesis: Cosmetic chemists Victoria Fu and Gloria Lu interview Rita Silva of DECIEM, the company behind The Ordinary, about what peptides in skincare are actually doing. They set out four jobs peptides are formulated to perform, signalling a cascade in the skin, carrying something else into it, acting on neurotransmitters to relax muscle contraction, and inhibiting enzymes, and the hosts note that peptides have become a catchall that buyers assume will do everything at once. The most striking part is Silva drawing a line around her own employer's claims, saying the company will not stand behind a claim that a product is a direct alternative to an injectable and will never promise the same results as one, and that it was other people promoting the product, not the brand, who described it as an injectable in a bottle
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

@@ -291,7 +291,8 @@
   conflict: 'Affiliate storefronts (ShopMy + Amazon Shop via linktree), recurring #AD sponsored posts, a branded discount-code partnership (LivSo), and c'
   posted: ''
   feed_rank: 6
-  status: pending
+  status: skipped
+  skip_reason: Shorts-format clip, 'if you have this use this' with no product or claim named; nothing citable
 - id: 0zhXWNROhwo
   title: Favorite Neck Creams
   creator: Dr. Adeline Kikam (Brown Skin Derm)
@@ -2387,7 +2388,8 @@
   conflict: Runs a paid cosmetics-industry consulting/science-communication practice (BeautySciComm, e-summits, mentorship cohorts) and is Patreon-suppo
   posted: ''
   feed_rank: 5
-  status: pending
+  status: skipped
+  skip_reason: 2019 panel discussion, not single-topic skincare education
 - id: WCnlNh38bRo
   title: The Science of Science Communication E-Summit
   creator: Jen Novakovich (The Eco Well)
@@ -2400,7 +2402,8 @@
   conflict: Runs a paid cosmetics-industry consulting/science-communication practice (BeautySciComm, e-summits, mentorship cohorts) and is Patreon-suppo
   posted: ''
   feed_rank: 6
-  status: pending
+  status: skipped
+  skip_reason: science-communication summit, not a skincare topic with a matching page
 - id: a1vwQheMEWE
   title: The Product Development E-Summit
   creator: Jen Novakovich (The Eco Well)
@@ -3639,7 +3642,8 @@
   conflict: has an own-brand line (Dr Sam's) - skip own-brand promos
   posted: ''
   feed_rank: 5
-  status: pending
+  status: skipped
+  skip_reason: 'own-brand demonstration: applies three Dr Sam''s products incl. one she says she formulated, with a mechanism story for it'
 - id: oX2bweRz6PY
   title: Introducing Prequel's NEW Multi-Acid Milk Peel AHA Exfoliating Wipes | Dr. Sam Ellis
   creator: Dr. Sam Ellis
