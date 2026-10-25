@@ -464,3 +464,11 @@
   source: 'the new product page sets brand: Lamisil but the labeler of record is Karo
     Healthcare Inc.; the firm now holds the Lamisil AT approvals and no brand page
     exists'
+- name: Incyte
+  type: brand
+  priority: 5
+  status: pending
+  discovered_from: zirwas-2026-ruxolitinib-cream-chronic-hand-eczema
+  source: manufacturer of ruxolitinib cream (Opzelura), which the site covers as a
+    product; four authors of the pivotal hand-eczema trial are Incyte-affiliated and
+    no brand page exists

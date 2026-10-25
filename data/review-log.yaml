@@ -14475,3 +14475,32 @@ lamisil-at-cream-terbinafine-1:
     instruction not to spawn agents); assurance sonnet.'
   score: 9
   verdict: publish
+zirwas-2026-ruxolitinib-cream-chronic-hand-eczema:
+  last_reviewed: '2026-10-25'
+  note: 'STUDY fill tick, PMID 40889714. Compact structured page; links out to opzelura-ruxolitinib-cream,
+    chronic-hand-eczema, atopic-dermatitis and topical-corticosteroids rather than
+    re-telling any. This is a GOOD trial and the page says so: randomised, double-blind,
+    vehicle-controlled, 16 weeks, 186 patients, primary endpoint 53.2% vs 10.9% at
+    p<.0001, a 42-point absolute difference. Three things separated out rather than
+    smoothed over. (1) The population is defined by an EXCLUSION that matters: entry
+    required "no current or recent history (<=5 y) of atopic dermatitis", and since
+    ruxolitinib cream is already approved for AD, this trial deliberately tested where
+    that indication does not apply. The page makes that the defining feature rather
+    than a footnote. (2) The Day 2 itch figure (9.1% vs 2.4%) carries NO p-value and
+    the source sentence itself says significance arrived on Day 7, so it is reported
+    as a descriptive observation, not a finding. (3) The comparator is VEHICLE, not
+    a topical steroid, so the page states plainly that this shows the drug beats its
+    own cream base and not that it beats what these patients would actually be offered
+    first. Also flagged the 10.9% vehicle response as the baseline any uncontrolled
+    before-and-after claim about this drug would be measuring against. Provenance recorded:
+    four authors Incyte-affiliated (the manufacturer), and Incyte appears in the academic
+    authors'' disclosures too. Verified six absences by string search (corticosteroid,
+    comparator, active control, placebo, confidence interval, 95% CI). Credited the
+    authors for naming their own limitation ("Relatively small sample size"). 16 quoted
+    strings checked character-exact, 0 misses, 0 broken xrefs, 888 words. Linked the
+    study AND the product from the chronic-hand-eczema hub, which previously pointed
+    at neither. Zero Apify spend; PubMed only. lint/style/verify clean on both pages.
+    Main-loop self-verification stood in for the Opus critic subagent (standing instruction
+    not to spawn agents); assurance sonnet.'
+  score: 9
+  verdict: publish

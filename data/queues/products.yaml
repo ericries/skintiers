@@ -3993,3 +3993,11 @@
   source: a separate FDA approval from the cream (NDA021124 vs NDA020980), listed
     in 120 g cans; the site covers no antifungal spray and the format changes how
     the dose reaches the skin
+- name: Delgocitinib cream (Anzupgo) for chronic hand eczema
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: zirwas-2026-ruxolitinib-cream-chronic-hand-eczema
+  source: the other topical JAK inhibitor with a chronic hand eczema indication; delgocitinib
+    is already cited on fda-approved-vs-cleared-skincare as an NDA approval but has
+    no product page

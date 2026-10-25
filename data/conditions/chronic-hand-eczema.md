@@ -1,11 +1,11 @@
 ---
-analyzed: '2026-09-28'
+analyzed: '2026-10-25'
 assurance: opus
 name: Chronic hand eczema (CHE)
 slug: chronic-hand-eczema
 status: published
 type: condition
-updated: '2026-09-28'
+updated: '2026-10-25'
 ---
 
 Chronic hand eczema (CHE) is a long-lasting, often relapsing eczema of the hands. A 2025 review describes it as "a highly prevalent dermatology-related occupational hazard" and, importantly, "a distinct diagnosis from atopic dermatitis," even though the two overlap.[^gupta] It is diagnosed by a clinician and, in moderate-to-severe forms, treated by one; the skincare-relevant part is the everyday barrier care and irritant avoidance underneath the medical treatment.
@@ -26,7 +26,7 @@ For that more severe end, two treatments are specifically approved for CHE by th
 
 ## See Also
 
-[[atopic-dermatitis]], [[moisturizing]], [[skin-barrier-repair]], [[pimecrolimus]].
+[[atopic-dermatitis]], [[moisturizing]], [[skin-barrier-repair]], [[pimecrolimus]], [[opzelura-ruxolitinib-cream]], [[zirwas-2026-ruxolitinib-cream-chronic-hand-eczema]].
 
 ## Sources
 

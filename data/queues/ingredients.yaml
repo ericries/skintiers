@@ -2681,3 +2681,11 @@
   discovered_from: dermal-fillers-for-acne-scars
   source: named in the 2026 filler review as one of three materials with 6-month-plus
     durability for atrophic acne scars; no page
+- name: Ruxolitinib (topical, JAK1/JAK2 inhibitor)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: zirwas-2026-ruxolitinib-cream-chronic-hand-eczema
+  source: the active in Opzelura; the product page exists but no ingredient page grades
+    the molecule, and it now has trial evidence in two distinct indications (atopic
+    dermatitis and non-atopic chronic hand eczema)

@@ -693,3 +693,10 @@
   source: Lamisil's marketing contrasts destroying the fungus with treating symptoms;
     allylamines and azoles do differ on this, and nothing on the site explains whether
     it changes cure rates
+- name: Topical JAK inhibitors for eczema, compared
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: zirwas-2026-ruxolitinib-cream-chronic-hand-eczema
+  source: ruxolitinib and delgocitinib now both have hand-eczema evidence, and neither
+    is ranked against topical corticosteroids anywhere on the site

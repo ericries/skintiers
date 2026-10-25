@@ -1,0 +1,32 @@
+---
+aliases:
+- Zirwas 2026 ruxolitinib cream hand eczema
+- ruxolitinib cream chronic hand eczema trial
+- ruxolitinib CHE phase 2
+- PMID 40889714
+analyzed: '2026-10-25'
+assurance: sonnet
+name: 'Zirwas 2026: ruxolitinib cream 1.5% for moderate to severe chronic hand eczema'
+slug: zirwas-2026-ruxolitinib-cream-chronic-hand-eczema
+status: published
+type: study
+updated: '2026-10-25'
+---
+
+A vehicle-controlled phase 2 trial of twice-daily [[opzelura-ruxolitinib-cream|ruxolitinib cream 1.5%]] in adults with moderate to severe [[chronic-hand-eczema]], run specifically in people who do not have [[atopic-dermatitis]].[^study]
+
+**Design:** "a 16-week, multicenter, randomized, double-blind study", phase 2, enrolling from North America and Europe, randomised 1:1 to twice-daily 1.5% ruxolitinib cream or vehicle cream.[^study] Vehicle-controlled and double-blind, which is the right design for a cream and is not a comparison against anything a patient would otherwise be prescribed.
+
+**Population / n:** "Among 186 randomized patients".[^study] Entry required "an Investigator's Global Assessment-CHE score of 3/4, ≥1 prior CHE therapy, and no current or recent history (≤5 y) of atopic dermatitis".[^study] That last clause is the defining feature: the drug is already approved for atopic dermatitis, and this trial deliberately excluded it, so the result speaks to non-atopic hand eczema only.
+
+**Intervention / comparator:** ruxolitinib cream 1.5% twice daily against vehicle cream twice daily, 16 weeks.[^study] Checked by string search, the abstract contains no mention of a corticosteroid, an active comparator or a placebo arm beyond the vehicle.
+
+**Primary result (verbatim):** "most who applied ruxolitinib cream achieved a score of 0 (clear) or 1 (almost clear) on the Investigator's Global Assessment-CHE scale with a 2-grade improvement from baseline at Week 16 (53.2% vs 10.9% [vehicle]; P < .0001; primary endpoint)".[^study] On itch, improvements of at least 4 points on a numerical rating scale "were reported on Day 2 (9.1% vs 2.4%) and reached statistical significance on Day 7 (27.4% vs 9.0%; P = .0024)".[^study] Tolerability: "no new safety signals and few (3.2%) application site reactions".[^study]
+
+**Effect size / interpretation:** A 42-point absolute difference on the primary endpoint, 53.2% against 10.9%, with p below .0001, is a large and clean result for a topical. Two readings to keep separate. The Day 2 itch figure carries no p-value and the sentence itself says significance arrived on Day 7, so Day 2 is a descriptive observation rather than a finding. And a 10.9% vehicle response means roughly one in nine cleared or nearly cleared on cream base alone, which is the baseline any uncontrolled before-and-after report of this drug would be measuring against. The abstract publishes no confidence interval for the primary difference, checked by string search.
+
+**Applicability + key limitation:** Generalises to adults with moderate to severe chronic hand eczema who have already tried at least one therapy and who do not have atopic dermatitis. The authors name the limitation themselves, "Relatively small sample size", and phase 2 at 186 patients is where that bites. The limitation this page would add is the comparator: vehicle tells you the drug beats its own base, not whether it beats a topical steroid, which is what most of these patients would be offered first and is covered at [[topical-corticosteroids]]. Provenance matters here too: four authors are affiliated with Incyte, which makes the drug, and the academic authors list Incyte among their disclosures.[^study] The authors' conclusion, that ruxolitinib cream "represents an effective treatment option for nonatopic CHE subtypes that are not controlled with standard therapies", is reasonable for the population enrolled and reaches slightly past a trial whose only comparator was vehicle.[^study]
+
+## Sources
+
+[^study]: Zirwas M, Fowler JF Jr, Tsianakas A, Devani AR, Halden P, Lai Z, Kuo Y, Nawaz H, Stein Gold LF. "Efficacy and safety of ruxolitinib cream for the treatment of moderate to severe chronic hand eczema: Results from a 16-week, multicenter, randomized, double-blind study." Journal of the American Academy of Dermatology. 2026 Jan;94(1):32-40. doi: 10.1016/j.jaad.2025.08.081. Epub 2025 Aug 30. PMID 40889714. Indexed for MEDLINE. Quotes used, each re-verified verbatim against the PubMed abstract on 2026-10-25: "a 16-week, multicenter, randomized, double-blind study"; "This phase 2 study enrolled adults with CHE from North America and Europe, an Investigator's Global Assessment-CHE score of 3/4, ≥1 prior CHE therapy, and no current or recent history (≤5 y) of atopic dermatitis."; "Patients were randomized 1:1 to twice-daily 1.5% ruxolitinib cream or vehicle cream for 16 weeks."; "Among 186 randomized patients, most who applied ruxolitinib cream achieved a score of 0 (clear) or 1 (almost clear) on the Investigator's Global Assessment-CHE scale with a 2-grade improvement from baseline at Week 16 (53.2% vs 10.9% [vehicle]; P < .0001; primary endpoint)."; "Itch improvements (≥4-point improvement in numerical rating scale) were reported on Day 2 (9.1% vs 2.4%) and reached statistical significance on Day 7 (27.4% vs 9.0%; P = .0024)."; "Ruxolitinib cream was well tolerated, with no new safety signals and few (3.2%) application site reactions."; the stated limitation "Relatively small sample size."; and the conclusion "Ruxolitinib cream represents an effective treatment option for nonatopic CHE subtypes that are not controlled with standard therapies." Absences are reported above as absences in this abstract, each checked by string search on 2026-10-25: it contains no occurrence of corticosteroid, comparator, active control, placebo, confidence interval or 95% CI, and reports no confidence interval for the primary difference. Author affiliations include Incyte Biosciences International Sàrl, Morges, Switzerland (one author) and Incyte Corporation, Wilmington, Delaware (three authors); Incyte is the manufacturer of ruxolitinib cream. The conflict-of-interest statement records Incyte Corporation among the disclosures of the academic authors as well, including investigator, consultant and speaker roles. Only the PubMed abstract was accessed, not the full article, so the per-visit response curves, the quality-of-life and skin-pain instruments and the full adverse-event table were not read. https://pubmed.ncbi.nlm.nih.gov/40889714/ (accessed 2026-10-25)
