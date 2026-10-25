@@ -4,7 +4,7 @@ aliases:
 - CurrentBody Skin RF ST030
 - CurrentBody RF device
 - K232424
-analyzed: '2026-10-24'
+analyzed: '2026-10-25'
 assurance: sonnet
 brand: CurrentBody
 category: Devices
@@ -40,7 +40,7 @@ price:
 slug: currentbody-skin-rf
 status: published
 type: product
-updated: '2026-10-24'
+updated: '2026-10-25'
 ---
 
 The CurrentBody Skin RF is a $385.99 home radiofrequency device cleared in March 2024 under K232424.[^k232424][^brand] **Bottom line:** its own clearance file states that no clinical testing was performed on it, and the brand's page puts a percentage on a benefit the device is not cleared to treat. The category's evidence, which traces to a different device entirely, is on [[home-radiofrequency-skin-tightening]].
@@ -49,7 +49,7 @@ The CurrentBody Skin RF is a $385.99 home radiofrequency device cleared in March
 
 ## Summary
 
-Filed under 21 CFR 878.4420 with the regulation name "Electrosurgical Device For Over-The-Counter Aesthetic Use", Class II, product code PAY, General and Plastic Surgery panel.[^k232424] The predicate is another company's device, the "Pollogen Stop U Model UXV device, cleared under 510(k) number K220322 on May 4th, 2023".[^k232424] Published specifications: "Frequency: 1±0.05 MHz" and "Maximal temperature allowed: 40.5 ± 0.50C", the last rendered that way in the original where degrees Celsius is meant.[^k232424]
+Filed under 21 CFR 878.4420 with the regulation name "Electrosurgical Device For Over-The-Counter Aesthetic Use", Class II, product code PAY, General and Plastic Surgery panel.[^k232424] The predicate is another company's device, the "Pollogen Stop U Model UXV device, cleared under 510(k) number K220322 on May 4th, 2023".[^k232424] That predicate is covered at [[pollogen-stop-u-tripollar]], and its own file points onward to a prescription device for efficacy. Published specifications: "Frequency: 1±0.05 MHz" and "Maximal temperature allowed: 40.5 ± 0.50C", the last rendered that way in the original where degrees Celsius is meant.[^k232424]
 
 The brand's temperature claim matches the file, which is worth saying because it often does not: the page says the device heats skin "up to 104°F" and that its "Skin Sense Technology continuously measures skin temperature and automatically adjusts to your skin's resistance to keep skin at 104°F".[^brand] 104°F is 40°C, inside the cleared ceiling.
 

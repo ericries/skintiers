@@ -657,7 +657,10 @@
   discovered_from: silkn-titan-allways
   source: the outcome scale behind the 1.39-point result in K230013 and the measure
     several home-device clearances report; nothing on the site explains what a one-point
-    change on it means
+    change on it means Pollogen K220322 and CurrentBody K232424 both use the same
+    mild-to-moderate facial wrinkle indication with Fitzpatrick I-IV limits, so the
+    list should cover what the phototype ceiling excludes as well as what a one-point
+    change means
 - name: Nitric oxide releasing agents in dermatology
   type: list
   priority: 5
@@ -674,3 +677,11 @@
   source: the 2025 SR/MA ranks clearance and recurrence differently across CO2 laser,
     Er:YAG, PDT, imiquimod and diclofenac; a list becomes possible once those treatment
     pages exist
+- name: Human factors and self-selection studies in 510(k) files
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: pollogen-stop-u-tripollar
+  source: K220322 reports a 100% human-factors success rate that reads like an efficacy
+    figure but tests eligibility judgement; several device pages here now carry usability-only
+    testing and nothing explains the distinction

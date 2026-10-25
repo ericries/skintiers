@@ -14414,3 +14414,34 @@ currentbody-skin-rf:
     critic subagent (standing instruction not to spawn agents); assurance sonnet.'
   score: 9
   verdict: publish
+pollogen-stop-u-tripollar:
+  last_reviewed: '2026-10-25'
+  note: 'PRODUCT fill tick, K220322 (plus K203665, K182774). This page CLOSES THE CHAIN
+    the previous two device pages opened. currentbody-skin-rf states no clinical testing
+    was performed on it because it is equivalent to its predicate; that predicate is
+    this device; and reading THIS file shows its Clinical performance data section
+    contains (a) a self-selection study and human factors validation run on a DIFFERENT
+    earlier model (K182774), and (b) an efficacy study conducted "while using the
+    FDA-cleared STOP U device for PRESCRIPTION use (K140255)". Verified via openFDA
+    that K140255 sits under product code GEI, a different classification from the
+    OTC PAY code. So two successive OTC clearances rest on a study of a product nobody
+    can buy over the counter, and the file reasons transitively from technology to
+    product. Second finding worth naming: the "100% success rate" in that section is
+    a HUMAN FACTORS result about whether 61 people could correctly self-select and
+    operate the device, not a skin outcome, and the page says so because a reader
+    skimming a clearance would read 100% as performance. Disclosure pattern recorded:
+    18 Pollogen clearances, ALL Summaries, five under PAY. No price: Pollogen sells
+    through clinics, and I verified that tripollarbeauty.com now returns an unrelated
+    online-gambling page with no occurrence of "STOP U" (recorded as observed state
+    only, nothing asserted about how it changed hands). DECLINED to publish a link
+    to that hostname: lint required a URL on the standalone [^domain] footnote, so
+    rather than link a gambling site from the page I folded the observation into the
+    [^brand] footnote which carries pollogen.com. Also fixed a case mismatch ("clinically
+    proven technologies" lowercased against a capitalised source) by rewording instead
+    of quoting. Resolved MY OWN duplicate queue entry from 2026-10-24 ("Pollogen STOP
+    U Model UXV (K220322)") against this page. 26 quoted strings checked character-exact.
+    Linked from currentbody-skin-rf. Zero Apify spend. lint/style/verify clean on both
+    touched pages. Main-loop self-verification stood in for the Opus critic subagent
+    (standing instruction not to spawn agents); assurance sonnet.'
+  score: 9
+  verdict: publish

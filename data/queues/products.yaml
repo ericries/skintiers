@@ -3282,7 +3282,7 @@
 - name: Pollogen STOP U / TriPollar (home RF, K182774, K203665, K220322)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: newa-skin-therapy-system
   source: 'THREE separate clearances for the same STOP U device family under product
     code PAY (2019-06-19, 2021-02-25, 2023-05-04), all 510(k) Summaries, applicant
@@ -3958,7 +3958,7 @@
 - name: Pollogen STOP U Model UXV (K220322)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: currentbody-skin-rf
   source: the named predicate for the CurrentBody Skin RF; Pollogen holds three PAY-code
     clearances and is the device CurrentBody's thermal equivalence argument rests
@@ -3978,3 +3978,10 @@
   discovered_from: currentbody-skin-rf
   source: listed at .99-.99 in the same catalogue fetch; the site has a neck-and-chest
     care hub and an LED hub but no LED neck device page
+- name: Geneo X Elite (K233766, K242227)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: pollogen-stop-u-tripollar
+  source: two of Pollogen's five PAY-code clearances, cleared 2024 and 2025 and distinct
+    from the STOP U line; no page covers them

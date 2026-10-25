@@ -448,3 +448,11 @@
   source: 'the new product page sets brand: CurrentBody with no brand page; the store
     also sells LED face, neck, eye and hand masks and an RF microneedling device,
     several of which are category gaps here'
+- name: Pollogen
+  type: brand
+  priority: 5
+  status: pending
+  discovered_from: pollogen-stop-u-tripollar
+  source: 'the new product page sets brand: Pollogen with no brand page; the firm
+    holds 18 FDA clearances, all published as Summaries, across home-use and professional
+    lines'
