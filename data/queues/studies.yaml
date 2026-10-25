@@ -1531,3 +1531,27 @@
   status: pending
   discovered_from: null
   source: null
+- name: 'Gupta 2022: relative efficacy of minoxidil and the 5-alpha reductase inhibitors
+    in male androgenetic alopecia (JAMA Dermatol 2022;158(3):266-274, PMID 35107565)
+    - Bayesian NMA, 23 studies, four endpoints (total and terminal hair count at 24
+    and 48 weeks) with FOUR DIFFERENT leaders, so no single drug wins throughout.
+    Now the comparative spine cited on hair-loss-thinning. Key for the site: oral
+    forms beat topical minoxidil, male patients only, and no light or laser device
+    appears in it. Source: pubmed.ncbi.nlm.nih.gov/35107565'
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null
+- name: 'English 2022: microneedling in hair loss disorders, a systematic review (Dermatol
+    Ther 2022;12(1):41-60, PMID 34854067) - 22 studies, 1127 subjects, Jadad mean
+    2 of 5; adjunct-only benefit in 17 AGA investigations (911 subjects) when paired
+    with 5% minoxidil or PRP, no serious adverse events across 657 treated. All three
+    authors affiliated with Perfect Hair Health, a commercial hair-loss business,
+    which the study page must record. Now cited on hair-loss-thinning and relevant
+    to the existing microneedling page. Source: pubmed.ncbi.nlm.nih.gov/34854067'
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null

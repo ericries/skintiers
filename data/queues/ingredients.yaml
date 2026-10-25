@@ -2728,4 +2728,9 @@
   priority: 5
   status: pending
   discovered_from: null
-  source: null
+  source: 'Additional spine now available: Gupta 2022 JAMA Dermatol network meta-analysis
+    (PMID 35107565, 23 studies) ranks ORAL minoxidil 5 mg/d significantly above topical
+    2% (MD 29.3 hairs/cm2, 95% CI 21.1-37.5) and topical 5% (MD 29.8, 95% CI 19.7-39.8)
+    on terminal hair at 24 weeks, male patients only. The page should grade TOPICAL
+    (the OTC form, in scope) and link the oral comparison as context rather than a
+    recommendation; hair-loss-thinning already places Rx systemics out of scope.'
