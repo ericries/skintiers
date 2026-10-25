@@ -703,3 +703,14 @@
   discovered_from: zirwas-2026-ruxolitinib-cream-chronic-hand-eczema
   source: ruxolitinib and delgocitinib now both have hand-eczema evidence, and neither
     is ranked against topical corticosteroids anywhere on the site
+- name: 'Plant oils by barrier-repair evidence - rank the plant oils the site covers
+    by whether a controlled human trial supports barrier repair, using the linoleic-to-oleic
+    ratio as the mechanism axis (Vaughn 2018, PMID 28707186) and USDA FoodData Central
+    fatty-acid profiles as the composition spine. Grounded in olive-oil (tier weak,
+    barrier harm in the one isolating trial), squalane and shea-butter, which already
+    exist. Source: pubmed.ncbi.nlm.nih.gov/28707186'
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null

@@ -1519,3 +1519,15 @@
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/42227826/
+- name: 'Danby 2013: effect of olive and sunflower seed oil on the adult skin barrier
+    (Pediatr Dermatol 2013;30(1):42-50, PMID 22995032) - n=19, two randomized forearm-controlled
+    mechanistic studies, six drops twice daily for 4-5 weeks. Olive oil caused a significant
+    reduction in stratum corneum integrity and mild erythema in volunteers with and
+    without atopic dermatitis history; sunflower seed oil preserved integrity and
+    improved hydration. The single most load-bearing citation on olive-oil and the
+    natural case for a study page. Source: pubmed.ncbi.nlm.nih.gov/22995032'
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null

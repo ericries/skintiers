@@ -1635,9 +1635,13 @@
     for some), minor direct skin benefit
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
-  source: https://incidecoder.com/ingredients/olea-europaea-fruit-oil
+  source: 'https://incidecoder.com/ingredients/olea-europaea-fruit-oil Shipped as
+    olive-oil, tier weak. The queue''s barrier-disruption hunch is supported by the
+    one isolating trial (Danby 2013, forearm-controlled, n=19) but comedogenicity
+    is NOT: no cited source measures comedone formation, so that claim was left out
+    rather than asserted.'
 - name: Ethylhexyl palmitate, lightweight emollient ester widely used as the cleansing
     oil base in cleansing balms and as an emollient/solvent; cosmetic, no active skin
     benefit
@@ -2689,3 +2693,26 @@
   source: the active in Opzelura; the product page exists but no ingredient page grades
     the molecule, and it now has trial evidence in two distinct indications (atopic
     dermatitis and non-atopic chronic hand eczema)
+- name: 'Sunflower seed oil (Helianthus annuus seed oil) - the comparator arm that
+    WON in Danby 2013 (PMID 22995032): preserved stratum corneum integrity, no erythema,
+    improved hydration, where olive oil on the other forearm of the same volunteers
+    damaged the barrier. Linoleic-rich (USDA FDC 171025: 65.7 g linoleic / 19.5 g
+    oleic per 100 g) and used in 8 of the 14 neonatal RCTs in Aksucu 2022 (PMID 36409192).
+    Caveat for the page: high-oleic sunflower cultivars exist, so the INCI name alone
+    does not establish the profile. Source: pubmed.ncbi.nlm.nih.gov/22995032 + fdc.nal.usda.gov'
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null
+- name: 'Coconut oil (Cocos nucifera oil) - appeared in 5 of the 14 neonatal RCTs
+    pooled by Aksucu 2022 (PMID 36409192), the second most studied oil in that literature
+    after sunflower; large consumer topic with no page yet. Lauric-acid-dominant rather
+    than oleic or linoleic, so it sits outside the linoleic:oleic framing on the olive-oil
+    page and needs its own read. Source: pubmed.ncbi.nlm.nih.gov/36409192 + Vaughn
+    2018 PMID 28707186'
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null
