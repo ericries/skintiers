@@ -14342,7 +14342,8 @@
   conflict: Founder/owner of active postpartum skincare brand "More Than Nine" (cleanser, exfoliator, moisturizer, balm) — an ongoing own-bran
   posted: '2026-10-24'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 20 seconds, under the 25s floor
 - id: Bk5lSp6wYYA
   title: Are You Applying Tretinoin WRONG? Dermatologist Answers Your Skincare Questions
   creator: Andrea Suarez (Dr Dray)
