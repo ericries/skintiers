@@ -399,7 +399,7 @@
 - name: Home LED devices by what the brand actually proves, not what it claims
   type: list
   priority: 5
-  status: pending
+  status: done
   discovered_from: revive-light-therapy-lux-glo
   source: 'Five home-LED product pages now exist (revive-light-therapy-lux-glo, revive-light-therapy-lux-spot,
     revive-light-therapy-essentials, neutrogena-light-therapy-acne-mask-plus, pulsaderm-acne-mask-28,
@@ -413,7 +413,10 @@
     safe, as effective, and performs as well as the legally marketed devices'', the
     same sentence found at every generation of the chain (K223482 to K210965/K210968
     to K180445/K180447). So the list can state that an entire product line''s clearances
-    rest on nonclinical testing, sourced not inferred.'
+    rest on nonclinical testing, sourced not inferred. Shipped as home-led-devices-by-what-the-file-publishes:
+    a three-rung disclosure ranking built from the openFDA statement_or_summary field
+    rather than from brand copy, with 21 CFR 807.92 and 807.93 as the primary basis
+    for what a Summary must and need not contain.'
 - name: Melasma treatments by evidence
   type: list
   priority: 5

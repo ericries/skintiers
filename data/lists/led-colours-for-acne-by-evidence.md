@@ -40,7 +40,7 @@ One rung down, on low-quality evidence, and grouped by the review with light-hea
 
 ## See Also
 
-[[home-led-light-therapy]], [[led-dose-j-per-cm2-and-wavelength]], [[acne]], [[benzoyl-peroxide]], [[adapalene]], [[foreo-espada-blue-light-pen]], [[revive-light-therapy-lux-spot]], [[home-use-skincare-devices-by-evidence]].
+[[home-led-light-therapy]], [[led-dose-j-per-cm2-and-wavelength]], [[home-led-devices-by-what-the-file-publishes]], [[acne]], [[benzoyl-peroxide]], [[adapalene]], [[foreo-espada-blue-light-pen]], [[revive-light-therapy-lux-spot]], [[home-use-skincare-devices-by-evidence]].
 
 ## Sources
 

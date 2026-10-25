@@ -93,7 +93,7 @@ The brand lists **Lux Glo at $79.00**, and its own comparison table prices the s
 
 ## See Also
 
-[[revive-light-therapy]] [[revive-light-therapy-lux-spot]] [[revive-light-therapy-essentials]] [[revive-light-therapy-wrinkle-and-acne-led-device]] [[home-led-light-therapy]] [[home-use-skincare-devices-by-evidence]] [[fda-approved-vs-cleared-skincare]] [[acne]] [[anti-aging]]
+[[revive-light-therapy]] [[revive-light-therapy-lux-spot]] [[revive-light-therapy-essentials]] [[revive-light-therapy-wrinkle-and-acne-led-device]] [[home-led-light-therapy]] [[home-use-skincare-devices-by-evidence]] [[home-led-devices-by-what-the-file-publishes]] [[fda-approved-vs-cleared-skincare]] [[acne]] [[anti-aging]]
 
 ## Sources
 

@@ -4001,3 +4001,29 @@
   source: the other topical JAK inhibitor with a chronic hand eczema indication; delgocitinib
     is already cited on fda-approved-vs-cleared-skincare as an NDA approval but has
     no product page
+- name: 'Pulsaderm Wrinkle Mask 28 (K163329, 510(k) Summary, Pulsaderm LLC, cleared
+    2017-04-14, product code OHS) - the red-light sibling of the already-covered Pulsaderm
+    Acne Mask 28; its filing is a Summary, so the basis is readable. Source: openFDA
+    device/510k applicant Pulsaderm + accessdata.fda.gov/cdrh_docs/pdf16/K163329.pdf'
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null
+- name: 'dpl II Panel (K171390, 510(k) Summary, LED Technologies Inc., cleared 2017-08-03,
+    product code OHS) - the 415 cm2 large-area panel that serves as a predicate in
+    the K172662 comparison chart (70.16 mW/cm2, 3 minutes per treatment). Source:
+    openFDA device/510k + accessdata.fda.gov/cdrh_docs/pdf17/K171390.pdf'
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null
+- name: 'dpl SpectraLite (K171386, 510(k) Summary, LED Technologies Inc., cleared
+    2017-08-07, product code OHS) - 28 cm2 predicate in the K172662 chart at 61.59
+    mW/cm2. Source: openFDA device/510k + accessdata.fda.gov/cdrh_docs/pdf17/K171386.pdf'
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null

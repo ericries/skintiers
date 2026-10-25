@@ -472,3 +472,12 @@
   source: manufacturer of ruxolitinib cream (Opzelura), which the site covers as a
     product; four authors of the pivotal hand-eczema trial are Incyte-affiliated and
     no brand page exists
+- name: 'Pulsaderm - LED device maker with 3 FDA clearances, all filed as 510(k) Summaries
+    (K163329 wrinkle mask, K170111 acne mask, K182501 hair laser headband). The site
+    already covers pulsaderm-acne-mask-28 but has no brand page to link it. Source:
+    openFDA device/510k applicant Pulsaderm'
+  type: brand
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null

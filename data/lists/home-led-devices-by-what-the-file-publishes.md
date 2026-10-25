@@ -1,0 +1,57 @@
+---
+aliases:
+- Home LED devices by disclosure
+- what LED brands actually publish
+- LED 510(k) Summary vs Statement
+- LED device transparency ranking
+analyzed: '2026-10-25'
+assurance: sonnet
+kind: best-of
+name: Home LED Devices by What the File Publishes, Not What the Box Claims
+slug: home-led-devices-by-what-the-file-publishes
+status: published
+type: list
+updated: '2026-10-25'
+---
+
+Every home LED device here is FDA-cleared, and clearance is not the question this page asks. The question is what the manufacturer put on the public record. Whether LED works at all is on [[home-led-light-therapy]], which colour has what evidence is on [[led-colours-for-acne-by-evidence]], and what the numbers mean is on [[led-dose-j-per-cm2-and-wavelength]].
+
+> **Two words in a database field decide whether you can check anything.** A 510(k) filing arrives as a **Summary**, which the regulation requires to be "in sufficient detail to provide an understanding of the basis for a determination of substantial equivalence", or as a **Statement**, which publishes nothing at all and instead certifies that the firm "will make available all information included in this premarket notification on safety and effectiveness within 30 days of request by any person".[^cfr] Both are legal. Only one lets you read anything today, and even the request route excludes trade secret and confidential commercial information.[^cfr]
+
+## Rung 1: publishes an actual dose
+
+**LED Technologies, one file out of fifteen.** The perioral clearance K172662 prints an Energy Level row: 67.7 mW/cm2 over a 24 cm2 treatment area at three minutes per treatment, alongside the same figures for three predecessor devices.[^k172662] Across every LED filing covered on this site, that is the only one that supplies a number: checked page by page, the others name the unit mW/cm2 inside an equivalence claim and never state a figure.[^k172662] The arithmetic it enables is worked through on [[led-dose-j-per-cm2-and-wavelength]], and the product page that carries it is [[revive-light-therapy-lux-lip-care]].
+
+**Why a Summary can legally leave the dose out.** The regulation lists what a Summary must contain, and the closest it comes to a dose is "the significant physical and performance characteristics of the device, such as device design, material used, and physical properties".[^cfr] Nothing in it names irradiance, treatment area or energy density. So a filing can satisfy the rule in full, as fifteen of these did, and still not tell you how much light the device delivers.
+
+## Rung 2: publishes the basis, but no dose
+
+**LED Technologies, the other fourteen; and Pulsaderm, all three.** openFDA records 15 clearances for LED Technologies and 3 for Pulsaderm, and every single one of the 18 is filed as a Summary.[^openfda] You can read the predicates, the standards and the testing descriptions. What you cannot read, in seventeen of those eighteen, is how much light the device delivers. [[dpl-spotlite]] is the clearest case: its file names no irradiance anywhere, and the unit mW/cm2 appears only inside an equivalence claim.
+
+**One applicant, two brand names.** Worth knowing before comparing them as rivals: the dpl and reVive Light Therapy ranges are filed by the same company. All 15 clearances list the applicant as LED Technologies, under device names including "dpl SpotLite", "dpl Faceware", "reVive Perioral" and "reVive Light Therapy Essentials".[^openfda] The brand pages are [[dpl]] and [[revive-light-therapy]].
+
+## Rung 3: publishes nothing
+
+**FOREO, eight of ten.** Of FOREO's 10 clearances, 8 are Statements and 2 are Summaries.[^foreo] The pattern is not random. Every FOREO light device aimed at the face is a Statement: the Espada blue light pen from 2016, the FAQ 101 and FAQ 102, the FAQ 201 and 202, and the FAQ LED Panel and Dual LED Panel cleared in February 2026.[^foreo] For each of those, the public file names no predicate, no wavelength and no testing, which is what [[foreo-espada-blue-light-pen]] and [[foreo-faq-led-masks]] are left to work around. Both Summaries are for devices outside that facial LED range, the FAQ 302 hair device and the Luna 4 plus.[^foreo]
+
+## What a good disclosure rung does not buy you
+
+**A readable file can still contain no evidence.** FOREO's one readable light-device Summary is the FAQ 302 hair device, and its testing section states that clinical testing was considered not to be needed.[^faq302] Transparency about the absence of evidence is better than opacity, and it is not evidence. The same holds across rung 2: a Summary that documents bench testing documents bench testing.
+
+**The ranking is about the manufacturer, not the product.** Every rung above is a company-level filing habit. It tells you how much you can check before buying, which is a real consumer good, and it says nothing about whether the light helps your skin. For that question the honest answer is on [[home-led-light-therapy]], and for the regulatory vocabulary, [[fda-approved-vs-cleared-skincare]].
+
+## See Also
+
+[[home-led-light-therapy]], [[led-colours-for-acne-by-evidence]], [[led-dose-j-per-cm2-and-wavelength]], [[fda-approved-vs-cleared-skincare]], [[revive-light-therapy-lux-lip-care]], [[dpl-spotlite]], [[foreo-espada-blue-light-pen]], [[foreo-faq-led-masks]], [[home-use-skincare-devices-by-evidence]].
+
+## Sources
+
+[^cfr]: Code of Federal Regulations, Title 21, Part 807, Subpart E, read from the Electronic CFR on 2026-10-25. Section 807.92(a) on the content and format of a 510(k) summary, quoted verbatim: a summary "shall be in sufficient detail to provide an understanding of the basis for a determination of substantial equivalence", and among the six required items is a device description including "an explanation of how the device functions, the scientific concepts that form the basis for the device, and the significant physical and performance characteristics of the device, such as device design, material used, and physical properties". Read in full, section 807.92 nowhere requires irradiance, treatment area or energy density, which is the basis for the observation above; 807.92(b) additionally requires a brief discussion of nonclinical tests for submissions where substantial equivalence rests on performance data. Section 807.93(a)(1) prescribes the exact certification text for a 510(k) statement, quoted verbatim: "I will make available all information included in this premarket notification on safety and effectiveness within 30 days of request by any person if the device described in the premarket notification submission is determined to be substantially equivalent", and 807.93(c) provides that the information given to requestors is "a duplicate of the premarket notification submission, including any adverse information, but excluding all patient identifiers, and trade secret and confidential commercial information". Both sections carry the source note 59 FR 64295, December 14 1994. https://www.ecfr.gov/current/title-21/chapter-I/subchapter-H/part-807/subpart-E/section-807.92 (accessed 2026-10-25)
+
+[^openfda]: openFDA device/510k API, queried 2026-10-25. The query by applicant "LED Technologies" returns 15 records, every one with statement_or_summary "Summary", applicant recorded as "Led Technologies, LLC" on the three oldest and "Led Technologies, Inc." thereafter, with decision dates from 2008-11-07 to 2022-12-21. Device names in those records span both consumer brands and include "DPL THERAPY SYSTEM", "DPL NUVE", "dpl II Panel", "dpl SpectraLite", "reVive Perioral", "dpl IIa Panel", "reVive Light Therapy LED Ultrasonic Wrinkle System", "reVive Light Therapy LED Cleansing System", "dpl SpotLite", "dpl Faceware", "reVive Light Therapy Essentials" (two records) and "reVive Light Therapy® Wrinkle and Acne LED Device". The query by applicant "Pulsaderm" returns 3 records, all "Summary", applicant "Pulsaderm, LLC": K163329 (2017-04-14, OHS), K170111 (2017-05-08, OLP) and K182501 (2018-10-26, OAP). openFDA search is by indexed field, so a differently spelled applicant could in principle be missed; a separate query for applicant "reVive" returns only one unrelated 1984 record, which is consistent with the reVive devices being filed under the LED Technologies name. https://api.fda.gov/device/510k.json?search=applicant:%22LED+Technologies%22 (accessed 2026-10-25)
+
+[^foreo]: openFDA device/510k API, queried by applicant "Foreo" on 2026-10-25. Returns 10 records, every one with applicant "Foreo, Inc.": 8 with statement_or_summary "Statement" and 2 with "Summary", unchanged from the same query on 2026-10-18 recorded at [[foreo-faq-led-masks]]. The eight Statements, in date order, are K162450 ESPADA Acne-Clearing Blue Light Pen (2016-11-30, product code OLP), K200803 BEAR and BEAR mini (2020-07-31, NFO), K222012 FAQ 101 (2023-04-05, PAY), K231977 PEACH 2, PEACH 2 Duo, PEACH 2 go (2023-09-25, OHT), K240378 FAQ 201, FAQ 202 (2024-04-19, OHS), K232242 BEAR 2 Body (2024-05-13, NFO), K240616 FAQ (102) (2024-07-15, PAY) and K253683 FAQ (LED Panel); FAQ (Dual LED Panel) (2026-02-20, OHS). The two Summaries are K241102 Luna 4 plus (2024-08-20, OHS) and K242747 FAQ (302) (2024-12-11, OAP). Device names appear in the API with a trademark character inside the FAQ ones, rendered above without it. The Statement-versus-Summary distinction described above is the 510(k) disclosure choice itself, not a judgement about any individual filing. https://api.fda.gov/device/510k.json?search=applicant:%22Foreo%22 (accessed 2026-10-25)
+
+[^k172662]: FDA 510(k) Summary K172662, LED Technologies, Inc. The Energy Level row of its predicate comparison chart gives 67.7 mW/cm2 over a 24 cm2 treatment area at three minutes per treatment for the subject device, against 62.07, 70.16 and 61.59 mW/cm2 for three predecessor devices with treatment areas of 30, 415 and 28 cm2. The full quoting context, including how the superscript renders in the extracted text, is set out on [[revive-light-therapy-lux-lip-care]] and the dose arithmetic is on [[led-dose-j-per-cm2-and-wavelength]] and neither is restated here. The claim above that this is the only LED filing covered on this site publishing an irradiance figure was checked on 2026-10-25 by searching every page in this repository for the string "mW/cm" and reading each hit in context. Outside the arithmetic page and this list, the hits are the product pages for dpl Faceware, dpl Nuve, dpl SpotLite, the reVive LED Cleansing System, the Lux Clinical and the Lux Lip Care, plus the NuBODY, which is a microcurrent device rather than an LED one and publishes current in microamps instead. In every LED case except the lip-care page the unit appears only inside an equivalence assertion with no figure attached, and the dpl Nuve page records that its filing contains no occurrence of mW/cm, irradiance, energy level or treatment area at all. That is a statement about the filings this site has read, not about every home LED clearance in existence. https://www.accessdata.fda.gov/cdrh_docs/pdf17/K172662.pdf (accessed 2026-10-25)
+
+[^faq302]: FDA 510(k) Summary K242747, the FAQ 302, Foreo, Inc., decision 2024-12-11. Under the heading for non-clinical testing the file states that clinical testing was considered not to be needed for the submission. The full treatment, including the regulation-name mismatch and the published energy-per-emitter figure, is on [[foreo-faq-302]] and is not repeated here. https://www.accessdata.fda.gov/cdrh_docs/pdf24/K242747.pdf (accessed 2026-10-25)
