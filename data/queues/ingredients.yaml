@@ -2716,3 +2716,16 @@
   status: pending
   discovered_from: null
   source: null
+- name: 'Minoxidil (topical, 2% and 5%) - the site covers hair-growth DEVICES (foreo-faq-302
+    and the queued Pulsaderm Hair Laser Headband, both cleared under product code
+    OAP for androgenetic alopecia) but has no page for the only widely available OTC
+    topical drug for the same indication, so those pages have nothing to link for
+    the drug comparison. Primary sources available: openFDA drug/ndc + drugsfda for
+    marketing category and application numbers, and DailyMed SPLs for the Drug Facts
+    claims. Surfaced by a detected Dr Aamna Adel video, ''Minoxidil 101'' (7MkXCDIOHuA),
+    which cannot be carded until this page exists. Source: openFDA + DailyMed'
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null

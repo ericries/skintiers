@@ -11581,7 +11581,8 @@
   conflict: does sponsorships - educational content only, never treat picks as endorsements, never use sponsored videos
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: Vague trend commentary on viral eye patches with no matching site page; MED-tier creator with a sponsorship conflict, so educational-only applies and this is not educational
 - id: 7MkXCDIOHuA
   title: 'Minoxidil 101: Guide To Maxxing Hair Growth | Dermatologist Adel'
   creator: Dr Aamna Adel
@@ -11802,7 +11803,8 @@
   conflict: Own-brand UPF sun-protective clothing line, SOUL-A (wearsoula.com / @wearsoula), founded and promoted by him — apparel, not topical skincare
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'Shorts-style hashtag-stuffed clip (#dermreacts #skincare #dermatologist #dermangelo), excluded by STEP 2; judged on title alone, no transcript needed'
 - id: PbIbAtkNvHo
   title: 'Worst tattoo ever??? #dermreacts  #skincare  #dermatologist #dermangelo  #reactionvideo'
   creator: Dr. Angelo Landriscina (DermAngelo)
