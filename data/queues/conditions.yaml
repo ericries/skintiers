@@ -589,3 +589,11 @@
   source: PMID 33934474 calls it a benign and self-limiting variant of seborrheic
     dermatitis; the site has a seborrheic-dermatitis hub but nothing on the infant
     form, which is where the self-limiting caveat matters most
+- name: Moccasin-type athlete's foot (plantar tinea pedis)
+  type: condition
+  priority: 5
+  status: pending
+  discovered_from: lamisil-at-cream-terbinafine-1
+  source: 'the sole-and-sides pattern that splits the two leading OTC antifungal creams:
+    Lamisil AT claims it with a two-week course, Lotrimin Ultra says effectiveness
+    there is unknown. No page covers the pattern itself'

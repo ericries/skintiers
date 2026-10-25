@@ -14445,3 +14445,33 @@ pollogen-stop-u-tripollar:
     (standing instruction not to spawn agents); assurance sonnet.'
   score: 9
   verdict: publish
+lamisil-at-cream-terbinafine-1:
+  last_reviewed: '2026-10-25'
+  note: 'PRODUCT fill tick. Duplication was the main risk: terbinafine''s evidence
+    is owned by the ingredient page, the class ranking by otc-antifungals-by-evidence,
+    and the label directions are already quoted on athletes-foot and tinea-cruris-jock-itch.
+    So the page links out for all of that and owns one genuinely new, actionable finding:
+    LAMISIL AT CLAIMS THE SOLE, LOTRIMIN ULTRA DOES NOT. Lamisil directs "on the bottom
+    or sides of the foot: apply twice a day ... for 2 weeks" while the butenafine
+    cream sold on the same prescription-strength framing says "Effectiveness on the
+    bottom or sides of foot is unknown". That is a concrete reason to pick one over
+    the other for the moccasin pattern and it was stated nowhere on the site. Graded
+    three rows to match that: both foot rows notable/solid, jock itch and ringworm
+    deliberately LOWER at modest/preliminary because the pooled evidence is foot-derived,
+    consistent with the tinea-cruris page. Regulatory check done rather than assumed:
+    openFDA gives NDA020980 for the cream, NDA021124 for the spray, and NDA021307
+    for Lotrimin Ultra, so BOTH are approved drugs and the "prescription strength"
+    carton claim is defensible. That also meant the NDA-vs-monograph angle was already
+    owned by the sibling page and is not re-argued here. Credited the brand for publishing
+    its own source on the #1-doctor-recommended claim (IQVIA ProVoice Survey) while
+    noting it measures recommendation, not efficacy. No price: brand site is a symptom-guide
+    with no storefront, and I did not consult a retailer. image_unresolvable set. 26
+    body quotes checked character-exact after excluding frontmatter (the YAML-escaped
+    doubled apostrophe was a scanner false positive); FIXED 2 non-verbatim packaging
+    quotes pre-publish by describing instead of quoting. Cross-linked the moccasin
+    gap FROM the Lotrimin page so a reader hitting the "nothing to grade" row is sent
+    to the product that does claim it. Zero Apify spend. lint/style/verify clean on
+    both pages. Main-loop self-verification stood in for the Opus critic subagent (standing
+    instruction not to spawn agents); assurance sonnet.'
+  score: 9
+  verdict: publish

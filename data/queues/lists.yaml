@@ -685,3 +685,11 @@
   source: K220322 reports a 100% human-factors success rate that reads like an efficacy
     figure but tests eligibility judgement; several device pages here now carry usability-only
     testing and nothing explains the distinction
+- name: Fungicidal versus fungistatic antifungals
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: lamisil-at-cream-terbinafine-1
+  source: Lamisil's marketing contrasts destroying the fungus with treating symptoms;
+    allylamines and azoles do differ on this, and nothing on the site explains whether
+    it changes cure rates

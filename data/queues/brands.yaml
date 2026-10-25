@@ -456,3 +456,11 @@
   source: 'the new product page sets brand: Pollogen with no brand page; the firm
     holds 18 FDA clearances, all published as Summaries, across home-use and professional
     lines'
+- name: Karo Healthcare
+  type: brand
+  priority: 5
+  status: pending
+  discovered_from: lamisil-at-cream-terbinafine-1
+  source: 'the new product page sets brand: Lamisil but the labeler of record is Karo
+    Healthcare Inc.; the firm now holds the Lamisil AT approvals and no brand page
+    exists'

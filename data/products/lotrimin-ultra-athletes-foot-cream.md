@@ -5,7 +5,7 @@ aliases:
 - Lotrimin Ultra AF
 - butenafine hydrochloride cream 1%
 - NDA021307
-analyzed: '2026-10-19'
+analyzed: '2026-10-25'
 assurance: sonnet
 brand: Lotrimin
 category: Antifungal
@@ -24,8 +24,9 @@ grades:
   evidence: anecdotal
   use: 'Athlete''s foot on the BOTTOM or SIDES of the foot: the label states plainly
     that "Effectiveness on the bottom or sides of foot is unknown", so there is nothing
-    to grade. This is the moccasin pattern, and the honest answer is to ask a clinician
-    rather than buy this for it'
+    to grade. This is the moccasin pattern. [[lamisil-at-cream-terbinafine-1]] does
+    claim that site, at a two-week course, which makes it the better-labelled choice
+    for it'
 - effect: notable
   evidence: solid
   use: 'Jock itch and ringworm: "cures most jock itch and ringworm", once a day for
@@ -37,7 +38,7 @@ name: Lotrimin Ultra Athlete's Foot Cream (butenafine hydrochloride 1%)
 slug: lotrimin-ultra-athletes-foot-cream
 status: published
 type: product
-updated: '2026-10-19'
+updated: '2026-10-25'
 ---
 
 Lotrimin Ultra is butenafine hydrochloride 1% cream from Bayer, and it is one of the few products on this site that is genuinely **FDA-approved** rather than sold under an OTC monograph.[^label] **Bottom line:** for athlete's foot between the toes it has the strongest regulatory footing of any antifungal covered here, and its own label tells you where that evidence stops. Active-ingredient evidence is on [[butenafine]].

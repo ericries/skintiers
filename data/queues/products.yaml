@@ -3297,7 +3297,7 @@
 - name: Lamisil AT Antifungal Cream (terbinafine 1%)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: lotrimin-ultra-athletes-foot-cream
   source: 'The other OTC antifungal in the same mechanistic family as butenafine,
     and the terbinafine ingredient page already exists with no product behind it.
@@ -3985,3 +3985,11 @@
   discovered_from: pollogen-stop-u-tripollar
   source: two of Pollogen's five PAY-code clearances, cleared 2024 and 2025 and distinct
     from the STOP U line; no page covers them
+- name: Lamisil AT Spray (terbinafine 1%, NDA021124)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: lamisil-at-cream-terbinafine-1
+  source: a separate FDA approval from the cream (NDA021124 vs NDA020980), listed
+    in 120 g cans; the site covers no antifungal spray and the format changes how
+    the dose reaches the skin
