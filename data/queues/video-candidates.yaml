@@ -11087,19 +11087,6 @@
   feed_rank: 0
   status: skipped
   skip_reason: comment-to-DM funnel ('Comment DPP to watch'), a standing exclusion
-- id: thc_uSsMoeQ
-  title: '#191) Decoding Peptides with DECIEM''s Rita Silva: What Does the Science Say? | Chemist Confessions'
-  creator: Chemist Confessions (Victoria Fu and Gloria Lu)
-  creator_slug: victoria-fu
-  credential: Cosmetic chemists
-  channel: https://www.youtube.com/@chemistconfessions/videos
-  platform: YouTube
-  tier: HIGH
-  product_recs: null
-  conflict: sell a small own-brand product line - skip own-brand promos
-  posted: ''
-  feed_rank: 0
-  status: pending
 - id: '7694648355984575757'
   title: Love a simple Ulta run 🛍️ @byoma @method products @Sally Hansen @Magi...
   creator: Ella (@your.estie.ella)
@@ -12459,19 +12446,6 @@
   posted: '2026-10-13'
   feed_rank: 1
   status: pending
-- id: E7wMX9WVv0k
-  title: 'How To Prevent Skin Cancer | Dermatologist Dr. Kormeili '
-  creator: Tanya Kormeili, MD, FAAD
-  creator_slug: tanya-kormeili-md
-  credential: Board-certified dermatologist (American Board of Dermatology), FAAD, Clinical Professor of Dermatology at UCLA David Geffen School of Medicine; MD UCLA, residency UC Irvine
-  channel: https://www.youtube.com/channel/UCRK0TPthymHl44WeA0nZ6Mw
-  platform: YouTube
-  tier: HIGH
-  product_recs: restricted
-  conflict: Runs an own-brand practice storefront (Derm Rejuvenation Institute, Shopify); treat specific product picks as commercially incentivized.
-  posted: ''
-  feed_rank: 0
-  status: pending
 - id: k3WLPAdQ90I
   title: 'Pigmentation treatment '
   creator: Tanya Kormeili, MD, FAAD
@@ -13561,19 +13535,6 @@
   posted: ''
   feed_rank: 0
   status: pending
-- id: U0q3s4_xqt8
-  title: Why Over Exfoliating Can Hurt Your Skin! - Dermatologist explains
-  creator: Dr. Laura Soong
-  creator_slug: laura-soong
-  credential: Board-certified dermatologist
-  channel: https://www.youtube.com/channel/UCmc3iF83jLuk_VaqEaNMivQ/videos
-  platform: YouTube
-  tier: HIGH
-  product_recs: restricted
-  conflict: null
-  posted: ''
-  feed_rank: 1
-  status: pending
 - id: 4-0xcbYI_0c
   title: COLD SORES - HOW TO TREAT AND PREVENT THEM - DERMATOLOGIST EXPLAINS
   creator: Dr. Laura Soong
@@ -14369,8 +14330,99 @@
   posted: ''
   feed_rank: 0
   status: pending
-- id: '7699895390161669389'
-  title: Don’t wait until it’s already a problem to do something about it!!  @...
+- id: '7700330502644829470'
+  title: I get this question all the time ‼️🍼💉 Filler won’t get into your brea...
+  creator: Dr. Aegean Chan
+  creator_slug: aegean-chan
+  credential: Board-certified dermatologist
+  channel: https://www.tiktok.com/@draegeanchan
+  platform: TikTok
+  tier: HIGH
+  product_recs: restricted
+  conflict: Founder/owner of active postpartum skincare brand "More Than Nine" (cleanser, exfoliator, moisturizer, balm) — an ongoing own-bran
+  posted: '2026-10-24'
+  feed_rank: 0
+  status: pending
+- id: Bk5lSp6wYYA
+  title: Are You Applying Tretinoin WRONG? Dermatologist Answers Your Skincare Questions
+  creator: Andrea Suarez (Dr Dray)
+  creator_slug: andrea-suarez-dr-dray
+  credential: Board-certified dermatologist
+  channel: https://www.youtube.com/@DrDrayzday/videos
+  platform: YouTube
+  tier: HIGH
+  product_recs: null
+  conflict: null
+  posted: ''
+  feed_rank: 0
+  status: pending
+- id: '7700333720561028365'
+  title: 'It’s just not for me! 🤷‍♂️ #sunscreen #doctor #dermatologist '
+  creator: Dr. Chris Tomassian
+  creator_slug: chris-tomassian
+  credential: Board-certified dermatologist
+  channel: https://www.tiktok.com/@dr.tomassian
+  platform: TikTok
+  tier: MED
+  product_recs: ok
+  conflict: Bio includes a business/booking contact email suggesting managed brand partnerships; no confirmed own-brand line or affiliate stor
+  posted: '2026-10-24'
+  feed_rank: 0
+  status: pending
+- id: fmYz2YYAI7g
+  title: 5 Skincare Products I Wouldn't Buy Again (And What I'd Use Instead)
+  creator: Dr. Daniel Sugai
+  creator_slug: daniel-sugai
+  credential: Board-certified dermatologist
+  channel: https://www.youtube.com/@danielsugaimd/videos
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Chief Medical Officer of hair-growth-serum brand REYUS; advisory-board member of Bubble Skincare; periodic disclosed paid brand partnerships
+  posted: ''
+  feed_rank: 0
+  status: pending
+- id: '7700255798361853198'
+  title: 'Acne-prone skin approved toner pad list: @Dr.Althea US 2% Salicylic A...'
+  creator: Kristin Leite (kristingl)
+  creator_slug: kristin-leite
+  credential: Beauty product developer and skincare educator (NOT a dermatologist or cosmetic chemist)
+  channel: https://www.tiktok.com/@kristingl
+  platform: TikTok
+  tier: MED
+  product_recs: null
+  conflict: runs an Amazon affiliate storefront and does sponsored posts - strongly prefer educational / how-to / ingredient-explainer videos; be very cautious with any product recommendation
+  posted: '2026-10-24'
+  feed_rank: 0
+  status: pending
+- id: '7700265313312591135'
+  title: 🖇️ Comment MAKEUP to get my full makeup routine! As a skin longevity ...
+  creator: Dr. Sheila Farhang (dr.sheila_derm)
+  creator_slug: sheila-farhang
+  credential: Board-certified dermatologist
+  channel: https://www.tiktok.com/@dr.sheila_derm
+  platform: TikTok
+  tier: HIGH
+  product_recs: restricted
+  conflict: Self-describes as a "Key Opinion Leader for industry beauty companies" (per her own practice bio) and most sampled TikTok videos e; no YouTube; TikTok/IG intake
+  posted: '2026-10-24'
+  feed_rank: 0
+  status: pending
+- id: c6G0kjKQNGw
+  title: What I’m Doing About My Own Under-Eyes as I Get Older | Dr. Idriss
+  creator: Dr. Shereene Idriss
+  creator_slug: shereene-idriss
+  credential: Board-certified dermatologist
+  channel: https://www.youtube.com/@ShereeneIdriss/videos
+  platform: YouTube
+  tier: HIGH
+  product_recs: null
+  conflict: runs the PillowtalkDerm brand - skip videos mainly promoting her own products
+  posted: ''
+  feed_rank: 0
+  status: pending
+- id: '7700315937701989646'
+  title: Yes, you still need sunscreen in the fall ☀️🍁 Testing the @Bask Milky...
   creator: Ella (@your.estie.ella)
   creator_slug: your-estie-ella
   credential: Licensed esthetician (NOT a dermatologist or cosmetic chemist)
@@ -14379,6 +14431,19 @@
   tier: MED
   product_recs: ok
   conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan and reject any sponsored/affiliate/gifted video
-  posted: '2026-10-23'
+  posted: '2026-10-24'
   feed_rank: 0
+  status: pending
+- id: '7700234122601516302'
+  title: Perfect skincare routine does not equal perfect skin 100% of the time...
+  creator: Ella (@your.estie.ella)
+  creator_slug: your-estie-ella
+  credential: Licensed esthetician (NOT a dermatologist or cosmetic chemist)
+  channel: https://www.tiktok.com/@your.estie.ella
+  platform: TikTok
+  tier: MED
+  product_recs: ok
+  conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan and reject any sponsored/affiliate/gifted video
+  posted: '2026-10-24'
+  feed_rank: 1
   status: pending
