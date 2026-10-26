@@ -501,3 +501,13 @@
   status: pending
   discovered_from: null
   source: null
+- name: 'Krave Beauty - founded by Liah Yoo (verify from the brand''s own about page
+    before stating it). Sells a 31-product catalogue direct, and the site now covers
+    krave-beauty-matcha-hemp-hydrating-cleanser with no brand page to link it. Its
+    products.json endpoint is readable, so price and claims need no metered lookup.
+    Source: kravebeauty.com/products.json'
+  type: brand
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null

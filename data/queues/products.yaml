@@ -3371,7 +3371,7 @@
 - name: Krave Beauty Matcha Hydrating Cleanser
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: your-estie-ella
   source: Surfaced by a TikTok clip from the credibility-vetted esthetician Ella (@your.estie.ella,
     id 7696917484347198733, 2026-10-15, 343s) whose caption says 'I'm not sure I'd
@@ -3381,6 +3381,9 @@
     from the brand site. Her critique is a first-impression opinion, not evidence;
     the page should be graded on composition and any real evidence, and may cite her
     view as a creator opinion only after the sponsorship scan is re-run on the clip.
+    Shipped as krave-beauty-matcha-hemp-hydrating-cleanser. Real product name includes
+    Hemp (Matcha-Hemp Hydrating Cleanser). Price and all brand claims came from the
+    store's own products.json endpoint, so no Apify call was needed; cached at research-cache/web/491594f61f8d38ba.md.
 - name: Tria FANp / Tria Age-Defying Laser (K141868, 1450 nm home fractional laser)
   type: product
   priority: 5

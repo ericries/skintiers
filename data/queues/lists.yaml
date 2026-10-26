@@ -748,3 +748,16 @@
   status: pending
   discovered_from: null
   source: null
+- name: 'Gentle cleansers by surfactant system, not by claim - rank the cleansers
+    the site covers by what actually does the washing (sulfate-free glucoside and
+    amphoteric blends versus SLS/SLES), since contact time means a cleanser''s actives
+    mostly cannot act and the surfactant choice is the part that matters. Grounded
+    in krave-beauty-matcha-hemp-hydrating-cleanser (coco-betaine, coco-glucoside,
+    decyl glucoside, sodium cocoyl isethionate, no sulfates) and cerave-hydrating-facial-cleanser,
+    both of which exist. Source: incidecoder INCI listings for the cleansers already
+    on the site'
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null

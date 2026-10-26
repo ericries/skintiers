@@ -2789,3 +2789,25 @@
   status: pending
   discovered_from: null
   source: null
+- name: 'Green tea extract / Camellia Sinensis (EGCG) - leads the INCI on krave-beauty-matcha-hemp-hydrating-cleanser
+    as Camellia Sinensis Leaf Water with Leaf Powder at position 14, and ''matcha''
+    marketing is widespread across cleansers and serums, yet there is no page. The
+    honest framing is already set: a real antioxidant literature, essentially none
+    of it on rinse-off products. Source: pubmed for topical EGCG + incidecoder INCI
+    listings'
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null
+- name: 'Hemp seed oil (Cannabis Sativa seed oil) - named in the product name of krave-beauty-matcha-hemp-hydrating-cleanser
+    and credited by the brand with barrier strengthening. Linoleic-rich, so it slots
+    directly into the linoleic-to-oleic ratio argument already built on olive-oil
+    and queued for the plant-oils list; USDA FoodData Central can supply the fatty-acid
+    profile the same way it did there. Source: fdc.nal.usda.gov + pubmed.ncbi.nlm.nih.gov/28707186
+    (Vaughn 2018 ratio rule)'
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null
