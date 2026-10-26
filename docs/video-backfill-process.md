@@ -53,6 +53,24 @@ this line). Do NOT "correct" it back to a real number; a
 new upload is Track 1's job, not Track 2's. A proper `backfill_done: true` flag
 would be clearer and is still unbuilt.
 
+## The subtitle 429 is bypassable: pass browser cookies
+
+Before deferring anything for a 429, try cookies. `yt_transcript.py` honours
+`YTDLP_COOKIES_FROM_BROWSER`, and the TikTok-pull cron sets it while the YouTube
+pull, scan and backfill crons do not. Verified 2026-10-26 on one video: the
+default call returned HTTP 429, `--extractor-args "youtube:player_client=tv"`
+returned "The page needs to be reloaded", and `--cookies-from-browser chrome`
+downloaded the full subtitle track.
+
+    YTDLP_COOKIES_FROM_BROWSER=chrome .venv/bin/python scripts/yt_transcript.py <id> --ignore-cooldown
+
+`--ignore-cooldown` is needed when an earlier cookie-less attempt already armed
+the script's ~30 minute global cooldown. This supersedes the older belief that
+cookies never helped for YouTube; re-test it rather than trusting either claim.
+
+The deferred list below was built during the 2026-10-25 block, before this was
+known. Those three are still worth carding, and they no longer need to wait.
+
 ## Deferred candidates: vetted, popularity-checked, blocked only on a transcript
 
 A second way a creator jams the selector: the slice yields genuinely good
