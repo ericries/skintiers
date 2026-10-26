@@ -769,3 +769,16 @@
   status: pending
   discovered_from: null
   source: null
+- name: 'Comedogenicity ratings and why they are unreliable - the comedogenicity charts
+    circulating online trace largely to Fulton 1984''s rabbit-ear assay (PMID 6229554),
+    whose own authors call it ''not an ideal animal model but is the best we have'',
+    and to the 2007 Maibach retest (PMID 18058303) which covered only a dozen materials.
+    The site now has ethylhexyl-palmitate documenting exactly this provenance problem,
+    plus olive-oil, squalane, shea-butter and petrolatum to rank. A list explaining
+    what the ratings are and are not would stop every ingredient page re-arguing it.
+    Source: pubmed.ncbi.nlm.nih.gov/6229554 + pubmed.ncbi.nlm.nih.gov/18058303'
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null

@@ -1641,3 +1641,15 @@
   status: pending
   discovered_from: null
   source: null
+- name: 'Fulton 1984: comedogenicity of therapeutic products, cosmetics and ingredients
+    in the rabbit ear (JAAD 1984;10(1):96-105, PMID 6229554) - the single origin of
+    nearly every comedogenicity rating in circulation, now cited on ethylhexyl-palmitate.
+    Worth a study page because the paper is far more hedged than its reputation: ''not
+    an ideal animal model but is the best we have'', no numeric scores, scale, sample
+    size, duration or statistics in the abstract, and its offender list is by raw
+    ingredient rather than finished formula. Source: pubmed.ncbi.nlm.nih.gov/6229554'
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null

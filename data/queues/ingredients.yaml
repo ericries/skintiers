@@ -1647,9 +1647,16 @@
     benefit
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
-  source: https://incidecoder.com/ingredients/ethylhexyl-palmitate
+  source: 'https://incidecoder.com/ingredients/ethylhexyl-palmitate Shipped as ethylhexyl-palmitate,
+    tier weak, which matches the queue note''s own read (cosmetic, no active benefit).
+    The substantive finding: its comedogenic reputation traces to ONE paper, Fulton
+    1984''s rabbit-ear survey, where it appears under its old name octyl palmitate
+    (identity confirmed via PubChem CID 62851 synonyms), and Fulton himself calls
+    the rabbit ear ''not an ideal animal model but is the best we have''. The 2007
+    Maibach retest of a dozen esters does NOT include it, confirmed by string search.
+    No CIR assessment was accessible (403), so the page makes no safety claim.'
 - name: 'Dupilumab (injectable anti-IL-4Ra monoclonal antibody biologic; approved
     for atopic dermatitis and prurigo nodularis; prescription systemic treatment,
     not topical; source: Kim 2026 LIBERTY-PN PMID 41219577)'
@@ -2828,6 +2835,28 @@
     melasma/pigment actives the hub cannot link, and it appears across the K-beauty
     and The Ordinary catalogues the site already covers. Source: pubmed for arbutin
     melasma RCTs + incidecoder INCI listings'
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null
+- name: 'Cetyl ethylhexanoate - the OTHER emollient ester that pairs with ethylhexyl
+    palmitate as the cleansing-oil base; named as the second lead on banila-co-clean-it-zero-cleansing-balm-original
+    and heimish-all-clean-balm, both of which say the formula opens with those two
+    together. No page, while ethylhexyl-palmitate now has one, so the balm pages can
+    only link half their base. Expect the same honest verdict: cosmetic solvency,
+    no active benefit, tier weak. Source: PubChem + incidecoder INCI listings for
+    the balms already on the site'
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null
+- name: 'C12-15 alkyl benzoate - light ester emollient named alongside ethylhexyl
+    palmitate in neutrogena-rapid-wrinkle-repair-retinol-serum''s base, and the subject
+    of a 2025 Toxicol Sci dermal absorption and metabolism study in human skin in
+    vitro (PMID 40504031, Finsolv TN), which is unusually real primary data for a
+    texture ester. No page yet. Source: pubmed.ncbi.nlm.nih.gov/40504031 + PubChem'
   type: ingredient
   priority: 5
   status: pending
