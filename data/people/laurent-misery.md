@@ -1,17 +1,17 @@
 ---
-analyzed: '2026-10-22'
+analyzed: '2026-10-26'
 assurance: sonnet
 expertise: Sensitive skin, itch and the neurobiology of skin sensation
 name: Laurent Misery, MD
 slug: laurent-misery
 status: published
 type: person
-updated: '2026-10-22'
+updated: '2026-10-26'
 ---
 
 Laurent Misery is a dermatologist in the Department of Dermatology at CHU Brest in France, the affiliation recorded on his papers from 2017 through to October 2026.[^ifsi][^recent]
 
-He matters to this site for one specific contribution: he is first author of the expert position paper in which a special interest group of the International Forum for the Study of Itch produced, by Delphi consensus, the formal definition of sensitive skin.[^ifsi] That definition is quoted in full and worked through on [[sensitive-skin]], including the three consequences that follow from it being built out of sensations rather than visible signs.
+He matters to this site for one specific contribution: he is first author of the expert position paper in which a special interest group of the International Forum for the Study of Itch produced, by Delphi consensus, the formal definition of sensitive skin.[^ifsi] That definition is quoted in full and worked through on [[sensitive-skin]], including the three consequences that follow from it being built out of sensations rather than visible signs. A co-author on that paper, [[esther-brenaut]], shares his Brest affiliation and has continued on the same question.
 
 Nothing else about his roles or affiliations is stated here, because the publication record is the only source consulted.
 

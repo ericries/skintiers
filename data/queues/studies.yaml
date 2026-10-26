@@ -1616,3 +1616,15 @@
   status: pending
   discovered_from: null
   source: null
+- name: 'Misery 2017: IFSI expert position paper defining sensitive skin (Acta Derm
+    Venereol 2017;97(1):4-6, PMID 26939643) - the Delphi-consensus DEFINITION that
+    sensitive-skin quotes in full and that both laurent-misery and esther-brenaut
+    point to, with no study page of its own. Worth one because the definition is built
+    from sensations rather than visible signs, which is the fact every sensitive-skin
+    product claim has to be read against. 12 authors across the IFSI special interest
+    group. Source: pubmed.ncbi.nlm.nih.gov/26939643'
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null

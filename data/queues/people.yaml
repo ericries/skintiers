@@ -373,7 +373,7 @@
 - name: Esther Brenaut
   type: person
   priority: 5
-  status: pending
+  status: done
   discovered_from: laurent-misery
   source: 'Co-author on the IFSI sensitive-skin consensus paper (PMID 26939643) alongside
     Laurent Misery, with the same Brest dermatology affiliation recorded on that paper.
@@ -381,4 +381,9 @@
     literature in her own right; CHECK THAT FIRST with a PubMed author search and
     drop this item if she is a single-paper co-author, because a person page per co-author
     is not useful. Same living-person discipline as laurent-misery: verify any affiliation
-    from a RECENT record rather than the 2017 paper, and assert no rank or title.'
+    from a RECENT record rather than the 2017 paper, and assert no rank or title.
+    Shipped as esther-brenaut, 130 words. Credential deliberately NOT asserted: PubMed
+    records her affiliations (LIEN Univ Brest; Dermatology Department, University
+    Hospital of Brest) but no degree, and a departmental affiliation is not evidence
+    of a medical degree. If a primary source for her credential is found later (institution
+    staff page or a journal byline carrying degrees), the page can be upgraded.'
