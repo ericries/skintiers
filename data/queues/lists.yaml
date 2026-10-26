@@ -736,3 +736,15 @@
   status: pending
   discovered_from: null
   source: null
+- name: 'OTC antifungal brands by what the sub-brand actually tells you - grounded
+    in the verified finding that the Lotrimin name spans FOUR actives (clotrimazole,
+    miconazole, butenafine under Ultra, tolnaftate under Daily Prevention), that ''Lotrimin
+    AF'' is printed on a clotrimazole carton while being registered against miconazole,
+    and that ''Lotrimin Antifungal'' is registered against both. The site already
+    covers lotrimin-af-antifungal-cream, lotrimin-ultra-athletes-foot-cream and lamisil-at-cream-terbinafine-1.
+    Source: openFDA drug/ndc brand_name queries'
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null

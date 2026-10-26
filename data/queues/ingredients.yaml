@@ -2769,3 +2769,23 @@
   status: pending
   discovered_from: null
   source: null
+- name: 'Miconazole nitrate - the azole in the Lotrimin AF range and in Monistat,
+    with NO page while its sibling clotrimazole has one; needed so the Lotrimin AF
+    collision documented on lotrimin-af-antifungal-cream can link both actives. Grade
+    against the same Cochrane foot-infection evidence the clotrimazole page uses,
+    where the azoles trail the allylamines. Source: openFDA drug/ndc + DailyMed SPLs'
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null
+- name: 'Tolnaftate - the active in Lotrimin Daily Prevention (10 mg/g, OTC monograph
+    M005, Bayer) and in Tinactin, which the site already covers as a product; no ingredient
+    page yet. It is the only one of the four Lotrimin actives marketed for PREVENTION
+    rather than cure, which is a distinct claim worth grading. Source: openFDA drug/ndc
+    brand_name Lotrimin'
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null

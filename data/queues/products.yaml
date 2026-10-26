@@ -3350,16 +3350,24 @@
     SKU, if it exists)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: lotrimin-af-antifungal-cream
-  source: RESOLVE WHETHER THIS EXISTS before drafting. The clotrimazole SKU at NDC
+  source: 'RESOLVE WHETHER THIS EXISTS before drafting. The clotrimazole SKU at NDC
     11523-6549 claims ONLY ringworm in its Uses section and its display panel is coded
-    'Lotrimin RW 6549', despite the AF brand name. Query DailyMed spls.json?drug_name=lotrimin
-    and enumerate every Bayer clotrimazole setid to find whether a separate athlete's-foot-labelled
+    ''Lotrimin RW 6549'', despite the AF brand name. Query DailyMed spls.json?drug_name=lotrimin
+    and enumerate every Bayer clotrimazole setid to find whether a separate athlete''s-foot-labelled
     clotrimazole SKU exists with a different NDC and a broader Uses section. If it
     does, that completes the brand-confusion story; if it does NOT, that is a stronger
     finding and belongs on lotrimin-af-antifungal-cream and athletes-foot rather than
-    as a new page. Do not assume either outcome.
+    as a new page. Do not assume either outcome. ANSWERED: it does not exist. The
+    queue asked ''if it exists'' and the FDA directory says no. There is no athlete''s-foot-labelled
+    clotrimazole Lotrimin SKU: the clotrimazole carton (NDC 11523-6549, already covered
+    at lotrimin-af-antifungal-cream) claims ringworm ONLY and is coded ''Lotrimin
+    RW 6549'', while the athlete''s-foot-labelled Lotrimin products are either butenafine
+    (Lotrimin Ultra Athletes Foot, NDA021307, covered) or miconazole (the Lotrimin
+    AF range). Serviced the tick by correcting that existing page instead. Caveat
+    recorded on the page: openFDA indexes currently listed products, so a discontinued
+    AF clotrimazole athlete''s-foot SKU from an earlier year is not ruled out.'
 - name: Krave Beauty Matcha Hydrating Cleanser
   type: product
   priority: 5
@@ -4089,6 +4097,18 @@
     ''the world''s best feeling sunscreen'', which she declines to endorse. No page
     exists and the site has best-mineral-sunscreens-by-evidence to place it on. Source:
     Ella - Bask Milky Mineral test (video, 7700315937701989646)'
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null
+- name: 'Lotrimin AF Antifungal Cream (MICONAZOLE nitrate 2%) - the OTHER product
+    sold under the Lotrimin AF name, and the reason the AF suffix does not identify
+    the active. openFDA lists MICONAZOLE NITRATE 20 mg/g under brand names ''Lotrimin
+    AF'', ''Lotrimin AF Jock Itch'' and ''Lotrimin AF Deodorant'', all OTC MONOGRAPH
+    DRUG M005, Bayer. Pairs directly with the clotrimazole page at lotrimin-af-antifungal-cream,
+    which now documents the collision. Source: openFDA drug/ndc brand_name Lotrimin
+    + DailyMed'
   type: product
   priority: 5
   status: pending
