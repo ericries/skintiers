@@ -54,6 +54,16 @@ videos:
   related: [moisturizing, hyaluronic-acid]
   thesis: 'Skincare educator Kristin Leite explains that oily skin does not necessarily need only super-lightweight products. Her point is that oily skin still needs a balance of hydration (water content) and moisture (oil content), and that the right textures depend on the person and the climate: she reaches for gel creams in humid New York summers but thicker creams in dry winters. The practical takeaway is not to box oily skin into a lightweight-only routine, especially if that approach is not working.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: If your skin isn't clean, your products won't work
+  creator: Ella (@your.estie.ella)
+  creator_slug: your-estie-ella
+  credential: Licensed esthetician (NOT a dermatologist or cosmetic chemist)
+  platform: TikTok
+  url: https://www.tiktok.com/@your.estie.ella/video/7700624765488319757
+  posted: '2026-10-25'
+  related: [double-cleansing, blackheads-clogged-pores, acne, azelaic-acid, retinoids, sunscreen-uv-filters]
+  thesis: 'Licensed esthetician Ella argues that most people rush facial cleansing, and that throwing a cleanser on for twenty seconds and rinsing it away is not really washing the face. Her frequency guidance is by skin type: oily skin or clogged pores means cleansing twice a day, dry skin without clogging can skip the morning cleanse, and waking up oily or sweating overnight moves you back to twice daily. She presents the clip''s own run time of under two minutes as the duration to aim for, and notes separately that she works a cleanser in for about five minutes because she enjoys it rather than as a general rule; her framing that unclean skin stops products working is her own and no evidence is offered for it in the clip.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
