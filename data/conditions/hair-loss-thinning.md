@@ -211,6 +211,18 @@ videos:
     who specialises in it.'
   title: Minoxidil Hacks for Faster, Long Lasting Results
   url: https://www.youtube.com/watch?v=vpK-ptQ5n0Y
+- title: 'Minoxidil 101: how to use it properly'
+  creator: Dr Aamna Adel
+  creator_slug: aamna-adel
+  credential: Consultant dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=7MkXCDIOHuA
+  posted: '2026-10-11'
+  related: [microneedling, ketoconazole, pcos]
+  thesis: 'Consultant dermatologist Dr Aamna Adel runs through how topical minoxidil is meant to be used, and most of the video is technique rather than product choice: apply it to a dry scalp rather than wet hair, part the hair and get it onto the skin rather than the strands, and use it once or twice daily without breaks, because stopping reverses any regrowth over the following months. She describes minoxidil as working by widening blood vessels and extending the growth phase of the hair cycle, which is the conventional explanation, and is clear that it does not create new follicles. On formats she says foam avoids the propylene glycol that makes the liquid irritating, and that the old split of 2 percent for women and 5 percent for men is outdated, with 5 percent giving faster results in most studies at the cost of more irritation; she names Kirkland as the budget option and says the active matters rather than the packaging. She also warns that shedding at roughly weeks two to eight is
+    expected rather than a reason to quit, and that sudden or patchy loss needs a doctor rather than a bottle.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Hair loss is common and usually falls into one of two patterns. Androgenetic alopecia (male or female pattern hair loss) is genetically driven miniaturization of follicles, "the most common type of diffuse thinning of the hair and balding that occurs in adult males," with a similar but less severe pattern in women.[^mphl] Telogen effluvium is a different mechanism: a temporary shift of hair follicles into their resting phase after a physical or emotional shock, causing diffuse shedding 2 to 4 months later that usually reverses on its own.[^te] Skincare products sit at the edge of what can help here; most of the real treatment options are medical.

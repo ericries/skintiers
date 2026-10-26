@@ -11210,7 +11210,8 @@
   conflict: null
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: Dollar Tree store-brand survey, not single-topic and no matching page. Products are store brands (Dermasil, Global Beauty Care, Be Pure, Spa Luxury) that the site does not cover, most are described rather than precisely named, and the auto-captions garble the main brand three ways (Dermacel / Dermasil / dermis all), so enumeration would require guessing. Sponsorship scan was clean
 - id: GCpxwJrAcKc
   title: 'Dermatologist’s EXTENDED Skincare Routine (Sponsored) #skincare #skincareroutine #dermatologist'
   creator: Dr. Angelo Landriscina (DermAngelo)
@@ -12623,7 +12624,8 @@
   conflict: null
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'Gifted product present, which STEP 3b rejects at video level. Transcript discloses at least three PR items: ''Kiehl''s sent me a body wash'', ''Vaseline, they send me PR'', and a hand cream with ''They sent this to me. As you guys know, I''m on their PR list.'' Note her treatment is critical and openly disclosed, so this is a rule-conformance rejection rather than a credibility finding'
 - id: urJ5G1mE0Xo
   title: '“you don’t need botox” #dermreacts  #skincare  #dermatologist #dermangelo'
   creator: Dr. Angelo Landriscina (DermAngelo)

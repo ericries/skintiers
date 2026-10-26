@@ -32,7 +32,7 @@
   tier: HIGH
   channel: https://www.youtube.com/@DrDrayzday/videos
   conflict: null
-  last_pulled: '2026-10-23'
+  last_pulled: '2026-10-26'
 - name: Dr. Muneeb Shah (DermDoctor)
   creator_slug: muneeb-shah
   backfill_cursor: 9999
@@ -196,7 +196,7 @@
   channel: https://www.youtube.com/@DrAamnaAdel/videos
   product_recs: restricted
   conflict: Founder of own-brand haircare line (Rhute); TikTok Shop affiliate/product storefront; recurring disclosed sponsored posts (No7, La Roche Pos
-  last_pulled: '2026-08-30'
+  last_pulled: '2026-10-26'
 - name: Esther Olu (The Melanin Chemist)
   creator_slug: esther-olu
   credential: Cosmetic chemist
