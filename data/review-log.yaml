@@ -4560,24 +4560,11 @@ melanoma:
   score: 9
   verdict: publish
 melasma:
-  last_reviewed: '2026-08-10'
-  note: 'Melasma condition hub (visible-light protection first; graded topical actives + honest relapse/procedure
-
-    limits). Daily CONDITION cron (Sonnet draft + Opus critic). 11 PubMed/PMC primaries, reusing vetted
-
-    citations from the sibling ingredient pages. Critic re-fetched Handel 2014, Castanedo-Cazares 2014
-
-    (iron-oxide-vs-UV RCT), Del Rosario 2018 and confirmed every quote/stat verbatim. Verdict
-
-    revise-then-publish: fixed a load-bearing conflation (two unrelated Handel sentences were bridged into an
-
-    implied causal PIH-after-procedures claim) -> now two separate sentences; also folded kojic acid + cysteamine
-
-    into the tier_list (minimal) and added azelaic''s older/smaller-trials caveat. assurance=sonnet. lint/verify/style clean.
-
-    '
+  last_reviewed: '2026-10-26'
   score: 9
-  verdict: revise-then-published
+  verdict: publish
+  note: 'LIST tick serviced as maintenance on an existing hub, not a new page. Used sk find first: melasma treatments by evidence is already owned by this 1923-word hub, which carries a tier_list on exactly that axis, and two pigment lists already exist (best-products-dark-spots-hyperpigmentation, best-hydroquinone-free-brightening-products), so a fourth page would have fragmented the topic. Found the real gap instead: thiamidol had ZERO mentions in the hub''s tier_list or prose despite a 2080-word thiamidol page carrying melasma RCT evidence. Added at tier moderate, and the grade is deliberately NOT strong: the head-to-head beating hydroquinone is real but PubMed records every author except the contract-research organisation as Beiersdorf, which developed and sells the ingredient, the one fully vehicle-controlled trial shows no edge on patient-rated outcomes or instrument-measured colour, and the only independent human study is ten women with no control arm. Spot-verified the load-bearing
+    statistic against the real source rather than trusting the thiamidol page: fetched PMID 30825454 and confirmed the 79% versus 61% sentence and the no-worsening-versus-10% sentence character-exact, along with the split-face design and the Beiersdorf affiliations. All 6 newly introduced quoted strings verified. Also recorded tretinoin and glycolic-acid in tier_list_reviewed as considered-and-excluded, with reasons, so the maintenance flag self-clears instead of re-firing: tretinoin''s own page has one incidental melasma mention and no melasma trial, and a glycolic peel is a procedure this hub already routes out of scope. No Apify call.'
 melasma-in-pregnancy:
   last_reviewed: '2026-09-13'
   note: 'Condition hub: chloasma/mask of pregnancy. Opus critic verified all classifications vs 3 PMC reviews (Zhao 2024 postpartum-fade + iron-oxide photoprotection, Ly 2023 azelaic safe all trimesters, Bozzo 2011 hydroquinone 35-45%/retinoids avoid). Critic caught+fixed an isotretinoin-teratogen claim misattributed to Bozzo (re-sourced to DailyMed). tier_list first-line/avoid; niacinamide/vitC omitted (no pregnancy source). Links out to melasma + pregnancy-safe-skincare. Mandatory disclaimer. Dash-free; lint/verify/style clean.'

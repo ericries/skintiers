@@ -1,5 +1,5 @@
 ---
-analyzed: '2026-08-10'
+analyzed: '2026-10-26'
 assurance: sonnet
 name: Melasma
 slug: melasma
@@ -39,6 +39,18 @@ tier_list:
       tyrosinase. Matched hydroquinone 4% in one small independent trial.
     slug: niacinamide
     tier: moderate
+  - note: Real controlled evidence plus a striking head-to-head, and the provenance
+      is why it sits here rather than in the strong band. A double-blinded randomised
+      split-face trial in women with mild to moderate melasma found it improved mMASI
+      significantly better than hydroquinone, with 79% of subjects improving against
+      61%, and no worsening on the treated side against roughly 10% on the hydroquinone
+      side. Every author bar the contract-research one works for Beiersdorf, which
+      developed the ingredient. The one fully vehicle-controlled trial beats vehicle
+      on mMASI but shows no edge on patient-rated outcomes or instrument-measured
+      colour, and the only independent human study is ten women with no control arm.
+      Full workup on [[thiamidol]].
+    slug: thiamidol
+    tier: moderate
   - note: Tyrosinase-inhibiting brightener, usually a combination-formula add-on.
       Real but comparatively modest evidence; ranks below hydroquinone, azelaic acid,
       and tranexamic acid on pooled effect size.
@@ -50,86 +62,164 @@ tier_list:
     slug: cysteamine
     tier: minimal
   title: Topical actives for melasma, by evidence
+tier_list_reviewed:
+- note: considered for the melasma tier_list on 2026-10-26 and excluded. Its own page
+    carries one incidental mention of melasma and no melasma trial, so there is no
+    graded melasma case to inherit; its evidence base is photoaging and acne.
+  slug: tretinoin
+- note: considered on 2026-10-26 and excluded. A peel is a procedure rather than a
+    topical active, and this hub already routes procedures out of scope.
+  slug: glycolic-acid
 type: condition
-updated: '2026-09-06'
+updated: '2026-10-26'
 videos:
-- title: "If you have melasma, you need to know this!"
-  creator: ""
+- creator: ''
   creator_slug: chris-tomassian
-  credential: ""
+  credential: ''
+  note: Verified from the video's TikTok transcript (yt-dlp captions, read in full);
+    no sponsorship.
   platform: TikTok
-  url: https://www.tiktok.com/@dr.tomassian/video/7673640360509328654
   posted: '2026-08-13'
-  related: [hyperpigmentation]
-  thesis: "Dr. Chris Tomassian, a board-certified dermatologist, warns that people with melasma, a type of hyperpigmentation, should avoid excessive heat exposure such as saunas and steam rooms. He explains that heat worsens melasma and makes it much harder to treat, so heat avoidance should be paired with the usual sun protection measures."
-  note: "Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship."
-- title: 'This popular OTC supplement could improve MELASMA? #melasma #melatonin #pregnancy'
-  creator: Dr. Scott Walter
+  related:
+  - hyperpigmentation
+  thesis: Dr. Chris Tomassian, a board-certified dermatologist, warns that people
+    with melasma, a type of hyperpigmentation, should avoid excessive heat exposure
+    such as saunas and steam rooms. He explains that heat worsens melasma and makes
+    it much harder to treat, so heat avoidance should be paired with the usual sun
+    protection measures.
+  title: If you have melasma, you need to know this!
+  url: https://www.tiktok.com/@dr.tomassian/video/7673640360509328654
+- creator: Dr. Scott Walter
   creator_slug: scott-walter
   credential: Board-certified dermatologist
-  platform: YouTube
-  url: https://www.youtube.com/watch?v=5dnO5JKbm5w
   duration: 61
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+  platform: YouTube
   posted: '2024-07-17'
   related: []
-  thesis: Melasma is a common pigmentary disorder causing symmetric light to dark patches on the face, usually starting in the 30s and 40s, and worsened by sun exposure and high estrogen states. Dermatologist Dr. Scott Walter (board-certified dermatologist) highlights a small study out of India in which seven melasma patients took 3 mg of oral melatonin daily plus daily sunscreen for 12 weeks, with every patient showing improvement in their melasma score. He notes melatonin may act as an antioxidant and help regulate hormone imbalances tied to melasma, but frames this as an early, small finding pending larger studies rather than an established treatment.
-  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
-- title: Why This Melasma Routine Will Not Work | Dermatologist Reacts
-  creator: Dr. Lindsey Zubritsky (DermGuru)
+  thesis: Melasma is a common pigmentary disorder causing symmetric light to dark
+    patches on the face, usually starting in the 30s and 40s, and worsened by sun
+    exposure and high estrogen states. Dermatologist Dr. Scott Walter (board-certified
+    dermatologist) highlights a small study out of India in which seven melasma patients
+    took 3 mg of oral melatonin daily plus daily sunscreen for 12 weeks, with every
+    patient showing improvement in their melasma score. He notes melatonin may act
+    as an antioxidant and help regulate hormone imbalances tied to melasma, but frames
+    this as an early, small finding pending larger studies rather than an established
+    treatment.
+  title: 'This popular OTC supplement could improve MELASMA? #melasma #melatonin #pregnancy'
+  url: https://www.youtube.com/watch?v=5dnO5JKbm5w
+- creator: Dr. Lindsey Zubritsky (DermGuru)
   creator_slug: lindsey-zubritsky
   credential: Board-certified dermatologist
-  platform: YouTube
-  url: https://www.youtube.com/watch?v=HQ8G8JNjGW8
   duration: 73
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+  platform: YouTube
   posted: '2026-08-25'
   related: []
-  thesis: Dr. Lindsey Zubritsky, a board-certified dermatologist, explains why over-the-counter brightening serums often fail to control melasma. She describes melasma as a chronic, complex pigment condition driven by overactive pigment-producing cells and influenced by UV exposure, visible light, heat, hormones, and inflammation, which is why it is stubborn and tends to recur. She stresses that daily SPF is non-negotiable for controlling melasma, and that some effective treatments are prescription-only and cannot be bought over the counter.
-  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
-- title: Things I wish I knew sooner as a dermatologist
-  creator: Dr. Daniel Sugai
+  thesis: Dr. Lindsey Zubritsky, a board-certified dermatologist, explains why over-the-counter
+    brightening serums often fail to control melasma. She describes melasma as a chronic,
+    complex pigment condition driven by overactive pigment-producing cells and influenced
+    by UV exposure, visible light, heat, hormones, and inflammation, which is why
+    it is stubborn and tends to recur. She stresses that daily SPF is non-negotiable
+    for controlling melasma, and that some effective treatments are prescription-only
+    and cannot be bought over the counter.
+  title: Why This Melasma Routine Will Not Work | Dermatologist Reacts
+  url: https://www.youtube.com/watch?v=HQ8G8JNjGW8
+- creator: Dr. Daniel Sugai
   creator_slug: daniel-sugai
   credential: Board-certified dermatologist
-  platform: YouTube
-  url: https://www.youtube.com/watch?v=XFIXoWL_LtI
   duration: 90
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+  platform: YouTube
   posted: '2026-08-24'
   related: []
-  thesis: 'Board-certified dermatologist Dr. Daniel Sugai shares tips he wishes he had known sooner. He explains that hyaluronic acid serum gives instant plumping and glow, good before an event, while vitamin C serum works more gradually as an antioxidant that fights free-radical damage from pollution and sunlight, improving fine lines, texture, and brightness over time; he wishes he had started vitamin C earlier in his 30s. He advises applying the less stable vitamin C serum first, then hyaluronic acid, then moisturizer and sunscreen (thinnest to thickest). He also stresses that not all sunscreens are equal for melasma and hyperpigmentation: a tinted sunscreen containing iron oxides is needed to block visible light, and he says patients whose melasma keeps worsening despite using sunscreen often turn out to be using one without iron oxides.'
-  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
-- title: How to Get Rid of Melasma
-  creator: Tanya Kormeili, MD, FAAD
+  thesis: 'Board-certified dermatologist Dr. Daniel Sugai shares tips he wishes he
+    had known sooner. He explains that hyaluronic acid serum gives instant plumping
+    and glow, good before an event, while vitamin C serum works more gradually as
+    an antioxidant that fights free-radical damage from pollution and sunlight, improving
+    fine lines, texture, and brightness over time; he wishes he had started vitamin
+    C earlier in his 30s. He advises applying the less stable vitamin C serum first,
+    then hyaluronic acid, then moisturizer and sunscreen (thinnest to thickest). He
+    also stresses that not all sunscreens are equal for melasma and hyperpigmentation:
+    a tinted sunscreen containing iron oxides is needed to block visible light, and
+    he says patients whose melasma keeps worsening despite using sunscreen often turn
+    out to be using one without iron oxides.'
+  title: Things I wish I knew sooner as a dermatologist
+  url: https://www.youtube.com/watch?v=XFIXoWL_LtI
+- creator: Tanya Kormeili, MD, FAAD
   creator_slug: tanya-kormeili-md
-  credential: Board-certified dermatologist (ABD), FAAD, Clinical Professor of Dermatology at UCLA David Geffen School of Medicine
-  platform: YouTube
-  url: https://www.youtube.com/watch?v=8nrCHe763O4
+  credential: Board-certified dermatologist (ABD), FAAD, Clinical Professor of Dermatology
+    at UCLA David Geffen School of Medicine
   duration: 174
+  note: Verified from the video transcript (yt-dlp, read in full); no sponsorship
+    and no product or own-brand mention (treatments discussed as categories only).
+    Creator runs an own-brand practice storefront, so this card reflects treatment
+    categories, not product picks.
+  platform: YouTube
   posted: '2025-09-03'
-  related: [sunscreen-uv-filters, hyperpigmentation]
-  thesis: Board-certified dermatologist and UCLA clinical professor Dr. Tanya Kormeili explains melasma, patchy facial pigmentation linked to hormonal changes and UV exposure that can affect anyone, not just pregnant women. She argues effective treatment starts with strict sun protection, since melasma-prone skin is highly light sensitive, then layers in pigment-reducing ingredients (both prescription and botanical) and gentle exfoliation via at-home acids or in-office chemical peels. She cautions that IPL and BBL lasers often worsen melasma within a year and should only be used as a last resort after other treatments are exhausted.
-  note: Verified from the video transcript (yt-dlp, read in full); no sponsorship and no product or own-brand mention (treatments discussed as categories only). Creator runs an own-brand practice storefront, so this card reflects treatment categories, not product picks.
-- title: How to Prevent and Treat Sun-Induced Pigmentation
-  creator: Dr. Davin Lim
+  related:
+  - sunscreen-uv-filters
+  - hyperpigmentation
+  thesis: Board-certified dermatologist and UCLA clinical professor Dr. Tanya Kormeili
+    explains melasma, patchy facial pigmentation linked to hormonal changes and UV
+    exposure that can affect anyone, not just pregnant women. She argues effective
+    treatment starts with strict sun protection, since melasma-prone skin is highly
+    light sensitive, then layers in pigment-reducing ingredients (both prescription
+    and botanical) and gentle exfoliation via at-home acids or in-office chemical
+    peels. She cautions that IPL and BBL lasers often worsen melasma within a year
+    and should only be used as a last resort after other treatments are exhausted.
+  title: How to Get Rid of Melasma
+  url: https://www.youtube.com/watch?v=8nrCHe763O4
+- creator: Dr. Davin Lim
   creator_slug: davin-lim
   credential: Board-certified dermatologist (Australia)
-  platform: YouTube
-  url: https://www.youtube.com/watch?v=vU9XccWySgA
   duration: 429
-  posted: '2025-03-04'
-  related: [hyperpigmentation, sunscreen-uv-filters, tranexamic-acid, hydroquinone, arbutin, kojic-acid]
-  thesis: 'Board-certified dermatologist Dr. Davin Lim explains what drives sun-induced pigmentation and melasma, describing pigmentation as the result of three interacting factors: genetics, sun exposure, and hormones. He notes that both ultraviolet and visible light stimulate the skin''s melanocytes to make more pigment, and that melasma, sometimes called the mask of pregnancy, is hormonally influenced; by his account roughly 50 to 60 percent of pregnancy-related cases settle on their own while 40 to 50 percent persist and need treatment. For persistent pigment he describes the dermatologist''s toolkit as daily sunscreen plus tyrosinase-inhibiting anti-pigment creams, oral tablets that reduce the blood supply feeding pigment cells such as tranexamic acid, and in-clinic lasers and chemical peels.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
-- title: The best combo of ingredients for stubborn dark spots
-  creator: Dr. Mamina Turegano
+  platform: YouTube
+  posted: '2025-03-04'
+  related:
+  - hyperpigmentation
+  - sunscreen-uv-filters
+  - tranexamic-acid
+  - hydroquinone
+  - arbutin
+  - kojic-acid
+  thesis: 'Board-certified dermatologist Dr. Davin Lim explains what drives sun-induced
+    pigmentation and melasma, describing pigmentation as the result of three interacting
+    factors: genetics, sun exposure, and hormones. He notes that both ultraviolet
+    and visible light stimulate the skin''s melanocytes to make more pigment, and
+    that melasma, sometimes called the mask of pregnancy, is hormonally influenced;
+    by his account roughly 50 to 60 percent of pregnancy-related cases settle on their
+    own while 40 to 50 percent persist and need treatment. For persistent pigment
+    he describes the dermatologist''s toolkit as daily sunscreen plus tyrosinase-inhibiting
+    anti-pigment creams, oral tablets that reduce the blood supply feeding pigment
+    cells such as tranexamic acid, and in-clinic lasers and chemical peels.'
+  title: How to Prevent and Treat Sun-Induced Pigmentation
+  url: https://www.youtube.com/watch?v=vU9XccWySgA
+- creator: Dr. Mamina Turegano
   creator_slug: mamina-turegano
   credential: Board-certified dermatologist
-  platform: TikTok
-  url: https://www.tiktok.com/@dr.mamina/video/7691334151940689165
   duration: 57
-  posted: '2026-09-30'
-  related: [hyperpigmentation, hydroquinone, tretinoin, glycolic-acid, tranexamic-acid, kojic-acid]
-  thesis: 'Dermatologist Dr. Mamina Turegano explains the ingredient combination she uses for stubborn melasma and dark spots: hydroquinone to shut down excess melanin at the source, tretinoin to speed cell turnover so pigment clears and other actives penetrate deeper, and an exfoliant such as glycolic acid to clear pigmented cells at the surface. She notes hydroquinone must be used in breaks rather than indefinitely, and that non-hydroquinone options such as tranexamic acid or kojic acid paired with tretinoin can substitute. Her point is that treating dark spots works best as a combination of ingredients doing different jobs, not any single product.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
-
+  platform: TikTok
+  posted: '2026-09-30'
+  related:
+  - hyperpigmentation
+  - hydroquinone
+  - tretinoin
+  - glycolic-acid
+  - tranexamic-acid
+  - kojic-acid
+  thesis: 'Dermatologist Dr. Mamina Turegano explains the ingredient combination she
+    uses for stubborn melasma and dark spots: hydroquinone to shut down excess melanin
+    at the source, tretinoin to speed cell turnover so pigment clears and other actives
+    penetrate deeper, and an exfoliant such as glycolic acid to clear pigmented cells
+    at the surface. She notes hydroquinone must be used in breaks rather than indefinitely,
+    and that non-hydroquinone options such as tranexamic acid or kojic acid paired
+    with tretinoin can substitute. Her point is that treating dark spots works best
+    as a combination of ingredients doing different jobs, not any single product.'
+  title: The best combo of ingredients for stubborn dark spots
+  url: https://www.tiktok.com/@dr.mamina/video/7691334151940689165
 ---
 
 Melasma is a chronic patch of darkened skin, not a single spot, that shows up symmetrically on both sides of the face, usually the cheeks, forehead, and upper lip. A clinical and epidemiological review describes it as "irregular brown macules symmetrically distributed on sun-exposed areas," most often across the central face.[^handel] It is strongly hormone-influenced: in about 40 to 50% of women the disease is triggered by pregnancy or by oral contraceptive use, which is where the older names "mask of pregnancy" and chloasma come from, though the same review notes those terms "do not fully characterize the disease."[^handel] Reported female-to-male ratios run 9 or 10 to 1, and the condition concentrates in people with medium-to-deep skin tones, that is, Fitzpatrick skin types III to V on the six-point scale dermatologists use to classify how skin tans and burns.[^handel] Both ultraviolet and visible light drive it, and it is chronic: it darkens in summer, fades in winter, and, per the same review, "long-term therapies are necessary, since recurrence rates are high."[^handel]
@@ -159,6 +249,8 @@ These are graded against controlled trials and framed relative to hydroquinone, 
 
 [[tranexamic-acid]] is available both orally and topically; a placebo-controlled trial found oral tranexamic acid cut the modified Melasma Area and Severity Index by 49% versus 18% for placebo at 3 months, but three months after stopping, the reduction had fallen back toward 26% versus 19%, showing the effect depends on continued treatment.[^delrosario]
 
+[[thiamidol]] is the one newer active with a head-to-head result worth knowing: in a double-blinded randomised split-face trial in women with mild to moderate melasma, "Thiamidol treatment improved modified Melasma Area and Severity Index scores significantly better than hydroquinone, and more subjects improved following treatment with Thiamidol (79%) compared with hydroquinone (61%)", with no worsening on the Thiamidol side against roughly 10% on the hydroquinone side.[^arrowitz] Read the author list before the result: every author except the contract-research one is employed by Beiersdorf, which developed the ingredient and sells it. Independent replication has not caught up, which is why it is graded moderate above rather than alongside hydroquinone, and the detail is on [[thiamidol]].
+
 [[azelaic-acid]] is a well-tolerated dicarboxylic acid, available over the counter and by prescription, that beat hydroquinone 2% (73% versus 19% good-to-excellent results in one RCT) and, across a 6-trial meta-analysis of 673 patients, produced a greater reduction in the severity index than hydroquinone overall, while trials against the stronger hydroquinone 4% trend toward equivalence rather than superiority.[^albzea]
 
 [[ascorbic-acid-vitamin-c]] trailed hydroquinone 4% on patient-rated melasma improvement in the one head-to-head trial (62.5% versus 93% good-to-excellent, P<0.05) but tied it on colorimetric measurement, with far fewer side effects (6.2% versus 68.7%).[^espinal]
@@ -180,6 +272,8 @@ The ranking anchor for topical melasma treatments is a network meta-analysis of 
 [[hyperpigmentation]], [[hydroquinone]], [[tranexamic-acid]], [[azelaic-acid]], [[ascorbic-acid-vitamin-c]], [[niacinamide]], [[kojic-acid]], [[cysteamine]], [[sunscreen-uv-filters]]
 
 ## Sources
+
+[^arrowitz]: Arrowitz C, Schoelermann AM, Mann T, Jiang LI, Weber T, Kolbe L. "Effective Tyrosinase Inhibition by Thiamidol Results in Significant Improvement of Mild to Moderate Melasma." Journal of Investigative Dermatology. 2019 Aug;139(8):1691-1698.e6. doi: 10.1016/j.jid.2019.02.013. Epub 2019 Feb 27. PMID 30825454. Design and results quoted verbatim, re-verified against the PubMed abstract on 2026-10-26: a "double-blinded, randomized split-face study to assess the efficacy of the tyrosinase inhibitor Thiamidol compared to hydroquinone in women with mild to moderate melasma"; "After 12 weeks, modified Melasma Area and Severity Index scores significantly improved on both the Thiamidol-treated and the hydroquinone-treated sides of the face."; "Additionally, Thiamidol treatment improved modified Melasma Area and Severity Index scores significantly better than hydroquinone, and more subjects improved following treatment with Thiamidol (79%) compared with hydroquinone (61%)."; and "During treatment, no subjects displayed worsening of modified Melasma Area and Severity Index scores on the Thiamidol-treated side, while approximately 10% of the subjects showed a worsening of modified Melasma Area and Severity Index scores on the hydroquinone-treated side." Provenance, which is load-bearing for the moderate grade: PubMed records the author affiliations as Beiersdorf Inc (Wilton, Connecticut), Beiersdorf AG (Hamburg, three authors) and Thomas J. Stephens & Associates (Richardson, Texas), a contract research organisation, and Beiersdorf developed and sells the ingredient. The abstract reports no sample size, no confidence interval and no p-value, checked by string search on 2026-10-26, so none is claimed. The vehicle-controlled and independent studies referred to above are cited in full on [[thiamidol]] rather than repeated here. https://pubmed.ncbi.nlm.nih.gov/30825454/ (accessed 2026-10-26)
 
 [^handel]: Handel AC, Miot LDB, Miot HA. Melasma: a clinical and epidemiological review. Anais Brasileiros de Dermatologia, 2014;89(5):771-782. https://pmc.ncbi.nlm.nih.gov/articles/PMC4155956/ (accessed 2026-08-10)
 [^davis]: Davis EC, Callender VD. Postinflammatory hyperpigmentation: a review of the epidemiology, clinical features, and treatment options in skin of color. Journal of Clinical and Aesthetic Dermatology, 2010;3(7):20-31. https://pmc.ncbi.nlm.nih.gov/articles/PMC2921758/ (accessed 2026-08-10)

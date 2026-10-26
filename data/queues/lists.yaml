@@ -420,14 +420,22 @@
 - name: Melasma treatments by evidence
   type: list
   priority: 5
-  status: pending
+  status: done
   discovered_from: heydari-2025-oral-vs-topical-tranexamic-acid-melasma
   source: 'No melasma-specific tier list exists; the two nearest lists are best-products-dark-spots-hyperpigmentation
     and best-hydroquinone-free-brightening-products, both of which are broader pigment
     lists rather than melasma. Pages that already exist and would populate it: tranexamic-acid,
     hydroquinone, cysteamine, azelaic-acid, melasma. Curatorial only. Melasma differs
     from post-inflammatory pigment in relapse rate, which is the axis a melasma list
-    should grade on.'
+    should grade on. NOT created as a separate list. Melasma treatments by evidence
+    is already owned by the melasma condition hub (1923 words) which carries a tier_list
+    on exactly that axis, plus two existing pigment lists (best-products-dark-spots-hyperpigmentation,
+    best-hydroquinone-free-brightening-products). A fourth overlapping page would
+    fragment the topic. Serviced instead by closing the real gap: the hub''s tier_list
+    and prose had ZERO mentions of thiamidol despite a 2080-word thiamidol page with
+    melasma RCT evidence. Added it at tier moderate with the Beiersdorf-authorship
+    caveat, and recorded tretinoin and glycolic-acid in tier_list_reviewed as considered-and-excluded
+    so the maintenance flag self-clears.'
 - name: Home LED devices by whether you can read the clearance file
   type: list
   priority: 5

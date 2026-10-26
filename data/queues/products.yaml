@@ -4173,3 +4173,16 @@
   status: pending
   discovered_from: null
   source: null
+- name: 'Eucerin Anti-Pigment Day Cream / Night Cream (thiamidol 0.1-0.2%) - the thiamidol
+    page says the ingredient is sold in Eucerin brightening products at 0.1 to 0.2%,
+    and the site covers eucerin-anti-pigment-dual-serum but not the day/night creams
+    that carry the same active. Now that melasma''s tier_list grades thiamidol at
+    moderate, the hub has only one Eucerin product to point readers at. Price and
+    claims are likely unreadable from eucerin.com (JS shell, 404s on regional paths,
+    see eucerin-antiredness-soothing-care), so expect to ship without price. Source:
+    incidecoder + openFDA not applicable (cosmetic)'
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null

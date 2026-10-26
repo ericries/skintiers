@@ -1628,3 +1628,16 @@
   status: pending
   discovered_from: null
   source: null
+- name: 'Arrowitz 2019: thiamidol versus hydroquinone, double-blinded randomised split-face
+    trial in mild to moderate melasma (J Invest Dermatol 2019;139(8):1691-1698.e6,
+    PMID 30825454) - now the head-to-head cited on both melasma and thiamidol. Worth
+    a study page because the headline (mMASI significantly better than hydroquinone,
+    79% vs 61% of subjects improving, no worsening vs ~10% worsening) is strong AND
+    every author bar the contract-research one is Beiersdorf, which developed the
+    ingredient. The abstract publishes no sample size, CI or p-value, which a study
+    page should record. Source: pubmed.ncbi.nlm.nih.gov/30825454'
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null
