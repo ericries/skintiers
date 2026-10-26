@@ -181,7 +181,14 @@
   hits: 1
   topics:
   - hyaluronic acid
-  status: pending
+  status: rejected
+  reason: 'Formulator-facing DIY/recipe channel that sells its own paid course, not a consumer skincare-evidence
+    creator. Catalogue is how-to-make content (xanthan gum gels, DIY shampoo, home preservation with Euxyl
+    PE 9010, contamination control) plus repeated promotion of CosmeticFormulationMasterclass.com ("Learn
+    To Make Beauty Products That Sell"), so its videos would not map to product or ingredient evidence
+    pages. Credibility concern as well: a lead title promises "EXTREME HAIR GROWTH" from a rosemary hair
+    rinse. Same basis as the earlier rejection of a cosmetic-formulation training institute. 37.4k subscribers,
+    @greenbeautychemist.'
 - name: LaRochePosayUSA
   channel_url: https://www.youtube.com/@LaRochePosayUSA
   hits: 1
@@ -430,3 +437,45 @@
     alternate handle, named in her own video description; she is already on the roster as abigail-waldman,
     but the roster stores her channel as a /channel/UC... URL so the handle did not match. Miner gap,
     not a candidate.
+- name: Angela Onuoha
+  channel_url: https://www.youtube.com/channel/UC3CBT5oAJSeF91d7uBRC68g
+  hits: 1
+  topics:
+  - retinoids
+  status: pending
+- name: Dr. Mara Weinstein Velez
+  channel_url: https://www.youtube.com/channel/UCP2MMaBA3oNbIztvzd0ymaQ
+  hits: 1
+  topics:
+  - sunscreen
+  status: pending
+- name: That Chemist
+  channel_url: https://www.youtube.com/channel/UC0nEDA3uRd5YuvBfMwQNteg
+  hits: 1
+  topics:
+  - sunscreen
+  status: pending
+- name: KestyMD Esthetics
+  channel_url: https://www.youtube.com/channel/UCO2Mhv6qM8aqp2XJ4GrHABQ
+  hits: 1
+  topics:
+  - melasma
+  status: pending
+- name: Seoul Beauty - Doctor lee
+  channel_url: https://www.youtube.com/channel/UChwvt3PdLsMTXaSHtva1zXw
+  hits: 1
+  topics:
+  - melasma
+  status: pending
+- name: Well with Arielle Lorre
+  channel_url: https://www.youtube.com/channel/UCyRxtHZSa9nyYJVBcAVLH_Q
+  hits: 1
+  topics:
+  - melasma
+  status: pending
+- name: Dr. Swati Kannan
+  channel_url: https://www.youtube.com/channel/UCOWDVnBwfJEqQImN52nL-Jg
+  hits: 1
+  topics:
+  - hyaluronic acid
+  status: pending
