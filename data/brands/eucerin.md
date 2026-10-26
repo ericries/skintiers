@@ -37,6 +37,7 @@ Eucerin is a dermocosmetic skincare brand owned by the German consumer-goods com
 ## Products reviewed here
 
 - [[eucerin-advanced-repair-cream]]: a urea-and-ceramide barrier moisturizer for very dry or barrier-impaired skin.
+- [[eucerin-antiredness-soothing-care]]: a thirteen-ingredient fragrance-free cream pairing a licorice extract with a TRPV1 antagonist, whose clinical evidence is almost all Beiersdorf's own.
 - [[eucerin-anti-pigment-dual-serum|Eucerin Anti-Pigment Dual Serum]]
 - [[eucerin-roughness-relief-lotion|Eucerin Roughness Relief Lotion]]
 - [[eucerin-eczema-relief-cream|Eucerin Eczema Relief Cream]]

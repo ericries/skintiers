@@ -1577,3 +1577,26 @@
   status: pending
   discovered_from: null
   source: null
+- name: 'Sulzberger 2016: 4-t-butylcyclohexanol and licochalcone A for sensitive skin
+    (JEADV 2016;30 Suppl 1:9-17, PMID 26805417) - the development paper behind every
+    Eucerin anti-redness claim. Mostly in vitro (TRPV1 activation, NFkB, PGE2); the
+    in vivo part is two controlled single-blind randomised studies with NO sample
+    size in the abstract, and the combination''s redness endpoint is SHAVING-INDUCED
+    erythema, not clinical redness. All 11 authors are Beiersdorf R&D and it ran in
+    a supplement. Source: pubmed.ncbi.nlm.nih.gov/26805417'
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null
+- name: 'Jovanovic 2017: open dermocosmetic study of a trans-4-t-butylcyclohexanol
+    plus licochalcone A cream in sensitive skin and rosacea (J Drugs Dermatol 2017;16(6):605-610,
+    PMID 28686779) - n=1221, rosacea stage 0-II, twice daily 4 weeks, P<0.001 on all
+    symptoms. Worth a page precisely BECAUSE the large n reads as strong evidence
+    and the design cannot support it: open-label, no control, no randomisation, no
+    blinding, and concurrent pharmacological treatment permitted. Source: pubmed.ncbi.nlm.nih.gov/28686779'
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null

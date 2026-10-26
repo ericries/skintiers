@@ -3328,15 +3328,24 @@
 - name: Eucerin Redness Relief / Anti-Redness range (licochalcone A formulas)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: licochalcone-a
-  source: The new licochalcone-a page had to state that NO product on this site is
+  source: 'The new licochalcone-a page had to state that NO product on this site is
     known to contain it, which is a catalog hole for an active with its own page.
     Licochalcone A is the licorice fraction marketed in anti-redness lines. RESOLVE
-    THE IDENTITY FIRST from the brand's own site or an INCI listing (scripts/inci_lookup.py)
+    THE IDENTITY FIRST from the brand''s own site or an INCI listing (scripts/inci_lookup.py)
     before drafting, and do not assume which SKUs in the range actually list it; the
     page must name the product whose INCI you verified, not the range. Grade the product
-    against the licochalcone-a tier of weak rather than the brand's redness claims.
+    against the licochalcone-a tier of weak rather than the brand''s redness claims.
+    Shipped ONE product from the range, eucerin-antiredness-soothing-care, rather
+    than a range page. Identity resolved before drafting: the US ''Redness Relief''
+    name did not resolve on incidecoder; ''Eucerin AntiRedness Soothing Care'' did,
+    with a 13-ingredient list and a front photo. Note for whoever does the next one:
+    the SPF 25 Concealing Day Cream and the ''AntiRedness OFF'' SKUs are NOT on incidecoder,
+    and the brand site is unusable (UK/IE 404, int.eucerin.com serves a JS shell with
+    no title), so price and brand claims could not be read for any of them. Declined
+    an Apify call: the only missing fields were price and marketing copy on a product
+    whose composition was already verified cheaply.'
 - name: Lotrimin AF Athlete's Foot Cream (the athlete's-foot-labelled clotrimazole
     SKU, if it exists)
   type: product

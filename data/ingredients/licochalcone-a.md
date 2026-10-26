@@ -52,7 +52,7 @@ No brand copy is quoted on this page, because no product on this site is known t
 
 ## See Also
 
-[[licorice-root-extract]] [[l-carnitine]] [[facial-redness-relief]] [[rosacea]] [[rosacea-erythematotelangiectatic]] [[atopic-dermatitis]] [[brightening]] [[hyperpigmentation]]
+[[licorice-root-extract]] [[eucerin-antiredness-soothing-care]] [[l-carnitine]] [[facial-redness-relief]] [[rosacea]] [[rosacea-erythematotelangiectatic]] [[atopic-dermatitis]] [[brightening]] [[hyperpigmentation]]
 
 ## Sources
 

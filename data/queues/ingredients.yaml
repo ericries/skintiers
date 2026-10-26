@@ -2757,3 +2757,15 @@
   status: pending
   discovered_from: null
   source: null
+- name: '4-t-Butylcyclohexanol (trans-isomer) - the TRPV1-antagonist half of Beiersdorf''s
+    anti-redness pair, declared on eucerin-antiredness-soothing-care and marketed
+    as SymSitive, with NO page yet while its partner licochalcone-a has one. Honest
+    spine ready: Sulzberger 2016 (PMID 26805417) shows it significantly reduced TRPV1
+    activation in vitro and gave a significant immediate anti-stinging effect in vivo,
+    but all 11 authors are Beiersdorf R&D and no sample size is published; Jovanovic
+    2017 (PMID 28686779) is open-label and uncontrolled. Source: pubmed.ncbi.nlm.nih.gov/26805417'
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null
