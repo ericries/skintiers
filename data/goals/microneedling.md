@@ -45,6 +45,17 @@ videos:
   related: [home-use-skincare-devices-by-evidence, melasma, atrophic-acne-scar-subtypes, skin-firmness-elasticity, smoothing-skin-texture]
   thesis: Dermatologist Dr. Brooke Jeffy explains why a cheap at-home dermaroller is not a small version of professional microneedling. A roller's needles enter and exit at an angle and can drag, which she says risks small tears rather than the controlled pinpoint injuries intended, while a professional pen drives needles vertically at a depth the operator sets; consumer rollers around 0.2 to 0.25mm mostly disrupt the skin barrier and increase product penetration, whereas the studies showing collagen remodelling used depths often around 0.5mm and extending to 1, 1.5 or 2mm. Her central correction is that a superficial treatment repeated more often does not add up to a deeper controlled one, so you take the risk without the collagen benefit, and she warns specifically about reused devices that are cleaned rather than sterilised, citing published reports of unusual and hard-to-treat skin infections from at-home devices that penetrate the skin.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Does Dermarolling Work for Hair Growth? A Dermatologist Explains
+  creator: Dr. Brooke Jeffy (Brooke Jeffy, MD)
+  creator_slug: brooke-jeffy
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=Cb7vYjSdTiA
+  posted: '2026-10-11'
+  related: [hair-loss-thinning, skin-barrier-repair]
+  thesis: 'Board-certified dermatologist Dr. Brooke Jeffy separates microneedling from dermarolling and argues the two are not interchangeable: a roller''s needles enter at an angle under variable hand pressure, while a pen or professional device drives them vertically to a controlled depth. She reports that the evidence is encouraging for microneedling as an ADJUNCT in pattern hair loss, citing a 2025 meta-analysis of randomised trials in more than 600 patients that found microneedling combined with topical minoxidil gave better hair counts than minoxidil alone, and says a 2026 review of dermarollers used on their own found only a handful of eligible studies with inconsistent human results. Her strongest caution is that hair loss is not a diagnosis: telogen effluvium, alopecia areata, inflammatory scalp conditions and scarring alopecia are different problems, and repeatedly needling an undiagnosed scarring or inflammatory alopecia risks harm, so she wants the cause established first and
+    notes that deeper needling has not been shown to grow more hair while it does cause more trauma.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
