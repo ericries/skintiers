@@ -69,7 +69,9 @@ the script's ~30 minute global cooldown. This supersedes the older belief that
 cookies never helped for YouTube; re-test it rather than trusting either claim.
 
 The deferred list below was built during the 2026-10-25 block, before this was
-known. Those three are still worth carding, and they no longer need to wait.
+known. Those three are still worth carding, they no longer need to wait, and the
+cookie call above is how to read them. Confirmed working on 2026-10-26, when a
+Laura Soong slice was transcript-verified and carded with it.
 
 ## Deferred candidates: vetted, popularity-checked, blocked only on a transcript
 

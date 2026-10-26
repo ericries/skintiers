@@ -7,6 +7,19 @@ status: published
 tier: good
 type: ingredient
 updated: '2026-08-30'
+videos:
+- title: 'Topical Steroid Withdrawal (TSW): Real or Not? A Dermatologist Reacts'
+  creator: Dr. Laura Soong
+  creator_slug: laura-soong
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=_D5zX6bFulE
+  posted: '2024-09-05'
+  related: [atopic-dermatitis, psoriasis, upadacitinib, opzelura-ruxolitinib-cream]
+  thesis: 'Board-certified dermatologist Dr. Laura Soong takes up topical steroid withdrawal syndrome and reports that there is no defined diagnostic criteria for it in medicine, that the cases described tend to follow prolonged use of high potency topical steroids over about six months, particularly on the face and genital area, and that dermatology is split between three readings: that the syndrome is real, that it is the underlying eczema flaring once treatment stops, or that it is an allergy to the steroid itself that was being suppressed. Her own position, offered as her view rather than settled fact, is that it is a true but rare effect, and she reasons by analogy to the rebound flare seen when oral prednisone is stopped. She balances that against the opposite harm, saying she prescribes topical steroids routinely for eczema and psoriasis and that most of her patients improve on them, and that steroid phobia online leads people to leave inflamed skin untreated for years; she points
+    to non steroidal options including light therapy, dupilumab and upadacitinib.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Topical corticosteroids are synthetic glucocorticoids applied to the skin as creams, ointments, gels, foams, or solutions to suppress local inflammation; in the United States they are ranked into seven potency classes, from class I "super-potent" agents like clobetasol propionate 0.05% down to class VII mild agents like [[hydrocortisone-otc-topical-corticosteroid|hydrocortisone]] 0.5% to 2.5%, with mid-to-high-potency workhorses such as [[betamethasone-dipropionate]] in between.[^solman][^kerkhof] They are the best-evidenced anti-inflammatory topicals in dermatology, first-line for [[atopic-dermatitis]] flares and a core component of [[psoriasis]] regimens, but that evidence base sits alongside well-documented, potency- and duration-dependent harms: skin atrophy, striae, telangiectasia, tachyphylaxis, and a withdrawal syndrome on stopping high-potency use, which is why this class is graded good rather than best despite its huge randomized-trial base.[^hajar][^kim]
