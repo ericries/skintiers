@@ -14361,19 +14361,6 @@
   posted: ''
   feed_rank: 0
   status: pending
-- id: '7700333720561028365'
-  title: 'It’s just not for me! 🤷‍♂️ #sunscreen #doctor #dermatologist '
-  creator: Dr. Chris Tomassian
-  creator_slug: chris-tomassian
-  credential: Board-certified dermatologist
-  channel: https://www.tiktok.com/@dr.tomassian
-  platform: TikTok
-  tier: MED
-  product_recs: ok
-  conflict: Bio includes a business/booking contact email suggesting managed brand partnerships; no confirmed own-brand line or affiliate stor
-  posted: '2026-10-24'
-  feed_rank: 0
-  status: pending
 - id: fmYz2YYAI7g
   title: 5 Skincare Products I Wouldn't Buy Again (And What I'd Use Instead)
   creator: Dr. Daniel Sugai
@@ -14428,19 +14415,6 @@
   posted: ''
   feed_rank: 0
   status: pending
-- id: '7700315937701989646'
-  title: Yes, you still need sunscreen in the fall ☀️🍁 Testing the @Bask Milky...
-  creator: Ella (@your.estie.ella)
-  creator_slug: your-estie-ella
-  credential: Licensed esthetician (NOT a dermatologist or cosmetic chemist)
-  channel: https://www.tiktok.com/@your.estie.ella
-  platform: TikTok
-  tier: MED
-  product_recs: ok
-  conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan and reject any sponsored/affiliate/gifted video
-  posted: '2026-10-24'
-  feed_rank: 0
-  status: pending
 - id: '7700234122601516302'
   title: Perfect skincare routine does not equal perfect skin 100% of the time...
   creator: Ella (@your.estie.ella)
@@ -14453,4 +14427,160 @@
   conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan and reject any sponsored/affiliate/gifted video
   posted: '2026-10-24'
   feed_rank: 1
+  status: pending
+- id: XS4FSEMILL8
+  title: 'Bond Repair Explained: Do You Actually Need It? | Dermatologist Adel'
+  creator: Dr Aamna Adel
+  creator_slug: aamna-adel
+  credential: Consultant dermatologist
+  channel: https://www.youtube.com/@DrAamnaAdel/videos
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Founder of own-brand haircare line (Rhute); TikTok Shop affiliate/product storefront; recurring disclosed sponsored posts (No7, La Roche Pos
+  posted: ''
+  feed_rank: 0
+  status: pending
+- id: 1-d1zTd2Mm8
+  title: 'HRT and Your Skin After 40: What It Can (and Can''t) Fix | Dermatologist'
+  creator: Dr. Aleksandra Brown, DO, FAAD
+  creator_slug: aleksandra-brown
+  credential: Board-certified dermatologist (DO, FAOCD, FAAD), practicing at River Ridge Dermatology / HCA Virginia (LewisGale), Blacksburg VA
+  channel: https://www.youtube.com/channel/UC52c6a0gfbhuVCdHYZQAzuQ/videos
+  platform: YouTube
+  tier: HIGH
+  product_recs: ok
+  conflict: null
+  posted: ''
+  feed_rank: 0
+  status: pending
+- id: zEBZw74TgAs
+  title: Is the LYMA Laser a Gimmick? Dermatologist Answers Your Skincare Questions
+  creator: Andrea Suarez (Dr Dray)
+  creator_slug: andrea-suarez-dr-dray
+  credential: Board-certified dermatologist
+  channel: https://www.youtube.com/@DrDrayzday/videos
+  platform: YouTube
+  tier: HIGH
+  product_recs: null
+  conflict: null
+  posted: ''
+  feed_rank: 0
+  status: pending
+- id: I7ZxUcHQJvU
+  title: 'Chats with C: Nikki DeRoest - Make Up Artist & Founder of Ciele | Caroline Hirons'
+  creator: Caroline Hirons
+  creator_slug: caroline-hirons
+  credential: Esthetician and skincare author (NOT a dermatologist or cosmetic chemist)
+  channel: https://www.youtube.com/channel/UCyzKg_t3tPv8Aa_7JL2xXZA/videos
+  platform: YouTube
+  tier: MED
+  product_recs: restricted
+  conflict: Founder of own-brand skincare line (Skin Rocks); recent upload mix is dominated by PR-gifted product unboxings and empties (haul-adjacent fo
+  posted: ''
+  feed_rank: 0
+  status: pending
+- id: TOvbprlI7VE
+  title: I Drove My RV to a Town With No Derms to Do Free Skin Cancer Checks
+  creator: Dr. Dustin Portela
+  creator_slug: dustin-portela
+  credential: Board-certified dermatologist
+  channel: https://www.youtube.com/channel/UCC9iFyuXhE3Epr-rJsFiK3Q/videos
+  platform: YouTube
+  tier: HIGH
+  product_recs: null
+  conflict: null
+  posted: ''
+  feed_rank: 0
+  status: pending
+- id: Z7JQXw89HCo
+  title: Yoonchae, Your Skin Care Routine Makes Me So Proud 🥹
+  creator: Hyram (Skincare by Hyram)
+  creator_slug: hyram
+  credential: Skincare educator (NOT a dermatologist or cosmetic chemist)
+  channel: https://www.youtube.com/@Hyram/videos
+  platform: YouTube
+  tier: MED
+  product_recs: null
+  conflict: has an own-brand line (Selfless) and does sponsorships - educational content only, never treat picks as endorsements, never use sponsored videos
+  posted: ''
+  feed_rank: 0
+  status: pending
+- id: qux9ACowilY
+  title: SKIMS Beauty Is Coming…Has Kim Kardashian Learnt Nothing? 🙃
+  creator: James Welsh
+  creator_slug: james-welsh
+  credential: Skincare content creator (NOT a dermatologist or cosmetic chemist)
+  channel: https://www.youtube.com/@JamesWelsh/videos
+  platform: YouTube
+  tier: MED
+  product_recs: null
+  conflict: does sponsorships - educational content only, never treat picks as endorsements, never use sponsored videos
+  posted: ''
+  feed_rank: 0
+  status: pending
+- id: '7700798298466028814'
+  title: Putting my faith in the TikTok algorithm 🥹🇨🇴 Looking for a wedding co...
+  creator: Jenn Lexi (@jennlexi_)
+  creator_slug: jennlexi
+  credential: Esthetician (self-identified); not a dermatologist or cosmetic chemist
+  channel: https://www.tiktok.com/@jennlexi_
+  platform: TikTok
+  tier: MED
+  product_recs: restricted
+  conflict: 'Runs #ad sponsored posts (e.g. TruSkin) and Target skincare hauls/reviews; prefer her educational ingredient-category and barrier-repair explainers, and treat product recommendations as effectively promotional (skip).'
+  posted: '2026-10-26'
+  feed_rank: 0
+  status: pending
+- id: '7700759360355470606'
+  title: It took me 3 years of trial and error to finally understand what my s...
+  creator: Jenn Lexi (@jennlexi_)
+  creator_slug: jennlexi
+  credential: Esthetician (self-identified); not a dermatologist or cosmetic chemist
+  channel: https://www.tiktok.com/@jennlexi_
+  platform: TikTok
+  tier: MED
+  product_recs: restricted
+  conflict: 'Runs #ad sponsored posts (e.g. TruSkin) and Target skincare hauls/reviews; prefer her educational ingredient-category and barrier-repair explainers, and treat product recommendations as effectively promotional (skip).'
+  posted: '2026-10-25'
+  feed_rank: 1
+  status: pending
+- id: '7700733915673283854'
+  title: 'How to get glass skin✨🪩 #skinfone #vitaminc @Geek & Gorgeous @IUNIK '
+  creator: Jenn Lexi (@jennlexi_)
+  creator_slug: jennlexi
+  credential: Esthetician (self-identified); not a dermatologist or cosmetic chemist
+  channel: https://www.tiktok.com/@jennlexi_
+  platform: TikTok
+  tier: MED
+  product_recs: restricted
+  conflict: 'Runs #ad sponsored posts (e.g. TruSkin) and Target skincare hauls/reviews; prefer her educational ingredient-category and barrier-repair explainers, and treat product recommendations as effectively promotional (skip).'
+  posted: '2026-10-25'
+  feed_rank: 2
+  status: pending
+- id: '7700641345098009869'
+  title: 'The toner pad list, curated by a beauty product developer: @House of ...'
+  creator: Kristin Leite (kristingl)
+  creator_slug: kristin-leite
+  credential: Beauty product developer and skincare educator (NOT a dermatologist or cosmetic chemist)
+  channel: https://www.tiktok.com/@kristingl
+  platform: TikTok
+  tier: MED
+  product_recs: null
+  conflict: runs an Amazon affiliate storefront and does sponsored posts - strongly prefer educational / how-to / ingredient-explainer videos; be very cautious with any product recommendation
+  posted: '2026-10-25'
+  feed_rank: 0
+  status: pending
+- id: '7700624765488319757'
+  title: 'If your skin isn’t clean, your products won’t work 🤷‍♀️ #acneproneski...'
+  creator: Ella (@your.estie.ella)
+  creator_slug: your-estie-ella
+  credential: Licensed esthetician (NOT a dermatologist or cosmetic chemist)
+  channel: https://www.tiktok.com/@your.estie.ella
+  platform: TikTok
+  tier: MED
+  product_recs: ok
+  conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan and reject any sponsored/affiliate/gifted video
+  posted: '2026-10-25'
+  feed_rank: 0
   status: pending
