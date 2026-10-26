@@ -81,6 +81,37 @@ audit log -> queue harvested videos -> parallel read-only intake drafts cards ->
 centrally, each linking every mentioned page. Then the daily video-pull cron keeps the
 expanded roster fresh on rotation. Bounded passes (~15-20 candidates), repeatable.
 
+## 4b. Rotation jams: when the oldest `last_pulled` is a creator we always skip
+
+`roster_next.py pull` and `roster_next.py noyt` return the creator with the
+oldest `last_pulled`. A creator whose content the pull crons are instructed to
+skip therefore becomes the permanent head and is re-offered on every tick, since
+skipping does not advance their date. The fallback path then costs a tick and
+yields nothing.
+
+Observed twice on 2026-10-25: `noyt` returned **Kristin Leite** both times. Her
+roster conflict is an Amazon affiliate storefront, and the pull crons treat an
+affiliate-storefront creator's picks and favourites as effectively paid, which is
+most of what she posts. Nothing is wrong with the rule or with her vetting; the
+rotation simply has no way to express "eligible, but only for part of their
+output".
+
+How to handle it, in order of preference:
+
+1. **Pull them for the eligible slice.** Her conflict line already says to prefer
+   educational, how-to and ingredient-explainer clips, so those ARE cardable. A
+   tick that pulls her catalog and cards an explainer is the intended outcome,
+   not a workaround.
+2. **If the eligible slice is genuinely empty**, that is a roster decision rather
+   than a per-tick one: either set `product_recs: never` so the restriction is
+   explicit, or drop the creator from the rotation. Leave it to a human; do not
+   quietly advance `last_pulled` for a creator you did not actually pull, which
+   fakes the bookkeeping and hides the jam.
+
+Do not advance `last_pulled` to clear the head. The analogous Track 2 problem and
+its `9999` sentinel are in docs/video-backfill-process.md; Track 1 has no
+equivalent sentinel yet, and a `rotation_skip: true` flag would be the clean fix.
+
 ## 5. Audit trail
 
 `data/creator-vetting-log.yaml`: one entry per candidate ever vetted — verdict, reason,
