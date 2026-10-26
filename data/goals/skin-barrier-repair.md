@@ -465,6 +465,16 @@ videos:
   related: [exfoliating-acids-by-strength, glycolic-acid, salicylic-acid, retinol, keratosis-pilaris, smoothing-skin-texture]
   thesis: Board-certified dermatologist Dr. Laura Soong explains why over-exfoliating damages the skin barrier, describing the epidermis as a brick-and-mortar layer that keeps irritants out and water in, and which turns over on its own roughly every 28 days. She is hardest on mechanical exfoliation, saying dry brushing, loofahs, scrubby mitts and apricot scrubs vigorously disrupt that barrier and can set the stage for irritation, inflammation, itch and eczema, and that a gentle hydrating cleanser and your hands are enough. On chemical exfoliants such as glycolic or salicylic acid she is positive but conditional, warning against combining them with mechanical scrubbing or with retinol on the same day, and saying that redness, dryness, flaking, itch or burning means you are overdoing it and should stop and focus on barrier repair
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: 'Swap your summer routine for fall: a gentler cleanser and a little exfoliation'
+  creator: Fatima Fahs
+  creator_slug: fatima-fahs
+  credential: Dermatologist (MD)
+  platform: TikTok
+  url: https://www.tiktok.com/@dermydoctor/video/7687968071545310478
+  posted: '2026-09-21'
+  related: [double-cleansing, dry-skin, exfoliating-acids-by-strength]
+  thesis: 'Dermatologist Dr Fatima Fahs gives two small seasonal adjustments rather than a routine overhaul, which she says is the mistake she sees every autumn alongside the opposite one of ignoring the season entirely. She suggests adding an exfoliating acid a few nights a week, on the reasoning that the skin''s own exfoliation slows as the year cools, and she caps it herself: a few nights, not going wild, because the point is not to wreck the skin barrier. Her second suggestion is to swap an intense cleanser for a gentler one as the weather and the humidity change. She names no specific product or acid.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

@@ -5815,7 +5815,8 @@
   conflict: Co-developed/formulated the Tbh Skincare 'Rebound' Serum and Toner (product-formulation partnership) — her endorsement of that spe; no YouTube; TikTok/IG intake
   posted: '2026-09-21'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: Caption opens with the literal token 'ad|', so it is a disclosed paid post; rejected on caption alone
 - id: '7687824519360302357'
   title: lip liner is hard! so swatching some cool toned contour lip liners an...
   creator: Hannah English (@ms_hannah_e / Hannah Collingwood English)
@@ -6276,7 +6277,8 @@
   conflict: Co-developed/formulated the Tbh Skincare 'Rebound' Serum and Toner (product-formulation partnership) — her endorsement of that spe; no YouTube; TikTok/IG intake
   posted: '2026-09-21'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: Makeup clip about new Merit lip liner shades; makeup tutorials and shade launches are excluded by STEP 2 and no skincare topic page matches
 - id: '7688020768579521805'
   title: 'Day 4 part 2: what is dehydrated skin? #dehydratedskin #dryskin #dehy...'
   creator: Jenn Lexi (@jennlexi_)
@@ -6328,7 +6330,8 @@
   conflict: runs an Amazon affiliate storefront and does sponsored posts - strongly prefer educational / how-to / ingredient-explainer videos; be very cautious with any product recommendation
   posted: '2026-09-21'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: Engagement-bait post tagging @KraveBeauty and asking for comments on a new cream; this creator's picks route to an Amazon affiliate storefront so they are treated as effectively paid, and the clip carries no education
 - id: g6bxuosUPNE
   title: 'Derm Hacks I LOVE — | #shorts #skincare |'
   creator: Dr. Lindsey Zubritsky (DermGuru)
@@ -6465,7 +6468,8 @@
   conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan and reject any sponsored/affiliate/gifted video
   posted: '2026-09-21'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'Korean hair care wishlist clip carrying a #targetbeauty retail hashtag; hair care is outside the topics this site grades and the hashtag signals a retail partnership'
 - id: '7688039240214547726'
   title: Moved in 4 days ago so we still have a waaaays to go but let me know ...
   creator: Ella (@your.estie.ella)
