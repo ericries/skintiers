@@ -2734,3 +2734,26 @@
     on terminal hair at 24 weeks, male patients only. The page should grade TOPICAL
     (the OTC form, in scope) and link the oral comparison as context rather than a
     recommendation; hair-loss-thinning already places Rx systemics out of scope.'
+- name: 'Trichloroacetic acid (TCA) - the peel acid now cited twice on chemical-peels-acne-scars
+    (Puri 2015 at 20% as a full-face peel, Soysal 2025 at 70% and 100% for the CROSS
+    technique) with no ingredient page to carry its concentration-versus-depth story.
+    The honest spine already exists: doubling CROSS concentration from 70% to 100%
+    bought longer crusting without measurable extra efficacy, and within the 100%
+    arm it worked better on icepick than boxcar scars. Source: pubmed.ncbi.nlm.nih.gov/40072613
+    + pubmed.ncbi.nlm.nih.gov/25949022'
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null
+- name: 'Resorcinol - the third active in Jessner''s solution alongside salicylic
+    acid and lactic acid, both of which already have pages; it is the component that
+    makes Jessner''s a combination peel rather than a single-acid one, and it has
+    its own safety history worth checking in primary sources. Needed so chemical-peels-acne-scars
+    can link what Jessner''s actually contains. Source: DailyMed/openFDA for any labelled
+    products + pubmed.ncbi.nlm.nih.gov/25949022'
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null

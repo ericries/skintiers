@@ -297,14 +297,24 @@
 - name: Jessner and combination peels for post-acne texture
   type: goal
   priority: 5
-  status: pending
+  status: done
   discovered_from: chemical-peels-acne-scars
   source: 'Grounded in the gap the new chemical-peels-acne-scars page names explicitly:
     all three network meta-analyses treat ''chemical peel'' as a single node and none
     states the agent or depth, so a reader cannot act on the finding. Only build this
     if a primary source actually compares named peel formulations head to head; if
     the literature genuinely does not support it, strengthen the agent-unknown section
-    on chemical-peels-acne-scars instead and resolve this entry with that note.'
+    on chemical-peels-acne-scars instead and resolve this entry with that note. NOT
+    created as a separate goal page: chemical-peels-acne-scars (1205 words, already
+    carries the tier_list, and is the page this item came FROM) owns the peel topic,
+    so a Jessner page would fragment it. Confirmed the gap was real before editing:
+    Jessner, TCA, trichloroacetic and resorcinol each appeared ZERO times on that
+    hub. Added a ''Which peel agent, and at what strength'' section covering the two
+    direct trials, both null: Puri 2015 (n=50) found Jessner plus 20% TCA not significantly
+    better than 20% TCA alone despite a 60% vs 28% marked-improvement split, and Soysal
+    2025 (n=40) found 70% vs 100% TCA CROSS equal on efficacy with longer crusting
+    at 100%. Left the existing partner-procedure tier_list untouched, since its axis
+    is what the peel is COMBINED with, not which peel agent to use.'
 - name: 'Exfoliation: chemical versus physical, and how it differs from cell turnover'
   type: goal
   priority: 5

@@ -3,7 +3,7 @@ aliases:
 - Chemical peels for acne scars
 - chemical peeling acne scars
 - peel plus microneedling acne scars
-analyzed: '2026-10-18'
+analyzed: '2026-10-25'
 assurance: sonnet
 name: Chemical Peels for Acne Scars and Texture
 slug: chemical-peels-acne-scars
@@ -44,19 +44,37 @@ tier_list:
       ranking itself under active dispute
   title: Chemical-peel combinations for acne scars, by partner procedure
 type: goal
-updated: '2026-10-18'
+updated: '2026-10-25'
 videos:
-- title: Everything You Need to Know About Chemical Peels
-  creator: Tanya Kormeili, MD, FAAD
+- creator: Tanya Kormeili, MD, FAAD
   creator_slug: tanya-kormeili-md
-  credential: Board-certified dermatologist (American Board of Dermatology), FAAD, Clinical Professor of Dermatology at UCLA David Geffen School of Medicine
-  platform: YouTube
-  url: https://www.youtube.com/watch?v=2Cm_6IqvtIQ
-  posted: '2025-09-03'
-  related: [glycolic-acid, lactic-acid, salicylic-acid, melasma, even-skin-tone, exfoliating-acids-by-strength, smoothing-skin-texture]
-  thesis: 'Dermatologist Dr. Tanya Kormeili explains that chemical peel is a generic term covering wildly different treatments, comparing it to the word battery, where one may be a gentle acid that lightly exfoliates with no downtime and another removes the first and part of the second layer of skin and can require months of healing. On mechanism she describes skin cells as held together by tight junctions, with the acid chosen to break those bonds at a particular depth so the cells above shed. Her most useful caution concerns deeper skin tones: the junction between the first and second layers hosts the melanocytes that make pigment, so peeling aggressively there risks disrupting them and releasing pigment that can settle deeper or scatter, which is why she says peel choice has to be matched to the problem being treated, the skin type and the acceptable downtime rather than chosen by strength alone.'
+  credential: Board-certified dermatologist (American Board of Dermatology), FAAD,
+    Clinical Professor of Dermatology at UCLA David Geffen School of Medicine
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
-
+  platform: YouTube
+  posted: '2025-09-03'
+  related:
+  - glycolic-acid
+  - lactic-acid
+  - salicylic-acid
+  - melasma
+  - even-skin-tone
+  - exfoliating-acids-by-strength
+  - smoothing-skin-texture
+  thesis: 'Dermatologist Dr. Tanya Kormeili explains that chemical peel is a generic
+    term covering wildly different treatments, comparing it to the word battery, where
+    one may be a gentle acid that lightly exfoliates with no downtime and another
+    removes the first and part of the second layer of skin and can require months
+    of healing. On mechanism she describes skin cells as held together by tight junctions,
+    with the acid chosen to break those bonds at a particular depth so the cells above
+    shed. Her most useful caution concerns deeper skin tones: the junction between
+    the first and second layers hosts the melanocytes that make pigment, so peeling
+    aggressively there risks disrupting them and releasing pigment that can settle
+    deeper or scatter, which is why she says peel choice has to be matched to the
+    problem being treated, the skin type and the acceptable downtime rather than chosen
+    by strength alone.'
+  title: Everything You Need to Know About Chemical Peels
+  url: https://www.youtube.com/watch?v=2Cm_6IqvtIQ
 ---
 
 Chemical peels are the cheapest and most widely available of the acne-scar procedures, and in two separate network meta-analyses a peel combination came out on top.[^li][^wu] **Bottom line:** the pooled evidence favours pairing a peel with microneedling or laser rather than using either alone, but the most recent analysis says the literature is too thin to rank anything reliably, and none of it tells you which acid or what strength.[^liu] For the ranking across all procedures see [[acne-scar-procedures-by-evidence]]; for the scar types themselves see [[acne-scars]].
@@ -73,6 +91,12 @@ Chemical peels are the cheapest and most widely available of the acne-scar proce
 
 **Scar type is the gap behind all of this.** The 2026 review notes that "No included trial reported treatment effects by scar morphology, so phenotype-based comparative efficacy could not be tested."[^liu] Icepick, rolling and boxcar scars are structurally different problems, and no pooled evidence yet tells you whether a peel combination suits yours.
 
+## Which peel agent, and at what strength
+
+**Adding Jessner's solution to TCA did not measurably beat TCA alone.** The combination is widely described as the stronger option, and the one trial here that tested it head to head did not confirm that. Fifty patients were split evenly between Jessner's followed by 20% TCA and 20% TCA alone; marked improvement reached 60% of the combination group against 28% on TCA alone, yet "the difference in improvement of acne scars was not statistically significant in both the groups (P value > 0.05)".[^puri] Twenty-five patients per arm is small enough that a real difference of that size could hide, so treat the combination as untested rather than disproved. The paper itself attributes the superiority claim to Monheit's original description rather than to trial data.[^puri]
+
+**Doubling TCA strength bought downtime, not results.** For the CROSS technique, which drives high-concentration TCA into individual scars, 40 patients were randomised to 70% or 100% TCA. The authors report "No significant differences in overall efficacy were observed between the two treatment groups", while "the crusting time following the procedure was longer in the group treated with 100% TCA".[^soysal] The most useful finding sits inside the 100% arm: efficacy was significantly greater for icepick scars than for boxcar scars.[^soysal] That is a partial answer to the morphology question above, from one trial rather than pooled data, and it points the same way as [[acne-scars]].
+
 **Medical note.** This is educational content, not a substitute for a clinician. Medium and deeper peels are clinical procedures with real risks of scarring and pigment change, and a peel is not a reasonable first move for active [[acne]] or for scars you have not had assessed.
 
 ## See Also
@@ -86,6 +110,10 @@ Chemical peels are the cheapest and most widely available of the acne-scar proce
 - [[glycolic-acid]], [[salicylic-acid]], [[lactic-acid]] and [[mandelic-acid]]: acids used in peel formulations, graded here as topicals
 
 ## Sources
+
+[^puri]: Puri N. "Efficacy of Modified Jessner's Peel and 20% TCA Versus 20% TCA Peel Alone for the Treatment of Acne Scars." Journal of Cutaneous and Aesthetic Surgery. 2015 Jan-Mar;8(1):42-5. doi: 10.4103/0974-2077.155082. PMID 25949022. PMCID PMC4411592. Single-author study from the Department of Dermatology, Punjab Health Systems Corporation, Ludhiana, India. Design as described: "The patients were divided into two groups of 25 patients each", Group I receiving "chemical peeling with Jessner's peel followed by 20% TCA" and Group II "chemical peeling with 20% TCA peel alone". Results quoted verbatim and re-verified against the PubMed abstract on 2026-10-25: Group I showed "mild improvement of acne scars was seen in 8% cases, moderate improvement in 32% cases and marked improvement of acne scars was seen in 60% patients", Group II "mild improvement of acne scars was seen in 32% cases, moderate improvement in 40% cases and marked improvement of acne scars was seen in 28% patients", and "the difference in improvement of acne scars was not statistically significant in both the groups (P value > 0.05)". The framing that the combination "is said to be better than a TCA peel alone" is the abstract's own, and it attributes the combination peel to Monheit's original description. Checked by string search on 2026-10-25: the abstract states no randomisation method, no blinding, no confidence interval, no exact p-value and no follow-up duration, and it does not break results down by scar morphology, so none of those is claimed above. Conflict of interest statement: "Conflict of Interest: None declared." Only the abstract was read. https://pubmed.ncbi.nlm.nih.gov/25949022/ (accessed 2026-10-25)
+
+[^soysal]: Soysal MÇ, Akçalı C. "Comparison of 70% and 100% concentration of trichloroacetic acid peeling efficacy with chemical reconstruction of skin scars technique in atrophic acne scar treatment." Archives of Dermatological Research. 2025 Mar 12;317(1):547. doi: 10.1007/s00403-025-04059-4. PMID 40072613. Indexed for MEDLINE. Randomised comparison: "A total of 40 patients were randomly assigned to two equal groups of 20: the first group received 70% TCA, while the second group was treated with 100% TCA", with both patient-reported outcomes and researcher assessments used, plus burning intensity and duration of the frosted appearance recorded. Mean age 27.07 plus or minus 5.48 years in the 70% group and 23.5 plus or minus 2.9 years in the 100% group. Quotes used, each re-verified verbatim against the PubMed abstract on 2026-10-25: "No significant differences were observed between post-treatment scores provided by patients and researchers."; "However, within the 100% TCA group, treatment efficacy was significantly greater for icepick scars than for boxcar scars."; "Additionally, crusting durations were significantly prolonged in the 100% TCA group."; and from the conclusion "No significant differences in overall efficacy were observed between the two treatment groups. Notably, the crusting time following the procedure was longer in the group treated with 100% TCA." Checked by string search on 2026-10-25: the abstract reports no effect size, no confidence interval and no exact p-value for any comparison, and no follow-up duration, so none is claimed above. The icepick-versus-boxcar comparison is a within-group finding in the 100% arm only and is reported as such. Competing interests: "The authors declare no competing interests." Only the abstract was read. https://pubmed.ncbi.nlm.nih.gov/40072613/ (accessed 2026-10-25)
 
 [^li]: Li H, Jia B, Zhang X. "Comparing the efficacy and safety of microneedling and its combination with other treatments in patients with acne scars: a network meta-analysis of randomized controlled trials." Archives of Dermatological Research. 2024 Aug 7;316(8):505. doi: 10.1007/s00403-024-03256-x. PMID 39110247. Network meta-analysis, analyses in Stata 18. Quotes and figures used: "A total of 24 studies involving 1546 participants were included."; "MN combined with chemical peels (CP) exhibited the best results in terms of degree of improvement, patient satisfaction, and treatment efficacy compared to other treatments examined, including MN alone, MN with hyaluronic acid (HA), MN with botulinum toxin-A (TA), MN with platelet-rich plasma (PRP), PRP alone, CP, and laser therapy."; "The results for MN combined with additional treatments were obviously better than for MN alone."; "Side effects such as erythema, pain, and post-inflammatory hyperpigmentation showed no significant differences across all treatments assessed." The abstract names no peel agent, concentration or depth. Only the PubMed abstract was accessed, so per-comparison effect sizes, credible intervals and risk-of-bias results could not be verified. https://pubmed.ncbi.nlm.nih.gov/39110247/ (accessed 2026-10-18)
 

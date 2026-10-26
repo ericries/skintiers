@@ -1555,3 +1555,25 @@
   status: pending
   discovered_from: null
   source: null
+- name: 'Puri 2015: modified Jessner''s plus 20% TCA versus 20% TCA alone for acne
+    scars (J Cutan Aesthet Surg 2015;8(1):42-5, PMID 25949022) - n=50, 25 per arm.
+    A NULL result worth a study page because the percentages look decisive and are
+    not: marked improvement 60% vs 28%, p > 0.05. The abstract reports no randomisation
+    method, no blinding, no exact p-value and no follow-up duration. Now cited on
+    chemical-peels-acne-scars. Source: pubmed.ncbi.nlm.nih.gov/25949022'
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null
+- name: 'Soysal 2025: 70% versus 100% TCA CROSS for atrophic acne scars (Arch Dermatol
+    Res 2025;317(1):547, PMID 40072613) - randomised, n=40. No overall efficacy difference,
+    significantly longer crusting at 100%, and a within-arm finding that 100% TCA
+    worked significantly better on icepick than boxcar scars, which is the kind of
+    morphology-specific result acne-scars needs. Now cited on chemical-peels-acne-scars.
+    Source: pubmed.ncbi.nlm.nih.gov/40072613'
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null
