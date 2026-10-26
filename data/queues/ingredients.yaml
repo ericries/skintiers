@@ -2811,3 +2811,14 @@
   status: pending
   discovered_from: null
   source: null
+- name: 'Acitretin (oral retinoid) - named in hsu-2025-ethnic-differences-palmoplantar-pustulosis
+    as a conventional treatment for palmoplantar pustulosis, and it is a systemic
+    retinoid the site''s retinoids page has nothing to link for. Prescription-only
+    and teratogenic, so the page must be scoped carefully and is NOT a skincare active.
+    Verify marketing category and labelling from openFDA drug/ndc + DailyMed before
+    writing. Source: openFDA + DailyMed'
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null

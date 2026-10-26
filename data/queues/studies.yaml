@@ -819,9 +819,14 @@
     (PMID 40888828)'
   type: study
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
-  source: https://pubmed.ncbi.nlm.nih.gov/40888828/
+  source: 'https://pubmed.ncbi.nlm.nih.gov/40888828/ Shipped as hsu-2025-ethnic-differences-palmoplantar-pustulosis.
+    Compact per the study scope. Note for anyone reusing it: the treatment-response
+    signal is confounded by design (separate cohorts, different health systems) and
+    must not be read as an efficacy difference by ethnicity; ''biologics were less
+    commonly used in Asia'' is access and prescribing, not efficacy. Senior-author
+    COI is extensive and is recorded on the page.'
 - name: Pourani 2025 Evaluation of Facial Artery Course Variations, Diameters, and
     Depth Using Doppler Ultrason (PMID 40874402)
   type: study
@@ -1595,6 +1600,17 @@
     symptoms. Worth a page precisely BECAUSE the large n reads as strong evidence
     and the design cannot support it: open-label, no control, no randomisation, no
     blinding, and concurrent pharmacological treatment permitted. Source: pubmed.ncbi.nlm.nih.gov/28686779'
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null
+- name: 'Pourani 2025: facial artery course variations, diameters and depth by Doppler
+    ultrasound (PMID 40874402) - NOW THE STUDY QUEUE HEAD, flagged here because it
+    may be out of scope: facial vascular anatomy serves injectable-filler safety rather
+    than topical skincare or product grading. Decide scope before drafting; if it
+    is kept, it belongs alongside the filler and procedure pages rather than any ingredient
+    page. Source: pubmed.ncbi.nlm.nih.gov/40874402'
   type: study
   priority: 5
   status: pending

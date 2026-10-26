@@ -609,3 +609,16 @@
   source: 'the sole-and-sides pattern that splits the two leading OTC antifungal creams:
     Lamisil AT claims it with a two-week course, Lotrimin Ultra says effectiveness
     there is unknown. No page covers the pattern itself'
+- name: 'Palmoplantar pustulosis (PPP) - sterile pustules on an erythematous base
+    over palms and soles, chronic and relapsing. The site has psoriasis but no PPP
+    hub, so hsu-2025-ethnic-differences-palmoplantar-pustulosis (now published) has
+    nothing condition-level to attach to. The review supplies the spine: incidence
+    highest in East Asian and especially Japanese populations, female-predominant
+    worldwide but male-predominant in Asia, IL36RN/CARD14/HLA genetics, and strong
+    smoking association. Treat the ethnic treatment-response data as hypothesis-generating
+    only. Source: pubmed.ncbi.nlm.nih.gov/40888828'
+  type: condition
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null
