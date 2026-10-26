@@ -3387,7 +3387,7 @@
 - name: Tria FANp / Tria Age-Defying Laser (K141868, 1450 nm home fractional laser)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: home-fractional-nonablative-laser
   source: 'The ONLY consumer fractional nonablative laser whose FDA file this site
     has traced, and the device that should sit under the Level A modality grade. VERIFIED
@@ -3399,7 +3399,16 @@
     the site has hit retail-to-clearance naming drift on every device line so far;
     and whether the product is still sold, because Tria''s last clearance was 2016.
     Note the file says only that ''Performance data was submitted'' without saying
-    clinical or nonclinical.'
+    clinical or nonclinical. Shipped as tria-fanp-age-defying-laser. 1450 nm CONFIRMED
+    from the Summary (''1450 nm plus or minus 50 nm''), so the queue''s figure was
+    right. Key findings: the cleared indication is periorbital wrinkles (crow''s feet)
+    ONLY while the storefront claims pigmentation, dark spots, collagen and elasticity;
+    the efficacy case is an equivalence ladder (FANp open-label n=45 equivalent to
+    FAN System, which was open-label n=60 equivalent to in-office Fraxel/Affirm/Palomar)
+    with no control arm at any rung; all 5 Tria clearances are Summaries, which is
+    a good disclosure record. image_unresolvable because the storefront pictures the
+    FRX and no clearance is named FRX, so the identity cannot be verified. No Apify
+    call; products.json carried price and claims.'
 - name: TheraFace LED (Theragun/Therabody, K212155)
   type: product
   priority: 5
@@ -4181,6 +4190,30 @@
     claims are likely unreadable from eucerin.com (JS shell, 404s on regional paths,
     see eucerin-antiredness-soothing-care), so expect to ship without price. Source:
     incidecoder + openFDA not applicable (cosmetic)'
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null
+- name: 'Tria FRX Skin Rejuvenating Fractional Laser (2nd Gen), $699.99 - the device
+    Tria SELLS today under the fractional name, which tria-fanp-age-defying-laser
+    deliberately does NOT claim is the same unit as K141868. Resolve the identity
+    first: openFDA has no Tria clearance named FRX or Age-Defying, and the only two
+    ONG fractional clearances are K130459 (FAN System) and K141868 (FANp). Either
+    the FRX ships under one of those clearances or there is a newer filing not indexed
+    under that name. Do not write the page until that is settled. Source: triabeauty.com/products.json
+    + openFDA applicant Tria Beauty'
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null
+- name: 'Tria Sapphire (K160821, product code OLP, Tria Beauty, cleared 2016-06-15,
+    510(k) Summary) - Tria''s blue-light acne device and the firm''s most recent clearance,
+    with no page while the site covers other OLP acne-light devices (foreo-espada-blue-light-pen,
+    pulsaderm-acne-mask-28, dpl-spotlite). OLP is the same product code as those,
+    so it belongs on led-colours-for-acne-by-evidence. Source: openFDA device/510k
+    + accessdata.fda.gov/cdrh_docs/pdf16/K160821.pdf'
   type: product
   priority: 5
   status: pending

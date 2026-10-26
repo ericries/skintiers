@@ -511,3 +511,15 @@
   status: pending
   discovered_from: null
   source: null
+- name: 'Tria Beauty - home laser maker with 5 FDA clearances, ALL published as 510(k)
+    Summaries (acne K090312, hair removal K120737, FAN K130459, FANp K141868, Sapphire
+    K160821), which is a clean disclosure record on the axis used by home-led-devices-by-what-the-file-publishes.
+    The site now covers tria-fanp-age-defying-laser with no brand page to link it,
+    and its products.json endpoint is readable so price needs no metered lookup. Note
+    the retail names (FRX, Age-Defying) do not match any clearance name. Source: openFDA
+    applicant Tria Beauty + triabeauty.com/products.json'
+  type: brand
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null
