@@ -488,7 +488,7 @@
 - name: 'Athlete''s foot: strengthen the interdigital versus moccasin-pattern distinction'
   type: condition
   priority: 5
-  status: pending
+  status: done
   discovered_from: lotrimin-ultra-athletes-foot-cream
   source: 'MAINTENANCE, not a new hub: do NOT create a separate moccasin-tinea page,
     strengthen the existing athletes-foot page. Grounded in a label admission: Lotrimin
@@ -503,7 +503,17 @@
     tube may buy a product that makes no athlete''s foot claim at all. Alongside Lotrimin
     Ultra''s admission that effectiveness on the bottom or sides of the foot is unknown,
     athletes-foot now has two sourced reasons to tell readers to read the Uses section
-    rather than the brand name.'
+    rather than the brand name. Done, with one correction to the premise: the queue
+    framed it as a TWO-pattern distinction, and the 2023 Drugs in Context review (PMID
+    37415917) says ''Three main clinical forms of tinea pedis are recognized: interdigital,
+    hyperkeratotic (moccasin-type) and vesiculobullous (inflammatory)''. The vesiculobullous
+    form is now named and flagged as the one the OTC labels do not address at all.
+    The hub already covered the locations well in lay terms but the words moccasin
+    and interdigital appeared ZERO times, which was the real discovery gap; added
+    as prose plus frontmatter aliases so clinical searches resolve. Also linked the
+    two product pages carrying the label split (lamisil-at vs lotrimin-ultra), which
+    the hub referenced only at active-ingredient level, and added the review''s ''The
+    accuracy of clinical diagnosis of tinea pedis is low'' to the diagnosis section.'
 - name: Actinic cheilitis
   type: condition
   priority: 5
@@ -617,6 +627,18 @@
     worldwide but male-predominant in Asia, IL36RN/CARD14/HLA genetics, and strong
     smoking association. Treat the ethnic treatment-response data as hypothesis-generating
     only. Source: pubmed.ncbi.nlm.nih.gov/40888828'
+  type: condition
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null
+- name: 'Vesiculobullous (inflammatory) tinea pedis - the THIRD recognized clinical
+    form of athlete''s foot, named on athletes-foot from the 2023 review (PMID 37415917)
+    as the one the over-the-counter labels do not address at all. That gap is the
+    point: butenafine, terbinafine and clotrimazole OTC labels all write their claims
+    by LOCATION (between the toes, bottom or sides) and none claims the blistering
+    form, so a reader with it has no OTC claim to rely on. Needs its own hub or a
+    clearly flagged section. Source: pubmed.ncbi.nlm.nih.gov/37415917'
   type: condition
   priority: 5
   status: pending

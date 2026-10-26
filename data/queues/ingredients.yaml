@@ -2862,3 +2862,14 @@
   status: pending
   discovered_from: null
   source: null
+- name: 'Potassium hydroxide (KOH) wet-mount preparation - not a skincare active but
+    the recommended point-of-care diagnostic for tinea pedis per the 2023 review now
+    cited on athletes-foot, and the thing that distinguishes ''I think this is athlete''s
+    foot'' from a confirmed diagnosis when clinical accuracy is low. Decide scope
+    first: if diagnostics are out of scope for the ingredient type, this belongs as
+    a section on athletes-foot or a condition-level explainer instead. Source: pubmed.ncbi.nlm.nih.gov/37415917'
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null

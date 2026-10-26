@@ -1653,3 +1653,16 @@
   status: pending
   discovered_from: null
   source: null
+- name: 'Leung 2023: tinea pedis, an updated review (Drugs in Context 2023;12:2023-5-1,
+    PMID 37415917) - now the source on athletes-foot for the three clinical forms
+    and for the diagnostic-accuracy caveat. Worth a page because two facts in it change
+    how a reader should act: ''The accuracy of clinical diagnosis of tinea pedis is
+    low'' and KOH wet-mount of the active lesion border is the recommended point-of-care
+    test. Note for the page: NARRATIVE review (PubMed Clinical Queries, English, last
+    10 years) with no pooled estimate, so it cannot carry treatment grades, which
+    stay with the Cochrane review. Source: pubmed.ncbi.nlm.nih.gov/37415917'
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null
