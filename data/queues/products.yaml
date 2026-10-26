@@ -4114,3 +4114,59 @@
   status: pending
   discovered_from: null
   source: null
+- name: CeraVe Skin Renewing Super Boost Serum
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: anti-aging
+  source: 'Dr. Aleksandra Brown - Stop Wasting Money: The Drugstore Skincare Mature
+    Skin Actually Needs (video, r5Bx2OhMu6E)'
+- name: Olay Collagen Peptide Visibly Firming Serum
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: anti-aging
+  source: 'Dr. Aleksandra Brown - Stop Wasting Money: The Drugstore Skincare Mature
+    Skin Actually Needs (video, r5Bx2OhMu6E)'
+- name: RoC Retinol Correxion Deep Wrinkle Serum
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: anti-aging
+  source: 'Dr. Aleksandra Brown - Stop Wasting Money: The Drugstore Skincare Mature
+    Skin Actually Needs (video, r5Bx2OhMu6E)'
+- name: The Ordinary Lactic Acid 5% + HA
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: anti-aging
+  source: 'Dr. Aleksandra Brown - Stop Wasting Money: The Drugstore Skincare Mature
+    Skin Actually Needs (video, r5Bx2OhMu6E)'
+- name: 'Prequel Retinal Renew (retinaldehyde) - named by Dr. Aleksandra Brown (video
+    r5Bx2OhMu6E) as a retinaldehyde serum one conversion step from retinoic acid,
+    sold in two strengths, with glycerin, ectoine, centella and jojoba in the base.
+    CAUTION for whoever builds it: the auto-captions garble the strengths as ''0.1
+    and 2%'' which is almost certainly 0.1% and 0.2%, so RESOLVE both the exact product
+    name (Retinal vs Retinol) and the strengths from the brand before writing anything.
+    Source: Dr. Aleksandra Brown - Drugstore Skincare Mature Skin Actually Needs (video,
+    r5Bx2OhMu6E)'
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null
+- name: 'Neutrogena Ultra Sheer Daily Face Sunscreen SPF 70 with bemotrizinol - a
+    DIFFERENT SKU from the existing neutrogena-ultra-sheer-dry-touch-spf-70 page,
+    which explicitly describes bemotrizinol/Tinosorb S as a modern filter standard
+    in the EU, Korea and Australia but NOT in that US product. Dr. Aleksandra Brown
+    (video r5Bx2OhMu6E) describes a new US Neutrogena combining bemotrizinol with
+    avobenzone, homosalate and octisalate, saying bemotrizinol is ''finally seeing
+    it appear in the United States''. If true this is significant for sunscreen-uv-filters,
+    which currently frames bemotrizinol as unavailable in the US. VERIFY against openFDA/DailyMed
+    or the brand before changing that page; a video claim alone is not enough. Source:
+    Dr. Aleksandra Brown (video, r5Bx2OhMu6E)'
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null

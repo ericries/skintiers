@@ -33,6 +33,19 @@ slug: vanicream-gentle-facial-cleanser
 status: published
 type: product
 updated: '2026-08-07'
+videos:
+- title: 'Stop Wasting Money: The Drugstore Skincare Mature Skin Actually Needs'
+  creator: Dr. Aleksandra Brown, DO, FAAD
+  creator_slug: aleksandra-brown
+  credential: Board-certified dermatologist (DO, FAOCD, FAAD), practicing at River Ridge Dermatology / HCA Virginia (LewisGale), Blacksburg VA
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=r5Bx2OhMu6E
+  posted: '2026-10-11'
+  related: [retinoids, vitamin-c, peptides, sunscreen-uv-filters, lactic-acid, zinc-oxide, niacinamide]
+  thesis: 'Board-certified dermatologist Dr. Aleksandra Brown builds a drugstore routine for mature skin and spends most of it arguing for fewer products rather than more, saying that skin which seems too sensitive for anti-aging actives usually has a routine that is too aggressive. She ranks the categories by evidence rather than price: retinoids carry the best evidence in topical skincare and sunscreen protects every other step, while peptides are an optional supporting serum she explicitly declines to place in the same evidence tier as those two, and exfoliation is optional on top of a retinoid. Her picks are offered as alternatives to choose between according to skin type, including Vanicream Gentle Facial Cleanser for dry or reactive skin, the Timeless 20 percent vitamin C and ferulic serum for people who already tolerate ascorbic acid, CeraVe Skin Renewing Night Cream for richer hydration, Gold Bond Age Renew retinol for neck chest arms and hands, and Vanicream Facial Moisturizer SPF
+    30 at 19.5 percent zinc oxide for sensitive skin.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Vanicream Gentle Facial Cleanser for Sensitive Skin (Vanicream) is a soap-free, fragrance-free facial cleanser positioned for dry, sensitive, and delicate skin.[^1]
