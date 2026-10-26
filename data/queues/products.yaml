@@ -4219,3 +4219,24 @@
   status: pending
   discovered_from: null
   source: null
+- name: 'Silk''n Infinity (K171433, 2017-08-11, OHT, 510(k) Summary, Home Skinovations)
+    - the brand''s IPL hair-removal flagship and its most-sold device, with no page
+    while silkn is now covered as a brand linking only ONE product. OHT is the IPL
+    hair-removal code, a category the site covers via braun-silk-expert-pro-5-ipl,
+    so it has a direct comparator. Source: openFDA device/510k applicant Home Skinovations
+    + accessdata.fda.gov/cdrh_docs/pdf17/K171433.pdf'
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null
+- name: 'Silk''n Blue (K121435, 2013-02-22, product code OLP, 510(k) Summary, Home
+    Skinovations) - a blue-light acne device under the SAME product code as foreo-espada-blue-light-pen,
+    pulsaderm-acne-mask-28, dpl-spotlite and the queued Tria Sapphire, so it belongs
+    on led-colours-for-acne-by-evidence alongside them. No page yet. Source: openFDA
+    device/510k + accessdata.fda.gov/cdrh_docs/pdf12/K121435.pdf'
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null

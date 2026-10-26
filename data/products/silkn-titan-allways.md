@@ -91,7 +91,7 @@ Silk'n sells it directly at $549.00 as the Titan MultiPlatform, with a gel inclu
 
 ## See Also
 
-[[home-radiofrequency-skin-tightening]], [[newa-skin-therapy-system]], [[home-use-skincare-devices-by-evidence]], [[fda-approved-vs-cleared-skincare]], [[led-dose-j-per-cm2-and-wavelength]], [[anti-aging]].
+[[silkn]], [[home-radiofrequency-skin-tightening]], [[newa-skin-therapy-system]], [[home-use-skincare-devices-by-evidence]], [[fda-approved-vs-cleared-skincare]], [[led-dose-j-per-cm2-and-wavelength]], [[anti-aging]].
 
 ## Sources
 

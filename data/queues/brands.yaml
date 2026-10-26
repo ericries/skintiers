@@ -438,10 +438,17 @@
 - name: Silk'n
   type: brand
   priority: 5
-  status: pending
+  status: done
   discovered_from: silkn-titan-allways
   source: 'the new product page sets brand: Silk''n with no brand page to link to;
-    the firm holds at least two PAY-code clearances (K230013, K162784)'
+    the firm holds at least two PAY-code clearances (K230013, K162784) Shipped as
+    silkn, 166 words. Key discovery fact recorded: the brand''s FDA record is split
+    across TWO applicant strings and a search for ''Silkn'' alone returns nothing.
+    15 filings under ''Home Skinovations , Ltd.'' (Yokneam, Israel) and 1 under ''Silk''N
+    Beauty , Ltd.'' (K230013, the Titan AllWays). 15 of 16 are 510(k) Summaries; the
+    16th is DEN190039, a De Novo for the ToothWave toothbrush. Only one Silk''n product
+    has a page, so the roll-up links one. Storefront products.json 404s, so no brand
+    copy or price was read and none is quoted.'
 - name: Orion Corporation / Orion Pharma
   type: brand
   priority: 5

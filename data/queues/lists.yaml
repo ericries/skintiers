@@ -796,3 +796,16 @@
   status: pending
   discovered_from: null
   source: null
+- name: 'Home device brands by how many actives and product codes one name spans -
+    grounded in a pattern now documented three times: Silk''n/Home Skinovations holds
+    16 filings across 8 product codes (GEX laser, OHT IPL, OHS LED, ILY, OLP acne
+    light, NGX, PAY RF, QMJ toothbrush) under TWO applicant names; LED Technologies
+    runs both dpl and reVive; Lotrimin spans four antifungal actives. The common reader
+    problem is that a brand name predicts neither the technology nor the evidence.
+    Source: openFDA applicant queries already run for silkn, dpl, revive-light-therapy
+    and lotrimin-af-antifungal-cream'
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null
