@@ -468,7 +468,7 @@
   last_pulled: '2026-09-13'
 - name: John Barbieri, MD
   creator_slug: john-barbieri-md
-  backfill_cursor: 15
+  backfill_cursor: 30
   credential: Dermatologist, Department of Dermatology, Brigham and Women's Hospital
   tier: HIGH
   channel: https://www.youtube.com/channel/UCm0RvvD6gfywapkgOt3bFCA/videos

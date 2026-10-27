@@ -30,6 +30,19 @@ status: published
 type: product
 updated: '2026-08-30'
 videos: []
+videos:
+- title: How good is the new Minocycline-MR (Emrosi) for rosacea?
+  creator: John Barbieri, MD
+  creator_slug: john-barbieri-md
+  credential: Dermatologist, Department of Dermatology, Brigham and Women's Hospital
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=103ncqVznGk
+  posted: '2025-02-15'
+  related: [rosacea, rosacea-papulopustular, doxycycline-oral-subantimicrobial, gallo-2025-low-dose-minocycline-dfd-29-microflora-pmid-41329149, acne]
+  thesis: 'Dermatologist Dr John Barbieri reviews Emrosi, the 40 mg modified-release minocycline approved for rosacea, and reports that in phase 3 trials of roughly 650 people with moderate to severe rosacea it beat both comparators: around 60 percent reached clear skin against about 40 percent on modified-release doxycycline 40 mg and about 30 percent on placebo, with inflammatory bumps down around 75 percent against 60 and 45 percent. He then spends most of the video on the two things that complicate it. Minocycline crosses the blood-brain barrier, so unlike doxycycline it carries rare but serious risks including raised pressure in the brain, vertigo, DRESS and lupus-like reactions, plus skin discoloration. And no trial compared it against doxycycline at the standard higher doses of 100 to 200 mg a day, only against the low-dose version, so he says the question of whether it beats doxycycline as usually prescribed is unanswered and flags his own impression that higher doses work better
+    as anecdote rather than evidence.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Emrosi is a prescription-only oral capsule made by Journey Medical Corporation, delivering 40 mg of minocycline (as 10 mg immediate-release and 30 mg extended-release beads) once daily for the inflammatory lesions of [[rosacea-papulopustular|papulopustular rosacea]] in adults.[^dailymed] It is a tetracycline-class drug approved by the FDA in 2024 (label revised 11/2024), and its label states plainly that this specific formulation "has not been evaluated in the treatment or prevention of infections."[^dailymed]
