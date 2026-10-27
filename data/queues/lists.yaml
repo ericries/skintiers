@@ -822,3 +822,16 @@
   status: pending
   discovered_from: null
   source: null
+- name: 'Sunscreens labelled mineral that actually are - directly actionable from
+    the finding on zinc-oxide that a 2026 analysis of 150 top-selling sunscreens found
+    nearly half of mineral-labelled products also contained organic UV filters. The
+    site can now check the claim per product against openFDA actives rather than trusting
+    the label front: cotz-sensitive-spf-40 (zinc only) and vanicream-facial-moisturizer-spf-30
+    (zinc only) both verify clean, and the whole CoTZ range does. A list that separates
+    verified mineral-only from mineral-labelled would be unusually checkable. Source:
+    openFDA drug/ndc actives per brand'
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null

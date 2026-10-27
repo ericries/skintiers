@@ -3436,26 +3436,46 @@
 - name: Vanicream Sunscreen (mineral, zinc and titanium only)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: zinc-oxide
-  source: One of two brands John Barbieri names in video Q6CcxuAGbb8 as tending NOT
+  source: 'One of two brands John Barbieri names in video Q6CcxuAGbb8 as tending NOT
     to carry hidden organic filters, alongside COTZ. He makes the recommendation unpaid
     and his roster records product_recs ok with no affiliate storefront, but VERIFY
     THE INCI YOURSELF with scripts/inci_lookup.py rather than relying on his statement,
     since the whole point of the video is that labels mislead. Resolve which specific
-    Vanicream SPF SKU you are grading, because he refers to the brand's mineral sunscreens
-    generally. The Vanicream brand has no page here yet either.
+    Vanicream SPF SKU you are grading, because he refers to the brand''s mineral sunscreens
+    generally. The Vanicream brand has no page here yet either. DOES NOT EXIST as
+    described, verified three ways on 2026-10-27. (1) openFDA drug/ndc brand_name
+    Vanicream returns 5 records and the only SPF product is ''Vanicream Facial Moisturizer
+    Broad Spectrum SPF30'', ZINC OXIDE 19.5 g/100g, NDC 45334-325. (2) The full labeler
+    catalogue for Pharmaceutical Specialties is 5 records with that same single sunscreen.
+    (3) DailyMed has 5 Vanicream SPLs, one sunscreen, zinc oxide only. incidecoder
+    MISSes ''Vanicream Sunscreen''. So there is no separate Vanicream sunscreen SKU,
+    and the queue''s ''zinc and titanium'' is wrong: the real product is zinc-only.
+    It is already covered at vanicream-facial-moisturizer-spf-30, which correctly
+    states ''zinc oxide 19.5% as its sole active, with no titanium dioxide or organic
+    filter added'', so no page needed correcting either. Caveat: openFDA and DailyMed
+    index currently-listed products, so a discontinued Vanicream sunscreen is not
+    ruled out.'
 - name: COTZ mineral sunscreen (contains only titanium and zinc)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: zinc-oxide
   source: 'The other brand named in video Q6CcxuAGbb8 as tending not to carry hidden
     organic filters; Barbieri notes the name is said to stand for ''contains only
     titanium and zinc''. VERIFY that claim against an actual INCI listing before repeating
     it, and resolve the specific SKU. Same caveat as the Vanicream entry: the video''s
     own thesis is that front labels mislead, so a brand reputation for purity is exactly
-    the kind of claim that needs checking against the ingredient list.'
+    the kind of claim that needs checking against the ingredient list. Shipped the
+    Sensitive SPF 40 as cotz-sensitive-spf-40. The queue''s ''only titanium and zinc''
+    premise is CORRECT for the range and I verified it across all 14 openFDA records:
+    no organic UV filter appears in any CoTZ product. But this SKU specifically is
+    zinc-ONLY at 20%, no titanium, so the page says that rather than repeating the
+    range description. The range splits into zinc-only (Sensitive, Flawless Complexion,
+    Face Moisture, Baby, Kids) and zinc-plus-titanium (Lip Balm, Silky Foam, Face
+    Prime and Protect, the sun sticks). No price: cotz.com returned HTTP 441 on its
+    catalogue endpoint.'
 - name: Trader Joe's Sunscreen Lip Balm (avobenzone, homosalate, octisalate, octocrylene)
   type: product
   priority: 5
@@ -4269,6 +4289,28 @@
     attachment for the same TheraFace PRO handheld. NFO is the microcurrent code shared
     with nubody-skin-toning-device and the NuFACE devices the site already covers,
     so it has direct comparators. Source: openFDA applicant Theragun + accessdata.fda.gov/cdrh_docs/pdf21/K212238.pdf'
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null
+- name: 'CoTZ Face Prime and Protect SPF 40 (titanium dioxide 8% + zinc oxide 3.8%,
+    NDC 58892-348 non-tinted / 58892-354 tinted) - the TITANIUM-DOMINANT CoTZ, the
+    mirror of cotz-sensitive-spf-40''s zinc-only build, and the better illustration
+    of what titanium contributes since titanium-dioxide has a page with nothing product-level
+    to link. Both tints are on file with identical actives. Source: openFDA drug/ndc
+    brand_name COTZ + DailyMed SPL for Fallien Cosmeceuticals'
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null
+- name: 'CoTZ Baby and CoTZ Kids (zinc oxide 20%, NDC 58892-618 and 58892-619) - same
+    20% zinc-only active as cotz-sensitive-spf-40 at the same strength, marketed for
+    infants and children, while that page records the label''s own ''Children under
+    6 months: Ask a doctor'' instruction. A paediatric sunscreen page would let the
+    site address the under-6-months question directly, which no page currently does.
+    Source: openFDA drug/ndc brand_name COTZ + DailyMed'
   type: product
   priority: 5
   status: pending

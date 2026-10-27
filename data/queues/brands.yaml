@@ -542,3 +542,16 @@
   status: pending
   discovered_from: null
   source: null
+- name: 'CoTZ (Fallien Cosmeceuticals, Ltd.) - mineral-only sunscreen brand whose
+    entire 13-product range carries zinc oxide alone or zinc plus titanium dioxide,
+    with NO organic UV filter in any of the 14 openFDA records, verified 2026-10-27.
+    That consistency is genuinely unusual and is the brand page''s whole reason to
+    exist, given a 2026 analysis found nearly half of sunscreens labelled mineral
+    also contain organic filters. Site now covers cotz-sensitive-spf-40. Note cotz.com
+    returns HTTP 441 on its catalogue endpoint so expect no price. Source: openFDA
+    drug/ndc brand_name COTZ'
+  type: brand
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null
