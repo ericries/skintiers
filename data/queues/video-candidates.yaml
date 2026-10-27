@@ -12952,7 +12952,8 @@
   conflict: Founder of own-brand skincare line (Skin Rocks); recent upload mix is dominated by PR-gifted product unboxings and empties (haul-adjacent fo
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: Diary vlog (September Diaries Part 2), not single-topic, from a creator whose own-brand Skin Rocks line features on the channel; no matching topic page
 - id: rsdeyCOHFYk
   title: September Diaries - Part 2 / Out now!
   creator: Caroline Hirons
@@ -13071,7 +13072,8 @@
   conflict: Runs a "Shop my Favorites" affiliate storefront (linktr.ee/dermatologysurgeon) that monetizes her product picks; no own-brand prod
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: Shorts-style hashtag-titled clip rating a retailer's own range; this creator also monetizes picks through a Shop-my-Favorites affiliate storefront
 - id: lJHLKTS_Z8s
   title: Crazy-Effective Weird Beauty Combinations | Dr. Sam Ellis
   creator: Dr. Sam Ellis

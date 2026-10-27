@@ -18,6 +18,17 @@ videos:
   related: [inulin]
   thesis: "Dr. Heather Woolery-Lloyd, a board-certified dermatologist, clarifies the differences between prebiotics, probiotics, postbiotics, and synbiotics in skincare. She explains prebiotics like inulin feed beneficial skin bacteria, while true live probiotic bacteria are rarely formulated into cosmetics; postbiotics are the beneficial metabolites bacteria produce and deliver benefits without live organisms. Synbiotics combine prebiotics and probiotics in one product but run into the same live-bacteria formulation limitation."
   note: "Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship."
+- title: 'The Gut-Skin Connection: Can Your Gut Microbiome Improve Your Skin?'
+  creator: Andrea Suarez (Dr Dray)
+  creator_slug: andrea-suarez-dr-dray
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=Hea1v0Zn6uk
+  posted: '2026-10-16'
+  related: [diet-and-skin, atopic-dermatitis, psoriasis, rosacea, hidradenitis-suppurativa, vitiligo, acne, makrgeorgou-2018-probiotics-eczema, abedin-2026-lactobacillus-based-microbiome-therapy-for-acne-vulgaris-a]
+  thesis: 'Board-certified dermatologist Dr Dray walks through what is actually established about the gut-skin axis and spends most of the video on why the findings do not yet support buying anything. Reduced gut microbial diversity is associated with atopic dermatitis, psoriasis, rosacea, hidradenitis suppurativa, vitiligo and lupus, but she stresses that association does not prove causation, that these diseases are multifactorial, and that it is unresolved whether dysbiosis drives the disease or the disease and its treatments disrupt the microbiome. She separates probiotics, prebiotics and postbiotics, which she says people routinely conflate, and notes that a result for one probiotic strain or dose does not transfer to probiotics generally. On supplements she says some studies show modest benefit for certain probiotics in atopic dermatitis but the results have not been consistent, which is why they do not appear in standard evidence-based guidelines for it. On the at-home stool testing
+    market her verdict is blunt: there are no validated stool tests that can tell you your gut has changed, what the change means for your skin, or what to do about it.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
