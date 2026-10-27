@@ -2884,3 +2884,29 @@
   status: pending
   discovered_from: null
   source: null
+- name: Limonene
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: trader-joes-sunscreen-lip-balm
+  source: 'Fragrance-allergen ingredient with no page yet, and the site already leans
+    on it: the Trader Joe''s Sunscreen Lip Balm page names it as the declared allergen
+    in a product you partly swallow. Angle: it is a declared allergen under EU labelling
+    rules rather than a marketing ingredient, its oxidation products are the sensitiser
+    rather than the parent terpene, and patch-test series data exist (check the NACDG
+    and European baseline series publications). Note that SPL carries TWO stereoisomer
+    entries, LIMONENE (+/-)- and LIMONENE (+)-, which is worth explaining. PubMed
+    route.'
+- name: Butyloctyl salicylate
+  type: ingredient
+  priority: 4
+  status: pending
+  discovered_from: trader-joes-sunscreen-lip-balm
+  source: 'A salicylate that is NOT a UV filter - it is a photostabiliser and solubiliser
+    used to keep avobenzone dissolved, and it appears high in the inactive list of
+    the Trader Joe''s Sunscreen Lip Balm. Useful page because the name misleads twice:
+    shoppers read salicylate as BHA exfoliant, and formulators'' SPF-boosting claims
+    for it are largely unsubstantiated in the public literature. Check whether any
+    published SPF-boost measurement exists before granting any grade; expect effect
+    unknown on the cosmetic axis. PubMed plus the FDA sunscreen monograph, where its
+    ABSENCE from the permitted-filter list is the key verifiable fact.'

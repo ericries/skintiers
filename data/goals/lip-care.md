@@ -70,11 +70,10 @@ Lip care covers three different asks that get sold as one: lips that are chapped
 
 ## See Also
 
-[[keratinocyte-carcinoma]] [[actinic-keratosis]] [[sunscreen-uv-filters]] [[petrolatum]] [[contact-dermatitis]] [[skin-barrier-repair]] [[perioral-dermatitis]]
-
-## See Also
-
 - [[jack-black-intense-therapy-lip-balm-spf-25]]: an SPF lip balm read off its FDA label, where the sunscreen claim stops at preventing sunburn and carries no broad-spectrum designation
+- [[trader-joes-sunscreen-lip-balm]]: a four-filter SPF lip balm whose label never states its own SPF, the direct comparison to the Jack Black
+
+[[keratinocyte-carcinoma]] [[actinic-keratosis]] [[sunscreen-uv-filters]] [[petrolatum]] [[contact-dermatitis]] [[skin-barrier-repair]] [[perioral-dermatitis]]
 
 ## Sources
 

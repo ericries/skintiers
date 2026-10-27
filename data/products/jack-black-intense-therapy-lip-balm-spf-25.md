@@ -85,7 +85,7 @@ Not priced here. Widely sold; this label records NDC 66738-309 with one package 
 
 ## See Also
 
-[[lip-care]] [[petrolatum]] [[sunscreen-uv-filters]] [[zinc-oxide]] [[titanium-dioxide]] [[fda-approved-vs-cleared-skincare]] [[lotrimin-af-antifungal-cream]]
+[[lip-care]] [[trader-joes-sunscreen-lip-balm]] [[petrolatum]] [[sunscreen-uv-filters]] [[zinc-oxide]] [[titanium-dioxide]] [[fda-approved-vs-cleared-skincare]] [[lotrimin-af-antifungal-cream]]
 
 ## Sources
 

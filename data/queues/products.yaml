@@ -3479,7 +3479,7 @@
 - name: Trader Joe's Sunscreen Lip Balm (avobenzone, homosalate, octisalate, octocrylene)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: jack-black-intense-therapy-lip-balm-spf-25
   source: 'DailyMed setid 5a968416-0f4a-2115-e063-6294a90a20a7, manufacturer Weckerle
     Cosmetics, a STICK rather than an ointment and a FOUR-filter formula against Jack
@@ -3487,7 +3487,12 @@
     the broad-spectrum designation, water-resistance claim and reapplication interval
     that the Jack Black SPL conspicuously lacks. If it does, that is a real difference
     between two drugstore SPF lip balms that no shopper could see from the packaging.
-    Free DailyMed route, no metered call.'
+    Free DailyMed route, no metered call. Published as trader-joes-sunscreen-lip-balm.
+    NDC 87967-001, labeler Weckerle Cosmetics; actives match the queue exactly. Two
+    load-bearing absences: the label never states the product''s own SPF, and the
+    word resistant appears zero times. A SEPARATE product exists, TRADER JOES LIP
+    BALM SPF 30 (DailyMed setid 28ef41d3-c8af-7fa2-e063-6294a90ad162, lipstick form,
+    filed under Trader Joe''s Company) - do not conflate.'
 - name: Omnilux Clear-U Acne Treatment System (PhotoTherapeutics, K081307)
   type: product
   priority: 5
@@ -4316,3 +4321,26 @@
   status: pending
   discovered_from: null
   source: null
+- name: Trader Joe's Lip Balm SPF 30 (avobenzone, homosalate, octisalate, octocrylene)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: trader-joes-sunscreen-lip-balm
+  source: DailyMed SPL setid 28ef41d3-c8af-7fa2-e063-6294a90ad162, dosage form LIPSTICK,
+    labeler TRADER JOE'S COMPANY, same four actives as the Sunscreen Lip Balm. This
+    is a DIFFERENT filing from NDC 87967-001 (Weckerle Cosmetics) and it is the one
+    that DOES carry an SPF number in its name - the published page says the Sunscreen
+    Lip Balm's own SPF is never stated, so this page is the other half of that story.
+    It does not appear in openFDA drug/ndc under brand_name Trader Joes (14 records,
+    all checked), so read the DailyMed SPL directly. Free route, no metered call.
+- name: Trader Joe's Daily Facial Mineral Sunscreen SPF 40 (zinc oxide 20.4%)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: trader-joes-sunscreen-lip-balm
+  source: openFDA product_ndc 71270-161, labeler Trader Joe's Company, single active
+    ZINC OXIDE 20.4 g/100g. Zinc-only at 20.4% is at the high end of what the site
+    covers and invites a direct comparison with cotz-sensitive-spf-40 (20%) and vanicream-facial-moisturizer-spf-30
+    (19.5%). The same brand's other sunscreens are organic-filter (71270-156, -153,
+    -159), so this is also the mineral-vs-organic split inside one store brand. DailyMed
+    route, no metered call.

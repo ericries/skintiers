@@ -14,6 +14,7 @@ Trader Joe's is a U.S. grocery store chain that also sells a small skincare line
 
 - [[trader-joes-nourish-vitamins-c-e-facial-serum]]: a $9.99 vitamin C, E, and ferulic acid serum that press coverage frames as a lower-cost formula match to SkinCeuticals C E Ferulic.
 - [[trader-joes-retinol-night-serum]]: a 0.3% retinol night serum.
+- [[trader-joes-sunscreen-lip-balm]]: a four-filter SPF lip balm, filed by Weckerle Cosmetics rather than Trader Joe's Company, whose label never states its own SPF value.
 
 ## Sources
 
