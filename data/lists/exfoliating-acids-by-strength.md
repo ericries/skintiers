@@ -109,6 +109,7 @@ The tier list above orders them on this same axis of penetration and strength; t
 
 ## See Also
 
+- [[exfoliation]] for what chemical exfoliation does mechanically, and why a retinoid is not one
 - [[acne]] for how salicylic acid's oil solubility fits an acne routine
 - [[hyperpigmentation]] for exfoliation's role in evening tone
 - [[brightening]] as the goal page these acids most often serve

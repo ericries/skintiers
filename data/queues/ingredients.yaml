@@ -2873,3 +2873,14 @@
   status: pending
   discovered_from: null
   source: null
+- name: 'Polyhydroxy acids (PHAs, e.g. gluconolactone, lactobionic acid) - the third
+    acid class named on exfoliating-acids-by-strength (''What AHA, BHA, and PHA mean'')
+    with NO ingredient page, while glycolic, lactic, salicylic and mandelic acid all
+    have one. A 2004 Cutis paper on PHAs in photoaged skin (PMID 15002656) is a starting
+    source. Needed so the acid list and the new exfoliation hub can link all three
+    classes. Source: pubmed.ncbi.nlm.nih.gov/15002656'
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null

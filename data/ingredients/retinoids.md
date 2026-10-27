@@ -307,6 +307,7 @@ Treat everything here as unproven or overstated unless it appears in The Evidenc
 
 ## See Also
 
+- [[exfoliation]] - why a retinoid changes cell turnover rather than exfoliating, and what that means for stacking acids
 - [[tretinoin]] - the prescription benchmark, retinoic acid itself
 - [[adapalene]] - the best-tolerated prescription option, also sold over the counter
 - [[retinol]] - the most-studied over-the-counter form

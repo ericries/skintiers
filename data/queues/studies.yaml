@@ -1666,3 +1666,17 @@
   status: pending
   discovered_from: null
   source: null
+- name: 'Tung 2000: alpha-hydroxy acid-based cosmetic procedures, guidelines for patient
+    management (Am J Clin Dermatol 2000;1(2):81-8, PMID 11702315) - now the mechanism
+    source on exfoliation. Worth a page because of its own hedge: ''Although their
+    exact mechanism of action is unknown, it has been demonstrated that AHAs improve
+    these disorders by thinning the stratum corneum, promoting epidermolysis, dispersing
+    basal layer melanin, and increasing collagen synthesis within the dermis.'' Note
+    for the page: a 2000 clinical-GUIDELINES article, not a systematic review, with
+    no pooled estimate, effect size, CI or p-value, and its safety/efficacy claim
+    rests on ''our experience and in the literature''. Source: pubmed.ncbi.nlm.nih.gov/11702315'
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null

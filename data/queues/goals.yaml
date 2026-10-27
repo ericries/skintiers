@@ -318,7 +318,7 @@
 - name: 'Exfoliation: chemical versus physical, and how it differs from cell turnover'
   type: goal
   priority: 5
-  status: pending
+  status: done
   discovered_from: retinoids
   source: 'GENUINE GAP found while carding a TikTok clip: the site has salicylic-acid,
     glycolic-acid, lactic-acid and mandelic-acid pages but NO hub for exfoliation
@@ -326,7 +326,16 @@
     and retinoid-driven cell turnover had to be attached to retinoids instead. Checked
     2026-10-19: nothing matches exfoliat* or cell-turnover under data/goals or data/ingredients.
     A hub should grade AHA vs BHA vs PHA vs LHA by evidence and state plainly that
-    removing dead cells is not the same mechanism as increasing turnover.'
+    removing dead cells is not the same mechanism as increasing turnover. Shipped
+    as exfoliation (goal). Verified it was NOT a duplicate first: sk find ''exfoliation''
+    returned no match, and on the two closest pages the words physical, scrub, desquamation
+    and cell turnover each appeared ZERO times (exfoliating-acids-by-strength is a
+    624-word strength ranking; retinoids never uses the phrase cell turnover). Deliberately
+    did NOT add a tier_list: grading the acids here would duplicate exfoliating-acids-by-strength,
+    so the hub owns only the three-way mechanism distinction and links out for strength.
+    Physical exfoliation is explicitly NOT graded, because PubMed does have a small
+    mechanical-exfoliation literature plus a larger microdermabrasion one and I did
+    not read it; the gap is recorded on the page rather than filled or dismissed.'
 - name: Aftercare and recovery following ablative laser resurfacing
   type: goal
   priority: 5
@@ -641,3 +650,16 @@
   source: laser plus PRP is the top-ranked acne scar combination in the 68-RCT network
     meta-analysis (SUCRA 98.4% on ECCA), ranking above the filler pairing this page
     covers, and no hub exists for it
+- name: 'Physical and mechanical exfoliation: what the evidence actually is - the
+    gap exfoliation (goal) explicitly declines to fill. PubMed on 2026-10-26 returns
+    a small mechanical-exfoliation literature and a larger microdermabrasion one (16+
+    records), so the honest page is possible but needs that literature READ, not assumed
+    thin. Key distinction to preserve: microdermabrasion is a professional procedure,
+    not a home scrub, so do not let clinic evidence launder scrub claims. Source:
+    pubmed searches ''mechanical exfoliation skin clinical trial'' and ''microdermabrasion
+    randomized controlled trial skin'''
+  type: goal
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null
