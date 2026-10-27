@@ -2910,3 +2910,40 @@
     published SPF-boost measurement exists before granting any grade; expect effect
     unknown on the cosmetic axis. PubMed plus the FDA sunscreen monograph, where its
     ABSENCE from the permitted-filter list is the key verifiable fact.'
+- name: Desonide
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: vahabi-2025-axillary-hyperpigmentation-systematic-review
+  source: 'One of only TWO topicals the Vahabi 2025 axillary-hyperpigmentation systematic
+    review (PMID 40843925) singled out as showing significant effectiveness with minimal
+    side effects. Desonide is a low-potency prescription topical corticosteroid, so
+    the page''s job is the awkward finding: a steroid, not a cosmetic brightener,
+    is among the best-evidenced topicals for underarm pigment, and steroid risks on
+    thin occluded axillary skin (atrophy, striae, tachyphylaxis) must be stated alongside
+    it. Link out to topical-corticosteroids rather than re-explaining steroid classes.
+    Grade from the primary trial, NOT from the review, which publishes no effect size
+    at all. DailyMed plus PubMed route.'
+- name: Perilla frutescens leaf extract
+  type: ingredient
+  priority: 4
+  status: pending
+  discovered_from: vahabi-2025-axillary-hyperpigmentation-systematic-review
+  source: Named as a studied topical for axillary hyperpigmentation in Vahabi 2025
+    (PMID 40843925). Botanical extract with a real pharmacology literature (rosmarinic
+    acid, luteolin) but, as with most plant extracts the site covers, expect the human
+    skin evidence to be thin and single-group; check for an independent replication
+    before granting any grade, and compare the handling on cyperus-rotundus, where
+    all four human trials share one author group. PubMed route.
+- name: Sweet orange extract (Citrus sinensis)
+  type: ingredient
+  priority: 3
+  status: pending
+  discovered_from: vahabi-2025-axillary-hyperpigmentation-systematic-review
+  source: 'Named as a studied topical for axillary hyperpigmentation in Vahabi 2025
+    (PMID 40843925), where it appears only as ''sweet orange extract'' with no INCI
+    name. FIRST TASK is identity: resolve which species and plant part (Citrus sinensis
+    peel versus fruit extract) from the underlying trial before drafting, and do not
+    draft from the review''s loose phrasing. If the identity cannot be pinned, mark
+    it unresolvable and drop the item rather than guessing. Note the phototoxicity
+    question that attaches to citrus peel extracts generally. PubMed route.'

@@ -17,8 +17,7 @@
   discovered_from: cerave-moisturizing-cream
   source: null
   note: published as leshem-2020-otc-moisturizers-in-atopic-dermatitis-rct
-- name: Goff & Stein 2025 Pediatric Dermatology cosmeceuticals ethics/talking-points
-    review
+- name: Goff & Stein 2025 Pediatric Dermatology cosmeceuticals ethics/talking-points review
   type: study
   priority: 5
   status: done
@@ -121,190 +120,188 @@
   discovered_from: null
   source: https://pmc.ncbi.nlm.nih.gov/articles/PMC3587970/
   note: published as elias-2012
-- name: Shah 2026 A Randomized Controlled Trial Analyzing the Likeability, Usability,
-    and In-Use Efficacy of (PMID 42235051)
+- name: Shah 2026 A Randomized Controlled Trial Analyzing the Likeability, Usability, and In-Use Efficacy
+    of (PMID 42235051)
   type: study
   priority: 5
   status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/42235051/
-- name: Prooyen 2026 Randomized Controlled Study of Bacteriophages in Acne Reveals
-    Efficacy and Novel Mechanism (PMID 42235049)
+- name: Prooyen 2026 Randomized Controlled Study of Bacteriophages in Acne Reveals Efficacy and Novel
+    Mechanism (PMID 42235049)
   type: study
   priority: 5
   status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/42235049/
-- name: Pantalena 2026 Photographic Assessment of Cosmetic Outcome in Postsurgical
-    Facial Scars Favors Rapidly Ab (PMID 42210897)
+- name: Pantalena 2026 Photographic Assessment of Cosmetic Outcome in Postsurgical Facial Scars Favors
+    Rapidly Ab (PMID 42210897)
   type: study
   priority: 5
   status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/42210897/
-- name: Draelos 2026 Efficacy, Tolerance, and Safety of a Novel Botanical Anti-Inflammatory
-    Moisturizer in Rosa (PMID 42163060)
+- name: Draelos 2026 Efficacy, Tolerance, and Safety of a Novel Botanical Anti-Inflammatory Moisturizer
+    in Rosa (PMID 42163060)
   type: study
   priority: 5
   status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/42163060/
-- name: LYu 2026 Efficacy and Tolerability of a Triple Acid-Containing Serum Combined
-    With 0.1% Adapalene i (PMID 42156331)
+- name: LYu 2026 Efficacy and Tolerability of a Triple Acid-Containing Serum Combined With 0.1% Adapalene
+    i (PMID 42156331)
   type: study
   priority: 5
   status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/42156331/
-- name: Abud 2026 A Randomized, Double-Blinded Pilot Study Comparing Synthetic Versus
-    Human-Derived Topical  (PMID 42152512)
+- name: Abud 2026 A Randomized, Double-Blinded Pilot Study Comparing Synthetic Versus Human-Derived Topical  (PMID
+    42152512)
   type: study
   priority: 5
   status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/42152512/
-- name: 'Payette 2026 Considerations for Genital Psoriasis Care Across Age Groups:
-    A Modified Delphi Consensus I (PMID 42126816)'
+- name: 'Payette 2026 Considerations for Genital Psoriasis Care Across Age Groups: A Modified Delphi Consensus
+    I (PMID 42126816)'
   type: study
   priority: 5
   status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/42126816/
-- name: Morgado-Carrasco 2026 Efficacy of a Topical Formulation on Skin Hydration
-    and Barrier Function in Individuals Wi (PMID 42108609)
+- name: Morgado-Carrasco 2026 Efficacy of a Topical Formulation on Skin Hydration and Barrier Function
+    in Individuals Wi (PMID 42108609)
   type: study
   priority: 5
   status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/42108609/
-- name: Zi 2026 Study on the Multiple Efficacies of Vitamin C Serum in Anti-Glycation,
-    Anti-Carbonylation, (PMID 42087444)
+- name: Zi 2026 Study on the Multiple Efficacies of Vitamin C Serum in Anti-Glycation, Anti-Carbonylation,
+    (PMID 42087444)
   type: study
   priority: 5
   status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/42087444/
-- name: Yosipovitch 2026 Itch Relief and Quality-of-Life Improvement with Abrocitinib
-    and Dupilumab in Patients wit (PMID 42084697)
+- name: Yosipovitch 2026 Itch Relief and Quality-of-Life Improvement with Abrocitinib and Dupilumab in
+    Patients wit (PMID 42084697)
   type: study
   priority: 5
   status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/42084697/
-- name: Liu 2026 Comparison of Compound Lidocaine Cream and Lidocaine-Prilocaine Cream
-    for Pain Management  (PMID 42003110)
+- name: Liu 2026 Comparison of Compound Lidocaine Cream and Lidocaine-Prilocaine Cream for Pain Management  (PMID
+    42003110)
   type: study
   priority: 5
   status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/42003110/
-- name: Eichenfield 2026 Identifying the Most Relevant Eczema Area and Severity Index
-    Thresholds from the Patient P (PMID 41996013)
+- name: Eichenfield 2026 Identifying the Most Relevant Eczema Area and Severity Index Thresholds from
+    the Patient P (PMID 41996013)
   type: study
   priority: 5
   status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41996013/
-- name: 'Wang 2026 Improved Skin Quality with a Novel Topical Body Serum: Distal Thighs
-    and Back of Hands (PMID 41981821)'
+- name: 'Wang 2026 Improved Skin Quality with a Novel Topical Body Serum: Distal Thighs and Back of Hands
+    (PMID 41981821)'
   type: study
   priority: 5
   status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41981821/
-- name: Maloney 2026 Hydroquinone-Free, Tetrahexyldecyl Ascorbate Antioxidant Serum
-    for Hyperpigmented and Phot (PMID 41947480)
+- name: Maloney 2026 Hydroquinone-Free, Tetrahexyldecyl Ascorbate Antioxidant Serum for Hyperpigmented
+    and Phot (PMID 41947480)
   type: study
   priority: 5
   status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41947480/
-- name: Afzal 2026 Prospective, Randomized, Double-Blind, Placebo-Controlled Study
-    of an Oral Antioxidant-Ric (PMID 41947475)
+- name: Afzal 2026 Prospective, Randomized, Double-Blind, Placebo-Controlled Study of an Oral Antioxidant-Ric
+    (PMID 41947475)
   type: study
   priority: 5
   status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41947475/
-- name: 'Farris 2026 Beyond Efficacy: 0.6% Selenium Disulfide Shampoo Matches 2% Ketoconazole
-    for Seborrheic De (PMID 41931685)'
+- name: 'Farris 2026 Beyond Efficacy: 0.6% Selenium Disulfide Shampoo Matches 2% Ketoconazole for Seborrheic
+    De (PMID 41931685)'
   type: study
   priority: 5
   status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41931685/
-- name: 'Ma 2026 Cross-Cultural Beliefs and Stigmatization in Vitiligo: A Systematic
-    Review (PMID 41873648)'
+- name: 'Ma 2026 Cross-Cultural Beliefs and Stigmatization in Vitiligo: A Systematic Review (PMID 41873648)'
   type: study
   priority: 5
   status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41873648/
-- name: 'Abedin 2026 Lactobacillus-Based Microbiome Therapy for Acne Vulgaris: A GRADE
-    Systematic Review and Me (PMID 41853869)'
+- name: 'Abedin 2026 Lactobacillus-Based Microbiome Therapy for Acne Vulgaris: A GRADE Systematic Review
+    and Me (PMID 41853869)'
   type: study
   priority: 5
   status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41853869/
-- name: 'Peng 2026 Oral JAK Inhibitors as a Promising Therapeutic Strategy for Refractory
-    Rosacea: A Systemat (PMID 41796703)'
+- name: 'Peng 2026 Oral JAK Inhibitors as a Promising Therapeutic Strategy for Refractory Rosacea: A Systemat
+    (PMID 41796703)'
   type: study
   priority: 5
   status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41796703/
-- name: Queille-Roussel 2026 Rapid, Strong, and Visible Efficacy of a Dermocosmetic
-    in Acne Patients With Dark Skin Pho (PMID 41772684)
+- name: Queille-Roussel 2026 Rapid, Strong, and Visible Efficacy of a Dermocosmetic in Acne Patients With
+    Dark Skin Pho (PMID 41772684)
   type: study
   priority: 5
   status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41772684/
-- name: 'Mosteirin 2026 Efficacy and Safety of Amino Acid-Enriched Hyaluronic Acid
-    in Facial Rejuvenation: A Syste (PMID 41724989)'
+- name: 'Mosteirin 2026 Efficacy and Safety of Amino Acid-Enriched Hyaluronic Acid in Facial Rejuvenation:
+    A Syste (PMID 41724989)'
   type: study
   priority: 5
   status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41724989/
-- name: Liao 2026 Efficacy and Safety of Sodium Hyaluronate Gel for Facial Skin Rejuvenation
-    (PMID 41650338)
+- name: Liao 2026 Efficacy and Safety of Sodium Hyaluronate Gel for Facial Skin Rejuvenation (PMID 41650338)
   type: study
   priority: 5
   status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41650338/
-- name: 'Singh 2026 Air Pollution and Skin Diseases: A Systematic Review of Epidemiological
-    Evidence (PMID 41649748)'
+- name: 'Singh 2026 Air Pollution and Skin Diseases: A Systematic Review of Epidemiological Evidence (PMID
+    41649748)'
   type: study
   priority: 5
   status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41649748/
-- name: Libecco 2026 Efficacy and Safety of Clascoterone Cream 1% for Acne Are Independent
-    of Age and Sex (PMID 41642149)
+- name: Libecco 2026 Efficacy and Safety of Clascoterone Cream 1% for Acne Are Independent of Age and
+    Sex (PMID 41642149)
   type: study
   priority: 5
   status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41642149/
-- name: 'Wang 2026 Comprehensive Evaluation of Body Lotion in Alleviating Xerosis:
-    A Multi-Omics Approach to  (PMID 41622615)'
+- name: 'Wang 2026 Comprehensive Evaluation of Body Lotion in Alleviating Xerosis: A Multi-Omics Approach
+    to  (PMID 41622615)'
   type: study
   priority: 5
   status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41622615/
-- name: Zhang 2026 Comprehensive Evaluation of a Cream With Advanced Soothing Complex
-    for Skin Recovery Follo (PMID 41622613)
+- name: Zhang 2026 Comprehensive Evaluation of a Cream With Advanced Soothing Complex for Skin Recovery
+    Follo (PMID 41622613)
   type: study
   priority: 5
   status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41622613/
-- name: 'Beer 2026 What''s New With Under Eye Treatment: A Multispecialty Systematic
-    Review of Recent Under Ey (PMID 41615388)'
+- name: 'Beer 2026 What''s New With Under Eye Treatment: A Multispecialty Systematic Review of Recent
+    Under Ey (PMID 41615388)'
   type: study
   priority: 5
   status: done
@@ -316,15 +313,15 @@
   status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41560402/
-- name: Peacker 2026 Multiomics analyses prioritize disease genes and pathways in
-    hidradenitis suppurativa (PMID 41548865)
+- name: Peacker 2026 Multiomics analyses prioritize disease genes and pathways in hidradenitis suppurativa
+    (PMID 41548865)
   type: study
   priority: 5
   status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41548865/
-- name: 'Shah 2026 Delayed Full-Thickness Skin Grafting After Skin Cancer Resection:
-    A Systematic Review (PMID 41538769)'
+- name: 'Shah 2026 Delayed Full-Thickness Skin Grafting After Skin Cancer Resection: A Systematic Review
+    (PMID 41538769)'
   type: study
   priority: 5
   status: done
@@ -366,8 +363,8 @@
   status: done
   discovered_from: null
   source: data/goals/anti-aging.md
-- name: Nguyen 2026 Use of an Eczema Moisturizer or Cream Provides Immediate, Sustained
-    Itch Relief in Eczema- (PMID 42555074)
+- name: Nguyen 2026 Use of an Eczema Moisturizer or Cream Provides Immediate, Sustained Itch Relief in
+    Eczema- (PMID 42555074)
   type: study
   priority: 5
   status: done
@@ -386,43 +383,41 @@
   discovered_from: null
   source: data/studies/fisher-1996-retinoid-antagonism-photoaging.md
   note: reconciled (published)
-- name: 'Weller: UV radiation is not the major cause of melanoma mortality in the
-    UK (BJD opinion, cited by Landriscina)'
+- name: 'Weller: UV radiation is not the major cause of melanoma mortality in the UK (BJD opinion, cited
+    by Landriscina)'
   type: study
   priority: 5
   status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/?term=Weller+ultraviolet+melanoma+mortality+UK+British+Journal+Dermatology
-- name: 'Downs et al. 2015: oxybenzone toxicity to coral (widely-cited/criticized,
-    per Novakovich)'
+- name: 'Downs et al. 2015: oxybenzone toxicity to coral (widely-cited/criticized, per Novakovich)'
   type: study
   priority: 5
   status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/26487337/
-- name: 'Williams 2018 JAAD: SPF 100+ vs SPF 50+ sunburn protection, randomized split-face
-    trial (cited by Geeta Yadav)'
+- name: 'Williams 2018 JAAD: SPF 100+ vs SPF 50+ sunburn protection, randomized split-face trial (cited
+    by Geeta Yadav)'
   type: study
   priority: 5
   status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/28714075/
-- name: 'Nukaly et al. 2026: meta-analysis of topical peptides for facial anti-aging
-    (19 RCTs, cited on the Matrixyl page)'
+- name: 'Nukaly et al. 2026: meta-analysis of topical peptides for facial anti-aging (19 RCTs, cited on
+    the Matrixyl page)'
   type: study
   priority: 5
   status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41924746/
-- name: 'Bissett 2004/2005: niacinamide improves aging facial skin appearance, split-face
-    RCT'
+- name: 'Bissett 2004/2005: niacinamide improves aging facial skin appearance, split-face RCT'
   type: study
   priority: 5
   status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/?term=Bissett+niacinamide+facial+skin+appearance
-- name: Wang 2026 Systemic Proteomic Alterations and Predictive Biomarkers of Paroxetine
-    Response in Refract (PMID 42307911)
+- name: Wang 2026 Systemic Proteomic Alterations and Predictive Biomarkers of Paroxetine Response in Refract
+    (PMID 42307911)
   type: study
   priority: 5
   status: done
@@ -433,97 +428,96 @@
   priority: 5
   status: done
   discovered_from: palmers-cocoa-butter-massage-lotion-stretch-marks
-  source: 'The definitive negative RCT (double-blind, placebo-controlled, n=175):
-    cocoa butter did NOT reduce stretch marks (45.1% vs 48.8%, p=0.730); infrastructure
-    for the stretch-marks hub + Palmer''s/Bio-Oil pages'
+  source: 'The definitive negative RCT (double-blind, placebo-controlled, n=175): cocoa butter did NOT
+    reduce stretch marks (45.1% vs 48.8%, p=0.730); infrastructure for the stretch-marks hub + Palmer''s/Bio-Oil
+    pages'
 - name: Ud-Din 2016 topical management of striae distensae review (PMID 26486318)
   type: study
   priority: 5
   status: done
   discovered_from: stretch-marks
-  source: 'The umbrella review for the stretch-marks hub: no topical shown most effective;
-    tretinoin varying results; cocoa butter/olive oil no effect; distinguishes striae
-    rubrae vs albae. Infrastructure for [[stretch-marks]] + Palmer''s/tasmannia pages'
+  source: 'The umbrella review for the stretch-marks hub: no topical shown most effective; tretinoin varying
+    results; cocoa butter/olive oil no effect; distinguishes striae rubrae vs albae. Infrastructure for
+    [[stretch-marks]] + Palmer''s/tasmannia pages'
 - name: Kang 1996 tretinoin 0.1% for striae rubrae RCT (Arch Dermatol, PMID 8624149)
   type: study
   priority: 6
   status: done
   discovered_from: osman-2008-cocoa-butter-for-prevention-of-striae-gravidarum-rct
-  source: 'Grounds the [[stretch-marks]] tier_list''s top item (tretinoin, moderate):
-    the positive topical-retinoid evidence for EARLY red striae, to balance the negative
-    cocoa-butter RCT'
-- name: 'Warren 2026 Durability of response to icotrokinra for high-impact site psoriasis:
-    1-year ICONIC-TOTAL  (PMID 42175814)'
+  source: 'Grounds the [[stretch-marks]] tier_list''s top item (tretinoin, moderate): the positive topical-retinoid
+    evidence for EARLY red striae, to balance the negative cocoa-butter RCT'
+- name: 'Warren 2026 Durability of response to icotrokinra for high-impact site psoriasis: 1-year ICONIC-TOTAL  (PMID
+    42175814)'
   type: study
   priority: 5
   status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/42175814/
-- name: 'Cheng 2026 Validation of International Classification of Diseases Codes for
-    Dermatologic Conditions:  (PMID 41499108)'
+- name: 'Cheng 2026 Validation of International Classification of Diseases Codes for Dermatologic Conditions:  (PMID
+    41499108)'
   type: study
   priority: 5
   status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41499108/
-- name: 'Lipner 2026 Topical Efinaconazole 10% for Onychomycosis: Pooled Phase 3 Analysis
-    in White, Black, and  (PMID 41493257)'
+- name: 'Lipner 2026 Topical Efinaconazole 10% for Onychomycosis: Pooled Phase 3 Analysis in White, Black,
+    and  (PMID 41493257)'
   type: study
   priority: 5
   status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41493257/
-- name: Taylor 2026 Clinical Evaluation of a Thiamidol-Based Regimen With SPF Compared
-    With SPF Alone for Faci (PMID 41493252)
+- name: Taylor 2026 Clinical Evaluation of a Thiamidol-Based Regimen With SPF Compared With SPF Alone
+    for Faci (PMID 41493252)
   type: study
   priority: 5
   status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41493252/
-- name: Grimes 2026 A Randomized, Controlled, Split-Face, Double-Blind Study Comparing
-    Topical Malassezin to H (PMID 41493251)
+- name: Grimes 2026 A Randomized, Controlled, Split-Face, Double-Blind Study Comparing Topical Malassezin
+    to H (PMID 41493251)
   type: study
   priority: 5
   status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41493251/
-- name: Jackson 2026 Astragalus membranaceus Extract as a Botanical Ingredient for
-    Pigmentary and Anti-Aging Sk (PMID 41493245)
+- name: Jackson 2026 Astragalus membranaceus Extract as a Botanical Ingredient for Pigmentary and Anti-Aging
+    Sk (PMID 41493245)
   type: study
   priority: 5
   status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41493245/
-- name: 'Queille-Roussel 2026 Rapid and Visible Efficacy of a Dermocosmetic in Acne
-    Patients With Fair Skin Phototypes:  (PMID 41487026)'
+- name: 'Queille-Roussel 2026 Rapid and Visible Efficacy of a Dermocosmetic in Acne Patients With Fair
+    Skin Phototypes:  (PMID 41487026)'
   type: study
   priority: 5
   status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41487026/
-- name: 'Guitera 2026 A cost comparison of radiotherapy and topical imiquimod for
-    lentigo maligna treatment: Con (PMID 41421462)'
+- name: 'Guitera 2026 A cost comparison of radiotherapy and topical imiquimod for lentigo maligna treatment:
+    Con (PMID 41421462)'
   type: study
   priority: 5
   status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41421462/
-- name: 'Morrow 2026 Impact of weight-loss interventions on psoriasis severity: A
-    systematic review and meta-an (PMID 41416383)'
+- name: 'Morrow 2026 Impact of weight-loss interventions on psoriasis severity: A systematic review and
+    meta-an (PMID 41416383)'
   type: study
   priority: 5
   status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41416383/
-- name: Merola 2026 Results from the 32-week, phase 3 DISCREET study of apremilast
-    in patients with moderate t (PMID 41369155)
+- name: Merola 2026 Results from the 32-week, phase 3 DISCREET study of apremilast in patients with moderate
+    t (PMID 41369155)
   type: study
   priority: 5
   status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41369155/
-- name: Salimi 2025 The Therapeutic Effects of a Bentonite-Based Facial Mask With
-    Alcea sulphurea Extract on A (PMID 41347526)
+- name: Salimi 2025 The Therapeutic Effects of a Bentonite-Based Facial Mask With Alcea sulphurea Extract
+    on A (PMID 41347526)
   type: study
   priority: 5
   status: done
@@ -535,120 +529,120 @@
   status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41331233/
-- name: Desai 2025 Clinical Evaluation of Thiamidol-Containing Formulations for the
-    Visual Management of Faci (PMID 41329151)
+- name: Desai 2025 Clinical Evaluation of Thiamidol-Containing Formulations for the Visual Management
+    of Faci (PMID 41329151)
   type: study
   priority: 5
   status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41329151/
-- name: Gallo 2025 Impact of Low-Dose Oral Minocycline (DFD-29) on Skin, Gastrointestinal,
-    and Vaginal Microf (PMID 41329149)
+- name: Gallo 2025 Impact of Low-Dose Oral Minocycline (DFD-29) on Skin, Gastrointestinal, and Vaginal
+    Microf (PMID 41329149)
   type: study
   priority: 5
   status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41329149/
-- name: Kircik 2025 Clindamycin Phosphate 1.2%/Adapalene 0.15%/ Benzoyl Peroxide 3.1%
-    Gel for Moderate-to-Seve (PMID 41329145)
+- name: Kircik 2025 Clindamycin Phosphate 1.2%/Adapalene 0.15%/ Benzoyl Peroxide 3.1% Gel for Moderate-to-Seve
+    (PMID 41329145)
   type: study
   priority: 5
   status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41329145/
-- name: 'Wang 2026 Ivarmacitinib ointment in treatment of adults with mild-to-moderate
-    atopic dermatitis: pha (PMID 41317338)'
+- name: 'Wang 2026 Ivarmacitinib ointment in treatment of adults with mild-to-moderate atopic dermatitis:
+    pha (PMID 41317338)'
   type: study
   priority: 5
   status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41317338/
-- name: 'Monteil 2025 Enhancing Facial Rejuvenation Outcomes With a Novel Retinaldehyde-Based
-    Cream: A Comparati (PMID 41312593)'
+- name: 'Monteil 2025 Enhancing Facial Rejuvenation Outcomes With a Novel Retinaldehyde-Based Cream: A
+    Comparati (PMID 41312593)'
   type: study
   priority: 5
   status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41312593/
-- name: 'Ghazizadeh 2025 Optimizing Rhinoplasty Outcomes: The Role of Isotretinoin
-    and Patient Management Strategie (PMID 41307186)'
+- name: 'Ghazizadeh 2025 Optimizing Rhinoplasty Outcomes: The Role of Isotretinoin and Patient Management
+    Strategie (PMID 41307186)'
   type: study
   priority: 5
   status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41307186/
-- name: "R\xF8nnstad 2026 Real-World Evidence of Effectiveness and Safety of Abrocitinib,\
-    \ Baricitinib and Upadacitin (PMID 41296263)"
+- name: Rønnstad 2026 Real-World Evidence of Effectiveness and Safety of Abrocitinib, Baricitinib and
+    Upadacitin (PMID 41296263)
   type: study
   priority: 5
   status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41296263/
-- name: Jalian 2025 Enhancing Outcomes of Procedure Pairing With Next Generation Regenerating
-    Skin Nectar With (PMID 41293824)
+- name: Jalian 2025 Enhancing Outcomes of Procedure Pairing With Next Generation Regenerating Skin Nectar
+    With (PMID 41293824)
   type: study
   priority: 5
   status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41293824/
-- name: 'Gupta 2025 Comparative Efficacy of Monotherapies for Chronic Hand Eczema:
-    A Network Meta-Analysis Stu (PMID 41277505)'
+- name: 'Gupta 2025 Comparative Efficacy of Monotherapies for Chronic Hand Eczema: A Network Meta-Analysis
+    Stu (PMID 41277505)'
   type: study
   priority: 5
   status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41277505/
-- name: Malekan 2026 Efficacy and safety of baricitinib versus azathioprine, both
-    combined with topical cortico (PMID 41239194)
+- name: Malekan 2026 Efficacy and safety of baricitinib versus azathioprine, both combined with topical
+    cortico (PMID 41239194)
   type: study
   priority: 5
   status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41239194/
-- name: Kim 2026 Efficacy and Safety of Dupilumab in Adults with Prurigo Nodularis
-    with or Without Atopic C (PMID 41219577)
+- name: Kim 2026 Efficacy and Safety of Dupilumab in Adults with Prurigo Nodularis with or Without Atopic
+    C (PMID 41219577)
   type: study
   priority: 5
   status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41219577/
-- name: "Gooderham 2026 Efficacy of up to 4\u2009years of tralokinumab in adults with\
-    \ moderate-to-severe atopic dermati (PMID 41217071)"
+- name: Gooderham 2026 Efficacy of up to 4 years of tralokinumab in adults with moderate-to-severe atopic
+    dermati (PMID 41217071)
   type: study
   priority: 5
   status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41217071/
-- name: Sollitto 2025 A Systematic Review of Platelet-Rich Plasma Versus Platelet-Rich
-    Fibrin for Periorbital Re (PMID 41190633)
+- name: Sollitto 2025 A Systematic Review of Platelet-Rich Plasma Versus Platelet-Rich Fibrin for Periorbital
+    Re (PMID 41190633)
   type: study
   priority: 5
   status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41190633/
-- name: 'Chen 2026 Denifanstat for moderate-to-severe acne: A Phase 2, randomized,
-    double-blind, placebo-cont (PMID 41186280)'
+- name: 'Chen 2026 Denifanstat for moderate-to-severe acne: A Phase 2, randomized, double-blind, placebo-cont
+    (PMID 41186280)'
   type: study
   priority: 5
   status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41186280/
-- name: Yao 2025 Efficacy of Cosmetic Debridement and Suture With Recombinant Human
-    EGF in Maxillofacial Tr (PMID 41159304)
+- name: Yao 2025 Efficacy of Cosmetic Debridement and Suture With Recombinant Human EGF in Maxillofacial
+    Tr (PMID 41159304)
   type: study
   priority: 5
   status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41159304/
-- name: Layton 2026 The Burden of Acne Vulgaris on Health-Related Quality of Life
-    and Psychosocial Well-Being  (PMID 41134527)
+- name: Layton 2026 The Burden of Acne Vulgaris on Health-Related Quality of Life and Psychosocial Well-Being  (PMID
+    41134527)
   type: study
   priority: 5
   status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41134527/
-- name: 'Peng 2025 Enhancing Dermal Absorption of Cosmeceuticals: Innovations and
-    Techniques for Targeted Ski (PMID 41127992)'
+- name: 'Peng 2025 Enhancing Dermal Absorption of Cosmeceuticals: Innovations and Techniques for Targeted
+    Ski (PMID 41127992)'
   type: study
   priority: 5
   status: done
@@ -661,511 +655,503 @@
   status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41060641/
-- name: Kircik 2025 Ruxolitinib Cream Versus Triamcinolone Cream in Adults With Mild
-    to Moderate Atopic Dermat (PMID 41037525)
+- name: Kircik 2025 Ruxolitinib Cream Versus Triamcinolone Cream in Adults With Mild to Moderate Atopic
+    Dermat (PMID 41037525)
   type: study
   priority: 5
   status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41037525/
-- name: Rocio 2025 A Novel Dermocosmetic Routine Containing Vitamin B3 and 2-Mercaptonicotinyl
-    Glycine Signif (PMID 41036635)
+- name: Rocio 2025 A Novel Dermocosmetic Routine Containing Vitamin B3 and 2-Mercaptonicotinyl Glycine
+    Signif (PMID 41036635)
   type: study
   priority: 5
   status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41036635/
-- name: Loyal 2026 A Single-Center, Blinded, Split-Body, Randomized Clinical Trial
-    of High-Intensity, Paralle (PMID 41025649)
+- name: Loyal 2026 A Single-Center, Blinded, Split-Body, Randomized Clinical Trial of High-Intensity,
+    Paralle (PMID 41025649)
   type: study
   priority: 5
   status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41025649/
-- name: 'Perez-Bootello 2025 Mediterranean Diet and Patients With Psoriasis: The MEDIPSO
-    Randomized Clinical Trial (PMID 40991259)'
+- name: 'Perez-Bootello 2025 Mediterranean Diet and Patients With Psoriasis: The MEDIPSO Randomized Clinical
+    Trial (PMID 40991259)'
   type: study
   priority: 5
   status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/40991259/
-- name: Warren 2025 Efficacy and safety of lebrikizumab in adult and adolescent patients
-    with moderate-to-seve (PMID 40985295)
+- name: Warren 2025 Efficacy and safety of lebrikizumab in adult and adolescent patients with moderate-to-seve
+    (PMID 40985295)
   type: study
   priority: 5
   status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/40985295/
-- name: Novella 2025 Cosmetic and Application Qualities of the Cream Physiorelax Compared
-    to Another Topical Cr (PMID 40984677)
+- name: Novella 2025 Cosmetic and Application Qualities of the Cream Physiorelax Compared to Another Topical
+    Cr (PMID 40984677)
   type: study
   priority: 5
   status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/40984677/
-- name: 'Zhang 2026 Efficacy and safety of pumecitinib 3% gel in treating mild-to-moderate
-    atopic dermatitis:  (PMID 40973120)'
+- name: 'Zhang 2026 Efficacy and safety of pumecitinib 3% gel in treating mild-to-moderate atopic dermatitis:  (PMID
+    40973120)'
   type: study
   priority: 5
   status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/40973120/
-- name: Thanawala 2025 Efficacy and Safety of an Oral Low-Dose Water-Dispersible Turmeric
-    Extract Capsule on Faci (PMID 40971325)
+- name: Thanawala 2025 Efficacy and Safety of an Oral Low-Dose Water-Dispersible Turmeric Extract Capsule
+    on Faci (PMID 40971325)
   type: study
   priority: 5
   status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/40971325/
-- name: Irfan 2025 Single-incision versus conventional multi-incision laparoscopic
-    appendicectomy for suspect (PMID 40970433)
+- name: Irfan 2025 Single-incision versus conventional multi-incision laparoscopic appendicectomy for
+    suspect (PMID 40970433)
   type: study
   priority: 5
   status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/40970433/
-- name: Du 2025 A Split-Face Randomized Study on the Efficacy of a Platinum-Liposome-Based
-    Facial Mask Con (PMID 40957858)
+- name: Du 2025 A Split-Face Randomized Study on the Efficacy of a Platinum-Liposome-Based Facial Mask
+    Con (PMID 40957858)
   type: study
   priority: 5
   status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/40957858/
-- name: Wang 2025 Efficacy of Encorelane in Enhancing Barrier Function and Reducing
-    Aging Signs in Sensitive (PMID 40952030)
+- name: Wang 2025 Efficacy of Encorelane in Enhancing Barrier Function and Reducing Aging Signs in Sensitive
+    (PMID 40952030)
   type: study
   priority: 5
   status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/40952030/
-- name: 'Tran 2025 Effect of daily sunscreen application on vitamin D: findings from
-    the open-label randomize (PMID 40927943)'
+- name: 'Tran 2025 Effect of daily sunscreen application on vitamin D: findings from the open-label randomize
+    (PMID 40927943)'
   type: study
   priority: 5
   status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/40927943/
-- name: Heidary 2025 Randomized Clinical Trial on the Efficacy of Oral Tranexamic
-    Acid Versus Topical Tranexami (PMID 40923777)
+- name: Heidary 2025 Randomized Clinical Trial on the Efficacy of Oral Tranexamic Acid Versus Topical
+    Tranexami (PMID 40923777)
   type: study
   priority: 5
   status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/40923777/
-- name: Karimi 2025 Neurocosmetic Post-Procedure Cream for Reducing Patient Discomfort
-    and Enhancing Lower Eye (PMID 40911753)
+- name: Karimi 2025 Neurocosmetic Post-Procedure Cream for Reducing Patient Discomfort and Enhancing Lower
+    Eye (PMID 40911753)
   type: study
   priority: 5
   status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/40911753/
-- name: 'Amin 2025 Oral Hyaluronic Acid Supplement: Efficacy in Skin Hydration, Elasticity,
-    and Wrinkle Depth (PMID 40911749)'
+- name: 'Amin 2025 Oral Hyaluronic Acid Supplement: Efficacy in Skin Hydration, Elasticity, and Wrinkle
+    Depth (PMID 40911749)'
   type: study
   priority: 5
   status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/40911749/
-- name: Draelos 2025 The Impact of an AGE-Inhibiting Moisturizer on Procedure Effectiveness
-    (PMID 40911740)
+- name: Draelos 2025 The Impact of an AGE-Inhibiting Moisturizer on Procedure Effectiveness (PMID 40911740)
   type: study
   priority: 5
   status: done
   discovered_from: null
-  source: 'https://pubmed.ncbi.nlm.nih.gov/40911740/ Research done 2026-10-21 but
-    the tick was superseded before drafting; do NOT re-fetch, just verify. J Drugs
-    Dermatol 2025 Sep 1;24(9):904-909, doi 10.36849/jdd.9201, indexed as a Randomized
-    Controlled Trial. Design single-site, randomized, split-face, double-blind, controlled;
-    n=42 female, Fitzpatrick I-VI; AGE-inhibitory moisturizer vs a BLAND moisturizer,
-    twice daily, 10 weeks total (14 days priming before the procedure plus 8 weeks
-    after), assessments at baseline and weeks 1, 2, 4, 8 on the modified Griffiths
-    scale plus VISIA imaging. FOUR THINGS THE PAGE MUST CARRY. (1) The abstract NEVER
-    NAMES THE PRODUCT, so this evidence cannot be attached to any product page. (2)
-    PROCEDURE IS CONFOUNDED WITH SKIN TYPE by design: Fitzpatrick I-II received RF
-    microneedling and III-VI received a glycolic acid peel, so ''works after RFMN''
-    cannot be separated from ''works in lighter skin'', and each stratum is only about
-    21 people. (3) The abstract reports NO effect sizes at all, only ''statistically
-    significant'' with P<0.05, so effect magnitude is unreportable. (4) Two different
-    claims must not be conflated: 5 attributes beat the control side at week 8, while
-    10 attributes improved versus BASELINE, which is a within-arm change and not a
-    controlled comparison. Also note PubMed records NO author affiliations and NO
-    conflict-of-interest statement for this paper, and no grant support; state that
-    as what the record shows and allege nothing. All-female sample, so no generalization
-    to men despite the conclusion''s ''women of all skin tones'' phrasing. Link out
-    to microneedling, glycolic-acid, anti-aging, skin-firmness-elasticity; the site
-    has NO advanced-glycation-end-products page.'
-- name: 'Irvine 2025 Efficacy and Safety of Upadacitinib in Patients With Moderate-to-Severe
-    Atopic Dermatitis: (PMID 40900410)'
+  source: 'https://pubmed.ncbi.nlm.nih.gov/40911740/ Research done 2026-10-21 but the tick was superseded
+    before drafting; do NOT re-fetch, just verify. J Drugs Dermatol 2025 Sep 1;24(9):904-909, doi 10.36849/jdd.9201,
+    indexed as a Randomized Controlled Trial. Design single-site, randomized, split-face, double-blind,
+    controlled; n=42 female, Fitzpatrick I-VI; AGE-inhibitory moisturizer vs a BLAND moisturizer, twice
+    daily, 10 weeks total (14 days priming before the procedure plus 8 weeks after), assessments at baseline
+    and weeks 1, 2, 4, 8 on the modified Griffiths scale plus VISIA imaging. FOUR THINGS THE PAGE MUST
+    CARRY. (1) The abstract NEVER NAMES THE PRODUCT, so this evidence cannot be attached to any product
+    page. (2) PROCEDURE IS CONFOUNDED WITH SKIN TYPE by design: Fitzpatrick I-II received RF microneedling
+    and III-VI received a glycolic acid peel, so ''works after RFMN'' cannot be separated from ''works
+    in lighter skin'', and each stratum is only about 21 people. (3) The abstract reports NO effect sizes
+    at all, only ''statistically significant'' with P<0.05, so effect magnitude is unreportable. (4) Two
+    different claims must not be conflated: 5 attributes beat the control side at week 8, while 10 attributes
+    improved versus BASELINE, which is a within-arm change and not a controlled comparison. Also note
+    PubMed records NO author affiliations and NO conflict-of-interest statement for this paper, and no
+    grant support; state that as what the record shows and allege nothing. All-female sample, so no generalization
+    to men despite the conclusion''s ''women of all skin tones'' phrasing. Link out to microneedling,
+    glycolic-acid, anti-aging, skin-firmness-elasticity; the site has NO advanced-glycation-end-products
+    page.'
+- name: 'Irvine 2025 Efficacy and Safety of Upadacitinib in Patients With Moderate-to-Severe Atopic Dermatitis:
+    (PMID 40900410)'
   type: study
   priority: 5
   status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/40900410/
-- name: Lee 2026 Comparison of a Single Treatment of Needleless Microsubcision With
-    Hyaluronic Acid and Car (PMID 40899732)
+- name: Lee 2026 Comparison of a Single Treatment of Needleless Microsubcision With Hyaluronic Acid and
+    Car (PMID 40899732)
   type: study
   priority: 5
   status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/40899732/
-- name: Zirwas 2026 Efficacy and safety of ruxolitinib cream for the treatment of
-    moderate to severe chronic h (PMID 40889714)
+- name: Zirwas 2026 Efficacy and safety of ruxolitinib cream for the treatment of moderate to severe chronic
+    h (PMID 40889714)
   type: study
   priority: 5
   status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/40889714/
-- name: 'Hsu 2025 Ethnic Differences of Palmoplantar Pustulosis: A Systematic Review
-    (PMID 40888828)'
+- name: 'Hsu 2025 Ethnic Differences of Palmoplantar Pustulosis: A Systematic Review (PMID 40888828)'
   type: study
   priority: 5
   status: done
   discovered_from: null
   source: 'https://pubmed.ncbi.nlm.nih.gov/40888828/ Shipped as hsu-2025-ethnic-differences-palmoplantar-pustulosis.
-    Compact per the study scope. Note for anyone reusing it: the treatment-response
-    signal is confounded by design (separate cohorts, different health systems) and
-    must not be read as an efficacy difference by ethnicity; ''biologics were less
-    commonly used in Asia'' is access and prescribing, not efficacy. Senior-author
-    COI is extensive and is recorded on the page.'
-- name: Pourani 2025 Evaluation of Facial Artery Course Variations, Diameters, and
-    Depth Using Doppler Ultrason (PMID 40874402)
+    Compact per the study scope. Note for anyone reusing it: the treatment-response signal is confounded
+    by design (separate cohorts, different health systems) and must not be read as an efficacy difference
+    by ethnicity; ''biologics were less commonly used in Asia'' is access and prescribing, not efficacy.
+    Senior-author COI is extensive and is recorded on the page.'
+- name: Pourani 2025 Evaluation of Facial Artery Course Variations, Diameters, and Depth Using Doppler
+    Ultrason (PMID 40874402)
   type: study
-  priority: 5
+  priority: 1
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/40874402/
-- name: 'Roessle 2025 Efficacy of Incobotulinumtoxin A on Maskne: Evaluation in a
-    Prospective, Single-Center, Pl (PMID 40847901)'
+  note: 'SCOPE RULING 2026-10-27: deferred, not rejected. Facial vascular anatomy by Doppler serves injectable-filler
+    injection safety, which is a procedures-phase topic the site brackets as context rather than covering
+    now (user: non-topical anti-aging = full coverage but LATER phase). Priority dropped to 1 so it stops
+    holding the queue head; raise it again when the filler/procedure pages are built, where it would belong.'
+- name: 'Roessle 2025 Efficacy of Incobotulinumtoxin A on Maskne: Evaluation in a Prospective, Single-Center,
+    Pl (PMID 40847901)'
   type: study
   priority: 5
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/40847901/
-- name: 'Vahabi 2025 Axillary Hyperpigmentation Treatment: A Systematic Review of
-    the Literature (PMID 40843925)'
+- name: 'Vahabi 2025 Axillary Hyperpigmentation Treatment: A Systematic Review of the Literature (PMID
+    40843925)'
   type: study
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/40843925/
-- name: 'Ghanem 2025 Efficacy and Safety of Oral Spironolactone for Women With Acne
-    Vulgaris: A Systematic Revi (PMID 40823723)'
+- name: 'Ghanem 2025 Efficacy and Safety of Oral Spironolactone for Women With Acne Vulgaris: A Systematic
+    Revi (PMID 40823723)'
   type: study
   priority: 5
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/40823723/
-- name: Celleno 2025 A Novel Approach Against Male Pattern Hair Loss With Topical
-    Dimethylglycine Sodium Salt ( (PMID 40820949)
+- name: Celleno 2025 A Novel Approach Against Male Pattern Hair Loss With Topical Dimethylglycine Sodium
+    Salt ( (PMID 40820949)
   type: study
   priority: 5
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/40820949/
-- name: Mehta 2025 Comparative efficacy of topical tofacitinib versus topical tacrolimus
-    in the treatment of  (PMID 40758816)
+- name: Mehta 2025 Comparative efficacy of topical tofacitinib versus topical tacrolimus in the treatment
+    of  (PMID 40758816)
   type: study
   priority: 5
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/40758816/
-- name: "Morell\xF3-Vicente 2025 Efficacy and safety of sequential treatment with\
-    \ cryotherapy followed by 1% topical tirban (PMID 40754218)"
+- name: Morelló-Vicente 2025 Efficacy and safety of sequential treatment with cryotherapy followed by
+    1% topical tirban (PMID 40754218)
   type: study
   priority: 5
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/40754218/
-- name: Paller 2025 Efficacy and safety of apremilast in paediatric patients with
-    moderate-to-severe plaque ps (PMID 40737559)
+- name: Paller 2025 Efficacy and safety of apremilast in paediatric patients with moderate-to-severe plaque
+    ps (PMID 40737559)
   type: study
   priority: 5
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/40737559/
-- name: Jiang 2025 Clinical Observation of a Novel Moisturizing Cream for Reducing
-    Neurovascular Hyper-Reacti (PMID 40736038)
+- name: Jiang 2025 Clinical Observation of a Novel Moisturizing Cream for Reducing Neurovascular Hyper-Reacti
+    (PMID 40736038)
   type: study
   priority: 5
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/40736038/
-- name: Blauvelt 2025 Improvement and maintenance of clinical outcome assessments
-    in atopic dermatitis with amli (PMID 40704660)
+- name: Blauvelt 2025 Improvement and maintenance of clinical outcome assessments in atopic dermatitis
+    with amli (PMID 40704660)
   type: study
   priority: 5
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/40704660/
-- name: Huang 2025 Upadacitinib Versus Acitretin for the Resolution of Pustules in
-    Palmoplantar Pustulosis Du (PMID 40702395)
+- name: Huang 2025 Upadacitinib Versus Acitretin for the Resolution of Pustules in Palmoplantar Pustulosis
+    Du (PMID 40702395)
   type: study
   priority: 5
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/40702395/
-- name: 'Hong 2025 Radiotherapy versus imiquimod for complex lentigo maligna: A phase
-    3 randomized clinical t (PMID 40683357)'
+- name: 'Hong 2025 Radiotherapy versus imiquimod for complex lentigo maligna: A phase 3 randomized clinical
+    t (PMID 40683357)'
   type: study
   priority: 5
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/40683357/
-- name: 'Blume-Peytavi 2026 Efficacy and safety of Cinainu in paediatric alopecia
-    areata: an international, double-bli (PMID 40668972)'
+- name: 'Blume-Peytavi 2026 Efficacy and safety of Cinainu in paediatric alopecia areata: an international,
+    double-bli (PMID 40668972)'
   type: study
   priority: 5
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/40668972/
-- name: Graham 2025 Skin cleansers and leave-on product interventions for preventing
-    incontinence-associated d (PMID 40643063)
+- name: Graham 2025 Skin cleansers and leave-on product interventions for preventing incontinence-associated
+    d (PMID 40643063)
   type: study
   priority: 5
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/40643063/
-- name: Ivarsson 2025 Application of Antioxidant Mixture Prevents Cutaneous "Oxinflammaging"
-    in Subjects Exposed (PMID 40642809)
+- name: Ivarsson 2025 Application of Antioxidant Mixture Prevents Cutaneous "Oxinflammaging" in Subjects
+    Exposed (PMID 40642809)
   type: study
   priority: 5
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/40642809/
-- name: Jiang 2025 A Randomized, Investigator-Blinded, Split-Face, Controlled Trial
-    Evaluating the Efficacy a (PMID 40635529)
+- name: Jiang 2025 A Randomized, Investigator-Blinded, Split-Face, Controlled Trial Evaluating the Efficacy
+    a (PMID 40635529)
   type: study
   priority: 5
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/40635529/
-- name: Mateu-Arrom 2025 Therapeutic Benefits of Topical Omega-3 Polyunsaturated Fatty
-    Acids in Skin Diseases and C (PMID 40616290)
+- name: Mateu-Arrom 2025 Therapeutic Benefits of Topical Omega-3 Polyunsaturated Fatty Acids in Skin Diseases
+    and C (PMID 40616290)
   type: study
   priority: 5
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/40616290/
-- name: Zhao 2026 The Analgesic Effect of Forced Air Cooling During High-Intensity,
-    High-Frequency, Parallel (PMID 40600587)
+- name: Zhao 2026 The Analgesic Effect of Forced Air Cooling During High-Intensity, High-Frequency, Parallel
+    (PMID 40600587)
   type: study
   priority: 5
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/40600587/
-- name: Shen 2025 Effect of a New Skin-Lightening Cosmetic Containing Cordyceps Extract
-    in the Treatment of  (PMID 40590148)
+- name: Shen 2025 Effect of a New Skin-Lightening Cosmetic Containing Cordyceps Extract in the Treatment
+    of  (PMID 40590148)
   type: study
   priority: 5
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/40590148/
-- name: 'Tang 2025 Sequential Triple Therapy for Facial Inflammation: Prospective
-    Evaluation of Facial Micron (PMID 40589311)'
+- name: 'Tang 2025 Sequential Triple Therapy for Facial Inflammation: Prospective Evaluation of Facial
+    Micron (PMID 40589311)'
   type: study
   priority: 5
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/40589311/
-- name: 'Chang 2025 Novel Cyclized Hexapeptide-9 Outperforms Retinol Against Skin
-    Aging: A Randomized, Double- (PMID 40586182)'
+- name: 'Chang 2025 Novel Cyclized Hexapeptide-9 Outperforms Retinol Against Skin Aging: A Randomized,
+    Double- (PMID 40586182)'
   type: study
   priority: 5
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/40586182/
-- name: Cai 2025 Assessing the performance of artificial intelligence models in evaluating
-    inflammatory ski (PMID 40570030)
+- name: Cai 2025 Assessing the performance of artificial intelligence models in evaluating inflammatory
+    ski (PMID 40570030)
   type: study
   priority: 5
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/40570030/
-- name: 'Davis 2025 Focused update: Guidelines of care for the management of atopic
-    dermatitis in adults (PMID 40531067)'
+- name: 'Davis 2025 Focused update: Guidelines of care for the management of atopic dermatitis in adults
+    (PMID 40531067)'
   type: study
   priority: 5
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/40531067/
-- name: 'Mohsen 2025 Prevalence of Comorbidities Among Pediatric Patients With Hidradenitis
-    Suppurativa: A Meta (PMID 40498480)'
+- name: 'Mohsen 2025 Prevalence of Comorbidities Among Pediatric Patients With Hidradenitis Suppurativa:
+    A Meta (PMID 40498480)'
   type: study
   priority: 5
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/40498480/
-- name: Schachner 2025 Practical Algorithm on Topical Treatment of Flaring Atopic
-    Dermatitis (AD) With or Without (PMID 40465505)
+- name: Schachner 2025 Practical Algorithm on Topical Treatment of Flaring Atopic Dermatitis (AD) With
+    or Without (PMID 40465505)
   type: study
   priority: 5
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/40465505/
-- name: "Estupi\xF1an 2025 Adipose Mesenchymal Stem Cell-Derived Exosomes Versus Platelet-Rich\
-    \ Plasma Treatment for P (PMID 40414798)"
+- name: Estupiñan 2025 Adipose Mesenchymal Stem Cell-Derived Exosomes Versus Platelet-Rich Plasma Treatment
+    for P (PMID 40414798)
   type: study
   priority: 5
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/40414798/
-- name: Chen 2025 Safety and efficacy of topical simvastatin plus cholesterol cream
-    versus topical simvastat (PMID 40403974)
+- name: Chen 2025 Safety and efficacy of topical simvastatin plus cholesterol cream versus topical simvastat
+    (PMID 40403974)
   type: study
   priority: 5
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/40403974/
-- name: 'Qin 2025 Synergistic Enhancement of Compromised Skin Radiance: A Clinical
-    Investigation of Prinsepi (PMID 40367144)'
+- name: 'Qin 2025 Synergistic Enhancement of Compromised Skin Radiance: A Clinical Investigation of Prinsepi
+    (PMID 40367144)'
   type: study
   priority: 5
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/40367144/
-- name: Lynde 2025 Randomized-Controlled Trial Comparing Safety and Efficacy of Repairing
-    Balm vs Topical Ant (PMID 40327581)
+- name: Lynde 2025 Randomized-Controlled Trial Comparing Safety and Efficacy of Repairing Balm vs Topical
+    Ant (PMID 40327581)
   type: study
   priority: 5
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/40327581/
-- name: Draelos 2025 A 12-Week Randomized, Double-Blind, Placebo-Controlled Trial
-    for the Efficacy and Safety o (PMID 40321085)
+- name: Draelos 2025 A 12-Week Randomized, Double-Blind, Placebo-Controlled Trial for the Efficacy and
+    Safety o (PMID 40321085)
   type: study
   priority: 5
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/40321085/
-- name: Kircik 2025 Efficacy and safety of rilzabrutinib in patients with moderate-to-severe
-    atopic dermatitis (PMID 40317187)
+- name: Kircik 2025 Efficacy and safety of rilzabrutinib in patients with moderate-to-severe atopic dermatitis
+    (PMID 40317187)
   type: study
   priority: 5
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/40317187/
-- name: Rutnumnoi 2025 Superficial Intradermal Injections of Cohesive Polydensified
-    Matrix Hyaluronic Acid Filler (PMID 40304039)
+- name: Rutnumnoi 2025 Superficial Intradermal Injections of Cohesive Polydensified Matrix Hyaluronic
+    Acid Filler (PMID 40304039)
   type: study
   priority: 5
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/40304039/
-- name: Ni 2025 Evaluating the Efficacy of Acupotomy Subcision and Hyaluronic Acid
-    Injections for Neck Wri (PMID 40296541)
+- name: Ni 2025 Evaluating the Efficacy of Acupotomy Subcision and Hyaluronic Acid Injections for Neck
+    Wri (PMID 40296541)
   type: study
   priority: 5
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/40296541/
-- name: Kwon 2025 Nanovesicles for Sensitive Skin Care Developed via Self-Assembly
-    of Glutamine Linoleate (PMID 40259621)
+- name: Kwon 2025 Nanovesicles for Sensitive Skin Care Developed via Self-Assembly of Glutamine Linoleate
+    (PMID 40259621)
   type: study
   priority: 5
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/40259621/
-- name: 'Chang 2025 Abrocitinib versus dupilumab: Impact on skin barrier function
-    and proteomics in atopic der (PMID 40246083)'
+- name: 'Chang 2025 Abrocitinib versus dupilumab: Impact on skin barrier function and proteomics in atopic
+    der (PMID 40246083)'
   type: study
   priority: 5
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/40246083/
-- name: 'Goldberg 2025 A Novel Technology to Boost Natural Production of Hyaluronic
-    Acid in the Skin Tissue: Huma (PMID 40243133)'
+- name: 'Goldberg 2025 A Novel Technology to Boost Natural Production of Hyaluronic Acid in the Skin Tissue:
+    Huma (PMID 40243133)'
   type: study
   priority: 5
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/40243133/
-- name: "P\xE9rez-Buenfil 2025 Prevalence of Body Dysmorphic Disorder: A Systematic\
-    \ Review and Meta-Analysis (PMID 40200598)"
+- name: 'Pérez-Buenfil 2025 Prevalence of Body Dysmorphic Disorder: A Systematic Review and Meta-Analysis
+    (PMID 40200598)'
   type: study
   priority: 5
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/40200598/
-- name: D 2025 Improvement in Skin Moisturization and Lack of Barrier Damage Following
-    Treatment With Cla (PMID 40196957)
+- name: D 2025 Improvement in Skin Moisturization and Lack of Barrier Damage Following Treatment With
+    Cla (PMID 40196957)
   type: study
   priority: 5
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/40196957/
-- name: Tan 2019 trifarotene phase 3 moderate facial and truncal acne (PERFECT 1 and
-    2)
+- name: Tan 2019 trifarotene phase 3 moderate facial and truncal acne (PERFECT 1 and 2)
   type: study
   priority: 5
   status: pending
   discovered_from: body-acne
   source: https://pubmed.ncbi.nlm.nih.gov/31163235/
-- name: Castanedo-Cazares 2014 iron-oxide visible-light sunscreen + hydroquinone melasma
-    RCT (PMID 24313385)
+- name: Castanedo-Cazares 2014 iron-oxide visible-light sunscreen + hydroquinone melasma RCT (PMID 24313385)
   type: study
   priority: 5
   status: pending
   discovered_from: brightening
   source: https://pubmed.ncbi.nlm.nih.gov/24313385/
-- name: Topical tazarotene/tretinoin for atrophic acne scars (split-face randomized
-    trial)
+- name: Topical tazarotene/tretinoin for atrophic acne scars (split-face randomized trial)
   type: study
   priority: 5
   status: pending
   discovered_from: acne-scars
   source: https://pubmed.ncbi.nlm.nih.gov/?term=topical+retinoid+atrophic+acne+scars+randomized
-- name: Ablon 2026 A Novel Moisturizer Formulated With Micronized Centella asiatica
-    and Mandelic Acid Improve (PMID 42696337)
+- name: Ablon 2026 A Novel Moisturizer Formulated With Micronized Centella asiatica and Mandelic Acid
+    Improve (PMID 42696337)
   type: study
   priority: 5
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/42696337/
-- name: 'Tanghetti 2020 Tazarotene 0.045% Lotion for Moderate-to-Severe Acne: two
-    phase 3 RCTs (PMID 32549090, J Drugs Dermatol) - peer-reviewed publication of
-    the Arazlo registration trials'
+- name: 'Tanghetti 2020 Tazarotene 0.045% Lotion for Moderate-to-Severe Acne: two phase 3 RCTs (PMID 32549090,
+    J Drugs Dermatol) - peer-reviewed publication of the Arazlo registration trials'
   type: study
   priority: 5
   status: pending
   discovered_from: arazlo-tazarotene-0-045-lotion
   source: null
-- name: Okamoto 2021 in-vitro benzoyl peroxide microbicidal activity vs Malassezia
-    (PMID 33369759)
+- name: Okamoto 2021 in-vitro benzoyl peroxide microbicidal activity vs Malassezia (PMID 33369759)
   type: study
   priority: 5
   status: pending
   discovered_from: fungal-acne
   source: https://pubmed.ncbi.nlm.nih.gov/33369759/
-- name: Visan 2026 A Systematic Review of the Clinical Impact of GLP-1 Receptor Agonists
-    in Hidradenitis Supp (PMID 42295612)
+- name: Visan 2026 A Systematic Review of the Clinical Impact of GLP-1 Receptor Agonists in Hidradenitis
+    Supp (PMID 42295612)
   type: study
   priority: 5
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/42295612/
-- name: "Stein 2026 Durability of response to icotrokinra in adults\_with moderate-to-severe\
-    \ plaque psoriasis:  (PMID 42397072)"
+- name: 'Stein 2026 Durability of response to icotrokinra in adults with moderate-to-severe plaque psoriasis:  (PMID
+    42397072)'
   type: study
   priority: 5
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/42397072/
-- name: 'Diab 2026 Subcision Versus Subcision With Suction for the Treatment of Atrophic
-    Acne Scars: A Random (PMID 42054473)'
+- name: 'Diab 2026 Subcision Versus Subcision With Suction for the Treatment of Atrophic Acne Scars: A
+    Random (PMID 42054473)'
   type: study
   priority: 5
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/42054473/
-- name: Krebs 2026 Large-scale meta-analysis of infection risk with JAK-STAT inhibitors
-    in 29,000 patients (PMID 42187316)
+- name: Krebs 2026 Large-scale meta-analysis of infection risk with JAK-STAT inhibitors in 29,000 patients
+    (PMID 42187316)
   type: study
   priority: 5
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/42187316/
-- name: Gupta 2026 Deep and disseminated dermatophytosis in immunocompromised populations-A
-    systematic review (PMID 41104791)
+- name: Gupta 2026 Deep and disseminated dermatophytosis in immunocompromised populations-A systematic
+    review (PMID 41104791)
   type: study
   priority: 5
   status: pending
@@ -1176,17 +1162,17 @@
   priority: 5
   status: pending
   discovered_from: upadacitinib
-  source: PMID 41296263 Am J Clin Dermatol; already cited on upadacitinib, grounds
-    abrocitinib/baricitinib too
-- name: 'Xiong 2026: network meta-analysis of targeted systemic therapies for moderate-to-severe
-    atopic dermatitis (33 phase 3-4 RCTs, 16334 participants; PMID 41919337)'
+  source: PMID 41296263 Am J Clin Dermatol; already cited on upadacitinib, grounds abrocitinib/baricitinib
+    too
+- name: 'Xiong 2026: network meta-analysis of targeted systemic therapies for moderate-to-severe atopic
+    dermatitis (33 phase 3-4 RCTs, 16334 participants; PMID 41919337)'
   type: study
   priority: 5
   status: pending
   discovered_from: systemic-atopic-dermatitis-treatments-by-evidence
   source: https://pubmed.ncbi.nlm.nih.gov/41919337/
-- name: 'Bhoyrul 2019: patch testing with alkyl glucosides, concomitant reactions
-    common but not ubiquitous (5775 patients, PMID 30460735)'
+- name: 'Bhoyrul 2019: patch testing with alkyl glucosides, concomitant reactions common but not ubiquitous
+    (5775 patients, PMID 30460735)'
   type: study
   priority: 5
   status: pending
@@ -1197,484 +1183,431 @@
   priority: 5
   status: pending
   discovered_from: revive-light-therapy-essentials
-  source: 'PMID 27670126, CD007917. Already quoted and verbatim-verified on home-led-light-therapy,
-    and now the countervailing evidence behind FIVE device pages (home-led-light-therapy,
-    home-use-skincare-devices-by-evidence, revive-light-therapy-wrinkle-and-acne-led-device,
-    neutrogena-light-therapy-acne-mask-plus, revive-light-therapy-essentials). A compact
-    study page would let all five link to the numbers instead of re-describing them:
-    71 RCTs, 4211 participants, median 31 participants per trial, two thirds industry-sponsored,
-    fewer than half assessed past 8 weeks, and the pooled MAL-PDT null (MD -2.85,
-    95% CI -7.51 to 1.81) whose both arms received red light.'
+  source: 'PMID 27670126, CD007917. Already quoted and verbatim-verified on home-led-light-therapy, and
+    now the countervailing evidence behind FIVE device pages (home-led-light-therapy, home-use-skincare-devices-by-evidence,
+    revive-light-therapy-wrinkle-and-acne-led-device, neutrogena-light-therapy-acne-mask-plus, revive-light-therapy-essentials).
+    A compact study page would let all five link to the numbers instead of re-describing them: 71 RCTs,
+    4211 participants, median 31 participants per trial, two thirds industry-sponsored, fewer than half
+    assessed past 8 weeks, and the pooled MAL-PDT null (MD -2.85, 95% CI -7.51 to 1.81) whose both arms
+    received red light.'
 - name: Placebo- or vehicle-controlled RCT of topical tranexamic acid for melasma
   type: study
   priority: 5
   status: pending
   discovered_from: heydari-2025-oral-vs-topical-tranexamic-acid-melasma
-  source: 'The gap this page exposes. PMID 40923777 compares the two ROUTES with no
-    placebo or vehicle arm, so its 50.88% and 58.86% MASI reductions cannot be separated
-    from sun avoidance and regression to the mean. Search PubMed for a vehicle-controlled
-    topical TXA melasma RCT (terms: tranexamic acid melasma randomized vehicle-controlled)
-    and prefer one reporting a between-group difference with a confidence interval.
-    That is the study the tranexamic-acid page needs to justify its grade.'
+  source: 'The gap this page exposes. PMID 40923777 compares the two ROUTES with no placebo or vehicle
+    arm, so its 50.88% and 58.86% MASI reductions cannot be separated from sun avoidance and regression
+    to the mean. Search PubMed for a vehicle-controlled topical TXA melasma RCT (terms: tranexamic acid
+    melasma randomized vehicle-controlled) and prefer one reporting a between-group difference with a
+    confidence interval. That is the study the tranexamic-acid page needs to justify its grade.'
 - name: Wu 2025 network meta-analysis of acne scar treatments (PMID 41081097)
   type: study
   priority: 5
   status: pending
   discovered_from: acne-scar-procedures-by-evidence
   source: https://pubmed.ncbi.nlm.nih.gov/41081097/ - the evidence spine for acne-scar-procedures-by-evidence
-    and now cited by it, but with no study page of its own. 68 RCTs, 4,480 patients,
-    Bayesian NMA, PROSPERO CRD42024598780, PeerJ 2025;13:e19938. The abstract names
-    only the top-ranked option per outcome, so a study page should read the PMC full
-    text (PMC12515001) to recover the FULL ranking table, the credible intervals,
-    and the risk-of-bias results. That is what would let the list state a rank for
-    subcision instead of declining to.
-- name: Berth-Jones 2002 placebo-controlled azathioprine crossover trial in severe
-    AD (PMID 12174106)
+    and now cited by it, but with no study page of its own. 68 RCTs, 4,480 patients, Bayesian NMA, PROSPERO
+    CRD42024598780, PeerJ 2025;13:e19938. The abstract names only the top-ranked option per outcome, so
+    a study page should read the PMC full text (PMC12515001) to recover the FULL ranking table, the credible
+    intervals, and the risk-of-bias results. That is what would let the list state a rank for subcision
+    instead of declining to.
+- name: Berth-Jones 2002 placebo-controlled azathioprine crossover trial in severe AD (PMID 12174106)
   type: study
   priority: 5
   status: pending
   discovered_from: azathioprine
-  source: https://pubmed.ncbi.nlm.nih.gov/12174106/ - the ONLY double-blind placebo-controlled
-    trial of azathioprine in atopic dermatitis, and the sole reason that page is graded
-    mid rather than weak. SASSAD fell 26% vs 3% on placebo (P less than 0.01), but
-    16 of 37 withdrew. A study page should read the full text for the crossover analysis
-    and the per-period withdrawal pattern, since 43% attrition in a crossover design
-    threatens the estimate.
+  source: https://pubmed.ncbi.nlm.nih.gov/12174106/ - the ONLY double-blind placebo-controlled trial of
+    azathioprine in atopic dermatitis, and the sole reason that page is graded mid rather than weak. SASSAD
+    fell 26% vs 3% on placebo (P less than 0.01), but 16 of 37 withdrew. A study page should read the
+    full text for the crossover analysis and the per-period withdrawal pattern, since 43% attrition in
+    a crossover design threatens the estimate.
 - name: Malekan 2026 baricitinib vs azathioprine head-to-head RCT (PMID 41239194)
   type: study
   priority: 5
   status: pending
   discovered_from: azathioprine
-  source: https://pubmed.ncbi.nlm.nih.gov/41239194/ - NCT05969730, single-centre OPEN-LABEL,
-    40 adults, 12 weeks. Cited by the azathioprine page for the 65% vs 15% EASI 75
-    gap. A study page should weigh the open-label design, which inflates apparent
-    gaps favouring the novel drug, and recover the azathioprine dose range (the PubMed
-    plain-text render corrupts its dash, so it must come from the full text). An editorial
-    comment exists at PMID 41467349 with no abstract; read it for the critique.
+  source: https://pubmed.ncbi.nlm.nih.gov/41239194/ - NCT05969730, single-centre OPEN-LABEL, 40 adults,
+    12 weeks. Cited by the azathioprine page for the 65% vs 15% EASI 75 gap. A study page should weigh
+    the open-label design, which inflates apparent gaps favouring the novel drug, and recover the azathioprine
+    dose range (the PubMed plain-text render corrupts its dash, so it must come from the full text). An
+    editorial comment exists at PMID 41467349 with no abstract; read it for the critique.
 - name: Campos 2026 pediatric molluscum treatment network meta-analysis (PMID 42360610)
   type: study
   priority: 5
   status: pending
   discovered_from: molluscum-contagiosum
-  source: https://pubmed.ncbi.nlm.nih.gov/42360610/ - 18 controlled trials, 2377 children,
-    15 treatments, PROSPERO CRD420251040622, Paediatr Drugs 2026;28(4):359-372. The
-    evidence spine for the molluscum hub and its tier list. The abstract names only
-    the top three replicated treatments and does NOT report a rank for berdazimer,
-    so the hub states none; a study page should recover the FULL ranking table and
-    the single-study entries (Backhousia citriodora oil, Candida albicans antigen)
-    that ranked highest but are unvalidated.
-- name: Liu 2026 exploratory NMA of minimally invasive atrophic acne scar treatments
-    (PMID 42745895)
+  source: https://pubmed.ncbi.nlm.nih.gov/42360610/ - 18 controlled trials, 2377 children, 15 treatments,
+    PROSPERO CRD420251040622, Paediatr Drugs 2026;28(4):359-372. The evidence spine for the molluscum
+    hub and its tier list. The abstract names only the top three replicated treatments and does NOT report
+    a rank for berdazimer, so the hub states none; a study page should recover the FULL ranking table
+    and the single-study entries (Backhousia citriodora oil, Candida albicans antigen) that ranked highest
+    but are unvalidated.
+- name: Liu 2026 exploratory NMA of minimally invasive atrophic acne scar treatments (PMID 42745895)
   type: study
   priority: 5
   status: pending
   discovered_from: chemical-peels-acne-scars
-  source: https://pubmed.ncbi.nlm.nih.gov/42745895/ - the dissenting analysis, and
-    the most useful study page the acne-scar cluster could gain. It restricted itself
-    to records with verifiable source tables so its numbers could be reproduced, found
-    only 9 RCTs forming a sparse network, and concluded that 'a reliable treatment
-    ranking does not currently exist' with CINeMA confidence low or very low. PMC
-    full text is open (PMC13574651), so a study page can recover the full node list,
-    the P-scores, and the sensitivity analyses that flipped the top-ranked treatment.
-    It also discloses NOT searching Embase/CENTRAL/WoS/Scopus/registries, which must
-    be stated so it is not read as superseding the larger analyses.
+  source: https://pubmed.ncbi.nlm.nih.gov/42745895/ - the dissenting analysis, and the most useful study
+    page the acne-scar cluster could gain. It restricted itself to records with verifiable source tables
+    so its numbers could be reproduced, found only 9 RCTs forming a sparse network, and concluded that
+    'a reliable treatment ranking does not currently exist' with CINeMA confidence low or very low. PMC
+    full text is open (PMC13574651), so a study page can recover the full node list, the P-scores, and
+    the sensitivity analyses that flipped the top-ranked treatment. It also discloses NOT searching Embase/CENTRAL/WoS/Scopus/registries,
+    which must be stated so it is not read as superseding the larger analyses.
 - name: Li 2024 microneedling-combination NMA for acne scars (PMID 39110247)
   type: study
   priority: 5
   status: pending
   discovered_from: chemical-peels-acne-scars
-  source: https://pubmed.ncbi.nlm.nih.gov/39110247/ - 24 studies, 1546 participants,
-    Arch Dermatol Res 2024;316(8):505. The source of the headline that microneedling
-    plus chemical peels beats microneedling with PRP, hyaluronic acid or botulinum
-    toxin A. Cited by chemical-peels-acne-scars and acne-scars. A study page should
-    recover the per-comparison effect sizes and credible intervals, since the abstract
-    gives a ranking with no numbers attached, and should check whether any included
-    trial names the peel agent and concentration (no abstract in this cluster does).
+  source: https://pubmed.ncbi.nlm.nih.gov/39110247/ - 24 studies, 1546 participants, Arch Dermatol Res
+    2024;316(8):505. The source of the headline that microneedling plus chemical peels beats microneedling
+    with PRP, hyaluronic acid or botulinum toxin A. Cited by chemical-peels-acne-scars and acne-scars.
+    A study page should recover the per-comparison effect sizes and credible intervals, since the abstract
+    gives a ranking with no numbers attached, and should check whether any included trial names the peel
+    agent and concentration (no abstract in this cluster does).
 - name: A properly reported RCT of post-ablative-laser topical aftercare
   type: study
   priority: 5
   status: pending
   discovered_from: karimi-2025-neurocosmetic-post-procedure-cream
-  source: 'The gap PMID 40911753 exposes. Search PubMed for randomized trials of post-laser
-    topical aftercare that actually report n, allocation and a statistic (terms: ablative
-    laser resurfacing aftercare randomized erythema healing). PubMed indexes the Karimi
-    paper as a Randomized Controlled Trial while its abstract states no randomization,
-    no n and no p-value, so the aftercare question currently has no citable answer
+  source: 'The gap PMID 40911753 exposes. Search PubMed for randomized trials of post-laser topical aftercare
+    that actually report n, allocation and a statistic (terms: ablative laser resurfacing aftercare randomized
+    erythema healing). PubMed indexes the Karimi paper as a Randomized Controlled Trial while its abstract
+    states no randomization, no n and no p-value, so the aftercare question currently has no citable answer
     on this site. Prefer a trial naming its comparator product or using plain petrolatum.'
-- name: Song 2026 fractional CO2 versus erbium laser meta-analysis for atrophic acne
-    scars (PMID 42720808)
+- name: Song 2026 fractional CO2 versus erbium laser meta-analysis for atrophic acne scars (PMID 42720808)
   type: study
   priority: 5
   status: pending
   discovered_from: acne-scar-treatments-by-downtime-and-pain
-  source: 'https://pubmed.ncbi.nlm.nih.gov/42720808/ - the spine of the new downtime-and-pain
-    list and the cleanest example on the site of a cost being better evidenced than
-    a benefit: CO2''s efficacy advantage over erbium collapses to RR 0.76 (95% CI
-    0.54-1.08) in the randomized-only sensitivity analysis while its pain and downtime
-    penalties both exclude the null. PMC full text is open (PMC13562242), so a study
-    page can recover the per-study data, the risk-of-bias assessment, and which 5
-    studies and 130 participants carry all of this.'
-- name: Almahzoum 2026 needling versus ablative fractional laser systematic review
-    (PMID 42771826)
+  source: 'https://pubmed.ncbi.nlm.nih.gov/42720808/ - the spine of the new downtime-and-pain list and
+    the cleanest example on the site of a cost being better evidenced than a benefit: CO2''s efficacy
+    advantage over erbium collapses to RR 0.76 (95% CI 0.54-1.08) in the randomized-only sensitivity analysis
+    while its pain and downtime penalties both exclude the null. PMC full text is open (PMC13562242),
+    so a study page can recover the per-study data, the risk-of-bias assessment, and which 5 studies and
+    130 participants carry all of this.'
+- name: Almahzoum 2026 needling versus ablative fractional laser systematic review (PMID 42771826)
   type: study
   priority: 5
   status: pending
   discovered_from: acne-scar-treatments-by-downtime-and-pain
-  source: 'https://pubmed.ncbi.nlm.nih.gov/42771826/ - 27 studies, 1137 participants,
-    17 RCTs, PRISMA 2020, searched to 9 April 2026. Cited by the downtime list for
-    the finding that needling has shorter downtime, better tolerability and fewer
-    pigmentary adverse effects while ablative lasers suggest greater improvement.
-    CRITICAL for a study page: the synthesis is NARRATIVE because of heterogeneity,
-    so none of those comparisons carries a pooled effect size; the page must say so
-    and must not convert directional language into numbers. Mixed etiologies too (18
-    of 27 studies are acne scars).'
+  source: 'https://pubmed.ncbi.nlm.nih.gov/42771826/ - 27 studies, 1137 participants, 17 RCTs, PRISMA
+    2020, searched to 9 April 2026. Cited by the downtime list for the finding that needling has shorter
+    downtime, better tolerability and fewer pigmentary adverse effects while ablative lasers suggest greater
+    improvement. CRITICAL for a study page: the synthesis is NARRATIVE because of heterogeneity, so none
+    of those comparisons carries a pooled effect size; the page must say so and must not convert directional
+    language into numbers. Mixed etiologies too (18 of 27 studies are acne scars).'
 - name: Liu 2025 licochalcone A dermatology review (PMID 41181588)
   type: study
   priority: 5
   status: pending
   discovered_from: licochalcone-a
-  source: 'https://pubmed.ncbi.nlm.nih.gov/41181588/ - the sole evidence spine for
-    the licochalcone-a page and the source of its weak tier, because the review itself
-    states that ''current research is limited by geographical bias, a lack of high-quality
-    randomized controlled trials, and reliance on preclinical models''. PMC full text
-    is OPEN (PMC12571894), so a study page can finally answer what the abstract will
-    not: which clinical studies it means when it says clinical studies have confirmed
-    reduced inflammatory lesions, and whether any of them report an n or an effect
-    size. That is the one thing that could move the tier.'
-- name: Ou 2026 laser/microneedling/combination NMA for moderate-to-severe atrophic
-    acne scars (PMID 42429955)
+  source: 'https://pubmed.ncbi.nlm.nih.gov/41181588/ - the sole evidence spine for the licochalcone-a
+    page and the source of its weak tier, because the review itself states that ''current research is
+    limited by geographical bias, a lack of high-quality randomized controlled trials, and reliance on
+    preclinical models''. PMC full text is OPEN (PMC12571894), so a study page can finally answer what
+    the abstract will not: which clinical studies it means when it says clinical studies have confirmed
+    reduced inflammatory lesions, and whether any of them report an n or an effect size. That is the one
+    thing that could move the tier.'
+- name: Ou 2026 laser/microneedling/combination NMA for moderate-to-severe atrophic acne scars (PMID 42429955)
   type: study
   priority: 5
   status: pending
   discovered_from: atrophic-acne-scar-subtypes
-  source: 'https://pubmed.ncbi.nlm.nih.gov/42429955/ - the LARGEST acne-scar NMA the
-    site has found: 56 RCTs, 1488 patients, 34 interventions, Bayesian, GRADE, searched
-    to 2025-08-10. Worth a study page because it is now the THIRD analysis to name
-    a DIFFERENT top combination (MFR+bFGF on ECCA, CO2+subcision and CO2+PRP on Goodman-Baron
-    and satisfaction) against Wu 2025 (laser+PRP on ECCA) and Li 2024 (microneedling+chemical
-    peel). Three analyses, three winners, is the strongest argument yet for the Liu
-    2026 position that no dependable ranking exists. Recover the SUCRA table and the
-    sensitivity analyses, which the abstract says were sensitive to network connectivity.'
-- name: Barbieri et al. systematic review of at-home LED devices for acne (6 RCTs,
-    200+ patients)
+  source: 'https://pubmed.ncbi.nlm.nih.gov/42429955/ - the LARGEST acne-scar NMA the site has found: 56
+    RCTs, 1488 patients, 34 interventions, Bayesian, GRADE, searched to 2025-08-10. Worth a study page
+    because it is now the THIRD analysis to name a DIFFERENT top combination (MFR+bFGF on ECCA, CO2+subcision
+    and CO2+PRP on Goodman-Baron and satisfaction) against Wu 2025 (laser+PRP on ECCA) and Li 2024 (microneedling+chemical
+    peel). Three analyses, three winners, is the strongest argument yet for the Liu 2026 position that
+    no dependable ranking exists. Recover the SUCRA table and the sensitivity analyses, which the abstract
+    says were sensitive to network connectivity.'
+- name: Barbieri et al. systematic review of at-home LED devices for acne (6 RCTs, 200+ patients)
   type: study
   priority: 5
   status: pending
   discovered_from: home-led-light-therapy
   source: 'Described by its own author on camera (video 2No7WA7DYEI, carded on home-led-light-therapy):
-    six randomized controlled trials, over 200 people aged 12 to 50 with mild to moderate
-    acne, roughly 45% greater lesion improvement than control, two trials vs benzoyl
-    peroxide showing LED maybe slightly better, one trial showing red plus blue beat
-    blue alone. FIND THE PAPER on PubMed (author Barbieri JS, terms: light emitting
-    diode acne systematic review home) and verify every figure against the publication
-    rather than the video, because all of the above is currently sourced to a creator
-    describing his own work. This is the device-level evidence the whole home-LED
-    cluster on this site has been missing.'
+    six randomized controlled trials, over 200 people aged 12 to 50 with mild to moderate acne, roughly
+    45% greater lesion improvement than control, two trials vs benzoyl peroxide showing LED maybe slightly
+    better, one trial showing red plus blue beat blue alone. FIND THE PAPER on PubMed (author Barbieri
+    JS, terms: light emitting diode acne systematic review home) and verify every figure against the publication
+    rather than the video, because all of the above is currently sourced to a creator describing his own
+    work. This is the device-level evidence the whole home-LED cluster on this site has been missing.'
 - name: Barbieri et al. market survey of at-home LED device specifications
   type: study
   priority: 5
   status: pending
   discovered_from: home-led-light-therapy
-  source: 'The second study described in video 2No7WA7DYEI: the author says he and
-    colleagues catalogued devices from top retailers and search results, looked up
-    wavelengths, fluence and irradiance, and found ''incredible heterogeneity in the
-    market'' with NO correlation between cost and delivered power. That finding is
-    directly load-bearing for home-use-skincare-devices-by-evidence and for every
-    device page here, because it is the only source that compares real marketed devices
-    against the specifications used in the trials. Locate the publication and verify;
-    if it exists only as a conference abstract or is unpublished, say so and treat
-    the video as the sole attribution.'
+  source: 'The second study described in video 2No7WA7DYEI: the author says he and colleagues catalogued
+    devices from top retailers and search results, looked up wavelengths, fluence and irradiance, and
+    found ''incredible heterogeneity in the market'' with NO correlation between cost and delivered power.
+    That finding is directly load-bearing for home-use-skincare-devices-by-evidence and for every device
+    page here, because it is the only source that compares real marketed devices against the specifications
+    used in the trials. Locate the publication and verify; if it exists only as a conference abstract
+    or is unpublished, say so and treat the video as the sole attribution.'
 - name: Raef 2026 scoping review of home dermatologic devices (PMID 42545315)
   type: study
   priority: 5
   status: pending
   discovered_from: home-fractional-nonablative-laser
-  source: 'https://pubmed.ncbi.nlm.nih.gov/42545315/ - now cited by at least nine
-    pages on this site (home-use-skincare-devices-by-evidence, home-led-light-therapy,
-    home-fractional-nonablative-laser, newa-skin-therapy-system, foreo-faq-led-masks
-    and the reVive product pages) and it has no study page. It is the spine of the
-    whole device cluster, so its limitations deserve one place: it is a SCOPING review
-    that grades bodies of evidence rather than pooling them, reports no effect size
-    for any modality, and names no device. A study page should also recover which
-    studies sit behind the Level A rating, which is the one thing every device page
+  source: 'https://pubmed.ncbi.nlm.nih.gov/42545315/ - now cited by at least nine pages on this site (home-use-skincare-devices-by-evidence,
+    home-led-light-therapy, home-fractional-nonablative-laser, newa-skin-therapy-system, foreo-faq-led-masks
+    and the reVive product pages) and it has no study page. It is the spine of the whole device cluster,
+    so its limitations deserve one place: it is a SCOPING review that grades bodies of evidence rather
+    than pooling them, reports no effect size for any modality, and names no device. A study page should
+    also recover which studies sit behind the Level A rating, which is the one thing every device page
     here has had to say it cannot determine.'
-- name: The mineral-sunscreen hidden-filter study (150 top Amazon sunscreens, nearly
-    half affected)
+- name: The mineral-sunscreen hidden-filter study (150 top Amazon sunscreens, nearly half affected)
   type: study
   priority: 5
   status: pending
   discovered_from: zinc-oxide
-  source: 'Described by dermatologist John Barbieri in video Q6CcxuAGbb8 (carded on
-    zinc-oxide): a study examined 150 of the top-selling sunscreens on Amazon and
-    found nearly half contained organic UV filters declared only in the INACTIVE ingredients,
-    because those molecules are regulated in the US as cosmetic ingredients rather
-    than as sunscreen actives. FIND THE PAPER and verify (PubMed terms: mineral sunscreen
-    hidden UV filter inactive ingredients labeling) before any page repeats the figure,
-    which is currently sourced to a creator describing it. CRITICAL framing to preserve:
-    he states there is NO evidence these filters are harmful and that the issue is
-    label transparency, so a study page must not become a safety scare.'
+  source: 'Described by dermatologist John Barbieri in video Q6CcxuAGbb8 (carded on zinc-oxide): a study
+    examined 150 of the top-selling sunscreens on Amazon and found nearly half contained organic UV filters
+    declared only in the INACTIVE ingredients, because those molecules are regulated in the US as cosmetic
+    ingredients rather than as sunscreen actives. FIND THE PAPER and verify (PubMed terms: mineral sunscreen
+    hidden UV filter inactive ingredients labeling) before any page repeats the figure, which is currently
+    sourced to a creator describing it. CRITICAL framing to preserve: he states there is NO evidence these
+    filters are harmful and that the issue is label transparency, so a study page must not become a safety
+    scare.'
 - name: A properly reported RCT of oral hyaluronic acid with effect sizes
   type: study
   priority: 5
   status: pending
   discovered_from: amin-2025-oral-hyaluronic-acid-meta-analysis
-  source: 'The gap PMID 40911749 leaves. That meta-analysis pooled 7 RCTs but its
-    abstract reports NO standardized mean difference, confidence interval or participant
-    count for any outcome, so the direction is known and the magnitude is not. Search
-    PubMed for individual oral HA RCTs reporting hydration or elasticity with effect
-    sizes (terms: oral hyaluronic acid supplementation randomized placebo skin hydration
-    elasticity), and prefer one that states its n and its measurement instrument.
-    Only with a magnitude can the site say anything useful about whether an oral HA
-    supplement is worth taking.'
+  source: 'The gap PMID 40911749 leaves. That meta-analysis pooled 7 RCTs but its abstract reports NO
+    standardized mean difference, confidence interval or participant count for any outcome, so the direction
+    is known and the magnitude is not. Search PubMed for individual oral HA RCTs reporting hydration or
+    elasticity with effect sizes (terms: oral hyaluronic acid supplementation randomized placebo skin
+    hydration elasticity), and prefer one that states its n and its measurement instrument. Only with
+    a magnitude can the site say anything useful about whether an oral HA supplement is worth taking.'
 - name: Town 2019 home-use light-based hair removal review (PMID 30681170)
   type: study
   priority: 5
   status: pending
   discovered_from: hair-removal-devices-by-evidence
-  source: https://pubmed.ncbi.nlm.nih.gov/30681170/ - the home side of the new hair-removal
-    list and the clearest manufacturer-authorship case the site has after the Proya
-    paper. THREE of its seven authors are listed at Philips Research, PubMed records
-    NO conflict statement, and Philips makes one of the two home IPL devices the site
-    covers. It is also the source of the only durability figure available, 80% persistent
-    reduction one year after last treatment, for an UNNAMED commercially-available
-    appliance. A study page should recover which appliance, how many participants,
-    and whether the 80% comes from a trial in this review or is cited from elsewhere.
-    Belongs on the queued 'manufacturer-authored studies' list too.
+  source: https://pubmed.ncbi.nlm.nih.gov/30681170/ - the home side of the new hair-removal list and the
+    clearest manufacturer-authorship case the site has after the Proya paper. THREE of its seven authors
+    are listed at Philips Research, PubMed records NO conflict statement, and Philips makes one of the
+    two home IPL devices the site covers. It is also the source of the only durability figure available,
+    80% persistent reduction one year after last treatment, for an UNNAMED commercially-available appliance.
+    A study page should recover which appliance, how many participants, and whether the 80% comes from
+    a trial in this review or is cited from elsewhere. Belongs on the queued 'manufacturer-authored studies'
+    list too.
 - name: A head-to-head trial of a named home IPL device against clinic laser
   type: study
   priority: 5
   status: pending
   discovered_from: hair-removal-devices-by-evidence
-  source: 'The gap the new hair-removal list names explicitly. Neither source behind
-    it compares the two routes directly: the 2013 review covers professional devices
-    and says home-device research is still needed, and the 2019 review describes home
-    appliances without a clinic comparator. So the list''s ranking is a judgement
-    about evidence quality, NOT a measured difference in hair reduction, and it says
-    so. Search PubMed for a randomized or split-site comparison naming a consumer
-    device (terms: home-use intense pulsed light versus laser hair removal randomized).
-    If none exists, record that absence rather than leaving the gap implicit.'
+  source: 'The gap the new hair-removal list names explicitly. Neither source behind it compares the two
+    routes directly: the 2013 review covers professional devices and says home-device research is still
+    needed, and the 2019 review describes home appliances without a clinic comparator. So the list''s
+    ranking is a judgement about evidence quality, NOT a measured difference in hair reduction, and it
+    says so. Search PubMed for a randomized or split-site comparison naming a consumer device (terms:
+    home-use intense pulsed light versus laser hair removal randomized). If none exists, record that absence
+    rather than leaving the gap implicit.'
 - name: The illuMask 2013 acne trial (inside K123999)
   type: study
   priority: 5
   status: pending
   discovered_from: illumask-acne-light-therapy-mask
-  source: 'The ONLY clinical study in the entire Neutrogena acne-mask lineage, and
-    it exists only inside an FDA 510(k) Summary rather than as a published paper as
-    far as this site has established. Worth a study page because the numbers are being
-    inherited by two better-known products: 30 patients, same people, 4-week cleanser-only
-    washout then 8 weeks of device use, investigator in-person counts of 82.8% inflammatory
-    and 71.2% non-inflammatory lesion reduction, but blinded two-doctor photo grading
-    of only 65.8% total reduction at week 8, no p-value and no sham arm. FIRST search
-    PubMed for a published version (terms: illuMask OR ''blue and red light'' acne
-    home mask 2013 La Lumiere); if none exists, record that the data is FDA-file-only,
-    which is itself the finding.'
+  source: 'The ONLY clinical study in the entire Neutrogena acne-mask lineage, and it exists only inside
+    an FDA 510(k) Summary rather than as a published paper as far as this site has established. Worth
+    a study page because the numbers are being inherited by two better-known products: 30 patients, same
+    people, 4-week cleanser-only washout then 8 weeks of device use, investigator in-person counts of
+    82.8% inflammatory and 71.2% non-inflammatory lesion reduction, but blinded two-doctor photo grading
+    of only 65.8% total reduction at week 8, no p-value and no sham arm. FIRST search PubMed for a published
+    version (terms: illuMask OR ''blue and red light'' acne home mask 2013 La Lumiere); if none exists,
+    record that the data is FDA-file-only, which is itself the finding.'
 - name: Modified Griffiths scale
   type: study
   priority: 5
   status: pending
   discovered_from: draelos-2025-age-inhibiting-moisturizer-procedure-effectiveness
-  source: The investigator scoring instrument behind the Draelos 2025 results (PMID
-    40911740) and behind a good deal of cosmetic-dermatology photo grading generally.
-    It matters because that study reports only that differences cleared P<0.05 with
-    NO point values, which is uninterpretable unless a reader knows the scale's range
-    and what one step on it looks like. An agent-facing page giving the scale's range,
-    anchors and validation would let every future Griffiths-scored claim on the site
-    be read properly. Find the original validation paper; do NOT describe the scale
-    from memory or from a trial that merely used it.
+  source: The investigator scoring instrument behind the Draelos 2025 results (PMID 40911740) and behind
+    a good deal of cosmetic-dermatology photo grading generally. It matters because that study reports
+    only that differences cleared P<0.05 with NO point values, which is uninterpretable unless a reader
+    knows the scale's range and what one step on it looks like. An agent-facing page giving the scale's
+    range, anchors and validation would let every future Griffiths-scored claim on the site be read properly.
+    Find the original validation paper; do NOT describe the scale from memory or from a trial that merely
+    used it.
 - name: 'Onycho Trial 2024: miconazole and amorolfine vs placebo for onychomycosis'
   type: study
   priority: 5
   status: pending
   discovered_from: amorolfine
-  source: 'PMID 38702077, BMJ Open 2024;14(5):e081914, doi 10.1136/bmjopen-2023-081914,
-    PMCID PMC11086198, WHO ICTRP NL8193. Already read and verified at abstract level
-    on 2026-10-22 for the amorolfine ingredient page, so the structured study page
-    is assembly: randomised double-blind placebo-controlled 1:1:1, primary care Netherlands
-    Feb 2020 to Aug 2022, 193 recruited and 111 meeting criteria, mean age 51 (SD
-    13.1), 51% female, mean OSI 12.1 (SD 8.0), complete/clinical/mycological cure
-    at 6 months. Competing interests none declared. IT IS OPEN ACCESS (PMC11086198),
-    so unlike most study pages here the FULL TEXT can be read, which would supply
-    the per-arm numbers and the handling of the 82 excluded recruits that the abstract
-    does not give.'
+  source: 'PMID 38702077, BMJ Open 2024;14(5):e081914, doi 10.1136/bmjopen-2023-081914, PMCID PMC11086198,
+    WHO ICTRP NL8193. Already read and verified at abstract level on 2026-10-22 for the amorolfine ingredient
+    page, so the structured study page is assembly: randomised double-blind placebo-controlled 1:1:1,
+    primary care Netherlands Feb 2020 to Aug 2022, 193 recruited and 111 meeting criteria, mean age 51
+    (SD 13.1), 51% female, mean OSI 12.1 (SD 8.0), complete/clinical/mycological cure at 6 months. Competing
+    interests none declared. IT IS OPEN ACCESS (PMC11086198), so unlike most study pages here the FULL
+    TEXT can be read, which would supply the per-arm numbers and the handling of the 82 excluded recruits
+    that the abstract does not give.'
 - name: Onychomycosis Severity Index (OSI)
   type: study
   priority: 5
   status: pending
   discovered_from: amorolfine
-  source: 'The severity instrument the Onycho Trial used to characterise its population
-    (mean OSI 12.1, SD 8.0; PMID 38702077, read 2026-10-22). Same problem as the modified
-    Griffiths scale already queued: a trial reporting a mean score is uninterpretable
-    unless a reader knows the scale''s range and what a given score means clinically.
-    An agent-facing page giving OSI''s range, components and the mild/moderate/severe
-    cut-offs would let every onychomycosis trial on the site be read properly. Find
-    the original validation paper; do NOT describe the index from a trial that merely
-    used it.'
+  source: 'The severity instrument the Onycho Trial used to characterise its population (mean OSI 12.1,
+    SD 8.0; PMID 38702077, read 2026-10-22). Same problem as the modified Griffiths scale already queued:
+    a trial reporting a mean score is uninterpretable unless a reader knows the scale''s range and what
+    a given score means clinically. An agent-facing page giving OSI''s range, components and the mild/moderate/severe
+    cut-offs would let every onychomycosis trial on the site be read properly. Find the original validation
+    paper; do NOT describe the index from a trial that merely used it.'
 - name: Enshaieh 2007 5% tea tree oil gel in mild-to-moderate acne (PMID 17314442)
   type: study
   priority: 5
   status: pending
   discovered_from: tea-tree-oil
-  source: the single 60-patient randomised double-blind placebo-controlled trial that
-    the entire Cochrane tea tree oil result rests on; worth its own structured study
-    page
-- name: 'Yang 2026 Biologic therapies and psoriatic arthritis risk in psoriasis: A
-    systematic review and meta (PMID 42227826)'
+  source: the single 60-patient randomised double-blind placebo-controlled trial that the entire Cochrane
+    tea tree oil result rests on; worth its own structured study page
+- name: 'Yang 2026 Biologic therapies and psoriatic arthritis risk in psoriasis: A systematic review and
+    meta (PMID 42227826)'
   type: study
   priority: 5
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/42227826/
-- name: 'Danby 2013: effect of olive and sunflower seed oil on the adult skin barrier
-    (Pediatr Dermatol 2013;30(1):42-50, PMID 22995032) - n=19, two randomized forearm-controlled
-    mechanistic studies, six drops twice daily for 4-5 weeks. Olive oil caused a significant
-    reduction in stratum corneum integrity and mild erythema in volunteers with and
-    without atopic dermatitis history; sunflower seed oil preserved integrity and
-    improved hydration. The single most load-bearing citation on olive-oil and the
-    natural case for a study page. Source: pubmed.ncbi.nlm.nih.gov/22995032'
+- name: 'Danby 2013: effect of olive and sunflower seed oil on the adult skin barrier (Pediatr Dermatol
+    2013;30(1):42-50, PMID 22995032) - n=19, two randomized forearm-controlled mechanistic studies, six
+    drops twice daily for 4-5 weeks. Olive oil caused a significant reduction in stratum corneum integrity
+    and mild erythema in volunteers with and without atopic dermatitis history; sunflower seed oil preserved
+    integrity and improved hydration. The single most load-bearing citation on olive-oil and the natural
+    case for a study page. Source: pubmed.ncbi.nlm.nih.gov/22995032'
   type: study
   priority: 5
   status: pending
   discovered_from: null
   source: null
-- name: 'Gupta 2022: relative efficacy of minoxidil and the 5-alpha reductase inhibitors
-    in male androgenetic alopecia (JAMA Dermatol 2022;158(3):266-274, PMID 35107565)
-    - Bayesian NMA, 23 studies, four endpoints (total and terminal hair count at 24
-    and 48 weeks) with FOUR DIFFERENT leaders, so no single drug wins throughout.
-    Now the comparative spine cited on hair-loss-thinning. Key for the site: oral
-    forms beat topical minoxidil, male patients only, and no light or laser device
-    appears in it. Source: pubmed.ncbi.nlm.nih.gov/35107565'
+- name: 'Gupta 2022: relative efficacy of minoxidil and the 5-alpha reductase inhibitors in male androgenetic
+    alopecia (JAMA Dermatol 2022;158(3):266-274, PMID 35107565) - Bayesian NMA, 23 studies, four endpoints
+    (total and terminal hair count at 24 and 48 weeks) with FOUR DIFFERENT leaders, so no single drug
+    wins throughout. Now the comparative spine cited on hair-loss-thinning. Key for the site: oral forms
+    beat topical minoxidil, male patients only, and no light or laser device appears in it. Source: pubmed.ncbi.nlm.nih.gov/35107565'
   type: study
   priority: 5
   status: pending
   discovered_from: null
   source: null
-- name: 'English 2022: microneedling in hair loss disorders, a systematic review (Dermatol
-    Ther 2022;12(1):41-60, PMID 34854067) - 22 studies, 1127 subjects, Jadad mean
-    2 of 5; adjunct-only benefit in 17 AGA investigations (911 subjects) when paired
-    with 5% minoxidil or PRP, no serious adverse events across 657 treated. All three
-    authors affiliated with Perfect Hair Health, a commercial hair-loss business,
-    which the study page must record. Now cited on hair-loss-thinning and relevant
-    to the existing microneedling page. Source: pubmed.ncbi.nlm.nih.gov/34854067'
+- name: 'English 2022: microneedling in hair loss disorders, a systematic review (Dermatol Ther 2022;12(1):41-60,
+    PMID 34854067) - 22 studies, 1127 subjects, Jadad mean 2 of 5; adjunct-only benefit in 17 AGA investigations
+    (911 subjects) when paired with 5% minoxidil or PRP, no serious adverse events across 657 treated.
+    All three authors affiliated with Perfect Hair Health, a commercial hair-loss business, which the
+    study page must record. Now cited on hair-loss-thinning and relevant to the existing microneedling
+    page. Source: pubmed.ncbi.nlm.nih.gov/34854067'
   type: study
   priority: 5
   status: pending
   discovered_from: null
   source: null
-- name: 'Puri 2015: modified Jessner''s plus 20% TCA versus 20% TCA alone for acne
-    scars (J Cutan Aesthet Surg 2015;8(1):42-5, PMID 25949022) - n=50, 25 per arm.
-    A NULL result worth a study page because the percentages look decisive and are
-    not: marked improvement 60% vs 28%, p > 0.05. The abstract reports no randomisation
-    method, no blinding, no exact p-value and no follow-up duration. Now cited on
-    chemical-peels-acne-scars. Source: pubmed.ncbi.nlm.nih.gov/25949022'
+- name: 'Puri 2015: modified Jessner''s plus 20% TCA versus 20% TCA alone for acne scars (J Cutan Aesthet
+    Surg 2015;8(1):42-5, PMID 25949022) - n=50, 25 per arm. A NULL result worth a study page because the
+    percentages look decisive and are not: marked improvement 60% vs 28%, p > 0.05. The abstract reports
+    no randomisation method, no blinding, no exact p-value and no follow-up duration. Now cited on chemical-peels-acne-scars.
+    Source: pubmed.ncbi.nlm.nih.gov/25949022'
   type: study
   priority: 5
   status: pending
   discovered_from: null
   source: null
-- name: 'Soysal 2025: 70% versus 100% TCA CROSS for atrophic acne scars (Arch Dermatol
-    Res 2025;317(1):547, PMID 40072613) - randomised, n=40. No overall efficacy difference,
-    significantly longer crusting at 100%, and a within-arm finding that 100% TCA
-    worked significantly better on icepick than boxcar scars, which is the kind of
-    morphology-specific result acne-scars needs. Now cited on chemical-peels-acne-scars.
+- name: 'Soysal 2025: 70% versus 100% TCA CROSS for atrophic acne scars (Arch Dermatol Res 2025;317(1):547,
+    PMID 40072613) - randomised, n=40. No overall efficacy difference, significantly longer crusting at
+    100%, and a within-arm finding that 100% TCA worked significantly better on icepick than boxcar scars,
+    which is the kind of morphology-specific result acne-scars needs. Now cited on chemical-peels-acne-scars.
     Source: pubmed.ncbi.nlm.nih.gov/40072613'
   type: study
   priority: 5
   status: pending
   discovered_from: null
   source: null
-- name: 'Sulzberger 2016: 4-t-butylcyclohexanol and licochalcone A for sensitive skin
-    (JEADV 2016;30 Suppl 1:9-17, PMID 26805417) - the development paper behind every
-    Eucerin anti-redness claim. Mostly in vitro (TRPV1 activation, NFkB, PGE2); the
-    in vivo part is two controlled single-blind randomised studies with NO sample
-    size in the abstract, and the combination''s redness endpoint is SHAVING-INDUCED
-    erythema, not clinical redness. All 11 authors are Beiersdorf R&D and it ran in
-    a supplement. Source: pubmed.ncbi.nlm.nih.gov/26805417'
+- name: 'Sulzberger 2016: 4-t-butylcyclohexanol and licochalcone A for sensitive skin (JEADV 2016;30 Suppl
+    1:9-17, PMID 26805417) - the development paper behind every Eucerin anti-redness claim. Mostly in
+    vitro (TRPV1 activation, NFkB, PGE2); the in vivo part is two controlled single-blind randomised studies
+    with NO sample size in the abstract, and the combination''s redness endpoint is SHAVING-INDUCED erythema,
+    not clinical redness. All 11 authors are Beiersdorf R&D and it ran in a supplement. Source: pubmed.ncbi.nlm.nih.gov/26805417'
   type: study
   priority: 5
   status: pending
   discovered_from: null
   source: null
-- name: 'Jovanovic 2017: open dermocosmetic study of a trans-4-t-butylcyclohexanol
-    plus licochalcone A cream in sensitive skin and rosacea (J Drugs Dermatol 2017;16(6):605-610,
-    PMID 28686779) - n=1221, rosacea stage 0-II, twice daily 4 weeks, P<0.001 on all
-    symptoms. Worth a page precisely BECAUSE the large n reads as strong evidence
-    and the design cannot support it: open-label, no control, no randomisation, no
-    blinding, and concurrent pharmacological treatment permitted. Source: pubmed.ncbi.nlm.nih.gov/28686779'
+- name: 'Jovanovic 2017: open dermocosmetic study of a trans-4-t-butylcyclohexanol plus licochalcone A
+    cream in sensitive skin and rosacea (J Drugs Dermatol 2017;16(6):605-610, PMID 28686779) - n=1221,
+    rosacea stage 0-II, twice daily 4 weeks, P<0.001 on all symptoms. Worth a page precisely BECAUSE the
+    large n reads as strong evidence and the design cannot support it: open-label, no control, no randomisation,
+    no blinding, and concurrent pharmacological treatment permitted. Source: pubmed.ncbi.nlm.nih.gov/28686779'
   type: study
   priority: 5
   status: pending
   discovered_from: null
   source: null
-- name: 'Pourani 2025: facial artery course variations, diameters and depth by Doppler
-    ultrasound (PMID 40874402) - NOW THE STUDY QUEUE HEAD, flagged here because it
-    may be out of scope: facial vascular anatomy serves injectable-filler safety rather
-    than topical skincare or product grading. Decide scope before drafting; if it
-    is kept, it belongs alongside the filler and procedure pages rather than any ingredient
-    page. Source: pubmed.ncbi.nlm.nih.gov/40874402'
+- name: 'Pourani 2025: facial artery course variations, diameters and depth by Doppler ultrasound (PMID
+    40874402) - NOW THE STUDY QUEUE HEAD, flagged here because it may be out of scope: facial vascular
+    anatomy serves injectable-filler safety rather than topical skincare or product grading. Decide scope
+    before drafting; if it is kept, it belongs alongside the filler and procedure pages rather than any
+    ingredient page. Source: pubmed.ncbi.nlm.nih.gov/40874402'
+  type: study
+  priority: 1
+  status: pending
+  discovered_from: null
+  source: null
+  note: 'SCOPE RULING 2026-10-27: deferred, not rejected. Facial vascular anatomy by Doppler serves injectable-filler
+    injection safety, which is a procedures-phase topic the site brackets as context rather than covering
+    now (user: non-topical anti-aging = full coverage but LATER phase). Priority dropped to 1 so it stops
+    holding the queue head; raise it again when the filler/procedure pages are built, where it would belong.
+    DUPLICATE of the earlier PMID 40874402 entry in this file; resolve both together.'
+- name: 'Misery 2017: IFSI expert position paper defining sensitive skin (Acta Derm Venereol 2017;97(1):4-6,
+    PMID 26939643) - the Delphi-consensus DEFINITION that sensitive-skin quotes in full and that both
+    laurent-misery and esther-brenaut point to, with no study page of its own. Worth one because the definition
+    is built from sensations rather than visible signs, which is the fact every sensitive-skin product
+    claim has to be read against. 12 authors across the IFSI special interest group. Source: pubmed.ncbi.nlm.nih.gov/26939643'
   type: study
   priority: 5
   status: pending
   discovered_from: null
   source: null
-- name: 'Misery 2017: IFSI expert position paper defining sensitive skin (Acta Derm
-    Venereol 2017;97(1):4-6, PMID 26939643) - the Delphi-consensus DEFINITION that
-    sensitive-skin quotes in full and that both laurent-misery and esther-brenaut
-    point to, with no study page of its own. Worth one because the definition is built
-    from sensations rather than visible signs, which is the fact every sensitive-skin
-    product claim has to be read against. 12 authors across the IFSI special interest
-    group. Source: pubmed.ncbi.nlm.nih.gov/26939643'
+- name: 'Arrowitz 2019: thiamidol versus hydroquinone, double-blinded randomised split-face trial in mild
+    to moderate melasma (J Invest Dermatol 2019;139(8):1691-1698.e6, PMID 30825454) - now the head-to-head
+    cited on both melasma and thiamidol. Worth a study page because the headline (mMASI significantly
+    better than hydroquinone, 79% vs 61% of subjects improving, no worsening vs ~10% worsening) is strong
+    AND every author bar the contract-research one is Beiersdorf, which developed the ingredient. The
+    abstract publishes no sample size, CI or p-value, which a study page should record. Source: pubmed.ncbi.nlm.nih.gov/30825454'
   type: study
   priority: 5
   status: pending
   discovered_from: null
   source: null
-- name: 'Arrowitz 2019: thiamidol versus hydroquinone, double-blinded randomised split-face
-    trial in mild to moderate melasma (J Invest Dermatol 2019;139(8):1691-1698.e6,
-    PMID 30825454) - now the head-to-head cited on both melasma and thiamidol. Worth
-    a study page because the headline (mMASI significantly better than hydroquinone,
-    79% vs 61% of subjects improving, no worsening vs ~10% worsening) is strong AND
-    every author bar the contract-research one is Beiersdorf, which developed the
-    ingredient. The abstract publishes no sample size, CI or p-value, which a study
-    page should record. Source: pubmed.ncbi.nlm.nih.gov/30825454'
+- name: 'Fulton 1984: comedogenicity of therapeutic products, cosmetics and ingredients in the rabbit
+    ear (JAAD 1984;10(1):96-105, PMID 6229554) - the single origin of nearly every comedogenicity rating
+    in circulation, now cited on ethylhexyl-palmitate. Worth a study page because the paper is far more
+    hedged than its reputation: ''not an ideal animal model but is the best we have'', no numeric scores,
+    scale, sample size, duration or statistics in the abstract, and its offender list is by raw ingredient
+    rather than finished formula. Source: pubmed.ncbi.nlm.nih.gov/6229554'
   type: study
   priority: 5
   status: pending
   discovered_from: null
   source: null
-- name: 'Fulton 1984: comedogenicity of therapeutic products, cosmetics and ingredients
-    in the rabbit ear (JAAD 1984;10(1):96-105, PMID 6229554) - the single origin of
-    nearly every comedogenicity rating in circulation, now cited on ethylhexyl-palmitate.
-    Worth a study page because the paper is far more hedged than its reputation: ''not
-    an ideal animal model but is the best we have'', no numeric scores, scale, sample
-    size, duration or statistics in the abstract, and its offender list is by raw
-    ingredient rather than finished formula. Source: pubmed.ncbi.nlm.nih.gov/6229554'
+- name: 'Leung 2023: tinea pedis, an updated review (Drugs in Context 2023;12:2023-5-1, PMID 37415917)
+    - now the source on athletes-foot for the three clinical forms and for the diagnostic-accuracy caveat.
+    Worth a page because two facts in it change how a reader should act: ''The accuracy of clinical diagnosis
+    of tinea pedis is low'' and KOH wet-mount of the active lesion border is the recommended point-of-care
+    test. Note for the page: NARRATIVE review (PubMed Clinical Queries, English, last 10 years) with no
+    pooled estimate, so it cannot carry treatment grades, which stay with the Cochrane review. Source:
+    pubmed.ncbi.nlm.nih.gov/37415917'
   type: study
   priority: 5
   status: pending
   discovered_from: null
   source: null
-- name: 'Leung 2023: tinea pedis, an updated review (Drugs in Context 2023;12:2023-5-1,
-    PMID 37415917) - now the source on athletes-foot for the three clinical forms
-    and for the diagnostic-accuracy caveat. Worth a page because two facts in it change
-    how a reader should act: ''The accuracy of clinical diagnosis of tinea pedis is
-    low'' and KOH wet-mount of the active lesion border is the recommended point-of-care
-    test. Note for the page: NARRATIVE review (PubMed Clinical Queries, English, last
-    10 years) with no pooled estimate, so it cannot carry treatment grades, which
-    stay with the Cochrane review. Source: pubmed.ncbi.nlm.nih.gov/37415917'
-  type: study
-  priority: 5
-  status: pending
-  discovered_from: null
-  source: null
-- name: 'Tung 2000: alpha-hydroxy acid-based cosmetic procedures, guidelines for patient
-    management (Am J Clin Dermatol 2000;1(2):81-8, PMID 11702315) - now the mechanism
-    source on exfoliation. Worth a page because of its own hedge: ''Although their
-    exact mechanism of action is unknown, it has been demonstrated that AHAs improve
-    these disorders by thinning the stratum corneum, promoting epidermolysis, dispersing
-    basal layer melanin, and increasing collagen synthesis within the dermis.'' Note
-    for the page: a 2000 clinical-GUIDELINES article, not a systematic review, with
-    no pooled estimate, effect size, CI or p-value, and its safety/efficacy claim
-    rests on ''our experience and in the literature''. Source: pubmed.ncbi.nlm.nih.gov/11702315'
+- name: 'Tung 2000: alpha-hydroxy acid-based cosmetic procedures, guidelines for patient management (Am
+    J Clin Dermatol 2000;1(2):81-8, PMID 11702315) - now the mechanism source on exfoliation. Worth a
+    page because of its own hedge: ''Although their exact mechanism of action is unknown, it has been
+    demonstrated that AHAs improve these disorders by thinning the stratum corneum, promoting epidermolysis,
+    dispersing basal layer melanin, and increasing collagen synthesis within the dermis.'' Note for the
+    page: a 2000 clinical-GUIDELINES article, not a systematic review, with no pooled estimate, effect
+    size, CI or p-value, and its safety/efficacy claim rests on ''our experience and in the literature''.
+    Source: pubmed.ncbi.nlm.nih.gov/11702315'
   type: study
   priority: 5
   status: pending

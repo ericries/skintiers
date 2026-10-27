@@ -644,3 +644,19 @@
   status: pending
   discovered_from: null
   source: null
+- name: Axillary hyperpigmentation (underarm darkening)
+  type: condition
+  priority: 5
+  status: pending
+  discovered_from: vahabi-2025-axillary-hyperpigmentation-systematic-review
+  source: 'The site has no hub for underarm darkening despite covering it in two places
+    already: cyperus-rotundus analyses the axillary pigmentation trials in detail,
+    and the new Vahabi 2025 study page (PMID 40843925) is a whole systematic review
+    of treatments for it. The review''s own framing is that it is ''a common dermatologic
+    complaint, with no standard treatment'', which is exactly the gap a hub should
+    fill. Content the hub owns that no existing page does: the mechanical causes specific
+    to the axilla (friction, shaving irritation, occlusion, deodorant contact dermatitis),
+    the differential with acanthosis nigricans (which is an insulin-resistance sign,
+    not a pigment-product problem, and is the single most important thing to route
+    out), and a tier_list over the graded topicals. Route facial pigment to hyperpigmentation
+    and melasma; route lasers and IPL out as procedures-phase.'

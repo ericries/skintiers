@@ -122,7 +122,7 @@ No product profiled on this site declares Cyperus rotundus in its ingredient lis
 
 ## See Also
 
-[[laser-hair-removal]] [[hyperpigmentation]] [[melasma]] [[hydroquinone]] [[arbutin]] [[niacinamide]] [[tranexamic-acid]] [[sensitive-skin]] [[ingrown-hairs]] [[pseudofolliculitis-barbae]] [[anti-aging]]
+[[laser-hair-removal]] [[vahabi-2025-axillary-hyperpigmentation-systematic-review]] [[hyperpigmentation]] [[melasma]] [[hydroquinone]] [[arbutin]] [[niacinamide]] [[tranexamic-acid]] [[sensitive-skin]] [[ingrown-hairs]] [[pseudofolliculitis-barbae]] [[anti-aging]]
 
 ## Sources
 
