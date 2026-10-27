@@ -30,6 +30,19 @@ slug: cerave-am-facial-moisturizing-lotion-spf-30
 status: published
 type: product
 updated: '2026-09-26'
+videos:
+- title: Is CeraVe Actually Good? Dermatologist Ranks 19 Products (+ What I'd Skip)
+  creator: Dr. Aleksandra Brown, DO, FAAD
+  creator_slug: aleksandra-brown
+  credential: Board-certified dermatologist (DO, FAOCD, FAAD), practicing at River Ridge Dermatology / HCA Virginia (LewisGale), Blacksburg VA
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=FYg2v6cKGks
+  posted: '2026-10-18'
+  related: [benzoyl-peroxide, retinoids, vitamin-c, hyaluronic-acid, ceramides, niacinamide, salicylic-acid, sunscreen-uv-filters, keratosis-pilaris, acne]
+  thesis: 'Board-certified dermatologist Dr. Aleksandra Brown ranks the CeraVe range from what she recommends to what she would skip, stating at the top that the video is not sponsored by CeraVe. Her favourite CeraVe cleanser is the hydrating foaming oil cleanser, with the cream-to-foam second and the classic hydrating facial cleanser still solid, and she makes the case that nobody needs the tub cream specifically: pick the moisturizer texture your skin likes rather than the one that is popular. Two products land in her skip pile, the untinted hydrating mineral sunscreen, because untinted mineral filters leave a white cast that is worse on medium and deeper skin tones and a sunscreen only works if you will actually wear it, and the standalone hyaluronic acid serum, because CeraVe already puts hyaluronic acid in its cleansers, moisturizers and sunscreens. On the benzoyl peroxide benzene headlines she gives the chronology she has read, including FDA testing of 95 products reported in March
+    2025 and a September 2026 dismissal of a consolidated consumer class action on federal preemption grounds, and says she still uses and recommends benzoyl peroxide while noting a legal ruling is not a scientific finding.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 CeraVe AM Facial Moisturizing Lotion SPF 30 is the morning half of CeraVe's AM/PM pair: a daily facial moisturizer with broad-spectrum [[sunscreen-uv-filters|SPF 30]] built on the brand's ceramide-and-cholesterol barrier base. It is the drugstore counterpart to [[la-roche-posay-toleriane-double-repair-uv-spf-30|La Roche-Posay's Toleriane Double Repair UV]]: the same idea of a barrier moisturizer that doubles as your morning sunscreen step. It is a low-cost drugstore product, listed below the price of the Toleriane UV comparator.[^target]

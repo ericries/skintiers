@@ -70,6 +70,17 @@ videos:
   related: [petrolatum, ceramides, glycolic-acid, adapalene, retinoids, sulfur, sunscreen-uv-filters]
   thesis: Board-certified dermatologist Dr. Sarah Sheu rounds up her favorite affordable skincare, everything under 20 dollars and personally tested, spanning dollar-store finds, dermatologist staples, and targeted treatments. Her standout picks include plain Vaseline (petrolatum) as a barrier-repair workhorse, CeraVe Moisturizing Cream for its ceramide, cholesterol, and fatty-acid barrier mix, The Ordinary's Glycolic Acid 7% toning solution for texture and dark spots, over-the-counter adapalene 0.1% (Differin) as one of the best budget acne retinoids, and Beauty of Joseon's Revive Eye Serum as a gentle starter retinal. She is candid about the limits, noting that very cheap products rarely have clinical studies of their own, and she frames barrier basics and consistent use as mattering more than price.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Is CeraVe Actually Good? Dermatologist Ranks 19 Products (+ What I'd Skip)
+  creator: Dr. Aleksandra Brown, DO, FAAD
+  creator_slug: aleksandra-brown
+  credential: Board-certified dermatologist (DO, FAOCD, FAAD), practicing at River Ridge Dermatology / HCA Virginia (LewisGale), Blacksburg VA
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=FYg2v6cKGks
+  posted: '2026-10-18'
+  related: [benzoyl-peroxide, retinoids, vitamin-c, hyaluronic-acid, ceramides, niacinamide, salicylic-acid, sunscreen-uv-filters, keratosis-pilaris, acne]
+  thesis: 'Board-certified dermatologist Dr. Aleksandra Brown ranks the CeraVe range from what she recommends to what she would skip, stating at the top that the video is not sponsored by CeraVe. Her favourite CeraVe cleanser is the hydrating foaming oil cleanser, with the cream-to-foam second and the classic hydrating facial cleanser still solid, and she makes the case that nobody needs the tub cream specifically: pick the moisturizer texture your skin likes rather than the one that is popular. Two products land in her skip pile, the untinted hydrating mineral sunscreen, because untinted mineral filters leave a white cast that is worse on medium and deeper skin tones and a sunscreen only works if you will actually wear it, and the standalone hyaluronic acid serum, because CeraVe already puts hyaluronic acid in its cleansers, moisturizers and sunscreens. On the benzoyl peroxide benzene headlines she gives the chronology she has read, including FDA testing of 95 products reported in March
+    2025 and a September 2026 dismissal of a consolidated consumer class action on federal preemption grounds, and says she still uses and recommends benzoyl peroxide while noting a legal ruling is not a scientific finding.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

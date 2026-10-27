@@ -3926,6 +3926,11 @@
   status: pending
   discovered_from: acne
   source: Dr. Dustin Portela - The ONLY 3-Step Acne Routine You Need (video, xaJeBodWz2Y)
+    Reinforced by Dr. Aleksandra Brown - Is CeraVe Actually Good? (video, FYg2v6cKGks,
+    2026-10-18), where it is her SECOND-choice CeraVe cleanser behind the hydrating
+    foaming oil cleanser. She describes it as the middle ground between a non-foaming
+    hydrating cleanser and a stripping foaming one, and notes it removes makeup, dirt,
+    oil and sunscreen. The card is now live on the cerave brand page.
 - name: Thayers Rapid Acne Spot Treatment
   type: product
   priority: 5
@@ -4372,3 +4377,54 @@
     one before drafting; the name and the Pollogen catalogue suggest in-clinic, in
     which case queue it as procedures-phase context rather than a home product page.
     accessdata route.
+- name: CeraVe Hydrating Foaming Oil Cleanser
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: cerave
+  source: Dr. Aleksandra Brown - Is CeraVe Actually Good? Dermatologist Ranks 19 Products
+    (video, FYg2v6cKGks, 2026-10-18), where it is her single favourite CeraVe cleanser
+    and the one she says sits on her own sink. The site covers the classic hydrating
+    facial cleanser and the foaming facial cleanser but not this one, which is the
+    gap the video exposes. She is explicit that despite the oil-cleanser name it does
+    not leave a film, and equally explicit that she does not pick a rinse-off cleanser
+    expecting its ceramides or hyaluronic acid to do anything, which is the right
+    framing for the page. incidecoder for INCI plus cerave.com for price and claims.
+- name: CeraVe Skin Renewing Vitamin C Serum (10% L-ascorbic acid)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: cerave
+  source: Dr. Aleksandra Brown - Is CeraVe Actually Good? (video, FYg2v6cKGks, 2026-10-18),
+    where she calls it an interesting drugstore vitamin C at 10% L-ascorbic acid,
+    the form with the strongest evidence, while noting other formulas pair L-ascorbic
+    acid with vitamin E and ferulic or have more established stability data. That
+    is the exact comparison the page should make against skinceuticals-c-e-ferulic
+    and timeless-20-vitamin-c-e-ferulic-serum, both already on the site. Verify the
+    10% figure and the form from the brand label rather than from the video. incidecoder
+    plus cerave.com.
+- name: CeraVe Hydrating Sheer Sunscreen SPF 30
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: cerave
+  source: 'Dr. Aleksandra Brown - Is CeraVe Actually Good? (video, FYg2v6cKGks, 2026-10-18),
+    which she distinguishes sharply from the AM facial moisturizing lotion: this is
+    a HYBRID combining mineral and organic filters, for face and body, and her pick
+    when you will be outside, sweating or around water. The site already covers cerave-am-facial-moisturizing-lotion-spf-30
+    and the untinted mineral SPF 30, so this fills the hybrid slot. Confirm the filter
+    set from the Drug Facts panel (DailyMed or the label) rather than from the marketing
+    word hybrid, and check the water-resistance tier, since 40 and 80 minutes are
+    different claims.'
+- name: CeraVe Hydrating Hyaluronic Acid Serum
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: cerave
+  source: 'Dr. Aleksandra Brown - Is CeraVe Actually Good? (video, FYg2v6cKGks, 2026-10-18),
+    one of only two products she puts in her skip pile, and for a reason worth a page:
+    CeraVe already puts hyaluronic acid in its cleansers, moisturizers and sunscreens,
+    so a standalone serum is redundant for most people. A skeptical page here does
+    real work because the product sells well. Grade the humectant claim against hyaluronic-acid,
+    which the site already grades, and do not re-explain the ingredient. incidecoder
+    plus cerave.com.'

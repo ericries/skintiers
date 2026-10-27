@@ -68,6 +68,17 @@ videos:
   thesis: 'Board-certified dermatologist Dr. Daniel Sugai sorts dark-spot treatments into keep and cut, settling on a final four of hydroquinone, tinted sunscreen, retinoids and chemical peels. He calls hydroquinone the most powerful consistent option and a tyrosinase inhibitor, but spends most of that segment on its limits: he prescribes 4 to 8 percent, warns against the 12 percent products patients buy abroad without supervision, and explains that using it without breaks can cause paradoxical darkening and ochronosis, alongside contact dermatitis and a pale halo if applied imprecisely. His notable cut is Melasyl in La Roche-Posay''s Mela B3 serum, where he says the published evidence he saw was all internal company studies and compared well against hydroquinone, yet neither he nor his patients were impressed in practice, leaving him unsure whether the formulation or the ingredient is at fault and whether the paired niacinamide does the work. He also cuts high-strength niacinamide serums
     as an irritation risk, saying 2 to 6 percent is enough and that 10 to 20 percent formulations cause contact dermatitis he sees regularly, and cuts lasers for melasma over rebound risk while preferring chemical peels there. Azelaic acid he calls a supporting actor for dark spots rather than a main character, and overhyped in the viral tretinoin pairing.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Is CeraVe Actually Good? Dermatologist Ranks 19 Products (+ What I'd Skip)
+  creator: Dr. Aleksandra Brown, DO, FAAD
+  creator_slug: aleksandra-brown
+  credential: Board-certified dermatologist (DO, FAOCD, FAAD), practicing at River Ridge Dermatology / HCA Virginia (LewisGale), Blacksburg VA
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=FYg2v6cKGks
+  posted: '2026-10-18'
+  related: [benzoyl-peroxide, retinoids, vitamin-c, hyaluronic-acid, ceramides, niacinamide, salicylic-acid, sunscreen-uv-filters, keratosis-pilaris, acne]
+  thesis: 'Board-certified dermatologist Dr. Aleksandra Brown ranks the CeraVe range from what she recommends to what she would skip, stating at the top that the video is not sponsored by CeraVe. Her favourite CeraVe cleanser is the hydrating foaming oil cleanser, with the cream-to-foam second and the classic hydrating facial cleanser still solid, and she makes the case that nobody needs the tub cream specifically: pick the moisturizer texture your skin likes rather than the one that is popular. Two products land in her skip pile, the untinted hydrating mineral sunscreen, because untinted mineral filters leave a white cast that is worse on medium and deeper skin tones and a sunscreen only works if you will actually wear it, and the standalone hyaluronic acid serum, because CeraVe already puts hyaluronic acid in its cleansers, moisturizers and sunscreens. On the benzoyl peroxide benzene headlines she gives the chronology she has read, including FDA testing of 95 products reported in March
+    2025 and a September 2026 dismissal of a consolidated consumer class action on federal preemption grounds, and says she still uses and recommends benzoyl peroxide while noting a legal ruling is not a scientific finding.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
