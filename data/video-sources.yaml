@@ -459,7 +459,7 @@
   last_pulled: '2026-10-23'
 - name: Doctorly
   creator_slug: doctorly
-  backfill_cursor: 15
+  backfill_cursor: 30
   credential: Dr. Muneeb Shah, DO & Dr. Luke Maxfield, DO - both board-certified dermatologists
   tier: HIGH
   channel: https://www.youtube.com/channel/UCHCZnC9akNA9pBP7aJGNKdg/videos

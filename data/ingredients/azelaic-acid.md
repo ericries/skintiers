@@ -269,6 +269,16 @@ videos:
   related: [acne, benzoyl-peroxide, retinoids, glycolic-acid, rosacea]
   thesis: 'Board-certified dermatologist Dr. Sam Bunting sets out four ways people get azelaic acid wrong, and the practical content is mostly about expectations rather than product choice. She argues it needs daily consistent use rather than dabbing on individual blemishes, that starting carefully still matters even though azelaic acid is more forgiving than a retinoid, and that early stinging is normal, happens in almost everyone, and tends to fade with persistent use. On purging she says a flurry of new blemishes in blemish-prone areas is expected while the clogging process corrects, and advises dropping to alternate or every third day rather than stopping. Her last and, she says, most important point is layering: use it alone in the evening at first, and keep it well clear of benzoyl peroxide, since the two together can cause considerable irritation, so put azelaic acid at night and benzoyl peroxide in the morning if you want both.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: The TRUTH About Azelaic Acid
+  creator: Doctorly
+  creator_slug: doctorly
+  credential: Dr. Muneeb Shah, DO & Dr. Luke Maxfield, DO - both board-certified dermatologists
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=PAgoujMiWTg
+  posted: '2026-07-30'
+  related: [anua-azelaic-acid-serum, finacea-azelaic-acid-15-gel, the-ordinary-azelaic-acid-suspension-10, rosacea, acne, hyperpigmentation, propylene-glycol]
+  thesis: 'Board-certified dermatologists Dr Muneeb Shah and Dr Luke Maxfield take up the online accusation that the viral Anua azelaic acid serum is a scam because its azelaic acid sits in a salt form at higher pH, and they concede the chemistry behind the accusation: azelaic acid is a dicarboxylic acid that loses its first proton above pH 4.5 and its second above 5.3, and they agree the Anua product is in that ionized form. What they dispute is the conclusion that being ionized makes it ineffective on skin. Their formulation explanation is the useful part: non-ionized azelaic acid at low pH dissolves poorly so it has to be suspended rather than dissolved, which is why traditional versions including the prescription gel feel gritty and sting, whereas solubilized higher pH versions feel far better but need solubilizers, and they flag propylene glycol among those as a common allergen. They also say the studies they are relying on are not large scale and are not specific to the brands discussed.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
