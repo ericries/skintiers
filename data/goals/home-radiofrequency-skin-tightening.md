@@ -45,6 +45,7 @@ No tier list sits on this page, because only one home radiofrequency device has 
 
 ## See Also
 
+- [[home-rf-devices-by-whose-evidence-the-file-rests-on]]: the five covered devices ranked by whose clinical evidence their FDA file actually rests on
 - [[home-use-skincare-devices-by-evidence]]: the full modality ladder this Level B grade sits on
 - [[newa-skin-therapy-system]]: the one device in the category with FDA-reviewed clinical data
 - [[home-led-light-therapy]]: the other Level B rejuvenation modality, cleared on bench testing throughout

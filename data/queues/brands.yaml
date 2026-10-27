@@ -571,3 +571,16 @@
     every pledge claim (allergen avoidant, Credo dirty list compliant, no silicones
     or synthetic fragrance) as the brand's own rather than as evidence. Lean, under
     180 words, no founding-history essay.
+- name: El Global Trade (CurrentBody, sensiLift)
+  type: brand
+  priority: 4
+  status: pending
+  discovered_from: home-rf-devices-by-whose-evidence-the-file-rests-on
+  source: 'The FDA applicant behind three of the eleven PAY-coded home RF clearances:
+    CurrentBody Skin RF (K232424), sensiLift (K170499) and Sensilift Pro (K250341).
+    This is the same one-applicant-several-brand-names pattern already documented
+    for LED Technologies (dpl and reVive) and Silk''n, and it is the reason a shopper
+    cannot read two shelf-neighbours as independent competitors. LEAN brand page under
+    180 words whose job is to link currentbody-skin-rf and whatever sensiLift pages
+    get built, and to record that the applicant name on the file is not the name on
+    the box. openFDA route only; do not spend a metered call.'

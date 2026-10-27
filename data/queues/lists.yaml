@@ -439,7 +439,7 @@
 - name: Home LED devices by whether you can read the clearance file
   type: list
   priority: 5
-  status: pending
+  status: done
   discovered_from: foreo-faq-led-masks
   source: 'Now fully supported by real counts rather than impressions. FOREO: 8 of
     10 clearances are Statements that publish nothing, and both Summaries are outside
@@ -455,11 +455,16 @@
     study, and it is the ONLY file in that chain that does. So the finding is sharper
     than ''nobody tested these'': one small company tested once in 2013, and Pulsaderm
     and Neutrogena inherited the clearance without repeating the work. Any list on
-    this axis must say that rather than implying the whole chain is evidence-free.'
+    this axis must say that rather than implying the whole chain is evidence-free.
+    ALREADY SHIPPED as home-led-devices-by-what-the-file-publishes (2026-10-26). Same
+    concept, different title: a three-rung disclosure ranking built from openFDA statement_or_summary
+    plus what each 510(k) Summary actually publishes, with 21 CFR 807.92/807.93 quoted
+    from eCFR. TheraFace was added as a second rung-1 entry on 2026-10-26. Nothing
+    further to build; resolving as duplicate.'
 - name: Home radiofrequency devices by evidence
   type: list
   priority: 5
-  status: pending
+  status: done
   discovered_from: newa-skin-therapy-system
   source: 'The RF rung on home-use-skincare-devices-by-evidence is now fillable and
     the evidence splits cleanly, which is what makes a list worth building: NEWA came

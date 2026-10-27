@@ -4344,3 +4344,31 @@
     (19.5%). The same brand's other sunscreens are organic-filter (71270-156, -153,
     -159), so this is also the mineral-vs-organic split inside one store brand. DailyMed
     route, no metered call.
+- name: El Global Trade Sensilift Pro (K250341, home RF)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: home-rf-devices-by-whose-evidence-the-file-rests-on
+  source: openFDA K250341, El Global Trade Ltd., decision 2026-01-06, product code
+    PAY, published as a Summary so the basis is readable. Same applicant as the CurrentBody
+    Skin RF (K232424), whose file states outright that no clinical testing was performed,
+    so the first question for this page is whether the newer Pro filing ran a study
+    or repeated the porcine-skin bench route. The earlier sensiLift (K170499, 2017)
+    is the other El Global Trade filing in the code. Grade only what the file supports,
+    and check the Fitzpatrick ceiling, since all four readable indications in this
+    product code stop at type IV. accessdata.fda.gov route with a browser user-agent,
+    no metered call.
+- name: Pollogen Geneo X Elite (K233766 / K242227)
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: home-rf-devices-by-whose-evidence-the-file-rests-on
+  source: Two PAY-coded clearances held by Pollogen, K233766 (2024-05-07) and K242227
+    (2025-10-12), both Summaries. Pollogen holds five of the eleven 510(k)s in the
+    over-the-counter radiofrequency code, more than any other firm, and its STOP U
+    filing is the predicate the rest of the category points back to (see pollogen-stop-u-tripollar,
+    where the efficacy study turns out to have been run with the PRESCRIPTION device
+    K140255). Resolve FIRST whether the Geneo X Elite is a consumer device or a professional
+    one before drafting; the name and the Pollogen catalogue suggest in-clinic, in
+    which case queue it as procedures-phase context rather than a home product page.
+    accessdata route.
