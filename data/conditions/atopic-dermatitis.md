@@ -41,6 +41,7 @@ tier_list_reviewed:
 - aveeno-calm-restore-oat-gentle-cleanser
 - aveeno-eczema-therapy-daily-moisturizing-cream
 - aveeno-eczema-therapy-itch-relief-balm
+- dupilumab
 type: condition
 updated: '2026-10-10'
 videos:
@@ -202,7 +203,7 @@ These sources are methodologically independent: a Cochrane synthesis of treatmen
 
 ## See Also
 
-[[moisturizing]], [[skin-barrier-repair]], [[colloidal-oatmeal]], [[ceramides]], [[petrolatum]], [[glycerin]], [[niacinamide]], [[acne]], [[rosacea]]
+[[moisturizing]], [[dupilumab]], [[skin-barrier-repair]], [[colloidal-oatmeal]], [[ceramides]], [[petrolatum]], [[glycerin]], [[niacinamide]], [[acne]], [[rosacea]]
 
 ## Sources
 

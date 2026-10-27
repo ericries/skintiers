@@ -1662,7 +1662,7 @@
     not topical; source: Kim 2026 LIBERTY-PN PMID 41219577)'
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: null
 - name: 'Tea tree oil (Melaleuca alternifolia) (essential oil with leave-on evidence
@@ -1696,7 +1696,12 @@
   priority: 5
   status: pending
   discovered_from: gooderham-2026-tralokinumab-4-year-atopic-dermatitis
-  source: https://pubmed.ncbi.nlm.nih.gov/41217071/
+  source: 'https://pubmed.ncbi.nlm.nih.gov/41217071/ Third member of the class now
+    that dupilumab is published (2026-10-27). Class comparison is the angle: dupilumab
+    blocks the shared IL-4R alpha subunit, tralokinumab and lebrikizumab bind IL-13
+    only. Dupilumab''s label records a conjunctivitis cluster at 10% versus 2% on
+    placebo in the pooled monotherapy trials, so check whether the tralokinumab label
+    supports a class safety distinction before implying one.'
 - name: 'Dupilumab (Dupixent; anti-IL-4Ralpha injectable biologic for atopic dermatitis
     and prurigo nodularis; active page to anchor the AD hub and the Kim 2026 subgroup
     study; source: PMID 41219577)'
@@ -1841,13 +1846,28 @@
   priority: 5
   status: pending
   discovered_from: systemic-atopic-dermatitis-treatments-by-evidence
-  source: IL-13 biologic for atopic dermatitis; in NMA PMID 41919337
+  source: 'IL-13 biologic for atopic dermatitis; in NMA PMID 41919337 Raised in priority
+    by the dupilumab page shipped 2026-10-27, which now anchors the class. Build it
+    as the direct comparator: lebrikizumab binds IL-13 alone where dupilumab blocks
+    the shared IL-4R alpha subunit and so shuts down both IL-4 and IL-13. Follow the
+    dupilumab method exactly - grade from the label''s own efficacy tables with the
+    n per arm, check for a boxed warning and say so either way, and set tier: to match
+    the rubric. The site already has warren-2025-advantage-lebrikizumab-ciclosporin-refractory-atopic-dermatitis-rct
+    pointing at a page that does not exist.'
 - name: Tralokinumab (Adbry)
   type: ingredient
   priority: 5
   status: pending
   discovered_from: systemic-atopic-dermatitis-treatments-by-evidence
-  source: IL-13 biologic for atopic dermatitis; in NMA PMID 41919337
+  source: 'IL-13 biologic for atopic dermatitis; in NMA PMID 41919337 Third member
+    of the class now that dupilumab is published (2026-10-27). Class comparison is
+    the angle: dupilumab blocks the shared IL-4R alpha subunit, tralokinumab and lebrikizumab
+    bind IL-13 only. Dupilumab''s label records a conjunctivitis cluster at 10% versus
+    2% on placebo in the pooled monotherapy trials, so check whether the tralokinumab
+    label supports a class safety distinction before implying one. DUPLICATE of the
+    longer Tralokinumab (Adbry/Adtralza ...) entry in this same file, which carries
+    the richer brief and PMID 41217071. Build from that one and resolve both together.
+    Flagged 2026-10-27; the duplication predates this note.'
 - name: Sodium Lauryl Sulfate (SLS)
   type: ingredient
   priority: 5
@@ -2947,3 +2967,15 @@
     draft from the review''s loose phrasing. If the identity cannot be pinned, mark
     it unresolvable and drop the item rather than guessing. Note the phototoxicity
     question that attaches to citrus peel extracts generally. PubMed route.'
+- name: Ruxolitinib cream (Opzelura)
+  type: ingredient
+  priority: 4
+  status: pending
+  discovered_from: dupilumab
+  source: Topical JAK inhibitor cream for atopic dermatitis and vitiligo, and the
+    site covers the ORAL JAKs (abrocitinib, upadacitinib) but not the topical one,
+    which is the form a skincare reader would actually encounter. It carries a BOXED
+    WARNING, which is the sharpest contrast available with dupilumab, whose label
+    has none (verified absent 2026-10-27) - that contrast is the page's reason to
+    exist. Read the boxed warning verbatim from DailyMed and do not soften it; grade
+    from the TRuE-AD trials in the label's own tables. DailyMed route.

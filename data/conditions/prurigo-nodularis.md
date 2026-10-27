@@ -26,7 +26,7 @@ Where skincare has a supporting role is the same barrier-first, itch-reducing ca
 
 ## See Also
 
-[[kim-2026-dupilumab-prurigo-nodularis-atopic-subgroup]], [[atopic-dermatitis]], [[moisturizing]].
+[[dupilumab]], [[kim-2026-dupilumab-prurigo-nodularis-atopic-subgroup]], [[atopic-dermatitis]], [[moisturizing]].
 
 ## Sources
 

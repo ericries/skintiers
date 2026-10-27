@@ -660,3 +660,15 @@
     not a pigment-product problem, and is the single most important thing to route
     out), and a tier_list over the graded topicals. Route facial pigment to hyperpigmentation
     and melasma; route lasers and IPL out as procedures-phase.'
+- name: Bullous pemphigoid
+  type: condition
+  priority: 3
+  status: pending
+  discovered_from: dupilumab
+  source: 'Autoimmune blistering disease of older adults and one of the nine indications
+    on the Dupixent label, with no hub on the site. Grounded because the dupilumab
+    page now lists it and a reader following that list finds nothing. The hub''s job
+    is small and specific: say what it is, that it is a disease requiring a clinician
+    rather than a skincare problem, and route to dupilumab as an approved systemic
+    option. Do NOT write a cosmetic angle; there is not one. Keep it tight and check
+    the label plus one dermatology review for the clinical description.'
