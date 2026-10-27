@@ -530,3 +530,15 @@
   status: pending
   discovered_from: null
   source: null
+- name: 'Therabody (formerly Theragun) - holds 5 FDA clearances across TWO applicant
+    names, all published as 510(k) Summaries: TheraFace Microcurrent, RecoveryAir
+    PRO and TheraFace LED under ''Theragun, Inc.'', then TheraFace Mask and JetBoots
+    PRO Plus under ''Therabody''. Same split-applicant discovery problem documented
+    on silkn. The site now covers theraface-led-light-ring with no brand page, and
+    products.json is readable so price needs no metered lookup. Source: openFDA applicant
+    queries + therabody.com/products.json'
+  type: brand
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null

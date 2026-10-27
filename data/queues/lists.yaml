@@ -809,3 +809,16 @@
   status: pending
   discovered_from: null
   source: null
+- name: 'Home LED devices by whether the marketing matches the cleared indication
+    - a different axis from the disclosure ranking, and now grounded three times over:
+    theraface-led-light-ring is cleared for PERIORBITAL wrinkles and sold for firming,
+    facial wrinkles, dark spots and radiance; tria-fanp-age-defying-laser is cleared
+    for crow''s feet and sold for pigmentation and collagen; foreo-faq-302''s own
+    file says clinical testing was considered not needed. The reader question is simple
+    and no page answers it directly: does the box claim what FDA actually cleared?
+    Source: the 510(k) Summaries and brand storefronts already read for those pages'
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null

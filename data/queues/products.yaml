@@ -3412,16 +3412,27 @@
 - name: TheraFace LED (Theragun/Therabody, K212155)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: foreo-luna-4-plus
-  source: Named as a PREDICATE in the FOREO LUNA 4 plus Summary (K241102), with 510(k)
-    number K212155, manufacturer 'Theragun, Inc', product codes OHS, OLP and IRO.
+  source: 'Named as a PREDICATE in the FOREO LUNA 4 plus Summary (K241102), with 510(k)
+    number K212155, manufacturer ''Theragun, Inc'', product codes OHS, OLP and IRO.
     Three codes means it was cleared across the LED wrinkle, blue-light acne and infrared
     categories at once, which makes it the broadest multi-modality home device the
     site has encountered and a natural comparison for the FOREO and NuFACE devices
     already covered. Pull the K212155 file from accessdata and resolve whether it
     is a Statement or a Summary before drafting, and check whether the retail name
-    TheraFace maps to that clearance.
+    TheraFace maps to that clearance. Shipped as theraface-led-light-ring. Two findings:
+    (1) the Summary PUBLISHES power density for all three modes (red 73+/-5, blue
+    64+/-5, red+IR 73/55 mW/cm2) AND states ''There were no clinical studies performed'',
+    which is the cleanest disclosure-is-not-evidence case on the site; (2) three claim/clearance
+    mismatches - red cleared for PERIORBITAL wrinkles but sold for firming and facial
+    wrinkles, red+IR cleared for periorbital wrinkles but sold for dark spots and
+    radiance, blue cleared for ''mild to moderate inflammatory acne'' but sold as
+    fighting acne-causing bacteria. Also corrected home-led-devices-by-what-the-file-publishes,
+    which had claimed K172662 was the only covered filing publishing a figure; TheraFace
+    is now a second rung-1 entry and the superseded claim is dated on both the body
+    and the footnote. No Apify call; products.json carried price and the single-sentence
+    claim.'
 - name: Vanicream Sunscreen (mineral, zinc and titanium only)
   type: product
   priority: 5
@@ -4235,6 +4246,29 @@
     pulsaderm-acne-mask-28, dpl-spotlite and the queued Tria Sapphire, so it belongs
     on led-colours-for-acne-by-evidence alongside them. No page yet. Source: openFDA
     device/510k + accessdata.fda.gov/cdrh_docs/pdf12/K121435.pdf'
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null
+- name: 'TheraFace Mask (K230293, Therabody, 2023-06-09, product code OHS, 510(k)
+    Summary) - $649.99 on the brand''s own storefront, the most expensive LED device
+    the site would cover, and a SEPARATE clearance from the TheraFace LED ring now
+    covered. Check whether its file publishes power density the way K212155 does,
+    since that would make Therabody the best-disclosing LED maker on the site. A cheaper
+    TheraFace Mask Glo at $379.99 is also listed and may sit under the same or a third
+    clearance. Source: openFDA applicant Therabody + accessdata.fda.gov/cdrh_docs/pdf23/K230293.pdf
+    + therabody.com/products.json'
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: null
+- name: 'TheraFace Microcurrent ring (K212238, Theragun Inc., 2021-09-29, product
+    code NFO, 510(k) Summary) - $149.99 on the brand storefront, the microcurrent
+    attachment for the same TheraFace PRO handheld. NFO is the microcurrent code shared
+    with nubody-skin-toning-device and the NuFACE devices the site already covers,
+    so it has direct comparators. Source: openFDA applicant Theragun + accessdata.fda.gov/cdrh_docs/pdf21/K212238.pdf'
   type: product
   priority: 5
   status: pending
