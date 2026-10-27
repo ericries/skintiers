@@ -14,7 +14,7 @@ name: FOREO
 slug: foreo
 status: published
 type: brand
-updated: '2026-10-17'
+updated: '2026-10-27'
 ---
 
 FOREO is a Swedish-headquartered maker of home skincare and oral-care devices, trading at foreo.com, whose US entity Foreo, Inc. is the applicant of record on ten FDA 510(k) clearances.[^openfda][^site] Its device lines include ESPADA (blue light for acne), LUNA (cleansing), BEAR (microcurrent), PEACH (IPL hair removal) and FAQ (LED masks and panels).[^openfda]
@@ -23,11 +23,12 @@ FOREO is a Swedish-headquartered maker of home skincare and oral-care devices, t
 
 - [[foreo-espada-blue-light-pen]], cleared under 510(k) K162450
 - [[foreo-faq-led-masks]], the FAQ LED range across five clearances, where the one readable file turns out to be a hair-growth device
+- [[foreo-faq-302]], cleared under K242747, the scalp hair-growth device in that range and the only FAQ filing published as a Summary
 - [[foreo-luna-4-plus]], cleared under K241102, the brand's other Summary filing, which discloses its predicates and states plainly that its testing was non-clinical
 
 **One structural fact worth knowing before you read any FOREO claim.**
 
-Eight of those ten clearances are filed as 510(k) **Statements** rather than Summaries.[^openfda] A Statement certifies the company will supply safety and effectiveness information on request; a Summary publishes it. For eight of ten FOREO devices, then, the public FDA file gives the indication and essentially nothing else: no predicate named, no wavelengths, no account of what was tested. The two exceptions are Luna 4 plus (K241102) and FAQ 302 (K242747).
+Eight of those ten clearances are filed as 510(k) **Statements** rather than Summaries.[^openfda] A Statement certifies the company will supply safety and effectiveness information on request; a Summary publishes it. For eight of ten FOREO devices, then, the public FDA file gives the indication and essentially nothing else: no predicate named, no wavelengths, no account of what was tested. The two exceptions are [[foreo-luna-4-plus]] (K241102) and [[foreo-faq-302]] (K242747).
 
 That is a disclosure pattern, not a safety finding, and it is the opposite of [[nuface-trinity-microcurrent-device]], whose maker publishes a Summary every time. What each status does and does not prove is on [[fda-approved-vs-cleared-skincare]].
 

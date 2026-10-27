@@ -452,10 +452,24 @@
 - name: Orion Corporation / Orion Pharma
   type: brand
   priority: 5
-  status: pending
+  status: done
   discovered_from: lnhc-pelthos-therapeutics
-  source: named on the ZELSUVMI tube artwork filed with FDA as the contract manufacturer
+  source: 'named on the ZELSUVMI tube artwork filed with FDA as the contract manufacturer
     (Salo, Finland); a manufacturer behind a product the site covers, with no page
+    NOT BUILT, resolved as out of scope on 2026-10-27, with the checks recorded so
+    nobody repeats them. (1) The grounding claim could not be verified: the current
+    ZELSUVMI SPL (setid 76b17622-bdb9-41ea-b962-c2acc0df71f7) was fetched and text-extracted
+    in full, and the strings Orion, Salo and Finland each appear ZERO times. The only
+    attribution in the label text is ''Manufactured for: LNHC, Inc. Durham, NC 27703''.
+    If a prior tick read Orion off the tube ARTWORK image rather than the label text,
+    that is not verifiable from the SPL text and was not asserted. (2) Orion is not
+    a skincare brand: openFDA drug/ndc returns exactly 3 records for labeler_name
+    Orion, and all three are marketing category DRUG FOR FURTHER PROCESSING, bulk
+    intermediates for entacapone, toremifene citrate and darolutamide. No dermatology
+    product, no consumer product. (3) A brand page''s job per docs/cron-playbook.md
+    is to link products already on the site; this one would link to a single product
+    on which Orion is not the brand. Re-open ONLY if a label or regulatory filing
+    names Orion in text as the manufacturer of a product the site covers.'
 - name: CurrentBody
   type: brand
   priority: 5
