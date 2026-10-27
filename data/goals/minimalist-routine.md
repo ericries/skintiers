@@ -18,6 +18,16 @@ videos:
   related: [retinoids, azelaic-acid, vitamin-c, peptides, acne, hyperpigmentation, anti-aging, am-pm-routine-by-evidence, skin-barrier-repair]
   thesis: 'Licensed esthetician Ella (@your.estie.ella) argues that the biggest skincare mistake is changing your routine too often, because results take time: she says acne needs a minimum of about three months, pigmentation roughly six to eight months, and visible wrinkle reduction closer to eight to twelve months. Her case for a simple, consistent routine is a daily cleanser, moisturizer, and sunscreen, a retinoid four to six nights a week, and azelaic acid in the morning for acne and pigmentation, with an optional peptide serum for aging or vitamin C for dullness. The core message is that a good routine is boring and consistency beats chasing trendy new products.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: 'Simple skincare saves skin: stop changing your routine every two months'
+  creator: Ella (@your.estie.ella)
+  creator_slug: your-estie-ella
+  credential: Licensed esthetician (NOT a dermatologist or cosmetic chemist)
+  platform: TikTok
+  url: https://www.tiktok.com/@your.estie.ella/video/7687753696633031949
+  posted: '2026-09-20'
+  related: [azelaic-acid, retinoids, acne, hormonal-acne, hyperpigmentation, vitamin-c]
+  thesis: 'Licensed esthetician Ella argues that routine-hopping is the main reason people see no results, because swapping products every two months never gives a treatment long enough to work. Her timelines: any acne treatment takes three to six months, and pigmentation and ageing take longer still, so abandoning a vitamin C serum after one bottle tells you nothing. She frames acne as a regulation issue rather than dirty skin that can be scrubbed away. Her recommendation is to settle on a base of cleanser, moisturizer and sunscreen plus one or two consistent treatments, naming azelaic acid in the morning and a retinoid the skin can tolerate at night as the combination that suits most concerns, and to do the experimenting with makeup instead. She adds that stronger does not always mean better.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

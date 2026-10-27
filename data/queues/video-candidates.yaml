@@ -5098,7 +5098,8 @@
   conflict: Bio includes a business/booking contact email suggesting managed brand partnerships; no confirmed own-brand line or affiliate stor
   posted: '2026-09-18'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'Rejected: 19 seconds, under the ~25s floor, too thin to ground a thesis. Topic (hypochlorous acid) does match an existing page, so re-queue if the creator posts a longer version.'
 - id: '7686595499478093069'
   title: 'Anti-aging skincare routine updated! #skincare #antiaging #glowup #be...'
   creator: Dr. Chris Tomassian
@@ -5177,7 +5178,8 @@
   conflict: Co-developed/formulated the Tbh Skincare 'Rebound' Serum and Toner (product-formulation partnership) — her endorsement of that spe; no YouTube; TikTok/IG intake
   posted: '2026-09-18'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'Rejected: off-topic, a Vinted clothing haul. No skincare content to card.'
 - id: '7686653980667022613'
   title: A+ i also did a trial using it just on one side to show the differenc...
   creator: Hannah English (@ms_hannah_e / Hannah Collingwood English)
@@ -5934,7 +5936,8 @@
   conflict: runs an Amazon affiliate storefront and does sponsored posts - strongly prefer educational / how-to / ingredient-explainer videos; be very cautious with any product recommendation
   posted: '2026-09-20'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'Rejected: the full caption tail tags two brands, @PURITO SEOUL and @anua_global, on a product-texture comparison, and this creator runs an Amazon affiliate storefront and does sponsored posts. Treated as effectively paid promotion rather than an ingredient explainer. The truncated title looked clean; only the full caption showed the tags.'
 - id: '7687276212103728398'
   title: If I could go back and give myself one skincare tip…it would be to us...
   creator: Kristin Leite (kristingl)
@@ -5973,7 +5976,8 @@
   conflict: null
   posted: '2026-09-19'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'Rejected: off-topic, the caption asks viewers to help pick a new profile picture. No skincare content to card.'
 - id: _JTF9jLDbao
   title: THIS one is better!!! Did you make the right choice?! 👀
   creator: Dr. Maren Locke (The Budget Dermatologist)
@@ -6027,7 +6031,8 @@
   conflict: Self-describes as a "Key Opinion Leader for industry beauty companies" (per her own practice bio) and most sampled TikTok videos e; no YouTube; TikTok/IG intake
   posted: '2026-09-19'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'Rejected: comment-gated product funnel (Comment HAIR for my favorite hair regrowth products) from a creator who self-describes as a Key Opinion Leader for industry beauty companies. Engagement-bait plus KOL conflict on a product recommendation; picks treated as effectively paid.'
 - id: '7686907653674519838'
   title: 🖇️ Comment PRODUCTS for all of my derm-approved skincare, makeup and ...
   creator: Dr. Sheila Farhang (dr.sheila_derm)
