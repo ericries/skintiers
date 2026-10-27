@@ -83,6 +83,17 @@ videos:
     do not improve he mentions dermatologist-prescribed options like tacrolimus ointment.
   title: Why Your Lips Are ALWAYS Dry (Dermatologist)
   url: https://www.youtube.com/watch?v=l5YQOwGbDAk
+- title: What is dehydrated skin, and why it is not the same as dry skin
+  creator: Jenn Lexi
+  creator_slug: jennlexi
+  credential: Esthetician (self-identified); not a dermatologist or cosmetic chemist
+  platform: TikTok
+  url: https://www.tiktok.com/@jennlexi_/video/7688020768579521805
+  posted: '2026-09-21'
+  related: [skin-barrier-repair, oily-skin, glycerin, hyaluronic-acid, panthenol, ceramides, cholesterol, petrolatum, dimethicone, exfoliation]
+  thesis: 'Esthetician Jenn Lexi separates two things that get used interchangeably: dry skin is about oil and dehydrated skin is about water, which is why someone can have oily and dehydrated skin at once. She frames oil production as a skin type and dehydration as a concern that comes and goes regardless of type. Her mechanism is the brick wall: skin cells as bricks and lipids as the cement, with water constantly leaving through the skin as transepidermal water loss, which she describes as normal until over cleansing, over exfoliating or too many actives damage that layer and the loss speeds up. The fix she lays out has three parts rather than one: humectants including glycerin, hyaluronic acid and panthenol to attract and hold water, barrier lipids including ceramides, cholesterol and fatty acids to replace the cement, and occlusives such as dimethicone and petrolatum to sit on the surface and slow the loss whether or not the barrier is damaged. She names no products.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Dry skin, medically called xerosis (also xeroderma or asteatosis), "refers to skin that feels dry to touch," occurring "when the skin is lacking moisture in the outer horny cell layer (stratum corneum)," which results in visible cracking of the surface.[^dermnet] The bottom line: this is one of the most treatable complaints in skincare, and the fix is not exotic. It is [[moisturizing|applying enough of the right kind of moisturizer]], consistently, while removing whatever is stripping the [[skin-barrier-repair|skin barrier]] in the first place.

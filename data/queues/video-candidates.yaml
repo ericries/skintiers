@@ -14560,7 +14560,8 @@
   conflict: null
   posted: '2026-10-26'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: Teaser announcement for the creator's own venture (Dermy Doc Institute), not skincare education and no matching topic page
 - id: '7701183977578614029'
   title: 'PSA: stop following trendy ingredients, start EDUCATING yourself, and...'
   creator: Jenn Lexi (@jennlexi_)
@@ -14573,7 +14574,8 @@
   conflict: 'Runs #ad sponsored posts (e.g. TruSkin) and Target skincare hauls/reviews; prefer her educational ingredient-category and barrier-repair explainers, and treat product recommendations as effectively promotional (skip).'
   posted: '2026-10-27'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: Meta-advice PSA about not following trendy ingredients; no specific ingredient, product, condition or goal the site has a page for
 - id: '7701008465551969550'
   title: Top 3 toner pads (curated by a beauty product developer)  ⭐️ @Glow Re...
   creator: Kristin Leite (kristingl)
@@ -14586,7 +14588,8 @@
   conflict: runs an Amazon affiliate storefront and does sponsored posts - strongly prefer educational / how-to / ingredient-explainer videos; be very cautious with any product recommendation
   posted: '2026-10-26'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: Top-3 toner pad picks list with brand tags; this creator's picks route to an Amazon affiliate storefront so they are treated as effectively paid
 - id: dd8X-Xf_GB8
   title: Do You NEED Cicaplast Balm B5+? | Dermatologist Reviews
   creator: Dr. Maren Locke (The Budget Dermatologist)
@@ -14625,7 +14628,8 @@
   conflict: Self-describes as a "Key Opinion Leader for industry beauty companies" (per her own practice bio) and most sampled TikTok videos e; no YouTube; TikTok/IG intake
   posted: '2026-10-27'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'Own-brand promo gated behind an engagement hook: ''Comment DOSE to shop Dose (of) Derm'', which is both a shop funnel and a comment-to-unlock mechanism, not education'
 - id: '7701156200653573389'
   title: 'Which one is your favorite?? '
   creator: Ella (@your.estie.ella)
@@ -14638,4 +14642,5 @@
   conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan and reject any sponsored/affiliate/gifted video
   posted: '2026-10-27'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: Vague 'Which one is your favorite??' engagement post with no stated topic and no matching page
