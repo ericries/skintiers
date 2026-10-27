@@ -4428,3 +4428,17 @@
     real work because the product sells well. Grade the humectant claim against hyaluronic-acid,
     which the site already grades, and do not re-explain the ingredient. incidecoder
     plus cerave.com.'
+- name: VelaSmooth (Syneron, K050397 / K070092)
+  type: product
+  priority: 3
+  status: pending
+  discovered_from: cellulite
+  source: 'The only cellulite device DermNet singles out as FDA-cleared, and the FDA
+    record is verified: openFDA device/510k returns 2 records under device_name VelaSmooth,
+    both Syneron Medical Ltd. and both published as SUMMARIES, so the basis is readable.
+    K050397 (2005-06-09) and K070092 MODIFICATION TO VELASMOOTH, SHAPER (2007-07-27),
+    product code NUV. That is the same read-the-file method used on home-rf-devices-by-whose-evidence-the-file-rests-on,
+    applied to the cellulite category where the cellulite hub currently has nothing
+    but retinoids, caffeine and a microcurrent device. It is an in-office device rather
+    than a home one, so say that plainly and do not imply home use. accessdata.fda.gov
+    with a browser user-agent, no metered call.'

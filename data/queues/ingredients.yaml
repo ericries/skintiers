@@ -2979,3 +2979,17 @@
     has none (verified absent 2026-10-27) - that contrast is the page's reason to
     exist. Read the boxed warning verbatim from DailyMed and do not soften it; grade
     from the TRuE-AD trials in the label's own tables. DailyMed route.
+- name: Aminophylline
+  type: ingredient
+  priority: 4
+  status: pending
+  discovered_from: cellulite
+  source: 'The one cellulite topical with a published NEGATIVE finding, which makes
+    it a more useful page than most. DermNet''s cellulite reference states verbatim
+    that ''Topical aminophylline has not been shown to objectively improve cellulite''
+    (cached at research-cache/web/cc3bd1d037b5423b.md and verified 2026-10-27). It
+    sits alongside caffeine as a methylxanthine used in OTC cellulite creams, so the
+    page''s job is to say plainly that the mechanism story and the measured result
+    diverge. Expect tier: weak at best; check PubMed for the underlying trials before
+    grading, and do not upgrade it on mechanism alone. Link out to cellulite and caffeine
+    rather than re-explaining either.'

@@ -517,7 +517,7 @@
 - name: Actinic cheilitis
   type: condition
   priority: 5
-  status: pending
+  status: done
   discovered_from: jack-black-intense-therapy-lip-balm-spf-25
   source: The condition that motivates buying an SPF lip balm at all, and the site
     has only lip-care. Chronic UV exposure heads its risk factors, and the new Jack
@@ -525,7 +525,12 @@
     claim, which leaves a reader with nowhere to learn what the actual risk is. It
     is a premalignant lesion, so source it from a primary (PubMed or an NCI PDQ page)
     and keep the see-a-clinician routing prominent; the lip-care page already flags
-    chronic UV as the leading risk factor.
+    chronic UV as the leading risk factor. ALREADY EXISTS as data/conditions/actinic-cheilitis.md,
+    'Actinic Cheilitis (sun damage on the lip)'. Resolved as a duplicate on 2026-10-27.
+    It is already linked from lip-care, jack-black-intense-therapy-lip-balm-spf-25
+    and trader-joes-sunscreen-lip-balm. Nothing to build. Queue items generated without
+    a sk find duplicate check keep proposing pages that exist; check with sk find
+    before queueing a hub.
 - name: Dermatophytoma
   type: condition
   priority: 5

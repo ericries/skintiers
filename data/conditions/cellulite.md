@@ -6,7 +6,7 @@ slug: cellulite
 status: published
 tier_list:
   by: strength of evidence that a treatment actually reduces the visible dimpling
-    of cellulite, not just marketing claims; nothing tops "modest and temporary,"
+    of cellulite, not just marketing claims; nothing on it is more than modest and temporary,
     and the best-evidenced options are in-office procedures this site does not yet
     have pages for
   items:
@@ -21,28 +21,33 @@ tier_list:
       on [[caffeine]].
     slug: caffeine
     tier: minimal
+  - note: A $399 four-electrode microcurrent body device whose brand claims it reduces
+      the look of dimpled skin while never once using the word cellulite, and whose
+      FDA file measures electrical output rather than dimpling. Evidence on [[nubody-skin-toning-device]].
+    slug: nubody-skin-toning-device
+    tier: minimal
   title: Cellulite treatments by evidence
 type: condition
-updated: '2026-08-30'
+updated: '2026-10-27'
 ---
 
-Cellulite is "the skin dimpling and lumpiness seen on the skin surface of the thighs, buttocks and abdomen of nearly all women," caused by fatty tissue protruding up into the dermis between fibrous bands (septae) that anchor the skin down.[^dermnet] DermNet is blunt that it "causes no physical harm but may cause embarrassment": this is a normal structural feature of how female subcutaneous fat is organized, not a disease, a toxin buildup, or a sign anything is wrong.[^dermnet] No cream, massage, brush, or "detox" regimen reliably removes it, because none of them change the underlying architecture of fat lobules pushing against fibrous septae.
+Cellulite is "the skin dimpling and lumpiness seen on the skin surface of the thighs, buttocks and abdomen of nearly all women," caused by fatty tissue protruding up into the dermis between fibrous bands (septae) that anchor the skin down.[^dermnet] DermNet is blunt that it "causes no physical harm but may cause embarrassment": this is a normal structural feature of how female subcutaneous fat is organized, not a disease, a toxin buildup, or a sign anything is wrong.[^dermnet] No cream, massage, brush, or detox regimen reliably removes it, because none of them change the underlying architecture of fat lobules pushing against fibrous septae.
 
 ## Who gets it and why
 
 Cellulite is normal and near-universal in women; DermNet lists genetic predisposition, hormones (insulin raises fat content), sex (much more common in women than men, tied to how female subcutaneous fat and septae are structured), ethnicity (more common in Caucasian than Asian women), diet, obesity, weight change in either direction, prolonged sitting or standing, and pregnancy as factors that affect how visible it is.[^dermnet] "The actual cause of cellulite is poorly understood," so none of these are levers with a proven fix attached.[^dermnet]
 
-## How it's graded
+## How to know you have this
 
 DermNet describes a three-grade clinical severity scale: Grade I is smooth standing skin that only dimples when pinched; Grade II shows a mattress-like texture standing up that disappears lying down; Grade III dimples both standing and lying down, worsened by pinching.[^dermnet] Higher grades reflect more pronounced structural changes, not a different disease.
 
 ## What actually works (honestly, not much)
 
-DermNet's own treatment table is a useful reality check: weight loss is "encouraged in those who are overweight, but may not improve the appearance of the affected skin," and liposuction is explicitly "not recommended for cellulite because of poor cosmetic outcomes" since the fat lobules causing the dimpling sit close to the skin surface where liposuction is risky.[^dermnet] The options with the most plausible mechanism are in-office procedures: subcision (a needle used to cut the fibrous septae) can visibly improve dimpling, though DermNet flags the improvement as often temporary; energy-based devices (radiofrequency, ultrasound, laser-assisted lipolysis) show "small studies... mixed but sometimes impressive results" with long-term efficacy still unknown.[^dermnet] None of these procedures have pages on this site yet. Among things you can buy, [[retinoids]] have thin, dated evidence for modest improvement with months of continuous use, and [[caffeine]] creams give at most a transient, cosmetic tightening that disappears once you stop using them.
+DermNet's own treatment table is a useful reality check: weight loss is "encouraged in those who are overweight, but may not improve the appearance of the affected skin," and liposuction is explicitly "not recommended for cellulite because of poor cosmetic outcomes" since the fat lobules causing the dimpling sit close to the skin surface where liposuction is risky.[^dermnet] The options with the most plausible mechanism are in-office procedures: subcision (a needle used to cut the fibrous septae) can visibly improve dimpling, though DermNet flags the improvement as often temporary; energy-based devices (radiofrequency, ultrasound, laser-assisted lipolysis) are summarised as "Small studies have shown mixed but sometimes impressive results; long-term efficacy is unknown".[^dermnet] None of these procedures have pages on this site yet. Among things you can buy, [[retinoids]] have thin, dated evidence for modest improvement with months of continuous use, and [[caffeine]] creams give at most a transient, cosmetic tightening that disappears once you stop using them.
 
 ## What's overhyped
 
-Mesotherapy (injecting fat-dissolving substances) has "unpredictable" outcomes, can make dimpling worse, and carries a real risk of abscesses and scarring.[^dermnet] Topical aminophylline "has not been shown to objectively improve cellulite" despite some patient-reported improvement, and herbal cellulite creams contain "botanicals of unknown efficacy" that can also cause contact allergic dermatitis.[^dermnet] Massage devices like Endermologie can temporarily reduce thigh circumference with twice-weekly treatment but are costly with little evidence of lasting effect.[^dermnet] Anything marketed as a cream or wrap that "melts," "flushes," or "detoxes" cellulite away is not supported by this mechanism: cellulite is a structural fat/connective-tissue arrangement, not a toxin.
+Mesotherapy (injecting fat-dissolving substances) has "unpredictable" outcomes, can make dimpling worse, and carries a real risk of abscesses and scarring.[^dermnet] Topical aminophylline "has not been shown to objectively improve cellulite" despite some patient-reported improvement, and herbal cellulite creams contain "botanicals of unknown efficacy" that can also cause contact allergic dermatitis.[^dermnet] Massage devices like Endermologie appear to reduce thigh size with twice-weekly treatment but are costly with little evidence of lasting effect.[^dermnet] Anything marketed as a cream or wrap that melts, flushes or detoxes cellulite away is not supported by this mechanism: cellulite is a structural fat/connective-tissue arrangement, not a toxin.
 
 ## The Evidence
 

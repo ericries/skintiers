@@ -1313,10 +1313,12 @@ caudalie-vinopure-acne-serum:
   score: 5
   verdict: publish
 cellulite:
-  last_reviewed: '2026-08-30'
-  note: 'NEW HUB (condition). Opus critic (9): both slugs + DermNet verbatim; added disclaimer. HONEST skeptical: cellulite is a NORMAL structural feature of female fat, not a disease/toxin; NO cream/massage/detox removes it; procedures modest+temporary. tier_list [[caffeine]] (transient)/[[retinoids]] (thin). No dashes. Opus critic inline (workflow pipeline); assurance opus.'
-  score: 9
+  last_reviewed: '2026-10-27'
+  score: 8
   verdict: publish
+  note: 'Maintenance tick 2026-10-27, main-loop self-verification. Assigned task was the tier_list gap: added nubody-skin-toning-device at minimal, with a note recording the thing that makes it interesting, that the brand claims it reduces the look of dimpled skin while never once using the word cellulite (verified on its own page against the cached brand page) and that its FDA file measures electrical output rather than dimpling. Verified the site_health flag self-cleared afterwards. Three further defects found and fixed while in the file, all with ZERO new facts. (1) A pre-existing lint WARN for the missing required section ''How to know you have this'': the content already existed under the heading ''How it is graded'' (the DermNet three-grade pinch and standing test), so the heading was renamed and the body proven byte-identical apart from the heading string. (2) FOUR quotations had no source behind them, found by re-verifying every quoted string against the cached DermNet page with
+    source_cache.py get --text as the playbook requires. ''detox'', and ''melts''/''flushes''/''detoxes'', were generic marketing verbs in quotation marks sourced from nothing, so they are now unquoted; ''modest and temporary,'' in the tier_list axis was the author''s own framing in quotes, with neither word appearing anywhere in the source, so it is now plain prose; and ''small studies... mixed but sometimes impressive results'' was an elided misquote, now given verbatim as ''Small studies have shown mixed but sometimes impressive results; long-term efficacy is unknown''. (3) ''thigh circumference'' was tightened to the source''s own ''thigh size''. All 14 remaining quoted strings now verify verbatim against the cache. Worth noting the page carried assurance: opus while holding four unsourced quotations, which is an argument for running this quote-vs-cache check as a lint rule rather than relying on a critic pass. One claim CHECKED and left alone: ''DermNet flags the improvement as often
+    temporary'' for subcision is supported, the source reads ''May temporarily improve the skin dimpling, but long-term efficacy is uncertain''; my first probe missed it only because the source uses the adverb.'
 centella-asiatica:
   last_reviewed: '2026-07-28'
   note: 'Ingredient page drafted + critic-gated in the parallel drain. '
