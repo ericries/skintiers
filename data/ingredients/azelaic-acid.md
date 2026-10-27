@@ -279,6 +279,17 @@ videos:
   related: [anua-azelaic-acid-serum, finacea-azelaic-acid-15-gel, the-ordinary-azelaic-acid-suspension-10, rosacea, acne, hyperpigmentation, propylene-glycol]
   thesis: 'Board-certified dermatologists Dr Muneeb Shah and Dr Luke Maxfield take up the online accusation that the viral Anua azelaic acid serum is a scam because its azelaic acid sits in a salt form at higher pH, and they concede the chemistry behind the accusation: azelaic acid is a dicarboxylic acid that loses its first proton above pH 4.5 and its second above 5.3, and they agree the Anua product is in that ionized form. What they dispute is the conclusion that being ionized makes it ineffective on skin. Their formulation explanation is the useful part: non-ionized azelaic acid at low pH dissolves poorly so it has to be suspended rather than dissolved, which is why traditional versions including the prescription gel feel gritty and sting, whereas solubilized higher pH versions feel far better but need solubilizers, and they flag propylene glycol among those as a common allergen. They also say the studies they are relying on are not large scale and are not specific to the brands discussed.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Is Azelaic Acid Better Than Tretinoin? A Dermatologist Explains
+  creator: Dr. Jenny Liu
+  creator_slug: jenny-liu
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=jcO6qqNtQjU
+  posted: '2026-10-15'
+  related: [tretinoin, retinoids, rosacea, melasma, hyperpigmentation, acne, perioral-dermatitis, hydroquinone]
+  thesis: 'Board-certified dermatologist Dr Jenny Liu answers the social media claim that azelaic acid can replace tretinoin, and her answer is no, with a sympathetic explanation for why people report better skin after switching: they may have found something their skin tolerates rather than something stronger. She splits the two by concern. Tretinoin is her choice for acne and the only one of the two she credits with stimulating collagen, saying azelaic acid has minimal if any benefit there, so anyone whose goal is fine lines or photodamage should stay on it. Azelaic acid is her first line for the inflammatory bumps of rosacea, for pigment in people who cannot tolerate harsher options, and during pregnancy, and she reports that prescription 15 to 20 percent azelaic acid has been studied against hydroquinone with similar efficacy and far less irritation. She also notes azelaic acid is poor at clearing clogged pores, so an exfoliating acid or tretinoin is her first choice for congestion and
+    texture.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

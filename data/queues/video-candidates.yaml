@@ -12417,7 +12417,8 @@
   conflict: Runs a "Shop my Favorites" affiliate storefront (linktr.ee/dermatologysurgeon) that monetizes her product picks; no own-brand prod
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: Shorts-style stitch reaction clip with a hashtag title; this creator also monetizes picks through a Shop-my-Favorites affiliate storefront
 - id: dR7rBtSJ1rc
   title: 'Rating viral barrier creams #skincare'
   creator: Dr. Neera Nathan
@@ -12747,7 +12748,8 @@
   conflict: Muneeb Shah runs own skincare brand (Remedy Science) and Scriptable Rx venture featured on the channel
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: Full personal routine reveal from a creator whose own brand Remedy Science is featured on the channel; routine reveals are where that own-brand placement concentrates, and today's backfill confirmed the pattern across three of four Doctorly videos
 - id: jmx1ZmgsPlU
   title: Are we addicting our kids?Screen addiction, parenting& child's mental health Ft.Psychiatrist Dr.Sood
   creator: Dr. Aanchal MD
@@ -12760,7 +12762,8 @@
   conflict: Maintains a Nykaa curated affiliate storefront; treat specific product picks as commercially incentivized (educational/mechanism content is fine).
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'Off topic entirely: screen addiction, parenting and child mental health with a psychiatrist guest, no skincare content and no matching page'
 - id: '7696877103026933006'
   title: Okay, let's clear some of these up... 🫣 ✨️Retinol thins your skin✨️ I...
   creator: Fatima Fahs
