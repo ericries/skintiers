@@ -33,7 +33,7 @@ videos: []
 videos:
 - title: How good is the new Minocycline-MR (Emrosi) for rosacea?
   creator: John Barbieri, MD
-  creator_slug: john-barbieri-md
+  creator_slug: john-barbieri
   credential: Dermatologist, Department of Dermatology, Brigham and Women's Hospital
   platform: YouTube
   url: https://www.youtube.com/watch?v=103ncqVznGk

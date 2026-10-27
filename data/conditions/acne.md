@@ -594,7 +594,7 @@ videos:
   title: What even IS acne and how does it form?
   url: https://www.tiktok.com/@jennlexi_/video/7681489584898805005
 - creator: John Barbieri, MD
-  creator_slug: john-barbieri-md
+  creator_slug: john-barbieri
   credential: Dermatologist, Department of Dermatology, Brigham and Women's Hospital
   duration: 1833
   note: Verified from the video transcript (yt-dlp, read in full); no sponsorship.

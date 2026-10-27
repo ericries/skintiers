@@ -387,3 +387,27 @@
     Hospital of Brest) but no degree, and a departmental affiliation is not evidence
     of a medical degree. If a primary source for her credential is found later (institution
     staff page or a journal byline carrying degrees), the page can be upgraded.'
+- name: jennlexi
+  type: person
+  priority: 5
+  status: pending
+  discovered_from: brooke-jeffy
+  source: 'Rostered creator with NINE transcript-verified videos already embedded
+    on the site and no person page, the largest remaining person gap found by auditing
+    creator_slug values against both data/people and data/persons. Roster records
+    her honestly as ''Esthetician (self-identified); not a dermatologist or cosmetic
+    chemist'', tier MED, product_recs restricted. CREDENTIAL CAUTION: self-identified
+    means unverified, so the page must either locate a state esthetician licence record
+    or say plainly that the credential rests on her own description. NPI will not
+    list an esthetician. Keep it lean and route her claims to the pages that own them.'
+- name: Ife Rodney
+  type: person
+  priority: 4
+  status: pending
+  discovered_from: brooke-jeffy
+  source: Rostered creator with SIX transcript-verified videos on the site and no
+    person page. Roster records 'Board-certified dermatologist', tier MED, product_recs
+    restricted. Verify the credential against the NPI registry the way brooke-jeffy
+    and john-barbieri were done (one name search, record the taxonomy and licence,
+    and do NOT assert board certification, which NPI does not carry) before writing
+    anything about her. Lean discovery card, under 150 words.

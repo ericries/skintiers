@@ -9,7 +9,7 @@ type: ingredient
 updated: '2026-09-13'
 videos:
 - creator: John Barbieri, MD
-  creator_slug: john-barbieri-md
+  creator_slug: john-barbieri
   credential: Dermatologist, Department of Dermatology, Brigham and Women's Hospital
   duration: 469
   note: Verified from the video transcript (yt-dlp, read in full); no sponsorship
@@ -31,7 +31,7 @@ videos:
     explains
   url: https://www.youtube.com/watch?v=jvuhQ3ZMsfs
 - creator: John Barbieri, MD
-  creator_slug: john-barbieri-md
+  creator_slug: john-barbieri
   credential: Dermatologist, Department of Dermatology, Brigham and Women's Hospital
   duration: 544
   note: Verified from the video transcript (yt-dlp, read in full); no sponsorship.

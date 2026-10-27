@@ -61,7 +61,7 @@ type: goal
 updated: '2026-10-24'
 videos:
 - creator: John Barbieri, MD
-  creator_slug: john-barbieri-md
+  creator_slug: john-barbieri
   credential: Dermatologist, Department of Dermatology, Brigham and Women's Hospital
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
   platform: YouTube

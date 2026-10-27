@@ -555,3 +555,19 @@
   status: pending
   discovered_from: null
   source: null
+- name: BTWN
+  type: brand
+  priority: 4
+  status: pending
+  discovered_from: brooke-jeffy
+  source: Tween and teen skincare line founded by dermatologist Brooke Jeffy, disclosed
+    as her own-brand conflict on her person page. The brand's Story page states 'Dermatologist
+    Dr. Brooke Jeffy noticed tweens and teens weren't properly caring for their skin';
+    both the home and Story pages are already cached (research-cache/web/bb9ba7d716a55fc4.md
+    and f7a7c6ef9703b7d3.md), so the brand page needs no new fetch for the founding
+    line. Catalogue visible on the home page includes a BTWN Skincare Set at 69.00
+    and a Tween and Teen Skincare Starter Kit at 52.00. The page's real job is to
+    link to the tween-and-teen-skincare goal hub, which already exists, and to attribute
+    every pledge claim (allergen avoidant, Credo dirty list compliant, no silicones
+    or synthetic fragrance) as the brand's own rather than as evidence. Lean, under
+    180 words, no founding-history essay.

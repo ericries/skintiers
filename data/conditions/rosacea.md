@@ -184,7 +184,7 @@ videos:
     #skincaretips'
   url: https://www.youtube.com/watch?v=k_SFxS9hBZM
 - creator: John Barbieri, MD
-  creator_slug: john-barbieri-md
+  creator_slug: john-barbieri
   credential: Dermatologist, Department of Dermatology, Brigham and Women's Hospital
   duration: 947
   note: Verified from the video transcript (yt-dlp, read in full); no sponsorship.
@@ -231,7 +231,7 @@ videos:
   title: 'How to use Azelaic acid for Beginners: Dermatologist guide'
   url: https://www.youtube.com/watch?v=mRYMysEjhWs
 - creator: John Barbieri, MD
-  creator_slug: john-barbieri-md
+  creator_slug: john-barbieri
   credential: Dermatologist, Department of Dermatology, Brigham and Women's Hospital
   duration: 602
   note: Verified from the video transcript (yt-dlp, read in full); no sponsorship.

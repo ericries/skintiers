@@ -43,7 +43,7 @@ videos:
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 - title: Nearly half of mineral sunscreens had hidden chemical filters
   creator: John Barbieri, MD
-  creator_slug: john-barbieri-md
+  creator_slug: john-barbieri
   credential: Dermatologist, Department of Dermatology, Brigham and Women's Hospital
   platform: YouTube
   url: https://www.youtube.com/watch?v=Q6CcxuAGbb8

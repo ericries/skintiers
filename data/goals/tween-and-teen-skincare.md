@@ -78,7 +78,7 @@ The advice here is the same whether the tween is a boy or a girl. See a dermatol
 
 ## See Also
 
-[[blackheads-clogged-pores]], [[acne]], [[oily-skin]], [[salicylic-acid]], [[benzoyl-peroxide]], [[moisturizing]], [[minimalist-routine]], [[sunscreen-uv-filters]].
+[[brooke-jeffy]], [[blackheads-clogged-pores]], [[acne]], [[oily-skin]], [[salicylic-acid]], [[benzoyl-peroxide]], [[moisturizing]], [[minimalist-routine]], [[sunscreen-uv-filters]].
 
 ## Sources
 
