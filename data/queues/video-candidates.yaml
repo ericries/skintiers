@@ -13113,7 +13113,8 @@
   conflict: Runs an own-brand practice storefront (Derm Rejuvenation Institute, Shopify); treat specific product picks as commercially incentivized.
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'Rejected: promotional for the creator''s own practice (closes on meeting her for a customized treatment plan) and makes unsupported efficacy claims presented as fact, that pulsed-dye laser achieves complete clinical clearance of basal cells under 2 cm and that Fraxel reduces squamous cell risk. Not relayable even from a HIGH-tier derm.'
 - id: '7697277821374205198'
   title: 'Simple skincare saves skin ✨ #azelaicacid #over30skincare #retinoid #...'
   creator: Ella (@your.estie.ella)

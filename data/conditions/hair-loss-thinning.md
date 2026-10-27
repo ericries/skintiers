@@ -222,6 +222,16 @@ videos:
   thesis: 'Consultant dermatologist Dr Aamna Adel runs through how topical minoxidil is meant to be used, and most of the video is technique rather than product choice: apply it to a dry scalp rather than wet hair, part the hair and get it onto the skin rather than the strands, and use it once or twice daily without breaks, because stopping reverses any regrowth over the following months. She describes minoxidil as working by widening blood vessels and extending the growth phase of the hair cycle, which is the conventional explanation, and is clear that it does not create new follicles. On formats she says foam avoids the propylene glycol that makes the liquid irritating, and that the old split of 2 percent for women and 5 percent for men is outdated, with 5 percent giving faster results in most studies at the cost of more irritation; she names Kirkland as the budget option and says the active matters rather than the packaging. She also warns that shedding at roughly weeks two to eight is
     expected rather than a reason to quit, and that sudden or patchy loss needs a doctor rather than a bottle.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: 'How to Use Minoxidil: Results, Mistakes & Pet Safety'
+  creator: Dr. Daniel Sugai
+  creator_slug: daniel-sugai
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=pkcu8P_WGDc
+  posted: '2026-10-17'
+  related: [frontal-fibrosing-alopecia]
+  thesis: Board-certified dermatologist Dr. Daniel Sugai walks through how to actually use topical minoxidil for hair loss. He recommends 5% for both men and women, prefers foam over solution because the propylene glycol in solutions is a common scalp irritant, and shows applying a thin film along a visible part rather than letting it run onto the forehead, where it can grow stray hairs. On timing, he describes a dread shed in the first 2 to 8 weeks as follicles shift back into the growth phase, says shedding that continues past 8 weeks warrants seeing a dermatologist, and frames holding on to existing hairs as the goal with regrowth as a bonus. He also warns that a viewer lost a cat after accidental minoxidil exposure, so hands should be washed thoroughly after every application, and notes that switching to oral minoxidil is a prescription decision that is not open to everyone.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

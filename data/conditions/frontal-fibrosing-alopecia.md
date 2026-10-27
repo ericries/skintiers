@@ -6,6 +6,18 @@ slug: frontal-fibrosing-alopecia
 status: published
 type: condition
 updated: '2026-09-17'
+videos:
+- title: Does Sunscreen Cause Hair Loss? Dermatologist Explains the Research
+  creator: Andrea Suarez (Dr Dray)
+  creator_slug: andrea-suarez-dr-dray
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=l7vGlivI_Q8
+  posted: '2026-10-17'
+  related: [sunscreen-uv-filters, titanium-dioxide, hair-loss-thinning]
+  thesis: Answering a viewer question, board-certified dermatologist Andrea Suarez takes on the claim that putting sunscreen on the hairline causes hair loss. She says there is no direct evidence that it does, and that what exists is a reported association between sunscreen use and frontal fibrosing alopecia rather than a demonstrated cause. She notes research has looked at titanium dioxide in sunscreens as a possible culprit and found titanium dioxide in the follicle, but repeats that association does not prove causation. Her bottom line is that avoiding sunscreen is not a recommended way to prevent this type of hair loss.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Frontal fibrosing alopecia (FFA) is a scarring form of hair loss that pulls the frontal and temple hairline backward over years, most often in women past menopause.[^statpearls] It destroys the hair follicle itself, so the hair it takes does not grow back, and it is a genuine medical disease rather than a skincare concern. This page covers what FFA is and how it is recognized; the treatment that actually affects it is prescription-led and belongs with a dermatologist, not a topical routine.
