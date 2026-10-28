@@ -5324,7 +5324,8 @@
   conflict: Self-describes as a "Key Opinion Leader for industry beauty companies" (per her own practice bio) and most sampled TikTok videos e; no YouTube; TikTok/IG intake
   posted: '2026-09-18'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'Rejected: comment-gated funnel (Comment LONGEVITY for the full list of derm-approved products) from a self-described Key Opinion Leader for beauty companies. Third rejection on this pattern from this creator.'
 - id: 2485HrH7730
   title: '#190) Chemists Test 7 CE Ferulic Dupes vs. the Original | Chemist Confessions Podcast'
   creator: Chemist Confessions (Victoria Fu and Gloria Lu)
@@ -5456,7 +5457,8 @@
   conflict: Founder/owner of active postpartum skincare brand "More Than Nine" (cleanser, exfoliator, moisturizer, balm) — an ongoing own-bran
   posted: '2026-09-18'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'Rejected: postpartum skin-change clip from the founder/owner of the postpartum brand More Than Nine, whose products are the obvious destination. Third rejection on own-brand grounds from this creator.'
 - id: KgJ3pIcFtSI
   title: Dermatologist Reacts to the Craziest Skincare Videos I Saw This Week
   creator: Dr. Aleksandra Brown, DO, FAAD
@@ -14630,7 +14632,8 @@
   conflict: null
   posted: '2026-10-27'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'Rejected: 6 seconds, far under the ~25s floor. The caption is substantive but the clip itself is too thin to ground a thesis in the transcript. Creator has no conflict and is HIGH tier, so re-queue any longer upload.'
 - id: '7701588699678575893'
   title: Did you know you’re actually supposed to use your azelaic acid twice ...
   creator: Hannah English (@ms_hannah_e / Hannah Collingwood English)
@@ -14682,7 +14685,8 @@
   conflict: runs an Amazon affiliate storefront and does sponsored posts - strongly prefer educational / how-to / ingredient-explainer videos; be very cautious with any product recommendation
   posted: '2026-10-27'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'Rejected: the caption''s Mentioned section tags @dear, Klairs (Blue Youth Activating Drop) and @dr.althea (Retinol Serum) by product name, making this a two-product comparison rather than an ingredient explainer, from a creator with an Amazon affiliate storefront and sponsored-post history. Second clip of hers caught this way by reading the full caption; the truncated title looked educational both times.'
 - id: '7701411322923142430'
   title: Skin changes can happen for so many reasons, and sometimes it’s not a...
   creator: Dr. Mamina Turegano
@@ -14695,7 +14699,8 @@
   conflict: null
   posted: '2026-10-27'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'Rejected: NO ENGLISH TRANSCRIPT available (yt_transcript returned the no-transcript marker), so the clip cannot be read and must not be cited. 252s and a clean caption with no conflict, so it is a genuine loss; re-queue if subtitles appear later.'
 - id: oBADC8iQgGg
   title: I used to believe these haircare myths...
   creator: Michelle Wong (Lab Muffin)
@@ -14748,7 +14753,8 @@
   conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan and reject any sponsored/affiliate/gifted video
   posted: '2026-10-27'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'Rejected: caption tags @Revision Skincare, @byoma and @anua_global on a favourites routine, so the picks are promotional.'
 - id: '7701381576822738189'
   title: 'Now the real question….leave the trim white or paint it pink too?? #b...'
   creator: Ella (@your.estie.ella)

@@ -64,7 +64,7 @@
   tier: MED
   channel: https://www.tiktok.com/@kristingl
   conflict: runs an Amazon affiliate storefront and does sponsored posts - strongly prefer educational / how-to / ingredient-explainer videos; be very cautious with any product recommendation
-  last_pulled: '2026-10-24'
+  last_pulled: '2026-10-28'
 - name: Ella (@your.estie.ella)
   creator_slug: your-estie-ella
   credential: Licensed esthetician (NOT a dermatologist or cosmetic chemist)
@@ -265,7 +265,7 @@
   channel: https://www.tiktok.com/@dr.mamina
   product_recs: restricted
   conflict: null
-  last_pulled: '2026-10-24'
+  last_pulled: '2026-10-28'
 - name: Ranella Hirsch
   creator_slug: ranella-hirsch
   credential: Board-certified dermatologist (MD, FAAD)
@@ -281,7 +281,7 @@
   channel: https://www.tiktok.com/@dermydoctor
   product_recs: restricted
   conflict: null
-  last_pulled: '2026-10-26'
+  last_pulled: '2026-10-28'
 - name: Dr. Michelle Henry, MD FAAD
   creator_slug: michelle-henry-md-faad
   credential: Board-certified dermatologist
