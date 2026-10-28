@@ -52,6 +52,17 @@ videos:
   related: [seborrheic-dermatitis, selenium-sulfide, ketoconazole, salicylic-acid]
   thesis: 'Board-certified dermatologist Dr. Joyce Park explains that dandruff is the scalp form of seborrheic dermatitis, an inflammatory scaly condition of oil-rich areas (scalp, eyebrows, sides of the nose, chest) thought to be driven by Malassezia yeast and worsened by stress. She lays out an over-the-counter-first treatment ladder: rotate antifungal or anti-inflammatory shampoos with different actives (pyrithione zinc, selenium sulfide, ketoconazole) and a salicylic acid shampoo to lift flakes, leaving each on for three to five minutes, and for facial involvement a short course of over-the-counter hydrocortisone mixed with an antifungal cream. She notes prescription options like ketoconazole at higher strength or non-steroid calcineurin inhibitors only if the drugstore ladder fails.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: How to Treat Dandruff at Home - and Why Your Shampoo Isn't Working
+  creator: Dr. Brooke Jeffy
+  creator_slug: brooke-jeffy
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=FQysJjwh8pg
+  posted: '2026-10-19'
+  related: [seborrheic-dermatitis, salicylic-acid, ketoconazole, zinc-pyrithione, selenium-sulfide]
+  thesis: Board-certified dermatologist Dr. Brooke Jeffy explains why dandruff shampoo often fails, and her first correction is that flaking usually does not mean the scalp is dry, so reaching for oil is the wrong move. Dandruff is the same condition a dermatologist calls seborrheic dermatitis, driven by an interaction between the Malassezia yeast that normally lives on skin and the oils on the scalp, and it can show up on the face around the nose and brows and in the beard. On actives she separates the antifungals, ketoconazole (sold at 1% without prescription as Nizoral), selenium sulfide and zinc pyrithione, which all work against that yeast, from salicylic acid, which lifts stuck scale but does not manage the yeast and so works as a complement rather than a replacement. Her practical points are that the ketoconazole label runs every three to four days for up to eight weeks with maximum benefit around six weeks, and that patients should not stop when the flaking clears but keep using
+    it a few times a week to prevent it coming back.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

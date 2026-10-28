@@ -12085,7 +12085,8 @@
   conflict: Runs a paid cosmetics-industry consulting/science-communication practice (BeautySciComm, e-summits, mentorship cohorts) and is Patreon-suppo
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'Deferred FIVE times and now resolved rather than left to churn: 84 minutes, three speakers, roundtable format. Transcript cost and speaker attribution make it unsuitable for a bounded daily tick, and attributing a claim to the wrong panelist is the exact failure mode to avoid. Re-queue deliberately with a real budget if formaldehyde-in-cosmetics becomes a page topic; do not re-list it here.'
 - id: '7696258915511667981'
   title: 'Save this skincare cheat sheet #skincare #skincaretips #skincare101 '
   creator: Jenn Lexi (@jennlexi_)
@@ -13207,7 +13208,8 @@
   conflict: Founder of own-brand skincare line (Skin Rocks); recent upload mix is dominated by PR-gifted product unboxings and empties (haul-adjacent fo
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'Rejected: long-form interview (Chats with C) rather than single-topic education, from a creator who founds her own skincare line (Skin Rocks) and whose recent upload mix is dominated by PR-gifted unboxings and empties.'
 - id: HSHFkMz92cE
   title: The First New Hair Loss Drugs in 30 Years (Dermatologist Review)
   creator: Dr. Dustin Portela
@@ -13233,7 +13235,8 @@
   conflict: has an own-brand line (Selfless) and does sponsorships - educational content only, never treat picks as endorsements, never use sponsored videos
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'Rejected: retailer commentary (The Truth About Olive Young) with no single-topic page match, from a creator with an own-brand line (Selfless) who does sponsorships.'
 - id: mAP-tFejRFM
   title: Kendall Jenner's Skincare Ad, Caudalie's Hair Growth Claims & More Beauty Drama 😭
   creator: James Welsh
@@ -13246,7 +13249,8 @@
   conflict: does sponsorships - educational content only, never treat picks as endorsements, never use sponsored videos
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'Rejected: beauty-industry gossip roundup covering several unrelated stories; not single-topic and nothing on it is relayable as evidence.'
 - id: '7698077681249701133'
   title: 'PRO TIP: dry skin types can use any of these active moisturizers as a...'
   creator: Kristin Leite (kristingl)
@@ -13273,7 +13277,8 @@
   conflict: Runs a "Shop my Favorites" affiliate storefront (linktr.ee/dermatologysurgeon) that monetizes her product picks; no own-brand prod
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'Rejected: short stitch-format drugstore product routine from a creator who runs a Shop my Favorites affiliate storefront monetizing her picks, so the recommendations are treated as effectively paid.'
 - id: 1koIOQ1hRwY
   title: 'rating viral hair growth products #hairgrowth stitch with _anacampos'
   creator: Dr. Neera Nathan

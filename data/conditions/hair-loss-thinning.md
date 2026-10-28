@@ -232,6 +232,17 @@ videos:
   related: [frontal-fibrosing-alopecia]
   thesis: Board-certified dermatologist Dr. Daniel Sugai walks through how to actually use topical minoxidil for hair loss. He recommends 5% for both men and women, prefers foam over solution because the propylene glycol in solutions is a common scalp irritant, and shows applying a thin film along a visible part rather than letting it run onto the forehead, where it can grow stray hairs. On timing, he describes a dread shed in the first 2 to 8 weeks as follicles shift back into the growth phase, says shedding that continues past 8 weeks warrants seeing a dermatologist, and frames holding on to existing hairs as the goal with regrowth as a bonus. He also warns that a viewer lost a cat after accidental minoxidil exposure, so hands should be washed thoroughly after every application, and notes that switching to oral minoxidil is a prescription decision that is not open to everyone.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: The First New Hair Loss Drugs in 30 Years (Dermatologist Review)
+  creator: Dr. Dustin Portela
+  creator_slug: dustin-portela
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=HSHFkMz92cE
+  posted: '2026-10-18'
+  related: [clascoterone, frontal-fibrosing-alopecia]
+  thesis: 'Board-certified dermatologist Dr. Dustin Portela walks through the three pattern-hair-loss drugs currently in placebo-controlled trials, opening with the ground rule that none of them is FDA-approved for hair loss yet and that the only real access is through a regulated study. Closest to approval is topical clascoterone, the same molecule already approved at 1% as the acne cream Winlevi, being tested as a 5% scalp solution in two phase three studies of 1,465 men across 51 sites; he warns specifically against rubbing Winlevi on your scalp in the meantime because the formulation and strength differ. The sharpest moment is his handling of the headline number: one trial was announced as a 539% relative improvement in hair count against placebo while the other showed 168%, and he stops to ask relative to what, which is the question a percentage like that is designed to discourage. The second candidate is an extended-release oral minoxidil tablet, which he says has the strongest published
+    numbers so far, and the third is PP405 from Pelage Pharmaceuticals, built on UCLA stem cell work and aimed at waking dormant follicles, with phase three only starting and realistic approval around 2029. He discloses that he prescribes low-dose oral minoxidil and dutasteride off-label and has no financial ties to any company named.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
