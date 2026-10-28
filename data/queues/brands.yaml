@@ -598,3 +598,16 @@
     180 words whose job is to link currentbody-skin-rf and whatever sensiLift pages
     get built, and to record that the applicant name on the file is not the name on
     the box. openFDA route only; do not spend a metered call.'
+- name: Omnilux
+  type: brand
+  priority: 4
+  status: pending
+  discovered_from: omnilux-clear-u
+  source: 'LEAN discovery aid for a brand with a genuinely unusual disclosure record:
+    all 8 Omnilux clearances in openFDA are published as SUMMARIES rather than Statements,
+    the opposite of FOREO''s 8-of-10 Statements. It also spans three corporate entities,
+    Photo Therapeutics Limited (UK, first five filings), Photo Therapeutics Inc (Carlsbad
+    CA, next two) and Globalmed Technologies (Napa CA, K210948 in 2021), so the name
+    on the box today is not the company that filed the older devices. Under 180 words,
+    no founding-history essay; its job is to link omnilux-clear-u and whatever Omnilux
+    CLEAR page gets built, and to record the entity change. openFDA only.'

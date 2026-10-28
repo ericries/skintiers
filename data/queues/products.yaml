@@ -3496,7 +3496,7 @@
 - name: Omnilux Clear-U Acne Treatment System (PhotoTherapeutics, K081307)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: illumask-acne-light-therapy-mask
   source: 'The predicate BENEATH the illuMask, named verbatim in K123999 as ''Omnilux
     Clear-U Acne Treatment System. Manufactured by PhotoTherapeutics, Ltd.'' with
@@ -4470,3 +4470,30 @@
     preliminary evidence, and it should check whether the product is regulated as
     a medical device, since the trial calls the comparator arm a skin care regime
     and this one a dressing.'
+- name: Omnilux CLEAR (K210948, Globalmed Technologies)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: omnilux-clear-u
+  source: 'The CURRENT Omnilux acne device and the direct successor to the 2009 Clear-U,
+    verified in openFDA as K210948, cleared 2021-06-24, applicant Globalmed Technologies
+    of Napa CA, product code OLP, published as a Summary so the basis is readable.
+    Build it as the before-and-after of this category: read whether a 2021 filing
+    in the same product code does any better than the 2009 one, whose entire Performance
+    Data section is two comprehension tests of the labelling and which publishes no
+    dose. Specifically check for mW/cm2, J/cm2 and any clinical study, since that
+    is exactly what the predecessor lacks. accessdata.fda.gov with a browser user-agent
+    plus the current brand storefront for price and claims; no metered call.'
+- name: Omnilux NEW-U (K072459)
+  type: product
+  priority: 3
+  status: pending
+  discovered_from: omnilux-clear-u
+  source: The anti-ageing sibling of the Clear-U, verified in openFDA as K072459,
+    cleared 2008-03-03, Photo Therapeutics Inc, product code OHS (the same over-the-counter
+    LED code used by the TheraFace and dpl devices already covered here), published
+    as a Summary. Lower priority because it is an older discontinued device, but worth
+    a page if the Summary turns out to publish a dose or a clinical study, which would
+    make it the strongest file in the Omnilux set and a direct contrast with the Clear-U.
+    Read the Summary FIRST and drop the item if it contains neither. accessdata.fda.gov
+    with a browser user-agent.
