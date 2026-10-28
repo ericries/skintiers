@@ -1686,7 +1686,7 @@
     sunscreen filter references)'
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: null
 - name: 'Tralokinumab (Adbry/Adtralza; anti-IL-13 injectable biologic for moderate-to-severe
@@ -3051,3 +3051,20 @@
     them in head-to-head data rather than restating the class mechanism, and should
     link out to otc-antifungals-by-evidence for the ranking. Set a tier: matching
     the rubric. DailyMed plus PubMed route, no metered call.'
+- name: Cinoxate, dioxybenzone, padimate O and sulisobenzone (the uncovered Category
+    III filters)
+  type: ingredient
+  priority: 4
+  status: pending
+  discovered_from: menthyl-anthranilate
+  source: 'Four of the twelve filters FDA proposed as Category III in the 2019 sunscreen
+    rule have no page here: cinoxate, dioxybenzone, padimate O and sulisobenzone.
+    The site covers avobenzone, homosalate, octinoxate, octisalate, octocrylene, oxybenzone
+    and ensulizole, and now meradimate. Build them as a SET rather than one at a time,
+    because the shared fact is the same verbatim sentence from Federal Register 2019-03019
+    (verified 2026-10-28) placing all twelve in Category III, with cinoxate, dioxybenzone,
+    padimate O and sulisobenzone also in the narrower most-significant-data-gaps subgroup
+    alongside meradimate. Each page needs its own 21 CFR 352.10 ceiling (cinoxate
+    3%, dioxybenzone 3%, padimate O 8%) and its own openFDA count of products still
+    using it; expect several to be nearly extinct, which is the interesting finding.
+    Set tier: from the rubric; expect weak. eCFR plus openFDA, no metered call.'

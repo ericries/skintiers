@@ -80,7 +80,7 @@ Label and marketing terms attributed to the brand:
 
 ## See Also
 
-[[la-roche-posay-toleriane-double-repair-uv-spf-30]] [[cerave-pm-facial-moisturizing-lotion]] [[sunscreen-uv-filters]] [[ceramides]] [[niacinamide]] [[cerave]]
+[[la-roche-posay-toleriane-double-repair-uv-spf-30]] [[cerave-pm-facial-moisturizing-lotion]] [[sunscreen-uv-filters]] [[menthyl-anthranilate]] [[ceramides]] [[niacinamide]] [[cerave]]
 
 ## Where to Buy
 

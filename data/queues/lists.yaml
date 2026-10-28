@@ -855,3 +855,20 @@
     already explains, so this list would be the applied table rather than a re-explanation.
     Build only AFTER at least one more device page publishes a figure, and show the
     arithmetic as the site''s own rather than the files''.'
+- name: US sunscreen filters by what FDA's 2019 rule proposed
+  type: list
+  priority: 4
+  status: pending
+  discovered_from: menthyl-anthranilate
+  source: 'Now buildable from one primary document. Federal Register 2019-03019 (the
+    2019 sunscreen proposed rule, fetched and text-extracted 2026-10-28) sorts every
+    US sunscreen filter into three proposed groups: GRASE (zinc oxide and titanium
+    dioxide), Category II (PABA and trolamine salicylate, proposed NOT generally recognised
+    as safe and effective), and Category III, the twelve with insufficient data, of
+    which ten are singled out as having the most significant gaps in the record. The
+    site now has pages for most of them. The list''s job is the thing no sunscreen
+    aisle tells you: approval status and evidence status are different axes, and two
+    filters in the same bottle can sit on opposite sides. Keep it strictly descriptive
+    of what the rule proposes, note that it is a PROPOSED rule rather than a settled
+    determination, and do NOT turn it into an avoid-these list; the finished product''s
+    tested SPF is still a tested SPF.'
