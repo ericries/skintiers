@@ -81,7 +81,7 @@ Not addressed here, and no price is quoted, for the reason given above.
 
 ## See Also
 
-[[dpl-nuve]], [[dpl-faceware]], [[dpl-spotlite]], [[dpl]], [[home-led-light-therapy]], [[home-led-devices-by-what-the-file-publishes]], [[led-dose-j-per-cm2-and-wavelength]], [[home-use-skincare-devices-by-evidence]], [[fda-approved-vs-cleared-skincare]], [[anti-aging]].
+[[dpl-iia-panel]], [[dpl-spectralite]], [[dpl-nuve]], [[dpl-faceware]], [[dpl-spotlite]], [[dpl]], [[home-led-light-therapy]], [[home-led-devices-by-what-the-file-publishes]], [[led-dose-j-per-cm2-and-wavelength]], [[home-use-skincare-devices-by-evidence]], [[fda-approved-vs-cleared-skincare]], [[anti-aging]].
 
 ## Sources
 

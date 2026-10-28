@@ -27,6 +27,7 @@ The FDA record is the usable source instead. LED Technologies holds 15 device cl
 - [[dpl-nuve]]: a 2010 clearance whose Summary names no irradiance, treatment area or wavelength heading at all.
 - [[dpl-ii-panel]]: a 2017 full-face panel cleared for wrinkles, and one of three filings from this firm the site has read that publish an actual irradiance figure.
 - [[dpl-spectralite]]: its battery-powered sibling, cleared four days later for the eye area only, from a predicate that covered the whole face.
+- [[dpl-iia-panel]]: the 2018 successor to the II Panel, which adds a blue LED and an acne claim while dropping the irradiance figure its predecessor published.
 
 What the firm publishes against its rivals is ranked on [[home-led-devices-by-what-the-file-publishes]].
 

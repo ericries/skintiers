@@ -3539,7 +3539,7 @@
 - name: dpl IIa Panel (LED Technologies, K180320)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: 'Named as a PREDICATE in the K183247 dpl Faceware Summary read for dpl-faceware
     on 2026-10-21, and the most load-bearing of the three: its chart entry shows it
@@ -4553,3 +4553,31 @@
     SPL for the miconazole cream specifically and confirm its Uses text, since the
     clotrimazole label examined for the existing page claims ringworm but not athlete''s
     foot. DailyMed route.'
+- name: Silk'n Blue (K121435, blue-light acne handheld)
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: dpl-iia-panel
+  source: openFDA K121435, cleared 2013-02-22, product code OLP, applicant 'Home Skinovations
+    , Ltd.' (the Silk'n applicant the site already documents on silkn and silkn-titan-allways).
+    It is one of the three handheld acne predicates the dpl IIa Panel cites, and the
+    comparison chart in K180320 gives it a treatment area of 7 cm2 against the panel's
+    415 cm2, verified 2026-10-28. Worth a page because the blue-light acne equivalence
+    chain for a whole-face panel runs back through spot devices like this one, and
+    reading K121435 directly would show whether the original filing contains any clinical
+    data the panel inherited by reference. Note the dpl filing spells it 'Silkin Blue';
+    the openFDA device name is SILKN BLUE. accessdata.fda.gov with a browser user-agent.
+- name: Tanda Mini (K124042, blue-light acne handheld)
+  type: product
+  priority: 3
+  status: pending
+  discovered_from: dpl-iia-panel
+  source: openFDA K124042, one of the three handheld blue-light acne predicates named
+    in the dpl IIa Panel filing, with a treatment area of 3.37 cm2 and a regimen of
+    90 seconds twice daily per the K180320 comparison chart (verified 2026-10-28).
+    The site has no Tanda page at all despite the brand recurring as a predicate across
+    this category, including in the dpl Nuve chain. Read K124042 directly and check
+    specifically whether it contains clinical data, since several devices on this
+    site inherit their acne equivalence from filings like this one without any of
+    them publishing a study. Drop the item if the file turns out to be a Statement
+    that publishes nothing.
