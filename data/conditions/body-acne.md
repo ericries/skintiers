@@ -77,6 +77,17 @@ videos:
   thesis: Board-certified dermatologist Dr. Sam Ellis lists five things she says she would never do to her own skin or hair, and the one most relevant to body acne is her warning about Hibiclens. Hibiclens is a surgical antiseptic wash whose active ingredient is chlorhexidine, and she says it has spread through social media as a hack for body acne and body odour because it kills bacteria well. Her objection is a risk-versus-benefit one, because chlorhexidine is toxic to the eyes and the middle ear, and while she notes it would take a fairly substantial exposure to cause harm, she sees no reason to take that risk at home. For body acne and body odour she points to benzoyl peroxide instead, which she describes as well proven and safe to use near the eyes and ears. The other four cover popping pimples in the triangle of danger between the nose and mouth corners, the lime-and-sunlight rash phytophotodermatitis, the mottled erythema ab igne rash from prolonged heating-pad use, and why habitually
     sleeping with wet hair encourages breakage and scalp yeast.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: 'Buttock acne, dark spots, painful bumps: causes and treatment'
+  creator: Dr. Aanchal MD
+  creator_slug: dr-aanchal-md
+  credential: Dr. Aanchal Panth, MD Dermatology, Venereology and Leprosy (AIIMS New Delhi), MBBS (Manipal); consultant dermatologist, Surat, India; IADVL member
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=I2-Ta9xl6RE
+  posted: '2026-10-20'
+  related: [hyperpigmentation, folliculitis, salicylic-acid, benzoyl-peroxide, acne, isotretinoin]
+  thesis: 'Consultant dermatologist Dr. Aanchal Panth explains why skin on the buttocks darkens and what the bumps there usually are, and she opens by narrowing the problem rather than widening it: any area under friction darkens, sitting all day means fabric rubs, and she says plainly that slight darkening is normal and needs nothing done to it. She is explicit that she worries about instilling insecurity about an area that does not require any, and aims the video at people with significant darkening of roughly three to four shades. The mechanism she describes for the spots is post-inflammatory hyperpigmentation, where acne, post-waxing folliculitis or a furuncle heals leaving multiple small dark marks. Her treatment order is to treat the underlying cause first, which for painful or extensive acne can mean oral medication, with a salicylic acid lotion or benzoyl peroxide wash alongside it, and she warns that results take roughly three to six months because skin in that area has to be treated
+    gently. She specifically flags scrubs and irritating home remedies as making it worse.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

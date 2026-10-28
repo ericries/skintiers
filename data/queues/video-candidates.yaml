@@ -13575,7 +13575,8 @@
   conflict: Founder of own-brand skincare line (Skin Rocks); recent upload mix is dominated by PR-gifted product unboxings and empties (haul-adjacent fo
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'Rejected: travel vlog (LA VLOG) with no skincare topic to attach to, from a creator with an own-brand line and a PR-gifted upload mix.'
 - id: '7698737852359707917'
   title: 'Say it with me: sunscreen is NOT a seasonal product. 👀 ☀️ I know it i...'
   creator: Fatima Fahs
@@ -13656,7 +13657,8 @@
   conflict: Runs a "Shop my Favorites" affiliate storefront (linktr.ee/dermatologysurgeon) that monetizes her product picks; no own-brand prod
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'Rejected: product haul (#skincarehaul, dollar tree repurchases) from a creator who runs a Shop my Favorites affiliate storefront monetizing her picks, so the recommendations are treated as effectively paid.'
 - id: 7LHB4Zr2wdU
   title: 'Regenerate Peptide Serum | Derm & Rejuvenation Institute '
   creator: Tanya Kormeili, MD, FAAD
@@ -13669,7 +13671,8 @@
   conflict: Runs an own-brand practice storefront (Derm Rejuvenation Institute, Shopify); treat specific product picks as commercially incentivized.
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'Rejected: promotion of a peptide serum sold through her own practice storefront (Derm Rejuvenation Institute); own-brand product promo.'
 - id: HdM3Gk459tA
   title: 'Blemish Fighting Skin Corrective Pads | Derm & Rejuvenation Institute '
   creator: Tanya Kormeili, MD, FAAD
@@ -13762,7 +13765,8 @@
   conflict: Own-brand UPF sun-protective clothing line, SOUL-A (wearsoula.com / @wearsoula), founded and promoted by him — apparel, not topical skincare
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'Rejected: reaction video (#dermreacts) rather than single-topic education; no site page it is about. Second reaction upload from this creator rejected on the same ground.'
 - id: '7699348344388275476'
   title: LOL
   creator: Hannah English (@ms_hannah_e / Hannah Collingwood English)

@@ -44,6 +44,17 @@ videos:
   related: [anti-aging, skin-firmness-elasticity]
   thesis: 'Dermatologist Andrea Suarez, who posts as Dr Dray, answers whether eating gelatin is the same as taking a collagen peptide supplement, a claim that circulates because gelatin is far cheaper. She says the two are nutritionally similar but handled differently by the body: collagen peptides are already hydrolysed into fragments small enough to be absorbed intact and reach the skin, where their proposed mechanism is stimulating fibroblasts to make collagen, while gelatin consists of much larger chains the gut has to break down, so the concentrated dose of small intact peptides never arrives. She is careful about how far she takes it, calling the research on collagen peptides for skin moisture retention promising rather than settled, saying there is some evidence the absorption happens, and stating plainly that she does not recommend supplements and that people should talk to their own doctor.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Does Creatine Cause Hair Loss? Can It Help Your Skin?
+  creator: Andrea Suarez (Dr Dray)
+  creator_slug: andrea-suarez-dr-dray
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=Y8E1jgWq8qA
+  posted: '2026-10-21'
+  related: [hair-loss-thinning, skin-firmness-elasticity, anti-aging]
+  thesis: 'Board-certified dermatologist Andrea Suarez separates the creatine hair-loss scare from what has actually been measured, and sets the standard up front: a plausible biological mechanism is not the same as a benefit demonstrated in people. The fear traces to a 2009 study of male rugby players that observed a rise in DHT, the androgen involved in pattern hair loss, but she points out that the study never measured hair loss at all. A randomised controlled trial published in 2025 tested the question directly, giving resistance-trained men 5 g of creatine monohydrate daily or placebo for 12 weeks and assessing hormone levels alongside hair measures, and found no significant difference between the groups in DHT or in the hair outcomes measured. She calls that reassuring while declining to treat it as proof that creatine can never affect anyone. On skin she keeps oral and topical separate, noting a 2025 literature review that identified several small studies of topical creatine formulations
+    with treatment periods of roughly two to eight weeks, one of which applied a creatine-containing formulation to men''s faces twice daily for six weeks and reported imaging-based improvements in jowl volume and in the appearance of ageing signs.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

@@ -32,7 +32,7 @@
   tier: HIGH
   channel: https://www.youtube.com/@DrDrayzday/videos
   conflict: null
-  last_pulled: '2026-10-27'
+  last_pulled: '2026-10-28'
 - name: Dr. Muneeb Shah (DermDoctor)
   creator_slug: muneeb-shah
   backfill_cursor: 9999
@@ -528,7 +528,7 @@
   channel: https://www.youtube.com/channel/UCMTl80jTQwGkO335HoVf0ig/videos
   conflict: Maintains a Nykaa curated affiliate storefront; treat specific product picks as commercially incentivized (educational/mechanism content is fine).
   product_recs: restricted
-  last_pulled: '2026-09-13'
+  last_pulled: '2026-10-28'
 - name: Dr. Neal Schultz (DermTV)
   creator_slug: neal-schultz
   backfill_cursor: 15
