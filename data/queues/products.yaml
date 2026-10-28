@@ -4581,3 +4581,18 @@
     site inherit their acne equivalence from filings like this one without any of
     them publishing a study. Drop the item if the file turns out to be a Statement
     that publishes nothing.
+- name: El Global Trade DeepSkin DEP100 (K252621)
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: currentbody
+  source: 'openFDA K252621, El Global Trade Ltd., decision 2026-05-08, product code
+    NFO, published as a Summary (verified 2026-10-28). NFO is the microcurrent code
+    the site already covers via nuface-trinity-microcurrent-device and theraface-microcurrent,
+    so this is a new entrant in a category the site can compare it against. It is
+    also the firm''s MOST RECENT filing, which makes it the best test of whether El
+    Global Trade''s disclosure habits improved: the CurrentBody Skin RF file (K232424)
+    states outright that no clinical testing was performed. Check specifically for
+    a clinical study, an output figure in microamps, and whether it is sold under
+    the CurrentBody name or one of the firm''s own brands. accessdata.fda.gov with
+    a browser user-agent.'

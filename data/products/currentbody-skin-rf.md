@@ -85,7 +85,7 @@ CurrentBody sells it directly: $385.99 for the device, $448.99 for the RF Specia
 
 ## See Also
 
-[[home-radiofrequency-skin-tightening]], [[silkn-titan-allways]], [[newa-skin-therapy-system]], [[home-use-skincare-devices-by-evidence]], [[fda-approved-vs-cleared-skincare]], [[anti-aging]], [[skin-firmness-elasticity]].
+[[currentbody]] [[home-radiofrequency-skin-tightening]], [[silkn-titan-allways]], [[newa-skin-therapy-system]], [[home-use-skincare-devices-by-evidence]], [[fda-approved-vs-cleared-skincare]], [[anti-aging]], [[skin-firmness-elasticity]].
 
 ## Sources
 

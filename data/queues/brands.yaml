@@ -473,7 +473,7 @@
 - name: CurrentBody
   type: brand
   priority: 5
-  status: pending
+  status: done
   discovered_from: currentbody-skin-rf
   source: 'the new product page sets brand: CurrentBody with no brand page; the store
     also sells LED face, neck, eye and hand masks and an RF microneedling device,
@@ -597,7 +597,16 @@
     cannot read two shelf-neighbours as independent competitors. LEAN brand page under
     180 words whose job is to link currentbody-skin-rf and whatever sensiLift pages
     get built, and to record that the applicant name on the file is not the name on
-    the box. openFDA route only; do not spend a metered call.'
+    the box. openFDA route only; do not spend a metered call. SUPERSEDED in large
+    part by the currentbody brand page shipped 2026-10-28, which already records the
+    applicant split: El Global Trade, Ltd. of Netanya, Israel holds 12 clearances,
+    all Summaries, including the CurrentBody Skin RF (K232424), sensiLift (K170499)
+    and Sensilift Pro (K250341), and only one of the twelve carries the CurrentBody
+    name. A separate El Global Trade page would now duplicate that unless it does
+    something the brand page cannot: cover the sensiLight and IPL hair-removal line
+    (OHT code, seven filings) and the sensiFirm / RF-Relief pair (PBX), which the
+    CurrentBody page deliberately leaves alone. Decide that before building; if the
+    answer is no, resolve this item as a duplicate.'
 - name: Omnilux
   type: brand
   priority: 4

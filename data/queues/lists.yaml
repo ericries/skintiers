@@ -872,3 +872,19 @@
     of what the rule proposes, note that it is a PROPOSED rule rather than a settled
     determination, and do NOT turn it into an avoid-these list; the finished product''s
     tested SPF is still a tested SPF.'
+- name: One FDA applicant, several shelf brands
+  type: list
+  priority: 3
+  status: pending
+  discovered_from: currentbody
+  source: 'The site now documents FOUR separate cases of one FDA applicant filing
+    under several consumer brand names, each verified from openFDA: LED Technologies
+    files dpl and reVive (15 clearances); Home Skinovations and Silk''N Beauty file
+    Silk''n (16); Theragun and Therabody file TheraFace (5); and El Global Trade of
+    Netanya files CurrentBody plus sensiLight, sensiLift, sensiFirm, RF-Relief, IPL400
+    and DeepSkin (12). That is a real, repeatable finding with a practical use: a
+    shopper comparing two devices on a shelf may be comparing two products from the
+    same manufacturer. Build it as a straight table of applicant versus brand names
+    with clearance counts, cite openFDA per row, and keep it descriptive. Do NOT imply
+    anything improper; filing under a licensee or retailer brand is ordinary. The
+    honest point is only that the brand name is not an independence signal.'
