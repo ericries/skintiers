@@ -13332,7 +13332,8 @@
   conflict: null
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'Rejected under the gifting rule: in the transcript she says of one of the moisturizers ''Purito actually sent this to me. They sent me two bottles of it.'' That is a disclosed gift, and STEP 3b rejects gifted regardless of disclosure. Worth noting the perverse incentive, since disclosing is the behaviour the rule should reward; flagged for the user rather than overridden.'
 - id: hrxhjBimR3I
   title: 'Chiropractor comes for me #dermreacts  #skincare  #dermatologist #dermangelo  #reactionvideo  '
   creator: Dr. Angelo Landriscina (DermAngelo)
@@ -13345,7 +13346,8 @@
   conflict: Own-brand UPF sun-protective clothing line, SOUL-A (wearsoula.com / @wearsoula), founded and promoted by him — apparel, not topical skincare
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'Rejected: reaction video (#dermreacts, Chiropractor comes for me) rather than single-topic education; no site page it is about.'
 - id: I2-Ta9xl6RE
   title: Buttock acne, dark spots, painful bumps | causes & treatment
   creator: Dr. Aanchal MD
@@ -13464,7 +13466,8 @@
   conflict: Runs a "Shop my Favorites" affiliate storefront (linktr.ee/dermatologysurgeon) that monetizes her product picks; no own-brand prod
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'Rejected: the title itself carries #biolagepartner and tags @Biolage, so it is an explicit paid partnership.'
 - id: bomFPeHsJec
   title: '10/10 body care hacks. Inspo trainwithjk #skincare'
   creator: Dr. Neera Nathan
@@ -13504,7 +13507,8 @@
   conflict: Runs an own-brand practice storefront (Derm Rejuvenation Institute, Shopify); treat specific product picks as commercially incentivized.
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'Rejected: promotional for a tinted SPF sold through her own practice storefront (Derm Rejuvenation Institute); product picks there are commercially incentivized.'
 - id: FymkacOsTgI
   title: '#192) Sheet vs. Hydrogel vs. Peel-Off Masks (and Secret Option #4!) | Chemist Confessions Podcasts'
   creator: Chemist Confessions (Victoria Fu and Gloria Lu)
@@ -13517,7 +13521,8 @@
   conflict: sell a small own-brand product line - skip own-brand promos
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'Rejected: no page match. The site has no sheet-masks or face-mask-format page for a sheet versus hydrogel versus peel-off comparison to attach to. Re-queue if such a hub is ever built; the creators are HIGH-tier cosmetic chemists.'
 - id: '7698932150640430367'
   title: Something’s got to give 🤷🏻‍♀️ There is no way you can do it all when ...
   creator: Dr. Aegean Chan

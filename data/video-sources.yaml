@@ -540,7 +540,7 @@
 - name: Dr. Laura Soong
   creator_slug: laura-soong
   backfill_cursor: 15
-  last_pulled: '2026-10-24'
+  last_pulled: '2026-10-28'
   credential: Board-certified dermatologist
   tier: HIGH
   channel: https://www.youtube.com/channel/UCmc3iF83jLuk_VaqEaNMivQ/videos

@@ -13,6 +13,19 @@ status: published
 tier: best
 type: ingredient
 updated: '2026-10-27'
+videos:
+- title: 'New Eczema Treatments Are Changing Lives: What You NEED to Know'
+  creator: Dr. Laura Soong
+  creator_slug: laura-soong
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=nCkr7B1GtnQ
+  posted: '2025-07-15'
+  related: [atopic-dermatitis, topical-corticosteroids, isotretinoin]
+  thesis: 'Board-certified dermatologist Dr. Laura Soong explains what dupilumab, sold as Dupixent, actually does for severe eczema, and why the treatment picture changed in the last five years. She sets out the mechanism plainly: atopic dermatitis involves excess type 2 inflammation driven by two cytokines, interleukin 4 and interleukin 13, and dupilumab blocks the receptor they bind to. It is approved from six months of age, and she makes a point of explaining that it is injected not because it is aggressive but because it is a protein that the stomach would simply digest, given every two to four weeks depending on age and weight. On results she says response is usually assessed after four months, and that more than half of patients get at least a 75% improvement in their eczema along with substantially less itch and better sleep. On side effects she lists injection site reactions as the most common and usually self-limiting, more frequent cold sores in people prone to them, and eye symptoms
+    including itching, dryness, tearing and redness, with light sensitivity or blurred vision rare. She also flags that some patients develop a persistent facial eczema while on treatment that is harder to treat, and says this is still being understood.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Some of the best-evidenced treatment on this site is a drug you inject, not a cream you buy. Dupilumab is an FDA-**approved** biologic for moderate-to-severe atopic dermatitis and for prurigo nodularis, with three randomised placebo-controlled trials behind the skin indication. It is a prescription systemic medicine and it is not an alternative to a routine; it is what the [[atopic-dermatitis]] and [[prurigo-nodularis]] hubs route severe disease toward.
