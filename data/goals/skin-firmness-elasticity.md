@@ -156,6 +156,17 @@ videos:
   related: [anti-aging, microneedling, fractional-co2-laser-resurfacing, neck-chest-decolletage-care, urea, lactic-acid, retinoids, moisturizing, sun-damage-photoaging, diet-and-skin]
   thesis: 'Dermatologist Dr. Brooke Jeffy explains crepey skin, the thin crinkled texture that turns up on arms, thighs, knees, abdomen, chest, neck and hands, and opens by saying anything claiming to erase it is a lie. Her central point is that three different problems get lumped together and need separating: dry skin, which a good moisturizer can genuinely make look dramatically better; crepey skin, which involves loss and disorganisation of collagen and elastin within the skin itself; and loose skin, which is actual laxity or excess. She is blunt about where that leaves creams, saying hydration plumps the outer layers so fine lines show less but is mostly a temporary improvement in appearance rather than any kind of tightening, that a retinoid needs a minimum of twelve weeks before you judge it, and that past a certain point collagen stimulation cannot overcome excess skin, where surgery rather than a cream or a laser is what addresses the problem.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: What I'm Actually Spending Money On for Collagen Loss
+  creator: Dr. Shereene Idriss
+  creator_slug: shereene-idriss
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=9jNdcS4Fe18
+  posted: '2026-10-17'
+  related: [anti-aging, retinoids, sunscreen-uv-filters, peptides, pdrn, exosomes]
+  thesis: 'Board-certified dermatologist Dr. Shereene Idriss goes through which collagen-loss treatments she pays for at 42 and which she skips, and the framing is a spending argument rather than a product list. Her starting correction is that a face is not only collagen, so what people read in the mirror as collagen loss is often volume and structure instead. The work she says does the heavy lifting is deliberately boring, sunscreen to protect the collagen already there plus a retinoid, which she calls one of the very few things with really strong evidence behind it for collagen production and ageing skin quality. On supplements she is unusually candid: she took collagen supplements daily for almost six months with the rest of her routine stable and saw nothing, while adding that this does not make them definitively useless and that better studies are needed. Peptides, growth factors, PDRN, exosomes and NAD she files as interesting biology that is not the same thing as where she would spend
+    money.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 Firmness and elasticity come from the dermis, the layer beneath the visible surface. Collagen (mainly type I and III) gives skin its structural strength; elastic fibers, made of elastin and fibrillin microfibrils, allow it to stretch and recoil[^2]. Both weaken with age, and years of UV exposure add more damage on top: "aging and chronic sun exposure can weaken the dermis," and chronic UV radiation damages elastic fibers through solar elastosis[^2]. DermNet describes the same UV process as a "multi-hit model" that deposits a "disorganised, elastic-fibre rich matrix"[^1]. The honest framing: topical actives can measurably improve firmness and elasticity at the skin's surface, but they cannot lift or tighten deeper sagging caused by loss of underlying fat pads or bone, which is a structural problem addressed by procedures, not creams[^1].

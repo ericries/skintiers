@@ -11910,7 +11910,8 @@
   conflict: Muneeb Shah runs own skincare brand (Remedy Science) and Scriptable Rx venture featured on the channel
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'Rejected: save-vs-splurge product roundup from a channel where one host runs his own skincare brand (Remedy Science) and a Scriptable Rx venture featured on the same channel. Own-brand conflict on a product-ranking format.'
 - id: EnQauVSdD7s
   title: Is hairline going back? Treatment options, serums, shampoos, procedures
   creator: Dr. Aanchal MD
@@ -11923,7 +11924,8 @@
   conflict: Maintains a Nykaa curated affiliate storefront; treat specific product picks as commercially incentivized (educational/mechanism content is fine).
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'Rejected: hairline-loss video whose stated scope is treatment options, serums, shampoos and procedures, from a creator who maintains a Nykaa curated affiliate storefront, so the product-pick portions are commercially incentivized. Her mechanism-only content remains eligible; re-queue a single-topic educational upload instead.'
 - id: ZcmmXDHdbwU
   title: Do you need korean skin care?
   creator: Dr. Aanchal MD
@@ -12095,7 +12097,8 @@
   conflict: does sponsorships - educational content only, never treat picks as endorsements, never use sponsored videos
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'Rejected: MED-tier creator who does sponsorships, and the title (Why your seasonal skincare routine is a waste of money) is a general-advice framing with no single-topic page match. The minimalist-routine hub already carries a stronger card on routine consistency from a cleaner source.'
 - id: I6pD4c2KRvM
   title: Formaldehyde in Cosmetics!? Roundtable with Gabrielle Dwyer and Joe Zagorski PhD
   creator: Jen Novakovich (The Eco Well)
@@ -13091,7 +13094,8 @@
   conflict: founder of the Prequel skincare brand - skip videos mainly promoting her own products
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'Rejected: vague trend format (Crazy-Effective Weird Beauty Combinations) with no single-topic page match, from a creator who founds the Prequel skincare brand.'
 - id: '7697301533708373279'
   title: 🖇️ Comment LONGEVITY for my FULL guide to the right skincare for skin...
   creator: Dr. Sheila Farhang (dr.sheila_derm)
@@ -13254,7 +13258,8 @@
   conflict: Founder of own-brand haircare line (Rhute); TikTok Shop affiliate/product storefront; recurring disclosed sponsored posts (No7, La Roche Pos
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'Rejected: product ranking (Dermatologist Ranks 10 scalp serums) from a creator who founds an own-brand haircare line (Rhute) and runs a TikTok Shop product storefront, with recurring disclosed sponsored posts. Picks treated as effectively paid under the standing rule.'
 - id: FYg2v6cKGks
   title: Is CeraVe Actually Good? Dermatologist Ranks 19 Products (+ What I’d Skip)
   creator: Dr. Aleksandra Brown, DO, FAAD

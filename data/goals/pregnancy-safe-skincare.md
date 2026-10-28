@@ -90,6 +90,16 @@ videos:
   related: [melasma, hyperpigmentation, retinoids, tretinoin, hydroquinone, salicylic-acid, adapalene, isotretinoin]
   thesis: Board-certified dermatologist Dr. Jenny Liu walks through how to adjust a skincare routine during pregnancy, sorting ingredients into what to avoid, what to use only in limitation, and what is safe to apply freely. She says the two ingredients to avoid with near-certainty are topical retinoids (including prescription tretinoin and tazarotene, over-the-counter adapalene, and retinol or retinaldehyde) and hydroquinone, because oral retinoids like isotretinoin are known to cause birth defects and hydroquinone lacks good pregnancy safety data and can irritate. She notes that salicylic acid is best avoided in high concentrations or all-over body use, though low-strength (2% or less) spot treatment or occasional facial toning is generally considered fine, and she frames pregnancy-related melasma, which she says affects roughly 70% of expecting mothers, as a hormonal change to manage gently rather than treat aggressively.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Is Tretinoin Safe During Pregnancy and Breastfeeding? | Dermatologist Answers
+  creator: Andrea Suarez (Dr Dray)
+  creator_slug: andrea-suarez-dr-dray
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=q7LG_06_4Tc
+  posted: '2026-10-18'
+  related: [tretinoin, retinoids, adapalene, isotretinoin]
+  thesis: 'Answering a viewer question, board-certified dermatologist Andrea Suarez separates two things that often get merged: whether topical retinoids like tretinoin are PROVEN harmful in pregnancy, and why they are nonetheless not recommended. She says there is no established evidence that topical retinoids harm a developing baby, and points to their very low systemic absorption, singling out adapalene as absorbed so little that it was cleared for over-the-counter sale. Her explanation for the blanket advice is that nobody will ever run the study, because deliberately testing for fetal harm is unethical, so the guidance is precautionary rather than evidence-based. She still describes the standing recommendation as avoiding them, and the practical upshot she gives is that the risk is very low rather than that the drug is cleared for use, which is a distinction worth keeping intact when discussing it with a clinician.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
