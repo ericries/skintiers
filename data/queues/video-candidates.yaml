@@ -14568,7 +14568,8 @@
   conflict: Founder/owner of active postpartum skincare brand "More Than Nine" (cleanser, exfoliator, moisturizer, balm) — an ongoing own-bran
   posted: '2026-10-27'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'Rejected: the caption itself promotes her own brand (@More Than Nine started as my way of...), and she is the founder/owner of that postpartum line. Own-brand promotion, not education.'
 - id: ynLNujitnfI
   title: Receding Hairline? What Actually Works to Stop Hair Loss | Dermatologist Explains
   creator: Andrea Suarez (Dr Dray)
@@ -14724,7 +14725,8 @@
   conflict: Self-describes as a "Key Opinion Leader for industry beauty companies" (per her own practice bio) and most sampled TikTok videos e; no YouTube; TikTok/IG intake
   posted: '2026-10-28'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'Rejected: comment-gated engagement bait (Comment DPP to watch this episode) promoting a TV appearance, from a creator who self-describes as a Key Opinion Leader for industry beauty companies. No single-topic skincare content to card.'
 - id: '7701451485149728014'
   title: Favorite exfoliation routine 🥰 @Revision Skincare® @byoma @anua_globa...
   creator: Ella (@your.estie.ella)

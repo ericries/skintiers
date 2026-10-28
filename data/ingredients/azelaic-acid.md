@@ -290,6 +290,17 @@ videos:
   thesis: 'Board-certified dermatologist Dr Jenny Liu answers the social media claim that azelaic acid can replace tretinoin, and her answer is no, with a sympathetic explanation for why people report better skin after switching: they may have found something their skin tolerates rather than something stronger. She splits the two by concern. Tretinoin is her choice for acne and the only one of the two she credits with stimulating collagen, saying azelaic acid has minimal if any benefit there, so anyone whose goal is fine lines or photodamage should stay on it. Azelaic acid is her first line for the inflammatory bumps of rosacea, for pigment in people who cannot tolerate harsher options, and during pregnancy, and she reports that prescription 15 to 20 percent azelaic acid has been studied against hydroquinone with similar efficacy and far less irritation. She also notes azelaic acid is poor at clearing clogged pores, so an exfoliating acid or tretinoin is her first choice for congestion and
     texture.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Are you supposed to use azelaic acid twice a day?
+  creator: Hannah English
+  creator_slug: hannah-english
+  credential: Skincare educator
+  platform: TikTok
+  url: https://www.tiktok.com/@hannahcollingwoodenglish/video/7701588699678575893
+  posted: '2026-10-28'
+  related: [rosacea, acne, melasma, hyperpigmentation, post-inflammatory-erythema, rosacea-papulopustular-treatments-by-evidence]
+  thesis: 'Skincare educator Hannah English checks whether azelaic acid really needs the twice-daily dosing its clinical trials used, and the answer she finds differs by what you are treating. For rosacea there is a direct comparison: a trial of 72 people with papulopustular rosacea ran 15% azelaic acid gel once a day against twice a day and found no statistically significant difference at 12 weeks on redness, visible vessel severity or inflammatory lesions. For acne there is no head-to-head, and she is careful about why the figures look the way they do: a small once-daily study cut inflammatory lesions by 45% over eight weeks, while a larger twice-daily 15% trial cut them by 70%, but that trial ran four months and was sitting at roughly 45% at its own two-month mark. For pigment disorders, trials of 20% once daily do show improvement, with no study comparing it against twice daily. Her conclusion is that twice daily fits how the ingredient behaves in skin and is still the move where tolerated,
+    while consistent once-daily use probably gets some results.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
