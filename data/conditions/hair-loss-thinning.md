@@ -243,6 +243,17 @@ videos:
   thesis: 'Board-certified dermatologist Dr. Dustin Portela walks through the three pattern-hair-loss drugs currently in placebo-controlled trials, opening with the ground rule that none of them is FDA-approved for hair loss yet and that the only real access is through a regulated study. Closest to approval is topical clascoterone, the same molecule already approved at 1% as the acne cream Winlevi, being tested as a 5% scalp solution in two phase three studies of 1,465 men across 51 sites; he warns specifically against rubbing Winlevi on your scalp in the meantime because the formulation and strength differ. The sharpest moment is his handling of the headline number: one trial was announced as a 539% relative improvement in hair count against placebo while the other showed 168%, and he stops to ask relative to what, which is the question a percentage like that is designed to discourage. The second candidate is an extended-release oral minoxidil tablet, which he says has the strongest published
     numbers so far, and the third is PP405 from Pelage Pharmaceuticals, built on UCLA stem cell work and aimed at waking dormant follicles, with phase three only starting and realistic approval around 2029. He discloses that he prescribes low-dose oral minoxidil and dutasteride off-label and has no financial ties to any company named.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: 'Hormonal Hair Thinning in Women: Dermatologist Explains What Actually Works'
+  creator: Dr. Maren Locke (The Budget Dermatologist)
+  creator_slug: maren-locke
+  credential: Board-certified dermatologist and fellowship-trained Mohs surgeon; founder/director of Carlyle Dermatology (Ocala, FL)
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=8oD8A8zmJ-s
+  posted: '2026-03-06'
+  related: [frontal-fibrosing-alopecia, clascoterone]
+  thesis: 'Board-certified dermatologist Dr. Maren Locke takes apart what women usually mean by hormonal hair thinning, starting with the correction that it is a casual term rather than a formal diagnosis: the actual condition is female pattern hair loss, also called androgenetic alopecia. Her central distinction is between shedding and miniaturization. Shedding of 50 to 100 hairs a day is normal, and a sudden heavy increase is usually telogen effluvium after stress, illness, surgery, rapid weight loss, pregnancy or a medication change, which often settles on its own over six to twelve months. Miniaturization is the slower problem, where the follicle survives but each new hair grows back thinner and shorter, so density falls progressively and does not recover by itself. On what to do, she puts a dermatologist examination first, then a lab workup because hair is sensitive to iron or ferritin deficiency, thyroid abnormality and low vitamin D, then adequate daily protein. She calls minoxidil
+    the gold standard and the most proven over-the-counter option because it keeps follicles in the growth phase longer, and notes that for women with signs of androgen sensitivity a dermatologist may add a prescription anti-androgen such as spironolactone alongside it.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
