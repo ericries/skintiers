@@ -677,3 +677,19 @@
     rather than a skincare problem, and route to dupilumab as an approved systemic
     option. Do NOT write a cosmetic angle; there is not one. Keep it tight and check
     the label plus one dermatology review for the clinical description.'
+- name: Post-inflammatory hyperpigmentation (PIH)
+  type: condition
+  priority: 5
+  status: pending
+  discovered_from: post-ablative-laser-aftercare
+  source: 'The site has post-inflammatory-erythema (PIE) but NOT post-inflammatory
+    hyperpigmentation, and PIH has now come up twice in one day from different directions:
+    the Vahabi 2025 axillary systematic review opens by calling it ''a common dermatologic
+    complaint that affects different parts of the body'', and PIH is the complication
+    that makes ablative laser recovery long rather than short. The hub''s job is the
+    distinction readers get wrong, PIE is red and vascular while PIH is brown and
+    pigmentary, and they respond to different things, so it should route to post-inflammatory-erythema
+    for the red version and to hyperpigmentation for the general pigment evidence
+    rather than re-explaining either. Also route the post-laser case to post-ablative-laser-aftercare
+    and check PMID 32979860, a post-ablative-laser PIH RCT that is separately queued
+    as fusidic acid.'

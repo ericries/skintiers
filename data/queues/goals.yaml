@@ -339,7 +339,7 @@
 - name: Aftercare and recovery following ablative laser resurfacing
   type: goal
   priority: 5
-  status: pending
+  status: done
   discovered_from: karimi-2025-neurocosmetic-post-procedure-cream
   source: 'The site has fractional-co2-laser-resurfacing for the procedure but nothing
     on what to put on skin afterwards, which is the question patients actually ask

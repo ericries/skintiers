@@ -2993,3 +2993,17 @@
     diverge. Expect tier: weak at best; check PubMed for the underlying trials before
     grading, and do not upgrade it on mechanism alone. Link out to cellulite and caffeine
     rather than re-explaining either.'
+- name: Fusidic acid
+  type: ingredient
+  priority: 4
+  status: pending
+  discovered_from: post-ablative-laser-aftercare
+  source: PMID 32979860, indexed by PubMed as a Randomized Controlled Trial, titled
+    'Fusidic acid cream comparatively minimizes signs of inflammation and postinflammatory
+    hyperpigmentation after ablative fractional laser'. Surfaced while building post-ablative-laser-aftercare
+    but the abstract was NOT read, so nothing is assumed about it; read it first and
+    grade only what it supports. Worth a page because it is a prescription topical
+    antibiotic being used for a cosmetic endpoint (post-laser PIH), which is exactly
+    the kind of off-label-adjacent use the site should document carefully. Check the
+    DailyMed status for the US, since fusidic acid is not marketed in the United States
+    and that absence matters for a reader.

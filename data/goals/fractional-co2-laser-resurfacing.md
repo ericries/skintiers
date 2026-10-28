@@ -66,7 +66,7 @@ Fractional CO2 laser resurfacing is an in-office ablative procedure: a 10,600 nm
 
 ## See Also
 
-[[acne-scars]] [[acne]] [[platelet-rich-plasma-acne-scars]] [[subcision]] [[microneedling]] [[hyperpigmentation]] [[post-inflammatory-erythema]] [[skin-firmness-elasticity]]
+[[post-ablative-laser-aftercare]] [[acne-scars]] [[acne]] [[platelet-rich-plasma-acne-scars]] [[subcision]] [[microneedling]] [[hyperpigmentation]] [[post-inflammatory-erythema]] [[skin-firmness-elasticity]]
 
 ## Sources
 

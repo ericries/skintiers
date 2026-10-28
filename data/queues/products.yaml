@@ -4442,3 +4442,31 @@
     but retinoids, caffeine and a microcurrent device. It is an in-office device rather
     than a home one, so say that plainly and do not imply home use. accessdata.fda.gov
     with a browser user-agent, no metered call.'
+- name: Doctor Rogers RESTORE Healing Balm
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: post-ablative-laser-aftercare
+  source: 'The test product in the only randomized double-blinded split-face trial
+    of a branded post-laser balm against petrolatum (PMID 30500136, 10 subjects),
+    where the abstract names it as ''Doctor Rogers RESTORE(R)Healing Balm; Product
+    1'' and reports that 90 percent of patients preferred it over Aquaphor Healing
+    Ointment. The site already has a heather-d-rogers person page, so the brand link
+    is half built. CRITICAL framing for the page: that trial reports shares of patients
+    scoring better, not percentage reductions, and publishes no p-value at n=10, so
+    grade patient preference as its own row and do NOT let the healing percentages
+    read as effect sizes. incidecoder for INCI plus the brand site for price and claims.'
+- name: Stratacel film-forming dressing
+  type: product
+  priority: 3
+  status: pending
+  discovered_from: post-ablative-laser-aftercare
+  source: 'The semipermeable film-forming dressing tested against spring thermal water
+    plus Vaseline after full-face fractional CO2 resurfacing in PMID 28662298. Low
+    priority on purpose: that study is five volunteers, uses instrument surrogates
+    (haemoglobin, surface temperature, texture, melanin, follicular porphyrins) rather
+    than healing time, and its single author is the medical director of the private
+    clinic where it ran. If built, the page''s honest verdict is effect unknown on
+    preliminary evidence, and it should check whether the product is regulated as
+    a medical device, since the trial calls the comparator arm a skin care regime
+    and this one a dressing.'
