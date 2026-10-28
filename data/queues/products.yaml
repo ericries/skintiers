@@ -3510,7 +3510,7 @@
 - name: dpl II Panel (LED Technologies, K171390)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: 'openFDA device/510k applicant query run for dpl-spotlite on 2026-10-20:
     K171390, decision 2017-08-03, product code OHS (wrinkle), statement_or_summary
@@ -4497,3 +4497,18 @@
     make it the strongest file in the Omnilux set and a direct contrast with the Clear-U.
     Read the Summary FIRST and drop the item if it contains neither. accessdata.fda.gov
     with a browser user-agent.
+- name: dpl Nuve for Wrinkles (K141181)
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: dpl-ii-panel
+  source: 'The predicate for the dpl II Panel (K171390), verified as K141181 dpl Nuve
+    for Wrinkles. NOTE the site ALREADY has a dpl-nuve page, but it is built on a
+    DIFFERENT filing, K101382 from 2010 (product codes OHS and GEX, an acne indication),
+    whose own document contains no mW/cm, irradiance, energy level or treatment area
+    at all. K141181 is a separate later wrinkle clearance for the same product line
+    and its figures ARE now known secondhand: the K171390 predicate chart gives the
+    Nuve 62.07 mW/cm2 over a 30 cm2 treatment area at 3 minutes. FIRST decide whether
+    this is a second page or an enrichment of dpl-nuve (probably the latter), then
+    read K141181 directly rather than relying on the successor''s chart. accessdata.fda.gov
+    with a browser user-agent; expect a scan needing page rendering.'

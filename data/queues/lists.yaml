@@ -840,3 +840,18 @@
   status: pending
   discovered_from: null
   source: null
+- name: Home LED devices by published dose per session
+  type: list
+  priority: 3
+  status: pending
+  discovered_from: dpl-ii-panel
+  source: 'Now buildable and genuinely useful: the site can compare per-session dose
+    across the home LED devices whose files publish irradiance, because three independent
+    figures are confirmed from primary documents. dpl II Panel 70.16 mW/cm2 over 415
+    cm2 for 180 s (K171390), reVive Lux Lip Care 67.7 mW/cm2 over 24 cm2 for 180 s
+    (K172662), TheraFace LED red 73 and blue 64 mW/cm2 (K212155), plus the predecessor
+    entries 62.07 over 30 cm2 and 61.59 over 28 cm2 from the K172662 chart. The axis
+    is J/cm2 per session against the doses used in published trials, which led-dose-j-per-cm2-and-wavelength
+    already explains, so this list would be the applied table rather than a re-explanation.
+    Build only AFTER at least one more device page publishes a figure, and show the
+    arithmetic as the site''s own rather than the files''.'
