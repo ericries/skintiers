@@ -693,3 +693,19 @@
     rather than re-explaining either. Also route the post-laser case to post-ablative-laser-aftercare
     and check PMID 32979860, a post-ablative-laser PIH RCT that is separately queued
     as fusidic acid.'
+- name: Acne mechanica (maskne, friction acne)
+  type: condition
+  priority: 5
+  status: pending
+  discovered_from: roessle-2025-incobotulinumtoxin-a-maskne-rct
+  source: 'Acne mechanica is the general condition that ''maskne'' is one instance
+    of, and the site has no hub for either term despite now carrying a placebo-controlled
+    trial about it (PMID 40847901). The hub''s job is the distinction a reader actually
+    needs: acne mechanica is driven by friction, pressure, occlusion and heat under
+    a mask, helmet, strap or sports gear, which makes it mechanical rather than hormonal,
+    and the management differs accordingly (barrier and friction reduction, changing
+    what sits against the skin) from the hormonal-acne route. Route ordinary facial
+    acne to acne, hormonal patterns to hormonal-acne, and the injectable evidence
+    to the Roessle study page with its limitation intact, that the trial measured
+    skin-quality surrogates and never counted a lesion. Do NOT build this as a COVID-era
+    topic; mask acne is the hook, friction acne is the subject.'

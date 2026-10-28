@@ -3007,3 +3007,18 @@
     the kind of off-label-adjacent use the site should document carefully. Check the
     DailyMed status for the US, since fusidic acid is not marketed in the United States
     and that absence matters for a reader.
+- name: Botulinum toxin (incobotulinumtoxinA) for skin quality
+  type: ingredient
+  priority: 2
+  status: pending
+  discovered_from: roessle-2025-incobotulinumtoxin-a-maskne-rct
+  source: 'SCOPE CAVEAT FIRST: botulinum toxin is an injectable procedure, which the
+    site brackets as later-phase, so do NOT build this until the procedures phase
+    opens; it is queued at priority 2 so it sits below everything topical. When it
+    is built, the precedent is dupilumab and isotretinoin, prescription drugs covered
+    as ingredient pages with a tier matching their own rubric. Real material already
+    on the site to build from: the Roessle 2025 RCT (PMID 40847901) found a significant
+    sebum reduction versus placebo (-19.27 vs +1.27 ug/cm2, p<0.001) over 112 days
+    but measured no acne lesion at all, which is the sort of surrogate-versus-outcome
+    gap the page should lead with. Check the FDA label for the actual approved indications
+    before writing a word about skin quality.'
