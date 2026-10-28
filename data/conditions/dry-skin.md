@@ -1,4 +1,9 @@
 ---
+aliases:
+- Dry skin
+- dehydrated skin
+- xerosis
+- xerosis cutis
 analyzed: '2026-08-30'
 assurance: opus
 name: Dry Skin (Xerosis)

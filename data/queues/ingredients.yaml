@@ -3022,3 +3022,18 @@
     but measured no acne lesion at all, which is the sort of surrogate-versus-outcome
     gap the page should lead with. Check the FDA label for the actual approved indications
     before writing a word about skin quality.'
+- name: Polyhydroxy acids (PHAs, gluconolactone)
+  type: ingredient
+  priority: 4
+  status: pending
+  discovered_from: jennlexi
+  source: 'The acid class the site names nine times on exfoliating-acids-by-strength
+    but has no page for. Grounded twice over: that list already discusses PHAs, and
+    the jennlexi chemical-exfoliant dictionary card on it walks AHAs, BHAs and PHAs
+    as three categories. The site has lactobionic-acid and mandelic-acid but nothing
+    for the PHA class itself or for gluconolactone, its most common member. The page''s
+    job is the claim that actually drives PHA marketing, that the larger molecule
+    penetrates more slowly and so suits sensitive skin; check whether controlled trials
+    support better tolerability versus a comparable AHA rather than assuming the molecular-size
+    story proves it. Set a tier: matching the rubric, and expect the honest answer
+    to be mid or weak. PubMed route.'

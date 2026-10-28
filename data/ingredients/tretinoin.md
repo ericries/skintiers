@@ -202,7 +202,7 @@ videos:
   platform: TikTok
   url: https://www.tiktok.com/@jennlexi_/video/7691887094171602190
   duration: 166
-  posted: '20261002'
+  posted: '2026-10-02'
   related: [retinoids]
   thesis: Licensed esthetician Jenn Lexi argues that tretinoin itself usually is not ruining people's skin, but the way they use it is. Because tretinoin is now easy to get through online pharmacies, she says people often reach for the highest strength expecting faster results, get badly irritated, and then write the retinoid off as something their skin hates. Her practical takeaway is that the irritation is usually a misuse problem, so tretinoin should be used conservatively rather than at the harshest strength available.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.

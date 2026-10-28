@@ -390,7 +390,7 @@
 - name: jennlexi
   type: person
   priority: 5
-  status: pending
+  status: done
   discovered_from: brooke-jeffy
   source: 'Rostered creator with NINE transcript-verified videos already embedded
     on the site and no person page, the largest remaining person gap found by auditing
