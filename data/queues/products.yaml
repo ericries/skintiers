@@ -3524,7 +3524,7 @@
 - name: dpl SpectraLite (LED Technologies, K171386)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: 'openFDA device/510k applicant query run for dpl-spotlite on 2026-10-20:
     K171386, decision 2017-08-07, product code OHS (wrinkle), Summary available. accessdata.fda.gov/cdrh_docs/pdf17/K171386.pdf.
@@ -4512,3 +4512,30 @@
     this is a second page or an enrichment of dpl-nuve (probably the latter), then
     read K141181 directly rather than relying on the successor''s chart. accessdata.fda.gov
     with a browser user-agent; expect a scan needing page rendering.'
+- name: dpl IIa Panel (K180320)
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: dpl-spectralite
+  source: 'openFDA K180320, LED Technologies, decision 2018-04-03, product code OHS.
+    The direct successor to the dpl II Panel (K171390) by name, filed eight months
+    later, and the obvious next read now that both 2017 panel-and-handheld filings
+    are covered. Specific question for the page: the II Panel published 70.16 mW/cm2
+    over 415 cm2 and the SpectraLite 61.59 over 28 cm2, so check whether the IIa publishes
+    a figure too and whether the boilerplate line about having the same 62 mW/cm2
+    output as the predicate is repeated a third time, since it is accurate on the
+    SpectraLite and wrong on the II Panel. accessdata.fda.gov with a browser user-agent;
+    expect possible scanned pages needing rendering.'
+- name: reVive Light Therapy LED Ultrasonic Wrinkle device (K180445)
+  type: product
+  priority: 3
+  status: pending
+  discovered_from: dpl-spectralite
+  source: 'openFDA K180445, LED Technologies, decision 2018-05-15, product code OHS.
+    A combination device (LED plus ultrasonic) under the reVive brand name, which
+    matters because the site already documents that dpl and reVive are the same applicant.
+    Worth a page for the combination question specifically: whether the file treats
+    the ultrasonic element as a separate mechanism with its own testing or folds it
+    into the LED equivalence argument. Read the Summary before committing; drop the
+    item if it turns out to be LED-only with a cosmetic housing change. accessdata.fda.gov
+    route.'

@@ -25,7 +25,8 @@ The FDA record is the usable source instead. LED Technologies holds 15 device cl
 - [[dpl-spotlite]]: a blue and red LED acne device whose only human study is a 16-person usability test.
 - [[dpl-faceware]]: a five-wavelength face device cleared against three of the firm's own earlier products.
 - [[dpl-nuve]]: a 2010 clearance whose Summary names no irradiance, treatment area or wavelength heading at all.
-- [[dpl-ii-panel]]: a 2017 full-face panel cleared for wrinkles, and one of only two filings from this firm the site has read that publish an actual irradiance figure.
+- [[dpl-ii-panel]]: a 2017 full-face panel cleared for wrinkles, and one of three filings from this firm the site has read that publish an actual irradiance figure.
+- [[dpl-spectralite]]: its battery-powered sibling, cleared four days later for the eye area only, from a predicate that covered the whole face.
 
 What the firm publishes against its rivals is ranked on [[home-led-devices-by-what-the-file-publishes]].
 
