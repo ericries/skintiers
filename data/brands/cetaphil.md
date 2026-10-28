@@ -6,6 +6,18 @@ slug: cetaphil
 status: published
 type: brand
 updated: '2026-09-18'
+videos:
+- title: 'Cetaphil vs CeraVe: Which Is Better? | Dermatologist Explains'
+  creator: Dr. Aleksandra Brown, DO, FAAD
+  creator_slug: aleksandra-brown
+  credential: Board-certified dermatologist (DO, FAOCD, FAAD), practicing at River Ridge Dermatology / HCA Virginia (LewisGale), Blacksburg VA
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=capSd8jcCBU
+  posted: '2026-06-14'
+  related: [cerave, ceramides, sensitive-skin, skin-barrier-repair, moisturizing, cerave-moisturizing-cream, cetaphil-gentle-skin-cleanser]
+  thesis: 'Board-certified dermatologist Dr. Aleksandra Brown puts Cetaphil and CeraVe head to head across cleansers, moisturizers, sunscreens and eye creams, and her argument is that the two brands are not interchangeable because they are built on different philosophies. Cetaphil, she says, leads with simplicity and comfort: strip the routine back and give irritated skin something it cannot react to, which is why its gentle skin cleanser became a sensitive-skin staple. CeraVe, developed with dermatologists before being acquired by L''Oreal, built its identity around ceramides and barrier repair, so its aim is to actively rebuild what has been depleted rather than only to avoid irritation. Her conclusion is to choose Cetaphil if skin is sensitive and reactive and CeraVe if skin is dry or barrier-damaged, and she adds that nobody has to pick one brand, since mixing a Cetaphil cleanser with a CeraVe moisturizer is fine.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Cetaphil is a mass-market brand of fragrance-free cleansers and moisturizers positioned for sensitive, dry, and reactive skin, sold in more than 70 countries and currently owned by the Swiss dermatology company Galderma.[^1][^4][^6]

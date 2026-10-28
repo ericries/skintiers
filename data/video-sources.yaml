@@ -477,7 +477,7 @@
   last_pulled: '2026-10-19'
 - name: Dr. Aleksandra Brown, DO, FAAD
   creator_slug: aleksandra-brown
-  backfill_cursor: 15
+  backfill_cursor: 30
   credential: Board-certified dermatologist (DO, FAOCD, FAAD), practicing at River Ridge Dermatology / HCA Virginia (LewisGale), Blacksburg VA
   tier: HIGH
   channel: https://www.youtube.com/channel/UC52c6a0gfbhuVCdHYZQAzuQ/videos
