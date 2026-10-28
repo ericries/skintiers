@@ -4539,3 +4539,17 @@
     into the LED equivalence argument. Read the Summary before committing; drop the
     item if it turns out to be LED-only with a cosmetic housing change. accessdata.fda.gov
     route.'
+- name: Lotrimin AF cream (miconazole nitrate 2%)
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: otc-antifungal-creams-by-labelled-scope
+  source: 'The miconazole cream behind the Lotrimin AF name, confirmed in openFDA
+    as OTC MONOGRAPH DRUG with MICONAZOLE NITRATE 20 mg/g. It matters because the
+    site''s existing lotrimin-af-antifungal-cream page is the CLOTRIMAZOLE product,
+    and openFDA shows both actives sold under Lotrimin AF or Lotrimin Antifungal branding.
+    A page here would finish documenting the brand collision rather than leaving a
+    reader to assume one Lotrimin AF exists. FIRST step is identity: pull the DailyMed
+    SPL for the miconazole cream specifically and confirm its Uses text, since the
+    clotrimazole label examined for the existing page claims ringworm but not athlete''s
+    foot. DailyMed route.'

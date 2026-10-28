@@ -3037,3 +3037,17 @@
     support better tolerability versus a comparable AHA rather than assuming the molecular-size
     story proves it. Set a tier: matching the rubric, and expect the honest answer
     to be mid or weak. PubMed route.'
+- name: Miconazole nitrate
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: otc-antifungal-creams-by-labelled-scope
+  source: 'The only one of the four Lotrimin-brand antifungal actives with no page:
+    openFDA shows MICONAZOLE NITRATE 20 mg/g under OTC MONOGRAPH DRUG for Lotrimin
+    AF, Lotrimin AF Jock Itch, Lotrimin AF Deodorant and Lotrimin Antifungal, verified
+    2026-10-28. The site has clotrimazole, butenafine, terbinafine and tolnaftate
+    but not this one, which leaves the shelf-brand comparison incomplete. Angle: miconazole
+    is an azole like clotrimazole, so the page should state what if anything distinguishes
+    them in head-to-head data rather than restating the class mechanism, and should
+    link out to otc-antifungals-by-evidence for the ranking. Set a tier: matching
+    the rubric. DailyMed plus PubMed route, no metered call.'

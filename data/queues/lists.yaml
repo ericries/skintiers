@@ -475,7 +475,7 @@
 - name: OTC antifungal creams by regulatory footing and labelled scope
   type: list
   priority: 5
-  status: pending
+  status: done
   discovered_from: lotrimin-ultra-athletes-foot-cream
   source: 'A real axis the site can now populate: lotrimin-ultra-athletes-foot-cream
     is FDA-APPROVED under NDA021307, while tinactin-antifungal-cream is an OTC monograph

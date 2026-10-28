@@ -76,6 +76,7 @@ The review treats toenail infection separately and is blunt that the evidence is
 
 ## See Also
 
+- [[otc-antifungal-creams-by-labelled-scope]]: the same creams compared on regulatory footing and on what their labels actually claim, which is a separate axis from efficacy
 - [[athletes-foot]]: the condition this evidence is actually about
 - [[onychomycosis]]: nails, where the same review is far less encouraging
 - [[terbinafine]], [[clotrimazole]], [[ketoconazole]], [[butenafine]], [[tolnaftate]], [[ciclopirox]]: the agent pages
