@@ -48,7 +48,7 @@ Oral antifungals are first-line: as the Cochrane review notes, "traditionally to
 
 ## See Also
 
-Onychomycosis is the nail version of the same dermatophyte infection covered on [[athletes-foot]]; see also [[terbinafine]], [[itraconazole]], and [[ciclopirox]].
+[[dermatophytoma]], Onychomycosis is the nail version of the same dermatophyte infection covered on [[athletes-foot]]; see also [[terbinafine]], [[itraconazole]], and [[ciclopirox]].
 
 ## Sources
 

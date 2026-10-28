@@ -3068,3 +3068,31 @@
     3%, dioxybenzone 3%, padimate O 8%) and its own openFDA count of products still
     using it; expect several to be nearly extinct, which is the interesting finding.
     Set tier: from the rubric; expect weak. eCFR plus openFDA, no metered call.'
+- name: Tavaborole (Kerydin)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: dermatophytoma
+  source: 'One of the three topical antifungal solutions the Gupta 2022 dermatophytoma
+    review names as able to reach a subungual fungal mass by both transungual and
+    subungual routes (PMID 35887497, verified 2026-10-28), and the site has efinaconazole
+    and ciclopirox but not this one. Tavaborole (Kerydin) is an oxaborole, a different
+    class from the azoles and allylamines the site already covers, which is the page''s
+    reason to exist. Build it the way efinaconazole was built: read the DailyMed label
+    for the phase 3 complete-cure numbers and the ENROLMENT CRITERIA, and check specifically
+    whether its trials also excluded dermatophytomas and matrix involvement, since
+    that exclusion is what the dermatophytoma hub turns on. Set a tier: from the rubric.
+    DailyMed plus openFDA, no metered call.'
+- name: Luliconazole (Luzu)
+  type: ingredient
+  priority: 3
+  status: pending
+  discovered_from: dermatophytoma
+  source: 'The third topical named in the Gupta 2022 dermatophytoma review (PMID 35887497)
+    alongside tavaborole and efinaconazole. CHECK AVAILABILITY FIRST: luliconazole
+    is marketed in the US as a 1% cream for tinea (Luzu) rather than as a nail solution,
+    so the review''s nail-penetration argument may concern a formulation not sold
+    here. Resolve that from DailyMed before drafting, and if the US product is cream-only,
+    either build the page around the tinea indication with the nail claim flagged
+    as non-US, or drop the item. Do not carry the review''s grouping of all three
+    as nail topicals into a page without checking it.'

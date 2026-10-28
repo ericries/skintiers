@@ -534,7 +534,7 @@
 - name: Dermatophytoma
   type: condition
   priority: 5
-  status: pending
+  status: done
   discovered_from: efinaconazole
   source: Named as an EXCLUSION criterion in both efinaconazole phase 3 trials on
     the DailyMed label read 2026-10-21 ('without dermatophytomas or lunula (matrix)

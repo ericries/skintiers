@@ -51,7 +51,7 @@ Quarantined from the graded assessment above. No brand or retailer copy was fetc
 
 ## See Also
 
-- [[onychomycosis]]: the condition, including the oral options this drug is weighed against
+[[dermatophytoma]], - [[onychomycosis]]: the condition, including the oral options this drug is weighed against
 - [[otc-antifungals-by-evidence]]: the pooled comparison across older topical antifungals
 - [[ciclopirox]]: the older prescription nail topical, which that review found had poor cure rates
 - [[terbinafine]], [[clotrimazole]], [[ketoconazole]]: the agents with foot-skin evidence
