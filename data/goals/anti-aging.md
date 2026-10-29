@@ -338,6 +338,17 @@ videos:
   thesis: 'Board-certified dermatologist Dr. Aleksandra Brown builds a drugstore routine for mature skin and spends most of it arguing for fewer products rather than more, saying that skin which seems too sensitive for anti-aging actives usually has a routine that is too aggressive. She ranks the categories by evidence rather than price: retinoids carry the best evidence in topical skincare and sunscreen protects every other step, while peptides are an optional supporting serum she explicitly declines to place in the same evidence tier as those two, and exfoliation is optional on top of a retinoid. Her picks are offered as alternatives to choose between according to skin type, including Vanicream Gentle Facial Cleanser for dry or reactive skin, the Timeless 20 percent vitamin C and ferulic serum for people who already tolerate ascorbic acid, CeraVe Skin Renewing Night Cream for richer hydration, Gold Bond Age Renew retinol for neck chest arms and hands, and Vanicream Facial Moisturizer SPF
     30 at 19.5 percent zinc oxide for sensitive skin.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: 'HRT and Your Skin After 40: What It Can and Can''t Fix'
+  creator: Dr. Aleksandra Brown, DO, FAAD
+  creator_slug: aleksandra-brown
+  credential: Board-certified dermatologist (DO, FAOCD, FAAD), practicing at River Ridge Dermatology / HCA Virginia (LewisGale), Blacksburg VA
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=1-d1zTd2Mm8
+  posted: '2026-10-25'
+  related: [skin-firmness-elasticity, sunscreen-uv-filters, sun-damage-photoaging, dry-skin]
+  thesis: 'Board-certified dermatologist Dr. Aleksandra Brown sets the boundary on what menopausal hormone therapy does for skin, and the line she draws is unusually firm for the topic. She says studies suggest estrogen-based hormone therapy may partially improve some menopause-related skin changes, putting hydration, skin thickness, collagen and some measures of elasticity in the category it may help for some people, while stressing that researchers call for larger and better designed trials. What she rules out is as important: hormone therapy does not reliably erase existing wrinkles, short courses may produce very little visible change, and it cannot reverse cumulative sun damage. Her repeated framing is that this is not a facelift in a patch and that hormone therapy is not prescribed for skin ageing alone, since it has established medical uses and being potentially useful for skin quality does not make it a cosmetic treatment. The step she names as the single most effective anti-ageing
+    measure is sun protection.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

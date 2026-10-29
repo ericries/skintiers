@@ -206,6 +206,16 @@ videos:
   related: [retinoids]
   thesis: Licensed esthetician Jenn Lexi argues that tretinoin itself usually is not ruining people's skin, but the way they use it is. Because tretinoin is now easy to get through online pharmacies, she says people often reach for the highest strength expecting faster results, get badly irritated, and then write the retinoid off as something their skin hates. Her practical takeaway is that the irritation is usually a misuse problem, so tretinoin should be used conservatively rather than at the harshest strength available.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Are You Applying Tretinoin Wrong? Dermatologist Answers Your Skincare Questions
+  creator: Andrea Suarez (Dr Dray)
+  creator_slug: andrea-suarez-dr-dray
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=Bk5lSp6wYYA
+  posted: '2026-10-24'
+  related: [retinoids, isotretinoin, dry-skin, oily-skin]
+  thesis: 'Answering a viewer who assumed retinoids dry the skin by shrinking oil glands, board-certified dermatologist Andrea Suarez corrects the premise outright: topical retinoids do not impact the sebaceous oil gland at all and do not shrink it, so using tretinoin does not give you less sebum. The drug that does shrink abnormally enlarged oil glands is oral isotretinoin, which is a different medicine taken a different way. She explains that tretinoin can cause dryness early on through irritation rather than through any effect on oil production, that the dryness tends to subside, and that in her own experience long-term consistent use improved her facial dryness by improving how the skin matures and holds moisture.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

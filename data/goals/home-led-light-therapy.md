@@ -90,6 +90,17 @@ videos:
     data of its own, which is why he declines to name a best one.'
   title: 'How well do home LED masks work for acne: evidence review by a dermatologist'
   url: https://www.youtube.com/watch?v=2No7WA7DYEI
+- title: Is the LYMA Laser a Gimmick? Dermatologist Answers Your Skincare Questions
+  creator: Andrea Suarez (Dr Dray)
+  creator_slug: andrea-suarez-dr-dray
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=zEBZw74TgAs
+  posted: '2026-10-25'
+  related: [home-use-skincare-devices-by-evidence, led-dose-j-per-cm2-and-wavelength, anti-aging, skin-firmness-elasticity]
+  thesis: 'Asked for her opinion on the LYMA handheld light wand, board-certified dermatologist Andrea Suarez answers in two words, another gimmick, and then explains the reasoning rather than leaving it there. She accepts the mechanism, describing a device that emits near infrared radiation which can reach the dermis to stimulate fibroblasts to make collagen and improve the appearance of wrinkles. Her objection is practical: a handheld wand covers a relatively small area and has to be moved across the face, where the red and near infrared masks she typically recommends treat a wider area at once, give more even exposure and are easier to use consistently. She adds that most masks combine red with near infrared, so they also bring red light''s separate effects on inflammation.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Home LED light therapy means a wearable mask or handheld panel that shines coloured light on the skin, usually blue, red, or the two combined. It is sold for acne and for ageing skin, and of all the gadget categories you can buy for home use it is the one that comes out of the evidence best. The disease is on [[acne]] and the ageing target on [[anti-aging]].

@@ -32,7 +32,7 @@
   tier: HIGH
   channel: https://www.youtube.com/@DrDrayzday/videos
   conflict: null
-  last_pulled: '2026-10-28'
+  last_pulled: '2026-10-29'
 - name: Dr. Muneeb Shah (DermDoctor)
   creator_slug: muneeb-shah
   backfill_cursor: 9999
@@ -483,7 +483,7 @@
   channel: https://www.youtube.com/channel/UC52c6a0gfbhuVCdHYZQAzuQ/videos
   conflict: null
   product_recs: ok
-  last_pulled: '2026-10-27'
+  last_pulled: '2026-10-29'
 - name: Dr. Maren Locke (The Budget Dermatologist)
   creator_slug: maren-locke
   backfill_cursor: 30
