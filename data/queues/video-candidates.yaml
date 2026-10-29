@@ -13837,7 +13837,8 @@
   conflict: Runs an own-brand practice storefront (Derm Rejuvenation Institute, Shopify); treat specific product picks as commercially incentivized.
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'Rejected: a named product sold through her own practice storefront (Derm Rejuvenation Institute). Third rejection on own-storefront grounds from this creator.'
 - id: AS4EPRg4bJA
   title: 'Resilience Moisturizing Cream | Derm & Rejuvenation Institute '
   creator: Tanya Kormeili, MD, FAAD
@@ -13877,7 +13878,8 @@
   conflict: null
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'Rejected: GLP-1 medications and vitamin B1 deficiency is general internal medicine, not a skin topic, and the site has no page it belongs on. Creator has no conflict; the issue is scope.'
 - id: '7699514543831026957'
   title: 'It’s giving bad morning #skincare #vitamincserum '
   creator: Dr. Chris Tomassian
@@ -13904,7 +13906,8 @@
   conflict: Maintains a Nykaa curated affiliate storefront; treat specific product picks as commercially incentivized (educational/mechanism content is fine).
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'Rejected: multi-topic interview format (biggest skin and hair care mistakes, with a guest dermatologist) rather than single-topic education, from a creator with a Nykaa affiliate storefront. Her single-topic mechanism content remains eligible.'
 - id: '7699487474325916942'
   title: I'm going to be really honest with you on this one. Lasers are offere...
   creator: Fatima Fahs
@@ -13972,7 +13975,8 @@
   conflict: Runs an Amazon affiliate storefront (amazon.com/shop/derm.talk); recurring disclosed paid brand partnerships (Shiseido, SkinCeutic
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'Rejected: a product roundup (Japanese drugstore products worth every penny) from a creator who runs an Amazon affiliate storefront and has recurring disclosed paid brand partnerships, so picks are treated as effectively paid.'
 - id: '7699576367163116814'
   title: The long awaited @numbuzin Zero Line review! These are the toner pads...
   creator: Kristin Leite (kristingl)
@@ -14027,7 +14031,8 @@
   conflict: Runs an own-brand practice storefront (Derm Rejuvenation Institute, Shopify); treat specific product picks as commercially incentivized.
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'Rejected: another named product from the same own practice storefront. Fourth rejection on this pattern; her channel is largely a storefront catalogue.'
 - id: LZ3earmiwZo
   title: 'Refine Face And Body Scrub For Bumps and Blemishes | Derm & Rejuvenation Institute '
   creator: Tanya Kormeili, MD, FAAD
@@ -14081,7 +14086,8 @@
   conflict: null
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'Rejected: rabies early symptoms is infectious disease rather than skincare, with no site page to attach to. Same scope issue as the GLP-1 upload from the same creator.'
 - id: '7700065009899965709'
   title: 'She’s just warming up tbh #vstrend #victoriassecret #baby '
   creator: Dr. Chris Tomassian

@@ -254,6 +254,17 @@ videos:
   thesis: 'Board-certified dermatologist Dr. Maren Locke takes apart what women usually mean by hormonal hair thinning, starting with the correction that it is a casual term rather than a formal diagnosis: the actual condition is female pattern hair loss, also called androgenetic alopecia. Her central distinction is between shedding and miniaturization. Shedding of 50 to 100 hairs a day is normal, and a sudden heavy increase is usually telogen effluvium after stress, illness, surgery, rapid weight loss, pregnancy or a medication change, which often settles on its own over six to twelve months. Miniaturization is the slower problem, where the follicle survives but each new hair grows back thinner and shorter, so density falls progressively and does not recover by itself. On what to do, she puts a dermatologist examination first, then a lab workup because hair is sensitive to iron or ferritin deficiency, thyroid abnormality and low vitamin D, then adequate daily protein. She calls minoxidil
     the gold standard and the most proven over-the-counter option because it keeps follicles in the growth phase longer, and notes that for women with signs of androgen sensitivity a dermatologist may add a prescription anti-androgen such as spironolactone alongside it.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: 'Minoxidil and Pets: What Cat and Dog Owners Need to Know'
+  creator: Dr. Brooke Jeffy
+  creator_slug: brooke-jeffy
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=4MGEs5wCRZU
+  posted: '2026-10-21'
+  related: [frontal-fibrosing-alopecia, clascoterone]
+  thesis: 'Board-certified dermatologist Dr. Brooke Jeffy corrects a statistic about minoxidil and pets that circulates widely on social media. The veterinary data she cites is a study of 200 exposure cases in which moderate or major illness occurred in roughly 60% of cats and 56% of dogs, with eight symptomatic cats in that study dying, and she notes those figures are close enough that the common claim cats are far more susceptible than dogs does not follow. The number she specifically corrects is the often-repeated 12.9% of cats dying: that is the share of symptomatic cats reported to poison control in one study who died, not the risk to a cat living with someone who uses minoxidil. She is equally clear about what the data cannot show, since retrospective owner reports carry recall bias and cannot establish the probability of poisoning in a typical household or a safe exposure amount. Her practical conclusion is that topical minoxidil should not be licked off skin or a pillowcase and bottles
+    should be kept secure, while oral minoxidil is not excreted through the skin and so poses no risk from licking unless the animal gets into the pills.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

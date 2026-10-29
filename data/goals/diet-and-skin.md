@@ -65,6 +65,16 @@ videos:
   related: [anti-aging, skin-firmness-elasticity, peptides]
   thesis: 'Board-certified dermatologist Dr. Sarah Sheu reviews whether oral collagen peptides do anything for skin, and the finding she lands on is about who paid for the research. She describes a meta-analysis published in May 2025 that pooled 23 studies and roughly 1,500 people and found collagen peptides improved skin hydration, elasticity and wrinkles overall, then notes that the investigators split those studies by funding source: the independent studies, with no company money behind them, showed no effect at all on any of the three measures. She also points out that many of the anti-aging studies used doses as low as two grams a day, around ten times less than the twenty-gram serving marked on a typical tub, so the serving size on the label is not the dose the research used. Her general caution about the wider literature is that many of these trials are small, short and not placebo controlled.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: The Hidden Ingredient in Your Food That May Be Affecting Your Skin
+  creator: Andrea Suarez (Dr Dray)
+  creator_slug: andrea-suarez-dr-dray
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=L-JQlQvtz_A
+  posted: '2026-10-20'
+  related: [atopic-dermatitis, skin-barrier-repair]
+  thesis: 'Board-certified dermatologist Andrea Suarez looks at dietary sodium and skin, and the care she takes with the limits is the reason to watch. The evidence she works from is a 2024 study in JAMA Dermatology that analysed data from more than 215,000 UK adults and found a relationship between sodium intake and atopic dermatitis. She then says what that design cannot do: because people were not assigned to different sodium intakes and followed, it cannot establish that sodium causes eczema, nor whether cutting sodium would improve eczema, prevent a flare or reduce the need for treatment. She also refuses to generalise the finding, pointing out that it concerns atopic dermatitis specifically and does not establish that sodium worsens acne, rosacea, psoriasis or skin ageing, even though those are inflammatory too. Her framing at the top is that no single food explains breakouts, wrinkles or rashes and that no restrictive diet is required for healthy skin.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
