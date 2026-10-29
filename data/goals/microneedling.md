@@ -56,6 +56,16 @@ videos:
   thesis: 'Board-certified dermatologist Dr. Brooke Jeffy separates microneedling from dermarolling and argues the two are not interchangeable: a roller''s needles enter at an angle under variable hand pressure, while a pen or professional device drives them vertically to a controlled depth. She reports that the evidence is encouraging for microneedling as an ADJUNCT in pattern hair loss, citing a 2025 meta-analysis of randomised trials in more than 600 patients that found microneedling combined with topical minoxidil gave better hair counts than minoxidil alone, and says a 2026 review of dermarollers used on their own found only a handful of eligible studies with inconsistent human results. Her strongest caution is that hair loss is not a diagnosis: telogen effluvium, alopecia areata, inflammatory scalp conditions and scarring alopecia are different problems, and repeatedly needling an undiagnosed scarring or inflammatory alopecia risks harm, so she wants the cause established first and
     notes that deeper needling has not been shown to grow more hair while it does cause more trauma.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: 'Microneedling at Home: Safe or Scary?'
+  creator: Dr. Sarah Sheu
+  creator_slug: dr-sarah-sheu
+  credential: Board-certified dermatologist, MD (Northwestern Feinberg), Stanford dermatology residency (chief resident); Medical Director of Dermatology, Valley Medical Center, Seattle WA
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=iIQBxc4mXUs
+  posted: '2025-10-11'
+  related: [acne-scars, skin-firmness-elasticity, fda-approved-vs-cleared-skincare, anti-aging]
+  thesis: 'Board-certified dermatologist Dr. Sarah Sheu draws the line between at-home microneedling and the in-office procedure, opening with a disclaimer that she has no sponsorship or relationship to any microneedling company. Her central point is regulatory: home systems sold with needles around 0.25, 0.3 or 0.5 mm are treated by FDA as cosmetic tools, while longer needles put a device into the medical-device category, and she says selling those for home use is grounds for FDA sending the company a cease and desist. The reason that boundary exists is injury rather than paperwork, since longer needles bring the risk of scarring, increased infection and foreign body granulomas. The practical upshot she gives is that a home device at cosmetic needle lengths is not doing what an in-office treatment does, so the two should not be compared on results.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

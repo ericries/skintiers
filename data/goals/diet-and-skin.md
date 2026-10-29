@@ -55,6 +55,16 @@ videos:
   thesis: 'Board-certified dermatologist Andrea Suarez separates the creatine hair-loss scare from what has actually been measured, and sets the standard up front: a plausible biological mechanism is not the same as a benefit demonstrated in people. The fear traces to a 2009 study of male rugby players that observed a rise in DHT, the androgen involved in pattern hair loss, but she points out that the study never measured hair loss at all. A randomised controlled trial published in 2025 tested the question directly, giving resistance-trained men 5 g of creatine monohydrate daily or placebo for 12 weeks and assessing hormone levels alongside hair measures, and found no significant difference between the groups in DHT or in the hair outcomes measured. She calls that reassuring while declining to treat it as proof that creatine can never affect anyone. On skin she keeps oral and topical separate, noting a 2025 literature review that identified several small studies of topical creatine formulations
     with treatment periods of roughly two to eight weeks, one of which applied a creatine-containing formulation to men''s faces twice daily for six weeks and reported imaging-based improvements in jowl volume and in the appearance of ageing signs.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: The Truth About Collagen Peptides in 2025
+  creator: Dr. Sarah Sheu
+  creator_slug: dr-sarah-sheu
+  credential: Board-certified dermatologist, MD (Northwestern Feinberg), Stanford dermatology residency (chief resident); Medical Director of Dermatology, Valley Medical Center, Seattle WA
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=sPW2Co8Ocl0
+  posted: '2025-09-27'
+  related: [anti-aging, skin-firmness-elasticity, peptides]
+  thesis: 'Board-certified dermatologist Dr. Sarah Sheu reviews whether oral collagen peptides do anything for skin, and the finding she lands on is about who paid for the research. She describes a meta-analysis published in May 2025 that pooled 23 studies and roughly 1,500 people and found collagen peptides improved skin hydration, elasticity and wrinkles overall, then notes that the investigators split those studies by funding source: the independent studies, with no company money behind them, showed no effect at all on any of the three measures. She also points out that many of the anti-aging studies used doses as low as two grams a day, around ten times less than the twenty-gram serving marked on a typical tub, so the serving size on the label is not the dose the research used. Her general caution about the wider literature is that many of these trials are small, short and not placebo controlled.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

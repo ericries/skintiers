@@ -138,6 +138,17 @@ videos:
   related: [copper-peptides, argireline-acetyl-hexapeptide-8, palmitoyl-pentapeptide-4-matrixyl, anti-aging]
   thesis: Cosmetic chemists Victoria Fu and Gloria Lu interview Rita Silva of DECIEM, the company behind The Ordinary, about what peptides in skincare are actually doing. They set out four jobs peptides are formulated to perform, signalling a cascade in the skin, carrying something else into it, acting on neurotransmitters to relax muscle contraction, and inhibiting enzymes, and the hosts note that peptides have become a catchall that buyers assume will do everything at once. The most striking part is Silva drawing a line around her own employer's claims, saying the company will not stand behind a claim that a product is a direct alternative to an injectable and will never promise the same results as one, and that it was other people promoting the product, not the brand, who described it as an injectable in a bottle
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Do Peptide Serums Actually Work?
+  creator: Dr. Sarah Sheu
+  creator_slug: dr-sarah-sheu
+  credential: Board-certified dermatologist, MD (Northwestern Feinberg), Stanford dermatology residency (chief resident); Medical Director of Dermatology, Valley Medical Center, Seattle WA
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=EFBy-zeuMe0
+  posted: '2026-01-10'
+  related: [palmitoyl-pentapeptide-4-matrixyl, copper-peptides, argireline-acetyl-hexapeptide-8, anti-aging, retinoids]
+  thesis: 'Board-certified dermatologist Dr. Sarah Sheu works through the three peptides people actually buy, Matrixyl, copper peptides and Argireline, and she reads the studies rather than the marketing. On Matrixyl she describes a trial comparing a moisturizer containing it against the same moisturizer without, and flags two things about it: the active product contained just 3 parts per million, which she notes is far less concentrated than many products sold today, and the study was funded by Procter and Gamble. A second trial on crow''s feet showed a positive signal but no statistically significant improvement, and was also industry funded. On Argireline she reports a study that measured wrinkles objectively and saw minimal change after four weeks, with the authors concluding it cannot be considered a botulinum toxin alternative. Her stated position on funding is worth carrying: ignoring every industry-sponsored cosmetic study would leave almost no evidence to decide on, so the funding
+    is a caveat rather than a disqualification.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
