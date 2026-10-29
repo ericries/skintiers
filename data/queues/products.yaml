@@ -3577,7 +3577,7 @@
 - name: Pixi Glow Tonic
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: glycolic-acid
   source: 'Dr. Aleksandra Brown - Glycolic Acid From Head to Toe (video, Y-ZpRAOF3pM).
     CAUTION: the auto-captions render the name as ''Pixlutonic contains 5% glycolic
@@ -4636,3 +4636,12 @@
     cream). The abstract uses only those generic descriptors, so the exact SKU must
     be resolved from Galderma's own product pages before drafting; do not guess the
     name
+- name: Pixi Glow Tonic Serum
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: pixi-glow-tonic
+  source: 'Read from the same Pixi products.json capture on 2026-10-29: handle glow-tonic-serum,
+    product_type ''Serums & Oils'', 24.00 USD, SKU 82305, available. Sibling of the
+    toner under the same Glow Tonic name; resolve its own INCI before drafting, do
+    not assume it matches the toner'

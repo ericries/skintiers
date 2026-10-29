@@ -620,3 +620,11 @@
     on the box today is not the company that filed the older devices. Under 180 words,
     no founding-history essay; its job is to link omnilux-clear-u and whatever Omnilux
     CLEAR page gets built, and to record the entity change. openFDA only.'
+- name: Pixi Beauty
+  type: brand
+  priority: 5
+  status: pending
+  discovered_from: pixi-glow-tonic
+  source: Vendor of the newly shipped pixi-glow-tonic; no brand page exists and the
+    storefront catalogue (products.json, 355 products across two pages) is a cheap
+    primary-ish route for its product list
