@@ -1693,3 +1693,37 @@
   status: pending
   discovered_from: null
   source: null
+- name: '2023 meta-analysis: fractional radiofrequency vs lasers for acne and acne
+    scars (PMID 36062400)'
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: rf-microneedling-acne-scars
+  source: 'PMID 36062400, Journal of Cosmetic Dermatology 2023, ''Meta-analysis of
+    fractional radiofrequency treatment for acne and/or acne scars'', 8 RCTs. The
+    site now cites it on rf-microneedling-acne-scars for the pooled figures but has
+    no study page recording its limits properly. Worth one because the numbers are
+    quotable and easy to misread: the atrophic-scar comparison is EQUIVALENCE not
+    superiority (RR 0.92, 95% CI 0.78-1.08 observer; RR 1.15, 0.99-1.34 patient, both
+    crossing 1), the one efficacy win is patient-evaluated ACNE improvement rather
+    than scars (RR 1.35, 1.01-1.80), and the real advantage is pigmentary (PIH RR
+    0.12, 0.04-0.35). ALSO record the two caveats the hub flags: the comparator is
+    described only as ''the lasers'' without specifying which, and pooled FRF covers
+    fractional radiofrequency generally rather than the microneedle form alone.'
+- name: '2026 split-face RCT: RF microneedling vs fractional CO2 for atrophic acne
+    scars (PMID 42312398)'
+  type: study
+  priority: 4
+  status: pending
+  discovered_from: rf-microneedling-acne-scars
+  source: PMID 42312398, Journal of Dermatological Treatment 2026, a prospective randomized
+    EVALUATOR-BLINDED split-face trial of radiofrequency microneedling against fractional
+    CO2 for facial atrophic acne scars, 33 enrolled and 30 completed, three sessions
+    eight weeks apart, primary endpoint the ECCA score. Mean ECCA fell 54.73 to 30.53
+    with RFMN and 53.67 to 31.03 with FCO2 with no significant between-treatment difference,
+    and RFMN had shorter erythema, pain, swelling and scab-detachment plus fewer PIH
+    events. Worth a study page because the design is unusually good for this category
+    (split-face removes between-patient variation and the evaluator was blinded) while
+    the authors still call it exploratory and the abstract publishes NO p-value, confidence
+    interval or effect size for the between-group comparison. Note the FCO2 subscript
+    extracts as 'FCO 2' and will break a naive quote check.

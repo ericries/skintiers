@@ -89,7 +89,7 @@ Microneedling creates controlled micro-injuries in skin to provoke a repair resp
 
 ## See Also
 
-[[acne-scars]] [[acne]] [[hyperpigmentation]] [[skin-firmness-elasticity]] [[anti-aging]] [[laser-hair-removal]] [[retinoids]]
+[[rf-microneedling-acne-scars]] [[acne-scars]] [[acne]] [[hyperpigmentation]] [[skin-firmness-elasticity]] [[anti-aging]] [[laser-hair-removal]] [[retinoids]]
 
 ## Sources
 
