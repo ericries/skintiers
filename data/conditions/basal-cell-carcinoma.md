@@ -6,6 +6,18 @@ slug: basal-cell-carcinoma
 status: published
 type: condition
 updated: '2026-10-01'
+videos:
+- title: Dermatologist ultimate guide to basal cell carcinoma
+  creator: Dr. Abigail Waldman (Dr. Abby)
+  creator_slug: abigail-waldman
+  credential: Abigail H. Waldman, MD, FAAD; Mohs and dermatologic surgeon specialising in skin cancer
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=58XvGY2s6JQ
+  posted: '2024-06-05'
+  related: [skin-cancer-screening, actinic-keratosis, melanoma, sunscreen-uv-filters]
+  thesis: 'Abigail Waldman, a board-certified dermatologist and Mohs surgeon whose specialty is skin cancer, opens with the mistakes patients make before diagnosis: she says people bring her basal cell carcinomas believing they are dry skin that moisturiser will not fix, a pimple that has not cleared in eight weeks or longer, or ringworm they have been treating with over-the-counter antifungals. Her diagnostic rule of thumb is a rash or pimple that does not resolve in roughly six to eight weeks, most often on sun-exposed skin but also in places people overlook such as the eyelid, scalp, inside the ears, the feet and the genitalia, and lesions that itch, hurt, bleed or grow. She then explains that treatment depends on the subtype read off the pathology report, with superficial basal cells on the trunk and limbs having non-surgical options that higher-risk sites and subtypes do not.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Basal cell carcinoma (BCC) is a cancer that begins in the basal cells at the base of the epidermis, and with [[squamous-cell-carcinoma]] it is one of the two most common types of skin cancer, together called nonmelanoma skin cancer.[^nci] The American Academy of Dermatology describes it as a skin cancer that "tends to grow slowly and rarely spreads," adding that "it can grow deep, so you want to treat this skin cancer early."[^aad] This is a medical disease diagnosed and treated by physicians, most commonly with surgery, and it is entirely outside the scope of skincare products; skincare's only role is prevention through sun protection.[^nci][^aad]

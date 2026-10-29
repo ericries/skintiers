@@ -216,6 +216,16 @@ videos:
   related: [retinoids, isotretinoin, dry-skin, oily-skin]
   thesis: 'Answering a viewer who assumed retinoids dry the skin by shrinking oil glands, board-certified dermatologist Andrea Suarez corrects the premise outright: topical retinoids do not impact the sebaceous oil gland at all and do not shrink it, so using tretinoin does not give you less sebum. The drug that does shrink abnormally enlarged oil glands is oral isotretinoin, which is a different medicine taken a different way. She explains that tretinoin can cause dryness early on through irritation rather than through any effect on oil production, that the dryness tends to subside, and that in her own experience long-term consistent use improved her facial dryness by improving how the skin matures and holds moisture.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: How to use tretinoin for beginners
+  creator: Dr. Abigail Waldman (Dr. Abby)
+  creator_slug: abigail-waldman
+  credential: Abigail H. Waldman, MD, FAAD; Mohs and dermatologic surgeon specialising in skin cancer
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=Tq3NM18ti18
+  posted: '2024-06-26'
+  related: [retinoids, acne, anti-aging, skin-barrier-repair]
+  thesis: Board-certified dermatologist Abigail Waldman gives a starting protocol for tretinoin aimed at people who abandoned it the first time because of irritation. She says to use a pea-sized amount, to begin at night only and every third night rather than nightly, going as low as once a week for very sensitive skin, then every second night in the second month and nightly only as tolerated, applying moisturiser after the tretinoin. She tells viewers an acne purge in the first weeks is normal and expected, more likely in acne-prone skin and often lasting several weeks, and she flags sun sensitivity alongside the United States position that prescription tretinoin is contraindicated in pregnancy and breastfeeding.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

@@ -6,6 +6,18 @@ slug: actinic-keratosis
 status: published
 type: condition
 updated: '2026-09-26'
+videos:
+- title: Actinic keratosis treatment guide from a dermatologist
+  creator: Dr. Abigail Waldman (Dr. Abby)
+  creator_slug: abigail-waldman
+  credential: Abigail H. Waldman, MD, FAAD; Mohs and dermatologic surgeon specialising in skin cancer
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=WG8TJ28GGQc
+  posted: '2024-07-18'
+  related: [fluorouracil-topical, basal-cell-carcinoma, skin-cancer-screening, sunscreen-uv-filters]
+  thesis: 'Board-certified dermatologist Abigail Waldman walks through how to recognise an actinic keratosis and what the treatment options are, drawing on her experience treating skin cancers and precancers. Her recognition tip is tactile rather than visual: she describes the small pink spots as better felt than seen, gritty and rough under the fingertips, and shows one on the tip of the nose against a background of sun damage. On treatment she separates the approaches by how much skin is involved, putting cryotherapy with liquid nitrogen at one or two or three isolated lesions, topical creams next, and photodynamic therapy at patients whose precancers cover a large surface area.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Actinic keratosis (also called solar keratosis) is a rough, scaly patch that forms on chronically sun-exposed skin and is considered a precancer: a lesion the National Cancer Institute describes as "the related noninvasive lesion actinic keratosis (viewed by some pathologists as a variant of in situ [squamous cell carcinoma])."[^nci] It is a physician-diagnosed and physician-treated condition, not something over-the-counter skincare treats, and the one skincare-relevant lever is prevention through daily [[sunscreen-uv-filters|sun protection]].
