@@ -196,9 +196,9 @@ videos:
     a product truly supports the moisture barrier or only feels like it does.
   title: '#barrierrepair #moisturebarrier #skincareroutine'
   url: https://www.tiktok.com/@dr.obioha/video/7288898312877493547
-- creator: ''
+- creator: Dr. Ife Rodney
   creator_slug: ife-rodney
-  credential: ''
+  credential: Board-certified dermatologist
   note: Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship.
   platform: TikTok
   posted: '2026-07-29'

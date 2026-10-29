@@ -578,9 +578,9 @@ videos:
     simply the one a person will actually wear consistently.
   title: 'Myth busting: Chemical vs. Mineral SPF edition'
   url: https://www.tiktok.com/@brookejeffymd/video/7636175182578617614
-- creator: ''
+- creator: Dr. Ife Rodney
   creator_slug: ife-rodney
-  credential: ''
+  credential: Board-certified dermatologist
   note: Verified from the video's TikTok transcript (yt-dlp captions, read in full);
     no sponsorship.
   platform: TikTok

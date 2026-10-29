@@ -36,7 +36,7 @@ type: goal
 updated: '2026-08-30'
 videos:
 - title: How lasers work on skin, not just hair removal
-  creator: Dr. Ife Rodney (@driferodney)
+  creator: Dr. Ife Rodney
   creator_slug: ife-rodney
   credential: Board-certified dermatologist
   platform: TikTok

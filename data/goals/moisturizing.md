@@ -33,9 +33,9 @@ tier_list_reviewed:
 type: goal
 updated: '2026-10-08'
 videos:
-- creator: ''
+- creator: Dr. Ife Rodney
   creator_slug: ife-rodney
-  credential: ''
+  credential: Board-certified dermatologist
   note: Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship.
   platform: TikTok
   posted: '2026-07-28'
