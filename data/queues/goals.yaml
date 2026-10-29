@@ -663,3 +663,21 @@
   status: pending
   discovered_from: null
   source: null
+- name: Infrared heat lamps versus LED skin devices (which kind of light device is
+    it)
+  type: goal
+  priority: 4
+  status: pending
+  discovered_from: dpl-therapy-system
+  source: 'A boundary the site documents nowhere and that this tick made concrete:
+    FDA reviews infrared HEATING lamps and LED SKIN devices under different product
+    codes, different regulations and different advisory panels, and consumers conflate
+    them because both are marketed as red or infrared light. Verified today: the original
+    dpl device (K081570) sits under ILY, ''Lamp, Infrared, Therapeutic Heating'',
+    21 CFR 890.5500, PHYSICAL MEDICINE panel, cleared for muscle spasms and arthritis
+    stiffness, while every later dpl skin device sits under OHS or OLP with the General
+    and Plastic Surgery panel. The page''s job is to let a reader tell which kind
+    of device they are looking at and what each is actually cleared to do, routing
+    skin evidence to home-led-light-therapy and saying plainly that this site does
+    not grade pain outcomes. Build it SHORT and descriptive; do not imply heating
+    lamps are fraudulent, they are simply a different product with a different claim.'

@@ -3553,7 +3553,7 @@
 - name: DPL Therapy System (LED Technologies, K081570)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: 'openFDA applicant query for LED Technologies, re-run 2026-10-21: K081570,
     decision 2008-11-07, Summary, product code ILY, which is a DIFFERENT code from
@@ -4596,3 +4596,18 @@
     a clinical study, an output figure in microamps, and whether it is sold under
     the CurrentBody name or one of the firm''s own brands. accessdata.fda.gov with
     a browser user-agent.'
+- name: Dermillume Red HR 1000 (K051681)
+  type: product
+  priority: 3
+  status: pending
+  discovered_from: dpl-therapy-system
+  source: '510(k) K051681, the OUTSIDE predicate the entire dpl line traces back to:
+    the 2008 DPL Therapy System was cleared as substantially equivalent to ''the Dermillume
+    Red HR 1000 device, 510(k) K051681'' (verified verbatim from the K081570 Summary,
+    2026-10-28). Every later dpl filing chains to the firm''s own earlier products,
+    so this is the one link out of the family. Worth a page only if the K051681 file
+    turns out to contain something the dpl chain inherited, in particular any dose
+    figure or clinical endpoint, since no dpl filing read so far publishes an irradiance
+    value. Read it FIRST and drop the item if it is a bare heating-lamp clearance
+    with nothing carried forward. accessdata.fda.gov with a browser user-agent; expect
+    a 2005-era scan needing page rendering.'

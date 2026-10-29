@@ -22,6 +22,7 @@ The FDA record is the usable source instead. LED Technologies holds 15 device cl
 
 ## Products reviewed here
 
+- [[dpl-therapy-system]]: the 2008 clearance the line began with, an infrared heating lamp for muscle aches and arthritis under the Physical Medicine panel, with no skin claim in it at all.
 - [[dpl-spotlite]]: a blue and red LED acne device whose only human study is a 16-person usability test.
 - [[dpl-faceware]]: a five-wavelength face device cleared against three of the firm's own earlier products.
 - [[dpl-nuve]]: a 2010 clearance whose Summary names no irradiance, treatment area or wavelength heading at all.
