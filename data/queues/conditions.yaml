@@ -546,7 +546,7 @@
 - name: Xerosis (dry, scaly skin) as a clinical term
   type: condition
   priority: 5
-  status: pending
+  status: done
   discovered_from: keratolytics-compared
   source: 'The actual endpoint of every head-to-head keratolytic trial on keratolytics-compared,
     and the term the FDA-approved ammonium lactate indication uses, yet the site has
@@ -559,7 +559,7 @@
 - name: Calluses and corns
   type: condition
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: smoothing-skin-texture names calluses and corns as a common cause of thickened
     skin with no page on this site
@@ -718,3 +718,12 @@
     and 13.6% vs 4.9% with topical steroid, and lists conjunctivitis and keratitis
     as a named warning; the same ocular signal recurs on dupilumab. No hub covers
     it and two graded ingredient pages now point at it
+- name: Warts (common and plantar)
+  type: condition
+  priority: 5
+  status: pending
+  discovered_from: calluses-and-corns
+  source: 'A genuine gap the new hub ran into: 40% salicylic acid plasters carry the
+    single purpose line ''Corn Remover Wart remover'', so the same OTC product is
+    sold for both, and this site has no warts page to send readers to. openFDA brand_name
+    ''wart'' plus DailyMed SPLs are the primary route'

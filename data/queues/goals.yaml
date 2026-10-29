@@ -681,3 +681,12 @@
     skin evidence to home-led-light-therapy and saying plainly that this site does
     not grade pain outcomes. Build it SHORT and descriptive; do not imply heating
     lamps are fraudulent, they are simply a different product with a different claim.'
+- name: Pressure offloading, padding and footwear for foot hyperkeratosis
+  type: goal
+  priority: 5
+  status: pending
+  discovered_from: calluses-and-corns
+  source: The mechanism that causes corns and calluses, named in the new hub's tier_list_reviewed
+    but ungraded because no trial was read for it. PMID 30065787 (footwear fit and
+    foot disorders, systematic review) and PMID 23782557 (off-the-shelf footwear RCT)
+    are starting points

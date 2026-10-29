@@ -4672,3 +4672,12 @@
     niacinamide, gluconolactone and hydrolyzed collagen, and is marketed as a five-in-one
     laser-inspired serum at about 25 dollars for 1 oz; resolve the INCI and price
     from the brand before drafting rather than from the video
+- name: Salicylic Acid 40% Corn Remover plaster (ASO Pharmaceutical)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: calluses-and-corns
+  source: NDC 51511-599, DailyMed setid 34b68520-f1ac-b402-e063-6394a90aed40, read
+    2026-10-29. The label's 14-day direction against the 10-month median resolution
+    in PMID 26668108 is the review; inactives are lanolin, polybutene, rosin ester
+    and rubber
