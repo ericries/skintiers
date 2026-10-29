@@ -7,43 +7,46 @@ slug: systemic-atopic-dermatitis-treatments-by-evidence
 status: published
 tier_list:
   by: how well each drug's own clearance evidence holds up, from a 2026 Bayesian network meta-analysis
-    of 33 phase 3 and 4 randomized trials and a 2026 meta-analysis of real-world use. Grading
-    covers only the drugs with their own pages here; the rest of the field is named in the prose
-    and listed under tier_list_reviewed
-  caption: Oral JAK inhibitors clear eczema faster and further than anything else measured, and
-    they are still not the first systemic a dermatologist reaches for. Their own FDA labels place
-    them after biologics, and they carry a boxed warning that biologics do not. Rank by clearance
-    and you get the opposite of the order these drugs are actually prescribed in.
+    of 33 phase 3 and 4 randomized trials and a 2026 meta-analysis of real-world use. Grading covers only
+    the drugs with their own pages here; the rest of the field is named in the prose and listed under
+    tier_list_reviewed
+  caption: Oral JAK inhibitors clear eczema faster and further than anything else measured, and they are
+    still not the first systemic a dermatologist reaches for. Their own FDA labels place them after biologics,
+    and they carry a boxed warning that biologics do not. Rank by clearance and you get the opposite of
+    the order these drugs are actually prescribed in.
   items:
   - note: The highest clearance of any systemic measured. A 2026 network meta-analysis of 33 randomized
-      trials found upadacitinib 30 mg "consistently exhibited the highest probability of achieving
-      each clinical endpoint", and in pooled real-world use it reached EASI-75 in 83% and EASI-90
-      in 55% of patients at 16 weeks, the best of the three oral JAK inhibitors. The catch is
-      not efficacy. Its label restricts it to disease not controlled by other systemics including
-      biologics, and it carries a boxed warning for serious infections, mortality, malignancy,
-      major adverse cardiovascular events and thrombosis. See [[upadacitinib]].
+      trials found upadacitinib 30 mg "consistently exhibited the highest probability of achieving each
+      clinical endpoint", and in pooled real-world use it reached EASI-75 in 83% and EASI-90 in 55% of
+      patients at 16 weeks, the best of the three oral JAK inhibitors. The catch is not efficacy. Its
+      label restricts it to disease not controlled by other systemics including biologics, and it carries
+      a boxed warning for serious infections, mortality, malignancy, major adverse cardiovascular events
+      and thrombosis. See [[upadacitinib]].
     slug: upadacitinib
     tier: strong
   - note: Second of the two oral JAK inhibitors graded here, and second on clearance. Pooled real-world
       data put it at EASI-75 in 75% and EASI-90 in 38% at 16 weeks, between baricitinib and upadacitinib.
-      It carries the same second-line label position and the same JAK class boxed warning, plus
-      one quirk that matters to a skincare reader, in that it caused acne in 21% of patients,
-      the highest of the three, and acne was among the most common reasons people stopped. See
-      [[abrocitinib]].
+      It carries the same second-line label position and the same JAK class boxed warning, plus one quirk
+      that matters to a skincare reader, in that it caused acne in 21% of patients, the highest of the
+      three, and acne was among the most common reasons people stopped. See [[abrocitinib]].
     slug: abrocitinib
     tier: strong
 tier_list_reviewed:
-- baricitinib (oral JAK inhibitor; lowest clearance of the three at EASI-75 51% and EASI-90 24%,
-  but it has no page here yet, so it is named in the prose rather than graded)
-- dupilumab (the most established biologic for atopic dermatitis and the comparator the JAK labels
-  defer to; no page here yet)
-- tralokinumab and lebrikizumab (IL-13 biologics; no pages here yet)
-- stapokibart and ivarmacitinib (appear in the 2026 network meta-analysis; not approved in the
-  US and no pages here)
-- crisaborole and topical corticosteroids (topical, not systemic; out of scope for this list,
-  covered on [[atopic-dermatitis]])
+- baricitinib (oral JAK inhibitor; lowest clearance of the three at EASI-75 51% and EASI-90 24%, but it
+  has no page here yet, so it is named in the prose rather than graded)
+- dupilumab (the most established biologic for atopic dermatitis and the comparator the JAK labels defer
+  to; it now has a page here, [[dupilumab]], graded best off its own label, but it is not graded into
+  this list because this ranking rests on the 2026 network meta-analysis figures and those are not reported
+  for it here)
+- tralokinumab and lebrikizumab (IL-13 biologics; tralokinumab now has a page here, [[tralokinumab]],
+  graded good off its own label, and is left ungraded in this list for the same reason as dupilumab. Lebrikizumab
+  still has no page)
+- stapokibart and ivarmacitinib (appear in the 2026 network meta-analysis; not approved in the US and
+  no pages here)
+- crisaborole and topical corticosteroids (topical, not systemic; out of scope for this list, covered
+  on [[atopic-dermatitis]])
 type: list
-updated: '2026-10-05'
+updated: '2026-10-29'
 ---
 
 Systemic drugs for atopic dermatitis that other treatments have not controlled, ranked on how well their own clearance evidence holds up. These are prescription pills and injections managed by a physician, not skincare. The barrier-repair and trigger-avoidance side of eczema, which is where this site's usual advice lives, is on [[atopic-dermatitis]].

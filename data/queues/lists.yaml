@@ -888,3 +888,13 @@
     with clearance counts, cite openFDA per row, and keep it descriptive. Do NOT imply
     anything improper; filing under a licensee or retailer brand is ordinary. The
     honest point is only that the brand name is not an independence signal.'
+- name: Grade dupilumab and tralokinumab into systemic-atopic-dermatitis-treatments-by-evidence
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: tralokinumab
+  source: Both now have pages (graded best and good off their own FDA labels) but
+    are left in tier_list_reviewed because that list ranks by the 2026 Bayesian network
+    meta-analysis of 33 trials, which must supply their EASI-75/EASI-90 figures for
+    a like-for-like rung. Read the NMA itself; do not port label percentages into
+    an NMA ranking

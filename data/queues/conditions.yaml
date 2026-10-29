@@ -709,3 +709,12 @@
     to the Roessle study page with its limitation intact, that the trial measured
     skin-quality surrogates and never counted a lesion. Do NOT build this as a COVID-era
     topic; mask acne is the hook, friction acne is the subject.'
+- name: Conjunctivitis and keratitis from IL-13 and IL-4 biologics
+  type: condition
+  priority: 5
+  status: pending
+  discovered_from: tralokinumab
+  source: The Adbry label reports conjunctivitis at 7.5% vs 3.1% placebo on monotherapy
+    and 13.6% vs 4.9% with topical steroid, and lists conjunctivitis and keratitis
+    as a named warning; the same ocular signal recurs on dupilumab. No hub covers
+    it and two graded ingredient pages now point at it
