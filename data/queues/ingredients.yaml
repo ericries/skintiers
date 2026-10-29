@@ -3142,3 +3142,12 @@
     toners; no ingredient page exists, so pages currently have nothing to link out
     to when it appears. Note the leaf extract declared here is not the alcohol-containing
     distillate often assumed
+- name: Acetyl Dipeptide-31 Amide (AP31)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: exosomes
+  source: The signalling peptide in Neutrogena's Collagen Bank line; the clinical
+    evidence Dr Dray describes is a 16-week single-arm study of 38 women aged 40 to
+    65 using a finished cream at 0.4% with no vehicle control. Find and read that
+    study directly; no page exists and peptides has nothing to link to

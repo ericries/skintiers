@@ -14271,7 +14271,8 @@
   conflict: Founder of own-brand skincare line (Skin Rocks); recent upload mix is dominated by PR-gifted product unboxings and empties (haul-adjacent fo
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: interview with the founder of a beauty brand; not single-topic and not evidence education
 - id: TOvbprlI7VE
   title: I Drove My RV to a Town With No Derms to Do Free Skin Cancer Checks
   creator: Dr. Dustin Portela
@@ -14284,7 +14285,8 @@
   conflict: null
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'clean of sponsorship but off-topic: a mobile-clinic vlog that pivots into US Medicare reimbursement advocacy (modifier 25, the RUC committee, a proposed cut), not skin-health education; its policy figures would need independent verification and no page here hosts that argument'
 - id: Z7JQXw89HCo
   title: Yoonchae, Your Skin Care Routine Makes Me So Proud 🥹
   creator: Hyram (Skincare by Hyram)
@@ -14297,7 +14299,8 @@
   conflict: has an own-brand line (Selfless) and does sponsorships - educational content only, never treat picks as endorsements, never use sponsored videos
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: reaction to another person's routine; not single-topic, and creator is MED tier with own-brand line
 - id: qux9ACowilY
   title: SKIMS Beauty Is Coming…Has Kim Kardashian Learnt Nothing? 🙃
   creator: James Welsh
@@ -14310,7 +14313,8 @@
   conflict: does sponsorships - educational content only, never treat picks as endorsements, never use sponsored videos
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: commentary on a celebrity brand launch; opinion about a company, not skin-health education
 - id: '7700798298466028814'
   title: Putting my faith in the TikTok algorithm 🥹🇨🇴 Looking for a wedding co...
   creator: Jenn Lexi (@jennlexi_)
@@ -14390,7 +14394,8 @@
   conflict: Own-brand UPF sun-protective clothing line, SOUL-A (wearsoula.com / @wearsoula), founded and promoted by him — apparel, not topical skincare
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: hashtag-stuffed reaction Short; no single topic matching a page here
 - id: '7700966404467510542'
   title: Ooo, the secret's out... something new is coming to Dermy Doc Institu...
   creator: Fatima Fahs
@@ -14445,7 +14450,8 @@
   conflict: Runs extensive Amazon Associates and ShopMy affiliate storefronts, monetizing nearly every product mentioned across videos
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: single-product pick from a creator whose roster entry records extensive Amazon Associates and ShopMy storefronts monetizing nearly every product mentioned; picks are treated as effectively paid under the standing affiliate rule
 - id: PEm-uJXOYhU
   title: 'skincare for your 30s #skincare'
   creator: Dr. Neera Nathan
@@ -14458,7 +14464,8 @@
   conflict: Runs a "Shop my Favorites" affiliate storefront (linktr.ee/dermatologysurgeon) that monetizes her product picks; no own-brand prod
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: age-bracket routine Short from a creator with a Shop-my-Favorites affiliate storefront monetizing her picks; not single-topic either
 - id: '7701149425321725214'
   title: 🖇️ Comment DOSE to shop Dose (of) Derm  For over a decade, my patient...
   creator: Dr. Sheila Farhang (dr.sheila_derm)

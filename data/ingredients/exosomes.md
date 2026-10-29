@@ -20,6 +20,17 @@ videos:
   thesis: 'Cosmetic chemists Victoria Fu and Gloria Lu of Chemist Confessions interview Charlotte Cho, founder of Soko Glam and the K-beauty brand Then I Met You, about the state of Korean skincare. Cho explains that toner and essence are largely interchangeable, brand-defined category names, that snail mucin has endured as an ingredient because it hydrates without heaviness (not just because of TikTok trends), and that recent US sunscreen filter crackdowns forced Korean brands to reformulate hero sunscreens while still performing well. In a rapid-fire "worth the hype" segment, the hosts and Cho give informal verdicts on several trending ingredients: exosomes (not yet, evidence still pending), PDRN (potentially yes but highly dependent on brand and sourcing, since claims of "PDRN" vary widely in quality), NAD+ (unproven, not yet in her routine), topical glutathione (yes, though injectable/ingestible glutathione is viewed skeptically), and Volufiline (skeptical of viral filler-like marketing
     claims but reporting personal results using it in a snail-mucin/Volufiline/azelaic eye cream over a 12-week testing period).'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: 'Neutrogena Collagen Bank Laser Serum Review: Does It Really Work?'
+  creator: Andrea Suarez (Dr Dray)
+  creator_slug: andrea-suarez-dr-dray
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=p0dDvCihMq8
+  posted: '2026-10-26'
+  related: [peptides, niacinamide, gluconolactone-pha, anti-aging, neutrogena]
+  thesis: Board-certified dermatologist Andrea Suarez, who posts as Dr Dray, reviews the Neutrogena Collagen Bank Laser Perfecting Serum ingredient by ingredient and separates what each one has been shown to do from what the packaging implies. She is most cautious about its plant-derived exosomes, noting that the activity reported for plant vesicles comes from laboratory and animal work plus small early human studies without rigorous placebo controls, and that such results do not establish the vesicles penetrate intact human skin or remodel collagen. She reads the peptide acetyl dipeptide-31 amide as genuinely interesting but tested in a 16-week single-arm study of 38 women using a finished cream with no vehicle control, so the peptide's own contribution cannot be separated out, and she treats the hydrolyzed collagen as a surface hydrator rather than something that rebuilds dermal collagen. Her verdict is that the niacinamide and the gluconolactone are the most compelling things in the bottle,
+    that laser-inspired should not be read as laser-equivalent, and that she would not buy it for the exosomes.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

@@ -4662,3 +4662,13 @@
     Radio Frequency Induced Heat', whose classification definition covers minor aches
     and a temporary appearance change rather than a lasting one; the gap between that
     code and how such devices are marketed is the story
+- name: Neutrogena Collagen Bank Laser Perfecting Serum
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: exosomes
+  source: Dr Dray ingredient-by-ingredient review (video p0dDvCihMq8, 2026-10-26).
+    Per her transcript it declares plant-derived exosomes, acetyl dipeptide-31 amide,
+    niacinamide, gluconolactone and hydrolyzed collagen, and is marketed as a five-in-one
+    laser-inspired serum at about 25 dollars for 1 oz; resolve the INCI and price
+    from the brand before drafting rather than from the video
