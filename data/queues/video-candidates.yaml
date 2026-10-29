@@ -14700,7 +14700,8 @@
   conflict: Founder/owner of active postpartum skincare brand "More Than Nine" (cleanser, exfoliator, moisturizer, balm) — an ongoing own-bran
   posted: '2026-10-28'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'NOT rejected on content: a pregnancy-safe retinoid-alternative clip is a genuine topic match for pregnancy-safe-skincare and 42s clears the floor. Deferred because the creator founds and owns the postpartum brand More Than Nine, making a pregnancy-adjacent alternatives clip the highest own-brand risk format she posts, and this tick had two cleaner cards. Re-queue and read the transcript if she posts a non-pregnancy explainer, or check this one when there is budget to verify no own-product landing.'
 - id: njk3f4HdnHU
   title: 'LED Light Therapy: What the Clinical Research Actually Shows | Dermatologist Explains'
   creator: Andrea Suarez (Dr Dray)
@@ -14726,7 +14727,8 @@
   conflict: Bio includes a business/booking contact email suggesting managed brand partnerships; no confirmed own-brand line or affiliate stor
   posted: '2026-10-29'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'Rejected: 13 seconds, under the ~25s floor, and the caption is a generic ''friendly reminder'' with no single topic to card.'
 - id: j9VEmqAPH3w
   title: 'Moisturisers for normal to dry skin | Dermatologist recommended Moisturisers #skincareproducts'
   creator: Dr. Aanchal MD
@@ -14765,7 +14767,8 @@
   conflict: Co-developed/formulated the Tbh Skincare 'Rebound' Serum and Toner (product-formulation partnership) — her endorsement of that spe; no YouTube; TikTok/IG intake
   posted: '2026-10-28'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'Rejected: a blush try-on tagging @AMUSE Seoul. Makeup rather than skincare, and a tagged brand product.'
 - id: '7701840036005743886'
   title: 'Day 5 part 3: what actually CAUSES barrier damage? #barrierdamage #da...'
   creator: Jenn Lexi (@jennlexi_)
@@ -14791,7 +14794,8 @@
   conflict: runs an Amazon affiliate storefront and does sponsored posts - strongly prefer educational / how-to / ingredient-explainer videos; be very cautious with any product recommendation
   posted: '2026-10-28'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'Rejected: a single-product toner recommendation (''the toner that I recommend over and over'') from a creator who runs an Amazon affiliate storefront, so picks are treated as effectively paid. Third rejection of a product-pick clip from this creator.'
 - id: '7701838969255791902'
   title: The bad, the better, and the best! Comment BEST for products listed i...
   creator: Dr. Mamina Turegano

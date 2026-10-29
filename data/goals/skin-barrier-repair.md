@@ -475,6 +475,16 @@ videos:
   related: [double-cleansing, dry-skin, exfoliating-acids-by-strength]
   thesis: 'Dermatologist Dr Fatima Fahs gives two small seasonal adjustments rather than a routine overhaul, which she says is the mistake she sees every autumn alongside the opposite one of ignoring the season entirely. She suggests adding an exfoliating acid a few nights a week, on the reasoning that the skin''s own exfoliation slows as the year cools, and she caps it herself: a few nights, not going wild, because the point is not to wreck the skin barrier. Her second suggestion is to swap an intense cleanser for a gentler one as the weather and the humidity change. She names no specific product or acid.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: What actually causes barrier damage
+  creator: Jenn Lexi
+  creator_slug: jennlexi
+  credential: Esthetician (self-identified); not a dermatologist or cosmetic chemist
+  platform: TikTok
+  url: https://www.tiktok.com/@jennlexi_/video/7701840036005743886
+  posted: '2026-10-28'
+  related: [exfoliation, retinoids, exfoliating-acids-by-strength, sensitive-skin, ceramides]
+  thesis: 'Esthetician Jenn Lexi asks why barrier repair gets all the attention while the question of what damaged the barrier gets none, and argues the order is backwards. Her observation from people who message her is that the person reporting a damaged barrier is usually exfoliating daily, using several exfoliants at once, running eight products, or applying a retinoid every day, and is then surprised the skin is inflamed, raw, flaking and red. Her central point is that healing the barrier and then returning to the same routine simply damages it again. The mechanism she describes is cumulative rather than any single product: a retinoid three times a week plus exfoliating twice a week plus an exfoliating cleanser every morning may each be fine alone, but together they leave no recovery time, because those products work by temporarily disrupting the skin to speed cell turnover and shed dead skin, which leaves it more vulnerable.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

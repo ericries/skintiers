@@ -281,7 +281,7 @@
   channel: https://www.tiktok.com/@dermydoctor
   product_recs: restricted
   conflict: null
-  last_pulled: '2026-10-28'
+  last_pulled: '2026-10-29'
 - name: Dr. Michelle Henry, MD FAAD
   creator_slug: michelle-henry-md-faad
   credential: Board-certified dermatologist
@@ -456,7 +456,7 @@
   channel: https://www.tiktok.com/@jennlexi_
   product_recs: restricted
   conflict: 'Runs #ad sponsored posts (e.g. TruSkin) and Target skincare hauls/reviews; prefer her educational ingredient-category and barrier-repair explainers, and treat product recommendations as effectively promotional (skip).'
-  last_pulled: '2026-10-27'
+  last_pulled: '2026-10-29'
 - name: Doctorly
   creator_slug: doctorly
   backfill_cursor: 30

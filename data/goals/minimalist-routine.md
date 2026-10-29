@@ -28,6 +28,16 @@ videos:
   related: [azelaic-acid, retinoids, acne, hormonal-acne, hyperpigmentation, vitamin-c]
   thesis: 'Licensed esthetician Ella argues that routine-hopping is the main reason people see no results, because swapping products every two months never gives a treatment long enough to work. Her timelines: any acne treatment takes three to six months, and pigmentation and ageing take longer still, so abandoning a vitamin C serum after one bottle tells you nothing. She frames acne as a regulation issue rather than dirty skin that can be scrubbed away. Her recommendation is to settle on a base of cleanser, moisturizer and sunscreen plus one or two consistent treatments, naming azelaic acid in the morning and a retinoid the skin can tolerate at night as the combination that suits most concerns, and to do the experimenting with makeup instead. She adds that stronger does not always mean better.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: If your skincare routine takes more than five minutes, you are doing too much
+  creator: Fatima Fahs
+  creator_slug: fatima-fahs
+  credential: Dermatologist (MD)
+  platform: TikTok
+  url: https://www.tiktok.com/@dermydoctor/video/7701687999347674381
+  posted: '2026-10-28'
+  related: [am-pm-routine-by-evidence, retinoids, vitamin-c, sunscreen-uv-filters, exfoliation]
+  thesis: 'Dermatologist Dr. Fatima Fahs makes the case that a skincare routine taking more than five minutes is doing too much, and then walks through the one she actually uses. In the morning she washes her face in the shower, dabs on an eye cream (caffeine if you tend to wake up puffy), applies an antioxidant where she says vitamin C is especially useful, and finishes with a moisturizing sunscreen, making the point that a separate moisturizer and sunscreen can be combined into one step rather than layered. At night she cleanses to remove the oil, makeup and pollutants the day deposited so the skin is ready to take a treatment, uses a retinol most nights unless pregnant, swaps in an exfoliant for one or two of those nights instead, and finishes with a moisturizer. Her framing is permissive rather than prescriptive: if you enjoy a longer ritual, keep it, but it is not necessary.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
