@@ -149,6 +149,16 @@ videos:
   thesis: 'Board-certified dermatologist Dr. Sarah Sheu works through the three peptides people actually buy, Matrixyl, copper peptides and Argireline, and she reads the studies rather than the marketing. On Matrixyl she describes a trial comparing a moisturizer containing it against the same moisturizer without, and flags two things about it: the active product contained just 3 parts per million, which she notes is far less concentrated than many products sold today, and the study was funded by Procter and Gamble. A second trial on crow''s feet showed a positive signal but no statistically significant improvement, and was also industry funded. On Argireline she reports a study that measured wrinkles objectively and saw minimal change after four weeks, with the authors concluding it cannot be considered a botulinum toxin alternative. Her stated position on funding is worth carrying: ignoring every industry-sponsored cosmetic study would leave almost no evidence to decide on, so the funding
     is a caveat rather than a disqualification.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Protecting and stimulating collagen, and why topical collagen is the wrong molecule
+  creator: Dr. Michelle Henry, MD FAAD
+  creator_slug: michelle-henry-md-faad
+  credential: Board-certified dermatologist
+  platform: TikTok
+  url: https://www.tiktok.com/@skindoctoks/video/7624632290739621133
+  posted: '2026-04-03'
+  related: [sunscreen-uv-filters, vitamin-c, anti-aging]
+  thesis: Board-certified dermatologist Michelle Henry explains why a cream labelled collagen is the wrong molecule for the job, saying collagen itself is too large to penetrate the skin, so what gets in are peptides or collagen peptides, which she describes as stimulating the larger molecule. She tells viewers to read the bottle for that distinction. Her other advice in the clip is daily sunscreen at SPF 30, or SPF 50 for more than an hour outdoors, and a balanced diet for the amino acids, zinc and vitamin C she calls part of the machinery for making collagen, which is also the basis for her stated pushback on collagen supplements taken without one.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

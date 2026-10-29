@@ -208,6 +208,16 @@ videos:
   related: [salicylic-acid, glycolic-acid, lactic-acid, mandelic-acid, tretinoin, adapalene]
   thesis: 'Skincare educator Kristin Leite, a beauty product developer rather than a dermatologist or cosmetic chemist, separates two things that get conflated. Retinoids, she says, increase cell turnover, meaning new skin cells arrive faster, which is why the family is used for both aging and acne-prone skin. Exfoliating acids such as AHAs, BHAs, PHAs and LHAs do something different: they remove and unstick the dead top layer rather than creating new cells, so skin can feel smoother. She notes the two processes can be combined but advises sticking to one active at a time on sensitive skin. No products are named in the clip.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Beef tallow versus smart skincare science
+  creator: Dr. Michelle Henry, MD FAAD
+  creator_slug: michelle-henry-md-faad
+  credential: Board-certified dermatologist
+  platform: TikTok
+  url: https://www.tiktok.com/@skindoctoks/video/7618624204358814990
+  posted: '2026-03-18'
+  related: [vitamin-c, moisturizing, blackheads-clogged-pores]
+  thesis: Asked on camera about skincare trends circulating on social media, board-certified dermatologist Michelle Henry describes beef tallow as rendered fat from around a cow's organs that contains fatty acids, and says she does not consider it a smart moisturizer. She adds that in her view it is more likely to clog pores than a formulated moisturizer, which is her clinical opinion rather than a trial result. Asked what she would use instead, she names retinoids and vitamin C as the tried and true options.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 name: Retinoids
 slug: retinoids
 status: published

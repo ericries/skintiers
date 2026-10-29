@@ -4980,7 +4980,8 @@
   conflict: Founder/owner of active postpartum skincare brand "More Than Nine" (cleanser, exfoliator, moisturizer, balm) — an ongoing own-bran
   posted: '2026-09-17'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: postpartum/breastfeeding skin from the founder of the postpartum brand More Than Nine; squarely own-brand territory, the recurring rejection pattern for this creator
 - id: mz538zm8mHU
   title: 'Skin Bumps 101: 8 Common Types Explained'
   creator: Dr. Aleksandra Brown, DO, FAAD
@@ -5165,7 +5166,8 @@
   conflict: null
   posted: '2026-09-17'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 7 seconds and no topic; far below the short-form floor
 - id: '7686679034901581077'
   title: forgot to include these shoes last time so I had to do a whole vinted...
   creator: Hannah English (@ms_hannah_e / Hannah Collingwood English)
@@ -5659,7 +5661,8 @@
   conflict: Bio includes a business/booking contact email suggesting managed brand partnerships; no confirmed own-brand line or affiliate stor
   posted: '2026-09-18'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: fast-food joke, not skincare
 - id: '7686955717349215502'
   title: '#tidepartner #TideFresh&Gentle keeps my clothes clean and fresh witho...'
   creator: Dr. Chris Tomassian
@@ -5792,7 +5795,8 @@
   conflict: null
   posted: '2026-09-18'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: caption tail promotes her own curated product box (@dermy.doc.box) with 'Tap the link in my bio to learn more and grab your box'; own-product promo plus link-in-bio
 - id: qTBbt4_anII
   title: My 5-Minute Face-Lifting Routine with Shiseido
   creator: Gothamista
@@ -14815,7 +14819,8 @@
   conflict: null
   posted: '2026-10-28'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 19 seconds, below the ~25s floor, and the caption is a comment-for-products DM funnel rather than a stated topic
 - id: GTuwzZmhaJo
   title: 'Radiance Forte CE Ferulic Vitamin C Serum | Derm & Rejuvenation Institute '
   creator: Tanya Kormeili, MD, FAAD
@@ -14841,4 +14846,5 @@
   conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan and reject any sponsored/affiliate/gifted video
   posted: '2026-10-28'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: personal grief post, not skincare
