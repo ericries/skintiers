@@ -24,6 +24,7 @@ Prequel's own framing of its approach, in its founder's words, is "basic plus": 
 
 Several Prequel products carry the National Rosacea Society's Seal of Acceptance, a designation independently confirmed on the Society's own brand listing rather than resting on Prequel's word alone; the Seal reflects an independent dermatologist panel's screen for ingredients tied to barrier damage, flushing, and stinging in rosacea-prone skin, detailed on [[prequel-gleanser-glycerin-cleanser]].[^nrs]
 
+- [[prequel-multi-acid-milk-peel]]: a leave-on 15 percent acid blend whose ingredient order shows glycolic carrying it, with the other four acids well down the list.
 - [[prequel-gleanser-glycerin-cleanser]]: a fragrance-free, sulfate-free rinse-off cleanser built around 50 percent glycerin, one of the Seal-holding products.
 - [[prequel-redness-reform-sulfur-cleanser]]: a cleanser Prequel lists among its Seal-holding products for rosacea-prone skin.
 - [[prequel-redness-reform-serum]]: a serum Prequel lists among its Seal-holding products for rosacea-prone skin.

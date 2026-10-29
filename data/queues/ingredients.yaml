@@ -3096,3 +3096,18 @@
     either build the page around the tinea indication with the nail claim flagged
     as non-US, or drop the item. Do not carry the review''s grouping of all three
     as nail topicals into a page without checking it.'
+- name: Phytic acid
+  type: ingredient
+  priority: 4
+  status: pending
+  discovered_from: prequel-multi-acid-milk-peel
+  source: 'Present in the Prequel Multi-Acid Milk Peel at position ten on the INCI,
+    one of the four minor acids in its blend, and the site has no page for it despite
+    covering glycolic, lactic, mandelic and salicylic. Phytic acid is interesting
+    for a reason the others are not: it is usually described as a chelator and a tyrosinase-adjacent
+    pigment agent rather than a keratolytic exfoliant, so it may not belong in an
+    exfoliating-acid frame at all. Establish what it actually does before grading,
+    check whether any controlled human trial exists at cosmetic concentrations, and
+    set a tier: from the rubric; expect weak. PubMed route. If the evidence is only
+    in vitro, say so and grade accordingly rather than inheriting a grade from the
+    AHA class.'

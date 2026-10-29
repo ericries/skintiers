@@ -3563,15 +3563,17 @@
 - name: Prequel Multi-Aid Milk Peel
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: glycolic-acid
-  source: Dr. Aleksandra Brown - Glycolic Acid From Head to Toe (video, Y-ZpRAOF3pM,
+  source: 'Dr. Aleksandra Brown - Glycolic Acid From Head to Toe (video, Y-ZpRAOF3pM,
     2026-10-04). She describes it as roughly a 15% AHA blend containing glycolic plus
     other exfoliating acids and enzymes, a thicker milky toner usable on face, KP,
     elbows, knees and feet, in large bottles. The 15% figure is HER spoken description
-    and must be confirmed against the brand's own INCI and claims before it goes on
-    a page. Prequel already has a brand page here and one product page (Skin Utility
-    Gel).
+    and must be confirmed against the brand''s own INCI and claims before it goes
+    on a page. Prequel already has a brand page here and one product page (Skin Utility
+    Gel). NAME CORRECTED: the product is Prequel MULTI-ACID Milk Peel, not Multi-Aid.
+    Verified against the brand''s own Shopify catalogue 2026-10-29 (handle multi-acid-milk-aha-peel,
+    SKU PRQL-10035, 23.00). Published as prequel-multi-acid-milk-peel.'
 - name: Pixi Glow Tonic
   type: product
   priority: 5
@@ -4611,3 +4613,17 @@
     value. Read it FIRST and drop the item if it is a bare heating-lamp clearance
     with nothing carried forward. accessdata.fda.gov with a browser user-agent; expect
     a 2005-era scan needing page rendering.'
+- name: Prequel Multi-Acid Milk Peel Wipes
+  type: product
+  priority: 3
+  status: pending
+  discovered_from: prequel-multi-acid-milk-peel
+  source: 'Prequel sells the same multi-acid formula as WIPES at 20.00 and as a DUO
+    at 39.00 alongside the 23.00 bottle (brand catalogue, verified 2026-10-29). Worth
+    ONE page only if the wipes differ in substance rather than format: check whether
+    the INCI matches the bottle, since a pre-soaked wipe at the same 15 percent blend
+    raises a real question the bottle does not, namely dose control. The bottle''s
+    directions say to start at one application a week and build to two as tolerated,
+    which is harder to titrate from a single-use wipe. If the INCI is identical and
+    nothing new follows, note it on prequel-multi-acid-milk-peel instead and drop
+    this item.'
