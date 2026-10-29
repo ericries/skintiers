@@ -4627,3 +4627,12 @@
     which is harder to titrate from a single-use wipe. If the INCI is identical and
     nothing new follows, note it on prequel-multi-acid-milk-peel instead and drop
     this item.'
+- name: Cetaphil Restoraderm eczema moisturizer (Galderma)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: manufacturer-authored-studies-by-what-they-disclosed
+  source: One of the two formulations in Nguyen 2026 (eczema moisturizer and eczema
+    cream). The abstract uses only those generic descriptors, so the exact SKU must
+    be resolved from Galderma's own product pages before drafting; do not guess the
+    name

@@ -3111,3 +3111,17 @@
     set a tier: from the rubric; expect weak. PubMed route. If the evidence is only
     in vitro, say so and grade accordingly rather than inheriting a grade from the
     AHA class.'
+- name: Turmeric extract (curcumin), oral and topical
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: manufacturer-authored-studies-by-what-they-disclosed
+  source: Thanawala 2025 oral water-dispersible turmeric extract RCT (PMID 40971325),
+    whose study page notes this site has no turmeric or curcumin ingredient page
+- name: Saccharide Isomerate
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: manufacturer-authored-studies-by-what-they-disclosed
+  source: Named in the Wang 2025 abstract (PMID 40952030) as a component of Proya's
+    Encorelane blend; declared in formulas on this site but has no ingredient page

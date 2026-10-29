@@ -495,7 +495,7 @@
 - name: Minimalist acne routines by evidence
   type: list
   priority: 5
-  status: pending
+  status: done
   discovered_from: your-estie-ella
   source: 'GROUNDED in the recurring argument across Ella''s 14 carded clips (consistency
     over product switching, realistic retinoid timelines, treating the cycle not the
@@ -507,7 +507,7 @@
 - name: Manufacturer-authored cosmetic studies on this site, and how to read them
   type: list
   priority: 5
-  status: pending
+  status: done
   discovered_from: proya
   source: 'GROUNDED in a pattern now documented across several pages rather than a
     single case: wang-2025-encorelane-sensitive-skin (all seven authors at Proya''s
