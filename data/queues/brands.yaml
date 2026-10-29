@@ -481,7 +481,7 @@
 - name: Pollogen
   type: brand
   priority: 5
-  status: pending
+  status: done
   discovered_from: pollogen-stop-u-tripollar
   source: 'the new product page sets brand: Pollogen with no brand page; the firm
     holds 18 FDA clearances, all published as Summaries, across home-use and professional

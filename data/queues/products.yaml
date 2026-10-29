@@ -4645,3 +4645,20 @@
     product_type ''Serums & Oils'', 24.00 USD, SKU 82305, available. Sibling of the
     toner under the same Glow Tonic name; resolve its own INCI before drafting, do
     not assume it matches the toner'
+- name: Pollogen Geneo X Elite
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: pollogen
+  source: Cleared under K233766 (2024-05-07) and K242227 (2025-10-12) in product code
+    PAY, the over-the-counter radiofrequency wrinkle-reduction code, so it is a consumer
+    device in scope here; read both filings before drafting
+- name: Pollogen OptiLUV
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: pollogen
+  source: Cleared under K250734 (2025-09-10) in product code PBX, 'Massager, Vacuum,
+    Radio Frequency Induced Heat', whose classification definition covers minor aches
+    and a temporary appearance change rather than a lasting one; the gap between that
+    code and how such devices are marketed is the story
