@@ -3590,12 +3590,20 @@
   priority: 5
   status: pending
   discovered_from: glycolic-acid
-  source: Dr. Aleksandra Brown - Glycolic Acid From Head to Toe (video, Y-ZpRAOF3pM).
-    Captions render it 'Larash Bale Lipicar URA 10'; resolves to La Roche-Posay Lipikar
-    Urea 10, which needs confirming against the brand page since the site's existing
-    Lipikar pages are the Balm AP+M and the Syndet AP+ wash, not a urea product. She
-    pairs 10% urea with glycolic acid for KP, elbows, knees and general rough body
-    skin, reserving 40% urea for thick heels. The urea ingredient page already exists.
+  source: 'Dr. Aleksandra Brown - Glycolic Acid From Head to Toe (video, Y-ZpRAOF3pM).
+    Captions render it ''Larash Bale Lipicar URA 10''; resolves to La Roche-Posay
+    Lipikar Urea 10, which needs confirming against the brand page since the site''s
+    existing Lipikar pages are the Balm AP+M and the Syndet AP+ wash, not a urea product.
+    She pairs 10% urea with glycolic acid for KP, elbows, knees and general rough
+    body skin, reserving 40% urea for thick heels. The urea ingredient page already
+    exists. BLOCKED 2026-10-29, do not re-run these dead ends: inci_lookup MISS for
+    the product name and for three constructed slugs; laroche-posay.com.au, .co.uk,
+    .in and .co.th all return Cloudflare ''Just a moment'' (403/000) including products.json;
+    chemistwarehouse 403; escentual returns a JS-only search shell. The name itself
+    is still unconfirmed (it came from garbled captions), so per the standing rule
+    no page was drafted and no Apify call was spent merely to confirm a name. Next
+    attempt should FIRST establish the SKU exists, ideally from a non-Cloudflare market
+    site or a printed INCI image, before any metered call.'
 - name: Surface Deep underarm glycolic acid wipes and spray
   type: product
   priority: 5
