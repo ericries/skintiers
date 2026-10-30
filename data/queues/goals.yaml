@@ -698,3 +698,13 @@
   source: Pooled together with Er:YAG in PMID 42720808, which did not separate them,
     so the erbium page had to flag the conflation in tier_list_reviewed. A separate
     hub would let the two be graded apart; the home-use end is already on home-fractional-nonablative-laser
+- name: Severe wrinkles and what no home device is cleared for
+  type: goal
+  priority: 5
+  status: pending
+  discovered_from: home-device-wrinkle-claims-by-cleared-scope
+  source: Every radiofrequency device on the new scope list is cleared only for MILD
+    TO MODERATE wrinkles; none is cleared for severe. The site has no page for the
+    gap between what severe-wrinkle patients want and what any over-the-counter device
+    may claim, where the in-office options (fractional-co2-laser-resurfacing, erbium-yag-fractional-laser-resurfacing)
+    actually live

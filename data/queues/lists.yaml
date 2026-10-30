@@ -522,7 +522,7 @@
     for crow''s feet'
   type: list
   priority: 5
-  status: pending
+  status: done
   discovered_from: foreo-luna-4-plus
   source: 'A sharp axis the site can now populate from primary files, and the pattern
     only became visible after four device pages. PERIORBITAL ONLY: foreo-luna-4-plus
@@ -907,3 +907,13 @@
     pages), combined oral contraceptives, topical clascoterone (Winlevi), and the
     standard non-hormonal comparators already graded on best-acne-products-by-evidence.
     Rank by whose evidence is placebo-controlled'
+- name: Fitzpatrick skin types I-IV as a clearance ceiling on home devices
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: home-device-wrinkle-claims-by-cleared-scope
+  source: 'Four devices on the new scope list (NEWA, Silk''n, Pollogen, CurrentBody)
+    carry indications stopping at Fitzpatrick IV, so none is cleared for the darkest
+    skin. That pattern deserves its own page: which home-device clearances exclude
+    types V-VI, and what the filings say about why. Read each filing''s indication
+    and any skin-type rationale directly'
