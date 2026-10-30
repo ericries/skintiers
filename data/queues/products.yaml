@@ -4709,3 +4709,12 @@
     makes claims the lactic version does not, that its glycolic sinks 'deeper into
     the skin than other forms of AHA' and is 'formaldehyde-free'; resolve its own
     INCI before drafting, since incidecoder's Good Genes entry is the lactic formula
+- name: Zyclara (imiquimod 3.75% and 2.5% cream)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: imiquimod
+  source: NDA022483 (Bausch), approved 2010-03-25, DailyMed setid 28cd9b5b-680b-480f-b33d-9c5b52bbf03d
+    published 2026-02-16. A different dosing regimen and a different cleared field
+    size from the 5% cream graded on imiquimod; read its own label rather than inheriting
+    the 5% trial figures

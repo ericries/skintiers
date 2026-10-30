@@ -781,3 +781,12 @@
     Chemist Confessions podcast on why treating adult acne differs was rejected from
     the video queue for want of a page. The acne hub does not separate the adult-female
     presentation that hormonal therapy targets
+- name: Permanent hypopigmentation from topical treatments
+  type: condition
+  priority: 5
+  status: pending
+  discovered_from: imiquimod
+  source: The imiquimod label warns that 'Localized complete depigmentation has occurred
+    and persisted' and says to discontinue if it develops. No hub here covers treatment-induced
+    depigmentation, which is a different entity from vitiligo and from post-inflammatory
+    hypopigmentation; verify against the labels of the drugs that carry such warnings

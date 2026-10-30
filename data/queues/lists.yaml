@@ -917,3 +917,13 @@
     skin. That pattern deserves its own page: which home-device clearances exclude
     types V-VI, and what the filings say about why. Read each filing''s indication
     and any skin-type rationale directly'
+- name: Field therapy for actinic keratosis by evidence
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: imiquimod
+  source: 'Curatorial over pages that now exist: imiquimod (46% vs 3% complete clearance,
+    two vehicle-controlled RCTs) and fluorouracil-topical (graded good), with cryotherapy
+    and photodynamic therapy named on actinic-keratosis but ungraded. Rank by whose
+    clearance data is vehicle-controlled; Dr Waldman''s carded video scales the choice
+    by surface area involved'
