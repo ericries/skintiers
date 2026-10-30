@@ -3186,3 +3186,14 @@
     the product is named for, and the glycolic version's copy calls fermented prickly
     pear 'perfect for sensitive skin'. No page here, so an extract-forward formula
     has nothing to link out to
+- name: Spironolactone (oral, for acne and androgen-driven skin conditions)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: ghanem-2025-spironolactone-acne-meta-analysis
+  source: The site now carries TWO spironolactone study pages (santer-2023-safa-spironolactone-acne
+    and ghanem-2025-spironolactone-acne-meta-analysis) plus a Dr Dray video naming
+    it for hair loss, and no ingredient page for either to link to. Grade it off the
+    FDA label (Drugs@FDA / DailyMed; note it carries a boxed warning history and is
+    potassium-sparing) plus those two reviews, not off the meta-analysis conclusion
+    alone

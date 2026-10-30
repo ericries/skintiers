@@ -898,3 +898,12 @@
     meta-analysis of 33 trials, which must supply their EASI-75/EASI-90 figures for
     a like-for-like rung. Read the NMA itself; do not port label percentages into
     an NMA ranking
+- name: Hormonal acne treatments by evidence
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: ghanem-2025-spironolactone-acne-meta-analysis
+  source: 'Curatorial over pages that exist or are queued: spironolactone (two study
+    pages), combined oral contraceptives, topical clascoterone (Winlevi), and the
+    standard non-hormonal comparators already graded on best-acne-products-by-evidence.
+    Rank by whose evidence is placebo-controlled'

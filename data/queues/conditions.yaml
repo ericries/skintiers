@@ -772,3 +772,12 @@
   source: Named in NhbB5p6WUKk as a contributor to palmar dyshidrotic eczema via barrier
     breakdown; no page here, and it is also the target of a whole OTC and prescription
     antiperspirant category the site does not cover
+- name: Adult female acne
+  type: condition
+  priority: 5
+  status: pending
+  discovered_from: ghanem-2025-spironolactone-acne-meta-analysis
+  source: Both spironolactone studies here are specifically in adult women, and the
+    Chemist Confessions podcast on why treating adult acne differs was rejected from
+    the video queue for want of a page. The acne hub does not separate the adult-female
+    presentation that hormonal therapy targets
