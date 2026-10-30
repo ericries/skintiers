@@ -411,3 +411,39 @@
     and john-barbieri were done (one name search, record the taxonomy and licence,
     and do NOT assert board certification, which NPI does not carry) before writing
     anything about her. Lean discovery card, under 150 words.
+- name: Doctorly (Dr. Muneeb Shah and Dr. Luke Maxfield)
+  type: person
+  priority: 5
+  status: pending
+  discovered_from: chronic-hand-eczema
+  source: 6 video cards already on this site and no person page, so readers meet them
+    only through card credentials. Both board-certified dermatologists per the roster;
+    verify each independently via NPI before asserting, and the page must disclose
+    that Muneeb Shah runs his own skincare brand (Remedy Science) and that their device
+    videos have carried sponsorships, including the Tria-sponsored one rejected 2026-10-30
+- name: Dr. Mamina Turegano
+  type: person
+  priority: 5
+  status: pending
+  discovered_from: acne
+  source: 5 video cards already on this site and no person page. Roster credential
+    reads board-certified in dermatology, internal medicine and dermatopathology,
+    practising at Sanova Dermatology, Metairie, Louisiana; verify via NPI and do not
+    restate the triple certification unless a primary record supports it
+- name: Dr. Michelle Henry, MD FAAD
+  type: person
+  priority: 5
+  status: pending
+  discovered_from: peptides
+  source: 3 video cards here (collagen peptides on peptides, beef tallow on retinoids)
+    and no person page. Roster records past paid brand-consultant roles with Kiehl's
+    and Clinique Derm Pro, which the page must disclose since it gates her product
+    picks; verify the credential via NPI
+- name: Dr. Emma Wedgeworth
+  type: person
+  priority: 5
+  status: pending
+  discovered_from: acne
+  source: 3 video cards here and no person page. UK-based, so NPI will not resolve
+    her; the GMC register is the primary route for a UK consultant dermatologist and
+    the page should cite it rather than a credential read off a channel bio
