@@ -3207,3 +3207,22 @@
     SUCRA 0.9363, while the one FDA-approved cantharidin product here (ycanth-cantharidin-topical-solution,
     0.7%) is indicated for molluscum and NOT warts. Grade it off the Ycanth label
     plus that NMA; the approved-indication gap is the story
+- name: Argatensyl (argan-derived proprietary wrinkle ingredient)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: argan-oil
+  source: 'Named by Dr Neal Schultz in DermTV Epi #481 (CNWsSmRRLso, 2013-03-07) as
+    an example of argan oil appearing inside a proprietary trade-named ingredient
+    promoted for wrinkles and sounding similar to established actives. Resolve the
+    INCI name and the supplier''s own claims before drafting; a trade name is not
+    an INCI ingredient'
+- name: Linoleic acid (topical omega-6 fatty acid)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: argan-oil
+  source: Schultz attributes argan oil's traditional wound-healing and skin uses to
+    its linoleic acid content in CNWsSmRRLso, noting deficiency can cause poor wound
+    healing. It is declared in many facial oils and has no page here, so oil pages
+    have nothing to link out to; grade it on its own evidence, not on his attribution

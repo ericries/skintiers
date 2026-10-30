@@ -531,7 +531,7 @@
   last_pulled: '2026-10-28'
 - name: Dr. Neal Schultz (DermTV)
   creator_slug: neal-schultz
-  backfill_cursor: 15
+  backfill_cursor: 30
   credential: Dermatologist, host of DermTV.com
   tier: HIGH
   channel: https://www.youtube.com/channel/UCWl7rIYGLnCwVpuO1DmrEUQ/videos

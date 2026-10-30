@@ -7,6 +7,19 @@ status: published
 tier: mid
 type: ingredient
 updated: '2026-08-30'
+videos:
+- title: Argan oil
+  creator: Dr. Neal Schultz (DermTV)
+  creator_slug: neal-schultz
+  credential: Dermatologist, host of DermTV.com
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=CNWsSmRRLso
+  posted: '2013-03-07'
+  related: [anti-aging, acne, dry-skin]
+  thesis: 'Dermatologist Neal Schultz takes argan oil apart claim by claim and lands on buyer beware. He grants it real pharmacologic properties, describing it as rich in antioxidants including vitamin E and the omega-6 fatty acid linoleic acid, and notes its traditional use for skin inflammation, acne, dryness and hair. His objection is the evidence: he says there is very little from independent researchers to support the skin claims, particularly those about acne and anti-aging, and that as a topical antioxidant it is unlikely to work because it does not penetrate the skin without a carrier to help it. He describes one study he attributes to Bulgaria alleging sebum control, from a product containing other ingredients as well, and argues that without controls you cannot say which ingredient did anything. He accepts that patients report liking its effect on cuticles and hair while suspecting cheaper products do the same, and observes that most of the excitement comes from companies selling
+    it.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Argan oil (INCI: Argania Spinosa Kernel Oil) is a plant oil cold-pressed from the kernels of the argan tree, native to southwestern Morocco, and used in leave-on moisturizers and facial oils typically as a standalone oil or a major component of a blend rather than at a labeled percentage. Compositionally it is dominated by oleic acid (47.77%) and linoleic acid (31.08%), with substantial γ-tocopherol (687.485 mg/kg) and δ-tocopherol (51.035 mg/kg), the fatty-acid and vitamin-E profile that underlies its emollient and antioxidant marketing.[^belhoussaine] Its evidence base is a real but thin one: several small studies, mostly from a single Moroccan research group, show topical argan oil improves skin hydration and elasticity measures, but none isolate topical argan oil against a true vehicle control, so the moisturizing signal is more credible than the anti-aging one.[^boucetta-hydration][^boucetta-elasticity]
