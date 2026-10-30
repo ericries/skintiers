@@ -465,7 +465,7 @@
   channel: https://www.youtube.com/channel/UCHCZnC9akNA9pBP7aJGNKdg/videos
   conflict: Muneeb Shah runs own skincare brand (Remedy Science) and Scriptable Rx venture featured on the channel
   product_recs: restricted
-  last_pulled: '2026-09-13'
+  last_pulled: '2026-10-30'
 - name: John Barbieri, MD
   creator_slug: john-barbieri
   backfill_cursor: 30

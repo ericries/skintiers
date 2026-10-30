@@ -753,3 +753,22 @@
   source: Named in JXatcmRLaUY as something no topical of any kind will clear. The
     site covers it only obliquely via rosacea-erythematotelangiectatic and facial-redness-relief;
     a hub would let the device and laser evidence (PDL, IPL) be graded in one place
+- name: Dyshidrotic eczema (pompholyx)
+  type: condition
+  priority: 5
+  status: pending
+  discovered_from: chronic-hand-eczema
+  source: Doctorly's explainer (NhbB5p6WUKk, 2026-08-03) is now carded on chronic-hand-eczema
+    for want of a dedicated page, but dyshidrotic eczema is its own entity with distinct
+    presentation (deep-seated vesicles that do not pop, described as tapioca under
+    the skin) and triggers; the card's claims about cortisone being the only OTC option
+    with robust data should be graded against primary sources, not inherited from
+    the video
+- name: Hyperhidrosis (excess sweating)
+  type: condition
+  priority: 5
+  status: pending
+  discovered_from: chronic-hand-eczema
+  source: Named in NhbB5p6WUKk as a contributor to palmar dyshidrotic eczema via barrier
+    breakdown; no page here, and it is also the target of a whole OTC and prescription
+    antiperspirant category the site does not cover

@@ -6,6 +6,18 @@ slug: chronic-hand-eczema
 status: published
 type: condition
 updated: '2026-10-25'
+videos:
+- title: 'Dyshidrotic eczema: causes, treatment and prevention'
+  creator: Doctorly
+  creator_slug: doctorly
+  credential: Dr. Muneeb Shah, DO and Dr. Luke Maxfield, DO, both board-certified dermatologists
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=NhbB5p6WUKk
+  posted: '2026-08-03'
+  related: [hydrocortisone-otc-topical-corticosteroid, tacrolimus-topical, dupilumab, skin-barrier-repair]
+  thesis: Board-certified dermatologists Muneeb Shah and Luke Maxfield explain dyshidrotic eczema, also called pompholyx, the itchy deep-seated blisters on the fingers and palms that they describe as looking like tapioca under the skin and that do not pop when scratched. They list contributors including allergic reactions, psychological stress and excess sweating, all acting through a breakdown of the skin barrier, and note the older idea that it came from clogged sweat glands. On treatment they say the only over-the-counter option with robust data behind it is cortisone, framed as temporary steroid use for a temporary problem, with stronger prescription steroids often needed because palm skin is so thick, and non-steroidal options such as tacrolimus beyond that. For disease that keeps returning despite topicals they mention oral medication and the injectable dupilumab.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Chronic hand eczema (CHE) is a long-lasting, often relapsing eczema of the hands. A 2025 review describes it as "a highly prevalent dermatology-related occupational hazard" and, importantly, "a distinct diagnosis from atopic dermatitis," even though the two overlap.[^gupta] It is diagnosed by a clinician and, in moderate-to-severe forms, treated by one; the skincare-relevant part is the everyday barrier care and irritant avoidance underneath the medical treatment.
