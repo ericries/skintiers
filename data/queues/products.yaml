@@ -3630,7 +3630,7 @@
 - name: reVive Light Therapy Lux Sonique and Lux Sonique Mini (sonic cleansers)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: 'Resolved while shipping revive-light-therapy-lux-clinical on 2026-10-21.
     The storefront listing (cached, research-cache/web/efa377180ba72fb8.md) settles

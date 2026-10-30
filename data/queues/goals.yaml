@@ -708,3 +708,13 @@
     gap between what severe-wrinkle patients want and what any over-the-counter device
     may claim, where the in-office options (fractional-co2-laser-resurfacing, erbium-yag-fractional-laser-resurfacing)
     actually live
+- name: 'Sonic cleansing brushes: what the evidence shows'
+  type: goal
+  priority: 5
+  status: pending
+  discovered_from: revive-light-therapy-lux-sonique
+  source: The Lux Sonique page had to grade sonic cleansing as unknown because nothing
+    on this site covers it and no clearance touches it (cleansing is not a treatment
+    claim). A whole product category rests on it, from this device to silicone brushes;
+    search PubMed for cleansing-brush RCTs on barrier function, sebum and acne rather
+    than relying on brand claims
