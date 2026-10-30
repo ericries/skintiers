@@ -707,6 +707,16 @@ videos:
   related: [adapalene, benzoyl-peroxide, azelaic-acid, salicylic-acid, sulfur]
   thesis: 'Board-certified dermatologist Dr. Dustin Portela builds a six-step over-the-counter acne routine around Epiduo, the adapalene 0.1% and benzoyl peroxide 2.5% gel that he says has just become available without a prescription for the first time, and he describes the pairing as addressing clogged pores, acne-causing bacteria and inflammation together. His main practical warning is to start every second or third night rather than nightly, because the people he sees begin with daily use, get irritated and quit, and to expect benzoyl peroxide to bleach fabric. For the morning he offers three alternatives depending on the skin: The Ordinary Azelaic Acid 10% Suspension for redness and post-acne dark marks, a sulfur spot treatment for occasional localized breakouts, and CeraVe Acne Control Gel at 2% salicylic acid for oily or congested skin, finishing with EltaMD UV Clear'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: What to do when your skin is freaking out
+  creator: Ella (@your.estie.ella)
+  creator_slug: your-estie-ella
+  credential: Licensed esthetician, not a dermatologist or cosmetic chemist
+  platform: TikTok
+  url: https://www.tiktok.com/@your.estie.ella/video/7702108652336876814
+  posted: '2026-10-29'
+  related: [skin-barrier-repair, sulfur, salicylic-acid]
+  thesis: Licensed esthetician Ella argues that a breakout is the wrong moment to start experimenting, describing her own skin reacting badly to a new product and telling viewers not to throw several acne treatments at inflamed skin at once. Her advice is to fall back to a bare routine of cleanser, moisturiser and sunscreen, add at most one spot treatment already known to suit the person, and give it time rather than layering on everything in the cupboard. She mentions in passing a sulfur mask she personally returns to, which is her own habit rather than a recommendation this site relays; the evidence for the active is on sulfur. She notes in the caption that barrier damage needs addressing before acne treatment.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

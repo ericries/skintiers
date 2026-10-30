@@ -5207,7 +5207,8 @@
   conflict: Founder & CEO of own hair-care brand, BLCK Hair Care (@blckhaircare), promoted in her Instagram bio — a product-formulation/owners
   posted: '2026-09-17'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: vague motivational caption with no stated single topic matching a page here
 - id: '7686648227021540622'
   title: 'The truth about PDRN and kbeauty #pdrn #kbeauty #koreanskincare '
   creator: Jenn Lexi (@jennlexi_)
@@ -5260,7 +5261,8 @@
   conflict: runs an Amazon affiliate storefront and does sponsored posts - strongly prefer educational / how-to / ingredient-explainer videos; be very cautious with any product recommendation
   posted: '2026-09-17'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: would-I-buy-this product opinion from a creator with an Amazon affiliate storefront; picks treated as effectively paid
 - id: MGWEfK38Le4
   title: 'Easy Skin Fixes — From A Derm ✅ | #shorts #skincare |'
   creator: Dr. Lindsey Zubritsky (DermGuru)
@@ -5354,7 +5356,8 @@
   conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan and reject any sponsored/affiliate/gifted video
   posted: '2026-09-17'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: multi-brand giveaway promo tagging eleven brands including Murad, Ulta, Gucci and Rare Beauty; commercial post, not education
 - id: '7686602953712536846'
   title: Retinoid Guide now available 🔗 with which one, how often, what to exp...
   creator: Ella (@your.estie.ella)

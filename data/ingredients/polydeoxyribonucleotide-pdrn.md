@@ -117,6 +117,16 @@ videos:
   related: [anti-aging, retinol]
   thesis: Board-certified dermatologist Dr. Sarah Sheu reviews a new study of topical PDRN, the chopped-up salmon or plant DNA sold in anti-aging serums, and explains that her long-standing objection has been penetration, since DNA is large and negatively charged and so should struggle to get anywhere useful through skin. She credits the study for testing penetration directly rather than only showing before and after photos, then points out that PDRN reached the dermis in pig skin within 8 to 12 hours while in the single test on a living human forearm it was barely into the living epidermis at 24 hours, and that part of the 4-week wrinkle improvement could be temporary plumping from hydration. She also flags that several of the study authors are tied to Uniskin, a company selling the exact PDRN form tested, which she treats as a pink flag rather than a red one, and her own verdict is that she likes PDRN products as moisturizers but is not sure they do more than moisturize
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: The marketing around PDRN and K-beauty
+  creator: Jenn Lexi (@jennlexi_)
+  creator_slug: jennlexi
+  credential: Esthetician (self-identified); not a dermatologist or cosmetic chemist
+  platform: TikTok
+  url: https://www.tiktok.com/@jennlexi_/video/7686648227021540622
+  posted: '2026-09-17'
+  related: [peptides, anti-aging, hyaluronic-acid]
+  thesis: Esthetician Jenn Lexi takes aim at how PDRN is marketed rather than at the ingredient, saying she likes PDRN and objects to what buyers are led to believe about it. Her central point is that the research promoters cite was done on PDRN INJECTED into skin, which she says is not the same as a topical product, because the skin's layers stop some things from penetrating. She also flags the habit of printing PDRN beside collagen on a label, arguing that topical collagen only hydrates and that the adjacency invites readers to assume PDRN builds collagen, which she says it does not do unless injected. She describes PDRN as DNA fragments typically from salmon, and discloses that she works with Korean beauty brands on the creator side while criticising their marketing.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

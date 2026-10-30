@@ -24,6 +24,16 @@ videos:
   related: [melanoma, actinic-keratosis, mohs-micrographic-surgery]
   thesis: Board-certified dermatologist Dr. Tanya Kormeili argues that an annual skin check should be as routine as a dental cleaning, and says the message that everyone needs an annual evaluation has not been communicated well. She notes that every ethnic skin type is at risk for a different type of skin cancer, and that lifestyle, other medical conditions and the medications a person takes all place them in a different risk category. Her central point is that skin cancer diagnosed early is treatable and leaves a normal life expectancy, while melanoma that is missed can result in death
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: What to expect at a full body skin check
+  creator: Dr. Mamina Turegano
+  creator_slug: mamina-turegano
+  credential: Board-certified in dermatology, internal medicine and dermatopathology
+  platform: TikTok
+  url: https://www.tiktok.com/@dr.mamina/video/7686549888280071454
+  posted: '2026-09-17'
+  related: [melanoma, basal-cell-carcinoma, actinic-keratosis]
+  thesis: Dermatologist Mamina Turegano answers the question she says she gets most often about full body skin checks, which is how undressed a patient will be. She describes being given a gown, keeping underwear on, the bra left to the patient's preference, and the gown being shifted to keep the person covered while each area is examined. She then walks through the order she works in, from the back of the scalp, behind the ears and the back of the neck down the back, the backs of the legs, then the patient lying flat while she starts between the toes and the soles and works upward to the abdomen, chest, arms, hands, neck, face and top of the scalp, asking permission before looking beneath the underwear. She puts the exam at roughly 10 to 15 minutes depending on how many moles a person has, and says she asks about past tanning-bed use.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
