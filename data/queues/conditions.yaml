@@ -566,7 +566,7 @@
 - name: Warts (verruca)
   type: condition
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: smoothing-skin-texture names warts as a common cause of thickened skin with
     no page on this site
@@ -588,7 +588,7 @@
 - name: Common warts (verruca vulgaris)
   type: condition
   priority: 5
-  status: pending
+  status: done
   discovered_from: verrica-pharmaceuticals
   source: Verrica states it is developing YCANTH (VP-102) for common warts; the site
     has no warts hub, and smoothing-skin-texture separately flags warts as a common
@@ -721,7 +721,7 @@
 - name: Warts (common and plantar)
   type: condition
   priority: 5
-  status: pending
+  status: done
   discovered_from: calluses-and-corns
   source: 'A genuine gap the new hub ran into: 40% salicylic acid plasters carry the
     single purpose line ''Corn Remover Wart remover'', so the same OTC product is

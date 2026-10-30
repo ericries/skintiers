@@ -728,3 +728,13 @@
     and tend to improve penetration. Dr Onyeka Obioha's carded lotion-versus-cream
     clip on moisturizing makes the same distinction. Two carded videos now argue it
     and no page hosts the evidence
+- name: Cryotherapy for skin lesions
+  type: goal
+  priority: 5
+  status: pending
+  discovered_from: warts
+  source: Named in warts tier_list_reviewed but ungraded for want of a page. Found
+    not superior to no treatment for plantar warts (PMID 38243639) and associated
+    with more blister formation (PMID 41686619), yet it is also a first-line office
+    treatment for actinic keratosis per Dr Waldman's carded video. One page should
+    hold the evidence by indication

@@ -3197,3 +3197,13 @@
     FDA label (Drugs@FDA / DailyMed; note it carries a boxed warning history and is
     potassium-sparing) plus those two reviews, not off the meta-analysis conclusion
     alone
+- name: Cantharidin (topical, for warts and molluscum)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: warts
+  source: The 2024 plantar-wart Bayesian NMA (PMID 38243639) ranks a compounded 1%
+    cantharidin plus 20% podophyllotoxin plus 30% salicylic acid combination top,
+    SUCRA 0.9363, while the one FDA-approved cantharidin product here (ycanth-cantharidin-topical-solution,
+    0.7%) is indicated for molluscum and NOT warts. Grade it off the Ycanth label
+    plus that NMA; the approved-indication gap is the story

@@ -4727,3 +4727,12 @@
     is a different azole from the terbinafine graded on terbinafine, and otc-antifungal-creams-by-labelled-scope
     already compares labelled scopes; resolve whether it is US-marketed via openFDA
     before drafting, since it may be non-US only
+- name: Salicylic Acid 17% Wart Remover liquid
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: warts
+  source: 'The dominant OTC wart format: 17 g/100 mL liquids account for the largest
+    single strength group among the 346 wart-branded NDC records queried 2026-10-30.
+    Pick one with a readable DailyMed SPL, read its directions and duration, and set
+    them against the plantar NMA finding that salicylic acid did not beat no treatment'
