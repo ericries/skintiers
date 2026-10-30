@@ -14776,7 +14776,8 @@
   conflict: Founder/owner of active postpartum skincare brand "More Than Nine" (cleanser, exfoliator, moisturizer, balm) — an ongoing own-bran
   posted: '2026-10-29'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'caption tail directs viewers to the ''Is This Ok?'' database on morethannine.com, her own brand''s site, and carries #morethannineskincare; own-brand promotion, the recurring pattern for this creator'
 - id: JXatcmRLaUY
   title: Tretinoin Doesn’t Fix EVERYTHING! 8 Things It Can’t Do | Dermatologist
   creator: Andrea Suarez (Dr Dray)
@@ -14829,7 +14830,8 @@
   conflict: Promotes her own curated product box, Dermy Doc Box (@dermy.doc.box), with link-in-bio callouts in the caption tail (observed 2026-10-29 on clip 7686867010508164366, posted 2026-09-18) - treat her product picks and seasonal recommendations as own-product promotion
   posted: '2026-10-29'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: practice advertisement for a treatment her clinic sells, closing with 'Comment XERF and we'll send you the info to book a consultation', plus unqualified efficacy claims about collagen in the deepest layers
 - id: '7702254401141886228'
   title: yes girl give us nothing
   creator: Hannah English (@ms_hannah_e / Hannah Collingwood English)
@@ -14842,7 +14844,8 @@
   conflict: Co-developed/formulated the Tbh Skincare 'Rebound' Serum and Toner (product-formulation partnership) — her endorsement of that spe; no YouTube; TikTok/IG intake
   posted: '2026-10-30'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: trend-format clip with no stated skincare topic
 - id: '7702209118001548550'
   title: the full blowout routine! this will last 4+ days and I’m using the @d...
   creator: Hannah English (@ms_hannah_e / Hannah Collingwood English)
@@ -14868,7 +14871,8 @@
   conflict: Founder & CEO of own hair-care brand, BLCK Hair Care (@blckhaircare), promoted in her Instagram bio — a product-formulation/owners
   posted: '2026-10-29'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'practice advertisement: describes techniques used at her own clinic and closes ''Book your consultation with Dr. Rodney''; the site also has no mole or benign-skin-growth page to attach it to'
 - id: bRMTbefnGc0
   title: Hair Loss from Hair Care!? W/ Cicely Shillingford PhD
   creator: Jen Novakovich (The Eco Well)
@@ -14895,7 +14899,8 @@
   conflict: 'Runs #ad sponsored posts (e.g. TruSkin) and Target skincare hauls/reviews; prefer her educational ingredient-category and barrier-repair explainers, and treat product recommendations as effectively promotional (skip).'
   posted: '2026-10-29'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 10 seconds, below the short-form floor, and a generic consistency platitude rather than a single topic
 - id: e3eP2HRA4Ek
   title: 'Sephora Sale: What’s Actually Worth Buying? A Dermatologist’s Picks | Dr. Jenny Liu'
   creator: Dr. Jenny Liu (Jenny Liu, MD, FAAD)
@@ -14922,7 +14927,8 @@
   conflict: runs an Amazon affiliate storefront and does sponsored posts - strongly prefer educational / how-to / ingredient-explainer videos; be very cautious with any product recommendation
   posted: '2026-10-29'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: guessing-game trend clip with hashtag-only topic signals; no single topic matching a page here
 - id: zT8gy2wNSC4
   title: 'dark spots? @celimax_official Pore + Dark Spot Brightening Cream is a great option #darkspots'
   creator: Dr. Neera Nathan
