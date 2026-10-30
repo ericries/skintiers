@@ -637,3 +637,11 @@
     in its own products.json catalogue (wipes, sprays, a pH balancing skin wash and
     body lotion, and bundles), all sharing a glycolic-plus-lactobacillus premise.
     No brand page exists
+- name: Sunday Riley
+  type: brand
+  priority: 5
+  status: pending
+  discovered_from: sunday-riley-good-genes
+  source: Vendor of the newly shipped sunday-riley-good-genes; 57 products in its
+    own products.json catalogue. No brand page exists, and the two-acids-one-name
+    situation documented on the product page belongs on it

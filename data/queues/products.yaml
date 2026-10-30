@@ -3619,7 +3619,7 @@
 - name: Sunday Riley Good Genes
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: glycolic-acid
   source: 'Dr. Aleksandra Brown - Glycolic Acid From Head to Toe (video, Y-ZpRAOF3pM).
     CAUTION BEFORE DRAFTING: she calls it a ''glycolic acid treatment'' and recommends
@@ -4699,3 +4699,13 @@
     SP40, 4.0 oz glass. Its own record adds the stinging-after-shaving warning and
     a breakouts/hyperpigmentation bonus line the wipes record does not carry; grade
     those from the spray record, not from the wipes page'
+- name: Sunday Riley Good Genes Glycolic Acid Treatment
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: sunday-riley-good-genes
+  source: The non-US sibling sold under the SAME name and the same 85 USD for 30 ml,
+    SKU GGG-30-UK-FG, read from the brand's products.json on 2026-10-30. Its copy
+    makes claims the lactic version does not, that its glycolic sinks 'deeper into
+    the skin than other forms of AHA' and is 'formaldehyde-free'; resolve its own
+    INCI before drafting, since incidecoder's Good Genes entry is the lactic formula
