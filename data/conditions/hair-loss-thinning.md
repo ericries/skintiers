@@ -265,6 +265,16 @@ videos:
   thesis: 'Board-certified dermatologist Dr. Brooke Jeffy corrects a statistic about minoxidil and pets that circulates widely on social media. The veterinary data she cites is a study of 200 exposure cases in which moderate or major illness occurred in roughly 60% of cats and 56% of dogs, with eight symptomatic cats in that study dying, and she notes those figures are close enough that the common claim cats are far more susceptible than dogs does not follow. The number she specifically corrects is the often-repeated 12.9% of cats dying: that is the share of symptomatic cats reported to poison control in one study who died, not the risk to a cat living with someone who uses minoxidil. She is equally clear about what the data cannot show, since retrospective owner reports carry recall bias and cannot establish the probability of poisoning in a typical household or a safe exposure amount. Her practical conclusion is that topical minoxidil should not be licked off skin or a pillowcase and bottles
     should be kept secure, while oral minoxidil is not excreted through the skin and so poses no risk from licking unless the animal gets into the pills.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: 'Receding hairline: what actually works to stop hair loss'
+  creator: Andrea Suarez (Dr Dray)
+  creator_slug: andrea-suarez-dr-dray
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=ynLNujitnfI
+  posted: '2026-10-27'
+  related: [frontal-fibrosing-alopecia]
+  thesis: Board-certified dermatologist Andrea Suarez, who posts as Dr Dray, argues that a receding hairline is a sign rather than a diagnosis, and that the first job is working out which cause you have. She draws the line that matters between non-scarring hair loss, where follicles can potentially produce hair again, and scarring hair loss, which can permanently destroy follicles if treatment is delayed. She notes that a naturally high or M-shaped hairline is not in itself a disorder. On treatment she describes topical minoxidil as an established option for pattern hair loss that takes time and must be continued to keep the benefit, finasteride as an established option for men that works by reducing DHT, and spironolactone as a prescription option for some women, adding that low-level laser therapy and scalp massage may help certain causes but should not come before getting the diagnosis.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

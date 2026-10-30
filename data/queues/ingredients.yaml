@@ -3160,3 +3160,20 @@
     calls it rendered fat with fatty acids but not a smart moisturizer and more likely
     to clog pores; a recurring social trend with no page here, so clips about it have
     nowhere to attach. Grade it on its own evidence, not on her opinion
+- name: Topical minoxidil
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: hair-loss-thinning
+  source: Named by Dr Dray (video ynLNujitnfI, 2026-10-27) as an established treatment
+    for pattern hair loss that must be continued to keep the benefit. hair-loss-thinning
+    now cites it with nothing to link to; openFDA drug/ndc plus DailyMed SPLs are
+    the primary route, and it is an OTC monograph active so the label is readable
+- name: Finasteride (oral, for pattern hair loss)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: hair-loss-thinning
+  source: Named by Dr Dray (ynLNujitnfI) as an established option for men, acting
+    by reducing DHT. Prescription drug with an FDA label, so grade it off Drugs@FDA
+    and DailyMed rather than off the video

@@ -14537,7 +14537,8 @@
   conflict: Own-brand UPF sun-protective clothing line, SOUL-A (wearsoula.com / @wearsoula), founded and promoted by him — apparel, not topical skincare
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: hashtag-stuffed reaction Short; no single topic matching a page here
 - id: Nng5vUNr3TY
   title: Buttock mein pimples, daane aur kaalepan ka ilaaj
   creator: Dr. Aanchal MD
@@ -14590,7 +14591,8 @@
   conflict: does sponsorships - educational content only, never treat picks as endorsements, never use sponsored videos
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: title begins 'AD', a declared sponsored video
 - id: '7701378891864116494'
   title: Did you know EGF and Retinol share the same skincare benefit? Let me ...
   creator: Kristin Leite (kristingl)
@@ -14631,7 +14633,8 @@
   conflict: null
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: haircare myths; this site covers scalp and hair only at hair-loss-thinning and has no haircare pages for it to attach to
 - id: l3hQo7RwnUE
   title: 'tretinoin is that girl. Here’s how to use her! #skincare stitch with angelamatrix'
   creator: Dr. Neera Nathan
@@ -14698,7 +14701,8 @@
   conflict: Some videos carry disclosed brand sponsorships (e.g. La Roche-Posay Effaclar BPO); no own product line or heavy affiliate storefront. Scan each video at ingest.
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'promotional: transcript carries a discount-code callout, ''use code dr. abby for 10% off'', for the LED mask being discussed'
 - id: '7701804120738368782'
   title: PREGNANT AND MISS YOUR RETINOID? Same, girl, same.  Good news, there ...
   creator: Dr. Aegean Chan
@@ -14725,7 +14729,8 @@
   conflict: null
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'SPONSORED: transcript says ''today''s video is sponsored by omnilux'' and closes with ''thank you omnilux for sponsoring'' plus a description link. Omnilux devices are covered on this site, so this would have put a sponsored endorsement on a page about the sponsor''s own device'
 - id: '7701907268949822733'
   title: 'Just your friendly reminder #dermatologist #doctor #darkspots '
   creator: Dr. Chris Tomassian
