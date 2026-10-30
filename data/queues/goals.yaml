@@ -366,7 +366,7 @@
 - name: Erbium:YAG fractional laser resurfacing
   type: goal
   priority: 5
-  status: pending
+  status: done
   discovered_from: acne-scar-treatments-by-downtime-and-pain
   source: 'The comparator in PMID 42720808 and the only arm of that meta-analysis
     with no page here, which is why the new downtime list can grade fractional CO2
@@ -690,3 +690,11 @@
     but ungraded because no trial was read for it. PMID 30065787 (footwear fit and
     foot disorders, systematic review) and PMID 23782557 (off-the-shelf footwear RCT)
     are starting points
+- name: Erbium-glass non-ablative fractional lasers (1540/1550 nm)
+  type: goal
+  priority: 5
+  status: pending
+  discovered_from: erbium-yag-fractional-laser-resurfacing
+  source: Pooled together with Er:YAG in PMID 42720808, which did not separate them,
+    so the erbium page had to flag the conflation in tier_list_reviewed. A separate
+    hub would let the two be graded apart; the home-use end is already on home-fractional-nonablative-laser
