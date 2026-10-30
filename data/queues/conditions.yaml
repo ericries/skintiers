@@ -727,3 +727,12 @@
     single purpose line ''Corn Remover Wart remover'', so the same OTC product is
     sold for both, and this site has no warts page to send readers to. openFDA brand_name
     ''wart'' plus DailyMed SPLs are the primary route'
+- name: Underarm and body odor
+  type: condition
+  priority: 5
+  status: pending
+  discovered_from: surface-deep-anti-odorant-wipes
+  source: The claimed target of the new wipes page and of a whole product category,
+    with no hub here to host the evidence; the wipes page had to say that nothing
+    on glycolic-acid, body-acne or probiotics supports an odor claim. Primary route
+    is the axillary microbiome and antiperspirant literature on PubMed

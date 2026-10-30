@@ -628,3 +628,12 @@
   source: Vendor of the newly shipped pixi-glow-tonic; no brand page exists and the
     storefront catalogue (products.json, 355 products across two pages) is a cheap
     primary-ish route for its product list
+- name: Surface Deep
+  type: brand
+  priority: 5
+  status: pending
+  discovered_from: surface-deep-anti-odorant-wipes
+  source: Vendor of the newly shipped surface-deep-anti-odorant-wipes; 15 products
+    in its own products.json catalogue (wipes, sprays, a pH balancing skin wash and
+    body lotion, and bundles), all sharing a glycolic-plus-lactobacillus premise.
+    No brand page exists

@@ -3588,7 +3588,7 @@
 - name: La Roche-Posay Lipikar Urea 10
   type: product
   priority: 5
-  status: pending
+  status: blocked
   discovered_from: glycolic-acid
   source: 'Dr. Aleksandra Brown - Glycolic Acid From Head to Toe (video, Y-ZpRAOF3pM).
     Captions render it ''Larash Bale Lipicar URA 10''; resolves to La Roche-Posay
@@ -3607,7 +3607,7 @@
 - name: Surface Deep underarm glycolic acid wipes and spray
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: glycolic-acid
   source: Dr. Aleksandra Brown - Glycolic Acid From Head to Toe (video, Y-ZpRAOF3pM).
     She names a brand she heard as 'Surface Deep' making low-percentage glycolic wipes
@@ -4689,3 +4689,13 @@
     2026-10-29. The label's 14-day direction against the 10-month median resolution
     in PMID 26668108 is the review; inactives are lanolin, polybutene, rosin ester
     and rubber
+- name: Surface Deep Anti-Odorant Spray
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: surface-deep-anti-odorant-wipes
+  source: 'Sibling SKU sharing the IDENTICAL declared ingredient list, read from the
+    same products.json capture 2026-10-30: handle anti-odorant-spray, 19.50 USD, SKU
+    SP40, 4.0 oz glass. Its own record adds the stinging-after-shaving warning and
+    a breakouts/hyperpigmentation bonus line the wipes record does not carry; grade
+    those from the spray record, not from the wipes page'
