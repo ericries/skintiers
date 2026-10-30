@@ -4718,3 +4718,12 @@
     published 2026-02-16. A different dosing regimen and a different cleared field
     size from the 5% cream graded on imiquimod; read its own label rather than inheriting
     the 5% trial figures
+- name: Pevaryl (econazole nitrate topical antifungal)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: karo-healthcare
+  source: Listed under Foot Health on Karo Healthcare's own brand list. Econazole
+    is a different azole from the terbinafine graded on terbinafine, and otc-antifungal-creams-by-labelled-scope
+    already compares labelled scopes; resolve whether it is US-marketed via openFDA
+    before drafting, since it may be non-US only

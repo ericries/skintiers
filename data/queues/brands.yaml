@@ -489,7 +489,7 @@
 - name: Karo Healthcare
   type: brand
   priority: 5
-  status: pending
+  status: done
   discovered_from: lamisil-at-cream-terbinafine-1
   source: 'the new product page sets brand: Lamisil but the labeler of record is Karo
     Healthcare Inc.; the firm now holds the Lamisil AT approvals and no brand page
@@ -645,3 +645,20 @@
   source: Vendor of the newly shipped sunday-riley-good-genes; 57 products in its
     own products.json catalogue. No brand page exists, and the two-acids-one-name
     situation documented on the product page belongs on it
+- name: E45 (emollient range)
+  type: brand
+  priority: 5
+  status: pending
+  discovered_from: karo-healthcare
+  source: Listed under Skin Health on Karo Healthcare's own Our Brands section, cached
+    2026-10-30. A long-established UK emollient line with no page here; the site already
+    grades competing emollients on best-eczema-moisturizers-by-evidence, so its products
+    are the more useful target than the brand page
+- name: ACO (Swedish skincare range)
+  type: brand
+  priority: 5
+  status: pending
+  discovered_from: karo-healthcare
+  source: Listed under Skin Health on Karo Healthcare's own brand list, cached 2026-10-30.
+    Swedish pharmacy skincare line with no page here; confirm whether it is sold outside
+    the Nordics before treating it as in scope for this site's readership

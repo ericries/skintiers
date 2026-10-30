@@ -10583,7 +10583,8 @@
   conflict: Own-brand UPF sun-protective clothing line, SOUL-A (wearsoula.com / @wearsoula), founded and promoted by him — apparel, not topical skincare
   posted: ''
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: hashtag-stuffed reaction Short with no stated topic
 - id: h9HhtBka9E4
   title: 'I’m sorry but this is awful #dermreacts  #skincare  #dermatologist #dermangelo'
   creator: Dr. Angelo Landriscina (DermAngelo)
@@ -11055,7 +11056,8 @@
   conflict: Runs a "Shop my Favorites" affiliate storefront (linktr.ee/dermatologysurgeon) that monetizes her product picks; no own-brand prod
   posted: ''
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: viral-skincare product ratings stitch from a creator with a Shop-my-Favorites affiliate storefront; picks treated as effectively paid
 - id: '7694470880017042702'
   title: 🖇️ Comment DPP to watch this episode of Dr. Pimple Popper This condit...
   creator: Dr. Sheila Farhang (dr.sheila_derm)
@@ -12277,7 +12279,8 @@
   conflict: Active paid spokesperson for RoC Skincare (on-air brand deal w/ discount code) + Cetaphil-sponsored content + 'all' detergent partnership; a
   posted: ''
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: Korean skincare picks Short from a creator who is an active paid spokesperson for RoC with a discount code plus Cetaphil-sponsored content
 - id: cLV_irN7VTA
   title: '5 Minoxidil HACKS To Grow Hair — From A Derm | #shorts #skincare |'
   creator: Dr. Lindsey Zubritsky (DermGuru)
@@ -12370,7 +12373,8 @@
   conflict: Runs a "Shop my Favorites" affiliate storefront (linktr.ee/dermatologysurgeon) that monetizes her product picks; no own-brand prod
   posted: ''
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: barrier-cream product ratings from the same affiliate-storefront creator
 - id: '7696321448167656734'
   title: 🖇️ Comment POP for my acne-clearing products and tips. I know this is...
   creator: Dr. Sheila Farhang (dr.sheila_derm)
@@ -12783,7 +12787,8 @@
   conflict: Active paid spokesperson for RoC Skincare (on-air brand deal w/ discount code) + Cetaphil-sponsored content + 'all' detergent partnership; a
   posted: ''
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: skincare-combos Short from the same paid-spokesperson creator; not single-topic either
 - id: '7696959330347781407'
   title: I get asked all the time what skincare to avoid during pregnancy… sav...
   creator: ''

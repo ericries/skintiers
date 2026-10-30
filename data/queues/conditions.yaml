@@ -790,3 +790,13 @@
     and persisted' and says to discontinue if it develops. No hub here covers treatment-induced
     depigmentation, which is a different entity from vitiligo and from post-inflammatory
     hypopigmentation; verify against the labels of the drugs that carry such warnings
+- name: Heel fissures (cracked heels)
+  type: condition
+  priority: 5
+  status: pending
+  discovered_from: urea
+  source: Dr Dray's explainer (GKwS9hUfQuw, 2026-10-13) describes cracked heels as
+    dryness plus thickened skin plus mechanical stress, with the deep painful cracks
+    called fissures and walking deepening them. The card is parked on urea for want
+    of a page; calluses-and-corns covers the thickening and dry-skin the dryness,
+    but neither covers the fissures themselves

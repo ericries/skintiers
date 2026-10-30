@@ -30,6 +30,16 @@ videos:
   related: []
   thesis: Dr. Adeline Kikam, a board-certified dermatologist known as Brown Skin Derm, explains ichthyosis vulgaris, a condition caused by a defect in filaggrin, a protein important for retaining moisture in the skin barrier and for normal skin shedding. She says this defect causes the skin to not turn over or shed properly, producing a fish-scale or cracked appearance that heavy moisturizing alone does not fix. She explains that moisturizers containing keratolytic ingredients like urea can help soften the scale and reduce dryness, but notes there is no cure for the condition.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Best treatment for dry, cracked heels
+  creator: Andrea Suarez (Dr Dray)
+  creator_slug: andrea-suarez-dr-dray
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=GKwS9hUfQuw
+  posted: '2026-10-13'
+  related: [calluses-and-corns, dry-skin, lactic-acid, salicylic-acid, keratolytics-compared]
+  thesis: 'Board-certified dermatologist Andrea Suarez, who posts as Dr Dray, names urea as the ingredient to look for in a foot cream, calling it one of the most well-studied and best evidence-based ingredients specifically for dry, rough skin on the feet. She explains that at high concentrations urea acts as a keratolytic, breaking apart dead skin that has stuck together so it can shed, and that some formulas pair it with glycolic acid, lactic acid, ammonium lactate or salicylic acid. Her second point is about the vehicle rather than the ingredient list: she argues people fixate on how high an ingredient sits in the list and ignore that ointments, which are petrolatum based, both occlude and tend to improve penetration of what is in them. She describes cracked heels as a combination of dryness, thickened skin and mechanical stress, with the deep painful cracks called fissures.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
