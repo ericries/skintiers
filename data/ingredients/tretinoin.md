@@ -226,6 +226,16 @@ videos:
   related: [retinoids, acne, anti-aging, skin-barrier-repair]
   thesis: Board-certified dermatologist Abigail Waldman gives a starting protocol for tretinoin aimed at people who abandoned it the first time because of irritation. She says to use a pea-sized amount, to begin at night only and every third night rather than nightly, going as low as once a week for very sensitive skin, then every second night in the second month and nightly only as tolerated, applying moisturiser after the tretinoin. She tells viewers an acne purge in the first weeks is normal and expected, more likely in acne-prone skin and often lasting several weeks, and she flags sun sensitivity alongside the United States position that prescription tretinoin is contraindicated in pregnancy and breastfeeding.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: 'Tretinoin does not fix everything: eight things it cannot do'
+  creator: Andrea Suarez (Dr Dray)
+  creator_slug: andrea-suarez-dr-dray
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=JXatcmRLaUY
+  posted: '2026-10-29'
+  related: [retinoids, dark-circles, skin-firmness-elasticity, rosacea-erythematotelangiectatic, facial-redness-relief]
+  thesis: 'Board-certified dermatologist Andrea Suarez, who posts as Dr Dray, opens by granting that topical retinoids including tretinoin are among the best-researched topicals in dermatology, effective for acne and for visible signs of sun-induced aging, then argues they have acquired a halo effect in which people expect them to fix everything. She works through concerns tretinoin does not address: an epidermoid cyst is not a blackhead and squeezing it risks scarring without stopping it recurring; broken capillaries, or telangiectasia, will not clear with any topical whatever its active; under-eye hollowing and jowls follow changes in fat compartments, ligaments and the facial skeleton, which she says a topical cannot reach even though retinoids do influence collagen production in the dermis. She also cautions against taking a retinoid onto the eyelids.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

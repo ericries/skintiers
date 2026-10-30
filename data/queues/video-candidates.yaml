@@ -14692,7 +14692,8 @@
   conflict: Maintains a Nykaa curated affiliate storefront; treat specific product picks as commercially incentivized (educational/mechanism content is fine).
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: dermatologist-recommended moisturiser roundup from a creator whose roster entry records a Nykaa curated affiliate storefront; specific product picks are treated as commercially incentivized
 - id: '7701834644420906292'
   title: not every cool blush has to be neon purple! trying on @AMUSE Seoul de...
   creator: Hannah English (@ms_hannah_e / Hannah Collingwood English)
@@ -14747,7 +14748,8 @@
   conflict: Runs an own-brand practice storefront (Derm Rejuvenation Institute, Shopify); treat specific product picks as commercially incentivized.
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: promotes a vitamin C serum sold through her own practice storefront, Derm Rejuvenation Institute; own-brand product promotion, the recurring rejection pattern for this creator
 - id: '7701757757044657421'
   title: 'If I walk around long enough I’ll forget I’m sad right?  #grief #dead...'
   creator: Ella (@your.estie.ella)
@@ -14800,7 +14802,8 @@
   conflict: Maintains a Nykaa curated affiliate storefront; treat specific product picks as commercially incentivized (educational/mechanism content is fine).
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'same pattern: a 5-product moisturiser roundup from the same creator with the Nykaa affiliate storefront'
 - id: w4hc20AKKSY
   title: Dermat recommended sunscreens for oily skin? Sunscreens Review
   creator: Dr. Aanchal MD
@@ -14878,7 +14881,8 @@
   conflict: Runs a paid cosmetics-industry consulting/science-communication practice (BeautySciComm, e-summits, mentorship cohorts) and is Patreon-suppo
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: clean of sponsorship and the host discloses it, but the substantive claims on whether hair care products cause hair loss come from a guest the host introduces as a hair scientist working for the hair-care brand Ama; relaying an interested party's reassurance about its own product category onto a medical-condition page is not something a card can carry responsibly
 - id: '7701311423330225421'
   title: Consistency, targeted actives, sun protection, and giving your skin t...
   creator: Jenn Lexi (@jennlexi_)
@@ -14904,7 +14908,8 @@
   conflict: Runs an Amazon affiliate storefront (amazon.com/shop/derm.talk); recurring disclosed paid brand partnerships (Shiseido, SkinCeutic
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: Sephora-sale shopping picks from a creator with an Amazon affiliate storefront and recurring disclosed brand partnerships; picks treated as effectively paid
 - id: '7702142124908727566'
   title: 'Did you guess right?  #skincare101 #skincaretips #dryskin #oilyskin '
   creator: Kristin Leite (kristingl)

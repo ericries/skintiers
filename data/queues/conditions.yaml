@@ -736,3 +736,20 @@
     with no hub here to host the evidence; the wipes page had to say that nothing
     on glycolic-acid, body-acne or probiotics supports an odor claim. Primary route
     is the axillary microbiome and antiperspirant literature on PubMed
+- name: Epidermoid cyst
+  type: condition
+  priority: 5
+  status: pending
+  discovered_from: tretinoin
+  source: 'Dr Dray''s tretinoin-limitations video (JXatcmRLaUY, 2026-10-29) leads
+    with it: commonly mistaken for a blackhead, squeezed by patients, and unreachable
+    by any topical. No page here, and the tretinoin card now references it with nothing
+    to link to'
+- name: Telangiectasia (broken capillaries)
+  type: condition
+  priority: 5
+  status: pending
+  discovered_from: tretinoin
+  source: Named in JXatcmRLaUY as something no topical of any kind will clear. The
+    site covers it only obliquely via rosacea-erythematotelangiectatic and facial-redness-relief;
+    a hub would let the device and laser evidence (PDL, IPL) be graded in one place
