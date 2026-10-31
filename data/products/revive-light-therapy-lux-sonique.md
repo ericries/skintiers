@@ -11,34 +11,35 @@ analyzed: '2026-10-30'
 assurance: sonnet
 brand: reVive Light Therapy
 category: Devices
-comparator: '[[revive-light-therapy-lux-glo]], the same maker''s cordless LED device
-  at $79, which carries the same two consumer-study percentages and no cleansing function'
+comparator: '[[revive-light-therapy-lux-glo]], the same maker''s cordless LED device at $79, which carries
+  the same two consumer-study percentages and no cleansing function'
 grades:
 - effect: modest
   evidence: preliminary
-  note: the setting is blue plus red, which is the best-graded modality for home acne
-    devices on [[home-led-light-therapy]]. The grade is INHERITED from that modality,
-    not earned by this device, which has no clinical study of its own in the public
-    record
+  note: the setting is blue plus red, which is the best-graded modality for home acne devices on [[home-led-light-therapy]].
+    The grade is INHERITED from that modality, not earned by this device, which has no clinical study
+    of its own in the public record
   use: Anti-Acne setting, for mild to moderate acne (brand-stated use)
 - effect: minimal
   evidence: preliminary
-  note: red, amber and infrared without blue. Graded lower than the acne setting for
-    the same reason it is on the maker's other devices, that home LED for wrinkles
-    rests on a thinner base than home LED for acne
+  note: red, amber and infrared without blue. Graded lower than the acne setting for the same reason it
+    is on the maker's other devices, that home LED for wrinkles rests on a thinner base than home LED
+    for acne
   use: Anti-Aging setting, for fine lines and wrinkles (brand-stated use)
 - effect: unknown
   evidence: anecdotal
-  note: nothing read for this page tests the cleansing function, and no FDA clearance
-    covers it because cleansing is not a treatment claim. It is a convenience feature,
-    not a graded one
+  note: nothing read for this page tests the cleansing function, and no FDA clearance covers it because
+    cleansing is not a treatment claim. It is a convenience feature, not a graded one
   use: Sonic cleansing (the other half of the 3-in-1)
 - effect: unknown
   evidence: anecdotal
-  note: a consumer study of participants aged 39 to 66, with no sample size, duration,
-    control arm or publication given, and the SAME two figures appear on this maker's
-    other device pages
+  note: a consumer study of participants aged 39 to 66, with no sample size, duration, control arm or
+    publication given, and the SAME two figures appear on this maker's other device pages
   use: The brand's two published percentages
+images:
+- file: revive-light-therapy-lux-sonique-brand.jpg
+  source: reVive Light Therapy (brand catalogue image)
+  source_url: https://revive-light-therapy.com/products/lux-sonique-cleanser
 key_actives: []
 name: reVive Light Therapy Lux Soniqué (and Lux Soniqué Mini)
 price:

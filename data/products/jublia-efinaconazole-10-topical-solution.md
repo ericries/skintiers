@@ -8,22 +8,25 @@ analyzed: '2026-10-30'
 assurance: sonnet
 brand: Bausch Health
 category: Prescription
-comparator: '[[lamisil-at-cream-terbinafine-1]], the over-the-counter topical antifungal
-  covered here, which is not labelled for nails at all'
+comparator: '[[lamisil-at-cream-terbinafine-1]], the over-the-counter topical antifungal covered here,
+  which is not labelled for nails at all'
 grades:
 - effect: modest
   evidence: gold-standard
-  note: 'inherited from [[efinaconazole]], which the site grades good and where the
-    two trials and their numbers are set out. What belongs here is the commitment:
-    once daily for 48 weeks, with complete cure assessed only at week 52'
+  note: 'inherited from [[efinaconazole]], which the site grades good and where the two trials and their
+    numbers are set out. What belongs here is the commitment: once daily for 48 weeks, with complete cure
+    assessed only at week 52'
   use: Clearing toenail onychomycosis (health)
 - effect: unknown
   evidence: anecdotal
-  note: the label states the trials enrolled nails "without dermatophytomas or lunula
-    (matrix) involvement", so the cure rates on the ingredient page do not describe
-    those nails at all. This is the single most useful thing a reader with a thickened
-    streak in the nail can know, and it is on [[dermatophytoma]]
+  note: the label states the trials enrolled nails "without dermatophytomas or lunula (matrix) involvement",
+    so the cure rates on the ingredient page do not describe those nails at all. This is the single most
+    useful thing a reader with a thickened streak in the nail can know, and it is on [[dermatophytoma]]
   use: Nails with a dermatophytoma or matrix involvement
+image_unresolvable: no product photograph exists in any source checked 2026-10-30. The DailyMed SPL carries
+  six images, five of them line-drawing application diagrams and the sixth a flat carton dieline rather
+  than a photo, and the brand site jubliarx.com serves only a logo with no og:image. incidecoder has no
+  entry. Nothing was fabricated and no metered lookup was spent.
 key_actives:
 - efinaconazole
 name: Jublia (efinaconazole 10% topical solution)
