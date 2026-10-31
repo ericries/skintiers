@@ -8745,3 +8745,9 @@ doctorly:
   score: 9
   verdict: publish
   note: 'REVISION after publish, same day: the page originally hedged Shah''s own-brand interest as ''recorded by this site''s roster, not independently verified'' because remedyscience.com returns a JavaScript shell. That hedge was weaker than the evidence actually on hand. The site already carries a sourced brand page, remedy-science, which quotes the store titling itself ''Remedy Science by Dr. Muneeb Shah''; I failed to run sk find before hedging, the same lesson as the hair-loss-thinning miss. The disclosure now states the connection and links the brand page, and the quote was re-verified as present there. Body re-trimmed to 150 words after the change.'
+spf-lip-balms-by-label-claims:
+  last_reviewed: '2026-10-31'
+  score: 9
+  verdict: publish
+  note: 'List type: own check per playbook, no Opus critic. Curatorial over the only two SPF lip balms whose Drug Facts panels have been read in full here; adds no new label reading, which the Sources section states. Every quoted claim and every stated ABSENCE re-checked against the product page that sourced it from the SPL: Jack Black''s use statement, both filter strengths and its missing-claims list; Trader Joe''s missing SPF value, water resistance and broad spectrum, plus all four declared filters. openFDA count (372) re-queried. DELIBERATELY RANKED ONLY TWO: the same query returns 372 lip products declaring avobenzone, and the page says outright that a category that size should not be characterised from brand names alone, so the other records sit in tier_list_reviewed ungraded. The caption states that a fuller claim set signals the maker did the testing the monograph requires for those claims, NOT better performance on lips, because nothing here compares the two products against each
+    other.'

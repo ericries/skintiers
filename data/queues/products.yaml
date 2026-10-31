@@ -4745,3 +4745,21 @@
     the direct comparator to Jublia; resolve its NDA and sponsor via openFDA drugsfda
     and read its own 52-week trial figures from DailyMed. The site has Jublia and
     efinaconazole but nothing on tavaborole
+- name: Coppertone Sport Sunscreen Lip Balm
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: spf-lip-balms-by-label-claims
+  source: 'Surfaced in the openFDA lip-sunscreen sample queried 2026-10-31 and the
+    only major sun-care brand in it. Read its Drug Facts panel in full from DailyMed
+    and record which of the monograph claim set it carries: SPF value, broad spectrum,
+    water resistance minutes, reapplication interval, skin-cancer claim. It is the
+    obvious third rung for spf-lip-balms-by-label-claims'
+- name: Equate SPF 15 Lip Balm
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: spf-lip-balms-by-label-claims
+  source: Surfaced in the same openFDA sample; a supermarket own-brand that states
+    an SPF in its NAME, which makes it a useful test of whether the Drug Facts panel
+    matches the front of the pack. Read the SPL in full before drafting

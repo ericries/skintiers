@@ -537,7 +537,7 @@
 - name: SPF lip balms by what their FDA label actually claims
   type: list
   priority: 5
-  status: pending
+  status: done
   discovered_from: jack-black-intense-therapy-lip-balm-spf-25
   source: 'A buildable axis once two or three lip SPL pages exist, and the Jack Black
     page shows why it matters: its entire sunscreen claim is ''Helps prevent sunburn
