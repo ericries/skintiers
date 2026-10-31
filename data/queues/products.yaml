@@ -3667,7 +3667,7 @@
 - name: Lamisil AT (terbinafine 1% cream)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: otc-antifungals-by-evidence
   source: The best-known consumer terbinafine product and the top-tier agent on otc-antifungals-by-evidence
     (shipped 2026-10-21), with no page here; sk find 'lamisil' returns nothing. Resolve
@@ -3677,7 +3677,7 @@
 - name: Jublia (efinaconazole 10% topical solution)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: efinaconazole
   source: 'DailyMed SPL 922d4d25-c530-11e1-9b21-0800200c9a66, read in full 2026-10-21
     for the efinaconazole ingredient page. Marketing category NDA, initial US approval
@@ -4525,7 +4525,7 @@
 - name: dpl IIa Panel (K180320)
   type: product
   priority: 4
-  status: pending
+  status: done
   discovered_from: dpl-spectralite
   source: 'openFDA K180320, LED Technologies, decision 2018-04-03, product code OHS.
     The direct successor to the dpl II Panel (K171390) by name, filed eight months
@@ -4736,3 +4736,12 @@
     single strength group among the 346 wart-branded NDC records queried 2026-10-30.
     Pick one with a readable DailyMed SPL, read its directions and duration, and set
     them against the plantar NMA finding that salicylic acid did not beat no treatment'
+- name: Kerydin (tavaborole 5% topical solution)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: jublia-efinaconazole-10-topical-solution
+  source: The other FDA-approved prescription topical for toenail onychomycosis and
+    the direct comparator to Jublia; resolve its NDA and sponsor via openFDA drugsfda
+    and read its own 52-week trial figures from DailyMed. The site has Jublia and
+    efinaconazole but nothing on tavaborole

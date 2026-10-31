@@ -947,3 +947,12 @@
     plus the 2026 punch review's note that efficacy depends on combination strategies.
     The site grades eight scar procedures separately and nothing compares combinations;
     rank by whose combination data is controlled
+- name: Prescription topical antifungals for nails by cure rate
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: jublia-efinaconazole-10-topical-solution
+  source: Curatorial once tavaborole and ciclopirox have pages. Jublia's complete-cure
+    rates (17.8% and 15.2% against 3.3% and 5.5% vehicle, on efinaconazole) are the
+    anchor; rank by complete cure with the vehicle arm shown, and note that all these
+    trials excluded dermatophytoma and matrix involvement
