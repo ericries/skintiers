@@ -138,6 +138,18 @@ videos:
     foods, and drink enough water to avoid GI discomfort).'
   title: Can Eating More Fiber Improve Your Skin? | Dermatologist Explains
   url: https://www.youtube.com/watch?v=FzrowYqQnnE
+- title: Foods to avoid with eczema? What the science actually says
+  creator: Andrea Suarez (Dr Dray)
+  creator_slug: andrea-suarez-dr-dray
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=FOKqG4zhKlc
+  posted: '2026-10-30'
+  related: [diet-and-skin, skin-barrier-repair, dry-skin]
+  thesis: Board-certified dermatologist Andrea Suarez, who posts as Dr Dray, takes on the question of whether cutting foods helps eczema and lands against blanket elimination. She separates having atopic dermatitis, which she describes as a chronic inflammatory condition involving an impaired skin barrier, immune activity, genetic susceptibility and environmental factors, from having a confirmed food allergy, and stresses that a confirmed allergy, a food intolerance and a suspected dietary trigger are not interchangeable and call for different approaches. On the evidence she says research has not shown consistent benefits from elimination diets for people with atopic dermatitis generally, particularly where no specific food allergy has been established, and she warns that unnecessary restriction carries its own downsides. She also discusses a JAMA Dermatology study reporting that higher dietary sodium was associated with higher odds of eczema and greater severity, which is an association
+    rather than a demonstrated cause.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Atopic dermatitis, the form of eczema meant when people say "eczema" without qualification, is a chronic, intensely itchy inflammatory skin disease that relapses and remits over years and has no cure, where treatment "at best achieves symptom control rather than cure."[^nutten2015] The American Academy of Dermatology guideline describes it as "a chronic, pruritic inflammatory dermatosis that affects up to 25% of children and 2% to 3% of adults."[^eichenfield2014]

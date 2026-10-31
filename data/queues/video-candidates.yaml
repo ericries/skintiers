@@ -14920,7 +14920,8 @@
   conflict: has an own-brand line (Selfless) and does sponsorships - educational content only, never treat picks as endorsements, never use sponsored videos
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: roundup of drugstore picks; creator has own brand line
 - id: wfgv5OFHljo
   title: 5 Serums That Are Actually Worth The Money
   creator: James Welsh
@@ -14933,7 +14934,8 @@
   conflict: does sponsorships - educational content only, never treat picks as endorsements, never use sponsored videos
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: serum picks roundup; creator does sponsorships/affiliate
 - id: sMbwq9I1WXU
   title: How to Brighten Dull Skin | Dermatologist's Guide to Glowing Skin
   creator: Dr. Maren Locke (The Budget Dermatologist)
@@ -14946,7 +14948,8 @@
   conflict: Runs extensive Amazon Associates and ShopMy affiliate storefronts, monetizing nearly every product mentioned across videos
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: affiliate storefront monetizes the products named
 - id: hRHMDxruvEs
   title: 'dollar tree skincare I will repurchase until I’m 90, part 2 stitch with doc.Shania #skincare'
   creator: Dr. Neera Nathan
