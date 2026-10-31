@@ -1727,3 +1727,12 @@
     the authors still call it exploratory and the abstract publishes NO p-value, confidence
     interval or effect size for the between-group comparison. Note the FCO2 subscript
     extracts as 'FCO 2' and will break a naive quote check.
+- name: Boen 2019 acne scar classification and treatment review (PMID 30856634)
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: punch-excision-and-elevation
+  source: Already cited on atrophic-acne-scar-subtypes but has no study page. It is
+    the source that would settle whether punch techniques have a subtype-specific
+    indication, which the new punch page had to leave as clinical convention because
+    neither 2024 nor 2026 review says it. Read the full text, not just the abstract

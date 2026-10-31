@@ -378,7 +378,7 @@
 - name: Punch excision and punch elevation for icepick and boxcar scars
   type: goal
   priority: 5
-  status: pending
+  status: done
   discovered_from: atrophic-acne-scar-subtypes
   source: The gap the new subtype page exposes most sharply. Icepick scars are the
     subtype with NO procedure page here, and the surgical options named in PMID 30856634
@@ -738,3 +738,12 @@
     with more blister formation (PMID 41686619), yet it is also a first-line office
     treatment for actinic keratosis per Dr Waldman's carded video. One page should
     hold the evidence by indication
+- name: Dermabrasion for acne scars
+  type: goal
+  priority: 5
+  status: pending
+  discovered_from: punch-excision-and-elevation
+  source: Named in the 2024 atrophic scar narrative review (PMID 38381492) among the
+    resurfacing options alongside chemical peels and lasers, and the 2025 Indian J
+    Dermatol technique paper pairs punch excision with shoulder dermabrasion. The
+    site covers peels and both ablative lasers but has no dermabrasion page
