@@ -38,6 +38,16 @@ videos:
   related: [am-pm-routine-by-evidence, retinoids, vitamin-c, sunscreen-uv-filters, exfoliation]
   thesis: 'Dermatologist Dr. Fatima Fahs makes the case that a skincare routine taking more than five minutes is doing too much, and then walks through the one she actually uses. In the morning she washes her face in the shower, dabs on an eye cream (caffeine if you tend to wake up puffy), applies an antioxidant where she says vitamin C is especially useful, and finishes with a moisturizing sunscreen, making the point that a separate moisturizer and sunscreen can be combined into one step rather than layered. At night she cleanses to remove the oil, makeup and pollutants the day deposited so the skin is ready to take a treatment, uses a retinol most nights unless pregnant, swaps in an exfoliant for one or two of those nights instead, and finishes with a moisturizer. Her framing is permissive rather than prescriptive: if you enjoy a longer ritual, keep it, but it is not necessary.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: 'Simple skincare saves skin: stitch reply on oily, clogged, acne prone skin'
+  creator: Ella (@your.estie.ella)
+  creator_slug: your-estie-ella
+  credential: Licensed esthetician (not a dermatologist or cosmetic chemist)
+  platform: TikTok
+  url: https://www.tiktok.com/@your.estie.ella/video/7686094986395372814
+  posted: '2026-09-16'
+  related: [oily-skin, acne, azelaic-acid, adapalene, salicylic-acid]
+  thesis: Licensed esthetician Ella, who posts as your.estie.ella and is not a dermatologist, answers a viewer whose oily acne prone skin broke out after piling on hydrating Korean skincare steps, and tells her to strip back to cleanser, moisturizer and sunscreen until it calms down. She argues that overloading oily skin with hydration can add clogs, that pore pads and face shaving cannot scrub out comedones that formed over time, and that sunscreen should stay in because she holds that UV contributes to acne. On sequencing she would hold a salicylic acid cleanser to every other night, add azelaic acid next as an anti inflammatory regulator rather than an exfoliant, and only then introduce adapalene, since starting a retinoid over existing congestion is in her view what produces the long inflamed purges people describe.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
