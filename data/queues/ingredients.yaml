@@ -1729,14 +1729,14 @@
     chronic hand eczema; prescription, anchors the chronic-hand-eczema hub)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: chronic-hand-eczema
   source: https://pubmed.ncbi.nlm.nih.gov/41277505/
 - name: Alitretinoin (oral 9-cis-retinoic acid; FDA/EMA-approved systemic treatment
     for severe chronic hand eczema; prescription, physician-managed)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: chronic-hand-eczema
   source: https://pubmed.ncbi.nlm.nih.gov/41277505/
 - name: Denifanstat (oral fatty-acid-synthase (FASN) inhibitor; investigational systemic
@@ -1744,7 +1744,7 @@
     developer Ascletis; anchors the acne hub + Chen 2026 study)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: chen-2026-denifanstat-phase2-acne
   source: https://pubmed.ncbi.nlm.nih.gov/41186280/
 - name: Lanolin

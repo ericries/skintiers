@@ -681,3 +681,13 @@
     authors, alongside Dr. August Wolff GmbH & Co. KG Arzneimittel. The site grades
     caffeine as an ingredient and now carries a manufacturer-involved caffeine-shampoo
     RCT with no brand page to anchor either
+- name: Ascletis Pharmaceuticals
+  type: brand
+  priority: 5
+  status: pending
+  discovered_from: denifanstat
+  source: Lead sponsor of NCT05104125, the Phase 2 acne trial of ASC40/denifanstat,
+    per the ClinicalTrials.gov registry read 2026-10-31. The site now carries both
+    the study page and the ingredient page with no developer page; note it is a drug
+    developer rather than a skincare brand, so keep the page to what the registry
+    and any FDA filings establish

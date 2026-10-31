@@ -767,3 +767,13 @@
     trials. It measures active shedding under traction rather than regrowth, a distinction
     the site now needs because a published RCT headline rests on it. Source the test's
     methodology and reliability directly
+- name: Fatty acid synthase (FASN) inhibition as an acne mechanism
+  type: goal
+  priority: 5
+  status: pending
+  discovered_from: denifanstat
+  source: The denifanstat page deliberately does NOT assert what FASN inhibition does
+    to sebum, because neither the registry entry nor the openFDA check establishes
+    it and the trial rationale is not a finding. A goal page could hold the actual
+    sebum-pathway evidence, or establish that it is thin; start from the Chen 2026
+    paper's own reasoning and the sebaceous-lipid literature
