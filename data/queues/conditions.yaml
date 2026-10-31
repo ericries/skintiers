@@ -573,7 +573,7 @@
 - name: Seborrhoeic keratosis
   type: condition
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: smoothing-skin-texture names seborrhoeic keratoses as a common cause of
     thickened skin with no page on this site
@@ -800,3 +800,11 @@
     called fissures and walking deepening them. The card is parked on urea for want
     of a page; calluses-and-corns covers the thickening and dry-skin the dryness,
     but neither covers the fissures themselves
+- name: Dermatosis papulosa nigra
+  type: condition
+  priority: 5
+  status: pending
+  discovered_from: seborrhoeic-keratosis
+  source: 'PMID 17373158 (J Drugs Dermatol 2007): histology not significantly different
+    from seborrhoeic keratosis, highly prevalent in African-American and Afro-Caribbean
+    skin, no page on this site'

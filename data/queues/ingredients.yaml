@@ -3247,3 +3247,11 @@
     2021-09-21, four approved supplements) rather than off either trial alone; note
     the oral form carries a boxed warning, so check the topical label's own warnings
     directly
+- name: Hydrogen peroxide (topical, 40% w/w)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: seborrhoeic-keratosis
+  source: 'NDA 209305 ESKATA label: the only FDA-approved topical for seborrhoeic
+    keratosis, with full trial efficacy and adverse-reaction tables (DailyMed setid
+    52f4cc49-6553-426f-9778-0bd34e31b942)'

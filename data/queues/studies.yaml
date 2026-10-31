@@ -1736,3 +1736,27 @@
     the source that would settle whether punch techniques have a subtype-specific
     indication, which the new punch page had to leave as clinical convention because
     neither 2024 nor 2026 review says it. Read the full text, not just the abstract
+- name: Fonseca 2021 seborrhoeic keratosis-like melanoma review
+  type: study
+  priority: 5
+  status: done
+  discovered_from: seborrhoeic-keratosis
+  source: PMID 34132226, Melanoma Research 2021 - the diagnostic-indistinguishability
+    review this hub leans on; confirm first-author name from the record before writing
+- name: Lindelof 1992 seborrhoeic keratoses and cancer registry study
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: seborrhoeic-keratosis
+  source: PMID 1535080, J Am Acad Dermatol 1992;26(6) - 1752 cases vs Swedish Cancer
+    Registry, RR 1.2 (1.0-1.3); the Leser-Trelat debunk; confirm first-author name
+    from the record before writing First author verified from the PubMed record as
+    Lindelof B (o-umlaut in the original); 1992 J Am Acad Dermatol 26(6).
+- name: Janowska 2021 seborrhoeic keratosis-like melanoma review
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: seborrhoeic-keratosis
+  source: PMID 34132226, Melanoma Research 2021, first author Agata Janowska (verified
+    from the PubMed record) - the diagnostic-indistinguishability review this hub
+    leans on
