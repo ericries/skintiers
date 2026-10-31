@@ -3236,3 +3236,14 @@
     itself. Its proposed eNOS/nitric-oxide microcirculation mechanism is the authors'
     rationale, not a trial finding; grade it on whatever independent evidence exists,
     which may be very little
+- name: Ruxolitinib (topical, Opzelura)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: incyte
+  source: The site now carries the product page opzelura-ruxolitinib-cream, TWO study
+    pages (kircik-2025 and zirwas-2026) and the incyte brand page, with no ingredient
+    page for any of them to link to. Grade it off the Opzelura label (NDA215309, approved
+    2021-09-21, four approved supplements) rather than off either trial alone; note
+    the oral form carries a boxed warning, so check the topical label's own warnings
+    directly
