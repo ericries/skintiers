@@ -3226,3 +3226,13 @@
     its linoleic acid content in CNWsSmRRLso, noting deficiency can cause poor wound
     healing. It is declared in many facial oils and has no page here, so oil pages
     have nothing to link out to; grade it on its own evidence, not on his attribution
+- name: Dimethylglycine sodium salt (DMG-Na), topical
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: celleno-2025-dmg-na-caffeine-shampoo-hair-loss-rct
+  source: The novel active in PMID 40820949, a 154-man placebo-controlled shampoo
+    RCT. No page here, so the study page has nothing to link out to for the ingredient
+    itself. Its proposed eNOS/nitric-oxide microcirculation mechanism is the authors'
+    rationale, not a trial finding; grade it on whatever independent evidence exists,
+    which may be very little

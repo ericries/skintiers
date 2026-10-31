@@ -672,3 +672,12 @@
     Solution', 'DermClick's Dark Spot Solution' and tells them to search 'DermClick
     marks'. The video was rejected for that funnel, but the brand itself is uncovered
     and its claims for post-acne marks are checkable
+- name: Dr. Kurt Wolff (Alpecin)
+  type: brand
+  priority: 5
+  status: pending
+  discovered_from: celleno-2025-dmg-na-caffeine-shampoo-hair-loss-rct
+  source: Named in the conflict statement of PMID 40820949 as employing two of the
+    authors, alongside Dr. August Wolff GmbH & Co. KG Arzneimittel. The site grades
+    caffeine as an ingredient and now carries a manufacturer-involved caffeine-shampoo
+    RCT with no brand page to anchor either

@@ -865,7 +865,7 @@
     Dimethylglycine Sodium Salt ( (PMID 40820949)
   type: study
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/40820949/
 - name: Mehta 2025 Comparative efficacy of topical tofacitinib versus topical tacrolimus

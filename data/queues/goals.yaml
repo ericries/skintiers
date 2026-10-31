@@ -758,3 +758,12 @@
     approach. Two carded videos now describe retinoid-tolerance technique and no page
     holds the evidence; search for buffering/short-contact RCTs rather than relaying
     either protocol as established
+- name: Hair pull test and what it does and does not measure
+  type: goal
+  priority: 5
+  status: pending
+  discovered_from: celleno-2025-dmg-na-caffeine-shampoo-hair-loss-rct
+  source: The primary endpoint of PMID 40820949 and a recurring outcome in hair-product
+    trials. It measures active shedding under traction rather than regrowth, a distinction
+    the site now needs because a published RCT headline rests on it. Source the test's
+    methodology and reliability directly
