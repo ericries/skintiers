@@ -45,6 +45,19 @@ tier_list_reviewed:
   than graded)
 type: condition
 updated: '2026-10-29'
+videos:
+- title: 'Crusty calluses: how to remove calluses and scales safely'
+  creator: Dr. Laura Soong
+  creator_slug: laura-soong
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=cwD6AHSGL3k
+  posted: '2024-01-23'
+  related: [salicylic-acid, urea, lactic-acid]
+  thesis: Board-certified dermatologist Laura Soong walks through calluses, areas of thickened built-up skin caused by repeated friction, pressure or rubbing, most often on the palms and soles, and she describes recognising one by its harder leathery feel, its yellowish colour and the exaggerated skin lines visible across it. Her sequence is to soak the area in plain lukewarm water for five to ten minutes, pare it down gently with a file without going deep, since over-aggressive removal risks injury and infection, and only then apply a keratolytic such as salicylic acid, high-strength urea or lactic acid, kept off the surrounding normal skin because it can irritate. She treats prevention as the part people skip, pointing to footwear, a podiatrist assessment or orthotics for the feet and padding or gloves for the hands, and she warns anyone diabetic to have calluses managed professionally rather than at home because of the risk of wounds, deep ulcers and infection reaching the underlying
+    bone.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Calluses and corns are thickened skin, and the over-the-counter pharmacy for them is narrow: essentially one active, [[salicylic-acid]], sold at two strengths. The useful thing to know before buying any of it is how long the one randomized trial in corns says this actually takes.

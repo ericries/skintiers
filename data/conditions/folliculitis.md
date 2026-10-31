@@ -44,6 +44,19 @@ tier_list_reviewed:
 - fur-ingrown-eliminator-serum
 - tend-skin-the-skin-care-solution
 updated: '2026-10-20'
+videos:
+- title: 'This is NOT acne: folliculitis, self care and treatment'
+  creator: Dr. Laura Soong
+  creator_slug: laura-soong
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=pgR6u8wW0ec
+  posted: '2024-01-08'
+  related: [acne, benzoyl-peroxide, ingrown-hairs, dandruff, laser-hair-removal]
+  thesis: Board-certified dermatologist Laura Soong explains folliculitis, inflammation of the hair follicles that produces an acne-like rash on the torso, upper back, arms, beard area and legs, and gives as the distinguishing sign that folliculitis carries no blackheads and no whiteheads. She splits the causes into infectious ones, including staph aureus, hot tub folliculitis from contaminated warm water that appears within 8 hours to 5 days and is worst where the bathing suit trapped it, and malassezia, the same yeast behind dandruff and what people call fungal acne, and non-infectious ones such as shaving friction, occlusion from tight clothing or thick moisturizers, and drugs including anabolic steroids, prednisone and high-dose B6 or B12. Her home measures are an antiseptic wash such as benzoyl peroxide or chlorhexidine massaged into wet skin and left about five minutes daily for a week, switching hair removal method, showering after a workout or a hot tub, and seeing a doctor to rule
+    out an infection.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Folliculitis is "an inflamed hair follicle due to any cause," producing a tender red spot that often has a surface pustule; it can be superficial or deep and can affect anywhere there are hairs, including the chest, back, buttocks, arms, and legs.[^dermnet] It is not one disease. It is a shared pattern of follicle inflammation that different causes, most often bacterial or fungal infection, produce, and the right treatment depends entirely on which one is present.[^dermnet][^statpearls]
