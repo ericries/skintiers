@@ -13018,7 +13018,8 @@
   conflict: Active paid spokesperson for RoC Skincare (on-air brand deal w/ discount code) + Cetaphil-sponsored content + 'all' detergent partnership; a
   posted: ''
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: 'spoken transcript is clean definitional education naming no products, but the DESCRIPTION is a product funnel: it names DermClick''s Red Mark Solution and DermClick''s Dark Spot Solution for two of the three categories and closes ''To find all the formulas, search DermClick marks'''
 - id: lUAT0mnJ0fU
   title: Your jock itch might actually be coming from your FEET! 🦶😳
   creator: Dr. Maren Locke (The Budget Dermatologist)
@@ -13281,7 +13282,8 @@
   conflict: Runs a "Shop my Favorites" affiliate storefront (linktr.ee/dermatologysurgeon) that monetizes her product picks; no own-brand prod
   posted: ''
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: viral hair-growth product ratings from a creator with a Shop-my-Favorites affiliate storefront
 - id: '7698039931658194206'
   title: 🖇️ Comment SECRET to get on the waitlist for something exciting comin...
   creator: Dr. Sheila Farhang (dr.sheila_derm)
@@ -13444,7 +13446,8 @@
   conflict: Runs a "Shop my Favorites" affiliate storefront (linktr.ee/dermatologysurgeon) that monetizes her product picks; no own-brand prod
   posted: ''
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: body-care product picks from the same affiliate-storefront creator
 - id: '7698550808387882270'
   title: 🖇️ Comment SECRET to get on the waitlist for something exciting comin...
   creator: Dr. Sheila Farhang (dr.sheila_derm)
@@ -13623,7 +13626,8 @@
   conflict: Runs an own-brand practice storefront (Derm Rejuvenation Institute, Shopify); treat specific product picks as commercially incentivized.
   posted: ''
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: own-brand product promo for a pad sold through her own practice storefront
 - id: GhRkjnSTccc
   title: 'Recovery Serum | Derm & Rejuvenation Institute '
   creator: Tanya Kormeili, MD, FAAD
@@ -13774,7 +13778,8 @@
   conflict: Runs an own-brand practice storefront (Derm Rejuvenation Institute, Shopify); treat specific product picks as commercially incentivized.
   posted: ''
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: own-brand product promo for a cream sold through her own practice storefront
 - id: '7699591469551832351'
   title: I get this question all the time ‼️🍼💉 Filler won’t get into your brea...
   creator: Dr. Aegean Chan
@@ -13968,7 +13973,8 @@
   conflict: Runs an own-brand practice storefront (Derm Rejuvenation Institute, Shopify); treat specific product picks as commercially incentivized.
   posted: ''
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: own-brand product promo for a scrub sold through her own practice storefront
 - id: '7699500870844632334'
   title: Hypochlorous acid = one of those skincare products I think almost eve...
   creator: Ella (@your.estie.ella)
@@ -14966,7 +14972,8 @@
   conflict: sell a small own-brand product line - skip own-brand promos
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'own-brand promo inside the episode: ''if you''re [new] to our line and want to try our skin care like our new cryo goo, please use code cc podcast 2026 for 15% off your first order''. Their roster entry says skip own-brand promos'
 - id: '7702108652336876814'
   title: We’re just talking acne here, if you’re dealing with barrier damage t...
   creator: Ella (@your.estie.ella)

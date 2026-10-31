@@ -218,6 +218,16 @@ videos:
   related: [vitamin-c, moisturizing, blackheads-clogged-pores]
   thesis: Asked on camera about skincare trends circulating on social media, board-certified dermatologist Michelle Henry describes beef tallow as rendered fat from around a cow's organs that contains fatty acids, and says she does not consider it a smart moisturizer. She adds that in her view it is more likely to clog pores than a formulated moisturizer, which is her clinical opinion rather than a trial result. Asked what she would use instead, she names retinoids and vitamin C as the tried and true options.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: How to start a retinoid without wrecking your barrier
+  creator: Dr. Neera Nathan
+  creator_slug: neera-nathan
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=l3hQo7RwnUE
+  posted: '2026-10-28'
+  related: [tretinoin, skin-barrier-repair, sunscreen-uv-filters, pregnancy-safe-skincare]
+  thesis: Board-certified dermatologist Neera Nathan sets out a starting protocol for retinoids built around not wrecking the skin barrier on the way in. She says a pea-sized amount is all that is needed, that beginners should apply it two nights per week and work up only as tolerated, and that people with very sensitive skin can use what she calls the sandwich method, applying a light moisturiser first, then the retinoid, then a thick barrier cream over the top to limit dryness and flaking. She closes on sun protection, noting that retinoids increase sun sensitivity and that daily sunscreen is not optional alongside them. Her caption adds a single safety line, to avoid retinoids in pregnancy.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 name: Retinoids
 slug: retinoids
 status: published

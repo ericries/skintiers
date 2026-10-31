@@ -662,3 +662,13 @@
   source: Listed under Skin Health on Karo Healthcare's own brand list, cached 2026-10-30.
     Swedish pharmacy skincare line with no page here; confirm whether it is sold outside
     the Nordics before treating it as in scope for this site's readership
+- name: DermClick (acne-mark product line)
+  type: brand
+  priority: 5
+  status: pending
+  discovered_from: post-inflammatory-erythema
+  source: Named repeatedly in the DESCRIPTION of Dr Lindsey Zubritsky's PIE/PIH/scar
+    Short (3IcirLRUE_Y, 2026-10-16), which routes viewers to 'DermClick's Red Mark
+    Solution', 'DermClick's Dark Spot Solution' and tells them to search 'DermClick
+    marks'. The video was rejected for that funnel, but the brand itself is uncovered
+    and its claims for post-acne marks are checkable
