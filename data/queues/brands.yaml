@@ -691,3 +691,13 @@
     the study page and the ingredient page with no developer page; note it is a drug
     developer rather than a skincare brand, so keep the page to what the registry
     and any FDA filings establish
+- name: Pulsaderm
+  type: brand
+  priority: 5
+  status: pending
+  discovered_from: pulsaderm-wrinkle-mask-28
+  source: 'Two product pages here now (pulsaderm-acne-mask-28 and pulsaderm-wrinkle-mask-28)
+    and no brand page. openFDA shows Pulsaderm LLC of Fort Myers FL holds exactly
+    three clearances: K163329 (OHS, wrinkle masks), K170111 (OLP, acne masks) and
+    K182501 (OAP, Hair Laser Headband). The third is uncovered and is a different
+    modality again'

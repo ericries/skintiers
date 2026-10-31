@@ -3692,7 +3692,7 @@
 - name: Pulsaderm Acne Clearing Blue Light (body or large-area variants)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: revive-light-therapy-lux-panel
   source: 'Surfaced by the body-area gap on revive-light-therapy-lux-panel (2026-10-21):
     the site grades pulsaderm-acne-mask-28 for the face but has nothing covering large-area
@@ -4090,7 +4090,7 @@
     device/510k applicant Pulsaderm + accessdata.fda.gov/cdrh_docs/pdf16/K163329.pdf'
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: null
 - name: 'dpl II Panel (K171390, 510(k) Summary, LED Technologies Inc., cleared 2017-08-03,
@@ -4763,3 +4763,22 @@
   source: Surfaced in the same openFDA sample; a supermarket own-brand that states
     an SPF in its NAME, which makes it a useful test of whether the Drug Facts panel
     matches the front of the pack. Read the SPL in full before drafting
+- name: Quasar / Baby Quasar red light devices (K130225)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: pulsaderm-wrinkle-mask-28
+  source: 'Named as a predicate in the K163329 Summary read 2026-10-31: Silver Bay
+    LLC''s Quasar Calypso C100, Baby Quasar Plus and Quasar MD Plus, cleared under
+    K130225 for full-face wrinkles. It is upstream of at least one device graded here,
+    so its own file is worth reading; the Summary''s comparison table also gives its
+    wavelengths and output'
+- name: Pro X OTC 5 Light Therapy device (K140471, La Lumiere)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: pulsaderm-wrinkle-mask-28
+  source: The other predicate named in the K163329 Summary, La Lumiere LLC, cleared
+    2014. The comparison table gives it 610 nm red and 850 nm infrared, 18 LEDs, 3
+    minutes per area daily and 30 sessions per device, with several output fields
+    listed as unknown; read its own filing rather than relying on a competitor's table
