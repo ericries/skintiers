@@ -414,7 +414,7 @@
 - name: Doctorly (Dr. Muneeb Shah and Dr. Luke Maxfield)
   type: person
   priority: 5
-  status: pending
+  status: done
   discovered_from: chronic-hand-eczema
   source: 6 video cards already on this site and no person page, so readers meet them
     only through card credentials. Both board-certified dermatologists per the roster;
