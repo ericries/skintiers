@@ -12259,7 +12259,8 @@
   conflict: Active paid spokesperson for RoC Skincare (on-air brand deal w/ discount code) + Cetaphil-sponsored content + 'all' detergent partnership; a
   posted: ''
   feed_rank: 2
-  status: pending
+  status: skipped
+  skip_reason: Shorts-style hashtag-stuffed clip; no minoxidil page
 - id: cbtmb778ECw
   title: One sunscreen that makes multiple key plays! 🏈
   creator: Dr. Maren Locke (The Budget Dermatologist)
@@ -13329,7 +13330,8 @@
   conflict: null
   posted: ''
   feed_rank: 2
-  status: pending
+  status: skipped
+  skip_reason: no cold sores page on the site
 - id: uyJS0b-M3Qo
   title: 'Hidradenitis Suppurativa: Simple Lifestyle Changes That STOP Flares!'
   creator: Dr. Laura Soong
@@ -13589,7 +13591,8 @@
   conflict: Runs an own-brand practice storefront (Derm Rejuvenation Institute, Shopify); treat specific product picks as commercially incentivized.
   posted: ''
   feed_rank: 2
-  status: pending
+  status: skipped
+  skip_reason: promotes her own practice storefront serum
 - id: '7698758466982137102'
   title: 2 Steps when I don’t have time for 10 🙃 @Paula's Choice Youth Extendi...
   creator: Ella (@your.estie.ella)
@@ -14757,7 +14760,8 @@
   conflict: Maintains a Nykaa curated affiliate storefront; treat specific product picks as commercially incentivized (educational/mechanism content is fine).
   posted: ''
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: sunscreen product picks; Nykaa affiliate storefront
 - id: '7702071669573111053'
   title: XERF has been one of the hottest skin-tightening treatments that we h...
   creator: Fatima Fahs
@@ -14964,7 +14968,8 @@
   conflict: Runs a "Shop my Favorites" affiliate storefront (linktr.ee/dermatologysurgeon) that monetizes her product picks; no own-brand prod
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: dollar-tree picks; affiliate storefront monetizes her product picks
 - id: DE3QPdndceY
   title: These are the ONLY Sephora Sale Products I Would Personally Buy | Dr. Sam Ellis
   creator: Dr. Sam Ellis
@@ -14977,4 +14982,5 @@
   conflict: founder of the Prequel skincare brand - skip videos mainly promoting her own products
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: Sephora sale shopping picks; founder of own brand Prequel
