@@ -8820,3 +8820,8 @@ pulsaderm:
   score: 9
   verdict: publish
   note: 'Main-loop self-check at assurance=sonnet (brand takes no critic per the playbook). 130 words, under the 180 cap. Every clearance figure read from a fresh openFDA query for applicant ''pulsaderm'' (exactly 3 records) rather than from the queue note. Founder deliberately omitted: no verifiable source, and the playbook says ''if verifiable''. No brand claims quoted because the brand''s own domain returns HTTP 423 ''This store is unavailable''; that absence is footnoted and bounded to the date rather than used to assert the company has folded. Noted that two clearances each cover a pair of sizes, so the site''s two product pages do not exhaust the cleared range.'
+lanolin:
+  last_reviewed: '2026-11-01'
+  score: 9
+  verdict: publish
+  note: 'Main-loop self-verification at assurance=sonnet. All 29 quoted strings verified: 19 against the fetched PubMed abstracts, 5 openFDA strings and 4 strength figures against a re-fetched NDC response, and 2 article titles against the ArticleTitle elements. tier: mid is argued in the rubric rather than assumed: the only efficacy synthesis found (Shetty 2024, 11 studies, 1,495 participants) reports significance with NO effect size, CI or p-value in its abstract, so direction is supported and magnitude is not; the page says that is the reason for the grade and links the defect to study-pages-recorded-as-unusable. The 0.4% European contact-allergy figure is relayed with the review''s own ''reportedly'' attribution intact rather than stated as measured. The US racial-difference finding is reported as the review states it with no mechanism proposed.'

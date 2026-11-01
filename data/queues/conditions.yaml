@@ -824,3 +824,10 @@
   source: The delayed-hypersensitivity lip reaction this page's whole argument turns
     on; the site has contact-dermatitis but no lip-specific hub, and two lip-balm
     pages now reference the mechanism
+- name: Nipple pain and trauma in breastfeeding
+  type: condition
+  priority: 5
+  status: pending
+  discovered_from: lanolin
+  source: The one indication where lanolin has a pooled analysis behind it (PMID 39436586,
+    11 studies, 1,495 participants); the site has no hub for it

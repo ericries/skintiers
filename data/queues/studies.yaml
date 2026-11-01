@@ -1776,3 +1776,19 @@
   source: PMID 35000295, Dermatol Ther 2022;35(4), authors Al Muqarrab F and Almohssen
     A (verified from the PubMed Author elements) - conventional dose beat low dose
     on prolonged remission; GRADE low
+- name: Shetty 2024 lanolin for nipple pain and trauma meta-analysis
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: lanolin
+  source: PMID 39436586, Matern Child Health J 2024;28(12), first author Shetty AP
+    (verified from the PubMed Author elements); 11 studies, 1,495 participants, significance
+    reported with no effect size
+- name: Jenkins 2023 lanolin review
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: lanolin
+  source: PMID 36917502, Dermatitis 2023;34(1), Jenkins BA and Belsito DV (verified
+    from the PubMed Author elements); source of the 0.4% European contact-allergy
+    figure and the patch-test caveats

@@ -4874,3 +4874,10 @@
   discovered_from: pulsaderm
   source: Covered by the same clearance as the Acne Mask 28 (K170111, openFDA), so
     the cleared range is wider than the site's single page
+- name: Lansinoh HPA Lanolin (nipple cream)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: lanolin
+  source: The archetypal lanolin nipple product and the intervention behind much of
+    the Shetty 2024 meta-analysis literature (PMID 39436586); no page here
