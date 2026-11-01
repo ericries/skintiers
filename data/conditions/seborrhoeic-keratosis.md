@@ -15,6 +15,18 @@ slug: seborrhoeic-keratosis
 status: published
 type: condition
 updated: '2026-10-31'
+videos:
+- title: What You Should Know About Seborrheic Keratoses
+  creator: Dr. Aleksandra Brown, DO, FAAD
+  creator_slug: aleksandra-brown
+  credential: Board-certified dermatologist (DO, FAOCD, FAAD), practicing at River Ridge Dermatology / HCA Virginia (LewisGale), Blacksburg VA
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=ZzHXz4AwHxw
+  posted: '2026-09-12'
+  related: [melanoma]
+  thesis: Board-certified dermatologist Aleksandra Brown explains seborrhoeic keratoses, the benign growths she calls wisdom spots and birthday presents, and makes the point that they break every rule people are taught about moles. They change, they itch, they can bleed if scratched hard, and if you peel one off in the shower it will grow back and bleed in between, which is why they frighten people even though they are not cancerous. Asked how to tell one from a melanoma, she declines to give a rule, saying that after residency and more than a decade in practice these can still trick dermatologists, so the answer is to have it looked at rather than to self diagnose.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Seborrhoeic keratoses are benign growths of the outer skin layer, and they are so ordinary in older skin that one community survey of 2,038 Shanghai residents over 60 reported them as "the most common benign skin tumor with a prevalence of 100%" in that population, meaning every valid case examined had at least one.[^shanghai] They do not need treating. The interesting question for this site is what happens when someone decides to treat one anyway, and the answer is unusually well documented, because exactly one prescription drug has ever been approved in the United States for this purpose and its own trial numbers are on the record.

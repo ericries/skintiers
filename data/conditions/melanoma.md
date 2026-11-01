@@ -17,6 +17,16 @@ videos:
   related: [skin-cancer-screening, sun-damage-photoaging, actinic-keratosis, basal-cell-carcinoma, squamous-cell-carcinoma]
   thesis: 'Dermatologist Dr. Maren Locke, a fellowship-trained Mohs surgeon, walks through how to tell a normal mole from a melanoma. She teaches the ABCDE checklist, meaning asymmetry, border, color, diameter and evolution, along with the ugly duckling sign, which is the one mole that does not look like your others, and she stresses two things people commonly get wrong: melanoma is not always a dark brown or black spot and can be white, pink, red or nearly colorless, and most melanomas appear on normal skin rather than developing out of a mole that changed. She says a skin biopsy is the only way to diagnose melanoma, that patients are often the ones who find their own rather than the dermatologist, and that early detection is what makes it highly treatable.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Do You Need to Wear Sunscreen in an Airplane [DermTV Episode 561]
+  creator: Dr. Neal Schultz (DermTV)
+  creator_slug: neal-schultz
+  credential: Dermatologist, host of DermTV.com
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=7dXNZNON61w
+  posted: '2014-09-20'
+  related: [sunscreen-uv-filters, sun-damage-photoaging]
+  thesis: Dermatologist Neal Schultz, who hosts DermTV, walks through a JAMA Dermatology meta analysis of 19 studies covering more than 266,000 participants which reported that pilots and cabin crew have roughly twice the incidence of melanoma as the general population, with the authors attributing it to greater ultraviolet exposure at altitude. He explains the proposed mechanism, that more than 90 percent of the damaging ultraviolet reaching people is UVA, that aircraft windshields and cabin windows block UVA minimally at best, and that UVA is about twice as strong at commercial cruising altitudes as at sea level. He is careful about the limits, noting the authors acknowledged the pooled studies were observational and mostly retrospective with no adjustment for confounders, and adding his own doubt that cabin crew should be affected as much as pilots, before concluding that a frequent flyer already using broad spectrum sunscreen daily probably accrues no meaningful extra risk from flying.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

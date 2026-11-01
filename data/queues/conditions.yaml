@@ -808,3 +808,11 @@
   source: 'PMID 17373158 (J Drugs Dermatol 2007): histology not significantly different
     from seborrhoeic keratosis, highly prevalent in African-American and Afro-Caribbean
     skin, no page on this site'
+- name: Shingles (herpes zoster)
+  type: condition
+  priority: 5
+  status: pending
+  discovered_from: seborrhoeic-keratosis
+  source: No page here; surfaced as a repeatedly-queued video topic from two rostered
+    dermatologists (Laura Soong 1vnwa9di574 and eEVnit0lL64), both rejected only because
+    no hub exists to attach them to
