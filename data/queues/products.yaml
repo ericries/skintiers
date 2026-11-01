@@ -3767,7 +3767,7 @@
 - name: Omnilux New U (LED device)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: dpl-nuve
   source: 'Named as a THIRD-PARTY predicate in K101382 (dpl Nuve, read in full 2026-10-22):
     the file says the device is ''substantially equivalent in function and technology''

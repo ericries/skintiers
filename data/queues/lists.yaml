@@ -982,3 +982,12 @@
   source: Grounded in this trial, which sets tofacitinib against tacrolimus with ruxolitinib
     as the approved reference point; the site has a vitiligo hub but no ranked list
     of its topical options
+- name: Home LED devices by what their clearance actually covers
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: omnilux-new-u
+  source: This file joins reVive Perioral K172662 and the dpl units as home LEDs whose
+    cleared indication is narrower than the marketing; home-device-wrinkle-claims-by-cleared-scope
+    exists but does not yet cover dose disclosure, which is the axis this device fails
+    on

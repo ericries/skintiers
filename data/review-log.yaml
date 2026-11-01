@@ -8810,3 +8810,8 @@ study-pages-recorded-as-unusable:
   score: 9
   verdict: publish
   note: 'Main-loop self-check at assurance=sonnet. Purely curatorial over three existing study pages; every quoted string and figure was re-matched programmatically against the source page it came from (10/10 exact), and the 151 count is a file count taken on the day. No new research and no new claim about any of the three papers. Deliberately did NOT add a tier_list: the site''s tier vocabulary grades evidence strength and applying it to three ungradeable papers would invert its meaning, which the page states. Also deliberately did not re-rank the Wang disclosure problem, which manufacturer-authored-studies-by-what-they-disclosed already owns and where Wang already appears; linked out instead.'
+omnilux-new-u:
+  last_reviewed: '2026-11-01'
+  score: 9
+  verdict: publish
+  note: 'Main-loop self-verification at assurance=sonnet. 510(k) PDF read in full as images from the FDA archive (trailing-? gotcha again); every quote transcribed directly from the document. All three predicate K numbers re-queried individually in openFDA rather than trusted from the summary, which surfaced a real discrepancy: the firm''s summary calls K030426 ''Omnilux Revive'' while the FDA index device_name is ''OMNILUX RED''. Reported, not resolved. Catalogue absence re-checked programmatically (45 products, 0 ''new u'' matches) and all five current device prices re-read from the feed. No price recorded since the brand does not sell it. Marketing-claims section says plainly there are no claims to quarantine rather than being omitted.'
