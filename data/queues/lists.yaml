@@ -549,7 +549,7 @@
 - name: Study pages recorded as unusable, and what made them so
   type: list
   priority: 5
-  status: pending
+  status: done
   discovered_from: amin-2025-oral-hyaluronic-acid-meta-analysis
   source: 'THREE study records now exist whose value is the defect they document rather
     than the finding they report: karimi-2025-neurocosmetic-post-procedure-cream (PubMed-indexed

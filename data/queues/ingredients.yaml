@@ -3343,3 +3343,18 @@
   source: The topical JAK inhibitor tested in this trial (PMID 40758816); no page
     here. Note the topical form is compounded rather than FDA-approved, so check openFDA
     before asserting approval status
+- name: Fructooligosaccharides (topical prebiotic)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: study-pages-recorded-as-unusable
+  source: Second component of Encorelane in Wang 2025 (PMID 40952030); topical prebiotics
+    have no page here despite the site covering the microbiome adjacent
+- name: Oral hyaluronic acid supplements
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: study-pages-recorded-as-unusable
+  source: Amin 2025 (7 RCTs) is the site's only record on the ORAL route and the hyaluronic-acid
+    page covers topical only; a separate page would stop the meta-analysis being read
+    across to topical use

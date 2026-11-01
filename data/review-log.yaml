@@ -8805,3 +8805,8 @@ mamina-turegano:
   score: 9
   verdict: publish
   note: 'Main-loop self-check at assurance=sonnet (person type takes no critic per the playbook). Credential verified independently against NPPES before drafting: NPI 1740415652, M.D., ONE taxonomy (Dermatology), Louisiana licence MD.014095, enumerated 2009-05-20, active. The roster''s ''triple board-certified in dermatology, internal medicine and dermatopathology'' is NOT supported by that record, so the page attributes it to her practice''s own page rather than stating it, and says plainly that the registry lists one taxonomy and no board certification. Noted but did not reconcile the Metairie/Baton Rouge location difference between the two sources. All 4 quoted strings machine-checked verbatim against the cached practice page; practice page cached before the footnote was written. 136 words, under the 150 cap. Six video cards cross-checked from the site''s own data rather than assumed.'
+study-pages-recorded-as-unusable:
+  last_reviewed: '2026-11-01'
+  score: 9
+  verdict: publish
+  note: 'Main-loop self-check at assurance=sonnet. Purely curatorial over three existing study pages; every quoted string and figure was re-matched programmatically against the source page it came from (10/10 exact), and the 151 count is a file count taken on the day. No new research and no new claim about any of the three papers. Deliberately did NOT add a tier_list: the site''s tier vocabulary grades evidence strength and applying it to three ungradeable papers would invert its meaning, which the page states. Also deliberately did not re-rank the Wang disclosure problem, which manufacturer-authored-studies-by-what-they-disclosed already owns and where Wang already appears; linked out instead.'

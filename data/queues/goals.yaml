@@ -785,3 +785,11 @@
   source: Three rostered dermatologists carded here hold dermatopathology training
     (Turegano, Ife Rodney, and the credential appears on others); the site has skin-cancer-screening
     but no hub for what happens after a biopsy is taken
+- name: How to read a skincare study abstract
+  type: goal
+  priority: 5
+  status: pending
+  discovered_from: study-pages-recorded-as-unusable
+  source: The three transferable lessons on this list (publication type is not design,
+    significance without magnitude, withheld numbers) are reader-facing skills with
+    no hub; grounded in three existing study pages, not invented
