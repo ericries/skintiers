@@ -35,6 +35,11 @@ grades:
     Direction for the first comes from [[retinyl-palmitate]], graded weak. No percentage
     is published for any of them'
   use: The Pro-Retinol, Hyaluronic Acid and Vitamin C promise
+images:
+- file: loreal-paris-revitalift-triple-power-moisturizer-fragrance-free-loreal.jpg
+  source: L'Oreal Paris (brand product image; converted from the source PNG and flattened
+    onto white)
+  source_url: https://www.lorealparisusa.com/skin-care/facial-moisturizers/revitalift-triple-power-anti-aging-moisturizer-fragrance-free
 key_actives:
 - niacinamide
 - capryloyl-salicylic-acid-lha
