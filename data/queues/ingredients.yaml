@@ -3304,3 +3304,11 @@
   source: Dr. Heather Woolery-Lloyd's TikTok catalogue flags it as an emerging topical
     ingredient (clip 7672777478217256205, 72s); no page here. Verify the evidence
     independently before drafting, the clip was not read
+- name: Gluconolactone (polyhydroxy acid)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: smoothing-skin-texture
+  source: Named as the large-molecule, surface-acting end of the AHA/PHA size ladder
+    in Doctorly's skin-texture video carded on smoothing-skin-texture (Z85zRD5mCTE);
+    the site grades glycolic, lactic and mandelic acid but has no PHA page

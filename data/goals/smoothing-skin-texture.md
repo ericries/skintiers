@@ -63,6 +63,19 @@ tier_list:
     slug: gluconolactone-pha
 type: goal
 updated: '2026-10-22'
+videos:
+- title: 6 Ways to TRANSFORM Your Skin Texture
+  creator: Doctorly
+  creator_slug: doctorly
+  credential: Dr. Muneeb Shah, DO and Dr. Luke Maxfield, DO, both board-certified dermatologists
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=Z85zRD5mCTE
+  posted: '2026-05-11'
+  related: [glycolic-acid, lactic-acid, mandelic-acid, salicylic-acid, enlarged-pores, seborrhoeic-keratosis, actinic-keratosis]
+  thesis: Board-certified dermatologists Muneeb Shah and Luke Maxfield argue that rough skin texture is rarely one problem, listing fine lines, enlarged oil glands, pores, moles, seborrhoeic keratoses and even facial hair as separate contributors, which is why they consider it hard to treat and sometimes hard to diagnose. They describe how patients actually notice it, as dullness when light fails to reflect off an uneven surface, as crater like pores that can resemble acne scars, as growths you can feel under a fingertip, and most often as makeup caking and creasing rather than sitting smooth. On exfoliation they rank the alpha hydroxy acids by molecule size, from glycolic acid as the smallest and deepest penetrating but most irritating, through lactic and mandelic acid, to polyhydroxy acids such as gluconolactone which sit on the surface and suit sensitive skin, and they note that salicylic acid helps pores rather than surface texture and that they do not recommend physical scrubs on the
+    face.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 "Texture" is the vaguest word in skincare marketing, which is why it is worth pinning down before spending anything. Here it means the surface feel and evenness of skin: roughness, flakiness, small bumps, a dull or uneven finish. It is not the same problem as the four things it gets sold alongside, and each of those has its own page.
