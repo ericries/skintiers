@@ -14994,7 +14994,8 @@
   conflict: Founder/owner of active postpartum skincare brand "More Than Nine" (cleanser, exfoliator, moisturizer, balm) — an ongoing own-bran
   posted: '2026-10-30'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: trend clip by her own description; own-brand More Than Nine
 - id: yp0wtPTU19s
   title: Can Tretinoin Make Wrinkles WORSE? A Dermatologist Explains
   creator: Andrea Suarez (Dr Dray)
@@ -15020,7 +15021,8 @@
   conflict: Bio includes a business/booking contact email suggesting managed brand partnerships; no confirmed own-brand line or affiliate stor
   posted: '2026-11-01'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: not a skincare topic (Toy Story trend clip)
 - id: '7702944048453012750'
   title: 'The wolf is hunting tonight #halloween #redridinghood #halloweencostu...'
   creator: Dr. Chris Tomassian
@@ -15113,7 +15115,8 @@
   conflict: 'Runs #ad sponsored posts (e.g. TruSkin) and Target skincare hauls/reviews; prefer her educational ingredient-category and barrier-repair explainers, and treat product recommendations as effectively promotional (skip).'
   posted: '2026-10-31'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'trend-format joke clip; creator runs #ad sponsored posts'
 - id: '7701925694258826509'
   title: 'I FREAKING LOVE THIS EYECREAM #khiels #eyecream #eyebags #undereye #u...'
   creator: Jenn Lexi (@jennlexi_)
@@ -15139,7 +15142,8 @@
   conflict: runs an Amazon affiliate storefront and does sponsored posts - strongly prefer educational / how-to / ingredient-explainer videos; be very cautious with any product recommendation
   posted: '2026-10-31'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: brand-tagged product clip; Amazon affiliate storefront, picks treated as paid
 - id: '7702518874905824526'
   title: When you find something that works, the worse thing is running out to...
   creator: Kristin Leite (kristingl)
@@ -15192,7 +15196,8 @@
   conflict: Self-describes as a "Key Opinion Leader for industry beauty companies" (per her own practice bio) and most sampled TikTok videos e; no YouTube; TikTok/IG intake
   posted: '2026-10-31'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: Comment PRODUCTS lead-magnet clip; self-described industry KOL
 - id: '7702512197355801887'
   title: 🖇️ Comment ACNE for my acne-clearing products and tips! Getting rid o...
   creator: Dr. Sheila Farhang (dr.sheila_derm)
@@ -15232,7 +15237,8 @@
   conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan and reject any sponsored/affiliate/gifted video
   posted: '2026-10-31'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: Halloween routine clip tagging seven brands; not single-topic
 - id: '7702506601730624781'
   title: 'If you want fun in the beauty world, play with makeup 🙃 #acnemarks #a...'
   creator: Ella (@your.estie.ella)

@@ -3296,3 +3296,11 @@
     acne meta-analysis as a study page; surfaced by John Barbieri's antibiotic-stewardship
     talk (video 8WRtsA66K0k), which treats hormonal anti-androgen therapy as the main
     underused alternative to oral antibiotics
+- name: Pterostilbene
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: melanoma
+  source: Dr. Heather Woolery-Lloyd's TikTok catalogue flags it as an emerging topical
+    ingredient (clip 7672777478217256205, 72s); no page here. Verify the evidence
+    independently before drafting, the clip was not read

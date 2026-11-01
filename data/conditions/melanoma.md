@@ -27,6 +27,16 @@ videos:
   related: [sunscreen-uv-filters, sun-damage-photoaging]
   thesis: Dermatologist Neal Schultz, who hosts DermTV, walks through a JAMA Dermatology meta analysis of 19 studies covering more than 266,000 participants which reported that pilots and cabin crew have roughly twice the incidence of melanoma as the general population, with the authors attributing it to greater ultraviolet exposure at altitude. He explains the proposed mechanism, that more than 90 percent of the damaging ultraviolet reaching people is UVA, that aircraft windshields and cabin windows block UVA minimally at best, and that UVA is about twice as strong at commercial cruising altitudes as at sea level. He is careful about the limits, noting the authors acknowledged the pooled studies were observational and mostly retrospective with no adjustment for confounders, and adding his own doubt that cabin crew should be affected as much as pilots, before concluding that a frequent flyer already using broad spectrum sunscreen daily probably accrues no meaningful extra risk from flying.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: The FDA has retracted its proposal to ban minors from indoor tanning
+  creator: Dr. Heather Woolery-Lloyd (drheathermd)
+  creator_slug: heather-woolerylloyd
+  credential: Board-certified dermatologist
+  platform: TikTok
+  url: https://www.tiktok.com/@drheathermd/video/7644220802027490574
+  posted: '2026-05-26'
+  related: [sun-damage-photoaging, sunscreen-uv-filters]
+  thesis: Board-certified dermatologist Heather Woolery-Lloyd reports that the US Food and Drug Administration has formally withdrawn its 2015 Sunlamp Products proposal, a rule that would have barred anyone under 18 from indoor tanning and required tanning salons to supply user manuals and collect signed risk acknowledgement forms. She says the agency justified the withdrawal by pointing to more than 8,000 public comments weighing medical concerns against personal choice and the burden on small businesses. She also relays the American Academy of Dermatology's objection, which cites data that tanning before age 20 raises melanoma risk by 47 percent, and a 2025 study from Northwestern and UCSF reporting that indoor tanning produces more severe DNA damage in skin cells than natural ageing does in non tanners twice the age.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
