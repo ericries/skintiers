@@ -708,3 +708,10 @@
   discovered_from: loreal-paris-revitalift-triple-power-moisturizer-fragrance-free
   source: Two Revitalift products now have pages here (Triple Power fragrance-free,
     0.3 Pure Retinol serum) with no brand hub linking them
+- name: eos
+  type: brand
+  priority: 5
+  status: pending
+  discovered_from: eos-super-balm
+  source: Brand hub missing; its Shopify feed lists 215 products including 20 Super
+    Balm SKUs, and this is now the first eos product page on the site

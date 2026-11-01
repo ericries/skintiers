@@ -3312,3 +3312,18 @@
   source: Named as the large-molecule, surface-acting end of the AHA/PHA size ladder
     in Doctorly's skin-texture video carded on smoothing-skin-texture (Z85zRD5mCTE);
     the site grades glycolic, lactic and mandelic acid but has no PHA page
+- name: Flavor / flavourant (lip balm fragrance)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: eos-super-balm
+  source: Seventh on this balm's declared list and, per Dr Dray (video J45EyHkphu0),
+    the most common lip-balm contact allergen; the site has no page for the ingredient
+    class despite covering fragrance elsewhere
+- name: Octyldodecanol
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: eos-super-balm
+  source: First ingredient on this balm's declared list, a common emollient fatty
+    alcohol with no page here

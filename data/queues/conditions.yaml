@@ -816,3 +816,11 @@
   source: No page here; surfaced as a repeatedly-queued video topic from two rostered
     dermatologists (Laura Soong 1vnwa9di574 and eEVnit0lL64), both rejected only because
     no hub exists to attach them to
+- name: Allergic contact cheilitis
+  type: condition
+  priority: 5
+  status: pending
+  discovered_from: eos-super-balm
+  source: The delayed-hypersensitivity lip reaction this page's whole argument turns
+    on; the site has contact-dermatitis but no lip-specific hub, and two lip-balm
+    pages now reference the mechanism

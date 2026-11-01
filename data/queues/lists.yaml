@@ -965,3 +965,12 @@
     declares no drug active while the leave-on products in the same sub-line are registered
     OTC monograph drugs; the site covers several such washes and has no list separating
     cosmetic claims from declared actives
+- name: Lip balms by what is actually in them
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: eos-super-balm
+  source: Grounded in this page's finding that a balm marketed as hypoallergenic and
+    for sensitive skin carries flavourant seventh while its free-of list omits it;
+    the site covers several lip products and has a SPF lip balm list but none ranking
+    plain-petrolatum against flavoured balms

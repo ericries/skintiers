@@ -3752,7 +3752,7 @@
 - name: EOS Super Balm lip balm
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: ammonium-lactate
   source: 'Named in Dr Dray''s Costco walkthrough (video J45EyHkphu0, 2026-10-05),
     a 5-tube pack at $16.99, and she uses it to make a teaching point rather than
