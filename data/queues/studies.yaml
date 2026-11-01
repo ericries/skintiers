@@ -1760,3 +1760,19 @@
   source: PMID 34132226, Melanoma Research 2021, first author Agata Janowska (verified
     from the PubMed record) - the diagnostic-indistinguishability review this hub
     leans on
+- name: Costa 2018 Cochrane review of oral isotretinoin for acne
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: microdosing-isotretinoin
+  source: PMID 30484286, Cochrane Database Syst Rev 2018;11(11), first author Costa
+    CS (verified from the PubMed Author elements) - 31 RCTs, 3836 participants; the
+    dose/regimen comparison this hub is built on
+- name: Al Muqarrab 2022 low-dose isotretinoin meta-analysis
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: microdosing-isotretinoin
+  source: PMID 35000295, Dermatol Ther 2022;35(4), authors Al Muqarrab F and Almohssen
+    A (verified from the PubMed Author elements) - conventional dose beat low dose
+    on prolonged remission; GRADE low

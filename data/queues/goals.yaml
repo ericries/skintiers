@@ -391,7 +391,7 @@
 - name: Microdosing isotretinoin (low-dose Accutane)
   type: goal
   priority: 5
-  status: pending
+  status: done
   discovered_from: home-led-light-therapy
   source: 'Grounded in the Barbieri back catalogue enumerated 2026-10-19, which contains
     several single-topic isotretinoin explainers the site has no hub for: ''When Does

@@ -4782,3 +4782,19 @@
     2014. The comparison table gives it 610 nm red and 850 nm infrared, 18 LEDs, 3
     minutes per area daily and 30 sessions per device, with several output fields
     listed as unknown; read its own filing rather than relying on a competitor's table
+- name: Absorica LD (isotretinoin, lower-dose formulation)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: microdosing-isotretinoin
+  source: 'Named in the isotretinoin capsule label read for this page (DailyMed setid
+    4e8516dc-a3c6-4d8f-aa14-2c37c6c8f6e6): ''Isotretinoin capsules are not substitutable
+    with ABSORICA LD because of different bioavailability and recommended dosage''
+    - directly relevant to low-dose regimens'
+- name: Zenatane (isotretinoin capsules, Dr. Reddy's)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: microdosing-isotretinoin
+  source: DailyMed SPL listing for drug_name=isotretinoin, setid 27b3cf26-f22e-5b70-1c24-009933b7c6ee
+    (Dr. Reddy's Laboratories Limited)
