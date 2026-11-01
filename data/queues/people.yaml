@@ -447,3 +447,11 @@
   source: 3 video cards here and no person page. UK-based, so NPI will not resolve
     her; the GMC register is the primary route for a UK consultant dermatologist and
     the page should cite it rather than a credential read off a channel bio
+- name: Michelle Henry
+  type: person
+  priority: 5
+  status: pending
+  discovered_from: loreal-paris-revitalift-triple-power-moisturizer-fragrance-free
+  source: Named on the L'Oreal brand page as 'Dr. Michelle Henry, Board-Certified
+    Dermatologist' giving a promotional endorsement of this product; verify credentials
+    and any brand relationship from primary sources (NPI, board records) before writing

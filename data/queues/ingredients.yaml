@@ -3272,3 +3272,10 @@
     product of this name while the brand's current INCI does not; the site has no
     page on formaldehyde releasers, and shoppers avoiding them are the ones misled
     by the stale list
+- name: Synthetic fluorphlogopite (synthetic mica)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: loreal-paris-revitalift-triple-power-moisturizer-fragrance-free
+  source: 16th on this cream's declared list alongside CI 77891 / titanium dioxide
+    and tin oxide; the optical side of a 'brightening' claim has no page here

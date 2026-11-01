@@ -3728,7 +3728,7 @@
 - name: L'Oreal Paris Revitalift fragrance-free moisturizer
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: ammonium-lactate
   source: Andrea Suarez (Dr Dray) - Costco Skincare Finds (video, J45EyHkphu0, 2026-10-05),
     carded on ammonium-lactate. She describes a FRAGRANCE-FREE Revitalift at $37.99
@@ -4813,3 +4813,12 @@
   discovered_from: aveeno-skin-relief-body-wash-fragrance-free
   source: 'openFDA drug/ndc record returned by brand_name ''AVEENO SKIN RELIEF'':
     CREAM, marketing category OTC MONOGRAPH DRUG, active DIMETHICONE 12 mg/g'
+- name: L'Oreal Paris Revitalift Anti-Wrinkle + Firming Moisturizer (Fragrance-Free)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: loreal-paris-revitalift-triple-power-moisturizer-fragrance-free
+  source: 'Brand page https://www.lorealparisusa.com/skin-care/facial-moisturizers/revitalift-anti-wrinkle-firming-moisturizer-fragrance-free,
+    $18.99 in its schema.org offers block; this is the SKU incidecoder mislabels as
+    ''L''Oreal Revitalift Fragrance-free Moisturizer'' (its INCI matches: cyclohexasiloxane,
+    mineral oil, myristyl myristate, Shorea robusta)'
