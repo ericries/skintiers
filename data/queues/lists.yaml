@@ -974,3 +974,11 @@
     for sensitive skin carries flavourant seventh while its free-of list omits it;
     the site covers several lip products and has a SPF lip balm list but none ranking
     plain-petrolatum against flavoured balms
+- name: Topical treatments for vitiligo by evidence
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: mehta-2025-topical-tofacitinib-vs-tacrolimus-vitiligo
+  source: Grounded in this trial, which sets tofacitinib against tacrolimus with ruxolitinib
+    as the approved reference point; the site has a vitiligo hub but no ranked list
+    of its topical options

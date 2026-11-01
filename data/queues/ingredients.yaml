@@ -3327,3 +3327,19 @@
   discovered_from: eos-super-balm
   source: First ingredient on this balm's declared list, a common emollient fatty
     alcohol with no page here
+- name: Tacrolimus (topical, 0.1% ointment)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: mehta-2025-topical-tofacitinib-vs-tacrolimus-vitiligo
+  source: 'The established topical calcineurin inhibitor comparator in this trial
+    (PMID 40758816) and a mainstay for vitiligo and atopic dermatitis; no page here.
+    Primary sources: DailyMed SPL and openFDA drugsfda'
+- name: Tofacitinib (topical, 2% ointment)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: mehta-2025-topical-tofacitinib-vs-tacrolimus-vitiligo
+  source: The topical JAK inhibitor tested in this trial (PMID 40758816); no page
+    here. Note the topical form is compounded rather than FDA-approved, so check openFDA
+    before asserting approval status
