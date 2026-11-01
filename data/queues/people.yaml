@@ -424,7 +424,7 @@
 - name: Dr. Mamina Turegano
   type: person
   priority: 5
-  status: pending
+  status: done
   discovered_from: acne
   source: 5 video cards already on this site and no person page. Roster credential
     reads board-certified in dermatology, internal medicine and dermatopathology,

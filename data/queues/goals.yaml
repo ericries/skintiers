@@ -777,3 +777,11 @@
     it and the trial rationale is not a finding. A goal page could hold the actual
     sebum-pathway evidence, or establish that it is thin; start from the Chen 2026
     paper's own reasoning and the sebaceous-lipid literature
+- name: Dermatopathology (what a skin biopsy report actually tells you)
+  type: goal
+  priority: 5
+  status: pending
+  discovered_from: mamina-turegano
+  source: Three rostered dermatologists carded here hold dermatopathology training
+    (Turegano, Ife Rodney, and the credential appears on others); the site has skin-cancer-screening
+    but no hub for what happens after a biopsy is taken

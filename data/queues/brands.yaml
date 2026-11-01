@@ -715,3 +715,10 @@
   discovered_from: eos-super-balm
   source: Brand hub missing; its Shopify feed lists 215 products including 20 Super
     Balm SKUs, and this is now the first eos product page on the site
+- name: Sanova Dermatology
+  type: brand
+  priority: 5
+  status: pending
+  discovered_from: mamina-turegano
+  source: Her practice, an affiliate of DOCS Dermatology per its own site header (research-cache/web/781483c11a7dfec7.md);
+    low priority, queue only if practice groups are in scope
