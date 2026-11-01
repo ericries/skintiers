@@ -236,6 +236,16 @@ videos:
   related: [retinoids, dark-circles, skin-firmness-elasticity, rosacea-erythematotelangiectatic, facial-redness-relief]
   thesis: 'Board-certified dermatologist Andrea Suarez, who posts as Dr Dray, opens by granting that topical retinoids including tretinoin are among the best-researched topicals in dermatology, effective for acne and for visible signs of sun-induced aging, then argues they have acquired a halo effect in which people expect them to fix everything. She works through concerns tretinoin does not address: an epidermoid cyst is not a blackhead and squeezing it risks scarring without stopping it recurring; broken capillaries, or telangiectasia, will not clear with any topical whatever its active; under-eye hollowing and jowls follow changes in fat compartments, ligaments and the facial skeleton, which she says a topical cannot reach even though retinoids do influence collagen production in the dermis. She also cautions against taking a retinoid onto the eyelids.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Can Tretinoin Make Wrinkles WORSE? A Dermatologist Explains
+  creator: Andrea Suarez (Dr Dray)
+  creator_slug: andrea-suarez-dr-dray
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=yp0wtPTU19s
+  posted: '2026-10-31'
+  related: [retinoids, adapalene, tazarotene, trifarotene, retinol, retinaldehyde, hyperpigmentation, anti-aging, fractional-co2-laser-resurfacing]
+  thesis: 'In a weekend question and answer session, board-certified dermatologist Andrea Suarez, who posts as Dr Dray, takes the complaint that tretinoin seems to age the skin and make wrinkles worse. Her answer is that the dryness, peeling and irritation common to topical retinoids make skin look wrinkled and make existing lines more obvious, and she offers three ways to reduce it: drop to a lower percentage, since in her view a higher strength adds nothing for anti-aging; change vehicle, because a gel can be more drying than a cream or a lotion; or change retinoid, noting that adapalene has evidence behind it for anti-aging and is usually well tolerated. She separately explains that tretinoin can make existing discoloration look worse before it looks better, because pigment sitting deeper in the skin is unmasked as surface texture smooths, and that some of that deeper pigment sits inside immune cells called melanophages where a topical struggles to reach it.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

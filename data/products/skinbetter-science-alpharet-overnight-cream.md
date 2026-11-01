@@ -48,6 +48,17 @@ videos:
   related: [anti-aging, adapalene, tretinoin, lactic-acid, retinol, tazarotene]
   thesis: Board-certified dermatologist Dr Dray compares skinbetter science AlphaRet Overnight Cream, built on the ethyl lactyl retinoate conjugate, against AmLactin 12% buffered ammonium lactate lotion for anti-aging. Her argument turns on what has been confirmed by biopsy. She says 12% buffered ammonium lactate has human data showing improved epidermal and dermal thickness, while ethyl lactyl retinoate has not been investigated with biopsy for dermal thickness, and that no published study compares AlphaRet either with and without the conjugate or against plain lactic acid. She puts AlphaRet at 145 dollars an ounce against a drugstore lotion she calls roughly a hundred times cheaper per ounce, says she does not recommend it routinely because she sees no evidence the price is warranted, and adds that anyone already using it and liking it should not throw it out
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: 'Skinbetter AlphaRet Review: Is It Really Better Than Tretinoin?'
+  creator: Andrea Suarez (Dr Dray)
+  creator_slug: andrea-suarez-dr-dray
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=xvM8ZhrSa7A
+  posted: '2026-10-12'
+  related: [tretinoin, adapalene, retinol, retinaldehyde, retinoids, niacinamide, glycolic-acid, lactic-acid, ceramides, squalane, anti-aging]
+  thesis: 'Board-certified dermatologist Andrea Suarez, who posts as Dr Dray, reviews Skinbetter Science AlphaRet Overnight Cream and the ingredient it is sold on, ethyl lactyl retinoate, a conjugate that chemically links retinoic acid to lactic acid and is proposed to split apart in the skin and release both slowly. Her objection is that the published work does not isolate that ingredient: a 2015 paper used a three product regimen including an SPF 50 sunscreen in 25 women over 8 weeks, and the 12 week split face randomized study of 48 women aged 30 to 65 compared AlphaRet against 1 percent retinol or 0.025 percent tretinoin without ever testing the same cream with the conjugate removed, and she notes there are no biopsy results showing collagen change. Since the cream also contains glycolic acid, niacinamide, hyaluronic acid, squalane, ceramides, peptides and CoQ10, any of which she says can improve the look of sun damage on their own, she is not convinced it offers more than a basic moisturizer
+    at its price, and she would start instead with over the counter adapalene or with cosmetic retinol or retinaldehyde.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

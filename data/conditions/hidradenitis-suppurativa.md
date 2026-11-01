@@ -84,6 +84,18 @@ videos:
     and systemic treatment is needed.'
   title: 'Hidradenitis suppurativa: Expert Guide'
   url: https://www.youtube.com/watch?v=xriri7WTcKo
+- title: 'Hidradenitis suppurativa: lifestyle changes that help manage flares'
+  creator: Dr. Laura Soong
+  creator_slug: laura-soong
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=uyJS0b-M3Qo
+  posted: '2025-04-30'
+  related: [diet-and-skin, benzoyl-peroxide, laser-hair-removal, folliculitis]
+  thesis: Board-certified dermatologist Laura Soong runs through the lifestyle measures she suggests for hidradenitis suppurativa, the chronic condition that produces painful bumps, abscesses and tunnels under the skin in folded areas such as the armpits, groin and under the breasts. She is explicit that no diet has been proven to cure it, but says many people find specific trigger foods, cites a study of 47 people going dairy free in which she reports 83 percent improved, and suggests anti inflammatory foods and zinc gluconate at 50 or 90 mg with a doctor's sign off first. Her non dietary measures are keeping the folds clean and dry with fragrance free cleansers, using an antiseptic wash such as benzoyl peroxide at 4 to 5 percent or chlorhexidine on flare prone folds several times a week, wearing loose cotton or bamboo rather than nylon or polyester, and stopping smoking, and she notes that while modest weight loss has helped some people, rapid loss after bariatric surgery has been found
+    to worsen it in others.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Hidradenitis suppurativa (HS) is a chronic inflammatory disease, not an acne variant or a hygiene problem, that produces painful, recurrent nodules, abscesses, and sinus tracts (tunnels under the skin) in areas that carry apocrine sweat glands: the armpits, groin, genital and perineal skin, under the breasts, and the buttocks.[^nesbitt][^koumaki] It is a genuine medical disease, and it is primarily managed with systemic drugs and surgery, not skincare. This page covers only the narrow, limited role topical treatment plays for mild disease; it is not a substitute for a dermatologist.
