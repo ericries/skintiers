@@ -275,6 +275,17 @@ videos:
   related: [frontal-fibrosing-alopecia]
   thesis: Board-certified dermatologist Andrea Suarez, who posts as Dr Dray, argues that a receding hairline is a sign rather than a diagnosis, and that the first job is working out which cause you have. She draws the line that matters between non-scarring hair loss, where follicles can potentially produce hair again, and scarring hair loss, which can permanently destroy follicles if treatment is delayed. She notes that a naturally high or M-shaped hairline is not in itself a disorder. On treatment she describes topical minoxidil as an established option for pattern hair loss that takes time and must be continued to keep the benefit, finasteride as an established option for men that works by reducing DHT, and spironolactone as a prescription option for some women, adding that low-level laser therapy and scalp massage may help certain causes but should not come before getting the diagnosis.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Will minoxidil actually stop your hair loss? The real facts
+  creator: Dr. Laura Soong
+  creator_slug: laura-soong
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=KwADOQKoY-w
+  posted: '2025-04-17'
+  related: []
+  thesis: Board-certified dermatologist Laura Soong answers the questions she most often gets about topical minoxidil, a drug first developed for blood pressure whose hair growth was discovered as a side effect. She says it is thought to work by increasing blood flow to the scalp and by pushing more hairs into the growing phase, that in pattern hair loss it also thickens hairs that have been shrinking, and that based on studies it helps roughly two thirds of people, with the non responders explained partly by low levels of a scalp enzyme called sulfotransferase that converts the drug to its active form. Her practical points are that the 5 percent foam has better evidence than the 2 percent solution, that the heavy shedding most people see in the first four to six weeks is expected rather than a reason to stop, that hair grows about a centimetre a month so six to nine months is the earliest fair judgement, and that minoxidil is toxic to cats and dogs, with deaths reported in the literature,
+    so hands should be washed and the product stored and discarded out of a pet's reach.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

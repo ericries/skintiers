@@ -855,7 +855,8 @@
   conflict: Founder of own-brand tween/teen skincare line BTWN (meetbtwn.com), which she actively promotes on all three platforms; also co-hos
   posted: ''
   feed_rank: 5
-  status: pending
+  status: skipped
+  skip_reason: vague title, not single-topic; own-brand BTWN line
 - id: IOPdEVxr5Yg
   title: Owning a Practice Be Like...
   creator: Dr. Brooke Jeffy (Brooke Jeffy, MD)
@@ -1452,7 +1453,8 @@
   conflict: Muneeb Shah runs own skincare brand (Remedy Science) and Scriptable Rx venture featured on the channel
   posted: ''
   feed_rank: 5
-  status: pending
+  status: skipped
+  skip_reason: sponsored by Medicube, stated twice in the transcript
 - id: 1Ii6QSdN_Yg
   title: 'PART 2: 2025 BEST BLACK FRIDAY CYBER MONDAY SKINCARE AND DEVICE DEALS LIVE'
   creator: Doctorly
@@ -15035,7 +15037,8 @@
   conflict: Chief Medical Officer of hair-growth-serum brand REYUS; advisory-board member of Bubble Skincare; periodic disclosed paid brand partnerships
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: spend/save picks video; CMO of REYUS and Bubble advisory board
 - id: lrsJraQve1g
   title: 'Dermatologist: I Tried Over $450 of Anua Skincare (Best and Worst of Anua)'
   creator: Dr. Sarah Sheu
@@ -15048,7 +15051,8 @@
   conflict: Advises Korean skincare brands entering the US market on clinical communication (consulting relationship, disclosed on her site); reviewed content was cross-brand and unsponsored. Scan each video at ingest.
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: reviews Anua, a Korean brand, while she consults for Korean brands entering the US
 - id: '7702458831699283214'
   title: Getting older is a privilege and not something we should ever be asha...
   creator: Fatima Fahs
@@ -15152,7 +15156,8 @@
   conflict: Runs a "Shop my Favorites" affiliate storefront (linktr.ee/dermatologysurgeon) that monetizes her product picks; no own-brand prod
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: affiliate storefront monetizes her picks
 - id: '7702882445976177951'
   title: 🖇️ Comment PRODUCTS for all of my derm-approved products! Neck lines ...
   creator: Dr. Sheila Farhang (dr.sheila_derm)
@@ -15191,7 +15196,8 @@
   conflict: runs the PillowtalkDerm brand - skip videos mainly promoting her own products
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: Sephora shopping picks from an own-brand founder (PillowtalkDerm)
 - id: '7702894288677489933'
   title: Happy Halloween 👻 🍬 @Revision Skincare® @byoma @Remedy Science @sweet...
   creator: Ella (@your.estie.ella)

@@ -3279,3 +3279,11 @@
   discovered_from: loreal-paris-revitalift-triple-power-moisturizer-fragrance-free
   source: 16th on this cream's declared list alongside CI 77891 / titanium dioxide
     and tin oxide; the optical side of a 'brightening' claim has no page here
+- name: Minoxidil (topical, 5% foam and 2% solution)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: hair-loss-thinning
+  source: 'The leading OTC hair-loss active and it has no page here; surfaced by Dr.
+    Laura Soong''s minoxidil explainer carded on hair-loss-thinning (video KwADOQKoY-w).
+    Primary sources available: openFDA OTC monograph records and the DailyMed SPL'
