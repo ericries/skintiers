@@ -31,6 +31,11 @@ grades:
     in the brand''s own product feed are named flavours, so there is no unflavoured
     version of this balm to switch to'
   use: Avoiding the ingredient class most linked to lip balm allergy
+images:
+- file: eos-super-balm-eos.jpg
+  source: eos (brand product image for the Strawberry Sorbet flavour, the SKU this
+    page's ingredient list and claims are read from)
+  source_url: https://evolutionofsmooth.com/products/strawberry-sorbet-super-balm
 key_actives:
 - petrolatum
 - shea-butter
