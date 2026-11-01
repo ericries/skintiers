@@ -8,6 +8,7 @@ analyzed: '2026-10-31'
 assurance: sonnet
 brand: Pulsaderm
 category: Devices
+image_unresolvable: 'incidecoder has no record of this device (inci_lookup MISS, 2026-10-31), and the brand site pulsaderm.com returns HTTP 423 with the body text "This store is unavailable" on every path tried, so no brand or retailer photo could be obtained from a source this page already cites.'
 comparator: '[[pulsaderm-acne-mask-28]], the same maker''s blue-and-red acne mask,
   whose file is built the same way and also contains no clinical study'
 grades:

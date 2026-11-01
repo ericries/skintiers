@@ -33,6 +33,11 @@ grades:
     and paraben-free as claimed, which is checkable from the ingredient list, but
     that is a composition fact and not a tolerance finding'
   use: Suitability for sensitive skin (the allergy-tested claim)
+images:
+- file: aveeno-skin-relief-body-wash-fragrance-free-incidecoder.jpg
+  source: incidecoder (older Active Naturals packaging; see the aggregator section
+    on this page)
+  source_url: https://incidecoder.com/products/aveeno-skin-relief-body-wash-fragrance-free
 key_actives:
 - glycerin
 - cocamidopropyl-betaine
@@ -67,7 +72,13 @@ The useful comparison is internal. The Skin Relief lotion in the same sub-line i
 
 ## What the aggregators say it contains
 
-The ingredient list used throughout this page is the one Aveeno publishes on its own product page, read on 2026-10-31.[^brand] It is worth flagging that incidecoder, a widely used ingredient database, lists a materially different formula for a product of this name: it shows Quaternium-15, Tetrasodium EDTA, Myristyl Alcohol, a hydrolysed wheat protein derivative and a coriander, cardamom and myrrh extract blend, none of which appears on the brand's current list, and it places Sodium Laureth Sulfate fourth rather than third. The brand's current list instead carries sodium benzoate as the preservative and tetrasodium glutamate diacetate as the chelator. The most likely reading is that the aggregator is showing a superseded formula. This page follows the brand, and anyone cross-checking an Aveeno wash against a third-party database should check which formula they are reading. Quaternium-15 is a formaldehyde-releasing preservative, so the difference between the two lists is not cosmetic trivia for someone avoiding it.
+The ingredient list used throughout this page is the one Aveeno publishes on its own product page, read on 2026-10-31.[^brand] Cross-checking it against a third-party database is harder than it sounds, and the reason is worth setting out.
+
+Searching incidecoder, a widely used ingredient database, for this product returns eight separate records under the Skin Relief Body Wash name, including a coconut-scented one, three numbered duplicates, a sulfate-free variant and two different fragrance-free entries. Its unsuffixed record, the one a plain name search lands on first, is not this product: its front photo is the gentle scent coconut bottle. Reading the correctly matched fragrance-free record instead still gives a materially different formula from the brand's current one. That record lists Quaternium-15, Tetrasodium EDTA, Myristyl Alcohol, two hydrolysed wheat derivatives, PEG-20 almond glycerides and a coriander, cardamom and myrrh extract blend, none of which appears on the brand's list, and it places Sodium Laureth Sulfate fourth rather than third. The brand's current list instead carries sodium benzoate as the preservative and tetrasodium glutamate diacetate as the chelator, and its oat content is three fractions rather than one.
+
+Its photograph dates it: the bottle is branded Active Naturals and flagged "new & improved", packaging Aveeno has since dropped. So the aggregator entry is an older version of the right product, and this page follows the brand. Quaternium-15 is a formaldehyde-releasing preservative, so for someone avoiding those, landing on the wrong one of eight records, or on an outdated right one, is not cosmetic trivia.
+
+How the above was checked, since incidecoder is an aggregator and is attributed here rather than cited as evidence: its records were read on 2026-10-31, the eight slugs returned by a site search for this product were aveeno-skin-relief-body-wash, -2, -3, -4, -coconut-scented, -dry-sensitive-skin-fragrance-free, -fragrance-free, -fragrance-free-2 and -sulfate-free-and-fragrance-free, and the front photos of the unsuffixed and the fragrance-free records were both downloaded and viewed. The first shows a bottle reading gentle scent body wash and nourishing coconut, which is how it was ruled out; the second is the 12 fl oz fragrance-free bottle reproduced on this page.
 
 ## Common Marketing Claims
 
