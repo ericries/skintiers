@@ -3255,3 +3255,20 @@
   source: 'NDA 209305 ESKATA label: the only FDA-approved topical for seborrhoeic
     keratosis, with full trial efficacy and adverse-reaction tables (DailyMed setid
     52f4cc49-6553-426f-9778-0bd34e31b942)'
+- name: Sodium laureth sulfate (SLES)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: aveeno-skin-relief-body-wash-fragrance-free
+  source: Third ingredient on this wash's brand-declared INCI, ahead of the amphoteric
+    co-surfactant; the lead surfactant in a product sold for sensitive skin, and the
+    site has no page separating it from sodium lauryl sulfate
+- name: Quaternium-15
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: aveeno-skin-relief-body-wash-fragrance-free
+  source: A formaldehyde-releasing preservative that incidecoder still lists for a
+    product of this name while the brand's current INCI does not; the site has no
+    page on formaldehyde releasers, and shoppers avoiding them are the ones misled
+    by the stale list

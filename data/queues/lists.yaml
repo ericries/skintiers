@@ -956,3 +956,12 @@
     rates (17.8% and 15.2% against 3.3% and 5.5% vehicle, on efinaconazole) are the
     anchor; rank by complete cure with the vehicle arm shown, and note that all these
     trials excluded dermatophytoma and matrix involvement
+- name: Body washes for dry and itchy skin by what they actually declare
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: aveeno-skin-relief-body-wash-fragrance-free
+  source: Grounded in this page's finding that a rinse-off sold for itchy dry skin
+    declares no drug active while the leave-on products in the same sub-line are registered
+    OTC monograph drugs; the site covers several such washes and has no list separating
+    cosmetic claims from declared actives

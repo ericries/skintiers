@@ -3704,7 +3704,7 @@
 - name: reVive Perioral LED Light Therapy system (K172662)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: revive-light-therapy-lux-lip-care
   source: 'FDA 510(k) Summary K172662 read IN FULL on 2026-10-21 for the Lux Lip Care
     page, so the research is already done: cleared 2018-01-09, product codes OHS and
@@ -3718,7 +3718,7 @@
 - name: dpl Nuve for Wrinkles (LED Technologies, K141181)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: revive-light-therapy-lux-lip-care
   source: 'Named as a predicate in K172662, read 2026-10-21. Its irradiance is already
     known from that chart: 62.07 mW/cm2 over a 30 cm2 treatment area, 605/630/660/880nm,
@@ -3741,7 +3741,7 @@
 - name: Aveeno Skin Relief Body Wash (fragrance-free)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: ammonium-lactate
   source: Named in Dr Dray's Costco walkthrough (video J45EyHkphu0, 2026-10-05) at
     $14.99, described as fragrance-free and for sensitive skin. DISTINCT from the
@@ -4798,3 +4798,18 @@
   discovered_from: microdosing-isotretinoin
   source: DailyMed SPL listing for drug_name=isotretinoin, setid 27b3cf26-f22e-5b70-1c24-009933b7c6ee
     (Dr. Reddy's Laboratories Limited)
+- name: Aveeno Skin Relief Healing Ointment
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: aveeno-skin-relief-body-wash-fragrance-free
+  source: 'openFDA drug/ndc record returned by brand_name ''AVEENO SKIN RELIEF'':
+    OINTMENT, marketing category OTC MONOGRAPH DRUG, active GLYCERIN 400 mg/g - a
+    registered drug in the same sub-line, unlike the wash'
+- name: Aveeno Skin Relief Overnight Cream
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: aveeno-skin-relief-body-wash-fragrance-free
+  source: 'openFDA drug/ndc record returned by brand_name ''AVEENO SKIN RELIEF'':
+    CREAM, marketing category OTC MONOGRAPH DRUG, active DIMETHICONE 12 mg/g'
