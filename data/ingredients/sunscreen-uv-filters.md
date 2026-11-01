@@ -1144,6 +1144,16 @@ videos:
   related: [zinc-oxide, titanium-dioxide, acne]
   thesis: Licensed esthetician Ella tests the Bask Milky Mineral sunscreen, a zinc oxide and titanium dioxide formula, and says she will not use it on her own face because she is very acne prone and does not expect it to be friendly to clog prone skin. She finds the texture extremely thin, watery enough to drip and feel messy, and she can feel greasiness on her hands, though it absorbs well and feels silky once she works it in properly. Asked whether it earns the brand's claim of being the world's best feeling sunscreen she answers that she does not know, and she says not getting a sunburn is what actually matters, which she had not yet tested at the time of filming.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: 'Sunscreengate update: the TGA plans to cap the SPF that cosmetics can claim'
+  creator: Hannah English (@ms_hannah_e / Hannah Collingwood English)
+  creator_slug: hannah-english
+  credential: Skincare educator
+  platform: TikTok
+  url: https://www.tiktok.com/@hannahcollingwoodenglish/video/7702605787041991957
+  posted: '2026-10-30'
+  related: [sun-damage-photoaging, melanoma, spf-lip-balms-by-label-claims]
+  thesis: 'Skincare educator Hannah English explains a proposed Australian regulatory change in which the Therapeutic Goods Administration would limit the SPF figure that cosmetic products such as foundation are allowed to claim, quoting the agency''s stated aim of creating a clear distinction between sunscreens used primarily for UV protection and secondary or cosmetic ones. Her argument for it is a dose argument: she says the amount people actually apply of a tinted or makeup product is far below the amount an SPF test uses, estimating that one pump of an SPF 50 plus product might deliver around SPF 10 while the face needs roughly eight pumps, so a foundation genuinely capable of SPF 50 plus still does not deliver it in practice. She notes that the main opposition to the change came from brands rather than consumers, and that under the proposal a product testing at SPF 50 plus might be permitted to advertise only a much lower number.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

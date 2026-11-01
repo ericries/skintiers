@@ -4640,7 +4640,8 @@
   conflict: Co-developed/formulated the Tbh Skincare 'Rebound' Serum and Toner (product-formulation partnership) — her endorsement of that spe; no YouTube; TikTok/IG intake
   posted: '2026-09-16'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: makeup/foundation clip, not a skincare topic
 - id: '7685979079526337812'
   title: comparing the old discontinued mecca max angled diffusing brush with ...
   creator: Hannah English (@ms_hannah_e / Hannah Collingwood English)
@@ -4785,7 +4786,8 @@
   conflict: Self-describes as a "Key Opinion Leader for industry beauty companies" (per her own practice bio) and most sampled TikTok videos e; no YouTube; TikTok/IG intake
   posted: '2026-09-16'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: Comment SKIN lead-magnet clip; self-described industry KOL
 - id: '7685906004827065613'
   title: 'No prescriptions. No filter. Lots of patience ✨ #acnemarks #azelaicac...'
   creator: Ella (@your.estie.ella)
@@ -4837,7 +4839,8 @@
   conflict: Founder/owner of active postpartum skincare brand "More Than Nine" (cleanser, exfoliator, moisturizer, balm) — an ongoing own-bran
   posted: '2026-09-16'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: no sleep-and-skin page on the site
 - id: 7dCfx3rGhVI
   title: 2 Types of Hair Loss You Need to Know
   creator: Dr. Aleksandra Brown, DO, FAAD
@@ -15093,7 +15096,8 @@
   conflict: Promotes her own curated product box, Dermy Doc Box (@dermy.doc.box), with link-in-bio callouts in the caption tail (observed 2026-10-29 on clip 7686867010508164366, posted 2026-09-18) - treat her product picks and seasonal recommendations as own-product promotion
   posted: '2026-10-30'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: ageing-sentiment commentary, not single-topic education; own Dermy Doc Box
 - id: '7702605787041991957'
   title: Are we surprised that the main opposition to this change came from in...
   creator: Hannah English (@ms_hannah_e / Hannah Collingwood English)
@@ -15173,7 +15177,8 @@
   conflict: null
   posted: '2026-10-30'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: day-in-the-life clip
 - id: 5Dzw5sjSKQE
   title: 'when to use skincare & how often to apply it! #skincare'
   creator: Dr. Neera Nathan

@@ -800,3 +800,12 @@
   discovered_from: omnilux-new-u
   source: The cleared indication of this device and of several other home LED units
     covered here; the site has anti-aging but no hub for the eye area specifically
+- name: Sunscreen SPF labelling and the Australian TGA reforms
+  type: goal
+  priority: 5
+  status: pending
+  discovered_from: sunscreen-uv-filters
+  source: 'Grounded in Hannah English''s sunscreengate clip carded on sunscreen-uv-filters
+    (7702605787041991957): the TGA''s proposed cap on SPF claims for cosmetic products,
+    and the gap between labelled SPF and applied dose. The site has no hub on how
+    much sunscreen to apply or what an SPF number is tested at'
