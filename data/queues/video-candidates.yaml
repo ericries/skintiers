@@ -3053,7 +3053,8 @@
   conflict: Active paid spokesperson for RoC Skincare (on-air brand deal w/ discount code) + Cetaphil-sponsored content + 'all' detergent partnership; a
   posted: ''
   feed_rank: 5
-  status: pending
+  status: skipped
+  skip_reason: Shorts-style hashtag-stuffed clip
 - id: 4t_XlamDgdY
   title: 'POV: Skincare is Confusing | #shorts #skincare |'
   creator: Dr. Lindsey Zubritsky (DermGuru)
@@ -3214,7 +3215,8 @@
   conflict: Runs extensive Amazon Associates and ShopMy affiliate storefronts, monetizing nearly every product mentioned across videos
   posted: ''
   feed_rank: 5
-  status: pending
+  status: skipped
+  skip_reason: product picks; Amazon Associates and ShopMy storefronts monetize nearly every product
 - id: 6R3qK9DfFAM
   title: September 11, 2026
   creator: Dr. Maren Locke (The Budget Dermatologist)
@@ -3411,7 +3413,8 @@
   conflict: null
   posted: ''
   feed_rank: 5
-  status: pending
+  status: skipped
+  skip_reason: title declares it an ad (Nooance AD)
 - id: CTG4JvPN5-4
   title: New Years Resolutions, Breakthrough Beauty Devices, Australia Social Media Ban & Upcoming TikTok Ban
   creator: Dr. Muneeb Shah (DermDoctor)
@@ -3522,7 +3525,8 @@
   conflict: Runs a "Shop my Favorites" affiliate storefront (linktr.ee/dermatologysurgeon) that monetizes her product picks; no own-brand prod
   posted: ''
   feed_rank: 5
-  status: pending
+  status: skipped
+  skip_reason: Shorts-style stitch; affiliate storefront monetizes her picks
 - id: '7329212236692458795'
   title: '#dermatologistrecommended #losangelesdermatologist #dermatologistLA #...'
   creator: Dr. Onyeka Obioha-Lolagne, MD, FAAD (Dr. Onyeka Obioha)
@@ -3714,7 +3718,8 @@
   conflict: founder of the Prequel skincare brand - skip videos mainly promoting her own products
   posted: ''
   feed_rank: 5
-  status: pending
+  status: skipped
+  skip_reason: launch video for her own brand Prequel
 - id: xA9WgYRG6uc
   title: 'Disney can give you a RASH?  Derm explains this rash Disney lovers may get! #disneyrash #disney'
   creator: Dr. Scott Walter

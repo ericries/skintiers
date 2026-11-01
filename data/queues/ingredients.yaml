@@ -3287,3 +3287,12 @@
   source: 'The leading OTC hair-loss active and it has no page here; surfaced by Dr.
     Laura Soong''s minoxidil explainer carded on hair-loss-thinning (video KwADOQKoY-w).
     Primary sources available: openFDA OTC monograph records and the DailyMed SPL'
+- name: Spironolactone (oral, for acne)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: acne
+  source: No page here despite the site already carrying the Ghanem 2025 spironolactone
+    acne meta-analysis as a study page; surfaced by John Barbieri's antibiotic-stewardship
+    talk (video 8WRtsA66K0k), which treats hormonal anti-androgen therapy as the main
+    underused alternative to oral antibiotics

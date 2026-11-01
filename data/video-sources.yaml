@@ -474,7 +474,7 @@
   channel: https://www.youtube.com/channel/UCm0RvvD6gfywapkgOt3bFCA/videos
   conflict: null
   product_recs: ok
-  last_pulled: '2026-10-19'
+  last_pulled: '2026-11-01'
 - name: Dr. Aleksandra Brown, DO, FAAD
   creator_slug: aleksandra-brown
   backfill_cursor: 30

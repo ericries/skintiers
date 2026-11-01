@@ -717,6 +717,17 @@ videos:
   related: [skin-barrier-repair, sulfur, salicylic-acid]
   thesis: Licensed esthetician Ella argues that a breakout is the wrong moment to start experimenting, describing her own skin reacting badly to a new product and telling viewers not to throw several acne treatments at inflamed skin at once. Her advice is to fall back to a bare routine of cleanser, moisturiser and sunscreen, add at most one spot treatment already known to suit the person, and give it time rather than layering on everything in the cupboard. She mentions in passing a sulfur mask she personally returns to, which is her own habit rather than a recommendation this site relays; the evidence for the active is on sulfur. She notes in the caption that barrier damage needs addressing before acne treatment.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: 'How to Treat Acne Without Antibiotics: Better Alternatives for Clear Skin'
+  creator: John Barbieri, MD
+  creator_slug: john-barbieri
+  credential: Dermatologist, Department of Dermatology, Brigham and Women's Hospital
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=8WRtsA66K0k
+  posted: '2026-04-04'
+  related: [ghanem-2025-spironolactone-acne-meta-analysis]
+  thesis: Dermatologist John Barbieri makes the case for treating acne with fewer oral antibiotics, opening with the point that dermatologists prescribe more antibiotics than any other group of prescribers in medicine and that around 60 percent of the long antibiotic courses they write are for acne, a condition that is not an infection. He argues that low dose regimens are not the escape route they are often presented as, since the term sub antimicrobial is misleading and trial data he cites show resistant bacteria emerging even at 20 mg of doxycycline a day, though he notes that resistance appeared to recede within six months of stopping and that lower doses do reduce side effects. His preferred alternatives are combining mechanisms rather than relying on one drug, using fixed combination topicals because applying three separate creams is both tedious and unevenly done in practice, and making more use of hormonal treatment, citing a study of about 4,000 people in which those who received
+    a combined oral contraceptive or spironolactone at any point had 90 fewer days of antibiotic exposure on average.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
