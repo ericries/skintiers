@@ -4859,3 +4859,18 @@
     exact SKU name before drafting). The clip gives a score with no stated reasoning,
     so it is cited only as evidence the product exists and is in this category, not
     as evidence of efficacy
+- name: Pulsaderm Hair Laser Headband
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: pulsaderm
+  source: openFDA 510(k) K182501, Pulsaderm LLC, decision 2018-10-26, product code
+    OAP, filed with a 510(k) Summary; the only one of the brand's three clearances
+    with no page here
+- name: Pulsaderm Acne Mask 37
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: pulsaderm
+  source: Covered by the same clearance as the Acne Mask 28 (K170111, openFDA), so
+    the cleared range is wider than the site's single page

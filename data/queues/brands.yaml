@@ -508,7 +508,7 @@
     openFDA device/510k applicant Pulsaderm'
   type: brand
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: null
 - name: 'Sciton, Inc. (Palo Alto, CA) - professional aesthetic laser maker holding

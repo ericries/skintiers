@@ -8815,3 +8815,8 @@ omnilux-new-u:
   score: 9
   verdict: publish
   note: 'Main-loop self-verification at assurance=sonnet. 510(k) PDF read in full as images from the FDA archive (trailing-? gotcha again); every quote transcribed directly from the document. All three predicate K numbers re-queried individually in openFDA rather than trusted from the summary, which surfaced a real discrepancy: the firm''s summary calls K030426 ''Omnilux Revive'' while the FDA index device_name is ''OMNILUX RED''. Reported, not resolved. Catalogue absence re-checked programmatically (45 products, 0 ''new u'' matches) and all five current device prices re-read from the feed. No price recorded since the brand does not sell it. Marketing-claims section says plainly there are no claims to quarantine rather than being omitted.'
+pulsaderm:
+  last_reviewed: '2026-11-01'
+  score: 9
+  verdict: publish
+  note: 'Main-loop self-check at assurance=sonnet (brand takes no critic per the playbook). 130 words, under the 180 cap. Every clearance figure read from a fresh openFDA query for applicant ''pulsaderm'' (exactly 3 records) rather than from the queue note. Founder deliberately omitted: no verifiable source, and the playbook says ''if verifiable''. No brand claims quoted because the brand''s own domain returns HTTP 423 ''This store is unavailable''; that absence is footnoted and bounded to the date rather than used to assert the company has folded. Noted that two clearances each cover a pair of sizes, so the site''s two product pages do not exhaust the cleared range.'
