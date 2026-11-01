@@ -2836,7 +2836,8 @@
   conflict: ShopMy affiliate storefront linked in nearly every video ('My Holy Grail Products'); own hair-care brand Kerativ Hair (she is Founder/CEO);
   posted: ''
   feed_rank: 6
-  status: pending
+  status: skipped
+  skip_reason: hair product picks; ShopMy storefront linked in nearly every video
 - id: kKntPP35Xvw
   title: Save this as your how-to guide for using skincare’s holy trinity. 🤝✨
   creator: Dr. Joyce Park (Tea with MD)
@@ -3076,7 +3077,8 @@
   conflict: Active paid spokesperson for RoC Skincare (on-air brand deal w/ discount code) + Cetaphil-sponsored content + 'all' detergent partnership; a
   posted: ''
   feed_rank: 6
-  status: pending
+  status: skipped
+  skip_reason: Shorts-style clip
 - id: '7684664155453934878'
   title: Retinoids for your face? Duh. But your body deserves some love too!  ...
   creator: ''
@@ -3238,7 +3240,8 @@
   conflict: Runs extensive Amazon Associates and ShopMy affiliate storefronts, monetizing nearly every product mentioned across videos
   posted: ''
   feed_rank: 6
-  status: pending
+  status: skipped
+  skip_reason: untitled vlog, not single-topic
 - id: NRKJxa4VqvI
   title: The budget derm rates expensive skincare! Let me know in the comments what you want to see next! 👇👇
   creator: Dr. Maren Locke (The Budget Dermatologist)
@@ -3917,7 +3920,8 @@
   conflict: Runs an own-brand practice storefront (Derm Rejuvenation Institute, Shopify); treat specific product picks as commercially incentivized.
   posted: ''
   feed_rank: 6
-  status: pending
+  status: skipped
+  skip_reason: comedy skit, not education
 - id: 4v5oA_C3T2U
   title: Days at the office 😅
   creator: Tanya Kormeili, MD, FAAD
@@ -4157,7 +4161,8 @@
   conflict: Founder of own-brand haircare line (Rhute); TikTok Shop affiliate/product storefront; recurring disclosed sponsored posts (No7, La Roche Pos
   posted: ''
   feed_rank: 6
-  status: pending
+  status: skipped
+  skip_reason: hashtag-stuffed product picks; own brand + TikTok Shop storefront
 - id: fmh5El37tOU
   title: 'What triggers your dyshidrotic eczema? 👋 #dermatology #eczema'
   creator: Dr. Abigail Waldman (Dr. Abby)
@@ -4183,7 +4188,8 @@
   conflict: null
   posted: ''
   feed_rank: 6
-  status: pending
+  status: skipped
+  skip_reason: 25s rapid-fire score list, no stated reasoning for any rating; products queued instead
 - id: cdTCrew8qbA
   title: 'Alix on Accutane #dermreacts  #skincare  #dermatologist #dermangelo'
   creator: Dr. Angelo Landriscina (DermAngelo)
@@ -4196,7 +4202,8 @@
   conflict: Own-brand UPF sun-protective clothing line, SOUL-A (wearsoula.com / @wearsoula), founded and promoted by him — apparel, not topical skincare
   posted: ''
   feed_rank: 6
-  status: pending
+  status: skipped
+  skip_reason: hashtag-stuffed reaction clip
 - id: vaKGR8BARVA
   title: 'What did I just watch? #dermreacts  #skincare  #dermatologist #dermangelo'
   creator: Dr. Angelo Landriscina (DermAngelo)

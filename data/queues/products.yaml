@@ -4822,3 +4822,40 @@
     $18.99 in its schema.org offers block; this is the SKU incidecoder mislabels as
     ''L''Oreal Revitalift Fragrance-free Moisturizer'' (its INCI matches: cyclohexasiloxane,
     mineral oil, myristyl myristate, Shorea robusta)'
+- name: Good Molecules Super Peptide Serum
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: copper-peptides
+  source: Named in Dr. Aleksandra Brown's copper peptide serum ratings clip (video
+    TH_ZDyMzhqM, 2026); brand Good Molecules. The clip gives a score with no stated
+    reasoning, so it is cited only as evidence the product exists and is in this category,
+    not as evidence of efficacy
+- name: Peach & Lily Copper Peptide Pro Firming Serum
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: copper-peptides
+  source: Named in Dr. Aleksandra Brown's copper peptide serum ratings clip (video
+    TH_ZDyMzhqM, 2026); brand Peach and Lily. The clip gives a score with no stated
+    reasoning, so it is cited only as evidence the product exists and is in this category,
+    not as evidence of efficacy
+- name: Medik8 Copper PCA Peptides
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: copper-peptides
+  source: Named in Dr. Aleksandra Brown's copper peptide serum ratings clip (video
+    TH_ZDyMzhqM, 2026); brand Medik8. The clip gives a score with no stated reasoning,
+    so it is cited only as evidence the product exists and is in this category, not
+    as evidence of efficacy
+- name: Rejuran PDRN Booster Serum
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: copper-peptides
+  source: Named in Dr. Aleksandra Brown's copper peptide serum ratings clip (video
+    TH_ZDyMzhqM, 2026); brand Rejuran (caption renders it 'Dr. Rejuran'; confirm the
+    exact SKU name before drafting). The clip gives a score with no stated reasoning,
+    so it is cited only as evidence the product exists and is in this category, not
+    as evidence of efficacy
