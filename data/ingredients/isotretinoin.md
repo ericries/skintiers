@@ -70,6 +70,17 @@ videos:
     is generally well tolerated and that its side effects are often overstated.'
   title: A dermatologist on when to consider starting isotretinoin (Accutane)
   url: https://www.tiktok.com/@dr.tomassian/video/7675178545009741070
+- title: 'Why isotretinoin isn''t working: acne mimickers'
+  creator: John Barbieri, MD
+  creator_slug: john-barbieri
+  credential: Dermatologist, Department of Dermatology, Brigham and Women's Hospital
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=oYHct_VeCyM
+  posted: '2026-08-15'
+  related: [acne, rosacea, perioral-dermatitis, folliculitis]
+  thesis: Dermatologist John Barbieri raises the possibility that when isotretinoin fails to clear someone, or clears them only for the spots to return every time the course stops, the diagnosis itself may be wrong. He points out that conditions such as rosacea and perioral dermatitis can produce bumps and pimples that look like acne, and that they will often improve while someone is taking isotretinoin, but without the lasting remission that treated acne usually shows, so a relapse on stopping is itself a clue. The practical sign he gives for telling these apart is the absence of whiteheads and blackheads, which in his view often means the problem is not acne at all.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Isotretinoin is an oral prescription retinoid (brand names Absorica, Claravis, Myorisan, and the now-discontinued original Accutane) for severe [[acne]] that will not respond to anything else. It is not part of the topical [[retinoids]] family covered on this site under [[tretinoin]]; it is a systemic drug, taken by mouth, that shrinks the oil glands themselves rather than being applied to skin. The FDA label reserves it for "severe recalcitrant nodular acne in non-pregnant patients 12 years of age and older with multiple inflammatory nodules with a diameter of 5 mm or greater," and specifically for patients "who are unresponsive to conventional therapy, including systemic antibiotics."[^dailymed]

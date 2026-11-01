@@ -1280,7 +1280,8 @@
   conflict: Chief Medical Officer of hair-growth-serum brand REYUS; advisory-board member of Bubble Skincare; periodic disclosed paid brand partnerships
   posted: ''
   feed_rank: 6
-  status: pending
+  status: skipped
+  skip_reason: vague morning-routine video; CMO of REYUS
 - id: R5A4TGm3VME
   title: Dermatologist Approved Ingredients and Products for Melasma and Hyperpigmentation
   creator: Dr. Daniel Sugai
@@ -1470,7 +1471,8 @@
   conflict: Muneeb Shah runs own skincare brand (Remedy Science) and Scriptable Rx venture featured on the channel
   posted: ''
   feed_rank: 6
-  status: pending
+  status: skipped
+  skip_reason: Black Friday deals livestream, affiliate-driven commerce
 - id: xMzk5beBOlE
   title: 2025 BEST BLACK FRIDAY CYBER MONDAY SKINCARE AND DEVICE DEALS LIVE
   creator: Doctorly
@@ -1696,7 +1698,8 @@
   conflict: Maintains a Nykaa curated affiliate storefront; treat specific product picks as commercially incentivized (educational/mechanism content is fine).
   posted: ''
   feed_rank: 5
-  status: pending
+  status: skipped
+  skip_reason: 63-min interview whose auto-captions are fragmented by [music] and truncate answers mid-claim; not quotable
 - id: F62GaKOALE4
   title: FAQ skin & hair
   creator: Dr. Aanchal MD
@@ -1709,7 +1712,8 @@
   conflict: Maintains a Nykaa curated affiliate storefront; treat specific product picks as commercially incentivized (educational/mechanism content is fine).
   posted: ''
   feed_rank: 6
-  status: pending
+  status: skipped
+  skip_reason: vague FAQ, not single-topic
 - id: CQc2l--O1Eo
   title: FAQ's Skin & Hair | Commonly Asked Questions| Dr. Aanchal Panth| Dermatologist
   creator: Dr. Aanchal MD
@@ -1855,7 +1859,8 @@
   conflict: Advises Korean skincare brands entering the US market on clinical communication (consulting relationship, disclosed on her site); reviewed content was cross-brand and unsponsored. Scan each video at ingest.
   posted: ''
   feed_rank: 6
-  status: pending
+  status: skipped
+  skip_reason: hashtag-stuffed Shorts-style clip
 - id: 5JH9pgVjEpg
   title: 'These Costco skincare finds actually impressed me #skincare #costcofinds #dermatologist'
   creator: Dr. Sarah Sheu
@@ -2633,7 +2638,8 @@
   conflict: Runs an Amazon affiliate storefront (amazon.com/shop/derm.talk); recurring disclosed paid brand partnerships (Shiseido, SkinCeutic
   posted: ''
   feed_rank: 6
-  status: pending
+  status: skipped
+  skip_reason: hashtag-stuffed Shorts-style clip; Amazon affiliate storefront
 - id: LiBXfxIMvXI
   title: '#skincare #cosmeticdermatology #asiansunscreen #kbeauty #jbeauty #cbeauty'
   creator: Dr. Jenny Liu (Jenny Liu, MD, FAAD)
