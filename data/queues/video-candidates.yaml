@@ -4283,7 +4283,8 @@
   conflict: null
   posted: '2026-09-15'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: vague sentiment clip, not single-topic education
 - id: '7685383624895646989'
   title: The fall box is officially here!! This season's box was built around ...
   creator: Fatima Fahs
@@ -4937,7 +4938,8 @@
   conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan and reject any sponsored/affiliate/gifted video
   posted: '2026-09-16'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'brand-tagged single-product promotion (@epii Global, #epii #hpt6 in caption) with sustained on-camera recommendation of that brand''s serum'
 - id: Bc5HyfvNhww
   title: 'dermatologist shows underrated product in boots #dermatologist #haircare #shampoo #dryscalp'
   creator: Dr Aamna Adel
@@ -15238,7 +15240,8 @@
   conflict: Bio includes a business/booking contact email suggesting managed brand partnerships; no confirmed own-brand line or affiliate stor
   posted: '2026-11-02'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: personal-routine reply, not single-topic; bio suggests managed brand partnerships
 - id: '7703370173062876429'
   title: 'Optimize your skincare routine #skincare #dermatologist #doctor #glow...'
   creator: Dr. Chris Tomassian
@@ -15316,7 +15319,8 @@
   conflict: 'Runs #ad sponsored posts (e.g. TruSkin) and Target skincare hauls/reviews; prefer her educational ingredient-category and barrier-repair explainers, and treat product recommendations as effectively promotional (skip).'
   posted: '2026-11-01'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'hashtag-stuffed opinion clip; creator runs #ad sponsored posts'
 - id: '7703238646803025165'
   title: My must have acne treatment that’s always in my bathroom. I’ve probab...
   creator: Kristin Leite (kristingl)
@@ -15329,7 +15333,8 @@
   conflict: runs an Amazon affiliate storefront and does sponsored posts - strongly prefer educational / how-to / ingredient-explainer videos; be very cautious with any product recommendation
   posted: '2026-11-01'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: product pick from a creator whose picks are monetised via an Amazon affiliate storefront
 - id: '7703323602032151822'
   title: 'Seriously considering short pink hair now 🤔 #halloweenmakeup #hallowe...'
   creator: Ella (@your.estie.ella)
@@ -15342,7 +15347,8 @@
   conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan and reject any sponsored/affiliate/gifted video
   posted: '2026-11-01'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: Halloween makeup/personal clip, not a skincare topic
 - id: '7703292071917997326'
   title: I’ve noticed the biggest difference in my skin tone and ability to bo...
   creator: Ella (@your.estie.ella)
