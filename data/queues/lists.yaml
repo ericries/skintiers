@@ -991,3 +991,11 @@
     cleared indication is narrower than the marketing; home-device-wrinkle-claims-by-cleared-scope
     exists but does not yet cover dose disclosure, which is the axis this device fails
     on
+- name: Sunscreens by what their Drug Facts panel actually declares
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: reading-a-sunscreen-label
+  source: Grounded in this page's finding that mineral and organic sunscreens share
+    one Purpose line and differ only in named actives and percentages; the site covers
+    many sunscreens but has no list ranking them on declared actives

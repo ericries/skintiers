@@ -4890,3 +4890,11 @@
     U/g nystatin with 1 mg/g triamcinolone; a very widely dispensed steroid-antifungal
     combination with no page here and no comparison against nystatin alone read for
     the hub
+- name: Neutrogena Clear Body Sunscreen SPF 50
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: reading-a-sunscreen-label
+  source: DailyMed SPL 23660e22-03c4-e722-e063-6394a90a433e, full Drug Facts and inactive
+    list already read for this page, including niacinamide and tocopheryl acetate
+    among inactives

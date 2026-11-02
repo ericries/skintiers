@@ -404,7 +404,7 @@
 - name: 'Home microneedling devices: the infection risk the evidence actually flags'
   type: goal
   priority: 5
-  status: pending
+  status: done
   discovered_from: home-fractional-nonablative-laser
   source: 'The sharpest safety finding in PMID 42545315 and nothing on the site states
     it: for facial rejuvenation, ''microneedling devices were supported by low-quality
@@ -419,7 +419,7 @@
     claim does not guarantee'
   type: goal
   priority: 5
-  status: pending
+  status: done
   discovered_from: zinc-oxide
   source: 'Grounded in video Q6CcxuAGbb8 and in a real regulatory asymmetry the site
     has not explained anywhere: in the US an organic UV-filter-like molecule regulated
