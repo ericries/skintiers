@@ -839,3 +839,11 @@
   source: The same moisture-plus-friction-plus-occlusion mechanism Kalra 2014 describes
     for intertrigo, with candidal superinfection common; the site has no hub despite
     covering zinc oxide
+- name: Skin cancer risk in organ transplant recipients
+  type: condition
+  priority: 5
+  status: pending
+  discovered_from: morello-vicente-2025-cryotherapy-tirbanibulin-actinic-keratosis
+  source: The population of this trial, singled out because immunosuppression raises
+    actinic keratosis and squamous cell carcinoma burden; the site has actinic-keratosis
+    and melanoma but no hub for this group

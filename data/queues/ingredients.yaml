@@ -3381,3 +3381,11 @@
   discovered_from: dr-dennis-gross-alpha-beta-universal-daily-peel
   source: Seventh on this peel's declared Step 2 list; a common topical antioxidant
     with no page here, also named in the Doctorly AlphaRet discussion carded on skinbetter-science-alpharet-overnight-cream
+- name: Tirbanibulin (topical, 1% ointment)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: morello-vicente-2025-cryotherapy-tirbanibulin-actinic-keratosis
+  source: The intervention in this JAAD RCT (PMID 40754218), an FDA-approved topical
+    for actinic keratosis with no page here; check openFDA drugsfda and the DailyMed
+    SPL for the approved indication and field-size limit before drafting

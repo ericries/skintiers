@@ -879,7 +879,7 @@
     \ cryotherapy followed by 1% topical tirban (PMID 40754218)"
   type: study
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/40754218/
 - name: Paller 2025 Efficacy and safety of apremilast in paediatric patients with

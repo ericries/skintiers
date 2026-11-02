@@ -818,3 +818,11 @@
     omnilux-clear-u, pulsaderm-acne-mask-28) and the site has no hub for the modality
     itself; this device's file gives usable parameters (414 nm, 22.4 mW/cm2, 12 J/cm2)
     to anchor it
+- name: Cryotherapy (liquid nitrogen, topical lesions)
+  type: goal
+  priority: 5
+  status: pending
+  discovered_from: morello-vicente-2025-cryotherapy-tirbanibulin-actinic-keratosis
+  source: The comparator arm in this trial and the standard first-line destructive
+    treatment for actinic keratosis; also named as an option on seborrhoeic-keratosis
+    and warts, with no hub anywhere on the site

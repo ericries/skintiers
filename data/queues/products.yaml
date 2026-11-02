@@ -4921,3 +4921,11 @@
   source: openFDA 510(k) K240564, Carol Cole Company dba NuFACE, decision 2024-06-27,
     product code NFO; the 2024 successor to the FIX device and the newest clearance
     in the family, with no page here
+- name: Klisyri (tirbanibulin 1% ointment)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: morello-vicente-2025-cryotherapy-tirbanibulin-actinic-keratosis
+  source: The marketed tirbanibulin product; verify the brand name and approval details
+    against openFDA drugsfda and DailyMed before drafting, since the trial abstract
+    names only the molecule
