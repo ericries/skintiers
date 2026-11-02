@@ -25,6 +25,16 @@ videos:
   related: [acne, retinoids, isotretinoin]
   thesis: Board-certified dermatologist Dr. John Barbieri explains microdosing of isotretinoin (Accutane), meaning very low, intermittent doses such as 10 to 20 mg two or three times a week rather than the traditional roughly 1 mg per kilogram per day taken to a cumulative target over 6 to 12 months. He notes the appeal is that most isotretinoin side effects are dose-dependent, so lower doses can mean fewer side effects, which suits milder or maintenance cases and people who cannot tolerate standard dosing. He also covers common mistakes and misconceptions, including that the lower cumulative dose of microdosing is a tradeoff that may not match the durable, long-term remission a full standard course is known for.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: How to choose the right dose of Accutane (isotretinoin)
+  creator: John Barbieri, MD
+  creator_slug: john-barbieri
+  credential: Dermatologist, Department of Dermatology, Brigham and Women's Hospital
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=-byr0h8eaTk
+  posted: '2024-07-06'
+  related: [isotretinoin, acne]
+  thesis: Dermatologist John Barbieri argues against the one size fits all way isotretinoin has historically been dosed, which he describes as starting around 0.5 mg per kilogram per day, rising to 1 mg per kilogram, and running to a cumulative target near 120 mg per kilogram over roughly five or six months. He cites a randomised trial in which an intermittent regimen of one week per month worked poorly, while a lower daily dose matched a higher one on both acne clearance and relapse a year later and produced much higher patient satisfaction, which he attributes to fewer side effects. He also cites separate work finding that neither daily dose nor cumulative total predicts lasting clearance, and that the best predictor is simply having had clear skin for two or three months, so his own practice is to start low, titrate up according to tolerability, and treat to that clear interval rather than to an arbitrary milligram per kilogram total.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
