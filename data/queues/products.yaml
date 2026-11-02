@@ -4961,3 +4961,26 @@
   source: Listed at $8.84 in the brand's own feed (17 products, pulled 2026-11-02),
     described there as using salicylic acid and urea with lavender and chamomile oils;
     a sibling of the page just shipped, with the added fragrance question
+- name: Sciton HALO (hybrid fractional laser)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: sciton
+  source: Sciton's most heavily marketed handpiece name; confirmed ABSENT from all
+    17 device names in its 23 openFDA clearances (queried 2026-11-02), so the page's
+    job is to establish which platform clearance covers it
+- name: Sciton BBL (BroadBand Light)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: sciton
+  source: Appears in the openFDA index inside 'PROFILE BBL SYSTEM', unlike HALO or
+    moxi; an IPL-class device widely sold for pigment and redness, with no page here
+- name: Sciton moxi (1927 nm non-ablative fractional)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: sciton
+  source: Marketed as the gentle counterpart to HALO and absent from the clearance
+    device names (openFDA, 2026-11-02); the site covers home-fractional-nonablative-laser
+    but no in-office 1927 nm device

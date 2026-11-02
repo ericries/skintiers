@@ -1050,3 +1050,12 @@
     and today''s product under that brand publishes no strengths. The same shape appears
     on skinbetter-science-alpharet-overnight-cream and omnilux-new-u; the site has
     no list treating the pattern'
+- name: In-office laser platforms by what their clearance actually names
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: sciton
+  source: 'Grounded in this page: handpieces are marketed by name while clearances
+    are granted to platforms, so BBL and diVa appear in the index and HALO, moxi,
+    SkinTyte and ZoomScan do not. The site covers several in-office lasers and has
+    no list on the distinction'
