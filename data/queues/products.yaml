@@ -3820,7 +3820,7 @@
 - name: Kerasal (5% salicylic acid / 10% urea ointment)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: keratolytics-compared
   source: 'The actual comparator product in Jennings 1998 (PMID 9680769), verified
     2026-10-22 for keratolytics-compared: the trial applied ''5% salicylic acid and
@@ -4953,3 +4953,11 @@
   discovered_from: baricitinib
   source: openFDA NDA207924, Eli Lilly, 1/2/4 mg tablets, prescription; generic listed
     under ANDA217585. The ingredient page now exists but there is no product page
+- name: Kerasal Nighttime Intensive Foot Repair
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: kerasal-intensive-foot-repair
+  source: Listed at $8.84 in the brand's own feed (17 products, pulled 2026-11-02),
+    described there as using salicylic acid and urea with lavender and chamomile oils;
+    a sibling of the page just shipped, with the added fragrance question

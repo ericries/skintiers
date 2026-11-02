@@ -729,3 +729,11 @@
   discovered_from: dr-dennis-gross-alpha-beta-universal-daily-peel
   source: First product page for this brand on the site; its own store lists the Alpha
     Beta peel in 5, 30 and 60 pack sizes and a wider peel collection
+- name: Kerasal
+  type: brand
+  priority: 5
+  status: pending
+  discovered_from: kerasal-intensive-foot-repair
+  source: First Kerasal product page on the site; its feed lists 17 products across
+    foot repair and fungal nail, and openFDA lists the labeller as Advantice Health
+    LLC with 14 records under other brands (Domeboro, Dermoplast, TriplePaste)
