@@ -479,3 +479,39 @@
   topics:
   - hyaluronic acid
   status: pending
+- name: Dr. Vanita Rattan
+  channel_url: https://www.youtube.com/channel/UC4u0qaMIAgOL8L37RwLcDQA
+  hits: 2
+  topics:
+  - fungal acne
+  - vitamin C serum
+  status: added
+  reason: Added to the roster as MED on 2026-11-02 with product_recs empty. Credential is self-stated
+    on camera (medically qualified doctor and cosmetic formulator for skin of colour, published with HarperCollins)
+    and was not verified against a register, which is why MED rather than HIGH. Heavy own-brand integration
+    recorded in the roster conflict field, so her product mentions are not eligible; educational clips
+    may be considered.
+- name: Natasha Beauty Junky Monkey
+  channel_url: https://www.youtube.com/channel/UCm6GkJLJYLnPcN4k6p3n3Ww
+  hits: 1
+  topics:
+  - retinoids
+  status: pending
+- name: Demystifying Cosmetics
+  channel_url: https://www.youtube.com/channel/UCXvHAshgFfSdOoQ39jRDvyQ
+  hits: 1
+  topics:
+  - niacinamide
+  status: pending
+- name: Doctor O'Donovan
+  channel_url: https://www.youtube.com/channel/UCnSg7AKhnTGnac-3zGdv5Qg
+  hits: 1
+  topics:
+  - rosacea
+  status: pending
+- name: Nuekie
+  channel_url: https://www.youtube.com/channel/UC4aCrUfNrHF0Hjla64cOJTg
+  hits: 1
+  topics:
+  - hyperpigmentation
+  status: pending
