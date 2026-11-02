@@ -1007,3 +1007,12 @@
   source: 'Grounded in the contrast this page draws: K124042 publishes wavelength,
     dose rate and dose, while omnilux-new-u and several reVive files publish wavelengths
     only. The existing home-device list ranks cleared scope, not dose disclosure'
+- name: Microcurrent facial devices by what their clearance actually covers
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: nuface-fix-microwand
+  source: Grounded in this page's finding that K182424's whole indication is 'facial
+    stimulation and over-the-counter cosmetic use' while the retail claims are wrinkle
+    reduction and depuffing; four NuFACE-family devices now have pages and the site
+    has no list ranking them on cleared scope

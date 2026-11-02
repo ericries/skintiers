@@ -3793,7 +3793,7 @@
 - name: NuFACE FIX MicroWand
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: nuface-mini-microcurrent-device
   source: 'Bundled free with the MINI+ Starter Kit priced at $250.00 on the brand
     page cached 2026-10-22 (research-cache/web/c5df4aede3633adb.md), and listed in
@@ -4913,3 +4913,11 @@
   source: openFDA 510(k) records for Pharos Life Corporation, 2011-01-03 (code ONE)
     and 2011-08-03 (code OHS, the wrinkle-reduction code); the anti-ageing arm of
     the same line, uncovered here
+- name: NuFACE FIX+ (K240564)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: nuface-fix-microwand
+  source: openFDA 510(k) K240564, Carol Cole Company dba NuFACE, decision 2024-06-27,
+    product code NFO; the 2024 successor to the FIX device and the newest clearance
+    in the family, with no page here
