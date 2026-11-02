@@ -572,7 +572,7 @@
 - name: Ingrown hair and razor bump products by evidence
   type: list
   priority: 5
-  status: pending
+  status: done
   discovered_from: folliculitis
   source: 'GROUNDED in a real gap found while clearing a folliculitis maintenance
     flag. Three ingrown-hair PRODUCTS are published and link the folliculitis hub
@@ -588,7 +588,7 @@
 - name: Home LED devices sold for BODY acne (back and chest)
   type: list
   priority: 5
-  status: pending
+  status: done
   discovered_from: revive-light-therapy-lux-panel
   source: 'Grounded in revive-light-therapy-lux-panel, shipped 2026-10-21, which is
     the first device on the site sold for ''face, neck, chest, back, and more''. The

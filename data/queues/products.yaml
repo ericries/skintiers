@@ -4929,3 +4929,20 @@
   source: The marketed tirbanibulin product; verify the brand name and approval details
     against openFDA drugsfda and DailyMed before drafting, since the trial abstract
     names only the molecule
+- name: reVive Light Therapy Lux Panel body claim verification
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: home-led-devices-for-body-acne
+  source: 'NOTE for a future pass, not a new page: the Lux Panel page already exists
+    but its brand body claim (''face, neck, chest, back, and more'') has no clearance
+    behind it in the record; worth re-checking openFDA for any LED Technologies clearance
+    naming a body site before the claim is repeated elsewhere'
+- name: Clascoterone (Winlevi) for truncal acne
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: home-led-devices-for-body-acne
+  source: The site has a clascoterone ingredient page but no product page, and truncal
+    acne is where a large-surface topical's cost and vehicle matter most; grounded
+    in this list's point that body acne is a different treatment problem
