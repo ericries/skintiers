@@ -722,3 +722,10 @@
   discovered_from: mamina-turegano
   source: Her practice, an affiliate of DOCS Dermatology per its own site header (research-cache/web/781483c11a7dfec7.md);
     low priority, queue only if practice groups are in scope
+- name: Dr. Dennis Gross Skincare
+  type: brand
+  priority: 5
+  status: pending
+  discovered_from: dr-dennis-gross-alpha-beta-universal-daily-peel
+  source: First product page for this brand on the site; its own store lists the Alpha
+    Beta peel in 5, 30 and 60 pack sizes and a wider peel collection

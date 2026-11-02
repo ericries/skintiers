@@ -1016,3 +1016,11 @@
     stimulation and over-the-counter cosmetic use' while the retail claims are wrinkle
     reduction and depuffing; four NuFACE-family devices now have pages and the site
     has no list ranking them on cleared scope
+- name: At-home acid peels by the strength they disclose
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: dr-dennis-gross-alpha-beta-universal-daily-peel
+  source: Grounded in this page's finding that a five-acid daily peel publishes no
+    percentage and no pH while The Ordinary Glycolic Acid 7% and Pixi Glow Tonic both
+    state a strength; the site covers several exfoliants and has no list on disclosure

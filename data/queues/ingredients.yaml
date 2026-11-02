@@ -3366,3 +3366,18 @@
   source: The first topical named for fungal intertrigo in Kalra 2014 (PMID 24695603)
     and the one most associated with cutaneous candidiasis; no page here, and all
     50 topical records in openFDA are prescription ANDAs
+- name: Malic acid
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: dr-dennis-gross-alpha-beta-universal-daily-peel
+  source: Tenth on this peel's declared Step 1 list and one of the five acids the
+    brand counts; the site grades glycolic, lactic, mandelic and salicylic acid but
+    has no malic acid page
+- name: Ubiquinone (CoQ10, topical)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: dr-dennis-gross-alpha-beta-universal-daily-peel
+  source: Seventh on this peel's declared Step 2 list; a common topical antioxidant
+    with no page here, also named in the Doctorly AlphaRet discussion carded on skinbetter-science-alpharet-overnight-cream
