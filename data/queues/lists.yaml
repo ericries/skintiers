@@ -1033,3 +1033,11 @@
     endorsing a product inside the brand''s own marketing. The site now has several
     such cases (Michelle Henry for L''Oreal, Fatima Fahs stocking Xtresse, Sheila
     Farhang as a self-described KOL) and no list treating the pattern'
+- name: Oral JAK inhibitors by indication and boxed warning
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: baricitinib
+  source: Four now have pages or are queued (baricitinib, upadacitinib, abrocitinib,
+    ritlecitinib) with different dermatology indications and a shared class boxed
+    warning; grounded in this page's point that the warning is what decides the trade

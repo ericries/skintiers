@@ -4946,3 +4946,10 @@
   source: The site has a clascoterone ingredient page but no product page, and truncal
     acne is where a large-surface topical's cost and vehicle matter most; grounded
     in this list's point that body acne is a different treatment problem
+- name: Olumiant (baricitinib tablets)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: baricitinib
+  source: openFDA NDA207924, Eli Lilly, 1/2/4 mg tablets, prescription; generic listed
+    under ANDA217585. The ingredient page now exists but there is no product page

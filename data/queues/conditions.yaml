@@ -855,3 +855,12 @@
   source: The condition this whole list is about; the site has acne plus best-body-acne-products
     but no hub for truncal acne, whose treatment differs from facial acne in surface
     area, vehicle choice and application difficulty
+- name: Alopecia areata
+  type: condition
+  priority: 5
+  status: pending
+  discovered_from: baricitinib
+  source: The sole dermatology indication of this drug and of ritlecitinib and topical
+    ruxolitinib; the site has hair-loss-thinning but no hub for the autoimmune form,
+    which is a different disease with different treatments. Queued twice over now
+    (also surfaced by Laura Soong's minoxidil clip)

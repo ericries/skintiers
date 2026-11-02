@@ -1764,7 +1764,7 @@
 - name: Baricitinib (Olumiant)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: upadacitinib
   source: Ronnstad 2026 meta-analysis (PMID 41296263); oral JAK1/2 inhibitor used
     for atopic dermatitis, sibling to upadacitinib
@@ -3405,3 +3405,11 @@
   source: Her carded collagen clip argues topical collagen is the wrong molecule to
     apply; the site covers peptides and copper-peptides but has no page on topical
     collagen itself, which is widely sold
+- name: Ritlecitinib (Litfulo)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: baricitinib
+  source: The other oral JAK inhibitor FDA-approved for severe alopecia areata, approved
+    after baricitinib and indicated from age 12; no page here, and the site now covers
+    baricitinib, upadacitinib and abrocitinib
