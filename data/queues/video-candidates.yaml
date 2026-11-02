@@ -15187,7 +15187,8 @@
   conflict: null
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: product-pick video; creator runs a ShopMy storefront and affiliate-links recommended products in descriptions
 - id: XcO2k2OAOY4
   title: Hydrocortisone on Your Face? A Dermatologist Explains the Risks
   creator: Andrea Suarez (Dr Dray)
