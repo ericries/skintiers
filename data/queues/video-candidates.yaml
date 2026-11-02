@@ -428,19 +428,6 @@
   feed_rank: 5
   status: skipped
   skip_reason: no captions available (cached negative predates the 2026-10-15 rate-limit window, so it is a genuine result); cannot cite a video that cannot be read
-- id: ZzHXz4AwHxw
-  title: What You Should Know About Seborrheic Keratoses
-  creator: Dr. Aleksandra Brown, DO, FAAD
-  creator_slug: aleksandra-brown
-  credential: Board-certified dermatologist (DO, FAOCD, FAAD), practicing at River Ridge Dermatology / HCA Virginia (LewisGale), Blacksburg VA
-  channel: https://www.youtube.com/channel/UC52c6a0gfbhuVCdHYZQAzuQ
-  platform: YouTube
-  tier: HIGH
-  product_recs: ok
-  conflict: null
-  posted: ''
-  feed_rank: 6
-  status: pending
 - id: 6uCfE9yppCI
   title: 5 Perimenopause Skin Changes You Didn’t See Coming
   creator: Dr. Aleksandra Brown, DO, FAAD
@@ -2704,32 +2691,6 @@
   conflict: Runs an Amazon affiliate storefront (amazon.com/shop/derm.talk); recurring disclosed paid brand partnerships (Shiseido, SkinCeutic
   posted: ''
   feed_rank: 11
-  status: pending
-- id: 8WRtsA66K0k
-  title: 'How to Treat Acne Without Antibiotics: Better Alternatives for Clear Skin'
-  creator: John Barbieri, MD
-  creator_slug: john-barbieri-md
-  credential: Board-certified dermatologist, Associate Professor of Dermatology at Harvard Medical School, Director of the Advanced Acne Therapeutics Clinic at Brigham and Women's Hospital, co-chair of the AAD Acne Guidelines Work Group
-  channel: https://www.youtube.com/channel/UCm0RvvD6gfywapkgOt3bFCA
-  platform: YouTube
-  tier: HIGH
-  product_recs: ok
-  conflict: null
-  posted: ''
-  feed_rank: 5
-  status: pending
-- id: oYHct_VeCyM
-  title: Why isotretinoin isn't working | acne mimickers | full video in description
-  creator: John Barbieri, MD
-  creator_slug: john-barbieri-md
-  credential: Board-certified dermatologist, Associate Professor of Dermatology at Harvard Medical School, Director of the Advanced Acne Therapeutics Clinic at Brigham and Women's Hospital, co-chair of the AAD Acne Guidelines Work Group
-  channel: https://www.youtube.com/channel/UCm0RvvD6gfywapkgOt3bFCA
-  platform: YouTube
-  tier: HIGH
-  product_recs: ok
-  conflict: null
-  posted: ''
-  feed_rank: 6
   status: pending
 - id: BObBue0_OWk
   title: Do IUDs really cause acne? (full video in description)
@@ -6386,19 +6347,6 @@
   feed_rank: 4
   status: skipped
   skip_reason: The Progressive Peel is his own-brand BeautyRx product; own-brand promo
-- id: 7dXNZNON61w
-  title: 'Do You Need to Wear Sunscreen in an Airplane [DermTV.com Epi #561]'
-  creator: Dr. Neal Schultz (DermTV)
-  creator_slug: neal-schultz
-  credential: Dermatologist, host of DermTV.com
-  channel: https://www.youtube.com/channel/UCWl7rIYGLnCwVpuO1DmrEUQ
-  platform: YouTube
-  tier: HIGH
-  product_recs: restricted
-  conflict: Own-brand skincare line BeautyRx by Dr. Schultz (beautyrx.com); treat product picks as commercially incentivized. Channel largely inactive since ~2014, useful mainly for evergreen back-catalog (backfill).
-  posted: ''
-  feed_rank: 5
-  status: pending
 - id: 58mOSOMn72g
   title: 'skincare made simple #skincare'
   creator: Dr. Neera Nathan
@@ -11724,19 +11672,6 @@
   posted: ''
   feed_rank: 6
   status: pending
-- id: xvM8ZhrSa7A
-  title: 'Skinbetter AlphaRet Review: Is It Really Better Than Tretinoin?'
-  creator: Andrea Suarez (Dr Dray)
-  creator_slug: andrea-suarez-dr-dray
-  credential: Board-certified dermatologist
-  channel: https://www.youtube.com/@DrDrayzday/videos
-  platform: YouTube
-  tier: HIGH
-  product_recs: null
-  conflict: null
-  posted: ''
-  feed_rank: 2
-  status: pending
 - id: nniwyDKdg-A
   title: 'WTF is and Acne Nutritionist??? #dermreacts  #skincare  #dermatologist #dermangelo    '
   creator: Dr. Angelo Landriscina (DermAngelo)
@@ -13352,32 +13287,6 @@
   feed_rank: 2
   status: skipped
   skip_reason: no cold sores page on the site
-- id: uyJS0b-M3Qo
-  title: 'Hidradenitis Suppurativa: Simple Lifestyle Changes That STOP Flares!'
-  creator: Dr. Laura Soong
-  creator_slug: laura-soong
-  credential: Board-certified dermatologist
-  channel: https://www.youtube.com/channel/UCmc3iF83jLuk_VaqEaNMivQ/videos
-  platform: YouTube
-  tier: HIGH
-  product_recs: restricted
-  conflict: null
-  posted: ''
-  feed_rank: 3
-  status: pending
-- id: KwADOQKoY-w
-  title: Will Minoxidil Actually Stop Your Hair Loss? The REAL Facts
-  creator: Dr. Laura Soong
-  creator_slug: laura-soong
-  credential: Board-certified dermatologist
-  channel: https://www.youtube.com/channel/UCmc3iF83jLuk_VaqEaNMivQ/videos
-  platform: YouTube
-  tier: HIGH
-  product_recs: restricted
-  conflict: null
-  posted: ''
-  feed_rank: 4
-  status: pending
 - id: 1vnwa9di574
   title: Dermatologist Complete Guide to Shingles That Will Save Your Health!
   creator: Dr. Laura Soong
@@ -15006,19 +14915,6 @@
   feed_rank: 0
   status: skipped
   skip_reason: trend clip by her own description; own-brand More Than Nine
-- id: yp0wtPTU19s
-  title: Can Tretinoin Make Wrinkles WORSE? A Dermatologist Explains
-  creator: Andrea Suarez (Dr Dray)
-  creator_slug: andrea-suarez-dr-dray
-  credential: Board-certified dermatologist
-  channel: https://www.youtube.com/@DrDrayzday/videos
-  platform: YouTube
-  tier: HIGH
-  product_recs: null
-  conflict: null
-  posted: ''
-  feed_rank: 0
-  status: pending
 - id: '7702992122818940174'
   title: 'Toy Story was a vibe @Dr. Gina Jones  '
   creator: Dr. Chris Tomassian
@@ -15101,19 +14997,6 @@
   feed_rank: 0
   status: skipped
   skip_reason: ageing-sentiment commentary, not single-topic education; own Dermy Doc Box
-- id: '7702605787041991957'
-  title: Are we surprised that the main opposition to this change came from in...
-  creator: Hannah English (@ms_hannah_e / Hannah Collingwood English)
-  creator_slug: hannah-english
-  credential: Skincare educator
-  channel: https://www.tiktok.com/@hannahcollingwoodenglish
-  platform: TikTok
-  tier: HIGH
-  product_recs: restricted
-  conflict: Co-developed/formulated the Tbh Skincare 'Rebound' Serum and Toner (product-formulation partnership) — her endorsement of that spe; no YouTube; TikTok/IG intake
-  posted: '2026-10-30'
-  feed_rank: 0
-  status: pending
 - id: '7702249487573568781'
   title: 'My investment portfolio? A little savings, a little Sculptra #collage...'
   creator: Jenn Lexi (@jennlexi_)
@@ -15276,4 +15159,199 @@
   conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan and reject any sponsored/affiliate/gifted video
   posted: '2026-10-30'
   feed_rank: 2
+  status: pending
+- id: 5Fzgkxd8OAg
+  title: My Hair Loss Story (What ACTUALLY Fixed It, 10 Years Later) | Dermatologist Adel
+  creator: Dr Aamna Adel
+  creator_slug: aamna-adel
+  credential: Consultant dermatologist
+  channel: https://www.youtube.com/@DrAamnaAdel/videos
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Founder of own-brand haircare line (Rhute); TikTok Shop affiliate/product storefront; recurring disclosed sponsored posts (No7, La Roche Pos
+  posted: ''
+  feed_rank: 0
+  status: pending
+- id: xSlQzodyRkk
+  title: Are Copper Peptides Worth It? A Dermatologist on GHK-Cu, "Copper Uglies" & Injections
+  creator: Dr. Aleksandra Brown, DO, FAAD
+  creator_slug: aleksandra-brown
+  credential: Board-certified dermatologist (DO, FAOCD, FAAD), practicing at River Ridge Dermatology / HCA Virginia (LewisGale), Blacksburg VA
+  channel: https://www.youtube.com/channel/UC52c6a0gfbhuVCdHYZQAzuQ/videos
+  platform: YouTube
+  tier: HIGH
+  product_recs: ok
+  conflict: null
+  posted: ''
+  feed_rank: 0
+  status: pending
+- id: XcO2k2OAOY4
+  title: Hydrocortisone on Your Face? A Dermatologist Explains the Risks
+  creator: Andrea Suarez (Dr Dray)
+  creator_slug: andrea-suarez-dr-dray
+  credential: Board-certified dermatologist
+  channel: https://www.youtube.com/@DrDrayzday/videos
+  platform: YouTube
+  tier: HIGH
+  product_recs: null
+  conflict: null
+  posted: ''
+  feed_rank: 0
+  status: pending
+- id: yo1Be6O5HVc
+  title: 'This is NUTS! #dermreacts  #skincare  #dermatologist #dermangelo  #reactionvideo  '
+  creator: Dr. Angelo Landriscina (DermAngelo)
+  creator_slug: angelo-landriscina
+  credential: Board-certified dermatologist
+  channel: https://www.youtube.com/@DermAngelo/videos
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Own-brand UPF sun-protective clothing line, SOUL-A (wearsoula.com / @wearsoula), founded and promoted by him — apparel, not topical skincare
+  posted: ''
+  feed_rank: 0
+  status: pending
+- id: TUWW9LYgFjs
+  title: 'Botox Long Term Effects #dermreacts  #skincare  #dermatologist #dermangelo  #reactionvideo  '
+  creator: Dr. Angelo Landriscina (DermAngelo)
+  creator_slug: angelo-landriscina
+  credential: Board-certified dermatologist
+  channel: https://www.youtube.com/@DermAngelo/videos
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Own-brand UPF sun-protective clothing line, SOUL-A (wearsoula.com / @wearsoula), founded and promoted by him — apparel, not topical skincare
+  posted: ''
+  feed_rank: 1
+  status: pending
+- id: '7703420547471838477'
+  title: Replying to @Wick_is_here_ what I do personally to keep my skin healt...
+  creator: Dr. Chris Tomassian
+  creator_slug: chris-tomassian
+  credential: Board-certified dermatologist
+  channel: https://www.tiktok.com/@dr.tomassian
+  platform: TikTok
+  tier: MED
+  product_recs: ok
+  conflict: Bio includes a business/booking contact email suggesting managed brand partnerships; no confirmed own-brand line or affiliate stor
+  posted: '2026-11-02'
+  feed_rank: 0
+  status: pending
+- id: '7703370173062876429'
+  title: 'Optimize your skincare routine #skincare #dermatologist #doctor #glow...'
+  creator: Dr. Chris Tomassian
+  creator_slug: chris-tomassian
+  credential: Board-certified dermatologist
+  channel: https://www.tiktok.com/@dr.tomassian
+  platform: TikTok
+  tier: MED
+  product_recs: ok
+  conflict: Bio includes a business/booking contact email suggesting managed brand partnerships; no confirmed own-brand line or affiliate stor
+  posted: '2026-11-02'
+  feed_rank: 1
+  status: pending
+- id: tU8s0ed2hls
+  title: 'At Home Laser Skin Resurfacing: A Dermatologist Explains'
+  creator: Dr. Davin Lim
+  creator_slug: davin-lim
+  credential: Board-certified dermatologist (Australia)
+  channel: https://www.youtube.com/@DrDavinLim/videos
+  platform: YouTube
+  tier: HIGH
+  product_recs: null
+  conflict: null
+  posted: ''
+  feed_rank: 0
+  status: pending
+- id: sTdsFS7wFZA
+  title: Retinol for Beginners - 3 Myths about how to Start Retinol
+  creator: Dr. Aanchal MD
+  creator_slug: dr-aanchal-md
+  credential: Dr. Aanchal Panth, MD Dermatology, Venereology and Leprosy (AIIMS New Delhi), MBBS (Manipal); consultant dermatologist, Surat, India; IADVL member
+  channel: https://www.youtube.com/channel/UCMTl80jTQwGkO335HoVf0ig/videos
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Maintains a Nykaa curated affiliate storefront; treat specific product picks as commercially incentivized (educational/mechanism content is fine).
+  posted: ''
+  feed_rank: 0
+  status: pending
+- id: dFTMQiGoa1c
+  title: Stop Treating Adult Acne Like Teen Acne (Do This Instead)
+  creator: Dr. Dustin Portela
+  creator_slug: dustin-portela
+  credential: Board-certified dermatologist
+  channel: https://www.youtube.com/channel/UCC9iFyuXhE3Epr-rJsFiK3Q/videos
+  platform: YouTube
+  tier: HIGH
+  product_recs: null
+  conflict: null
+  posted: ''
+  feed_rank: 0
+  status: pending
+- id: RLsGFbWvP98
+  title: Exposing the $-Multi-Million Dollar Skincare Scam!
+  creator: James Welsh
+  creator_slug: james-welsh
+  credential: Skincare content creator (NOT a dermatologist or cosmetic chemist)
+  channel: https://www.youtube.com/@JamesWelsh/videos
+  platform: YouTube
+  tier: MED
+  product_recs: null
+  conflict: does sponsorships - educational content only, never treat picks as endorsements, never use sponsored videos
+  posted: ''
+  feed_rank: 0
+  status: pending
+- id: '7703339729982360846'
+  title: 'Things I can’t stand:) #skincare #skincaretips #esthetician #clearskin '
+  creator: Jenn Lexi (@jennlexi_)
+  creator_slug: jennlexi
+  credential: Esthetician (self-identified); not a dermatologist or cosmetic chemist
+  channel: https://www.tiktok.com/@jennlexi_
+  platform: TikTok
+  tier: MED
+  product_recs: restricted
+  conflict: 'Runs #ad sponsored posts (e.g. TruSkin) and Target skincare hauls/reviews; prefer her educational ingredient-category and barrier-repair explainers, and treat product recommendations as effectively promotional (skip).'
+  posted: '2026-11-01'
+  feed_rank: 0
+  status: pending
+- id: '7703238646803025165'
+  title: My must have acne treatment that’s always in my bathroom. I’ve probab...
+  creator: Kristin Leite (kristingl)
+  creator_slug: kristin-leite
+  credential: Beauty product developer and skincare educator (NOT a dermatologist or cosmetic chemist)
+  channel: https://www.tiktok.com/@kristingl
+  platform: TikTok
+  tier: MED
+  product_recs: null
+  conflict: runs an Amazon affiliate storefront and does sponsored posts - strongly prefer educational / how-to / ingredient-explainer videos; be very cautious with any product recommendation
+  posted: '2026-11-01'
+  feed_rank: 0
+  status: pending
+- id: '7703323602032151822'
+  title: 'Seriously considering short pink hair now 🤔 #halloweenmakeup #hallowe...'
+  creator: Ella (@your.estie.ella)
+  creator_slug: your-estie-ella
+  credential: Licensed esthetician (NOT a dermatologist or cosmetic chemist)
+  channel: https://www.tiktok.com/@your.estie.ella
+  platform: TikTok
+  tier: MED
+  product_recs: ok
+  conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan and reject any sponsored/affiliate/gifted video
+  posted: '2026-11-01'
+  feed_rank: 0
+  status: pending
+- id: '7703292071917997326'
+  title: I’ve noticed the biggest difference in my skin tone and ability to bo...
+  creator: Ella (@your.estie.ella)
+  creator_slug: your-estie-ella
+  credential: Licensed esthetician (NOT a dermatologist or cosmetic chemist)
+  channel: https://www.tiktok.com/@your.estie.ella
+  platform: TikTok
+  tier: MED
+  product_recs: ok
+  conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan and reject any sponsored/affiliate/gifted video
+  posted: '2026-11-01'
+  feed_rank: 1
   status: pending
