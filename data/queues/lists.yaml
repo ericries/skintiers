@@ -1024,3 +1024,12 @@
   source: Grounded in this page's finding that a five-acid daily peel publishes no
     percentage and no pH while The Ordinary Glycolic Acid 7% and Pixi Glow Tonic both
     state a strength; the site covers several exfoliants and has no list on disclosure
+- name: Dermatologists who appear in brand marketing
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: michelle-henry
+  source: 'Grounded in this page and the L''Oreal Revitalift page: a named dermatologist
+    endorsing a product inside the brand''s own marketing. The site now has several
+    such cases (Michelle Henry for L''Oreal, Fatima Fahs stocking Xtresse, Sheila
+    Farhang as a self-described KOL) and no list treating the pattern'

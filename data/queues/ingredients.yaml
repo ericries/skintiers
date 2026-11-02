@@ -3389,3 +3389,19 @@
   source: The intervention in this JAAD RCT (PMID 40754218), an FDA-approved topical
     for actinic keratosis with no page here; check openFDA drugsfda and the DailyMed
     SPL for the approved indication and field-size limit before drafting
+- name: Beef tallow for skin
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: michelle-henry
+  source: The subject of her carded clip on retinoids (TikTok 7618624204358814990),
+    a heavily promoted social-media trend with no page here; grade it on evidence
+    rather than on the trend
+- name: Topical collagen
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: michelle-henry
+  source: Her carded collagen clip argues topical collagen is the wrong molecule to
+    apply; the site covers peptides and copper-peptides but has no page on topical
+    collagen itself, which is widely sold
