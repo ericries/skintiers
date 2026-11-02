@@ -4706,7 +4706,8 @@
   conflict: Runs an Amazon affiliate storefront (amazon.com/shop/derm.talk); recurring disclosed paid brand partnerships (Shiseido, SkinCeutic
   posted: ''
   feed_rank: 6
-  status: pending
+  status: skipped
+  skip_reason: hashtag-stuffed Shorts-style clip; Amazon affiliate storefront
 - id: '7685802858058452237'
   title: Serums that I use for active breakouts as a beauty product developer ...
   creator: Kristin Leite (kristingl)
@@ -4759,7 +4760,8 @@
   conflict: Runs extensive Amazon Associates and ShopMy affiliate storefronts, monetizing nearly every product mentioned across videos
   posted: ''
   feed_rank: 6
-  status: pending
+  status: skipped
+  skip_reason: vague title, not single-topic; Amazon Associates + ShopMy storefronts
 - id: iD7mR_ctzPA
   title: 'rating viral skincare trends! Stitch with heyzimma #skincare'
   creator: Dr. Neera Nathan
@@ -4813,7 +4815,8 @@
   conflict: Founder of own-brand haircare line (Rhute); TikTok Shop affiliate/product storefront; recurring disclosed sponsored posts (No7, La Roche Pos
   posted: ''
   feed_rank: 6
-  status: pending
+  status: skipped
+  skip_reason: hashtag-stuffed clip tagging her own haircare brand
 - id: 5x92AjTT_os
   title: 'Know this before you get eyelash extensions or fake lashes 👀 #eyelashextensions #demodex'
   creator: Dr. Abigail Waldman (Dr. Abby)
