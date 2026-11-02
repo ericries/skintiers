@@ -3358,3 +3358,11 @@
   source: Amin 2025 (7 RCTs) is the site's only record on the ORAL route and the hyaluronic-acid
     page covers topical only; a separate page would stop the meta-analysis being read
     across to topical use
+- name: Nystatin (topical)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: candidal-intertrigo
+  source: The first topical named for fungal intertrigo in Kalra 2014 (PMID 24695603)
+    and the one most associated with cutaneous candidiasis; no page here, and all
+    50 topical records in openFDA are prescription ANDAs

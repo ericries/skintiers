@@ -4881,3 +4881,12 @@
   discovered_from: lanolin
   source: The archetypal lanolin nipple product and the intervention behind much of
     the Shetty 2024 meta-analysis literature (PMID 39436586); no page here
+- name: Nystatin and triamcinolone acetonide cream
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: candidal-intertrigo
+  source: Appears repeatedly in openFDA's topical nystatin listing at 100,000 USP
+    U/g nystatin with 1 mg/g triamcinolone; a very widely dispensed steroid-antifungal
+    combination with no page here and no comparison against nystatin alone read for
+    the hub

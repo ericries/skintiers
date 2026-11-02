@@ -1792,3 +1792,11 @@
   source: PMID 36917502, Dermatitis 2023;34(1), Jenkins BA and Belsito DV (verified
     from the PubMed Author elements); source of the 0.4% European contact-allergy
     figure and the patch-test caveats
+- name: Kalra 2014 intertrigo and secondary skin infections review
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: candidal-intertrigo
+  source: PMID 24695603, Am Fam Physician 2014;89(7), authors Kalra MG, Higgins KE,
+    Kinney BS (verified from the PubMed Author elements); the clinical review this
+    hub is built on

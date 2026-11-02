@@ -580,7 +580,7 @@
 - name: Sebaceous filaments vs blackheads section for the blackheads hub
   type: condition
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: mis-typed as an ingredient in the ingredient queue; it is a disambiguation
     section for the blackheads hub, not an ingredient. Normal grey nose dots that
@@ -596,7 +596,7 @@
 - name: Candidal intertrigo
   type: condition
   priority: 5
-  status: pending
+  status: done
   discovered_from: tinea-cruris-jock-itch
   source: named on the new jock itch page as one of the look-alikes occupying the
     same skin folds; no hub exists, and the AFP review warns clinical diagnosis without
@@ -831,3 +831,11 @@
   discovered_from: lanolin
   source: The one indication where lanolin has a pooled analysis behind it (PMID 39436586,
     11 studies, 1,495 participants); the site has no hub for it
+- name: Diaper rash (irritant diaper dermatitis)
+  type: condition
+  priority: 5
+  status: pending
+  discovered_from: candidal-intertrigo
+  source: The same moisture-plus-friction-plus-occlusion mechanism Kalra 2014 describes
+    for intertrigo, with candidal superinfection common; the site has no hub despite
+    covering zinc oxide
