@@ -3781,7 +3781,7 @@
 - name: Tanda Clear / Tanda acne light device
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: dpl-nuve
   source: 'The other THIRD-PARTY predicate named in K101382 (read 2026-10-22), described
     there as the Tanda skin care product ''for treatment of acne''. CAUTION: the 2010
@@ -4898,3 +4898,18 @@
   source: DailyMed SPL 23660e22-03c4-e722-e063-6394a90a433e, full Drug Facts and inactive
     list already read for this page, including niacinamide and tocopheryl acetate
     among inactives
+- name: Tanda Pearl (ultrasonic/LED, K122725)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: tanda-mini-skincare-system
+  source: openFDA 510(k) K122725, Syneron Beauty, 2012-11-27, product code EEG, filed
+    with a Summary; a different modality from the acne device and uncovered here
+- name: Tanda Max / Tanda Max OTC System (K103415, K110735)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: tanda-mini-skincare-system
+  source: openFDA 510(k) records for Pharos Life Corporation, 2011-01-03 (code ONE)
+    and 2011-08-03 (code OHS, the wrinkle-reduction code); the anti-ageing arm of
+    the same line, uncovered here

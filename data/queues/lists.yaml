@@ -999,3 +999,11 @@
   source: Grounded in this page's finding that mineral and organic sunscreens share
     one Purpose line and differ only in named actives and percentages; the site covers
     many sunscreens but has no list ranking them on declared actives
+- name: Home LED acne devices by the dose they disclose
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: tanda-mini-skincare-system
+  source: 'Grounded in the contrast this page draws: K124042 publishes wavelength,
+    dose rate and dose, while omnilux-new-u and several reVive files publish wavelengths
+    only. The existing home-device list ranks cleared scope, not dose disclosure'

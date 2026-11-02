@@ -809,3 +809,12 @@
     (7702605787041991957): the TGA''s proposed cap on SPF claims for cosmetic products,
     and the gap between labelled SPF and applied dose. The site has no hub on how
     much sunscreen to apply or what an SPF number is tested at'
+- name: Blue light for acne (414 nm)
+  type: goal
+  priority: 5
+  status: pending
+  discovered_from: tanda-mini-skincare-system
+  source: Three over-the-counter blue-light acne devices now have pages here (tanda-mini-skincare-system,
+    omnilux-clear-u, pulsaderm-acne-mask-28) and the site has no hub for the modality
+    itself; this device's file gives usable parameters (414 nm, 22.4 mW/cm2, 12 J/cm2)
+    to anchor it
