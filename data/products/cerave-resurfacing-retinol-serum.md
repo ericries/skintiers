@@ -79,6 +79,16 @@ videos:
   thesis: 'Board-certified dermatologist Dr. Aleksandra Brown ranks the CeraVe range from what she recommends to what she would skip, stating at the top that the video is not sponsored by CeraVe. Her favourite CeraVe cleanser is the hydrating foaming oil cleanser, with the cream-to-foam second and the classic hydrating facial cleanser still solid, and she makes the case that nobody needs the tub cream specifically: pick the moisturizer texture your skin likes rather than the one that is popular. Two products land in her skip pile, the untinted hydrating mineral sunscreen, because untinted mineral filters leave a white cast that is worse on medium and deeper skin tones and a sunscreen only works if you will actually wear it, and the standalone hyaluronic acid serum, because CeraVe already puts hyaluronic acid in its cleansers, moisturizers and sunscreens. On the benzoyl peroxide benzene headlines she gives the chronology she has read, including FDA testing of 95 products reported in March
     2025 and a September 2026 dismissal of a consolidated consumer class action on federal preemption grounds, and says she still uses and recommends benzoyl peroxide while noting a legal ruling is not a scientific finding.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: I'm not saying these are all terrible products, but it is bad marketing
+  creator: Ella (@your.estie.ella)
+  creator_slug: your-estie-ella
+  credential: Licensed esthetician (not a dermatologist or cosmetic chemist)
+  platform: TikTok
+  url: https://www.tiktok.com/@your.estie.ella/video/7685760015180893454
+  posted: '2026-09-15'
+  related: [retinol, peptides, exfoliation]
+  thesis: Licensed esthetician Ella walks a retailer's skincare aisle picking out marketing she considers unrealistic, on the view that people who expect less from a product end up happier with it. Her sharpest specific complaint is about undisclosed strength, saying of CeraVe's retinol serum that nowhere on the packaging, the brand's own marketing, its website or any site selling it does it state how much retinol is in the bottle, and extending that to the rest of that retinoid line. She also argues that a pure vitamin C serum belongs in an airless pump rather than a clear dropper bottle because ascorbic acid oxidises on contact with light and air, that a product boasting fifty peptides is using them at concentrations too low to matter, that toner pads are mostly interchangeable hydrating products, and that the flaking a gommage produces is the product balling up with skin oil rather than skin coming off.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

@@ -826,3 +826,11 @@
   source: The comparator arm in this trial and the standard first-line destructive
     treatment for actinic keratosis; also named as an option on seborrhoeic-keratosis
     and warts, with no hub anywhere on the site
+- name: Botox / botulinum toxin (cosmetic)
+  type: goal
+  priority: 5
+  status: pending
+  discovered_from: cerave-skin-renewing-retinol-serum
+  source: A rostered dermatologist's botox-safety clip (TikTok 7685889123852274957)
+    was rejected today solely because no page exists to attach it to; the site covers
+    many wrinkle treatments and has no neuromodulator hub

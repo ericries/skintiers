@@ -172,6 +172,16 @@ videos:
   related: [magnesium-ascorbyl-phosphate, sodium-ascorbyl-phosphate, ammonium-lactate, microneedling, fractional-co2-laser-resurfacing, sun-damage-photoaging, niacinamide]
   thesis: In a weekend question-and-answer episode, dermatologist Andrea Suarez, who posts as Dr Dray, takes apart the widely repeated claim that vitamin C stays active in skin for 72 hours so you can apply it every second or third day. She points out the absorption studies behind it were done on pig skin, which she says is more accepting of water-loving ingredients like ascorbic acid and so can overestimate how much gets in, and that pigs can make their own vitamin C from glucose while humans cannot, and she notes the human clinical trials that showed collagen benefit applied it daily or twice daily, so there is no clinical data on the every-third-day schedule. Asked separately about the best in-office treatment for enlarged pores, she names radiofrequency microneedling and fractional laser, on the reasoning that both raise collagen production and so support the pore wall, which loses its dermal support with sun damage and age.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: I'm not saying these are all terrible products, but it is bad marketing
+  creator: Ella (@your.estie.ella)
+  creator_slug: your-estie-ella
+  credential: Licensed esthetician (not a dermatologist or cosmetic chemist)
+  platform: TikTok
+  url: https://www.tiktok.com/@your.estie.ella/video/7685760015180893454
+  posted: '2026-09-15'
+  related: [retinol, peptides, exfoliation]
+  thesis: Licensed esthetician Ella walks a retailer's skincare aisle picking out marketing she considers unrealistic, on the view that people who expect less from a product end up happier with it. Her sharpest specific complaint is about undisclosed strength, saying of CeraVe's retinol serum that nowhere on the packaging, the brand's own marketing, its website or any site selling it does it state how much retinol is in the bottle, and extending that to the rest of that retinoid line. She also argues that a pure vitamin C serum belongs in an airless pump rather than a clear dropper bottle because ascorbic acid oxidises on contact with light and air, that a product boasting fifty peptides is using them at concentrations too low to matter, that toner pads are mostly interchangeable hydrating products, and that the flaking a gommage produces is the product balling up with skin oil rather than skin coming off.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
