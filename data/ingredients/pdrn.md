@@ -7,6 +7,18 @@ status: published
 tier: weak
 type: ingredient
 updated: '2026-09-28'
+videos:
+- title: Hype or Breakthrough? VEGAN PDRN in Skincare
+  creator: Dr. Sarah Sheu
+  creator_slug: dr-sarah-sheu
+  credential: Board-certified dermatologist, MD (Northwestern Feinberg), Stanford dermatology residency (chief resident); Medical Director of Dermatology, Valley Medical Center, Seattle WA
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=iCIV10lpj14
+  posted: '2025-05-24'
+  related: [polydeoxyribonucleotide-pdrn, adenosine, anti-aging]
+  thesis: Board certified dermatologist Sarah Sheu examines vegan PDRN serums, the plant sourced alternative to PDRN made from salmon sperm DNA, and concludes the evidence is not there for either source. She points out that most published PDRN evidence comes from in office injections of DNA fragments from chum salmon and rainbow trout, not from applying it to skin, and that most of those studies were on wound healing rather than ageing, adding that ageing is not a wound. On the vegan versions she notes the few plant PDRN studies she found were in vitro, done on skin cells or skin models rather than living human skin, and says there is still no strong peer reviewed evidence that topical PDRN from any source has anti ageing effects.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 PDRN, or polydeoxyribonucleotide, is a mixture of short DNA fragments, usually purified from salmon or trout sperm, injected in clinic as a "skin booster" and increasingly sold in leave-on Korean-beauty serums marketed as "salmon DNA."

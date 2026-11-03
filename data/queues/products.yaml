@@ -5073,3 +5073,19 @@
     cosmetic use, so if ELE says the same thing, say so plainly and keep the page
     short rather than padding it. Resolve the ELE abbreviation from the filing, do
     not guess at it.'
+- name: IOPE PDRN Caffeine Shot
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: pdrn
+  source: Dr. Sarah Sheu - Hype or Breakthrough? VEGAN PDRN in Skincare (video, iCIV10lpj14)
+    Named in the transcript of the video carded on [[pdrn]] as the reviewer's favourite
+    PDRN product she has tried, with the explicit caveat that she is 'not sure that
+    it's accomplishing any of the magical claims that the skincare companies are making'
+    and that it 'just gives me a nice glow'. That caveat belongs on the page. [[pdrn]]
+    is graded tier weak and the page should inherit that rather than re-arguing it.
+    Note the carding creator advises Korean skincare brands entering the US market
+    (disclosed consulting, recorded in data/video-sources.yaml); the video itself
+    was cross-brand and unsponsored, but do not treat her naming of this product as
+    independent endorsement. Resolve the exact product name and INCI before drafting;
+    the captions render the brand as IOPE and IOP.
