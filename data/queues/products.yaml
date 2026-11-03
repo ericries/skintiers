@@ -5151,3 +5151,27 @@
     this entry instead of writing a second page. Pull the FULL INGREDIENTS block from
     skin1004.com rather than incidecoder, whose list for the sibling cleansing oil
     omitted three ingredients including two declared fragrance allergens.'
+- name: KraveBeauty Great Barrier Relief
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: krave-beauty
+  source: kravebeauty.com/products.json read 2026-11-03
+- name: KraveBeauty Beet The Sun SPF 40 PA+++
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: krave-beauty
+  source: kravebeauty.com/products.json read 2026-11-03
+- name: KraveBeauty Kale-Lalu-yAHA
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: krave-beauty
+  source: kravebeauty.com/products.json read 2026-11-03
+- name: KraveBeauty Oat So Simple Water Cream
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: krave-beauty
+  source: kravebeauty.com/products.json read 2026-11-03

@@ -88,7 +88,7 @@
   status: done
   discovered_from: null
   source: null
-- name: "Av\xE8ne"
+- name: Avène
   type: brand
   priority: 6
   status: done
@@ -219,75 +219,71 @@
   priority: 5
   status: done
   discovered_from: product-gap
-  source: Founded 2016 by Shontay Lundy; has Black Girl Sunscreen SPF 30 on the site,
-    no brand page yet
+  source: Founded 2016 by Shontay Lundy; has Black Girl Sunscreen SPF 30 on the site, no brand page yet
 - name: Torriden
   type: brand
   priority: 5
   status: done
   discovered_from: null
   source: 'Korean skincare brand with a product already on the site (torriden-dive-in-low-molecular-hyaluronic-acid-serum)
-    but no brand page - a brand-page gap to fill. Its job: link to that HA serum.
-    Sourceable via torriden.com / Korean retailers.'
+    but no brand page - a brand-page gap to fill. Its job: link to that HA serum. Sourceable via torriden.com
+    / Korean retailers.'
 - name: Tower 28
   type: brand
   priority: 4
   status: done
-  discovered_from: 'BRAND cron: has tower-28-sos-daily-rescue-facial-spray on site
-    but no brand page'
+  discovered_from: 'BRAND cron: has tower-28-sos-daily-rescue-facial-spray on site but no brand page'
   source: https://tower28beauty.com/
 - name: Murad
   type: brand
   priority: 3
   status: done
-  discovered_from: 'BRAND cron: has murad-rapid-dark-spot-correcting-serum on site
-    but no brand page'
+  discovered_from: 'BRAND cron: has murad-rapid-dark-spot-correcting-serum on site but no brand page'
   source: https://www.murad.com/
 - name: Mederma
   type: brand
   priority: 5
   status: done
   discovered_from: mederma-stretch-marks-therapy
-  source: Brand behind Mederma Stretch Marks Therapy + onion-extract scar gels (Advanced
-    Scar Gel, Scar Cream PM, Quick Dry Oil); links its products already on site
+  source: Brand behind Mederma Stretch Marks Therapy + onion-extract scar gels (Advanced Scar Gel, Scar
+    Cream PM, Quick Dry Oil); links its products already on site
 - name: Tatcha
   type: brand
   priority: 5
   status: done
   discovered_from: tatcha-the-water-cream
-  source: 2 Tatcha products now on site (The Water Cream + Indigo Overnight Repair
-    queued); warrants a lean brand hub
-- name: Hero Cosmetics (US acne-patch-first brand; maker of Mighty Patch; discovery
-    aid to link its hydrocolloid patch products)
+  source: 2 Tatcha products now on site (The Water Cream + Indigo Overnight Repair queued); warrants a
+    lean brand hub
+- name: Hero Cosmetics (US acne-patch-first brand; maker of Mighty Patch; discovery aid to link its hydrocolloid
+    patch products)
   type: brand
   priority: 5
   status: done
   discovered_from: hydrocolloid
   source: https://www.herocosmetics.us/
-- name: Clinique (dermatologist-founded Estee Lauder-owned brand; fragrance-free/allergy-tested
-    positioning; discovery aid to link its products, e.g. Take The Day Off Cleansing
-    Balm, already on site)
+- name: Clinique (dermatologist-founded Estee Lauder-owned brand; fragrance-free/allergy-tested positioning;
+    discovery aid to link its products, e.g. Take The Day Off Cleansing Balm, already on site)
   type: brand
   priority: 5
   status: done
   discovered_from: clinique-take-the-day-off-cleansing-balm
   source: https://www.clinique.com/
-- name: Heimish (Korean skincare brand; known for the All Clean Balm cleansing balm;
-    discovery aid to link its products already on site)
+- name: Heimish (Korean skincare brand; known for the All Clean Balm cleansing balm; discovery aid to
+    link its products already on site)
   type: brand
   priority: 5
   status: done
   discovered_from: heimish-all-clean-balm
   source: https://heimish.us/
-- name: Farmacy (US 'farm-to-face' clean-beauty brand; Sephora mainstay known for
-    the Green Clean cleansing balm; discovery aid to link its products on site)
+- name: Farmacy (US 'farm-to-face' clean-beauty brand; Sephora mainstay known for the Green Clean cleansing
+    balm; discovery aid to link its products on site)
   type: brand
   priority: 5
   status: done
   discovered_from: farmacy-green-clean-makeup-removing-cleansing-balm
   source: https://www.farmacybeauty.com/
-- name: Tend Skin (single-focus post-shave brand; maker of The Skin Care Solution
-    for razor bumps/ingrown hairs; discovery aid to link its product on site)
+- name: Tend Skin (single-focus post-shave brand; maker of The Skin Care Solution for razor bumps/ingrown
+    hairs; discovery aid to link its product on site)
   type: brand
   priority: 5
   status: done
@@ -298,29 +294,27 @@
   priority: 5
   status: done
   discovered_from: starface-hydro-star
-  source: Starface Hydro-Star product page (brand of the star-shaped hydrocolloid
-    patch; links its products)
+  source: Starface Hydro-Star product page (brand of the star-shaped hydrocolloid patch; links its products)
 - name: Fur
   type: brand
   priority: 5
   status: done
   discovered_from: fur-ingrown-concentrate
-  source: Fur Ingrown Concentrate product; body/pubic-care brand, discovery aid to
-    link its products
+  source: Fur Ingrown Concentrate product; body/pubic-care brand, discovery aid to link its products
 - name: REMEDY Science
   type: brand
   priority: 5
   status: done
   discovered_from: remedy-15-azelaic-acid-complex-serum
-  source: Dermatologist-founded brand (Dr. Muneeb Shah, a vetted creator here); first
-    REMEDY product on the site, no brand page yet
+  source: Dermatologist-founded brand (Dr. Muneeb Shah, a vetted creator here); first REMEDY product on
+    the site, no brand page yet
 - name: Lancome
   type: brand
   priority: 5
   status: done
   discovered_from: aleksandra-brown
-  source: Dr. Aleksandra Brown comparison video (ejnuKJAjoIY); lancome-advanced-genifique-serum
-    has a page but the brand hub does not
+  source: Dr. Aleksandra Brown comparison video (ejnuKJAjoIY); lancome-advanced-genifique-serum has a
+    page but the brand hub does not
 - name: Estee Lauder
   type: brand
   priority: 5
@@ -333,237 +327,213 @@
   priority: 5
   status: done
   discovered_from: revive-light-therapy-wrinkle-and-acne-led-device
-  source: 'Applicant of record on FDA 510(k) K223482, K210965 and K210968: Led Technologies,
-    Inc., 12821 Starkey Rd., Suite 4900, Largo, FL 33773. The site now has a product
-    page with no brand page behind it. IMPORTANT AND UNUSUAL: the brand domain revivelighttherapy.com
-    did NOT serve the brand when fetched 2026-10-13, returning an unrelated parked
-    page in Polish, so establish the brand''s current status from the FDA registration
-    records and any live retail listing before writing, and do not assume the brand
-    is still trading.'
+  source: 'Applicant of record on FDA 510(k) K223482, K210965 and K210968: Led Technologies, Inc., 12821
+    Starkey Rd., Suite 4900, Largo, FL 33773. The site now has a product page with no brand page behind
+    it. IMPORTANT AND UNUSUAL: the brand domain revivelighttherapy.com did NOT serve the brand when fetched
+    2026-10-13, returning an unrelated parked page in Polish, so establish the brand''s current status
+    from the FDA registration records and any live retail listing before writing, and do not assume the
+    brand is still trading.'
 - name: FOREO
   type: brand
   priority: 5
   status: done
   discovered_from: foreo-espada-blue-light-pen
-  source: 'Applicant of record on 10 FDA 510(k) clearances per openFDA (ESPADA K162450,
-    BEAR K200803, BEAR 2 Body K232242, PEACH 2 K231977, Luna 4 plus K241102, and five
-    FAQ LED devices K222012/K240378/K240616/K242747/K253683). The site now has a FOREO
-    product page with no brand page behind it. The lean card should carry the one
-    structural fact a shopper needs: 8 of those 10 are 510(k) STATEMENTS rather than
-    Summaries, so for most FOREO devices the public FDA record contains the indication
-    and nothing about predicate, wavelength or testing. Live storefront at foreo.com
-    answers a plain curl; cache before quoting.'
+  source: 'Applicant of record on 10 FDA 510(k) clearances per openFDA (ESPADA K162450, BEAR K200803,
+    BEAR 2 Body K232242, PEACH 2 K231977, Luna 4 plus K241102, and five FAQ LED devices K222012/K240378/K240616/K242747/K253683).
+    The site now has a FOREO product page with no brand page behind it. The lean card should carry the
+    one structural fact a shopper needs: 8 of those 10 are 510(k) STATEMENTS rather than Summaries, so
+    for most FOREO devices the public FDA record contains the indication and nothing about predicate,
+    wavelength or testing. Live storefront at foreo.com answers a plain curl; cache before quoting.'
 - name: NuFACE (Carol Cole Company)
   type: brand
   priority: 5
   status: done
   discovered_from: nuface-trinity-microcurrent-device
-  source: 'Applicant of record on at least 7 FDA 510(k) clearances per openFDA (K072260,
-    K133823, K161654, K171588, K181008, K201680, K201906), covering NuFACE, NuFACE
-    Mini, Trinity, Trinity ELE Plus and the NuBODY body device. The site now has a
-    NuFACE product page with no brand page behind it. The one structural fact worth
-    carrying in the lean card: EVERY one of those clearances publishes a 510(k) Summary
-    rather than a Statement, which is the opposite of FOREO and means the testing
-    basis is actually readable. Live storefront at mynuface.com answers a plain curl;
-    cache before quoting.'
+  source: 'Applicant of record on at least 7 FDA 510(k) clearances per openFDA (K072260, K133823, K161654,
+    K171588, K181008, K201680, K201906), covering NuFACE, NuFACE Mini, Trinity, Trinity ELE Plus and the
+    NuBODY body device. The site now has a NuFACE product page with no brand page behind it. The one structural
+    fact worth carrying in the lean card: EVERY one of those clearances publishes a 510(k) Summary rather
+    than a Statement, which is the opposite of FOREO and means the testing basis is actually readable.
+    Live storefront at mynuface.com answers a plain curl; cache before quoting.'
 - name: Proya Cosmetics
   type: brand
   priority: 5
   status: done
   discovered_from: wang-2025-encorelane-sensitive-skin
-  source: 'Chinese cosmetics company whose Research & Innovation Center authored the
-    Encorelane paper (PMID 40952030) in full, and which owns that proprietary blend.
-    Relevant as a DISCOVERY aid because the site now cites a study authored entirely
-    by its staff, and a reader should be able to see who that is. Keep it lean per
-    the brand standard and attribute every claim as the brand''s own. IMPORTANT: the
-    brand card must not repeat the Encorelane efficacy claims; link to wang-2025-encorelane-sensitive-skin,
-    which already records that the paper reports no effect sizes and declares no conflicts
-    despite all-employee authorship. Verify the corporate entity and any products
-    on the site before writing; do not draft from the study affiliation line alone.'
+  source: 'Chinese cosmetics company whose Research & Innovation Center authored the Encorelane paper
+    (PMID 40952030) in full, and which owns that proprietary blend. Relevant as a DISCOVERY aid because
+    the site now cites a study authored entirely by its staff, and a reader should be able to see who
+    that is. Keep it lean per the brand standard and attribute every claim as the brand''s own. IMPORTANT:
+    the brand card must not repeat the Encorelane efficacy claims; link to wang-2025-encorelane-sensitive-skin,
+    which already records that the paper reports no effect sizes and declares no conflicts despite all-employee
+    authorship. Verify the corporate entity and any products on the site before writing; do not draft
+    from the study affiliation line alone.'
 - name: dpl (LED Technologies brand)
   type: brand
   priority: 5
   status: done
   discovered_from: null
-  source: 'Grounded in dpl-spotlite, shipped 2026-10-20, which carries brand: dpl
-    and has no brand page to link to. LED Technologies, Inc. of Greenwood Village,
-    Colorado sells under both the dpl and reVive Light Therapy names; reVive has a
-    brand page here and dpl has none, so the dpl products on this site are orphaned.
-    LEAN discovery aid only, per the brand scope rule. Caution: the brand''s own domain
-    returned a Cloudflare 403 on 2026-10-20, so brand copy may not be fetchable; the
-    15 openFDA clearance records are a free substitute for the product inventory.'
+  source: 'Grounded in dpl-spotlite, shipped 2026-10-20, which carries brand: dpl and has no brand page
+    to link to. LED Technologies, Inc. of Greenwood Village, Colorado sells under both the dpl and reVive
+    Light Therapy names; reVive has a brand page here and dpl has none, so the dpl products on this site
+    are orphaned. LEAN discovery aid only, per the brand scope rule. Caution: the brand''s own domain
+    returned a Cloudflare 403 on 2026-10-20, so brand copy may not be fetchable; the 15 openFDA clearance
+    records are a free substitute for the product inventory.'
 - name: Carol Cole Company (NuFACE manufacturer)
   type: brand
   priority: 5
   status: done
   discovered_from: nuface-mini-microcurrent-device
-  source: The nuface brand page exists but is the consumer-facing name; Carol Cole
-    Company dba NuFACE is the applicant on all 14 of its FDA records (openFDA applicant
-    query, 2026-10-18 per an earlier queue note; k_number queries re-verified 2026-10-22).
-    Worth checking whether the existing nuface brand page already carries the corporate
-    name and the clearance inventory; if it does, resolve this item rather than creating
-    a second brand page, since five near-duplicate page pairs already exist on this
+  source: The nuface brand page exists but is the consumer-facing name; Carol Cole Company dba NuFACE
+    is the applicant on all 14 of its FDA records (openFDA applicant query, 2026-10-18 per an earlier
+    queue note; k_number queries re-verified 2026-10-22). Worth checking whether the existing nuface brand
+    page already carries the corporate name and the clearance inventory; if it does, resolve this item
+    rather than creating a second brand page, since five near-duplicate page pairs already exist on this
     site. LEAN discovery aid only if built.
 - name: Verrica Pharmaceuticals
   type: brand
   priority: 5
   status: done
   discovered_from: ycanth-cantharidin-topical-solution
-  source: 'applicant of record for YCANTH (NDA212905); the new product page sets brand:
-    Verrica Pharmaceuticals with no brand page to link to'
+  source: 'applicant of record for YCANTH (NDA212905); the new product page sets brand: Verrica Pharmaceuticals
+    with no brand page to link to'
 - name: LNHC / Pelthos Therapeutics
   type: brand
   priority: 5
   status: done
   discovered_from: zelsuvmi-berdazimer-topical-gel
-  source: 'labeler and applicant of record for ZELSUVMI; the new product page sets
-    brand: LNHC with no brand page to link to'
+  source: 'labeler and applicant of record for ZELSUVMI; the new product page sets brand: LNHC with no
+    brand page to link to'
 - name: LED Technologies (dpl)
   type: brand
   priority: 5
   status: done
   discovered_from: led-dose-j-per-cm2-and-wavelength
-  source: 'the applicant of record whose K172662 filing is the only clearance in the
-    site''s LED coverage that publishes irradiance; the dpl brand page exists but
-    LED Technologies as applicant is not linked from the dose page NOT created as
-    a separate page: the entity is already covered by two brand pages that BOTH carry
-    ''LED Technologies'' as an alias, so a third would duplicate and split the aliases.
-    Serviced instead by fixing what those two pages were getting wrong. The one-company
-    fact (all 15 clearances under a single applicant) is now stated on both. The Colorado-vs-Florida
-    contradiction between them was a real conflict and is resolved from the primary
-    record: the applicant address moves across filings (Boulder CO, Coralville IA,
-    Greenwood Village CO, Largo FL), so both pages were right about the filings they
-    cited and wrong to state it undated. Also closed the product-linking gap: the
-    reVive page linked 1 of its 8 products, now 8; dpl linked 2 of 3, now 3.'
+  source: 'the applicant of record whose K172662 filing is the only clearance in the site''s LED coverage
+    that publishes irradiance; the dpl brand page exists but LED Technologies as applicant is not linked
+    from the dose page NOT created as a separate page: the entity is already covered by two brand pages
+    that BOTH carry ''LED Technologies'' as an alias, so a third would duplicate and split the aliases.
+    Serviced instead by fixing what those two pages were getting wrong. The one-company fact (all 15 clearances
+    under a single applicant) is now stated on both. The Colorado-vs-Florida contradiction between them
+    was a real conflict and is resolved from the primary record: the applicant address moves across filings
+    (Boulder CO, Coralville IA, Greenwood Village CO, Largo FL), so both pages were right about the filings
+    they cited and wrong to state it undated. Also closed the product-linking gap: the reVive page linked
+    1 of its 8 products, now 8; dpl linked 2 of 3, now 3.'
 - name: Silk'n
   type: brand
   priority: 5
   status: done
   discovered_from: silkn-titan-allways
-  source: 'the new product page sets brand: Silk''n with no brand page to link to;
-    the firm holds at least two PAY-code clearances (K230013, K162784) Shipped as
-    silkn, 166 words. Key discovery fact recorded: the brand''s FDA record is split
-    across TWO applicant strings and a search for ''Silkn'' alone returns nothing.
-    15 filings under ''Home Skinovations , Ltd.'' (Yokneam, Israel) and 1 under ''Silk''N
-    Beauty , Ltd.'' (K230013, the Titan AllWays). 15 of 16 are 510(k) Summaries; the
-    16th is DEN190039, a De Novo for the ToothWave toothbrush. Only one Silk''n product
-    has a page, so the roll-up links one. Storefront products.json 404s, so no brand
-    copy or price was read and none is quoted.'
+  source: 'the new product page sets brand: Silk''n with no brand page to link to; the firm holds at least
+    two PAY-code clearances (K230013, K162784) Shipped as silkn, 166 words. Key discovery fact recorded:
+    the brand''s FDA record is split across TWO applicant strings and a search for ''Silkn'' alone returns
+    nothing. 15 filings under ''Home Skinovations , Ltd.'' (Yokneam, Israel) and 1 under ''Silk''N Beauty
+    , Ltd.'' (K230013, the Titan AllWays). 15 of 16 are 510(k) Summaries; the 16th is DEN190039, a De
+    Novo for the ToothWave toothbrush. Only one Silk''n product has a page, so the roll-up links one.
+    Storefront products.json 404s, so no brand copy or price was read and none is quoted.'
 - name: Orion Corporation / Orion Pharma
   type: brand
   priority: 5
   status: done
   discovered_from: lnhc-pelthos-therapeutics
-  source: 'named on the ZELSUVMI tube artwork filed with FDA as the contract manufacturer
-    (Salo, Finland); a manufacturer behind a product the site covers, with no page
-    NOT BUILT, resolved as out of scope on 2026-10-27, with the checks recorded so
-    nobody repeats them. (1) The grounding claim could not be verified: the current
-    ZELSUVMI SPL (setid 76b17622-bdb9-41ea-b962-c2acc0df71f7) was fetched and text-extracted
-    in full, and the strings Orion, Salo and Finland each appear ZERO times. The only
-    attribution in the label text is ''Manufactured for: LNHC, Inc. Durham, NC 27703''.
-    If a prior tick read Orion off the tube ARTWORK image rather than the label text,
-    that is not verifiable from the SPL text and was not asserted. (2) Orion is not
-    a skincare brand: openFDA drug/ndc returns exactly 3 records for labeler_name
-    Orion, and all three are marketing category DRUG FOR FURTHER PROCESSING, bulk
-    intermediates for entacapone, toremifene citrate and darolutamide. No dermatology
-    product, no consumer product. (3) A brand page''s job per docs/cron-playbook.md
-    is to link products already on the site; this one would link to a single product
-    on which Orion is not the brand. Re-open ONLY if a label or regulatory filing
-    names Orion in text as the manufacturer of a product the site covers.'
+  source: 'named on the ZELSUVMI tube artwork filed with FDA as the contract manufacturer (Salo, Finland);
+    a manufacturer behind a product the site covers, with no page NOT BUILT, resolved as out of scope
+    on 2026-10-27, with the checks recorded so nobody repeats them. (1) The grounding claim could not
+    be verified: the current ZELSUVMI SPL (setid 76b17622-bdb9-41ea-b962-c2acc0df71f7) was fetched and
+    text-extracted in full, and the strings Orion, Salo and Finland each appear ZERO times. The only attribution
+    in the label text is ''Manufactured for: LNHC, Inc. Durham, NC 27703''. If a prior tick read Orion
+    off the tube ARTWORK image rather than the label text, that is not verifiable from the SPL text and
+    was not asserted. (2) Orion is not a skincare brand: openFDA drug/ndc returns exactly 3 records for
+    labeler_name Orion, and all three are marketing category DRUG FOR FURTHER PROCESSING, bulk intermediates
+    for entacapone, toremifene citrate and darolutamide. No dermatology product, no consumer product.
+    (3) A brand page''s job per docs/cron-playbook.md is to link products already on the site; this one
+    would link to a single product on which Orion is not the brand. Re-open ONLY if a label or regulatory
+    filing names Orion in text as the manufacturer of a product the site covers.'
 - name: CurrentBody
   type: brand
   priority: 5
   status: done
   discovered_from: currentbody-skin-rf
-  source: 'the new product page sets brand: CurrentBody with no brand page; the store
-    also sells LED face, neck, eye and hand masks and an RF microneedling device,
-    several of which are category gaps here'
+  source: 'the new product page sets brand: CurrentBody with no brand page; the store also sells LED face,
+    neck, eye and hand masks and an RF microneedling device, several of which are category gaps here'
 - name: Pollogen
   type: brand
   priority: 5
   status: done
   discovered_from: pollogen-stop-u-tripollar
-  source: 'the new product page sets brand: Pollogen with no brand page; the firm
-    holds 18 FDA clearances, all published as Summaries, across home-use and professional
-    lines'
+  source: 'the new product page sets brand: Pollogen with no brand page; the firm holds 18 FDA clearances,
+    all published as Summaries, across home-use and professional lines'
 - name: Karo Healthcare
   type: brand
   priority: 5
   status: done
   discovered_from: lamisil-at-cream-terbinafine-1
-  source: 'the new product page sets brand: Lamisil but the labeler of record is Karo
-    Healthcare Inc.; the firm now holds the Lamisil AT approvals and no brand page
-    exists'
+  source: 'the new product page sets brand: Lamisil but the labeler of record is Karo Healthcare Inc.;
+    the firm now holds the Lamisil AT approvals and no brand page exists'
 - name: Incyte
   type: brand
   priority: 5
   status: done
   discovered_from: zirwas-2026-ruxolitinib-cream-chronic-hand-eczema
-  source: manufacturer of ruxolitinib cream (Opzelura), which the site covers as a
-    product; four authors of the pivotal hand-eczema trial are Incyte-affiliated and
-    no brand page exists
-- name: 'Pulsaderm - LED device maker with 3 FDA clearances, all filed as 510(k) Summaries
-    (K163329 wrinkle mask, K170111 acne mask, K182501 hair laser headband). The site
-    already covers pulsaderm-acne-mask-28 but has no brand page to link it. Source:
-    openFDA device/510k applicant Pulsaderm'
+  source: manufacturer of ruxolitinib cream (Opzelura), which the site covers as a product; four authors
+    of the pivotal hand-eczema trial are Incyte-affiliated and no brand page exists
+- name: 'Pulsaderm - LED device maker with 3 FDA clearances, all filed as 510(k) Summaries (K163329 wrinkle
+    mask, K170111 acne mask, K182501 hair laser headband). The site already covers pulsaderm-acne-mask-28
+    but has no brand page to link it. Source: openFDA device/510k applicant Pulsaderm'
   type: brand
   priority: 5
   status: done
   discovered_from: null
   source: null
-- name: 'Sciton, Inc. (Palo Alto, CA) - professional aesthetic laser maker holding
-    23 FDA 510(k) clearances, ALL filed as Summaries, under platform names (Image,
-    Profile, Joule, mJOULE, Contour Profile Laser) while marketing handpieces under
-    separate names that do not appear in the clearance index. The site now covers
-    sciton-zoomscan; a brand page would link it and anchor the platform-vs-handpiece
-    distinction. Source: openFDA device/510k applicant Sciton + sciton.com'
+- name: 'Sciton, Inc. (Palo Alto, CA) - professional aesthetic laser maker holding 23 FDA 510(k) clearances,
+    ALL filed as Summaries, under platform names (Image, Profile, Joule, mJOULE, Contour Profile Laser)
+    while marketing handpieces under separate names that do not appear in the clearance index. The site
+    now covers sciton-zoomscan; a brand page would link it and anchor the platform-vs-handpiece distinction.
+    Source: openFDA device/510k applicant Sciton + sciton.com'
   type: brand
   priority: 5
   status: done
   discovered_from: null
   source: null
-- name: 'Krave Beauty - founded by Liah Yoo (verify from the brand''s own about page
-    before stating it). Sells a 31-product catalogue direct, and the site now covers
-    krave-beauty-matcha-hemp-hydrating-cleanser with no brand page to link it. Its
-    products.json endpoint is readable, so price and claims need no metered lookup.
-    Source: kravebeauty.com/products.json'
+- name: 'Krave Beauty - founded by Liah Yoo (verify from the brand''s own about page before stating it).
+    Sells a 31-product catalogue direct, and the site now covers krave-beauty-matcha-hemp-hydrating-cleanser
+    with no brand page to link it. Its products.json endpoint is readable, so price and claims need no
+    metered lookup. Source: kravebeauty.com/products.json'
   type: brand
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: null
-- name: 'Tria Beauty - home laser maker with 5 FDA clearances, ALL published as 510(k)
-    Summaries (acne K090312, hair removal K120737, FAN K130459, FANp K141868, Sapphire
-    K160821), which is a clean disclosure record on the axis used by home-led-devices-by-what-the-file-publishes.
-    The site now covers tria-fanp-age-defying-laser with no brand page to link it,
-    and its products.json endpoint is readable so price needs no metered lookup. Note
-    the retail names (FRX, Age-Defying) do not match any clearance name. Source: openFDA
+  note: Shipped 2026-11-03 as data/brands/krave-beauty.md. Founder claim verified from the brand About
+    Us page as requested and attributed as the brand's own account, not as fact. Four further Krave products
+    cross-fed to the product queue.
+- name: 'Tria Beauty - home laser maker with 5 FDA clearances, ALL published as 510(k) Summaries (acne
+    K090312, hair removal K120737, FAN K130459, FANp K141868, Sapphire K160821), which is a clean disclosure
+    record on the axis used by home-led-devices-by-what-the-file-publishes. The site now covers tria-fanp-age-defying-laser
+    with no brand page to link it, and its products.json endpoint is readable so price needs no metered
+    lookup. Note the retail names (FRX, Age-Defying) do not match any clearance name. Source: openFDA
     applicant Tria Beauty + triabeauty.com/products.json'
   type: brand
   priority: 5
   status: pending
   discovered_from: null
   source: null
-- name: 'Therabody (formerly Theragun) - holds 5 FDA clearances across TWO applicant
-    names, all published as 510(k) Summaries: TheraFace Microcurrent, RecoveryAir
-    PRO and TheraFace LED under ''Theragun, Inc.'', then TheraFace Mask and JetBoots
-    PRO Plus under ''Therabody''. Same split-applicant discovery problem documented
-    on silkn. The site now covers theraface-led-light-ring with no brand page, and
-    products.json is readable so price needs no metered lookup. Source: openFDA applicant
-    queries + therabody.com/products.json'
+- name: 'Therabody (formerly Theragun) - holds 5 FDA clearances across TWO applicant names, all published
+    as 510(k) Summaries: TheraFace Microcurrent, RecoveryAir PRO and TheraFace LED under ''Theragun, Inc.'',
+    then TheraFace Mask and JetBoots PRO Plus under ''Therabody''. Same split-applicant discovery problem
+    documented on silkn. The site now covers theraface-led-light-ring with no brand page, and products.json
+    is readable so price needs no metered lookup. Source: openFDA applicant queries + therabody.com/products.json'
   type: brand
   priority: 5
   status: pending
   discovered_from: null
   source: null
-- name: 'CoTZ (Fallien Cosmeceuticals, Ltd.) - mineral-only sunscreen brand whose
-    entire 13-product range carries zinc oxide alone or zinc plus titanium dioxide,
-    with NO organic UV filter in any of the 14 openFDA records, verified 2026-10-27.
-    That consistency is genuinely unusual and is the brand page''s whole reason to
-    exist, given a 2026 analysis found nearly half of sunscreens labelled mineral
-    also contain organic filters. Site now covers cotz-sensitive-spf-40. Note cotz.com
-    returns HTTP 441 on its catalogue endpoint so expect no price. Source: openFDA
-    drug/ndc brand_name COTZ'
+- name: 'CoTZ (Fallien Cosmeceuticals, Ltd.) - mineral-only sunscreen brand whose entire 13-product range
+    carries zinc oxide alone or zinc plus titanium dioxide, with NO organic UV filter in any of the 14
+    openFDA records, verified 2026-10-27. That consistency is genuinely unusual and is the brand page''s
+    whole reason to exist, given a 2026 analysis found nearly half of sunscreens labelled mineral also
+    contain organic filters. Site now covers cotz-sensitive-spf-40. Note cotz.com returns HTTP 441 on
+    its catalogue endpoint so expect no price. Source: openFDA drug/ndc brand_name COTZ'
   type: brand
   priority: 5
   status: pending
@@ -574,147 +544,133 @@
   priority: 4
   status: pending
   discovered_from: brooke-jeffy
-  source: Tween and teen skincare line founded by dermatologist Brooke Jeffy, disclosed
-    as her own-brand conflict on her person page. The brand's Story page states 'Dermatologist
-    Dr. Brooke Jeffy noticed tweens and teens weren't properly caring for their skin';
-    both the home and Story pages are already cached (research-cache/web/bb9ba7d716a55fc4.md
-    and f7a7c6ef9703b7d3.md), so the brand page needs no new fetch for the founding
-    line. Catalogue visible on the home page includes a BTWN Skincare Set at 69.00
-    and a Tween and Teen Skincare Starter Kit at 52.00. The page's real job is to
-    link to the tween-and-teen-skincare goal hub, which already exists, and to attribute
-    every pledge claim (allergen avoidant, Credo dirty list compliant, no silicones
-    or synthetic fragrance) as the brand's own rather than as evidence. Lean, under
-    180 words, no founding-history essay.
+  source: Tween and teen skincare line founded by dermatologist Brooke Jeffy, disclosed as her own-brand
+    conflict on her person page. The brand's Story page states 'Dermatologist Dr. Brooke Jeffy noticed
+    tweens and teens weren't properly caring for their skin'; both the home and Story pages are already
+    cached (research-cache/web/bb9ba7d716a55fc4.md and f7a7c6ef9703b7d3.md), so the brand page needs no
+    new fetch for the founding line. Catalogue visible on the home page includes a BTWN Skincare Set at
+    69.00 and a Tween and Teen Skincare Starter Kit at 52.00. The page's real job is to link to the tween-and-teen-skincare
+    goal hub, which already exists, and to attribute every pledge claim (allergen avoidant, Credo dirty
+    list compliant, no silicones or synthetic fragrance) as the brand's own rather than as evidence. Lean,
+    under 180 words, no founding-history essay.
 - name: El Global Trade (CurrentBody, sensiLift)
   type: brand
   priority: 4
   status: pending
   discovered_from: home-rf-devices-by-whose-evidence-the-file-rests-on
-  source: 'The FDA applicant behind three of the eleven PAY-coded home RF clearances:
-    CurrentBody Skin RF (K232424), sensiLift (K170499) and Sensilift Pro (K250341).
-    This is the same one-applicant-several-brand-names pattern already documented
-    for LED Technologies (dpl and reVive) and Silk''n, and it is the reason a shopper
-    cannot read two shelf-neighbours as independent competitors. LEAN brand page under
-    180 words whose job is to link currentbody-skin-rf and whatever sensiLift pages
-    get built, and to record that the applicant name on the file is not the name on
-    the box. openFDA route only; do not spend a metered call. SUPERSEDED in large
-    part by the currentbody brand page shipped 2026-10-28, which already records the
-    applicant split: El Global Trade, Ltd. of Netanya, Israel holds 12 clearances,
-    all Summaries, including the CurrentBody Skin RF (K232424), sensiLift (K170499)
-    and Sensilift Pro (K250341), and only one of the twelve carries the CurrentBody
-    name. A separate El Global Trade page would now duplicate that unless it does
-    something the brand page cannot: cover the sensiLight and IPL hair-removal line
-    (OHT code, seven filings) and the sensiFirm / RF-Relief pair (PBX), which the
-    CurrentBody page deliberately leaves alone. Decide that before building; if the
-    answer is no, resolve this item as a duplicate.'
+  source: 'The FDA applicant behind three of the eleven PAY-coded home RF clearances: CurrentBody Skin
+    RF (K232424), sensiLift (K170499) and Sensilift Pro (K250341). This is the same one-applicant-several-brand-names
+    pattern already documented for LED Technologies (dpl and reVive) and Silk''n, and it is the reason
+    a shopper cannot read two shelf-neighbours as independent competitors. LEAN brand page under 180 words
+    whose job is to link currentbody-skin-rf and whatever sensiLift pages get built, and to record that
+    the applicant name on the file is not the name on the box. openFDA route only; do not spend a metered
+    call. SUPERSEDED in large part by the currentbody brand page shipped 2026-10-28, which already records
+    the applicant split: El Global Trade, Ltd. of Netanya, Israel holds 12 clearances, all Summaries,
+    including the CurrentBody Skin RF (K232424), sensiLift (K170499) and Sensilift Pro (K250341), and
+    only one of the twelve carries the CurrentBody name. A separate El Global Trade page would now duplicate
+    that unless it does something the brand page cannot: cover the sensiLight and IPL hair-removal line
+    (OHT code, seven filings) and the sensiFirm / RF-Relief pair (PBX), which the CurrentBody page deliberately
+    leaves alone. Decide that before building; if the answer is no, resolve this item as a duplicate.'
 - name: Omnilux
   type: brand
   priority: 4
   status: pending
   discovered_from: omnilux-clear-u
-  source: 'LEAN discovery aid for a brand with a genuinely unusual disclosure record:
-    all 8 Omnilux clearances in openFDA are published as SUMMARIES rather than Statements,
-    the opposite of FOREO''s 8-of-10 Statements. It also spans three corporate entities,
-    Photo Therapeutics Limited (UK, first five filings), Photo Therapeutics Inc (Carlsbad
-    CA, next two) and Globalmed Technologies (Napa CA, K210948 in 2021), so the name
-    on the box today is not the company that filed the older devices. Under 180 words,
-    no founding-history essay; its job is to link omnilux-clear-u and whatever Omnilux
-    CLEAR page gets built, and to record the entity change. openFDA only.'
+  source: 'LEAN discovery aid for a brand with a genuinely unusual disclosure record: all 8 Omnilux clearances
+    in openFDA are published as SUMMARIES rather than Statements, the opposite of FOREO''s 8-of-10 Statements.
+    It also spans three corporate entities, Photo Therapeutics Limited (UK, first five filings), Photo
+    Therapeutics Inc (Carlsbad CA, next two) and Globalmed Technologies (Napa CA, K210948 in 2021), so
+    the name on the box today is not the company that filed the older devices. Under 180 words, no founding-history
+    essay; its job is to link omnilux-clear-u and whatever Omnilux CLEAR page gets built, and to record
+    the entity change. openFDA only.'
 - name: Pixi Beauty
   type: brand
   priority: 5
   status: pending
   discovered_from: pixi-glow-tonic
-  source: Vendor of the newly shipped pixi-glow-tonic; no brand page exists and the
-    storefront catalogue (products.json, 355 products across two pages) is a cheap
-    primary-ish route for its product list
+  source: Vendor of the newly shipped pixi-glow-tonic; no brand page exists and the storefront catalogue
+    (products.json, 355 products across two pages) is a cheap primary-ish route for its product list
 - name: Surface Deep
   type: brand
   priority: 5
   status: pending
   discovered_from: surface-deep-anti-odorant-wipes
-  source: Vendor of the newly shipped surface-deep-anti-odorant-wipes; 15 products
-    in its own products.json catalogue (wipes, sprays, a pH balancing skin wash and
-    body lotion, and bundles), all sharing a glycolic-plus-lactobacillus premise.
-    No brand page exists
+  source: Vendor of the newly shipped surface-deep-anti-odorant-wipes; 15 products in its own products.json
+    catalogue (wipes, sprays, a pH balancing skin wash and body lotion, and bundles), all sharing a glycolic-plus-lactobacillus
+    premise. No brand page exists
 - name: Sunday Riley
   type: brand
   priority: 5
   status: pending
   discovered_from: sunday-riley-good-genes
-  source: Vendor of the newly shipped sunday-riley-good-genes; 57 products in its
-    own products.json catalogue. No brand page exists, and the two-acids-one-name
-    situation documented on the product page belongs on it
+  source: Vendor of the newly shipped sunday-riley-good-genes; 57 products in its own products.json catalogue.
+    No brand page exists, and the two-acids-one-name situation documented on the product page belongs
+    on it
 - name: E45 (emollient range)
   type: brand
   priority: 5
   status: pending
   discovered_from: karo-healthcare
-  source: Listed under Skin Health on Karo Healthcare's own Our Brands section, cached
-    2026-10-30. A long-established UK emollient line with no page here; the site already
-    grades competing emollients on best-eczema-moisturizers-by-evidence, so its products
-    are the more useful target than the brand page
+  source: Listed under Skin Health on Karo Healthcare's own Our Brands section, cached 2026-10-30. A long-established
+    UK emollient line with no page here; the site already grades competing emollients on best-eczema-moisturizers-by-evidence,
+    so its products are the more useful target than the brand page
 - name: ACO (Swedish skincare range)
   type: brand
   priority: 5
   status: pending
   discovered_from: karo-healthcare
-  source: Listed under Skin Health on Karo Healthcare's own brand list, cached 2026-10-30.
-    Swedish pharmacy skincare line with no page here; confirm whether it is sold outside
-    the Nordics before treating it as in scope for this site's readership
+  source: Listed under Skin Health on Karo Healthcare's own brand list, cached 2026-10-30. Swedish pharmacy
+    skincare line with no page here; confirm whether it is sold outside the Nordics before treating it
+    as in scope for this site's readership
 - name: DermClick (acne-mark product line)
   type: brand
   priority: 5
   status: pending
   discovered_from: post-inflammatory-erythema
-  source: Named repeatedly in the DESCRIPTION of Dr Lindsey Zubritsky's PIE/PIH/scar
-    Short (3IcirLRUE_Y, 2026-10-16), which routes viewers to 'DermClick's Red Mark
-    Solution', 'DermClick's Dark Spot Solution' and tells them to search 'DermClick
-    marks'. The video was rejected for that funnel, but the brand itself is uncovered
-    and its claims for post-acne marks are checkable
+  source: Named repeatedly in the DESCRIPTION of Dr Lindsey Zubritsky's PIE/PIH/scar Short (3IcirLRUE_Y,
+    2026-10-16), which routes viewers to 'DermClick's Red Mark Solution', 'DermClick's Dark Spot Solution'
+    and tells them to search 'DermClick marks'. The video was rejected for that funnel, but the brand
+    itself is uncovered and its claims for post-acne marks are checkable
 - name: Dr. Kurt Wolff (Alpecin)
   type: brand
   priority: 5
   status: pending
   discovered_from: celleno-2025-dmg-na-caffeine-shampoo-hair-loss-rct
-  source: Named in the conflict statement of PMID 40820949 as employing two of the
-    authors, alongside Dr. August Wolff GmbH & Co. KG Arzneimittel. The site grades
-    caffeine as an ingredient and now carries a manufacturer-involved caffeine-shampoo
-    RCT with no brand page to anchor either
+  source: Named in the conflict statement of PMID 40820949 as employing two of the authors, alongside
+    Dr. August Wolff GmbH & Co. KG Arzneimittel. The site grades caffeine as an ingredient and now carries
+    a manufacturer-involved caffeine-shampoo RCT with no brand page to anchor either
 - name: Ascletis Pharmaceuticals
   type: brand
   priority: 5
   status: pending
   discovered_from: denifanstat
-  source: Lead sponsor of NCT05104125, the Phase 2 acne trial of ASC40/denifanstat,
-    per the ClinicalTrials.gov registry read 2026-10-31. The site now carries both
-    the study page and the ingredient page with no developer page; note it is a drug
-    developer rather than a skincare brand, so keep the page to what the registry
-    and any FDA filings establish
+  source: Lead sponsor of NCT05104125, the Phase 2 acne trial of ASC40/denifanstat, per the ClinicalTrials.gov
+    registry read 2026-10-31. The site now carries both the study page and the ingredient page with no
+    developer page; note it is a drug developer rather than a skincare brand, so keep the page to what
+    the registry and any FDA filings establish
 - name: Pulsaderm
   type: brand
   priority: 5
   status: pending
   discovered_from: pulsaderm-wrinkle-mask-28
-  source: 'Two product pages here now (pulsaderm-acne-mask-28 and pulsaderm-wrinkle-mask-28)
-    and no brand page. openFDA shows Pulsaderm LLC of Fort Myers FL holds exactly
-    three clearances: K163329 (OHS, wrinkle masks), K170111 (OLP, acne masks) and
-    K182501 (OAP, Hair Laser Headband). The third is uncovered and is a different
-    modality again'
+  source: 'Two product pages here now (pulsaderm-acne-mask-28 and pulsaderm-wrinkle-mask-28) and no brand
+    page. openFDA shows Pulsaderm LLC of Fort Myers FL holds exactly three clearances: K163329 (OHS, wrinkle
+    masks), K170111 (OLP, acne masks) and K182501 (OAP, Hair Laser Headband). The third is uncovered and
+    is a different modality again'
 - name: L'Oreal Paris
   type: brand
   priority: 5
   status: pending
   discovered_from: loreal-paris-revitalift-triple-power-moisturizer-fragrance-free
-  source: Two Revitalift products now have pages here (Triple Power fragrance-free,
-    0.3 Pure Retinol serum) with no brand hub linking them
+  source: Two Revitalift products now have pages here (Triple Power fragrance-free, 0.3 Pure Retinol serum)
+    with no brand hub linking them
 - name: eos
   type: brand
   priority: 5
   status: pending
   discovered_from: eos-super-balm
-  source: Brand hub missing; its Shopify feed lists 215 products including 20 Super
-    Balm SKUs, and this is now the first eos product page on the site
+  source: Brand hub missing; its Shopify feed lists 215 products including 20 Super Balm SKUs, and this
+    is now the first eos product page on the site
 - name: Sanova Dermatology
   type: brand
   priority: 5
@@ -727,28 +683,25 @@
   priority: 5
   status: pending
   discovered_from: dr-dennis-gross-alpha-beta-universal-daily-peel
-  source: First product page for this brand on the site; its own store lists the Alpha
-    Beta peel in 5, 30 and 60 pack sizes and a wider peel collection
+  source: First product page for this brand on the site; its own store lists the Alpha Beta peel in 5,
+    30 and 60 pack sizes and a wider peel collection
 - name: Kerasal
   type: brand
   priority: 5
   status: pending
   discovered_from: kerasal-intensive-foot-repair
-  source: First Kerasal product page on the site; its feed lists 17 products across
-    foot repair and fungal nail, and openFDA lists the labeller as Advantice Health
-    LLC with 14 records under other brands (Domeboro, Dermoplast, TriplePaste)
+  source: First Kerasal product page on the site; its feed lists 17 products across foot repair and fungal
+    nail, and openFDA lists the labeller as Advantice Health LLC with 14 records under other brands (Domeboro,
+    Dermoplast, TriplePaste)
 - name: Biodance
   type: brand
   priority: 4
   status: pending
   discovered_from: biodance-collagen-cleansing-oil
-  source: "Two products already covered here; biodance.co.kr product records name\
-    \ the manufacturer as Nowcos and the responsible distributor as Beauty Selection\
-    \ Lean discovery card only, <=180 words, per the playbook. Two products already\
-    \ on the site: [[biodance-bio-collagen-real-deep-mask]] and [[biodance-collagen-cleansing-oil]].\
-    \ The one non-obvious fact worth recording is the corporate structure visible\
-    \ on the Korean product records: \uD654\uC7A5\uD488\uC81C\uC870\uC5C5\uC790 (manufacturer)\
-    \ is Nowcos and \uD654\uC7A5\uD488\uCC45\uC784\uD310\uB9E4\uC5C5\uC790 (responsible\
-    \ distributor) is Beauty Selection, so Biodance is a brand rather than a factory.\
-    \ Note also that biodance.com is a separate multi-language EU storefront whose\
-    \ catalogue does not match the Korean one."
+  source: 'Two products already covered here; biodance.co.kr product records name the manufacturer as
+    Nowcos and the responsible distributor as Beauty Selection Lean discovery card only, <=180 words,
+    per the playbook. Two products already on the site: [[biodance-bio-collagen-real-deep-mask]] and [[biodance-collagen-cleansing-oil]].
+    The one non-obvious fact worth recording is the corporate structure visible on the Korean product
+    records: 화장품제조업자 (manufacturer) is Nowcos and 화장품책임판매업자 (responsible distributor) is Beauty Selection,
+    so Biodance is a brand rather than a factory. Note also that biodance.com is a separate multi-language
+    EU storefront whose catalogue does not match the Korean one.'
