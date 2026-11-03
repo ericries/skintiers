@@ -1883,3 +1883,28 @@
     complex emulsion, already queued as an ingredient and as two other studies (Sulzberger
     2016, Jovanovic 2017), so write this one so those four pages agree. Cited on [[sensitive-skin-tests-by-what-validation-shows]].
     Only the abstract was accessed.'
+- name: 'Gopaul 2010: 0.5% salicin serum and visible skin ageing (PMID 20883292)'
+  type: study
+  priority: 4
+  status: pending
+  discovered_from: willow-bark-extract
+  source: 'https://pubmed.ncbi.nlm.nih.gov/20883292/ J Cosmet Dermatol 2010;9(3):196-201,
+    doi 10.1111/j.1473-2165.2010.00512.x. The main human study behind topical salicin,
+    cited on [[willow-bark-extract]]. LEAD WITH THE DESIGN LIMIT: single centre, 30
+    women aged 35-70, one product, every outcome reported ''against baseline'', and
+    the abstract names no control or vehicle arm. Also record the paper''s own stated
+    premise, ''Based on unpublished in-house comprehensive consumer clinical studies'',
+    and that the anti-inflammatory research it invokes for salicin is ORAL. Do not
+    restate willow bark''s general story; link out.'
+- name: 'Jeon 2023: 2% Salix alba bark extract cream for dark circles (PMID 37235713)'
+  type: study
+  priority: 4
+  status: pending
+  discovered_from: willow-bark-extract
+  source: https://pubmed.ncbi.nlm.nih.gov/37235713/ Int J Cosmet Sci 2023;45(5):636-646,
+    doi 10.1111/ics.12873. Mostly in vitro (hyaluronic acid synthesis in human dermal
+    fibroblasts by ELISA and real-time PCR, endothelial permeability in HMEC-1); the
+    human portion is 29 subjects applying a 2% cream for 8 weeks with no comparator
+    named in the abstract. Cited on [[willow-bark-extract]]. The abstract carries
+    a full French translation, so a naive quote check can match the French text instead
+    of the English; quote from the English AbstractText blocks only.

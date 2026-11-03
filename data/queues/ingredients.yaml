@@ -1771,10 +1771,14 @@
 - name: Willow Bark Extract (Salix Alba)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: farmacy-honey-glow-17-resurfacing-acid-serum
-  source: Farmacy Honey Glow INCI; a natural salicin source marketed as a gentle 'natural
-    BHA', worth a skeptical evidence page vs salicylic acid
+  source: 'Farmacy Honey Glow INCI; a natural salicin source marketed as a gentle
+    ''natural BHA'', worth a skeptical evidence page vs salicylic acid Shipped 2026-11-03
+    as data/ingredients/willow-bark-extract.md at tier weak. The skeptical angle the
+    entry anticipated holds, and is sharper than expected: no study found tests the
+    exfoliating function it is sold for. Linked from the two product pages that discuss
+    it most directly.'
 - name: Witch Hazel (Hamamelis virginiana extract)
   type: ingredient
   priority: 5
@@ -3493,3 +3497,17 @@
     base. Grade it on what the trials actually show and note that both of them cross
     every patient to active drug partway through, so their long-term numbers are uncontrolled.
     Drugs@FDA gives NDA205437 and NDA210745, sponsor Amgen.'
+- name: 1,2-Decanediol
+  type: ingredient
+  priority: 4
+  status: pending
+  discovered_from: willow-bark-extract
+  source: 'Bassino 2018, Skin Pharmacol Physiol 31:10-18 (PMID 29131127), tested alongside
+    white willow bark on LPS-stressed keratinocytes A multifunctional glycol used
+    as a preservative booster and marketed for acne. Grounded in Bassino 2018 (PMID
+    29131127), the in vitro keratinocyte study cited on [[willow-bark-extract]], where
+    it was tested both separately and in combination with white willow bark. EXPECT
+    A THIN PAGE and say so: that study is HaCaT cells, not people. Check whether any
+    product already covered here declares it before drafting, with sk inci, and if
+    the human evidence is absent then absent is the finding, the way [[willow-bark-extract]]
+    handles it.'

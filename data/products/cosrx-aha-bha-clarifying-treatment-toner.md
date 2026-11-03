@@ -61,7 +61,7 @@ No trial isolates this product. Glycolic acid's clinical evidence, covering phot
 The full ingredient list (INCI), in order, as declared by the brand.[^1]
 
 - water
-- salix alba (willow) bark water (a botanical extract; the COSRX product page does not disclose a percentage, but Target's listing alone claims "10% white willow bark," a single-source marketing figure[^2])
+- salix alba (willow) bark water ([[willow-bark-extract]], graded weak; the COSRX product page does not disclose a percentage, but Target's listing alone claims "10% white willow bark," a single-source marketing figure[^2])
 - pyrus malus (apple) fruit water (a botanical extract; the COSRX product page does not disclose a percentage, but Target's listing alone claims "10% of Apple Water," a single-source marketing figure[^2])
 - butylene glycol (solvent/humectant)
 - 1,2-hexanediol (preservative booster)
