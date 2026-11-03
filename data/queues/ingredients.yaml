@@ -3477,3 +3477,19 @@
     evidence base: this is a formulation excipient, not an active, so the page should
     be short and should grade function rather than skin benefit. Check [[best-cleansing-balms-oil-cleansers]]
     for which other covered products declare it before drafting.'
+- name: Apremilast (oral PDE4 inhibitor)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: paller-2025-apremilast-paediatric-psoriasis-sprout-pmid-40737559
+  source: 'Two study pages already cite it; openFDA Drugs@FDA NDA205437 and NDA210745,
+    sponsor Amgen A real gap: the site has TWO apremilast study pages ([[paller-2025-apremilast-paediatric-psoriasis-sprout-pmid-40737559]],
+    [[merola-2026-apremilast-genital-psoriasis-discreet-pmid-41369155]]) and no ingredient
+    page for the drug they test. SCOPE CARE: apremilast is ORAL and systemic, not
+    a topical skincare ingredient, so say that in the first line the way the study
+    pages do, and do not let it be read across to the topical PDE4 inhibitors the
+    site already covers at [[roflumilast]] and [[crisaborole]]. That contrast is the
+    page''s real value: same enzyme target, completely different route and evidence
+    base. Grade it on what the trials actually show and note that both of them cross
+    every patient to active drug partway through, so their long-term numbers are uncontrolled.
+    Drugs@FDA gives NDA205437 and NDA210745, sponsor Amgen.'

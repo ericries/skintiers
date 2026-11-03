@@ -81,7 +81,7 @@ The two claims this hub rests on are both drawn from recent secondary literature
 
 ## See Also
 
-[[coal-tar]], [[salicylic-acid]], [[calcipotriene]], [[tapinarof]], [[roflumilast]], [[topical-corticosteroids]], [[seborrheic-dermatitis]], [[atopic-dermatitis]], [[pimecrolimus]].
+[[coal-tar]], [[salicylic-acid]], [[calcipotriene]], [[tapinarof]], [[roflumilast]], [[topical-corticosteroids]], [[seborrheic-dermatitis]], [[atopic-dermatitis]], [[pimecrolimus]]. For the oral PDE4 inhibitor apremilast, which is systemic rather than topical, the two trials recorded here are [[paller-2025-apremilast-paediatric-psoriasis-sprout-pmid-40737559]] in children and adolescents and [[merola-2026-apremilast-genital-psoriasis-discreet-pmid-41369155]] in adults.
 
 ## Sources
 

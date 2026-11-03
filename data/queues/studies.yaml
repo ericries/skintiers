@@ -886,9 +886,9 @@
     moderate-to-severe plaque ps (PMID 40737559)
   type: study
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
-  source: https://pubmed.ncbi.nlm.nih.gov/40737559/
+  source: https://pubmed.ncbi.nlm.nih.gov/40737559/ Shipped 2026-11-03 as data/studies/paller-2025-apremilast-paediatric-psoriasis-sprout-pmid-40737559.md.
 - name: Jiang 2025 Clinical Observation of a Novel Moisturizing Cream for Reducing
     Neurovascular Hyper-Reacti (PMID 40736038)
   type: study

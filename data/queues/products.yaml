@@ -5116,3 +5116,17 @@
     block from skin1004.com rather than trusting incidecoder, whose list for the cleansing
     oil omitted three ingredients including two declared fragrance allergens and reordered
     centella.'
+- name: Otezla (apremilast) tablets
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: paller-2025-apremilast-paediatric-psoriasis-sprout-pmid-40737559
+  source: 'openFDA Drugs@FDA: NDA205437 (10/20/30 mg tablets) and NDA210745 (adds
+    OTEZLA XR 75 mg), sponsor Amgen Inc, all Prescription The brand behind both apremilast
+    study pages. Drugs@FDA: NDA205437 covers OTEZLA 10, 20 and 30 mg tablets; NDA210745
+    covers the same strengths plus OTEZLA XR 75 mg extended-release; sponsor Amgen
+    Inc; all listed Prescription. Pull the approved indications from the DailyMed
+    SPL and CHECK THE APPROVAL CODE the way the Rx pages here do, since the site has
+    been caught before by marketing-category assumptions. An oral tablet is an unusual
+    product page for this site, so keep it tight, state the route plainly, and link
+    the evidence out to the two study pages rather than restating their numbers.'
