@@ -59,7 +59,7 @@ Cleared 2017-07-31 as K171588, a Traditional 510(k) filed as a Summary under pro
 
 **Body skin stimulation, the thing actually cleared**
 - **Effect size: minimal.** The cleared words name an action. What the file demonstrates is that this device's electrical output resembles an already-cleared device's: "Nonclinical testing was performed to demonstrate that the NuBODY product met design specifications and is substantially equivalent to the NuFACE Plus predicate device", and "The testing consisted of the evaluation of Output Waveform Characteristics and Output Energy Characteristics."[^k171588]
-- **Evidence quality: preliminary.** No body outcome appears anywhere in the filing. The predicate is "510(k) Number: K103472", the firm's own "NuFACE® Plus", a facial device, so a body device reached market by resembling a face device.[^k171588]
+- **Evidence quality: preliminary.** No body outcome appears anywhere in the filing. The predicate is "510(k) Number: K103472", the firm's own "NuFACE® Plus" ([[nuface-plus]]), a facial device, so a body device reached market by resembling a face device.[^k171588]
 
 **Firming and smoothing the appearance of body skin, the thing sold**
 - **Effect size: minimal, graded on absence of evidence.** The brand's headline is that "FDA-cleared microcurrent firms, smooths, and tones arms, abs, thighs, and glutes", "reducing the look of dimpled, crepey skin with consistent use".[^brand] Nothing consulted here measured firmness, smoothness or dimpling for this device.

@@ -3849,7 +3849,7 @@
 - name: NuFACE Microcurrent Activator / Aqua Gel Activator
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: nubody-skin-toning-device
   source: 'The conductive gel the brand instructs users to apply before every microcurrent
     treatment, named on the NuBODY page cached 2026-10-22 (research-cache/web/cff8573fba3fd484.md)
@@ -3858,11 +3858,20 @@
     or medium during treatment''. It therefore sits in the required path for THREE
     device pages here and has none of its own. Resolve its INCI via inci_lookup and
     be precise about what it is for: conductivity is its job, so do not let any skin-benefit
-    claim on its label inherit the devices'' clearances.'
+    claim on its label inherit the devices'' clearances. DUPLICATE, resolved without
+    writing 2026-11-03. The open question recorded on the Gel Primer queue entry (''it
+    may be the same product ... DO NOT ASSERT IDENTITY either way; resolve it first'')
+    is now resolved in the affirmative. data/products/nuface-gel-primer.md already
+    carries ''NuFACE Aqua Gel Activator'' as an alias and cites mynuface.com/products/nuface-hydrating-aqua-gel
+    as its source_url and price source. The brand''s own Shopify feed lists exactly
+    one product on that handle, ''Aqua Gel Activator - Hydrating Microcurrent Gel
+    Activator'', 35.00 USD for 1.69 oz. There is no second SKU under this name. The
+    feed does carry a genuinely distinct activator, the FIX Smooth Microcurrent Serum
+    Activator with Peptides at 49.00 USD for 0.5 oz, which has been queued separately.'
 - name: NuFACE Plus / NuFACE Trinity (K103472)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: nubody-skin-toning-device
   source: 'The single predicate behind BOTH the NuBODY (K171588) and the 2014 Mini
     (K133823), per filings read 2026-10-22 and 2026-10-21, and therefore the root
@@ -3872,7 +3881,26 @@
     mA/cm2 current density, 28 VDC, approx 8.3 Hz, two electrodes. CHECK FIRST whether
     nuface-trinity-microcurrent-device already covers K103472; the 2019 Mini names
     a DIFFERENT Trinity clearance (K181008), so there may be two distinct Trinity
-    filings and conflating them would be an error.'
+    filings and conflating them would be an error. Shipped 2026-11-03 as data/products/nuface-plus.md.
+    Two corrections to this entry''s premise, both resolved from the primary documents:
+    (1) K103472 is the NuFACE PLUS only, NOT the Trinity. The Trinity has its own
+    clearances (K120560, K131251, K181008), and data/products/nuface-trinity-microcurrent-device.md
+    already covers K181008, so there was no Trinity gap here. (2) K103472 is not the
+    root of the predicate chain; its own 510(k) summary names the company''s earlier
+    NuFACE device, K072260 (2007-11-27), as its predicate. The output figures listed
+    in this entry were not taken from the K103472 scan, whose comparison tables are
+    OCR-degraded; they come from the clean K171588 Table 3 already verified on nubody-skin-toning-device.
+    CORRECTION to the note added minutes earlier on 2026-11-03, which said this entry''s
+    Trinity half was wrong. It was not. The K103472 summary itself never uses the
+    word Trinity (0 occurrences in the extracted text), but the company''s 2014 Mini
+    filing K133823 identifies its predicate as ''the NuFACE Trinity device, cleared
+    as the NuFACE Plus under 510(k) K103472''. The retail Trinity and the cleared
+    NuFACE Plus are the same hardware under two names, which is exactly the retail-versus-cleared
+    divergence this entry''s original source line anticipated. data/products/nuface-plus.md
+    now states this with both citations. The separate 2018 clearance K181008, covered
+    on nuface-trinity-microcurrent-device, is a different and later device. The other
+    correction stands: K103472 is NOT the root of the chain, since its own summary
+    names K072260 (2007) as its predicate; that is now queued separately.'
 - name: NuFACE FIX / FIX+ Skin Toning Device (K182424, K240564)
   type: product
   priority: 5
@@ -4998,3 +5026,50 @@
     its Indications for Use names a skin tone: neither K243453 nor K190354 does, per
     [[light-based-hair-removal-deeper-skin-tones]]. Price and specs from us.braun.com;
     cache the brand page.'
+- name: NuFACE original device, Model NU-4003 (K072260)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: nuface-plus
+  source: 'K103472 510(k) summary predicate statement; openFDA 510k applicant:''Carol
+    Cole'' The ACTUAL root of this firm''s predicate chain, cleared 2007-11-27 under
+    product code NFO, and the predicate named in the K103472 summary (''claiming substantial
+    equivalence with its own device, the NuFACE device, cleared under K072260'').
+    [[nuface-plus]] corrects the earlier queue note that called K103472 the root.
+    Long discontinued, so expect no price and no brand page; the value is the regulatory
+    record. Pull the summary from accessdata pdf (trailing ''?'' on the URL) and EXPECT
+    A DEGRADED OCR SCAN, as K103472 is: do not take figures from scanned comparison
+    tables, and declare any trade-name normalisation in the footnote the way [[nuface-plus]]
+    does. Per the K103472 table the original ran on one 9V battery with no timer,
+    no automatic shut off and no microprocessor control, against the Plus''s four
+    AA NiMH cells and 21-minute timer, but those cells are OCR-degraded, so re-read
+    them from the K072260 document itself rather than citing them from there.'
+- name: NuFACE Trinity+ LED Red Light Wrinkle Reducer Attachment
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: nuface-plus
+  source: 'mynuface.com products.json 2026-11-03 ($160.00); openFDA K212947 ''Trinity
+    Plus Wrinkle Reducer'', product code OHS A currently-sold $160 attachment with
+    its OWN clearance under a DIFFERENT product code from the microcurrent devices:
+    OHS, not NFO, per openFDA (K212947 ''Trinity Plus Wrinkle Reducer'' 2022-04-02,
+    and the earlier K120560 ''TRINITY WRINKLE REMOVER'' 2012-11-06). That code split
+    is the page''s reason to exist, since it means the LED head''s cleared scope is
+    not the microcurrent handle''s. CHECK FIRST whether [[nuface-trinity-microcurrent-device]]
+    already covers it; that page is about K181008 and the microcurrent handle, so
+    it probably does not. Compare against the LED pages the site already has rather
+    than re-explaining LED.'
+- name: NuFACE Trinity+ Lifting & Smoothing Lip & Eye Microcurrent Attachment (ELE)
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: nuface-plus
+  source: 'mynuface.com products.json 2026-11-03 ($160.00); openFDA K201906 ''Trinity
+    ELE Plus and Trinity ELE Plus Pro'' and K131251 ''TRINITY ELE'' A currently-sold
+    $160 attachment with its own clearances (K131251 ''TRINITY ELE'' 2013-10-01 and
+    K201906 ''Trinity ELE Plus and Trinity ELE Plus Pro'' 2021-02-24, both NFO). Worth
+    a page only if its cleared indication differs from the handle''s: [[nuface-plus]]
+    and [[nuface-fix-microwand]] both come down to stimulation plus over-the-counter
+    cosmetic use, so if ELE says the same thing, say so plainly and keep the page
+    short rather than padding it. Resolve the ELE abbreviation from the filing, do
+    not guess at it.'
