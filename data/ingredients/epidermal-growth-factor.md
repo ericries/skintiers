@@ -7,6 +7,18 @@ tier: weak
 status: published
 type: ingredient
 updated: '2026-08-08'
+videos:
+- title: Did you know EGF and Retinol share the same skincare benefit?
+  creator: Kristin Leite (kristingl)
+  creator_slug: kristin-leite
+  credential: Beauty product developer and skincare educator (NOT a dermatologist or cosmetic chemist)
+  platform: TikTok
+  url: https://www.tiktok.com/@kristingl/video/7701378891864116494
+  posted: '2026-10-27'
+  related: [retinol, anti-aging, acne]
+  thesis: 'Beauty product developer Kristin Leite compares epidermal growth factor (EGF) serums with retinol and argues the two share a benefit, saying both increase cell turnover and both suit acne prone skin. Her distinction is mechanism: retinol works by making skin shed its outer layers, which she says is why it can bring purging, redness and irritation, while EGF is a signaling protein that tells cells to carry out their normal repair and renewal, which she calls more skin barrier friendly. She steers sensitive skin and daily use toward EGF and steers retinol to people who have purged before and want a nighttime routine, and she cites no study for the comparison.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Epidermal growth factor (EGF) is a 53-amino-acid signaling protein that binds the EGF receptor (EGFR) on skin cells; the U.S. National Institutes of Health describes it as "a potent mitogenic factor that plays an important role in the growth, proliferation and differentiation of numerous cell types."[^gene] That biology has two very different downstream uses: a topical hEGF gel tested for healing chronic wounds, and cosmetic serums (a category that overlaps [[peptides]] products marketed for [[anti-aging]]) that apply a recombinant or plant-derived version of the same protein to intact skin for wrinkles and firmness.
