@@ -601,7 +601,7 @@
 - name: How sensitive skin is measured in trials
   type: list
   priority: 5
-  status: pending
+  status: done
   discovered_from: sensitive-skin
   source: 'Grounded in the ''What the label actually means'' section added to sensitive-skin
     on 2026-10-21. The IFSI Delphi consensus definition (PMID 26939643) specifies
@@ -612,7 +612,11 @@
     of them (string-checked: test 0 hits, lactic 0, capsaicin 0). Find and read primary
     validation papers for each method first, and if the validation turns out to be
     thin, that IS the finding. Would let every future sensitive-skin claim on the
-    site be read against a real definition.'
+    site be read against a real definition. Shipped 2026-11-03 as data/lists/sensitive-skin-tests-by-what-validation-shows.md.
+    The entry''s caution was right to insist on primary papers: the three instruments
+    DO exist in the literature (Sensitive Scale-10, lactic acid sting test, capsaicin
+    provocation) but none validates against a diagnosis, which is the page''s finding.
+    Linked from the sensitive-skin hub.'
 - name: Home LED devices by published irradiance
   type: list
   priority: 5

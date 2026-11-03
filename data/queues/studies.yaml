@@ -1835,3 +1835,51 @@
     trials in darker skin types. Spans pigmentary disorders, tattoo removal, acne
     scarring and hair removal, so it can feed more than the hair-removal lane. Cited
     on [[light-based-hair-removal-deeper-skin-tones]] for mechanism only.
+- name: 'Misery 2014: the Sensitive Scale-10 questionnaire (PMID 24710717)'
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: sensitive-skin-tests-by-what-validation-shows
+  source: 'https://pubmed.ncbi.nlm.nih.gov/24710717/ Acta Derm Venereol 2014;94(6):635-9,
+    doi 10.2340/00015555-1870. The only sensitive-skin instrument PubMed indexes as
+    a Validation Study. n=2966 across 11 countries; 14-item and 10-item versions.
+    State plainly what the validation WAS: high internal consistency plus correlations
+    with dry skin type, age, female gender, fair phototype and DLQI. There is no comparison
+    against an independent diagnosis, because as [[sensitive-skin]] records the consensus
+    definition supplies none, and the scale measures SEVERITY not presence. Note the
+    authorship overlap: first author Misery L also first-authored the IFSI consensus
+    definition cited on that hub. Cited on [[sensitive-skin-tests-by-what-validation-shows]].
+    Only the abstract was accessed.'
+- name: 'Kim 2025: questionnaire plus lactic acid sting test for sensitive skin diagnosis
+    (PMID 40029145)'
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: sensitive-skin-tests-by-what-validation-shows
+  source: 'https://pubmed.ncbi.nlm.nih.gov/40029145/ J Cosmet Dermatol 2025;24:e70099,
+    doi 10.1111/jocd.70099. The largest recent attempt to pin the diagnosis down:
+    975 women screened by questionnaire in Beijing and Shanghai, 307 (154 + 153) then
+    given a patch test, lactic acid sting test and biophysical measures, with NMF
+    and lipid quantification by UPLC-MS/MS. THE RESULT WORTH LEADING WITH is the null:
+    skin irritation scores were NOT significantly different between sensitive and
+    non-sensitive groups, while hydration, pH, ceramides, fatty acids and amino acids
+    did differ. The positive finding is additive only, questionnaire PLUS sting test
+    reducing false negatives; the abstract gives no sensitivity or specificity for
+    the sting test alone, so do not compute one. Cited on [[sensitive-skin-tests-by-what-validation-shows]].
+    Only the abstract was accessed.'
+- name: 'Zhang 2025: forearm tape-strip capsaicin model for sensitive skin, FA-TS-CAT
+    RCT (PMID 39381993)'
+  type: study
+  priority: 4
+  status: pending
+  discovered_from: sensitive-skin-tests-by-what-validation-shows
+  source: 'https://pubmed.ncbi.nlm.nih.gov/39381993/ J Cosmet Dermatol 2025;24:e16619,
+    doi 10.1111/jocd.16619. Randomized, double-blind, placebo-controlled, n=74. Builds
+    a forearm tape-strip plus capsaicin model as an alternative to the facial stinging
+    test. The comparator is the FACIAL CAPSAICIN TEST, not a diagnosis, so the paper
+    establishes agreement between two provocation methods and a practical gain (threefold
+    efficiency; willingness to participate 95.95% vs 4.05%), not diagnostic accuracy.
+    ALSO FEEDS THE INGREDIENT QUEUE: the soothing agent it tests is a 4-t-butylcyclohexanol
+    complex emulsion, already queued as an ingredient and as two other studies (Sulzberger
+    2016, Jovanovic 2017), so write this one so those four pages agree. Cited on [[sensitive-skin-tests-by-what-validation-shows]].
+    Only the abstract was accessed.'

@@ -87,7 +87,7 @@ Three things follow, and they change how every sensitive-skin product claim shou
 
 **It is a diagnosis of exclusion.** Sensations that *are* explained by a skin disease fall outside it, which is why [[rosacea]], [[atopic-dermatitis]] and [[contact-dermatitis]] need ruling out first rather than treating as flavours of sensitivity.
 
-**The consensus definition contains no test.** Nothing in it specifies a measurement, so when a trial calls its participants sensitive-skin subjects, the honest reading is self-report, which actually matches the definition. What does not match is modelling sensitivity by irritating a tissue culture with a detergent, a substitution documented on [[wang-2025-encorelane-sensitive-skin]]. Those are two different constructs and cosmetic trials slide between them freely.
+**The consensus definition contains no test.** Nothing in it specifies a measurement, so when a trial calls its participants sensitive-skin subjects, the honest reading is self-report, which actually matches the definition. What does not match is modelling sensitivity by irritating a tissue culture with a detergent, a substitution documented on [[wang-2025-encorelane-sensitive-skin]]. Those are two different constructs and cosmetic trials slide between them freely. The instruments trials do use instead, and what each one's validation actually established, are set out on [[sensitive-skin-tests-by-what-validation-shows]].
 
 ## What is actually going on
 
