@@ -442,11 +442,21 @@
 - name: Dr. Emma Wedgeworth
   type: person
   priority: 5
-  status: pending
+  status: done
   discovered_from: acne
-  source: 3 video cards here and no person page. UK-based, so NPI will not resolve
+  source: '3 video cards here and no person page. UK-based, so NPI will not resolve
     her; the GMC register is the primary route for a UK consultant dermatologist and
-    the page should cite it rather than a credential read off a channel bio
+    the page should cite it rather than a credential read off a channel bio Shipped
+    2026-11-03 as data/people/emma-wedgeworth.md. The GMC route this entry recommended
+    is correct but BLOCKED to ordinary fetching: gmc-uk.org returns HTTP 403 to curl
+    and to WebFetch, so it took a gated Apify call. Her registrant number is 6054227
+    and the print endpoint https://www.gmc-uk.org/api/gmc/print/registrant?no=6054227
+    returns the whole record in one page; the result is cached at research-cache/web/ba564153d14f3473.md
+    so no future tick needs to spend another call on her. For the NEXT UK doctor:
+    expect the same block, find the registrant number first via search, then gate
+    ONE call to that print endpoint. Note the register does not state a job title,
+    so it supports Specialist Register entry and a licence to practise but NOT the
+    word consultant.'
 - name: Michelle Henry
   type: person
   priority: 5
@@ -455,3 +465,16 @@
   source: Named on the L'Oreal brand page as 'Dr. Michelle Henry, Board-Certified
     Dermatologist' giving a promotional endorsement of this product; verify credentials
     and any brand relationship from primary sources (NPI, board records) before writing
+- name: Dr. Sheila Farhang
+  type: person
+  priority: 4
+  status: pending
+  discovered_from: emma-wedgeworth
+  source: 'data/video-sources.yaml roster (TikTok @dr.sheila_derm, board-certified
+    dermatologist); carded clips already on the site US-based, so the NPI registry
+    route applies rather than the GMC route used for [[emma-wedgeworth]]. KNOWN ROSTER
+    GAP, flagged repeatedly and still unfixed: her data/video-sources.yaml conflict
+    field does not record her own-brand line ''Dose (of) Derm'', which it should,
+    and sk roster-set has no --conflict flag to persist it. Verify the brand independently
+    before putting it on a page about a living person, and treat her product picks
+    as conflicted until the roster says otherwise.'

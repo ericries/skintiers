@@ -5130,3 +5130,16 @@
     been caught before by marketing-category assumptions. An oral tablet is an unusual
     product page for this site, so keep it tight, state the route plainly, and link
     the evidence out to the two study pages rather than restating their numbers.'
+- name: SKIN1004 Centella Ampoule (Signature Soothing Ampoule)
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: emma-wedgeworth
+  source: 'skin1004.com RECOMMENDED WITH block, $19.80 from $22.00, read 2026-11-03
+    CHECK FOR DUPLICATE FIRST: data/products/skin1004-madagascar-centella-asiatica-100-ampoule.md
+    already exists and may be this same SKU under the brand''s newer retail name.
+    Resolve identity from the brand''s own product handle before drafting, the way
+    the NuFACE Aqua Gel entry was resolved, and if it is the same product resolve
+    this entry instead of writing a second page. Pull the FULL INGREDIENTS block from
+    skin1004.com rather than incidecoder, whose list for the sibling cleansing oil
+    omitted three ingredients including two declared fragrance allergens.'
