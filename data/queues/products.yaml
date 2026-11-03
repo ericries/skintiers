@@ -3904,7 +3904,7 @@
 - name: NuFACE FIX / FIX+ Skin Toning Device (K182424, K240564)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: nuface
   source: 'Two clearances in the 14-record Carol Cole inventory on the nuface brand
     page (re-verified 2026-10-22): K182424 NuFACE FIX Skin Toning Device and K240564
@@ -3913,20 +3913,34 @@
     why the Mini page had to flag its price as a bundle. Both are Summaries so the
     testing basis is readable at accessdata. Expect the same pattern found on the
     Mini and NuBODY pages: bench comparison of electrical output against an earlier
-    in-house device, with no clinical data; confirm rather than assume.'
+    in-house device, with no clinical data; confirm rather than assume. DUPLICATE,
+    resolved without writing 2026-11-03. data/products/nuface-fix-microwand.md already
+    covers BOTH clearances named here: it quotes the K182424 Indications for Use form
+    in full and records K240564 (NuFACE FIX+) under a ''FIX is a product family, not
+    one clearance'' finding. It also carries ''NuFACE FIX Skin Toning Device'' and
+    ''NuFACE FIX Device'' as aliases, so sk find resolves this name to it. Second
+    NuFACE duplicate at a queue head today after the Aqua Gel Activator; the NuFACE
+    queue producer appears to have enumerated clearances from openFDA without diffing
+    against existing pages, so expect more of these and CHECK data/products FIRST
+    on any remaining NuFACE entry.'
 - name: SKIN1004 Madagascar Centella Light Cleansing Oil
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: double-cleansing
-  source: Named clearly in the Ella double-cleanse walkthrough carded 2026-10-21 (TikTok
-    7699218037475446030) as one of two oil cleansers she rates highest. Her superlative
-    is NOT relayed on the card and must not be inherited by the page. The site has
-    no oil-cleanser page at all despite double-cleansing now having a card about the
-    format, which is a real catalog gap. CONFIRM the exact SKU name via inci_lookup
-    before drafting; she said 'the skin 1 0 0 4 Light Cleansing Oil' and SKIN1004
-    sells several cleansing oils, so the Madagascar Centella Light Cleansing Oil in
-    this item name is a BEST GUESS and must be verified or corrected.
+  source: 'Named clearly in the Ella double-cleanse walkthrough carded 2026-10-21
+    (TikTok 7699218037475446030) as one of two oil cleansers she rates highest. Her
+    superlative is NOT relayed on the card and must not be inherited by the page.
+    The site has no oil-cleanser page at all despite double-cleansing now having a
+    card about the format, which is a real catalog gap. CONFIRM the exact SKU name
+    via inci_lookup before drafting; she said ''the skin 1 0 0 4 Light Cleansing Oil''
+    and SKIN1004 sells several cleansing oils, so the Madagascar Centella Light Cleansing
+    Oil in this item name is a BEST GUESS and must be verified or corrected. Shipped
+    2026-11-03 as data/products/skin1004-madagascar-centella-light-cleansing-oil.md.
+    Note for future SKIN1004 and K-beauty pages: incidecoder''s list for this product
+    disagrees with the brand''s own, omitting Caprylic/Capric Triglyceride, Limonene
+    and Linalool and moving centella from 6th to 4th. Prefer the brand''s FULL INGREDIENTS
+    block where one exists.'
 - name: BIODANCE Collagen Cleansing Oil
   type: product
   priority: 5
@@ -5089,3 +5103,16 @@
     was cross-brand and unsponsored, but do not treat her naming of this product as
     independent endorsement. Resolve the exact product name and INCI before drafting;
     the captions render the brand as IOPE and IOP.
+- name: SKIN1004 Centella Soothing Cream
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: skin1004-madagascar-centella-light-cleansing-oil
+  source: 'skin1004.com RECOMMENDED WITH block, $7.50, read 2026-11-03 Listed at 7.50
+    USD in the RECOMMENDED WITH block of the brand page cached at research-cache/web/50c053677c5d4c3c.md.
+    Fourth SKIN1004 product on the site once written, so link the siblings and do
+    NOT re-explain centella: [[centella-asiatica]] is tier weak and owns the evidence.
+    IMPORTANT, learned from the cleansing oil: pull the brand''s own FULL INGREDIENTS
+    block from skin1004.com rather than trusting incidecoder, whose list for the cleansing
+    oil omitted three ingredients including two declared fragrance allergens and reordered
+    centella.'

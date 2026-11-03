@@ -3447,3 +3447,33 @@
     brand of the reviewed line could not be resolved from the captions (rendered variously
     Epii / EPI / E P I) or from the video description, so it is deliberately unnamed
     on the card and must be resolved separately before any product page.'
+- name: Linalool
+  type: ingredient
+  priority: 4
+  status: pending
+  discovered_from: skin1004-madagascar-centella-light-cleansing-oil
+  source: 'Declared on the SKIN1004 Centella Light Cleansing Oil FULL INGREDIENTS
+    block (skin1004.com, cached research-cache/web/50c053677c5d4c3c.md) Pairs with
+    the already-queued [[Limonene]] entry: both are among the fragrance allergens
+    EU labelling requires to be declared separately, and both appear at the end of
+    the SKIN1004 cleansing oil''s brand ingredient list. Write them as a matched pair
+    so the site says the same thing about each. The honest frame is disclosure, not
+    harm: their presence on a label is a labelling requirement, so the page should
+    explain what declaration means and what the sensitisation evidence actually shows,
+    and link [[contact-dermatitis]] rather than re-explaining allergy. Note for the
+    drafter: incidecoder''s list for that product omits BOTH, so do not rely on an
+    aggregator to tell you whether a formula declares them.'
+- name: Sorbeth-30 Tetraoleate
+  type: ingredient
+  priority: 4
+  status: pending
+  discovered_from: skin1004-madagascar-centella-light-cleansing-oil
+  source: 'Third ingredient on the SKIN1004 Centella Light Cleansing Oil brand list;
+    the emulsifier that makes an oil cleanser rinse off The functional core of the
+    oil-cleanser category and nothing on the site covers it. It is the emulsifier
+    that lets an oil cleanser turn milky on contact with water and rinse away instead
+    of smearing, which is the whole mechanism behind the first step of [[double-cleansing]].
+    Third on the SKIN1004 cleansing oil list, ahead of every botanical. Expect a thin
+    evidence base: this is a formulation excipient, not an active, so the page should
+    be short and should grade function rather than skin benefit. Check [[best-cleansing-balms-oil-cleansers]]
+    for which other covered products declare it before drafting.'
