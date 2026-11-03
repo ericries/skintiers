@@ -64,6 +64,16 @@ videos:
   related: [double-cleansing, blackheads-clogged-pores, acne, azelaic-acid, retinoids, sunscreen-uv-filters]
   thesis: 'Licensed esthetician Ella argues that most people rush facial cleansing, and that throwing a cleanser on for twenty seconds and rinsing it away is not really washing the face. Her frequency guidance is by skin type: oily skin or clogged pores means cleansing twice a day, dry skin without clogging can skip the morning cleanse, and waking up oily or sweating overnight moves you back to twice daily. She presents the clip''s own run time of under two minutes as the duration to aim for, and notes separately that she works a cleanser in for about five minutes because she enjoys it rather than as a general rule; her framing that unclean skin stops products working is her own and no evidence is offered for it in the clip.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: How to work out your skin type in 30 minutes
+  creator: Fatima Fahs
+  creator_slug: fatima-fahs
+  credential: Dermatologist (MD)
+  platform: TikTok
+  url: https://www.tiktok.com/@dermydoctor/video/7699074851595668749
+  posted: '2026-10-21'
+  related: [dry-skin, minimalist-routine]
+  thesis: 'Dermatologist Fatima Fahs gives a simple test for working out your skin type: wash your face in the morning and see how it feels 30 minutes later. Tight, dry and itchy points to dry skin; normal with a little oiliness in the centre points to combination; oily or blotchy again soon after washing points to oily. She is candid that this is a rough sorting tool rather than a measurement, saying these are not specific scientific types, and frames its use as choosing suitable products or adjusting how often you use them so you do not end up with irritation.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
