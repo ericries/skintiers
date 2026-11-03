@@ -431,7 +431,7 @@
 - name: 'Oral supplements for skin: the scope decision this site keeps deferring'
   type: goal
   priority: 5
-  status: pending
+  status: done
   discovered_from: amin-2025-oral-hyaluronic-acid-meta-analysis
   source: 'A DECISION ITEM, not a page to draft blind. Oral-supplement content has
     now arrived three times and been handled three different ways: the oral HA meta-analysis
@@ -445,7 +445,7 @@
 - name: Light-based hair removal in deeper skin tones (Fitzpatrick IV to VI)
   type: goal
   priority: 5
-  status: pending
+  status: done
   discovered_from: hair-removal-devices-by-evidence
   source: 'The one actionable skin-tone finding on the new list, and the site has
     no page for it: PMID 23332016 states that ''Because of its longer wavelength,
@@ -454,7 +454,9 @@
     the site offers it. Burns and pigment change are the real risks here, so source
     the risk profile from a primary and keep the clinician routing prominent. Note
     the 2013 review is now dated; look for newer guidance on Nd:YAG versus diode in
-    Fitzpatrick IV to VI before grading.'
+    Fitzpatrick IV to VI before grading. Shipped 2026-11-02 as data/goals/light-based-hair-removal-deeper-skin-tones.md;
+    linked from laser-hair-removal, hair-removal-devices-by-evidence and both home
+    IPL product pages.'
 - name: Blue light and eye safety in home skincare devices
   type: goal
   priority: 5

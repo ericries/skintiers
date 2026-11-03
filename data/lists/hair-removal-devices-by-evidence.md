@@ -64,7 +64,7 @@ updated: '2026-10-20'
 
 **What nobody has published, as far as this page could establish.** A head-to-head trial of a named home IPL device against clinic laser. Both sources describe their categories; neither compares them directly, so the ranking above is a judgement about evidence quality rather than a measured difference in hair reduction.
 
-**Medical note.** This is educational content, not a substitute for a clinician. Light-based hair removal carries burn and pigment-change risk that varies with skin tone, and the one skin-tone-specific recommendation found here points to an in-office wavelength rather than a home appliance.
+**Medical note.** This is educational content, not a substitute for a clinician. Light-based hair removal carries burn and pigment-change risk that varies with skin tone, and the one skin-tone-specific recommendation found here points to an in-office wavelength rather than a home appliance. [[light-based-hair-removal-deeper-skin-tones]] sets out what the published evidence and the FDA-cleared indications actually say for Fitzpatrick IV to VI.
 
 ## Sources
 

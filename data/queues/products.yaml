@@ -4984,3 +4984,15 @@
   source: Marketed as the gentle counterpart to HALO and absent from the clearance
     device names (openFDA, 2026-11-02); the site covers home-fractional-nonablative-laser
     but no in-office 1927 nm device
+- name: Braun Aura 7 (6041) home IPL
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: light-based-hair-removal-deeper-skin-tones
+  source: 'openFDA 510(k) endpoint, product_code:OHT CyDen Limited, cleared K261975
+    on 2026-09-30 under product code OHT (21 CFR 878.4810) - the successor generation
+    to the [[braun-silk-expert-pro-5-ipl]] already covered. When drafting, pull the
+    clearance letter from accessdata (trailing ''?'' on the URL) and check whether
+    its Indications for Use names a skin tone: neither K243453 nor K190354 does, per
+    [[light-based-hair-removal-deeper-skin-tones]]. Price and specs from us.braun.com;
+    cache the brand page.'

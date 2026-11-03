@@ -24,7 +24,7 @@ Reported adverse effects were infrequent in the trials: "Pain, skin redness, swe
 
 ## See Also
 
-[[pseudofolliculitis-barbae]], [[mens-skincare-routine]].
+[[light-based-hair-removal-deeper-skin-tones]] for what the evidence does and does not say about Fitzpatrick IV to VI, [[pseudofolliculitis-barbae]], [[mens-skincare-routine]].
 
 ## Sources
 

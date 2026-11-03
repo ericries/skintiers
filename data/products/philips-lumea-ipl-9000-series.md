@@ -54,7 +54,7 @@ Marketing terms attributed to the brand, not established by independent evidence
 
 ## See Also
 
-[[braun-silk-expert-pro-5-ipl]] [[laser-hair-removal]]
+[[braun-silk-expert-pro-5-ipl]] [[laser-hair-removal]] [[light-based-hair-removal-deeper-skin-tones]]
 
 ## Sources
 

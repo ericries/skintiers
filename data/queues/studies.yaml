@@ -1808,3 +1808,30 @@
   source: PMID 31100992, J Dermatolog Treat 2020;31(8), authors Reynolds KA, Pithadia
     DJ, Lee EB, Wu JJ (verified from the PubMed Author elements); 14 studies, >1000
     patients, per-class counts but no pooled effect size
+- name: Mohammed 2025 - 808 nm diode laser hair reduction in Sudanese women, Fitzpatrick
+    IV-VI
+  type: study
+  priority: 4
+  status: pending
+  discovered_from: light-based-hair-removal-deeper-skin-tones
+  source: 'https://pubmed.ncbi.nlm.nih.gov/40958009/ PMID 40958009, Lasers Med Sci
+    2025, doi 10.1007/s10103-025-04634-1. The only prospective study found in Fitzpatrick
+    IV-VI for light-based hair removal: n=10, three sessions of 808 nm diode (20 W,
+    12 mm spot, 8-9 J/cm2, 36 ms, 1 Hz, sapphire cooling), 57.9% mean reduction underarm
+    and 56.7% chin, one superficial blister at 9 J/cm2 resolved by lowering fluence.
+    No control group, no long-term follow-up. Cited on [[light-based-hair-removal-deeper-skin-tones]].
+    A study page must state the n=10 and the missing control arm in the first line
+    so the percentages are never read as a population estimate.'
+- name: Dreifus 2026 - laser and energy-based devices in skin of color (JAAD clinical
+    review)
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: light-based-hair-removal-deeper-skin-tones
+  source: https://pubmed.ncbi.nlm.nih.gov/42660430/ PMID 42660430, J Am Acad Dermatol
+    2026, doi 10.1016/j.jaad.2026.08.077. Narrative clinical review, NOT a systematic
+    review - say so on the page. Carries the competing-chromophore mechanism for Fitzpatrick
+    IV-VI and an explicit evidence-gap statement about the lack of large prospective
+    trials in darker skin types. Spans pigmentary disorders, tattoo removal, acne
+    scarring and hair removal, so it can feed more than the hair-removal lane. Cited
+    on [[light-based-hair-removal-deeper-skin-tones]] for mechanism only.

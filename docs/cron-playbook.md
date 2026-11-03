@@ -24,6 +24,17 @@ PURPOSE & SCOPE (this decides how much to write — obey it):
 - person: DISCOVERY AID ONLY. LEAN, <=150 words: who they are, an honest credential, and the products/videos they point to (linked). NO biography essay. Never state an unverified claim about a living person.
 - study: AGENT-FACING INFRASTRUCTURE for routine analysis, NOT a reader essay. COMPACT + structured: one line on what it tested; design/population/n; intervention vs comparator; the PRIMARY result with the numbers; effect size; who it generalizes to; the one key limitation. Do NOT re-tell the ingredient's general story — link out.
 NEVER re-explain what another page already owns — link out in ONE clause. Redundant prose is the enemy of this site.
+
+**OUT OF SCOPE FOR NOW: oral supplements and other non-topical anti-ageing.** By prior
+user decision, recorded in `docs/ROADMAP.md` under "Phase D - Expansion (later)", the
+non-topical anti-ageing vertical (HRT, procedures, supplements, devices) is full-coverage
+but a LATER phase with "own evidence discipline", and the site is not in that phase. So:
+do NOT open an ingredient, goal or product page for an oral supplement, and do NOT card a
+video whose subject is one. A supplement STUDY may still be recorded as a study page when
+it lands in the PubMed queue, with the oral route stated plainly so it is never read across
+to a topical, as `amin-2025-oral-hyaluronic-acid-meta-analysis` does. Changing this is the
+user's call, not a tick's. (Written down 2026-11-02 because three ticks had each
+re-decided it separately.)
 TOKEN DISCIPLINE: bound research hard (stop at the few sources you actually need). For brand/person (lean, low-risk) do the draft INLINE in the main loop — do NOT spawn a subagent. For product/ingredient/study/list, ONE Sonnet subagent may draft; keep its prompt tight and its fetches few.
 
 ---
