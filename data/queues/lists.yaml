@@ -1059,3 +1059,21 @@
     are granted to platforms, so BBL and diVa appear in the index and HALO, moxi,
     SkinTyte and ZoomScan do not. The site covers several in-office lasers and has
     no list on the distinction'
+- name: Calcineurin inhibitors for skin folds (tacrolimus and pimecrolimus)
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: inverse-psoriasis
+  source: Topical immunomodulators were the largest evidence group in Reynolds 2020
+    (7 of 14 studies) and are the class reached for when fold skin is too thin for
+    potent steroids; pimecrolimus has a page, tacrolimus is queued, and the site has
+    no list on the pairing
+- name: 'The red fold: telling inverse psoriasis, candidal intertrigo and tinea cruris
+    apart'
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: inverse-psoriasis
+  source: All three now have hubs on this site and all three present as a red fold
+    needing a different drug class; grounded in this page's diagnosis section and
+    candidal-intertrigo's

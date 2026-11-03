@@ -1800,3 +1800,11 @@
   source: PMID 24695603, Am Fam Physician 2014;89(7), authors Kalra MG, Higgins KE,
     Kinney BS (verified from the PubMed Author elements); the clinical review this
     hub is built on
+- name: Reynolds 2020 inverse psoriasis treatments systematic review
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: inverse-psoriasis
+  source: PMID 31100992, J Dermatolog Treat 2020;31(8), authors Reynolds KA, Pithadia
+    DJ, Lee EB, Wu JJ (verified from the PubMed Author elements); 14 studies, >1000
+    patients, per-class counts but no pooled effect size

@@ -604,7 +604,7 @@
 - name: Inverse psoriasis
   type: condition
   priority: 5
-  status: pending
+  status: done
   discovered_from: tinea-cruris-jock-itch
   source: named on the new jock itch page as a groin-fold look-alike for tinea cruris;
     the site has a psoriasis hub but nothing on the inverse/flexural form
@@ -872,3 +872,11 @@
   source: The problem this entire product category is bought for; the site has calluses-and-corns
     and dry-skin but no hub for heel fissures, which differ in depth, pain and infection
     risk
+- name: Genital psoriasis
+  type: condition
+  priority: 5
+  status: pending
+  discovered_from: inverse-psoriasis
+  source: Grouped with inverse psoriasis in the Reynolds 2020 review's own search
+    terms and included study population (anogenital regions), but it carries its own
+    quality-of-life and treatment-tolerability issues; no page here
