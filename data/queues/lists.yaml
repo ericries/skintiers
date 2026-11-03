@@ -1077,3 +1077,17 @@
   source: All three now have hubs on this site and all three present as a red fold
     needing a different drug class; grounded in this page's diagnosis section and
     candidal-intertrigo's
+- name: Exfoliating acid products that publish a pH
+  type: list
+  priority: 4
+  status: pending
+  discovered_from: lac-hydrin-ammonium-lactate-lotion-12
+  source: 'data/products/lac-hydrin-ammonium-lactate-lotion-12.md (pH 4.4-5.5 published)
+    vs data/products/dr-dennis-gross-alpha-beta-universal-daily-peel.md (none) A transparency
+    list in the same vein as [[otc-antifungal-creams-by-labelled-scope]] and [[spf-lip-balms-by-label-claims]]:
+    acid strength alone does not determine exfoliation, pH does too, and almost no
+    cosmetic brand publishes it. Grounded starting set from pages that already exist:
+    [[lac-hydrin-ammonium-lactate-lotion-12]] publishes pH 4.4-5.5 on its drug label;
+    [[the-ordinary-glycolic-acid-7-toning-solution]] publishes a strength; [[dr-dennis-gross-alpha-beta-universal-daily-peel]]
+    names five acids and publishes neither a percentage nor a pH. Curate only over
+    pages already on the site; do NOT open new product pages to fill the list.'

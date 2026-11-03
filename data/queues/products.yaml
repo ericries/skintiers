@@ -3834,7 +3834,7 @@
 - name: Lac-Hydrin (ammonium lactate 12% lotion)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: keratolytics-compared
   source: The ammonium lactate product named in BOTH head-to-head trials behind keratolytics-compared
     (Jennings 1998 PMID 9680769 names 'Lac-Hydrin'; Rogers 1989 PMID 2808786 tested
@@ -3843,7 +3843,9 @@
     cover what that one cannot, namely which SKU carries the trial evidence and whether
     the current prescription and OTC versions match the 12% tested. AmLactin already
     has a page, so keep the two distinct and do not let either inherit the other's
-    trials.
+    trials. Shipped 2026-11-02 as data/products/lac-hydrin-ammonium-lactate-lotion-12.md.
+    Both NDAs are Discontinued (not for safety/effectiveness); page covers the brand's
+    own label facts and links the evidence out to [[ammonium-lactate]].
 - name: NuFACE Microcurrent Activator / Aqua Gel Activator
   type: product
   priority: 5

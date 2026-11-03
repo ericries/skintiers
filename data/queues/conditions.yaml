@@ -880,3 +880,16 @@
   source: Grouped with inverse psoriasis in the Reynolds 2020 review's own search
     terms and included study population (anogenital regions), but it carries its own
     quality-of-life and treatment-tolerability issues; no page here
+- name: Ichthyosis vulgaris
+  type: condition
+  priority: 5
+  status: pending
+  discovered_from: lac-hydrin-ammonium-lactate-lotion-12
+  source: 'FDA-approved indication on the Lac-Hydrin label, DailyMed SPL 3d94a218
+    One of the two FDA-approved indications for 12% ammonium lactate, and the site
+    has no hub for it. Grounded in the Lac-Hydrin SPL (set id 3d94a218): ''indicated
+    for the treatment of dry, scaly skin (xerosis) and ichthyosis vulgaris''. Buxman
+    1986 (PMID 3539006, cited on [[ammonium-lactate]]) is the vehicle-controlled trial.
+    Keep the hub tight and host a tier_list over the keratolytics that already have
+    pages (ammonium-lactate, urea, lactic-acid, salicylic-acid) rather than writing
+    an essay; link to [[dry-skin]] rather than re-explaining xerosis.'

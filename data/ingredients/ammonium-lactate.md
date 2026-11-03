@@ -86,7 +86,7 @@ None of the claims below is established beyond what The Evidence above supports.
 
 ## See Also
 
-[[lactic-acid]] [[keratosis-pilaris]] [[amlactin-daily-moisturizing-lotion-12-lactic-acid]]
+[[lactic-acid]] [[keratosis-pilaris]] [[amlactin-daily-moisturizing-lotion-12-lactic-acid]] [[lac-hydrin-ammonium-lactate-lotion-12]]
 
 ## Sources
 

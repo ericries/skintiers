@@ -128,7 +128,7 @@ Label and marketing claims not established by the product-specific evidence abov
 
 ## See Also
 
-[[lactic-acid]], [[keratosis-pilaris]], [[glycerin]], [[dimethicone]], [[cerave-sa-body-lotion-for-rough-and-bumpy-skin]], [[eucerin-roughness-relief-lotion]].
+[[lactic-acid]], [[keratosis-pilaris]], [[glycerin]], [[dimethicone]], [[cerave-sa-body-lotion-for-rough-and-bumpy-skin]], [[eucerin-roughness-relief-lotion]], and [[lac-hydrin-ammonium-lactate-lotion-12]], the discontinued prescription brand at the same strength.
 
 ## Where to Buy
 

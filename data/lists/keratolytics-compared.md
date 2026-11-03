@@ -20,7 +20,9 @@ tier_list:
   items:
   - note: The only one here that is an FDA-approved prescription drug for dry, scaly
       skin, and the one with head-to-head wins. 12% beat 5% lactic acid, and matched
-      a salicylic acid plus urea combination.
+      a salicylic acid plus urea combination. The originator brand,
+      [[lac-hydrin-ammonium-lactate-lotion-12]], is discontinued; AB-rated generics
+      and an over-the-counter cosmetic carry the same 12%.
     slug: ammonium-lactate
     tier: good
   - note: Best evidenced at keratolytic strength for warts rather than for texture,
