@@ -3511,3 +3511,30 @@
     product already covered here declares it before drafting, with sk inci, and if
     the human evidence is absent then absent is the finding, the way [[willow-bark-extract]]
     handles it.'
+- name: Oligopeptide-1 (EGF-related peptide)
+  type: ingredient
+  priority: 4
+  status: pending
+  discovered_from: biodance-collagen-cleansing-oil
+  source: "Biodance Collagen Cleansing Oil brand \uC804\uC131\uBD84 block, \uC62C\uB9AC\
+    \uACE0\uD3A9\uD0C0\uC774\uB4DC-1, cached research-cache/web/98a038a01d597c1e.md\
+    \ Named on the Biodance cleansing oil's brand list. RESOLVE THE IDENTITY FIRST:\
+    \ Oligopeptide-1 is the INCI name usually given for human oligopeptide-1 / sEGF,\
+    \ so this likely overlaps heavily with [[epidermal-growth-factor]], which is already\
+    \ tier weak on a penetration argument. If it IS the same molecule under a cosmetic\
+    \ INCI name, say so and link rather than writing a parallel page, and consider\
+    \ whether the right outcome is an alias on that page instead of a new one. Do\
+    \ not assume the equivalence; verify it from an INCI reference before drafting."
+- name: Polyglyceryl-10 Diisostearate
+  type: ingredient
+  priority: 3
+  status: pending
+  discovered_from: biodance-collagen-cleansing-oil
+  source: 'Third ingredient on the Biodance Collagen Cleansing Oil brand list; the
+    polyglyceryl emulsifier class that makes an oil cleanser rinse Low priority and
+    deliberately so: this is an emulsifier, not an active, and the page should grade
+    FUNCTION not skin benefit. It is the mechanism behind the first step of [[double-cleansing]],
+    alongside the already-queued [[Sorbeth-30 Tetraoleate]] from the SKIN1004 cleansing
+    oil. Consider writing ONE page covering the polyglyceryl cleansing-emulsifier
+    class rather than separate stubs per chain length, and check with sk inci which
+    covered products declare which before deciding.'

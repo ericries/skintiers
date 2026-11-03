@@ -737,3 +737,18 @@
   source: First Kerasal product page on the site; its feed lists 17 products across
     foot repair and fungal nail, and openFDA lists the labeller as Advantice Health
     LLC with 14 records under other brands (Domeboro, Dermoplast, TriplePaste)
+- name: Biodance
+  type: brand
+  priority: 4
+  status: pending
+  discovered_from: biodance-collagen-cleansing-oil
+  source: "Two products already covered here; biodance.co.kr product records name\
+    \ the manufacturer as Nowcos and the responsible distributor as Beauty Selection\
+    \ Lean discovery card only, <=180 words, per the playbook. Two products already\
+    \ on the site: [[biodance-bio-collagen-real-deep-mask]] and [[biodance-collagen-cleansing-oil]].\
+    \ The one non-obvious fact worth recording is the corporate structure visible\
+    \ on the Korean product records: \uD654\uC7A5\uD488\uC81C\uC870\uC5C5\uC790 (manufacturer)\
+    \ is Nowcos and \uD654\uC7A5\uD488\uCC45\uC784\uD310\uB9E4\uC5C5\uC790 (responsible\
+    \ distributor) is Beauty Selection, so Biodance is a brand rather than a factory.\
+    \ Note also that biodance.com is a separate multi-language EU storefront whose\
+    \ catalogue does not match the Korean one."

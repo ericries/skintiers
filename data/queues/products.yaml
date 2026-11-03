@@ -3944,14 +3944,22 @@
 - name: BIODANCE Collagen Cleansing Oil
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: double-cleansing
-  source: The other oil cleanser Ella names in the walkthrough carded 2026-10-21 (TikTok
-    7699218037475446030). BIODANCE already has one page here (biodance-bio-collagen-real-deep-mask),
-    so the brand is established but this product is not. Her 'best on the market'
-    framing is her opinion and is deliberately absent from the card; grade the product
-    on its INCI and any real evidence. Resolve the exact product name via inci_lookup,
-    since 'Collagen Cleansing Oil' is taken from speech.
+  source: "The other oil cleanser Ella names in the walkthrough carded 2026-10-21\
+    \ (TikTok 7699218037475446030). BIODANCE already has one page here (biodance-bio-collagen-real-deep-mask),\
+    \ so the brand is established but this product is not. Her 'best on the market'\
+    \ framing is her opinion and is deliberately absent from the card; grade the product\
+    \ on its INCI and any real evidence. Resolve the exact product name via inci_lookup,\
+    \ since 'Collagen Cleansing Oil' is taken from speech. Shipped 2026-11-03 as data/products/biodance-collagen-cleansing-oil.md.\
+    \ TWO REUSABLE LESSONS. (1) biodance.com is a multi-language EU storefront that\
+    \ returned 250 products and does NOT carry this one; the product lives on biodance.co.kr,\
+    \ a Cafe24 shop whose /product/search.html?keyword= endpoint works with plain\
+    \ curl. Korean brand pages carry a \uC804\uC131\uBD84 block that is more complete\
+    \ than incidecoder and sometimes carries a concentration the aggregator drops,\
+    \ as here (100ppb). (2) A non-USD price cannot be carried in the structured price:\
+    \ block, because sklib's _PAGE_PRICE_RE only matches dollar strings; put it in\
+    \ prose and record why."
 - name: Lotrimin Ultra (butenafine 1% cream)
   type: product
   priority: 5
