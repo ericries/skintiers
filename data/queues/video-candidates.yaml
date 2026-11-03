@@ -4406,19 +4406,6 @@
   feed_rank: 0
   status: skipped
   skip_reason: 'vague #skincare short + affiliate storefront (picks effectively paid)'
-- id: '7685760015180893454'
-  title: I’m not saying these are all terrible products….but it is bad marketi...
-  creator: Ella (@your.estie.ella)
-  creator_slug: your-estie-ella
-  credential: Licensed esthetician (NOT a dermatologist or cosmetic chemist)
-  channel: https://www.tiktok.com/@your.estie.ella
-  platform: TikTok
-  tier: MED
-  product_recs: ok
-  conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan and reject any sponsored/affiliate/gifted video
-  posted: '2026-09-15'
-  feed_rank: 0
-  status: pending
 - id: '7685587363455667470'
   title: 'Acne is a cycle that needs to be constantly disrupted ⛓️‍💥 #hormonala...'
   creator: Ella (@your.estie.ella)
@@ -15368,4 +15355,238 @@
   conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan and reject any sponsored/affiliate/gifted video
   posted: '2026-11-01'
   feed_rank: 1
+  status: pending
+- id: X1992rxGFOQ
+  title: How I Use Cicaplast Balm B5+ With Tretinoin | Dermatologist’s Routine
+  creator: Dr. Aleksandra Brown, DO, FAAD
+  creator_slug: aleksandra-brown
+  credential: Board-certified dermatologist (DO, FAOCD, FAAD), practicing at River Ridge Dermatology / HCA Virginia (LewisGale), Blacksburg VA
+  channel: https://www.youtube.com/channel/UC52c6a0gfbhuVCdHYZQAzuQ/videos
+  platform: YouTube
+  tier: HIGH
+  product_recs: ok
+  conflict: null
+  posted: ''
+  feed_rank: 0
+  status: pending
+- id: Ybf0ukVaeI8
+  title: 'BPC-157, TB-500 & Peptides for Anti-Aging: Are They Safe?'
+  creator: Andrea Suarez (Dr Dray)
+  creator_slug: andrea-suarez-dr-dray
+  credential: Board-certified dermatologist
+  channel: https://www.youtube.com/@DrDrayzday/videos
+  platform: YouTube
+  tier: HIGH
+  product_recs: null
+  conflict: null
+  posted: ''
+  feed_rank: 0
+  status: pending
+- id: i-VFfAbjBUE
+  title: 'Is cosmetic dermatology a scam? #dermreacts  #skincare  #dermatologist #dermangelo  #reactionvideo  '
+  creator: Dr. Angelo Landriscina (DermAngelo)
+  creator_slug: angelo-landriscina
+  credential: Board-certified dermatologist
+  channel: https://www.youtube.com/@DermAngelo/videos
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Own-brand UPF sun-protective clothing line, SOUL-A (wearsoula.com / @wearsoula), founded and promoted by him — apparel, not topical skincare
+  posted: ''
+  feed_rank: 0
+  status: pending
+- id: cVAxWmHLmO4
+  title: I Tried A Korean Clinic-Inspired Skin Booster At-Home!
+  creator: Gothamista
+  creator_slug: gothamista
+  credential: Skincare content creator (NOT a dermatologist or cosmetic chemist)
+  channel: https://www.youtube.com/@gothamista/videos
+  platform: YouTube
+  tier: MED
+  product_recs: null
+  conflict: does sponsorships - educational content only, never treat picks as endorsements, never use sponsored videos
+  posted: ''
+  feed_rank: 0
+  status: pending
+- id: vrH0x8vFI1A
+  title: Female Hair Loss?
+  creator: Dr. Vanita Rattan (Doctor V)
+  creator_slug: vanita-rattan
+  credential: Describes herself on camera as a medically qualified doctor who is also a cosmetic formulator for skin of colour, and as a published author with HarperCollins; she does not claim to be a dermatologist. Self-stated and not independently verified against a medical register by this site.
+  channel: https://www.youtube.com/channel/UC4u0qaMIAgOL8L37RwLcDQA
+  platform: YouTube
+  tier: MED
+  product_recs: null
+  conflict: 'Owns and sells a skincare line (Instagram handle @skincarebydrv in her own video descriptions) and routes to it repeatedly inside educational content: in one 9-point acne video she directs viewers to ''our trio blemish range'', ''our AM and PM moisturizers'', her Citrio Blemish Exfoliator and a mineral SPF she calls ''the world''s first mineral SPF 50 formulated for skin of color with no white cast''. Treat ALL product mentions as own-brand promotion. Separately, that video states unsourced figures as fact, including ''99% of sunscreens are chemical sunscreens'' and a claim that bamboo or silk pillowcases reduce fungal growth versus cotton, so relay no statistic from this channel without checking it independently.'
+  posted: ''
+  feed_rank: 0
+  status: pending
+- id: VyZWDrGRMAI
+  title: Yuka App Is Wrecking Your Skin
+  creator: Dr. Vanita Rattan (Doctor V)
+  creator_slug: vanita-rattan
+  credential: Describes herself on camera as a medically qualified doctor who is also a cosmetic formulator for skin of colour, and as a published author with HarperCollins; she does not claim to be a dermatologist. Self-stated and not independently verified against a medical register by this site.
+  channel: https://www.youtube.com/channel/UC4u0qaMIAgOL8L37RwLcDQA
+  platform: YouTube
+  tier: MED
+  product_recs: null
+  conflict: 'Owns and sells a skincare line (Instagram handle @skincarebydrv in her own video descriptions) and routes to it repeatedly inside educational content: in one 9-point acne video she directs viewers to ''our trio blemish range'', ''our AM and PM moisturizers'', her Citrio Blemish Exfoliator and a mineral SPF she calls ''the world''s first mineral SPF 50 formulated for skin of color with no white cast''. Treat ALL product mentions as own-brand promotion. Separately, that video states unsourced figures as fact, including ''99% of sunscreens are chemical sunscreens'' and a claim that bamboo or silk pillowcases reduce fungal growth versus cotton, so relay no statistic from this channel without checking it independently.'
+  posted: ''
+  feed_rank: 1
+  status: pending
+- id: LXfgFwSgnkQ
+  title: Stop These 9 Acne Mistakes If You Have Black or Brown Skin ·
+  creator: Dr. Vanita Rattan (Doctor V)
+  creator_slug: vanita-rattan
+  credential: Describes herself on camera as a medically qualified doctor who is also a cosmetic formulator for skin of colour, and as a published author with HarperCollins; she does not claim to be a dermatologist. Self-stated and not independently verified against a medical register by this site.
+  channel: https://www.youtube.com/channel/UC4u0qaMIAgOL8L37RwLcDQA
+  platform: YouTube
+  tier: MED
+  product_recs: null
+  conflict: 'Owns and sells a skincare line (Instagram handle @skincarebydrv in her own video descriptions) and routes to it repeatedly inside educational content: in one 9-point acne video she directs viewers to ''our trio blemish range'', ''our AM and PM moisturizers'', her Citrio Blemish Exfoliator and a mineral SPF she calls ''the world''s first mineral SPF 50 formulated for skin of color with no white cast''. Treat ALL product mentions as own-brand promotion. Separately, that video states unsourced figures as fact, including ''99% of sunscreens are chemical sunscreens'' and a claim that bamboo or silk pillowcases reduce fungal growth versus cotton, so relay no statistic from this channel without checking it independently.'
+  posted: ''
+  feed_rank: 2
+  status: pending
+- id: lSsTvDb9BaA
+  title: 'High-Protein Diwali Treats '
+  creator: Dr. Vanita Rattan (Doctor V)
+  creator_slug: vanita-rattan
+  credential: Describes herself on camera as a medically qualified doctor who is also a cosmetic formulator for skin of colour, and as a published author with HarperCollins; she does not claim to be a dermatologist. Self-stated and not independently verified against a medical register by this site.
+  channel: https://www.youtube.com/channel/UC4u0qaMIAgOL8L37RwLcDQA
+  platform: YouTube
+  tier: MED
+  product_recs: null
+  conflict: 'Owns and sells a skincare line (Instagram handle @skincarebydrv in her own video descriptions) and routes to it repeatedly inside educational content: in one 9-point acne video she directs viewers to ''our trio blemish range'', ''our AM and PM moisturizers'', her Citrio Blemish Exfoliator and a mineral SPF she calls ''the world''s first mineral SPF 50 formulated for skin of color with no white cast''. Treat ALL product mentions as own-brand promotion. Separately, that video states unsourced figures as fact, including ''99% of sunscreens are chemical sunscreens'' and a claim that bamboo or silk pillowcases reduce fungal growth versus cotton, so relay no statistic from this channel without checking it independently.'
+  posted: ''
+  feed_rank: 3
+  status: pending
+- id: _YUFUNDRwwg
+  title: STOP Buying These Dark Spot Serums
+  creator: Dr. Vanita Rattan (Doctor V)
+  creator_slug: vanita-rattan
+  credential: Describes herself on camera as a medically qualified doctor who is also a cosmetic formulator for skin of colour, and as a published author with HarperCollins; she does not claim to be a dermatologist. Self-stated and not independently verified against a medical register by this site.
+  channel: https://www.youtube.com/channel/UC4u0qaMIAgOL8L37RwLcDQA
+  platform: YouTube
+  tier: MED
+  product_recs: null
+  conflict: 'Owns and sells a skincare line (Instagram handle @skincarebydrv in her own video descriptions) and routes to it repeatedly inside educational content: in one 9-point acne video she directs viewers to ''our trio blemish range'', ''our AM and PM moisturizers'', her Citrio Blemish Exfoliator and a mineral SPF she calls ''the world''s first mineral SPF 50 formulated for skin of color with no white cast''. Treat ALL product mentions as own-brand promotion. Separately, that video states unsourced figures as fact, including ''99% of sunscreens are chemical sunscreens'' and a claim that bamboo or silk pillowcases reduce fungal growth versus cotton, so relay no statistic from this channel without checking it independently.'
+  posted: ''
+  feed_rank: 4
+  status: pending
+- id: D9AnnomGD2E
+  title: Best & Worst Korean Face Washes For Black Skin
+  creator: Dr. Vanita Rattan (Doctor V)
+  creator_slug: vanita-rattan
+  credential: Describes herself on camera as a medically qualified doctor who is also a cosmetic formulator for skin of colour, and as a published author with HarperCollins; she does not claim to be a dermatologist. Self-stated and not independently verified against a medical register by this site.
+  channel: https://www.youtube.com/channel/UC4u0qaMIAgOL8L37RwLcDQA
+  platform: YouTube
+  tier: MED
+  product_recs: null
+  conflict: 'Owns and sells a skincare line (Instagram handle @skincarebydrv in her own video descriptions) and routes to it repeatedly inside educational content: in one 9-point acne video she directs viewers to ''our trio blemish range'', ''our AM and PM moisturizers'', her Citrio Blemish Exfoliator and a mineral SPF she calls ''the world''s first mineral SPF 50 formulated for skin of color with no white cast''. Treat ALL product mentions as own-brand promotion. Separately, that video states unsourced figures as fact, including ''99% of sunscreens are chemical sunscreens'' and a claim that bamboo or silk pillowcases reduce fungal growth versus cotton, so relay no statistic from this channel without checking it independently.'
+  posted: ''
+  feed_rank: 5
+  status: pending
+- id: 9xM80cAIfJ4
+  title: You tube updates..What do you think??
+  creator: Dr. Vanita Rattan (Doctor V)
+  creator_slug: vanita-rattan
+  credential: Describes herself on camera as a medically qualified doctor who is also a cosmetic formulator for skin of colour, and as a published author with HarperCollins; she does not claim to be a dermatologist. Self-stated and not independently verified against a medical register by this site.
+  channel: https://www.youtube.com/channel/UC4u0qaMIAgOL8L37RwLcDQA
+  platform: YouTube
+  tier: MED
+  product_recs: null
+  conflict: 'Owns and sells a skincare line (Instagram handle @skincarebydrv in her own video descriptions) and routes to it repeatedly inside educational content: in one 9-point acne video she directs viewers to ''our trio blemish range'', ''our AM and PM moisturizers'', her Citrio Blemish Exfoliator and a mineral SPF she calls ''the world''s first mineral SPF 50 formulated for skin of color with no white cast''. Treat ALL product mentions as own-brand promotion. Separately, that video states unsourced figures as fact, including ''99% of sunscreens are chemical sunscreens'' and a claim that bamboo or silk pillowcases reduce fungal growth versus cotton, so relay no statistic from this channel without checking it independently.'
+  posted: ''
+  feed_rank: 6
+  status: pending
+- id: EamBI1jA9SQ
+  title: Why Skin of Colour Needs Different Routine
+  creator: Dr. Vanita Rattan (Doctor V)
+  creator_slug: vanita-rattan
+  credential: Describes herself on camera as a medically qualified doctor who is also a cosmetic formulator for skin of colour, and as a published author with HarperCollins; she does not claim to be a dermatologist. Self-stated and not independently verified against a medical register by this site.
+  channel: https://www.youtube.com/channel/UC4u0qaMIAgOL8L37RwLcDQA
+  platform: YouTube
+  tier: MED
+  product_recs: null
+  conflict: 'Owns and sells a skincare line (Instagram handle @skincarebydrv in her own video descriptions) and routes to it repeatedly inside educational content: in one 9-point acne video she directs viewers to ''our trio blemish range'', ''our AM and PM moisturizers'', her Citrio Blemish Exfoliator and a mineral SPF she calls ''the world''s first mineral SPF 50 formulated for skin of color with no white cast''. Treat ALL product mentions as own-brand promotion. Separately, that video states unsourced figures as fact, including ''99% of sunscreens are chemical sunscreens'' and a claim that bamboo or silk pillowcases reduce fungal growth versus cotton, so relay no statistic from this channel without checking it independently.'
+  posted: ''
+  feed_rank: 7
+  status: pending
+- id: 8cAxRHKhasE
+  title: Vitamin C Glow serum made for melanin-rich skin. Enjoy! Love Dr V x
+  creator: Dr. Vanita Rattan (Doctor V)
+  creator_slug: vanita-rattan
+  credential: Describes herself on camera as a medically qualified doctor who is also a cosmetic formulator for skin of colour, and as a published author with HarperCollins; she does not claim to be a dermatologist. Self-stated and not independently verified against a medical register by this site.
+  channel: https://www.youtube.com/channel/UC4u0qaMIAgOL8L37RwLcDQA
+  platform: YouTube
+  tier: MED
+  product_recs: null
+  conflict: 'Owns and sells a skincare line (Instagram handle @skincarebydrv in her own video descriptions) and routes to it repeatedly inside educational content: in one 9-point acne video she directs viewers to ''our trio blemish range'', ''our AM and PM moisturizers'', her Citrio Blemish Exfoliator and a mineral SPF she calls ''the world''s first mineral SPF 50 formulated for skin of color with no white cast''. Treat ALL product mentions as own-brand promotion. Separately, that video states unsourced figures as fact, including ''99% of sunscreens are chemical sunscreens'' and a claim that bamboo or silk pillowcases reduce fungal growth versus cotton, so relay no statistic from this channel without checking it independently.'
+  posted: ''
+  feed_rank: 8
+  status: pending
+- id: 5U5GxnvjA0U
+  title: DIY Skincare Fail
+  creator: Dr. Vanita Rattan (Doctor V)
+  creator_slug: vanita-rattan
+  credential: Describes herself on camera as a medically qualified doctor who is also a cosmetic formulator for skin of colour, and as a published author with HarperCollins; she does not claim to be a dermatologist. Self-stated and not independently verified against a medical register by this site.
+  channel: https://www.youtube.com/channel/UC4u0qaMIAgOL8L37RwLcDQA
+  platform: YouTube
+  tier: MED
+  product_recs: null
+  conflict: 'Owns and sells a skincare line (Instagram handle @skincarebydrv in her own video descriptions) and routes to it repeatedly inside educational content: in one 9-point acne video she directs viewers to ''our trio blemish range'', ''our AM and PM moisturizers'', her Citrio Blemish Exfoliator and a mineral SPF she calls ''the world''s first mineral SPF 50 formulated for skin of color with no white cast''. Treat ALL product mentions as own-brand promotion. Separately, that video states unsourced figures as fact, including ''99% of sunscreens are chemical sunscreens'' and a claim that bamboo or silk pillowcases reduce fungal growth versus cotton, so relay no statistic from this channel without checking it independently.'
+  posted: ''
+  feed_rank: 9
+  status: pending
+- id: 1cbaiLYv9m8
+  title: A simple morning routine for brighter, more even-looking skin ✨
+  creator: Dr. Vanita Rattan (Doctor V)
+  creator_slug: vanita-rattan
+  credential: Describes herself on camera as a medically qualified doctor who is also a cosmetic formulator for skin of colour, and as a published author with HarperCollins; she does not claim to be a dermatologist. Self-stated and not independently verified against a medical register by this site.
+  channel: https://www.youtube.com/channel/UC4u0qaMIAgOL8L37RwLcDQA
+  platform: YouTube
+  tier: MED
+  product_recs: null
+  conflict: 'Owns and sells a skincare line (Instagram handle @skincarebydrv in her own video descriptions) and routes to it repeatedly inside educational content: in one 9-point acne video she directs viewers to ''our trio blemish range'', ''our AM and PM moisturizers'', her Citrio Blemish Exfoliator and a mineral SPF she calls ''the world''s first mineral SPF 50 formulated for skin of color with no white cast''. Treat ALL product mentions as own-brand promotion. Separately, that video states unsourced figures as fact, including ''99% of sunscreens are chemical sunscreens'' and a claim that bamboo or silk pillowcases reduce fungal growth versus cotton, so relay no statistic from this channel without checking it independently.'
+  posted: ''
+  feed_rank: 10
+  status: pending
+- id: L6QM4iLtMjI
+  title: Hyaluronic acid is damaging your skin
+  creator: Dr. Vanita Rattan (Doctor V)
+  creator_slug: vanita-rattan
+  credential: Describes herself on camera as a medically qualified doctor who is also a cosmetic formulator for skin of colour, and as a published author with HarperCollins; she does not claim to be a dermatologist. Self-stated and not independently verified against a medical register by this site.
+  channel: https://www.youtube.com/channel/UC4u0qaMIAgOL8L37RwLcDQA
+  platform: YouTube
+  tier: MED
+  product_recs: null
+  conflict: 'Owns and sells a skincare line (Instagram handle @skincarebydrv in her own video descriptions) and routes to it repeatedly inside educational content: in one 9-point acne video she directs viewers to ''our trio blemish range'', ''our AM and PM moisturizers'', her Citrio Blemish Exfoliator and a mineral SPF she calls ''the world''s first mineral SPF 50 formulated for skin of color with no white cast''. Treat ALL product mentions as own-brand promotion. Separately, that video states unsourced figures as fact, including ''99% of sunscreens are chemical sunscreens'' and a claim that bamboo or silk pillowcases reduce fungal growth versus cotton, so relay no statistic from this channel without checking it independently.'
+  posted: ''
+  feed_rank: 11
+  status: pending
+- id: 7rk4dzePC4E
+  title: T-Zincable, Tinted Mineral SPF 50
+  creator: Dr. Vanita Rattan (Doctor V)
+  creator_slug: vanita-rattan
+  credential: Describes herself on camera as a medically qualified doctor who is also a cosmetic formulator for skin of colour, and as a published author with HarperCollins; she does not claim to be a dermatologist. Self-stated and not independently verified against a medical register by this site.
+  channel: https://www.youtube.com/channel/UC4u0qaMIAgOL8L37RwLcDQA
+  platform: YouTube
+  tier: MED
+  product_recs: null
+  conflict: 'Owns and sells a skincare line (Instagram handle @skincarebydrv in her own video descriptions) and routes to it repeatedly inside educational content: in one 9-point acne video she directs viewers to ''our trio blemish range'', ''our AM and PM moisturizers'', her Citrio Blemish Exfoliator and a mineral SPF she calls ''the world''s first mineral SPF 50 formulated for skin of color with no white cast''. Treat ALL product mentions as own-brand promotion. Separately, that video states unsourced figures as fact, including ''99% of sunscreens are chemical sunscreens'' and a claim that bamboo or silk pillowcases reduce fungal growth versus cotton, so relay no statistic from this channel without checking it independently.'
+  posted: ''
+  feed_rank: 12
+  status: pending
+- id: 5CQ2RvjC_2U
+  title: Stop These Pigmentation Mistakes
+  creator: Dr. Vanita Rattan (Doctor V)
+  creator_slug: vanita-rattan
+  credential: Describes herself on camera as a medically qualified doctor who is also a cosmetic formulator for skin of colour, and as a published author with HarperCollins; she does not claim to be a dermatologist. Self-stated and not independently verified against a medical register by this site.
+  channel: https://www.youtube.com/channel/UC4u0qaMIAgOL8L37RwLcDQA
+  platform: YouTube
+  tier: MED
+  product_recs: null
+  conflict: 'Owns and sells a skincare line (Instagram handle @skincarebydrv in her own video descriptions) and routes to it repeatedly inside educational content: in one 9-point acne video she directs viewers to ''our trio blemish range'', ''our AM and PM moisturizers'', her Citrio Blemish Exfoliator and a mineral SPF she calls ''the world''s first mineral SPF 50 formulated for skin of color with no white cast''. Treat ALL product mentions as own-brand promotion. Separately, that video states unsourced figures as fact, including ''99% of sunscreens are chemical sunscreens'' and a claim that bamboo or silk pillowcases reduce fungal growth versus cotton, so relay no statistic from this channel without checking it independently.'
+  posted: ''
+  feed_rank: 13
   status: pending
