@@ -8,6 +8,13 @@ analyzed: '2026-11-02'
 assurance: sonnet
 brand: Kerasal
 category: Body
+images:
+- file: kerasal-intensive-foot-repair-brand.jpg
+  source: Kerasal (brand product feed)
+  source_url: https://kerasal.com/products/kerasal-intensive-foot-repair
+- file: kerasal-intensive-foot-repair-incidecoder.jpg
+  source: incidecoder (an older carton design for the same 8-ingredient formula)
+  source_url: https://incidecoder.com/products/kerasal-intensive-foot-repair
 comparator: '[[ammonium-lactate]], the comparator a 1998 randomised trial set against
   a Kerasal ointment, covered on [[keratolytics-compared]]'
 grades:
