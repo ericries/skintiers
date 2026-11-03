@@ -1158,7 +1158,8 @@
   conflict: Bio includes a business/booking contact email suggesting managed brand partnerships; no confirmed own-brand line or affiliate stor
   posted: '2026-09-11'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'Not skincare: 7s meme/trend clip with no dermatology content'
 - id: '7684144732838104334'
   title: 'Night time routine #dermatologist #doctor #nightroutine'
   creator: Dr. Chris Tomassian

@@ -48,6 +48,16 @@ videos:
   related: [oily-skin, acne, azelaic-acid, adapalene, salicylic-acid]
   thesis: Licensed esthetician Ella, who posts as your.estie.ella and is not a dermatologist, answers a viewer whose oily acne prone skin broke out after piling on hydrating Korean skincare steps, and tells her to strip back to cleanser, moisturizer and sunscreen until it calms down. She argues that overloading oily skin with hydration can add clogs, that pore pads and face shaving cannot scrub out comedones that formed over time, and that sunscreen should stay in because she holds that UV contributes to acne. On sequencing she would hold a salicylic acid cleanser to every other night, add azelaic acid next as an anti inflammatory regulator rather than an exfoliant, and only then introduce adapalene, since starting a retinoid over existing congestion is in her view what produces the long inflamed purges people describe.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Optimize your skincare routine
+  creator: Dr. Chris Tomassian
+  creator_slug: chris-tomassian
+  credential: Board-certified dermatologist
+  platform: TikTok
+  url: https://www.tiktok.com/@dr.tomassian/video/7703370173062876429
+  posted: '2026-11-02'
+  related: [anti-aging, peptides, retinol, vitamin-c, sunscreen-uv-filters]
+  thesis: 'Board certified dermatologist Chris Tomassian gives an order for building a skincare routine rather than a list of products to buy: a gentle cleanser once or twice a day, a moisturizer matched to skin type, then a retinol, a vitamin C serum and peptides, with peptides aimed at people from their late 30s through their 50s to build collagen. On sunscreen he says he does not care whether it is chemical or mineral, only that it is SPF 30 or higher, and he notes new filters are now available in the United States. His main point is about sequence and money: run that base routine for six months to a year first and only then consider procedures, because a 300 dollar cream is not the same as having a procedure done.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
