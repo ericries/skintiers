@@ -2063,7 +2063,8 @@
   conflict: Co-developed/formulated the Tbh Skincare 'Rebound' Serum and Toner (product-formulation partnership) — her endorsement of that spe; no YouTube; TikTok/IG intake
   posted: '2026-09-13'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'Not skincare: blush/colour cosmetics'
 - id: '7685152657593634068'
   title: because we don’t want our eyebrows weirdly orange either! products sh...
   creator: Hannah English (@ms_hannah_e / Hannah Collingwood English)
@@ -2876,7 +2877,8 @@
   conflict: runs an Amazon affiliate storefront and does sponsored posts - strongly prefer educational / how-to / ingredient-explainer videos; be very cautious with any product recommendation
   posted: '2026-09-13'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: Brand-discovery promo from a creator with an affiliate storefront; not single-topic education
 - id: '7684700154577865998'
   title: There’s been so much debate on which cream is “better” and plot twist...
   creator: Kristin Leite (kristingl)
@@ -3052,7 +3054,8 @@
   conflict: null
   posted: '2026-09-12'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'Favorites/product-rec roundup (body retinols) from a creator who is tier MED with product_recs: restricted, so fails both eligibility gates; transcript itself was clean of sponsorship'
 - id: '7683207203947334942'
   title: Your skin changes with every decade, and your skincare procedure rout...
   creator: ''
@@ -3719,7 +3722,8 @@
   conflict: Self-describes as a "Key Opinion Leader for industry beauty companies" (per her own practice bio) and most sampled TikTok videos e; no YouTube; TikTok/IG intake
   posted: '2026-09-12'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: Engagement-bait funnel to a product list ('Comment PRODUCTS'), not single-topic education
 - id: '7683335275832986893'
   title: 🖇️ Comment DPP to watch this episode of Dr. Pimple Popper Just wait u...
   creator: Dr. Sheila Farhang (dr.sheila_derm)
@@ -4364,7 +4368,8 @@
   conflict: runs an Amazon affiliate storefront and does sponsored posts - strongly prefer educational / how-to / ingredient-explainer videos; be very cautious with any product recommendation
   posted: '2026-09-14'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: Product pick from a creator who monetizes picks via an affiliate storefront; picks treated as effectively paid
 - id: '7685393362945395982'
   title: '#CetaphilPartner Sensitive skin doesn''t have to mean a complicated ro...'
   creator: ''
@@ -4377,7 +4382,8 @@
   conflict: null
   posted: '2026-09-14'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'Sponsored: title carries #CetaphilPartner'
 - id: aMEFebx1vqQ
   title: Things I Told My Patients About Today....
   creator: Dr. Maren Locke (The Budget Dermatologist)
@@ -4701,7 +4707,8 @@
   conflict: null
   posted: '2026-09-15'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: Vlog, not single-topic skincare education
 - id: KeDoSQm0UII
   title: The goal is never burn!
   creator: Dr. Maren Locke (The Budget Dermatologist)

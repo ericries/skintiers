@@ -3428,3 +3428,22 @@
     plain lactic acid - so the page may well land at tier weak. Verify that absence
     independently before asserting it; search PubMed for the conjugate and for ''ethyl
     lactyl retinoate'' before drafting.'
+- name: HPT (the anti-aging ingredient Ella attributes to L'Oreal)
+  type: ingredient
+  priority: 4
+  status: pending
+  discovered_from: anti-aging
+  source: 'Ella (@your.estie.ella) - NOT an ad, just a review (video, 7685104330969500941)
+    RESOLVE THE IDENTITY FIRST, do not draft from the abbreviation. The auto-captions
+    render it ''HPT'', ''H P T'' and ''HPT6'' and never expand it; the creator says
+    L''Oreal formulated it. HPT is PLAUSIBLY hydroxypropyl tetrahydropyrantriol, L''Oreal''s
+    Pro-Xylane, which would fit the attribution, but that identification was NOT verified
+    and must not be carried into a page unverified. Resolve it from an INCI listing
+    of a product in the HPT6 line or from L''Oreal patent/ingredient documentation
+    before writing anything. sk inci finds no mention of hydroxypropyl tetrahydropyrantriol
+    anywhere on the site today, so if the identification holds this is a genuine gap.
+    The creator''s own caveat is the thing worth checking independently: she says
+    most available HPT studies are run by L''Oreal, the company that created it. The
+    brand of the reviewed line could not be resolved from the captions (rendered variously
+    Epii / EPI / E P I) or from the video description, so it is deliberately unnamed
+    on the card and must be resolved separately before any product page.'

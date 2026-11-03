@@ -349,6 +349,16 @@ videos:
   thesis: 'Board-certified dermatologist Dr. Aleksandra Brown sets the boundary on what menopausal hormone therapy does for skin, and the line she draws is unusually firm for the topic. She says studies suggest estrogen-based hormone therapy may partially improve some menopause-related skin changes, putting hydration, skin thickness, collagen and some measures of elasticity in the category it may help for some people, while stressing that researchers call for larger and better designed trials. What she rules out is as important: hormone therapy does not reliably erase existing wrinkles, short courses may produce very little visible change, and it cannot reverse cumulative sun damage. Her repeated framing is that this is not a facelift in a patch and that hormone therapy is not prescribed for skin ageing alone, since it has established medical uses and being potentially useful for skin quality does not make it a cosmetic treatment. The step she names as the single most effective anti-ageing
     measure is sun protection.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: 'NOT an ad, just a review: the HPT6 serum and cream'
+  creator: Ella (@your.estie.ella)
+  creator_slug: your-estie-ella
+  credential: Licensed esthetician (NOT a dermatologist or cosmetic chemist)
+  platform: TikTok
+  url: https://www.tiktok.com/@your.estie.ella/video/7685104330969500941
+  posted: '2026-09-13'
+  related: [peptides, palmitoyl-pentapeptide-4-matrixyl, retinoids, vitamin-c]
+  thesis: Licensed esthetician Ella reviews a serum and a cream built on HPT, an anti aging ingredient she says L'Oreal formulated, and her verdict is that it is a supporting act rather than a replacement. She argues HPT works by helping the skin barrier so that other treatments function better, and says it should not displace a retinoid, a vitamin C serum or daily sunscreen, which she calls the ingredients with much more in depth science behind them because they have been studied far longer. She also flags that most of the HPT studies available are run by L'Oreal, the company that created it, and says brand only studies should be taken with a grain of salt; she recommends the serum for oily or clog prone skin and the cream for dry or damaged barriers, and notes both also contain matrixyl.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
