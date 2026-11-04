@@ -3553,3 +3553,17 @@
     a separate matter from its preservative use and should not be blurred with it;
     verify that from a primary regulatory source before asserting it. Expect tier
     weak or no tier at all if the honest verdict is that it is not an active.'
+- name: Bismuth oxychloride (CI 77163)
+  type: ingredient
+  priority: 4
+  status: pending
+  discovered_from: nuface-fix-serum-activator
+  source: 'Declared on the NuFACE FIX Serum Activator INCI, brand page cached research-cache/web/f63689e61939d2c4.md
+    A colour-additive pigment, not an active, declared near the end of the [[nuface-fix-serum-activator]]
+    INCI alongside mica and iron oxides. The page''s reason to exist is the gap between
+    what a light-reflecting pigment does and what skincare copy implies: it is the
+    mechanism behind ''blurring'' and under-eye ''brightening'' claims, and it works
+    on contact and washes off. Grade OPTICAL FUNCTION, not skin benefit, and expect
+    no tier or tier weak. [[iron-oxides]] is already on the site at tier mid and should
+    be the model. Worth checking its reputation as an irritant in some users, but
+    verify that from a primary source rather than repeating forum lore.'

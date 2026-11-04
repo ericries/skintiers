@@ -3984,11 +3984,17 @@
 - name: NuFACE FIX Smooth Microcurrent Serum Activator with Peptides
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: 'mynuface.com products.json fetched 2026-10-22: $49.00 (0.5 oz) / $78.00
     (1.0 oz) conductive serum activator; the peptide sibling of the Aqua Gel covered
-    on nuface-gel-primer'
+    on nuface-gel-primer Shipped 2026-11-04 as data/products/nuface-fix-serum-activator.md.
+    Yesterday''s Aqua Gel entry correctly flagged this as a genuinely distinct SKU,
+    and it was. Reusable finding for the rest of the NuFACE line: the brand uses BOTH
+    ''FDA-approved'' and ''FDA CLEARED'' on the same product page for a cosmetic serum,
+    and openFDA shows only ONE conductive-medium clearance to the firm (K161654, Gel
+    Primer, code GYB) with no device named as a serum. Check that pattern on any remaining
+    NuFACE accessory before repeating a brand regulatory claim.'
 - name: CeraVe Hydrating Cream-to-Foam Cleanser
   type: product
   priority: 5
@@ -5205,3 +5211,27 @@
   status: pending
   discovered_from: blue-light-eye-safety-home-devices
   source: K123999 clearance read 2026-11-03; La Lumiere LLC
+- name: NuFACE Super Peptide Booster Serum
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: nuface-fix-serum-activator
+  source: 'mynuface.com/products.json read 2026-11-04, $65.00 / 1.0 fl oz A $65 peptide
+    serum from the same brand, distinct from [[nuface-fix-serum-activator]] ($49/0.5oz)
+    and from [[nuface-gel-primer]]. CHECK THE REGULATORY COPY FIRST: the FIX serum
+    page carries both ''FDA-approved'' and an ''FDA CLEARED'' badge for a cosmetic,
+    and openFDA shows only one conductive-medium clearance to the firm (K161654, Gel
+    Primer). Do not repeat any FDA claim from the brand without checking the device
+    index. Peptides are tier weak here, so inherit that and do not re-argue it.'
+- name: NuFACE Super Vita-C Booster Serum
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: nuface-fix-serum-activator
+  source: 'mynuface.com/products.json read 2026-11-04, $65.00 / 1.0 fl oz (also a
+    $117.00 two-pack) A $65 vitamin C serum from the same brand; the feed also lists
+    a $117.00 two-pack, which is worth a price-per-ounce line since it is not a discount.
+    Same regulatory caution as the sibling entries: verify any FDA claim against the
+    device index rather than the brand page, per [[nuface-fix-serum-activator]]. Vitamin
+    C evidence is owned by [[vitamin-c]]; the product page should cover concentration,
+    form and pH if published, and say so plainly if they are not.'

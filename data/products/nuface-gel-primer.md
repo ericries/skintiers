@@ -103,6 +103,9 @@ NuFACE sells the Aqua Gel Activator directly at $35.00 for 1.69 oz, $55.00 for 3
 
 ## See Also
 
+- [[nuface-fix-serum-activator]], the brand's other conductive medium, whose page carries both an FDA-approved claim and an FDA CLEARED badge while no clearance names a serum
+
+
 [[nuface]], [[nuface-trinity-microcurrent-device]], [[nuface-mini-microcurrent-device]], [[nubody-skin-toning-device]], [[fda-approved-vs-cleared-skincare]], [[home-use-skincare-devices-by-evidence]], [[hyaluronic-acid]], [[glycerin]].
 
 ## Sources
