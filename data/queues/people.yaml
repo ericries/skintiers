@@ -460,11 +460,17 @@
 - name: Michelle Henry
   type: person
   priority: 5
-  status: pending
+  status: done
   discovered_from: loreal-paris-revitalift-triple-power-moisturizer-fragrance-free
-  source: Named on the L'Oreal brand page as 'Dr. Michelle Henry, Board-Certified
-    Dermatologist' giving a promotional endorsement of this product; verify credentials
+  source: 'Named on the L''Oreal brand page as ''Dr. Michelle Henry, Board-Certified
+    Dermatologist'' giving a promotional endorsement of this product; verify credentials
     and any brand relationship from primary sources (NPI, board records) before writing
+    DUPLICATE, resolved without writing 2026-11-04. data/people/michelle-henry.md
+    was shipped 2026-11-02 and already covers precisely what this entry asked for:
+    it records the L''Oreal promotional endorsement as the brand''s own, and verifies
+    her credential independently against the NPI registry (1154569275) rather than
+    from the brand page. Her creator roster slug is michelle-henry-md-faad, which
+    is why a name search may not match the person slug.'
 - name: Dr. Sheila Farhang
   type: person
   priority: 4
