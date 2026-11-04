@@ -5275,3 +5275,20 @@
     build once two or more exist. Same image caution as the sibling entry: verify
     the bottle in any photo, since incidecoder served the wrong CeraVe SKU on a neighbouring
     slug.'
+- name: Thayers Witch Hazel Toner
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: witch-hazel
+  source: 'The best-known consumer witch hazel toner; witch hazel is a recognised
+    US OTC astringent active per openFDA (109 labels) and the site now covers the
+    ingredient at tier weak The product most readers will have in mind when they reach
+    [[witch-hazel]]. RESOLVE THE LINE FIRST: Thayers sells alcohol-free and original
+    versions and several scents, so establish which SKU before drafting rather than
+    treating them as one. KEY CHECK: whether the specific product is sold as an OTC
+    DRUG with a Drug Facts panel and an ''Astringent'' purpose, or as a cosmetic with
+    no drug claim, because [[witch-hazel]] records that the recognised OTC indication
+    is insect bites, minor cuts and minor scrapes, not pores or oil. If the label
+    carries Drug Facts, quote the Uses line verbatim; that contrast is the page. Standalone
+    witch hazel drug products declare alcohol 14% by volume, so check whether the
+    alcohol-free version replaces it and with what.'

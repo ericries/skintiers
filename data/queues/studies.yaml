@@ -1973,3 +1973,18 @@
     be quoted in marketing. The abstract states no funder and the PubMed record carries
     no conflict statement, while the paper evaluates a named commercial device; record
     that rather than inferring either way. Cited on [[home-body-devices-by-whether-body-evidence-exists]].'
+- name: 'Jones 2021: complementary and alternative medicine for acne, atopic dermatitis
+    and psoriasis (JAAD Int systematic review, PMID 34409356)'
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: witch-hazel
+  source: 'https://pubmed.ncbi.nlm.nih.gov/34409356/ JAAD Int 2021;2:76-93. 417 articles
+    screened, 40 included, random-effects meta-analysis. Conclusion: ''there is insufficient
+    evidence to support the efficacy and the recommendation of CAM for acne, AD, and
+    psoriasis.'' HIGH LEVERAGE for this site: it is a category-level negative that
+    can be cited from every botanical page rather than re-argued on each, and the
+    site already carries several botanicals at tier weak ([[witch-hazel]], [[willow-bark-extract]],
+    [[centella-asiatica]]). Record the pooled estimates with their intervals, since
+    the acne SMDs both cross zero, and be precise that it tests CAM as a CATEGORY
+    and not any single botanical. Cited on [[witch-hazel]].'

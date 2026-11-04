@@ -39,7 +39,7 @@ The Fur Ingrown Eliminator Serum is a leave-on water-based serum from [[fur]] ma
 
 ## Summary
 
-Fur markets this as an "ingrown hair treatment" and a "serum for ingrown hairs" that targets ingrowns "Leaving your skin clear and smooth," positioned as "Ideal for post-hair removal for face, body, and sensitive areas."[^fur] By Incidecoder's decoded list the formula is water-based, with witch hazel extract, willow bark extract, and aloe high in the list, then [[lactic-acid]] and phytic acid as the exfoliating acids, in a glycerin and polyglyceryl base, finished with lavender and clary sage oils. Lactic acid is an AHA and willow bark is a natural source of salicylates (the family that includes [[salicylic-acid]]), so unlike the brand's oil this serum does carry a keratolytic mechanism. It costs $37.00 for the 50 ml size ([see Where to Buy](#where-to-buy), accessed 2026-10-03).[^fur]
+Fur markets this as an "ingrown hair treatment" and a "serum for ingrown hairs" that targets ingrowns "Leaving your skin clear and smooth," positioned as "Ideal for post-hair removal for face, body, and sensitive areas."[^fur] By Incidecoder's decoded list the formula is water-based, with [[witch-hazel|witch hazel]] extract, [[willow-bark-extract|willow bark]] extract, and aloe high in the list, then [[lactic-acid]] and phytic acid as the exfoliating acids, in a glycerin and polyglyceryl base, finished with lavender and clary sage oils. Lactic acid is an AHA and willow bark is a natural source of salicylates (the family that includes [[salicylic-acid]]), so unlike the brand's oil this serum does carry a keratolytic mechanism. It costs $37.00 for the 50 ml size ([see Where to Buy](#where-to-buy), accessed 2026-10-03).[^fur]
 
 ## The Evidence
 

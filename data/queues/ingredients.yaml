@@ -3140,12 +3140,17 @@
 - name: Witch Hazel (Hamamelis virginiana)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: pixi-glow-tonic
-  source: Seventh on the Pixi Glow Tonic declared list and a recurring extract in
+  source: 'Seventh on the Pixi Glow Tonic declared list and a recurring extract in
     toners; no ingredient page exists, so pages currently have nothing to link out
     to when it appears. Note the leaf extract declared here is not the alcohol-containing
-    distillate often assumed
+    distillate often assumed Shipped 2026-11-04 as data/ingredients/witch-hazel.md
+    at tier weak. Reusable finding: witch hazel is a recognised US OTC drug ACTIVE
+    (109 labels, Purpose ''Astringent'') but its monograph Uses line covers insect
+    bites, minor cuts and minor scrapes only, nothing about pores, oil or acne. Standalone
+    bottles declare ''alcohol 14% by volume''. Treat any ''FDA-recognised'' framing
+    on a witch hazel product against that indication, not the marketing one.'
 - name: Acetyl Dipeptide-31 Amide (AP31)
   type: ingredient
   priority: 5
