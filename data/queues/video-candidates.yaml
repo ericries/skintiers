@@ -15585,7 +15585,8 @@
   conflict: Founder/owner of active postpartum skincare brand "More Than Nine" (cleanser, exfoliator, moisturizer, balm) — an ongoing own-bran
   posted: '2026-11-03'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: No English transcript; caption also names her own brand More Than Nine among picks
 - id: fmJek3aHw0E
   title: 2026 Black Friday Skincare & Beauty Stock-Up Guide
   creator: Andrea Suarez (Dr Dray)
@@ -15691,7 +15692,8 @@
   conflict: runs an Amazon affiliate storefront and does sponsored posts - strongly prefer educational / how-to / ingredient-explainer videos; be very cautious with any product recommendation
   posted: '2026-11-03'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: Single-product favourable verdict (Isntree HA Aqua Gel Cream) framed as an ingredient explainer; creator runs an Amazon affiliate storefront and is the cron's named example of picks treated as effectively paid
 - id: '7703622014237445390'
   title: 'I would definitely buy these skin barrier serums with my own money: ✅...'
   creator: Kristin Leite (kristingl)
@@ -15758,7 +15760,8 @@
   conflict: Self-describes as a "Key Opinion Leader for industry beauty companies" (per her own practice bio) and most sampled TikTok videos e; no YouTube; TikTok/IG intake
   posted: '2026-11-03'
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: 'Own-brand promotion: caption is ''Comment DOSE to shop Dose (of) Derm'''
 - id: 2UR5IVdjiPY
   title: Black Don’t Crack
   creator: Dr. Vanita Rattan (Doctor V)
@@ -15810,7 +15813,8 @@
   conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan and reject any sponsored/affiliate/gifted video
   posted: '2026-11-03'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: Sephora sale roundup, a retail promo rather than single-topic education
 - id: '7703938088589987086'
   title: Barrie health really is that important 🙌🏼
   creator: Ella (@your.estie.ella)

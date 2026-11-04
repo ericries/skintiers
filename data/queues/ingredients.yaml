@@ -3600,3 +3600,19 @@
     does have a separate evidence base for itch and neuropathic pain, which is a different
     claim entirely; if that is covered at all, keep it clearly separated and verify
     from primary sources rather than carrying it across.'
+- name: Marine spicules (sponge-derived microneedling alternative)
+  type: ingredient
+  priority: 4
+  status: pending
+  discovered_from: microneedling
+  source: 'Dr. Heather Woolery-Lloyd - Are marine spicules the new DIY microneedling?
+    (TikTok 7645401636201893134, already carded on microneedling) Grounded in the
+    clip already carded on [[microneedling]], where a dermatologist describes spicules
+    as sponge-derived needle-like structures sold as a DIY microneedling alternative,
+    typically at 0.1% to 1%, often paired with peptides and [[pdrn]], and not to be
+    combined with retinoids or strong acne medication. SHE HEDGES THE MECHANISM and
+    so should the page: ''thought to create pathways'' and ''may signal the skin'',
+    not established. EXPECT THIN EVIDENCE: search PubMed for spicules or Spongilla
+    before drafting, and if the human data are absent that IS the finding, the way
+    [[willow-bark-extract]] and [[witch-hazel]] handle it. Check whether any product
+    already covered here declares them, with sk inci.'
