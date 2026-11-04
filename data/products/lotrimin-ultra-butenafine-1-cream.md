@@ -10,6 +10,11 @@ analyzed: '2026-11-03'
 assurance: sonnet
 brand: Lotrimin
 category: Body
+images:
+- file: lotrimin-ultra-butenafine-1-cream-dailymed.jpg
+  source: DailyMed (FDA-filed carton artwork for the Lotrimin Ultra label, cropped
+    to the front panel; the filed image is a full prepress dieline)
+  source_url: https://dailymed.nlm.nih.gov/dailymed/image.cfm?setid=d11dfdf6-9b36-03bc-e053-2995a90a0bc3&name=FDA00439_Lot_20g_Ctn_R-1.jpg
 comparator: '[[lotrimin-af-antifungal-cream]], the same brand''s clotrimazole product,
   which is a different drug despite the shared name'
 grades:
