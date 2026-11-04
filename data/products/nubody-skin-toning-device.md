@@ -95,6 +95,9 @@ Sold by the brand at $399.00 on 2026-10-22, listed as in stock. The price covers
 
 ## See Also
 
+- [[home-body-devices-by-whether-body-evidence-exists]], which records that a literature search finds no home microcurrent body-contouring trial at all
+
+
 [[nuface-mini-microcurrent-device]] [[nuface-trinity-microcurrent-device]] [[nuface]] [[skin-firmness-elasticity]] [[cellulite]] [[body-acne]] [[home-use-skincare-devices-by-evidence]] [[fda-approved-vs-cleared-skincare]] [[anti-aging]]
 
 ## Sources

@@ -862,3 +862,19 @@
     and [[minimalist-routine]] rather than re-explaining any of them. Check whether
     the Fitzpatrick scale belongs here or stays with [[light-based-hair-removal-deeper-skin-tones]];
     they are different axes and should not be blurred.'
+- name: 'Cellulite: what the evidence actually supports'
+  type: goal
+  priority: 4
+  status: pending
+  discovered_from: home-body-devices-by-whether-body-evidence-exists
+  source: 'Cellulite is a named target of the one home-use body RF trial (Boisnic
+    2010, PMID 20395192) and the site has no hub for it The site has no cellulite
+    hub despite covering three body-positioned devices and the body-acne and body-anti-aging
+    lists. Grounded in Boisnic 2010 (PMID 20395192), whose stated objective includes
+    cellulite improvement, though note the abstract reports circumference and laxity
+    outcomes and does NOT report a cellulite result, which is itself worth recording.
+    BUILD CAREFULLY: cellulite has a large low-quality literature and a strong marketing
+    pull, so prefer a tier_list over graded items already on the site and state plainly
+    where evidence is absent, the way [[home-body-devices-by-whether-body-evidence-exists]]
+    and [[cradle-cap]] do. Check for a systematic review before drafting rather than
+    assembling primary studies.'

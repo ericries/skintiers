@@ -1957,3 +1957,19 @@
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/42976840/
+- name: 'Boisnic 2010: TriPollar home-use RF device for body treatments (PMID 20395192)'
+  type: study
+  priority: 4
+  status: pending
+  discovered_from: home-body-devices-by-whether-body-evidence-exists
+  source: 'https://pubmed.ncbi.nlm.nih.gov/20395192/ Eur J Dermatol 2010;20(3):367-72,
+    doi 10.1684/ejd.2010.0938. The only home-use BODY device trial this site''s searches
+    found for any modality, which is why it carries weight out of proportion to its
+    size. n=24, abdomen and thighs, plus a separate ex-vivo human skin model. LEAD
+    WITH THE SPLIT: thigh reduction of 2.4 cm was significant against a control thigh;
+    the abdomen change was NOT significant. KEEP THE EX-VIVO NUMBERS SEPARATE: the
+    82% glycerol release, 34% adipocyte alteration and 31% collagen synthesis are
+    from excised tissue, not from the subjects, and are the figures most likely to
+    be quoted in marketing. The abstract states no funder and the PubMed record carries
+    no conflict statement, while the paper evaluates a named commercial device; record
+    that rather than inferring either way. Cited on [[home-body-devices-by-whether-body-evidence-exists]].'
