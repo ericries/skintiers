@@ -4026,10 +4026,16 @@
 - name: Thayers Rapid Acne Spot Treatment
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: acne
-  source: Dr. Dustin Portela - The ONLY 3-Step Acne Routine You Need (video, xaJeBodWz2Y);
-    sulfur spot treatment he names as his OTC pick
+  source: 'Dr. Dustin Portela - The ONLY 3-Step Acne Routine You Need (video, xaJeBodWz2Y);
+    sulfur spot treatment he names as his OTC pick Shipped 2026-11-04 as data/products/thayers-rapid-acne-treatment-sulfur-10.md.
+    NAME CORRECTION: the filed label is ''Thayers Natural Remedies Since 1847 Rapid
+    Acne Treatment'' with no ''Spot'' in it; incidecoder has no record, so openFDA
+    brand_name:Thayers is the way in (7 current records). Reusable finding for the
+    rest of the brand: six of the seven are salicylic acid 1.5-2%, only this one is
+    sulfur 10%, and the labeller of record on all of them is L''Oreal USA Products
+    Inc.'
 - name: Zelsuvmi (berdazimer topical gel)
   type: product
   priority: 5
@@ -5292,3 +5298,17 @@
     carries Drug Facts, quote the Uses line verbatim; that contrast is the page. Standalone
     witch hazel drug products declare alcohol 14% by volume, so check whether the
     alcohol-free version replaces it and with what.'
+- name: Thayers Blemish Clearing Witch Hazel Aloe Vera Formula Toner (salicylic acid
+    2%)
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: thayers-rapid-acne-treatment-sulfur-10
+  source: 'openFDA drug/label brand_name:Thayers, read 2026-11-04 One of the four
+    Thayers records whose name carries ''Witch Hazel Aloe Vera Formula''. THE PAGE
+    WRITES ITSELF IF THE LABEL COOPERATES: witch hazel''s own recognised OTC indication
+    is insect bites, minor cuts and minor scrapes, NOT acne (see [[witch-hazel]]),
+    so on this product the acne claim belongs entirely to the salicylic acid 2% while
+    the witch hazel sits in the name. Confirm that by reading the Drug Facts panel:
+    active, purpose, uses. Pull it from openFDA brand_name:Thayers rather than incidecoder,
+    which has no Thayers records. [[salicylic-acid]] is tier good and owns the evidence.'

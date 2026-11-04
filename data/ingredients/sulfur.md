@@ -88,6 +88,9 @@ None of the claims below is established beyond what The Evidence above supports.
 
 ## See Also
 
+- [[thayers-rapid-acne-treatment-sulfur-10]], a 10% sulfur acne treatment, which is the top of the strength range filed for acne
+
+
 [[benzoyl-peroxide]] [[azelaic-acid]] [[retinoids]] [[metronidazole]] [[salicylic-acid]] [[rosacea-papulopustular]] [[acne]]
 
 ## Sources
