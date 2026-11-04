@@ -115,6 +115,7 @@ The strongest treatment evidence is the 2015 Cochrane systematic review of topic
 - [[ketoconazole]] and [[nizoral-anti-dandruff-shampoo-ketoconazole-1]] for the best-evidenced treatment.
 - [[anti-dandruff-seborrheic-dermatitis-treatments-by-evidence]] for the full ranked treatment list, and [[ciclopirox]], [[selenium-sulfide]], [[zinc-pyrithione]], [[piroctone-olamine]], and [[roflumilast]] for the other antifungal and nonsteroidal options.
 - [[fungal-acne]] for the same Malassezia yeast on the trunk (dandruff is this condition's uninflamed scalp form).
+- [[cradle-cap]] for the infant form, where Cochrane found very low-certainty evidence for every treatment and a condition that resolves on its own.
 - [[atopic-dermatitis]] and [[psoriasis]] for other scaly, chronic scalp and facial conditions that can look similar but need different treatment.
 - [[rosacea]] for another chronic facial redness condition that shares some of the same central-face territory.
 - [[pimecrolimus]] and [[topical-corticosteroids]] for the steroid-sparing and steroid options used alongside antifungals.

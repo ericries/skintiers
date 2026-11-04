@@ -1908,3 +1908,34 @@
     named in the abstract. Cited on [[willow-bark-extract]]. The abstract carries
     a full French translation, so a naive quote check can match the French text instead
     of the English; quote from the English AbstractText blocks only.
+- name: 'Victoire 2019 Cochrane: interventions for infantile seborrhoeic dermatitis
+    including cradle cap (PMID 30828791)'
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: cradle-cap
+  source: 'https://pubmed.ncbi.nlm.nih.gov/30828791/ Cochrane Database Syst Rev 2019;3(3):CD011380,
+    doi 10.1002/14651858.CD011380.pub2. Six RCTs, 310 children randomised, outcomes
+    for 297. THE LINE THAT MATTERS, and it should be the first thing on the page:
+    ''In most studies, the prognosis for the condition was favourable regardless of
+    intervention''. Very low-certainty evidence for ALL comparisons and outcomes;
+    trials 10 to 42 days; only one followed to resolution or eight months; two of
+    the six tested ORAL biotin against placebo. Spine of [[cradle-cap]], so do not
+    re-tell that hub''s story, record the design facts an agent needs. Note the review
+    explicitly contrasts itself with the adult seborrhoeic dermatitis reviews, which
+    is why [[seborrheic-dermatitis]] reads so differently.'
+- name: 'Wananukul 2012: licochalcone moisturiser vs 1% hydrocortisone in infantile
+    seborrhoeic dermatitis, split-side RCT (PMID 21790793)'
+  type: study
+  priority: 4
+  status: pending
+  discovered_from: cradle-cap
+  source: 'https://pubmed.ncbi.nlm.nih.gov/21790793/ J Eur Acad Dermatol Venereol
+    2012;26(7):894-7. Split-side, double-blind, 75 infants enrolled and 72 completed,
+    aged 2 weeks to 1 year: 0.025% licochalcone moisturiser on one side, 1% hydrocortisone
+    on the other. Day 3-4 clearing 42% vs 32% (P=0.03); no difference at day 6-7 or
+    14; two-week cure 90% vs 92%. THE KEY LIMITATION IS STRUCTURAL and the abstract
+    does not state it: there is no untreated arm, so in a self-limiting condition
+    the trial cannot separate either product from spontaneous resolution. Say that
+    plainly. Cited on [[cradle-cap]] and relevant to [[licochalcone-a]] (tier weak)
+    and [[hydrocortisone-otc-topical-corticosteroid]].'

@@ -611,11 +611,16 @@
 - name: Cradle cap (infantile seborrhoeic dermatitis)
   type: condition
   priority: 5
-  status: pending
+  status: done
   discovered_from: stearyl-glycyrrhetinate
-  source: PMID 33934474 calls it a benign and self-limiting variant of seborrheic
+  source: 'PMID 33934474 calls it a benign and self-limiting variant of seborrheic
     dermatitis; the site has a seborrheic-dermatitis hub but nothing on the infant
-    form, which is where the self-limiting caveat matters most
+    form, which is where the self-limiting caveat matters most Shipped 2026-11-03
+    as data/conditions/cradle-cap.md with a deliberately flat tier_list. The entry
+    was right that the self-limiting caveat matters most here: Cochrane 2019 (PMID
+    30828791) found very low-certainty evidence for every comparison and says the
+    prognosis was favourable regardless of intervention, which is why the Micali study
+    this was discovered from cannot support its own conclusion. Linked from seborrheic-dermatitis.'
 - name: Moccasin-type athlete's foot (plantar tinea pedis)
   type: condition
   priority: 5
