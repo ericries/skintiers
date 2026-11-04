@@ -3538,3 +3538,18 @@
     oil. Consider writing ONE page covering the polyglyceryl cleansing-emulsifier
     class rather than separate stubs per chain length, and check with sk inci which
     covered products declare which before deciding.'
+- name: Benzyl alcohol (preservative and contact allergen)
+  type: ingredient
+  priority: 4
+  status: pending
+  discovered_from: lotrimin-ultra-butenafine-1-cream
+  source: 'Declared inactive ingredient on the Lotrimin Ultra butenafine 1% label,
+    openFDA drug/label record read 2026-11-03 Declared on the [[lotrimin-ultra-butenafine-1-cream]]
+    label and common across OTC topicals. The page has TWO distinct jobs and should
+    keep them apart: as a preservative it is a formulation ingredient with no skin-benefit
+    claim, so grade FUNCTION not benefit; as a contact allergen it belongs with [[contact-dermatitis]],
+    which owns how allergy presents, so link out rather than re-explaining. It also
+    appears on fragrance-allergen labelling lists in some jurisdictions, which is
+    a separate matter from its preservative use and should not be blurred with it;
+    verify that from a primary regulatory source before asserting it. Expect tier
+    weak or no tier at all if the honest verdict is that it is not an active.'

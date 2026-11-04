@@ -3963,7 +3963,7 @@
 - name: Lotrimin Ultra (butenafine 1% cream)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: athletes-foot
   source: 'The best-known consumer butenafine product and the one whose label carries
     the distribution limit now quoted on athletes-foot (DailyMed SPL read 2026-10-22):
@@ -3973,7 +3973,14 @@
     it. CONFIRM which marketed SKU corresponds, since 21 butenafine SPLs exist under
     various distributors and only one representative label was read; also note the
     site already covers Lotrimin AF, which is clotrimazole, so keep the two distinct
-    rather than treating Lotrimin as one product.'
+    rather than treating Lotrimin as one product. Shipped 2026-11-03 as data/products/lotrimin-ultra-butenafine-1-cream.md.
+    Reusable finding for the antifungal shelf: openFDA returns FOUR current labels
+    under the Lotrimin Ultra brand name, all butenafine hydrochloride 1%, with four
+    DIFFERENT Uses lists, and the variants named after a single condition are the
+    narrow ones. Check brand_name across all returned records before describing any
+    OTC antifungal''s scope. Also: the label itself says ''Effectiveness on the bottom
+    or sides of foot is unknown'', which is direct support for the separately queued
+    moccasin-type athlete''s foot condition entry.'
 - name: NuFACE FIX Smooth Microcurrent Serum Activator with Peptides
   type: product
   priority: 5
