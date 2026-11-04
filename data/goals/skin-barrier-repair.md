@@ -485,6 +485,16 @@ videos:
   related: [exfoliation, retinoids, exfoliating-acids-by-strength, sensitive-skin, ceramides]
   thesis: 'Esthetician Jenn Lexi asks why barrier repair gets all the attention while the question of what damaged the barrier gets none, and argues the order is backwards. Her observation from people who message her is that the person reporting a damaged barrier is usually exfoliating daily, using several exfoliants at once, running eight products, or applying a retinoid every day, and is then surprised the skin is inflamed, raw, flaking and red. Her central point is that healing the barrier and then returning to the same routine simply damages it again. The mechanism she describes is cumulative rather than any single product: a retinoid three times a week plus exfoliating twice a week plus an exfoliating cleanser every morning may each be fine alone, but together they leave no recovery time, because those products work by temporarily disrupting the skin to speed cell turnover and shed dead skin, which leaves it more vulnerable.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: How do you deal with a damaged barrier
+  creator: Jenn Lexi (@jennlexi_)
+  creator_slug: jennlexi
+  credential: Esthetician (self-identified); not a dermatologist or cosmetic chemist
+  platform: TikTok
+  url: https://www.tiktok.com/@jennlexi_/video/7704092800438127885
+  posted: '2026-11-03'
+  related: [tretinoin, ceramides, exfoliation, retinoids, cholesterol]
+  thesis: 'Esthetician Jenn Lexi frames a damaged skin barrier as a frequency problem rather than a product problem, using her own tretinoin use as the example: more than three or four times a week leaves her skin sensitive and inflamed, so she settles at two or three and spends the days in between on barrier repair. Her point is that the balance sits between too much exfoliation on one side and clogged pores from too much barrier repair on the other, and that where the middle falls differs from person to person. For recovery she describes going back to basics with ceramides, cholesterol and fatty acids to lock in hydration, then reintroducing an exfoliant or retinoid once, with a patch test, to see how the skin reacts.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

@@ -333,7 +333,8 @@
   conflict: Founder/owner of active postpartum skincare brand "More Than Nine" (cleanser, exfoliator, moisturizer, balm) — an ongoing own-bran
   posted: '2026-09-13'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: No English transcript, and the caption tail names her own brand (More Than Nine); checked 2026-11-03
 - id: '7683712393444216077'
   title: Don’t believe the hype‼️ I’m never that impressed. None of these thin...
   creator: Dr. Aegean Chan
@@ -15636,7 +15637,8 @@
   conflict: Promotes her own curated product box, Dermy Doc Box (@dermy.doc.box), with link-in-bio callouts in the caption tail (observed 2026-10-29 on clip 7686867010508164366, posted 2026-09-18) - treat her product picks and seasonal recommendations as own-product promotion
   posted: '2026-11-03'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: vlog about running a practice, not skincare education
 - id: '7703583690365996301'
   title: Sun damage doesn't always show up right away. For many people, the sp...
   creator: Fatima Fahs
@@ -15662,7 +15664,8 @@
   conflict: Co-developed/formulated the Tbh Skincare 'Rebound' Serum and Toner (product-formulation partnership) — her endorsement of that spe; no YouTube; TikTok/IG intake
   posted: '2026-11-03'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: colour cosmetics (blush try-on), not skincare
 - id: '7704092800438127885'
   title: 'Day 5 part 4: how do you deal with a damaged barrier??? #barrierdamag...'
   creator: Jenn Lexi (@jennlexi_)
@@ -15714,7 +15717,8 @@
   conflict: null
   posted: '2026-11-03'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: Sephora sale promo, not education
 - id: '7703673543397035294'
   title: As a half Japanese mom, it’s important to me that my kids grow up kno...
   creator: Dr. Mamina Turegano
@@ -15740,7 +15744,8 @@
   conflict: Self-describes as a "Key Opinion Leader for industry beauty companies" (per her own practice bio) and most sampled TikTok videos e; no YouTube; TikTok/IG intake
   posted: '2026-11-04'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: engagement-bait funnel to a product list (Comment ACNE), not single-topic education
 - id: '7703745521042640158'
   title: 🖇️ Comment DOSE to shop Dose (of) Derm It’s finally here 🤍 I spent ov...
   creator: Dr. Sheila Farhang (dr.sheila_derm)
