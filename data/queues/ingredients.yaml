@@ -3567,3 +3567,17 @@
     no tier or tier weak. [[iron-oxides]] is already on the site at tier mid and should
     be the model. Worth checking its reputation as an irritant in some users, but
     verify that from a primary source rather than repeating forum lore.'
+- name: Sodium methyl cocoyl taurate
+  type: ingredient
+  priority: 4
+  status: pending
+  discovered_from: cerave-hydrating-cream-to-foam-cleanser
+  source: Third ingredient on the CeraVe Hydrating Cream-to-Foam Cleanser brand list,
+    cached research-cache/web/87d6d729a520ddf3.md The lead surfactant in [[cerave-hydrating-cream-to-foam-cleanser]]
+    and a common sulfate alternative; the site already covers its two companions [[sodium-cocoyl-isethionate]]
+    and [[coco-betaine]], so this completes that trio and those two pages are the
+    model for scope and length. Grade CLEANSING FUNCTION and mildness, not skin benefit,
+    and expect a thin evidence base; if the comparative irritation data against SLS
+    is weak, say so rather than repeating the marketing framing that amino-acid surfactants
+    are categorically gentle. Check with sk inci which other covered products declare
+    it before drafting.

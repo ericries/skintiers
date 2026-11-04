@@ -3998,14 +3998,22 @@
 - name: CeraVe Hydrating Cream-to-Foam Cleanser
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: acne
-  source: Dr. Dustin Portela - The ONLY 3-Step Acne Routine You Need (video, xaJeBodWz2Y)
+  source: 'Dr. Dustin Portela - The ONLY 3-Step Acne Routine You Need (video, xaJeBodWz2Y)
     Reinforced by Dr. Aleksandra Brown - Is CeraVe Actually Good? (video, FYg2v6cKGks,
     2026-10-18), where it is her SECOND-choice CeraVe cleanser behind the hydrating
     foaming oil cleanser. She describes it as the middle ground between a non-foaming
     hydrating cleanser and a stripping foaming one, and notes it removes makeup, dirt,
-    oil and sunscreen. The card is now live on the cerave brand page.
+    oil and sunscreen. The card is now live on the cerave brand page. Shipped 2026-11-04
+    as data/products/cerave-hydrating-cream-to-foam-cleanser.md. NOTE ON THE DISCOVERY
+    PATH: this was queued from the acne hub, presumably on the salicylic acid in its
+    INCI, but it is NOT an acne cleanser. Salicylic acid is 29th of 59 and the brand
+    never names it among the product''s ingredients or benefits. IMAGE WARNING for
+    anyone revisiting: incidecoder''s photo on the cerave-hydrating-cream-to-foam-cleanser
+    slug shows the DIFFERENT Hydrating Facial Cleanser; the brand''s own image was
+    used instead. Verify CeraVe photos by reading the bottle, since the range shares
+    one bottle design.'
 - name: Thayers Rapid Acne Spot Treatment
   type: product
   priority: 5
@@ -5235,3 +5243,26 @@
     device index rather than the brand page, per [[nuface-fix-serum-activator]]. Vitamin
     C evidence is owned by [[vitamin-c]]; the product page should cover concentration,
     form and pH if published, and say so plainly if they are not.'
+- name: CeraVe Cream to Water Makeup Remover
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: cerave-hydrating-cream-to-foam-cleanser
+  source: 'Listed under NEW PRODUCTS on cerave.com, read 2026-11-04 Listed under NEW
+    PRODUCTS on cerave.com on 2026-11-04. IMAGE WARNING learned on [[cerave-hydrating-cream-to-foam-cleanser]]:
+    incidecoder served the wrong CeraVe SKU for that slug, because the range shares
+    one bottle design, so read the bottle in any photo before attaching it. Prefer
+    the brand''s own product image, which is reachable at cerave.com without a bot
+    block. Expect the same claim set to quarantine: MVE slow release, developed with
+    dermatologists, and consumer-study percentages.'
+- name: CeraVe Hydrating Micellar Water
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: cerave-hydrating-cream-to-foam-cleanser
+  source: 'Listed under NEW PRODUCTS on cerave.com, read 2026-11-04 Listed under NEW
+    PRODUCTS on cerave.com on 2026-11-04. The site already queues [[Bioderma Sensibio
+    H2O Micellar Water]] and a Clinique micellar jelly, so there is a comparison to
+    build once two or more exist. Same image caution as the sibling entry: verify
+    the bottle in any photo, since incidecoder served the wrong CeraVe SKU on a neighbouring
+    slug.'
