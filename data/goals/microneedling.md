@@ -66,6 +66,16 @@ videos:
   related: [acne-scars, skin-firmness-elasticity, fda-approved-vs-cleared-skincare, anti-aging]
   thesis: 'Board-certified dermatologist Dr. Sarah Sheu draws the line between at-home microneedling and the in-office procedure, opening with a disclaimer that she has no sponsorship or relationship to any microneedling company. Her central point is regulatory: home systems sold with needles around 0.25, 0.3 or 0.5 mm are treated by FDA as cosmetic tools, while longer needles put a device into the medical-device category, and she says selling those for home use is grounds for FDA sending the company a cease and desist. The reason that boundary exists is injury rather than paperwork, since longer needles bring the risk of scarring, increased infection and foreign body granulomas. The practical upshot she gives is that a home device at cosmetic needle lengths is not doing what an in-office treatment does, so the two should not be compared on results.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: 'How to do Microneedling at Home: Dermatologist Guide'
+  creator: Dr. Abigail Waldman (Dr. Abby)
+  creator_slug: abigail-waldman
+  credential: Abigail H. Waldman, MD, FAAD; Associate Professor of Dermatology at Harvard Medical School; Director of the Mohs and Dermatologic Surgery Center at Brigham and Women's Hospital / Dana-Farber Brigham Cancer Center
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=CQ77UIjGMYg
+  posted: '2023-09-27'
+  related: [acne-scars, hyperpigmentation, melasma, anti-aging, stretch-marks]
+  thesis: Dermatologist Abigail Waldman demonstrates at home microneedling on her own face and is specific about the one number that matters most, needle length. She recommends starting at 0.5 mm, which she says is both safe and effective and is roughly the depth of the epidermis at the eyelid, so it does not reach the dermis the way the longer needles used in a clinic do; the tradeoff she states is that in office treatment works faster. She describes sterilising the device in isopropyl alcohol, treats pinpoint bleeding as the sign you have gone deep enough, and says she personally microneedles once a month for texture and pigment while suggesting weekly sessions for acne scars only once the skin has recovered.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

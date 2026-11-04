@@ -5175,3 +5175,20 @@
   status: pending
   discovered_from: krave-beauty
   source: kravebeauty.com/products.json read 2026-11-03
+- name: Banish Banisher 2.0 (at-home microneedling device)
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: microneedling
+  source: 'Dr. Abigail Waldman - How to do Microneedling at Home (video, CQ77UIjGMYg,
+    371k views) The specific device a Harvard dermatologist uses on herself in the
+    371k-view clip carded on [[microneedling]]; she says ''the micro needling device
+    I use is one by banish'' and that its needles are finer and thinner than other
+    home devices. NOT A SPONSORED MENTION: the full transcript was scanned and contains
+    no sponsor, code, affiliate or paid-partnership language, and her roster conflict
+    records disclosed sponsorships on OTHER videos only. Still do not carry her mention
+    as an endorsement beyond what she said. REGULATORY ANGLE IS THE POINT OF THE PAGE:
+    check openFDA for whether a home microneedling roller of this needle length is
+    510(k) cleared at all or sold as a cosmetic device, the way the NuFACE and LED
+    pages handle cleared-versus-marketed scope. Her stated 0.5 mm figure and the pinpoint-bleeding
+    endpoint belong on the page as her practice, attributed.'
