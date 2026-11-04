@@ -125,7 +125,7 @@ Home LED light therapy means a wearable mask or handheld panel that shines colou
 
 ## See Also
 
-[[acne]] [[anti-aging]] [[led-colours-for-acne-by-evidence]] [[led-dose-j-per-cm2-and-wavelength]] [[home-led-devices-by-what-the-file-publishes]] [[microneedling]] [[acne-scars]] [[post-inflammatory-erythema]] [[benzoyl-peroxide]] [[adapalene]] [[skin-firmness-elasticity]]
+[[acne]] [[anti-aging]] [[led-colours-for-acne-by-evidence]] [[led-dose-j-per-cm2-and-wavelength]] [[home-led-devices-by-what-the-file-publishes]] [[blue-light-eye-safety-home-devices]] [[microneedling]] [[acne-scars]] [[post-inflammatory-erythema]] [[benzoyl-peroxide]] [[adapalene]] [[skin-firmness-elasticity]]
 
 ## Sources
 

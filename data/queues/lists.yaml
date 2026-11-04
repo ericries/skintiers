@@ -1095,3 +1095,19 @@
     [[the-ordinary-glycolic-acid-7-toning-solution]] publishes a strength; [[dr-dennis-gross-alpha-beta-universal-daily-peel]]
     names five acids and publishes neither a percentage nor a pH. Curate only over
     pages already on the site; do NOT open new product pages to fill the list.'
+- name: Home LED devices by whether their clearance names a photobiological safety
+    standard
+  type: list
+  priority: 4
+  status: pending
+  discovered_from: blue-light-eye-safety-home-devices
+  source: 'K123999 names IEC 62471; K223482 names no standard at all; both read in
+    full 2026-11-03 CURATORIAL ONLY over product pages that already exist, in the
+    house pattern of [[home-led-devices-by-what-the-file-publishes]] and [[home-device-wrinkle-claims-by-cleared-scope]].
+    The axis is binary and cheap to check: does the device''s own 510(k) name IEC
+    62471, or any photobiological standard, at all? Two data points are already established
+    on [[blue-light-eye-safety-home-devices]]: K123999 names it (OCR-rendered ''lEG
+    62471''), K223482 names no standard whatsoever and tests only software. Extend
+    by reading the remaining cleared devices the site covers. DO NOT open new product
+    pages to fill the list, and DO NOT quote any brand''s eye-safety marketing as
+    if it were in a filing; that error is what the goal page was written to correct.'

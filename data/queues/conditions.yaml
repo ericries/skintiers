@@ -34,71 +34,68 @@
   priority: 5
   status: done
   discovered_from: video-harvest
-  source: 'Dr. Sam Ellis body-exfoliation video (transcript-verified): common condition;
-    urea/AHA/BHA body treatments'
+  source: 'Dr. Sam Ellis body-exfoliation video (transcript-verified): common condition; urea/AHA/BHA
+    body treatments'
 - name: Perioral dermatitis
   type: condition
   priority: 5
   status: done
   discovered_from: general-gap
-  source: Common condition absent from the site; distinct management (stop actives/steroids,
-    topical antibiotics) - high search interest
+  source: Common condition absent from the site; distinct management (stop actives/steroids, topical antibiotics)
+    - high search interest
 - name: Fungal acne (malassezia folliculitis)
   type: condition
   priority: 5
   status: done
   discovered_from: general-gap
-  source: Commonly confused with comedonal acne; different treatment (antifungals,
-    avoid oils/esters) - useful skeptical explainer
+  source: Commonly confused with comedonal acne; different treatment (antifungals, avoid oils/esters)
+    - useful skeptical explainer
 - name: PCOS polycystic ovary syndrome skin symptoms
   type: condition
   priority: 10
   status: done
   discovered_from: user-request
-  source: 'User request: PCOS skincare symptoms + how to address. Explain cystic/hormonal
-    acne vs comedonal clogged-pore acne and PROVEN ingredients for each; note hormonal
-    drivers and that systemic options are prescriber-managed. Sonnet draft + Opus
-    critic, primary sources.'
+  source: 'User request: PCOS skincare symptoms + how to address. Explain cystic/hormonal acne vs comedonal
+    clogged-pore acne and PROVEN ingredients for each; note hormonal drivers and that systemic options
+    are prescriber-managed. Sonnet draft + Opus critic, primary sources.'
 - name: 'atopic-dermatitis: add a graded topical tier_list'
   type: condition
   priority: 4
   status: done
   discovered_from: null
-  source: 'TOOLING/CONTENT: the atopic-dermatitis hub likely lacks a tier_list of
-    graded treatments; with colloidal-oatmeal, ceramides, tacrolimus/pimecrolimus,
-    crisaborole all now on the site, it could host a real evidence-graded tier list
-    and a concern->product feed (like keratosis-pilaris/perioral-dermatitis). Verify
-    current state at next condition cron.'
+  source: 'TOOLING/CONTENT: the atopic-dermatitis hub likely lacks a tier_list of graded treatments; with
+    colloidal-oatmeal, ceramides, tacrolimus/pimecrolimus, crisaborole all now on the site, it could host
+    a real evidence-graded tier list and a concern->product feed (like keratosis-pilaris/perioral-dermatitis).
+    Verify current state at next condition cron.'
 - name: Seborrheic dermatitis (and dandruff)
   type: condition
   priority: 5
   status: done
-  discovered_from: 'LIST cron gap: ketoconazole (built), ciclopirox, zinc pyrithione,
-    selenium sulfide all treat it but no condition hub exists to tie them together'
+  discovered_from: 'LIST cron gap: ketoconazole (built), ciclopirox, zinc pyrithione, selenium sulfide
+    all treat it but no condition hub exists to tie them together'
   source: https://pubmed.ncbi.nlm.nih.gov/25933684/
 - name: Malassezia folliculitis (fungal acne)
   type: condition
   priority: 4
   status: done
-  discovered_from: 'LIST cron gap: common Malassezia-driven condition, treated off-label
-    with ketoconazole/antifungals; distinct from acne'
+  discovered_from: 'LIST cron gap: common Malassezia-driven condition, treated off-label with ketoconazole/antifungals;
+    distinct from acne'
   source: https://pubmed.ncbi.nlm.nih.gov/
 - name: Psoriasis
   type: condition
   priority: 4
   status: done
   discovered_from: coal-tar
-  source: Major chronic inflammatory skin condition referenced by coal tar + many
-    treatments; genuine hub gap (no psoriasis page); would host a treatments tier_list
-    (topical steroids, vitamin D analogs, coal tar, biologics as context)
+  source: Major chronic inflammatory skin condition referenced by coal tar + many treatments; genuine
+    hub gap (no psoriasis page); would host a treatments tier_list (topical steroids, vitamin D analogs,
+    coal tar, biologics as context)
 - name: Contact dermatitis (allergic and irritant)
   type: condition
   priority: 5
   status: done
   discovered_from: atopic-dermatitis
-  source: Common eczematous condition distinct from atopic dermatitis (external trigger);
-    real treatment framework (avoidance + topical corticosteroids + emollients); refills
-    empty condition queue
+  source: Common eczematous condition distinct from atopic dermatitis (external trigger); real treatment
+    framework (avoidance + topical corticosteroids + emollients); refills empty condition queue
 - name: Body acne (back & chest)
   type: condition
   priority: 5
@@ -153,16 +150,15 @@
   status: done
   discovered_from: propylene-glycol
   source: https://pubmed.ncbi.nlm.nih.gov/8312142/
-- name: Vitiligo - autoimmune depigmentation; Opzelura (ruxolitinib) is FDA-approved
-    for it; needs a hub
+- name: Vitiligo - autoimmune depigmentation; Opzelura (ruxolitinib) is FDA-approved for it; needs a hub
   type: condition
   priority: 5
   status: done
   discovered_from: null
   source: null
-- name: Dandruff - the everyday mild-scalp form the site currently folds into seborrheic-dermatitis;
-    MG217 tar shampoo + Neutrogena T/Gel + Nizoral all treat it; decide whether it
-    warrants its own hub or a seb-derm redirect
+- name: Dandruff - the everyday mild-scalp form the site currently folds into seborrheic-dermatitis; MG217
+    tar shampoo + Neutrogena T/Gel + Nizoral all treat it; decide whether it warrants its own hub or a
+    seb-derm redirect
   type: condition
   priority: 5
   status: done
@@ -174,9 +170,9 @@
   status: done
   discovered_from: null
   source: 'discover_hubs: 2 mentions across the video archive; no condition hub yet'
-- name: Melasma in pregnancy (chloasma / mask of pregnancy) - hormone-driven facial
-    hyperpigmentation where the first-line brighteners (hydroquinone, retinoids) are
-    pregnancy-contraindicated, leaving azelaic acid + strict photoprotection
+- name: Melasma in pregnancy (chloasma / mask of pregnancy) - hormone-driven facial hyperpigmentation
+    where the first-line brighteners (hydroquinone, retinoids) are pregnancy-contraindicated, leaving
+    azelaic acid + strict photoprotection
   type: condition
   priority: 5
   status: done
@@ -199,8 +195,8 @@
   priority: 5
   status: done
   discovered_from: sunscreen-uv-filters
-  source: sunscreen-uv-filters prevention coverage + ABCDE recognition; grounded gap
-    (no skin-cancer hub despite heavy sunscreen coverage)
+  source: sunscreen-uv-filters prevention coverage + ABCDE recognition; grounded gap (no skin-cancer hub
+    despite heavy sunscreen coverage)
 - name: Basal cell carcinoma
   type: condition
   priority: 5
@@ -231,40 +227,37 @@
   status: done
   discovered_from: mens-skincare-routine
   source: shaving section of mens-skincare-routine goal hub
-- name: Actinic keratosis, rough scaly precancerous sun-damage growth that can progress
-    to squamous cell carcinoma (NCI Skin Cancer Treatment PDQ); physician-managed
-    hub, prevention link-out to sunscreen
+- name: Actinic keratosis, rough scaly precancerous sun-damage growth that can progress to squamous cell
+    carcinoma (NCI Skin Cancer Treatment PDQ); physician-managed hub, prevention link-out to sunscreen
   type: condition
   priority: 5
   status: done
   discovered_from: null
   source: https://www.cancer.gov/types/skin/patient/skin-treatment-pdq
-- name: Chronic hand eczema (CHE), common occupational skin condition distinct from
-    atopic dermatitis; ~10% global prevalence, higher in women; newer treatments delgocitinib
-    (topical JAK) and alitretinoin (oral) (Gupta 2025 NMA PMID 41277505)
+- name: Chronic hand eczema (CHE), common occupational skin condition distinct from atopic dermatitis;
+    ~10% global prevalence, higher in women; newer treatments delgocitinib (topical JAK) and alitretinoin
+    (oral) (Gupta 2025 NMA PMID 41277505)
   type: condition
   priority: 5
   status: done
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/41277505/
-- name: 'Prurigo nodularis (chronic intensely itchy papulonodular skin disease; dupilumab
-    is the first FDA-approved therapy; frequent atopic comorbidity; source: Kim 2026
-    Am J Clin Dermatol PMID 41219577)'
+- name: 'Prurigo nodularis (chronic intensely itchy papulonodular skin disease; dupilumab is the first
+    FDA-approved therapy; frequent atopic comorbidity; source: Kim 2026 Am J Clin Dermatol PMID 41219577)'
   type: condition
   priority: 5
   status: done
   discovered_from: null
   source: null
-- name: 'Ingrown hairs (hairs curling back into the skin; overlaps with but distinct
-    from pseudofolliculitis barbae; source: PFB treatment reviews)'
+- name: 'Ingrown hairs (hairs curling back into the skin; overlaps with but distinct from pseudofolliculitis
+    barbae; source: PFB treatment reviews)'
   type: condition
   priority: 5
   status: done
   discovered_from: null
   source: null
-- name: Basal cell carcinoma (most common skin cancer; nonmelanoma; NCI Skin Cancer
-    Treatment PDQ) - physician-managed hub, sibling to squamous-cell-carcinoma, prevention
-    link-out to sunscreen
+- name: Basal cell carcinoma (most common skin cancer; nonmelanoma; NCI Skin Cancer Treatment PDQ) - physician-managed
+    hub, sibling to squamous-cell-carcinoma, prevention link-out to sunscreen
   type: condition
   priority: 5
   status: done
@@ -275,380 +268,352 @@
   priority: 5
   status: done
   discovered_from: griseofulvin
-  source: Griseofulvin + terbinafine ingredient pages both treat tinea capitis; no
-    scalp-ringworm condition hub exists yet
+  source: Griseofulvin + terbinafine ingredient pages both treat tinea capitis; no scalp-ringworm condition
+    hub exists yet
 - name: Phytophotodermatitis (lime/margarita burn)
   type: condition
   priority: 5
   status: done
   discovered_from: body-acne
-  source: Dr. Sam Ellis video JWgs2fHYyz8; furanocoumarins plus UV, leaves long-lasting
-    dark marks in melanin-rich skin
+  source: Dr. Sam Ellis video JWgs2fHYyz8; furanocoumarins plus UV, leaves long-lasting dark marks in
+    melanin-rich skin
 - name: Hair loss (androgenetic alopecia) treatments by evidence
   type: condition
   priority: 5
   status: done
   discovered_from: best-gentle-cleansers-sensitive-skin
-  source: 'SCOPE QUESTION for the user: the site has ZERO hair-loss coverage (no hair-loss,
-    alopecia, minoxidil or finasteride page), yet it already covers scalp conditions
-    and rostered derms post about it regularly. A Chris Tomassian TikTok rating hair-loss
-    treatments had nowhere to attach. Queued as a proposal, not a commitment to expand
-    scope.'
+  source: 'SCOPE QUESTION for the user: the site has ZERO hair-loss coverage (no hair-loss, alopecia,
+    minoxidil or finasteride page), yet it already covers scalp conditions and rostered derms post about
+    it regularly. A Chris Tomassian TikTok rating hair-loss treatments had nowhere to attach. Queued as
+    a proposal, not a commitment to expand scope.'
 - name: Giant hogweed (Heracleum mantegazzianum) skin burns
   type: condition
   priority: 5
   status: done
   discovered_from: phytophotodermatitis
-  source: Named in Life 2024 PMID 39202761 as a leading phototoxic plant; a public-health-relevant
-    sub-case with no page
+  source: Named in Life 2024 PMID 39202761 as a leading phototoxic plant; a public-health-relevant sub-case
+    with no page
 - name: 'Skin cancer basics: what a dermatologist checks for'
   type: condition
   priority: 5
   status: done
   discovered_from: fluorouracil-topical
-  source: This drug is approved for superficial basal cell carcinoma and the site
-    has no skin-cancer hub; actinic-keratosis exists but BCC has nowhere to live
+  source: This drug is approved for superficial basal cell carcinoma and the site has no skin-cancer hub;
+    actinic-keratosis exists but BCC has nowhere to live
 - name: Microneedling (at-home and in-office)
   type: condition
   priority: 5
   status: done
   discovered_from: acne
-  source: 'A Dr. Ife Rodney TikTok on microneedling had nowhere to attach; the site
-    covers acne-scars and skin-firmness-elasticity but has no microneedling page.
-    SCOPE NOTE: this is a procedure, which the site has historically deferred'
+  source: 'A Dr. Ife Rodney TikTok on microneedling had nowhere to attach; the site covers acne-scars
+    and skin-firmness-elasticity but has no microneedling page. SCOPE NOTE: this is a procedure, which
+    the site has historically deferred'
 - name: Wild parsnip (Pastinaca sativa) burns
   type: condition
   priority: 5
   status: done
   discovered_from: giant-hogweed-burns
-  source: Named alongside hogweed in Life 2024 PMID 39202761 as a leading phototoxic
-    plant; common in North American roadsides. Check for duplication against phytophotodermatitis
-    before drafting, as hogweed was checked
+  source: Named alongside hogweed in Life 2024 PMID 39202761 as a leading phototoxic plant; common in
+    North American roadsides. Check for duplication against phytophotodermatitis before drafting, as hogweed
+    was checked
 - name: Eczema herpeticum
   type: condition
   priority: 5
   status: done
   discovered_from: delgocitinib
-  source: 'Named in the Anzupgo SPL warning: ''Eczema herpeticum was observed in a
-    subject treated topically with ANZUPGO'' (DailyMed setid a59bf36e-6f04-4b47-b385-8040c95f040c);
-    no hub exists'
+  source: 'Named in the Anzupgo SPL warning: ''Eczema herpeticum was observed in a subject treated topically
+    with ANZUPGO'' (DailyMed setid a59bf36e-6f04-4b47-b385-8040c95f040c); no hub exists'
 - name: Keratinocyte carcinoma (umbrella term for BCC and SCC)
   type: condition
   priority: 5
   status: done
   discovered_from: skin-cancer-screening
-  source: The term the NCI PDQ uses throughout for BCC+SCC combined (5.4M cases in
-    2012); the site has separate basal-cell-carcinoma and squamous-cell-carcinoma
-    pages but no page explaining the umbrella term readers will meet in the literature
+  source: The term the NCI PDQ uses throughout for BCC+SCC combined (5.4M cases in 2012); the site has
+    separate basal-cell-carcinoma and squamous-cell-carcinoma pages but no page explaining the umbrella
+    term readers will meet in the literature
 - name: Ringworm (tinea corporis)
   type: condition
   priority: 5
   status: done
   discovered_from: clotrimazole
-  source: The actual labelled indication of clotrimazole 1% ('cures most ringworm',
-    Bayer SPL b584e17f). The site has athletes-foot and fungal-acne hubs but no page
-    for body ringworm, so the ingredient page has no condition hub to route to
+  source: The actual labelled indication of clotrimazole 1% ('cures most ringworm', Bayer SPL b584e17f).
+    The site has athletes-foot and fungal-acne hubs but no page for body ringworm, so the ingredient page
+    has no condition hub to route to
 - name: Molluscum contagiosum
   type: condition
   priority: 5
   status: done
   discovered_from: eczema-herpeticum
-  source: 'A co-occurring viral skin infection in the cited case (PMID 42647319: the
-    child ''had a recent AD flare, molluscum contagiosum''), and PMID 42802835 reports
-    eczema molluscatum, its eczema-spread analogue, in an AD patient on upadacitinib.
-    No page exists'
+  source: 'A co-occurring viral skin infection in the cited case (PMID 42647319: the child ''had a recent
+    AD flare, molluscum contagiosum''), and PMID 42802835 reports eczema molluscatum, its eczema-spread
+    analogue, in an AD patient on upadacitinib. No page exists'
 - name: Atrophic acne scar subtypes (ice pick, boxcar, rolling)
   type: condition
   priority: 5
   status: done
   discovered_from: fractional-co2-laser-resurfacing
-  source: 'Every source behind the procedure pages conditions its advice on scar TYPE:
-    PMID 42429955 says selection ''should consider scar type, Fitzpatrick skin phototype,
-    downtime, pain, adverse-effect risk, and patient preference'', and subcision applies
-    only to tethered rolling scars. The site has acne-scars as a hub but no page distinguishing
-    the three atrophic subtypes, which is the first question a reader actually needs
-    answered before any of microneedling, subcision, PRP or fractional-co2-laser-resurfacing
+  source: 'Every source behind the procedure pages conditions its advice on scar TYPE: PMID 42429955 says
+    selection ''should consider scar type, Fitzpatrick skin phototype, downtime, pain, adverse-effect
+    risk, and patient preference'', and subcision applies only to tethered rolling scars. The site has
+    acne-scars as a hub but no page distinguishing the three atrophic subtypes, which is the first question
+    a reader actually needs answered before any of microneedling, subcision, PRP or fractional-co2-laser-resurfacing
     applies to them.'
 - name: Tinea corporis (ringworm of the body)
   type: condition
   priority: 5
   status: done
   discovered_from: tolnaftate
-  source: 'Named as a distinct indication on BOTH OTC antifungal labels the site now
-    carries: the Tinactin label covers ''ringworm (tinea corporis)'' and the Bayer
-    clotrimazole label says it ''cures most ringworm''. The site has athletes-foot
-    (tinea pedis) as a condition hub but nothing for body ringworm, even though it
-    is the indication both labels lead with. Note the evidence asymmetry worth building
-    the page on: Crawford 2007 covers the FOOT only, so the body-ringworm indication
-    rests on the monograph rather than on that pooled trial evidence.'
+  source: 'Named as a distinct indication on BOTH OTC antifungal labels the site now carries: the Tinactin
+    label covers ''ringworm (tinea corporis)'' and the Bayer clotrimazole label says it ''cures most ringworm''.
+    The site has athletes-foot (tinea pedis) as a condition hub but nothing for body ringworm, even though
+    it is the indication both labels lead with. Note the evidence asymmetry worth building the page on:
+    Crawford 2007 covers the FOOT only, so the body-ringworm indication rests on the monograph rather
+    than on that pooled trial evidence.'
 - name: Blue light and eye safety in home skincare devices
   type: condition
   priority: 5
   status: done
   discovered_from: neutrogena-light-therapy-acne-mask-plus
-  source: 'Grounded in a gap the Neutrogena page had to leave open. Its K180847 summary
-    cites consensus standards including a collateral standard for non-laser light
-    sources and one for the home healthcare environment, and the reVive K223482 summary
-    separately claims its optics ''limit light scattering and exposure to the eyes''
-    and that it ''has gone through all the clinical testing for eye safety''. Two
-    cleared home LED devices both treat ocular exposure as the safety question, and
-    the site has no page on it. STRICT SOURCING REQUIRED: build only from FDA clearance
-    documents and standards bodies. Do NOT assert or repeat the widely-reported Neutrogena
-    eye-safety withdrawal, which could not be confirmed in openFDA recall, enforcement
-    or registration data on 2026-10-16.'
+  source: 'Grounded in a gap the Neutrogena page had to leave open. Its K180847 summary cites consensus
+    standards including a collateral standard for non-laser light sources and one for the home healthcare
+    environment, and the reVive K223482 summary separately claims its optics ''limit light scattering
+    and exposure to the eyes'' and that it ''has gone through all the clinical testing for eye safety''.
+    Two cleared home LED devices both treat ocular exposure as the safety question, and the site has no
+    page on it. STRICT SOURCING REQUIRED: build only from FDA clearance documents and standards bodies.
+    Do NOT assert or repeat the widely-reported Neutrogena eye-safety withdrawal, which could not be confirmed
+    in openFDA recall, enforcement or registration data on 2026-10-16.'
+  note: 'CORRECTION 2026-11-03: the two eye-safety quotes attributed above to the reVive K223482 510(k)
+    summary are NOT in that document. Read in full on 2026-11-03, its 13,526 characters contain zero occurrences
+    of eye, ocular, goggle, scatter, photobio, 62471 or 60601, and its Testing section covers software
+    validation only. They are brand marketing copy misattributed to an FDA filing. Do not reuse them as
+    a filing quote. Superseded by data/goals/blue-light-eye-safety-home-devices.md.'
 - name: 'Sensitive skin: what the label means and what it does not'
   type: condition
   priority: 5
   status: done
   discovered_from: wang-2025-encorelane-sensitive-skin
-  source: 'The site has a sensitive-skin page, but this study surfaces a definitional
-    problem worth its own treatment: subjects were ''sensitive-skin subjects'' by
-    self-identification, and the in vitro arm models sensitivity by irritating a 3D
-    epidermal culture with sodium lauryl sulfate. Those are two very different constructs,
-    and cosmetic trials routinely slide between them. A page on how sensitive skin
-    is actually defined and measured (self-report, lactic acid sting test, SLS provocation,
-    capsaicin) would let every future sensitive-skin claim on the site be read against
-    a real definition. Check whether this belongs as a section on the existing sensitive-skin
-    page before creating a separate hub.'
+  source: 'The site has a sensitive-skin page, but this study surfaces a definitional problem worth its
+    own treatment: subjects were ''sensitive-skin subjects'' by self-identification, and the in vitro
+    arm models sensitivity by irritating a 3D epidermal culture with sodium lauryl sulfate. Those are
+    two very different constructs, and cosmetic trials routinely slide between them. A page on how sensitive
+    skin is actually defined and measured (self-report, lactic acid sting test, SLS provocation, capsaicin)
+    would let every future sensitive-skin claim on the site be read against a real definition. Check whether
+    this belongs as a section on the existing sensitive-skin page before creating a separate hub.'
 - name: Moccasin-type tinea pedis (sole and sides of the foot)
   type: condition
   priority: 5
   status: done
   discovered_from: butenafine
-  source: 'Grounded in a gap the butenafine label itself names: it claims to cure
-    athlete''s foot BETWEEN THE TOES and then states ''Effectiveness on the bottom
-    or sides of foot is unknown.'' The site has an athletes-foot hub but nothing distinguishing
-    interdigital from moccasin-type distribution, even though the OTC labels treat
-    them differently and at least one explicitly declines to claim the sole. That
-    distinction decides whether an OTC cream is even the right purchase. Crawford
-    2007 covers the foot broadly; check whether it or a newer review reports outcomes
-    by distribution before grading.'
+  source: 'Grounded in a gap the butenafine label itself names: it claims to cure athlete''s foot BETWEEN
+    THE TOES and then states ''Effectiveness on the bottom or sides of foot is unknown.'' The site has
+    an athletes-foot hub but nothing distinguishing interdigital from moccasin-type distribution, even
+    though the OTC labels treat them differently and at least one explicitly declines to claim the sole.
+    That distinction decides whether an OTC cream is even the right purchase. Crawford 2007 covers the
+    foot broadly; check whether it or a newer review reports outcomes by distribution before grading.'
 - name: Tinea cruris (jock itch)
   type: condition
   priority: 5
   status: done
   discovered_from: tinea-corporis-ringworm
-  source: 'The third body-site tinea named alongside corporis and pedis in PMID 41118183,
-    which groups them as the ones that ''generally respond to inexpensive topical
-    antifungal agents''. The site now has athletes-foot (pedis), tinea-capitis and
-    tinea-corporis-ringworm, leaving cruris as the obvious gap. THREE OTC labels already
-    transcribed on this site carry an explicit jock-itch indication with their own
-    dosing: butenafine (once daily, 2 weeks), plus the Lotrimin and Tinactin jock-itch
-    SPLs which are SEPARATE setids from the ones already cited. Pull those SPLs rather
-    than assuming the body-ringworm directions transfer.'
+  source: 'The third body-site tinea named alongside corporis and pedis in PMID 41118183, which groups
+    them as the ones that ''generally respond to inexpensive topical antifungal agents''. The site now
+    has athletes-foot (pedis), tinea-capitis and tinea-corporis-ringworm, leaving cruris as the obvious
+    gap. THREE OTC labels already transcribed on this site carry an explicit jock-itch indication with
+    their own dosing: butenafine (once daily, 2 weeks), plus the Lotrimin and Tinactin jock-itch SPLs
+    which are SEPARATE setids from the ones already cited. Pull those SPLs rather than assuming the body-ringworm
+    directions transfer.'
 - name: Actinic cheilitis (sun damage on the lip)
   type: condition
   priority: 5
   status: done
   discovered_from: lip-care
-  source: 'Grounded in PMID 35242781, already transcribed on lip-care: ''a precursor
-    of malignancy or even an in situ squamous cell carcinoma (SCC) of the lip, located
-    most frequently on the lower lip'', malignant transformation ''ranges from 10
-    to 30%'', and lip SCC called ''one of the deadliest non-melanoma skin cancers''.
-    The site has actinic-keratosis for ordinary skin and keratinocyte-carcinoma for
-    the cancers, but nothing for the lip precursor, which is the single highest-stakes
-    thing on the lip-care page and currently only gets a paragraph there. The review
-    also notes ''Optimal treatment has not been established yet'', so the page must
-    NOT imply a settled treatment hierarchy.'
+  source: 'Grounded in PMID 35242781, already transcribed on lip-care: ''a precursor of malignancy or
+    even an in situ squamous cell carcinoma (SCC) of the lip, located most frequently on the lower lip'',
+    malignant transformation ''ranges from 10 to 30%'', and lip SCC called ''one of the deadliest non-melanoma
+    skin cancers''. The site has actinic-keratosis for ordinary skin and keratinocyte-carcinoma for the
+    cancers, but nothing for the lip precursor, which is the single highest-stakes thing on the lip-care
+    page and currently only gets a paragraph there. The review also notes ''Optimal treatment has not
+    been established yet'', so the page must NOT imply a settled treatment hierarchy.'
 - name: Rolling acne scars (tethered scars treated by subcision)
   type: condition
   priority: 5
   status: done
   discovered_from: acne-scar-procedures-by-evidence
-  source: The new list had to note that the ECCA and Goodman and Baron severity scales
-    do not isolate tethered rolling scars, which is exactly why subcision's rank cannot
-    be read off a severity ranking. acne-scars covers all three post-acne categories
-    at once; the rolling subtype is the one with a specific mechanism (fibrous tethers)
-    and a specific procedure. Only build it if the subtype genuinely has its own evidence;
-    otherwise strengthen the section on acne-scars instead.
+  source: The new list had to note that the ECCA and Goodman and Baron severity scales do not isolate
+    tethered rolling scars, which is exactly why subcision's rank cannot be read off a severity ranking.
+    acne-scars covers all three post-acne categories at once; the rolling subtype is the one with a specific
+    mechanism (fibrous tethers) and a specific procedure. Only build it if the subtype genuinely has its
+    own evidence; otherwise strengthen the section on acne-scars instead.
 - name: Androgenetic alopecia (pattern hair loss)
   type: condition
   priority: 5
   status: done
   discovered_from: foreo-faq-led-masks
-  source: 'Surfaced because FAQ 302 (K242747) is cleared specifically ''to promote
-    hair growth in males with androgenetic alopecia'' and the site has no hub for
-    it, so the FOREO page cannot route readers anywhere. Note the site also lacks
-    a minoxidil page (checked 2026-10-18), and several rostered dermatology creators
-    have hair-loss videos that currently have nowhere to attach. If hair is in scope
-    this is the entry point; if it is not, resolve this entry with that decision recorded
-    so it stops resurfacing. NOT created as a separate page. The site already has
-    data/conditions/hair-loss-thinning.md (updated 2026-08-30), which covers pattern
-    loss, minoxidil 5% vs 2%, telogen effluvium, ketoconazole as an adjunct and PCOS,
-    and which already draws a scope line placing prescription systemics (finasteride,
-    spironolactone) and procedures outside this site''s scope. I drafted androgenetic-alopecia.md
-    before finding that hub via foreo-faq-302''s See Also, then removed it unshipped
-    rather than publish a duplicate whose oral-drug spine also crossed that existing
-    scope line. Folded the genuinely new, in-scope material into the existing hub
-    instead: the microneedling systematic review as an adjunct-only case with its
-    low-quality and conflicted-authorship caveats, the fact that the best comparative
-    drug analysis ranks orals above the one OTC option, that it is male-only, and
-    that no light or laser device appears in it so nothing ranks the site''s hair
-    devices against minoxidil.'
+  source: 'Surfaced because FAQ 302 (K242747) is cleared specifically ''to promote hair growth in males
+    with androgenetic alopecia'' and the site has no hub for it, so the FOREO page cannot route readers
+    anywhere. Note the site also lacks a minoxidil page (checked 2026-10-18), and several rostered dermatology
+    creators have hair-loss videos that currently have nowhere to attach. If hair is in scope this is
+    the entry point; if it is not, resolve this entry with that decision recorded so it stops resurfacing.
+    NOT created as a separate page. The site already has data/conditions/hair-loss-thinning.md (updated
+    2026-08-30), which covers pattern loss, minoxidil 5% vs 2%, telogen effluvium, ketoconazole as an
+    adjunct and PCOS, and which already draws a scope line placing prescription systemics (finasteride,
+    spironolactone) and procedures outside this site''s scope. I drafted androgenetic-alopecia.md before
+    finding that hub via foreo-faq-302''s See Also, then removed it unshipped rather than publish a duplicate
+    whose oral-drug spine also crossed that existing scope line. Folded the genuinely new, in-scope material
+    into the existing hub instead: the microneedling systematic review as an adjunct-only case with its
+    low-quality and conflicted-authorship caveats, the fact that the best comparative drug analysis ranks
+    orals above the one OTC option, that it is male-only, and that no light or laser device appears in
+    it so nothing ranks the site''s hair devices against minoxidil.'
 - name: 'Athlete''s foot: strengthen the interdigital versus moccasin-pattern distinction'
   type: condition
   priority: 5
   status: done
   discovered_from: lotrimin-ultra-athletes-foot-cream
-  source: 'MAINTENANCE, not a new hub: do NOT create a separate moccasin-tinea page,
-    strengthen the existing athletes-foot page. Grounded in a label admission: Lotrimin
-    Ultra claims to cure most athlete''s foot BETWEEN THE TOES and states that ''Effectiveness
-    on the bottom or sides of foot is unknown''. So the pattern on the sole and sides
-    is both common and outside what at least one FDA-approved product claims. The
-    athletes-foot page should say which products are labelled for which pattern, since
-    that determines whether a purchase can work at all. Check the other antifungal
-    labels for the same sentence before generalising. NOTE 2026-10-19: a second label
-    finding for the same section. The clotrimazole SKU branded Lotrimin AF (NDC 11523-6549)
-    claims ONLY ringworm in its Uses section, so a shopper reaching for an AF-branded
-    tube may buy a product that makes no athlete''s foot claim at all. Alongside Lotrimin
-    Ultra''s admission that effectiveness on the bottom or sides of the foot is unknown,
-    athletes-foot now has two sourced reasons to tell readers to read the Uses section
-    rather than the brand name. Done, with one correction to the premise: the queue
-    framed it as a TWO-pattern distinction, and the 2023 Drugs in Context review (PMID
-    37415917) says ''Three main clinical forms of tinea pedis are recognized: interdigital,
-    hyperkeratotic (moccasin-type) and vesiculobullous (inflammatory)''. The vesiculobullous
-    form is now named and flagged as the one the OTC labels do not address at all.
-    The hub already covered the locations well in lay terms but the words moccasin
-    and interdigital appeared ZERO times, which was the real discovery gap; added
-    as prose plus frontmatter aliases so clinical searches resolve. Also linked the
-    two product pages carrying the label split (lamisil-at vs lotrimin-ultra), which
-    the hub referenced only at active-ingredient level, and added the review''s ''The
-    accuracy of clinical diagnosis of tinea pedis is low'' to the diagnosis section.'
+  source: 'MAINTENANCE, not a new hub: do NOT create a separate moccasin-tinea page, strengthen the existing
+    athletes-foot page. Grounded in a label admission: Lotrimin Ultra claims to cure most athlete''s foot
+    BETWEEN THE TOES and states that ''Effectiveness on the bottom or sides of foot is unknown''. So the
+    pattern on the sole and sides is both common and outside what at least one FDA-approved product claims.
+    The athletes-foot page should say which products are labelled for which pattern, since that determines
+    whether a purchase can work at all. Check the other antifungal labels for the same sentence before
+    generalising. NOTE 2026-10-19: a second label finding for the same section. The clotrimazole SKU branded
+    Lotrimin AF (NDC 11523-6549) claims ONLY ringworm in its Uses section, so a shopper reaching for an
+    AF-branded tube may buy a product that makes no athlete''s foot claim at all. Alongside Lotrimin Ultra''s
+    admission that effectiveness on the bottom or sides of the foot is unknown, athletes-foot now has
+    two sourced reasons to tell readers to read the Uses section rather than the brand name. Done, with
+    one correction to the premise: the queue framed it as a TWO-pattern distinction, and the 2023 Drugs
+    in Context review (PMID 37415917) says ''Three main clinical forms of tinea pedis are recognized:
+    interdigital, hyperkeratotic (moccasin-type) and vesiculobullous (inflammatory)''. The vesiculobullous
+    form is now named and flagged as the one the OTC labels do not address at all. The hub already covered
+    the locations well in lay terms but the words moccasin and interdigital appeared ZERO times, which
+    was the real discovery gap; added as prose plus frontmatter aliases so clinical searches resolve.
+    Also linked the two product pages carrying the label split (lamisil-at vs lotrimin-ultra), which the
+    hub referenced only at active-ingredient level, and added the review''s ''The accuracy of clinical
+    diagnosis of tinea pedis is low'' to the diagnosis section.'
 - name: Actinic cheilitis
   type: condition
   priority: 5
   status: done
   discovered_from: jack-black-intense-therapy-lip-balm-spf-25
-  source: The condition that motivates buying an SPF lip balm at all, and the site
-    has only lip-care. Chronic UV exposure heads its risk factors, and the new Jack
-    Black page had to state that the product's label makes NO skin-cancer or long-term-damage
-    claim, which leaves a reader with nowhere to learn what the actual risk is. It
-    is a premalignant lesion, so source it from a primary (PubMed or an NCI PDQ page)
-    and keep the see-a-clinician routing prominent; the lip-care page already flags
-    chronic UV as the leading risk factor. ALREADY EXISTS as data/conditions/actinic-cheilitis.md,
-    'Actinic Cheilitis (sun damage on the lip)'. Resolved as a duplicate on 2026-10-27.
-    It is already linked from lip-care, jack-black-intense-therapy-lip-balm-spf-25
-    and trader-joes-sunscreen-lip-balm. Nothing to build. Queue items generated without
-    a sk find duplicate check keep proposing pages that exist; check with sk find
+  source: The condition that motivates buying an SPF lip balm at all, and the site has only lip-care.
+    Chronic UV exposure heads its risk factors, and the new Jack Black page had to state that the product's
+    label makes NO skin-cancer or long-term-damage claim, which leaves a reader with nowhere to learn
+    what the actual risk is. It is a premalignant lesion, so source it from a primary (PubMed or an NCI
+    PDQ page) and keep the see-a-clinician routing prominent; the lip-care page already flags chronic
+    UV as the leading risk factor. ALREADY EXISTS as data/conditions/actinic-cheilitis.md, 'Actinic Cheilitis
+    (sun damage on the lip)'. Resolved as a duplicate on 2026-10-27. It is already linked from lip-care,
+    jack-black-intense-therapy-lip-balm-spf-25 and trader-joes-sunscreen-lip-balm. Nothing to build. Queue
+    items generated without a sk find duplicate check keep proposing pages that exist; check with sk find
     before queueing a hub.
 - name: Dermatophytoma
   type: condition
   priority: 5
   status: done
   discovered_from: efinaconazole
-  source: Named as an EXCLUSION criterion in both efinaconazole phase 3 trials on
-    the DailyMed label read 2026-10-21 ('without dermatophytomas or lunula (matrix)
-    involvement'), and the site has no page for it. It matters because it is one of
-    the two features that put a nail outside the population where the 17.8% complete-cure
-    figure applies, so a reader with a dermatophytoma is reading the wrong number.
-    Confirm the clinical definition from a primary dermatology source before drafting;
-    keep it tight and route treatment to onychomycosis.
+  source: Named as an EXCLUSION criterion in both efinaconazole phase 3 trials on the DailyMed label read
+    2026-10-21 ('without dermatophytomas or lunula (matrix) involvement'), and the site has no page for
+    it. It matters because it is one of the two features that put a nail outside the population where
+    the 17.8% complete-cure figure applies, so a reader with a dermatophytoma is reading the wrong number.
+    Confirm the clinical definition from a primary dermatology source before drafting; keep it tight and
+    route treatment to onychomycosis.
 - name: Xerosis (dry, scaly skin) as a clinical term
   type: condition
   priority: 5
   status: done
   discovered_from: keratolytics-compared
-  source: 'The actual endpoint of every head-to-head keratolytic trial on keratolytics-compared,
-    and the term the FDA-approved ammonium lactate indication uses, yet the site has
-    only dry-skin as a lay-term page. CHECK FIRST whether dry-skin already covers
-    the clinical term adequately and resolve this item if it does, because a second
-    dry-skin page would be the sixth near-duplicate pair here. If it does not, the
-    useful content is narrow: what xerosis means clinically, that trials grade its
-    SEVERITY on scales the abstracts rarely explain, and that foot and body xerosis
-    is where the keratolytic evidence actually lives rather than the face.'
+  source: 'The actual endpoint of every head-to-head keratolytic trial on keratolytics-compared, and the
+    term the FDA-approved ammonium lactate indication uses, yet the site has only dry-skin as a lay-term
+    page. CHECK FIRST whether dry-skin already covers the clinical term adequately and resolve this item
+    if it does, because a second dry-skin page would be the sixth near-duplicate pair here. If it does
+    not, the useful content is narrow: what xerosis means clinically, that trials grade its SEVERITY on
+    scales the abstracts rarely explain, and that foot and body xerosis is where the keratolytic evidence
+    actually lives rather than the face.'
 - name: Calluses and corns
   type: condition
   priority: 5
   status: done
   discovered_from: null
-  source: smoothing-skin-texture names calluses and corns as a common cause of thickened
-    skin with no page on this site
+  source: smoothing-skin-texture names calluses and corns as a common cause of thickened skin with no
+    page on this site
 - name: Warts (verruca)
   type: condition
   priority: 5
   status: done
   discovered_from: null
-  source: smoothing-skin-texture names warts as a common cause of thickened skin with
-    no page on this site
+  source: smoothing-skin-texture names warts as a common cause of thickened skin with no page on this
+    site
 - name: Seborrhoeic keratosis
   type: condition
   priority: 5
   status: done
   discovered_from: null
-  source: smoothing-skin-texture names seborrhoeic keratoses as a common cause of
-    thickened skin with no page on this site
+  source: smoothing-skin-texture names seborrhoeic keratoses as a common cause of thickened skin with
+    no page on this site
 - name: Sebaceous filaments vs blackheads section for the blackheads hub
   type: condition
   priority: 5
   status: done
   discovered_from: null
-  source: mis-typed as an ingredient in the ingredient queue; it is a disambiguation
-    section for the blackheads hub, not an ingredient. Normal grey nose dots that
-    pore strips remove and that return, a common source of over-treatment
+  source: mis-typed as an ingredient in the ingredient queue; it is a disambiguation section for the blackheads
+    hub, not an ingredient. Normal grey nose dots that pore strips remove and that return, a common source
+    of over-treatment
 - name: Common warts (verruca vulgaris)
   type: condition
   priority: 5
   status: done
   discovered_from: verrica-pharmaceuticals
-  source: Verrica states it is developing YCANTH (VP-102) for common warts; the site
-    has no warts hub, and smoothing-skin-texture separately flags warts as a common
-    cause of thickened skin with no page
+  source: Verrica states it is developing YCANTH (VP-102) for common warts; the site has no warts hub,
+    and smoothing-skin-texture separately flags warts as a common cause of thickened skin with no page
 - name: Candidal intertrigo
   type: condition
   priority: 5
   status: done
   discovered_from: tinea-cruris-jock-itch
-  source: named on the new jock itch page as one of the look-alikes occupying the
-    same skin folds; no hub exists, and the AFP review warns clinical diagnosis without
-    testing may be unreliable
+  source: named on the new jock itch page as one of the look-alikes occupying the same skin folds; no
+    hub exists, and the AFP review warns clinical diagnosis without testing may be unreliable
 - name: Inverse psoriasis
   type: condition
   priority: 5
   status: done
   discovered_from: tinea-cruris-jock-itch
-  source: named on the new jock itch page as a groin-fold look-alike for tinea cruris;
-    the site has a psoriasis hub but nothing on the inverse/flexural form
+  source: named on the new jock itch page as a groin-fold look-alike for tinea cruris; the site has a
+    psoriasis hub but nothing on the inverse/flexural form
 - name: Cradle cap (infantile seborrhoeic dermatitis)
   type: condition
   priority: 5
   status: done
   discovered_from: stearyl-glycyrrhetinate
-  source: 'PMID 33934474 calls it a benign and self-limiting variant of seborrheic
-    dermatitis; the site has a seborrheic-dermatitis hub but nothing on the infant
-    form, which is where the self-limiting caveat matters most Shipped 2026-11-03
-    as data/conditions/cradle-cap.md with a deliberately flat tier_list. The entry
-    was right that the self-limiting caveat matters most here: Cochrane 2019 (PMID
-    30828791) found very low-certainty evidence for every comparison and says the
-    prognosis was favourable regardless of intervention, which is why the Micali study
-    this was discovered from cannot support its own conclusion. Linked from seborrheic-dermatitis.'
+  source: 'PMID 33934474 calls it a benign and self-limiting variant of seborrheic dermatitis; the site
+    has a seborrheic-dermatitis hub but nothing on the infant form, which is where the self-limiting caveat
+    matters most Shipped 2026-11-03 as data/conditions/cradle-cap.md with a deliberately flat tier_list.
+    The entry was right that the self-limiting caveat matters most here: Cochrane 2019 (PMID 30828791)
+    found very low-certainty evidence for every comparison and says the prognosis was favourable regardless
+    of intervention, which is why the Micali study this was discovered from cannot support its own conclusion.
+    Linked from seborrheic-dermatitis.'
 - name: Moccasin-type athlete's foot (plantar tinea pedis)
   type: condition
   priority: 5
   status: pending
   discovered_from: lamisil-at-cream-terbinafine-1
-  source: 'the sole-and-sides pattern that splits the two leading OTC antifungal creams:
-    Lamisil AT claims it with a two-week course, Lotrimin Ultra says effectiveness
-    there is unknown. No page covers the pattern itself'
-- name: 'Palmoplantar pustulosis (PPP) - sterile pustules on an erythematous base
-    over palms and soles, chronic and relapsing. The site has psoriasis but no PPP
-    hub, so hsu-2025-ethnic-differences-palmoplantar-pustulosis (now published) has
-    nothing condition-level to attach to. The review supplies the spine: incidence
-    highest in East Asian and especially Japanese populations, female-predominant
-    worldwide but male-predominant in Asia, IL36RN/CARD14/HLA genetics, and strong
-    smoking association. Treat the ethnic treatment-response data as hypothesis-generating
-    only. Source: pubmed.ncbi.nlm.nih.gov/40888828'
+  source: 'the sole-and-sides pattern that splits the two leading OTC antifungal creams: Lamisil AT claims
+    it with a two-week course, Lotrimin Ultra says effectiveness there is unknown. No page covers the
+    pattern itself'
+- name: 'Palmoplantar pustulosis (PPP) - sterile pustules on an erythematous base over palms and soles,
+    chronic and relapsing. The site has psoriasis but no PPP hub, so hsu-2025-ethnic-differences-palmoplantar-pustulosis
+    (now published) has nothing condition-level to attach to. The review supplies the spine: incidence
+    highest in East Asian and especially Japanese populations, female-predominant worldwide but male-predominant
+    in Asia, IL36RN/CARD14/HLA genetics, and strong smoking association. Treat the ethnic treatment-response
+    data as hypothesis-generating only. Source: pubmed.ncbi.nlm.nih.gov/40888828'
   type: condition
   priority: 5
   status: pending
   discovered_from: null
   source: null
-- name: 'Vesiculobullous (inflammatory) tinea pedis - the THIRD recognized clinical
-    form of athlete''s foot, named on athletes-foot from the 2023 review (PMID 37415917)
-    as the one the over-the-counter labels do not address at all. That gap is the
-    point: butenafine, terbinafine and clotrimazole OTC labels all write their claims
-    by LOCATION (between the toes, bottom or sides) and none claims the blistering
-    form, so a reader with it has no OTC claim to rely on. Needs its own hub or a
-    clearly flagged section. Source: pubmed.ncbi.nlm.nih.gov/37415917'
+- name: 'Vesiculobullous (inflammatory) tinea pedis - the THIRD recognized clinical form of athlete''s
+    foot, named on athletes-foot from the 2023 review (PMID 37415917) as the one the over-the-counter
+    labels do not address at all. That gap is the point: butenafine, terbinafine and clotrimazole OTC
+    labels all write their claims by LOCATION (between the toes, bottom or sides) and none claims the
+    blistering form, so a reader with it has no OTC claim to rely on. Needs its own hub or a clearly flagged
+    section. Source: pubmed.ncbi.nlm.nih.gov/37415917'
   type: condition
   priority: 5
   status: pending
@@ -659,242 +624,222 @@
   priority: 5
   status: pending
   discovered_from: vahabi-2025-axillary-hyperpigmentation-systematic-review
-  source: 'The site has no hub for underarm darkening despite covering it in two places
-    already: cyperus-rotundus analyses the axillary pigmentation trials in detail,
-    and the new Vahabi 2025 study page (PMID 40843925) is a whole systematic review
-    of treatments for it. The review''s own framing is that it is ''a common dermatologic
-    complaint, with no standard treatment'', which is exactly the gap a hub should
-    fill. Content the hub owns that no existing page does: the mechanical causes specific
-    to the axilla (friction, shaving irritation, occlusion, deodorant contact dermatitis),
-    the differential with acanthosis nigricans (which is an insulin-resistance sign,
-    not a pigment-product problem, and is the single most important thing to route
-    out), and a tier_list over the graded topicals. Route facial pigment to hyperpigmentation
+  source: 'The site has no hub for underarm darkening despite covering it in two places already: cyperus-rotundus
+    analyses the axillary pigmentation trials in detail, and the new Vahabi 2025 study page (PMID 40843925)
+    is a whole systematic review of treatments for it. The review''s own framing is that it is ''a common
+    dermatologic complaint, with no standard treatment'', which is exactly the gap a hub should fill.
+    Content the hub owns that no existing page does: the mechanical causes specific to the axilla (friction,
+    shaving irritation, occlusion, deodorant contact dermatitis), the differential with acanthosis nigricans
+    (which is an insulin-resistance sign, not a pigment-product problem, and is the single most important
+    thing to route out), and a tier_list over the graded topicals. Route facial pigment to hyperpigmentation
     and melasma; route lasers and IPL out as procedures-phase.'
 - name: Bullous pemphigoid
   type: condition
   priority: 3
   status: pending
   discovered_from: dupilumab
-  source: 'Autoimmune blistering disease of older adults and one of the nine indications
-    on the Dupixent label, with no hub on the site. Grounded because the dupilumab
-    page now lists it and a reader following that list finds nothing. The hub''s job
-    is small and specific: say what it is, that it is a disease requiring a clinician
-    rather than a skincare problem, and route to dupilumab as an approved systemic
-    option. Do NOT write a cosmetic angle; there is not one. Keep it tight and check
-    the label plus one dermatology review for the clinical description.'
+  source: 'Autoimmune blistering disease of older adults and one of the nine indications on the Dupixent
+    label, with no hub on the site. Grounded because the dupilumab page now lists it and a reader following
+    that list finds nothing. The hub''s job is small and specific: say what it is, that it is a disease
+    requiring a clinician rather than a skincare problem, and route to dupilumab as an approved systemic
+    option. Do NOT write a cosmetic angle; there is not one. Keep it tight and check the label plus one
+    dermatology review for the clinical description.'
 - name: Post-inflammatory hyperpigmentation (PIH)
   type: condition
   priority: 5
   status: pending
   discovered_from: post-ablative-laser-aftercare
-  source: 'The site has post-inflammatory-erythema (PIE) but NOT post-inflammatory
-    hyperpigmentation, and PIH has now come up twice in one day from different directions:
-    the Vahabi 2025 axillary systematic review opens by calling it ''a common dermatologic
-    complaint that affects different parts of the body'', and PIH is the complication
-    that makes ablative laser recovery long rather than short. The hub''s job is the
-    distinction readers get wrong, PIE is red and vascular while PIH is brown and
-    pigmentary, and they respond to different things, so it should route to post-inflammatory-erythema
-    for the red version and to hyperpigmentation for the general pigment evidence
-    rather than re-explaining either. Also route the post-laser case to post-ablative-laser-aftercare
-    and check PMID 32979860, a post-ablative-laser PIH RCT that is separately queued
-    as fusidic acid.'
+  source: 'The site has post-inflammatory-erythema (PIE) but NOT post-inflammatory hyperpigmentation,
+    and PIH has now come up twice in one day from different directions: the Vahabi 2025 axillary systematic
+    review opens by calling it ''a common dermatologic complaint that affects different parts of the body'',
+    and PIH is the complication that makes ablative laser recovery long rather than short. The hub''s
+    job is the distinction readers get wrong, PIE is red and vascular while PIH is brown and pigmentary,
+    and they respond to different things, so it should route to post-inflammatory-erythema for the red
+    version and to hyperpigmentation for the general pigment evidence rather than re-explaining either.
+    Also route the post-laser case to post-ablative-laser-aftercare and check PMID 32979860, a post-ablative-laser
+    PIH RCT that is separately queued as fusidic acid.'
 - name: Acne mechanica (maskne, friction acne)
   type: condition
   priority: 5
   status: pending
   discovered_from: roessle-2025-incobotulinumtoxin-a-maskne-rct
-  source: 'Acne mechanica is the general condition that ''maskne'' is one instance
-    of, and the site has no hub for either term despite now carrying a placebo-controlled
-    trial about it (PMID 40847901). The hub''s job is the distinction a reader actually
-    needs: acne mechanica is driven by friction, pressure, occlusion and heat under
-    a mask, helmet, strap or sports gear, which makes it mechanical rather than hormonal,
-    and the management differs accordingly (barrier and friction reduction, changing
-    what sits against the skin) from the hormonal-acne route. Route ordinary facial
-    acne to acne, hormonal patterns to hormonal-acne, and the injectable evidence
-    to the Roessle study page with its limitation intact, that the trial measured
-    skin-quality surrogates and never counted a lesion. Do NOT build this as a COVID-era
-    topic; mask acne is the hook, friction acne is the subject.'
+  source: 'Acne mechanica is the general condition that ''maskne'' is one instance of, and the site has
+    no hub for either term despite now carrying a placebo-controlled trial about it (PMID 40847901). The
+    hub''s job is the distinction a reader actually needs: acne mechanica is driven by friction, pressure,
+    occlusion and heat under a mask, helmet, strap or sports gear, which makes it mechanical rather than
+    hormonal, and the management differs accordingly (barrier and friction reduction, changing what sits
+    against the skin) from the hormonal-acne route. Route ordinary facial acne to acne, hormonal patterns
+    to hormonal-acne, and the injectable evidence to the Roessle study page with its limitation intact,
+    that the trial measured skin-quality surrogates and never counted a lesion. Do NOT build this as a
+    COVID-era topic; mask acne is the hook, friction acne is the subject.'
 - name: Conjunctivitis and keratitis from IL-13 and IL-4 biologics
   type: condition
   priority: 5
   status: pending
   discovered_from: tralokinumab
-  source: The Adbry label reports conjunctivitis at 7.5% vs 3.1% placebo on monotherapy
-    and 13.6% vs 4.9% with topical steroid, and lists conjunctivitis and keratitis
-    as a named warning; the same ocular signal recurs on dupilumab. No hub covers
-    it and two graded ingredient pages now point at it
+  source: The Adbry label reports conjunctivitis at 7.5% vs 3.1% placebo on monotherapy and 13.6% vs 4.9%
+    with topical steroid, and lists conjunctivitis and keratitis as a named warning; the same ocular signal
+    recurs on dupilumab. No hub covers it and two graded ingredient pages now point at it
 - name: Warts (common and plantar)
   type: condition
   priority: 5
   status: done
   discovered_from: calluses-and-corns
-  source: 'A genuine gap the new hub ran into: 40% salicylic acid plasters carry the
-    single purpose line ''Corn Remover Wart remover'', so the same OTC product is
-    sold for both, and this site has no warts page to send readers to. openFDA brand_name
-    ''wart'' plus DailyMed SPLs are the primary route'
+  source: 'A genuine gap the new hub ran into: 40% salicylic acid plasters carry the single purpose line
+    ''Corn Remover Wart remover'', so the same OTC product is sold for both, and this site has no warts
+    page to send readers to. openFDA brand_name ''wart'' plus DailyMed SPLs are the primary route'
 - name: Underarm and body odor
   type: condition
   priority: 5
   status: pending
   discovered_from: surface-deep-anti-odorant-wipes
-  source: The claimed target of the new wipes page and of a whole product category,
-    with no hub here to host the evidence; the wipes page had to say that nothing
-    on glycolic-acid, body-acne or probiotics supports an odor claim. Primary route
-    is the axillary microbiome and antiperspirant literature on PubMed
+  source: The claimed target of the new wipes page and of a whole product category, with no hub here to
+    host the evidence; the wipes page had to say that nothing on glycolic-acid, body-acne or probiotics
+    supports an odor claim. Primary route is the axillary microbiome and antiperspirant literature on
+    PubMed
 - name: Epidermoid cyst
   type: condition
   priority: 5
   status: pending
   discovered_from: tretinoin
-  source: 'Dr Dray''s tretinoin-limitations video (JXatcmRLaUY, 2026-10-29) leads
-    with it: commonly mistaken for a blackhead, squeezed by patients, and unreachable
-    by any topical. No page here, and the tretinoin card now references it with nothing
-    to link to'
+  source: 'Dr Dray''s tretinoin-limitations video (JXatcmRLaUY, 2026-10-29) leads with it: commonly mistaken
+    for a blackhead, squeezed by patients, and unreachable by any topical. No page here, and the tretinoin
+    card now references it with nothing to link to'
 - name: Telangiectasia (broken capillaries)
   type: condition
   priority: 5
   status: pending
   discovered_from: tretinoin
-  source: Named in JXatcmRLaUY as something no topical of any kind will clear. The
-    site covers it only obliquely via rosacea-erythematotelangiectatic and facial-redness-relief;
-    a hub would let the device and laser evidence (PDL, IPL) be graded in one place
+  source: Named in JXatcmRLaUY as something no topical of any kind will clear. The site covers it only
+    obliquely via rosacea-erythematotelangiectatic and facial-redness-relief; a hub would let the device
+    and laser evidence (PDL, IPL) be graded in one place
 - name: Dyshidrotic eczema (pompholyx)
   type: condition
   priority: 5
   status: pending
   discovered_from: chronic-hand-eczema
-  source: Doctorly's explainer (NhbB5p6WUKk, 2026-08-03) is now carded on chronic-hand-eczema
-    for want of a dedicated page, but dyshidrotic eczema is its own entity with distinct
-    presentation (deep-seated vesicles that do not pop, described as tapioca under
-    the skin) and triggers; the card's claims about cortisone being the only OTC option
-    with robust data should be graded against primary sources, not inherited from
-    the video
+  source: Doctorly's explainer (NhbB5p6WUKk, 2026-08-03) is now carded on chronic-hand-eczema for want
+    of a dedicated page, but dyshidrotic eczema is its own entity with distinct presentation (deep-seated
+    vesicles that do not pop, described as tapioca under the skin) and triggers; the card's claims about
+    cortisone being the only OTC option with robust data should be graded against primary sources, not
+    inherited from the video
 - name: Hyperhidrosis (excess sweating)
   type: condition
   priority: 5
   status: pending
   discovered_from: chronic-hand-eczema
-  source: Named in NhbB5p6WUKk as a contributor to palmar dyshidrotic eczema via barrier
-    breakdown; no page here, and it is also the target of a whole OTC and prescription
-    antiperspirant category the site does not cover
+  source: Named in NhbB5p6WUKk as a contributor to palmar dyshidrotic eczema via barrier breakdown; no
+    page here, and it is also the target of a whole OTC and prescription antiperspirant category the site
+    does not cover
 - name: Adult female acne
   type: condition
   priority: 5
   status: pending
   discovered_from: ghanem-2025-spironolactone-acne-meta-analysis
-  source: Both spironolactone studies here are specifically in adult women, and the
-    Chemist Confessions podcast on why treating adult acne differs was rejected from
-    the video queue for want of a page. The acne hub does not separate the adult-female
-    presentation that hormonal therapy targets
+  source: Both spironolactone studies here are specifically in adult women, and the Chemist Confessions
+    podcast on why treating adult acne differs was rejected from the video queue for want of a page. The
+    acne hub does not separate the adult-female presentation that hormonal therapy targets
 - name: Permanent hypopigmentation from topical treatments
   type: condition
   priority: 5
   status: pending
   discovered_from: imiquimod
-  source: The imiquimod label warns that 'Localized complete depigmentation has occurred
-    and persisted' and says to discontinue if it develops. No hub here covers treatment-induced
-    depigmentation, which is a different entity from vitiligo and from post-inflammatory
-    hypopigmentation; verify against the labels of the drugs that carry such warnings
+  source: The imiquimod label warns that 'Localized complete depigmentation has occurred and persisted'
+    and says to discontinue if it develops. No hub here covers treatment-induced depigmentation, which
+    is a different entity from vitiligo and from post-inflammatory hypopigmentation; verify against the
+    labels of the drugs that carry such warnings
 - name: Heel fissures (cracked heels)
   type: condition
   priority: 5
   status: pending
   discovered_from: urea
-  source: Dr Dray's explainer (GKwS9hUfQuw, 2026-10-13) describes cracked heels as
-    dryness plus thickened skin plus mechanical stress, with the deep painful cracks
-    called fissures and walking deepening them. The card is parked on urea for want
-    of a page; calluses-and-corns covers the thickening and dry-skin the dryness,
-    but neither covers the fissures themselves
+  source: Dr Dray's explainer (GKwS9hUfQuw, 2026-10-13) describes cracked heels as dryness plus thickened
+    skin plus mechanical stress, with the deep painful cracks called fissures and walking deepening them.
+    The card is parked on urea for want of a page; calluses-and-corns covers the thickening and dry-skin
+    the dryness, but neither covers the fissures themselves
 - name: Dermatosis papulosa nigra
   type: condition
   priority: 5
   status: pending
   discovered_from: seborrhoeic-keratosis
-  source: 'PMID 17373158 (J Drugs Dermatol 2007): histology not significantly different
-    from seborrhoeic keratosis, highly prevalent in African-American and Afro-Caribbean
-    skin, no page on this site'
+  source: 'PMID 17373158 (J Drugs Dermatol 2007): histology not significantly different from seborrhoeic
+    keratosis, highly prevalent in African-American and Afro-Caribbean skin, no page on this site'
 - name: Shingles (herpes zoster)
   type: condition
   priority: 5
   status: pending
   discovered_from: seborrhoeic-keratosis
-  source: No page here; surfaced as a repeatedly-queued video topic from two rostered
-    dermatologists (Laura Soong 1vnwa9di574 and eEVnit0lL64), both rejected only because
-    no hub exists to attach them to
+  source: No page here; surfaced as a repeatedly-queued video topic from two rostered dermatologists (Laura
+    Soong 1vnwa9di574 and eEVnit0lL64), both rejected only because no hub exists to attach them to
 - name: Allergic contact cheilitis
   type: condition
   priority: 5
   status: pending
   discovered_from: eos-super-balm
-  source: The delayed-hypersensitivity lip reaction this page's whole argument turns
-    on; the site has contact-dermatitis but no lip-specific hub, and two lip-balm
-    pages now reference the mechanism
+  source: The delayed-hypersensitivity lip reaction this page's whole argument turns on; the site has
+    contact-dermatitis but no lip-specific hub, and two lip-balm pages now reference the mechanism
 - name: Nipple pain and trauma in breastfeeding
   type: condition
   priority: 5
   status: pending
   discovered_from: lanolin
-  source: The one indication where lanolin has a pooled analysis behind it (PMID 39436586,
-    11 studies, 1,495 participants); the site has no hub for it
+  source: The one indication where lanolin has a pooled analysis behind it (PMID 39436586, 11 studies,
+    1,495 participants); the site has no hub for it
 - name: Diaper rash (irritant diaper dermatitis)
   type: condition
   priority: 5
   status: pending
   discovered_from: candidal-intertrigo
-  source: The same moisture-plus-friction-plus-occlusion mechanism Kalra 2014 describes
-    for intertrigo, with candidal superinfection common; the site has no hub despite
-    covering zinc oxide
+  source: The same moisture-plus-friction-plus-occlusion mechanism Kalra 2014 describes for intertrigo,
+    with candidal superinfection common; the site has no hub despite covering zinc oxide
 - name: Skin cancer risk in organ transplant recipients
   type: condition
   priority: 5
   status: pending
   discovered_from: morello-vicente-2025-cryotherapy-tirbanibulin-actinic-keratosis
-  source: The population of this trial, singled out because immunosuppression raises
-    actinic keratosis and squamous cell carcinoma burden; the site has actinic-keratosis
-    and melanoma but no hub for this group
+  source: The population of this trial, singled out because immunosuppression raises actinic keratosis
+    and squamous cell carcinoma burden; the site has actinic-keratosis and melanoma but no hub for this
+    group
 - name: Truncal acne (back and chest)
   type: condition
   priority: 5
   status: pending
   discovered_from: home-led-devices-for-body-acne
-  source: The condition this whole list is about; the site has acne plus best-body-acne-products
-    but no hub for truncal acne, whose treatment differs from facial acne in surface
-    area, vehicle choice and application difficulty
+  source: The condition this whole list is about; the site has acne plus best-body-acne-products but no
+    hub for truncal acne, whose treatment differs from facial acne in surface area, vehicle choice and
+    application difficulty
 - name: Alopecia areata
   type: condition
   priority: 5
   status: pending
   discovered_from: baricitinib
-  source: The sole dermatology indication of this drug and of ritlecitinib and topical
-    ruxolitinib; the site has hair-loss-thinning but no hub for the autoimmune form,
-    which is a different disease with different treatments. Queued twice over now
-    (also surfaced by Laura Soong's minoxidil clip)
+  source: The sole dermatology indication of this drug and of ritlecitinib and topical ruxolitinib; the
+    site has hair-loss-thinning but no hub for the autoimmune form, which is a different disease with
+    different treatments. Queued twice over now (also surfaced by Laura Soong's minoxidil clip)
 - name: Cracked heels (heel fissures)
   type: condition
   priority: 5
   status: pending
   discovered_from: kerasal-intensive-foot-repair
-  source: The problem this entire product category is bought for; the site has calluses-and-corns
-    and dry-skin but no hub for heel fissures, which differ in depth, pain and infection
-    risk
+  source: The problem this entire product category is bought for; the site has calluses-and-corns and
+    dry-skin but no hub for heel fissures, which differ in depth, pain and infection risk
 - name: Genital psoriasis
   type: condition
   priority: 5
   status: pending
   discovered_from: inverse-psoriasis
-  source: Grouped with inverse psoriasis in the Reynolds 2020 review's own search
-    terms and included study population (anogenital regions), but it carries its own
-    quality-of-life and treatment-tolerability issues; no page here
+  source: Grouped with inverse psoriasis in the Reynolds 2020 review's own search terms and included study
+    population (anogenital regions), but it carries its own quality-of-life and treatment-tolerability
+    issues; no page here
 - name: Ichthyosis vulgaris
   type: condition
   priority: 5
   status: pending
   discovered_from: lac-hydrin-ammonium-lactate-lotion-12
-  source: 'FDA-approved indication on the Lac-Hydrin label, DailyMed SPL 3d94a218
-    One of the two FDA-approved indications for 12% ammonium lactate, and the site
-    has no hub for it. Grounded in the Lac-Hydrin SPL (set id 3d94a218): ''indicated
-    for the treatment of dry, scaly skin (xerosis) and ichthyosis vulgaris''. Buxman
-    1986 (PMID 3539006, cited on [[ammonium-lactate]]) is the vehicle-controlled trial.
-    Keep the hub tight and host a tier_list over the keratolytics that already have
-    pages (ammonium-lactate, urea, lactic-acid, salicylic-acid) rather than writing
-    an essay; link to [[dry-skin]] rather than re-explaining xerosis.'
+  source: 'FDA-approved indication on the Lac-Hydrin label, DailyMed SPL 3d94a218 One of the two FDA-approved
+    indications for 12% ammonium lactate, and the site has no hub for it. Grounded in the Lac-Hydrin SPL
+    (set id 3d94a218): ''indicated for the treatment of dry, scaly skin (xerosis) and ichthyosis vulgaris''.
+    Buxman 1986 (PMID 3539006, cited on [[ammonium-lactate]]) is the vehicle-controlled trial. Keep the
+    hub tight and host a tier_list over the keratolytics that already have pages (ammonium-lactate, urea,
+    lactic-acid, salicylic-acid) rather than writing an essay; link to [[dry-skin]] rather than re-explaining
+    xerosis.'

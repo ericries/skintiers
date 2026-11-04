@@ -5192,3 +5192,9 @@
     510(k) cleared at all or sold as a cosmetic device, the way the NuFACE and LED
     pages handle cleared-versus-marketed scope. Her stated 0.5 mm figure and the pinpoint-bleeding
     endpoint belong on the page as her practice, attributed.'
+- name: illuMask Anti-Aging Light Therapy Mask (K123999 sibling)
+  type: product
+  priority: 3
+  status: pending
+  discovered_from: blue-light-eye-safety-home-devices
+  source: K123999 clearance read 2026-11-03; La Lumiere LLC
