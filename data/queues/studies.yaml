@@ -893,9 +893,13 @@
     Neurovascular Hyper-Reacti (PMID 40736038)
   type: study
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
-  source: https://pubmed.ncbi.nlm.nih.gov/40736038/
+  source: 'https://pubmed.ncbi.nlm.nih.gov/40736038/ Shipped 2026-11-04 as data/studies/jiang-2025-cream-neurovascular-sensitive-skin-pmid-40736038.md.
+    Worth knowing for the rest of the sensitive-skin lane: this RCT''s abstract reports
+    no numbers at all and its comparator is an undescribed ''control cream'' rather
+    than a vehicle, so it cannot support any magnitude claim. It does however use
+    LAST, capsaicin and CPT together, which makes it a useful worked example for [[sensitive-skin-tests-by-what-validation-shows]].'
 - name: Blauvelt 2025 Improvement and maintenance of clinical outcome assessments
     in atopic dermatitis with amli (PMID 40704660)
   type: study

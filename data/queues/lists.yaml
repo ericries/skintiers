@@ -1111,3 +1111,20 @@
     by reading the remaining cleared devices the site covers. DO NOT open new product
     pages to fill the list, and DO NOT quote any brand''s eye-safety marketing as
     if it were in a filing; that error is what the goal page was written to correct.'
+- name: Sensitive-skin moisturiser trials by what their comparator actually was
+  type: list
+  priority: 4
+  status: pending
+  discovered_from: jiang-2025-cream-neurovascular-sensitive-skin-pmid-40736038
+  source: 'Jiang 2025 (PMID 40736038) uses an undescribed ''control cream''; Wananukul
+    2012 (PMID 21790793) has no untreated arm; Micali 2021 (PMID 33934474) has no
+    control at all CURATORIAL over study pages that already exist, in the pattern
+    of [[sensitive-skin-tests-by-what-validation-shows]]. The axis is one question
+    a reader can check: what was the other arm? Three data points are already on the
+    site. [[jiang-2025-cream-neurovascular-sensitive-skin-pmid-40736038]] used an
+    undescribed ''control cream'', so active versus unknown. [[wananukul 2012]] (PMID
+    21790793, queued) compared two actives with no untreated arm. Micali 2021 (PMID
+    33934474, cited on [[cradle-cap]]) had no control at all. The point is that none
+    of them can separate a product from spontaneous improvement, which is the same
+    failure [[cradle-cap]] documents in a self-limiting condition. Do NOT open new
+    study pages to fill this; wait until the queued ones ship.'

@@ -3581,3 +3581,17 @@
     is weak, say so rather than repeating the marketing framing that amino-acid surfactants
     are categorically gentle. Check with sk inci which other covered products declare
     it before drafting.
+- name: Capsaicin (as a sensitive-skin provocation agent)
+  type: ingredient
+  priority: 3
+  status: pending
+  discovered_from: jiang-2025-cream-neurovascular-sensitive-skin-pmid-40736038
+  source: 'Used as the capsaicin pain test (CAT) in Jiang 2025 (PMID 40736038) and
+    in the forearm model of Zhang 2025 (PMID 39381993) NOT a skincare active on this
+    site and the page should say so in the first line: capsaicin appears here only
+    as a PROVOCATION agent used to test sensitive skin, in Jiang 2025 (PMID 40736038)
+    and the forearm model of Zhang 2025 (PMID 39381993), both covered at [[sensitive-skin-tests-by-what-validation-shows]].
+    Grade its use as a test method, not a benefit, and expect no tier. Topical capsaicin
+    does have a separate evidence base for itch and neuropathic pain, which is a different
+    claim entirely; if that is covered at all, keep it clearly separated and verify
+    from primary sources rather than carrying it across.'

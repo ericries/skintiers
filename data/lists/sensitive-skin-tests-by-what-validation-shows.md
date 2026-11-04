@@ -50,6 +50,7 @@ That is a real improvement in how unpleasant the test is to sit through. It is n
 - [[rosacea]], [[atopic-dermatitis]] and [[contact-dermatitis]], which the definition requires ruling out first
 - [[best-gentle-cleansers-sensitive-skin]] for products graded on this site
 - [[wang-2025-encorelane-sensitive-skin]] for a trial that modelled sensitivity in tissue culture instead
+- [[jiang-2025-cream-neurovascular-sensitive-skin-pmid-40736038]], a trial that used the sting test, capsaicin and CPT together and then reported no numbers
 
 ## Sources
 
