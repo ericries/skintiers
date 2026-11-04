@@ -8,6 +8,11 @@ analyzed: '2026-11-04'
 assurance: sonnet
 brand: NuFACE
 category: Devices
+images:
+- file: nuface-fix-serum-activator-brand.jpg
+  source: NuFACE (brand product page og:image; the tube itself is printed LINE SMOOTHING
+    FIX SERUM, 0.50 fl oz / 15 mL, rather than the longer web title)
+  source_url: https://www.mynuface.com/products/nuface-fix-serum-line-smoothing-serum-ionized-serum-activator
 comparator: '[[nuface-gel-primer]], the brand''s other conductive medium, which is
   the one that actually holds a 510(k)'
 grades:
