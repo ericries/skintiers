@@ -98,6 +98,16 @@ videos:
   related: [skin-barrier-repair, oily-skin, glycerin, hyaluronic-acid, panthenol, ceramides, cholesterol, petrolatum, dimethicone, exfoliation]
   thesis: 'Esthetician Jenn Lexi separates two things that get used interchangeably: dry skin is about oil and dehydrated skin is about water, which is why someone can have oily and dehydrated skin at once. She frames oil production as a skin type and dehydration as a concern that comes and goes regardless of type. Her mechanism is the brick wall: skin cells as bricks and lipids as the cement, with water constantly leaving through the skin as transepidermal water loss, which she describes as normal until over cleansing, over exfoliating or too many actives damage that layer and the loss speeds up. The fix she lays out has three parts rather than one: humectants including glycerin, hyaluronic acid and panthenol to attract and hold water, barrier lipids including ceramides, cholesterol and fatty acids to replace the cement, and occlusives such as dimethicone and petrolatum to sit on the surface and slow the loss whether or not the barrier is damaged. She names no products.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Lotion vs cream explained
+  creator: Dr. Onyeka Obioha
+  creator_slug: onyeka-obioha-lolagne
+  credential: Dermatologist
+  platform: TikTok
+  url: https://www.tiktok.com/@dr.obioha/video/7319228517504339242
+  posted: '2024-01-01'
+  related: [skin-barrier-repair, contact-dermatitis]
+  thesis: 'Dermatologist Onyeka Obioha explains the difference between a lotion and a cream in formulation terms: lotions are water based while creams are oil based, and she says creams are more hydrating because they contain less water and more oil, which she describes as helping to nourish the skin barrier. Her practical point is about travel, since she brings her own fragrance free cream rather than using the scented lotions hotels provide. She also claims that wearing a heavily fragranced lotion outdoors invites mosquito bites, which is her own assertion and is not supported by any source cited here.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
