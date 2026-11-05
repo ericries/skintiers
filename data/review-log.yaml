@@ -9009,3 +9009,9 @@ skin-longevity:
   score: 9
   verdict: publish
   note: 'Goal page built against the marketing frame: PubMed exact-phrase search (24 records) put in a footnote as an observation about that search, not an absence claim; the one human RCT (Raynaud 2026, n=59) presented with its own authors'' ''subclinical'' caveat; the SIRT6 paper quoted as in vitro only. Tier list ranks only pages that exist; the no-evidence compounds are named in prose rather than given a null tier row. 16 quoted strings machine-checked verbatim against the saved PubMed XML.'
+rinvoq-upadacitinib-tablets:
+  last_reviewed: '2026-11-04'
+  score: 9
+  verdict: publish
+  note: 'Product page deliberately scoped to the MARKETED PRODUCT, not the molecule: upadacitinib already has an ingredient page (tier good) that owns mechanism and efficacy, so no figure from it is repeated. What is new here is from the FDA record: nine indications of which one names a skin disease; three strengths of which dermatology uses two (the 45 mg is UC/Crohn induction only); RINVOQ LQ is a separate NDA and is NOT in the atopic-dermatitis indication; and the boxed warning''s mortality/MACE parts were measured on ANOTHER JAK inhibitor in RA patients 50+, which the label states outright. Brand marketing claims checked against the cached AbbVie page: three of four carry no number at all, ''75% skin clearance'' is unresolvable on that page (EASI appears nowhere in it), and the 5-year open-label caveat is disclosed by AbbVie itself and credited as such. 20 quoted strings machine-checked verbatim; two matched only after whitespace normalisation of an openFDA SPL extraction artifact, declared
+    in the footnote. Two DailyMed carton images installed. No price: not available from a primary source.'

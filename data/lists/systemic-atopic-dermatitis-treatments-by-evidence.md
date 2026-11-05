@@ -8,8 +8,9 @@ status: published
 tier_list:
   by: how well each drug's own clearance evidence holds up, from a 2026 Bayesian network meta-analysis
     of 33 phase 3 and 4 randomized trials and a 2026 meta-analysis of real-world use. Grading covers only
-    the drugs with their own pages here; the rest of the field is named in the prose and listed under
-    tier_list_reviewed
+    the drugs this site has graded FOR ECZEMA on their own pages; several others have pages graded for
+    a different disease or on a different evidence base, and those are named in the prose and listed
+    under tier_list_reviewed
   caption: Oral JAK inhibitors clear eczema faster and further than anything else measured, and they are
     still not the first systemic a dermatologist reaches for. Their own FDA labels place them after biologics,
     and they carry a boxed warning that biologics do not. Rank by clearance and you get the opposite of
@@ -32,8 +33,10 @@ tier_list:
     slug: abrocitinib
     tier: strong
 tier_list_reviewed:
-- baricitinib (oral JAK inhibitor; lowest clearance of the three at EASI-75 51% and EASI-90 24%, but it
-  has no page here yet, so it is named in the prose rather than graded)
+- baricitinib (the third oral JAK inhibitor, and the weakest of them on eczema clearance at EASI-75 51%
+  and EASI-90 24%. It now has a page here, [[baricitinib]], but that page grades it for severe alopecia
+  areata, which is its only dermatology indication on the US label. It is named in the prose rather than
+  graded, because a grade earned on hair regrowth cannot be carried across to eczema)
 - dupilumab (the most established biologic for atopic dermatitis and the comparator the JAK labels defer
   to; it now has a page here, [[dupilumab]], graded best off its own label, but it is not graded into
   this list because this ranking rests on the 2026 network meta-analysis figures and those are not reported
@@ -46,7 +49,7 @@ tier_list_reviewed:
 - crisaborole and topical corticosteroids (topical, not systemic; out of scope for this list, covered
   on [[atopic-dermatitis]])
 type: list
-updated: '2026-10-29'
+updated: '2026-11-04'
 ---
 
 Systemic drugs for atopic dermatitis that other treatments have not controlled, ranked on how well their own clearance evidence holds up. These are prescription pills and injections managed by a physician, not skincare. The barrier-repair and trigger-avoidance side of eczema, which is where this site's usual advice lives, is on [[atopic-dermatitis]].
@@ -67,7 +70,9 @@ These two should not be stacked on one axis. One pools randomized trials, the ot
 
 Three limits are worth stating plainly, because a tier list invites being read as more complete than it is.
 
-**Only two drugs are graded.** The site has pages for upadacitinib and abrocitinib, so only those carry tiers. Baricitinib is the third oral JAK inhibitor and the weakest of them on clearance, at EASI-75 51% and EASI-90 24%.[^ronnstad] More importantly, **dupilumab**, the biologic that both JAK labels treat as the therapy to try first, has no page here yet and therefore no tier.[^fdaupa][^fdaabro] Its absence from the ladder is a gap in this site's coverage, not a judgement about the drug.
+**Only two drugs are graded, and not for want of pages.** Upadacitinib and abrocitinib carry tiers here. Baricitinib is the third oral JAK inhibitor and the weakest of them on clearance, at EASI-75 51% and EASI-90 24%, and it does now have a page on this site.[^ronnstad] It still carries no tier in this list, because its page grades it for severe alopecia areata, the only dermatology indication on its US label; a grade earned on hair regrowth is not transferable to eczema.
+
+**Dupilumab**, the drug both JAK labels treat as the therapy to try first, also has a page, graded best on its own evidence, as does tralokinumab.[^fdaupa][^fdaabro] Neither is graded into this ranking either, because it is built on figures the two syntheses report for the JAK inhibitors and not for them. That is a limit of the comparison rather than a finding about the biologics, and it is why the ladder cannot be read as a running order across drug classes.
 
 **Clearance is not the only outcome.** The boxed warning on the JAK class covers risks that an EASI score cannot capture, and the real-world data is thin exactly where those risks live: the pooled review notes that "few studies reported serious AEs".[^ronnstad] What it did capture were the common, treatment-limiting problems, acne and herpes simplex reactivation, which the authors call "the most common reasons for discontinuation".[^ronnstad]
 
@@ -75,7 +80,7 @@ Three limits are worth stating plainly, because a tier list invites being read a
 
 ## See Also
 
-[[atopic-dermatitis]] [[upadacitinib]] [[abrocitinib]] [[crisaborole]] [[best-eczema-moisturizers-by-evidence]] [[best-gentle-eczema-sensitive-skin-moisturizers]]
+[[atopic-dermatitis]] [[upadacitinib]] [[rinvoq-upadacitinib-tablets]] [[abrocitinib]] [[crisaborole]] [[best-eczema-moisturizers-by-evidence]] [[best-gentle-eczema-sensitive-skin-moisturizers]]
 
 ## Sources
 

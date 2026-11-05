@@ -2024,3 +2024,19 @@
     as evidence for anything: a study page could make the biomarker-is-not-an-outcome
     point concretely. LOW PRIORITY and do not open an ingredient page for HYPE - proprietary
     extract, no human data. Cited on [[skin-longevity]].'
+- name: Upadacitinib Measure Up open-label extension at 5 years (PMID to find)
+  type: study
+  priority: 6
+  status: pending
+  discovered_from: rinvoq-upadacitinib-tablets
+  source: 'Surfaced from AbbVie''s own consumer page for RINVOQ in atopic dermatitis
+    (cached 2026-11-04, research-cache/web/35e0bdf9bc524516.md), which claims ''In
+    another study of RINVOQ, patients had clearer skin and less itch at 5 years''
+    under an asterisk that AbbVie itself qualifies: ''In a less rigorous study where
+    patients chose to stay on therapy, everyone knew RINVOQ was used which may have
+    increased results at 5 years.'' Worth a study page BECAUSE of that caveat, not
+    despite it: a compact record of what an open-label extension can and cannot show
+    would be reusable across every drug page on this site that cites one. The PMID
+    is NOT known; find the trial first (likely a Measure Up 1/2 long-term extension
+    report) and do not draft from the marketing page. If no peer-reviewed 5-year report
+    exists, close this as unresolvable rather than citing the brand.'

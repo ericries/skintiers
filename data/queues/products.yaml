@@ -4046,7 +4046,7 @@
 - name: RINVOQ (upadacitinib) oral tablets
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: irvine-2025-upadacitinib-atopic-dermatitis-140-weeks
   source: the branded oral upadacitinib studied in Measure Up 1/2 and AD Up; the ingredient
     page exists but no product page covers the marketed drug or its label warnings
@@ -5332,3 +5332,21 @@
     for future ticks: I ran sk find ''Lotrimin'' and accepted a weak match instead
     of listing data/products; the canonical page carries ''Lotrimin Ultra'' as an
     alias and should have matched.'
+- name: DUPIXENT (dupilumab) injection
+  type: product
+  priority: 2
+  status: pending
+  discovered_from: rinvoq-upadacitinib-tablets
+  source: 'The RINVOQ label makes this the drug that comes FIRST: indication 1.3 restricts
+    RINVOQ to atopic dermatitis ''not adequately controlled with other systemic drug
+    products, including biologics''. [[systemic-atopic-dermatitis-treatments-by-evidence]]
+    already names the gap in its own prose (''dupilumab, the biologic that both JAK
+    labels treat as the therapy to try first, has no page here yet and therefore no
+    tier''), and [[dupilumab]] exists as an ingredient page while no product page
+    covers the marketed injection. Build it from the FDA record as the RINVOQ page
+    was: openFDA drugsfda + label + ndc give the BLA/NDA, the approval date, the pen
+    vs syringe presentations, the dosing by weight and age, and the full indication
+    list (it also covers asthma and other non-skin diseases, so the same nine-indications-one-skin
+    framing applies). It has NO boxed warning, which is the single most decision-relevant
+    contrast with the oral JAK inhibitors and should be stated plainly. HIGH PRIORITY:
+    it unblocks a tier on an existing list.'

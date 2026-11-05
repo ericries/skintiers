@@ -33,7 +33,7 @@ The trade-off is safety, and it is the reason this drug sits second-line. The la
 
 ## See Also
 
-[[atopic-dermatitis]] [[moisturizing]] [[chronic-hand-eczema]]
+[[rinvoq-upadacitinib-tablets]] [[atopic-dermatitis]] [[moisturizing]] [[chronic-hand-eczema]]
 
 ## Sources
 
