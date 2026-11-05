@@ -728,6 +728,16 @@ videos:
   thesis: Dermatologist John Barbieri makes the case for treating acne with fewer oral antibiotics, opening with the point that dermatologists prescribe more antibiotics than any other group of prescribers in medicine and that around 60 percent of the long antibiotic courses they write are for acne, a condition that is not an infection. He argues that low dose regimens are not the escape route they are often presented as, since the term sub antimicrobial is misleading and trial data he cites show resistant bacteria emerging even at 20 mg of doxycycline a day, though he notes that resistance appeared to recede within six months of stopping and that lower doses do reduce side effects. His preferred alternatives are combining mechanisms rather than relying on one drug, using fixed combination topicals because applying three separate creams is both tedious and unevenly done in practice, and making more use of hormonal treatment, citing a study of about 4,000 people in which those who received
     a combined oral contraceptive or spironolactone at any point had 90 fewer days of antibiotic exposure on average.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: This is the starting point for ALL acne treatments
+  creator: Ella
+  creator_slug: your-estie-ella
+  credential: Licensed esthetician (not a dermatologist or cosmetic chemist)
+  platform: TikTok
+  url: https://www.tiktok.com/@your.estie.ella/video/7704727105564609805
+  posted: '2026-11-05'
+  related: [adapalene, azelaic-acid, differin-adapalene-0-1-gel, epiduo-adapalene-benzoyl-peroxide-gel, retinoids, skin-barrier-repair]
+  thesis: 'Licensed esthetician Ella argues that an acne routine should start with two things, an azelaic acid used in the morning and a retinoid used at night, and that for most people the right first retinoid is over-the-counter adapalene rather than a prescription strength one. Her ramp-up schedule is the practical part: two nights a week for a month, then three, then alternate nights, aiming at four to six nights a week, with an adjustment period she puts at about two months. She notes that the adapalene and benzoyl peroxide combination is more drying than adapalene alone. Two cautions for a viewer. She names a favourite azelaic acid product, which is a personal pick rather than an evidence claim, and the dates she gives for when these products became available without prescription do not match the FDA record, which puts the over-the-counter Differin Epiduo approval at 22 May 2026.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

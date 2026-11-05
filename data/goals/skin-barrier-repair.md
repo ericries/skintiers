@@ -495,6 +495,16 @@ videos:
   related: [tretinoin, ceramides, exfoliation, retinoids, cholesterol]
   thesis: 'Esthetician Jenn Lexi frames a damaged skin barrier as a frequency problem rather than a product problem, using her own tretinoin use as the example: more than three or four times a week leaves her skin sensitive and inflamed, so she settles at two or three and spends the days in between on barrier repair. Her point is that the balance sits between too much exfoliation on one side and clogged pores from too much barrier repair on the other, and that where the middle falls differs from person to person. For recovery she describes going back to basics with ceramides, cholesterol and fatty acids to lock in hydration, then reintroducing an exfoliant or retinoid once, with a patch test, to see how the skin reacts.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: A healthy barrier will hide a breakout
+  creator: Ella
+  creator_slug: your-estie-ella
+  credential: Licensed esthetician (not a dermatologist or cosmetic chemist)
+  platform: TikTok
+  url: https://www.tiktok.com/@your.estie.ella/video/7703938088589987086
+  posted: '2026-11-03'
+  related: [centella-asiatica, pdrn, ectoin, panthenol, ceramides, cholesterol, acne]
+  thesis: 'Licensed esthetician Ella films her own active breakout without filter or tinted sunscreen to make a point about skin barrier health, which is that well hydrated skin conceals spots far better than dry skin does. Her argument is that when skin is overworked, dry and flaking, every small clogged pore reads as more visible, so barrier repair is cosmetic as well as protective. She is explicit that this does not mean simply applying a thick moisturizer, and names the ingredient categories she looks for instead: centella asiatica, PDRN, ectoin, panthenol, ceramides and cholesterol, singling out cholesterol as the one to add when skin feels rough and nothing seems to absorb. She names no products and gives no figures, and the claim is about how a breakout looks rather than about clearing it.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

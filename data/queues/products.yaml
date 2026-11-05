@@ -5473,3 +5473,18 @@
     data the existing hair-removal pages lack; otherwise close this and note the reason.
     Flagged mainly so the remaining eleven unbuilt El Global clearances are not silently
     forgotten.'
+- name: Remedy Science azelaic acid
+  type: product
+  priority: 7
+  status: pending
+  discovered_from: acne
+  source: 'Named as a personal favourite by esthetician Ella in TikTok 7704727105564609805
+    (carded on [[acne]], 2026-11-05). QUEUED WITH CAUTION, not as an endorsement:
+    she tags @Remedy Science repeatedly across her recent clips, including gift-set
+    and seasonal content, which is the pattern the TikTok cron treats as effectively
+    promotional even where no sponsorship marker appears, and this clip carries none.
+    RESOLVE THE PRODUCT IDENTITY FIRST via inci_lookup.py; a brand called Remedy Science
+    may not be indexed. If it is covered, the page must state the azelaic acid percentage
+    and whether it is a cosmetic or an OTC drug, since [[azelaic-acid]] grades the
+    two routes differently. If the identity cannot be resolved from a primary or brand
+    source, close this rather than drafting from a TikTok mention.'
