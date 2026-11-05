@@ -20,6 +20,8 @@ CurrentBody sells at-home beauty devices at currentbody.com and describes itself
 
 ## See Also
 
+[[el-global-trade]] is the FDA applicant of record behind CurrentBody's cleared devices, and files under several other consumer names.
+
 [[one-fda-applicant-several-shelf-brands]] records that this brand's FDA clearances are filed by an applicant that also files under other consumer names.
 
 [[currentbody-skin-rf]], [[home-rf-devices-by-whose-evidence-the-file-rests-on]], [[home-radiofrequency-skin-tightening]], [[fda-approved-vs-cleared-skincare]], [[silkn]], [[dpl]].

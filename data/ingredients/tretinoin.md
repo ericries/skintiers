@@ -246,6 +246,16 @@ videos:
   related: [retinoids, adapalene, tazarotene, trifarotene, retinol, retinaldehyde, hyperpigmentation, anti-aging, fractional-co2-laser-resurfacing]
   thesis: 'In a weekend question and answer session, board-certified dermatologist Andrea Suarez, who posts as Dr Dray, takes the complaint that tretinoin seems to age the skin and make wrinkles worse. Her answer is that the dryness, peeling and irritation common to topical retinoids make skin look wrinkled and make existing lines more obvious, and she offers three ways to reduce it: drop to a lower percentage, since in her view a higher strength adds nothing for anti-aging; change vehicle, because a gel can be more drying than a cream or a lotion; or change retinoid, noting that adapalene has evidence behind it for anti-aging and is usually well tolerated. She separately explains that tretinoin can make existing discoloration look worse before it looks better, because pigment sitting deeper in the skin is unmasked as surface texture smooths, and that some of that deeper pigment sits inside immune cells called melanophages where a topical struggles to reach it.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: 'Part 1: how I got tretinoin to actually work for my skin'
+  creator: Jenn Lexi
+  creator_slug: jennlexi
+  credential: Esthetician (self-identified); not a dermatologist or cosmetic chemist
+  platform: TikTok
+  url: https://www.tiktok.com/@jennlexi_/video/7704145866579332365
+  posted: '2026-11-04'
+  related: [retinol, skin-barrier-repair, ceramides, retinoids, acne]
+  thesis: 'Esthetician Jenn Lexi describes how she restarted tretinoin after two years of what she calls destroying her skin with it, and the first step is the one most people will not want: she stopped using it entirely. Her account is that the barrier damage had to heal fully, meaning no redness, no irritation and no stinging from other products, before tretinoin could be reintroduced, and that this meant deliberately ignoring her acne and texture in the meantime. In between she simplified to a gentle cleanser, a fragrance free hydrating toner, a moisturizer with ceramides, cholesterol and fatty acids, and morning sunscreen, then rebuilt tolerance with a retinol at widening intervals of every seven, then five, then three days. This is personal experience from an esthetician rather than trial evidence, she names no products, and it is explicitly part one of two.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

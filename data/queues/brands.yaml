@@ -564,7 +564,13 @@
   priority: 5
   status: pending
   discovered_from: null
-  source: null
+  source: ' MERGED 2026-11-05 from a duplicate row I added the same day: five clearances
+    across two corporate names, verified on openFDA device/510k 2026-11-05, Theragun
+    Inc (TheraFace Microcurrent K212238, RecoveryAir PRO K211745, TheraFace LED K212155)
+    and Therabody Inc (TheraFace Mask K230293, JetBoots PRO Plus K241256). Only three
+    are TheraFace. Keep it LEAN per brand scope and link [[theraface-led-light-ring]]
+    and [[one-fda-applicant-several-shelf-brands]]; say plainly that most of the range
+    is recovery and compression gear, not skincare.'
 - name: 'CoTZ (Fallien Cosmeceuticals, Ltd.) - mineral-only sunscreen brand whose
     entire 13-product range carries zinc oxide alone or zinc plus titanium dioxide,
     with NO organic UV filter in any of the 14 openFDA records, verified 2026-10-27.
@@ -597,7 +603,7 @@
 - name: El Global Trade (CurrentBody, sensiLift)
   type: brand
   priority: 4
-  status: pending
+  status: done
   discovered_from: home-rf-devices-by-whose-evidence-the-file-rests-on
   source: 'The FDA applicant behind three of the eleven PAY-coded home RF clearances:
     CurrentBody Skin RF (K232424), sensiLift (K170499) and Sensilift Pro (K250341).
@@ -775,17 +781,3 @@
     date; attribute any such claim to the brand and keep it to one clause. Note also
     that thayers.com has no products.json and at least one product URL returns 404,
     so prices may not be obtainable.'
-- name: Therabody / Theragun
-  type: brand
-  priority: 6
-  status: pending
-  discovered_from: one-fda-applicant-several-shelf-brands
-  source: 'The one company in [[one-fda-applicant-several-shelf-brands]] with no brand
-    page here, while [[currentbody]], [[silkn]] and [[revive-light-therapy]] all have
-    one. Grounded facts from openFDA device/510k on 2026-11-05: five clearances across
-    two corporate names, ''Theragun, Inc.'' (TheraFace Microcurrent K212238, RecoveryAir
-    PRO K211745, TheraFace LED K212155) and ''Therabody, Inc.'' (TheraFace Mask K230293,
-    JetBoots PRO Plus K241256). KEEP IT LEAN per the brand scope, under 180 words,
-    and its job is to link to [[theraface-led-light-ring]] and whichever TheraFace
-    pages exist by then. Note honestly that most of the company''s range is recovery
-    and compression equipment rather than skincare.'

@@ -5446,3 +5446,30 @@
     SPL, which carries the full package list). If the pen is confirmed, fold it into
     the existing product page rather than opening a second one; this is a presentation,
     not a separate product.'
+- name: CurrentBody Skin LED Face Mask
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: el-global-trade
+  source: 'The CurrentBody device people actually buy, and the obvious gap next to
+    [[currentbody-skin-rf]], which is the only one of El Global Trade''s twelve clearances
+    with a product page. RESOLVE THE REGULATORY IDENTITY FIRST, because it is not
+    obvious: the LED mask may be cleared under a different applicant from the RF device
+    (El Global Trade, Ltd. of Netanya holds the RF clearance K232424), or sold without
+    a 510(k) in some markets, and the site should not assume the two share a filing.
+    Search openFDA device/510k by device_name for the mask rather than by applicant,
+    and if no US clearance exists, say so plainly and cover it on its published irradiance
+    and wavelength instead, the way the other LED pages do.'
+- name: sensiLight Pro / Pistol IPL (K183260)
+  type: product
+  priority: 7
+  status: pending
+  discovered_from: el-global-trade
+  source: 'One of El Global Trade''s twelve clearances, device name ''Sensilight Pro
+    / Pistol IPL'', K183260, openFDA device/510k queried 2026-11-05. LOW PRIORITY
+    and possibly not worth building: it is an IPL hair-removal device sold mainly
+    outside the US, and [[hair-removal-devices-by-evidence]] already covers that category.
+    Build it only if the clearance summary turns out to publish fluence or spectral
+    data the existing hair-removal pages lack; otherwise close this and note the reason.
+    Flagged mainly so the remaining eleven unbuilt El Global clearances are not silently
+    forgotten.'

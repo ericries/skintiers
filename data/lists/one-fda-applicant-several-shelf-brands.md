@@ -33,6 +33,8 @@ The distinction matters because "five clearances" and "five TheraFace clearances
 
 ## El Global Trade: CurrentBody, sensiLight, sensiLift, sensiFirm, RF-Relief, IPL400, DeepSkin
 
+The company itself has a page at [[el-global-trade]].
+
 Twelve clearances, all under "El Global Trade, Ltd.", and the widest spread of shelf names in this group.[^openfda] They include [[currentbody-skin-rf]] (K232424) alongside sensiLight and Sensilight Pro, sensiLift and Sensilift Pro, sensiFirm, micro IPL, RF-Relief, IPL400 and DeepSkin.[^openfda] A shopper who knows [[currentbody]] as a brand would have no way to tell from the box that the same applicant files under seven other names.
 
 ## What to do with this
