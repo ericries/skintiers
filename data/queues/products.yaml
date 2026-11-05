@@ -5372,3 +5372,21 @@
     for the page is whether the lower BPO strength costs any efficacy, since the registration
     trials differ by product. Get the NDA number and the trial figures from DailyMed
     and Drugs@FDA; do not read BenzaClin's 5% figures across.
+- name: Dose (of) Derm All-in-One Clinical Foundation (mineral SPF 45)
+  type: product
+  priority: 6
+  status: pending
+  discovered_from: sheila-farhang
+  source: 'Dermatologist Sheila Farhang''s own 2026 cosmetics line, announced on her
+    TikTok (clip 7699662454720187662, cached research-cache/web/8979f7383a01d232.md).
+    Her caption claims a mineral SPF 45 foundation with buildable coverage, stable
+    vitamin C and hydration, built on a ''proprietary TriBiome Longevity Complex''
+    of peptides, exosomes and microbiome support. WORTH COVERING SCEPTICALLY, NOT
+    PROMOTIONALLY: the site grades [[exosomes]] and topical growth factors as thin
+    evidence, and ''Longevity Complex'' is exactly the marketing frame documented
+    on [[skin-longevity]]. Requirements before drafting: get the INCI and the SPF
+    substantiation from the brand''s own site rather than the TikTok caption, confirm
+    whether the SPF is FDA-regulated OTC labelling with a Drug Facts panel, and state
+    plainly that the product is sold by a dermatologist whose clips this site cards,
+    which is disclosed on [[sheila-farhang]]. Do not treat her own description as
+    evidence for any claim.'

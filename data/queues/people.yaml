@@ -474,7 +474,7 @@
 - name: Dr. Sheila Farhang
   type: person
   priority: 4
-  status: pending
+  status: done
   discovered_from: emma-wedgeworth
   source: 'data/video-sources.yaml roster (TikTok @dr.sheila_derm, board-certified
     dermatologist); carded clips already on the site US-based, so the NPI registry
@@ -483,4 +483,8 @@
     field does not record her own-brand line ''Dose (of) Derm'', which it should,
     and sk roster-set has no --conflict flag to persist it. Verify the brand independently
     before putting it on a page about a living person, and treat her product picks
-    as conflicted until the roster says otherwise.'
+    as conflicted until the roster says otherwise. Resolved WITHOUT a new page: data/people/sheila-farhang.md
+    has existed since 2026-08-23. This was a duplicate queue head. The tick did the
+    real maintenance instead, adding her verified own-brand disclosure (Dose (of)
+    Derm) and the ten pages carrying her video cards. A dedup pass over the person
+    queue against existing slugs would stop this recurring.'
