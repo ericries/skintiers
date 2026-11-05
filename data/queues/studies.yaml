@@ -1988,3 +1988,39 @@
     [[centella-asiatica]]). Record the pooled estimates with their intervals, since
     the acne SMDs both cross zero, and be precise that it tests CAM as a CATEGORY
     and not any single botanical. Cited on [[witch-hazel]].'
+- name: "Raynaud 2026 \u2014 daily photoprotection, 1-year randomised vehicle-controlled\
+    \ multiphoton study (PMID 42574285)"
+  type: study
+  priority: 2
+  status: pending
+  discovered_from: skin-longevity
+  source: 'https://pubmed.ncbi.nlm.nih.gov/42574285/ Skin Pharmacol Physiol 2026.
+    n=59 women of European descent, 55-65, Fitzpatrick II/III, Paris; randomised double-blind
+    to a daily broad-spectrum SPF/PPD product vs its vehicle; four seasonal assessments
+    over a year with in vivo 3D multiphoton microscopy. Vehicle group showed a significant
+    rise in skin colour, melanin density and elastin density and a fall in the 3D-SAAID
+    ageing index between winter and summer; ''These changes were not observed in the
+    photoprotected group.'' HIGH LEVERAGE: it is the only randomised human trial in
+    the recent ''skin longevity'' literature, so it anchors that whole frame, and
+    it is also a year-long vehicle-controlled sunscreen result usable from [[sunscreen-uv-filters]]
+    and [[anti-aging]]. CAUTIONS for the study page: the authors call the changes
+    ''subclinical'', the outcomes are microscopic rather than visible appearance,
+    and the PubMed record names no funder and carries no COI statement for a tested
+    commercial formula - report that as an absence in the record, not as independence.
+    Only the abstract has been read; get the full text for the product identity and
+    funding before publishing. Cited on [[skin-longevity]].'
+- name: "Dong 2026 \u2014 SIRT6 activation by hydrolyzed yeast protein extract, in\
+    \ vitro only (PMID 42862834)"
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: skin-longevity
+  source: 'https://pubmed.ncbi.nlm.nih.gov/42862834/ Skin Pharmacol Physiol 2026.
+    ''In a series of in vitro studies'' - NHEK UVB response, telomere attrition in
+    aged dermal fibroblasts, melanin content in a 3D skin model. No human participants;
+    the extract (HYPE) is described as proprietary; conclusion is that it is ''a potential
+    agent to incorporate into skincare formulations designed to reverse visible aging.''
+    Value is as a worked example of the mechanism-only longevity paper rather than
+    as evidence for anything: a study page could make the biomarker-is-not-an-outcome
+    point concretely. LOW PRIORITY and do not open an ingredient page for HYPE - proprietary
+    extract, no human data. Cited on [[skin-longevity]].'

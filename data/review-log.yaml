@@ -9004,3 +9004,8 @@ tria-beauty:
   score: 9
   verdict: publish
   note: 'Lean brand discovery card, 156 words of body prose, assurance: sonnet per the playbook''s no-critic rule. Verified the queue entry''s claims rather than copying them: openFDA returns exactly five Tria Beauty clearances and all five are filed as Summary, matching the entry. The entry''s other claim, that retail names do not match clearance names, is also confirmed and is the page''s one genuinely useful line: the store sells a 4X and an FRX, and neither string appears in any clearance name. NO FOUNDER CLAIMED: the playbook says founder in one line IF verifiable, and nothing cheap verified one, so the page says so explicitly rather than omitting silently. Feed cached; prices quoted from it verbatim. Recorded that the twenty-entry feed is mostly bundles and third-party Extend protection plans, and contains an internal ''Andrew Test'' SKU live on the store, which is noted only to explain why the entry count overstates the catalogue. No Apify call.'
+skin-longevity:
+  last_reviewed: '2026-11-04'
+  score: 9
+  verdict: publish
+  note: 'Goal page built against the marketing frame: PubMed exact-phrase search (24 records) put in a footnote as an observation about that search, not an absence claim; the one human RCT (Raynaud 2026, n=59) presented with its own authors'' ''subclinical'' caveat; the SIRT6 paper quoted as in vitro only. Tier list ranks only pages that exist; the no-evidence compounds are named in prose rather than given a null tier row. 16 quoted strings machine-checked verbatim against the saved PubMed XML.'

@@ -3616,3 +3616,17 @@
     before drafting, and if the human data are absent that IS the finding, the way
     [[willow-bark-extract]] and [[witch-hazel]] handle it. Check whether any product
     already covered here declares them, with sk inci.'
+- name: Urolithin A (topical)
+  type: ingredient
+  priority: 6
+  status: pending
+  discovered_from: skin-longevity
+  source: 'Surfaced by the PubMed exact-phrase search for ''skin longevity'' run 2026-11-04
+    (24 records): one of the seven most recent is topical urolithin A acting via mitophagy.
+    A urolithin A page would cover one of the few named compounds the longevity frame
+    has actually introduced, so it is worth having, but BUILD IT SCEPTICALLY: only
+    the title and publication type were read, the evidence looked preclinical, and
+    the oral form is a supplement and therefore OUT OF SCOPE - a page here must be
+    about the TOPICAL route only and must say so. Verify before drafting whether any
+    human topical trial exists; if not, the honest tier is weak or none. Linked from
+    [[skin-longevity]].'

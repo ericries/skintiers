@@ -460,11 +460,11 @@ Reduced to what the tiers above support, a routine is short. In the morning: a g
 
 ## What this page is not
 
-This is an educational summary, not medical advice. The tiers are directional, not precise: they compress studies with different methods and populations onto one scale, so they are a map, not a measurement. And skin is individual: tolerance to retinoids and acids, and the right sunscreen, vary person to person. The hormonal levers specific to menopause, which depend on individual health history and a clinician, are on [[anti-aging-perimenopause]].
+This is an educational summary, not medical advice. The tiers are directional, not precise: they compress studies with different methods and populations onto one scale, so they are a map, not a measurement. And skin is individual: tolerance to retinoids and acids, and the right sunscreen, vary person to person. The hormonal levers specific to menopause, which depend on individual health history and a clinician, are on [[anti-aging-perimenopause]]. Much of what is now sold as skin longevity is the same set of actives under a newer label, and what that label does and does not rest on is handled on [[skin-longevity]].
 
 ## See Also
 
-[[anti-aging-perimenopause]], [[retinoids]], [[tretinoin]], [[sunscreen-uv-filters]], [[vitamin-c]], [[niacinamide]], [[peptides]], [[moisturizing]], [[glass-skin]]
+[[anti-aging-perimenopause]], [[retinoids]], [[tretinoin]], [[sunscreen-uv-filters]], [[vitamin-c]], [[niacinamide]], [[peptides]], [[moisturizing]], [[glass-skin]], [[skin-longevity]]
 
 ## Sources
 
