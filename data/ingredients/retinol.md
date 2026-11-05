@@ -95,6 +95,16 @@ videos:
   related: []
   thesis: 'Board-certified dermatologist Dr. Chris Tomassian, a new dad with almost no time, shares a stripped-down routine: in the morning just splash water, apply an antioxidant like vitamin C serum, then a moisturizer-sunscreen combo, under a minute total. At night, cleanse for about 30 seconds, apply a retinol, retinal, or retinoid, then moisturize, under 90 seconds. He frames it as focusing on the ingredients with the biggest proven benefit and staying consistent rather than doing an elaborate routine'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Why I like retinol for patients in their 20s, not just once wrinkles show up
+  creator: Fatima Fahs
+  creator_slug: fatima-fahs
+  credential: Board-certified dermatologist (MD)
+  platform: TikTok
+  url: https://www.tiktok.com/@dermydoctor/video/7704275284400295182
+  posted: '2026-11-04'
+  related: [retinoids, tretinoin, acne, anti-aging]
+  thesis: 'Board-certified dermatologist Fatima Fahs argues against treating retinol as something to begin only once fine lines appear, and gives two reasons she starts patients in their twenties on it. The first is acne-adjacent: she says it helps keep pores from clogging with oil, which heads off the bumpy texture and comedones that follow, and she singles out the breakouts some people get around their period. The second is that it supports skin cell turnover and collagen production, which she frames as keeping collagen-producing cells active over the following decades rather than as a visible change now. Her one practical warning is about patience, saying nobody enjoys a retinol routine before the six to eight week mark and that early dryness and flaking are normal.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

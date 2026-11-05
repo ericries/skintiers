@@ -15931,7 +15931,8 @@
   conflict: runs an Amazon affiliate storefront and does sponsored posts - strongly prefer educational / how-to / ingredient-explainer videos; be very cautious with any product recommendation
   posted: '2026-11-04'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: no glutathione page exists; queued as ingredient candidate instead
 - id: 2_gqzJCry_Q
   title: 'Doctor: How To Get Rid of Sagging Jowls & Tighten Skin'
   creator: Dr. Vanita Rattan (Doctor V)
