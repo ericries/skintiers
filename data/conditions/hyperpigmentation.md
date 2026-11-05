@@ -520,6 +520,16 @@ videos:
   related: [melasma, retinol, post-inflammatory-erythema, body-acne]
   thesis: Board-certified dermatologist Dr. Alexis Stephens explains why hyperpigmentation on the body is harder to shift than the same problem on the face, and why face products often underperform there. Her reasoning is that body skin is thicker and its cells turn over more slowly, so she argues it generally needs higher percentages of actives at a lower pH to penetrate, introduced gradually to avoid the irritation that itself drives more pigment. She groups the approach into three categories, pigment inhibitors, exfoliants and cell regulators such as retinol, and recommends gentler polyhydroxy acids on thin or intimate areas. She also flags that darkening in body folds, such as the back of the neck or underarms, can reflect insulin resistance, thyroid disease or other medical causes, and advises seeing a doctor about those rather than treating them cosmetically.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: A PSA for anyone treating hyperpigmentation with irritating creams
+  creator: Dr. Chris Tomassian
+  creator_slug: chris-tomassian
+  credential: Board-certified dermatologist
+  platform: TikTok
+  url: https://www.tiktok.com/@dr.tomassian/video/7701907268949822733
+  posted: '2026-10-29'
+  related: [melasma, tretinoin, hydroquinone, azelaic-acid, niacinamide]
+  thesis: Board-certified dermatologist Chris Tomassian warns that treating hyperpigmentation with creams harsh enough to cause redness and irritation is likely to make the dark patches worse rather than better. His advice is to start at a low strength and increase slowly, on the grounds that results accumulate over time. He names no specific product or ingredient in the clip and gives no figures.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

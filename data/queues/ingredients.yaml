@@ -3644,3 +3644,17 @@
     that is an acceptable outcome to close this with). If it is built, check which
     other dermatology drugs carry CYP2C19 or other pharmacogenomic dosing language
     in their FDA labels, via openFDA, rather than asserting this is unique.'
+- name: Glutathione (topical)
+  type: ingredient
+  priority: 6
+  status: pending
+  discovered_from: hyperpigmentation
+  source: 'Surfaced by TikTok 7704370417112321293 from Kristin Leite (beauty product
+    developer), a how-to on what to look for in glutathione skincare: delivery system
+    and concentration. The video was not carded because no glutathione page exists.
+    The ingredient is worth covering BECAUSE it is widely sold for skin lightening
+    and the evidence is contested: build it sceptically and check whether any randomised
+    topical trial exists on intact skin. SCOPE WARNING: oral and IV glutathione are
+    the dominant commercial forms and both are OUT OF SCOPE per docs/cron-playbook.md,
+    so a page here must be about the TOPICAL route only and must say so plainly. Links
+    naturally from [[hyperpigmentation]] and [[melasma]].'
