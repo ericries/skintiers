@@ -273,7 +273,7 @@
   channel: https://www.tiktok.com/@ranellamd
   product_recs: restricted
   conflict: null
-  last_pulled: '2026-11-03'
+  last_pulled: '2026-11-04'
 - name: Fatima Fahs
   creator_slug: fatima-fahs
   credential: Dermatologist (MD)
@@ -314,7 +314,7 @@
   channel: https://www.tiktok.com/@hannahcollingwoodenglish
   product_recs: restricted
   conflict: Co-developed/formulated the Tbh Skincare 'Rebound' Serum and Toner (product-formulation partnership) — her endorsement of that spe; no YouTube; TikTok/IG intake
-  last_pulled: '2026-11-01'
+  last_pulled: '2026-11-04'
 - name: Dr. Jenny Liu (Jenny Liu, MD, FAAD)
   creator_slug: jenny-liu
   backfill_cursor: 45
@@ -347,7 +347,7 @@
   channel: https://www.tiktok.com/@dr.sheila_derm
   product_recs: restricted
   conflict: Self-describes as a "Key Opinion Leader for industry beauty companies" (per her own practice bio) and most sampled TikTok videos e; no YouTube; TikTok/IG intake
-  last_pulled: '2026-11-02'
+  last_pulled: '2026-11-04'
 - name: Dr Thivi Maruthappu
   creator_slug: thivi-maruthappu
   credential: Consultant dermatologist
