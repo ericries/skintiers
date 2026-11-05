@@ -530,6 +530,16 @@ videos:
   related: [melasma, tretinoin, hydroquinone, azelaic-acid, niacinamide]
   thesis: Board-certified dermatologist Chris Tomassian warns that treating hyperpigmentation with creams harsh enough to cause redness and irritation is likely to make the dark patches worse rather than better. His advice is to start at a low strength and increase slowly, on the grounds that results accumulate over time. He names no specific product or ingredient in the clip and gives no figures.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: 'Natural Ingredients for Hyperpigmentation (DermTV Epi #524)'
+  creator: Dr. Neal Schultz
+  creator_slug: neal-schultz
+  credential: Dermatologist, host of DermTV.com
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=ZkHeGUeIuz0
+  posted: '2013-11-01'
+  related: [kojic-acid, licorice-root-extract, vitamin-c, hydroquinone, glycolic-acid, melasma]
+  thesis: 'Dermatologist Neal Schultz walks through four plant or fungus derived ingredients used against hyperpigmentation and explains the mechanism of each, which is the part of this 2013 episode that has aged well. Kojic acid, licorice extract and vitamin C all inhibit tyrosinase, the enzyme skin needs to make melanin, while soy works differently by blocking pigment already made from being passed to surface skin cells. He prefers the ester form of vitamin C, tetrahexyldecyl ascorbate, on stability grounds. Two cautions for a viewer today: he claims a kojic acid and glycolic acid combination has been shown to work as well as a hydroquinone product without citing the study, which is a strong claim to take on trust, and the specific branded products he names are from 2013 and may since have been reformulated or discontinued.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

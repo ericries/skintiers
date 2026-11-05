@@ -1174,3 +1174,19 @@
     deliberately does not, since that one ranks on efficacy and says so. CHECK FIRST
     whether it is genuinely distinct from that list rather than a second cut of the
     same three drugs; if it is not, close this instead of padding the site.
+- name: Clindamycin and benzoyl peroxide combination gels by strength and what is
+    still marketed
+  type: list
+  priority: 6
+  status: pending
+  discovered_from: benzaclin-clindamycin-benzoyl-peroxide-gel
+  source: 'Grounded in the openFDA picture assembled 2026-11-05 for the BenzaClin
+    update. The family splits cleanly by benzoyl peroxide strength (2.5% Acanya, 3.75%
+    Onexton, 5% formerly BenzaClin, plus the Cabtreo triple with adapalene) and the
+    marketing status does not follow the strength: the 5% brand is Discontinued while
+    ten ANDA labeler entries keep that exact strength available, and the lower strengths
+    remain branded NDAs. CHECK FIRST whether this is genuinely distinct from [[prescription-acne-rosacea-topicals-by-regulatory-status]],
+    which already covers regulatory status across a much wider set and already records
+    BenzaClin as discontinued. If it is only a narrower slice of that list, close
+    this rather than duplicating it. It also needs the Acanya page to exist first
+    to be worth building.'

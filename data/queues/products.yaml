@@ -4068,10 +4068,17 @@
 - name: Generic clindamycin 1% / benzoyl peroxide 5% gel
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: prescription-acne-rosacea-topicals-by-regulatory-status
-  source: BenzaClin NDA050756 is discontinued per Drugs@FDA, so the marketed form
-    of this combination is generic or Onexton; no generic page exists
+  source: 'BenzaClin NDA050756 is discontinued per Drugs@FDA, so the marketed form
+    of this combination is generic or Onexton; no generic page exists Resolved WITHOUT
+    a new page, deliberately. The premise was right (BenzaClin NDA050756 is Discontinued)
+    but the conclusion was not: a generic page would have duplicated [[benzaclin-clindamycin-benzoyl-peroxide-gel]]
+    almost entirely, since the generics share its actives, strength and registration
+    evidence. Instead the discontinuation and the generic landscape were added to
+    the BenzaClin page itself, sourced to openFDA drugsfda + NDC on 2026-11-05: brand
+    Discontinued, ten ANDA labeler entries at 1%/5% with no marketing end date and
+    no NDA at that strength, Bausch''s surviving branded gels at 2.5% and 3.75%.'
 - name: Banila Co Clean It Zero Tea-Tree EX Pore Clarifying Cleansing Balm price and
     claims refresh
   type: product
@@ -5350,3 +5357,18 @@
     framing applies). It has NO boxed warning, which is the single most decision-relevant
     contrast with the oral JAK inhibitors and should be stated plainly. HIGH PRIORITY:
     it unblocks a tier on an existing list.'
+- name: Acanya (clindamycin 1% / benzoyl peroxide 2.5% gel)
+  type: product
+  priority: 3
+  status: pending
+  discovered_from: benzaclin-clindamycin-benzoyl-peroxide-gel
+  source: Surfaced while confirming BenzaClin's discontinuation. openFDA NDC 13548-132,
+    labeler Bausch Health US, LLC, marketing_category NDA, brand ACANYA, clindamycin
+    phosphate 10 mg/g with benzoyl peroxide 25 mg/g, no marketing end date. It is
+    the lowest-benzoyl-peroxide member of the clindamycin/BPO family and the site
+    covers the other three ([[benzaclin-clindamycin-benzoyl-peroxide-gel]] at 5% but
+    discontinued, [[onexton-clindamycin-benzoyl-peroxide-gel]] at 3.75%, [[cabtreo-clindamycin-adapalene-benzoyl-peroxide-gel]]
+    as the triple), so Acanya is the one real gap in the set. The interesting question
+    for the page is whether the lower BPO strength costs any efficacy, since the registration
+    trials differ by product. Get the NDA number and the trial figures from DailyMed
+    and Drugs@FDA; do not read BenzaClin's 5% figures across.
