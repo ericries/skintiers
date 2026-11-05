@@ -3630,3 +3630,17 @@
     about the TOPICAL route only and must say so. Verify before drafting whether any
     human topical trial exists; if not, the honest tier is weak or none. Linked from
     [[skin-longevity]].'
+- name: CYP2C19 poor metabolizer status (pharmacogenomic dosing in skin drugs)
+  type: ingredient
+  priority: 7
+  status: pending
+  discovered_from: cibinqo-abrocitinib-tablets
+  source: 'The CIBINQO label sets a reduced 50 mg dose for CYP2C19 poor metabolizers,
+    the same reduction it gives for moderate renal impairment. This is the only place
+    on the site where an inherited trait changes a skincare-adjacent drug dose, and
+    a reader meeting it has nowhere to look. NOT OBVIOUSLY AN INGREDIENT: it is a
+    patient characteristic, not a molecule, so decide the right page type before drafting
+    (it may belong as a section on [[abrocitinib]] rather than as its own page, and
+    that is an acceptable outcome to close this with). If it is built, check which
+    other dermatology drugs carry CYP2C19 or other pharmacogenomic dosing language
+    in their FDA labels, via openFDA, rather than asserting this is unique.'

@@ -1159,3 +1159,18 @@
     nothing testing the exfoliating function it is sold for), and [[centella-asiatica]].
     Jones 2021 (PMID 34409356, queued) gives the category-level negative to anchor
     it. DO NOT open new ingredient pages to fill this; wait for the queued ones.'
+- name: Oral JAK inhibitors for eczema by how much their labels actually permit
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: cibinqo-abrocitinib-tablets
+  source: Grounded in the two product pages just shipped. [[cibinqo-abrocitinib-tablets]]
+    carries ONE indication and three strengths all serving it; [[rinvoq-upadacitinib-tablets]]
+    carries nine indications and reserves its 45 mg tablet for ulcerative colitis
+    and Crohn's induction. Both restrict use to disease biologics have not controlled;
+    CIBINQO additionally doses by CYP2C19 metabolizer status and requires a TB, hepatitis
+    and CBC workup before the first tablet. A list ranked by LABELLED SCOPE AND ENTRY
+    COST rather than by clearance would say something [[systemic-atopic-dermatitis-treatments-by-evidence]]
+    deliberately does not, since that one ranks on efficacy and says so. CHECK FIRST
+    whether it is genuinely distinct from that list rather than a second cut of the
+    same three drugs; if it is not, close this instead of padding the site.

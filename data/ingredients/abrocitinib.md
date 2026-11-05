@@ -33,7 +33,7 @@ The trade-off is safety, and it is the reason this drug sits second-line. The la
 
 ## See Also
 
-[[atopic-dermatitis]] [[upadacitinib]] [[acne]] [[moisturizing]]
+[[cibinqo-abrocitinib-tablets]] [[atopic-dermatitis]] [[upadacitinib]] [[acne]] [[moisturizing]]
 
 ## Sources
 

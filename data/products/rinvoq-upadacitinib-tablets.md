@@ -80,6 +80,7 @@ The page's safety summary also states the boxed-warning point in plain English (
 
 - [[upadacitinib]] for the molecule: mechanism, the real-world meta-analysis, and the evidence grade
 - [[atopic-dermatitis]] for the disease and the treatments that come before this one
+- [[cibinqo-abrocitinib-tablets]], the other oral JAK inhibitor approved for eczema, whose label carries that one indication and nothing else
 - [[dupilumab]] and [[isotretinoin]] for the other systemic drugs with pages here
 
 ## Where to Buy

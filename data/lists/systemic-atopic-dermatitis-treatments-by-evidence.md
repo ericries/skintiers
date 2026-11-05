@@ -80,7 +80,7 @@ Three limits are worth stating plainly, because a tier list invites being read a
 
 ## See Also
 
-[[atopic-dermatitis]] [[upadacitinib]] [[rinvoq-upadacitinib-tablets]] [[abrocitinib]] [[crisaborole]] [[best-eczema-moisturizers-by-evidence]] [[best-gentle-eczema-sensitive-skin-moisturizers]]
+[[atopic-dermatitis]] [[upadacitinib]] [[rinvoq-upadacitinib-tablets]] [[abrocitinib]] [[cibinqo-abrocitinib-tablets]] [[crisaborole]] [[best-eczema-moisturizers-by-evidence]] [[best-gentle-eczema-sensitive-skin-moisturizers]]
 
 ## Sources
 

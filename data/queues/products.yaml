@@ -4053,7 +4053,7 @@
 - name: CIBINQO (abrocitinib) oral tablets
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: irvine-2025-upadacitinib-atopic-dermatitis-140-weeks
   source: the other oral JAK inhibitor approved for moderate-to-severe atopic dermatitis;
     abrocitinib has an ingredient page here but no product page
