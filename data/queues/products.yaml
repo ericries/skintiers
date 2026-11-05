@@ -5390,3 +5390,29 @@
     plainly that the product is sold by a dermatologist whose clips this site cards,
     which is disclosed on [[sheila-farhang]]. Do not treat her own description as
     evidence for any claim.'
+- name: TheraFace Mask (K230293)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: one-fda-applicant-several-shelf-brands
+  source: 'Found while verifying applicant filings for [[one-fda-applicant-several-shelf-brands]]:
+    openFDA device/510k lists K230293, applicant ''Therabody, Inc.'', device name
+    ''TheraFace Mask'', queried 2026-11-05. The site covers [[theraface-led-light-ring]]
+    (K212155) but not the Mask, and the two are separate clearances from related corporate
+    entities, which is exactly the comparison the new list says is worth making. Pull
+    the clearance summary from accessdata.fda.gov (append ? to the URL; WebFetch saves
+    the PDF and pdftotext -layout extracts it) and record what the testing actually
+    covered rather than the marketing claims. Check in particular whether the Mask''s
+    clearance names an irradiance figure, since the dose-per-session comparison on
+    the LED lists depends on that being published.'
+- name: TheraFace Microcurrent (K212238)
+  type: product
+  priority: 6
+  status: pending
+  discovered_from: one-fda-applicant-several-shelf-brands
+  source: 'The third TheraFace clearance, applicant ''Theragun, Inc.'', openFDA device/510k
+    queried 2026-11-05. Completes the TheraFace set alongside [[theraface-led-light-ring]]
+    and the queued Mask. Microcurrent specifically: the site already carries NuFACE
+    microcurrent pages, so the useful angle is what this clearance''s indication actually
+    permits versus what the marketing says, which is the pattern [[home-device-wrinkle-claims-by-cleared-scope]]
+    applies. Do NOT assume it mirrors the NuFACE clearances; read its own summary.'

@@ -27,6 +27,8 @@ No brand claims are quoted here: the storefront path tried returned HTTP 404.
 
 ## See Also
 
+[[one-fda-applicant-several-shelf-brands]] records that this brand's FDA clearances are filed by an applicant that also files under other consumer names.
+
 [[home-use-skincare-devices-by-evidence]], [[home-led-devices-by-what-the-file-publishes]], [[fda-approved-vs-cleared-skincare]].
 
 ## Sources

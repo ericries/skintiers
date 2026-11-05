@@ -893,7 +893,7 @@
 - name: One FDA applicant, several shelf brands
   type: list
   priority: 3
-  status: pending
+  status: done
   discovered_from: currentbody
   source: 'The site now documents FOUR separate cases of one FDA applicant filing
     under several consumer brand names, each verified from openFDA: LED Technologies

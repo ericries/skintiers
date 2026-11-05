@@ -29,6 +29,8 @@ The domain revivelighttherapy.com no longer serves the brand and returned an unr
 
 Category evidence is on [[home-led-light-therapy]]; the device ladder is on [[home-use-skincare-devices-by-evidence]]; what this firm publishes against its rivals is on [[home-led-devices-by-what-the-file-publishes]].
 
+The same applicant also files the dpl range, and three other device companies on this site show the same one-applicant-many-brands pattern; they are collected on [[one-fda-applicant-several-shelf-brands]].
+
 ## Sources
 
 [^fda]: US Food and Drug Administration, 510(k) Premarket Notification record for K223482, applicant "Led Technologies, Inc.", 12821 Starkey Rd., Suite 4900, Largo, FL 33773, decision date 2022-12-21, via the openFDA device/510k API and the clearance package at accessdata.fda.gov. The predicates named in that package are K210965 and K210968, both "The reVive Light Therapy® Essentials (LED Technologies, Inc.)". Full treatment on [[revive-light-therapy-wrinkle-and-acne-led-device]]. https://www.accessdata.fda.gov/cdrh_docs/pdf22/K223482.pdf (accessed 2026-10-13)
