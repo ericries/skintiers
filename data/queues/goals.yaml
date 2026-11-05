@@ -878,3 +878,18 @@
     where evidence is absent, the way [[home-body-devices-by-whether-body-evidence-exists]]
     and [[cradle-cap]] do. Check for a systematic review before drafting rather than
     assembling primary studies.'
+- name: Everyday versus holiday UV exposure (does daily incidental sun matter?)
+  type: goal
+  priority: 5
+  status: pending
+  discovered_from: raynaud-2026-daily-photoprotection-seasonal-skin-changes-pmid-42574285
+  source: The Raynaud 2026 trial's own framing is that 'the detrimental effects of
+    intense sun exposure are well-recognized' while 'the cumulative impact of daily
+    moderate UV exposure remains less explored', and it is built as a real-life exposure
+    study in one city over one year rather than a holiday or solar-simulator model.
+    That distinction, incidental commuting-and-windows exposure versus deliberate
+    sun, is the question most readers actually have when deciding whether daily sunscreen
+    is worth it, and the site has no hub for it. CHECK FIRST that this is not already
+    answered inside [[sunscreen-uv-filters]] or [[anti-aging]]; if it is, close this
+    rather than splitting the topic. If built, it needs more than this one trial,
+    since a single n=59 study in Paris cannot carry a hub.

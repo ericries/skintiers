@@ -833,7 +833,12 @@
   priority: 1
   status: pending
   discovered_from: null
-  source: https://pubmed.ncbi.nlm.nih.gov/40874402/
+  source: 'https://pubmed.ncbi.nlm.nih.gov/40874402/ SCOPE FLAG (merged in from a
+    duplicate queue row, 2026-11-05): facial vascular anatomy serves injectable-filler
+    safety rather than topical skincare or product grading. Decide scope BEFORE drafting;
+    if it is kept it belongs alongside the filler and procedure pages, not any ingredient
+    page. The duplicate row carried this note mangled into its name field and has
+    been removed.'
   note: 'SCOPE RULING 2026-10-27: deferred, not rejected. Facial vascular anatomy
     by Doppler serves injectable-filler injection safety, which is a procedures-phase
     topic the site brackets as context rather than covering now (user: non-topical
@@ -1615,24 +1620,6 @@
   status: pending
   discovered_from: null
   source: null
-- name: 'Pourani 2025: facial artery course variations, diameters and depth by Doppler
-    ultrasound (PMID 40874402) - NOW THE STUDY QUEUE HEAD, flagged here because it
-    may be out of scope: facial vascular anatomy serves injectable-filler safety rather
-    than topical skincare or product grading. Decide scope before drafting; if it
-    is kept, it belongs alongside the filler and procedure pages rather than any ingredient
-    page. Source: pubmed.ncbi.nlm.nih.gov/40874402'
-  type: study
-  priority: 1
-  status: pending
-  discovered_from: null
-  source: null
-  note: 'SCOPE RULING 2026-10-27: deferred, not rejected. Facial vascular anatomy
-    by Doppler serves injectable-filler injection safety, which is a procedures-phase
-    topic the site brackets as context rather than covering now (user: non-topical
-    anti-aging = full coverage but LATER phase). Priority dropped to 1 so it stops
-    holding the queue head; raise it again when the filler/procedure pages are built,
-    where it would belong. DUPLICATE of the earlier PMID 40874402 entry in this file;
-    resolve both together.'
 - name: 'Misery 2017: IFSI expert position paper defining sensitive skin (Acta Derm
     Venereol 2017;97(1):4-6, PMID 26939643) - the Delphi-consensus DEFINITION that
     sensitive-skin quotes in full and that both laurent-misery and esther-brenaut
@@ -1992,7 +1979,7 @@
     \ multiphoton study (PMID 42574285)"
   type: study
   priority: 2
-  status: pending
+  status: done
   discovered_from: skin-longevity
   source: 'https://pubmed.ncbi.nlm.nih.gov/42574285/ Skin Pharmacol Physiol 2026.
     n=59 women of European descent, 55-65, Fitzpatrick II/III, Paris; randomised double-blind

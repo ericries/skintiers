@@ -3658,3 +3658,19 @@
     the dominant commercial forms and both are OUT OF SCOPE per docs/cron-playbook.md,
     so a page here must be about the TOPICAL route only and must say so plainly. Links
     naturally from [[hyperpigmentation]] and [[melasma]].'
+- name: UVA filters and the PPD / persistent pigment darkening rating
+  type: ingredient
+  priority: 4
+  status: pending
+  discovered_from: raynaud-2026-daily-photoprotection-seasonal-skin-changes-pmid-42574285
+  source: 'The intervention in Raynaud 2026 is specified as an ''SPF /persistent pigment
+    darkening (PPD)'' product ''with enhanced UVA filtration'', and PPD is the measure
+    that distinguishes it from an ordinary high-SPF sunscreen. The site covers individual
+    filters ([[avobenzone]], [[zinc-oxide]], [[titanium-dioxide]]) and [[sunscreen-uv-filters]]
+    generally, but PPD and the UVA rating systems (PPD, the UVA circle, the PA+ scale)
+    are not explained anywhere, so a reader meeting ''enhanced UVA filtration'' has
+    nowhere to go. DECIDE THE PAGE TYPE: this is a rating system, not a molecule,
+    so it may belong as a section inside [[sunscreen-uv-filters]] rather than as its
+    own ingredient page, and closing it that way is an acceptable outcome. Ground
+    it in regulatory sources (EU Recommendation 2006/647/EC, ISO 24442) rather than
+    brand copy.'

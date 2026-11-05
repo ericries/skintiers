@@ -41,7 +41,7 @@ updated: '2026-11-04'
 
 Skin longevity is a marketing frame, not a measured outcome. It is worth a page because brands have adopted it quickly and a reader meeting it has no way to tell which part is new science and which part is a new label on an old product.
 
-> **Look for the human study and you end up back at sunscreen.** In one 2026 journal issue, two papers both use "skin longevity" in the title. One activates SIRT6 with a yeast protein extract "In a series of in vitro studies", in keratinocytes, fibroblasts and a 3D skin model.[^sirt] The other is a year-long randomised, double-blind, vehicle-controlled trial in 59 women that tests daily photoprotection.[^photo] Same framing, same journal, same year; one is cells and one is people.
+> **Look for the human study and you end up back at sunscreen.** In one 2026 journal issue, two papers both use "skin longevity" in the title. One activates SIRT6 with a yeast protein extract "In a series of in vitro studies", in keratinocytes, fibroblasts and a 3D skin model.[^sirt] The other is a year-long randomised, double-blind, vehicle-controlled trial in 59 women that tests daily photoprotection, appraised in full on [[raynaud-2026-daily-photoprotection-seasonal-skin-changes-pmid-42574285|Raynaud 2026]].[^photo] Same framing, same journal, same year; one is cells and one is people.
 
 ## What the term is doing
 
@@ -76,6 +76,7 @@ The same shape recurs across the compounds the term has pulled in: sirtuin activ
 
 - [[anti-aging]], which this term is a relabelling of, and where both dermatologist videos are carded
 - [[sunscreen-uv-filters]], [[retinol]], [[vitamin-c]] and [[peptides]] for the actives usually sold under the heading
+- [[raynaud-2026-daily-photoprotection-seasonal-skin-changes-pmid-42574285]] for the one human trial in this literature, including what its abstract does not report
 - [[anti-aging-perimenopause]] for the one age-related context with its own page here
 
 ## Sources
