@@ -66,7 +66,7 @@ The evidence base is a Cochrane review of 67 randomized trials of topical treatm
 
 ## See Also
 
-[[terbinafine]], [[ketoconazole]], [[ciclopirox]], [[tinea-cruris-jock-itch]], [[fungal-acne]], [[seborrheic-dermatitis]].
+[[terbinafine]], [[ketoconazole]], [[ciclopirox]], [[luliconazole]], [[tinea-cruris-jock-itch]], [[fungal-acne]], [[seborrheic-dermatitis]].
 
 ## Sources
 

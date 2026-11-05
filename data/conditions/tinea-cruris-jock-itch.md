@@ -66,7 +66,7 @@ The tier list above inherits its grades, and that is worth stating plainly rathe
 
 ## See Also
 
-[[athletes-foot]], [[tinea-corporis-ringworm]], [[terbinafine]], [[butenafine]], [[clotrimazole]], [[ketoconazole]], [[otc-antifungals-by-evidence]].
+[[athletes-foot]], [[tinea-corporis-ringworm]], [[luliconazole]], [[terbinafine]], [[butenafine]], [[clotrimazole]], [[ketoconazole]], [[otc-antifungals-by-evidence]].
 
 ## Sources
 

@@ -5416,3 +5416,18 @@
     microcurrent pages, so the useful angle is what this clearance''s indication actually
     permits versus what the marketing says, which is the pattern [[home-device-wrinkle-claims-by-cleared-scope]]
     applies. Do NOT assume it mirrors the NuFACE clearances; read its own summary.'
+- name: Luzu (luliconazole 1% cream)
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: luliconazole
+  source: 'The only marketed product for the ingredient page just shipped: openFDA
+    Drugs@FDA NDA204153, sponsor BAUSCH, one product LULICONAZOLE 1%, marketing status
+    Prescription (queried 2026-11-05). The site has product pages for the OTC antifungals
+    ([[lotrimin-ultra-athletes-foot-cream]] and others on [[otc-antifungal-creams-by-labelled-scope]])
+    but none for a prescription topical antifungal. The product-level angle beyond
+    [[luliconazole]]: the tube sizes and whether generics exist (check the NDC directory
+    for ANDA entries at luliconazole 10 mg/g, the way the BenzaClin check was done),
+    plus the Drug Facts-style dosing split where tinea pedis gets 2 weeks and the
+    other two indications 1 week. Do NOT re-derive the trial figures; the ingredient
+    page owns them.'

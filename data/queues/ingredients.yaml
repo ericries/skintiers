@@ -3025,7 +3025,17 @@
     sebum reduction versus placebo (-19.27 vs +1.27 ug/cm2, p<0.001) over 112 days
     but measured no acne lesion at all, which is the sort of surrogate-versus-outcome
     gap the page should lead with. Check the FDA label for the actual approved indications
-    before writing a word about skin quality.'
+    before writing a word about skin quality. SCOPE DECISION NEEDED FROM THE USER,
+    do not re-litigate per tick (playbook records that three ticks each re-decided
+    the supplement question separately before it was written down). Botulinum toxin
+    is an injectable in-office procedure. docs/cron-playbook.md lists procedures among
+    the non-topical anti-ageing vertical deferred to a LATER phase, but the site already
+    covers procedures in practice ([[chemical-peels-acne-scars]], [[dermal-fillers-for-acne-scars]],
+    [[fractional-co2-laser-resurfacing]]) and devices extensively, so the written
+    rule and the built site disagree here. Skipped on 2026-11-05 for that reason,
+    not for lack of sources: [[roessle-2025-incobotulinumtoxin-a-maskne-rct]] already
+    exists as a study page. Resolve the scope question first, then build or close
+    this.'
 - name: Polyhydroxy acids (PHAs, gluconolactone)
   type: ingredient
   priority: 4
@@ -3090,7 +3100,7 @@
 - name: Luliconazole (Luzu)
   type: ingredient
   priority: 3
-  status: pending
+  status: done
   discovered_from: dermatophytoma
   source: 'The third topical named in the Gupta 2022 dermatophytoma review (PMID 35887497)
     alongside tavaborole and efinaconazole. CHECK AVAILABILITY FIRST: luliconazole

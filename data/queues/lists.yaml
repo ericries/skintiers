@@ -1190,3 +1190,20 @@
     BenzaClin as discontinued. If it is only a narrower slice of that list, close
     this rather than duplicating it. It also needs the Acanya page to exist first
     to be worth building.'
+- name: Topical antifungals by how long you have to use them
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: luliconazole
+  source: 'Grounded in a contrast the site can now draw from labels it already cites.
+    [[luliconazole]] is labelled once daily for 2 weeks (interdigital tinea pedis)
+    and 1 week (tinea cruris, tinea corporis), while the OTC azoles on [[otc-antifungal-creams-by-labelled-scope]]
+    are generally labelled 2 to 4 weeks and [[terbinafine]] and [[butenafine]] have
+    their own shorter regimens. Course length is the thing people actually fail to
+    complete, so a list ordered by labelled duration is practically useful in a way
+    an efficacy ranking is not. REQUIREMENTS: take every duration from the product''s
+    own FDA label or Drug Facts panel, never from a brand page; state the indication
+    alongside the duration, since the same drug has different courses for different
+    tineas; and do NOT imply a shorter course means a better cure rate, because [[luliconazole]]
+    has the shortest course and a complete-clearance rate of 14 to 26 percent in athlete''s
+    foot.'

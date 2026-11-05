@@ -69,7 +69,7 @@ The classic description is specific enough to be useful. A 2020 review describes
 
 ## See Also
 
-[[athletes-foot]] [[tinea-cruris-jock-itch]] [[tinea-capitis]] [[clotrimazole]] [[tolnaftate]] [[butenafine]] [[terbinafine]] [[topical-corticosteroids]] [[fda-approved-vs-cleared-skincare]]
+[[athletes-foot]] [[tinea-cruris-jock-itch]] [[tinea-capitis]] [[luliconazole]] [[clotrimazole]] [[tolnaftate]] [[butenafine]] [[terbinafine]] [[topical-corticosteroids]] [[fda-approved-vs-cleared-skincare]]
 
 ## Sources
 
