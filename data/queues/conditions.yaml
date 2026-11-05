@@ -630,7 +630,7 @@
 - name: Moccasin-type athlete's foot (plantar tinea pedis)
   type: condition
   priority: 5
-  status: pending
+  status: done
   discovered_from: lamisil-at-cream-terbinafine-1
   source: 'the sole-and-sides pattern that splits the two leading OTC antifungal creams:
     Lamisil AT claims it with a two-week course, Lotrimin Ultra says effectiveness
@@ -641,7 +641,19 @@
     by openFDA. Quoted and cited on [[lotrimin-ultra-butenafine-1-cream]]. That is
     a manufacturer declining to claim this distribution, which is a stronger framing
     for the hub than a third-party assertion. Confirm the Lamisil AT side of the contrast
-    from its own label before writing the comparison.'
+    from its own label before writing the comparison. RESOLVED 2026-11-04 WITHOUT
+    a new page, because data/conditions/athletes-foot.md already owns this material:
+    it names the three clinical forms including moccasin-type from Leung 2023, and
+    already states the exact label split this entry was built around (butenafine''s
+    ''effectiveness on the bottom or sides of foot is unknown'', terbinafine''s split
+    course of 1 week between the toes against 2 weeks on the sole, clotrimazole''s
+    four weeks regardless). A separate hub would have duplicated it. THE ENTRY''S
+    PREMISE WAS ALSO WRONG: it framed this as Lamisil claiming the sole while Lotrimin
+    disclaims it, a brand-versus-brand contrast. Reading all seven Lamisil labels
+    shows the split is by FORMAT, not brand: the Lamisil AT spray carries the same
+    between-the-toes restriction as butenafine, while the cream claims and doses the
+    sole at two weeks. That finding was added to athletes-foot with its own sourced
+    footnote rather than spun into a new page.'
 - name: 'Palmoplantar pustulosis (PPP) - sterile pustules on an erythematous base
     over palms and soles, chronic and relapsing. The site has psoriasis but no PPP
     hub, so hsu-2025-ethnic-differences-palmoplantar-pustulosis (now published) has

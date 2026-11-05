@@ -5312,3 +5312,23 @@
     the witch hazel sits in the name. Confirm that by reading the Drug Facts panel:
     active, purpose, uses. Pull it from openFDA brand_name:Thayers rather than incidecoder,
     which has no Thayers records. [[salicylic-acid]] is tier good and owns the evidence.'
+- name: 'MERGE: fold the four-SPL Lotrimin Ultra finding into lotrimin-ultra-athletes-foot-cream'
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: athletes-foot
+  source: 'data/products/lotrimin-ultra-butenafine-1-cream.md (my duplicate, now status:
+    draft) CLEANUP OF MY OWN ERROR, 2026-11-04. On 2026-11-03 I wrote data/products/lotrimin-ultra-butenafine-1-cream.md
+    without noticing that data/products/lotrimin-ultra-athletes-foot-cream.md had
+    existed since 2026-10-25 for the same product, and I then repointed four working
+    xrefs onto the duplicate. The xrefs are reverted and the duplicate is now status:
+    draft with duplicate_of set. WHAT STILL NEEDS DOING: the canonical page covers
+    only the Athletes Foot SKU (NDC 11523-4338) and does NOT carry the finding that
+    FOUR current Lotrimin Ultra SPLs exist with the same butenafine 1% and four DIFFERENT
+    Uses lists (plain Lotrimin Ultra 11523-0082 athlete''s foot between toes only;
+    Jock Itch 11523-4339 jock itch only; Ringworm 11523-0158 all three; Athletes Foot
+    11523-4338 all three). Port that section and its footnote across, then DELETE
+    the draft duplicate, which is the user''s call rather than a tick''s. Root cause
+    for future ticks: I ran sk find ''Lotrimin'' and accepted a weak match instead
+    of listing data/products; the canonical page carries ''Lotrimin Ultra'' as an
+    alias and should have matched.'

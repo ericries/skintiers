@@ -41,7 +41,8 @@ key_actives:
 - butenafine
 name: Lotrimin Ultra (butenafine hydrochloride 1% cream)
 slug: lotrimin-ultra-butenafine-1-cream
-status: published
+duplicate_of: lotrimin-ultra-athletes-foot-cream
+status: draft
 type: product
 updated: '2026-11-03'
 ---
