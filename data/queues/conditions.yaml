@@ -939,3 +939,18 @@
     VERIFY EACH RULE INDEPENDENTLY before drafting, especially the silicone claim,
     which is testable against Cochrane and the surgical literature and should not
     be taken from the video. Card the video on the hub once it exists.'
+- name: Chronic spontaneous urticaria (CSU)
+  type: condition
+  priority: 4
+  status: pending
+  discovered_from: dupixent-dupilumab-injection
+  source: 'One of the four skin diseases on the DUPIXENT label (indication 1.7, ''adult
+    and pediatric patients aged 2 years and older with chronic spontaneous urticaria
+    (CSU) who remain symptomatic despite H1 antihistamine treatment'', openFDA label
+    effective 2026-04-22) with NO hub on this site. sk find returns no match for urticaria,
+    hives or CSU. It is a common, genuinely distressing skin condition with a clear
+    treatment ladder (H1 antihistamines first, then biologics), which is exactly the
+    shape of hub this site builds well. The label''s own Limitation of Use is worth
+    carrying over: ''Not indicated for other forms of urticaria.'' Build the condition
+    first; [[dupixent-dupilumab-injection]] and [[dupilumab]] are ready to link into
+    it.'

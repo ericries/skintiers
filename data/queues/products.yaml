@@ -5342,7 +5342,7 @@
 - name: DUPIXENT (dupilumab) injection
   type: product
   priority: 2
-  status: pending
+  status: done
   discovered_from: rinvoq-upadacitinib-tablets
   source: 'The RINVOQ label makes this the drug that comes FIRST: indication 1.3 restricts
     RINVOQ to atopic dermatitis ''not adequately controlled with other systemic drug
@@ -5431,3 +5431,18 @@
     plus the Drug Facts-style dosing split where tinea pedis gets 2 weeks and the
     other two indications 1 week. Do NOT re-derive the trial figures; the ingredient
     page owns them.'
+- name: Dupixent pre-filled pen
+  type: product
+  priority: 7
+  status: pending
+  discovered_from: dupixent-dupilumab-injection
+  source: 'Gap noted while writing [[dupixent-dupilumab-injection]]: the openFDA NDC
+    query for brand DUPIXENT returned only four records on 2026-11-05, all prefilled
+    glass SYRINGES (0024-5914/5915 at 300 mg/2 mL, 0024-5918/5919 at 200 mg/1.14 mL).
+    Dupixent is also marketed as a pre-filled PEN, which did not appear in that result
+    set, so the product page deliberately describes only the syringes. Worth resolving:
+    either the pen is listed under a different brand-name spelling in the directory,
+    or the query needs widening (try searching generic_name dupilumab, or the DailyMed
+    SPL, which carries the full package list). If the pen is confirmed, fold it into
+    the existing product page rather than opening a second one; this is a presentation,
+    not a separate product.'

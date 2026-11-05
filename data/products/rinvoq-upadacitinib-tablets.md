@@ -79,6 +79,7 @@ The page's safety summary also states the boxed-warning point in plain English (
 ## See Also
 
 - [[upadacitinib]] for the molecule: mechanism, the real-world meta-analysis, and the evidence grade
+- [[dupixent-dupilumab-injection]], the biologic both labels name as the therapy to try first
 - [[atopic-dermatitis]] for the disease and the treatments that come before this one
 - [[cibinqo-abrocitinib-tablets]], the other oral JAK inhibitor approved for eczema, whose label carries that one indication and nothing else
 - [[dupilumab]] and [[isotretinoin]] for the other systemic drugs with pages here

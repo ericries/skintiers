@@ -74,6 +74,7 @@ The page's own framing is promotional in the ordinary way. It calls the drug "St
 ## See Also
 
 - [[abrocitinib]] for the molecule, its mechanism and its evidence grade
+- [[dupixent-dupilumab-injection]], the biologic both labels name as the therapy to try first
 - [[rinvoq-upadacitinib-tablets]], the other oral JAK inhibitor approved for eczema, for the contrast in label scope
 - [[systemic-atopic-dermatitis-treatments-by-evidence]] for how the systemics rank against each other
 - [[atopic-dermatitis]] for the disease and everything that comes before a pill
