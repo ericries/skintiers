@@ -62,11 +62,14 @@ def test_load_all_queues_covers_seven_types(tmp_path):
 
 
 def test_queue_next_priority_then_fifo(tmp_path):
-    sklib.queue_add(tmp_path, "Low", "ingredient", 3)
-    sklib.queue_add(tmp_path, "HighA", "ingredient", 9)
-    sklib.queue_add(tmp_path, "HighB", "ingredient", 9)  # tie, added after HighA
+    # Priority 1 is the MOST important, 10 the least. This test used to assert
+    # the opposite, which is how the inverted sort in queue_next survived: the
+    # test was written from the implementation rather than from the data.
+    sklib.queue_add(tmp_path, "Parked", "ingredient", 9)
+    sklib.queue_add(tmp_path, "UrgentA", "ingredient", 3)
+    sklib.queue_add(tmp_path, "UrgentB", "ingredient", 3)  # tie, added after UrgentA
     nxt = sklib.queue_next(tmp_path, "ingredient")
-    assert nxt["name"] == "HighA"  # highest priority, FIFO tie-break
+    assert nxt["name"] == "UrgentA"  # lowest number wins, FIFO tie-break
 
 
 def test_queue_next_none_when_empty_or_all_done(tmp_path):

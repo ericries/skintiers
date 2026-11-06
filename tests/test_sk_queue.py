@@ -58,12 +58,14 @@ def test_queue_next_text_and_empty(tmp_path):
     empty = _sk(tmp_path, "queue-next", "--type", "product")
     assert empty.returncode == 0
     assert "empty: products" in empty.stdout
-    _sk(tmp_path, "queue-add", "Top", "--type", "product", "--priority", "9", "--from", "seed")
-    _sk(tmp_path, "queue-add", "Low", "--type", "product", "--priority", "2")
+    # Priority 1 is the MOST important, 10 the least (sklib.DEFAULT_QUEUE_PRIORITY
+    # is 5). This test previously had the scale backwards, naming 9 "Top".
+    _sk(tmp_path, "queue-add", "Top", "--type", "product", "--priority", "2", "--from", "seed")
+    _sk(tmp_path, "queue-add", "Parked", "--type", "product", "--priority", "9")
     out = _sk(tmp_path, "queue-next", "--type", "product")
     assert out.returncode == 0
     assert "Top" in out.stdout
-    assert "Low" not in out.stdout
+    assert "Parked" not in out.stdout
     assert "seed" in out.stdout  # discovered_from shown
 
 

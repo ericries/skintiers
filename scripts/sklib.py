@@ -1147,7 +1147,14 @@ def page_exists_for(data_dir, name, type):
     return any((base / (s + ".md")).exists() for s in cands)
 
 
-def queue_add(data_dir, name, type, priority=5, discovered_from=None, source=None):
+# Queue priority convention: 1 = most important, 10 = least. 5 is the default
+# applied to anything nobody triaged. Stated here because it was never written
+# down anywhere, which let `queue_next` sort the scale backwards while every
+# author filled the queues the ordinary way round.
+DEFAULT_QUEUE_PRIORITY = 5
+
+
+def queue_add(data_dir, name, type, priority=DEFAULT_QUEUE_PRIORITY, discovered_from=None, source=None):
     items = load_queue(data_dir, type)
     for it in items:
         if it.get("name") == name and it.get("type") == type:
@@ -1187,12 +1194,36 @@ def queue_note(data_dir, name, text, type=None, substring=False):
 
 
 def queue_next(data_dir, type):
-    """Highest-priority PENDING item for a type, FIFO on ties, or None."""
+    """Most important PENDING item for a type, FIFO on ties, or None.
+
+    Priority follows the ordinary convention and the one the corpus uses:
+    **1 is the most important, 10 the least**, with 5 the default applied by
+    `queue_add`. This selector is the scheduler for every fill cron, so the
+    order here decides what the site builds next.
+
+    It previously sorted by DESCENDING priority number, which inverted all of
+    that: on 2026-11-06 it offered a placeholder queued at priority 8, whose
+    own note said the default answer was no, as the top goal on the site while
+    priority-4 work waited.
+
+    A missing or null `priority` means "nobody triaged this", so it ranks as
+    the DEFAULT, not as 0. Roughly 647 of 1,193 pending rows carry no priority
+    key; ranking them 0 would float the whole untriaged backlog above work
+    somebody deliberately marked urgent. A null also has to be handled rather
+    than assumed absent, since `priority:` with no value parses to None.
+    """
     pending = [it for it in load_queue(data_dir, type) if it.get("status") == "pending"]
     if not pending:
         return None
-    # Stable sort on descending priority keeps original (FIFO) order for ties.
-    return sorted(pending, key=lambda it: -it.get("priority", 0))[0]
+
+    def rank(it):
+        p = it.get("priority")
+        if not isinstance(p, int) or isinstance(p, bool):
+            return DEFAULT_QUEUE_PRIORITY
+        return p
+
+    # sorted() is stable, so equal ranks keep insertion (FIFO) order.
+    return sorted(pending, key=rank)[0]
 
 
 def migrate_queue(data_dir):
