@@ -1036,7 +1036,14 @@ def render_og_image(og_dir, name, title, subtitle):
     if subtitle:
         d.text((64, H - 92), subtitle, font=ImageFont.load_default(size=32), fill=(92, 84, 72))
     og_dir.mkdir(parents=True, exist_ok=True)
-    img.save(og_dir / f"{name}.png")
+    # The card is flat: one background, one rule, three text colours. A 64-entry
+    # palette is visually identical and about 65% smaller, and staying PNG keeps
+    # OG previews working everywhere (JPEG is actually ~3% LARGER on artwork
+    # this flat, and WebP preview support is still uneven across crawlers).
+    # 1,171 cards at full-depth RGB were 32MB of the 155MB that timed the Pages
+    # deploy out on 2026-11-06.
+    img.quantize(colors=64, method=Image.MEDIANCUT, dither=Image.NONE).save(
+        og_dir / f"{name}.png", optimize=True)
 
 
 def _plain_excerpt(html, limit=200):
