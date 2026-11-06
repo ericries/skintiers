@@ -1234,7 +1234,7 @@ This section is quarantined and discounted; treat everything here as unproven un
 
 ## See Also
 
-- [[zinc-oxide]] and [[titanium-dioxide]], the mineral filters, gentler on reactive skin
+- [[zinc-oxide]] and [[titanium-dioxide]], the mineral filters, gentler on reactive skin [[us-sunscreen-filters-by-what-fda-proposed-in-2019]]
 - [[avobenzone]], the main UVA workhorse filter in most US sunscreens
 - [[bemotrizinol]], the newly US-approved UVA filter discussed above
 - [[sun-damage-photoaging]], the condition daily sunscreen most directly slows

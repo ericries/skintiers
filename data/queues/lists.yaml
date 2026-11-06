@@ -861,7 +861,7 @@
 - name: Home LED devices by published dose per session
   type: list
   priority: 3
-  status: pending
+  status: done
   discovered_from: dpl-ii-panel
   source: 'Now buildable and genuinely useful: the site can compare per-session dose
     across the home LED devices whose files publish irradiance, because three independent
@@ -872,11 +872,25 @@
     is J/cm2 per session against the doses used in published trials, which led-dose-j-per-cm2-and-wavelength
     already explains, so this list would be the applied table rather than a re-explanation.
     Build only AFTER at least one more device page publishes a figure, and show the
-    arithmetic as the site''s own rather than the files''.'
+    arithmetic as the site''s own rather than the files''. CLOSED WITHOUT BUILDING,
+    2026-11-06, and the reason is evidential not editorial. Two existing pages already
+    hold everything this list would contain. [[home-led-devices-by-what-the-file-publishes]]
+    carries every irradiance figure, treatment area and duration (70.16 / 67.7 / 61.59
+    / 62.07 mW/cm2, the TheraFace 73 and 64, the areas, the three-minute regimen)
+    and matches the unnamed predecessors to their filings. [[led-dose-j-per-cm2-and-wavelength]]
+    already does the arithmetic this list proposed as its axis and prints the per-session
+    results: about 12.2, 11.2, 12.6 and 11.1 J/cm2. Building a third page would be
+    the redundancy the playbook names as the enemy of this site. More decisive: the
+    proposed axis was J/cm2 per session AGAINST THE DOSES USED IN PUBLISHED TRIALS,
+    and that comparator does not exist. The goal page records a string search of [[home-led-light-therapy]]
+    on 2026-10-23 finding no occurrence of J/cm2, mW/cm2, joule, irradiance, fluence
+    or dose anywhere in its text or sources. There is nothing to rank device doses
+    against, and a ranking that implied otherwise would invent a comparison. Reopen
+    only if trial-level dose data enters the site.'
 - name: US sunscreen filters by what FDA's 2019 rule proposed
   type: list
   priority: 4
-  status: pending
+  status: done
   discovered_from: menthyl-anthranilate
   source: 'Now buildable from one primary document. Federal Register 2019-03019 (the
     2019 sunscreen proposed rule, fetched and text-extracted 2026-10-28) sorts every
@@ -1235,3 +1249,19 @@
     aspiration, ultrasound mapping, hyaluronidase availability), and close this if
     it does not. Flagged so the gap is recorded rather than rediscovered, and because
     a thin safety list would be worse than none.
+- name: What OTC Monograph M020 actually concluded about each sunscreen filter
+  type: list
+  priority: 3
+  status: pending
+  discovered_from: us-sunscreen-filters-by-what-fda-proposed-in-2019
+  source: 'The live successor to the question [[us-sunscreen-filters-by-what-fda-proposed-in-2019]]
+    answers historically. That page deliberately stops at the 2019 PROPOSAL and says
+    it does not report M020''s content, because M020 was not read. Federal Register
+    shows the order track: ''Final Administrative Orders for Over-the-Counter Monographs;
+    Availability'' (86 FR 52474, 2021-09-21), then ''Amending Over-the-Counter Monograph
+    M020'' at 86 FR 53322 (2021-09-27), 86 FR 66318 (2021-11-22), 90 FR 57765 (2025-12-12),
+    91 FR 35220 (2026-06-10) and 91 FR 57892 (2026-09-11). READ THE ORDERS THEMSELVES,
+    not commentary, and expect this to be harder than the 2019 rule: it is a series
+    of amendments rather than one document, so the current status of a filter may
+    require reading several. If the orders turn out not to resolve the per-filter
+    status, say so and close; an honest ''still unresolved'' is the finding.'

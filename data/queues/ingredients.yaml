@@ -3715,3 +3715,17 @@
     vehicles, so check which indication belongs to which vehicle), and retrieve the
     underlying BP randomized trial rather than relying on the 2003 review''s characterisation
     of it.'
+- name: Sulisobenzone
+  type: ingredient
+  priority: 4
+  status: pending
+  discovered_from: us-sunscreen-filters-by-what-fda-proposed-in-2019
+  source: 'One of six US sunscreen filters with no page here, and one of the TEN that
+    FDA''s 2019 proposed rule named as having the most significant gaps in the administrative
+    record (84 FR 6204). The site covers the other major chemical filters ([[avobenzone]],
+    [[octocrylene]], [[homosalate]], [[octisalate]], [[octinoxate]], [[oxybenzone]],
+    [[ensulizole]]) so this is a real hole in the filter set rather than an obscure
+    addition. Build it from the FDA record and the UV absorbance literature, and carry
+    the Category III framing correctly: insufficient data in the agency''s file is
+    NOT a finding of harm, which [[us-sunscreen-filters-by-what-fda-proposed-in-2019]]
+    states explicitly.'
