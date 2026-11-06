@@ -1920,8 +1920,25 @@ def build():
             return None
         return f"{cs}.html" if cs in person_slugs else f"{cs}-videos.html"
 
+    # Fallback byline index: a person page's own name first, then the roster.
+    # 84 video cards carry a blank `creator` with a valid creator_slug, which
+    # rendered as `<a href="...."></a>` -- 226 empty anchors across the site.
+    creator_name_by_slug = {
+        p["slug"]: p.get("name") for p in profiles
+        if p.get("type") == "person" and p.get("name")}
+    for cs, meta in (creator_roster or {}).items():
+        if cs not in creator_name_by_slug and (meta or {}).get("name"):
+            creator_name_by_slug[cs] = meta["name"]
+
+    def creator_label(v):
+        """Byline text, or None so the template omits the anchor entirely."""
+        v = v or {}
+        return sklib.creator_display_name(
+            v.get("creator"), v.get("creator_slug"), creator_name_by_slug)
+
     env.globals["video_href"] = video_href
     env.globals["creator_href"] = creator_href
+    env.globals["creator_label"] = creator_label
     env.globals["public_conflict"] = public_conflict
 
     for p in profiles:

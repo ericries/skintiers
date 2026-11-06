@@ -16,7 +16,7 @@
   <div class="masthead">
     <div>
       <h1>{{ v.title }}</h1>
-      <p class="standfirst vid-by">{% if v.posted %}<span class="vid-date">{{ v.posted }}</span> &middot; {% endif %}<a href="{{ v.creator_feed_slug }}.html">{{ v.creator }}</a>{% if v.credential %} &middot; {{ v.credential }}{% endif %}{% if v.sponsored %} &middot; <span class="vid-ad">sponsored post</span>{% endif %}</p>
+      <p class="standfirst vid-by">{% if v.posted %}<span class="vid-date">{{ v.posted }}</span> &middot; {% endif %}{% set cl = creator_label(v) %}{% if cl %}<a href="{{ v.creator_feed_slug }}.html">{{ cl }}</a>{% endif %}{% if v.credential %} &middot; {{ v.credential }}{% endif %}{% if v.sponsored %} &middot; <span class="vid-ad">sponsored post</span>{% endif %}</p>
     </div>
   </div>
 

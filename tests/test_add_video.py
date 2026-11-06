@@ -133,3 +133,17 @@ def test_add_video_frontmatter_stays_valid(tmp_path, monkeypatch):
     # the body after the closing --- must be preserved
     assert text.rstrip().endswith("Body about peptides.")
     yaml.safe_load(text[4:text.index("\n---", 3)])  # frontmatter parses
+
+
+
+def test_blank_creator_is_rejected(tmp_path, monkeypatch):
+    """argparse makes --creator required, but `--creator ""` satisfies that. 84
+    cards reached the site with a blank creator beside a valid creator_slug, and
+    the byline then rendered as an empty `<a href="...."></a>`. A video card has
+    to name who is talking."""
+    monkeypatch.setattr(sklib, "DATA_DIR", tmp_path)
+    _page(tmp_path, "ingredients", "retinoids")
+    sk = _load_sk()
+    assert sk.cmd_add_video(_args("retinoids", creator="   ")) == 1
+    post = frontmatter.load(tmp_path / "ingredients" / "retinoids.md")
+    assert not post.metadata.get("videos")   # nothing written

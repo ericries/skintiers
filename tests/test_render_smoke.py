@@ -68,6 +68,28 @@ def test_no_unresolved_xref_survives_into_html(rendered_site):
     )
 
 
+_EMPTY_ANCHOR = re.compile(r"<a [^>]*href=\"[^\"]*\"[^>]*>\\s*</a>")
+
+
+def test_no_empty_anchor_survives_into_html(rendered_site):
+    """A link with no text is invisible, unreachable by keyboard and silent to a
+    screen reader. 84 video cards carried a blank `creator` beside a valid
+    `creator_slug`, so three templates rendered `<a href="...."></a>`: 226 of
+    them across the site, while each card's thesis still named the creator so
+    the pages looked fine. The byline now falls back to the person page or the
+    roster, and omits the anchor when there is genuinely no name."""
+    offenders = []
+    for f in _content_pages(rendered_site):
+        html = pathlib.Path(f).read_text()
+        m = _EMPTY_ANCHOR.search(html)
+        if m:
+            i = m.start()
+            offenders.append(f"{os.path.basename(f)}: ...{html[max(0, i-70):i+40]}...")
+    assert not offenders, (
+        "anchor rendered with no link text:\n" + "\n".join(offenders[:10])
+    )
+
+
 def test_no_doubled_subject_in_html(rendered_site):
     # The evidence-box template composes "{name} is {note}"; a note that restates
     # the subject produced "Adapalene is adapalene is ...". Catch that class.

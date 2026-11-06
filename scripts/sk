@@ -435,6 +435,12 @@ def cmd_add_video(args):
     if not url:
         print("ERROR: --url is required for non-YouTube platforms")
         return 1
+    # argparse makes --creator required, but `--creator ""` still satisfies it.
+    # 84 cards reached the site with a blank creator beside a valid slug, and the
+    # byline rendered as `<a href="...."></a>`. A card must name who is talking.
+    if not (args.creator or "").strip():
+        print("ERROR: --creator must not be blank; a card has to name the creator")
+        return 1
     entry = {
         "title": args.title, "creator": args.creator, "creator_slug": args.creator_slug,
         "credential": args.credential, "platform": args.platform, "url": url,

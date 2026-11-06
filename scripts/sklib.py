@@ -1329,6 +1329,27 @@ def queue_resolve(data_dir, name, type=None):
     return changed
 
 
+def creator_display_name(creator, creator_slug, name_by_slug):
+    """Best byline text for a video card, or None if there is none.
+
+    Returning None rather than "" matters: the template must omit the anchor
+    entirely, not emit `<a href="...">` with nothing inside it. 84 cards carried
+    a blank `creator` alongside a valid `creator_slug`, which produced 226 empty
+    anchors across the built site: invisible, unreachable by keyboard and
+    meaningless to a screen reader, while the card's thesis still named the
+    creator so the page looked fine.
+
+    The card's own `creator` wins when set, because it is what the author wrote.
+    `name_by_slug` is the fallback index (person pages, then the creator roster).
+    """
+    text = (creator or "").strip()
+    if text:
+        return text
+    if not creator_slug:
+        return None
+    return ((name_by_slug or {}).get(creator_slug) or "").strip() or None
+
+
 def _identity_index(data_dir):
     """type -> set of normalised identity keys (name, slug, every alias).
 
