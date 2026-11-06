@@ -3684,3 +3684,20 @@
     own ingredient page, and closing it that way is an acceptable outcome. Ground
     it in regulatory sources (EU Recommendation 2006/647/EC, ISO 24442) rather than
     brand copy.'
+- name: Clobetasol propionate (super-potent topical corticosteroid)
+  type: ingredient
+  priority: 3
+  status: pending
+  discovered_from: bullous-pemphigoid
+  source: 'The first-line treatment for [[bullous-pemphigoid]] and the highest-potency
+    class of topical steroid, with no page here while [[topical-corticosteroids]]
+    covers the class generally. Grounded quote from the 2003 Journal of Dermatology
+    review cited on that hub (PMID 12692373): clobetasol propionate was associated
+    with ''a significant decrease in severe complications and mortality of BP patients''
+    and was ''more effective than oral prednisone''. HIGH VALUE BEYOND THAT ONE DISEASE:
+    clobetasol is the steroid readers most often encounter in warnings about skin
+    thinning and steroid withdrawal, so a page can anchor those claims in a label.
+    Build it from the FDA label via openFDA (it is a prescription product with multiple
+    vehicles, so check which indication belongs to which vehicle), and retrieve the
+    underlying BP randomized trial rather than relying on the 2003 review''s characterisation
+    of it.'

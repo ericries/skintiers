@@ -74,7 +74,7 @@ The contrast with a topical is not a matter of strength. A ceramide moisturiser 
 
 ## See Also
 
-[[dupixent-dupilumab-injection]] [[atopic-dermatitis]], [[prurigo-nodularis]], [[isotretinoin]], [[topical-corticosteroids]], [[skin-barrier-repair]], [[fda-approved-vs-cleared-skincare]], [[kim-2026-dupilumab-prurigo-nodularis-atopic-subgroup]], [[warren-2025-advantage-lebrikizumab-ciclosporin-refractory-atopic-dermatitis-rct]], [[gupta-2025-hand-eczema-monotherapies-network-meta-analysis]], [[sensitive-skin]].
+[[dupixent-dupilumab-injection]] [[atopic-dermatitis]], [[prurigo-nodularis]], [[isotretinoin]], [[topical-corticosteroids]], [[skin-barrier-repair]], [[fda-approved-vs-cleared-skincare]], [[kim-2026-dupilumab-prurigo-nodularis-atopic-subgroup]], [[warren-2025-advantage-lebrikizumab-ciclosporin-refractory-atopic-dermatitis-rct]], [[gupta-2025-hand-eczema-monotherapies-network-meta-analysis]], [[sensitive-skin]], [[bullous-pemphigoid]].
 
 ## Sources
 

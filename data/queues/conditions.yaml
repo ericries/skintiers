@@ -698,7 +698,7 @@
 - name: Bullous pemphigoid
   type: condition
   priority: 3
-  status: pending
+  status: done
   discovered_from: dupilumab
   source: 'Autoimmune blistering disease of older adults and one of the nine indications
     on the Dupixent label, with no hub on the site. Grounded because the dupilumab

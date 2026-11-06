@@ -2027,3 +2027,18 @@
     is NOT known; find the trial first (likely a Measure Up 1/2 long-term extension
     report) and do not draft from the marketing page. If no peer-reviewed 5-year report
     exists, close this as unresolvable rather than citing the brand.'
+- name: 'Dupilumab in bullous pemphigoid: single-arm meta-analysis, 587 patients (PMID
+    41727447)'
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: bullous-pemphigoid
+  source: 'https://pubmed.ncbi.nlm.nih.gov/41727447/ Frontiers in Immunology 2026,
+    PROSPERO CRD420251048550. 24 studies, 587 patients; complete response 68% (95%
+    CI 60-78%), disease control 95% (92-98%), complete response 63% (49-81%) on dupilumab
+    without other systemic therapy; 112 adverse events in 97 patients, most mild.
+    WHY A STUDY PAGE IS WORTH IT: this is a clean teaching case for the single-arm
+    design, where impressive pooled proportions carry no comparator at all, and the
+    site can reuse that framing wherever a single-arm pool is cited. The structured
+    study-page format should state the absent control group under design rather than
+    burying it in limitations. Cited on [[bullous-pemphigoid]].'

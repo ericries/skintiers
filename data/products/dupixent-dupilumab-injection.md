@@ -63,7 +63,7 @@ One active, dupilumab, a monoclonal antibody given by subcutaneous injection.[^d
 - [[dupilumab]] for the molecule, its mechanism and its evidence grade
 - [[cibinqo-abrocitinib-tablets]] and [[rinvoq-upadacitinib-tablets]], the oral drugs whose labels place them after this one
 - [[systemic-atopic-dermatitis-treatments-by-evidence]] for how the systemics compare, and why this one is not tiered there
-- [[atopic-dermatitis]] and [[prurigo-nodularis]], two of the four skin diseases on its label that have hubs here
+- [[atopic-dermatitis]], [[prurigo-nodularis]] and [[bullous-pemphigoid]], three of the four skin diseases on its label that have hubs here
 
 ## Where to Buy
 
