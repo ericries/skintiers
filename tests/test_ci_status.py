@@ -76,3 +76,31 @@ def test_no_completed_runs_is_unknown_not_green(monkeypatch, capsys):
     assert _run(monkeypatch, [_r(None, status="in_progress")]) == 2
     out = capsys.readouterr().out
     assert "UNKNOWN" in out and "GREEN" not in out
+
+
+def test_a_cancelled_run_is_not_reported_as_failure(monkeypatch, capsys):
+    """build.yml sets concurrency cancel-in-progress, so pushing twice in quick
+    succession cancels the first run. That is normal supersession, not breakage.
+    Reporting it RED would cry wolf and train the operator to ignore the check."""
+    runs = [_r("cancelled", n=9), _r("success", n=8)]
+    assert _run(monkeypatch, runs) == 0
+    assert "GREEN" in capsys.readouterr().out
+
+
+def test_a_cancelled_run_does_not_hide_a_real_failure(monkeypatch, capsys):
+    runs = [_r("cancelled", n=9), _r("failure", n=8)]
+    assert _run(monkeypatch, runs) == 1
+    assert "CI RED" in capsys.readouterr().out
+
+
+def test_only_cancelled_runs_is_unknown_not_green(monkeypatch, capsys):
+    assert _run(monkeypatch, [_r("cancelled", n=i) for i in range(3)]) == 2
+    out = capsys.readouterr().out
+    assert "UNKNOWN" in out and "GREEN" not in out
+
+
+def test_streak_counting_ignores_cancelled_runs(monkeypatch, capsys):
+    """A cancelled run in the middle of an outage must not reset the streak."""
+    runs = [_r("failure", n=5), _r("cancelled", n=4), _r("failure", n=3)]
+    assert _run(monkeypatch, runs) == 1
+    assert "consecutive failures: 2" in capsys.readouterr().out

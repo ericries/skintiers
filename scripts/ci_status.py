@@ -43,10 +43,16 @@ def main():
         # Never fail a tick just because CI is unreachable; say so and move on.
         print(f"CI STATUS UNKNOWN: {err}")
         return 2
-    done = [r for r in runs if r.get("status") == "completed"]
+    # `cancelled` is not breakage. build.yml sets concurrency
+    # cancel-in-progress, so pushing twice in quick succession cancels the
+    # first run; treating that as RED would cry wolf and train the operator to
+    # ignore the check. Only success and failure are verdicts.
+    done = [r for r in runs
+            if r.get("status") == "completed"
+            and r.get("conclusion") in ("success", "failure")]
     if not done:
-        print("CI STATUS UNKNOWN: no completed runs in the last "
-              f"{LIMIT}; is a run still in flight?")
+        print("CI STATUS UNKNOWN: no conclusive run in the last "
+              f"{LIMIT} (only in-flight, cancelled or skipped).")
         return 2
 
     latest = done[0]
