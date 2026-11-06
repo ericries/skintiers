@@ -488,3 +488,32 @@
     real maintenance instead, adding her verified own-brand disclosure (Dose (of)
     Derm) and the ten pages carrying her video cards. A dedup pass over the person
     queue against existing slugs would stop this recurring.'
+- name: Dr. Laura Soong
+  type: person
+  priority: 4
+  status: pending
+  discovered_from: video-sources
+  source: 8 video cards cite creator_slug laura-soong with no person page, including
+    the warts how-to carded on [[warts]] from her back catalogue. Roster tier HIGH,
+    conflict None, product_recs restricted. Board-certified dermatologist; verify
+    the credential and practice from a primary source before stating it. Lower priority
+    than the two above only because she has fewer cards, not because the gap is less
+    real.
+- name: 'VERIFY: roster credential for Aleksandra Brown says board-certified (FAOCD,
+    FAAD) and 34 video cards repeat it'
+  type: person
+  priority: 2
+  status: pending
+  discovered_from: aleksandra-brown
+  source: 'NOT a page request. An accuracy task. [[aleksandra-brown]] deliberately
+    declines to assert board certification because NPI 1679801500 confirms only a
+    D.O. with a primary Dermatology taxonomy under a VA license, and riverridgederm.com
+    claims certification of its dermatologists collectively without naming her. Meanwhile
+    34 video cards across 32 pages carry the roster wording ''Board-certified dermatologist
+    (DO, FAOCD, FAAD)''. One of those two is wrong and it is a claim about a living
+    person repeated 34 times. RESOLVE IT: check the AOA/AOCD and ABD or AAD directories
+    directly. If certification is confirmed, add it to the page with that source and
+    the inconsistency disappears. If it cannot be confirmed, the ROSTER credential
+    and the 34 cards must be softened, not the other way round. Also unresolved: an
+    affiliate storefront was observed for her in an earlier session but never persisted
+    to the roster, so her product_recs ''ok'' may be wrong.'
