@@ -1144,7 +1144,31 @@ def page_exists_for(data_dir, name, type):
     base = pathlib.Path(data_dir) / plural
     cands = {_slugify(name), _slugify(_PAREN_RE.sub(" ", name))}
     cands.discard("")
-    return any((base / (s + ".md")).exists() for s in cands)
+    if any((base / (s + ".md")).exists() for s in cands):
+        return True
+    # The slug guesses above only catch pages whose filename happens to match
+    # the queued wording. A row for "Dr. Sheila Farhang" slugifies to
+    # "dr-sheila-farhang" and sailed past this guard for months while
+    # people/sheila-farhang.md carried exactly that `name:`. find_entities is
+    # the repo's real identity index and resolves it at 95 (exact name), so ask
+    # it rather than re-guessing filenames.
+    #
+    # Threshold 90 is deliberate and must stay conservative: find_entities
+    # documents <80 as a guess, and it scored "Luzu (luliconazole 1% cream)"
+    # against an unrelated cream at 69. Blocking on a weak match would silently
+    # discard real work, which is a worse failure than a duplicate row.
+    try:
+        hits = find_entities(name, data_dir=data_dir, typ=type, limit=3)
+    except Exception:
+        return False   # a resolver problem must never block queueing work
+    return any(h.get("score", 0) >= PAGE_IDENTITY_MATCH_SCORE for h in hits)
+
+
+# find_entities score at or above which a hit is treated as the SAME entity.
+# Its scale: 100 exact slug, 95 exact name, 92 exact alias, 90 normalised
+# equality, 80 all-tokens-present, 60-79 partial. Only the exact grades may
+# block a queue-add.
+PAGE_IDENTITY_MATCH_SCORE = 90
 
 
 # Queue priority convention: 1 = most important, 10 = least. 5 is the default
