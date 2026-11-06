@@ -15802,19 +15802,6 @@
   feed_rank: 0
   status: skipped
   skip_reason: Sephora sale roundup, a retail promo rather than single-topic education
-- id: '7703938088589987086'
-  title: Barrie health really is that important 🙌🏼
-  creator: Ella (@your.estie.ella)
-  creator_slug: your-estie-ella
-  credential: Licensed esthetician (NOT a dermatologist or cosmetic chemist)
-  channel: https://www.tiktok.com/@your.estie.ella
-  platform: TikTok
-  tier: MED
-  product_recs: ok
-  conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan and reject any sponsored/affiliate/gifted video
-  posted: '2026-11-03'
-  feed_rank: 1
-  status: pending
 - id: '7703736789537737997'
   title: 'Pore strip + sulfur mask + lash extensions = multitasking queen 👑 #cr...'
   creator: Ella (@your.estie.ella)
@@ -15880,19 +15867,6 @@
   posted: ''
   feed_rank: 0
   status: pending
-- id: '7704275284400295182'
-  title: A lot of people think that retinol is something you start once wrinkl...
-  creator: Fatima Fahs
-  creator_slug: fatima-fahs
-  credential: Dermatologist (MD)
-  channel: https://www.tiktok.com/@dermydoctor
-  platform: TikTok
-  tier: HIGH
-  product_recs: restricted
-  conflict: Promotes her own curated product box, Dermy Doc Box (@dermy.doc.box), with link-in-bio callouts in the caption tail (observed 2026-10-29 on clip 7686867010508164366, posted 2026-09-18) - treat her product picks and seasonal recommendations as own-product promotion
-  posted: '2026-11-04'
-  feed_rank: 0
-  status: pending
 - id: gBVrJyvlrjc
   title: Bad science is a big f’ing problem. Medical research edition. Roundtable
   creator: Jen Novakovich (The Eco Well)
@@ -15904,19 +15878,6 @@
   product_recs: ok
   conflict: Runs a paid cosmetics-industry consulting/science-communication practice (BeautySciComm, e-summits, mentorship cohorts) and is Patreon-suppo
   posted: ''
-  feed_rank: 0
-  status: pending
-- id: '7704145866579332365'
-  title: 'Part 1: How to get tretinoin to ACTUALLY work for your skin #tretinoi...'
-  creator: Jenn Lexi (@jennlexi_)
-  creator_slug: jennlexi
-  credential: Esthetician (self-identified); not a dermatologist or cosmetic chemist
-  channel: https://www.tiktok.com/@jennlexi_
-  platform: TikTok
-  tier: MED
-  product_recs: restricted
-  conflict: 'Runs #ad sponsored posts (e.g. TruSkin) and Target skincare hauls/reviews; prefer her educational ingredient-category and barrier-repair explainers, and treat product recommendations as effectively promotional (skip).'
-  posted: '2026-11-04'
   feed_rank: 0
   status: pending
 - id: '7704370417112321293'
@@ -15984,4 +15945,186 @@
   conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan and reject any sponsored/affiliate/gifted video
   posted: '2026-11-04'
   feed_rank: 2
+  status: pending
+- id: '7704697546383396127'
+  title: The truth is, most people need more hydration as the seasons change. ...
+  creator: Dr. Aegean Chan
+  creator_slug: aegean-chan
+  credential: Board-certified dermatologist
+  channel: https://www.tiktok.com/@draegeanchan
+  platform: TikTok
+  tier: HIGH
+  product_recs: restricted
+  conflict: Founder/owner of active postpartum skincare brand "More Than Nine" (cleanser, exfoliator, moisturizer, balm) — an ongoing own-bran
+  posted: '2026-11-05'
+  feed_rank: 0
+  status: pending
+- id: s7E7aU9GIXk
+  title: Best Milky Toners for Glowing, Hydrated Skin | Dermatologist Reviews
+  creator: Andrea Suarez (Dr Dray)
+  creator_slug: andrea-suarez-dr-dray
+  credential: Board-certified dermatologist
+  channel: https://www.youtube.com/@DrDrayzday/videos
+  platform: YouTube
+  tier: HIGH
+  product_recs: null
+  conflict: null
+  posted: ''
+  feed_rank: 0
+  status: pending
+- id: '7704752573055520013'
+  title: 'Dermatologist picks splurge or save! #skincare #dermatologist #doctor...'
+  creator: Dr. Chris Tomassian
+  creator_slug: chris-tomassian
+  credential: Board-certified dermatologist
+  channel: https://www.tiktok.com/@dr.tomassian
+  platform: TikTok
+  tier: MED
+  product_recs: ok
+  conflict: Bio includes a business/booking contact email suggesting managed brand partnerships; no confirmed own-brand line or affiliate stor
+  posted: '2026-11-05'
+  feed_rank: 0
+  status: pending
+- id: '7704700523164781838'
+  title: I get to do a lot of things I once only dreamed about. But everything...
+  creator: Fatima Fahs
+  creator_slug: fatima-fahs
+  credential: Dermatologist (MD)
+  channel: https://www.tiktok.com/@dermydoctor
+  platform: TikTok
+  tier: HIGH
+  product_recs: restricted
+  conflict: Promotes her own curated product box, Dermy Doc Box (@dermy.doc.box), with link-in-bio callouts in the caption tail (observed 2026-10-29 on clip 7686867010508164366, posted 2026-09-18) - treat her product picks and seasonal recommendations as own-product promotion
+  posted: '2026-11-05'
+  feed_rank: 0
+  status: pending
+- id: '7704913821416049941'
+  title: Replying to @rosen.rot we have some options! Lip colours similar to @...
+  creator: Hannah English (@ms_hannah_e / Hannah Collingwood English)
+  creator_slug: hannah-english
+  credential: Skincare educator
+  channel: https://www.tiktok.com/@hannahcollingwoodenglish
+  platform: TikTok
+  tier: HIGH
+  product_recs: restricted
+  conflict: Co-developed/formulated the Tbh Skincare 'Rebound' Serum and Toner (product-formulation partnership) — her endorsement of that spe; no YouTube; TikTok/IG intake
+  posted: '2026-11-06'
+  feed_rank: 0
+  status: pending
+- id: '7704833217244712206'
+  title: '@Avery Woods I will be sleeping in this jacket😩 #iceland #proposal #h...'
+  creator: Jenn Lexi (@jennlexi_)
+  creator_slug: jennlexi
+  credential: Esthetician (self-identified); not a dermatologist or cosmetic chemist
+  channel: https://www.tiktok.com/@jennlexi_
+  platform: TikTok
+  tier: MED
+  product_recs: restricted
+  conflict: 'Runs #ad sponsored posts (e.g. TruSkin) and Target skincare hauls/reviews; prefer her educational ingredient-category and barrier-repair explainers, and treat product recommendations as effectively promotional (skip).'
+  posted: '2026-11-05'
+  feed_rank: 0
+  status: pending
+- id: '7704146169735154958'
+  title: 'Part 2: How to get tretinoin to ACTUALLY work for your skin #tretinoi...'
+  creator: Jenn Lexi (@jennlexi_)
+  creator_slug: jennlexi
+  credential: Esthetician (self-identified); not a dermatologist or cosmetic chemist
+  channel: https://www.tiktok.com/@jennlexi_
+  platform: TikTok
+  tier: MED
+  product_recs: restricted
+  conflict: 'Runs #ad sponsored posts (e.g. TruSkin) and Target skincare hauls/reviews; prefer her educational ingredient-category and barrier-repair explainers, and treat product recommendations as effectively promotional (skip).'
+  posted: '2026-11-05'
+  feed_rank: 1
+  status: pending
+- id: mcRH-xpEZvc
+  title: The Asian Makeup Brands Nobody in the US Is Talking About — A Derm's Picks | Dr. Jenny Liu
+  creator: Dr. Jenny Liu (Jenny Liu, MD, FAAD)
+  creator_slug: jenny-liu
+  credential: Board-certified dermatologist
+  channel: https://www.youtube.com/@dr.jennyliu/videos
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Runs an Amazon affiliate storefront (amazon.com/shop/derm.talk); recurring disclosed paid brand partnerships (Shiseido, SkinCeutic
+  posted: ''
+  feed_rank: 0
+  status: pending
+- id: '7704766817373326605'
+  title: This serum surprised me. Honestly, I thought it was going to be meh b...
+  creator: Kristin Leite (kristingl)
+  creator_slug: kristin-leite
+  credential: Beauty product developer and skincare educator (NOT a dermatologist or cosmetic chemist)
+  channel: https://www.tiktok.com/@kristingl
+  platform: TikTok
+  tier: MED
+  product_recs: null
+  conflict: runs an Amazon affiliate storefront and does sponsored posts - strongly prefer educational / how-to / ingredient-explainer videos; be very cautious with any product recommendation
+  posted: '2026-11-05'
+  feed_rank: 0
+  status: pending
+- id: '7704734983872679198'
+  title: Hyperpigmentation can be so frustrating to treat, and every treatment...
+  creator: Dr. Mamina Turegano
+  creator_slug: mamina-turegano
+  credential: Board-certified in dermatology, internal medicine and dermatopathology; practices at Sanova Dermatology, Metairie, Louisiana
+  channel: https://www.tiktok.com/@dr.mamina
+  platform: TikTok
+  tier: MED
+  product_recs: restricted
+  conflict: null
+  posted: '2026-11-05'
+  feed_rank: 0
+  status: pending
+- id: TFjaISTiY6M
+  title: 'how to fade a scar from a skin cancer surgeon #skincare Inspo @DallinHolt'
+  creator: Dr. Neera Nathan
+  creator_slug: neera-nathan
+  credential: Board-certified dermatologist
+  channel: https://www.youtube.com/@dermatologysurgeon
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Runs a "Shop my Favorites" affiliate storefront (linktr.ee/dermatologysurgeon) that monetizes her product picks; no own-brand prod
+  posted: ''
+  feed_rank: 0
+  status: pending
+- id: '7704859501949635870'
+  title: 🖇️ Comment LONGEVITY for the full list of derm-approved products for ...
+  creator: Dr. Sheila Farhang (dr.sheila_derm)
+  creator_slug: sheila-farhang
+  credential: Board-certified dermatologist
+  channel: https://www.tiktok.com/@dr.sheila_derm
+  platform: TikTok
+  tier: HIGH
+  product_recs: restricted
+  conflict: Self-describes as a "Key Opinion Leader for industry beauty companies" (per her own practice bio) and most sampled TikTok videos e; no YouTube; TikTok/IG intake
+  posted: '2026-11-06'
+  feed_rank: 0
+  status: pending
+- id: GI0_KtNOV4I
+  title: 'Doctor Explains Peptides: Copper Peptides vs Matrixyl vs Argireline'
+  creator: Dr. Vanita Rattan (Doctor V)
+  creator_slug: vanita-rattan
+  credential: Describes herself on camera as a medically qualified doctor who is also a cosmetic formulator for skin of colour, and as a published author with HarperCollins; she does not claim to be a dermatologist. Self-stated and not independently verified against a medical register by this site.
+  channel: https://www.youtube.com/channel/UC4u0qaMIAgOL8L37RwLcDQA
+  platform: YouTube
+  tier: MED
+  product_recs: null
+  conflict: 'Owns and sells a skincare line (Instagram handle @skincarebydrv in her own video descriptions) and routes to it repeatedly inside educational content: in one 9-point acne video she directs viewers to ''our trio blemish range'', ''our AM and PM moisturizers'', her Citrio Blemish Exfoliator and a mineral SPF she calls ''the world''s first mineral SPF 50 formulated for skin of color with no white cast''. Treat ALL product mentions as own-brand promotion. Separately, that video states unsourced figures as fact, including ''99% of sunscreens are chemical sunscreens'' and a claim that bamboo or silk pillowcases reduce fungal growth versus cotton, so relay no statistic from this channel without checking it independently.'
+  posted: ''
+  feed_rank: 0
+  status: pending
+- id: '7704786520586325261'
+  title: 'It’s a Pink Christmas baby 🎀🎄✨ '
+  creator: Ella (@your.estie.ella)
+  creator_slug: your-estie-ella
+  credential: Licensed esthetician (NOT a dermatologist or cosmetic chemist)
+  channel: https://www.tiktok.com/@your.estie.ella
+  platform: TikTok
+  tier: MED
+  product_recs: ok
+  conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan and reject any sponsored/affiliate/gifted video
+  posted: '2026-11-05'
+  feed_rank: 0
   status: pending
