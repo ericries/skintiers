@@ -2,6 +2,11 @@ name: Build and Deploy
 on:
   push:
     branches: [main]
+  # Lets a failed deploy be re-triggered cleanly from the Actions tab.
+  # `gh run rerun --failed` CANNOT be used here: this workflow is a single job,
+  # so a rerun re-executes upload-pages-artifact and the deploy step then aborts
+  # with "Multiple artifacts named github-pages were unexpectedly found".
+  workflow_dispatch:
 permissions:
   contents: read
   pages: write
@@ -31,3 +36,8 @@ jobs:
           path: _site/
       - id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          # _site is ~155 MB over ~3.4k files (83 MB of it product photos), and
+          # the action's 10-minute default expired mid `syncing_files` on
+          # 2026-11-06 after a backlog deploy. 20 minutes leaves headroom.
+          timeout: 1200000
