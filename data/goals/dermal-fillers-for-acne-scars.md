@@ -33,7 +33,7 @@ Filler is the one acne-scar procedure that works by addition rather than by inju
 
 ## See Also
 
-[[acne-scars]], [[acne-scar-procedures-by-evidence]], [[acne-scar-treatments-by-downtime-and-pain]], [[microneedling]], [[fractional-co2-laser-resurfacing]], [[hyaluronic-acid]], [[acne]].
+[[pourani-2025-facial-artery-doppler-mapping-pmid-40874402|Pourani 2025 on ultrasound vascular mapping]], [[acne-scars]], [[acne-scar-procedures-by-evidence]], [[acne-scar-treatments-by-downtime-and-pain]], [[microneedling]], [[fractional-co2-laser-resurfacing]], [[hyaluronic-acid]], [[acne]].
 
 ## Sources
 

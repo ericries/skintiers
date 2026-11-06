@@ -901,3 +901,20 @@
     queue rows were already opened for the skin-type hub itself before it existed,
     both from the same video. Reopen this ONLY if a reader-facing need appears that
     the two existing pages cannot serve, and close it otherwise.'
+- name: Vascular occlusion from facial filler (what the risk is and what reduces it)
+  type: goal
+  priority: 4
+  status: pending
+  discovered_from: pourani-2025-facial-artery-doppler-mapping-pmid-40874402
+  source: 'The clinical question [[pourani-2025-facial-artery-doppler-mapping-pmid-40874402]]
+    exists to answer, with no hub on this site: sk find returns nothing for ''vascular
+    occlusion''. That study''s own framing is that mapping the facial artery before
+    injection averts ''ischemia and necrosis'', which is the most serious complication
+    of a cosmetic procedure the site already covers at [[dermal-fillers-for-acne-scars]].
+    BUILD IT CAREFULLY OR NOT AT ALL: this is an emergency-recognition topic, so it
+    needs the same handling [[bullous-pemphigoid]] got, pointing at urgent clinical
+    care rather than offering a self-assessment checklist, and it must not read as
+    instructions for injecting. Ground it in the surgical and dermatologic literature
+    on filler complications, not in the single anatomy meta-analysis, and confirm
+    first that it does not duplicate ground [[dermal-fillers-for-acne-scars]] already
+    holds.'
