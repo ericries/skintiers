@@ -33,6 +33,7 @@ There is no tier list on this page. The site grades treatments where it has dise
 ## See Also
 
 - [[dupixent-dupilumab-injection]] and [[dupilumab]] for the one treatment this site can speak to
+- [[clobetasol-propionate]], the super-high potency member of the class
 - [[topical-corticosteroids]] for the class the first-line treatment belongs to
 - [[atopic-dermatitis]] for the condition most readers will have met dupilumab in
 

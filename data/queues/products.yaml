@@ -5518,3 +5518,18 @@
     by format, and [[salicylic-acid]] grades the ingredient but says nothing about
     wart-strength preparations. Do not take the strength range from the video; get
     it from labels.'
+- name: Temovate / clobetasol propionate 0.05% (the branded originator)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: clobetasol-propionate
+  source: '[[clobetasol-propionate]] is built from one GENERIC manufacturer''s ointment
+    label (Encube Ethicals, effective 2026-08-07), and that page says explicitly that
+    other clobetasol products come in different vehicles whose limits may differ.
+    A product page should establish the regulatory spine the ingredient page deliberately
+    left open: find the originator NDA on openFDA drugsfda, check its marketing status
+    the way the BenzaClin check was done, and enumerate the vehicles actually marketed
+    (ointment, cream, gel, foam, shampoo, spray, emollient). THE USEFUL ANGLE IS THE
+    VEHICLE: a scalp shampoo and an ointment carry different exposure and different
+    weekly ceilings, and a reader told ''50 g per week'' from one label may be reading
+    the wrong product. Do not read the ointment figures across.'

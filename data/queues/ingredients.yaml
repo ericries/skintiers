@@ -3701,7 +3701,7 @@
 - name: Clobetasol propionate (super-potent topical corticosteroid)
   type: ingredient
   priority: 3
-  status: pending
+  status: done
   discovered_from: bullous-pemphigoid
   source: 'The first-line treatment for [[bullous-pemphigoid]] and the highest-potency
     class of topical steroid, with no page here while [[topical-corticosteroids]]

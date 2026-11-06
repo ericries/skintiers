@@ -972,3 +972,18 @@
     a clinician rather than offering a symptom checklist. The site already has [[anti-aging-perimenopause]]
     but nothing on pregnancy. The video is low-view (9,497) so it is a weak card even
     once a hub exists.'
+- name: Topical steroid withdrawal
+  type: condition
+  priority: 4
+  status: pending
+  discovered_from: clobetasol-propionate
+  source: 'The claim readers most often arrive with, and the site has no page for
+    it: sk find returns no match. [[clobetasol-propionate]] now anchors what the FDA
+    label does and does not say, which is the right foundation: the label names Cushing''s
+    syndrome from prolonged use and caps duration, quantity and occlusion, but it
+    does not describe a withdrawal syndrome. BUILD IT CAREFULLY OR CLOSE IT: this
+    is a contested topic where patient-reported experience and the dermatology literature
+    diverge, and a page that dismisses it would be as wrong as one that amplifies
+    it. Ground it in the published reviews and in what regulators have said (the UK
+    MHRA issued a statement on topical steroid withdrawal), state plainly where evidence
+    is thin, and do not let it become a reason for readers to stop a prescribed treatment.'

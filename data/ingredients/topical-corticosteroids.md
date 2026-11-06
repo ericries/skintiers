@@ -59,7 +59,7 @@ Topical corticosteroids bind the glucocorticoid receptor in keratinocytes, fibro
 
 ## See Also
 
-[[atopic-dermatitis]] [[psoriasis]] [[betamethasone-dipropionate]] [[hydrocortisone-otc-topical-corticosteroid]] [[tacrolimus-topical]] [[pimecrolimus]]
+[[atopic-dermatitis]] [[psoriasis]] [[betamethasone-dipropionate]] [[hydrocortisone-otc-topical-corticosteroid]] [[tacrolimus-topical]] [[pimecrolimus]] [[clobetasol-propionate]]
 
 ## Sources
 
