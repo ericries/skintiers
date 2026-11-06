@@ -1329,6 +1329,80 @@ def queue_resolve(data_dir, name, type=None):
     return changed
 
 
+def _identity_index(data_dir):
+    """type -> set of normalised identity keys (name, slug, every alias).
+
+    Built ONCE per sweep. `page_exists_for` walks the tree per call, which is
+    fine for the two or three calls a queue-add makes but took 20 minutes over
+    1,193 queue rows. The keys here are exactly the exact-grade matches
+    find_entities scores >= 90 (exact slug, exact name, exact alias, normalised
+    equality), so a sweep using this index agrees with the single-row guard.
+    """
+    index = {}
+    base = pathlib.Path(data_dir)
+    for typ, plural in TYPE_TO_LIST.items():
+        keys = set()
+        d = base / plural
+        if d.is_dir():
+            for f in d.glob("*.md"):
+                try:
+                    post = frontmatter.load(f)
+                except Exception:
+                    continue
+                keys.add(_norm(post.get("name") or ""))
+                keys.add(_norm(post.get("slug") or f.stem))
+                for a in (post.get("aliases") or []):
+                    keys.add(_norm(str(a)))
+        keys.discard("")
+        index[typ] = keys
+    return index
+
+
+def queue_reconcile(data_dir, dry_run=False):
+    """Close PENDING rows whose page now exists. Returns how many were closed.
+
+    The dedup guard in `queue_add` runs only at INSERT time, so a row queued
+    before its page was written stays pending forever once somebody builds that
+    page by another route, or under a differently-worded row. Nothing re-checked
+    until this existed: a single pass on 2026-11-06 found 13 such rows, and each
+    costs a whole tick, because the staleness is only discovered at the END,
+    after the research is done.
+
+    Deliberately conservative and auditable. It marks `status: done` and writes
+    `resolved_reason` naming the page that satisfied it, so every close is
+    reviewable in git rather than being a silent deletion. It removes nothing,
+    skips rows already done, and is idempotent. `dry_run` reports the count
+    without writing.
+    """
+    closed = 0
+    index = _identity_index(data_dir)
+    for typ in QUEUE_TYPES:
+        keys = index.get(typ) or set()
+        items = load_queue(data_dir, typ)
+        touched = False
+        for it in items:
+            if it.get("status") != "pending":
+                continue
+            name = str(it.get("name") or "")
+            if not name:
+                continue
+            cands = {_norm(name), _norm(_PAREN_RE.sub(" ", name))}
+            cands.discard("")
+            if not (cands & keys):
+                continue
+            closed += 1
+            if dry_run:
+                continue
+            it["status"] = "done"
+            it["resolved_reason"] = (
+                f"auto-reconciled: a {typ} page already exists for "
+                f"{name!r} (queue_reconcile)")
+            touched = True
+        if touched and not dry_run:
+            save_queue(data_dir, typ, items)
+    return closed
+
+
 def profile_counts(data_dir, type):
     """Return {status: count} for profiles of `type` (statuses stub/draft/published)."""
     counts = {s: 0 for s in VALID_STATUS}

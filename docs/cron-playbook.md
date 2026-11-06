@@ -41,8 +41,16 @@ TOKEN DISCIPLINE: bound research hard (stop at the few sources you actually need
 
 ## STEP 1: pick the work (queue, else the maintenance lane)
 
-Prefer an existing stub of your type, else the next queued item
-(`.venv/bin/python scripts/sk queue-next --type <TYPE>`). If BOTH are absent, DO NOT
+FIRST run `.venv/bin/python scripts/sk queue-reconcile` (about 2 seconds). It
+closes pending rows whose page already exists, so the queue cannot hand you work
+the site has already done. Without it, dedup only ever ran at INSERT time: a row
+queued before its page was written stayed pending forever once somebody built
+that page by another route, and the staleness was only discovered at the END of a
+tick, after the research. A single sweep on 2026-11-06 closed 13 such rows.
+
+Then prefer an existing stub of your type, else the next queued item
+(`.venv/bin/python scripts/sk queue-next --type <TYPE>`). Priority runs 1 (most
+important) to 10 (least), default 5. If BOTH are absent, DO NOT
 skip idly — an empty queue is the normal steady state of a mature site, not "nothing to do" (user 2026-09-03).
 Instead run `.venv/bin/python scripts/site_health.py --type <TYPE>`: it returns ONE grounded, bounded, self-
 clearing MAINTENANCE task for an EXISTING page (a missing `tier:`, a stale price, a tier_list that omits pages

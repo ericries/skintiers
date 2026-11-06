@@ -4592,7 +4592,7 @@
 - name: Omnilux NEW-U (K072459)
   type: product
   priority: 3
-  status: pending
+  status: done
   discovered_from: omnilux-clear-u
   source: The anti-ageing sibling of the Clear-U, verified in openFDA as K072459,
     cleared 2008-03-03, Photo Therapeutics Inc, product code OHS (the same over-the-counter
@@ -4602,6 +4602,8 @@
     make it the strongest file in the Omnilux set and a direct contrast with the Clear-U.
     Read the Summary FIRST and drop the item if it contains neither. accessdata.fda.gov
     with a browser user-agent.
+  resolved_reason: 'auto-reconciled: a product page already exists for ''Omnilux NEW-U
+    (K072459)'' (queue_reconcile)'
 - name: dpl Nuve for Wrinkles (K141181)
   type: product
   priority: 4
@@ -4965,10 +4967,12 @@
 - name: Pulsaderm Acne Mask 37
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: pulsaderm
   source: Covered by the same clearance as the Acne Mask 28 (K170111, openFDA), so
     the cleared range is wider than the site's single page
+  resolved_reason: 'auto-reconciled: a product page already exists for ''Pulsaderm
+    Acne Mask 37'' (queue_reconcile)'
 - name: Lansinoh HPA Lanolin (nipple cream)
   type: product
   priority: 5
@@ -5011,11 +5015,13 @@
 - name: NuFACE FIX+ (K240564)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: nuface-fix-microwand
   source: openFDA 510(k) K240564, Carol Cole Company dba NuFACE, decision 2024-06-27,
     product code NFO; the 2024 successor to the FIX device and the newest clearance
     in the family, with no page here
+  resolved_reason: 'auto-reconciled: a product page already exists for ''NuFACE FIX+
+    (K240564)'' (queue_reconcile)'
 - name: Klisyri (tirbanibulin 1% ointment)
   type: product
   priority: 5

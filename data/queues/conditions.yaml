@@ -905,11 +905,13 @@
 - name: Genital psoriasis
   type: condition
   priority: 5
-  status: pending
+  status: done
   discovered_from: inverse-psoriasis
   source: Grouped with inverse psoriasis in the Reynolds 2020 review's own search
     terms and included study population (anogenital regions), but it carries its own
     quality-of-life and treatment-tolerability issues; no page here
+  resolved_reason: 'auto-reconciled: a condition page already exists for ''Genital
+    psoriasis'' (queue_reconcile)'
 - name: Ichthyosis vulgaris
   type: condition
   priority: 5

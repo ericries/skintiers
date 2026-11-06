@@ -554,7 +554,7 @@
 - name: RF microneedling (radiofrequency microneedling)
   type: goal
   priority: 5
-  status: pending
+  status: done
   discovered_from: skin-firmness-elasticity
   source: 'Named by Dr. Brooke Jeffy (video E1YXUAjcv9g, 2026-10-09) among the energy-based
     options that use heat to create controlled injury and stimulate remodeling. ALREADY
@@ -565,6 +565,8 @@
     which covers OTC devices; this is the in-office procedure. The Rodney card''s
     auto-transcript inverts her comparison, so use her written caption or primary
     sources, not that transcript.'
+  resolved_reason: 'auto-reconciled: a goal page already exists for ''RF microneedling
+    (radiofrequency microneedling)'' (queue_reconcile)'
 - name: Skin type (dry, combination, oily) and what the label does not mean
   type: goal
   priority: 5

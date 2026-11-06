@@ -278,6 +278,18 @@ def cmd_queue_add(args):
     return 0
 
 
+def cmd_queue_reconcile(args):
+    n = sklib.queue_reconcile(sklib.DATA_DIR, dry_run=args.dry_run)
+    verb = "would close" if args.dry_run else "closed"
+    if not n:
+        print("queue-reconcile: nothing stale; every pending row still needs its page")
+    else:
+        print(f"queue-reconcile: {verb} {n} pending row(s) whose page already exists")
+        if not args.dry_run:
+            print("  each row keeps a resolved_reason naming the page that satisfied it")
+    return 0
+
+
 def cmd_add_review(args):
     """Append a data/review-log.yaml entry SAFELY.
 
@@ -753,6 +765,10 @@ def main(argv=None):
     p_gc = sub.add_parser("gate-check")
     p_gc.add_argument("--type", required=True, choices=_TYPES)
     p_gc.set_defaults(func=cmd_gate_check)
+    p_qr = sub.add_parser("queue-reconcile",
+                          help="close pending rows whose page already exists")
+    p_qr.add_argument("--dry-run", action="store_true")
+    p_qr.set_defaults(func=cmd_queue_reconcile)
     sub.add_parser("queue-migrate").set_defaults(func=cmd_queue_migrate)
     sub.add_parser("audit").set_defaults(func=cmd_audit)
     p_rs = sub.add_parser("roster-set",

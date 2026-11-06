@@ -1782,10 +1782,12 @@
 - name: Witch Hazel (Hamamelis virginiana extract)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: fur-ingrown-eliminator-serum
   source: Fur Ingrown Eliminator Serum INCI (incidecoder); common astringent in toners/post-shave
     products
+  resolved_reason: 'auto-reconciled: a ingredient page already exists for ''Witch
+    Hazel (Hamamelis virginiana extract)'' (queue_reconcile)'
 - name: Phytic Acid
   type: ingredient
   priority: 5
@@ -1841,10 +1843,12 @@
 - name: Dupilumab (Dupixent)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: systemic-atopic-dermatitis-treatments-by-evidence
   source: Both JAK FDA labels defer to biologics; named in NMA PMID 41919337. Biggest
     coverage gap on this list.
+  resolved_reason: 'auto-reconciled: a ingredient page already exists for ''Dupilumab
+    (Dupixent)'' (queue_reconcile)'
 - name: Lebrikizumab (Ebglyss)
   type: ingredient
   priority: 5
@@ -1861,7 +1865,7 @@
 - name: Tralokinumab (Adbry)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: systemic-atopic-dermatitis-treatments-by-evidence
   source: 'IL-13 biologic for atopic dermatitis; in NMA PMID 41919337 Third member
     of the class now that dupilumab is published (2026-10-27). Class comparison is
@@ -1872,6 +1876,8 @@
     longer Tralokinumab (Adbry/Adtralza ...) entry in this same file, which carries
     the richer brief and PMID 41217071. Build from that one and resolve both together.
     Flagged 2026-10-27; the duplication predates this note.'
+  resolved_reason: 'auto-reconciled: a ingredient page already exists for ''Tralokinumab
+    (Adbry)'' (queue_reconcile)'
 - name: Sodium Lauryl Sulfate (SLS)
   type: ingredient
   priority: 5
@@ -1995,10 +2001,12 @@
 - name: Imiquimod (Aldara, Zyclara)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: fluorouracil-topical
   source: The other prescription topical field treatment for actinic keratosis, named
     twice on the actinic-keratosis page with no page of its own
+  resolved_reason: 'auto-reconciled: a ingredient page already exists for ''Imiquimod
+    (Aldara, Zyclara)'' (queue_reconcile)'
 - name: Resveratrol (topical)
   type: ingredient
   priority: 5
@@ -2026,11 +2034,13 @@
 - name: Alitretinoin (oral, 9-cis-retinoic acid, Toctino)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: best-chronic-hand-eczema-treatments
   source: The OTHER treatment approved by FDA and EMA for chronic hand eczema alongside
     delgocitinib, per Gupta 2025 NMA (PMID 41277505); oral systemic, so it belongs
     to the deferred non-topical phase but the CHE tier list names it ungraded
+  resolved_reason: 'auto-reconciled: a ingredient page already exists for ''Alitretinoin
+    (oral, 9-cis-retinoic acid, Toctino)'' (queue_reconcile)'
 - name: Dermoscopy
   type: ingredient
   priority: 5
@@ -2043,12 +2053,14 @@
 - name: Tolnaftate (OTC topical antifungal)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: clotrimazole
   source: Crawford 2007 Cochrane (PMID 17636672) gives tolnaftate the LOWEST treatment-failure
     risk ratio of any topical tested, RR 0.19 (95% CI 0.08 to 0.44) vs placebo, better
     than azoles at 0.30 and allylamines at 0.33. No page exists despite being the
     best-performing agent in that comparison
+  resolved_reason: 'auto-reconciled: a ingredient page already exists for ''Tolnaftate
+    (OTC topical antifungal)'' (queue_reconcile)'
 - name: Miconazole nitrate (OTC topical azole antifungal)
   type: ingredient
   priority: 5
@@ -2373,7 +2385,7 @@
 - name: Amorolfine
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: otc-antifungals-by-evidence
   source: 'Named in Crawford 2007 Cochrane (PMID 17636672), verified 2026-10-21, as
     the one topical the review suggests may do better on NAILS: amorolfine ''might
@@ -2382,6 +2394,8 @@
     but has no amorolfine page. Resolve its regulatory status carefully before drafting:
     it is not an FDA-approved topical in the US as far as this note knows, which is
     exactly the kind of claim to verify against a primary source rather than assume.'
+  resolved_reason: 'auto-reconciled: a ingredient page already exists for ''Amorolfine''
+    (queue_reconcile)'
 - name: Undecylenic acid (undecanoates)
   type: ingredient
   priority: 5
