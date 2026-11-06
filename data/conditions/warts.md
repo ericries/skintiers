@@ -51,6 +51,18 @@ tier_list_reviewed:
   (compared in the 2026 network meta-analysis; none has a page here)
 type: condition
 updated: '2026-10-30'
+videos:
+- title: 'Warts: diagnosis, treatment and home remedies'
+  creator: Dr. Laura Soong
+  creator_slug: laura-soong
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=YPINdE875Pk
+  posted: '2023-07-26'
+  related: [salicylic-acid, petrolatum]
+  thesis: Board-certified dermatologist Laura Soong sets out the at-home routine she gives patients for stubborn hand and foot warts, which she frames first as a test of persistence, saying any treatment needs at least three months before you judge it. The sequence is to soak the area in plain soapy warm water for five to ten minutes every night or every other night, file the thickened skin down with a pumice stone or foot file that nobody else in the house uses because the virus is contagious, then apply a salicylic acid preparation and cover it. Her tip for the common problem of irritation is to ring the wart with plain petroleum jelly so the acid works on the wart rather than the skin around it, and she says to keep going until the normal skin lines return. If that fails she points to cryotherapy and then a dermatologist. She closes by suggesting vitamin D and zinc supplementation, an oral route this card does not carry and which is outside what this site covers.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Warts are benign growths caused by human papillomavirus infecting the basal keratinocytes of the skin.[^nma26] The useful thing to know before buying anything for one is that the two treatments everybody reaches for first, salicylic acid and freezing, did not beat doing nothing in the best plantar-wart evidence read for this page.

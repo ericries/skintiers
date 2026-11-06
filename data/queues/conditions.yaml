@@ -954,3 +954,19 @@
     carrying over: ''Not indicated for other forms of urticaria.'' Build the condition
     first; [[dupixent-dupilumab-injection]] and [[dupilumab]] are ready to link into
     it.'
+- name: Rashes in pregnancy (PUPPP and the others)
+  type: condition
+  priority: 6
+  status: pending
+  discovered_from: warts
+  source: 'Surfaced from the same Laura Soong back catalogue slice: her clip hIm5KKRZl8k,
+    ''RASH in Pregnancy? Dermatologist Reveals Causes Symptoms and Solutions'', could
+    not be carded because no hub exists and sk find returns nothing for pregnancy
+    rash, PUPPP or skin in pregnancy. The gap is real: pregnancy-specific dermatoses
+    are a common reason people search, several are benign and one (pemphigoid gestationis,
+    which has its own 2026 French national protocol, PMID 42025012) is not. CAUTION
+    BEFORE BUILDING: this is a differential-diagnosis topic where the dangerous entry
+    is rare, so it needs the same treatment [[bullous-pemphigoid]] got, pointing at
+    a clinician rather than offering a symptom checklist. The site already has [[anti-aging-perimenopause]]
+    but nothing on pregnancy. The video is low-view (9,497) so it is a weak card even
+    once a hub exists.'

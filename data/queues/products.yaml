@@ -5488,3 +5488,18 @@
     and whether it is a cosmetic or an OTC drug, since [[azelaic-acid]] grades the
     two routes differently. If the identity cannot be resolved from a primary or brand
     source, close this rather than drafting from a TikTok mention.'
+- name: Compound W (salicylic acid wart remover)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: warts
+  source: 'Named by dermatologist Laura Soong in the video now carded on [[warts]]
+    (YouTube YPINdE875Pk) as a first-line at-home option, noting it comes in a range
+    of salicylic acid strengths. It is an OTC monograph drug, so the FDA record should
+    carry it: check openFDA drug/label.json and the NDC directory for the salicylic
+    acid wart-remover products and their percentages, the way the antifungal pages
+    were built. The useful angle is STRENGTH AND FORMAT, since wart removers run from
+    low-percentage liquids to 40 percent plasters and the label indications differ
+    by format, and [[salicylic-acid]] grades the ingredient but says nothing about
+    wart-strength preparations. Do not take the strength range from the video; get
+    it from labels.'
