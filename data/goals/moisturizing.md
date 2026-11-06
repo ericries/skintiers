@@ -141,7 +141,7 @@ For barrier-impaired or [[dry-skin]] and [[sensitive-skin]], the practical routi
 
 ## See Also
 
-- [[skin-barrier-repair]]
+- [[skin-barrier-repair]] [[skin-type]]
 - [[atopic-dermatitis]]
 - [[dry-skin]]
 - [[sensitive-skin]]

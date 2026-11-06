@@ -568,7 +568,7 @@
 - name: Skin type (dry, combination, oily) and what the label does not mean
   type: goal
   priority: 5
-  status: pending
+  status: done
   discovered_from: moisturizing
   source: 'Grounded in the Fatima Fahs clip carded on moisturizing 2026-10-22 (TikTok
     7699074851595668749), where a dermatologist gives the 30-minutes-after-washing
@@ -580,7 +580,11 @@
     are used for, state that they are a shopping heuristic rather than a measured
     classification, and route to the three existing pages. DO NOT create a fourth
     type page; this is a hub about the framework, and the site already has five near-duplicate
-    page pairs from exactly this kind of drift.'
+    page pairs from exactly this kind of drift. MERGED 2026-11-06 with a duplicate
+    row (''How to work out your skin type'', discovered_from oily-skin) that was grounded
+    in the SAME clip 7699074851595668749. Extra detail from it: there is no combination-skin
+    page at all, which is why a clip about the distinction had to be carded on one
+    of the two existing pages.'
 - name: Sclerotherapy for spider veins
   type: goal
   priority: 5
@@ -851,23 +855,6 @@
   source: A rostered dermatologist's botox-safety clip (TikTok 7685889123852274957)
     was rejected today solely because no page exists to attach it to; the site covers
     many wrinkle treatments and has no neuromodulator hub
-- name: How to work out your skin type
-  type: goal
-  priority: 4
-  status: pending
-  discovered_from: oily-skin
-  source: 'Fatima Fahs - skin type test (video, 7699074851595668749); site has oily-skin
-    and dry-skin but no hub for the distinction, and no combination-skin page The
-    site covers [[oily-skin]] and [[dry-skin]] but has no hub for telling them apart,
-    and no combination-skin page at all, which is why a clip about the distinction
-    had to be carded on one of the two. KEEP IT HONEST AND SHORT: the dermatologist
-    whose clip prompted this says plainly that these are not specific scientific types,
-    and that caveat should be the page''s spine rather than a footnote. The useful
-    content is the 30-minute post-wash test and what each result changes about product
-    choice and frequency; link out to [[oily-skin]], [[dry-skin]], [[sensitive-skin]]
-    and [[minimalist-routine]] rather than re-explaining any of them. Check whether
-    the Fitzpatrick scale belongs here or stays with [[light-based-hair-removal-deeper-skin-tones]];
-    they are different axes and should not be blurred.'
 - name: 'Cellulite: what the evidence actually supports'
   type: goal
   priority: 4
@@ -899,3 +886,16 @@
     answered inside [[sunscreen-uv-filters]] or [[anti-aging]]; if it is, close this
     rather than splitting the topic. If built, it needs more than this one trial,
     since a single n=59 study in Paris cannot carry a hub.
+- name: Combination skin, if it ever needs its own page
+  type: goal
+  priority: 8
+  status: pending
+  discovered_from: skin-type
+  source: 'DELIBERATE PLACEHOLDER, and the default answer is NO. [[skin-type]] states
+    that combination is a real enough description but sits between [[oily-skin]] and
+    [[dry-skin]] rather than needing a third page, and that position should stand
+    unless something changes it. Queued only so the gap is a recorded decision rather
+    than an oversight that a later tick rediscovers and silently fills: two separate
+    queue rows were already opened for the skin-type hub itself before it existed,
+    both from the same video. Reopen this ONLY if a reader-facing need appears that
+    the two existing pages cannot serve, and close it otherwise.'

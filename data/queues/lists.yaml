@@ -1207,3 +1207,18 @@
     tineas; and do NOT imply a shorter course means a better cure rate, because [[luliconazole]]
     has the shortest course and a complete-clearance rate of 14 to 26 percent in athlete''s
     foot.'
+- name: Cleansers by skin type, and whether the type actually changes the choice
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: skin-type
+  source: 'Grounded in [[skin-type]], which argues the dry/combination/oily labels
+    earn their keep on richness and frequency rather than on ingredient selection.
+    A list that TESTS that claim against the site''s own cleanser pages would be genuinely
+    useful and is curatorial over pages that already exist. REQUIREMENT THAT MAKES
+    IT WORTH BUILDING: it must be willing to conclude that the type changes little,
+    if that is what the cleanser pages show, rather than manufacturing three tidy
+    recommendations. If every cleanser the site grades well turns out to suit most
+    types, say that; it is the more useful finding and it matches what [[skin-type]]
+    already argues. Check first whether [[best-gentle-eczema-sensitive-skin-moisturizers]]
+    and the other moisturiser lists already cover this ground.'

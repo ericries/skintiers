@@ -154,7 +154,7 @@ K-beauty routines aimed at oily and combination skin lean on light textures and 
 
 ## See Also
 
-- Actives: [[niacinamide]], [[retinoids]], [[salicylic-acid]], [[azelaic-acid]].
+- Actives: [[niacinamide]], [[retinoids]], [[salicylic-acid]], [[azelaic-acid]] [[skin-type]]
 - Products and lists: [[differin-adapalene-0-1-gel]], [[the-ordinary-niacinamide-10-zinc-1]], [[paulas-choice-skin-perfecting-2-bha]], and the roundups on [[best-cleansers-for-oily-acne-prone-skin]], [[best-salicylic-acid-bha-products]], and [[best-benzoyl-peroxide-products]].
 - Related concerns: [[acne]], [[seborrheic-dermatitis]], [[blackheads-clogged-pores]], [[enlarged-pores]], [[body-acne]], [[fungal-acne]], [[dry-skin]].
 

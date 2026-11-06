@@ -135,7 +135,7 @@ DermNet's clinical reference summary, the anchor source for this page, sets out 
 
 ## See Also
 
-- [[moisturizing]] for the full ranked list of moisturizing ingredients, and [[skin-barrier-repair]] for barrier mechanism and repair.
+- [[moisturizing]] for the full ranked list of moisturizing ingredients, and [[skin-barrier-repair]] for barrier mechanism and repair [[skin-type]]
 - [[petrolatum]], [[mineral-oil]], [[glycerin]], [[hyaluronic-acid]], [[urea]], [[lactic-acid]], and [[ammonium-lactate]] for the individual treatment evidence.
 - [[atopic-dermatitis]] when dryness turns into an itchy, inflamed rash, and [[keratosis-pilaris]] for the rough, bumpy variant that shows up on arms and thighs.
 - [[cerave-moisturizing-cream]] as an example of the plain, thick emollient this page recommends.
