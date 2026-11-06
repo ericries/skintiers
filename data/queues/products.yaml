@@ -5451,7 +5451,16 @@
     or the query needs widening (try searching generic_name dupilumab, or the DailyMed
     SPL, which carries the full package list). If the pen is confirmed, fold it into
     the existing product page rather than opening a second one; this is a presentation,
-    not a separate product.'
+    not a separate product. CONFIRMED FROM THE SPL, 2026-11-06: the pen exists and
+    the NDC directory query was simply the wrong lens. The DailyMed SPL for set 595f437d-2729-40bb-9c62-c8ece1f82780
+    carries four principal display panels, captioned ''300 mg/2 mL Syringe Carton''
+    (dupixent-126.jpg), ''200 mg/1.14 mL Syringe Carton'' (127), ''300 mg/2 mL Pen
+    Carton'' (128) and ''200 mg/1.14 mL Pen Carton'' (129). So Dupixent is marketed
+    in both presentations at both strengths, and the product page currently describes
+    only the syringes because openFDA''s ndc.json returned four syringe records. Fold
+    the pen into the EXISTING page rather than opening a second one; it is a presentation,
+    not a product. Get its NDCs by searching the SPL itself rather than ndc.json by
+    brand name.'
 - name: CurrentBody Skin LED Face Mask
   type: product
   priority: 4

@@ -3,6 +3,10 @@ analyzed: '2026-11-05'
 assurance: sonnet
 brand: Regeneron
 category: Treatments
+images:
+- file: dupixent-dupilumab-injection-dailymed-300mg.jpg
+  source: DailyMed (principal display panel, 300 mg/2 mL syringe carton)
+  source_url: https://dailymed.nlm.nih.gov/dailymed/image.cfm?setid=595f437d-2729-40bb-9c62-c8ece1f82780&name=dupixent-126.jpg
 grades:
 - effect: strong
   evidence: established
