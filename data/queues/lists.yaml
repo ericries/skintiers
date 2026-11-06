@@ -1265,3 +1265,20 @@
     of amendments rather than one document, so the current status of a filter may
     require reading several. If the orders turn out not to resolve the per-filter
     status, say so and close; an honest ''still unresolved'' is the finding.'
+- name: Cellulite devices by what their FDA product code permits them to claim
+  type: list
+  priority: 4
+  status: pending
+  discovered_from: velasmooth-syneron
+  source: 'Grounded and immediately checkable. FDA classification product code NUV
+    (''Massager, Vacuum, Light Induced Heating'') is DEFINED as intended ''to temporarily
+    alter the appearance of cellulite'', which is a hard ceiling on what any device
+    cleared under it may claim, and openFDA returns 37 current NUV registration listings
+    from manufacturers including InMode, Viora, Cynosure and I-Tech. A list that puts
+    the marketed names against that one-sentence definition would be useful in a category
+    where the advertising is unusually aggressive. REQUIREMENTS: take the definition
+    from the classification endpoint and each device''s claim from its own clearance
+    or label, never from brand copy; check whether some devices are cleared under
+    a DIFFERENT product code with a different permitted claim, which is the thing
+    that would make or break the list; and do not imply the ceiling is a finding about
+    efficacy, which is a separate axis covered on [[cellulite]].'

@@ -4536,7 +4536,7 @@
 - name: VelaSmooth (Syneron, K050397 / K070092)
   type: product
   priority: 3
-  status: pending
+  status: done
   discovered_from: cellulite
   source: 'The only cellulite device DermNet singles out as FDA-cleared, and the FDA
     record is verified: openFDA device/510k returns 2 records under device_name VelaSmooth,
@@ -5533,3 +5533,17 @@
     VEHICLE: a scalp shampoo and an ointment carry different exposure and different
     weekly ceilings, and a reader told ''50 g per week'' from one label may be reading
     the wrong product. Do not read the ointment figures across.'
+- name: Aurora DS (Syneron, K031988)
+  type: product
+  priority: 6
+  status: pending
+  discovered_from: velasmooth-syneron
+  source: 'One of the five predicates [[velasmooth-syneron]] was found substantially
+    equivalent to, and the only one from Syneron itself: openFDA device/510k returns
+    AURORA DS, Syneron Medical Ltd., K031988. It is the earlier light-and-RF platform
+    the cellulite device was built on, so a page would show one rung of a predicate
+    chain this site is already documenting. LOW PRIORITY and possibly not worth building:
+    it is a 2003 clinic platform that may be long discontinued, and [[velasmooth-syneron]]
+    already records its role. Check current registration listings first, exactly as
+    the VelaSmooth page did, and close this if the device is gone and nothing on the
+    site needs to link to it.'

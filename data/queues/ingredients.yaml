@@ -1835,11 +1835,13 @@
 - name: Clobetasol propionate (topical corticosteroid)
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: coco-betaine
   source: The shampoo active in Iijima 2026 (PMID 41488827); a potent topical corticosteroid
     with no page, and the site currently has no entry for the corticosteroid class
     that PFB and seborrheic-dermatitis reviews list among treatments
+  resolved_reason: 'auto-reconciled: a ingredient page already exists for ''Clobetasol
+    propionate (topical corticosteroid)'' (queue_reconcile)'
 - name: Dupilumab (Dupixent)
   type: ingredient
   priority: 5
