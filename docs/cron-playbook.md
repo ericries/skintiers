@@ -118,6 +118,22 @@ the shipped page, build, and push (git pull --rebase then push if rejected).
 
 ## Finish
 
+After the push, run `.venv/bin/python scripts/ci_status.py`. It is one cheap
+`gh` call and it reports on the LAST COMPLETED run, so it does not wait on your
+own. **A push is not a ship.** `build.yml` refuses to deploy unless
+`pytest tests/` is green, so a red suite means content lands in the repo and
+never reaches the site, with every push still looking successful. That is not
+hypothetical: between 2026-10-18 and 2026-11-06 nothing deployed for 19 days
+across 96 consecutive failed runs, because two tests went red and no tick ever
+looked. If it prints CI RED, STOP doing content work and fix the pipeline, or
+report it; shipping more pages into a blocked pipeline just grows the backlog.
+
+If you changed anything under `scripts/`, `templates/`, `tests/`, `build.py` or
+`.github/`, run `pytest tests/` BEFORE pushing. That is the exact gate CI uses,
+and the Oct 18 breakage was a script edit pushed without it. (`githooks/pre-push`
+automates this; it is inert unless someone has run `git config core.hooksPath
+githooks`.)
+
 One-line summary. (What's New is auto-derived from each page's `updated` date - do NOT run `sk log`.)
 
 ## Per-type critic requirement

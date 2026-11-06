@@ -1,0 +1,53 @@
+#!/bin/sh
+# Run the test suite before pushing changes that can break the DEPLOY GATE.
+#
+# NOT ACTIVE until you opt in:
+#     git config core.hooksPath githooks
+# (Claude is not permitted to install hooks itself; this file is inert until
+# you run that line. Remove with: git config --unset core.hooksPath)
+#
+# Why it exists: build.yml refuses to deploy unless `pytest tests/` is green.
+# On 2026-10-18 a tick added two flags to scripts/sk, pushed without running
+# the suite, and the site stopped shipping for 19 days while every subsequent
+# push still looked successful. Content lint never caught it, because the
+# content was fine -- it simply never reached the site.
+#
+# Content-only pushes (data/, docs/, research-cache/) skip the suite and stay
+# fast, which is almost every push. Code pushes pay ~2 minutes to avoid paying
+# another three weeks.
+#
+# Escape hatch: SKIP_PREPUSH_TESTS=1 git push
+set -e
+
+if [ -n "$SKIP_PREPUSH_TESTS" ]; then
+    echo "pre-push: SKIP_PREPUSH_TESTS set, skipping the suite."
+    exit 0
+fi
+
+remote_head=$(git rev-parse --quiet --verify "@{u}" 2>/dev/null || true)
+if [ -n "$remote_head" ]; then
+    range="$remote_head..HEAD"
+else
+    range="HEAD"   # no upstream yet: inspect the tip commit only
+fi
+
+changed=$(git diff --name-only "$range" 2>/dev/null || true)
+[ -z "$changed" ] && exit 0
+
+# Paths whose breakage stops the deploy. data/ is excluded on purpose.
+if ! printf '%s\n' "$changed" | grep -qE '^(scripts/|templates/|tests/|githooks/|build\.py|requirements\.txt|\.github/)'; then
+    exit 0
+fi
+
+echo "pre-push: code paths changed, running the deploy gate (pytest tests/)..."
+PY=.venv/bin/python
+[ -x "$PY" ] || PY=python3
+if ! "$PY" -m pytest tests/ -q; then
+    echo ""
+    echo "pre-push: TESTS FAILED -- push aborted."
+    echo "  build.yml gates deployment on this suite, so pushing now would"
+    echo "  stop the site shipping while every push still looks fine."
+    echo "  Fix the tests, or override with SKIP_PREPUSH_TESTS=1 git push"
+    exit 1
+fi
+echo "pre-push: suite green."
