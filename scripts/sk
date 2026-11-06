@@ -480,9 +480,12 @@ def cmd_roster_set(args):
     # they are emitted as JSON scalars (valid YAML double-quoted scalars) rather
     # than interpolated raw. Blank entries for these two fields block the video
     # pull: a card cannot name a creator or state a credential it does not have.
-    if args.name is not None:
+    # getattr, not attribute access: this is called with partial arg objects
+    # (tests, and any non-argparse caller) that predate the --name/--credential
+    # flags. A missing attribute must mean "not requested", not AttributeError.
+    if getattr(args, "name", None) is not None:
         updates.append(("name", json.dumps(args.name)))
-    if args.credential is not None:
+    if getattr(args, "credential", None) is not None:
         updates.append(("credential", json.dumps(args.credential)))
     if not updates:
         print("nothing to update (pass --last-pulled, --backfill-cursor, "
@@ -524,8 +527,9 @@ def cmd_roster_set(args):
                          and str(entry.get("last_pulled")) != args.last_pulled) \
             or (args.backfill_cursor is not None
                 and entry.get("backfill_cursor") != args.backfill_cursor) \
-            or (args.name is not None and entry.get("name") != args.name) \
-            or (args.credential is not None
+            or (getattr(args, "name", None) is not None
+                and entry.get("name") != args.name) \
+            or (getattr(args, "credential", None) is not None
                 and entry.get("credential") != args.credential):
         print("ERROR: values did not round-trip; roster left unchanged")
         return 1

@@ -394,10 +394,12 @@ def build_creator_feeds(cards):
 def grades_view_for(metadata, published_slugs=None, slug_to_name=None):
     """Build the dossier view rows from a `grades:` frontmatter list.
 
-    A grade `note` may carry [[xref]] links and inline markdown. When the slug
-    maps are supplied, the note is linkified and rendered to inline HTML the same
-    way the body is, so its links resolve (a missing target renders as plain text,
-    never raw `[[brackets]]`). The rendered note is marked safe in the template."""
+    A grade `note` or `use` may carry [[xref]] links and inline markdown. When the
+    slug maps are supplied, both are linkified and rendered to inline HTML the same
+    way the body is, so their links resolve (a missing target renders as plain text,
+    never raw `[[brackets]]`). Both are marked safe in the template. `use` was
+    historically rendered raw, which let [[xrefs]] authored there survive into the
+    HTML on three pages and fail the render smoke test; it now shares the note path."""
     published_slugs = published_slugs or frozenset()
     slug_to_name = slug_to_name or {}
     view = []
@@ -405,15 +407,20 @@ def grades_view_for(metadata, published_slugs=None, slug_to_name=None):
         effect = (g.get("effect") or "").lower()
         evidence = (g.get("evidence") or "").lower()
         ev_class, ev_label = EVIDENCE_MAP.get(evidence, ("ev-anec", evidence.title()))
-        note = g.get("note", "")
-        if note:
-            note = sklib.render_markdown(
-                sklib.linkify_xrefs(note, published_slugs, slug_to_name)).strip()
-            # The note sits inline in a <small>; strip a single wrapping <p>.
-            if note.startswith("<p>") and note.endswith("</p>") and note.count("<p>") == 1:
-                note = note[3:-4]
+        def _inline(text):
+            """Linkify + render to INLINE html: both fields sit inside existing
+            block elements, so a single wrapping <p> is stripped."""
+            if not text:
+                return text
+            html = sklib.render_markdown(
+                sklib.linkify_xrefs(text, published_slugs, slug_to_name)).strip()
+            if html.startswith("<p>") and html.endswith("</p>") and html.count("<p>") == 1:
+                html = html[3:-4]
+            return html
+
+        note = _inline(g.get("note", ""))
         view.append({
-            "use": g.get("use", ""),
+            "use": _inline(g.get("use", "")),
             "note": note,
             "effect_word": effect,
             "effect_segs": EFFECT_SEGS.get(effect, 0),
