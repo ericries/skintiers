@@ -3029,7 +3029,7 @@
     and that absence matters for a reader.
 - name: Botulinum toxin (incobotulinumtoxinA) for skin quality
   type: ingredient
-  priority: 2
+  priority: 9
   status: pending
   discovered_from: roessle-2025-incobotulinumtoxin-a-maskne-rct
   source: 'SCOPE CAVEAT FIRST: botulinum toxin is an injectable procedure, which the
@@ -3051,7 +3051,12 @@
     rule and the built site disagree here. Skipped on 2026-11-05 for that reason,
     not for lack of sources: [[roessle-2025-incobotulinumtoxin-a-maskne-rct]] already
     exists as a study page. Resolve the scope question first, then build or close
-    this.'
+    this. PRIORITY CORRECTED 2026-11-07, from 2 to 9. The note above says it was ''queued
+    at priority 2 so it sits below everything topical'', which is backwards: this
+    queue runs 1 = most important to 10 = least, so priority 2 put a deferred-phase
+    injectable ABOVE every topical ingredient and it has been the queue head blocking
+    the ingredient tick. The number now matches the note''s stated intent. The scope
+    decision itself is untouched and still the user''s.'
 - name: Polyhydroxy acids (PHAs, gluconolactone)
   type: ingredient
   priority: 4
@@ -3734,7 +3739,7 @@
 - name: Silicone gel and silicone sheeting for scars
   type: ingredient
   priority: 3
-  status: pending
+  status: done
   discovered_from: surgical-and-wound-scars
   source: 'The most-recommended scar intervention has no page here, and [[surgical-and-wound-scars]]
     can only say that the evidence for its superiority is ''inconsistent'' because
@@ -3818,3 +3823,22 @@
     honest answer that it is not. Set a top-level tier: from the rubric you write.
     Do NOT inherit a grade from oxybenzone or avobenzone because they share a category;
     the category is about FDA''s paperwork, not about performance.'
+- name: 'Fix ten ingredient pages whose tier: is off-enum (strong, top, moderate,
+    minimal)'
+  type: ingredient
+  priority: 3
+  status: pending
+  discovered_from: silicone-gel-and-sheeting-for-scars
+  source: 'NOT A NEW PAGE. A bounded data fix, finished in one pass. The documented
+    tier enum is best/good/mid/weak, and entity_tier reads it so the routine builder
+    can group ingredients by evidence. Counted across data/ingredients on 2026-11-07:
+    weak 101, mid 53, good 47, then ten pages OFF-ENUM, namely strong 4, top 2, moderate
+    2 and minimal 1. SOME OF THESE RENDER FINE BY ACCIDENT, which is why nobody has
+    noticed: build.py''s _TIER_ALIASES collapses moderate and mid to Moderate and
+    weak to Minimal, so an off-enum value can look right on the page while being wrong
+    in the data the routine builder consumes. ACTION: for each of the ten, read the
+    page''s OWN rubric and map it to the nearest enum value (strong and top almost
+    certainly mean best or good, moderate means mid, minimal means weak), do NOT guess
+    from the word alone, and change nothing else on those pages. Then consider whether
+    sk lint should reject an off-enum tier outright, which would stop this recurring;
+    that is the real fix and it is a red-green test, not a content edit.'

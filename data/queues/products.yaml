@@ -5676,7 +5676,16 @@
     of closed hyperproliferative (hypertrophic and keloid) scars'' - check which code
     Strataderm itself sits under, since that is a tighter indication than NAD and
     worth stating. Link silicone-for-scars evidence out to [[mederma-advanced-scar-gel]]
-    and [[polysilicone-15]] rather than re-arguing it.'
+    and [[polysilicone-15]] rather than re-arguing it. ADDED 2026-11-07 from [[silicone-gel-and-sheeting-for-scars]],
+    which is now the ingredient page this product sits under and which already carries
+    the category evidence: Cochrane''s 20-trial pooled estimates and the 2026 EJD
+    review''s verdict that evidence of superiority is inconsistent. DO NOT RE-ARGUE
+    EITHER, link to them. The specific open question this product page can actually
+    answer, and which the ingredient page says is unsupported in both directions,
+    is whether a fluid gel and an adhesive sheet differ: neither review''s abstract
+    reports a head-to-head estimate between the two forms, so if Strataderm''s own
+    cited trials contain one, that is the finding. (I briefly queued a second row
+    for this and closed it; the existing row is this one.)'
 - name: Sweep the four remaining footnotes that repeat openFDA's phantom device name
     for K180445
   type: product
@@ -5825,3 +5834,9 @@
     trial''s erythema result as evidence FOR this device; that trial compared two
     dressings applied after the procedure, and the device was the constant, not the
     intervention.'
+- name: Strataderm silicone scar gel, and whether a sheet or a gel is better
+  type: product
+  priority: 6
+  status: done
+  discovered_from: silicone-gel-and-sheeting-for-scars
+  source: null

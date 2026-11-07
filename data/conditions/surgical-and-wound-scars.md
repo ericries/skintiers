@@ -10,7 +10,7 @@ name: Surgical and wound scars
 slug: surgical-and-wound-scars
 status: published
 type: condition
-updated: '2026-11-06'
+updated: '2026-11-07'
 videos:
 - title: How to treat scars like a dermatologist
   creator: Dr. Daniel Sugai
@@ -45,6 +45,7 @@ The reasons to make contact rather than wait are the usual wound ones: spreading
 
 ## See Also
 
+- [[silicone-gel-and-sheeting-for-scars]], the standard first recommendation, with the pooled numbers behind it
 - [[acne-scars]] and [[atrophic-acne-scar-subtypes]] for scarring from acne, a separate literature
 - [[pantalena-2026-photographic-assessment-of-cosmetic-outcome-in-postsurg|Pantalena 2026 on suture choice and scar appearance]] for a trial on what the closure itself does to the eventual scar
 - [[petrolatum]] and [[dimethicone]] for the occlusive and silicone-family ingredients involved
