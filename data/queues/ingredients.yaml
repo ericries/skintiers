@@ -3731,3 +3731,18 @@
     the Category III framing correctly: insufficient data in the agency''s file is
     NOT a finding of harm, which [[us-sunscreen-filters-by-what-fda-proposed-in-2019]]
     states explicitly.'
+- name: Silicone gel and silicone sheeting for scars
+  type: ingredient
+  priority: 3
+  status: pending
+  discovered_from: surgical-and-wound-scars
+  source: 'The most-recommended scar intervention has no page here, and [[surgical-and-wound-scars]]
+    can only say that the evidence for its superiority is ''inconsistent'' because
+    the 2026 EJD systematic review''s ABSTRACT reports methods without pooled results
+    (PMID 42183685, 35 papers, 20 meta-analysed, RCTs only). GET THE FULL TEXT: the
+    effect sizes this site could not state are the whole reason to build the page,
+    and without them it would just repeat the hub. Note the site has [[dimethicone]]
+    and [[polysilicone-15]] as cosmetic silicones, which are a different use from
+    medical-grade scar gel and sheeting, so decide up front whether this is one page
+    or a section on an existing one. If the full text is paywalled and no pooled figure
+    can be sourced, say so and close rather than publishing a page that restates ''inconsistent''.'

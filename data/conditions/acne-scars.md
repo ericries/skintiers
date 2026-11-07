@@ -108,6 +108,7 @@ The evidence splits by scar type and mostly lives on other pages. For atrophic s
 ## See Also
 
 - [[rf-microneedling-acne-scars]]: the radiofrequency version, which matches ablative laser on atrophic scars with far less pigmentary risk
+- [[surgical-and-wound-scars]] for scars from surgery or injury
 - [[acne]]: treating active breakouts early is the best way to prevent new scars and marks
 - [[hyperpigmentation]]: full evidence and product ranking for the brown PIH marks
 - [[brightening]]: the fading-focused goal page that pairs with hyperpigmentation

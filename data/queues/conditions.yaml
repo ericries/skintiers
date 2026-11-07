@@ -928,7 +928,7 @@
 - name: Surgical and wound scars (care during healing)
   type: condition
   priority: 4
-  status: pending
+  status: done
   discovered_from: hyperpigmentation
   source: 'GROUNDED IN A VIDEO I could not card for want of a page: dermatologist
     Chris Tomassian, TikTok 7697007524175727885 (posted Oct 2026), gives four rules
@@ -987,3 +987,17 @@
     it. Ground it in the published reviews and in what regulators have said (the UK
     MHRA issued a statement on topical steroid withdrawal), state plainly where evidence
     is thin, and do not let it become a reason for readers to stop a prescribed treatment.'
+- name: Keloid scars
+  type: condition
+  priority: 5
+  status: pending
+  discovered_from: surgical-and-wound-scars
+  source: 'sk find returns no match for keloid, and [[surgical-and-wound-scars]] deliberately
+    covers hypertrophic scarring only, quoting the 2026 review''s definition of it
+    as ''elevated, pigmented scarring confined within the wound boundaries''. Keloids
+    are the entity that is NOT confined within those boundaries and they behave differently,
+    recur after excision and disproportionately affect darker skin. A hub is warranted
+    but needs its own evidence: a 2025 systematic review of treatment in darker Fitzpatrick
+    types exists (PMID 40459590, Archives of Dermatological Research) and was found
+    but not read for the scar hub. DO NOT let the page imply keloids and hypertrophic
+    scars respond alike, which is the error the shared word ''scar'' invites.'

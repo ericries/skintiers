@@ -91,6 +91,7 @@ This section is quarantined and discounted; treat everything here as unproven or
 ## See Also
 
 - [[dry-skin]] - the condition petrolatum's emollient use is most relevant to
+- [[surgical-and-wound-scars]] for scars from surgery or injury
 - [[atopic-dermatitis]] - eczema, where the Cochrane moisturizer evidence applies
 - [[skin-barrier-repair]] - the broader goal petrolatum's occlusion serves
 - [[moisturizing]] - the goal hub petrolatum sits under as the reference occlusive
