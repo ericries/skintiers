@@ -687,58 +687,147 @@ videos:
     products or brands are named in the clip.'
   title: Treat the cycle not the pimple
   url: https://www.tiktok.com/@your.estie.ella/video/7693281219399716109
-- title: Base Routine + Azelaic Acid + Retinoid your skin can tolerate = managed acne
-  creator: Ella (@your.estie.ella)
+- creator: Ella (@your.estie.ella)
   creator_slug: your-estie-ella
   credential: Licensed esthetician (NOT a dermatologist or cosmetic chemist)
-  platform: TikTok
-  url: https://www.tiktok.com/@your.estie.ella/video/7698009540612214030
-  posted: '2026-10-18'
-  related: [azelaic-acid, adapalene, retinoids, salicylic-acid, sunscreen-uv-filters]
-  thesis: 'Licensed esthetician Ella lays out a deliberately small acne routine: a gentle cleanser, a plain moisturizer and a daily sunscreen as the base, then azelaic acid every morning and a retinoid in the evening, phased in slowly over what she calls a three to six month journey up to four to six nights a week. She argues adapalene is a good choice for acne specifically and that tretinoin is not required, and she leaves exfoliation out for most people, suggesting a low-strength salicylic acid only for very oily skin. Two of her framings are her own emphasis rather than established fact: she says you cannot keep skin clear without daily sunscreen, and that nothing regulates acne better than azelaic acid plus a tolerated retinoid, which is stronger than the comparative evidence supports.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
-- title: The ONLY 3-Step Acne Routine You Need (2026 Dermatologist Guide)
-  creator: Dr. Dustin Portela
+  platform: TikTok
+  posted: '2026-10-18'
+  related:
+  - azelaic-acid
+  - adapalene
+  - retinoids
+  - salicylic-acid
+  - sunscreen-uv-filters
+  thesis: 'Licensed esthetician Ella lays out a deliberately small acne routine: a
+    gentle cleanser, a plain moisturizer and a daily sunscreen as the base, then azelaic
+    acid every morning and a retinoid in the evening, phased in slowly over what she
+    calls a three to six month journey up to four to six nights a week. She argues
+    adapalene is a good choice for acne specifically and that tretinoin is not required,
+    and she leaves exfoliation out for most people, suggesting a low-strength salicylic
+    acid only for very oily skin. Two of her framings are her own emphasis rather
+    than established fact: she says you cannot keep skin clear without daily sunscreen,
+    and that nothing regulates acne better than azelaic acid plus a tolerated retinoid,
+    which is stronger than the comparative evidence supports.'
+  title: Base Routine + Azelaic Acid + Retinoid your skin can tolerate = managed acne
+  url: https://www.tiktok.com/@your.estie.ella/video/7698009540612214030
+- creator: Dr. Dustin Portela
   creator_slug: dustin-portela
   credential: Board-certified dermatologist
-  platform: YouTube
-  url: https://www.youtube.com/watch?v=xaJeBodWz2Y
-  posted: '2026-10-11'
-  related: [adapalene, benzoyl-peroxide, azelaic-acid, salicylic-acid, sulfur]
-  thesis: 'Board-certified dermatologist Dr. Dustin Portela builds a six-step over-the-counter acne routine around Epiduo, the adapalene 0.1% and benzoyl peroxide 2.5% gel that he says has just become available without a prescription for the first time, and he describes the pairing as addressing clogged pores, acne-causing bacteria and inflammation together. His main practical warning is to start every second or third night rather than nightly, because the people he sees begin with daily use, get irritated and quit, and to expect benzoyl peroxide to bleach fabric. For the morning he offers three alternatives depending on the skin: The Ordinary Azelaic Acid 10% Suspension for redness and post-acne dark marks, a sulfur spot treatment for occasional localized breakouts, and CeraVe Acne Control Gel at 2% salicylic acid for oily or congested skin, finishing with EltaMD UV Clear'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
-- title: What to do when your skin is freaking out
-  creator: Ella (@your.estie.ella)
+  platform: YouTube
+  posted: '2026-10-11'
+  related:
+  - adapalene
+  - benzoyl-peroxide
+  - azelaic-acid
+  - salicylic-acid
+  - sulfur
+  thesis: 'Board-certified dermatologist Dr. Dustin Portela builds a six-step over-the-counter
+    acne routine around Epiduo, the adapalene 0.1% and benzoyl peroxide 2.5% gel that
+    he says has just become available without a prescription for the first time, and
+    he describes the pairing as addressing clogged pores, acne-causing bacteria and
+    inflammation together. His main practical warning is to start every second or
+    third night rather than nightly, because the people he sees begin with daily use,
+    get irritated and quit, and to expect benzoyl peroxide to bleach fabric. For the
+    morning he offers three alternatives depending on the skin: The Ordinary Azelaic
+    Acid 10% Suspension for redness and post-acne dark marks, a sulfur spot treatment
+    for occasional localized breakouts, and CeraVe Acne Control Gel at 2% salicylic
+    acid for oily or congested skin, finishing with EltaMD UV Clear'
+  title: The ONLY 3-Step Acne Routine You Need (2026 Dermatologist Guide)
+  url: https://www.youtube.com/watch?v=xaJeBodWz2Y
+- creator: Ella (@your.estie.ella)
   creator_slug: your-estie-ella
   credential: Licensed esthetician, not a dermatologist or cosmetic chemist
-  platform: TikTok
-  url: https://www.tiktok.com/@your.estie.ella/video/7702108652336876814
-  posted: '2026-10-29'
-  related: [skin-barrier-repair, sulfur, salicylic-acid]
-  thesis: Licensed esthetician Ella argues that a breakout is the wrong moment to start experimenting, describing her own skin reacting badly to a new product and telling viewers not to throw several acne treatments at inflamed skin at once. Her advice is to fall back to a bare routine of cleanser, moisturiser and sunscreen, add at most one spot treatment already known to suit the person, and give it time rather than layering on everything in the cupboard. She mentions in passing a sulfur mask she personally returns to, which is her own habit rather than a recommendation this site relays; the evidence for the active is on sulfur. She notes in the caption that barrier damage needs addressing before acne treatment.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
-- title: 'How to Treat Acne Without Antibiotics: Better Alternatives for Clear Skin'
-  creator: John Barbieri, MD
+  platform: TikTok
+  posted: '2026-10-29'
+  related:
+  - skin-barrier-repair
+  - sulfur
+  - salicylic-acid
+  thesis: Licensed esthetician Ella argues that a breakout is the wrong moment to
+    start experimenting, describing her own skin reacting badly to a new product and
+    telling viewers not to throw several acne treatments at inflamed skin at once.
+    Her advice is to fall back to a bare routine of cleanser, moisturiser and sunscreen,
+    add at most one spot treatment already known to suit the person, and give it time
+    rather than layering on everything in the cupboard. She mentions in passing a
+    sulfur mask she personally returns to, which is her own habit rather than a recommendation
+    this site relays; the evidence for the active is on sulfur. She notes in the caption
+    that barrier damage needs addressing before acne treatment.
+  title: What to do when your skin is freaking out
+  url: https://www.tiktok.com/@your.estie.ella/video/7702108652336876814
+- creator: John Barbieri, MD
   creator_slug: john-barbieri
   credential: Dermatologist, Department of Dermatology, Brigham and Women's Hospital
-  platform: YouTube
-  url: https://www.youtube.com/watch?v=8WRtsA66K0k
-  posted: '2026-04-04'
-  related: [ghanem-2025-spironolactone-acne-meta-analysis]
-  thesis: Dermatologist John Barbieri makes the case for treating acne with fewer oral antibiotics, opening with the point that dermatologists prescribe more antibiotics than any other group of prescribers in medicine and that around 60 percent of the long antibiotic courses they write are for acne, a condition that is not an infection. He argues that low dose regimens are not the escape route they are often presented as, since the term sub antimicrobial is misleading and trial data he cites show resistant bacteria emerging even at 20 mg of doxycycline a day, though he notes that resistance appeared to recede within six months of stopping and that lower doses do reduce side effects. His preferred alternatives are combining mechanisms rather than relying on one drug, using fixed combination topicals because applying three separate creams is both tedious and unevenly done in practice, and making more use of hormonal treatment, citing a study of about 4,000 people in which those who received
-    a combined oral contraceptive or spironolactone at any point had 90 fewer days of antibiotic exposure on average.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
-- title: This is the starting point for ALL acne treatments
-  creator: Ella
+  platform: YouTube
+  posted: '2026-04-04'
+  related:
+  - ghanem-2025-spironolactone-acne-meta-analysis
+  thesis: Dermatologist John Barbieri makes the case for treating acne with fewer
+    oral antibiotics, opening with the point that dermatologists prescribe more antibiotics
+    than any other group of prescribers in medicine and that around 60 percent of
+    the long antibiotic courses they write are for acne, a condition that is not an
+    infection. He argues that low dose regimens are not the escape route they are
+    often presented as, since the term sub antimicrobial is misleading and trial data
+    he cites show resistant bacteria emerging even at 20 mg of doxycycline a day,
+    though he notes that resistance appeared to recede within six months of stopping
+    and that lower doses do reduce side effects. His preferred alternatives are combining
+    mechanisms rather than relying on one drug, using fixed combination topicals because
+    applying three separate creams is both tedious and unevenly done in practice,
+    and making more use of hormonal treatment, citing a study of about 4,000 people
+    in which those who received a combined oral contraceptive or spironolactone at
+    any point had 90 fewer days of antibiotic exposure on average.
+  title: 'How to Treat Acne Without Antibiotics: Better Alternatives for Clear Skin'
+  url: https://www.youtube.com/watch?v=8WRtsA66K0k
+- creator: Ella
   creator_slug: your-estie-ella
   credential: Licensed esthetician (not a dermatologist or cosmetic chemist)
-  platform: TikTok
-  url: https://www.tiktok.com/@your.estie.ella/video/7704727105564609805
-  posted: '2026-11-05'
-  related: [adapalene, azelaic-acid, differin-adapalene-0-1-gel, epiduo-adapalene-benzoyl-peroxide-gel, retinoids, skin-barrier-repair]
-  thesis: 'Licensed esthetician Ella argues that an acne routine should start with two things, an azelaic acid used in the morning and a retinoid used at night, and that for most people the right first retinoid is over-the-counter adapalene rather than a prescription strength one. Her ramp-up schedule is the practical part: two nights a week for a month, then three, then alternate nights, aiming at four to six nights a week, with an adjustment period she puts at about two months. She notes that the adapalene and benzoyl peroxide combination is more drying than adapalene alone. Two cautions for a viewer. She names a favourite azelaic acid product, which is a personal pick rather than an evidence claim, and the dates she gives for when these products became available without prescription do not match the FDA record, which puts the over-the-counter Differin Epiduo approval at 22 May 2026.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
-
+  platform: TikTok
+  posted: '2026-11-05'
+  related:
+  - adapalene
+  - azelaic-acid
+  - differin-adapalene-0-1-gel
+  - epiduo-adapalene-benzoyl-peroxide-gel
+  - retinoids
+  - skin-barrier-repair
+  thesis: 'Licensed esthetician Ella argues that an acne routine should start with
+    two things, an azelaic acid used in the morning and a retinoid used at night,
+    and that for most people the right first retinoid is over-the-counter adapalene
+    rather than a prescription strength one. Her ramp-up schedule is the practical
+    part: two nights a week for a month, then three, then alternate nights, aiming
+    at four to six nights a week, with an adjustment period she puts at about two
+    months. She notes that the adapalene and benzoyl peroxide combination is more
+    drying than adapalene alone. Two cautions for a viewer. She names a favourite
+    azelaic acid product, which is a personal pick rather than an evidence claim,
+    and the dates she gives for when these products became available without prescription
+    do not match the FDA record, which puts the over-the-counter Differin Epiduo approval
+    at 22 May 2026.'
+  title: This is the starting point for ALL acne treatments
+  url: https://www.tiktok.com/@your.estie.ella/video/7704727105564609805
+- creator: Dr. Aegean Chan
+  creator_slug: aegean-chan
+  credential: Board-certified dermatologist
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+  platform: TikTok
+  posted: '2026-10-14'
+  related:
+  - benzoyl-peroxide
+  - acne-scars
+  - hydrocolloid
+  thesis: Board-certified dermatologist Aegean Chan admits she sometimes pops her
+    own pimples, and draws the line where the damage actually happens. Repeated squeezing
+    is the problem, she says, because when nothing comes out there is nothing to extract
+    and what you are pressing on is inflammation, which is the point at which you
+    scar your skin. Her exception is a spot with a large whitehead that looks ready
+    to burst, which she opens gently with two cotton buds before applying a benzoyl
+    peroxide spot treatment and a hydrocolloid patch. She gives no figures and names
+    no products, and the warning not to overdo it is hers.
+  title: Dermatologists who say they never pop pimples are lying
+  url: https://www.tiktok.com/@draegeanchan/video/7696654170119572749
 ---
 
 Acne is the most common skin condition dermatologists treat: dead skin cells and oil clog a pore, bacteria (*Cutibacterium acnes*) multiply inside it, and the follicle becomes inflamed. Graded skeptically against controlled evidence for **topical skincare** (creams and gels applied to the skin, as opposed to pills), the best-studied over-the-counter and prescription topicals produce **modest** lesion reductions, the gap between the "best" and "second-best" topical is often smaller than the marketing implies, and the single largest evidence base for these treatments is rated moderate to very low certainty.[^1][^2]
