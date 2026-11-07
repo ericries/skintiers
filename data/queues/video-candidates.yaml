@@ -2240,7 +2240,8 @@
   conflict: Founder & CEO of own hair-care brand, BLCK Hair Care (@blckhaircare), promoted in her Instagram bio — a product-formulation/owners
   posted: '2026-09-11'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: vague see-your-dermatologist clip; this creator's clips have also returned no English transcript on two attempts
 - id: '7683263275655515422'
   title: Not every mole, DPN, or skin tag has to be “a problem” to be somethin...
   creator: Dr. Ife Rodney (@driferodney)
@@ -2509,7 +2510,8 @@
   conflict: 'Runs #ad sponsored posts (e.g. TruSkin) and Target skincare hauls/reviews; prefer her educational ingredient-category and barrier-repair explainers, and treat product recommendations as effectively promotional (skip).'
   posted: '2026-09-13'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: a shout-out to another creator, not a topic
 - id: '7685066072566795534'
   title: 'How do you prevent hyperpigmentation? #koreanskincare #vitaCserum #da...'
   creator: Jenn Lexi (@jennlexi_)
@@ -15924,7 +15926,8 @@
   conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan and reject any sponsored/affiliate/gifted video
   posted: '2026-11-05'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: vague hook with no single topic
 - id: '7704401713872096525'
   title: I can do anything if I have the @Murad Skincare Sulfur mask & @Paula'...
   creator: Ella (@your.estie.ella)
@@ -15990,7 +15993,8 @@
   conflict: Promotes her own curated product box, Dermy Doc Box (@dermy.doc.box), with link-in-bio callouts in the caption tail (observed 2026-10-29 on clip 7686867010508164366, posted 2026-09-18) - treat her product picks and seasonal recommendations as own-product promotion
   posted: '2026-11-05'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: personal reflection clip, not a skincare topic
 - id: '7704913821416049941'
   title: Replying to @rosen.rot we have some options! Lip colours similar to @...
   creator: Hannah English (@ms_hannah_e / Hannah Collingwood English)
@@ -16207,7 +16211,8 @@
   conflict: 'Runs #ad sponsored posts (e.g. TruSkin) and Target skincare hauls/reviews; prefer her educational ingredient-category and barrier-repair explainers, and treat product recommendations as effectively promotional (skip).'
   posted: '2026-11-06'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: about collagen, elastin and skin laxity after weight loss, and the site has no page for any of those four topics, so there is nothing to embed it on
 - id: '7705106568320126222'
   title: putting my nails on halfway to the wedding and remembering exactly wh...
   creator: Jenn Lexi (@jennlexi_)

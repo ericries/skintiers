@@ -3842,3 +3842,21 @@
     from the word alone, and change nothing else on those pages. Then consider whether
     sk lint should reject an off-enum tier outright, which would stop this recurring;
     that is the real fix and it is a red-green test, not a content edit.'
+- name: Collagen (topical) and what it can and cannot do in a leave-on product
+  type: ingredient
+  priority: 3
+  status: pending
+  discovered_from: silicone-gel-and-sheeting-for-scars
+  source: 'A REAL AND SURPRISING GAP, found on 2026-11-07 while triaging video candidates:
+    sk find returns NO page for collagen, and none for elastin either, on a site with
+    1,184 pages that covers peptides, retinoids and growth factors in depth. A TikTok
+    clip about collagen and elastin had to be rejected purely because there was nowhere
+    to put it. SCOPE CARE NEEDED: oral collagen supplements are OUT of current scope
+    per docs/cron-playbook.md, so this page is about TOPICAL collagen in leave-on
+    products only, and it should say in one clause that the oral question is deferred
+    rather than silently ignoring it. The likely honest verdict is that intact collagen
+    is far too large to penetrate and functions as a humectant film former, which
+    would make it weak on the tier scale, but DO NOT WRITE THAT UNTIL THE RUBRIC IS
+    VERIFIED; molecular weight and penetration claims need a real source, not the
+    standard internet assertion. Route peptide evidence out to [[peptides]] rather
+    than re-arguing it.'

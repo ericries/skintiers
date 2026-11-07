@@ -1001,3 +1001,20 @@
     types exists (PMID 40459590, Archives of Dermatological Research) and was found
     but not read for the scar hub. DO NOT let the page imply keloids and hypertrophic
     scars respond alike, which is the error the shared word ''scar'' invites.'
+- name: Skin laxity and crepey skin
+  type: condition
+  priority: 4
+  status: pending
+  discovered_from: silicone-gel-and-sheeting-for-scars
+  source: 'Paired with the collagen gap found the same day. sk find returns nothing
+    for skin laxity or crepey skin; the nearest hit is an unrelated brand at 69. These
+    are among the most-searched ageing complaints and the site covers the interventions
+    ([[microneedling]], [[home-radiofrequency-skin-tightening]], [[retinoids]]) without
+    a hub that names the problem they address. KEEP IT TIGHT per the condition scope:
+    prefer a tier_list of the graded interventions over an essay. TWO SCOPE LINES
+    TO HOLD: procedures and devices for laxity are a deferred phase, so bracket them
+    as context and link rather than grading them here; and crepey skin on the body
+    after weight loss is partly a volume and elasticity problem that topicals do not
+    address, which is the honest framing rather than a list of creams. The evidence
+    question worth answering is whether anything topical measurably changes elasticity,
+    as distinct from changing how skin looks when hydrated.'
