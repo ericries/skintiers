@@ -503,7 +503,7 @@
     FAAD) and 34 video cards repeat it'
   type: person
   priority: 2
-  status: pending
+  status: done
   discovered_from: aleksandra-brown
   source: 'NOT a page request. An accuracy task. [[aleksandra-brown]] deliberately
     declines to assert board certification because NPI 1679801500 confirms only a
@@ -517,3 +517,22 @@
     and the 34 cards must be softened, not the other way round. Also unresolved: an
     affiliate storefront was observed for her in an earlier session but never persisted
     to the roster, so her product_recs ''ok'' may be wrong.'
+- name: 'VERIFY: whether Aleksandra Brown runs an affiliate storefront, which would
+    make her roster product_recs: ok wrong'
+  type: person
+  priority: 4
+  status: pending
+  discovered_from: aleksandra-brown
+  source: 'SPLIT OFF from the credential item, which is now resolved: her practice''s
+    Our Team page names her individually as ''Aleksandra Brown, D.O., F.A.O.C.D.,
+    F.A.A.D.'' and the roster wording stands. THIS half is still open. An affiliate
+    storefront was observed for her in an earlier session but never persisted to data/video-sources.yaml,
+    so the observation exists only in a transcript and her roster entry still reads
+    product_recs: ok with conflict: None. WHY IT MATTERS: she is the most-cited creator
+    on the site, with 34 cards across 32 pages, and product_recs: ok is what permits
+    her product picks to be carded at all. If a storefront exists, those picks are
+    treated as effectively paid and the roster needs conflict text plus product_recs
+    changed. ACTION: check her own channel''s link-in-bio and recent captions for
+    a storefront (LTK, ShopMy, Amazon), and if found, use sk roster-set rather than
+    hand-editing the YAML. If NOT found after a bounded look, say so explicitly in
+    the roster conflict field so this does not get re-litigated a third time.'
