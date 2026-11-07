@@ -783,3 +783,22 @@
     date; attribute any such claim to the brand and keep it to one clause. Note also
     that thayers.com has no products.json and at least one product URL returns 404,
     so prices may not be obtainable.'
+- name: Stratpharma
+  type: brand
+  priority: 4
+  status: pending
+  discovered_from: stratacel-film-forming-dressing
+  source: 'LEAN DISCOVERY AID, <=180 words, whose job is to link to the products.
+    Verified facts available without further research: Swiss company, Stratpharma
+    AG, FDA establishment registration under its own name with product code NAD (''Dressing,
+    Wound, Occlusive''), listing created 2011-09-06, proprietary names Stratamed,
+    Stratacel, StrataXRT, StrataGRT, StrataCTX and StrataMGT; NO 510(k) exists for
+    the applicant (two indexed openFDA queries, both NOT_FOUND) because 878.4020 is
+    class I and exempt. Its own site describes it as specialising in ''topical medical
+    devices'' across dermatology, plastic surgery, burn care, radiation and oncology
+    supportive care, women''s health, and wound and scar management (attribute as
+    the brand''s own). The ONLY product page that exists so far is [[stratacel-film-forming-dressing]];
+    Stratamed and Strataderm are queued. Do NOT write a founding-history or positioning
+    essay. The honest structural note worth one clause is that the whole range is
+    regulated as 510(k)-exempt class I dressings rather than cleared devices, which
+    [[fda-approved-vs-cleared-skincare]] already explains.'

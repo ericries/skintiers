@@ -4564,7 +4564,7 @@
 - name: Stratacel film-forming dressing
   type: product
   priority: 3
-  status: pending
+  status: done
   discovered_from: post-ablative-laser-aftercare
   source: 'The semipermeable film-forming dressing tested against spring thermal water
     plus Vaseline after full-face fractional CO2 resurfacing in PMID 28662298. Low
@@ -5629,3 +5629,38 @@
     \ consistent. sk find returns no dedicated page; nearest is revive-light-therapy-led-cleansing-system\
     \ at 73, a DIFFERENT device (its own clearances are K180447 OLP and K221430 OHS)\
     \ \u2014 do not merge them."
+- name: Stratamed film-forming wound dressing (Stratpharma)
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: stratacel-film-forming-dressing
+  source: 'Sibling of [[stratacel-film-forming-dressing]]; read that page first and
+    do not repeat its regulatory section, just link it. Grounded in Stratpharma''s
+    own product page (cached: https://stratpharma.com/our-products/): Stratamed is
+    positioned for use ''immediately following medical and aesthetic procedures, on
+    acute or chronic wounds and compromised skin surfaces'' and is claimed to have
+    ''a special consistency to ensure it remains in full contact with the wound bed
+    or damaged surface'' (the brand''s own words, attribute them). Same FDA posture
+    as Stratacel: listed under product code NAD, 878.4020, class I, 510(k)-exempt,
+    no clearance file - verified for the applicant as a whole, not re-verified per
+    product, so CONFIRM the proprietary name is in the Stratpharma AG registration
+    listing before repeating it. THE WORK IS FINDING PRODUCT-SPECIFIC EVIDENCE: search
+    PubMed for Stratamed trials specifically rather than borrowing Stratacel''s; if
+    none exists, the honest page says so and grades unknown.'
+- name: Strataderm silicone scar therapy gel (Stratpharma)
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: stratacel-film-forming-dressing
+  source: 'This is the SCAR product, a different claim from [[stratacel-film-forming-dressing]]''s
+    post-procedure dressing claim, so the evidence base is the silicone-gel-for-scars
+    literature rather than Stratacel''s two trials. Grounded in Stratpharma''s own
+    product page (cached: https://stratpharma.com/our-products/), which calls Strataderm
+    a ''Scar therapy gel'' and ''once-p...'' (the sentence is truncated in the cached
+    extract, so RE-FETCH the sentence before quoting it). Note the UK registration
+    listing that carries these brand names uses product code PFP, ''Silicone Hydrogel
+    For Scar Management'', 878.4025, class I, whose FDA definition is ''Management
+    of closed hyperproliferative (hypertrophic and keloid) scars'' - check which code
+    Strataderm itself sits under, since that is a tighter indication than NAD and
+    worth stating. Link silicone-for-scars evidence out to [[mederma-advanced-scar-gel]]
+    and [[polysilicone-15]] rather than re-arguing it.'

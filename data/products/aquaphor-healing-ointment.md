@@ -83,6 +83,8 @@ The Drug Facts label warns against use on deep or puncture wounds, animal bites,
 
 Other petrolatum-based barrier products: [[petrolatum]], [[cerave-moisturizing-cream]].
 
+As a post-procedure comparator it is the control arm in the one randomised trial of [[stratacel-film-forming-dressing]], which reported less erythema than Aquaphor after fractional radiofrequency microneedling; the aftercare decision is on [[post-ablative-laser-aftercare]].
+
 ## Common Marketing Claims
 
 - **"#1 dermatologist recommended brand for dry, cracked skin."** A claim on Beiersdorf's own product page; no independent survey was found to corroborate it.[^3]

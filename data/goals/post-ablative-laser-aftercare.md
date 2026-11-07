@@ -82,7 +82,7 @@ Ablative resurfacing leaves an open wound, and the question people actually ask 
 
 ## See Also
 
-[[fractional-co2-laser-resurfacing]], [[petrolatum]], [[aquaphor-healing-ointment]], [[panthenol]], [[skin-barrier-repair]], [[hyperpigmentation]], [[sunscreen-uv-filters]], [[retinaldehyde]], [[monteil-2025-retinaldehyde-niacinamide-cream-post-procedure-rejuvenation-rct]], [[karimi-2025-neurocosmetic-post-procedure-cream]].
+[[fractional-co2-laser-resurfacing]], [[petrolatum]], [[aquaphor-healing-ointment]], [[panthenol]], [[skin-barrier-repair]], [[hyperpigmentation]], [[sunscreen-uv-filters]], [[retinaldehyde]], [[monteil-2025-retinaldehyde-niacinamide-cream-post-procedure-rejuvenation-rct]], [[karimi-2025-neurocosmetic-post-procedure-cream]], [[stratacel-film-forming-dressing]].
 
 ## Sources
 

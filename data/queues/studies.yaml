@@ -2042,3 +2042,26 @@
     site can reuse that framing wherever a single-arm pool is cited. The structured
     study-page format should state the absent control group under design rather than
     burying it in limitations. Cited on [[bullous-pemphigoid]].'
+- name: Gold 2019 Stratacel vs Aquaphor after fractional RF microneedling (PMID 30756451)
+  type: study
+  priority: 3
+  status: pending
+  discovered_from: stratacel-film-forming-dressing
+  source: 'ALREADY RESOLVED AND PARTLY EXTRACTED on [[stratacel-film-forming-dressing]],
+    so this is a compact structured record, not new research. PMID 30756451 (resolved
+    from DOI 10.1111/jocd.12872 via esearch; the brand''s reference page gives no
+    PMID). J Cosmet Dermatol 2019 Apr;18(2):524-529, epub 2019-02-12. Gold MH, Biron
+    J, Thompson B, Tennessee Clinical Research Center, Nashville. Randomised single-blinded
+    crossover, n=20, full-face fractional radiofrequency microneedling with the Endymed
+    PRO Intensif handpiece; Stratacel vs Aquaphor applied immediately post-procedure
+    and daily; assessed at baseline, 2, 3 and 7 days with digital and Antera 3D imaging.
+    Primary reported result: erythema significantly reduced at every visit, P < 0.001;
+    patient-rated product properties P = 0.008; all patients healed without adverse
+    reactions. NO FREE FULL TEXT - PubMed''s PMC links for this record are citing
+    articles only, so the abstract is all that was read, and the full text would be
+    the one thing that could settle whether any downtime duration was measured (the
+    brand cites this study for ''Reduces downtime by half''). Generalises to post-microneedling
+    erythema in a single US private research site. Key limitation: n=20, one site,
+    no funding or conflict statement in the abstract, and the first author''s surname
+    and city match a testimonial on the product''s own website. Do NOT re-tell the
+    silicone-dressing story; link to [[stratacel-film-forming-dressing]] and [[post-ablative-laser-aftercare]].'
