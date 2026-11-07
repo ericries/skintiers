@@ -53,6 +53,16 @@ this line). Do NOT "correct" it back to a real number; a
 new upload is Track 1's job, not Track 2's. A proper `backfill_done: true` flag
 would be clearer and is still unbuilt.
 
+Parked 2026-11-07: Jen Novakovich (The Eco Well), cursor 45 against a 12-video
+`/videos` tab, all 12 already carded. Worth recording because her case has a
+second layer the Aamna Adel case did not: a `ytsearch` for the channel surfaces
+many more Eco Well uploads that the `/videos` tab does not list, and they are
+almost entirely e-summit and panel recordings. Those are her own paid product,
+named in her roster conflict, so they are excluded from carding on their own
+terms rather than merely missing. The tab being empty and the catalog being
+genuinely mined out happen to coincide here; do not reopen her on the strength
+of a search result.
+
 ## The subtitle 429 is bypassable: pass browser cookies
 
 Before deferring anything for a 429, try cookies. `yt_transcript.py` honours
