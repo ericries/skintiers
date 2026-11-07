@@ -4688,7 +4688,7 @@
 - name: Tanda Mini (K124042, blue-light acne handheld)
   type: product
   priority: 3
-  status: pending
+  status: done
   discovered_from: dpl-iia-panel
   source: openFDA K124042, one of the three handheld blue-light acne predicates named
     in the dpl IIa Panel filing, with a treatment area of 3.37 cm2 and a regimen of
@@ -4699,6 +4699,8 @@
     site inherit their acne equivalence from filings like this one without any of
     them publishing a study. Drop the item if the file turns out to be a Statement
     that publishes nothing.
+  resolved_reason: 'auto-reconciled: a product page already exists for ''Tanda Mini
+    (K124042, blue-light acne handheld)'' (queue_reconcile)'
 - name: El Global Trade DeepSkin DEP100 (K252621)
   type: product
   priority: 4
@@ -5789,3 +5791,21 @@
     by skin type. Her own efficacy language (''amazing when it comes to actually healing
     a barrier'') is a personal endorsement, not evidence, and must not be relayed
     as fact. Route barrier evidence to [[skin-barrier-repair]] and dryness to [[dry-skin]].'
+- name: Claim each clearance page's own K number as an alias
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: tanda-mini-skincare-system
+  source: 'NOT A NEW PAGE. A bounded data sweep that makes the new identifier dedup
+    actually bite. Today''s fix only fires when a page CLAIMS its K number in aliases,
+    and most device pages do not: of the pages checked on 2026-11-07, dpl-therapy-system,
+    theraface-led-light-ring, illumask-acne-light-therapy-mask and tria-fanp-age-defying-laser
+    carry theirs while tanda-mini-skincare-system did not until I added it. ACTION:
+    for each page under data/products whose subject IS a cleared device, add that
+    device''s OWN K number to aliases, and ONLY its own. Do NOT add predicate or sibling
+    K numbers; that is precisely the error that makes rows like ''TheraFace Mask (K230293,
+    predicate K212155)'' look like duplicates. ONE PAGE NEEDS CHECKING RATHER THAN
+    COPYING: data/goals/home-fractional-nonablative-laser.md lists K141868 in its
+    aliases although it is a goal hub, not that device, which is the same class of
+    mistake in reverse and will cause false matches. Verify each K number against
+    the page''s own footnotes before adding it, and change nothing else.'

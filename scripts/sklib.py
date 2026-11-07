@@ -1130,6 +1130,87 @@ def _slugify(text):
     return re.sub(r"[^a-z0-9]+", "-", t).strip("-")
 
 
+# Regulatory and literature identifiers that uniquely name a thing: an FDA
+# 510(k) number and a PubMed id. Both are exact tokens, which is why they are
+# safe to resolve individually where a descriptive name is not.
+_IDENTIFIER_RES = (
+    re.compile(r"\bK\d{6}\b"),
+    re.compile(r"\bPMID[:\s]*(\d{7,8})\b", re.I),
+)
+
+
+def _identifiers_in(name):
+    """Every regulatory/literature identifier mentioned in a queue name.
+
+    A PubMed id is emitted in the repo's own alias spelling, "PMID 30756451",
+    as well as bare, because study pages carry the prefixed form in `aliases:`
+    and find_entities matches aliases literally."""
+    out = []
+    for rx in _IDENTIFIER_RES:
+        for m in rx.finditer(name or ""):
+            if m.groups():                      # PMID: group(1) is the number
+                forms = ["PMID " + m.group(1), m.group(1)]
+            else:
+                forms = [m.group(0).upper()]
+            for tok in forms:
+                if tok not in out:
+                    out.append(tok)
+    return out
+
+
+def _identifier_identifies_existing_page(data_dir, name, type):
+    """True when a queue name's identifier really is an existing page's identity.
+
+    A queue name mentions identifiers for several reasons, and only one of them
+    means "this page already exists". Run loose against the live queues on
+    2026-11-07, matching any identifier matched 9 pending rows and 4 were wrong:
+
+      "TheraFace Mask (K230293, ... K212155 ...)"   cites its PREDICATE, which
+                                                    another page owns
+      "Tria FRX ... (K141868, K130459)"             cites a SIBLING model
+      "illuMask Anti-Aging ... (K123999 sibling)"   says sibling in so many words
+      "Sweep the footnotes ... for K180445"         is a maintenance task, not a
+                                                    page request
+
+    So two conditions, both required:
+
+      1. Exactly ONE identifier in the name. More than one means the row is
+         relating devices to each other, which is the predicate/sibling shape.
+      2. The name with parentheticals stripped must independently resolve to
+         the SAME page at >= 80 (find_entities' "all tokens present" grade), so
+         the words have to agree too, not just the number.
+
+    This is deliberately lossy. "dpl Therapy System (K081570, ...)" is a true
+    duplicate that scores 74 and therefore stays pending. A stale row costs one
+    tick; a false close silently discards real work under a reason that claims
+    the page exists. The cheaper mistake wins.
+    """
+    idents = _identifiers_in(name)
+    # _identifiers_in emits a PMID twice (prefixed and bare); collapse to the
+    # distinct underlying ids before counting.
+    distinct = {i.upper().replace("PMID ", "") for i in idents}
+    if len(distinct) != 1:
+        return False
+    stripped = _PAREN_RE.sub(" ", name).strip()
+    try:
+        id_hits = find_entities(idents[0], data_dir=data_dir, typ=type, limit=3)
+        name_hits = find_entities(stripped, data_dir=data_dir, typ=type, limit=3)
+    except Exception:
+        return False
+    owners = {h.get("slug") for h in id_hits
+              if h.get("score", 0) >= PAGE_IDENTITY_MATCH_SCORE}
+    if not owners:
+        return False
+    return any(h.get("slug") in owners and h.get("score", 0) >= IDENTIFIER_NAME_AGREEMENT_SCORE
+               for h in name_hits)
+
+
+# find_entities grade required of the WORDS when an identifier already points at
+# a page: 80 is its "all tokens present" rung. Below that the row is naming some
+# other device that merely cites the same filing.
+IDENTIFIER_NAME_AGREEMENT_SCORE = 80
+
+
 def page_exists_for(data_dir, name, type):
     """Dedup guard: True if a data page probably already exists for this queued name.
 
@@ -1161,7 +1242,19 @@ def page_exists_for(data_dir, name, type):
         hits = find_entities(name, data_dir=data_dir, typ=type, limit=3)
     except Exception:
         return False   # a resolver problem must never block queueing work
-    return any(h.get("score", 0) >= PAGE_IDENTITY_MATCH_SCORE for h in hits)
+    if any(h.get("score", 0) >= PAGE_IDENTITY_MATCH_SCORE for h in hits):
+        return True
+    # Resolving the whole name misses the row that is a page's own regulatory
+    # identifier wearing different words. "Tanda Mini (K124042, blue-light acne
+    # handheld)" scores 69 against "Tanda Mini Skincare System", so it reached
+    # the queue head six days after that page was written from K124042 in full;
+    # the same shape produced a duplicate of K180445 the day before. Resolve
+    # each identifier in the name on its own.
+    #
+    # Two guard rails, both learned by running the loose version against the
+    # real queues on 2026-11-07, where it matched 9 rows and 4 of those were
+    # wrong. See _identifier_identifies_existing_page.
+    return _identifier_identifies_existing_page(data_dir, name, type)
 
 
 # find_entities score at or above which a hit is treated as the SAME entity.
@@ -1410,7 +1503,20 @@ def queue_reconcile(data_dir, dry_run=False):
             cands = {_norm(name), _norm(_PAREN_RE.sub(" ", name))}
             cands.discard("")
             if not (cands & keys):
-                continue
+                # Fall back to the identifier test the single-row guard uses, so
+                # the sweep keeps the agreement its docstring promises. It is
+                # strict on purpose; see _identifier_identifies_existing_page.
+                #
+                # That test calls find_entities, which walks the whole tree, so
+                # it is gated behind a cheap index lookup first. Without the
+                # gate a sweep over ~1,200 rows made ~2,400 tree walks and blew
+                # a 600s timeout, which is exactly how this function's first
+                # version failed on 2026-11-06.
+                idents = _identifiers_in(name)
+                if not any(_norm(i) in keys for i in idents):
+                    continue
+                if not _identifier_identifies_existing_page(data_dir, name, typ):
+                    continue
             closed += 1
             if dry_run:
                 continue

@@ -1,6 +1,7 @@
 ---
 aliases:
 - Tanda Mini Skincare System
+- K124042
 - Tanda Clear
 - Tanda acne light
 - Tanda Skincare System
