@@ -256,6 +256,16 @@ videos:
   related: [retinol, skin-barrier-repair, ceramides, retinoids, acne]
   thesis: 'Esthetician Jenn Lexi describes how she restarted tretinoin after two years of what she calls destroying her skin with it, and the first step is the one most people will not want: she stopped using it entirely. Her account is that the barrier damage had to heal fully, meaning no redness, no irritation and no stinging from other products, before tretinoin could be reintroduced, and that this meant deliberately ignoring her acne and texture in the meantime. In between she simplified to a gentle cleanser, a fragrance free hydrating toner, a moisturizer with ceramides, cholesterol and fatty acids, and morning sunscreen, then rebuilt tolerance with a retinol at widening intervals of every seven, then five, then three days. This is personal experience from an esthetician rather than trial evidence, she names no products, and it is explicitly part one of two.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: 'Part 2: How to get tretinoin to ACTUALLY work for your skin'
+  creator: Jenn Lexi (@jennlexi_)
+  creator_slug: jennlexi
+  credential: Esthetician (self-identified); not a dermatologist or cosmetic chemist
+  platform: TikTok
+  url: https://www.tiktok.com/@jennlexi_/video/7704146169735154958
+  posted: '2026-11-05'
+  related: [retinoids, tretinoin-0-025-cream, retinoids-by-potency-ranked]
+  thesis: Esthetician Jenn Lexi completes the account she began in part one, covering the reintroduction of tretinoin itself after an earlier attempt left her skin too sore to continue. She stepped up on a weaker retinoid first, then switched to the lowest tretinoin strength, 0.025 percent. She went once every seven days, then every five, then every three, kept a single unchanged routine of gentle cleanser, hydrating toner, barrier repairing moisturiser and morning sunscreen, and used the sandwich method of moisturiser before and after the tretinoin, settling at once every three to four days. She adds that she only introduced vitamin C and a chemical exfoliant once that routine was stable, and presents all of it as her own experience rather than a tested protocol.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

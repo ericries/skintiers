@@ -16163,7 +16163,8 @@
   conflict: Promotes her own curated product box, Dermy Doc Box (@dermy.doc.box), with link-in-bio callouts in the caption tail (observed 2026-10-29 on clip 7686867010508164366, posted 2026-09-18) - treat her product picks and seasonal recommendations as own-product promotion
   posted: '2026-11-06'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: promotional clip for a resurfacing laser service the creator sells at her own practice (UltraClear), with efficacy claims and a book-with-us call to action; not education
 - id: -30KAXlQ33o
   title: Daniela, your skincare routine lowkey ruined my day 😭 💔
   creator: Hyram (Skincare by Hyram)
@@ -16189,7 +16190,8 @@
   conflict: Founder & CEO of own hair-care brand, BLCK Hair Care (@blckhaircare), promoted in her Instagram bio — a product-formulation/owners
   posted: '2026-11-06'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: no English transcript available, so nothing can be read or quoted; the caption is also a clinic-booking promo for the creator's own practice
 - id: '7704446462297525518'
   title: 'What is it and why does it happen? #collagen #elastin #weightloss #an...'
   creator: Jenn Lexi (@jennlexi_)
