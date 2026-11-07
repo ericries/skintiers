@@ -690,7 +690,7 @@
     it)
   type: goal
   priority: 4
-  status: pending
+  status: done
   discovered_from: dpl-therapy-system
   source: 'A boundary the site documents nowhere and that this tick made concrete:
     FDA reviews infrared HEATING lamps and LED SKIN devices under different product

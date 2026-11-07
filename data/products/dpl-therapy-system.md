@@ -79,7 +79,7 @@ Not addressed here. The device dates from 2008 and no current listing was fetche
 
 ## See Also
 
-[[dpl]], [[dpl-nuve]], [[dpl-ii-panel]], [[dpl-iia-panel]], [[dpl-spectralite]], [[dpl-faceware]], [[dpl-spotlite]], [[home-led-light-therapy]], [[home-led-devices-by-what-the-file-publishes]], [[fda-approved-vs-cleared-skincare]].
+[[dpl]], [[dpl-nuve]], [[dpl-ii-panel]], [[dpl-iia-panel]], [[dpl-spectralite]], [[dpl-faceware]], [[dpl-spotlite]], [[home-led-light-therapy]], [[home-led-devices-by-what-the-file-publishes]], [[fda-approved-vs-cleared-skincare]], [[infrared-heat-lamps-vs-led-skin-devices]].
 
 ## Sources
 

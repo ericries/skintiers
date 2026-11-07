@@ -48,7 +48,7 @@ Every home LED device here is FDA-cleared, and clearance is not the question thi
 
 ## See Also
 
-[[home-led-light-therapy]], [[led-colours-for-acne-by-evidence]], [[led-dose-j-per-cm2-and-wavelength]], [[fda-approved-vs-cleared-skincare]], [[revive-light-therapy-lux-lip-care]], [[dpl-spotlite]], [[foreo-espada-blue-light-pen]], [[foreo-faq-led-masks]], [[home-use-skincare-devices-by-evidence]].
+[[home-led-light-therapy]], [[led-colours-for-acne-by-evidence]], [[led-dose-j-per-cm2-and-wavelength]], [[fda-approved-vs-cleared-skincare]], [[revive-light-therapy-lux-lip-care]], [[dpl-spotlite]], [[foreo-espada-blue-light-pen]], [[foreo-faq-led-masks]], [[home-use-skincare-devices-by-evidence]], [[infrared-heat-lamps-vs-led-skin-devices]].
 
 ## Sources
 

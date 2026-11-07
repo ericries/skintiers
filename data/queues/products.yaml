@@ -5574,3 +5574,58 @@
     apply: resolve the INCI before drafting, and disclose the [[brooke-jeffy]] own-brand
     link. Close this rather than draft from marketing copy if the composition cannot
     be established.'
+- name: reVive Perioral (LED Technologies)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: home-led-devices-by-what-the-file-publishes
+  source: "GROUNDED IN A RECORD ALREADY CITED ON THE SITE, NOT A GUESS: the openFDA\
+    \ device/510k query by applicant 'LED Technologies' quoted in footnote [^openfda]\
+    \ on data/lists/home-led-devices-by-what-the-file-publishes.md returns 15 records,\
+    \ and 'reVive Perioral' is one of the device names in that set. sk find 'reVive\
+    \ Perioral' returns no page (nearest is the condition perioral-dermatitis at 69,\
+    \ a false lead). START by querying openFDA device/510k for that device name to\
+    \ get the K number, applicant spelling and product code; do NOT assume the code\
+    \ is OHS because its siblings are. Then read the 510(k) Summary from FDA's archive\
+    \ (needs a browser user-agent) and string-search it for irradiance, wavelength\
+    \ and any clinical result, because the ABSENCE of those is the recurring finding\
+    \ across this family. Route evidence to [[home-led-light-therapy]] and disclosure\
+    \ to [[home-led-devices-by-what-the-file-publishes]]; if the code is not OHS,\
+    \ it also belongs in [[infrared-heat-lamps-vs-led-skin-devices]]. K NUMBER AND\
+    \ CODE NOW VERIFIED, so do not re-query for them: K172662, 'reVive Perioral',\
+    \ Led Technologies, Inc., decision 2018-01-09, product code OHS (openFDA device/510k\
+    \ by applicant 'LED Technologies', 2026-11-06). WHAT IS LEFT is the page itself,\
+    \ and the catch is that K172662 is ALREADY cited on eleven existing pages including\
+    \ data/lists/home-led-devices-by-what-the-file-publishes.md, data/goals/led-dose-j-per-cm2-and-wavelength.md,\
+    \ data/products/dpl-ii-panel.md and data/brands/revive-light-therapy.md \u2014\
+    \ several of them because this filing is one of the few in the family that publishes\
+    \ an output figure. So READ WHAT THOSE PAGES ALREADY SAY ABOUT K172662 FIRST and\
+    \ make the product page consistent with them; a contradiction here would be visible\
+    \ on a dozen pages. sk find 'reVive Perioral' returns no page (nearest is the\
+    \ condition perioral-dermatitis at 69). Route evidence to [[home-led-light-therapy]]\
+    \ and disclosure to [[home-led-devices-by-what-the-file-publishes]]."
+- name: reVive Light Therapy LED Ultrasonic Wrinkle System (LED Technologies)
+  type: product
+  priority: 6
+  status: pending
+  discovered_from: home-led-devices-by-what-the-file-publishes
+  source: "GROUNDED THE SAME WAY as the reVive Perioral item: this device name is\
+    \ in the 15-record openFDA device/510k set for applicant 'LED Technologies' quoted\
+    \ in footnote [^openfda] on data/lists/home-led-devices-by-what-the-file-publishes.md.\
+    \ sk find returns no page; the nearest match is revive-light-therapy-led-cleansing-system\
+    \ at 73, a DIFFERENT cleared device, so do not merge them. The question worth\
+    \ answering is which mechanism the clearance actually covers when one filing couples\
+    \ LED with ultrasonic, and whether the Summary publishes a dose for either. Query\
+    \ openFDA for the K number and product code before writing anything. Same routing\
+    \ as the rest of the family. K NUMBER AND CODE NOW VERIFIED: K180445, decision\
+    \ 2018-05-15, product code OHS, applicant Led Technologies, Inc. (openFDA device/510k\
+    \ by applicant 'LED Technologies', 2026-11-06). Note that OHS is the WRINKLE code,\
+    \ not an ultrasound code, which is itself the story: the name couples LED with\
+    \ ultrasonic but the classification FDA reviewed it under is light-based wrinkle\
+    \ reduction. Check the Summary for what it says about the ultrasonic element and\
+    \ whether any dose is published for either mechanism. K180445 is already cited\
+    \ on seven existing pages including data/products/revive-light-therapy-led-cleansing-system.md\
+    \ and data/brands/revive-light-therapy.md, so read those before writing and stay\
+    \ consistent. sk find returns no dedicated page; nearest is revive-light-therapy-led-cleansing-system\
+    \ at 73, a DIFFERENT device (its own clearances are K180447 OLP and K221430 OHS)\
+    \ \u2014 do not merge them."
