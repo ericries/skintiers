@@ -35,7 +35,7 @@ name: reVive Light Therapy LED Cleansing System
 slug: revive-light-therapy-led-cleansing-system
 status: published
 type: product
-updated: '2026-10-18'
+updated: '2026-11-07'
 ---
 
 The reVive LED Cleansing System is the device at the root of this brand's clearance chain, and reading its two filings closes a question the rest of the reVive pages left open. **Bottom line:** it is one trade name holding two clearances with opposite purposes, and both say in the same words that their conclusions rest on nonclinical tests.[^k445][^k447] Category evidence is on [[home-led-light-therapy]], the maker on [[revive-light-therapy]].
@@ -45,6 +45,8 @@ The reVive LED Cleansing System is the device at the root of this brand's cleara
 ## Summary
 
 Two clearances, one name, in 2018. **K180447** covers an OTC device "intended for use in treatment of mild to moderate inflammatory acne" with "two types of LEDs: 630nm red and 415nm blue".[^k447] **K180445** covers an OTC device "intended for use in treating wrinkles" using "four types of LEDs: 605nm amber, 630nm red, 660nm red, and 880nm infrared", with no blue at all.[^k445] Different filings, different product codes, different wavelengths, same trade name on the box. A third clearance from 2022 carries the name as well.[^openfda]
+
+**One correction worth recording: openFDA has the wrong name for K180445.** Its 510(k) index gives the device name as "reVive Light Therapy LED Ultrasonic Wrinkle System", and a search of that index for the words ultrasonic wrinkle returns this filing and nothing else.[^namefix] The clearance document says otherwise at every point it names the device: the FDA letter heads it "Trade/Device Name: reVive Light Therapy LED Cleansing System", and the Summary gives the same name as both common and proprietary name.[^k445] The word ultrasonic does not appear anywhere in the file.[^namefix] There is no separate ultrasonic wrinkle device to look for; the ultrasonic-sounding part of this one is a cleansing brush, and the clearance is for wrinkles. The index is a convenience, the file is the record, and where they disagree this site follows the file.
 
 ## The Rubric
 
@@ -95,3 +97,5 @@ Not available under this name. The brand's current range is listed on [[revive-l
 [^shop]: revive-light-therapy.com shop-all collection page, fetched and cached locally 2026-10-18 (research-cache/web). Page title "Shop All LED Light Therapy Devices - Shop reVive's Light Therapy Devices". Current range and listed prices read from the page's own product tiles: Lux Panel $399.00, Lux Soniqué $199.00, Lux Soniqué Mini $129.00, Lux Glō $79.00, Lux Clinical $199.00, Lux Spot $39.00, Lux Lip Care $99.00. The phrase "cleansing system" appears once on the page, in generic category prose about "sonic cleansing systems", not as a product name; no tile is named LED Cleansing System. Cited as the brand's own current listing, not as evidence of efficacy. https://revive-light-therapy.com/collections/all (accessed 2026-10-18)
 
 [^home]: Raef HS, Gaumond SI, Geisler AN, Eber AE. "Home-Based Dermatologic Devices for Acne and Rejuvenation: Evidence-Based Insights." Dermatologic Surgery. 2026 Aug 4, online ahead of print. doi: 10.1097/DSS.0000000000005252. PMID 42545315. Quotes used: "For acne, blue light-emitting diodes (LED) and combination blue-red LED devices demonstrated moderate quality evidence (Level B) with favorable safety profiles and Grade I recommendations." Grades MODALITIES and does not test or name this product. Full treatment on [[home-led-light-therapy]]. Only the PubMed abstract was accessed. https://pubmed.ncbi.nlm.nih.gov/42545315/ (accessed 2026-10-12)
+
+[^namefix]: openFDA device/510k API and the FDA clearance document, both checked on 2026-11-07. The openFDA record for k_number K180445 returns device_name "reVive Light Therapy LED Ultrasonic Wrinkle System" with applicant "Led Technologies, Inc.", city Greenwood Village, state CO, date received 2018-02-20, decision date 2018-05-15, product code OHS, clearance type "Traditional", statement_or_summary "Summary". A device_name query for "ultrasonic wrinkle" against the same index returns exactly one record, this one. The clearance document retrieved for the same K number names the device "reVive Light Therapy LED Cleansing System" in the FDA letter heading and at Summary items 2.2 Common/usual name and 2.3 Proprietary Names. Checked by case-insensitive string search of the full extracted text on 2026-11-07, the document contains zero occurrences of ultrasonic. Which of the two is in error is not something this page can establish; what is verifiable is that they disagree, and that the document is the one FDA issued. https://api.fda.gov/device/510k.json?search=k_number:%22K180445%22 (accessed 2026-11-07)

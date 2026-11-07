@@ -802,3 +802,15 @@
     essay. The honest structural note worth one clause is that the whole range is
     regulated as 510(k)-exempt class I dressings rather than cleared devices, which
     [[fda-approved-vs-cleared-skincare]] already explains.'
+- name: Zero Gravity (Omm Imports Inc)
+  type: brand
+  priority: 6
+  status: pending
+  discovered_from: revive-light-therapy-led-cleansing-system
+  source: 'LEAN DISCOVERY AID, <=180 words, only worth writing once [[perfectio-led-infrared-device-k152332-zero-gravity]]
+    or whatever that page ends up slugged as exists; its job is to link to the product.
+    Verified without further research: FDA 510(k) applicant string is ''Omm Imports
+    Inc Dba Zero Gravity'', K152332, decision 2016-02-25, product code OHS (openFDA,
+    2026-11-07). Everything else needs checking against the brand''s own site, and
+    any positioning claim must be attributed to the brand. Do not write a founding-history
+    essay.'

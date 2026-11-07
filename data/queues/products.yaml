@@ -4636,7 +4636,7 @@
 - name: reVive Light Therapy LED Ultrasonic Wrinkle device (K180445)
   type: product
   priority: 3
-  status: pending
+  status: done
   discovered_from: dpl-spectralite
   source: 'openFDA K180445, LED Technologies, decision 2018-05-15, product code OHS.
     A combination device (LED plus ultrasonic) under the reVive brand name, which
@@ -4645,7 +4645,18 @@
     the ultrasonic element as a separate mechanism with its own testing or folds it
     into the LED equivalence argument. Read the Summary before committing; drop the
     item if it turns out to be LED-only with a cosmetic housing change. accessdata.fda.gov
-    route.'
+    route. MERGED IN a duplicate row I added on 2026-11-06 (''reVive Light Therapy
+    LED Ultrasonic Wrinkle System (LED Technologies)'', priority 6, from home-led-devices-by-what-the-file-publishes)
+    which this older row already covered. Nothing was lost; the extra context from
+    it is: the name is also in the 15-record openFDA device/510k set for applicant
+    ''LED Technologies'' cited in footnote [^openfda] on data/lists/home-led-devices-by-what-the-file-publishes.md;
+    sk find returns no dedicated page and the nearest match, revive-light-therapy-led-cleansing-system
+    at 73, is a DIFFERENT device with its own clearances K180447 (OLP) and K221430
+    (OHS), so do not merge them; and K180445 is already cited on seven existing pages,
+    so read those and stay consistent before writing. The point worth making on the
+    page is that OHS is the light-based WRINKLE code, not an ultrasound code, so check
+    what the Summary says the ultrasonic element does and whether any dose is published
+    for either mechanism.'
 - name: Lotrimin AF cream (miconazole nitrate 2%)
   type: product
   priority: 4
@@ -5607,7 +5618,7 @@
 - name: reVive Light Therapy LED Ultrasonic Wrinkle System (LED Technologies)
   type: product
   priority: 6
-  status: pending
+  status: done
   discovered_from: home-led-devices-by-what-the-file-publishes
   source: "GROUNDED THE SAME WAY as the reVive Perioral item: this device name is\
     \ in the 15-record openFDA device/510k set for applicant 'LED Technologies' quoted\
@@ -5664,3 +5675,45 @@
     Strataderm itself sits under, since that is a tighter indication than NAD and
     worth stating. Link silicone-for-scars evidence out to [[mederma-advanced-scar-gel]]
     and [[polysilicone-15]] rather than re-arguing it.'
+- name: Sweep the four remaining footnotes that repeat openFDA's phantom device name
+    for K180445
+  type: product
+  priority: 7
+  status: pending
+  discovered_from: revive-light-therapy-led-cleansing-system
+  source: 'NOT A NEW PAGE. A bounded correction sweep, finished in one pass. Four
+    published pages still enumerate openFDA''s device_name list for applicant ''LED
+    Technologies'' including the phantom ''reVive Light Therapy LED Ultrasonic Wrinkle
+    System'': data/products/dpl-spotlite.md, data/products/revive-light-therapy-lux-spot.md
+    (two places, lines ~61 and ~85), data/products/revive-light-therapy-lux-sonique.md
+    and data/products/revive-light-therapy-lux-clinical.md. EACH IS INDIVIDUALLY ACCURATE
+    because each is attributed to an openFDA query, which really does return that
+    string, so this is not an error correction so much as a reader-protection one:
+    taken together they imply a device that does not exist. ACTION: add the same parenthetical
+    already used on data/lists/home-led-devices-by-what-the-file-publishes.md, pointing
+    at [[revive-light-therapy-led-cleansing-system]], which now carries the full finding
+    and the [^namefix] footnote. Do NOT re-research: the clearance document for K180445
+    names the device reVive Light Therapy LED Cleansing System in the FDA letter heading
+    and at Summary items 2.2 and 2.3, and contains zero case-insensitive occurrences
+    of ultrasonic, verified 2026-11-07. Change nothing else on those four pages.'
+- name: Perfectio LED Infrared Device (K152332, Zero Gravity)
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: revive-light-therapy-led-cleansing-system
+  source: 'GROUNDED IN A PREDICATE CHART THE SITE HAS ALREADY READ, so part of the
+    page is written before you start. K152332, device name ''Perfectio LED infrared
+    device'', applicant ''Omm Imports Inc Dba Zero Gravity'', decision 2016-02-25,
+    product code OHS, filed with a Summary (openFDA device/510k, verified 2026-11-07).
+    The predicate chart inside K180445, quoted on [[revive-light-therapy-led-cleansing-system]],
+    publishes its specs directly: wavelengths 633nm and 830nm, treatment area 17 cm2,
+    treatment time 5-7 minutes per treatment area, OTC, indication ''For treatment
+    of periorbital wrinkles''. NOTE THE INDICATION IS NARROWER than the reVive and
+    dpl devices in the same chart, which are cleared for wrinkles generally: this
+    one is periorbital only, and that gap between a narrow clearance and whatever
+    the marketing says is the page''s likely finding. START by fetching the K152332
+    Summary itself from FDA''s archive (needs a browser user-agent) rather than relying
+    on a competitor''s chart, and string-search it for irradiance, mW/cm2 and J/cm2,
+    which is the standard check on [[home-led-devices-by-what-the-file-publishes]].
+    This is a NON-LED-Technologies applicant, so it widens the list beyond one firm.
+    Also queued: the brand, Zero Gravity.'
