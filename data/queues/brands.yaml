@@ -625,7 +625,7 @@
 - name: Omnilux
   type: brand
   priority: 4
-  status: pending
+  status: done
   discovered_from: omnilux-clear-u
   source: 'LEAN discovery aid for a brand with a genuinely unusual disclosure record:
     all 8 Omnilux clearances in openFDA are published as SUMMARIES rather than Statements,
