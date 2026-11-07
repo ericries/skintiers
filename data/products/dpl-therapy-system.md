@@ -32,7 +32,7 @@ name: DPL Therapy System (K081570, the infrared heating lamp the dpl line starte
 slug: dpl-therapy-system
 status: published
 type: product
-updated: '2026-10-28'
+updated: '2026-11-07'
 ---
 
 The first FDA clearance in the dpl line, and it is not a skincare device. **Bottom line:** in 2008 dpl was an infrared lamp cleared for muscle aches and arthritis under the Physical Medicine panel, with no wrinkle or acne claim anywhere in its file. The brand page is [[dpl]]; what the later skin devices claim is on [[dpl-nuve]], [[dpl-ii-panel]] and [[dpl-faceware]].
@@ -79,7 +79,7 @@ Not addressed here. The device dates from 2008 and no current listing was fetche
 
 ## See Also
 
-[[dpl]], [[dpl-nuve]], [[dpl-ii-panel]], [[dpl-iia-panel]], [[dpl-spectralite]], [[dpl-faceware]], [[dpl-spotlite]], [[home-led-light-therapy]], [[home-led-devices-by-what-the-file-publishes]], [[fda-approved-vs-cleared-skincare]], [[infrared-heat-lamps-vs-led-skin-devices]].
+[[dpl]], [[dpl-nuve]], [[dpl-ii-panel]], [[dpl-iia-panel]], [[dpl-spectralite]], [[dpl-faceware]], [[dpl-spotlite]], [[home-led-light-therapy]], [[home-led-devices-by-what-the-file-publishes]], [[fda-approved-vs-cleared-skincare]], [[infrared-heat-lamps-vs-led-skin-devices]], [[dermillume-red-hr1000]].
 
 ## Sources
 

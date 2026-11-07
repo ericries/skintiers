@@ -814,3 +814,19 @@
     2026-11-07). Everything else needs checking against the brand''s own site, and
     any positioning claim must be attributed to the brand. Do not write a founding-history
     essay.'
+- name: Care Electronics, Inc. (Boulder, Colorado)
+  type: brand
+  priority: 7
+  status: pending
+  discovered_from: dermillume-red-hr1000
+  source: 'LEAN DISCOVERY AID, <=180 words, and CHECK FIRST WHETHER IT IS WORTH ONE
+    AT ALL: the firm has exactly one page here, [[dermillume-red-hr1000]], and a brand
+    page whose job is to link to products is thin when there is one product. Verified
+    facts available without research: applicant string ''Care Electronics, Inc.'',
+    Boulder, Colorado, 510(k) K051681 decided 2005-07-27, product code ILY (openFDA,
+    2026-11-07); the 2005 Summary gives the address 4700 Sterling Dr., Suite D and
+    the contact as Thomas Moody, president. START by querying openFDA device/510k
+    for applicant ''Care Electronics'' to see whether other clearances exist; if K051681
+    is the only one and no live brand site is found, CLOSE THIS ITEM rather than writing
+    a page about a company that appears to be gone. An honest close is the right outcome
+    here and costs nothing.'

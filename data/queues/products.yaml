@@ -4719,7 +4719,7 @@
 - name: Dermillume Red HR 1000 (K051681)
   type: product
   priority: 3
-  status: pending
+  status: done
   discovered_from: dpl-therapy-system
   source: '510(k) K051681, the OUTSIDE predicate the entire dpl line traces back to:
     the 2008 DPL Therapy System was cleared as substantially equivalent to ''the Dermillume
@@ -5840,3 +5840,20 @@
   status: done
   discovered_from: silicone-gel-and-sheeting-for-scars
   source: null
+- name: Anodyne Therapy System (K931261, the 1993 infrared lamp predicate)
+  type: product
+  priority: 6
+  status: pending
+  discovered_from: dermillume-red-hr1000
+  source: 'GROUNDED IN A PREDICATE LIST THE SITE HAS NOW READ: named as one of five
+    predicate lamps in the K051681 Summary, which is covered on [[dermillume-red-hr1000]].
+    CAUTION ON THE K NUMBER: the 2005 document is a degraded scan whose predicate
+    numbers extracted with stray spaces and brackets, so K931261 is as-read and NOT
+    verified; confirm it against openFDA by applicant or device name BEFORE citing
+    it, and if it does not resolve, say so rather than guessing. Anodyne is interesting
+    because it pushes the chain back to 1993, well before any consumer LED skincare
+    device, and because the firm later became known for diabetic neuropathy claims,
+    which would be a non-skin indication; check what the cleared indication actually
+    is before deciding this belongs on a skincare site at all. The no-published-dose
+    finding is already made on [[dermillume-red-hr1000]] and [[home-led-devices-by-what-the-file-publishes]];
+    do not re-argue it, test whether this older file is the same or different.'

@@ -9,7 +9,7 @@ name: Infrared heat lamps versus LED skin devices
 slug: infrared-heat-lamps-vs-led-skin-devices
 status: published
 type: goal
-updated: '2026-11-06'
+updated: '2026-11-07'
 ---
 
 Two kinds of device glow red and are sold with overlapping language, and the FDA treats them as different things entirely: one is a heating lamp reviewed by the Physical Medicine panel, the other is a skin device reviewed by General and Plastic Surgery. Knowing which you are looking at tells you what it was actually cleared to do.
@@ -36,7 +36,7 @@ The practical consequence for a buyer is narrow but real: if a device's clearanc
 
 ## See Also
 
-- [[dpl-therapy-system]], the ILY heating lamp the dpl line began as
+- [[dpl-therapy-system]], the ILY heating lamp the dpl line began as, and [[dermillume-red-hr1000]], the 2005 LED array under the same code that predicates it
 - [[dpl-ii-panel]], [[theraface-led-light-ring]] and [[revive-light-therapy-wrinkle-and-acne-led-device]], all cleared under OHS
 - [[home-led-devices-by-what-the-file-publishes]] and [[home-led-light-therapy]] for disclosure and evidence, which this page does not cover
 - [[fda-approved-vs-cleared-skincare]] for what clearance means at all
