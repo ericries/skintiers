@@ -535,3 +535,63 @@
   note: 'Brand handle, not a creator: Dear (Klairs) and Dr.Althea are skincare brands tagged in the source
     video description, not people. Harvested by mine_referrals 2026-11-02; marked rejected so the weekly
     vetting cron does not spend a pass on them.'
+- name: Remedy
+  channel_url: https://www.youtube.com/@Remedy
+  hits: 1
+  topics:
+  - referral
+  discovered_via: 'referral: https://www.tiktok.com/@your.estie.ella/video/7705109973407206670'
+  status: skipped
+  resolved_reason: 'not a creator: the referral miner read product and retailer hashtags from the caption
+    as creator handles. Remedy, cocokind, byoma and haruharu are skincare BRANDS whose products the video
+    names, and target is the retailer it was filmed in. Brand channels are explicitly out of scope for
+    carding, so none of these belongs in a creator-vetting queue. The products themselves were queued
+    as product candidates instead, on 2026-11-07.'
+- name: cocokind
+  channel_url: https://www.youtube.com/@cocokind
+  hits: 1
+  topics:
+  - referral
+  discovered_via: 'referral: https://www.tiktok.com/@your.estie.ella/video/7705109973407206670'
+  status: skipped
+  resolved_reason: 'not a creator: the referral miner read product and retailer hashtags from the caption
+    as creator handles. Remedy, cocokind, byoma and haruharu are skincare BRANDS whose products the video
+    names, and target is the retailer it was filmed in. Brand channels are explicitly out of scope for
+    carding, so none of these belongs in a creator-vetting queue. The products themselves were queued
+    as product candidates instead, on 2026-11-07.'
+- name: byoma
+  channel_url: https://www.youtube.com/@byoma
+  hits: 1
+  topics:
+  - referral
+  discovered_via: 'referral: https://www.tiktok.com/@your.estie.ella/video/7705109973407206670'
+  status: skipped
+  resolved_reason: 'not a creator: the referral miner read product and retailer hashtags from the caption
+    as creator handles. Remedy, cocokind, byoma and haruharu are skincare BRANDS whose products the video
+    names, and target is the retailer it was filmed in. Brand channels are explicitly out of scope for
+    carding, so none of these belongs in a creator-vetting queue. The products themselves were queued
+    as product candidates instead, on 2026-11-07.'
+- name: target
+  channel_url: https://www.youtube.com/@target
+  hits: 1
+  topics:
+  - referral
+  discovered_via: 'referral: https://www.tiktok.com/@your.estie.ella/video/7705109973407206670'
+  status: skipped
+  resolved_reason: 'not a creator: the referral miner read product and retailer hashtags from the caption
+    as creator handles. Remedy, cocokind, byoma and haruharu are skincare BRANDS whose products the video
+    names, and target is the retailer it was filmed in. Brand channels are explicitly out of scope for
+    carding, so none of these belongs in a creator-vetting queue. The products themselves were queued
+    as product candidates instead, on 2026-11-07.'
+- name: haruharu
+  channel_url: https://www.youtube.com/@haruharu
+  hits: 1
+  topics:
+  - referral
+  discovered_via: 'referral: https://www.tiktok.com/@your.estie.ella/video/7705109973407206670'
+  status: skipped
+  resolved_reason: 'not a creator: the referral miner read product and retailer hashtags from the caption
+    as creator handles. Remedy, cocokind, byoma and haruharu are skincare BRANDS whose products the video
+    names, and target is the retailer it was filmed in. Brand channels are explicitly out of scope for
+    carding, so none of these belongs in a creator-vetting queue. The products themselves were queued
+    as product candidates instead, on 2026-11-07.'

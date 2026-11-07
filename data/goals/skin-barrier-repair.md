@@ -505,6 +505,16 @@ videos:
   related: [centella-asiatica, pdrn, ectoin, panthenol, ceramides, cholesterol, acne]
   thesis: 'Licensed esthetician Ella films her own active breakout without filter or tinted sunscreen to make a point about skin barrier health, which is that well hydrated skin conceals spots far better than dry skin does. Her argument is that when skin is overworked, dry and flaking, every small clogged pore reads as more visible, so barrier repair is cosmetic as well as protective. She is explicit that this does not mean simply applying a thick moisturizer, and names the ingredient categories she looks for instead: centella asiatica, PDRN, ectoin, panthenol, ceramides and cholesterol, singling out cholesterol as the one to add when skin feels rough and nothing seems to absorb. She names no products and gives no figures, and the claim is about how a breakout looks rather than about clearing it.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: A little dryness doesn't mean you need a whole new routine, oftentime...
+  creator: Ella (@your.estie.ella)
+  creator_slug: your-estie-ella
+  credential: Licensed esthetician (NOT a dermatologist or cosmetic chemist)
+  platform: TikTok
+  url: https://www.tiktok.com/@your.estie.ella/video/7705109973407206670
+  posted: '2026-11-06'
+  related: [dry-skin, post-inflammatory-erythema, best-hydrating-serums-for-dry-skin]
+  thesis: 'Licensed esthetician Ella (@your.estie.ella) argues that seasonal winter dryness does not call for replacing a skincare routine, only for adding one hydrating product at the toner or serum step and letting the skin adjust for a week or two before adding another. Filming in a Target aisle, she sorts four suggestions by skin type: the Haru Haru Black Rice Probiotic Barrier Essence for skin that feels tight and cannot hold moisture, the Byoma Blemish Toner for post acne marks and post inflammatory erythema, the Remedy Science Hydrating Serum for oily skin wanting lightweight hydration, and Cocokind''s magnesium mist or electrolyte serum for over exfoliated skin. Her explanation that skin makes more oil in warm weather and less in cold, and that this is why acne peaks in summer and barrier trouble in winter, is her own framing rather than a cited finding.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
