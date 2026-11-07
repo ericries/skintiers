@@ -1252,7 +1252,7 @@
 - name: What OTC Monograph M020 actually concluded about each sunscreen filter
   type: list
   priority: 3
-  status: pending
+  status: done
   discovered_from: us-sunscreen-filters-by-what-fda-proposed-in-2019
   source: 'The live successor to the question [[us-sunscreen-filters-by-what-fda-proposed-in-2019]]
     answers historically. That page deliberately stops at the 2019 PROPOSAL and says

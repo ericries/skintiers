@@ -6,7 +6,7 @@ name: US sunscreen filters by what FDA's 2019 rule proposed
 slug: us-sunscreen-filters-by-what-fda-proposed-in-2019
 status: published
 type: list
-updated: '2026-11-06'
+updated: '2026-11-07'
 ---
 
 In 2019 the FDA proposed sorting every US sunscreen filter into three groups, and the result is not the one a shelf implies: of the sixteen filters legally sold in American sunscreens, the agency proposed that exactly two had enough data behind them.[^fr]
@@ -31,7 +31,7 @@ Everything else. FDA proposed Category III for "cinoxate, dioxybenzone, ensulizo
 
 ## What this list is not
 
-It is not an evidence ranking and carries no tier list. Regulatory status and protective performance are different axes, and a filter can sit in Category III while protecting well; for how these filters compare on what they actually block, see [[uv-filters-by-uva-protection]]. Nor does this page say what Monograph M020 concluded about any individual filter, because that order has not been read for this site.
+It is not an evidence ranking and carries no tier list. Regulatory status and protective performance are different axes, and a filter can sit in Category III while protecting well; for how these filters compare on what they actually block, see [[uv-filters-by-uva-protection]]. What has since become of these proposals, which for most filters is nothing, is tracked on [[what-otc-monograph-m020-settled-and-what-it-left-open]].
 
 ## See Also
 
