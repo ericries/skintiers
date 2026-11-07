@@ -5547,3 +5547,30 @@
     already records its role. Check current registration listings first, exactly as
     the VelaSmooth page did, and close this if the device is gone and nothing on the
     site needs to link to it.'
+- name: BTWN Gentle Cleanser
+  type: product
+  priority: 6
+  status: pending
+  discovered_from: btwn
+  source: 'One of two single products in the BTWN range, read from the store''s own
+    Shopify product handles in the cached home page (research-cache/web/bb9ba7d716a55fc4.md,
+    handle ''gentle-cleanser''). [[btwn]] currently links to no product because none
+    has a page. WORTH COVERING ONLY IF THE INCI RESOLVES: try inci_lookup first; a
+    small tween-market brand may not be indexed, and a cleanser page without a composition
+    is thin. The editorial angle if built is the one the brand itself leads with,
+    that this is formulated for tween and teen skin, which is a positioning claim
+    rather than a formulation fact and should be checked against what is actually
+    in it. Disclose that the founder is [[brooke-jeffy]], whose own-brand interest
+    the site already records.'
+- name: BTWN Moisturizer
+  type: product
+  priority: 7
+  status: pending
+  discovered_from: btwn
+  source: 'The other single product in the BTWN range, handle ''moisturizer'' in the
+    cached store page (research-cache/web/bb9ba7d716a55fc4.md). Lower priority than
+    the cleanser only because the site already grades moisturiser ingredients heavily,
+    so a small-brand moisturiser adds less than a cleanser would. Same conditions
+    apply: resolve the INCI before drafting, and disclose the [[brooke-jeffy]] own-brand
+    link. Close this rather than draft from marketing copy if the composition cannot
+    be established.'
