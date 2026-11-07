@@ -15940,7 +15940,8 @@
   conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan and reject any sponsored/affiliate/gifted video
   posted: '2026-11-04'
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: no English transcript, so the product claims cannot be read or verified
 - id: '7704327780124740877'
   title: Not all gift sets are gift-worthy 🎁 @Remedy Science @cocokind @target...
   creator: Ella (@your.estie.ella)
@@ -16225,7 +16226,8 @@
   conflict: 'Runs #ad sponsored posts (e.g. TruSkin) and Target skincare hauls/reviews; prefer her educational ingredient-category and barrier-repair explainers, and treat product recommendations as effectively promotional (skip).'
   posted: '2026-11-06'
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: personal wedding clip, not a skincare topic
 - id: '7705087921191193869'
   title: The acne & fungal acne safe moisturizer I've been recommending to my ...
   creator: Kristin Leite (kristingl)
@@ -16358,4 +16360,5 @@
   conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan and reject any sponsored/affiliate/gifted video
   posted: '2026-11-06'
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: no English transcript available
