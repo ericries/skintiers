@@ -228,6 +228,16 @@ videos:
   related: [tretinoin, skin-barrier-repair, sunscreen-uv-filters, pregnancy-safe-skincare]
   thesis: Board-certified dermatologist Neera Nathan sets out a starting protocol for retinoids built around not wrecking the skin barrier on the way in. She says a pea-sized amount is all that is needed, that beginners should apply it two nights per week and work up only as tolerated, and that people with very sensitive skin can use what she calls the sandwich method, applying a light moisturiser first, then the retinoid, then a thick barrier cream over the top to limit dryness and flaking. She closes on sun protection, noting that retinoids increase sun sensitivity and that daily sunscreen is not optional alongside them. Her caption adds a single safety line, to avoid retinoids in pregnancy.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Retinol vs adapalene vs tretinoin, explained
+  creator: Dr. Daniel Sugai
+  creator_slug: daniel-sugai
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=i1d62MQrGak
+  posted: '2025-10-25'
+  related: [retinol, adapalene, tretinoin, tazarotene, retinaldehyde, acne, anti-aging]
+  thesis: 'Board-certified dermatologist Daniel Sugai sorts the vitamin A derivatives by who each one actually suits. Retinol, he says, is the beginner option for fine lines and wrinkles rather than a treatment for teenage or young-adult acne, because it has to be converted twice in the skin before it becomes active. Adapalene is his pick for someone with mild acne who wants a gentle start, and tretinoin he frames as the advanced option for photoaging, roughly past thirty, and a conversation to have with a dermatologist. The practical half is the part most worth keeping: a pea-sized amount for the face and half that for the neck to begin with, building from a few nights a week toward nightly, and not stacking it with vitamin C, exfoliants or leave-on benzoyl peroxide while skin is still adapting. He also says he dislikes niacinamide serums, which is a preference he states rather than an evidence claim.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 name: Retinoids
 slug: retinoids
 status: published

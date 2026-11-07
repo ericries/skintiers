@@ -11,6 +11,18 @@ slug: surgical-and-wound-scars
 status: published
 type: condition
 updated: '2026-11-06'
+videos:
+- title: How to treat scars like a dermatologist
+  creator: Dr. Daniel Sugai
+  creator_slug: daniel-sugai
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=g94AKuLAims
+  posted: '2025-10-18'
+  related: [petrolatum, dimethicone, acne-scars, sunscreen-uv-filters]
+  thesis: Board-certified dermatologist Daniel Sugai gives a timeline for caring for a healing scar rather than a single product. For roughly the first two weeks he keeps the area occluded with petrolatum to stop water loss, on the reasoning that drying out drives more collagen and more scar tissue, then moves to a barrier cream, and from about week two to twelve transitions to silicone gel or silicone sheets, applied twice daily on small areas. He adds sunscreen over a well-healed scar during the day. He is dismissive of onion extract preparations and vitamin E oil, saying the evidence for them is very mixed. This is his clinical protocol rather than a trial result, and the systematic-review position on how much silicone actually adds is set out above.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Scars left by surgery or injury, and what the evidence says about caring for one while it heals. Scarring from acne is a different problem with a different literature and is on [[acne-scars]].
