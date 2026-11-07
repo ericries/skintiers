@@ -3286,7 +3286,8 @@
   conflict: 'Past paid brand-consultant roles: Kiehl''s (''NEW US Consulting Dermatologist'', ~5yr-old campaign) and Clinique Derm Pro spokesperso; no YouTube; TikTok/IG intake'
   posted: '2026-09-03'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: dermal filler is an injectable procedure; non-topical anti-ageing is a deferred phase on this site
 - id: '7679851515045006606'
   title: Longevity is everywhere right now—but what does it actually look like...
   creator: Dr. Michelle Henry, MD FAAD
@@ -16056,7 +16057,8 @@
   conflict: runs an Amazon affiliate storefront and does sponsored posts - strongly prefer educational / how-to / ingredient-explainer videos; be very cautious with any product recommendation
   posted: '2026-11-05'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'same: a serum recommendation from an affiliate-storefront creator'
 - id: '7704734983872679198'
   title: Hyperpigmentation can be so frustrating to treat, and every treatment...
   creator: Dr. Mamina Turegano
@@ -16137,7 +16139,8 @@
   conflict: Founder/owner of active postpartum skincare brand "More Than Nine" (cleanser, exfoliator, moisturizer, balm) — an ongoing own-bran
   posted: '2026-11-06'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: personal postpartum clip, not a skincare topic
 - id: JMpHMd6vX2U
   title: 7 Strange Skin Symptoms That Could Signal a Health Problem | Dermatologist Explains
   creator: Andrea Suarez (Dr Dray)
@@ -16230,7 +16233,8 @@
   conflict: runs an Amazon affiliate storefront and does sponsored posts - strongly prefer educational / how-to / ingredient-explainer videos; be very cautious with any product recommendation
   posted: '2026-11-06'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: single-product recommendation from a creator who runs an Amazon affiliate storefront, so picks are treated as effectively paid
 - id: '7705074695212748045'
   title: Things that are aging you, part 2 👀 (supplement name below) 😴 Not get...
   creator: Dr. Mamina Turegano
@@ -16243,7 +16247,8 @@
   conflict: null
   posted: '2026-11-06'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: subject is an oral supplement, which docs/cron-playbook.md puts out of current scope
 - id: v16GBS7uyi8
   title: 'Tretinoin + Azelaic Acid: The Secret to Glass Skin? | Dermatologist Explains'
   creator: Dr. Maren Locke (The Budget Dermatologist)
@@ -16308,7 +16313,8 @@
   conflict: Self-describes as a "Key Opinion Leader for industry beauty companies" (per her own practice bio) and most sampled TikTok videos e; no YouTube; TikTok/IG intake
   posted: '2026-11-06'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: comment-for-my-supplements-guide engagement bait; supplements are out of current scope and the creator's roster conflict is industry Key Opinion Leader work
 - id: 5KDNedlpAYI
   title: 'Doctor Reacts To TikTok’s Shocking Skincare Disasters '
   creator: Dr. Vanita Rattan (Doctor V)
