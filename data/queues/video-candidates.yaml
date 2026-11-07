@@ -1903,7 +1903,8 @@
   conflict: null
   posted: '2026-09-11'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: no English transcript, and it is an 8-second teaser clip
 - id: '7683884477961080077'
   title: People sometimes ask how I balance being a dermatologist, mom, conten...
   creator: Fatima Fahs
@@ -15364,7 +15365,8 @@
   conflict: null
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: BPC-157 and TB-500 are injectable, non-topical peptides; out of current site scope per cron-playbook (non-topical anti-ageing is a deferred phase), so no card even though a peptides page exists
 - id: i-VFfAbjBUE
   title: 'Is cosmetic dermatology a scam? #dermreacts  #skincare  #dermatologist #dermangelo  #reactionvideo  '
   creator: Dr. Angelo Landriscina (DermAngelo)
@@ -15599,7 +15601,8 @@
   conflict: null
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'Black Friday deals stock-up guide: a shopping roundup rather than education, and deal lists are affiliate-shaped by nature'
 - id: McTq-A0PMP8
   title: '“97% of people are drinking water incorrectly” #dermreacts  #skincare  #dermatologist #dermangelo '
   creator: Dr. Angelo Landriscina (DermAngelo)
@@ -15853,7 +15856,8 @@
   conflict: Founder/owner of active postpartum skincare brand "More Than Nine" (cleanser, exfoliator, moisturizer, balm) — an ongoing own-bran
   posted: '2026-11-04'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: about AI-generated skincare misinformation; the site has no misinformation or claim-evaluation hub to embed it on, and this cron must not create pages
 - id: wlYvEEmi20Q
   title: Beauty Misinformation Is Getting Dangerous | Dr. Dray at Truth in Beauty 2026
   creator: Andrea Suarez (Dr Dray)
@@ -16025,7 +16029,8 @@
   conflict: 'Runs #ad sponsored posts (e.g. TruSkin) and Target skincare hauls/reviews; prefer her educational ingredient-category and barrier-repair explainers, and treat product recommendations as effectively promotional (skip).'
   posted: '2026-11-05'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: not skincare at all (Iceland trip/proposal clip)
 - id: '7704146169735154958'
   title: 'Part 2: How to get tretinoin to ACTUALLY work for your skin #tretinoi...'
   creator: Jenn Lexi (@jennlexi_)
@@ -16077,7 +16082,8 @@
   conflict: null
   posted: '2026-11-05'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: no English transcript available on TikTok, so nothing can be quoted or verified
 - id: TFjaISTiY6M
   title: 'how to fade a scar from a skin cancer surgeon #skincare Inspo @DallinHolt'
   creator: Dr. Neera Nathan
@@ -16103,7 +16109,8 @@
   conflict: Self-describes as a "Key Opinion Leader for industry beauty companies" (per her own practice bio) and most sampled TikTok videos e; no YouTube; TikTok/IG intake
   posted: '2026-11-06'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: comment-for-the-list engagement bait fronting a derm-approved product list, from a creator whose roster conflict is self-described industry Key Opinion Leader work; treat as product promotion
 - id: GI0_KtNOV4I
   title: 'Doctor Explains Peptides: Copper Peptides vs Matrixyl vs Argireline'
   creator: Dr. Vanita Rattan (Doctor V)
@@ -16129,4 +16136,5 @@
   conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan and reject any sponsored/affiliate/gifted video
   posted: '2026-11-05'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: seasonal 'Pink Christmas' clip, not single-topic skincare
