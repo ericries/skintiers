@@ -5809,3 +5809,19 @@
     aliases although it is a goal hub, not that device, which is the same class of
     mistake in reverse and will cause false matches. Verify each K number against
     the page''s own footnotes before adding it, and change nothing else.'
+- name: EndyMed PRO with Intensif RF microneedling handpiece
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: gold-2019-stratacel-vs-aquaphor-microneedling-pmid-30756451
+  source: 'GROUNDED IN A TRIAL THE SITE NOW CARRIES: the device used in [[gold-2019-stratacel-vs-aquaphor-microneedling-pmid-30756451]],
+    named in that abstract verbatim as the ''Endymed PRO Intensif Handpiece (Endymed,
+    Israel)''. This is a CLINIC device, not a home device, so decide the scope question
+    FIRST: the site covers home devices in depth and procedure devices only as context,
+    and if it stays, it belongs beside the procedure hubs rather than on a best-of
+    list. START with openFDA device/510k by applicant ''Endymed'' to get the K number,
+    product code and indication, which is the house method for every device page here,
+    and check whether the Summary publishes energy settings. Do NOT inherit the Gold
+    trial''s erythema result as evidence FOR this device; that trial compared two
+    dressings applied after the procedure, and the device was the constant, not the
+    intervention.'

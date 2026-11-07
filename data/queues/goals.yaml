@@ -918,3 +918,18 @@
     on filler complications, not in the single anatomy meta-analysis, and confirm
     first that it does not duplicate ground [[dermal-fillers-for-acne-scars]] already
     holds.'
+- name: Fractional radiofrequency microneedling
+  type: goal
+  priority: 4
+  status: pending
+  discovered_from: gold-2019-stratacel-vs-aquaphor-microneedling-pmid-30756451
+  source: 'A real hub gap, not an invented one: [[microneedling]] and [[fractional-co2-laser-resurfacing]]
+    both exist, but RF microneedling is neither, and sk find scores it 66 against
+    both, which is the signal that nothing owns it. It is already referenced by [[gold-2019-stratacel-vs-aquaphor-microneedling-pmid-30756451]],
+    whose entire population underwent it, and the aftercare question routes to [[post-ablative-laser-aftercare]].
+    KEEP IT TIGHT per the condition/goal scope: prefer a tier_list of the graded interventions
+    over an essay, and link rather than re-explain what the two neighbouring hubs
+    already own. The honest framing to check is whether RF microneedling''s evidence
+    is actually separable from plain microneedling''s, or whether the literature mostly
+    assumes the radiofrequency adds something; do not assert the former without finding
+    head-to-head comparisons.'

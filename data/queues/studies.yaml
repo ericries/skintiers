@@ -2045,7 +2045,7 @@
 - name: Gold 2019 Stratacel vs Aquaphor after fractional RF microneedling (PMID 30756451)
   type: study
   priority: 3
-  status: pending
+  status: done
   discovered_from: stratacel-film-forming-dressing
   source: 'ALREADY RESOLVED AND PARTLY EXTRACTED on [[stratacel-film-forming-dressing]],
     so this is a compact structured record, not new research. PMID 30756451 (resolved

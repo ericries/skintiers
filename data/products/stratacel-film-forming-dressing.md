@@ -41,7 +41,7 @@ name: Stratacel (Stratpharma's film-forming wound dressing)
 slug: stratacel-film-forming-dressing
 status: published
 type: product
-updated: '2026-11-06'
+updated: '2026-11-07'
 ---
 
 A silicone gel that dries into a thin film over raw skin after a resurfacing procedure. **Bottom line:** there are two small trials, the better one is randomised and does show less redness than Aquaphor, and the headline marketing claim is not the thing either trial measured. For the aftercare decision this sits inside, see [[post-ablative-laser-aftercare]].
@@ -92,6 +92,7 @@ This section is quarantined and discounted; treat everything here as unproven un
 
 ## See Also
 
+- [[gold-2019-stratacel-vs-aquaphor-microneedling-pmid-30756451]], the randomised trial set out in full
 - [[post-ablative-laser-aftercare]], the decision this product sits inside
 - [[fractional-co2-laser-resurfacing]] and [[microneedling]] for the procedures it is dressed for
 - [[mederma-advanced-scar-gel]] and [[polysilicone-15]] for silicone on skin in a different role
