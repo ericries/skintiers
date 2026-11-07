@@ -15958,7 +15958,8 @@
   conflict: Founder/owner of active postpartum skincare brand "More Than Nine" (cleanser, exfoliator, moisturizer, balm) — an ongoing own-bran
   posted: '2026-11-05'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'TikTok age/sensitivity gate: metadata and subtitles require login; not accessible without cookies'
 - id: s7E7aU9GIXk
   title: Best Milky Toners for Glowing, Hydrated Skin | Dermatologist Reviews
   creator: Andrea Suarez (Dr Dray)
@@ -16010,7 +16011,8 @@
   conflict: Co-developed/formulated the Tbh Skincare 'Rebound' Serum and Toner (product-formulation partnership) — her endorsement of that spe; no YouTube; TikTok/IG intake
   posted: '2026-11-06'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: makeup/lip colour comparison, not skincare; excluded by the TikTok pull scope
 - id: '7704833217244712206'
   title: '@Avery Woods I will be sleeping in this jacket😩 #iceland #proposal #h...'
   creator: Jenn Lexi (@jennlexi_)

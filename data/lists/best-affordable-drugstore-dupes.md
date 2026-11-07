@@ -42,6 +42,16 @@ videos:
   related: [petrolatum, ceramides, glycolic-acid, adapalene, retinoids, sulfur, sunscreen-uv-filters]
   thesis: Board-certified dermatologist Dr. Sarah Sheu rounds up her favorite affordable skincare, everything under 20 dollars and personally tested, spanning dollar-store finds, dermatologist staples, and targeted treatments. Her standout picks include plain Vaseline (petrolatum) as a barrier-repair workhorse, CeraVe Moisturizing Cream for its ceramide, cholesterol, and fatty-acid barrier mix, The Ordinary's Glycolic Acid 7% toning solution for texture and dark spots, over-the-counter adapalene 0.1% (Differin) as one of the best budget acne retinoids, and Beauty of Joseon's Revive Eye Serum as a gentle starter retinal. She is candid about the limits, noting that very cheap products rarely have clinical studies of their own, and she frames barrier basics and consistent use as mattering more than price.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Splurge or save, by ingredient category
+  creator: Dr. Chris Tomassian
+  creator_slug: chris-tomassian
+  credential: Board-certified dermatologist
+  platform: TikTok
+  url: https://www.tiktok.com/@dr.tomassian/video/7704752573055520013
+  posted: '2026-11-05'
+  related: [minimalist-routine, retinol, tretinoin, vitamin-c, peptides, sunscreen-uv-filters, home-led-devices-by-what-the-file-publishes]
+  thesis: Board-certified dermatologist Chris Tomassian sorts skincare categories into ones worth paying up for and ones where price buys nothing. Save on cleanser and moisturizer, he says, and save on retinol too, on the grounds that prescription tretinoin is easy to get and costs roughly twenty to forty dollars. Splurge, in his view, on vitamin C serums, peptide serums and sunscreen, the last because formulas differ enough in feel that finding one you will actually wear matters. He names no products and gives no evidence for the splurge side beyond that reasoning, and his inclusion of a red light mask among the splurges sits awkwardly against what the clearance files for those devices actually publish.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

@@ -1282,3 +1282,19 @@
     a DIFFERENT product code with a different permitted claim, which is the thing
     that would make or break the list; and do not imply the ceiling is a finding about
     efficacy, which is a separate axis covered on [[cellulite]].'
+- name: 'FIX: best-affordable-drugstore-dupes has three orphaned footnotes'
+  type: list
+  priority: 4
+  status: pending
+  discovered_from: best-affordable-drugstore-dupes
+  source: 'NOT a new page. An accuracy repair found while carding a video onto [[best-affordable-drugstore-dupes]]
+    on 2026-11-06. All THREE footnotes on that page are defined in the Sources section
+    and referenced nowhere in the body: [^1], [^2] and [^3] each appear exactly once,
+    as their own definition. So the page''s claims carry no citations while appearing
+    to, which is the wrong way round for this site. Work out which claim each source
+    was meant to support and attach it, or delete the orphan if the claim has gone.
+    SECOND, SEPARATE BUG: sk lint reported only [^3] as ''defined but never referenced''
+    and stayed silent on [^1] and [^2], so the unreferenced-footnote check is missing
+    cases. Fix the check with a red-green test before fixing the page, otherwise the
+    same rot is invisible elsewhere; a repo-wide count of orphaned footnotes would
+    be worth running once the check is right.'
