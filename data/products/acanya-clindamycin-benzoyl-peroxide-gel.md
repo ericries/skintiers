@@ -82,6 +82,7 @@ This section is quarantined and discounted; treat everything here as unproven un
 
 ## See Also
 
+- [[acne-combinations-by-whether-they-beat-their-own-ingredients]], where this is the only one whose trials asked the question
 - [[benzaclin-clindamycin-benzoyl-peroxide-gel]], the older combination of the same two drugs
 - [[clindamycin-topical]] and [[benzoyl-peroxide]] for what each ingredient does on its own
 - [[acne]] for the condition and the rest of the ladder

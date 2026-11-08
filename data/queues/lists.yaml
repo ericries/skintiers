@@ -1318,7 +1318,7 @@
 - name: Prescription acne combinations by whether their trials beat the single ingredients
   type: list
   priority: 3
-  status: pending
+  status: done
   discovered_from: acanya-clindamycin-benzoyl-peroxide-gel
   source: 'THE STRONGEST LIST IDEA THIS SITE HAS SURFACED IN A WHILE, and it is cheap
     because the data is all on FDA labels the site can already read. The axis: a combination

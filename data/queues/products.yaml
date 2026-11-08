@@ -5921,7 +5921,7 @@
 - name: Onexton / generic clindamycin 1.2% and benzoyl peroxide 3.75% gel
   type: product
   priority: 4
-  status: pending
+  status: done
   discovered_from: acanya-clindamycin-benzoyl-peroxide-gel
   source: The third clindamycin plus benzoyl peroxide combination, after [[benzaclin-clindamycin-benzoyl-peroxide-gel]]
     at 5 percent and [[acanya-clindamycin-benzoyl-peroxide-gel]] at 2.5 percent, sitting
@@ -5933,3 +5933,21 @@
     arms the way Acanya's does, or only a vehicle comparison; that feeds the list
     queued alongside this. Route ingredient evidence to [[clindamycin-topical]] and
     [[benzoyl-peroxide]] rather than restating it.
+- name: 'Epiduo and BenzaClin: resolve what their trials compared against'
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: acne-combinations-by-whether-they-beat-their-own-ingredients
+  source: 'NOT NEW PAGES. Both already exist. A bounded gap-closing task on [[acne-combinations-by-whether-they-beat-their-own-ingredients]],
+    which grades four combination acne products by whether their own trials included
+    monotherapy arms and had to LEAVE THESE TWO OFF because openFDA could not answer.
+    Verified 2026-11-08: a brand-name label search for BenzaClin returns NOT_FOUND,
+    and the single Epiduo record (brand name ''Differin Epiduo'', NDA220736, effective
+    2026-05-20) has an EMPTY clinical_studies field. ACTION: get the trial design
+    from a source openFDA cannot supply, which means the DailyMed SPL or the accessdata.fda.gov
+    approval package, and record for each whether an adapalene-alone or clindamycin-alone
+    arm existed. EPIDUO IS THE INTERESTING ONE: adapalene plus benzoyl peroxide is
+    the most-prescribed combination of the set, and its pivotal trials are widely
+    described as having included both monotherapy arms, which if true would make it
+    the SECOND entry graded good and would change the list''s headline. DO NOT add
+    it on that recollection; verify it. Then add the rows and close this.'
