@@ -1,4 +1,9 @@
 ---
+aliases:
+- Hydrocortisone
+- Hydrocortisone cream
+- OTC hydrocortisone
+- 1% hydrocortisone
 analyzed: '2026-08-23'
 assurance: opus
 name: Hydrocortisone (OTC topical corticosteroid)
@@ -7,6 +12,18 @@ status: published
 tier: good
 type: ingredient
 updated: '2026-08-23'
+videos:
+- title: Hydrocortisone on Your Face? A Dermatologist Explains the Risks
+  creator: Andrea Suarez (Dr Dray)
+  creator_slug: andrea-suarez-dr-dray
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=XcO2k2OAOY4
+  posted: '2026-11-01'
+  related: [topical-corticosteroids, tinea-corporis-ringworm, perioral-dermatitis]
+  thesis: Board-certified dermatologist Andrea Suarez, who posts as Dr Dray, answers a viewer asking about hydrocortisone on the face, and her answer runs in two directions at once. The over-the-counter 1 percent cream sold in the United States is, in her words, very weak, and she says it is genuinely useful for something like a bug bite on the leg. Her caution is about using any topical steroid on the face without a doctor's advice, because the face is where side effects such as skin thinning, lasting redness, visible small blood vessels, steroid acne and acne-like bumps around the mouth, eyes and nose are most likely to appear.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Hydrocortisone is a corticosteroid sold without a prescription at 1% (and, in prescription-only strength, 2.5%) as a cream, ointment, lotion, or spray, labeled under the FDA's OTC Drug Facts framework for the "temporary relief of itching associated with minor skin irritations, inflammation, and rashes" from causes such as eczema, psoriasis, poison ivy/oak/sumac, insect bites, and contact with soaps, detergents, jewelry, or cosmetics.[^cortizone][^kroger] It is the weakest of the seven potency classes used to rank US topical corticosteroids, with 1% and 2.5% hydrocortisone both listed as Class VII, the least-potent tier.[^statpearls]
