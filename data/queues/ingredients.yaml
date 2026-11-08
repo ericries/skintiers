@@ -3880,3 +3880,39 @@
     derm dismissal. Expect tier weak and VERIFY IT; do not assume, because the usual
     claim on both sides of this argument is made without a citation. Oral consumption
     is out of scope. Carding the Henry clip once the page exists would close the loop.'
+- name: Second-generation H1 antihistamines (cetirizine, loratadine, fexofenadine)
+    for skin
+  type: ingredient
+  priority: 3
+  status: pending
+  discovered_from: chronic-spontaneous-urticaria
+  source: 'RUNG ONE of the ladder on [[chronic-spontaneous-urticaria]]. It is the
+    most-used intervention for hives in the world and this site has nothing on it.
+    SCOPE DISCIPLINE MATTERS HERE: these are ORAL drugs, and docs/cron-playbook.md
+    defers oral supplements, but these are not supplements, they are approved drugs
+    with a dermatological indication, which is the same footing as [[isotretinoin]]
+    and [[dupilumab]]. Say so in one clause so the next tick does not re-litigate
+    it. The international guideline (PMID 41649409, full text free at PMC13466004,
+    already read for the condition page) carries the dosing recommendation including
+    updosing, and notes that for an antihistamine ''further improvement cannot be
+    expected after 1-2 weeks of treatment as receptor saturation is complete after
+    1 week'', which is a genuinely useful and quotable practical point. Do NOT re-tell
+    the CSU diagnosis story; link to the condition hub.'
+- name: Omalizumab (Xolair)
+  type: ingredient
+  priority: 3
+  status: pending
+  discovered_from: chronic-spontaneous-urticaria
+  source: 'RUNG TWO of the ladder on [[chronic-spontaneous-urticaria]], which states
+    the ladder in prose precisely because this page and the antihistamine one do not
+    exist yet. ALREADY VERIFIED 2026-11-07, do not re-fetch: Xolair label effective
+    2026-08-13, CSU is indication 1.4, ''in adults and adolescents 12 years of age
+    and older who remain symptomatic despite H1 antihistamine treatment'', Limitation
+    of Use ''Not indicated for other forms of urticaria.'' Note the age floor differs
+    from dupilumab''s, which reaches 2 years. THE WORK IS THE EVIDENCE, not the label:
+    find the registration trials (ASTERIA I and II and GLACIAL are the names to look
+    for) and report UAS7 change with the numbers. SCOPE: this is an injected biologic,
+    so it sits beside [[dupilumab]] as a drug page rather than anything topical, and
+    three of its four indications are not skin conditions at all, which the page should
+    say in one clause rather than implying it is a skin drug. Set tier from the rubric
+    you write.'

@@ -944,7 +944,7 @@
 - name: Chronic spontaneous urticaria (CSU)
   type: condition
   priority: 4
-  status: pending
+  status: done
   discovered_from: dupixent-dupilumab-injection
   source: 'One of the four skin diseases on the DUPIXENT label (indication 1.7, ''adult
     and pediatric patients aged 2 years and older with chronic spontaneous urticaria
@@ -1018,3 +1018,9 @@
     address, which is the honest framing rather than a list of creams. The evidence
     question worth answering is whether anything topical measurably changes elasticity,
     as distinct from changing how skin looks when hydrated.'
+- name: Chronic inducible urticaria
+  type: condition
+  priority: 5
+  status: pending
+  discovered_from: chronic-spontaneous-urticaria
+  source: null

@@ -25,7 +25,7 @@ name: DUPIXENT (Dupilumab Injection)
 slug: dupixent-dupilumab-injection
 status: published
 type: product
-updated: '2026-11-05'
+updated: '2026-11-07'
 videos: []
 ---
 
@@ -65,6 +65,7 @@ One active, dupilumab, a monoclonal antibody given by subcutaneous injection.[^d
 ## See Also
 
 - [[dupilumab]] for the molecule, its mechanism and its evidence grade
+- [[chronic-spontaneous-urticaria]] and [[bullous-pemphigoid]], two of the skin diseases on this label that have their own hubs
 - [[cibinqo-abrocitinib-tablets]] and [[rinvoq-upadacitinib-tablets]], the oral drugs whose labels place them after this one
 - [[systemic-atopic-dermatitis-treatments-by-evidence]] for how the systemics compare, and why this one is not tiered there
 - [[atopic-dermatitis]], [[prurigo-nodularis]] and [[bullous-pemphigoid]], three of the four skin diseases on its label that have hubs here
