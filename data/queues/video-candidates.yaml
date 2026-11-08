@@ -13098,7 +13098,8 @@
   conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan and reject any sponsored/affiliate/gifted video
   posted: '2026-10-17'
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: no English transcript, and at 25 seconds it is at the floor for a thesis anyway; topic (bemotrizinol arriving in the US) is covered on the bemotrizinol page and the M020 list
 - id: GfJn2jUTvVo
   title: Which Scalp Serum Actually Grows Hair? Dermatologist Ranks 10 | Dr Adel
   creator: Dr Aamna Adel

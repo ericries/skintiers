@@ -30,6 +30,16 @@ videos:
   related: [glass-skin, skin-barrier-repair, moisturizing, acne, atopic-dermatitis, milia]
   thesis: 'Board-certified dermatologist Dr. Dustin Portela explains what petroleum jelly does and does not do when used for slugging, the trend of applying a thin layer as the last step at night. His central point is that petroleum jelly is strictly an occlusive and contains no humectants such as glycerin or urea, so it does not add water to skin; it traps water already there, which he says studies show can reduce water loss by up to 99%. He describes seeing patients with milia, bacterial infections and deep cystic acne from doing it wrong, and sorts candidates accordingly: reasonable for dry skin that is not acne prone, for cold dry winters, and alongside eczema care with a doctor''s guidance, but a poor idea if you are treating acne, since active ingredients get trapped underneath. He also rejects the online claim that cosmetic petroleum jelly carries a cancer risk from aromatic hydrocarbons.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: 'Day 5: how do you fix a damaged barrier part 4'
+  creator: Jenn Lexi (@jennlexi_)
+  creator_slug: jennlexi
+  credential: Esthetician (self-identified); not a dermatologist or cosmetic chemist
+  platform: TikTok
+  url: https://www.tiktok.com/@jennlexi_/video/7698563382797995278
+  posted: '2026-10-20'
+  related: [skin-barrier-repair, ceramides, panthenol, hyaluronic-acid]
+  thesis: 'Esthetician Jenn Lexi explains what an occlusive actually does, using Vaseline as her reference point: it is, in her words, basically a band aid you are slapping on your face, applied over watery products and moisturisers so that water cannot escape through oil. Her framing is that an occlusive is a temporary stand-in barrier while a damaged one heals, not something to rely on permanently. She argues separately that one well formulated product combining hyaluronic acid, ceramides and panthenol beats layering several serums, because fewer products means fewer suspects when something irritates.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
