@@ -3935,3 +3935,21 @@
     WRITING ABOUT if it does: a steroid used to treat pigmentation, when steroid overuse
     on thin skin causes its own problems, and [[topical-corticosteroids]] already
     carries that warning. Set tier from the rubric you verify.'
+- name: Bipolar radiofrequency for facial wrinkles, by published dose
+  type: ingredient
+  priority: 6
+  status: pending
+  discovered_from: pollogen-geneo-x-elite
+  source: 'MAY BELONG AS A LIST OR A SECTION RATHER THAN AN INGREDIENT PAGE, so settle
+    that first and close this row if [[home-radiofrequency-skin-tightening]] or [[home-rf-devices-by-whose-evidence-the-file-rests-on]]
+    already holds the ground; both exist. The idea is the RF analogue of [[home-led-devices-by-what-the-file-publishes]],
+    which ranks LED filings by whether they disclose a dose. RF filings look DIFFERENT
+    on that axis and that is the finding worth testing: [[pollogen-geneo-x-elite]]
+    publishes 6.0 W maximal output, 1 MHz and 6.0 W/cm2 fluence in a side-by-side
+    table, where most LED filings publish nothing at all. IF THAT PATTERN HOLDS ACROSS
+    THE PAY CODE it says something real about how the two categories are regulated
+    rather than about the devices. Test it before asserting it: the PAY code has eleven
+    510(k)s, five of them Pollogen''s, and the site covers several already. Collect
+    published power, frequency and fluence per filing and report how many of the eleven
+    were actually read. Do NOT conflate a published dose with evidence of benefit;
+    the Geneo X Elite file publishes its dose and contains no clinical data at all.'

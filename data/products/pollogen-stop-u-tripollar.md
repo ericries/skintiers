@@ -30,7 +30,7 @@ name: Pollogen STOP U / TriPollar (home RF device)
 slug: pollogen-stop-u-tripollar
 status: published
 type: product
-updated: '2026-10-25'
+updated: '2026-11-08'
 ---
 
 The Pollogen STOP U, sold under the TriPollar name, is the home radiofrequency device that much of this category's regulatory paperwork points back to: it is the named predicate for [[currentbody-skin-rf]]. **Bottom line:** reading its own file shows the chain has no clinical anchor in any over-the-counter device. The category evidence overall is on [[home-radiofrequency-skin-tightening]].
@@ -70,7 +70,7 @@ Not established here. Pollogen's site is a company and clinic-facing site rather
 
 ## See Also
 
-[[currentbody-skin-rf]], [[silkn-titan-allways]], [[newa-skin-therapy-system]], [[home-radiofrequency-skin-tightening]], [[home-use-skincare-devices-by-evidence]], [[fda-approved-vs-cleared-skincare]], [[anti-aging]].
+[[pollogen-geneo-x-elite]], the later device that names this one as its sole predicate, [[currentbody-skin-rf]], [[silkn-titan-allways]], [[newa-skin-therapy-system]], [[home-radiofrequency-skin-tightening]], [[home-use-skincare-devices-by-evidence]], [[fda-approved-vs-cleared-skincare]], [[anti-aging]].
 
 ## Sources
 

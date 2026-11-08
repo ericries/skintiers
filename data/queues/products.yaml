@@ -4159,7 +4159,7 @@
 - name: Geneo X Elite (K233766, K242227)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: pollogen-stop-u-tripollar
   source: two of Pollogen's five PAY-code clearances, cleared 2024 and 2025 and distinct
     from the STOP U line; no page covers them
@@ -4471,7 +4471,7 @@
 - name: Pollogen Geneo X Elite (K233766 / K242227)
   type: product
   priority: 4
-  status: pending
+  status: done
   discovered_from: home-rf-devices-by-whose-evidence-the-file-rests-on
   source: Two PAY-coded clearances held by Pollogen, K233766 (2024-05-07) and K242227
     (2025-10-12), both Summaries. Pollogen holds five of the eleven 510(k)s in the
@@ -4766,7 +4766,7 @@
 - name: Pollogen Geneo X Elite
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: pollogen
   source: Cleared under K233766 (2024-05-07) and K242227 (2025-10-12) in product code
     PAY, the over-the-counter radiofrequency wrinkle-reduction code, so it is a consumer
@@ -5951,3 +5951,21 @@
     described as having included both monotherapy arms, which if true would make it
     the SECOND entry graded good and would change the list''s headline. DO NOT add
     it on that recollection; verify it. Then add the rows and close this.'
+- name: Geneo X Elite K242227 (2025 clearance, read the Summary when FDA publishes
+    it)
+  type: product
+  priority: 7
+  status: pending
+  discovered_from: pollogen-geneo-x-elite
+  source: 'NOT A NEW PAGE. One section on the existing [[pollogen-geneo-x-elite]],
+    which currently covers K233766 in full and K242227 from its openFDA index record
+    only, and says so. WHY IT IS DEFERRED, verified 2026-11-08: a document-archive
+    fetch for K242227 returned 404 across pdf24, pdf25 and pdf26, which is normal
+    for a clearance decided 2025-10-12 because FDA publishes Summaries on a lag. DO
+    NOT RETRY SOON; a sensible interval is a couple of months. WHEN IT IS THERE, the
+    specific questions are whether the 2025 filing changes the dose figures the 2024
+    one published (6.0 W, 1 MHz, 6.0 W/cm2), whether it still chains to the firm''s
+    own STOP U K220322 or to something new, and whether it contains any clinical data,
+    since the 2024 one contains none. Apply the same string-search absence check used
+    there. Low priority on purpose: nothing about the live page is wrong today, this
+    only completes it.'
