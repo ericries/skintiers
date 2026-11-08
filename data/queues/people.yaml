@@ -491,7 +491,7 @@
 - name: Dr. Laura Soong
   type: person
   priority: 4
-  status: pending
+  status: done
   discovered_from: video-sources
   source: 8 video cards cite creator_slug laura-soong with no person page, including
     the warts how-to carded on [[warts]] from her back catalogue. Roster tier HIGH,

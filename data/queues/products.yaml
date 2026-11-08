@@ -4886,12 +4886,14 @@
 - name: Pro X OTC 5 Light Therapy device (K140471, La Lumiere)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: pulsaderm-wrinkle-mask-28
   source: The other predicate named in the K163329 Summary, La Lumiere LLC, cleared
     2014. The comparison table gives it 610 nm red and 850 nm infrared, 18 LEDs, 3
     minutes per area daily and 30 sessions per device, with several output fields
     listed as unknown; read its own filing rather than relying on a competitor's table
+  resolved_reason: 'auto-reconciled: a product page already exists for ''Pro X OTC
+    5 Light Therapy device (K140471, La Lumiere)'' (queue_reconcile)'
 - name: Absorica LD (isotretinoin, lower-dose formulation)
   type: product
   priority: 5
