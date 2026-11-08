@@ -1298,3 +1298,20 @@
     cases. Fix the check with a red-green test before fixing the page, otherwise the
     same rot is invisible elsewhere; a repo-wide count of orphaned footnotes would
     be worth running once the check is right.'
+- name: LED device filings that publish clinical data, and the one that does
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: pro-x-otc-5-la-lumiere-wrinkle-mask
+  source: 'CHECK FIRST WHETHER THIS SHOULD BE A SECTION RATHER THAN A PAGE. [[home-led-devices-by-what-the-file-publishes]]
+    already ranks LED filings by disclosure and is the natural home; a separate list
+    is only justified if the clinical-data axis is genuinely different from the dose-disclosure
+    axis it already uses. If it is not, add a section there and CLOSE this row, which
+    is the outcome I would expect. The finding that prompted it, established 2026-11-08
+    on [[pro-x-otc-5-la-lumiere-wrinkle-mask]]: K140471 reports an 8-week placebo-controlled
+    trial, 50 subjects, 30 treated and 20 controls, two blinded physicians, p<0.001,
+    which makes it the only LED clearance read on this site containing clinical data.
+    Everything else read so far reports none. Do NOT re-research that; it is sourced
+    on that page. The work is checking the remaining filings the site has already
+    read for the same thing, and saying honestly how many were checked rather than
+    implying the whole category was.'

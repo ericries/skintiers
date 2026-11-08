@@ -5257,7 +5257,7 @@
 - name: illuMask Anti-Aging Light Therapy Mask (K123999 sibling)
   type: product
   priority: 3
-  status: pending
+  status: done
   discovered_from: blue-light-eye-safety-home-devices
   source: K123999 clearance read 2026-11-03; La Lumiere LLC
 - name: NuFACE Super Peptide Booster Serum
@@ -5900,3 +5900,19 @@
     the rest are not interchangeable. Get the ordered INCI before writing a word.
     Then route the evidence to that list and to [[vitamin-c]] rather than re-arguing
     which form wins.
+- name: Lightstim for Wrinkles (K120775, LED Intellectual Properties)
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: pro-x-otc-5-la-lumiere-wrinkle-mask
+  source: 'The OTHER predicate of K140471, named in that Summary verbatim as ''Lightstim
+    for Wrinkles (K120775) manufactured by LED Intellectual Properties, LLC'', and
+    covered on [[pro-x-otc-5-la-lumiere-wrinkle-mask]]. It widens the LED list beyond
+    LED Technologies, Theragun, Pulsaderm and La Lumiere. CAUTION: K120775 is as-read
+    from the predicate list and NOT independently verified; confirm it against openFDA
+    by k_number before citing the number, and if it does not resolve, search by applicant
+    instead of guessing. THE SPECIFIC QUESTION worth answering is whether Lightstim
+    publishes a dose and a trial the way its descendant K140471 does, or nothing the
+    way most of the category does, because that decides whether the data-rich filing
+    was an inherited habit or a one-off. Apply the standard disclosure check from
+    [[home-led-devices-by-what-the-file-publishes]].'

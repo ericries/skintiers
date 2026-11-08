@@ -29,7 +29,7 @@ name: illuMask Acne Light Therapy Mask (La Lumiere)
 slug: illumask-acne-light-therapy-mask
 status: published
 type: product
-updated: '2026-10-20'
+updated: '2026-11-08'
 ---
 
 This is the device at the root of the Neutrogena acne-mask lineage, and reading its file overturns what the rest of that lineage suggested. **Bottom line:** the chain does NOT bottom out in an absence of clinical data. It bottoms out here, in a real 12-week IRB-approved study with large numbers and a design that cannot support them.[^k123999] Category evidence is on [[home-led-light-therapy]].
@@ -76,7 +76,7 @@ Not priced here, and this page takes no position on current availability.
 
 ## See Also
 
-[[neutrogena-light-therapy-acne-mask-plus]] [[pulsaderm-acne-mask-28]] [[home-led-light-therapy]] [[home-use-skincare-devices-by-evidence]] [[fda-approved-vs-cleared-skincare]] [[newa-skin-therapy-system]] [[foreo-faq-led-masks]] [[acne]]
+[[pro-x-otc-5-la-lumiere-wrinkle-mask]] [[neutrogena-light-therapy-acne-mask-plus]] [[pulsaderm-acne-mask-28]] [[home-led-light-therapy]] [[home-use-skincare-devices-by-evidence]] [[fda-approved-vs-cleared-skincare]] [[newa-skin-therapy-system]] [[foreo-faq-led-masks]] [[acne]]
 
 ## Sources
 
