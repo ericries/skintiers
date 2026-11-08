@@ -1315,3 +1315,22 @@
     on that page. The work is checking the remaining filings the site has already
     read for the same thing, and saying honestly how many were checked rather than
     implying the whole category was.'
+- name: Prescription acne combinations by whether their trials beat the single ingredients
+  type: list
+  priority: 3
+  status: pending
+  discovered_from: acanya-clindamycin-benzoyl-peroxide-gel
+  source: 'THE STRONGEST LIST IDEA THIS SITE HAS SURFACED IN A WHILE, and it is cheap
+    because the data is all on FDA labels the site can already read. The axis: a combination
+    acne product is only worth its combination price if its own trials included MONOTHERAPY
+    arms and it beat them. Most did not even ask. Established 2026-11-08 on [[acanya-clindamycin-benzoyl-peroxide-gel]]:
+    both Acanya trials included clindamycin alone, benzoyl peroxide alone AND vehicle,
+    and Acanya won every co-primary measure, but by single-digit margins against the
+    monotherapies versus a wide margin against vehicle. DO NOT re-research Acanya;
+    it is sourced there. The work is pulling the Clinical Studies section of each
+    combination label the site already covers, including [[benzaclin-clindamycin-benzoyl-peroxide-gel]],
+    [[epiduo-adapalene-benzoyl-peroxide-gel]] and the Onexton row now queued, and
+    recording for each whether monotherapy arms existed at all. A page that can say
+    which combinations were never compared to their own parts is genuinely useful
+    and nobody publishes it. Say honestly how many labels were read rather than implying
+    the whole class. Keep the tier_list by that axis, not by efficacy.'

@@ -31,7 +31,7 @@ name: BenzaClin (clindamycin 1% / benzoyl peroxide 5% gel)
 slug: benzaclin-clindamycin-benzoyl-peroxide-gel
 status: published
 type: product
-updated: '2026-11-05'
+updated: '2026-11-08'
 ---
 
 BenzaClin is the brand name for a prescription fixed-combination topical gel of clindamycin 1% (as phosphate) and benzoyl peroxide 5%, originally marketed by Dermik Laboratories, a business of sanofi-aventis U.S. LLC, and FDA-approved "for the topical treatment of acne vulgaris."[^dailymed] Each gram contains 10 mg (1%) clindamycin as phosphate and 50 mg (5%) benzoyl peroxide.[^dailymed]
@@ -100,7 +100,7 @@ No brand marketing page was reviewed for this product; the claims below come fro
 
 ## See Also
 
-[[clindamycin-topical]], [[benzoyl-peroxide]], [[acne]], [[epiduo-adapalene-benzoyl-peroxide-gel|Epiduo (adapalene / benzoyl peroxide gel)]], [[panoxyl-acne-creamy-wash-benzoyl-peroxide-4|PanOxyl (benzoyl peroxide 4% wash)]], [[epsolay-benzoyl-peroxide-5-cream]].
+[[acanya-clindamycin-benzoyl-peroxide-gel|Acanya, the lower-strength sibling whose trials tested it against both ingredients]], [[clindamycin-topical]], [[benzoyl-peroxide]], [[acne]], [[epiduo-adapalene-benzoyl-peroxide-gel|Epiduo (adapalene / benzoyl peroxide gel)]], [[panoxyl-acne-creamy-wash-benzoyl-peroxide-4|PanOxyl (benzoyl peroxide 4% wash)]], [[epsolay-benzoyl-peroxide-5-cream]].
 
 ## Sources
 

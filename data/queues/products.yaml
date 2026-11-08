@@ -5379,7 +5379,7 @@
 - name: Acanya (clindamycin 1% / benzoyl peroxide 2.5% gel)
   type: product
   priority: 3
-  status: pending
+  status: done
   discovered_from: benzaclin-clindamycin-benzoyl-peroxide-gel
   source: Surfaced while confirming BenzaClin's discontinuation. openFDA NDC 13548-132,
     labeler Bausch Health US, LLC, marketing_category NDA, brand ACANYA, clindamycin
@@ -5916,3 +5916,18 @@
     way most of the category does, because that decides whether the data-rich filing
     was an inherited habit or a one-off. Apply the standard disclosure check from
     [[home-led-devices-by-what-the-file-publishes]].'
+- name: Onexton / generic clindamycin 1.2% and benzoyl peroxide 3.75% gel
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: acanya-clindamycin-benzoyl-peroxide-gel
+  source: The third clindamycin plus benzoyl peroxide combination, after [[benzaclin-clindamycin-benzoyl-peroxide-gel]]
+    at 5 percent and [[acanya-clindamycin-benzoyl-peroxide-gel]] at 2.5 percent, sitting
+    between them at 3.75 percent. START with openFDA drug/label by brand name Onexton
+    and CHECK THE MARKETING CATEGORY in drug/ndc the way the Acanya page does, because
+    older topical combinations are often unapproved marketed drugs rather than approved
+    ones and that distinction belongs in the first paragraph. THE QUESTION THAT MAKES
+    THE PAGE is whether its label's Clinical Studies section includes monotherapy
+    arms the way Acanya's does, or only a vehicle comparison; that feeds the list
+    queued alongside this. Route ingredient evidence to [[clindamycin-topical]] and
+    [[benzoyl-peroxide]] rather than restating it.
