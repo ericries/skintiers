@@ -32,6 +32,18 @@ status: published
 tier: mid
 type: ingredient
 updated: '2026-11-07'
+videos:
+- title: How to make sure scars look amazing, from a dermatologist
+  creator: Dr. Chris Tomassian
+  creator_slug: chris-tomassian
+  credential: Board-certified dermatologist
+  platform: TikTok
+  url: https://www.tiktok.com/@chris.tomassian/video/7697007524175727885
+  posted: '2026-10-15'
+  related: [surgical-and-wound-scars, petrolatum, acne-scars]
+  thesis: Board-certified dermatologist Dr Chris Tomassian gives four rules for helping a scar heal well, and silicone is the one he rates highest, calling it probably the most well studied thing for a scar and contrasting it with bio oils and vitamin E. His other three are keeping the wound moist early with petroleum jelly, starting laser treatment early rather than waiting, and keeping tension off the healing scar, which he calls the critical one after surgery. His verdict that silicone is cheap and works is his own clinical framing; the pooled trials behind it are rated poor quality by the people who pooled them.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 The most recommended non-invasive scar treatment, and the one whose evidence base is weakest relative to its reputation. **Bottom line:** across 20 randomised trials the direction is consistently favourable, the pooled effects are statistically significant, and the trials themselves are poor quality. Cochrane's own summary word is "weak".

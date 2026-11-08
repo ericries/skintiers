@@ -757,7 +757,7 @@
 - name: Biodance
   type: brand
   priority: 4
-  status: pending
+  status: done
   discovered_from: biodance-collagen-cleansing-oil
   source: "Two products already covered here; biodance.co.kr product records name\
     \ the manufacturer as Nowcos and the responsible distributor as Beauty Selection\
