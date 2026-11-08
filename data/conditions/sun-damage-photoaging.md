@@ -1,4 +1,10 @@
 ---
+aliases:
+- Sun damage
+- Photoaging
+- Photoageing
+- UV damage
+- Sun Damage and Photoaging
 analyzed: '2026-08-30'
 assurance: opus
 name: Sun Damage and Photoaging

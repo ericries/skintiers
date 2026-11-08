@@ -15649,7 +15649,8 @@
   conflict: Promotes her own curated product box, Dermy Doc Box (@dermy.doc.box), with link-in-bio callouts in the caption tail (observed 2026-10-29 on clip 7686867010508164366, posted 2026-09-18) - treat her product picks and seasonal recommendations as own-product promotion
   posted: '2026-11-02'
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: promotional for a laser treatment the creator sells in her own practice (PicoSure Pro), with a book-with-me close and a practice hashtag; same shape as the UltraClear clip rejected 2026-11-07
 - id: '7704082621071953173'
   title: 'my second about tone water fit blush try on: w11 moody pink, a muted ...'
   creator: Hannah English (@ms_hannah_e / Hannah Collingwood English)
@@ -16352,7 +16353,8 @@
   conflict: Bio includes a business/booking contact email suggesting managed brand partnerships; no confirmed own-brand line or affiliate stor
   posted: '2026-11-08'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: clean dermatologist education on how long to give a product (one month minimum, three months ideally) with no sponsorship anywhere, but the site has no page on judging whether a product is working; gap queued instead
 - id: 7bLZ4t-oyuE
   title: Affordable Skincare I'd Actually Buy in My 40s
   creator: Dr. Daniel Sugai
