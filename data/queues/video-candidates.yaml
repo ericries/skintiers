@@ -9419,7 +9419,8 @@
   conflict: null
   posted: '2026-10-02'
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: 'sponsored: the caption tail carries the VTCosmeticsPartner tag for the product discussed, although the spoken transcript is purely educational'
 - id: 7fzCZS_3eUc
   title: Have you tried any of these?!
   creator: Dr. Maren Locke (The Budget Dermatologist)
@@ -10633,7 +10634,8 @@
   conflict: 'Runs #ad sponsored posts (e.g. TruSkin) and Target skincare hauls/reviews; prefer her educational ingredient-category and barrier-repair explainers, and treat product recommendations as effectively promotional (skip).'
   posted: '2026-10-07'
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: 'promotional in shape: first hashtag is the brand name and it closes by naming that brand''s spray, and this creator''s roster says to treat her product recommendations as effectively promotional. The educational content (bacteria and inflammation rather than oil and clogging, benzoyl peroxide as the comparator) is already on the hypochlorous-acid page, which grades the ingredient weak'
 - id: k7LEwdYOazU
   title: '#skincare #cosmeticdermatology #asianskincare #asianhaircare #kbeauty dermatologist'
   creator: Dr. Jenny Liu (Jenny Liu, MD, FAAD)
@@ -10943,7 +10945,8 @@
   conflict: 'Runs #ad sponsored posts (e.g. TruSkin) and Target skincare hauls/reviews; prefer her educational ingredient-category and barrier-repair explainers, and treat product recommendations as effectively promotional (skip).'
   posted: '2026-10-08'
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: no English transcript, and 20 seconds; caption cites a 2021 sunscreen-coverage study whose figures cannot be verified from the clip
 - id: v2h1LkTeMMo
   title: What does Shakespeare have to do with the viral Kérastase Genesis serum?
   creator: Dr. Joyce Park (Tea with MD)

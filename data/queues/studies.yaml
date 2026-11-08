@@ -2065,3 +2065,23 @@
     no funding or conflict statement in the abstract, and the first author''s surname
     and city match a testimonial on the product''s own website. Do NOT re-tell the
     silicone-dressing story; link to [[stratacel-film-forming-dressing]] and [[post-ablative-laser-aftercare]].'
+- name: Sunscreen coverage decay measured by UV photography, 2021 (PMID 37632801,
+    needs verification)
+  type: study
+  priority: 4
+  status: pending
+  discovered_from: reading-a-sunscreen-label
+  source: 'LEAD FROM A REJECTED VIDEO, AND THE NUMBERS ARE THE CREATOR''S, NOT VERIFIED.
+    On 2026-11-08 a 20-second TikTok by esthetician Jenn Lexi was rejected for having
+    no English transcript, but its caption cited ''a 2021 study'' finding ''an average
+    18% reduction in coverage signal after 2 hours and nearly 29% after 6 hours''.
+    A PubMed search the same day for sunscreen UV-photography coverage studies from
+    2020 to 2022 returns exactly one record: PMID 37632801, ''Assessing Sunscreen
+    Protection Using UV Photography: Descriptive Study'', JMIR Dermatology, 2021 May
+    26. THAT IS A PLAUSIBLE MATCH AND NOTHING MORE. Do NOT write the 18 and 29 percent
+    figures until you have read the abstract and confirmed they are in it; if they
+    are not, the honest finding is that a widely-shared figure cannot be traced to
+    the study it is attributed to, which is worth a page on its own. Note the design
+    word in the title is DESCRIPTIVE, not randomised or controlled, which caps what
+    any figure from it can support. Route the practical question to [[reading-a-sunscreen-label]]
+    and [[sunscreen-uv-filters]].'
