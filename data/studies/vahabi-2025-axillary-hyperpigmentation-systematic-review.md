@@ -10,7 +10,7 @@ name: 'Vahabi 2025: axillary hyperpigmentation treatment, a systematic review'
 slug: vahabi-2025-axillary-hyperpigmentation-systematic-review
 status: published
 type: study
-updated: '2026-10-27'
+updated: '2026-11-08'
 ---
 
 A systematic review of every published treatment for underarm hyperpigmentation, topical and device-based. The site's pigment coverage generally is on [[hyperpigmentation]]; what is specific here is a body site with, in the authors' words, "no standard treatment".[^study]
@@ -19,7 +19,7 @@ A systematic review of every published treatment for underarm hyperpigmentation,
 
 **Population / n:** Not reportable at the review level. "Ten studies on AH were categorized into topical treatments, light/laser-based therapies, and comparative approaches."[^study] The abstract contains no participant total, no per-study sample size, no skin-type distribution and no follow-up duration. It contains no numeral of any kind: the count of included studies is the spelled-out ten, and that is the only quantity in it.
 
-**Intervention / comparator:** Topical agents listed as "niacinamide, desonide, sweet orange extract, Perilla frutescens leaf extract, Cyperus rotundus oil, glycolic acid, and novel serums", plus Q-switched Nd:YAG laser and intense pulsed light.[^study] Comparators vary by included study and are not standardised across the review. One study of Curcuma aeruginosa was excluded "due to its primary focus on hair growth reduction rather than pigmentation".[^study]
+**Intervention / comparator:** Topical agents listed as "niacinamide, desonide, sweet orange extract, Perilla frutescens leaf extract, Cyperus rotundus oil, glycolic acid, and novel serums" (the sweet orange entry is set out on [[sweet-orange-peel-extract]], where the full text identifies it as a 0.1% Citrus sinensis peel extract cream), plus Q-switched Nd:YAG laser and intense pulsed light.[^study] Comparators vary by included study and are not standardised across the review. One study of Curcuma aeruginosa was excluded "due to its primary focus on hair growth reduction rather than pigmentation".[^study]
 
 **Primary results (verbatim):** The topicals "demonstrated varying degrees of pigmentation reduction, with desonide and C. rotundus oil showing significant effectiveness and minimal side effects".[^study] On devices, "Q-switched Nd:YAG laser was effective across three studies", and both it and IPL "showed significant improvement with minimal adverse events; though pain was more reported with the laser".[^study] Head to head, "A comparative study found IPL superior to alpha-hydroxy acid in skin lightening and texture improvement."[^study]
 

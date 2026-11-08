@@ -2978,7 +2978,7 @@
 - name: Sweet orange extract (Citrus sinensis)
   type: ingredient
   priority: 3
-  status: pending
+  status: done
   discovered_from: vahabi-2025-axillary-hyperpigmentation-systematic-review
   source: 'Named as a studied topical for axillary hyperpigmentation in Vahabi 2025
     (PMID 40843925), where it appears only as ''sweet orange extract'' with no INCI
@@ -3916,3 +3916,22 @@
     three of its four indications are not skin conditions at all, which the page should
     say in one clause rather than implying it is a skin drug. Set tier from the rubric
     you write.'
+- name: Desonide 0.05% (topical corticosteroid, for pigmentation)
+  type: ingredient
+  priority: 4
+  status: pending
+  discovered_from: sweet-orange-peel-extract
+  source: 'ONE OF TWO AGENTS THE 2025 REVIEW SINGLED OUT as showing significant effectiveness
+    for axillary hyperpigmentation, the other being [[cyperus-rotundus]], which already
+    has a page. Grounded in Vahabi 2025 (PMID 40843925, full text PMC12371607, already
+    read and quoted on [[sweet-orange-peel-extract]]): in Castanedo-Cazares et al,
+    24 female patients from tropical areas with Fitzpatrick III to V were randomised
+    to niacinamide 4%, desonide 0.05% or placebo nightly for 9 weeks, and both actives
+    beat placebo. VERIFY THAT ROW IN THE FULL TEXT BEFORE WRITING; the above is from
+    a quick read and the numbers were not extracted. THE SCOPE QUESTION TO SETTLE
+    FIRST: desonide is a prescription topical corticosteroid and the site already
+    has [[topical-corticosteroids]] and [[hydrocortisone-otc-topical-corticosteroid]],
+    so decide whether this needs its own page or a section there. THE TENSION WORTH
+    WRITING ABOUT if it does: a steroid used to treat pigmentation, when steroid overuse
+    on thin skin causes its own problems, and [[topical-corticosteroids]] already
+    carries that warning. Set tier from the rubric you verify.'
