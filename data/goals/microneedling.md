@@ -13,7 +13,7 @@ name: Microneedling
 slug: microneedling
 status: published
 type: goal
-updated: '2026-10-10'
+updated: '2026-11-07'
 videos:
 - title: 'Microneedling vs. RF Microneedling: what''s the difference?'
   creator: Dr. Ife Rodney
@@ -99,7 +99,7 @@ Microneedling creates controlled micro-injuries in skin to provoke a repair resp
 
 ## See Also
 
-[[rf-microneedling-acne-scars]] [[acne-scars]] [[acne]] [[hyperpigmentation]] [[skin-firmness-elasticity]] [[anti-aging]] [[laser-hair-removal]] [[retinoids]]
+[[rf-microneedling-acne-scars]] [[fractional-radiofrequency-microneedling]] [[acne-scars]] [[acne]] [[hyperpigmentation]] [[skin-firmness-elasticity]] [[anti-aging]] [[laser-hair-removal]] [[retinoids]]
 
 ## Sources
 

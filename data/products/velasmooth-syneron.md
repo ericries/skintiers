@@ -1,4 +1,8 @@
 ---
+aliases:
+- VelaSmooth
+- Vela Smooth
+- K031988
 analyzed: '2026-11-06'
 assurance: sonnet
 brand: Syneron

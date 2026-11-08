@@ -1004,7 +1004,7 @@
 - name: Skin laxity and crepey skin
   type: condition
   priority: 4
-  status: pending
+  status: done
   discovered_from: silicone-gel-and-sheeting-for-scars
   source: 'Paired with the collagen gap found the same day. sk find returns nothing
     for skin laxity or crepey skin; the nearest hit is an unrelated brand at 69. These
@@ -1024,3 +1024,29 @@
   status: pending
   discovered_from: chronic-spontaneous-urticaria
   source: null
+- name: Add the Boisnic 2010 absence finding to the cellulite page
+  type: condition
+  priority: 4
+  status: pending
+  discovered_from: cellulite
+  source: 'NOT A NEW PAGE. One paragraph plus a footnote on the EXISTING [[cellulite]]
+    page, which is already 907 words with a tier_list and does not need expanding
+    otherwise. WHY THIS CAME UP: a goal-type row asked for ''Cellulite: what the evidence
+    actually supports'', which is what the condition page already is, so that row
+    was closed as a duplicate hub request on 2026-11-07. The one thing in its note
+    that the page does NOT contain is worth keeping. THE FINDING: Boisnic 2010, PMID
+    20395192, is the home-use body radiofrequency trial cited on [[home-body-devices-by-whether-body-evidence-exists]].
+    Its stated objective includes cellulite improvement, but the abstract reports
+    circumference and laxity outcomes and NO cellulite result. A trial that sets out
+    to improve cellulite and then reports everything except cellulite is exactly the
+    absence this site documents. VERIFY IT FIRST by reading the abstract yourself;
+    grep returns zero occurrences of Boisnic or 20395192 on the cellulite page today,
+    so this is genuinely missing rather than differently worded. Change nothing else.
+    ALSO NOTED 2026-11-07, same class of mistake found twice in one tick: I queued
+    a ''Skin laxity and crepey skin'' condition on 2026-11-07 that turned out to duplicate
+    the existing [[skin-firmness-elasticity]] goal page, which already covers laxity
+    AND carries a video card specifically about crepey skin. That row is now closed.
+    The lesson for whoever works this queue: sk find scores descriptive multi-word
+    names poorly, so a 66 or 69 against an existing page is NOT evidence that the
+    topic is uncovered. Check the neighbouring hub''s actual sections before queueing
+    a new one.'

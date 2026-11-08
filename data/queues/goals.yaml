@@ -860,7 +860,7 @@
 - name: 'Cellulite: what the evidence actually supports'
   type: goal
   priority: 4
-  status: pending
+  status: done
   discovered_from: home-body-devices-by-whether-body-evidence-exists
   source: 'Cellulite is a named target of the one home-use body RF trial (Boisnic
     2010, PMID 20395192) and the site has no hub for it The site has no cellulite
@@ -921,7 +921,7 @@
 - name: Fractional radiofrequency microneedling
   type: goal
   priority: 4
-  status: pending
+  status: done
   discovered_from: gold-2019-stratacel-vs-aquaphor-microneedling-pmid-30756451
   source: 'A real hub gap, not an invented one: [[microneedling]] and [[fractional-co2-laser-resurfacing]]
     both exist, but RF microneedling is neither, and sk find scores it 66 against
