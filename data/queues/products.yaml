@@ -4734,7 +4734,7 @@
 - name: Prequel Multi-Acid Milk Peel Wipes
   type: product
   priority: 3
-  status: pending
+  status: done
   discovered_from: prequel-multi-acid-milk-peel
   source: 'Prequel sells the same multi-acid formula as WIPES at 20.00 and as a DUO
     at 39.00 alongside the 23.00 bottle (brand catalogue, verified 2026-10-29). Worth
@@ -5857,3 +5857,46 @@
     is before deciding this belongs on a skincare site at all. The no-published-dose
     finding is already made on [[dermillume-red-hr1000]] and [[home-led-devices-by-what-the-file-publishes]];
     do not re-argue it, test whether this older file is the same or different.'
+- name: Prequel Retinal Renew
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: prequel-multi-acid-milk-peel
+  source: 'FROM A CATALOGUE SURVEY RUN 2026-11-07, not a guess: the Prequel products.json
+    endpoint returns 63 products, 41 of them single items rather than sets, and 35
+    of those 41 have NO page here. The site covers six. This is the highest-value
+    of the gaps because retinaldehyde has its own ingredient page, [[retinaldehyde]],
+    and few consumer brands sell it. Catalogue facts already verified: RETINAL RENEW,
+    29.00. START with inci_lookup for the ordered INCI, then the brand page for the
+    retinaldehyde PERCENTAGE, which is the whole question for this ingredient class
+    and is what [[avene-retrinal-0-1-intensive-cream]] turns on. The brand''s own
+    catalogue copy is cached at research-cache/web/10c5990234090103.md so the claims
+    can be quoted without a re-fetch. Route retinoid evidence out to [[retinaldehyde]]
+    and [[retinoids]] rather than re-arguing it, exactly as [[prequel-multi-acid-milk-peel]]
+    routes its acid evidence.'
+- name: Prequel Scar Solutions Stick
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: prequel-multi-acid-milk-peel
+  source: 'Queued 2026-11-07 from the same Prequel catalogue survey. SCAR SOLUTIONS
+    STICK, 18.00. It lands directly on top of work finished the same day: [[silicone-gel-and-sheeting-for-scars]]
+    now carries the Cochrane pooled numbers and the tier mid verdict, and [[surgical-and-wound-scars]]
+    is the condition hub. CHECK THE COMPOSITION FIRST because it decides the whole
+    page: if the stick is silicone-based it inherits that evidence and should link
+    to it in one clause; if it is petrolatum or an occlusive balm with no silicone,
+    it does NOT, and saying so is the finding. Do not assume from the name. Watch
+    for scar claims that outrun the category evidence, which is abundant but rated
+    poor quality by Cochrane.'
+- name: Prequel Lucent-C
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: prequel-multi-acid-milk-peel
+  source: Queued 2026-11-07 from the same Prequel catalogue survey. LUCENT-C, 23.00,
+    presumably a vitamin C product. THE ONE THING THAT MATTERS is which derivative
+    and at what concentration, because [[vitamin-c-forms-by-evidence]] already ranks
+    them and L-ascorbic acid, sodium ascorbyl phosphate, 3-O-ethyl ascorbic acid and
+    the rest are not interchangeable. Get the ordered INCI before writing a word.
+    Then route the evidence to that list and to [[vitamin-c]] rather than re-arguing
+    which form wins.
