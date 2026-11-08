@@ -1050,3 +1050,19 @@
     names poorly, so a 66 or 69 against an existing page is NOT evidence that the
     topic is uncovered. Check the neighbouring hub''s actual sections before queueing
     a new one.'
+- name: Post-inflammatory hyperpigmentation after energy-based facial procedures
+  type: condition
+  priority: 4
+  status: pending
+  discovered_from: li-2026-rfmn-vs-fractional-co2-acne-scars-pmid-42312398
+  source: 'GROUNDED IN A FINDING, NOT A GUESS: the split-face trial [[li-2026-rfmn-vs-fractional-co2-acne-scars-pmid-42312398]]
+    reports ''fewer post-inflammatory hyperpigmentation events'' with RF microneedling
+    than with fractional CO2, and that, not efficacy, is where the two modalities
+    actually differed. The site has [[post-inflammatory-hyperpigmentation]]? CHECK
+    FIRST: sk find scores descriptive names poorly and has wrongly suggested three
+    covered topics were gaps in the last two days, so confirm against [[hyperpigmentation]]
+    and [[post-inflammatory-erythema]] before creating anything, and close this row
+    if the ground is already held. If it IS a gap, the page''s job is narrow: which
+    procedures carry the risk, who carries it (skin of colour, and the Li trial does
+    NOT describe its population, which is the limitation to state), and what reduces
+    it. Route general pigment evidence out rather than restating it.'

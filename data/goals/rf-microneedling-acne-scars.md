@@ -11,7 +11,7 @@ name: RF Microneedling for Acne Scars (the one that may not trade potency for to
 slug: rf-microneedling-acne-scars
 status: published
 type: goal
-updated: '2026-10-28'
+updated: '2026-11-08'
 ---
 
 An in-office procedure that drives insulated needles into the dermis and delivers radiofrequency energy at the tip. It sits between the two things this site already covers, plain [[microneedling]] and [[fractional-co2-laser-resurfacing]], and the interesting question is whether it keeps the efficacy of the laser without the pigment risk. The downtime-and-pain comparison across all the options is on [[acne-scar-treatments-by-downtime-and-pain]].
@@ -24,7 +24,7 @@ A 2026 systematic review of needling therapies against ablative fractional laser
 
 ## The Evidence
 
-**The head-to-head trial reads the same way.** A 2026 prospective, randomised, evaluator-blinded split-face trial put radiofrequency microneedling on one side of the face and fractional CO2 on the other in 33 patients, 30 of whom completed, across three sessions eight weeks apart.[^splitface] Mean ECCA scar scores fell from 54.73 to 30.53 with radiofrequency and from 53.67 to 31.03 with the laser, "without a significant between-treatment difference", and physician-rated improvement was comparable.[^splitface] The radiofrequency side had "shorter erythema, pain, swelling, and scab-detachment durations and fewer post-inflammatory hyperpigmentation events".[^splitface] The authors call the trial exploratory and the sample is small, so this is one well-designed study rather than a settled answer.
+**The head-to-head trial reads the same way**, and is set out field by field on [[li-2026-rfmn-vs-fractional-co2-acne-scars-pmid-42312398]]. A 2026 prospective, randomised, evaluator-blinded split-face trial put radiofrequency microneedling on one side of the face and fractional CO2 on the other in 33 patients, 30 of whom completed, across three sessions eight weeks apart.[^splitface] Mean ECCA scar scores fell from 54.73 to 30.53 with radiofrequency and from 53.67 to 31.03 with the laser, "without a significant between-treatment difference", and physician-rated improvement was comparable.[^splitface] The radiofrequency side had "shorter erythema, pain, swelling, and scab-detachment durations and fewer post-inflammatory hyperpigmentation events".[^splitface] The authors call the trial exploratory and the sample is small, so this is one well-designed study rather than a settled answer.
 
 **Equivalent is the finding, not superior.** Both confidence intervals in the pooled scar comparison cross 1, so the honest reading is that neither modality was shown to beat the other on atrophic scars, not that radiofrequency won.[^meta] The one comparison that did favour radiofrequency on efficacy was patient-evaluated improvement of ACNE rather than scars, RR 1.35 (95% CI 1.01 to 1.80), and the meta-analysis concludes it "could be a better choice for atrophic acne scar patients with active acne".[^meta] That is a narrower recommendation than the headline suggests.
 

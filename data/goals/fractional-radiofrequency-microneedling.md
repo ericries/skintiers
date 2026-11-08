@@ -20,9 +20,12 @@ tier_list:
       review says the modality "consistently reduced scar scores and demonstrated
       efficacy comparable to fractional lasers", a claim of parity rather than superiority.
       An independent 2026 review of 27 studies found instead that lasers "suggested
-      greater improvement than microneedling". That comparison is argued out on [[rf-microneedling-acne-scars]],
-      which owns this indication; the row is graded mid because parity is contested,
-      not established.
+      greater improvement than microneedling". The direct split-face trial,
+      [[li-2026-rfmn-vs-fractional-co2-acne-scars-pmid-42312398]], finds no significant
+      between-treatment difference in 30 completers, and favours RF microneedling on
+      recovery and pigmentation rather than on efficacy. That comparison is argued out
+      on [[rf-microneedling-acne-scars]], which owns this indication; the row stays mid
+      because one exploratory trial does not settle two disagreeing reviews.
     slug: acne-scars
     tier: mid
   - note: Improvements reported in "wrinkle scales, dermal density, and submental
@@ -45,7 +48,7 @@ tier_list:
     slug: stretch-marks
     tier: weak
 type: goal
-updated: '2026-11-07'
+updated: '2026-11-08'
 ---
 
 The procedure that sits between [[microneedling]] and a laser: needles deliver radiofrequency energy into the dermis rather than only wounding it. **The short version:** the evidence is wide rather than deep, nobody has pooled an effect size, and the two most recent syntheses were both led from a device manufacturer's medical affairs department.
@@ -69,6 +72,7 @@ The procedure that sits between [[microneedling]] and a laser: needles deliver r
 ## See Also
 
 - [[rf-microneedling-acne-scars]], this modality for the one indication with a deep literature
+- [[li-2026-rfmn-vs-fractional-co2-acne-scars-pmid-42312398]], the direct head-to-head against a CO2 laser
 - [[microneedling]], the same needling without the energy
 - [[fractional-co2-laser-resurfacing]], the comparator the acne scar evidence claims parity with
 - [[gold-2019-stratacel-vs-aquaphor-microneedling-pmid-30756451]], a trial of aftercare following this exact procedure

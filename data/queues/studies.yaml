@@ -1705,7 +1705,7 @@
     scars (PMID 42312398)'
   type: study
   priority: 4
-  status: pending
+  status: done
   discovered_from: rf-microneedling-acne-scars
   source: PMID 42312398, Journal of Dermatological Treatment 2026, a prospective randomized
     EVALUATOR-BLINDED split-face trial of radiofrequency microneedling against fractional
@@ -2085,3 +2085,25 @@
     word in the title is DESCRIPTIVE, not randomised or controlled, which caps what
     any figure from it can support. Route the practical question to [[reading-a-sunscreen-label]]
     and [[sunscreen-uv-filters]].'
+- name: Almahzoum 2026 needling versus ablative fractional lasers for scars (the independent
+    review, 27 studies)
+  type: study
+  priority: 4
+  status: pending
+  discovered_from: li-2026-rfmn-vs-fractional-co2-acne-scars-pmid-42312398
+  source: 'THE OTHER SIDE OF A DISAGREEMENT THE SITE NOW DOCUMENTS IN THREE PLACES.
+    Cited as [^review] on [[rf-microneedling-acne-scars]]: Almahzoum K, Alfailakawi
+    W, Alharran AM et al, ''Comparative Efficacy and Safety of Needling-Based Therapies
+    Versus Ablative Fractional Lasers for Scar Management: A Systematic Review and
+    an Exploratory Meta-Analysis'', Photodermatology Photoimmunology and Photomedicine
+    2026;42(5), 27 studies and 1,137 participants, finding lasers ''suggested greater
+    improvement than microneedling''. AGAINST IT sit the two manufacturer-led reviews
+    summarised on [[fractional-radiofrequency-microneedling]] and the independent
+    split-face RCT [[li-2026-rfmn-vs-fractional-co2-acne-scars-pmid-42312398]], which
+    found no significant between-treatment difference. A structured record of this
+    review would let the three be compared field by field, which is exactly what study
+    pages are for. GET THE PMID FIRST from the DOI or title; the goal page footnote
+    may not carry one. Note its own title calls the meta-analysis EXPLORATORY, the
+    same hedge the split-face trial uses, so neither side of this argument is resting
+    on a definitive synthesis, and the page should say so rather than treating the
+    independent review as the tiebreak.'
