@@ -595,3 +595,29 @@
     names, and target is the retailer it was filmed in. Brand channels are explicitly out of scope for
     carding, so none of these belongs in a creator-vetting queue. The products themselves were queued
     as product candidates instead, on 2026-11-07.'
+- name: Murad
+  channel_url: https://www.youtube.com/@Murad
+  hits: 1
+  topics:
+  - referral
+  discovered_via: 'referral: https://www.tiktok.com/@your.estie.ella/video/7698360923379076365'
+  status: skipped
+  resolved_reason: 'not a creator: the referral miner read brand tags in a TikTok caption as creator handles.
+    Murad and Paula''s Choice are skincare BRANDS the clip names, and the second entry is a truncated
+    parse of Paula''s Choice. SECOND OCCURRENCE of this exact failure, after 2026-11-06 when the same
+    miner harvested Remedy, cocokind, byoma, haruharu and target from another caption. mine_referrals.py
+    needs a brand filter for TikTok captions; on YouTube it reads descriptions where an @handle usually
+    is a collaborator.'
+- name: Paula
+  channel_url: https://www.youtube.com/@Paula
+  hits: 1
+  topics:
+  - referral
+  discovered_via: 'referral: https://www.tiktok.com/@your.estie.ella/video/7698360923379076365'
+  status: skipped
+  resolved_reason: 'not a creator: the referral miner read brand tags in a TikTok caption as creator handles.
+    Murad and Paula''s Choice are skincare BRANDS the clip names, and the second entry is a truncated
+    parse of Paula''s Choice. SECOND OCCURRENCE of this exact failure, after 2026-11-06 when the same
+    miner harvested Remedy, cocokind, byoma, haruharu and target from another caption. mine_referrals.py
+    needs a brand filter for TikTok captions; on YouTube it reads descriptions where an @handle usually
+    is a collaborator.'

@@ -11603,7 +11603,8 @@
   conflict: Founder/owner of active postpartum skincare brand "More Than Nine" (cleanser, exfoliator, moisturizer, balm) — an ongoing own-bran
   posted: '2026-10-13'
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: 7 seconds, and the subject is founding her own skincare brand rather than skincare; her roster already records that own-brand conflict
 - id: 0fteVYgZbCQ
   title: Do You Really Need to Use Tretinoin Every Night?
   creator: Dr. Aleksandra Brown, DO, FAAD

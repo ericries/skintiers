@@ -51,6 +51,16 @@ videos:
   related: [azelaic-acid, blackheads-clogged-pores, enlarged-pores, acne, salicylic-acid]
   thesis: Licensed esthetician Ella demonstrates using a sulfur mask as a morning spot treatment rather than an all-over overnight one, applying it to the chin, nose and centre of the forehead for five minutes on clean, dry skin and rinsing with warm water on a soft cloth. Her stated principle is to treat a spot as soon as you can feel it rather than waiting for it to surface. She is also unusually clear that sebaceous filaments are a normal feature of skin rather than something to eliminate, saying they are not evil and are a natural part of your skin that treatments like this only keep managed, and she follows the mask with azelaic acid and finishes with sunscreen pressed rather than rubbed in
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: 'Do not wait until you can see it to treat it: a sulfur mask as a spot treatment'
+  creator: Ella (@your.estie.ella)
+  creator_slug: your-estie-ella
+  credential: Licensed esthetician (NOT a dermatologist or cosmetic chemist)
+  platform: TikTok
+  url: https://www.tiktok.com/@your.estie.ella/video/7698360923379076365
+  posted: '2026-10-19'
+  related: [salicylic-acid, acne, hydrocolloid]
+  thesis: Licensed esthetician Ella demonstrates using a sulfur mask as a targeted spot and zone treatment rather than waiting for a spot to surface. Her method is to cleanse properly first, working the cleanser in for a full 90 seconds rather than 20, dry the skin completely, apply the mask only where clogs tend to form, leave it about five minutes, then lift it off with a warm damp washcloth rather than rubbing. She applies it to the nose and central forehead as well as the chin on the reasoning that sebaceous filaments are normal but turn into clogs if left unchecked, and she describes the routine as something she has done for years. Her verdict that the treatment is like magic is her own enthusiasm, not a measured result.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
