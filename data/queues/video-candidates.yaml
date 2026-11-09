@@ -12573,19 +12573,6 @@
   feed_rank: 0
   status: skipped
   skip_reason: vague 'hard truths' listicle with hashtag stuffing, no single topic matching a site page
-- id: '7697007524175727885'
-  title: 'How to make sure in scars look amazing from a dermatologist #dermatol...'
-  creator: Dr. Chris Tomassian
-  creator_slug: chris-tomassian
-  credential: Board-certified dermatologist
-  channel: https://www.tiktok.com/@dr.tomassian
-  platform: TikTok
-  tier: MED
-  product_recs: ok
-  conflict: Bio includes a business/booking contact email suggesting managed brand partnerships; no confirmed own-brand line or affiliate stor
-  posted: '2026-10-15'
-  feed_rank: 1
-  status: pending
 - id: VbPsT3e7lrw
   title: Common Retinoid Mistakes
   creator: Dr. Daniel Sugai
@@ -13523,19 +13510,6 @@
   feed_rank: 0
   status: skipped
   skip_reason: two brand @tags naming specific products (Paula's Choice SPF, Magic Molecule) in a 2-step routine clip; not single-topic education, and whether a commercial relationship exists cannot be established from the caption, so skipped under when-in-doubt-leave-it-out rather than alleging sponsorship
-- id: '7698360923379076365'
-  title: Don’t wait until you can see it to treat it!! I’ve been doing this fo...
-  creator: Ella (@your.estie.ella)
-  creator_slug: your-estie-ella
-  credential: Licensed esthetician (NOT a dermatologist or cosmetic chemist)
-  channel: https://www.tiktok.com/@your.estie.ella
-  platform: TikTok
-  tier: MED
-  product_recs: ok
-  conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan and reject any sponsored/affiliate/gifted video
-  posted: '2026-10-19'
-  feed_rank: 1
-  status: pending
 - id: '7699171680844909838'
   title: Seeing Barbara Palvin walk down the Victoria’s Secret runway 6 weeks ...
   creator: Dr. Aegean Chan
@@ -15173,19 +15147,6 @@
   feed_rank: 0
   status: skipped
   skip_reason: product-pick video; creator runs a ShopMy storefront and affiliate-links recommended products in descriptions
-- id: XcO2k2OAOY4
-  title: Hydrocortisone on Your Face? A Dermatologist Explains the Risks
-  creator: Andrea Suarez (Dr Dray)
-  creator_slug: andrea-suarez-dr-dray
-  credential: Board-certified dermatologist
-  channel: https://www.youtube.com/@DrDrayzday/videos
-  platform: YouTube
-  tier: HIGH
-  product_recs: null
-  conflict: null
-  posted: ''
-  feed_rank: 0
-  status: pending
 - id: yo1Be6O5HVc
   title: 'This is NUTS! #dermreacts  #skincare  #dermatologist #dermangelo  #reactionvideo  '
   creator: Dr. Angelo Landriscina (DermAngelo)
@@ -16472,5 +16433,187 @@
   product_recs: ok
   conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan and reject any sponsored/affiliate/gifted video
   posted: '2026-11-07'
+  feed_rank: 1
+  status: pending
+- id: mU7cuuNJBKY
+  title: WINTER ARC *HAIR* GUIDE ❄️ best hair of your LIFE by 2027 | Dermatologist Dr Adel
+  creator: Dr Aamna Adel
+  creator_slug: aamna-adel
+  credential: Consultant dermatologist
+  channel: https://www.youtube.com/@DrAamnaAdel/videos
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Founder of own-brand haircare line (Rhute); TikTok Shop affiliate/product storefront; recurring disclosed sponsored posts (No7, La Roche Pos
+  posted: ''
+  feed_rank: 0
+  status: pending
+- id: 4dW4gNdig9o
+  title: Is It Skin Cancer or Just Aging? Dermatologist Explains 7 Growths
+  creator: Dr. Aleksandra Brown, DO, FAAD
+  creator_slug: aleksandra-brown
+  credential: Board-certified dermatologist (DO, FAOCD, FAAD), practicing at River Ridge Dermatology / HCA Virginia (LewisGale), Blacksburg VA
+  channel: https://www.youtube.com/channel/UC52c6a0gfbhuVCdHYZQAzuQ/videos
+  platform: YouTube
+  tier: HIGH
+  product_recs: ok
+  conflict: null
+  posted: ''
+  feed_rank: 0
+  status: pending
+- id: Eu7p8HxpjDU
+  title: 'Adapalene & Benzoyl Peroxide: Can You Use Them Long Term?'
+  creator: Andrea Suarez (Dr Dray)
+  creator_slug: andrea-suarez-dr-dray
+  credential: Board-certified dermatologist
+  channel: https://www.youtube.com/@DrDrayzday/videos
+  platform: YouTube
+  tier: HIGH
+  product_recs: null
+  conflict: null
+  posted: ''
+  feed_rank: 0
+  status: pending
+- id: bB84Uy4abZs
+  title: The Hair Loss Pill Just Passed Its Final Trial (I'm Still Bald, But Let's Talk)
+  creator: Dr. Dustin Portela
+  creator_slug: dustin-portela
+  credential: Board-certified dermatologist
+  channel: https://www.youtube.com/channel/UCC9iFyuXhE3Epr-rJsFiK3Q/videos
+  platform: YouTube
+  tier: HIGH
+  product_recs: null
+  conflict: null
+  posted: ''
+  feed_rank: 0
+  status: pending
+- id: '7705976423370001685'
+  title: 'no warm browns cool tone eyeshadow club: affordable edition This is t...'
+  creator: Hannah English (@ms_hannah_e / Hannah Collingwood English)
+  creator_slug: hannah-english
+  credential: Skincare educator
+  channel: https://www.tiktok.com/@hannahcollingwoodenglish
+  platform: TikTok
+  tier: HIGH
+  product_recs: restricted
+  conflict: Co-developed/formulated the Tbh Skincare 'Rebound' Serum and Toner (product-formulation partnership) — her endorsement of that spe; no YouTube; TikTok/IG intake
+  posted: '2026-11-09'
+  feed_rank: 0
+  status: pending
+- id: '7705937160045694214'
+  title: what’s exciting in kbeauty this month (kbeauty skincare and makeup ha...
+  creator: Hannah English (@ms_hannah_e / Hannah Collingwood English)
+  creator_slug: hannah-english
+  credential: Skincare educator
+  channel: https://www.tiktok.com/@hannahcollingwoodenglish
+  platform: TikTok
+  tier: HIGH
+  product_recs: restricted
+  conflict: Co-developed/formulated the Tbh Skincare 'Rebound' Serum and Toner (product-formulation partnership) — her endorsement of that spe; no YouTube; TikTok/IG intake
+  posted: '2026-11-08'
+  feed_rank: 1
+  status: pending
+- id: qjokCxADtZc
+  title: The BEST Sunscreens of 2026! 🏆
+  creator: Hyram (Skincare by Hyram)
+  creator_slug: hyram
+  credential: Skincare educator (NOT a dermatologist or cosmetic chemist)
+  channel: https://www.youtube.com/@Hyram/videos
+  platform: YouTube
+  tier: MED
+  product_recs: null
+  conflict: has an own-brand line (Selfless) and does sponsorships - educational content only, never treat picks as endorsements, never use sponsored videos
+  posted: ''
+  feed_rank: 0
+  status: pending
+- id: y7GWtZW1Egk
+  title: The Truth About Alix Earle’s Controversial Skincare Brand
+  creator: James Welsh
+  creator_slug: james-welsh
+  credential: Skincare content creator (NOT a dermatologist or cosmetic chemist)
+  channel: https://www.youtube.com/@JamesWelsh/videos
+  platform: YouTube
+  tier: MED
+  product_recs: null
+  conflict: does sponsorships - educational content only, never treat picks as endorsements, never use sponsored videos
+  posted: ''
+  feed_rank: 0
+  status: pending
+- id: '7705639958970764557'
+  title: 'Holiday gifts I would NEVER buy for someone #holidaygifts #giftguide ...'
+  creator: Jenn Lexi (@jennlexi_)
+  creator_slug: jennlexi
+  credential: Esthetician (self-identified); not a dermatologist or cosmetic chemist
+  channel: https://www.tiktok.com/@jennlexi_
+  platform: TikTok
+  tier: MED
+  product_recs: restricted
+  conflict: 'Runs #ad sponsored posts (e.g. TruSkin) and Target skincare hauls/reviews; prefer her educational ingredient-category and barrier-repair explainers, and treat product recommendations as effectively promotional (skip).'
+  posted: '2026-11-08'
+  feed_rank: 0
+  status: pending
+- id: aSTLtFp0amA
+  title: 'The Truth About LED Masks: What Actually Works (and What Doesn''t) | Dr. Jenny Liu'
+  creator: Dr. Jenny Liu (Jenny Liu, MD, FAAD)
+  creator_slug: jenny-liu
+  credential: Board-certified dermatologist
+  channel: https://www.youtube.com/@dr.jennyliu/videos
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Runs an Amazon affiliate storefront (amazon.com/shop/derm.talk); recurring disclosed paid brand partnerships (Shiseido, SkinCeutic
+  posted: ''
+  feed_rank: 0
+  status: pending
+- id: '7705858546352672014'
+  title: EGF vs GHK, which one is better? Explained by a beauty product develo...
+  creator: Kristin Leite (kristingl)
+  creator_slug: kristin-leite
+  credential: Beauty product developer and skincare educator (NOT a dermatologist or cosmetic chemist)
+  channel: https://www.tiktok.com/@kristingl
+  platform: TikTok
+  tier: MED
+  product_recs: null
+  conflict: runs an Amazon affiliate storefront and does sponsored posts - strongly prefer educational / how-to / ingredient-explainer videos; be very cautious with any product recommendation
+  posted: '2026-11-08'
+  feed_rank: 0
+  status: pending
+- id: y_o9LHvi9B0
+  title: Layering skincare to Fade Dark Marks In Black Skin
+  creator: Dr. Vanita Rattan (Doctor V)
+  creator_slug: vanita-rattan
+  credential: Describes herself on camera as a medically qualified doctor who is also a cosmetic formulator for skin of colour, and as a published author with HarperCollins; she does not claim to be a dermatologist. Self-stated and not independently verified against a medical register by this site.
+  channel: https://www.youtube.com/channel/UC4u0qaMIAgOL8L37RwLcDQA
+  platform: YouTube
+  tier: MED
+  product_recs: null
+  conflict: 'Owns and sells a skincare line (Instagram handle @skincarebydrv in her own video descriptions) and routes to it repeatedly inside educational content: in one 9-point acne video she directs viewers to ''our trio blemish range'', ''our AM and PM moisturizers'', her Citrio Blemish Exfoliator and a mineral SPF she calls ''the world''s first mineral SPF 50 formulated for skin of color with no white cast''. Treat ALL product mentions as own-brand promotion. Separately, that video states unsourced figures as fact, including ''99% of sunscreens are chemical sunscreens'' and a claim that bamboo or silk pillowcases reduce fungal growth versus cotton, so relay no statistic from this channel without checking it independently.'
+  posted: ''
+  feed_rank: 0
+  status: pending
+- id: '7705917439988550925'
+  title: 'My kind of Christmas ornaments '
+  creator: Ella (@your.estie.ella)
+  creator_slug: your-estie-ella
+  credential: Licensed esthetician (NOT a dermatologist or cosmetic chemist)
+  channel: https://www.tiktok.com/@your.estie.ella
+  platform: TikTok
+  tier: MED
+  product_recs: ok
+  conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan and reject any sponsored/affiliate/gifted video
+  posted: '2026-11-08'
+  feed_rank: 0
+  status: pending
+- id: '7705786116078652685'
+  title: Favorites Tree 🎄✨ @Remedy Science @INNBEAUTY PROJECT @byoma @Paula's ...
+  creator: Ella (@your.estie.ella)
+  creator_slug: your-estie-ella
+  credential: Licensed esthetician (NOT a dermatologist or cosmetic chemist)
+  channel: https://www.tiktok.com/@your.estie.ella
+  platform: TikTok
+  tier: MED
+  product_recs: ok
+  conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan and reject any sponsored/affiliate/gifted video
+  posted: '2026-11-08'
   feed_rank: 1
   status: pending
