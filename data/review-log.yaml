@@ -5796,6 +5796,25 @@ polyglutamic-acid:
   note: 'PARALLEL WORKFLOW fill: Sonnet draft + parallel Opus critic verdict REVISE (score 7). Critic-flagged defect FIXED in Opus main loop: corrected the HaCaT cytotoxicity result attribution from ''commercial'' to ''algae-derived'' gamma-PGA per the source. Re-gated clean; published.'
   score: 7
   verdict: publish
+polyglyceryl-10-diisostearate:
+  assurance: sonnet
+  notes: 'All six quotes from the DG2IS abstract machine-checked verbatim (NFC-normalised, quotes and dashes
+    folded, whitespace collapsed); the only non-matching strings were my own PubMed query terms, correctly
+    quoted as search terms rather than as source text. tier weak matches the rubric, which grades effect on
+    skin as none, and matches the sibling surfactant pages caprylyl-capryl-glucoside and decyl-glucoside. TWO
+    GATE FAILURES CAUGHT AND FIXED BEFORE PUBLISH: the draft had no required The Evidence section and no
+    quarantined marketing-claims section. ONE CLAIM DELIBERATELY QUARANTINED RATHER THAN RELAYED: the 2016
+    paper calls these surfactants neither harmful to the human body nor to the environment, which is
+    attributed to the authors because the study presents no toxicity, irritation or sensitisation data at all;
+    a formulation-chemistry paper is not a safety assessment. ABSENCES RECORDED WITH THE QUERIES THAT
+    ESTABLISH THEM, so they are checkable: three PubMed searches on 2026-11-09 found no clinical or
+    instrumental study of this molecule on skin, and no contact-allergy report for this ester. The nearest
+    record, a 2008 case report on polyglyceryl LAURATE, carries no abstract, so it is cited for its existence
+    and subject only and is explicitly NOT read across to the diisostearate. Reviewed in the main loop with no
+    subagent spawned, hence assurance sonnet.'
+  reviewed: '2026-11-09'
+  reviewer: main-loop self-verification
+  verdict: publish
 polysilicone-15:
   last_reviewed: '2026-10-05'
   note: 'site_health tier backfill. tier:weak assigned from the page own rubric: effect "minimal to modest", evidence solid only for chemistry/regulatory/spectral characterization. Graded conservatively at the minimal end since it is a weak standalone UVB contributor. No prose changed.'
