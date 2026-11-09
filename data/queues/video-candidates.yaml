@@ -15139,7 +15139,8 @@
   conflict: Founder of own-brand haircare line (Rhute); TikTok Shop affiliate/product storefront; recurring disclosed sponsored posts (No7, La Roche Pos
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'affiliate: every product in the description is a go.shopmy.us link (Rhute, The Ordinary, L''Oreal Elvive, Redken, Pureology)'
 - id: xSlQzodyRkk
   title: Are Copper Peptides Worth It? A Dermatologist on GHK-Cu, "Copper Uglies" & Injections
   creator: Dr. Aleksandra Brown, DO, FAAD
@@ -15222,7 +15223,8 @@
   conflict: Maintains a Nykaa curated affiliate storefront; treat specific product picks as commercially incentivized (educational/mechanism content is fine).
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'sponsored: description hashtag line ends ''#Reequil ... #ad @Reequil'' and line 17 is a ''Product BUy LInk'' to reequil.com retinol night cream'
 - id: dFTMQiGoa1c
   title: Stop Treating Adult Acne Like Teen Acne (Do This Instead)
   creator: Dr. Dustin Portela
@@ -15235,7 +15237,8 @@
   conflict: null
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'affiliate: description disclaims ''This video and description contain affiliate links ... I will receive a small commission'' plus a SkinStore lifetime-discount funnel. NOTE the earlier ''#ad'' regex hit was a FALSE POSITIVE matching inside ''#adultacne'''
 - id: RLsGFbWvP98
   title: Exposing the $-Multi-Million Dollar Skincare Scam!
   creator: James Welsh
@@ -15248,7 +15251,8 @@
   conflict: does sponsorships - educational content only, never treat picks as endorsements, never use sponsored videos
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: vague clickbait framing (exposing a multi-million dollar scam), not a single-topic match to an existing page
 - id: '7703339729982360846'
   title: 'Things I can’t stand:) #skincare #skincaretips #esthetician #clearskin '
   creator: Jenn Lexi (@jennlexi_)
@@ -15316,7 +15320,8 @@
   conflict: null
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'sponsored: #LaRochePosayPartner in the caption''s first line, ''This video is sponsored by La Roche-Posay'', plus a shopmy.us collection link'
 - id: Ybf0ukVaeI8
   title: 'BPC-157, TB-500 & Peptides for Anti-Aging: Are They Safe?'
   creator: Andrea Suarez (Dr Dray)
@@ -15343,7 +15348,8 @@
   conflict: Own-brand UPF sun-protective clothing line, SOUL-A (wearsoula.com / @wearsoula), founded and promoted by him — apparel, not topical skincare
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: hashtag-stuffed short-form reaction clip, not a single-topic match to an existing page
 - id: cVAxWmHLmO4
   title: I Tried A Korean Clinic-Inspired Skin Booster At-Home!
   creator: Gothamista
@@ -15356,7 +15362,8 @@
   conflict: does sponsorships - educational content only, never treat picks as endorsements, never use sponsored videos
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'sponsored: ''This video is in part sponsored by Qure'' plus go.shopmy.us product links'
 - id: vrH0x8vFI1A
   title: Female Hair Loss?
   creator: Dr. Vanita Rattan (Doctor V)
@@ -15369,7 +15376,8 @@
   conflict: 'Owns and sells a skincare line (Instagram handle @skincarebydrv in her own video descriptions) and routes to it repeatedly inside educational content: in one 9-point acne video she directs viewers to ''our trio blemish range'', ''our AM and PM moisturizers'', her Citrio Blemish Exfoliator and a mineral SPF she calls ''the world''s first mineral SPF 50 formulated for skin of color with no white cast''. Treat ALL product mentions as own-brand promotion. Separately, that video states unsourced figures as fact, including ''99% of sunscreens are chemical sunscreens'' and a claim that bamboo or silk pillowcases reduce fungal growth versus cotton, so relay no statistic from this channel without checking it independently.'
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'out of scope and own-brand: subject is an ORAL supplement (pumpkin seed oil capsules, magnesium), which the cron playbook excludes; also pitches her own skincarebydrv.com androgen boost mid-video, and her two citations of the same trial disagree on dose (400mg then 500mg)'
 - id: VyZWDrGRMAI
   title: Yuka App Is Wrecking Your Skin
   creator: Dr. Vanita Rattan (Doctor V)
