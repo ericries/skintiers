@@ -907,10 +907,22 @@ best-glass-skin-products:
   score: 9
   verdict: self-reviewed
 best-hyaluronic-acid-products:
-  last_reviewed: '2026-08-30'
+  last_reviewed: '2026-11-09'
   note: 'LIST wave3. Best-of HA products. Opus critic (95): 7 slugs resolve, Essendoubi (25877232)/Pavicic (22052267) verbatim. Honest anti-hype: HA hydrates surface, does not build collagen, MW claims marketing. Routes [[hyaluronic-acid]]. No dashes. Opus critic inline (workflow pipeline); assurance opus.'
   score: 9
   verdict: publish
+  note_2026_11_09: 'Maintained rather than duplicated. The queued list, hyaluronic acid serums by where the
+    hyaluronic acid actually sits, would have overlapped this page, which already ranks by formulation sense and
+    already favours formulas where hyaluronic acid is genuinely the headline active. The queued ANGLE was the real
+    contribution, so it was delivered here as concrete numbers rather than as a second page, using only the two
+    figures already sourced on their own product pages (CeraVe glycerin second and sodium hyaluronate sixth of 24;
+    Hyalu B5 sodium hyaluronate twelfth of 22). Ordering all seven items by INCI position was NOT attempted,
+    because five have no stated position and a ranking evidenced for two of seven would be invented for the rest.
+    ONE OVERCLAIM CAUGHT BEFORE PUBLISH: a closing line claimed a named ingredient sitting below its preservatives,
+    which is verified for neither product, and was rewritten to cite only the positions actually sourced.
+    cerave-hydrating-hyaluronic-acid-serum was added to the tier list, absent from it entirely, placed above Hyalu
+    B5 because its hyaluronate sits higher and it adds ceramides while Hyalu B5 carries alcohol denat. third.
+    Main-loop self-verification, no subagent.'
 best-hydrating-serums-for-dry-skin:
   last_reviewed: '2026-08-30'
   note: 'LIST wave4. Best-of hydrating serums for dry skin. Opus critic (9): 6 slugs resolve, product claims verbatim; brand-run figures flagged uncontrolled. Honest: humectant needs occlusive on top. Routes [[dry-skin]]/[[hyaluronic-acid]]. Main-loop: in-house reworded. No dashes. Opus critic inline (workflow pipeline); assurance opus.'

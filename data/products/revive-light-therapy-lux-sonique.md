@@ -6,6 +6,8 @@ aliases:
 - reVive Lux Soniqué
 - Lux Soniqué Mini
 - LXSONIQUE
+- reVive Sonique Lux Collection
+- reVive Light Therapy Sonique Lux Collection
 - LXSONMINI
 analyzed: '2026-10-30'
 assurance: sonnet

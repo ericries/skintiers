@@ -6047,3 +6047,9 @@
     Lux, Glo Lux, Lux Spot, Poof, Sonique) may contain products with no page here
     at all. The image cron could not change other pages, which is why this is queued
     rather than done.'
+- name: reVive Light Therapy Sonique Lux Collection
+  type: product
+  priority: 5
+  status: done
+  discovered_from: best-hyaluronic-acid-products
+  source: https://ledtechnologies.com
