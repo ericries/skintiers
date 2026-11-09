@@ -4607,7 +4607,7 @@
 - name: dpl Nuve for Wrinkles (K141181)
   type: product
   priority: 4
-  status: pending
+  status: done
   discovered_from: dpl-ii-panel
   source: 'The predicate for the dpl II Panel (K171390), verified as K141181 dpl Nuve
     for Wrinkles. NOTE the site ALREADY has a dpl-nuve page, but it is built on a
@@ -6008,3 +6008,23 @@
     K number is actually this device before writing. Route the category evidence to
     [[home-fractional-nonablative-laser]], which currently has zero video cards and
     no product page under it.'
+- name: LightStim for Wrinkles (K120775, LED Intellectual)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: dpl-nuve-for-wrinkles
+  source: https://www.accessdata.fda.gov/cdrh_docs/pdf14/K141181.pdf Named as a predicate
+    in the K141181 summary. Home LED full-face wrinkle device under product code OHS.
+    LightStim is absent from the site entirely, so this also opens a brand with no
+    coverage.
+- name: Trinity Wrinkle Remover (K120560, Carol Cole Company)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: dpl-nuve-for-wrinkles
+  source: https://www.accessdata.fda.gov/cdrh_docs/pdf14/K141181.pdf CHECK IDENTITY
+    FIRST. The site already covers nuface-trinity-microcurrent-device, a MICROCURRENT
+    device from the same maker, while K120560 is an OTC hand-held full-face WRINKLE
+    clearance. These may be different devices sharing a product name, which is the
+    exact trap K101382 (dpl Nuve, periorbital) and K141181 (Nuve for Wrinkles, full-face)
+    set. Resolve from the 510(k) summary before drafting.

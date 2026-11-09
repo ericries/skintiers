@@ -830,3 +830,9 @@
     is the only one and no live brand site is found, CLOSE THIS ITEM rather than writing
     a page about a company that appears to be gone. An honest close is the right outcome
     here and costs nothing.'
+- name: LightStim (LED Intellectual)
+  type: brand
+  priority: 6
+  status: pending
+  discovered_from: dpl-nuve-for-wrinkles
+  source: https://www.accessdata.fda.gov/cdrh_docs/pdf14/K141181.pdf
