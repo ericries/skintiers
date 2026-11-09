@@ -1687,19 +1687,53 @@ _NOTE_TERMINATED_RE = re.compile(r"[.!?)\]\"’”]$")
 _NOTE_MIN_CORE = 40
 
 
+# Empirical write caps: 13 notes sit at exactly 130 characters, 10 at exactly 140,
+# and 7 at exactly 160 (a 130-char core plus an appended suffix, re-capped). A
+# shared exact length across many rows is a cap, not a coincidence.
+_NOTE_WRITE_CAPS = (130, 140, 160)
+_NOTE_LOSS_MARKER_RE = re.compile(r"TAIL LOST|TEXT TRUNCATED", re.I)
+
+
 def truncated_policy_note(note):
-    """True when `note` looks cut mid-sentence before an appended platform suffix."""
+    """True when `note` shows any sign of having been cut by a capped write.
+
+    Three independent signals, unioned, because no single one catches them all:
+      1. an unclosed "(" / "[" or an odd number of double quotes - a complete note
+         closes what it opens, and this works whatever the cap was;
+      2. an unterminated clause with a platform suffix appended AFTER it - nobody
+         appends to an unfinished sentence on purpose;
+      3. an unterminated note sitting exactly on a known write cap.
+    Missing final punctuation alone is deliberately NOT a signal: 45 of 56 healthy
+    notes end without a full stop, so using it would make the gate pure noise.
+    """
     if not isinstance(note, str) or not note.strip():
         return False
-    core, had_suffix = note.strip(), False
+    text = note.strip()
+
+    # (0) an explicit in-place annotation. A row whose punctuation has been repaired
+    # but whose lost text is still lost must stay on the repair list.
+    if _NOTE_LOSS_MARKER_RE.search(text):
+        return True
+
+    # (1) unbalanced delimiters. Also catches a cut landing after "(e." , where the
+    # period reads as a sentence end but is really a severed "e.g.".
+    if text.count("(") > text.count(")") or text.count("[") > text.count("]"):
+        return True
+    if text.count('"') % 2:
+        return True
+
+    core, had_suffix = text, False
     while True:
         stripped = _NOTE_SUFFIX_RE.sub("", core)
         if stripped == core:
             break
         core, had_suffix = stripped.rstrip().rstrip(";").rstrip(), True
-    if not had_suffix or len(core) < _NOTE_MIN_CORE:
+    if len(core) < _NOTE_MIN_CORE:
         return False
-    return not _NOTE_TERMINATED_RE.search(core)
+    terminated = bool(_NOTE_TERMINATED_RE.search(core))
+    if had_suffix and not terminated:
+        return True                                              # (2)
+    return len(text) in _NOTE_WRITE_CAPS and not terminated      # (3)
 
 
 def truncated_roster_notes(roster_path=None):

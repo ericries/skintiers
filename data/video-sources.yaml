@@ -250,12 +250,12 @@
   last_pulled: '2026-08-30'
 - name: Dr. Alexis Stephens
   creator_slug: alexis-stephens
-  backfill_cursor: 45
+  backfill_cursor: 60
   credential: Board-certified dermatologist
   tier: HIGH
   channel: https://www.youtube.com/@DrAlexisStephens/videos
   product_recs: restricted
-  conflict: Recurring paid partnerships (Dermatica affiliate code "DRALEXIS" on multiple videos, La Roche-Posay branded partner content, SkinBetter Scie
+  conflict: Recurring paid partnerships (Dermatica affiliate code "DRALEXIS" on multiple videos, La Roche-Posay branded partner content, SkinBetter Scie [TAIL LOST to a capped write, not recovered]). Verified 2026-11-09 from her own video descriptions. Product links across the back catalog route through shop-links.co, a ShopMy affiliate shortener, with 9 to 11 such links per video on the three sampled. Her standing disclaimer states "I am a brand partner of Urbanskinrx" and "some items may have been received through PR", and she recommends Urban Skin Rx on camera without stating that partnership. Treat every product-naming video as affiliate-monetized. Only product-free explainers are eligible.
   last_pulled: '2026-08-30'
 - name: "Dr. Mamina Turegano"
   creator_slug: mamina-turegano

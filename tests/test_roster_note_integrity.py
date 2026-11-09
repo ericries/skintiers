@@ -23,6 +23,9 @@ import sklib
 
 
 COMPLETE = "Runs #ad sponsored posts (e.g. TruSkin); treat product picks as promotional."
+UNCLOSED = ("Recurring paid partnerships (Dermatica affiliate code \"DRALEXIS\" on multiple "
+            "videos, La Roche-Posay branded partner content, SkinBetter Scie")
+CUT_AT_A_CAP = "x" * 129 + "y"
 CUT = ("Self-describes as a \"Key Opinion Leader for industry beauty companies\" "
        "(per her own practice bio) and most sampled TikTok videos e; no YouTube; "
        "TikTok/IG intake")
@@ -30,6 +33,35 @@ CUT = ("Self-describes as a \"Key Opinion Leader for industry beauty companies\"
 
 def test_note_cut_midsentence_before_an_appended_suffix_is_flagged():
     assert sklib.truncated_policy_note(CUT)
+
+
+def test_note_with_an_unclosed_parenthesis_is_flagged():
+    # alexis-stephens: cut at 140 with no suffix, so the suffix rule alone misses it.
+    assert sklib.truncated_policy_note(UNCLOSED)
+
+
+def test_note_with_an_odd_number_of_quotes_is_flagged():
+    assert sklib.truncated_policy_note(
+        'Runs her practice e-commerce store "Tone Sho')
+
+
+def test_note_cut_mid_abbreviation_is_flagged_despite_the_full_stop():
+    # stephen-alain-ko ends "...categories (e." - a period that is not a sentence end.
+    assert sklib.truncated_policy_note(
+        "Does paid formulation work on specific ingredient categories (e.")
+
+
+def test_unterminated_note_sitting_exactly_on_a_known_cap_is_flagged():
+    assert sklib.truncated_policy_note(CUT_AT_A_CAP)
+
+
+def test_note_marked_as_having_lost_its_tail_stays_flagged():
+    # Repairing a row's punctuation must not drop it off the repair list while the
+    # lost text is still lost. alexis-stephens is annotated in place rather than
+    # silently cut, and stays visible as damaged until the tail is researched.
+    assert sklib.truncated_policy_note(
+        "Recurring paid partnerships (Dermatica code \"DRALEXIS\", SkinBetter Scie "
+        "[TAIL LOST to a capped write, not recovered]). Only explainers are eligible.")
 
 
 def test_note_ending_in_a_full_stop_is_silent():
@@ -60,9 +92,22 @@ def test_short_fragment_is_not_flagged():
 
 # --- The ratchet over the real roster -------------------------------------
 
+# Every row damaged by the capped-write bug, as measured 2026-11-09. Repairing one
+# means re-deriving that creator's commercial relationships from sources, which
+# cannot be guessed, so the list shrinks only as rows are genuinely researched.
 GRANDFATHERED = {
+    # cut at 160 (a 130-char core with a platform suffix appended, then re-capped)
     "emma-wedgeworth", "michelle-henry-md-faad", "geeta-yadav", "hannah-english",
-    "justine-kluk", "karan-lal", "sheila-farhang", "thivi-maruthappu",
+    "karan-lal", "sheila-farhang", "thivi-maruthappu",
+    # cut at 140
+    "adeline-kikam", "stephen-alain-ko", "angelo-landriscina", "aamna-adel",
+    "lindsey-zubritsky", "caroline-hirons", "daniel-sugai", "jen-novakovich",
+    "usama-syed", "alexis-stephens",
+    # cut at 130
+    "caroline-robinson", "jenny-liu", "angela-lamb", "nkem-ugonabo",
+    "shari-marchbein", "onyeka-obioha-lolagne", "heather-woolerylloyd",
+    "brooke-jeffy", "zainab-laftah", "ife-rodney", "chris-tomassian",
+    "neera-nathan", "aegean-chan",
 }
 
 
