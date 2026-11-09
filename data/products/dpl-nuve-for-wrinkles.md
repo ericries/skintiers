@@ -10,6 +10,13 @@ analyzed: '2026-11-09'
 assurance: sonnet
 brand: dpl
 category: Devices
+image_unresolvable: 'No photograph could be tied to this unit. incidecoder MISSes, being an INCI
+  database that does not cover devices. ledtechnologies.com WAS readable on 2026-11-09 (HTTP 200,
+  230KB), unlike the Cloudflare challenges logged on 2026-10-20 and 2026-10-21, and its current
+  range carries no Nuve product, so the brand publishes no image of it. A retailer photo was
+  deliberately NOT hunted: this device shares its name with the dpl Nuve (K101382) while being a
+  different device, so any photo found under the Nuve name would carry a real risk of being the
+  wrong unit, which is the exact confusion this page exists to resolve.'
 grades:
 - effect: minimal
   evidence: preliminary
@@ -64,7 +71,7 @@ Cleared 2015-03-31 as K141181 under product code OHS, regulation 878.4810, Class
 
 ## Common Marketing Claims
 
-No brand copy is quoted on this page. Every claim examined above is one LED Technologies made to the FDA in its 2014 submission and 2015 clearance. The brand's own domains have not been readable on any attempt this site has logged, which is recorded on [[dpl-nuve]], so nothing the company says to shoppers about this device could be compared against what it told the regulator. For the gap this site keeps finding between filings and advertising in this same line, see [[revive-light-therapy-lux-clinical]].
+No brand copy is quoted on this page. Every claim examined above is one LED Technologies made to the FDA in its 2014 submission and 2015 clearance. The brand's site was readable on 2026-11-09, where earlier attempts recorded on [[dpl-nuve]] met a Cloudflare challenge, and it carries no product under this name. Its current range is the dpl Flex Pad, dpl IIa, dpl Joint Wrap and dpl Oral Care, plus the reVive Clinical Lux, Glo Lux, Lux Spot, Poof and Sonique collections.[^brand] So there is still no consumer copy about this device to compare against what the firm told the regulator, but the reason is that the product is gone rather than that the site could not be read. For the gap this site keeps finding between filings and advertising in this same line, see [[revive-light-therapy-lux-clinical]].
 
 ## Where to Buy
 
@@ -81,3 +88,5 @@ Not priced here, and availability is doubtful. This is a 2015 clearance, and the
 [^openfda]: openFDA device/510k API, queried by applicant "LED Technologies" on 2026-11-09; 15 records returned, matching the enumeration kept on [[dpl-spotlite]]. The record for K141181 gives device name "NUVE FOR WRINKLES, DPL NUVE FOR WRINKLES", applicant "Led Technologies, LLC", date received 2014-05-07, decision date 2015-03-31, decision "Substantially Equivalent", product code OHS, advisory committee "General, Plastic Surgery" and clearance type "Traditional". https://api.fda.gov/device/510k.json?search=applicant:%22LED+Technologies%22 (accessed 2026-11-09)
 
 [^grade]: Raef HS, Gaumond SI, Geisler AN, Eber AE. "Home-Based Dermatologic Devices for Acne and Rejuvenation: Evidence-Based Insights." Dermatologic Surgery. 2026 Aug 4, online ahead of print. doi: 10.1097/DSS.0000000000005252. PMID 42545315. The review places LED at Level B for facial rejuvenation, behind home fractional nonablative lasers at Level A. It is a scoping review, grading bodies of evidence rather than pooling results, and reports no effect size and names no manufacturer, model or irradiance, which is why this device inherits neither grade. Only the PubMed abstract was accessed. Full treatment on [[home-led-light-therapy]]. https://pubmed.ncbi.nlm.nih.gov/42545315/ (accessed 2026-10-20)
+
+[^brand]: LED Technologies product range, read from ledtechnologies.com on 2026-11-09. The home page returned HTTP 200 at about 230KB with the title "Medical Grade LED Light Skin Therapy | LED Technologies, Inc", where the same domain returned a Cloudflare challenge on 2026-10-20 and 2026-10-21 as recorded on [[dpl-nuve]], so the block appears to have lifted rather than the earlier reading being wrong. Checked by string search of the fetched page on 2026-11-09, it contains no occurrence of Nuve, and the product links it lists are the dpl Flex Pad, dpl IIa, dpl Joint Wrap, dpl Oral Care, reVive Clinical Lux, reVive Glo Lux, reVive Lux Spot, reVive Poof and reVive Sonique. No price or photograph for the Nuve for Wrinkles appears anywhere on it. https://ledtechnologies.com (accessed 2026-11-09)

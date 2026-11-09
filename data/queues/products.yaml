@@ -6028,3 +6028,22 @@
     clearance. These may be different devices sharing a product name, which is the
     exact trap K101382 (dpl Nuve, periorbital) and K141181 (Nuve for Wrinkles, full-face)
     set. Resolve from the 510(k) summary before drafting.
+- name: 'STALE CLAIM: three LED Technologies pages say the brand''s domains are unreadable,
+    but they are not'
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: dpl-nuve-for-wrinkles
+  source: 'https://ledtechnologies.com ledtechnologies.com returned HTTP 200 at about
+    230KB on 2026-11-09 with the title Medical Grade LED Light Skin Therapy, and is
+    cached locally. The Cloudflare challenge logged on 2026-10-20 and 2026-10-21 has
+    lifted. Three pages still assert the domains could not be read, which is now false
+    and is load-bearing for them because each uses it to explain why no brand copy
+    or price is quoted: dpl-nuve, revive-light-therapy-lux-lip-care and revive-light-therapy-lux-panel.
+    dpl-nuve-for-wrinkles was corrected in place on 2026-11-09 since the image cron
+    was already editing it. The OPPORTUNITY is larger than the correction: with the
+    site readable, those pages can finally get real brand claims and prices, and the
+    current range (dpl Flex Pad, dpl IIa, dpl Joint Wrap, dpl Oral Care, reVive Clinical
+    Lux, Glo Lux, Lux Spot, Poof, Sonique) may contain products with no page here
+    at all. The image cron could not change other pages, which is why this is queued
+    rather than done.'
