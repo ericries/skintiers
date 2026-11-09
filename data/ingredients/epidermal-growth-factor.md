@@ -18,6 +18,16 @@ videos:
   related: [retinol, anti-aging, acne]
   thesis: 'Beauty product developer Kristin Leite compares epidermal growth factor (EGF) serums with retinol and argues the two share a benefit, saying both increase cell turnover and both suit acne prone skin. Her distinction is mechanism: retinol works by making skin shed its outer layers, which she says is why it can bring purging, redness and irritation, while EGF is a signaling protein that tells cells to carry out their normal repair and renewal, which she calls more skin barrier friendly. She steers sensitive skin and daily use toward EGF and steers retinol to people who have purged before and want a nighttime routine, and she cites no study for the comparison.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: EGF vs GHK copper peptide, which one is better
+  creator: Kristin Leite (kristingl)
+  creator_slug: kristin-leite
+  credential: Beauty product developer and skincare educator (NOT a dermatologist or cosmetic chemist)
+  platform: TikTok
+  url: https://www.tiktok.com/@kristingl/video/7705858546352672014
+  posted: '2026-11-08'
+  related: [copper-peptides, skin-barrier-repair, peptides]
+  thesis: 'Beauty product developer Kristin Leite, who is not a dermatologist or cosmetic chemist, compares two signalling ingredients used for repair and ageing: EGF, a signalling protein she describes as telling skin to repair itself, and GHK copper peptide, which she calls both a signalling and a carrier protein because it also supplies the materials for that repair. Her practical rule is to pick EGF for sensitive or barrier damaged skin because it is gentler, and copper for a healthy barrier wanting more intense renewal, since in her account copper can cause peeling or a purge if overused, an effect she calls the copper uglies. She presents both as strong options and cites no study for either, so the comparison is her professional judgement rather than a measured result.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
