@@ -2107,3 +2107,41 @@
     same hedge the split-face trial uses, so neither side of this argument is resting
     on a definitive synthesis, and the page should say so rather than treating the
     independent review as the tiebreak.'
+- name: Choi 2026 updated systematic review of topical corticosteroid withdrawal (PMID
+    42170112)
+  type: study
+  priority: 4
+  status: pending
+  discovered_from: topical-steroid-withdrawal
+  source: 'ALREADY READ AND QUOTED on [[topical-steroid-withdrawal]], so this is a
+    compact structured record, not new research. Cureus 2026 Apr 19;18(4):e107365,
+    doi 10.7759/cureus.107365, PMCID PMC13186782, University of Missouri authors.
+    Search Ovid MEDLINE, PubMed and Cochrane, October 2020 to June 2024. SEVEN studies:
+    five case reports, one case series, one qualitative cross-sectional survey. Reported
+    figures: adult women 90 percent, atopic dermatitis 99.5 percent, face 90 percent,
+    burning 89.8, itching 85.6, hypersensitivity 82.3, erythema 89.6, desquamation
+    88.7. THE CRITICAL FRAMING TO KEEP, already argued on the condition page: those
+    percentages describe who appears in seven case reports, NOT who gets the condition;
+    the abstract reports no prevalence, no control group and no randomisation. Free
+    full text exists at PMC13186782 and was NOT retrieved, which is the one thing
+    a study page could add over the hub: the individual study characteristics table.
+    Do not re-tell the condition story; link it.'
+- name: Kamsiah Zemlok 2026 Delphi consensus on managing topical steroid withdrawal
+    (PMID 41090229)
+  type: study
+  priority: 4
+  status: pending
+  discovered_from: topical-steroid-withdrawal
+  source: 'ALREADY READ AND QUOTED on [[topical-steroid-withdrawal]]. Dermatitis 2026
+    Nov-Dec;37(6):909-914, doi 10.1177/17103568251388635, epub 2025-10-15. Modified
+    Delphi: 21 physicians and patient advocates, 72 pharmacologic and supportive strategies,
+    two rounds, consensus at 70 percent agreement or disagreement, 12 outcomes reaching
+    it, centred on cessation of topical and systemic corticosteroids and psychosocial
+    support, plus consensus for [[dupilumab]] as first-line systemic treatment. A
+    STUDY PAGE SHOULD BE EXPLICIT ABOUT WHAT A DELPHI IS: it records what experts
+    agree on, not what has been tested, and these authors say so themselves by calling
+    the output initial guidelines pending future evidence. That distinction is the
+    whole value of indexing it. The abstract names NO other specific drug, which is
+    worth stating as an absence. Only the abstract was read; the full text would give
+    the twelve consensus statements individually, which is what a routine analyser
+    would actually want.'

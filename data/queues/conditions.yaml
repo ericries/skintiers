@@ -975,7 +975,7 @@
 - name: Topical steroid withdrawal
   type: condition
   priority: 4
-  status: pending
+  status: done
   discovered_from: clobetasol-propionate
   source: 'The claim readers most often arrive with, and the site has no page for
     it: sk find returns no match. [[clobetasol-propionate]] now anchors what the FDA

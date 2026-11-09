@@ -6,7 +6,7 @@ slug: topical-corticosteroids
 status: published
 tier: good
 type: ingredient
-updated: '2026-08-30'
+updated: '2026-11-08'
 videos:
 - title: 'Topical Steroid Withdrawal (TSW): Real or Not? A Dermatologist Reacts'
   creator: Dr. Laura Soong
@@ -59,7 +59,7 @@ Topical corticosteroids bind the glucocorticoid receptor in keratinocytes, fibro
 
 ## See Also
 
-[[atopic-dermatitis]] [[psoriasis]] [[betamethasone-dipropionate]] [[hydrocortisone-otc-topical-corticosteroid]] [[tacrolimus-topical]] [[pimecrolimus]] [[clobetasol-propionate]]
+[[topical-steroid-withdrawal]] [[atopic-dermatitis]] [[psoriasis]] [[betamethasone-dipropionate]] [[hydrocortisone-otc-topical-corticosteroid]] [[tacrolimus-topical]] [[pimecrolimus]] [[clobetasol-propionate]]
 
 ## Sources
 
