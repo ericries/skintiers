@@ -16,7 +16,7 @@ grades:
     first-listed ingredients
   use: For soothing (centella asiatica)
 images:
-- beauty-of-joseon-light-on-serum-centella-vita-c.jpg
+- file: beauty-of-joseon-light-on-serum-centella-vita-c.jpg
 name: 'Beauty of Joseon Light On Serum: Centella + Vita C'
 price:
 - amount: 17

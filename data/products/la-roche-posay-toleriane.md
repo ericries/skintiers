@@ -13,7 +13,7 @@ grades:
   note: vs a plainer emollient or CeraVe Moisturizing Cream
   use: Ceramide-plus-niacinamide barrier repair
 images:
-- la-roche-posay-toleriane.jpg
+- file: la-roche-posay-toleriane.jpg
 name: La Roche-Posay Toleriane Double Repair Face Moisturizer
 key_actives:
 - ceramides

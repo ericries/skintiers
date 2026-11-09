@@ -15,7 +15,7 @@ grades:
     Mexoryl) sunscreens sold in the EU, Korea, and Australia
   use: UVA (photoaging) protection
 images:
-- la-roche-posay-anthelios-melt-in-milk-spf-60.png
+- file: la-roche-posay-anthelios-melt-in-milk-spf-60.png
 name: La Roche-Posay Anthelios Melt-in Milk Sunscreen SPF 60
 recommended_in:
 - source: forbes.com

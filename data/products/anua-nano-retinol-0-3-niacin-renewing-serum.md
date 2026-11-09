@@ -26,7 +26,7 @@ grades:
     niacinamide
   use: For skin tone and fine lines (niacinamide)
 images:
-- anua-nano-retinol-0-3-niacin-renewing-serum.jpg
+- file: anua-nano-retinol-0-3-niacin-renewing-serum.jpg
 name: Anua Nano Retinol 0.3% + Niacin Renewing Serum
 slug: anua-nano-retinol-0-3-niacin-renewing-serum
 status: published

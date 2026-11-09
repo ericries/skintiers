@@ -13,7 +13,7 @@ grades:
   note: vs a multi-peptide serum without copper
   use: The copper-peptide (GHK-Cu) benefit specifically
 images:
-- the-ordinary-multi-peptide-copper-peptides-serum.png
+- file: the-ordinary-multi-peptide-copper-peptides-serum.png
 name: The Ordinary Multi-Peptide + Copper Peptides 1% Serum
 slug: the-ordinary-multi-peptide-copper-peptides-serum
 status: published

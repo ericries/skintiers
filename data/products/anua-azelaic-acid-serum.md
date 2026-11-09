@@ -15,7 +15,7 @@ grades:
     colour-correcting tint
   use: Facial redness / papulopustular rosacea
 images:
-- anua-azelaic-acid-serum.jpg
+- file: anua-azelaic-acid-serum.jpg
 name: Anua Azelaic Acid 10 Hyaluron Redness Soothing Serum
 slug: anua-azelaic-acid-serum
 status: published

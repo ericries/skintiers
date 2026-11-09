@@ -17,7 +17,7 @@ grades:
   note: azelaic's rosacea evidence is for the 15% gel, not a 20% cream
   use: Papulopustular rosacea
 images:
-- cos-de-baha-az20-azelaic-acid-20-serum.jpg
+- file: cos-de-baha-az20-azelaic-acid-20-serum.jpg
 name: Cos De BAHA AZ20 Azelaic Acid 20% Cream
 key_actives:
 - azelaic-acid
