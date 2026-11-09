@@ -5988,3 +5988,23 @@
     is real and much smaller than the category''s marketing implies. The label is
     also unusually blunt in capitals about what the product does not do, already quoted
     on [[tretinoin-0-025-cream]]; link rather than repeat.'
+- name: Tria FRX / SmoothBeauty at-home 1440nm fractional laser
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: home-fractional-nonablative-laser
+  source: 'SURFACED BY A REJECTED SPONSORED VIDEO, which is exactly why the product
+    deserves an independent page. On 2026-11-08 a 543-second board-certified dermatologist
+    video on this device was rejected: its spoken transcript is clean education with
+    no sponsorship marker anywhere, while its DESCRIPTION states ''This video contains
+    a paid partnership with Tria'', carries a DRDAVIN discount code, affiliate links
+    tagged utm_medium=influencer and an #Ad hashtag. A roughly 700 dollar home device
+    whose most visible dermatologist coverage is paid is precisely the shape this
+    site exists to assess. NOTE THE NAMING: the affiliate links redirect to /products/smoothbeauty-laser,
+    so Tria FRX and SmoothBeauty may be the same device under two names; RESOLVE THAT
+    FIRST from openFDA rather than assuming. There are existing queue rows for ''Tria
+    FRX Skin Rejuvenating Fractional Laser (2nd Gen)'' citing K141868 and K130459
+    and a page [[tria-fanp-age-defying-laser]] already holds K141868, so check which
+    K number is actually this device before writing. Route the category evidence to
+    [[home-fractional-nonablative-laser]], which currently has zero video cards and
+    no product page under it.'

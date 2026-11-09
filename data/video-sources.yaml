@@ -97,8 +97,8 @@
   credential: Board-certified dermatologist (Australia)
   tier: HIGH
   channel: https://www.youtube.com/@DrDavinLim/videos
-  conflict: null
-  last_pulled: '2026-09-17'
+  conflict: 'Runs disclosed PAID PARTNERSHIPS with device manufacturers, verified 2026-11-08 on video tU8s0ed2hls: its description states "This video contains a paid partnership with Tria", carries a DRDAVIN discount code, affiliate links tagged utm_medium=influencer and an #Ad hashtag, while the 543-second spoken transcript contains NO sponsorship marker at all. Educational content remains eligible; ALWAYS read the YouTube DESCRIPTION before carding him, because the transcript alone will not reveal it.'
+  last_pulled: '2026-11-08'
 - name: Dr. Scott Walter
   creator_slug: scott-walter
   flagship: true

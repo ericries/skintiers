@@ -15240,7 +15240,8 @@
   conflict: null
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'PAID PARTNERSHIP, disclosed only in the description: ''This video contains a paid partnership with Tria'', plus a DRDAVIN discount code, affiliate links tagged utm_medium=influencer, and an #Ad hashtag. The 543-second spoken transcript contains ZERO sponsorship markers and reads as pure dermatologist education'
 - id: sTdsFS7wFZA
   title: Retinol for Beginners - 3 Myths about how to Start Retinol
   creator: Dr. Aanchal MD
