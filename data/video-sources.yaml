@@ -31,7 +31,8 @@
   credential: Board-certified dermatologist
   tier: HIGH
   channel: https://www.youtube.com/@DrDrayzday/videos
-  conflict: null
+  conflict: Discloses on her own videos that links are commissionable, and runs two affiliate storefronts, an Amazon store and a LikeToKnowIt page, both linked in her video descriptions. Verified 2026-11-09 from the description of her milky-toner roundup, which states "This video is not sponsored. Links are commissionable, meaning I may earn commission from purchases made through links." So her reviews and best-of videos are picks monetized through a storefront and are treated as effectively paid, and must be skipped even though her HIGH tier would otherwise make them eligible. Her non-product educational videos stay eligible. She is transparent about the arrangement; the issue is the monetization rather than any concealment.
+  product_recs: restricted
   last_pulled: '2026-11-08'
 - name: Dr. Muneeb Shah (DermDoctor)
   creator_slug: muneeb-shah

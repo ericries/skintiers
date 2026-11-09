@@ -554,3 +554,24 @@
     WHETHER THE POLICY APPLIES RETROACTIVELY IS A USER DECISION, not a tick''s: removing
     17 cards is a content-wide destructive change. Options are leave them with a disclosure,
     annotate the affected cards, or remove them. Do not act unilaterally.'
+- name: 'DECIDE: which Dr Dray cards count as monetized picks now that her storefronts
+    are recorded'
+  type: person
+  priority: 4
+  status: pending
+  discovered_from: andrea-suarez-dr-dray
+  source: 'https://www.youtube.com/watch?v=s7E7aU9GIXk Her roster entry said conflict
+    None. Corrected 2026-11-09 after her own milky-toner description disclosed that
+    links are commissionable and linked an Amazon store plus a LikeToKnowIt page;
+    product_recs restricted was added, since she had no such field and HIGH tier alone
+    made picks videos eligible. She is flagship and heavily mined, with 52 distinct
+    videos carded across 65 page-slots. A NAIVE TITLE FILTER FLAGS 8 of those as picks
+    or reviews, but applying a blanket rule would be wrong and I did not: several
+    are CRITICAL SINGLE-PRODUCT REVIEWS asking whether a product works (Skinbetter
+    AlphaRet, REMEDY 15% azelaic acid, Neutrogena Collagen Bank), which is closer
+    to education than to a monetized pick and in some cases reaches a negative verdict,
+    and Enlarged Pores covers in-office procedures she does not sell. The ones that
+    read as genuine best-of lists are Costco Skincare Finds (3 page-slots) and Best
+    Retinol and Retinal Products Top 3 (1). This needs per-video judgment, and whether
+    the corrected setting applies retroactively at all is a user decision, as with
+    the parallel Aleksandra Brown row.'
