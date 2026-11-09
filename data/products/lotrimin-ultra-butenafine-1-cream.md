@@ -41,7 +41,17 @@ key_actives:
 - butenafine
 name: Lotrimin Ultra (butenafine hydrochloride 1% cream)
 slug: lotrimin-ultra-butenafine-1-cream
-duplicate_of: lotrimin-ultra-athletes-foot-cream
+label_variant_of: lotrimin-ultra-athletes-foot-cream
+variant_note: 'NOT a duplicate, despite an earlier duplicate_of marker here. Verified against openFDA
+  on 2026-11-09, the two pages cover two DIFFERENT SPL records with different set ids and different NDCs,
+  and their labelled scope differs in the counterintuitive direction. The plain Lotrimin Ultra label (set
+  id d11dfdf6, NDC 11523-0082-1) covers athlete''s foot between the toes ONLY, while Lotrimin Ultra
+  Athletes Foot (set id e258c4ac, NDC 11523-4338) covers athlete''s foot PLUS jock itch and ringworm, so
+  the box named for one condition carries the broader label. DO NOT DELETE THIS PAGE ON THE STRENGTH OF
+  THE OLD MARKER: it is the only page carrying the four-labels-one-drug finding across all four Lotrimin
+  Ultra variants. Whether the site keeps one page per label variant or merges them into a family page is
+  an editorial decision for the user, which is why this stays draft rather than being published or merged
+  by a tick.'
 status: draft
 type: product
 updated: '2026-11-03'

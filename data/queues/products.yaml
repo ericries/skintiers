@@ -4660,7 +4660,7 @@
 - name: Lotrimin AF cream (miconazole nitrate 2%)
   type: product
   priority: 4
-  status: pending
+  status: done
   discovered_from: otc-antifungal-creams-by-labelled-scope
   source: 'The miconazole cream behind the Lotrimin AF name, confirmed in openFDA
     as OTC MONOGRAPH DRUG with MICONAZOLE NITRATE 20 mg/g. It matters because the
@@ -6053,3 +6053,40 @@
   status: done
   discovered_from: best-hyaluronic-acid-products
   source: https://ledtechnologies.com
+- name: Lotrimin AF Powder Spray (miconazole nitrate 2%)
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: otc-antifungal-creams-by-labelled-scope
+  source: 'https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22Lotrimin+AF%22+AND+openfda.generic_name:%22MICONAZOLE+NITRATE%22
+    REPLACES a mis-specified row that asked for a Lotrimin AF CREAM with miconazole
+    nitrate 2%. Verified against openFDA on 2026-11-09: no such cream is indexed.
+    Lotrimin AF cream is clotrimazole and is already covered at lotrimin-af-antifungal-cream,
+    while every miconazole-nitrate label under the Lotrimin AF name is a powder spray
+    or a medicated powder, four of them, all Bayer, NDCs 11523-0133-1, 11523-0134-1,
+    11523-0135-1 and 11523-0150-1. THE FINDING WORTH WRITING is that the miconazole
+    line repeats the Lotrimin Ultra pattern documented on lotrimin-ultra-butenafine-1-cream:
+    same active, different labelled scope per box. Lotrimin AF Deodorant powder spray
+    claims athlete''s foot, jock itch AND ringworm, while Lotrimin AF Jock Itch claims
+    jock itch only. Note also two different claim WORDINGS across those labels, proven
+    clinically effective in the treatment of most versus cures most, which are not
+    the same regulatory claim and are worth separating. Format caveat: the parent
+    list otc-antifungal-creams-by-labelled-scope is about creams, so a powder may
+    need its own home or a widened list.'
+- name: 'DECIDE: one page per Lotrimin Ultra label variant, or one family page'
+  type: product
+  priority: 3
+  status: pending
+  discovered_from: lotrimin-ultra-butenafine-1-cream
+  source: 'https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22Lotrimin%20Ultra%22
+    lotrimin-ultra-butenafine-1-cream has sat as a draft carrying duplicate_of: lotrimin-ultra-athletes-foot-cream.
+    Verified 2026-11-09 against openFDA that it is NOT a duplicate: different SPL
+    set ids, different NDCs, and different labelled scope, with the plain Lotrimin
+    Ultra label covering athlete''s foot between the toes only while the Athletes
+    Foot label adds jock itch and ringworm. The marker was replaced with label_variant_of
+    plus an explicit do-not-delete note, because the draft is the only page carrying
+    the four-labels-one-drug finding across all four variants. THE DECISION IS YOURS,
+    and a tick should not take it: publish the draft and keep a page per label variant,
+    merge the four-label finding into the published Athletes Foot page and delete
+    the draft, or restructure both into one Lotrimin Ultra family page. All three
+    involve either a deletion or a structural change.'
