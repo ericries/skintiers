@@ -1671,3 +1671,49 @@ def search_inci(term, data_dir=None, typ="product", limit=40):
         if len(out) >= limit:
             break
     return out
+
+
+# --- Roster policy-note integrity ----------------------------------------
+# A creator's `conflict:` note tells every video-pull tick what is eligible from
+# that creator, so a note cut mid-sentence silently drops a rule. Six of the eight
+# damaged notes found on 2026-11-09 were cut at exactly 130 characters, i.e. a
+# fixed-width display truncation that got stored. Most healthy notes simply end
+# without a full stop (45 of 56), so the tell is not missing punctuation: it is an
+# unterminated clause with a suffix appended AFTER it.
+
+_NOTE_SUFFIX_RE = re.compile(
+    r"\s*;\s*(?:no YouTube|TikTok/IG intake|transcript-verified)[^;]*$", re.I)
+_NOTE_TERMINATED_RE = re.compile(r"[.!?)\]\"’”]$")
+_NOTE_MIN_CORE = 40
+
+
+def truncated_policy_note(note):
+    """True when `note` looks cut mid-sentence before an appended platform suffix."""
+    if not isinstance(note, str) or not note.strip():
+        return False
+    core, had_suffix = note.strip(), False
+    while True:
+        stripped = _NOTE_SUFFIX_RE.sub("", core)
+        if stripped == core:
+            break
+        core, had_suffix = stripped.rstrip().rstrip(";").rstrip(), True
+    if not had_suffix or len(core) < _NOTE_MIN_CORE:
+        return False
+    return not _NOTE_TERMINATED_RE.search(core)
+
+
+def truncated_roster_notes(roster_path=None):
+    """[(creator_slug, note)] for roster rows whose conflict note was truncated."""
+    import yaml
+    path = roster_path or (ROOT / "data" / "video-sources.yaml")
+    rows = yaml.safe_load(open(path, encoding="utf-8"))
+    if isinstance(rows, dict):
+        rows = rows.get("sources") or []
+    out = []
+    for row in rows or []:
+        if not isinstance(row, dict):
+            continue
+        note = row.get("conflict")
+        if truncated_policy_note(note):
+            out.append((row.get("creator_slug"), note))
+    return out

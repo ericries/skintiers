@@ -12321,7 +12321,8 @@
   conflict: Self-describes as a "Key Opinion Leader for industry beauty companies" (per her own practice bio) and most sampled TikTok videos e; no YouTube; TikTok/IG intake
   posted: '2026-10-13'
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: engagement funnel (comment LONGEVITY for my guide); product funnel, not education
 - id: k3WLPAdQ90I
   title: 'Pigmentation treatment '
   creator: Tanya Kormeili, MD, FAAD
@@ -12654,7 +12655,8 @@
   conflict: 'Runs #ad sponsored posts (e.g. TruSkin) and Target skincare hauls/reviews; prefer her educational ingredient-category and barrier-repair explainers, and treat product recommendations as effectively promotional (skip).'
   posted: '2026-10-15'
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: 'evaluated in full: caption+transcript clean of sponsorship, names no product, but it is a motivational essay on self-education with no groundable mechanism; its one concrete claim (overloading products wrecked her barrier) is covered better by her existing card on skin-barrier-repair'
 - id: lnMZFt5Dkk4
   title: The new ASH 2026 guidelines increased the iron deficiency
   creator: Dr. Joyce Park (Tea with MD)
@@ -13718,7 +13720,8 @@
   conflict: Co-developed/formulated the Tbh Skincare 'Rebound' Serum and Toner (product-formulation partnership) — her endorsement of that spe; no YouTube; TikTok/IG intake
   posted: '2026-10-22'
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: makeup/concealer aside, not skincare evidence
 - id: '7699599664131165454'
   title: 'Minus the two self inflicted blemishes🤣 #skincare #glassskin #geekand...'
   creator: Jenn Lexi (@jennlexi_)
@@ -14164,7 +14167,8 @@
   conflict: 'Runs #ad sponsored posts (e.g. TruSkin) and Target skincare hauls/reviews; prefer her educational ingredient-category and barrier-repair explainers, and treat product recommendations as effectively promotional (skip).'
   posted: '2026-10-25'
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: 38s motivational before/after on barrier repair; no mechanism or groundable claim, and same ground as her existing skin-barrier-repair card
 - id: '7700733915673283854'
   title: 'How to get glass skin✨🪩 #skinfone #vitaminc @Geek & Gorgeous @IUNIK '
   creator: Jenn Lexi (@jennlexi_)
@@ -14469,7 +14473,8 @@
   conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan and reject any sponsored/affiliate/gifted video
   posted: '2026-10-27'
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: home decor paint question, not skincare
 - id: 2tox0XswM3Y
   title: 'LED Light Therapy Masks: Hype or Real Results? Derm Explains'
   creator: Dr. Abigail Waldman (Dr. Abby)
@@ -14901,7 +14906,8 @@
   conflict: Bio includes a business/booking contact email suggesting managed brand partnerships; no confirmed own-brand line or affiliate stor
   posted: '2026-10-31'
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: Halloween costume post, not skincare
 - id: '7702570611922455822'
   title: 'Halloween At the TDC #halloweencostume #toystory #halloween '
   creator: Dr. Chris Tomassian
@@ -15065,7 +15071,8 @@
   conflict: Self-describes as a "Key Opinion Leader for industry beauty companies" (per her own practice bio) and most sampled TikTok videos e; no YouTube; TikTok/IG intake
   posted: '2026-10-30'
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: engagement funnel (comment ACNE for my acne-clearing products); product funnel, not education
 - id: mq4yhdVdonY
   title: You Don’t Need EVERYTHING at Sephora. Here is What I Would Buy | Dr. Idriss
   creator: Dr. Shereene Idriss
@@ -15681,7 +15688,8 @@
   conflict: null
   posted: '2026-11-02'
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: parenting/heritage post, not skincare
 - id: '7704115254866791710'
   title: 🖇️ Comment ACNE for my acne-clearing products and tips! As the newest...
   creator: Dr. Sheila Farhang (dr.sheila_derm)
@@ -16382,7 +16390,8 @@
   conflict: Self-describes as a "Key Opinion Leader for industry beauty companies" (per her own practice bio) and most sampled TikTok videos e; no YouTube; TikTok/IG intake
   posted: '2026-11-07'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: engagement funnel (comment PRODUCTS for my derm-approved list) from a self-described industry Key Opinion Leader; product funnel, not education
 - id: _T9eFrQxaWU
   title: Skincare Was Never the Whole Point. Here's What Comes Next  | Dr. Idriss
   creator: Dr. Shereene Idriss
@@ -16421,7 +16430,8 @@
   conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan and reject any sponsored/affiliate/gifted video
   posted: '2026-11-07'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: Christmas tree decor, not skincare
 - id: '7705460508400323854'
   title: It’s probably a good thing I have to drive 45 minutes to get to Targe...
   creator: Ella (@your.estie.ella)
@@ -16499,7 +16509,8 @@
   conflict: Co-developed/formulated the Tbh Skincare 'Rebound' Serum and Toner (product-formulation partnership) — her endorsement of that spe; no YouTube; TikTok/IG intake
   posted: '2026-11-09'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: eyeshadow/makeup, not skincare
 - id: '7705937160045694214'
   title: what’s exciting in kbeauty this month (kbeauty skincare and makeup ha...
   creator: Hannah English (@ms_hannah_e / Hannah Collingwood English)
@@ -16603,7 +16614,8 @@
   conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan and reject any sponsored/affiliate/gifted video
   posted: '2026-11-08'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: Christmas ornaments, not skincare
 - id: '7705786116078652685'
   title: Favorites Tree 🎄✨ @Remedy Science @INNBEAUTY PROJECT @byoma @Paula's ...
   creator: Ella (@your.estie.ella)
