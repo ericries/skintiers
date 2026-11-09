@@ -4736,6 +4736,22 @@ mirvaso-brimonidine-gel:
     '
   score: 10
   verdict: publish
+mohammed-2025-808nm-diode-laser-hair-reduction-fitzpatrick-iv-vi-pmid-40958009:
+  assurance: sonnet
+  notes: 'All 15 quoted spans machine-checked verbatim against the PubMed abstract text (NFC-normalised, smart
+    quotes and dashes folded, whitespace collapsed); 0 misses, no quote demotions needed. Absences verified by
+    string search of the full abstract rather than asserted: zero occurrences of randomised/randomized,
+    control, placebo, standard deviation, confidence interval, 95% or any p-value, and no baseline hair count
+    or stated hair-counting method. ONE ABSENCE CLAIM WAS WEAKENED BEFORE PUBLISH: follow-up occurs twice in
+    the abstract (attended all follow-up visits; the authors asking for longer follow-up), so the page says
+    the follow-up INTERVAL is unstated rather than that there was no follow-up. The page also records, without
+    resolving it, a tension in the abstract''s own results paragraph, which reports no pigmentary changes
+    alongside skin appearing smoother and lighter in Fitzpatrick IV to VI. Author affiliations were read but
+    their personal email addresses, present in the PubMed record, are deliberately not reproduced. Reviewed in
+    the main loop with no subagent spawned, hence assurance sonnet.'
+  reviewed: '2026-11-09'
+  reviewer: main-loop self-verification
+  verdict: publish
 mohs-micrographic-surgery:
   assurance: sonnet
   notes: 'All 17 quoted strings verified verbatim against the re-fetched PMID 25262378 abstract; 0 mismatches. The page''s spine is a distinction the source supports and popular summaries flatten: in high-risk PRIMARY facial BCC the 10-year recurrence difference was 4.4% vs 12.2% at p=0.100, NOT significant, while in RECURRENT facial BCC it was 3.9% vs 13.5% at p=0.023, significant. The page says so and explicitly notes that the authors'' own interpretation sentence (''high risk facial BCC'') runs slightly ahead of the primary-BCC p-value, while granting the direction is fair. Carried the most transferable finding: 56% of primary-BCC recurrences occurred more than 5 years after treatment, so every 5-year cure rate understates lifetime recurrence. Author affiliations include two dedicated Mohs practices (MohsA Expertise Centre, Mohsklinieken); recorded as publication record with no allegation, and the page notes it cuts AGAINST interest here since the larger group returned a null result.

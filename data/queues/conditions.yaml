@@ -1103,3 +1103,18 @@
     ten studies are OBSERVATIONAL and single-arm, which is why a before-and-after
     number is the usual output; say that once rather than per row. Do not re-tell
     the sweet orange story, link it.'
+- name: Hirsutism (excess hair growth in women)
+  type: condition
+  priority: 5
+  status: pending
+  discovered_from: mohammed-2025-808nm-diode-laser-hair-reduction-fitzpatrick-iv-vi-pmid-40958009
+  source: 'https://pubmed.ncbi.nlm.nih.gov/40958009/ Grounded in the Mohammed 2025
+    study page, which treats chin and underarm hair in women and opens on unwanted
+    hair growth causing cosmetic and psychosocial distress, particularly in darker
+    skin types. The site has no hub for the condition itself while already carrying
+    pcos (its commonest cause), laser-hair-removal, light-based-hair-removal-deeper-skin-tones
+    and hair-removal-devices-by-evidence, so the hub has four inbound links waiting.
+    CHECKED AND USEFUL FOR WHOEVER WRITES IT: openFDA''s drug/label index returns
+    NO topical eflornithine label as of 2026-11-09 (the only eflornithine result is
+    oral IWILFIN for neuroblastoma, which is out of scope), so do not assume Vaniqa
+    is an available option without resolving its current status first.'
