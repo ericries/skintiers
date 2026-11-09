@@ -6,7 +6,7 @@ slug: tretinoin
 status: published
 tier: top
 type: ingredient
-updated: '2026-10-09'
+updated: '2026-11-08'
 videos:
 - title: "How to Layer Anti-aging Prescriptions (Tretinoin & Hydroquinone)"
   creator: "Dr. Shereene Idriss"
@@ -318,6 +318,7 @@ This section is quarantined and discounted; treat everything here as unproven un
 
 ## See Also
 
+- [[how-long-before-a-product-works]]: where the label's own up-to-six-months figure comes from
 - [[retinoids]]: the broader prescription/OTC drug class tretinoin belongs to
 - [[retinol]]: the milder, over-the-counter precursor most people try first
 - [[adapalene]]: equivalent acne efficacy with better tolerability

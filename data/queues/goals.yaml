@@ -936,7 +936,7 @@
 - name: How long to give a skincare product before deciding it does not work
   type: goal
   priority: 3
-  status: pending
+  status: done
   discovered_from: sun-damage-photoaging
   source: 'THE FIFTH VIDEO CANDIDATE IN THREE DAYS REJECTED PURELY FOR HAVING NO PAGE,
     after collagen, elastin, skin laxity and beef tallow. This one is the most basic

@@ -3953,3 +3953,19 @@
     published power, frequency and fluence per filing and report how many of the eleven
     were actually read. Do NOT conflate a published dose with evidence of benefit;
     the Geneo X Elite file publishes its dose and contains no clinical data at all.'
+- name: Isotretinoin acne flare on starting treatment
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: how-long-before-a-product-works
+  source: SURFACED BY AN ABSENCE SEARCH, not a guess. While establishing on [[how-long-before-a-product-works]]
+    that skincare purging has no indexed literature under that name, a PubMed query
+    for retinoid initial flare acne returned 5 records, two of which concern acne
+    flare FOLLOWING ISOTRETINOIN, an oral drug. That is the documented cousin of the
+    purging idea and the site has [[isotretinoin]] already. CHECK THAT PAGE FIRST
+    and make this a section there rather than a new page if it fits, which it probably
+    does. The useful distinction for a reader is that an initial flare on oral isotretinoin
+    is a described clinical phenomenon with case literature, while purging on a topical
+    is advice without an indexed evidence base, and the two get conflated. VERIFY
+    THE RECORDS before writing; I checked titles only, not abstracts. PMIDs 39987258
+    and 35500742 are the two seen.

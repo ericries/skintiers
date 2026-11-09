@@ -5969,3 +5969,22 @@
     since the 2024 one contains none. Apply the same string-search absence check used
     there. Low priority on purpose: nothing about the live page is wrong today, this
     only completes it.'
+- name: Renova (tretinoin 0.02% cream, the photoaging label)
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: how-long-before-a-product-works
+  source: 'A DISTINCT PRODUCT FROM [[tretinoin-0-025-cream]], and the distinction
+    is the reason to build it: Renova is NDA021108 at 0.02 percent, labelled for PHOTOAGING
+    (fine facial wrinkles) rather than acne, which is the opposite way round from
+    most tretinoin products the site covers. ALREADY READ AND QUOTED on [[how-long-before-a-product-works]],
+    so do not re-fetch the basics: label effective 2026-02-24; four multi-center plus
+    one single-center randomised controlled trial; 324 evaluable on drug against 332
+    on vehicle; 24 weeks; the full results distribution is drug versus vehicle at
+    worsened 1 and 3 percent, no change 40 and 58, minimal improvement 35 and 27,
+    mild 15 and 9, moderate 10 and 3; and the label''s own ''Up to 6 months of therapy
+    may be required before the effects are seen''. THE PAGE''S FINDING IS SITTING
+    IN THAT TABLE: a 10-point swing in no-change rate between drug and vehicle, which
+    is real and much smaller than the category''s marketing implies. The label is
+    also unusually blunt in capitals about what the product does not do, already quoted
+    on [[tretinoin-0-025-cream]]; link rather than repeat.'
