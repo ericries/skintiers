@@ -1352,3 +1352,23 @@
     SAY HOW MANY LABELS WERE READ rather than implying the whole range, and do NOT
     grade efficacy by filter type; that argument belongs to [[sunscreen-uv-filters]]
     and [[what-otc-monograph-m020-settled-and-what-it-left-open]].'
+- name: Hyaluronic acid serums, by where the hyaluronic acid actually sits in the
+    list
+  type: list
+  priority: 3
+  status: pending
+  discovered_from: cerave-hydrating-hyaluronic-acid-serum
+  source: 'GROUNDED IN A SINGLE OBSERVATION WORTH GENERALISING, made 2026-11-09 on
+    [[cerave-hydrating-hyaluronic-acid-serum]]: a serum named for hyaluronic acid
+    has glycerin second and sodium hyaluronate sixth of 24. The site already covers
+    [[la-roche-posay-hyalu-b5-hyaluronic-acid-serum]], [[torriden-dive-in-low-molecular-hyaluronic-acid-serum]]
+    and others, so the comparison is cheap. THE AXIS IS DECLARED POSITION, not concentration,
+    and the page MUST say so in the by field, because sodium hyaluronate is effective
+    at fractions of a percent and a low position is NOT automatically a failing. What
+    the list can honestly show is which products are led by glycerin, which is both
+    cheaper and better evidenced, while being sold on the other name. SOURCING IS
+    THE HARD PART AND THE REASON THIS IS PRIORITY 3 RATHER THAN HIGHER: the house
+    rule forbids citing incidecoder as evidence and sk verify blocks it, so every
+    position must come from the BRAND''s own declared list. CeraVe''s page does not
+    publish one. Check each brand before committing to a row, and drop any product
+    whose brand does not publish its list rather than sourcing it from an aggregator.'
