@@ -521,7 +521,7 @@
     make her roster product_recs: ok wrong'
   type: person
   priority: 4
-  status: pending
+  status: done
   discovered_from: aleksandra-brown
   source: 'SPLIT OFF from the credential item, which is now resolved: her practice''s
     Our Team page names her individually as ''Aleksandra Brown, D.O., F.A.O.C.D.,
@@ -536,3 +536,21 @@
     a storefront (LTK, ShopMy, Amazon), and if found, use sk roster-set rather than
     hand-editing the YAML. If NOT found after a bounded look, say so explicitly in
     the roster conflict field so this does not get re-litigated a third time.'
+- name: 'DECIDE: 17 existing cards from Aleksandra Brown''s two affiliate-monetized
+    picks videos'
+  type: person
+  priority: 3
+  status: pending
+  discovered_from: aleksandra-brown
+  source: 'https://www.youtube.com/watch?v=FYg2v6cKGks Verifying her storefront on
+    2026-11-09 changed her roster from product_recs ok to restricted, which means
+    two of her videos that are ALREADY carded would not be eligible under the corrected
+    setting. FYg2v6cKGks (Dermatologist Ranks 19 Products) is carded on 11 pages,
+    all CeraVe products plus the cerave brand page. r5Bx2OhMu6E (Drugstore Skincare
+    Mature Skin Actually Needs) is carded on 6 pages, including timeless-20-vitamin-c-e-ferulic-serum,
+    two vanicream products, cerave-skin-renewing-night-cream, gold-bond-age-renew-retinol-overnight-body-lotion
+    and the anti-aging goal. Every product link in both descriptions is a go.shopmy.us
+    affiliate link, though the CeraVe one states plainly that it is not sponsored.
+    WHETHER THE POLICY APPLIES RETROACTIVELY IS A USER DECISION, not a tick''s: removing
+    17 cards is a content-wide destructive change. Options are leave them with a disclosure,
+    annotate the affected cards, or remove them. Do not act unilaterally.'
