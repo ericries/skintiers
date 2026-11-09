@@ -6090,3 +6090,19 @@
     merge the four-label finding into the published Athletes Foot page and delete
     the draft, or restructure both into one Lotrimin Ultra family page. All three
     involve either a deletion or a structural change.'
+- name: Thayers Witch Hazel Facial Toner
+  type: product
+  priority: 3
+  status: pending
+  discovered_from: thayers
+  source: https://www.thayers.com/ The brand's flagship and the product the whole
+    Thayers range is built on, absent from the site while thayers-rapid-acne-treatment-sulfur-10
+    (which contains no witch hazel) is covered. Grounded in the storefront fetched
+    and cached 2026-11-09. THE OBVIOUS QUESTION FOR THIS PAGE is what the toner's
+    own ingredient list actually leads with, and how the witch-hazel evidence on the
+    existing witch-hazel ingredient page bears on a leave-on toner. TWO VARIANTS ALSO
+    LACK PAGES but are deliberately NOT queued separately yet, because the storefront
+    only yielded kit-label fragments (Witch Hazel and 2% AHA; Witch hazel and Salicylic
+    Acid) rather than full product names, and queueing an imprecise name is how a
+    mis-specified row gets written. Resolve their real names from the brand or an
+    FDA label first.

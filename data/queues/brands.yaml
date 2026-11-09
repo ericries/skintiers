@@ -772,7 +772,7 @@
 - name: Thayers
   type: brand
   priority: 4
-  status: pending
+  status: done
   discovered_from: thayers-rapid-acne-treatment-sulfur-10
   source: 'openFDA: 7 current OTC drug labels, all labelled by L''Oreal USA Products
     Inc LEAN discovery card only, <=180 words, per the playbook. The non-obvious facts
