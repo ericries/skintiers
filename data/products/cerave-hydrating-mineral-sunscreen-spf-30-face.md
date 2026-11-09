@@ -37,7 +37,7 @@ price:
 slug: cerave-hydrating-mineral-sunscreen-spf-30-face
 status: published
 type: product
-updated: '2026-08-08'
+updated: '2026-11-08'
 videos:
 - title: Is CeraVe Actually Good? Dermatologist Ranks 19 Products (+ What I'd Skip)
   creator: Dr. Aleksandra Brown, DO, FAAD
@@ -106,7 +106,7 @@ Listed on Target as "CeraVe Hydrating Mineral Face Sunscreen Lotion - SPF 30 - 2
 
 ## See Also
 
-[[cerave-hydrating-mineral-sunscreen-spf-50]] [[la-roche-posay-anthelios-uvmune-400-spf-50]] [[supergoop-unseen-sunscreen-spf-50]]
+[[cerave-hydrating-mineral-sunscreen-spf-50]] [[cerave-hydrating-sheer-sunscreen-spf-30|CeraVe Hydrating Sheer SPF 30, the hybrid easily mistaken for this one]] [[la-roche-posay-anthelios-uvmune-400-spf-50]] [[supergoop-unseen-sunscreen-spf-50]]
 
 ## Sources
 

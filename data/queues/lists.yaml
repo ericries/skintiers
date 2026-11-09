@@ -1334,3 +1334,21 @@
     which combinations were never compared to their own parts is genuinely useful
     and nobody publishes it. Say honestly how many labels were read rather than implying
     the whole class. Keep the tier_list by that axis, not by efficacy.'
+- name: CeraVe sunscreens, mineral versus hybrid, by what is actually in them
+  type: list
+  priority: 4
+  status: pending
+  discovered_from: cerave-hydrating-sheer-sunscreen-spf-30
+  source: 'CHEAP, GROUNDED, AND THE DATA IS ALREADY HALF COLLECTED. Established 2026-11-08
+    on [[cerave-hydrating-sheer-sunscreen-spf-30]]: an openFDA brand-name count across
+    CeraVe TOPICAL labels returns FIFTEEN distinct sunscreen names, and they are not
+    distinguishable by shelf name. Hydrating Mineral Sunscreen SPF 30 Face and Hydrating
+    Sheer Sunscreen SPF 30 Face and Body differ by one word and by their entire filter
+    system; only the Sheer one says Hybrid Formula, with Homosalate 6, Octisalate
+    5, Octocrylene 5 and Zinc oxide 7 percent. THE LIST IS SIMPLY the active ingredient
+    line of each of the fifteen labels, which openFDA returns in one field, grouped
+    into mineral-only and hybrid. That is a genuinely useful shopping aid nobody publishes
+    and it requires no judgement calls. The site already covers four of the fifteen.
+    SAY HOW MANY LABELS WERE READ rather than implying the whole range, and do NOT
+    grade efficacy by filter type; that argument belongs to [[sunscreen-uv-filters]]
+    and [[what-otc-monograph-m020-settled-and-what-it-left-open]].'
