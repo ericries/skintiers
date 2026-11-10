@@ -16307,7 +16307,8 @@
   conflict: 'Owns and sells a skincare line (Instagram handle @skincarebydrv in her own video descriptions) and routes to it repeatedly inside educational content: in one 9-point acne video she directs viewers to ''our trio blemish range'', ''our AM and PM moisturizers'', her Citrio Blemish Exfoliator and a mineral SPF she calls ''the world''s first mineral SPF 50 formulated for skin of color with no white cast''. Treat ALL product mentions as own-brand promotion. Separately, that video states unsourced figures as fact, including ''99% of sunscreens are chemical sunscreens'' and a claim that bamboo or silk pillowcases reduce fungal growth versus cotton, so relay no statistic from this channel without checking it independently.'
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: reaction compilation about other people's TikToks, no single topic matching an existing page, and from a creator whose roster says to treat all product mentions as own-brand promotion
 - id: '7705062766939294989'
   title: It’s possible to share your experience without insisting EVERYONE get...
   creator: Ella (@your.estie.ella)
@@ -16334,7 +16335,8 @@
   conflict: null
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'affiliate product rec inside an educational Q&A: description links the Cosrx 6X Peptide Booster via amzlink.to under ''Links are commissionable, meaning I may earn commission from purchases made through links'', plus her Amazon store and LikeToKnowIt. Not sponsored and openly disclosed, but a monetized pick'
 - id: '7705595336051526926'
   title: 'Is it time to give up on your product?! #skincare #dermatologist #doc...'
   creator: Dr. Chris Tomassian
@@ -16361,7 +16363,8 @@
   conflict: Chief Medical Officer of hair-growth-serum brand REYUS; advisory-board member of Bubble Skincare; periodic disclosed paid brand partnerships
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'affiliate picks: description carries 26 shopmy and 18 amzn links with an affiliate disclosure. ''Affordable skincare I''d actually buy'' is a picks format'
 - id: rHLcvL625Gk
   title: Fall Shedding? My 2-Step Scalp Reset (Scaling + Red Light Therapy)
   creator: Gothamista
@@ -16374,7 +16377,8 @@
   conflict: does sponsorships - educational content only, never treat picks as endorsements, never use sponsored videos
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: scalp and hair shedding rather than skincare, and from a creator verified today as carrying a Qure sponsorship and shopmy links
 - id: '7704849561688247565'
   title: 'Holiday wish list items I think are worth the money👀#holiday #christm...'
   creator: Jenn Lexi (@jennlexi_)
@@ -16429,7 +16433,8 @@
   conflict: runs the PillowtalkDerm brand - skip videos mainly promoting her own products
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: reflective essay on what comes after skincare, no single topic matching an existing page
 - id: U87-bUY8mxo
   title: 'Doctor Warns: Never Put This Acid on Armpits'
   creator: Dr. Vanita Rattan (Doctor V)
@@ -16442,7 +16447,8 @@
   conflict: 'Owns and sells a skincare line (Instagram handle @skincarebydrv in her own video descriptions) and routes to it repeatedly inside educational content: in one 9-point acne video she directs viewers to ''our trio blemish range'', ''our AM and PM moisturizers'', her Citrio Blemish Exfoliator and a mineral SPF she calls ''the world''s first mineral SPF 50 formulated for skin of color with no white cast''. Treat ALL product mentions as own-brand promotion. Separately, that video states unsourced figures as fact, including ''99% of sunscreens are chemical sunscreens'' and a claim that bamboo or silk pillowcases reduce fungal growth versus cotton, so relay no statistic from this channel without checking it independently.'
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: clickbait framing that names no ingredient in the title, not a single-topic match, same creator caveat
 - id: '7705470351500692750'
   title: 'The literal Christmas tree of my dreams!!! '
   creator: Ella (@your.estie.ella)
@@ -16483,7 +16489,8 @@
   conflict: Founder of own-brand haircare line (Rhute); TikTok Shop affiliate/product storefront; recurring disclosed sponsored posts (No7, La Roche Pos
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: hair guide rather than skincare, and from a creator verified today to route every product through go.shopmy.us
 - id: 4dW4gNdig9o
   title: Is It Skin Cancer or Just Aging? Dermatologist Explains 7 Growths
   creator: Dr. Aleksandra Brown, DO, FAAD
