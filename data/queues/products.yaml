@@ -6106,3 +6106,24 @@
     Acid) rather than full product names, and queueing an imprecise name is how a
     mis-specified row gets written. Resolve their real names from the brand or an
     FDA label first.
+- name: Add the Thayers Rose Petal reformulation finding to its page
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: thayers-rose-petal-facial-toner
+  source: 'https://incidecoder.com/products/thayers-rose-petal-facial-toner NOT A
+    NEW PAGE. One paragraph on the existing thayers-rose-petal-facial-toner page,
+    which already carries the brand''s CURRENT 16-entry list correctly. THE FINDING,
+    surfaced 2026-11-09 by the image cron cross-checking the INCI: incidecoder lists
+    a 9-entry formula for the same product, Purified Water then a certified organic
+    witch hazel and aloe blend, then Glycerin, Phenoxyethanol, Rosa CENTIFOLIA Flower
+    Water, Fragrance, Citric Acid and Citrus Grandis seed extract. The brand''s current
+    list instead has Aqua, GLYCERIN, Hamamelis, Rosa DAMASCENA, Aloe, plus potassium
+    hydroxide, caprylyl glycol, ethylhexylglycerin, polysorbate 20, potassium sorbate,
+    sodium benzoate, parfum, geraniol and citronellol. Different rose species, witch
+    hazel demoted from second to third, grapefruit seed extract gone, and two labelled
+    fragrance allergens added. The front photo on the page shows the PRIOR packaging,
+    which is consistent with the aggregator holding the prior formula. VERIFY BOTH
+    SOURCES AGAIN before writing, and do not cite incidecoder in a footnote since
+    sk verify errors on aggregators; cite the brand for the current list and describe
+    the aggregator listing in prose as this note does.'

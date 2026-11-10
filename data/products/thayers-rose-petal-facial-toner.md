@@ -8,6 +8,13 @@ analyzed: '2026-11-09'
 assurance: sonnet
 brand: Thayers
 category: Toners
+images:
+- file: thayers-rose-petal-facial-toner-incidecoder.jpg
+  source: incidecoder (front-of-bottle photograph; it shows the PRIOR packaging, the label
+    bearing the founder portrait and SINCE 1847, and incidecoder's own ingredient listing for
+    this product is the prior 9-entry formula rather than the 16-entry list the brand publishes
+    today, so the photo is used for identification only and no composition claim rests on it)
+  source_url: https://incidecoder.com/products/thayers-rose-petal-facial-toner
 comparator: '[[thayers-rapid-acne-treatment-sulfur-10]], the same brand''s treatment
   product, which contains no witch hazel at all'
 grades:
