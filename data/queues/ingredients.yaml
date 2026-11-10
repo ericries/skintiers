@@ -4049,3 +4049,30 @@
     that this tick did not use, PMID 38231537, Hyaluronidase for Dermal Filler Complications,
     a review of applications and DOSAGE recommendations, so dosing is available but
     is clinician-facing and should not be presented as instruction.'
+- name: Geraniol
+  type: ingredient
+  priority: 3
+  status: pending
+  discovered_from: thayers-rose-petal-facial-toner
+  source: https://www.thayers.com/shop-all/toners/rose-petal-facial-toner/12-oz Declared
+    last-but-one on thayers-rose-petal-facial-toner, a toner marketed as ideal for
+    soothing irritated or sensitive skin. PRIORITISED AT 3 because geraniol is one
+    of the fragrance constituents the EU requires to be labelled individually precisely
+    because it is a recognised contact allergen, so unlike the polyglyceryl esters
+    queued earlier today this page can carry a real tolerability rubric with patch-test
+    evidence behind it. Expect tier weak, since the question is tolerability rather
+    than benefit. Pair it with citronellol, queued alongside and on the same label.
+    Verify the allergen status and any prevalence figures from PubMed rather than
+    from this note.
+- name: Citronellol
+  type: ingredient
+  priority: 3
+  status: pending
+  discovered_from: thayers-rose-petal-facial-toner
+  source: https://www.thayers.com/shop-all/toners/rose-petal-facial-toner/12-oz
+- name: Rosa Damascena Flower Water (rose water)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: thayers-rose-petal-facial-toner
+  source: https://www.thayers.com/shop-all/toners/rose-petal-facial-toner/12-oz

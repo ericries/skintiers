@@ -7309,6 +7309,26 @@ thanawala-2025-oral-turmeric-extract-facial-skin-health:
     has been assessed here.'
   score: 8
   verdict: publish
+thayers-rose-petal-facial-toner:
+  assurance: sonnet
+  notes: 'THE FIRST DRAFT OF THIS PAGE WAS WRONG AND WAS SCRAPPED, which is the main thing to record.
+    Searching the RAW HTML for ingredient tokens returned almost nothing, so the draft argued that a brand
+    built on witch hazel publishes no ingredient list, and separately that the page never says whether the
+    product is alcohol-free. Both were false. The text is split across tags and script blocks; searching the
+    CACHED TEXT EXTRACTION instead immediately produced the full 16-entry INCI, fourteen occurrences of
+    alcohol-free, and a third size and price the raw grep had mistaken for an SVG coordinate. The page was
+    rewritten from the extraction and the method note is kept in its footnote so the mistake is not repeated.
+    LESSON: grep the extraction, not the markup. All 16 quoted spans then machine-checked verbatim, with one
+    further error caught and fixed (the sensitive-skin claim opens Calms and nourishes, not finishes). The
+    substantive findings are that glycerin sits SECOND and witch hazel THIRD, so the hydration the marketing
+    attributes to the botanical is most likely the glycerin; that the 50% and 22% figures are asterisked to an
+    unpublished evaluation of facial toner generically, with 73 and 75 subjects given on the same page and no
+    design, control, blinding or timepoint; and that a formula marketed as ideal for irritated or sensitive
+    skin declares PARFUM plus GERANIOL and CITRONELLOL. Reviewed in the main loop, no subagent, hence
+    assurance sonnet.'
+  reviewed: '2026-11-09'
+  reviewer: main-loop self-verification
+  verdict: publish
 the-inkey-list:
   last_reviewed: '2026-08-08'
   note: 'Lean brand discovery-aid page (daily-drain, Sonnet-only, no Opus critic per roster). <=180 words: what it
