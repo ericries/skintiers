@@ -2187,3 +2187,20 @@
     wildly wrong. Also record that it is a review of photographic published cases
     with no denominator of procedures, so it supports pattern claims and not incidence
     claims.'
+- name: DiNardo 1996 - glycolic acid at three pH levels and four concentrations (PMID
+    8634803)
+  type: study
+  priority: 4
+  status: pending
+  discovered_from: exfoliating-acid-products-that-publish-a-ph
+  source: 'https://pubmed.ncbi.nlm.nih.gov/8634803/ Now quoted on exfoliating-acid-products-that-publish-a-ph
+    and the only study this site has found that VARIES pH directly. It applied glycolic
+    acid twice daily for three weeks after a two-week washout at pH 3.25, 3.80 and
+    4.40 and at 3.25, 6.50, 9.75 and 13.00 percent, to ichthyotic or xerotic skin,
+    with shave biopsies plus dryness, moisturisation and TEWL. THE HEADLINE IS COUNTERINTUITIVE
+    and must be reported carefully: it says all pH levels and concentrations improved
+    the skin, with trends implying that INCREASING the pH increases efficacy, which
+    cuts against the common lower-pH-is-better framing. It reports a TREND, not a
+    tested comparison between pH levels, and the abstract gives no participant count,
+    no control arm and no p-values, so the study page must not present it as establishing
+    the reverse claim either.'

@@ -1112,7 +1112,7 @@
 - name: Exfoliating acid products that publish a pH
   type: list
   priority: 4
-  status: pending
+  status: done
   discovered_from: lac-hydrin-ammonium-lactate-lotion-12
   source: 'data/products/lac-hydrin-ammonium-lactate-lotion-12.md (pH 4.4-5.5 published)
     vs data/products/dr-dennis-gross-alpha-beta-universal-daily-peel.md (none) A transparency

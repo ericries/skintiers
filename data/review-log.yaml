@@ -2665,6 +2665,24 @@ even-skin-tone:
   note: 'Maintenance false flag cleared via tier_list_reviewed. The tier_list is scoped "how well each ACTIVE is supported" and every item is an active (sunscreen filters, retinoids, azelaic acid, niacinamide, ascorbic acid); paulas-choice-skin-perfecting-8-aha-gel-exfoliant is a PRODUCT, so it cannot join an actives ranking. Noted separately: this hub ranks no AHA/glycolic active at all (0 matches), which is a genuine content gap for an even-skin-tone hub and is worth adding as an ACTIVE later rather than smuggling it in as a product. tier_list unchanged.'
   score: 8
   verdict: publish
+exfoliating-acid-products-that-publish-a-ph:
+  assurance: sonnet
+  notes: 'Curatorial over existing pages; no new product research. TWO COUNTING ERRORS CAUGHT BEFORE PUBLISH.
+    A first pass counted 12 of 42 pages publishing a pH, but one was a false positive: the Murad Rapid Dark
+    Spot Correcting Serum matched because its ingredient list records sodium hydroxide as a pH ADJUSTER, which
+    is not a published figure. The test now excludes that phrase and the answer is 11 of 42, which is the
+    headline, so the fix changed the number the page is built on. A second pass also truncated every value at
+    its decimal point, which would have printed pH 3 instead of 3.50 to 3.70 throughout. THE SUBSTANTIVE
+    CORRECTION is to my own framing: searching for a source for the free-acid claim turned up DiNardo 1996,
+    the only study found that varies pH directly, which reports trends implying that INCREASING pH increases
+    efficacy. Rather than drop an inconvenient source, the page now leads with it and says plainly that a low
+    number describes how a formula is built rather than promising results, and the footnote records the
+    study''s limits so it is not read as establishing the reverse either. Tiers are explicitly bands on a pH
+    axis and not merit, and two entries (Lac-Hydrin, a higher-pH keratolytic, and the CosRx cleanser, a
+    rinse-off) are included with their non-comparability stated. Main loop, no subagent, hence sonnet.'
+  reviewed: '2026-11-10'
+  reviewer: main-loop self-verification
+  verdict: publish
 exfoliating-acids-by-strength:
   last_reviewed: '2026-08-11'
   note: 'Exfoliating Acids by Strength tier list (LIST cron, inline curatorial, Phase B new ladder family).

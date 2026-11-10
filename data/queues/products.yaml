@@ -6191,3 +6191,19 @@
     collagen figures are laboratory measurements on a skin model and are NOT outcomes
     in the 24 subjects, so they must not be presented as results in people. The cellulite
     absence belongs to the cellulite page and should be linked rather than restated.'
+- name: Check whether brands publish a pH for the 31 exfoliating-acid products whose
+    pages omit one
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: exfoliating-acid-products-that-publish-a-ph
+  source: 'https://github.com/ericries/skintiers Grounded in exfoliating-acid-products-that-publish-a-ph,
+    which counts 42 product pages whose key_actives name an exfoliating acid and finds
+    only 11 carrying a published numeric pH. The other 31 may be split between brands
+    that publish a figure we never captured and brands that genuinely withhold it,
+    and the list currently cannot tell those apart. BOUNDED WAY TO DO THIS: take a
+    few at a time, check the brand''s own product page, and add the figure to the
+    product page with its source where one exists. Where a brand genuinely publishes
+    none, record that as a checked absence on the product page so the list can eventually
+    distinguish withheld from uncaptured, which is the more interesting finding. Do
+    NOT infer a pH from the ingredient list or from a retailer.'
