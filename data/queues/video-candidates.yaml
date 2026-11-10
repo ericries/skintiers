@@ -16604,19 +16604,6 @@
   posted: ''
   feed_rank: 0
   status: pending
-- id: '7705858546352672014'
-  title: EGF vs GHK, which one is better? Explained by a beauty product develo...
-  creator: Kristin Leite (kristingl)
-  creator_slug: kristin-leite
-  credential: Beauty product developer and skincare educator (NOT a dermatologist or cosmetic chemist)
-  channel: https://www.tiktok.com/@kristingl
-  platform: TikTok
-  tier: MED
-  product_recs: null
-  conflict: runs an Amazon affiliate storefront and does sponsored posts - strongly prefer educational / how-to / ingredient-explainer videos; be very cautious with any product recommendation
-  posted: '2026-11-08'
-  feed_rank: 0
-  status: pending
 - id: y_o9LHvi9B0
   title: Layering skincare to Fade Dark Marks In Black Skin
   creator: Dr. Vanita Rattan (Doctor V)
@@ -16658,3 +16645,263 @@
   feed_rank: 1
   status: skipped
   skip_reason: brand-tagged favorites carousel (Remedy Science, INNBEAUTY PROJECT, byoma, Paula's Choice), a picks format and the source of repeated brand-as-creator miner false positives
+- id: lSwctTrpBRQ
+  title: Top Amazon Skincare Favorites of 2026 | Dermatologist Reviews
+  creator: Andrea Suarez (Dr Dray)
+  creator_slug: andrea-suarez-dr-dray
+  credential: Board-certified dermatologist
+  channel: https://www.youtube.com/@DrDrayzday/videos
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Discloses on her own videos that links are commissionable, and runs two affiliate storefronts, an Amazon store and a LikeToKnowIt page, both linked in her video descriptions. Verified 2026-11-09 from the description of her milky-toner roundup, which states "This video is not sponsored. Links are commissionable, meaning I may earn commission from purchases made through links." So her reviews and best-of videos are picks monetized through a storefront and are treated as effectively paid, and must be skipped even though her HIGH tier would otherwise make them eligible. Her non-product educational videos stay eligible. She is transparent about the arrangement; the issue is the monetization rather than any concealment.
+  posted: ''
+  feed_rank: 0
+  status: pending
+- id: FKjTxrdzQjI
+  title: 'Better than filler??? #dermreacts  #skincare  #dermatologist #dermangelo  #reactionvideo  '
+  creator: Dr. Angelo Landriscina (DermAngelo)
+  creator_slug: angelo-landriscina
+  credential: Board-certified dermatologist
+  channel: https://www.youtube.com/@DermAngelo/videos
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Own-brand UPF sun-protective clothing line, SOUL-A (wearsoula.com / @wearsoula), founded and promoted by him — apparel, not topical skincare
+  posted: ''
+  feed_rank: 0
+  status: pending
+- id: '7706400619463970061'
+  title: 'Pea size goes a long way fam #retinol #tretinoin #howtouseretinol '
+  creator: Dr. Chris Tomassian
+  creator_slug: chris-tomassian
+  credential: Board-certified dermatologist
+  channel: https://www.tiktok.com/@dr.tomassian
+  platform: TikTok
+  tier: MED
+  product_recs: ok
+  conflict: Bio includes a business/booking contact email suggesting managed brand partnerships; no confirmed own-brand line or affiliate stor
+  posted: '2026-11-10'
+  feed_rank: 0
+  status: pending
+- id: '7706181175370353934'
+  title: 'Okay, I will fully take the blame for every single one of these. 🫠 #s...'
+  creator: Fatima Fahs
+  creator_slug: fatima-fahs
+  credential: Dermatologist (MD)
+  channel: https://www.tiktok.com/@dermydoctor
+  platform: TikTok
+  tier: HIGH
+  product_recs: restricted
+  conflict: Promotes her own curated product box, Dermy Doc Box (@dermy.doc.box), with link-in-bio callouts in the caption tail (observed 2026-10-29 on clip 7686867010508164366, posted 2026-09-18) - treat her product picks and seasonal recommendations as own-product promotion
+  posted: '2026-11-09'
+  feed_rank: 0
+  status: pending
+- id: '7706136037696802062'
+  title: On Friday, I spoke at the Perimenopause Symposium in Baltimore. It wa...
+  creator: Dr. Heather Woolery-Lloyd (drheathermd)
+  creator_slug: heather-woolerylloyd
+  credential: Board-certified dermatologist
+  channel: https://www.tiktok.com/@drheathermd
+  platform: TikTok
+  tier: HIGH
+  product_recs: restricted
+  conflict: Paid Chief Medical Advisor to Nutrafol (hair-growth supplement brand); bio links a stan.store link-in-bio storefront (possible aff
+  posted: '2026-11-09'
+  feed_rank: 0
+  status: pending
+- id: '7706132208729197838'
+  title: 3 GLP-1 tips for women from my panel @livelong_media Women’s Health S...
+  creator: Dr. Heather Woolery-Lloyd (drheathermd)
+  creator_slug: heather-woolerylloyd
+  credential: Board-certified dermatologist
+  channel: https://www.tiktok.com/@drheathermd
+  platform: TikTok
+  tier: HIGH
+  product_recs: restricted
+  conflict: Paid Chief Medical Advisor to Nutrafol (hair-growth supplement brand); bio links a stan.store link-in-bio storefront (possible aff
+  posted: '2026-11-09'
+  feed_rank: 1
+  status: pending
+- id: '7706128837167336718'
+  title: Today I spoke at the Women’s Health Summit in New York City on a pane...
+  creator: Dr. Heather Woolery-Lloyd (drheathermd)
+  creator_slug: heather-woolerylloyd
+  credential: Board-certified dermatologist
+  channel: https://www.tiktok.com/@drheathermd
+  platform: TikTok
+  tier: HIGH
+  product_recs: restricted
+  conflict: Paid Chief Medical Advisor to Nutrafol (hair-growth supplement brand); bio links a stan.store link-in-bio storefront (possible aff
+  posted: '2026-11-09'
+  feed_rank: 2
+  status: pending
+- id: '7706125274642959630'
+  title: Had a wonderful time at the @scienceofskinsummit ✨ Always one of my f...
+  creator: Dr. Heather Woolery-Lloyd (drheathermd)
+  creator_slug: heather-woolerylloyd
+  credential: Board-certified dermatologist
+  channel: https://www.tiktok.com/@drheathermd
+  platform: TikTok
+  tier: HIGH
+  product_recs: restricted
+  conflict: Paid Chief Medical Advisor to Nutrafol (hair-growth supplement brand); bio links a stan.store link-in-bio storefront (possible aff
+  posted: '2026-11-09'
+  feed_rank: 3
+  status: pending
+- id: '7706124773457153294'
+  title: ✨There has been a shift in the world of skincare and wellness from qu...
+  creator: Dr. Heather Woolery-Lloyd (drheathermd)
+  creator_slug: heather-woolerylloyd
+  credential: Board-certified dermatologist
+  channel: https://www.tiktok.com/@drheathermd
+  platform: TikTok
+  tier: HIGH
+  product_recs: restricted
+  conflict: Paid Chief Medical Advisor to Nutrafol (hair-growth supplement brand); bio links a stan.store link-in-bio storefront (possible aff
+  posted: '2026-11-09'
+  feed_rank: 4
+  status: pending
+- id: '7706124216483056910'
+  title: Start healthy habits today so your future self will thank you❤️ Inspi...
+  creator: Dr. Heather Woolery-Lloyd (drheathermd)
+  creator_slug: heather-woolerylloyd
+  credential: Board-certified dermatologist
+  channel: https://www.tiktok.com/@drheathermd
+  platform: TikTok
+  tier: HIGH
+  product_recs: restricted
+  conflict: Paid Chief Medical Advisor to Nutrafol (hair-growth supplement brand); bio links a stan.store link-in-bio storefront (possible aff
+  posted: '2026-11-09'
+  feed_rank: 5
+  status: pending
+- id: '7706348711231655181'
+  title: 'What are the best holiday gifts for someone who has everything??? #ho...'
+  creator: Jenn Lexi (@jennlexi_)
+  creator_slug: jennlexi
+  credential: Esthetician (self-identified); not a dermatologist or cosmetic chemist
+  channel: https://www.tiktok.com/@jennlexi_
+  platform: TikTok
+  tier: MED
+  product_recs: restricted
+  conflict: 'Runs #ad sponsored posts (e.g. TruSkin) and Target skincare hauls/reviews; prefer her educational ingredient-category and barrier-repair explainers, and treat product recommendations as effectively promotional (skip).'
+  posted: '2026-11-10'
+  feed_rank: 0
+  status: pending
+- id: '7706267945239907597'
+  title: Same same, but different. All these serums are anti-aging but work in...
+  creator: Kristin Leite (kristingl)
+  creator_slug: kristin-leite
+  credential: Beauty product developer and skincare educator (NOT a dermatologist or cosmetic chemist)
+  channel: https://www.tiktok.com/@kristingl
+  platform: TikTok
+  tier: MED
+  product_recs: null
+  conflict: runs an Amazon affiliate storefront and does sponsored posts - strongly prefer educational / how-to / ingredient-explainer videos; be very cautious with any product recommendation
+  posted: '2026-11-09'
+  feed_rank: 0
+  status: pending
+- id: '7706208658878762253'
+  title: 'HOLY GRAIL Barrier Serums of 2026: ⭐️ @dear, Klairs EGF Serum     ⭐️ ...'
+  creator: Kristin Leite (kristingl)
+  creator_slug: kristin-leite
+  credential: Beauty product developer and skincare educator (NOT a dermatologist or cosmetic chemist)
+  channel: https://www.tiktok.com/@kristingl
+  platform: TikTok
+  tier: MED
+  product_recs: null
+  conflict: runs an Amazon affiliate storefront and does sponsored posts - strongly prefer educational / how-to / ingredient-explainer videos; be very cautious with any product recommendation
+  posted: '2026-11-09'
+  feed_rank: 1
+  status: pending
+- id: '7706263444298763550'
+  title: In case you were wondering, Rob has an extensive skincare routine too...
+  creator: Dr. Mamina Turegano
+  creator_slug: mamina-turegano
+  credential: Board-certified in dermatology, internal medicine and dermatopathology; practices at Sanova Dermatology, Metairie, Louisiana
+  channel: https://www.tiktok.com/@dr.mamina
+  platform: TikTok
+  tier: MED
+  product_recs: restricted
+  conflict: null
+  posted: '2026-11-09'
+  feed_rank: 0
+  status: pending
+- id: k6_e1M9nihA
+  title: '1.25 & worth every penny! #dollartreehaul #skincare'
+  creator: Dr. Neera Nathan
+  creator_slug: neera-nathan
+  credential: Board-certified dermatologist
+  channel: https://www.youtube.com/@dermatologysurgeon
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Runs a "Shop my Favorites" affiliate storefront (linktr.ee/dermatologysurgeon) that monetizes her product picks; no own-brand prod
+  posted: ''
+  feed_rank: 0
+  status: pending
+- id: '7706345247671864607'
+  title: 🖇️ Comment LONGEVITY for the full list of derm-approved products for ...
+  creator: Dr. Sheila Farhang (dr.sheila_derm)
+  creator_slug: sheila-farhang
+  credential: Board-certified dermatologist
+  channel: https://www.tiktok.com/@dr.sheila_derm
+  platform: TikTok
+  tier: HIGH
+  product_recs: restricted
+  conflict: Self-describes as a "Key Opinion Leader for industry beauty companies" (per her own practice bio) and most sampled TikTok videos e; no YouTube; TikTok/IG intake
+  posted: '2026-11-10'
+  feed_rank: 0
+  status: pending
+- id: ApcMTQlfyG0
+  title: Tinted Mineral SPF50 For Black & Brown Skin - I Built It In My Lab
+  creator: Dr. Vanita Rattan (Doctor V)
+  creator_slug: vanita-rattan
+  credential: Describes herself on camera as a medically qualified doctor who is also a cosmetic formulator for skin of colour, and as a published author with HarperCollins; she does not claim to be a dermatologist. Self-stated and not independently verified against a medical register by this site.
+  channel: https://www.youtube.com/channel/UC4u0qaMIAgOL8L37RwLcDQA
+  platform: YouTube
+  tier: MED
+  product_recs: null
+  conflict: 'Owns and sells a skincare line (Instagram handle @skincarebydrv in her own video descriptions) and routes to it repeatedly inside educational content: in one 9-point acne video she directs viewers to ''our trio blemish range'', ''our AM and PM moisturizers'', her Citrio Blemish Exfoliator and a mineral SPF she calls ''the world''s first mineral SPF 50 formulated for skin of color with no white cast''. Treat ALL product mentions as own-brand promotion. Separately, that video states unsourced figures as fact, including ''99% of sunscreens are chemical sunscreens'' and a claim that bamboo or silk pillowcases reduce fungal growth versus cotton, so relay no statistic from this channel without checking it independently.'
+  posted: ''
+  feed_rank: 0
+  status: pending
+- id: '7706371247013154062'
+  title: Replying to @Jessica Uminsky it’s generally not going to hurt anythin...
+  creator: Ella (@your.estie.ella)
+  creator_slug: your-estie-ella
+  credential: Licensed esthetician (NOT a dermatologist or cosmetic chemist)
+  channel: https://www.tiktok.com/@your.estie.ella
+  platform: TikTok
+  tier: MED
+  product_recs: ok
+  conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan and reject any sponsored/affiliate/gifted video
+  posted: '2026-11-10'
+  feed_rank: 0
+  status: pending
+- id: '7706229642449046797'
+  title: Back camera. No filter.
+  creator: Ella (@your.estie.ella)
+  creator_slug: your-estie-ella
+  credential: Licensed esthetician (NOT a dermatologist or cosmetic chemist)
+  channel: https://www.tiktok.com/@your.estie.ella
+  platform: TikTok
+  tier: MED
+  product_recs: ok
+  conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan and reject any sponsored/affiliate/gifted video
+  posted: '2026-11-09'
+  feed_rank: 1
+  status: pending
+- id: '7706192690798415117'
+  title: The golden combo doesn’t work if you’re just stressing your barrier 🫠
+  creator: Ella (@your.estie.ella)
+  creator_slug: your-estie-ella
+  credential: Licensed esthetician (NOT a dermatologist or cosmetic chemist)
+  channel: https://www.tiktok.com/@your.estie.ella
+  platform: TikTok
+  tier: MED
+  product_recs: ok
+  conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan and reject any sponsored/affiliate/gifted video
+  posted: '2026-11-09'
+  feed_rank: 2
+  status: pending
