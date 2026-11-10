@@ -4704,7 +4704,7 @@
 - name: El Global Trade DeepSkin DEP100 (K252621)
   type: product
   priority: 4
-  status: pending
+  status: done
   discovered_from: currentbody
   source: 'openFDA K252621, El Global Trade Ltd., decision 2026-05-08, product code
     NFO, published as a Summary (verified 2026-10-28). NFO is the microcurrent code
@@ -6148,7 +6148,7 @@
     (K124042)'
   type: product
   priority: 3
-  status: pending
+  status: done
   discovered_from: silkn-blue
   source: 'https://www.accessdata.fda.gov/cdrh_docs/pdf12/K121435.pdf The Silk''n
     Blue filing names the Tanda Skincare System by Pharos Life at K080591 as a predicate.
@@ -6161,3 +6161,15 @@
     existing page. If they are different devices, the existing page should say which
     one it covers, and the other may deserve its own. Do not assume from the shared
     name.'
+- name: Nu Skin Facial Spa (K122711, Nu Skin Enterprises)
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: el-global-trade-deepskin-dep100
+  source: 'https://www.accessdata.fda.gov/cdrh_docs/pdf25/K252621.pdf The sole predicate
+    named in the DEP100 filing, cleared 2013-09-17, and absent from this site. DISAMBIGUATION
+    REQUIRED IN THE PAGE ITSELF: Nu Skin Enterprises is NOT NuFACE, whose microcurrent
+    devices the site already covers, and the similar names are an obvious confusion
+    for a reader. A 2026 device resting its entire case on this 2013 clearance makes
+    the parent worth reading on its own terms, including whether IT published any
+    clinical data.'

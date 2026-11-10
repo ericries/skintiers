@@ -954,3 +954,21 @@
     will settle from a product that simply does not suit you, because that is the
     decision a reader is actually making at week two. Check [[retinoids]] and [[tretinoin]]
     first, which already carry creator cards on exactly this question.'
+- name: Microcurrent for facial skin (what the cleared indications and the evidence
+    actually say)
+  type: goal
+  priority: 3
+  status: pending
+  discovered_from: el-global-trade-deepskin-dep100
+  source: 'https://www.accessdata.fda.gov/cdrh_docs/pdf25/K252621.pdf EIGHTEEN product
+    pages on this site mention microcurrent and there is no hub for the modality anywhere,
+    in goals, ingredients or lists. Grounded in el-global-trade-deepskin-dep100, whose
+    filing shows why a hub is needed: its cleared indication is facial stimulation
+    for cosmetic use and the word wrinkle appears nowhere in the ten-page summary,
+    while microcurrent devices reach shoppers on lift and contour. THE HUB SHOULD
+    CARRY THE GAP between what these clearances permit and what the category advertises,
+    and can anchor a tier list across nuface-trinity-microcurrent-device, nuface-mini-microcurrent-device
+    and the DEP100. Note also that these devices require a separately cleared conductive
+    gel, which nuface-gel-primer covers, so the running cost belongs in the hub too.
+    Check for independent trial evidence before grading; do not inherit a grade from
+    the device filings, which contain none.'

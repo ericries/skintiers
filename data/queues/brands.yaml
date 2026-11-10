@@ -836,3 +836,9 @@
   status: pending
   discovered_from: dpl-nuve-for-wrinkles
   source: https://www.accessdata.fda.gov/cdrh_docs/pdf14/K141181.pdf
+- name: Nu Skin Enterprises
+  type: brand
+  priority: 6
+  status: pending
+  discovered_from: el-global-trade-deepskin-dep100
+  source: https://www.accessdata.fda.gov/cdrh_docs/pdf25/K252621.pdf

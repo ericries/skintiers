@@ -2391,6 +2391,26 @@ eichenfield-2026-identifying-the-most-relevant-eczema-area-and-severit:
     '
   score: 10
   verdict: publish
+el-global-trade-deepskin-dep100:
+  assurance: sonnet
+  notes: 'All 10 quoted spans machine-checked verbatim against the extracted filing; clean text layer, no scan
+    damage, so nothing needed demoting to reported. IDENTITY RESOLVED BEFORE DRAFTING, and it mattered.
+    openFDA files this under advisory committee Neurology, which reads like an out-of-scope device; querying
+    the classification index for product code NFO returns Stimulator, Transcutaneous Electrical, AESTHETIC
+    PURPOSES at regulation 882.5890, so Neurology is the review panel and not the use. Rejecting on the
+    committee name would have discarded an in-scope device. THE CENTRAL FINDINGS are absences verified by
+    string search: the ten-page summary contains no occurrence of wrinkle, lifting, toning or firming, and no
+    placebo, randomised, randomized or trial, and it states outright under its own Clinical Performance Data
+    heading that no clinical testing was gathered. The only human study is an 18-person self-selection and
+    usability validation, whose 100% success rate measures whether people could follow the instructions. The
+    page also records a wording problem rather than smoothing it: the bench-test section claims its data
+    support efficacy, which bench testing cannot show for a human face, and the same document later confirms
+    no clinical data exists. One disambiguation deliberately spelled out: the predicate is Nu Skin
+    Enterprises, which is NOT NuFACE, whose device the site covers separately. One style failure caught before
+    publish (defensive meta-commentary). Reviewed in the main loop, no subagent, hence sonnet.'
+  reviewed: '2026-11-10'
+  reviewer: main-loop self-verification
+  verdict: publish
 elewski-2003-azelaic-acid-15-vs-metronidazole-0-75-rosacea-rct:
   last_reviewed: '2026-08-08'
   note: 'Opus re-fetched the cited PubMed abstract (PMID 14623704) and verified every number verbatim: n=251, 13 US centers, twice-daily x15 weeks, lesion count -12.9 vs -10.7 (P=.003), inflammatory -72.7% vs -55.8% (P<.001), erythema 56% vs 42% (P=.02), IGA P=.02, overall improvement P=.005; design, population, comparator, high-cosmetic-acceptability and no-serious-adverse-events claims, and the abstract-only disclosure all check out and link-out discipline is respected. Verdict revise: the telangiectasia line paraphrases ''clinically appreciable effect'' as ''statistically significant improvement,'' inventing a statistical claim the abstract never makes; fix that (and soften unquoted ''well tolerated'') and it publishes.
