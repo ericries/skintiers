@@ -86,9 +86,9 @@ Label and marketing claims not established by the graded evidence above:
 - **"82% of patients using LIPIKAR Baume AP+M for one month don't relapse vs only 26% of people using a standard care."** La Roche-Posay's own Middle East product page cites this to "a clinical study on 100 subjects" without a published paper, journal, or independent review available to check.[^lrpme]
 - **"Itching is decreased by -41%, sleep loss is decreased by -42%, quality of life is improved by +69%."** The same page attributes this to "a clinical study on 51 subjects (adults and children), during 2 weeks," using this balm together with a separate Lipikar cleanser, again without a published, independently checkable report.[^lrpme]
 - **"Clinically shown to help reduce dry, rough skin" and "long-lasting, 48-hour hydration."** Target's brand-supplied benefit statements; no independently published trial of this product was located.[^target]
-- **"Restores the skin's protective barrier."** [[Niacinamide|Niacinamide's]] barrier-lipid effect is evidenced at the category level; no product-specific barrier measurement of this balm was located.[^target]
+- **"Restores the skin's protective barrier."** [[niacinamide|Niacinamide's]] barrier-lipid effect is evidenced at the category level; no product-specific barrier measurement of this balm was located.[^target]
 - **"Suitable for patients undergoing chemotherapy and radiation."** A manufacturer/retailer suitability statement, not a reported clinical-trial outcome on the pages cited here.[^target]
-- **"Aqua Posae Filiformis rebalances the skin's microbiome."** [[Vitreoscilla-filiformis-lysate|Vitreoscilla filiformis extract's]] cited trials measure eczema severity scores and lab-culture markers, not a direct measurement of the resident skin microbial community.
+- **"Aqua Posae Filiformis rebalances the skin's microbiome."** [[vitreoscilla-filiformis-lysate|Vitreoscilla filiformis extract's]] cited trials measure eczema severity scores and lab-culture markers, not a direct measurement of the resident skin microbial community.
 
 ## See Also
 

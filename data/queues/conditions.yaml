@@ -1118,3 +1118,23 @@
     NO topical eflornithine label as of 2026-11-09 (the only eflornithine result is
     oral IWILFIN for neuroblastoma, which is out of scope), so do not assume Vaniqa
     is an available option without resolving its current status first.'
+- name: 'RESOLVE: 16 wikilink targets that name no page (eczema, photoaging, sebum
+    and others)'
+  type: condition
+  priority: 3
+  status: pending
+  discovered_from: polyglyceryl-10-diisostearate
+  source: 'https://github.com/ericries/skintiers Found 2026-11-09. An unresolved wikilink
+    renders as PLAIN TEXT, so the sentence promises a cross-reference and delivers
+    a bare word, and sk lint, style and verify all pass it. A sweep found 33 occurrences
+    across 26 targets; 10 were mechanical case or spacing typos on pages that do exist
+    and were repaired in place, and tests/test_wikilink_resolution.py now ratchets
+    both classes. THESE 16 REMAIN and each needs a decision rather than a typo fix.
+    Probably repoint to an existing page: eczema (3 pages) to atopic-dermatitis, sodium-hyaluronate
+    to hyaluronic-acid, moisturizer to moisturizing, photodamage and photoaging to
+    whichever of sun-damage-photoaging or anti-aging is meant, selenium-disulfide
+    to the selenium sulfide page if that is the same entity. Probably deserve their
+    own page: sebum and sebaceous-glands (both from isotretinoin-sebum-suppression),
+    striae-distensae, scarring. Probably ingredient pages: lidocaine, prilocaine,
+    miconazole, oxymetazoline, aloe, oat. Do NOT bulk-repoint without checking each,
+    since whether eczema means atopic dermatitis on a given page is a content question.'

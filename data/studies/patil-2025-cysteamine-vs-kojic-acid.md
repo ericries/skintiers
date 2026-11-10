@@ -21,7 +21,7 @@ A randomized open-label trial in Indian women with facial melasma found 5% cyste
 
 **Effect size / interpretation:** Both creams reduced mMASI and Mexameter-measured melanin content from baseline, with cysteamine numerically ahead on both measures, but the between-group difference did not reach statistical significance, so the trial does not establish superiority of either agent over the other.[^1]
 
-**Applicability + key limitation:** Applies to Indian adult women with facial melasma treated for 16 weeks; open-label design (no blinding) and no reported statistical test or p-value for the between-group comparison are the key limitations, and only the abstract was accessed so exact per-group n and any additional endpoints (cosmetic acceptability, subject questionnaire results) cannot be verified. Bridges [[cysteamine]] and [[kojic acid]] coverage for [[hyperpigmentation]]/[[melasma]], where general ingredient background is covered.
+**Applicability + key limitation:** Applies to Indian adult women with facial melasma treated for 16 weeks; open-label design (no blinding) and no reported statistical test or p-value for the between-group comparison are the key limitations, and only the abstract was accessed so exact per-group n and any additional endpoints (cosmetic acceptability, subject questionnaire results) cannot be verified. Bridges [[cysteamine]] and [[kojic-acid|kojic acid]] coverage for [[hyperpigmentation]]/[[melasma]], where general ingredient background is covered.
 
 ## Sources
 

@@ -318,12 +318,12 @@
   last_pulled: '2026-11-04'
 - name: Dr. Jenny Liu (Jenny Liu, MD, FAAD)
   creator_slug: jenny-liu
-  backfill_cursor: 45
+  backfill_cursor: 60
   credential: Board-certified dermatologist
   tier: HIGH
   channel: https://www.youtube.com/@dr.jennyliu/videos
   product_recs: restricted
-  conflict: Runs an Amazon affiliate storefront (amazon.com/shop/derm.talk); recurring disclosed paid brand partnerships (Shiseido, SkinCeutic
+  conflict: Runs an Amazon affiliate storefront (amazon.com/shop/derm.talk) and recurring disclosed paid brand partnerships (Shiseido, SkinCeutic [TAIL LOST to a capped write, not recovered]). Verified 2026-11-09 across her back catalogue, slice 46 to 60. Her descriptions carry go.shopmy.us links on the named products even in EDUCATIONAL videos, seven of them in her Cleansing Oils 101 explainer, under the standing line "product links may be affiliate links". The usual educational carve-out therefore does NOT apply to her, because a format explainer that routes seven products through a storefront is a monetized pick list, and nothing in slice 46 to 60 was cardable. Her slice also contains an Anti-Aging routine built on Shiseido Vital Perfection, a brand named in her own partnership list.
   last_pulled: '2026-10-26'
 - name: Dr. Justine Kluk
   creator_slug: justine-kluk

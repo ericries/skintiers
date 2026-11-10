@@ -40,11 +40,11 @@ No brand copy is quoted here, because brands do not market this ingredient. It i
 
 ## Where It Appears Here
 
-One page on this site declares it: [[biodance-collagen-cleansing-oil]], where it is third of thirty-two, behind the two esters that do the dissolving and alongside polyglyceryl-6 dicaprate, sorbitan sesquioleate and polyglyceryl-2 laurate. That cluster is the ordinary emulsifier package of a rinse-off cleansing oil, and it is the part of that formula doing the work the product is actually for. The cleansing-oil format itself is covered on [[cleansers]].
+One page on this site declares it: [[biodance-collagen-cleansing-oil]], where it is third of thirty-two, behind the two esters that do the dissolving and alongside polyglyceryl-6 dicaprate, sorbitan sesquioleate and polyglyceryl-2 laurate. That cluster is the ordinary emulsifier package of a rinse-off cleansing oil, and it is the part of that formula doing the work the product is actually for. The format itself is ranked on [[best-cleansing-balms-oil-cleansers]].
 
 ## See Also
 
-[[biodance-collagen-cleansing-oil]] [[caprylyl-capryl-glucoside]] [[decyl-glucoside]] [[coco-glucoside]] [[cleansers]] [[sensitive-skin]]
+[[biodance-collagen-cleansing-oil]] [[caprylyl-capryl-glucoside]] [[decyl-glucoside]] [[coco-glucoside]] [[best-cleansing-balms-oil-cleansers]] [[double-cleansing]] [[sensitive-skin]]
 
 ## Sources
 

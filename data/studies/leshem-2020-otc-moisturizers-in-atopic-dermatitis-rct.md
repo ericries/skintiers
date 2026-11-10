@@ -12,7 +12,7 @@ A within-patient RCT in atopic dermatitis patients applying four common over-the
 
 **Design:** Randomized, forearm-controlled, observer-blind, within-patient controlled trial.[^1]
 
-**Population / n:** "Twenty patients with AD completed the study," older than 12 years old with clear-to-moderate [[atopic dermatitis]]; 10 non-AD controls were included for baseline comparison only (not treated).[^1]
+**Population / n:** "Twenty patients with AD completed the study," older than 12 years old with clear-to-moderate [[atopic-dermatitis|atopic dermatitis]]; 10 non-AD controls were included for baseline comparison only (not treated).[^1]
 
 **Intervention / comparator:** Patients were randomized to 1 of 4 moisturizers (Cetaphil Cream, Aveeno Eczema Therapy Moisturizing Cream, CeraVe Moisturizing Cream, or Vaseline), applied to nonlesional skin on one forearm, versus no moisturizer on the opposite forearm, for 4 weeks. TEWL, capacitance, pH, and TEWL after tape stripping were evaluated at weeks 0 and 4.[^1]
 
