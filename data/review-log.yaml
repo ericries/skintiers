@@ -7974,6 +7974,25 @@ vanicream-z-bar-pyrithione-zinc:
   note: 'PRODUCT cron (antidandruff/seb-derm cluster). DailyMed SPL (setid 21c84000) verified VERBATIM: active ''pyrithione zinc 2%'', purpose ''Anti-dandruff, Anti-seborrheic dermatitis'', uses/directions/inactives. Evidence linked OUT to [[zinc-pyrithione]] (tier mid) + antidandruff tier list (pyrithione zinc ranked moderate), NOT re-told. Gentle sulfate-free syndet (sodium cocoyl isethionate) + fragrance-free base framed as a formulation strength, not added antifungal effect. Bar format (face/body vs scalp shampoo) noted. Off-label fungal-acne modest/preliminary (mechanistic; evidence centers on azoles/selenium sulfide). Opus main-loop critic; assurance sonnet.'
   score: 9
   verdict: publish
+vascular-occlusion-from-facial-filler:
+  assurance: sonnet
+  notes: 'THREE QUOTE ERRORS CAUGHT AND FIXED BEFORE PUBLISH, all found by machine-checking the 11 quoted
+    spans against the two saved abstracts rather than by eye. Two were the recurring sentence-initial
+    lowercase (The frontonasal... quoted as the frontonasal...), and one dropped the space the journal prints
+    inside its parentheses, ( P = 0.00001), which matters because the figure is the load-bearing statistic on
+    the page. THE CENTRAL ACCURACY DECISION is how Soares 39% versus 0.8% is presented: it is conditional on
+    cutaneous involvement of the ophthalmic angiosome among published occlusion cases, NOT a risk of filler,
+    and the page says so explicitly in its own paragraph and again in the footnote, because read as a
+    population rate it would be wildly wrong. A dedicated section states the absence that follows: none of the
+    three sources gives an incidence per procedure, and the 243-case review is a denominator-free sample
+    biased toward severe and photographed cases. Lowe and Soares are kept apart on purpose, since Lowe
+    explicitly excludes the ocular and neurological outcomes Soares reports. SCOPE: written for someone
+    choosing whether and with whom to be injected, not as technique instruction, and the medical note says so
+    and routes sudden pain, blanching, mottling or vision change to emergency care. Reviewed in the main loop
+    with no subagent, hence assurance sonnet.'
+  reviewed: '2026-11-09'
+  reviewer: main-loop self-verification
+  verdict: publish
 vichy-mineral-89-hydrating-plumping-daily-booster:
   last_reviewed: '2026-08-23'
   note: 'PARALLEL WORKFLOW fill: Sonnet draft + parallel Opus critic verdict REVISE (score 8). Critic-flagged defect FIXED in Opus main loop: reworded the INCI claim (page has a ''Full ingredient list'' link, so INCI is one click away, not absent). Re-gated clean; published.'

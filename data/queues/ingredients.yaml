@@ -4035,3 +4035,17 @@
     aminophylline for cellulite at all, and DermNet''s own language on that table
     is hedged. Verify from PubMed rather than from the DermNet summary, which is a
     clinical reference page and not a primary trial.'
+- name: Hyaluronidase
+  type: ingredient
+  priority: 4
+  status: pending
+  discovered_from: vascular-occlusion-from-facial-filler
+  source: 'https://pubmed.ncbi.nlm.nih.gov/38231537/ The reviewed treatment for hyaluronic
+    acid filler vascular occlusion, now cited on vascular-occlusion-from-facial-filler,
+    and absent from the site. SCOPE CARE NEEDED: it is an injected prescription enzyme,
+    not a topical, so it sits closer to the procedures vertical than to the catalog,
+    and the page should be written as reference for the filler-safety hub rather than
+    as a skincare ingredient with a tier for visible benefit. A ready source exists
+    that this tick did not use, PMID 38231537, Hyaluronidase for Dermal Filler Complications,
+    a review of applications and DOSAGE recommendations, so dosing is available but
+    is clinician-facing and should not be presented as instruction.'

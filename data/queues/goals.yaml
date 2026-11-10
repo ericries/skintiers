@@ -904,7 +904,7 @@
 - name: Vascular occlusion from facial filler (what the risk is and what reduces it)
   type: goal
   priority: 4
-  status: pending
+  status: done
   discovered_from: pourani-2025-facial-artery-doppler-mapping-pmid-40874402
   source: 'The clinical question [[pourani-2025-facial-artery-doppler-mapping-pmid-40874402]]
     exists to answer, with no hub on this site: sk find returns nothing for ''vascular

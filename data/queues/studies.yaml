@@ -2164,3 +2164,24 @@
     is the site''s page for this manufacturer''s TriPollar line and cites neither
     Boisnic nor 20395192, so the one trial of a TriPollar home device is missing from
     the product page it most concerns.'
+- name: Lowe 2026 - HA filler vascular occlusion, prevention and management review
+    (PMID 42087426)
+  type: study
+  priority: 4
+  status: pending
+  discovered_from: vascular-occlusion-from-facial-filler
+  source: https://pubmed.ncbi.nlm.nih.gov/42087426/
+- name: Soares 2023 - patterns of filler-induced facial skin ischemia, 243 cases,
+    FOEM scale (PMID 36477154)
+  type: study
+  priority: 4
+  status: pending
+  discovered_from: vascular-occlusion-from-facial-filler
+  source: 'https://pubmed.ncbi.nlm.nih.gov/36477154/ Already quoted on vascular-occlusion-from-facial-filler.
+    THE ONE THING A STUDY PAGE MUST GET RIGHT is the conditioning on its headline
+    figure: vision loss 39% versus 0.8% and stroke 8% versus 0.8% are rates among
+    published occlusion cases WITH cutaneous involvement of the ophthalmic angiosome
+    against those without, not risks of filler. Read as population rates they are
+    wildly wrong. Also record that it is a review of photographic published cases
+    with no denominator of procedures, so it supports pattern claims and not incidence
+    claims.'
