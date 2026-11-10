@@ -35,7 +35,7 @@ The trial behind home radiofrequency body-contouring claims, and the one that na
 
 **Key limitation:** Twenty four subjects, no randomisation or blinding described, no between-side statistical comparison, and a conclusion, that the results "demonstrate the safety and efficacy of the new TriPollar home-use device for body contouring and skin tightening", that is broader than the one outcome with a control behind it.
 
-**Why it is indexed here:** It is the evidence cited for home body radiofrequency on [[home-body-devices-by-whether-body-evidence-exists]], and the device it tests is the TriPollar line covered at [[pollogen-stop-u-tripollar]], which cites neither this study nor its PMID. [[cellulite]] carries the absence finding.
+**Why it is indexed here:** It is the evidence cited for home body radiofrequency on [[home-body-devices-by-whether-body-evidence-exists]], and it shares the TriPollar technology name with [[pollogen-stop-u-tripollar]] WITHOUT being evidence for it: that device is cleared for facial wrinkles, while this study treated the abdomen and thigh and measured circumference and laxity. That page now records the distinction so a reader who finds this study does not read it across. [[cellulite]] carries the absence finding.
 
 ## Sources
 

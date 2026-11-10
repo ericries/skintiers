@@ -6177,7 +6177,7 @@
     that omits it
   type: product
   priority: 3
-  status: pending
+  status: done
   discovered_from: boisnic-2010-tripollar-home-use-body-rf-pmid-20395192
   source: 'https://pubmed.ncbi.nlm.nih.gov/20395192/ NOT A NEW PAGE. The site''s page
     for the TriPollar line cites neither Boisnic 2010 nor PMID 20395192, confirmed
@@ -6207,3 +6207,9 @@
     none, record that as a checked absence on the product page so the list can eventually
     distinguish withheld from uncaptured, which is the more interesting finding. Do
     NOT infer a pH from the ingredient list or from a retailer.'
+- name: Pollogen Geneo X Elite second clearance (2025) versus the 2024 one
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: pollogen-stop-u-tripollar
+  source: https://api.fda.gov/device/510k.json?search=applicant:%22Pollogen%22

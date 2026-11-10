@@ -7,7 +7,7 @@ aliases:
 - K220322
 - K203665
 - K182774
-analyzed: '2026-10-25'
+analyzed: '2026-11-10'
 assurance: sonnet
 brand: Pollogen
 category: Devices
@@ -30,7 +30,7 @@ name: Pollogen STOP U / TriPollar (home RF device)
 slug: pollogen-stop-u-tripollar
 status: published
 type: product
-updated: '2026-11-08'
+updated: '2026-11-10'
 ---
 
 The Pollogen STOP U, sold under the TriPollar name, is the home radiofrequency device that much of this category's regulatory paperwork points back to: it is the named predicate for [[currentbody-skin-rf]]. **Bottom line:** reading its own file shows the chain has no clinical anchor in any over-the-counter device. The category evidence overall is on [[home-radiofrequency-skin-tightening]].
@@ -55,6 +55,8 @@ Graded minimal on anecdote, and the grade is about what the file contains rather
 **This is where the CurrentBody chain terminates.** [[currentbody-skin-rf]] states that no clinical testing was performed with its device because it is substantially equivalent to its predicate, and its predicate is this one. This device's own file then points at a prescription device for efficacy. So two successive over-the-counter clearances rest on a study of a product nobody can buy over the counter, which is a legitimate use of the 510(k) pathway and also the reason a buyer should not read either clearance as evidence the thing in the box was tested.
 
 **A 100% success rate is a usability result, not a skin result.** It is easy to read "100%" in a clearance summary as a performance figure. In context it means every one of 61 people who thought they were eligible were able to use the device safely, which is what a human factors validation is for.[^k220322]
+
+**There IS a published TriPollar home-device trial, and it is not about this device.** A reader who searches the technology will find [[boisnic-2010-tripollar-home-use-body-rf-pmid-20395192]], which tested a home-use TriPollar device in 24 subjects and reported a 2.4 cm average circumference reduction on treated thighs against an untreated contralateral thigh. It does not transfer here, for three reasons that are worth stating rather than leaving a reader to assume: it treated the abdomen and thigh, not the face; its outcomes were circumference and laxity, not the facial wrinkles this device is cleared for; and it is a different, earlier product. The STOP U filings still add no study of their own.
 
 **The one device in this code that did run a study is a different company's.** [[silkn-titan-allways]] published a 32-woman study with blinded evaluators, uncontrolled but real. Pollogen's three STOP U filings, between them, add none.
 

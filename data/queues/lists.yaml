@@ -1372,3 +1372,17 @@
     position must come from the BRAND''s own declared list. CeraVe''s page does not
     publish one. Check each brand before committing to a row, and drop any product
     whose brand does not publish its list rather than sourcing it from an aggregator.'
+- name: Link the new Boisnic study page from home-body-devices-by-whether-body-evidence-exists
+    and cellulite
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: boisnic-2010-tripollar-home-use-body-rf-pmid-20395192
+  source: https://pubmed.ncbi.nlm.nih.gov/20395192/ Both pages cite Boisnic 2010 by
+    name and PMID but neither links the study page written 2026-11-10, confirmed by
+    grep returning 0 on each. A one-clause wikilink on each is the whole task; do
+    NOT restate the study, which both pages already summarise for their own purposes
+    (the list for whether body evidence exists, cellulite for the absence of any cellulite
+    outcome). While there, note that the study page now records why the trial does
+    NOT transfer to pollogen-stop-u-tripollar, which is cleared for facial wrinkles
+    while the trial treated abdomen and thigh.
