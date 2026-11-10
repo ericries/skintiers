@@ -15861,7 +15861,8 @@
   conflict: Runs a paid cosmetics-industry consulting/science-communication practice (BeautySciComm, e-summits, mentorship cohorts) and is Patreon-suppo
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'no matching page: a roundtable on bad science in medical research, educational and clean, but the site has no hub for science-literacy and this cron must not create pages. Same determination as the Dr Dray beauty-misinformation talk resolved earlier today'
 - id: '7704370417112321293'
   title: 'What to look for in Glutathione skincare: ✅ Delivery system ✅ Concent...'
   creator: Kristin Leite (kristingl)
@@ -16055,7 +16056,8 @@
   conflict: Runs a "Shop my Favorites" affiliate storefront (linktr.ee/dermatologysurgeon) that monetizes her product picks; no own-brand prod
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: short-form hashtag-tagged clip with an Inspo credit, the format the cron excludes
 - id: '7704859501949635870'
   title: 🖇️ Comment LONGEVITY for the full list of derm-approved products for ...
   creator: Dr. Sheila Farhang (dr.sheila_derm)
@@ -16082,7 +16084,8 @@
   conflict: 'Owns and sells a skincare line (Instagram handle @skincarebydrv in her own video descriptions) and routes to it repeatedly inside educational content: in one 9-point acne video she directs viewers to ''our trio blemish range'', ''our AM and PM moisturizers'', her Citrio Blemish Exfoliator and a mineral SPF she calls ''the world''s first mineral SPF 50 formulated for skin of color with no white cast''. Treat ALL product mentions as own-brand promotion. Separately, that video states unsourced figures as fact, including ''99% of sunscreens are chemical sunscreens'' and a claim that bamboo or silk pillowcases reduce fungal growth versus cotton, so relay no statistic from this channel without checking it independently.'
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'own-brand promotion throughout: every one of the five peptide categories ends in her own product (our Vitamin C Glow Serum, our Brightening Moisturizer, our Triple Action Eye Cream, our CeraPep brightening moisturizer, our renew retinol serum, our renew hyperpigmentation peptide serum). Her roster says treat all product mentions as own-brand promotion. Also states unsourced timelines and trial claims as fact, which her roster separately warns about'
 - id: '7704786520586325261'
   title: 'It’s a Pink Christmas baby 🎀🎄✨ '
   creator: Ella (@your.estie.ella)
@@ -16123,7 +16126,8 @@
   conflict: null
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: multi-symptom listicle (7 strange skin symptoms), not a single-topic match to any one existing page
 - id: '7705078494186753294'
   title: If your skin is starting to look tired, textured, or a little crepey,...
   creator: Fatima Fahs
@@ -16150,7 +16154,8 @@
   conflict: has an own-brand line (Selfless) and does sponsorships - educational content only, never treat picks as endorsements, never use sponsored videos
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: reaction vlog about another person's routine, not a single-topic match to an existing page
 - id: '7705180837481909535'
   title: Ugh all these skincare products are evidence based and 10/10 recommen...
   creator: Dr. Ife Rodney (@driferodney)
@@ -16233,7 +16238,8 @@
   conflict: Runs extensive Amazon Associates and ShopMy affiliate storefronts, monetizing nearly every product mentioned across videos
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'affiliate: description carries 15 Amazon and ShopMy product links plus an Amazon storefront and a ShopMy storefront, under ''This description contains affiliate links. I may earn from qualifying purchases.'' Educational topic, but monetized picks, same pattern as other rejections today'
 - id: TWGZa_CIySo
   title: 'body care hacks from a derm #skincare'
   creator: Dr. Neera Nathan
@@ -16246,7 +16252,8 @@
   conflict: Runs a "Shop my Favorites" affiliate storefront (linktr.ee/dermatologysurgeon) that monetizes her product picks; no own-brand prod
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: vague body care hacks listicle, no single topic matching an existing page
 - id: yGU_dHIAKFM
   title: 'body care products worth your money #skincare stitch with elara rituals'
   creator: Dr. Neera Nathan
@@ -16272,7 +16279,8 @@
   conflict: has an own-brand line (Dr Sam's) - skip own-brand promos
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'own-brand: Dr Sam''s Holiday Collection gift sets, the creator''s own product line'
 - id: '7705088088384523551'
   title: 🖇️ Comment SUPPS for my full guide on supplements! Rosacea isn't just...
   creator: Dr. Sheila Farhang (dr.sheila_derm)
