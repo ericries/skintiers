@@ -8,6 +8,14 @@ analyzed: '2026-11-10'
 assurance: sonnet
 brand: Silk'n
 category: Devices
+image_unresolvable: 'No photograph could be tied to this clearance. incidecoder MISSES, being an
+  INCI database that does not cover devices. silkn.com WAS readable on 2026-11-10 (HTTP 200, about
+  183KB, titled Silk''n LED Masks), so this is not a bot block, but a string search of that page finds
+  no occurrence of Blue and no acne-device link at all, so the brand no longer sells this 2013 device
+  and publishes no image of it. A retailer photo was deliberately NOT hunted, for the same reason
+  recorded on silkn-titan-allways, that the cleared device name does not appear on retail pages and
+  the brand has sold more than one blue-light device, so any photo found under the name would risk
+  being the wrong unit.'
 comparator: '[[dpl-spotlite]], the other blue-light acne handheld on this site cleared
   under the same OLP product code'
 grades:
