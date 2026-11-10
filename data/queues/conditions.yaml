@@ -1138,3 +1138,28 @@
     striae-distensae, scarring. Probably ingredient pages: lidocaine, prilocaine,
     miconazole, oxymetazoline, aloe, oat. Do NOT bulk-repoint without checking each,
     since whether eczema means atopic dermatitis on a given page is a content question.'
+- name: Skin tags (acrochordon)
+  type: condition
+  priority: 4
+  status: pending
+  discovered_from: seborrhoeic-keratosis
+  source: https://www.youtube.com/watch?v=4dW4gNdig9o
+- name: Cherry angioma
+  type: condition
+  priority: 4
+  status: pending
+  discovered_from: seborrhoeic-keratosis
+  source: https://www.youtube.com/watch?v=4dW4gNdig9o
+- name: Sebaceous hyperplasia
+  type: condition
+  priority: 4
+  status: pending
+  discovered_from: seborrhoeic-keratosis
+  source: 'https://www.youtube.com/watch?v=4dW4gNdig9o One of the seven growths in
+    the Aleksandra Brown video now carded on seborrhoeic-keratosis, and absent from
+    the site. THE REASON IT MATTERS CLINICALLY, in her words: she will biopsy when
+    unsure because she would rather biopsy a benign sebaceous hyperplasia than cosmetically
+    destroy a basal cell carcinoma that somebody assumed was an oil gland. That look-alike
+    relationship with basal-cell-carcinoma is the page''s reason to exist and should
+    be its spine. Source the confusability and any treatment claims from the literature
+    rather than from the video, which is a card and not a citation.'

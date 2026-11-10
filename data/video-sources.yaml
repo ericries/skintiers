@@ -484,7 +484,7 @@
   channel: https://www.youtube.com/channel/UC52c6a0gfbhuVCdHYZQAzuQ/videos
   conflict: Runs a ShopMy affiliate storefront and routes product picks through it. Verified 2026-11-09 across her four most recent product-naming uploads. Her CeraVe ranking video states plainly "This video is not sponsored by CeraVe." while every product link in its description is a go.shopmy.us affiliate link, and her drugstore-picks video is the same. Her Cicaplast video is separately a paid partnership, tagged with the hashtag LaRochePosayPartner and stating "This video is sponsored by La Roche-Posay." Her purely educational uploads, on skin growths after 40 and on copper peptides, carry no links at all. So EDUCATIONAL videos stay eligible while picks, rankings and favourites are treated as effectively paid and must be skipped.
   product_recs: restricted
-  last_pulled: '2026-11-01'
+  last_pulled: '2026-11-10'
 - name: Dr. Maren Locke (The Budget Dermatologist)
   creator_slug: maren-locke
   backfill_cursor: 45

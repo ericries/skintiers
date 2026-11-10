@@ -26,6 +26,16 @@ videos:
   related: [melanoma]
   thesis: Board-certified dermatologist Aleksandra Brown explains seborrhoeic keratoses, the benign growths she calls wisdom spots and birthday presents, and makes the point that they break every rule people are taught about moles. They change, they itch, they can bleed if scratched hard, and if you peel one off in the shower it will grow back and bleed in between, which is why they frighten people even though they are not cancerous. Asked how to tell one from a melanoma, she declines to give a rule, saying that after residency and more than a decade in practice these can still trick dermatologists, so the answer is to have it looked at rather than to self diagnose.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: 'Skin Growths After 40: What''s Normal vs. What Needs a Dermatologist'
+  creator: Dr. Aleksandra Brown
+  creator_slug: aleksandra-brown
+  credential: Board-certified dermatologist (DO, FAOCD, FAAD)
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=4dW4gNdig9o
+  posted: '2026-11-08'
+  related: [milia, basal-cell-carcinoma, squamous-cell-carcinoma, melanoma, actinic-keratosis]
+  thesis: Board-certified dermatologist Dr. Aleksandra Brown walks through seven common adult skin growths and what separates the harmless ones from the ones worth showing a doctor. She describes the classic seborrheic keratosis as having a stuck-on appearance, as though a piece of wax were placed on top of the skin, while warning that they do not all look alike and can be skin-coloured, tan, brown, grey or nearly black. Her stated reason for caution runs both ways, that patients regularly bring her growths they are convinced are skin cancer and are not, and that something can look innocent to an untrained eye and still deserve a closer look. On sebaceous hyperplasia she says she will simply biopsy when unsure, because she would rather biopsy a benign growth than cosmetically destroy a basal cell carcinoma somebody assumed was an oil gland.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
