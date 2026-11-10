@@ -301,6 +301,16 @@ videos:
   thesis: 'Skincare educator Hannah English checks whether azelaic acid really needs the twice-daily dosing its clinical trials used, and the answer she finds differs by what you are treating. For rosacea there is a direct comparison: a trial of 72 people with papulopustular rosacea ran 15% azelaic acid gel once a day against twice a day and found no statistically significant difference at 12 weeks on redness, visible vessel severity or inflammatory lesions. For acne there is no head-to-head, and she is careful about why the figures look the way they do: a small once-daily study cut inflammatory lesions by 45% over eight weeks, while a larger twice-daily 15% trial cut them by 70%, but that trial ran four months and was sitting at roughly 45% at its own two-month mark. For pigment disorders, trials of 20% once daily do show improvement, with no study comparing it against twice daily. Her conclusion is that twice daily fits how the ingredient behaves in skin and is still the move where tolerated,
     while consistent once-daily use probably gets some results.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: It's generally not going to hurt anything but it's also not going to clean out the pore
+  creator: Ella
+  creator_slug: your-estie-ella
+  credential: Licensed esthetician (not a dermatologist or cosmetic chemist)
+  platform: TikTok
+  url: https://www.tiktok.com/@your.estie.ella/video/7706371247013154062
+  posted: '2026-11-10'
+  related: [salicylic-acid, sulfur, acne, paulas-choice-boost-10-azelaic-acid-booster]
+  thesis: Licensed esthetician Ella argues that azelaic acid is being talked about as a magical acne treatment when it is not an exfoliant, so it will not go into a pore that is already blocked and will mostly just calm inflammation on a breakout already underway. She describes its real job as regulating how the skin behaves so that acne forms less in the first place, and sends viewers to salicylic acid or sulfur when they need to treat a breakout that is already there. She names one exception, a Paula's Choice azelaic acid product that also contains salicylic acid, which she suggests for someone with oily skin who wants to start azelaic acid while still managing a current breakout.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

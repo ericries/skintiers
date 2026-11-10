@@ -16690,7 +16690,8 @@
   conflict: Bio includes a business/booking contact email suggesting managed brand partnerships; no confirmed own-brand line or affiliate stor
   posted: '2026-11-10'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 15 seconds, below the cron's ~25s floor, so too thin for a thesis despite being a clean single-topic retinoid-dosing clip with no monetization markers
 - id: '7706181175370353934'
   title: 'Okay, I will fully take the blame for every single one of these. 🫠 #s...'
   creator: Fatima Fahs
@@ -16703,7 +16704,8 @@
   conflict: Promotes her own curated product box, Dermy Doc Box (@dermy.doc.box), with link-in-bio callouts in the caption tail (observed 2026-10-29 on clip 7686867010508164366, posted 2026-09-18) - treat her product picks and seasonal recommendations as own-product promotion
   posted: '2026-11-09'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'could not be fetched: yt-dlp returns ''No video formats found'' for this id, so neither caption nor transcript could be read and nothing may be cited from it'
 - id: '7706136037696802062'
   title: On Friday, I spoke at the Perimenopause Symposium in Baltimore. It wa...
   creator: Dr. Heather Woolery-Lloyd (drheathermd)
@@ -16716,7 +16718,8 @@
   conflict: Paid Chief Medical Advisor to Nutrafol (hair-growth supplement brand); bio links a stan.store link-in-bio storefront (possible aff
   posted: '2026-11-09'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: conference talk recap from a symposium appearance, not a single-topic skincare match to an existing page
 - id: '7706132208729197838'
   title: 3 GLP-1 tips for women from my panel @livelong_media Women’s Health S...
   creator: Dr. Heather Woolery-Lloyd (drheathermd)
@@ -16794,7 +16797,8 @@
   conflict: 'Runs #ad sponsored posts (e.g. TruSkin) and Target skincare hauls/reviews; prefer her educational ingredient-category and barrier-repair explainers, and treat product recommendations as effectively promotional (skip).'
   posted: '2026-11-10'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: holiday gift guide, a picks format from a creator whose product recommendations are treated as promotional
 - id: '7706267945239907597'
   title: Same same, but different. All these serums are anti-aging but work in...
   creator: Kristin Leite (kristingl)
@@ -16859,7 +16863,8 @@
   conflict: Self-describes as a "Key Opinion Leader for industry beauty companies" (per her own practice bio) and most sampled TikTok videos e; no YouTube; TikTok/IG intake
   posted: '2026-11-10'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: engagement funnel (Comment LONGEVITY for the full list of derm-approved products), the fourth instance of this pattern from this creator today
 - id: ApcMTQlfyG0
   title: Tinted Mineral SPF50 For Black & Brown Skin - I Built It In My Lab
   creator: Dr. Vanita Rattan (Doctor V)

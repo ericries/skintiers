@@ -225,7 +225,9 @@
   topics:
   - vitamin C serum
   status: rejected
-  reason: 'Cosmetic ingredient supplier channel, which STEP 2a rejects by type (brand/retailer). Not vetted on content; rejected on channel type so the weekly tick stops re-surfacing it.'
+  reason: Cosmetic ingredient supplier channel, which STEP 2a rejects by type (brand/retailer).
+    Not vetted on content; rejected on channel type so the weekly tick stops re-surfacing
+    it.
 - name: Balcones Dermatology and Aesthetics
   channel_url: https://www.youtube.com/channel/UCRurEHzRhdMB0fJVD-w6GPw
   hits: 1
@@ -238,14 +240,26 @@
   topics:
   - benzoyl peroxide
   status: rejected
-  reason: 'Vetted 2026-11-09 and failed on three counts. (1) Not a skincare-science channel: 7 of the 8 most recent uploads are salon-suite and esthetician-school vlogs, a vajacial explainer and a product unboxing tagged #dermalogica, with one science video among them. (2) Credential unverifiable: the About page could not be retrieved and the pharmacist claim appears only in the channel name, while the content shows the creator attending esthetician school, so no credential could be honestly stated. (3) The single on-topic video, Benzoyl Peroxide: Important things to know, opens by calling benzoyl peroxide the most common topical ANTIBIOTIC acne product, which is a drug-class error that inverts the clinically important point that benzoyl peroxide does not drive antibiotic resistance, and it also states a blanket do-not-use for sensitive skin that is not standard guidance.'
+  reason: 'Vetted 2026-11-09 and failed on three counts. (1) Not a skincare-science
+    channel: 7 of the 8 most recent uploads are salon-suite and esthetician-school
+    vlogs, a vajacial explainer and a product unboxing tagged #dermalogica, with one
+    science video among them. (2) Credential unverifiable: the About page could not
+    be retrieved and the pharmacist claim appears only in the channel name, while
+    the content shows the creator attending esthetician school, so no credential could
+    be honestly stated. (3) The single on-topic video, Benzoyl Peroxide: Important
+    things to know, opens by calling benzoyl peroxide the most common topical ANTIBIOTIC
+    acne product, which is a drug-class error that inverts the clinically important
+    point that benzoyl peroxide does not drive antibiotic resistance, and it also
+    states a blanket do-not-use for sensitive skin that is not standard guidance.'
 - name: BIOSSANCE
   channel_url: https://www.youtube.com/channel/UCP9OYSjsvKCxJU5ydrGuTlw
   hits: 1
   topics:
   - sunscreen
   status: rejected
-  reason: 'Brand channel (Biossance is a squalane skincare brand), which STEP 2a rejects by type. Not vetted on content; rejected on channel type so the weekly tick stops re-surfacing it.'
+  reason: Brand channel (Biossance is a squalane skincare brand), which STEP 2a rejects
+    by type. Not vetted on content; rejected on channel type so the weekly tick stops
+    re-surfacing it.
 - name: TLC
   channel_url: https://www.youtube.com/channel/UCqf2gzmKtH3PaAbt-qgFFsw
   hits: 1
@@ -675,3 +689,12 @@
   topics:
   - tretinoin
   status: pending
+- name: Jessica
+  channel_url: https://www.youtube.com/@Jessica
+  hits: 1
+  topics:
+  - referral
+  discovered_via: 'referral: https://www.tiktok.com/@your.estie.ella/video/7706371247013154062'
+
+  status: rejected
+  reason: 'Not a creator referral. The miner harvested this from the caption prefix Replying to @Jessica Uminsky, which names the COMMENTER the video answers, not a creator the video endorses, and it then built a YouTube URL from a TikTok handle while dropping the surname, so the channel_url points nowhere real. NEW FAILURE MODE, distinct from the brand-tag one (Demaf, COSRX, Murad, Paulas Choice): mine_referrals.py should ignore a Replying to @handle prefix entirely, and should not assume youtube.com for a handle seen on TikTok.'
