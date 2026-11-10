@@ -786,7 +786,7 @@
 - name: Stratpharma
   type: brand
   priority: 4
-  status: pending
+  status: done
   discovered_from: stratacel-film-forming-dressing
   source: 'LEAN DISCOVERY AID, <=180 words, whose job is to link to the products.
     Verified facts available without further research: Swiss company, Stratpharma

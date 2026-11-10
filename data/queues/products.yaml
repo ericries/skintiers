@@ -6213,3 +6213,25 @@
   status: pending
   discovered_from: pollogen-stop-u-tripollar
   source: https://api.fda.gov/device/510k.json?search=applicant:%22Pollogen%22
+- name: StrataXRT (Stratpharma silicone gel for radiation dermatitis)
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: stratpharma
+  source: 'https://www.stratpharma.com/ Named on the Stratpharma homepage, cached
+    2026-11-10, and absent from the site, which currently covers only stratacel-film-forming-dressing
+    from this brand. RESOLVE ITS REGULATORY STATUS FIRST, exactly as the Stratacel
+    page did: that product turned out to be FDA-listed as class I EXEMPT from premarket
+    notification, so no 510(k) exists and no regulator reviewed its claims. Check
+    openFDA''s 510(k) index and the device listing for this one separately rather
+    than assuming the sibling''s status carries over. The indication implied by the
+    name is radiation dermatitis, which is a medical indication rather than a cosmetic
+    one, so confirm what it is actually cleared or listed for before writing a rubric.
+    The silicone-gel evidence itself is owned by silicone-gel-and-sheeting-for-scars
+    and should be linked, not restated.'
+- name: Stratamark (Stratpharma silicone gel for stretch marks)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: stratpharma
+  source: https://www.stratpharma.com/
