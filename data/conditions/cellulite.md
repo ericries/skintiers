@@ -1,14 +1,14 @@
 ---
-analyzed: '2026-08-30'
-assurance: opus
+analyzed: '2026-11-09'
+assurance: sonnet
 name: Cellulite
 slug: cellulite
 status: published
 tier_list:
   by: strength of evidence that a treatment actually reduces the visible dimpling
-    of cellulite, not just marketing claims; nothing on it is more than modest and temporary,
-    and the best-evidenced options are in-office procedures this site does not yet
-    have pages for
+    of cellulite, not just marketing claims; nothing on it is more than modest and
+    temporary, and the best-evidenced options are in-office procedures this site does
+    not yet have pages for
   items:
   - note: Topical retinoic acid used for 6+ months has some evidence for improving
       cellulite appearance, plausibly by thickening dermal collagen, but the DermNet
@@ -28,7 +28,7 @@ tier_list:
     tier: minimal
   title: Cellulite treatments by evidence
 type: condition
-updated: '2026-10-27'
+updated: '2026-11-09'
 ---
 
 Cellulite is "the skin dimpling and lumpiness seen on the skin surface of the thighs, buttocks and abdomen of nearly all women," caused by fatty tissue protruding up into the dermis between fibrous bands (septae) that anchor the skin down.[^dermnet] DermNet is blunt that it "causes no physical harm but may cause embarrassment": this is a normal structural feature of how female subcutaneous fat is organized, not a disease, a toxin buildup, or a sign anything is wrong.[^dermnet] No cream, massage, brush, or detox regimen reliably removes it, because none of them change the underlying architecture of fat lobules pushing against fibrous septae.
@@ -53,6 +53,8 @@ Mesotherapy (injecting fat-dissolving substances) has "unpredictable" outcomes, 
 
 The clinical picture and treatment summary above come from DermNet's dedicated cellulite reference page, which frames this as a cosmetic terminology topic rather than a disease with a robust trial base.[^dermnet] Notably, DermNet's own language throughout is hedged: "may," "appear to," "efficacy is unknown," "long-term efficacy is uncertain." That hedging is the most honest single data point here. There is no equivalent to the large randomized trial base that exists for conditions like acne or seborrheic dermatitis; most cellulite treatment claims, including many procedures, rest on small studies without long-term follow-up.
 
+**A trial that set out to improve cellulite and then never reported it.** The home-use radiofrequency device trial most often cited in this area states its aim as evaluating the device "for circumference reduction, cellulite improvement and skin tightening".[^boisnic] Reading the whole abstract, the word cellulite then appears nowhere else in it. What is reported instead is thigh circumference, down an average of 2.4 cm on treated thighs against a lesser non-significant reduction on control thighs, abdominal laxity scored down from 1.4 to 0.8, an abdominal circumference change that was "not significant", and ex-vivo skin-model measurements of glycerol release, adipocyte appearance and collagen synthesis.[^boisnic] The conclusion then claims "body contouring and skin tightening" and quietly drops cellulite from the list.[^boisnic] Twenty-four subjects, no cellulite outcome, and a stated cellulite objective is not a cellulite result. The device-side treatment is on [[home-body-devices-by-whether-body-evidence-exists]].
+
 **Medical disclaimer.** This is educational content, not medical advice, and it does not diagnose or treat any individual. Cellulite itself is a normal, harmless structural feature of female subcutaneous fat, not a disease, so it needs no treatment for health reasons. The in-office procedures discussed here (subcision, mesotherapy, radiofrequency, ultrasound, and laser-assisted lipolysis) are clinician procedures that carry real risks, including abscesses and scarring with mesotherapy, and belong with a qualified provider, not an at-home kit. A firm lump, a new or growing mass, or skin dimpling that is changing, painful, or that you are not certain is ordinary cellulite is a reasonable reason to see a board-certified dermatologist rather than assume it is cosmetic. Nothing here should be used to delay appropriate medical care.
 
 ## See Also
@@ -63,3 +65,5 @@ The clinical picture and treatment summary above come from DermNet's dedicated c
 ## Sources
 
 [^dermnet]: DermNet (dermnetnz.org), "Cellulite" (terminology reference page, author Sharon Wai Cheng Fong, Dermatology Selective Medical Student, Auckland University Faculty of Medicine and Health Sciences, 2010). The definition, "causes no physical harm but may cause embarrassment," the risk-factor list, the three-grade severity scale, and every treatment-table detail quoted or paraphrased above (weight loss, liposuction not recommended, subcision, mesotherapy risks, radiofrequency/ultrasound/laser devices, topical retinoic acid, aminophylline, herbal creams) are read verbatim/near-verbatim from this page and cited as a clinical reference summary, not a primary trial; cached. https://dermnetnz.org/topics/cellulite (accessed 2026-08-30)
+
+[^boisnic]: Boisnic S, Branchet MC, Birnstiel O, Beilin G. "Clinical and histopathological study of the TriPollar home-use device for body treatments." European Journal of Dermatology. 2010;20(3). PMID 20395192. Twenty-four subjects treated on the abdomen and thigh, alongside an ex-vivo human skin model used for the histological and biochemical measurements, so the glycerol, adipocyte and collagen figures are not outcomes in those subjects. Quotes used, each verbatim from the PubMed abstract: the objective "for circumference reduction, cellulite improvement and skin tightening"; the abdominal circumference result "although it was not significant"; and the conclusion that the results "demonstrate the safety and efficacy of the new TriPollar home-use device for body contouring and skin tightening" with treatment leading to "discrete circumference reduction and moderate laxity improvement". THE ABSENCE IS THE POINT AND WAS CHECKED BY STRING SEARCH of the full abstract on 2026-11-09: the string cellulite occurs exactly ONCE in it, in the objective sentence quoted above, and appears in no result and in no conclusion. The abstract also contains no occurrence of dimpl, orange peel or firmness, so no proxy wording carries a cellulite outcome either. Only the abstract was read. https://pubmed.ncbi.nlm.nih.gov/20395192/ (accessed 2026-11-09)

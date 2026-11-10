@@ -1027,7 +1027,7 @@
 - name: Add the Boisnic 2010 absence finding to the cellulite page
   type: condition
   priority: 4
-  status: pending
+  status: done
   discovered_from: cellulite
   source: 'NOT A NEW PAGE. One paragraph plus a footnote on the EXISTING [[cellulite]]
     page, which is already 907 words with a tier_list and does not need expanding

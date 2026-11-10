@@ -4024,3 +4024,14 @@
   status: pending
   discovered_from: lotrimin-ultra-butenafine-1-cream
   source: https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22Lotrimin%20Ultra%22
+- name: Aminophylline (topical, cellulite creams)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: cellulite
+  source: 'https://dermnetnz.org/topics/cellulite Named in the cellulite page''s DermNet-sourced
+    treatment summary as a topical cellulite ingredient, and absent from the site.
+    Expect a weak tier: the interest is whether any controlled evidence supports topical
+    aminophylline for cellulite at all, and DermNet''s own language on that table
+    is hedged. Verify from PubMed rather than from the DermNet summary, which is a
+    clinical reference page and not a primary trial.'
