@@ -1191,6 +1191,24 @@ body-acne:
   note: Maintenance tick (site_health); Opus critic unavailable (session 200-agent cap), main-loop self-check. Added the one flagged on-site product (paulas-choice-clear-back-body-acne-spray, leave-on 2% salicylic acid spray for the trunk) to the existing tier_list at tier moderate, matching the salicylic-acid active already ranked moderate; 1-sentence note, no body rewrite. lint/verify/style clean.
   score: 8
   verdict: publish
+boisnic-2010-tripollar-home-use-body-rf-pmid-20395192:
+  assurance: sonnet
+  notes: 'All 10 quoted spans machine-checked verbatim against a freshly fetched abstract rather than a cached
+    temp file from yesterday''s cellulite tick. A CLOSER READ CORRECTED MY OWN EARLIER IMPRESSION: this is not
+    single-arm. The word control occurs once, in ''On the control thighs a lesser, non-significant reduction
+    was found'', so the thigh outcome has a within-subject contralateral control, which is better than most
+    home-device evidence. THE SHARPER POINT the page makes is that the abstract reports a treated side
+    reaching significance beside a control side that did not, and publishes no between-side comparison
+    anywhere, which is not a test of the difference between them. The ex-vivo glycerol, adipocyte and collagen
+    figures are kept explicitly separate from the 24 subjects, since they are laboratory measurements on a
+    skin model. Absences verified by string search: no randomised, randomized, placebo or blind, no SD, CI or
+    p-value, no follow-up interval, no session count. Also noted, for a study of a named commercial device,
+    that the PubMed record carries no funding or conflict-of-interest statement. The cellulite absence is
+    deliberately NOT restated, being owned by the cellulite page. One style failure caught before publish
+    (defensive meta-commentary). Main loop, no subagent, hence sonnet.'
+  reviewed: '2026-11-10'
+  reviewer: main-loop self-verification
+  verdict: publish
 braun-silk-expert-pro-5-ipl:
   last_reviewed: '2026-09-29'
   note: 'Opus critic: price/grade/marketing-quarantine/evidence-frame solid, but flagged citation-integrity drift (several claims footnoted to ^braun not in the cached page). Fixed by cutting all unsupported claims: contraindications list, ''20 watts/2.08 flashes'', ''skin tones I to V'', ''Skin Health Alliance/independent dermatologists''; corrected modes (normal/sensitive/extra sensitive, was balanced/power), sensor (SensoAdapt), and quotes (''2 year of smooth skin at home'', ''Dermatologically and gynecologically approved'') to cache-verbatim. ''Permanent''/95% claims stay quarantined + countered vs Cochrane. Effect modest/evidence weak.'

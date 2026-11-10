@@ -6173,3 +6173,21 @@
     for a reader. A 2026 device resting its entire case on this 2013 clearance makes
     the parent worth reading on its own terms, including whether IT published any
     clinical data.'
+- name: Add the Boisnic 2010 trial to pollogen-stop-u-tripollar, the TriPollar page
+    that omits it
+  type: product
+  priority: 3
+  status: pending
+  discovered_from: boisnic-2010-tripollar-home-use-body-rf-pmid-20395192
+  source: 'https://pubmed.ncbi.nlm.nih.gov/20395192/ NOT A NEW PAGE. The site''s page
+    for the TriPollar line cites neither Boisnic 2010 nor PMID 20395192, confirmed
+    by grep returning 0 on 2026-11-10, even though that is the only published trial
+    of a TriPollar HOME device and it now has its own study page at boisnic-2010-tripollar-home-use-body-rf-pmid-20395192.
+    WHAT TO CARRY ACROSS, and what not to: the thigh circumference result of 2.4 cm
+    has a within-subject control (the untreated contralateral thigh), which is better
+    than most home-device evidence, BUT the abstract reports treated-significant beside
+    control-not-significant and publishes no between-side comparison, so it does not
+    establish a difference between the sides. The ex-vivo glycerol, adipocyte and
+    collagen figures are laboratory measurements on a skin model and are NOT outcomes
+    in the 24 subjects, so they must not be presented as results in people. The cellulite
+    absence belongs to the cellulite page and should be linked rather than restated.'
