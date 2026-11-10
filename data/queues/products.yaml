@@ -4674,7 +4674,7 @@
 - name: Silk'n Blue (K121435, blue-light acne handheld)
   type: product
   priority: 4
-  status: pending
+  status: done
   discovered_from: dpl-iia-panel
   source: openFDA K121435, cleared 2013-02-22, product code OLP, applicant 'Home Skinovations
     , Ltd.' (the Silk'n applicant the site already documents on silkn and silkn-titan-allways).
@@ -6127,3 +6127,37 @@
     SOURCES AGAIN before writing, and do not cite incidecoder in a footnote since
     sk verify errors on aggregators; cite the brand for the current list and describe
     the aggregator listing in prose as this note does.'
+- name: ThermaClear (K060653, DermaCare acne device)
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: silkn-blue
+  source: https://www.accessdata.fda.gov/cdrh_docs/pdf12/K121435.pdf
+- name: Quasar Blue Light Therapy System (K093963, Silver Bay)
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: silkn-blue
+  source: 'https://www.accessdata.fda.gov/cdrh_docs/pdf12/K121435.pdf Named as a predicate
+    in the Silk''n Blue filing, which also publishes its specs in a comparison table:
+    415 nm, 50 mW/cm2, 10 cm2 treatment area. Those figures come from a competitor''s
+    filing rather than from Silver Bay, so treat them as reported-by-a-third-party
+    until confirmed against K093963 itself. Uncovered on this site, and an OLP-family
+    blue-light acne device like dpl-spotlite and silkn-blue.'
+- name: 'CHECK: is the Tanda Skincare System (K080591) the same device as tanda-mini-skincare-system
+    (K124042)'
+  type: product
+  priority: 3
+  status: pending
+  discovered_from: silkn-blue
+  source: 'https://www.accessdata.fda.gov/cdrh_docs/pdf12/K121435.pdf The Silk''n
+    Blue filing names the Tanda Skincare System by Pharos Life at K080591 as a predicate.
+    The site''s tanda-mini-skincare-system page carries K124042. Two clearances, one
+    product name, which is the exact trap that turned out to matter for K101382 dpl
+    Nuve versus K141181 Nuve for Wrinkles, where the names were nearly identical and
+    the devices were not. RESOLVE FROM openFDA BEFORE EDITING EITHER PAGE: compare
+    device_name, applicant, decision_date and product_code for both K numbers. If
+    they are the same device under two clearances, add K080591 as an alias to the
+    existing page. If they are different devices, the existing page should say which
+    one it covers, and the other may deserve its own. Do not assume from the shared
+    name.'

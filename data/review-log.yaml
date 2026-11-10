@@ -6678,6 +6678,25 @@ silica:
   note: 'Ingredient stub filled (daily ingredient cron; Sonnet draft + Opus critic). Opus re-fetched all 4 sources (CIR amorphous-silica safety assessment incl. the free Final Report PDF, IARC crystalline-silica monograph, Bamford 2021 powder study, Becker 2013 silylate assessment) and verified every quote/stat verbatim. Applied the critic fixes: dropped an unsupported flashback->silica-silylate causal claim (Bamford supports only "some brands seek silica-free powders"); removed a stray comma from the IARC amorphous quote; trimmed process-narration from the CIR footnote and pointed it at the free full-text PDF. Cosmetic/health separation correct throughout (absorbs surface oil, does not reduce sebum). lint+verify+style clean.'
   score: 9
   verdict: publish
+silkn-blue:
+  assurance: sonnet
+  notes: 'All 12 intended quotes machine-checked verbatim against the extracted filing text, including the
+    three damaged strings quoted AS evidence of the scan damage. THE SOURCE IS A POOR SCAN, rendering nm as
+    nim, the Tanda predicate as Slincare and a predicate number as K08 13 07, so the wavelength tolerance, tip
+    temperature and technology-table figures are REPORTED rather than quoted, following the precedent dpl-nuve
+    set. THE DELIBERATE REFUSAL on this page is the three-month result, which extracts as 5 7.7%+69.4%. The
+    central value reads as 57.7%, but whether the dispersion is 9.4% or 69.4% cannot be determined from the
+    scan and the two readings say very different things about consistency, so it is left unresolved rather
+    than guessed. The substantive point is that this filing, unusually for an OTC device summary, reports an
+    actual clinical study with 50 subjects and a 56.7% mean improvement, and that the study is single-arm:
+    string search confirms no occurrence of placebo, randomised, randomized or trial, and no control group is
+    described, so a 100% response rate is easier to reach than it looks. Also recorded: all four predicates
+    belong to other companies, the safety sentence says no OTHER adverse effects without a preceding list, and
+    the device''s 7 cm2 window is the smallest among its own comparators. Reviewed in the main loop with no
+    subagent, hence assurance sonnet.'
+  reviewed: '2026-11-10'
+  reviewer: main-loop self-verification
+  verdict: publish
 simpson-2014-emollient-atopic-dermatitis-prevention:
   last_reviewed: '2026-08-08'
   note: 'Opus re-fetched PubMed abstract PMID 25282563: confirmed design (multicenter US/UK RCT), n=124 high-risk neonates, the "forty-two percent" randomization phrase, intervention (full-body emollient >=1x/day within 3 weeks of birth), and the verbatim primary result (RR 0.50; 95% CI 0.28-0.9; P=.017); no fabricated numbers and abstract-only access correctly disclosed. Two fixable issues: the adverse-events sentence is quoted non-verbatim (drops leading "There were"), and follow-up duration is wrongly listed as unverifiable when the abstract reports a 6-month follow-up. Verdict: revise.
