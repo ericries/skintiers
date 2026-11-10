@@ -15671,7 +15671,8 @@
   conflict: runs an Amazon affiliate storefront and does sponsored posts - strongly prefer educational / how-to / ingredient-explainer videos; be very cautious with any product recommendation
   posted: '2026-11-02'
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: explicit purchase recommendations (serums I would buy with my own money), same creator and same grounds
 - id: '7704029889338330399'
   title: In case you missed it, the Sephora sale is here again! Comment SALE f...
   creator: Dr. Mamina Turegano
@@ -16736,7 +16737,8 @@
   conflict: Paid Chief Medical Advisor to Nutrafol (hair-growth supplement brand); bio links a stan.store link-in-bio storefront (possible aff
   posted: '2026-11-09'
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: GLP-1 tips, a non-topical drug class the cron playbook puts out of scope, and a panel appearance rather than a skincare explainer
 - id: '7706128837167336718'
   title: Today I spoke at the Women’s Health Summit in New York City on a pane...
   creator: Dr. Heather Woolery-Lloyd (drheathermd)
@@ -16815,7 +16817,8 @@
   conflict: runs an Amazon affiliate storefront and does sponsored posts - strongly prefer educational / how-to / ingredient-explainer videos; be very cautious with any product recommendation
   posted: '2026-11-09'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'discount codes in the caption TAIL: ''Use code KRISTINBF15 for 15% off on Yesstyle'' and ''Use code KRISTIN12 for 12% off'', plus @YesStyle and #yesstyle. The visible title looked like pure mechanism education, which is exactly the caption-tail trap the cron warns about'
 - id: '7706208658878762253'
   title: 'HOLY GRAIL Barrier Serums of 2026: ⭐️ @dear, Klairs EGF Serum     ⭐️ ...'
   creator: Kristin Leite (kristingl)
@@ -16828,7 +16831,8 @@
   conflict: runs an Amazon affiliate storefront and does sponsored posts - strongly prefer educational / how-to / ingredient-explainer videos; be very cautious with any product recommendation
   posted: '2026-11-09'
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: explicit picks list (HOLY GRAIL Barrier Serums of 2026) with brand tags, from a creator whose picks are treated as effectively paid via her Amazon affiliate storefront
 - id: '7706263444298763550'
   title: In case you were wondering, Rob has an extensive skincare routine too...
   creator: Dr. Mamina Turegano
@@ -16841,7 +16845,8 @@
   conflict: null
   posted: '2026-11-09'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: a partner's personal routine, no single topic matching an existing page
 - id: k6_e1M9nihA
   title: '1.25 & worth every penny! #dollartreehaul #skincare'
   creator: Dr. Neera Nathan
@@ -16907,7 +16912,8 @@
   conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan and reject any sponsored/affiliate/gifted video
   posted: '2026-11-09'
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: no topic at all (Back camera. No filter.), a selfie clip
 - id: '7706192690798415117'
   title: The golden combo doesn’t work if you’re just stressing your barrier 🫠
   creator: Ella (@your.estie.ella)
