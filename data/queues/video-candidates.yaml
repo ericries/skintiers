@@ -16516,7 +16516,8 @@
   conflict: null
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'affiliate product links in an educational video: description lists Virtue Healing Hair Oil and Garnier Fructis Frizz Tamer via amzlink.to under ''Links are commissionable, meaning I may earn commission'', plus her Amazon store. Same pattern as her peptides Q&A resolved yesterday'
 - id: bB84Uy4abZs
   title: The Hair Loss Pill Just Passed Its Final Trial (I'm Still Bald, But Let's Talk)
   creator: Dr. Dustin Portela
@@ -16529,7 +16530,8 @@
   conflict: null
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: oral drug and hair rather than topical skincare, and the description carries an affiliate-link disclosure with a commission statement
 - id: '7705976423370001685'
   title: 'no warm browns cool tone eyeshadow club: affordable edition This is t...'
   creator: Hannah English (@ms_hannah_e / Hannah Collingwood English)
@@ -16570,7 +16572,8 @@
   conflict: has an own-brand line (Selfless) and does sponsorships - educational content only, never treat picks as endorsements, never use sponsored videos
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: best-of sunscreens roundup, a picks format from a MED creator without product_recs ok
 - id: y7GWtZW1Egk
   title: The Truth About Alix Earle’s Controversial Skincare Brand
   creator: James Welsh
@@ -16583,7 +16586,8 @@
   conflict: does sponsorships - educational content only, never treat picks as endorsements, never use sponsored videos
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: commentary about a celebrity brand controversy, not a single-topic match to an existing page
 - id: '7705639958970764557'
   title: 'Holiday gifts I would NEVER buy for someone #holidaygifts #giftguide ...'
   creator: Jenn Lexi (@jennlexi_)
