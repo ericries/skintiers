@@ -8,6 +8,14 @@ analyzed: '2026-11-10'
 assurance: sonnet
 brand: El Global Trade
 category: Devices
+image_unresolvable: 'No photograph can be attributed to this clearance, and the reason is identity
+  rather than availability. incidecoder MISSES, covering no devices. No manufacturer site resolves at
+  elglobaltrade.com or www.elglobaltrade.com (HTTP 000 on 2026-11-10). Decisively, DEP100 is a contract
+  manufacturer''s clearance name and not a retail name. The enumeration on
+  one-fda-applicant-several-shelf-brands shows that when this applicant files under a shelf brand the
+  shelf brand appears IN the device name, as with CurrentBody Skin RF (K232424); DeepSkin (DEP100) is
+  not such a filing, so no retail unit is identifiable as this device and any microcurrent photo found
+  under a shelf brand would be an unverifiable attribution.'
 comparator: '[[nuface-trinity-microcurrent-device]], the microcurrent device on this
   site that consumers are most likely to be comparing against'
 grades:
