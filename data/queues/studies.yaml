@@ -2204,3 +2204,15 @@
     tested comparison between pH levels, and the abstract gives no participant count,
     no control arm and no p-values, so the study page must not present it as establishing
     the reverse claim either.'
+- name: Song 2026 - TRPV1 channels in skin homeostasis and disease (PMID 42763246)
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: capsaicin
+  source: https://pubmed.ncbi.nlm.nih.gov/42763246/ Cited on capsaicin for mechanism
+    only. It is a NARRATIVE REVIEW, not a trial, so a study page should say so plainly
+    and must not present its promising potential language as evidence of efficacy
+    for any product. The useful content for this site is the direction of therapeutic
+    interest, which is blocking or desensitising TRPV1 rather than agonising it, and
+    the list of conditions it associates with aberrant TRPV1 (psoriasis, atopic dermatitis,
+    rosacea, skin aging, melanoma), each of which the site already has a hub for.

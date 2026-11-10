@@ -1301,6 +1301,24 @@ caprylyl-capryl-glucoside:
   note: 'Main-loop self-verify (no critic; standing no-subagent instruction). All 16 quotes machine-checked verbatim against freshly fetched PMID 30460735 + 27775979, 0 unverified after expanding one elided quote to its full sentence (the elided part was the DENOMINATOR, which the page''s own caveat depends on). CORRECTED the queue item''s framing: it called this an ''emergent contact allergen in the same family'', but Loranger attributes the published cases mostly to lauryl and decyl glucoside, and Bhoyrul reports no per-agent rate for caprylyl/capryl. Page says guilty by family association, a real signal and a thin one. Flagged that the 1.04% denominator is patients already referred for suspected ACD, not general population. tier weak, consistent with decyl/lauryl glucoside and coco-betaine.'
   score: 8
   verdict: publish
+capsaicin:
+  assurance: sonnet
+  notes: 'All 8 quoted spans machine-checked verbatim against the TRPV1 review abstract and the openFDA label
+    text. tier weak matches the rubric, which grades any visible skin benefit as none established. A NEAR MISS
+    WORTH RECORDING: when looking for a mechanism source I passed three PMIDs from memory to esummary and got
+    back papers on endometrial cancer, TALEN mice and marine microplastics. Invented identifiers return
+    real-looking records, so only PMIDs returned by an actual search were used. SCOPE DECIDED DELIBERATELY:
+    openFDA returns 192 topical capsaicin labels and every one is an over-the-counter external analgesic for
+    muscle and joint pain, which is outside this site, so the page is built on the role the queue row actually
+    asked about, capsaicin as the provocation agent in sensitive-skin testing. The validation of those tests
+    is owned by sensitive-skin-tests-by-what-validation-shows and is linked rather than restated. The
+    review''s promising potential language is reported with its direction made explicit, that therapeutic
+    interest is in BLOCKING or desensitising TRPV1 rather than agonising it, so the page cannot be read as
+    supporting capsaicin on the face. One style failure fixed before publish. Main loop, no subagent, hence
+    sonnet.'
+  reviewed: '2026-11-10'
+  reviewer: main-loop self-verification
+  verdict: publish
 carnosine:
   last_reviewed: '2026-08-08'
   note: 'carnosine: Opus re-fetched all three cited primaries (Narda 2018 PMID 30199874 incl. Karger full text, Emanuele 2014 PMID 24595577, Babizhayev 2012 PMID 21756141). Every quote is verbatim and every statistic (AGE percentages, 0.2% carnosine, 42 subjects, ISDIN disclosure) checks out; evidence is honestly represented as ex vivo/combination/oral with manufacturer/vendor conflicts flagged and no grade given to the unproven topical use. Verdict revise: the Babizhayev footnote title is incorrect for its PMID, ''paid'' overstates the ''Scientific Advisor to ISDIN'' disclosure, and the Narda author count is stated as four when there are five (fifth author is the BIO-EC contract lab) — all surgical citation fixes, no fabricated numbers.

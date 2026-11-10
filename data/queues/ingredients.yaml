@@ -3620,7 +3620,7 @@
 - name: Capsaicin (as a sensitive-skin provocation agent)
   type: ingredient
   priority: 3
-  status: pending
+  status: done
   discovered_from: jiang-2025-cream-neurovascular-sensitive-skin-pmid-40736038
   source: 'Used as the capsaicin pain test (CAT) in Jiang 2025 (PMID 40736038) and
     in the forearm model of Zhang 2025 (PMID 39381993) NOT a skincare active on this
@@ -4076,3 +4076,18 @@
   status: pending
   discovered_from: thayers-rose-petal-facial-toner
   source: https://www.thayers.com/shop-all/toners/rose-petal-facial-toner/12-oz
+- name: 4-t-Butylcyclohexanol (TRPV1 antagonist, Symsitive)
+  type: ingredient
+  priority: 3
+  status: pending
+  discovered_from: capsaicin
+  source: 'https://pubmed.ncbi.nlm.nih.gov/42763246/ Named on la-roche-posay-rosaliac-ar-intense-serum
+    as the comparator that outperformed Calmosensine at reducing capsaicin-induced
+    stinging, and absent from the site. PRIORITISED AT 3 because it is the therapeutic
+    counterpart to the capsaicin page just shipped: capsaicin AGONISES TRPV1 to provoke
+    stinging, while this molecule is marketed as a TRPV1 ANTAGONIST to suppress it,
+    so the pair makes the sensitive-skin mechanism legible in both directions. CAUTION:
+    most of its evidence is manufacturer-referenced (Symrise sells it as Symsitive),
+    so check for independent trials before grading and expect the honest answer to
+    be thin. Do not inherit the LRP page''s comparison, which is itself from a manufacturer-referenced
+    test.'
