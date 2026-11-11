@@ -2216,3 +2216,17 @@
     interest, which is blocking or desensitising TRPV1 rather than agonising it, and
     the list of conditions it associates with aberrant TRPV1 (psoriasis, atopic dermatitis,
     rosacea, skin aging, melanoma), each of which the site already has a hub for.
+- name: Kubik 2026 - Plasma IQ microcurrent radiofrequency for periorbital rejuvenation
+    (PMID 41898324)
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: microcurrent-for-facial-skin
+  source: 'https://pubmed.ncbi.nlm.nih.gov/41898324/ Quoted on microcurrent-for-facial-skin
+    as the nearest published microcurrent result, and cited there ONLY to show it
+    does not apply to home devices. A study page must keep that distinction front
+    and centre: the Plasma IQ generates microcurrent RF energy producing controlled
+    heating and targeted tissue ABLATION, which is a clinic procedure, not what a
+    handheld toning device does. Thirty patients, assessed at 7, 21 and 90 days, elasticity
+    +22.51%, and the abstract describes NO control arm, so the figure has no counterfactual.
+    Do not let the shared word microcurrent carry it onto the home-device pages.'

@@ -1386,3 +1386,9 @@
     outcome). While there, note that the study page now records why the trial does
     NOT transfer to pollogen-stop-u-tripollar, which is cleared for facial wrinkles
     while the trial treated abdomen and thigh.
+- name: Microcurrent devices by cleared area (face, face and neck, body)
+  type: list
+  priority: 6
+  status: pending
+  discovered_from: microcurrent-for-facial-skin
+  source: https://api.fda.gov/device/510k.json

@@ -4784,6 +4784,24 @@ michelle-wong:
   note: Person stub filled (daily person cron; Sonnet draft + orchestrator self-check, no Opus critic; assurance=sonnet). Michelle Wong (Lab Muffin Beauty Science), chemist/science communicator. 7 sources; PhD field+institution (chemistry, University of Sydney) cross-corroborated across her site + ASI alumni page + IFLScience interview. Publisher marketing bio (brand collaborations, media profiles) attributed as the publisher's claim, not asserted. Unverifiable specifics (PhD year, follower counts) omitted; no peer-reviewed pubs found (not claimed). Cross-links [[sunscreen-uv-filters]]. lint+verify+style+voice clean (verify WARNs are non-allowlist publisher/interview domains, same as samantha-ellis/shereene-idriss precedent).
   score: 8
   verdict: self-reviewed
+microcurrent-for-facial-skin:
+  assurance: sonnet
+  notes: 'Hub built from the site''s own 510(k)-sourced product pages plus three recorded PubMed searches. THE
+    FINDING IS A UNIFORMITY: across seven microcurrent devices every clearance is worded as stimulation for
+    over-the-counter cosmetic use, and none of the six microcurrent-only ones names lifting, toning, firming
+    or wrinkles, even where the product''s own NAME is a toning device. The seventh, foreo-luna-4-plus, is the
+    only clearance naming a wrinkle outcome and that was CHECKED rather than assumed: it belongs to its red
+    and near-infrared light mode under K241102, not to its microcurrent, and the page says so. THE EVIDENCE
+    SECTION IS AN ABSENCE, stated with the queries that establish it: three searches returned six records and
+    not one tests standalone facial microcurrent for a cosmetic outcome; one tests sinus pain. The nearest
+    hit, Plasma IQ, is quoted precisely because it does NOT apply, being a clinic device whose microcurrent RF
+    produces controlled heating and tissue ablation, and its +22.51% elasticity figure has no control arm. The
+    page says plainly that nothing found shows microcurrent fails, only that the trial testing it on its own
+    terms is missing. tier_list by: makes explicit that tiers grade the CLEARANCE and not the device. Main
+    loop, no subagent, hence sonnet.'
+  reviewed: '2026-11-10'
+  reviewer: main-loop self-verification
+  verdict: publish
 microneedling:
   last_reviewed: '2026-10-10'
   note: 'All 27 quotes verified verbatim against the live PubMed records for PMIDs 42771826, 42745895, 42429955 and 42545315. Also ran the unresolved-wikilink check I built earlier today: none. The page is organised around the clinic-versus-home split because the evidence genuinely diverges there: in-office needling improves scars but a 2026 review says ablative fractional lasers ''may offer greater efficacy'' with needling better on tolerability and pigment safety, while a GRADE-assessed scoping review placed HOME microneedling at Level D ''and associated with infectious complications'' in a paper that recommended home fractional lasers at Level A and LED/RF at Level B. Refused to rank treatments: two 2026 network meta-analyses say the network is ''too sparse and uncertain to support a dependable treatment hierarchy'' with certainty ''Low to very low'', and the page says so instead of implying an order. No tier_list, stated explicitly, because the real comparators (lasers, subcision, PRP)
