@@ -80,6 +80,16 @@ videos:
   related: [acne, rosacea, perioral-dermatitis, folliculitis]
   thesis: Dermatologist John Barbieri raises the possibility that when isotretinoin fails to clear someone, or clears them only for the spots to return every time the course stops, the diagnosis itself may be wrong. He points out that conditions such as rosacea and perioral dermatitis can produce bumps and pimples that look like acne, and that they will often improve while someone is taking isotretinoin, but without the lasting remission that treated acne usually shows, so a relapse on stopping is itself a clue. The practical sign he gives for telling these apart is the absence of whiteheads and blackheads, which in his view often means the problem is not acne at all.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: How to avoid side effects from Accutane (isotretinoin)
+  creator: John Barbieri, MD
+  creator_slug: john-barbieri
+  credential: Dermatologist, Department of Dermatology, Brigham and Women's Hospital
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=KU3NsjdA50o
+  posted: '2023-10-28'
+  related: [acne, adapalene, tretinoin]
+  thesis: Dermatologist John Barbieri argues that most isotretinoin side effects are a dose problem rather than an inevitability, saying that head to head studies show lower dose regimens carry lower rates of side effects while reaching similar clearance, similar long term control and higher patient satisfaction. He gives specific preventions for the common complaints, including about a gram a day of omega 3 to roughly halve dryness, and a non sedating antihistamine to cut the initial flare that can follow starting the drug, a flare he puts at around 30 percent falling to five percent or less. He also says the monthly blood work many patients expect is largely unnecessary for otherwise healthy people, with testing before starting and at the highest dose sufficient for the great majority.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

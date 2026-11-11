@@ -4091,3 +4091,21 @@
     so check for independent trials before grading and expect the honest answer to
     be thin. Do not inherit the LRP page''s comparison, which is itself from a manufacturer-referenced
     test.'
+- name: Card the Winlevi/clascoterone explainer on clascoterone, which has zero video
+    cards
+  type: ingredient
+  priority: 4
+  status: pending
+  discovered_from: isotretinoin
+  source: 'https://www.youtube.com/watch?v=r1pfNHsKzLQ Video r1pfNHsKzLQ by John Barbieri
+    MD, a dermatologist with conflict None and product_recs ok, titled ''This cream
+    addresses hormonal causes of acne in MEN and women | Winlevi | clascoterone''.
+    Found in his backfill slice 46-60 on 2026-11-10. It is LOW on views at 7,996,
+    which normally disqualifies a backfill candidate, BUT the cron''s own exception
+    applies: it is the only match for clascoterone, which has ZERO video cards. The
+    transcript could not be fetched because the YouTube subtitle endpoint returned
+    429 after one successful fetch in the same tick; the fetcher says explicitly not
+    to mark such a video transcript-less, so it is queued rather than skipped. RETRY
+    WHEN THE ENDPOINT ALLOWS, run the mandatory sponsorship scan on transcript and
+    description (his description scanned clean on the sibling video the same day),
+    and card on clascoterone with acne as a related page.'
