@@ -6294,3 +6294,17 @@
     inci_lookup.py, verify the INCI position, and draft that. Eucerin and La Roche-Posay
     sensitive lines are the likeliest starting points but DO NOT assume: resolve a
     real INCI first.'
+- name: Read the testing section of one excluded LED filing (Omnilux New-U first)
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: home-led-devices-by-photobiological-standard
+  source: 'EXCLUDED FROM the photobiological-standard list for lack of a recorded
+    testing section, which is exactly the gap worth closing. These are light-emitting
+    devices with pages here whose filings this site has never read in full, so no
+    absence claim can be made about them: dpl-nuve-for-wrinkles (K141181, already
+    published but its page records a usability study and conclusions without a standards
+    list), omnilux-new-u, neutrogena-light-therapy-acne-mask-plus and the reVive Lux
+    range. Pick ONE, read its 510(k) Summary from accessdata, and record the complete
+    testing list the way dpl-spotlite and tanda-mini-skincare-system do. Each one
+    read moves a device from excluded to placeable on that list.'

@@ -972,3 +972,17 @@
     gel, which nuface-gel-primer covers, so the running cost belongs in the hub too.
     Check for independent trial evidence before grading; do not inherit a grade from
     the device filings, which contain none.'
+- name: 'blue-light-eye-safety-home-devices: fold in the photobiological-standard
+    split'
+  type: goal
+  priority: 5
+  status: pending
+  discovered_from: home-led-devices-by-photobiological-standard
+  source: 'GROUNDED IN THE RUNG-2 FINDING shipped 2026-11-11: K212947 reports Optical
+    Safety testing but names no standard, verified by the string IEC never appearing
+    in that filing. [[blue-light-eye-safety-home-devices]] already exists and already
+    holds two data points on this axis, so this is a NOTE not a new hub: it should
+    absorb the new three-rung split from [[home-led-devices-by-photobiological-standard]]
+    rather than restate it, and in particular the finding that one manufacturer names
+    the standard on only its eye-area device. Do not duplicate the list; link to it
+    and keep the goal page about the reader question.'

@@ -1127,7 +1127,7 @@
     standard
   type: list
   priority: 4
-  status: pending
+  status: done
   discovered_from: blue-light-eye-safety-home-devices
   source: 'K123999 names IEC 62471; K223482 names no standard at all; both read in
     full 2026-11-03 CURATORIAL ONLY over product pages that already exist, in the

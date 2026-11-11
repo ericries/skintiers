@@ -3434,6 +3434,28 @@ home-fractional-nonablative-laser:
   note: 'Closed the largest hole in the device ladder: the Level A rung, which home-use-skincare-devices-by- evidence had been pointing at with the words "No page here yet". 23 quotes verified verbatim, 0 substantive misses. THE QUEUE ASKED ME to resolve which specific devices sit behind the Level A grade before grading. I could not, and the page says so: the review names NO manufacturer, model or wavelength for any modality. So instead of leaving the gap implicit I resolved what IS resolvable from primary sources and found something better than expected. THE FINDING: the grade and the cleared device do not describe the same thing. The modality grade is for FACIAL REJUVENATION, but the only consumer fractional laser whose FDA file I could read, the Tria FANp (K141868), is cleared for exactly one thing: "the treatment of periorbital wrinkles (crow''s feet)". A 1450 nm plus or minus 50 nm diode laser for the skin around the eyes. A reader shopping the top of the ladder is buying a crow''s-feet
     device. SECOND CAVEAT, stated rather than buried: the Level A label comes from a SCOPING review of PubMed with GRADE applied afterwards, not from a meta-analysis. A scoping review maps a literature rather than pooling it, so Level A produced this way is a weaker artifact than Level A with extractable effect sizes. The page says that while still treating the review as the best overview available. THIRD: product code ONG does not isolate home devices. It holds 35 clearances dominated by in-office platforms (Fraxel, Clear and Brilliant, multiple CO2 systems), so the code cannot be used to find consumer lasers, and a device sitting in it tells you nothing about home use. NO tier_list, deliberately and for the second page in a row. Grading would require either home-laser product pages that do not exist or treating the in-office CO2 page as a home device, which would be the exact error the queue warned against. The page says why instead of inventing buckets. STALE CLAIMS FIXED: home-use-skincare-devices-by-evidence
     said twice that this modality had no page. Both now point here, one of them carrying the crow''s-feet catch so the ladder itself warns the reader. Also surfaced a safety finding nothing on the site had stated: home microneedling is Level D for rejuvenation AND "associated with infectious complications", which matters because the microneedling page carries a dermatologist video recommending a home stamping device. Queued as a decision about where it belongs rather than a new page. ZERO Apify spend; PubMed, openFDA and one FDA PDF. Self-verified in the main loop, assurance sonnet, force-published.'
+home-led-devices-by-photobiological-standard:
+  assurance: sonnet
+  notes: 'Curatorial list over product pages that already exist, no new research beyond two filings already
+    read today. THE AXIS IS BINARY AND CHECKABLE: does the clearance name a photobiological safety standard?
+    Rung 1 is eight devices naming IEC 62471 or IEC 60601-2-57, Rung 3 is nine naming none, and Rung 2 is a
+    single device that names optical safety as a TEST CATEGORY with no standard, verified by string search
+    showing the token IEC never occurs in K212947 at all. THE ABSENCE DISCIPLINE IS THE POINT OF THE PAGE: a
+    device is placed in Rung 3 only where its own page records the filing''s complete testing list, and the
+    [^pages] footnote enumerates every one of those lists so a reader can check the absence. Devices whose
+    pages never recorded a standards list are EXCLUDED and named as excluded (dpl-nuve-for-wrinkles,
+    omnilux-new-u, neutrogena, the reVive Lux range) rather than being counted as naming nothing. Microcurrent
+    and RF devices excluded as not light-emitting. TWO FINDINGS: LED Technologies names a photobiological
+    standard on exactly one of six filings, the eye-area handheld; and NuFACE''s own two light heads straddle
+    the line, the 2012 one naming IEC 62471:2006 and its 2022 replacement naming no standard number at all.
+    The page says in terms that the newer device is not thereby less safe, only less documented. FIXED BEFORE
+    PUBLISH: the first draft cited iec.ch for the standard titles, a URL I never fetched; the footnote now
+    attributes both titles to the filings'' own renderings and cites K171386 instead. Also narrowed an
+    over-wide quotation of the TheraFace standard name to the words actually quoted on that page. Verbatim
+    check over all 12 quoted strings, 0 unmatched. Main loop, no subagent, hence sonnet.'
+  reviewed: '2026-11-11'
+  reviewer: main-loop self-verification
+  verdict: publish
 home-led-light-therapy:
   last_reviewed: '2026-10-12'
   note: 'All 45 quotes verified verbatim against freshly-fetched abstracts for PMID 42545315 (2026 GRADE home-device scoping review), PMID 27670126 (Cochrane 2016 light therapies for acne) and PMID 41980895 (2026 PRISMA phototherapy review); unresolved-wikilink check clean. CENTRAL JOB: reconcile two sources that look contradictory. The 2026 GRADE review grades home blue and blue-red LED Level B with a Grade I recommendation, while Cochrane''s 71-trial, 4211-participant review says high-quality evidence for light in acne is LACKING. The page resolves this rather than picking a side: Cochrane''s quantified results are almost entirely PHOTODYNAMIC THERAPY (a clinic drug activated by light, not a home mask), its one pooled result gave BOTH arms red light so it isolates the drug and says nothing about the light, it could not pool the light-class comparisons at all (very low quality), and its searches ended September 2015 so the home-device studies the 2026 review graded were mostly outside it.
