@@ -6278,3 +6278,17 @@
     so it is the common ancestor of two separate LED families this site covers and
     has no page. Read both summaries from accessdata before drafting and report whether
     the proprietary name really is Light for Wrinkles or LightStim for Wrinkles.'
+- name: A currently-sold product whose INCI lists 4-t-butylcyclohexanol
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: zhang-2025-forearm-tape-strip-capsaicin-model-pmid-39381993
+  source: 'Symrise markets 4-t-butylcyclohexanol as SymSitive, and PMID 39381993 confirms
+    the supplier chain in its own materials section (''4-t-butylcyclohexanol was provided
+    by Symrise AG, Germany''). The site has two queued INGREDIENT rows for the molecule
+    but no page for a finished consumer product that actually contains it, so the
+    ingredient evidence has nowhere to land for a reader asking what to buy. Find
+    a currently-sold product whose published INCI lists 4-t-butylcyclohexanol via
+    inci_lookup.py, verify the INCI position, and draft that. Eucerin and La Roche-Posay
+    sensitive lines are the likeliest starting points but DO NOT assume: resolve a
+    real INCI first.'

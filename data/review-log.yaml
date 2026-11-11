@@ -8467,6 +8467,30 @@ yt-transcript-tool-and-first-verified-video:
     '
   score: 9
   verdict: self-reviewed
+zhang-2025-forearm-tape-strip-capsaicin-model-pmid-39381993:
+  assurance: sonnet
+  notes: 'Built from the PubMed abstract AND the open-access PMC full text (PMC11743282), which matters because
+    the two disagree in presentation. THE CORRECTION THIS PAGE MAKES: the abstract reports willingness as
+    "(95.95% vs. 4.05%)", which reads like two measured rates; the body reports one figure, "up to 95.95% were
+    more willing", and 4.05 is just the remainder of 100. The queue row that sent me here had copied the
+    abstract''s framing, so the page states it correctly and says so. SECOND CORRECTION: the soothing agent is
+    not 4-t-butylcyclohexanol alone but a three-supplier complex, 4-t-butylcyclohexanol (Symrise) plus Crocus
+    sativus flower extract (SEQENS) plus Gentiana rigescens extract (Yunnan Ingredi), read from the materials
+    section. The page says plainly that attributing the result to one of the three misattributes it, which is
+    the thing the queued ingredient pages must not do. DISCLOSURES REPORTED AS FOUND, not characterised: all
+    five authors are at the two companies, the funding line says no specific funding was received, the
+    acknowledgments thank one of those companies for financial support, one author''s contribution is listed
+    as funding acquisition, and the authors declare no conflicts. The complex''s rationale rests on "our
+    internal study", unreadable. EFFECT SIZE DECLARED NOT REPORTABLE: a fold-reduction in a colorimetric a*
+    change-rate with no CIs or SDs. VERBATIM CHECK over all 50 quoted strings; 2 flagged and both cleared as
+    an italic-markup artifact (the source renders "4- t -butylcyclohexanol" with spaces around the italic t),
+    now declared in the footnote. Absences checked by string search: no inclusion/exclusion criteria, no
+    registration number, no randomisation method, no sample-size calculation. The 71-of-74 and 70-of-74
+    arithmetic is flagged as mine, not the paper''s. Two style WARNs left standing, both en dashes inside
+    verbatim quotes ("aged 20-50 years", "1-5 scale"). Main loop, no subagent, hence sonnet.'
+  reviewed: '2026-11-11'
+  reviewer: main-loop self-verification
+  verdict: publish
 zhang-2026-comprehensive-evaluation-of-a-cream-with-advanced-soothing-:
   last_reviewed: '2026-08-08'
   note: 'Opus re-fetched PubMed abstract (PMID 41622613); verified design (randomized double-blind split-face RCT, n=30 healthy women, TTS cream vs moisturizing toner post-IPL), all timepoints, and every number verbatim: hydration Δ=12.79 vs 0.32 C.U., D28 erythema index Δ=-54.61, erythema area Δ=-7.02%, TEWL Δ=-4.41 g/m2 h (all p<0.01), satisfaction 100%/96.67%, no adverse effects. Abstract-only access is disclosed, no effect size beyond the abstract is asserted, and link-out discipline is respected. Verdict: publish.
@@ -9510,3 +9534,4 @@ cerave-hydrating-hyaluronic-acid-serum:
   verdict: publish
   note: 'THE PAGE''S FINDING IS THE INGREDIENT ORDER: a serum named for hyaluronic acid in which glycerin sits second and sodium hyaluronate sixth of 24. Not a criticism of the formula, since sodium hyaluronate works at fractions of a percent, but a correction to the name on the bottle, and the page says exactly that rather than scoring a cheap point. VERIFY CAUGHT ME CITING AN AGGREGATOR AS EVIDENCE. I footnoted the INCI to INCIDecoder, which the house rule forbids and sk verify blocks with an ERROR. The brand''s own page is the correct source and it does NOT publish the list: checked by string search of the fetched markup, which contains no occurrence of Aqua, Glycerin, Sodium Hyaluronate or Phytosphingosine. RATHER THAN DODGE THE GATE by stripping the URL and keeping a buried claim, I moved the provenance into the open: the body now names INCIDecoder as an aggregator in the sentence that uses the order, says the brand page carried no list on the date fetched, and frames it as a reading
     anyone can repeat rather than as evidence. The brand footnote records the absence check. GRADED THE HYDRATION CLAIM solid but said the grade belongs to the humectants rather than the bottle, since no product-specific trial exists. The brand''s quantified ''up to 24 hours of hydration'' is quarantined as uncited. Got a real front photo from the same lookup, so this page needs no image cron.'
+

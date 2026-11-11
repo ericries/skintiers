@@ -4109,3 +4109,30 @@
     WHEN THE ENDPOINT ALLOWS, run the mandatory sponsorship scan on transcript and
     description (his description scanned clean on the sibling video the same day),
     and card on clascoterone with acne as a related page.'
+- name: Crocus sativus (saffron) flower extract
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: zhang-2025-forearm-tape-strip-capsaicin-model-pmid-39381993
+  source: 'Named in the materials section of PMID 39381993 (read in full via PMC11743282,
+    2026-11-11) as one of three components of the soothing complex tested there: ''Crocus
+    sativus flower extract was provided by SEQENS, France (INCI: water, 1,3-propylene
+    glycol, Crocus sativus flower extract)''. It is NOT the active the two already-queued
+    4-t-butylcyclohexanol rows cover, and the Zhang result cannot be attributed to
+    any one of the three. Before drafting, search for human topical trials of saffron/Crocus
+    sativus extract on redness or stinging specifically; if the only human data is
+    this three-ingredient complex, say so and keep the page short rather than padding
+    it with culinary saffron chemistry.'
+- name: Gentiana rigescens extract
+  type: ingredient
+  priority: 6
+  status: pending
+  discovered_from: zhang-2025-forearm-tape-strip-capsaicin-model-pmid-39381993
+  source: 'The third component of the soothing complex in PMID 39381993, from its
+    materials section read via PMC11743282 on 2026-11-11: ''Gentiana rigescens extract
+    was obtained from Yunnan Ingredi Biological Co., Ltd., Yunnan, China (INCI: Gentiana
+    rigescens extract, maltodextrin)''. Lower priority than the saffron row because
+    it is likelier to have no independent human topical evidence at all. If a search
+    finds none, the honest outcome is a short page saying the only appearance on this
+    site is inside a three-ingredient complex in one company-run model-validation
+    study, or no page at all.'
