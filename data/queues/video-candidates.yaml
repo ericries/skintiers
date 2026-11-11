@@ -4864,7 +4864,8 @@
   conflict: Runs an Amazon affiliate storefront (amazon.com/shop/derm.talk); recurring disclosed paid brand partnerships (Shiseido, SkinCeutic
   posted: ''
   feed_rank: 6
-  status: pending
+  status: skipped
+  skip_reason: hashtag-stuffed Shorts-style clip, no single topic to attach it to
 - id: -BCu0Qvm6F4
   title: Skin Benefits of Azelaic Acid
   creator: Dr. Joyce Park (Tea with MD)
@@ -15446,7 +15447,8 @@
   conflict: 'Owns and sells a skincare line (Instagram handle @skincarebydrv in her own video descriptions) and routes to it repeatedly inside educational content: in one 9-point acne video she directs viewers to ''our trio blemish range'', ''our AM and PM moisturizers'', her Citrio Blemish Exfoliator and a mineral SPF she calls ''the world''s first mineral SPF 50 formulated for skin of color with no white cast''. Treat ALL product mentions as own-brand promotion. Separately, that video states unsourced figures as fact, including ''99% of sunscreens are chemical sunscreens'' and a claim that bamboo or silk pillowcases reduce fungal growth versus cotton, so relay no statistic from this channel without checking it independently.'
   posted: ''
   feed_rank: 5
-  status: pending
+  status: skipped
+  skip_reason: best-and-worst picks video from a creator who owns and sells her own skincare line
 - id: 9xM80cAIfJ4
   title: You tube updates..What do you think??
   creator: Dr. Vanita Rattan (Doctor V)
@@ -17089,7 +17091,7 @@
   posted: ''
   feed_rank: 0
   status: skipped
-  skip_reason: price-comparison picks video from a creator who owns and sells a skincare line
+  skip_reason: x
 - id: k3UnVxXLioQ
   title: Mineral SPF50✨
   creator: Dr. Vanita Rattan (Doctor V)
