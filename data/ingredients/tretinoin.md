@@ -4,7 +4,7 @@ assurance: opus
 name: Tretinoin
 slug: tretinoin
 status: published
-tier: top
+tier: best
 type: ingredient
 updated: '2026-11-08'
 videos:

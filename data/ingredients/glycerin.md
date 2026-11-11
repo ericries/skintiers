@@ -1,5 +1,5 @@
 ---
-tier: strong
+tier: good
 analyzed: '2026-07-28'
 assurance: opus
 name: Glycerin

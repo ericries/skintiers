@@ -4,7 +4,7 @@ assurance: opus
 name: Adapalene
 slug: adapalene
 status: published
-tier: strong
+tier: good
 type: ingredient
 updated: '2026-07-28'
 videos:

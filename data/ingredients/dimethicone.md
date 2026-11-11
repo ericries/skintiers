@@ -1,5 +1,5 @@
 ---
-tier: moderate
+tier: mid
 analyzed: '2026-07-27'
 assurance: opus
 name: Dimethicone

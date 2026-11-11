@@ -3827,7 +3827,7 @@
     minimal)'
   type: ingredient
   priority: 3
-  status: pending
+  status: done
   discovered_from: silicone-gel-and-sheeting-for-scars
   source: 'NOT A NEW PAGE. A bounded data fix, finished in one pass. The documented
     tier enum is best/good/mid/weak, and entity_tier reads it so the routine builder
@@ -4136,3 +4136,19 @@
     finds none, the honest outcome is a short page saying the only appearance on this
     site is inside a three-ingredient complex in one company-run model-validation
     study, or no page at all.'
+- name: 'Set tier: on the nine published ingredient pages that lack one'
+  type: ingredient
+  priority: 4
+  status: pending
+  discovered_from: tretinoin
+  source: 'MEASURED 2026-11-11 after normalising the off-enum tiers: 217 published
+    ingredient pages carry tier: (weak 105, mid 56, good 51, best 5) and NINE carry
+    none, so they are invisible to entity_tier and drop out of the routine builder''s
+    evidence grouping: ergothioneine, feverfew-extract, microplastics-in-cosmetics,
+    palmitoyl-pentapeptide-4-matrixyl, preservatives, probiotics, retinoids, sunscreen-uv-filters,
+    vitamin-d-topical. Several are category pages rather than single actives (preservatives,
+    retinoids, sunscreen-uv-filters, microplastics-in-cosmetics) and a single evidence
+    grade may genuinely not apply to them, which is a legitimate reason to leave tier:
+    off; the test allows unrated. ACTION: take them one or two at a time, read each
+    page''s OWN rubric and set tier: from it, or record in the page why a single grade
+    does not apply. Do NOT bulk-assign.'

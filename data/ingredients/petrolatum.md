@@ -1,5 +1,5 @@
 ---
-tier: top
+tier: best
 analyzed: '2026-07-27'
 assurance: opus
 name: Petrolatum

@@ -704,6 +704,29 @@ def check_images_exist(metadata, static_dir=None):
     return errors
 
 
+_INGREDIENT_TIERS = ("best", "good", "mid", "weak")
+
+
+def check_tier_enum(metadata):
+    """ERROR-level: an ingredient's top-level `tier:` must be best/good/mid/weak.
+
+    build.py's _TIER_ALIASES folds top/strong/moderate/minimal onto the real four,
+    so an off-enum value renders correctly and hides. Anything NOT in that alias
+    table resolves to None instead, which silently drops the ingredient out of the
+    routine builder's evidence grouping. Both failures are invisible on the page,
+    which is why this is checked here and not left to the eye."""
+    if (metadata.get("type") or "") != "ingredient":
+        return []                      # lists/hubs grade rungs in their own words
+    if "tier" not in metadata or metadata.get("tier") is None:
+        return []                      # unrated is legitimate; a wrong value is not
+    tier = str(metadata.get("tier")).strip()
+    if tier in _INGREDIENT_TIERS:
+        return []
+    return [f"tier: {metadata.get('tier')!r} is not one of "
+            f"{'/'.join(_INGREDIENT_TIERS)} (it must match the page's own rubric; "
+            f"build.py may alias it so the page still looks right)"]
+
+
 def check_tier_list_slugs(metadata, published_slugs):
     """ERROR-level: every tier_list item slug must be a PUBLISHED page. A ladder or
     best-of that lists a draft/typo/unprofiled slug renders a dead link (404) or, for
@@ -1029,6 +1052,8 @@ def consistency_issues(data_dir=None, static_dir=None):
         for e in check_images_exist(m, static_dir):
             errors.append((slug, e))
         for e in check_tier_list_slugs(m, published_slugs):
+            errors.append((slug, e))
+        for e in check_tier_enum(m):
             errors.append((slug, e))
         for e in check_uv_filter_coverage(m, p.content, ing):
             errors.append((slug, e))

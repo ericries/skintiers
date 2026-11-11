@@ -4,7 +4,7 @@ assurance: opus
 name: Bakuchiol
 slug: bakuchiol
 status: published
-tier: minimal
+tier: weak
 type: ingredient
 updated: '2026-07-28'
 videos:

@@ -4,7 +4,7 @@ assurance: opus
 name: Retinaldehyde
 slug: retinaldehyde
 status: published
-tier: strong
+tier: good
 type: ingredient
 updated: '2026-07-27'
 videos:
