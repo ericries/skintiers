@@ -5320,6 +5320,31 @@ nuface-trinity-plus-wrinkle-reducer:
   reviewed: '2026-11-11'
   reviewer: main-loop self-verification
   verdict: publish
+nuface-trinity-wrinkle-remover:
+  assurance: sonnet
+  notes: 'Built from K120560 read in full plus openFDA and the cached brand feed. THE FINDING IS ABOUT THE
+    RECORD ITSELF: the document FDA publishes for this 2012 clearance is a REPLACEMENT, covering letter dated
+    19 January 2022, summary stamped prepared 15 December 2021, saying in FDA''s own words that it carries
+    ''the correct device characteristics'' and that ''the 510(k) submission was not re-reviewed''. So the
+    device characteristics on public record were wrong for nine years and were fixed without any fresh review.
+    The page says plainly that what the original got wrong is not stated and does not guess. IT ALSO CLOSES AN
+    OPEN QUESTION left on [[nuface-trinity-plus-wrinkle-reducer]] yesterday: this filing describes itself as a
+    new treatment head for the main body cleared under K103472, which is the attachment-on-an-existing-handle
+    arrangement the 2022 filing does not describe, so the Classic/Plus pairing is now SUPPORTED though still
+    not stated by any source, and both pages were edited to say exactly that. VERBATIM CHECK run over all 54
+    quoted strings; 3 flagged and all 3 cleared on inspection: one is a deliberate elision marked with an
+    ellipsis and quoted in full in the footnote, one is a line-break hyphenation inside ''full-face'' now
+    declared, one is a journal title from PubMed. ABSENCES stated with the strings searched: the word clinical
+    does not occur anywhere in the file, in any case or inside any longer word, and neither do mW, irradiance,
+    J/cm, subject, participant, randomi, sham, endpoint or statistic. Two source inconsistencies reported not
+    resolved: the predicate is called Light for Wrinkles in its name line and LightStim for Wrinkles in its
+    quoted indication, and the address is Carlsbad in the summary against Poway in the letter, matching the
+    split already noted on [[nuface-plus]]. Photo is the brand feed''s own first image, verified by eye.
+    One style WARN left standing: an em dash inside a verbatim brand quote. Main loop, no subagent, hence
+    sonnet.'
+  reviewed: '2026-11-11'
+  reviewer: main-loop self-verification
+  verdict: publish
 nukaly-2026-oral-topical-peptides-skin-aging-meta-analysis:
   last_reviewed: '2026-08-19'
   note: 'Study cron: compact structured meta-analysis page. Every quote + stat verified VERBATIM against the NCBI E-utilities abstract (PubMed cookie-walls live fetch): 19 RCTs/1,341 pts, MD=0.27 p=0.04, MD=1.5 p=0.01, CRD420250652779, PMID 41924746. Skeptical framing (wrinkle benefit driven by ORAL polypeptides, not topical) is faithful. Independent profile-reviewer agent was blocked by the 200-agent session cap; verified directly in the Opus main loop against the primary source.'

@@ -6238,7 +6238,7 @@
 - name: Trinity Classic LED Red Light Wrinkle Reducer Attachment (K120560?)
   type: product
   priority: 4
-  status: pending
+  status: done
   discovered_from: nuface-trinity-plus-wrinkle-reducer
   source: 'mynuface.com products.json read 2026-11-11: a SECOND attachment, ''Trinity
     Classic LED Red Light Wrinkle Reducer Attachment'', also $160.00 and in stock,
@@ -6264,3 +6264,17 @@
     changed. It is the direct counterpart to [[nuface-trinity-plus-wrinkle-reducer]],
     whose LED head is cleared under OHS with a real wrinkle indication while this
     handle sits under NFO.'
+- name: LightStim Light for Wrinkles (K101190, K120775)
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: nuface-trinity-wrinkle-remover
+  source: 'Named as the two predicates of K120560 (Trinity Wrinkle Remover), read
+    2026-11-11: K101190 and K120775, both ''Light for Wrinkles'' from LED Intellectual
+    Properties, LLC, product code OHS. K101190 is indicated for periorbital wrinkles,
+    K120775 for full-face, and the K120560 summary quotes the latter''s indication
+    as beginning ''The LightStim for Wrinkles''. The same LightStim device is named
+    in LED Technologies'' K141181 predicate list (see [[dpl-nuve-for-wrinkles]]),
+    so it is the common ancestor of two separate LED families this site covers and
+    has no page. Read both summaries from accessdata before drafting and report whether
+    the proprietary name really is Light for Wrinkles or LightStim for Wrinkles.'

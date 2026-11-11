@@ -1392,3 +1392,17 @@
   status: pending
   discovered_from: microcurrent-for-facial-skin
   source: https://api.fda.gov/device/510k.json
+- name: Home device filings by how trustworthy the published record is
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: nuface-trinity-wrinkle-remover
+  source: 'Grounded in two pages shipped 2026-11-11. K120560 (2012) and K212947 (2022)
+    are the same brand''s light head nine years apart, and the published summary for
+    the older one was administratively CORRECTED by FDA in January 2022 with the letter
+    stating ''the 510(k) submission was not re-reviewed''. The site now holds enough
+    510(k) documents to ask a checkable question across them: which filings were amended,
+    re-posted or corrected after clearance, and what changed. Candidates already read
+    include K103472 (degraded scan, trade name renders eight ways), K101382 (same),
+    K120560 (corrected summary) and the clean ones K141181, K171588, K212947. Only
+    build this if the pattern holds across more than two filings; do not pad it.'
