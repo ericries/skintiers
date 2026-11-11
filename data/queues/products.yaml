@@ -6328,3 +6328,32 @@
     FIRST whether this needs its own page at all: it may be better handled as a paragraph
     on the Trinity+ page, exactly the structural question the parked Lotrimin DECIDE
     row is about. If the answer is the same, say so and resolve without a new page.'
+- name: Therabody TheraFace Mask (K230293)
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: therabody
+  source: 'openFDA applicant ''Therabody'' queried 2026-11-11: K230293 ''TheraFace
+    Mask'', product code OHS under 21 CFR 878.4810, decision 2023-06-09, published
+    as a Summary. $649.99 on therabody.com/products.json the same day (a Mask Glo
+    variant at $379.99 and a refurbished unit at $449.00 also listed). OHS is the
+    light-based OTC wrinkle-reduction code, so this should carry a real wrinkle indication
+    like the other OHS devices here, unlike the brand''s NFO microcurrent ring. Read
+    the Summary and record its complete testing section: it is a direct candidate
+    for [[home-led-devices-by-photobiological-standard]], which currently cannot place
+    it because no filing has been read. Compare against [[theraface-led-light-ring]],
+    same brand, same code, already covered.'
+- name: Therabody TheraFace Microcurrent Ring (K212238)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: therabody
+  source: 'openFDA applicant ''Theragun'' queried 2026-11-11: K212238 ''TheraFace
+    Microcurrent'', product code NFO under 21 CFR 882.5890, decision 2021-09-29, published
+    as a Summary. Sold as the ''TheraFace PRO Microcurrent Ring'' at $149.99 on therabody.com/products.json.
+    This is the direct competitor to the NuFACE microcurrent line and the comparison
+    is already set up: every NuFACE NFO clearance reads ''facial stimulation ... over-the-counter
+    cosmetic use'' and names no outcome (see [[nuface-trinity-ele-attachment]]). Read
+    K212238 and report whether Therabody''s NFO indication is worded the same way,
+    and whether its filing reports any clinical testing. If the wording matches, that
+    is a cross-brand uniformity worth recording on [[home-device-wrinkle-claims-by-cleared-scope]].'

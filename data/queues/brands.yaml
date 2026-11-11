@@ -562,7 +562,7 @@
     queries + therabody.com/products.json'
   type: brand
   priority: 5
-  status: pending
+  status: done
   discovered_from: null
   source: ' MERGED 2026-11-05 from a duplicate row I added the same day: five clearances
     across two corporate names, verified on openFDA device/510k 2026-11-05, Theragun

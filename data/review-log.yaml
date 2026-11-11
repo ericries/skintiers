@@ -7736,6 +7736,21 @@ the-ordinary-sulfur-10-powder-to-cream-concentrate:
   note: 'Opus critic verified price ($9.90/5g), the full 14-item INCI, the Torok 2005 stats (80% vs 72% P=.04, n=152, 7/75 poor tolerance, correctly flagged as ROSACEA + combination not standalone acne), and the Cochrane ''uncertain about the effects of sulfur'' quote, all byte-accurate vs cached source + PubMed. Verdict revise on 4 fixes, all applied: misquoted ''visible results in under 1 hour'' -> verbatim ''to reduce size and redness in under 1 hour''; ''13 inactive'' -> 14; removed two ''no X found'' hedges; dropped a non-source comma in the colloidal-sulfur quote. Honest: modest/uncertain-graded active, no product-specific trial, grade rests on [[sulfur]]. Note: drafter died on API error mid-run but had completed the page + image + cache.'
   score: 9
   verdict: publish
+therabody:
+  assurance: sonnet
+  notes: 'Lean brand roll-up, 179 words of body, no critic per the playbook''s brand lane. THE USEFUL FINDING
+    IS A DISCOVERY TRAP: the company renamed itself and its clearances did not follow, so three sit under
+    applicant Theragun, Inc. and two under Therabody, Inc. An openFDA query on either name alone returns a
+    partial set that LOOKS complete, which is the same failure already documented on silkn. Both queries were
+    run and all five records enumerated in the footnote with codes and decision dates. NO FOUNDER IS NAMED:
+    one fetch of the company story page returned 461 KB containing no occurrence of founder, founded or any
+    person''s name, so none is asserted and the footnote records the attempt. That is the right outcome for a
+    living person under the never-state-an-unverified-claim rule, not a gap to fill from memory. Prices are
+    the brand''s own feed, cached, with the two different Depuffing Wand listings and the refurbished units
+    noted rather than averaged into one number. Main loop, no subagent, hence sonnet.'
+  reviewed: '2026-11-11'
+  reviewer: main-loop self-verification
+  verdict: publish
 thiamidol:
   last_reviewed: '2026-08-30'
   note: INGREDIENT wave3. Beiersdorf tyrosinase inhibitor (isobutylamido thiazolyl resorcinol). tier:good honest (one vehicle-controlled RCT + head-to-head vs hydroquinone, industry-funded, independent replication thin). All IC50/p/quotes verbatim vs eutils + PubChem. Opus critic fixed Mann 2018 misquote + added concentration citation. tier:good. Opus critic inline (workflow pipeline); assurance opus.
