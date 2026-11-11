@@ -15390,7 +15390,8 @@
   conflict: 'Owns and sells a skincare line (Instagram handle @skincarebydrv in her own video descriptions) and routes to it repeatedly inside educational content: in one 9-point acne video she directs viewers to ''our trio blemish range'', ''our AM and PM moisturizers'', her Citrio Blemish Exfoliator and a mineral SPF she calls ''the world''s first mineral SPF 50 formulated for skin of color with no white cast''. Treat ALL product mentions as own-brand promotion. Separately, that video states unsourced figures as fact, including ''99% of sunscreens are chemical sunscreens'' and a claim that bamboo or silk pillowcases reduce fungal growth versus cotton, so relay no statistic from this channel without checking it independently.'
   posted: ''
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: commentary on an ingredient-scoring app; the site has no hub for that topic and this cron must not create pages
 - id: LXfgFwSgnkQ
   title: Stop These 9 Acne Mistakes If You Have Black or Brown Skin ·
   creator: Dr. Vanita Rattan (Doctor V)
@@ -16267,7 +16268,8 @@
   conflict: Runs a "Shop my Favorites" affiliate storefront (linktr.ee/dermatologysurgeon) that monetizes her product picks; no own-brand prod
   posted: ''
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: body care picks, a stitch rather than a single-topic explainer
 - id: 9euJiChrB-U
   title: Dr Sam’s Holiday Collection 2026 | Skincare Gift Sets
   creator: Dr. Sam Bunting
@@ -16615,7 +16617,8 @@
   conflict: Runs an Amazon affiliate storefront (amazon.com/shop/derm.talk); recurring disclosed paid brand partnerships (Shiseido, SkinCeutic
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'affiliate: description carries 3 go.shopmy.us product links, an affiliate disclosure and a discount code. Good topic match to home-led-light-therapy, rejected on monetization as with her other educational videos'
 - id: y_o9LHvi9B0
   title: Layering skincare to Fade Dark Marks In Black Skin
   creator: Dr. Vanita Rattan (Doctor V)
@@ -16628,7 +16631,8 @@
   conflict: 'Owns and sells a skincare line (Instagram handle @skincarebydrv in her own video descriptions) and routes to it repeatedly inside educational content: in one 9-point acne video she directs viewers to ''our trio blemish range'', ''our AM and PM moisturizers'', her Citrio Blemish Exfoliator and a mineral SPF she calls ''the world''s first mineral SPF 50 formulated for skin of color with no white cast''. Treat ALL product mentions as own-brand promotion. Separately, that video states unsourced figures as fact, including ''99% of sunscreens are chemical sunscreens'' and a claim that bamboo or silk pillowcases reduce fungal growth versus cotton, so relay no statistic from this channel without checking it independently.'
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: layering routine from a creator whose roster says to treat all product mentions as own-brand promotion
 - id: '7705917439988550925'
   title: 'My kind of Christmas ornaments '
   creator: Ella (@your.estie.ella)
@@ -16669,7 +16673,8 @@
   conflict: Discloses on her own videos that links are commissionable, and runs two affiliate storefronts, an Amazon store and a LikeToKnowIt page, both linked in her video descriptions. Verified 2026-11-09 from the description of her milky-toner roundup, which states "This video is not sponsored. Links are commissionable, meaning I may earn commission from purchases made through links." So her reviews and best-of videos are picks monetized through a storefront and are treated as effectively paid, and must be skipped even though her HIGH tier would otherwise make them eligible. Her non-product educational videos stay eligible. She is transparent about the arrangement; the issue is the monetization rather than any concealment.
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: Amazon favorites roundup, a picks format routed through her Amazon storefront
 - id: FKjTxrdzQjI
   title: 'Better than filler??? #dermreacts  #skincare  #dermatologist #dermangelo  #reactionvideo  '
   creator: Dr. Angelo Landriscina (DermAngelo)
@@ -16682,7 +16687,8 @@
   conflict: Own-brand UPF sun-protective clothing line, SOUL-A (wearsoula.com / @wearsoula), founded and promoted by him — apparel, not topical skincare
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: hashtag-stuffed short-form reaction clip, not a single-topic match
 - id: '7706400619463970061'
   title: 'Pea size goes a long way fam #retinol #tretinoin #howtouseretinol '
   creator: Dr. Chris Tomassian
@@ -16859,7 +16865,8 @@
   conflict: Runs a "Shop my Favorites" affiliate storefront (linktr.ee/dermatologysurgeon) that monetizes her product picks; no own-brand prod
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: dollar-store haul, a picks format
 - id: '7706345247671864607'
   title: 🖇️ Comment LONGEVITY for the full list of derm-approved products for ...
   creator: Dr. Sheila Farhang (dr.sheila_derm)
@@ -16886,7 +16893,8 @@
   conflict: 'Owns and sells a skincare line (Instagram handle @skincarebydrv in her own video descriptions) and routes to it repeatedly inside educational content: in one 9-point acne video she directs viewers to ''our trio blemish range'', ''our AM and PM moisturizers'', her Citrio Blemish Exfoliator and a mineral SPF she calls ''the world''s first mineral SPF 50 formulated for skin of color with no white cast''. Treat ALL product mentions as own-brand promotion. Separately, that video states unsourced figures as fact, including ''99% of sunscreens are chemical sunscreens'' and a claim that bamboo or silk pillowcases reduce fungal growth versus cotton, so relay no statistic from this channel without checking it independently.'
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'own-brand: a tinted mineral SPF the creator states she built in her own lab'
 - id: '7706371247013154062'
   title: Replying to @Jessica Uminsky it’s generally not going to hurt anythin...
   creator: Ella (@your.estie.ella)
