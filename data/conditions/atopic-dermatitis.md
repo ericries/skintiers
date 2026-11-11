@@ -149,6 +149,16 @@ videos:
   thesis: Board-certified dermatologist Andrea Suarez, who posts as Dr Dray, takes on the question of whether cutting foods helps eczema and lands against blanket elimination. She separates having atopic dermatitis, which she describes as a chronic inflammatory condition involving an impaired skin barrier, immune activity, genetic susceptibility and environmental factors, from having a confirmed food allergy, and stresses that a confirmed allergy, a food intolerance and a suspected dietary trigger are not interchangeable and call for different approaches. On the evidence she says research has not shown consistent benefits from elimination diets for people with atopic dermatitis generally, particularly where no specific food allergy has been established, and she warns that unnecessary restriction carries its own downsides. She also discusses a JAMA Dermatology study reporting that higher dietary sodium was associated with higher odds of eczema and greater severity, which is an association
     rather than a demonstrated cause.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: 'Eczema Explained by a Dermatologist: Types, Triggers, and Treatments That Work'
+  creator: Dr. Aleksandra Brown, DO, FAAD
+  creator_slug: aleksandra-brown
+  credential: Board-certified dermatologist (DO, FAOCD, FAAD), practicing at River Ridge Dermatology / HCA Virginia (LewisGale), Blacksburg VA
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=d6p6mRK-Yag
+  posted: '2025-12-21'
+  related: [ceramides, colloidal-oatmeal, dupilumab, glycerin, petrolatum, shea-butter]
+  thesis: Board-certified dermatologist Dr. Aleksandra Brown walks through what eczema is, which types and triggers she sees, and how she treats it, in four steps rather than as a single product recommendation. Those steps are repairing the barrier with a thick fragrance-free cream applied to damp skin after bathing, calming inflammation with a topical steroid matched in strength to the body site and kept to short courses, breaking the itch and scratch cycle by other means including cold compresses and damp cotton gloves over moisturizer, and escalating widespread or stubborn disease to phototherapy or the newer targeted drugs. On diet she argues that cutting dairy or gluten does not make eczema go away even in a child who is genuinely sensitive, and that a diagnosis should come before any elimination trial. She names no branded products anywhere in the video.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
