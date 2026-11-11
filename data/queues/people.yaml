@@ -575,3 +575,25 @@
     Retinol and Retinal Products Top 3 (1). This needs per-video judgment, and whether
     the corrected setting applies retroactively at all is a user decision, as with
     the parallel Aleksandra Brown row.'
+- name: Backfill creator attribution on 84 anonymous video cards
+  type: person
+  priority: 3
+  status: pending
+  discovered_from: sunscreen-uv-filters
+  source: 'MEASURED 2026-11-11 by loading every data/*/*.md frontmatter with yaml.safe_load:
+    84 video cards across 29 pages carry creator: '''' AND credential: '''' AND creator_slug:
+    ''None'' (the literal string). Worst pages: sunscreen-uv-filters 22 of 60, azelaic-acid
+    6 of 28, acne 8, retinoids 6, hyperpigmentation 6. NOT a live bug: cards written
+    by sk add-video today (jennlexi on hyperpigmentation, aleksandra-brown on atopic-dermatitis)
+    carry all three fields correctly, so this is historical from an older write path
+    and the backlog is fixed-size. NOT a schema difference either: the broken and
+    intact cards in the same file have an identical key set, so the fields exist and
+    are empty. RECOVERABLE: 76 of the 84 name a person inside their own thesis or
+    note field, e.g. a sunscreen card whose thesis opens ''Board-certified dermatologist
+    Dr. Angelo Landriscina'' while its creator field is blank. METHOD: take the name
+    from the card''s own thesis, match it to data/video-sources.yaml for the slug
+    and the roster credential, and only then write the three fields; where the roster
+    has no match, leave the card alone rather than inventing a credential for a living
+    person. This violates the video card standard (cards must introduce the creator)
+    and it is why the person queue has no real work in it: the attribution backlog
+    was never queued.'

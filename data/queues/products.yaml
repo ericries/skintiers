@@ -6020,7 +6020,7 @@
 - name: Trinity Wrinkle Remover (K120560, Carol Cole Company)
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: dpl-nuve-for-wrinkles
   source: https://www.accessdata.fda.gov/cdrh_docs/pdf14/K141181.pdf CHECK IDENTITY
     FIRST. The site already covers nuface-trinity-microcurrent-device, a MICROCURRENT
@@ -6028,6 +6028,8 @@
     clearance. These may be different devices sharing a product name, which is the
     exact trap K101382 (dpl Nuve, periorbital) and K141181 (Nuve for Wrinkles, full-face)
     set. Resolve from the 510(k) summary before drafting.
+  resolved_reason: 'auto-reconciled: a product page already exists for ''Trinity Wrinkle
+    Remover (K120560, Carol Cole Company)'' (queue_reconcile)'
 - name: 'STALE CLAIM: three LED Technologies pages say the brand''s domains are unreadable,
     but they are not'
   type: product
