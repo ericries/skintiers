@@ -5310,6 +5310,28 @@ nuface-mini-microcurrent-device:
   reviewed: '2026-10-22'
   reviewer: main-loop self-verification
   verdict: publish
+nuface-trinity-ele-attachment:
+  assurance: sonnet
+  notes: 'Built from K201906 and its 2013 predicate K131251, both read in full, plus the cached brand feed.
+    THE FINDING IS A SENTENCE PAIR: the brand writes "Lift brows, smooth under-eyes, and target marionette
+    lines with artistic precision using the FDA-Cleared Effective Lip & Eye Attachment" while the clearance
+    reads "The Trinity ELE Plus is intended for facial stimulation and is indicated for over-the-counter
+    cosmetic use" and section 11 of the same filing states "no clinical testing was performed". The page sets
+    the two side by side and says plainly that the claims are not thereby false, only uncovered and untested.
+    SECOND FINDING, REPORTED NOT RESOLVED: the filing gives its own classification name as "Transcutaneous
+    electrical nerve stimulator for pain relief" while the openFDA record for the same product code NFO says
+    "Stimulator, Transcutaneous Electrical, Aesthetic Purposes". Both renderings are quoted and the page
+    declines to pick one. THIRD: the comparison table marks every energy characteristic Same as the 2013
+    predicate, so what changed in eight years is the battery, the charging method and the app. VERBATIM CHECK
+    over all 70 quoted strings; the only flag was the inch-mark artifact in the dimensions, which breaks the
+    quote regex and is not a quotation problem. Absences checked by string search: no participant, randomi or
+    sham anywhere in K201906. K131251 is a degraded OCR scan and the footnote says so and quotes only its
+    clean prose, taking nothing from its tables. Photo is the brand feed''s own first image, verified by eye
+    to show the two wands the filing describes. One style WARN left standing: an em dash inside a verbatim
+    brand quote. Main loop, no subagent, hence sonnet.'
+  reviewed: '2026-11-11'
+  reviewer: main-loop self-verification
+  verdict: publish
 nuface-trinity-microcurrent-device:
   last_reviewed: '2026-10-17'
   note: 'Sources: K181008 clearance package (a real 510(k) SUMMARY, so the testing is readable), openFDA queried by device name and applicant, the brand''s own TRINITY+ page CACHED before quoting, and PMID 42545315 cited only for WHICH MODALITIES IT COVERS. 36 quotes; 3 flags are verbatim from LED clearances and this tick''s openFDA output, verified earlier, just not in the 3-file corpus. Lint, verify, style, wikilinks clean. ZERO Apify spend; the free path found the real product URL again. THE QUEUE ENTRY WAS MY OWN AND IT WAS WRONG, which the page corrects. I queued this as a product anchor for the Level B RADIOFREQUENCY rung and wrote ''microcurrent/RF'' as though they were one category. They are not. NuFACE is microcurrent, and checking the GRADE review found the word microcurrent appears ZERO times in it: the review names seven modalities (fractional nonablative lasers, LED, radiofrequency, microneedling, IPL, heat-based, light-heat energy) and microcurrent is not one. So this device

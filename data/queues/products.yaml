@@ -5148,7 +5148,7 @@
 - name: NuFACE Trinity+ Lifting & Smoothing Lip & Eye Microcurrent Attachment (ELE)
   type: product
   priority: 4
-  status: pending
+  status: done
   discovered_from: nuface-plus
   source: 'mynuface.com products.json 2026-11-03 ($160.00); openFDA K201906 ''Trinity
     ELE Plus and Trinity ELE Plus Pro'' and K131251 ''TRINITY ELE'' A currently-sold
@@ -6077,7 +6077,7 @@
     need its own home or a widened list.'
 - name: 'DECIDE: one page per Lotrimin Ultra label variant, or one family page'
   type: product
-  priority: 3
+  priority: 8
   status: pending
   discovered_from: lotrimin-ultra-butenafine-1-cream
   source: 'https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22Lotrimin%20Ultra%22
@@ -6091,7 +6091,12 @@
     and a tick should not take it: publish the draft and keep a page per label variant,
     merge the four-label finding into the published Athletes Foot page and delete
     the draft, or restructure both into one Lotrimin Ultra family page. All three
-    involve either a deletion or a structural change.'
+    involve either a deletion or a structural change. 2026-11-11: de-prioritised 3
+    to 8 after heading the product queue for five consecutive PRODUCT ticks with no
+    ruling. The question is unchanged and still the user''s to answer; what changed
+    is that a question was sitting above real work and every tick was stepping over
+    it. Nothing was decided and the draft page lotrimin-ultra-butenafine-1-cream is
+    untouched and still unpublished. Restore to 3 the moment it is answered.'
 - name: Thayers Witch Hazel Facial Toner
   type: product
   priority: 3
@@ -6308,3 +6313,18 @@
     range. Pick ONE, read its 510(k) Summary from accessdata, and record the complete
     testing list the way dpl-spotlite and tanda-mini-skincare-system do. Each one
     read moves a device from excluded to placeable on that list.'
+- name: Trinity Classic Lifting & Smoothing Lip & Eye Attachment (K131251?)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: nuface-trinity-ele-attachment
+  source: 'The Trinity Classic twin of the ELE head, ''TRINITY CLassic Lifting & Smoothing
+    Lip & Eye Microcurrent Attachment'' (the capitalisation is the feed''s own), $160.00
+    and in stock per mynuface.com products.json read 2026-11-11, for handles bought
+    before August 2022. It carries the SAME claim sentence as the Trinity+ version.
+    The likely clearance is K131251 ''TRINITY ELE'' (2013-10-01, NFO), whose indication
+    is already quoted on [[nuface-trinity-ele-attachment]], but that filing is a DEGRADED
+    OCR SCAN whose tables cannot be read, so do not take any figure from them. CHECK
+    FIRST whether this needs its own page at all: it may be better handled as a paragraph
+    on the Trinity+ page, exactly the structural question the parked Lotrimin DECIDE
+    row is about. If the answer is the same, say so and resolve without a new page.'

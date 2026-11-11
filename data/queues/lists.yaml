@@ -1406,3 +1406,21 @@
     include K103472 (degraded scan, trade name renders eight ways), K101382 (same),
     K120560 (corrected summary) and the clean ones K141181, K171588, K212947. Only
     build this if the pattern holds across more than two filings; do not pad it.'
+- name: Home devices by whether the marketing claim matches the cleared indication
+  type: list
+  priority: 4
+  status: pending
+  discovered_from: nuface-trinity-ele-attachment
+  source: 'GROUNDED IN FOUR PAGES SHIPPED 2026-11-10/11, all from filings read in
+    full. One handle, two $160 attachment heads, two regulatory regimes: the ELE microcurrent
+    head (K201906, NFO, 882.5890, Neurology) is cleared for ''facial stimulation ...
+    over-the-counter cosmetic use'' with section 11 stating no clinical testing was
+    performed, while the wrinkle light head (K212947, OHS, 878.4810, General and Plastic
+    Surgery) is cleared for ''the reduction of full-face fine lines and wrinkles''.
+    The brand attaches the words FDA-Cleared to lifting and smoothing claims on the
+    head whose clearance names no outcome. A list ranking home devices by WHETHER
+    THE MARKETING CLAIM AND THE CLEARED INDICATION MATCH would be new: [[home-device-wrinkle-claims-by-cleared-scope]]
+    ranks the cleared scope alone and does not compare it against what the brand says.
+    Build it only over products whose BRAND COPY is already quoted on their page,
+    so both halves are verifiable; do not go hunting fresh marketing copy to fill
+    rungs.'
