@@ -5133,7 +5133,7 @@
 - name: NuFACE Trinity+ LED Red Light Wrinkle Reducer Attachment
   type: product
   priority: 4
-  status: pending
+  status: done
   discovered_from: nuface-plus
   source: 'mynuface.com products.json 2026-11-03 ($160.00); openFDA K212947 ''Trinity
     Plus Wrinkle Reducer'', product code OHS A currently-sold $160 attachment with
@@ -6235,3 +6235,32 @@
   status: pending
   discovered_from: stratpharma
   source: https://www.stratpharma.com/
+- name: Trinity Classic LED Red Light Wrinkle Reducer Attachment (K120560?)
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: nuface-trinity-plus-wrinkle-reducer
+  source: 'mynuface.com products.json read 2026-11-11: a SECOND attachment, ''Trinity
+    Classic LED Red Light Wrinkle Reducer Attachment'', also $160.00 and in stock,
+    alongside the Trinity+ one just published. The brand note reads ''Purchased your
+    device before August 2022? You need a Classic attachment''. openFDA shows Carol
+    Cole holds exactly two OHS clearances, K120560 TRINITY WRINKLE REMOVER (2012-11-06)
+    and K212947 (2022-04-02), so the natural pairing is Classic=K120560. DO NOT ASSERT
+    THAT PAIRING: neither the feed nor either filing states it. Resolve it from the
+    K120560 Summary itself (accessdata pdf12) before drafting, and if the filing does
+    not settle it, say so.'
+- name: NuFACE Trinity Plus Device (K201782)
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: nuface-trinity-plus-wrinkle-reducer
+  source: 'openFDA applicant ''Carol Cole'' queried 2026-11-11, 14 records: K201782
+    ''NuFace Trinity Plus Device'', decision 2021-01-22, product code NFO. This is
+    the HANDLE that is actually sold today at $395.00 (mynuface.com products.json,
+    2026-11-11), and the site has no page for it: [[nuface-trinity-microcurrent-device]]
+    documents the 2018 K181008 Trinity and only mentions the Trinity+ as its retail
+    successor. Read the K201782 Summary from accessdata and report whether its indication
+    is the same stimulation-for-cosmetic-use wording as K181008, and what if anything
+    changed. It is the direct counterpart to [[nuface-trinity-plus-wrinkle-reducer]],
+    whose LED head is cleared under OHS with a real wrinkle indication while this
+    handle sits under NFO.'

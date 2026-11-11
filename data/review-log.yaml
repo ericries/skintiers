@@ -5295,6 +5295,31 @@ nuface-trinity-microcurrent-device:
     It is precisely because they publish that this page can report the testing was headed NON-CLINICAL. Successor hedged rather than assumed: documented device is the 2018 Trinity, what is sold is TRINITY+ at a verified $395.00, and K201906 (Trinity ELE Plus) may or may not be that SKU; the page says it does not assume so.'
   score: 9
   verdict: publish
+nuface-trinity-plus-wrinkle-reducer:
+  assurance: sonnet
+  notes: 'Built from K212947 read in full (clean text layer) plus two openFDA endpoints and the brand''s own
+    products.json, cached. THE FINDING IS A CODE SPLIT: this LED attachment is cleared under OHS / 21 CFR
+    878.4810 / General and Plastic Surgery with a real wrinkle indication, while every NuFACE microcurrent
+    device sits under NFO / 882.5890 / Neurology with a stimulation indication naming no outcome. Quantified
+    from an applicant query: 11 of Carol Cole''s 14 clearances are NFO, exactly 2 are OHS and both of those
+    are light devices, the fourteenth being a GYB gel. THAT COUNT WAS WRONG ON FIRST WRITING (12 NFO) and was
+    corrected by enumerating all 14 in the footnote before publishing, which is why the enumeration is there.
+    VERBATIM CHECK RUN over all 78 quoted strings against the extracted filing, the cached feed, the recorded
+    openFDA output and the two site pages reused as sources: three quotes failed and were FIXED rather than
+    shipped, all three being table cells that wrap across lines so no contiguous string exists (the subject''s
+    own wavelength cell, now taken from the description prose instead, and both predicate trade names, now
+    reported). The footnote declares that and the two typographic normalisations. ABSENCES are stated as
+    absences with the strings searched: no mW, irradiance, J/cm, participants, randomi, sham, endpoint,
+    placebo or statistic anywhere in the file, and section 7.6 declines clinical testing in its own words.
+    TWO TENSIONS REPORTED, NOT RESOLVED: the filing describes a complete device with its own main body while
+    $160 buys only the head, and the brand sells Classic and Trinity+ attachments against two OHS clearances
+    with no source stating the mapping. Marketing section flags that the brand says three light therapies
+    where the file lists five wavelengths. Photo is the brand feed''s own first image, verified by eye to show
+    the LED head. One style WARN left standing: an em dash inside a verbatim brand quote, not altered. Main
+    loop, no subagent, hence sonnet.'
+  reviewed: '2026-11-11'
+  reviewer: main-loop self-verification
+  verdict: publish
 nukaly-2026-oral-topical-peptides-skin-aging-meta-analysis:
   last_reviewed: '2026-08-19'
   note: 'Study cron: compact structured meta-analysis page. Every quote + stat verified VERBATIM against the NCBI E-utilities abstract (PubMed cookie-walls live fetch): 19 RCTs/1,341 pts, MD=0.27 p=0.04, MD=1.5 p=0.01, CRD420250652779, PMID 41924746. Skeptical framing (wrinkle benefit driven by ORAL polypeptides, not topical) is faithful. Independent profile-reviewer agent was blocked by the 200-agent session cap; verified directly in the Opus main loop against the primary source.'
