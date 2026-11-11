@@ -540,6 +540,16 @@ videos:
   related: [kojic-acid, licorice-root-extract, vitamin-c, hydroquinone, glycolic-acid, melasma]
   thesis: 'Dermatologist Neal Schultz walks through four plant or fungus derived ingredients used against hyperpigmentation and explains the mechanism of each, which is the part of this 2013 episode that has aged well. Kojic acid, licorice extract and vitamin C all inhibit tyrosinase, the enzyme skin needs to make melanin, while soy works differently by blocking pigment already made from being passed to surface skin cells. He prefers the ester form of vitamin C, tetrahexyldecyl ascorbate, on stability grounds. Two cautions for a viewer today: he claims a kojic acid and glycolic acid combination has been shown to work as well as a hydroquinone product without citing the study, which is a strong claim to take on trust, and the specific branded products he names are from 2013 and may since have been reformulated or discontinued.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Top 5 ways to get rid of hyperpigmentation
+  creator: Jenn Lexi
+  creator_slug: jennlexi
+  credential: Esthetician (self-identified); not a dermatologist or cosmetic chemist
+  platform: TikTok
+  url: https://www.tiktok.com/@jennlexi_/video/7706665311633771790
+  posted: '2026-11-10'
+  related: [azelaic-acid, vitamin-c, retinoids, acne, sunscreen-uv-filters, melasma]
+  thesis: Jenn Lexi, a self-described licensed esthetician, argues that fading hyperpigmentation depends less on buying a dedicated dark-spot product than on removing whatever keeps switching the pigment on. Her five steps are to get active breakouts under control first, because inflammation from acne and picking drives the extra pigment; to wear sunscreen, since UV light itself tells skin to make more pigment; to pick one pigment-slowing ingredient, naming azelaic acid as her favourite for calming inflammation at the same time and vitamin C as the other option; to add a retinoid low and slow to speed up shedding; and to keep the routine simple, on the logic that stacking several actives causes the irritation that feeds the problem. She names no products and says results take real patience.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

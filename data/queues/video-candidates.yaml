@@ -16921,7 +16921,8 @@
   conflict: Founder/owner of active postpartum skincare brand "More Than Nine" (cleanser, exfoliator, moisturizer, balm) — an ongoing own-bran
   posted: '2026-11-11'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'off-topic: Trader Joe''s grocery clip, no skincare subject'
 - id: 6EnIcEhqWNQ
   title: Health Misinformation Is Getting Dangerous | Dr. Dray
   creator: Andrea Suarez (Dr Dray)
@@ -16960,7 +16961,8 @@
   conflict: Bio includes a business/booking contact email suggesting managed brand partnerships; no confirmed own-brand line or affiliate stor
   posted: '2026-11-10'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: medical humour skit, no skincare subject
 - id: '7706922693798530317'
   title: As a mom of three, I know how overwhelming it is to second-guess ever...
   creator: Fatima Fahs
@@ -16973,7 +16975,8 @@
   conflict: Promotes her own curated product box, Dermy Doc Box (@dermy.doc.box), with link-in-bio callouts in the caption tail (observed 2026-10-29 on clip 7686867010508164366, posted 2026-09-18) - treat her product picks and seasonal recommendations as own-product promotion
   posted: '2026-11-11'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: vague parenting-reassurance clip, not single-topic; creator promotes her own Dermy Doc Box
 - id: '7706532645689117966'
   title: I do not say this enough, but thank you. When I started posting back ...
   creator: Fatima Fahs
@@ -16999,7 +17002,8 @@
   conflict: Co-developed/formulated the Tbh Skincare 'Rebound' Serum and Toner (product-formulation partnership) — her endorsement of that spe; no YouTube; TikTok/IG intake
   posted: '2026-11-11'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'makeup: purple blush swatching, out of scope'
 - id: 9lyLKZQn6jg
   title: Botanical Extracts in Beauty. A 101 w/ Prof Monique Simmonds PhD
   creator: Jen Novakovich (The Eco Well)
@@ -17064,7 +17068,8 @@
   conflict: Self-describes as a "Key Opinion Leader for industry beauty companies" (per her own practice bio) and most sampled TikTok videos e; no YouTube; TikTok/IG intake
   posted: '2026-11-11'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 22s, below the 25s floor for a thesis; caption clean but clip is a teaser for a comment-gated guide
 - id: 5gXGhAfF4dM
   title: Doctor Compares $250 vs $20 Skincare
   creator: Dr. Vanita Rattan (Doctor V)
