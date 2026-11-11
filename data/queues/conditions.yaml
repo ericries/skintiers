@@ -1137,7 +1137,34 @@
     own page: sebum and sebaceous-glands (both from isotretinoin-sebum-suppression),
     striae-distensae, scarring. Probably ingredient pages: lidocaine, prilocaine,
     miconazole, oxymetazoline, aloe, oat. Do NOT bulk-repoint without checking each,
-    since whether eczema means atopic dermatitis on a given page is a content question.'
+    since whether eczema means atopic dermatitis on a given page is a content question.
+    PROGRESS 2026-11-10: three of the sixteen resolved, leaving 13. Resolved by repointing
+    to pages that already cover them, with the original wording kept as the link label
+    so no prose changed: eczema (3 links) to atopic-dermatitis, photoaging (3 links)
+    to sun-damage-photoaging, and sodium-hyaluronate to hyaluronic-acid. Only photoaging
+    was unambiguous by the site''s own aliases; the other two were decided by reading
+    each context, and all three eczema links sat on pages about atopic disease (a
+    Lipikar AP body wash, topical steroid withdrawal reports, and a persistent-rash
+    contrast). THE REMAINING 13 ARE NOT REDIRECTS. photodamage, scarring, sebum, sebaceous-glands
+    and striae-distensae probably want their own pages; moisturizer may want moisturizing;
+    selenium-disulfide needs checking against the selenium sulfide page to see whether
+    they are the same entity; and lidocaine, prilocaine, miconazole, oxymetazoline,
+    aloe and oat are ingredient pages the site lacks. Test allowlist trimmed to match,
+    so the ratchet now holds at 13. REVISED PROGRESS 2026-11-10: SEVEN of the sixteen
+    resolved, leaving 9, and the test allowlist is trimmed to match so the ratchet
+    holds there. Repointed to pages that already cover the term, original wording
+    kept as the link label so no prose changed: eczema to atopic-dermatitis (3 links),
+    photoaging to sun-damage-photoaging (3), sodium-hyaluronate to hyaluronic-acid,
+    aloe to aloe-vera, oat to colloidal-oatmeal, oxymetazoline to oxymetazoline-topical,
+    and selenium-disulfide to selenium-sulfide. The last was checked rather than assumed:
+    the selenium-sulfide page discusses selenium disulfide in its own text, so the
+    site already treats them as one ingredient. CORRECTION TO MY EARLIER NOTE ON THIS
+    ROW, which claimed aloe, oat and oxymetazoline needed new ingredient pages: all
+    three already existed under fuller names, and sk find showed them at 80 rather
+    than as exact matches, which is why the first pass missed them. THE REMAINING
+    9 genuinely need decisions: lidocaine, prilocaine and miconazole are absent ingredient
+    pages; photodamage, scarring, sebum, sebaceous-glands and striae-distensae probably
+    want their own pages; and moisturizer may want moisturizing.'
 - name: Skin tags (acrochordon)
   type: condition
   priority: 4

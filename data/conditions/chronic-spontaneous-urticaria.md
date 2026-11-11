@@ -19,7 +19,7 @@ Hives that keep coming back for more than six weeks with no identifiable trigger
 
 The international guideline defines urticaria as "a condition characterized by the development of wheals (hives), angioedema or both", and a wheal by three features together: "a sharply circumscribed superficial central swelling of variable size and shape, almost invariably surrounded by reflex erythema", "an itching or sometimes burning sensation", and "a fleeting nature, with the skin returning to its normal appearance, usually within 30 min to 24 h".[^guideline]
 
-**That last feature is the useful one.** An individual hive comes and goes within a day. A red itchy patch that stays put for days is something else, and the distinction matters because most of what the site covers, from [[eczema]] to [[psoriasis]], does stay put.
+**That last feature is the useful one.** An individual hive comes and goes within a day. A red itchy patch that stays put for days is something else, and the distinction matters because most of what the site covers, from [[atopic-dermatitis|eczema]] to [[psoriasis]], does stay put.
 
 Angioedema is the deeper version: "a sudden, pronounced erythematous or skin colored deep swelling in the lower dermis and subcutis or mucous membranes", with "tingling, burning, tightness, and sometimes pain rather than itch" and "a resolution slower than that of wheals (can take up to 72 h)".[^guideline]
 
@@ -41,7 +41,7 @@ This is a diagnosis to get from a clinician, not from a page. The guideline desc
 
 - [[dupixent-dupilumab-injection]] and [[dupilumab]], the newer of the two approved biologics
 - [[bullous-pemphigoid]], another non-topical skin disease on the same drug's label
-- [[eczema]] for the itchy rash that does not come and go within a day
+- [[atopic-dermatitis|eczema]] for the itchy rash that does not come and go within a day
 
 ## Sources
 

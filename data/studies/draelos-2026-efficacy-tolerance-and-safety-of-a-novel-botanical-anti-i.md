@@ -9,7 +9,7 @@ type: study
 updated: '2026-08-09'
 ---
 
-A double-blinded randomized controlled trial in 60 adults with mild-to-severe [[rosacea]] found a topical anti-inflammatory moisturizer containing [[oat]] and [[aloe]] produced significantly greater reduction in erythema and lesion counts than 0.75% [[metronidazole]] cream over 12 weeks.[^1]
+A double-blinded randomized controlled trial in 60 adults with mild-to-severe [[rosacea]] found a topical anti-inflammatory moisturizer containing [[colloidal-oatmeal|oat]] and [[aloe-vera|aloe]] produced significantly greater reduction in erythema and lesion counts than 0.75% [[metronidazole]] cream over 12 weeks.[^1]
 
 **Design:** Double-blinded, randomized, controlled trial comparing a topical anti-inflammatory moisturizer to a topical prescription comparator, with efficacy and tolerability assessed at baseline and Weeks 4, 8, and 12.[^1]
 

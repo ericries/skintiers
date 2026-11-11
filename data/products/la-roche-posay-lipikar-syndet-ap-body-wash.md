@@ -77,7 +77,7 @@ Full declared ingredient list from the brand: water, glycerin, sodium laureth su
 
 ## See Also
 
-[[niacinamide]], [[vitreoscilla-filiformis-lysate]], [[la-roche-posay-lipikar-balm-ap-m]], [[la-roche-posay]], [[eczema]].
+[[niacinamide]], [[vitreoscilla-filiformis-lysate]], [[la-roche-posay-lipikar-balm-ap-m]], [[la-roche-posay]], [[atopic-dermatitis|eczema]].
 
 ## Where to Buy
 

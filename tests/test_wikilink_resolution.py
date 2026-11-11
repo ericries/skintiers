@@ -25,11 +25,14 @@ TARGET_RE = re.compile(r"\[\[([^\]\|]+)(?:\|[^\]]*)?\]\]")
 
 # Targets that name no page and whose correct resolution is an editorial decision.
 # Shrinks only as pages are written or links are deliberately repointed.
+# Trimmed 2026-11-10: eczema, photoaging, sodium-hyaluronate, aloe, oat,
+# oxymetazoline and selenium-disulfide were repointed to
+# pages that already cover them (atopic-dermatitis, sun-damage-photoaging,
+# hyaluronic-acid), with the original wording kept as the link label. The rest still
+# name no page and each needs a content decision rather than a redirect.
 GRANDFATHERED = {
-    "aloe", "eczema", "lidocaine", "miconazole", "moisturizer", "oat",
-    "oxymetazoline", "photoaging", "photodamage", "prilocaine", "scarring",
-    "sebaceous-glands", "sebum", "selenium-disulfide", "sodium-hyaluronate",
-    "striae-distensae",
+    "lidocaine", "miconazole", "moisturizer", "photodamage", "prilocaine",
+    "scarring", "sebaceous-glands", "sebum", "striae-distensae",
 }
 
 

@@ -39,7 +39,7 @@ What the pooled case material describes is a recognisable picture. Across the se
 - [[topical-corticosteroids]] for what these drugs do in ordinary use, including their known adverse effects
 - [[clobetasol-propionate]] and [[hydrocortisone-otc-topical-corticosteroid]] for a high-potency and an over-the-counter example
 - [[dupilumab]], the one named drug in the consensus
-- [[eczema]], the condition nearly everyone in these reports was treating
+- [[atopic-dermatitis|eczema]], the condition nearly everyone in these reports was treating
 
 ## Sources
 

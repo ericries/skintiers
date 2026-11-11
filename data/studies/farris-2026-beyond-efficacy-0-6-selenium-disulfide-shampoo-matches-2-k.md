@@ -15,7 +15,7 @@ A randomized, double-blind trial in moderate-to-severe scalp seborrheic dermatit
 
 **Population / n:** 87 male and female subjects with moderate to severe dandruff.[^1]
 
-**Intervention / comparator:** 0.6% micronized [[selenium-disulfide]] shampoo (SeS2) vs. 2% [[ketoconazole]] shampoo, used for 6 weeks.[^1]
+**Intervention / comparator:** 0.6% micronized [[selenium-sulfide|selenium disulfide]] shampoo (SeS2) vs. 2% [[ketoconazole]] shampoo, used for 6 weeks.[^1]
 
 **Primary result (verbatim figures):** "After 6 weeks of use, Total Scale Score (TSS) decreased by 69.5% in the ketoconazole group, and 77.9% in the SeS2 group, and Symptomatic Scale of Seborrheic Dermatitis (SSSD) decreased by 68.0% in the ketoconazole group and 74.5% in the SeS2 group (all P<0.001). Pruritus severity score decreased by 76.2% and 75.9% in the ketoconazole and SeS2 groups, respectively, and global efficacy and satisfaction, as assessed by blinded dermatologic evaluation, showed significant improvement with both products (all P<0.001). There was no significant difference between the two groups for these outcomes at any time point. Tolerability was excellent for both products. In terms of cosmesis, subjects across diverse curl types favored the SeS2 shampoo with significantly more agreeing that the SeS2 shampoo leaves hair soft, supple, glossy, natural appearing, and was suitable for their hair type when compared to ketoconazole (P<0.001)."[^1]
 
