@@ -14990,7 +14990,8 @@
   conflict: 'Runs #ad sponsored posts (e.g. TruSkin) and Target skincare hauls/reviews; prefer her educational ingredient-category and barrier-repair explainers, and treat product recommendations as effectively promotional (skip).'
   posted: '2026-10-30'
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: eye-cream pick from a creator whose roster note treats product recommendations as effectively promotional
 - id: '7702845382572756238'
   title: skin barrier repair + fungal acne friendly @numbuzin Zero Micellar Je...
   creator: Kristin Leite (kristingl)
@@ -15017,7 +15018,8 @@
   conflict: runs an Amazon affiliate storefront and does sponsored posts - strongly prefer educational / how-to / ingredient-explainer videos; be very cautious with any product recommendation
   posted: '2026-10-30'
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: product-repurchase pick from Kristin Leite, whose picks the cron treats as effectively paid via her affiliate storefront
 - id: '7702549321157266719'
   title: Come with me for a DITL in NYC✨💆🏻‍♀️🍡  and such a special night honor...
   creator: Dr. Mamina Turegano
@@ -15308,7 +15310,8 @@
   conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan and reject any sponsored/affiliate/gifted video
   posted: '2026-11-01'
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: 6 seconds, far below the 25s floor for a thesis; caption clean but names three products in a sentence
 - id: X1992rxGFOQ
   title: How I Use Cicaplast Balm B5+ With Tretinoin | Dermatologist’s Routine
   creator: Dr. Aleksandra Brown, DO, FAAD
@@ -16996,7 +16999,8 @@
   conflict: Promotes her own curated product box, Dermy Doc Box (@dermy.doc.box), with link-in-bio callouts in the caption tail (observed 2026-10-29 on clip 7686867010508164366, posted 2026-09-18) - treat her product picks and seasonal recommendations as own-product promotion
   posted: '2026-11-10'
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: personal milestone and thank-you post, no skincare subject
 - id: '7706770183234276660'
   title: purple blush party! swatching some purple and lavender blush on pale ...
   creator: Hannah English (@ms_hannah_e / Hannah Collingwood English)
@@ -17050,7 +17054,8 @@
   conflict: runs an Amazon affiliate storefront and does sponsored posts - strongly prefer educational / how-to / ingredient-explainer videos; be very cautious with any product recommendation
   posted: '2026-11-10'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: industry commentary on K-beauty branding, no single site topic; creator runs an Amazon affiliate storefront
 - id: '7706587500118019342'
   title: As a derm, I’m picky about products, but this one lives up to the hyp...
   creator: Dr. Mamina Turegano
@@ -17063,7 +17068,8 @@
   conflict: null
   posted: '2026-11-10'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: single-product rec from a MED-tier creator whose roster product_recs is restricted
 - id: '7706713207448063262'
   title: 🖇️ Comment PEPTIDES for the full guide on peptides! You've probably s...
   creator: Dr. Sheila Farhang (dr.sheila_derm)

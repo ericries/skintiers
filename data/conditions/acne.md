@@ -828,6 +828,17 @@ videos:
     no products, and the warning not to overdo it is hers.
   title: Dermatologists who say they never pop pimples are lying
   url: https://www.tiktok.com/@draegeanchan/video/7696654170119572749
+- title: You don't need ALL the things, you need simplicity and time
+  creator: Ella
+  creator_slug: your-estie-ella
+  credential: Licensed esthetician (NOT a dermatologist or cosmetic chemist)
+  platform: TikTok
+  url: https://www.tiktok.com/@your.estie.ella/video/7706561166939655438
+  posted: '2026-11-10'
+  related: [azelaic-acid, adapalene, retinoids, salicylic-acid, glycolic-acid, lactic-acid, mandelic-acid, hyperpigmentation, sunscreen-uv-filters, skin-barrier-repair]
+  thesis: Licensed esthetician Ella argues that most people treating acne add too many actives too early, and that the fix is to regulate the skin first and fine tune later. Her starting routine is azelaic acid plus a retinoid such as adapalene, alongside a gentle cleanser, a moisturiser and daily broad spectrum sunscreen, held unchanged for three to six months through the adjustment phase. Only after that does she add a single exfoliant chosen by concern rather than skin type, naming glycolic acid for pigmentation, lactic acid for texture, mandelic acid for persistent acne with redness and salicylic acid for oil and the appearance of pores. Her framing is that retinoids and azelaic acid are skin regulators rather than exfoliants, that barrier support matters more than exfoliation, and that acne is manageable rather than curable.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Acne is the most common skin condition dermatologists treat: dead skin cells and oil clog a pore, bacteria (*Cutibacterium acnes*) multiply inside it, and the follicle becomes inflamed. Graded skeptically against controlled evidence for **topical skincare** (creams and gels applied to the skin, as opposed to pills), the best-studied over-the-counter and prescription topicals produce **modest** lesion reductions, the gap between the "best" and "second-best" topical is often smaller than the marketing implies, and the single largest evidence base for these treatments is rated moderate to very low certainty.[^1][^2]
