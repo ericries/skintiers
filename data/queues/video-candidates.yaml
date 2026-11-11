@@ -15404,7 +15404,8 @@
   conflict: 'Owns and sells a skincare line (Instagram handle @skincarebydrv in her own video descriptions) and routes to it repeatedly inside educational content: in one 9-point acne video she directs viewers to ''our trio blemish range'', ''our AM and PM moisturizers'', her Citrio Blemish Exfoliator and a mineral SPF she calls ''the world''s first mineral SPF 50 formulated for skin of color with no white cast''. Treat ALL product mentions as own-brand promotion. Separately, that video states unsourced figures as fact, including ''99% of sunscreens are chemical sunscreens'' and a claim that bamboo or silk pillowcases reduce fungal growth versus cotton, so relay no statistic from this channel without checking it independently.'
   posted: ''
   feed_rank: 2
-  status: pending
+  status: skipped
+  skip_reason: educational acne content, but the description routes to free e-book lead magnets that feed the mailing list for the skincare line she owns
 - id: lSsTvDb9BaA
   title: 'High-Protein Diwali Treats '
   creator: Dr. Vanita Rattan (Doctor V)
@@ -15417,7 +15418,8 @@
   conflict: 'Owns and sells a skincare line (Instagram handle @skincarebydrv in her own video descriptions) and routes to it repeatedly inside educational content: in one 9-point acne video she directs viewers to ''our trio blemish range'', ''our AM and PM moisturizers'', her Citrio Blemish Exfoliator and a mineral SPF she calls ''the world''s first mineral SPF 50 formulated for skin of color with no white cast''. Treat ALL product mentions as own-brand promotion. Separately, that video states unsourced figures as fact, including ''99% of sunscreens are chemical sunscreens'' and a claim that bamboo or silk pillowcases reduce fungal growth versus cotton, so relay no statistic from this channel without checking it independently.'
   posted: ''
   feed_rank: 3
-  status: pending
+  status: skipped
+  skip_reason: 'off-topic: Diwali recipe clip'
 - id: _YUFUNDRwwg
   title: STOP Buying These Dark Spot Serums
   creator: Dr. Vanita Rattan (Doctor V)
@@ -15430,7 +15432,8 @@
   conflict: 'Owns and sells a skincare line (Instagram handle @skincarebydrv in her own video descriptions) and routes to it repeatedly inside educational content: in one 9-point acne video she directs viewers to ''our trio blemish range'', ''our AM and PM moisturizers'', her Citrio Blemish Exfoliator and a mineral SPF she calls ''the world''s first mineral SPF 50 formulated for skin of color with no white cast''. Treat ALL product mentions as own-brand promotion. Separately, that video states unsourced figures as fact, including ''99% of sunscreens are chemical sunscreens'' and a claim that bamboo or silk pillowcases reduce fungal growth versus cotton, so relay no statistic from this channel without checking it independently.'
   posted: ''
   feed_rank: 4
-  status: pending
+  status: skipped
+  skip_reason: product commentary on dark spot serums from a creator who sells her own line
 - id: D9AnnomGD2E
   title: Best & Worst Korean Face Washes For Black Skin
   creator: Dr. Vanita Rattan (Doctor V)
@@ -16935,7 +16938,8 @@
   conflict: Discloses on her own videos that links are commissionable, and runs two affiliate storefronts, an Amazon store and a LikeToKnowIt page, both linked in her video descriptions. Verified 2026-11-09 from the description of her milky-toner roundup, which states "This video is not sponsored. Links are commissionable, meaning I may earn commission from purchases made through links." So her reviews and best-of videos are picks monetized through a storefront and are treated as effectively paid, and must be skipped even though her HIGH tier would otherwise make them eligible. Her non-product educational videos stay eligible. She is transparent about the arrangement; the issue is the monetization rather than any concealment.
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: general commentary on health misinformation, no single site topic to attach it to
 - id: 6-UyJNJftFU
   title: Best Dollar Tree Skincare 2026! Dermatologist Reviews What’s Worth It
   creator: Andrea Suarez (Dr Dray)
@@ -16948,7 +16952,8 @@
   conflict: Discloses on her own videos that links are commissionable, and runs two affiliate storefronts, an Amazon store and a LikeToKnowIt page, both linked in her video descriptions. Verified 2026-11-09 from the description of her milky-toner roundup, which states "This video is not sponsored. Links are commissionable, meaning I may earn commission from purchases made through links." So her reviews and best-of videos are picks monetized through a storefront and are treated as effectively paid, and must be skipped even though her HIGH tier would otherwise make them eligible. Her non-product educational videos stay eligible. She is transparent about the arrangement; the issue is the monetization rather than any concealment.
   posted: ''
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: Dollar Tree picks roundup; her picks are restricted
 - id: '7706623209415773453'
   title: 'Throwing off the schedule 😂😂 #dermatologist #doctor #medicalhumor '
   creator: Dr. Chris Tomassian
@@ -17016,7 +17021,8 @@
   conflict: Runs a paid cosmetics-industry consulting/science-communication practice (BeautySciComm, e-summits, mentorship cohorts) and is Patreon-suppo
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: strong 101 on botanical extracts but the site has no botanicals hub, only specific plant ingredient pages; no single-topic match
 - id: '7706665311633771790'
   title: 'Top 5 ways to get rid of hyperpigmentation #hyperpigmentation #darksp...'
   creator: Jenn Lexi (@jennlexi_)
@@ -17082,7 +17088,8 @@
   conflict: 'Owns and sells a skincare line (Instagram handle @skincarebydrv in her own video descriptions) and routes to it repeatedly inside educational content: in one 9-point acne video she directs viewers to ''our trio blemish range'', ''our AM and PM moisturizers'', her Citrio Blemish Exfoliator and a mineral SPF she calls ''the world''s first mineral SPF 50 formulated for skin of color with no white cast''. Treat ALL product mentions as own-brand promotion. Separately, that video states unsourced figures as fact, including ''99% of sunscreens are chemical sunscreens'' and a claim that bamboo or silk pillowcases reduce fungal growth versus cotton, so relay no statistic from this channel without checking it independently.'
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: price-comparison picks video from a creator who owns and sells a skincare line
 - id: k3UnVxXLioQ
   title: Mineral SPF50✨
   creator: Dr. Vanita Rattan (Doctor V)
@@ -17134,7 +17141,8 @@
   conflict: sell a small own-brand product line - skip own-brand promos
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'description carries the hashtag #sponsored; mandatory scan rejects regardless of topic'
 - id: '7706561166939655438'
   title: 'You don’t need ALL the things, you need simplicity and time.  #creato...'
   creator: Ella (@your.estie.ella)
