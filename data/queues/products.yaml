@@ -6437,3 +6437,17 @@
     two pages, and if it is still a 403, either re-fetch the live article or remove
     the figures. Do not leave a pH or a percentage on a product page resting on a
     cached error page.'
+- name: CoTZ Face Prime and Protect SPF 40 (tinted and non-tinted)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: cotz
+  source: 'From the openFDA enumeration run for [[cotz]] on 2026-11-12: the brand
+    has 13 products registered and this site covers exactly one, [[cotz-sensitive-spf-40]].
+    The highest-value second is ''CoTZ Face Prime and Protect SPF 40'', which exists
+    as BOTH a tinted and a non-tinted record, because a tint in a mineral sunscreen
+    usually means iron oxides and this site already covers why that matters for pigmentation
+    (see [[iron-oxides]]). Pull both records'' active ingredients from openFDA and
+    check whether the tinted version differs in actives or only in colourants. EXPECT
+    NO PRICE: cotz.com returned HTTP 436 on 2026-11-12, so ship without one and say
+    so rather than hunting a retailer.'

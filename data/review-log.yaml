@@ -1994,6 +1994,23 @@ costa-2018-cochrane-oral-isotretinoin:
     '
   score: 9
   verdict: revise-then-fixed
+cotz:
+  assurance: sonnet
+  notes: 'Lean brand roll-up, 162 words of body, no critic per the brand lane. THE QUEUE ROW''S CLAIM WAS
+    RE-VERIFIED RATHER THAN TRUSTED: queried openFDA drug/ndc by brand_name COTZ today and enumerated the
+    active_ingredients field of all 14 records. The only actives in the entire range are zinc oxide at 38,
+    55, 100, 160 and 200 mg/g and titanium dioxide at 30, 40 and 80 mg/g; no organic UV filter appears
+    anywhere. That absence is stated as an absence with the method that establishes it, and with the caveat
+    that openFDA searches indexed fields so a differently-spelled brand name could be missed. The comparison
+    that makes the finding meaningful, the 2026 analysis showing nearly half of mineral-labelled sunscreens
+    contain organic filters, is LINKED OUT to [[zinc-oxide]] rather than re-cited, since that page owns it.
+    NO FOUNDER NAMED: cotz.com returned HTTP 436 so no brand page could be read, and the page says so
+    instead of leaving a silent gap. Noted for accuracy: the 14 records cover 13 products because Face
+    Moisture appears twice under different capitalisations, which the footnote spells out rather than
+    rounding to 13 or 14. Main loop, no subagent, hence sonnet.'
+  reviewed: '2026-11-12'
+  reviewer: main-loop self-verification
+  verdict: publish
 creidi-1998-retinaldehyde-retinoic-acid-profilometry:
   last_reviewed: '2026-08-05'
   note: 'Study page fleshed from stub (Sonnet draft + Opus critic). Creidi et al. 1998 (JAAD, PMID 9843009), the
