@@ -13457,7 +13457,8 @@
   conflict: runs an Amazon affiliate storefront and does sponsored posts - strongly prefer educational / how-to / ingredient-explainer videos; be very cautious with any product recommendation
   posted: '2026-10-19'
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: vague personal clip from a creator whose picks are treated as effectively paid
 - id: IKAY1V_VRts
   title: 'dollar tree skincare I will repurchase until I’m 90 👵🏾 #skincarehaul  stitch with shaytheshow_'
   creator: Dr. Neera Nathan
@@ -14392,7 +14393,8 @@
   conflict: Co-developed/formulated the Tbh Skincare 'Rebound' Serum and Toner (product-formulation partnership) — her endorsement of that spe; no YouTube; TikTok/IG intake
   posted: '2026-10-27'
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: unboxing haul tagging @OLIVE YOUNG Global
 - id: NWPGZi_Izv8
   title: AD I Finally Figured Out Why My Skin Was So Red & Irritated
   creator: James Welsh
@@ -14713,7 +14715,8 @@
   conflict: Co-developed/formulated the Tbh Skincare 'Rebound' Serum and Toner (product-formulation partnership) — her endorsement of that spe; no YouTube; TikTok/IG intake
   posted: '2026-10-29'
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: hair blowout routine, out of scope
 - id: '7702194519042739470'
   title: Not every mole or skin growth needs the same removal method! At Etern...
   creator: Dr. Ife Rodney (@driferodney)
@@ -15131,7 +15134,8 @@
   conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan and reject any sponsored/affiliate/gifted video
   posted: '2026-10-30'
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: makeup play clip, out of scope
 - id: '7702444526253690125'
   title: 'Yes, sales are fun! No, you don’t need 17 new products 🫠 #sephorasale...'
   creator: Ella (@your.estie.ella)
@@ -17208,7 +17212,8 @@
   conflict: Bio includes a business/booking contact email suggesting managed brand partnerships; no confirmed own-brand line or affiliate stor
   posted: '2026-11-11'
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: promotes a procedure the creator performs in his own practice; procedures are a later-phase scope here
 - id: '7707030439785254165'
   title: 'marc jacobs blush stick in Last Word: trying purple blush on pale coo...'
   creator: Hannah English (@ms_hannah_e / Hannah Collingwood English)
