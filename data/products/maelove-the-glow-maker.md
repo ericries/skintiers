@@ -42,7 +42,7 @@ price:
 - amount: 32.95
   currency: USD
   size: "30 ml"
-  as_of: '2026-07-30'
+  as_of: '2026-11-12'
   source: "^1"
 slug: maelove-the-glow-maker
 status: published
@@ -105,7 +105,7 @@ Label and marketing language not established by the graded evidence above:
 
 ## Sources
 
-[^1]: Maelove. Glow Maker, Vitamin C Serum with Ferulic & Hyaluronic Acid, product page (price $32.95; full ingredient declaration; "ANTIOXIDANT TRIO (15% Vitamin C + Vitamin E + Ferulic Acid)"; "the same clinical formula luxury brands charge $185 for" and "the industry 'gold standard'" quotes; usage directions). https://maelove.com/products/glow-maker-vitamin-c-serum (accessed 2026-07-30)
-[^2]: Melissa Jane Lee. 9 best SkinCeuticals C E Ferulic dupes (Maelove section: 15% l-ascorbic acid, vitamin E and ferulic acid in undisclosed amounts, pH 3.2, price $32.95 for 30 ml / 1 fl oz; "one of the best-selling options when it comes to C E Ferulic dupes"; "Maelove is a contender for the top spot for sure"). https://melissajanelee.com/skinceuticals-c-e-ferulic-dupes/ (accessed 2026-07-30)
+[^1]: Maelove. Glow Maker, Vitamin C Serum with Ferulic & Hyaluronic Acid, product page (price $32.95; full ingredient declaration; "ANTIOXIDANT TRIO (15% Vitamin C + Vitamin E + Ferulic Acid)"; "the same clinical formula luxury brands charge $185 for" and "the industry 'gold standard'" quotes; usage directions). https://maelove.com/products/glow-maker-vitamin-c-serum (accessed 2026-07-30) RE-VERIFIED 2026-11-12 against the brand's own storefront feed, which is cached locally: maelove.com/products.json lists "Glow Maker Vitamin C Serum" at 32.95 and describes it as "an expertly stabilized antioxidant blend of 15% l-ascorbic acid (the most effective form of vitamin C), vitamin E, and ferulic acid", with no percentage given for the vitamin E or the ferulic acid. The price and concentration above are unchanged from the original reading.
+[^2]: Melissa Jane Lee. 9 best SkinCeuticals C E Ferulic dupes (Maelove section: 15% l-ascorbic acid, vitamin E and ferulic acid in undisclosed amounts, pH 3.2, price $32.95 for 30 ml / 1 fl oz; "one of the best-selling options when it comes to C E Ferulic dupes"; "Maelove is a contender for the top spot for sure"). https://melissajanelee.com/skinceuticals-c-e-ferulic-dupes/ (accessed 2026-07-30) CANNOT BE RE-VERIFIED. Checked 2026-11-12: the local cache entry for this URL holds a 403 Forbidden page with no article text, and this session could not retrieve the live page. Every figure attributed to it above is therefore reported on its original 2026 reading and cannot be confirmed today. The page states those figures as independently reported rather than as manufacturer-declared, which is how they should continue to be read; the manufacturer-declared figures carry their own footnote.
 [^3]: Chemist Confessions. 5 SkinCeuticals Vitamin C Dupes Put to the Test (formulator-run blog; three-week accelerated heat-stability test including Maelove The Glow Maker; "we would pass all three of these ascorbic acid serums"; "Maelove are pretty much clear"). https://chemistconfessions.com/blogs/5-skinceuticals-vitamin-c-dupes-put-to-the-test (accessed 2026-07-30)
 [^4]: HuffPost. The Best Vitamin C Serums Experts Recommend, by Lourdes Avila Uribe (names Glow Maker "considered by many skin care enthusiasts to be an affordable alternative to SkinCeuticals' cult-fave serum"; lists it at $33 at Maelove and $39 at Amazon). https://www.huffpost.com/entry/best-vitamin-c-serums-dermatologists-ud_l_68d6c3a0e4b085d511c65140 (accessed 2026-07-30)

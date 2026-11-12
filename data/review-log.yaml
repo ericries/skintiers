@@ -4557,6 +4557,7 @@ maelove-the-glow-maker:
   last_reviewed: '2026-07-30'
   note: 'Product stub filled (daily product cron; Sonnet draft + Opus critic). Canonical SkinCeuticals C E Ferulic dupe. Opus re-fetched all sources and caught 3 issues, all fixed: (1) a misattributed quote ("much less expensive than the coveted C E Ferulic serum" was from the reviewer''s Drunk Elephant section, not Maelove) removed; (2) a "tocopherol listed last -> low concentration" inference contradicted by a Maelove reformulation removed, and the ingredient list reconciled to the current declared INCI (sodium hydroxide, gluconolactone/calcium gluconate/sodium benzoate); (3) the Amazon $39.90 figure (SKU bot-blocked) re-cited to the fetchable HuffPost corroborator as ~$39. Verified clean: $32.95 price (3 sources), 15% L-ascorbic acid (2 sources), E/ferulic undisclosed (not invented), all marketing + HuffPost + Chemist Confessions quotes verbatim. Category-vs-product discipline correct (general vitamin C evidence linked out; only product-specific evidence is a caveated formulator stability
     test). lint+verify+style clean.'
+  reverified: '2026-11-12 RE-VERIFICATION: the melissajanelee.com cache entry is a 403 page with no article text, and a live re-fetch was DENIED as bot-check circumvention and not routed around. The brand feed was used instead, is now cached, and confirms the price and headline L-ascorbic acid figure unchanged, so as_of moved to today. The unverifiable figures were NOT deleted: both pages already attribute them as independently reported rather than manufacturer-declared, and the [^2] footnote now says plainly that it cannot be re-verified.'
   score: 9
   verdict: publish
 magnesium-ascorbyl-phosphate:
@@ -7986,6 +7987,7 @@ timeless-20-vitamin-c-e-ferulic-serum:
     lint+verify+style clean.
 
     '
+  reverified: '2026-11-12 RE-VERIFICATION: the melissajanelee.com cache entry is a 403 page with no article text, and a live re-fetch was DENIED as bot-check circumvention and not routed around. The brand feed was used instead, is now cached, and confirms the price and headline L-ascorbic acid figure unchanged, so as_of moved to today. The unverifiable figures were NOT deleted: both pages already attribute them as independently reported rather than manufacturer-declared, and the [^2] footnote now says plainly that it cannot be re-verified.'
   score: 8
   verdict: revise-then-fixed
 timeless-skin-care:
