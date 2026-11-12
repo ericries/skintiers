@@ -49,7 +49,7 @@ They do not show that this makes isotretinoin an oil-control option to reach for
 
 ## See Also
 
-[[retinoids]], [[isotretinoin]], [[sebum]], [[acne]], [[sebaceous-glands]]
+[[retinoids]], [[isotretinoin]], [[oily-skin]], [[acne]]
 
 ## Sources
 

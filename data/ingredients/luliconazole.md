@@ -22,7 +22,7 @@ Luliconazole is a prescription topical azole antifungal, sold as Luzu Cream 1% u
 
 ## How It Works
 
-An azole, the same broad class as [[clotrimazole]], [[ketoconazole]] and [[miconazole]], all of which interfere with fungal ergosterol synthesis. The class mechanism is argued on those pages and is not repeated here. What distinguishes luliconazole in practice is potency against dermatophytes at low concentration, which is what makes a one-week course plausible where older azoles are labelled for two to four.
+An azole, the same broad class as [[clotrimazole]], [[ketoconazole]] and miconazole, all of which interfere with fungal ergosterol synthesis. The class mechanism is argued on those pages and is not repeated here. What distinguishes luliconazole in practice is potency against dermatophytes at low concentration, which is what makes a one-week course plausible where older azoles are labelled for two to four.
 
 ## The Evidence
 

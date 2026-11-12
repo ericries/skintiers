@@ -8,7 +8,7 @@ type: study
 updated: '2026-08-09'
 ---
 
-A PRISMA-guided systematic literature review found several energy-device and combination therapies to be efficacious for [[striae-distensae]], with fractional microneedling + PRP, fractional CO2 laser + PRP, and 1565 nm non-ablative fractional laser (NAFL) singled out as notable advances.[^1]
+A PRISMA-guided systematic literature review found several energy-device and combination therapies to be efficacious for [[stretch-marks|striae distensae]], with fractional microneedling + PRP, fractional CO2 laser + PRP, and 1565 nm non-ablative fractional laser (NAFL) singled out as notable advances.[^1]
 
 **Design:** Systematic literature review (not a primary trial) searching PubMed, Web of Science, and Scopus, following PRISMA guidelines, "prioritiz[ing] randomized controlled trials, meta-analyses, and substantial clinical studies published between 2010 and 2025."[^1]
 

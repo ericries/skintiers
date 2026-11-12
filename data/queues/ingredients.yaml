@@ -4152,3 +4152,19 @@
     off; the test allows unrated. ACTION: take them one or two at a time, read each
     page''s OWN rubric and set tier: from it, or record in the page why a single grade
     does not apply. Do NOT bulk-assign.'
+- name: Miconazole (nitrate), topical OTC antifungal
+  type: ingredient
+  priority: 4
+  status: pending
+  discovered_from: luliconazole
+  source: 'FOUND 2026-11-11 while clearing the last dangling wikilink: [[luliconazole]]
+    names its azole class as clotrimazole, ketoconazole and miconazole, and the site
+    has pages for the first two but NOT miconazole, so that link pointed at nothing
+    and has been de-linked to plain text pending a page. Miconazole nitrate is one
+    of the most widely sold OTC topical antifungals and sits squarely in the scope
+    of [[otc-antifungals-by-evidence]] and [[otc-antifungal-creams-by-labelled-scope]],
+    both of which already exist. Build it from DailyMed and the OTC monograph the
+    way the butenafine and terbinafine pages were built, and CHECK the monograph status
+    carefully: the Lotrimin work earlier this month showed that labelled scope and
+    approval route differ between these products more than the shelf suggests. Restore
+    the wikilink on luliconazole when the page lands.'

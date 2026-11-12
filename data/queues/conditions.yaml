@@ -1122,7 +1122,7 @@
     and others)'
   type: condition
   priority: 3
-  status: pending
+  status: done
   discovered_from: polyglyceryl-10-diisostearate
   source: 'https://github.com/ericries/skintiers Found 2026-11-09. An unresolved wikilink
     renders as PLAIN TEXT, so the sentence promises a cross-reference and delivers

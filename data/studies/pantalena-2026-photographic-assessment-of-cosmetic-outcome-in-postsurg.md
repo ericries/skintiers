@@ -9,7 +9,7 @@ type: study
 updated: '2026-08-09'
 ---
 
-A split-scar randomized trial in Mohs micrographic surgery patients found that rapidly absorbable polyglactin 910 suture produced better blinded dermatologist scar-cosmesis scores at 6 months than fast absorbing gut suture, relevant to [[scarring]] outcomes after facial surgery.[^1]
+A split-scar randomized trial in Mohs micrographic surgery patients found that rapidly absorbable polyglactin 910 suture produced better blinded dermatologist scar-cosmesis scores at 6 months than fast absorbing gut suture, relevant to [[surgical-and-wound-scars|scarring]] outcomes after facial surgery.[^1]
 
 **Design:** Randomized, blinded, split-scar clinical trial comparing two absorbable suture materials for epidermal closure.[^1]
 

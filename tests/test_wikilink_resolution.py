@@ -30,10 +30,11 @@ TARGET_RE = re.compile(r"\[\[([^\]\|]+)(?:\|[^\]]*)?\]\]")
 # pages that already cover them (atopic-dermatitis, sun-damage-photoaging,
 # hyaluronic-acid), with the original wording kept as the link label. The rest still
 # name no page and each needs a content decision rather than a redirect.
-GRANDFATHERED = {
-    "lidocaine", "miconazole", "moisturizer", "photodamage", "prilocaine",
-    "scarring", "sebaceous-glands", "sebum", "striae-distensae",
-}
+# Emptied 2026-11-11: all nine remaining dangling targets were resolved, six by
+# pointing at the page that already owned the topic and three by de-linking where
+# no page should exist. A target belongs here only while it is a known, accepted
+# gap; the ratchet is that this set never grows.
+GRANDFATHERED = set()
 
 
 def _slugs():

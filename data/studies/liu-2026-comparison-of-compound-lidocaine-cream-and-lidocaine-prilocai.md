@@ -21,7 +21,7 @@ A single-center randomized controlled trial in facial rejuvenation patients foun
 
 **Effect size / interpretation:** A roughly 1.2-point lower mean pain score (on the scale used in the trial) for compound lidocaine cream, a statistically significant difference (p < 0.001); the adverse-reaction rate was numerically lower with compound lidocaine cream but the between-group difference did not reach significance (p = 0.169), so no safety advantage is established.[^1]
 
-**Applicability + key limitation:** Generalizes to adults undergoing facial rejuvenation procedures needing topical anesthesia, relevant to [[lidocaine]] and [[prilocaine]] as procedural numbing-cream ingredients. Key limitation: the abstract states the trial lacked participant blinding, and only the PubMed abstract was accessed (not the full text), so details on procedure type, application protocol, and randomization method cannot be verified here.[^1]
+**Applicability + key limitation:** Generalizes to adults undergoing facial rejuvenation procedures needing topical anesthesia, relevant to lidocaine and prilocaine as procedural numbing-cream ingredients. Key limitation: the abstract states the trial lacked participant blinding, and only the PubMed abstract was accessed (not the full text), so details on procedure type, application protocol, and randomization method cannot be verified here.[^1]
 
 ## Sources
 
