@@ -1190,3 +1190,18 @@
     relationship with basal-cell-carcinoma is the page''s reason to exist and should
     be its spine. Source the confusability and any treatment claims from the literature
     rather than from the video, which is a card and not a citation.'
+- name: 'keratinocyte-carcinoma: link both arms of the BCC surgery comparison'
+  type: condition
+  priority: 4
+  status: pending
+  discovered_from: surgical-excision-skin-cancer
+  source: 'NOW UNBLOCKED, 2026-11-11: the reason [[keratinocyte-carcinoma]] carries
+    no treatment comparison was that only one of the two arms of van Loo 2014 had
+    a page. [[surgical-excision-skin-cancer]] now exists alongside [[mohs-micrographic-surgery]],
+    so the hub can finally link both and state the comparison. DO NOT build a single
+    overall ranking of the two operations: the same trial separates them statistically
+    for RECURRENT facial BCC (p=0.023) and does not for high-risk PRIMARY facial BCC
+    (p=0.100), so any ranking must be per-population or it misrepresents the evidence.
+    The excision page records that reasoning under its own heading; follow it rather
+    than re-deciding. Keep the prose tight and link out; both pages already own the
+    trial detail.'

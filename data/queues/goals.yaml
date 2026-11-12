@@ -512,7 +512,7 @@
 - name: Surgical excision (standard excision for skin cancer)
   type: goal
   priority: 5
-  status: pending
+  status: done
   discovered_from: mohs-micrographic-surgery
   source: 'The comparator arm in the van Loo 2014 trial (PMID 25262378) that the mohs-micrographic-surgery
     page is built on, shipped 2026-10-21. It is described in that trial as the standard

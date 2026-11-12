@@ -2230,3 +2230,21 @@
     handheld toning device does. Thirty patients, assessed at 7, 21 and 90 days, elasticity
     +22.51%, and the abstract describes NO control arm, so the figure has no counterfactual.
     Do not let the shared word microcurrent carry it onto the home-device pages.'
+- name: 'van Loo 2014: surgical excision vs Mohs for facial BCC, 10-year RCT (PMID
+    25262378)'
+  type: study
+  priority: 4
+  status: pending
+  discovered_from: surgical-excision-skin-cancer
+  source: 'PMID 25262378, van Loo 2014, Eur J Cancer 50(17):3011-20. It is now the
+    spine of TWO published hubs, [[mohs-micrographic-surgery]] and [[surgical-excision-skin-cancer]],
+    and has no study page, so both hubs carry their own long footnote of the same
+    abstract. A compact study page would let both link out instead. Numbers are already
+    verified twice: 408 high-risk facial primary BCCs and 204 recurrent, randomised
+    to SE or MMS between 5 Oct 1999 and 27 Feb 2002, modified ITT, primary outcome
+    recurrence; pBCC 10-year cumulative recurrence 4.4 percent MMS vs 12.2 percent
+    SE, log-rank chi-squared 2.704, p=0.100; rBCC 3.9 vs 13.5 percent, chi-squared
+    5.166, p=0.023; 56 percent of pBCC recurrences and 14 percent of rBCC recurrences
+    after year five. KEY LIMITATION to lead with: only the abstract has ever been
+    read here, so cosmetic outcomes, adverse events and the cost analysis are unknown;
+    say so rather than implying the full paper was consulted.'

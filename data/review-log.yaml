@@ -7394,6 +7394,25 @@ supergoop-unseen-sunscreen-spf-50:
     '
   score: 9
   verdict: revise-then-fixed
+surgical-excision-skin-cancer:
+  assurance: sonnet
+  notes: 'Goal hub built on van Loo 2014 (PMID 25262378), the same trial [[mohs-micrographic-surgery]] already
+    owns. THE DISCIPLINE HERE IS NOT RE-TELLING IT: this page states the EXCISION arm''s own absolute numbers
+    (12.2 percent 10-year recurrence in high-risk primary facial BCC, 13.5 percent in recurrent) and sends the
+    head-to-head argument, the design, the enrolment dates and the author affiliations to the Mohs page, whose
+    footnote carries the full quotation set. EVERY FIGURE AND ALL 8 QUOTED STRINGS RE-VERIFIED against the
+    live PubMed abstract today rather than copied from the queue row or the sibling page, because the row
+    itself warned to keep the p-values straight. The two p-values are the point and both appear: 0.100 for
+    primary, 0.023 for recurrent. DELIBERATE DEVIATION FROM THE CRON, stated in the page itself under a
+    heading: condition and goal hubs are told to prefer a tier_list, and this page carries none. A two-item
+    ranking of cancer operations would have to pick one overall winner, and the same trial separates them
+    statistically in recurrent facial BCC and not in primary, so the only honest ranking is per-population and
+    needs more than one trial. Scope guarded: the page says in terms who the numbers do NOT describe, since
+    the trial enrolled only high-risk facial lesions. No medical advice given. Main loop, no subagent, hence
+    sonnet.'
+  reviewed: '2026-11-11'
+  reviewer: main-loop self-verification
+  verdict: publish
 sweet-almond-oil:
   last_reviewed: '2026-10-20'
   note: 'tier: weak. The queue gave only an incidecoder URL, which is an aggregator and not citable as a footnote here, so the page was built from two PubMed sources instead. THE FINDING, and it is a species error waiting to happen. The one specific clinical claim people attach to almond oil is stretch marks, and PMID 25255817 actually says "limited evidence that centella, and possibly massage with BITTER almond oil, may prevent SG". Bitter almond is Prunus amygdalus amara; sweet almond, the cosmetic ingredient, is Prunus amygdalus dulcis. Different plant. Had I skimmed I would have written that almond oil has limited evidence for stretch marks, which would have been wrong, so the page states the distinction in its lead quote block and the footnote records that it was read from the review wording rather than inferred. The review also credits MASSAGE WITH the oil rather than the oil alone, which the page preserves. SECOND FINDING, the third instance of this pattern in a week. The only synthesis
@@ -9593,4 +9612,5 @@ cerave-hydrating-hyaluronic-acid-serum:
   verdict: publish
   note: 'THE PAGE''S FINDING IS THE INGREDIENT ORDER: a serum named for hyaluronic acid in which glycerin sits second and sodium hyaluronate sixth of 24. Not a criticism of the formula, since sodium hyaluronate works at fractions of a percent, but a correction to the name on the bottle, and the page says exactly that rather than scoring a cheap point. VERIFY CAUGHT ME CITING AN AGGREGATOR AS EVIDENCE. I footnoted the INCI to INCIDecoder, which the house rule forbids and sk verify blocks with an ERROR. The brand''s own page is the correct source and it does NOT publish the list: checked by string search of the fetched markup, which contains no occurrence of Aqua, Glycerin, Sodium Hyaluronate or Phytosphingosine. RATHER THAN DODGE THE GATE by stripping the URL and keeping a buried claim, I moved the provenance into the open: the body now names INCIDecoder as an aggregator in the sentence that uses the order, says the brand page carried no list on the date fetched, and frames it as a reading
     anyone can repeat rather than as evidence. The brand footnote records the absence check. GRADED THE HYDRATION CLAIM solid but said the grade belongs to the humectants rather than the bottle, since no product-specific trial exists. The brand''s quantified ''up to 24 hours of hydration'' is quarantined as uncited. Got a real front photo from the same lookup, so this page needs no image cron.'
+
 
