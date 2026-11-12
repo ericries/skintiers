@@ -3853,7 +3853,7 @@
 - name: Collagen (topical) and what it can and cannot do in a leave-on product
   type: ingredient
   priority: 3
-  status: pending
+  status: done
   discovered_from: silicone-gel-and-sheeting-for-scars
   source: 'A REAL AND SURPRISING GAP, found on 2026-11-07 while triaging video candidates:
     sk find returns NO page for collagen, and none for elastin either, on a site with
@@ -4202,3 +4202,18 @@
     page or a paragraph on [[preservatives]] rather than two thin actives pages. Decide
     which before drafting, and do not grade them as if they were treatment ingredients;
     tier weak or no tier at all is the likely correct answer.'
+- name: Elastin (topical)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: collagen-topical
+  source: 'The other half of the gap the collagen row named: sk find returns NO page
+    for elastin either, and the TikTok clip that exposed the gap was about collagen
+    AND elastin. [[collagen-topical]] now exists; elastin does not. CHECK FIRST WHETHER
+    IT EARNS A PAGE: topical elastin faces the same molecular-weight barrier argued
+    on [[collagen-topical]] (300 kDa against the 500 Dalton limit from Bos and Meinardi
+    2000, PMID 10839713), so the honest page may be very short and should link to
+    that argument rather than restate it. If the only thing to say is that it cannot
+    penetrate for the same reason, say that in a few lines and set tier weak, or fold
+    it into the collagen page as a paragraph and close this row. Do NOT pad it to
+    page length.'

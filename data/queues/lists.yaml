@@ -1433,3 +1433,18 @@
     Build it only over products whose BRAND COPY is already quoted on their page,
     so both halves are verifiable; do not go hunting fresh marketing copy to fill
     rungs.'
+- name: Collagen products by the gap between the claim and the molecule
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: collagen-topical
+  source: 'GROUNDED IN FOUR EXISTING PRODUCT PAGES plus the ingredient page shipped
+    2026-11-12. The site covers [[medicube-triple-collagen-serum]], [[biodance-bio-collagen-real-deep-mask]],
+    [[medicube-collagen-jelly-cream]] and [[biodance-collagen-cleansing-oil]], and
+    [[collagen-topical]] now establishes the shared physics: 300 kDa against a 500
+    Dalton penetration limit. A curatorial list ranking collagen products by WHAT
+    THEIR OWN LABEL AND MARKETING ACTUALLY CLAIM against what the molecule can do
+    would be new and is fully supported by pages that already exist. CURATORIAL ONLY,
+    no new product pages, and do not re-argue the penetration physics; link to the
+    ingredient page in one clause. Check each product page carries a quoted brand
+    claim before ranking it, since the axis is the gap between claim and constraint.'

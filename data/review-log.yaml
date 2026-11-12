@@ -1855,6 +1855,27 @@ coenzyme-q10:
   note: INGREDIENT wave. CoQ10/ubiquinone lipophilic antioxidant, topical anti-aging. tier:weak honest - no independent vehicle-controlled topical RCT; strong Zmitek RCT is ORAL not topical (page says so). All 6 quotes verbatim vs eutils + PubChem CID 5281915. Opus critic corrected COI (2->3 Beiersdorf employees, PMID 39148958) + removed broken [[antioxidant]] link. tier:weak. Opus critic inline (workflow pipeline); assurance opus.
   score: 8
   verdict: publish
+collagen-topical:
+  assurance: sonnet
+  notes: 'Fills a real gap: four collagen PRODUCT pages existed with no ingredient page to anchor them. THE
+    ROW SAID NOT TO WRITE THE PENETRATION VERDICT UNTIL IT WAS SOURCED, so it is sourced from two papers
+    rather than the usual internet assertion: a 2023 delivery review states topical collagen is "limited by
+    poor permeability due to high molecular weight (+/-300 kDa)", and Bos and Meinardi 2000 argue the 500
+    Dalton rule in Experimental Dermatology. 300 kDa against 500 Da is the whole argument, and the page gives
+    the ratio rather than saying too large. tier weak, matching the rubric. WHAT THIS PAGE ADDS over the
+    product pages, which already make the too-large argument and one of which already cites the same review:
+    the quantitative limit, and one canonical home so each product page can point rather than re-derive.
+    DELIBERATE NON-CLAIMS: no molecular weight for hydrolysed collagen, because the review names hydrolysis
+    as a strategy and gives no figure, and the page says smaller than 300 kDa is not the same as under 500
+    Da; and the oral route is flagged as deferred, not answered, per the playbook scope. FIXED BEFORE
+    PUBLISH: the first draft had a Common Marketing Claims section quoting generic phrases like Replenishes
+    with no source behind them, which is exactly the fault this site flags elsewhere. It now carries one REAL
+    sourced claim, Medicube''s Triple Collagen Complex quoted via its own product page, and describes the
+    recurring framings without quote marks since no single brand is on record for them. Verbatim check over
+    14 quoted strings, 0 unmatched. Main loop, no subagent, hence sonnet.'
+  reviewed: '2026-11-12'
+  reviewer: main-loop self-verification
+  verdict: publish
 colloidal-oatmeal:
   last_reviewed: '2026-07-28'
   note: 'Ingredient page drafted + critic-gated in the parallel drain. '
