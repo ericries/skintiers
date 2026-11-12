@@ -9,9 +9,9 @@ type: ingredient
 updated: '2026-08-08'
 videos:
 - title: "The 1 Ingredient That Does It All — From A Derm"
-  creator: ""
+  creator: 'Dr. Lindsey Zubritsky (DermGuru)'
   creator_slug: lindsey-zubritsky
-  credential: ""
+  credential: 'Board-certified dermatologist'
   platform: YouTube
   url: https://www.youtube.com/watch?v=FWRgQLdHPeQ
   duration: 47

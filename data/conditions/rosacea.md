@@ -81,9 +81,9 @@ tier_list:
 type: condition
 updated: '2026-09-13'
 videos:
-- creator: ''
+- creator: 'Dr. Usama Syed'
   creator_slug: usama-syed
-  credential: ''
+  credential: 'Board-certified dermatologist'
   duration: 655
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
   platform: YouTube

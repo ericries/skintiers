@@ -8,9 +8,9 @@ type: ingredient
 updated: '2026-07-28'
 videos:
 - title: "Prebiotics vs probiotics vs postbiotics vs synbiotics"
-  creator: ""
+  creator: 'Dr. Heather Woolery-Lloyd (drheathermd)'
   creator_slug: heather-woolerylloyd
-  credential: ""
+  credential: 'Board-certified dermatologist'
   platform: TikTok
   url: https://www.tiktok.com/@drheathermd/video/7563884756690128183
   duration: 78

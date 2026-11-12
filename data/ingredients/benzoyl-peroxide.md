@@ -9,9 +9,9 @@ type: ingredient
 updated: '2026-07-27'
 videos:
 - title: "Is CeraVe Benzoyl Peroxide Dangerous? Dermatologist Explains the Benzene Lawsuit"
-  creator: ""
+  creator: 'Dr. Daniel Sugai'
   creator_slug: daniel-sugai
-  credential: ""
+  credential: 'Board-certified dermatologist'
   platform: YouTube
   url: https://www.youtube.com/watch?v=QeHkL6DLWeg
   duration: 595

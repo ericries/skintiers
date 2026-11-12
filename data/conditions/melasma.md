@@ -73,9 +73,9 @@ tier_list_reviewed:
 type: condition
 updated: '2026-10-26'
 videos:
-- creator: ''
+- creator: 'Dr. Chris Tomassian'
   creator_slug: chris-tomassian
-  credential: ''
+  credential: 'Board-certified dermatologist'
   note: Verified from the video's TikTok transcript (yt-dlp captions, read in full);
     no sponsorship.
   platform: TikTok

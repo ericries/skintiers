@@ -95,9 +95,9 @@ videos:
     Guide)
   url: https://www.youtube.com/watch?v=u2RBcVQZVyU
   duration: 696
-- creator: ''
+- creator: 'Dr. Mamina Turegano'
   creator_slug: mamina-turegano
-  credential: ''
+  credential: 'Board-certified in dermatology, internal medicine and dermatopathology; practices at Sanova Dermatology, Metairie, Louisiana'
   note: Verified from the video's TikTok transcript (yt-dlp captions, read in full);
     no sponsorship.
   platform: TikTok
@@ -115,9 +115,9 @@ videos:
     prolonged sun exposure such as driving.
   title: Your hands are aging faster than your face
   url: https://www.tiktok.com/@dr.mamina/video/7664593977571675406
-- creator: ''
+- creator: 'Dr. Sam Bunting'
   creator_slug: sam-bunting
-  credential: ''
+  credential: 'Board-certified dermatologist (UK)'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
   platform: YouTube
   posted: '2025-02-16'

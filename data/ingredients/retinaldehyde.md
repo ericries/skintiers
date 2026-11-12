@@ -31,9 +31,9 @@ videos:
   thesis: "Testing retinaldehyde products from Krave Beauty (0.05%), Prequel (0.1%), and a Korean spicule shot (0.1%), and discussing (but not themselves testing) Medik8 Crystal Retinal 6, cosmetic chemists Victoria Fu and Gloria Lu of Chemist Confessions found that texture and stability, not just percentage, drove their real-world experience with retinaldehyde: several formulas showed visible discoloration or degraded quickly once opened, and encapsulation or physical-particle stabilization mattered more than raw concentration. They singled out Medik8's marketing claim that retinaldehyde works 'up to 11 times faster' than retinol as misleading, since the cited paper is an early in-vitro study on isolated metabolism, not a test of the actual finished formula."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship. Cosmetic chemists reviewing competitor products; their own brand's retinol product came up only briefly as a comparison point for irritation, not as the focus."
 - title: "The Ordinary Is Coming For Your Dermatologist New Retinal Emulsion"
-  creator: ""
+  creator: 'Cassandra Bankson'
   creator_slug: cassandra-bankson
-  credential: ""
+  credential: 'Licensed medical esthetician (NOT a dermatologist or cosmetic chemist)'
   platform: YouTube
   url: https://www.youtube.com/watch?v=1NA2mD7IhXw
   duration: 890

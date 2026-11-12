@@ -9,9 +9,9 @@ type: ingredient
 updated: '2026-08-08'
 videos:
 - title: "New sunscreen filter bemotrizinol proposed by FDA"
-  creator: ""
+  creator: 'Dr. Heather Woolery-Lloyd (drheathermd)'
   creator_slug: heather-woolerylloyd
-  credential: ""
+  credential: 'Board-certified dermatologist'
   platform: TikTok
   url: https://www.tiktok.com/@drheathermd/video/7596032062348381495
   duration: 76

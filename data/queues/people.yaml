@@ -596,4 +596,17 @@
     has no match, leave the card alone rather than inventing a credential for a living
     person. This violates the video card standard (cards must introduce the creator)
     and it is why the person queue has no real work in it: the attribution backlog
-    was never queued.'
+    was never queued. 2026-11-12 PARTLY DONE, and the original measurement was WRONG
+    in a way worth recording. I wrote that all 84 cards carried creator_slug ''None'';
+    I had sampled ONE file (skin-barrier-repair) and generalised. In fact 73 of the
+    84 already carried a CORRECT creator_slug and were missing only the display name
+    and credential, which made those a deterministic roster lookup by slug with no
+    name-from-thesis judgment needed. All 73 are now filled from data/video-sources.yaml,
+    across 26 pages, verified: every data file still parses, lint clean on the touched
+    pages, 394 tests pass, and names render. TWO GOTCHAS for anyone reusing the script:
+    the cards exist in two YAML shapes, single-quoted with creator first and double-quoted
+    with title first, so a matcher keyed to one shape silently fixes nothing and reports
+    success; and the first key of a list item is prefixed ''- '' not two spaces. WHAT
+    REMAINS IS 11 CARDS, all genuinely without a slug, which DO need the name read
+    from the card''s own thesis and matched to the roster. That is the judgment half
+    of the job and it is a separate bounded pass.'

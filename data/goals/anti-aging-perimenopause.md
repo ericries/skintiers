@@ -7,9 +7,9 @@ status: published
 type: goal
 updated: '2026-10-04'
 videos:
-- creator: ''
+- creator: 'Michelle Wong (Lab Muffin)'
   creator_slug: michelle-wong
-  credential: ''
+  credential: 'Cosmetic chemist, PhD'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
   platform: YouTube
   posted: '2025-01-06'

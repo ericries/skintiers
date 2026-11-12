@@ -287,9 +287,9 @@ videos:
     and melasma.
   title: Stop making these sunscreen mistakes, says dermatologist
   url: https://www.youtube.com/watch?v=pnQcCw1muRE
-- creator: ''
+- creator: 'Dr. Joyce Park (Tea with MD)'
   creator_slug: joyce-park
-  credential: ''
+  credential: 'Board-certified dermatologist'
   duration: 151
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
   platform: YouTube
@@ -307,9 +307,9 @@ videos:
   title: 'Let’s talk about #jbeauty #japanesesunscreen and why we desperately need
     better filters and more'
   url: https://www.youtube.com/watch?v=DU7DijoSfNo
-- creator: ''
+- creator: 'Dr. Angelo Landriscina (DermAngelo)'
   creator_slug: angelo-landriscina
-  credential: ''
+  credential: 'Board-certified dermatologist'
   duration: 243
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
   platform: YouTube
@@ -323,9 +323,9 @@ videos:
     chemical formulas against a mineral option that left a white cast.
   title: 5 More Must-See Sunscreens
   url: https://www.youtube.com/watch?v=npsEAr_ONPo
-- creator: ''
+- creator: 'Dr. Angelo Landriscina (DermAngelo)'
   creator_slug: angelo-landriscina
-  credential: ''
+  credential: 'Board-certified dermatologist'
   duration: 394
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
   platform: YouTube
@@ -339,9 +339,9 @@ videos:
     lighter chemical or hybrid options for daily wear.
   title: MORE SUNSCREENS
   url: https://www.youtube.com/watch?v=lJKqyC7axDU
-- creator: ''
+- creator: 'Fatima Fahs'
   creator_slug: fatima-fahs
-  credential: ''
+  credential: 'Dermatologist (MD)'
   note: Verified from the video's TikTok transcript (yt-dlp captions, read in full);
     no sponsorship.
   platform: TikTok
@@ -359,9 +359,9 @@ videos:
     bonus.
   title: Is your sunscreen making your eyes water?
   url: https://www.tiktok.com/@dermydoctor/video/7671263529973959949
-- creator: ''
+- creator: 'Fatima Fahs'
   creator_slug: fatima-fahs
-  credential: ''
+  credential: 'Dermatologist (MD)'
   note: Verified from the video's TikTok transcript (yt-dlp captions, read in full);
     no sponsorship.
   platform: TikTok
@@ -376,9 +376,9 @@ videos:
     to reach the market soon.
   title: A new sunscreen filter was just approved in the US
   url: https://www.tiktok.com/@dermydoctor/video/7670525771974266125
-- creator: ''
+- creator: 'Esther Olu (The Melanin Chemist)'
   creator_slug: esther-olu
-  credential: ''
+  credential: 'Cosmetic chemist'
   note: Verified from the video's TikTok transcript (yt-dlp captions, read in full);
     no sponsorship.
   platform: TikTok
@@ -394,9 +394,9 @@ videos:
     testing more inclusive across skin tones.
   title: Sunscreen (SPF) testing gaps for darker skin tones
   url: https://www.tiktok.com/@themelaninchemist/video/7569424856723361079
-- creator: ''
+- creator: 'Esther Olu (The Melanin Chemist)'
   creator_slug: esther-olu
-  credential: ''
+  credential: 'Cosmetic chemist'
   note: Verified from the video's TikTok transcript (yt-dlp captions, read in full);
     no sponsorship.
   platform: TikTok
@@ -412,9 +412,9 @@ videos:
     first and layering makeup on top for genuine sun protection.
   title: Why SPF makeup does not give full sun protection
   url: https://www.tiktok.com/@themelaninchemist/video/7511474696878083374
-- creator: ''
+- creator: 'Esther Olu (The Melanin Chemist)'
   creator_slug: esther-olu
-  credential: ''
+  credential: 'Cosmetic chemist'
   note: Verified from the video's TikTok transcript (yt-dlp captions, read in full);
     no sponsorship.
   platform: TikTok
@@ -432,9 +432,9 @@ videos:
   title: Chemical sunscreen UV filter safety data debunks "sunscreens are killing
     you"
   url: https://www.tiktok.com/@themelaninchemist/video/7572020628904070413
-- creator: ''
+- creator: 'Dr Emma Wedgeworth'
   creator_slug: emma-wedgeworth
-  credential: ''
+  credential: 'Consultant dermatologist'
   note: Verified from the video's TikTok transcript (yt-dlp captions, read in full);
     no sponsorship.
   platform: TikTok
@@ -471,9 +471,9 @@ videos:
     tones.
   title: 'The Truth About Sunscreens: What You Really Need to Know'
   url: https://www.youtube.com/watch?v=qzSgM_6lw3M
-- creator: ''
+- creator: 'Dr. Geeta Yadav'
   creator_slug: geeta-yadav
-  credential: ''
+  credential: 'Skincare educator'
   note: Verified from the video's TikTok transcript (yt-dlp captions, read in full);
     no sponsorship.
   platform: TikTok
@@ -490,9 +490,9 @@ videos:
     with the new filter by the end of the year.
   title: US approves first new sunscreen filter since the 1990s
   url: https://www.tiktok.com/@geetayadavmd/video/7667926097937403149
-- creator: ''
+- creator: 'Dr. Geeta Yadav'
   creator_slug: geeta-yadav
-  credential: ''
+  credential: 'Skincare educator'
   note: Verified from the video's TikTok transcript (yt-dlp captions, read in full);
     no sponsorship.
   platform: TikTok
@@ -509,9 +509,9 @@ videos:
     undermines any money spent on treating pigmentation.
   title: Why tinted sunscreen matters for hyperpigmentation and deeper skin tones
   url: https://www.tiktok.com/@geetayadavmd/video/7666070789728390414
-- creator: ''
+- creator: 'Dr. Geeta Yadav'
   creator_slug: geeta-yadav
-  credential: ''
+  credential: 'Skincare educator'
   note: Verified from the video's TikTok transcript (yt-dlp captions, read in full);
     no sponsorship.
   platform: TikTok
@@ -527,9 +527,9 @@ videos:
     every two hours and using a generous amount.
   title: Why your SPF number is not what you actually get
   url: https://www.tiktok.com/@geetayadavmd/video/7665386398962289934
-- creator: ''
+- creator: 'Dr. Heather Woolery-Lloyd (drheathermd)'
   creator_slug: heather-woolerylloyd
-  credential: ''
+  credential: 'Board-certified dermatologist'
   note: Verified from the video's TikTok transcript (yt-dlp captions, read in full);
     no sponsorship.
   platform: TikTok
@@ -546,9 +546,9 @@ videos:
     their skin.
   title: 'Sunscreen doping: hidden UV filters in mineral sunscreens'
   url: https://www.tiktok.com/@drheathermd/video/7558521767921274126
-- creator: ''
+- creator: 'Dr. Brooke Jeffy (Brooke Jeffy, MD)'
   creator_slug: brooke-jeffy
-  credential: ''
+  credential: 'Board-certified dermatologist'
   note: Verified from the video's TikTok transcript (yt-dlp captions, read in full);
     no sponsorship.
   platform: TikTok
@@ -562,9 +562,9 @@ videos:
     cancer) far outweigh the theoretical risks used to scare people away from sunscreen.
   title: Thanks for the sunscreen misinformation @cnn
   url: https://www.tiktok.com/@brookejeffymd/video/7642189715185093901
-- creator: ''
+- creator: 'Dr. Brooke Jeffy (Brooke Jeffy, MD)'
   creator_slug: brooke-jeffy
-  credential: ''
+  credential: 'Board-certified dermatologist'
   note: Verified from the video's TikTok transcript (yt-dlp captions, read in full);
     no sponsorship.
   platform: TikTok
@@ -595,9 +595,9 @@ videos:
     habit every dermatologist wants to see from patients.
   title: What every dermatologist wants you to know about sunscreen
   url: https://www.tiktok.com/@dr.iferodney/video/7668438213547035935
-- creator: ''
+- creator: 'James Welsh'
   creator_slug: james-welsh
-  credential: ''
+  credential: 'Skincare content creator (NOT a dermatologist or cosmetic chemist)'
   duration: 2062
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
   platform: YouTube
@@ -614,9 +614,9 @@ videos:
     daily sunscreen use remains essential despite online fearmongering.
   title: Why Do Wellness Influencers Fear Sunscreen More Than Skin Cancer?
   url: https://www.youtube.com/watch?v=dCjwOEnRwQI
-- creator: ''
+- creator: 'Chemist Confessions (Victoria Fu and Gloria Lu)'
   creator_slug: victoria-fu
-  credential: ''
+  credential: 'Cosmetic chemists'
   duration: 2807
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
   platform: YouTube

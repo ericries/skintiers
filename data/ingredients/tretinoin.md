@@ -31,9 +31,9 @@ videos:
   thesis: "Skincare educator Hyram Yarbro (Skincare by Hyram), who states he is not a dermatologist or chemist and that his tips do not override a prescriber's advice, shares consensus how-to-use guidance for prescription tretinoin from years of his own use: build up gradually by starting with over-the-counter retinol or adapalene before tretinoin, expect an 8 to 12 week purging period of dryness and irritation, and pair it with a rich moisturizer. For sensitive skin he suggests applying moisturizer as a base first and the tretinoin over the top to buffer its strength, and he warns against mixing tretinoin into a moisturizer or adding other active ingredients until months into use."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship. Non-credentialed educator sharing his own experience, not medical advice or a product endorsement; his own-brand product mention is excluded."
 - title: "How To Use Tretinoin Like A Dermatologist"
-  creator: ""
+  creator: 'Dr. Lindsey Zubritsky (DermGuru)'
   creator_slug: lindsey-zubritsky
-  credential: ""
+  credential: 'Board-certified dermatologist'
   platform: YouTube
   url: https://www.youtube.com/watch?v=NN9XEzy-WSo
   duration: 31

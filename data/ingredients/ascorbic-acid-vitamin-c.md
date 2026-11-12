@@ -25,9 +25,9 @@ videos:
   thesis: "Board-certified dermatologist Dr. Sam Bunting (UK) explains that vitamin C is a genuinely useful antioxidant that slows melanin production, but pigmentation forms through nine pathways across three stages, triggers, the tyrosinase enzyme, and melanin delivery and removal, so vitamin C alone only touches part of the process. She says people using vitamin C and sunscreen still need targeted actives like azelaic acid, hydroquinone, arbutin, or niacinamide to address the other pigmentation checkpoints."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 - title: "How to layer skincare AM and PM correctly"
-  creator: ""
+  creator: 'Fatima Fahs'
   creator_slug: fatima-fahs
-  credential: ""
+  credential: 'Dermatologist (MD)'
   platform: TikTok
   url: https://www.tiktok.com/@dermydoctor/video/7672748209294347533
   posted: '2026-08-11'

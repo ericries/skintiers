@@ -178,9 +178,9 @@ videos:
     rather than swapping one product for another, and does not cite any specific published study.'
   title: 'Winter Skincare Swaps: How to Transition Your Routine for Dry, Cold Weather'
   url: https://www.youtube.com/watch?v=u557TRHEsaM
-- creator: ''
+- creator: 'Dr. Onyeka Obioha-Lolagne, MD, FAAD (Dr. Onyeka Obioha)'
   creator_slug: onyeka-obioha-lolagne
-  credential: ''
+  credential: 'Dermatologist'
   note: Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship.
   platform: TikTok
   posted: '2023-10-12'

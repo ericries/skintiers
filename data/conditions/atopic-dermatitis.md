@@ -61,9 +61,9 @@ videos:
     to market they can be expensive and often require insurance prior authorization.'
   title: 'Derm explains new NO-STEROID Eczema Creams: Vtama, Opzelura and Zoryve'
   url: https://www.youtube.com/watch?v=KaPdhHj32u4
-- creator: ''
+- creator: 'Dr. Usama Syed'
   creator_slug: usama-syed
-  credential: ''
+  credential: 'Board-certified dermatologist'
   duration: 436
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
   platform: YouTube
@@ -78,9 +78,9 @@ videos:
     cases.
   title: How To Treat Eczema (Dermatologist Explains)
   url: https://www.youtube.com/watch?v=f_sMpdifzVc
-- creator: ''
+- creator: 'Andrea Suarez (Dr Dray)'
   creator_slug: andrea-suarez-dr-dray
-  credential: ''
+  credential: 'Board-certified dermatologist'
   duration: 964
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
   platform: YouTube

@@ -53,9 +53,9 @@ videos:
   thesis: "Board-certified dermatologist Dr. Alexis Stephens explains why azelaic acid is her go-to ingredient for hyperpigmentation, describing it as a tyrosinase inhibitor that curbs overactive melanin production while also being bactericidal against acne-causing bacteria, keratolytic, and anti-inflammatory, which makes it useful for melasma, post-inflammatory hyperpigmentation, acne, and rosacea. She says it is not photosensitizing so she applies it in the morning, notes it is safe during pregnancy and nursing, and states that at 20 percent (prescription-strength) it is comparably effective to hydroquinone for treating hyperpigmentation and melasma, while over-the-counter versions are available from brands like The Ordinary, Paula's Choice, and Glytone."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 - title: "Azelaic Acid is going crazy!"
-  creator: ""
+  creator: 'Dr. Chris Tomassian'
   creator_slug: chris-tomassian
-  credential: ""
+  credential: 'Board-certified dermatologist'
   platform: TikTok
   url: https://www.tiktok.com/@dr.tomassian/video/7673613138167663886
   posted: '2026-08-13'
@@ -63,9 +63,9 @@ videos:
   thesis: "Dr. Chris Tomassian, a board-certified dermatologist, discusses how social media hype around azelaic acid has driven demand so high it caused a national shortage, leaving him temporarily unable to prescribe it to his patients. He notes azelaic acid is used to treat rosacea, hyperpigmentation, acne, and skin texture issues, while cautioning that enthusiasm for it has outpaced supply."
   note: "Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship."
 - title: "how often to apply skincare #azelaicacid #retinol #fyp"
-  creator: ""
+  creator: 'Dr. Neera Nathan'
   creator_slug: neera-nathan
-  credential: ""
+  credential: 'Board-certified dermatologist'
   platform: TikTok
   url: https://www.tiktok.com/@dermatologysurgeon/video/7673611941050338590
   posted: '2026-08-13'
@@ -73,9 +73,9 @@ videos:
   thesis: "Dr. Neera Nathan, a board certified dermatologist, breaks down how often to use common skincare acids and actives. She recommends azelaic acid once or twice daily, vitamin C every morning, and retinol nightly if tolerated, starting with just a few nights per week. She also covers glycolic acid two to three times a week, hyaluronic acid up to twice daily, and barrier repair cream as often as needed."
   note: "Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship."
 - title: "How to Build Your Morning Skincare Routine | A Step-by-Step Guide to a Stellar Skincare Routine"
-  creator: ""
+  creator: 'Dr. Sam Bunting'
   creator_slug: sam-bunting
-  credential: ""
+  credential: 'Board-certified dermatologist (UK)'
   platform: YouTube
   url: https://www.youtube.com/watch?v=-Jt3gczy_4o
   duration: 447
@@ -84,9 +84,9 @@ videos:
   thesis: "Board-certified dermatologist Dr. Sam Bunting walks through a morning skincare routine and highlights azelaic acid as a key ingredient for tackling redness, clogged pores, and blemishes, noting it can be found in products like The Ordinary's 10% Azelaic Acid Suspension or Paula's Choice's azelaic acid booster in addition to her own brand's serum. She also covers cleansing, antioxidant serums, hydration with barrier-supporting ingredients like ceramides and niacinamide, and finishes with guidance on properly applying sunscreen using the correct amount and distribution."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 - title: "Can You Mix Azelaic Acid With Anything? Dermatologist Q&A"
-  creator: ""
+  creator: 'Andrea Suarez (Dr Dray)'
   creator_slug: andrea-suarez-dr-dray
-  credential: ""
+  credential: 'Board-certified dermatologist'
   platform: YouTube
   url: https://www.youtube.com/watch?v=oyQl5MU3pRQ
   duration: 1115
@@ -95,9 +95,9 @@ videos:
   thesis: "Board-certified dermatologist Andrea Suarez (Dr Dray) explains that azelaic acid, whether over-the-counter at 10% or prescription strength (15-20%, such as Finacea), can be combined with other skincare ingredients as long as the combination is tolerated. She cautions that azelaic acid can be drying and irritating on its own, so pairing it with dapsone is generally fine, but combining it with benzoyl peroxide (also notoriously drying) may push some people into excess dryness and irritation."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 - title: "#162) Testing 3 Popular K-Beauty Azelaic Acid Serums"
-  creator: ""
+  creator: 'Chemist Confessions (Victoria Fu and Gloria Lu)'
   creator_slug: victoria-fu
-  credential: ""
+  credential: 'Cosmetic chemists'
   platform: YouTube
   url: https://www.youtube.com/watch?v=tpdULfR0Org
   duration: 2334

@@ -42,9 +42,9 @@ videos:
   related: ["ascorbic-acid-vitamin-c", "tetrahexyldecyl-ascorbate", "3-o-ethyl-ascorbic-acid", "ferulic-acid", "glycolic-acid", "lactic-acid", "skinceuticals-c-e-ferulic"]
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 - title: "How to Actually Choose a Vitamin C Serum (Dermatologist Guide)"
-  creator: ""
+  creator: 'Dr. Daniel Sugai'
   creator_slug: daniel-sugai
-  credential: ""
+  credential: 'Board-certified dermatologist'
   platform: YouTube
   url: https://www.youtube.com/watch?v=HaRDOYm8ctk
   duration: 593
@@ -53,9 +53,9 @@ videos:
   thesis: "Board-certified dermatologist Dr. Daniel Sugai explains that L-ascorbic acid is the most well-studied active form of vitamin C but is unstable to light, heat, and pH, so formulation matters as much as listed concentration when choosing a serum. He recommends applying vitamin C in the morning before sunscreen to help neutralize free radical damage, and notes it can take up to six months of consistent use to see meaningful improvement in dark spots and skin brightness."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 - title: "Dermatologist Reveals Why Your Vitamin C Isn't Working"
-  creator: ""
+  creator: 'Dr. Dustin Portela'
   creator_slug: dustin-portela
-  credential: ""
+  credential: 'Board-certified dermatologist'
   platform: YouTube
   url: https://www.youtube.com/watch?v=T8yxDm6ZgVs
   duration: 886

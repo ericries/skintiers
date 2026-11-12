@@ -58,9 +58,9 @@ videos:
   thesis: "Board-certified dermatologist Dr. Usama Syed explains that retinoids, the umbrella term for vitamin A derivatives like retinol, retinaldehyde, and prescription retinoic acids, boost collagen and elastic fiber formation (citing a biopsy study comparing topical retinoid use to placebo), disperse pigment clusters to fade dark spots, reduce sebum to help acne, and can even prompt early skin cancer cells to die or differentiate. He warns retinoids are unsafe in pregnancy and commonly cause dryness and peeling at first, so he advises starting low (every other night, a pea-sized amount mixed with moisturizer) and going slow, and names adapalene 0.1% gel (Differin, or the La Roche-Posay version) as his top over-the-counter pick, with Neutrogena's retinol serum as a gentler alternative."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 - title: "How to Apply Retinol on Skin - Derm Guide to Reduce Irritation | Achieve The Best Results"
-  creator: ""
+  creator: 'Dr. Adeline Kikam (Brown Skin Derm)'
   creator_slug: adeline-kikam
-  credential: ""
+  credential: 'Board-certified dermatologist'
   platform: YouTube
   url: https://www.youtube.com/watch?v=CHKd5MSx7Uc
   duration: 560
@@ -69,9 +69,9 @@ videos:
   thesis: "Board-certified dermatologist Dr. Adeline Kikam (Brown Skin Derm) demonstrates two ways to apply topical retinoids (including retinol and prescription tretinoin) while minimizing irritation: the sandwich method, where the retinoid is layered between a hydrating serum and a moisturizer applied before and after it, and the short contact method, where the retinoid is left on for a few minutes before being rinsed off like a mask. She emphasizes using only a pea sized amount, prepping skin with a gentle cleanser and hydrating serum first, and following with a rich moisturizer to keep the routine tolerable enough to use consistently."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 - title: "The Best Retinoids for Beginners (Before You Try Tretinoin)"
-  creator: ""
+  creator: 'Dr. Daniel Sugai'
   creator_slug: daniel-sugai
-  credential: ""
+  credential: 'Board-certified dermatologist'
   platform: YouTube
   url: https://www.youtube.com/watch?v=cI_PufUSyUM
   duration: 559
@@ -80,9 +80,9 @@ videos:
   thesis: "Board-certified dermatologist Dr. Daniel Sugai explains that people with sensitive skin should not jump straight into prescription tretinoin, since that often causes irritation within the first three weeks and leads them to quit. He recommends starting with over-the-counter retinol, progressing to a retinaldehyde once tolerated, and only then moving to prescription tretinoin, applying two to three times a week at first, always moisturizing afterward, and wearing sunscreen daily while using a retinoid."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 - title: "WSJ / Dr. Barbara Sturm retinol claims fact-check"
-  creator: ""
+  creator: 'Esther Olu (The Melanin Chemist)'
   creator_slug: esther-olu
-  credential: ""
+  credential: 'Cosmetic chemist'
   platform: TikTok
   url: https://www.tiktok.com/@themelaninchemist/video/7645118823661636877
   posted: '2026-05-29'
@@ -101,9 +101,9 @@ videos:
   thesis: "Board-certified dermatologist Dr. Jenny Liu addresses common myths about topical retinoids (the vitamin A derivative category that includes prescription tretinoin, adapalene, and tazarotene, plus over-the-counter retinol and retinaldehyde). She explains that retinoids do not age skin faster or thin it (biopsy evidence shows they actually thicken skin and compact the stratum corneum), do not need to be paused in summer as long as sunscreen is worn, can be combined with vitamin C, and take at least 6 weeks to 3 to 6 months to show visible results because they work by boosting collagen production and normalizing skin cell turnover."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 - title: "How to use the skincare holygrail - #retinol #retinoid"
-  creator: ""
+  creator: 'Dr. Onyeka Obioha-Lolagne, MD, FAAD (Dr. Onyeka Obioha)'
   creator_slug: onyeka-obioha-lolagne
-  credential: ""
+  credential: 'Dermatologist'
   platform: TikTok
   url: https://www.tiktok.com/@dr.obioha/video/7307128425330887979
   duration: 40
@@ -112,9 +112,9 @@ videos:
   thesis: "Board-certified dermatologist Dr. Onyeka Obioha demonstrates proper application technique for retinol and retinoid products, topical forms of vitamin A she calls a skincare holy grail. She recommends a pea-sized amount distributed across the forehead, cheeks, and chin, applied carefully near but not too close to the eyes. Her key tip is that if the product feels like too much was applied, it likely was, since the correct amount should feel like barely enough."
   note: "Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship."
 - title: "DON'T BELIEVE EVERYTHING YOU READ: retinoids and breastfeeding"
-  creator: ""
+  creator: 'Dr. Aegean Chan'
   creator_slug: aegean-chan
-  credential: ""
+  credential: 'Board-certified dermatologist'
   platform: TikTok
   url: https://www.tiktok.com/@draegeanchan/video/7662835515032440077
   posted: '2026-07-15'

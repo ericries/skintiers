@@ -9,9 +9,9 @@ type: ingredient
 updated: '2026-08-08'
 videos:
 - title: "#164) Reviewing 5 Affordable Arbutin Products for Skin Brightening"
-  creator: ""
+  creator: 'Chemist Confessions (Victoria Fu and Gloria Lu)'
   creator_slug: victoria-fu
-  credential: ""
+  credential: 'Cosmetic chemists'
   platform: YouTube
   url: https://www.youtube.com/watch?v=tMmOJ8YR6l8
   duration: 1789

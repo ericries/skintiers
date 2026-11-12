@@ -57,9 +57,9 @@ tier_list_reviewed:
 type: goal
 updated: '2026-10-05'
 videos:
-- creator: ''
+- creator: 'Ranella Hirsch'
   creator_slug: ranella-hirsch
-  credential: ''
+  credential: 'Board-certified dermatologist (MD, FAAD)'
   note: Verified from the video's TikTok transcript (yt-dlp captions, read in full);
     no sponsorship.
   platform: TikTok
@@ -76,9 +76,9 @@ videos:
   title: Skin barrier explained as a front door
   url: https://www.tiktok.com/@ranellamd/video/7179246795917118762
   duration: 29
-- creator: ''
+- creator: 'Fatima Fahs'
   creator_slug: fatima-fahs
-  credential: ''
+  credential: 'Dermatologist (MD)'
   note: Verified from the video's TikTok transcript (yt-dlp captions, read in full);
     no sponsorship.
   platform: TikTok
@@ -94,9 +94,9 @@ videos:
     than layering too many active ingredients at once.
   title: Are you over-exfoliating your skin barrier?
   url: https://www.tiktok.com/@dermydoctor/video/7672372895707893005
-- creator: ''
+- creator: 'Dr. Sheila Farhang (dr.sheila_derm)'
   creator_slug: sheila-farhang
-  credential: ''
+  credential: 'Board-certified dermatologist'
   note: Verified from the video's TikTok transcript (yt-dlp captions, read in full);
     no sponsorship.
   platform: TikTok

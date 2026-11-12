@@ -41,9 +41,9 @@ videos:
   related: [medik8, squalane, anti-aging, skin-barrier-repair]
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship. Non-sponsored favorites video from a credibility-vetted creator."
 - title: "Best Peptides for Anti-aging, Skin Brightening & Barrier Repair"
-  creator: ""
+  creator: 'Dr. Alexis Stephens'
   creator_slug: alexis-stephens
-  credential: ""
+  credential: 'Board-certified dermatologist'
   platform: YouTube
   url: https://www.youtube.com/watch?v=_tdqQ7t4CHc
   duration: 492
@@ -52,9 +52,9 @@ videos:
   thesis: "Board-certified dermatologist Dr. Alexis Stephens breaks peptides down into five functional categories for skincare: signaling peptides (like matrixyl/pentapeptide-4) that stimulate collagen, elastin, or hyaluronic acid; neurotransmitter-inhibiting peptides such as argireline (acetyl hexapeptide-8) that softly reduce facial muscle movement; carrier peptides like copper peptides that transport trace elements into the skin; enzyme-inhibiting peptides that curb tyrosinase for brightening; and antimicrobial peptides. She advises choosing a peptide-containing product for the specific benefit you want rather than assuming all peptides do the same thing, and stresses that peptides should supplement, not replace, a daily vitamin C and nighttime retinoid."
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 - title: "The Peptide Truth: What Actually Works vs. What's STEALING Your Money (Dermatologist's Guide)"
-  creator: ""
+  creator: 'Dr. Dustin Portela'
   creator_slug: dustin-portela
-  credential: ""
+  credential: 'Board-certified dermatologist'
   platform: YouTube
   url: https://www.youtube.com/watch?v=WyWDBJIm6wY
   duration: 773

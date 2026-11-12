@@ -166,9 +166,9 @@ videos:
     acne responds to consistency rather than intensity.'
   title: How to Fix Adult Acne Without Drying Out Your Skin (30s, 40s, Beyond)
   url: https://www.youtube.com/watch?v=dyzK718tnNI
-- creator: ''
+- creator: 'Dr. Adeline Kikam (Brown Skin Derm)'
   creator_slug: adeline-kikam
-  credential: ''
+  credential: 'Board-certified dermatologist'
   duration: 770
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
   platform: YouTube
@@ -186,9 +186,9 @@ videos:
   title: Body Acne Treatment | Get rid of Body Acne | Derm Guide for Body Acne and
     blemishes
   url: https://www.youtube.com/watch?v=Efdvq8ptkmA
-- creator: ''
+- creator: 'Dr. Usama Syed'
   creator_slug: usama-syed
-  credential: ''
+  credential: 'Board-certified dermatologist'
   duration: 934
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
   platform: YouTube
@@ -209,9 +209,9 @@ videos:
     and isotretinoin (Accutane) for more severe cases.
   title: 99% Overlook These Effective Acne Treatments – 2025 Guide
   url: https://www.youtube.com/watch?v=y5d_iIgH3Pc
-- creator: ''
+- creator: 'Dr. Lindsey Zubritsky (DermGuru)'
   creator_slug: lindsey-zubritsky
-  credential: ''
+  credential: 'Board-certified dermatologist'
   duration: 54
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
   platform: YouTube
@@ -229,9 +229,9 @@ videos:
     scrubbing acne-prone skin.
   title: 3 Ways To Fix Bacne — From A Derm
   url: https://www.youtube.com/watch?v=OMwRjoDwJ5M
-- creator: ''
+- creator: 'Dr. Angelo Landriscina (DermAngelo)'
   creator_slug: angelo-landriscina
-  credential: ''
+  credential: 'Board-certified dermatologist'
   duration: 359
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
   platform: YouTube
@@ -246,9 +246,9 @@ videos:
     selenium and acne does not establish selenium as a therapeutic target.
   title: Will Brazil nuts cure your acne?
   url: https://www.youtube.com/watch?v=trlgLsWAYsY
-- creator: ''
+- creator: 'Dr Emma Wedgeworth'
   creator_slug: emma-wedgeworth
-  credential: ''
+  credential: 'Consultant dermatologist'
   note: Verified from the video's TikTok transcript (yt-dlp captions, read in full);
     no sponsorship.
   platform: TikTok
@@ -264,9 +264,9 @@ videos:
     She reassures viewers that both forms are entirely treatable.
   title: Adult vs Teen acne
   url: https://www.tiktok.com/@dremwedgeworth/video/7497344010160295190
-- creator: ''
+- creator: 'Dr. Sheila Farhang (dr.sheila_derm)'
   creator_slug: sheila-farhang
-  credential: ''
+  credential: 'Board-certified dermatologist'
   note: Verified from the video's TikTok transcript (yt-dlp captions, read in full);
     no sponsorship.
   platform: TikTok
@@ -289,9 +289,9 @@ videos:
     the prescription topical Winlevi, or spironolactone alongside topicals.'
   title: How to treat each of the 4 types of acne
   url: https://www.tiktok.com/@dr.sheila_derm/video/7667388983848078623
-- creator: ''
+- creator: 'Dr. Onyeka Obioha-Lolagne, MD, FAAD (Dr. Onyeka Obioha)'
   creator_slug: onyeka-obioha-lolagne
-  credential: ''
+  credential: 'Dermatologist'
   duration: 32
   note: Verified from the video's TikTok transcript (yt-dlp captions, read in full);
     no sponsorship.
@@ -306,9 +306,9 @@ videos:
     a general label-reading tip for anyone managing acne-prone skin.
   title: 3 common skincare ingredients that cause acne
   url: https://www.tiktok.com/@dr.obioha/video/7339236743608274222
-- creator: ''
+- creator: 'Dr. Heather Woolery-Lloyd (drheathermd)'
   creator_slug: heather-woolerylloyd
-  credential: ''
+  credential: 'Board-certified dermatologist'
   note: Verified from the video's TikTok transcript (yt-dlp captions, read in full);
     no sponsorship.
   platform: TikTok

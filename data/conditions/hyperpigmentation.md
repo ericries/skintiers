@@ -209,9 +209,9 @@ videos:
   title: 'Dark Inner Thighs: Causes & Treatment'
   url: https://www.youtube.com/watch?v=ghoLg47eD1U
   duration: 773
-- creator: ''
+- creator: 'Dr. Usama Syed'
   creator_slug: usama-syed
-  credential: ''
+  credential: 'Board-certified dermatologist'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
   platform: YouTube
   posted: '2020-12-18'
@@ -227,9 +227,9 @@ videos:
   title: What Causes Dark Spots On Skin?
   url: https://www.youtube.com/watch?v=Ea6D1vxbdhk
   duration: 341
-- creator: ''
+- creator: 'Dr. Lindsey Zubritsky (DermGuru)'
   creator_slug: lindsey-zubritsky
-  credential: ''
+  credential: 'Board-certified dermatologist'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
   platform: YouTube
   posted: '2026-07-09'
@@ -251,9 +251,9 @@ videos:
   title: Derm Rates Skincare For Dark Spots
   url: https://www.youtube.com/watch?v=zqhWwSRoOMU
   duration: 49
-- creator: ''
+- creator: 'Dr. Daniel Sugai'
   creator_slug: daniel-sugai
-  credential: ''
+  credential: 'Board-certified dermatologist'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
   platform: YouTube
   posted: '2026-02-28'
@@ -270,9 +270,9 @@ videos:
   title: How to ACTUALLY Fix Dark Spots (Dermatologist No-BS Guide)
   url: https://www.youtube.com/watch?v=ri4VQ79mNPY
   duration: 769
-- creator: ''
+- creator: 'Dr Emma Wedgeworth'
   creator_slug: emma-wedgeworth
-  credential: ''
+  credential: 'Consultant dermatologist'
   note: Verified from the video's TikTok transcript (yt-dlp captions, read in full);
     no sponsorship.
   platform: TikTok
@@ -291,9 +291,9 @@ videos:
     or a hormonal IUD before tablets if hormonal contraception is needed.
   title: Contraception & Pigmentation
   url: https://www.tiktok.com/@dremwedgeworth/video/7534634711046573334
-- creator: ''
+- creator: 'Dr. Sheila Farhang (dr.sheila_derm)'
   creator_slug: sheila-farhang
-  credential: ''
+  credential: 'Board-certified dermatologist'
   note: Verified from the video's TikTok transcript (yt-dlp captions, read in full);
     no sponsorship.
   platform: TikTok
@@ -310,9 +310,9 @@ videos:
     in-office treatment for this kind of dullness and discoloration.
   title: Fading dark underarms with glycolic acid
   url: https://www.tiktok.com/@dr.sheila_derm/video/7666127692139400479
-- creator: ''
+- creator: 'Dr. Geeta Yadav'
   creator_slug: geeta-yadav
-  credential: ''
+  credential: 'Skincare educator'
   note: Verified from the video's TikTok transcript (yt-dlp captions, read in full);
     no sponsorship.
   platform: TikTok

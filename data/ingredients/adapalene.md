@@ -9,9 +9,9 @@ type: ingredient
 updated: '2026-07-28'
 videos:
 - title: "Can Adapalene Really Prevent Wrinkles? Dermatologist Q&A"
-  creator: ""
+  creator: 'Andrea Suarez (Dr Dray)'
   creator_slug: andrea-suarez-dr-dray
-  credential: ""
+  credential: 'Board-certified dermatologist'
   platform: YouTube
   url: https://www.youtube.com/watch?v=l30kQh-VdwI
   duration: 1303

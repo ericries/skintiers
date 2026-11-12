@@ -9,9 +9,9 @@ type: ingredient
 updated: '2026-08-15'
 videos:
 - title: "PDRN chat: how to choose a PDRN product"
-  creator: ""
+  creator: 'Hannah English (@ms_hannah_e / Hannah Collingwood English)'
   creator_slug: hannah-english
-  credential: ""
+  credential: 'Skincare educator'
   platform: TikTok
   url: https://www.tiktok.com/@hannahcollingwoodenglish/video/7669549023509925141
   posted: '2026-08-02'
@@ -19,9 +19,9 @@ videos:
   thesis: "Hannah English, a skincare science communicator with a background in pharmaceutical research, explains what to look for when choosing a polydeoxyribonucleotide (PDRN) product. She notes that most PDRN products contain around 0.1% or less of the ingredient, so a formula with a meaningfully higher concentration (plus supporting actives like a copper-free tripeptide and panthenol) stands out, and that a workable delivery system matters as much as concentration. She also describes using PDRN to help her skin repair faster and fade post-pimple red marks while on isotretinoin, which is known to slow skin repair."
   note: "Verified from the video's TikTok transcript (yt-dlp captions, read in full); no sponsorship."
 - title: "#176) 5 PDRN Product Reviewed!"
-  creator: ""
+  creator: 'Chemist Confessions (Victoria Fu and Gloria Lu)'
   creator_slug: victoria-fu
-  credential: ""
+  credential: 'Cosmetic chemists'
   platform: YouTube
   url: https://www.youtube.com/watch?v=E0lH6oDlPyM
   duration: 2101
