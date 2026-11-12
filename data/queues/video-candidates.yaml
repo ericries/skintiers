@@ -17158,7 +17158,8 @@
   conflict: Founder/owner of active postpartum skincare brand "More Than Nine" (cleanser, exfoliator, moisturizer, balm) — an ongoing own-bran
   posted: '2026-11-11'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'ACCESS LIMIT NOT A CONTENT JUDGMENT: the clip is login-gated by TikTok and cannot be read without browser cookies, which this session cannot use; re-open if cookie access changes'
 - id: ONvhyinvtbk
   title: 'The credentials are not credentialing. #dermreacts  #skincare  #dermatologist #dermangelo '
   creator: Dr. Angelo Landriscina (DermAngelo)
@@ -17185,7 +17186,8 @@
   conflict: Bio includes a business/booking contact email suggesting managed brand partnerships; no confirmed own-brand line or affiliate stor
   posted: '2026-11-12'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: deodorant and aluminium topic; the site has no page for it, so no single-topic match
 - id: '7706973905721888014'
   title: Everesse is becoming one of my most popular procedures in my office! ...
   creator: Dr. Chris Tomassian
@@ -17211,7 +17213,8 @@
   conflict: Co-developed/formulated the Tbh Skincare 'Rebound' Serum and Toner (product-formulation partnership) — her endorsement of that spe; no YouTube; TikTok/IG intake
   posted: '2026-11-11'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'makeup: blush stick swatching, out of scope'
 - id: '7707018482562485518'
   title: This is why you read the ingredient list… ✅ fungal acne friendly ✅ no...
   creator: Kristin Leite (kristingl)
@@ -17224,7 +17227,8 @@
   conflict: runs an Amazon affiliate storefront and does sponsored posts - strongly prefer educational / how-to / ingredient-explainer videos; be very cautious with any product recommendation
   posted: '2026-11-11'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: product review tagging the brand @Dr.Althea US, from a creator whose picks are treated as effectively paid via her affiliate storefront
 - id: '7706973013530430750'
   title: Fugly, embarrassing, and boner killer are some of the words I would u...
   creator: Dr. Mamina Turegano
@@ -17237,7 +17241,8 @@
   conflict: null
   posted: '2026-11-11'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 28s product promotion tagging @beautycorelife plus a comment-gated lead magnet
 - id: BxbaALr8T_4
   title: 'Trader Joe’s skincare routine for healthy aging #skincare stitch with grace.pasquantino'
   creator: Dr. Neera Nathan
@@ -17320,4 +17325,5 @@
   conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan and reject any sponsored/affiliate/gifted video
   posted: '2026-11-11'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 12s, under the 25s floor, and an endorsement tagging two brands
