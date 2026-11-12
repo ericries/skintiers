@@ -6932,6 +6932,26 @@ skin1004:
     '
   score: 8
   verdict: self-reviewed
+skin1004-centella-soothing-cream:
+  assurance: sonnet
+  notes: 'Built entirely from the brand''s own storefront, product page and products.json, both cached. THE
+    THESIS IS THIS SITE''S OWN GRADES TURNED ON THE PRODUCT: it is named and sold on centella, which carries
+    tier weak here, while the brand''s own Key Ingredients line also names Ceramide NP and cholesterol, and
+    ceramides carry tier mid. The name sells the weakest ingredient in the tube. That is checkable by clicking
+    through rather than by citation, which is why the two internal-grade claims are plain wikilinks: the first
+    draft gave them footnotes pointing at PubMed SEARCH URLs, which dressed an internal fact as an external
+    source, and they were removed before publish. ABSENCE REPORTED CAREFULLY: the brand publishes a five-item
+    Key Ingredients line and no full ordered INCI, checked by reading the whole 566 KB page, and the page says
+    why that matters (without the order you cannot tell whether the ceramides are meaningful or a pinch).
+    incidecoder does carry a 38-entry ordered INCI for this product and it is deliberately NOT used or cited,
+    per the aggregator rule. IMAGE: the brand feed''s first image is a MODEL SHOT and was rejected and
+    deleted under the image rule; the third image is a clean silo and is used, composited onto white because
+    the PNG transparency otherwise rendered green. Packaging text is read off that photograph and attributed
+    as such. Verbatim check over 23 quoted strings, 3 flagged and all 3 the known inter-quote span artifact.
+    Main loop, no subagent, hence sonnet.'
+  reviewed: '2026-11-11'
+  reviewer: main-loop self-verification
+  verdict: publish
 skin1004-hyalu-cica-water-fit-sun-serum-uv:
   last_reviewed: '2026-08-16'
   note: Drain wave. Critic revise->fixed. Gates clean; force-published.
@@ -9612,5 +9632,6 @@ cerave-hydrating-hyaluronic-acid-serum:
   verdict: publish
   note: 'THE PAGE''S FINDING IS THE INGREDIENT ORDER: a serum named for hyaluronic acid in which glycerin sits second and sodium hyaluronate sixth of 24. Not a criticism of the formula, since sodium hyaluronate works at fractions of a percent, but a correction to the name on the bottle, and the page says exactly that rather than scoring a cheap point. VERIFY CAUGHT ME CITING AN AGGREGATOR AS EVIDENCE. I footnoted the INCI to INCIDecoder, which the house rule forbids and sk verify blocks with an ERROR. The brand''s own page is the correct source and it does NOT publish the list: checked by string search of the fetched markup, which contains no occurrence of Aqua, Glycerin, Sodium Hyaluronate or Phytosphingosine. RATHER THAN DODGE THE GATE by stripping the URL and keeping a buried claim, I moved the provenance into the open: the body now names INCIDecoder as an aggregator in the sentence that uses the order, says the brand page carried no list on the date fetched, and frames it as a reading
     anyone can repeat rather than as evidence. The brand footnote records the absence check. GRADED THE HYDRATION CLAIM solid but said the grade belongs to the humectants rather than the bottle, since no product-specific trial exists. The brand''s quantified ''up to 24 hours of hydration'' is quarantined as uncited. Got a real front photo from the same lookup, so this page needs no image cron.'
+
 
 

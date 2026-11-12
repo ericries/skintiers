@@ -4168,3 +4168,16 @@
     carefully: the Lotrimin work earlier this month showed that labelled scope and
     approval route differ between these products more than the shelf suggests. Restore
     the wikilink on luliconazole when the page lands.'
+- name: Trehalose (topical humectant)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: skin1004-centella-soothing-cream
+  source: 'Named in SKIN1004''s own published Key Ingredients line for the Centella
+    Soothing Cream (brand page read and cached 2026-11-11) alongside centella, sodium
+    hyaluronate, Ceramide NP and cholesterol: ''Trehalose''. It appears as a humectant
+    across several K-beauty moisturizers the site now covers and has no page here,
+    while its co-ingredients all do. Check first whether the human topical evidence
+    amounts to anything beyond in-vitro osmoprotection; if it is thin, say so and
+    set tier weak rather than padding the page. Do NOT re-argue the general humectant
+    case that [[glycerin]] and [[sodium-hyaluronate]] already own.'

@@ -5164,21 +5164,35 @@
   priority: 4
   status: pending
   discovered_from: pdrn
-  source: Dr. Sarah Sheu - Hype or Breakthrough? VEGAN PDRN in Skincare (video, iCIV10lpj14)
-    Named in the transcript of the video carded on [[pdrn]] as the reviewer's favourite
-    PDRN product she has tried, with the explicit caveat that she is 'not sure that
-    it's accomplishing any of the magical claims that the skincare companies are making'
-    and that it 'just gives me a nice glow'. That caveat belongs on the page. [[pdrn]]
-    is graded tier weak and the page should inherit that rather than re-arguing it.
-    Note the carding creator advises Korean skincare brands entering the US market
-    (disclosed consulting, recorded in data/video-sources.yaml); the video itself
-    was cross-brand and unsponsored, but do not treat her naming of this product as
-    independent endorsement. Resolve the exact product name and INCI before drafting;
-    the captions render the brand as IOPE and IOP.
+  source: 'Dr. Sarah Sheu - Hype or Breakthrough? VEGAN PDRN in Skincare (video, iCIV10lpj14)
+    Named in the transcript of the video carded on [[pdrn]] as the reviewer''s favourite
+    PDRN product she has tried, with the explicit caveat that she is ''not sure that
+    it''s accomplishing any of the magical claims that the skincare companies are
+    making'' and that it ''just gives me a nice glow''. That caveat belongs on the
+    page. [[pdrn]] is graded tier weak and the page should inherit that rather than
+    re-arguing it. Note the carding creator advises Korean skincare brands entering
+    the US market (disclosed consulting, recorded in data/video-sources.yaml); the
+    video itself was cross-brand and unsponsored, but do not treat her naming of this
+    product as independent endorsement. Resolve the exact product name and INCI before
+    drafting; the captions render the brand as IOPE and IOP. 2026-11-11 BLOCKED ON
+    A PRIMARY INCI, not on research effort. Exact name resolved: IOPE PDRN Caffeine
+    Shot Serum. incidecoder carries a full 29-entry ordered INCI and a front photo
+    (iope-pdrn-caffeine-shot-serum), and that list contains NO sodium DNA and NO polydeoxyribonucleotide;
+    its first ingredient is Lactobacillus Ferment Lysate, which fits the ''vegan PDRN''
+    framing in the video title that queued this. THAT WOULD BE THE PAGE''S WHOLE POINT
+    and it is an ABSENCE claim, so it cannot rest on an aggregator: sk verify ERRORs
+    on incidecoder as a footnote and the site''s convention (see anua-heartleaf-77-soothing-toner)
+    is to cite the brand''s own product page for an INCI. Four primary routes tried
+    2026-11-11 and all failed: us.iope.com and iope.com products.json (404 or not
+    JSON), global.iope.com (no response), amorepacific.com brand page (404), oliveyoungglobal
+    search (401). Amazon is gate-refused. NEXT WORKER: find any reachable IOPE or
+    Amorepacific product page that publishes the ingredient list, or a non-retailer
+    regulatory listing, and only then write the absence. Do NOT write it from incidecoder,
+    and do NOT soften it into a vague claim to get round the sourcing problem.'
 - name: SKIN1004 Centella Soothing Cream
   type: product
   priority: 4
-  status: pending
+  status: done
   discovered_from: skin1004-madagascar-centella-light-cleansing-oil
   source: 'skin1004.com RECOMMENDED WITH block, $7.50, read 2026-11-03 Listed at 7.50
     USD in the RECOMMENDED WITH block of the brand page cached at research-cache/web/50c053677c5d4c3c.md.
@@ -6357,3 +6371,18 @@
     K212238 and report whether Therabody''s NFO indication is worded the same way,
     and whether its filing reports any clinical testing. If the wording matches, that
     is a cross-brand uniformity worth recording on [[home-device-wrinkle-claims-by-cleared-scope]].'
+- name: 'SKIN1004 range: use the brand feed, not a metered lookup'
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: skin1004-centella-soothing-cream
+  source: 'Already queued separately as ''SKIN1004 Centella Ampoule (Signature Soothing
+    Ampoule)''; this row adds the SOURCING now that the brand feed is known readable.
+    skin1004.com/products.json returned HTTP 200 and 90 products on 2026-11-11 and
+    is cached, so prices, variants, claims and clean product photography need no metered
+    lookup for ANY SKIN1004 product. CAVEAT LEARNED ON THE CREAM: the brand publishes
+    only a short ''Key Ingredients'' line, not a full ordered INCI, so composition
+    claims must be scoped to what the brand actually prints; incidecoder has fuller
+    lists but is an aggregator and cannot be a footnote. SECOND CAVEAT: the first
+    image in each feed entry is a model shot, not the product; take a later silo image
+    and composite it onto white, since the PNGs carry transparency that renders green.'
