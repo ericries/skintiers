@@ -6420,3 +6420,20 @@
     this row as unresolvable rather than attaching the trial to a plausible-looking
     Nu Skin product; the trial is the only human evidence topical salicin has and
     mis-attaching it would be worse than having no page.
+- name: Verify the melissajanelee figures on the Timeless and Maelove pages
+  type: product
+  priority: 3
+  status: pending
+  discovered_from: best-affordable-drugstore-dupes
+  source: 'ACCURACY REPAIR, found 2026-11-12 while fixing the orphaned footnotes on
+    [[best-affordable-drugstore-dupes]]. That page cited melissajanelee.com for Timeless
+    at 20 percent l-ascorbic acid with 1 percent vitamin E and 1 percent ferulic acid
+    at pH 2.4, and for Maelove at 15 percent l-ascorbic acid at pH 3.2. THE LOCAL
+    CACHE ENTRY FOR THAT URL IS A 403 FORBIDDEN PAGE containing no article text, so
+    none of those figures can be verified from it. The list page has had the dependent
+    claims REMOVED rather than restated unsupported. The same source is cited on [[timeless-20-vitamin-c-e-ferulic-serum]]
+    and [[maelove-the-glow-maker]], which have NOT been checked and may carry the
+    same unverifiable figures. ACTION: run source_cache.py get on that URL from those
+    two pages, and if it is still a 403, either re-fetch the live article or remove
+    the figures. Do not leave a pH or a percentage on a product page resting on a
+    cached error page.'

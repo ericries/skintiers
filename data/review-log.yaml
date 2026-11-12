@@ -798,6 +798,25 @@ best-affordable-drugstore-dupes:
   note: 'LIST wave6. Expensive-vs-cheap dupe pairs. Opus critic (93): all 7 slugs resolve, CEFer reference formula (Lin 2005) verbatim; honest (a dupe works when it matches disclosed active/conc/pH, retinoid flagged not-a-dupe). Blog sources cached. No dashes. Opus critic inline (workflow pipeline); assurance sonnet.'
   score: 9
   verdict: publish
+best-affordable-drugstore-dupes:
+  assurance: sonnet
+  notes: 'Accuracy repair, not a rewrite. The queued row said three footnotes were defined and referenced
+    nowhere, which was true, and ALSO said sk lint reported only one of the three; that second claim is wrong
+    now and the check has exactly one commit in its history, so it was never broken. Attaching the footnotes
+    to their claims turned up the real defect. [^3] is DailyMed and fine. [^2] VERIFIES ON SUBSTANCE against
+    the local cache, including the pH-strip sentence, but the footnote presented the ingredient figures as a
+    single quoted label photograph when the source gives them as a bulleted Key Ingredients list and says
+    Tocopherol where the footnote said Alpha Tocopherol; the footnote now describes the source as it actually
+    reads. [^1] CANNOT BE VERIFIED AT ALL: its cache entry is a 403 Forbidden page containing no article
+    text, so the Timeless 20/1/1 at pH 2.4 and Maelove pH 3.2 figures have nothing behind them. Those claims
+    were REMOVED from the page rather than restated unsupported, and the footnote was deleted rather than
+    left as a new orphan while fixing orphans. The finding is preserved in a priority-3 product queue row,
+    because the same source is cited on [[timeless-20-vitamin-c-e-ferulic-serum]] and
+    [[maelove-the-glow-maker]], which were NOT touched here and may carry the same unverifiable figures.
+    Repo-wide orphan count run as the row asked: 0 pages, 0 orphans. 394 tests pass. Main loop, no subagent.'
+  reviewed: '2026-11-12'
+  reviewer: main-loop self-verification
+  verdict: publish
 best-aha-exfoliant-products:
   last_reviewed: '2026-08-30'
   note: 'LIST wave3. Best-of AHA exfoliants. Opus critic (89): 8 slugs resolve, Stiller 1996 (8651713)/Smith 1996 (8784274) verbatim; FIXED a glycolic dermal-level misattribution (that was lactic 12%, Smith). Honest: concentration-matched to trial anchors, higher!=better. Main-loop: not-just reworded. No dashes. Opus critic inline (workflow pipeline); assurance opus.'

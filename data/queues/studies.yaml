@@ -2248,3 +2248,17 @@
     after year five. KEY LIMITATION to lead with: only the abstract has ever been
     read here, so cosmetic outcomes, adverse events and the cost analysis are unknown;
     say so rather than implying the full paper was consulted.'
+- name: Micali 2021 (PMID 33934474), the unqueued third arm of the comparator list
+  type: study
+  priority: 4
+  status: pending
+  discovered_from: best-affordable-drugstore-dupes
+  source: 'DEPENDENCY, made visible 2026-11-12: the queued list row ''Sensitive-skin
+    moisturiser trials by what their comparator actually was'' cannot be built until
+    its three data points have pages, and Micali 2021 (PMID 33934474) is the one that
+    is neither written nor queued. It is currently cited only on [[cradle-cap]]. Write
+    it compact per the study scope and LEAD WITH THE COMPARATOR, which is the axis
+    the list turns on: per the list row it has no control arm at all, so verify that
+    against the abstract and state it as an absence with the strings searched. The
+    other two are [[jiang-2025-cream-neurovascular-sensitive-skin-pmid-40736038]],
+    already published, and Wananukul 2012 (PMID 21790793), already queued.'

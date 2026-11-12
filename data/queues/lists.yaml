@@ -1155,7 +1155,16 @@
     33934474, cited on [[cradle-cap]]) had no control at all. The point is that none
     of them can separate a product from spontaneous improvement, which is the same
     failure [[cradle-cap]] documents in a self-limiting condition. Do NOT open new
-    study pages to fill this; wait until the queued ones ship.'
+    study pages to fill this; wait until the queued ones ship. 2026-11-12 READINESS
+    CHECKED, NOT READY, and this is the second time it has reached the head. Of its
+    three data points only ONE has a page: [[jiang-2025-cream-neurovascular-sensitive-skin-pmid-40736038]].
+    Wananukul 2012 (PMID 21790793) is still PENDING in the study queue at priority
+    4, and Micali 2021 (PMID 33934474) has no page and is not queued at all, it is
+    only cited on [[cradle-cap]]. The row''s own instruction is to wait rather than
+    open study pages to fill it, and a list with one linkable item and two bare citations
+    would be padding. ACTION FOR WHOEVER PICKS THIS UP: ship the Wananukul study page
+    first, queue and ship Micali, and only then build the list. Consider queueing
+    Micali now so the dependency is visible.'
 - name: Botanicals in skincare, by whether any human trial exists
   type: list
   priority: 4
@@ -1285,7 +1294,7 @@
 - name: 'FIX: best-affordable-drugstore-dupes has three orphaned footnotes'
   type: list
   priority: 4
-  status: pending
+  status: done
   discovered_from: best-affordable-drugstore-dupes
   source: 'NOT a new page. An accuracy repair found while carding a video onto [[best-affordable-drugstore-dupes]]
     on 2026-11-06. All THREE footnotes on that page are defined in the Sources section
