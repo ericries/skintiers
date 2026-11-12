@@ -5225,7 +5225,7 @@
 - name: SKIN1004 Centella Ampoule (Signature Soothing Ampoule)
   type: product
   priority: 4
-  status: pending
+  status: done
   discovered_from: emma-wedgeworth
   source: 'skin1004.com RECOMMENDED WITH block, $19.80 from $22.00, read 2026-11-03
     CHECK FOR DUPLICATE FIRST: data/products/skin1004-madagascar-centella-asiatica-100-ampoule.md
@@ -6392,3 +6392,17 @@
     lists but is an aggregator and cannot be a footnote. SECOND CAVEAT: the first
     image in each feed entry is a model shot, not the product; take a later silo image
     and composite it onto white, since the PNGs carry transparency that renders green.'
+- name: SKIN1004 Hyalu-Cica First Ampoule
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: skin1004-centella-ampoule
+  source: 'From the cached SKIN1004 feed read 2026-11-11: ''Hyalu-Cica First Ampoule'',
+    handle skin1004-madagascar-centella-hyalu-cica-first-ampoule, 50ml at $14.85 and
+    100ml at $20.70, both in stock. It pairs centella with hyaluronic acid, so it
+    is the direct test of whether this brand''s disclosure habit is per-product: [[skin1004-centella-ampoule]]
+    prints a full seven-item declaration on its own page while [[skin1004-centella-soothing-cream]]
+    prints only a five-item Key Ingredients line. CHECK THE BRAND PAGE FOR A FULL
+    DECLARATION FIRST and say which it is; that single fact decides whether the page
+    can discuss ingredient position at all. Do not fill the gap from an ingredient
+    database.'

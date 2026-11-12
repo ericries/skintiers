@@ -4189,3 +4189,16 @@
     amounts to anything beyond in-vitro osmoprotection; if it is thin, say so and
     set tier weak rather than padding the page. Do NOT re-argue the general humectant
     case that [[glycerin]] and [[sodium-hyaluronate]] already own.'
+- name: 1,2-Hexanediol and ethylhexylglycerin (preservative boosters)
+  type: ingredient
+  priority: 6
+  status: pending
+  discovered_from: skin1004-centella-ampoule
+  source: 'Fourth and sixth on the SKIN1004 Centella Ampoule''s full declaration,
+    printed on the brand''s own page and read 2026-11-12: ''1,2-Hexanediol'' and ''Ethylhexylglycerin''.
+    Both recur across the K-beauty products this site now covers and neither has a
+    page, while the preservative category page exists. They are preservative-boosters
+    and solvents rather than actives, so the honest outcome is probably ONE short
+    page or a paragraph on [[preservatives]] rather than two thin actives pages. Decide
+    which before drafting, and do not grade them as if they were treatment ingredients;
+    tier weak or no tier at all is the likely correct answer.'

@@ -6953,6 +6953,26 @@ skin1004:
     '
   score: 8
   verdict: self-reviewed
+skin1004-centella-ampoule:
+  assurance: sonnet
+  notes: 'Built entirely from the brand''s own product page, cached, plus the cached feed. THE FINDING RESTS
+    ON A PRIMARY DISCLOSURE, which is the whole reason this page can make a claim its sibling could not: for
+    THIS product SKIN1004 prints the full declaration on its own page, "Water, Glycerin, Butylene Glycol,
+    Centella Asiatica Extract, 1,2-Hexanediol, Cellulose Gum, Ethylhexylglycerin", so the position of the
+    centella is citable without touching an ingredient database. incidecoder carries the identical list and
+    was deliberately not used or cited. The thesis: a seven-ingredient ampoule sold on centella, where
+    centella is fourth and glycerin, graded good here against centella''s weak, is second. OVERCLAIM GUARDED
+    IN THE PROSE: the page states explicitly that position is not concentration and that this does not make
+    the centella trivial, only that three things are present in larger amounts. That caveat is the mirror of
+    the one on the soothing-cream page, which could not see the order at all; the two pages together show the
+    same brand disclosing at two different levels, which is said plainly rather than generalised into a claim
+    about the brand. IMAGE: the styled three-bottle shot was rejected in favour of one where the label text
+    is legible, so the packaging quotes are readable at source. Verbatim check over 20 quoted strings, 0
+    unmatched. Absence checked by reading the whole page: no percentage for the centella anywhere. Main loop,
+    no subagent, hence sonnet.'
+  reviewed: '2026-11-12'
+  reviewer: main-loop self-verification
+  verdict: publish
 skin1004-centella-soothing-cream:
   assurance: sonnet
   notes: 'Built entirely from the brand''s own storefront, product page and products.json, both cached. THE
