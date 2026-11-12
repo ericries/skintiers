@@ -1552,7 +1552,8 @@
   conflict: Muneeb Shah runs own skincare brand (Remedy Science) and Scriptable Rx venture featured on the channel
   posted: ''
   feed_rank: 13
-  status: pending
+  status: skipped
+  skip_reason: Shorts clip, too thin for a thesis
 - id: hpPc2Hmwb4s
   title: 'Introducing the Doctorly Games | Doctorly #shorts'
   creator: Doctorly
@@ -4484,7 +4485,8 @@
   conflict: null
   posted: ''
   feed_rank: 6
-  status: pending
+  status: skipped
+  skip_reason: no DIY skincare page exists here, so no single-topic match to attach it to
 - id: YoZSDvGQop8
   title: 'Clorox bath #dermreacts  #skincare  #dermatologist #dermangelo  #reactionvideo'
   creator: Dr. Angelo Landriscina (DermAngelo)
@@ -4891,7 +4893,8 @@
   conflict: Runs extensive Amazon Associates and ShopMy affiliate storefronts, monetizing nearly every product mentioned across videos
   posted: ''
   feed_rank: 6
-  status: pending
+  status: skipped
+  skip_reason: description carries a shopmy.us storefront link; this creator monetizes product mentions and her product_recs is restricted
 - id: c7u_fK6VNWM
   title: 'skincare pairings from a derm #skincare'
   creator: Dr. Neera Nathan
@@ -5845,7 +5848,8 @@
   conflict: Runs an Amazon affiliate storefront (amazon.com/shop/derm.talk); recurring disclosed paid brand partnerships (Shiseido, SkinCeutic
   posted: ''
   feed_rank: 6
-  status: pending
+  status: skipped
+  skip_reason: hashtag-stuffed Shorts-style clip, no single topic
 - id: TdP9GO34UP0
   title: '#skincare #cosmeticdermatology #skincareroutine #skincaretips #barriercream #dermatologist'
   creator: Dr. Jenny Liu (Jenny Liu, MD, FAAD)
@@ -7996,7 +8000,8 @@
   conflict: Runs an Amazon affiliate storefront (amazon.com/shop/derm.talk); recurring disclosed paid brand partnerships (Shiseido, SkinCeutic
   posted: ''
   feed_rank: 7
-  status: pending
+  status: skipped
+  skip_reason: hashtag-stuffed Shorts-style clip, no single topic
 - id: '7690277438097591566'
   title: Remember BOTH are gentle formulas  @numbuzin No.5+ Serum @Dr.Althea U...
   creator: Kristin Leite (kristingl)
@@ -9540,7 +9545,8 @@
   conflict: Runs an Amazon affiliate storefront (amazon.com/shop/derm.talk); recurring disclosed paid brand partnerships (Shiseido, SkinCeutic
   posted: ''
   feed_rank: 6
-  status: pending
+  status: skipped
+  skip_reason: hashtag-stuffed Shorts-style clip, no single topic
 - id: '7692457016907877646'
   title: Guys, there’s no drama. My first impressions on the eye masks that br...
   creator: Kristin Leite (kristingl)
@@ -15503,7 +15509,8 @@
   conflict: 'Owns and sells a skincare line (Instagram handle @skincarebydrv in her own video descriptions) and routes to it repeatedly inside educational content: in one 9-point acne video she directs viewers to ''our trio blemish range'', ''our AM and PM moisturizers'', her Citrio Blemish Exfoliator and a mineral SPF she calls ''the world''s first mineral SPF 50 formulated for skin of color with no white cast''. Treat ALL product mentions as own-brand promotion. Separately, that video states unsourced figures as fact, including ''99% of sunscreens are chemical sunscreens'' and a claim that bamboo or silk pillowcases reduce fungal growth versus cotton, so relay no statistic from this channel without checking it independently.'
   posted: ''
   feed_rank: 9
-  status: pending
+  status: skipped
+  skip_reason: no DIY skincare page to attach it to, and the creator sells her own line
 - id: 1cbaiLYv9m8
   title: A simple morning routine for brighter, more even-looking skin ✨
   creator: Dr. Vanita Rattan (Doctor V)
