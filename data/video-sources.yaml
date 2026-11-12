@@ -487,7 +487,7 @@
   last_pulled: '2026-11-10'
 - name: Dr. Maren Locke (The Budget Dermatologist)
   creator_slug: maren-locke
-  backfill_cursor: 45
+  backfill_cursor: 60
   credential: Board-certified dermatologist and fellowship-trained Mohs surgeon; founder/director of Carlyle Dermatology (Ocala, FL)
   tier: HIGH
   channel: https://www.youtube.com/channel/UCDc2wFMXTSApCa4UwDrdz_Q/videos
