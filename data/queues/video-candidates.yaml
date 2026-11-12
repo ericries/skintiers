@@ -4228,7 +4228,8 @@
   conflict: Chief Medical Officer of hair-growth-serum brand REYUS; advisory-board member of Bubble Skincare; periodic disclosed paid brand partnerships
   posted: ''
   feed_rank: 6
-  status: pending
+  status: skipped
+  skip_reason: description carries a myshlf.us storefront and an amazon product link; rejected on the description screen that should have been run first
 - id: 7JOTo7BBh-4
   title: Dermatologist Explains Molluscum and Why I Favor Treating It
   creator: Dr. Daniel Sugai
@@ -4553,7 +4554,8 @@
   conflict: Chief Medical Officer of hair-growth-serum brand REYUS; advisory-board member of Bubble Skincare; periodic disclosed paid brand partnerships
   posted: ''
   feed_rank: 6
-  status: pending
+  status: skipped
+  skip_reason: description carries a myshlf.us storefront and an amazon product link
 - id: ZL6CSmsVLaY
   title: Dangers of not finishing antibiotic course
   creator: Dr. Aanchal MD
@@ -4840,7 +4842,8 @@
   conflict: Chief Medical Officer of hair-growth-serum brand REYUS; advisory-board member of Bubble Skincare; periodic disclosed paid brand partnerships
   posted: ''
   feed_rank: 6
-  status: pending
+  status: skipped
+  skip_reason: viral-products report card plus a myshlf.us storefront and an amazon link in the description
 - id: '7686262994690477326'
   title: Not all exfoliating acids do the same thing 👀 Glycolic acid and salic...
   creator: Dr. Ife Rodney (@driferodney)
@@ -4922,7 +4925,8 @@
   conflict: Runs an own-brand practice storefront (Derm Rejuvenation Institute, Shopify); treat specific product picks as commercially incentivized.
   posted: ''
   feed_rank: 6
-  status: pending
+  status: skipped
+  skip_reason: practice vlog about billing a client, no skincare topic
 - id: '7686196103024299278'
   title: Will this replace your retinoid? Of course not. Will it help you see ...
   creator: Ella (@your.estie.ella)
@@ -4949,7 +4953,8 @@
   conflict: Founder of own-brand haircare line (Rhute); TikTok Shop affiliate/product storefront; recurring disclosed sponsored posts (No7, La Roche Pos
   posted: ''
   feed_rank: 6
-  status: pending
+  status: skipped
+  skip_reason: single-product pick clip from a creator whose product_recs is restricted
 - id: '7686561569152535838'
   title: Our breastfeeding journey’s aren’t always fine, but your skin can be....
   creator: Dr. Aegean Chan
