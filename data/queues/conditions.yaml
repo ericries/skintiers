@@ -1205,3 +1205,15 @@
     The excision page records that reasoning under its own heading; follow it rather
     than re-deciding. Keep the prose tight and link out; both pages already own the
     trial detail.'
+- name: 'psoriasis: link the apremilast pages the hub now has'
+  type: condition
+  priority: 5
+  status: pending
+  discovered_from: otezla-apremilast-tablets
+  source: 'GROUNDED 2026-11-12: [[psoriasis]] now has a systemic treatment page pointing
+    at it, [[otezla-apremilast-tablets]], plus two apremilast trial pages already
+    published (paller-2025 paediatric SPROUT, merola-2026 genital DISCREET). The hub
+    should link all three so a reader arriving at the condition can reach the best-evidenced
+    treatment this site covers for it. Check what else the hub already links before
+    adding; the point is connecting existing pages, not writing new prose about psoriasis.
+    Do NOT build a tier_list ranking systemic against topical from one drug''s trials.'

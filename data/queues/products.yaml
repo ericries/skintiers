@@ -5161,7 +5161,7 @@
     not guess at it.'
 - name: IOPE PDRN Caffeine Shot
   type: product
-  priority: 4
+  priority: 8
   status: pending
   discovered_from: pdrn
   source: 'Dr. Sarah Sheu - Hype or Breakthrough? VEGAN PDRN in Skincare (video, iCIV10lpj14)
@@ -5188,7 +5188,13 @@
     search (401). Amazon is gate-refused. NEXT WORKER: find any reachable IOPE or
     Amorepacific product page that publishes the ingredient list, or a non-retailer
     regulatory listing, and only then write the absence. Do NOT write it from incidecoder,
-    and do NOT soften it into a vague claim to get round the sourcing problem.'
+    and do NOT soften it into a vague claim to get round the sourcing problem. 2026-11-12:
+    de-prioritised 4 to 8 after heading the queue a second time while still blocked.
+    TWO MORE primary routes tried today and both failed at DNS, iope.co.kr and amorepacificmall.com,
+    which is where a Korean-law full ingredient disclosure would normally live. That
+    is six failed routes total. The finding is still worth having and the row is NOT
+    closed; it is parked so it stops displacing work that can actually be done. Restore
+    to 4 the moment a reachable primary ingredient list turns up.'
 - name: SKIN1004 Centella Soothing Cream
   type: product
   priority: 4
@@ -5205,7 +5211,7 @@
 - name: Otezla (apremilast) tablets
   type: product
   priority: 4
-  status: pending
+  status: done
   discovered_from: paller-2025-apremilast-paediatric-psoriasis-sprout-pmid-40737559
   source: 'openFDA Drugs@FDA: NDA205437 (10/20/30 mg tablets) and NDA210745 (adds
     OTEZLA XR 75 mg), sponsor Amgen Inc, all Prescription The brand behind both apremilast

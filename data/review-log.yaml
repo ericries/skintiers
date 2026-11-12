@@ -5491,6 +5491,27 @@ otc-antifungals-by-evidence:
   reviewed: '2026-10-21'
   reviewer: main-loop self-verification
   verdict: publish
+otezla-apremilast-tablets:
+  assurance: sonnet
+  notes: 'Oral prescription drug, unusual for this site, built entirely from the FDA label via openFDA plus
+    the drug/ndc records. SCOPE CHECKED BEFORE WRITING: the playbook excludes oral SUPPLEMENTS and non-topical
+    ANTI-AGEING, and apremilast is neither; the site already covers oral isotretinoin, so systemic
+    dermatology drugs are in scope by precedent. MARKETING CATEGORY VERIFIED RATHER THAN ASSUMED: every ndc
+    record returns NDA, so this is genuinely approved and not one of the older unapproved-drug categories
+    that caught this site on sulfacetamide/sulfur. THE GRADE IS THIS SITE''S OWN, NOT THE APPROVAL''S: modest,
+    taken from the ~20 percentage point gap over placebo already read out on the paller-2025 study page,
+    with the numbers left there rather than restated. THE QUARANTINE SECTION IS DELIBERATELY DIFFERENT: sk
+    verify WARNed that no marketing-claims section existed, and the lazy fix would have been to quarantine
+    the approved indications as if they were unreviewed company copy, which would flatter the device pages
+    and short-change this one. Instead the section states the distinction, names nuface-plus as the contrast,
+    and records that no promotional copy was read at all. Every quotation verified against the raw label text
+    after an initial check failed on JSON-escaped unicode; the Behcet, angioedema and contraindication
+    strings all confirmed. An ellipsis quote was replaced with the full sentence rather than left elided, and
+    a word-as-word use of approved was italicised so it does not read as a quotation. No price: prescription.
+    Main loop, no subagent, hence sonnet.'
+  reviewed: '2026-11-12'
+  reviewer: main-loop self-verification
+  verdict: publish
 oxybenzone:
   last_reviewed: '2026-08-20'
   note: 'INGREDIENT cron (dependency of the Cetaphil SPF 50 product page; oxybenzone was the first product in the dataset to name it as a real active rather than in a free-of claim). Charted compactly, tier mid. Load-bearing numbers verified VERBATIM against primaries via NCBI E-utilities: Matta JAMA 2020 (PMID 31961417) oxybenzone Cmax 258.1 ng/mL lotion / 180.1 ng/mL aerosol (highest of 6 filters, ~500x the 0.5 ng/mL threshold), threshold surpassed day 1; Schlumpf 2001 (PMID 11333184) benzophenone-3 estrogenic, uterotrophic ED 1,525 mg/kg/day. FDA 2019 proposed rule (Category III, max 6%) and Latha 2013 reused from the opus-verified octinoxate page. Honest framing: efficacy real but no long-UVA, no oxybenzone-specific clinical-endpoint trial, absorption != harm (authors advised against stopping sunscreen). Registered in the sklib uncharted->charted filter alias map. Opus critic agent unavailable (200-agent cap); verified in the Opus main loop; assurance sonnet (no independent critic).'

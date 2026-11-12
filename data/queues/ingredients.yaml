@@ -3532,7 +3532,15 @@
     page''s real value: same enzyme target, completely different route and evidence
     base. Grade it on what the trials actually show and note that both of them cross
     every patient to active drug partway through, so their long-term numbers are uncontrolled.
-    Drugs@FDA gives NDA205437 and NDA210745, sponsor Amgen.'
+    Drugs@FDA gives NDA205437 and NDA210745, sponsor Amgen. 2026-11-12: [[otezla-apremilast-tablets]]
+    now exists and carries the label detail, so this page should link out rather than
+    restate it. From the SPL read today: mechanism quoted in full including the label''s
+    own hedge that the therapeutic mechanism ''is not well defined''; warnings are
+    diarrhoea, nausea and vomiting, depression, weight decrease, drug interactions
+    and hypersensitivity; no boxed warning. SET tier FROM THE TRIALS, NOT THE APPROVAL:
+    about a 20 percentage point gap over placebo at the one paediatric timepoint with
+    a comparator (paller-2025), which argues mid rather than best. State the oral
+    route in the first line so nothing reads across to a topical.'
 - name: 1,2-Decanediol
   type: ingredient
   priority: 4
