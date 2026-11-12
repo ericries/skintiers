@@ -3286,6 +3286,27 @@ gooderham-2026-tralokinumab-4-year-atopic-dermatitis:
   note: 'Opus profile-reviewer re-verified every statistic and all four verbatim quotes against PMID 41217071 (and funding/COI against full text PMC13109762): exact match. Framing correctly flags uncontrolled open-label extension, no comparator, responder-enriched subgroup. Verdict publish.'
   score: 10
   verdict: publish
+gopaul-2010-topical-salicin-skin-aging-pmid-20883292:
+  assurance: sonnet
+  notes: 'Compact study page, built from the PubMed record only. THE WHOLE FINDING IS A MISSING ARM: searched
+    in full, the abstract contains no occurrence of random, placebo, vehicle, control, blind or split-face,
+    so every reported improvement is against the participant''s own baseline after 12 weeks of twice-daily
+    serum use. The page states that absence with the exact strings searched rather than calling the study
+    uncontrolled and leaving the reader to trust it. SECOND POINT, WHICH THE PAPER''S OWN CONCLUSION SKIPS:
+    what was tested is a serum CONTAINING 0.5 percent salicin, so any result belongs to the formulation, not
+    the ingredient; no arm omitted the salicin. The conclusion nevertheless generalises to the ingredient and
+    the page quotes it doing so. THIRD: the stated premise is unpublished in-house work and the mechanism it
+    borrows is ORAL anti-inflammatory research, both quoted from the Background. EFFECT SIZE DECLARED NOT
+    REPORTABLE: no mean change, SD or CI anywhere, only significant against baseline attached to graded
+    attributes; the page flags the week-1 wrinkle result as the one to look at hardest, since one week is
+    short for a wrinkle change and easy for hydration to produce. Affiliation reported as the record prints
+    it (Nu Skin Enterprises) with no allegation attached, and PubMed records no COI or funding statement.
+    Verbatim check over 16 quoted strings, 0 unmatched. ONE STYLE WARN LEFT STANDING AND IT IS A FALSE
+    POSITIVE: the checker flags in-house as process meta, but the only occurrence is inside the paper''s own
+    quoted sentence, verified by grep. Main loop, no subagent, hence sonnet.'
+  reviewed: '2026-11-12'
+  reviewer: main-loop self-verification
+  verdict: publish
 green-tea-egcg:
   last_reviewed: '2026-08-30'
   note: INGREDIENT wave. Camellia sinensis EGCG polyphenol antioxidant. tier:mid honest - real mechanistic photoprotection (Elmets 2001 PMID 11209110) + positive 62-person scar RCT (Ud-Din 2019) BUT flagship anti-aging RCT (Chiu 2005) clinically NEGATIVE. All quotes verbatim vs eutils + PubChem CID 65064. Opus critic removed broken [[antioxidants]] link. tier:mid. Opus critic inline (workflow pipeline); assurance opus.

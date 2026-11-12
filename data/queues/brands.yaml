@@ -841,4 +841,12 @@
   priority: 6
   status: pending
   discovered_from: el-global-trade-deepskin-dep100
-  source: https://www.accessdata.fda.gov/cdrh_docs/pdf25/K252621.pdf
+  source: 'https://www.accessdata.fda.gov/cdrh_docs/pdf25/K252621.pdf 2026-11-12:
+    [[gopaul-2010-topical-salicin-skin-aging-pmid-20883292]] now exists and gives
+    this brand a second inbound link alongside [[willow-bark-extract]]. PubMed prints
+    the affiliation as ''Nu Skin Enterprises, Global Research and Development, Provo,
+    UT, USA''. The study is an uncontrolled trial of the company''s own serum that
+    concludes the INGREDIENT works, which the study page already dissects, so the
+    brand card must link out rather than restate it. Check whether the site covers
+    any Nu Skin product before opening the page; with no product pages, a brand card
+    carrying one study link may not earn its place yet and closing the row is acceptable.'

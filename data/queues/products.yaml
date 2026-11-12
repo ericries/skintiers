@@ -6406,3 +6406,17 @@
     DECLARATION FIRST and say which it is; that single fact decides whether the page
     can discuss ingredient position at all. Do not fill the gap from an ingredient
     database.'
+- name: The Nu Skin 0.5% salicin serum used in Gopaul 2010 (identity unresolved)
+  type: product
+  priority: 6
+  status: pending
+  discovered_from: gopaul-2010-topical-salicin-skin-aging-pmid-20883292
+  source: IDENTITY NOT RESOLVED, DO NOT DRAFT FROM A GUESS. The Gopaul 2010 trial
+    (PMID 20883292) tested 'the study serum product containing 0.5% salicin' twice
+    daily for 12 weeks, and the abstract never names it. Nu Skin is the sponsor. A
+    page is only worth opening if the specific marketed serum can be identified from
+    a primary source, meaning the full paper or the company's own product documentation,
+    and its salicin percentage confirmed as 0.5. If it cannot be pinned down, resolve
+    this row as unresolvable rather than attaching the trial to a plausible-looking
+    Nu Skin product; the trial is the only human evidence topical salicin has and
+    mis-attaching it would be worse than having no page.

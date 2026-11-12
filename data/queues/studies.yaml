@@ -1877,7 +1877,7 @@
 - name: 'Gopaul 2010: 0.5% salicin serum and visible skin ageing (PMID 20883292)'
   type: study
   priority: 4
-  status: pending
+  status: done
   discovered_from: willow-bark-extract
   source: 'https://pubmed.ncbi.nlm.nih.gov/20883292/ J Cosmet Dermatol 2010;9(3):196-201,
     doi 10.1111/j.1473-2165.2010.00512.x. The main human study behind topical salicin,
