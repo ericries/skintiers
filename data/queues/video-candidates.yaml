@@ -17036,19 +17036,6 @@
   feed_rank: 0
   status: skipped
   skip_reason: strong 101 on botanical extracts but the site has no botanicals hub, only specific plant ingredient pages; no single-topic match
-- id: '7706665311633771790'
-  title: 'Top 5 ways to get rid of hyperpigmentation #hyperpigmentation #darksp...'
-  creator: Jenn Lexi (@jennlexi_)
-  creator_slug: jennlexi
-  credential: Esthetician (self-identified); not a dermatologist or cosmetic chemist
-  channel: https://www.tiktok.com/@jennlexi_
-  platform: TikTok
-  tier: MED
-  product_recs: restricted
-  conflict: 'Runs #ad sponsored posts (e.g. TruSkin) and Target skincare hauls/reviews; prefer her educational ingredient-category and barrier-repair explainers, and treat product recommendations as effectively promotional (skip).'
-  posted: '2026-11-10'
-  feed_rank: 0
-  status: pending
 - id: '7706586199720201485'
   title: It seems like everyone wants to be a K-beauty brand now that it's vir...
   creator: Kristin Leite (kristingl)
@@ -17158,8 +17145,164 @@
   feed_rank: 0
   status: skipped
   skip_reason: 'description carries the hashtag #sponsored; mandatory scan rejects regardless of topic'
-- id: '7706561166939655438'
-  title: 'You don’t need ALL the things, you need simplicity and time.  #creato...'
+- id: '7706982748992425229'
+  title: DON’T BELIEVE ME?  That’s okay, I’m just a random derm on the interne...
+  creator: Dr. Aegean Chan
+  creator_slug: aegean-chan
+  credential: Board-certified dermatologist
+  channel: https://www.tiktok.com/@draegeanchan
+  platform: TikTok
+  tier: HIGH
+  product_recs: restricted
+  conflict: Founder/owner of active postpartum skincare brand "More Than Nine" (cleanser, exfoliator, moisturizer, balm) — an ongoing own-bran
+  posted: '2026-11-11'
+  feed_rank: 0
+  status: pending
+- id: ONvhyinvtbk
+  title: 'The credentials are not credentialing. #dermreacts  #skincare  #dermatologist #dermangelo '
+  creator: Dr. Angelo Landriscina (DermAngelo)
+  creator_slug: angelo-landriscina
+  credential: Board-certified dermatologist
+  channel: https://www.youtube.com/@DermAngelo/videos
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Own-brand UPF sun-protective clothing line, SOUL-A (wearsoula.com / @wearsoula), founded and promoted by him — apparel, not topical skincare
+  posted: ''
+  feed_rank: 0
+  status: pending
+- id: '7707099535503314207'
+  title: 'Aluminum free is not for me '
+  creator: Dr. Chris Tomassian
+  creator_slug: chris-tomassian
+  credential: Board-certified dermatologist
+  channel: https://www.tiktok.com/@dr.tomassian
+  platform: TikTok
+  tier: MED
+  product_recs: ok
+  conflict: Bio includes a business/booking contact email suggesting managed brand partnerships; no confirmed own-brand line or affiliate stor
+  posted: '2026-11-12'
+  feed_rank: 0
+  status: pending
+- id: '7706973905721888014'
+  title: Everesse is becoming one of my most popular procedures in my office! ...
+  creator: Dr. Chris Tomassian
+  creator_slug: chris-tomassian
+  credential: Board-certified dermatologist
+  channel: https://www.tiktok.com/@dr.tomassian
+  platform: TikTok
+  tier: MED
+  product_recs: ok
+  conflict: Bio includes a business/booking contact email suggesting managed brand partnerships; no confirmed own-brand line or affiliate stor
+  posted: '2026-11-11'
+  feed_rank: 1
+  status: pending
+- id: '7707030439785254165'
+  title: 'marc jacobs blush stick in Last Word: trying purple blush on pale coo...'
+  creator: Hannah English (@ms_hannah_e / Hannah Collingwood English)
+  creator_slug: hannah-english
+  credential: Skincare educator
+  channel: https://www.tiktok.com/@hannahcollingwoodenglish
+  platform: TikTok
+  tier: HIGH
+  product_recs: restricted
+  conflict: Co-developed/formulated the Tbh Skincare 'Rebound' Serum and Toner (product-formulation partnership) — her endorsement of that spe; no YouTube; TikTok/IG intake
+  posted: '2026-11-11'
+  feed_rank: 0
+  status: pending
+- id: '7707018482562485518'
+  title: This is why you read the ingredient list… ✅ fungal acne friendly ✅ no...
+  creator: Kristin Leite (kristingl)
+  creator_slug: kristin-leite
+  credential: Beauty product developer and skincare educator (NOT a dermatologist or cosmetic chemist)
+  channel: https://www.tiktok.com/@kristingl
+  platform: TikTok
+  tier: MED
+  product_recs: null
+  conflict: runs an Amazon affiliate storefront and does sponsored posts - strongly prefer educational / how-to / ingredient-explainer videos; be very cautious with any product recommendation
+  posted: '2026-11-11'
+  feed_rank: 0
+  status: pending
+- id: '7706973013530430750'
+  title: Fugly, embarrassing, and boner killer are some of the words I would u...
+  creator: Dr. Mamina Turegano
+  creator_slug: mamina-turegano
+  credential: Board-certified in dermatology, internal medicine and dermatopathology; practices at Sanova Dermatology, Metairie, Louisiana
+  channel: https://www.tiktok.com/@dr.mamina
+  platform: TikTok
+  tier: MED
+  product_recs: restricted
+  conflict: null
+  posted: '2026-11-11'
+  feed_rank: 0
+  status: pending
+- id: BxbaALr8T_4
+  title: 'Trader Joe’s skincare routine for healthy aging #skincare stitch with grace.pasquantino'
+  creator: Dr. Neera Nathan
+  creator_slug: neera-nathan
+  credential: Board-certified dermatologist
+  channel: https://www.youtube.com/@dermatologysurgeon
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Runs a "Shop my Favorites" affiliate storefront (linktr.ee/dermatologysurgeon) that monetizes her product picks; no own-brand prod
+  posted: ''
+  feed_rank: 0
+  status: pending
+- id: RQ3PpHdXAD4
+  title: 'Refresh Unscented Foaming Cleanser | Derm & Rejuvenation Institute '
+  creator: Tanya Kormeili, MD, FAAD
+  creator_slug: tanya-kormeili-md
+  credential: Board-certified dermatologist (American Board of Dermatology), FAAD, Clinical Professor of Dermatology at UCLA David Geffen School of Medicine; MD UCLA, residency UC Irvine
+  channel: https://www.youtube.com/channel/UCRK0TPthymHl44WeA0nZ6Mw/videos
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Runs an own-brand practice storefront (Derm Rejuvenation Institute, Shopify); treat specific product picks as commercially incentivized.
+  posted: ''
+  feed_rank: 0
+  status: pending
+- id: y0g5t0TdMA8
+  title: 'Refresh Silk Cleansing Balm | Derm & Rejuvenation Institute '
+  creator: Tanya Kormeili, MD, FAAD
+  creator_slug: tanya-kormeili-md
+  credential: Board-certified dermatologist (American Board of Dermatology), FAAD, Clinical Professor of Dermatology at UCLA David Geffen School of Medicine; MD UCLA, residency UC Irvine
+  channel: https://www.youtube.com/channel/UCRK0TPthymHl44WeA0nZ6Mw/videos
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Runs an own-brand practice storefront (Derm Rejuvenation Institute, Shopify); treat specific product picks as commercially incentivized.
+  posted: ''
+  feed_rank: 1
+  status: pending
+- id: P-zOynFkOu8
+  title: 'Purely Physical Sunscreen | Derm & Rejuvenation Institute '
+  creator: Tanya Kormeili, MD, FAAD
+  creator_slug: tanya-kormeili-md
+  credential: Board-certified dermatologist (American Board of Dermatology), FAAD, Clinical Professor of Dermatology at UCLA David Geffen School of Medicine; MD UCLA, residency UC Irvine
+  channel: https://www.youtube.com/channel/UCRK0TPthymHl44WeA0nZ6Mw/videos
+  platform: YouTube
+  tier: HIGH
+  product_recs: restricted
+  conflict: Runs an own-brand practice storefront (Derm Rejuvenation Institute, Shopify); treat specific product picks as commercially incentivized.
+  posted: ''
+  feed_rank: 2
+  status: pending
+- id: hvKYrr4X1mU
+  title: 'Doctor: 3 PROVEN Oils To Reverse Wrinkles'
+  creator: Dr. Vanita Rattan (Doctor V)
+  creator_slug: vanita-rattan
+  credential: Describes herself on camera as a medically qualified doctor who is also a cosmetic formulator for skin of colour, and as a published author with HarperCollins; she does not claim to be a dermatologist. Self-stated and not independently verified against a medical register by this site.
+  channel: https://www.youtube.com/channel/UC4u0qaMIAgOL8L37RwLcDQA
+  platform: YouTube
+  tier: MED
+  product_recs: null
+  conflict: 'Owns and sells a skincare line (Instagram handle @skincarebydrv in her own video descriptions) and routes to it repeatedly inside educational content: in one 9-point acne video she directs viewers to ''our trio blemish range'', ''our AM and PM moisturizers'', her Citrio Blemish Exfoliator and a mineral SPF she calls ''the world''s first mineral SPF 50 formulated for skin of color with no white cast''. Treat ALL product mentions as own-brand promotion. Separately, that video states unsourced figures as fact, including ''99% of sunscreens are chemical sunscreens'' and a claim that bamboo or silk pillowcases reduce fungal growth versus cotton, so relay no statistic from this channel without checking it independently.'
+  posted: ''
+  feed_rank: 0
+  status: pending
+- id: '7707054253633768717'
+  title: I don’t even want to think about how my skin would be without the @Mu...
   creator: Ella (@your.estie.ella)
   creator_slug: your-estie-ella
   credential: Licensed esthetician (NOT a dermatologist or cosmetic chemist)
@@ -17168,6 +17311,6 @@
   tier: MED
   product_recs: ok
   conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan and reject any sponsored/affiliate/gifted video
-  posted: '2026-11-10'
+  posted: '2026-11-11'
   feed_rank: 0
   status: pending
