@@ -590,7 +590,8 @@
   conflict: Recurring paid partnerships (Dermatica affiliate code "DRALEXIS" on multiple videos, La Roche-Posay branded partner content, SkinBetter Scie
   posted: ''
   feed_rank: 6
-  status: pending
+  status: skipped
+  skip_reason: no scalp-ageing page here; hair-loss-thinning covers loss, not scalp ageing signs, so no single-topic match
 - id: SDqHAHYZSsQ
   title: That “Mustache” Might Actually Be Melasma...Stop Waxing It
   creator: Dr. Alexis Stephens
@@ -17170,7 +17171,8 @@
   conflict: Own-brand UPF sun-protective clothing line, SOUL-A (wearsoula.com / @wearsoula), founded and promoted by him — apparel, not topical skincare
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: commentary clip on credentialing, no single site topic to attach it to
 - id: '7707099535503314207'
   title: 'Aluminum free is not for me '
   creator: Dr. Chris Tomassian
@@ -17248,7 +17250,8 @@
   conflict: Runs a "Shop my Favorites" affiliate storefront (linktr.ee/dermatologysurgeon) that monetizes her product picks; no own-brand prod
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: retailer picks roundup from a creator who monetizes picks through a Shop My Favorites storefront
 - id: RQ3PpHdXAD4
   title: 'Refresh Unscented Foaming Cleanser | Derm & Rejuvenation Institute '
   creator: Tanya Kormeili, MD, FAAD
@@ -17261,7 +17264,8 @@
   conflict: Runs an own-brand practice storefront (Derm Rejuvenation Institute, Shopify); treat specific product picks as commercially incentivized.
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'own-brand product video: Derm & Rejuvenation Institute is this creator''s own practice storefront'
 - id: y0g5t0TdMA8
   title: 'Refresh Silk Cleansing Balm | Derm & Rejuvenation Institute '
   creator: Tanya Kormeili, MD, FAAD
@@ -17274,7 +17278,8 @@
   conflict: Runs an own-brand practice storefront (Derm Rejuvenation Institute, Shopify); treat specific product picks as commercially incentivized.
   posted: ''
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: 'own-brand product video: Derm & Rejuvenation Institute is this creator''s own practice storefront'
 - id: P-zOynFkOu8
   title: 'Purely Physical Sunscreen | Derm & Rejuvenation Institute '
   creator: Tanya Kormeili, MD, FAAD
@@ -17287,7 +17292,8 @@
   conflict: Runs an own-brand practice storefront (Derm Rejuvenation Institute, Shopify); treat specific product picks as commercially incentivized.
   posted: ''
   feed_rank: 2
-  status: pending
+  status: skipped
+  skip_reason: 'own-brand product video: Derm & Rejuvenation Institute is this creator''s own practice storefront'
 - id: hvKYrr4X1mU
   title: 'Doctor: 3 PROVEN Oils To Reverse Wrinkles'
   creator: Dr. Vanita Rattan (Doctor V)
@@ -17300,7 +17306,8 @@
   conflict: 'Owns and sells a skincare line (Instagram handle @skincarebydrv in her own video descriptions) and routes to it repeatedly inside educational content: in one 9-point acne video she directs viewers to ''our trio blemish range'', ''our AM and PM moisturizers'', her Citrio Blemish Exfoliator and a mineral SPF she calls ''the world''s first mineral SPF 50 formulated for skin of color with no white cast''. Treat ALL product mentions as own-brand promotion. Separately, that video states unsourced figures as fact, including ''99% of sunscreens are chemical sunscreens'' and a claim that bamboo or silk pillowcases reduce fungal growth versus cotton, so relay no statistic from this channel without checking it independently.'
   posted: ''
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: title claims 3 PROVEN oils to REVERSE wrinkles, an efficacy overclaim no oil evidence supports, from a creator who sells her own line
 - id: '7707054253633768717'
   title: I don’t even want to think about how my skin would be without the @Mu...
   creator: Ella (@your.estie.ella)
