@@ -9,6 +9,15 @@ analyzed: '2026-11-12'
 assurance: sonnet
 brand: Amgen
 category: Prescription
+images:
+- file: otezla-apremilast-tablets-dailymed.jpg
+  source: DailyMed (FDA label image, Otezla 28 Day Treatment Initiation Pack carton,
+    10 mg and 20 mg, NDC 55513-508-55)
+  source_url: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f6b1f516-4972-4d82-bced-113e47b41cc5
+- file: otezla-apremilast-tablets-dailymed-xr.jpg
+  source: DailyMed (FDA label image, Otezla XR 75 mg bottle label, 30 tablets, NDC
+    55513-519-30)
+  source_url: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f6b1f516-4972-4d82-bced-113e47b41cc5
 comparator: topical prescription treatments for the same disease, which this site
   covers far more of; the oral route is the whole difference
 grades:
