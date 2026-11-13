@@ -1053,7 +1053,7 @@
 - name: Post-inflammatory hyperpigmentation after energy-based facial procedures
   type: condition
   priority: 4
-  status: pending
+  status: done
   discovered_from: li-2026-rfmn-vs-fractional-co2-acne-scars-pmid-42312398
   source: 'GROUNDED IN A FINDING, NOT A GUESS: the split-face trial [[li-2026-rfmn-vs-fractional-co2-acne-scars-pmid-42312398]]
     reports ''fewer post-inflammatory hyperpigmentation events'' with RF microneedling

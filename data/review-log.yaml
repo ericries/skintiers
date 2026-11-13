@@ -6122,6 +6122,28 @@ post-inflammatory-erythema:
   note: 'NEW HUB (condition). PIE = flat RED marks after acne (vascular), distinct from brown PIH. Opus critic (9): all 5 slugs + DermNet + Lopez (42234395) verbatim; added disclaimer. HONEST: self-fades over months w/sun protection, topicals modest, red not brown so melanin-brighteners wrong target, persistent = laser. tier_list [[sunscreen-uv-filters]]/[[niacinamide]]/[[azelaic-acid]]/[[retinoids]]. No dashes. Opus critic inline (workflow pipeline); assurance opus.'
   score: 9
   verdict: publish
+post-inflammatory-hyperpigmentation:
+  assurance: sonnet
+  notes: 'Condition hub for a gap the row found twice in one day: the site had post-inflammatory ERYTHEMA and
+    not PIH. Built on two reviews, both quote-verified today across 20 quoted strings with 0 unmatched.
+    THE SPINE IS KASHETSKY 2024, a PRISMA systematic review of 41 studies and 877 patients, and its numbers
+    carry the page: complete response 18.1 percent for laser and energy-based devices, 5.4 for topicals, 2.4
+    for combination; partial response 84.9 for combination, 72.4 for topicals, 61.2 for lasers, 33.3 for
+    peels. Every percentage and n-of-N was checked against the abstract string by string. NO TIER LIST, and
+    the page says why in its own words: the category that clears PIH outright least often is the one that
+    improves it most often, so any single ranking has to hide one of the two orderings. Same reasoning as the
+    Mohs and excision page. TWO ODDITIES REPORTED AS PRINTED RATHER THAN SMOOTHED: the abstract gives the
+    identical 18.1 percent and 56/309 for BOTH complete and poor-to-no response in the laser group, and the
+    four denominators sum to 859 against a stated 877 patients. Neither is resolved here. SCOPE GUARDED
+    TWICE: the review itself says most included cases were acne-associated and may not generalise, and the
+    second source is explicitly about ACNE-induced hyperpigmentation, so its 85 percent figure for Fitzpatrick
+    IV-VI is scoped to acne in the footnote rather than presented as PIH generally. The opener section was
+    added only after sk lint demanded it and was written from that second source rather than from memory.
+    Routes to post-inflammatory-erythema, hyperpigmentation and post-ablative-laser-aftercare instead of
+    re-explaining any of them. Main loop, no subagent, hence sonnet.'
+  reviewed: '2026-11-12'
+  reviewer: main-loop self-verification
+  verdict: publish
 pramoxine-hydrochloride:
   last_reviewed: '2026-08-23'
   note: 'PARALLEL wave3: Sonnet draft + Opus critic REVISE (7); fixed: added the required ## The Evidence section (renamed from ''What We Actually Know'').'

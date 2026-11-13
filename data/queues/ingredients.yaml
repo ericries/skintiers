@@ -4217,3 +4217,20 @@
     penetrate for the same reason, say that in a few lines and set tier weak, or fold
     it into the collagen page as a paragraph and close this row. Do NOT pad it to
     page length.'
+- name: Oral tranexamic acid for pigmentation, if not already on the tranexamic-acid
+    page
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: post-inflammatory-hyperpigmentation
+  source: 'Named as a topical option for acne-induced hyperpigmentation in Lopez-Estebaranz
+    2026 (PMID 42234395, abstract read 2026-11-12): ''Treatment options include topical
+    agents such as azelaic acid, retinoids, antioxidants, and hydroquinone, as well
+    as systemic therapies such as isotretinoin, oral antibiotics, and oral tranexamic
+    acid.'' The site has pages for azelaic acid, retinoids, hydroquinone and tranexamic
+    acid, so the gap in that sentence is ORAL tranexamic acid as distinct from the
+    topical form. CHECK [[tranexamic-acid]] FIRST: if it already covers the oral route,
+    add a tier-appropriate paragraph there and close this row rather than opening
+    a second page. If it does not, note that an oral systemic drug is in scope here
+    the way isotretinoin and apremilast are, but say the route plainly in the first
+    line.'

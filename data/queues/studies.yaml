@@ -2262,3 +2262,20 @@
     against the abstract and state it as an absence with the strings searched. The
     other two are [[jiang-2025-cream-neurovascular-sensitive-skin-pmid-40736038]],
     already published, and Wananukul 2012 (PMID 21790793), already queued.'
+- name: 'Kashetsky 2024: PIH treatment outcomes systematic review (PMID 37843491)'
+  type: study
+  priority: 4
+  status: pending
+  discovered_from: post-inflammatory-hyperpigmentation
+  source: 'The spine of [[post-inflammatory-hyperpigmentation]], shipped 2026-11-12,
+    and it has no study page while two hubs now lean on it. Kashetsky N, Feschuk A,
+    Pratt ME, ''Post-inflammatory hyperpigmentation: A systematic review of treatment
+    outcomes'', JEADV 2024;38(3):470-479, PMID 37843491. PRISMA, 41 studies, 877 patients.
+    Figures already verified string by string: complete response 18.1 percent (56/309)
+    lasers and energy-based devices, 5.4 (20/369) topicals, 2.4 (4/166) combination;
+    partial 84.9 (141/166) combination, 72.4 (267/369) topicals, 61.2 (189/309) lasers,
+    33.3 (5/15) peels; worsened in 2.6 percent (8/309) of laser patients. TWO ODDITIES
+    TO CARRY OVER, do not smooth them: the abstract prints the SAME 18.1 percent and
+    56/309 for both complete and poor-to-no response in the laser group, and the denominators
+    sum to 859 against 877 stated. KEY LIMITATION the authors give themselves: most
+    included cases were acne-associated.'
