@@ -1890,7 +1890,7 @@
 - name: 'Jeon 2023: 2% Salix alba bark extract cream for dark circles (PMID 37235713)'
   type: study
   priority: 4
-  status: pending
+  status: done
   discovered_from: willow-bark-extract
   source: https://pubmed.ncbi.nlm.nih.gov/37235713/ Int J Cosmet Sci 2023;45(5):636-646,
     doi 10.1111/ics.12873. Mostly in vitro (hyaluronic acid synthesis in human dermal

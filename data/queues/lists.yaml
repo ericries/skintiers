@@ -1494,3 +1494,21 @@
     the CoTZ range are the mineral-side candidates. Do NOT go hunting fresh brand
     copy to fill rungs, and do not rank by SPF value, which is the thing this axis
     deliberately ignores.'
+- name: Ingredient evidence by who ran the only trial
+  type: list
+  priority: 4
+  status: pending
+  discovered_from: jeon-2023-salix-alba-bark-extract-dark-circles-pmid-37235713
+  source: 'GROUNDED IN FOUR STUDY PAGES THIS SITE HAS NOW PUBLISHED, three of them
+    this week. A recurring pattern: the only human trial behind a cosmetic ingredient
+    is run by the company that sells it, and the clinical arm is uncontrolled or unreported.
+    [[jeon-2023-salix-alba-bark-extract-dark-circles-pmid-37235713]] (BioSpectrum,
+    29 subjects, zero outcome numbers), [[gopaul-2010-topical-salicin-skin-aging-pmid-20883292]]
+    (Nu Skin, 30 women, no control arm, premise rests on unpublished in-house work),
+    [[zhang-2025-forearm-tape-strip-capsaicin-model-pmid-39381993]] (two biotech companies,
+    funding statement contradicts the acknowledgments) and the KraveBeauty 20-participant
+    uncited study recorded on [[kravebeauty-great-barrier-relief]]. A list grouping
+    ingredient evidence by WHO RAN THE ONLY TRIAL would be checkable and new. BUILD
+    IT ONLY over studies whose pages already record the affiliation and the design;
+    do not go hunting new papers to fill rungs, and do NOT imply fraud. The axis is
+    who paid and what was controlled, not honesty.'

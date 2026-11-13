@@ -3866,6 +3866,26 @@ jenny-liu:
   note: Lean person discovery card. Credential (board-certified dermatologist, assistant professor of dermatology, University of Minnesota Medical School) quoted verbatim from Healthgrades physician-contributor bio, cached (Apify-fetched; curl bot-blocked). 47 words, no unverified claims, links to her public channels. lint/verify/style clean.
   score: 8
   verdict: publish
+jeon-2023-salix-alba-bark-extract-dark-circles-pmid-37235713:
+  assurance: sonnet
+  notes: 'Compact study page. THE FINDING IS THAT THE HUMAN ARM REPORTS NO NUMBERS: 29 subjects, 8 weeks, 2
+    percent cream, and the entire clinical result is the sentence that it "improved the parameters measuring
+    dark circles, skin microcirculation and elasticity". Checked by string search of the ENGLISH abstract
+    only: the sole percentage figure anywhere in it is the 2 percent concentration of the extract, so there
+    is no magnitude, no spread and no p-value for any arm, lab or human. Also absent: random, placebo,
+    vehicle, control, blind, split. THE FRENCH TRAP IS REAL AND THE QUEUE ROW FLAGGED IT: PubMed appends a
+    complete French translation, so a naive quote check matches the French and appears to confirm quotations
+    never verified against the English. Every quote here was checked against the English block alone, which
+    ends at the line beginning Publisher; the footnote says so explicitly so the next verifier does not
+    repeat the trap. My own checker then flagged one unmatched string, which turned out to be the literal
+    marker Publisher that the check itself splits on, a false negative of my method rather than a page
+    defect. COMPANY STUDY REPORTED AS FOUND: all eight authors share one affiliation, BioSpectrum Life
+    Science Institute, and the closing sentence is a supplier conclusion, quoted rather than characterised.
+    No COI or funding statement in the record. Links to the Gopaul page as the other company-run willow-bark
+    trial here. Main loop, no subagent, hence sonnet.'
+  reviewed: '2026-11-13'
+  reviewer: main-loop self-verification
+  verdict: publish
 john-barbieri:
   last_reviewed: '2026-10-09'
   note: 'Lean person card, 127 words (cap 150). Two claims verified against primary sources: NPI 1972921955 (MD, active, primary Dermatology taxonomy, MA license 286496, second Dermatology taxonomy OH, Boston location) and PubMed 38300170, the 2024 AAD acne guidelines, where his affiliation reads verbatim ''Department of Dermatology, Brigham and Women''s Hospital, Boston, Massachusetts''. THREE roster credential claims deliberately NOT asserted because no primary source confirmed them: Harvard Medical School associate professorship, Director of the Advanced Acne Therapeutics Clinic, and co-chair of the AAD Acne Guidelines Work Group (authorship is verified; the chair role is not stated in the record). Both footnotes say explicitly what the source does not establish.'

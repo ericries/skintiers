@@ -4264,3 +4264,18 @@
     correct answer, and the page should explain what photostabilisation is and why
     an avobenzone sunscreen needs it. Link to [[sunscreen-uv-filters]] rather than
     re-arguing filter evidence.'
+- name: Vascular integrity as a dark-circle mechanism, if it earns a page at all
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: jeon-2023-salix-alba-bark-extract-dark-circles-pmid-37235713
+  source: 'The mechanism Jeon 2023 (PMID 37235713) proposes for dark circles, and
+    the site has no page for the concept: the paper frames infraorbital darkening
+    as ''blood stasis by poor-vascular integrity'' and tests whether reducing endothelial
+    permeability helps. [[dark-circles]] exists and [[caffeine]] is already covered
+    for periorbital puffiness, but the VASCULAR-INTEGRITY route is not explained anywhere
+    here, and several eye products sell it. CHECK FIRST whether this belongs on [[dark-circles]]
+    as a mechanism section rather than as its own page; a mechanism with one company-run
+    in-vitro paper behind it probably does not earn a standalone page, and saying
+    so and closing the row is an acceptable outcome. If it does get written, do NOT
+    present the HMEC-1 permeability result as a human finding.'
