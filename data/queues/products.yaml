@@ -5250,7 +5250,7 @@
 - name: KraveBeauty Kale-Lalu-yAHA
   type: product
   priority: 4
-  status: pending
+  status: done
   discovered_from: krave-beauty
   source: kravebeauty.com/products.json read 2026-11-03
 - name: KraveBeauty Oat So Simple Water Cream

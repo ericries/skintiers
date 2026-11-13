@@ -4307,3 +4307,25 @@
     CHECK FIRST whether this belongs as its own page or as a section on [[skin-barrier-repair]];
     a penetration-enhancer story may not need a standalone ingredient page. If written,
     keep it about the fatty acid and do NOT retrofit it as an argument against tallow.'
+- name: Betaine Salicylate
+  type: ingredient
+  priority: 4
+  status: pending
+  discovered_from: kravebeauty-kale-lalu-yaha
+  source: 'KraveBeauty Kale-Lalu-yAHA declared INCI, 9th of 23: a salicylic acid derivative
+    present in a product marketed purely as an AHA; no page exists and salicylic-acid
+    does not cover the derivative'
+- name: 1,2-Hexanediol
+  type: ingredient
+  priority: 7
+  status: pending
+  discovered_from: kravebeauty-kale-lalu-yaha
+  source: KraveBeauty Kale-Lalu-yAHA declared INCI, 6th of 23; a very common preservative-booster/humectant
+    across this site's catalogue with no page yet
+- name: Dipotassium Glycyrrhizate
+  type: ingredient
+  priority: 7
+  status: pending
+  discovered_from: kravebeauty-kale-lalu-yaha
+  source: KraveBeauty Kale-Lalu-yAHA declared INCI, last of 23; the licorice-derived
+    soothing agent, distinct from the licorice-root-extract page that already exists

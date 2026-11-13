@@ -9898,6 +9898,26 @@ cerave-hydrating-hyaluronic-acid-serum:
   verdict: publish
   note: 'THE PAGE''S FINDING IS THE INGREDIENT ORDER: a serum named for hyaluronic acid in which glycerin sits second and sodium hyaluronate sixth of 24. Not a criticism of the formula, since sodium hyaluronate works at fractions of a percent, but a correction to the name on the bottle, and the page says exactly that rather than scoring a cheap point. VERIFY CAUGHT ME CITING AN AGGREGATOR AS EVIDENCE. I footnoted the INCI to INCIDecoder, which the house rule forbids and sk verify blocks with an ERROR. The brand''s own page is the correct source and it does NOT publish the list: checked by string search of the fetched markup, which contains no occurrence of Aqua, Glycerin, Sodium Hyaluronate or Phytosphingosine. RATHER THAN DODGE THE GATE by stripping the URL and keeping a buried claim, I moved the provenance into the open: the body now names INCIDecoder as an aggregator in the sentence that uses the order, says the brand page carried no list on the date fetched, and frames it as a reading
     anyone can repeat rather than as evidence. The brand footnote records the absence check. GRADED THE HYDRATION CLAIM solid but said the grade belongs to the humectants rather than the bottle, since no product-specific trial exists. The brand''s quantified ''up to 24 hours of hydration'' is quarantined as uncited. Got a real front photo from the same lookup, so this page needs no image cron.'
-
-
-
+kravebeauty-kale-lalu-yaha:
+  assurance: sonnet
+  notes: 'Main-loop self-verification against the cached brand page (research-cache/web/b20a44e5862271fd.md,
+    705 KB, HTTP 200). Every quoted span of five characters or more was machine-checked
+    verbatim against that cache after HTML unescaping, and four corrections were made
+    before publish: the antioxidant phrase was quoted with a leading "a" that the source
+    does not have; the "Clinically proven" sentence and the 30-participant sentence
+    were run together when the page lists them as two separate entries; the ingredient
+    heading was described as carrying a space before its colon when in fact the colon
+    sits outside the bold markup; and a "Kale Your Way Kit" price of $3.00 could not
+    be re-verified from the cache, where the kit is described as a spray and nozzle
+    accessory, so the price was dropped. Ingredient positions (glycolic 5th, potassium
+    hydroxide 7th, betaine salicylate 9th, 23 entries total) were counted from the
+    brand list in the cache, allowing for the comma inside 1,2-Hexanediol. The pH absence
+    was checked by regex over the HTML-stripped page: zero occurrences of a pH token,
+    "ph level" or "acidity". The label quotes "GENTLE AHA EXFOLIATOR", "EXFOLIANT DOUX
+    AHA" and the 6.76 fl. oz. / 200mL size are read off the product photograph and are
+    attributed to it in the footnote rather than to the page text. No independent source
+    exists for this product, so the single brand footnote is the whole evidence base
+    and the page says so.'
+  reviewed: '2026-11-13'
+  reviewer: main-loop
+  verdict: publish
