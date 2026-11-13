@@ -2703,7 +2703,7 @@
 - id: BObBue0_OWk
   title: Do IUDs really cause acne? (full video in description)
   creator: John Barbieri, MD
-  creator_slug: john-barbieri-md
+  creator_slug: john-barbieri
   credential: Board-certified dermatologist, Associate Professor of Dermatology at Harvard Medical School, Director of the Advanced Acne Therapeutics Clinic at Brigham and Women's Hospital, co-chair of the AAD Acne Guidelines Work Group
   channel: https://www.youtube.com/channel/UCm0RvvD6gfywapkgOt3bFCA
   platform: YouTube
@@ -2716,7 +2716,7 @@
 - id: oYuULEVVXPM
   title: Patience and consistency are key to clear skin with benzoyl peroxide (full video in description)
   creator: John Barbieri, MD
-  creator_slug: john-barbieri-md
+  creator_slug: john-barbieri
   credential: Board-certified dermatologist, Associate Professor of Dermatology at Harvard Medical School, Director of the Advanced Acne Therapeutics Clinic at Brigham and Women's Hospital, co-chair of the AAD Acne Guidelines Work Group
   channel: https://www.youtube.com/channel/UCm0RvvD6gfywapkgOt3bFCA
   platform: YouTube
@@ -2729,7 +2729,7 @@
 - id: 0DgeOzmcYR8
   title: Prevent isotretinoin (Accutane purge) with antihistamines (full video in description)
   creator: John Barbieri, MD
-  creator_slug: john-barbieri-md
+  creator_slug: john-barbieri
   credential: Board-certified dermatologist, Associate Professor of Dermatology at Harvard Medical School, Director of the Advanced Acne Therapeutics Clinic at Brigham and Women's Hospital, co-chair of the AAD Acne Guidelines Work Group
   channel: https://www.youtube.com/channel/UCm0RvvD6gfywapkgOt3bFCA
   platform: YouTube
@@ -2742,7 +2742,7 @@
 - id: 0A_FTGKUfew
   title: Does dairy really cause acne? (full video in description)
   creator: John Barbieri, MD
-  creator_slug: john-barbieri-md
+  creator_slug: john-barbieri
   credential: Board-certified dermatologist, Associate Professor of Dermatology at Harvard Medical School, Director of the Advanced Acne Therapeutics Clinic at Brigham and Women's Hospital, co-chair of the AAD Acne Guidelines Work Group
   channel: https://www.youtube.com/channel/UCm0RvvD6gfywapkgOt3bFCA
   platform: YouTube
@@ -2755,7 +2755,7 @@
 - id: qs-yRd00IiE
   title: Are home LED masks as effective as benzoyl peroxide? (full video in description)
   creator: John Barbieri, MD
-  creator_slug: john-barbieri-md
+  creator_slug: john-barbieri
   credential: Board-certified dermatologist, Associate Professor of Dermatology at Harvard Medical School, Director of the Advanced Acne Therapeutics Clinic at Brigham and Women's Hospital, co-chair of the AAD Acne Guidelines Work Group
   channel: https://www.youtube.com/channel/UCm0RvvD6gfywapkgOt3bFCA
   platform: YouTube
@@ -4815,7 +4815,8 @@
   conflict: null
   posted: ''
   feed_rank: 6
-  status: pending
+  status: skipped
+  skip_reason: 69s Short, seven hashtags; Shorts-style clip excluded by the pull rule
 - id: JeaGLweEinQ
   title: Does Spironolactone Lower Libido? A Dermatologist Explains
   creator: Andrea Suarez (Dr Dray)
@@ -5268,7 +5269,8 @@
   conflict: Runs extensive Amazon Associates and ShopMy affiliate storefronts, monetizing nearly every product mentioned across videos
   posted: ''
   feed_rank: 6
-  status: pending
+  status: skipped
+  skip_reason: vague non-single-topic title; creator monetizes picks via Amazon and ShopMy
 - id: GLyE2vfngDc
   title: Let’s make a list of products worth KEEPING!! Drop yours in the comments! 👇👇
   creator: Dr. Maren Locke (The Budget Dermatologist)
@@ -5554,7 +5556,8 @@
   conflict: Own-brand UPF sun-protective clothing line, SOUL-A (wearsoula.com / @wearsoula), founded and promoted by him — apparel, not topical skincare
   posted: ''
   feed_rank: 6
-  status: pending
+  status: skipped
+  skip_reason: hashtag-stuffed extractions Short, not single-topic education
 - id: AP6WORczCxo
   title: 'ASMR Head Shave #dermreacts  #skincare  #dermatologist #dermangelo'
   creator: Dr. Angelo Landriscina (DermAngelo)
@@ -5673,7 +5676,8 @@
   conflict: Chief Medical Officer of hair-growth-serum brand REYUS; advisory-board member of Bubble Skincare; periodic disclosed paid brand partnerships
   posted: ''
   feed_rank: 6
-  status: pending
+  status: skipped
+  skip_reason: single-product video from a product_recs restricted creator
 - id: Scof-K8l3CY
   title: Should you throw away your CeraVe acne pill products? Major update!
   creator: Dr. Daniel Sugai
@@ -5879,7 +5883,7 @@
 - id: dKYiyGU-vF8
   title: Don't make this benzoyl peroxide and tretinoin mistake (full video in description)
   creator: John Barbieri, MD
-  creator_slug: john-barbieri-md
+  creator_slug: john-barbieri
   credential: Board-certified dermatologist, Associate Professor of Dermatology at Harvard Medical School, Director of the Advanced Acne Therapeutics Clinic at Brigham and Women's Hospital, co-chair of the AAD Acne Guidelines Work Group
   channel: https://www.youtube.com/channel/UCm0RvvD6gfywapkgOt3bFCA
   platform: YouTube
@@ -5888,7 +5892,8 @@
   conflict: null
   posted: ''
   feed_rank: 6
-  status: pending
+  status: skipped
+  skip_reason: 54s clip pointing to full video y0-Gp1IMYZM, which was carded on benzoyl-peroxide instead
 - id: DCj7Flh0RrE
   title: Hair loss and damage treatments are NOT one-size-fits-all. 👀
   creator: Dr. Joyce Park (Tea with MD)
@@ -5901,7 +5906,8 @@
   conflict: ShopMy affiliate storefront linked in nearly every video ('My Holy Grail Products'); own hair-care brand Kerativ Hair (she is Founder/CEO);
   posted: ''
   feed_rank: 6
-  status: pending
+  status: skipped
+  skip_reason: Shorts-style clip; creator owns a hair-care brand and the subject is hair loss
 - id: '7687740232044727565'
   title: Two different textures, same ingredient. There’s something out there ...
   creator: Kristin Leite (kristingl)
@@ -5968,7 +5974,8 @@
   conflict: Runs extensive Amazon Associates and ShopMy affiliate storefronts, monetizing nearly every product mentioned across videos
   posted: ''
   feed_rank: 6
-  status: pending
+  status: skipped
+  skip_reason: vague comparison title, no named subject; creator monetizes picks via Amazon and ShopMy
 - id: SScqdTFEPUw
   title: 'is minoxidil for life? #hairgrowth #dermatologist'
   creator: Dr. Neera Nathan
@@ -6050,7 +6057,8 @@
   conflict: Runs an own-brand practice storefront (Derm Rejuvenation Institute, Shopify); treat specific product picks as commercially incentivized.
   posted: ''
   feed_rank: 6
-  status: pending
+  status: skipped
+  skip_reason: skit about phone consultations, not education on a covered topic
 - id: RYyKSFS4dQw
   title: You said WHAT😤
   creator: Tanya Kormeili, MD, FAAD

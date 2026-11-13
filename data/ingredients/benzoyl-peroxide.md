@@ -85,6 +85,16 @@ videos:
   related: []
   thesis: Board-certified dermatologist Dr. Chris Tomassian names adapalene combined with benzoyl peroxide as what he considers the best and most effective over-the-counter acne treatment. He notes this combination was previously prescription-only and is now available over the counter, and explains adapalene treats and helps prevent new pimples while paired with benzoyl peroxide. He recommends it as a good option to try before seeing a dermatologist for those who can't get an appointment yet
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: 'Don''t make these six benzoyl peroxide mistakes: Dermatologist explains acne treatment'
+  creator: John Barbieri, MD
+  creator_slug: john-barbieri
+  credential: Dermatologist, Department of Dermatology, Brigham and Women's Hospital
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=y0-Gp1IMYZM
+  posted: '2025-04-05'
+  related: [tretinoin, adapalene, dapsone-topical, acne]
+  thesis: Dermatologist John Barbieri walks through six common mistakes people make with benzoyl peroxide for acne. He says head to head studies of different strengths show little extra clearing above four or five percent on the face while irritation rises, so he does not recommend going higher there, and he prefers wash formats partly because rinsing off avoids the bleached fabric that leave on products can cause. He also warns that benzoyl peroxide can break down traditional generic tretinoin, so the two should be separated in time or the benzoyl peroxide used as a wash, while adapalene is not affected.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
