@@ -5238,7 +5238,7 @@
 - name: KraveBeauty Great Barrier Relief
   type: product
   priority: 4
-  status: pending
+  status: done
   discovered_from: krave-beauty
   source: kravebeauty.com/products.json read 2026-11-03
 - name: KraveBeauty Beet The Sun SPF 40 PA+++

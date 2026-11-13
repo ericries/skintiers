@@ -4234,3 +4234,18 @@
     a second page. If it does not, note that an oral systemic drug is in scope here
     the way isotretinoin and apremilast are, but say the route plainly in the first
     line.'
+- name: Tamanu oil (Calophyllum inophyllum seed oil)
+  type: ingredient
+  priority: 4
+  status: pending
+  discovered_from: kravebeauty-great-barrier-relief
+  source: 'Third on the brand''s own ingredient list for [[kravebeauty-great-barrier-relief]]
+    at a stated 10 percent, and the ingredient that product is entirely sold on, yet
+    it has NO page here: ''Calophyllum Inophyllum (Tamanu) Seed Oil'' (brand page
+    read and cached 2026-11-12). It also appears in other K-beauty barrier products.
+    SEARCH FOR HUMAN TOPICAL EVIDENCE FIRST and be prepared for there to be almost
+    none; if the literature is in-vitro, animal or traditional-use only, say that
+    plainly and set tier weak rather than padding the page with phytochemistry. Do
+    NOT re-argue the barrier case that [[ceramides]] and [[skin-barrier-repair]] already
+    own. Note the allergen angle the brand itself flags: tamanu is derived from tamanu
+    NUTS, which matters for tree-nut avoidance.'

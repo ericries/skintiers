@@ -4026,6 +4026,26 @@ kojic-acid:
     '
   score: 9
   verdict: revise-then-fixed
+kravebeauty-great-barrier-relief:
+  assurance: sonnet
+  notes: 'Built from the brand''s own product page and feed, both cached. THE FINDING IS A SAMPLE SIZE THE
+    BRAND PRINTS ITSELF: "Clinically Proven: Improves damaged skin barrier function after 2 weeks of use."
+    followed immediately by "Based on an independent clinical study on 20 participants." The page credits
+    KraveBeauty for printing the n unprompted, which most brands do not, while saying plainly that no
+    citation, design, comparator or outcome measure appears anywhere on the page read. That is stated as an
+    absence checked by reading the whole 736 KB page, NOT as a claim the study does not exist. SECOND
+    FINDING: on a barrier serum, Ceramide NP is 39th of the 40 ingredients the brand publishes, with only
+    glycine after it, while niacinamide is 5th. The page says position is not concentration but that a
+    position that late caps the quantity, which matters for a lipid that works by being present in amount.
+    INGREDIENT ORDER TAKEN FROM THE BRAND ONLY: incidecoder carries a DIFFERENT 44-entry list in a different
+    order for this product, which is not cited, not used and not mentioned on the page, since no claim rests
+    on it and it is an aggregator; the discrepancy is recorded here instead. Verbatim check over 29 quoted
+    strings, 0 unmatched. CAUGHT BY LINT BEFORE PUBLISH: a [[sodium-hyaluronate]] xref that has no page,
+    which would have reintroduced the dangling-wikilink class cleared to zero yesterday; repointed to
+    hyaluronic-acid with a display alias. Main loop, no subagent, hence sonnet.'
+  reviewed: '2026-11-12'
+  reviewer: main-loop self-verification
+  verdict: publish
 kristin-leite-kristingl-beauty-product-developer-skincare-educator:
   last_reviewed: '2026-08-08'
   note: 'Lean person discovery-aid (Sonnet-only). Honest credential + linked on-site studies/products/videos.
