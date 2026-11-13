@@ -32,6 +32,19 @@ tier_list:
   title: Onychomycosis treatments by evidence
 type: condition
 updated: '2026-09-24'
+videos:
+- title: How to treat nail fungus naturally
+  creator: Dr. Abigail Waldman (Dr. Abby)
+  creator_slug: abigail-waldman
+  credential: Abigail H. Waldman, MD, FAAD; Associate Professor of Dermatology at Harvard Medical School; Director of the Mohs and Dermatologic Surgery Center at Brigham and Women's Hospital
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=oMMDV48KFkE
+  posted: '2023-08-17'
+  related: [terbinafine, clotrimazole, urea, tea-tree-oil, efinaconazole, itraconazole]
+  thesis: 'Board-certified dermatologist Dr. Abigail Waldman explains why nail fungus, clinically onychomycosis, resists treatment: the nail itself is hard for any medicine to penetrate, so the limiting factor is delivery rather than killing the fungus. Her at-home method is therefore about access, softening the nail with a one-to-three vinegar and water soak or a 40 percent urea cream, thinning it with an emery board, then applying an antifungal while it is still soft. She is candid about how little topicals achieve alone, citing trials comparing clotrimazole with tea tree oil in which about 60 percent showed partial or complete response but only 10 to 11 percent had the fungus actually cleared at 12 weeks, and she puts oral terbinafine at a 60 to 80 percent cure rate with a 20 to 30 percent recurrence and liver and stomach side effects to monitor. Her timeline is the part most people get wrong: a toenail grows about a millimetre a month, so full regrowth can take 12 months, and she says
+    to be suspicious of anyone promising an overnight cure.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Onychomycosis is a fungal infection of the nails (usually the toenails) that, as a Cochrane review puts it, "causes damage to the nail's structure and physical appearance" and, when severe, "can interfere with normal daily activities."[^oral] It is caused by the same dermatophyte fungi behind [[athletes-foot|athlete's foot]] and is managed with antifungal drugs, not skincare cosmetics; it is notably harder to treat than skin fungus because the nail plate is a barrier to topical medicines.[^oral]
