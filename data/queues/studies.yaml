@@ -2279,3 +2279,21 @@
     56/309 for both complete and poor-to-no response in the laser group, and the denominators
     sum to 859 against 877 stated. KEY LIMITATION the authors give themselves: most
     included cases were acne-associated.'
+- name: 'Jones 2021: CAM for acne, atopic dermatitis and psoriasis (PMID 34409356)'
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: botanicals-by-what-human-evidence-exists
+  source: 'The category-level source now anchoring [[botanicals-by-what-human-evidence-exists]],
+    cited on two pages and with no study page of its own: Jones VA, Patel PM, Wilson
+    C, Wang H, Ashack KA, ''Complementary and alternative medicine treatments for
+    common skin diseases: A systematic review and meta-analysis'', JAAD International
+    2020 Dec 26;2:76-93, PMID 34409356, PMCID PMC8362305, open access. 417 articles
+    screened, 40 included, acne plus atopic dermatitis plus psoriasis. FIGURES ALREADY
+    VERIFIED: acne lesion count SMD 3.78 (-0.01, 7.57) and 0.58 (-6.99, 8.15); EASI
+    -0.70 (-1.19, -0.21); SCORAD 0.94 (-0.83, 2.71); PASI 3.04 (-0.35, 6.43) and 5.16
+    (-0.52, 10.85). LEAD WITH THE ONE SIGNIFICANT ESTIMATE, not the headline: five
+    of six cross zero but EASI does not, and the authors still conclude insufficient
+    evidence. The full text is open access via PMC, so unlike the abstract-only pages
+    here this one CAN report which botanicals were actually included; doing that would
+    let the list say whether its own ingredients were in the pool.'

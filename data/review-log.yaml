@@ -1228,6 +1228,28 @@ boisnic-2010-tripollar-home-use-body-rf-pmid-20395192:
   reviewed: '2026-11-10'
   reviewer: main-loop self-verification
   verdict: publish
+botanicals-by-what-human-evidence-exists:
+  assurance: sonnet
+  notes: 'Curatorial over 11 ingredient pages that already exist; no new literature search except the one
+    category-level source. THE QUEUE ROW''S PREMISE WAS WRONG AND THE PAGE SAYS SO BY STRUCTURE: the row said
+    three botanicals had all landed at tier weak for the same structural reason and framed the axis as a
+    binary, trial or no trial. Checking the actual tiers found 8 weak, 3 mid and 1 unrated, and checking each
+    page''s evidence line found that several WEAK ones have RCTs. I nearly asserted that eight botanicals
+    lacked human trials; bakuchiol, licorice root, centella, tea tree and onion extract all have human data,
+    and that check is what stopped a false absence claim about eight ingredients at once. THE REAL FINDING,
+    which is better than the row''s: tier weak means two opposite things. Onion extract is weak because two
+    independent RCTs against petrolatum and a 13-RCT meta-analysis came out NEGATIVE; witch hazel is weak
+    because the relevant study was a keratinocyte cell line. Answered-and-no versus never-asked, same grade.
+    JONES 2021 NOT FLATTENED: five of its six pooled estimates cross zero but the eczema one does not, at
+    -0.70 (-1.19, -0.21), and the page says so explicitly rather than reporting the review as a clean
+    negative. The crossing-zero count is flagged as arithmetic done here, not a claim the abstract makes, and
+    the page states that the review''s included studies were not read so no specific ingredient above is
+    claimed to be among them. Scope exclusions named: squalane is graded on a category-level emollient
+    classification so the axis does not apply, and feverfew has no tier so it is not placed. 13 quoted
+    strings, 0 unmatched. Main loop, no subagent, hence sonnet.'
+  reviewed: '2026-11-13'
+  reviewer: main-loop self-verification
+  verdict: publish
 braun-silk-expert-pro-5-ipl:
   last_reviewed: '2026-09-29'
   note: 'Opus critic: price/grade/marketing-quarantine/evidence-frame solid, but flagged citation-integrity drift (several claims footnoted to ^braun not in the cached page). Fixed by cutting all unsupported claims: contraindications list, ''20 watts/2.08 flashes'', ''skin tones I to V'', ''Skin Health Alliance/independent dermatologists''; corrected modes (normal/sensitive/extra sensitive, was balanced/power), sensor (SensoAdapt), and quotes (''2 year of smooth skin at home'', ''Dermatologically and gynecologically approved'') to cache-verbatim. ''Permanent''/95% claims stay quarantined + countered vs Cochrane. Effect modest/evidence weak.'

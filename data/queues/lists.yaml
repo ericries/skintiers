@@ -1141,7 +1141,7 @@
     if it were in a filing; that error is what the goal page was written to correct.'
 - name: Sensitive-skin moisturiser trials by what their comparator actually was
   type: list
-  priority: 4
+  priority: 6
   status: pending
   discovered_from: jiang-2025-cream-neurovascular-sensitive-skin-pmid-40736038
   source: 'Jiang 2025 (PMID 40736038) uses an undescribed ''control cream''; Wananukul
@@ -1164,11 +1164,17 @@
     open study pages to fill it, and a list with one linkable item and two bare citations
     would be padding. ACTION FOR WHOEVER PICKS THIS UP: ship the Wananukul study page
     first, queue and ship Micali, and only then build the list. Consider queueing
-    Micali now so the dependency is visible.'
+    Micali now so the dependency is visible. 2026-11-13: de-prioritised 4 to 6 after
+    reaching the head a THIRD time while still blocked. Nothing has changed since
+    yesterday''s check: of its three data points only [[jiang-2025-cream-neurovascular-sensitive-skin-pmid-40736038]]
+    has a page. The dependency is self-clearing, not stuck: Wananukul 2012 (PMID 21790793)
+    is now FIRST in the study queue and Micali 2021 (PMID 33934474) was queued yesterday,
+    both at priority 4. Restore this row to 4 once both study pages exist, and build
+    the list then. Parked so it stops displacing list work that can actually be done.'
 - name: Botanicals in skincare, by whether any human trial exists
   type: list
   priority: 4
-  status: pending
+  status: done
   discovered_from: witch-hazel
   source: 'Three tier-weak botanical pages now exist (witch-hazel, willow-bark-extract,
     centella-asiatica) and Jones 2021 (PMID 34409356) supplies the category-level

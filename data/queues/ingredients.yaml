@@ -4279,3 +4279,16 @@
     in-vitro paper behind it probably does not earn a standalone page, and saying
     so and closing the row is an acceptable outcome. If it does get written, do NOT
     present the HMEC-1 permeability result as a human finding.'
+- name: 'Set tier: on feverfew-extract so it can be placed on the botanicals list'
+  type: ingredient
+  priority: 4
+  status: pending
+  discovered_from: botanicals-by-what-human-evidence-exists
+  source: 'FOUND 2026-11-13 while building [[botanicals-by-what-human-evidence-exists]]:
+    [[feverfew-extract]] is published but carries NO tier:, so it could not be placed
+    on that list and is invisible to entity_tier and the routine builder. It is one
+    of only nine published ingredient pages lacking a tier. ACTION: read its OWN rubric
+    and set tier: from it, exactly as the enum fix of 2026-11-12 did for the off-enum
+    pages; do not invent a grade. Then add it to the botanicals list under whichever
+    rung its evidence supports, which the list defines as codified-and-trialled, tested-and-negative,
+    one-small-trial, or no-human-trial-for-the-sold-use.'
