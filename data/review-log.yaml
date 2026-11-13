@@ -9921,3 +9921,19 @@ kravebeauty-kale-lalu-yaha:
   reviewed: '2026-11-13'
   reviewer: main-loop
   verdict: publish
+pixi-beauty:
+  assurance: sonnet
+  notes: 'Lean brand discovery page, no critic per the playbook. Drafted inline from
+    the brand''s own About Us page, fetched and cached 2026-11-13. Every quoted span
+    was machine-checked verbatim against that cache: zero mismatches. Founder, founding
+    year and the five promise headings are attributed to the brand as its own account
+    and the page says they are not independently verified. The product feed was read
+    but no catalogue count is stated, because products.json caps at 250 and returned
+    249, so any total would be a guess. Body runs 148 words, inside the 180-word brand
+    cap. Only one Pixi product has a page, and the page says so rather than padding.
+    Also corrected a stale sentence on krave-beauty, which still claimed Great Barrier
+    Relief, Beet The Sun SPF 40 and Kale-Lalu-yAHA had no pages here; all three now
+    do and are linked, leaving Oat So Simple Water Cream as the only gap.'
+  reviewed: '2026-11-13'
+  reviewer: main-loop
+  verdict: publish

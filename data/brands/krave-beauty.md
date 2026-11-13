@@ -9,12 +9,12 @@ name: Krave Beauty
 slug: krave-beauty
 status: published
 type: brand
-updated: '2026-11-03'
+updated: '2026-11-13'
 ---
 
 KraveBeauty is a direct-to-consumer skincare brand selling 34 items on its own US store, from a $14 lip balm to $68 kits.[^feed] Its own About Us page says it "began" in 2017 and names "our founder, skincare aficionado and YouTube OG Liah Yoo", describing her as having "exhausted herself (and her skin!) in the search for miracle products"; that is the brand's own account of itself.[^about] The same page states its position as "we'd been taught to care more about skincare than our skin" and "It was time to press reset".[^about]
 
-Covered here: [[krave-beauty-matcha-hemp-hydrating-cleanser]], whose ingredients are graded at [[colloidal-oatmeal]], [[glycerin]], [[panthenol]] and [[olive-oil]]. Its other best-known products, Great Barrier Relief, Beet The Sun SPF 40, Kale-Lalu-yAHA and Oat So Simple Water Cream, have no pages here yet.
+Covered here: [[krave-beauty-matcha-hemp-hydrating-cleanser]], whose ingredients are graded at [[colloidal-oatmeal]], [[glycerin]], [[panthenol]] and [[olive-oil]]; [[kravebeauty-great-barrier-relief]]; [[kravebeauty-beet-the-sun-spf-40]]; and [[kravebeauty-kale-lalu-yaha]]. Of its best-known products, Oat So Simple Water Cream is the one with no page here yet.
 
 The store's product feed is readable without a metered lookup, so prices here need no estimate.[^feed]
 

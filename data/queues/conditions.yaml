@@ -710,7 +710,7 @@
 - name: Post-inflammatory hyperpigmentation (PIH)
   type: condition
   priority: 5
-  status: pending
+  status: done
   discovered_from: post-ablative-laser-aftercare
   source: 'The site has post-inflammatory-erythema (PIE) but NOT post-inflammatory
     hyperpigmentation, and PIH has now come up twice in one day from different directions:
@@ -723,6 +723,8 @@
     rather than re-explaining either. Also route the post-laser case to post-ablative-laser-aftercare
     and check PMID 32979860, a post-ablative-laser PIH RCT that is separately queued
     as fusidic acid.'
+  resolved_reason: 'auto-reconciled: a condition page already exists for ''Post-inflammatory
+    hyperpigmentation (PIH)'' (queue_reconcile)'
 - name: Acne mechanica (maskne, friction acne)
   type: condition
   priority: 5

@@ -6451,3 +6451,26 @@
     check whether the tinted version differs in actives or only in colourants. EXPECT
     NO PRICE: cotz.com returned HTTP 436 on 2026-11-12, so ship without one and say
     so rather than hunting a retailer.'
+- name: Pixi Vitamin-C CremeSerum
+  type: product
+  priority: 6
+  status: pending
+  discovered_from: pixi-beauty
+  source: Pixi product feed pixibeauty.com/products.json read 2026-11-13, $24.00,
+    listed on the brand's own Best Sellers nav; the site grades vitamin C and has
+    no Pixi vitamin C page
+- name: Pixi Antioxidant Tonic
+  type: product
+  priority: 6
+  status: pending
+  discovered_from: pixi-beauty
+  source: Pixi product feed read 2026-11-13, Original Size $29.00 and Travel Size
+    $18.00; the brand's own About page calls it a 3-in-1 tonic, so the claim set is
+    checkable against its INCI
+- name: Pixi DetoxifEYE Patches
+  type: product
+  priority: 7
+  status: pending
+  discovered_from: pixi-beauty
+  source: Pixi product feed read 2026-11-13; eye patches are a category the site has
+    no graded product in, and the brand sells several sizes

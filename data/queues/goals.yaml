@@ -819,10 +819,12 @@
 - name: Periorbital wrinkles (crow's feet)
   type: goal
   priority: 5
-  status: pending
+  status: done
   discovered_from: omnilux-new-u
   source: The cleared indication of this device and of several other home LED units
     covered here; the site has anti-aging but no hub for the eye area specifically
+  resolved_reason: 'auto-reconciled: a goal page already exists for "Periorbital wrinkles
+    (crow''s feet)" (queue_reconcile)'
 - name: Sunscreen SPF labelling and the Australian TGA reforms
   type: goal
   priority: 5

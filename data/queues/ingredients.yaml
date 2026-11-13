@@ -3440,11 +3440,13 @@
 - name: Topical collagen
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: michelle-henry
   source: Her carded collagen clip argues topical collagen is the wrong molecule to
     apply; the site covers peptides and copper-peptides but has no page on topical
     collagen itself, which is widely sold
+  resolved_reason: 'auto-reconciled: a ingredient page already exists for ''Topical
+    collagen'' (queue_reconcile)'
 - name: Ritlecitinib (Litfulo)
   type: ingredient
   priority: 5

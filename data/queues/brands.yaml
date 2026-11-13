@@ -638,7 +638,7 @@
 - name: Pixi Beauty
   type: brand
   priority: 5
-  status: pending
+  status: done
   discovered_from: pixi-glow-tonic
   source: Vendor of the newly shipped pixi-glow-tonic; no brand page exists and the
     storefront catalogue (products.json, 355 products across two pages) is a cheap
