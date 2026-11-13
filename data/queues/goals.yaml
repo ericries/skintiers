@@ -525,7 +525,7 @@
 - name: Periorbital wrinkles (crow's feet) as a treatment target
   type: goal
   priority: 5
-  status: pending
+  status: done
   discovered_from: dpl-nuve
   source: 'THREE separate device pages now turn on this distinction and the site has
     no hub for it: dpl-nuve is cleared for PERIORBITAL wrinkles rather than facial

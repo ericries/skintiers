@@ -5984,6 +5984,25 @@ perioral-dermatitis-treatments-by-evidence:
   note: 'LIST wave. Graded perioral dermatitis treatments (STOP steroids first). Opus critic (9): all 9 slugs resolve, Gray 2022 Cochrane (PMID 34779023) stats verbatim. Honest (stopping corticosteroids strong, oral tetracyclines moderate, topicals minimal). No dashes. Opus critic inline (workflow pipeline); assurance opus.'
   score: 9
   verdict: publish
+periorbital-wrinkles:
+  assurance: sonnet
+  notes: 'Short routing hub for a term three device pages already turn on. CURATORIAL ONLY: no filing was
+    re-fetched, every fact comes from pages that already quote their sources, and all 3 quoted strings were
+    checked against [[home-fractional-nonablative-laser]] with 0 unmatched. THE USEFUL CONTENT IS A ONE-LETTER
+    DISTINCTION: periorbital is around the eye, perioral is around the mouth, and both appear in home-device
+    clearances on this site, so reading one for the other turns a lip device into an eye device. The page
+    also records that within one product family the cleared region WIDENED, K101382 periorbital to K141181
+    full-face. FIXED BEFORE PUBLISH: the first draft''s footnote contained the string "The FANp is an
+    over-the-c", which was a grep truncation from my own terminal output presented as if it were a quotation.
+    It is replaced by the full indication, verified, plus the real K number and pdf URL rather than a generic
+    database link. NO TIER LIST AND THE PAGE SAYS WHY: ranking eye-area treatments needs evidence gathered on
+    the eye area, and most of what exists for these ingredients was measured face-wide and applied here by
+    assumption. The Evidence section was added only after lint asked for it and says plainly that there is no
+    body of evidence specific to this page. Scope kept off [[dark-circles]] per the queue row. Main loop, no
+    subagent, hence sonnet.'
+  reviewed: '2026-11-12'
+  reviewer: main-loop self-verification
+  verdict: publish
 perry-romanowski:
   last_reviewed: '2026-08-05'
   note: 'Person page fleshed from stub (Sonnet draft + controller''s own lint/verify/style + accuracy check; no Opus
