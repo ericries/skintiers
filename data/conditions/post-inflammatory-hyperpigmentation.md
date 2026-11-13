@@ -11,6 +11,18 @@ slug: post-inflammatory-hyperpigmentation
 status: published
 type: condition
 updated: '2026-11-12'
+videos:
+- title: Why your dark spots just won't go away
+  creator: Jenn Lexi (@jennlexi_)
+  creator_slug: jennlexi
+  credential: Esthetician (self-identified); not a dermatologist or cosmetic chemist
+  platform: TikTok
+  url: https://www.tiktok.com/@jennlexi_/video/7706744656297463053
+  posted: '2026-11-12'
+  related: [post-inflammatory-erythema, hyperpigmentation, even-skin-tone, acne]
+  thesis: Esthetician Jenn Lexi argues that no single serum fixes hyperpigmentation, and offers five questions to ask instead. She separates grey and brown marks, which she calls post inflammatory hyperpigmentation, from pink and red marks, which she calls post inflammatory erythema and says need calming ingredients rather than pigment treatment. Her other points are that going without sun protection undoes the previous night's work because sunlight tells the skin to make more pigment, that scrubs and acids cause the inflammation that drives pigment in the first place, that picking retriggers it, and that two weeks is not long enough to judge whether a product is working.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 The brown mark left behind after something inflamed the skin. **Bottom line:** the best systematic review of its treatment, 41 studies and 877 patients, found that almost nothing clears it completely, and that the most-used category clears it in about one case in twenty. Most people get partial fading and should plan for that. The general pigment evidence is at [[hyperpigmentation]]; the red mark people confuse this with is at [[post-inflammatory-erythema]].

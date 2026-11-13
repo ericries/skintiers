@@ -17351,7 +17351,8 @@
   conflict: Founder/owner of active postpartum skincare brand "More Than Nine" (cleanser, exfoliator, moisturizer, balm) — an ongoing own-bran
   posted: '2026-11-12'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: promotes her own postpartum brand More Than Nine; own-brand conflict
 - id: tK_WLLGMFEw
   title: Methylene Blue for Anti-Aging? A Dermatologist Examines the Science
   creator: Andrea Suarez (Dr Dray)
@@ -17378,7 +17379,8 @@
   conflict: Bio includes a business/booking contact email suggesting managed brand partnerships; no confirmed own-brand line or affiliate stor
   posted: '2026-11-12'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'caption tail carries #VichyPartner and names the Vichy Dercos shampoo; paid partnership'
 - id: EQGs0PpzLQI
   title: GLP-1 (Ozempic, Wegovy, Zepbound) Side Effects NOBODY Warns You About
   creator: Doctorly
@@ -17405,7 +17407,8 @@
   conflict: Promotes her own curated product box, Dermy Doc Box (@dermy.doc.box), with link-in-bio callouts in the caption tail (observed 2026-10-29 on clip 7686867010508164366, posted 2026-09-18) - treat her product picks and seasonal recommendations as own-product promotion
   posted: '2026-11-12'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: vague behind-the-scenes clip with no named subject
 - id: wRJneYQYVfc
   title: 'Fall Shed + Hair Growth Routine: 2 Step Scalp Reset (Scaling + Red Light Therapy)'
   creator: Gothamista
@@ -17432,7 +17435,8 @@
   conflict: Co-developed/formulated the Tbh Skincare 'Rebound' Serum and Toner (product-formulation partnership) — her endorsement of that spe; no YouTube; TikTok/IG intake
   posted: '2026-11-13'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: makeup/blush clip, not skincare education
 - id: '7706744656297463053'
   title: 'Why your dark spots just won’t go away #darkspots #hyperpigmentation ...'
   creator: Jenn Lexi (@jennlexi_)
@@ -17498,7 +17502,8 @@
   conflict: Self-describes as a "Key Opinion Leader for industry beauty companies" (per her own practice bio) and most sampled TikTok videos e; no YouTube; TikTok/IG intake
   posted: '2026-11-13'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: comment-PRODUCTS funnel clip for her picks list, not single-topic education
 - id: Y5CJdR8EzCo
   title: 'Doctor: Buy This, Not That - Sephora Black Friday'
   creator: Dr. Vanita Rattan (Doctor V)
