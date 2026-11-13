@@ -185,9 +185,9 @@ videos:
     tool.
   title: Dermatologist Debunks 5 Anti-Sunscreen Myths (using actual science)
   url: https://www.youtube.com/watch?v=9vBSYuj9CVA
-- creator: ''
-  creator_slug: null
-  credential: ''
+- creator: 'Dr. Angelo Landriscina (DermAngelo)'
+  creator_slug: angelo-landriscina
+  credential: 'Board-certified dermatologist'
   duration: 374
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
   platform: YouTube
@@ -204,9 +204,9 @@ videos:
     collagen (not bone broth) has any early supporting data for skin hydration.
   title: She ate WHAT???
   url: https://www.youtube.com/watch?v=a8tvfhu3Lj0
-- creator: ''
-  creator_slug: null
-  credential: ''
+- creator: 'Stephen Alain Ko (KindofStephen)'
+  creator_slug: stephen-alain-ko
+  credential: 'Skincare educator'
   duration: 617
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
   platform: YouTube
@@ -221,9 +221,9 @@ videos:
     relying on generic estimates like the "quarter teaspoon" rule.
   title: How much sunscreen do you need to use? Use a sheetmask to find out!
   url: https://www.youtube.com/watch?v=5M507sXhcmg
-- creator: ''
-  creator_slug: null
-  credential: ''
+- creator: 'Dr. Angelo Landriscina (DermAngelo)'
+  creator_slug: angelo-landriscina
+  credential: 'Board-certified dermatologist'
   duration: 316
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
   platform: YouTube
@@ -241,9 +241,9 @@ videos:
     cancers.
   title: Was it all a lie? The dangers of sun exposure.
   url: https://www.youtube.com/watch?v=hSnqMHuUhns
-- creator: ''
-  creator_slug: null
-  credential: ''
+- creator: 'Jen Novakovich (The Eco Well)'
+  creator_slug: jen-novakovich
+  credential: 'Cosmetic scientist'
   duration: 1375
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
   platform: YouTube
@@ -263,9 +263,9 @@ videos:
     rewards sensational, unvetted claims over accurate science communication.'
   title: Beauty's Snowballing Misinformation Problem
   url: https://www.youtube.com/watch?v=ykvc8GS6Qmc
-- creator: ''
-  creator_slug: null
-  credential: ''
+- creator: 'Dr. Alexis Stephens'
+  creator_slug: alexis-stephens
+  credential: 'Board-certified dermatologist'
   duration: 782
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
   platform: YouTube

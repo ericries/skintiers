@@ -47,9 +47,9 @@ videos:
   related: ["tretinoin", "adapalene", "retinol"]
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 - title: "Why You NEED To Use A Retinoid For Your Skin (Dermatologist)"
-  creator: ""
+  creator: 'Dr. Usama Syed'
   creator_slug: 
-  credential: ""
+  credential: 'Board-certified dermatologist'
   platform: YouTube
   url: https://www.youtube.com/watch?v=Xxb6EIKpS3s
   duration: 847

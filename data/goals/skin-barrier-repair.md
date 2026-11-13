@@ -133,9 +133,9 @@ videos:
     should not try it at all.
   title: When Should You STOP Washing Your Face? Dermatologist Verdict
   url: https://www.youtube.com/watch?v=uOBx0QK3qmM
-- creator: ''
-  creator_slug: null
-  credential: ''
+- creator: 'Dr. Joyce Park (Tea with MD)'
+  creator_slug: joyce-park
+  credential: 'Board-certified dermatologist'
   duration: 748
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
   platform: YouTube
@@ -153,9 +153,9 @@ videos:
     few days) to identify what is causing irritation.
   title: Building A Skincare Routine For All Skin Types | Dr. Joyce Park
   url: https://www.youtube.com/watch?v=KAyTvaTaS7o
-- creator: ''
-  creator_slug: null
-  credential: ''
+- creator: 'Dr. Joyce Park (Tea with MD)'
+  creator_slug: joyce-park
+  credential: 'Board-certified dermatologist'
   duration: 501
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
   platform: YouTube

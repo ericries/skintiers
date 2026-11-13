@@ -47,9 +47,9 @@ type: condition
 updated: '2026-09-15'
 videos:
 - title: "Solutions For Common Skin Concerns — From A Derm"
-  creator: ""
+  creator: 'Dr. Lindsey Zubritsky (DermGuru)'
   creator_slug: 
-  credential: ""
+  credential: 'Board-certified dermatologist'
   platform: YouTube
   url: https://www.youtube.com/watch?v=cIldVGJyAF0
   duration: 37

@@ -42,9 +42,9 @@ videos:
   related: ["rosacea", "acne", "melasma", "hyperpigmentation", "niacinamide"]
   note: "Verified from the video's transcript (yt-dlp, read in full); no sponsorship."
 - title: "Azelaic Acid"
-  creator: ""
+  creator: 'Dr. Alexis Stephens'
   creator_slug: 
-  credential: ""
+  credential: 'Board-certified dermatologist'
   platform: YouTube
   url: https://www.youtube.com/watch?v=t_w1BTQI7T0
   duration: 641

@@ -578,7 +578,7 @@
 - name: Backfill creator attribution on 84 anonymous video cards
   type: person
   priority: 3
-  status: pending
+  status: done
   discovered_from: sunscreen-uv-filters
   source: 'MEASURED 2026-11-11 by loading every data/*/*.md frontmatter with yaml.safe_load:
     84 video cards across 29 pages carry creator: '''' AND credential: '''' AND creator_slug:
