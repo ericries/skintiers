@@ -754,6 +754,26 @@ beauty-of-joseon-revive-eye-serum-ginseng-retinal:
     '
   score: 9
   verdict: revise-then-published
+beef-tallow:
+  assurance: sonnet
+  notes: 'Viral-trend ingredient with no page, so clips about it had nowhere to attach. THE QUEUE ROW SAID TO
+    GRADE IT ON ITS OWN EVIDENCE, NOT ON THE CREATOR''S OPINION, and that is what the page does: the row came
+    from a dermatologist clip calling tallow more likely to clog pores, and that claim appears NOWHERE on the
+    page, because the evidence does not support it either way. Instead the page rests on two independent
+    peer-reviewed reviews found by search: Russell 2024, a PRISMA-ScR scoping review that screened 147 studies
+    and included 19, all comparative, basic-science or animal; and Almatroud 2025, a cross-sectional analysis
+    of tallow claims across YouTube, Instagram and TikTok. They asked different questions and converged on
+    insufficient human evidence. tier weak, matching the rubric. THE NON-OBVIOUS FINDING IS ON SAFETY, NOT
+    EFFICACY: readers assume a traditional fat is at least harmless, and the scoping review reports that the
+    side-effects objective had the MOST discrepancies between sources, so the page says it-cannot-hurt is
+    unsupported too. The marketing section quotes the claim TYPES the 2025 paper documented rather than any
+    one seller, which is both fairer and better sourced. Verbatim check over 32 quoted strings; the single
+    flag was my own colloquial phrase in quote marks, now italicised so it does not read as a source
+    quotation, the same fix applied on the Otezla and sunscreen pages. Both footnotes state that only the
+    abstracts were read. Main loop, no subagent, hence sonnet.'
+  reviewed: '2026-11-13'
+  reviewer: main-loop self-verification
+  verdict: publish
 beer-2026-what-s-new-with-under-eye-treatment-a-multispecialty-systema:
   last_reviewed: '2026-08-08'
   note: 'Opus re-fetched PMID 41615388 abstract and verified every quoted phrase verbatim (PRISMA/March-2025 search, "fifty studies...categorized by treatment type", efficacy/safety/suitability, full modality list, entire Results block, patient-specific-factors sentence) and every figure (50 studies, post-2010, March 2025); confirmed the abstract reports no percentages/p-values/fold-changes/patient counts and the page correctly asserts no effect size, discloses abstract-only access, and links hyperpigmentation out rather than importing general evidence. Design/population/comparator and citation (52(2):155-163, DOI, PMID, author list) all match. Verdict: publish.

@@ -2297,3 +2297,21 @@
     evidence. The full text is open access via PMC, so unlike the abstract-only pages
     here this one CAN report which botanicals were actually included; doing that would
     let the list say whether its own ingredients were in the pool.'
+- name: 'Almatroud 2025: beef tallow claims on social media (PMID 41312576)'
+  type: study
+  priority: 4
+  status: pending
+  discovered_from: beef-tallow
+  source: 'The social-media evidence paper now anchoring [[beef-tallow]], and the
+    first study page this site would have about the INFORMATION ENVIRONMENT rather
+    than an intervention: Almatroud L, Choi S, Libson K, Ashack K, ''Beef Tallow-Based
+    Skincare Claims in Social Media: A Cross-Sectional Analysis'', J Cosmet Dermatol
+    2025;24(12):e70544, PMID 41312576, PMCID PMC12661468, OPEN ACCESS via PMC. Verified
+    findings: claims for acne, atopic dermatitis and psoriasis were prevalent but
+    largely lacked cited evidence; the majority of promoting posts showed financial
+    bias and came from people without healthcare credentials; most existing evidence
+    concerns tallow''s INGREDIENTS rather than tallow. BECAUSE THE FULL TEXT IS OPEN,
+    this page can report what the abstract cannot: how many posts were sampled, which
+    platforms contributed what, and how financial bias was operationalised. Do not
+    write it from the abstract alone; that is the one thing the ingredient page already
+    does.'

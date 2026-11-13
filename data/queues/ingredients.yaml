@@ -3871,7 +3871,7 @@
 - name: Beef tallow as a facial moisturiser
   type: ingredient
   priority: 3
-  status: pending
+  status: done
   discovered_from: retinoids
   source: 'THE FOURTH VIDEO CANDIDATE IN TWO DAYS REJECTED PURELY FOR HAVING NO PAGE,
     after collagen, elastin and skin laxity. Board-certified dermatologist Dr Michelle
@@ -4292,3 +4292,18 @@
     pages; do not invent a grade. Then add it to the botanicals list under whichever
     rung its evidence supports, which the list defines as codified-and-trialled, tested-and-negative,
     one-small-trial, or no-human-trial-for-the-sold-use.'
+- name: Oleic acid, if it earns a page rather than a section
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: beef-tallow
+  source: 'Named repeatedly across the tallow literature as the reason a fat might
+    behave badly on facial skin, and the site has no page for it: oleic acid. [[beef-tallow]]
+    deliberately does NOT make the clog-pores or barrier-disruption argument because
+    neither review supports it, but oleic acid itself has a real independent literature
+    on stratum corneum permeability (PubMed search ''oleic acid stratum corneum barrier
+    disruption'' returns 23517601, 10620117, 35631342, 9067704, none read yet). It
+    also appears in INCI lists this site already covers, including [[kravebeauty-great-barrier-relief]].
+    CHECK FIRST whether this belongs as its own page or as a section on [[skin-barrier-repair]];
+    a penetration-enhancer story may not need a standalone ingredient page. If written,
+    keep it about the fatty acid and do NOT retrofit it as an argument against tallow.'
