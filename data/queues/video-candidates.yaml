@@ -4884,7 +4884,8 @@
   conflict: ShopMy affiliate storefront linked in nearly every video ('My Holy Grail Products'); own hair-care brand Kerativ Hair (she is Founder/CEO);
   posted: ''
   feed_rank: 6
-  status: pending
+  status: skipped
+  skip_reason: 5 seconds, far too thin for a thesis despite a clean description and a matching page
 - id: b_gXGbt9Oy0
   title: 'I do NOT add azelaic acid to routines to treat wrinkles…but I DO add it in these scenarios:'
   creator: Dr. Maren Locke (The Budget Dermatologist)
@@ -4981,7 +4982,8 @@
   conflict: null
   posted: ''
   feed_rank: 6
-  status: pending
+  status: skipped
+  skip_reason: 30-second Short covering 8 bump types, about 4 seconds each, too compressed to card responsibly
 - id: oavkHwIW3oU
   title: Are Gel Manicures Damaging Your Nails? A Dermatologist Explains
   creator: Andrea Suarez (Dr Dray)
@@ -5224,7 +5226,8 @@
   conflict: ShopMy affiliate storefront linked in nearly every video ('My Holy Grail Products'); own hair-care brand Kerativ Hair (she is Founder/CEO);
   posted: ''
   feed_rank: 6
-  status: pending
+  status: skipped
+  skip_reason: 15-second Short, too thin for a thesis
 - id: '7686560811887660302'
   title: Would I actually buy this? Honest thoughts from a beauty product deve...
   creator: Kristin Leite (kristingl)
