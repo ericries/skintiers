@@ -1478,3 +1478,19 @@
     A FULL ORDERED INCI, since that is the whole axis, and say which products had
     to be excluded for not publishing one. Do not use an ingredient database to fill
     the gaps; that is the exact shortcut this axis exists to expose.'
+- name: Sunscreens by what the maker discloses about its SPF testing
+  type: list
+  priority: 4
+  status: pending
+  discovered_from: kravebeauty-beet-the-sun-spf-40
+  source: 'GROUNDED IN TWO PAGES SHIPPED 2026-11-12 AND 13. [[kravebeauty-beet-the-sun-spf-40]]
+    publishes how many tests it ran (6: 2 FDA Broad Spectrum, 2 FDA SPF Static, 1
+    ISO 24444:2019, 1 ISO 24442), names the standards correctly, and reports measured
+    SPF of 42 and 43 against a label of 40. Almost no other sunscreen brand publishes
+    any of that. A list ranking sunscreens by WHAT THEIR MAKER DISCLOSES ABOUT THE
+    SPF TESTING, not by SPF number, would be new and is the sunscreen analogue of
+    [[home-led-devices-by-what-the-file-publishes]]. Build it over sunscreens whose
+    pages ALREADY quote a brand or regulatory source; [[cotz-sensitive-spf-40]] and
+    the CoTZ range are the mineral-side candidates. Do NOT go hunting fresh brand
+    copy to fill rungs, and do not rank by SPF value, which is the thing this axis
+    deliberately ignores.'

@@ -4249,3 +4249,18 @@
     NOT re-argue the barrier case that [[ceramides]] and [[skin-barrier-repair]] already
     own. Note the allergen angle the brand itself flags: tamanu is derived from tamanu
     NUTS, which matters for tree-nut avoidance.'
+- name: Ethylhexyl methoxycrylene (avobenzone photostabiliser)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: kravebeauty-beet-the-sun-spf-40
+  source: 'Sixth in the inactive list of [[kravebeauty-beet-the-sun-spf-40]] (brand
+    page read and cached 2026-11-13): ''Ethylhexyl Methoxycrylene''. It is a photostabiliser
+    used to keep avobenzone from degrading in sunlight, which is a real formulation
+    function this site has no page for, while [[avobenzone]], [[octocrylene]], [[homosalate]]
+    and [[octisalate]] all have pages. Octocrylene is the stabiliser readers have
+    heard of; this is the other one. SCOPE IT AS A FORMULATION AID, not a treatment
+    active: it does nothing for skin directly, so tier weak or no tier is the likely
+    correct answer, and the page should explain what photostabilisation is and why
+    an avobenzone sunscreen needs it. Link to [[sunscreen-uv-filters]] rather than
+    re-arguing filter evidence.'

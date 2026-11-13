@@ -4026,6 +4026,28 @@ kojic-acid:
     '
   score: 9
   verdict: revise-then-fixed
+kravebeauty-beet-the-sun-spf-40:
+  assurance: sonnet
+  notes: 'Two independent sources agree on the formula and the page says so: openFDA drug/ndc records
+    avobenzone 30, homosalate 100, octisalate 50 and octocrylene 30 mg/mL under two labeler entries, the
+    brand and its manufacturer Englewood Lab, and the brand page prints the same set as 3, 10, 5 and 3
+    percent. No mineral filter in either, reported as an absence from the NDC records. THE FINDING IS
+    TRANSPARENCY, NOT A DEFECT: this brand publishes how many tests it ran (6, where one of each would
+    satisfy the requirement), names ISO 24444 and ISO 24442 correctly, and reports measured SPF of 42 and 43
+    against a label of 40, which errs in the consumer''s favour. The page credits that explicitly rather than
+    hunting for something to criticise. WHAT IS STILL FLAGGED: the 88 to 94 percent UVA figure is the
+    company''s own commissioned testing and is attributed as theirs, not independently verified; the beetroot
+    the product is named for sits 8th in the inactive list and does no filtering, with no study cited for its
+    antioxidant claim; and PA+++ is explained as the Japanese-system output of the ISO 24442 test rather than
+    a second guarantee alongside Broad Spectrum. AVAILABILITY REPORTED, NOT INFERRED: every variant showed
+    available false on the feed read today, and the page says it is listed but not purchasable at that
+    moment rather than claiming discontinuation. Verbatim check over 43 quoted strings; all flagged items
+    were the known inter-quote span artifact. One word-as-word use of clinically proven was italicised so it
+    does not read as a quotation. Two em dashes left standing, both inside the verbatim beetroot quote.
+    Main loop, no subagent, hence sonnet.'
+  reviewed: '2026-11-13'
+  reviewer: main-loop self-verification
+  verdict: publish
 kravebeauty-great-barrier-relief:
   assurance: sonnet
   notes: 'Built from the brand''s own product page and feed, both cached. THE FINDING IS A SAMPLE SIZE THE
