@@ -33,7 +33,7 @@ tier_list:
     tier: avoid
   title: Skincare adjuncts for contact dermatitis by evidence
 type: condition
-updated: '2026-09-16'
+updated: '2026-11-13'
 videos:
 - title: The Deodorant That DESTROYED Peoples Skin?! The Billie Deodorant Lawsuit - When Beauty Turns Ugly
   creator: James Welsh
@@ -61,7 +61,7 @@ Irritant contact dermatitis happens when a chemical or physical agent damages th
 
 ## What actually works
 
-For both forms, identifying and avoiding the specific irritant or allergen is the principal strategy, and for allergic contact dermatitis, formal patch testing is how the trigger is confirmed.[^dermnet-acd] Because the skin barrier is damaged either way, DermNet's general management for contact dermatitis includes switching to a pH-balanced, soap-free cleanser, drying skin carefully after washing, and applying emollients frequently while the rash is active and for some weeks after; general barrier-support evidence is covered on [[skin-barrier-repair]].[^dermnet-cd] Active flares are treated with a short course of a topical corticosteroid, and severe cases sometimes need a short course of oral corticosteroids, phototherapy, or an immunosuppressant such as methotrexate or ciclosporin.[^dermnet-cd] DermNet also lists topical calcineurin inhibitors, [[tacrolimus-topical|tacrolimus]] ointment and [[pimecrolimus]] cream, among the treatments.[^dermnet-acd] For occupational irritant hand dermatitis specifically, moisturizer use showed a plausible protective effect in a Cochrane review of workplace prevention trials, described in [The Evidence](#the-evidence) below.[^cochrane-oihd]
+For both forms, identifying and avoiding the specific irritant or allergen is the principal strategy, and for allergic contact dermatitis, formal [[patch-testing|patch testing]] is how the trigger is confirmed.[^dermnet-acd] Because the skin barrier is damaged either way, DermNet's general management for contact dermatitis includes switching to a pH-balanced, soap-free cleanser, drying skin carefully after washing, and applying emollients frequently while the rash is active and for some weeks after; general barrier-support evidence is covered on [[skin-barrier-repair]].[^dermnet-cd] Active flares are treated with a short course of a topical corticosteroid, and severe cases sometimes need a short course of oral corticosteroids, phototherapy, or an immunosuppressant such as methotrexate or ciclosporin.[^dermnet-cd] DermNet also lists topical calcineurin inhibitors, [[tacrolimus-topical|tacrolimus]] ointment and [[pimecrolimus]] cream, among the treatments.[^dermnet-acd] For occupational irritant hand dermatitis specifically, moisturizer use showed a plausible protective effect in a Cochrane review of workplace prevention trials, described in [The Evidence](#the-evidence) below.[^cochrane-oihd]
 
 ## The Evidence
 

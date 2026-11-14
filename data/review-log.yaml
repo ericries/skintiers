@@ -9937,3 +9937,20 @@ pixi-beauty:
   reviewed: '2026-11-13'
   reviewer: main-loop
   verdict: publish
+patch-testing:
+  assurance: sonnet
+  notes: 'Self-verified in the main loop against the cached DermNet page, which is
+    the only source cited. Every quoted span was machine-checked verbatim; one failed
+    and was shortened rather than reproduced wrongly, because DermNet''s own link markup
+    puts a space before a comma inside the sentence about skin prick tests, so the
+    full sentence is not quotable as printed. The footnote records that. Filed under
+    goals, not conditions, although it came off the condition queue: patch testing
+    is a procedure, the site already files procedures as goals (surgical-excision-skin-cancer),
+    and the condition lint rightly demanded a "How to know you have this" opener that
+    a diagnostic test cannot have. No tier_list, because nothing on this page is a
+    graded product and inventing a ranking would misrepresent a procedure. The page
+    deliberately leads with what the test does NOT do, since the commonest reader error
+    is bringing a stinging reaction to it, which DermNet says it cannot investigate.'
+  reviewed: '2026-11-13'
+  reviewer: main-loop
+  verdict: publish

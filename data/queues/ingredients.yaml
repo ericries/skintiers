@@ -4331,3 +4331,27 @@
   discovered_from: kravebeauty-kale-lalu-yaha
   source: KraveBeauty Kale-Lalu-yAHA declared INCI, last of 23; the licorice-derived
     soothing agent, distinct from the licorice-root-extract page that already exists
+- name: Methylisothiazolinone
+  type: ingredient
+  priority: 4
+  status: pending
+  discovered_from: patch-testing
+  source: Named as a common contact allergen on DermNet's allergic contact dermatitis
+    page already cited by contact-dermatitis; a preservative that appears in cosmetics
+    and has no page here
+- name: Paraphenylenediamine (PPD)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: patch-testing
+  source: 'DermNet patch tests page, cached 2026-11-13: named as the hair dye allergen
+    whose positives can cross react to parabens in cosmetics and sunscreens, and as
+    an allergen that stains the skin black during testing'
+- name: Nickel (contact allergen)
+  type: ingredient
+  priority: 6
+  status: pending
+  discovered_from: patch-testing
+  source: 'DermNet patch tests page, cached 2026-11-13: named among the metals that
+    produce irritant reactions in atopic eczema patients and so complicate interpretation;
+    one of the commonest contact allergens and absent here'

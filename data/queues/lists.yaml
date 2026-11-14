@@ -1518,3 +1518,12 @@
     IT ONLY over studies whose pages already record the affiliation and the design;
     do not go hunting new papers to fill rungs, and do NOT imply fraud. The axis is
     who paid and what was controlled, not honesty.'
+- name: Contact allergens in skincare, by how often patch testing finds them
+  type: list
+  priority: 8
+  status: pending
+  discovered_from: patch-testing
+  source: Grounded in the new patch-testing page plus the allergen ingredient pages
+    already here (coco-glucoside carries a 2.0% NACDG positivity figure, lanolin,
+    propylene-glycol); only build it once two or three more allergen pages carry real
+    registry positivity rates, else the ranking would be a list of one

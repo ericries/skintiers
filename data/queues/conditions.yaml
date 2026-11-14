@@ -1071,7 +1071,7 @@
 - name: Patch testing for allergic contact dermatitis
   type: condition
   priority: 4
-  status: pending
+  status: done
   discovered_from: laura-soong
   source: 'CHECK FIRST WHETHER THE GROUND IS ALREADY HELD, because sk find has wrongly
     suggested four covered topics were gaps in the last three days: look at [[allergic-contact-dermatitis]]
