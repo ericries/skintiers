@@ -550,6 +550,7 @@
   product_recs: restricted
 - name: Dr. Vanita Rattan (Doctor V)
   creator_slug: vanita-rattan
+  last_pulled: '2026-11-13'
   credential: Describes herself on camera as a medically qualified doctor who is also a cosmetic formulator for skin of colour, and as a published author with HarperCollins; she does not claim to be a dermatologist. Self-stated and not independently verified against a medical register by this site.
   tier: MED
   channel: https://www.youtube.com/channel/UC4u0qaMIAgOL8L37RwLcDQA

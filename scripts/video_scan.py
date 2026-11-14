@@ -154,7 +154,7 @@ def recent_uploads(channel, n, timeout, cookies_browser=None):
         env["YTDLP_COOKIES_FROM_BROWSER"] = cookies_browser
         cookie_args = ["--cookies-from-browser", cookies_browser]
     cmd = ["yt-dlp", *cookie_args, "--flat-playlist", "--playlist-end", str(n),
-           "--no-warnings", "--print", "%(id)s\t%(upload_date)s\t%(title)s", channel]
+           "--no-warnings", "--print", "%(id)s\t%(upload_date)s\t%(title)s\t%(duration)s", channel]
     try:
         proc = subprocess.run(cmd, capture_output=True, text=True, timeout=timeout, env=env)
     except FileNotFoundError:
@@ -172,8 +172,19 @@ def recent_uploads(channel, n, timeout, cookies_browser=None):
             continue
         rows.append({"id": vid,
                      "upload_date": parts[1] if len(parts) > 1 else "",
-                     "title": parts[2] if len(parts) > 2 else ""})
+                     "title": parts[2] if len(parts) > 2 else "",
+                     "duration": _duration(parts[3] if len(parts) > 3 else "")})
     return rows, None
+
+
+def _duration(raw):
+    """Seconds as an int, or None when yt-dlp gave us nothing usable. Never 0:
+    an unknown duration must not be mistaken for a Short."""
+    try:
+        secs = int(float(str(raw).strip()))
+    except (TypeError, ValueError):
+        return None
+    return secs if secs > 0 else None
 
 
 def build_candidate(row, creator):
@@ -192,6 +203,7 @@ def build_candidate(row, creator):
         "product_recs": creator.get("product_recs"),
         "conflict": creator.get("conflict"),
         "posted": fmt_date(row.get("upload_date")),
+        "duration": _duration(row.get("duration")),
         "feed_rank": row.get("_feed_rank", 99),
         "status": "pending",
     }
@@ -283,14 +295,20 @@ def collect_new(results, seen):
     return new_items, errors
 
 
-def rank_pending(queue, ingested, platform=None):
+def rank_pending(queue, ingested, platform=None, min_duration=None):
     """The pending, not-yet-ingested candidates a pull cron should ingest, freshest
     first (feed_rank asc; posted desc as a stable tie-break). Optional platform
-    filter (YouTube/TikTok) so each pull cron drains only what it can process."""
+    filter (YouTube/TikTok) so each pull cron drains only what it can process, and
+    optional min_duration (seconds) so a cron that cannot card a Short does not have
+    to spend a yt-dlp call per candidate discovering that. Rows with no recorded
+    duration are KEPT: they were scanned before the field existed, and dropping them
+    would silently hide most of the queue."""
     pending = [q for q in queue
                if q.get("status", "pending") == "pending"
                and str(q.get("id")) not in ingested
-               and (not platform or (q.get("platform") or "").lower() == platform.lower())]
+               and (not platform or (q.get("platform") or "").lower() == platform.lower())
+               and (not min_duration or q.get("duration") is None
+                    or q.get("duration") >= min_duration)]
     ranked = sorted(pending, key=lambda q: (q.get("posted") or ""), reverse=True)
     return sorted(ranked, key=lambda q: q.get("feed_rank", 99))
 
@@ -371,6 +389,10 @@ def main(argv=None):
                          "combined with --scan)")
     ap.add_argument("--platform", choices=["youtube", "tiktok"],
                     help="with --list-pending: only list candidates on this platform")
+    ap.add_argument("--min-duration", type=int, metavar="SECONDS",
+                    help="with --list-pending: skip candidates shorter than this "
+                         "(Shorts are too thin to card). Rows scanned before duration "
+                         "was recorded have none and are always listed")
     ap.add_argument("--resolve", metavar="VIDEO_ID",
                     help="mark a candidate handled so it is not re-listed (use for "
                          "videos rejected at ingest); a cheap local write")
@@ -385,10 +407,12 @@ def main(argv=None):
     if args.list_pending is not None:
         ingested = ingested_ids()
         by_slug = roster_by_slug()
-        for q in rank_pending(queue, ingested, args.platform)[:args.list_pending]:
+        for q in rank_pending(queue, ingested, args.platform,
+                              args.min_duration)[:args.list_pending]:
             q = refresh_from_roster(q, by_slug)
             keys = ("id", "creator_slug", "creator", "credential", "channel",
-                    "platform", "tier", "product_recs", "posted", "title", "conflict")
+                    "platform", "tier", "product_recs", "posted", "duration",
+                    "title", "conflict")
             if q.get("roster"):
                 keys = keys + ("roster",)
             print("\t".join(f"{k}={q.get(k)}" for k in keys))

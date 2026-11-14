@@ -6149,7 +6149,8 @@
   conflict: Founder of own-brand haircare line (Rhute); TikTok Shop affiliate/product storefront; recurring disclosed sponsored posts (No7, La Roche Pos
   posted: ''
   feed_rank: 6
-  status: pending
+  status: skipped
+  skip_reason: shopping haul of product recommendations from a product_recs restricted creator
 - id: xpl78be47WY
   title: 'Squamous Cell Carcinoma: Early Warning Signs'
   creator: Dr. Aleksandra Brown, DO, FAAD
@@ -6162,7 +6163,8 @@
   conflict: null
   posted: ''
   feed_rank: 6
-  status: pending
+  status: skipped
+  skip_reason: 52s Short, five hashtags; clean content but too thin for a grounded thesis
 - id: 1GKGxLHqOE8
   title: 'Dermatologist Shops Sam’s Club Skincare: What’s Worth Buying?'
   creator: Andrea Suarez (Dr Dray)
@@ -6189,7 +6191,8 @@
   conflict: Own-brand UPF sun-protective clothing line, SOUL-A (wearsoula.com / @wearsoula), founded and promoted by him — apparel, not topical skincare
   posted: ''
   feed_rank: 6
-  status: pending
+  status: skipped
+  skip_reason: hashtag-stuffed reacts Short, not single-topic education
 - id: KOecr6tO3IQ
   title: 'This is insanity #dermreacts  #skincare  #dermatologist #dermangelo'
   creator: Dr. Angelo Landriscina (DermAngelo)
@@ -6229,7 +6232,8 @@
   conflict: Chief Medical Officer of hair-growth-serum brand REYUS; advisory-board member of Bubble Skincare; periodic disclosed paid brand partnerships
   posted: ''
   feed_rank: 6
-  status: pending
+  status: skipped
+  skip_reason: 29s Short, vague title; creator has own-brand conflicts
 - id: '7688127425686818068'
   title: merit have new shades! this is new the merit lip liner in bauhaus, de...
   creator: Hannah English (@ms_hannah_e / Hannah Collingwood English)
@@ -6256,7 +6260,8 @@
   conflict: Runs an Amazon affiliate storefront (amazon.com/shop/derm.talk); recurring disclosed paid brand partnerships (Shiseido, SkinCeutic
   posted: ''
   feed_rank: 6
-  status: pending
+  status: skipped
+  skip_reason: 60s Short with a hashtag-only title and no stated subject
 - id: 71aD8K1lj-s
   title: How to Layer Azelaic Acid, Tretinoin, and Cicaplast
   creator: Dr. Joyce Park (Tea with MD)
@@ -6269,7 +6274,8 @@
   conflict: ShopMy affiliate storefront linked in nearly every video ('My Holy Grail Products'); own hair-care brand Kerativ Hair (she is Founder/CEO);
   posted: ''
   feed_rank: 6
-  status: pending
+  status: skipped
+  skip_reason: 14s Short; far too thin for a thesis
 - id: '7688064716144430349'
   title: Drop your thoughts on the new @KraveBeauty cream below! I’m intrigued...
   creator: Kristin Leite (kristingl)
@@ -6310,7 +6316,8 @@
   conflict: Runs extensive Amazon Associates and ShopMy affiliate storefronts, monetizing nearly every product mentioned across videos
   posted: ''
   feed_rank: 6
-  status: pending
+  status: skipped
+  skip_reason: favorites video from a creator who monetizes picks via Amazon and ShopMy
 - id: TOAhyz5mWro
   title: 'How to Treat Dirt Tattoos [DermTV.com Epi #566]'
   creator: Dr. Neal Schultz (DermTV)
@@ -6447,7 +6454,8 @@
   conflict: Founder of own-brand haircare line (Rhute); TikTok Shop affiliate/product storefront; recurring disclosed sponsored posts (No7, La Roche Pos
   posted: ''
   feed_rank: 6
-  status: pending
+  status: skipped
+  skip_reason: 68s hashtag-stuffed Short about hair serums, off core topics
 - id: '7688528368060468493'
   title: MINIVANS ARE HOT 🔥 I never in my life thought that I would be caught ...
   creator: Dr. Aegean Chan
