@@ -43,6 +43,18 @@ tier_list:
     good: Carries a label indication for ringworm
 type: condition
 updated: '2026-10-23'
+videos:
+- title: 'Recurrent fungal infection: causes and how to prevent'
+  creator: Dr. Aanchal MD
+  creator_slug: dr-aanchal-md
+  credential: Dr. Aanchal Panth, MD Dermatology, Venereology and Leprosy (AIIMS New Delhi), MBBS (Manipal); consultant dermatologist, Surat, India; IADVL member
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=0K4udxHQgfM
+  posted: '2020-05-19'
+  related: [tinea-cruris-jock-itch, onychomycosis, topical-corticosteroids, terbinafine, itraconazole]
+  thesis: Dermatologist Dr Aanchal Panth sets out why superficial fungal infections of the skin keep coming back after treatment appears to work. Her first two causes are stopping the course early, since she says oral antifungals usually run three to four weeks and topical treatment can continue for up to three months, and using combination creams that contain a steroid, which she says suppress the inflammation the body uses to kill the fungus so the lesion looks better while the fungus spreads. She also names household reinfection through shared towels and clothing, untreated toenail infection, and uncontrolled diabetes, and advises asking family members whether they are infected too.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Ringworm of the body is a dermatophyte infection of the skin, and the name is a leftover from before anyone knew what caused it. A 2025 review co-authored by the CDC's Mycotic Diseases Branch puts it plainly: "Tinea infections (often called ringworm) are caused by dermatophyte fungi and classified by the body site involved".[^afp] The foot version is on [[athletes-foot]] and the scalp version, which behaves very differently, on [[tinea-capitis]].

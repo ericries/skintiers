@@ -130,3 +130,21 @@ Back-catalog mining is expensive (transcript per video). It pays off only for cr
 older content is (a) still accurate/evergreen and (b) rigorously science-aligned. Lower-tier
 or format-mismatched creators (podcast/haul channels) are not worth a deep sweep; they stay
 on Track 1 only.
+
+## The demand-driven fallback needs a `--type` (2026-11-13)
+
+`video_gaps.py` orders its output core-types-first and then alphabetically, so a
+bare `--limit 40` returns product pages and nothing else: on 2026-11-13 the gap
+counts were product 387, ingredient 167, condition 27, goal 32. Most of the
+HIGH-tier roster is `product_recs: restricted`, and a product video from a
+restricted creator is precisely the category this cron may not card. So the
+fallback could never fire for them, and four backfill ticks in a row advanced the
+cursor with zero cards and no error.
+
+Run `--count` first, then ask for one type. For a restricted creator, ask for
+`--type ingredient`, `--type condition` or `--type goal`. The condition and goal
+lists are short enough to read whole, and they are where a dermatologist's
+evergreen educational back catalog actually fits: the card added on 2026-11-13
+was Dr. Aanchal Panth on recurrent fungal infection, which filled
+`tinea-corporis-ringworm`, a condition gap, from a catalog slice whose own 15
+titles contained no usable single-topic match at all.
