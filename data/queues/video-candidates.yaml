@@ -17567,7 +17567,8 @@
   posted: ''
   duration: 551
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: title ends '(sponsor)'; paid placement declared by the creator
 - id: '7707666680985570591'
   title: Most people don't need more skincare. They need a plan that actually ...
   creator: Fatima Fahs
@@ -17609,7 +17610,8 @@
   posted: ''
   duration: 987
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: beauty-industry news roundup, not single-topic skincare education
 - id: '7707420322412170509'
   title: 'What should you look for in an LED mask? #amiro #ledmask #antiaging #...'
   creator: Jenn Lexi (@jennlexi_)
@@ -17651,7 +17653,8 @@
   posted: ''
   duration: 1446
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 9-product ranking from a creator who monetizes nearly every product mentioned via Amazon and ShopMy; picks treated as effectively paid
 - id: 3zySrp3VXSI
   title: 'how to fix a damaged skin barrier #skincare stitch with aania'
   creator: Dr. Neera Nathan
@@ -17735,7 +17738,8 @@
   posted: ''
   duration: 354
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 4C hair growth, off core topics; creator routes to her own line inside educational content
 - id: ZuplHodCEuE
   title: dark marks in skin of colour - Dr V x
   creator: Dr. Vanita Rattan (Doctor V)
