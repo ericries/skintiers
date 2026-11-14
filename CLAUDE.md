@@ -11,7 +11,9 @@ The site is maintained by a fleet of ~17 session crons defined in `data/cron-ros
 2. If NO entry's prompt contains `[SkinTiers cron watchdog]`, re-create it: run `.venv/bin/python scripts/cron_watchdog.py`, then `CronCreate` with cron `19 7 * * *` and prompt = the exact contents of `research-cache/cron-prompts/cron-watchdog.txt`.
 3. That is all — the watchdog handles the other 16. Do not re-create the whole fleet by hand unless the watchdog itself is also being rebuilt from scratch.
 
-Adding/removing a standard cron = edit `data/cron-roster.yaml` (the watchdog picks it up next run). The watchdog matches by the `[SkinTiers ...]` header, so keep headers unique + stable.
+Adding/removing a standard cron, OR changing any cron's instructions = edit `data/cron-roster.yaml` (the watchdog picks it up next run). The watchdog matches by the `[SkinTiers ...]` header, so keep headers unique + stable.
+
+**`research-cache/cron-prompts/*.txt` are BUILD ARTIFACTS, not sources.** `cron_watchdog.py` regenerates all of them from the roster on every run, so an edit made directly to a `.txt` file survives only until the next watchdog firing and then vanishes with no error. On 2026-11-14 three prompt fixes made the day before were lost exactly this way, and the regression was only noticed because the watchdog tick re-read the files it had just overwritten. Edit the roster; regenerate with `.venv/bin/python scripts/cron_watchdog.py`; confirm the change is present in the generated `.txt`.
 
 ---
 
