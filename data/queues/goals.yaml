@@ -539,7 +539,7 @@
 - name: Micro-coring (skin tissue removal procedure)
   type: goal
   priority: 5
-  status: pending
+  status: done
   discovered_from: skin-firmness-elasticity
   source: 'Named by Dr. Brooke Jeffy in the crepey-skin explainer carded on skin-firmness-elasticity
     2026-10-09 (video E1YXUAjcv9g): she describes it as removing columns of skin,

@@ -2315,3 +2315,20 @@
     platforms contributed what, and how financial bias was operationalised. Do not
     write it from the abstract alone; that is the one thing the ingredient page already
     does.'
+- name: 'Remy 2025: Microcoring systematic review, 8 studies / 112 patients (PMID
+    40116370)'
+  type: study
+  priority: 4
+  status: pending
+  discovered_from: micro-coring
+  source: Dermatol Surg 2025;51(7):696-701, PMID 40116370; the single evidence anchor
+    for micro-coring and the only pooled view of it, so it deserves a structured study
+    page rather than being summarised only on the goal hub
+- name: Histologic study of abdominal skin after mechanical dermal micro-coring (PMID
+    40600385)
+  type: study
+  priority: 7
+  status: pending
+  discovered_from: micro-coring
+  source: J Cosmet Dermatol 2025 Jul; the histology arm the systematic review says
+    is missing from most of the literature; found in the same PubMed sweep on 2026-11-13

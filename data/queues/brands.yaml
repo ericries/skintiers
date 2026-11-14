@@ -850,3 +850,11 @@
     brand card must link out rather than restate it. Check whether the site covers
     any Nu Skin product before opening the page; with no product pages, a brand card
     carrying one study link may not earn its place yet and closing the row is acceptable.'
+- name: Cytrellis Biosystems
+  type: brand
+  priority: 7
+  status: pending
+  discovered_from: micro-coring
+  source: Holder of both micro-coring 510(k) clearances, K202517 (2021-07-09) and
+    K252752 (2025-10-30), per openFDA; the site has no page and the device is sold
+    as ellacor

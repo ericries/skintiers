@@ -9954,3 +9954,22 @@ patch-testing:
   reviewed: '2026-11-13'
   reviewer: main-loop
   verdict: publish
+micro-coring:
+  assurance: sonnet
+  notes: 'Self-verified in the main loop. All sources are primary: one PRISMA systematic
+    review read from its PubMed abstract, plus three openFDA device records (the QAI
+    classification and the two Cytrellis 510(k) clearances). Every quoted span was machine-checked
+    verbatim against the fetched abstract or the API response; zero mismatches. No
+    effect size is stated anywhere on the page because the abstract reports none and
+    the full text was not accessed, and the footnote says so. The FDA 510(k) summary
+    PDFs for K202517 and K252752 both returned 404 from accessdata.fda.gov on 2026-11-13,
+    so no Indications for Use wording is quoted from either, and both footnotes record
+    the failed fetch rather than leaving the gap unexplained. Deliberately no tier_list,
+    although goal pages normally prefer one: the review itself names comparisons with
+    other minimally invasive techniques as missing, so ranking micro-coring against
+    subcision or microneedling would be invention. The page leads with the size of
+    the clinical evidence, 112 patients across five studies, because the marketing
+    does not.'
+  reviewed: '2026-11-13'
+  reviewer: main-loop
+  verdict: publish
