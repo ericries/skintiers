@@ -388,6 +388,27 @@ def _page_has_video(path, vid):
     return False
 
 
+def creator_card_count(path, creator_slug):
+    """How many `videos:` cards on this page already belong to one creator.
+
+    Used to warn about saturation at insert time. A page that already carries
+    several cards from the same person usually does not need another: twice on
+    2026-11-15 a tick researched a clip in full before noticing the target page
+    held three cards from that creator making the same argument. Never raises
+    and never blocks the insert, because a warning that breaks a carding run is
+    worse than the redundancy it was meant to catch.
+    """
+    if not creator_slug:
+        return 0
+    import frontmatter
+    try:
+        cards = frontmatter.load(str(path)).metadata.get("videos") or []
+    except Exception:
+        return 0
+    return sum(1 for c in cards
+               if isinstance(c, dict) and c.get("creator_slug") == creator_slug)
+
+
 def cmd_add_video(args):
     """Insert a `videos:` card into one or more pages' frontmatter SAFELY.
 
@@ -463,6 +484,12 @@ def cmd_add_video(args):
         if dropped:
             msg += f" (dropped unknown related: {', '.join(dropped)})"
         print(msg)
+        for s in carded:
+            prior = creator_card_count(paths[s], getattr(args, "creator_slug", None)) - 1
+            if prior >= 2:
+                print(f"NOTE: {s} now carries {prior + 1} cards from "
+                      f"{args.creator_slug}. Check this one is not restating the "
+                      f"others before you keep it.")
     if dup:
         print(f"dup: {vid} already on {', '.join(dup)}; skipped there")
     return 0

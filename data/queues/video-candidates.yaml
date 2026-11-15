@@ -17816,7 +17816,8 @@
   posted: '2026-11-14'
   duration: 106
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: product comparison tagging @SKIN1004 US from a creator with an Amazon storefront who does sponsored posts; picks treated as effectively paid
 - id: '7708136431037779231'
   title: Anyone else? Thank you @mimitime 💕
   creator: Dr. Mamina Turegano
@@ -17830,7 +17831,8 @@
   posted: '2026-11-14'
   duration: 58
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: vague clip with no named subject
 - id: sU-LcLySvPY
   title: Is this "scientific" skincare brand a scam?
   creator: Michelle Wong (Lab Muffin)
@@ -17858,7 +17860,8 @@
   posted: '2026-11-14'
   duration: 37
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 37s comment-UNDEREYES funnel for her favourites list, not single-topic education
 - id: V05NVkMwbQ4
   title: I Was Wrong About Microneedling | Dr. Idriss
   creator: Dr. Shereene Idriss
@@ -17900,4 +17903,5 @@
   posted: '2026-11-14'
   duration: 238
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'sound educational clip but redundant: minimalist-routine already carries three Ella cards making the same start-simple argument, four of its six total'
