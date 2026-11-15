@@ -1222,3 +1222,21 @@
     treatment this site covers for it. Check what else the hub already links before
     adding; the point is connecting existing pages, not writing new prose about psoriasis.
     Do NOT build a tier_list ranking systemic against topical from one drug''s trials.'
+- name: Skin tags (acrochordons)
+  type: condition
+  priority: 5
+  status: pending
+  discovered_from: exfoliation
+  source: 'Demand evidence rather than a guess: DermTV''s ''How to Remove Skin Tags
+    at Home'' (D7eHQry26DU) has 603,241 views, the highest-viewed video in the 46-60
+    slice of that catalogue by an order of magnitude, and the site has no page to
+    card it on. A page would also let the site address at-home removal claims, which
+    is where the risk sits. CHECK FIRST that no existing page owns this'
+- name: Sunburn (acute UV injury)
+  type: condition
+  priority: 6
+  status: pending
+  discovered_from: exfoliation
+  source: DermTV's 'How Do You Know When a Sunburn is Dangerous' (vxhAPjKkLxU, 53,688
+    views) has no page to attach to; the site covers sun-damage-photoaging, which
+    is the chronic side, but nothing on the acute injury or when it needs care

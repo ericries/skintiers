@@ -13,6 +13,18 @@ slug: exfoliation
 status: published
 type: goal
 updated: '2026-10-26'
+videos:
+- title: Can You Exfoliate Dark Skin
+  creator: Dr. Neal Schultz (DermTV)
+  creator_slug: neal-schultz
+  credential: Dermatologist, host of DermTV.com
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=DzQ8YsUO0Cg
+  posted: '2013-08-17'
+  related: [glycolic-acid, hyperpigmentation, post-inflammatory-hyperpigmentation, chemical-peels-acne-scars]
+  thesis: 'Dermatologist Neal Schultz explains why exfoliation needs more care on darker skin: skin with more melanin has pigment-producing cells that are more easily stimulated, so any injury can leave uneven hyperpigmentation behind. He says superficial no-downtime peels, usually glycolic or microdermabrasion, are generally fine, while deeper TCA and Blue peels that cause crusting and peeling can all cause hyperpigmentation in darker skin. For at-home exfoliating products his advice is to test for a few days on a small area in front of the ear, always start with the lowest strength available, and wash the product off immediately if a burning sensation increases.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Three different things get sold under one word. Removing dead cells from the surface, scrubbing them off, and speeding up how fast new cells are made are not the same mechanism, and conflating them is how people end up using a scrub, an acid and a retinoid at once and wondering why their skin is raw.
