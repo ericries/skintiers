@@ -10023,3 +10023,55 @@ wananukul-2012-licochalcone-vs-hydrocortisone-infantile-seborrhoeic-dermatitis-p
   reviewed: '2026-11-14'
   reviewer: main-loop
   verdict: publish
+axillary-hyperpigmentation:
+  assurance: sonnet
+  notes: 'Self-verified in the main loop against the PubMed abstract, which is the
+    only source. Every quoted span was machine-checked verbatim; zero mismatches. The
+    tier_list is deliberately graded on the REVIEW''S OWN WORDING, not on effect sizes,
+    and both the by: line and the body say so, because the abstract gives no pooled
+    estimate, no confidence interval and no participant count for any treatment. Rungs
+    are capped at moderate for that reason; nothing here earns a top rung off ten studies.
+    Two treatments the review rates highest, desonide and Perilla frutescens, have no
+    page here and the page says so rather than quietly omitting them. The acanthosis
+    nigricans caution is flagged in the footnote as general clinical knowledge and not
+    a finding from the review, since it is the one statement on the page not traceable
+    to the cited source.'
+  reviewed: '2026-11-14'
+  reviewer: main-loop
+  verdict: publish
+sclerotherapy-spider-veins:
+  assurance: sonnet
+  notes: 'Self-verified in the main loop against two PubMed abstracts, both primary.
+    Every quoted span machine-checked verbatim; zero mismatches. Two deliberate restraints.
+    First, the PubMed record of the long-term study contains a corrupted word in one
+    sentence (a stray character string inside "compared"), so nothing is quoted from
+    that sentence and the footnote records why. Second, the meta-analysis is about ADVERSE
+    EVENTS, not clearance: its 90.68 percent satisfactory-clearance figure is a single-arm
+    rate for the combined technique only, and the page says explicitly that the risk
+    ratios do not say which technique clears more veins. Direction of the risk ratios
+    is stated in the footnote so a reader cannot invert them. No tier_list, because the
+    only comparator has no page and the one pooled comparison measured the wrong thing
+    to rank on. The page leads with the three-year recurrence finding rather than the
+    procedure description, since that is what the consultation omits.'
+  reviewed: '2026-11-14'
+  reviewer: main-loop
+  verdict: publish
+cellulite-devices-by-what-their-fda-code-permits:
+  assurance: sonnet
+  notes: 'Self-verified in the main loop. Every figure and definition is quoted from
+    the openFDA device classification and 510(k) APIs, read 2026-11-14, and each footnote
+    names the exact query. The list is unusually checkable because the product-code
+    definitions are short public strings rather than claims. Two things are flagged
+    as inference rather than FDA statement: that OUP is the only one of the three
+    cellulite codes whose definition omits a time-limiting word, which is a comparison
+    made here across three definitions; and that both 510(k) queries returned a limited
+    page of results, so neither device list is complete, which both footnotes say. The
+    strongest finding is that NFO, the code the NuBODY is cleared under, has an EMPTY
+    definition field and sits under a Neurology regulation with no cellulite claim at
+    all. That is reported as a property of the record, and the page states plainly that
+    it is not a violation of anything. Efficacy is deliberately left to the cellulite
+    hub, which already carries a graded tier_list; this page ranks permission, not
+    evidence, and says so.'
+  reviewed: '2026-11-14'
+  reviewer: main-loop
+  verdict: publish

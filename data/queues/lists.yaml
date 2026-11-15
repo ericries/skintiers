@@ -1287,7 +1287,7 @@
 - name: Cellulite devices by what their FDA product code permits them to claim
   type: list
   priority: 4
-  status: pending
+  status: done
   discovered_from: velasmooth-syneron
   source: 'Grounded and immediately checkable. FDA classification product code NUV
     (''Massager, Vacuum, Light Induced Heating'') is DEFINED as intended ''to temporarily

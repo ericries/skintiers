@@ -4395,3 +4395,12 @@
     guideline addresses (PMID 41182242); the site covers CSU but has no page for its
     second-line biologic. VERIFY the guideline's actual recommendations before writing,
     they were not read
+- name: Desonide (topical corticosteroid)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: axillary-hyperpigmentation
+  source: One of two treatments the 2025 axillary hyperpigmentation systematic review
+    (PMID 40843925) singles out for significant effectiveness and minimal side effects;
+    a low-potency topical steroid with no page here, and the long-term question on
+    thin axillary skin is unaddressed by that abstract

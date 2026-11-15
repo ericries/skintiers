@@ -590,7 +590,7 @@
 - name: Sclerotherapy for spider veins
   type: goal
   priority: 5
-  status: pending
+  status: done
   discovered_from: vitamin-c
   source: Dr Dray answers a reader question on leg spider veins in the Q&A carded
     2026-10-10 (video U0cXvfQ8h60), describing sclerotherapy as injecting a sclerosant
@@ -988,3 +988,11 @@
     rather than restate it, and in particular the finding that one manufacturer names
     the standard on only its eye-area device. Do not duplicate the list; link to it
     and keep the goal page about the reader question.'
+- name: Q-switched Nd:YAG laser
+  type: goal
+  priority: 5
+  status: pending
+  discovered_from: axillary-hyperpigmentation
+  source: Named by PMID 40843925 as the most frequently used laser for axillary hyperpigmentation,
+    effective across three studies with no severe adverse effect; the site covers
+    several other lasers as goal pages but not this one

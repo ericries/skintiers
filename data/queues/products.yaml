@@ -6484,3 +6484,18 @@
     Stick but not the spray. RESOLVE THE EXACT SKU FROM THE BRAND SITE FIRST: the
     transcript says only ''spray'', so the product name above is descriptive and must
     not be used verbatim'
+- name: Cellfina (K192185, powered subcision for cellulite)
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: cellulite-devices-by-what-their-fda-code-permits
+  source: openFDA 510(k) read 2026-11-14, product code OUP, Ulthera Inc, decision
+    2019-10-09. The OUP code is the only cellulite code whose definition omits a time
+    limit, and the site covers no OUP device
+- name: Aveli (K221336 / K232153, cellulite subcision device)
+  type: product
+  priority: 6
+  status: pending
+  discovered_from: cellulite-devices-by-what-their-fda-code-permits
+  source: openFDA 510(k) read 2026-11-14, product code OUP, Revelle Aesthetics, two
+    clearances 2022-08-05 and 2023-08-18

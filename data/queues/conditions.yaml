@@ -1051,7 +1051,10 @@
     The lesson for whoever works this queue: sk find scores descriptive multi-word
     names poorly, so a 66 or 69 against an existing page is NOT evidence that the
     topic is uncovered. Check the neighbouring hub''s actual sections before queueing
-    a new one.'
+    a new one. 2026-11-14: cellulite-devices-by-what-their-fda-code-permits now exists
+    and ranks the device codes by permitted claim. The hub''s tier_list says the best-evidenced
+    options are in-office procedures with no pages here; Cellfina and Aveli are now
+    queued as products, which would fill exactly that gap.'
 - name: Post-inflammatory hyperpigmentation after energy-based facial procedures
   type: condition
   priority: 4
@@ -1089,7 +1092,7 @@
 - name: Axillary (underarm) hyperpigmentation
   type: condition
   priority: 4
-  status: pending
+  status: done
   discovered_from: sweet-orange-peel-extract
   source: 'CHECK [[hyperpigmentation]] FIRST and close this row if it already owns
     the site; sk find has wrongly implied five covered topics were gaps this week.

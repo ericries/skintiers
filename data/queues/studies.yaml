@@ -2341,3 +2341,12 @@
   source: Int Arch Allergy Immunol 2026;187(7):737-752. The evidence anchor for the
     antihistamine page and the only pooled comparison of the class; deserves a structured
     study page
+- name: 'Vahabi 2025: axillary hyperpigmentation treatments, systematic review of
+    10 studies (PMID 40843925)'
+  type: study
+  priority: 6
+  status: pending
+  discovered_from: axillary-hyperpigmentation
+  source: J Cosmet Dermatol 2025;24(8):e70418. The only systematic review of this
+    site-specific condition and the sole source behind the new hub; a structured study
+    page would record what each of the ten studies actually measured
