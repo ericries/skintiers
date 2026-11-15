@@ -4404,3 +4404,18 @@
     (PMID 40843925) singles out for significant effectiveness and minimal side effects;
     a low-potency topical steroid with no page here, and the long-term question on
     thin axillary skin is unaddressed by that abstract
+- name: Sea Silt Extract
+  type: ingredient
+  priority: 6
+  status: pending
+  discovered_from: nuface-super-peptide-booster-serum
+  source: Sixth on the NuFACE Super Peptide Booster list, the last position before
+    the alphabetical tail begins, so it is one of the few ingredients here genuinely
+    present in quantity; no page exists
+- name: Leontopodium Alpinum (edelweiss) callus culture extract
+  type: ingredient
+  priority: 7
+  status: pending
+  discovered_from: nuface-super-peptide-booster-serum
+  source: Declared in the NuFACE Super Peptide Booster INCI read 2026-11-15; a plant
+    stem cell culture extract that appears across premium serums and has no page here

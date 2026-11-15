@@ -1541,3 +1541,15 @@
     and 1.0mm to body stretch marks, which is a checkable axis across home devices.
     Only build once two or three more home-device pages exist; right now this site
     has banish-kit-3-0 and little else in the category
+- name: Alphabetical ingredient lists, and what a position below the top six does
+    not tell you
+  type: list
+  priority: 4
+  status: pending
+  discovered_from: nuface-super-peptide-booster-serum
+  source: 'Grounded and checkable: the NuFACE Super Peptide Booster list is concentration-ordered
+    for six entries then strictly alphabetical from Ammonium to Zinc, verified programmatically
+    2026-11-15. The site repeatedly reasons from ingredient position across product
+    pages, and this convention silently invalidates that reasoning below 1 percent.
+    A list identifying which covered products alphabetise would be unusually useful
+    and is mechanically testable from cached INCI text'

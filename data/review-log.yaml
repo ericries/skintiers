@@ -10096,3 +10096,24 @@ banish-kit-3-0:
   reviewed: '2026-11-15'
   reviewer: main-loop
   verdict: publish
+nuface-super-peptide-booster-serum:
+  assurance: sonnet
+  notes: 'Self-verified in the main loop against the cached brand page, the store feed,
+    two brand catalogue images and an openFDA query. VERIFICATION CAUGHT A REAL ERROR
+    AND CHANGED THE PAGE''S ARGUMENT. The first draft said the list ran 35 entries with
+    carnosine at 15 and copper gluconate at 18, and treated the peptides sitting at
+    24 and 25 as meaningful. Counting the list properly gives 36 entries, carnosine
+    at 14 and copper gluconate at 17; and testing the order programmatically showed
+    entries 7 to 32 are a strictly ascending alphabetical run, with 33 to 36 a second
+    one. Only the first six positions are concentration-ordered, so the peptide dose
+    is not readable from the label at all and the original point was wrong in the way
+    that flatters a reviewer. The page now says that, the footnote records the correction,
+    and the peptide grade moved from minimal to unknown. The "CLINICALLY PROVEN" banner
+    resolves to a post-usage survey of 42 women, read off the brand''s own marketing
+    image and attributed to that image rather than to the page text. The "FDA CLEARED"
+    banner is traced to ten device clearances, none of them a serum, and the page states
+    that FDA does not clear cosmetics. Photo is a clean silo shot, inspected before
+    use; the survey image is cited as a source but deliberately not used as a photo.'
+  reviewed: '2026-11-15'
+  reviewer: main-loop
+  verdict: publish
