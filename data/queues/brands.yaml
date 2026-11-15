@@ -655,7 +655,7 @@
 - name: Sunday Riley
   type: brand
   priority: 5
-  status: pending
+  status: done
   discovered_from: sunday-riley-good-genes
   source: Vendor of the newly shipped sunday-riley-good-genes; 57 products in its
     own products.json catalogue. No brand page exists, and the two-acids-one-name

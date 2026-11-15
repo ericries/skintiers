@@ -6533,3 +6533,18 @@
     mL bottles, which is exactly twice the single price, so it is the same product
     at the same per-mL cost and does not need its own page. Recorded so a future tick
     does not queue it as a discovery
+- name: Sunday Riley Ceramor Ceramide Barrier Replenishing Cream
+  type: product
+  priority: 6
+  status: pending
+  discovered_from: sunday-riley
+  source: $65.00 per the Sunday Riley feed read 2026-11-15; a ceramide barrier cream
+    from a brand the site now covers, and ceramides are already graded here
+- name: Sunday Riley Ceramic Slip Cleanser
+  type: product
+  priority: 6
+  status: pending
+  discovered_from: sunday-riley
+  source: Paired with Good Genes in three separate kit listings in the brand feed
+    read 2026-11-15, so it is the brand's second most prominent product after Good
+    Genes; no page here
