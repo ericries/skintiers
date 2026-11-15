@@ -3911,7 +3911,7 @@
 - name: Omalizumab (Xolair)
   type: ingredient
   priority: 3
-  status: pending
+  status: done
   discovered_from: chronic-spontaneous-urticaria
   source: 'RUNG TWO of the ladder on [[chronic-spontaneous-urticaria]], which states
     the ladder in prose precisely because this page and the antihistamine one do not
@@ -4389,7 +4389,7 @@
 - name: Omalizumab (for chronic spontaneous urticaria)
   type: ingredient
   priority: 6
-  status: pending
+  status: done
   discovered_from: second-generation-h1-antihistamines
   source: The standard next step for the antihistamine-resistant group the 2025 APJAI
     guideline addresses (PMID 41182242); the site covers CSU but has no page for its
@@ -4427,3 +4427,11 @@
   source: Declared at 5% in the CeraVe AM Facial Moisturizing SPF 30 label, openFDA
     2026-11-15. An uncommon UVA filter that appears in only one of CeraVe's sixteen
     sunscreen labels and has no page here
+- name: Remibrutinib (oral BTK inhibitor for chronic spontaneous urticaria)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: omalizumab
+  source: Appears in two 2025-2026 systematic reviews alongside omalizumab (PMID 41186128
+    network meta-analysis, PMID 41005705 systematic review) as an ORAL alternative
+    to injection for the same patients; no page here

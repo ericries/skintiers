@@ -2350,3 +2350,21 @@
   source: J Cosmet Dermatol 2025;24(8):e70418. The only systematic review of this
     site-specific condition and the sole source behind the new hub; a structured study
     page would record what each of the ten studies actually measured
+- name: 'Zhang 2025: omalizumab for chronic spontaneous urticaria, meta-analysis of
+    12 RCTs / 2,738 patients (PMID 40439896)'
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: omalizumab
+  source: Arch Dermatol Res 2025;317(1):785. The evidence anchor for the omalizumab
+    page and the only pooled dose-stratified view; a structured study page would record
+    the per-dose estimates that the ingredient page can only summarise
+- name: Drug survival of omalizumab in chronic urticaria, meta-analysis (PMID 42714921)
+  type: study
+  priority: 4
+  status: pending
+  discovered_from: omalizumab
+  source: JAMA Dermatol 2026 Oct, discontinuation and factors associated with it.
+    This is exactly the durability question the omalizumab page names as missing from
+    its own evidence; deliberately not read for that page so it is not summarised
+    from a title

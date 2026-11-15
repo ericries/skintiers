@@ -10155,3 +10155,21 @@ cerave-sunscreens-by-what-is-actually-in-them:
   reviewed: '2026-11-15'
   reviewer: main-loop
   verdict: publish
+omalizumab:
+  assurance: sonnet
+  notes: 'Self-verified in the main loop against one PubMed meta-analysis abstract and
+    the openFDA Xolair label. Every quoted span and every one of the ten numeric
+    estimates was machine-checked verbatim; zero mismatches. The queue row said the
+    label was already verified on 2026-11-07 and not to re-fetch it; I re-fetched anyway,
+    because the page asserts the indication and the limitation of use and I would rather
+    cite a source I read. It matched, including the 2026-08-13 effective date. tier:
+    good, not best, and the page gives four reasons in its own words: second line by
+    label, injected, adverse events significantly more frequent at OR 1.24, and an
+    all-dose pooled CI spanning nearly an order of magnitude. The dose distinction is
+    the load-bearing point and is deliberately in the pull quote, because the all-dose
+    OR of 3.29 and the 300 mg OR of 7.60 tell different stories and quoting either alone
+    would mislead. Durability is named as absent rather than glossed. Two duplicate
+    queue rows for this ingredient were both resolved.'
+  reviewed: '2026-11-15'
+  reviewer: main-loop
+  verdict: publish
