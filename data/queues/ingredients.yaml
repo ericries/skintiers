@@ -4419,3 +4419,11 @@
   discovered_from: nuface-super-peptide-booster-serum
   source: Declared in the NuFACE Super Peptide Booster INCI read 2026-11-15; a plant
     stem cell culture extract that appears across premium serums and has no page here
+- name: Meradimate (menthyl anthranilate)
+  type: ingredient
+  priority: 6
+  status: pending
+  discovered_from: cerave-sunscreens-by-what-is-actually-in-them
+  source: Declared at 5% in the CeraVe AM Facial Moisturizing SPF 30 label, openFDA
+    2026-11-15. An uncommon UVA filter that appears in only one of CeraVe's sixteen
+    sunscreen labels and has no page here

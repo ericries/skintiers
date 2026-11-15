@@ -6507,3 +6507,20 @@
   source: Included in the Banish Kit 3.0 and sold separately at $49.00 per the brand
     catalogue read 2026-11-15; described as freshly made, which is a checkable formulation
     claim for a vitamin C product
+- name: CeraVe Hydrating Mineral Sunscreen SPF 30 Sheer Tint
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: cerave-sunscreens-by-what-is-actually-in-them
+  source: openFDA label read 2026-11-15, titanium dioxide 5.5% and zinc oxide 10%.
+    Three CeraVe tinted SPF 30 labels (Sheer Tint, Light Sheer Tint, Deep Sheer Tint)
+    declare IDENTICAL actives and differ only in tint, which is itself the story;
+    one page could cover the trio
+- name: CeraVe Ultra Light Moisturizing Lotion SPF 30
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: cerave-sunscreens-by-what-is-actually-in-them
+  source: openFDA label read 2026-11-15, avobenzone 3%, homosalate 10%, octisalate
+    5%, octocrylene 2.7%. One of only two CeraVe sunscreens with NO mineral filter,
+    and nothing in the name says so

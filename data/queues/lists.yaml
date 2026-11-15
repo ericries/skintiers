@@ -1356,7 +1356,7 @@
 - name: CeraVe sunscreens, mineral versus hybrid, by what is actually in them
   type: list
   priority: 4
-  status: pending
+  status: done
   discovered_from: cerave-hydrating-sheer-sunscreen-spf-30
   source: 'CHEAP, GROUNDED, AND THE DATA IS ALREADY HALF COLLECTED. Established 2026-11-08
     on [[cerave-hydrating-sheer-sunscreen-spf-30]]: an openFDA brand-name count across

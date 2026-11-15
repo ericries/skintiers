@@ -10136,3 +10136,22 @@ horsham-2021-uv-photography-sunscreen-coverage-pmid-37632801:
   reviewed: '2026-11-15'
   reviewer: main-loop
   verdict: publish
+cerave-sunscreens-by-what-is-actually-in-them:
+  assurance: sonnet
+  notes: 'Self-verified in the main loop. Single primary source, the openFDA drug label
+    API, queried once and returning all 43 CeraVe topical records in one page with
+    no truncation. All 63 percentage claims on the page were machine-checked against
+    the active_ingredient fields; zero unverified. The queue asked for mineral versus
+    hybrid and the data showed THREE groups, not two: nine mineral-only, five hybrid
+    and two with no mineral filter at all, so the page is built on what the labels
+    say rather than on the framing it was asked for. The grouping rule is stated on
+    the page because it is applied here and is not something openFDA supplies. One
+    deliberate restraint: the rungs sort by composition and the page says twice that
+    this is not a quality ranking, since mineral-versus-organic is a separate argument
+    that belongs to sunscreen-uv-filters. Also recorded that two filed brand names
+    misspell Dermatologists, which is why name matching alone is unreliable. YAML note
+    for the next tick: the by: line needed single-quoting because it contained a colon
+    followed by a space, the same escape bug that has bitten this queue before.'
+  reviewed: '2026-11-15'
+  reviewer: main-loop
+  verdict: publish
