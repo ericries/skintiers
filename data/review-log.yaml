@@ -9973,3 +9973,20 @@ micro-coring:
   reviewed: '2026-11-13'
   reviewer: main-loop
   verdict: publish
+kravebeauty-oat-so-simple-water-cream:
+  assurance: sonnet
+  notes: 'Self-verified in the main loop against the cached brand page and the store''s
+    own products.json, both read 2026-11-14. Every quoted span was machine-checked
+    verbatim against one of those two sources; zero mismatches. Three things were checked
+    by counting or arithmetic rather than taken on trust: the brand''s "only 9 ingredients"
+    claim is TRUE, the declared list has exactly nine entries; the oat extract is ninth
+    of those nine; and the refill''s "save more than $0.10/mL" claim works out to 9.5
+    cents at the two prices in the same feed (28.00 over 80 mL against 51.00 over 200
+    mL), which the page states as arithmetic done here rather than as a brand figure.
+    The oat distinction is load-bearing and deliberate: the product declares Avena Sativa
+    (Oat) Meal Extract, which is not colloidal oatmeal, and the monograph detail is
+    left on the colloidal-oatmeal page rather than restated. Photo composited from the
+    brand''s own transparent PNG and visually checked. pH absence verified by search.'
+  reviewed: '2026-11-14'
+  reviewer: main-loop
+  verdict: publish

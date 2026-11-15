@@ -1154,6 +1154,16 @@ videos:
   related: [sun-damage-photoaging, melanoma, spf-lip-balms-by-label-claims]
   thesis: 'Skincare educator Hannah English explains a proposed Australian regulatory change in which the Therapeutic Goods Administration would limit the SPF figure that cosmetic products such as foundation are allowed to claim, quoting the agency''s stated aim of creating a clear distinction between sunscreens used primarily for UV protection and secondary or cosmetic ones. Her argument for it is a dose argument: she says the amount people actually apply of a tinted or makeup product is far below the amount an SPF test uses, estimating that one pump of an SPF 50 plus product might deliver around SPF 10 while the face needs roughly eight pumps, so a foundation genuinely capable of SPF 50 plus still does not deliver it in practice. She notes that the main opposition to the change came from brands rather than consumers, and that under the proposal a product testing at SPF 50 plus might be permitted to advertise only a much lower number.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Sunscreen really is the key to all of it
+  creator: Ella (your.estie.ella)
+  creator_slug: your-estie-ella
+  credential: Licensed esthetician (NOT a dermatologist or cosmetic chemist)
+  platform: TikTok
+  url: https://www.tiktok.com/@your.estie.ella/video/7707344745550368013
+  posted: '2026-11-12'
+  related: [sun-damage-photoaging, anti-aging]
+  thesis: Licensed esthetician Ella argues that sunscreen is still needed in November, because the UV index tracks UVB rays, which vary daily, while UVA exposure stays fairly constant all year round. She says UVA causes 80 to 90 percent of visible damage, by which she means dullness, sagging, loss of collagen and elastin, larger pores, redness, pigmentation and fine lines, and that this is why she treats daily sunscreen as insurance on everything else in a routine. Her practical test for a product is that it says broad spectrum or carries a PA rating, since SPF alone describes protection from UVB only.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

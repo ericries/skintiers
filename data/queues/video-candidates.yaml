@@ -17471,7 +17471,8 @@
   conflict: runs an Amazon affiliate storefront and does sponsored posts - strongly prefer educational / how-to / ingredient-explainer videos; be very cautious with any product recommendation
   posted: '2026-11-12'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: product picks from a creator who monetizes picks via an affiliate storefront
 - id: '7707328391598427423'
   title: My mom was doing the trends before they were trends 💁🏻‍♀️78 years old...
   creator: Dr. Mamina Turegano
@@ -17484,7 +17485,8 @@
   conflict: null
   posted: '2026-11-12'
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: trends vlog with no single named subject
 - id: '7707455298289552671'
   title: 🖇️ Comment PRODUCTS for all of my derm-approved skincare, beauty, and...
   creator: Dr. Sheila Farhang (dr.sheila_derm)
@@ -17625,7 +17627,8 @@
   posted: '2026-11-13'
   duration: 87
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'LED mask clip tagged #amiro, a brand hashtag indicating placement'
 - id: '7707711737423777038'
   title: '#DovePartner Whether I’m at the gym, exploring NYC, or getting ready ...'
   creator: Kristin Leite (kristingl)
@@ -17639,7 +17642,8 @@
   posted: '2026-11-13'
   duration: 36
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'caption carries #DovePartner; paid partnership'
 - id: eWz3UVMB2kg
   title: Which Azelaic Acid Is BEST? Dermatologist Reviews 9 Products!
   creator: Dr. Maren Locke (The Budget Dermatologist)
@@ -17767,7 +17771,8 @@
   posted: '2026-11-13'
   duration: 177
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: personal breakout diary, not education; the one product named is caption-garbled and unresolved
 - id: '7707733763828010271'
   title: Honestly the only difference between this and my normal routine is th...
   creator: Ella (@your.estie.ella)

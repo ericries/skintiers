@@ -5256,7 +5256,7 @@
 - name: KraveBeauty Oat So Simple Water Cream
   type: product
   priority: 4
-  status: pending
+  status: done
   discovered_from: krave-beauty
   source: kravebeauty.com/products.json read 2026-11-03
 - name: Banish Banisher 2.0 (at-home microneedling device)
@@ -6474,3 +6474,13 @@
   discovered_from: pixi-beauty
   source: Pixi product feed read 2026-11-13; eye patches are a category the site has
     no graded product in, and the brand sells several sizes
+- name: Naked Sundays SPF50 face mist (spray format)
+  type: product
+  priority: 6
+  status: pending
+  discovered_from: sunscreen-uv-filters
+  source: 'Named in Ella''s 2026-11-12 TikTok (7707344745550368013) as ''my naked
+    Sunday spray'', her reapplication favourite. The site covers the Clear Glow Sun
+    Stick but not the spray. RESOLVE THE EXACT SKU FROM THE BRAND SITE FIRST: the
+    transcript says only ''spray'', so the product name above is descriptive and must
+    not be used verbatim'

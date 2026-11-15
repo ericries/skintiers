@@ -4355,3 +4355,26 @@
   source: 'DermNet patch tests page, cached 2026-11-13: named among the metals that
     produce irritant reactions in atopic eczema patients and so complicate interpretation;
     one of the commonest contact allergens and absent here'
+- name: Trehalose
+  type: ingredient
+  priority: 6
+  status: pending
+  discovered_from: kravebeauty-oat-so-simple-water-cream
+  source: Sixth of nine on the KraveBeauty Oat So Simple INCI, read 2026-11-14; a
+    common humectant across this catalogue with no page here
+- name: Avena Sativa (Oat) Kernel/Meal Extract, as distinct from colloidal oatmeal
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: kravebeauty-oat-so-simple-water-cream
+  source: The declared oat in KraveBeauty Oat So Simple. The site grades colloidal-oatmeal
+    on the FDA skin-protectant monograph; oat EXTRACTS are a different material that
+    does not inherit that evidence, and several products here are sold on oat. Worth
+    one page making the distinction once
+- name: Caprylic/Capric Triglyceride
+  type: ingredient
+  priority: 7
+  status: pending
+  discovered_from: kravebeauty-oat-so-simple-water-cream
+  source: Third of nine on the KraveBeauty Oat So Simple INCI; one of the most common
+    emollients in the catalogue and absent here
