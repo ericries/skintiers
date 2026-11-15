@@ -553,7 +553,16 @@
     affiliate link, though the CeraVe one states plainly that it is not sponsored.
     WHETHER THE POLICY APPLIES RETROACTIVELY IS A USER DECISION, not a tick''s: removing
     17 cards is a content-wide destructive change. Options are leave them with a disclosure,
-    annotate the affected cards, or remove them. Do not act unilaterally.'
+    annotate the affected cards, or remove them. Do not act unilaterally. SCOPE ENUMERATED
+    2026-11-15 so the decision is concrete. She has 36 cards from 11 videos. The 17
+    this row names are two videos: FYg2v6cKGks ''Ranks 19 Products'' (11 cards) and
+    r5Bx2OhMu6E ''Stop Wasting Money: The Drugstore Skincare Mature Skin Actually...''
+    (6). THE ROW UNDERSTATES THE SCOPE: three more pick-shaped videos carry 6 further
+    cards, ejnuKJAjoIY Lancome vs Estee Lauder (3), v5fVYX-qhIY Aveeno vs Eucerin
+    (2), capSd8jcCBU Cetaphil vs CeraVe (1). So a retroactive rule would touch 23
+    cards across 5 videos, not 17 across 2. The other 13 cards are educational and
+    unaffected: t9I8vVpZjxc ingredient comparison (7), Y-ZpRAOF3pM glycolic acid (2),
+    plus HRT, seborrheic keratoses, skin growths and eczema explainers (1 each).'
 - name: 'DECIDE: which Dr Dray cards count as monetized picks now that her storefronts
     are recorded'
   type: person
@@ -574,7 +583,17 @@
     read as genuine best-of lists are Costco Skincare Finds (3 page-slots) and Best
     Retinol and Retinal Products Top 3 (1). This needs per-video judgment, and whether
     the corrected setting applies retroactively at all is a user decision, as with
-    the parallel Aleksandra Brown row.'
+    the parallel Aleksandra Brown row. SCOPE ENUMERATED 2026-11-15. She has 65 cards
+    from 51 videos, overwhelmingly single-topic explainers and Q&A that the educational
+    carve-out already covers. Only about 4 videos and 7 cards are pick-shaped: J45EyHkphu0
+    ''Costco Skincare Finds'' (3 cards), AoBnmetAJkI ''AmLactin vs AlphaRet: Which
+    Is Better'' (3), 8rmIw-F7mNc ''Best Retinol and Retinal Products for 2026'' (1).
+    A judgement is needed on her single-product REVIEWS, which are a different shape
+    again and often critical rather than recommending: xvM8ZhrSa7A Skinbetter AlphaRet,
+    RtnlMdbZW4k REMEDY 15% Azelaic, p0dDvCihMq8 Neutrogena Collagen Bank, zEBZw74TgAs
+    ''Is the LYMA Laser a Gimmick''. A sceptical review of a product is not obviously
+    a monetized pick, and treating it as one would remove the site''s most critical
+    video content.'
 - name: Backfill creator attribution on 84 anonymous video cards
   type: person
   priority: 3
