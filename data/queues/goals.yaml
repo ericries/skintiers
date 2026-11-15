@@ -996,3 +996,13 @@
   source: Named by PMID 40843925 as the most frequently used laser for axillary hyperpigmentation,
     effective across three studies with no severe adverse effect; the site covers
     several other lasers as goal pages but not this one
+- name: How much sunscreen people actually apply (the 2 mg/cm2 question)
+  type: goal
+  priority: 5
+  status: pending
+  discovered_from: horsham-2021-uv-photography-sunscreen-coverage-pmid-37632801
+  source: PMID 37632801 shows products at 2 and 1 mg/cm2 clearly visible under UV
+    and 0.4 mg/cm2 showing lower coverage, which is the application-rate question
+    in miniature. SPF is tested at 2 mg/cm2 and the site has no page on what real-world
+    application does to it. CHECK FIRST whether reading-a-sunscreen-label already
+    owns this

@@ -1553,3 +1553,13 @@
     pages, and this convention silently invalidates that reasoning below 1 percent.
     A list identifying which covered products alphabetise would be unusually useful
     and is mechanically testable from cached INCI text'
+- name: Tinted sunscreens, and what a UV camera cannot tell you about them
+  type: list
+  priority: 6
+  status: pending
+  discovered_from: horsham-2021-uv-photography-sunscreen-coverage-pmid-37632801
+  source: Grounded in PMID 37632801, which reports that UV photography could not identify
+    missed areas for all tinted products. The site covers several tinted and mineral
+    sunscreens and the UV-selfie check is widely recommended online; a list of which
+    covered products this check cannot verify would be directly actionable. Build
+    only once the covered tinted products are enumerated from their own pages

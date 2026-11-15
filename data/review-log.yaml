@@ -10117,3 +10117,22 @@ nuface-super-peptide-booster-serum:
   reviewed: '2026-11-15'
   reviewer: main-loop
   verdict: publish
+horsham-2021-uv-photography-sunscreen-coverage-pmid-37632801:
+  assurance: sonnet
+  notes: 'Self-verified in the main loop against the PubMed abstract, the only source.
+    Every quoted span machine-checked verbatim; zero mismatches after one fix, where
+    the search STRINGS reported as absent had been written in quote marks and so read
+    as quotations from the source. THE QUEUE ROW WAS WRONG AND THE PAGE SAYS SO. It
+    asked for a study showing an average 18 percent coverage loss at two hours and
+    nearly 29 percent at six, figures taken from a TikTok caption and flagged as unverified
+    by whoever queued it. The paper contains none of that: it is a descriptive study
+    of UV CAMERAS, and a string search of the abstract finds no occurrence of 18%, 29%,
+    2 hours, 6 hours or reduction. The page is written for what the paper actually is
+    and carries an explicit What this paper does NOT say section, so the next person
+    chasing that statistic does not repeat the search. The genuinely useful finding
+    carried forward is the tinted-product limitation, which means a UV selfie cannot
+    check a tinted sunscreen. The Designworks employment of two authors is recorded
+    because the same firm is named in the webcam development.'
+  reviewed: '2026-11-15'
+  reviewer: main-loop
+  verdict: publish
