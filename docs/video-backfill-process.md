@@ -148,3 +148,32 @@ evergreen educational back catalog actually fits: the card added on 2026-11-13
 was Dr. Aanchal Panth on recurrent fungal infection, which filled
 `tinea-corporis-ringworm`, a condition gap, from a catalog slice whose own 15
 titles contained no usable single-topic match at all.
+
+### The cookie workaround is not always available to the agent (2026-11-15)
+
+Recorded because the section above reads as though the fix is always within
+reach, and for several days it has not been. In this session every attempt to
+set `YTDLP_COOKIES_FROM_BROWSER=chrome` is refused before it runs, classified as
+bot-check circumvention, so the documented bypass cannot be used and a 429 is
+simply terminal for that tick.
+
+What that looks like in practice, 2026-11-11 to 2026-11-15: the YouTube pull and
+backfill crons fired roughly fifteen times and produced one card between them.
+The causes were a Shorts-only queue (now addressed by the `--min-duration`
+filter) and, four ticks running, HTTP 429 on the subtitle endpoint.
+
+Two things are worth knowing for whoever picks this up:
+
+- **Only the subtitle endpoint is blocked.** Verified 2026-11-15: a plain
+  `yt-dlp --skip-download --print` metadata call on the same video returns
+  normally in the same minute that a subtitle fetch returns 429. So the daily
+  scan, duration capture, upload dates and view counts all keep working; it is
+  specifically transcript retrieval that stops, which is also the one step the
+  sponsorship scan depends on.
+- **The queue does not lose anything.** `yt_transcript.py` says explicitly not to
+  mark a 429'd video transcript-less, so blocked candidates stay pending and are
+  retried. The backlog drains slowly rather than silently shrinking.
+
+If the bypass is wanted, it needs to come from the operator rather than from a
+tick: either run the cookie-bearing fetch by hand, or arrange transcript access
+by a route that does not require an agent to impersonate a browser session.

@@ -17659,7 +17659,8 @@
   posted: ''
   duration: null
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 66s stitch, Shorts-length; too thin for a thesis
 - id: jmWvgBnQLtE
   title: These 8 Beauty Products Changed My Routine in 2026 as a Derm | Dr. Sam Ellis
   creator: Dr. Sam Ellis
