@@ -11930,7 +11930,8 @@
   conflict: null
   posted: '2026-10-13'
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: vague essentials clip; creator promotes her own curated product box
 - id: '7695760741487398157'
   title: Your skincare shouldn't stop at your jawline. Crepey skin, tech neck ...
   creator: Fatima Fahs
@@ -12078,7 +12079,8 @@
   conflict: 'Runs #ad sponsored posts (e.g. TruSkin) and Target skincare hauls/reviews; prefer her educational ingredient-category and barrier-repair explainers, and treat product recommendations as effectively promotional (skip).'
   posted: '2026-10-13'
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: 'personal pre-wedding treatment plan, not single-topic education; creator runs #ad posts'
 - id: 9H0DlBiFq3c
   title: '#vitamincserum #skincare #cosmeticdermatology #skincareroutine #dermatologist #skincaretips'
   creator: Dr. Jenny Liu (Jenny Liu, MD, FAAD)
@@ -12195,7 +12197,8 @@
   conflict: runs an Amazon affiliate storefront and does sponsored posts - strongly prefer educational / how-to / ingredient-explainer videos; be very cautious with any product recommendation
   posted: '2026-10-13'
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: ingredient-explainer in form but favourable commentary on one newly launched brand-tagged product (@PURITO SEOUL), from a creator with an Amazon storefront who does sponsored posts; same shape as the SKIN1004 clip rejected 2026-11-15
 - id: '7695806407249087758'
   title: 'Acne-prone skin tip: AZULENE What I’ve been using on my skin as a bea...'
   creator: Kristin Leite (kristingl)
@@ -12424,7 +12427,8 @@
   conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan and reject any sponsored/affiliate/gifted video
   posted: '2026-10-13'
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: routine-basics clip tagging two brands; minimalist-routine already carries three cards from this creator making the same argument
 - id: '7696235873028803853'
   title: Sunscreen is easily the MOST important product in your skincare routi...
   creator: Ella (@your.estie.ella)
@@ -17774,7 +17778,8 @@
   posted: '2026-11-13'
   duration: 58
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: 58s clip with no named subject in the caption
 - id: YiGNHfJicgY
   title: Can You Reverse 27 Years of Sun Damage? A Dermatologist Explains
   creator: Andrea Suarez (Dr Dray)
