@@ -4435,3 +4435,19 @@
   source: Appears in two 2025-2026 systematic reviews alongside omalizumab (PMID 41186128
     network meta-analysis, PMID 41005705 systematic review) as an ORAL alternative
     to injection for the same patients; no page here
+- name: Betaine (trimethylglycine, topical)
+  type: ingredient
+  priority: 6
+  status: pending
+  discovered_from: nuface-super-vita-c-booster-serum
+  source: Fifth of 34 on the NuFACE Super Vita-C INCI read 2026-11-15, inside the
+    concentration-ordered head, so genuinely present in quantity; a common humectant
+    with no page here
+- name: Sclareolide
+  type: ingredient
+  priority: 7
+  status: pending
+  discovered_from: nuface-super-vita-c-booster-serum
+  source: Declared in the NuFACE Super Vita-C INCI read 2026-11-15; an uncommon sclareolide
+    appearing in brightening formulas with no page here. Note it sits in the alphabetical
+    tail, so the label says nothing about its dose

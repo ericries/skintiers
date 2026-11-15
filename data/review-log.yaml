@@ -10173,3 +10173,22 @@ omalizumab:
   reviewed: '2026-11-15'
   reviewer: main-loop
   verdict: publish
+nuface-super-vita-c-booster-serum:
+  assurance: sonnet
+  notes: 'Self-verified in the main loop against the cached brand page, the store feed
+    and two brand catalogue images. Every quoted span machine-checked verbatim; one
+    failed twice and was fixed, because the source puts a space before the closing full
+    stop of its description sentence, so the quote is cut short of the stop and the footnote
+    says why. The ingredient ordering was tested programmatically rather than eyeballed,
+    applying the lesson from the sibling page earlier today: entries 10 to 30 and 31
+    to 34 are strictly ascending alphabetical runs, so only positions 1 to 9 carry dose
+    information. That makes the lead finding a POSITIVE one, which is worth noting on
+    a site that defaults to scepticism: ascorbyl glucoside at 7 really is in the ordered
+    head, unlike the peptides on the sibling. The comparative disclosure finding is
+    the sharp one. Both serums carry the same clinically proven badge; the peptide panel
+    discloses 42 subjects, ages 38 to 65 and 12 weeks, and this one discloses nothing
+    at all. The two-pack arithmetic (130 over 60 mL equals 65 over 30 mL, so no saving)
+    is done here and labelled as such.'
+  reviewed: '2026-11-15'
+  reviewer: main-loop
+  verdict: publish

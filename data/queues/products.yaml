@@ -5297,7 +5297,7 @@
 - name: NuFACE Super Vita-C Booster Serum
   type: product
   priority: 4
-  status: pending
+  status: done
   discovered_from: nuface-fix-serum-activator
   source: 'mynuface.com/products.json read 2026-11-04, $65.00 / 1.0 fl oz (also a
     $117.00 two-pack) A $65 vitamin C serum from the same brand; the feed also lists
@@ -6524,3 +6524,12 @@
   source: openFDA label read 2026-11-15, avobenzone 3%, homosalate 10%, octisalate
     5%, octocrylene 2.7%. One of only two CeraVe sunscreens with NO mineral filter,
     and nothing in the name says so
+- name: NuFACE Super Vita-C Booster Serum Duo (2-pack)
+  type: product
+  priority: 10
+  status: pending
+  discovered_from: nuface-super-vita-c-booster-serum
+  source: SKIP UNLESS THE PRICING CHANGES. Listed separately at 130.00 for two 30
+    mL bottles, which is exactly twice the single price, so it is the same product
+    at the same per-mL cost and does not need its own page. Recorded so a future tick
+    does not queue it as a discovery
