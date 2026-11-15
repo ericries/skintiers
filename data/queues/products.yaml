@@ -5262,7 +5262,7 @@
 - name: Banish Banisher 2.0 (at-home microneedling device)
   type: product
   priority: 4
-  status: pending
+  status: done
   discovered_from: microneedling
   source: 'Dr. Abigail Waldman - How to do Microneedling at Home (video, CQ77UIjGMYg,
     371k views) The specific device a Harvard dermatologist uses on herself in the
@@ -6499,3 +6499,11 @@
   discovered_from: cellulite-devices-by-what-their-fda-code-permits
   source: openFDA 510(k) read 2026-11-14, product code OUP, Revelle Aesthetics, two
     clearances 2022-08-05 and 2023-08-18
+- name: Banish Serum (vitamin C dark spot corrector)
+  type: product
+  priority: 6
+  status: pending
+  discovered_from: banish-kit-3-0
+  source: Included in the Banish Kit 3.0 and sold separately at $49.00 per the brand
+    catalogue read 2026-11-15; described as freshly made, which is a checkable formulation
+    claim for a vitamin C product

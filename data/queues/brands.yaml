@@ -858,3 +858,10 @@
   source: Holder of both micro-coring 510(k) clearances, K202517 (2021-07-09) and
     K252752 (2025-10-30), per openFDA; the site has no page and the device is sold
     as ellacor
+- name: Banish (brand)
+  type: brand
+  priority: 7
+  status: pending
+  discovered_from: banish-kit-3-0
+  source: Fourteen products in its own catalogue read 2026-11-15, built around the
+    Banisher microneedling stamp; the site now covers one of them

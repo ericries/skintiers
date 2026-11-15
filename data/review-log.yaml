@@ -10075,3 +10075,24 @@ cellulite-devices-by-what-their-fda-code-permits:
   reviewed: '2026-11-14'
   reviewer: main-loop
   verdict: publish
+banish-kit-3-0:
+  assurance: sonnet
+  notes: 'Self-verified in the main loop against three cached captures of the seller''s
+    own site plus two openFDA queries. Every quoted span machine-checked verbatim, including
+    the published typo "on avereage", which is reproduced rather than silently corrected.
+    IDENTITY RESOLVED FIRST: the queue asked for a "Banisher 2.0", which does not exist
+    in the current catalogue; the product is the Banisher 3.0, the page is written for
+    that, and the footnote records the discrepancy and makes no claim about the older
+    version. NO PHOTO, deliberately: the catalogue lead image is a marketing composite
+    with promotional overlay text, including a replacement-head price that contradicts
+    the catalogue, so it was fetched, inspected and deleted rather than shipped as a
+    product shot. The per-session arithmetic ($6.25 full-face, $3.13 partial) is done
+    here from the seller''s own head price and session counts and is labelled as such.
+    The FDA finding is stated as what two database queries returned and explicitly draws
+    no conclusion about regulatory obligations, which would be a legal judgement this
+    page is not entitled to make. The page also credits the seller where credit is due:
+    the keloid contraindication and the no-sharing instruction are better than this
+    category usually manages.'
+  reviewed: '2026-11-15'
+  reviewer: main-loop
+  verdict: publish

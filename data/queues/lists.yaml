@@ -1531,3 +1531,13 @@
     already here (coco-glucoside carries a 2.0% NACDG positivity figure, lanolin,
     propylene-glycol); only build it once two or three more allergen pages carry real
     registry positivity rates, else the ranking would be a list of one
+- name: At-home microneedling devices by needle length and what the seller claims
+    for it
+  type: list
+  priority: 8
+  status: pending
+  discovered_from: banish-kit-3-0
+  source: The Banish head guide assigns 0.25mm to under-eye lines, 0.5mm to acne scars
+    and 1.0mm to body stretch marks, which is a checkable axis across home devices.
+    Only build once two or three more home-device pages exist; right now this site
+    has banish-kit-3-0 and little else in the category
