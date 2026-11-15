@@ -1170,7 +1170,11 @@
     has a page. The dependency is self-clearing, not stuck: Wananukul 2012 (PMID 21790793)
     is now FIRST in the study queue and Micali 2021 (PMID 33934474) was queued yesterday,
     both at priority 4. Restore this row to 4 once both study pages exist, and build
-    the list then. Parked so it stops displacing list work that can actually be done.'
+    the list then. Parked so it stops displacing list work that can actually be done.
+    PARTLY UNBLOCKED 2026-11-14: the Wananukul 2012 study page now exists (licochalcone
+    vs 1% hydrocortisone, split-side, 75 infants) and is a strong entry for this axis,
+    since its comparator is an active steroid rather than a vehicle. Micali 2021 still
+    has no page; check whether it was the other stated blocker before starting.'
 - name: Botanicals in skincare, by whether any human trial exists
   type: list
   priority: 4

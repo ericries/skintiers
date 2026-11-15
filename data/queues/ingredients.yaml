@@ -3894,7 +3894,7 @@
     for skin
   type: ingredient
   priority: 3
-  status: pending
+  status: done
   discovered_from: chronic-spontaneous-urticaria
   source: 'RUNG ONE of the ladder on [[chronic-spontaneous-urticaria]]. It is the
     most-used intervention for hives in the world and this site has nothing on it.
@@ -4378,3 +4378,20 @@
   discovered_from: kravebeauty-oat-so-simple-water-cream
   source: Third of nine on the KraveBeauty Oat So Simple INCI; one of the most common
     emollients in the catalogue and absent here
+- name: Ebastine
+  type: ingredient
+  priority: 6
+  status: pending
+  discovered_from: second-generation-h1-antihistamines
+  source: Ranked first on total symptom score in the 2026 network meta-analysis of
+    second-generation antihistamines for chronic urticaria (PMID 40938791); not marketed
+    in the US, which is itself worth recording
+- name: Omalizumab (for chronic spontaneous urticaria)
+  type: ingredient
+  priority: 6
+  status: pending
+  discovered_from: second-generation-h1-antihistamines
+  source: The standard next step for the antihistamine-resistant group the 2025 APJAI
+    guideline addresses (PMID 41182242); the site covers CSU but has no page for its
+    second-line biologic. VERIFY the guideline's actual recommendations before writing,
+    they were not read

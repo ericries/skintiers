@@ -1919,7 +1919,7 @@
     seborrhoeic dermatitis, split-side RCT (PMID 21790793)'
   type: study
   priority: 4
-  status: pending
+  status: done
   discovered_from: cradle-cap
   source: 'https://pubmed.ncbi.nlm.nih.gov/21790793/ J Eur Acad Dermatol Venereol
     2012;26(7):894-7. Split-side, double-blind, 75 infants enrolled and 72 completed,
@@ -2332,3 +2332,12 @@
   discovered_from: micro-coring
   source: J Cosmet Dermatol 2025 Jul; the histology arm the systematic review says
     is missing from most of the literature; found in the same PubMed sweep on 2026-11-13
+- name: 'Tian 2026: second-generation antihistamines for chronic urticaria, network
+    meta-analysis of 24 RCTs / 5,172 patients (PMID 40938791)'
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: second-generation-h1-antihistamines
+  source: Int Arch Allergy Immunol 2026;187(7):737-752. The evidence anchor for the
+    antihistamine page and the only pooled comparison of the class; deserves a structured
+    study page

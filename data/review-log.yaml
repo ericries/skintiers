@@ -9990,3 +9990,36 @@ kravebeauty-oat-so-simple-water-cream:
   reviewed: '2026-11-14'
   reviewer: main-loop
   verdict: publish
+second-generation-h1-antihistamines:
+  assurance: sonnet
+  notes: 'Self-verified in the main loop. Sources are one PubMed network meta-analysis
+    abstract and two openFDA label records, all primary. Every quoted span was machine-checked
+    verbatim and one failed: the over-the-counter Uses sentence had been quoted as "reduce
+    hives and relieve itching" when the label reads "reduces hives and relieves itching",
+    so it was corrected to the label''s own grammar rather than smoothed. tier: good,
+    not best, and the page says why in its own words: the pooled estimates have very
+    wide confidence intervals and a documented minority do not respond, which is why
+    a separate guideline exists for antihistamine-resistant disease. Deliberately
+    recorded that the meta-analysis''s top-ranked drugs, ebastine and olopatadine, are
+    NOT the three the queue row named and not the ones most people take. Dose escalation
+    is excluded because it exceeds what the cited labels authorise, and first-generation
+    sedating antihistamines are excluded as a different safety question; both exclusions
+    are stated on the page. Oral route stated plainly in the first line.'
+  reviewed: '2026-11-14'
+  reviewer: main-loop
+  verdict: publish
+wananukul-2012-licochalcone-vs-hydrocortisone-infantile-seborrhoeic-dermatitis-pmid-21790793:
+  assurance: sonnet
+  notes: 'Self-verified in the main loop against the PubMed abstract. Every quoted span
+    was machine-checked verbatim; one failed and was rewritten: an elided quote using
+    an ellipsis could not be matched, so the full phrase from the paper is quoted instead
+    rather than leaving an unverifiable elision on the page. The 10 percentage point
+    figure is arithmetic from the two published clearing rates and the footnote says
+    so. The load-bearing judgement is the missing third arm: with 90 and 92 percent
+    cure rates on both sides at two weeks and no untreated or vehicle-only comparison,
+    the trial cannot separate either product from spontaneous resolution, and the page
+    says that rather than reporting the day 3-4 difference as a win. This page was queued
+    as a blocker for a sensitive-skin comparator list, which can now proceed.'
+  reviewed: '2026-11-14'
+  reviewer: main-loop
+  verdict: publish
