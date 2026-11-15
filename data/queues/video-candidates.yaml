@@ -17802,7 +17802,8 @@
   posted: ''
   duration: 707
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: top lip products of the year roundup from a product_recs restricted creator with disclosed brand partnerships
 - id: '7708075458763558158'
   title: SKIN1004 Centella vs TECA, which one is better for YOU? Explained by ...
   creator: Kristin Leite (kristingl)

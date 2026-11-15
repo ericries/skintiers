@@ -173,6 +173,15 @@ Two things are worth knowing for whoever picks this up:
 - **The queue does not lose anything.** `yt_transcript.py` says explicitly not to
   mark a 429'd video transcript-less, so blocked candidates stay pending and are
   retried. The backlog drains slowly rather than silently shrinking.
+- **The throttle is intermittent, not a standing block.** Corrected 2026-11-15:
+  a backfill tick fetched a full transcript cleanly, and a pull tick about an hour
+  later returned 429 on its first request. So it is worth attempting on every tick
+  rather than assuming the endpoint is down. After a 429 the script arms a roughly
+  30 minute global cooldown and then SKIPS later probes rather than extending the
+  throttle, which means one unlucky first request costs the whole tick. Trying the
+  highest-value candidate first is therefore the right order, and
+  `--ignore-cooldown` is not a workaround to reach for, since the cooldown exists
+  to stop the block getting longer.
 
 If the bypass is wanted, it needs to come from the operator rather than from a
 tick: either run the cookie-bearing fetch by hand, or arrange transcript access
