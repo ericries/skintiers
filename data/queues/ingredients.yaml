@@ -4422,11 +4422,13 @@
 - name: Meradimate (menthyl anthranilate)
   type: ingredient
   priority: 6
-  status: pending
+  status: done
   discovered_from: cerave-sunscreens-by-what-is-actually-in-them
   source: Declared at 5% in the CeraVe AM Facial Moisturizing SPF 30 label, openFDA
     2026-11-15. An uncommon UVA filter that appears in only one of CeraVe's sixteen
     sunscreen labels and has no page here
+  resolved_reason: 'auto-reconciled: a ingredient page already exists for ''Meradimate
+    (menthyl anthranilate)'' (queue_reconcile)'
 - name: Remibrutinib (oral BTK inhibitor for chronic spontaneous urticaria)
   type: ingredient
   priority: 5
@@ -4516,3 +4518,19 @@
   source: The other two allergens named in the same sentence of PMID 40973997 as frequent
     in children. These are OXIDISED fragrance terpenes, not the parent molecules,
     which is the whole point and a distinction the site does not currently make anywhere
+- name: Sorbitan monostearate
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: luzu-luliconazole-1-cream
+  source: Declared in the Luzu vehicle per the FDA label (NDA204153). The close relative
+    of sorbitan sesquioleate, which this site just covered as a patch-test confounder;
+    worth a page to say whether the monostearate carries the same allergen signal
+    or not
+- name: Butylated hydroxytoluene (BHT)
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: luzu-luliconazole-1-cream
+  source: Declared in the Luzu vehicle per the FDA label. A very widely used antioxidant
+    preservative across both drug and cosmetic formulations with no page here yet

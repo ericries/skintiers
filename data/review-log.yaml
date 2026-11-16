@@ -10361,3 +10361,26 @@ sorbitan-sesquioleate:
   reviewed: '2026-11-16'
   reviewer: main-loop
   verdict: publish
+luzu-luliconazole-1-cream:
+  assurance: sonnet
+  notes: 'Self-verified in the main loop entirely against primary FDA sources, the
+    openFDA drug label and NDC APIs; every quoted span machine-checked verbatim, zero
+    mismatches. Photo is the FDA-filed carton artwork from DailyMed, inspected before
+    use and cropped to the front panel, with the source note stating it is a prepress
+    dieline so cut guides show. The finding the page is built on is arithmetic on the
+    label''s own tables and is labelled as such rather than attributed to the label:
+    complete clearance in adults is 26%, 14% and 21% against vehicle 2%, 3% and 4%,
+    so the drug effect is real and modest, while mycological cure runs far higher,
+    meaning clearing the organism is easier than clearing the rash. The ringworm
+    indication is graded notable but hedged hard, because its 71% comes from one trial
+    in CHILDREN whose vehicle arm cleared 36% where adult vehicle arms cleared 2 to
+    4%, on a lopsided 51-versus-14 split. Two restraints: no price, because it is a
+    prescription product and no reliable figure was sought; and both marketed package
+    sizes are stated from the structured NDC directory with their active status rather
+    than from the carton alone. One label oddity is recorded without correcting it,
+    that section 14.3 on tinea corporis names tinea cruris when listing the assessed
+    signs. A draft sentence saying the trials were "run by the sponsor" was removed
+    before publish as an unsourced inference the label does not state.'
+  reviewed: '2026-11-16'
+  reviewer: main-loop
+  verdict: publish

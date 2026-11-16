@@ -5350,7 +5350,7 @@
     2%)
   type: product
   priority: 4
-  status: pending
+  status: done
   discovered_from: thayers-rapid-acne-treatment-sulfur-10
   source: 'openFDA drug/label brand_name:Thayers, read 2026-11-04 One of the four
     Thayers records whose name carries ''Witch Hazel Aloe Vera Formula''. THE PAGE
@@ -5360,6 +5360,8 @@
     the witch hazel sits in the name. Confirm that by reading the Drug Facts panel:
     active, purpose, uses. Pull it from openFDA brand_name:Thayers rather than incidecoder,
     which has no Thayers records. [[salicylic-acid]] is tier good and owns the evidence.'
+  resolved_reason: 'auto-reconciled: a product page already exists for ''Thayers Blemish
+    Clearing Witch Hazel Aloe Vera Formula Toner (salicylic acid 2%)'' (queue_reconcile)'
 - name: 'MERGE: fold the four-SPL Lotrimin Ultra finding into lotrimin-ultra-athletes-foot-cream'
   type: product
   priority: 5
@@ -5460,7 +5462,7 @@
 - name: Luzu (luliconazole 1% cream)
   type: product
   priority: 4
-  status: pending
+  status: done
   discovered_from: luliconazole
   source: 'The only marketed product for the ingredient page just shipped: openFDA
     Drugs@FDA NDA204153, sponsor BAUSCH, one product LULICONAZOLE 1%, marketing status

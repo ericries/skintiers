@@ -1643,3 +1643,13 @@
     and revive-light-therapy-lux-panel. Each is one openFDA 510(k) lookup by device
     name or applicant. Do a few per tick rather than all at once, and mark any that
     genuinely have no clearance
+- name: Prescription versus over-the-counter antifungal creams, by what the label
+    actually approves
+  type: list
+  priority: 4
+  status: pending
+  discovered_from: luzu-luliconazole-1-cream
+  source: The site has otc-antifungal-creams-by-labelled-scope and otc-antifungals-by-evidence
+    but nothing placing the Rx options beside them. Luzu is approved for interdigital
+    tinea pedis only, the same gap Lotrimin Ultra has, which makes the Rx/OTC line
+    less meaningful than it looks. Grounded in luzu-luliconazole-1-cream and lotrimin-ultra-butenafine-1-cream
