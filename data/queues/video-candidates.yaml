@@ -18023,7 +18023,8 @@
   posted: '2026-11-15'
   duration: 237
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'sound 4-minute ingredient comparison, clean scan, but both target pages are saturated: azelaic-acid carries 28 cards and tretinoin 24, and this creator already has 3 on tretinoin. Queued as a comparison list instead'
 - id: '7708427935715167502'
   title: MORE NOTES ➡️ The serum is really light when you apply, similar to a ...
   creator: Kristin Leite (kristingl)
@@ -18037,7 +18038,8 @@
   posted: '2026-11-15'
   duration: 57
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 57s clip about one unnamed serum from a creator with an Amazon storefront
 - id: '7708435909078813983'
   title: 'Your skincare MVP: Hypochlorous Acid 🏆 It’s gentle, versatile, and ha...'
   creator: Dr. Mamina Turegano
@@ -18107,4 +18109,5 @@
   posted: '2026-11-15'
   duration: 132
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: personal antiques-and-skincare clip with no single named subject
