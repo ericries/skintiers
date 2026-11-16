@@ -1610,3 +1610,14 @@
     mechanism claim against azelaic-acid and tretinoin rather than against the clip;
     her captions garble post-inflammatory erythema and she asserts a four-factor model
     of acne the transcript does not enumerate'
+- name: Products named after an ingredient that the FDA label lists as inactive
+  type: list
+  priority: 4
+  status: pending
+  discovered_from: thayers-blemish-clearing-toner
+  source: 'THIRD INSTANCE of marketing naming an ingredient that is not doing the
+    regulated work, after the NuFACE triple-peptide blend and the CeraVe Makeup Melter
+    hyaluronic acid. This one is the cleanest because OTC drug labels split active
+    from inactive explicitly, so it is mechanically checkable: for every covered product
+    with an FDA label, compare the name against the active_ingredient field. Thayers
+    is the worked example, with witch hazel in the name and inactive on the label'

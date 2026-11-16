@@ -5332,7 +5332,7 @@
 - name: Thayers Witch Hazel Toner
   type: product
   priority: 4
-  status: pending
+  status: done
   discovered_from: witch-hazel
   source: 'The best-known consumer witch hazel toner; witch hazel is a recognised
     US OTC astringent active per openFDA (109 labels) and the site now covers the
@@ -6561,3 +6561,11 @@
     Purito site before drafting. A product declaring BOTH retinol and retinal with
     stated percentages would be unusually checkable, and the site already covers purito
     and retinaldehyde'
+- name: Thayers Blemish Clearing Pads
+  type: product
+  priority: 6
+  status: pending
+  discovered_from: thayers-blemish-clearing-toner
+  source: openFDA NDC read 2026-11-16, salicylic acid 2%, one of four Blemish Clearing
+    Witch Hazel Aloe Vera Formula SKUs sharing the same active; a pad format is a
+    different use case from a toner

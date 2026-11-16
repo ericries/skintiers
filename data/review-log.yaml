@@ -10285,3 +10285,24 @@ cerave-hydrating-micellar-water:
   reviewed: '2026-11-16'
   reviewer: main-loop
   verdict: publish
+thayers-blemish-clearing-toner:
+  assurance: sonnet
+  notes: 'Self-verified in the main loop. All composition and claim statements come
+    from the FDA drug label via openFDA, which is primary; every quoted span machine-checked
+    verbatim after two fixes, both the recurring class where a SEARCH TERM or a colloquial
+    phrase sat in quote marks and so read as a source quotation. sk verify also caught
+    a real error: I had cited incidecoder in a footnote for the photograph, which the
+    aggregator rule forbids. The footnote was removed entirely and the image is credited
+    only in the images block, with bottle text attributed in prose to the photograph.
+    IDENTITY RESOLUTION WAS THE WORK. The queue row conflated three different Thayers
+    products and warned to establish the SKU first. openFDA returns seven Thayers drug
+    records; the famous rose petal toner is not among them because it is a cosmetic,
+    and the site already covers it. This page is the Blemish Clearing Lemon variant.
+    The central finding is read directly from the inactive_ingredient field rather than
+    inferred: witch hazel is INACTIVE and salicylic acid 2% is the drug. The page is
+    deliberately fair about it, noting the bottle prints WITH 2% SALICYLIC ACID on the
+    front and calling the name hierarchy ordinary marketing rather than concealment.
+    NO PRICE: the brand URLs 404ed and the page says so.'
+  reviewed: '2026-11-16'
+  reviewer: main-loop
+  verdict: publish

@@ -4492,3 +4492,11 @@
   source: Second of 20 on the CeraVe Hydrating Micellar Water INCI read 2026-11-16,
     so present in quantity; a solvent and preservative booster common across this
     catalogue with no page here
+- name: Lemongrass oil (Cymbopogon flexuosus)
+  type: ingredient
+  priority: 7
+  status: pending
+  discovered_from: thayers-blemish-clearing-toner
+  source: Declared inactive on the Thayers Blemish Clearing Toner FDA label read 2026-11-16,
+    alongside tea tree oil. A fragrance-adjacent botanical that appears in acne products
+    and has no page here; the contact-allergen question is the useful one
