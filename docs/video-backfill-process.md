@@ -149,6 +149,29 @@ was Dr. Aanchal Panth on recurrent fungal infection, which filled
 `tinea-corporis-ringworm`, a condition gap, from a catalog slice whose own 15
 titles contained no usable single-topic match at all.
 
+### When to hold the cursor instead of advancing it (2026-11-16)
+
+STEP 4 says to advance the cursor by the slice. Do NOT, when both of these
+hold: the slice contains a candidate that passes the popularity floor and
+matches an existing page, and the only reason it was not carded is a transcript
+429. A slice whose transcripts could not be fetched has not been evaluated, and
+advancing past it discards good candidates permanently in exchange for a new
+slice that is equally unfetchable. Advancing is right when the slice was
+genuinely assessed and found wanting; it is wrong when the assessment never
+happened.
+
+Worked example. Davin Lim's slice 49-63 holds "Getting Rid of Acne Scars at
+Home: Microneedling" at 123,109 views and "Subcision: Does it cause facial
+sagging?" at 74,157, both matching existing pages. The cursor has been held at
+48 since 2026-11-15 across two ticks, both blocked by 429 on the first request.
+Re-listing the slice costs one yt-dlp call and the same two candidates re-rank
+to the top automatically, so the hold is self-healing and cheap.
+
+**Bound it.** If a cursor has been held for more than about a week, stop holding
+silently: the blockage is no longer a transient throttle and the right move is to
+say so in the tick summary rather than keep deferring. A permanently stalled walk
+that nobody mentions is worse than a walk that skipped two videos.
+
 ### The cookie workaround is not always available to the agent (2026-11-15)
 
 Recorded because the section above reads as though the fix is always within
