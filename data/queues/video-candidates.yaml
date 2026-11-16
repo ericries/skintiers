@@ -17852,7 +17852,8 @@
   posted: ''
   duration: 1100
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: transcript clean and on-topic, but no existing page owns evaluating fabricated marketing science; queued as a goal page (How to tell a real clinical claim from a fabricated one, priority 3) so it can be carded once that exists
 - id: '7708057944553753887'
   title: 🖇️ Comment UNDEREYES for my favorite undereye skincare Spoiler alert:...
   creator: Dr. Sheila Farhang (dr.sheila_derm)
