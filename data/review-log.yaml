@@ -10341,3 +10341,23 @@ home-devices-by-whether-the-code-defines-the-claim:
   reviewed: '2026-11-16'
   reviewer: main-loop
   verdict: publish
+sorbitan-sesquioleate:
+  assurance: sonnet
+  notes: 'Self-verified in the main loop against two PubMed abstracts; every quoted
+    span machine-checked verbatim, zero mismatches. The queue row asked me to VERIFY
+    its own claim rather than take it, and verifying produced a correction that is now
+    on the page: sorbitan sesquioleate is not simply "in standard patch-test series".
+    It is used as an emulsifier WITHIN many allergen preparations, and whether to test
+    it as an allergen in its own right in the adult baseline series has been debated
+    rather than settled. The clearest statement in favour found is a 2026 European
+    proposal for a PAEDIATRIC baseline series, which names it among additional frequent
+    allergens. tier: weak, matching the sibling polyglyceryl-10-diisostearate page and
+    for the same stated reason, that it is a functional emulsifier with no claimed skin
+    benefit; the page says no efficacy literature was searched because none is claimed.
+    Two deliberate restraints: the paediatric paper does not say which of its two groups
+    this allergen falls into, and the page says so rather than picking one; and the
+    fragrance-industry affiliations of two authors are recorded because their finding
+    concerns interpretation of fragrance-mix reactions.'
+  reviewed: '2026-11-16'
+  reviewer: main-loop
+  verdict: publish

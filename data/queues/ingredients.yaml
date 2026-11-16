@@ -3982,7 +3982,7 @@
 - name: Sorbitan Sesquioleate
   type: ingredient
   priority: 3
-  status: pending
+  status: done
   discovered_from: polyglyceryl-10-diisostearate
   source: 'https://www.biodance.com Declared fifth of thirty-two in biodance-collagen-cleansing-oil,
     in the same emulsifier cluster as polyglyceryl-10-diisostearate. PRIORITISED ABOVE
@@ -4500,3 +4500,19 @@
   source: Declared inactive on the Thayers Blemish Clearing Toner FDA label read 2026-11-16,
     alongside tea tree oil. A fragrance-adjacent botanical that appears in acne products
     and has no page here; the contact-allergen question is the useful one
+- name: Amerchol L-101
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: sorbitan-sesquioleate
+  source: Named alongside sorbitan sesquioleate among additional frequent allergens
+    in the 2026 European paediatric baseline series proposal (PMID 40973997); a lanolin-derived
+    emulsifier with no page here, and the site already covers lanolin
+- name: Hydroperoxides of limonene and linalool
+  type: ingredient
+  priority: 4
+  status: pending
+  discovered_from: sorbitan-sesquioleate
+  source: The other two allergens named in the same sentence of PMID 40973997 as frequent
+    in children. These are OXIDISED fragrance terpenes, not the parent molecules,
+    which is the whole point and a distinction the site does not currently make anywhere

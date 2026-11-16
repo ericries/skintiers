@@ -2387,3 +2387,13 @@
     for the phototherapy page; a structured study page would record the eleven modalities,
     how many trials each has, and which comparisons carry the low versus very low
     certainty ratings
+- name: 'Sukakul 2023: sorbitan sesquioleate in patch test preparations, 3,539 patients
+    (PMID 36305668)'
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: sorbitan-sesquioleate
+  source: 'Contact Dermatitis 2023;88(2):134-138. The finding deserves its own structured
+    page because it is methodological rather than clinical: an emulsifier inside the
+    test reagents can produce simultaneous positives that look like multiple allergies,
+    including false-looking fragrance allergy'
