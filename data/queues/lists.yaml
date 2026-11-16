@@ -1621,3 +1621,14 @@
     from inactive explicitly, so it is mechanically checkable: for every covered product
     with an FDA label, compare the name against the active_ingredient field. Thayers
     is the worked example, with witch hazel in the name and inactive on the label'
+- name: Er:YAG versus CO2 for atrophic acne scars, by what the comparisons actually
+    report
+  type: list
+  priority: 6
+  status: pending
+  discovered_from: almahzoum-2026-needling-vs-ablative-fractional-lasers-scars-pmid-42771826
+  source: 'The site now has erbium-yag-fractional-laser-resurfacing, fractional-co2-laser-resurfacing,
+    microneedling, rf-microneedling-acne-scars and two study pages documenting the
+    same disagreement. A list would be curatorial over pages that already exist. BUILD
+    CAREFULLY: PMID 42771826 is narrative and reports no pooled effect size, so the
+    list must rank by what each source actually measured, not by implied magnitude'

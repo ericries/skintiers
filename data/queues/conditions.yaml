@@ -1251,3 +1251,12 @@
     articles to skin tags' 5, and the lesion most often confused with underarm darkening.
     Already flagged as a rule-out on axillary-hyperpigmentation, which currently has
     nowhere to link
+- name: Striae distensae (stretch marks)
+  type: condition
+  priority: 5
+  status: pending
+  discovered_from: almahzoum-2026-needling-vs-ablative-fractional-lasers-scars-pmid-42771826
+  source: One of four scar types in PMID 42771826 (4 studies, 87 patients). The site
+    covers acne scars and burns adjacent topics but appears to have no stretch-mark
+    hub, and the Banish 1.0mm head is marketed for body stretch marks. CHECK FIRST
+    whether an existing page owns this
