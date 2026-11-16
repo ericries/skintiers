@@ -1573,3 +1573,15 @@
     led-dose-j-per-cm2-and-wavelength, home-led-devices-by-photobiological-standard
     and blue-light-eye-safety-home-devices. A list contrasting wavelength, setting,
     regulation and evidence would be curatorial over pages that already exist'
+- name: Products whose website key-ingredient list names something the INCI does not
+    contain
+  type: list
+  priority: 7
+  status: pending
+  discovered_from: cerave-cream-to-water-makeup-melter
+  source: 'Second instance found this week, after the NuFACE peptide serum work: CeraVe''s
+    page credits the Makeup Melter with hyaluronic acid that is absent from its 25-entry
+    declared list, while the tube claims only ceramides and squalane. Mechanically
+    testable against cached INCI text for every product page that records both a marketing
+    key-ingredient claim and a full list. Build only once a third instance is found,
+    so it is a pattern and not a pair'

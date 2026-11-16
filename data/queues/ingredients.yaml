@@ -4459,3 +4459,19 @@
   source: Active in 4 of the 26 OTC skin-tag products listed in openFDA 2026-11-15,
     three of them filed as UNAPPROVED HOMEOPATHIC. A page could state the homeopathic
     marketing category plainly, which is the single most useful fact about it
+- name: Coco-Caprylate/Caprate
+  type: ingredient
+  priority: 6
+  status: pending
+  discovered_from: cerave-cream-to-water-makeup-melter
+  source: Fifth of 25 on the CeraVe Makeup Melter INCI read 2026-11-15; a lightweight
+    ester used as the makeup-dissolving phase in cleansing oils and balms across this
+    catalogue, with no page here
+- name: Isopropyl Palmitate
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: cerave-cream-to-water-makeup-melter
+  source: Third of 25 on the CeraVe Makeup Melter INCI read 2026-11-15, so a major
+    component. It also carries a comedogenicity reputation worth examining against
+    evidence rather than repeating, and the site has no page

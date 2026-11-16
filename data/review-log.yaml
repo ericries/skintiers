@@ -10247,3 +10247,23 @@ phototherapy-atopic-dermatitis:
   reviewed: '2026-11-15'
   reviewer: main-loop
   verdict: publish
+cerave-cream-to-water-makeup-melter:
+  assurance: sonnet
+  notes: 'Self-verified in the main loop against the cached brand page and the brand''s
+    own product photograph. Every quoted span machine-checked verbatim; zero mismatches.
+    IDENTITY HAD TO BE RESOLVED BEFORE DRAFTING, which is the reason this took the
+    research it did. The queue named a CeraVe Cream to Water Makeup REMOVER; no such
+    URL exists, incidecoder misses entirely, and four guessed brand URLs returned 404.
+    The product is filed at /cleansers/makeup-melter and the tube says Makeup MELTER,
+    while the site navigation and the page''s own FAQ say Makeup Remover. Both names
+    are in the aliases and the finding is on the page. The central claim is an ABSENCE
+    and was checked by string search rather than by eye: the Key Ingredients block names
+    Hyaluronic Acid, the 25-entry declared list contains no hyaluron in any form, and
+    the only other two occurrences on the page are navigation for other products. The
+    page is careful to say the PACKAGING is accurate and the website module is not,
+    because the tube claims only three ceramides and squalane. Photo taken from the
+    brand page and the tube read before use, per the warning recorded on the sibling
+    page that incidecoder serves the wrong SKU for this range.'
+  reviewed: '2026-11-15'
+  reviewer: main-loop
+  verdict: publish
