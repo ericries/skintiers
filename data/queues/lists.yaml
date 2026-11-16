@@ -1428,7 +1428,7 @@
 - name: Home devices by whether the marketing claim matches the cleared indication
   type: list
   priority: 4
-  status: pending
+  status: done
   discovered_from: nuface-trinity-ele-attachment
   source: 'GROUNDED IN FOUR PAGES SHIPPED 2026-11-10/11, all from filings read in
     full. One handle, two $160 attachment heads, two regulatory regimes: the ELE microcurrent
@@ -1632,3 +1632,14 @@
     same disagreement. A list would be curatorial over pages that already exist. BUILD
     CAREFULLY: PMID 42771826 is narrative and reports no pooled effect size, so the
     list must rank by what each source actually measured, not by implied magnitude'
+- name: Record the FDA product code on the ten device pages that lack one
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: home-devices-by-whether-the-code-defines-the-claim
+  source: MAINTENANCE, NOT A NEW PAGE. The device-code census on 2026-11-16 found
+    10 of 52 device pages recording no product code, so they cannot be placed on home-devices-by-whether-the-code-defines-the-claim.
+    They include braun-silk-expert-pro-5-ipl, philips-lumea-ipl-9000-series, revive-light-therapy-lux-glo
+    and revive-light-therapy-lux-panel. Each is one openFDA 510(k) lookup by device
+    name or applicant. Do a few per tick rather than all at once, and mark any that
+    genuinely have no clearance

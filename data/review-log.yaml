@@ -10322,3 +10322,22 @@ almahzoum-2026-needling-vs-ablative-fractional-lasers-scars-pmid-42771826:
   reviewed: '2026-11-16'
   reviewer: main-loop
   verdict: publish
+home-devices-by-whether-the-code-defines-the-claim:
+  assurance: sonnet
+  notes: 'Self-verified in the main loop. Every quoted definition was checked TWICE
+    against the openFDA classification API, once while drafting and once from a fresh
+    read before publish; the second pass caught a trailing full stop added to the NUV
+    definition that the source does not have, which was removed. The central claim is
+    an EMPTINESS and is reported as a property of the returned records rather than an
+    inference: ILY, NFO and GYB each return an empty definition field, confirmed on
+    both reads. The census is computed from THIS SITE''S own device pages, not from
+    FDA, and the footnote says so plainly along with the fact that ten device pages
+    record no product code and are not placed. The by: line and the closing section
+    both state that the rungs rank CHECKABILITY and not quality, because a reader could
+    otherwise take the top rung as an endorsement. banish-kit-3-0 is placed at moderate
+    under QAI but the page restates the more basic finding from its own page, that no
+    clearance was found for it at all and that QAI covers powered devices while it is
+    a manual stamp.'
+  reviewed: '2026-11-16'
+  reviewer: main-loop
+  verdict: publish
