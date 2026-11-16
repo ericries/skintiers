@@ -1175,7 +1175,7 @@
 - name: Skin tags (acrochordon)
   type: condition
   priority: 4
-  status: pending
+  status: done
   discovered_from: seborrhoeic-keratosis
   source: https://www.youtube.com/watch?v=4dW4gNdig9o
 - name: Cherry angioma
@@ -1227,7 +1227,7 @@
 - name: Skin tags (acrochordons)
   type: condition
   priority: 5
-  status: pending
+  status: done
   discovered_from: exfoliation
   source: 'Demand evidence rather than a guess: DermTV''s ''How to Remove Skin Tags
     at Home'' (D7eHQry26DU) has 603,241 views, the highest-viewed video in the 46-60
@@ -1242,3 +1242,12 @@
   source: DermTV's 'How Do You Know When a Sunburn is Dangerous' (vxhAPjKkLxU, 53,688
     views) has no page to attach to; the site covers sun-damage-photoaging, which
     is the chronic side, but nothing on the acute injury or when it needs care
+- name: Acanthosis nigricans
+  type: condition
+  priority: 4
+  status: pending
+  discovered_from: skin-tags
+  source: The other cutaneous marker in Bustan 2017 (PMID 28007053), with 8 supporting
+    articles to skin tags' 5, and the lesion most often confused with underarm darkening.
+    Already flagged as a rule-out on axillary-hyperpigmentation, which currently has
+    nowhere to link

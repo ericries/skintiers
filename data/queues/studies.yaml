@@ -2368,3 +2368,12 @@
     This is exactly the durability question the omalizumab page names as missing from
     its own evidence; deliberately not read for that page so it is not summarised
     from a title
+- name: 'Bustan 2017: skin signs as cutaneous markers of diabetes, systematic review
+    of 34 articles (PMID 28007053)'
+  type: study
+  priority: 6
+  status: pending
+  discovered_from: skin-tags
+  source: Dan Med J 2017;64(1):A5316. The evidence behind both the skin-tags and the
+    future acanthosis-nigricans pages; a structured study page would record which
+    nine skin signs were reviewed and how many articles supported each

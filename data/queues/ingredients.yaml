@@ -4451,3 +4451,11 @@
   source: Declared in the NuFACE Super Vita-C INCI read 2026-11-15; an uncommon sclareolide
     appearing in brightening formulas with no page here. Note it sits in the alphabetical
     tail, so the label says nothing about its dose
+- name: Thuja occidentalis (topical, homeopathic skin tag products)
+  type: ingredient
+  priority: 6
+  status: pending
+  discovered_from: skin-tags
+  source: Active in 4 of the 26 OTC skin-tag products listed in openFDA 2026-11-15,
+    three of them filed as UNAPPROVED HOMEOPATHIC. A page could state the homeopathic
+    marketing category plainly, which is the single most useful fact about it

@@ -10207,3 +10207,23 @@ sunday-riley:
   reviewed: '2026-11-15'
   reviewer: main-loop
   verdict: publish
+skin-tags:
+  assurance: sonnet
+  notes: 'Self-verified in the main loop. Two primary sources, the openFDA drug listing
+    directory and a PubMed systematic review abstract; every quoted span machine-checked
+    verbatim after two fixes, both the same class of error, where openFDA SEARCH TERMS
+    had been written in quote marks and so read as quotations from a source. The regulatory
+    finding is the load-bearing one and is stated carefully: 26 listed products, 23
+    recorded as OTC MONOGRAPH DRUG and 3 as UNAPPROVED HOMEOPATHIC, with the page saying
+    explicitly that neither category means the product was reviewed for removing skin
+    tags and that listing is not approval. I did NOT assert what the salicylic acid OTC
+    monograph does or does not cover, because that would need its own source. Counts
+    are tallied from the active_ingredients field and the footnote notes they sum to
+    more than 26 because products declare multiple actives. No tier_list, because nothing
+    this site grades treats skin tags and ranking 26 unreviewed products would be worse
+    than saying so. The genuinely useful clinical point, diabetes screening on presentation,
+    is given the section it deserves rather than being buried. Two duplicate queue rows
+    resolved.'
+  reviewed: '2026-11-15'
+  reviewer: main-loop
+  verdict: publish
