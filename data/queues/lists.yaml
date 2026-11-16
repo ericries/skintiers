@@ -1563,3 +1563,13 @@
     sunscreens and the UV-selfie check is widely recommended online; a list of which
     covered products this check cannot verify would be directly actionable. Build
     only once the covered tinted products are enumerated from their own pages
+- name: Narrowband UVB versus home red light, what the two technologies actually are
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: phototherapy-atopic-dermatitis
+  source: 'The confusion the phototherapy page exists to correct, and the site now
+    has pages on both sides: phototherapy-atopic-dermatitis, home-led-light-therapy,
+    led-dose-j-per-cm2-and-wavelength, home-led-devices-by-photobiological-standard
+    and blue-light-eye-safety-home-devices. A list contrasting wavelength, setting,
+    regulation and evidence would be curatorial over pages that already exist'

@@ -604,7 +604,7 @@
 - name: Phototherapy for atopic dermatitis
   type: goal
   priority: 5
-  status: pending
+  status: done
   discovered_from: laurent-misery
   source: 'The other half of PMID 42728529, Misery''s most recent indexed paper (title
     read 2026-10-22, abstract NOT read). The site covers home LED and in-office lasers
@@ -1006,3 +1006,12 @@
     in miniature. SPF is tested at 2 mg/cm2 and the site has no page on what real-world
     application does to it. CHECK FIRST whether reading-a-sunscreen-label already
     owns this
+- name: PUVA (psoralen plus ultraviolet A)
+  type: goal
+  priority: 6
+  status: pending
+  discovered_from: phototherapy-atopic-dermatitis
+  source: One of eleven modalities in the 2021 Cochrane review (PMID 34709669), with
+    2 trials there, and a long-established treatment with its own distinct safety
+    profile that the site does not cover. Note the review rates NB-UVB versus PUVA
+    comparisons VERY LOW certainty, so do not build it as a ranking

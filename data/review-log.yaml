@@ -10227,3 +10227,23 @@ skin-tags:
   reviewed: '2026-11-15'
   reviewer: main-loop
   verdict: publish
+phototherapy-atopic-dermatitis:
+  assurance: sonnet
+  notes: 'Self-verified in the main loop against the PubMed abstract of the 2021 Cochrane
+    review, the only source. Every quoted span and every numeric estimate machine-checked
+    verbatim; zero mismatches. The load-bearing editorial choice is the pull quote:
+    32 trials and 1,219 participants reads as a solid literature, and the key narrowband
+    UVB comparisons actually rest on single trials of 40 and 41 people rated low certainty,
+    so the page puts both facts in the same breath rather than leading with the impressive
+    total. The queue row asked specifically that this be kept distinct from the home
+    LED pages, and that distinction is the first thing on the page: ultraviolet in a
+    clinic is not visible red light from a mask. No tier_list, because ranking eleven
+    modalities would mean ranking nine of them off a single trial each against head-to-head
+    comparisons the review itself rates very low certainty. The confidence interval
+    for the mean difference is printed in the source with the smaller magnitude first
+    and is reproduced exactly as printed, with the footnote saying so. The conflict-of-interest
+    statement is long; one relevant item is recorded and the footnote states plainly
+    that it was not quoted selectively to characterise anyone.'
+  reviewed: '2026-11-15'
+  reviewer: main-loop
+  verdict: publish

@@ -2377,3 +2377,13 @@
   source: Dan Med J 2017;64(1):A5316. The evidence behind both the skin-tags and the
     future acanthosis-nigricans pages; a structured study page would record which
     nine skin signs were reviewed and how many articles supported each
+- name: 'Musters 2021: phototherapy for atopic eczema, Cochrane review of 32 trials
+    / 1,219 participants (PMID 34709669)'
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: phototherapy-atopic-dermatitis
+  source: Cochrane Database Syst Rev 2021;10(10):CD013870. The sole evidence base
+    for the phototherapy page; a structured study page would record the eleven modalities,
+    how many trials each has, and which comparisons carry the low versus very low
+    certainty ratings
