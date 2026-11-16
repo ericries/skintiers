@@ -122,6 +122,26 @@ def _run(args):
     return subprocess.run(args, capture_output=True, text=True, timeout=120)
 
 
+_ID_RE = re.compile(r"^[A-Za-z0-9_-]{11}$")
+
+
+def as_fetchable(s):
+    """Turn a bare YouTube id into a watch URL, leaving URLs untouched.
+
+    YouTube ids are base64url and may legitimately start with "-". Handed to
+    yt-dlp as a bare argument, such an id is parsed as an OPTION: the real id
+    -IT6N0tVEaA produced "Invalid playlist-items" on 2026-11-16, which reads
+    like an unavailable video rather than a quoting bug, and a tick could
+    wrongly conclude the captions do not exist. A watch URL is unambiguous.
+
+    Anything that is not an 11-character id is returned unchanged, so an input
+    shape this does not understand is passed through rather than mangled.
+    """
+    if not s or "/" in s or ":" in s:
+        return s
+    return f"https://www.youtube.com/watch?v={s}" if _ID_RE.match(s) else s
+
+
 def video_meta(url):
     """Return {id, title, uploader, channel, duration, url, posted} via yt-dlp, no
     download. `posted` is the video's original upload date as 'YYYY-MM-DD' (or ''
@@ -255,6 +275,8 @@ def main(argv=None):
     ap.add_argument("--ignore-cooldown", action="store_true",
                     help="probe YouTube even if a recent 429 set the cooldown")
     args = ap.parse_args(argv)
+    # A bare id starting with "-" would be re-parsed as an option by yt-dlp.
+    args.url = as_fetchable(args.url)
     if _is_youtube(args.url) and not args.ignore_cooldown:
         left = _cooldown_remaining()
         if left:
