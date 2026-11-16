@@ -182,13 +182,18 @@ Two things are worth knowing for whoever picks this up:
   highest-value candidate first is therefore the right order, and
   `--ignore-cooldown` is not a workaround to reach for, since the cooldown exists
   to stop the block getting longer.
-- **One specific video has failed six times: dZTTnH7BgyU**, Dr Dray's menopause
-  explainer. Other videos fetched cleanly on 2026-11-15 between several of those
-  failures, so this is not simply the endpoint being down for everyone. Whether its
-  captions are genuinely unavailable or it is repeatedly unlucky cannot be told
-  apart from a 429, which is why the script forbids marking it transcript-less.
-  The practical instruction: do NOT spend a tick's first request on this id. Try
-  another candidate first, and come back to it only if that one succeeds.
+- **It is not video-specific, and trying a different id does not help.** An earlier
+  version of this note guessed that one video, dZTTnH7BgyU, might be a repeat
+  offender after six failures, and advised leading with a different candidate.
+  Tested on 2026-11-15: a pull tick led with a completely different video,
+  V05NVkMwbQ4, and got 429 on its first request too. The throttle is broad and
+  sporadic, and that id had simply been tried most often. Ordering candidates by
+  value is still right, because the first request is the only one a tick gets, but
+  do not expect it to raise the hit rate.
+- **The hit rate, measured rather than guessed.** On 2026-11-15 the pull and
+  backfill crons attempted roughly six transcript fetches across the day and one
+  succeeded. Plan ticks on the assumption that most will fail and nothing will be
+  lost, rather than on the assumption that a retry is due.
 
 If the bypass is wanted, it needs to come from the operator rather than from a
 tick: either run the cookie-bearing fetch by hand, or arrange transcript access
