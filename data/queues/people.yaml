@@ -629,3 +629,21 @@
     REMAINS IS 11 CARDS, all genuinely without a slug, which DO need the name read
     from the card''s own thesis and matched to the roster. That is the judgment half
     of the job and it is a separate bounded pass.'
+- name: 'DECIDE: rename the Kristin Leite person page to match her creator_slug'
+  type: person
+  priority: 3
+  status: pending
+  discovered_from: kristin-leite-kristingl-beauty-product-developer-skincare-educator
+  source: 'A RENAME CHANGES A PUBLISHED URL, so it is the user''s call, but the evidence
+    is unambiguous. Her person page slug is kristin-leite-kristingl-beauty-product-developer-skincare-educator,
+    built from a full credential string rather than her name. build.py resolves a
+    video card''s person link as creator_slug + .html and falls back to creator_slug
+    + -videos.html when no such page exists, so all 8 of her video cards currently
+    link to the auto-generated kristin-leite-videos feed and NOT to her actual person
+    page. Renaming the file to kristin-leite.md would fix that for every card at once.
+    She is the ONLY person page with this defect; checked 2026-11-16 across all 78.
+    The long URL is currently linked from the people index and from name-linkify on
+    skin1004-madagascar-centella-asiatica-100-ampoule, both of which regenerate on
+    build, so the only real cost is breaking any external link to the old URL. The
+    page''s name: field was a credential dump too and has been fixed separately today;
+    only the slug remains'

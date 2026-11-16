@@ -3,11 +3,11 @@ analyzed: '2026-08-08'
 assurance: sonnet
 expertise: Beauty product developer / skincare educator (NOT a dermatologist or cosmetic
   chemist)
-name: Kristin Leite (kristingl, beauty product developer / skincare educator)
+name: Kristin Leite
 slug: kristin-leite-kristingl-beauty-product-developer-skincare-educator
 status: published
 type: person
-updated: '2026-08-08'
+updated: '2026-11-16'
 ---
 
 Kristin Leite, who posts as [@kristingl](https://www.tiktok.com/@kristingl) on TikTok, is a beauty product developer and skincare educator, not a dermatologist or cosmetic chemist.[^1]
