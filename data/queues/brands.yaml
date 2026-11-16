@@ -668,7 +668,12 @@
   source: Listed under Skin Health on Karo Healthcare's own Our Brands section, cached
     2026-10-30. A long-established UK emollient line with no page here; the site already
     grades competing emollients on best-eczema-moisturizers-by-evidence, so its products
-    are the more useful target than the brand page
+    are the more useful target than the brand page DEFERRED 2026-11-16, not skipped.
+    The lean brand standard makes a brand page a linked list of its products already
+    on the site, and the site has ZERO E45 products, so the page would link nothing
+    and serve no discovery purpose. This row's own note said the products are the
+    better target. Queued three E45 products; rebuild this brand page once at least
+    two of them exist.
 - name: ACO (Swedish skincare range)
   type: brand
   priority: 5
@@ -721,7 +726,7 @@
 - name: L'Oreal Paris
   type: brand
   priority: 5
-  status: pending
+  status: done
   discovered_from: loreal-paris-revitalift-triple-power-moisturizer-fragrance-free
   source: Two Revitalift products now have pages here (Triple Power fragrance-free,
     0.3 Pure Retinol serum) with no brand hub linking them

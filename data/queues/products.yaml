@@ -6571,3 +6571,36 @@
   source: openFDA NDC read 2026-11-16, salicylic acid 2%, one of four Blemish Clearing
     Witch Hazel Aloe Vera Formula SKUs sharing the same active; a pad format is a
     different use case from a toner
+- name: E45 Dermatological Cream
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: l-oreal
+  source: Karo Healthcare's E45 range, listed under Skin Health on their Our Brands
+    section (cached 2026-10-30). A long-established UK emollient line with no products
+    on this site; the site already grades competing emollients on best-eczema-moisturizers-by-evidence,
+    so these are the useful target. Verify the exact product name and composition
+    against the E45 or Karo site before drafting, since this row names it from the
+    range rather than from a product page
+- name: E45 Itch Relief Cream
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: l-oreal
+  source: Karo Healthcare's E45 range, listed under Skin Health on their Our Brands
+    section (cached 2026-10-30). A long-established UK emollient line with no products
+    on this site; the site already grades competing emollients on best-eczema-moisturizers-by-evidence,
+    so these are the useful target. Verify the exact product name and composition
+    against the E45 or Karo site before drafting, since this row names it from the
+    range rather than from a product page
+- name: E45 Repair Lotion
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: l-oreal
+  source: Karo Healthcare's E45 range, listed under Skin Health on their Our Brands
+    section (cached 2026-10-30). A long-established UK emollient line with no products
+    on this site; the site already grades competing emollients on best-eczema-moisturizers-by-evidence,
+    so these are the useful target. Verify the exact product name and composition
+    against the E45 or Karo site before drafting, since this row names it from the
+    range rather than from a product page

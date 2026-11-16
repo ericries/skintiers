@@ -814,26 +814,27 @@ best-acne-spot-treatments:
   score: 9
   verdict: publish
 best-affordable-drugstore-dupes:
-  last_reviewed: '2026-08-30'
-  note: 'LIST wave6. Expensive-vs-cheap dupe pairs. Opus critic (93): all 7 slugs resolve, CEFer reference formula (Lin 2005) verbatim; honest (a dupe works when it matches disclosed active/conc/pH, retinoid flagged not-a-dupe). Blog sources cached. No dashes. Opus critic inline (workflow pipeline); assurance sonnet.'
-  score: 9
-  verdict: publish
-best-affordable-drugstore-dupes:
   assurance: sonnet
-  notes: 'Accuracy repair, not a rewrite. The queued row said three footnotes were defined and referenced
-    nowhere, which was true, and ALSO said sk lint reported only one of the three; that second claim is wrong
-    now and the check has exactly one commit in its history, so it was never broken. Attaching the footnotes
-    to their claims turned up the real defect. [^3] is DailyMed and fine. [^2] VERIFIES ON SUBSTANCE against
-    the local cache, including the pH-strip sentence, but the footnote presented the ingredient figures as a
-    single quoted label photograph when the source gives them as a bulleted Key Ingredients list and says
-    Tocopherol where the footnote said Alpha Tocopherol; the footnote now describes the source as it actually
-    reads. [^1] CANNOT BE VERIFIED AT ALL: its cache entry is a 403 Forbidden page containing no article
-    text, so the Timeless 20/1/1 at pH 2.4 and Maelove pH 3.2 figures have nothing behind them. Those claims
-    were REMOVED from the page rather than restated unsupported, and the footnote was deleted rather than
-    left as a new orphan while fixing orphans. The finding is preserved in a priority-3 product queue row,
-    because the same source is cited on [[timeless-20-vitamin-c-e-ferulic-serum]] and
-    [[maelove-the-glow-maker]], which were NOT touched here and may carry the same unverifiable figures.
-    Repo-wide orphan count run as the row asked: 0 pages, 0 orphans. 394 tests pass. Main loop, no subagent.'
+  notes: 'Accuracy repair, not a rewrite. The queued row said three footnotes were defined and
+    referenced nowhere, which was true, and ALSO said sk lint reported only one of the three;
+    that second claim is wrong now and the check has exactly one commit in its history, so it
+    was never broken. Attaching the footnotes to their claims turned up the real defect. [^3]
+    is DailyMed and fine. [^2] VERIFIES ON SUBSTANCE against the local cache, including the
+    pH-strip sentence, but the footnote presented the ingredient figures as a single quoted
+    label photograph when the source gives them as a bulleted Key Ingredients list and says
+    Tocopherol where the footnote said Alpha Tocopherol; the footnote now describes the source
+    as it actually reads. [^1] CANNOT BE VERIFIED AT ALL: its cache entry is a 403 Forbidden
+    page containing no article text, so the Timeless 20/1/1 at pH 2.4 and Maelove pH 3.2 figures
+    have nothing behind them. Those claims were REMOVED from the page rather than restated unsupported,
+    and the footnote was deleted rather than left as a new orphan while fixing orphans. The
+    finding is preserved in a priority-3 product queue row, because the same source is cited
+    on [[timeless-20-vitamin-c-e-ferulic-serum]] and [[maelove-the-glow-maker]], which were
+    NOT touched here and may carry the same unverifiable figures. Repo-wide orphan count run
+    as the row asked: 0 pages, 0 orphans. 394 tests pass. Main loop, no subagent. PRIOR REVIEW
+    2026-08-30 (verdict publish, score 9): LIST wave6. Expensive-vs-cheap dupe pairs. Opus critic
+    (93): all 7 slugs resolve, CEFer reference formula (Lin 2005) verbatim; honest (a dupe works
+    when it matches disclosed active/conc/pH, retinoid flagged not-a-dupe). Blog sources cached.
+    No dashes. Opus critic inline (workflow pipeline); assurance sonnet.'
   reviewed: '2026-11-12'
   reviewer: main-loop self-verification
   verdict: publish
@@ -4144,15 +4145,6 @@ l-carnitine:
   note: Opus critic verified all quotes/numbers verbatim vs Peirano 2012 (PMID 22360332, 2% L-carnitine 3wk significantly cut sebum vs vehicle; Beiersdorf-run, disclosed) + Chow 2026 systematic review (PMID 41879202, 59/420 studies, topical 1-5% reduces sebum/acne/PIH/cellulite 'particularly when combined', 'further trials needed', no COI). tier:weak well-calibrated (below niacinamide/BPO 'mid'). No overstatement; acne/PIH/cellulite correctly flagged combination-confounded. Verdict publish; added 'undisclosed concentration' clarifier for the Sulfur product mention.
   score: 9
   verdict: publish
-l-oreal:
-  last_reviewed: '2026-08-08'
-  note: 'Lean brand discovery-aid (Sonnet-only). What-it-is + sourced ownership (or left out if unverifiable) +
-
-    linked on-site products. assurance=sonnet. lint/style clean.
-
-    '
-  score: 8
-  verdict: self-reviewed
 la-roche-posay:
   last_reviewed: '2026-07-28'
   note: 'Cross-queue parallel drain (draft+critic). Ran lint (clean), style (clean), and verify (clean apart from two advisory allowlist WARNs on the loreal-finance.com PDFs, which are legitimate primary corporate filings for ownership/corporate facts). Downloaded and text-extracted both cited PDFs and confirmed every quote VERBATIM and every statistic EXACT: "1989 • La Roche-Posay" and 2018 "Thermes de la Roche-Posay" in the acquisitions list; "Acquisition of the thermal centre La Societe des Thermes de La Roche-Posay"; division goal "to provide sustainable and life-changing dermatological solutions"; brand list (La Roche-Posay, CeraVe, Vichy, SkinCeuticals, Skinbetter Science); Melasyl''s "18 years of research in the Group''s laboratories", "Validated by more than 121 scientific studies", "h'
@@ -10381,6 +10373,24 @@ luzu-luliconazole-1-cream:
     that section 14.3 on tinea corporis names tinea cruris when listing the assessed
     signs. A draft sentence saying the trials were "run by the sponsor" was removed
     before publish as an unsourced inference the label does not state.'
+  reviewed: '2026-11-16'
+  reviewer: main-loop
+  verdict: publish
+l-oreal:
+  assurance: sonnet
+  notes: 'Brand tick 2026-11-16, maintenance not a new page. The queue head was "L''Oreal Paris",
+    which this existing page already covers; a separate page would have fragmented two products
+    across two brand pages, so the row was resolved against this one and a clause was added
+    saying the page covers both the group and the own-name consumer brand, which is the ambiguity
+    that generated the duplicate row. The real gap was an unlinked product: the Revitalift Triple
+    Power moisturizer has had a page since this brand page was last touched in August and was
+    not linked. Added, with a one-line descriptor taken from its own page. Deliberately NOT
+    added: cerave-psoriasis-moisturizing-cream, which surfaced as unlinked but belongs on the
+    CeraVe page that See Also already routes to; the site holds 20 CeraVe products and listing
+    them here would defeat the split. The founder quote was re-verified against the local source
+    cache rather than re-fetched. 150 words, inside the 180 cap. PRIOR REVIEW 2026-08-08 (verdict
+    self-reviewed, score 8): Lean brand discovery-aid (Sonnet-only). What-it-is + sourced ownership
+    (or left out if unverifiable) + linked on-site products. assurance=sonnet. lint/style clean.'
   reviewed: '2026-11-16'
   reviewer: main-loop
   verdict: publish
