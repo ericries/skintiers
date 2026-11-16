@@ -4475,3 +4475,20 @@
   source: Third of 25 on the CeraVe Makeup Melter INCI read 2026-11-15, so a major
     component. It also carries a comedogenicity reputation worth examining against
     evidence rather than repeating, and the site has no page
+- name: Poloxamer 184
+  type: ingredient
+  priority: 5
+  status: pending
+  discovered_from: cerave-hydrating-micellar-water
+  source: Fourth of 20 on the CeraVe Hydrating Micellar Water INCI read 2026-11-16;
+    the surfactant that forms the micelles in micellar waters generally, and the site
+    covers several micellar products without a page for the thing that makes them
+    work
+- name: Hexylene Glycol
+  type: ingredient
+  priority: 7
+  status: pending
+  discovered_from: cerave-hydrating-micellar-water
+  source: Second of 20 on the CeraVe Hydrating Micellar Water INCI read 2026-11-16,
+    so present in quantity; a solvent and preservative booster common across this
+    catalogue with no page here

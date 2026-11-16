@@ -1585,3 +1585,13 @@
     testable against cached INCI text for every product page that records both a marketing
     key-ingredient claim and a full list. Build only once a third instance is found,
     so it is a pattern and not a pair'
+- name: Micellar waters by what the surfactant actually is
+  type: list
+  priority: 8
+  status: pending
+  discovered_from: cerave-hydrating-micellar-water
+  source: 'Grounded and checkable: micellar waters are defined by their surfactant,
+    and the CeraVe one declares poloxamer 184 fourth. The site covers bioderma-sensibio-h2o-micellar-water
+    and now this one; a list comparing the declared surfactant across covered micellar
+    products would be mechanically testable from cached INCI text. Build once a third
+    micellar product has a page'
