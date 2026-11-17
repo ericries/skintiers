@@ -163,7 +163,9 @@ happened.
 Worked example. Davin Lim's slice 49-63 holds "Getting Rid of Acne Scars at
 Home: Microneedling" at 123,109 views and "Subcision: Does it cause facial
 sagging?" at 74,157, both matching existing pages. The cursor has been held at
-48 since 2026-11-15 across two ticks, both blocked by 429 on the first request.
+48 since 2026-11-15 across three ticks, all blocked by 429 on the first request.
+Re-ranked on 2026-11-16 at 123,181 and 74,268 views: both still PASS, which is
+the hold working as intended rather than a stale note.
 Re-listing the slice costs one yt-dlp call and the same two candidates re-rank
 to the top automatically, so the hold is self-healing and cheap.
 
@@ -171,6 +173,24 @@ to the top automatically, so the hold is self-healing and cheap.
 silently: the blockage is no longer a transient throttle and the right move is to
 say so in the tick summary rather than keep deferring. A permanently stalled walk
 that nobody mentions is worse than a walk that skipped two videos.
+
+### The throttle is the SUBTITLE endpoint, not the account or the IP (2026-11-16)
+
+Measured directly, on one video id, seconds apart, in the same tick:
+
+    yt_transcript.py byq-AndfCbg       -> HTTP Error 429: Too Many Requests
+    yt-dlp --print "%(view_count)s"    -> 123174, returned immediately
+
+So this is not an IP ban, not a yt-dlp block, and not an exhausted quota on
+anything the backfill needs for ranking. Metadata, view counts, upload dates and
+`--flat-playlist` slices all keep working normally while `timedtext` refuses. Two
+consequences worth acting on. STEP 2 and STEP 2b are fully functional during a
+429, so a tick can still list a slice, rank it by views and identify the right
+candidates; only STEP 3a fails, which is why holding the cursor loses nothing.
+And anyone debugging this should look at the caption request path specifically
+rather than at rate limiting in general, because the general case is demonstrably
+fine. TikTok subtitles also fetched normally on 2026-11-16 with no cookies at
+all, which narrows it further to YouTube's caption endpoint.
 
 ### The cookie workaround is not always available to the agent (2026-11-15)
 
