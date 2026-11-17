@@ -10505,3 +10505,26 @@ sunscreens-by-what-the-maker-discloses-about-spf-testing:
   reviewed: '2026-11-17'
   reviewer: main-loop
   verdict: publish
+benzyl-alcohol:
+  assurance: sonnet
+  notes: 'Self-verified against the PubMed abstract; every quoted span machine-checked
+    verbatim, zero mismatches. tier: weak, matching the sibling excipient pages
+    (sorbitan-sesquioleate, polyglyceryl-10-diisostearate) and for the same stated
+    reason: a preservative and solvent with no claimed skin benefit, so no efficacy
+    literature was sought. The timely fact is that the American Contact Dermatitis
+    Society named it Allergen of the Year 2026, and the page is careful about what that
+    IS. The designation''s own stated reason is a TESTING GAP, that benzyl alcohol is
+    not in many standard patch test series and so goes underrecognised, not a finding
+    that reactions are common; the review calls it generally considered safe in the
+    same breath, and the page carries both halves. NO prevalence figure appears
+    anywhere because the abstract gives none, and the page says so outright so a reader
+    cannot infer one. Two occupational case reports (epoxy hardeners, epoxy floor
+    paint) are cited by TITLE ONLY, with the footnote stating their abstracts were not
+    read and that no clinical detail from them is asserted, because an industrial
+    exposure says nothing about a preservative at fractional percent in a lotion. The
+    Altreno alcohol-free claim is quarantined in its own section rather than used as a
+    gotcha: the page says the claim is technically defensible and only that buyers hear
+    something different, and it asserts no labelling breach.'
+  reviewed: '2026-11-17'
+  reviewer: main-loop
+  verdict: publish

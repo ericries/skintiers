@@ -4018,7 +4018,7 @@
 - name: Benzyl Alcohol
   type: ingredient
   priority: 3
-  status: pending
+  status: done
   discovered_from: lotrimin-ultra-butenafine-1-cream
   source: 'https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22Lotrimin%20Ultra%22
     Declared as the preservative in lotrimin-ultra-butenafine-1-cream and absent from
@@ -4554,3 +4554,13 @@
     now on this list without anywhere explaining what the tests measure or why in-vivo
     differs from in-vitro. That gap makes the whole disclosure axis harder to read.
     Ground it in the ISO standard descriptions, not brand copy
+- name: Methylparaben
+  type: ingredient
+  priority: 4
+  status: pending
+  discovered_from: benzyl-alcohol
+  source: Declared alongside benzyl alcohol in both the Altreno and Luzu inactive-ingredient
+    lists per their FDA labels. The site covers benzyl alcohol and sorbitan esters
+    but has no page on the paraben people actually encounter most, despite it being
+    among the most argued-about preservatives in consumer skincare. Ground it in regulatory
+    and patch-test primary sources, not blog debate

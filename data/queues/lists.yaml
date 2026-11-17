@@ -1676,3 +1676,14 @@
     site ranks nothing by it. The US classes run I to VII and are a documented, checkable
     structure, same method as home-devices-by-whether-the-code-defines-the-claim.
     Only build once at least three individual steroid pages exist
+- name: 'Allergen of the Year: the ACDS designations and what each one was for'
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: benzyl-alcohol
+  source: Benzyl alcohol is the 2026 designation (Dermatitis 2026;37(1):4-12, PMID
+    41649135). The designation is an awareness signal about TESTING GAPS rather than
+    a danger ranking, which is widely misread, and the site now has pages for several
+    past honourees. A list would make the distinction legible. Verify each year's
+    designee and stated rationale against its own Dermatitis paper; do not assemble
+    from secondary lists
