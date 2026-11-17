@@ -76,6 +76,16 @@ videos:
   related: [acne-scars, hyperpigmentation, melasma, anti-aging, stretch-marks]
   thesis: Dermatologist Abigail Waldman demonstrates at home microneedling on her own face and is specific about the one number that matters most, needle length. She recommends starting at 0.5 mm, which she says is both safe and effective and is roughly the depth of the epidermis at the eyelid, so it does not reach the dermis the way the longer needles used in a clinic do; the tradeoff she states is that in office treatment works faster. She describes sterilising the device in isopropyl alcohol, treats pinpoint bleeding as the sign you have gone deep enough, and says she personally microneedles once a month for texture and pigment while suggesting weekly sessions for acne scars only once the skin has recovered.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: I Was Wrong About Microneedling
+  creator: Dr. Shereene Idriss
+  creator_slug: shereene-idriss
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=V05NVkMwbQ4
+  posted: '2026-11-14'
+  related: [acne-scars, melasma, hyperpigmentation, rf-microneedling-acne-scars]
+  thesis: Board-certified dermatologist Dr. Shereene Idriss explains why she reversed her own position on microneedling, having thought it basically useless and now placing it in her top five things to spend money on for ageing skin. Her stated reason is that her skin changed rather than the treatment did, since she saw no difference when younger and plumper. She argues that deeper and bloodier treatments are not automatically better, because more injury means more inflammation, downtime and risk of pigmentation or scarring, particularly for anyone prone to hyperpigmentation or melasma, and she says she would not microneedle her own face at home despite being a professional.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
