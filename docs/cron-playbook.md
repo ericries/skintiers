@@ -137,7 +137,14 @@ looked. If it prints CI RED, STOP doing content work and fix the pipeline, or
 report it; shipping more pages into a blocked pipeline just grows the backlog.
 
 If you changed anything under `scripts/`, `templates/`, `tests/`, `build.py` or
-`.github/`, run `pytest tests/` BEFORE pushing. That is the exact gate CI uses,
+`.github/`, run `pytest tests/` BEFORE pushing. A green local suite is necessary but NOT
+sufficient: the working tree carries gitignored state (`research-cache/`, `.venv/`,
+`_site/`) that a fresh CI checkout does not have. A test that touches any of those
+paths passes locally and fails on the runner. On 2026-11-17 a new test armed a
+throttle by writing `research-cache/yt-429-cooldown` into the repo and broke the
+deploy with FileNotFoundError. Before pushing a test that touches cache or state
+directories, move the real one aside (`mv research-cache /tmp/x`) and re-run, or
+keep every path the test writes inside `tmp_path`. That is the exact gate CI uses,
 and the Oct 18 breakage was a script edit pushed without it. (`githooks/pre-push`
 automates this; it is inert unless someone has run `git config core.hooksPath
 githooks`.)
