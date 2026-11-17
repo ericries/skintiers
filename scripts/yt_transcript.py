@@ -240,7 +240,10 @@ def fetch_transcript(url, refresh=False):
 # and short-circuit subsequent YOUTUBE fetches for a cooldown period, so the
 # fleet stops hammering an endpoint that has just refused it. TikTok and every
 # other platform are deliberately unaffected.
-_COOLDOWN_FILE = pathlib.Path(__file__).resolve().parent.parent / "research-cache" / "yt-429-cooldown"
+# Lives under the same root as the transcript cache, so SK_RESEARCH_CACHE moves
+# both together. Tests set that env var to a tmp dir; without this the cooldown
+# marker wrote into the real (gitignored, CI-absent) research-cache.
+_COOLDOWN_FILE = CACHE_ROOT / "yt-429-cooldown"
 _COOLDOWN_SECONDS = int(os.environ.get("YT_429_COOLDOWN", "1800"))
 
 
