@@ -10394,3 +10394,25 @@ l-oreal:
   reviewed: '2026-11-16'
   reviewer: main-loop
   verdict: publish
+cherry-angioma:
+  assurance: sonnet
+  notes: 'Self-verified in the main loop against two PubMed abstracts and the openFDA
+    NDC directory; every quoted span machine-checked verbatim, zero mismatches. The
+    page exists mainly to get one thing right in the safe direction. Cherry angiomas
+    turn up in the literature as a biopsy TARGET for intravascular large B-cell
+    lymphoma, which reads as alarming and is not: all 161 patients in that series
+    already had lymphoma in the differential before biopsy, so the association is
+    inside a pre-selected group. The page states the direction explicitly, that the
+    angioma is a vessel-rich sampling site and not a sign of disease, and the footnote
+    repeats the study-design reason. Two other restraints: the 78.7% figure is the
+    abstract''s phrasing for benign skin tumours generally in certain subsets and is
+    NOT used as a cherry angioma prevalence, which the footnote says outright because
+    the abstract gives no standalone figure; and the NDC null result is scoped to the
+    exact two queries run, with the footnote stating it is not proof that no product
+    makes the claim. No tier_list, because no topical treatment exists to grade, and
+    the page says so rather than padding. Search strings were moved into backticks
+    after the verbatim checker flagged them as unmatched source quotations, which is
+    the recurring false positive on this site.'
+  reviewed: '2026-11-16'
+  reviewer: main-loop
+  verdict: publish

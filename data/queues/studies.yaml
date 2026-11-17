@@ -2397,3 +2397,24 @@
     page because it is methodological rather than clinical: an emulsifier inside the
     test reagents can produce simultaneous positives that look like multiple allergies,
     including false-looking fragrance allergy'
+- name: 'Leskela 2025: benign skin tumors in 552 Finns aged 70-93 (PMID 40188076)'
+  type: study
+  priority: 4
+  status: pending
+  discovered_from: cherry-angioma
+  source: BMC Geriatr 2025;25(1):226. Population-based cross-sectional, dermatologist
+    total body skin exam. Covers seborrheic keratosis, lentigo solaris, cherry angiomas
+    and melanocytic nevi in one cohort, so it feeds four existing condition hubs at
+    once. Record the associations with the cross-sectional caveat; it reports HbA1c,
+    HDL, triglyceride and haemoglobin associations with multiple cherry angiomas,
+    all p<0.05
+- name: 'Shimizu 2026: cherry angiomas as random-biopsy sites in 161 suspected lymphoma
+    cases (PMID 41859802)'
+  type: study
+  priority: 4
+  status: pending
+  discovered_from: cherry-angioma
+  source: 'Tokai J Exp Clin Med 2026 Apr 20. Worth a structured page because the direction
+    is easy to get backwards: all 161 patients already had lymphoma in the differential,
+    so this says nothing about risk in people who merely have cherry angiomas. Record
+    the pre-selection explicitly in the generalizability line'

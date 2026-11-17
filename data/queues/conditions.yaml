@@ -1181,7 +1181,7 @@
 - name: Cherry angioma
   type: condition
   priority: 4
-  status: pending
+  status: done
   discovered_from: seborrhoeic-keratosis
   source: https://www.youtube.com/watch?v=4dW4gNdig9o
 - name: Sebaceous hyperplasia

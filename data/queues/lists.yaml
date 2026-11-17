@@ -1653,3 +1653,15 @@
     but nothing placing the Rx options beside them. Luzu is approved for interdigital
     tinea pedis only, the same gap Lotrimin Ultra has, which makes the Rx/OTC line
     less meaningful than it looks. Grounded in luzu-luliconazole-1-cream and lotrimin-ultra-butenafine-1-cream
+- name: Benign lesions people try to remove at home, and what the FDA directory actually
+    lists
+  type: list
+  priority: 4
+  status: pending
+  discovered_from: cherry-angioma
+  source: 'Grounded in two shipped pages that ran the same openFDA NDC brand-name
+    query and got opposite answers: skin-tags found 26 registered products, none FDA-approved
+    for the purpose (23 OTC monograph, 3 unapproved homeopathic), while cherry-angioma
+    found zero for angioma or hemangioma. seborrhoeic-keratosis and milia exist and
+    have not been queried yet. The list would rank by what the directory shows, same
+    method as home-devices-by-whether-the-code-defines-the-claim'
