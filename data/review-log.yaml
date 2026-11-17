@@ -10416,3 +10416,23 @@ cherry-angioma:
   reviewed: '2026-11-16'
   reviewer: main-loop
   verdict: publish
+spotting-a-fabricated-clinical-claim:
+  assurance: sonnet
+  notes: 'Self-verified in the main loop against the locally cached transcript; every
+    quoted span machine-checked verbatim, zero mismatches after one fix. The page is
+    a METHOD page and deliberately does not name the brand, the review sites, or the
+    individual those sites describe as a board chair, and makes no claim about whether
+    that person exists. Repeating a fraud allegation about named parties is not
+    something this page can independently verify, and the standing rule forbids stating
+    an unverified claim about a living person; the transferable material is the
+    technique, which loses nothing by anonymising the case. Wong''s own hedging is
+    preserved and the footnote records it: she frames the conclusion as "in my opinion,
+    a new type of sciencewashing scam" and says "(alleged) fraud". The whois dates are
+    attributed to her on-screen work and flagged as not independently re-checked. The
+    page also states its own limit, that lateral reading finds fabrication but does not
+    grade real evidence. One correction before publish: the video title was rendered
+    with its internal double quotes changed to single quotes, which altered the source
+    string; it is now reproduced exactly.'
+  reviewed: '2026-11-16'
+  reviewer: main-loop
+  verdict: publish

@@ -277,7 +277,12 @@ def main(argv=None):
     args = ap.parse_args(argv)
     # A bare id starting with "-" would be re-parsed as an option by yt-dlp.
     args.url = as_fetchable(args.url)
-    if _is_youtube(args.url) and not args.ignore_cooldown:
+    # A cached transcript needs no network, so the cooldown must not hide it.
+    # Checking the cache first is what makes an already-verified video usable
+    # while YouTube is throttling everything else.
+    _vid = video_id(args.url)
+    _cached = (TRANSCRIPT_CACHE / f"{_vid}.json").exists() if _vid else False
+    if _is_youtube(args.url) and not args.ignore_cooldown and not (_cached and not args.refresh):
         left = _cooldown_remaining()
         if left:
             print(f"YOUTUBE RATE-LIMIT COOLDOWN ACTIVE: {left}s remaining.")

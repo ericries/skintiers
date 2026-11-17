@@ -1018,7 +1018,7 @@
 - name: How to tell a real clinical claim from a fabricated one
   type: goal
   priority: 3
-  status: pending
+  status: done
   discovered_from: sunscreen-uv-filters
   source: 'A REAL VIDEO IS WAITING ON THIS PAGE. Cosmetic chemist Michelle Wong''s
     18-minute investigation (YouTube sU-LcLySvPY, transcript verified and sponsorship-clean
@@ -1034,3 +1034,13 @@
     has nowhere to state the method once. VERIFY HER FACTUAL CLAIMS INDEPENDENTLY
     before repeating any, including her hedged remark about a brand having been caught
     writing fake reviews'
+- name: 'ISO certification in skincare marketing: what the certificates actually cover'
+  type: goal
+  priority: 5
+  status: pending
+  discovered_from: spotting-a-fabricated-clinical-claim
+  source: 'Grounded in the shipped page: Wong found a cited ISO protocol was for good
+    manufacturing practice and ''it''s not for testing skincare on skin''. ISO-certified
+    lab is a common marketing phrase and the site has no page explaining what those
+    certifications do and do not attest to. Verify against the actual ISO standard
+    numbers before drafting'
