@@ -10528,3 +10528,27 @@ benzyl-alcohol:
   reviewed: '2026-11-17'
   reviewer: main-loop
   verdict: publish
+beauty-of-joseon-day-dew-sunscreen-spf-50:
+  assurance: sonnet
+  notes: 'Self-verified against two sources both cached locally before use: the
+    Consumer Reports article and the brand''s own product page. Every quoted span from
+    those two machine-checked verbatim. The remaining seven quoted strings are the
+    award-badge wording, which I transcribed by READING THE IMAGE, not the page HTML;
+    the footnote says so explicitly with a PROVENANCE NOTE so a later checker does not
+    hunt for them in the cached text and conclude they are fabricated. The lead
+    catalogue image is a marketing composite carrying three badges, so it was rejected
+    for the page photo per the banish-kit-3-0 lesson and a clean gallery shot of the
+    tubes used instead; the badge text is reported as marketing rather than displayed.
+    The headline finding is a tested SPF of 19 against a label of 50, and the page is
+    deliberately fair about it in three ways: it states this is ONE lab and not claimed
+    to be replicated; it gives the product full credit for UVA protection, which scored
+    5 of 5, equal to the Korean formula, so the page does not read as a hatchet job;
+    and it notes the same CR table found the identical UVB pattern across three brands''
+    US formulas, so this is a category finding rather than this product alone. Table
+    columns were resolved carefully: the Relief Sun row shows four figures where the
+    others show three, and the leading 1 is a footnote marker, which the footnote
+    records. Price $12.60/50 mL from schema.org data; a second variant at $21.60 is
+    listed with no size named and is left unidentified rather than guessed.'
+  reviewed: '2026-11-17'
+  reviewer: main-loop
+  verdict: publish

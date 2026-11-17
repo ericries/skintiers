@@ -1067,3 +1067,13 @@
     The site has reading-a-sunscreen-label but nothing on these three claims, which
     are unregulated or loosely regulated and mislead by default. Needs FDA labelling
     guidance as the primary source'
+- name: 'Skin Cancer Foundation Seal of Recommendation: what it attests to'
+  type: goal
+  priority: 4
+  status: pending
+  discovered_from: beauty-of-joseon-day-dew-sunscreen-spf-50
+  source: 'Grounded in this page: the Day Dew marketing imagery carries the seal marked
+    EFFECTIVE SUN PROTECTION while an independent lab measured its SPF at 19 against
+    a label of 50. The seal is a programme application rather than a measurement,
+    a distinction no page here explains. Source it from the Foundation''s own published
+    criteria, and do NOT assert the seal was improperly awarded'

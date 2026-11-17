@@ -6625,7 +6625,7 @@
 - name: Beauty of Joseon Day Dew Sunscreen SPF 50 (US formula)
   type: product
   priority: 3
-  status: pending
+  status: done
   discovered_from: sunscreens-by-what-the-maker-discloses-about-spf-testing
   source: 'Consumer Reports measured its average tested SPF at 19 against a label
     of 50, with a UVB score of 2 out of 5, where the brand''s Korean Relief Sun formula
@@ -6642,3 +6642,12 @@
     test. Its US counterpart Daily UV Defense SPF 36 tested 16 with a UVB score of
     2. No page here for either. Verify both rows against the cached source before
     drafting
+- name: Innisfree Daily UV Defense SPF 36 (US formula)
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: beauty-of-joseon-day-dew-sunscreen-spf-50
+  source: 'The third leg of the Consumer Reports US-versus-Korean finding, cached
+    2026-11-17: its table records Daily UV Defense SPF 36 at UVA 5, UVB 2, average
+    tested SPF 16, against the Korean Intensive Long Lasting Sunscreen EX at 5, 5
+    and 48. Same pattern as Day Dew. Neither Innisfree product has a page here'
