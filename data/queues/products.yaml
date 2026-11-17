@@ -6651,3 +6651,19 @@
     2026-11-17: its table records Daily UV Defense SPF 36 at UVA 5, UVB 2, average
     tested SPF 16, against the Korean Intensive Long Lasting Sunscreen EX at 5, 5
     and 48. Same pattern as Day Dew. Neither Innisfree product has a page here'
+- name: eos Shea Better Body Lotion
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: eos
+  source: eos lists Body as one of four primary categories on its own storefront (cached
+    2026-11-17) and the site covers only its lip balm. Verify the exact current product
+    name against the brand site before drafting, since the range is renamed often
+- name: eos Shave Cream
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: eos
+  source: Shave is one of four primary categories on the eos storefront (cached 2026-11-17)
+    and the site has no shave product of any brand, so this opens a category as well
+    as a page. Confirm the exact product name and INCI from the brand site

@@ -10552,3 +10552,21 @@ beauty-of-joseon-day-dew-sunscreen-spf-50:
   reviewed: '2026-11-17'
   reviewer: main-loop
   verdict: publish
+eos:
+  assurance: sonnet
+  notes: 'Lean brand discovery aid, 142 words, inside the 180 cap. The notable decision
+    is an omission: NO FOUNDER IS NAMED. The about-us path 404d and the our-story path
+    served the general storefront rather than a company history, so no verifiable
+    attribution was obtained, and founders are living people whom the standing rule
+    forbids me asserting from memory. The page says so in a line rather than quietly
+    leaving a gap, and the footnote states that the absence reflects what the fetch
+    returned rather than a finding that the brand publishes nothing. Everything claimed
+    is from the brand''s own site and attributed as such: the page title and the
+    primary navigation categories. One linked product, eos-super-balm, and the page
+    says plainly that one is all there is so far rather than padding. Source cached
+    before use and the single quoted string machine-checked verbatim against the cache.
+    A dangling [[lip-balm]] xref was caught by lint and repointed to the real lip-care
+    hub.'
+  reviewed: '2026-11-17'
+  reviewer: main-loop
+  verdict: publish
