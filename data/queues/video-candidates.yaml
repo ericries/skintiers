@@ -9859,7 +9859,8 @@
   conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan and reject any sponsored/affiliate/gifted video
   posted: '2026-10-04'
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: 'Genuinely educational and sponsorship-clean, but NO good page to attach it to: it is a seven-product multi-topic roundup (tone, texture, under-eyes, dryness, acne marks, closed comedones) and the nearest hub, hyperpigmentation, already carries 27 cards while the clip is only partly about pigmentation. Skipped the card per the no-relevant-page rule and queued the named products instead, which is where the value was'
 - id: QrSV3YTpJgc
   title: 'deinfluencing you from more insecurities #dermatologist #deinfluencing'
   creator: Dr Aamna Adel

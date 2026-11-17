@@ -12,6 +12,18 @@ slug: skin-type
 status: published
 type: goal
 updated: '2026-11-05'
+videos:
+- title: Your cleanser, moisturizer and sunscreen should target your skin type
+  creator: Ella (@your.estie.ella)
+  creator_slug: your-estie-ella
+  credential: Licensed esthetician (NOT a dermatologist or cosmetic chemist)
+  platform: TikTok
+  url: https://www.tiktok.com/@your.estie.ella/video/7692446434984987917
+  posted: '2026-10-03'
+  related: [minimalist-routine, oily-skin, dry-skin]
+  thesis: Licensed esthetician Ella draws a distinction between skin type and skin conditions, and uses it to decide which products do what. She describes skin type as genetic and changing only with major hormonal shifts such as pregnancy, menopause and puberty, while skin conditions are what the skin is dealing with now and shift with hormones, diet, products, stress and sleep. Her practical rule is that the base routine of cleanser, moisturizer and sunscreen should target skin type, with everything else in the routine aimed at the conditions, and she cautions against defaulting to a salicylic acid cleanser simply because skin leans oily.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Skin type is the first question most people ask and the one the industry answers most confidently. It is a sorting heuristic for choosing products, not a measured property of your skin, and the dermatologist whose test is reproduced below says so in the same breath as giving it.

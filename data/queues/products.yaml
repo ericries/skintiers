@@ -6667,3 +6667,57 @@
   source: Shave is one of four primary categories on the eos storefront (cached 2026-11-17)
     and the site has no shave product of any brand, so this opens a category as well
     as a page. Confirm the exact product name and INCI from the brand site
+- name: Dr. Idriss Major Fade Flash Mask
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: skin-type
+  source: 'Named and explained in Ella (@your.estie.ella) TikTok 7692797526822358286,
+    2026-10-03: a glycolic acid mask she uses one to two times a week for evening
+    skin tone and fading discoloration. @Dr. Idriss tagged in the caption. No page
+    here; the site covers Shereene Idriss as a creator but none of her PillowtalkDerm
+    products TWO MORE PRODUCTS from the same clip were deliberately NOT queued because
+    the auto-captions do not name them clearly enough to resolve, and the rule is
+    resolve or drop, never guess. (1) A Beauty of Joseon under-eye product: she calls
+    it a Retinol Eye Cream but then says it contains retinal, and BoJ''s actual retinal
+    eye product has a different name. (2) An EADEM pigmentation spot treatment she
+    calls ''the Mark'', which she notes is one of very few spot treatments that does
+    not exfoliate. Both brands are tagged in the caption, so both are resolvable by
+    someone willing to check the brand sites; neither should be drafted from the caption
+    alone.'
+- name: Dermalogica Daily Milkfoliant
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: skin-type
+  source: 'Named in the same Ella clip (TikTok 7692797526822358286): a powder exfoliant
+    activated with water, which she says combines a gentle physical exfoliant with
+    enzymes. @dermalogica tagged. The site has no Dermalogica product at all'
+- name: The INKEY List Caffeine Eye Cream
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: skin-type
+  source: Named in the same Ella clip for under-eye use in the morning. SHE MAKES
+    AN EFFICACY CLAIM THAT MUST NOT BE RELAYED AS FACT, that caffeine has a visible
+    decongesting difference; check it against the caffeine evidence independently.
+    @The INKEY List tagged
+- name: Dieux Instant Angel
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: skin-type
+  source: 'Named in the same Ella clip as a rich moisturizer usable as a sleep mask
+    once or twice weekly, which she says suits acne-prone skin. NAME RESOLUTION: the
+    auto-captions render the brand as ''Doric'', but @dieux is tagged in the caption
+    and Instant Angel is a Dieux product, so the brand is resolved from the tag rather
+    than guessed. Confirm against the brand site before drafting'
+- name: Paula's Choice 1% BHA (gel exfoliant)
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: skin-type
+  source: 'Named in Ella''s TikTok 7692797526822358286: she specifically steers acne-prone
+    users to the 1% rather than the well-known 2% BHA, calling it more of a gel. VERIFY
+    THE EXACT PRODUCT NAME against Paula''s Choice before drafting, since the site
+    currently has only the 2% BODY treatment. @Paula''s Choice tagged'
