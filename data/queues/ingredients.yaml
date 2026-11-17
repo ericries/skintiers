@@ -4534,3 +4534,13 @@
   discovered_from: luzu-luliconazole-1-cream
   source: Declared in the Luzu vehicle per the FDA label. A very widely used antioxidant
     preservative across both drug and cosmetic formulations with no page here yet
+- name: Hydrocortisone 1% (OTC topical corticosteroid)
+  type: ingredient
+  priority: 4
+  status: pending
+  discovered_from: choi-2026-topical-corticosteroid-withdrawal-systematic-review-pmid-42170112
+  source: The review attributes TCSW to HIGH-potency steroids used long-term on the
+    face, which makes the low-potency OTC end of the class a distinct and unqueued
+    gap. The site has topical-corticosteroids as a class page but no page for the
+    one steroid people buy without a prescription. Ground it in the FDA OTC monograph
+    via openFDA rather than the review

@@ -1665,3 +1665,14 @@
     found zero for angioma or hemangioma. seborrhoeic-keratosis and milia exist and
     have not been queried yet. The list would rank by what the directory shows, same
     method as home-devices-by-whether-the-code-defines-the-claim'
+- name: Topical corticosteroid potency classes, ranked by what the label and the evidence
+    actually support
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: choi-2026-topical-corticosteroid-withdrawal-systematic-review-pmid-42170112
+  source: Choi 2026 (PMID 42170112) finds TCSW concentrated in high-potency steroids
+    used long-term on the face, so potency class is the axis that matters and the
+    site ranks nothing by it. The US classes run I to VII and are a documented, checkable
+    structure, same method as home-devices-by-whether-the-code-defines-the-claim.
+    Only build once at least three individual steroid pages exist

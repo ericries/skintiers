@@ -1044,3 +1044,14 @@
     lab is a common marketing phrase and the site has no page explaining what those
     certifications do and do not attest to. Verify against the actual ISO standard
     numbers before drafting'
+- name: Steroid phobia (fear of topical corticosteroids) and treatment adherence
+  type: goal
+  priority: 4
+  status: pending
+  discovered_from: choi-2026-topical-corticosteroid-withdrawal-systematic-review-pmid-42170112
+  source: Choi 2026 frames its own motivation around steroid phobia spreading on social
+    media and 'potentially influenced their treatment adherence', but measures nothing
+    about it. The site covers topical-steroid-withdrawal as a condition and has no
+    page on the much more common problem of people undertreating eczema out of fear.
+    Needs its own primary sources, probably the TOPICOP scale literature; do NOT cite
+    Choi for anything quantitative here

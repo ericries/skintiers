@@ -10461,3 +10461,26 @@ currentbody-skin-led-light-therapy-mask-series-2:
   reviewed: '2026-11-17'
   reviewer: main-loop
   verdict: publish
+choi-2026-topical-corticosteroid-withdrawal-systematic-review-pmid-42170112:
+  assurance: sonnet
+  notes: 'Self-verified against the PubMed abstract; every quoted span machine-checked
+    verbatim, zero mismatches. The page exists to stop a specific misreading. The
+    review reports precise-looking percentages (99.5% atopic dermatitis, 89.8% burning,
+    82.3% hypersensitivity) pooled across SEVEN studies of which FIVE are case reports,
+    and a case report is one patient. A 99.5% figure needs a denominator in the
+    hundreds, so nearly all the weight must sit in the single cross-sectional survey.
+    The page says so, and the footnote marks that inference as this page''s arithmetic
+    rather than a claim the authors make, because the abstract does not say which study
+    contributed which cases. It also states plainly that no total patient count or
+    per-study denominator is given, so the page cannot say how many people any
+    percentage represents, and that there is no comparator or control anywhere in the
+    design, so no effect size exists to report. Absences checked by reading the full
+    abstract and listed explicitly: no protocol registration, no risk-of-bias tool, no
+    meta-analysis. The venue is recorded as a fact (Cureus, rapid author-pays) rather
+    than used to dismiss the work, and the authors'' ICMJE no-conflict declaration is
+    recorded alongside it. Generalisability is bounded to the profile the review itself
+    identifies and the page says it carries no quantitative claim about mild or
+    short-term steroid use.'
+  reviewed: '2026-11-17'
+  reviewer: main-loop
+  verdict: publish
