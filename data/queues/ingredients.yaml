@@ -4544,3 +4544,13 @@
     gap. The site has topical-corticosteroids as a class page but no page for the
     one steroid people buy without a prescription. Ground it in the FDA OTC monograph
     via openFDA rather than the review
+- name: ISO 24444 (in-vivo SPF test method)
+  type: ingredient
+  priority: 4
+  status: pending
+  discovered_from: sunscreens-by-what-the-maker-discloses-about-spf-testing
+  source: NOT an ingredient in the usual sense; file under whichever type fits, but
+    the site cites ISO 24444 and ISO 24442 on kravebeauty-beet-the-sun-spf-40 and
+    now on this list without anywhere explaining what the tests measure or why in-vivo
+    differs from in-vitro. That gap makes the whole disclosure axis harder to read.
+    Ground it in the ISO standard descriptions, not brand copy

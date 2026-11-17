@@ -1491,7 +1491,7 @@
 - name: Sunscreens by what the maker discloses about its SPF testing
   type: list
   priority: 4
-  status: pending
+  status: done
   discovered_from: kravebeauty-beet-the-sun-spf-40
   source: 'GROUNDED IN TWO PAGES SHIPPED 2026-11-12 AND 13. [[kravebeauty-beet-the-sun-spf-40]]
     publishes how many tests it ran (6: 2 FDA Broad Spectrum, 2 FDA SPF Static, 1

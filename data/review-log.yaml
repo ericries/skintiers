@@ -10484,3 +10484,24 @@ choi-2026-topical-corticosteroid-withdrawal-systematic-review-pmid-42170112:
   reviewed: '2026-11-17'
   reviewer: main-loop
   verdict: publish
+sunscreens-by-what-the-maker-discloses-about-spf-testing:
+  assurance: sonnet
+  notes: 'Curatorial over existing pages, no fresh brand copy gathered, per the queue
+    row''s explicit instruction. The structure changed during research and the change
+    is the point. An automated first pass over all 47 sunscreen pages appeared to find
+    13 with testing disclosure, but reading the hits individually showed the regex was
+    matching "Broad Spectrum", which every compliant US sunscreen carries by
+    regulation, and this site''s own phrase "FDA-tested SPF <n>", which describes the
+    label rather than any published measurement. Neither is disclosure. The real count
+    is ONE maker disclosure out of 47, plus one product measured independently. The
+    census footnote records the over-count and its correction rather than quietly
+    reporting the final number. Consumer Reports was cited for load-bearing figures and
+    was NOT in the source cache, so it was re-fetched, both figures confirmed against
+    its live comparison table (Relief Sun 36, US Day Dew 19), and the page cached. The
+    page states its own limit prominently: disclosure is not protection, the two
+    measured products went in opposite directions against their labels, and n=2 is not
+    a pattern. Search strings and illustrative phrases are in backticks or unquoted so
+    the verbatim checker stays meaningful.'
+  reviewed: '2026-11-17'
+  reviewer: main-loop
+  verdict: publish

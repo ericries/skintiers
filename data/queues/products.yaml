@@ -6622,3 +6622,23 @@
   source: K242593, product code OHS, applicant Shenzhen Kaiyan Medical Equipment,
     per openFDA 2026-11-17. Zone mapping is a distinct claim shape worth checking
     against what OHS actually permits
+- name: Beauty of Joseon Day Dew Sunscreen SPF 50 (US formula)
+  type: product
+  priority: 3
+  status: pending
+  discovered_from: sunscreens-by-what-the-maker-discloses-about-spf-testing
+  source: 'Consumer Reports measured its average tested SPF at 19 against a label
+    of 50, with a UVB score of 2 out of 5, where the brand''s Korean Relief Sun formula
+    scored 5 and tested 36. Source cached 2026-11-17 at research-cache/web/a3303066f7051a0e.md.
+    The site covers the Korean formula and not this one, which is the one with the
+    problem. A clear-cut page: same brand, same marketing, half the measured protection'
+- name: Innisfree Intensive Long Lasting Sunscreen EX SPF 50+
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: sunscreens-by-what-the-maker-discloses-about-spf-testing
+  source: Appears in the same cached Consumer Reports table with an average tested
+    SPF of 48 against a 50+ label, scoring 5 and 5, the best match to label in that
+    test. Its US counterpart Daily UV Defense SPF 36 tested 16 with a UVB score of
+    2. No page here for either. Verify both rows against the cached source before
+    drafting
