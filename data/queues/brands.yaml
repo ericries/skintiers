@@ -870,3 +870,12 @@
   discovered_from: banish-kit-3-0
   source: Fourteen products in its own catalogue read 2026-11-15, built around the
     Banisher microneedling stamp; the site now covers one of them
+- name: Shenzhen Kaiyan Medical Equipment
+  type: brand
+  priority: 6
+  status: pending
+  discovered_from: currentbody-skin-led-light-therapy-mask-series-2
+  source: 'The contract manufacturer behind three CurrentBody-branded FDA clearances
+    (K250966, K242593, K251017) per openFDA 2026-11-17. A brand page here would be
+    a genuine discovery aid: it links the devices consumers see to the maker whose
+    name is on the clearance. Only build it once two of its products have pages'

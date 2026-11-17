@@ -10436,3 +10436,28 @@ spotting-a-fabricated-clinical-claim:
   reviewed: '2026-11-16'
   reviewer: main-loop
   verdict: publish
+currentbody-skin-led-light-therapy-mask-series-2:
+  assurance: sonnet
+  notes: 'Built entirely from primary FDA sources, the 510(k) summary PDF and the
+    openFDA 510(k) API; every quoted span machine-checked verbatim against those two,
+    zero mismatches after two fixes. The queue row told me to resolve the regulatory
+    identity FIRST and that was right twice over. El Global Trade, who hold the sibling
+    RF clearance, turn out to hold twelve clearances and NOT ONE is an LED mask, which
+    would have supported a confident absence claim; a second query by device name
+    found six CurrentBody-branded clearances across THREE other applicants. The brand
+    is a distributor that badges contract-manufactured hardware, so a claim proven for
+    one CurrentBody device says nothing about another, and the page says so. The
+    near-miss worth recording: the extracted comparison table interleaves row labels
+    and values, and 110 versus 66 reads naturally as intensity. It is LED COUNT. Total
+    Intensity is 30 mW/cm2 on BOTH sides and marked Same, and dose is 18 J/cm2 on both
+    and also Same. Taking the flattering reading would have implied a device two thirds
+    more powerful than its predicate when the file records the light as identical. The
+    footnote states the correction explicitly. No price: the brand site is a JS app
+    that served a 599 KB 404 body, and the single gated Apify attempt was refused by
+    the provider before running, logged at 0 compute units; image_unresolvable records
+    the same. A bundle price on the sibling RF page was deliberately NOT borrowed. The
+    device name is given unquoted because openFDA stores its trademark symbol as a
+    mangled byte.'
+  reviewed: '2026-11-17'
+  reviewer: main-loop
+  verdict: publish

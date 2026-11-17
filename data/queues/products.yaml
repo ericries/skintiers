@@ -5501,7 +5501,7 @@
 - name: CurrentBody Skin LED Face Mask
   type: product
   priority: 4
-  status: pending
+  status: done
   discovered_from: el-global-trade
   source: 'The CurrentBody device people actually buy, and the obvious gap next to
     [[currentbody-skin-rf]], which is the only one of El Global Trade''s twelve clearances
@@ -6604,3 +6604,21 @@
     so these are the useful target. Verify the exact product name and composition
     against the E45 or Karo site before drafting, since this row names it from the
     range rather than from a product page
+- name: CurrentBody Skin LED Multi Light Therapy Mask (MK-110D)
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: currentbody-skin-led-light-therapy-mask-series-2
+  source: K260715, product code OHS, applicant The Beauty Tech Group Ltd, per openFDA
+    queried 2026-11-17. The NEWEST CurrentBody mask and the only one from this applicant,
+    so it is the natural comparison to the Series 2 (MK-90H, K250966, Shenzhen Kaiyan).
+    Pull the 510k summary from accessdata.fda.gov and compare LED count, irradiance
+    and dose the same way; note the table interleaves labels and values
+- name: CurrentBody LED 4 in 1 Zone Facial Mapping Mask
+  type: product
+  priority: 5
+  status: pending
+  discovered_from: currentbody-skin-led-light-therapy-mask-series-2
+  source: K242593, product code OHS, applicant Shenzhen Kaiyan Medical Equipment,
+    per openFDA 2026-11-17. Zone mapping is a distinct claim shape worth checking
+    against what OHS actually permits
