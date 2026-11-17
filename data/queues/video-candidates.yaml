@@ -10753,7 +10753,8 @@
   conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan and reject any sponsored/affiliate/gifted video
   posted: '2026-10-07'
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: 'Affiliate promo. The caption tail reads ''Get ILSO on, [link emoji]d in b i o @ilso US'' with #ilso #ilsosebumsoftener #primeday. Note the spacing in ''b i o'', which defeats a literal ''link in bio'' match'
 - id: '7693894746208537869'
   title: 'Don’t trust all the marketing you see! 👀 #acneproneskin #undereye #sk...'
   creator: Ella (@your.estie.ella)
@@ -10926,7 +10927,8 @@
   conflict: null
   posted: '2026-10-08'
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: 'Not education: a channel-milestone thank-you clip, no single-topic subject'
 - id: 46huvIaYMJM
   title: All The Treatments I Got in Korea! Xerf, Stemcell, Scalp
   creator: Gothamista
@@ -11078,7 +11080,8 @@
   conflict: non-credentialed but credibility-vetted 2026-08-14 (reviewed acne/peptide content was science-aligned) - her NON-SPONSORED product picks and favorites videos are eligible; still run the sponsorship scan and reject any sponsored/affiliate/gifted video
   posted: '2026-10-08'
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: 'Not education: an audience poll (''What category should we do next??'') tagging @bareMinerals @METHODIQ @COVERGIRL'
 - id: '7694380182320286990'
   title: 'Stop overthinking it and listen to your skin 🫶🏼 #skintype #acneprones...'
   creator: Ella (@your.estie.ella)
@@ -11971,7 +11974,8 @@
   conflict: Co-developed/formulated the Tbh Skincare 'Rebound' Serum and Toner (product-formulation partnership) — her endorsement of that spe; no YouTube; TikTok/IG intake
   posted: '2026-10-13'
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: A reply clip mentioning a product she ordered (the saem jelly), not single-topic education
 - id: '7695709809919659265'
   title: footage from when I had pico laser in 2022, and for the record you ca...
   creator: Hannah English (@ms_hannah_e / Hannah Collingwood English)
@@ -17532,7 +17536,8 @@
   posted: '2026-11-13'
   duration: 20
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 20s, under the 25s floor, and a day-in-the-life bedtime clip rather than single-topic education
 - id: dZTTnH7BgyU
   title: 'Menopause Changes Your Skin, Hair & Body: Dermatologist Explains'
   creator: Andrea Suarez (Dr Dray)
@@ -17575,7 +17580,8 @@
   posted: '2026-11-13'
   duration: 8
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 8s, far under the 25s floor; too thin to ground a thesis
 - id: vod1tpYnBbo
   title: The BEST Serums of 2026! 🏆
   creator: Hyram (Skincare by Hyram)
@@ -17692,7 +17698,8 @@
   posted: '2026-11-13'
   duration: 5
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: '5s affiliate funnel: the caption is a Comment PRODUCTS callout routing to her derm-approved picks. Under the floor and monetized'
 - id: 4jHPnhRu5IU
   title: 'How to do Sculptra Massage | Derm & Rejuvenation Institute '
   creator: Tanya Kormeili, MD, FAAD
@@ -17981,7 +17988,8 @@
   posted: '2026-11-16'
   duration: 11
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'Not skincare: an 11s cat clip (#cattok). Under the 25s floor and no topic match'
 - id: Bz3PHEeIHAo
   title: Ella Rubin's Skin Care Routine Is On (Sterling) POINT 😍
   creator: Hyram (Skincare by Hyram)
@@ -18053,7 +18061,8 @@
   posted: '2026-11-15'
   duration: 59
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'Educational on hypochlorous acid, but rejected on three grounds: the caption tail endorses a specific tagged brand (@Personal Day) with no ad disclosure, and she is tier MED with product_recs restricted so a product rec is not eligible; the hypochlorous-acid page already carries 5 cards including two dedicated explainers, and Muneeb Shah''s existing card already states the one piece of science here (immune cells produce HOCl); and her framing (skincare MVP, very beneficial) overstates against the site''s own tier: weak grade for this ingredient'
 - id: 4eUoCjWayPg
   title: 'Doctor: Buy This, Not That - Ulta Black Friday'
   creator: Dr. Vanita Rattan (Doctor V)
