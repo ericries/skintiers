@@ -4566,3 +4566,22 @@
     but has no page on the paraben people actually encounter most, despite it being
     among the most argued-about preservatives in consumer skincare. Ground it in regulatory
     and patch-test primary sources, not blog debate
+- name: Salix alba (white willow) bark extract
+  type: ingredient
+  priority: 4
+  status: pending
+  discovered_from: ingredient-evidence-by-who-ran-the-only-trial
+  source: The ingredient behind jeon-2023 (PMID 37235713), whose only human arm is
+    uncontrolled and run by its supplier. The site has the STUDY page but no ingredient
+    page, so the evidence has nowhere to attach and the routine builder cannot grade
+    it. Likely tier weak on that basis, but write the rubric from the sources, not
+    from this note
+- name: Salicin (topical)
+  type: ingredient
+  priority: 4
+  status: pending
+  discovered_from: ingredient-evidence-by-who-ran-the-only-trial
+  source: 'The ingredient behind gopaul-2010 (PMID 20883292), a Nu Skin author studying
+    a Nu Skin ingredient with no control arm. Same gap: study page exists, ingredient
+    page does not. Note salicin is the natural precursor people conflate with salicylic
+    acid, which the site covers, so the page has a real disambiguation job'

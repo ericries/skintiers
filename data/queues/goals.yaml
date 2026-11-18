@@ -1095,3 +1095,14 @@
     or that a consensus threshold counting agreement AND disagreement makes the headline
     count ambiguous. Pairs with spotting-a-fabricated-clinical-claim as evidence-literacy
     content
+- name: 'Reading a brand''s clinical claim: sample size, control arm, and whether
+    it is citeable'
+  type: goal
+  priority: 3
+  status: pending
+  discovered_from: ingredient-evidence-by-who-ran-the-only-trial
+  source: 'Grounded in the four cases on this list. spotting-a-fabricated-clinical-claim
+    covers outright fabrication; this is the much commoner case where the study is
+    real but uncontrolled, supplier-run, or simply not referenced. The three checks
+    are concrete and need no expertise: is there a control arm, who employs the authors,
+    and can you find the study at all'

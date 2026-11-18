@@ -1507,7 +1507,7 @@
 - name: Ingredient evidence by who ran the only trial
   type: list
   priority: 4
-  status: pending
+  status: done
   discovered_from: jeon-2023-salix-alba-bark-extract-dark-circles-pmid-37235713
   source: 'GROUNDED IN FOUR STUDY PAGES THIS SITE HAS NOW PUBLISHED, three of them
     this week. A recurring pattern: the only human trial behind a cosmetic ingredient
