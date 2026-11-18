@@ -1106,3 +1106,14 @@
     real but uncontrolled, supplier-run, or simply not referenced. The three checks
     are concrete and need no expertise: is there a control arm, who employs the authors,
     and can you find the study at all'
+- name: 'Off-label prescribing: what it means and why it is not the same as unproven'
+  type: goal
+  priority: 3
+  status: pending
+  discovered_from: dupilumab
+  source: 'Grounded in the dupilumab TSW finding: a Delphi panel recommends it first-line
+    for a condition absent from its FDA label. The site will keep meeting this, since
+    dermatology prescribes off-label routinely. No page explains that off-label is
+    lawful and common, nor the distinction between off-label (not on the label) and
+    unproven (no evidence), which are different things people conflate. Source from
+    FDA''s own guidance'

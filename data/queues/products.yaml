@@ -6726,7 +6726,7 @@
 - name: Dupilumab (Dupixent) for topical steroid withdrawal
   type: product
   priority: 3
-  status: pending
+  status: done
   discovered_from: kamsiah-zemlok-2026-topical-steroid-withdrawal-delphi-consensus-pmid-41090229
   source: The Delphi panel (PMID 41090229) met consensus for dupilumab as a FIRST-LINE
     systemic treatment for TSW. The site has a dupilumab ingredient page but no product
