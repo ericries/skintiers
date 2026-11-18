@@ -5669,7 +5669,7 @@
 - name: Stratamed film-forming wound dressing (Stratpharma)
   type: product
   priority: 4
-  status: pending
+  status: done
   discovered_from: stratacel-film-forming-dressing
   source: 'Sibling of [[stratacel-film-forming-dressing]]; read that page first and
     do not repeat its regulatory section, just link it. Grounded in Stratpharma''s
@@ -5684,6 +5684,8 @@
     listing before repeating it. THE WORK IS FINDING PRODUCT-SPECIFIC EVIDENCE: search
     PubMed for Stratamed trials specifically rather than borrowing Stratacel''s; if
     none exists, the honest page says so and grades unknown.'
+  resolved_reason: 'auto-reconciled: a product page already exists for ''Stratamed
+    film-forming wound dressing (Stratpharma)'' (queue_reconcile)'
 - name: Strataderm silicone scar therapy gel (Stratpharma)
   type: product
   priority: 4
@@ -6721,3 +6723,14 @@
     users to the 1% rather than the well-known 2% BHA, calling it more of a gel. VERIFY
     THE EXACT PRODUCT NAME against Paula''s Choice before drafting, since the site
     currently has only the 2% BODY treatment. @Paula''s Choice tagged'
+- name: Dupilumab (Dupixent) for topical steroid withdrawal
+  type: product
+  priority: 3
+  status: pending
+  discovered_from: kamsiah-zemlok-2026-topical-steroid-withdrawal-delphi-consensus-pmid-41090229
+  source: The Delphi panel (PMID 41090229) met consensus for dupilumab as a FIRST-LINE
+    systemic treatment for TSW. The site has a dupilumab ingredient page but no product
+    page for Dupixent itself, and its FDA-approved indications are checkable against
+    openFDA; TSW is almost certainly NOT among them, which is the point worth recording.
+    Verify the label before drafting and state plainly whether this consensus use
+    is on or off label

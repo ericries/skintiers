@@ -10592,3 +10592,24 @@ sebaceous-hyperplasia:
   reviewed: '2026-11-17'
   reviewer: main-loop
   verdict: publish
+kamsiah-zemlok-2026-topical-steroid-withdrawal-delphi-consensus-pmid-41090229:
+  assurance: sonnet
+  notes: 'Self-verified against the PubMed abstract; every quoted span machine-checked
+    verbatim, zero mismatches. A Delphi study is structured expert OPINION and the page
+    says so in the design line rather than letting consensus read as evidence: no
+    patients, no outcome measured, no effect estimate anywhere. Two things the page
+    insists on. First the denominator: 12 of 72 strategies reached the threshold, so
+    60 did NOT, and a panel agreeing on one strategy in six is reporting how little
+    settled practice exists. That arithmetic is labelled as this page''s, not the
+    authors''. Second an ambiguity left deliberately unresolved: the threshold counted
+    ">=70% agreement OR disagreement", so a consensus outcome could be agreement to do
+    something or agreement NOT to, and the abstract never says how the twelve divide.
+    The page states that rather than assuming the flattering reading that all twelve
+    are positive recommendations. Pairs with the Choi systematic review shipped
+    2026-11-17, which found the whole TSW literature to be five case reports, one case
+    series and one survey; together they make the honest point that opinion is filling
+    a space evidence has not. Affiliation given as PubMed records it; I did not expand
+    an apparently truncated hospital name.'
+  reviewed: '2026-11-18'
+  reviewer: main-loop
+  verdict: publish

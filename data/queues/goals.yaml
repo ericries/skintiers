@@ -1049,12 +1049,19 @@
   priority: 4
   status: pending
   discovered_from: choi-2026-topical-corticosteroid-withdrawal-systematic-review-pmid-42170112
-  source: Choi 2026 frames its own motivation around steroid phobia spreading on social
-    media and 'potentially influenced their treatment adherence', but measures nothing
-    about it. The site covers topical-steroid-withdrawal as a condition and has no
-    page on the much more common problem of people undertreating eczema out of fear.
-    Needs its own primary sources, probably the TOPICOP scale literature; do NOT cite
-    Choi for anything quantitative here
+  source: 'Choi 2026 frames its own motivation around steroid phobia spreading on
+    social media and ''potentially influenced their treatment adherence'', but measures
+    nothing about it. The site covers topical-steroid-withdrawal as a condition and
+    has no page on the much more common problem of people undertreating eczema out
+    of fear. Needs its own primary sources, probably the TOPICOP scale literature;
+    do NOT cite Choi for anything quantitative here SECOND SOURCE AVAILABLE 2026-11-18:
+    the Kamsiah Zemlok Delphi consensus (PMID 41090229) found that of 12 agreed management
+    outcomes, the emphasis was on cessation of topical and systemic corticosteroids
+    AND psychosocial support, which is directly relevant to this page''s subject.
+    Note the tension worth writing about honestly: a consensus panel including patient
+    advocates agreeing on corticosteroid cessation sits awkwardly beside the concern
+    that fear of steroids drives undertreatment of eczema. Present both, do not resolve
+    it by picking a side.'
 - name: 'Alcohol-free, fragrance-free and hypoallergenic: what the label words are
     allowed to mean'
   type: goal
@@ -1077,3 +1084,14 @@
     a label of 50. The seal is a programme application rather than a measurement,
     a distinction no page here explains. Source it from the Foundation''s own published
     criteria, and do NOT assert the seal was improperly awarded'
+- name: 'Delphi consensus studies: what they are and how much weight to give them'
+  type: goal
+  priority: 4
+  status: pending
+  discovered_from: kamsiah-zemlok-2026-topical-steroid-withdrawal-delphi-consensus-pmid-41090229
+  source: The site now cites at least one Delphi consensus (PMID 41090229) and will
+    cite more, since dermatology uses them wherever trial evidence is thin. No page
+    explains that a Delphi result is structured expert opinion rather than measurement,
+    or that a consensus threshold counting agreement AND disagreement makes the headline
+    count ambiguous. Pairs with spotting-a-fabricated-clinical-claim as evidence-literacy
+    content
