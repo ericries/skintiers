@@ -1687,3 +1687,14 @@
     past honourees. A list would make the distinction legible. Verify each year's
     designee and stated rationale against its own Dermatitis paper; do not assemble
     from secondary lists
+- name: Benign facial lesions, by whether any treatment has controlled evidence
+  type: list
+  priority: 4
+  status: pending
+  discovered_from: sebaceous-hyperplasia
+  source: 'The site now covers five benign lesions (seborrhoeic-keratosis, skin-tags,
+    milia, cherry-angioma, sebaceous-hyperplasia) and the same pattern keeps recurring:
+    no topical exists, the FDA brand-name query returns nothing or only unapproved
+    products, and the treatment literature is single-arm or case reports. A list would
+    make that visible rather than repeating it on each page. Same method as home-devices-by-whether-the-code-defines-the-claim;
+    rank by evidence DESIGN, not by efficacy'

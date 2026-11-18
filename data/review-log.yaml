@@ -10570,3 +10570,25 @@ eos:
   reviewed: '2026-11-17'
   reviewer: main-loop
   verdict: publish
+sebaceous-hyperplasia:
+  assurance: sonnet
+  notes: 'Self-verified against three PubMed records; every quoted span machine-checked
+    verbatim, zero mismatches. The page is built around not over-selling a number. The
+    only treatment study with figures reports 97.8% optimal outcomes, which reads as
+    conclusive and is not: retrospective, single-arm, 45 patients at one hospital, NO
+    control and NO comparator, with "optimal" being the authors'' own category for over
+    90% regression judged by DERMOSCOPY rather than by how the patient thinks their
+    face looks. All of that is on the page next to the figure, not buried. Redness in
+    100% is stated too. The isotretinoin case series is cited TITLE ONLY because PubMed
+    carries no abstract for it, and the footnote says explicitly that no patient count,
+    dose, duration or relapse figure is asserted because none was available. The
+    diagnostic-pitfall case is labelled a SINGLE case report that establishes the
+    pitfall exists but not how often, and the page adds a sentence telling the reader
+    not to be alarmed about an ordinary bump. I did NOT assert the common claim that
+    sebaceous hyperplasia is confused with basal cell carcinoma, because no source read
+    for this page supports it. No tier_list, since no product here is graded for this
+    condition. FDA null result scoped to the one query run, same wording as
+    cherry-angioma.'
+  reviewed: '2026-11-17'
+  reviewer: main-loop
+  verdict: publish

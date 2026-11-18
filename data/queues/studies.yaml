@@ -2428,3 +2428,14 @@
     Find the primary work, likely Wineburg and McGrew on professional fact-checkers
     versus historians and students, and record it as a structured study page so the
     goal page can cite evidence rather than a creator's say-so
+- name: 'Qiu 2025: single-needle radiofrequency for facial sebaceous hyperplasia,
+    45 patients (PMID 40995817)'
+  type: study
+  priority: 4
+  status: pending
+  discovered_from: sebaceous-hyperplasia
+  source: 'J Cosmet Dermatol 2025;24(10):e70472. Worth a structured page precisely
+    because its headline 97.8% optimal-outcome figure is so easy to misquote: retrospective,
+    single-arm, no control, no comparator, and optimal is the authors'' own category
+    for over 90% regression judged dermoscopically rather than by the patient. Record
+    the endpoint definition in the primary-result line'
