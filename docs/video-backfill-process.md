@@ -192,6 +192,23 @@ rather than at rate limiting in general, because the general case is demonstrabl
 fine. TikTok subtitles also fetched normally on 2026-11-16 with no cookies at
 all, which narrows it further to YouTube's caption endpoint.
 
+### Successes are per-request, not a window (2026-11-17)
+
+Observed in one day: V05NVkMwbQ4 fetched successfully in the afternoon, and both
+YiGNHfJicgY and byq-AndfCbg returned 429 within hours of it. So the throttle does
+not open and close in windows that a tick can wait out; individual caption requests
+succeed or fail more or less independently.
+
+Two practical consequences. Retrying a held candidate every tick is the correct
+strategy rather than a waste, because each attempt is a fresh roll and one will
+eventually land. And a 429 on the first request says nothing about the second, so
+the "stop the batch" rule is about not extending the throttle, not about the batch
+being hopeless.
+
+A failing request is also slow: byq-AndfCbg took over two minutes to return its 429,
+because yt-dlp retries internally before giving up. Budget for that when a tick
+looks hung.
+
 ### The cookie workaround is not always available to the agent (2026-11-15)
 
 Recorded because the section above reads as though the fix is always within
