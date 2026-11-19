@@ -7900,9 +7900,33 @@ the-inkey-list-tranexamic-acid-night-treatment:
   score: 8
   verdict: revise-then-fixed
 the-ordinary:
-  last_reviewed: '2026-07-28'
-  note: 'Cross-queue parallel drain (draft+critic). Ran lint (clean), style (clean), and verify (clean apart from a pre-existing advisory WARN that theordinary.com is not on the primary allowlist; I fetched it and confirmed it is cited only for the brand''s own attributed positioning claims, which the writing guide permits). I re-fetched all four sources and confirmed every quote verbatim and every statistic exact and correctly directioned: SEC 8-K Feb 2021 ("founded in 2013 by the late Brandon Truaxe," "Founder, Pasquale Cusano and Co-Founder, Nicola Kilner," "The Abnormal Beauty Company," "initial investment in June 2017," "from approximately 29% to approximately 76%," "$1.0 billion," "$2.2 billion" enterprise value, "$460 million" net sales for the 12 months ended Jan 31 2021, "six brands"'
-  score: 9
+  assurance: sonnet
+  notes: 'BRAND tick 2026-11-19, maintenance not a new page. The brand queue had no row with
+    more than one product on the site, so writing another near-empty brand page would have added
+    nothing; checking for unlinked products instead found a systemic gap. The Ordinary page
+    linked THREE products and the site holds FIFTEEN, so eleven were invisible from their own
+    brand page, which is the one job the brand type has. All fifteen now listed, grouped by
+    what each is sold on, each carrying that page''s OWN graded verdict rather than a fresh
+    claim. A second bug surfaced in the same sweep and is fixed: four The Ordinary product pages
+    carried NO brand field at all, which is why they were missing from the brand-to-product
+    mapping, and the three the page already linked were among them, so the page was linking
+    products the data model did not know belonged to it. DELIBERATELY NOT DONE: this page is
+    a 1,500-word ownership and history essay against a lean standard capping brand pages at
+    180 words with no founding history. Its sourcing is SEC filings and genuinely good, so trimming
+    it is a real editorial decision rather than a tick-sized one, and I left it. The site-wide
+    gap, 28 brand pages with unlinked products, is queued with the detection method and the
+    worst offenders named. PRIOR REVIEW 2026-07-28 (verdict publish, score 9): Cross-queue parallel
+    drain (draft+critic). Ran lint (clean), style (clean), and verify (clean apart from a pre-existing
+    advisory WARN that theordinary.com is not on the primary allowlist; I fetched it and confirmed
+    it is cited only for the brand''s own attributed positioning claims, which the writing guide
+    permits). I re-fetched all four sources and confirmed every quote verbatim and every statistic
+    exact and correctly directioned: SEC 8-K Feb 2021 ("founded in 2013 by the late Brandon
+    Truaxe," "Founder, Pasquale Cusano and Co-Founder, Nicola Kilner," "The Abnormal Beauty
+    Company," "initial investment in June 2017," "from approximately 29% to approximately 76%,"
+    "$1.0 billion," "$2.2 billion" enterprise value, "$460 million" net sales for the 12 months
+    ended Jan 31 2021, "six brands"'
+  reviewed: '2026-11-19'
+  reviewer: main-loop
   verdict: publish
 the-ordinary-aha-30-bha-2-peeling-solution:
   last_reviewed: '2026-08-08'

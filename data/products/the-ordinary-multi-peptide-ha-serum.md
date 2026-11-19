@@ -1,6 +1,7 @@
 ---
 analyzed: '2026-07-28'
 assurance: opus
+brand: The Ordinary
 category: Peptide serums
 comparator: other multi-peptide anti-aging serums
 grades:
@@ -29,20 +30,20 @@ images:
 - file: the-ordinary-multi-peptide-ha-serum-ulta-alt2.jpg
   source: Ulta
   source_url: https://www.ulta.com/p/multi-peptide-hyaluronic-acid-serum-firmness-elasticity-pimprod2035079
+key_actives:
+- peptides
+- hyaluronic-acid
 name: The Ordinary Multi-Peptide + HA Serum (Buffet)
 price:
 - amount: 19.9
-  currency: USD
-  size: "30 ml"
   as_of: '2026-07-28'
-  source: "^1"
+  currency: USD
+  size: 30 ml
+  source: ^1
 slug: the-ordinary-multi-peptide-ha-serum
 status: published
 type: product
 updated: '2026-07-28'
-key_actives:
-- peptides
-- hyaluronic-acid
 ---
 
 The Ordinary Multi-Peptide + HA Serum (sold for years as "Buffet") is a low-cost water-based serum that pairs five peptide complexes with hyaluronic acid and a set of amino-acid moisturizing ingredients, marketed for the look of aging.[^1]

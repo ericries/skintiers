@@ -879,3 +879,18 @@
     (K250966, K242593, K251017) per openFDA 2026-11-17. A brand page here would be
     a genuine discovery aid: it links the devices consumers see to the maker whose
     name is on the clearance. Only build it once two of its products have pages'
+- name: 'Link every brand page to its own products: 28 brand pages have unlinked products'
+  type: brand
+  priority: 3
+  status: pending
+  discovered_from: the-ordinary
+  source: 'SYSTEMIC GAP found 2026-11-19 while servicing a brand tick. The brand type''s
+    stated job is to link to products, and 28 of the site''s brand pages do not link
+    products that carry their brand field. Worst offenders at the time: the-ordinary
+    (11 of 15 unlinked, now FIXED), nuface (8 of 12), naturium (6 of 9), paulas-choice
+    (6 of 11), cerave (5 of 19), neutrogena (4 of 9), skin1004 (4 of 6), tower-28
+    (4 of 5). Detection is one pass: map brand field to product slugs, check each
+    slug string appears in the brand page body. SECOND BUG found in the same sweep:
+    four The Ordinary product pages had NO brand field at all, so they were invisible
+    to that mapping; sweep for empty brand fields across all products too. Do a few
+    brand pages per tick rather than all at once'

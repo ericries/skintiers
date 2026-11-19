@@ -45,9 +45,30 @@ Estée Lauder's Form 10-K names DECIEM's portfolio as including "The Ordinary, a
 
 ## Products reviewed here
 
-- [[the-ordinary-multi-peptide-ha-serum]]: the brand's low-cost "Buffet" serum, stacking five peptide complexes with hyaluronic acid, listed at about $19.90 for 30 ml.
-- [[the-ordinary-multi-peptide-copper-peptides-serum]]: a water-based serum led by glycerin, with copper tripeptide-1 (GHK-Cu) and other peptides in a hyaluronic acid and amino-acid base.
-- [[the-ordinary-azelaic-acid-suspension-10]]: a leave-on cream with a labeled 10% azelaic acid.
+Fifteen, grouped by what each is sold on. The grade beside each is that page's own verdict for its lead use.
+
+**Exfoliating acids**
+- [[the-ordinary-aha-30-bha-2-peeling-solution]]: the ten-minute rinse-off peel, graded modest on preliminary evidence.
+- [[the-ordinary-glycolic-acid-7-toning-solution]]: leave-on glycolic toner, modest on mixed evidence.
+- [[the-ordinary-lactic-acid-10-ha]]: leave-on lactic acid, modest on mixed evidence.
+- [[the-ordinary-mandelic-acid-10-ha]]: leave-on mandelic acid, minimal on preliminary evidence.
+
+**Retinoids**
+- [[the-ordinary-granactive-retinoid-2-emulsion]]: for photoaging, graded modest on preliminary evidence.
+
+**Peptides**
+- [[the-ordinary-multi-peptide-ha-serum]], the "Buffet" serum, and [[the-ordinary-multi-peptide-copper-peptides-serum]], its copper-peptide sibling; both minimal on preliminary evidence.
+- [[the-ordinary-matrixyl-10-ha]] and [[the-ordinary-argireline-solution-10]], both minimal on weak evidence.
+
+**Pigment and tone**
+- [[the-ordinary-alpha-arbutin-2-ha]]: for melasma and disordered pigmentation, minimal on preliminary evidence.
+- [[the-ordinary-azelaic-acid-suspension-10]]: labelled 10% azelaic acid, minimal on preliminary evidence.
+- [[the-ordinary-ascorbyl-glucoside-solution-12]]: a vitamin C derivative, minimal on preliminary evidence.
+
+**Acne and barrier**
+- [[the-ordinary-sulfur-10-powder-to-cream-concentrate]]: a sulfur spot treatment, minimal on mixed evidence.
+- [[the-ordinary-niacinamide-10-zinc-1]]: barrier support, modest on preliminary evidence.
+- [[the-ordinary-caffeine-solution-5-egcg]]: for the look of under-eye puffiness, minimal on weak evidence.
 
 ## Sources
 

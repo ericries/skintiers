@@ -1,6 +1,7 @@
 ---
 analyzed: '2026-07-28'
 assurance: opus
+brand: The Ordinary
 category: Niacinamide serums
 comparator: other niacinamide serums
 grades:
@@ -37,19 +38,19 @@ images:
 - file: the-ordinary-niacinamide-10-zinc-1-target.jpg
   source: Target
   source_url: https://www.target.com/p/the-ordinary-niacinamide-10-zinc-1-1-fl-oz-ulta-beauty/-/A-82541253
+key_actives:
+- niacinamide
 name: The Ordinary Niacinamide 10% + Zinc 1%
 price:
 - amount: 6
-  currency: USD
-  size: "30 ml"
   as_of: '2026-07-28'
-  source: "^1"
+  currency: USD
+  size: 30 ml
+  source: ^1
 slug: the-ordinary-niacinamide-10-zinc-1
 status: published
 type: product
 updated: '2026-07-28'
-key_actives:
-- niacinamide
 ---
 
 The Ordinary Niacinamide 10% + Zinc 1% is a low-cost, water-based serum that pairs 10% [[niacinamide]] (vitamin B3) with 1% [[zinc-pca|zinc PCA]], sold in a 30 ml or 60 ml dropper bottle and marketed for [[oily-skin|oily]] and blemish-prone skin.[^1]
