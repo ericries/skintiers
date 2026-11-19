@@ -10714,3 +10714,26 @@ strataderm-silicone-scar-gel:
   reviewed: '2026-11-19'
   reviewer: main-loop
   verdict: publish
+perfectio-led-infrared-device:
+  assurance: sonnet
+  notes: 'Self-verified against the 510(k) PDF and the cached brand page; every quoted
+    span machine-checked verbatim against both, including the rendered frontmatter
+    note fields rather than the YAML-escaped source, zero mismatches after two fixes.
+    The finding: a $1,499 device cleared ONLY for periorbital wrinkles, meaning around
+    the eyes, whose file says outright that clinical data was not included, sold on a
+    promise to rejuvenate the skin''s appearance AND STRUCTURE. Structure is a claim
+    the clearance does not carry and the page says so. Two catches worth recording.
+    FIRST, I had quoted the treatment regimen verbatim, but the extracted PDF
+    interleaves the new-device and predicate columns word by word, so my quotation was
+    a RECONSTRUCTION rather than a span that exists in the source. Same trap as the
+    CurrentBody comparison table. The regimen is now described, not quoted, and the
+    footnote explains why no verbatim quotation of it would be faithful. SECOND, sk
+    style blocked on an en dash that sat inside a verbatim brand quote; rather than
+    alter a quotation to satisfy a style rule I replaced it with a faithful paraphrase
+    of the number range and recorded that the source prints it with an en dash. A
+    wavelength discrepancy is RECORDED, NOT ADJUDICATED: the brand gives 640 to 840 nm
+    while the file specifies 633 plus or minus 5 and 830 plus or minus 5, which do not
+    describe the same thing, and no measurement of a shipped device was available.'
+  reviewed: '2026-11-19'
+  reviewer: main-loop
+  verdict: publish

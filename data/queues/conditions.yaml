@@ -1270,3 +1270,14 @@
     spots are ectopic sebaceous glands and a genuinely common cosmetic worry, particularly
     on the lips, with no hub here. Source it independently; the isotretinoin paper
     has no abstract
+- name: Periorbital wrinkles (crow's feet)
+  type: condition
+  priority: 3
+  status: pending
+  discovered_from: perfectio-led-infrared-device
+  source: The exact cleared indication for the Perfectio and its predicate, and a
+    named anatomical indication under product code OHS, yet the site has no hub for
+    it. Several LED devices here are cleared for this specifically rather than for
+    the face generally, so the distinction has nowhere to live. Check whether eye-area
+    skin genuinely differs in thickness and treatment tolerance, from primary dermatology
+    sources

@@ -1698,3 +1698,14 @@
     products, and the treatment literature is single-arm or case reports. A list would
     make that visible rather than repeating it on each page. Same method as home-devices-by-whether-the-code-defines-the-claim;
     rank by evidence DESIGN, not by efficacy'
+- name: Home LED devices by what they cost per cleared indication
+  type: list
+  priority: 4
+  status: pending
+  discovered_from: perfectio-led-infrared-device
+  source: 'Grounded in a gap the Perfectio page makes obvious: ,499 for a handheld
+    cleared for the eye area only, against currentbody-skin-led-light-therapy-mask-series-2
+    cleared for FULL-FACE wrinkles at a fraction of the price, both under product
+    code OHS and both with no clinical data in the file. Rank by price against the
+    breadth of what the clearance actually permits. Use only devices whose pages already
+    record a K number'

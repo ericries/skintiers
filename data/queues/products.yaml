@@ -5736,7 +5736,7 @@
 - name: Perfectio LED Infrared Device (K152332, Zero Gravity)
   type: product
   priority: 4
-  status: pending
+  status: done
   discovered_from: revive-light-therapy-led-cleansing-system
   source: 'GROUNDED IN A PREDICATE CHART THE SITE HAS ALREADY READ, so part of the
     page is written before you start. K152332, device name ''Perfectio LED infrared
@@ -6743,3 +6743,13 @@
     listing, product code MDA, per openFDA 2026-11-19. The site now covers Stratacel,
     Stratamed and Strataderm, so this completes the family. Check whether stretch
     marks have their own trial or whether the claim rests on the scar literature
+- name: Silk'n FX (Home Skinovations, K110301)
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: perfectio-led-infrared-device
+  source: 'The 2011 PREDICATE for the Perfectio (K152332), same product code OHS,
+    same two wavelengths 633 and 830 nm, same treatment regimen, same periorbital
+    wrinkles indication. Worth a page because the pair shows what substantial equivalence
+    means in practice: a 2016 device at ,499 cleared by resembling a 2011 one. Pull
+    K110301 from accessdata.fda.gov and compare LED count and irradiance'
