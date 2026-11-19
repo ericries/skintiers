@@ -1552,7 +1552,22 @@
     2026-11-15. The site repeatedly reasons from ingredient position across product
     pages, and this convention silently invalidates that reasoning below 1 percent.
     A list identifying which covered products alphabetise would be unusually useful
-    and is mechanically testable from cached INCI text'
+    and is mechanically testable from cached INCI text BLOCKED ON MISSING DATA, checked
+    2026-11-19. This row assumes the ordering is ''mechanically testable from cached
+    INCI text''. It is not: source_cache.py SKIPS incidecoder as a re-fetchable domain,
+    so of 624 cached web pages ZERO are incidecoder, and no structured INCI is stored
+    anywhere. Product pages discuss ordering in prose rather than carrying the list
+    as a field. Nine pages assert something about alphabetical ordering; only TWO
+    quote a list in a form a detector can test. Of those two, nizoral-anti-dandruff-shampoo-ketoconazole-1
+    checks out (17 items, strictly alphabetical) and selsun-blue-itchy-dry-scalp-pyrithione-zinc
+    was WRONG and has been corrected: it claimed its list was alphabetical while quoting
+    one that opens with water, cocamidopropyl betaine, glycol distearate. Two data
+    points will not carry a list page. Build the structured-INCI field first (queued
+    separately), then this becomes a real sweep. A caution for whoever picks it up:
+    my first detector grabbed the longest quoted string on each page and flagged all
+    nine as non-alphabetical, which was the detector reading prose fragments with
+    commas, not the pages being wrong. Filter candidates to INCI-shaped strings before
+    trusting any result.'
 - name: Tinted sunscreens, and what a UV camera cannot tell you about them
   type: list
   priority: 6
@@ -1709,3 +1724,16 @@
     code OHS and both with no clinical data in the file. Rank by price against the
     breadth of what the clearance actually permits. Use only devices whose pages already
     record a K number'
+- name: Store the declared INCI as a structured frontmatter field on product pages
+  type: list
+  priority: 3
+  status: pending
+  discovered_from: selsun-blue-itchy-dry-scalp-pyrithione-zinc
+  source: 'TOOLING, NOT A PAGE. file under whichever type fits. The site reasons from
+    ingredient POSITION across many product pages, but stores no machine-readable
+    ingredient list, so none of that reasoning can be checked in bulk and the alphabetical-tail
+    list is blocked. incidecoder is not cached either (source_cache skips it). An
+    inci: list field populated at page creation by inci_lookup would make position
+    claims testable, let a lint rule catch a page asserting alphabetical order over
+    a list that is not, and is the precondition for the queued alphabetical-ordering
+    list. One real error has already been found by hand this way'

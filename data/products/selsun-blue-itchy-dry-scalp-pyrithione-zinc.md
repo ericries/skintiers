@@ -59,7 +59,7 @@ As an OTC drug the label separates the active from everything else. Active ingre
 
 Inactive ingredients, verbatim from the Drug Facts label: "water, cocamidopropyl betaine, glycol distearate, sodium methyl cocoyl taurate, glyceryl caprylate/caprate, sodium lauryl glucose carboxylate, lauryl glucoside, aloe barbadensis leaf juice, niacinamide, tocopheryl acetate, citric acid, polyacrylate crosspolymer-6, fragrance, hydroxyacetophenone, disodium EDTA, potassium hydroxide, blue 1."[^1]
 
-The list is alphabetical, as OTC Drug Facts inactive lists are, so it does not convey concentration order. Unlike the selenium sulfide variant's ammonium lauryl and laureth sulfate base, this one uses milder non-sulfate surfactants (cocamidopropyl betaine, glucosides, and a cocoyl taurate) and adds [[niacinamide]], aloe, and vitamin E; it still contains added fragrance and a blue dye.[^1]
+This list is NOT alphabetical, which is worth noting because many OTC Drug Facts inactive lists are. It opens with water and runs through surfactants before additives, preservatives and colour, a pattern consistent with descending concentration, so unlike its selenium sulfide sibling the order here may carry information. Checked programmatically on 2026-11-19: sorting the seventeen entries alphabetically reorders them, with water, sodium methyl cocoyl taurate and sodium lauryl glucose carboxylate each preceding an entry that sorts before it. Unlike the selenium sulfide variant's ammonium lauryl and laureth sulfate base, this one uses milder non-sulfate surfactants (cocamidopropyl betaine, glucosides, and a cocoyl taurate) and adds [[niacinamide]], aloe, and vitamin E; it still contains added fragrance and a blue dye.[^1]
 
 ## Common Marketing Claims
 
