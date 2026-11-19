@@ -10737,3 +10737,24 @@ perfectio-led-infrared-device:
   reviewed: '2026-11-19'
   reviewer: main-loop
   verdict: publish
+hughes-2013-sunscreen-prevention-of-skin-aging-rct-pmid-23732711:
+  assurance: sonnet
+  notes: 'Self-verified against the PubMed abstract; every quoted span machine-checked
+    verbatim, zero mismatches after one fix (a quoted fragment capitalised where the
+    source has it lowercase). Written as a FACT-CHECK of a claim this site itself
+    carded yesterday, and the check does not confirm it. A dermatologist video said
+    improvement from SPF alone can be seen as early as 12 weeks; Hughes is the main
+    randomised evidence on sunscreen and photoaging and it ran 4.5 years, reported no
+    outcome at any shorter interval, and found that aging did not INCREASE rather than
+    that it improved. The page states that plainly, including that the retinoid half
+    of the claim is not addressed and remains open. Two details recorded that are
+    routinely lost when this trial is cited: the comparator was DISCRETIONARY sunscreen
+    use, not none, so it measures daily versus occasional; and the 24% is a relative
+    reduction with odds 0.76 and a CI reaching 0.98, not an absolute improvement in
+    anyone''s skin. Generalisability is bounded to latitude 26 south, a stronger UV
+    setting than most of Europe or the northern US. Funder recorded as the Australian
+    NHMRC, a public funder. The 12-week phrase is attributed in-page to the cached
+    video transcript by id so nobody mistakes it for something from this paper.'
+  reviewed: '2026-11-19'
+  reviewer: main-loop
+  verdict: publish

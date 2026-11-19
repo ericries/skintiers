@@ -2443,7 +2443,7 @@
     actually measured at 8, 12 and 52 weeks'
   type: study
   priority: 3
-  status: pending
+  status: done
   discovered_from: sun-damage-photoaging
   source: PROMPTED BY AN UNCITED CLAIM, and the point is to check it rather than repeat
     it. In video YiGNHfJicgY (2026-11-14) Dr Dray gives percentage figures for reversal
@@ -2470,3 +2470,14 @@
   status: pending
   discovered_from: null
   source: https://pubmed.ncbi.nlm.nih.gov/42483929/
+- name: 'Weiss 1988: topical tretinoin for photoaged skin, the original RCT'
+  type: study
+  priority: 3
+  status: pending
+  discovered_from: hughes-2013-sunscreen-prevention-of-skin-aging-rct-pmid-23732711
+  source: THE RETINOID HALF of the fact-check Hughes 2013 only half answered. A dermatologist
+    video carded on sun-damage-photoaging gives percentage figures for reversal of
+    photodamage at 52 weeks and improvement at 8 weeks, citing no study. Weiss et
+    al JAMA 1988 is the classic tretinoin photoaging RCT; find it by PMID, record
+    what was measured and at what intervals, and state plainly whether figures of
+    that size are supported

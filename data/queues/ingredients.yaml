@@ -4594,3 +4594,14 @@
     product may legitimately contain, alongside cetyl, stearyl and lanolin alcohol.
     It is extremely common in moisturisers and the site has no page for it, which
     leaves the central point of that FDA passage unillustrated
+- name: Beta-carotene (oral, for skin)
+  type: ingredient
+  priority: 6
+  status: pending
+  discovered_from: hughes-2013-sunscreen-prevention-of-skin-aging-rct-pmid-23732711
+  source: 'Hughes 2013 (PMID 23732711) randomised 30 mg daily beta-carotene against
+    placebo for skin aging and found it had no overall effect, which is a rare clean
+    null from a proper RCT. NOTE THE SCOPE RULE: oral supplements are a LATER phase
+    per docs/cron-playbook.md, so this may be recorded as a STUDY finding with the
+    oral route stated plainly rather than opened as an ingredient page. Leave the
+    call to the user'
