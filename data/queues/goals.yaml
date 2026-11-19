@@ -1128,3 +1128,12 @@
     distinction is that an unscented product may contain a MASKING fragrance. Needs
     its own primary sourcing; do not cite the two claims pages for it, they say nothing
     on the subject
+- name: Pressure garment therapy for burn scars
+  type: goal
+  priority: 4
+  status: pending
+  discovered_from: strataderm-silicone-scar-gel
+  source: The comparator arm in Wiseman 2020 (PMID 31565952), which found it no different
+    from silicone gel. The site covers silicone for scars but has no page on pressure
+    garments at all, so the trial's central comparison has only one side documented
+    here. Hospital-prescribed rather than retail, which is itself worth explaining

@@ -2452,3 +2452,14 @@
     the Kligman and Weiss tretinoin photoaging trials and the Hughes 2013 Annals sunscreen
     RCT. Find the real numbers and timelines, record what was measured and over what
     period, and state plainly where they do and do not support figures of that size
+- name: 'Wiseman 2020: silicone gel vs pressure garments for burn scars in 153 children
+    (PMID 31565952)'
+  type: study
+  priority: 3
+  status: pending
+  discovered_from: strataderm-silicone-scar-gel
+  source: 'Clin Rehabil 2020;34(1):120-131. Deserves a structured page because it
+    is a rare thing on this site: a properly blinded multicentre RCT with a NULL headline
+    result and an unusually detailed conflicts statement. Record that there was no
+    untreated arm, that the only significant difference was 0.04 cm at P=0.05 favouring
+    silicone alone over combined, and that Stratpharma paid only the open-access fee'

@@ -10689,3 +10689,28 @@ label-words-alcohol-free-fragrance-free-hypoallergenic:
   reviewed: '2026-11-18'
   reviewer: main-loop
   verdict: publish
+strataderm-silicone-scar-gel:
+  assurance: sonnet
+  notes: 'Self-verified against the PubMed record and the cached maker page; every
+    quoted span machine-checked verbatim, zero mismatches. Two accuracy decisions
+    carried the page. FIRST, I checked whether the trial actually names Strataderm
+    before attributing it: the abstract describes the intervention generically as
+    topical silicone gel, and Strataderm appears ONLY in the conflicts statement, so
+    the page says the trial concerns topical silicone gel and that the product is
+    named in its disclosures, and does NOT assert the product was the gel used. SECOND,
+    I corrected my own first reading. The disclosure says Stratpharma provided
+    financial support for the OPEN ACCESS PUBLICATION FEE, not for the trial, and
+    adds that it had no part in design, data collection or analysis, had no access to
+    results before public release, and that the investigators hold no financial
+    interest in the product. Calling this a manufacturer-funded trial would have been
+    the overclaim my own ingredient-evidence list warns against, so the page instead
+    notes that a manufacturer paying a publication fee for a trial that did not favour
+    its product is close to the opposite of that pattern. The result itself is reported
+    without softening: the sole significant finding is 0.04 cm, four tenths of a
+    millimetre, at P = 0.05 with a CI touching zero, and favours silicone ALONE over
+    the combined arm. No untreated arm, so the page says plainly the trial cannot show
+    the gel beats doing nothing. The brand''s claim across old, new, hypertrophic and
+    keloid scars is quarantined and measured against what the one trial studied.'
+  reviewed: '2026-11-19'
+  reviewer: main-loop
+  verdict: publish

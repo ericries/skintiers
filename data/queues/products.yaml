@@ -5689,7 +5689,7 @@
 - name: Strataderm silicone scar therapy gel (Stratpharma)
   type: product
   priority: 4
-  status: pending
+  status: done
   discovered_from: stratacel-film-forming-dressing
   source: 'This is the SCAR product, a different claim from [[stratacel-film-forming-dressing]]''s
     post-procedure dressing claim, so the evidence base is the silicone-gel-for-scars
@@ -6734,3 +6734,12 @@
     openFDA; TSW is almost certainly NOT among them, which is the point worth recording.
     Verify the label before drafting and state plainly whether this consensus use
     is on or off label
+- name: Stratamark (Stratpharma stretch mark gel)
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: strataderm-silicone-scar-gel
+  source: The fourth Stratpharma product and the only other one holding a US FDA device
+    listing, product code MDA, per openFDA 2026-11-19. The site now covers Stratacel,
+    Stratamed and Strataderm, so this completes the family. Check whether stretch
+    marks have their own trial or whether the claim rests on the scar literature
