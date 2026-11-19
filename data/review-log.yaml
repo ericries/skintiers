@@ -10669,3 +10669,23 @@ ingredient-evidence-by-who-ran-the-only-trial:
   reviewed: '2026-11-18'
   reviewer: main-loop
   verdict: publish
+label-words-alcohol-free-fragrance-free-hypoallergenic:
+  assurance: sonnet
+  notes: 'Built entirely from two FDA pages read in full; every quoted span
+    machine-checked verbatim against them, zero mismatches after three fixes. The
+    verbatim checker earned its keep: all three failures were NESTED QUOTATION, where
+    the FDA source contains its own quote marks (a court sentence ending in
+    hypoallergenic inside quotes, and a clause that reads the term " alcohol ," with
+    spaces inside the marks). Rather than silently re-punctuate a federal source I cut
+    each quoted span short of the nesting and recorded the full source clause in the
+    footnote, so the quotes are exactly reproducible. Three deliberate restraints. The
+    court case is not named or dated, because the FDA page as read gives neither. The
+    fragrance-free absence is scoped to the two pages read plus one 404, and says
+    explicitly that it does NOT establish there is no FDA material on fragrance
+    labelling elsewhere. And the page says the hypoallergenic finding does not mean
+    such products are worse or that brands are lying, only that the word carries no
+    testing requirement. The alcohol-free section validates the Altreno case already
+    on benzyl-alcohol from the regulator''s side rather than restating it.'
+  reviewed: '2026-11-18'
+  reviewer: main-loop
+  verdict: publish

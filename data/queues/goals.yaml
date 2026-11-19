@@ -1066,7 +1066,7 @@
     allowed to mean'
   type: goal
   priority: 3
-  status: pending
+  status: done
   discovered_from: benzyl-alcohol
   source: 'Grounded in the Altreno case recorded on this page and on altreno-tretinoin-0-05-lotion:
     a product marketed alcohol-free whose FDA label lists benzyl alcohol, because
@@ -1117,3 +1117,14 @@
     lawful and common, nor the distinction between off-label (not on the label) and
     unproven (no evidence), which are different things people conflate. Source from
     FDA''s own guidance'
+- name: 'Fragrance-free versus unscented: what each is allowed to contain'
+  type: goal
+  priority: 3
+  status: pending
+  discovered_from: label-words-alcohol-free-fragrance-free-hypoallergenic
+  source: The gap this page could only point at. FDA's Cosmetics Labeling Claims section
+    defines five terms and fragrance-free is not among them, so the definition has
+    to come from elsewhere, probably 21 CFR labelling rules or FTC guidance. The practical
+    distinction is that an unscented product may contain a MASKING fragrance. Needs
+    its own primary sourcing; do not cite the two claims pages for it, they say nothing
+    on the subject

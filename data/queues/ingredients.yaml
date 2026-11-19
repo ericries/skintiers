@@ -4585,3 +4585,12 @@
     a Nu Skin ingredient with no control arm. Same gap: study page exists, ingredient
     page does not. Note salicin is the natural precursor people conflate with salicylic
     acid, which the site covers, so the page has a real disambiguation job'
+- name: Cetearyl alcohol
+  type: ingredient
+  priority: 4
+  status: pending
+  discovered_from: label-words-alcohol-free-fragrance-free-hypoallergenic
+  source: Named by the FDA alcohol-free page as one of the fatty alcohols an alcohol-free
+    product may legitimately contain, alongside cetyl, stearyl and lanolin alcohol.
+    It is extremely common in moisturisers and the site has no page for it, which
+    leaves the central point of that FDA passage unillustrated
