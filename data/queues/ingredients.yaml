@@ -4626,3 +4626,12 @@
     contact allergy to ox. geraniol, geranial and citral is common. Citral is the
     geranial/neral mixture, so one page can cover all three. Verify the figures against
     the abstract before drafting
+- name: PDRN (polydeoxyribonucleotide) topical
+  type: ingredient
+  priority: 3
+  status: pending
+  discovered_from: geraniol
+  source: Surfaced twice now from TikTok routine posts (anua PDRN Mist, 2026-11-19).
+    A salmon-DNA-derived ingredient carrying heavy K-beauty marketing. The site has
+    no page, so no product page citing it has anywhere to attach its evidence. Check
+    PubMed for TOPICAL human data specifically, since most PDRN literature is injectable

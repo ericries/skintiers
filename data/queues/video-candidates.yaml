@@ -18193,7 +18193,8 @@
   posted: '2026-11-19'
   duration: 13
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: 13s travel post about an iron and steamer, under the floor and not skincare
 - id: '7709630479112146189'
   title: 'F1 Vegas! Let’s gooo @SkinCeuticals  #skincare #f1 #ferrari #vegas'
   creator: Dr. Chris Tomassian
@@ -18335,7 +18336,8 @@
   posted: '2026-11-16'
   duration: 9
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 9s, far under the 25s floor
 - id: VB23iplk6MU
   title: The history, evolution and future of cosmetics science
   creator: Jen Novakovich (The Eco Well)
@@ -18463,7 +18465,8 @@
   posted: '2026-11-17'
   duration: 26
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 26s personal post about glasses and crystals, not skincare
 - id: LyZQmJWF6FY
   title: 'drugstore routine for bumpy skin! Stitch with crystallai3 #skincare'
   creator: Dr. Neera Nathan
@@ -18505,7 +18508,8 @@
   posted: '2026-11-18'
   duration: 74
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: Comment PRODUCTS affiliate funnel in the caption
 - id: XFtLVHOgiao
   title: 9 Products I Formulated For Skin Of Colour & What's Inside Each One
   creator: Dr. Vanita Rattan (Doctor V)
@@ -18603,7 +18607,8 @@
   posted: '2026-11-18'
   duration: 52
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: NO ENGLISH TRANSCRIPT available, so it cannot be cited. Caption was clean and the topic (reacting badly to a new product) would have matched patch-testing or contact-dermatitis
 - id: '7709530331942079775'
   title: 'Finally seeing some progress 🙌🏼 Using:  @Murad Skincare Deep Relief S...'
   creator: Ella (@your.estie.ella)
@@ -18617,7 +18622,8 @@
   posted: '2026-11-18'
   duration: 63
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: 'Personal results post attributing progress to an EIGHT-product stack (Murad, Remedy Science, byoma, anua, SKIN1004, epii, Dr Althea, Paula''s Choice), all tagged. No #ad and she is product_recs ok, so not disqualified on monetization, but a finally-seeing-progress claim across eight simultaneous products cannot support any attribution and the tagging pattern is promotional in shape. Named products queued separately'
 - id: '7709271185225174285'
   title: Light layers of hydration for combo-oily skin 🙌🏼 @byoma @Peach Slices...
   creator: Ella (@your.estie.ella)
