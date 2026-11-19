@@ -5843,7 +5843,25 @@
     COPYING: data/goals/home-fractional-nonablative-laser.md lists K141868 in its
     aliases although it is a goal hub, not that device, which is the same class of
     mistake in reverse and will cause false matches. Verify each K number against
-    the page''s own footnotes before adding it, and change nothing else.'
+    the page''s own footnotes before adding it, and change nothing else. PARTIALLY
+    DONE 2026-11-19, and the remainder is NOT safe to finish mechanically. Survey:
+    39 of 48 device pages already carry their own K number in aliases; 9 did not.
+    Resolved ownership by querying openFDA for every K number appearing in each page
+    and scoring device_name against the page name. THREE were unambiguous and have
+    been added: currentbody-skin-led-light-therapy-mask-series-2 = K250966 (0.99 name
+    match; K221946 is the predicate), newa-skin-therapy-system = K130793 (0.83, applicant
+    Endymion Medical), perfectio-led-infrared-device = K152332 (0.79; K110301 is the
+    predicate, scoring 0.04). SIX were NOT added because the best match is a DIFFERENT
+    product, which is exactly the predicate/sibling error this row warns against:
+    nuface-fix-serum-activator (only candidate K161654 is NuFACE Gel Primer, which
+    has its own page), revive-light-therapy-lux-clinical and revive-light-therapy-lux-spot
+    (best matches are reVive Light Therapy Essentials, a separate product with its
+    own page), revive-light-therapy-lux-lip-care (best is reVive Perioral at 0.46),
+    revive-light-therapy-lux-sonique (best is reVive Light Therapy LED Ultrasonic
+    Wrinkle System at 0.63, plausible since Sonique suggests ultrasonic but not certain),
+    and sciton-zoomscan (nothing above 0.23; ZoomScan is a handpiece and is probably
+    cleared inside a system clearance rather than on its own). Finishing these needs
+    the actual 510k summaries read, not name matching.'
 - name: EndyMed PRO with Intensif RF microneedling handpiece
   type: product
   priority: 5

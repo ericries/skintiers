@@ -1,9 +1,10 @@
 ---
 aliases:
+- K152332
 - Perfectio
 - Perfectio LED
-- Zero Gravity Perfectio
 - Perfectio LED infrared device
+- Zero Gravity Perfectio
 analyzed: '2026-11-19'
 assurance: sonnet
 brand: Zero Gravity

@@ -1,8 +1,9 @@
 ---
 aliases:
-- CurrentBody Skin LED Light Therapy Mask Series 2
 - CurrentBody LED mask
+- CurrentBody Skin LED Light Therapy Mask Series 2
 - CurrentBody Skin Series 2
+- K250966
 - MK-90H
 analyzed: '2026-11-17'
 assurance: sonnet

@@ -1,9 +1,10 @@
 ---
 aliases:
-- NEWA Skin Therapy System
-- EndyMed Newa
-- Newa radiofrequency device
 - DEN150005
+- EndyMed Newa
+- K130793
+- NEWA Skin Therapy System
+- Newa radiofrequency device
 analyzed: '2026-10-19'
 assurance: sonnet
 brand: EndyMed
