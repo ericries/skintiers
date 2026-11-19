@@ -2463,3 +2463,10 @@
     result and an unusually detailed conflicts statement. Record that there was no
     untreated arm, that the only significant difference was 0.04 cm at P=0.05 favouring
     silicone alone over combined, and that Stratpharma paid only the open-access fee'
+- name: Silverberg 2026 Delgocitinib cream formulation demonstrates a dose-dependent
+    response in adults with mild  (PMID 42483929)
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: null
+  source: https://pubmed.ncbi.nlm.nih.gov/42483929/
