@@ -1150,3 +1150,16 @@
     no page to attach to. The category is also genuinely confused: toner covers astringents,
     acid exfoliants, hydrating essences and milky lotions, which share a name and
     nothing else. Prefer a tier_list over an essay'
+- name: 'The EU declarable fragrance allergens: what the list is and what being on
+    it means'
+  type: goal
+  priority: 3
+  status: pending
+  discovered_from: geraniol
+  source: GROUNDED IN A GAP I HIT WHILE WRITING. The geraniol page wanted to say that
+    it is named individually on labels because EU rules require declaring certain
+    fragrance allergens, and I removed that claim because I could not verify it in
+    session. The site now covers three of those allergens (geraniol, benzyl-alcohol,
+    and hydroperoxides of limonene and linalool queued) without anywhere explaining
+    the labelling rule that makes them visible. Source it from the EU Cosmetics Regulation
+    Annex III directly, not from blog summaries

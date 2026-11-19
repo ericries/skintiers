@@ -10758,3 +10758,26 @@ hughes-2013-sunscreen-prevention-of-skin-aging-rct-pmid-23732711:
   reviewed: '2026-11-19'
   reviewer: main-loop
   verdict: publish
+geraniol:
+  assurance: sonnet
+  notes: 'Self-verified against two PubMed abstracts; every quoted span machine-checked
+    verbatim, zero mismatches after one fix. tier: weak, matching the other
+    fragrance-and-function ingredients here (benzyl-alcohol, sorbitan-sesquioleate) and
+    for the same stated reason: it is in a formula for its scent and makes no skin
+    claim, so no efficacy literature was sought. The finding the page is built on is
+    the OXIDATION distinction: oxidised geraniol tested positive at 5.8% and 1.8%
+    against 0.3% for the plain molecule, so what sensitises people is largely the
+    air-exposed form. Three accuracy guards. FIRST, the 11% and 6% in the quoted string
+    are test-preparation CONCENTRATIONS, not results, and the footnote says so because
+    the sentence reads as though they were rates. SECOND, the Spanish percentages
+    (geraniol 16.6% in women, 22.4% in retired people) come from 1,013 patients ALREADY
+    selected for reacting to fragrance markers, so they are rates within a
+    fragrance-allergic group and not population prevalence; both the body and the
+    footnote state this. THIRD, the ketoprofen comparison that gives the second paper
+    its title rests on FOUR patients and the page draws nothing from it. One claim was
+    written then removed before publish: that geraniol is named on labels because EU
+    rules require declaring it as a fragrance allergen. Probably true, not verified in
+    this session, so it is gone.'
+  reviewed: '2026-11-19'
+  reviewer: main-loop
+  verdict: publish

@@ -4064,7 +4064,7 @@
 - name: Geraniol
   type: ingredient
   priority: 3
-  status: pending
+  status: done
   discovered_from: thayers-rose-petal-facial-toner
   source: https://www.thayers.com/shop-all/toners/rose-petal-facial-toner/12-oz Declared
     last-but-one on thayers-rose-petal-facial-toner, a toner marketed as ideal for
@@ -4605,3 +4605,24 @@
     per docs/cron-playbook.md, so this may be recorded as a STUDY finding with the
     oral route stated plainly rather than opened as an ingredient page. Leave the
     call to the user'
+- name: Oxidised limonene and oxidised linalool
+  type: ingredient
+  priority: 3
+  status: pending
+  discovered_from: geraniol
+  source: Named alongside oxidised geraniol in PMID 37840237, which found overrepresentation
+    of simultaneous allergy to combinations of all three. Already queued once from
+    the sorbitan-sesquioleate page via the paediatric baseline series (PMID 40973997).
+    Two independent routes to the same gap, which is a signal it matters. The whole
+    point is that the OXIDISED forms sensitise and the parent terpenes largely do
+    not, a distinction no page here makes
+- name: Citral, geranial and neral
+  type: ingredient
+  priority: 4
+  status: pending
+  discovered_from: geraniol
+  source: Tested alongside geraniol in PMID 37840237 with results geranial 2.7%, neral
+    1.0%, citral 2.2% in routinely tested dermatitis patients, and the authors conclude
+    contact allergy to ox. geraniol, geranial and citral is common. Citral is the
+    geranial/neral mixture, so one page can cover all three. Verify the figures against
+    the abstract before drafting
