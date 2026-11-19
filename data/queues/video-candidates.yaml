@@ -18093,7 +18093,8 @@
   posted: '2026-11-18'
   duration: 30
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: Personal family post, not skincare
 - id: '7709148261390601485'
   title: Pregnancy glow = ACNE 🙋🏻‍♀️ This is so real but you do not need to su...
   creator: Dr. Aegean Chan
@@ -18177,7 +18178,8 @@
   posted: '2026-11-19'
   duration: 15
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 15s, under the 25s floor
 - id: '7709721870861470989'
   title: 'Not the best start to my trip tbh #iron #steamer #hotel '
   creator: Dr. Chris Tomassian
@@ -18261,7 +18263,8 @@
   posted: '2026-11-18'
   duration: 10
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 10s, far under the 25s floor
 - id: '7709171871727521038'
   title: Great skincare starts with someone who genuinely cares 🤍 With a thoug...
   creator: Fatima Fahs
@@ -18303,7 +18306,8 @@
   posted: '2026-11-19'
   duration: 61
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: A travel picks clip (I won't travel without these) from a creator who is product_recs restricted over a product-formulation partnership, so picks are not eligible
 - id: '7709257207023406356'
   title: cry from exhaustion and happiness, sit in all the chairs, hotel robe ...
   creator: Hannah English (@ms_hannah_e / Hannah Collingwood English)
@@ -18359,7 +18363,8 @@
   posted: '2026-11-19'
   duration: 37
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: Personal birthday post, not single-topic skincare
 - id: '7704523848166804750'
   title: 'Which vitamin c should you add to your Christmas wishlist??? #vitamin...'
   creator: Jenn Lexi (@jennlexi_)
@@ -18401,7 +18406,8 @@
   posted: '2026-11-18'
   duration: 56
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: Sponsorship-clean and arguably a how-to, but NO page to attach it to. The clip is a usage tip, using milky toners as a body moisturiser, and it names NO product in the transcript, so it cannot card on a product page. The site has individual milky-toner products but no toner hub. Skipped per the no-relevant-page rule; queued the missing hub instead
 - id: '7709204224055332109'
   title: Toner can be overpriced water. It can also be a huge, lightweight ser...
   creator: Kristin Leite (kristingl)
