@@ -169,6 +169,27 @@ the hold working as intended rather than a stale note.
 Re-listing the slice costs one yt-dlp call and the same two candidates re-rank
 to the top automatically, so the hold is self-healing and cheap.
 
+**The hold freezes the WHOLE LANE, not one creator (2026-11-19).** This is the
+cost the rule above missed. `roster_next.py backfill --all-high` always returns the
+smallest walkable cursor, so while one creator is held every backfill tick selects
+that same creator and fails. On 2026-11-19 Davin Lim had been held at 48 for five
+ticks, and in that time none of the other 33 walkable HIGH-tier back catalogs was
+touched. The next cursors sat at 52, 57 and 60.
+
+So the hold is only cheap when it blocks one creator's progress. It is expensive
+when it blocks everyone's. The resolution is to advance the cursor AND record the
+held candidate ids somewhere durable, which loses nothing: the ids are still
+cardable by id whenever the throttle clears, and the lane starts moving again.
+Holding is right for a tick or two; past that, write the ids down and move on.
+
+**HELD CANDIDATES, cardable by id once YouTube captions are fetchable.** Both passed
+the popularity floor and both match existing pages:
+
+- `byq-AndfCbg` Getting Rid of Acne Scars at Home: Microneedling, Dr Davin Lim,
+  123,181 views, matches [[microneedling]]
+- `6uisyTDXwkg` Subcision: Does it cause facial sagging?, Dr Davin Lim,
+  74,268 views, matches [[acne-scars]]
+
 **Bound it.** If a cursor has been held for more than about a week, stop holding
 silently: the blockage is no longer a transient throttle and the right move is to
 say so in the tick summary rather than keep deferring. A permanently stalled walk
