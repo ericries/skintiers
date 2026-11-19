@@ -121,6 +121,16 @@ videos:
   related: [sunscreen-uv-filters, best-sunscreens-daily-wear, even-skin-tone, melasma]
   thesis: Asked to review powder sunscreens, dermatologist Andrea Suarez, who posts as Dr Dray, says they are very unreliable for coverage because they do not lay down an even consistent layer, and that you would need a great deal of powder to reach the milligram per square centimetre dose the SPF number is based on. Her conclusion is not to rely on an SPF powder alone, though she does use them to mattify shine and finds they help a sunscreen stay in place, while being honest that the setting effect may be her imagination. In the same session she gives figures for UV umbrellas, saying a dedicated lab-tested one blocks 99 percent of UV and an ordinary black rain umbrella a good 70 to 90 percent, while a clear plastic one blocks little, and that none of them prevent burning from light scattered up off pavements, sand and water.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Can You Reverse 27 Years of Sun Damage?
+  creator: Andrea Suarez (Dr Dray)
+  creator_slug: andrea-suarez-dr-dray
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=YiGNHfJicgY
+  posted: '2026-11-14'
+  related: [tretinoin, retinoids, sunscreen-uv-filters]
+  thesis: 'Board-certified dermatologist Andrea Suarez, who posts as Dr Dray, answers a viewer asking how long it takes to reverse accumulated sun damage with consistent sunscreen and retinoid use. She says no study addresses a specific number of years of exposure, and describes the shape of the answer instead: changes in the outer layer of skin, meaning texture, smoothness and brightness, come first and plateau within a couple of months, while the deeper collagen changes take far longer and are still developing at a year. She attaches percentage figures to those timelines without naming the studies they come from, so treat the numbers as her recollection rather than as sourced results. In the same session she advises toweling dry and reapplying sunscreen before insect repellent after swimming, and says never to mix anything into a retinoid before applying it, because uneven distribution leaves some areas overdosed and others untreated.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

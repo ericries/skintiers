@@ -2439,3 +2439,16 @@
     single-arm, no control, no comparator, and optimal is the authors'' own category
     for over 90% regression judged dermoscopically rather than by the patient. Record
     the endpoint definition in the primary-result line'
+- name: 'Timeline of visible change from retinoids and sunscreen: what the trials
+    actually measured at 8, 12 and 52 weeks'
+  type: study
+  priority: 3
+  status: pending
+  discovered_from: sun-damage-photoaging
+  source: PROMPTED BY AN UNCITED CLAIM, and the point is to check it rather than repeat
+    it. In video YiGNHfJicgY (2026-11-14) Dr Dray gives percentage figures for reversal
+    of photodamage at 52 weeks with a topical retinoid, and for improvement from SPF
+    alone, without naming any study. The underlying literature does exist, notably
+    the Kligman and Weiss tretinoin photoaging trials and the Hughes 2013 Annals sunscreen
+    RCT. Find the real numbers and timelines, record what was measured and over what
+    period, and state plainly where they do and do not support figures of that size
