@@ -6082,22 +6082,39 @@ perioral-dermatitis-treatments-by-evidence:
   verdict: publish
 periorbital-wrinkles:
   assurance: sonnet
-  notes: 'Short routing hub for a term three device pages already turn on. CURATORIAL ONLY: no filing was
-    re-fetched, every fact comes from pages that already quote their sources, and all 3 quoted strings were
-    checked against [[home-fractional-nonablative-laser]] with 0 unmatched. THE USEFUL CONTENT IS A ONE-LETTER
-    DISTINCTION: periorbital is around the eye, perioral is around the mouth, and both appear in home-device
-    clearances on this site, so reading one for the other turns a lip device into an eye device. The page
-    also records that within one product family the cleared region WIDENED, K101382 periorbital to K141181
-    full-face. FIXED BEFORE PUBLISH: the first draft''s footnote contained the string "The FANp is an
-    over-the-c", which was a grep truncation from my own terminal output presented as if it were a quotation.
-    It is replaced by the full indication, verified, plus the real K number and pdf URL rather than a generic
-    database link. NO TIER LIST AND THE PAGE SAYS WHY: ranking eye-area treatments needs evidence gathered on
-    the eye area, and most of what exists for these ingredients was measured face-wide and applied here by
-    assumption. The Evidence section was added only after lint asked for it and says plainly that there is no
-    body of evidence specific to this page. Scope kept off [[dark-circles]] per the queue row. Main loop, no
-    subagent, hence sonnet.'
-  reviewed: '2026-11-12'
-  reviewer: main-loop self-verification
+  notes: 'CONDITION tick 2026-11-19, and the real outcome is a DUPLICATE SLUG CAUGHT BEFORE
+    IT SHIPPED. The condition queue head asked for a periorbital wrinkles hub; a page already
+    existed at data/goals/ under the same slug, and queue-reconcile had not closed the row because
+    the row is type condition while the page is type goal, so reconcile looked in the wrong
+    directory. I wrote a full conditions page with a tier_list before noticing. Two things that
+    would have gone wrong: two files with one slug collide at build, and my tier_list would
+    have OVERRIDDEN a considered editorial decision, since the existing page explicitly declines
+    to rank eye-area treatments on the stated ground that most of the evidence was measured
+    on the face generally and applied to the eye area by assumption. That reasoning is better
+    than mine and I deferred to it. The duplicate file was deleted (untracked, nothing lost).
+    What my work genuinely added is one line: the Perfectio, cleared for periorbital and nothing
+    wider at $1,499 with its own file stating clinical data was not included, which is this
+    page''s existing thesis in a single device and postdates the page. Also noted: sk publish
+    takes a SLUG not a path, so my publish landed on the goals page and bumped its dates without
+    changing content; that bump is now honest because the page did change. The reconcile gap
+    is queued. PRIOR REVIEW 2026-11-12 (verdict publish): Short routing hub for a term three
+    device pages already turn on. CURATORIAL ONLY: no filing was re-fetched, every fact comes
+    from pages that already quote their sources, and all 3 quoted strings were checked against
+    [[home-fractional-nonablative-laser]] with 0 unmatched. THE USEFUL CONTENT IS A ONE-LETTER
+    DISTINCTION: periorbital is around the eye, perioral is around the mouth, and both appear
+    in home-device clearances on this site, so reading one for the other turns a lip device
+    into an eye device. The page also records that within one product family the cleared region
+    WIDENED, K101382 periorbital to K141181 full-face. FIXED BEFORE PUBLISH: the first draft''s
+    footnote contained the string "The FANp is an over-the-c", which was a grep truncation from
+    my own terminal output presented as if it were a quotation. It is replaced by the full indication,
+    verified, plus the real K number and pdf URL rather than a generic database link. NO TIER
+    LIST AND THE PAGE SAYS WHY: ranking eye-area treatments needs evidence gathered on the eye
+    area, and most of what exists for these ingredients was measured face-wide and applied here
+    by assumption. The Evidence section was added only after lint asked for it and says plainly
+    that there is no body of evidence specific to this page. Scope kept off [[dark-circles]]
+    per the queue row. Main loop, no subagent, hence sonnet.'
+  reviewed: '2026-11-19'
+  reviewer: main-loop
   verdict: publish
 perry-romanowski:
   last_reviewed: '2026-08-05'

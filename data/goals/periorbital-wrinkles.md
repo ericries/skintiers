@@ -5,13 +5,13 @@ aliases:
 - crows feet
 - lines around the eyes
 - eye wrinkles
-analyzed: '2026-11-12'
+analyzed: '2026-11-19'
 assurance: sonnet
 name: Periorbital Wrinkles (Crow's Feet)
 slug: periorbital-wrinkles
 status: published
 type: goal
-updated: '2026-11-12'
+updated: '2026-11-19'
 ---
 
 Lines around the eyes, and a regulatory term worth knowing because several home devices are cleared for this area and nothing else. **Bottom line:** periorbital means around the eye, and when a device's FDA indication names it, that indication does not cover the rest of your face. Under-eye darkness and puffiness are a different target, covered at [[dark-circles]].
@@ -22,7 +22,7 @@ Lines around the eyes, and a regulatory term worth knowing because several home 
 
 The clearest statement of the target comes from the only consumer fractional laser whose file this site has read, the Tria FANp: "The FANp is an over-the-counter device indicated for the treatment of periorbital wrinkles (crow's feet)."[^fanp] That parenthesis is the whole definition. That device is [[tria-fanp-age-defying-laser]] and the modality is at [[home-fractional-nonablative-laser]], which also notes that an infrared laser used near the eye carries real risk and that eye protection matters more here than for any topical.
 
-**The eye area is where several device clearances stop.** [[dpl-nuve]] (K101382) is cleared for periorbital wrinkles rather than facial ones. Its successor [[dpl-nuve-for-wrinkles]] (K141181) widened to full-face, so within one product family the cleared region grew. At the other end of the face, [[revive-light-therapy-lux-lip-care]] covers a perioral clearance, and the perioral region turns up again in the circulation half of the [[nuface-trinity-plus-wrinkle-reducer]] indication. Each of those pages carries the filing and the quotations; none of it is restated here.
+**The eye area is where several device clearances stop.** [[dpl-nuve]] (K101382) is cleared for periorbital wrinkles rather than facial ones. Its successor [[dpl-nuve-for-wrinkles]] (K141181) widened to full-face, so within one product family the cleared region grew. A sharper case arrived since: [[perfectio-led-infrared-device]] is cleared for periorbital wrinkles and nothing wider, sells for $1,499, and its own 510(k) states that clinical data was not included in the submission, which is this page's point in a single device. At the other end of the face, [[revive-light-therapy-lux-lip-care]] covers a perioral clearance, and the perioral region turns up again in the circulation half of the [[nuface-trinity-plus-wrinkle-reducer]] indication. Each of those pages carries the filing and the quotations; none of it is restated here.
 
 ## What gets used here
 

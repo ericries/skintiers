@@ -1273,7 +1273,7 @@
 - name: Periorbital wrinkles (crow's feet)
   type: condition
   priority: 3
-  status: pending
+  status: done
   discovered_from: perfectio-led-infrared-device
   source: The exact cleared indication for the Perfectio and its predicate, and a
     named anatomical indication under product code OHS, yet the site has no hub for

@@ -1163,3 +1163,13 @@
     and hydroperoxides of limonene and linalool queued) without anywhere explaining
     the labelling rule that makes them visible. Source it from the EU Cosmetics Regulation
     Annex III directly, not from blog summaries
+- name: 'Eye creams: whether the category is justified'
+  type: goal
+  priority: 4
+  status: pending
+  discovered_from: periorbital-wrinkles
+  source: Grounded in this hub. The site now grades five items for the eye area and
+    carries several dedicated eye products, without anywhere addressing the standing
+    question of whether eye-specific formulation is justified or whether a facial
+    moisturiser and retinoid do the same job. Depends on the eyelid-thickness study
+    queued alongside this; do not write it until that is resolved either way

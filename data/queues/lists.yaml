@@ -1737,3 +1737,19 @@
     claims testable, let a lint rule catch a page asserting alphabetical order over
     a list that is not, and is the precondition for the queued alphabetical-ordering
     list. One real error has already been found by hand this way'
+- name: Make queue-reconcile match a page by slug across ALL types, not just the row's
+    own type
+  type: list
+  priority: 2
+  status: pending
+  discovered_from: periorbital-wrinkles
+  source: 'TOOLING BUG, found the hard way 2026-11-19. The condition queue held a
+    pending row for Periorbital wrinkles while data/goals/periorbital-wrinkles.md
+    already existed. queue-reconcile did not close it because the row is type condition
+    and it apparently only looks under the row''s own type directory. Consequence:
+    a tick takes the row, writes a full page, and creates a DUPLICATE SLUG, which
+    collides at build since both render to the same filename. I caught this one only
+    because the review-log already had an entry for the slug. FIX: reconcile should
+    resolve by slug across every data/ subdirectory and close the row naming the page
+    and its type. A lint rule for duplicate slugs across types would catch the same
+    class at build time and is probably the cheaper guard'
