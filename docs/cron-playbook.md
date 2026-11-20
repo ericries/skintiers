@@ -161,3 +161,40 @@ One-line summary. (What's New is auto-derived from each page's `updated` date - 
 
 Record every publish in `data/review-log.yaml`, which is a slug-KEYED MAPPING
 (not a list). Validate it with `yaml.safe_load` after editing.
+
+## A CI RED that is not your fault: the Pages artifact metadata race
+
+Seen 2026-11-20, run 44771306633. The job reported FAILURE with
+`No artifacts named "github-pages" were found for this workflow run`, which reads
+like a build failure and is not one. Before touching anything, read the log:
+
+- `411 passed` — the suite was green
+- `built 1277 profiles -> _site` — the build succeeded
+- `Artifact github-pages has been successfully uploaded! Final size is 30360713 bytes`
+  — the artifact uploaded and finalized, outcome=success
+
+Then, **0.4 seconds later**, `deploy-pages@v4` queried the artifact metadata API and
+printed `Found 0 artifact(s)`. Confirm with
+`gh api repos/ericries/skintiers/actions/runs/<id>/artifacts`: the artifact is there,
+correctly named, not expired. It is GitHub's artifact metadata being eventually
+consistent, and `deploy-pages` does not retry a zero result; it fails on the first
+fetch. The `error_count: 10` in its config is unrelated to this and buys nothing.
+
+**ROOT CAUSE:** `.github/workflows` runs build and deploy as ONE job, so
+`deploy-pages` fires immediately after `upload-pages-artifact` with no gap for the API
+to propagate. Four of five runs that day were green, so it is intermittent, not
+constant.
+
+**WHAT TO DO:** nothing, usually. Check `gh run list` first — if a later commit has
+already triggered a new run, that run deploys the same content and supersedes the
+failure, so do NOT re-run and do NOT start editing the pipeline. Only when the failed
+run is still the newest does the deploy need re-triggering, and then it must be
+`workflow_dispatch` from the Actions tab, NOT `gh run rerun --failed`: the single-job
+layout re-uploads the artifact and the deploy then aborts with "Multiple artifacts
+named github-pages were unexpectedly found" (already noted in the workflow file).
+
+**THE REAL FIX IS A JUDGMENT CALL, SO IT IS FLAGGED, NOT MADE.** Splitting build and
+deploy into two jobs is GitHub's canonical layout and would close the race (job
+scheduling latency gives the API time) AND remove the rerun limitation above. It is
+not done here because it is the deploy pipeline, it cannot be tested locally, and a
+mistake stops the site deploying entirely. That is the user's call.
