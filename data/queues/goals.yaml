@@ -1099,7 +1099,7 @@
     it is citeable'
   type: goal
   priority: 3
-  status: pending
+  status: done
   discovered_from: ingredient-evidence-by-who-ran-the-only-trial
   source: 'Grounded in the four cases on this list. spotting-a-fabricated-clinical-claim
     covers outright fabrication; this is the much commoner case where the study is
@@ -1173,3 +1173,27 @@
     question of whether eye-specific formulation is justified or whether a facial
     moisturiser and retinoid do the same job. Depends on the eyelid-thickness study
     queued alongside this; do not write it until that is resolved either way
+- name: 'Split-face and split-body study designs: why treating one side is strong
+    evidence'
+  type: goal
+  priority: 4
+  status: pending
+  discovered_from: reading-a-brands-clinical-claim
+  source: Grounded in two pages shipped this week. strataderm-silicone-scar-gel used
+    a split-scalp design and queille-roussel-2026-dermocosmetic-acne-split-face-rct
+    is a split-face RCT, so the site cites the design twice without explaining why
+    letting a patient serve as their own control removes most confounders at small
+    sample sizes. The clinical-claim method page names it in one clause and should
+    link out instead. Keep it short and concrete
+- name: 'Clinically proven, dermatologist tested, non-comedogenic: the marketing phrases
+    with no agreed definition'
+  type: goal
+  priority: 3
+  status: pending
+  discovered_from: reading-a-brands-clinical-claim
+  source: The phrase-level companion to label-words-alcohol-free-fragrance-free-hypoallergenic,
+    which covers single words with FDA positions. These three are claims ABOUT testing
+    rather than about contents, and none has an agreed definition. Non-comedogenic
+    in particular has a measurable-sounding history (the rabbit ear assay) that is
+    worth checking against what is actually required now. Source from FDA and FTC
+    guidance, not brand copy

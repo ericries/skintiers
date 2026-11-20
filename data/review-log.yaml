@@ -10822,3 +10822,25 @@ geraniol:
   reviewed: '2026-11-19'
   reviewer: main-loop
   verdict: publish
+reading-a-brands-clinical-claim:
+  assurance: sonnet
+  notes: 'Method page, curatorial over material this site had already verified. It
+    introduces NO new primary source by design and the footnote says so; the single
+    quoted string was machine-checked against the page it is reproduced from. The page
+    exists because spotting-a-fabricated-clinical-claim covers invented studies while
+    the commoner failure is a real study with no control arm, and nothing addressed
+    that. Three checks, each needing no scientific expertise: is there a control arm,
+    who employed the authors, can you find the study at all. Each is illustrated from a
+    case researched here the hard way rather than invented to fit, which the Evidence
+    section states as the honest test of whether the checks are worth anything. Two
+    deliberate fairnesses, both carried over from the list this page extends: industry
+    funding is NOT treated as disqualifying, since the realistic alternative to a
+    company study is usually no study, and the Strataderm trial is held up as the good
+    version where a manufacturer paid only the open-access fee. And the page states
+    plainly what the checks cannot do, that they sort claims by assessability rather
+    than by whether a product works, with Hughes 2013 as a study that passes all three
+    and still supports only a narrow conclusion. The converse is stated too: an
+    ingredient with no good study is unproven, not useless.'
+  reviewed: '2026-11-19'
+  reviewer: main-loop
+  verdict: publish
