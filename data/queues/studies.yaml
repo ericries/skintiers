@@ -2493,3 +2493,15 @@
     quantify eyelid versus cheek or forehead dermal thickness, and if they do, record
     the numbers. If the belief turns out to be poorly supported that is MORE interesting,
     since it underpins the whole eye-cream category
+- name: 'Hagvall 2020: purified vs oxidized citronellol in 658 patch-tested patients
+    (PMID 32638395)'
+  type: study
+  priority: 4
+  status: pending
+  discovered_from: citronellol
+  source: 'The single source behind the citronellol page, already fetched and read
+    in full. Record the design point that makes it trustworthy: the SAME patients
+    met both the purified and oxidised forms, with an irritancy pretest so irritant
+    reactions were not counted as allergic. Primary result 0.15-0.31% purified vs
+    0.61-4.5% oxidised, and the conclusion that fragrance mix II does not catch every
+    case'

@@ -4079,7 +4079,7 @@
 - name: Citronellol
   type: ingredient
   priority: 3
-  status: pending
+  status: done
   discovered_from: thayers-rose-petal-facial-toner
   source: https://www.thayers.com/shop-all/toners/rose-petal-facial-toner/12-oz
 - name: Rosa Damascena Flower Water (rose water)
@@ -4646,3 +4646,22 @@
     itself, which is an unusual position for an ingredient the brand does not mention
     in its copy at all. Better known in toothpaste than skincare. Worth a page precisely
     because its prominence is unexplained by the marketing
+- name: Oxidised linalool
+  type: ingredient
+  priority: 3
+  status: pending
+  discovered_from: citronellol
+  source: Named in Hagvall 2020 (PMID 32638395) as co-reacting in 75-91% of patients
+    who react to oxidised citronellol, the strongest fragrance-allergen pairing recorded
+    on this site. No page here despite being one of the three oxidised terpenes the
+    citronellol and geraniol pages both point at. Same source already read; the oxidation
+    framing is established on both existing pages
+- name: Oxidised limonene
+  type: ingredient
+  priority: 3
+  status: pending
+  discovered_from: citronellol
+  source: The third of the oxidised-terpene trio, co-reacting in the same 75-91% band
+    in Hagvall 2020 (PMID 32638395). Completes the set that geraniol and citronellol
+    both route to; both existing pages currently link to a limonene page that does
+    not exist
