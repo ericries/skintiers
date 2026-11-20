@@ -5861,7 +5861,22 @@
     Wrinkle System at 0.63, plausible since Sonique suggests ultrasonic but not certain),
     and sciton-zoomscan (nothing above 0.23; ZoomScan is a handpiece and is probably
     cleared inside a system clearance rather than on its own). Finishing these needs
-    the actual 510k summaries read, not name matching.'
+    the actual 510k summaries read, not name matching. TWO MORE RESOLVED 2026-11-20,
+    both as NOT APPLICABLE rather than by adding anything. (1) nuface-fix-serum-activator:
+    its own page already establishes that openFDA returns no clearance naming a NuFACE
+    serum, and its only candidate K161654 is the NuFACE Gel Primer, which ALREADY
+    claims that number as an alias on its own page. So this page has no own K number
+    to claim and should be excluded from the sweep, not left pending. (2) revive-light-therapy-lux-sonique:
+    its three candidates K180445, K180447 and K221430 all return the device name reVive
+    Light Therapy LED Cleansing System, and revive-light-therapy-led-cleansing-system
+    ALREADY claims all three. I pulled the K180445 PDF and the string Sonique appears
+    ZERO times in it, so that clearance does not cover this product. No own K number
+    identifiable. PATTERN WORTH KNOWING for the remaining four (lux-clinical, lux-lip-care,
+    lux-spot, sciton-zoomscan): these pages cite K numbers that belong to OTHER devices
+    from the same maker, which is why name-matching keeps returning a different product.
+    The right question for each is not which of these is mine but whether this product
+    has any clearance of its own at all, and the honest answer may be no. Exclude
+    rather than force a match.'
 - name: EndyMed PRO with Intensif RF microneedling handpiece
   type: product
   priority: 5
