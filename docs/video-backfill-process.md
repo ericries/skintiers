@@ -194,6 +194,18 @@ the popularity floor and both match existing pages:
   `product_recs: restricted`, so the higher-viewed Teen and Tween Routines video
   from the same slice (138,515) is NOT eligible and should not be substituted.
 
+From Dr Dray's slice 58-72, title-matched and UNRANKED because single-video metadata
+was already blocked when this slice was worked (see the escalation note above). None
+has been checked against the 30k floor:
+
+- `MYiOWPf354A` Azelaic Acid + Tretinoin: Can You Use Them Together?, matches
+  [[azelaic-acid]] and [[tretinoin]]. The strongest single-topic match in the slice.
+- `EbC6oTVlkAM` Does Salicylic Acid Cause Purging?, matches [[salicylic-acid]].
+- `NEhoD-6m4BY` Does Your Skin Get Used to Retinol?, matches [[retinoids]].
+
+Her roster is `product_recs: restricted`, so the empties, Sam's Club and Dollar Tree
+shopping videos in the same slice are not eligible regardless of how they rank.
+
 **Bound it.** If a cursor has been held for more than about a week, stop holding
 silently: the blockage is no longer a transient throttle and the right move is to
 say so in the tick summary rather than keep deferring. A permanently stalled walk
@@ -216,6 +228,26 @@ And anyone debugging this should look at the caption request path specifically
 rather than at rate limiting in general, because the general case is demonstrably
 fine. TikTok subtitles also fetched normally on 2026-11-16 with no cookies at
 all, which narrows it further to YouTube's caption endpoint.
+
+### ESCALATION: single-video metadata is now blocked too (2026-11-20)
+
+This supersedes the 2026-11-16 note below, which said metadata works normally while
+only `timedtext` refuses. That was true then and is not true now. Measured today:
+
+    yt-dlp --flat-playlist --print "%(id)s\t%(title)s" <channel>   -> WORKS
+    yt-dlp --flat-playlist --print "%(view_count)s"                 -> NA (not in flat mode)
+    yt-dlp --print "%(view_count)s" <single video url>              -> "Sign in to confirm you're not a bot"
+    yt_transcript.py <id>                                           -> HTTP 429
+
+So the block has moved up a level. Channel listings still work, which means STEP 2
+still works. But STEP 2b, the popularity ranking, calls single-video metadata and is
+now blocked as well, not just STEP 3a.
+
+Practical consequence for this cron: a tick can still list a slice and title-match
+candidates against existing pages, but it CANNOT rank them by view count. Record the
+title-matched candidates without view figures rather than pretending to a ranking,
+and say in the summary that ranking was unavailable. Do not treat an unranked
+candidate as having passed the 30k floor; it has not been checked against it.
 
 ### Successes are per-request, not a window (2026-11-17)
 
