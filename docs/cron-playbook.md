@@ -198,3 +198,12 @@ deploy into two jobs is GitHub's canonical layout and would close the race (job
 scheduling latency gives the API time) AND remove the rerun limitation above. It is
 not done here because it is the deploy pipeline, it cannot be tested locally, and a
 mistake stops the site deploying entirely. That is the user's call.
+
+**A wrinkle on "a newer run supersedes it", learned immediately after writing it.**
+The workflow sets `concurrency: group: pages, cancel-in-progress: true`, so every push
+CANCELS the run still in flight. Run 44785857007 was cancelled by the very commit that
+documented the race above. That is harmless, because the newest run deploys the whole
+tree rather than one commit, but it means a burst of commits keeps pushing the actual
+deploy back until the last one lands, and the site stays stale for the whole burst.
+A `cancelled` conclusion is therefore NOT a failure and needs no investigation: check
+whether a newer run exists before reading any log. Confirmed green on 44786290235.
