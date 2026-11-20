@@ -4635,3 +4635,12 @@
     A salmon-DNA-derived ingredient carrying heavy K-beauty marketing. The site has
     no page, so no product page citing it has anywhere to attach its evidence. Check
     PubMed for TOPICAL human data specifically, since most PDRN literature is injectable
+- name: Hydroxyapatite (topical)
+  type: ingredient
+  priority: 4
+  status: pending
+  discovered_from: prequel-retinal-renew
+  source: Sixth of thirty-four in the Prequel Retinal Renew INCI, ahead of the retinaldehyde
+    itself, which is an unusual position for an ingredient the brand does not mention
+    in its copy at all. Better known in toothpaste than skincare. Worth a page precisely
+    because its prominence is unexplained by the marketing

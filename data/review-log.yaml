@@ -10844,3 +10844,26 @@ reading-a-brands-clinical-claim:
   reviewed: '2026-11-19'
   reviewer: main-loop
   verdict: publish
+prequel-retinal-renew:
+  assurance: sonnet
+  notes: 'Built from the brand''s cached products.json export plus a live fetch of the
+    product page for the INCI, both cached; every brand-copy quote machine-checked
+    verbatim. The four unmatched strings are exactly the ones transcribed from the
+    product PHOTOGRAPH, and the tube footnote carries a PROVENANCE note saying they
+    will not be found by a text search of the cached page. The finding worth having:
+    Retinal is SEVENTH of thirty-four and a programmatic ascending-run scan found no
+    alphabetical tail, only one four-item sequence at 25 to 28 that is short enough to
+    be coincidental. So the list appears concentration-ordered throughout and position
+    seven is consistent with the declared 0.1%, which is the opposite of the
+    nuface-super-peptide-booster-serum case where a twenty-six-item alphabetical run
+    made every position below six meaningless. The page states explicitly that this is
+    a fact about the LABEL and not a measurement, and that the inherited grade assumes
+    the tube contains what the label says, which nothing here has verified. Grade
+    inherited from retinaldehyde (good) rather than invented, and the page says so.
+    Hydroxysomes is graded unknown with no evidence: it is a trademarked delivery name
+    and a delivery claim is not an efficacy claim. Highly stabilized is flagged as the
+    claim most worth evidence, since stability is the real engineering problem with
+    this molecule, and none is offered.'
+  reviewed: '2026-11-20'
+  reviewer: main-loop
+  verdict: publish

@@ -5933,7 +5933,7 @@
 - name: Prequel Retinal Renew
   type: product
   priority: 4
-  status: pending
+  status: done
   discovered_from: prequel-multi-acid-milk-peel
   source: 'FROM A CATALOGUE SURVEY RUN 2026-11-07, not a guess: the Prequel products.json
     endpoint returns 63 products, 41 of them single items rather than sets, and 35
