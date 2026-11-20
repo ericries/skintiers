@@ -18965,4 +18965,5 @@
   posted: '2026-11-19'
   duration: 79
   feed_rank: 1
-  status: pending
+  status: skipped
+  skip_reason: 'Transcript and caption both clean, but the card restates existing ones: acne already carries an Ella card reading ''Base Routine + Azelaic Acid + Retinoid your skin can tolerate = managed acne'', which is this clip''s exact three elements, plus ''You don''t need ALL the things'' and ''What to do during an active acne breakout'''

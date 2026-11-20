@@ -1291,3 +1291,17 @@
     Check whether the site already covers it under another name before drafting; if
     not, it is the condition several silicone and pressure pages implicitly treat
     without a hub
+- name: 'Rebalance the acne hub''s video cards: 10 of 35 are from one licensed esthetician'
+  type: condition
+  priority: 3
+  status: pending
+  discovered_from: acne
+  source: 'Surfaced 2026-11-20 by sk add-video''s own concentration warning, which
+    is working as intended. data/conditions/acne.md carries 35 cards; 10 are Ella
+    (your-estie-ella), a MED-tier licensed esthetician, against 3 Sam Bunting, 3 Scott
+    Walter and 2 Dr Dray, all dermatologists. Several Ella cards also restate each
+    other: ''Base Routine + Azelaic Acid + Retinoid'', ''You don''t need ALL the things'',
+    ''Consistency really is that important'' and ''Perfect skincare routine does not
+    equal perfect skin'' are close variants of one message. TASK: read the 10, keep
+    the 2 or 3 that say distinct things, drop the rest. Removing published cards is
+    a judgment call, so propose the cut and leave it for the user rather than acting'

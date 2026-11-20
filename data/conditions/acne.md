@@ -166,9 +166,9 @@ videos:
     acne responds to consistency rather than intensity.'
   title: How to Fix Adult Acne Without Drying Out Your Skin (30s, 40s, Beyond)
   url: https://www.youtube.com/watch?v=dyzK718tnNI
-- creator: 'Dr. Adeline Kikam (Brown Skin Derm)'
+- creator: Dr. Adeline Kikam (Brown Skin Derm)
   creator_slug: adeline-kikam
-  credential: 'Board-certified dermatologist'
+  credential: Board-certified dermatologist
   duration: 770
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
   platform: YouTube
@@ -186,9 +186,9 @@ videos:
   title: Body Acne Treatment | Get rid of Body Acne | Derm Guide for Body Acne and
     blemishes
   url: https://www.youtube.com/watch?v=Efdvq8ptkmA
-- creator: 'Dr. Usama Syed'
+- creator: Dr. Usama Syed
   creator_slug: usama-syed
-  credential: 'Board-certified dermatologist'
+  credential: Board-certified dermatologist
   duration: 934
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
   platform: YouTube
@@ -209,9 +209,9 @@ videos:
     and isotretinoin (Accutane) for more severe cases.
   title: 99% Overlook These Effective Acne Treatments – 2025 Guide
   url: https://www.youtube.com/watch?v=y5d_iIgH3Pc
-- creator: 'Dr. Lindsey Zubritsky (DermGuru)'
+- creator: Dr. Lindsey Zubritsky (DermGuru)
   creator_slug: lindsey-zubritsky
-  credential: 'Board-certified dermatologist'
+  credential: Board-certified dermatologist
   duration: 54
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
   platform: YouTube
@@ -229,9 +229,9 @@ videos:
     scrubbing acne-prone skin.
   title: 3 Ways To Fix Bacne — From A Derm
   url: https://www.youtube.com/watch?v=OMwRjoDwJ5M
-- creator: 'Dr. Angelo Landriscina (DermAngelo)'
+- creator: Dr. Angelo Landriscina (DermAngelo)
   creator_slug: angelo-landriscina
-  credential: 'Board-certified dermatologist'
+  credential: Board-certified dermatologist
   duration: 359
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
   platform: YouTube
@@ -246,9 +246,9 @@ videos:
     selenium and acne does not establish selenium as a therapeutic target.
   title: Will Brazil nuts cure your acne?
   url: https://www.youtube.com/watch?v=trlgLsWAYsY
-- creator: 'Dr Emma Wedgeworth'
+- creator: Dr Emma Wedgeworth
   creator_slug: emma-wedgeworth
-  credential: 'Consultant dermatologist'
+  credential: Consultant dermatologist
   note: Verified from the video's TikTok transcript (yt-dlp captions, read in full);
     no sponsorship.
   platform: TikTok
@@ -264,9 +264,9 @@ videos:
     She reassures viewers that both forms are entirely treatable.
   title: Adult vs Teen acne
   url: https://www.tiktok.com/@dremwedgeworth/video/7497344010160295190
-- creator: 'Dr. Sheila Farhang (dr.sheila_derm)'
+- creator: Dr. Sheila Farhang (dr.sheila_derm)
   creator_slug: sheila-farhang
-  credential: 'Board-certified dermatologist'
+  credential: Board-certified dermatologist
   note: Verified from the video's TikTok transcript (yt-dlp captions, read in full);
     no sponsorship.
   platform: TikTok
@@ -289,9 +289,9 @@ videos:
     the prescription topical Winlevi, or spironolactone alongside topicals.'
   title: How to treat each of the 4 types of acne
   url: https://www.tiktok.com/@dr.sheila_derm/video/7667388983848078623
-- creator: 'Dr. Onyeka Obioha-Lolagne, MD, FAAD (Dr. Onyeka Obioha)'
+- creator: Dr. Onyeka Obioha-Lolagne, MD, FAAD (Dr. Onyeka Obioha)
   creator_slug: onyeka-obioha-lolagne
-  credential: 'Dermatologist'
+  credential: Dermatologist
   duration: 32
   note: Verified from the video's TikTok transcript (yt-dlp captions, read in full);
     no sponsorship.
@@ -306,9 +306,9 @@ videos:
     a general label-reading tip for anyone managing acne-prone skin.
   title: 3 common skincare ingredients that cause acne
   url: https://www.tiktok.com/@dr.obioha/video/7339236743608274222
-- creator: 'Dr. Heather Woolery-Lloyd (drheathermd)'
+- creator: Dr. Heather Woolery-Lloyd (drheathermd)
   creator_slug: heather-woolerylloyd
-  credential: 'Board-certified dermatologist'
+  credential: Board-certified dermatologist
   note: Verified from the video's TikTok transcript (yt-dlp captions, read in full);
     no sponsorship.
   platform: TikTok
@@ -828,27 +828,59 @@ videos:
     no products, and the warning not to overdo it is hers.
   title: Dermatologists who say they never pop pimples are lying
   url: https://www.tiktok.com/@draegeanchan/video/7696654170119572749
-- title: You don't need ALL the things, you need simplicity and time
-  creator: Ella
+- creator: Ella
   creator_slug: your-estie-ella
   credential: Licensed esthetician (NOT a dermatologist or cosmetic chemist)
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
   platform: TikTok
-  url: https://www.tiktok.com/@your.estie.ella/video/7706561166939655438
   posted: '2026-11-10'
-  related: [azelaic-acid, adapalene, retinoids, salicylic-acid, glycolic-acid, lactic-acid, mandelic-acid, hyperpigmentation, sunscreen-uv-filters, skin-barrier-repair]
-  thesis: Licensed esthetician Ella argues that most people treating acne add too many actives too early, and that the fix is to regulate the skin first and fine tune later. Her starting routine is azelaic acid plus a retinoid such as adapalene, alongside a gentle cleanser, a moisturiser and daily broad spectrum sunscreen, held unchanged for three to six months through the adjustment phase. Only after that does she add a single exfoliant chosen by concern rather than skin type, naming glycolic acid for pigmentation, lactic acid for texture, mandelic acid for persistent acne with redness and salicylic acid for oil and the appearance of pores. Her framing is that retinoids and azelaic acid are skin regulators rather than exfoliants, that barrier support matters more than exfoliation, and that acne is manageable rather than curable.
-  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
-- title: Perfect skincare routine does not equal perfect skin
-  creator: Ella
+  related:
+  - azelaic-acid
+  - adapalene
+  - retinoids
+  - salicylic-acid
+  - glycolic-acid
+  - lactic-acid
+  - mandelic-acid
+  - hyperpigmentation
+  - sunscreen-uv-filters
+  - skin-barrier-repair
+  thesis: Licensed esthetician Ella argues that most people treating acne add too
+    many actives too early, and that the fix is to regulate the skin first and fine
+    tune later. Her starting routine is azelaic acid plus a retinoid such as adapalene,
+    alongside a gentle cleanser, a moisturiser and daily broad spectrum sunscreen,
+    held unchanged for three to six months through the adjustment phase. Only after
+    that does she add a single exfoliant chosen by concern rather than skin type,
+    naming glycolic acid for pigmentation, lactic acid for texture, mandelic acid
+    for persistent acne with redness and salicylic acid for oil and the appearance
+    of pores. Her framing is that retinoids and azelaic acid are skin regulators rather
+    than exfoliants, that barrier support matters more than exfoliation, and that
+    acne is manageable rather than curable.
+  title: You don't need ALL the things, you need simplicity and time
+  url: https://www.tiktok.com/@your.estie.ella/video/7706561166939655438
+- creator: Ella
   creator_slug: your-estie-ella
   credential: Licensed esthetician (NOT a dermatologist or cosmetic chemist)
-  platform: TikTok
-  url: https://www.tiktok.com/@your.estie.ella/video/7700234122601516302
-  posted: '2026-10-24'
-  related: [acne-scars, salicylic-acid, benzoyl-peroxide, sulfur, hormonal-acne]
-  thesis: Licensed esthetician Ella makes the case that a single pimple is not evidence that an acne routine has failed, and that the common response of scrapping everything and starting again is the mistake. Her framing is that acne is manageable rather than curable, that treatment works by disrupting the process by which acne forms rather than preventing it absolutely, and that some breakthroughs are expected even when the routine is right. Her advice for one that gets through is to keep the routine calm, use a spot treatment such as sulphur, salicylic acid or benzoyl peroxide, and to treat rather than pick it, on the grounds that a pimple is a wound and picking it risks scarring.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
-
+  platform: TikTok
+  posted: '2026-10-24'
+  related:
+  - acne-scars
+  - salicylic-acid
+  - benzoyl-peroxide
+  - sulfur
+  - hormonal-acne
+  thesis: Licensed esthetician Ella makes the case that a single pimple is not evidence
+    that an acne routine has failed, and that the common response of scrapping everything
+    and starting again is the mistake. Her framing is that acne is manageable rather
+    than curable, that treatment works by disrupting the process by which acne forms
+    rather than preventing it absolutely, and that some breakthroughs are expected
+    even when the routine is right. Her advice for one that gets through is to keep
+    the routine calm, use a spot treatment such as sulphur, salicylic acid or benzoyl
+    peroxide, and to treat rather than pick it, on the grounds that a pimple is a
+    wound and picking it risks scarring.
+  title: Perfect skincare routine does not equal perfect skin
+  url: https://www.tiktok.com/@your.estie.ella/video/7700234122601516302
 ---
 
 Acne is the most common skin condition dermatologists treat: dead skin cells and oil clog a pore, bacteria (*Cutibacterium acnes*) multiply inside it, and the follicle becomes inflamed. Graded skeptically against controlled evidence for **topical skincare** (creams and gels applied to the skin, as opposed to pills), the best-studied over-the-counter and prescription topicals produce **modest** lesion reductions, the gap between the "best" and "second-best" topical is often smaller than the marketing implies, and the single largest evidence base for these treatments is rated moderate to very low certainty.[^1][^2]
