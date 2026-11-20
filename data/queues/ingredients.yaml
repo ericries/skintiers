@@ -4665,3 +4665,13 @@
     in Hagvall 2020 (PMID 32638395). Completes the set that geraniol and citronellol
     both route to; both existing pages currently link to a limonene page that does
     not exist
+- name: Bisabolol
+  type: ingredient
+  priority: 3
+  status: pending
+  discovered_from: prequel-scar-solutions-stick
+  source: Thirteenth of twenty-two in the Prequel Scar Solutions Stick INCI and named
+    in the brand's own active list, but no page here. The chamomile-derived anti-irritant
+    appears across soothing and post-procedure formulas; the citronellol and geraniol
+    pages make it the only named active in this product with no evidence page to route
+    to

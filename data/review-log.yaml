@@ -10913,3 +10913,27 @@ citronellol:
   reviewed: '2026-11-20'
   reviewer: main-loop
   verdict: publish
+prequel-scar-solutions-stick:
+  assurance: sonnet
+  notes: 'Built from the cached products.json export plus a live fetch of the product
+    page for the INCI, both cached; every brand-copy quote machine-checked verbatim,
+    zero mismatches. The thesis is a FORMAT gap, which is the honest reading and the
+    one the inherited grade depends on: silicone earns mid from gel and sheeting
+    trials where the material forms and holds a continuous occlusive film, and this is
+    a wax stick you rub on. The page says the inheritance is NOT clean and names the
+    experiment that would settle it, whether the stick leaves a continuous film after
+    normal use, which is measurable and apparently unpublished. Dimethicone IS first of
+    twenty-two, which is the right shape for the claim and is credited. The 60 percent
+    silicone figure is labelled the brand''s own and explicitly not verified; position
+    is stated as not being a concentration measurement. The three named supporting
+    actives are graded weak individually here, so the page says three weak ingredients
+    do not combine into a strong one. Checked the brand''s own arithmetic rather than
+    repeating it: 18 g is 3.16x 5.7 g and 2.67 against 3.16 per gram is a 15.6 percent
+    saving, so both over 3x and save 15 percent are accurate. Noted that the claims are
+    appearance claims throughout, the correct cosmetic register, and that massage is an
+    unmeasured confounder the applicator design actively encourages. The brand
+    misspells Rosmarinus as Rosminarinus; reproduced only so the list matches source,
+    with a note.'
+  reviewed: '2026-11-20'
+  reviewer: main-loop
+  verdict: publish
