@@ -29,6 +29,10 @@ Several Prequel products carry the National Rosacea Society's Seal of Acceptance
 - [[prequel-redness-reform-sulfur-cleanser]]: a cleanser Prequel lists among its Seal-holding products for rosacea-prone skin.
 - [[prequel-redness-reform-serum]]: a serum Prequel lists among its Seal-holding products for rosacea-prone skin.
 - [[prequel-am-pm-modern-moisturizer]]: a moisturizer Prequel lists among its Seal-holding products for rosacea-prone skin.
+- [[prequel-retinal-renew]]: a retinaldehyde gel sold in two stated strengths, 0.1 percent and 0.2 percent.
+- [[prequel-scar-solutions-stick]]: a silicone scar stick, in a format the silicone scar evidence was not built on.
+- [[prequel-urea-repair-10-moisturizing-milk]]
+- [[prequel-skin-utility-ointment]]
 - [[prequel-universal-skin-solution]]: a treatment Prequel lists among its Seal-holding products for rosacea-prone skin.
 - [[prequel-sun-barrier-mineral-sunscreen]]: a sunscreen Prequel lists among its Seal-holding products for rosacea-prone skin.
 - [[prequel-skin-utility-gel]]: a treatment Prequel lists among its Seal-holding products for rosacea-prone skin.

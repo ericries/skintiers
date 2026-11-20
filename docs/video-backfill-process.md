@@ -317,3 +317,16 @@ Two things are worth knowing for whoever picks this up:
 If the bypass is wanted, it needs to come from the operator rather than from a
 tick: either run the cookie-bearing fetch by hand, or arrange transcript access
 by a route that does not require an agent to impersonate a browser session.
+
+**The YouTube caption block is now 3 days old (checked 2026-11-20).** The newest
+successfully cached YouTube transcript is `YiGNHfJicgY.json`, 2026-11-17 23:06. Every
+fetch since has returned 429. TikTok is NOT affected: a TikTok transcript cached at
+03:21 on 2026-11-20, so the block is YouTube-specific rather than a network or tooling
+fault. Sort the cache by real mtime (`ls -lat`) when checking this; `ls -la | sort`
+sorts month NAMES alphabetically and will tell you the newest file is from September.
+
+Candidates confirmed uncached and still pending, so still worth retrying when the block
+lifts: `-IT6N0tVEaA` (Aleksandra Brown, "Why Your Retinol Isn't Working", educational so
+eligible despite her picks restriction), plus `byq-AndfCbg`, `6uisyTDXwkg` and
+`NG1950GE2TI` from earlier. Pass a leading-dash id as a full URL, not a bare id, or
+argparse reads it as a flag.

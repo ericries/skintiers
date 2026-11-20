@@ -893,4 +893,9 @@
     slug string appears in the brand page body. SECOND BUG found in the same sweep:
     four The Ordinary product pages had NO brand field at all, so they were invisible
     to that mapping; sweep for empty brand fields across all products too. Do a few
-    brand pages per tick rather than all at once'
+    brand pages per tick rather than all at once PROGRESS 2026-11-20: 29 down to 27.
+    nuface fixed (4 of 12 linked, now all 12, grouped as handles / Trinity attachments
+    / conductives and serums) and prequel fixed (2 of its 4 gaps were pages I shipped
+    earlier today). Detector used: for each brand page, collect product pages whose
+    brand: frontmatter matches, subtract slugs already wikilinked in the body. Worst
+    remaining: paulas-choice 6, naturium 6, cerave 5, tower-28 4'

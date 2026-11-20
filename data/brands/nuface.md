@@ -16,7 +16,11 @@ NuFACE sells at-home microcurrent devices for facial toning. Its FDA applicant o
 
 **Why it stands out on this site:** the company holds **14 FDA 510(k) clearances** spanning 2007 to 2024, and **every single one publishes a 510(k) Summary rather than a Statement**.[^openfda] A Summary sets out the testing submitted; a Statement only certifies the firm will supply it on request, so here you can read the basis for each clearance. That is the opposite of [[foreo]], where 8 of 10 clearances publish nothing, and it matches the disclosure pattern on [[revive-light-therapy]]. Clearance is not proof of benefit either way, which [[fda-approved-vs-cleared-skincare]] explains.
 
-**On this site:** [[nuface-trinity-microcurrent-device]], the original facial device; [[nuface-mini-microcurrent-device]], the cheaper handheld, whose cleared indication widened from the face to the face and neck across two clearances; and [[nubody-skin-toning-device]], the body unit, cleared by comparing its electrical output against the firm's own face device. The gel the devices need is [[nuface-gel-primer]], the company's only clearance for an electroconductive medium rather than a device.
+**On this site.** The handles: [[nuface-trinity-microcurrent-device]], the original; [[nuface-mini-microcurrent-device]], the cheaper entry point, whose cleared indication widened from the face to the face and neck across two clearances; [[nuface-plus]]; [[nuface-fix-microwand]]; and [[nubody-skin-toning-device]], the body unit, cleared by comparing its electrical output against the firm's own face device.
+
+The attachments that clip onto a Trinity handle: [[nuface-trinity-plus-wrinkle-reducer]], the LED head and the only part of this line whose clearance names a wrinkle; [[nuface-trinity-ele-attachment]], the lip and eye head; and [[nuface-trinity-wrinkle-remover]], the 2012 original of the light head still sold for the older handle.
+
+What the devices are used with: [[nuface-gel-primer]], the conductive gel and the company's only clearance for a medium rather than a device; [[nuface-fix-serum-activator]]; and two companion serums, [[nuface-super-peptide-booster-serum]] and [[nuface-super-vita-c-booster-serum]].
 
 The 2026 GRADE review behind the modality grades on [[home-use-skincare-devices-by-evidence]] does not assess microcurrent, so no graded modality evidence here covers these devices.
 
