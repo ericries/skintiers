@@ -5829,7 +5829,7 @@
 - name: Claim each clearance page's own K number as an alias
   type: product
   priority: 4
-  status: pending
+  status: done
   discovered_from: tanda-mini-skincare-system
   source: 'NOT A NEW PAGE. A bounded data sweep that makes the new identifier dedup
     actually bite. Today''s fix only fires when a page CLAIMS its K number in aliases,
@@ -5876,7 +5876,21 @@
     from the same maker, which is why name-matching keeps returning a different product.
     The right question for each is not which of these is mine but whether this product
     has any clearance of its own at all, and the honest answer may be no. Exclude
-    rather than force a match.'
+    rather than force a match. ROW COMPLETE 2026-11-20. Final tally: 3 K numbers added,
+    6 pages excluded as having no own clearance to claim. The last four resolved by
+    listing EVERY clearance held by each applicant rather than guessing from the numbers
+    each page happens to mention. LED Technologies holds exactly 15 clearances and
+    the full list contains no Lux Clinical and no Lux Spot, so revive-light-therapy-lux-clinical
+    and revive-light-therapy-lux-spot have nothing of their own to claim. revive-light-therapy-lux-lip-care''s
+    nearest is K172662 reVive Perioral, and that page ALREADY says in its own text
+    that it cannot confirm the retail unit matches because the clearance and the product
+    carry different names, so equating them here would contradict the page''s own
+    caution. Sciton holds 23 clearances and NONE has zoom, scan, erbium, er:yag or
+    2940 in its device name, consistent with ZoomScan being a handpiece sold within
+    a Joule or Profile system rather than cleared alone. METHOD NOTE for similar sweeps:
+    querying by APPLICANT and reading the whole list settles ownership far more cheaply
+    and reliably than fetching individual 510k PDFs or scoring name similarity, which
+    is what I tried first and which produced ambiguous results on all six'
 - name: EndyMed PRO with Intensif RF microneedling handpiece
   type: product
   priority: 5

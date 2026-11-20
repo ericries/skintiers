@@ -1197,3 +1197,15 @@
     in particular has a measurable-sounding history (the rabbit ear assay) that is
     worth checking against what is actually required now. Source from FDA and FTC
     guidance, not brand copy
+- name: 'Handpieces and accessories: why a named part often has no clearance of its
+    own'
+  type: goal
+  priority: 4
+  status: pending
+  discovered_from: sciton-zoomscan
+  source: GROUNDED IN A VERIFIED FINDING. Sciton holds 23 clearances and none names
+    ZoomScan, because it is a handpiece sold within a Joule or Profile system; the
+    system carries the clearance. The site covers several devices marketed under a
+    part name, and readers searching that part name will find no FDA record and may
+    conclude the device is uncleared, which is the wrong inference. Explain the system-versus-accessory
+    distinction using the Sciton case, which is already verified
