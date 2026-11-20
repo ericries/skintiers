@@ -573,7 +573,13 @@
     are flagged, not classified. The remaining 5 videos are single-topic education
     (peptides, glycolic acid, HRT and skin, seborrhoeic keratoses, skin growths, eczema)
     and are not in question under the corrected product_recs setting. Deciding on
-    17 cards rather than a possible 23 would under-scope the call.'
+    17 cards rather than a possible 23 would under-scope the call. CONTEXT CORRECTION
+    2026-11-20: the page this decision concerns was NOT the page the site was serving.
+    data/persons/aleksandra-brown.md, a stale 2026-10-08 copy, silently overwrote
+    the 2026-11-09 rewrite on every build, so the live page carried NO affiliate-storefront
+    disclosure for 11 days. Fixed in e63e84d; the live page now has the How to read
+    her product picks section. The DECIDE question itself is unchanged and still needs
+    the user'
 - name: 'DECIDE: which Dr Dray cards count as monetized picks now that her storefronts
     are recorded'
   type: person
