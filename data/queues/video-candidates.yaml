@@ -18693,7 +18693,8 @@
   posted: '2026-11-19'
   duration: 39
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: Product hunt for nipple balms from a creator with an own-brand postpartum line and product_recs restricted, so picks are not eligible
 - id: QJCv5BS4GF0
   title: Purito Retinal Serum Showdown! Which One Is Better? | Dermatologist Review
   creator: Andrea Suarez (Dr Dray)
@@ -18721,7 +18722,8 @@
   posted: '2026-11-20'
   duration: 39
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: Brand-tagged event post from Vegas tagging SkinCeuticals and others, not single-topic education
 - id: '7710099013541891359'
   title: 'When your doctor follows you on social media…#skincare #accutane #doc...'
   creator: Dr. Chris Tomassian
@@ -18791,7 +18793,8 @@
   posted: '2026-11-19'
   duration: null
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: yt-dlp returns No video formats found for this id, so neither duration nor caption could be read and it cannot be assessed or cited. Not marked transcript-less; the clip is simply unfetchable
 - id: '7709907452938046734'
   title: 120 hours of hydration? Now THAT’S some serious staying power. @CeraV...
   creator: Fatima Fahs
@@ -18847,7 +18850,8 @@
   posted: '2026-11-19'
   duration: 178
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'NO ENGLISH TRANSCRIPT, so it cannot be cited. A real loss: 178s on what not to fall for in holiday skincare shopping, which is exactly the anti-marketing angle the site builds on'
 - id: -AykWyoBSys
   title: The 3 Biggest Triggers Flaring Your Melasma (Avoid These!)
   creator: Dr. Jenny Liu (Jenny Liu, MD, FAAD)
@@ -18875,7 +18879,8 @@
   posted: '2026-11-19'
   duration: 58
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'Single-brand promotion. Caption reads Start with KOPHER Curepair Intensive Serum Mist, End with KOPHER Curepair Melder SOS System, with #BLACKFRIDAY #BFCM and @KOPHER US, from a creator who monetizes picks via an affiliate storefront'
 - id: '7709946395821673759'
   title: I’ve been in the trenches for 16 years as a derm, and these are the p...
   creator: Dr. Mamina Turegano
@@ -18903,7 +18908,8 @@
   posted: '2026-11-20'
   duration: 52
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: Comment ACNE affiliate funnel for her acne-clearing products
 - id: S0iVKlopWmw
   title: 'Doctor: You''re Using Vaseline Wrong (7 Ways It Smooths Wrinkles on Black Skin)'
   creator: Dr. Vanita Rattan (Doctor V)
