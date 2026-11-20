@@ -189,6 +189,10 @@ the popularity floor and both match existing pages:
   123,181 views, matches [[microneedling]]
 - `6uisyTDXwkg` Subcision: Does it cause facial sagging?, Dr Davin Lim,
   74,268 views, matches [[acne-scars]]
+- `NG1950GE2TI` All Things Perioral Dermatitis: Reaction & Treatment Tips,
+  Dr. Joyce Park, 50,001 views, matches [[perioral-dermatitis]]. Her roster is
+  `product_recs: restricted`, so the higher-viewed Teen and Tween Routines video
+  from the same slice (138,515) is NOT eligible and should not be substituted.
 
 **Bound it.** If a cursor has been held for more than about a week, stop holding
 silently: the blockage is no longer a transient throttle and the right move is to
