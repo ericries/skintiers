@@ -5501,7 +5501,7 @@
   posted: ''
   feed_rank: 1
   status: skipped
-  skip_reason: no English transcript available
+  skip_reason: No English captions, cached negative
 - id: NEhoD-6m4BY
   title: Does Your Skin Get Used to Retinol? The Truth About Skincare “Resistance”
   creator: Andrea Suarez (Dr Dray)
@@ -5515,7 +5515,7 @@
   posted: ''
   feed_rank: 2
   status: skipped
-  skip_reason: no English transcript available (too new for captions)
+  skip_reason: No English captions, cached negative
 - id: obS-wrpLXWI
   title: 'Forever young facial #dermreacts  #skincare  #dermatologist #dermangelo'
   creator: Dr. Angelo Landriscina (DermAngelo)
@@ -6496,7 +6496,7 @@
   posted: ''
   feed_rank: 0
   status: skipped
-  skip_reason: no English transcript available
+  skip_reason: 'No English captions. Cached negative, not a throttle: a fetch succeeded and found none, so it can never be carded'
 - id: -DrMSPsl_k0
   title: 'Full of sh*t #dermreacts  #skincare  #dermatologist #dermangelo    '
   creator: Dr. Angelo Landriscina (DermAngelo)

@@ -194,17 +194,19 @@ the popularity floor and both match existing pages:
   `product_recs: restricted`, so the higher-viewed Teen and Tween Routines video
   from the same slice (138,515) is NOT eligible and should not be substituted.
 
-From Dr Dray's slice 58-72, title-matched and UNRANKED because single-video metadata
-was already blocked when this slice was worked (see the escalation note above). None
-has been checked against the 30k floor:
+CORRECTION 2026-11-20: the three Dr Dray candidates recorded here earlier today
+(`MYiOWPf354A`, `EbC6oTVlkAM`, `NEhoD-6m4BY`) are NOT waiting on the throttle. All
+three are cached NEGATIVES: a fetch succeeded at some point and found no English
+captions at all, so they can never be carded and have been removed from this list.
+Recording them as pending was misleading.
 
-- `MYiOWPf354A` Azelaic Acid + Tretinoin: Can You Use Them Together?, matches
-  [[azelaic-acid]] and [[tretinoin]]. The strongest single-topic match in the slice.
-- `EbC6oTVlkAM` Does Salicylic Acid Cause Purging?, matches [[salicylic-acid]].
-- `NEhoD-6m4BY` Does Your Skin Get Used to Retinol?, matches [[retinoids]].
-
-Her roster is `product_recs: restricted`, so the empties, Sam's Club and Dollar Tree
-shopping videos in the same slice are not eligible regardless of how they rank.
+**Check the cache before banking a candidate.** A 429 is deliberately never cached,
+so a cached entry with `has_transcript: false` is a definitive no-captions answer, not
+a throttle. Of 932 cached transcripts, 77 are such negatives, roughly 8%. Run
+`yt_transcript.py <id>` and read whether the output says `[cached]`: if it does and
+reports no transcript, the video is uncardable regardless of what the throttle does
+later. The three banked candidates above (`byq-AndfCbg`, `6uisyTDXwkg`,
+`NG1950GE2TI`) are genuinely uncached and so genuinely still pending.
 
 **Bound it.** If a cursor has been held for more than about a week, stop holding
 silently: the blockage is no longer a transient throttle and the right move is to
