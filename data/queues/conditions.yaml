@@ -1281,3 +1281,13 @@
     the face generally, so the distinction has nowhere to live. Check whether eye-area
     skin genuinely differs in thickness and treatment tolerance, from primary dermatology
     sources
+- name: Hypertrophic scars
+  type: condition
+  priority: 4
+  status: pending
+  discovered_from: wiseman-2020-silicone-gel-vs-pressure-garment-burn-scars-children-pmid-31565952
+  source: Named as the target of prevention in Wiseman 2020's conclusion (abnormal
+    scarring after burn injury) and distinct from keloids, which the site also lacks.
+    Check whether the site already covers it under another name before drafting; if
+    not, it is the condition several silicone and pressure pages implicitly treat
+    without a hub

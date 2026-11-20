@@ -10867,3 +10867,26 @@ prequel-retinal-renew:
   reviewed: '2026-11-20'
   reviewer: main-loop
   verdict: publish
+wiseman-2020-silicone-gel-vs-pressure-garment-burn-scars-children-pmid-31565952:
+  assurance: sonnet
+  notes: 'Self-verified against the PubMed abstract and its conflicts statement; every
+    quoted span machine-checked verbatim, zero mismatches. Structured per the study
+    scope and deliberately compact. The page leads with what the trial CANNOT do: there
+    is no untreated arm, so it establishes equivalence between two active treatments
+    rather than efficacy for either, and that is stated in the intervention line and
+    again as the key limitation rather than buried. The single significant result is
+    reported with its full fragility, 0.04 cm with a CI touching zero and p exactly on
+    the threshold, and labelled a boundary finding. The authors'' own conclusion is
+    quoted at length because it is more honest than any paraphrase. Generalisability is
+    bounded to children with small burns at six months and explicitly NOT to adult
+    surgical scars, keloids or acne scarring, since acne-scars is the page most readers
+    arrive from. Scope note carried over from the product page: the abstract names the
+    intervention generically as topical silicone gel and names Strataderm only in the
+    conflicts, so the page does not assert which product was used. The funding note runs
+    the other way from the usual pattern and is framed that way: a manufacturer paying
+    the open-access fee for a NULL result, with no role in design, data or analysis, is
+    close to the opposite of what ingredient-evidence-by-who-ran-the-only-trial
+    documents.'
+  reviewed: '2026-11-20'
+  reviewer: main-loop
+  verdict: publish

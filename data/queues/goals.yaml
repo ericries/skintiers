@@ -1209,3 +1209,14 @@
     part name, and readers searching that part name will find no FDA record and may
     conclude the device is uncleared, which is the wrong inference. Explain the system-versus-accessory
     distinction using the Sciton case, which is already verified
+- name: Pressure garment therapy for burn and hypertrophic scars
+  type: goal
+  priority: 3
+  status: pending
+  discovered_from: wiseman-2020-silicone-gel-vs-pressure-garment-burn-scars-children-pmid-31565952
+  source: ALREADY QUEUED ONCE from strataderm-silicone-scar-gel; this study page is
+    a second route to the same gap, which is a signal. Wiseman 2020 (PMID 31565952)
+    found it no different from silicone gel across 153 children, so the trial's central
+    comparison has only one side documented here. Hospital-prescribed rather than
+    retail, which is itself worth explaining to a reader who will not find it on a
+    shelf
