@@ -95,3 +95,58 @@ def test_type_is_respected(tmp_path):
     sklib.queue_add(tmp_path, "La Roche-Posay", "product", 5)
     _page(tmp_path, "people", "la-roche-posay", "person", name="La Roche-Posay")
     assert sklib.queue_reconcile(tmp_path) == 0
+
+
+def test_it_closes_a_row_whose_page_exists_under_a_DIFFERENT_type(tmp_path):
+    """The periorbital-wrinkles shape, found the hard way 2026-11-19.
+
+    The condition queue held a pending row for "Periorbital wrinkles" while
+    data/goals/periorbital-wrinkles.md already existed. Reconcile read only the
+    row's OWN type index, so it never saw the goal page and left the row
+    pending. A later tick then took the row, researched it, and wrote a SECOND
+    page at the same slug under conditions/. Both render to the same filename,
+    so one silently overwrites the other at build.
+    """
+    sklib.queue_add(tmp_path, "Periorbital wrinkles", "condition", 5)
+    _page(tmp_path, "goals", "periorbital-wrinkles", "goal",
+          name="Periorbital wrinkles")
+    assert sklib.queue_reconcile(tmp_path) == 1
+    assert _names(tmp_path, "condition", "pending") == []
+
+
+def test_a_cross_type_close_names_the_type_that_satisfied_it(tmp_path):
+    """Closing against another type is the surprising case, so say so plainly.
+
+    A reader seeing a condition row closed needs to know a GOAL page is what
+    satisfied it, or the close looks like the matcher guessing.
+    """
+    sklib.queue_add(tmp_path, "Periorbital wrinkles", "condition", 5)
+    _page(tmp_path, "goals", "periorbital-wrinkles", "goal",
+          name="Periorbital wrinkles")
+    sklib.queue_reconcile(tmp_path)
+    reason = str(sklib.load_queue(tmp_path, "condition")[0].get("resolved_reason", ""))
+    assert "goal" in reason.lower(), reason
+    assert "periorbital-wrinkles" in reason.lower() or "periorbital wrinkles" in reason.lower()
+
+
+def test_an_unrelated_page_of_another_type_does_not_close_a_row(tmp_path):
+    """The guard on the above: cross-type must still require an exact identity."""
+    sklib.queue_add(tmp_path, "Periorbital wrinkles", "condition", 5)
+    _page(tmp_path, "goals", "firmer-skin", "goal", name="Firmer skin")
+    assert sklib.queue_reconcile(tmp_path) == 0
+    assert _names(tmp_path, "condition", "pending") == ["Periorbital wrinkles"]
+
+
+def test_cross_type_matching_is_an_allowlist_not_a_sweep(tmp_path):
+    """The regression guard for the fix above.
+
+    The first version of cross-type matching swept EVERY type and promptly
+    broke test_type_is_respected: a person page named "La Roche-Posay" closed a
+    product row of that name. Only condition and goal alias each other. This
+    pins a second pairing that must stay closed, so a later widening of
+    _ALIAS_TYPES has to come with a deliberate decision.
+    """
+    sklib.queue_add(tmp_path, "Retinol", "product", 5)
+    _page(tmp_path, "ingredients", "retinol", "ingredient", name="Retinol")
+    assert sklib.queue_reconcile(tmp_path) == 0
+    assert _names(tmp_path, "product", "pending") == ["Retinol"]

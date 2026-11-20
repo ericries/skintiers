@@ -4569,13 +4569,15 @@
 - name: Salix alba (white willow) bark extract
   type: ingredient
   priority: 4
-  status: pending
+  status: done
   discovered_from: ingredient-evidence-by-who-ran-the-only-trial
   source: The ingredient behind jeon-2023 (PMID 37235713), whose only human arm is
     uncontrolled and run by its supplier. The site has the STUDY page but no ingredient
     page, so the evidence has nowhere to attach and the routine builder cannot grade
     it. Likely tier weak on that basis, but write the rubric from the sources, not
     from this note
+  resolved_reason: 'auto-reconciled: a ingredient page already exists for ''Salix
+    alba (white willow) bark extract'' (queue_reconcile)'
 - name: Salicin (topical)
   type: ingredient
   priority: 4

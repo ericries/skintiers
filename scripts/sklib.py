@@ -1468,6 +1468,15 @@ def creator_display_name(creator, creator_slug, name_by_slug):
     return ((name_by_slug or {}).get(creator_slug) or "").strip() or None
 
 
+# Types that describe the SAME entity from different angles, so a page under
+# one genuinely satisfies a queue row filed under the other. Deliberately tiny:
+# a condition ("periorbital wrinkles" as a thing you have) and a goal (as a
+# thing you want to fix) are the same subject, but a product and a person that
+# share a name are not, which is why this is an explicit allowlist and not a
+# sweep over every type.
+_ALIAS_TYPES = {"condition": ("goal",), "goal": ("condition",)}
+
+
 def _identity_index(data_dir):
     """type -> set of normalised identity keys (name, slug, every alias).
 
@@ -1527,7 +1536,10 @@ def queue_reconcile(data_dir, dry_run=False):
                 continue
             cands = {_norm(name), _norm(_PAREN_RE.sub(" ", name))}
             cands.discard("")
-            if not (cands & keys):
+            match_type = None
+            if cands & keys:
+                match_type = typ
+            else:
                 # Fall back to the identifier test the single-row guard uses, so
                 # the sweep keeps the agreement its docstring promises. It is
                 # strict on purpose; see _identifier_identifies_existing_page.
@@ -1538,17 +1550,48 @@ def queue_reconcile(data_dir, dry_run=False):
                 # a 600s timeout, which is exactly how this function's first
                 # version failed on 2026-11-06.
                 idents = _identifiers_in(name)
-                if not any(_norm(i) in keys for i in idents):
-                    continue
-                if not _identifier_identifies_existing_page(data_dir, name, typ):
-                    continue
+                if (any(_norm(i) in keys for i in idents)
+                        and _identifier_identifies_existing_page(data_dir, name, typ)):
+                    match_type = typ
+                else:
+                    # The page may exist under a type that ALIASES this one.
+                    # Reading only the row's own index is what let the condition
+                    # queue keep a pending "Periorbital wrinkles" while
+                    # data/goals/periorbital-wrinkles.md already existed; a later
+                    # tick then wrote a SECOND page at that slug, and two pages
+                    # with one slug silently overwrite each other at build.
+                    #
+                    # Only within an alias group, never across all types. A
+                    # person page named "La Roche-Posay" must NOT close a
+                    # product row of that name, and an earlier version of this
+                    # fix that swept every type did exactly that.
+                    #
+                    # EXACT identity only here, never the identifier fallback:
+                    # crossing a type boundary is the looser claim, so it gets
+                    # the stricter test. Cheap, since these are set
+                    # intersections over the already-built index, with no tree
+                    # walk.
+                    for other_typ in _ALIAS_TYPES.get(typ, ()):
+                        if cands & (index.get(other_typ) or set()):
+                            match_type = other_typ
+                            break
+            if match_type is None:
+                continue
             closed += 1
             if dry_run:
                 continue
             it["status"] = "done"
-            it["resolved_reason"] = (
-                f"auto-reconciled: a {typ} page already exists for "
-                f"{name!r} (queue_reconcile)")
+            if match_type == typ:
+                it["resolved_reason"] = (
+                    f"auto-reconciled: a {typ} page already exists for "
+                    f"{name!r} (queue_reconcile)")
+            else:
+                # Say plainly that another type satisfied this, or the close
+                # reads like the matcher guessing.
+                it["resolved_reason"] = (
+                    f"auto-reconciled: a {match_type} page already exists for "
+                    f"{name!r}, though this row was filed under {typ} "
+                    f"(queue_reconcile)")
             touched = True
         if touched and not dry_run:
             save_queue(data_dir, typ, items)

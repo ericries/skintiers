@@ -1741,7 +1741,7 @@
     own type
   type: list
   priority: 2
-  status: pending
+  status: done
   discovered_from: periorbital-wrinkles
   source: 'TOOLING BUG, found the hard way 2026-11-19. The condition queue held a
     pending row for Periorbital wrinkles while data/goals/periorbital-wrinkles.md
