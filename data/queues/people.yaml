@@ -681,4 +681,47 @@
     skin1004-madagascar-centella-asiatica-100-ampoule, both of which regenerate on
     build, so the only real cost is breaking any external link to the old URL. The
     page''s name: field was a credential dump too and has been fixed separately today;
-    only the slug remains'
+    only the slug remains SCOPE CHECK COMPLETE 2026-11-21 (it was started 2026-11-20
+    and left unfinished).
+
+
+    FACTS. Page slug is kristin-leite-kristingl-beauty-product-developer-skincare-educator;
+    page name is ''Kristin Leite''; aliases is empty. ZERO pages wikilink the long
+    slug, so a rename breaks no internal links. SIX pages carry video cards with creator_slug:
+    kristin-leite (3 ingredients, 1 product, 1 goal, 1 condition).
+
+
+    WHY IT IS NOT COSMETIC. build.py:1921 returns f''{cs}.html'' when creator_slug
+    matches a person page slug, else f''{cs}-videos.html''. Her creator_slug does
+    NOT match her page slug, so all six cards render href=''kristin-leite-videos.html'',
+    and that file is never generated. Six live 404s.
+
+
+    SO THE RENAME IS NOW A BUG FIX, not tidying: set slug to kristin-leite, add the
+    long string as an alias, and the six links resolve. Still the user''s call because
+    it renames a published page and changes its URL, but the cost side is empty (no
+    inbound wikilinks) and the benefit is six fixed links.
+
+
+    SEE ALSO the separate row filed today: the same fallback produces 57 distinct
+    broken hrefs across 81 pages for creators with no person page at all. Renaming
+    her fixes her six; it does not fix those.'
+- name: 'Creator video links 404: build.py emits <creator_slug>-videos.html pages
+    that are never generated'
+  type: person
+  priority: 2
+  status: pending
+  discovered_from: null
+  source: 'FOUND 2026-11-21 while scoping the Kristin Leite rename. build.py:1921
+    creator_href returns f''{cs}.html'' if the creator_slug matches a person page
+    slug, otherwise f''{cs}-videos.html''. Nothing in the build ever writes a *-videos.html
+    file: ls _site/*-videos.html returns zero. Result is 57 DISTINCT broken hrefs
+    across 81 rendered pages, every one a creator byline on a video card. Two possible
+    fixes and the choice is a design decision, not a cleanup: (a) generate a per-creator
+    video index page at that path, which is real new surface area, or (b) render the
+    byline as plain text when no person page exists, which is smaller and loses nothing
+    a reader has today since the link is dead. This is the same class as the xref-render
+    gap: sk lint and sk verify read SOURCE, so no gate sees a dead href in rendered
+    HTML. A render-smoke-test that walks _site for internal hrefs with no target file
+    would catch this and was already noted as the next win. Do NOT add that test before
+    fixing the bug, since it would fail on 81 pages and turn CI red'
