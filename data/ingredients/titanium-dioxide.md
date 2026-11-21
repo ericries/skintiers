@@ -7,6 +7,18 @@ tier: good
 status: published
 type: ingredient
 updated: '2026-08-08'
+videos:
+- title: How 100% mineral sunscreens are dodging laws
+  creator: Michelle Wong
+  creator_slug: michelle-wong
+  credential: Cosmetic chemist, PhD
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=_Lcakmug-c0
+  posted: '2022-09-06'
+  related: [zinc-oxide, sunscreen-uv-filters, reading-a-sunscreen-label]
+  thesis: Cosmetic chemist Michelle Wong explains that sunscreens marketed as 100 percent mineral often contain ingredients that absorb UV but are listed among the inactive ingredients rather than as active filters, so they are not regulated or safety-assessed as sunscreen actives. She describes how much the non-active ingredients matter to a sunscreen's measured SPF, citing a formulator who spent six months reworking an existing SPF 30 product to reach SPF 50, and argues that SPF cannot be predicted from the active percentages alone. Her conclusion is that these unregulated UV-absorbing ingredients should go through the same safety evaluation as approved filters.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Titanium dioxide is an inorganic (mineral) UV filter used in sunscreens alongside [[zinc-oxide]], and also functions as a white colorant in cosmetics and food. As a sunscreen active it is one of only two filters the US FDA proposed as generally recognized as safe and effective (GRASE) in its 2019 sunscreen review, at concentrations up to 25%, but its ultraviolet coverage is narrower than zinc oxide's and it carries a distinct nanoparticle-inhalation caution that zinc oxide does not.[^fda][^schneider]
