@@ -18980,7 +18980,8 @@
   posted: '2026-11-20'
   duration: 134
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: No English captions. Cached negative, so a fetch succeeded and found none; it can never be carded regardless of throttle state
 - id: GUPCaf7m6QI
   title: Can You Mix These Skincare Ingredients? Tretinoin, Urea, Azelaic Acid, Peptides & More
   creator: Andrea Suarez (Dr Dray)
@@ -19134,7 +19135,8 @@
   posted: '2026-11-21'
   duration: 86
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: Brand promotion dressed as education. The transcript names one brand as refusing the concentration race, praises its patented delivery technology and walks through its peptide serum; the caption tags the brand and calls the technology genuinely so impressive. Creator also monetizes picks via an affiliate storefront
 - id: '7710317019551354142'
   title: Black Friday Must Haves (you aren't going to guess any of these) ⭐️ @...
   creator: Kristin Leite (kristingl)
