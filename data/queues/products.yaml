@@ -6831,3 +6831,13 @@
     either side of Retinal Renew in the retinal sandwich method, so it is already
     referenced by a shipped page. Catalogue cached at research-cache/web/10c5990234090103.md;
     INCI from the live product page, which serves it in the HTML
+- name: Eucerin UltraSensitive Soothing Care Dry Skin
+  type: product
+  priority: 4
+  status: pending
+  discovered_from: 4-t-butylcyclohexanol
+  source: The named 4-t-butylcyclohexanol product in Schoelermann 2016 (PMID 26805418),
+    the only human head-to-head on that ingredient. Worth a page because the trial
+    behind it is manufacturer-authored, which is exactly the kind of claim-versus-evidence
+    gap this site exists to show. Check current availability and naming first; the
+    trial is from 2016 and the line may have been renamed

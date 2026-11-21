@@ -10937,3 +10937,25 @@ prequel-scar-solutions-stick:
   reviewed: '2026-11-20'
   reviewer: main-loop
   verdict: publish
+4-t-butylcyclohexanol:
+  assurance: sonnet
+  notes: 'Self-verified against both PubMed abstracts; every quoted span machine-checked
+    verbatim. Two quotes failed the first check because I had written (R) where the
+    source carries a registered-trademark symbol, so the product names are now given
+    UNQUOTED rather than altered inside quotation marks, with a note saying why. tier
+    weak, and the page argues it: the mechanism is clean and shown directly, but every
+    human result comes from Beiersdorf AG R and D staff, in one 2016 journal
+    supplement, with no independent replication found in a search returning 15 records
+    total. That provenance is stated in a pull quote rather than buried, and the page
+    says plainly it does not make them wrong. Two specific traps handled. The only
+    VISIBLE endpoint, reduced shaving erythema, came from a formula combining this with
+    a licochalcone A rich extract, so it is explicitly not assigned to this ingredient
+    alone. And the head-to-head win is reported with the very next sentence from the
+    same abstract: faster at one and two minutes, but no difference in peak intensity,
+    severity or duration, and both products worked by fifteen minutes. The footnote
+    flags that the comparison is a manufacturer testing its own product against a
+    competitor, a conflict pointing the same way as the result. No rosacea trial was
+    found and the page says so, since sensitive-skin marketing gestures at rosacea.'
+  reviewed: '2026-11-21'
+  reviewer: main-loop
+  verdict: publish

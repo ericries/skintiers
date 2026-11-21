@@ -4091,7 +4091,7 @@
 - name: 4-t-Butylcyclohexanol (TRPV1 antagonist, Symsitive)
   type: ingredient
   priority: 3
-  status: pending
+  status: done
   discovered_from: capsaicin
   source: 'https://pubmed.ncbi.nlm.nih.gov/42763246/ Named on la-roche-posay-rosaliac-ar-intense-serum
     as the comparator that outperformed Calmosensine at reducing capsaicin-induced

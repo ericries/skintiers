@@ -2516,3 +2516,14 @@
     or occlusivity measurements comparing stick or balm silicone formats against gel
     and sheeting. If nothing exists, record that absence, since several products depend
     on it'
+- name: 'Schoelermann 2016: 4-t-butylcyclohexanol vs acetyl dipeptide-1 cetyl ester,
+    split-face capsaicin stinging (PMID 26805418)'
+  type: study
+  priority: 4
+  status: pending
+  discovered_from: 4-t-butylcyclohexanol
+  source: 'Already fetched and read in full. Record the design honestly: 31 women,
+    split-face, 40 ppm capsaicin provocation, single-blind, manufacturer-authored,
+    competitor product as comparator. Primary result is faster relief at 1 and 2 minutes
+    with NO difference in peak intensity, severity or duration, and both products
+    working by 15 minutes'
