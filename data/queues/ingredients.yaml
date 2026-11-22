@@ -4668,13 +4668,17 @@
 - name: Bisabolol
   type: ingredient
   priority: 3
-  status: pending
+  status: done
   discovered_from: prequel-scar-solutions-stick
-  source: Thirteenth of twenty-two in the Prequel Scar Solutions Stick INCI and named
-    in the brand's own active list, but no page here. The chamomile-derived anti-irritant
+  source: 'Thirteenth of twenty-two in the Prequel Scar Solutions Stick INCI and named
+    in the brand''s own active list, but no page here. The chamomile-derived anti-irritant
     appears across soothing and post-procedure formulas; the citronellol and geraniol
     pages make it the only named active in this product with no evidence page to route
-    to
+    to RESOLVED 2026-11-22 as ALREADY COVERED: the page exists at data/ingredients/alpha-bisabolol.md
+    (Alpha-bisabolol), which video_gaps listed while I was looking for something else.
+    I queued this yesterday from prequel-scar-solutions-stick without checking under
+    the alpha- prefix. Third duplicate-queue near-miss this week; sk find with the
+    bare name would have caught it'
 - name: Spironolactone (oral, off-label for acne)
   type: ingredient
   priority: 4

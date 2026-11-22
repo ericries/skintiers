@@ -18,7 +18,7 @@
 - name: Chemist Confessions (Victoria Fu and Gloria Lu)
   creator_slug: victoria-fu
   flagship: true
-  backfill_cursor: 60
+  backfill_cursor: 75
   credential: Cosmetic chemists
   tier: HIGH
   channel: https://www.youtube.com/@chemistconfessions/videos

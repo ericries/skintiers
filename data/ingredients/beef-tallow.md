@@ -12,6 +12,18 @@ status: published
 tier: weak
 type: ingredient
 updated: '2026-11-13'
+videos:
+- title: Why is beef tallow in skincare?
+  creator: Chemist Confessions
+  creator_slug: victoria-fu
+  credential: Cosmetic chemists
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=mTsg-jrpXmE
+  posted: '2025-11-12'
+  related: [ceramides]
+  thesis: 'Cosmetic chemists Victoria Fu and Gloria Lu examine the most common claim made for beef tallow in skincare, that it resembles the skin''s own lipids, and say the composition does not support it: tallow is leftover fat trimmings from the meat industry and is not comparable to human sebum in the way the claim implies. They also note its melting point sits somewhere between about 35 and 50 degrees Celsius, varying batch to batch, and that at least one study they looked at did not test beef tallow at all but a chemically modified mutton-derived material. They are candid that there is little science on the ingredient to work from.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Rendered animal fat, sold online as a natural facial moisturiser. **Bottom line:** two separate reviews have now gone looking for human evidence and both reported that it is not there, and a 2025 analysis found that most of the social media promoting it carried financial bias and came from people without healthcare credentials. That is a statement about the evidence base, not about whether fat moisturises skin. If you want an occlusive with a real evidence base, [[petrolatum]] has one.
