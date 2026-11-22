@@ -352,3 +352,17 @@ Checked 2026-11-22: the cooldown file's mtime IS the last failed attempt, so
 `ls -la research-cache/yt-429-cooldown` tells you whether a refusal came from the
 platform or from the local guard. Before spending an attempt, check that mtime; if it
 is within the last 30 minutes, the fetch will not even leave the machine.
+
+**One video can fail repeatedly while others succeed (2026-11-22).** `YUBf8HsvfzI`
+(Dustin Portela, FDA mercury recall) 429'd on three separate ticks across six hours,
+and in between those failures `mTsg-jrpXmE` fetched normally in the backfill tick. So a
+429 is not purely a global quota: a particular video can be unreachable while the
+window is otherwise open. Checking the cooldown mtime beforehand does not predict it,
+because the refusal came from the platform each time, with the `HTTP Error 429` line
+present rather than the local guard's silent block.
+
+Practical rule: count attempts per video id, not per window. After TWO failed ticks on
+the same id, stop choosing it and pick a different candidate, even a less ideal one;
+otherwise one unreachable video can absorb a tick a day indefinitely. Do NOT resolve it
+as transcript-less, because that is still unproven, and a cached negative remains the
+only evidence for that.
