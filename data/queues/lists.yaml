@@ -1804,3 +1804,21 @@
     \ a finding in itself. Additive only, no slug or URL changes, so it is safe to\
     \ do in batches. Pair it with the queue-matcher row filed the same day; aliases\
     \ are the cheaper half of that fix"
+- name: 'Image cron STEP 1 treats ''images: []'' as having images'
+  type: list
+  priority: 3
+  status: pending
+  discovered_from: null
+  source: 'FOUND 2026-11-22. The cron''s own listing command is: for f in data/products/*.md;
+    do grep -qE ''^(images|image_unresolvable):'' "$f" || basename "$f" .md; done.
+    It tests for the KEY, so a page carrying an empty list, images: [], matches and
+    is skipped. omnilux-new-u sat in exactly that state and was invisible to the lane;
+    I found it only by re-counting in Python rather than trusting the shell loop.
+    It was the sole case (a sweep of data/ finds zero others now) and is resolved,
+    but the command will hide the next one the same way. FIX: test the VALUE not the
+    key, e.g. a tiny Python one-liner that loads frontmatter and selects pages where
+    not m.get(''images'') and not m.get(''image_unresolvable''). That is also what
+    the cron''s STEP 1 should print, so the roster prompt needs the edit, not just
+    the .txt artifact. Related to the glob lesson added to the playbook the same day:
+    both are absence claims made by a shell idiom that cannot express the question
+    being asked'

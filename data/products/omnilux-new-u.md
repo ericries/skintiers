@@ -25,12 +25,17 @@ grades:
     and a selector switch but no irradiance, no energy density and no treatment time,
     stating instead that treatment time is set by the user'
   use: Any claim about dose
-images: []
+image_unresolvable: 'Discontinued device, no brand photo available. Omnilux New U
+  is cleared under K072459 (2007) and does not appear in the brand''s own live catalogue:
+  omniluxled.com/products.json returns 46 products on 2026-11-22, none of them New
+  U, the current LED line being Contour, Clear and Men. incidecoder MISSes, as expected
+  for a device. Nothing was fabricated and no retailer photo was accepted without
+  being able to confirm it shows this exact model.'
 name: Omnilux New U
 slug: omnilux-new-u
 status: published
 type: product
-updated: '2026-11-01'
+updated: '2026-11-22'
 ---
 
 ## Summary
