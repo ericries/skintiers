@@ -705,12 +705,18 @@
 
     SEE ALSO the separate row filed today: the same fallback produces 57 distinct
     broken hrefs across 81 pages for creators with no person page at all. Renaming
-    her fixes her six; it does not fix those.'
+    her fixes her six; it does not fix those. CORRECTION 2026-11-22 to my note of
+    2026-11-21: the claim that her six cards render as live 404s is FALSE. kristin-leite-videos.html
+    exists and is generated like every other creator feed page; I verified 57 of 57
+    such hrefs resolve. The rename is therefore NOT a bug fix and the cost-benefit
+    is back to where it started: zero inbound wikilinks to break, and the only gain
+    is that her person page and her creator feed would share a slug stem. That is
+    tidiness, not correctness, and remains entirely the user''s call'
 - name: 'Creator video links 404: build.py emits <creator_slug>-videos.html pages
     that are never generated'
   type: person
   priority: 2
-  status: pending
+  status: done
   discovered_from: null
   source: 'FOUND 2026-11-21 while scoping the Kristin Leite rename. build.py:1921
     creator_href returns f''{cs}.html'' if the creator_slug matches a person page
@@ -724,4 +730,16 @@
     gap: sk lint and sk verify read SOURCE, so no gate sees a dead href in rendered
     HTML. A render-smoke-test that walks _site for internal hrefs with no target file
     would catch this and was already noted as the next win. Do NOT add that test before
-    fixing the bug, since it would fail on 81 pages and turn CI red'
+    fixing the bug, since it would fail on 81 pages and turn CI red WITHDRAWN 2026-11-22:
+    THE FINDING WAS WRONG. There are no broken creator links. Re-tested properly by
+    extracting every href matching *-videos.html from the rendered site and checking
+    each against disk: 57 distinct hrefs, 57 files present, ZERO missing. build.py
+    does generate one chronological feed page per creator at {creator_slug}-videos.html
+    (the loop over creator_feeds near line 2152), exactly matching what creator_href
+    emits. HOW I GOT IT WRONG: I ran ''ls _site/*-videos.html 2>/dev/null | wc -l''
+    and read the 0 as proof no such files existed. In zsh a glob that fails to match
+    aborts the command, so ls never ran and wc counted an empty stream; the 2>/dev/null
+    hid the nomatch error that would have told me. The individual check on kristin-leite-videos.html
+    was made against a _site that had not been rebuilt. LESSON: never infer absence
+    from a shell glob returning nothing. Test existence per path in Python, as the
+    re-test above did'

@@ -207,3 +207,19 @@ tree rather than one commit, but it means a burst of commits keeps pushing the a
 deploy back until the last one lands, and the site stays stale for the whole burst.
 A `cancelled` conclusion is therefore NOT a failure and needs no investigation: check
 whether a newer run exists before reading any log. Confirmed green on 44786290235.
+
+## Never infer absence from a shell glob
+
+On 2026-11-21 I reported 57 broken creator links across 81 pages, filed it at
+priority 2, and told the user. It was wrong: all 57 resolve. The error came from
+`ls _site/*-videos.html 2>/dev/null | wc -l` returning 0. In zsh a glob that matches
+nothing ABORTS the command, so `ls` never ran, `wc` counted an empty stream, and
+`2>/dev/null` suppressed the `no matches found` message that would have revealed it.
+A second check against `_site` was made before rebuilding, which agreed and reinforced
+the mistake.
+
+The rule: an absence claim about files is a claim, so test it the way you would test
+any other. Enumerate the candidates and check each path explicitly, in Python, not by
+reading a count out of a glob. The same discipline the site applies to ABSENCE CHECKED
+footnotes applies to its own tooling, and this is the fourth variant of the unsupported
+absence claim already noted in the external-feedback lessons.
