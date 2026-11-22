@@ -19121,7 +19121,8 @@
   posted: '2026-11-20'
   duration: 31
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: 'Clean caption and no monetization, but the METHOD it teaches is one this site exists to counter: put a prompt into ChatGPT and ask whether a product will help your skin, then look up the brand on Reddit for true opinions. An LLM answer and Reddit threads are not primary sources, so carding it would lend the site''s credibility to unverifiable sourcing'
 - id: '7710657747699682590'
   title: We've been lied to. The highest active concentration does not mean th...
   creator: Kristin Leite (kristingl)
@@ -19304,7 +19305,8 @@
   posted: '2026-11-21'
   duration: 110
   feed_rank: 0
-  status: pending
+  status: skipped
+  skip_reason: Off-topic (thanksgiving dinner question) with a brand tag in the caption
 - id: '7710409608145292557'
   title: Give your retinoid time to work and wear daily broad spectrum sunscre...
   creator: Ella (@your.estie.ella)
