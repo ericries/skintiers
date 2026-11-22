@@ -1284,13 +1284,20 @@
 - name: Hypertrophic scars
   type: condition
   priority: 4
-  status: pending
+  status: done
   discovered_from: wiseman-2020-silicone-gel-vs-pressure-garment-burn-scars-children-pmid-31565952
-  source: Named as the target of prevention in Wiseman 2020's conclusion (abnormal
+  source: 'Named as the target of prevention in Wiseman 2020''s conclusion (abnormal
     scarring after burn injury) and distinct from keloids, which the site also lacks.
     Check whether the site already covers it under another name before drafting; if
     not, it is the condition several silicone and pressure pages implicitly treat
-    without a hub
+    without a hub RESOLVED 2026-11-21 as ALREADY COVERED, not written. sk find ''hypertrophic
+    scar'' returns surgical-and-wound-scars at score 92, exact alias. Writing a separate
+    hub would have duplicated it, which is the same trap as the periorbital-wrinkles
+    near-miss. The row''s own instruction to check for another name first is what
+    caught it. Instead the existing hub was linked to the four scar pages the site
+    has and it was missing: strataderm, stratamed, prequel-scar-solutions-stick and
+    the Wiseman 2020 trial. Keloids remain genuinely uncovered; sk find keloid returns
+    no match'
 - name: 'Rebalance the acne hub''s video cards: 10 of 35 are from one licensed esthetician'
   type: condition
   priority: 3
