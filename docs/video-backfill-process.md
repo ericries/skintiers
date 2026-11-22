@@ -343,3 +343,12 @@ candidates by value before fetching, not after: run the popularity check and the
 page-gap check first, then spend the budget on the best one or two. Do not fetch
 speculatively to see what is available. And a 429 here means retry later, never that
 the video lacks captions; only a CACHED negative means that.
+
+**A failed attempt costs 30 minutes (yt_transcript.py `_COOLDOWN_SECONDS`, default 1800).**
+Every 429 rewrites `research-cache/yt-429-cooldown`, and the script then refuses fresh
+fetches locally until that window passes. So a tick that retries a video another tick
+just failed on does not merely fail again, it pushes the window out for everyone.
+Checked 2026-11-22: the cooldown file's mtime IS the last failed attempt, so
+`ls -la research-cache/yt-429-cooldown` tells you whether a refusal came from the
+platform or from the local guard. Before spending an attempt, check that mtime; if it
+is within the last 30 minutes, the fetch will not even leave the machine.
