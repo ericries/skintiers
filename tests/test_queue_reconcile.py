@@ -150,3 +150,27 @@ def test_cross_type_matching_is_an_allowlist_not_a_sweep(tmp_path):
     _page(tmp_path, "ingredients", "retinol", "ingredient", name="Retinol")
     assert sklib.queue_reconcile(tmp_path) == 0
     assert _names(tmp_path, "product", "pending") == ["Retinol"]
+
+
+def test_an_ambiguous_row_is_left_pending_even_at_the_same_score(tmp_path):
+    """The guard that makes the above safe, and the reason score alone is not enough.
+
+    On the real tree 'Retinol' as a product row scores 80 against TEN pages, and
+    'Niacinamide' likewise, so closing on score alone would discard real work.
+
+    A stricter rule, top score >= 80 AND held by exactly one page, was built and
+    measured on 2026-11-22 and then REJECTED. It closed 7 real rows, of which 2 were
+    wrong: 'Dipotassium Glycyrrhizate' matched licorice-root-extract, a related but
+    different ingredient, and 'Home LED devices by what their clearance actually
+    covers' matched home-led-devices-for-body-acne, a different list. Both scored 80
+    with why="all query terms present" although the target contains only some of the
+    terms, so find_entities' 80 grade is not reliable enough to close a row on. No
+    threshold separates them: a correct match (capryloyl salicylic acid) scores 80 too.
+    """
+    sklib.queue_add(tmp_path, "Retinol", "product", 5)
+    for slug, name in [("cosrx-the-retinol-cream", "COSRX The Retinol 0.1 Cream"),
+                       ("inkey-retinol-serum", "The Inkey List Retinol Serum"),
+                       ("necessaire-body-retinol", "Necessaire The Body Retinol")]:
+        _page(tmp_path, "products", slug, "product", name=name)
+    assert sklib.queue_reconcile(tmp_path) == 0
+    assert _names(tmp_path, "product", "pending") == ["Retinol"]

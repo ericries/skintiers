@@ -1785,7 +1785,34 @@
     pages. The shape of a fix is to let reconcile consult find_entities at a HIGH
     score threshold for rows the index misses, bounded by the same cheap-index gate
     that keeps the sweep from blowing its timeout, with a red test per real example
-    above'
+    above ATTEMPTED AND REJECTED 2026-11-22, with measurements. Built the fix the
+    row proposed: let reconcile consult find_entities for rows the exact index misses,
+    gated by a cheap per-type token index so the sweep does not regress into per-row
+    tree walks. Added the discriminator that looked right, top score >= 80 AND exactly
+    one page holding that top score, since ''Retinol'' as a product row scores 80
+    against TEN pages. Red-green, 15 tests passing, 118s on the real tree, well inside
+    the 600s that killed an earlier version.
+
+
+    Then checked the 7 rows it would actually close, and 2 were WRONG: ''Dipotassium
+    Glycyrrhizate'' closed against licorice-root-extract, a related but different
+    ingredient, and ''Home LED devices by what their clearance actually covers'' closed
+    against home-led-devices-for-body-acne, a different list that shares some words.
+    Both scored 80 with why=''all query terms present'' even though the target carries
+    only some of those terms.
+
+
+    So the blocker is upstream: find_entities'' 80 grade does not mean what it says,
+    and no threshold rescues it, because a CORRECT match (Capryloyl salicylic acid
+    -> capryloyl-salicylic-acid-lha) also scores exactly 80. Uniqueness does not help
+    when the score itself is wrong.
+
+
+    REVERTED. The real prerequisite is fixing or replacing the 80 rule in find_entities
+    so ''all query terms present'' is true when claimed; investigate whether it is
+    matching substrings or dropping short tokens. Until then the PMID-alias backfill
+    row is the better lever, since exact-identity matching already works and aliases
+    simply give pages more exact identities to match on.'
 - name: Backfill PMID aliases onto 142 study pages
   type: list
   priority: 2
