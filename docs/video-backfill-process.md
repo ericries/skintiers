@@ -330,3 +330,16 @@ lifts: `-IT6N0tVEaA` (Aleksandra Brown, "Why Your Retinol Isn't Working", educat
 eligible despite her picks restriction), plus `byq-AndfCbg`, `6uisyTDXwkg` and
 `NG1950GE2TI` from earlier. Pass a leading-dash id as a full URL, not a bare id, or
 argparse reads it as a flag.
+
+**It is a RATE limit, not an outage (observed 2026-11-21).** After three days of
+blanket 429s the block appeared to lift: two fresh transcripts fetched normally in one
+backfill tick (`Cqa33QddQ0Y`, `6dl2h_j9WcM`). The very next tick, roughly twenty
+minutes later, 429'd on the first attempt (`YUBf8HsvfzI`). So the platform allows a
+small number of caption fetches per window rather than none.
+
+What follows for the crons. A tick that needs three transcripts will probably not get
+them, and the ones it does get are spent on whatever it tried FIRST. So order
+candidates by value before fetching, not after: run the popularity check and the
+page-gap check first, then spend the budget on the best one or two. Do not fetch
+speculatively to see what is available. And a 429 here means retry later, never that
+the video lacks captions; only a CACHED negative means that.
