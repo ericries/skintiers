@@ -10959,3 +10959,27 @@ prequel-scar-solutions-stick:
   reviewed: '2026-11-21'
   reviewer: main-loop
   verdict: publish
+off-label-prescribing:
+  assurance: sonnet
+  notes: 'Self-verified against the FDA patient page, fetched and read in full; every
+    quoted span machine-checked verbatim. One flag remained and is a known false
+    positive: the citation''s own TITLE nests quotes around Off Label, which is a
+    formatting convention for titles rather than a claim. CORRECTED BEFORE PUBLISH: the
+    footnote first said the page was cached locally, which became false when
+    source_cache.py declined it as a durable primary domain. The footnote now states
+    plainly that it is NOT cached and that re-verification means re-fetching. The page''s
+    sharpest contribution is a distinction the queue row did not ask for: off-label use
+    of an APPROVED drug is not the same as a product whose DailyMed marketing category
+    is an unapproved drug, where the drug itself never went through approval. Those are
+    routinely conflated and the site touches both. That contrast is flagged in the
+    source note as this site''s framing, NOT as something the FDA page asserts. Also
+    carried the FDA''s three shapes of off-label use, condition, route and dose, because
+    a reader who pictures only the first will misjudge the other two. Both halves of the
+    regulatory position are quoted side by side: providers generally may prescribe this
+    way, AND the FDA has not determined the drug safe and effective for that use. Scope
+    note records that this is the United States position only, since that is all the
+    source covers. The Evidence section follows the sibling explainer convention of
+    stating that a method page carries no claims of its own.'
+  reviewed: '2026-11-21'
+  reviewer: main-loop
+  verdict: publish

@@ -1753,3 +1753,15 @@
     resolve by slug across every data/ subdirectory and close the row naming the page
     and its type. A lint rule for duplicate slugs across types would catch the same
     class at build time and is probably the cheaper guard'
+- name: Products whose DailyMed marketing category is an unapproved drug
+  type: list
+  priority: 3
+  status: pending
+  discovered_from: off-label-prescribing
+  source: 'GROUNDED IN A RECURRING ERROR this site has already made and corrected:
+    older topical prescriptions, notably sulfacetamide and sulfur combinations, carry
+    the DailyMed marketing category unapproved drug other (C73627) rather than NDA
+    (C73594), so calling them FDA-approved is wrong. The off-label page now draws
+    the distinction in prose; a list would make it checkable product by product. METHOD:
+    query openFDA drug/label.json or the SPL approval code per product and record
+    the code, never infer from the product looking prescription-like'

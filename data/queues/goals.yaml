@@ -1109,7 +1109,7 @@
 - name: 'Off-label prescribing: what it means and why it is not the same as unproven'
   type: goal
   priority: 3
-  status: pending
+  status: done
   discovered_from: dupilumab
   source: 'Grounded in the dupilumab TSW finding: a Delphi panel recommends it first-line
     for a condition absent from its FDA label. The site will keep meeting this, since

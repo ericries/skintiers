@@ -4675,3 +4675,15 @@
     appears across soothing and post-procedure formulas; the citronellol and geraniol
     pages make it the only named active in this product with no evidence page to route
     to
+- name: Spironolactone (oral, off-label for acne)
+  type: ingredient
+  priority: 4
+  status: pending
+  discovered_from: off-label-prescribing
+  source: 'The cleanest dermatology example of the distinction this page draws: widely
+    prescribed for adult female acne, and that use is NOT on its FDA label. No page
+    here despite hormonal-acne being a covered condition. SCOPE CAUTION: it is ORAL,
+    and this site brackets non-topical treatments as a later phase, so either hold
+    it or write it with the oral route stated plainly, the way a supplement study
+    may be recorded. Check openFDA drug/label.json for the actual approved indications
+    before asserting anything'
