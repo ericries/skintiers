@@ -1786,3 +1786,21 @@
     score threshold for rows the index misses, bounded by the same cheap-index gate
     that keeps the sweep from blowing its timeout, with a red test per real example
     above'
+- name: Backfill PMID aliases onto 142 study pages
+  type: list
+  priority: 2
+  status: pending
+  discovered_from: null
+  source: "MEASURED 2026-11-22: 142 of 170 study pages carry no alias beginning PMID,\
+    \ so sk find 'PMID 3336176' resolved nothing until I added one to weiss-1988 during\
+    \ this tick. This is a direct cause of the duplicate queue rows seen five times\
+    \ this week, because a row naming a study by PMID or by 'Author Year' cannot match\
+    \ a page whose only identity is a long descriptive slug. METHOD, and it is mechanical:\
+    \ most study pages already state the PMID in a Sources footnote, and many carry\
+    \ it in the slug suffix (\u2026-pmid-23732711). Extract it, verify it with one\
+    \ cheap esummary call per page against the page's own title, and append 'PMID\
+    \ <n>' plus an 'Author Year' alias. VERIFY, do not infer: a PMID that does not\
+    \ match the page title means the page is wrong about its own source, which is\
+    \ a finding in itself. Additive only, no slug or URL changes, so it is safe to\
+    \ do in batches. Pair it with the queue-matcher row filed the same day; aliases\
+    \ are the cheaper half of that fix"

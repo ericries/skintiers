@@ -38,6 +38,8 @@ It was written to check a specific claim rather than to praise sunscreen. A derm
 
 ## See Also
 
+- [[weiss-1988-tretinoin-photoaged-skin]], the original randomised trial of topical tretinoin for photoaged skin, which treats existing damage where this trial tests preventing it
+
 - [[sun-damage-photoaging]], the condition and the page carrying the claim this checks
 - [[sunscreen-uv-filters]] and [[tretinoin]]
 

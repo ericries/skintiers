@@ -2473,7 +2473,7 @@
 - name: 'Weiss 1988: topical tretinoin for photoaged skin, the original RCT'
   type: study
   priority: 3
-  status: pending
+  status: done
   discovered_from: hughes-2013-sunscreen-prevention-of-skin-aging-rct-pmid-23732711
   source: THE RETINOID HALF of the fact-check Hughes 2013 only half answered. A dermatologist
     video carded on sun-damage-photoaging gives percentage figures for reversal of

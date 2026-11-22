@@ -1,4 +1,9 @@
 ---
+aliases:
+- PMID 3336176
+- Weiss 1988
+- Topical tretinoin improves photoaged skin
+- The original tretinoin photoaging RCT
 analyzed: '2026-08-08'
 assurance: opus
 name: Topical tretinoin improves photoaged skin. A double-blind vehicle-controlled
@@ -6,7 +11,7 @@ name: Topical tretinoin improves photoaged skin. A double-blind vehicle-controll
 slug: weiss-1988-tretinoin-photoaged-skin
 status: published
 type: study
-updated: '2026-08-08'
+updated: '2026-11-22'
 ---
 
 A 16-week randomized, double-blind, vehicle-controlled trial found that topical tretinoin produced statistically significant clinical and histologic improvement in photoaged skin on both the forearm and the face compared with vehicle cream.[^1]
@@ -26,3 +31,7 @@ A 16-week randomized, double-blind, vehicle-controlled trial found that topical 
 ## Sources
 
 [^1]: Weiss JS, Ellis CN, Headington JT, Tincoff T, Hamilton TA, Voorhees JJ. Topical tretinoin improves photoaged skin. A double-blind vehicle-controlled study. JAMA. 1988;259(4):527-532. PMID 3336176. https://pubmed.ncbi.nlm.nih.gov/3336176/ (accessed 2026-08-08)
+
+## See Also
+
+- [[hughes-2013-sunscreen-prevention-of-skin-aging-rct-pmid-23732711]], the other photoaging randomised trial here, which tests daily sunscreen rather than a retinoid and so answers the prevention half of the question this trial answers the treatment half of
