@@ -38,14 +38,14 @@ images:
 name: Prequel Lucent-C Brightening Vitamin C Serum
 price:
 - amount: 23
+  as_of: '2026-11-07'
   currency: USD
-  size: "30 ml"
-  as_of: '2026-07-28'
-  source: "^1"
+  size: 30 ml
+  source: ^1
 slug: prequel-lucent-c-vitamin-c-serum
 status: published
 type: product
-updated: '2026-07-28'
+updated: '2026-11-22'
 ---
 
 Prequel Lucent-C Brightening Vitamin C Serum is a leave-on vitamin C serum from Prequel, a dermatologist-founded brand, made with 15% L-ascorbic acid (pure vitamin C), ferulic acid, ergothioneine, and niacinamide at a labeled pH of 3.2.[^1]
@@ -110,7 +110,7 @@ Label and marketing terms not established by the graded evidence above:
 
 ## Sources
 
-[^1]: Prequel. Lucent-C Brightening Vitamin C Serum, product page (product name, 15% L-ascorbic acid, pH 3.2, size, listed price, directions, ingredient list, and the clinical and marketing claims are quoted from this page and its product-label image; the 30 ml serum was listed at $23.00). https://prequelskin.com/products/lucent-c-vitamin-c-serum (accessed 2026-07-28)
+[^1]: Prequel. Lucent-C Brightening Vitamin C Serum, product page (product name, 15% L-ascorbic acid, pH 3.2, size, listed price, directions, ingredient list, and the clinical and marketing claims are quoted from this page and its product-label image; the 30 ml serum was listed at $23.00). https://prequelskin.com/products/lucent-c-vitamin-c-serum (accessed 2026-07-28). PRICE RE-VERIFIED 2026-11-22 against the brand's own products.json catalogue export cached locally on 2026-11-07, which lists LUCENT-C at 23.00 and available, unchanged from the July reading; the price as_of is therefore 2026-11-07, the date of that capture, not the date of this check. Nothing else on this page was re-read.
 [^2]: Pinnell SR, Yang H, Omar M, et al. Topical L-ascorbic acid: percutaneous absorption studies. Dermatologic Surgery, 2001;27(2):137-142. https://pubmed.ncbi.nlm.nih.gov/11207686/ (accessed 2026-07-27)
 [^3]: Lin FH, Lin JY, Gupta RD, Tournas JA, Burch JA, Selim MA, Monteiro-Riviere NA, Grichnik JM, Zielinski J, Pinnell SR. Ferulic acid stabilizes a solution of vitamins C and E and doubles its photoprotection of skin. Journal of Investigative Dermatology, 2005;125(4):826-832. https://pubmed.ncbi.nlm.nih.gov/16185284/ (accessed 2026-07-27)
 [^4]: Murray JC, Burch JA, Streilein RD, Iannacchione MA, Hall RP, Pinnell SR. A topical antioxidant solution containing vitamins C and E stabilized by ferulic acid provides protection for human skin against damage caused by ultraviolet irradiation. Journal of the American Academy of Dermatology, 2008;59(3):418-425. https://www.jaad.org/article/S0190-9622(08)00541-0/abstract (accessed 2026-07-27)

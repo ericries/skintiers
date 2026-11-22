@@ -1765,3 +1765,24 @@
     the distinction in prose; a list would make it checkable product by product. METHOD:
     query openFDA drug/label.json or the SPL approval code per product and record
     the code, never infer from the product looking prescription-like'
+- name: 'queue matchers disagree: sk find resolves names that page_exists_for and
+    queue_reconcile both miss'
+  type: list
+  priority: 2
+  status: pending
+  discovered_from: null
+  source: 'MEASURED 2026-11-22 while servicing the PRODUCT tick. Three queue rows
+    filed this week were for pages that already existed, and the sweep closes none
+    of them: sklib.queue_reconcile dry-run returns 0. Tested page_exists_for directly:
+    ''Prequel Lucent-C'' False (page prequel-lucent-c-vitamin-c-serum), ''Bisabolol''
+    False (page alpha-bisabolol), ''Ergothioneine'' True. So the INSERT guard catches
+    some and the sweep catches none, while sk find resolves all three at score 80
+    or better. The failures share a shape: the row name is a PREFIX or a variant of
+    the page name rather than an exact identity, which is exactly what find_entities
+    scores and what the exact-match index does not. DO NOT simply loosen reconcile
+    to substring matching: test_a_row_with_no_page_is_left_pending exists because
+    closing real work is the expensive error, and ''Retinol'' would match a dozen
+    pages. The shape of a fix is to let reconcile consult find_entities at a HIGH
+    score threshold for rows the index misses, bounded by the same cheap-index gate
+    that keeps the sweep from blowing its timeout, with a red test per real example
+    above'

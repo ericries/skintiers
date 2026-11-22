@@ -5964,15 +5964,23 @@
 - name: Prequel Lucent-C
   type: product
   priority: 4
-  status: pending
+  status: done
   discovered_from: prequel-multi-acid-milk-peel
-  source: Queued 2026-11-07 from the same Prequel catalogue survey. LUCENT-C, 23.00,
+  source: 'Queued 2026-11-07 from the same Prequel catalogue survey. LUCENT-C, 23.00,
     presumably a vitamin C product. THE ONE THING THAT MATTERS is which derivative
     and at what concentration, because [[vitamin-c-forms-by-evidence]] already ranks
     them and L-ascorbic acid, sodium ascorbyl phosphate, 3-O-ethyl ascorbic acid and
     the rest are not interchangeable. Get the ordered INCI before writing a word.
     Then route the evidence to that list and to [[vitamin-c]] rather than re-arguing
-    which form wins.
+    which form wins. RESOLVED 2026-11-22 as ALREADY COVERED. sk find ''Lucent-C''
+    returns prequel-lucent-c-vitamin-c-serum at score 80, published since 2026-07-28
+    with images, three graded uses and a full INCI. FOURTH duplicate near-miss this
+    week, and the first one sk find caught BEFORE any research was done rather than
+    after. The tick was spent instead on the one thing the cached catalogue could
+    genuinely improve: the price was carrying as_of 2026-07-28, and the brand''s own
+    products.json export cached 2026-11-07 still lists LUCENT-C at 23.00 and available,
+    so as_of now reads 2026-11-07 with the footnote stating exactly what was re-verified
+    and what was not'
 - name: Lightstim for Wrinkles (K120775, LED Intellectual Properties)
   type: product
   priority: 4
