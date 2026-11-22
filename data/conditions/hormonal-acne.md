@@ -64,6 +64,16 @@ videos:
   related: [acne, adapalene, retinoids]
   thesis: 'Board-certified dermatologist Dr. Aegean Chan shares that she developed sudden jawline acne at 42 after decades clear, and explains that this midlife acne is common in women and is typically hormonal, which the jawline distribution points to. Her plan is the standard approach: get consistent again with a topical retinoid (she uses Differin, an adapalene) three to four times a week, and if that does not help over two to three months, consider the prescription spironolactone, which targets hormonal acne. Her message is that midlife hormonal acne is real and treatable, not something to just suffer through.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Fix Hormonal Acne For REAL
+  creator: Dr. Sam Ellis
+  creator_slug: samantha-ellis
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=Cqa33QddQ0Y
+  posted: '2025-08-01'
+  related: [acne, retinoids, adapalene, tretinoin]
+  thesis: 'Dermatologist Dr. Sam Ellis explains why adult-onset acne tends to appear as women approach menopause, usually in the late thirties or early forties: estrogen falls, so the relative level of testosterone rises, and testosterone drives the acne process, while the drop in estrogen also weakens the skin barrier. She notes that the term hormonal acne is loose, since in her framing most acne is hormonal, and that this kind most often shows up on the lower face and jawline, either cyclically or chronically. Her first-line suggestion is a topical retinoid, and she estimates that around 25 percent of women in their forties and 15 percent in their fifties and beyond are affected, a figure she gives as an estimate rather than a cited statistic.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 

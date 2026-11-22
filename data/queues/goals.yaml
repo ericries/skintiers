@@ -1220,3 +1220,14 @@
     comparison has only one side documented here. Hospital-prescribed rather than
     retail, which is itself worth explaining to a reader who will not find it on a
     shelf
+- name: Menopause and skin
+  type: goal
+  priority: 3
+  status: pending
+  discovered_from: hormonal-acne
+  source: 'Dropped as an unresolved related-slug when carding Dr Sam Ellis on hormonal
+    acne (Cqa33QddQ0Y), which is substantially about the perimenopausal drop in estrogen
+    raising relative testosterone and weakening the barrier. No hub exists. NOTE SCOPE:
+    the site brackets HRT and other non-topical anti-ageing as a later phase, so this
+    hub should cover the SKIN changes and topical responses, and link out rather than
+    assess systemic hormone therapy'

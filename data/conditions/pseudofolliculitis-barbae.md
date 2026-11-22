@@ -31,6 +31,18 @@ tier_list:
   title: Razor-bump treatments by evidence
 type: condition
 updated: '2026-09-25'
+videos:
+- title: 'Surprising Reason You Are Getting Razor Burn: a derm''s complete shaving guide'
+  creator: Dr. Sam Ellis
+  creator_slug: samantha-ellis
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=6dl2h_j9WcM
+  posted: '2025-06-20'
+  related: [acne, folliculitis]
+  thesis: 'Dermatologist Dr. Sam Ellis walks through shaving technique and makes one point that bears directly on razor bumps: multi-blade razors give a closer shave but passing several blades over the skin raises the risk of irritation and of ingrown hairs, so she suggests a single blade for anyone who gets either. She stresses starting with a clean, fresh blade and treats the rest of the setup as mattering as much as the razor itself. She does not use the term pseudofolliculitis barbae, and frames the video as general guidance on shaving rather than treatment of a diagnosed condition.'
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Pseudofolliculitis barbae (PFB), or razor bumps, is a "chronic inflammatory condition characterized by follicular and perifollicular papules and pustules primarily affecting the beard and neck area."[^dalia] It is caused by shaved hairs re-entering the skin and triggering an inflammatory response, is more likely in people with curly hair, and predominantly affects people with skin of color, in whom it can leave significant [[hyperpigmentation]] and scarring.[^nussbaum][^dalia] It shows up on the [[mens-skincare-routine|men's shaving routine]] more than anywhere else, though anyone who shaves can get it.
