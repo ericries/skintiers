@@ -223,3 +223,23 @@ any other. Enumerate the candidates and check each path explicitly, in Python, n
 reading a count out of a glob. The same discipline the site applies to ABSENCE CHECKED
 footnotes applies to its own tooling, and this is the fourth variant of the unsupported
 absence claim already noted in the external-feedback lessons.
+
+## When several long scripts die at once, measure the machine before the code
+
+On 2026-11-23 three mining scripts were killed at the 30-minute background ceiling in
+one morning: `video_scan.py --scan`, `discover_hubs.py`, and earlier the same pattern
+hit `sk publish` and plain `git commit`. The same video scan had finished in about
+seven minutes the day before.
+
+It was not the network and not the scripts. `uptime` showed load averages of 44 to 69
+sustained, with macOS `contactsd` alone at 109% CPU and three Chrome processes adding
+another 160%, while a probe to the PubMed API returned HTTP 200 in 0.22 seconds. The
+work was CPU-starved by processes that have nothing to do with this project.
+
+So when more than one long job dies in a session, spend thirty seconds on `uptime`,
+`ps aux | sort -k3 -rn | head`, and one `curl -w "%{time_total}"` against a known-fast
+API BEFORE reading any script. A machine under load of 50 makes every tick look like a
+tooling bug, and the fix is not in this repo. Note also that the 30-minute background
+limit is the maximum the harness allows, so a job that hits it cannot simply be given
+more time: either wait for the load to clear or narrow the job (channel_health has
+`--skip-tiktok`, scans take `--per`).
