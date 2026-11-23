@@ -2542,3 +2542,14 @@
     numbers that would settle whether eyelid skin ranks thinnest in living people
     are in the full text, which is open access (PMC9205051). Worth fetching the full
     text for the per-site table specifically'
+- name: 'Sukakul 2022: oxidised linalool and limonene in 5,773 consecutively patch-tested
+    patients (PMID 34561893)'
+  type: study
+  priority: 4
+  status: pending
+  discovered_from: limonene
+  source: 'Already fetched and read in full. Worth a study page because two ingredient
+    pages now lean on it and a third will: record the retrospective consecutive design
+    over 2013-2020, the 7.0 and 5.1 percent prevalences, the rising trend, that more
+    than 95 percent of cases appeared only on Day 3/4, and the authors'' own conclusion
+    that clinical relevance must be established before screening is recommended'

@@ -11004,3 +11004,25 @@ ha-2005-facial-skin-thickness-relative-thickness-index-pmid-15861089:
   reviewed: '2026-11-23'
   reviewer: main-loop
   verdict: publish
+limonene:
+  assurance: sonnet
+  notes: 'Self-verified against the PubMed abstract; every quoted span machine-checked
+    verbatim. Two flags were my own glosses sitting in quote marks and are now
+    backticked, the recurring false positive here. tier weak: a scent molecule with no
+    claimed skin benefit cannot earn more. The page is built around the tension the
+    study itself names. Oxidised limonene tests positive in 5.1 percent of 5,773
+    consecutively patch-tested dermatitis patients with a significantly rising trend,
+    AND the authors explicitly ask for clinical-relevance studies before these are
+    recommended for screening. Both halves are quoted. Denominator discipline is
+    explicit in the prose and again in the footnote: 5.1 percent is a share of patients
+    attending a contact dermatitis clinic, not of the public, and the page names the
+    specific misreading it is guarding against. Two practical details carried because
+    they change what a reader should do: more than 95 percent of cases were only
+    identified on Day 3/4, so an early-read patch test misses most of them, and the
+    demographic associations are relayed AS observed associations the study does not
+    explain. Oxidation framing routed to geraniol and the co-reaction figures to
+    citronellol rather than restated. Only the abstract was accessed and the page says
+    so.'
+  reviewed: '2026-11-23'
+  reviewer: main-loop
+  verdict: publish

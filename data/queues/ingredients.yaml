@@ -4621,7 +4621,7 @@
 - name: Oxidised limonene and oxidised linalool
   type: ingredient
   priority: 3
-  status: pending
+  status: done
   discovered_from: geraniol
   source: Named alongside oxidised geraniol in PMID 37840237, which found overrepresentation
     of simultaneous allergy to combinations of all three. Already queued once from
