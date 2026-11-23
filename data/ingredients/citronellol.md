@@ -41,7 +41,7 @@ There are none to quarantine, and that absence is itself the point. No brand adv
 
 ## Who should care
 
-Anyone who already reacts to fragrance, and particularly anyone who has tested positive to oxidised [[limonene]] or oxidised [[linalool]], given the co-reaction rates above. Everybody else can treat it as what it is: a smell.
+Anyone who already reacts to fragrance, and particularly anyone who has tested positive to oxidised limonene or oxidised linalool, given the co-reaction rates above. Everybody else can treat it as what it is: a smell.
 
 Products here that declare it include [[thayers-rose-petal-facial-toner]], [[bio-oil-skincare-oil]], [[caudalie-vinopure-acne-serum]], [[lancome-advanced-genifique-serum]], [[necessaire-the-body-retinol]] and [[skin1004-madagascar-centella-air-fit-suncream]].
 

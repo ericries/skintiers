@@ -174,3 +174,28 @@ def test_an_ambiguous_row_is_left_pending_even_at_the_same_score(tmp_path):
         _page(tmp_path, "products", slug, "product", name=name)
     assert sklib.queue_reconcile(tmp_path) == 0
     assert _names(tmp_path, "product", "pending") == ["Retinol"]
+
+
+def test_a_row_naming_a_page_by_a_prefix_or_variant_is_closed(tmp_path):
+    """Five rows in the week to 2026-11-22 named a page by a shorter or variant name.
+
+    The exact-identity index cannot match those, so the sweep closed none of them and
+    each cost a tick to rediscover. find_entities scores this shape at 80 with exactly
+    ONE page at the top, which is what makes it safe to act on.
+    """
+    sklib.queue_add(tmp_path, "Prequel Lucent-C", "product", 5)
+    _page(tmp_path, "products", "prequel-lucent-c-vitamin-c-serum", "product",
+          name="Prequel Lucent-C Brightening Vitamin C Serum")
+    assert sklib.queue_reconcile(tmp_path) == 1
+    assert _names(tmp_path, "product", "pending") == []
+
+
+def test_a_scored_close_names_the_page_that_satisfied_it(tmp_path):
+    """In this branch the row name and page name differ by definition, so a reader
+    checking the close must be able to see what matched."""
+    sklib.queue_add(tmp_path, "Prequel Lucent-C", "product", 5)
+    _page(tmp_path, "products", "prequel-lucent-c-vitamin-c-serum", "product",
+          name="Prequel Lucent-C Brightening Vitamin C Serum")
+    sklib.queue_reconcile(tmp_path)
+    reason = str(sklib.load_queue(tmp_path, "product")[0].get("resolved_reason", ""))
+    assert "prequel-lucent-c-vitamin-c-serum" in reason, reason

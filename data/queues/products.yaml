@@ -4812,13 +4812,16 @@
 - name: Sunday Riley Good Genes Glycolic Acid Treatment
   type: product
   priority: 5
-  status: pending
+  status: done
   discovered_from: sunday-riley-good-genes
   source: The non-US sibling sold under the SAME name and the same 85 USD for 30 ml,
     SKU GGG-30-UK-FG, read from the brand's products.json on 2026-10-30. Its copy
     makes claims the lactic version does not, that its glycolic sinks 'deeper into
     the skin than other forms of AHA' and is 'formaldehyde-free'; resolve its own
     INCI before drafting, since incidecoder's Good Genes entry is the lactic formula
+  resolved_reason: 'auto-reconciled: the product page ''sunday-riley-good-genes''
+    is the single best match for ''Sunday Riley Good Genes Glycolic Acid Treatment''
+    at find_entities score >= 80 (queue_reconcile)'
 - name: Zyclara (imiquimod 3.75% and 2.5% cream)
   type: product
   priority: 5
@@ -6849,3 +6852,17 @@
     behind it is manufacturer-authored, which is exactly the kind of claim-versus-evidence
     gap this site exists to show. Check current availability and naming first; the
     trial is from 2016 and the line may have been renamed
+- name: 'Sunday Riley Good Genes is LACTIC acid, not glycolic: check where the site
+    says otherwise'
+  type: product
+  priority: 3
+  status: pending
+  discovered_from: null
+  source: 'SURFACED 2026-11-23 by the reconcile sweep. A pending product row read
+    ''Sunday Riley Good Genes Glycolic Acid Treatment'' and was closed against sunday-riley-good-genes,
+    whose page name is ''Sunday Riley Good Genes Lactic Acid Treatment''. The matcher
+    was right about WHICH page; the row''s own name carried a factual error, and Good
+    Genes is a lactic acid product. TASK: grep the site for any other place that pairs
+    Good Genes with glycolic, check the product page itself still says lactic, and
+    correct whatever propagated the error. Small, but this is exactly the confusion
+    the site exists to prevent, and a closed queue row no longer surfaces it'

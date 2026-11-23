@@ -1996,10 +1996,13 @@
 - name: Capryloyl salicylic acid
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: la-roche-posay-effaclar-duo-acne-treatment-bpo-lha
   source: The actual INCI name of La Roche-Posay's LHA, declared here; distinct from
     salicylic acid and from the already-queued generic 'lipohydroxy acid' entry
+  resolved_reason: 'auto-reconciled: the ingredient page ''capryloyl-salicylic-acid-lha''
+    is the single best match for ''Capryloyl salicylic acid'' at find_entities score
+    >= 80 (queue_reconcile)'
 - name: Imiquimod (Aldara, Zyclara)
   type: ingredient
   priority: 5
@@ -2443,7 +2446,7 @@
 - name: Imiquimod 5% cream
   type: ingredient
   priority: 5
-  status: pending
+  status: done
   discovered_from: mohs-micrographic-surgery
   source: 'Named on mohs-micrographic-surgery (2026-10-21) as one of the topical options
     for superficial BCC that the van Loo trial did NOT study, and the site has no
@@ -2452,6 +2455,8 @@
     data, the same free-primary route used for efinaconazole. Grade it on its OWN
     label evidence; do not transfer anything from the Mohs trial, which compared only
     surgery with surgery. Confirm the marketing category is NDA before writing FDA-approved.'
+  resolved_reason: 'auto-reconciled: the ingredient page ''imiquimod'' is the single
+    best match for ''Imiquimod 5% cream'' at find_entities score >= 80 (queue_reconcile)'
 - name: Methylisothiazolinone and the thiazolinone preservatives
   type: ingredient
   priority: 5
@@ -4329,10 +4334,13 @@
 - name: Dipotassium Glycyrrhizate
   type: ingredient
   priority: 7
-  status: pending
+  status: done
   discovered_from: kravebeauty-kale-lalu-yaha
   source: KraveBeauty Kale-Lalu-yAHA declared INCI, last of 23; the licorice-derived
     soothing agent, distinct from the licorice-root-extract page that already exists
+  resolved_reason: 'auto-reconciled: the ingredient page ''licorice-root-extract''
+    is the single best match for ''Dipotassium Glycyrrhizate'' at find_entities score
+    >= 80 (queue_reconcile)'
 - name: Methylisothiazolinone
   type: ingredient
   priority: 4
@@ -4539,13 +4547,16 @@
 - name: Hydrocortisone 1% (OTC topical corticosteroid)
   type: ingredient
   priority: 4
-  status: pending
+  status: done
   discovered_from: choi-2026-topical-corticosteroid-withdrawal-systematic-review-pmid-42170112
   source: The review attributes TCSW to HIGH-potency steroids used long-term on the
     face, which makes the low-potency OTC end of the class a distinct and unqueued
     gap. The site has topical-corticosteroids as a class page but no page for the
     one steroid people buy without a prescription. Ground it in the FDA OTC monograph
     via openFDA rather than the review
+  resolved_reason: 'auto-reconciled: the ingredient page ''hydrocortisone-otc-topical-corticosteroid''
+    is the single best match for ''Hydrocortisone 1% (OTC topical corticosteroid)''
+    at find_entities score >= 80 (queue_reconcile)'
 - name: ISO 24444 (in-vivo SPF test method)
   type: ingredient
   priority: 4

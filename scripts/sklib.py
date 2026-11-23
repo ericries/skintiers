@@ -1477,6 +1477,37 @@ def creator_display_name(creator, creator_slug, name_by_slug):
 _ALIAS_TYPES = {"condition": ("goal",), "goal": ("condition",)}
 
 
+def _token_index(data_dir):
+    """type -> set of every token in a page's name, slug, brand or aliases.
+
+    A cheap pre-filter for the scored fallback in `queue_reconcile`. find_entities
+    walks the whole tree per call, and _identity_index records what that costs:
+    ~2,400 tree walks over 1,193 rows, blowing a 600s timeout. The 80-point rule it
+    applies is "every query token present", so a row with ANY token absent from this
+    type's corpus cannot score 80 and need not be scored at all. One extra pass over
+    the files, never one per row.
+    """
+    index = {}
+    base = pathlib.Path(data_dir)
+    for typ, plural in TYPE_TO_LIST.items():
+        toks = set()
+        d = base / plural
+        if d.is_dir():
+            for f in d.glob("*.md"):
+                try:
+                    post = frontmatter.load(f)
+                except Exception:
+                    continue
+                parts = [str(post.get("name") or ""), str(post.get("slug") or f.stem),
+                         str(post.get("brand") or "")]
+                parts += [str(a) for a in (post.get("aliases") or [])]
+                for part in parts:
+                    toks.update(_tokens(part))
+        toks.discard("")
+        index[typ] = toks
+    return index
+
+
 def _identity_index(data_dir):
     """type -> set of normalised identity keys (name, slug, every alias).
 
@@ -1524,8 +1555,10 @@ def queue_reconcile(data_dir, dry_run=False):
     """
     closed = 0
     index = _identity_index(data_dir)
+    token_index = _token_index(data_dir)
     for typ in QUEUE_TYPES:
         keys = index.get(typ) or set()
+        tokens_for_type = token_index.get(typ) or set()
         items = load_queue(data_dir, typ)
         touched = False
         for it in items:
@@ -1534,6 +1567,7 @@ def queue_reconcile(data_dir, dry_run=False):
             name = str(it.get("name") or "")
             if not name:
                 continue
+            scored_slug = None
             cands = {_norm(name), _norm(_PAREN_RE.sub(" ", name))}
             cands.discard("")
             match_type = None
@@ -1576,12 +1610,42 @@ def queue_reconcile(data_dir, dry_run=False):
                             match_type = other_typ
                             break
             if match_type is None:
+                # LAST resort, deliberately narrow. The exact index cannot match a row
+                # filed under a short or variant name against the page carrying the
+                # full one: "Prequel Lucent-C" vs the Lucent-C Brightening Vitamin C
+                # Serum, "Bisabolol" vs alpha-bisabolol, "Dipotassium Glycyrrhizate"
+                # vs a licorice page that names it in its title. Five such rows cost a
+                # tick each in the week to 2026-11-22.
+                #
+                # Two conditions, both required. Top score at least 80, find_entities'
+                # "every query token present" grade; AND exactly one page holding that
+                # top score. Score alone is NOT enough: "Retinol" as a product row
+                # scores 80 against ten pages and "Niacinamide" likewise, so closing on
+                # score would discard real work.
+                if tokens_for_type and cands:
+                    row_tokens = set(_tokens(name))
+                    if row_tokens and row_tokens <= tokens_for_type:
+                        hits = find_entities(name, data_dir, typ=typ)
+                        if hits and (hits[0].get("score") or 0) >= 80:
+                            top = hits[0]["score"]
+                            if sum(1 for h in hits if h.get("score") == top) == 1:
+                                match_type = typ
+                                scored_slug = hits[0].get("slug")
+            if match_type is None:
                 continue
             closed += 1
             if dry_run:
                 continue
             it["status"] = "done"
-            if match_type == typ:
+            if scored_slug:
+                # Reached by scoring, not exact identity, so NAME the page. A reader
+                # checking the close needs to see what satisfied it, because the row
+                # name and the page name differ by definition in this branch.
+                it["resolved_reason"] = (
+                    f"auto-reconciled: the {typ} page {scored_slug!r} is the single "
+                    f"best match for {name!r} at find_entities score >= 80 "
+                    f"(queue_reconcile)")
+            elif match_type == typ:
                 it["resolved_reason"] = (
                     f"auto-reconciled: a {typ} page already exists for "
                     f"{name!r} (queue_reconcile)")

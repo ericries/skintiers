@@ -1189,10 +1189,13 @@
 - name: Ronnstad 2026 real-world JAK inhibitors in atopic dermatitis meta-analysis
   type: study
   priority: 5
-  status: pending
+  status: done
   discovered_from: upadacitinib
   source: PMID 41296263 Am J Clin Dermatol; already cited on upadacitinib, grounds
     abrocitinib/baricitinib too
+  resolved_reason: 'auto-reconciled: the study page ''ronnstad-2026-jak-inhibitors-atopic-dermatitis-real-world-meta-analysis''
+    is the single best match for ''Ronnstad 2026 real-world JAK inhibitors in atopic
+    dermatitis meta-analysis'' at find_entities score >= 80 (queue_reconcile)'
 - name: 'Xiong 2026: network meta-analysis of targeted systemic therapies for moderate-to-severe
     atopic dermatitis (33 phase 3-4 RCTs, 16334 participants; PMID 41919337)'
   type: study
