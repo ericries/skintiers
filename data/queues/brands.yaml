@@ -898,4 +898,8 @@
     / conductives and serums) and prequel fixed (2 of its 4 gaps were pages I shipped
     earlier today). Detector used: for each brand page, collect product pages whose
     brand: frontmatter matches, subtract slugs already wikilinked in the body. Worst
-    remaining: paulas-choice 6, naturium 6, cerave 5, tower-28 4'
+    remaining: paulas-choice 6, naturium 6, cerave 5, tower-28 4 PROGRESS 2026-11-23:
+    paulas-choice fixed, 5 of 11 linked to all 11. Count holds at 27 brand pages because
+    two of its six ''unlinked'' products turned out to be DUPLICATE PAGES of products
+    the page already linked, not missing links; that is filed separately at priority
+    2. Worst remaining: naturium 6, cerave 5, tower-28 4'

@@ -17,6 +17,12 @@ Products profiled here so far:
 - [[paulas-choice-10-niacinamide-booster]]: a 10% niacinamide serum; active on [[niacinamide]].
 - [[paulas-choice-c15-super-booster]]: a 15% vitamin C serum; active on [[ascorbic-acid-vitamin-c]].
 - [[paulas-choice-pro-collagen-peptide-plumping-moisturizer]]: a peptide moisturizer; active on [[peptides]].
+- [[paulas-choice-skin-perfecting-2-bha]]: the 2% BHA Liquid Exfoliant the brand is best known for; active on [[salicylic-acid]].
+- [[paulas-choice-skin-perfecting-25-aha-2-bha-exfoliant-peel]]: a 25% AHA plus 2% BHA leave-on peel, the strongest acid product here.
+- [[paulas-choice-boost-10-azelaic-acid-booster]]: a 10% azelaic acid booster; active on [[azelaic-acid]].
+- [[paulas-choice-peptide-booster]]: a peptide serum sold as a booster.
+- [[paulas-choice-weightless-body-treatment-2-bha]]: the 2% BHA for body rather than face.
+- [[paulas-choice-clear-back-body-acne-spray]]: a benzoyl peroxide spray for back and body; active on [[benzoyl-peroxide]].
 
 ## Sources
 

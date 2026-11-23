@@ -6884,3 +6884,37 @@
 
     Nothing to fix. Filed and resolved inside 24 hours, which is the cost of asserting
     a defect before reading the artifact'
+- name: 'DECIDE: three products have TWO published pages each, under different slugs'
+  type: product
+  priority: 2
+  status: pending
+  discovered_from: null
+  source: 'FOUND 2026-11-23 while linking the paulas-choice brand page. Three products
+    each have two live pages carrying the IDENTICAL name:, so both render at different
+    URLs with their own grades and sources and a reader can land on either.
+
+
+    Measured, older page first in each pair:
+
+    - la-roche-posay-toleriane (Jul 28, 1097 words, 20 inbound links) vs la-roche-posay-toleriane-double-repair-face-moisturizer
+    (Sep 24, 819 words, 1 inbound)
+
+    - paulas-choice-skin-perfecting-2-bha (Jul 28, 970 words, 4 inbound) vs paulas-choice-skin-perfecting-2-bha-liquid-exfoliant
+    (Sep 24, 706 words, 2 inbound)
+
+    - paulas-choice-skin-perfecting-8-aha-gel (Aug 7, 1457 words, 6 inbound) vs paulas-choice-skin-perfecting-8-aha-gel-exfoliant
+    (Sep 25, 861 words, 1 inbound)
+
+
+    The pattern is consistent: all three duplicates were written in late September
+    against originals from July and August, and in every pair the ORIGINAL is longer
+    and far better linked. The obvious resolution is to keep the original, fold anything
+    the newer page adds into it, redirect or delete the newer slug, and add its name
+    as an alias.
+
+
+    NOT ACTED ON: merging or deleting a published page changes a live URL, which is
+    the user''s call. A guard is in place meanwhile (tests/test_no_duplicate_page_names.py)
+    that grandfathers these three and fails on any NEW collision; it also fails if
+    a grandfathered pair is resolved but left in the list, so the exception set cannot
+    go stale'
