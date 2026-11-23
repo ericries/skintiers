@@ -243,3 +243,27 @@ tooling bug, and the fix is not in this repo. Note also that the 30-minute backg
 limit is the maximum the harness allows, so a job that hits it cannot simply be given
 more time: either wait for the load to clear or narrow the job (channel_health has
 `--skip-tiktok`, scans take `--per`).
+
+## Read the artifact before filing a defect
+
+Three times in two days I asserted a problem that did not exist, each time reasoning
+from plausibility instead of opening the thing itself:
+
+1. 57 broken creator links, from a shell glob that silently never ran. All 57 resolved.
+2. Two "wrong" reconcile matches. `licorice-root-extract` is NAMED "Licorice root
+   extract (glabridin / dipotassium glycyrrhizate)", and `home-led-devices-for-body-acne`
+   is NAMED "Home LED devices sold for body acne, by what their clearance actually
+   covers". Both matches were right; I had not read either page's `name:`.
+3. "Good Genes is lactic, not glycolic, so the row is wrong." Sunday Riley sells BOTH,
+   same name and price, distinguished by SKU prefix, and the site already documented it
+   and carried the glycolic name as an alias.
+
+Each cost more than the check would have: a retraction, a reverted fix that was
+working, and a queue row filed and closed within a day. The shape is always the same,
+a confident claim about something one `cat`, `sk find` or `frontmatter.load` away.
+
+So before filing a defect or rejecting a match: open the page and read its `name:` and
+`aliases:`. Before claiming a file is missing, test the path. Before calling a match
+wrong, check whether the target's own title contains the words you think are absent.
+The site demands primary sources for claims about the world; a claim about this repo is
+not exempt, and the repo is the easiest primary source there is.

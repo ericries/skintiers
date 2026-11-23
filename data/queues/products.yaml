@@ -6856,7 +6856,7 @@
     says otherwise'
   type: product
   priority: 3
-  status: pending
+  status: done
   discovered_from: null
   source: 'SURFACED 2026-11-23 by the reconcile sweep. A pending product row read
     ''Sunday Riley Good Genes Glycolic Acid Treatment'' and was closed against sunday-riley-good-genes,
@@ -6865,4 +6865,22 @@
     Genes is a lactic acid product. TASK: grep the site for any other place that pairs
     Good Genes with glycolic, check the product page itself still says lactic, and
     correct whatever propagated the error. Small, but this is exactly the confusion
-    the site exists to prevent, and a closed queue row no longer surfaces it'
+    the site exists to prevent, and a closed queue row no longer surfaces it RESOLVED
+    2026-11-23: NO ERROR EXISTS. I filed this row yesterday and it was wrong. Sunday
+    Riley sells TWO products called Good Genes, listed side by side in its own catalogue
+    at the same 85 dollars for 30 ml: the Lactic Acid Treatment with US SKUs carrying
+    a GGL prefix, and a Good Genes Glycolic Acid Treatment whose SKU reads GGG-30-UK-FG.
+    The site already documents this on both sunday-riley-good-genes and the sunday-riley
+    brand page, quotes the glycolic version''s distinct marketing copy, and carries
+    ''Good Genes Glycolic Acid Treatment'' as an explicit ALIAS on the product page.
+
+
+    So the reconcile close that prompted this row was also correct: the pending row
+    named the glycolic product, and the page it closed against covers that product
+    by alias. The exact index missed it only because the row carried the brand prefix
+    the alias omits, which is precisely the prefix shape the scored fallback exists
+    to catch.
+
+
+    Nothing to fix. Filed and resolved inside 24 hours, which is the cost of asserting
+    a defect before reading the artifact'
