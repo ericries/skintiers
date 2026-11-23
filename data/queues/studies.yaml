@@ -2484,7 +2484,7 @@
 - name: Is eyelid skin actually thinner? What measurement studies show
   type: study
   priority: 3
-  status: pending
+  status: done
   discovered_from: periorbital-wrinkles
   source: A belief repeated everywhere in skincare writing, including as justification
     for separate eye creams, that I could NOT source when writing the periorbital-wrinkles
@@ -2527,3 +2527,15 @@
     competitor product as comparator. Primary result is faster relief at 1 and 2 minutes
     with NO difference in peak intensity, severity or duration, and both products
     working by 15 minutes'
+- name: 'Meng 2022: facial skin thickness by high-frequency ultrasound in 118 adults
+    (PMID 35710358)'
+  type: study
+  priority: 3
+  status: pending
+  discovered_from: ha-2005-facial-skin-thickness-relative-thickness-index-pmid-15861089
+  source: 'The in vivo counterweight to Ha 2005''s three cadavers: 118 healthy adults,
+    eight facial sites including eyelid, measuring epidermal and dermal thickness
+    separately. Its ABSTRACT reports only gender, age and BMI effects, so the site-by-site
+    numbers that would settle whether eyelid skin ranks thinnest in living people
+    are in the full text, which is open access (PMC9205051). Worth fetching the full
+    text for the per-site table specifically'

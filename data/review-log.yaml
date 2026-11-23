@@ -10983,3 +10983,24 @@ off-label-prescribing:
   reviewed: '2026-11-21'
   reviewer: main-loop
   verdict: publish
+ha-2005-facial-skin-thickness-relative-thickness-index-pmid-15861089:
+  assurance: sonnet
+  notes: 'Self-verified against the PubMed abstract; every quoted span machine-checked
+    verbatim. One flag was my own paraphrase of the folk claim sitting in quote marks
+    and is now backticked, the recurring false positive on this site. The page answers
+    the queue row''s question honestly in both directions: the claim that eyelid skin
+    is thinnest IS what the study found, in all subjects, and the study is THREE
+    CADAVERS. Both facts lead rather than one being buried. Ratios are reported as the
+    paper reports them, nasal tip 3.30x and brow 2.8x, with the paper''s own stated
+    reason for using ratios, that absolute values vary between measurement methods, so
+    a reader does not go looking for millimetres that are not there. Bounded the
+    neighbouring literature rather than implying corroboration: Meng 2022 is cited ONLY
+    to say what it does and does not report, n=118 in vivo across eight sites including
+    eyelid, abstract reports gender, age and BMI effects and NOT a site ranking, so the
+    page states explicitly that it neither confirms nor contradicts Ha. ABSENCE CHECKED
+    records that Ha reports no absolute thickness, no spread, no statistical test and no
+    demographics for the three cadavers, so none is stated. Both abstracts only; neither
+    full text was accessed, and the page says so.'
+  reviewed: '2026-11-23'
+  reviewer: main-loop
+  verdict: publish
