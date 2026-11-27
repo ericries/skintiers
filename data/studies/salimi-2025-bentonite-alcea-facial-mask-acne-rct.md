@@ -1,4 +1,7 @@
 ---
+aliases:
+- PMID 41347526
+- Salimi 2025
 analyzed: '2026-09-16'
 assurance: opus
 name: 'Salimi 2025 Bentonite-Alcea sulphurea Facial Mask for Acne Severity: Add-On
@@ -6,7 +9,7 @@ name: 'Salimi 2025 Bentonite-Alcea sulphurea Facial Mask for Acne Severity: Add-
 slug: salimi-2025-bentonite-alcea-facial-mask-acne-rct
 status: published
 type: study
-updated: '2026-09-16'
+updated: '2026-11-27'
 ---
 
 A small add-on randomized controlled trial reported that adding a bentonite-plus-Alcea-sulphurea clay facial mask to oral azithromycin lowered acne lesion counts and severity over 8 weeks; because both arms received the antibiotic, it measures the mask's add-on effect rather than the mask alone, and the between-group advantage held only on unadjusted analysis (see limitations).[^1]

@@ -1,4 +1,7 @@
 ---
+aliases:
+- PMID 42084697
+- Yosipovitch 2026
 analyzed: '2026-08-09'
 assurance: opus
 name: Yosipovitch 2026 Itch Relief and Quality-of-Life Improvement with Abrocitinib
@@ -6,7 +9,7 @@ name: Yosipovitch 2026 Itch Relief and Quality-of-Life Improvement with Abrociti
 slug: yosipovitch-2026-itch-relief-and-quality-of-life-improvement-with-abro
 status: published
 type: study
-updated: '2026-08-09'
+updated: '2026-11-27'
 ---
 
 A post hoc pooled analysis of two phase III trials found abrocitinib produced numerically higher and faster itch responses than dupilumab in moderate-to-severe [[atopic-dermatitis]], though confidence intervals for the two primary itch measures overlapped.[^1]

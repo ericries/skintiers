@@ -1,11 +1,14 @@
 ---
+aliases:
+- PMID 24595578
+- Stein 2014
 analyzed: '2026-08-08'
 assurance: sonnet
 name: Stein 2014 ivermectin 1% papulopustular rosacea pivotal trials
 slug: stein-2014-ivermectin-1-papulopustular-rosacea-pivotal-trials
 status: published
 type: study
-updated: '2026-08-08'
+updated: '2026-11-27'
 ---
 
 Two identically designed phase 3 trials found once-daily [[ivermectin-topical|ivermectin 1% cream]] significantly outperformed vehicle for treatment success and inflammatory lesion reduction in [[rosacea-papulopustular|papulopustular rosacea]].[^1]

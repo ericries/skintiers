@@ -1,11 +1,13 @@
 ---
+aliases:
+- PMID 40932354
 analyzed: '2026-08-08'
 assurance: opus
 name: CIR amorphous silica safety assessment (Burnett 2025)
 slug: cir-amorphous-silica-safety-assessment-burnett-2025
 status: published
 type: study
-updated: '2026-08-08'
+updated: '2026-11-27'
 ---
 
 An expert-panel safety assessment concluded that synthetically manufactured amorphous [[silica]] and hydrated silica are safe for use in cosmetics when formulated to be non-irritating.[^1]

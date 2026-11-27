@@ -1,4 +1,7 @@
 ---
+aliases:
+- PMID 41236273
+- Huang 2025
 analyzed: '2026-08-08'
 assurance: opus
 name: 'Tretinoin for Photodamaged Facial Skin: Systematic Review and Meta-Analysis
@@ -6,7 +9,7 @@ name: 'Tretinoin for Photodamaged Facial Skin: Systematic Review and Meta-Analys
 slug: huang-2025-tretinoin-meta-analysis-photodamage
 status: published
 type: study
-updated: '2026-08-08'
+updated: '2026-11-27'
 ---
 
 A systematic review and meta-analysis of eight RCTs found topical tretinoin produced statistically significant improvements in both fine and coarse facial wrinkles versus vehicle, strengthening the aggregate evidence base for [[tretinoin]] in [[anti-aging]].[^1]

@@ -1,4 +1,7 @@
 ---
+aliases:
+- PMID 23918998
+- Deo 2013
 analyzed: '2026-08-08'
 assurance: opus
 name: 'Kojic Acid vis-a-vis its Combinations with Hydroquinone and Betamethasone Valerate
@@ -6,7 +9,7 @@ name: 'Kojic Acid vis-a-vis its Combinations with Hydroquinone and Betamethasone
 slug: deo-2013-kojic-acid-combinations-rct
 status: published
 type: study
-updated: '2026-08-08'
+updated: '2026-11-27'
 ---
 
 A four-arm single-blind RCT in 80 melasma patients found kojic acid combined with hydroquinone produced the highest clinical efficacy, ahead of the triple combination and kojic acid alone, with kojic acid plus betamethasone valerate lowest.[^1]

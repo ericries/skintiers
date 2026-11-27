@@ -1,4 +1,7 @@
 ---
+aliases:
+- PMID 41548865
+- Peacker 2026
 analyzed: '2026-08-09'
 assurance: sonnet
 name: Peacker 2026 Multiomics analyses prioritize disease genes and pathways in hidradenitis
@@ -6,7 +9,7 @@ name: Peacker 2026 Multiomics analyses prioritize disease genes and pathways in 
 slug: peacker-2026-multiomics-analyses-prioritize-disease-genes-and-pathways
 status: published
 type: study
-updated: '2026-08-09'
+updated: '2026-11-27'
 ---
 
 A multi-biobank GWAS meta-analysis of hidradenitis suppurativa found 9 genome-wide-significant loci (5 novel) and used variant-to-gene mapping to prioritize 11 lead candidate genes (including SMPD4 and PSMA4) and eQTL/pQTL Mendelian randomization to nominate additional genes (notably MPO), alongside a reaffirmed role for KLF5.[^1]

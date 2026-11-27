@@ -1,11 +1,14 @@
 ---
+aliases:
+- PMID 33038019
+- Bamford 2021
 analyzed: '2026-08-08'
 assurance: sonnet
 name: Bamford 2021 mesoporous magnesium carbonate powder cosmetics study
 slug: bamford-2021-mesoporous-magnesium-carbonate-powder-cosmetics-study
 status: published
 type: study
-updated: '2026-08-08'
+updated: '2026-11-27'
 ---
 
 An industry-affiliated materials/human-panel study found that mesoporous magnesium carbonate (MMC, trade name Upsalite) outperformed most benchmark powder fillers on oil absorption, mattifying duration, and flashback avoidance, with no irritation seen in a 50-person patch test.[^1]

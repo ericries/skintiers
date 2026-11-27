@@ -1,11 +1,14 @@
 ---
+aliases:
+- PMID 22895927
+- Garner 2012
 analyzed: '2026-08-08'
 assurance: sonnet
 name: 'Minocycline for acne vulgaris: efficacy and safety'
 slug: garner-2012-cochrane-minocycline-acne
 status: published
 type: study
-updated: '2026-08-08'
+updated: '2026-11-27'
 ---
 
 A Cochrane systematic review of 39 RCTs (6,013 participants) found oral minocycline effective for moderate to moderately-severe inflammatory [[acne]], but with no evidence it outperforms other commonly-used acne treatments, and with safety concerns versus other tetracyclines.[^1]

@@ -1,4 +1,7 @@
 ---
+aliases:
+- PMID 41931685
+- Farris 2026
 analyzed: '2026-08-09'
 assurance: opus
 name: 'Farris 2026 Beyond Efficacy: 0.6% Selenium Disulfide Shampoo Matches 2% Ketoconazole
@@ -6,7 +9,7 @@ name: 'Farris 2026 Beyond Efficacy: 0.6% Selenium Disulfide Shampoo Matches 2% K
 slug: farris-2026-beyond-efficacy-0-6-selenium-disulfide-shampoo-matches-2-k
 status: published
 type: study
-updated: '2026-08-09'
+updated: '2026-11-27'
 ---
 
 A randomized, double-blind trial in moderate-to-severe scalp seborrheic dermatitis/dandruff found a 0.6% micronized selenium disulfide shampoo statistically matched 2% ketoconazole shampoo on efficacy while beating it on cosmesis (hair feel/appearance).[^1]

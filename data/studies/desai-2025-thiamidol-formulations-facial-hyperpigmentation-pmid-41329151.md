@@ -1,4 +1,7 @@
 ---
+aliases:
+- PMID 41329151
+- Desai 2025
 analyzed: '2026-08-30'
 assurance: opus
 name: 'Desai 2025: Thiamidol serum and a Thiamidol day/night regimen both visibly
@@ -6,7 +9,7 @@ name: 'Desai 2025: Thiamidol serum and a Thiamidol day/night regimen both visibl
 slug: desai-2025-thiamidol-formulations-facial-hyperpigmentation-pmid-41329151
 status: published
 type: study
-updated: '2026-08-30'
+updated: '2026-11-27'
 ---
 
 A randomized study of 90 subjects with facial hyperpigmentation found that a [[thiamidol]] serum and a fuller Thiamidol-based day/night regimen both produced visible reductions in [[hyperpigmentation]] by colorimeter and skin-tone measures as early as week 2, continuing through 12 weeks of use.[^1]

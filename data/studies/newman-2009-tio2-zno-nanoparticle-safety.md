@@ -1,4 +1,7 @@
 ---
+aliases:
+- PMID 19646780
+- Newman 2009
 analyzed: '2026-08-08'
 assurance: sonnet
 name: The safety of nanosized particles in titanium dioxide- and zinc oxide-based
@@ -6,7 +9,7 @@ name: The safety of nanosized particles in titanium dioxide- and zinc oxide-base
 slug: newman-2009-tio2-zno-nanoparticle-safety
 status: published
 type: study
-updated: '2026-08-08'
+updated: '2026-11-27'
 ---
 
 A dermatology literature review of studies and position statements from 1980-2008 found no evidence that titanium dioxide or zinc oxide nanoparticles in sunscreens penetrate significantly beyond the skin's stratum corneum.[^1]

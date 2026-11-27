@@ -1,4 +1,7 @@
 ---
+aliases:
+- PMID 41873648
+- Ma 2026
 analyzed: '2026-08-09'
 assurance: opus
 name: 'Ma 2026 Cross-Cultural Beliefs and Stigmatization in Vitiligo: A Systematic
@@ -6,7 +9,7 @@ name: 'Ma 2026 Cross-Cultural Beliefs and Stigmatization in Vitiligo: A Systemat
 slug: ma-2026-cross-cultural-beliefs-and-stigmatization-in-vitiligo-a-system
 status: published
 type: study
-updated: '2026-08-09'
+updated: '2026-11-27'
 ---
 
 A systematic review of 23 studies found that cultural beliefs about [[vitiligo]] (contagion, divine punishment, supernatural causes) and the resulting stigma, discrimination, and quality-of-life impairment are consistently more severe in African, Middle Eastern, and South Asian populations, in women, and in darker skin phototypes, than in Western cohorts.[^1]

@@ -1,4 +1,7 @@
 ---
+aliases:
+- PMID 41037525
+- Kircik 2025
 analyzed: '2026-08-30'
 assurance: opus
 name: 'Kircik 2025: Ruxolitinib cream matched or beat a midpotency steroid for mild-to-moderate
@@ -6,7 +9,7 @@ name: 'Kircik 2025: Ruxolitinib cream matched or beat a midpotency steroid for m
 slug: kircik-2025-ruxolitinib-vs-triamcinolone-atopic-dermatitis-pmid-41037525
 status: published
 type: study
-updated: '2026-08-30'
+updated: '2026-11-27'
 ---
 
 A phase 2 dose-ranging trial compared twice-daily 1.5% ruxolitinib cream against a midpotency topical steroid (0.1% triamcinolone) in adults with mild to moderate [[atopic-dermatitis]], finding ruxolitinib matched or exceeded the steroid on clearance and beat it on itch relief.[^1]

@@ -1,4 +1,7 @@
 ---
+aliases:
+- PMID 9843009
+- Creidi 1998
 analyzed: '2026-08-05'
 assurance: opus
 name: Profilometric evaluation of photodamage after topical retinaldehyde and retinoic
@@ -6,7 +9,7 @@ name: Profilometric evaluation of photodamage after topical retinaldehyde and re
 slug: creidi-1998-retinaldehyde-retinoic-acid-profilometry
 status: published
 type: study
-updated: '2026-08-05'
+updated: '2026-11-27'
 ---
 
 This is a 1998 randomized controlled trial from the Department of Functional Dermatology at University Hospital, Besançon, France, that compared 0.05% [[retinaldehyde]] cream against 0.05% retinoic acid cream and vehicle in 125 patients with photodamaged facial skin, finding both active creams significantly reduced wrinkle and roughness measurements at 18 weeks while retinaldehyde caused less irritation than retinoic acid.[^1]

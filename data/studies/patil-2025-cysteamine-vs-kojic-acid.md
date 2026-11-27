@@ -1,4 +1,7 @@
 ---
+aliases:
+- PMID 40296942
+- Patil 2025
 analyzed: '2026-08-08'
 assurance: opus
 name: Comparison of the Effectiveness and Safety of 5% Cysteamine and 2% Kojic Acid
@@ -6,7 +9,7 @@ name: Comparison of the Effectiveness and Safety of 5% Cysteamine and 2% Kojic A
 slug: patil-2025-cysteamine-vs-kojic-acid
 status: published
 type: study
-updated: '2026-08-08'
+updated: '2026-11-27'
 ---
 
 A randomized open-label trial in Indian women with facial melasma found 5% cysteamine and 2% kojic acid creams produced similar improvement at 16 weeks, with no statistically significant difference between them.[^1]

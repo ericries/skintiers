@@ -1,4 +1,7 @@
 ---
+aliases:
+- PMID 29947134
+- Dhaliwal 2019
 analyzed: '2026-08-03'
 assurance: opus
 name: Prospective, randomized, double-blind assessment of topical bakuchiol and retinol
@@ -6,7 +9,7 @@ name: Prospective, randomized, double-blind assessment of topical bakuchiol and 
 slug: dhaliwal-2019-bakuchiol-retinol-photoaging
 status: published
 type: study
-updated: '2026-08-03'
+updated: '2026-11-27'
 ---
 
 This is a 2019 randomized, double-blind trial from the University of California, Davis that compared topical [[bakuchiol]] against [[retinol]] for facial photoaging over 12 weeks in 44 patients, finding that both significantly reduced wrinkle surface area and hyperpigmentation with no statistical difference between them, while retinol users reported more scaling and stinging.[^1]

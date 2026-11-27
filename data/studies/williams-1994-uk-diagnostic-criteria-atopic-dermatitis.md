@@ -1,4 +1,7 @@
 ---
+aliases:
+- PMID 7918015
+- Williams 1994
 analyzed: '2026-08-08'
 assurance: opus
 name: The U.K. Working Party's Diagnostic Criteria for Atopic Dermatitis. I. Derivation
@@ -6,7 +9,7 @@ name: The U.K. Working Party's Diagnostic Criteria for Atopic Dermatitis. I. Der
 slug: williams-1994-uk-diagnostic-criteria-atopic-dermatitis
 status: published
 type: study
-updated: '2026-08-08'
+updated: '2026-11-27'
 ---
 
 A U.K. multicenter derivation study that used blinded dual-observer assessment and multiple logistic regression to reduce 31 candidate diagnostic features for [[atopic-dermatitis]] down to a six-item minimum criteria set.[^1]

@@ -1,4 +1,7 @@
 ---
+aliases:
+- PMID 41493252
+- Taylor 2026
 analyzed: '2026-08-26'
 assurance: opus
 name: 'Taylor 2026: A Thiamidol Regimen Beat SPF Alone for Facial Hyperpigmentation
@@ -6,7 +9,7 @@ name: 'Taylor 2026: A Thiamidol Regimen Beat SPF Alone for Facial Hyperpigmentat
 slug: taylor-2026-thiamidol-regimen-vs-spf-hyperpigmentation-pmid-41493252
 status: published
 type: study
-updated: '2026-08-26'
+updated: '2026-11-27'
 ---
 
 A randomized study found that a thiamidol-containing skincare regimen reduced facial hyperpigmentation more than a standard SPF 30 lotion alone by weeks 8 and 12, supporting thiamidol (a topical tyrosinase inhibitor) as an add-on to photoprotection for [[hyperpigmentation]].[^1]

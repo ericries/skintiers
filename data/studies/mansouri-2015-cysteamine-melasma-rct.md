@@ -1,4 +1,7 @@
 ---
+aliases:
+- PMID 25251767
+- Mansouri 2015
 analyzed: '2026-08-08'
 assurance: opus
 name: 'Evaluation of the efficacy of cysteamine 5% cream in the treatment of epidermal
@@ -6,7 +9,7 @@ name: 'Evaluation of the efficacy of cysteamine 5% cream in the treatment of epi
 slug: mansouri-2015-cysteamine-melasma-rct
 status: published
 type: study
-updated: '2026-08-08'
+updated: '2026-11-27'
 ---
 
 A double-blind randomized placebo-controlled trial found cysteamine 5% cream produced significantly greater reduction in melasma pigmentation than placebo over 4 months.[^1]

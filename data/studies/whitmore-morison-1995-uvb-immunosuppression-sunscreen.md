@@ -1,4 +1,7 @@
 ---
+aliases:
+- PMID 7574828
+- Whitmore Morison 1995
 analyzed: '2026-08-08'
 assurance: sonnet
 name: Prevention of UVB-induced immunosuppression in humans by a high sun protection
@@ -6,7 +9,7 @@ name: Prevention of UVB-induced immunosuppression in humans by a high sun protec
 slug: whitmore-morison-1995-uvb-immunosuppression-sunscreen
 status: published
 type: study
-updated: '2026-08-08'
+updated: '2026-11-27'
 ---
 
 A controlled human trial found that a high-SPF sunscreen blocked the local immunosuppressive effect of UVB exposure on contact hypersensitivity, supporting the mechanistic case that [[sunscreen-uv-filters]] guard against UV-induced immune suppression in addition to erythema and photoaging.[^1]

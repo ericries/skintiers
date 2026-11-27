@@ -1,11 +1,14 @@
 ---
+aliases:
+- PMID 8377777
+- Thompson 1993
 analyzed: '2026-08-08'
 assurance: sonnet
 name: Reduction of solar keratoses by regular sunscreen use
 slug: thompson-1993-solar-keratoses-sunscreen
 status: published
 type: study
-updated: '2026-08-08'
+updated: '2026-11-27'
 ---
 
 An Australian randomized controlled trial found that daily application of an SPF-17 sunscreen, versus a base-cream control, reduced solar (actinic) keratosis counts over one summer, with a clear dose-response relationship: independent RCT evidence for [[sunscreen-uv-filters]] beyond the single Nambour cohort already cited there.[^1]

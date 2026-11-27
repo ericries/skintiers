@@ -1,4 +1,7 @@
 ---
+aliases:
+- PMID 16550169
+- Palmer 2006
 analyzed: '2026-08-08'
 assurance: opus
 name: Common loss-of-function variants of the epidermal barrier protein filaggrin
@@ -6,7 +9,7 @@ name: Common loss-of-function variants of the epidermal barrier protein filaggri
 slug: palmer-2006-filaggrin-atopic-dermatitis
 status: published
 type: study
-updated: '2026-08-08'
+updated: '2026-11-27'
 ---
 
 A human genetic association study found that two independent loss-of-function variants in the filaggrin gene (FLG), carried by roughly 9% of people of European origin, are strong predisposing factors for atopic dermatitis.[^1]

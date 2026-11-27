@@ -1,11 +1,14 @@
 ---
+aliases:
+- PMID 41331233
+- Roster 2026
 analyzed: '2026-09-17'
 assurance: opus
 name: 'Roster 2026 Menopause and Common Dermatoses: A Systematic Review (PMID 41331233)'
 slug: roster-2026-menopause-common-dermatoses-systematic-review
 status: published
 type: study
-updated: '2026-09-17'
+updated: '2026-11-27'
 ---
 
 A systematic review of 40 studies mapping how menopause and menopausal hormone therapy (MHT) relate to six common skin conditions, finding the strongest and most consistent association for hair loss and only mixed or directional signals for the rest, with no pooled effect sizes.[^1]

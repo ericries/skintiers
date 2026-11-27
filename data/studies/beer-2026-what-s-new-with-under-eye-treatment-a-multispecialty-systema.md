@@ -1,4 +1,7 @@
 ---
+aliases:
+- PMID 41615388
+- Beer 2026
 analyzed: '2026-08-09'
 assurance: opus
 name: 'Beer 2026 What''s New With Under Eye Treatment: A Multispecialty Systematic
@@ -6,7 +9,7 @@ name: 'Beer 2026 What''s New With Under Eye Treatment: A Multispecialty Systemat
 slug: beer-2026-what-s-new-with-under-eye-treatment-a-multispecialty-systema
 status: published
 type: study
-updated: '2026-08-09'
+updated: '2026-11-27'
 ---
 
 A multispecialty systematic review of 50 studies (post-2010) organizes infraorbital treatments by modality and states which modality fits which underlying cause, without pooling any quantitative outcome data.[^1]

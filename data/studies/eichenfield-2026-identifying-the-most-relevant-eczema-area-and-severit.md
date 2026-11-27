@@ -1,4 +1,7 @@
 ---
+aliases:
+- PMID 41996013
+- Eichenfield 2026
 analyzed: '2026-08-09'
 assurance: opus
 name: Eichenfield 2026 Identifying the Most Relevant Eczema Area and Severity Index
@@ -6,7 +9,7 @@ name: Eichenfield 2026 Identifying the Most Relevant Eczema Area and Severity In
 slug: eichenfield-2026-identifying-the-most-relevant-eczema-area-and-severit
 status: published
 type: study
-updated: '2026-08-09'
+updated: '2026-11-27'
 ---
 
 A post-hoc analysis of a one-year dupilumab trial in adults with [[atopic-dermatitis]] found that EASI-75 (75% improvement in Eczema Area and Severity Index from baseline) most closely tracked clinically meaningful and optimal patient-reported outcomes, with little added patient-perceived benefit beyond that threshold.[^1]

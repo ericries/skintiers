@@ -1,4 +1,7 @@
 ---
+aliases:
+- PMID 37192767
+- Santer 2023
 analyzed: '2026-07-31'
 assurance: opus
 name: 'Effectiveness of spironolactone for women with acne vulgaris (SAFA) in England
@@ -7,7 +10,7 @@ name: 'Effectiveness of spironolactone for women with acne vulgaris (SAFA) in En
 slug: santer-2023-safa-spironolactone-acne
 status: published
 type: study
-updated: '2026-07-31'
+updated: '2026-11-27'
 ---
 
 The SAFA trial is a 2023 randomised, double blind, placebo-controlled trial of oral spironolactone for persistent facial acne in adult women in England and Wales (410 randomised), the largest trial of its kind to date. It found spironolactone improved acne-related quality of life more than placebo, with a small difference at 12 weeks that grew substantially by 24 weeks.[^1]

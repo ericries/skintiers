@@ -1,4 +1,7 @@
 ---
+aliases:
+- PMID 42126816
+- Payette 2026
 analyzed: '2026-08-09'
 assurance: sonnet
 name: Payette 2026 Considerations for Genital Psoriasis Care Across Age Groups (PMID
@@ -6,7 +9,7 @@ name: Payette 2026 Considerations for Genital Psoriasis Care Across Age Groups (
 slug: payette-2026-considerations-for-genital-psoriasis-care-across-age-grou
 status: published
 type: study
-updated: '2026-08-09'
+updated: '2026-11-27'
 ---
 
 A multidisciplinary expert panel used a modified Delphi consensus process to develop practice considerations for genital psoriasis diagnosis and treatment across pediatric, adult, and geriatric patients.[^1]

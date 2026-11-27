@@ -1,11 +1,14 @@
 ---
+aliases:
+- PMID 22895445
+- Elias 2012
 analyzed: '2026-08-09'
 assurance: sonnet
 name: Elias 2012 skin barrier lipid structure and function
 slug: elias-2012-skin-barrier-lipid-structure-and-function
 status: published
 type: study
-updated: '2026-08-09'
+updated: '2026-11-27'
 ---
 
 A short invited commentary by Peter Elias summarizing that the stratum corneum extracellular matrix is organized into lipid lamellar bilayers whose molecular architecture is now known, but that how the matrix's non-lipid components (enzymes, structural proteins, antimicrobial peptides) jointly govern barrier function remains largely unknown.[^1]

@@ -1,4 +1,7 @@
 ---
+aliases:
+- PMID 32585079
+- Karrabi 2021
 analyzed: '2026-08-08'
 assurance: opus
 name: 'Clinical evaluation of efficacy, safety and tolerability of cysteamine 5% cream
@@ -7,7 +10,7 @@ name: 'Clinical evaluation of efficacy, safety and tolerability of cysteamine 5%
 slug: karrabi-2021-cysteamine-vs-kligman
 status: published
 type: study
-updated: '2026-08-08'
+updated: '2026-11-27'
 ---
 
 A randomized, double-blind trial in 50 subjects with epidermal melasma found cysteamine 5% cream produced a modestly greater reduction in melasma severity than modified Kligman's formula (MKF) over 4 months, with better tolerability.[^1]

@@ -1,4 +1,7 @@
 ---
+aliases:
+- PMID 2007790
+- Imokawa 1991
 analyzed: '2026-08-08'
 assurance: opus
 name: 'Decreased level of ceramides in stratum corneum of atopic dermatitis: an etiologic
@@ -6,7 +9,7 @@ name: 'Decreased level of ceramides in stratum corneum of atopic dermatitis: an 
 slug: imokawa-1991-ceramide-deficiency-atopic-dermatitis
 status: published
 type: study
-updated: '2026-08-08'
+updated: '2026-11-27'
 ---
 
 A stratum-corneum lipid analysis found ceramides significantly reduced in both lesional and non-lesional skin of atopic dermatitis patients compared with age-matched healthy controls, the founding evidence for ceramide-depletion in [[atopic-dermatitis]]-prone skin discussed generally at [[ceramides]].[^1]

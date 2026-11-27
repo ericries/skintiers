@@ -2553,3 +2553,16 @@
     over 2013-2020, the 7.0 and 5.1 percent prevalences, the rising trend, that more
     than 95 percent of cases appeared only on Day 3/4, and the authors'' own conclusion
     that clinical relevance must be established before screening is recommended'
+- name: 'Check raikou-2017: a combination trial cited as single-peptide evidence?'
+  type: study
+  priority: 3
+  status: pending
+  discovered_from: null
+  source: FOUND 2026-11-27 during the PMID verification sweep. The page is named 'Raikou
+    2017 acetyl hexapeptide-3 antiwrinkle RCT' but PMID 28150423 is titled 'The efficacy
+    study of the combination of tripeptide-10-citrulline and acetyl hexapeptide-3'.
+    The PMID is correct for the page. The question is whether the page, and anything
+    citing it, treats a two-peptide combination as evidence for acetyl hexapeptide-3
+    alone, which is the same error class the site flags on product pages. Read the
+    page and the abstract, and if the conflation is there, fix the name and the claim
+    rather than the PMID

@@ -1,11 +1,14 @@
 ---
+aliases:
+- PMID 28042100
+- Kawakami 2017
 analyzed: '2026-08-09'
 assurance: sonnet
 name: Kawakami 2017 DHHB avobenzone photostability study (EJPS)
 slug: kawakami-2017-dhhb-avobenzone-photostability-study-ejps
 status: published
 type: study
-updated: '2026-08-09'
+updated: '2026-11-27'
 ---
 
 An in vitro formulation study found that the UV filter DHHB, despite being photostable itself and quenching [[avobenzone]]'s excited state, did NOT photostabilize avobenzone in sunscreen formulations.[^1]

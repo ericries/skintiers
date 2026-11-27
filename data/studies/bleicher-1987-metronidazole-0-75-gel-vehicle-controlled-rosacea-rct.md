@@ -1,11 +1,14 @@
 ---
+aliases:
+- PMID 2953312
+- Bleicher 1987
 analyzed: '2026-08-09'
 assurance: opus
 name: 'Bleicher 1987: metronidazole 0.75% gel vehicle-controlled rosacea RCT'
 slug: bleicher-1987-metronidazole-0-75-gel-vehicle-controlled-rosacea-rct
 status: published
 type: study
-updated: '2026-08-09'
+updated: '2026-11-27'
 ---
 
 A randomized, double-blind, split-face, vehicle-controlled trial in 40 rosacea patients found topical metronidazole 0.75% gel produced substantially greater reductions in papules and pustules than vehicle over 9 weeks.[^1]

@@ -1,4 +1,7 @@
 ---
+aliases:
+- PMID 41947475
+- Afzal 2026
 analyzed: '2026-08-09'
 assurance: opus
 name: Afzal 2026 Prospective, Randomized, Double-Blind, Placebo-Controlled Study of
@@ -6,7 +9,7 @@ name: Afzal 2026 Prospective, Randomized, Double-Blind, Placebo-Controlled Study
 slug: afzal-2026-prospective-randomized-double-blind-placebo-controlled-stud
 status: published
 type: study
-updated: '2026-08-09'
+updated: '2026-11-27'
 ---
 
 An 8-week randomized, double-blind, placebo-controlled trial found that an oral antioxidant-rich synbiotic supplement significantly reduced wrinkle severity and increased cheek elasticity, firmness, and viscoelasticity versus placebo.[^1]

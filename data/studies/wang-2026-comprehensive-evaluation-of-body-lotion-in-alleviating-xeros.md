@@ -1,4 +1,7 @@
 ---
+aliases:
+- PMID 41622615
+- Wang 2026
 analyzed: '2026-08-09'
 assurance: opus
 name: 'Wang 2026 Comprehensive Evaluation of Body Lotion in Alleviating Xerosis: A
@@ -6,7 +9,7 @@ name: 'Wang 2026 Comprehensive Evaluation of Body Lotion in Alleviating Xerosis:
 slug: wang-2026-comprehensive-evaluation-of-body-lotion-in-alleviating-xeros
 status: published
 type: study
-updated: '2026-08-09'
+updated: '2026-11-27'
 ---
 
 A multicenter, randomized, self-controlled trial in xerosis found that 4 weeks of daily use of a [[ceramides|ceramide]] and natural-oil body lotion improved hydration, TEWL, and scaling versus the untreated contralateral leg, alongside lipidomic and microbiome shifts.[^1]

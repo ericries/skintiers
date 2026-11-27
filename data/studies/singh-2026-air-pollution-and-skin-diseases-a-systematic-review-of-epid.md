@@ -1,4 +1,7 @@
 ---
+aliases:
+- PMID 41649748
+- Singh 2026
 analyzed: '2026-08-09'
 assurance: sonnet
 name: 'Singh 2026 Air Pollution and Skin Diseases: A Systematic Review of Epidemiological
@@ -6,7 +9,7 @@ name: 'Singh 2026 Air Pollution and Skin Diseases: A Systematic Review of Epidem
 slug: singh-2026-air-pollution-and-skin-diseases-a-systematic-review-of-epid
 status: published
 type: study
-updated: '2026-08-09'
+updated: '2026-11-27'
 ---
 
 A systematic review of 77 epidemiological studies found that most studies report harmful associations between air pollution exposure and several skin diseases, but rated the overall certainty of that evidence as low to very low due to high risk of bias.[^1]

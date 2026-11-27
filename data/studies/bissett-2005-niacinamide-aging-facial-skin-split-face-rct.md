@@ -1,4 +1,7 @@
 ---
+aliases:
+- PMID 16029679
+- Bissett 2005
 analyzed: '2026-08-20'
 assurance: opus
 name: 'Bissett 2005: 5% niacinamide vs vehicle for aging facial skin, split-face RCT
@@ -6,7 +9,7 @@ name: 'Bissett 2005: 5% niacinamide vs vehicle for aging facial skin, split-face
 slug: bissett-2005-niacinamide-aging-facial-skin-split-face-rct
 status: published
 type: study
-updated: '2026-08-20'
+updated: '2026-11-27'
 ---
 
 A 12-week, double-blind, split-face trial run by Procter & Gamble found that 5% topical niacinamide improved several signs of facial photoaging versus its vehicle, though the abstract reports the improvements as statistically significant without giving effect-size numbers.[^1]

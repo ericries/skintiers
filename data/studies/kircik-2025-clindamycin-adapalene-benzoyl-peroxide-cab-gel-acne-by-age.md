@@ -1,4 +1,7 @@
 ---
+aliases:
+- PMID 41329145
+- Kircik 2025
 analyzed: '2026-09-05'
 assurance: opus
 name: 'Kircik 2025 Clindamycin Phosphate 1.2%/Adapalene 0.15%/Benzoyl Peroxide 3.1%
@@ -6,7 +9,7 @@ name: 'Kircik 2025 Clindamycin Phosphate 1.2%/Adapalene 0.15%/Benzoyl Peroxide 3
 slug: kircik-2025-clindamycin-adapalene-benzoyl-peroxide-cab-gel-acne-by-age
 status: published
 type: study
-updated: '2026-09-05'
+updated: '2026-11-27'
 ---
 
 A post hoc pooled analysis of three randomized trials found that fixed-dose clindamycin phosphate 1.2% / adapalene 0.15% / benzoyl peroxide 3.1% (CAB) gel produced similar acne clearance in younger (9 to 24 years) and adult (25 years and older) patients, with about half of CAB-treated patients reaching clear or almost clear skin at 12 weeks versus under a quarter on vehicle.[^1]

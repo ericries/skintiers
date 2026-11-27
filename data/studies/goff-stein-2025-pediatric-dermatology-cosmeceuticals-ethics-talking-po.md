@@ -1,4 +1,7 @@
 ---
+aliases:
+- PMID 39925031
+- Goff Stein 2025
 analyzed: '2026-08-09'
 assurance: opus
 name: Goff & Stein 2025 Pediatric Dermatology cosmeceuticals ethics/talking-points
@@ -6,7 +9,7 @@ name: Goff & Stein 2025 Pediatric Dermatology cosmeceuticals ethics/talking-poin
 slug: goff-stein-2025-pediatric-dermatology-cosmeceuticals-ethics-talking-po
 status: published
 type: study
-updated: '2026-08-09'
+updated: '2026-11-27'
 ---
 
 A narrative review (companion "Part II" to the same authors' evidence review) that lays out ethical dilemmas raised by pediatric cosmeceutical use and gives dermatologists talking points for these patient conversations, without reporting any empirical data.[^1]

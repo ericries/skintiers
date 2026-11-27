@@ -1,11 +1,14 @@
 ---
+aliases:
+- PMID 32947459
+- Leshem 2020
 analyzed: '2026-08-08'
 assurance: opus
 name: Leshem 2020 OTC moisturizers in atopic dermatitis RCT
 slug: leshem-2020-otc-moisturizers-in-atopic-dermatitis-rct
 status: published
 type: study
-updated: '2026-08-08'
+updated: '2026-11-27'
 ---
 
 A within-patient RCT in atopic dermatitis patients applying four common over-the-counter moisturizers to one forearm (versus untreated skin on the other) for 4 weeks found capacitance significantly improved, but transepidermal water loss (TEWL) and pH did not change significantly.[^1]

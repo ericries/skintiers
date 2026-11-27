@@ -1,4 +1,7 @@
 ---
+aliases:
+- PMID 42210897
+- Pantalena 2026
 analyzed: '2026-08-09'
 assurance: opus
 name: Pantalena 2026 Photographic Assessment of Cosmetic Outcome in Postsurgical Facial
@@ -6,7 +9,7 @@ name: Pantalena 2026 Photographic Assessment of Cosmetic Outcome in Postsurgical
 slug: pantalena-2026-photographic-assessment-of-cosmetic-outcome-in-postsurg
 status: published
 type: study
-updated: '2026-08-09'
+updated: '2026-11-27'
 ---
 
 A split-scar randomized trial in Mohs micrographic surgery patients found that rapidly absorbable polyglactin 910 suture produced better blinded dermatologist scar-cosmesis scores at 6 months than fast absorbing gut suture, relevant to [[surgical-and-wound-scars|scarring]] outcomes after facial surgery.[^1]

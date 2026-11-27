@@ -1,4 +1,7 @@
 ---
+aliases:
+- PMID 30165171
+- Stein Gold 2019
 analyzed: '2026-08-08'
 assurance: sonnet
 name: 'A novel topical minocycline foam for the treatment of moderate-to-severe acne
@@ -6,7 +9,7 @@ name: 'A novel topical minocycline foam for the treatment of moderate-to-severe 
 slug: stein-gold-2019-topical-minocycline-foam
 status: published
 type: study
-updated: '2026-08-08'
+updated: '2026-11-27'
 ---
 
 Two identical phase 3 RCTs of a topical minocycline foam (FMX101 4%) found significantly greater reduction in inflammatory lesions versus vehicle in both trials, and superior Investigator's Global Assessment (IGA) success in one of the two.[^1]

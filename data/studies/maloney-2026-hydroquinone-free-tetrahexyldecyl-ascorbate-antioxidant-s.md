@@ -1,4 +1,7 @@
 ---
+aliases:
+- PMID 41947480
+- Maloney 2026
 analyzed: '2026-08-09'
 assurance: sonnet
 name: Maloney 2026 Hydroquinone-Free, Tetrahexyldecyl Ascorbate Antioxidant Serum
@@ -6,7 +9,7 @@ name: Maloney 2026 Hydroquinone-Free, Tetrahexyldecyl Ascorbate Antioxidant Seru
 slug: maloney-2026-hydroquinone-free-tetrahexyldecyl-ascorbate-antioxidant-s
 status: published
 type: study
-updated: '2026-08-09'
+updated: '2026-11-27'
 ---
 
 A combined preclinical (in vitro/ex vivo) and randomized, double-blind clinical study found that a 30% THD Ascorbate antioxidant serum sharply reduced blue-light-induced ROS formation and melanin production and increased collagen production in lab models, while visibly correcting photodamage and hyperpigmentation on imaging in human subjects.[^1]

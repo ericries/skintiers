@@ -1,11 +1,14 @@
 ---
+aliases:
+- PMID 8618046
+- Man 1996
 analyzed: '2026-08-08'
 assurance: sonnet
 name: Optimization of physiological lipid mixtures for barrier repair
 slug: man-1996-physiologic-lipid-mixtures-barrier-repair
 status: published
 type: study
-updated: '2026-08-08'
+updated: '2026-11-27'
 ---
 
 A murine and human skin barrier-repair study found that topical mixtures of ceramides, cholesterol, and free fatty acids must be applied in an equimolar ratio to restore normal barrier recovery, and that increasing any one of the three up to 3-fold accelerates repair further.[^1]

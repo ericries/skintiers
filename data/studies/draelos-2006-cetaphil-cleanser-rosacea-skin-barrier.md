@@ -1,11 +1,14 @@
 ---
+aliases:
+- PMID 16706247
+- Draelos 2006
 analyzed: '2026-08-08'
 assurance: sonnet
 name: Draelos 2006 Cetaphil cleanser rosacea skin barrier
 slug: draelos-2006-cetaphil-cleanser-rosacea-skin-barrier
 status: published
 type: study
-updated: '2026-08-08'
+updated: '2026-11-27'
 ---
 
 A single-arm before/after study in 30 patients with mild-to-moderate rosacea found that two weeks of twice-daily washing with Cetaphil Gentle Skin Cleanser produced no significant rise in transepidermal water loss and maintained skin hydration, with a post hoc analysis also showing reduced investigator-rated rosacea severity.[^1]

@@ -3,13 +3,15 @@ aliases:
 - Mehta 2025 tofacitinib vs tacrolimus vitiligo
 - Topical tofacitinib versus topical tacrolimus vitiligo trial
 - Mehta 2025 vitiligo intraindividual trial
+- PMID 40758816
+- Mehta 2025
 analyzed: '2026-11-01'
 assurance: sonnet
 name: Mehta 2025, topical tofacitinib vs topical tacrolimus in localized vitiligo
 slug: mehta-2025-topical-tofacitinib-vs-tacrolimus-vitiligo
 status: published
 type: study
-updated: '2026-11-01'
+updated: '2026-11-27'
 ---
 
 A 2025 randomised investigator-blinded trial comparing a topical JAK inhibitor, tofacitinib 2% ointment, against the established topical calcineurin inhibitor tacrolimus 0.1% ointment in localized vitiligo, using one patch per side of the same patient as its own control.[^1] Neither of its two headline comparisons reached statistical significance. The condition is on [[vitiligo]]; neither drug has an ingredient page here yet.

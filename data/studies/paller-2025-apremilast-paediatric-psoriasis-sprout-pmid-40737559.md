@@ -1,4 +1,7 @@
 ---
+aliases:
+- PMID 40737559
+- Paller 2025
 analyzed: '2026-11-03'
 assurance: sonnet
 name: 'Paller 2025: Oral Apremilast in Children and Adolescents with Moderate-to-Severe
@@ -6,7 +9,7 @@ name: 'Paller 2025: Oral Apremilast in Children and Adolescents with Moderate-to
 slug: paller-2025-apremilast-paediatric-psoriasis-sprout-pmid-40737559
 status: published
 type: study
-updated: '2026-11-03'
+updated: '2026-11-27'
 ---
 
 A phase III randomized trial of oral apremilast, a PDE4 inhibitor taken by mouth rather than applied to skin, in patients aged 6 to 17 with moderate-to-severe plaque [[psoriasis]]; the 52-week results report continued improvement after the placebo-controlled phase ended at week 16.[^1]

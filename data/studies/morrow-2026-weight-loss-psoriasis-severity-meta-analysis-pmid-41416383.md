@@ -1,4 +1,7 @@
 ---
+aliases:
+- PMID 41416383
+- Morrow 2026
 analyzed: '2026-08-30'
 assurance: opus
 name: 'Morrow 2026: Weight-loss interventions modestly reduced psoriasis severity
@@ -6,7 +9,7 @@ name: 'Morrow 2026: Weight-loss interventions modestly reduced psoriasis severit
 slug: morrow-2026-weight-loss-psoriasis-severity-meta-analysis-pmid-41416383
 status: published
 type: study
-updated: '2026-08-30'
+updated: '2026-11-27'
 ---
 
 A systematic review and meta-analysis of 13 randomized controlled trials found that weight-loss interventions produced a small but statistically significant reduction in psoriasis severity and improved quality of life compared to usual care, relevant to overweight or obese people managing [[psoriasis]].[^1]

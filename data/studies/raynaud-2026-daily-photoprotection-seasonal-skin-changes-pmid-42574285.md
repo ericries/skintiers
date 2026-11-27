@@ -1,4 +1,7 @@
 ---
+aliases:
+- PMID 42574285
+- Raynaud 2026
 analyzed: '2026-11-05'
 assurance: sonnet
 name: 'Raynaud 2026: Daily Photoprotection and Seasonal Skin Changes, a 1-Year in
@@ -6,7 +9,7 @@ name: 'Raynaud 2026: Daily Photoprotection and Seasonal Skin Changes, a 1-Year i
 slug: raynaud-2026-daily-photoprotection-seasonal-skin-changes-pmid-42574285
 status: published
 type: study
-updated: '2026-11-05'
+updated: '2026-11-27'
 ---
 
 A year-long randomized vehicle-controlled trial asking whether daily sunscreen use prevents the microscopic skin changes that ordinary, non-holiday sun exposure produces across the seasons; it is the trial behind the sunscreen row on [[skin-longevity]] and a rare controlled human result for [[sunscreen-uv-filters]].[^1]

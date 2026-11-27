@@ -1,4 +1,7 @@
 ---
+aliases:
+- PMID 41853869
+- Abedin 2026
 analyzed: '2026-08-09'
 assurance: opus
 name: 'Abedin 2026 Lactobacillus-Based Microbiome Therapy for Acne Vulgaris: A GRADE
@@ -6,7 +9,7 @@ name: 'Abedin 2026 Lactobacillus-Based Microbiome Therapy for Acne Vulgaris: A G
 slug: abedin-2026-lactobacillus-based-microbiome-therapy-for-acne-vulgaris-a
 status: published
 type: study
-updated: '2026-08-09'
+updated: '2026-11-27'
 ---
 
 A systematic review and meta-analysis of 5 RCTs (332 participants) found that Lactobacillus-based probiotic/postbiotic therapy did not significantly reduce inflammatory, non-inflammatory, or total acne lesion counts versus comparators.[^1]

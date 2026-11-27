@@ -1,4 +1,7 @@
 ---
+aliases:
+- PMID 41369155
+- Merola 2026
 analyzed: '2026-08-30'
 assurance: opus
 name: 'Merola 2026: Oral Apremilast Improved Moderate-to-Severe Genital Psoriasis
@@ -6,7 +9,7 @@ name: 'Merola 2026: Oral Apremilast Improved Moderate-to-Severe Genital Psoriasi
 slug: merola-2026-apremilast-genital-psoriasis-discreet-pmid-41369155
 status: published
 type: study
-updated: '2026-08-30'
+updated: '2026-11-27'
 ---
 
 A phase 3 randomized trial found that oral apremilast, a PDE4 inhibitor, produced sustained improvement in moderate-to-severe genital [[psoriasis]] through 32 weeks, whether started at randomization or after a 16-week placebo delay.[^1]

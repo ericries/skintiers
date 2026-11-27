@@ -1,4 +1,7 @@
 ---
+aliases:
+- PMID 28291553
+- Huang Cheng 2017
 analyzed: '2026-08-08'
 assurance: opus
 name: 'Isotretinoin treatment for acne and risk of depression: A systematic review
@@ -6,7 +9,7 @@ name: 'Isotretinoin treatment for acne and risk of depression: A systematic revi
 slug: huang-cheng-2017-isotretinoin-depression
 status: published
 type: study
-updated: '2026-08-08'
+updated: '2026-11-27'
 ---
 
 A systematic review and meta-analysis of 31 studies found no significant increase in depression scores from isotretinoin treatment for [[acne]] versus alternative treatment, and found that depression prevalence and severity significantly decreased after isotretinoin treatment.[^1]

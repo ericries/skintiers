@@ -1,11 +1,14 @@
 ---
+aliases:
+- PMID 28150423
+- Raikou 2017
 analyzed: '2026-08-09'
 assurance: opus
 name: Raikou 2017 acetyl hexapeptide-3 antiwrinkle RCT
 slug: raikou-2017-acetyl-hexapeptide-3-antiwrinkle-rct
 status: published
 type: study
-updated: '2026-08-09'
+updated: '2026-11-27'
 ---
 
 A small four-arm randomized controlled trial in 24 healthy volunteers found scattered statistically significant differences in skin microtopography and transepidermal water loss between groups using acetyl hexapeptide-3, tripeptide-10 citrulline, their combination, or neither, over 60 days, with no effect-size or mean figures reported in the abstract.[^1]

@@ -1,4 +1,7 @@
 ---
+aliases:
+- PMID 10417583
+- Lim 1999
 analyzed: '2026-08-08'
 assurance: opus
 name: Treatment of melasma using kojic acid in a gel containing hydroquinone and glycolic
@@ -6,7 +9,7 @@ name: Treatment of melasma using kojic acid in a gel containing hydroquinone and
 slug: lim-1999-kojic-acid-add-on-rct
 status: published
 type: study
-updated: '2026-08-08'
+updated: '2026-11-27'
 ---
 
 A split-face RCT in Chinese women with epidermal melasma found that adding kojic acid to a hydroquinone/glycolic-acid gel improved clearance on the kojic-acid side versus the same base gel without it.[^1]

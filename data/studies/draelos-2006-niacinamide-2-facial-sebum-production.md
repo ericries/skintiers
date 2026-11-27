@@ -1,11 +1,14 @@
 ---
+aliases:
+- PMID 16766489
+- Draelos 2006
 analyzed: '2026-08-08'
 assurance: opus
 name: Draelos 2006 niacinamide 2% facial sebum production
 slug: draelos-2006-niacinamide-2-facial-sebum-production
 status: published
 type: study
-updated: '2026-08-08'
+updated: '2026-11-27'
 ---
 
 Two short clinical trials found that a topical 2% niacinamide moisturizer significantly lowered sebum excretion rate (SER) in Japanese subjects and casual sebum level (CSL) in Caucasian subjects, versus placebo.[^1]

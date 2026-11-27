@@ -1,4 +1,7 @@
 ---
+aliases:
+- PMID 40957858
+- Du 2025
 analyzed: '2026-10-11'
 assurance: sonnet
 name: A Split-Face Randomized Study on the Efficacy of a Platinum-Liposome-Based Facial
@@ -6,7 +9,7 @@ name: A Split-Face Randomized Study on the Efficacy of a Platinum-Liposome-Based
 slug: du-2025-platinum-liposome-mask-post-photorejuvenation
 status: published
 type: study
-updated: '2026-10-11'
+updated: '2026-11-27'
 ---
 
 A split-face trial (30 subjects) of a platinum-liposome facial mask applied after photorejuvenation, paired with laboratory work. Nine of the twelve authors are employed by the company that makes the product, and the clinical comparator is described only as "a control product".[^1]

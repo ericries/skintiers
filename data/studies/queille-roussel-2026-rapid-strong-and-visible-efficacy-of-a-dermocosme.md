@@ -1,4 +1,7 @@
 ---
+aliases:
+- PMID 41772684
+- Queille Roussel 2026
 analyzed: '2026-08-09'
 assurance: opus
 name: Queille-Roussel 2026 Rapid, Strong, and Visible Efficacy of a Dermocosmetic
@@ -6,7 +9,7 @@ name: Queille-Roussel 2026 Rapid, Strong, and Visible Efficacy of a Dermocosmeti
 slug: queille-roussel-2026-rapid-strong-and-visible-efficacy-of-a-dermocosme
 status: published
 type: study
-updated: '2026-08-09'
+updated: '2026-11-27'
 ---
 
 A 57-day split-face trial in 16 adults with darker skin phototypes found a twice-daily dermocosmetic (DC) cream significantly outperformed an untreated hemiface on total lesion count and acne-induced hyperpigmentation.[^1]

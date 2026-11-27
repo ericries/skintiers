@@ -1,11 +1,14 @@
 ---
+aliases:
+- PMID 7857113
+- Naylor 1995
 analyzed: '2026-08-08'
 assurance: sonnet
 name: High sun protection factor sunscreens in the suppression of actinic neoplasia
 slug: naylor-1995-actinic-neoplasia-sunscreen
 status: published
 type: study
-updated: '2026-08-08'
+updated: '2026-11-27'
 ---
 
 A prospective, double-blind controlled trial in high-risk patients in Lubbock, Texas found that daily high-SPF sunscreen use reduced the rate of new precancerous skin lesions versus placebo over a 2-year follow-up.[^1]

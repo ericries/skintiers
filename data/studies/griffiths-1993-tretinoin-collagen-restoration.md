@@ -1,4 +1,7 @@
 ---
+aliases:
+- PMID 8336752
+- Griffiths 1993
 analyzed: '2026-08-06'
 assurance: sonnet
 name: Restoration of collagen formation in photodamaged human skin by tretinoin (retinoic
@@ -6,7 +9,7 @@ name: Restoration of collagen formation in photodamaged human skin by tretinoin 
 slug: griffiths-1993-tretinoin-collagen-restoration
 status: published
 type: study
-updated: '2026-08-06'
+updated: '2026-11-27'
 ---
 
 A vehicle-controlled trial in photodamaged forearm skin found that 10 to 12 months of 0.1% tretinoin cream raised collagen I formation 80 percent above baseline, versus a 14 percent decrease with vehicle alone.[^1]

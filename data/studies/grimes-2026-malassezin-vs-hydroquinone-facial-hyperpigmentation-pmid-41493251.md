@@ -1,4 +1,7 @@
 ---
+aliases:
+- PMID 41493251
+- Grimes 2026
 analyzed: '2026-08-30'
 assurance: opus
 name: 'Grimes 2026: Malassezin Matched Hydroquinone 4% for Melasma in a Split-Face
@@ -6,7 +9,7 @@ name: 'Grimes 2026: Malassezin Matched Hydroquinone 4% for Melasma in a Split-Fa
 slug: grimes-2026-malassezin-vs-hydroquinone-facial-hyperpigmentation-pmid-41493251
 status: published
 type: study
-updated: '2026-08-30'
+updated: '2026-11-27'
 ---
 
 A randomized, double-blind, split-face trial found topical 0.75% malassezin performed comparably to 4% [[hydroquinone]] for treating melasma, with no statistically significant difference between the two sides of the face at any visit.[^1] Both are being evaluated as topicals for [[hyperpigmentation]].

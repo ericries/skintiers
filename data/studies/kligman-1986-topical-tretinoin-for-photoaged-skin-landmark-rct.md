@@ -1,11 +1,14 @@
 ---
+aliases:
+- PMID 3771853
+- Kligman 1986
 analyzed: '2026-08-09'
 assurance: opus
 name: 'Kligman 1986: topical tretinoin for photoaged skin (landmark RCT)'
 slug: kligman-1986-topical-tretinoin-for-photoaged-skin-landmark-rct
 status: published
 type: study
-updated: '2026-08-09'
+updated: '2026-11-27'
 ---
 
 A vehicle-controlled comparison of daily 0.05% [[tretinoin]] cream on the face and forearms found histologic reversal of several markers of [[sun-damage-photoaging|photoaging]], including new collagen formation and elimination of dysplasia.[^1]

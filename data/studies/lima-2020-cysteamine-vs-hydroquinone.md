@@ -1,4 +1,7 @@
 ---
+aliases:
+- PMID 32864760
+- Lima 2020
 analyzed: '2026-08-08'
 assurance: sonnet
 name: A comparative study of topical 5% cysteamine versus 4% hydroquinone in the treatment
@@ -6,7 +9,7 @@ name: A comparative study of topical 5% cysteamine versus 4% hydroquinone in the
 slug: lima-2020-cysteamine-vs-hydroquinone
 status: published
 type: study
-updated: '2026-08-08'
+updated: '2026-11-27'
 ---
 
 A head-to-head clinical trial in facial melasma found 4% hydroquinone produced a significantly greater reduction in pigmentation score than 5% cysteamine at both 60 and 120 days.[^1]

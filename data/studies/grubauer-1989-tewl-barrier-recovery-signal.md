@@ -1,4 +1,7 @@
 ---
+aliases:
+- PMID 2723540
+- Grubauer 1989
 analyzed: '2026-08-08'
 assurance: opus
 name: 'Transepidermal water loss: the signal for recovery of barrier structure and
@@ -6,7 +9,7 @@ name: 'Transepidermal water loss: the signal for recovery of barrier structure a
 slug: grubauer-1989-tewl-barrier-recovery-signal
 status: published
 type: study
-updated: '2026-08-08'
+updated: '2026-11-27'
 ---
 
 A hairless-mouse barrier-disruption study found that occlusive membranes (which block transepidermal water loss) prevent stratum corneum lipid repletion and barrier recovery after acetone stripping, while vapor-permeable membranes (which allow water loss) permit normal recovery, identifying transepidermal water flux itself as the signal that triggers epidermal lipid synthesis.[^1]

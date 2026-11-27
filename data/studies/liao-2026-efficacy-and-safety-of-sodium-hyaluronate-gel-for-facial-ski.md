@@ -1,4 +1,7 @@
 ---
+aliases:
+- PMID 41650338
+- Liao 2026
 analyzed: '2026-08-09'
 assurance: sonnet
 name: Liao 2026 Efficacy and Safety of Sodium Hyaluronate Gel for Facial Skin Rejuvenation
@@ -6,7 +9,7 @@ name: Liao 2026 Efficacy and Safety of Sodium Hyaluronate Gel for Facial Skin Re
 slug: liao-2026-efficacy-and-safety-of-sodium-hyaluronate-gel-for-facial-ski
 status: published
 type: study
-updated: '2026-08-09'
+updated: '2026-11-27'
 ---
 
 A multicenter randomized controlled trial of injectable non-cross-linked sodium hyaluronate gel found large, sustained improvements in global aesthetic rating and skin dryness/dullness versus no treatment.[^1]

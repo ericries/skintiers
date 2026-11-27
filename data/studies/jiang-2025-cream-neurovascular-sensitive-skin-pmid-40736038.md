@@ -1,4 +1,7 @@
 ---
+aliases:
+- PMID 40736038
+- Jiang 2025
 analyzed: '2026-11-04'
 assurance: sonnet
 name: 'Jiang 2025: A Novel Moisturizing Cream for Neurovascular Hyper-Reactivity in
@@ -6,7 +9,7 @@ name: 'Jiang 2025: A Novel Moisturizing Cream for Neurovascular Hyper-Reactivity
 slug: jiang-2025-cream-neurovascular-sensitive-skin-pmid-40736038
 status: published
 type: study
-updated: '2026-11-04'
+updated: '2026-11-27'
 ---
 
 A split-face randomized trial of an unnamed experimental moisturizing cream against an unnamed control cream in [[sensitive-skin]], notable mainly because its abstract reports no numbers at all.[^1]

@@ -1,4 +1,7 @@
 ---
+aliases:
+- PMID 42003110
+- Liu 2026
 analyzed: '2026-08-09'
 assurance: opus
 name: Liu 2026 Comparison of Compound Lidocaine Cream and Lidocaine-Prilocaine Cream
@@ -6,7 +9,7 @@ name: Liu 2026 Comparison of Compound Lidocaine Cream and Lidocaine-Prilocaine C
 slug: liu-2026-comparison-of-compound-lidocaine-cream-and-lidocaine-prilocai
 status: published
 type: study
-updated: '2026-08-09'
+updated: '2026-11-27'
 ---
 
 A single-center randomized controlled trial in facial rejuvenation patients found compound lidocaine cream produced significantly lower pain scores than lidocaine-prilocaine cream, with no significant difference in adverse-reaction rates.[^1]

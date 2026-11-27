@@ -1,4 +1,7 @@
 ---
+aliases:
+- PMID 26486318
+- Ud Din 2016
 analyzed: '2026-08-23'
 assurance: opus
 name: 'Ud-Din 2016: Topical Management of Striae Distensae, a Systematic Review (PMID
@@ -6,7 +9,7 @@ name: 'Ud-Din 2016: Topical Management of Striae Distensae, a Systematic Review 
 slug: ud-din-2016-topical-management-of-striae-distensae-review-pmid-26486318
 status: published
 type: study
-updated: '2026-08-23'
+updated: '2026-11-27'
 ---
 
 A systematic review of published literature on topical treatments for stretch marks found only 11 studies with efficacy data, and concluded no topical formulation is clearly most effective; two prophylactic proprietary creams had level-2 positive evidence, tretinoin's therapeutic results varied, and cocoa butter and olive oil showed no effect. It is the umbrella source behind the "no topical clearly wins" framing on the [[stretch-marks]] tier list.[^1]

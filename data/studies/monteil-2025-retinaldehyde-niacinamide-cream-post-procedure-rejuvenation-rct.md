@@ -1,4 +1,7 @@
 ---
+aliases:
+- PMID 41312593
+- Monteil 2025
 analyzed: '2026-09-21'
 assurance: opus
 name: 'Monteil 2025 Retinaldehyde-Niacinamide-Haritaki Cream to Support Facial Rejuvenation
@@ -6,7 +9,7 @@ name: 'Monteil 2025 Retinaldehyde-Niacinamide-Haritaki Cream to Support Facial R
 slug: monteil-2025-retinaldehyde-niacinamide-cream-post-procedure-rejuvenation-rct
 status: published
 type: study
-updated: '2026-09-21'
+updated: '2026-11-27'
 ---
 
 A manufacturer-run, split-face study reported that a cream combining [[retinaldehyde]], [[niacinamide]], and haritaki (Terminalia chebula) fruit extract, applied once daily to one half of the face after a rejuvenation procedure, visibly improved wrinkles, firmness, texture, tone, and radiance versus the untreated other half by 1 month; the comparator was an untreated hemiface rather than a plain moisturizer, and the abstract reports no numeric effect sizes.[^1]

@@ -1,4 +1,7 @@
 ---
+aliases:
+- PMID 41724989
+- Mosteirin 2026
 analyzed: '2026-08-09'
 assurance: sonnet
 name: 'Mosteirin 2026 Efficacy and Safety of Amino Acid-Enriched Hyaluronic Acid in
@@ -6,7 +9,7 @@ name: 'Mosteirin 2026 Efficacy and Safety of Amino Acid-Enriched Hyaluronic Acid
 slug: mosteirin-2026-efficacy-and-safety-of-amino-acid-enriched-hyaluronic-a
 status: published
 type: study
-updated: '2026-08-09'
+updated: '2026-11-27'
 ---
 
 A systematic review and meta-analysis of 11 studies found that injectable hyaluronic acid plus amino acid (HA+AA) complexes outperformed conventional HA or placebo on wrinkle severity, aesthetic-improvement, dermal-thickness, and cell-viability measures, with the reported adverse-event comparison not distinguishable from chance.[^1]

@@ -1,4 +1,7 @@
 ---
+aliases:
+- PMID 26852728
+- Walsh 2016
 analyzed: '2026-08-08'
 assurance: opus
 name: 'Systematic review of antibiotic resistance in acne: an increasing topical and
@@ -6,7 +9,7 @@ name: 'Systematic review of antibiotic resistance in acne: an increasing topical
 slug: walsh-2016-antibiotic-resistance-acne
 status: published
 type: study
-updated: '2026-08-08'
+updated: '2026-11-27'
 ---
 
 A literature review found that in many countries more than 50% of Cutibacterium (Propionibacterium) acnes strains are resistant to topical macrolides, and recommends limiting antibiotic monotherapy in [[acne]] treatment.[^1]

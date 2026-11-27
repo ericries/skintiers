@@ -1,11 +1,13 @@
 ---
+aliases:
+- PMID 16766489
 analyzed: '2026-07-28'
 assurance: opus
 name: 'Draelos et al. 2006: 2% niacinamide and facial sebum production'
 slug: niacinamide-sebum-studies
 status: published
 type: study
-updated: '2026-07-28'
+updated: '2026-11-27'
 ---
 
 The effect of 2% niacinamide on facial sebum production is a 2006 report of two short clinical trials, one in 100 Japanese subjects and one in 30 Caucasian subjects, that tested whether a topical 2% niacinamide moisturizer lowers the amount of oil the face produces, and found a significant drop in one sebum measure in each population but not in every measure.[^1][^2]

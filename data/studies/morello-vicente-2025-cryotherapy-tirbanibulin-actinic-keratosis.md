@@ -3,6 +3,8 @@ aliases:
 - Morello-Vicente 2025 cryotherapy plus tirbanibulin
 - Cryotherapy followed by tirbanibulin actinic keratoses trial
 - Morello-Vicente 2025 SOTR actinic keratosis RCT
+- PMID 40754218
+- Morello Vicente 2025
 analyzed: '2026-11-02'
 assurance: sonnet
 name: 'Morelló-Vicente 2025: cryotherapy then tirbanibulin for actinic keratoses in
@@ -10,7 +12,7 @@ name: 'Morelló-Vicente 2025: cryotherapy then tirbanibulin for actinic keratose
 slug: morello-vicente-2025-cryotherapy-tirbanibulin-actinic-keratosis
 status: published
 type: study
-updated: '2026-11-02'
+updated: '2026-11-27'
 ---
 
 A 2025 randomised trial asking whether following cryotherapy with a month-later course of topical tirbanibulin 1% clears more actinic keratoses than cryotherapy alone, in solid organ transplant recipients.[^1] It does, substantially, over four months. The condition is on [[actinic-keratosis]]; neither tirbanibulin nor cryotherapy has a page here yet.

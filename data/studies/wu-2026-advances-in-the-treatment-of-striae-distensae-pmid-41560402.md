@@ -1,11 +1,14 @@
 ---
+aliases:
+- PMID 41560402
+- Wu 2026
 analyzed: '2026-08-09'
 assurance: opus
 name: Wu 2026 Advances in the Treatment of Striae Distensae (PMID 41560402)
 slug: wu-2026-advances-in-the-treatment-of-striae-distensae-pmid-41560402
 status: published
 type: study
-updated: '2026-08-09'
+updated: '2026-11-27'
 ---
 
 A PRISMA-guided systematic literature review found several energy-device and combination therapies to be efficacious for [[stretch-marks|striae distensae]], with fractional microneedling + PRP, fractional CO2 laser + PRP, and 1565 nm non-ablative fractional laser (NAFL) singled out as notable advances.[^1]

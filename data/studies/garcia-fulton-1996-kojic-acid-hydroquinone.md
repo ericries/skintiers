@@ -1,4 +1,7 @@
 ---
+aliases:
+- PMID 8634807
+- Garcia Fulton 1996
 analyzed: '2026-08-08'
 assurance: sonnet
 name: The combination of glycolic acid and hydroquinone or kojic acid for the treatment
@@ -6,7 +9,7 @@ name: The combination of glycolic acid and hydroquinone or kojic acid for the tr
 slug: garcia-fulton-1996-kojic-acid-hydroquinone
 status: published
 type: study
-updated: '2026-08-08'
+updated: '2026-11-27'
 ---
 
 A split-face comparative trial in melasma patients found glycolic-acid vehicles containing either hydroquinone or kojic acid produced roughly comparable pigment reduction, with a minority of patients favoring one side or the other.[^1]

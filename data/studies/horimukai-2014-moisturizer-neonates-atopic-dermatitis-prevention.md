@@ -1,11 +1,14 @@
 ---
+aliases:
+- PMID 25282564
+- Horimukai 2014
 analyzed: '2026-08-08'
 assurance: opus
 name: Application of moisturizer to neonates prevents development of atopic dermatitis
 slug: horimukai-2014-moisturizer-neonates-atopic-dermatitis-prevention
 status: published
 type: study
-updated: '2026-08-08'
+updated: '2026-11-27'
 ---
 
 A multicenter RCT in high-risk Japanese neonates found that daily emulsion-moisturizer application from birth through week 32 reduced cumulative incidence of atopic dermatitis/eczema versus standard care.[^1]

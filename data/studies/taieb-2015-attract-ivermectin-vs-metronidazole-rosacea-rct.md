@@ -1,11 +1,14 @@
 ---
+aliases:
+- PMID 25228137
+- Taieb 2015
 analyzed: '2026-08-08'
 assurance: opus
 name: Taieb 2015 ATTRACT ivermectin vs metronidazole rosacea RCT
 slug: taieb-2015-attract-ivermectin-vs-metronidazole-rosacea-rct
 status: published
 type: study
-updated: '2026-08-08'
+updated: '2026-11-27'
 ---
 
 A phase 3, investigator-blinded, randomized, parallel-group trial (ATTRACT) in moderate-to-severe papulopustular rosacea found ivermectin 1% cream once daily significantly outperformed metronidazole 0.75% cream twice daily on inflammatory lesion reduction and clear/almost-clear rates at week 16.[^1]

@@ -1,4 +1,7 @@
 ---
+aliases:
+- PMID 42175814
+- Warren 2026
 analyzed: '2026-08-27'
 assurance: opus
 name: 'Warren 2026: Oral Icotrokinra Kept High-Impact-Site Psoriasis Clear Through
@@ -6,7 +9,7 @@ name: 'Warren 2026: Oral Icotrokinra Kept High-Impact-Site Psoriasis Clear Throu
 slug: warren-2026-icotrokinra-high-impact-site-psoriasis-iconic-total-pmid-42175814
 status: published
 type: study
-updated: '2026-08-27'
+updated: '2026-11-27'
 ---
 
 A phase 3 randomized trial found that once-daily oral icotrokinra, an interleukin-23 receptor antagonist peptide, produced high and durable clearance of plaque psoriasis at hard-to-treat "high-impact" sites (scalp, genitals, hands and feet) through 1 year, supporting it as an oral option for [[psoriasis]].[^1]

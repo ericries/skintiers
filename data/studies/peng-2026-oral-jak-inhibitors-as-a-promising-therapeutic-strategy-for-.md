@@ -1,4 +1,7 @@
 ---
+aliases:
+- PMID 41796703
+- Peng 2026
 analyzed: '2026-08-09'
 assurance: sonnet
 name: 'Peng 2026 Oral JAK Inhibitors as a Promising Therapeutic Strategy for Refractory
@@ -6,7 +9,7 @@ name: 'Peng 2026 Oral JAK Inhibitors as a Promising Therapeutic Strategy for Ref
 slug: peng-2026-oral-jak-inhibitors-as-a-promising-therapeutic-strategy-for-
 status: published
 type: study
-updated: '2026-08-09'
+updated: '2026-11-27'
 ---
 
 A systematic review and meta-analysis of 11 studies (57 patients) found a pooled 89.9% response rate to oral JAK inhibitors in refractory [[rosacea]], but all included studies were single-arm (no placebo/standard-of-care comparator).[^1]

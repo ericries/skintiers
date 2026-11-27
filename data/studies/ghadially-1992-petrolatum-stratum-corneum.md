@@ -1,11 +1,14 @@
 ---
+aliases:
+- PMID 1564142
+- Ghadially 1992
 analyzed: '2026-08-08'
 assurance: opus
 name: Effects of petrolatum on stratum corneum structure and function
 slug: ghadially-1992-petrolatum-stratum-corneum
 status: published
 type: study
-updated: '2026-08-08'
+updated: '2026-11-27'
 ---
 
 A human clinical study found that petrolatum (Vaseline Petroleum Jelly) accelerated, rather than delayed, stratum corneum barrier recovery after experimental disruption, contradicting the assumption that it acts as an occlusive surface membrane.[^1]

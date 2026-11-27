@@ -1,4 +1,7 @@
 ---
+aliases:
+- PMID 26487337
+- Downs 2016
 analyzed: '2026-08-08'
 assurance: sonnet
 name: Toxicopathological Effects of the Sunscreen UV Filter, Oxybenzone (Benzophenone-3),
@@ -7,7 +10,7 @@ name: Toxicopathological Effects of the Sunscreen UV Filter, Oxybenzone (Benzoph
 slug: downs-2016-oxybenzone-coral-toxicity
 status: published
 type: study
-updated: '2026-08-08'
+updated: '2026-11-27'
 ---
 
 A laboratory ecotoxicology study found that oxybenzone (BP-3), a UV filter used in some [[sunscreen-uv-filters]] formulations, kills and deforms coral larvae and damages coral cells at concentrations found in reef waters near Hawaii and the U.S. Virgin Islands.[^1]

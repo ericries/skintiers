@@ -1,4 +1,7 @@
 ---
+aliases:
+- PMID 42108609
+- Morgado Carrasco 2026
 analyzed: '2026-08-09'
 assurance: sonnet
 name: Morgado-Carrasco 2026 Efficacy of a Topical Formulation on Skin Hydration and
@@ -6,7 +9,7 @@ name: Morgado-Carrasco 2026 Efficacy of a Topical Formulation on Skin Hydration 
 slug: morgado-carrasco-2026-efficacy-of-a-topical-formulation-on-skin-hydrat
 status: published
 type: study
-updated: '2026-08-09'
+updated: '2026-11-27'
 ---
 
 A 28-day randomized, split-leg, untreated-controlled trial in adults with xerosis found that a topical formulation of panthenol, niacinamide, and dipotassium glycyrrhizate significantly increased corneometric skin hydration and reduced transepidermal water loss (TEWL) versus the untreated contralateral leg.[^1]

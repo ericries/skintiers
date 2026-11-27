@@ -1819,7 +1819,7 @@
 - name: Backfill PMID aliases onto 142 study pages
   type: list
   priority: 2
-  status: pending
+  status: done
   discovered_from: null
   source: "MEASURED 2026-11-22: 142 of 170 study pages carry no alias beginning PMID,\
     \ so sk find 'PMID 3336176' resolved nothing until I added one to weiss-1988 during\
@@ -1833,7 +1833,22 @@
     \ match the page title means the page is wrong about its own source, which is\
     \ a finding in itself. Additive only, no slug or URL changes, so it is safe to\
     \ do in batches. Pair it with the queue-matcher row filed the same day; aliases\
-    \ are the cheaper half of that fix"
+    \ are the cheaper half of that fix DONE 2026-11-27 for 121 of 142. Method: extracted\
+    \ a candidate PMID from each page's slug suffix or Sources footnote, batch-verified\
+    \ all 120 distinct PMIDs against PubMed esummary, then compared each returned\
+    \ title against the page's own name. 108 matched automatically on word overlap;\
+    \ the other 13 I read individually and all 13 were correct, the threshold was\
+    \ simply conservative against page names that are editorial summaries rather than\
+    \ verbatim titles. Every page got 'PMID <n>' plus an 'Author Year' alias derived\
+    \ from the slug.\n\nREMAINING 21 carry no PMID anywhere in slug or body. Most\
+    \ are probably non-PubMed sources (regulatory documents, reviews, book chapters)\
+    \ rather than missing data, so each needs a look rather than a script; that is\
+    \ a smaller, different task.\n\nSEPARATE FINDING worth checking, filed from the\
+    \ verification pass: raikou-2017-acetyl-hexapeptide-3-antiwrinkle-rct is named\
+    \ for one peptide, but PMID 28150423 is titled 'The efficacy study of the combination\
+    \ of tripeptide-10-citrulline and acetyl hexapeptide-3'. The PMID is right; the\
+    \ page name may describe a COMBINATION trial as a single-ingredient one, which\
+    \ would matter for anything citing it as evidence for acetyl hexapeptide-3 alone"
 - name: 'Image cron STEP 1 treats ''images: []'' as having images'
   type: list
   priority: 3

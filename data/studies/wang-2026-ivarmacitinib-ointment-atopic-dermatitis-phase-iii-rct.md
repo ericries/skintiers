@@ -1,4 +1,7 @@
 ---
+aliases:
+- PMID 41317338
+- Wang 2026
 analyzed: '2026-09-18'
 assurance: opus
 name: 'Wang 2026 Ivarmacitinib Ointment for Mild-to-Moderate Atopic Dermatitis: Phase
@@ -6,7 +9,7 @@ name: 'Wang 2026 Ivarmacitinib Ointment for Mild-to-Moderate Atopic Dermatitis: 
 slug: wang-2026-ivarmacitinib-ointment-atopic-dermatitis-phase-iii-rct
 status: published
 type: study
-updated: '2026-09-18'
+updated: '2026-11-27'
 ---
 
 A phase III vehicle-controlled trial reported that ivarmacitinib ointment, a topical JAK1 inhibitor, cleared more mild-to-moderate atopic dermatitis than its vehicle at 8 weeks (EASI 75 in about 43 to 45 percent versus 18 percent), with itch relief within 48 hours and no skin atrophy, positioning it as a potential steroid-sparing topical.[^1]

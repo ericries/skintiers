@@ -1,4 +1,7 @@
 ---
+aliases:
+- PMID 29291958
+- Williams 2018
 analyzed: '2026-08-17'
 assurance: sonnet
 name: 'Williams 2018: SPF 100+ vs SPF 50+ sunburn protection, randomized split-face
@@ -6,7 +9,7 @@ name: 'Williams 2018: SPF 100+ vs SPF 50+ sunburn protection, randomized split-f
 slug: williams-2018-spf100-vs-spf50-sunburn-rct
 status: published
 type: study
-updated: '2026-08-17'
+updated: '2026-11-27'
 ---
 
 A randomized, double-blind, split-face trial under natural sunlight found SPF 100+ sunscreen prevented sunburn better than SPF 50+ when people applied it themselves during a real day outdoors.[^1]

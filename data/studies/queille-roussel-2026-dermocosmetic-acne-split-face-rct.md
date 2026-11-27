@@ -1,11 +1,15 @@
 ---
+aliases:
+- PMID 41487026
+- Queille Roussel 2026
 analyzed: '2026-09-15'
 assurance: opus
-name: 'Queille-Roussel 2026 Rapid and Visible Efficacy of a Dermocosmetic in Acne Patients With Fair Skin Phototypes: A Randomized Split-Face Study (PMID 41487026)'
+name: 'Queille-Roussel 2026 Rapid and Visible Efficacy of a Dermocosmetic in Acne
+  Patients With Fair Skin Phototypes: A Randomized Split-Face Study (PMID 41487026)'
 slug: queille-roussel-2026-dermocosmetic-acne-split-face-rct
 status: published
 type: study
-updated: '2026-09-15'
+updated: '2026-11-27'
 ---
 
 A small manufacturer-run split-face study reported that a La Roche-Posay dermocosmetic acne cream lowered acne lesion counts on the treated side versus an untreated side within 15 days, but the design (16 subjects, no vehicle control, heavy sponsor involvement) makes it exploratory, not the "strong evidence" its authors claim.[^1]

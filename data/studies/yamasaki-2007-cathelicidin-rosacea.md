@@ -1,11 +1,14 @@
 ---
+aliases:
+- PMID 17676051
+- Yamasaki 2007
 analyzed: '2026-07-28'
 assurance: opus
 name: 'Yamasaki et al. 2007: Cathelicidin and kallikrein-5 in rosacea (Nature Medicine)'
 slug: yamasaki-2007-cathelicidin-rosacea
 status: published
 type: study
-updated: '2026-07-28'
+updated: '2026-11-27'
 ---
 
 Increased serine protease activity and cathelicidin promotes skin inflammation in rosacea is a 2007 Nature Medicine laboratory study that found people with rosacea carry abnormally high amounts of the antimicrobial peptide cathelicidin in their facial skin, in an unusually processed form linked to an epidermal enzyme (stratum corneum tryptic enzyme, also called kallikrein-5), and that recreating those conditions in mouse skin produced inflammation.[^1][^2]

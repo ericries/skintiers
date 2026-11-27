@@ -1,4 +1,7 @@
 ---
+aliases:
+- PMID 19775361
+- Ulrich 2009
 analyzed: '2026-08-08'
 assurance: sonnet
 name: 'Prevention of non-melanoma skin cancer in organ transplant patients by regular
@@ -6,7 +9,7 @@ name: 'Prevention of non-melanoma skin cancer in organ transplant patients by re
 slug: ulrich-2009-transplant-nmsc-sunscreen
 status: published
 type: study
-updated: '2026-08-08'
+updated: '2026-11-27'
 ---
 
 A 24-month prospective, single-center case-control study in 120 matched organ-transplant recipients found that daily use of a high-SPF sunscreen reduced new actinic keratoses and eliminated new invasive squamous-cell carcinomas compared with sun-protection counseling alone.[^1]

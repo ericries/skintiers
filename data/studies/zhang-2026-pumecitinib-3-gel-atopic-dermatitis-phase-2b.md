@@ -1,4 +1,7 @@
 ---
+aliases:
+- PMID 40973120
+- Zhang 2026
 analyzed: '2026-10-09'
 assurance: sonnet
 name: 'Efficacy and safety of pumecitinib 3% gel in treating mild-to-moderate atopic
@@ -7,7 +10,7 @@ name: 'Efficacy and safety of pumecitinib 3% gel in treating mild-to-moderate at
 slug: zhang-2026-pumecitinib-3-gel-atopic-dermatitis-phase-2b
 status: published
 type: study
-updated: '2026-10-09'
+updated: '2026-11-27'
 ---
 
 A phase IIb dose-finding trial (139 adults, China) of pumecitinib 3% gel, an investigational topical selective JAK1/2 inhibitor, in mild-to-moderate atopic dermatitis. It is not an approved drug and this is not a registration trial.[^1]

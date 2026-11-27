@@ -1,11 +1,14 @@
 ---
+aliases:
+- PMID 38019562
+- Tan 2024
 analyzed: '2026-08-08'
 assurance: sonnet
 name: 'Risk of Suicide and Psychiatric Disorders Among Isotretinoin Users: A Meta-Analysis'
 slug: tan-2024-isotretinoin-suicide-psychiatric
 status: published
 type: study
-updated: '2026-08-08'
+updated: '2026-11-27'
 ---
 
 A meta-analysis of 25 studies (24 pooled) covering over 1.6 million participants found isotretinoin for [[acne]] was not associated with increased risk of suicide or psychiatric disorders overall, and was associated with lower suicide-attempt risk in the years after treatment.[^1]

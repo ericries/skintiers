@@ -1,4 +1,7 @@
 ---
+aliases:
+- PMID 25282563
+- Simpson 2014
 analyzed: '2026-08-08'
 assurance: sonnet
 name: Emollient enhancement of the skin barrier from birth offers effective atopic
@@ -6,7 +9,7 @@ name: Emollient enhancement of the skin barrier from birth offers effective atop
 slug: simpson-2014-emollient-atopic-dermatitis-prevention
 status: published
 type: study
-updated: '2026-08-08'
+updated: '2026-11-27'
 ---
 
 A multicenter US/UK pilot RCT found that daily full-body emollient therapy started within 3 weeks of birth in high-risk neonates cut the cumulative incidence of atopic dermatitis by half versus no emollients.[^1]

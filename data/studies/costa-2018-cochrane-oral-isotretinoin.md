@@ -1,11 +1,14 @@
 ---
+aliases:
+- PMID 30484286
+- Costa 2018
 analyzed: '2026-08-08'
 assurance: sonnet
 name: Oral isotretinoin for acne
 slug: costa-2018-cochrane-oral-isotretinoin
 status: published
 type: study
-updated: '2026-08-08'
+updated: '2026-11-27'
 ---
 
 This Cochrane systematic review of 31 RCTs found low-quality, largely inconclusive evidence on whether oral isotretinoin outperforms standard oral-antibiotic-plus-topical treatment for acne, though it may modestly improve physician-rated severity.[^1]

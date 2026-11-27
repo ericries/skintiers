@@ -1,11 +1,15 @@
 ---
+aliases:
+- PMID 41493245
+- Jackson 2026
 analyzed: '2026-09-14'
 assurance: opus
-name: 'Jackson 2026 Astragalus membranaceus Extract as a Botanical Ingredient for Pigmentary and Anti-Aging Skincare: A Systematic Review (PMID 41493245)'
+name: 'Jackson 2026 Astragalus membranaceus Extract as a Botanical Ingredient for
+  Pigmentary and Anti-Aging Skincare: A Systematic Review (PMID 41493245)'
 slug: jackson-2026-astragalus-membranaceus-antiaging-review
 status: published
 type: study
-updated: '2026-09-14'
+updated: '2026-11-27'
 ---
 
 A systematic review concluded that Astragalus membranaceus and its bioactive compounds show anti-aging promise in mostly laboratory and experimental models, but that the human clinical evidence is thin and unquantified, so the authors call for randomized trials before its use in anti-aging skincare can be considered proven.[^1]

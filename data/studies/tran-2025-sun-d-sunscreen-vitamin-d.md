@@ -1,4 +1,7 @@
 ---
+aliases:
+- PMID 40927943
+- Tran 2025
 analyzed: '2026-10-08'
 assurance: sonnet
 name: 'Effect of daily sunscreen application on vitamin D: findings from the open-label
@@ -6,7 +9,7 @@ name: 'Effect of daily sunscreen application on vitamin D: findings from the ope
 slug: tran-2025-sun-d-sunscreen-vitamin-d
 status: published
 type: study
-updated: '2026-10-08'
+updated: '2026-11-27'
 ---
 
 An Australian randomized trial (639 participants) testing whether a year of routine SPF 50+ sunscreen use lowers blood vitamin D. It is the first trial to test the high-SPF products that current sun-protection advice actually recommends, and it found a small but consistent reduction.[^1]

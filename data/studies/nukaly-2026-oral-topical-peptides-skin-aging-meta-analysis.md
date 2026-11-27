@@ -1,4 +1,7 @@
 ---
+aliases:
+- PMID 41924746
+- Nukaly 2026
 analyzed: '2026-08-19'
 assurance: opus
 name: 'Nukaly 2026: oral and topical peptides for skin aging, systematic review and
@@ -6,7 +9,7 @@ name: 'Nukaly 2026: oral and topical peptides for skin aging, systematic review 
 slug: nukaly-2026-oral-topical-peptides-skin-aging-meta-analysis
 status: published
 type: study
-updated: '2026-08-19'
+updated: '2026-11-27'
 ---
 
 A 2026 systematic review and meta-analysis pooled 19 randomized trials of peptides for skin aging and found only a modest overall wrinkle benefit, one that was largely driven by oral peptide supplements rather than the topical peptides used in skincare.[^1]

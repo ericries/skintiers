@@ -1,4 +1,7 @@
 ---
+aliases:
+- PMID 41329149
+- Gallo 2025
 analyzed: '2026-08-30'
 assurance: opus
 name: 'Gallo 2025: 16 weeks of low-dose oral minocycline (DFD-29) did not detectably
@@ -6,7 +9,7 @@ name: 'Gallo 2025: 16 weeks of low-dose oral minocycline (DFD-29) did not detect
 slug: gallo-2025-low-dose-minocycline-dfd-29-microflora-pmid-41329149
 status: published
 type: study
-updated: '2026-08-30'
+updated: '2026-11-27'
 ---
 
 A randomized placebo-controlled trial in healthy adults found that 16 weeks of low-dose oral minocycline (DFD-29, the anti-inflammatory-dosed rosacea drug) produced no detectable change in skin, gut, or vaginal microbial abundance or antibiotic resistance versus placebo, addressing a safety question for [[rosacea-papulopustular]] treatment.[^1]

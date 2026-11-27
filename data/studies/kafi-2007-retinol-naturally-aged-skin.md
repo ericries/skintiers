@@ -1,11 +1,14 @@
 ---
+aliases:
+- PMID 17515510
+- Kafi 2007
 analyzed: '2026-08-08'
 assurance: opus
 name: Improvement of naturally aged skin with vitamin A (retinol)
 slug: kafi-2007-retinol-naturally-aged-skin
 status: published
 type: study
-updated: '2026-08-08'
+updated: '2026-11-27'
 ---
 
 A randomized, double-blind, vehicle-controlled trial in very elderly nursing-home residents found that topical 0.4% retinol lotion significantly reduced fine wrinkling versus vehicle over 24 weeks, with paired increases in glycosaminoglycan and procollagen I markers.[^1]

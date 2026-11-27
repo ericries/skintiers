@@ -1,4 +1,7 @@
 ---
+aliases:
+- PMID 42555074
+- Nguyen 2026
 analyzed: '2026-08-09'
 assurance: sonnet
 name: Nguyen 2026 Use of an Eczema Moisturizer or Cream Provides Immediate, Sustained
@@ -6,7 +9,7 @@ name: Nguyen 2026 Use of an Eczema Moisturizer or Cream Provides Immediate, Sust
 slug: nguyen-2026-use-of-an-eczema-moisturizer-or-cream-provides-immediate-s
 status: published
 type: study
-updated: '2026-08-09'
+updated: '2026-11-27'
 ---
 
 A randomized split-body trial of two products from Galderma's own Cetaphil Restoraderm eczema line (a structural conflict of interest, and the abstract discloses no funding or conflict-of-interest statement) found single applications produced itch relief within under a minute and near-complete itch resolution by 24 hours.[^1]

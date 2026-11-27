@@ -1,11 +1,14 @@
 ---
+aliases:
+- PMID 8552187
+- Fisher 1996
 analyzed: '2026-08-07'
 assurance: sonnet
 name: Molecular basis of sun-induced premature skin ageing and retinoid antagonism
 slug: fisher-1996-retinoid-antagonism-photoaging
 status: published
 type: study
-updated: '2026-08-07'
+updated: '2026-11-27'
 ---
 
 A mechanistic study in human skin found that UVB irradiation rapidly induces the transcription factors AP-1 and NF-kappa B and downstream matrix-degrading metalloproteinases, and that pretreatment with all-trans retinoic acid substantially reduced this induction.[^1]

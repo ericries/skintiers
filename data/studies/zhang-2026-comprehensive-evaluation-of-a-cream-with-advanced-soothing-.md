@@ -1,4 +1,7 @@
 ---
+aliases:
+- PMID 41622613
+- Zhang 2026
 analyzed: '2026-08-09'
 assurance: opus
 name: Zhang 2026 Comprehensive Evaluation of a Cream With Advanced Soothing Complex
@@ -6,7 +9,7 @@ name: Zhang 2026 Comprehensive Evaluation of a Cream With Advanced Soothing Comp
 slug: zhang-2026-comprehensive-evaluation-of-a-cream-with-advanced-soothing-
 status: published
 type: study
-updated: '2026-08-09'
+updated: '2026-11-27'
 ---
 
 A split-face RCT in 30 women found that a soothing-complex cream applied after intense pulsed light (IPL) therapy significantly reduced erythema index, erythema area, and transepidermal water loss by day 28 versus a control moisturizer.[^1]

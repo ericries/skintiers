@@ -1,4 +1,7 @@
 ---
+aliases:
+- PMID 40971325
+- Thanawala 2025
 analyzed: '2026-10-10'
 assurance: sonnet
 name: 'Efficacy and Safety of an Oral Low-Dose Water-Dispersible Turmeric Extract
@@ -7,7 +10,7 @@ name: 'Efficacy and Safety of an Oral Low-Dose Water-Dispersible Turmeric Extrac
 slug: thanawala-2025-oral-turmeric-extract-facial-skin-health
 status: published
 type: study
-updated: '2026-10-10'
+updated: '2026-11-27'
 ---
 
 A 60-day placebo-controlled trial (90 completers) of a 250 mg oral turmeric extract capsule in healthy women aged 18 to 40, measuring one pre-marked facial blemish plus hydration, water loss and gloss. Every author is affiliated with the product's manufacturers or the contract research organisation, and the two manufacturers hold the paper's copyright.[^1]

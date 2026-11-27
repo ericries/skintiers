@@ -1,4 +1,7 @@
 ---
+aliases:
+- PMID 41538769
+- Shah 2026
 analyzed: '2026-08-09'
 assurance: sonnet
 name: 'Shah 2026 Delayed Full-Thickness Skin Grafting After Skin Cancer Resection:
@@ -6,7 +9,7 @@ name: 'Shah 2026 Delayed Full-Thickness Skin Grafting After Skin Cancer Resectio
 slug: shah-2026-delayed-full-thickness-skin-grafting-after-skin-cancer-resec
 status: published
 type: study
-updated: '2026-08-09'
+updated: '2026-11-27'
 ---
 
 A systematic review of 24 studies (665 patients) on delaying full-thickness skin grafting after Mohs surgery or wide local excision for skin cancer found an 89.6% overall graft success rate, with a 2-to-3-week delay outperforming grafts placed within one week.[^1]

@@ -1,4 +1,7 @@
 ---
+aliases:
+- PMID 41642149
+- Libecco 2026
 analyzed: '2026-08-09'
 assurance: opus
 name: Libecco 2026 Efficacy and Safety of Clascoterone Cream 1% for Acne Are Independent
@@ -6,7 +9,7 @@ name: Libecco 2026 Efficacy and Safety of Clascoterone Cream 1% for Acne Are Ind
 slug: libecco-2026-efficacy-and-safety-of-clascoterone-cream-1-for-acne-are-
 status: published
 type: study
-updated: '2026-08-09'
+updated: '2026-11-27'
 ---
 
 A post hoc subgroup analysis of two pooled Phase 3 trials found clascoterone cream 1% produced significantly greater IGA treatment-success rates than vehicle across adolescent, adult, male, and female [[acne]] patients alike, with adults showing larger lesion-count reductions than adolescents and no male/female difference.[^1]

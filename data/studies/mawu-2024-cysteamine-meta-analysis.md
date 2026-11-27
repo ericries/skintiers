@@ -1,4 +1,7 @@
 ---
+aliases:
+- PMID 39673630
+- Mawu 2024
 analyzed: '2026-08-08'
 assurance: opus
 name: 'Efficacy and safety of cysteamine 5% cream for the management of melasma: a
@@ -6,7 +9,7 @@ name: 'Efficacy and safety of cysteamine 5% cream for the management of melasma:
 slug: mawu-2024-cysteamine-meta-analysis
 status: published
 type: study
-updated: '2026-08-08'
+updated: '2026-11-27'
 ---
 
 A meta-analysis of 7 RCTs found cysteamine 5% cream significantly outperformed placebo for melasma severity and was statistically indistinguishable from hydroquinone 4%, with a similar adverse-effect profile.[^1]

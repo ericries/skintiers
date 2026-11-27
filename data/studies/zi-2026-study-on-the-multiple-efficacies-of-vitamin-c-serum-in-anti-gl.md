@@ -1,4 +1,7 @@
 ---
+aliases:
+- PMID 42087444
+- Zi 2026
 analyzed: '2026-08-09'
 assurance: opus
 name: Zi 2026 Study on the Multiple Efficacies of Vitamin C Serum in Anti-Glycation,
@@ -6,7 +9,7 @@ name: Zi 2026 Study on the Multiple Efficacies of Vitamin C Serum in Anti-Glycat
 slug: zi-2026-study-on-the-multiple-efficacies-of-vitamin-c-serum-in-anti-gl
 status: published
 type: study
-updated: '2026-08-09'
+updated: '2026-11-27'
 ---
 
 A randomized, double-blind, controlled trial found that 12 weeks of topical 10% [[vitamin-c]] serum significantly reduced skin glycation, carbonylation, and inflammation markers and improved skin color versus a blank-group control in healthy Chinese women.[^1]

@@ -1,11 +1,14 @@
 ---
+aliases:
+- PMID 24471735
+- Chaudhuri Bojanowski 2014
 analyzed: '2026-08-08'
 assurance: opus
 name: Chaudhuri Bojanowski 2014 bakuchiol retinol-like compound
 slug: chaudhuri-bojanowski-2014-bakuchiol-retinol-like-compound
 status: published
 type: study
-updated: '2026-08-08'
+updated: '2026-11-27'
 ---
 
 An in-vitro gene-expression comparison found bakuchiol produces a highly similar transcriptional and collagen-expression profile to retinol, paired with an uncontrolled 12-week clinical case study reporting qualitative anti-aging improvement without retinol's usual irritation.[^1]

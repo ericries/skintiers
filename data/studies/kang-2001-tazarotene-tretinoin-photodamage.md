@@ -1,4 +1,7 @@
 ---
+aliases:
+- PMID 11735710
+- Kang 2001
 analyzed: '2026-08-08'
 assurance: opus
 name: 'Tazarotene cream for the treatment of facial photodamage: a multicenter, investigator-masked,
@@ -8,7 +11,7 @@ name: 'Tazarotene cream for the treatment of facial photodamage: a multicenter, 
 slug: kang-2001-tazarotene-tretinoin-photodamage
 status: published
 type: study
-updated: '2026-08-08'
+updated: '2026-11-27'
 ---
 
 A 24-week randomized trial in 349 subjects with facial photodamage found 0.1% tazarotene cream produced the highest global response rate (67%), outperforming both 0.05% tretinoin emollient cream (55%) and vehicle (22%), though the abstract gives no pairwise significance testing between individual arms.[^1]

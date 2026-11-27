@@ -1,4 +1,7 @@
 ---
+aliases:
+- PMID 41981821
+- Wang 2026
 analyzed: '2026-08-09'
 assurance: sonnet
 name: 'Wang 2026 Improved Skin Quality with a Novel Topical Body Serum: Distal Thighs
@@ -6,7 +9,7 @@ name: 'Wang 2026 Improved Skin Quality with a Novel Topical Body Serum: Distal T
 slug: wang-2026-improved-skin-quality-with-a-novel-topical-body-serum-distal
 status: published
 type: study
-updated: '2026-08-09'
+updated: '2026-11-27'
 ---
 
 A 12-week randomized, double-blinded, split-body, vehicle-controlled trial found that a proprietary body firming serum (BFS) produced significant improvements in firmness, texture, and crepiness on the distal thighs and back of hands versus vehicle, relevant to the general case for topical [[anti-aging]] care of body skin.[^1]

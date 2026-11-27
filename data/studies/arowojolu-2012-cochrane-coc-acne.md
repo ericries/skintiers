@@ -1,11 +1,14 @@
 ---
+aliases:
+- PMID 22786490
+- Arowojolu 2012
 analyzed: '2026-08-08'
 assurance: sonnet
 name: Combined oral contraceptive pills for treatment of acne
 slug: arowojolu-2012-cochrane-coc-acne
 status: published
 type: study
-updated: '2026-08-08'
+updated: '2026-11-27'
 ---
 
 A Cochrane systematic review of 31 randomized trials (12,579 participants) found combined oral contraceptives (COCs) consistently reduce facial acne lesion counts and severity compared with placebo.[^1]

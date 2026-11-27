@@ -1,11 +1,14 @@
 ---
+aliases:
+- PMID 30945275
+- Neale 2019
 analyzed: '2026-08-04'
 assurance: sonnet
 name: 'The effect of sunscreen on vitamin D: a review'
 slug: neale-2019-sunscreen-vitamin-d
 status: published
 type: study
-updated: '2026-08-04'
+updated: '2026-11-27'
 ---
 
 This is a 2019 systematic review from QIMR Berghofer Medical Research Institute that pooled four experimental studies, three field trials, and 69 observational studies on sunscreen and vitamin D, concluding that "there is little evidence that sunscreen decreases 25(OH)D concentration when used in real-life settings" while also flagging that no trial has tested the high-SPF sunscreens now widely recommended.[^1]

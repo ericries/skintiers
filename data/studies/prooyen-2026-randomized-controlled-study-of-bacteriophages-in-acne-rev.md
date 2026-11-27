@@ -1,4 +1,7 @@
 ---
+aliases:
+- PMID 42235049
+- Prooyen 2026
 analyzed: '2026-08-09'
 assurance: opus
 name: Prooyen 2026 Randomized Controlled Study of Bacteriophages in Acne Reveals Efficacy
@@ -6,7 +9,7 @@ name: Prooyen 2026 Randomized Controlled Study of Bacteriophages in Acne Reveals
 slug: prooyen-2026-randomized-controlled-study-of-bacteriophages-in-acne-rev
 status: published
 type: study
-updated: '2026-08-09'
+updated: '2026-11-27'
 ---
 
 A randomized, double-blind, placebo-controlled trial found that topical bacteriophage treatment significantly reduced Cutibacterium acnes and increased skin microbiome diversity in [[acne]] over 8 weeks, though the abstract reports only significance thresholds, not effect-size figures.[^1]

@@ -1,4 +1,7 @@
 ---
+aliases:
+- PMID 40874402
+- Pourani 2025
 analyzed: '2026-11-06'
 assurance: sonnet
 name: 'Pourani 2025: Facial Artery Course, Depth and Diameter on Doppler Ultrasound
@@ -6,7 +9,7 @@ name: 'Pourani 2025: Facial Artery Course, Depth and Diameter on Doppler Ultraso
 slug: pourani-2025-facial-artery-doppler-mapping-pmid-40874402
 status: published
 type: study
-updated: '2026-11-06'
+updated: '2026-11-27'
 ---
 
 A pooled anatomy study, not a treatment study: it asks where the facial artery actually runs, how deep it sits and how wide it is, so that an injector can avoid it. It is indexed here as reference for the injectable side of [[dermal-fillers-for-acne-scars]] and has no bearing on any topical ingredient.[^1]
