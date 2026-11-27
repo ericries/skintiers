@@ -74,6 +74,16 @@ videos:
   related: [dry-skin, minimalist-routine]
   thesis: 'Dermatologist Fatima Fahs gives a simple test for working out your skin type: wash your face in the morning and see how it feels 30 minutes later. Tight, dry and itchy points to dry skin; normal with a little oiliness in the centre points to combination; oily or blotchy again soon after washing points to oily. She is candid that this is a rough sorting tool rather than a measurement, saying these are not specific scientific types, and frames its use as choosing suitable products or adjusting how often you use them so you do not end up with irritation.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Lightweight hydration for oily, acne-prone skin
+  creator: Ella (@your.estie.ella)
+  creator_slug: your-estie-ella
+  credential: Licensed esthetician (NOT a dermatologist or cosmetic chemist)
+  platform: TikTok
+  url: https://www.tiktok.com/@your.estie.ella/video/7710717488467627277
+  posted: '2026-11-21'
+  related: [skin-barrier-repair, hyaluronic-acid, ceramides, beta-glucan, ectoin, panthenol, cholesterol, centella-asiatica, acne]
+  thesis: Licensed esthetician Ella argues that oily and acne-prone skin still needs hydration as the weather turns colder, and that the way to add it is thin layers rather than thick, rich creams. Her practical version is watery toners rather than milky ones, lighter serums, a light gel cream moisturiser that keeps skin hydrated from morning until evening, and a hydrating sunscreen used as one more layer. She tells viewers to look for ceramides to lock the layers in, and names beta glucan, centella, PDRN, ectoin, panthenol and cholesterol as the sorts of things she reads labels for.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 
 ---
 
