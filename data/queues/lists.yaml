@@ -1867,3 +1867,11 @@
     the .txt artifact. Related to the glob lesson added to the playbook the same day:
     both are absence claims made by a shell idiom that cannot express the question
     being asked'
+- name: 'Fragrance allergens in skincare: what the 26 EU-labelled names mean'
+  type: list
+  priority: 5
+  status: pending
+  discovered_from: linalool
+  source: Grounded in the four oxidised-terpene pages now on the site (linalool, limonene,
+    geraniol, citronellol), all tier weak, all with EU allergen-disclosure labelling
+    as the reason a reader meets the name at all

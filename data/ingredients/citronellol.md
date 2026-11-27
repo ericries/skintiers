@@ -10,7 +10,7 @@ slug: citronellol
 status: published
 tier: weak
 type: ingredient
-updated: '2026-11-20'
+updated: '2026-11-27'
 ---
 
 A rose-scented terpene alcohol used as a fragrance ingredient, and one of the components of fragrance mix II.[^ox] It is in a formula to make it smell, not to do anything to skin, which is why the grade here is `weak`. **Bottom line:** as with [[geraniol]], what sensitises people is mostly the OXIDISED form, and the practical twist is that the standard patch test does not catch all of it.
@@ -41,7 +41,7 @@ There are none to quarantine, and that absence is itself the point. No brand adv
 
 ## Who should care
 
-Anyone who already reacts to fragrance, and particularly anyone who has tested positive to oxidised limonene or oxidised linalool, given the co-reaction rates above. Everybody else can treat it as what it is: a smell.
+Anyone who already reacts to fragrance, and particularly anyone who has tested positive to oxidised [[limonene]] or oxidised [[linalool]], given the co-reaction rates above. Everybody else can treat it as what it is: a smell.
 
 Products here that declare it include [[thayers-rose-petal-facial-toner]], [[bio-oil-skincare-oil]], [[caudalie-vinopure-acne-serum]], [[lancome-advanced-genifique-serum]], [[necessaire-the-body-retinol]] and [[skin1004-madagascar-centella-air-fit-suncream]].
 

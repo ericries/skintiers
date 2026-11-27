@@ -12,7 +12,7 @@ slug: limonene
 status: published
 tier: weak
 type: ingredient
-updated: '2026-11-23'
+updated: '2026-11-27'
 ---
 
 The citrus-smelling terpene, one of the most frequently declared fragrance ingredients in skincare. It is in a formula for scent, not for skin, which is why the grade here is `weak`. **Bottom line:** as with [[geraniol]] and [[citronellol]], the sensitiser is the OXIDISED form, and the honest position is that it tests positive often while its clinical relevance is still unsettled.
@@ -27,7 +27,7 @@ The citrus-smelling terpene, one of the most frequently declared fragrance ingre
 
 **Oxidation is the whole mechanism, exactly as with [[geraniol]].** Fresh limonene is a weak sensitiser; air exposure generates hydroperoxides that are not. This is why an old, often-opened bottle is not the same proposition as a fresh one, and why patch testing uses the oxidised material deliberately.
 
-**It travels with oxidised linalool.** The same study tested both and found linalool the more common at 7.0%.[^sukakul] [[citronellol]] records the tightest version of this pattern: among patients reacting to oxidised citronellol, 75 to 91 percent also reacted to oxidised linalool or oxidised limonene.
+**It travels with oxidised [[linalool]].** The same study tested both and found linalool the more common at 7.0%.[^sukakul] [[citronellol]] records the tightest version of this pattern: among patients reacting to oxidised citronellol, 75 to 91 percent also reacted to oxidised linalool or oxidised limonene.
 
 **Timing changes the answer.** "More than 95% of contact allergy cases were identified on Day 3/4", so a patch test read earlier than that will miss most of them.[^sukakul] Anyone told their fragrance test was negative should know when it was read.
 
@@ -45,6 +45,7 @@ There are none to quarantine. No brand advertises limonene as a benefit; it appe
 
 ## See Also
 
+- [[linalool]], the terpene it is tested alongside, which scores higher in both published series
 - [[geraniol]] and [[citronellol]], the same oxidation story with their own numbers
 - [[contact-dermatitis]] for what a reaction is
 - [[label-words-alcohol-free-fragrance-free-hypoallergenic]] for what a fragrance-free claim does and does not promise

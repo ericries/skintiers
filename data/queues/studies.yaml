@@ -2566,3 +2566,12 @@
     alone, which is the same error class the site flags on product pages. Read the
     page and the abstract, and if the conflation is there, fix the name and the claim
     rather than the PMID
+- name: 'Oxidised linalool (patch-test allergen) study page: Schubert 2023 IVDK 2018-2020'
+  type: study
+  priority: 5
+  status: pending
+  discovered_from: linalool
+  source: Schubert S et al. Contact Dermatitis 2023;89(2):85-94. PMID 37177844. The
+    independent German/Austrian multicentre counterpart to Sukakul 2022, n=5511, and
+    the source that argues the hydroperoxide test preparations are irritant and over-call.
+    Cited by data/ingredients/linalool.md
