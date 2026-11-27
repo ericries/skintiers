@@ -6917,4 +6917,20 @@
     the user''s call. A guard is in place meanwhile (tests/test_no_duplicate_page_names.py)
     that grandfathers these three and fails on any NEW collision; it also fails if
     a grandfathered pair is resolved but left in the list, so the exception set cannot
-    go stale'
+    go stale ANALYSIS 2026-11-27 (decision still yours; nothing merged or deleted).
+    I compared each pair structurally. In all three the NEWER page adds nothing: identical
+    section sets, equal or FEWER footnotes (0 vs 3, 2 vs 3, 1 vs 2), equal or fewer
+    grades, both have photos. The only source unique to any newer page is a Dermstore
+    footnote on the 2-BHA duplicate, used for the active concentration, which is a
+    retailer carrying a load-bearing composition claim.
+
+
+    So there is nothing to fold in. Keeping the older page of each pair and aliasing
+    the newer slug loses no content. That was the open question and it is now answered.
+
+
+    Separate finding that came out of the comparison and is NOT about the duplicates:
+    la-roche-posay-toleriane-double-repair-face-moisturizer attributes its INCI to
+    incidecoder and its price and marketing claims to an Ulta listing in PROSE, naming
+    neither with a url. Nothing on it can be re-fetched or re-verified. It passed
+    sk verify at exit 0 before today because verify only classified footnote urls'

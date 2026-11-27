@@ -52,6 +52,77 @@ def path_for(url, cache_dir=None):
     return d / f"{cache_key(url)}.md"
 
 
+# A bot-block or challenge page is the one thing that must never reach the cache.
+# It arrives with the right url, the right key and a plausible size, so once
+# stored it is indistinguishable from a real capture to every later reader, and
+# it satisfies any rule that merely asks whether the cache entry exists.
+# Observed 2026-11-27: a free curl of a brand URL returned a 5,741-byte
+# Cloudflare interstitial titled "Just a moment..." and it cached silently.
+_BLOCK_TITLES = (
+    "just a moment",
+    "attention required",
+    "access denied",
+    "robot or human",
+    "pardon our interruption",
+    "are you a human",
+    "security check",
+    "verifying you are human",
+    "403 forbidden",
+)
+_BLOCK_BODY = (
+    "enable javascript and cookies to continue",
+    "sorry, you have been blocked",
+    "checking your browser before accessing",
+    "cf-browser-verification",
+    "unusual traffic from your computer",
+    "you are a bot",
+)
+
+
+# A body that IS an http error, rather than the page. Matched only when the
+# WHOLE body is the phrase: a real page may mention "rate limited" in prose, and
+# the cache legitimately holds 49-byte curated extracts, so no size floor.
+_ERROR_BODIES = (
+    "local_rate_limited",
+    "rate limited",
+    "too many requests",
+    "429 too many requests",
+    "service unavailable",
+    "bad gateway",
+    "gateway timeout",
+    "internal server error",
+    "forbidden",
+    "not found",
+    "unauthorized",
+)
+
+
+def _reject_if_block_page(content):
+    """Raise if content is a bot-block/challenge/http-error body, not the source."""
+    import re as _re
+
+    bare = _re.sub(r"\s+", " ", content.strip()).strip().lower()
+    bare_core = _re.sub(r"^(error\s*(code)?\s*[:#]?\s*)?", "", bare).strip(" .:#")
+    if bare_core in _ERROR_BODIES or _re.fullmatch(r"(error code: )?\d{3,4}", bare):
+        raise ValueError(
+            f"refusing to cache a bare http-error body ({content.strip()[:40]!r})"
+        )
+
+    head = content[:4000].lower()
+    m = _re.search(r"<title[^>]*>(.*?)</title>", head, _re.S)
+    title = (m.group(1) if m else "").strip()
+    for marker in _BLOCK_TITLES:
+        if marker in title:
+            raise ValueError(
+                f"refusing to cache a bot-block/challenge page (title: {title[:60]!r})"
+            )
+    for marker in _BLOCK_BODY:
+        if marker in head:
+            raise ValueError(
+                f"refusing to cache a bot-block/challenge page (marker: {marker!r})"
+            )
+
+
 def put(url, content, cache_dir=None):
     """Cache content for url iff it is an 'unknown'-class source. Returns the path, or
     None if the domain is re-fetchable/non-citable (deliberately not cached)."""
@@ -59,6 +130,7 @@ def put(url, content, cache_dir=None):
         return None
     if not (content or "").strip():
         raise ValueError("refusing to cache empty content")
+    _reject_if_block_page(content)
     f = path_for(url, cache_dir)
     f.parent.mkdir(parents=True, exist_ok=True)
     header = (f"<!-- cached-source\nurl: {url}\nkey: {cache_key(url)}\n"

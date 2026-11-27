@@ -285,6 +285,27 @@ def _has_section(content, name):
     return False
 
 
+_CACHE_REF_RE = re.compile(r"research-cache/[\w/.-]+\.md")
+
+
+def missing_cache_refs(content, root=None):
+    """Cache entries a page cites that are not actually in the cache.
+
+    "cached verbatim at research-cache/web/<hash>.md" is the most
+    verifiable-looking sentence a page can carry, and nothing checked it. Two
+    published product pages were each citing a path that matched no file on disk
+    and no url on their own page (2026-11-27). The key is sha1(url)[:16], so a
+    citation that is not the key of any source on the page was never a capture
+    of it.
+    """
+    base = pathlib.Path(root) if root is not None else pathlib.Path(".")
+    out = []
+    for ref in dict.fromkeys(_CACHE_REF_RE.findall(content or "")):
+        if not (base / ref).exists():
+            out.append(ref)
+    return out
+
+
 def verify_profile(metadata, content):
     """Deterministic, offline source-quality / structure / uncited-stat checks."""
     errors, warnings = [], []
@@ -302,6 +323,43 @@ def verify_profile(metadata, content):
             errors.append(f"aggregator/marketing source cited as evidence: {url}")
         elif kind == "unknown":
             warnings.append(f"source domain not on primary allowlist (verify manually): {url}")
+
+    # Source quality, part 2: URLs attributed in PROSE inside ## Sources.
+    # _source_defs sees only footnote-definition lines, so a page that named a
+    # retailer in a running sentence bypassed classification entirely and exited
+    # clean (found 2026-11-27). These WARN and never error: a footnote is a
+    # citation, whereas prose attribution does sanctioned work here, above all
+    # naming incidecoder as where an INCI was decoded.
+    _footnoted = set(extract_source_urls(content))
+    for url in dict.fromkeys(_URL_RE.findall(_sources_block(content))):
+        if url in _footnoted:
+            continue
+        kind = classify_domain(url)
+        if kind == "aggregator":
+            warnings.append(
+                f"aggregator attributed in prose, not usable as evidence: {url}"
+            )
+        elif kind == "unknown":
+            warnings.append(
+                f"prose source domain not on primary allowlist (verify manually): {url}"
+            )
+
+    # A Sources block that names its sources in words and links none of them
+    # cannot be re-fetched, cached or re-verified by anyone later. Scoped to the
+    # claim-bearing types: a list's Sources legitimately carries no URL, because
+    # each claim is sourced on the page the list is curating.
+    if metadata.get("type") in ("product", "ingredient", "study"):
+        _block = _sources_block(content)
+        if _block.strip() and not _URL_RE.findall(_block):
+            warnings.append(
+                "## Sources names its sources but gives no citable url, so "
+                "nothing on this page can be re-verified"
+            )
+
+    for _ref in missing_cache_refs(content):
+        warnings.append(
+            f"cites a source cache entry that is not in the cache: {_ref}"
+        )
 
     if metadata.get("status") == "stub":
         return errors, warnings
