@@ -5,7 +5,7 @@ name: Aveeno
 slug: aveeno
 status: published
 type: brand
-updated: '2026-09-12'
+updated: '2026-11-27'
 videos:
 - title: 'Aveeno vs Eucerin: What Your Dermatologist Actually Recommends'
   creator: Dr. Aleksandra Brown, DO, FAAD
@@ -30,6 +30,7 @@ Aveeno is a mass-market skincare brand best known for oat-based ("colloidal oatm
 - [[aveeno-eczema-therapy-daily-moisturizing-cream]]: an over-the-counter eczema cream with colloidal oatmeal 1% as its skin-protectant active.
 - [[aveeno-eczema-therapy-itch-relief-balm]]: an over-the-counter nighttime eczema balm built around colloidal oatmeal 1%.
 - [[aveeno-skin-relief-moisturizing-lotion]]: a fragrance-free skin-protectant moisturizing lotion with dimethicone 1.2% as its active.
+- [[aveeno-skin-relief-body-wash-fragrance-free]]: a fragrance-free gel body wash from the same sub-line, and a cosmetic cleanser rather than a registered drug like several of its lotion siblings.
 
 ## Ingredients
 
