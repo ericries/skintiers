@@ -6934,3 +6934,15 @@
     incidecoder and its price and marketing claims to an Ulta listing in PROSE, naming
     neither with a url. Nothing on it can be re-fetched or re-verified. It passed
     sk verify at exit 0 before today because verify only classified footnote urls'
+- name: Mentax (butenafine hydrochloride 1% cream, prescription)
+  type: product
+  priority: 3
+  status: pending
+  discovered_from: lotrimin-ultra-butenafine-1-cream
+  source: 'GROUNDED 2026-11-27 while verifying the OTC Lotrimin Ultra labels. Butenafine
+    is graded good on [[butenafine]] and the site now covers the OTC presentation;
+    the prescription presentation of the same molecule is the natural companion and
+    would let the ingredient page contrast an Rx and an OTC route. VERIFY THE APPROVAL
+    BASIS FIRST: check the DailyMed SPL approval code before writing FDA-approved
+    anywhere, since an older topical can be marketing-category unapproved drug other
+    rather than an NDA'

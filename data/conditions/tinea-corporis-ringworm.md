@@ -17,12 +17,17 @@ tier_list:
   caption: All four carry a label indication for ringworm, so this is not a ranking
     of whether they work. The useful differences are COURSE LENGTH, where butenafine
     is two weeks against four for clotrimazole and tolnaftate, and REGULATORY STATUS,
-    where butenafine is NDA-approved and the others are monograph-accepted. Tiers
-    reflect each ingredient page's own evidence grade.
+    where butenafine is the only one of the four with no over-the-counter monograph
+    route, while terbinafine runs both ways and clotrimazole and tolnaftate are overwhelmingly
+    monograph products. Tiers reflect each ingredient page's own evidence grade.
   items:
   - note: 'Label covers ringworm on the SHORTEST course here: once a day for 2 weeks.
-      It is also the only one of these approved under an NDA rather than accepted
-      by monograph.'
+      It is also the only one of these four with no over-the-counter monograph route
+      at all: every butenafine OTC listing in the FDA directory is an NDA or an ANDA
+      referencing one, whereas clotrimazole and tolnaftate are overwhelmingly monograph
+      products and terbinafine runs both ways, with Lamisil AT itself approved as
+      an NDA. The buyable example is [[lotrimin-ultra-butenafine-1-cream|Lotrimin
+      Ultra]], NDA 021307.[^ndcbute]'
     slug: butenafine
     tier: good
   - note: Its label covers ringworm (tinea corporis), and the Cochrane head-to-head
@@ -42,19 +47,32 @@ tier_list:
   tier_labels:
     good: Carries a label indication for ringworm
 type: condition
-updated: '2026-10-23'
+updated: '2026-11-27'
 videos:
-- title: 'Recurrent fungal infection: causes and how to prevent'
-  creator: Dr. Aanchal MD
+- creator: Dr. Aanchal MD
   creator_slug: dr-aanchal-md
-  credential: Dr. Aanchal Panth, MD Dermatology, Venereology and Leprosy (AIIMS New Delhi), MBBS (Manipal); consultant dermatologist, Surat, India; IADVL member
-  platform: YouTube
-  url: https://www.youtube.com/watch?v=0K4udxHQgfM
-  posted: '2020-05-19'
-  related: [tinea-cruris-jock-itch, onychomycosis, topical-corticosteroids, terbinafine, itraconazole]
-  thesis: Dermatologist Dr Aanchal Panth sets out why superficial fungal infections of the skin keep coming back after treatment appears to work. Her first two causes are stopping the course early, since she says oral antifungals usually run three to four weeks and topical treatment can continue for up to three months, and using combination creams that contain a steroid, which she says suppress the inflammation the body uses to kill the fungus so the lesion looks better while the fungus spreads. She also names household reinfection through shared towels and clothing, untreated toenail infection, and uncontrolled diabetes, and advises asking family members whether they are infected too.
+  credential: Dr. Aanchal Panth, MD Dermatology, Venereology and Leprosy (AIIMS New
+    Delhi), MBBS (Manipal); consultant dermatologist, Surat, India; IADVL member
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
-
+  platform: YouTube
+  posted: '2020-05-19'
+  related:
+  - tinea-cruris-jock-itch
+  - onychomycosis
+  - topical-corticosteroids
+  - terbinafine
+  - itraconazole
+  thesis: Dermatologist Dr Aanchal Panth sets out why superficial fungal infections
+    of the skin keep coming back after treatment appears to work. Her first two causes
+    are stopping the course early, since she says oral antifungals usually run three
+    to four weeks and topical treatment can continue for up to three months, and using
+    combination creams that contain a steroid, which she says suppress the inflammation
+    the body uses to kill the fungus so the lesion looks better while the fungus spreads.
+    She also names household reinfection through shared towels and clothing, untreated
+    toenail infection, and uncontrolled diabetes, and advises asking family members
+    whether they are infected too.
+  title: 'Recurrent fungal infection: causes and how to prevent'
+  url: https://www.youtube.com/watch?v=0K4udxHQgfM
 ---
 
 Ringworm of the body is a dermatophyte infection of the skin, and the name is a leftover from before anyone knew what caused it. A 2025 review co-authored by the CDC's Mycotic Diseases Branch puts it plainly: "Tinea infections (often called ringworm) are caused by dermatophyte fungi and classified by the body site involved".[^afp] The foot version is on [[athletes-foot]] and the scalp version, which behaves very differently, on [[tinea-capitis]].
@@ -75,6 +93,8 @@ The classic description is specific enough to be useful. A 2020 review describes
 
 **Resistant tinea is now a real category.** The review records that "Emerging tinea infections may be more severe than classic tinea infections and generally do not improve with first-line topical or oral antifungals", and may need "prolonged oral antifungal therapy and specialized diagnostic testing".[^afp] This is the clearest reason not to keep self-treating a rash that is not responding.
 
+**The regulatory contrast, counted rather than asserted.** Restricting the FDA's own drug directory to over-the-counter products and counting how each active is marketed: butenafine returns 21 listings, all of them an NDA or an ANDA referencing one and none a monograph; terbinafine returns 37 split across all three routes, with Lamisil AT itself an NDA; clotrimazole returns 60 of which 51 are monograph; and tolnaftate returns 60 that are all monograph.[^ndcbute] An earlier version of this page said butenafine was the only one of these approved under an NDA, which terbinafine's own NDA listings contradict, so the narrower true claim replaces it.
+
 **A gap worth stating about this site's own evidence.** The pooled randomised evidence quoted across the antifungal pages here, the Crawford Cochrane review, covers the skin and nails of the **foot**. The ringworm indications below come from the product labels and from the reviews cited on this page, not from that pooled trial data. Where an OTC label claims to cure ringworm, that claim rests on its regulatory status, which is set out on [[fda-approved-vs-cleared-skincare]].
 
 **Medical note.** This is educational content, not a substitute for a clinician. Scalp involvement needs oral treatment and a prescriber, and a rash that is spreading, not improving, or on a child's head should be seen rather than self-treated.
@@ -88,3 +108,4 @@ The classic description is specific enough to be useful. A 2020 review describes
 [^afp]: Caplan AS, Gold JAW, Smith DJ, Ely JW. "Diagnosis and Management of Tinea Infections." American Family Physician. 2025 Oct;112(4):382-392. PMID 41118183. Authors are affiliated with the Ronald O. Perelman Department of Dermatology at NYU Grossman School of Medicine, the Mycotic Diseases Branch at the Centers for Disease Control and Prevention, and the University of Iowa Carver College of Medicine. Quotes used: "Tinea infections (often called ringworm) are caused by dermatophyte fungi and classified by the body site involved."; "Tinea corporis and tinea capitis are most common in prepubertal children, and tinea cruris, tinea pedis, and tinea unguium (most common type of onychomycosis) are more likely in adolescents and adults."; "Clinical diagnosis without testing may be unreliable because other conditions can resemble tinea infections (eg, tinea corporis can be confused with eczema, and onychomycosis with dystrophic toenails from repeated low-level trauma or psoriasis)."; "Tinea corporis, tinea cruris, and tinea pedis generally respond to inexpensive topical antifungal agents, but oral antifungal agents may be indicated for patients with extensive disease, lack of response to topical treatment, immunocompromise, or hair follicle involvement (eg, tinea capitis)."; "Oral terbinafine is considered first-line therapy for tinea capitis and onychomycosis because it is well tolerated, effective, and inexpensive."; "Emerging tinea infections may be more severe than classic tinea infections and generally do not improve with first-line topical or oral antifungals. These infections may require prolonged oral antifungal therapy and specialized diagnostic testing."; "Antifungal stewardship, including avoiding the use of combination antifungal-corticosteroids, should be emphasized to optimize outcomes and help prevent resistance." This is a narrative clinical review rather than a systematic review, and it reports no pooled effect estimate; none is asserted here. Only the PubMed abstract was accessed. https://pubmed.ncbi.nlm.nih.gov/41118183/ (accessed 2026-10-17)
 
 [^leung]: Leung AK, Lam JM, Leong KF, Hon KL. "Tinea corporis: an updated review." Drugs in Context. 2020 Jul 20;9:2020-5-6. doi: 10.7573/dic.2020-5-6. PMID 32742295. Authors affiliated with the University of Calgary, the University of British Columbia, Kuala Lumpur General Hospital, and the Chinese University of Hong Kong. The article describes itself as "a narrative updated review" built from a PubMed Clinical Queries search on the term "tinea corporis". Quotes used: "Tinea corporis typically presents as a well-demarcated, sharply circumscribed, oval or circular, mildly erythematous, scaly patch or plaque with a raised leading edge."; "Mild pruritus is common."; "The diagnosis is often clinical but can be difficult with prior use of medications, such as calcineurin inhibitors or corticosteroids."; "the diagnosis can be confirmed by microscopic examination of potassium hydroxide wet-mount preparations of skin scrapings from the active border of the lesion"; "Fungal culture is the gold standard to diagnose dermatophytosis"; "The standard treatment of tinea corporis is with topical antifungals." Narrative review, no pooled estimate reported and none asserted here. Only the PubMed abstract was accessed. https://pubmed.ncbi.nlm.nih.gov/32742295/ (accessed 2026-10-17)
+[^ndcbute]: US Food and Drug Administration, openFDA NDC directory, queried 2026-11-27 for each active restricted to product_type HUMAN OTC DRUG, counting marketing_category. Butenafine: 21 records, ANDA 17 and NDA 4, no monograph. Terbinafine: 37 records, ANDA 25, NDA 7 and OTC MONOGRAPH DRUG 5; Lamisil AT Cream is NDA 020980 and Lamisil AT is NDA 021124. Clotrimazole: 60 records, monograph 51, ANDA 7, NDA 2. Tolnaftate: 60 records, all 60 monograph. CORRECTS an earlier claim on this page that butenafine was the only one of these approved under an NDA, which terbinafine's own NDA listings contradict. The surviving distinction is narrower and is what the note now says: butenafine is the one with no monograph route. Counts are of directory listings, not of products on sale, and the query is capped at the limits shown. https://api.fda.gov/drug/ndc.json (accessed 2026-11-27)

@@ -4777,3 +4777,28 @@
     a mainstream consumer concern, so the gap is both real and reader-facing. The
     FDA page is the starting source and carries its own position; read it rather than
     campaign material
+- name: 'CORRECT terbinafine: the page calls Lamisil AT a monograph OTC product, but
+    it is NDA 020980'
+  type: ingredient
+  priority: 1
+  status: pending
+  discovered_from: butenafine
+  source: 'VERIFIED ERROR, found 2026-11-27 while publishing the Lotrimin Ultra product
+    page. data/ingredients/terbinafine.md describes the OTC cream as ''monograph OTC
+    labeled to cures most athlete''s foot (tinea pedis)'' and twice reasons from that,
+    saying the efficacy basis is ''a monograph statement, not a reported trial statistic''
+    and ''a monograph OTC label rather than a cited trial, a real but less rigorously
+    sourced basis''. The openFDA NDC directory contradicts it: a brand_name query
+    for Lamisil AT returns 7 listings and EVERY one is marketing category NDA, NDA
+    020980 for Lamisil AT Cream and NDA 021124. Across all terbinafine OTC listings
+    the split is ANDA 25, NDA 7, OTC MONOGRAPH DRUG 5, so monograph terbinafine products
+    do exist, but Lamisil AT is not one of them. WHY THIS IS PRIORITY 1 AND NOT A
+    ONE-LINE FIX: the page does not merely mislabel a category, it REASONS from it.
+    If the Uses claims on Lamisil AT rest on an NDA review rather than on a monograph,
+    then the page''s argument that its evidence is ''less rigorously sourced'' is
+    inverted, and that argument supports its tier: good grade. So the correction has
+    to re-examine the grade''s rationale, not just swap a word. A Drug Facts label
+    looks identical for monograph and NDA-based OTC products, which is almost certainly
+    how the original error happened. The butenafine page''s matching error was fixed
+    the same day; this one was left for a careful pass rather than patched in a product
+    tick'

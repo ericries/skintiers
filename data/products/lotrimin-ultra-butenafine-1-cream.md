@@ -6,15 +6,10 @@ aliases:
 - Lotrimin Ultra Athletes Foot
 - Lotrimin Ultra Jock Itch
 - Lotrimin Ultra Ringworm
-analyzed: '2026-11-03'
+analyzed: '2026-11-27'
 assurance: sonnet
 brand: Lotrimin
 category: Body
-images:
-- file: lotrimin-ultra-butenafine-1-cream-dailymed.jpg
-  source: DailyMed (FDA-filed carton artwork for the Lotrimin Ultra label, cropped
-    to the front panel; the filed image is a full prepress dieline)
-  source_url: https://dailymed.nlm.nih.gov/dailymed/image.cfm?setid=d11dfdf6-9b36-03bc-e053-2995a90a0bc3&name=FDA00439_Lot_20g_Ctn_R-1.jpg
 comparator: '[[lotrimin-af-antifungal-cream]], the same brand''s clotrimazole product,
   which is a different drug despite the shared name'
 grades:
@@ -37,24 +32,31 @@ grades:
     Uses lists. The box named for your condition is not reliably the one that covers
     it'
   use: Which conditions the box you bought actually covers
+images:
+- file: lotrimin-ultra-butenafine-1-cream-dailymed.jpg
+  source: DailyMed (FDA-filed carton artwork for the Lotrimin Ultra label, cropped
+    to the front panel; the filed image is a full prepress dieline)
+  source_url: https://dailymed.nlm.nih.gov/dailymed/image.cfm?setid=d11dfdf6-9b36-03bc-e053-2995a90a0bc3&name=FDA00439_Lot_20g_Ctn_R-1.jpg
 key_actives:
 - butenafine
+label_variant_of: lotrimin-ultra-athletes-foot-cream
 name: Lotrimin Ultra (butenafine hydrochloride 1% cream)
 slug: lotrimin-ultra-butenafine-1-cream
-label_variant_of: lotrimin-ultra-athletes-foot-cream
-variant_note: 'NOT a duplicate, despite an earlier duplicate_of marker here. Verified against openFDA
-  on 2026-11-09, the two pages cover two DIFFERENT SPL records with different set ids and different NDCs,
-  and their labelled scope differs in the counterintuitive direction. The plain Lotrimin Ultra label (set
-  id d11dfdf6, NDC 11523-0082-1) covers athlete''s foot between the toes ONLY, while Lotrimin Ultra
-  Athletes Foot (set id e258c4ac, NDC 11523-4338) covers athlete''s foot PLUS jock itch and ringworm, so
-  the box named for one condition carries the broader label. DO NOT DELETE THIS PAGE ON THE STRENGTH OF
-  THE OLD MARKER: it is the only page carrying the four-labels-one-drug finding across all four Lotrimin
-  Ultra variants. Whether the site keeps one page per label variant or merges them into a family page is
-  an editorial decision for the user, which is why this stays draft rather than being published or merged
-  by a tick.'
-status: draft
+status: published
 type: product
-updated: '2026-11-03'
+updated: '2026-11-27'
+variant_note: 'NOT a duplicate, despite an earlier duplicate_of marker here. Verified
+  against openFDA on 2026-11-09, the two pages cover two DIFFERENT SPL records with
+  different set ids and different NDCs, and their labelled scope differs in the counterintuitive
+  direction. The plain Lotrimin Ultra label (set id d11dfdf6, NDC 11523-0082-1) covers
+  athlete''s foot between the toes ONLY, while Lotrimin Ultra Athletes Foot (set id
+  e258c4ac, NDC 11523-4338) covers athlete''s foot PLUS jock itch and ringworm, so
+  the box named for one condition carries the broader label. DO NOT DELETE THIS PAGE
+  ON THE STRENGTH OF THE OLD MARKER: it is the only page carrying the four-labels-one-drug
+  finding across all four Lotrimin Ultra variants. Whether the site keeps one page
+  per label variant or merges them into a family page is an editorial decision for
+  the user, which is why this stays draft rather than being published or merged by
+  a tick.'
 ---
 
 ## Summary

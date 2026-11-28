@@ -29,7 +29,8 @@ tier_list:
       toes but puts no such limit on jock itch, directing once a day for two weeks.
       The foot review's drug-class grades do not clearly cover this active, so it
       sits below terbinafine on label and class grounds rather than on any groin trial.
-      See [[butenafine]].
+      See [[butenafine]]. The buyable example is [[lotrimin-ultra-butenafine-1-cream|Lotrimin
+      Ultra]], two of whose four current labels carry a cures-most-jock-itch claim.
     slug: butenafine
     tier: good
   - note: A topical azole, and the only one of the three asking for twice-daily use,
@@ -39,7 +40,7 @@ tier_list:
     tier: good
   title: Jock itch treatments by label claim and inherited evidence
 type: condition
-updated: '2026-10-23'
+updated: '2026-11-27'
 ---
 
 Jock itch is tinea cruris, the same dermatophyte infection as [[athletes-foot]] and [[tinea-corporis-ringworm]] in a different place. A 2025 clinical review groups it with them, noting that "tinea cruris, tinea pedis, and tinea unguium (most common type of onychomycosis) are more likely in adolescents and adults" and that all three "generally respond to inexpensive topical antifungal agents".[^afp] The general antifungal evidence is on those pages and not repeated here; what this page adds is what the labels say about the groin specifically.
