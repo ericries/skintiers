@@ -4742,3 +4742,27 @@
     its own cited sources, the INCI name, or the USAN/INN name, so this is a per-page
     pass, not a script. Start with the ingredients most often named in video transcripts
     and queue rows, since those are where the resolution failures actually bite'
+- name: 'Alpha-arbutin vs arbutin: the hub ranks ''arbutin'' weak, but products declare
+    alpha-arbutin'
+  type: ingredient
+  priority: 3
+  status: pending
+  discovered_from: hyperpigmentation
+  source: 'Noticed 2026-11-27 while adding 4-butylresorcinol to the hyperpigmentation
+    tier_list. The hub ranks [[arbutin]] at weak, but the INCI name declared on most
+    products is alpha-arbutin, and the two are not interchangeable in the literature.
+    Check whether the existing arbutin page covers alpha-arbutin explicitly or whether
+    a reader matching a label to this site falls through the gap. If the page already
+    covers both, give it the alias (see the PDRN case the same day: a page with no
+    alias is invisible to its own queue rows)'
+- name: 'Cysteamine for melasma: on the site as a product, absent from the hyperpigmentation
+    ranking'
+  type: ingredient
+  priority: 3
+  status: pending
+  discovered_from: hyperpigmentation
+  source: Noticed 2026-11-27. data/products/cyspera-intensive-cysteamine-cream.md
+    is published and cites three PubMed trials, but cysteamine appears nowhere in
+    the hyperpigmentation hub's tier_list of actives by evidence, which ranks 13 others.
+    Either it belongs in that ranking or it does not, and the product page's own sources
+    are the place to settle it

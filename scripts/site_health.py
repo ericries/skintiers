@@ -164,7 +164,12 @@ def check_hub_behind(hub_type, hub_dir):
                 f"CANDIDATES (verified to exist + to link this hub): {', '.join(sorted(missing)[:8])}\n"
                 f"ACTION: for each candidate that GENUINELY belongs in this ranking, add it to the existing tier_list "
                 f"block with an appropriate tier + a concise 1-sentence note (link the page; do NOT re-explain what it "
-                f"owns). Keep the tier_list schema + tiers. Skip any that do not truly fit. Bump the hub's `updated` to "
+                f"owns). Keep the tier_list schema + tiers. Skip any that do not truly fit, and RECORD each one you "
+                f"deliberately rejected by appending its slug to this hub's `tier_list_reviewed:` frontmatter list, "
+                f"so it is not offered again next cycle: this lane clears on the hub's `updated` date, so anything "
+                f"you reject silently comes back and gets re-litigated from scratch. A ranking of actives by "
+                f"evidence will keep attracting finished products and adjacent botanicals that can never belong in "
+                f"it; rejecting those is the expected outcome, not a failure. Bump the hub's `updated` to "
                 f"today. NO padding, no body rewrite beyond the tier_list. Run `sk lint {hs}`, build, commit, push."
             )
     return None

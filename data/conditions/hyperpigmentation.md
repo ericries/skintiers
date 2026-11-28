@@ -40,6 +40,13 @@ tier_list:
       is real but largely from its maker (Beiersdorf/Eucerin). Evidence on [[thiamidol]].
     slug: thiamidol
     tier: moderate
+  - note: 'Rucinol, another resorcinol-derivative tyrosinase inhibitor, usually formulated
+      at 0.1% to 0.3%. A double-blind split-face trial in 32 women with melasma put
+      0.3% rucinol serum against its own vehicle and favoured the active, so the clinical
+      base is real but thinner than hydroquinone''s: one small single-centre trial
+      against vehicle rather than against an active comparator. Evidence on [[4-butylresorcinol]].'
+    slug: 4-butylresorcinol
+    tier: moderate
   - note: 'An antioxidant and tyrosinase inhibitor: modest as a standalone lightener,
       more useful in combination and as a daytime partner to sunscreen.'
     slug: ascorbic-acid-vitamin-c
@@ -67,12 +74,21 @@ tier_list:
     slug: malassezin
     tier: weak
   title: Topical actives for hyperpigmentation by evidence
+tier_list_reviewed:
+- alpha-bisabolol
+- anua-peach-70-niacinamide-serum
+- caudalie-vinoperfect-radiance-serum
+- cos-de-baha-az15-azelaic-acid-15-serum
+- cyperus-rotundus
+- eltamd-uv-aox-elements-tinted-mineral-spf-50
+- eltamd-uv-daily-tinted-broad-spectrum-spf-40
 type: condition
-updated: '2026-08-30'
+updated: '2026-11-27'
 videos:
 - creator: Dr. Sam Ellis
   creator_slug: samantha-ellis
   credential: Board-certified dermatologist
+  duration: 659
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
   platform: YouTube
   posted: '2026-06-12'
@@ -92,10 +108,10 @@ videos:
     with prescription hydroquinone available in-office for more resistant cases.
   title: Fade Scars FAST (and for real)
   url: https://www.youtube.com/watch?v=dTSPCPjyMss
-  duration: 659
 - creator: Victoria Fu and Gloria Lu (Chemist Confessions)
   creator_slug: victoria-fu
   credential: Cosmetic chemists
+  duration: 2606
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
   platform: YouTube
   posted: '2026-05-28'
@@ -113,10 +129,10 @@ videos:
     habit and wants an extra edge.
   title: Are iron oxides a MUST for hyperpigmentation?
   url: https://www.youtube.com/watch?v=Ih4ecC2me8w
-  duration: 2606
 - creator: Andrea Suarez (Dr Dray)
   creator_slug: andrea-suarez-dr-dray
   credential: Board-certified dermatologist
+  duration: 1199
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
   platform: YouTube
   posted: '2026-08-13'
@@ -138,10 +154,10 @@ videos:
     the visible light that also worsens hyperpigmentation.
   title: Why Your Hyperpigmentation Won't Go Away | Dermatologist Explains
   url: https://www.youtube.com/watch?v=DYqU1VIR3pw
-  duration: 1199
 - creator: Dr. Shereene Idriss
   creator_slug: shereene-idriss
   credential: Board-certified dermatologist
+  duration: 927
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
   platform: YouTube
   posted: '2026-05-16'
@@ -160,10 +176,10 @@ videos:
     since unprotected skin lets old sun damage reawaken and new damage form.
   title: The Truth About Hidden Sun Damage, From a Dermatologist
   url: https://www.youtube.com/watch?v=PH_dizReTU8
-  duration: 927
 - creator: Michelle Wong
   creator_slug: michelle-wong
   credential: Cosmetic chemist, PhD
+  duration: 1129
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
   platform: YouTube
   posted: '2024-05-27'
@@ -187,10 +203,10 @@ videos:
     skin effectively in topical products.
   title: How to Treat Dark Spots and Hyperpigmentation
   url: https://www.youtube.com/watch?v=z2T20iZBEUc
-  duration: 1129
 - creator: Dr. Adeline Kikam
   creator_slug: adeline-kikam
   credential: Board-certified dermatologist
+  duration: 773
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
   platform: YouTube
   posted: '2023-03-06'
@@ -208,10 +224,10 @@ videos:
     underlying cause comes first.
   title: 'Dark Inner Thighs: Causes & Treatment'
   url: https://www.youtube.com/watch?v=ghoLg47eD1U
-  duration: 773
-- creator: 'Dr. Usama Syed'
+- creator: Dr. Usama Syed
   creator_slug: usama-syed
-  credential: 'Board-certified dermatologist'
+  credential: Board-certified dermatologist
+  duration: 341
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
   platform: YouTube
   posted: '2020-12-18'
@@ -226,10 +242,10 @@ videos:
     dark spots regardless of the underlying cause.
   title: What Causes Dark Spots On Skin?
   url: https://www.youtube.com/watch?v=Ea6D1vxbdhk
-  duration: 341
-- creator: 'Dr. Lindsey Zubritsky (DermGuru)'
+- creator: Dr. Lindsey Zubritsky (DermGuru)
   creator_slug: lindsey-zubritsky
-  credential: 'Board-certified dermatologist'
+  credential: Board-certified dermatologist
+  duration: 49
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
   platform: YouTube
   posted: '2026-07-09'
@@ -250,10 +266,10 @@ videos:
     is essential, since skipping it undermines every other treatment.
   title: Derm Rates Skincare For Dark Spots
   url: https://www.youtube.com/watch?v=zqhWwSRoOMU
-  duration: 49
-- creator: 'Dr. Daniel Sugai'
+- creator: Dr. Daniel Sugai
   creator_slug: daniel-sugai
-  credential: 'Board-certified dermatologist'
+  credential: Board-certified dermatologist
+  duration: 769
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
   platform: YouTube
   posted: '2026-02-28'
@@ -269,10 +285,9 @@ videos:
     three to four months, is needed before improvement is visible.
   title: How to ACTUALLY Fix Dark Spots (Dermatologist No-BS Guide)
   url: https://www.youtube.com/watch?v=ri4VQ79mNPY
-  duration: 769
-- creator: 'Dr Emma Wedgeworth'
+- creator: Dr Emma Wedgeworth
   creator_slug: emma-wedgeworth
-  credential: 'Consultant dermatologist'
+  credential: Consultant dermatologist
   note: Verified from the video's TikTok transcript (yt-dlp captions, read in full);
     no sponsorship.
   platform: TikTok
@@ -291,9 +306,9 @@ videos:
     or a hormonal IUD before tablets if hormonal contraception is needed.
   title: Contraception & Pigmentation
   url: https://www.tiktok.com/@dremwedgeworth/video/7534634711046573334
-- creator: 'Dr. Sheila Farhang (dr.sheila_derm)'
+- creator: Dr. Sheila Farhang (dr.sheila_derm)
   creator_slug: sheila-farhang
-  credential: 'Board-certified dermatologist'
+  credential: Board-certified dermatologist
   note: Verified from the video's TikTok transcript (yt-dlp captions, read in full);
     no sponsorship.
   platform: TikTok
@@ -310,9 +325,9 @@ videos:
     in-office treatment for this kind of dullness and discoloration.
   title: Fading dark underarms with glycolic acid
   url: https://www.tiktok.com/@dr.sheila_derm/video/7666127692139400479
-- creator: 'Dr. Geeta Yadav'
+- creator: Dr. Geeta Yadav
   creator_slug: geeta-yadav
-  credential: 'Skincare educator'
+  credential: Skincare educator
   note: Verified from the video's TikTok transcript (yt-dlp captions, read in full);
     no sponsorship.
   platform: TikTok
@@ -337,6 +352,7 @@ videos:
 - creator: Davin Lim
   creator_slug: davin-lim
   credential: Board-certified dermatologist (Australia)
+  duration: 429
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
   platform: YouTube
   posted: '2025-03-04'
@@ -352,10 +368,10 @@ videos:
     treatment alongside strict sun protection.
   title: 'How to Prevent & Treat Sun-Induced Pigmentation: Dermatologist Tips'
   url: https://www.youtube.com/watch?v=vU9XccWySgA
-  duration: 429
 - creator: Dr. Dustin Portela
   creator_slug: dustin-portela
   credential: Board-certified dermatologist
+  duration: 1095
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
   platform: YouTube
   posted: '2026-04-12'
@@ -378,10 +394,10 @@ videos:
     not a quick fix.
   title: Stop Buying Dark Spot Removers Until You Watch This
   url: https://www.youtube.com/watch?v=M-tG_msV1KE
-  duration: 1095
 - creator: Dr. Davin Lim
   creator_slug: davin-lim
   credential: Board-certified dermatologist (Australia)
+  duration: 288
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
   platform: YouTube
   posted: '2024-07-18'
@@ -397,10 +413,10 @@ videos:
     typical courses of three to six sessions spaced two to four weeks apart.
   title: How do Dermatologists FIX Pigmentation? (PIH)
   url: https://www.youtube.com/watch?v=gD1RbEPw03M
-  duration: 288
 - creator: Dr. Alexis Stephens
   creator_slug: alexis-stephens
   credential: Board-certified dermatologist
+  duration: 300
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
   platform: YouTube
   posted: '2023-11-05'
@@ -417,10 +433,10 @@ videos:
     that consistent daily sun protection remains essential alongside it.
   title: 'Hydroquinone Alternative: THIAMIDOL Fades Hyperpigmentation & Melasma'
   url: https://www.youtube.com/watch?v=Sn_Y59aGjcw
-  duration: 300
 - creator: Dr. Jenny Liu (Jenny Liu, MD, FAAD)
   creator_slug: jenny-liu
   credential: Board-certified dermatologist
+  duration: 1485
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
   platform: YouTube
   posted: '2026-05-28'
@@ -434,10 +450,10 @@ videos:
   title: Dark Spots Won't Fade? Here's What You're Missing (Derm Explains) | Dr. Jenny
     Liu
   url: https://www.youtube.com/watch?v=tho0X8AB-To
-  duration: 1485
 - creator: Fatima Fahs
   creator_slug: fatima-fahs
   credential: Dermatologist (MD)
+  duration: 52
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
   platform: TikTok
   posted: '2026-08-24'
@@ -454,103 +470,227 @@ videos:
     under a dermoscope.
   title: 'Freckles vs sun spots: what''s the difference?'
   url: https://www.tiktok.com/@dermydoctor/video/7677570515090918670
-  duration: 52
-- title: 7 Skin Signs That Could Reveal a Health Problem | Dermatologist Explains
-  creator: Andrea Suarez (Dr Dray)
+- creator: Andrea Suarez (Dr Dray)
   creator_slug: andrea-suarez-dr-dray
   credential: Board-certified dermatologist
-  platform: YouTube
-  url: https://www.youtube.com/watch?v=QKDlc1r8fQk
   duration: 965
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+  platform: YouTube
   posted: '2026-08-26'
   related: []
-  thesis: Dr. Andrea Suarez (Dr Dray), a board-certified dermatologist, walks through seven skin, nail, and eye findings that can signal internal disease rather than being purely cosmetic. She explains that dark, velvety thickened patches on the neck, underarms, or hands (acanthosis nigricans) are a warning sign of insulin resistance, not dirt or hyperpigmentation, and that people often mistakenly try scrubbing or vitamin C serums on them. She also covers yellow eyelid bumps (xanthoma) as a clue to lipid problems, yellowing of the eyes as jaundice, clubbed fingertips as a sign of lung or heart disease, a purplish heliotrope rash with knuckle bumps as dermatomyositis, spoon-shaped nails (koilonychia) as a marker of iron deficiency, and unexplained full-body itching as a possible sign of blood, kidney, thyroid, or liver disease. She stresses these are clues, not diagnoses, and that any of them should be evaluated by a healthcare provider rather than self-treated.
-  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
-- title: How a Dermatologist Decides Between Lasers and Skincare for Dark Spots, Redness, and Texture
-  creator: Dr. Shereene Idriss
+  thesis: Dr. Andrea Suarez (Dr Dray), a board-certified dermatologist, walks through
+    seven skin, nail, and eye findings that can signal internal disease rather than
+    being purely cosmetic. She explains that dark, velvety thickened patches on the
+    neck, underarms, or hands (acanthosis nigricans) are a warning sign of insulin
+    resistance, not dirt or hyperpigmentation, and that people often mistakenly try
+    scrubbing or vitamin C serums on them. She also covers yellow eyelid bumps (xanthoma)
+    as a clue to lipid problems, yellowing of the eyes as jaundice, clubbed fingertips
+    as a sign of lung or heart disease, a purplish heliotrope rash with knuckle bumps
+    as dermatomyositis, spoon-shaped nails (koilonychia) as a marker of iron deficiency,
+    and unexplained full-body itching as a possible sign of blood, kidney, thyroid,
+    or liver disease. She stresses these are clues, not diagnoses, and that any of
+    them should be evaluated by a healthcare provider rather than self-treated.
+  title: 7 Skin Signs That Could Reveal a Health Problem | Dermatologist Explains
+  url: https://www.youtube.com/watch?v=QKDlc1r8fQk
+- creator: Dr. Shereene Idriss
   creator_slug: shereene-idriss
   credential: Board-certified dermatologist
-  platform: YouTube
-  url: https://www.youtube.com/watch?v=AkMplhqKyNE
   duration: 1107
-  posted: '2026-09-05'
-  related: [melasma, facial-redness-relief, rosacea, sun-damage-photoaging]
-  thesis: Board-certified dermatologist Dr. Shereene Idriss offers a framework for deciding between in-office lasers and at-home skincare for dark spots, redness, and texture. She explains that every laser ultimately targets just one of three things, red, brown, or water, so before paying for an expensive laser package a patient should ask which of the three it treats, and consider whether a much cheaper topical could address the same concern. She organizes the decision into three lanes, starting with brown spots (pigmentation), and walks through where skincare can substitute for a procedure and where it cannot.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
-- title: 'How to use Azelaic acid for Beginners: Dermatologist guide'
-  creator: Dr. Abigail Waldman (Dr. Abby)
+  platform: YouTube
+  posted: '2026-09-05'
+  related:
+  - melasma
+  - facial-redness-relief
+  - rosacea
+  - sun-damage-photoaging
+  thesis: Board-certified dermatologist Dr. Shereene Idriss offers a framework for
+    deciding between in-office lasers and at-home skincare for dark spots, redness,
+    and texture. She explains that every laser ultimately targets just one of three
+    things, red, brown, or water, so before paying for an expensive laser package
+    a patient should ask which of the three it treats, and consider whether a much
+    cheaper topical could address the same concern. She organizes the decision into
+    three lanes, starting with brown spots (pigmentation), and walks through where
+    skincare can substitute for a procedure and where it cannot.
+  title: How a Dermatologist Decides Between Lasers and Skincare for Dark Spots, Redness,
+    and Texture
+  url: https://www.youtube.com/watch?v=AkMplhqKyNE
+- creator: Dr. Abigail Waldman (Dr. Abby)
   creator_slug: abigail-waldman
-  credential: Abigail H. Waldman, MD, FAAD; Associate Professor of Dermatology at Harvard Medical School; Director of the Mohs and Dermatologic Surgery Center at Brigham and Women's Hospital
-  platform: YouTube
-  url: https://www.youtube.com/watch?v=mRYMysEjhWs
+  credential: Abigail H. Waldman, MD, FAAD; Associate Professor of Dermatology at
+    Harvard Medical School; Director of the Mohs and Dermatologic Surgery Center at
+    Brigham and Women's Hospital
   duration: 502
-  posted: '2026-02-11'
-  related: [anua-azelaic-acid-serum, retinoids]
-  thesis: Board-certified dermatologist and Harvard/Brigham Mohs surgeon Dr. Abigail Waldman explains how to start using azelaic acid, a naturally occurring acid that treats acne, post-acne redness and dark spots, and rosacea by fighting acne-causing bacteria and blocking the pigment-producing enzyme tyrosinase. She covers when to apply it in a routine, safe combinations with retinoids and prescription acne treatments, expected mild side effects, and notes it is one of the few actives considered safe during pregnancy and breastfeeding. She recommends starting once daily and increasing to twice daily as tolerated, with results from over-the-counter 10% formulas taking up to 8 to 12 weeks.
-  note: Verified from the video transcript (yt-dlp, read in full); no sponsorship disclosure (recommends Anua 10% by personal preference).
-- title: 'Dermatologist: My Exact Hyperpigmentation Routine (melasma, PIH)'
-  creator: Dr. Sarah Sheu
-  creator_slug: dr-sarah-sheu
-  credential: Board-certified dermatologist (Northwestern MD, Stanford residency); Medical Director of Dermatology, Valley Medical Center, Seattle WA
+  note: Verified from the video transcript (yt-dlp, read in full); no sponsorship
+    disclosure (recommends Anua 10% by personal preference).
   platform: YouTube
-  url: https://www.youtube.com/watch?v=6RbOuBv0aMk
+  posted: '2026-02-11'
+  related:
+  - anua-azelaic-acid-serum
+  - retinoids
+  thesis: Board-certified dermatologist and Harvard/Brigham Mohs surgeon Dr. Abigail
+    Waldman explains how to start using azelaic acid, a naturally occurring acid that
+    treats acne, post-acne redness and dark spots, and rosacea by fighting acne-causing
+    bacteria and blocking the pigment-producing enzyme tyrosinase. She covers when
+    to apply it in a routine, safe combinations with retinoids and prescription acne
+    treatments, expected mild side effects, and notes it is one of the few actives
+    considered safe during pregnancy and breastfeeding. She recommends starting once
+    daily and increasing to twice daily as tolerated, with results from over-the-counter
+    10% formulas taking up to 8 to 12 weeks.
+  title: 'How to use Azelaic acid for Beginners: Dermatologist guide'
+  url: https://www.youtube.com/watch?v=mRYMysEjhWs
+- creator: Dr. Sarah Sheu
+  creator_slug: dr-sarah-sheu
+  credential: Board-certified dermatologist (Northwestern MD, Stanford residency);
+    Medical Director of Dermatology, Valley Medical Center, Seattle WA
   duration: 851
-  posted: '2026-08-29'
-  related: [melasma, tranexamic-acid, hydroquinone, azelaic-acid, niacinamide, sunscreen-uv-filters, thiamidol]
-  thesis: 'Board-certified dermatologist Dr. Sarah Sheu lays out a three-tier system for hyperpigmentation (sunspots, melasma, and post-inflammatory dark spots). Her foundation is not brightening serums but sun and visible-light protection: because visible and blue light also drive pigment and clear sunscreens do not block it, she relies on tinted products containing iron oxides and pigmentary titanium dioxide, or Avene sunscreens with the Tinosorb filter. For actives she favors newer patented ingredients whose clinical studies were run on the exact marketed product (Thiamidol in Eucerin, Melasyl in La Roche-Posay), is skeptical of ingredient claims extrapolated from other formulations, avoids long-term hydroquinone over rebound and ochronosis risk, and reserves oral tranexamic acid, peels, and lasers as a higher-risk last tier.'
   note: Verified from the video transcript (yt-dlp, read in full); no sponsorship.
-- title: 'Hyperpigmentation and Sensitive Skin: Why Most Treatments Cause Irritation'
-  creator: Dr. Sam Bunting
+  platform: YouTube
+  posted: '2026-08-29'
+  related:
+  - melasma
+  - tranexamic-acid
+  - hydroquinone
+  - azelaic-acid
+  - niacinamide
+  - sunscreen-uv-filters
+  - thiamidol
+  thesis: 'Board-certified dermatologist Dr. Sarah Sheu lays out a three-tier system
+    for hyperpigmentation (sunspots, melasma, and post-inflammatory dark spots). Her
+    foundation is not brightening serums but sun and visible-light protection: because
+    visible and blue light also drive pigment and clear sunscreens do not block it,
+    she relies on tinted products containing iron oxides and pigmentary titanium dioxide,
+    or Avene sunscreens with the Tinosorb filter. For actives she favors newer patented
+    ingredients whose clinical studies were run on the exact marketed product (Thiamidol
+    in Eucerin, Melasyl in La Roche-Posay), is skeptical of ingredient claims extrapolated
+    from other formulations, avoids long-term hydroquinone over rebound and ochronosis
+    risk, and reserves oral tranexamic acid, peels, and lasers as a higher-risk last
+    tier.'
+  title: 'Dermatologist: My Exact Hyperpigmentation Routine (melasma, PIH)'
+  url: https://www.youtube.com/watch?v=6RbOuBv0aMk
+- creator: Dr. Sam Bunting
   creator_slug: sam-bunting
   credential: Board-certified dermatologist (UK)
-  platform: YouTube
-  url: https://www.youtube.com/watch?v=ombQvS1pPfg
   duration: 343
-  posted: '2026-04-28'
-  related: [azelaic-acid, niacinamide, hydroquinone, arbutin, kojic-acid, melasma, sensitive-skin]
-  thesis: 'Board-certified dermatologist Dr. Sam Bunting explains why treating hyperpigmentation on sensitive or darker skin so often backfires: pigment cells (melanocytes) respond to inflammation as a threat, so an irritating treatment can drive the very pigment it is meant to clear, especially in deeper skin tones where the response is stronger and longer-lasting. Her approach is to favor actives that both suppress pigment and calm rather than provoke inflammation, singling out azelaic acid (which inhibits the tyrosinase enzyme, targets overactive melanocytes, and speeds turnover of already-pigmented cells) and niacinamide (which interferes with the transfer of melanin parcels while supporting the skin barrier). She adds that gentler alternatives to harsh options, such as arbutin in place of hydroquinone or kojic dipalmitate in place of kojic acid, can treat pigmentation with less of the irritation that stalls progress.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
-- title: How to Treat Body Hyperpigmentation
-  creator: Dr. Alexis Stephens
+  platform: YouTube
+  posted: '2026-04-28'
+  related:
+  - azelaic-acid
+  - niacinamide
+  - hydroquinone
+  - arbutin
+  - kojic-acid
+  - melasma
+  - sensitive-skin
+  thesis: 'Board-certified dermatologist Dr. Sam Bunting explains why treating hyperpigmentation
+    on sensitive or darker skin so often backfires: pigment cells (melanocytes) respond
+    to inflammation as a threat, so an irritating treatment can drive the very pigment
+    it is meant to clear, especially in deeper skin tones where the response is stronger
+    and longer-lasting. Her approach is to favor actives that both suppress pigment
+    and calm rather than provoke inflammation, singling out azelaic acid (which inhibits
+    the tyrosinase enzyme, targets overactive melanocytes, and speeds turnover of
+    already-pigmented cells) and niacinamide (which interferes with the transfer of
+    melanin parcels while supporting the skin barrier). She adds that gentler alternatives
+    to harsh options, such as arbutin in place of hydroquinone or kojic dipalmitate
+    in place of kojic acid, can treat pigmentation with less of the irritation that
+    stalls progress.'
+  title: 'Hyperpigmentation and Sensitive Skin: Why Most Treatments Cause Irritation'
+  url: https://www.youtube.com/watch?v=ombQvS1pPfg
+- creator: Dr. Alexis Stephens
   creator_slug: alexis-stephens
   credential: Board-certified dermatologist
-  platform: YouTube
-  url: https://www.youtube.com/watch?v=kHICge42a2E
-  posted: '2021-12-19'
-  related: [melasma, retinol, post-inflammatory-erythema, body-acne]
-  thesis: Board-certified dermatologist Dr. Alexis Stephens explains why hyperpigmentation on the body is harder to shift than the same problem on the face, and why face products often underperform there. Her reasoning is that body skin is thicker and its cells turn over more slowly, so she argues it generally needs higher percentages of actives at a lower pH to penetrate, introduced gradually to avoid the irritation that itself drives more pigment. She groups the approach into three categories, pigment inhibitors, exfoliants and cell regulators such as retinol, and recommends gentler polyhydroxy acids on thin or intimate areas. She also flags that darkening in body folds, such as the back of the neck or underarms, can reflect insulin resistance, thyroid disease or other medical causes, and advises seeing a doctor about those rather than treating them cosmetically.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
-- title: A PSA for anyone treating hyperpigmentation with irritating creams
-  creator: Dr. Chris Tomassian
+  platform: YouTube
+  posted: '2021-12-19'
+  related:
+  - melasma
+  - retinol
+  - post-inflammatory-erythema
+  - body-acne
+  thesis: Board-certified dermatologist Dr. Alexis Stephens explains why hyperpigmentation
+    on the body is harder to shift than the same problem on the face, and why face
+    products often underperform there. Her reasoning is that body skin is thicker
+    and its cells turn over more slowly, so she argues it generally needs higher percentages
+    of actives at a lower pH to penetrate, introduced gradually to avoid the irritation
+    that itself drives more pigment. She groups the approach into three categories,
+    pigment inhibitors, exfoliants and cell regulators such as retinol, and recommends
+    gentler polyhydroxy acids on thin or intimate areas. She also flags that darkening
+    in body folds, such as the back of the neck or underarms, can reflect insulin
+    resistance, thyroid disease or other medical causes, and advises seeing a doctor
+    about those rather than treating them cosmetically.
+  title: How to Treat Body Hyperpigmentation
+  url: https://www.youtube.com/watch?v=kHICge42a2E
+- creator: Dr. Chris Tomassian
   creator_slug: chris-tomassian
   credential: Board-certified dermatologist
-  platform: TikTok
-  url: https://www.tiktok.com/@dr.tomassian/video/7701907268949822733
-  posted: '2026-10-29'
-  related: [melasma, tretinoin, hydroquinone, azelaic-acid, niacinamide]
-  thesis: Board-certified dermatologist Chris Tomassian warns that treating hyperpigmentation with creams harsh enough to cause redness and irritation is likely to make the dark patches worse rather than better. His advice is to start at a low strength and increase slowly, on the grounds that results accumulate over time. He names no specific product or ingredient in the clip and gives no figures.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
-- title: 'Natural Ingredients for Hyperpigmentation (DermTV Epi #524)'
-  creator: Dr. Neal Schultz
+  platform: TikTok
+  posted: '2026-10-29'
+  related:
+  - melasma
+  - tretinoin
+  - hydroquinone
+  - azelaic-acid
+  - niacinamide
+  thesis: Board-certified dermatologist Chris Tomassian warns that treating hyperpigmentation
+    with creams harsh enough to cause redness and irritation is likely to make the
+    dark patches worse rather than better. His advice is to start at a low strength
+    and increase slowly, on the grounds that results accumulate over time. He names
+    no specific product or ingredient in the clip and gives no figures.
+  title: A PSA for anyone treating hyperpigmentation with irritating creams
+  url: https://www.tiktok.com/@dr.tomassian/video/7701907268949822733
+- creator: Dr. Neal Schultz
   creator_slug: neal-schultz
   credential: Dermatologist, host of DermTV.com
-  platform: YouTube
-  url: https://www.youtube.com/watch?v=ZkHeGUeIuz0
-  posted: '2013-11-01'
-  related: [kojic-acid, licorice-root-extract, vitamin-c, hydroquinone, glycolic-acid, melasma]
-  thesis: 'Dermatologist Neal Schultz walks through four plant or fungus derived ingredients used against hyperpigmentation and explains the mechanism of each, which is the part of this 2013 episode that has aged well. Kojic acid, licorice extract and vitamin C all inhibit tyrosinase, the enzyme skin needs to make melanin, while soy works differently by blocking pigment already made from being passed to surface skin cells. He prefers the ester form of vitamin C, tetrahexyldecyl ascorbate, on stability grounds. Two cautions for a viewer today: he claims a kojic acid and glycolic acid combination has been shown to work as well as a hydroquinone product without citing the study, which is a strong claim to take on trust, and the specific branded products he names are from 2013 and may since have been reformulated or discontinued.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
-- title: Top 5 ways to get rid of hyperpigmentation
-  creator: Jenn Lexi
+  platform: YouTube
+  posted: '2013-11-01'
+  related:
+  - kojic-acid
+  - licorice-root-extract
+  - vitamin-c
+  - hydroquinone
+  - glycolic-acid
+  - melasma
+  thesis: 'Dermatologist Neal Schultz walks through four plant or fungus derived ingredients
+    used against hyperpigmentation and explains the mechanism of each, which is the
+    part of this 2013 episode that has aged well. Kojic acid, licorice extract and
+    vitamin C all inhibit tyrosinase, the enzyme skin needs to make melanin, while
+    soy works differently by blocking pigment already made from being passed to surface
+    skin cells. He prefers the ester form of vitamin C, tetrahexyldecyl ascorbate,
+    on stability grounds. Two cautions for a viewer today: he claims a kojic acid
+    and glycolic acid combination has been shown to work as well as a hydroquinone
+    product without citing the study, which is a strong claim to take on trust, and
+    the specific branded products he names are from 2013 and may since have been reformulated
+    or discontinued.'
+  title: 'Natural Ingredients for Hyperpigmentation (DermTV Epi #524)'
+  url: https://www.youtube.com/watch?v=ZkHeGUeIuz0
+- creator: Jenn Lexi
   creator_slug: jennlexi
   credential: Esthetician (self-identified); not a dermatologist or cosmetic chemist
-  platform: TikTok
-  url: https://www.tiktok.com/@jennlexi_/video/7706665311633771790
-  posted: '2026-11-10'
-  related: [azelaic-acid, vitamin-c, retinoids, acne, sunscreen-uv-filters, melasma]
-  thesis: Jenn Lexi, a self-described licensed esthetician, argues that fading hyperpigmentation depends less on buying a dedicated dark-spot product than on removing whatever keeps switching the pigment on. Her five steps are to get active breakouts under control first, because inflammation from acne and picking drives the extra pigment; to wear sunscreen, since UV light itself tells skin to make more pigment; to pick one pigment-slowing ingredient, naming azelaic acid as her favourite for calming inflammation at the same time and vitamin C as the other option; to add a retinoid low and slow to speed up shedding; and to keep the routine simple, on the logic that stacking several actives causes the irritation that feeds the problem. She names no products and says results take real patience.
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
-
+  platform: TikTok
+  posted: '2026-11-10'
+  related:
+  - azelaic-acid
+  - vitamin-c
+  - retinoids
+  - acne
+  - sunscreen-uv-filters
+  - melasma
+  thesis: Jenn Lexi, a self-described licensed esthetician, argues that fading hyperpigmentation
+    depends less on buying a dedicated dark-spot product than on removing whatever
+    keeps switching the pigment on. Her five steps are to get active breakouts under
+    control first, because inflammation from acne and picking drives the extra pigment;
+    to wear sunscreen, since UV light itself tells skin to make more pigment; to pick
+    one pigment-slowing ingredient, naming azelaic acid as her favourite for calming
+    inflammation at the same time and vitamin C as the other option; to add a retinoid
+    low and slow to speed up shedding; and to keep the routine simple, on the logic
+    that stacking several actives causes the irritation that feeds the problem. She
+    names no products and says results take real patience.
+  title: Top 5 ways to get rid of hyperpigmentation
+  url: https://www.tiktok.com/@jennlexi_/video/7706665311633771790
 ---
 
 Hyperpigmentation is a darkening of the skin caused by excess melanin (the pigment skin cells make), and its common facial forms are [[melasma]], post-inflammatory hyperpigmentation (dark marks left after a pimple, bug bite, or other injury), and pigmentation driven by sun exposure.[^handel][^davis] The color change is usually the only symptom: the skin stays flat and is neither itchy nor sore, and the same person can have more than one form at once. The skeptical bottom line: among topical options with controlled evidence, [[sunscreen-uv-filters|daily sun protection]] is the foundation with the strongest support, the depigmenting creams (like [[hydroquinone]]) are real but modest, and without ongoing sun protection the pigment tends to come back.[^liu][^castanedo][^delrosario]
