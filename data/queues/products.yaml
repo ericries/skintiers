@@ -6946,3 +6946,22 @@
     BASIS FIRST: check the DailyMed SPL approval code before writing FDA-approved
     anywhere, since an older topical can be marketing-category unapproved drug other
     rather than an NDA'
+- name: Recover the real source for 7 unattributed product photos
+  type: product
+  priority: 3
+  status: pending
+  discovered_from: null
+  source: 'FOUND 2026-11-27 by the new tests/test_product_images_resolve.py. Seven
+    shipped product photos carry a file but no source field, against the image cron''s
+    own ''Attribute the source honestly'' rule: anua-azelaic-acid-serum, anua-nano-retinol-0-3-niacin-renewing-serum,
+    beauty-of-joseon-light-on-serum-centella-vita-c, cos-de-baha-az20-azelaic-acid-20-serum,
+    la-roche-posay-anthelios-melt-in-milk-spf-60, la-roche-posay-toleriane, the-ordinary-multi-peptide-copper-peptides-serum.
+    I checked git log for the commits that added each file and none records where
+    the image came from, so the provenance is NOT recoverable from the repo and I
+    did not guess it: inventing an attribution is a fabricated claim about origin,
+    which is worse than an acknowledged gap. They are grandfathered in UNATTRIBUTED_LEGACY
+    so the rule binds every new photo, and a second test fails if one gets attributed
+    but left on the list. TO FIX: for each, run inci_lookup.py --photo on the product
+    name and compare the returned image against the committed file; if they match,
+    that is the source. Where they do not match, either find the real origin or replace
+    the file with one whose origin is known'
