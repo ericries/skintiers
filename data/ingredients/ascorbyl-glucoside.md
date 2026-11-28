@@ -7,6 +7,18 @@ tier: weak
 status: published
 type: ingredient
 updated: '2026-08-09'
+videos:
+- title: Why Your Vitamin C Isn't Working
+  creator: Dr. Dustin Portela
+  creator_slug: dustin-portela
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=T8yxDm6ZgVs
+  posted: '2025-10-26'
+  related: [ferulic-acid, 3-o-ethyl-ascorbic-acid, tetrahexyldecyl-ascorbate, skinceuticals-c-e-ferulic]
+  thesis: Board-certified dermatologist Dr. Dustin Portela walks through the four over-the-counter forms of vitamin C and why the form on the label decides whether a serum does anything. He puts L-ascorbic acid first as the most potent and by far the most researched, while warning it is among the least stable molecules in skincare and can irritate at higher strengths, and he treats a serum turning brown in the bottle as the visible sign it has oxidised. Magnesium ascorbyl phosphate he calls the gentle option, more stable and more tolerable but less potent; sodium ascorbyl phosphate he describes as very stable and water soluble with some antimicrobial activity that may suit acne-prone skin; and ascorbyl glucoside as a precursor converted in the skin, stable in the bottle and a low-irritation starting point. His practical advice is to read which form you are buying and to prefer an airless pump or a dark bottle for L-ascorbic acid.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Ascorbyl glucoside (AA2G, ascorbic acid 2-glucoside) is a glucose-conjugated derivative of vitamin C, sold as a shelf-stable alternative to plain L-ascorbic acid. It has no antioxidant activity of its own: skin must enzymatically cleave off the glucose and release free ascorbic acid before it can act, and researchers describe it explicitly as an "ascorbic acid pro-drug."[^jacques] Controlled human trials of ascorbyl glucoside do exist, but each one tests it either combined with another active or formulated as a concentrated complex, not the plain molecule alone at typical cosmetic-serum levels; no vehicle-controlled trial of plain ascorbyl glucoside as a standalone active has been published.

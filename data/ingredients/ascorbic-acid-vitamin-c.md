@@ -67,6 +67,16 @@ videos:
   related: [vitamin-c, ferulic-acid, sunscreen-uv-filters, hyperpigmentation, melasma]
   thesis: 'Board-certified dermatologist Dr. Whitney Bowe explains how topical vitamin C works and how its forms differ. She describes three benefits, that it neutralizes free radicals and amplifies a sunscreen''s protection, brightens dark spots by inhibiting the tyrosinase enzyme, and supports collagen production as an enzyme cofactor, and walks through the main forms: L-ascorbic acid is the most-studied active form but is unstable and must be formulated at a low pH (under 3.5) at roughly 8 to 20 percent, which can sting sensitive skin, while newer derivatives such as tetrahexyldecyl ascorbate (lipid-loving) and 3-O-ethyl ascorbic acid (water-loving) were developed to be more stable. Her practical tips: buy L-ascorbic acid in opaque, airless packaging, use it up quickly, and watch for a yellow or brown color shift as a sign it is oxidizing and losing potency.'
   note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+- title: Why Your Vitamin C Isn't Working
+  creator: Dr. Dustin Portela
+  creator_slug: dustin-portela
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=T8yxDm6ZgVs
+  posted: '2025-10-26'
+  related: [ferulic-acid, 3-o-ethyl-ascorbic-acid, tetrahexyldecyl-ascorbate, skinceuticals-c-e-ferulic]
+  thesis: Board-certified dermatologist Dr. Dustin Portela walks through the four over-the-counter forms of vitamin C and why the form on the label decides whether a serum does anything. He puts L-ascorbic acid first as the most potent and by far the most researched, while warning it is among the least stable molecules in skincare and can irritate at higher strengths, and he treats a serum turning brown in the bottle as the visible sign it has oxidised. Magnesium ascorbyl phosphate he calls the gentle option, more stable and more tolerable but less potent; sodium ascorbyl phosphate he describes as very stable and water soluble with some antimicrobial activity that may suit acne-prone skin; and ascorbyl glucoside as a precursor converted in the skin, stable in the bottle and a low-irritation starting point. His practical advice is to read which form you are buying and to prefer an airless pump or a dark bottle for L-ascorbic acid.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
 name: Ascorbic acid (vitamin C)
 slug: ascorbic-acid-vitamin-c
 tier: mid

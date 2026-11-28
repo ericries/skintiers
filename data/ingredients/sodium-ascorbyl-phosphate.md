@@ -7,6 +7,18 @@ tier: mid
 status: published
 type: ingredient
 updated: '2026-08-09'
+videos:
+- title: Why Your Vitamin C Isn't Working
+  creator: Dr. Dustin Portela
+  creator_slug: dustin-portela
+  credential: Board-certified dermatologist
+  platform: YouTube
+  url: https://www.youtube.com/watch?v=T8yxDm6ZgVs
+  posted: '2025-10-26'
+  related: [ferulic-acid, 3-o-ethyl-ascorbic-acid, tetrahexyldecyl-ascorbate, skinceuticals-c-e-ferulic]
+  thesis: Board-certified dermatologist Dr. Dustin Portela walks through the four over-the-counter forms of vitamin C and why the form on the label decides whether a serum does anything. He puts L-ascorbic acid first as the most potent and by far the most researched, while warning it is among the least stable molecules in skincare and can irritate at higher strengths, and he treats a serum turning brown in the bottle as the visible sign it has oxidised. Magnesium ascorbyl phosphate he calls the gentle option, more stable and more tolerable but less potent; sodium ascorbyl phosphate he describes as very stable and water soluble with some antimicrobial activity that may suit acne-prone skin; and ascorbyl glucoside as a precursor converted in the skin, stable in the bottle and a low-irritation starting point. His practical advice is to read which form you are buying and to prefer an airless pump or a dark bottle for L-ascorbic acid.
+  note: Verified from the video's transcript (yt-dlp, read in full); no sponsorship.
+
 ---
 
 Sodium ascorbyl phosphate is a water-soluble, phosphate-bonded derivative of [[ascorbic-acid-vitamin-c]], formulated because it stays stable near neutral pH, a range where plain ascorbic acid degrades in solution.[^geesin] That neutral-pH stability lets it avoid the strongly acidic formulation L-ascorbic acid needs to penetrate skin, but the tradeoff is that SAP itself is inactive as applied: it depends on skin enzymes cleaving the phosphate group to release free ascorbic acid before it can do anything, a conversion demonstrated in an animal skin model but not measured directly in human skin.[^nayama] Its strongest controlled human evidence is for [[acne]], at 5% concentration, not for the brightening or anti-aging claims it is usually marketed on.
