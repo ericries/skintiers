@@ -100,7 +100,26 @@ candidates never enter `video-candidates.yaml`. Do not hand-edit that queue.
 Note that only the subtitle endpoint is affected. `yt-dlp` metadata and
 `video_views.py` work normally during a 429, so vetting and the popularity check
 can be completed and recorded in advance; the transcript is the only missing
-input. When a transcript window reopens, card these from the list below and
+input.
+
+**But do not read that as a guarantee that you still have a caption fetch in
+hand.** Observed 2026-11-27: a video-pull tick passed the popularity check, chose
+its candidate, and its FIRST network caption attempt of the day returned 429
+immediately and wrote the cooldown. Both transcripts read earlier that day were
+cache hits, so no caption had been downloaded from the network at all. What had
+run before it, in the preceding backfill tick, were seven ordinary `yt-dlp`
+metadata calls: four `video_views.py` lookups, two `upload_date` probes and one
+playlist listing.
+
+That is consistent with metadata calls drawing on the same budget they are not
+themselves blocked by, which would make the popularity check a cost rather than
+a saving. It is equally consistent with the window having been spent by another
+cron, or by an earlier window that had not reset, and this one observation cannot
+separate those. So treat it as a planning rule rather than a mechanism: assume
+NOTHING about caption availability until a fetch actually returns text, rank
+candidates before fetching because that is cheap insurance either way, and when
+the first attempt 429s, stop the batch rather than spending `--ignore-cooldown`
+to find out. Never record a 429 as a transcript-less video. When a transcript window reopens, card these from the list below and
 delete the rows. Run the mandatory sponsorship scan then, as always, since none
 of these has been read yet.
 
