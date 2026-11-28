@@ -4766,3 +4766,14 @@
     the hyperpigmentation hub's tier_list of actives by evidence, which ranks 13 others.
     Either it belongs in that ranking or it does not, and the product page's own sources
     are the place to settle it
+- name: Diethyl phthalate in fragrance
+  type: ingredient
+  priority: 3
+  status: pending
+  discovered_from: label-words-alcohol-free-fragrance-free-hypoallergenic
+  source: GROUNDED 2026-11-27 in the FDA Fragrances in Cosmetics page cited on label-words-alcohol-free-fragrance-free-hypoallergenic,
+    which states that the phthalate commonly used in fragrance products is diethyl
+    phthalate. The site has no phthalate page at all, while phthalate avoidance is
+    a mainstream consumer concern, so the gap is both real and reader-facing. The
+    FDA page is the starting source and carries its own position; read it rather than
+    campaign material

@@ -20940,25 +20940,20 @@ ingredient-evidence-by-who-ran-the-only-trial:
   reviewer: main-loop
   verdict: publish
 label-words-alcohol-free-fragrance-free-hypoallergenic:
+  last_reviewed: '2026-11-27'
   assurance: sonnet
-  notes: 'Built entirely from two FDA pages read in full; every quoted span machine-checked
-    verbatim against them, zero mismatches after three fixes. The verbatim checker
-    earned its keep: all three failures were NESTED QUOTATION, where the FDA source
-    contains its own quote marks (a court sentence ending in hypoallergenic inside
-    quotes, and a clause that reads the term " alcohol ," with spaces inside the marks).
-    Rather than silently re-punctuate a federal source I cut each quoted span short
-    of the nesting and recorded the full source clause in the footnote, so the quotes
-    are exactly reproducible. Three deliberate restraints. The court case is not named
-    or dated, because the FDA page as read gives neither. The fragrance-free absence
-    is scoped to the two pages read plus one 404, and says explicitly that it does
-    NOT establish there is no FDA material on fragrance labelling elsewhere. And the
-    page says the hypoallergenic finding does not mean such products are worse or
-    that brands are lying, only that the word carries no testing requirement. The
-    alcohol-free section validates the Altreno case already on benzyl-alcohol from
-    the regulator''s side rather than restating it.'
-  reviewed: '2026-11-18'
-  reviewer: main-loop
-  verdict: publish
+  note: 'Main-loop self-verification, no subagent (standing instruction). Added the
+    sourced "Unscented: a masking fragrance is still fragrance" section from the FDA
+    Fragrances in Cosmetics page, fetched and read in full. All five new quotations
+    verified verbatim by normalised match against the fetched text, and the footnote
+    quote count checked even so no span is mis-paired. fda.gov classifies primary,
+    so no source-cache entry is required. The section also supplies a citation for
+    a claim the page previously asserted uncited, that a product can be unscented
+    while carrying a masking fragrance. ABSENCE SCOPED DELIBERATELY: the FDA page
+    says nothing about EU allergen-disclosure rules, and I did not read the regulation
+    this tick, so the page makes no EU claim and the footnote says why. That gap is
+    queued separately with an instruction to read EUR-Lex directly rather than secondary
+    summaries.'
 strataderm-silicone-scar-gel:
   assurance: sonnet
   notes: 'Self-verified against the PubMed record and the cached maker page; every

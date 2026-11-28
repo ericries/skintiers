@@ -1120,14 +1120,35 @@
 - name: 'Fragrance-free versus unscented: what each is allowed to contain'
   type: goal
   priority: 3
-  status: pending
+  status: done
   discovered_from: label-words-alcohol-free-fragrance-free-hypoallergenic
-  source: The gap this page could only point at. FDA's Cosmetics Labeling Claims section
-    defines five terms and fragrance-free is not among them, so the definition has
-    to come from elsewhere, probably 21 CFR labelling rules or FTC guidance. The practical
-    distinction is that an unscented product may contain a MASKING fragrance. Needs
-    its own primary sourcing; do not cite the two claims pages for it, they say nothing
-    on the subject
+  source: 'The gap this page could only point at. FDA''s Cosmetics Labeling Claims
+    section defines five terms and fragrance-free is not among them, so the definition
+    has to come from elsewhere, probably 21 CFR labelling rules or FTC guidance. The
+    practical distinction is that an unscented product may contain a MASKING fragrance.
+    Needs its own primary sourcing; do not cite the two claims pages for it, they
+    say nothing on the subject DONE 2026-11-27, but as a SECTION rather than a new
+    page, which is the deviation worth recording. data/goals/label-words-alcohol-free-fragrance-free-hypoallergenic.md
+    is titled ''What the Label Words Are Allowed to mean'' and already owned a ''Fragrance-free:
+    the FDA does not define it here'' subsection, so a second hub on the same distinction
+    would have competed with it for the same reader and split the topic. It now carries
+    ''Unscented: a masking fragrance is still fragrance'' instead.
+
+
+    Net gain beyond relocation. The page previously asserted that a product can be
+    marketed as unscented while containing a masking fragrance with NO citation attached;
+    that claim is now sourced to the FDA''s Fragrances in Cosmetics page, which states
+    the masking mechanism outright. Two further sourced points were genuinely new:
+    that a US ingredient list may compress a whole mixture into the single word Fragrance,
+    because the Fair Packaging and Labeling Act cannot be used to compel a trade secret,
+    and that the FDA says in its own words it lacks food-style authority to require
+    cosmetic allergen labelling. That is the concrete reason the four oxidised-terpene
+    pages matter: on a US label none of them need appear by name.
+
+
+    Five quotes verified verbatim against the fetched page. EU allergen disclosure
+    is deliberately NOT claimed anywhere on the page, because the FDA source says
+    nothing about it and I did not read the regulation this tick; it is queued separately'
 - name: Pressure garment therapy for burn scars
   type: goal
   priority: 4
@@ -1231,3 +1252,18 @@
     the site brackets HRT and other non-topical anti-ageing as a later phase, so this
     hub should cover the SKIN changes and topical responses, and link out rather than
     assess systemic hormone therapy'
+- name: 'EU fragrance allergen disclosure: why a label ever names linalool at all'
+  type: goal
+  priority: 3
+  status: pending
+  discovered_from: label-words-alcohol-free-fragrance-free-hypoallergenic
+  source: 'GROUNDED 2026-11-27 in the gap I explicitly declined to fill on label-words-alcohol-free-fragrance-free-hypoallergenic.
+    That page now establishes, from the FDA, that a US label may hide every fragrance
+    component inside the single word Fragrance. Readers nonetheless DO see linalool,
+    limonene, geraniol and citronellol itemised, and the reason is EU disclosure rules
+    rather than US ones. Research the actual instrument (Regulation (EC) No 1223/2009
+    Annex III, and the 2023 amendment that expanded the list) from EUR-Lex itself,
+    not from secondary summaries, and get the concentration thresholds right: the
+    commonly cited 0.001% leave-on and 0.01% rinse-off figures must be read off the
+    regulation. This is the missing half of the labelling story and it links four
+    existing ingredient pages'
